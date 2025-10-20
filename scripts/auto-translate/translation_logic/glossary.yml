@@ -1,6 +1,10 @@
 non_translatable:
   #  - second layer
+  - ADDR
+  - ADDR.DAT
+  - ADDRV2
   - Alice
+  - AML/CTF
   - ASIC
   - Address
   - off chain
@@ -8,30 +12,55 @@ non_translatable:
   - Altcoin
   - AluVM
   - Anchor
+  - ANCHORS.DAT
+  - AOPP
+  - API
   - Aqua
+  - ARK
+  - ASCII
+  - ASMAP
   - Assignment
+  - ATH
+  - ATLC
   - Sybil Attack
+  - BANLIST.DAT
+  - BANLIST.JSON
+  - BARE-Multisig
+  - BASE58CHECK
+  - BECH32
+  - BECH32M
   - B-CERT
   - BDK
-  - Biz School
-  - Bob
-  - BUIDL
   - Bitcoin
   - Bitcoin core
   - Bitcoin Dev Kit
   - Bitcoin Game Show
   - Bitcoin Knots
+  - Bitcoin Satoshi Vision
+  - Bitcoin.conf
   - BIP
   - BIPs
+  - Biz School
   - Blind signature
   - Blinding key
   - Blinded ranges
+  - BLK*.DAT
+  - BLKINDEX.DAT
+  - BLKTREE/
+  - BLOCK
   - Block explorer
   - Block reward
   - Blockchain
+  - BLOCKSIZE WAR
+  - BLOCKSTREAM
   - Blockstream Green
+  - Bob
   - Bolt
+  - BTCPAY SERVER
+  - BUIDL
   - Business Logic
+  - B-MONEY
+  - CGMINER
   - chain code
   - CLI
   - CPFP
@@ -54,6 +83,8 @@ non_translatable:
   - Contract Rights
   - Contract State
   - Cypherpunk
+  - DB.LOG
+  - DEBUG.LOG
   - Debugger
   - Decouvre Bitcoin
   - Descriptor
@@ -63,31 +94,55 @@ non_translatable:
   - Double-spending
   - Dust
   - Découvre Bitcoin
+  - ECASH
+  - ECLAIR
+  #- ELECTRS
+  - Electrs
+  #- ELECTRUM
+  - Electrum
+  #- ELECTRUM SERVER
+  - Electrum Server
   - Elements
+  #- ELTOO
+  - Eltoo
   - Engraving Extra Transaction Proof
   - Exchange
   - Faucet
   - Federated 2-Way Peg
+  #- FEDIMINT
+  - Fedimint
+  - FIBRE
+  - FINNEY HAL
   - Fork
   - Full node
   - Full-node
   - Genesis
   - Global State
   - Green
-  - HODL
-  - HTLC
+  - Hal Finney
   - Halving
   - Hard
   - Hard Fork
   - Hardware Wallet
   - Hash
+  #- HASHCASH
+  - HashCash
   - Hashrate
-  - Hot 
+  - HODL
+  - Hot
+  - HTLC
+  - INDEXES/TXINDEX/
   - Interface
   - Interface Implementation
   - Invoice
+  - IP_ASN.MAP
   - Issued Assets
+  - JOINMARKET
   - Keysend
+  - LEVELDB
+  - LIBSECP256K1
+  - LIGHTNING NODE
+  - LIGHTNING SERVICE PROVIDER
   - LN
   - LND
   - LNURL-Withdraw
@@ -100,19 +155,97 @@ non_translatable:
   - Liquid Network
   - Mainnet
   - Maximalist
+  - MAX_BLOCK_SIZE
+  - MEMPOOL.DAT
   - Mempool
   - Merkle Root
   - Merkle Tree
   - Miner
   - Mining
   - mining
-  - Mining pool
+  - Mining Farm
+  - Mining Pool
   - Mnemonic
   - Multi Protocol Commitment
   - Multisig
+  - NLOCKTIME
   - Nonce
+  - NO2X
+  - nSequence
+  - nVersion
+  - ONION_PRIVATE_KEY
+  - ONION_V3_PRIVATE_KEY
+# operators
   - OP_CODE
   - OP_RETURN
+  - OP_0NOTEQUAL
+  - OP_1ADD
+  - OP_1NEGATE
+  - OP_1SUB
+  - OP_2 TO OP_16
+  - OP_2DROP
+  - OP_2OVER
+  - OP_2ROT
+  - OP_2SWAP
+  - OP_ADD
+  - OP_BOOLAND
+  - OP_BOOLOR
+  - OP_CAT
+  - OP_CHECKHASHVERIFY
+  - OP_CHECKLOCKTIMEVERIFY
+  - OP_CHECKMULTISIG
+  - OP_CHECKMULTISIGVERIFY
+  - OP_CHECKSEQUENCEVERIFY
+  - OP_CHECKSIG
+  - OP_CHECKSIGADD
+  - OP_CHECKSIGVERIFY
+  - OP_CODESEPARATOR
+  - OP_DEPTH
+  - OP_DROP
+  - OP_DUP
+  - OP_ELSE
+  - OP_ENDIF
+  - OP_EQUAL
+  - OP_EQUALVERIFY
+  - OP_EVAL
+  - OP_FALSE
+  - OP_FROMALTSTACK
+  - OP_GREATERTHAN
+  - OP_GREATERTHANOREQUAL
+  - OP_HASH160
+  - OP_HASH256
+  - OP_IF
+  - OP_LESSTHAN
+  - OP_LESSTHANOREQUAL
+  - OP_NEGATE
+  - OP_NIP
+  - OP_NOP
+  - OP_NOT
+  - OP_NOTIF
+  - OP_NUMEQUAL
+  - OP_NUMEQUALVERIFY
+  - OP_NUMNOTEQUAL
+  - OP_OVER
+  - OP_PICK
+  - OP_PUSHDATA1
+  - OP_PUSHDATA2
+  - OP_PUSHDATA4
+  - OP_RIPEMD160
+  - OP_ROLL
+  - OP_ROT
+  - OP_SHA1
+  - OP_SHA256
+  - OP_SIZE
+  - OP_SUB
+  - OP_SUCCESS
+  - OP_SWAP
+  - OP_TOALTSTACK
+  - OP_TRUE
+  - OP_TUCK
+  - OP_VERIFY
+  - OP_WITHIN
+  - OVERCLOCKING
+  - OVERCLOCK
   - On-Chain
   - Orphan block
   - Owned State
@@ -121,6 +254,12 @@ non_translatable:
   - P2SH
   - P2TR
   - P2WPKH
+  - PATOSHI
+  - PAYNYM
+  - PEERS.DAT
+  - Phoenix
+  - PHOENIXD
+  - POOL
   - PSBT
   - Partially Signed Bitcoin Transaction
   - Pay-to-Script-Hash
@@ -135,12 +274,14 @@ non_translatable:
   - Proof of Work
   - Proof-of-Work
   - pruned
+  - QUBIT
   - RBF
   - RGB
   - RPC
   - Redeem
   - Replace by fee
   - Replace-by-fee
+  - RICOCHET
   - Rust
   - Satoshi
   - Sats
@@ -148,31 +289,53 @@ non_translatable:
   - Seal
   - Seal Definition
   - SegWit
+  - SEGWIT2X
   - Shard
+  - Shitcoin
   - Sidechain
+  # Sighash
+  - SIGHASH_ALL
+  - SIGHASH_ALL/SIGHASH_ACP
+  - SIGHASH_ANYPREVOUT
+  - SIGHASH_ANYPREVOUTANYSCRIPT
+  - SIGHASH_NONE
+  - SIGHASH_NONE/SIGHASH_ACP
+  - SIGHASH_SINGLE
+  - SIGHASH_SINGLE/SIGHASH_ACP
+  - SIGNET
+  - SILK ROAD
   - Single-Use Seal
+  - SLIP
   - Smart contract
   - Sparrow
   - Sparrow wallet
   - Soft
   - Soft Fork
   - Software Wallet
+  - STABLECOIN
   - Stash
   - State Extension
   - State Transition
+  - STONEWALL
+  - STRATUM
   - Strong Federation
   - Supply
   - Taproot
   - Tech School
   - Terminal Consignment
   - Testnet
+  - TIDES
+  - TIMELOCK
   - Timestamp
   - Transition Bundle
   - Trustless
   - Unconfidential address
   - UTXO
   - Valency
+  - WABISABI
   - Wallet
+  - WALLET.DAT
+  - WALLETS/DB.LOG
   - Watch Tower
   - Watch Towers
   - watch towers
@@ -180,7 +343,10 @@ non_translatable:
   - Watch-only wallet
   - Watchtower
   - Whirlpool
+  - WHITE PAPER
   - Witness Transaction
+  - ZEROCONF
+  - ZEROSYNC
   - \langle
   - \ldots
   - \rangle

@@ -1,35 +1,18 @@
 ---
 name: Los orígenes de la economía del laissez-faire
-goal: explorar los fundamentos del pensamiento económico liberal francés del siglo XVIII, centrándose en la doctrina del laissez-faire, sus principales pensadores y su influencia duradera.
-objectives: 
-
-
-  - Conozca a fondo los conceptos clave del pensamiento económico liberal francés y su evolución durante el siglo XVIII
-  - Comprender los argumentos de los pensadores franceses contra el intervencionismo estatal
-  - Evaluar el impacto de esta escuela francesa de pensamiento y su papel en la configuración del desarrollo de la economía política mundial
-  - Desarrollar una comprensión crítica de la continuidad histórica entre diferentes pensadores y sus teorías
-
-
+goal: Explore los fundamentos del pensamiento económico liberal del siglo XVIII, con énfasis en la doctrina del laissez-faire, sus principales pensadores y su influencia duradera.
+objectives:
+- Obtener una comprensión sólida de los conceptos clave del pensamiento económico liberal y cómo evolucionaron durante el siglo XVIII
+- Comprender los argumentos que los pensadores desarrollaron contra el intervencionismo estatal
+- Evaluar el impacto del pensamiento del laissez-faire en la configuración del desarrollo de la economía política global
+- Examinar la tensión entre teoría y práctica en la implementación de la economía liberal
 ---
-
 # Un viaje a la historia económica de la libertad
 
+Este curso explora el nacimiento de la ciencia económica en la Francia del siglo XVIII a través de la lente del laissez-faire. Descubrirás cómo los pensadores desafiaron el mercantilismo argumentando que el Estado debería proteger los derechos privados, pero nunca manipular los mercados mediante regulaciones.
 
-
-En la Francia de principios del siglo XVIII empezó a gestarse una nueva forma de concebir la economía. Surgió como respuesta al férreo control del Antiguo Régimen y giró en torno a una poderosa idea: *laissez-faire* - "dejar hacer".
-
-Se dice que la frase procede de una conversación entre un comerciante y el ministro Colbert. Cuando el ministro le preguntó: "¿Qué puede hacer el Gobierno para ayudar a su negocio?", el comerciante respondió: "Déjenos hacerlo a nosotros".
-
-
-Desde entonces, muchos pensadores empezaron a apoyar esta idea, creyendo que el papel del gobierno debería ser limitado. Debe proteger los derechos individuales, pero evitar intervenir en los asuntos económicos, por miedo a perturbarlo y destruirlo todo. En primer lugar, debe recaudar impuestos de manera justa y equitativa (Vauban, Boisguilbert). Después, debe abstenerse de manipular la moneda, devaluando su valor para financiarse a bajo coste (Cantillon tras el desastre de John Law; Dupont de Nemours antes del de los Assignats). Debe garantizar la libertad de trabajo, abolir los gremios y las regulaciones gravosas sobre la industria y el comercio, que obstaculizan el progreso económico (ideas apoyadas por d'Argenson, Gournay, los fisiócratas y Turgot).
-
-
-
-Por último, el Estado debe permitir la libre circulación de mercancías, lo que llevó a algunos a añadir al laissez-faire la expresión "laissez-passer", que permite a los consumidores comprar al mejor precio y favorece la paz y la fraternidad entre las naciones (Quesnay y los fisiócratas, Abad de Saint-Pierre). Al defender este ideal del laissez-faire, los economistas franceses del siglo XVIII sentaron las bases de la ciencia económica. Tras haber dominado su propia época, siguen teniendo el poder de guiar la nuestra.
-
-
+Aprenderás cómo los reformadores visionarios extendieron esta visión para exigir el libre comercio y la circulación irrestricta de bienes, sentando las bases intelectuales del capitalismo moderno. Al estudiar a estos economistas pioneros, comprenderás los principios atemporales que dieron forma a la economía política global y continúan influyendo en los debates políticos actuales. Únete ahora para dominar las ideas que construyeron la economía moderna.
 +++
-
 # Introducción
 
 <partId>06d67531-19f1-4f8d-bf8f-77bbcc743672</partId>

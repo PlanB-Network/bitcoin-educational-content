@@ -30,6 +30,8 @@ Théo; contribution
 
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
+:::video id=de7236a0-2985-41ef-86f7-3fa0b7f94531:::
+
 **Objective: Update your security skills !**
 
 Welcome, everyone, to this educational program dedicated to digital security. This course is designed to be accessible to everyone, so no prior knowledge of computer science is required. Our primary goal is to equip you with the knowledge and skills necessary to navigate the digital world more safely and securely.
@@ -85,6 +87,8 @@ Ready to strengthen your digital security and take back control of your data? Le
 
 <chapterId>3a935da9-fa6e-57eb-bf85-7b3ec35e6ee2</chapterId>
 
+:::video id=f1cead27-ed41-4ca2-afd2-b08a994d0119:::
+
 When browsing the internet, it is essential to avoid common mistakes to maintain your online security. Here are some tips to avoid them:
 
 ### Be cautious with software downloads:
@@ -129,6 +133,8 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 <chapterId>5aac83f4-a685-54b0-9759-d71bea7eeed2</chapterId>
 
+:::video id=737d30ac-43d8-4a69-afda-89b9d7e8c4e1:::
+
 ### VPNs
 
 Protecting your internet connection is a crucial aspect of online security, and using virtual private networks (VPNs) is an effective method to enhance this security, both for businesses and individual users.
@@ -170,6 +176,8 @@ In summary, the use of a VPN can greatly improve online security for both busine
 ## Computer Use
 
 <chapterId>16745632-b56b-5423-9873-ddf70fdf1efd</chapterId>
+
+:::video id=35892007-5ea5-4956-bf80-3363d69c96d5:::
 
 The security of our computers is a major concern in today's digital world. Today, we will address three key points:
 
@@ -222,6 +230,8 @@ In conclusion, it is essential to choose an operating system that suits your nee
 
 <chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>
 
+:::video id=c6a2c152-f1ae-492c-8993-304d64cdda45:::
+
 ### How do hackers attack?
 
 To protect yourself effectively, it is essential to understand how hackers attempt to infiltrate your computer. Indeed, viruses do not often appear magically, but rather are the consequences of our actions, even if unintentional.
@@ -271,6 +281,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 <chapterId>dfceea33-8712-5557-ace1-6ba5598d33d8</chapterId>
 
+:::video id=75cc914d-9c11-4d3f-86a7-6faf2077f00f:::
+
 ### Setting up a new email account!
 
 The email account is the central point of your online activity: if it is compromised, a hacker can use it to reset all your passwords via the "forgot password" function and gain access to many other sites. That's why you need to secure it properly.
@@ -303,6 +315,8 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 ## Password Manager
 
 <chapterId>0b3c69b2-522c-56c8-9fb8-1562bd55930f</chapterId>
+
+:::video id=106b6f17-a5c1-4155-abdf-043ce469d45b:::
 
 ### What is a password manager?
 
@@ -352,6 +366,8 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 ## Two-Factor Authentication
 
 <chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>
+
+:::video id=10fede6f-c839-4455-b324-e887c502667e:::
 
 ### Why implement 2FA
 
@@ -484,6 +500,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 <chapterId>aad1ae27-4280-5b07-b9ab-118ae013951a</chapterId>
 
+:::video id=4c818b5c-ea5d-496a-8e82-bc5d96d91430:::
+
 ### Cybersecurity: A Growing Field with Endless Opportunities
 
 If you are passionate about protecting systems and data, the field of cybersecurity offers numerous opportunities. If this industry intrigues you, here are some key steps to guide you.
@@ -521,6 +539,8 @@ By mastering these skills and tools, you will be well-equipped to navigate the w
 ## Interview with Renaud
 
 <chapterId>7d83fd98-ce22-514e-b9e8-729fbf71ee6e</chapterId>
+
+:::video id=ec7014aa-5ebe-444c-80d1-7b14f1fe7bb8:::
 
 ### Efficient Password Management and Authentication Strengthening: An Academic Approach
 

@@ -20,6 +20,38 @@ Tận hưởng khám phá của bạn nhé!
 
 +++
 
+# Giới thiệu
+
+<partId>bd35d5be-323e-42e0-a0ba-10729f71c3bd</partId>
+
+## Tổng quan khóa học
+
+<chapterId>ee9d6cdf-4c97-455b-8220-cf6dfc95cb8e</chapterId>
+
+Chào mừng bạn đến với khóa học PRO 202 _**Programming Bitcoin**_, một hành trình chuyên sâu đưa bạn từ số học trường hữu hạn đến việc xây dựng và phát sóng các giao dịch thực trên mạng thử nghiệm của Bitcoin.
+
+Trong khóa học này, bạn sẽ từng bước xây dựng một thư viện Bitcoin bằng Python đồng thời học các kiến thức nền tảng về mật mã học, giao thức và phần mềm cần thiết để hiểu chính xác về bảo mật và cơ chế hoạt động nội bộ của Bitcoin. Cách tiếp cận của PRO 202 hoàn toàn thực hành: mỗi khái niệm được triển khai ngay trong sổ tay Jupyter, đảm bảo lý thuyết và mã củng cố lẫn nhau.
+
+### Các khái niệm toán học cơ bản cho Bitcoin
+
+Phần đầu tiên này thiết lập nền tảng toán học không thể thiếu. Bạn sẽ triển khai số học trường hữu hạn và các phép toán trên đường cong elliptic (định luật nhóm, cộng, nhân đôi, nhân vô hướng...) — những điều kiện tiên quyết cho ECDSA. Mục tiêu có hai: hiểu cấu trúc đại số làm cho chữ ký mật mã trở nên khả thi và xây dựng các công cụ Python đáng tin cậy để thao tác chúng.
+
+Sau đó, bạn sẽ chính thức hóa các thành phần của ECDSA: tạo khóa, định dạng điểm, băm, tạo và xác minh chữ ký. Phần này kết nối trực tiếp giữa lý thuyết và thực hành, nhấn mạnh các chi tiết triển khai và tính vững chắc của mô hình bảo mật cơ bản.
+
+### Cơ chế hoạt động bên trong của giao dịch Bitcoin
+
+Trong phần thứ hai, bạn sẽ phân tích cấu trúc của một giao dịch Bitcoin: UTXO, đầu vào/đầu ra, chuỗi, tập lệnh, mã hóa và nhiều hơn nữa. Bạn sẽ viết mã để xây dựng, ký và xác minh các giao dịch, qua đó hiểu rõ chính xác điều gì được cam kết bởi hàm băm và lý do tại sao.
+
+Tiếp theo, bạn sẽ triển khai một trình thực thi _Script_ tối giản, xem xét các mã vận hành chính và xác thực các đường dẫn chi tiêu. Mục tiêu là giúp bạn có khả năng kiểm toán hành vi giao dịch, chẩn đoán các lỗi xác thực và đánh giá tính an toàn của các chính sách chi tiêu.
+
+### Cơ chế hoạt động bên trong của mạng Bitcoin
+
+Trong phần thứ ba, bạn sẽ đặt giao dịch trong hệ thống tổng thể: cấu trúc khối, tiêu đề, độ khó và cơ chế Proof-of-Work. Bạn sẽ xử lý các thông điệp giao thức, tiêu đề khối và cây Merkle.
+
+Cuối cùng, bạn sẽ nghiên cứu giao tiếp giữa các nút ngang hàng (peer-to-peer), tối ưu hóa thông điệp và việc giới thiệu SegWit.
+
+Giống như mọi khóa học tại Plan ₿ Academy, phần cuối cùng bao gồm một bài đánh giá được thiết kế để củng cố sự hiểu biết của bạn. Sẵn sàng khám phá cách hoạt động bên trong của Bitcoin và viết mã để vận hành nó chưa? Hãy bắt đầu nào!
+
 # Các khái niệm toán học thiết yếu cho Bitcoin
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

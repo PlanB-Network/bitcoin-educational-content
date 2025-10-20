@@ -1,0 +1,21 @@
+id: 076ed1a4-4cb6-4086-a7be-f8183ab2863a
+start_date: 2025-10-31 05:30:00
+end_date: 2025-11-02 08:30:00
+timezone: Asia/Kolkata
+address_city_country: Goa, India
+name: BPI India - Bitcoin Policy Workshop
+type: workshop
+project_id: 5cffb254-278e-4d87-a4d6-4efe5a538dde
+description: |
+  "History of monetary policy, current levers (RBI/MoF, GST/TDS,
+  imports), global playbooks, and India roadmaps across Mining, Treasury,
+  Education, Exchange of Value, Monetary Sovereignty. 1:1 slots at the end.\r
+
+  Includes Bitplebs Conference Pass, the next day, as well."
+language:
+  - en
+links:
+  website: https://luma.com/bitplebspolicy
+tags:
+  - market-trends
+  - business

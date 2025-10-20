@@ -20,6 +20,38 @@ Desfrute da sua descoberta!
 
 +++
 
+# Introdução
+
+<partId>bd35d5be-323e-42e0-a0ba-10729f71c3bd</partId>
+
+## Visão geral do curso
+
+<chapterId>ee9d6cdf-4c97-455b-8220-cf6dfc95cb8e</chapterId>
+
+Bem-vindo ao curso PRO 202 _**Programming Bitcoin**_, uma jornada intensiva que o leva da aritmética de campos finitos até a criação e transmissão de transações reais na Testnet do Bitcoin.
+
+Neste curso, você construirá progressivamente uma biblioteca Bitcoin em Python, enquanto adquire os fundamentos criptográficos, de protocolo e de software necessários para compreender com precisão a segurança e o funcionamento interno do Bitcoin. A abordagem do PRO 202 é totalmente prática: cada conceito é imediatamente implementado em notebooks Jupyter, garantindo que teoria e código se reforcem mutuamente.
+
+### Conceitos matemáticos essenciais para o Bitcoin
+
+Esta primeira secção estabelece a base matemática indispensável. Irá implementar a aritmética de corpos finitos e as operações de curvas elípticas (lei do grupo, adição, duplicação, multiplicação escalar...) — os pré-requisitos para ECDSA. O objetivo é duplo: compreender a estrutura algébrica que torna possíveis as assinaturas criptográficas e construir ferramentas Python fiáveis para as manipular.
+
+Em seguida, você formalizará os componentes do ECDSA: geração de chaves, formatação de pontos, hashing, criação e verificação de assinaturas. Esta seção conecta diretamente a teoria à prática, enfatizando os detalhes de implementação e a robustez do modelo de segurança subjacente.
+
+### Funcionamento interno de uma transação de Bitcoin
+
+Na segunda seção, você analisará a estrutura de uma transação Bitcoin: UTXOs, entradas/saídas, sequências, scripts, codificações e mais. Você escreverá código para construir, assinar e verificar transações, obtendo uma compreensão precisa do que é comprometido pelo hash e por quê.
+
+Em seguida, você implementará um executor _Script_ mínimo, revisará os principais opcodes e validará os caminhos de gasto. O objetivo é torná-lo capaz de auditar o comportamento das transações, diagnosticar falhas de validação e avaliar a segurança das políticas de gasto.
+
+### Funcionamento interno da rede Bitcoin
+
+Na terceira seção, você colocará a transação dentro do sistema mais amplo: estrutura de bloco, cabeçalhos, dificuldade e o mecanismo de Prova de Trabalho (Proof-of-Work). Você lidará com mensagens de protocolo, cabeçalhos de bloco e árvores de Merkle.
+
+Por fim, você estudará a comunicação entre nós peer-to-peer, a otimização de mensagens e a introdução do SegWit.
+
+Como em todos os cursos da Plan ₿ Academy, a seção final inclui uma avaliação projetada para consolidar sua compreensão. Pronto para descobrir o funcionamento interno do Bitcoin e escrever o código que o impulsiona? Vamos começar!
+
 # Conceitos matemáticos essenciais para o Bitcoin
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

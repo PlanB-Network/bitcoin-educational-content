@@ -38,6 +38,8 @@ Dette kurset er utformet for å gi deg full kontroll over hvordan du lærer, sli
 
 <chapterId>bfc96999-0ee1-5c41-8297-1b629f50cffc</chapterId>
 
+:::video id=58e578ef-bb3c-423d-8431-0c16db8e5f29:::
+
 
 Velkommen til BTC102! Hvis du allerede har fullført BTC101, har du utforsket de viktigste teoretiske konseptene bak hvorfor Bitcoin er en så revolusjonerende teknologi. Nå, med BTC102, er det på tide å sette denne kunnskapen ut i livet. Dette kurset er designet for å hjelpe deg med å bygge din personlige Bitcoin-plan, trinn for trinn.
 
@@ -111,6 +113,8 @@ Er du klar til å begynne din reise inn i Bitcoins verden? Da setter vi i gang!
 
 
 <chapterId>8af2948b-2ab5-54c4-862c-3414b8a285a2</chapterId>
+
+:::video id=9f3a7b2e-2c4d-4c1e-8b1f-3a2c1d4e5f6a:::
 
 
 Bitcoin-økosystemet og miljøet rundt er fortsatt relativt ungt og løst regulert, avhengig av land. Denne friheten åpner for enorme muligheter, men den skaper også grobunn for økonomisk svindel, svindelforsøk og ulike former for manipulasjon. Det er derfor det første kapittelet er så viktig: Hvis du forstår de vanligste fallgruvene, kan du unngå dem. Din økonomiske sikkerhet er en prioritet, for en dårlig opplevelse påvirker ikke bare deg, den påvirker hele Bitcoin-samfunnet.
@@ -350,6 +354,8 @@ Til syvende og sist er det beste forsvaret ditt personlig utdannelse, sunn skeps
 
 <chapterId>f0873bf2-6a6f-5485-bb7a-d84be14f404d</chapterId>
 
+:::video id=2a1b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d:::
+
 
 
 Så snart du begynner å jobbe med Bitcoin, vil du raskt innse at grunnleggende cybersikkerhet ikke er valgfritt - det er helt avgjørende. Svindel og bedrageri er bare toppen av isfjellet. Utilsiktet tap av data, skadevare og kompromitterte passord kan være like ødeleggende, spesielt når du administrerer dine egne nøkler.
@@ -550,6 +556,8 @@ I neste kapittel vil jeg dele noen flere tips for å hjelpe deg med å komme try
 
 
 <chapterId>33134b3f-92c1-5185-afb6-88599e47e801</chapterId>
+
+:::video id=7e9f3b2c-4d1a-4c5e-8b0d-3a2c1d4e5f6b:::
 
 
 
@@ -820,6 +828,8 @@ Ved å følge disse prinsippene vil du kunne nærme deg Bitcoin-investeringer me
 
 <chapterId>ae122ad9-9b4d-5229-9038-e1b99d5cfc83</chapterId>
 
+:::video id=3c2d1e4f-5a6b-7c8d-9e0f-1a2b3c4d5e6f:::
+
 
 I dette kurset er det primære målet å veilede deg gjennom anskaffelse og sikring av dine første bitcoins. Men før du dykker ned i de praktiske trinnene (hvordan du kjøper BTC, hvilke lommebøker du skal bruke og så videre), er det viktig å ta et skritt tilbake og forstå hva Bitcoin egentlig er. Ved å forstå den dypere naturen til Bitcoin vil du se hvorfor millioner av mennesker vender seg til denne teknologien, og hvorfor det er avgjørende å forstå det grunnleggende før du setter sparepengene dine i en så ny og ustabil eiendel.
 
@@ -1039,6 +1049,8 @@ Etter denne introduksjonen til Bitcoin (som kanskje tok litt lenger tid enn 5 mi
 
 <chapterId>d4327ac4-9ff8-5192-b542-cb78c0bd0aa7</chapterId>
 
+:::video id=5f6e7d8c-9b0a-1c2d-3e4f-5a6b7c8d9e0f:::
+
 
 
 Hvorfor er Bitcoin så viktig? Det er det sentrale spørsmålet i dette kurset. Enten det gjelder studiene eller investeringsstrategien din, risikerer du å avvike fra planen din uten en klar forståelse av Bitcoins betydning. Målet er å alltid ha de grunnleggende prinsippene i Bitcoin i bakhodet for å sikre at strategien din forblir i tråd med det du tror på.
@@ -1254,6 +1266,8 @@ Nå som vi har utforsket den dyptgripende betydningen av Satoshi Nakamotos oppfi
 
 
 <chapterId>e106c6f1-d75b-5a62-b245-0ea2e4d02ef8</chapterId>
+
+:::video id=8a9b0c1d-2e3f-4a5b-6c7d-8e9f0a1b2c3d:::
 
 
 
@@ -1596,6 +1610,8 @@ https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86
 
 <chapterId>03017765-53cf-5f14-9682-e99ca02d2241</chapterId>
 
+:::video id=6b7c8d9e-0f1a-2b3c-4d5e-6f7a8b9c0d1e:::
+
 
 Bitcoin er et åpent system som er designet for å være minimalistisk, robust og sikkert fra starten av. For å legge til funksjonalitet uten å endre grunnlaget, skjer utviklingen vanligvis ved å legge til **protokolllag** og supplerende applikasjoner som beriker økosystemet uten at det går på bekostning av desentraliseringen og robustheten til hovedsystemet. Denne fleksibiliteten har gjort det mulig for en rekke selskaper og uavhengige utviklere å bygge en infrastruktur rundt Bitcoin, og legge til innovasjoner tilpasset ulike bruksområder.
 
@@ -1758,6 +1774,8 @@ Neste steg i kurset: Vi går over til det praktiske og hjelper deg med å define
 
 
 <chapterId>c5d87903-a5f2-5eec-887a-f662734ce49b</chapterId>
+
+:::video id=1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d:::
 
 
 Nå som du har lært det teoretiske grunnlaget for Bitcoin, er det på tide å gå over til den praktiske siden. Denne delen vil hjelpe deg å forstå hvordan du skaffer deg dine første bitcoins, hvordan du lagrer dem på en sikker måte, og hvordan du kan skreddersy din tilnærming basert på din personlige situasjon. Målet er å hjelpe deg med å identifisere hvilken type bruker du er, slik at du kan velge en strategi som samsvarer med dine behov og begrensninger.
@@ -2219,6 +2237,8 @@ I de neste kapitlene går vi nærmere inn på hver av disse profilene, slik at d
 
 <chapterId>baf1adc2-3828-5265-8ee5-130be547585c</chapterId>
 
+:::video id=3f4e5d6c-7b8a-9c0d-1e2f-3a4b5c6d7e8f:::
+
 
 I Bitcoin-fellesskapet refererer begrepet "hodler" til noen som har en langsiktig investeringstilnærming. Ordet stammer fra en berømt skrivefeil av "hold" på Bitcoin Talk-forumet for mange år siden, og har siden blitt et symbol på Commitment: hold fast på Bitcoin uansett hva som skjer, uten å stresse over kortsiktige markedssvingninger.
 
@@ -2388,6 +2408,8 @@ I neste kapittel skal vi se nærmere på en lignende, men mer aktiv profil: stab
 
 
 <chapterId>0daf450d-1b91-5d99-9c31-b52ab52a5e21</chapterId>
+
+:::video id=4e5f6a7b-8c9d-0e1f-2a3b-4c5d6e7f8a9b:::
 
 
 I Bitcoin-økosystemet er en stacker en person som har en konsekvent, langsiktig tilnærming til å akkumulere satoshier (eller "Sats"), den minste enheten av Bitcoin. I stedet for å investere en stor sum på én gang, kjøper en stacker regelmessig små mengder Bitcoin, uavhengig av markedsforholdene.
@@ -2582,6 +2604,8 @@ Nå skal vi utforske en radikalt annerledes bitcoinerprofil: den aktive brukeren
 
 
 <chapterId>e0a022ab-207c-571f-b4ad-c432214a756c</chapterId>
+
+:::video id=5f6a7b8c-9d0e-1f2a-3b4c-5d6e7f8a9b0c:::
 
 
 Å bli en aktiv Bitcoin-bruker betyr å gå utover langsiktige investeringsstrategier. I motsetning til hodleren eller stableren, som først og fremst sparer uten å bruke penger, behandler den aktive brukeren Bitcoin som et reelt medium for **Exchange**. De bruker det til å betale for varer og tjenester og deltar aktivt i motøkonomien.
@@ -2830,6 +2854,8 @@ I neste kapittel skal vi se nærmere på den siste og kanskje mest spennende Bit
 
 
 <chapterId>5c624acd-662e-5134-ab7a-fb75cde7c3f8</chapterId>
+
+:::video id=6a7b8c9d-0e1f-2a3b-4c5d-6e7f8a9b0c1d:::
 
 
 For den paranoide Bitcoiner er personvern ikke valgfritt; det er essensielt. I en verden der nesten alle økonomiske bevegelser spores, ser de på det å beskytte identiteten sin og transaksjonshistorikken sin som en ikke-forhandlingsbar del av det å bruke Bitcoin. De er vanligvis veldig klar over risikoen som er involvert i å eksponere personopplysninger (spesielt når de bruker KYC-kompatible børser som krever ID-verifisering).
@@ -3122,6 +3148,8 @@ I neste del av kurset diskuterer vi et viktig tema som ofte blir oversett: hvord
 
 
 <chapterId>233c88d3-2e8e-5eba-ac06-efe67a209038</chapterId>
+
+:::video id=7b8c9d0e-1f2a-3b4c-5d6e-7f8a9b0c1d2e:::
 
 
 Å sikre overføringen av bitcoins er et ansvar som ofte blir oversett, men som er avgjørende. Den økonomiske suvereniteten som Bitcoin tilbyr, kommer også med behovet for nøye boforvaltning. Uten dette kan arvingene dine bli ute av stand til å få tilgang til dine Hard-opptjente midler. I dette kapittelet skal vi se nærmere på de grunnleggende prinsippene for arveplanlegging når det gjelder Bitcoin.
@@ -3444,6 +3472,8 @@ En spesiell takk til [Pamela Morgan] (https://x.com/pamelawjd) for hennes arbeid
 
 
 <chapterId>5f4cfab9-9af1-584b-a1fe-a0769a991f19</chapterId>
+
+:::video id=8c9d0e1f-2a3b-4c5d-6e7f-8a9b0c1d2e3f:::
 
 
 Hvis du har kommet så langt, er du nå en del av en opplyst minoritet! Det er svært få som kommer så langt med Bitcoin, og du kan være stolt av hvor langt du har kommet. Kanskje har du fulgt alle veiledningene i dette opplæringskurset: Satt opp din første Hardware Wallet, sikret deg gjenvinningsfrasen, laget en DCA-plan (dollar-cost averaging), anskaffet Bitcoin med og uten KYC, og til og med planlagt arven etter Bitcoin. Hvert skritt du har tatt er et sprang mot ekte økonomisk suverenitet.

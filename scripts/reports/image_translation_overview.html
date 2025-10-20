@@ -1,0 +1,1260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Translation Overview</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .stats {
+            margin: 20px auto;
+            text-align: center;
+            font-size: 14px;
+            color: #666;
+            max-width: 800px;
+        }
+        .stats strong {
+            color: #333;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: center;
+        }
+        th {
+            background-color: #9C27B0;
+            color: white;
+            font-weight: bold;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+        th.course-header {
+            background-color: #673AB7;
+            text-align: left;
+        }
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+        .translation-cell {
+            position: relative;
+            min-width: 120px;
+        }
+        .translation-complete {
+            background-color: #4CAF50;
+            color: white;
+            font-weight: bold;
+        }
+        .translation-partial {
+            background-color: #FFC107;
+            color: black;
+        }
+        .translation-low {
+            background-color: #FF9800;
+            color: white;
+        }
+        .translation-none {
+            background-color: #f44336;
+            color: white;
+        }
+        .translation-na {
+            background-color: #9E9E9E;
+            color: white;
+        }
+        .translation-info {
+            font-size: 12px;
+            display: block;
+            margin-top: 4px;
+        }
+        .legend {
+            margin: 20px auto;
+            padding: 15px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            max-width: 900px;
+        }
+        .legend h3 {
+            margin-top: 0;
+            color: #333;
+        }
+        .legend-item {
+            display: inline-block;
+            margin: 5px 15px 5px 0;
+        }
+        .legend-color {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            margin-right: 5px;
+            vertical-align: middle;
+            border-radius: 3px;
+        }
+        .footer {
+            margin-top: 20px;
+            text-align: center;
+            color: #666;
+            font-size: 12px;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        .header {
+            position: relative;
+            padding: 20px 0;
+        }
+        .back-button {
+            display: inline-block;
+            padding: 8px 16px;
+            background-color: #f7931a;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 14px;
+            font-weight: 500;
+            transition: background-color 0.2s;
+            margin-bottom: 20px;
+        }
+        .back-button:hover {
+            background-color: #e08316;
+        }
+        .back-button::before {
+            content: '← ';
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="https://surfer.planb.network/translation_report/index.html" class="back-button">Back to Reports</a>
+            <h1>🖼️ Image Translation Overview</h1>
+        </div>
+        <div class="stats">
+            <strong>Languages analyzed:</strong> en, fr, es, it, de, ru, zh-Hant<br>
+            <strong>Total courses:</strong> 34 |
+            <strong>Total images:</strong> 15302 |
+            <strong>Translated:</strong> 7664 (50.1% overall)
+        </div>
+
+        <div class="legend">
+            <h3>Legend</h3>
+            <div class="legend-item">
+                <span class="legend-color" style="background-color: #4CAF50;"></span>
+                <span>Complete (100%)</span>
+            </div>
+            <div class="legend-item">
+                <span class="legend-color" style="background-color: #FFC107;"></span>
+                <span>Partial (50-99%)</span>
+            </div>
+            <div class="legend-item">
+                <span class="legend-color" style="background-color: #FF9800;"></span>
+                <span>Low (1-49%)</span>
+            </div>
+            <div class="legend-item">
+                <span class="legend-color" style="background-color: #f44336;"></span>
+                <span>None (0%)</span>
+            </div>
+            <div class="legend-item">
+                <span class="legend-color" style="background-color: #9E9E9E;"></span>
+                <span>N/A (No content)</span>
+            </div>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th class="course-header">Course</th>
+                    <th>EN</th>
+                    <th>FR</th>
+                    <th>ES</th>
+                    <th>IT</th>
+                    <th>DE</th>
+                    <th>RU</th>
+                    <th>ZH-HANT</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>biz101</td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>31/31</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>31/31</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>31/31</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>31/31</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>31/31</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>31/31</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>31/31</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>biz205</td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/41</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-na'>
+                        <strong>N/A</strong>
+                        <span class='translation-info'>No content</span>
+                    </td>
+                    <td class='translation-cell translation-na'>
+                        <strong>N/A</strong>
+                        <span class='translation-info'>No content</span>
+                    </td>
+                    <td class='translation-cell translation-na'>
+                        <strong>N/A</strong>
+                        <span class='translation-info'>No content</span>
+                    </td>
+                    <td class='translation-cell translation-na'>
+                        <strong>N/A</strong>
+                        <span class='translation-info'>No content</span>
+                    </td>
+                    <td class='translation-cell translation-na'>
+                        <strong>N/A</strong>
+                        <span class='translation-info'>No content</span>
+                    </td>
+                    <td class='translation-cell translation-na'>
+                        <strong>N/A</strong>
+                        <span class='translation-info'>No content</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>btc101</td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>87/87</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>87/87</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>87/87</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>87/87</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>87/87</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>87/87</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>87/87</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>btc102</td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>102/102</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-partial'>
+                        <strong>102/109</strong>
+                        <span class='translation-info'>94%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>102/102</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>102/102</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>102/102</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>102/102</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>102/102</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>btc202</td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/108</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>108/108</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/108</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/108</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/108</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/108</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/108</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>btc204</td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>249/249</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>249/249</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>249/249</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>249/249</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>249/249</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>249/249</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>249/249</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>btc303</td>
+                    <td class='translation-cell translation-partial'>
+                        <strong>21/26</strong>
+                        <span class='translation-info'>81%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/26</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/26</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/26</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/26</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/26</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/26</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>btc304</td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>63/63</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>63/63</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>63/63</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>63/63</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>63/63</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>63/63</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>63/63</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>btc401</td>
+                    <td class='translation-cell translation-partial'>
+                        <strong>61/62</strong>
+                        <span class='translation-info'>98%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/62</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/62</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/62</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/62</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/62</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/62</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>csv402</td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>108/108</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/108</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/108</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/108</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/108</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/108</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/108</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>csv404</td>
+                    <td class='translation-cell translation-na'>
+                        <strong>N/A</strong>
+                        <span class='translation-info'>No images</span>
+                    </td>
+                    <td class='translation-cell translation-na'>
+                        <strong>N/A</strong>
+                        <span class='translation-info'>No content</span>
+                    </td>
+                    <td class='translation-cell translation-na'>
+                        <strong>N/A</strong>
+                        <span class='translation-info'>No content</span>
+                    </td>
+                    <td class='translation-cell translation-na'>
+                        <strong>N/A</strong>
+                        <span class='translation-info'>No content</span>
+                    </td>
+                    <td class='translation-cell translation-na'>
+                        <strong>N/A</strong>
+                        <span class='translation-info'>No content</span>
+                    </td>
+                    <td class='translation-cell translation-na'>
+                        <strong>N/A</strong>
+                        <span class='translation-info'>No content</span>
+                    </td>
+                    <td class='translation-cell translation-na'>
+                        <strong>N/A</strong>
+                        <span class='translation-info'>No content</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>cyp201</td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>71/71</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/71</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/71</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/71</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/71</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/71</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/71</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>cyp302</td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>19/19</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/19</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/19</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/19</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/19</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/19</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/19</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>dev103</td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>8/8</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/8</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/8</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/8</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/8</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/8</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/8</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>dev303</td>
+                    <td class='translation-cell translation-na'>
+                        <strong>N/A</strong>
+                        <span class='translation-info'>No images</span>
+                    </td>
+                    <td class='translation-cell translation-na'>
+                        <strong>N/A</strong>
+                        <span class='translation-info'>No content</span>
+                    </td>
+                    <td class='translation-cell translation-na'>
+                        <strong>N/A</strong>
+                        <span class='translation-info'>No content</span>
+                    </td>
+                    <td class='translation-cell translation-na'>
+                        <strong>N/A</strong>
+                        <span class='translation-info'>No content</span>
+                    </td>
+                    <td class='translation-cell translation-na'>
+                        <strong>N/A</strong>
+                        <span class='translation-info'>No content</span>
+                    </td>
+                    <td class='translation-cell translation-na'>
+                        <strong>N/A</strong>
+                        <span class='translation-info'>No content</span>
+                    </td>
+                    <td class='translation-cell translation-na'>
+                        <strong>N/A</strong>
+                        <span class='translation-info'>No content</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>eco102</td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>125/125</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>125/125</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>125/125</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>125/125</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>125/125</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>125/125</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>125/125</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>eco104</td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>17/17</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/17</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/10</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/17</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/10</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/17</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/17</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>eco201</td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>23/23</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>23/23</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>23/23</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>23/23</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>23/23</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>23/23</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>23/23</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>eco204</td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/72</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>74/74</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/58</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/60</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/63</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/69</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/72</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>his201</td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>70/70</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>70/70</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>70/70</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>70/70</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>72/72</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>70/70</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>70/70</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>his204</td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/138</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>138/138</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/138</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/138</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/138</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/138</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/138</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>his205</td>
+                    <td class='translation-cell translation-na'>
+                        <strong>N/A</strong>
+                        <span class='translation-info'>No content</span>
+                    </td>
+                    <td class='translation-cell translation-partial'>
+                        <strong>47/50</strong>
+                        <span class='translation-info'>94%</span>
+                    </td>
+                    <td class='translation-cell translation-na'>
+                        <strong>N/A</strong>
+                        <span class='translation-info'>No content</span>
+                    </td>
+                    <td class='translation-cell translation-na'>
+                        <strong>N/A</strong>
+                        <span class='translation-info'>No content</span>
+                    </td>
+                    <td class='translation-cell translation-na'>
+                        <strong>N/A</strong>
+                        <span class='translation-info'>No content</span>
+                    </td>
+                    <td class='translation-cell translation-na'>
+                        <strong>N/A</strong>
+                        <span class='translation-info'>No content</span>
+                    </td>
+                    <td class='translation-cell translation-na'>
+                        <strong>N/A</strong>
+                        <span class='translation-info'>No content</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>lnp201</td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>84/84</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/84</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/84</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/84</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/84</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/84</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/84</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>min201</td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>79/79</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/79</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/79</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/79</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/79</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/77</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/79</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>min306</td>
+                    <td class='translation-cell translation-na'>
+                        <strong>N/A</strong>
+                        <span class='translation-info'>No images</span>
+                    </td>
+                    <td class='translation-cell translation-na'>
+                        <strong>N/A</strong>
+                        <span class='translation-info'>No content</span>
+                    </td>
+                    <td class='translation-cell translation-na'>
+                        <strong>N/A</strong>
+                        <span class='translation-info'>No content</span>
+                    </td>
+                    <td class='translation-cell translation-na'>
+                        <strong>N/A</strong>
+                        <span class='translation-info'>No content</span>
+                    </td>
+                    <td class='translation-cell translation-na'>
+                        <strong>N/A</strong>
+                        <span class='translation-info'>No content</span>
+                    </td>
+                    <td class='translation-cell translation-na'>
+                        <strong>N/A</strong>
+                        <span class='translation-info'>No content</span>
+                    </td>
+                    <td class='translation-cell translation-na'>
+                        <strong>N/A</strong>
+                        <span class='translation-info'>No content</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>net302</td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>35/35</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>35/35</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>35/35</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>35/35</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>35/35</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>35/35</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>35/35</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>phi101</td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>102/102</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>102/102</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>102/102</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-partial'>
+                        <strong>102/103</strong>
+                        <span class='translation-info'>99%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>102/102</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>102/102</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>102/102</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>phi305</td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/62</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>62/62</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/62</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/62</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/62</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/62</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/62</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>pos305</td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>128/128</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/128</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/128</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/128</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/128</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/128</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/128</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>pro202</td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/8</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/8</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/8</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/8</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/8</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/8</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/8</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>scu101</td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>21/21</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>21/21</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>21/21</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>21/21</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>21/21</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>21/21</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>21/21</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>scu202</td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/281</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-complete'>
+                        <strong>281/281</strong>
+                        <span class='translation-info'>100%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/281</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/281</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/281</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/281</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                    <td class='translation-cell translation-none'>
+                        <strong>0/281</strong>
+                        <span class='translation-info'>0%</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>sid202</td>
+                    <td class='translation-cell translation-na'>
+                        <strong>N/A</strong>
+                        <span class='translation-info'>No images</span>
+                    </td>
+                    <td class='translation-cell translation-na'>
+                        <strong>N/A</strong>
+                        <span class='translation-info'>No images</span>
+                    </td>
+                    <td class='translation-cell translation-na'>
+                        <strong>N/A</strong>
+                        <span class='translation-info'>No images</span>
+                    </td>
+                    <td class='translation-cell translation-na'>
+                        <strong>N/A</strong>
+                        <span class='translation-info'>No images</span>
+                    </td>
+                    <td class='translation-cell translation-na'>
+                        <strong>N/A</strong>
+                        <span class='translation-info'>No images</span>
+                    </td>
+                    <td class='translation-cell translation-na'>
+                        <strong>N/A</strong>
+                        <span class='translation-info'>No images</span>
+                    </td>
+                    <td class='translation-cell translation-na'>
+                        <strong>N/A</strong>
+                        <span class='translation-info'>No images</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>sid302</td>
+                    <td class='translation-cell translation-na'>
+                        <strong>N/A</strong>
+                        <span class='translation-info'>No images</span>
+                    </td>
+                    <td class='translation-cell translation-na'>
+                        <strong>N/A</strong>
+                        <span class='translation-info'>No images</span>
+                    </td>
+                    <td class='translation-cell translation-na'>
+                        <strong>N/A</strong>
+                        <span class='translation-info'>No images</span>
+                    </td>
+                    <td class='translation-cell translation-na'>
+                        <strong>N/A</strong>
+                        <span class='translation-info'>No images</span>
+                    </td>
+                    <td class='translation-cell translation-na'>
+                        <strong>N/A</strong>
+                        <span class='translation-info'>No images</span>
+                    </td>
+                    <td class='translation-cell translation-na'>
+                        <strong>N/A</strong>
+                        <span class='translation-info'>No images</span>
+                    </td>
+                    <td class='translation-cell translation-na'>
+                        <strong>N/A</strong>
+                        <span class='translation-info'>No images</span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="footer">
+            📅 Generated on 2025-10-19 14:00:00<br>
+            🔄 Run <code>python generate_report.py</code> to update this report<br>
+            <br>
+            <small>Note: Images are considered translated when their path contains the language code (e.g., /en/, /fr/, etc.)</small>
+        </div>
+    </div>
+</body>
+</html>

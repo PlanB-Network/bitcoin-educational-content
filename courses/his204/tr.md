@@ -1,35 +1,18 @@
 ---
 name: Laissez-Faire ekonomisinin kökenleri
-goal: laissez-faire doktrinine, önde gelen düşünürlerine ve kalıcı etkisine odaklanarak 18. yüzyıl Fransız liberal ekonomik düşüncesinin temellerini araştırmak.
-objectives: 
-
-
-  - Fransız liberal ekonomik düşüncesinin ardındaki temel kavramlar ve bunların 18. yüzyıl boyunca nasıl geliştiği hakkında sağlam bir anlayış kazanmak
-  - Fransız düşünürlerin devlet müdahaleciliğine karşı geliştirdikleri argümanları anlamak
-  - Bu Fransız düşünce okulunun etkisini ve küresel ekonomi politiğin gelişimini şekillendirmedeki rolünü değerlendirmek
-  - Farklı düşünürler ve teorileri arasındaki tarihsel sürekliliğe dair eleştirel bir anlayış geliştirmek
-
-
+goal: 18. yüzyıl liberal ekonomik düşüncesinin temellerini, laissez-faire doktrinine, önde gelen düşünürlerine ve kalıcı etkisine odaklanarak keşfedin.
+objectives:
+- Liberal ekonomik düşüncenin ardındaki temel kavramları ve 18. yüzyıl boyunca nasıl evrimleştiklerini sağlam bir şekilde anlamak
+- Düşünürlerin devlet müdahaleciliğine karşı geliştirdikleri argümanları anlamak
+- Laissez-faire düşüncesinin küresel politik ekonominin gelişimini şekillendirmedeki etkisini değerlendirmek
+- Liberal ekonomiyi uygularken teori ve pratik arasındaki gerilimi incelemek
 ---
-
 # Özgürlüğün Ekonomik Tarihine Bir Yolculuk
 
+Bu kurs, 18. yüzyıl Fransa'sında ekonomi biliminin doğuşunu laissez-faire perspektifinden keşfeder. Düşünürlerin, Devletin özel hakları koruması gerektiğini ancak düzenlemeler yoluyla piyasaları asla manipüle etmemesi gerektiğini savunarak merkantilizme nasıl meydan okuduklarını keşfedeceksiniz.
 
-
-18. yüzyılın başlarında Fransa'da ekonomi hakkında yeni bir düşünce tarzı şekillenmeye başladı. Ancien Régime'in ağır kontrolüne bir tepki olarak ortaya çıktı ve güçlü bir fikir etrafında toplandı: *laissez-faire* - "bırakınız yapsınlar".
-
-Bu deyimin bir tüccar ile Bakan Colbert arasında geçen bir konuşmadan geldiği söylenir. Bakan, "Hükümet işinize yardımcı olmak için ne yapabilir?" diye sorduğunda tüccar, "Bırakın biz yapalım" cevabını vermiştir.
-
-
-O zamandan beri pek çok düşünür, hükümetin rolünün sınırlı olması gerektiğine inanarak bu fikri desteklemeye başladı. Hükümet bireysel hakları korumalı, ancak her şeyi bozma ve yok etme korkusuyla ekonomik işlere karışmaktan kaçınmalıdır. Öncelikle vergileri adil ve eşit bir şekilde toplamalıdır (Vauban, Boisguilbert). Ardından, kendisini düşük maliyetle finanse etmek için para biriminin değerini düşürerek manipülasyon yapmaktan kaçınmalıdır (John Law felaketinden sonra Cantillon; Assignats felaketinden önce Dupont de Nemours). Çalışma özgürlüğünü garanti altına almalı, ekonomik ilerlemeyi engelleyen loncaları ve sanayi ve ticaret üzerindeki külfetli düzenlemeleri kaldırmalıdır (d'Argenson, Gournay, Fizyokratlar ve Turgot tarafından desteklenen fikirler).
-
-
-
-Son olarak, Devlet malların serbest dolaşımına izin vermelidir; bu da bazılarının laissez-faire'e "laissez-passer" ifadesini eklemesine yol açmış, tüketicilerin en iyi fiyattan satın almalarını sağlamış ve uluslar arasında barış ve kardeşliği teşvik etmiştir (Quesnay and the Physiocrats, Abbot of Saint-Pierre). Bu laissez-faire idealini savunurken, 18. yüzyılın Fransız ekonomistleri ekonomi biliminin temellerini attılar. Kendi zamanlarına hükmetmiş olan bu iktisatçılar, hala bizim zamanımıza rehberlik etme gücüne sahiptir.
-
-
+Vizyoner reformcuların bu vizyonu serbest ticaret ve malların sınırsız dolaşımını talep edecek şekilde nasıl genişlettiklerini, modern kapitalizmin entelektüel temellerini nasıl attıklarını öğreneceksiniz. Bu öncü ekonomistleri inceleyerek, küresel politik ekonomiyi şekillendiren ve bugün politika tartışmalarını etkilemeye devam eden zamansız ilkeleri anlayacaksınız. Modern ekonomiyi inşa eden fikirlerde ustalaşmak için hemen katılın.
 +++
-
 # Giriş
 
 <partId>06d67531-19f1-4f8d-bf8f-77bbcc743672</partId>

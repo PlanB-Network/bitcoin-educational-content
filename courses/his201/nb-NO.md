@@ -24,6 +24,9 @@ Dette kurset er selvfølgelig sentrert rundt figuren Satoshi Nakamoto, hvis ord 
 ## Kursoversikt
 
 <chapterId>85290407-1aa3-4cb4-890a-aed23441afb7</chapterId>
+
+:::video id=d1eddf56-279d-459a-9568-5674606f0fd1:::
+
 Velkommen til HIS201-kurset!
 Dette kurset har som mål å fortelle deg historien om skapelsen av Bitcoin på en måte du aldri har lest før. Den er ofte oversett, til tross for å være fylt med fascinerende detaljer. Vi vil bestrebe oss på å beskrive den i all sin kompleksitet, fra dens konsepsjon av Satoshi Nakamoto til hans tidlige forsvinning og overleveringen til samfunnet.
 
@@ -89,6 +92,9 @@ Klar for å utforske den utrolige historien om hvordan Bitcoin ble til? Da dykke
 ## eCash: Chaumiansk Digital Kontanter
 
 <chapterId>e443d2ab-68ce-45c0-aec7-30b88d3acdc8</chapterId>
+
+:::video id=fe306046-2245-43a7-9144-6fbafda3205e:::
+
 Før vi går dypere inn i selve historien om Bitcoins skapelse av Satoshi Nakamoto, er det passende å diskutere hva som forutgikk det. Vi vil adressere emnet i tre stadier: først vil vi introdusere konseptet med Chaumiansk digital kontanter, ofte kalt _eCash_; deretter vil vi snakke om private valutaer basert på sentraliserte systemer som e-gull; til slutt vil vi beskrive de tekniske modellene som ble forestilt før implementeringen av det robuste distribuerte systemet som er Bitcoin.
 La oss starte med det første konseptet, eCash. eCash stammer fra arbeidet til David Chaum, en amerikansk datavitenskapsmann og kryptograf født i 1955, ansett som en pioner innen feltet for anonym kommunikasjon og en forløper for cypherpunkene. Han ga et stort bidrag til utviklingen av kryptografi på 1980-tallet. Han utviklet sin modell av digital kontanter (kjent som "Chaumian") på samme tid og forsøkte å implementere den på 1990-tallet gjennom sitt selskap DigiCash.
 
@@ -200,6 +206,8 @@ Med Bitcoin skapte Satoshi Nakamoto en robust og konfidensiell digital valuta, e
 
 <chapterId>43035fa3-2805-4331-a6fb-070931d749cf</chapterId>
 
+:::video id=0f75ff53-ebf6-481c-9d1c-863fabb19a6a:::
+
 I det forrige kapittelet utforsket vi den første formen for elektroniske kontanter som oppsto fra Internettets begynnelse og moderne kryptografi: David Chaums eCash-modell. Denne modellen hadde betydelig innflytelse på Satoshi Nakamoto og var en viktig milepæl på veien som ledet til Bitcoin. Men historien om kryptovalutaens opprinnelse slutter ikke med eCash; den inkluderer også eksperimentene med private valutaer som opererer på Internett, utviklet fra slutten av 1990-tallet.
 
 I dette kapittelet vil vi se på hva som ble gjort på området for private valutaer i USA. Vi vil først diskutere tilfellet med Liberty Dollar. Deretter vil vi undersøke sentraliserte systemer som e-gold og Liberty Reserve. Til slutt vil vi snakke om PayPal, hvis tilnærming er annerledes, men likevel fungerer som et opplysende eksempel på modellen basert på en betrodd tredjepart.
@@ -268,6 +276,8 @@ Det er på grunn av denne skjørheten i sentraliserte systemer at tilhengere av 
 ## Desentraliserte Modeller Før Nakamoto
 
 <chapterId>a104f23c-e9c3-4457-a194-d87cc5f35f13</chapterId>
+
+:::video id=67e5f851-5ff6-4876-a74d-c5f8130b555c:::
 
 Bitcoin representerer en desentralisert modell av digital valuta. Ved å gjøre dette, unngår den behovet for en pålitelig tredjepart, som ville utgjøre et enkelt feilpunkt i systemet. Som vist ved eksemplene på eCash, digitale gullvalutaer og Liberty Reserve, fører sentraliseringen av et system som har til hensikt å være et alternativ til det eksisterende systemet uunngåelig til dets lukking, på en eller annen måte.
 Bitcoin var imidlertid ikke det første konseptet av desentralisert valuta som hadde blitt foreslått. Siden slutten av 1990-tallet hadde slike modeller blitt beskrevet av cypherpunkene, som var besatt av frihet og personvernet til individer på Internett, og som trodde (som David Chaum) at overvåkede systemer ledet til en dystopisk fremtid. De [kalte](https://cypherpunks.venona.com/date/1993/03/msg00392.html) for "å skrive kode" og betraktet "elektronisk penger" som et essensielt element til deres ideal. (_original: "Cypherpunks write code. (...) We are defending our privacy with cryptography, with anonymous mail forwarding systems, with digital signatures, and with electronic money."_)
@@ -399,6 +409,8 @@ Bitcoin utgjør dermed kulminasjonen av en søken etter cybercurrency, en valuta
 
 <chapterId>3d141918-e9c2-46e8-8c03-2bb4eb9b2150</chapterId>
 
+:::video id=825522d8-1ccc-4d14-80ac-e292a85a608a:::
+
 Etter å ha lært hvor Bitcoin kom fra, vil vi nå fokusere på historien selv. Dette har vært gjenstand for utallige artikler, podcaster og videoer over årene, så mye at det nesten har blitt en slags grunnleggende myte. Som vi har sett, er Bitcoin uatskillelig fra konteksten den ble skapt i; det samme gjelder for hendelsene som fant sted i dens tidlige år, som har formet hva den er i dag, med sine kvaliteter og feil.
 Bitcoin ble skapt av Satoshi Nakamoto, en ukjent person som hevder å være japansk, som tok seg tid til å gjennomtenkt designe den før han avduket den for offentligheten. Deretter gjorde de alt for å sikre at Bitcoin ble lansert under de beste forholdene, at den ble godt presentert i diskusjoner, og at den ble brukt av et stadig økende antall mennesker. Til syvende og sist lå skaperens innsats like mye i det økonomiske initieringen av systemet som i dets opprinnelige design, om ikke mer.
 
@@ -519,6 +531,8 @@ Dette arbeidet var imidlertid ikke tilstrekkelig, og det krevde utholdenhet fra 
 ## Presentasjon for Verden
 
 <chapterId>28be3515-d9da-4d91-b7ff-f8691d51c562</chapterId>
+
+:::video id=c9691569-f026-460d-a08d-98fa54f1ce25:::
 
 Etter å ha undersøkt hvordan Bitcoin ble designet og lansert av Satoshi Nakamoto, la oss fokusere på hvordan det ble offentlig presentert. Etter lanseringen i begynnelsen av 2009 var nettverket operativt, men det var få genererende noder (Satoshi minet det store flertallet av blokkene) og aktiviteten var praktisk talt ikke-eksisterende (32 faktiske transaksjoner fant sted i løpet av januar). Prosjektet hadde bare en grunnleggende nettside og en SourceForge-side for nedlasting av programvaren. Dessuten var kommunikasjonen om Bitcoin begrenset til Metzdowd Cryptography e-postlisten, fulgt på det beste av noen få hundre personer lidenskapelig opptatt av kryptografi.
 
@@ -671,6 +685,9 @@ På høsten 2009 virket det som at Bitcoin var klar til å vokse. Og det var net
 ## Oppstarten av Kryptovaluta
 
 <chapterId>6b3418a7-125e-4ea1-a03a-f36090fac8a4</chapterId>
+
+:::video id=2a31c9c2-bb14-4ed5-b906-7df373f81f98:::
+
 I de foregående kapitlene observerte vi hvordan Satoshi Nakamoto implementerte sin idé og hvordan han kommuniserte om den for å introdusere Bitcoin til verden. Imidlertid avhang ikke alt av ham: det var også nødvendig at folk tildelte verdi til regnskapsenheten. Siden dette tillot for belønning av gruvearbeidere gjennom transaksjonsgebyrer og belønnet handelsmenn gjennom naturlig deflasjon, var slik verdsettelse essensiell for systemets sikkerhet.
 Fremveksten av Bitcoins verdi var imidlertid ikke en enkel oppgave. Det handlet faktisk om å gi økonomisk betydning til et objekt som tidligere ikke hadde noen, av helt subjektive grunner. Hal Finney forklarte det veldig godt i sin [epost](https://www.metzdowd.com/pipermail/cryptography/2009-January/015004.html) fra 11. januar 2009, adressert til kryptografimailinglisten, der han skrev:
 
@@ -789,6 +806,8 @@ Men dette spørsmålet plaget aldri Satoshi, som så på oppstarten av en ny val
 
 <chapterId>9cd228a4-58d3-46a3-9935-06098bafc954</chapterId>
 
+:::video id=18913713-2f1a-4555-ba5d-06ec6d532bcb:::
+
 I den forrige delen utforsket vi hvordan Bitcoin kom til eksistens, hvordan det ble introdusert for offentligheten, og hvordan det økonomisk ble initiert. Våren 2010, da handel med bitcoins nettopp begynte å blomstre, var målet til Satoshi Nakamoto og de få personene som støttet ham å holde flammen i live. Heldigvis sluttet andre individer seg til innsatsen, spesielt gruvearbeideren Laszlo Hanyecz og utvikleren Gavin Andresen, som utmerket seg med sine handlinger.
 
 I dette kapittelet vil vi se på den første utplasseringen av gruvedrift ved hjelp av grafikkprosesseringsenhet (GPU), formuen akkumulert av Satoshi Nakamoto, det første kjøpet av en fysisk vare med bitcoins, etableringen av en bitcoin-kran som ga ut gratis enheter, og utviklingen av programvaren og nettverket før Slashdot.
@@ -881,6 +900,8 @@ Imidlertid, ved slutten av juni, forble aktiviteten ganske beskjeden på nettver
 
 <chapterId>2eef715e-b018-445b-b360-1c6e1c1df462</chapterId>
 
+:::video id=c26f3696-4e33-4d38-9443-f237935f8b45:::
+
 I begynnelsen av sommeren 2010, til tross for noen oppmuntrende innledende utviklinger, var Bitcoin basert på et skjørt fundament. Programvaren hadde få utviklere annet enn Satoshi Nakamoto. Minerene var amatører på sine personlige datamaskiner. Det var omtrent tjue tjenester relatert til Bitcoin, og faktiske børser var like sjeldne. Imidlertid, ting var i ferd med å endre seg drastisk i løpet av andre halvdel av året.
 
 I dette kapittelet har vi som mål å diskutere "den store slashdottingen," det vil si den plutselige tilstrømningen av brukere som fulgte etter publiseringen av en presentasjon av Bitcoin på den populære nettsiden Slashdot den 11. juli 2010. Vi vil se hvordan denne teksten kom til å eksistere som en siste innsats for kommunikasjon fra Satoshi sin side og hva de direkte effektene var som fulgte etter denne populariseringen av Bitcoin.
@@ -951,6 +972,8 @@ I månedene som fulgte, fortsatte tekniske, økonomiske og gruveforbedringer å 
 ## De første tekniske problemene
 
 <chapterId>30cc4fe4-22b0-429e-9874-029c9137c0aa</chapterId>
+
+:::video id=f3e98b49-c32e-451a-b7c1-224dc5b00cf5:::
 
 Som nevnt i det siste kapittelet, forårsaket tilstrømningen av brukere fra Slashdot den 11. juli 2010, en enorm bølge av interesse for Satoshi Nakamotos prosjekt. Bruken av nettverket eksploderte; valutakursen økte ti ganger, som gjorde også databehandlingskraften dedikert til systemet. Således opplevde Bitcoin en enestående vekst over sommeren.
 
@@ -1027,6 +1050,8 @@ I månedene som fulgte, fortsatte tekniske, økonomiske og gruveforbedringer å 
 
 <chapterId>8e9899ca-e7a7-471b-8e69-847a56714d3b</chapterId>
 
+:::video id=665ac55c-cd61-4d07-a896-95248eec480d:::
+
 I den forrige delen studerte vi effekten som publiseringen av Bitcoin-presentasjonen på Slashdot (slashdotting) hadde og hvordan de opprinnelige tekniske problemene ble håndtert av Satoshi og hans hjelpere. Ved slutten av sommeren hadde prosjektet overlevd stormen og var klar til å ønske et økende antall mennesker velkommen. Høsten 2010 markerte dermed en suksessperiode for Bitcoin.
 Denne perioden var spesielt en gullalder for gruvedrift, som så betydelige forbedringer med fremveksten av de første GPU-gårdene og det første kooperativet. De utplasserte ressursene økte, og ytelsen til dedikerte algoritmer forbedret seg. Det var på en måte et "digitalt gullrush", som en blogger på den tiden (som brukte pseudonymet jimbobway) [skrev](https://web.archive.org/web/20100828094955/http://www.bitcoinblogger.com/2010/08/bitcoins-new-digital-gold-rush.html), og bemerket at "tusenvis av internettbrukere" gravde etter bitcoins "i håp om formue" og at mange av dem forsøkte "å utvikle programvare og maskinvareverktøy for å grave etter bitcoins mer effektivt" i håp om å bli styrtrike. (_original: "Bitcoins: A New Digital Gold Rush (...) Thousands of users on the Internet are now mining for bitcoins in hopes of fortune. Many are trying to develop software and hardware tools to mine for bitcoins more efficiently in hopes of becoming filthy rich."_)
 
@@ -1088,6 +1113,9 @@ Høsten var imidlertid ikke bare vellykket for mining. Det var også en suksess 
 ## Økosystemets blomstring
 
 <chapterId>0404f877-8b5c-4c7f-81ab-a4e6d9b3da9c</chapterId>
+
+:::video id=2327cb5b-36a1-49f4-a9de-09b70d76b8c1:::
+
 I forrige kapittel utforsket vi hvordan gruvedrift utviklet seg i løpet av andre halvdel av året 2010. Ved høsten var denne fremgangen godt etablert. Men gruvedrift var ikke den eneste aspekten ved Bitcoin som fant suksess: økosystemet gjorde det også.
 Her vil vi først ta for oss begynnelsen på Bitcoins internasjonale eksport med utviklingen av de russiske og franske samfunnene. Deretter vil vi diskutere forbedringer i kommunikasjon og økonomisk vekst, som spesielt førte til en ny økning i enhetsprisen på bitcoin. Til slutt vil vi nevne to svært symbolske hendelser som forutgikk Satoshis avgang: aksepten av bitcoin av Electronic Frontier Foundation og tilbakekomsten av Hal Finney.
 
@@ -1184,6 +1212,8 @@ I løpet av høsten 2010 utviklet økosystemet rundt Bitcoin seg betydelig. Komm
 ## Satoshi sin forsvinning
 
 <chapterId>f7735239-4887-468f-9f06-1b07d00b30d9</chapterId>
+
+:::video id=fd5b40ae-b6bc-484a-b86b-af9c772f0afa:::
 
 Vi så hvordan Bitcoin tok av etter publiseringen av teksten på Slashdot i juli 2010. På høsten, med ulike fremskritt i programvare, gruvedrift og økonomi, føltes det som om prosjektet endelig var på rett spor. Derfor sammenfalt denne perioden med Satoshi Nakamotos gradvise tilbaketrekning.
 
@@ -1298,6 +1328,8 @@ Dette mystiske aspektet rundt skaperen av Bitcoin ble godt oppsummert av Hal Fin
 ## Fellesskapet tar over
 
 <chapterId>16c5e6d6-2412-48c6-9687-6af92cf0d89a</chapterId>
+
+:::video id=b29c3ea3-c4ca-4feb-bb29-5dc064987406:::
 
 Etter Satoshi Nakamotos avgang, ble det nødvendig å fortsette uten ham. Heldigvis var Bitcoin et åpent prosjekt, som hvem som helst kunne bidra til, så forsvinningen av grunnleggeren var ikke fatal for det. Som utvikler Jeff Garzik skrev i juli 2010 (angående muligheten for grunnleggerens fravær):
 

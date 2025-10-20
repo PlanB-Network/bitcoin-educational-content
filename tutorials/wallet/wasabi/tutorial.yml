@@ -141,6 +141,7 @@ proofreading:
     contributor_names:
     reward: 0.37
 tags:
+  - hardware-wallet-ready
   - privacy
   - wallets
   - guides

@@ -3490,7 +3490,7 @@ Tässä ovat Mempool:n ja välityskäytännön lisäasetukset. Jos olet aloittel
 
 
 
-- peerbloomfilters=1`: Suodatettujen lohkojen/transaktioiden tarjoamiseksi ohuille asiakkaille (oletus: `0`). Varoitus: tämä lisää resurssien kuormitusta.
+- `peerbloomfilters=1` : Ottaa käyttöön Bloom-suodattimien (BIP37) tuen suodatettujen lohkojen/tapahtumien tarjoamiseksi kevyille asiakkaille (oletus: `0`). Huomio, tämä lisää resurssiesi kuormitusta.
 
 
 

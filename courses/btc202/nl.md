@@ -3490,7 +3490,7 @@ Hier zijn de geavanceerde instellingen voor Mempool en relay policy. Als u een b
 
 
 
-- peerbloomfilters=1`: Schakel ondersteuning in voor Bloom filters (BIP37) om gefilterde blokken/transacties te serveren aan thin clients (standaard: `0`). Waarschuwing: dit verhoogt de belasting van uw bronnen.
+- `peerbloomfilters=1` : Schakelt ondersteuning in voor Bloom-filters (BIP37) om gefilterde blokken/transacties te leveren aan lichte clients (standaard: `0`). Let op, dit verhoogt de belasting van je systeembronnen.
 
 
 

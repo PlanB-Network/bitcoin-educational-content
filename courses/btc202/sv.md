@@ -3490,7 +3490,7 @@ Här är de avancerade inställningarna för Mempool och reläpolicy. Om du är 
 
 
 
-- peerbloomfilters=1`: Aktivera stöd för Bloom-filter (BIP37) för att servera filtrerade block/transaktioner till tunna klienter (standard: `0`). Varning: detta ökar belastningen på dina resurser.
+- `peerbloomfilters=1` : Aktiverar stöd för Bloom-filter (BIP37) för att tillhandahålla filtrerade block/transaktioner till lätta klienter (standard: `0`). Observera att detta ökar belastningen på dina resurser.
 
 
 

@@ -3490,7 +3490,7 @@ Sau đây là các cài đặt nâng cao cho Mempool và chính sách rơle. N�
 
 
 
-- peerbloomfilters=1`: Bật hỗ trợ cho bộ lọc Bloom (BIP37) để phục vụ các khối/giao dịch đã lọc cho máy khách mỏng (mặc định: `0`). Cảnh báo: điều này làm tăng tải cho tài nguyên của bạn.
+- `peerbloomfilters=1` : Bật hỗ trợ bộ lọc Bloom (BIP37) để cung cấp các khối/giao dịch đã được lọc cho các máy khách nhẹ (mặc định: `0`). Lưu ý, điều này làm tăng tải trên tài nguyên của bạn.
 
 
 

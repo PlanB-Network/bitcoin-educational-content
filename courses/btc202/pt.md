@@ -3490,7 +3490,7 @@ Aqui estão as definições avançadas para o Mempool e a política de retransmi
 
 
 
-- peerbloomfilters=1`: Habilita o suporte a filtros Bloom (BIP37) para servir blocos/transações filtrados para thin clients (padrão: `0`). Atenção: isso aumenta a carga sobre seus recursos.
+- `peerbloomfilters=1` : Ativa o suporte a filtros Bloom (BIP37) para fornecer blocos/transações filtrados a clientes leves (padrão: `0`). Atenção, isso aumenta a carga sobre seus recursos.
 
 
 

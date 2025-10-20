@@ -3490,7 +3490,7 @@ Poniżej znajdują się zaawansowane ustawienia dla Mempool i polityki przekaźn
 
 
 
-- peerbloomfilters=1`: Włącz obsługę filtrów Blooma (BIP37), aby serwować przefiltrowane bloki/transakcje do cienkich klientów (domyślnie: `0`). Ostrzeżenie: zwiększa to obciążenie zasobów.
+- `peerbloomfilters=1` : Aktywuje obsługę filtrów Blooma (BIP37), aby dostarczać przefiltrowane bloki/transakcje lekkim klientom (domyślnie: `0`). Uwaga, zwiększa to obciążenie zasobów.
 
 
 

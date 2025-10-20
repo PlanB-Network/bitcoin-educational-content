@@ -3490,7 +3490,7 @@ Hapa kuna mipangilio ya kina ya Mempool na sera ya relay. Ikiwa wewe ni mwanzili
 
 
 
-- peerbloomfilters=1`: Washa utumiaji wa vichujio vya Bloom (BIP37) ili kutoa vizuizi/ miamala iliyochujwa kwa wateja wembamba (chaguo-msingi: `0`). Onyo: hii huongeza mzigo kwenye rasilimali zako.
+- `peerbloomfilters=1` : Huamilisha usaidizi wa vichujio vya Bloom (BIP37) ili kutoa vitalu/miamala vilivyopitiwa kwa wateja wepesi (chaguo-msingi: `0`). Tahadhari, hii huongeza mzigo kwenye rasilimali zako.
 
 
 

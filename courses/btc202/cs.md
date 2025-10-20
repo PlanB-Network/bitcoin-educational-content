@@ -3490,7 +3490,7 @@ Zde jsou uvedena pokročilá nastavení pro Mempool a zásady přenosu. Pokud js
 
 
 
-- peerbloomfilters=1`: (výchozí: `0`). Upozornění: Tím se zvýší zatížení zdrojů.
+- `peerbloomfilters=1` : Aktivuje podporu Bloom filtrů (BIP37) pro poskytování filtrovaných bloků/transakcí lehkým klientům (výchozí: `0`). Pozor, zvyšuje to zátěž vašich zdrojů.
 
 
 

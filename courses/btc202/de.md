@@ -3490,7 +3490,7 @@ Hier finden Sie die erweiterten Einstellungen für Mempool und die Relais-Richtl
 
 
 
-- peerbloomfilters=1`: Aktivieren Sie die Unterstützung für Bloom-Filter (BIP37), um gefilterte Blöcke/Transaktionen an Thin-Clients zu liefern (Standard: `0`). Warnung: Dies erhöht die Last auf Ihren Ressourcen.
+- `peerbloomfilters=1` : Aktiviert die Unterstützung von Bloom-Filtern (BIP37), um gefilterte Blöcke/Transaktionen an Light-Clients zu liefern (Standard: `0`). Achtung, dies erhöht die Belastung Ihrer Ressourcen.
 
 
 

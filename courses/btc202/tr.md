@@ -3490,7 +3490,7 @@ Bir hatırlatma olarak, RBF, göndericinin onaylamayı hızlandırmak için bir 
 
 
 
-- peerbloomfilters=1`: Filtrelenmiş blokları/işlemleri ince istemcilere sunmak için Bloom filtreleri (BIP37) desteğini etkinleştirin (varsayılan: `0`). Uyarı: Bu, kaynaklarınız üzerindeki yükü artırır.
+- `peerbloomfilters=1` : Hafif istemcilere filtrelenmiş bloklar/işlemler sunmak için Bloom filtreleri (BIP37) desteğini etkinleştirir (varsayılan: `0`). Dikkat, bu kaynaklarınız üzerindeki yükü artırır.
 
 
 

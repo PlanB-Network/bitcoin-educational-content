@@ -3490,7 +3490,7 @@ Aha niho hari amasetingi ateye imbere ya Mempool n’ingingo ngenderwako y’ugu
 
 
 
-- peerbloomfilters=1`: Gushoboza gufasha amayunguruzo ya Bloom (BIP37) kugira ngo akoreshe amabuye/amafaranga yayunguruwe ku bakiriya batobato (ivya kera: `0`). Imburi: ivyo birongereza umuzigo ku butunzi bwawe.
+- `peerbloomfilters=1` : Iremeza ikoreshwa ry’amasefa ya Bloom (BIP37) kugira ngo ihereze abakiriya boroshye ibibaho/ibikorwa byayunguwe (defaults: `0`). Icyitonderwa, ibi byongera imirimo ku bikoresho byawe.
 
 
 

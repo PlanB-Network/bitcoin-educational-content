@@ -3490,7 +3490,7 @@ Siin on Mempool ja releepoliitika täiustatud seaded. Kui te olete algaja, ei pe
 
 
 
-- peerbloomfilters=1`: (vaikimisi: `0`): Võimaldab Bloom-filtrite (BIP37) toetuse, et pakkuda filtreeritud plokke/tehinguid õhukestele klientidele (vaikimisi: `0`). Hoiatus: see suurendab teie ressursside koormust.
+- `peerbloomfilters=1` : Lubab Bloom-filtrite (BIP37) toe, et pakkuda filtreeritud blokke/tehinguid kergetele klientidele (vaikimisi: `0`). Tähelepanu, see suurendab teie ressursside koormust.
 
 
 

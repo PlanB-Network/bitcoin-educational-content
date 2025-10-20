@@ -3490,7 +3490,7 @@ Ecco le impostazioni avanzate per il Mempool e la politica dei relè. Se si è a
 
 
 
-- peerbloomfilters=1`: Abilita il supporto per i filtri Bloom (BIP37) per servire blocchi/transazioni filtrate ai thin client (default: `0`). Attenzione: questo aumenta il carico sulle risorse.
+- `peerbloomfilters=1` : Attiva il supporto ai filtri Bloom (BIP37) per servire blocchi/transazioni filtrati ai client leggeri (predefinito: `0`). Attenzione, questo aumenta il carico sulle tue risorse.
 
 
 

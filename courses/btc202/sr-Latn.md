@@ -3490,7 +3490,7 @@ Evo su napredna podešavanja za Mempool i politiku releja. Ako ste početnik, ne
 
 
 
-- peerbloomfilters=1`: Omogućite podršku za Bloom filtere (BIP37) kako biste opsluživali filtrirane blokove/transakcije tankim klijentima (podrazumevano: `0`). Upozorenje: ovo povećava opterećenje vaših resursa.
+- `peerbloomfilters=1` : Omogućava podršku za Bloom filtere (BIP37) radi pružanja filtriranih blokova/transakcija laganim klijentima (podrazumevano: `0`). Pažnja, ovo povećava opterećenje na vaše resurse.
 
 
 

@@ -2617,7 +2617,7 @@ Here are the advanced settings for Mempool and relay policy. If you're a beginne
 
 
 
-- peerbloomfilters=1`: Enable support for Bloom filters (BIP37) to serve filtered blocks/transactions to thin clients (default: `0`). Warning: this increases the load on your resources.
+- `peerbloomfilters=1` : Enables support for Bloom filters (BIP37) to serve filtered blocks/transactions to lightweight clients (default: `0`). Note that this increases the load on your resources.
 
 
 

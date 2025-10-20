@@ -3490,7 +3490,7 @@ Berikut ini adalah pengaturan lanjutan untuk Mempool dan kebijakan relai. Jika A
 
 
 
-- peerbloomfilters=1`: Aktifkan dukungan untuk filter Bloom (BIP37) untuk menyajikan blok/transaksi yang telah difilter ke thin client (default: `0`). Peringatan: hal ini akan meningkatkan beban pada sumber daya Anda.
+- `peerbloomfilters=1` : Mengaktifkan dukungan untuk filter Bloom (BIP37) guna melayani blok/transaksi yang difilter ke klien ringan (default: `0`). Perhatian, ini meningkatkan beban pada sumber daya Anda.
 
 
 

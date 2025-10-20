@@ -4,7 +4,7 @@ goal: Odkryj Bitcoina i jego podstawy, w tym jego propozycję wartości monetarn
 objectives:
   - Zdobądź ogólne zrozumienie technologii Bitcoin
   - Zrozum, jak kupować i zabezpieczać bitcoiny
-  - Zdobądź ogólne zrozumienie technologii Blockchain
+  - Zdobądź ogólne zrozumienie technologii łańcucha bloków
   - Zapoznaj się z koncepcją sieci Lightning
   - Zrozum geopolityczny i społeczny wpływ Bitcoina
 ---
@@ -13,7 +13,7 @@ objectives:
 
 # Twoja pierwsza przygoda z Bitcoinem
 
-W tym kursie wyjaśnimy podstawy Bitcoina w 25 rozdziałach, abyś mógł zrozumieć tę technologię w prosty i skuteczny sposób. Obejmuje on całą branżę: górników, portfele, platformy kupna/sprzedaży i dużo więcej. Dodatkowe materiały edukacyjne będą dodawane w miarę rozrastania się naszej platformy. Po zakończeniu tego kursu zapraszamy również do sprawdzenia „21 plakatów” w sekcji materiałów edukacyjnych. 
+Na tym kursie wyjaśnimy podstawy Bitcoina w 25 rozdziałach, abyś mógł zrozumieć tę technologię w prosty i skuteczny sposób. Obejmuje on całą branżę: górników, portfele, platformy kupna/sprzedaży i dużo więcej. Dodatkowe materiały edukacyjne będą dodawane w miarę rozrastania się naszej platformy. Po zakończeniu tego kursu zapraszamy również do sprawdzenia „21 plakatów” w sekcji materiałów edukacyjnych. 
 
 Nie potrzebujesz żadnej specjalistycznej wiedzy, aby zacząć naukę - kurs jest zaprojektowany tak, aby był przystępny dla każdego, a ukończenie go powinno zająć około 15 godzin.
 
@@ -35,11 +35,11 @@ Witamy na kursie BTC101!
 Bitcoin to rewolucja technologiczna i monetarna, która może sprawić, że zakwestionujemy nasze relacje z pieniędzmi i społeczeństwem. W rzeczywistości Bitcoin (określany jako BTC) jest **neutralną** i **zdecentralizowaną** walutą, co oznacza, że nie jest kontrolowany przez żaden podmiot ani instytucję. Jest to innowacja, która wykracza poza zwykłą „walutę internetową”: jest to zarówno protokół komputerowy (Bitcoin), jak i jednostka monetarna (bitcoin).
 
 
-Protokół Bitcoin wykorzystuje podstawowe technologie, takie jak kryptografia, komunikacja sieciowa i słynny „Blockchain”, podczas gdy jednostka bitcoin służy jako waluta niezbędna do prawidłowego funkcjonowania tego protokołu. W życiu codziennym Salwadorczycy i bitcoinerzy na całym świecie używają waluty bitcoin do kupowania i sprzedawania towarów i usług, polegając na tej technologii, aby uczynić swoje życie lepszym.
+Protokół Bitcoin wykorzystuje podstawowe technologie, takie jak kryptografia, komunikacja sieciowa i słynny łańcuch bloków (ang. blockchain), podczas gdy jednostka bitcoin służy jako waluta niezbędna do prawidłowego funkcjonowania tego protokołu. W życiu codziennym Salwadorczycy i bitcoinerzy na całym świecie używają waluty bitcoin do kupowania i sprzedawania towarów i usług, polegając na tej technologii, aby uczynić swoje życie lepszym.
 
 **Kompleksowy, ale przystępny program nauczania:**
 
-Na tym kursie omówimy niektóre aspekty pieniężne Bitcoina, w tym jak kupować i sprzedawać bitcoiny, bezpiecznie przechowywać je w portfelach cyfrowych i używać ich do transakcji. Przeanalizujemy również rolę górników, którzy są niezbędni do tworzenia nowych bitcoinów i zabezpieczania sieci Bitcoin. Na koniec zbadamy przyszłość Bitcoina i sposób, w jaki technologia Lightning Network może usprawnić transakcje w bitcoinach.
+Na tym kursie omówimy niektóre aspekty pieniężne Bitcoina, w tym jak kupować i sprzedawać bitcoiny, bezpiecznie przechowywać je w portfelach cyfrowych i używać ich do transakcji. Przeanalizujemy również rolę górników, którzy są niezbędni do tworzenia nowych bitcoinów i zabezpieczania sieci Bitcoin. Na koniec zbadamy przyszłość Bitcoina i sposób, w jaki sieć Lightning może usprawnić transakcje w bitcoinach.
 
 ![image](assets/en/01.webp)
 
@@ -64,15 +64,15 @@ Ważne jest, aby zrozumieć, że Bitcoin to nowy system monetarny, który całko
 - Rozdział 9 - Konfiguracja portfela
 - Rozdział 10 - Przetrwać próbę czasu
 
-**Sekcja 4 - Techniczne aspekty Bitcoina**
+**Sekcja 4 - Aspekty techniczne Bitcoina**
 
 - Rozdział 11 - Uruchomienie Bitcoina
 - Rozdział 12 - Transakcje Bitcoin
-- Rozdział 13 - Węzły Bitcoina
+- Rozdział 13 - Węzły Bitcoin
 - Rozdział 14 - Górnicy
 - Rozdział 15 - Bitcoin a ekologia
 
-**Sekcja 5 - Jak zdobyć Bitcoiny?**
+**Sekcja 5 - Jak zdobyć bitcoiny?**
 
 - Rozdział 16 - Bitcoin nigdy nie śpi!
 - Rozdział 17 - Zarabianie bitcoinów poprzez pracę
@@ -86,13 +86,13 @@ Ważne jest, aby zrozumieć, że Bitcoin to nowy system monetarny, który całko
 - Rozdział 22 - Czerwona czy niebieska pigułka?
 
 
-Przed wprowadzeniem definicji pieniądza i jego funkcji w społeczeństwie (Rozdział 1), powinniśmy zacząć od historii powstania Bitcoina. Wprowadzony na rynek w 2009 roku, Bitcoin jest stosunkowo nową technologią, niepodobną do niczego innego. Dlatego normalne jest, że nie rozumiemy wszystkiego od razu. W rzeczywistości, podobnie jak w przypadku nauki korzystania z Internetu lub prowadzenia samochodu, nie musisz od razu znać wszystkich szczegółów technicznych: możesz zacząć od nauki, jak odbierać, płacić i zabezpieczać swoje fundusze, a następnie małymi krokami zgłębiać je głębiej.
+Przed wprowadzeniem definicji pieniądza i jego funkcji w społeczeństwie (Rozdział 1), powinniśmy zacząć od historii powstania Bitcoina. Wprowadzony na rynek w 2009 roku, Bitcoin jest stosunkowo nową technologią, niepodobną do niczego innego. Dlatego normalne jest, że nie rozumiemy wszystkiego od razu. W rzeczywistości, podobnie jak w przypadku nauki korzystania z Internetu lub prowadzenia samochodu, nie musisz od razu znać wszystkich szczegółów technicznych: możesz zacząć od nauki, jak odbierać, płacić i zabezpieczać swoje fundusze, a następnie małymi krokami zgłębiać je dalej.
 
 Jesteśmy dopiero na początkowych etapach jego wdrażania, minęliśmy dopiero fazę startową: jesteś tutaj w samą porę, aby zdobyć tyle wiedzy, ile chcesz, na temat tej ważnej innowacji.
 
 ![image](assets/en/02.webp)
 
-Ważne jest, aby zrozumieć tę nową technologię w sposób ogólny, więc mamy nadzieję, że spodoba ci się ten kurs i będziesz robić postępy w tym nowym globalnym paradygmacie monetarnym.
+Ważne jest, aby zrozumieć tę nową technologię w sposób ogólny, więc mamy nadzieję, że spodoba ci się nasz kurs i będziesz robić postępy w tym nowym globalnym paradygmacie monetarnym.
 
 Gotowy, by zanurzyć się w fascynującym świecie Bitcoina i zrozumieć wszystkie jego wewnętrzne mechanizmy? Do dzieła!
 

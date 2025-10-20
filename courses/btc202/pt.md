@@ -410,7 +410,7 @@ Por outras palavras, cerca de 9 em cada 10 nós públicos estão a executar o Bi
 
 
 
-O Bitcoin core é escrito em C++. É também um projeto de código aberto que é mantido por uma comunidade de programadores que se voluntariam ou são pagos por várias entidades (frequentemente por empresas do ecossistema que têm interesse no desenvolvimento do Core). [O código está alojado no GitHub](https://github.com/Bitcoin/Bitcoin), e o desenvolvimento segue um processo rigoroso:
+Bitcoin Core é um software escrito em C++. Também é um projeto de código aberto mantido por uma comunidade de desenvolvedores — voluntários ou financiados por diversas entidades (geralmente empresas do ecossistema que têm interesse em que o desenvolvimento do Core ocorra de forma favorável). [O código está hospedado no GitHub](https://github.com/bitcoin/bitcoin), e o desenvolvimento segue um modelo rigoroso:
 
 
 

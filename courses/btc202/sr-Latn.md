@@ -410,7 +410,7 @@ Drugim rečima, oko 9 od 10 javnih čvorova koristi Bitcoin core. Ostatak mreže
 
 
 
-Bitcoin core je napisan u C++. Takođe je open source projekat koji održava zajednica programera koji volontiraju ili su plaćeni od strane različitih entiteta (često od strane kompanija u ekosistemu koje imaju interes u razvoju Core-a). [Kod je hostovan na GitHub-u](https://github.com/Bitcoin/Bitcoin), a razvoj prati rigorozan:
+Bitcoin Core je softver napisan u C++. To je takođe open-source projekat koji održava zajednica programera — volontera ili onih koje finansiraju različiti subjekti (često kompanije iz ekosistema koje imaju interes da se razvoj Core-a odvija povoljno). [Kod je hostovan na GitHubu](https://github.com/bitcoin/bitcoin), a razvoj prati rigorozan model:
 
 
 

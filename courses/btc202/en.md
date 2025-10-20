@@ -309,7 +309,7 @@ In other words, around 9 out of 10 public nodes are running Bitcoin Core. The re
 ### Internal operation of Bitcoin Core
 
 
-Bitcoin Core is written in C++. It is also an open source project that is maintained by a community of developers who volunteer or are paid by various entities (often by companies in the ecosystem that have a vested interest in Core's development). [Code is hosted on GitHub](https://github.com/Bitcoin/Bitcoin), and development follows a rigorous:
+Bitcoin Core is software written in C++. It is also an open-source project maintained by a community of developers who are either volunteers or funded by various entities (often companies within the ecosystem that have an interest in ensuring that Core development proceeds favorably). [The code is hosted on GitHub](https://github.com/bitcoin/bitcoin), and development follows a rigorous model:
 
 
 - **Contributors** submit proposals in the form of _pull requests_ (PR). In principle, anyone can propose a change, but it must be tested, documented, and go through a peer review process.
@@ -337,7 +337,7 @@ We can also mention:
 
 - **Libbitcoin**: a modular C++ library developed by Amir Taaki and maintained by Eric Voskuil;
 - **Bcoin**: a JavaScript implementation, no longer actively maintained;
-- **BTCD/btcsuit**e: an implementation in Go.
+- **BTCD/btcsuite**: an implementation in Go.
 
 
 These projects contribute to the diversity of the ecosystem, but their adoption remains very limited, making it difficult for Bitcoin Core to evolve independently.
@@ -2199,7 +2199,6 @@ If your node is listening on an open port (by default, 8333), it accepts incomin
 
 
 When your node has completed its initial synchronization, it stores several complementary data sets locally, enabling it to validate blocks and transactions, serve network peers, and restart quickly while maintaining its state. 3 main bricks are essential on a node:
-
 
 - gW-402 **blocks** stored on disk,
 - the **UTXO set** maintained in a key-value database,

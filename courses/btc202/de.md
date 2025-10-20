@@ -410,7 +410,7 @@ Mit anderen Worten: Etwa 9 von 10 öffentlichen Knoten laufen mit Bitcoin core. 
 
 
 
-Bitcoin core ist in C++ geschrieben. Es ist auch ein Open-Source-Projekt, das von einer Gemeinschaft von Entwicklern gepflegt wird, die sich freiwillig engagieren oder von verschiedenen Stellen bezahlt werden (oft von Unternehmen im Ökosystem, die ein persönliches Interesse an der Entwicklung von Core haben). [Der Code wird auf GitHub gehostet (https://github.com/Bitcoin/Bitcoin), und die Entwicklung erfolgt nach einem strengen Schema:
+Bitcoin Core ist eine in C++ geschriebene Software. Es ist auch ein Open-Source-Projekt, das von einer Gemeinschaft freiwilliger oder von verschiedenen Organisationen bezahlter Entwickler gepflegt wird (oft von Unternehmen des Ökosystems, die ein Interesse an einem erfolgreichen Verlauf der Core-Entwicklung haben). [Der Code wird auf GitHub gehostet](https://github.com/bitcoin/bitcoin), und die Entwicklung folgt einem strengen Modell:
 
 
 

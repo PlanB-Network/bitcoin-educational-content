@@ -410,7 +410,7 @@ Mu yandi majambo, nk'ibice 9 kuri 10 vy'abantu bose bikoresha Bitcoin core. Ibin
 
 
 
-Bitcoin core yanditswe mu rurimi rwa C++. Ni umugambi kandi w’inkomoko yuguruye utunganywa n’umuryango w’abahinguzi b’ibintu bitanga canke barihwa n’ibigo bitandukanye (kenshi n’amashirahamwe ari mu bidukikije afise inyungu mu guteza imbere Core). [Kode iri kuri GitHub](https://github.com/Bitcoin/Bitcoin), kandi iterambere rikurikira uburyo bukomeye:
+Bitcoin Core ni porogaramu yanditswe muri C++. Ni kandi umushinga ufunguye ushingiye ku baturage, ufitwe n’umuryango w’abakora porogaramu ku bushake cyangwa bishyurwa n’ibigo bitandukanye (kenshi ibigo biri mu rusobe bifite inyungu mu iterambere rya Core). [Code iri kuri GitHub](https://github.com/bitcoin/bitcoin), kandi iterambere rikurikiza icyitegererezo gikomeye:
 
 
 

@@ -410,7 +410,7 @@ In altre parole, circa 9 nodi pubblici su 10 utilizzano Bitcoin core. Il resto d
 
 
 
-Bitcoin core è scritto in C++. È anche un progetto open source che viene mantenuto da una comunità di sviluppatori volontari o pagati da varie entità (spesso da aziende dell'ecosistema che hanno un interesse personale nello sviluppo di Core). [Il codice è ospitato su GitHub](https://github.com/Bitcoin/Bitcoin) e lo sviluppo segue una procedura rigorosa:
+Bitcoin Core è un software scritto in C++. È anche un progetto open source mantenuto da una comunità di sviluppatori, volontari o retribuiti da varie entità (spesso aziende dell'ecosistema interessate a che lo sviluppo di Core proceda favorevolmente). [Il codice è ospitato su GitHub](https://github.com/bitcoin/bitcoin) e lo sviluppo segue un modello rigoroso:
 
 
 

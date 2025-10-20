@@ -410,7 +410,7 @@ Luke Dashjr](https://luke.dashjr.org/programs/Bitcoin/files/charts/software.html
 
 
 
-Bitcoin coreはC++で書かれている。また、Bitcoin coreはオープンソースプロジェクトであり、ボランティアまたは様々な団体（多くの場合、Coreの開発に既得権を持つエコシステム内の企業）から報酬を得ている開発者のコミュニティによって維持されている。[コードはGitHub](https://github.com/Bitcoin/Bitcoin)にホストされており、開発は厳密に従っている：
+Bitcoin CoreはC++で書かれたソフトウェアです。また、オープンソースプロジェクトでもあり、開発はボランティアやさまざまな組織（多くはCoreの開発が順調に進むことに関心のあるエコシステム企業）によって支えられています。[コードはGitHubでホストされています](https://github.com/bitcoin/bitcoin)、開発は厳格なモデルに従っています:
 
 
 

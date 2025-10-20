@@ -410,7 +410,7 @@ Kwa maneno mengine, karibu nodi 9 kati ya 10 za umma zinaendesha Bitcoin core. M
 
 
 
-Bitcoin core imeandikwa katika C++. Pia ni mradi wa programu huria ambao hudumishwa na jumuiya ya wasanidi programu wanaojitolea au wanaolipwa na mashirika mbalimbali (mara nyingi na makampuni katika mfumo ikolojia ambao wana nia ya dhati katika maendeleo ya Core). [Msimbo umepangishwa kwenye GitHub](https://github.com/Bitcoin/Bitcoin), na usanidi unafuata ukali:
+Bitcoin Core ni programu iliyoandikwa kwa C++. Pia ni mradi wa chanzo huria unaodumishwa na jumuiya ya wasanidi programu — ama kwa hiari au wanaofadhiliwa na taasisi mbalimbali (mara nyingi kampuni kutoka kwenye mfumo ambazo zina maslahi ya kuhakikisha maendeleo ya Core yanaenda vizuri). [Msimbo umehifadhiwa kwenye GitHub](https://github.com/bitcoin/bitcoin), na maendeleo yanafuata muundo mkali:
 
 
 

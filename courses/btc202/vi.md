@@ -410,7 +410,7 @@ Nói cách khác, khoảng 9/10 nút công khai đang chạy Bitcoin core. Phầ
 
 
 
-Bitcoin core được viết bằng C++. Đây cũng là một dự án nguồn mở được duy trì bởi một cộng đồng các nhà phát triển tình nguyện hoặc được trả lương bởi nhiều tổ chức khác nhau (thường là các công ty trong hệ sinh thái có lợi ích liên quan đến việc phát triển Core). [Mã được lưu trữ trên GitHub](https://github.com/Bitcoin/Bitcoin), và quá trình phát triển tuân theo một quy trình nghiêm ngặt:
+Bitcoin Core là phần mềm được viết bằng C++. Đây cũng là một dự án mã nguồn mở được duy trì bởi cộng đồng các nhà phát triển — tình nguyện viên hoặc được tài trợ bởi các tổ chức khác nhau (thường là các công ty trong hệ sinh thái có lợi ích trong việc phát triển Core một cách thuận lợi). [Mã nguồn được lưu trữ trên GitHub](https://github.com/bitcoin/bitcoin), và quá trình phát triển tuân theo một mô hình nghiêm ngặt:
 
 
 

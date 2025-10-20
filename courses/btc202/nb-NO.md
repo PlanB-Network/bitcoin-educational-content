@@ -410,7 +410,7 @@ Med andre ord kjører rundt 9 av 10 offentlige noder Bitcoin core. Resten av net
 
 
 
-Bitcoin core er skrevet i C++. Det er også et åpen kildekode-prosjekt som vedlikeholdes av et fellesskap av utviklere som jobber frivillig eller blir betalt av ulike enheter (ofte av selskaper i økosystemet som har en egeninteresse i utviklingen av Core). [Koden ligger på GitHub] (https://github.com/Bitcoin/Bitcoin), og utviklingen følger en streng plan:
+Bitcoin Core er programvare skrevet i C++. Det er også et åpen kildekode-prosjekt som vedlikeholdes av et fellesskap av utviklere — enten frivillige eller finansiert av ulike enheter (ofte selskaper i økosystemet som har interesse av at Core-utviklingen går gunstig). [Koden er vertet på GitHub](https://github.com/bitcoin/bitcoin), og utviklingen følger en streng modell:
 
 
 

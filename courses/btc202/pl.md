@@ -410,7 +410,7 @@ Innymi słowy, około 9 na 10 węzłów publicznych korzysta z Bitcoin core. Res
 
 
 
-Bitcoin core jest napisany w języku C++. Jest to również projekt open source, który jest utrzymywany przez społeczność programistów, którzy są wolontariuszami lub są opłacani przez różne podmioty (często przez firmy w ekosystemie, które mają żywotny interes w rozwoju Core). [Kod jest hostowany na GitHub](https://github.com/Bitcoin/Bitcoin), a rozwój odbywa się w rygorystyczny sposób:
+Bitcoin Core to oprogramowanie napisane w języku C++. Jest to również projekt open source, utrzymywany przez społeczność deweloperów — wolontariuszy lub opłacanych przez różne podmioty (często firmy z ekosystemu, którym zależy na pomyślnym rozwoju Core). [Kod jest hostowany na GitHubie](https://github.com/bitcoin/bitcoin), a rozwój odbywa się według rygorystycznego modelu:
 
 
 

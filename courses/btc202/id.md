@@ -410,7 +410,7 @@ Dengan kata lain, sekitar 9 dari 10 node publik menjalankan Bitcoin core. Sisa j
 
 
 
-Bitcoin core ditulis dalam bahasa C++. Proyek ini juga merupakan proyek sumber terbuka yang dikelola oleh komunitas pengembang yang menjadi sukarelawan atau dibayar oleh berbagai entitas (sering kali oleh perusahaan dalam ekosistem yang memiliki kepentingan dalam pengembangan Core). [Kode dihosting di GitHub] (https://github.com/Bitcoin/Bitcoin), dan pengembangannya mengikuti standar yang ketat:
+Bitcoin Core adalah perangkat lunak yang ditulis dalam C++. Ini juga merupakan proyek sumber terbuka yang dikelola oleh komunitas pengembang — baik sukarelawan maupun yang didanai oleh berbagai entitas (sering kali perusahaan dalam ekosistem yang berkepentingan agar pengembangan Core berjalan dengan baik). [Kode di-host di GitHub](https://github.com/bitcoin/bitcoin), dan pengembangannya mengikuti model yang ketat:
 
 
 

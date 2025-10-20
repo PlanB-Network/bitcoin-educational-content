@@ -410,7 +410,7 @@ Toisin sanoen noin yhdeksässä kymmenestä julkisesta solmusta käytetään Bit
 
 
 
-Bitcoin core on kirjoitettu C++-kielellä. Se on myös avoimen lähdekoodin hanke, jota ylläpitää kehittäjäyhteisö, joka toimii vapaaehtoisesti tai saa palkkaa eri tahoilta (usein ekosysteemiin kuuluvilta yrityksiltä, jotka ovat kiinnostuneita Coren kehittämisestä). [Koodi on GitHubissa](https://github.com/Bitcoin/Bitcoin), ja kehitys noudattaa tiukkaa:
+Bitcoin Core on C++-kielellä kirjoitettu ohjelmisto. Se on myös avoimen lähdekoodin projekti, jota ylläpitää yhteisö kehittäjiä — vapaaehtoisia tai eri tahojen palkkaamia (usein ekosysteemin yrityksiä, jotka ovat kiinnostuneita siitä, että Core-kehitys etenee suotuisasti). [Koodi on isännöity GitHubissa](https://github.com/bitcoin/bitcoin), ja kehitys noudattaa tiukkaa mallia:
 
 
 

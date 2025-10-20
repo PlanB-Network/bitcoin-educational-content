@@ -410,7 +410,7 @@ Teisisõnu, umbes 9 avalikku sõlme 10-st kasutab Bitcoin core. Ülejäänud võ
 
 
 
-Bitcoin core on kirjutatud C++ keeles. Samuti on tegemist avatud lähtekoodiga projektiga, mida hooldab arendajate kogukond, kes töötavad vabatahtlikult või saavad palka erinevatelt üksustelt (sageli ökosüsteemi ettevõtetelt, kellel on huvi Core'i arendamise vastu). [Kood asub GitHubis](https://github.com/Bitcoin/Bitcoin) ja arendus järgib ranget:
+Bitcoin Core on C++-is kirjutatud tarkvara. See on ka avatud lähtekoodiga projekt, mida haldab arendajate kogukond — vabatahtlikud või erinevate üksuste poolt tasustatud (sageli ökosüsteemi ettevõtted, kellel on huvi, et Core'i arendus kulgeks soodsalt). [Kood on majutatud GitHubis](https://github.com/bitcoin/bitcoin) ning arendus järgib ranget mudelit:
 
 
 

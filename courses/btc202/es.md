@@ -410,7 +410,7 @@ En otras palabras, aproximadamente 9 de cada 10 nodos públicos utilizan Bitcoin
 
 
 
-Bitcoin core está escrito en C++. También es un proyecto de código abierto mantenido por una comunidad de desarrolladores voluntarios o remunerados por diversas entidades (a menudo por empresas del ecosistema interesadas en el desarrollo de Core). [El código está alojado en GitHub](https://github.com/Bitcoin/Bitcoin), y el desarrollo sigue un riguroso:
+Bitcoin Core es un software escrito en C++. También es un proyecto de código abierto mantenido por una comunidad de desarrolladores voluntarios o remunerados por diversas entidades (a menudo empresas del ecosistema que tienen interés en que el desarrollo de Core avance favorablemente). [El código está alojado en GitHub](https://github.com/bitcoin/bitcoin), y el desarrollo sigue un modelo riguroso:
 
 
 

@@ -410,7 +410,7 @@ Bitcoin core 是 Bitcoin 协议的参考软件。它源于 Satoshi Nakamoto 在 
 
 
 
-Bitcoin core 是用 C++ 编写的。它也是一个开源项目，由开发人员社区维护，这些开发人员是志愿者，或由不同实体（通常是生态系统中对 Core 的开发有既得利益的公司）支付报酬。[代码托管在 GitHub 上](https://github.com/Bitcoin/Bitcoin)，开发遵循严格的流程：
+Bitcoin Core 是一个用 C++ 编写的软件。它也是一个由开发者社区维护的开源项目——这些开发者要么是志愿者，要么由不同的实体资助（通常是生态系统中希望 Core 开发顺利进行的公司）。[代码托管在 GitHub 上](https://github.com/bitcoin/bitcoin)，开发遵循严格的模型：
 
 
 

@@ -410,7 +410,7 @@ Jinými slovy, přibližně 9 z 10 veřejných uzlů používá Bitcoin core. Zb
 
 
 
-Bitcoin core je napsán v jazyce C++. Je to také projekt s otevřeným zdrojovým kódem, o který se stará komunita vývojářů, kteří pracují jako dobrovolníci nebo jsou placeni různými subjekty (často společnostmi v ekosystému, které mají na vývoji jádra zájem). [Kód je umístěn na serveru GitHub](https://github.com/Bitcoin/Bitcoin) a vývoj probíhá podle přísného:
+Bitcoin Core je software napsaný v jazyce C++. Je to také open source projekt, který je udržován komunitou vývojářů, dobrovolníků nebo placených různými subjekty (často společnostmi z ekosystému, které mají zájem na tom, aby vývoj Core probíhal příznivě). [Kód je hostován na GitHubu](https://github.com/bitcoin/bitcoin) a vývoj se řídí přísným modelem:
 
 
 

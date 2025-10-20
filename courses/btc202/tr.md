@@ -410,7 +410,7 @@ Başka bir deyişle, 10 genel düğümden yaklaşık 9'u Bitcoin core çalışt�
 
 
 
-Bitcoin core C++ dilinde yazılmıştır. Ayrıca, gönüllü olan veya çeşitli kuruluşlar tarafından (genellikle ekosistemde Core'un geliştirilmesinde menfaati olan şirketler tarafından) ödeme yapılan bir geliştirici topluluğu tarafından sürdürülen açık kaynaklı bir projedir. [Kod GitHub'da barındırılmaktadır] (https://github.com/Bitcoin/Bitcoin) ve geliştirme titiz bir şekilde takip edilmektedir:
+Bitcoin Core, C++ ile yazılmış bir yazılımdır. Ayrıca, gönüllü veya çeşitli kuruluşlar tarafından finanse edilen geliştirici topluluğu tarafından sürdürülen açık kaynaklı bir projedir (çoğu zaman Core geliştirmesinin olumlu ilerlemesini isteyen ekosistem şirketleri tarafından). [Kod GitHub’da barındırılmaktadır](https://github.com/bitcoin/bitcoin) ve geliştirme katı bir modele uyar:
 
 
 

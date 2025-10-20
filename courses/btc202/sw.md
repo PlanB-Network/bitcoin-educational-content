@@ -3660,7 +3660,7 @@ Faili ya usanidi pia hukuruhusu kurekebisha vigezo vinavyohusiana na mashine yak
 
 
 
-- txindex=1`: Huunda na kudumisha faharasa ya kimataifa ya miamala iliyothibitishwa. Muhimu kwa hoja fulani (`getrawtransaction` isiyo ya Wallet) na kwa madhumuni ya uchunguzi, lakini huongeza alama ya diski kwa kiasi kikubwa. Haioani na hali ya pruned.
+- `txindex=1` : Huunda na kudumisha faharasa ya kimataifa ya miamala iliyothibitishwa. Ni muhimu kwa baadhi ya maombi (`getrawtransaction` nje ya pochi) na kwa madhumuni ya uchunguzi, lakini huongeza kwa kiasi kikubwa matumizi ya diski. Haitangamani na hali ya kupunguzwa.
 
 
 

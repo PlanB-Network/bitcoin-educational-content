@@ -2732,7 +2732,7 @@ The configuration file also allows you to adjust the parameters related to your 
 
 
 
-- txindex=1`: Builds and maintains a global index of confirmed transactions. Essential for certain queries (`getrawtransaction` non-wallet) and for exploration purposes, but significantly increases disk footprint. Incompatible with pruned mode.
+- `txindex=1` : Builds and maintains a global index of confirmed transactions. Essential for certain queries (`getrawtransaction` outside the wallet) and for exploration purposes, but significantly increases disk usage. Incompatible with pruned mode.
 
 
 

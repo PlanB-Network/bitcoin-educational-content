@@ -3660,7 +3660,7 @@ Datoteka konfiguracije takođe vam omogućava da prilagodite parametre vezane za
 
 
 
-- txindex=1`: Gradi i održava globalni indeks potvrđenih transakcija. Neophodan za određene upite (`getrawtransaction` non-Wallet) i za svrhe istraživanja, ali značajno povećava zauzeće diska. Nekompatibilan sa pruned režimom.
+- `txindex=1` : Kreira i održava globalni indeks potvrđenih transakcija. Neophodno za određene upite (`getrawtransaction` van novčanika) i za istraživačke svrhe, ali značajno povećava upotrebu diska. Nije kompatibilno sa režimom orezivanja.
 
 
 

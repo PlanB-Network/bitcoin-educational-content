@@ -3660,7 +3660,7 @@ Konfigurační soubor také umožňuje upravit parametry týkající se vašeho 
 
 
 
-- txindex=1`: Vytváří a udržuje globální index potvrzených transakcí. Nezbytné pro některé dotazy (`getrawtransaction` non-Wallet) a pro účely průzkumu, ale výrazně zvyšuje diskovou stopu. Nekompatibilní s režimem pruned.
+- `txindex=1` : Vytváří a udržuje globální index potvrzených transakcí. Nezbytné pro některé dotazy (`getrawtransaction` mimo peněženku) a pro účely průzkumu, ale výrazně zvyšuje využití disku. Nekompatibilní s ořezaným režimem.
 
 
 

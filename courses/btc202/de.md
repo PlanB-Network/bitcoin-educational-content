@@ -3660,7 +3660,7 @@ In der Konfigurationsdatei können Sie auch die Parameter für Ihre Maschine ein
 
 
 
-- txindex=1`: Erstellt und pflegt einen globalen Index der bestätigten Transaktionen. Unverzichtbar für bestimmte Abfragen (`getrawtransaction`, nicht Wallet) und für Explorationszwecke, vergrößert aber den Plattenplatzbedarf erheblich. Inkompatibel mit dem pruned-Modus.
+- `txindex=1` : Erstellt und pflegt einen globalen Index bestätigter Transaktionen. Unverzichtbar für bestimmte Abfragen (`getrawtransaction` außerhalb der Wallet) und für Explorationszwecke, erhöht jedoch deutlich den Speicherbedarf. Nicht kompatibel mit dem abgespeckten Modus.
 
 
 

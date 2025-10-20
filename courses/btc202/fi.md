@@ -3660,7 +3660,7 @@ Määritystiedoston avulla voit myös säätää koneeseesi liittyviä parametre
 
 
 
-- txindex=1`: Rakentaa ja ylläpitää vahvistettujen tapahtumien globaalia indeksiä. Välttämätön tietyissä kyselyissä (`getrawtransaction`, ei-Wallet) ja etsintätarkoituksissa, mutta kasvattaa merkittävästi levytilaa. Ei yhteensopiva pruned-tilan kanssa.
+- `txindex=1` : Luo ja ylläpitää vahvistettujen tapahtumien maailmanlaajuista indeksiä. Välttämätön tietyille kyselyille (`getrawtransaction` lompakon ulkopuolella) ja tutkimustarkoituksiin, mutta lisää merkittävästi levyn käyttöä. Ei yhteensopiva karsitun tilan kanssa.
 
 
 

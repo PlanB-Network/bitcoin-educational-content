@@ -3660,7 +3660,7 @@ Konfigurasjonsfilen gir deg også mulighet til å justere parametrene for maskin
 
 
 
-- txindex=1`: Bygger og vedlikeholder en global indeks over bekreftede transaksjoner. Nødvendig for visse spørringer (`getrawtransaction`, ikke Wallet) og for utforskningsformål, men øker diskavtrykket betydelig. Inkompatibel med pruned-modus.
+- `txindex=1` : Bygger og vedlikeholder et globalt register over bekreftede transaksjoner. Nødvendig for visse forespørsler (`getrawtransaction` utenfor lommeboken) og for utforskningsformål, men øker diskforbruket betydelig. Ikke kompatibel med beskåret modus.
 
 
 

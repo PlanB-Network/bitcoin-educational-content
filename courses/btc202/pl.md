@@ -3660,7 +3660,7 @@ Plik konfiguracyjny umożliwia również dostosowanie parametrów związanych z 
 
 
 
-- txindex=1`: Tworzy i utrzymuje globalny indeks potwierdzonych transakcji. Niezbędny dla niektórych zapytań (`getrawtransaction` nie-Wallet) i do celów eksploracyjnych, ale znacznie zwiększa obciążenie dysku. Niekompatybilne z trybem pruned.
+- `txindex=1` : Tworzy i utrzymuje globalny indeks potwierdzonych transakcji. Niezbędny dla niektórych zapytań (`getrawtransaction` poza portfelem) i do celów eksploracyjnych, ale znacznie zwiększa użycie dysku. Niezgodny z trybem przyciętym.
 
 
 

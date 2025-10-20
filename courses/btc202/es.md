@@ -3660,7 +3660,7 @@ El archivo de configuración también le permite ajustar los parámetros relacio
 
 
 
-- txindex=1`: Construye y mantiene un índice global de transacciones confirmadas. Esencial para ciertas consultas (`getrawtransaction` no-Wallet) y para propósitos de exploración, pero aumenta significativamente la huella de disco. Incompatible con el modo pruned.
+- `txindex=1` : Construye y mantiene un índice global de transacciones confirmadas. Es esencial para ciertas consultas (`getrawtransaction` fuera de la billetera) y para usos de exploración, pero aumenta considerablemente el uso del disco. Incompatible con el modo recortado.
 
 
 

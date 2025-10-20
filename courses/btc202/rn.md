@@ -3660,7 +3660,7 @@ Dosiye y’imiterere iragufasha kandi guhindura amaparametere ajanye n’imashin
 
 
 
-- txindex=1`: Yubaka kandi ibungabunga urutonde rw'isi yose rw'ibikorwa vyemejwe. Ni ngombwa ku bibazo bimwe bimwe (`getrawtransaction` bitari Wallet) no ku ntumbero zo gutohoza, ariko vyongera cane ikirenge ca disiki. Ntibihuye n’uburyo bwa pruned.
+- `txindex=1` : Yubaka kandi ikarinde urutonde rw’isi rw’ibikorwa byemejwe. Ni ngombwa ku busabe bumwe (`getrawtransaction` hanze y’umufuka) no mu bushakashatsi, ariko byongera cyane gukoresha disiki. Ntibijyana n’imikorere yo kugabanya amakuru.
 
 
 

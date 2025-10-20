@@ -3660,7 +3660,7 @@ Met het configuratiebestand kun je ook de parameters voor je machine aanpassen. 
 
 
 
-- txindex=1`: Bouwt en onderhoudt een globale index van bevestigde transacties. Essentieel voor bepaalde queries (`getrawtransaction` niet-Wallet) en voor verkenningsdoeleinden, maar vergroot de schijfruimte aanzienlijk. Niet compatibel met pruned modus.
+- `txindex=1` : Bouwt en onderhoudt een globale index van bevestigde transacties. Essentieel voor bepaalde verzoeken (`getrawtransaction` buiten de wallet) en voor onderzoeksdoeleinden, maar verhoogt het schijfgebruik aanzienlijk. Niet compatibel met de gesnoeide modus.
 
 
 

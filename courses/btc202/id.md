@@ -3660,7 +3660,7 @@ File konfigurasi juga memungkinkan Anda untuk menyesuaikan parameter yang terkai
 
 
 
-- txindex=1`: Membangun dan memelihara indeks global dari transaksi yang dikonfirmasi. Penting untuk kueri tertentu (`getrawtransaction` non-Wallet) dan untuk tujuan eksplorasi, tetapi secara signifikan meningkatkan jejak disk. Tidak kompatibel dengan mode pruned.
+- `txindex=1` : Membangun dan memelihara indeks global dari transaksi yang dikonfirmasi. Penting untuk beberapa permintaan (`getrawtransaction` di luar dompet) dan untuk keperluan eksplorasi, tetapi secara signifikan meningkatkan penggunaan disk. Tidak kompatibel dengan mode terpangkas.
 
 
 

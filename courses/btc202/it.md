@@ -3660,7 +3660,7 @@ Il file di configurazione consente anche di regolare i parametri relativi alla m
 
 
 
-- txindex=1`: Costruisce e mantiene un indice globale delle transazioni confermate. È essenziale per alcune query (`getrawtransaction` non-Wallet) e per scopi di esplorazione, ma aumenta significativamente l'ingombro su disco. Incompatibile con la modalità pruned.
+- `txindex=1` : Costruisce e mantiene un indice globale delle transazioni confermate. Indispensabile per alcune richieste (`getrawtransaction` fuori dal portafoglio) e per scopi di esplorazione, ma aumenta notevolmente l'utilizzo del disco. Incompatibile con la modalità ridotta.
 
 
 

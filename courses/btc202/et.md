@@ -3660,7 +3660,7 @@ Konfiguratsioonifail võimaldab teil ka seadme parameetreid reguleerida. See võ
 
 
 
-- txindex=1`: Ehitab ja säilitab kinnitatud tehingute globaalset indeksit. Oluline teatavate päringute jaoks (`getrawtransaction`, mitte-Wallet) ja uurimiseks, kuid suurendab oluliselt kettamahte. Ei ühildu pruned režiimiga.
+- `txindex=1` : Loob ja hooldab kinnitatud tehingute globaalset indeksit. Vajalik teatud päringute jaoks (`getrawtransaction` väljaspool rahakotti) ja uurimise eesmärgil, kuid suurendab märkimisväärselt kettakasutust. Ei ühildu kärbitud režiimiga.
 
 
 

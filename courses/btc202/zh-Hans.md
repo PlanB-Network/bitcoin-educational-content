@@ -3660,7 +3660,7 @@ Full node 通过接受传入连接为网络增加更多价值。使用 "listen=1
 
 
 
-- txindex=1`：建立并维护已确认事务的全局索引。对于某些查询（`getrawtransaction` 非 Wallet）和探索目的必不可少，但会显著增加磁盘占用。与 pruned 模式不兼容。
+- `txindex=1` ：构建并维护已确认交易的全局索引。对于某些请求（钱包外的 `getrawtransaction`）和探索用途是必需的，但会显著增加磁盘占用。与修剪模式不兼容。
 
 
 

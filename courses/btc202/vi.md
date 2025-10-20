@@ -3660,7 +3660,7 @@ Tệp cấu hình cũng cho phép bạn điều chỉnh các thông số liên q
 
 
 
-- txindex=1`: Xây dựng và duy trì một chỉ mục toàn cầu cho các giao dịch đã xác nhận. Cần thiết cho một số truy vấn nhất định (`getrawtransaction` không phải Wallet) và cho mục đích khám phá, nhưng làm tăng đáng kể dung lượng ổ đĩa. Không tương thích với chế độ pruned.
+- `txindex=1` : Xây dựng và duy trì chỉ mục toàn cầu của các giao dịch đã được xác nhận. Cần thiết cho một số truy vấn (`getrawtransaction` ngoài ví) và cho mục đích khám phá, nhưng làm tăng đáng kể mức sử dụng ổ đĩa. Không tương thích với chế độ cắt tỉa.
 
 
 

@@ -3660,7 +3660,7 @@ Yapılandırma dosyası, makinenizle ilgili parametreleri ayarlamanıza da olana
 
 
 
-- txindex=1`: Onaylanmış işlemlerin küresel bir dizinini oluşturur ve korur. Belirli sorgular (`getrawtransaction` non-Wallet) ve keşif amaçları için gereklidir, ancak disk ayak izini önemli ölçüde artırır. pruned modu ile uyumsuzdur.
+- `txindex=1` : Onaylanmış işlemlerin küresel dizinini oluşturur ve korur. Bazı sorgular (`getrawtransaction` cüzdan dışında) ve keşif amaçları için gereklidir, ancak disk kullanımını önemli ölçüde artırır. Budanmış mod ile uyumlu değildir.
 
 
 

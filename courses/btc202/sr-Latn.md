@@ -3418,7 +3418,7 @@ Evo osnovnih parametara koje možete modifikovati u vašem `Bitcoin.conf` u vezi
 
 
 
-- blocksonly=1`: Onemogućava prihvatanje i ponovni prenos nepotvrđenih transakcija primljenih od vršnjaka (osim ako nisu dodeljene posebne dozvole). Čvor sada samo učitava i oglašava blokove. Transakcije kreirane lokalno i dalje mogu biti emitovane (za korišćenje vašeg čvora sa vašim Wallet softverom). Ovo značajno smanjuje zahteve za propusnim opsegom i RAM-om, iako na račun smanjene korisnosti za relej i potpune nepoznatosti sa Mempool.
+- `blocksonly=1` : Onemogućava prihvatanje i prosleđivanje nepotvrđenih transakcija primljenih od parova (osim sa posebnim dozvolama). Čvor preuzima i najavljuje samo blokove. Lokalno kreirane transakcije i dalje mogu biti emitovane (za korišćenje čvora sa softverom za novčanik). Ovo značajno smanjuje propusni opseg i potrebe za RAM-om, po cenu manje korisnosti za prosleđivanje i potpunog nepoznavanja mempool-a.
 
 
 

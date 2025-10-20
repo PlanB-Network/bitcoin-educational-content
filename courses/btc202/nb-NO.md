@@ -3418,7 +3418,7 @@ Her er de grunnleggende parameterne du kan endre i `Bitcoin.conf` når det gjeld
 
 
 
-- blocksonly=1`: Deaktiverer aksept og videresending av ubekreftede transaksjoner mottatt fra motparter (med mindre spesielle tillatelser er gitt). Noden laster nå bare opp og annonserer blokker. Transaksjoner som opprettes lokalt, kan fortsatt kringkastes (for å bruke noden med Wallet-programvaren). Dette reduserer båndbredde- og RAM-kravene betraktelig, selv om det går på bekostning av redusert nytteverdi for reléet og total uvitenhet om Mempool.
+- `blocksonly=1` : Deaktiverer mottak og videresending av ubekreftede transaksjoner mottatt fra jevnaldrende (bortsett fra spesielle tillatelser). Noden laster kun ned og kunngjør blokker. Lokalt opprettede transaksjoner kan fortsatt kringkastes (for å bruke noden med lommebokprogramvaren din). Dette reduserer båndbredde og RAM-behov betydelig, men på bekostning av redusert nytte for videresending og total uvitenhet om mempoolen.
 
 
 

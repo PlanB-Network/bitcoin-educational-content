@@ -3418,7 +3418,7 @@ Här är de grundläggande parametrarna som du kan ändra i din `Bitcoin.conf` n
 
 
 
-- blocksonly=1`: Avaktiverar godkännande och återsändning av obekräftade transaktioner som tas emot från peers (om inte särskilda behörigheter beviljas). Noden laddar nu bara upp och annonserar block. Transaktioner som skapas lokalt kan fortfarande sändas (för att använda din nod med din Wallet-programvara). Detta minskar kraftigt kraven på bandbredd och RAM-minne, om än på bekostnad av minskad användbarhet för reläet och total obekantskap med Mempool.
+- `blocksonly=1` : Inaktiverar mottagning och vidarebefordran av obekräftade transaktioner som tas emot från noder (förutom med särskilda tillstånd). Noden laddar endast ner och tillkännager block. Lokalt skapade transaktioner kan fortfarande sändas (för att använda din nod med din plånboksprogramvara). Detta minskar bandbredd och RAM-behov avsevärt, men minskar nyttan för relä och innebär total okunnighet om mempoolen.
 
 
 

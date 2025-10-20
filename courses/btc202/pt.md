@@ -3418,7 +3418,7 @@ Aqui estão os parâmetros básicos que pode modificar no seu `Bitcoin.conf` rel
 
 
 
-- blocksonly=1`: Desabilita a aceitação e retransmissão de transações não confirmadas recebidas de pares (a menos que permissões especiais sejam concedidas). O nó agora só faz upload e anuncia blocos. Transações criadas localmente ainda podem ser transmitidas (para usar seu nó com seu software Wallet). Isso reduz muito os requisitos de largura de banda e RAM, embora ao custo de uma utilidade reduzida para o retransmissor e total falta de familiaridade com o Mempool.
+- `blocksonly=1` : Desativa a aceitação e retransmissão de transações não confirmadas recebidas de pares (exceto permissões especiais). O nó baixa e anuncia apenas blocos. As transações criadas localmente ainda podem ser transmitidas (para usar seu nó com o software de carteira). Isso reduz significativamente a largura de banda e o uso de RAM, mas diminui a utilidade para retransmissão e elimina completamente o conhecimento do mempool.
 
 
 

@@ -3418,7 +3418,7 @@ Oto podstawowe parametry, które można modyfikować w pliku `Bitcoin.conf` doty
 
 
 
-- blocksonly=1`: Wyłącza akceptację i retransmisję niepotwierdzonych transakcji otrzymanych od peerów (chyba że przyznano specjalne uprawnienia). Węzeł teraz tylko przesyła i reklamuje bloki. Transakcje utworzone lokalnie mogą być nadal transmitowane (aby używać węzła z oprogramowaniem Wallet). To znacznie zmniejsza zapotrzebowanie na przepustowość i pamięć RAM, aczkolwiek kosztem zmniejszonej użyteczności dla przekaźnika i całkowitej nieznajomości Mempool.
+- `blocksonly=1` : Wyłącza przyjmowanie i przekazywanie niepotwierdzonych transakcji otrzymanych od peerów (z wyjątkiem specjalnych uprawnień). Węzeł pobiera i ogłasza tylko bloki. Transakcje utworzone lokalnie mogą nadal być rozgłaszane (aby używać węzła z oprogramowaniem portfela). To znacznie zmniejsza zużycie przepustowości i pamięci RAM, kosztem mniejszej użyteczności w przekazywaniu i całkowitej nieznajomości mempoolu.
 
 
 

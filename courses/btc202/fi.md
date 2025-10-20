@@ -3418,7 +3418,7 @@ Tässä ovat perusparametrit, joita voit muuttaa Bitcoin.conf-tiedostossasi Memp
 
 
 
-- blocksonly=1`: Estää vertaisilta vastaanotettujen vahvistamattomien transaktioiden hyväksymisen ja uudelleenlähettämisen (ellei erityisoikeuksia ole myönnetty). Solmu lataa ja mainostaa nyt vain lohkoja. Paikallisesti luodut transaktiot voidaan edelleen lähettää (käyttääksesi solmua Wallet-ohjelmiston kanssa). Tämä vähentää huomattavasti kaistanleveys- ja RAM-vaatimuksia, vaikkakin sillä hinnalla, että välittäjän hyöty vähenee ja Mempool:n käyttö on täysin tuntematonta.
+- `blocksonly=1` : Poistaa käytöstä vertaisilta vastaanotettujen vahvistamattomien tapahtumien hyväksymisen ja välittämisen (paitsi erityisluvalla). Solmu lataa ja ilmoittaa vain lohkoja. Paikallisesti luodut tapahtumat voidaan silti lähettää (käyttääksesi solmua lompakko-ohjelmistosi kanssa). Tämä vähentää huomattavasti kaistanleveyden ja RAM-muistin tarvetta, mutta pienentää edelleenlähetyksen hyödyllisyyttä ja poistaa kokonaan mempoolin tuntemuksen.
 
 
 

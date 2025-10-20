@@ -3418,7 +3418,7 @@ Hivi ndivyo vigezo vya msingi unavyoweza kurekebisha kwenye `Bitcoin.conf` yako 
 
 
 
-- blocksonly=1`: Inalemaza kukubalika na uwasilishaji upya wa miamala ambayo haijathibitishwa iliyopokelewa kutoka kwa washirika (isipokuwa ruhusa maalum zimetolewa). Nodi sasa inapakia na kutangaza vitalu pekee. Miamala iliyoundwa ndani bado inaweza kutangazwa (ili kutumia nodi yako na programu yako ya Wallet). Hii inapunguza sana mahitaji ya kipimo data na RAM, ingawa kwa gharama ya kupunguzwa kwa manufaa kwa relay na kutofahamu kabisa kwa Mempool.
+- `blocksonly=1` : Huzima kukubali na kurudia utumaji wa miamala isiyothibitishwa inayopokelewa kutoka kwa wenzao (isipokuwa kwa ruhusa maalum). Nodi hupakua na kutangaza vitalu pekee. Miamala iliyoundwa ndani bado inaweza kutangazwa (kutumia nodi yako na programu ya pochi yako). Hii inapunguza sana matumizi ya kipimo data na mahitaji ya RAM, lakini hupunguza manufaa kwa kurudia na kutojua kabisa mempool.
 
 
 

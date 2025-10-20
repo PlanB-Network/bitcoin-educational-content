@@ -3418,7 +3418,7 @@ Mempool'nizin yönetimi ve onaylanmamış işlemlerin aktarılmasıyla ilgili `B
 
 
 
-- blocksonly=1`: Eşlerden alınan onaylanmamış işlemlerin kabulünü ve yeniden iletimini devre dışı bırakır (özel izinler verilmediği sürece). Düğüm artık sadece blokları yükler ve ilan eder. Yerel olarak oluşturulan işlemler hala yayınlanabilir (düğümünüzü Wallet yazılımınızla kullanmak için). Bu, aktarıcı için daha az kullanışlılık ve Mempool'e tamamen yabancılık pahasına da olsa bant genişliği ve RAM gereksinimlerini büyük ölçüde azaltır.
+- `blocksonly=1` : Eşlerden alınan onaylanmamış işlemlerin kabulünü ve yeniden iletimini devre dışı bırakır (özel izinler hariç). Düğüm yalnızca blokları indirir ve duyurur. Yerel olarak oluşturulan işlemler hâlâ yayınlanabilir (düğümünüzü cüzdan yazılımınızla kullanmak için). Bu, bant genişliği ve RAM gereksinimlerini önemli ölçüde azaltır, ancak aktarım için kullanılabilirliği azaltır ve mempool hakkında hiçbir bilgi bırakmaz.
 
 
 

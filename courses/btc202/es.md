@@ -3418,7 +3418,7 @@ Estos son los parámetros básicos que puede modificar en su `Bitcoin.conf` rela
 
 
 
-- blocksonly=1`: Desactiva la aceptación y retransmisión de transacciones no confirmadas recibidas de pares (a menos que se concedan permisos especiales). El nodo ahora sólo sube y anuncia bloques. Las transacciones creadas localmente pueden seguir siendo retransmitidas (para utilizar su nodo con su software Wallet). Esto reduce enormemente los requisitos de ancho de banda y RAM, aunque a costa de una menor utilidad para el relé y un desconocimiento total de la Mempool.
+- `blocksonly=1` : Desactiva la aceptación y retransmisión de transacciones no confirmadas recibidas de pares (excepto permisos especiales). El nodo solo descarga y anuncia bloques. Las transacciones creadas localmente aún pueden difundirse (para usar su nodo con su software de billetera). Esto reduce considerablemente el ancho de banda y los requisitos de RAM, a costa de una menor utilidad para el reenvío y un desconocimiento total del mempool.
 
 
 

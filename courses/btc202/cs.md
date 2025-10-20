@@ -3418,7 +3418,7 @@ Zde jsou uvedeny základní parametry, které můžete upravit v souboru `Bitcoi
 
 
 
-- bloky=1`: Zakáže přijímání a opakované zasílání nepotvrzených transakcí přijatých od partnerů (pokud nejsou udělena zvláštní oprávnění). Uzel nyní odesílá a inzeruje pouze bloky. Transakce vytvořené lokálně lze stále vysílat (pro použití uzlu se softwarem Wallet). To výrazně snižuje nároky na šířku pásma a paměť RAM, i když za cenu menší užitečnosti pro relay a naprosté neznalosti Mempool.
+- `blocksonly=1` : Deaktivuje přijímání a přeposílání nepotvrzených transakcí přijatých od peerů (s výjimkou zvláštních oprávnění). Uzluje stahuje a oznamuje pouze bloky. Lokálně vytvořené transakce mohou být stále vysílány (pro použití vašeho uzlu s peněženkovými programy). To výrazně snižuje šířku pásma a potřebu paměti RAM za cenu nižší užitečnosti pro přeposílání a úplné neznalosti mempoolu.
 
 
 

@@ -2568,7 +2568,7 @@ Here are the basic parameters you can modify on your `Bitcoin.conf` concerning t
 
 
 
-- blocksonly=1`: Disables acceptance and retransmission of unconfirmed transactions received from peers (unless special permissions are granted). The node now only uploads and advertises blocks. Transactions created locally can still be broadcast (to use your node with your wallet software). This greatly reduces bandwidth and RAM requirements, albeit at the cost of reduced usefulness for the relay and total unfamiliarity with the Mempool.
+- `blocksonly=1` : Disables the acceptance and relay of unconfirmed transactions received from peers (except for special permissions). The node only downloads and announces blocks. Locally created transactions can still be broadcast (to use your node with your wallet software). This greatly reduces bandwidth and RAM requirements at the cost of reduced relay usefulness and total unawareness of the mempool.
 
 
 

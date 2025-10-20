@@ -3418,7 +3418,7 @@ Berikut ini adalah parameter dasar yang dapat Anda modifikasi pada `Bitcoin.conf
 
 
 
-- blocksonly=1`: Menonaktifkan penerimaan dan pengiriman ulang transaksi yang belum dikonfirmasi yang diterima dari rekan-rekan (kecuali jika izin khusus diberikan). Node sekarang hanya mengunggah dan mengiklankan blok. Transaksi yang dibuat secara lokal masih dapat disiarkan (untuk menggunakan node Anda dengan perangkat lunak Wallet). Hal ini sangat mengurangi kebutuhan bandwidth dan RAM, meskipun dengan biaya berkurangnya kegunaan relay dan ketidaktahuan total dengan Mempool.
+- `blocksonly=1` : Menonaktifkan penerimaan dan penerusan transaksi yang belum dikonfirmasi dari rekan (kecuali dengan izin khusus). Node hanya mengunduh dan mengumumkan blok. Transaksi yang dibuat secara lokal masih dapat disiarkan (untuk menggunakan node Anda dengan perangkat lunak dompet Anda). Ini sangat mengurangi penggunaan bandwidth dan kebutuhan RAM dengan mengorbankan kegunaan relay dan tanpa pengetahuan tentang mempool.
 
 
 

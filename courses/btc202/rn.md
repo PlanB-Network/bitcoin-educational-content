@@ -3418,7 +3418,7 @@ Aha niho hari amaparametere y'ishimikiro ushobora guhindura kuri `Bitcoin.conf` 
 
 
 
-- blocksonly=1`: Ihagarika kwemera no gusubira gutanga amafaranga ataremejwe yaronse ku bagenzi (kiretse iyo hatanzwe uruhusha rudasanzwe). Node ubu ishira gusa kandi igatangaza amabuye. Ibikorwa vyakozwe mu karere birashobora gutangazwa (kugira ngo ukoreshe urudodo rwawe na porogarama yawe ya Wallet). Ivyo bigabanya cane bandwidth na RAM bisabwa, naho nyene bishobora kugabanya akamaro k'ivyo bikoresho no kutamenya neza Mempool.
+- `blocksonly=1` : Igererayo no kongera kohereza ibikorwa bitaremezwa byavuye ku bandi (keretse abafite uburenganzira bwihariye). Uru rubuga rumanura kandi ruvuga gusa ibibaho. Ibikorwa byakorewe hafi biracyashobora gukwirakwizwa (mu gukoresha uru rubuga hamwe na porogaramu y’umufuka wawe). Ibi bigabanya cyane ubusabwa bw’imiyoboro n’ubushobozi bwa RAM, ariko bigatuma bidafasha cyane mu kohereza no kutamenya na gato mempool.
 
 
 

@@ -3418,7 +3418,7 @@ Hier sind die grundlegenden Parameter, die Sie in Ihrer "Bitcoin.conf" ändern k
 
 
 
-- blocksonly=1`: Deaktiviert die Annahme und erneute Übermittlung von unbestätigten Transaktionen, die von Peers empfangen wurden (sofern keine besonderen Berechtigungen erteilt wurden). Der Knoten lädt jetzt nur noch Blöcke hoch und macht sie bekannt. Lokal erstellte Transaktionen können weiterhin übertragen werden (um Ihren Knoten mit Ihrer Wallet-Software zu verwenden). Dadurch werden die Bandbreiten- und RAM-Anforderungen erheblich reduziert, wenn auch um den Preis einer geringeren Nützlichkeit für das Relais und einer völligen Unvertrautheit mit dem Mempool.
+- `blocksonly=1` : Deaktiviert die Annahme und Weiterleitung unbestätigter Transaktionen, die von Peers empfangen werden (außer bei speziellen Berechtigungen). Der Node lädt und kündigt nur noch Blöcke an. Lokal erstellte Transaktionen können weiterhin gesendet werden (zur Nutzung des Nodes mit Ihrer Wallet-Software). Dies reduziert die Bandbreite und den RAM-Bedarf erheblich, auf Kosten einer geringeren Nützlichkeit für das Relaying und ohne Kenntnis des Mempools.
 
 
 

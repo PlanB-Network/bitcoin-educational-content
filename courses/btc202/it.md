@@ -3418,7 +3418,7 @@ Ecco i parametri di base che potete modificare nel vostro `Bitcoin.conf` per qua
 
 
 
-- blocksonly=1`: Disabilita l'accettazione e la ritrasmissione di transazioni non confermate ricevute dai peer (a meno che non vengano concessi permessi speciali). Il nodo ora carica e pubblicizza solo i blocchi. Le transazioni create localmente possono ancora essere trasmesse (per utilizzare il nodo con il software Wallet). Questo riduce notevolmente la larghezza di banda e i requisiti di RAM, anche se al costo di una minore utilità per il relay e di una totale mancanza di familiarità con il Mempool.
+- `blocksonly=1` : Disattiva l'accettazione e la ritrasmissione delle transazioni non confermate ricevute dai peer (tranne permessi speciali). Il nodo scarica e annuncia solo i blocchi. Le transazioni create localmente possono comunque essere trasmesse (per utilizzare il nodo con il software del portafoglio). Questo riduce notevolmente la larghezza di banda e il consumo di RAM, a scapito dell'utilità per il relay e della totale mancanza di conoscenza della mempool.
 
 
 

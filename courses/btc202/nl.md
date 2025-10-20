@@ -3418,7 +3418,7 @@ Hier zijn de basisparameters die je kunt wijzigen in je `Bitcoin.conf` met betre
 
 
 
-- blocksonly=1`: Hiermee wordt het accepteren en opnieuw verzenden van onbevestigde transacties van peers uitgeschakeld (tenzij speciale toestemmingen zijn verleend). Het knooppunt uploadt en adverteert nu alleen blokken. Lokaal aangemaakte transacties kunnen nog steeds worden uitgezonden (om je knooppunt met je Wallet software te gebruiken). Dit vermindert de bandbreedte en RAM vereisten enorm, zij het ten koste van verminderde bruikbaarheid voor het relais en totale onbekendheid met de Mempool.
+- `blocksonly=1` : Schakelt de acceptatie en doorsturing van onbevestigde transacties van peers uit (behalve met speciale toestemming). De node downloadt en kondigt alleen blokken aan. Lokaal gemaakte transacties kunnen nog steeds worden uitgezonden (om je node met je walletsoftware te gebruiken). Dit vermindert de bandbreedte en het RAM-gebruik aanzienlijk, maar verlaagt de bruikbaarheid voor relay en elimineert kennis van de mempool volledig.
 
 
 

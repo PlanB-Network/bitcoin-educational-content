@@ -3418,7 +3418,7 @@ Siin on põhiparameetrid, mida saate muuta oma "Bitcoin.conf"-is seoses Mempool 
 
 
 
-- blocksonly=1`: Keelab eakaaslastelt saadud kinnitamata tehingute vastuvõtmise ja uuesti edastamise (kui ei ole antud erilisi õigusi). Sõlm laeb nüüd ainult plokke üles ja reklaamib neid. Lokaalselt loodud tehinguid saab endiselt edastada (et kasutada oma sõlme koos Wallet tarkvaraga). See vähendab oluliselt ribalaiuse ja RAM-i nõudeid, kuigi selle hinnaga väheneb relee kasulikkus ja Mempool täielik tundmatus.
+- `blocksonly=1` : Keelab kinnitamata tehingute vastuvõtmise ja edastamise teistelt sõlmedelt (välja arvatud eriloaga). Sõlm laadib alla ja teatab ainult plokkidest. Kohapeal loodud tehinguid saab siiski edastada (et kasutada oma sõlme koos rahakotitarkvaraga). See vähendab oluliselt ribalaiuse ja RAM-i nõudeid, kuid vähendab sõlme kasulikkust edastamisel ja muudab mempooli tundmatuks.
 
 
 

@@ -3418,7 +3418,7 @@ Sau đây là các tham số cơ bản bạn có thể sửa đổi trên `Bitco
 
 
 
-- blocksonly=1`: Vô hiệu hóa việc chấp nhận và truyền lại các giao dịch chưa được xác nhận nhận được từ các peer (trừ khi được cấp quyền đặc biệt). Giờ đây, node chỉ tải lên và quảng bá các khối. Các giao dịch được tạo cục bộ vẫn có thể được phát sóng (để sử dụng node của bạn với phần mềm Wallet). Điều này giúp giảm đáng kể yêu cầu về băng thông và RAM, mặc dù phải trả giá bằng việc giảm tính hữu dụng của relay và hoàn toàn không quen thuộc với Mempool.
+- `blocksonly=1` : Tắt việc chấp nhận và chuyển tiếp các giao dịch chưa được xác nhận nhận từ các nút ngang hàng (trừ các quyền đặc biệt). Nút chỉ tải xuống và thông báo các khối. Các giao dịch được tạo cục bộ vẫn có thể được phát sóng (để sử dụng nút của bạn với phần mềm ví của bạn). Điều này làm giảm đáng kể băng thông và yêu cầu RAM, nhưng làm giảm tính hữu ích cho việc chuyển tiếp và khiến nút hoàn toàn không biết về mempool.
 
 
 

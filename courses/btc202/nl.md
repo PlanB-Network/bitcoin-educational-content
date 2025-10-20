@@ -3362,7 +3362,7 @@ Om volledig Tor-enabled te zijn, moet je Bitcoin core dwingen om alleen dit netw
 - `torcontrol=127.0.0.1:9051`,
 - `proxyrandomize=1`,
 - `luisteren=1`,
-- bind=127.0.0.1`,
+- `bind=127.0.0.1`,
 - `upnp=0`,
 - `natpmp=0`.
 

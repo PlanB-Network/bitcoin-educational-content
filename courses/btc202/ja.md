@@ -3362,7 +3362,7 @@ Torを完全に有効にするには、Bitcoin coreにこのネットワーク�
 - `torcontrol=127.0.0.1:9051`,
 - proxyrandomize=1`、
 - listen=1`、
-- bind=127.0.0.1`、
+- `bind=127.0.0.1`,
 - upnp=0`、
 - natpmp=0`。
 

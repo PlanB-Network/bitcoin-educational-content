@@ -3362,7 +3362,7 @@ Full node 通过接受传入连接为网络增加更多价值。使用 "listen=1
 - `torcontrol=127.0.0.1:9051`,
 - proxyrandomize=1`、
 - listen=1`、
-- bind=127.0.0.1`、
+- `bind=127.0.0.1`,
 - upnp=0`、
 - natpmp=0`。
 

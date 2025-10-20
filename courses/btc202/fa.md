@@ -3362,7 +3362,7 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 - `torcontrol=127.0.0.1:9051`,
 - `proxyrandomize=1`,
 - `listen=1`,
-- bind=127.0.0.1`,
+- `bind=127.0.0.1`,
 - `upnp=0`,
 - `natpmp=0`.
 

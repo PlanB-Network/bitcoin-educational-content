@@ -3362,7 +3362,7 @@ Ili kuwasha Tor kikamilifu, unahitaji kulazimisha Bitcoin core kutumia mtandao h
 - `torcontrol=127.0.0.1:9051`,
 - `proxyrandomize=1`,
 - `sikiliza=1`,
-- funga=127.0.0.1`,
+- `bind=127.0.0.1`,
 - `upnp=0`,
 - `natpmp=0`.
 

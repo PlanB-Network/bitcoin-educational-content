@@ -3362,7 +3362,7 @@ Kugira ngo ushobore gukoresha Tor mu buryo bushitse, ukeneye guhatira Bitcoin co
 - `ubugenzuzi=127.0.0.1:9051`,
 - `ugutoranya=1`,
 - `umviriza=1`,
-- gufatanya=127.0.0.1`,
+- `bind=127.0.0.1`,
 - `upnp=0`,
 - `natpmp=0`.
 

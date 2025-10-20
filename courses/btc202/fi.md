@@ -3362,7 +3362,7 @@ Jotta Tor olisi täysin käytössä, sinun on pakotettava Bitcoin core käyttäm
 - `torcontrol=127.0.0.1:9051`,
 - `proxyrandomize=1`,
 - `listen=1`,
-- bind=127.0.0.0.1`,
+- `bind=127.0.0.1`,
 - `upnp=0`,
 - `natpmp=0`.
 

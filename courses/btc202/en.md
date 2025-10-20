@@ -2528,7 +2528,7 @@ To be fully Tor-enabled, you need to force Bitcoin Core to use only this network
 - `torcontrol=127.0.0.1:9051`,
 - `proxyrandomize=1`,
 - `listen=1`,
-- bind=127.0.0.1`,
+- `bind=127.0.0.1`,
 - `upnp=0`,
 - `natpmp=0`.
 

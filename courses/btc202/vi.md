@@ -3362,7 +3362,7 @@ Theo mặc định, nút của bạn giao tiếp qua clearnet, Tor và I2P. Đi�
 - `torcontrol=127.0.0.1:9051`,
 - `proxyrandomize=1`,
 - `nghe=1`,
-- liên kết=127.0.0.1`,
+- `bind=127.0.0.1`,
 - `upnp=0`,
 - `natpmp=0`.
 

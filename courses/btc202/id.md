@@ -3362,7 +3362,7 @@ Untuk sepenuhnya mendukung Tor, Anda perlu memaksa Bitcoin core untuk hanya meng
 - `torcontrol=127.0.0.1:9051`,
 - `proxyrandomize=1`,
 - `dengarkan=1`,
-- bind = 127.0.0.1`,
+- `bind=127.0.0.1`,
 - `upnp=0`,
 - `natpmp=0`.
 

@@ -32,6 +32,8 @@ Natuurlijk staat in deze cursus de figuur van Satoshi Nakamoto centraal, wiens w
 
 <chapterId>85290407-1aa3-4cb4-890a-aed23441afb7</chapterId>
 
+:::video id=d1eddf56-279d-459a-9568-5674606f0fd1:::
+
 Welkom bij de cursus HIS201!
 
 Deze cursus is bedoeld om je het verhaal van het ontstaan van Bitcoin te vertellen op een manier die je nog nooit eerder hebt gelezen. Hoewel het vol fascinerende details zit, wordt het vaak over het hoofd gezien. We zullen proberen het in al zijn complexiteit te beschrijven, vanaf het ontwerp door Satoshi Nakamoto tot zijn vroege verdwijning en de overdracht aan de gemeenschap.
@@ -124,6 +126,8 @@ Ben je klaar om de ongelooflijke saga van Bitcoin's creatie te ontdekken? Laten 
 ## eCash: Chaumian Digitaal Geld
 
 <chapterId>e443d2ab-68ce-45c0-aec7-30b88d3acdc8</chapterId>
+
+:::video id=fe306046-2245-43a7-9144-6fbafda3205e:::
 
 
 Voordat we ingaan op het eigenlijke verhaal van Bitcoin's creatie door Satoshi Nakamoto, is het gepast om te bespreken wat eraan voorafging. We zullen Address het onderwerp in drie fasen behandelen: eerst introduceren we het concept van Chaumiaans digitaal geld, gewoonlijk *eCash* genoemd; daarna zullen we het hebben over privévaluta's gebaseerd op gecentraliseerde systemen zoals e-gold; tot slot zullen we de technische modellen beschrijven die werden bedacht vóór de implementatie van het robuuste gedistribueerde systeem dat Bitcoin is.
@@ -300,6 +304,8 @@ Satoshi Nakamoto creëerde met Bitcoin een robuuste en vertrouwelijke digitale v
 
 <chapterId>43035fa3-2805-4331-a6fb-070931d749cf</chapterId>
 
+:::video id=0f75ff53-ebf6-481c-9d1c-863fabb19a6a:::
+
 
 In het vorige hoofdstuk onderzochten we de eerste vorm van elektronisch geld die voortkwam uit de komst van het internet en moderne cryptografie: David Chaum's eCash model. Dit model beïnvloedde Satoshi Nakamoto aanzienlijk en was een belangrijke mijlpaal op het pad dat naar Bitcoin leidde. Het verhaal van de oorsprong van cryptocurrency eindigt echter niet met eCash; het omvat ook experimenten met privévaluta's die op het internet werken, ontwikkeld aan het einde van de jaren 1990.
 
@@ -415,6 +421,8 @@ Omdat gecentraliseerde systemen kwetsbaar zijn, zochten voorstanders van vrijhei
 ## Gedecentraliseerde modellen vóór Nakamoto
 
 <chapterId>a104f23c-e9c3-4457-a194-d87cc5f35f13</chapterId>
+
+:::video id=67e5f851-5ff6-4876-a74d-c5f8130b555c:::
 
 
 Bitcoin vertegenwoordigt een gedecentraliseerd model van digitale valuta. Hierdoor wordt de noodzaak van een betrouwbare derde partij vermeden, die een single point of failure in het systeem zou vormen. Zoals de voorbeelden van eCash, digitale goudvaluta en Liberty Reserve laten zien, leidt de centralisatie van een systeem dat een alternatief voor het bestaande systeem wil zijn, onvermijdelijk tot de sluiting ervan.
@@ -624,6 +632,8 @@ Bitcoin vormt dus het hoogtepunt van een zoektocht naar cybercurrency, een valut
 
 <chapterId>3d141918-e9c2-46e8-8c03-2bb4eb9b2150</chapterId>
 
+:::video id=825522d8-1ccc-4d14-80ac-e292a85a608a:::
+
 
 Nadat we hebben geleerd waar Bitcoin vandaan komt, zullen we ons richten op zijn geschiedenis. Dit is het onderwerp geweest van talloze artikelen, podcasts en video's, zo veel zelfs dat het bijna een stichtingsmythe is geworden. Zoals we hebben gezien, is Bitcoin onlosmakelijk verbonden met de context waarin het werd gecreëerd; hetzelfde geldt voor de gebeurtenissen die plaatsvonden tijdens de beginjaren, die hebben gevormd wat het nu is, met zijn kwaliteiten en gebreken.
 
@@ -812,6 +822,8 @@ Dit werk was echter onvoldoende en het kostte Satoshi's doorzettingsvermogen om 
 ## Presentatie aan de wereld
 
 <chapterId>28be3515-d9da-4d91-b7ff-f8691d51c562</chapterId>
+
+:::video id=c9691569-f026-460d-a08d-98fa54f1ce25:::
 
 
 Na te hebben onderzocht hoe Bitcoin werd ontworpen en gelanceerd door Satoshi Nakamoto, concentreren we ons op hoe het publiekelijk werd gepresenteerd. Na de lancering begin 2009 was het netwerk operationeel. Er waren echter weinig genererende nodes (Satoshi minde de meeste blokken) en er was nauwelijks activiteit (er vonden 32 daadwerkelijke transacties plaats in januari). Het project had alleen een eenvoudige website en een SourceForge pagina om de software te downloaden. Bovendien was de communicatie over Bitcoin beperkt tot de Metzdowd Cryptography mailinglijst, op zijn best gevolgd door een paar honderd mensen met een passie voor cryptografie.
@@ -1049,6 +1061,8 @@ In de herfst van 2009 leek Bitcoin klaar om te groeien. Juist toen vond de econo
 
 <chapterId>6b3418a7-125e-4ea1-a03a-f36090fac8a4</chapterId>
 
+:::video id=2a31c9c2-bb14-4ed5-b906-7df373f81f98:::
+
 
 In de vorige hoofdstukken hebben we gezien hoe Satoshi Nakamoto zijn idee implementeerde en erover communiceerde om Bitcoin aan de wereld te introduceren. Maar niet alles hing van hem af: mensen moesten ook waarde toekennen aan de rekeneenheid. Aangezien dit de beloning van miners via transactievergoedingen mogelijk maakte en handelaren beloonde via natuurlijke deflatie, was deze waardering essentieel voor de veiligheid van het systeem.
 
@@ -1222,6 +1236,8 @@ Deze vraag stoorde Satoshi echter niet, want hij zag het opstarten van een nieuw
 
 <chapterId>9cd228a4-58d3-46a3-9935-06098bafc954</chapterId>
 
+:::video id=18913713-2f1a-4555-ba5d-06ec6d532bcb:::
+
 
 In het vorige deel onderzochten we hoe Bitcoin ontstond, hoe het werd geïntroduceerd bij het publiek en hoe het economisch werd geïnitieerd. In de lente van 2010, toen de handel in Bitcoin begon te bloeien, waren Satoshi Nakamoto en de weinige mensen die hem steunden, vastbesloten om de vlam levend te houden. Gelukkig sloten andere individuen zich bij de inspanning aan, met name Miner Laszlo Hanyecz en ontwikkelaar Gavin Andresen, die opvielen door hun acties.
 
@@ -1372,6 +1388,8 @@ Eind juni was de activiteit op het netwerk echter vrij bescheiden gebleven. Er w
 
 <chapterId>2eef715e-b018-445b-b360-1c6e1c1df462</chapterId>
 
+:::video id=c26f3696-4e33-4d38-9443-f237935f8b45:::
+
 
 Aan het begin van de zomer van 2010 stond Bitcoin op een wankele basis, ondanks enkele bemoedigende eerste ontwikkelingen. De software had weinig andere ontwikkelaars dan Satoshi Nakamoto. Miners waren amateurs op hun persoonlijke computers. Er waren ongeveer twintig diensten gerelateerd aan Bitcoin, en daadwerkelijke uitwisselingen waren net zo zeldzaam. In de tweede helft van het jaar zouden de zaken echter drastisch veranderen.
 
@@ -1478,6 +1496,8 @@ In de daaropvolgende maanden bloeiden de technische, economische en Mining verbe
 ## De eerste technische problemen
 
 <chapterId>30cc4fe4-22b0-429e-9874-029c9137c0aa</chapterId>
+
+:::video id=f3e98b49-c32e-451a-b7c1-224dc5b00cf5:::
 
 
 Zoals vermeld in het vorige hoofdstuk, veroorzaakte de toestroom van gebruikers van Slashdot op 11 juli 2010 een enorme golf van interesse in Satoshi Nakamoto's project. Het gebruik van het netwerk explodeerde en de Exchange rate vertienvoudigde, net als de rekenkracht die aan het systeem werd besteed. Bitcoin kende dus een ongekende groei tijdens de zomer.
@@ -1599,6 +1619,8 @@ In de daaropvolgende maanden kwamen er technische, economische en Mining verbete
 
 <chapterId>8e9899ca-e7a7-471b-8e69-847a56714d3b</chapterId>
 
+:::video id=665ac55c-cd61-4d07-a896-95248eec480d:::
+
 
 In het vorige deel bestudeerden we het effect dat de publicatie van de Bitcoin presentatie op Slashdot (slashdotting) had en hoe Satoshi en zijn assistenten de eerste technische problemen aanpakten. Tegen het einde van de zomer had het project de storm doorstaan en was het klaar om steeds meer mensen te verwelkomen. De herfst van 2010 markeerde dus een periode van succes voor Bitcoin.
 
@@ -1701,6 +1723,8 @@ Val was echter niet de enige succesvolle Mining methode. Het was ook een succes 
 ## De bloei van het ecosysteem
 
 <chapterId>0404f877-8b5c-4c7f-81ab-a4e6d9b3da9c</chapterId>
+
+:::video id=2327cb5b-36a1-49f4-a9de-09b70d76b8c1:::
 
 
 In het vorige hoofdstuk onderzochten we hoe Mining zich ontwikkelde in de tweede helft van 2010. Tegen de herfst was deze vooruitgang goed ingeburgerd. Mining was echter niet het enige aspect van Bitcoin dat succes had: het ecosysteem had dat ook.
@@ -1846,6 +1870,8 @@ In de herfst van 2010 evolueerde het ecosysteem rond Bitcoin aanzienlijk. De com
 ## De verdwijning van Satoshi
 
 <chapterId>f7735239-4887-468f-9f06-1b07d00b30d9</chapterId>
+
+:::video id=fd5b40ae-b6bc-484a-b86b-af9c772f0afa:::
 
 
 We zagen hoe Bitcoin een vlucht nam na de publicatie van de tekst op Slashdot in juli 2010. Met verschillende verbeteringen in software, Mining en de economie in de herfst, was het project eindelijk op de goede weg. Daarom viel deze periode samen met de geleidelijke terugtrekking van Satoshi Nakamoto.
@@ -2015,6 +2041,8 @@ Dit mysterieuze aspect rond de maker van Bitcoin werd goed samengevat door Hal F
 ## De gemeenschap neemt het over
 
 <chapterId>16c5e6d6-2412-48c6-9687-6af92cf0d89a</chapterId>
+
+:::video id=b29c3ea3-c4ca-4feb-bb29-5dc064987406:::
 
 
 Na het vertrek van Satoshi Nakamoto werd het noodzakelijk om zonder hem verder te gaan. Gelukkig was Bitcoin een open project waaraan iedereen kon bijdragen, dus het verdwijnen van de oprichter was niet fataal. Zoals ontwikkelaar Jeff Garzik in juli 2010 schreef (over de mogelijkheid van de afwezigheid van de oprichter):

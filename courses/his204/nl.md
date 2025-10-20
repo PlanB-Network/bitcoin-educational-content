@@ -1,35 +1,18 @@
 ---
 name: De oorsprong van Laissez-Faire economie
-goal: verkennen de fundamenten van het 18e-eeuwse Franse liberale economische denken, met de nadruk op de doctrine van laissez-faire, de belangrijkste denkers en de blijvende invloed ervan.
-objectives: 
-
-
-  - Een goed begrip krijgen van de belangrijkste concepten achter het Franse liberale economische denken en hoe deze zich ontwikkelden in de 18e eeuw
-  - De argumenten begrijpen die Franse denkers ontwikkelden tegen staatsinterventionisme
-  - De invloed van deze Franse denkschool en haar rol in de ontwikkeling van de mondiale politieke economie evalueren
-  - Een kritisch begrip ontwikkelen van de historische continuïteit tussen verschillende denkers en hun theorieën
-
-
+goal: Verken de fundamenten van het liberale economische denken uit de 18e eeuw, met nadruk op de laissez-faire-doctrine, de belangrijkste denkers en de blijvende invloed.
+objectives:
+- Een solide begrip krijgen van de kernconcepten achter liberaal economisch denken en hoe deze zich ontwikkelden tijdens de 18e eeuw
+- De argumenten begrijpen die denkers ontwikkelden tegen staatsinterventionisme
+- De impact van laissez-faire-denken op de vormgeving van de ontwikkeling van de mondiale politieke economie evalueren
+- De spanning tussen theorie en praktijk bij de implementatie van liberale economie onderzoeken
 ---
-
 # Een reis door de economische geschiedenis van vrijheid
 
+Deze cursus verkent de geboorte van de economische wetenschap in het 18e-eeuwse Frankrijk door de lens van laissez-faire. Je ontdekt hoe denkers het mercantilisme uitdaagden door te betogen dat de staat particuliere rechten moest beschermen, maar nooit markten mocht manipuleren door middel van regelgeving.
 
-
-In het Frankrijk van het begin van de 18e eeuw begon zich een nieuwe manier van denken over de economie af te tekenen. Het ontstond als reactie op de hardhandige controle van het Ancien Régime en concentreerde zich rond één krachtig idee: *laissez-faire* - "laat het gebeuren".
-
-De uitdrukking zou afkomstig zijn van een gesprek tussen een koopman en minister Colbert. Toen de minister vroeg: "Wat kan de overheid doen om uw bedrijf te helpen?" antwoordde de koopman: "Laat ons het gewoon doen".
-
-
-Sindsdien zijn veel denkers dit idee gaan steunen, omdat ze geloven dat de rol van de overheid beperkt moet zijn. Ze zou de individuele rechten moeten beschermen, maar zich niet met economische zaken moeten bemoeien uit angst alles te verstoren en te vernietigen. Eerst moet ze belastingen innen op een eerlijke en gelijke manier (Vauban, Boisguilbert). Vervolgens moet ze afzien van het manipuleren van de munteenheid door deze te devalueren om zichzelf tegen lage kosten te financieren (Cantillon na de ramp met John Law; Dupont de Nemours voor die van de Assignats). Ze moet de vrijheid om te werken garanderen, de gilden afschaffen en lastige regels voor industrie en handel die de economische vooruitgang belemmeren (ideeën gesteund door d'Argenson, Gournay, de Fysiocraten en Turgot).
-
-
-
-Tot slot moet de staat het vrije verkeer van goederen toestaan, wat sommigen ertoe bracht om aan laissez-faire de uitdrukking "laissez-passer" toe te voegen, waardoor consumenten tegen de beste prijs kunnen kopen en waardoor vrede en broederschap tussen naties wordt bevorderd (Quesnay en de fysiocraten, Abt van Saint-Pierre). Door dit ideaal van laissez-faire te verdedigen, legden de Franse economen van de 18e eeuw de basis van de economische wetenschap. Na hun eigen tijd te hebben gedomineerd, hebben ze nog steeds de macht om de onze te leiden.
-
-
+Je leert hoe visionaire hervormers deze visie uitbreidden om vrije handel en onbeperkte circulatie van goederen te eisen, waarmee ze de intellectuele fundamenten van het moderne kapitalisme legden. Door deze baanbrekende economen te bestuderen, begrijp je de tijdloze principes die de mondiale politieke economie hebben gevormd en vandaag de dag nog steeds beleidsdebatten beïnvloeden. Meld je nu aan om de ideeën te beheersen die de moderne economie hebben opgebouwd.
 +++
-
 # Inleiding
 
 <partId>06d67531-19f1-4f8d-bf8f-77bbcc743672</partId>

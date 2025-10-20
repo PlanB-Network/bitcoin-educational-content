@@ -1,35 +1,18 @@
 ---
 name: Die Ursprünge der Laissez-Faire-Wirtschaft
-goal: die Grundlagen des französischen liberalen Wirtschaftsdenkens des 18. Jahrhunderts zu erforschen, wobei der Schwerpunkt auf der Doktrin des Laissez-faire, ihren führenden Denkern und ihrem nachhaltigen Einfluss liegt.
-objectives: 
-
-
-  - Erlangung eines soliden Verständnisses der Schlüsselkonzepte des französischen liberalen Wirtschaftsdenkens und ihrer Entwicklung im 18
-  - Die Argumente der französischen Denker gegen den Staatsinterventionismus verstehen
-  - Bewertung des Einflusses dieser französischen Denkschule und ihrer Rolle bei der Gestaltung der Entwicklung der globalen politischen Ökonomie
-  - Entwicklung eines kritischen Verständnisses für die historische Kontinuität zwischen verschiedenen Denkern und ihren Theorien
-
-
+goal: Erkunden Sie die Grundlagen des liberalen Wirtschaftsdenkens des 18. Jahrhunderts mit Schwerpunkt auf der Laissez-faire-Doktrin, ihren führenden Denkern und ihrem bleibenden Einfluss.
+objectives:
+- Ein solides Verständnis der Schlüsselkonzepte des liberalen ökonomischen Denkens und ihrer Entwicklung im 18. Jahrhundert erlangen
+- Die Argumente verstehen, die Denker gegen staatlichen Interventionismus entwickelt haben
+- Den Einfluss des Laissez-faire-Denkens auf die Gestaltung der Entwicklung der globalen politischen Ökonomie bewerten
+- Die Spannung zwischen Theorie und Praxis bei der Umsetzung liberaler Wirtschaftspolitik untersuchen
 ---
+# Eine Reise in die Wirtschaftsgeschichte der Freiheit
 
-# Eine Reise durch die Wirtschaftsgeschichte der Freiheit
+Dieser Kurs erforscht die Geburt der Wirtschaftswissenschaft im Frankreich des 18. Jahrhunderts durch die Linse des Laissez-faire. Sie werden entdecken, wie Denker den Merkantilismus herausforderten, indem sie argumentierten, dass der Staat private Rechte schützen, aber niemals Märkte durch Regulierungen manipulieren sollte.
 
-
-
-Im Frankreich des frühen 18. Jahrhunderts begann sich eine neue Denkweise über die Wirtschaft herauszubilden. Sie entstand als Reaktion auf die strenge Kontrolle des Ancien Régime und konzentrierte sich auf eine starke Idee: *laissez-faire* - "Lasst es geschehen".
-
-Die Redewendung soll aus einem Gespräch zwischen einem Kaufmann und Minister Colbert stammen. Auf die Frage des Ministers "Was kann die Regierung tun, um Ihr Geschäft zu unterstützen?" antwortete der Kaufmann: "Lassen Sie es uns einfach tun".
-
-
-Seitdem haben sich viele Denker dieser Idee angeschlossen und sind der Meinung, dass die Rolle der Regierung begrenzt sein sollte. Sie sollte die Rechte des Einzelnen schützen, sich aber nicht in wirtschaftliche Angelegenheiten einmischen, aus Angst, alles zu stören und zu zerstören. Zunächst muss sie die Steuern auf gerechte und gleiche Weise erheben (Vauban, Boisguilbert). Dann muss er darauf verzichten, die Währung zu manipulieren, indem er ihren Wert abwertet, um sich kostengünstig zu finanzieren (Cantillon nach der Katastrophe von John Law; Dupont de Nemours vor der der Assignaten). Sie muss die Freiheit der Arbeit garantieren, die Zünfte abschaffen und belastende Vorschriften für Industrie und Handel abschaffen, die den wirtschaftlichen Fortschritt behindern (Ideen, die von d'Argenson, Gournay, den Physiokraten und Turgot unterstützt wurden).
-
-
-
-Schließlich muss der Staat den freien Warenverkehr zulassen, was einige dazu veranlasste, dem Laissez-faire den Begriff "laissez-passer" hinzuzufügen, der es den Verbrauchern ermöglicht, zum besten Preis zu kaufen und den Frieden und die Brüderlichkeit unter den Nationen zu fördern (Quesnay und die Physiokraten, Abt von Saint-Pierre). Mit der Verteidigung dieses Laissez-faire-Ideals legten die französischen Ökonomen des 18. Jahrhunderts die Grundlagen der Wirtschaftswissenschaft. Sie beherrschten ihre Zeit und haben noch immer die Macht, die unsere zu leiten.
-
-
+Sie werden lernen, wie visionäre Reformer diese Vision erweiterten, um freien Handel und uneingeschränkten Warenverkehr zu fordern, und damit die intellektuellen Grundlagen des modernen Kapitalismus legten. Durch das Studium dieser bahnbrechenden Ökonomen werden Sie die zeitlosen Prinzipien verstehen, die die globale politische Ökonomie geprägt haben und bis heute politische Debatten beeinflussen. Melden Sie sich jetzt an, um die Ideen zu meistern, die die moderne Wirtschaft aufgebaut haben.
 +++
-
 # Einführung
 
 <partId>06d67531-19f1-4f8d-bf8f-77bbcc743672</partId>

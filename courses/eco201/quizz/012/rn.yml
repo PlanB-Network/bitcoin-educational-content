@@ -1,11 +1,10 @@
 question: Ni iyihe ntumbero nyamukuru y’inyigisho ya Bitcoin ivugwa mu kigabane?
-answer: Intumbero y’intango y’iryo shure ni ugutoza abashasha bakunda Bitcoin ingingo
-ngenderwako nziza z’ubutunzi.
+answer: Intumbero y’intango y’iryo shure ni ugutoza abashasha bakunda Bitcoin ingingo ngenderwako nziza z’ubutunzi.
 wrong_answers:
   - Intumbero y’iyi nyigisho ni iyo kwigisha abashasha bakunda Bitcoin ingene bocukura Bitcoin.
   - Intumbero y’iyi nyigisho ni iyo kwigisha abashasha bakunda Bitcoin ingene boshiramwo amahera muri Bitcoin.
   - Intumbero y’intango y’iyi nyigisho ni iyo kwigisha abashasha bakunda Bitcoin ingene bokwihingurira amafaranga yabo.
-explanation: 
+explanation: |
   Iryo shure rigamije kwigisha abashasha bakunda Bitcoin ivyerekeye
   ingingo ngenderwako z’ishimikiro z’ubutunzi, canecane izo .
   ry’ishure ry’ubutunzi ryo muri Otirishiya. Ubwo bumenyi ni .

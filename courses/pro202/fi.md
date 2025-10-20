@@ -20,6 +20,38 @@ Nauti löydöstäsi!
 
 +++
 
+# Johdanto
+
+<partId>bd35d5be-323e-42e0-a0ba-10729f71c3bd</partId>
+
+## Kurssin yleiskatsaus
+
+<chapterId>ee9d6cdf-4c97-455b-8220-cf6dfc95cb8e</chapterId>
+
+Tervetuloa kurssille PRO 202 _**Programming Bitcoin**_, intensiiviselle matkalle, joka vie sinut äärellisten kenttien aritmetiikasta aina todellisten tapahtumien rakentamiseen ja lähettämiseen Bitcoinin testiverkossa.
+
+Tällä kurssilla rakennat vaiheittain Bitcoin-kirjaston Pythonissa samalla kun hankit kryptografiset, protokolla- ja ohjelmisto-osaamisen, jota tarvitaan Bitcoinin turvallisuuden ja sisäisen toiminnan täsmälliseen ymmärtämiseen. PRO 202 -lähestymistapa on täysin käytännönläheinen: jokainen käsite toteutetaan välittömästi Jupyter-muistikirjoissa, varmistaen, että teoria ja koodi vahvistavat toisiaan.
+
+### Bitcoini keskeiset matemaattiset käsitteet
+
+Tämä ensimmäinen osio luo välttämättömän matemaattisen perustan. Toteutat äärellisten kenttien aritmetiikan ja elliptisten käyrien operaatiot (ryhmälaki, yhteenlasku, kaksinkertaistus, skalaaritulo...) — ECDSA:n edellytykset. Tavoite on kaksitahoinen: ymmärtää algebraattinen rakenne, joka mahdollistaa kryptografiset allekirjoitukset, ja rakentaa luotettavia Python-työkaluja niiden käsittelyyn.
+
+Tämän jälkeen muodollistat ECDSA:n komponentit: avaimen generoinnin, pisteiden muotoilun, hashauksen, allekirjoituksen luomisen ja tarkistamisen. Tämä osio yhdistää teorian suoraan käytäntöön ja korostaa toteutuksen yksityiskohtia sekä taustalla olevan turvallisuusmallin luotettavuutta.
+
+### Bitcoin-siirron sisäinen toiminta
+
+Toisessa osassa puret auki Bitcoin-siirron rakenteen: UTXO:t, syötteet/tulosteet, sekvenssit, skriptit, koodaukset ja paljon muuta. Kirjoitat koodia rakentaaksesi, allekirjoittaaksesi ja tarkistaaksesi siirtoja, saadaksesi tarkan käsityksen siitä, mitä hash sitouttaa ja miksi.
+
+Seuraavaksi toteutat minimaalisen _Script_-suorittimen, tarkastelet keskeisiä opkoodeja ja validoit kulutuspolut. Tavoitteena on, että pystyt auditoimaan transaktioiden käyttäytymistä, diagnosoimaan validointivirheitä ja arvioimaan kulutuskäytäntöjen turvallisuutta.
+
+### Bitcoin-verkon sisäinen toiminta
+
+Kolmannessa osassa sijoitat transaktion laajempaan järjestelmään: lohkorakenne, otsikot, vaikeustaso ja Proof-of-Work-mekanismi. Käsittelet protokollaviestejä, lohko-otsikoita ja Merkle-puita.
+
+Lopuksi tutkit vertaisverkkojen solmujen välistä viestintää, viestien optimointia ja SegWitin käyttöönottoa.
+
+Kuten kaikilla Plan ₿ Academy -kursseilla, myös lopussa on arviointi, joka on suunniteltu vahvistamaan ymmärrystäsi. Oletko valmis paljastamaan Bitcoinin sisäisen toiminnan ja kirjoittamaan sen taustalla olevan koodin? Aloitetaan!
+
 # Bitcoin:n keskeiset matemaattiset käsitteet
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

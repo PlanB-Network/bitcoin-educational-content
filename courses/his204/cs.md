@@ -1,35 +1,18 @@
 ---
 name: Počátky ekonomiky Laissez-Faire
-goal: prozkoumat základy francouzského liberálního ekonomického myšlení 18. století se zaměřením na doktrínu laissez-faire, její přední myslitele a trvalý vliv.
-objectives: 
-
-
-  - Získáte důkladné znalosti o klíčových koncepcích francouzského liberálního ekonomického myšlení a jejich vývoji v 18. století
-  - Porozumět argumentům francouzských myslitelů proti státnímu intervencionismu
-  - Zhodnotit vliv této francouzské myšlenkové školy a její úlohu při utváření vývoje globální politické ekonomie
-  - Rozvíjet kritické chápání historické kontinuity mezi různými mysliteli a jejich teoriemi
-
-
+goal: Prozkoumejte základy liberálního ekonomického myšlení 18. století se zaměřením na doktrínu laissez-faire, její přední myslitele a trvalý vliv.
+objectives:
+- Získat solidní pochopení klíčových konceptů liberálního ekonomického myšlení a jejich vývoje během 18. století
+- Porozumět argumentům, které myslitelé vyvinuli proti státnímu intervencionismu
+- Zhodnotit dopad myšlenky laissez-faire na formování vývoje globální politické ekonomie
+- Zkoumat napětí mezi teorií a praxí při implementaci liberální ekonomiky
 ---
+# Cesta do ekonomické historie svobody
 
-# Cesta do ekonomických dějin svobody
+Tento kurz zkoumá zrod ekonomické vědy v osmnáctém století ve Francii optikou laissez-faire. Objevíte, jak myslitelé zpochybňovali merkantilismus argumentací, že stát by měl chránit soukromá práva, ale nikdy nemanipulovat trhy prostřednictvím regulací.
 
-
-
-Na počátku 18. století se ve Francii začal formovat nový způsob uvažování o ekonomice. Vznikl jako reakce na tvrdou kontrolu ze strany Ancien Régime a soustředil se na jednu silnou myšlenku: *laissez-faire* - "nechat to být".
-
-Tato fráze údajně pochází z rozhovoru mezi obchodníkem a ministrem Colbertem. Když se ministr zeptal: "Co může vláda udělat, aby pomohla vašemu obchodu?", obchodník odpověděl: "Jen nás to nechte udělat".
-
-
-Od té doby začalo tuto myšlenku podporovat mnoho myslitelů, kteří věřili, že role vlády by měla být omezena. Měla by chránit práva jednotlivce, ale vyhýbat se zasahování do ekonomických záležitostí, protože se obávala, že vše naruší a zničí. Především musí vybírat daně spravedlivým a rovným způsobem (Vauban, Boisguilbert). Dále se musí zdržet manipulace s měnou, a to znehodnocováním její hodnoty, aby se mohla levně financovat (Cantillon po katastrofě Johna Lawa; Dupont de Nemours před katastrofou Assignatů). Musí zaručit svobodu práce, zrušit cechy a zatěžující předpisy pro průmysl a obchod, které brání hospodářskému pokroku (myšlenky, které podporovali d'Argenson, Gournay, fyziokraté a Turgot).
-
-
-
-A konečně, stát musí umožnit volný oběh zboží, což vedlo některé k tomu, že k výrazu laissez-faire přidali výraz "laissez-passer", který umožňuje spotřebitelům nakupovat za nejlepší cenu a podporuje mír a bratrství mezi národy (Quesnay a fyziokraté, opat ze Saint-Pierre). Obhajobou tohoto ideálu laissez-faire položili francouzští ekonomové 18. století základy ekonomické vědy. Poté, co ovládli svou dobu, mají stále sílu řídit tu naši.
-
-
+Dozvíte se, jak vizionářští reformátoři rozšířili tuto vizi a požadovali volný obchod a neomezený pohyb zboží, čímž položili intelektuální základy moderního kapitalismu. Studiem těchto průkopnických ekonomů pochopíte nadčasové principy, které formovaly globální politickou ekonomii a nadále ovlivňují politické debaty dnes. Připojte se nyní a osvojte si myšlenky, které vybudovaly moderní ekonomiku.
 +++
-
 # Úvod
 
 <partId>06d67531-19f1-4f8d-bf8f-77bbcc743672</partId>

@@ -1,35 +1,18 @@
 ---
 name: Asili ya uchumi wa Laissez-Faire
-goal: chunguza misingi ya fikra huria ya kiuchumi ya Ufaransa ya karne ya 18, kwa kuzingatia fundisho la laissez-faire, wanafikra wake wakuu, na ushawishi wa kudumu.
-objectives: 
-
-
-  - Pata ufahamu thabiti wa dhana muhimu nyuma ya fikra huria ya kiuchumi ya Ufaransa na jinsi zilivyoibuka wakati wa karne ya 18.
-  - Elewa hoja ambazo wanafikra wa Ufaransa walianzisha dhidi ya uingiliaji kati wa Serikali
-  - Tathmini athari za shule hii ya fikra ya Ufaransa na jukumu lake katika kuchagiza maendeleo ya uchumi wa kisiasa wa kimataifa
-  - Kuza uelewa wa kina wa mwendelezo wa kihistoria kati ya wanafikra tofauti na nadharia zao
-
-
+goal: Chunguza misingi ya mawazo ya kiuchumi wa kiliberali wa karne ya 18, ukizingatia mafundisho ya laissez-faire, wafikiri wake wakuu, na ushawishi wake endelevu.
+objectives:
+- Kupata uelewa thabiti wa dhana muhimu za fikra za kiuchumi za ukombozi na jinsi zilivyobadilika wakati wa karne ya 18
+- Kuelewa hoja ambazo wafikiri walitengeneza dhidi ya uingiliaji wa Serikali
+- Kutathmini athari za fikra za laissez-faire katika kuunda maendeleo ya uchumi wa kisiasa wa kimataifa
+- Kuchunguza mvutano kati ya nadharia na vitendo katika utekelezaji wa uchumi wa ukombozi
 ---
-
 # Safari katika Historia ya Kiuchumi ya Uhuru
 
+Kozi hii inachunguza kuzaliwa kwa sayansi ya uchumi katika Ufaransa wa karne ya 18 kupitia lenzi ya laissez-faire. Utagundua jinsi wafikiri walivyopinga merkantilismu kwa kuhoja kwamba Serikali inapaswa kulinda haki za kibinafsi, lakini kamwe isipaswi kudhibiti masoko kupitia kanuni.
 
-
-Mwanzoni mwa Ufaransa wa karne ya 18, njia mpya ya kufikiria juu ya uchumi ilianza kuchukua sura. Iliibuka kama jibu kwa udhibiti mzito wa Utawala wa Kale na ilijikita kwenye wazo moja lenye nguvu: *laissez-faire* — "itendeke".
-
-Maneno hayo yanasemekana yalitokana na mazungumzo kati ya mfanyabiashara na Waziri Colbert. Waziri alipouliza, "Serikali inaweza kufanya nini kusaidia biashara yako?" mfanyabiashara alijibu, "Hebu  Tufanye hivyo" "Laissez-nous faire.".
-
-
-Tangu wakati huo, wanafikra wengi walianza kuunga mkono wazo hili, wakiamini jukumu la serikali linapaswa kuwa na kikomo. Inapaswa kulinda haki za mtu binafsi, lakini kuepuka kuingilia masuala ya kiuchumi kwa hofu ya kuvuruga na kuharibu kila kitu. Kwanza, lazima kukusanya kodi kwa njia ya haki na sawa (Vauban, Boisguilbert). Kisha, lazima ijiepushe na kuchezea sarafu, kwa kupunguza thamani yake ili kujifadhili kwa gharama ya chini (Cantillon baada ya maafa ya John Law; Dupont de Nemours kabla ya ile ya Physiocrats). Pia, lazima ihakikishe uhuru wa kufanya kazi, kwa kukomesha vyama na kanuni zinazolemea viwanda na biashara, ambazo zinazuia maendeleo ya kiuchumi (mawazo yaliyoungwa mkono na d'Argenson, Gournay, Physiocrats, na Turgot).
-
-
-
-Hatimaye, ni lazima Serikali iruhusu usambazaji wa bidhaa bila vizuizi, jambo lililowafanya wengine kuongeza neno laissez-passer kwa laissez-faire, kuwezesha watumiaji kununua kwa bei nafuu na kukuza amani na udugu kati ya mataifa (Quesnay na Physiocrats, Abbot of Saint-Pierre). Katika kutetea bora hii ya laissez-faire, wanauchumi wa Ufaransa wa karne ya 18 waliweka misingi ya sayansi ya uchumi. Kwa kuwa walitawala wakati wao wenyewe, bado wana uwezo wa kuongoza kizazi chetu.
-
-
+Utajifunza jinsi wamageuzi wenye maono walivyopanua dira hii kudai biashara huru na mzunguko usio na vikwazo wa bidhaa, wakiweka misingi ya kiakili ya ubepari wa kisasa. Kwa kusoma juu ya wanauchumi hawa wa kipainia, utaelewa kanuni zisizo na wakati zilizoshape uchumi wa kisiasa wa kimataifa na zinaendelea kuathiri mijadala ya sera leo. Jiunge sasa ili kujua mawazo ambayo yalijenga uchumi wa kisasa.
 +++
-
 # Utangulizi
 
 <partId>06d67531-19f1-4f8d-bf8f-77bbcc743672</partId>

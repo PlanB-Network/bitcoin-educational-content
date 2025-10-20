@@ -1,35 +1,18 @@
 ---
 name: Inkomoko y'ubutunzi bwa Laissez-Faire
-goal: n’ugutohoza imishinge y’ivyiyumviro vy’ubutunzi vy’Ubufaransa vy’ubwigenge bwo mu kinjana ca 18, vyibanda ku nyigisho y’uburenganzira bwo gukora, abarongoye ivyiyumviro vyayo be n’inkurikizi ziramvye.
-objectives: 
-
-
-  - Uronke ugutahura gukomeye kw’ivyiyumviro nyamukuru vyari inyuma y’ivyiyumviro vy’ubutunzi vy’ubwigenge bw’Abafaransa be n’ingene vyateye imbere mu kinjana ca 18 .
-  - Gutahura imvo abanyabwenge b’Abafaransa bashizeho barwanya ubutegetsi bwa Leta .
-  - Suzuma ingaruka z’iryo shure ry’ivyiyumviro ry’Ubufaransa n’uruhara rwaryo mu guhingura iterambere ry’ubutunzi bwa politike kw’isi yose .
-  - Gutegura ugutahura gukomeye kw’ububandanya bw’amateka hagati y’abanyabwenge batandukanye n’ivyiyumviro vyabo .
-
-
+goal: Shakisha imizi y'ibitekerezo by'ubukungu bwa liberalisiti bwo mu kinyejana cya 18, wibanze ku nyigisho ya laissez-faire, abatekereza bakuru bayo, n'ingaruka zayo zihoraho.
+objectives:
+- Kubona ubumenyi bukomeye ku bitekerezo by'ingenzi byo mu bitekerezo by'ubukungu bwa liberal n'uko byahindutse mu kinyejana cya 18
+- Gusobanukirwa impaka abatekereza bateje imbere barwanya ivanga ry'igihugu mu bukungu
+- Gusuzuma ingaruka z'ibitekerezo bya laissez-faire mu gushiraho iterambere ry'ubukungu bwa politiki ku isi
+- Gusuzuma ubushyamirane hagati y'ibitekerezo n'ibikorwa mu gushyira mu bikorwa ubukungu bwa liberal
 ---
+# Urugendo mu mateka y'ubukungu bw'ubwigenge
 
-# Urugendo rwo mu mateka y'ubutunzi bw'umwidegemvyo
+Iyi nshingano ikora ubushakashatsi ku mavuko y'ubumenyi bw'ubukungu mu Bufaransa bw'ikinyejana cya 18 binyuze mu ndorerezi ya laissez-faire. Uzavumbura uko abatekereza bahanganye na merkantilism bavuga ko Leta igomba kurinda uburenganzira bwite, ariko ntigomba guhindura amasoko binyuze mu mabwiriza.
 
-
-
-Mu ntango z’ikinjana ca 18 mu Bufaransa, uburyo bushasha bwo kwiyumvira ibijanye n’ubutunzi bwaratanguye gusenyuka. Yaje nk'inyishu y'ubutegetsi bukomeye bwa Ancien Régime kandi yari ishingiye ku ciyumviro kimwe gikomeye: *laissez-faire* — "reka bibe".
-
-Iryo jambo rivugwa ko ryavuye mu kiganiro hagati y’umucuruzi na Minisitiri Colbert. Igihe umushikiranganji yabaza ati: "Leta yokora iki kugira ifashe ubucuruzi bwawe?" uwo mucuruzi aramwishura ati: «Reka tubikore gusa».
-
-
-Kuva ico gihe, abanyabwenge benshi baratanguye gushigikira ico ciyumviro, bemera ko uruhara rwa Leta rukwiye kuba rufise aho rugarukira. Ikwiye kurinda uburenganzira bw’umuntu ku giti ciwe, ariko ikarinda gutera intambwe mu vy’ubutunzi, kubera ubwoba bwo guhungabanya no gusenyura vyose. Ica mbere, ritegerezwa gutora imisoro mu buryo bubereye kandi bungana (Vauban, Boisguilbert). Hanyuma, ritegerezwa kwirinda gukoresha nabi amafaranga, mu kugabanya agaciro kayo kugira ngo yifashe mu vy’amahera kugiciro gito (Cantillon inyuma y’icago ca John Law; Dupont de Nemours imbere y’iy’aba Assignats). Itegerezwa gutanga umwidegemvyo wo gukora, gukuraho amashirahamwe n’amategeko aremereye yerekeye inganda n’ubudandaji, ivyo bikaba bibangamira iterambere ry’ubutunzi (ivyiyumviro bishigikiwe na d’Argenson, Gournay, aba Physiocrates na Turgot).
-
-
-
-Ubwa nyuma, Leta itegerezwa kwemera ko ibintu bigendagenda ataco bimaze, ivyo bikaba vyatumye bamwe bongerako ijambo « laissez-passer » ku laissez-faire, bigatuma abaguzi bashobora kugura ku giciro ciza kuruta ibindi vyose, bigatuma haba amahoro n’ubuvukanyi hagati y’amahanga (Quesnay n’aba Physiocrates, Abbé de Saint-Piertre). Mu kurwanira ico ciyumviro co kurekura ivyo umuntu akora, abahinga mu vy’ubutunzi b’Abafaransa bo mu kinjana ca 18 barashizeho imishinge y’ubuhinga bw’ubutunzi. Kubera ko baganje igihe cabo, baracari n’ububasha bwo kuyobora icacu.
-
-
+Uziga uko abavugurura b'inzozi bagutse iyi ndorerezi kugira ngo basabe ubucuruzi bwisanzuye n'ukuzenguruka kw'ibicuruzwa bitagira aho kugarukira, bashyiraho urufatiro rw'ubwenge bw'ubushoramari bugezweho. Mu kwiga aba bahanga b'ubukungu, uzumva amahame ahoraho yashizeho ubukungu bwa politiki ku isi no gukomeza kugira uruhare mu mpaka za politiki uyu munsi. Injira ubu kugira ngo umenye neza ibitekerezo byubatse ubukungu bugezweho.
 +++
-
 # Imenyekanisha
 
 <partId>06d67531-19f1-4f8d-bf8f-77bbcc743672</partId>

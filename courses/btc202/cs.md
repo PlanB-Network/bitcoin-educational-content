@@ -3520,7 +3520,7 @@ Způsob správy peněženek můžete také upravit v souboru `Bitcoin.conf`. Pok
 
 
 
-- addresstype=<legacy|P2SH-SegWit|bech32|bech32m>`: Definuje formát adres generovaných Wallet pro příjem.
+- `addresstype=<legacy|p2sh-segwit|bech32|bech32m>` : Určuje formát adres generovaných peněženkou pro příjem.
 
 
 

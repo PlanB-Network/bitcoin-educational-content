@@ -3520,7 +3520,7 @@ Je kunt ook de manier waarop je wallets beheerd worden aanpassen in het `Bitcoin
 
 
 
-- addresstype=<legacy|P2SH-SegWit|bech32|bech32m>`: Definieert het formaat van Wallet gegenereerde adressen voor ontvangst.
+- `addresstype=<legacy|p2sh-segwit|bech32|bech32m>` : Bepaalt het formaat van de adressen die door de wallet worden gegenereerd voor ontvangst.
 
 
 

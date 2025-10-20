@@ -3520,7 +3520,7 @@ Du kan också justera hur dina plånböcker ska hanteras i filen `Bitcoin.conf`.
 
 
 
-- addresstype=<legacy|P2SH-SegWit|bech32|bech32m>`: Definierar formatet för Wallet-genererade adresser för mottagning.
+- `addresstype=<legacy|p2sh-segwit|bech32|bech32m>` : Definierar formatet för adresser som plånboken genererar för mottagning.
 
 
 

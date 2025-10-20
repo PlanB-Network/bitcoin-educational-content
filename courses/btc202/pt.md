@@ -3520,7 +3520,7 @@ Você também pode ajustar a forma como suas carteiras são gerenciadas no arqui
 
 
 
-- addresstype=<legacy|P2SH-SegWit|bech32|bech32m>`: Define o formato dos endereços gerados pelo Wallet para receção.
+- `addresstype=<legacy|p2sh-segwit|bech32|bech32m>` : Define o formato dos endereços gerados pela carteira para recebimento.
 
 
 

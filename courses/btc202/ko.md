@@ -3520,7 +3520,7 @@ DNS 확인을 피하려면 설정에 `dnsseed=0` 및 `dns=0`을 추가하면 됩
 
 
 
-- addresstype=<레거시|P2SH-SegWit|bech32|bech32m>`: Wallet에서 생성된 수신용 주소의 형식을 정의합니다.
+- `addresstype=<legacy|p2sh-segwit|bech32|bech32m>` : 지갑에서 수신을 위해 생성된 주소의 형식을 정의합니다.
 
 
 

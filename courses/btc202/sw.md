@@ -3520,7 +3520,7 @@ Unaweza pia kurekebisha jinsi pochi zako zinavyodhibitiwa katika faili ya `Bitco
 
 
 
-- addresstype=<legacy|P2SH-SegWit|bech32|bech32m>`: Inafafanua umbizo la anwani zinazozalishwa na Wallet kwa ajili ya mapokezi.
+- `addresstype=<legacy|p2sh-segwit|bech32|bech32m>` : Hufafanua umbizo la anwani zinazoundwa na pochi kwa ajili ya kupokea.
 
 
 

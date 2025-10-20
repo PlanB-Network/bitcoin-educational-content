@@ -3520,7 +3520,7 @@ Du kan også justere måten lommebøkene dine administreres på i filen `Bitcoin
 
 
 
-- addresstype=<legacy|P2SH-SegWit|bech32|bech32m>`: Definerer formatet på Wallet-genererte adresser for mottak.
+- `addresstype=<legacy|p2sh-segwit|bech32|bech32m>` : Definerer formatet på adressene som lommeboken genererer for mottak.
 
 
 

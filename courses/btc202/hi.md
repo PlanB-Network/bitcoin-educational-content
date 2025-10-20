@@ -3520,7 +3520,7 @@ Mempool और रिले नीति के लिए उन्नत से
 
 
 
-- addresstype=<legacy|P2SH-SegWit|bech32|bech32m>`: रिसेप्शन के लिए Wallet-जनरेटेड पतों के प्रारूप को परिभाषित करता है।
+- `addresstype=<legacy|p2sh-segwit|bech32|bech32m>` : वॉलेट द्वारा प्राप्ति के लिए उत्पन्न पतों के प्रारूप को परिभाषित करता है।
 
 
 

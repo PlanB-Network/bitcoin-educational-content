@@ -3520,7 +3520,7 @@ Sie können auch die Art und Weise, wie Ihre Geldbörsen verwaltet werden, in de
 
 
 
-- addresstype=<legacy|P2SH-SegWit|bech32|bech32m>`: Legt das Format der Wallet-generierten Adressen für den Empfang fest.
+- `addresstype=<legacy|p2sh-segwit|bech32|bech32m>` : Legt das Format der vom Wallet für den Empfang generierten Adressen fest.
 
 
 

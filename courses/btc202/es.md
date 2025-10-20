@@ -3520,7 +3520,7 @@ También puede ajustar la forma en que se gestionan sus carteras en el archivo `
 
 
 
-- addresstype=<legacy|P2SH-SegWit|bech32|bech32m>`: Define el formato de las direcciones generadas por Wallet para la recepción.
+- `addresstype=<legacy|p2sh-segwit|bech32|bech32m>` : Define el formato de las direcciones generadas por la billetera para la recepción.
 
 
 

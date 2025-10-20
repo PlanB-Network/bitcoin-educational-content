@@ -3520,7 +3520,7 @@ Cüzdanlarınızın yönetilme şeklini `Bitcoin.conf` dosyasından da ayarlayab
 
 
 
-- addresstype=<legacy|P2SH-SegWit|bech32|bech32m>`: Alım için Wallet tarafından oluşturulan adreslerin biçimini tanımlar.
+- `addresstype=<legacy|p2sh-segwit|bech32|bech32m>` : Cüzdan tarafından alım için oluşturulan adreslerin biçimini tanımlar.
 
 
 

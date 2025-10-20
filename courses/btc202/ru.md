@@ -3520,7 +3520,7 @@ Full node увеличивает ценность сети, принимая в�
 
 
 
-- addresstype=<legacy|P2SH-SegWit|bech32|bech32m>`: Определяет формат генерируемых Wallet адресов для приема.
+- `addresstype=<legacy|p2sh-segwit|bech32|bech32m>` : Определяет формат адресов, генерируемых кошельком для получения.
 
 
 

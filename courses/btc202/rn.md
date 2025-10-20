@@ -3520,7 +3520,7 @@ Ushobora kandi guhindura uburyo amasakoshi yawe acungirwa muri dosiye `Bitcoin.c
 
 
 
-- aderesi=<iragi|P2SH-SegWit|bech32|bech32m>`: Isobanura uburyo bw'amaderesi ya Wallet yo kwakira.
+- `addresstype=<legacy|p2sh-segwit|bech32|bech32m>` : Igena uburyo bw’amaherere bukorwa n’umufuka mu kwakira.
 
 
 

@@ -3520,7 +3520,7 @@ Takođe možete prilagoditi način na koji se vaši novčanici upravljaju u dato
 
 
 
-- addresstype=<legacy|P2SH-SegWit|bech32|bech32m>`: Definiše format adresa generisanih Wallet za prijem.
+- `addresstype=<legacy|p2sh-segwit|bech32|bech32m>` : Definiše format adresa koje novčanik generiše za prijem.
 
 
 

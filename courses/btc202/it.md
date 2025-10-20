@@ -3520,7 +3520,7 @@ Come promemoria, tutte queste regole di relè non hanno alcun impatto sulla vali
 
 
 
-- addresstype=<legacy|P2SH-SegWit|bech32|bech32m>`: Definisce il formato degli indirizzi generati dal Wallet per la ricezione.
+- `addresstype=<legacy|p2sh-segwit|bech32|bech32m>` : Definisce il formato degli indirizzi generati dal portafoglio per la ricezione.
 
 
 

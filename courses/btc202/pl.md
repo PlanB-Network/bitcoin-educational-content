@@ -3520,7 +3520,7 @@ Można również dostosować sposób zarządzania portfelami w pliku `Bitcoin.co
 
 
 
-- addresstype=<legacy|P2SH-SegWit|bech32|bech32m>`: Określa format adresów generowanych przez Wallet do odbioru.
+- `addresstype=<legacy|p2sh-segwit|bech32|bech32m>` : Określa format adresów generowanych przez portfel do odbioru.
 
 
 

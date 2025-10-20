@@ -3520,7 +3520,7 @@ Voit myös säätää tapaa, jolla lompakoitasi hallitaan Bitcoin.conf-tiedostos
 
 
 
-- addresstype=<legacy|P2SH-SegWit|bech32|bech32m>`: Määrittää Wallet:n tuottamien osoitteiden muodon vastaanottoa varten.
+- `addresstype=<legacy|p2sh-segwit|bech32|bech32m>` : Määrittää lompakon vastaanottoa varten luomien osoitteiden muodon.
 
 
 

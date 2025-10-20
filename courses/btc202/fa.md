@@ -3520,7 +3520,7 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-- addresstype=<legacy|P2SH-SegWit|bech32|bech32m>`: قالب آدرس‌های تولید شده توسط Wallet برای دریافت را تعریف می‌کند.
+- `addresstype=<legacy|p2sh-segwit|bech32|bech32m>` : قالب آدرس‌هایی را که توسط کیف پول برای دریافت تولید می‌شوند تعیین می‌کند.
 
 
 

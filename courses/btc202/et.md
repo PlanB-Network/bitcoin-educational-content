@@ -3520,7 +3520,7 @@ Samuti saate kohandada oma rahakottide haldamise viisi failis `Bitcoin.conf`. Ku
 
 
 
-- addresstype=<legacy|P2SH-SegWit|bech32|bech32m>`: Määratleb Wallet-ga genereeritud aadresside vastuvõtu formaadi.
+- `addresstype=<legacy|p2sh-segwit|bech32|bech32m>` : Määrab rahakoti poolt vastuvõtmiseks loodud aadresside vormingu.
 
 
 

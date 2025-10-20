@@ -3520,7 +3520,7 @@ Bạn cũng có thể điều chỉnh cách quản lý ví của mình trong t�
 
 
 
-- addresstype=<legacy|P2SH-SegWit|bech32|bech32m>`: Xác định định dạng của các địa chỉ do Wallet tạo ra để tiếp nhận.
+- `addresstype=<legacy|p2sh-segwit|bech32|bech32m>` : Xác định định dạng của các địa chỉ được ví tạo ra để nhận tiền.
 
 
 

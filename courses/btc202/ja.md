@@ -3520,7 +3520,7 @@ Mempoolと中継ポリシーの詳細設定です。初心者であれば、こ�
 
 
 
-- addresstype=<legacy|P2SH-SegWit|bech32|bech32m>`：Walletで生成された受信用アドレスのフォーマットを定義する。
+- `addresstype=<legacy|p2sh-segwit|bech32|bech32m>` : ウォレットが受信用に生成するアドレスの形式を定義します。
 
 
 

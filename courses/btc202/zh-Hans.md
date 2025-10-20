@@ -3520,7 +3520,7 @@ Full node 通过接受传入连接为网络增加更多价值。使用 "listen=1
 
 
 
-- addresstype=<legacy|P2SH-SegWit|bech32|bech32m>`：定义 Wallet 生成的接收地址格式。
+- `addresstype=<legacy|p2sh-segwit|bech32|bech32m>` ：定义钱包为接收生成的地址格式。
 
 
 

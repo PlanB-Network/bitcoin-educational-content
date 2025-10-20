@@ -3520,7 +3520,7 @@ Anda juga dapat mengatur cara pengelolaan wallet Anda dalam file `Bitcoin.conf`.
 
 
 
-- addresstype = <legacy|P2SH-SegWit|bech32|bech32m>`: Menentukan format alamat yang dihasilkan Wallet untuk penerimaan.
+- `addresstype=<legacy|p2sh-segwit|bech32|bech32m>` : Menentukan format alamat yang dihasilkan oleh dompet untuk penerimaan.
 
 
 

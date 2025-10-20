@@ -3138,7 +3138,7 @@ Block/`, `chainstate/` ve `indexes/` ile aynı seviyedeki diğer bazı dosyalar 
 - `bitcoin.conf`, düğümünüzün yapılandırma parametrelerini içerir. Özellikle bu dosyada aktarım kuralları ayarlanabilir. Bunu bir sonraki bölümde daha ayrıntılı olarak açıklayacağım;
 - `settings.json`, `Bitcoin.conf` için ek parametreler içerir.
 - debug.log`, bir hata durumunda düğüm etkinliğini anlamak için kullanılabilecek tanılama metin günlüğüdür.
-- gW-448.pid` çalışma zamanında süreç tanımlayıcısını saklar ve diğer uygulamaların veya komut dosyalarının bitcoind'i (*Bitcoin daemon*) kolayca tanımlamasına ve gerekirse onunla etkileşime girmesine olanak tanır. Düğüm başlangıcında oluşturulur ve kapatıldığında silinir.
+- `bitcoind.pid`, çalıştırma sırasında işlem kimliğini kaydeder ve diğer uygulamaların veya komut dosyalarının Bitcoind’i (*Bitcoin Daemon*) kolayca tanımlamasına ve gerekirse onunla etkileşime girmesine olanak tanır. Düğüm başlatıldığında oluşturulur ve kapatıldığında silinir;
 - ip_asn.map`, kova oluşturma ve eş çeşitlendirme (`-asmap` seçeneği) için kullanılan bir IP → ASN eşleme tablosudur (bağımsız sistem).
 - onion_v3_private_key`, `-listenonion` seçeneği etkinleştirildiğinde, yeniden başlatmalar arasında sabit bir onion Address tutmak için Tor v3 hizmetinin özel anahtarını saklar.
 - i2p_private_key`, I2P üzerinde giden ve muhtemelen gelen bağlantılar yapmak için `-i2psam=` kullanıldığında I2P özel anahtarını saklar.

@@ -3138,7 +3138,7 @@ Mehrere andere Dateien auf der gleichen Ebene wie `blocks/`, `chainstate/` und `
 - `bitcoin.conf` enthält die Konfigurationsparameter Ihres Knotens. In dieser Datei können insbesondere die Weiterleitungsregeln angepasst werden. Ich werde im nächsten Kapitel ausführlicher darauf eingehen;
 - die Datei `settings.json` enthält zusätzliche Parameter zu `Bitcoin.conf`.
 - debug.log" ist das diagnostische Textprotokoll, das im Falle eines Fehlers zum Verständnis der Knotenaktivitäten verwendet werden kann.
-- gW-448.pid` speichert die Prozesskennung zur Laufzeit, so dass andere Anwendungen oder Skripte bitcoind (*Bitcoin daemon*) leicht identifizieren und bei Bedarf mit ihm interagieren können. Sie wird beim Starten des Knotens erstellt und beim Herunterfahren gelöscht.
+- `bitcoind.pid` speichert die Prozess-ID während der Ausführung, sodass andere Anwendungen oder Skripte Bitcoind (*Bitcoin Daemon*) leicht identifizieren und bei Bedarf mit ihm interagieren können. Sie wird beim Start des Knotens erstellt und beim Herunterfahren gelöscht;
 - `ip_asn.map` ist eine IP → ASN-Zuordnungstabelle (eigenständiges System), die für Bucketing und Peer Diversification (Option `-asmap`) verwendet wird.
 - `onion_v3_private_key` speichert den privaten Schlüssel des Tor v3 Dienstes, wenn die Option `-listenonion` aktiviert ist, um einen stabilen onion Address zwischen den Neustarts zu erhalten.
 - `i2p_private_key` speichert den privaten I2P-Schlüssel, wenn `-i2psam=` verwendet wird, um ausgehende und möglicherweise eingehende Verbindungen über I2P herzustellen.

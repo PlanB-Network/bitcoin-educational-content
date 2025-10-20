@@ -3138,7 +3138,7 @@ Một số tệp khác ở cùng cấp độ như `blocks/`, `chainstate/` và `
 - `bitcoin.conf` chứa các tham số cấu hình của nút của bạn. Chính trong tệp này, các quy tắc chuyển tiếp có thể được điều chỉnh. Tôi sẽ trình bày chi tiết hơn trong chương tiếp theo;
 - `settings.json` chứa các tham số bổ sung cho `Bitcoin.conf`.
 - `debug.log` là nhật ký văn bản chẩn đoán, có thể được sử dụng để hiểu hoạt động của nút trong trường hợp xảy ra lỗi.
-- gW-448.pid` lưu trữ mã định danh quy trình khi chạy, cho phép các ứng dụng hoặc tập lệnh khác dễ dàng nhận dạng bitcoind (*Bitcoin daemon*) và tương tác với nó nếu cần. Mã này được tạo khi khởi động nút và bị xóa khi tắt máy.
+- `bitcoind.pid` ghi lại mã định danh tiến trình trong quá trình thực thi, cho phép các ứng dụng hoặc tập lệnh khác dễ dàng xác định Bitcoind (*Bitcoin Daemon*) và tương tác với nó khi cần thiết. Nó được tạo khi nút khởi động và bị xóa khi tắt;
 - `ip_asn.map` là bảng ánh xạ IP → ASN (hệ thống độc lập) được sử dụng để phân nhóm và đa dạng hóa ngang hàng (tùy chọn `-asmap`).
 - `onion_v3_private_key` lưu trữ khóa riêng của dịch vụ Tor v3 khi tùy chọn `-listenonion` được bật, nhằm duy trì onion Address ổn định giữa các lần khởi động lại.
 - `i2p_private_key` lưu trữ khóa riêng tư I2P khi `-i2psam=` được sử dụng để tạo kết nối đi và có thể là kết nối đến trên I2P.

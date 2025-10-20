@@ -3138,7 +3138,7 @@ Mempool의 크기는 `Bitcoin.conf` 파일의 `maxmempool` 매개변수에 의�
 - `bitcoin.conf`에는 노드의 구성 매개변수가 포함되어 있습니다. 특히 이 파일에서 릴레이 규칙을 조정할 수 있습니다. 다음 장에서 더 자세히 설명하겠습니다;
 - settings.json`에는 `Bitcoin.conf`에 대한 추가 매개변수가 포함되어 있습니다.
 - debug.log`는 버그 발생 시 노드 활동을 파악하는 데 사용할 수 있는 진단 텍스트 로그입니다.
-- gW-448.pid`는 런타임에 프로세스 식별자를 저장하여 다른 애플리케이션이나 스크립트가 bitcoind(*Bitcoin daemon*)을 쉽게 식별하고 필요한 경우 상호 작용할 수 있도록 합니다. 이 파일은 노드 시작 시 생성되고 종료 시 삭제됩니다.
+- `bitcoind.pid`는 실행 중 프로세스 ID를 기록하여 다른 애플리케이션이나 스크립트가 Bitcoind(*Bitcoin Daemon*)를 쉽게 식별하고 필요할 때 상호 작용할 수 있도록 합니다. 노드가 시작될 때 생성되고 종료 시 삭제됩니다;
 - ip_asn.map`은 버킷화 및 피어 다각화(`-asmap` 옵션)에 사용되는 IP → ASN 매핑 테이블(독립형 시스템)입니다.
 - 'onion_v3_private_key'는 재부팅 사이에 안정적인 양파 Address를 유지하기 위해, `-listenonion` 옵션이 활성화된 경우 Tor v3 서비스의 개인 키를 저장합니다.
 - i2p_private_key`는 `-i2psam=`이 사용될 때 I2P에서 발신 및 수신 연결을 할 수 있는 I2P 개인 키를 저장합니다.

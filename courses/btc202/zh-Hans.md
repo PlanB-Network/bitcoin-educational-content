@@ -3138,7 +3138,7 @@ Mempool 的大小受 `Bitcoin.conf` 文件中的 `maxmempool` 参数限制（下
 - `bitcoin.conf` 包含您的节点配置参数。特别是在此文件中可以调整转发规则。我将在下一章中更详细地说明；
 - settings.json "包含 "Bitcoin.conf "的附加参数。
 - `debug.log` 是诊断文本日志，可用于在出现错误时了解节点活动。
-- gW-448.pid` 在运行时存储进程标识符，以便其他应用程序或脚本轻松识别 bitcoind (*Bitcoin daemon*)，并在必要时与其交互。它在节点启动时创建，并在关闭时删除。
+- `bitcoind.pid` 在运行期间记录进程标识符，使其他应用程序或脚本能够轻松识别 Bitcoind（*Bitcoin Daemon*）并在需要时与其交互。它在节点启动时创建，在停止时删除；
 - ip_asn.map "是一个 IP → ASN 映射表（独立系统），用于分组和对等多样化（"-asmap "选项）。
 - 当启用"-listenonion "选项时，"onion_v3_private_key "会存储 Tor v3 服务的私钥，以便在重启之间保持稳定的洋葱 Address。
 - 当使用 `-i2psam=` 时，"i2p_private_key "会存储 I2P 私钥，以便在 I2P 上建立传出连接和可能的传入连接。

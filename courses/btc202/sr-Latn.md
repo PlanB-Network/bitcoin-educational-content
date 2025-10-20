@@ -3138,7 +3138,7 @@ Nekoliko drugih fajlova na istom nivou kao `blocks/`, `chainstate/` i `indexes/`
 - `bitcoin.conf` sadrži parametre konfiguracije vašeg čvora. Upravo u ovoj datoteci mogu se podesiti pravila prenosa. O tome ću detaljnije govoriti u sledećem poglavlju;
 - Datoteka `settings.json` sadrži dodatne parametre za `Bitcoin.conf`.
 - `debug.log` je dijagnostički tekstualni log, koji se može koristiti za razumevanje aktivnosti čvora u slučaju greške.
-- gW-448.pid` skladišti identifikator procesa u vreme izvršavanja, omogućavajući drugim aplikacijama ili skriptama da lako identifikuju bitcoind (*Bitcoin daemon*) i interaguju s njim ako je potrebno. Kreira se pri pokretanju čvora i briše pri gašenju.
+- `bitcoind.pid` beleži identifikator procesa tokom izvršavanja, što omogućava drugim aplikacijama ili skriptama da lako identifikuju Bitcoind (*Bitcoin Daemon*) i po potrebi interaguju sa njim. Kreira se pri pokretanju čvora i briše pri gašenju;
 - `ip_asn.map` je tabela mapiranja IP → ASN (samostalni sistem) koja se koristi za grupisanje i diversifikaciju peer-ova (opcija `-asmap`).
 - `onion_v3_private_key` čuva privatni ključ Tor v3 servisa kada je opcija `-listenonion` omogućena, kako bi se održao stabilan onion Address između ponovnih pokretanja.
 - `i2p_private_key` čuva I2P privatni ključ kada se koristi `-i2psam=`, za uspostavljanje odlaznih i moguće dolaznih veza na I2P.

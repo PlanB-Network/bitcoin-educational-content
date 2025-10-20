@@ -3138,7 +3138,7 @@ Beberapa file lain pada tingkat yang sama dengan `blocks/`, `chainstate/`, dan `
 - `bitcoin.conf` berisi parameter konfigurasi node Anda. Dalam file inilah aturan perantara dapat disesuaikan. Saya akan membahasnya lebih detail di bab berikutnya;
 - `settings.json` berisi parameter tambahan untuk `Bitcoin.conf`.
 - `debug.log` adalah log teks diagnostik, yang dapat digunakan untuk memahami aktivitas node jika terjadi bug.
-- gW-448.pid` menyimpan pengidentifikasi proses pada saat runtime, memungkinkan aplikasi atau skrip lain untuk dengan mudah mengidentifikasi bitcoind (* Bitcoin daemon *) dan berinteraksi dengannya jika perlu. Ini dibuat saat startup node dan dihapus saat dimatikan.
+- `bitcoind.pid` mencatat ID proses selama eksekusi, memungkinkan aplikasi atau skrip lain untuk dengan mudah mengidentifikasi Bitcoind (*Bitcoin Daemon*) dan berinteraksi dengannya jika diperlukan. File ini dibuat saat node dijalankan dan dihapus saat node berhenti;
 - `ip_asn.map` adalah tabel pemetaan IP → ASN (sistem mandiri) yang digunakan untuk bucketing dan diversifikasi peer (opsi `-asmap`).
 - `onion_v3_private_key` menyimpan kunci privat dari layanan Tor v3 ketika opsi `-listenonion` diaktifkan, untuk menjaga kestabilan onion Address di antara proses reboot.
 - `i2p_private_key` menyimpan kunci privat I2P ketika `-i2psam=` digunakan, untuk membuat koneksi keluar dan mungkin masuk pada I2P.

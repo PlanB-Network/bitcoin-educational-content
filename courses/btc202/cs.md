@@ -3138,7 +3138,7 @@ Na správném fungování se podílí několik dalších souborů na stejné úr
 - `bitcoin.conf` obsahuje konfigurační parametry vašeho uzlu. Právě v tomto souboru lze mimo jiné upravit pravidla přeposílání. Více o tom budu hovořit v následující kapitole;
 - `settings.json` obsahuje další parametry souboru `Bitcoin.conf`.
 - `debug.log` je diagnostický textový protokol, který lze použít k pochopení činnosti uzlu v případě chyby.
-- gW-448.pid` ukládá identifikátor procesu za běhu, což umožňuje jiným aplikacím nebo skriptům snadno identifikovat bitcoind (*Bitcoin daemon*) a v případě potřeby s ním komunikovat. Vytváří se při spuštění uzlu a odstraňuje se při vypnutí.
+- `bitcoind.pid` zaznamenává identifikátor procesu během běhu, což umožňuje jiným aplikacím nebo skriptům snadno identifikovat Bitcoind (*Bitcoin Daemon*) a v případě potřeby s ním komunikovat. Je vytvořen při spuštění uzlu a odstraněn při jeho vypnutí;
 - `ip_asn.map` je mapovací tabulka IP → ASN (samostatný systém) používaná pro bucketing a diverzifikaci peerů (volba `-asmap`).
 - `onion_v3_private_key` ukládá soukromý klíč služby Tor v3, když je povolena volba `-listenonion`, aby bylo možné udržet stabilní cibuli Address mezi restarty.
 - `i2p_private_key` ukládá soukromý klíč I2P, pokud je použito `-i2psam=`, k navázání odchozích a případně i příchozích spojení na I2P.

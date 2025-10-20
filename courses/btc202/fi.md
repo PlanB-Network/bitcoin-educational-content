@@ -3138,7 +3138,7 @@ Useat muut tiedostot, jotka ovat samalla tasolla kuin `blocks/`, `chainstate/` j
 - `bitcoin.conf` sisältää solmusi määritysparametrit. Juuri tässä tiedostossa voidaan säätää välityssääntöjä. Kerron siitä tarkemmin seuraavassa luvussa;
 - `settings.json` sisältää lisäparametreja tiedostoon `Bitcoin.conf`.
 - `debug.log` on diagnostinen tekstiloki, jota voidaan käyttää solmun toiminnan ymmärtämiseen vian sattuessa.
-- gW-448.pid` tallentaa prosessin tunnisteen ajon aikana, jolloin muut sovellukset tai skriptit voivat helposti tunnistaa bitcoind:n (*Bitcoin daemon*) ja olla sen kanssa vuorovaikutuksessa tarvittaessa. Se luodaan solmun käynnistyksen yhteydessä ja poistetaan sen sammutuksen yhteydessä.
+- `bitcoind.pid` tallentaa prosessin tunnisteen suorituksen aikana, mikä mahdollistaa muiden sovellusten tai skriptien helposti tunnistaa Bitcoindin (*Bitcoin Daemon*) ja olla vuorovaikutuksessa sen kanssa tarvittaessa. Se luodaan solmun käynnistyessä ja poistetaan sen pysähtyessä;
 - `ip_asn.map` on IP → ASN-kartoitustaulukko (itsenäinen järjestelmä), jota käytetään bucketingiin ja vertaisverkon hajauttamiseen (`-asmap`-vaihtoehto).
 - `onion_v3_private_key` tallentaa Tor v3 -palvelun yksityisen avaimen, kun `-listenonion`-vaihtoehto on käytössä, jotta onion Address pysyy vakaana uudelleenkäynnistysten välillä.
 - `i2p_private_key` tallentaa I2P:n yksityisen avaimen, kun käytetään `-i2psam=`, jotta voidaan muodostaa lähteviä ja mahdollisesti saapuvia yhteyksiä I2P:llä.

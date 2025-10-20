@@ -3138,7 +3138,7 @@ Faili zingine kadhaa katika kiwango sawa na `blocks/`, `chainstate/`, na `indexe
 - `bitcoin.conf` ina vigezo vya usanidi vya nodi yako. Ndani ya faili hii ndipo sheria za usambazaji zinaweza kurekebishwa. Nitaeleza zaidi kuhusu hili katika sura inayofuata;
 - `settings.json` ina vigezo vya ziada vya `Bitcoin.conf`.
 - `debug.log` ni kumbukumbu ya maandishi ya uchunguzi, ambayo inaweza kutumika kuelewa shughuli za nodi iwapo kuna hitilafu.
-- gW-448.pid` huhifadhi kitambulishi cha mchakato wakati wa utekelezaji, ikiruhusu programu au hati nyingine kutambua kwa urahisi bitcoind (*Bitcoin daemon*) na kuingiliana nayo inapohitajika. Inaundwa wakati wa kuanza kwa nodi na kufutwa wakati wa kuzima.
+- `bitcoind.pid` huandika kitambulisho cha mchakato wakati wa utekelezaji, na kuruhusu programu au hati zingine kutambua kwa urahisi Bitcoind (*Bitcoin Daemon*) na kuwasiliana nayo ikihitajika. Huundwa nodi inapoanzishwa na kufutwa inaposimama;
 - `ip_asn.map` ni IP → jedwali la ramani la ASN (mfumo unaojitegemea) unaotumika kwa kuweka ndoo na mseto wa rika (chaguo la `-asmap`).
 - `onion_v3_private_key` huhifadhi ufunguo wa faragha wa huduma ya Tor v3 wakati chaguo la `-listenonion` limewashwa, ili kuweka kitunguu kigumu Address kati ya kuwashwa tena.
 - `i2p_private_key` huhifadhi ufunguo wa faragha wa I2P `-i2psam=` inapotumika, kutengeneza miunganisho inayotoka na ikiwezekana inayoingia kwenye I2P.

@@ -3138,7 +3138,7 @@ Mempool 的大小受到 `Bitcoin.conf` 檔案中的 `maxmempool` 參數限制 (�
 - `bitcoin.conf` 包含您的節點設定參數。特別是在此檔案中可以調整轉送規則。我會在下一章更詳細地說明；
 - `settings.json` 包含 `Bitcoin.conf` 的附加參數。
 - `debug.log` 是診斷文字日誌，在發生 bug 時可用來瞭解節點活動。
-- gW-448.pid` 會在執行時儲存進程識別碼，讓其他應用程式或指令碼可以輕鬆識別 bitcoind (*Bitcoin daemon*)，並在必要時與之互動。它會在節點啟動時建立，並在關機時刪除。
+- `bitcoind.pid` 在執行期間記錄程序識別碼，使其他應用程式或指令碼能夠輕鬆識別 Bitcoind（*Bitcoin Daemon*），並在需要時與其互動。它在節點啟動時建立，在停止時刪除；
 - `ip_asn.map` 是 IP → ASN 對應表 (獨立系統)，用於分桶和對等分散 (`-asmap`選項)。
 - 當 `-listenonion` 選項啟用時，`onion_v3_private_key`會儲存 Tor v3 服務的私密金鑰，以便在重新開機之間保持穩定的洋蔥 Address。
 - 當使用 `-i2psam=` 時，`i2p_private_key` 會儲存 I2P 私密金鑰，以便在 I2P 上建立傳出和可能傳入的連線。

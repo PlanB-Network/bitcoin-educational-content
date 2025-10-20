@@ -3138,7 +3138,7 @@ Ayandi madosiye menshi ari ku rugero rumwe na `amabuye/`, `uruhererekane/`, na `
 - `bitcoin.conf` irimo ibisobanuro bya node yawe. Ni muri iri dosiye ushobora guhindura amategeko yo kohereza. Nzabisobanura neza mu gice gikurikira;
 - `imiterere.json` irimwo ibindi bipimo kuri `Bitcoin.conf`.
 - `debug.log` ni igitabo c'inyandiko y'isuzuma, gishobora gukoreshwa mu gutahura igikorwa c'urudodo iyo habaye ikibazo.
-- gW-448.pid` ibika ikimenyetso c'imigenderanire mu gihe co gukora, igatuma izindi porogaramu canke inyandiko zimenya bitcoind (*Bitcoin daemon*) mu buryo bworoshe kandi zigakorana na yo iyo bikenewe. Iremwa mu gutangura node igafutwa mu gufunga.
+- `bitcoind.pid` ibika indangamuntu y’umurimo mu gihe cyo gukora, bikemerera izindi porogaramu cyangwa scripts kumenya byoroshye Bitcoind (*Bitcoin Daemon*) no kuganira nayo niba bikenewe. Ikorwa igihe node itangiye kandi igahanagurwa igihe ihagaritswe;
 - `ip_asn.map` ni IP → ASN imeza y'ikarita (uburyo bwigenga) ikoreshwa mu gukora ububiko n'uguhinduranya urunganwe (`-asmap` uburyo).
 - `onion_v3_private_key` ibika urufunguzo rw'ibanga rwa serivisi ya Tor v3 iyo uburyo bwa `-listenonion` bukoreshejwe, kugira ngo ugume ufise igitunguru gikomeye Address hagati y'ugusubira gutangura.
 - `i2p_private_key` ibika urufunguzo rw'ibanga rwa I2P iyo `-i2psam=` ikoreshejwe, kugira ngo ukore amahuzwa asohoka n'ashobora kwinjira kuri I2P.

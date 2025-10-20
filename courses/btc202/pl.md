@@ -3138,7 +3138,7 @@ Kilka innych plików na tym samym poziomie co `blocks/`, `chainstate/` i `indexe
 - `bitcoin.conf` zawiera parametry konfiguracyjne twojego węzła. To właśnie w tym pliku można dostosować zasady przekazywania. Omówię to bardziej szczegółowo w następnym rozdziale;
 - `settings.json` zawiera dodatkowe parametry do `Bitcoin.conf`.
 - `debug.log` jest diagnostycznym dziennikiem tekstowym, który może być użyty do zrozumienia aktywności węzła w przypadku wystąpienia błędu.
-- gW-448.pid` przechowuje identyfikator procesu w czasie wykonywania, umożliwiając innym aplikacjom lub skryptom łatwą identyfikację bitcoind (*Bitcoin daemon*) i interakcję z nim w razie potrzeby. Jest on tworzony podczas uruchamiania węzła i usuwany podczas jego zamykania.
+- `bitcoind.pid` zapisuje identyfikator procesu podczas działania, co umożliwia innym aplikacjom lub skryptom łatwe zidentyfikowanie Bitcoind (*Bitcoin Daemon*) i interakcję z nim w razie potrzeby. Plik jest tworzony przy uruchomieniu węzła i usuwany przy jego zatrzymaniu;
 - `ip_asn.map` to tabela mapowania IP → ASN (system autonomiczny) używana do bucketingu i dywersyfikacji peerów (opcja `-asmap`).
 - `onion_v3_private_key` przechowuje klucz prywatny usługi Tor v3, gdy włączona jest opcja `-listenonion`, w celu utrzymania stabilnego onion Address pomiędzy restartami.
 - `i2p_private_key` przechowuje klucz prywatny I2P, gdy używany jest `-i2psam=`, do nawiązywania połączeń wychodzących i ewentualnie przychodzących na I2P.

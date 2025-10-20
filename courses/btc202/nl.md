@@ -3138,7 +3138,7 @@ Verschillende andere bestanden op hetzelfde niveau als `blocks/`, `chainstate/`,
 - gW-446.conf` bevat de configuratieparameters van je knooppunt. Hier kun je de relaisregels aanpassen. Ik vertel je hier meer over in het volgende hoofdstuk.
 - `settings.json` bevat aanvullende parameters voor `Bitcoin.conf`.
 - `debug.log` is het diagnostische tekstlogboek, dat kan worden gebruikt om de activiteit van een knooppunt te begrijpen in het geval van een bug.
-- gW-448.pid` slaat de identificatiecode van het proces tijdens runtime op, zodat andere toepassingen of scripts bitcoind (*Bitcoin daemon*) gemakkelijk kunnen identificeren en ermee kunnen communiceren indien nodig. Het wordt aangemaakt bij het opstarten van het knooppunt en verwijderd bij het afsluiten.
+- `bitcoind.pid` registreert de proces-ID tijdens de uitvoering, waardoor andere applicaties of scripts Bitcoind (*Bitcoin Daemon*) eenvoudig kunnen identificeren en ermee kunnen communiceren indien nodig. Het wordt aangemaakt bij het starten van de node en verwijderd bij het afsluiten;
 - `ip_asn.map` is een IP → ASN mapping tabel (standalone systeem) gebruikt voor bucketing en peer diversificatie (`-asmap` optie).
 - `onion_v3_private_key` slaat de private sleutel van de Tor v3 dienst op wanneer de `-listenonion` optie is ingeschakeld, om een stabiele onion Address te behouden tussen reboots.
 - `i2p_private_key` slaat de privé-sleutel van I2P op wanneer `-i2psam=` wordt gebruikt, om uitgaande en mogelijk inkomende verbindingen op I2P te maken.

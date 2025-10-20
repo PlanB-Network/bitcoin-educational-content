@@ -3138,7 +3138,7 @@ Vários outros ficheiros ao mesmo nível de `blocks/`, `chainstate/`, e `indexes
 - `bitcoin.conf` contém os parâmetros de configuração do seu nó. É neste arquivo que se podem ajustar as regras de retransmissão. Falarei mais sobre isso no próximo capítulo;
 - `settings.json` contém parâmetros adicionais para `Bitcoin.conf`.
 - o `debug.log` é o registo de texto de diagnóstico, que pode ser utilizado para compreender a atividade do nó no caso de um bug.
-- o gW-448.pid` armazena o identificador do processo em tempo de execução, permitindo que outras aplicações ou scripts identifiquem facilmente o bitcoind (*Bitcoin daemon*) e interajam com ele, se necessário. É criado no arranque do nó e eliminado no encerramento.
+- `bitcoind.pid` registra o identificador de processo durante a execução, permitindo que outros aplicativos ou scripts identifiquem facilmente o Bitcoind (*Bitcoin Daemon*) e interajam com ele, se necessário. É criado na inicialização do nó e excluído ao desligar;
 - o `ip_asn.map` é uma tabela de mapeamento IP → ASN (sistema autónomo) usada para bucketing e diversificação de pares (opção `-asmap`).
 - a `onion_v3_private_key` armazena a chave privada do serviço Tor v3 quando a opção `-listenonion` está activada, de forma a manter uma onion Address estável entre reboots.
 - `i2p_private_key` armazena a chave privada I2P quando `-i2psam=` é usado, para fazer conexões de saída e possivelmente de entrada no I2P.

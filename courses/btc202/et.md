@@ -3138,7 +3138,7 @@ Mitmed teised failid samal tasemel nagu `blocks/`, `chainstate/` ja `indexes/` o
 - `bitcoin.conf` sisaldab teie sõlme konfiguratsiooniparameetreid. Just selles failis saab kohandada edastamise reegleid. Räägin sellest lähemalt järgmises peatükis;
 - `settings.json` sisaldab täiendavaid parameetreid failile `Bitcoin.conf`.
 - `debug.log` on diagnostiline tekstilogi, mida saab kasutada vea korral sõlme tegevuse mõistmiseks.
-- gW-448.pid` salvestab protsessi identifikaatori töö ajal, mis võimaldab teistel rakendustel või skriptidel bitcoind (*Bitcoin daemon*) hõlpsasti tuvastada ja vajaduse korral sellega suhelda. See luuakse sõlme käivitamisel ja kustutatakse sulgemisel.
+- `bitcoind.pid` salvestab protsessi ID käivitamise ajal, mis võimaldab teistel rakendustel või skriptidel Bitcoind’i (*Bitcoin Daemon*) hõlpsasti tuvastada ja vajadusel sellega suhelda. See luuakse sõlme käivitamisel ja kustutatakse selle seiskamisel;
 - `ip_asn.map` on IP → ASN kaardistamise tabel (iseseisev süsteem), mida kasutatakse bucketing ja peer diversification (valik `-asmap`).
 - `onion_v3_private_key` salvestab Tor v3 teenuse privaatvõtme, kui valik `-listenonion` on lubatud, et hoida onion Address stabiilset taaskäivituste vahel.
 - `i2p_private_key` salvestab I2P privaatvõtme, kui kasutatakse `-i2psam=`, et luua väljaminevad ja võimalusel sissetulevad ühendused I2P kaudu.

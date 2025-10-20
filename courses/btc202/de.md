@@ -3338,7 +3338,7 @@ Auf der Netzebene haben wir auch:
 - `connect`: beschränkt die Verbindungen strikt auf die angegebene Adresse (kann mehrfach angegeben werden). Core wird sich mit keinem anderen Knoten verbinden;
 - seednode": wird nur zum Ausfüllen des Book-Address verwendet, wenn eine Verbindung zu einem Knoten hergestellt und dann getrennt wird.
 - max Connections": legt die globale Obergrenze für eingehende und ausgehende Verbindungen fest. Standardmäßig ist dieser Parameter auf 125 gesetzt, was bedeutet, dass Ihr Knoten nie mehr als 125 Verbindungen akzeptiert.
-- maxuploadtarget`: begrenzt die Uploads, um die Bandbreite über ein gleitendes 24-Stunden-Fenster zu begrenzen. Diese Obergrenze beeinträchtigt nicht die Ausbreitung von wichtigen aktuellen Elements.
+- `maxuploadtarget` : begrenzt den Upload, um die Bandbreite über ein gleitendes 24-Stunden-Fenster zu begrenzen. Diese Obergrenze beeinträchtigt nicht die Verbreitung wesentlicher neuer Elemente;
 - `onlynet`: begrenzt ausgehende Verbindungen nur auf ausgewählte Netzwerke (`ipv4`, `ipv6`, `onion`, `i2p`, `cjdns`). Wenn du zum Beispiel möchtest, dass sich dein Knoten nur über Tor mit dem Bitcoin-Netzwerk verbindet, kannst du den Parameter `onlynet=onion` aktivieren und eingehende Verbindungen deaktivieren (oder auch nur Verbindungen über Tor zulassen).
 - `dnsseed`: erlaubt oder verbietet _DNS-Seeds_, um Peers anzufordern, wenn Ihr lokaler Address-Pool niedrig ist (Voreinstellung: `1`, es sei denn `-connect` oder `-maxconnections=0`).
 - `forcednsseed`: erzwingt, dass _DNS-Seeds_ beim Start angefordert werden, auch wenn Sie bereits Adressen auf Lager haben (Voreinstellung: `0`).

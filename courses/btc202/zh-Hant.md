@@ -3338,7 +3338,7 @@ Full node 透過接受傳入的連線，為網路增加更多的價值。listen=
 - `connect`：嚴格限制連線至提供的位址（可多次指定）。Core 不會連接到任何其他節點；
 - `seednode`: 僅用於連線到節點時填入書本-Address，然後斷開連線。
 - `maxconnections`: 定義傳入 + 傳出連線的全局上限。預設情況下，此參數設定為 125，表示您的節點永遠不會接受超過 125 個連線。
-- maxuploadtarget`: 設定上傳上限，以限制 24 小時滑動視窗的頻寬。此上限不會犧牲基本的最近 Elements 的傳播。
+- `maxuploadtarget` ：限制上傳以在24小時滾動視窗內控制頻寬。此限制不會影響必要的最新元素傳播；
 - `onlynet`：僅限制出站連線至選定的網路 (`ipv4`、`ipv6`、`onion`、`i2p`、`cjdns`)。例如，如果您希望您的節點只透過 Tor 連線到 Bitcoin 網路，您可以啟用 `onlynet=onion` 參數，並禁止傳入連線 (或也只允許透過 Tor 連線)。
 - `dnsseed`: 允許或禁止 _DNS 種子_ 在您的本機 Address pool 不足時要求對等體 (預設值：`1`，除非 `-connect` 或 `-maxconnections=0`).
 - `forcednsseed`: 強制在啟動時請求 _DNS 種子_，即使您已有網址 (預設值: `0`)。

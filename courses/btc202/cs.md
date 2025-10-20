@@ -3338,7 +3338,7 @@ Na úrovni sítě máme také:
 - `connect`: přísně omezuje připojení na zadanou adresu (lze zadat vícekrát). Core se nepřipojí k žádnému jinému uzlu;
 - `seednode`: slouží pouze k vyplnění knihy-Address při připojení k uzlu, poté se odpojí.
 - `maxconnections`: definuje globální strop pro příchozí + odchozí spojení. Ve výchozím nastavení je tento parametr nastaven na 125, což znamená, že váš uzel nikdy nepřijme více než 125 spojení.
-- maxuploadtarget`: omezuje nahrávání na šířku pásma v klouzavém 24hodinovém okně. Tento limit neobětuje šíření zásadních nedávných Elements.
+- `maxuploadtarget` : omezuje nahrávání, aby se omezila šířka pásma v klouzavém 24hodinovém okně. Tento limit neobětuje šíření nezbytných nedávných prvků;
 - `onlynet`: omezuje odchozí připojení pouze na vybrané sítě (`ipv4`, `ipv6`, `onion`, `i2p`, `cjdns`). Pokud například chcete, aby se váš uzel připojoval k síti Bitcoin pouze přes Tor, můžete povolit parametr `onlynet=onion` a zakázat příchozí připojení (nebo povolit připojení také pouze přes Tor).
 - `dnsseed`: povoluje nebo zakazuje _DNS seed_ vyžádat si peery, když je váš místní fond Address nízký (výchozí: `1`, pokud `-connect` nebo `-maxconnections=0`).
 - `forcednsseed`: vynucuje vyžádání _DNS seed_ při spuštění, i když již máte adresy na skladě (výchozí: `0`).

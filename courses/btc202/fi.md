@@ -3338,7 +3338,7 @@ Verkkotasolla meillä on myös:
 - `connect`: rajoittaa yhteydet tiukasti annettuun osoitteeseen (voidaan määrittää useita kertoja). Core ei yhdistä mihinkään muuhun solmuun;
 - `seednode`: käytetään vain book-Address:n täyttämiseen, kun yhteys solmuun muodostetaan ja yhteys katkaistaan.
 - `maxconnections`: Määrittää saapuvien + lähtevien yhteyksien globaalin enimmäismäärän. Oletusarvoisesti tämä parametri on 125, mikä tarkoittaa, että solmusi ei koskaan hyväksy yli 125 yhteyttä.
-- maxuploadtarget`: rajoittaa latauksia kaistanleveyden rajoittamiseksi 24 tunnin liukuvan ikkunan aikana. Tämä yläraja ei uhraa olennaisen tärkeän viimeaikaisen Elements:n etenemistä.
+- `maxuploadtarget` : rajoittaa latausta kaistanleveyden rajoittamiseksi 24 tunnin liukuvassa ikkunassa. Tämä rajoitus ei estä välttämättömien uusien elementtien leviämistä;
 - `onlynet`: rajoittaa lähtevät yhteydet vain valittuihin verkkoihin (`ipv4`, `ipv6`, `onion`, `i2p`, `cjdns`). Jos esimerkiksi haluat, että solmusi muodostaa yhteyden Bitcoin-verkkoon vain Torin kautta, voit ottaa parametrin `onlynet=onion` käyttöön ja poistaa saapuvat yhteydet käytöstä (tai sallia yhteydet vain Torin kautta).
 - `dnsseed`: sallii tai estää _DNS-siemeniä_ pyytämästä vertaisverkkoja, kun paikallinen Address-varasto on vähissä (oletus: `1`, ellei `-connect` tai `-maxconnections=0`).
 - `forcednsseed`: pakottaa pyytämään _DNS-siemeniä_ käynnistyksen yhteydessä, vaikka sinulla olisi jo osoitteita varastossa (oletus: `0`).

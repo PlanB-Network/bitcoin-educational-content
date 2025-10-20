@@ -3338,7 +3338,7 @@ Võrgustiku tasandil on meil ka:
 - `connect`: piirab ühendused rangelt antud aadressile (võib määrata mitu korda). Core ei ühendu ühegi teise sõlmega;
 - `seednode`: kasutatakse ainult book-Address täitmisel, kui sõlme ühendatakse, siis katkestatakse ühendus.
 - `maxconnections`: määrab sissetulevate + väljaminevate ühenduste üldise ülemmäära. Vaikimisi on selle parameetri väärtuseks 125, mis tähendab, et teie sõlmpunkt ei võta kunagi vastu rohkem kui 125 ühendust.
-- maxuploadtarget`: piirab üleslaadimisi, et piirata ribalaiust libiseva 24-tunnise akna jooksul. See ülempiir ei ohusta oluliste hiljutiste Elements levikut.
+- `maxuploadtarget` : piirab üleslaadimist, et vähendada ribalaiust 24-tunnise liikuva ajavahemiku jooksul. See piirang ei ohverda oluliste hiljutiste elementide levikut;
 - `onlynet`: piirab väljaminevaid ühendusi ainult valitud võrkudega (`ipv4`, `ipv6`, `onion`, `i2p`, `cjdns`). Näiteks kui soovite, et teie sõlme ühendataks Bitcoin võrguga ainult Tori kaudu, saate lubada parameetrit `onlynet=onion` ja keelata sissetulevad ühendused (või lubada ühendusi ainult ka Tori kaudu).
 - `dnsseed`: lubab või keelab _DNS-seemnete_ taotlemise, kui teie kohalik Address-pool on väike (vaikimisi: `1`, kui `-connect` või `-maxconnections=0`).
 - `forcednsseed`: sunnib _DNS-seemneid_ taotlema käivitamisel, isegi kui teil on aadressid juba olemas (vaikimisi: `0`).

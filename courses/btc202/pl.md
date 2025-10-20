@@ -3338,7 +3338,7 @@ Na poziomie sieci mamy również:
 - `connect`: ściśle ogranicza połączenia do podanego adresu (można określić wielokrotnie). Core nie połączy się z żadnym innym węzłem;
 - `seednode`: jest używany tylko do wypełnienia księgi Address podczas łączenia się z węzłem, a następnie rozłącza się.
 - `maxconnections`: definiuje globalny limit połączeń przychodzących i wychodzących. Domyślnie parametr ten jest ustawiony na 125, co oznacza, że węzeł nigdy nie zaakceptuje więcej niż 125 połączeń.
-- maxuploadtarget`: ogranicza przesyłanie danych w celu ograniczenia przepustowości w 24-godzinnym oknie. Ograniczenie to nie poświęca propagacji istotnych ostatnich Elements.
+- `maxuploadtarget` : ogranicza przesyłanie w celu zmniejszenia wykorzystania przepustowości w ruchomym 24-godzinnym oknie. Ten limit nie ogranicza propagacji niezbędnych, niedawnych elementów;
 - `onlynet`: ogranicza połączenia wychodzące tylko do wybranych sieci (`ipv4`, `ipv6`, `onion`, `i2p`, `cjdns`). Na przykład, jeśli chcesz, aby twój węzeł łączył się z siecią Bitcoin tylko przez Tor, możesz włączyć parametr `onlynet=onion` i wyłączyć połączenia przychodzące (lub zezwolić na połączenia tylko przez Tor).
 - `dnsseed`: zezwala lub nie zezwala _DNS seeds_ na żądanie peerów, gdy lokalna pula Address jest niska (domyślnie: `1`, chyba że `-connect` lub `-maxconnections=0`).
 - `forcednsseed`: wymusza żądanie _DNS seeds_ przy starcie, nawet jeśli masz już adresy w magazynie (domyślnie: `0`).

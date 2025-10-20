@@ -3338,7 +3338,7 @@ Nếu bạn không muốn mở cổng trên bộ định tuyến nhưng vẫn ch
 - `connect`: giới hạn nghiêm ngặt các kết nối đến địa chỉ được cung cấp (có thể được chỉ định nhiều lần). Core sẽ không kết nối với bất kỳ nút nào khác;
 - `seednode`: chỉ được sử dụng để điền vào book-Address khi kết nối với một nút, sau đó ngắt kết nối.
 - `maxconnections`: xác định giới hạn toàn cục cho các kết nối đến và đi. Theo mặc định, tham số này được đặt thành 125, nghĩa là nút của bạn sẽ không bao giờ chấp nhận quá 125 kết nối.
-- maxuploadtarget`: giới hạn tải lên để giới hạn băng thông trong khung thời gian 24 giờ. Giới hạn này không làm ảnh hưởng đến việc truyền tải Elements thiết yếu gần đây.
+- `maxuploadtarget` : giới hạn tải lên để hạn chế băng thông trong khoảng thời gian trượt 24 giờ. Giới hạn này không làm ảnh hưởng đến việc lan truyền các phần tử gần đây cần thiết;
 - `onlynet`: giới hạn kết nối đi chỉ với các mạng được chọn (`ipv4`, `ipv6`, `onion`, `i2p`, `cjdns`). Ví dụ: nếu bạn muốn nút của mình chỉ kết nối với mạng Bitcoin qua Tor, bạn có thể bật tham số `onlynet=onion` và tắt kết nối đến (hoặc chỉ cho phép kết nối qua Tor).
 - `dnsseed`: cho phép hoặc không cho phép _DNS seeds_ yêu cầu các đối tác khi nhóm Address cục bộ của bạn sắp hết (mặc định: `1`, trừ khi `-connect` hoặc `-maxconnections=0`).
 - `forcednsseed`: buộc _hạt giống DNS_ phải được yêu cầu khi khởi động, ngay cả khi bạn đã có địa chỉ trong kho (mặc định: `0`).

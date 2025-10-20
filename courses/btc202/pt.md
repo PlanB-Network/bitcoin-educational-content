@@ -3338,7 +3338,7 @@ A nível da rede, também temos:
 - `connect`: restringe estritamente as conexões ao endereço fornecido (pode ser especificado várias vezes). O Core não se conectará a nenhum outro nó;
 - `seednode`: é utilizado apenas para preencher o livro-Address quando se liga a um nó e depois se desliga.
 - `maxconnections`: define o limite global para conexões de entrada + saída. Por padrão, este parâmetro é definido como 125, o que significa que seu nó nunca aceitará mais de 125 conexões.
-- maxuploadtarget`: limita os uploads para limitar a largura de banda numa janela deslizante de 24 horas. Este limite não sacrifica a propagação do recente e essencial Elements.
+- `maxuploadtarget` : limita o envio para restringir a largura de banda em uma janela móvel de 24 horas. Esse limite não compromete a propagação de elementos recentes essenciais;
 - `onlynet`: limita as conexões de saída apenas para redes selecionadas (`ipv4`, `ipv6`, `onion`, `i2p`, `cjdns`). Por exemplo, se você quer que seu nó se conecte à rede Bitcoin apenas via Tor, você pode habilitar o parâmetro `onlynet=onion` e desabilitar as conexões de entrada (ou apenas permitir conexões via Tor também).
 - `dnsseed`: permite ou não _DNS seeds_ para requisitar peers quando seu pool local de Address é baixo (padrão: `1`, a menos que `-connect` ou `-maxconnections=0`).
 - `forcednsseed`: força _DNS seeds_ a ser requisitado na inicialização, mesmo se você já tiver endereços em estoque (padrão: `0`).

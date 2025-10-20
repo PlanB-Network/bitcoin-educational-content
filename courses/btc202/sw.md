@@ -3338,7 +3338,7 @@ Katika kiwango cha mtandao, pia tunayo:
 - `connect`: inazuia kikamilifu miunganisho kwa anwani iliyotolewa (inaweza kubainishwa mara kadhaa). Core haitaunganishwa na nodi nyingine yoyote;
 - `seednodi`: hutumika tu kujaza kitabu-Address wakati wa kuunganisha kwenye nodi, kisha hutenganisha.
 - `maxconnections`: inafafanua dari ya kimataifa kwa miunganisho inayoingia + inayotoka. Kwa chaguo-msingi, kigezo hiki kimewekwa kuwa 125, kumaanisha kuwa nodi yako haitakubali miunganisho zaidi ya 125.
-- maxuploadtarget`: upakiaji wa caps ili kupunguza kipimo data kwenye dirisha la saa 24 la kuteleza. Kikomo hiki hakitoi uenezi wa Elements muhimu ya hivi karibuni.
+- `maxuploadtarget` : hupunguza upakiaji ili kupunguza matumizi ya kipimo data ndani ya dirisha linalosogea la saa 24. Kiwango hiki hakizuia usambazaji wa vipengele muhimu vya hivi karibuni;
 - `onlynet`: inaweka mipaka miunganisho inayotoka kwa mitandao iliyochaguliwa pekee (`ipv4`, `ipv6`, `onion`, `i2p`, `cjdns`). Kwa mfano, ikiwa unataka nodi yako iunganishwe kwenye mtandao wa Bitcoin kupitia Tor pekee, unaweza kuwezesha kigezo cha `onlynet=onion` na kuzima miunganisho inayoingia (au ruhusu tu miunganisho kupitia Tor pia).
 - `dnsseed`: inaruhusu au hairuhusu _Mbegu za DNS_ kuomba programu zingine wakati bwawa la Address la eneo lako liko chini (chaguo-msingi: `1`, isipokuwa `-connect` au `-maxconnections=0`).
 - `imelazimishwa`: hulazimisha _mbegu za DNS_ kuombwa wakati wa kuanza, hata kama tayari una anwani kwenye akiba (chaguo-msingi: `0`).

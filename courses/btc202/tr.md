@@ -3338,7 +3338,7 @@ Ağ düzeyinde, ayrıca
 - `connect`: bağlantıları verilen adrese kesin olarak sınırlar (birden çok kez belirtilebilir). Core başka hiçbir düğüme bağlanmayacaktır;
 - `seednode`: yalnızca bir düğüme bağlanırken Address kitabını doldurmak için kullanılır, ardından bağlantıyı keser.
 - `maxconnections`: gelen + giden bağlantılar için global tavanı tanımlar. Varsayılan olarak, bu parametre 125 olarak ayarlanmıştır, yani düğümünüz asla 125'ten fazla bağlantı kabul etmeyecektir.
-- maxuploadtarget`: 24 saatlik kayan bir pencere boyunca bant genişliğini sınırlamak için yüklemeleri sınırlar. Bu sınır, temel son Elements'in yayılmasını feda etmez.
+- `maxuploadtarget` : bant genişliğini sınırlamak için yüklemeyi 24 saatlik kayan bir zaman aralığında sınırlar. Bu sınır, gerekli yeni öğelerin yayılmasını engellemez;
 - onlynet`: giden bağlantıları yalnızca seçilen ağlarla sınırlar (`ipv4`, `ipv6`, `onion`, `i2p`, `cjdns`). Örneğin, düğümünüzün Bitcoin ağına yalnızca Tor üzerinden bağlanmasını istiyorsanız, `onlynet=onion` parametresini etkinleştirebilir ve gelen bağlantıları devre dışı bırakabilirsiniz (veya yalnızca Tor üzerinden bağlantılara da izin verebilirsiniz).
 - `dnsseed`: yerel Address havuzunuz düşük olduğunda _DNS tohumlarının_ eşler talep etmesine izin verir veya vermez (varsayılan: `-connect` veya `-maxconnections=0` olmadığı sürece `1`).
 - forcednsseed`: stokta zaten adresleriniz olsa bile _DNS tohumlarının_ başlangıçta istenmesini zorlar (öntanımlı: `0`).

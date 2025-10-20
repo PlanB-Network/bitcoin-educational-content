@@ -3338,7 +3338,7 @@ På nätverksnivå har vi också:
 - `connect`: begränsar strikt anslutningar till den angivna adressen (kan anges flera gånger). Core kommer inte att ansluta till någon annan nod;
 - `seednode`: används endast för att fylla i boken-Address när du ansluter till en nod och sedan kopplar bort.
 - `maxconnections`: definierar det globala taket för inkommande + utgående anslutningar. Som standard är denna parameter inställd på 125, vilket innebär att din nod aldrig kommer att acceptera fler än 125 anslutningar.
-- maxuploadtarget`: begränsar uppladdningar för att begränsa bandbredden under ett glidande 24-timmarsfönster. Detta tak offrar inte spridningen av viktiga nya Elements.
+- `maxuploadtarget` : begränsar uppladdningen för att minska bandbredden under ett rullande 24-timmarsfönster. Denna gräns komprometterar inte spridningen av viktiga senaste element;
 - `onlynet`: begränsar utgående anslutningar till endast utvalda nätverk (`ipv4`, `ipv6`, `onion`, `i2p`, `cjdns`). Om du t.ex. vill att din nod endast ska ansluta till Bitcoin-nätverket via Tor kan du aktivera parametern `onlynet=onion` och inaktivera inkommande anslutningar (eller endast tillåta anslutningar via Tor också).
 - `dnsseed`: tillåter eller förbjuder _DNS seeds_ att begära peers när din lokala Address-pool är låg (standard: `1`, om inte `-connect` eller `-maxconnections=0`).
 - `forcednsseed`: tvingar _DNS seeds_ att begäras vid start, även om du redan har adresser i lager (standard: `0`).

@@ -3338,7 +3338,7 @@ Ku rugero rw'urubuga, turafise kandi:
 - `connect`: igabanya cyane ihuriro ku aderesi yatanzwe (ishobora gutangwa inshuro nyinshi). Core ntizahuza n'undi node uwo ari wo wose;
 - `seednode`: ikoreshwa gusa mu kwuzuza igitabu-Address iyo ihuye n'urudodo, hanyuma igaca.
 - `maxconnections`: isobanura igipimo c'isi yose c'amahuza yinjira + asohoka. Ku mburabuzi, iyi parametere iteguwe kuri 125, bisobanura ko node yawe itazokwigera yemera amahuzwa arenga 125.
-- maxuploadtarget`: ibipfukisho vy'ivyo gushiramwo kugira ngo bigabanye ubwaguke bw'umurongo ku idirisha ry'amasaha 24. Iyi nkweto ntituma ukwiragira kw'ingenzi kwa Elements.
+- `maxuploadtarget` : igabanya gukurura amafayilo kugira ngo igabanye ubuhagarike bw’imiyoboro mu masaha 24 ahindagurika. Iyi ntambwe ntiyigomwa ikwirakwizwa ry’ibice bishya by’ingenzi;
 - `onlynet`: igabanya amahuzwa asohoka ku mihora yatowe gusa (`ipv4`, `ipv6`, `igitunguru`, `i2p`, `cjdns`). Nk'akarorero, niwaba ushaka ko urudodo rwawe rufatanya n'urubuga rwa Bitcoin biciye kuri Tor gusa, urashobora gukoresha `onlynet=onion` parameter maze ugahagarika amahuriro yinjira (canke kwemera gusa amahuriro biciye kuri Tor na yo nyene).
 - `dnsseed`: yemera canke ntiyemere _Imbuto za DNS_ gusaba bagenzi igihe ikigega ca Address co mu karere kawe kiri hasi (ivya kera: `1`, kiretse `-guhuza` canke `-maxconnections=0`).
 - `forcednsseed`: ihatira _Imbuto za DNS_ gusaba mu gutangura, naho woba usanzwe ufise amaderesi mu bubiko (ivya kera: `0`).

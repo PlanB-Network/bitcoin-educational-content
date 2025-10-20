@@ -3338,7 +3338,7 @@ Na nivou mreže, takođe imamo:
 - `connect`: strogo ograničava veze na navedenu adresu (može se navesti više puta). Core se neće povezivati ni sa jednim drugim čvorom;
 - `seednode`: se koristi samo za popunjavanje book-Address prilikom povezivanja na čvor, zatim se prekida veza.
 - `maxconnections`: definiše globalni plafon za dolazne + odlazne konekcije. Po podrazumevanim postavkama, ovaj parametar je postavljen na 125, što znači da vaš čvor nikada neće prihvatiti više od 125 konekcija.
-- maxuploadtarget`: ograničava otpremu kako bi se ograničila širina pojasa tokom kliznog 24-časovnog perioda. Ovo ograničenje ne žrtvuje širenje esencijalnog nedavnog Elements.
+- `maxuploadtarget` : ograničava otpremanje kako bi se smanjila širina pojasa u pokretnom prozoru od 24 sata. Ovo ograničenje ne žrtvuje širenje neophodnih novijih elemenata;
 - `onlynet`: ograničava odlazne veze samo na odabrane mreže (`ipv4`, `ipv6`, `onion`, `i2p`, `cjdns`). Na primer, ako želite da se vaš čvor povezuje na Bitcoin mrežu samo putem Tor-a, možete omogućiti `onlynet=onion` parametar i onemogućiti dolazne veze (ili dozvoliti veze samo putem Tor-a).
 - `dnsseed`: omogućava ili onemogućava _DNS seeds_ da zahtevaju peer-ove kada je vaš lokalni Address pool nizak (podrazumevano: `1`, osim ako je `-connect` ili `-maxconnections=0`).
 - `forcednsseed`: forsira _DNS seeds_ da budu zatraženi pri pokretanju, čak i ako već imate adrese na raspolaganju (podrazumevano: `0`).

@@ -3338,7 +3338,7 @@ Di tingkat jaringan, kami juga memiliki:
 - `connect`: secara ketat membatasi koneksi ke alamat yang diberikan (dapat ditentukan beberapa kali). Core tidak akan terhubung ke node lain;
 - `seednode`: hanya digunakan untuk mengisi buku-Address saat menyambung ke node, kemudian memutuskan sambungan.
 - `maxconnections`: mendefinisikan batas atas global untuk koneksi masuk + keluar. Secara default, parameter ini disetel ke 125, yang berarti bahwa node Anda tidak akan pernah menerima lebih dari 125 koneksi.
-- maxuploadtarget`: membatasi unggahan untuk membatasi bandwidth selama 24 jam. Pembatasan ini tidak mengorbankan penyebaran Elements terbaru yang penting.
+- `maxuploadtarget` : membatasi unggahan untuk mengendalikan bandwidth dalam jangka waktu bergulir 24 jam. Batas ini tidak mengorbankan penyebaran elemen penting yang baru;
 - `onlynet`: membatasi koneksi keluar hanya pada jaringan tertentu (`ipv4`, `ipv6`, `onion`, `i2p`, `cjdns`). Sebagai contoh, jika Anda ingin node Anda terhubung ke jaringan Bitcoin hanya melalui Tor, Anda dapat mengaktifkan parameter `onlynet=onion` dan menonaktifkan koneksi yang masuk (atau hanya mengizinkan koneksi melalui Tor juga).
 - dnsseed`: mengizinkan atau melarang _DNS seeds_ untuk meminta peer ketika pool Address lokal Anda rendah (default: `1`, kecuali `-connect` atau `-maxconnections=0`).
 - `forcednsseed`: memaksa _DNS seeds_ untuk diminta pada saat startup, bahkan jika Anda sudah memiliki stok alamat (default: `0`).

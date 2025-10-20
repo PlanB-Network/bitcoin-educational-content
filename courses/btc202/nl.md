@@ -3338,7 +3338,7 @@ Op netwerkniveau hebben we ook:
 - `connect`: beperkt verbindingen strikt tot het opgegeven adres (kan meerdere keren worden gespecificeerd). Core zal geen verbinding maken met andere nodes;
 - `seednode`: wordt alleen gebruikt om het boek-Address in te vullen als er verbinding wordt gemaakt met een knooppunt en daarna de verbinding wordt verbroken.
 - `maxconnections`: bepaalt het globale plafond voor inkomende + uitgaande verbindingen. Standaard is deze parameter ingesteld op 125, wat betekent dat je knooppunt nooit meer dan 125 verbindingen zal accepteren.
-- maxuploadtarget`: begrenst uploads om bandbreedte te beperken over een glijdend venster van 24 uur. Deze limiet gaat niet ten koste van de verspreiding van essentiële recente Elements.
+- `maxuploadtarget` : beperkt de upload om de bandbreedte te beperken over een rollend venster van 24 uur. Deze limiet gaat niet ten koste van de verspreiding van essentiële recente elementen;
 - `onlynet`: beperkt uitgaande verbindingen tot alleen geselecteerde netwerken (`ipv4`, `ipv6`, `onion`, `i2p`, `cjdns`). Als je bijvoorbeeld wilt dat je node alleen via Tor verbinding maakt met het Bitcoin netwerk, dan kun je de `onlynet=onion` parameter inschakelen en inkomende verbindingen uitschakelen (of ook alleen verbindingen via Tor toestaan).
 - `dnsseed`: staat toe of weigert _DNS seeds_ om peers aan te vragen wanneer je lokale Address pool laag is (standaard: `1`, tenzij `-connect` of `-maxconnections=0`).
 - `forcednsseed`: verplicht _DNS seeds_ aan te vragen bij het opstarten, zelfs als je al adressen op voorraad hebt (standaard: `0`).

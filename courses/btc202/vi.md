@@ -3135,7 +3135,7 @@ Một số tệp khác ở cùng cấp độ như `blocks/`, `chainstate/` và `
 - Khi nút bị tắt, `anchors.dat` sẽ lưu địa chỉ của các đối tác gửi đi để bạn có thể thử liên hệ lại với họ một cách nhanh chóng vào lần khởi động tiếp theo.
 - `banlist.json` chứa các lệnh cấm cục bộ do người vận hành hoặc nút quyết định (hành vi không hợp lệ lặp lại) nhằm ngăn nút kết nối lại hoặc chấp nhận kết nối từ các đối tác cụ thể này.
 - `fee_estimates.dat` lưu trữ số liệu thống kê về mốc thời gian đối với các xác nhận được quan sát, được bộ ước tính phí sử dụng để đề xuất mức phí phù hợp với mục tiêu độ trễ đã chọn khi tạo giao dịch.
-- gW-446.conf` chứa các tham số cấu hình của nút. Đây là nơi bạn có thể điều chỉnh các quy tắc chuyển tiếp. Tôi sẽ nói thêm về điều này trong chương tiếp theo.
+- `bitcoin.conf` chứa các tham số cấu hình của nút của bạn. Chính trong tệp này, các quy tắc chuyển tiếp có thể được điều chỉnh. Tôi sẽ trình bày chi tiết hơn trong chương tiếp theo;
 - `settings.json` chứa các tham số bổ sung cho `Bitcoin.conf`.
 - `debug.log` là nhật ký văn bản chẩn đoán, có thể được sử dụng để hiểu hoạt động của nút trong trường hợp xảy ra lỗi.
 - gW-448.pid` lưu trữ mã định danh quy trình khi chạy, cho phép các ứng dụng hoặc tập lệnh khác dễ dàng nhận dạng bitcoind (*Bitcoin daemon*) và tương tác với nó nếu cần. Mã này được tạo khi khởi động nút và bị xóa khi tắt máy.

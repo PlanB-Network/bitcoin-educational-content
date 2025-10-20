@@ -3135,7 +3135,7 @@ Mitmed teised failid samal tasemel nagu `blocks/`, `chainstate/` ja `indexes/` o
 - Kui sõlm on välja lülitatud, salvestab `anchors.dat` väljuvate partnerite aadressid, nii et saate järgmisel käivitamisel nendega kiiresti uuesti ühendust võtta.
 - `banlist.json` sisaldab lokaalseid keelde, mille on otsustanud operaator või sõlm (korduv kehtetu käitumine), et takistada sõlme uuesti ühendumist või ühenduste vastuvõtmist nendelt konkreetsetelt eakaaslastelt.
 - "fee_estimates.dat" salvestab vaadeldud kinnituste ajalise horisondi statistikat, mida tasude kalkulaator kasutab, et teha ettepanekuid tasumäärade kohta, mis on kooskõlas tehingu loomisel valitud viivitus-eesmärkidega.
-- gW-446.conf` sisaldab teie sõlme konfiguratsiooniparameetreid. Siin saate reguleerida relee reegleid. Sellest räägin teile lähemalt järgmises peatükis.
+- `bitcoin.conf` sisaldab teie sõlme konfiguratsiooniparameetreid. Just selles failis saab kohandada edastamise reegleid. Räägin sellest lähemalt järgmises peatükis;
 - `settings.json` sisaldab täiendavaid parameetreid failile `Bitcoin.conf`.
 - `debug.log` on diagnostiline tekstilogi, mida saab kasutada vea korral sõlme tegevuse mõistmiseks.
 - gW-448.pid` salvestab protsessi identifikaatori töö ajal, mis võimaldab teistel rakendustel või skriptidel bitcoind (*Bitcoin daemon*) hõlpsasti tuvastada ja vajaduse korral sellega suhelda. See luuakse sõlme käivitamisel ja kustutatakse sulgemisel.

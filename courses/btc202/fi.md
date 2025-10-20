@@ -3135,7 +3135,7 @@ Useat muut tiedostot, jotka ovat samalla tasolla kuin `blocks/`, `chainstate/` j
 - Kun solmu kytketään pois päältä, `anchors.dat` tallentaa lähtevien vertaisverkkojen osoitteet, jotta voit yrittää ottaa niihin yhteyttä nopeasti uudelleen, kun käynnistät järjestelmän seuraavan kerran.
 - `banlist.json` sisältää operaattorin tai solmun päättämiä paikallisia kieltoja (toistuva virheellinen käyttäytyminen), joilla estetään solmua muodostamasta uudelleen yhteyksiä tai hyväksymästä yhteyksiä kyseisiltä vertaisverkoilta.
 - maksuestimaattorit.dat tallentaa havaittujen vahvistusten aikahorisonttitilastot, joita maksuestimaattori käyttää ehdottaessaan maksuja, jotka ovat yhdenmukaisia tapahtuman luomisen yhteydessä valittujen viivetavoitteiden kanssa.
-- gW-446.conf` sisältää solmun konfigurointiparametrit. Täällä voit säätää välityssääntöjä. Kerron tästä lisää seuraavassa luvussa.
+- `bitcoin.conf` sisältää solmusi määritysparametrit. Juuri tässä tiedostossa voidaan säätää välityssääntöjä. Kerron siitä tarkemmin seuraavassa luvussa;
 - `settings.json` sisältää lisäparametreja tiedostoon `Bitcoin.conf`.
 - `debug.log` on diagnostinen tekstiloki, jota voidaan käyttää solmun toiminnan ymmärtämiseen vian sattuessa.
 - gW-448.pid` tallentaa prosessin tunnisteen ajon aikana, jolloin muut sovellukset tai skriptit voivat helposti tunnistaa bitcoind:n (*Bitcoin daemon*) ja olla sen kanssa vuorovaikutuksessa tarvittaessa. Se luodaan solmun käynnistyksen yhteydessä ja poistetaan sen sammutuksen yhteydessä.

@@ -3135,7 +3135,7 @@ Block/`, `chainstate/` ve `indexes/` ile aynı seviyedeki diğer bazı dosyalar 
 - Düğüm kapatıldığında, `anchors.dat` giden eşlerin adreslerini kaydeder, böylece bir dahaki sefere başlattığınızda onlarla tekrar hızlı bir şekilde iletişim kurmayı deneyebilirsiniz.
 - `banlist.json`, düğümün bu belirli eşlerden yeniden bağlanmasını veya bağlantı kabul etmesini önlemek için operatör veya düğüm tarafından karar verilen yerel yasakları (tekrarlanan geçersiz davranış) içerir.
 - fee_estimates.dat`, bir işlem oluşturulurken seçilen gecikme hedefleriyle tutarlı ücret oranları önermek için ücret tahmincisi tarafından kullanılan, gözlemlenen onaylara ilişkin zaman ufku istatistiklerini depolar.
-- gW-446.conf` düğümünüzün yapılandırma parametrelerini içerir. Burası röle kurallarını ayarlayabileceğiniz yerdir. Bir sonraki bölümde bu konu hakkında daha fazla bilgi vereceğim.
+- `bitcoin.conf`, düğümünüzün yapılandırma parametrelerini içerir. Özellikle bu dosyada aktarım kuralları ayarlanabilir. Bunu bir sonraki bölümde daha ayrıntılı olarak açıklayacağım;
 - `settings.json`, `Bitcoin.conf` için ek parametreler içerir.
 - debug.log`, bir hata durumunda düğüm etkinliğini anlamak için kullanılabilecek tanılama metin günlüğüdür.
 - gW-448.pid` çalışma zamanında süreç tanımlayıcısını saklar ve diğer uygulamaların veya komut dosyalarının bitcoind'i (*Bitcoin daemon*) kolayca tanımlamasına ve gerekirse onunla etkileşime girmesine olanak tanır. Düğüm başlangıcında oluşturulur ve kapatıldığında silinir.

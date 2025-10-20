@@ -3135,7 +3135,7 @@ Beberapa file lain pada tingkat yang sama dengan `blocks/`, `chainstate/`, dan `
 - Ketika node dimatikan, `anchors.dat` menyimpan alamat rekan-rekan yang keluar, sehingga Anda dapat mencoba menghubungi mereka lagi dengan cepat pada saat Anda memulai lagi.
 - `banlist.json` berisi larangan lokal yang diputuskan oleh operator atau oleh node (perilaku tidak valid yang berulang), untuk mencegah node menyambung kembali atau menerima koneksi dari rekan-rekan tertentu.
 - `fee_estimates.dat` menyimpan statistik horizon waktu pada konfirmasi yang diamati, yang digunakan oleh estimator biaya untuk mengusulkan tarif biaya yang konsisten dengan tujuan penundaan yang dipilih saat membuat transaksi.
-- gW-446.conf` berisi parameter konfigurasi node Anda. Di sinilah Anda dapat menyesuaikan aturan relai. Saya akan menjelaskan lebih lanjut tentang hal ini di bab berikutnya.
+- `bitcoin.conf` berisi parameter konfigurasi node Anda. Dalam file inilah aturan perantara dapat disesuaikan. Saya akan membahasnya lebih detail di bab berikutnya;
 - `settings.json` berisi parameter tambahan untuk `Bitcoin.conf`.
 - `debug.log` adalah log teks diagnostik, yang dapat digunakan untuk memahami aktivitas node jika terjadi bug.
 - gW-448.pid` menyimpan pengidentifikasi proses pada saat runtime, memungkinkan aplikasi atau skrip lain untuk dengan mudah mengidentifikasi bitcoind (* Bitcoin daemon *) dan berinteraksi dengannya jika perlu. Ini dibuat saat startup node dan dihapus saat dimatikan.

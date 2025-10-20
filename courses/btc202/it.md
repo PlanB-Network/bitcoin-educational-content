@@ -3135,7 +3135,7 @@ Diversi altri file allo stesso livello di `blocks/`, `chainstate/` e `indexes/` 
 - Quando il nodo viene spento, `anchors.dat` salva gli indirizzi dei peer uscenti, in modo da poter provare a ricontattarli rapidamente al successivo avvio.
 - `banlist.json` contiene i divieti locali decisi dall'operatore o dal nodo (comportamenti ripetuti non validi), al fine di impedire al nodo di riconnettersi o accettare connessioni da questi specifici peer.
 - `fee_estimates.dat` memorizza le statistiche sull'orizzonte temporale delle conferme osservate, utilizzate dallo stimatore delle tariffe per proporre tariffe coerenti con gli obiettivi di ritardo scelti durante la creazione di una transazione.
-- gW-446.conf` contiene i parametri di configurazione del nodo. È qui che si possono regolare le regole del relè. Se ne parlerà nel prossimo capitolo.
+- `bitcoin.conf` contiene i parametri di configurazione del tuo nodo. È in questo file che si possono regolare le regole di inoltro. Ne parlerò più in dettaglio nel prossimo capitolo;
 - `settings.json` contiene parametri aggiuntivi a `Bitcoin.conf`.
 - `debug.log' è il registro di testo diagnostico, che può essere usato per capire l'attività del nodo in caso di bug.
 - gW-448.pid` memorizza l'identificatore del processo in fase di esecuzione, consentendo ad altre applicazioni o script di identificare facilmente bitcoind (*Bitcoin daemon*) e di interagire con esso se necessario. Viene creato all'avvio del nodo e cancellato allo spegnimento.

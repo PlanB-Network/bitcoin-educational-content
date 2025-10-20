@@ -2346,7 +2346,7 @@ Several other files at the same level as `blocks/`, `chainstate/`, and `indexes/
 - When the node is switched off, `anchors.dat` saves the addresses of outgoing peers, so that you can try to contact them again quickly the next time you start up.
 - `banlist.json` contains local bans decided by the operator or by the node (repeated invalid behavior), in order to prevent the node from reconnecting or accepting connections from these specific peers.
 - `fee_estimates.dat` stores time horizon statistics on observed confirmations, used by the fee estimator to propose fee rates consistent with the delay objectives chosen when creating a transaction.
-- gW-446.conf` contains your node's configuration parameters. This is where you can adjust the relay rules. I'll tell you more about this in the next chapter.
+- `bitcoin.conf` contains your node’s configuration parameters. It is in this file that the relay rules can be adjusted. I will discuss this in more detail in the next chapter;
 - `settings.json` contains additional parameters to `Bitcoin.conf`.
 - `debug.log` is the diagnostic text log, which can be used to understand node activity in the event of a bug.
 - gW-448.pid` stores the process identifier at runtime, allowing other applications or scripts to easily identify bitcoind (*Bitcoin daemon*) and interact with it if necessary. It is created at node startup and deleted at shutdown.

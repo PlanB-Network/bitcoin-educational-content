@@ -3135,7 +3135,7 @@ Flere andre filer på samme nivå som `blocks/`, `chainstate/` og `indexes/` bid
 - Når noden slås av, lagrer `anchors.dat` adressene til utgående peers, slik at du raskt kan prøve å kontakte dem igjen neste gang du starter opp.
 - `banlist.json` inneholder lokale forbud som er besluttet av operatøren eller av noden (gjentatt ugyldig oppførsel), for å hindre noden i å koble seg til eller godta tilkoblinger fra disse spesifikke motpartene.
 - `fee_estimates.dat` lagrer tidshorisontstatistikk over observerte bekreftelser, som brukes av gebyrestimatoren til å foreslå gebyrsatser som er i samsvar med forsinkelsesmålene som velges når en transaksjon opprettes.
-- gW-446.conf` inneholder nodens konfigurasjonsparametere. Det er her du kan justere reléreglene. Jeg skal fortelle deg mer om dette i neste kapittel.
+- `bitcoin.conf` inneholder konfigurasjonsparametrene for noden din. Det er i denne filen du kan justere videresendingsreglene. Jeg vil snakke mer om dette i neste kapittel;
 - `settings.json` inneholder flere parametere til `Bitcoin.conf`.
 - `debug.log` er den diagnostiske tekstloggen, som kan brukes til å forstå nodeaktiviteten hvis det oppstår en feil.
 - gW-448.pid` lagrer prosessidentifikatoren ved kjøring, slik at andre programmer eller skript enkelt kan identifisere bitcoind (*Bitcoin daemon*) og samhandle med den om nødvendig. Den opprettes ved oppstart av noden og slettes ved avslutning.

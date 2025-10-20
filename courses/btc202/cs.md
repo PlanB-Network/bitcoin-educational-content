@@ -3135,7 +3135,7 @@ Na správném fungování se podílí několik dalších souborů na stejné úr
 - Když je uzel vypnutý, soubor `anchors.dat` uloží adresy odchozích partnerů, abyste se s nimi mohli při příštím spuštění znovu rychle spojit.
 - `banlist.json` obsahuje lokální zákazy, o kterých rozhodl operátor nebo uzel (opakované neplatné chování), aby se uzlu zabránilo v opětovném připojení nebo přijímání připojení od těchto konkrétních peerů.
 - v souboru `fee_estimates.dat` jsou uloženy statistiky pozorovaných potvrzení v časovém horizontu, které odhadce poplatků používá k navrhování sazeb poplatků v souladu s cíli zpoždění zvolenými při vytváření transakce.
-- gW-446.conf` obsahuje konfigurační parametry uzlu. Zde můžete upravit pravidla přenosu. Více se o tom dozvíte v další kapitole.
+- `bitcoin.conf` obsahuje konfigurační parametry vašeho uzlu. Právě v tomto souboru lze mimo jiné upravit pravidla přeposílání. Více o tom budu hovořit v následující kapitole;
 - `settings.json` obsahuje další parametry souboru `Bitcoin.conf`.
 - `debug.log` je diagnostický textový protokol, který lze použít k pochopení činnosti uzlu v případě chyby.
 - gW-448.pid` ukládá identifikátor procesu za běhu, což umožňuje jiným aplikacím nebo skriptům snadno identifikovat bitcoind (*Bitcoin daemon*) a v případě potřeby s ním komunikovat. Vytváří se při spuštění uzlu a odstraňuje se při vypnutí.

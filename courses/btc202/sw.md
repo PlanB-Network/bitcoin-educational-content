@@ -3135,7 +3135,7 @@ Faili zingine kadhaa katika kiwango sawa na `blocks/`, `chainstate/`, na `indexe
 - Wakati nodi imezimwa, `anchors.dat` huhifadhi anwani za wenzao wanaotoka, ili uweze kujaribu kuwasiliana nao tena kwa haraka wakati mwingine unapoanza.
 - `banlist.json` ina marufuku ya ndani yaliyoamuliwa na opereta au nodi (tabia isiyo sahihi inayorudiwa), ili kuzuia nodi kuunganisha tena au kukubali miunganisho kutoka kwa programu zingine hizi mahususi.
 - `fee_estimates.dat` huhifadhi takwimu za upeo wa macho wa muda kwenye uthibitisho unaozingatiwa, unaotumiwa na mkadiriaji wa ada kupendekeza viwango vya ada vinavyolingana na malengo ya ucheleweshaji yaliyochaguliwa wakati wa kuunda muamala.
-- gW-446.conf` ina vigezo vya usanidi wa nodi yako. Hapa ndipo unaweza kurekebisha sheria za relay. Nitakuambia zaidi kuhusu hili katika sura inayofuata.
+- `bitcoin.conf` ina vigezo vya usanidi vya nodi yako. Ndani ya faili hii ndipo sheria za usambazaji zinaweza kurekebishwa. Nitaeleza zaidi kuhusu hili katika sura inayofuata;
 - `settings.json` ina vigezo vya ziada vya `Bitcoin.conf`.
 - `debug.log` ni kumbukumbu ya maandishi ya uchunguzi, ambayo inaweza kutumika kuelewa shughuli za nodi iwapo kuna hitilafu.
 - gW-448.pid` huhifadhi kitambulishi cha mchakato wakati wa utekelezaji, ikiruhusu programu au hati nyingine kutambua kwa urahisi bitcoind (*Bitcoin daemon*) na kuingiliana nayo inapohitajika. Inaundwa wakati wa kuanza kwa nodi na kufutwa wakati wa kuzima.

@@ -3135,7 +3135,7 @@ Ayandi madosiye menshi ari ku rugero rumwe na `amabuye/`, `uruhererekane/`, na `
 - Iyo node izimye, `anchors.dat` ibika aderesi z'abagenzi basohotse, kugira ngo ushobore kugerageza kwongera guhamagara ningoga igihe uzotangura.
 - `banlist.json` irimwo ibibujijwe vyo mu karere vyafashwe n'umukoresha canke n'urudodo (inyifato idakwiriye isubiramwo), kugira ngo urudodo ntirusubire gufatanya canke kwemera amahuzwa avuye kuri abo bagenzi.
 - `fee_estimates.dat` ibika imibare y'igihe ku vyemezo vyerekanwa, ikoreshwa n'umugenzuzi w'amahera kugira ngo ashireho ibiciro vy'amahera bihuye n'intumbero z'ugucererwa zatowe igihe umuntu akora igikorwa.
-- gW-446.conf` irimwo imiterere y'imiterere y'uruzitiro rwawe. Aho niho ushobora guhindura amategeko y’ugusubiramwo. Nzobabwira vyinshi kuri ivyo mu kigabane gikurikira.
+- `bitcoin.conf` irimo ibisobanuro bya node yawe. Ni muri iri dosiye ushobora guhindura amategeko yo kohereza. Nzabisobanura neza mu gice gikurikira;
 - `imiterere.json` irimwo ibindi bipimo kuri `Bitcoin.conf`.
 - `debug.log` ni igitabo c'inyandiko y'isuzuma, gishobora gukoreshwa mu gutahura igikorwa c'urudodo iyo habaye ikibazo.
 - gW-448.pid` ibika ikimenyetso c'imigenderanire mu gihe co gukora, igatuma izindi porogaramu canke inyandiko zimenya bitcoind (*Bitcoin daemon*) mu buryo bworoshe kandi zigakorana na yo iyo bikenewe. Iremwa mu gutangura node igafutwa mu gufunga.

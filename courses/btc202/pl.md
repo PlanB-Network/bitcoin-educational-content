@@ -3135,7 +3135,7 @@ Kilka innych plików na tym samym poziomie co `blocks/`, `chainstate/` i `indexe
 - Gdy węzeł jest wyłączony, `anchors.dat` zapisuje adresy wychodzących peerów, dzięki czemu można szybko spróbować skontaktować się z nimi ponownie przy następnym uruchomieniu.
 - `banlist.json` zawiera lokalne bany ustalone przez operatora lub przez węzeł (powtarzające się nieprawidłowe zachowanie), aby uniemożliwić węzłowi ponowne łączenie się lub akceptowanie połączeń od tych konkretnych peerów.
 - `fee_estimates.dat` przechowuje statystyki horyzontu czasowego obserwowanych potwierdzeń, wykorzystywane przez estymator opłat do proponowania stawek opłat zgodnych z celami opóźnień wybranymi podczas tworzenia transakcji.
-- gW-446.conf` zawiera parametry konfiguracyjne węzła. To tutaj można dostosować reguły przekaźnika. Więcej na ten temat opowiem w następnym rozdziale.
+- `bitcoin.conf` zawiera parametry konfiguracyjne twojego węzła. To właśnie w tym pliku można dostosować zasady przekazywania. Omówię to bardziej szczegółowo w następnym rozdziale;
 - `settings.json` zawiera dodatkowe parametry do `Bitcoin.conf`.
 - `debug.log` jest diagnostycznym dziennikiem tekstowym, który może być użyty do zrozumienia aktywności węzła w przypadku wystąpienia błędu.
 - gW-448.pid` przechowuje identyfikator procesu w czasie wykonywania, umożliwiając innym aplikacjom lub skryptom łatwą identyfikację bitcoind (*Bitcoin daemon*) i interakcję z nim w razie potrzeby. Jest on tworzony podczas uruchamiania węzła i usuwany podczas jego zamykania.

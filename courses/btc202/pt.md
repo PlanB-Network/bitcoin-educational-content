@@ -3135,7 +3135,7 @@ Vários outros ficheiros ao mesmo nível de `blocks/`, `chainstate/`, e `indexes
 - Quando o nó é desligado, o `anchors.dat` guarda os endereços dos pares de saída, para que possa tentar contactá-los rapidamente da próxima vez que arrancar.
 - a `banlist.json` contém proibições locais decididas pelo operador ou pelo nó (comportamento inválido repetido), de modo a impedir que o nó volte a ligar-se ou a aceitar ligações desses pares específicos.
 - o `fee_estimates.dat` armazena estatísticas de horizonte temporal sobre as confirmações observadas, utilizadas pelo estimador de taxas para propor taxas consistentes com os objectivos de atraso escolhidos ao criar uma transação.
-- gW-446.conf` contém os parâmetros de configuração do seu nó. É aqui que se pode ajustar as regras de retransmissão. Eu falarei mais sobre isso no próximo capítulo.
+- `bitcoin.conf` contém os parâmetros de configuração do seu nó. É neste arquivo que se podem ajustar as regras de retransmissão. Falarei mais sobre isso no próximo capítulo;
 - `settings.json` contém parâmetros adicionais para `Bitcoin.conf`.
 - o `debug.log` é o registo de texto de diagnóstico, que pode ser utilizado para compreender a atividade do nó no caso de um bug.
 - o gW-448.pid` armazena o identificador do processo em tempo de execução, permitindo que outras aplicações ou scripts identifiquem facilmente o bitcoind (*Bitcoin daemon*) e interajam com ele, se necessário. É criado no arranque do nó e eliminado no encerramento.

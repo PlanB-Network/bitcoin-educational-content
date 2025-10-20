@@ -3135,7 +3135,7 @@ Mehrere andere Dateien auf der gleichen Ebene wie `blocks/`, `chainstate/` und `
 - Beim Ausschalten des Knotens speichert `anchors.dat` die Adressen der abgehenden Teilnehmer, so dass Sie beim nächsten Start schnell wieder versuchen können, sie zu kontaktieren.
 - die Datei `banlist.json` enthält lokale Verbote, die vom Betreiber oder vom Knoten beschlossen wurden (wiederholtes ungültiges Verhalten), um den Knoten daran zu hindern, sich erneut zu verbinden oder Verbindungen von diesen bestimmten Peers zu akzeptieren.
 - die Datei "fee_estimates.dat" speichert Zeithorizontstatistiken über beobachtete Bestätigungen, die vom Gebührenschätzer verwendet werden, um Gebührensätze vorzuschlagen, die mit den bei der Erstellung einer Transaktion gewählten Verzögerungszielen vereinbar sind.
-- gW-446.conf` enthält die Konfigurationsparameter Ihres Knotens. Hier können Sie die Relaisregeln anpassen. Mehr darüber erfahren Sie im nächsten Kapitel.
+- `bitcoin.conf` enthält die Konfigurationsparameter Ihres Knotens. In dieser Datei können insbesondere die Weiterleitungsregeln angepasst werden. Ich werde im nächsten Kapitel ausführlicher darauf eingehen;
 - die Datei `settings.json` enthält zusätzliche Parameter zu `Bitcoin.conf`.
 - debug.log" ist das diagnostische Textprotokoll, das im Falle eines Fehlers zum Verständnis der Knotenaktivitäten verwendet werden kann.
 - gW-448.pid` speichert die Prozesskennung zur Laufzeit, so dass andere Anwendungen oder Skripte bitcoind (*Bitcoin daemon*) leicht identifizieren und bei Bedarf mit ihm interagieren können. Sie wird beim Starten des Knotens erstellt und beim Herunterfahren gelöscht.

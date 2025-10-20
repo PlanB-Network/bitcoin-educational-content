@@ -3135,7 +3135,7 @@ Nekoliko drugih fajlova na istom nivou kao `blocks/`, `chainstate/` i `indexes/`
 - Kada je čvor isključen, `anchors.dat` čuva adrese odlaznih vršnjaka, tako da možete brzo pokušati da ih kontaktirate ponovo sledeći put kada pokrenete sistem.
 - `banlist.json` sadrži lokalne zabrane koje je odredio operater ili čvor (ponovljeno nevažeće ponašanje), kako bi se sprečilo da se čvor ponovo poveže ili prihvati veze od ovih specifičnih vršnjaka.
 - `fee_estimates.dat` skladišti statistiku vremenskog horizonta o posmatranim potvrđivanjima, koju koristi procenjivač naknada za predlaganje stopa naknada u skladu sa ciljevima kašnjenja izabranim prilikom kreiranja transakcije.
-- gW-446.conf` sadrži parametre konfiguracije vašeg čvora. Ovde možete prilagoditi pravila releja. Reći ću vam više o tome u narednom poglavlju.
+- `bitcoin.conf` sadrži parametre konfiguracije vašeg čvora. Upravo u ovoj datoteci mogu se podesiti pravila prenosa. O tome ću detaljnije govoriti u sledećem poglavlju;
 - Datoteka `settings.json` sadrži dodatne parametre za `Bitcoin.conf`.
 - `debug.log` je dijagnostički tekstualni log, koji se može koristiti za razumevanje aktivnosti čvora u slučaju greške.
 - gW-448.pid` skladišti identifikator procesa u vreme izvršavanja, omogućavajući drugim aplikacijama ili skriptama da lako identifikuju bitcoind (*Bitcoin daemon*) i interaguju s njim ako je potrebno. Kreira se pri pokretanju čvora i briše pri gašenju.

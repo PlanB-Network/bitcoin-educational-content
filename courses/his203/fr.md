@@ -986,35 +986,15 @@ Le 27 avril, Luke [crée](https://bitcointalk.org/index.php?topic=6667.msg97375#
 
 Luke adopte initialement un modèle de paiement proportionnel. Néanmoins, ses préoccupations liées au *pool hopping* le conduisent à [mettre en œuvre](https://bitcointalk.org/index.php?topic=6667.msg213885#msg213885) son propre système hybride le 13 juin : le modèle *Maximum Pay Per Share* (MPPS). Celui-ci [consiste](https://web.archive.org/web/20110615073316/http://eligius.st/wiki/index.php/Maximum_PPS) à tenir compte d'un solde lié aux parts trouvées, en plus du compteur lié au système proportionnel qui agit comme un tampon, afin d'obtenir un modèle qui ressemble au paiement par part sans le risque associé pour la coopérative. Ce modèle étant défectueux (Luke est momentanément [obligé](https://bitcointalk.org/index.php?topic=6667.msg259589#msg259589) de revenir au modèle proportionnel), il conçoit un système similaire qui [repose](https://web.archive.org/web/20110627025520/http://eligius.st/wiki/index.php/Shared_Maximum_PPS) sur un tampon collectif : le *Shared Maximum Pay Per Share* (SMPPS). Le but est de ne jamais distribuer plus que ce que la coopérative possède réellement. Après un [sondage](https://bitcointalk.org/index.php?topic=21999.msg276565#msg276565) favorable, Eligius [intègre](https://bitcointalk.org/index.php?topic=6667.msg290347#msg290347) ce nouveau modèle le 27 juin.
 
----
-
 À partir du 5 août, Eligius [inclut](https://ourbigbook.com/cirosantilli/cool-data-embedded-in-the-bitcoin-blockchain/prayer-wars) des messages de nature religieuse dans les champs d'entrée des transactions de récompenses, des blocs générés par la coopérative. Conformément à la foi catholique romaine de l'opérateur, on retrouve des prières en latin : les Louanges divines, le *Je vous salue Marie*,le *Salve Regina*, le *Notre Père*, la prière du cœur, etc. Mais il y a également des passages en anglais : les Actes de contrition, de foi, d'espérance et de charité, le Confiteor, la prière à l'Ange Gardien, des méditations du chapelet du Sacré-Cœur de Jésus, des passages de l'Évangile, des commémorations des saints (comme celle d'Augustin d'Hippone le 28 août).
 
 ![Louanges divines présentes dans les blocs minés par Eligius en août 2011](assets/en/eligius-coinbase-prayers-201108-blockchair.webp)
 
 *Louanges divines présentes dans les blocs minés par Eligius en août 2011 (source : [Blockchair](https://blockchair.com/))*
 
-Deux semaines plus tard, ces prières sont remarquées par un membre de la communauté, qui inscrit un message dans une [transaction](https://mempool.space/tx/9740e7d646f5278603c04706a366716e5e87212c57395e0d24761c0ae784b2c6) classique. Il accuse Luke d'être « un pédophile » (original: "A PEDOPHILE"), affirme que « Dieu n'existe pas » (original: "god isn't real") et lui adjoint d'arrêter de « polluer la blockchain avec \[ses\] absurdités » (original: "Stop polluting the blockchain with your nonsense"). Cette transaction est [signalée](https://buildingbitcoin.org/bitcoin-dev/log-2011-08-18.html#l-598) dans la journée par Mark Karpelès, ce qui engendre une discussion [sur IRC](https://buildingbitcoin.org/bitcoin-dev/log-2011-08-18.html#l-851) et [sur le forum](https://bitcointalk.org/index.php?topic=38007.msg466841#msg466841) autour de ces inscriptions de texte. Graeme Tee...
+Deux semaines plus tard, ces prières sont remarquées par un membre de la communauté, qui inscrit un message dans une [transaction](https://mempool.space/tx/9740e7d646f5278603c04706a366716e5e87212c57395e0d24761c0ae784b2c6) classique. Il accuse Luke d'être « un pédophile » (original: "A PEDOPHILE"), affirme que « Dieu n'existe pas » (original: "god isn't real") et lui adjoint d'arrêter de « polluer la blockchain avec \[ses\] absurdités » (original: "Stop polluting the blockchain with your nonsense"). Cette transaction est [signalée](https://buildingbitcoin.org/bitcoin-dev/log-2011-08-18.html#l-598) dans la journée par Mark Karpelès, ce qui engendre une discussion [sur IRC](https://buildingbitcoin.org/bitcoin-dev/log-2011-08-18.html#l-851) et [sur le forum](https://bitcointalk.org/index.php?topic=38007.msg466841#msg466841) autour de ces inscriptions de texte. Graeme Tee, l'opérateur de Ozcoin, se montre particulièrement critique à l'égard de cette pratique, d'autant plus que les hacheurs d'Eligius ne sont pas au courant. Il demande à Luke s'il ne pense pas que « le fait d'inclure des prières pourrait rebuter certaines personnes » (original: "you dont think putting prayers in might alienate some ppl"), considérant que « btc est multiconfessionnel » (original: "btc is multidenominational"), ce à quoi le sédévacantiste répond brutalement que « les catholiques ne croient pas en la liberté de religion » (original: "Catholics do not believe in freedom of religion").
 
----
-
-Réaction, [18/8 09:08](https://mempool.space/tx/9740e7d646f5278603c04706a366716e5e87212c57395e0d24761c0ae784b2c6) : "LUKE-JR IS A PEDOPHILE! Oh, and god isn't real, sucka. Stop polluting the blockchain with your nonsense." ; incluse dans un [bloc](https://mempool.space/block/000000000000070f4407e0cf384e05275b7a0f31876baf3636b84cae341f4dc7) miné par Eligius ("O dulcis Virgo Maria. Ora pro nobis, sancta Dei Genetrix")
-
-Mark Karpelès [IRC 18/8 13:58](https://buildingbitcoin.org/bitcoin-dev/log-2011-08-18.html#l-598) "we got a strange tx in the blockchain"
-
-[discussion sur IRC](https://buildingbitcoin.org/bitcoin-dev/log-2011-08-18.html#l-851)
-
-2011-08-18 16:23:52 <Graet> mm interesting luke-jr i understand you are strong in your faith but you dont think putting prayers in might alienate some ppl - after all btc is multidenominational
-2011-08-18 16:24:15 <luke-jr> Graet: Catholics do not believe in freedom of religion.
-2011-08-18 16:24:35 <Graet> and you make your non catholic miners aware of this?
-
-Graet, "Eligius miners aware of prayers in block headers?", [19/8 02:05 UTC](https://bitcointalk.org/index.php?topic=38007.msg466841#msg466841) ; exemples : https://bitcointalk.org/index.php?topic=38007.msg470800#msg470800
-
-Autres inscriptions ultérieures, [soumises](https://twitter.com/LukeDashjr/status/1749186831126581481) par les client d'Eligius.
-
-"Militant atheists, http://bit.ly/naNhG2 -- happy now?" (rickroll) [25/8 22:09:28 UTC](https://mempool.space/block/00000000000005b71bc4c0cf24a6f00e04980c627e9409266983bd37acbe14d3)
-
-https://www.righto.com/2014/02/ascii-bernanke-wikileaks-photographs.html
+Toutefois, Luke tient compte de cette remarque et permet aux mineurs de [demander](https://web.archive.org/web/20111001015612/http://eligius.st/wiki/index.php/FAQ#What_messages_are_included_in_payout_coinbases.3F) à inclure leurs propres messages, sous réserve de son accord. Plusieurs inscriptions humoristiques sont ainsi ajoutées, dont notamment un [rickroll](https://mempool.space/block/00000000000005b71bc4c0cf24a6f00e04980c627e9409266983bd37acbe14d3). Luke arrête la pratique au début du mois de septembre.
 
 ### La centralisation du minage
 

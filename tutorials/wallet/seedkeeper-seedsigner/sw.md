@@ -7,7 +7,7 @@ description: Je, ninawezaje kutumia Mtunza mbegu kwa SeedSigner yangu?
 
 
 
-*Shukrani kwa timu za [Satochip](https://satochip.io/) kwa kukubali kutumia tena [video zao](https://www.youtube.com/@satochip/videos) kwa ajili ya kuunda mafunzo haya. Toleo lililoandikwa, ambalo litatafsiriwa katika lugha zote, linatayarishwa kwa sasa na litapatikana hivi karibuni kwenye Plan ₿ Network.*
+*Shukrani kwa timu za [Satochip](https://satochip.io/) kwa kukubali kutumia tena [video zao](https://www.youtube.com/@satochip/videos) kwa ajili ya kuunda mafunzo haya. Toleo lililoandikwa, ambalo litatafsiriwa katika lugha zote, linatayarishwa kwa sasa na litapatikana hivi karibuni kwenye Plan ₿ Academy.*
 
 
 

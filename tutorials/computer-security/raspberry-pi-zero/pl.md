@@ -6,7 +6,7 @@ description: Jak zbudować minimalny, odizolowany i tani komputer, używając Ra
 
 
 
-Jeśli jesteś na stronach Plan ₿ Network od dłuższego czasu, już wiesz, że jednym z najbardziej zalecanych ustawień bezpieczeństwa, niemal obowiązkowym, **jest zarządzanie funduszami poprzez przechowywanie kluczy prywatnych w trybie offline**.
+Jeśli jesteś na stronach Plan ₿ Academy od dłuższego czasu, już wiesz, że jednym z najbardziej zalecanych ustawień bezpieczeństwa, niemal obowiązkowym, **jest zarządzanie funduszami poprzez przechowywanie kluczy prywatnych w trybie offline**.
 
 
 
@@ -14,7 +14,7 @@ Jeśli jeszcze go nie odkryłeś, w tym samouczku znajdziesz linki do zasobów o
 
 
 
-Do zarządzania kluczami prywatnymi offline potrzebne jest zatem urządzenie trwale odłączone od sieci, niezależnie od tego, czy jest to [portfel sprzętowy](https://planb.network/resources/glossary/hardware-wallet), czy komputer z airgapem, przeznaczony do tej konkretnej funkcji.
+Do zarządzania kluczami prywatnymi offline potrzebne jest zatem urządzenie trwale odłączone od sieci, niezależnie od tego, czy jest to [portfel sprzętowy](https://planb.academy/resources/glossary/hardware-wallet), czy komputer z airgapem, przeznaczony do tej konkretnej funkcji.
 
 
 
@@ -500,7 +500,7 @@ Spośród portfeli, które znam, jedynym, który zapewnia wersję 32-bitową, je
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-airgap-62b5a4c6-a221-4d41-9a62-4618c53d8223
+https://planb.academy/tutorials/wallet/desktop/electrum-airgap-62b5a4c6-a221-4d41-9a62-4618c53d8223
 
 ## Wnioski
 

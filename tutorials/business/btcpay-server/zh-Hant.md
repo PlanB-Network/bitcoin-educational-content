@@ -21,4 +21,4 @@ BTCpay 伺服器 - 由 BTCSession 在幾分鐘內接受 Bitcoin 付款
 我們有一個完整的BTCPay伺服器課程，歡迎您免費瀏覽完整的課程，讓您可以擴展這個驚人工具的知識。
 
 
-[**-> 瞭解更多關於 BTCPay 伺服器及其在我們課程中的效用**](https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1)
+[**-> 瞭解更多關於 BTCPay 伺服器及其在我們課程中的效用**](https://planb.academy/courses/6fc12131-e464-4515-9d3f-9255365d5fa1)

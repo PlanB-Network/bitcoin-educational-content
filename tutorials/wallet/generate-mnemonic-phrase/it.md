@@ -30,7 +30,7 @@ Per la creazione della tua frase di recupero a mano, avrai bisogno di:
 - Un foglio di carta;
 - Una penna o matita, idealmente di colori diversi per facilitare l'organizzazione;
 - Diversi dadi, per minimizzare i rischi di bias legati a un dado non bilanciato;
-- [La lista delle 2048 parole BIP39](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf) stampata.
+- [La lista delle 2048 parole BIP39](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf) stampata.
 
 Successivamente, l'uso di un computer con un terminale diventerà necessario per il calcolo del checksum. È proprio per questo motivo che sconsiglio la generazione manuale della frase mnemonica. A mio avviso, l'intervento di un computer, anche sotto le precauzioni menzionate in questo tutorial, aumenta significativamente la vulnerabilità di un portafoglio.
 Per un approccio sperimentale riguardante un "portafoglio fittizio", è possibile utilizzare il proprio computer abituale e il suo terminale. Tuttavia, per un approccio più rigoroso volto a limitare i rischi di compromissione della propria frase, l'ideale sarebbe utilizzare un PC disconnesso da internet (preferibilmente senza componente wifi o connessione cablata RJ45), dotato del minimo dei periferici (tutti collegati tramite cavo, per evitare il Bluetooth), e soprattutto, funzionante su una distribuzione Linux amnesica come [Tails](https://tails.boum.org/index.fr.html), avviata da un supporto rimovibile.
@@ -65,7 +65,7 @@ Ciascuno di questi pacchetti rappresenta un numero in binario che verrà poi con
 
 ![mnemonic](assets/notext/5.webp)
 
-Infine, il numero in decimale ci indica la posizione della parola corrispondente nella [lista delle 2048 parole BIP39](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf). Non resta che selezionare queste parole per comporre la frase di recupero per il nostro portafoglio.
+Infine, il numero in decimale ci indica la posizione della parola corrispondente nella [lista delle 2048 parole BIP39](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf). Non resta che selezionare queste parole per comporre la frase di recupero per il nostro portafoglio.
 
 ![mnemonic](assets/notext/6.webp)
 
@@ -85,7 +85,7 @@ Come potete vedere nel mio esempio, la dodicesima parola è attualmente composta
 
 ## Passo 2: Calcolo del checksum
 
-Questo passo è il più critico nella generazione manuale di una frase mnemonica, poiché richiede l'uso di un computer. Come accennato in precedenza, il checksum corrisponde all'inizio dell'hash SHA256 generato dall'entropia. Sebbene sia teoricamente possibile calcolare uno SHA256 a mano per un input di 128 o 256 bit, questo compito potrebbe richiedere un'intera settimana. Inoltre, qualsiasi errore nei calcoli manuali sarebbe identificato solo alla fine del processo, costringendovi a ricominciare da capo. Pertanto, è impensabile eseguire questo passo solo con un foglio di carta e una penna. L'uso di un computer è quasi obbligatorio. Se desiderate comunque imparare come fare uno SHA256 a mano, spieghiamo come farlo nel [corso CRYPTO301](https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f).
+Questo passo è il più critico nella generazione manuale di una frase mnemonica, poiché richiede l'uso di un computer. Come accennato in precedenza, il checksum corrisponde all'inizio dell'hash SHA256 generato dall'entropia. Sebbene sia teoricamente possibile calcolare uno SHA256 a mano per un input di 128 o 256 bit, questo compito potrebbe richiedere un'intera settimana. Inoltre, qualsiasi errore nei calcoli manuali sarebbe identificato solo alla fine del processo, costringendovi a ricominciare da capo. Pertanto, è impensabile eseguire questo passo solo con un foglio di carta e una penna. L'uso di un computer è quasi obbligatorio. Se desiderate comunque imparare come fare uno SHA256 a mano, spieghiamo come farlo nel [corso CRYPTO301](https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f).
 
 Per questo motivo, sconsiglio vivamente di creare una frase mnemonica manuale per un portafoglio reale. A mio avviso, l'uso di un computer in questa fase, anche con tutte le precauzioni necessarie, aumenta in modo irragionevole la superficie di attacco del portafoglio.
 Per calcolare il checksum lasciando il minor numero di tracce possibile, utilizzeremo una distribuzione Linux amnesica da un'unità rimovibile chiamata **Tails**. Questo sistema operativo si avvia da una chiavetta USB e opera interamente sulla RAM del computer, senza interagire con l'hard disk. Così, in teoria, non lascia tracce sul computer dopo che viene spento. Si prega di notare che Tails è compatibile solo con processori di tipo x86_64, e non con processori di tipo ARM.
@@ -215,7 +215,7 @@ Con i numeri decimali ottenuti, possiamo ora localizzare le parole corrispondent
 
 ![mnemonic](assets/notext/24.webp)
 Dopo questo aggiustamento, hai il rango di ogni parola all'interno della lista. Tutto ciò che rimane è identificare ogni parola con il suo numero. Ovviamente, come per tutti gli altri passaggi, non devi usare il computer per eseguire questa conversione. Pertanto, assicurati di aver stampato la lista in anticipo.
-[**-> Stampa la lista BIP39 in formato A4.**](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)
+[**-> Stampa la lista BIP39 in formato A4.**](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)
 
 Per esempio, se il numero derivato dalla prima linea è 1721, la parola corrispondente sarà la 1721esima sulla lista:
 

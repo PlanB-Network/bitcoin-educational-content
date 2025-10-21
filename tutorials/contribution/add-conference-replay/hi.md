@@ -10,15 +10,15 @@ PlanB का मिशन है कि वह Bitcoin पर उच्च-स�
 
 हालांकि, अगर आप भविष्य में होने वाले किसी सम्मेलन को जोड़ना चाहते हैं, तो मैं आपको सलाह दूंगा कि आप इस दूसरे ट्यूटोरियल को पढ़ें जिसमें हम समझाते हैं कि साइट पर नया इवेंट कैसे जोड़ा जाए।
 
-https://planb.network/tutorials/contribution/resource/add-event-1d3df554-c2d8-4e93-853f-58f672c5e097
+https://planb.academy/tutorials/contribution/resource/add-event-1d3df554-c2d8-4e93-853f-58f672c5e097
 ![conference](assets/01.webp)
 
 
 - सबसे पहले, आपके पास GitHub पर एक खाता होना चाहिए। अगर आपको खाता बनाना नहीं आता, तो हमने आपकी मदद के लिए एक विस्तृत ट्यूटोरियल तैयार किया है।
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
-- [PlanB के डेटा के लिए समर्पित GitHub रिपॉजिटरी](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/conference) के `resources/conference/` सेक्शन में जाएं:
+- [PlanB के डेटा के लिए समर्पित GitHub रिपॉजिटरी](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/resources/conference) के `resources/conference/` सेक्शन में जाएं:
 
 ![conference](assets/02.webp)
 
@@ -28,7 +28,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![conference](assets/03.webp)
 
 
-- यदि आपने पहले कभी PlanB Network की सामग्री में योगदान नहीं दिया है, तो आपको मूल रिपॉजिटरी का अपना Fork बनाना होगा। रिपॉजिटरी को फोर्क करने का मतलब है कि उस रिपॉजिटरी की एक कॉपी अपने GitHub अकाउंट पर बनाना, जिससे आप प्रोजेक्ट पर काम कर सकते हैं बिना मूल रिपॉजिटरी को प्रभावित किए। `Fork this repository` बटन पर क्लिक करें:
+- यदि आपने पहले कभी Plan ₿ Academy की सामग्री में योगदान नहीं दिया है, तो आपको मूल रिपॉजिटरी का अपना Fork बनाना होगा। रिपॉजिटरी को फोर्क करने का मतलब है कि उस रिपॉजिटरी की एक कॉपी अपने GitHub अकाउंट पर बनाना, जिससे आप प्रोजेक्ट पर काम कर सकते हैं बिना मूल रिपॉजिटरी को प्रभावित किए। `Fork this repository` बटन पर क्लिक करें:
 
 ![conference](assets/04.webp)
 
@@ -91,7 +91,7 @@ tags:
 
 यदि आपके संगठन के पास अभी तक "*बिल्डर*" पहचानकर्ता नहीं है, तो आप इसे जोड़ने के लिए इस अन्य ट्यूटोरियल का पालन कर सकते हैं।
 
-https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
+https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 - जब आप इस फाइल में बदलाव कर लें, तो उन्हें `Commit changes...` बटन पर क्लिक करके सेव कर लें।
 

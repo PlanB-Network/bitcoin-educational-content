@@ -29,10 +29,10 @@ Por outro lado, algumas ferramentas são afetadas pelo desligamento do servidor 
 Quanto às ferramentas de gastos individuais, tudo funciona normalmente, desde que, é claro, você tenha seu próprio Dojo. Transações Stonewall normais (e não Stonewall x2) funcionam sem nenhum problema.
 
 Comentários no Twitter destacaram que a privacidade oferecida por uma transação Stonewall pode agora estar reduzida. O valor agregado de uma transação Stonewall reside no fato de ser indistinguível de uma transação Stonewall x2 em termos de estrutura. Quando um analista encontra esse padrão específico, ele não pode determinar se é um Stonewall padrão com um único usuário ou um Stonewall x2 envolvendo dois usuários. No entanto, como veremos nos parágrafos seguintes, realizar transações Stonewall x2 tornou-se mais complexo devido à indisponibilidade do Soroban. Alguns, portanto, pensam que um analista pode agora assumir que qualquer transação com essa estrutura é um Stonewall normal. Pessoalmente, não compartilho dessa suposição. Embora as transações Stonewall x2 possam ser menos frequentes (e eu acho que já eram antes deste incidente), o fato de ainda serem possíveis pode invalidar uma análise inteira baseada na suposição de que não são.
-**[-> Saiba mais sobre transações Stonewall.](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)**
+**[-> Saiba mais sobre transações Stonewall.](https://planb.academy/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)**
 Quanto ao Ricochet, não consegui verificar se o serviço ainda está operacional, por não possuir um Dojo no Testnet, e prefiro não arriscar gastar `100 000 sats` em direção a uma carteira que poderia ser controlada pelas autoridades. Se você teve a oportunidade de testar essa ferramenta recentemente, convido você a entrar em contato comigo para que possamos atualizar este artigo.
 
-Se você precisar usar o Ricochet, esteja ciente de que sempre pode realizar essa operação manualmente com qualquer software de carteira. Para aprender a realizar os vários saltos manualmente de forma adequada, recomendo consultar este outro artigo: [**RICOCHET**](https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589).
+Se você precisar usar o Ricochet, esteja ciente de que sempre pode realizar essa operação manualmente com qualquer software de carteira. Para aprender a realizar os vários saltos manualmente de forma adequada, recomendo consultar este outro artigo: [**RICOCHET**](https://planb.academy/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589).
 
 A ferramenta JoinBot não está mais operacional, pois dependia inteiramente da participação de uma carteira gerenciada pelo Samourai.
 
@@ -43,9 +43,9 @@ Quanto a outros tipos de transações colaborativas, frequentemente referidas co
 Após vários testes, parece que o Soroban não está mais funcionando. Para realizar essas transações colaborativas, a troca de dados deve, portanto, ser feita manualmente. Aqui estão duas opções para realizar essa troca:
 - Se você estiver fisicamente próximo ao seu colaborador, você pode escanear os códigos QR sucessivamente;
 - Se você está distante do seu colaborador, pode trocar os PSBTs por um canal de comunicação externo à aplicação. No entanto, tenha cuidado, pois os dados contidos nesses PSBTs são sensíveis em termos de privacidade. Eu recomendo usar um serviço de mensagens criptografadas para garantir a confidencialidade da troca.
-**[-> Saiba mais sobre transações Stonewall x2.](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)**
+**[-> Saiba mais sobre transações Stonewall x2.](https://planb.academy/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)**
 
-**[-> Saiba mais sobre transações Stowaway.](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)**
+**[-> Saiba mais sobre transações Stowaway.](https://planb.academy/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)**
 
 Quanto ao Whirlpool, o protocolo parece não funcionar mais, mesmo para usuários que possuem seu próprio Dojo. Tenho monitorado meu RoninDojo nos últimos dias e tentado algumas manipulações básicas, mas o CLI do Whirlpool não conseguiu se conectar desde o desligamento do servidor.
 
@@ -145,7 +145,7 @@ Se você está usando um software diferente do Sparrow, como o Electrum, para re
 - Premix: `m/84'/0'/2147483645'`
 - Postmix: `m/84'/0'/2147483646'`
 
-Você agora tem acesso aos seus bitcoins no Sparrow. Se precisar de ajuda usando o Sparrow Wallet, você também pode conferir [nosso tutorial dedicado](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d).
+Você agora tem acesso aos seus bitcoins no Sparrow. Se precisar de ajuda usando o Sparrow Wallet, você também pode conferir [nosso tutorial dedicado](https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d).
 
 Eu também recomendo importar manualmente os rótulos que você tinha associado com seus UTXOs no Samourai. Isso permitirá que você realize um controle eficaz de moedas no Sparrow posteriormente.
 
@@ -201,7 +201,7 @@ Se você estiver usando outro software como o Electrum para recuperar sua cartei
 - Premix: `m/84'/0'/2147483645'`
 - Postmix: `m/84'/0'/2147483646'`
 
-Agora você tem acesso aos seus bitcoins no Sparrow. Se precisar de ajuda para usar o Sparrow Wallet, você também pode consultar [nosso tutorial dedicado](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d).
+Agora você tem acesso aos seus bitcoins no Sparrow. Se precisar de ajuda para usar o Sparrow Wallet, você também pode consultar [nosso tutorial dedicado](https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d).
 
 Eu também recomendo importar manualmente os rótulos que você havia associado aos seus UTXOs no Samourai. Isso permitirá que você realize um controle eficaz de moedas no Sparrow posteriormente.
 

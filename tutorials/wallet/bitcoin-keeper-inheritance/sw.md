@@ -17,7 +17,7 @@ Mafunzo haya ya video yanakuelekeza katika kusanidi na kutumia Bitcoin Keeper Wa
 
 Ili kuona mafunzo kamili ya Bitcoin Keeper Wallet, tazama mafunzo hapa:
 
-https://planb.network/tutorials/wallet/mobile/bitcoin-keeper-7f2a160b-10b6-4cc5-8820-514ee2eb1599
+https://planb.academy/tutorials/wallet/mobile/bitcoin-keeper-7f2a160b-10b6-4cc5-8820-514ee2eb1599
 
 Angalia hapa viungo vingine muhimu:
 
@@ -26,4 +26,4 @@ Angalia hapa viungo vingine muhimu:
 - Tapsigner [Video](youtube.com/watch?v=xKHy1HMw5iU)
 
 
-**Kumbuka:** Mafunzo haya ni rasimu ya Kiingereza pekee, bado tunahitaji mtu kuandika mwongozo wa kina kuhusu somo hili. Ikiwa wewe ndiye huyo, tafadhali wasiliana nasi kwenye [Telegram](https://t.me/PlanBNetwork_ContentBuilder/325) au kwenye [GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content)
+**Kumbuka:** Mafunzo haya ni rasimu ya Kiingereza pekee, bado tunahitaji mtu kuandika mwongozo wa kina kuhusu somo hili. Ikiwa wewe ndiye huyo, tafadhali wasiliana nasi kwenye [Telegram](https://t.me/PlanBNetwork_ContentBuilder/325) au kwenye [GitHub](https://github.com/Plan ₿ Academy/Bitcoin-educational-content)

@@ -20,7 +20,7 @@ RGB Contract itunganijwe nk’imashini y’igihugu y’iterambere. Bitangura na 
 Kugira ngo umenye vyinshi ku bijanye n’ingene umurongo wa RGB ukora, ndagusavye gufata iyi nyigisho yuzuye:
 
 
-https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 
 Intumbero y'imbere ya RGB ishingiye ku masomero ya Rust mwebwe nk'abahinguzi mushobora kwinjiza mu migambi yanyu kugira ngo mucunge igice ca *Client-side Validation*. Ikindi, umugwi wa LNP/BP uriko urakora ibijanye n’ugufatanya ibitabo vy’izindi ndimi, ariko ivyo ntibiraheza. Ikindi, ibindi bigo nka Bitfinex biriko birategura ibirundo vyavyo vy’ubufatanye, ariko ivyo tuzobivuga mu yindi nyigisho. Kugeza ubu, `RGB` CLI ni yo nzira yemewe, naho yoba iguma idasukuye cane.
 
@@ -186,8 +186,8 @@ Aha ni akarorero ka dosiye ya YAML yo kurema:
 interface: RGB20Fixed
 globals:
 spec:
-ticker: PBN
-name: Plan B Network
+ticker: Plan ₿ Academy
+name: Plan ₿ Academy
 details: "Pay attention: the asset has no value"
 precision: 2
 terms:
@@ -243,7 +243,7 @@ rgb contracts
 ![RGB-CLI](assets/fr/07.webp)
 
 
-Hanyuma, itegeko rikurikira ryerekana ibihugu vyo kw’isi yose (izina, ikimenyetso, Supply...) n’urutonde rw’ibihugu vy’ubutunzi, ni ukuvuga ivy’ugutanga (nk’akarorero, ibimenyetso vy’imiliyoni 1 `PBN` bisobanuwe muri UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
+Hanyuma, itegeko rikurikira ryerekana ibihugu vyo kw’isi yose (izina, ikimenyetso, Supply...) n’urutonde rw’ibihugu vy’ubutunzi, ni ukuvuga ivy’ugutanga (nk’akarorero, ibimenyetso vy’imiliyoni 1 `Plan ₿ Academy` bisobanuwe muri UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
 
 
 ```bash
@@ -421,4 +421,4 @@ Ubu urazi gutanga no gutanga RGB Contract. Iyo ubonye iyi nyigisho ari ngirakama
 Ndasaba kandi iyi yindi nyigisho aho ndasigura ingene wotanguza urudodo rw’umuravyo ruhuye na RGB ku bimenyetso vya Exchange hafi mu kanya nk’ako gukubita:
 
 
-https://planb.network/tutorials/node/others/rln-ffc02528-329b-4e16-bd83-873d0299feea
+https://planb.academy/tutorials/node/others/rln-ffc02528-329b-4e16-bd83-873d0299feea

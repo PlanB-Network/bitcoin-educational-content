@@ -18,4 +18,4 @@ I den här videohandledningen går du igenom hur du ställer in och använder Bi
 För att ladda ner Keeper se [här](bitcoinkeeper.app)
 
 
-**Notera: ** Denna handledning är bara ett engelskt utkast, vi behöver fortfarande någon som skriver en omfattande guide om detta ämne. Om du är den, vänligen kontakta oss på vårt [Telegram](https://t.me/PlanBNetwork_ContentBuilder/325) eller på [GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content)
+**Notera: ** Denna handledning är bara ett engelskt utkast, vi behöver fortfarande någon som skriver en omfattande guide om detta ämne. Om du är den, vänligen kontakta oss på vårt [Telegram](https://t.me/PlanBNetwork_ContentBuilder/325) eller på [GitHub](https://github.com/Plan ₿ Academy/Bitcoin-educational-content)

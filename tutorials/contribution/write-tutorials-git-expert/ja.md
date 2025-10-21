@@ -6,7 +6,7 @@ description: プランのチュートリアルを提供する上級者向けガ�
 
 新しいチュートリアルを追加するためのこのチュートリアルに従う前に、いくつかの予備ステップを完了する必要があります。まだ完了していない場合は、まずこの入門チュートリアルをご覧ください：
 
-https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+https://planb.academy/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
 あなたはすでに持っている：
 
@@ -20,11 +20,11 @@ https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-91
 
 - **中級（GitHub Desktop）**：
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 - **初心者向け（ウェブインターフェース）**：
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 
 ## 推奨ツール
 
@@ -61,7 +61,7 @@ YAMLファイルの編集 ：
 ### 1 - ローカル環境を設定する
 
 
-- GitHub 上の Plan ₿ Network リポジトリ](https://github.com/PlanB-Network/bitcoin-educational-content) をフォークする必要があります。
+- GitHub 上の Plan ₿ Academy リポジトリ](https://github.com/Plan ₿ Academy/bitcoin-educational-content) をフォークする必要があります。
 - フォークのメインブランチ (`dev`) をソースリポジトリと同期させます。
 - ローカルのクローンを更新する。
 
@@ -70,7 +70,7 @@ YAMLファイルの編集 ：
 git clone https://github.com/<votre-nom-utilisateur>/bitcoin-educational-content.git
 cd bitcoin-educational-content
 # Ajouter le dépôt source en tant que remote upstream
-git remote add upstream https://github.com/PlanB-Network/bitcoin-educational-content.git
+git remote add upstream https://github.com/Plan ₿ Academy/bitcoin-educational-content.git
 # Récupérer les dernières modifications depuis le dépôt source
 git fetch upstream
 # Se positionner sur la branche principale 'dev'
@@ -99,7 +99,7 @@ git push -u origin tuto-green-wallet-loic
 
 ### 3 - チュートリアルのドキュメントを追加する
 
-***注：*** ステップ 3 と 4 は、[私の Python GUI スクリプト](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/scripts/tutorial-related/new-tutorial-creation) を使って自動化できます。ローカルクローンのフォルダから直接実行し、GUI上で必要なフィールドを埋めてください。インストールと使用方法の詳細については、[README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md)を参照してください。
+***注：*** ステップ 3 と 4 は、[私の Python GUI スクリプト](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/scripts/tutorial-related/new-tutorial-creation) を使って自動化できます。ローカルクローンのフォルダから直接実行し、GUI上で必要なフィールドを埋めてください。インストールと使用方法の詳細については、[README](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md)を参照してください。
 
 手動で行う場合は、以下の手順に従ってください：
 
@@ -166,11 +166,11 @@ proofreading:
 
 - **id**: チュートリアルを一意に識別する UUID (_Universally Unique Identifier_)。 [オンラインツール](https://www.uuidgenerator.net/version4)を使用して生成できます。 この UUID はランダムである必要があり、プラットフォーム上の他の UUID と競合しないことが条件です;
 
-- **project_id**: チュートリアルで紹介されているツールの背後にある企業または組織の UUID [プロジェクトのリストから](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects)。 たとえば、Green Wallet ソフトウェアに関するチュートリアルを作成している場合、この `project_id` は次のファイルにあります: `bitcoin-educational-content/resources/projects/blockstream/project.yml`。 Plan ₿ Network は、Bitcoin または関連プロジェクトに取り組んでいるすべての企業および組織のデータベースを維持しているため、この情報はチュートリアルの YAML ファイルに追加されます。 チュートリアルに関連するエンティティの `project_id` を追加することで、2 つの要素間のリンクを作成できます;
+- **project_id**: チュートリアルで紹介されているツールの背後にある企業または組織の UUID [プロジェクトのリストから](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/resources/projects)。 たとえば、Green Wallet ソフトウェアに関するチュートリアルを作成している場合、この `project_id` は次のファイルにあります: `bitcoin-educational-content/resources/projects/blockstream/project.yml`。 Plan ₿ Academy は、Bitcoin または関連プロジェクトに取り組んでいるすべての企業および組織のデータベースを維持しているため、この情報はチュートリアルの YAML ファイルに追加されます。 チュートリアルに関連するエンティティの `project_id` を追加することで、2 つの要素間のリンクを作成できます;
 
-- **tags**: チュートリアルの内容に関連する 2 または 3 の適切なキーワード、[Plan ₿ Network のタグリスト](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) からのみ選択可能;
+- **tags**: チュートリアルの内容に関連する 2 または 3 の適切なキーワード、[Plan ₿ Academy のタグリスト](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) からのみ選択可能;
 
-- **category**: Plan ₿ Network サイトの構造に従った、チュートリアルの内容に対応するサブカテゴリ（例：ウォレットの場合：`desktop`、`hardware`、`mobile`、`backup`）;
+- **category**: Plan ₿ Academy サイトの構造に従った、チュートリアルの内容に対応するサブカテゴリ（例：ウォレットの場合：`desktop`、`hardware`、`mobile`、`backup`）;
 
 - **level**: チュートリアルの難易度レベル、以下から選択：
     - `beginner`
@@ -178,7 +178,7 @@ proofreading:
     - `advanced`
     - `expert`
 
-- **professor_id**: [あなたの教授プロフィール](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors) に表示される `professor_id` (UUID);
+- **professor_id**: [あなたの教授プロフィール](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/professors) に表示される `professor_id` (UUID);
 
 - **original_language**: チュートリアルの元の言語（例：`fr`、`en` など）;
 
@@ -191,7 +191,7 @@ proofreading:
 
 教師IDの詳細については、対応するチュートリアルを参照してください：
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 ```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143

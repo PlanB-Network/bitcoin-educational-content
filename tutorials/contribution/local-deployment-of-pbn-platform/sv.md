@@ -1,6 +1,6 @@
 ---
-name: Guide till lokal drift av Plan ₿ Network-plattformen
-description: Hur kan du köra Plan ₿ Network i en lokal miljö för att testa mitt innehållsbidrag eller korrekturläsning/granskning av utbildningsinnehåll på Plan ₿ Network?
+name: Guide till lokal drift av Plan ₿ Academy-plattformen
+description: Hur kan du köra Plan ₿ Academy i en lokal miljö för att testa mitt innehållsbidrag eller korrekturläsning/granskning av utbildningsinnehåll på Plan ₿ Academy?
 ---
 ![github](assets/cover.webp)
 
@@ -8,7 +8,7 @@ description: Hur kan du köra Plan ₿ Network i en lokal miljö för att testa 
 ## Sammanfattning
 
 
-Denna handledning innehåller steg-för-steg-instruktioner för att konfigurera Bitcoin Learning Management System från Plan ₿ Network på din lokala maskin med hjälp av Docker, dummy-nycklar och anpassade arkivkonfigurationer.
+Denna handledning innehåller steg-för-steg-instruktioner för att konfigurera Bitcoin Learning Management System från Plan ₿ Academy på din lokala maskin med hjälp av Docker, dummy-nycklar och anpassade arkivkonfigurationer.
 
 
 Om du inte förstod delen ovan, oroa dig inte - den här handledningen är för dig!
@@ -38,13 +38,13 @@ Denna handledning innehåller detaljerade steg för att konfigurera plattformen,
 Klona arkivet till din lokala maskin:
 
 
-git clone [https://github.com/PlanB-Network/Bitcoin-learning-management-system](https://github.com/PlanB-Network/Bitcoin-learning-management-system￼cd)
+git clone [https://github.com/Plan ₿ Academy/Bitcoin-learning-management-system](https://github.com/Plan ₿ Academy/Bitcoin-learning-management-system￼cd)
 
-[cd](https://github.com/PlanB-Network/Bitcoin-learning-management-system￼cd) Bitcoin-system för hantering av inlärning
+[cd](https://github.com/Plan ₿ Academy/Bitcoin-learning-management-system￼cd) Bitcoin-system för hantering av inlärning
 
 
 ```bash
-git clone https://github.com/PlanB-Network/bitcoin-learning-management-system
+git clone https://github.com/Plan ₿ Academy/bitcoin-learning-management-system
 cd bitcoin-learning-management-system
 ```
 
@@ -147,7 +147,7 @@ När containrarna körs kan du komma åt frontend via:
 \[<http://localhost:8181](http://localhost:8181)>
 
 
-![Plan ₿ Network Local](assets/en/1.webp)
+![Plan ₿ Academy Local](assets/en/1.webp)
 
 
 Observera: att appen automatiskt laddas om om du ändrar några källfiler.
@@ -196,7 +196,7 @@ curl -X POST http://localhost:3000/api/github/sync
 ```
 
 
-![Plan ₿ Network Local](assets/en/2.webp)
+![Plan ₿ Academy Local](assets/en/2.webp)
 
 
 

@@ -25,4 +25,4 @@ Tässä opetusvideossa opit:
 Tämän videon loppuun mennessä sinulla on täydet valmiudet käyttää Kruxia turvallisena, itse tehdyksi vaihtoehdoksi omaan säilytykseen.
 
 
-**Huomautus:** Tämä opetusohjelma on vain englanninkielinen luonnos, tarvitsemme vielä jonkun kirjoittamaan laajan oppaan tästä aiheesta. Jos olet se henkilö, ota yhteyttä meihin [Telegramissa](https://t.me/PlanBNetwork_ContentBuilder/325) tai [GitHubissa](https://github.com/PlanB-Network/Bitcoin-educational-content)
+**Huomautus:** Tämä opetusohjelma on vain englanninkielinen luonnos, tarvitsemme vielä jonkun kirjoittamaan laajan oppaan tästä aiheesta. Jos olet se henkilö, ota yhteyttä meihin [Telegramissa](https://t.me/PlanBNetwork_ContentBuilder/325) tai [GitHubissa](https://github.com/Plan ₿ Academy/Bitcoin-educational-content)

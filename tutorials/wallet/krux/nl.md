@@ -25,4 +25,4 @@ In deze instructievideo leer je het volgende:
 Aan het einde van deze video ben je volledig uitgerust om Krux te gebruiken als een veilig, doe-het-zelf alternatief voor zelfbewaarneming.
 
 
-**Note:** Deze tutorial is slechts een Engels ontwerp, we hebben nog steeds iemand nodig die een uitgebreide gids over dit onderwerp schrijft. Als jij die iemand bent, neem dan contact met ons op via [Telegram](https://t.me/PlanBNetwork_ContentBuilder/325) of [GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content)
+**Note:** Deze tutorial is slechts een Engels ontwerp, we hebben nog steeds iemand nodig die een uitgebreide gids over dit onderwerp schrijft. Als jij die iemand bent, neem dan contact met ons op via [Telegram](https://t.me/PlanBNetwork_ContentBuilder/325) of [GitHub](https://github.com/Plan ₿ Academy/Bitcoin-educational-content)

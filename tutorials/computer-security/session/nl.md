@@ -145,7 +145,7 @@ Deze zin werkt op dezelfde manier als de Mnemonic zinnen die gebruikt worden in 
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 **Let op**: In tegenstelling tot de Mnemonic zinnen die gebruikt worden op Bitcoin portemonnees, moet je bij Session **elk woord absoluut in zijn geheel opslaan**. De eerste 4 letters zijn niet genoeg!
 
@@ -299,4 +299,4 @@ Ik raad ook deze andere tutorial aan, waarin ik Threema presenteer, een ander in
 
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74

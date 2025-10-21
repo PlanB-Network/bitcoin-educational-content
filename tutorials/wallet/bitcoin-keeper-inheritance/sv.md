@@ -17,7 +17,7 @@ Denna videohandledning går igenom hur du ställer in och använder Bitcoin Keep
 
 För att se den fullständiga handledningen för Bitcoin Keeper Wallet, se handledningen här:
 
-https://planb.network/tutorials/wallet/mobile/bitcoin-keeper-7f2a160b-10b6-4cc5-8820-514ee2eb1599
+https://planb.academy/tutorials/wallet/mobile/bitcoin-keeper-7f2a160b-10b6-4cc5-8820-514ee2eb1599
 
 Kolla in andra relevanta länkar här:
 
@@ -26,4 +26,4 @@ Kolla in andra relevanta länkar här:
 - Tapsigner [Video](youtube.com/watch?v=xKHy1HMw5iU)
 
 
-**Notera: ** Denna handledning är bara ett engelskt utkast, vi behöver fortfarande någon som skriver en omfattande guide om detta ämne. Om du är den, vänligen kontakta oss på vårt [Telegram](https://t.me/PlanBNetwork_ContentBuilder/325) eller på [GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content)
+**Notera: ** Denna handledning är bara ett engelskt utkast, vi behöver fortfarande någon som skriver en omfattande guide om detta ämne. Om du är den, vänligen kontakta oss på vårt [Telegram](https://t.me/PlanBNetwork_ContentBuilder/325) eller på [GitHub](https://github.com/Plan ₿ Academy/Bitcoin-educational-content)

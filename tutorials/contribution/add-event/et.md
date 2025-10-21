@@ -10,10 +10,10 @@ Kui soovite PlanB võrgustiku saidile lisada Bitcoin'i konverentsi, et suurendad
 ![event](assets/01.webp)
 - Esiteks peate omama kontot GitHubis. Kui te ei tea, kuidas kontot luua, oleme teinud üksikasjaliku õpetuse, mis juhendab teid.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
-- Minge [PlanB-le pühendatud GitHubi andmerepositooriumisse](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) jaotisesse `resources/conference/`:
+- Minge [PlanB-le pühendatud GitHubi andmerepositooriumisse](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/resources/conference) jaotisesse `resources/conference/`:
 ![event](assets/02.webp)
 - Klõpsake paremal üleval nupul `Add file`, seejärel `Create new file`:
 ![event](assets/03.webp)
@@ -84,7 +84,7 @@ märksõnad:
 ![üritus](assets/09.webp)
 Kui teie organisatsioonil ei ole veel "*project*" identifikaatorit, saate selle lisada, järgides seda teist õpetust.
 
-https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
+https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 
 

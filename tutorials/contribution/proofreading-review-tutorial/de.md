@@ -1,25 +1,25 @@
 ---
 name: Korrekturlesen oder Überprüfen von Inhalten
-description: Wie kann man sich an der Überprüfung von Bildungsinhalten im Plan ₿ Network beteiligen?
+description: Wie kann man sich an der Überprüfung von Bildungsinhalten im Plan ₿ Academy beteiligen?
 ---
 ![github](assets/cover.webp)
 
 ## Zusammenfassung
 
-Wenn Sie sich an der Überprüfung und Korrektur von Inhalten für Plan ₿ Network beteiligen möchten, treten Sie [unserer Telegram-Gruppe] (https://t.me/PlanBNetwork_ContentBuilder) bei, die für Beiträge vorgesehen ist. Stellen Sie sich kurz vor und geben Sie dann den Inhalt, den Sie überprüfen möchten, und die Sprache an. Nehmen Sie Ihre Korrekturen an einem Arbeitszweig vor und reichen Sie einen PR ein, sobald Ihre Überprüfung abgeschlossen ist.
+Wenn Sie sich an der Überprüfung und Korrektur von Inhalten für Plan ₿ Academy beteiligen möchten, treten Sie [unserer Telegram-Gruppe] (https://t.me/PlanBNetwork_ContentBuilder) bei, die für Beiträge vorgesehen ist. Stellen Sie sich kurz vor und geben Sie dann den Inhalt, den Sie überprüfen möchten, und die Sprache an. Nehmen Sie Ihre Korrekturen an einem Arbeitszweig vor und reichen Sie einen PR ein, sobald Ihre Überprüfung abgeschlossen ist.
 
 Falls Sie den obigen Teil nicht verstanden haben, keine Sorge - diese Anleitung ist für Sie!
 
 ---
-## Was ist Plan ₿ Network?
+## Was ist Plan ₿ Academy?
 
-Plan ₿ Network ist eine Plattform, um durch zahlreiche Kurse und Tutorials für jedermann etwas über Bitcoin zu lernen. Derzeit sind alle unsere Inhalte Open-Source, gehostet auf einem GitHub-Repository und offen für Beiträge zur Überprüfung und Erstellung von Inhalten.
+Plan ₿ Academy ist eine Plattform, um durch zahlreiche Kurse und Tutorials für jedermann etwas über Bitcoin zu lernen. Derzeit sind alle unsere Inhalte Open-Source, gehostet auf einem GitHub-Repository und offen für Beiträge zur Überprüfung und Erstellung von Inhalten.
 
-Plan ₿ Network will der öffentliche Platz des Bitcoin-Cyberspace werden, der Bitcoin-Gemeinschaften weltweit verbindet und fördert.
+Plan ₿ Academy will der öffentliche Platz des Bitcoin-Cyberspace werden, der Bitcoin-Gemeinschaften weltweit verbindet und fördert.
 
 ## Warum ein Beitrag?
 
-Plan ₿ Network ist grundsätzlich mehrsprachig, denn unser Ziel ist es, Bitcoin-Ressourcen für jeden weltweit zugänglich zu machen. Wir glauben, dass Sprache kein Hindernis für souveränes Geld sein sollte.
+Plan ₿ Academy ist grundsätzlich mehrsprachig, denn unser Ziel ist es, Bitcoin-Ressourcen für jeden weltweit zugänglich zu machen. Wir glauben, dass Sprache kein Hindernis für souveränes Geld sein sollte.
 
 Um dies zu erreichen, verwenden wir einen Mensch x KI-Ansatz. Mit unserem [Programm] (https://github.com/Asi0Flammeus/LLM-Translator) können wir unsere Inhalte automatisch in viele Sprachen übersetzen. Wir benötigen jedoch einen fließend sprechenden Menschen, der die Inhalte überprüft, um sicherzustellen, dass sie verständlich und frei von unangemessenen Begriffen sind.
 
@@ -33,20 +33,20 @@ Sie müssen kein GitHub-Experte sein, um Inhalte zu überprüfen. Obwohl es imme
 
 Wenn Sie jedoch mit Git und GitHub nicht vertraut sind und mehr darüber erfahren möchten, können Sie sich unseren Einführungsartikel über diese Tools ansehen:
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 ## 1. Ein Konto erstellen
 
 
 - Erstellen Sie ein Konto auf [GitHub] (https://github.com/), um Beiträge zu leisten. Wenn Sie eine Anleitung zur Erstellung Ihres GitHub-Kontos benötigen, finden Sie hier eine ausführliche Anleitung:
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 - Sie benötigen außerdem ein Konto bei der Messaging-App [Telegram] (https://telegram.org/).
 
 ## 2. Der Telegram-Gruppe beitreten
 
 
-- Treten Sie [der PBN Content Builder Gruppe] (https://t.me/PlanBNetwork_ContentBuilder) auf Telegram bei.
+- Treten Sie [der Plan ₿ Academy Content Builder Gruppe] (https://t.me/PlanBNetwork_ContentBuilder) auf Telegram bei.
 
 ![REVIEW](assets/fr/01.webp)
 
@@ -82,7 +82,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 ![REVIEW](assets/fr/06.webp)
 
-NB. Es wird empfohlen, den Text im Code-Fenster zu überprüfen, wobei der Originalinhalt in einem separaten Fenster angezeigt wird. Sie können den Text zum Beispiel auf der Website des Plan ₿ Network oder in der GitHub-Vorschau in einem Browser-Tab anzeigen. Verwenden Sie die Tastenkombination "Strg + F", um Fehler aufzuspüren und Korrekturen in der Codeansicht vorzunehmen.
+NB. Es wird empfohlen, den Text im Code-Fenster zu überprüfen, wobei der Originalinhalt in einem separaten Fenster angezeigt wird. Sie können den Text zum Beispiel auf der Website des Plan ₿ Academy oder in der GitHub-Vorschau in einem Browser-Tab anzeigen. Verwenden Sie die Tastenkombination "Strg + F", um Fehler aufzuspüren und Korrekturen in der Codeansicht vorzunehmen.
 
 ## 4. Änderungen vornehmen
 
@@ -113,7 +113,7 @@ NB. Es wird empfohlen, den Text im Code-Fenster zu überprüfen, wobei der Origi
 
 - Wenn Sie Ihre Prüfung noch nicht abgeschlossen haben und Ihre Arbeit später fortsetzen möchten, können Sie sie einfach beenden.
 - Solange Sie Ihre Änderungen übertragen haben, werden sie auf Ihrem GitHub-Fork gespeichert.
-- Um Ihre Arbeit fortzusetzen, gehen Sie zu Ihrem Fork des Plan ₿ Network Content Repository über Ihr GitHub-Profil.
+- Um Ihre Arbeit fortzusetzen, gehen Sie zu Ihrem Fork des Plan ₿ Academy Content Repository über Ihr GitHub-Profil.
 
 ![REVIEW](assets/fr/14.webp)
 
@@ -142,12 +142,12 @@ Um mehr über die Richtlinien zu erfahren, die bei der Korrekturlesung im Plan �
 
 ## 7. Warten Sie auf die Überprüfung
 
-- Herzlichen Glückwunsch, Ihr PR wurde eingereicht! Sie können den Fortschritt in der Registerkarte "Pull Requests" auf [Plan ₿ Network's GitHub repository] (https://github.com/PlanB-Network/bitcoin-educational-content/pulls) verfolgen:
+- Herzlichen Glückwunsch, Ihr PR wurde eingereicht! Sie können den Fortschritt in der Registerkarte "Pull Requests" auf [Plan ₿ Academy's GitHub repository] (https://github.com/Plan ₿ Academy/bitcoin-educational-content/pulls) verfolgen:
 
 ![REVIEW](assets/fr/12.webp)
 
 
-- Herzlichen Dank für Ihren Beitrag! Nach der Genehmigung wird sich ein Mitglied des Plan ₿ Network-Teams mit Ihnen in Verbindung setzen, um Ihnen Ihre Belohnung zukommen zu lassen. \**Auszahlungen erfolgen ausschließlich über das Lightning Network\**.
+- Herzlichen Dank für Ihren Beitrag! Nach der Genehmigung wird sich ein Mitglied des Plan ₿ Academy-Teams mit Ihnen in Verbindung setzen, um Ihnen Ihre Belohnung zukommen zu lassen. \**Auszahlungen erfolgen ausschließlich über das Lightning Network\**.
 - Wenn Sie wieder anfangen möchten, kehren Sie zu Schritt 2 zurück und senden Sie eine neue Nachricht in der Telegram-Gruppe, um weiterhin zu anderen Inhalten beizutragen. Stellen Sie sicher, dass Sie Ihren Fork synchronisieren, bevor Sie einen neuen Arbeitszweig erstellen. Gehen Sie dazu auf die Homepage Ihrer Abspaltung, wählen Sie den Hauptzweig namens `dev` (vgl. \**A\**) und klicken Sie dann auf die Schaltfläche "Abspaltung synchronisieren" (vgl. \**B\**). Wenn Aktualisierungen für Ihren Zweig verfügbar sind, erscheint eine Schaltfläche "Zweig aktualisieren". Klicken Sie einfach auf diese Schaltfläche, um die Aktualisierung durchzuführen.
 
 ![REVIEW](assets/fr/16.webp)

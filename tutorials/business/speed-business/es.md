@@ -94,13 +94,13 @@ Cuando desactive el modo de prueba, deberá configurar su cartera de retirada.
 
 
 
-Si aún no tienes una Bitcoin y/o una Lightning Wallet, te recomendamos que eches un vistazo a nuestros tutoriales sobre [monederos móviles](https://planb.network/tutorials/wallet).
+Si aún no tienes una Bitcoin y/o una Lightning Wallet, te recomendamos que eches un vistazo a nuestros tutoriales sobre [monederos móviles](https://planb.academy/tutorials/wallet).
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 ⚠️ **IMPORTANTE**: Cuando configure su cartera, elija el tipo **BTC (On-Chain)** cuando reciba grandes cantidades, del orden de miles de euros, para garantizar una confirmación fiable en Bitcoin, y el tipo **LN Address** cuando desee recibir micropagos instantáneos en su negocio.
 
@@ -435,4 +435,4 @@ Ya tiene un buen conocimiento de Speed, integre Bitcoin en su negocio y desarrol
 
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

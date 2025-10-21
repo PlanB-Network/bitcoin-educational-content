@@ -42,7 +42,7 @@ StashPay یک پروژه متن‌باز است که با استفاده از Re
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 با کلیک بر روی آیکون "تنظیمات"، به تنظیمات StashPay دسترسی پیدا کنید، سپس بر روی گزینه **ایجاد پشتیبان** کلیک کنید. سپس نمایش عبارات بازیابی را تأیید کنید. عبارات بازیابی خود را در کلیپ‌بورد گوشی خود کپی نکنید، زیرا ممکن است برای برنامه‌های جعلی دیگر که بر روی موبایل شما نصب شده‌اند، قابل دسترسی باشند.
 
@@ -88,7 +88,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 
-https://planb.network/tutorials/wallet/mobile/misty-breez-738ced2a-0764-4d7f-a150-ec0ce84a9d25
+https://planb.academy/tutorials/wallet/mobile/misty-breez-738ced2a-0764-4d7f-a150-ec0ce84a9d25
 
 ### ارسال بیت‌کوین با StashPay
 
@@ -106,7 +106,7 @@ https://planb.network/tutorials/wallet/mobile/misty-breez-738ced2a-0764-4d7f-a15
 
 
 
-https://planb.network/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
+https://planb.academy/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
 
 با این حال، Breez SDK حداقل مقداری را تعیین می‌کند که می‌توانید بیت‌کوین‌ها را به یک Address در زنجیره اصلی ارسال کنید.
 
@@ -168,4 +168,4 @@ StashPay به شما اجازه می‌دهد تا Exchange ساتوشی را ب
 
 
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f

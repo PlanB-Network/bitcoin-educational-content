@@ -12,13 +12,13 @@ Nếu bạn muốn đóng góp cho Mạng lưới PlanB, bạn sẽ cần sử d
 
 Nếu bạn không biết GitHub là gì, hoặc nếu bạn muốn tìm hiểu thêm về các thuật ngữ kỹ thuật liên quan đến Git và GitHub, tôi khuyên bạn đọc bài viết giới thiệu của chúng tôi để làm quen với những khái niệm này.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
 - Để bắt đầu, rõ ràng bạn sẽ cần một tài khoản GitHub. Nếu bạn đã có một, bạn có thể đăng nhập, nếu không, bạn có thể sử dụng hướng dẫn của chúng tôi để tạo một tài khoản mới.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -43,15 +43,15 @@ Có rất nhiều phần mềm chuyên dụng để chỉnh sửa các tệp Mar
 - Cài đặt Obsidian, khởi chạy phần mềm, chọn ngôn ngữ của bạn, sau đó nhấp vào `Quick Start`: ![github-desktop](assets/8.webp)
 - Bạn sẽ đến với phần mềm Obsidian. Hiện tại, bạn chưa mở tệp nào: ![github-desktop](assets/9.webp)
 
-## Bước 3: Fork kho lưu trữ PlanB Network
+## Bước 3: Fork kho lưu trữ Plan ₿ Academy
 
-- Truy cập vào kho dữ liệu PlanB Network tại địa chỉ sau: [https://github.com/PlanB-Network/bitcoin-educational-content](https://github.com/PlanB-Network/bitcoin-educational-content): ![github-desktop](assets/10.webp)
+- Truy cập vào kho dữ liệu Plan ₿ Academy tại địa chỉ sau: [https://github.com/Plan ₿ Academy/bitcoin-educational-content](https://github.com/Plan ₿ Academy/bitcoin-educational-content): ![github-desktop](assets/10.webp)
 - Từ trang này, nhấp vào nút `Fork` ở góc trên bên phải của cửa sổ: ![github-desktop](assets/11.webp)
 - Trong menu tạo mới, bạn có thể để nguyên cài đặt mặc định. Đảm bảo rằng ô `Copy the dev branch only` đã được chọn, sau đó nhấp vào nút `Create fork`: ![github-desktop](assets/12.webp)
-- Bạn sẽ đến với fork của riêng mình của kho lưu trữ PlanB Network: ![github-desktop](assets/13.webp)
+- Bạn sẽ đến với fork của riêng mình của kho lưu trữ Plan ₿ Academy: ![github-desktop](assets/13.webp)
 Fork này tạo thành một kho lưu trữ riêng biệt từ bản gốc, mặc dù hiện tại nó vẫn chứa cùng một dữ liệu. Bây giờ bạn sẽ làm việc trên kho lưu trữ mới này.
 
-Chúng ta đã, theo một cách nào đó, tạo một bản sao của kho lưu trữ nguồn PlanB Network. Fork của bạn (bản sao) và kho lưu trữ gốc giờ đây sẽ phát triển độc lập với nhau. Trên kho lưu trữ gốc, các đóng góp viên khác có thể thêm dữ liệu mới, trong khi bạn, trên fork của mình, sẽ tiến hành các chỉnh sửa của riêng mình.
+Chúng ta đã, theo một cách nào đó, tạo một bản sao của kho lưu trữ nguồn Plan ₿ Academy. Fork của bạn (bản sao) và kho lưu trữ gốc giờ đây sẽ phát triển độc lập với nhau. Trên kho lưu trữ gốc, các đóng góp viên khác có thể thêm dữ liệu mới, trong khi bạn, trên fork của mình, sẽ tiến hành các chỉnh sửa của riêng mình.
 Để duy trì sự nhất quán giữa hai kho lưu trữ này, sẽ cần thiết phải đồng bộ chúng định kỳ để chúng lấy cùng một thông tin. Để gửi các thay đổi của bạn đến kho lưu trữ nguồn, bạn sẽ sử dụng cái gọi là **Pull Request**. Và để tích hợp các thay đổi từ kho lưu trữ nguồn vào fork của bạn, bạn sẽ sử dụng lệnh **Sync fork** có sẵn trên giao diện web của GitHub.
 ![github-desktop](assets/14.webp)
 
@@ -65,12 +65,12 @@ Chúng ta đã, theo một cách nào đó, tạo một bản sao của kho lưu
 ![github-desktop](assets/17.webp)
 - Chờ trong khi GitHub Desktop clone fork của bạn về máy cục bộ:
 ![github-desktop](assets/18.webp)
-- Sau khi sao chép kho lưu trữ, phần mềm sẽ cung cấp cho bạn hai lựa chọn. Bạn phải chọn lựa chọn đầu tiên: `Đóng góp cho dự án mẹ`. Lựa chọn này sẽ cho phép bạn trình bày công việc tương lai của mình như là một đóng góp cho dự án mẹ (`PlanB-Network/bitcoin-educational-content`), và không chỉ là sửa đổi riêng lẻ của bản sao cá nhân của bạn (`[username]/bitcoin-educational-content`). Sau khi lựa chọn được chọn, nhấp vào `Tiếp tục`: ![github-desktop](assets/19.webp)
+- Sau khi sao chép kho lưu trữ, phần mềm sẽ cung cấp cho bạn hai lựa chọn. Bạn phải chọn lựa chọn đầu tiên: `Đóng góp cho dự án mẹ`. Lựa chọn này sẽ cho phép bạn trình bày công việc tương lai của mình như là một đóng góp cho dự án mẹ (`Plan ₿ Academy/bitcoin-educational-content`), và không chỉ là sửa đổi riêng lẻ của bản sao cá nhân của bạn (`[username]/bitcoin-educational-content`). Sau khi lựa chọn được chọn, nhấp vào `Tiếp tục`: ![github-desktop](assets/19.webp)
 - GitHub Desktop của bạn giờ đây đã được cấu hình đúng cách. Bây giờ, bạn có thể để phần mềm mở ở chế độ nền để theo dõi các thay đổi mà chúng tôi sẽ thực hiện.
 ![github-desktop](assets/20.webp)
-Những gì chúng ta đã đạt được ở giai đoạn này là việc tạo ra một bản sao cục bộ của kho lưu trữ của bạn, được lưu trữ trên GitHub. Như một lời nhắc nhở, kho lưu trữ này là một bản sao của kho lưu trữ nguồn của PlanB Network. Bạn sẽ có thể thực hiện các thay đổi đối với bản sao cục bộ này, chẳng hạn như thêm hướng dẫn, bản dịch, hoặc sửa đổi. Một khi những thay đổi này được thực hiện, bạn sẽ sử dụng lệnh **Push origin** để gửi các thay đổi cục bộ của mình lên bản sao của bạn được lưu trữ trên GitHub.
+Những gì chúng ta đã đạt được ở giai đoạn này là việc tạo ra một bản sao cục bộ của kho lưu trữ của bạn, được lưu trữ trên GitHub. Như một lời nhắc nhở, kho lưu trữ này là một bản sao của kho lưu trữ nguồn của Plan ₿ Academy. Bạn sẽ có thể thực hiện các thay đổi đối với bản sao cục bộ này, chẳng hạn như thêm hướng dẫn, bản dịch, hoặc sửa đổi. Một khi những thay đổi này được thực hiện, bạn sẽ sử dụng lệnh **Push origin** để gửi các thay đổi cục bộ của mình lên bản sao của bạn được lưu trữ trên GitHub.
 
-Bạn cũng có thể lấy các thay đổi từ bản sao, ví dụ, trong quá trình đồng bộ hóa với kho lưu trữ của PlanB Network. Để làm điều này, bạn sẽ sử dụng lệnh **Fetch origin** để tải các thay đổi về bản sao cục bộ của mình (bản sao của bạn), và sau đó sử dụng lệnh **Pull origin** để hợp nhất chúng với công việc của mình. Điều này cho phép bạn cập nhật với những phát triển mới nhất của dự án trong khi đóng góp hiệu quả.
+Bạn cũng có thể lấy các thay đổi từ bản sao, ví dụ, trong quá trình đồng bộ hóa với kho lưu trữ của Plan ₿ Academy. Để làm điều này, bạn sẽ sử dụng lệnh **Fetch origin** để tải các thay đổi về bản sao cục bộ của mình (bản sao của bạn), và sau đó sử dụng lệnh **Pull origin** để hợp nhất chúng với công việc của mình. Điều này cho phép bạn cập nhật với những phát triển mới nhất của dự án trong khi đóng góp hiệu quả.
 
 ![github-desktop](assets/21.webp)
 ## Bước 5: Tạo một kho lưu trữ mới trên Obsidian
@@ -81,7 +81,7 @@ Bạn cũng có thể lấy các thay đổi từ bản sao, ví dụ, trong qu�
 - Trình duyệt tệp của bạn sẽ mở ra. Bạn cần tìm và chọn thư mục có tiêu đề `GitHub`, nó nên nằm trong thư mục `Documents` giữa các tệp của bạn. Đường dẫn này tương ứng với đường dẫn bạn thiết lập trong bước 4. Sau khi chọn thư mục, xác nhận lựa chọn của mình. Việc tạo kho lưu trữ của bạn trên Obsidian sau đó sẽ được khởi động trên một trang mới của phần mềm:
 
 ![github-desktop](assets/24.webp)
--> **Chú ý**, điều quan trọng là không chọn thư mục `bitcoin-educational-content` khi tạo một kho lưu trữ mới trên Obsidian. Thay vào đó, hãy chọn thư mục cha, `GitHub`. Nếu bạn chọn thư mục `bitcoin-educational-content`, thư mục cấu hình `.obsidian`, chứa cài đặt Obsidian cục bộ của bạn, sẽ tự động được tích hợp vào kho lưu trữ. Chúng ta muốn tránh điều này, vì không cần thiết phải chuyển cài đặt Obsidian của bạn sang kho lưu trữ của PlanB Network. Một phương án khác là thêm thư mục `.obsidian` vào tệp `.gitignore`, nhưng phương pháp này cũng sẽ thay đổi tệp `.gitignore` của kho lưu trữ nguồn, điều này không mong muốn.
+-> **Chú ý**, điều quan trọng là không chọn thư mục `bitcoin-educational-content` khi tạo một kho lưu trữ mới trên Obsidian. Thay vào đó, hãy chọn thư mục cha, `GitHub`. Nếu bạn chọn thư mục `bitcoin-educational-content`, thư mục cấu hình `.obsidian`, chứa cài đặt Obsidian cục bộ của bạn, sẽ tự động được tích hợp vào kho lưu trữ. Chúng ta muốn tránh điều này, vì không cần thiết phải chuyển cài đặt Obsidian của bạn sang kho lưu trữ của Plan ₿ Academy. Một phương án khác là thêm thư mục `.obsidian` vào tệp `.gitignore`, nhưng phương pháp này cũng sẽ thay đổi tệp `.gitignore` của kho lưu trữ nguồn, điều này không mong muốn.
 
 - Ở phía bên trái của cửa sổ, bạn có thể thấy cây tệp với các kho lưu trữ GitHub khác nhau của bạn đã được sao chép cục bộ.
 - Bằng cách nhấp vào các mũi tên cạnh tên thư mục, bạn có thể mở rộng chúng để truy cập vào các thư mục con của các kho lưu trữ và tài liệu của chúng:
@@ -89,14 +89,14 @@ Bạn cũng có thể lấy các thay đổi từ bản sao, ví dụ, trong qu�
 - Đừng quên thiết lập Obsidian sang chế độ tối: "Ánh sáng thu hút côn trùng" ;)
 
 ## Bước 6: Cài đặt một Trình Biên Tập Mã
-Hầu hết các sửa đổi của bạn sẽ được thực hiện trên các tệp định dạng Markdown (`.md`). Để chỉnh sửa những tài liệu này, bạn có thể sử dụng Obsidian, phần mềm mà chúng ta đã thảo luận trước đó. Tuy nhiên, PlanB Network sử dụng các định dạng tệp khác, và bạn sẽ cần phải chỉnh sửa một số trong số chúng.
+Hầu hết các sửa đổi của bạn sẽ được thực hiện trên các tệp định dạng Markdown (`.md`). Để chỉnh sửa những tài liệu này, bạn có thể sử dụng Obsidian, phần mềm mà chúng ta đã thảo luận trước đó. Tuy nhiên, Plan ₿ Academy sử dụng các định dạng tệp khác, và bạn sẽ cần phải chỉnh sửa một số trong số chúng.
 
 Ví dụ, khi tạo một hướng dẫn mới, bạn sẽ cần tạo một tệp YAML (`.yml`) để nhập các thẻ cho hướng dẫn của bạn, tiêu đề và ID giáo viên của bạn. Obsidian không cung cấp khả năng chỉnh sửa loại tệp này, vì vậy bạn sẽ cần một trình soạn thảo mã.
 
 Đối với việc này, có một số lựa chọn có sẵn cho bạn. Mặc dù notepad chuẩn của máy tính bạn có thể được sử dụng cho những sửa đổi này, giải pháp này không lý tưởng cho công việc gọn gàng. Tôi khuyên bạn nên chọn phần mềm được thiết kế đặc biệt cho mục đích này, như [VS Code](https://code.visualstudio.com/download) hoặc [Sublime Text](https://www.sublimetext.com/download). Sublime Text, với tính năng nhẹ nhàng đặc biệt, sẽ hơn là đủ cho nhu cầu của chúng ta.
 - Cài đặt một trong những phần mềm này, và giữ nó sang một bên cho những sửa đổi tương lai của bạn. ![github-desktop](assets/26.webp)
-Xin chúc mừng! Môi trường làm việc của bạn giờ đây đã được thiết lập để đóng góp cho PlanB Network. Bạn giờ đây có thể khám phá các hướng dẫn cụ thể khác của chúng tôi cho từng loại đóng góp (dịch thuật, hiệu đính, viết.
+Xin chúc mừng! Môi trường làm việc của bạn giờ đây đã được thiết lập để đóng góp cho Plan ₿ Academy. Bạn giờ đây có thể khám phá các hướng dẫn cụ thể khác của chúng tôi cho từng loại đóng góp (dịch thuật, hiệu đính, viết.
 
-https://planb.network/tutorials/others
+https://planb.academy/tutorials/others
 
 ..).

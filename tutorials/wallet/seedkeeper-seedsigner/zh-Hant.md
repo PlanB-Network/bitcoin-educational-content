@@ -7,7 +7,7 @@ description: 如何使用 SeedSigner 與 Seedkeeper？
 
 
 
-*感謝 [Satochip](https://satochip.io/) 團隊同意再次使用 [他們的影片](https://www.youtube.com/@satochip/videos) 來製作本教程。目前正在草擬書面版本，該版本將被翻譯成所有語言，並將很快在 Plan ₿ Network.* 上提供。
+*感謝 [Satochip](https://satochip.io/) 團隊同意再次使用 [他們的影片](https://www.youtube.com/@satochip/videos) 來製作本教程。目前正在草擬書面版本，該版本將被翻譯成所有語言，並將很快在 Plan ₿ Academy.* 上提供。
 
 
 

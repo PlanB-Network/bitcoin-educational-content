@@ -8,7 +8,7 @@ description: 如何建議在 PlanB 網路上加入新的建置商？
 PlanB 的使命是在 Bitcoin 上以儘可能多的語言提供頂尖的教育資源。網站發佈的所有內容都是開放原始碼，並託管在 GitHub 上，任何人都可以參與豐富平台的內容。
 
 
-您想在 PlanB Network 網站新增 Bitcoin 「建置者」，並讓您的公司或軟體具有能見度，但卻不知道如何操作？本教學就是為您準備的！
+您想在 Plan ₿ Academy 網站新增 Bitcoin 「建置者」，並讓您的公司或軟體具有能見度，但卻不知道如何操作？本教學就是為您準備的！
 
 ![project](assets/01.webp)
 
@@ -16,11 +16,11 @@ PlanB 的使命是在 Bitcoin 上以儘可能多的語言提供頂尖的教育�
 - 首先，您需要有一個 GitHub 帳戶。如果您不知道如何建立帳號，我們已經製作了詳細的教程來指導您。
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
-- 到 `resources/project/` 區的 [PlanB 專用於資料的 GitHub 儲存庫](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects)：
+- 到 `resources/project/` 區的 [PlanB 專用於資料的 GitHub 儲存庫](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/resources/projects)：
 
 ![project](assets/02.webp)
 
@@ -30,7 +30,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![project](assets/03.webp)
 
 
-- 如果您之前從未貢獻過 PlanB Network 的內容，您需要建立原始套件庫的 Fork。Forking 倉庫意味著在您自己的 GitHub 帳戶上創建該倉庫的副本，這樣您就可以在不影響原始倉庫的情況下進行專案工作。點擊 `Fork this repository` 按鈕：
+- 如果您之前從未貢獻過 Plan ₿ Academy 的內容，您需要建立原始套件庫的 Fork。Forking 倉庫意味著在您自己的 GitHub 帳戶上創建該倉庫的副本，這樣您就可以在不影響原始倉庫的情況下進行專案工作。點擊 `Fork this repository` 按鈕：
 
 ![project](assets/04.webp)
 
@@ -164,7 +164,7 @@ category: education
 ![project](assets/14.webp)
 
 
-- 選擇您的 PlanB Network 儲存庫 Fork：
+- 選擇您的 Plan ₿ Academy 儲存庫 Fork：
 
 ![project](assets/15.webp)
 
@@ -215,7 +215,7 @@ category: education
 ![project](assets/25.webp)
 
 
-- 新頁面將會開啟。將您公司或軟體的圖片拖曳至該區域。此圖片將顯示在 PlanB Network 網站上：
+- 新頁面將會開啟。將您公司或軟體的圖片拖曳至該區域。此圖片將顯示在 Plan ₿ Academy 網站上：
 
 ![project](assets/26.webp)
 
@@ -281,7 +281,7 @@ contributors:
 
 
 
-- 對於 `contributors` 鍵，如果您有的話，您可以在 PlanB Network 中加入您的貢獻者識別碼。如果沒有，請將此欄位留空。
+- 對於 `contributors` 鍵，如果您有的話，您可以在 Plan ₿ Academy 中加入您的貢獻者識別碼。如果沒有，請將此欄位留空。
 - 對於 `description` 鍵，您只需加入一段簡短的文字，說明您的公司或軟體。描述的語言必須與檔案名稱相同。您不需要將這段描述翻譯成網站支援的所有語言，因為 PlanB 團隊會使用他們的模型來翻譯。舉例來說，您的檔案可以是這樣的：
 
 ```yaml
@@ -329,10 +329,10 @@ contributors:
 
 ![project](assets/44.webp)
 
-恭喜您！您的 PR 已成功建立。管理員現在會審核它，如果一切正常，就會將其整合到 PlanB Network 的主儲存庫裡。幾天之後，您應該會看到您的建立者檔案出現在網站上。
+恭喜您！您的 PR 已成功建立。管理員現在會審核它，如果一切正常，就會將其整合到 Plan ₿ Academy 的主儲存庫裡。幾天之後，您應該會看到您的建立者檔案出現在網站上。
 
 
-請務必跟進您的 PR 進度。管理員可能會留言詢問其他資訊。只要您的 PR 未經驗證，您就可以在 PlanB Network GitHub 套件庫的「Pull requests」標籤中查詢：
+請務必跟進您的 PR 進度。管理員可能會留言詢問其他資訊。只要您的 PR 未經驗證，您就可以在 Plan ₿ Academy GitHub 套件庫的「Pull requests」標籤中查詢：
 
 ![project](assets/45.webp)
 

@@ -16,11 +16,11 @@ description: چگونه پیشنهاد اضافه کردن یک سازنده ج�
 - ابتدا، شما نیاز به یک حساب GitHub دارید. اگر نمی‌دانید چگونه یک حساب ایجاد کنید، ما یک آموزش جامع برای راهنمایی شما تهیه کرده‌ایم.
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
-- به [مخزن GitHub از PlanB که به داده‌ها اختصاص دارد](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects) در بخش `resources/project/` بروید:
+- به [مخزن GitHub از PlanB که به داده‌ها اختصاص دارد](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/resources/projects) در بخش `resources/project/` بروید:
 
 ![project](assets/02.webp)
 
@@ -164,7 +164,7 @@ category: education
 ![project](assets/14.webp)
 
 
-- مخزن Fork از مخزن PlanB Network خود را انتخاب کنید:
+- مخزن Fork از مخزن Plan ₿ Academy خود را انتخاب کنید:
 
 ![project](assets/15.webp)
 
@@ -215,7 +215,7 @@ category: education
 ![project](assets/25.webp)
 
 
-- صفحه جدیدی باز خواهد شد. تصویر شرکت یا نرم‌افزار خود را به این ناحیه بکشید و رها کنید. این تصویر در سایت PlanB Network نمایش داده خواهد شد:
+- صفحه جدیدی باز خواهد شد. تصویر شرکت یا نرم‌افزار خود را به این ناحیه بکشید و رها کنید. این تصویر در سایت Plan ₿ Academy نمایش داده خواهد شد:
 
 ![project](assets/26.webp)
 
@@ -281,7 +281,7 @@ contributors:
 
 
 
-- برای کلید `contributors`، می‌توانید شناسه مشارکت‌کننده خود را به PlanB Network اضافه کنید اگر یکی دارید. اگر ندارید، این فیلد را خالی بگذارید.
+- برای کلید `contributors`، می‌توانید شناسه مشارکت‌کننده خود را به Plan ₿ Academy اضافه کنید اگر یکی دارید. اگر ندارید، این فیلد را خالی بگذارید.
 - برای کلید `description`، تنها کافی است یک پاراگراف کوتاه اضافه کنید که شرکت یا نرم‌افزار شما را توصیف کند. توضیحات باید به همان زبانی باشد که نام فایل است. نیازی نیست که این توضیحات را به تمام زبان‌های پشتیبانی شده در سایت ترجمه کنید، زیرا تیم‌های PlanB این کار را با استفاده از مدل خود انجام خواهند داد. به عنوان مثال، فایل شما می‌تواند به این شکل باشد:
 
 ```yaml

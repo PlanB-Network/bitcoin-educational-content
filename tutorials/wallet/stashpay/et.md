@@ -42,7 +42,7 @@ Kui rakendus on paigaldatud, loob StashPay teile esimesel avamisel esialgse Bitc
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Juurdepääs StashPay seadetele, klõpsates ikoonil "Seaded" ja seejärel valikul **Loo varukoopia**. Seejärel lubage taastamislausete kuvamine. Ärge kopeerige oma taastamislauseid telefoni lõikelauale, sest need võivad olla kättesaadavad teistele teie mobiiltelefoni paigaldatud petturirakendustele.
 
@@ -88,7 +88,7 @@ Olete kindlasti märganud, et satoshide saamiseks peate maksma võrgutasu. Need 
 
 
 
-https://planb.network/tutorials/wallet/mobile/misty-breez-738ced2a-0764-4d7f-a150-ec0ce84a9d25
+https://planb.academy/tutorials/wallet/mobile/misty-breez-738ced2a-0764-4d7f-a150-ec0ce84a9d25
 
 ### Bitcoinide saatmine StashPayga
 
@@ -106,7 +106,7 @@ Kuna StashPay on Breez Development Kit'il põhinev Wallet, on sellel huvitav eel
 
 
 
-https://planb.network/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
+https://planb.academy/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
 
 Breez SDK kehtestab siiski minimaalse summa, mille puhul saab bitcoine saata Address-le peamise ahela kaudu.
 
@@ -168,4 +168,4 @@ Sa oled lihtsalt hakkama saanud StashPay minimalistliku Bitcoin Wallet-ga. Kui l
 
 
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f

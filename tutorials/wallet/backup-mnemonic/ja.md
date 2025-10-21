@@ -50,7 +50,7 @@ description: ビットコイン・ウォレットを保護するためのベス�
 
 もし完全な金属製バックアップ装置に投資したいのであれば、[Jameson Loppの抵抗テスト](https://jlopp.github.io/metal-bitcoin-storage-reviews/)をご覧になることをお勧めします。このテストでは、市場で入手可能なソリューションのほとんどを評価しています。私は、彫刻、スタンピング、パンチング用の金属プレートのような一体型ブラケットを選ぶことをお勧めします。これらの装置は、一般的に、組み立てられる独立した文字を使用するシステムよりもはるかに大きな抵抗を提供します。
 
-紙の財布を選ぶ場合、いくつかの選択肢があります：シンプルな白紙、ハードウェアの財布によく付属している厚紙の財布、または[ここをクリックして](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/wallet-backup-sheet/assets/mnemonic-sheet.pdf)印刷できるダウンロード可能なテンプレート。
+紙の財布を選ぶ場合、いくつかの選択肢があります：シンプルな白紙、ハードウェアの財布によく付属している厚紙の財布、または[ここをクリックして](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/resources/bet/wallet-backup-sheet/assets/mnemonic-sheet.pdf)印刷できるダウンロード可能なテンプレート。
 
 ![SEED](assets/fr/02.webp)
 
@@ -84,11 +84,11 @@ m / 86' / 0' / 0' /
 
 一方、パスフレーズを使う場合は、ニーモニック・フレーズと同じ媒体に書き留めないようにしてください。パスフレーズの目的は、盗難時に財布を守ることです。パスフレーズの使い方については、こちらの補足チュートリアルをご覧ください：
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ニーモニックフレーズを物理メディアに保存したら、新しく作成したウォレットがまだ空の状態でリカバリテストを行うことを強くお勧めします。このテストでは、情報のサンプルを書き留め、空のウォレットを意図的に削除し、ニーモニックフレーズの物理的バックアップのみを使用して復元を試みます。これにより、バックアップが完全で入力ミスがないことを確認できます。また、復元プロセスに慣れることもできます。こうすることで、将来リカバリーが必要になったときに、より良い準備ができ、実際の状況での最初の試みのストレスを避けることができます。このテストの実施方法の詳細については、こちらのチュートリアルをご覧ください：
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 最後に、バックアップの数の問題がある。この選択は、完全にあなたの個人的な状況に依存します。例えば、ニーモニック・フレーズをメディアに一度だけ書き込むなど、コピーの数を制限すれば、盗難のリスクは減りますが、紛失のリスクは高まります。逆に、何枚もコピーを取れば、紛失のリスクは減りますが、盗難のリスクは高まります。ですから、あなたのニーズに合った適切なバランスを見つけ、最も適切と思われるコピー部数を決定するのはあなた次第です。
 
@@ -118,6 +118,6 @@ https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a
 
 そのため、Plan ₿ Networkが提供する無料のCYP201トレーニングコースを受講することをお勧めします。このトレーニングコースでは、ビットコインウォレットのすべての仕組みを詳しく説明し、資金を効果的に確保するために不可欠な技術的側面をマスターすることができます：
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 このチュートリアルが役に立ったと思ったら、下に緑の親指を残してくれるとありがたい。この記事をソーシャルネットワークでシェアしてください。ありがとうございました！

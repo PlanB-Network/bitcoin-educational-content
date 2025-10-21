@@ -16,11 +16,11 @@ description: چگونه یک پادکست جدید به شبکه PlanB اضاف�
 - ابتدا، شما نیاز به یک حساب GitHub دارید. اگر نمی‌دانید چگونه یکی بسازید، ما یک آموزش جامع برای راهنمایی شما تهیه کرده‌ایم.
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
-- به [مخزن GitHub از PlanB که به داده‌ها اختصاص دارد](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/podcasts) در بخش `resources/podcasts/` بروید:
+- به [مخزن GitHub از PlanB که به داده‌ها اختصاص دارد](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/resources/podcasts) در بخش `resources/podcasts/` بروید:
 
 ![podcast](assets/02.webp)
 

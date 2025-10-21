@@ -30,7 +30,7 @@ Oman palautuslauseesi luomiseksi käsin tarvitset:
 - Paperiarkin;
 - Kynän tai lyijykynän, mieluiten eri väreissä järjestelyn helpottamiseksi;
 - Useita noppia, jotta voidaan minimoida epätasapainoisen nopan aiheuttamat vinoumat;
-- [2048 BIP39-sanan lista](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf) tulostettuna.
+- [2048 BIP39-sanan lista](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf) tulostettuna.
 
 Myöhemmin tulee tarpeelliseksi käyttää tietokonetta terminaalin kanssa tarkistussumman laskemiseksi. Juuri tästä syystä neuvon vastaan manuaalista mnemonisen lauseen luomista. Mielestäni tietokoneen käyttö, vaikka tässä oppaassa mainittujen varotoimien alaisena, lisää merkittävästi lompakon haavoittuvuutta.
 Kokeellisessa lähestymistavassa "kuvitteellisen lompakon" osalta on mahdollista käyttää tavallista tietokonetta ja sen terminaalia. Kuitenkin, jos halutaan noudattaa tarkempaa lähestymistapaa, jolla pyritään minimoimaan fraasisi vaarantumisen riskit, ihanteellista olisi käyttää internetistä irrotettua tietokonetta (mieluiten ilman wifi-komponenttia tai RJ45-kaapeliliitäntää), joka on varustettu vähimmäismäärällä oheislaitteita (kaikki niistä tulisi liittää kaapelilla, välttäen Bluetoothia), ja ennen kaikkea, käyttöjärjestelmänä tulisi olla amneesinen Linux-jakelu, kuten [Tails](https://tails.boum.org/index.fr.html), joka on käynnistetty irrotettavasta mediasta.
@@ -66,7 +66,7 @@ Jokainen näistä paketeista edustaa binäärilukua, joka muunnetaan sitten desi
 
 ![mnemonic](assets/notext/5.webp)
 
-Lopulta desimaaliluku kertoo meille vastaavan sanan sijainnin [2048 BIP39-sanaluettelossa](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf). Jäljellä on vain valita nämä sanat muodostamaan lompakkomme palautuslause.
+Lopulta desimaaliluku kertoo meille vastaavan sanan sijainnin [2048 BIP39-sanaluettelossa](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf). Jäljellä on vain valita nämä sanat muodostamaan lompakkomme palautuslause.
 
 ![mnemonic](assets/notext/6.webp)
 
@@ -87,7 +87,7 @@ Kuten esimerkissäni näet, kahdestoista sana koostuu tällä hetkellä vain 7 b
 
 ## Vaihe 2: Tarkistussumman laskeminen
 
-Tämä vaihe on kriittisin manuaalisessa mnemonisen lauseen luomisessa, sillä se vaatii tietokoneen käyttöä. Kuten aiemmin mainittiin, tarkistussumma vastaa SHA256-hassin alkuosaa, joka on generoitu entropiasta. Vaikka teoriassa on mahdollista laskea SHA256 käsin 128 tai 256 bitin syötteelle, tämä tehtävä voisi viedä kokonaisen viikon. Lisäksi, mahdolliset virheet manuaalisissa laskelmissa havaittaisiin vasta prosessin lopussa, pakottaen aloittamaan alusta. Siksi on kuviteltavissa, että tämä vaihe on tehtävä muuten kuin vain paperilla ja kynällä. Tietokone on lähes välttämätön. Jos haluat silti oppia tekemään SHA256:n käsin, selitämme, miten se tehdään [CRYPTO301-kurssilla](https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f).
+Tämä vaihe on kriittisin manuaalisessa mnemonisen lauseen luomisessa, sillä se vaatii tietokoneen käyttöä. Kuten aiemmin mainittiin, tarkistussumma vastaa SHA256-hassin alkuosaa, joka on generoitu entropiasta. Vaikka teoriassa on mahdollista laskea SHA256 käsin 128 tai 256 bitin syötteelle, tämä tehtävä voisi viedä kokonaisen viikon. Lisäksi, mahdolliset virheet manuaalisissa laskelmissa havaittaisiin vasta prosessin lopussa, pakottaen aloittamaan alusta. Siksi on kuviteltavissa, että tämä vaihe on tehtävä muuten kuin vain paperilla ja kynällä. Tietokone on lähes välttämätön. Jos haluat silti oppia tekemään SHA256:n käsin, selitämme, miten se tehdään [CRYPTO301-kurssilla](https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f).
 
 Tästä syystä neuvon vahvasti vastaan manuaalisen lauseen luomista todelliselle lompakolle. Mielestäni tietokoneen käyttö tässä vaiheessa, vaikka kaikki tarvittavat varotoimet otettaisiin, lisää kohtuuttomasti lompakon hyökkäyspintaa.
 Tarkistussumman laskemiseksi jättäen mahdollisimman vähän jälkiä käytämme amneesista Linux-jakelua irrotettavalta asemalta nimeltä **Tails**. Tämä käyttöjärjestelmä käynnistyy USB-tikulta ja toimii kokonaan tietokoneen RAM-muistissa, olematta vuorovaikutuksessa kiintolevyn kanssa. Näin teoriassa se ei jätä jälkeä tietokoneeseen sen sammuttamisen jälkeen. Huomaa, että Tails on yhteensopiva vain x86_64-tyyppisten prosessorien kanssa, ei ARM-tyyppisten prosessorien kanssa.
@@ -222,7 +222,7 @@ Saatuamme desimaalinumerot, voimme nyt paikantaa vastaavat sanat listalta muodos
 
 ![mnemonic](assets/notext/24.webp)
 Tämän säädön jälkeen sinulla on jokaisen sanan sijoitus listalla. Kaikki mikä jää tehtäväksi, on tunnistaa jokainen sana sen numeron perusteella. Ilmiselvästi, kuten kaikissa muissakin vaiheissa, et saa käyttää tietokonettasi tämän muunnoksen suorittamiseen. Varmista siis, että olet tulostanut listan etukäteen.
-[**-> Tulosta BIP39-lista A4-formaatissa.**](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)
+[**-> Tulosta BIP39-lista A4-formaatissa.**](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)
 
 Esimerkiksi, jos ensimmäiseltä riviltä johdettu numero on 1721, vastaava sana listalla on 1721. sijalla:
 

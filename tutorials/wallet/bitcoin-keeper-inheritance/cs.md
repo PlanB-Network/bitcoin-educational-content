@@ -17,7 +17,7 @@ Tento videonávod vás provede nastavením a použitím nástroje Bitcoin Keeper
 
 Úplný návod pro Bitcoin Keeper Wallet naleznete zde:
 
-https://planb.network/tutorials/wallet/mobile/bitcoin-keeper-7f2a160b-10b6-4cc5-8820-514ee2eb1599
+https://planb.academy/tutorials/wallet/mobile/bitcoin-keeper-7f2a160b-10b6-4cc5-8820-514ee2eb1599
 
 Podívejte se na další relevantní odkazy:
 
@@ -26,4 +26,4 @@ Podívejte se na další relevantní odkazy:
 - Tapsigner [Video](youtube.com/watch?v=xKHy1HMw5iU)
 
 
-**Poznámka:** Tento návod je pouze anglický návrh, stále potřebujeme, aby někdo napsal rozsáhlou příručku na toto téma. Pokud jste to vy, ozvěte se nám prosím na našem [Telegramu](https://t.me/PlanBNetwork_ContentBuilder/325) nebo na [GitHubu](https://github.com/PlanB-Network/Bitcoin-educational-content)
+**Poznámka:** Tento návod je pouze anglický návrh, stále potřebujeme, aby někdo napsal rozsáhlou příručku na toto téma. Pokud jste to vy, ozvěte se nám prosím na našem [Telegramu](https://t.me/PlanBNetwork_ContentBuilder/325) nebo na [GitHubu](https://github.com/Plan ₿ Academy/Bitcoin-educational-content)

@@ -1,6 +1,6 @@
 ---
-name: راهنمای اجرای محلی پلتفرم Plan ₿ Network
-description: چگونه می‌توان Plan ₿ Network را در یک محیط محلی اجرا کرد تا مشارکت محتوایی یا ویرایش/بازبینی محتوای آموزشی خود را بر روی Plan ₿ Network آزمایش کنم؟
+name: راهنمای اجرای محلی پلتفرم Plan ₿ Academy
+description: چگونه می‌توان Plan ₿ Academy را در یک محیط محلی اجرا کرد تا مشارکت محتوایی یا ویرایش/بازبینی محتوای آموزشی خود را بر روی Plan ₿ Academy آزمایش کنم؟
 ---
 ![github](assets/cover.webp)
 
@@ -8,7 +8,7 @@ description: چگونه می‌توان Plan ₿ Network را در یک محیط
 ## به طور خلاصه
 
 
-این آموزش دستورالعمل‌های گام‌به‌گام برای راه‌اندازی سیستم مدیریت یادگیری Bitcoin از Plan ₿ Network بر روی ماشین محلی شما با استفاده از Docker، کلیدهای ساختگی و پیکربندی‌های مخزن سفارشی را ارائه می‌دهد.
+این آموزش دستورالعمل‌های گام‌به‌گام برای راه‌اندازی سیستم مدیریت یادگیری Bitcoin از Plan ₿ Academy بر روی ماشین محلی شما با استفاده از Docker، کلیدهای ساختگی و پیکربندی‌های مخزن سفارشی را ارائه می‌دهد.
 
 
 اگر بخش بالا را متوجه نشدید، نگران نباشید—این آموزش برای شماست!
@@ -38,13 +38,13 @@ description: چگونه می‌توان Plan ₿ Network را در یک محیط
 مخزن را به دستگاه محلی خود کلون کنید:
 
 
-git clone [https://github.com/PlanB-Network/Bitcoin-learning-management-system](https://github.com/PlanB-Network/Bitcoin-learning-management-system￼cd)
+git clone [https://github.com/Plan ₿ Academy/Bitcoin-learning-management-system](https://github.com/Plan ₿ Academy/Bitcoin-learning-management-system￼cd)
 
-[cd](https://github.com/PlanB-Network/Bitcoin-learning-management-system￼cd) Bitcoin-learning-management-system
+[cd](https://github.com/Plan ₿ Academy/Bitcoin-learning-management-system￼cd) Bitcoin-learning-management-system
 
 
 ```bash
-git clone https://github.com/PlanB-Network/bitcoin-learning-management-system
+git clone https://github.com/Plan ₿ Academy/bitcoin-learning-management-system
 cd bitcoin-learning-management-system
 ```
 
@@ -147,7 +147,7 @@ docker compose up -d --build -V
 \[<http://localhost:8181](http://localhost:8181)>
 
 
-![Plan ₿ Network Local](assets/en/1.webp)
+![Plan ₿ Academy Local](assets/en/1.webp)
 
 
 توجه: اگر هر یک از فایل‌های منبع را تغییر دهید، برنامه به‌طور خودکار بارگذاری مجدد خواهد شد.
@@ -196,7 +196,7 @@ curl -X POST http://localhost:3000/api/github/sync
 ```
 
 
-![Plan ₿ Network Local](assets/en/2.webp)
+![Plan ₿ Academy Local](assets/en/2.webp)
 
 
 

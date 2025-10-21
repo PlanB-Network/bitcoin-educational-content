@@ -27,7 +27,7 @@ Das nachstehende Diagramm veranschaulicht die Funktionsweise eines Portfolios mi
 Mit diesem Vorgang können Sie verschiedene Konfigurationen einrichten, darunter :
 
 
-- Ein Nachfolgeplan (oder Erbschaftsplan), der es den Erben ermöglicht, im Falle des Todes des Nutzers Gelder zurückzuerhalten. Für weitere Informationen zu diesem Thema empfehlen wir die Lektüre von [Teil 4] (https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a209038) des Kurses BTC102.
+- Ein Nachfolgeplan (oder Erbschaftsplan), der es den Erben ermöglicht, im Falle des Todes des Nutzers Gelder zurückzuerhalten. Für weitere Informationen zu diesem Thema empfehlen wir die Lektüre von [Teil 4] (https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a209038) des Kurses BTC102.
 - Ein verstärktes Backup mit Wiederherstellungszeit, das dem Nutzer die Möglichkeit gibt, sein Portemonnaie zu benutzen, ohne dass er die entsprechende geheime Phrase aufbewahren und riskieren muss, dass sie gestohlen wird, z. B. bei einem Einbruch.
 - Ein Sicherheitsnetz für Menschen, die mit Bitcoin anfangen: Sie verwalten ihre eigene Wallet, und ihr "Vormund" (z. B. ein Verwandter) behält sich das Recht vor, ihre Gelder nach einer bestimmten Zeit zurückzuholen.
 - Ein Mehrparteien-Signatursystem (*multisig*) mit reduzierten Anforderungen im Laufe der Zeit, um das Verschwinden eines oder mehrerer Teilnehmer, z. B. der Partner eines Unternehmens, zu bewältigen.
@@ -45,11 +45,11 @@ In diesem Tutorial werden wir einen Nachfolgeplan aufstellen. Wir verwenden :
 
 - Ein Ledger Nano S Plus, für die täglichen Ausgaben;
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
 - Eine Blockstream Jade, die zur Einziehung von Geldern verwendet wird;
 
-https://planb.network/tutorials/wallet/hardware/jade-7d62bf0c-f460-4e68-9635-af9b731dabc3
+https://planb.academy/tutorials/wallet/hardware/jade-7d62bf0c-f460-4e68-9635-af9b731dabc3
 
 - Zwei Speichermedien (USB-Sticks) zum Speichern des Portfolio-Deskriptors;
 - Ein Nachfolgebrief, der Anweisungen für die Einziehung der Gelder enthält;
@@ -63,7 +63,7 @@ Besuchen Sie die offizielle Wizardsardine-Website und laden Sie Liana unter http
 
 Um herauszufinden, wie Sie die Authentizität und Integrität von Software vor der Installation manuell überprüfen können, empfehlen wir Ihnen diese Anleitung:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Installieren Sie die Software auf Ihrem Rechner und starten Sie sie. Wählen Sie die Option "*Erstelle eine neue Liana-Brieftasche*", um Ihre Brieftasche zu konfigurieren.
 
@@ -193,7 +193,7 @@ Sie können den Verfallsstatus Ihres Guthabens überprüfen, indem Sie auf die R
 
 Um das in Bitcoin verwendete UTXO-Darstellungsmodell besser zu verstehen, können Sie den ersten Teil des von Loïc Morel geschriebenen Kurses über Vertraulichkeit in Bitcoin lesen:
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ## Laufende Ausgaben
 
@@ -338,6 +338,6 @@ Die von diesem Portfolio erstellten Skripte haben die folgende Form:
 <primary_key> CHECKSIG IFDUP NOTIF DUP HASH160 <recovery_key_hash> EQUALVERIFY CHECKSIGVERIFY <locktime> CHECKSEQUENCEVERIFY ENDIF
 ```
 
-Da die Sicherheit Ihrer Bitcoin-Wallet auch davon abhängt, dass Sie verstehen, wie sie funktioniert, schlage ich vor, dass Sie die Mechanismen von deterministischen und hierarchischen Wallets in diesem kostenlosen Trainingskurs auf Plan ₿ Network eingehend studieren:
+Da die Sicherheit Ihrer Bitcoin-Wallet auch davon abhängt, dass Sie verstehen, wie sie funktioniert, schlage ich vor, dass Sie die Mechanismen von deterministischen und hierarchischen Wallets in diesem kostenlosen Trainingskurs auf Plan ₿ Academy eingehend studieren:
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f

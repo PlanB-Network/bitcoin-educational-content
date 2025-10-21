@@ -1058,7 +1058,7 @@ $$
 현대 암호학의 수학적 기초에 대해 더 자세히 알고 싶으시다면 Plan ₿ Network의 다른 강좌도 참고하시기 바랍니다:
 
 
-https://planb.network/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
+https://planb.academy/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 
 ## 개인 키에서 공개 키 계산하기
 
@@ -1656,7 +1656,7 @@ Bitcoin에서는 가장 먼저 3개의 기본 시게시 플래그가 있습니�
 Lightning Network에 대한 지식을 심화하려면 CYP201 과정을 수강한 후 이 주제를 자세히 다루는 Fanis Michalakis의 LNP201 과정을 수강하는 것을 적극 추천합니다:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 다음 부분에서는 Bitcoin Wallet의 기초에 있는 Mnemonic 문구가 어떻게 작동하는지 알아볼 것을 제안합니다.
 
@@ -1710,7 +1710,7 @@ Bitcoin에 사용된 첫 번째 지갑은 JBOK(_Just a Bunch Of Keys_) 지갑으
 Bitcoin의 개인정보 보호 모델에 대해 자세히 알아보고 개인 정보를 보호하는 방법을 알아보려면 Plan ₿ Network에 대한 BTC204 강좌를 수강하는 것도 추천합니다:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### HD 지갑
 
@@ -1855,7 +1855,7 @@ $$
 ### 이진 시퀀스를 Mnemonic 구문으로 변환하기
 
 
-비트 시퀀스 $\text{ENT} \Vert \text{CS}$는 11비트의 세그먼트로 나뉩니다. 각 11비트 세그먼트는 십진수로 변환하면 0에서 2047 사이의 숫자에 해당하며, 이는 단어의 위치를 나타냅니다[BIP39로 표준화된 2048개의 단어 목록에서](https://github.com/Planb-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
+비트 시퀀스 $\text{ENT} \Vert \text{CS}$는 11비트의 세그먼트로 나뉩니다. 각 11비트 세그먼트는 십진수로 변환하면 0에서 2047 사이의 숫자에 해당하며, 이는 단어의 위치를 나타냅니다[BIP39로 표준화된 2048개의 단어 목록에서](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
 
 ![CYP201](assets/en/042.webp)
@@ -1920,7 +1920,7 @@ $$
 더 나아가 테스트 Mnemonic 구문을 수동으로 generate하는 방법을 구체적으로 배우려면 이 튜토리얼을 살펴보는 것이 좋습니다:
 
 
-https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
+https://planb.academy/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
 
 이 Mnemonic 구문에서 Wallet의 도출을 계속하기 전에 다음 장에서는 도출 과정에서 역할을 하며 Mnemonic 구문과 동일한 수준인 BIP39 passphrase에 대해 소개하겠습니다.
 

@@ -14,7 +14,7 @@ _Seda õpetust pakutakse ainult hariduslikel ja informatiivsetel eesmärkidel. M
 
 > "*Kasuta Bitcoini privaatselt.*"
 
-[Varasemas õpetuses](https://planb.network/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-95ec5dde72b0) olime juba selgitanud protseduuri RoninDojo v1 paigaldamiseks ja kasutamiseks. Siiski, viimase aasta jooksul on RoninDojo meeskonnad käivitanud nende rakenduse versiooni 2, mis tähistas olulist pöördepunkti tarkvara arhitektuuris. Tõepoolest, nad liikusid Linux Manjaro distributsioonist Debiani kasuks. Seetõttu ei paku nad enam eelkonfigureeritud pilti Raspberry Pi'le automaatseks paigaldamiseks. Kuid on siiski olemas meetod käsitsi paigaldamiseks. Seda meetodit kasutasin omaenda node'i jaoks ja sellest ajast alates on RoninDojo v2 suurepäraselt töötanud minu Raspberry Pi 4-l. Seega pakun uut õpetust, kuidas käsitsi paigaldada RoninDojo v2 Raspberry Pi'le.
+[Varasemas õpetuses](https://planb.academy/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-95ec5dde72b0) olime juba selgitanud protseduuri RoninDojo v1 paigaldamiseks ja kasutamiseks. Siiski, viimase aasta jooksul on RoninDojo meeskonnad käivitanud nende rakenduse versiooni 2, mis tähistas olulist pöördepunkti tarkvara arhitektuuris. Tõepoolest, nad liikusid Linux Manjaro distributsioonist Debiani kasuks. Seetõttu ei paku nad enam eelkonfigureeritud pilti Raspberry Pi'le automaatseks paigaldamiseks. Kuid on siiski olemas meetod käsitsi paigaldamiseks. Seda meetodit kasutasin omaenda node'i jaoks ja sellest ajast alates on RoninDojo v2 suurepäraselt töötanud minu Raspberry Pi 4-l. Seega pakun uut õpetust, kuidas käsitsi paigaldada RoninDojo v2 Raspberry Pi'le.
 
 ## Sisukord:
 - Mis on RoninDojo?
@@ -206,7 +206,7 @@ RoninUI avalehele jõudes palutakse teil seadistamist alustada. Selleks klõpsak
 
 ![lets start](assets/notext/25.webp)
 
-Sel etapil esitleb RoninUI teile teie `root` parooli. On oluline see turvaliselt hoida. Võite valida füüsilise varukoopia, paberil, või salvestada selle [paroolihalduris](https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f).
+Sel etapil esitleb RoninUI teile teie `root` parooli. On oluline see turvaliselt hoida. Võite valida füüsilise varukoopia, paberil, või salvestada selle [paroolihalduris](https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f).
 
 ![root password](assets/notext/26.webp)
 
@@ -320,7 +320,7 @@ Sügavamaks mõistmiseks mündiühendamisest ja selle kasutamisest Bitcoinil, ku
 
 Pärast mündiühendamiste tegemist Whirlpooliga on kasulik täpselt hinnata saavutatud privaatsuse taset teie segatud UTXO-de jaoks. Selleks võite kasutada Pythoni tööriista *Whirlpool Stat Tool*. See tööriist võimaldab teil mõõta nii teie UTXO-de tuleviku- kui ka tagasivaatelisi hindeid, analüüsides samal ajal nende leviku määra basseinis.
 
-Oma anonüümsete komplektide arvutusmehhanismide mõistmise süvendamiseks soovitan lugeda artiklit: [REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa), mis kirjeldab nende indeksite toimimist.
+Oma anonüümsete komplektide arvutusmehhanismide mõistmise süvendamiseks soovitan lugeda artiklit: [REMIX - WHIRLPOOL](https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa), mis kirjeldab nende indeksite toimimist.
 
 WST tööriista kasutamiseks minge RoninCLI juurde. Selleks avage oma isiklikul arvutil terminal ja looge SSH ühendus oma noodiga, kasutades järgmist käsku:
 `SSH ronindojo@[IP]`

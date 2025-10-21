@@ -5,7 +5,7 @@ description: 如何參與 planb.network 上靜態 Elements 的翻譯？
 ![cover](assets/cover.webp)
 
 
-Plan ₿ Network 的使命是在 Bitcoin 上提供一流的教育資源，並將其翻譯成盡可能多的語言。網站發佈的大部分內容都是開放原始碼，並託管在 GitHub 上，讓任何人都能參與豐富平台的內容。貢獻的形式有多種：修正和校對現有內容、更新資訊，或創作新的教學內容加入平台。
+Plan ₿ Academy 的使命是在 Bitcoin 上提供一流的教育資源，並將其翻譯成盡可能多的語言。網站發佈的大部分內容都是開放原始碼，並託管在 GitHub 上，讓任何人都能參與豐富平台的內容。貢獻的形式有多種：修正和校對現有內容、更新資訊，或創作新的教學內容加入平台。
 
 
 在本教程中，我們將告訴您如何輕鬆地為我們網站上靜態 Elements 的翻譯做出貢獻。平台上的資料主要分為兩大類：
@@ -18,12 +18,12 @@ Plan ₿ Network 的使命是在 Bitcoin 上提供一流的教育資源，並將
 為了翻譯教育內容，我們使用 [人工智慧](https://github.com/Asi0Flammeus/LLM-Translator)。然後，為了糾正這些檔案中的最終錯誤，我們邀請校對人員貢獻心力。如果您希望校對某些內容，請參閱下列教學：
 
 
-https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
+https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 另一方面，如果您有興趣翻譯網站的靜態 Elements（不包括教育內容），您就找對地方了！為了有效翻譯前端內容，我們使用 Weblate 工具，此工具使用起來非常簡單，並有助於翻譯的方法。
 
 
-如果您希望在 Plan ₿ Network 中加入全新的語言，請務必透過我們的 [Telegram 群組](https://t.me/PlanBNetwork_ContentBuilder) 聯絡 Plan ₿ Network 團隊。如果您沒有電報，您可以寄送電子郵件到 mari@planb.network。請務必撰寫一小段簡報，說明您是誰以及您所使用的語言。
+如果您希望在 Plan ₿ Academy 中加入全新的語言，請務必透過我們的 [Telegram 群組](https://t.me/PlanBNetwork_ContentBuilder) 聯絡 Plan ₿ Academy 團隊。如果您沒有電報，您可以寄送電子郵件到 mari@planb.network。請務必撰寫一小段簡報，說明您是誰以及您所使用的語言。
 
 我們的團隊成員會給您具體的指示，並在 Github 上開啟相關「問題」以協調您的工作。
 
@@ -31,7 +31,7 @@ https://planb.network/tutorials/contribution/content/proofreading-review-tutoria
 在按照本教學添加新的語言到 Weblate。
 
 
-https://planb.network/tutorials/contribution/content/weblate-add-new-language-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
+https://planb.academy/tutorials/contribution/content/weblate-add-new-language-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
 
 當您準備好開始翻譯時，請回到本教學，並閱讀下列要點。
 
@@ -40,7 +40,7 @@ https://planb.network/tutorials/contribution/content/weblate-add-new-language-ee
 
 
 
-- 前往 [Plan ₿ Network 的自助式 Weblate](https://weblate.planb.network/)：
+- 前往 [Plan ₿ Academy 的自助式 Weblate](https://weblate.planb.network/)：
 
 ![weblate](assets/01.webp)
 
@@ -70,7 +70,7 @@ https://planb.network/tutorials/contribution/content/weblate-add-new-language-ee
 ![weblate](assets/06.webp)
 
 
-- 現在您可以回到 Plan ₿ Network 面板：
+- 現在您可以回到 Plan ₿ Academy 面板：
 
 ![weblate](assets/07.webp)
 
@@ -159,7 +159,7 @@ https://planb.network/tutorials/contribution/content/weblate-add-new-language-ee
 
 
 - 當您發現插入在大括弧「{」內的字詞時，您不需要翻譯它們。例如，在 「您的帳戶已建立，{{userName}}!」中，您將翻譯整個句子，但保留英文中的 "username"。
-- 當您在字串中找到 "Plan ₿ Network 「時，請確定不要翻譯 」network"（將 Plan ₿ Network 視為商標）。此外，請務必使用 Bitcoin 的 ₿！
+- 當您在字串中找到 "Plan ₿ Academy 「時，請確定不要翻譯 」network"（將 Plan ₿ Academy 視為商標）。此外，請務必使用 Bitcoin 的 ₿！
 - 如果您發現只有「網路」一詞，您可以將其翻譯。
 - 不要翻譯「B-CERT」，因為它是另一個固定的字。
 - 如果您發現以空格結束的字串，可以不填。
@@ -174,4 +174,4 @@ https://planb.network/tutorials/contribution/content/weblate-add-new-language-ee
 ![weblate](assets/23.webp)
 
 
-預先感謝您對 Plan ₿ Network 的翻譯所做的貢獻！如果您對我們有任何具體的問題或意見，歡迎透過 [Telegram 群組](https://t.me/PlanBNetwork_ContentBuilder) 與我們聯繫。
+預先感謝您對 Plan ₿ Academy 的翻譯所做的貢獻！如果您對我們有任何具體的問題或意見，歡迎透過 [Telegram 群組](https://t.me/PlanBNetwork_ContentBuilder) 與我們聯繫。

@@ -1,30 +1,30 @@
 ---
 name: Contribution - Git-opastus (edistyneet)
-description: Opas edistyneille käyttäjille, joka tarjoaa opastuksen Plan ₿ Network with Git -ohjelmasta
+description: Opas edistyneille käyttäjille, joka tarjoaa opastuksen Plan ₿ Academy with Git -ohjelmasta
 ---
 ![cover](assets/cover.webp)
 
 Ennen kuin seuraat tätä ohjeistusta uuden ohjeen lisäämisestä, sinun on suoritettava muutama alustava vaihe. Jos et ole vielä tehnyt sitä, tutustu ensin tähän johdantooppaaseen ja palaa sitten tänne:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+https://planb.academy/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
 Sinulla on jo:
 
 
 - Valitse opetusohjelmasi teema;
-- Ota yhteyttä Plan ₿ Network -tiimiin [Telegram-ryhmässä] (https://t.me/PlanBNetwork_ContentBuilder) tai paolo@planb.network ;
+- Ota yhteyttä Plan ₿ Academy -tiimiin [Telegram-ryhmässä] (https://t.me/PlanBNetwork_ContentBuilder) tai paolo@planb.network ;
 - Valitse osallistumisvälineesi.
 
-Tässä kokeneille Git-käyttäjille suunnatussa opetusohjelmassa kerromme lyhyesti keskeiset vaiheet ja olennaiset ohjeet uuden Plan ₿ Network -oppaan tarjoamiseksi. Jos Git ja GitHub eivät ole sinulle tuttuja, suosittelen sen sijaan seuraamaan yhtä näistä kahdesta muusta yksityiskohtaisemmasta opetusohjelmasta, jotka vievät sinut askel askeleelta:
+Tässä kokeneille Git-käyttäjille suunnatussa opetusohjelmassa kerromme lyhyesti keskeiset vaiheet ja olennaiset ohjeet uuden Plan ₿ Academy -oppaan tarjoamiseksi. Jos Git ja GitHub eivät ole sinulle tuttuja, suosittelen sen sijaan seuraamaan yhtä näistä kahdesta muusta yksityiskohtaisemmasta opetusohjelmasta, jotka vievät sinut askel askeleelta:
 
 
 - **Keskitason (GitHub Desktop)**:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 - Aloittelijoille (verkkokäyttöliittymä):
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 
 ## Ehdotetut työkalut
 
@@ -61,7 +61,7 @@ Kaavioiden ja visuaalisten esitysten luominen:
 ### 1 - Määritä paikallinen ympäristö
 
 
-- Sinulla on oltava oma haarasi [Plan ₿ Network -tietovarastosta GitHubissa](https://github.com/PlanB-Network/bitcoin-educational-content).
+- Sinulla on oltava oma haarasi [Plan ₿ Academy -tietovarastosta GitHubissa](https://github.com/Plan ₿ Academy/bitcoin-educational-content).
 - Synkronoi haarasi päähaara (`dev`) lähdekoodivaraston kanssa.
 - Päivitä paikallinen kloonisi.
 
@@ -70,7 +70,7 @@ Kaavioiden ja visuaalisten esitysten luominen:
 git clone https://github.com/<votre-nom-utilisateur>/bitcoin-educational-content.git
 cd bitcoin-educational-content
 # Ajouter le dépôt source en tant que remote upstream
-git remote add upstream https://github.com/PlanB-Network/bitcoin-educational-content.git
+git remote add upstream https://github.com/Plan ₿ Academy/bitcoin-educational-content.git
 # Récupérer les dernières modifications depuis le dépôt source
 git fetch upstream
 # Se positionner sur la branche principale 'dev'
@@ -99,7 +99,7 @@ git push -u origin tuto-green-wallet-loic
 
 ### 3 - Lisää opetusdokumentit
 
-***Huomautus:*** Voit automatisoida vaiheet 3 ja 4 käyttämällä [Python GUI -skriptiäni](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/scripts/tutorial-related/new-tutorial-creation). Suorita se suoraan sen kansiosta paikallisessa kloonissasi ja täytä sitten vaaditut kentät graafisessa käyttöliittymässä. Lisätietoja sen asentamisesta ja käyttämisestä on [README]-julkaisussa(https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
+***Huomautus:*** Voit automatisoida vaiheet 3 ja 4 käyttämällä [Python GUI -skriptiäni](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/scripts/tutorial-related/new-tutorial-creation). Suorita se suoraan sen kansiosta paikallisessa kloonissasi ja täytä sitten vaaditut kentät graafisessa käyttöliittymässä. Lisätietoja sen asentamisesta ja käyttämisestä on [README]-julkaisussa(https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
 
 Jos haluat tehdä sen manuaalisesti, noudata seuraavia ohjeita:
 
@@ -166,11 +166,11 @@ Tässä ovat pakolliset kentät:
 
 - **id**: UUID (_Universally Unique Identifier_), joka yksilöi tutoriaalin. Voit luoda sen käyttämällä [verkkotyökalua](https://www.uuidgenerator.net/version4). Ainoa vaatimus on, että tämä UUID on satunnainen, jotta vältytään ristiriidoilta toisen UUID:n kanssa alustalla;
 
-- **project_id**: Yrityksen tai organisaation UUID, joka liittyy tutoriaalissa esiteltyyn työkaluun [projektien luettelosta](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Jos esimerkiksi luot oppaan Green Wallet -ohjelmistosta, voit löytää tämän `project_id` seuraavasta tiedostosta: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Tämä tieto lisätään tutoriaalin YAML-tiedostoon, koska Plan ₿ Network ylläpitää tietokantaa kaikista Bitcoinin tai siihen liittyvien projektien kanssa toimivista yrityksistä ja organisaatioista. Lisäämällä oppaasi liittyvän yksikön `project_id`, luot linkin kahden elementin välille;
+- **project_id**: Yrityksen tai organisaation UUID, joka liittyy tutoriaalissa esiteltyyn työkaluun [projektien luettelosta](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/resources/projects). Jos esimerkiksi luot oppaan Green Wallet -ohjelmistosta, voit löytää tämän `project_id` seuraavasta tiedostosta: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Tämä tieto lisätään tutoriaalin YAML-tiedostoon, koska Plan ₿ Academy ylläpitää tietokantaa kaikista Bitcoinin tai siihen liittyvien projektien kanssa toimivista yrityksistä ja organisaatioista. Lisäämällä oppaasi liittyvän yksikön `project_id`, luot linkin kahden elementin välille;
 
-- **tags**: 2 tai 3 aiheeseen liittyvää avainsanaa, jotka valitaan yksinomaan [Plan ₿ Networkin avainsanaluettelosta](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags**: 2 tai 3 aiheeseen liittyvää avainsanaa, jotka valitaan yksinomaan [Plan ₿ Networkin avainsanaluettelosta](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
-- **category**: Alakategoria, joka vastaa tutoriaalin sisältöä Plan ₿ Network -sivuston rakenteen mukaisesti (esimerkiksi lompakoille: `desktop`, `hardware`, `mobile`, `backup`);
+- **category**: Alakategoria, joka vastaa tutoriaalin sisältöä Plan ₿ Academy -sivuston rakenteen mukaisesti (esimerkiksi lompakoille: `desktop`, `hardware`, `mobile`, `backup`);
 
 - **level**: Tutoriaalin vaikeustaso, valittavissa seuraavista:
     - `beginner`
@@ -178,7 +178,7 @@ Tässä ovat pakolliset kentät:
     - `advanced`
     - `expert`
 
-- **professor_id**: Sinun `professor_id` (UUID), joka näkyy [professoriprofiilissasi](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
+- **professor_id**: Sinun `professor_id` (UUID), joka näkyy [professoriprofiilissasi](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/professors);
 
 - **original_language**: Oppaan alkuperäinen kieli (esimerkiksi `fr`, `en`, jne.);
 
@@ -191,7 +191,7 @@ Tässä ovat pakolliset kentät:
 
 Lisätietoja opettajatunnuksesta saat vastaavasta ohjeesta:
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 ```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143

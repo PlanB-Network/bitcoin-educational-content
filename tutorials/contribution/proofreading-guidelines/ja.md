@@ -9,10 +9,10 @@ description: Plan ₿ Networkの校正で留意すべき点は何ですか？
 このチュートリアルへようこそ。Bitcoinの資料をできるだけ多くの言語で翻訳し、Bitcoinがどのように機能し、日常生活でどのように使用できるかを人々に知ってもらうという私たちの使命に共感していただき、うれしく思います。
 
 
-まず第一に、Plan ₿ Network [公開リポジトリ](https://github.com/PlanB-Network/Bitcoin-educational-content) に貢献することで、チュートリアルを書いたり、既存のコンテンツを校正したり、あるいはプラットフォームに新しい言語を追加することを提案するチャンスを得ることができます。もっと知るには、まず私たちの[Telegram Group](https://t.me/PlanBNetwork_ContentBuilder)に参加し、あなたとあなたが話せる言語について簡単なプレゼンテーションを書いてください。
+まず第一に、Plan ₿ Academy [公開リポジトリ](https://github.com/Plan ₿ Academy/Bitcoin-educational-content) に貢献することで、チュートリアルを書いたり、既存のコンテンツを校正したり、あるいはプラットフォームに新しい言語を追加することを提案するチャンスを得ることができます。もっと知るには、まず私たちの[Telegram Group](https://t.me/PlanBNetwork_ContentBuilder)に参加し、あなたとあなたが話せる言語について簡単なプレゼンテーションを書いてください。
 
 
-このチュートリアルは、コンテンツの校正を希望するコントリビューターに捧げます。彼らのほとんどは[Github](https://planb.network/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)やリポジトリ内で使用している[Markdown言語](https://www.markdownguide.org/basic-syntax/)についてあまり知らないので、このタスクに関わる重要な要素についての洞察を共有することが重要です。
+このチュートリアルは、コンテンツの校正を希望するコントリビューターに捧げます。彼らのほとんどは[Github](https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)やリポジトリ内で使用している[Markdown言語](https://www.markdownguide.org/basic-syntax/)についてあまり知らないので、このタスクに関わる重要な要素についての洞察を共有することが重要です。
 
 
 以下に、校正者が遭遇する最も一般的な問題を集めました。他の人の改善にも役立つので、遠慮なく提案してください。
@@ -21,7 +21,7 @@ description: Plan ₿ Networkの校正で留意すべき点は何ですか？
 具体的な内容に飛び込む前に、まず最初にすべきことは、Plan ₿ Networkリポジトリのフォーク、変更のコミット、PRの送信など、Github上で従うべき実践的な行動に関するこのチュートリアルを読むことだ：
 
 
-https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
+https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 
 ## 校正とは何か？
@@ -44,7 +44,7 @@ https://planb.network/tutorials/contribution/content/proofreading-review-tutoria
 ## Plan ₿ Networkで校正する前の最初のステップ
 
 
-新しい校正タスクを開始する前に、[Telegram グループ](https://t.me/PlanBNetwork_ContentBuilder) でお知らせいただくか、Plan ₿ Networkコーディネーターにお知らせください。コーディネーターが専用の [issue](https://github.com/orgs/PlanB-Network/projects/3) を開設します。issueのリンクを受け取ったら、**その内容の校正タスクを開始**するとコメントしてください。
+新しい校正タスクを開始する前に、[Telegram グループ](https://t.me/PlanBNetwork_ContentBuilder) でお知らせいただくか、Plan ₿ Networkコーディネーターにお知らせください。コーディネーターが専用の [issue](https://github.com/orgs/Plan ₿ Academy/projects/3) を開設します。issueのリンクを受け取ったら、**その内容の校正タスクを開始**するとコメントしてください。
 
 
 このシステムは、コーディネーターがレポ内の進捗状況を把握するのに役立ち、校正者によってコンテンツが「クレーム」され、他の誰かによる重複作業を防ぐことができる。
@@ -60,7 +60,7 @@ issue自体には、チェックすべきコンテンツにリダイレクトす
 
 
 
-同期に成功したら、この[チュートリアル](https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017)にあるように、目的のコンテンツに直接アクセスして新しいブランチにコミットできます。そうでなければ、下図のように "Branches" をクリックして新しいブランチを開き、そこで作業することができます。
+同期に成功したら、この[チュートリアル](https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017)にあるように、目的のコンテンツに直接アクセスして新しいブランチにコミットできます。そうでなければ、下図のように "Branches" をクリックして新しいブランチを開き、そこで作業することができます。
 
 
 
@@ -115,11 +115,11 @@ LLMツールは、Lightning Networkのように、Bitcoinに関連する単語�
 
 
 
-- もう一つの良い解決策は、ENオリジナルの単語/フレーズをそのままにして、planb.networkの[glossary](https://planb.network/en/resources/glossary)にリダイレクトするハイパーリンクを作成することです。これを行うには、下の例のように、単語/フレーズを角括弧の中に、リンクを丸括弧の中に挿入する必要があります：
+- もう一つの良い解決策は、ENオリジナルの単語/フレーズをそのままにして、planb.networkの[glossary](https://planb.academy/en/resources/glossary)にリダイレクトするハイパーリンクを作成することです。これを行うには、下の例のように、単語/フレーズを角括弧の中に、リンクを丸括弧の中に挿入する必要があります：
 
 
 ```
-[UTXO](https://planb.network/resources/glossary/utxo)
+[UTXO](https://planb.academy/resources/glossary/utxo)
 ```
 
 
@@ -131,14 +131,14 @@ LLMツールは、Lightning Networkのように、Bitcoinに関連する単語�
 
 
 
-ウェブサイトから取得する用語集のリンクには、「network」という単語の後に言語コードが含まれていることにご注意ください（例：``https://planb.network/en/resources/glossary/utxo``->ここでは言語コード「en」を読むことができます）。この場合、上のボックスのように、**リンクから言語コードを削除してください**。そうすれば、システムは自動的に読者を指定された言語に誘導します。
+ウェブサイトから取得する用語集のリンクには、「network」という単語の後に言語コードが含まれていることにご注意ください（例：``https://planb.academy/en/resources/glossary/utxo``->ここでは言語コード「en」を読むことができます）。この場合、上のボックスのように、**リンクから言語コードを削除してください**。そうすれば、システムは自動的に読者を指定された言語に誘導します。
 
 
 リポジトリ上のコンテンツは、上記のようなハイパーリンクでいっぱいです。リンクが何を意味するのかわかったところで、**原作者が挿入したリンク**を削除しないようにしてください。
 
 
 
-- もうひとつ、言葉の表記に関連することとして、次のようなものがある。本文中に「Plan ₿ Network」があったら、**この原形のままにしておく**。plan や network は訳さないこと。また、Plan ₿ Networkを紹介するときに「The」という冠詞を使わないこと： **ブランドとして考えてください**。
+- もうひとつ、言葉の表記に関連することとして、次のようなものがある。本文中に「Plan ₿ Academy」があったら、**この原形のままにしておく**。plan や network は訳さないこと。また、Plan ₿ Networkを紹介するときに「The」という冠詞を使わないこと： **ブランドとして考えてください**。
 
 
 
@@ -289,7 +289,7 @@ PRを送る際、次のような形式で名前をつけると素晴らしいで
 
 また、PR**の**コメント欄には、校正作業を開始したときにコーディネーターから送られてきたissueの番号と "closes "を、その前に``#``と書いてください。
 
-例えば、cyp201の校正＋クイズのPRを送ったばかりなら、「closes [#2934](https://github.com/PlanB-Network/Bitcoin-educational-content/issues/2934)」と書けばいい。
+例えば、cyp201の校正＋クイズのPRを送ったばかりなら、「closes [#2934](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/issues/2934)」と書けばいい。
 
 
 こうすることで、PRとイシューがつながり、公開されているGithubリポジトリを誰が読んでも簡単に情報を見つけることができる。

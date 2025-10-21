@@ -6,7 +6,7 @@ description: Làm thế nào để thêm tài liệu giáo dục mới trên M�
 
 Sứ mệnh của PlanB là cung cấp nguồn tài nguyên giáo dục hàng đầu về Bitcoin, bằng càng nhiều ngôn ngữ khác nhau càng tốt. Tất cả nội dung được công bố trên trang web đều là mã nguồn mở và được lưu trữ trên GitHub, điều này cho phép bất kỳ ai cũng có thể tham gia vào việc làm phong phú nền tảng.
 
-Ngoài các hướng dẫn và đào tạo, Mạng PlanB cũng cung cấp một thư viện đa dạng về nội dung giáo dục liên quan đến Bitcoin, mở cửa cho mọi người, [trong phần "BET" (_Bộ Công Cụ Giáo Dục Bitcoin_) ](https://planb.network/resources/bet). Cơ sở dữ liệu này bao gồm các poster giáo dục, meme, poster tuyên truyền hài hước, sơ đồ kỹ thuật, logo và các công cụ khác cho người dùng. Mục tiêu của sáng kiến này là hỗ trợ cá nhân và cộng đồng dạy về Bitcoin trên toàn thế giới bằng cách cung cấp cho họ các nguồn tài nguyên hình ảnh cần thiết.
+Ngoài các hướng dẫn và đào tạo, Mạng PlanB cũng cung cấp một thư viện đa dạng về nội dung giáo dục liên quan đến Bitcoin, mở cửa cho mọi người, [trong phần "BET" (_Bộ Công Cụ Giáo Dục Bitcoin_) ](https://planb.academy/resources/bet). Cơ sở dữ liệu này bao gồm các poster giáo dục, meme, poster tuyên truyền hài hước, sơ đồ kỹ thuật, logo và các công cụ khác cho người dùng. Mục tiêu của sáng kiến này là hỗ trợ cá nhân và cộng đồng dạy về Bitcoin trên toàn thế giới bằng cách cung cấp cho họ các nguồn tài nguyên hình ảnh cần thiết.
 
 Bạn muốn tham gia làm phong phú cơ sở dữ liệu này, nhưng không biết làm thế nào? Hướng dẫn này dành cho bạn!
 
@@ -14,10 +14,10 @@ Bạn muốn tham gia làm phong phú cơ sở dữ liệu này, nhưng không b
 ![event](assets/01.webp)
 - Đầu tiên, bạn cần có một tài khoản trên GitHub. Nếu bạn không biết cách tạo tài khoản, chúng tôi đã tạo một hướng dẫn chi tiết để hướng dẫn bạn.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
-- Truy cập [kho lưu trữ GitHub của PlanB dành riêng cho dữ liệu](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet) trong phần `resources/bet/`:
+- Truy cập [kho lưu trữ GitHub của PlanB dành riêng cho dữ liệu](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/resources/bet) trong phần `resources/bet/`:
 ![event](assets/02.webp)
 - Nhấp vào nút `Add file` ở góc trên bên phải, sau đó chọn `Create new file`:
 ![event](assets/03.webp)
@@ -47,7 +47,7 @@ contributors:
 ```
 - **`project`**: Chỉ định mã nhận dạng của tổ chức bạn trên Mạng lưới PlanB. Nếu bạn chưa có mã nhận dạng "project" cho công ty của mình, bạn có thể tạo một mã bằng cách làm theo hướng dẫn này.
 
-https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
+https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
  Nếu bạn chưa có, bạn có thể sử dụng tên của mình, bí danh, hoặc tên công ty mà không cần tạo hồ sơ project.
 - **`type`**: Chọn bản chất của nội dung bạn muốn đăng tải từ hai lựa chọn sau:
@@ -72,7 +72,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 Ví dụ, tệp YAML của bạn có thể trông như thế này:
 
 ```yaml
-project: PlanB-Network
+project: Plan ₿ Academy
 type: Educational Content
 links:
   download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
@@ -105,7 +105,7 @@ links:
 - Nhấp vào nút `Commit changes...`: ![sự kiện](assets/22.webp)- Giữ nguyên tiêu đề commit mặc định, và đảm bảo rằng ô `Commit directly to the patch-1 branch` đã được chọn, sau đó nhấp vào `Commit changes`: ![sự kiện](assets/23.webp)
 - Quay lại thư mục `assets`: ![sự kiện](assets/24.webp)
 - Nhấp vào nút `Add file`, sau đó chọn `Upload files`: ![sự kiện](assets/25.webp)
-- Một trang mới sẽ mở ra. Kéo và thả hình thu nhỏ đại diện cho nội dung của bạn vào khu vực này. Hình ảnh này sẽ được hiển thị trên trang web của PlanB Network: ![sự kiện](assets/26.webp)
+- Một trang mới sẽ mở ra. Kéo và thả hình thu nhỏ đại diện cho nội dung của bạn vào khu vực này. Hình ảnh này sẽ được hiển thị trên trang web của Plan ₿ Academy: ![sự kiện](assets/26.webp)
 - Đó có thể là một bản xem trước, logo, hoặc biểu tượng: ![sự kiện](assets/27.webp)
 - Một khi hình ảnh đã được tải lên, đảm bảo rằng ô `Commit directly to the patch-1 branch` đã được chọn, sau đó nhấp vào `Commit changes`: ![sự kiện](assets/28.webp)
 - Hãy cẩn thận, hình ảnh của bạn phải được đặt tên là `logo` và phải ở định dạng `.webp`. Tên file đầy đủ do đó phải là: `logo.webp`: ![sự kiện](assets/29.webp)

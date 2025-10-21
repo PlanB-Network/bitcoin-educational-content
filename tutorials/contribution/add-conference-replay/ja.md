@@ -10,16 +10,16 @@ PlanB NetworkサイトにあなたのBitcoinコンファレンスのリプレイ
 
 しかし、将来行われるコンファレンスを追加したい場合は、サイトに新しいイベントを追加する方法を説明するこの他のチュートリアルを読むことをお勧めします。
 
-https://planb.network/tutorials/contribution/resource/add-event-1d3df554-c2d8-4e93-853f-58f672c5e097
+https://planb.academy/tutorials/contribution/resource/add-event-1d3df554-c2d8-4e93-853f-58f672c5e097
 
 
 ![conference](assets/01.webp)
 - まず、GitHubにアカウントを持っている必要があります。アカウントの作成方法がわからない場合は、ガイドする詳細なチュートリアルを作成しました。
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
-- `resources/conference/`セクションで[PlanBに専用のデータのGitHubリポジトリ](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference)にアクセスしてください：
+- `resources/conference/`セクションで[PlanBに専用のデータのGitHubリポジトリ](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/resources/conference)にアクセスしてください：
 ![conference](assets/02.webp)
 - 右上の`Add file`ボタンをクリックし、次に`Create new file`をクリックします：
 ![conference](assets/03.webp)
@@ -69,7 +69,7 @@ tags:
 
 ![conference](assets/09.webp)
 もしまだお使いの組織に"*project*"識別子がない場合は、この他のチュートリアルに従って追加することができます。
-https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
+https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 - このファイルへの変更が完了したら、`Commit changes...`ボタンをクリックして保存してください：
 ![conference](assets/10.webp)
@@ -177,7 +177,7 @@ description: フランスで最大のビットコイン会議で、毎年8,000�
 ```
 
 ![conference](assets/37.webp)
-- 文書の最初に、「front matter」で、`name:` フィールドに会議の名前とリプレイの年を記入します。`description:` フィールドには、ファイルの言語でイベントの短い説明を書きます。例えば、`en.md` という名前のファイルの場合、説明は英語であるべきです。PlanB Network チームがモデルを使用して説明を翻訳します。
+- 文書の最初に、「front matter」で、`name:` フィールドに会議の名前とリプレイの年を記入します。`description:` フィールドには、ファイルの言語でイベントの短い説明を書きます。例えば、`en.md` という名前のファイルの場合、説明は英語であるべきです。Plan ₿ Academy チームがモデルを使用して説明を翻訳します。
 - 一級タイトル（`#`によってマークされる）は、メインステージのような会議をシーン別に整理するために使用されます。例えば、ワークショップ専用のステージの場合は `# Workshop Room` です。
 
 - 二級タイトル（二重の `##` でマークされる）は、異なるリプレイビデオを分けるために使用されます。もし会議が半日にわたって連続して撮影された場合は、例えば `## 金曜日の朝` と示します。会議が個別に撮影され、放送された場合は、二級タイトルで直接会議の名前を付けます。

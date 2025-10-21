@@ -24,7 +24,7 @@ Igikoresho co gucungera amajambo banga kiratanga amajambo banga akomeye kandi ak
 
 Muri iyi nyigisho, tuzobona ingene woshiraho no gukoresha umucungerezi w’ijambobanga kugira ngo wongere umutekano wawe wo kuri internet. Nzobamenyesha Bitwarden, kandi mu yindi nyigisho, turaza kuraba uwundi muti witwa KeePass.
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Imburi: Umucungerezi w'amajambobanga ni mwiza cane mu kubika amajambobanga, ariko **ntushobora kwigera ubikamwo ijambobanga ryawe rya Bitcoin Wallet!** Ibuka, ijambobanga rya Mnemonic rikwiye kubikwa gusa mu buryo bugaragara, nk'urupapuro canke icuma.
 
@@ -117,9 +117,9 @@ Mbere na mbere, ndaguhanura cane gushinga uburyo bwo kwemeza ko uri uwundi (2FA)
 Niba utazi neza ingene woshiraho no gukoresha ivyo bikoresho vya 2FA, ndagusavye gukurikiza izi zindi nyigisho 2:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 Kugira ngo ubikore, genda kuri "*Umutekano*" mu rutonde rwa "*Ivyagezwe*".
 
@@ -177,7 +177,7 @@ Mu rupapuro rufunguka, tangura umenye kamere y’ikintu uzozigama. Kugira ngo ub
 
 ![BITWARDEN](assets/notext/26.webp)
 
-Mu mwanya wa "*Izina*", shiramwo izina ridondora ivyemezo vyawe. Ivyo bizotuma vyoroha kurondera no gutunganya amajambo y’ibanga yawe, canecane iyo ufise umubare munini. Nk’akarorero, nimba ushaka kubika amakuru yawe y’urubuga rwa PlanB Network, urashobora kwita iki kintu izina mu buryo buzotuma kimenyekana ubwo nyene mu gihe uzoba uriko urarondera muri kazoza.
+Mu mwanya wa "*Izina*", shiramwo izina ridondora ivyemezo vyawe. Ivyo bizotuma vyoroha kurondera no gutunganya amajambo y’ibanga yawe, canecane iyo ufise umubare munini. Nk’akarorero, nimba ushaka kubika amakuru yawe y’urubuga rwa Plan ₿ Academy, urashobora kwita iki kintu izina mu buryo buzotuma kimenyekana ubwo nyene mu gihe uzoba uriko urarondera muri kazoza.
 
 ![BITWARDEN](assets/notext/27.webp)
 
@@ -304,7 +304,7 @@ Ubu uhuye n'umuyobozi wawe wa Bitwarden biciye ku nzira y'umucukumbuzi.
 ![BITWARDEN](assets/notext/51.webp)
 
 
-Nk’akarorero, iyo nsubiye ku rubuga rwa PlanB Network nkagerageza kwinjira muri konti yanje, urashobora kubona ko igice ca Bitwarden cinjijwe muri mucukumbuzi kimenya ivyicaro vyo kwinjiramwo maze kikansaba ubwaco guhitamwo ikimenyetso nari nabitse mbere.
+Nk’akarorero, iyo nsubiye ku rubuga rwa Plan ₿ Academy nkagerageza kwinjira muri konti yanje, urashobora kubona ko igice ca Bitwarden cinjijwe muri mucukumbuzi kimenya ivyicaro vyo kwinjiramwo maze kikansaba ubwaco guhitamwo ikimenyetso nari nabitse mbere.
 
 
 ![BITWARDEN](assets/notext/52.webp)
@@ -313,7 +313,7 @@ Iyo ntoye iki kimenyetso, Bitwarden iranyuzuza ivyicaro vyo kwinjiramwo. Ico kin
 
 ![BITWARDEN](assets/notext/53.webp)
 
-Iryo koraniro kandi rigenewe kumenya ukuntu amakonti mashasha aremwa. Nk’akarorero, igihe urema konti nshasha kuri PlanB Network, Bitwarden ica itanga inama yo kubika ikimenyetso gishasha.
+Iryo koraniro kandi rigenewe kumenya ukuntu amakonti mashasha aremwa. Nk’akarorero, igihe urema konti nshasha kuri Plan ₿ Academy, Bitwarden ica itanga inama yo kubika ikimenyetso gishasha.
 
 ![BITWARDEN](assets/notext/54.webp)
 

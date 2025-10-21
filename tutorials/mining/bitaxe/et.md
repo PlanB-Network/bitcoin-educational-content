@@ -46,7 +46,7 @@ Seega sisestage oma Wi-Fi SSID, ehk teie võrgu nimi, parool, samuti valitud kae
 
 Nagu ekraanil näha, peate eemaldama `stratum+tcp://` ja `:3333` osad, jättes alles ainult `eu.stratum.braiins.com`. Seejärel sisestage `Port` väljale URL-i lõpus olevad 4 numbrit, kuid ilma `:`. Siin on see seega `3333`.
 
-Selles õpetuses kasutame Braiinsi kaevandusbasseini, kuid võite vabalt valida mõne teise. Meie õpetusi kaevandusbasseinide kohta leiate [PlanB Network veebisaidilt](https://planb.network/en/tutorials/mining).
+Selles õpetuses kasutame Braiinsi kaevandusbasseini, kuid võite vabalt valida mõne teise. Meie õpetusi kaevandusbasseinide kohta leiate [Plan ₿ Academy veebisaidilt](https://planb.academy/en/tutorials/mining).
 
 Järgmisena sisestage `User` väljale teie identifikaator ja seejärel `Password`, tavaliselt on see `"x"` või `"Anything123"`.
 

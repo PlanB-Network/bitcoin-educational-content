@@ -21,4 +21,4 @@ BTCpay Sunucusu - BTCSession ile Dakikalar İçinde Bitcoin Ödemelerini Kabul E
 BTCPay Server hakkında eksiksiz bir kursumuz var, bu harika araç hakkındaki bilginizi genişletmek için kursun tamamını ücretsiz olarak görüntüleyebilirsiniz.
 
 
-[**-> BTCPay Sunucusu ve kursumuzdaki faydaları hakkında daha fazla bilgi edinin**](https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1)
+[**-> BTCPay Sunucusu ve kursumuzdaki faydaları hakkında daha fazla bilgi edinin**](https://planb.academy/courses/6fc12131-e464-4515-9d3f-9255365d5fa1)

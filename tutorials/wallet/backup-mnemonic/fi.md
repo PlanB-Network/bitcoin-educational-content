@@ -50,7 +50,7 @@ Kuvan luotto: [*SAFU Ninja Review*, Jameson Lopp](https://jlopp.github.io/metal-
 
 Jos haluat mieluummin investoida täydelliseen metalliseen varmuuskopiointilaitteeseen, suosittelen tutustumaan [Jameson Loppin kestävyystesteihin](https://jlopp.github.io/metal-bitcoin-storage-reviews/), joissa arvioidaan useimmat markkinoilla olevat ratkaisut. Neuvoisin sinua valitsemaan yksiosaiset kannattimet, kuten metallilevyn kaiverrusta, leimausta tai lyöntiä varten. Nämä laitteet tarjoavat yleensä paljon suuremman kestävyyden kuin järjestelmät, joissa käytetään erillisiä koottavia kirjaimia.
 
-Jos valitset paperilompakon, sinulla on useita vaihtoehtoja: pelkkä tyhjä paperiarkki, pahvilompakko, joka usein toimitetaan laitteiston lompakon mukana, tai ladattava malli, jonka voit tulostaa [klikkaamalla tästä](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/wallet-backup-sheet/assets/mnemonic-sheet.pdf).
+Jos valitset paperilompakon, sinulla on useita vaihtoehtoja: pelkkä tyhjä paperiarkki, pahvilompakko, joka usein toimitetaan laitteiston lompakon mukana, tai ladattava malli, jonka voit tulostaa [klikkaamalla tästä](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/resources/bet/wallet-backup-sheet/assets/mnemonic-sheet.pdf).
 
 ![SEED](assets/fr/02.webp)
 
@@ -84,11 +84,11 @@ Voit myös rikastuttaa varmuuskopiotasi lompakkotukeen liittyvillä lisätiedoil
 
 Toisaalta, jos käytät salasanaa, varmista, ettet kirjoita sitä samalle välineelle kuin muistilauseesi. Tunnuslauseen tarkoituksena on suojata lompakkoasi varkaustapauksissa. Jos haluat lisätietoja tunnuslauseen käytöstä, tutustu tähän täydentävään ohjeeseen:
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Kun olet tallentanut muistilauseen fyysiselle tietovälineelle, on erittäin suositeltavaa, että teet palautustestin, kun juuri luotu lompakko on vielä tyhjä. Testi koostuu siitä, että kirjoitat ylös esimerkkitiedon, poistat tyhjän lompakon tarkoituksellisesti ja yrität sitten palauttaa sen käyttämällä vain muistilauseen fyysistä varmuuskopiota. Näin voit tarkistaa, että varmuuskopiosi on täydellinen ja ettei siinä ole syöttövirheitä. Sen avulla voit myös tutustua palautusprosessiin. Näin, jos joudut palauttamaan tulevaisuudessa, olet paremmin valmistautunut ja vältät stressin, joka aiheutuu ensimmäisestä yrityksestä tosielämän tilanteessa. Jos haluat lisätietoja tämän testin suorittamisesta, katso tämä toinen opetusohjelma :
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 Lopuksi on vielä kysymys varmuuskopioiden määrästä. Tämä valinta riippuu täysin henkilökohtaisesta tilanteestasi. Kopioiden lukumäärän rajoittaminen esimerkiksi kirjoittamalla muistilauseesi vain kerran tietovälineelle vähentää varkausriskiä, mutta lisää häviämisriskiä. Sitä vastoin useiden kopioiden tekeminen vähentää häviämisriskiä, mutta lisää varkausriskiä. Sinun on siis löydettävä tarpeisiisi sopiva tasapaino ja määritettävä sopivaksi katsomasi kopiomäärä.
 
@@ -118,6 +118,6 @@ Jos haluat mennä askeleen pidemmälle ja vahvistaa turvallisuusstrategiaasi ent
 
 Siksi kutsun sinut osallistumaan Plan ₿ Networkin tarjoamaan ilmaiseen CYP201-koulutukseen. Tällä kurssilla selitetään yksityiskohtaisesti kaikki Bitcoin-lompakoiden toiminta, jotta voit hallita tekniset näkökohdat, jotka ovat välttämättömiä varojen tehokkaan turvaamisen kannalta:
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 Jos löysit tämän ohjeen hyödylliseksi, olisin kiitollinen, jos jättäisit vihreän peukalon alle. Voit vapaasti jakaa tämän artikkelin sosiaalisissa verkostoissa. Kiitos paljon!

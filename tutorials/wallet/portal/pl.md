@@ -98,7 +98,7 @@ Można go wygrawerować na kartce papieru lub dla większego bezpieczeństwa pol
 Aby uzyskać więcej informacji na temat prawidłowego sposobu zapisywania i zarządzania frazą Mnemonic, zdecydowanie polecam skorzystanie z tego samouczka, zwłaszcza jeśli jesteś początkującym:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 oczywiście nigdy nie wolno dzielić się tymi słowami w Internecie, tak jak ja to robię w tym poradniku. Ten przykładowy Wallet będzie używany tylko na Testnet i zostanie usunięty pod koniec samouczka
 
@@ -340,4 +340,4 @@ Gratulacje, masz już opanowaną obsługę Portalu! Jeśli ten poradnik okazał 
 Aby dowiedzieć się więcej, zapoznaj się z naszym kompletnym szkoleniem na temat działania portfeli HD:
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f

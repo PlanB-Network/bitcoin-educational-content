@@ -12,13 +12,13 @@ description: Как настроить вашу локальную рабочу�
 
 Если вы не знаете, что такое GitHub, или если вы хотите узнать больше о технических терминах, связанных с Git и GitHub, я рекомендую вам прочитать наш вводный статью, чтобы ознакомиться с этими концепциями.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
 - Для начала, вам, очевидно, понадобится аккаунт на GitHub. Если у вас он уже есть, вы можете войти, в противном случае, вы можете использовать наш учебник для создания нового.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -43,15 +43,15 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 - Установите Obsidian, запустите программу, выберите ваш язык, а затем нажмите на `Quick Start`: ![github-desktop](assets/8.webp)
 - Вы попадете в программное обеспечение Obsidian. Пока у вас нет открытых файлов: ![github-desktop](assets/9.webp)
 
-## Шаг 3: Создайте форк репозитория PlanB Network
+## Шаг 3: Создайте форк репозитория Plan ₿ Academy
 
-- Перейдите в репозиторий данных PlanB Network по следующему адресу: [https://github.com/PlanB-Network/bitcoin-educational-content](https://github.com/PlanB-Network/bitcoin-educational-content): ![github-desktop](assets/10.webp)
+- Перейдите в репозиторий данных Plan ₿ Academy по следующему адресу: [https://github.com/Plan ₿ Academy/bitcoin-educational-content](https://github.com/Plan ₿ Academy/bitcoin-educational-content): ![github-desktop](assets/10.webp)
 - На этой странице нажмите кнопку `Fork` в верхнем правом углу окна: ![github-desktop](assets/11.webp)
 - В меню создания вы можете оставить настройки по умолчанию. Убедитесь, что отмечена галочка `Copy the dev branch only`, затем нажмите кнопку `Create fork`: ![github-desktop](assets/12.webp)
-- Затем вы попадете в свой собственный форк репозитория PlanB Network: ![github-desktop](assets/13.webp)
+- Затем вы попадете в свой собственный форк репозитория Plan ₿ Academy: ![github-desktop](assets/13.webp)
 Этот форк является отдельным репозиторием от оригинала, хотя в настоящее время содержит те же данные. Теперь вы будете работать с этим новым репозиторием.
 
-Мы, таким образом, создали копию исходного репозитория PlanB Network. Ваш форк (копия) и оригинальный репозиторий теперь будут развиваться независимо друг от друга. В оригинальном репозитории другие участники могут добавлять новые данные, в то время как вы, в своем форке, будете производить свои собственные изменения.
+Мы, таким образом, создали копию исходного репозитория Plan ₿ Academy. Ваш форк (копия) и оригинальный репозиторий теперь будут развиваться независимо друг от друга. В оригинальном репозитории другие участники могут добавлять новые данные, в то время как вы, в своем форке, будете производить свои собственные изменения.
 Для поддержания согласованности между этими двумя репозиториями необходимо будет периодически синхронизировать их, чтобы они получали одинаковую информацию. Для отправки ваших изменений в исходный репозиторий вы будете использовать то, что называется **Pull Request**. А для интеграции изменений из исходного репозитория в ваш форк вы будете использовать команду **Sync fork**, доступную в веб-интерфейсе GitHub.
 ![github-desktop](assets/14.webp)
 
@@ -65,7 +65,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![github-desktop](assets/17.webp)
 - Подождите, пока GitHub Desktop клонирует ваш форк локально:
 ![github-desktop](assets/18.webp)
-- После клонирования репозитория, программа предлагает вам два варианта. Вам необходимо выбрать первый: `To contribute to the parent project`. Этот выбор позволит вам представить вашу будущую работу как вклад в родительский проект (`PlanB-Network/bitcoin-educational-content`), а не исключительно как модификацию вашего личного форка (`[username]/bitcoin-educational-content`). После выбора опции, нажмите на `Continue`: ![github-desktop](assets/19.webp)
+- После клонирования репозитория, программа предлагает вам два варианта. Вам необходимо выбрать первый: `To contribute to the parent project`. Этот выбор позволит вам представить вашу будущую работу как вклад в родительский проект (`Plan ₿ Academy/bitcoin-educational-content`), а не исключительно как модификацию вашего личного форка (`[username]/bitcoin-educational-content`). После выбора опции, нажмите на `Continue`: ![github-desktop](assets/19.webp)
 - Теперь ваш GitHub Desktop настроен корректно. Теперь вы можете оставить программу открытой в фоновом режиме, чтобы следить за модификациями, которые мы будем вносить.
 ![github-desktop](assets/20.webp)
 На данном этапе мы создали локальную копию вашего репозитория, которая размещена на GitHub. Напоминаем, что этот репозиторий является форком исходного репозитория сети PlanB. Вы сможете вносить изменения в эту локальную копию, такие как добавление учебников, переводов или исправлений. После внесения этих изменений, вы будете использовать команду **Push origin**, чтобы отправить ваши локальные изменения в ваш форк, размещенный на GitHub.
@@ -96,6 +96,6 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 - Установите одну из этих программ и держите ее под рукой для будущих изменений. ![github-desktop](assets/26.webp)
 Поздравляем! Ваша рабочая среда теперь настроена для вклада в сеть PlanB. Теперь вы можете изучить наши другие специальные учебные пособия для каждого типа вклада (перевод, корректура, написание.
 
-https://planb.network/tutorials/others
+https://planb.academy/tutorials/others
 
 ..).

@@ -81,7 +81,7 @@ Sau đây là một số mẹo về cách sao lưu cụm từ dự phòng của 
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Để sao lưu cụm từ của bạn, hãy chọn menu **Tùy chọn > Bảo mật**, sau đó chọn tùy chọn **Kiểm tra cụm từ sao lưu**.
 
@@ -210,4 +210,4 @@ Xin chúc mừng! Bây giờ bạn đã hiểu rõ về danh mục Misty Breez v
 
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125

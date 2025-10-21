@@ -8,7 +8,7 @@ description: PlanB 네트워크에 새로운 교육 자료를 추가하는 방�
 PlanB의 사명은 Bitcoin에 대한 선도적인 교육 리소스를 가능한 한 많은 언어로 제공하는 것입니다. 이 사이트에 게시된 모든 콘텐츠는 오픈 소스이며 GitHub에서 호스팅되므로 누구나 플랫폼을 더욱 풍성하게 만드는 데 참여할 수 있습니다.
 
 
-튜토리얼과 교육 외에도 플랜비 네트워크는 누구나 이용할 수 있는 Bitcoin에 대한 다양한 교육 콘텐츠의 방대한 라이브러리를 "BET"(_비트코인 교육 툴킷_) 섹션에서 제공합니다(https://planb.network/resources/bet). 이 데이터베이스에는 교육용 포스터, 밈, 유머러스한 선전 포스터, 기술 도표, 로고 및 사용자를 위한 기타 도구가 포함되어 있습니다. 이 이니셔티브의 목표는 전 세계에서 Bitcoin을 가르치는 개인과 커뮤니티에 필요한 시각 자료를 제공함으로써 이들을 지원하는 것입니다.
+튜토리얼과 교육 외에도 플랜비 네트워크는 누구나 이용할 수 있는 Bitcoin에 대한 다양한 교육 콘텐츠의 방대한 라이브러리를 "BET"(_비트코인 교육 툴킷_) 섹션에서 제공합니다(https://planb.academy/resources/bet). 이 데이터베이스에는 교육용 포스터, 밈, 유머러스한 선전 포스터, 기술 도표, 로고 및 사용자를 위한 기타 도구가 포함되어 있습니다. 이 이니셔티브의 목표는 전 세계에서 Bitcoin을 가르치는 개인과 커뮤니티에 필요한 시각 자료를 제공함으로써 이들을 지원하는 것입니다.
 
 
 이 데이터베이스를 보강하는 데 참여하고 싶지만 방법을 모르시나요? 이 튜토리얼은 여러분을 위한 것입니다!
@@ -22,11 +22,11 @@ PlanB의 사명은 Bitcoin에 대한 선도적인 교육 리소스를 가능한 
 - 먼저 GitHub에 계정이 있어야 합니다. 계정을 만드는 방법을 모르는 경우 자세한 튜토리얼을 만들어 안내해 드립니다.
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
-- 'resources/bet/' 섹션의 [데이터 전용 PlanB의 GitHub 리포지토리](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/bet)로 이동합니다:
+- 'resources/bet/' 섹션의 [데이터 전용 PlanB의 GitHub 리포지토리](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/resources/bet)로 이동합니다:
 
 ![event](assets/02.webp)
 
@@ -82,7 +82,7 @@ contributors:
 - 프로젝트`**: PlanB 네트워크에서 조직의 식별자를 표시합니다. 아직 회사의 '프로젝트' 식별자가 없는 경우 이 튜토리얼을 따라 생성할 수 있습니다.
 
 
-https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
+https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 프로젝트 프로필이 없는 경우 프로젝트 프로필을 만들지 않고도 이름, 가명 또는 회사 이름을 사용할 수 있습니다.
 
@@ -118,7 +118,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 
 
 ```yaml
-project: PlanB-Network
+project: Plan ₿ Academy
 type: Educational Content
 links:
 download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
@@ -135,7 +135,7 @@ view:
 ![event](assets/13.webp)
 - Click on your GitHub profile picture at the top right, then on `Your Repositories`:
 ![event](assets/14.webp)
-- Select your fork of the PlanB Network repository:
+- Select your fork of the Plan ₿ Academy repository:
 ![event](assets/15.webp)
 - You should see a notification at the top of the window with your new branch. It is probably called `patch-1`. Click on it:
 ![event](assets/16.webp)
@@ -152,7 +152,7 @@ view:
 - Leave the commit title as default, and make sure the `Commit directly to the patch-1 branch` box is checked, then click on `Commit changes`: ![event](assets/23.webp)
 - Return to the `assets` folder: ![event](assets/24.webp)
 - Click on the `Add file` button, then on `Upload files`: ![event](assets/25.webp)
-- A new page will open. Drag and drop a thumbnail that represents your content into the area. This image will be displayed on the PlanB Network site: ![event](assets/26.webp)
+- A new page will open. Drag and drop a thumbnail that represents your content into the area. This image will be displayed on the Plan ₿ Academy site: ![event](assets/26.webp)
 - It can be a preview, a logo, or an icon: ![event](assets/27.webp)
 - Once the image is uploaded, make sure the `Commit directly to the patch-1 branch` box is checked, then click on `Commit changes`: ![event](assets/28.webp)
 - Be careful, your image must be named `logo` and must be in `.webp` format. The full file name should therefore be: `logo.webp`: ![event](assets/29.webp)

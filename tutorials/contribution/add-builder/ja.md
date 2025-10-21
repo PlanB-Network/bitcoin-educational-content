@@ -10,10 +10,10 @@ PlanBのミッションは、できるだけ多くの言語でBitcoinに関す�
 ![project](assets/01.webp)
 - まず、GitHubアカウントを持っている必要があります。アカウントの作成方法がわからない場合は、詳細なチュートリアルを用意しています。
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
-- `resources/project/`セクションにある[PlanB専用のデータGitHubリポジトリ](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects)にアクセスしてください：
+- `resources/project/`セクションにある[PlanB専用のデータGitHubリポジトリ](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/resources/projects)にアクセスしてください：
 ![project](assets/02.webp)
 - 右上の`Add file`ボタンをクリックし、次に`Create new file`をクリックします：
 ![project](assets/03.webp)
@@ -186,7 +186,7 @@ contributors:
 ![project](assets/44.webp)
 おめでとうございます！あなたのPRは正常に作成されました。管理者が今後レビューし、すべてが順調であれば、PlanB Networkのメインリポジトリに統合されます。数日後には、あなたのビルダープロファイルがウェブサイトに表示されるはずです。
 
-PRの進捗状況をフォローしてください。管理者が追加情報を求めるコメントを残すことがあります。PRが承認されるまで、PlanB Network GitHubリポジトリの`Pull requests`タブでそれを確認することができます：
+PRの進捗状況をフォローしてください。管理者が追加情報を求めるコメントを残すことがあります。PRが承認されるまで、Plan ₿ Academy GitHubリポジトリの`Pull requests`タブでそれを確認することができます：
 ![project](assets/45.webp)
 貴重な貢献をいただき、誠にありがとうございます！ :)
 

@@ -10,10 +10,10 @@ description: Как предложить добавление нового ст�
 ![project](assets/01.webp)
 - Во-первых, вам нужен аккаунт на GitHub. Если вы не знаете, как создать аккаунт, мы подготовили подробный учебник, который вас направит.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
-- Перейдите в [репозиторий GitHub PlanB, посвященный данным](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects) в раздел `resources/project/`:
+- Перейдите в [репозиторий GitHub PlanB, посвященный данным](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/resources/projects) в раздел `resources/project/`:
 ![project](assets/02.webp)
 - Нажмите в верхнем правом углу на кнопку `Add file`, затем на `Create new file`:
 ![project](assets/03.webp)
@@ -110,7 +110,7 @@ category: образование
 ![project](assets/13.webp)
 - Нажмите на изображение вашего профиля GitHub в правом верхнем углу, затем на `Your Repositories`:
 ![project](assets/14.webp)
-- Выберите ваш форк репозитория PlanB Network:
+- Выберите ваш форк репозитория Plan ₿ Academy:
 ![project](assets/15.webp)
 - Вы должны увидеть уведомление в верхней части окна с вашей новой веткой. Вероятно, она называется `patch-1`. Нажмите на нее:
 ![project](assets/16.webp)
@@ -131,7 +131,7 @@ category: образование
 ![project](assets/24.webp)
 - Нажмите на кнопку `Add file`, затем на `Upload files`:
 ![project](assets/25.webp)
-- Откроется новая страница. Перетащите изображение вашей компании или вашего программного обеспечения в область. Это изображение будет отображаться на сайте PlanB Network:
+- Откроется новая страница. Перетащите изображение вашей компании или вашего программного обеспечения в область. Это изображение будет отображаться на сайте Plan ₿ Academy:
 ![project](assets/26.webp)
 - Это может быть логотип или иконка:
 ![project](assets/27.webp)

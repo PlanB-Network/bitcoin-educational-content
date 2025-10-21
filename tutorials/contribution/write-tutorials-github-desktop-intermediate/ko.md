@@ -8,13 +8,13 @@ description: GitHub Desktop을 사용하여 Plan ₿ Network에 대한 튜토리
 새 튜토리얼 추가에 대한 이 튜토리얼을 따라하기 전에 몇 가지 사전 단계를 완료해야 합니다. 아직 완료하지 않았다면 먼저 이 소개 튜토리얼을 참조한 다음 여기로 돌아와 주시기 바랍니다:
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+https://planb.academy/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
 이미 하셨습니다:
 
 
 - 튜토리얼의 테마를 선택합니다;
-- 텔레그램 그룹](https://t.me/PlanBNetwork_ContentBuilder) 또는 paolo@planb.network 을 통해 Plan ₿ Network 팀에 문의하세요;
+- 텔레그램 그룹](https://t.me/PlanBNetwork_ContentBuilder) 또는 paolo@planb.network 을 통해 Plan ₿ Academy 팀에 문의하세요;
 - 기여 도구를 선택했습니다.
 
 
@@ -25,7 +25,7 @@ https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-91
 - 숙련된 사용자**:
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+https://planb.academy/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
 로컬 환경을 설정하고 싶지 않다면 초보자를 위해 설계된 다른 튜토리얼을 따라 GitHub의 웹 Interface을 통해 직접 변경하세요:
 
@@ -34,7 +34,7 @@ https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-
 - 초보자(웹 Interface)**:
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 
 ## 전제 조건
 
@@ -56,8 +56,8 @@ https://planb.network/tutorials/contribution/content/write-tutorials-github-web-
 
 
 - GitHub 계정](https://github.com/signup)이 있어야 합니다;
-- Plan ₿ Network 소스 리포지토리](https://github.com/PlanB-Network/Bitcoin-educational-content)의 Fork이 있어야 합니다;
-- Plan ₿ Network에 [교수 프로필](https://planb.network/professors)이 있어야 합니다(전체 튜토리얼을 제안하는 경우에만 해당).
+- Plan ₿ Academy 소스 리포지토리](https://github.com/Plan ₿ Academy/Bitcoin-educational-content)의 Fork이 있어야 합니다;
+- Plan ₿ Network에 [교수 프로필](https://planb.academy/professors)이 있어야 합니다(전체 튜토리얼을 제안하는 경우에만 해당).
 
 
 이러한 필수 요건을 충족하는 데 도움이 필요하다면 다른 튜토리얼을 참조하세요:
@@ -70,7 +70,7 @@ https://planb.network/tutorials/contribution/content/write-tutorials-github-web-
 ## 1 - 새 브랜치 만들기
 
 
-브라우저를 열고 Plan ₿ Network 리포지토리의 Fork 페이지로 이동합니다. 이것이 GitHub에서 설정한 Fork입니다. Fork의 URL은 다음과 같아야 합니다: 'https://github.com/[사용자 아이디]/Bitcoin-educational-content`:
+브라우저를 열고 Plan ₿ Academy 리포지토리의 Fork 페이지로 이동합니다. 이것이 GitHub에서 설정한 Fork입니다. Fork의 URL은 다음과 같아야 합니다: 'https://github.com/[사용자 아이디]/Bitcoin-educational-content`:
 
 
 ![TUTO](assets/fr/03.webp)
@@ -106,7 +106,7 @@ GitHub 데스크톱 소프트웨어를 열고 창의 왼쪽 상단 모서리에�
 ![TUTO](assets/fr/08.webp)
 
 
-새 브랜치가 소스 리포지토리, 즉 `PlanB-Network/Bitcoin-educational-content`를 기반으로 하는지 확인하세요.
+새 브랜치가 소스 리포지토리, 즉 `Plan ₿ Academy/Bitcoin-educational-content`를 기반으로 하는지 확인하세요.
 
 
 대시를 사용하여 각 단어를 구분하여 제목의 목적을 명확하게 알 수 있도록 브랜치 이름을 정합니다. 예를 들어 Sparrow wallet 소프트웨어 사용에 대한 튜토리얼을 작성하는 것이 목표라고 가정해 봅시다. 이 경우 이 튜토리얼을 작성하기 위한 작업 브랜치의 이름은 `tuto-Sparrow-Wallet-loic`으로 지정할 수 있습니다. 적절한 이름을 입력한 후 '브랜치 생성'을 클릭하여 브랜치 생성을 확인합니다:
@@ -143,7 +143,7 @@ GitHub 데스크톱 소프트웨어를 열고 창의 왼쪽 상단 모서리에�
 - Python 3.8 이상.
 
 
-스크립트를 사용하려면 스크립트가 저장된 폴더로 이동합니다. 스크립트는 Plan ₿ Network 데이터 리포지토리의 경로에 있습니다: 'Bitcoin-교육용 콘텐츠/스크립트/튜토리얼 관련/데이터 크리에이터'에 있습니다.
+스크립트를 사용하려면 스크립트가 저장된 폴더로 이동합니다. 스크립트는 Plan ₿ Academy 데이터 리포지토리의 경로에 있습니다: 'Bitcoin-교육용 콘텐츠/스크립트/튜토리얼 관련/데이터 크리에이터'에 있습니다.
 
 
 폴더에 들어가면 종속성을 설치합니다:
@@ -203,7 +203,7 @@ python3 main.py
 아직 교수자 프로필이 없는 경우 이 튜토리얼을 확인하세요:
 
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 그런 다음 '새 튜토리얼' 버튼을 클릭합니다.
 
@@ -229,7 +229,7 @@ https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9b
 ![DATA-CREATOR-PY](assets/fr/45.webp)
 
 
-프로젝트_id`는 튜토리얼에서 다루는 도구를 만든 회사 또는 조직의 UUID로, [프로젝트 목록](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects)에서 확인할 수 있습니다. 예를 들어 Sparrow wallet에 대한 튜토리얼의 경우 파일에서 `project_id`를 찾을 수 있습니다: `Bitcoin-educational-content/resources/projects/Sparrow/project.yml`입니다. 이 정보가 튜토리얼의 YAML 파일에 추가되는 이유는 Plan ₿ Network에서 Bitcoin 또는 관련 프로젝트에서 활동하는 회사 및 조직의 데이터베이스를 관리하기 때문입니다. 연결된 `project_id`를 추가하면 콘텐츠를 관련 엔티티에 연결할 수 있습니다.
+프로젝트_id`는 튜토리얼에서 다루는 도구를 만든 회사 또는 조직의 UUID로, [프로젝트 목록](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/resources/projects)에서 확인할 수 있습니다. 예를 들어 Sparrow wallet에 대한 튜토리얼의 경우 파일에서 `project_id`를 찾을 수 있습니다: `Bitcoin-educational-content/resources/projects/Sparrow/project.yml`입니다. 이 정보가 튜토리얼의 YAML 파일에 추가되는 이유는 Plan ₿ Network에서 Bitcoin 또는 관련 프로젝트에서 활동하는 회사 및 조직의 데이터베이스를 관리하기 때문입니다. 연결된 `project_id`를 추가하면 콘텐츠를 관련 엔티티에 연결할 수 있습니다.
 
 
 ***업데이트: *** 새 버전의 스크립트에서는 더 이상 `project_id`를 수동으로 입력할 필요가 없습니다. 이름으로 프로젝트를 찾고 해당 `project_id`를 자동으로 검색하는 검색 기능이 추가되었습니다. 검색하려면 '프로젝트 이름' 필드에 프로젝트 이름의 앞부분을 입력한 후 드롭다운 메뉴에서 원하는 회사를 선택하세요. 아래 필드에 `project_id`가 자동으로 채워집니다. 필요한 경우 수동으로 입력할 수도 있습니다.
@@ -238,7 +238,7 @@ https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9b
 ![DATA-CREATOR-PY](assets/fr/46.webp)
 
 
-태그의 경우 [Plan ₿ Network 태그 목록](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md)에서 튜토리얼 콘텐츠와 관련된 관련 키워드를 2개 또는 3개 선택합니다. 이 소프트웨어는 드롭다운 목록을 통한 키워드 검색 기능도 제공합니다.
+태그의 경우 [Plan ₿ Academy 태그 목록](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md)에서 튜토리얼 콘텐츠와 관련된 관련 키워드를 2개 또는 3개 선택합니다. 이 소프트웨어는 드롭다운 목록을 통한 키워드 검색 기능도 제공합니다.
 
 
 ![DATA-CREATOR-PY](assets/fr/47.webp)
@@ -253,7 +253,7 @@ https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9b
 이제 스크립트에서 이미 이러한 작업을 완료했으므로 '내 Python 스크립트 없이'라는 하위 섹션과 3단계인 'YAML 파일 채우기'를 건너뛸 수 있습니다. 4단계로 바로 진행하여 튜토리얼 작성을 시작하세요.
 
 
-이 Python 스크립트에 대한 자세한 내용은 [README](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md)에서도 확인할 수 있습니다.
+이 Python 스크립트에 대한 자세한 내용은 [README](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md)에서도 확인할 수 있습니다.
 
 
 ### 파이썬 스크립트 없이
@@ -262,7 +262,7 @@ https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9b
 파일 관리자를 열고 리포지토리의 로컬 복제본이 있는 `Bitcoin-educational-content` 폴더로 이동합니다. 일반적으로 `Documents\GitHub\Bitcoin-educational-content`에서 찾을 수 있습니다.
 
 
-이 디렉토리 내에서 튜토리얼을 배치할 적절한 하위 폴더를 찾아야 합니다. 폴더 구성은 Plan ₿ Network 웹사이트의 여러 섹션을 반영합니다. 이 예에서는 Sparrow wallet에 대한 튜토리얼을 추가하려고 하므로 다음 경로로 이동해야 합니다: 웹사이트의 `Wallet` 섹션에 해당하는 `Bitcoin-educational-content\tutorials\Wallet`입니다:
+이 디렉토리 내에서 튜토리얼을 배치할 적절한 하위 폴더를 찾아야 합니다. 폴더 구성은 Plan ₿ Academy 웹사이트의 여러 섹션을 반영합니다. 이 예에서는 Sparrow wallet에 대한 튜토리얼을 추가하려고 하므로 다음 경로로 이동해야 합니다: 웹사이트의 `Wallet` 섹션에 해당하는 `Bitcoin-educational-content\tutorials\Wallet`입니다:
 
 
 ![TUTO](assets/fr/12.webp)
@@ -344,15 +344,15 @@ reward:
 
 
 
-- project_id**: 프로젝트 목록에서](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects) 튜토리얼에 제시된 도구의 배후에 있는 회사 또는 조직의 UUID입니다. 예를 들어 Green Wallet 소프트웨어에 대한 튜토리얼을 만드는 경우 다음 파일에서 이 `project_id`를 찾을 수 있습니다: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. 이 정보는 Plan ₿ Network에서 Bitcoin 또는 관련 프로젝트를 운영하는 모든 회사 및 조직의 데이터베이스를 유지 관리하기 때문에 튜토리얼의 YAML 파일에 추가됩니다. 튜토리얼에 연결된 엔티티의 `project_id`를 추가하면 두 Elements 사이에 링크가 생성됩니다;
+- project_id**: 프로젝트 목록에서](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/resources/projects) 튜토리얼에 제시된 도구의 배후에 있는 회사 또는 조직의 UUID입니다. 예를 들어 Green Wallet 소프트웨어에 대한 튜토리얼을 만드는 경우 다음 파일에서 이 `project_id`를 찾을 수 있습니다: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. 이 정보는 Plan ₿ Network에서 Bitcoin 또는 관련 프로젝트를 운영하는 모든 회사 및 조직의 데이터베이스를 유지 관리하기 때문에 튜토리얼의 YAML 파일에 추가됩니다. 튜토리얼에 연결된 엔티티의 `project_id`를 추가하면 두 Elements 사이에 링크가 생성됩니다;
 
 
 
-- 태그**: 튜토리얼 콘텐츠와 관련된 관련 키워드 2개 또는 3개, [Plan ₿ Network 태그 목록에서] 독점적으로 선택(https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- 태그**: 튜토리얼 콘텐츠와 관련된 관련 키워드 2개 또는 3개, [Plan ₿ Academy 태그 목록에서] 독점적으로 선택(https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 
 
-- 카테고리**: Plan ₿ Network 웹사이트 구조에 따라 튜토리얼 콘텐츠에 해당하는 하위 카테고리(예: 지갑의 경우 `데스크톱`, `하드웨어`, `모바일`, `백업`);
+- 카테고리**: Plan ₿ Academy 웹사이트 구조에 따라 튜토리얼 콘텐츠에 해당하는 하위 카테고리(예: 지갑의 경우 `데스크톱`, `하드웨어`, `모바일`, `백업`);
 
 
 
@@ -364,7 +364,7 @@ reward:
 
 
 
-- 교수자_ID**: 교수자 프로필](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors)에 표시된 `교수자_id`(UUID)입니다;
+- 교수자_ID**: 교수자 프로필](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/professors)에 표시된 `교수자_id`(UUID)입니다;
 
 
 
@@ -383,7 +383,7 @@ reward:
 교사 ID에 대한 자세한 내용은 해당 튜토리얼을 참조하세요:
 
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 ```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
@@ -571,7 +571,7 @@ description: [Description]
 ![TUTO](assets/fr/32.webp)
 
 
-풀 리퀘스트는 브랜치에서 Plan ₿ Network 리포지토리의 메인 브랜치로 변경 사항을 통합하기 위한 요청으로, 변경 사항을 병합하기 전에 검토하고 논의할 수 있습니다.
+풀 리퀘스트는 브랜치에서 Plan ₿ Academy 리포지토리의 메인 브랜치로 변경 사항을 통합하기 위한 요청으로, 변경 사항을 병합하기 전에 검토하고 논의할 수 있습니다.
 
 
 GitHub의 브라우저에서 풀 리퀘스트의 준비 페이지로 자동 리디렉션됩니다:
@@ -584,7 +584,7 @@ GitHub의 브라우저에서 풀 리퀘스트의 준비 페이지로 자동 리�
 ![TUTO](assets/fr/34.webp)
 
 
-그러면 메인 Plan ₿ Network 리포지토리의 '풀 리퀘스트' 탭에서 PR을 볼 수 있습니다. 관리자가 기여의 병합을 확인하거나 추가 수정을 요청하기 위해 연락이 올 때까지 기다리기만 하면 됩니다.
+그러면 메인 Plan ₿ Academy 리포지토리의 '풀 리퀘스트' 탭에서 PR을 볼 수 있습니다. 관리자가 기여의 병합을 확인하거나 추가 수정을 요청하기 위해 연락이 올 때까지 기다리기만 하면 됩니다.
 
 
 ![TUTO](assets/fr/35.webp)
@@ -606,7 +606,7 @@ GitHub 데스크톱 소프트웨어에서 Fork의 메인 브랜치(`dev`)로 다
 
 
 - PR이 아직 열려 있고 아직 병합되지 않은 경우, 같은 브랜치에 유지하면서 로컬에서 변경을 수행합니다. 수정이 완료되면 `원점 푸시` 버튼을 사용하여 아직 열려 있는 PR에 새 커밋을 추가합니다;
-- PR이 이미 메인 브랜치에 병합된 경우 새 브랜치를 만든 다음 새 PR을 제출하여 프로세스를 다시 시작해야 합니다. 계속 진행하기 전에 로컬 리포지토리가 Plan ₿ Network 소스 리포지토리와 동기화되었는지 확인하세요.
+- PR이 이미 메인 브랜치에 병합된 경우 새 브랜치를 만든 다음 새 PR을 제출하여 프로세스를 다시 시작해야 합니다. 계속 진행하기 전에 로컬 리포지토리가 Plan ₿ Academy 소스 리포지토리와 동기화되었는지 확인하세요.
 
 
 튜토리얼을 제출하는 데 기술적인 문제가 발생하면 언제든지 [기고 전용 텔레그램 그룹](https://t.me/PlanBNetwork_ContentBuilder)에서 도움을 요청하세요. 감사합니다!

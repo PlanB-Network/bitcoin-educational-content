@@ -20,4 +20,4 @@ Seva ya BTCpay - Kubali Malipo ya Bitcoin kwa Dakika na BTCSession
 
 Tuna kozi kamili kuhusu Seva ya BTCPay, Unakaribishwa kutazama kozi kamili bila malipo ili uweze kupanua ujuzi wako wa zana hii ya ajabu.
 
-[**-> Pata maelezo zaidi kuhusu Seva ya BTCPay na matumizi yake katika couse yetu**](https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1)
+[**-> Pata maelezo zaidi kuhusu Seva ya BTCPay na matumizi yake katika couse yetu**](https://planb.academy/courses/6fc12131-e464-4515-9d3f-9255365d5fa1)

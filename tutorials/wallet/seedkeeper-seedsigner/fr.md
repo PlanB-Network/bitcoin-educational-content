@@ -5,7 +5,7 @@ description: Comment utiliser un Seedkeeper avec son SeedSigner ?
 
 ![cover](assets/cover.webp)
 
-*Merci aux équipes de [Satochip](https://satochip.io/) d’avoir accepté la réutilisation [de leurs vidéos](https://www.youtube.com/@satochip/videos) pour la création de ce tutoriel. Une version écrite, qui sera traduite dans toutes les langues, est actuellement en cours de rédaction et sera bientôt disponible sur Plan ₿ Network.*
+*Merci aux équipes de [Satochip](https://satochip.io/) d’avoir accepté la réutilisation [de leurs vidéos](https://www.youtube.com/@satochip/videos) pour la création de ce tutoriel. Une version écrite, qui sera traduite dans toutes les langues, est actuellement en cours de rédaction et sera bientôt disponible sur Plan ₿ Academy.*
 
 ## Comment assembler le lecteur de smartcard ?
 

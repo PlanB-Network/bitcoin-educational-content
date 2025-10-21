@@ -178,7 +178,7 @@ Passordfrasen er et veldig kraftig verktøy for å øke sikkerheten til bitcoins
 
 Passfrasen er et svært kraftig verktøy for å styrke sikkerheten til dine bitcoins. Det er imidlertid veldig viktig å forstå hvordan den fungerer før du implementerer den, for å unngå å miste tilgang til lommeboken din. Derfor forklarer jeg alt i en egen veiledning:
 
-https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+https://planb.academy/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 Til slutt, på den siste innstillingssiden, kan du tilbakestille hovedboken din. Du bør kun tilbakestille hovedboken hvis du er sikker på at den ikke inneholder noen nøkler som sikrer bitcoins, da du kan miste tilgangen til pengene dine permanent.
 
@@ -322,7 +322,7 @@ Du kan legge til en "*Label*" for å beskrive kilden til bitcoinsene som skal si
 
 Hvis du vil ha mer informasjon om merking, anbefaler jeg deg også å ta en titt på denne andre veiledningen:
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Du kan deretter bruke denne adressen til å motta bitcoins.
 

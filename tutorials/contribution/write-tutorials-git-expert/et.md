@@ -1,18 +1,18 @@
 ---
 name: Panus - Git õpetus (edasijõudnutele)
-description: Juhend edasijõudnud kasutajatele, et pakkuda õpetust Plan ₿ Network koos Gitiga
+description: Juhend edasijõudnud kasutajatele, et pakkuda õpetust Plan ₿ Academy koos Gitiga
 ---
 ![cover](assets/cover.webp)
 
 Enne uue õpetuse lisamise õpetuse järgimist peate olema läbinud mõned esialgsed sammud. Kui te pole seda veel teinud, vaadake esmalt seda sissejuhatavat õpetust ja tulge siis siia tagasi:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+https://planb.academy/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
 Sul on juba olemas:
 
 
 - Valige oma õpetuse jaoks teema;
-- Võtke ühendust Plan ₿ Network meeskonnaga [Telegram grupi](https://t.me/PlanBNetwork_ContentBuilder) või paolo@planb.network kaudu;
+- Võtke ühendust Plan ₿ Academy meeskonnaga [Telegram grupi](https://t.me/PlanBNetwork_ContentBuilder) või paolo@planb.network kaudu;
 - Valige oma panustamise vahendid.
 
 Selles kogenud Git-kasutajatele mõeldud õpetuses võtame lühidalt kokku peamised sammud ja olulised suunised uue Plan ₿ Networki õpetuse pakkumiseks. Kui te ei ole Gitiga ja GitHubiga kursis, soovitan teil selle asemel jälgida ühte neist kahest teisest üksikasjalikumast juhendmaterjalist, mis viivad teid samm-sammult edasi:
@@ -20,11 +20,11 @@ Selles kogenud Git-kasutajatele mõeldud õpetuses võtame lühidalt kokku peami
 
 - **Vahepealne (GitHub Desktop)**:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 - **Algajad (veebiliides)**:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 
 ## Soovitatavad vahendid
 
@@ -61,7 +61,7 @@ Diagrammide ja visuaalide loomiseks:
 ### 1 - Kohaliku keskkonna konfigureerimine
 
 
-- Teil peab olema oma haru [Plan ₿ Network repository on GitHub](https://github.com/PlanB-Network/bitcoin-educational-content).
+- Teil peab olema oma haru [Plan ₿ Academy repository on GitHub](https://github.com/Plan ₿ Academy/bitcoin-educational-content).
 - Sünkroniseeri oma hargnemise põhiharu (`dev`) allikarepositooriumiga.
 - Uuendage oma kohalikku klooni.
 
@@ -70,7 +70,7 @@ Diagrammide ja visuaalide loomiseks:
 git clone https://github.com/<votre-nom-utilisateur>/bitcoin-educational-content.git
 cd bitcoin-educational-content
 # Ajouter le dépôt source en tant que remote upstream
-git remote add upstream https://github.com/PlanB-Network/bitcoin-educational-content.git
+git remote add upstream https://github.com/Plan ₿ Academy/bitcoin-educational-content.git
 # Récupérer les dernières modifications depuis le dépôt source
 git fetch upstream
 # Se positionner sur la branche principale 'dev'
@@ -99,7 +99,7 @@ git push -u origin tuto-green-wallet-loic
 
 ### 3 - Lisage juhendmaterjalid
 
-***Märkus:*** Sammud 3 ja 4 saab automatiseerida, kasutades [minu Python GUI skripti](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/scripts/tutorial-related/new-tutorial-creation). Käivitage see otse selle kaustast oma kohalikus kloonis, seejärel täitke nõutavad väljad GUI-s. Lisateavet selle paigaldamise ja kasutamise kohta leiate [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
+***Märkus:*** Sammud 3 ja 4 saab automatiseerida, kasutades [minu Python GUI skripti](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/scripts/tutorial-related/new-tutorial-creation). Käivitage see otse selle kaustast oma kohalikus kloonis, seejärel täitke nõutavad väljad GUI-s. Lisateavet selle paigaldamise ja kasutamise kohta leiate [README](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
 
 Kui soovite seda käsitsi teha, järgige järgmisi samme:
 
@@ -166,9 +166,9 @@ Siin on kohustuslikud väljad:
 
 - **id**: UUID (_Universally Unique Identifier_), mis võimaldab õpetust ainulaadselt tuvastada. Selle saab luua [veebitööriista](https://www.uuidgenerator.net/version4) abil. Ainus nõue on, et see UUID oleks juhuslik, et vältida konflikte teiste platvormil olevate UUID-dega;
 
-- **project_id**: Ettevõtte või organisatsiooni UUID, mis on seotud õpetuses esitatud tööriistaga [projektide loendist](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Näiteks kui loote õpetust Green Walleti tarkvara kohta, leiate `project_id` järgmisest failist: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. See teave lisatakse teie õpetuse YAML-faili, kuna Plan ₿ Network haldab kõigi Bitcoiniga seotud ettevõtete ja organisatsioonide andmebaasi. Lisades oma õpetusega seotud üksuse `project_id`, loote seose kahe elemendi vahel;
+- **project_id**: Ettevõtte või organisatsiooni UUID, mis on seotud õpetuses esitatud tööriistaga [projektide loendist](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/resources/projects). Näiteks kui loote õpetust Green Walleti tarkvara kohta, leiate `project_id` järgmisest failist: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. See teave lisatakse teie õpetuse YAML-faili, kuna Plan ₿ Academy haldab kõigi Bitcoiniga seotud ettevõtete ja organisatsioonide andmebaasi. Lisades oma õpetusega seotud üksuse `project_id`, loote seose kahe elemendi vahel;
 
-- **tags**: 2 või 3 õpetuse sisuga seotud märksõna, mis valitakse ainult [Plan ₿ Networki siltide loendist](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags**: 2 või 3 õpetuse sisuga seotud märksõna, mis valitakse ainult [Plan ₿ Networki siltide loendist](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 - **category**: Õpetuse sisule vastav alamosa Plan ₿ Networki saidi struktuuri järgi (näiteks rahakottide jaoks: `desktop`, `hardware`, `mobile`, `backup`);
 
@@ -178,7 +178,7 @@ Siin on kohustuslikud väljad:
     - `advanced`
     - `expert`
 
-- **professor_id**: Teie `professor_id` (UUID), nagu on näidatud [teie professori profiilil](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
+- **professor_id**: Teie `professor_id` (UUID), nagu on näidatud [teie professori profiilil](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/professors);
 
 - **original_language**: Õpetuse algne keel (näiteks `fr`, `en`, jne);
 
@@ -191,7 +191,7 @@ Siin on kohustuslikud väljad:
 
 Lisateavet õpetaja ID kohta leiate vastavast juhendmaterjalist:
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 ```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143

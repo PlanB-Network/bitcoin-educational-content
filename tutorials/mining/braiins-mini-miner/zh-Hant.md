@@ -134,13 +134,13 @@ Mini Miner Braiins BMM 100 是 Mining pool Braiins 創造的產品。此裝置�
 
 
 
-https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
+https://planb.academy/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
 
 第二個選項是將我們連線到獨奏中 mina 的 Mining pool，例如 Public Pool，請依照此指南來做：
 
 
 
-https://planb.network/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
 #### Braiins 游泳池
 
@@ -150,7 +150,7 @@ https://planb.network/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1
 
 
 
-https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
+https://planb.academy/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
 
 完成後，我們就進入了 Braiins pool 面板。我們要做的是告訴該池我們想要連接我們的一個礦工，因此在螢幕左側您會發現許多條目。我們需要轉到 "workers"。
 
@@ -168,7 +168,7 @@ https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a
 
 
 
-這裡會出現一個視窗，顯示我們需要將迷你 Miner 連接到資料池的資訊。在這裡，我們唯一可以做的變更是選擇 Stratum V2。要瞭解什麼是 Stratum v2，請參閱 [詞彙表](https://planb.network/en/resources/glossary/stratum-v2) 中的此條目。
+這裡會出現一個視窗，顯示我們需要將迷你 Miner 連接到資料池的資訊。在這裡，我們唯一可以做的變更是選擇 Stratum V2。要瞭解什麼是 Stratum v2，請參閱 [詞彙表](https://planb.academy/en/resources/glossary/stratum-v2) 中的此條目。
 
 
 

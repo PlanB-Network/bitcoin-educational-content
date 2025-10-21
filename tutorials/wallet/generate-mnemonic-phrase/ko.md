@@ -45,7 +45,7 @@ Mnemonic 문구는 선택 사항인 passphrase과 함께 HD(계층적 결정론�
 - 종이 한 장;
 - 펜이나 연필, 정리하기 쉽도록 색이 다른 것이 좋습니다;
 - 불균형한 주사위로 인한 편향의 위험을 최소화하기 위해 여러 개의 주사위를 사용합니다;
-- [2048개의 BIP39 단어 목록](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)을 출력했습니다.
+- [2048개의 BIP39 단어 목록](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)을 출력했습니다.
 
 
 그 후 체크섬 계산을 위해 터미널이 있는 컴퓨터를 사용해야 합니다. 바로 이러한 이유로 Mnemonic 문구의 수동 생성을 권장하지 않는 것이 좋습니다. 제 생각에는 이 튜토리얼에서 언급 한 예방 조치 하에서도 컴퓨터의 개입은 Wallet의 취약성을 크게 증가시킵니다.
@@ -102,7 +102,7 @@ Mnemonic 문구의 경우, 체크섬의 기능은 Wallet 소프트웨어에 문�
 ![mnemonic](assets/notext/5.webp)
 
 
-마지막으로 십진수로 표시된 숫자는 [2048개의 BIP39 단어 목록](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)에서 해당 단어의 위치를 알려줍니다. 이제 남은 것은 이 단어들을 선택하여 Wallet의 복구 구문을 구성하는 것입니다.
+마지막으로 십진수로 표시된 숫자는 [2048개의 BIP39 단어 목록](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)에서 해당 단어의 위치를 알려줍니다. 이제 남은 것은 이 단어들을 선택하여 Wallet의 복구 구문을 구성하는 것입니다.
 
 
 ![mnemonic](assets/notext/6.webp)
@@ -137,7 +137,7 @@ Mnemonic 문구의 경우, 체크섬의 기능은 Wallet 소프트웨어에 문�
 ## 2단계: 체크섬 계산하기
 
 
-이 단계는 컴퓨터를 사용해야 하므로 Mnemonic 구문을 수동으로 생성할 때 가장 중요한 단계입니다. 앞서 언급했듯이, 체크섬은 엔트로피에서 생성된 SHA256 Hash의 시작 부분에 해당합니다. 이론적으로는 128비트 또는 256비트 입력에 대해 수작업으로 SHA256을 계산하는 것이 가능하지만, 이 작업은 일주일 내내 걸릴 수 있습니다. 게다가 수동 계산의 오류는 프로세스가 끝날 때만 확인되므로 처음부터 다시 시작해야 합니다. 따라서 종이 한 장과 펜으로 이 단계를 수행하는 것은 상상할 수 없는 일입니다. 컴퓨터는 거의 필수입니다. 그래도 손으로 SHA256을 수행하는 방법을 배우고 싶으시다면, [CRYPTO301 과정](https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f)에서 방법을 설명해드리겠습니다.
+이 단계는 컴퓨터를 사용해야 하므로 Mnemonic 구문을 수동으로 생성할 때 가장 중요한 단계입니다. 앞서 언급했듯이, 체크섬은 엔트로피에서 생성된 SHA256 Hash의 시작 부분에 해당합니다. 이론적으로는 128비트 또는 256비트 입력에 대해 수작업으로 SHA256을 계산하는 것이 가능하지만, 이 작업은 일주일 내내 걸릴 수 있습니다. 게다가 수동 계산의 오류는 프로세스가 끝날 때만 확인되므로 처음부터 다시 시작해야 합니다. 따라서 종이 한 장과 펜으로 이 단계를 수행하는 것은 상상할 수 없는 일입니다. 컴퓨터는 거의 필수입니다. 그래도 손으로 SHA256을 수행하는 방법을 배우고 싶으시다면, [CRYPTO301 과정](https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f)에서 방법을 설명해드리겠습니다.
 
 
 이러한 이유로 실제 Wallet에 대한 수동 문구를 만들지 않는 것이 좋습니다. 제 생각에는 이 단계에서 컴퓨터를 사용하면 필요한 모든 예방 조치를 취하더라도 Wallet의 공격 표면이 비합리적으로 증가합니다.
@@ -332,7 +332,7 @@ Mnemonic 구문을 완성하려면 체크섬을 구성하는 Hash의 처음 4비
 이 조정이 끝나면 목록 내 각 단어의 순위가 정해집니다. 이제 남은 것은 각 단어를 번호로 식별하는 것입니다. 물론 다른 모든 단계와 마찬가지로 컴퓨터를 사용하여 이 변환을 수행해서는 안 됩니다. 따라서 미리 목록을 인쇄해 두어야 합니다.
 
 
-[**-> A4 형식의 BIP39 목록 인쇄**](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)
+[**-> A4 형식의 BIP39 목록 인쇄**](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)
 
 
 예를 들어 첫 번째 줄에서 파생된 숫자가 1721이면 해당 단어는 목록에서 1721번째가 됩니다:

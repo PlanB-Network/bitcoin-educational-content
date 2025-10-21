@@ -1,6 +1,6 @@
 ---
-name: Dodawanie podcastu do PlanB Network
-description: Jak dodać nowy podcast do PlanB Network?
+name: Dodawanie podcastu do Plan ₿ Academy
+description: Jak dodać nowy podcast do Plan ₿ Academy?
 ---
 ![podcast](assets/cover.webp)
 
@@ -8,7 +8,7 @@ description: Jak dodać nowy podcast do PlanB Network?
 Misją PlanB jest dostarczanie najwyższej jakości zasobów edukacyjnych na temat Bitcoin w jak największej liczbie języków. Wszystkie treści publikowane na stronie są open-source i hostowane na GitHub, dzięki czemu każdy może uczestniczyć we wzbogacaniu platformy.
 
 
-Chcesz dodać podcast Bitcoin do witryny PlanB Network i zwiększyć widoczność swojego programu, ale nie wiesz jak to zrobić? Ten poradnik jest dla Ciebie!
+Chcesz dodać podcast Bitcoin do witryny Plan ₿ Academy i zwiększyć widoczność swojego programu, ale nie wiesz jak to zrobić? Ten poradnik jest dla Ciebie!
 
 ![podcast](assets/01.webp)
 
@@ -16,11 +16,11 @@ Chcesz dodać podcast Bitcoin do witryny PlanB Network i zwiększyć widocznoś�
 - Po pierwsze, musisz mieć konto GitHub. Jeśli nie wiesz, jak je utworzyć, przygotowaliśmy szczegółowy samouczek, który Cię poprowadzi.
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
-- Przejdź do [repozytorium GitHub PlanB poświęconego danym](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/podcasts) w sekcji `resources/podcasts/`:
+- Przejdź do [repozytorium GitHub PlanB poświęconego danym](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/resources/podcasts) w sekcji `resources/podcasts/`:
 
 ![podcast](assets/02.webp)
 
@@ -30,7 +30,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![podcast](assets/03.webp)
 
 
-- Jeśli nigdy wcześniej nie współtworzyłeś zawartości PlanB Network, będziesz musiał utworzyć Fork oryginalnego repozytorium. Rozwidlenie repozytorium oznacza utworzenie kopii tego repozytorium na własnym koncie GitHub, umożliwiając pracę nad projektem bez wpływu na oryginalne repozytorium. Kliknij przycisk `Fork tego repozytorium`:
+- Jeśli nigdy wcześniej nie współtworzyłeś zawartości Plan ₿ Academy, będziesz musiał utworzyć Fork oryginalnego repozytorium. Rozwidlenie repozytorium oznacza utworzenie kopii tego repozytorium na własnym koncie GitHub, umożliwiając pracę nad projektem bez wpływu na oryginalne repozytorium. Kliknij przycisk `Fork tego repozytorium`:
 
 ![podcast](assets/04.webp)
 
@@ -159,7 +159,7 @@ contributors:
 ![podcast](assets/14.webp)
 
 
-- Wybierz Fork z repozytorium PlanB Network:
+- Wybierz Fork z repozytorium Plan ₿ Academy:
 
 ![podcast](assets/15.webp)
 
@@ -210,7 +210,7 @@ contributors:
 ![podcast](assets/25.webp)
 
 
-- Otworzy się nowa strona. Przeciągnij i upuść logo podcastu w tym obszarze. Obraz ten będzie wyświetlany na stronie PlanB Network:
+- Otworzy się nowa strona. Przeciągnij i upuść logo podcastu w tym obszarze. Obraz ten będzie wyświetlany na stronie Plan ₿ Academy:
 
 ![podcast](assets/26.webp)
 
@@ -269,10 +269,10 @@ contributors:
 
 ![podcast](assets/37.webp)
 
-Gratulacje! Twój PR został pomyślnie utworzony. Administrator przejrzy go teraz i, jeśli wszystko jest w porządku, połączy go z głównym repozytorium PlanB Network. Podcast powinien pojawić się na stronie kilka dni później.
+Gratulacje! Twój PR został pomyślnie utworzony. Administrator przejrzy go teraz i, jeśli wszystko jest w porządku, połączy go z głównym repozytorium Plan ₿ Academy. Podcast powinien pojawić się na stronie kilka dni później.
 
 
-Prosimy o śledzenie postępów PR. Administrator może zostawić komentarz z prośbą o dodatkowe informacje. Dopóki twój PR nie zostanie zatwierdzony, możesz go wyświetlić w zakładce `Pull requests` w repozytorium PlanB Network GitHub:
+Prosimy o śledzenie postępów PR. Administrator może zostawić komentarz z prośbą o dodatkowe informacje. Dopóki twój PR nie zostanie zatwierdzony, możesz go wyświetlić w zakładce `Pull requests` w repozytorium Plan ₿ Academy GitHub:
 
 ![podcast](assets/38.webp)
 

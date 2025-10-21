@@ -50,7 +50,7 @@ Image credit: [*SAFU Ninja Review*, Jameson Lopp](https://jlopp.github.io/metal-
 
 Pokud raději investujete do kompletního zařízení pro zálohování kovů, doporučuji vám podívat se na [testy odolnosti Jamesona Loppa](https://jlopp.github.io/metal-bitcoin-storage-reviews/), které hodnotí většinu řešení dostupných na trhu. Doporučil bych vám, abyste se rozhodli pro jednodílné držáky, jako je kovová deska pro gravírování, ražení nebo děrování. Tato zařízení obecně nabízejí mnohem větší odolnost než systémy využívající samostatná písmena, která je třeba sestavit.
 
-Pokud se rozhodnete pro papírovou peněženku, máte několik možností: jednoduchý prázdný list papíru, kartonovou peněženku, která se často dodává s hardwarovou peněženkou, nebo naši šablonu ke stažení, kterou si můžete vytisknout [kliknutím sem](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/wallet-backup-sheet/assets/mnemonic-sheet.pdf).
+Pokud se rozhodnete pro papírovou peněženku, máte několik možností: jednoduchý prázdný list papíru, kartonovou peněženku, která se často dodává s hardwarovou peněženkou, nebo naši šablonu ke stažení, kterou si můžete vytisknout [kliknutím sem](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/resources/bet/wallet-backup-sheet/assets/mnemonic-sheet.pdf).
 
 ![SEED](assets/fr/02.webp)
 
@@ -84,11 +84,11 @@ Zálohu můžete také obohatit o další informace týkající se podpory peně
 
 Na druhou stranu, pokud používáte přístupovou frázi, ujistěte se, že ji nezapisujete na stejné médium jako mnemotechnickou frázi. Účelem heslové fráze je chránit vaši peněženku v případě krádeže. Chcete-li se dozvědět více o tom, jak používat přístupovou frázi, podívejte se na tento doplňující návod:
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Po uložení mnemotechnické fráze na fyzické médium důrazně doporučujeme provést test obnovení, dokud je nově vytvořená peněženka ještě prázdná. Tento test spočívá v zapsání vzorové informace, záměrném vymazání prázdné peněženky a následném pokusu o její obnovení pouze pomocí vaší fyzické zálohy mnemotechnické fráze. Tím si ověříte, zda je vaše záloha kompletní a bez vstupních chyb. Umožní vám to také seznámit se s procesem obnovy. V případě potřeby obnovy v budoucnu tak budete lépe připraveni a vyhnete se stresu z prvního pokusu v reálné situaci. Další informace o tom, jak tento test provést, naleznete v tomto dalším návodu :
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 A konečně je tu otázka počtu záloh. Tato volba závisí výhradně na vaší osobní situaci. Omezení počtu kopií, například zapsáním mnemotechnické fráze pouze jednou na médium, snižuje riziko krádeže, ale zvyšuje riziko ztráty. Naopak vytvoření několika kopií snižuje riziko ztráty, ale zvyšuje riziko krádeže. Je tedy na vás, abyste našli správnou rovnováhu pro své potřeby a určili počet kopií, který považujete za nejvhodnější.
 
@@ -116,8 +116,8 @@ A konečně, správa mnemotechnických frází vyvolává také otázku dědičn
 
 Chcete-li jít ještě o krok dál a dále posílit svou bezpečnostní strategii, doporučuji, abyste se seznámili s technickým fungováním své bitcoinové peněženky. Pochopíte-li, jak jednotlivé prvky vzájemně působí a jaký mají význam a důsledky, budete moci vyladit svou bezpečnostní strategii s plným vědomím souvisejících rizik. Zejména pokud na technické úrovni pochopíte, co mnemotechnická fráze umožňuje, budete moci časem upravit způsob jejího zaznamenávání, ukládání a správy.
 
-Proto vás zvu na bezplatné školení CYP201, které nabízí společnost Plan ₿ Network. Tento školicí kurz podrobně vysvětluje veškeré fungování bitcoinových peněženek a umožní vám zvládnout technické aspekty nezbytné pro efektivní zabezpečení vašich finančních prostředků :
+Proto vás zvu na bezplatné školení CYP201, které nabízí společnost Plan ₿ Academy. Tento školicí kurz podrobně vysvětluje veškeré fungování bitcoinových peněženek a umožní vám zvládnout technické aspekty nezbytné pro efektivní zabezpečení vašich finančních prostředků :
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 Pokud pro vás byl tento návod užitečný, budu vám vděčný, když mi níže zanecháte zelený palec. Neváhejte tento článek sdílet na svých sociálních sítích. Moc vám děkuji!

@@ -6,7 +6,7 @@ description: Как добавить новые образовательные �
 
 Миссия PlanB - предоставить ведущие образовательные ресурсы по Bitcoin на максимально возможном количестве языков. Все контент, опубликованный на сайте, является открытым и размещается на GitHub, что позволяет любому желающему участвовать в обогащении платформы.
 
-Помимо учебных пособий и тренингов, сеть PlanB также предлагает обширную библиотеку разнообразного образовательного контента по Bitcoin, доступного каждому, [в разделе "BET" (_Bitcoin Educational Toolkit_)](https://planb.network/resources/bet). Эта база данных включает в себя образовательные плакаты, мемы, юмористические пропагандистские плакаты, технические схемы, логотипы и другие инструменты для пользователей. Цель этой инициативы - поддержать людей и сообщества, обучающие Bitcoin по всему миру, предоставляя им необходимые визуальные ресурсы.
+Помимо учебных пособий и тренингов, сеть PlanB также предлагает обширную библиотеку разнообразного образовательного контента по Bitcoin, доступного каждому, [в разделе "BET" (_Bitcoin Educational Toolkit_)](https://planb.academy/resources/bet). Эта база данных включает в себя образовательные плакаты, мемы, юмористические пропагандистские плакаты, технические схемы, логотипы и другие инструменты для пользователей. Цель этой инициативы - поддержать людей и сообщества, обучающие Bitcoin по всему миру, предоставляя им необходимые визуальные ресурсы.
 
 Хотите участвовать в обогащении этой базы данных, но не знаете как? Этот учебник для вас!
 
@@ -14,10 +14,10 @@ description: Как добавить новые образовательные �
 ![event](assets/01.webp)
 - Во-первых, вам нужно иметь аккаунт на GitHub. Если вы не знаете, как создать аккаунт, мы подготовили подробный учебник, который вас направит.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
-- Перейдите в [репозиторий GitHub PlanB, посвященный данным](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet) в раздел `resources/bet/`:
+- Перейдите в [репозиторий GitHub PlanB, посвященный данным](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/resources/bet) в раздел `resources/bet/`:
 ![event](assets/02.webp)
 - Нажмите в верхнем правом углу на кнопку `Add file`, затем на `Create new file`:
 ![event](assets/03.webp)
@@ -49,7 +49,7 @@ contributors:
 Вот детали, которые нужно заполнить для каждого поля:
 - **`project`**: Укажите идентификатор вашей организации в сети PlanB. Если у вашей компании еще нет идентификатора "project", вы можете создать его, следуя этому руководству.
 
-https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
+https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
  Если у вас его нет, вы можете просто использовать ваше имя, псевдоним или название вашей компании, не создавая профиль project.
 - **`type`**: Выберите характер вашего контента из следующих двух вариантов:
@@ -74,7 +74,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 Например, ваш YAML-файл может выглядеть так:
 
 ```yaml
-project: PlanB-Network
+project: Plan ₿ Academy
 type: Educational Content
 links:
   download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
@@ -91,7 +91,7 @@ links:
 ![event](assets/13.webp)
 - Нажмите на изображение вашего профиля GitHub в правом верхнем углу, затем на `Your Repositories`:
 ![event](assets/14.webp)
-- Выберите ваш форк репозитория PlanB Network:
+- Выберите ваш форк репозитория Plan ₿ Academy:
 ![event](assets/15.webp)
 - В верхней части окна должно появиться уведомление с вашей новой веткой. Вероятно, она называется `patch-1`. Нажмите на нее:
 ![event](assets/16.webp)
@@ -107,7 +107,7 @@ links:
 - Нажмите на кнопку `Commit changes...`: ![event](assets/22.webp)- Оставьте заголовок коммита по умолчанию и убедитесь, что отмечен чекбокс `Commit directly to the patch-1 branch`, затем нажмите на `Commit changes`: ![event](assets/23.webp)
 - Вернитесь в папку `assets`: ![event](assets/24.webp)
 - Нажмите на кнопку `Add file`, затем на `Upload files`: ![event](assets/25.webp)
-- Откроется новая страница. Перетащите миниатюру, представляющую ваш контент, в указанную область. Это изображение будет отображаться на сайте PlanB Network: ![event](assets/26.webp)
+- Откроется новая страница. Перетащите миниатюру, представляющую ваш контент, в указанную область. Это изображение будет отображаться на сайте Plan ₿ Academy: ![event](assets/26.webp)
 - Это может быть предварительный просмотр, логотип или иконка: ![event](assets/27.webp)
 - После загрузки изображения убедитесь, что отмечен чекбокс `Commit directly to the patch-1 branch`, затем нажмите на `Commit changes`: ![event](assets/28.webp)
 - Будьте внимательны, ваше изображение должно быть названо `logo` и должно быть в формате `.webp`. Полное имя файла должно быть следующим: `logo.webp`: ![event](assets/29.webp)

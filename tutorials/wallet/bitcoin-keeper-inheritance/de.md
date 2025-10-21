@@ -17,7 +17,7 @@ Dieses Video-Tutorial führt Sie durch die Einrichtung und Verwendung von Bitcoi
 
 Die vollständige Anleitung für Bitcoin Keeper Wallet finden Sie hier:
 
-https://planb.network/tutorials/wallet/mobile/bitcoin-keeper-7f2a160b-10b6-4cc5-8820-514ee2eb1599
+https://planb.academy/tutorials/wallet/mobile/bitcoin-keeper-7f2a160b-10b6-4cc5-8820-514ee2eb1599
 
 Sehen Sie sich hier weitere relevante Links an:
 
@@ -26,4 +26,4 @@ Sehen Sie sich hier weitere relevante Links an:
 - Tapsigner [Video](youtube.com/watch?v=xKHy1HMw5iU)
 
 
-**Hinweis:** Dieses Tutorial ist nur ein Entwurf auf Englisch, wir brauchen noch jemanden, der eine ausführliche Anleitung zu diesem Thema schreibt. Wenn Sie derjenige sind, kontaktieren Sie uns bitte auf [Telegram] (https://t.me/PlanBNetwork_ContentBuilder/325) oder auf [GitHub] (https://github.com/PlanB-Network/Bitcoin-educational-content)
+**Hinweis:** Dieses Tutorial ist nur ein Entwurf auf Englisch, wir brauchen noch jemanden, der eine ausführliche Anleitung zu diesem Thema schreibt. Wenn Sie derjenige sind, kontaktieren Sie uns bitte auf [Telegram] (https://t.me/PlanBNetwork_ContentBuilder/325) oder auf [GitHub] (https://github.com/Plan ₿ Academy/Bitcoin-educational-content)

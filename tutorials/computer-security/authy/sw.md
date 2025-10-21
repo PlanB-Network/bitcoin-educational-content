@@ -91,7 +91,7 @@ Ili kuongeza kifaa kipya, rudia tu mchakato wa usakinishaji uliowasilishwa katik
 Ili kusanidi msimbo wa uthibitishaji wa 2FA kupitia programu kama vile Authy kwenye akaunti, ni lazima akaunti iauni kipengele hiki. Siku hizi, huduma nyingi za mtandaoni hutoa chaguo hili la 2FA, lakini hii sio hivyo kila wakati. Wacha tuchukue mfano wa akaunti ya barua ya Proton ambayo niliwasilisha kwenye mafunzo mengine:
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ![AUTHY 2FA](assets/notext/13.webp)
 

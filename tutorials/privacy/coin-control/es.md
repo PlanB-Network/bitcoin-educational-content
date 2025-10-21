@@ -51,7 +51,7 @@ En el protocolo Bitcoin, elementos como _cuenta_ o _unidades monetarias_ no exis
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 Con Bitcoin lo que acumulas y luego gastas son pequeñas o grandes unidades de cuenta medidas en Satoshi, representadas por `salidas de transacción no gastadas`, los **UTXO**, también llamados `coins`. Cuando utilizas UTXOs para crear una transacción, se destruyen completamente y se crean otros UTXOs en su lugar.
 
@@ -568,7 +568,7 @@ El control Coin es una práctica muy eficaz para seleccionar las entradas de sus
 
 
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Ya hemos hablado anteriormente de la `segregación de restos`. Si quiere bloquear los restos para procesarlos más tarde y recuperar la privacidad (intercambio en Layer 2), debe tener cuidado de `etiquetarlos` cada vez que reciba uno. De las Carteras Software vistas hasta ahora, sólo Electrum colorea gráficamente los remanentes de UTXO para hacerlos visibles a simple vista. Otros, como Sparrow, le muestran la cadena en la ruta de derivación del UTXO individual (`m/84'/0'/0'/1/11`).
 

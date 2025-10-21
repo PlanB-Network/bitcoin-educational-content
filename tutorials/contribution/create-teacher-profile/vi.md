@@ -1,22 +1,22 @@
 ---
-name: Giáo sư Plan ₿ Network
-description: Làm thế nào để thêm hoặc sửa đổi hồ sơ giáo viên của tôi trên Plan ₿ Network?
+name: Giáo sư Plan ₿ Academy
+description: Làm thế nào để thêm hoặc sửa đổi hồ sơ giáo viên của tôi trên Plan ₿ Academy?
 ---
 ![cover](assets/cover.webp)
 
-Nếu bạn có kế hoạch đóng góp cho Plan ₿ Network bằng cách viết một hướng dẫn hoặc khóa học mới, bạn sẽ cần một hồ sơ giáo viên. Hồ sơ này sẽ cho phép bạn nhận được các khoản tín dụng phù hợp cho nội dung bạn đóng góp cho nền tảng.
+Nếu bạn có kế hoạch đóng góp cho Plan ₿ Academy bằng cách viết một hướng dẫn hoặc khóa học mới, bạn sẽ cần một hồ sơ giáo viên. Hồ sơ này sẽ cho phép bạn nhận được các khoản tín dụng phù hợp cho nội dung bạn đóng góp cho nền tảng.
 
-Đối với những bạn đã tham gia tạo nội dung giáo dục trên Plan ₿ Network, có lẽ bạn đã có hồ sơ giáo viên. Bạn có thể tìm thấy hồ sơ này trong thư mục `/professors` [trên kho lưu trữ GitHub của chúng tôi](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors). Nếu hồ sơ của bạn đã tồn tại, hãy tìm thông tin đăng nhập của bạn trong tệp `professor.yml`.
+Đối với những bạn đã tham gia tạo nội dung giáo dục trên Plan ₿ Academy, có lẽ bạn đã có hồ sơ giáo viên. Bạn có thể tìm thấy hồ sơ này trong thư mục `/professors` [trên kho lưu trữ GitHub của chúng tôi](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/professors). Nếu hồ sơ của bạn đã tồn tại, hãy tìm thông tin đăng nhập của bạn trong tệp `professor.yml`.
 
 Để thay đổi hồ sơ của bạn, hãy vào phần "Chỉnh sửa hồ sơ giáo viên" ở cuối hướng dẫn này.
 
 ## Thêm giáo viên mới bằng phần mềm của chúng tôi
 
-Cách dễ nhất để tạo hồ sơ giáo viên của bạn trên Plan ₿ Network là sử dụng công cụ Python tích hợp của chúng tôi. Đây là cách thức hoạt động.
+Cách dễ nhất để tạo hồ sơ giáo viên của bạn trên Plan ₿ Academy là sử dụng công cụ Python tích hợp của chúng tôi. Đây là cách thức hoạt động.
 
 ### 1 - Cấu hình môi trường cục bộ của bạn
 
-Bạn phải có Fork của riêng mình từ [kho lưu trữ Plan ₿ Network trên GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content).
+Bạn phải có Fork của riêng mình từ [kho lưu trữ Plan ₿ Academy trên GitHub](https://github.com/Plan ₿ Academy/Bitcoin-educational-content).
 
 Đồng bộ hóa nhánh chính (`dev`) của Fork với kho lưu trữ nguồn.
 
@@ -27,7 +27,7 @@ Cập nhật bản sao cục bộ của bạn.
 git clone https://github.com/<username>/bitcoin-educational-content.git
 cd bitcoin-educational-content
 # Ajouter le dépôt source en tant que remote upstream
-git remote add upstream https://github.com/PlanB-Network/bitcoin-educational-content.git
+git remote add upstream https://github.com/Plan ₿ Academy/bitcoin-educational-content.git
 # Récupérer les dernières modifications depuis le dépôt source
 git fetch upstream
 # Se positionner sur la branche principale 'dev'
@@ -67,7 +67,7 @@ Sau đó khởi chạy phần mềm bằng lệnh:
 python3 main.py
 ```
 
-Khi đã vào trang chủ, hãy nhập đường dẫn cục bộ đến bản sao kho lưu trữ của bạn, ngôn ngữ bạn đang viết và GitHub ID của bạn. Nếu bạn đang tạo hồ sơ này cho người khác và đã có hồ sơ Giáo sư, hãy nhập ID của bạn vào trường "*PBN Professor's ID*". Nếu bạn đang tạo hồ sơ của riêng mình, bạn sẽ chưa có ID Giáo sư vì bạn đang trong quá trình tạo hồ sơ, vì vậy hãy để trống trường này.
+Khi đã vào trang chủ, hãy nhập đường dẫn cục bộ đến bản sao kho lưu trữ của bạn, ngôn ngữ bạn đang viết và GitHub ID của bạn. Nếu bạn đang tạo hồ sơ này cho người khác và đã có hồ sơ Giáo sư, hãy nhập ID của bạn vào trường "*Plan ₿ Academy Professor's ID*". Nếu bạn đang tạo hồ sơ của riêng mình, bạn sẽ chưa có ID Giáo sư vì bạn đang trong quá trình tạo hồ sơ, vì vậy hãy để trống trường này.
 
 Sau đó nhấp vào nút "*Giáo sư mới*".
 
@@ -118,8 +118,8 @@ Nếu bạn đã thành thạo cách sử dụng Git, hãy sửa đổi hồ sơ
 
 Đối với người mới bắt đầu, tôi khuyên bạn nên thực hiện sửa đổi trực tiếp thông qua trang web Interface của GitHub. Đảm bảo bạn có tài khoản GitHub. Nếu bạn không biết cách tạo tài khoản, hãy làm theo hướng dẫn này:
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
-Truy cập [kho lưu trữ GitHub Plan ₿ Network dành riêng cho dữ liệu](https://github.com/PlanB-Network/Bitcoin-educational-content/graphs/contributors).
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+Truy cập [kho lưu trữ GitHub Plan ₿ Academy dành riêng cho dữ liệu](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/graphs/contributors).
 
 ![Image](assets/fr/03.webp)
 
@@ -137,7 +137,7 @@ Khi đã vào tệp bạn muốn sửa đổi, hãy nhấp vào biểu tượng 
 
 ![Image](assets/fr/06.webp)
 
-Nếu bạn chưa có Fork từ kho lưu trữ Plan ₿ Network, GitHub sẽ gợi ý bạn tạo một kho lưu trữ. Nhấp vào "*Fork kho lưu trữ này*".
+Nếu bạn chưa có Fork từ kho lưu trữ Plan ₿ Academy, GitHub sẽ gợi ý bạn tạo một kho lưu trữ. Nhấp vào "*Fork kho lưu trữ này*".
 
 ![Image](assets/fr/07.webp)
 
@@ -151,17 +151,17 @@ Nhập tin nhắn mô tả thay đổi của bạn, sau đó chọn "*Đề xu�
 
 Tóm tắt các thay đổi của bạn sẽ được hiển thị. Nếu bạn muốn thực hiện thêm các thay đổi cho hồ sơ của mình, bạn có thể quay lại các thư mục và thực hiện thêm các cam kết. Khi bạn hoàn tất, hãy nhấp vào "*Create pull request*".
 
-Yêu cầu kéo là yêu cầu được đưa ra để tích hợp các thay đổi từ nhánh của bạn vào nhánh chính của kho lưu trữ Plan ₿ Network, cho phép xem xét và thảo luận về các thay đổi trước khi chúng được hợp nhất.
+Yêu cầu kéo là yêu cầu được đưa ra để tích hợp các thay đổi từ nhánh của bạn vào nhánh chính của kho lưu trữ Plan ₿ Academy, cho phép xem xét và thảo luận về các thay đổi trước khi chúng được hợp nhất.
 
 ![Image](assets/fr/10.webp)
 
-Đảm bảo rằng ở đầu Interface, nhánh làm việc của bạn đã được hợp nhất với nhánh `dev` của kho lưu trữ Plan ₿ Network (là nhánh chính).
+Đảm bảo rằng ở đầu Interface, nhánh làm việc của bạn đã được hợp nhất với nhánh `dev` của kho lưu trữ Plan ₿ Academy (là nhánh chính).
 
 Nhập tiêu đề tóm tắt ngắn gọn những thay đổi bạn muốn hợp nhất với kho lưu trữ nguồn. Thêm một bình luận ngắn gọn mô tả những thay đổi này, sau đó nhấp vào nút "*Create pull request*" của Green để xác nhận yêu cầu kéo:
 
 ![Image](assets/fr/11.webp)
 
-PR của bạn sau đó sẽ hiển thị trong tab "*Pull Request*" của kho lưu trữ Plan ₿ Network chính. Tất cả những gì bạn phải làm bây giờ là đợi quản trị viên hợp nhất sửa đổi của bạn.
+PR của bạn sau đó sẽ hiển thị trong tab "*Pull Request*" của kho lưu trữ Plan ₿ Academy chính. Tất cả những gì bạn phải làm bây giờ là đợi quản trị viên hợp nhất sửa đổi của bạn.
 
 ![Image](assets/fr/12.webp)
 

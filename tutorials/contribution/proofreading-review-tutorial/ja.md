@@ -33,20 +33,20 @@ GitHub の専門家でなくてもコンテンツをレビューすることが�
 
 しかし、GitやGitHubに馴染みがなく、もっと学びたいという方は、これらのツールに関する入門記事をご覧ください：
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 ## 1.アカウントの作成
 
 
 - GitHub](https://github.com/)でアカウントを作成し、コントリビューションを開始しましょう。GitHub アカウントの作成方法については、詳しいチュートリアルをご覧ください：
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 - メッセージングアプリ[Telegram](https://telegram.org/)のアカウントも必要です。
 
 ## 2.テレグラム・グループに参加する
 
 
-- テレグラムの[PBN Content Builderグループ](https://t.me/PlanBNetwork_ContentBuilder)に参加してください。
+- テレグラムの[Plan ₿ Academy Content Builderグループ](https://t.me/PlanBNetwork_ContentBuilder)に参加してください。
 
 ![REVIEW](assets/fr/01.webp)
 
@@ -143,7 +143,7 @@ Plan ₿ネットワークでの校正時に言語やフォーマットのルー
 ## 7. レビューを待つ
 
 
-- おめでとうございます！進捗は [Plan ₿ Network's GitHub リポジトリ](https://github.com/PlanB-Network/bitcoin-educational-content/pulls) の "Pull requests" タブで確認できます：
+- おめでとうございます！進捗は [Plan ₿ Academy's GitHub リポジトリ](https://github.com/Plan ₿ Academy/bitcoin-educational-content/pulls) の "Pull requests" タブで確認できます：
 
 ![REVIEW](assets/fr/12.webp)
 

@@ -741,9 +741,9 @@ Chúng ta sử dụng trường hữu hạn của các số nguyên modulo $p$ �
 
 Toán học của đường cong elliptic trên trường hữu hạn tương đương với trường số thực, với sự điều chỉnh là tất cả các phép toán được thực hiện modulo $p$. Để giải thích đơn giản, chúng tôi sẽ tiếp tục trong các chương sau đây minh họa các khái niệm sử dụng một đường cong được định nghĩa trên số thực, trong khi nhớ rằng, trên thực tế, đường cong được định nghĩa trên một trường hữu hạn.
 
-Nếu bạn muốn tìm hiểu thêm về nền tảng toán học của mật mã học hiện đại, tôi cũng khuyên bạn tham khảo khóa học khác trên Plan ₿ Network:
+Nếu bạn muốn tìm hiểu thêm về nền tảng toán học của mật mã học hiện đại, tôi cũng khuyên bạn tham khảo khóa học khác trên Plan ₿ Academy:
 
-https://planb.network/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
+https://planb.academy/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 
 ## Tính Khóa Công Khai từ Khóa Riêng
 <chapterId>fcb2bd58-5dda-5ecf-bb8f-ad1a0561ab4a</chapterId>
@@ -1149,7 +1149,7 @@ Nếu cờ sighash này được tích hợp vào Bitcoin, nó sẽ cho phép s�
 
 Để mở rộng kiến thức về Mạng Lưới Lightning, sau khóa học CYP201, tôi rất khuyên bạn nên tham gia khóa học LNP201 của Fanis Michalakis, nơi đề cập đến chủ đề này một cách chi tiết:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Trong phần tiếp theo, tôi đề xuất khám phá cách hoạt động của cụm từ ghi nhớ tạo nên ví Bitcoin của bạn.
 
@@ -1182,9 +1182,9 @@ Nếu muốn sử dụng nhiều khóa riêng, sau đó cần phải tạo nhi�
 
 Ràng buộc này xuất phát từ mô hình bảo mật của Bitcoin. Bằng cách tái sử dụng cùng một địa chỉ, nó làm cho việc truy vết tất cả giao dịch Bitcoin của tôi trở nên dễ dàng hơn cho các quan sát viên bên ngoài. Đó là lý do tại sao việc tái sử dụng một địa chỉ nhận được khuyến cáo mạnh mẽ là không nên. Tuy nhiên, để có nhiều địa chỉ và tách biệt công khai các giao dịch của chúng ta, cần phải quản lý nhiều khóa riêng. Trong trường hợp của ví JBOK, điều này đòi hỏi việc tạo ra nhiều bản sao lưu như có nhiều cặp khóa mới, một nhiệm vụ có thể nhanh chóng trở nên phức tạp và khó duy trì cho người dùng.
 
-Để tìm hiểu thêm về mô hình bảo mật của Bitcoin và khám phá các phương pháp để bảo vệ sự riêng tư của bạn, tôi cũng khuyến nghị theo dõi khóa học BTC204 của tôi trên Plan ₿ Network:
+Để tìm hiểu thêm về mô hình bảo mật của Bitcoin và khám phá các phương pháp để bảo vệ sự riêng tư của bạn, tôi cũng khuyến nghị theo dõi khóa học BTC204 của tôi trên Plan ₿ Academy:
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Ví HD (_Hierarchical Deterministic_)
 
@@ -1287,7 +1287,7 @@ Ví dụ, đối với một entropy 256-bit, kết quả $\text{ENT} \Vert \tex
 
 ### Chuyển Đổi Chuỗi Nhị Phân thành Cụm Từ Ghi Nhớ
 
-Chuỗi bit $\text{ENT} \Vert \text{CS}$ sau đó được chia thành các phân đoạn 11 bit. Mỗi phân đoạn 11 bit, một khi được chuyển đổi sang thập phân, tương ứng với một số từ 0 đến 2047, chỉ vị trí của một từ [trong danh sách 2048 từ được chuẩn hóa bởi BIP39](https://github.com/Planb-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
+Chuỗi bit $\text{ENT} \Vert \text{CS}$ sau đó được chia thành các phân đoạn 11 bit. Mỗi phân đoạn 11 bit, một khi được chuyển đổi sang thập phân, tương ứng với một số từ 0 đến 2047, chỉ vị trí của một từ [trong danh sách 2048 từ được chuẩn hóa bởi BIP39](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
 ![CYP201](assets/en/042.webp)
 Ví dụ, đối với một entropy 128-bit, checksum là 4 bit, và do đó, chuỗi tổng cộng là 132 bit. Nó được chia thành 12 phân đoạn 11 bit (các bit màu cam chỉ checksum):
@@ -1328,7 +1328,7 @@ Kết quả là, việc chọn một cụm từ 24 từ không cung cấp thêm 
 Một cụm từ gồm 12 từ, cũng cung cấp 128 bit bảo mật, vì vậy hiện tại là đủ để bảo vệ bitcoin của bạn khỏi bất kỳ nỗ lực trộm cắp nào. Miễn là thuật toán chữ ký số không thay đổi để sử dụng khóa lớn hơn hoặc dựa vào một vấn đề toán học khác ngoài ECDLP, một cụm từ 24 từ vẫn là thừa. Hơn nữa, một cụm từ dài hơn tăng nguy cơ mất mát trong quá trình sao lưu: một bản sao lưu ngắn gấp đôi luôn dễ quản lý hơn.
 Để tìm hiểu thêm và biết cách tạo một cụm từ ghi nhớ thử nghiệm một cách thủ công, tôi khuyên bạn nên khám phá hướng dẫn này:
 
-https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
+https://planb.academy/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
 
 Trước khi tiếp tục với việc phát sinh ví từ cụm từ ghi nhớ này, tôi sẽ giới thiệu cho bạn, trong chương tiếp theo, về cụm từ BIP39, vì nó đóng vai trò trong quá trình phát sinh, và nó ở cùng một cấp độ với cụm từ ghi nhớ.
 ## Cụm từ bí mật

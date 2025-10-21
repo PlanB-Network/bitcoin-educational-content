@@ -33,7 +33,7 @@ Of je nu een klein onderneming vertegenwoordigt of een groot bedrijf, deze cursu
 
 Klaar om in de wereld van Bitcoin voor bedrijven te duiken? Let's go!
 
-**N.B.**: Als u tijdens de cursus onbekende termen tegenkomt, raadpleeg dan [de woordenlijst](https://planb.network/resources/glossary) voor definities.
+**N.B.**: Als u tijdens de cursus onbekende termen tegenkomt, raadpleeg dan [de woordenlijst](https://planb.academy/resources/glossary) voor definities.
 
 # Valuta, betalingssystemen en Bitcoin
 
@@ -236,7 +236,7 @@ Bitcoin daagt ons uit om de aard van geld zelf opnieuw te overdenken. Kun jij ui
 
 Voor meer informatie over Bitcoin, de geschiedenis, de werking en het gebruik ervan, raad ik ook aan deze andere uitgebreide cursus te volgen:
 
-https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
+https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 ## Inleiding tot het Lightning Network
 
@@ -311,7 +311,7 @@ De Lightning Network is ideaal voor Bitcoin betalingen in fysieke of online wink
 
 Voor meer informatie over de technische werking van het Lightning Network, raad ik je ook aan deze andere uitgebreide cursus te volgen:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 # Bitcoin in kas (treasury)
 
@@ -430,11 +430,11 @@ Deze denkers gaven vorm aan het idee dat staatsinterventie markten verstoort en 
 
 Voor meer informatie over dit onderwerp:
 
-https://planb.network/courses/d955dd28-b7c6-4ba2-a123-d932e21d148f
+https://planb.academy/courses/d955dd28-b7c6-4ba2-a123-d932e21d148f
 
-https://planb.network/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
+https://planb.academy/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
 
-https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
+https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
 ## Bitcoin in kas houden
 <chapterId>89622a40-d14f-4c37-a075-8e7e1731ec26</chapterId>
@@ -576,18 +576,18 @@ Aangezien Bitcoin functioneert als een ruilmiddel, is het mogelijk om een circul
 - **Bitcoin minen:**
 Dit houdt in dat je beloningen verdient met het runnen van mining machines. Voor niet-gespecialiseerde bedrijven blijft dit relatief marginaal. Je kunt deelnemen via tussenpersonen die je de computers, het netwerk en het onderhoud verkopen of verhuren. Als je de machines bezit, kun je ze boeken als afschrijfbare activa. Op grote schaal moet je de return on investment zorgvuldig berekenen omdat de markt zeer concurrerend is en een goede anticipatie op de kosten vereist, met name elektriciteit.
 
-Om meer te weten te komen over de methodes voor mining, kun je [de "mining" sectie in onze tutorials raadplegen](https://planb.network/tutorials/mining).
+Om meer te weten te komen over de methodes voor mining, kun je [de "mining" sectie in onze tutorials raadplegen](https://planb.academy/tutorials/mining).
 
 - **Bitcoin kopen:**
 Dit is verreweg de meest gebruikelijke methode, die wordt toegepast via peer-to-peer exchanges of, meer gebruikelijk, op gespecialiseerde handelsplatforms. Echt, bij het verwerven van Bitcoin als bedrijfsmiddel moeten bedrijven voldoen aan strenge regelgevende normen en KYC-procedures (Know-Your-Customer). Als ze Bitcoin kopen op gespecialiseerde handelsplatformen, moeten bedrijven meestal gedetailleerde bedrijfsinformatie verstrekken, waaronder identificatiedocumenten, financiële overzichten en bewijs van adres, om te voldoen aan KYC- en antiwitwasvereisten (AML).
 
 Om te leren hoe u een zakelijke account opent en deze gebruikt om bitcoins te kopen, verkopen en over te dragen, kunt u deze twee tutorials bekijken die speciaal zijn ontworpen voor bedrijven en die de platformen Kraken en Bitfinex in hun bedrijfsversies behandelen:
 
-https://planb.network/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
+https://planb.academy/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
 
-https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
+https://planb.academy/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
 
-Om meer te weten te komen over methodes voor het verkrijgen van bitcoins via exchange platformen of peer-to-peer ruilen, kun je [de "exchange" sectie in onze tutorials raadplegen](https://planb.network/tutorials/exchange).
+Om meer te weten te komen over methodes voor het verkrijgen van bitcoins via exchange platformen of peer-to-peer ruilen, kun je [de "exchange" sectie in onze tutorials raadplegen](https://planb.academy/tutorials/exchange).
 
 ![BIZ101](assets/nl/012.webp)
 
@@ -817,21 +817,21 @@ Raadpleeg de volgende gidsen voor gedetailleerde tutorials over de aanbevolen wa
 
 **Self-custodial (zelfbeheer) LN wallets/nodes:**
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.academy/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-501d-439c-8691-d4a0d0de459b
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-501d-439c-8691-d4a0d0de459b
 
 **Custodiale LN wallets:**
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
 ## De Essential
 
@@ -863,15 +863,15 @@ Hoewel het Essential-profiel geen zeer geavanceerde boekhoudsystemen vereist, is
 
 De meest geschikte hybride oplossing voor jouw profiel is waarschijnlijk Swiss Bitcoin Pay:
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 Een andere eenvoudig te implementeren oplossing, maar met het nadeel dat het 100% custiodial (niet zelf-beheerd), is Open Node:
 
-https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 Als je klaar bent om je handen vuil te maken en volledige controle over het proces wilt, dan is de BTCPay Server software een uitstekende optie. Het grote nadeel van BTCPay Server is echter dat de installatie en het beheer tijdrovend zijn en een bepaald niveau van technische expertise vereisen, maar je kunt onze gidsen volgen:
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 Tot slot kun je overwegen om [een Bitcoinize PoS] (https://bitcoinize.com/) op te zetten als aanvulling op fysieke verkooppunten.
 
@@ -909,7 +909,7 @@ Als het gaat om voorbeelden uit de praktijk, kun je denken aan een middelgrote e
 
 Om dieper in te gaan op implementatiedetails en om hands-on configuraties van BTCPay Server te verkennen, verwijzen we naar de volgende cursus:
 
-https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
+https://planb.academy/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 
 ## De Enterprise
 
@@ -1140,7 +1140,7 @@ Een eenvoudig `.csv` bestand met de transactiegeschiedenis is echter vaak voldoe
 
 Voor degenen die hun Bitcoin zelf bewaren, is het beheren van UTXO's (*Unspent Transaction Outputs*) een belangrijke stap. Een goede UTXO labeling helpt de herkomst van elk BTC fragment te traceren, transacties gerelateerd aan professionele activiteiten te onderscheiden van die voor persoonlijke uitgaven, en vergemakkelijkt de traceerbaarheid voor juridische of belastingdoeleinden. Met de meeste goede Bitcoin wallet software kun je je wallet importeren met behulp van je back-up bestand (of je xpub, afhankelijk van je setup) en UTXO's labelen op basis van hun herkomst of bestemming. Om je te helpen, is hier een complete tutorial gewijd aan deze praktijk:
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Tot slot, of je nu een kleine handelaar bent of een meer gevestigd bedrijf, het is mogelijk om **een factuur in Bitcoin** af te wikkelen. De sleutel is om de transactie goed te documenteren. Als je betaalt vanuit een wallet die je zelf beheert, is het ideaal om een transactie te genereren waarbij het factuurnummer en het doel van de betaling in je labels worden opgenomen. Als je de factuur liever niet via een exchange betaalt, heb je ook de mogelijkheid om een ontvangstbewijs of transactiegeschiedenis te exporteren, zodat je deze kunt opnemen in je administratie. Deze transparantie zal het bijhouden en rapporteren van als je BTC-handelingen vereenvoudigen.
 

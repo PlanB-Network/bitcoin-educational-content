@@ -16,11 +16,11 @@ description: چگونه می‌توانم پیشنهاد اضافه کردن ی�
 - ابتدا، شما نیاز به داشتن یک حساب کاربری در GitHub دارید. اگر نمی‌دانید چگونه یک حساب کاربری ایجاد کنید، ما یک آموزش جامع برای راهنمایی شما تهیه کرده‌ایم.
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
-- به [مخزن GitHub مربوط به PlanB که به داده‌ها اختصاص دارد](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/conference) در بخش `resources/conference/` بروید:
+- به [مخزن GitHub مربوط به PlanB که به داده‌ها اختصاص دارد](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/resources/conference) در بخش `resources/conference/` بروید:
 
 ![event](assets/02.webp)
 
@@ -118,7 +118,7 @@ tags:
 اگر هنوز شناسه "*project*" برای سازمان خود ندارید، می‌توانید با دنبال کردن این آموزش دیگر آن را اضافه کنید.
 
 
-https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
+https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 
 
@@ -148,7 +148,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 ![event](assets/14.webp)
 
 
-- Fork خود را از مخزن PlanB Network انتخاب کنید:
+- Fork خود را از مخزن Plan ₿ Academy انتخاب کنید:
 
 ![event](assets/15.webp)
 
@@ -258,7 +258,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 
 ![event](assets/37.webp)
 
-تبریک! درخواست شما با موفقیت ایجاد شد. اکنون یک مدیر آن را بررسی خواهد کرد و در صورت درست بودن، آن را به مخزن اصلی PlanB Network ادغام می‌کند. شما باید رویداد خود را چند روز بعد در وب‌سایت مشاهده کنید.
+تبریک! درخواست شما با موفقیت ایجاد شد. اکنون یک مدیر آن را بررسی خواهد کرد و در صورت درست بودن، آن را به مخزن اصلی Plan ₿ Academy ادغام می‌کند. شما باید رویداد خود را چند روز بعد در وب‌سایت مشاهده کنید.
 
 
 حتماً پیشرفت PR خود را دنبال کنید. ممکن است یک مدیر نظر بگذارد و اطلاعات بیشتری بخواهد. تا زمانی که PR شما تأیید نشده است، می‌توانید آن را در زبانه `Pull requests` در مخزن GitHub شبکه PlanB مشاهده کنید:

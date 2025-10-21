@@ -28,7 +28,7 @@ Dalším krokem je přijímat platby Bitcoin přímo ve vaší firmě; nejjednod
 Pro zjednodušení použijeme jako příklad Wallet z Satoshi. Při jeho instalaci a konfiguraci postupujte podle následujících kroků:
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 Po dodržení tohoto návodu budete připraveni přijímat Bitcoin jako platební metodu: stačí otevřít mobilní aplikaci a kliknout na tlačítko "Přijmout", poté zadat částku (obvykle v místní měně) na generate a Invoice, kterou má uživatel zaplatit.
 
@@ -59,7 +59,7 @@ Výhody používání funkce prodejního místa jsou trojího druhu:
 Další informace naleznete ve speciálním výukovém kurzu Wallet v části Satoshi - Prodejní místo:
 
 
-https://planb.network/tutorials/business/point-of-sale/wallet-of-satoshi-pos-efc9f266-cb21-49a8-94a8-5fe15a82eb07
+https://planb.academy/tutorials/business/point-of-sale/wallet-of-satoshi-pos-efc9f266-cb21-49a8-94a8-5fe15a82eb07
 
 ## Nařízení
 

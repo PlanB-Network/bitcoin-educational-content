@@ -123,7 +123,7 @@ Artikel oleh Diffie dan Hellman membuka jalan bagi banyak inovasi. Salah satunya
 Penemuan kriptografi asimetris juga memotivasi penciptaan fungsi satu arah, yang ditandai dengan kemudahan perhitungan citra (arah maju) dan kesulitan mendapatkan pra-citra (arah balik). Khususnya, ini mengarah pada pengembangan fungsi hash kriptografi pertama, yang mengubah pesan berukuran variabel menjadi digest berukuran tetap. Antara 1989 dan 1991, beberapa algoritma hashing (MD2, MD4, dan MD5) dirancang oleh Ronald Rivest untuk MIT.
 Elemen kriptografi dasar Bitcoin berasal dari penelitian ini. Skema tanda tangan ECDSA, yang memungkinkan otorisasi pemindahan transaksi tradisional, diciptakan pada tahun 1992 untuk NIST. Fungsi hash SHA-256, yang digunakan di beberapa tempat dalam protokol, diterbitkan pada tahun 2001 sebagai bagian dari rangkaian algoritma SHA-2 yang dibuat publik oleh NSA. Untuk informasi lebih lanjut tentang topik ini, Anda dapat merujuk ke kursus CYP201 yang disajikan oleh Loïc Morel.
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### Tanda Tangan Buta (Blind Signatures) dan Uang Elektronik
 

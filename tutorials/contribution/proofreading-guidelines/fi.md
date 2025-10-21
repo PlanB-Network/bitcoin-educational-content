@@ -1,27 +1,27 @@
 ---
 name: Oikolukuohjeet
-description: Mitkä ovat tärkeitä tekijöitä, jotka on pidettävä mielessä Plan ₿ Network:n oikolukemisessa?
+description: Mitkä ovat tärkeitä tekijöitä, jotka on pidettävä mielessä Plan ₿ Academy:n oikolukemisessa?
 ---
 
 ![github](assets/cover.webp)
 
 
-Tervetuloa tähän oppaaseen, jossa käsitellään **ohjeita, joita on noudatettava Plan ₿ Network:n sisällön oikolukemisessa**. Olemme iloisia, että jaat tavoitteemme kääntää Bitcoin-materiaalia mahdollisimman monelle kielelle, jotta ihmiset saisivat tietoa siitä, miten Bitcoin toimii ja miten sitä voidaan käyttää heidän jokapäiväisessä elämässään.
+Tervetuloa tähän oppaaseen, jossa käsitellään **ohjeita, joita on noudatettava Plan ₿ Academy:n sisällön oikolukemisessa**. Olemme iloisia, että jaat tavoitteemme kääntää Bitcoin-materiaalia mahdollisimman monelle kielelle, jotta ihmiset saisivat tietoa siitä, miten Bitcoin toimii ja miten sitä voidaan käyttää heidän jokapäiväisessä elämässään.
 
 
-Ensinnäkin, osallistumalla Plan ₿ Network:n [julkinen arkisto] (https://github.com/PlanB-Network/Bitcoin-educational-content) -palveluun voit kirjoittaa oppaita, oikolukea olemassa olevaa sisältöä tai jopa ehdottaa uuden kielen lisäämistä alustaan. Jos haluat lisätietoja, liity ensin [Telegram-ryhmään](https://t.me/PlanBNetwork_ContentBuilder) ja kirjoita lyhyt esittely itsestäsi ja kielistä, joita osaat.
+Ensinnäkin, osallistumalla Plan ₿ Academy:n [julkinen arkisto] (https://github.com/Plan ₿ Academy/Bitcoin-educational-content) -palveluun voit kirjoittaa oppaita, oikolukea olemassa olevaa sisältöä tai jopa ehdottaa uuden kielen lisäämistä alustaan. Jos haluat lisätietoja, liity ensin [Telegram-ryhmään](https://t.me/PlanBNetwork_ContentBuilder) ja kirjoita lyhyt esittely itsestäsi ja kielistä, joita osaat.
 
 
-Tämä ohje on omistettu toimittajille, jotka haluavat oikolukea sisältöä. Useimmat heistä eivät tiedä paljoakaan [Githubista](https://planb.network/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) tai [Markdown-kielestä](https://www.markdownguide.org/basic-syntax/), jota käytämme arkiston sisällä, joten on tärkeää jakaa joitakin näkemyksiä tähän tehtävään liittyvistä avaintekijöistä.
+Tämä ohje on omistettu toimittajille, jotka haluavat oikolukea sisältöä. Useimmat heistä eivät tiedä paljoakaan [Githubista](https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) tai [Markdown-kielestä](https://www.markdownguide.org/basic-syntax/), jota käytämme arkiston sisällä, joten on tärkeää jakaa joitakin näkemyksiä tähän tehtävään liittyvistä avaintekijöistä.
 
 
 Keräsin tähän alle yleisimmät asiat, joita oikolukijat kohtaavat. Voit vapaasti ehdottaa lisää, sillä se voi auttaa muita parantamaan tilannetta.
 
 
-Ennen kuin sukellat yksityiskohtiin, kannattaa ensin lukea tämä ohje käytännön toimista Githubissa, haarukoimalla Plan ₿ Network-arkisto, tekemällä muutoksia ja lähettämällä PR-ilmoituksia:
+Ennen kuin sukellat yksityiskohtiin, kannattaa ensin lukea tämä ohje käytännön toimista Githubissa, haarukoimalla Plan ₿ Academy-arkisto, tekemällä muutoksia ja lähettämällä PR-ilmoituksia:
 
 
-https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
+https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 
 ## Mitä oikoluku on?
@@ -38,13 +38,13 @@ Muista aina, että kääntäminen/korjauslukeminen on KOULUTUS!
 
 Itse asiassa yhteinen tavoitteemme on kouluttaa mahdollisimman monia ihmisiä Bitcoin:sta, joten on tärkeää, että heidän lukemansa materiaali on sujuvaa ja selkeää.
 
-Tässä mielessä kaikki Plan ₿ Network:n avustajat ovat kasvattajia!
+Tässä mielessä kaikki Plan ₿ Academy:n avustajat ovat kasvattajia!
 
 
-## Ensimmäiset vaiheet ennen oikolukua Plan ₿ Network:lla
+## Ensimmäiset vaiheet ennen oikolukua Plan ₿ Academy:lla
 
 
-Ennen kuin aloitat uuden oikolukutehtävän, ilmoita siitä [Telegram-ryhmässä](https://t.me/PlanBNetwork_ContentBuilder) tai ilmoita Plan ₿ Network-koordinaattorillesi, joka avaa sille tarkoitetun [issue]-ryhmän(https://github.com/orgs/PlanB-Network/projects/3). Kun saat issue-linkin, yksinkertaisesti **kommentoi, että aloitat** kyseisen sisällön oikolukutehtävän.
+Ennen kuin aloitat uuden oikolukutehtävän, ilmoita siitä [Telegram-ryhmässä](https://t.me/PlanBNetwork_ContentBuilder) tai ilmoita Plan ₿ Academy-koordinaattorillesi, joka avaa sille tarkoitetun [issue]-ryhmän(https://github.com/orgs/Plan ₿ Academy/projects/3). Kun saat issue-linkin, yksinkertaisesti **kommentoi, että aloitat** kyseisen sisällön oikolukutehtävän.
 
 
 Tämä järjestelmä auttaa koordinaattoria seuraamaan repon sisällä tapahtuvaa edistymistä, ja sen avulla oikolukija voi "lunastaa" sisällön, mikä estää jonkun toisen tekemät päällekkäiset työt.
@@ -60,7 +60,7 @@ Ensinnäkin, **muista AINA SYNKATA reposi "dev"-haarassa**. Näin sisältö on a
 
 
 
-Kun synkronointi on onnistunut, voit siirtyä suoraan haluamaasi sisältöön ja tehdä uuden haaran, kuten tässä [opetusohjelmassa](https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017) näytetään. Muussa tapauksessa voit avata uuden haaran, jossa voit työskennellä, napsauttamalla "Branches", kuten alla näkyy.
+Kun synkronointi on onnistunut, voit siirtyä suoraan haluamaasi sisältöön ja tehdä uuden haaran, kuten tässä [opetusohjelmassa](https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017) näytetään. Muussa tapauksessa voit avata uuden haaran, jossa voit työskennellä, napsauttamalla "Branches", kuten alla näkyy.
 
 
 
@@ -115,11 +115,11 @@ Toisessa tapauksessa **selvitä aina, onko joku muu Bitcoin-yhteisössäsi jo k�
 
 
 
-- Toinen hyvä ratkaisu on säilyttää alkuperäinen sana/lause FI ja **luoda hyperlinkki**, joka ohjaa [sanasto](https://planb.network/en/resources/glossary) planb.network-sivustolle. Tätä varten sinun on lisättävä sana/lause hakasulkujen sisään ja linkki pyöreiden sulkujen sisään, kuten alla olevassa esimerkissä näkyy:
+- Toinen hyvä ratkaisu on säilyttää alkuperäinen sana/lause FI ja **luoda hyperlinkki**, joka ohjaa [sanasto](https://planb.academy/en/resources/glossary) planb.network-sivustolle. Tätä varten sinun on lisättävä sana/lause hakasulkujen sisään ja linkki pyöreiden sulkujen sisään, kuten alla olevassa esimerkissä näkyy:
 
 
 ```
-[UTXO](https://planb.network/resources/glossary/utxo)
+[UTXO](https://planb.academy/resources/glossary/utxo)
 ```
 
 
@@ -131,14 +131,14 @@ Lopputuloksessa (kuva alla) et näe koko linkkiä, ja sana muuttuu klikattavaksi
 
 
 
-Huomaa, että verkkosivulta otettavassa sanastolinkissä on kielikoodi sanan "verkko" jälkeen (esimerkki: ``https://planb.network/en/resources/glossary/utxo``-> tästä voit lukea kielikoodin "fi"). Tässä tapauksessa **poista kielikoodi linkistä**, kuten yllä olevassa laatikossa. Näin järjestelmä vie lukijan automaattisesti haluamalleen kielelle.
+Huomaa, että verkkosivulta otettavassa sanastolinkissä on kielikoodi sanan "verkko" jälkeen (esimerkki: ``https://planb.academy/en/resources/glossary/utxo``-> tästä voit lukea kielikoodin "fi"). Tässä tapauksessa **poista kielikoodi linkistä**, kuten yllä olevassa laatikossa. Näin järjestelmä vie lukijan automaattisesti haluamalleen kielelle.
 
 
 Arkiston sisältö on täynnä edellä esitettyjen kaltaisia hyperlinkkejä. Nyt kun tiedät, mitä ne tarkoittavat, **muista, ettet poista mitään alkuperäisen kirjoittajan lisäämiä linkkejä**.
 
 
 
-- Toinen asia, joka liittyy sanojen esittämiseen, on seuraava. Jos tekstissä on "Plan ₿ Network", **jättäkää se tässä alkuperäisessä muodossa**. Älä käännä sanaa "plan" tai sanaa "network". ÄLÄ myöskään käytä artikkelia "The", kun esittelet Plan ₿ Network:n: **Katsokaa sitä tuotemerkkinä**.
+- Toinen asia, joka liittyy sanojen esittämiseen, on seuraava. Jos tekstissä on "Plan ₿ Academy", **jättäkää se tässä alkuperäisessä muodossa**. Älä käännä sanaa "plan" tai sanaa "network". ÄLÄ myöskään käytä artikkelia "The", kun esittelet Plan ₿ Academy:n: **Katsokaa sitä tuotemerkkinä**.
 
 
 
@@ -289,7 +289,7 @@ Kun lähetät PR-toimintasi, olisi hienoa, jos nimeäisit sen tätä muotoa käy
 
 Lisäksi voit kirjoittaa PR:n **kommenttiosioon** "sulkee" + sen ongelman numero, jonka koordinaattori lähetti sinulle, kun aloitit oikolukutehtävän, ja sen eteen tulee ``#``.
 
-Jos esimerkiksi olet juuri lähettänyt PR:n, jossa on cyp201 + tietokilpailujen oikoluku, voit kirjoittaa "sulkee [#2934](https://github.com/PlanB-Network/Bitcoin-educational-content/issues/2934)".
+Jos esimerkiksi olet juuri lähettänyt PR:n, jossa on cyp201 + tietokilpailujen oikoluku, voit kirjoittaa "sulkee [#2934](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/issues/2934)".
 
 
 Näin PR ja ongelma ovat yhteydessä toisiinsa, ja kuka tahansa, joka lukee julkista Github-arkistoa, voi löytää tiedot helposti.
@@ -323,7 +323,7 @@ Tarkista aina uudelleen kaikki tekstissä olevat hyperlinkit, jotta varmistat, e
 
 
 
-- Aiheen jatkoksi, jos kirjoittaja lisää linkin, joka viittaa Plan ₿ Network-kurssiin tai opetusohjelmaan (**ei** suluissa), sivusto luo automaattisesti "kortin", jossa näkyy siihen liittyvä pikkukuva. Varmista siis aina, että **lisäät uuden rivin tekstin ja itse linkin väliin**, sillä muuten sivustolla saattaa näkyä seuraava virhe.
+- Aiheen jatkoksi, jos kirjoittaja lisää linkin, joka viittaa Plan ₿ Academy-kurssiin tai opetusohjelmaan (**ei** suluissa), sivusto luo automaattisesti "kortin", jossa näkyy siihen liittyvä pikkukuva. Varmista siis aina, että **lisäät uuden rivin tekstin ja itse linkin väliin**, sillä muuten sivustolla saattaa näkyä seuraava virhe.
 
 
 

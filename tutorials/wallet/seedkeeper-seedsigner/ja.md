@@ -7,7 +7,7 @@ description: SeedSignerとSeedkeeperの併用方法は？
 
 
 
-*このチュートリアルの作成にあたり、[彼らのビデオ](https://www.youtube.com/@satochip/videos)の再利用に同意してくれた[Satochip](https://satochip.io/)チームに感謝する。全ての言語に翻訳された文書版は現在草稿中であり、Plan ₿ Network.*ですぐに利用できるようになる予定です。
+*このチュートリアルの作成にあたり、[彼らのビデオ](https://www.youtube.com/@satochip/videos)の再利用に同意してくれた[Satochip](https://satochip.io/)チームに感謝する。全ての言語に翻訳された文書版は現在草稿中であり、Plan ₿ Academy.*ですぐに利用できるようになる予定です。
 
 
 

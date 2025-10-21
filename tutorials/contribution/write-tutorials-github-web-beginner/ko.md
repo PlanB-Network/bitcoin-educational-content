@@ -1,6 +1,6 @@
 ---
 name: 기여 - GitHub 웹 튜토리얼(초급)
-description: GitHub 웹을 사용한 Plan ₿ Network 튜토리얼 전체 가이드
+description: GitHub 웹을 사용한 Plan ₿ Academy 튜토리얼 전체 가이드
 ---
 ![cover](assets/cover.webp)
 
@@ -8,7 +8,7 @@ description: GitHub 웹을 사용한 Plan ₿ Network 튜토리얼 전체 가이
 새 튜토리얼 추가에 대한 이 튜토리얼을 따라하기 전에 몇 가지 사전 단계를 완료해야 합니다. 아직 완료하지 않았다면 이 소개 튜토리얼을 먼저 살펴본 다음 여기로 돌아와 주세요:
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+https://planb.academy/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
 이미 가지고 계십니다:
 
@@ -16,7 +16,7 @@ https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-91
 
 
 - 튜토리얼에 사용할 테마를 선택합니다;
-- 텔레그램 그룹](https://t.me/PlanBNetwork_ContentBuilder) 또는 paolo@planb.network 을 통해 Plan ₿ Network 팀에 문의하세요;
+- 텔레그램 그룹](https://t.me/PlanBNetwork_ContentBuilder) 또는 paolo@planb.network 을 통해 Plan ₿ Academy 팀에 문의하세요;
 - 기여 도구를 선택하세요.
 
 
@@ -28,13 +28,13 @@ https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-91
 - 숙련된 사용자**:
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+https://planb.academy/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
 
 - 중급(GitHub 데스크톱)**:
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 ## 전제 조건
 
@@ -45,27 +45,27 @@ https://planb.network/tutorials/contribution/content/write-tutorials-github-desk
 
 
 - GitHub 계정](https://github.com/signup)이 있어야 합니다;
-- Plan ₿ Network 소스 리포지토리](https://github.com/PlanB-Network/Bitcoin-educational-content)의 Fork가 있어야 합니다;
-- Plan ₿ Network에 [교사 프로필](https://planb.network/professors)이 있어야 합니다(전체 튜토리얼을 제공하는 경우에만 해당).
+- Plan ₿ Academy 소스 리포지토리](https://github.com/Plan ₿ Academy/Bitcoin-educational-content)의 Fork가 있어야 합니다;
+- Plan ₿ Network에 [교사 프로필](https://planb.academy/professors)이 있어야 합니다(전체 튜토리얼을 제공하는 경우에만 해당).
 
 
 이러한 전제 조건을 충족하는 데 도움이 필요하다면 다른 튜토리얼을 참조하세요:
 
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
-https://planb.network/tutorials/contribution/others/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba
+https://planb.academy/tutorials/contribution/others/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
-모든 것이 준비되고 Plan ₿ Network 리포지토리의 Fork이 준비되면 튜토리얼 추가를 시작할 수 있습니다.
+모든 것이 준비되고 Plan ₿ Academy 리포지토리의 Fork이 준비되면 튜토리얼 추가를 시작할 수 있습니다.
 
 
 ## 1 - 새 브랜치 만들기
 
 
-브라우저를 열고 Plan ₿ Network 리포지토리의 Fork 페이지로 이동합니다. 이 페이지가 GitHub에서 설정한 Fork입니다. Fork의 URL은 다음과 같아야 합니다: 'https://github.com/[사용자 이름]/Bitcoin-educational-content`:
+브라우저를 열고 Plan ₿ Academy 리포지토리의 Fork 페이지로 이동합니다. 이 페이지가 GitHub에서 설정한 Fork입니다. Fork의 URL은 다음과 같아야 합니다: 'https://github.com/[사용자 이름]/Bitcoin-educational-content`:
 
 
 ![GITHUB](assets/fr/01.webp)
@@ -104,7 +104,7 @@ Git의 브랜치는 프로젝트의 병렬 버전을 나타내므로 작업을 �
 이제 작업 브랜치가 생성되었으므로 새 튜토리얼을 통합할 차례입니다.
 
 
-브랜치 파일 내에서 튜토리얼을 배치할 적절한 하위 폴더를 찾아야 합니다. 폴더의 구성은 Plan ₿ Network 웹사이트의 여러 섹션을 반영합니다. 이 예에서는 Green Wallet에 튜토리얼을 추가하므로 다음 경로로 이동합니다: 웹사이트의 `Wallet` 섹션에 해당하는 `Bitcoin-educational-content\tutorials\Wallet`입니다:
+브랜치 파일 내에서 튜토리얼을 배치할 적절한 하위 폴더를 찾아야 합니다. 폴더의 구성은 Plan ₿ Academy 웹사이트의 여러 섹션을 반영합니다. 이 예에서는 Green Wallet에 튜토리얼을 추가하므로 다음 경로로 이동합니다: 웹사이트의 `Wallet` 섹션에 해당하는 `Bitcoin-educational-content\tutorials\Wallet`입니다:
 
 
 ![GITHUB](assets/fr/05.webp)
@@ -197,15 +197,15 @@ reward:
 
 
 
-- project_id**: 프로젝트 목록에서](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects) 튜토리얼에 제시된 도구의 배후에 있는 회사 또는 조직의 UUID입니다. 예를 들어 Green Wallet 소프트웨어에 대한 튜토리얼을 만드는 경우 다음 파일에서 이 `project_id`를 찾을 수 있습니다: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. 이 정보는 Plan ₿ Network에서 Bitcoin 또는 관련 프로젝트를 운영하는 모든 회사 및 조직의 데이터베이스를 유지 관리하기 때문에 튜토리얼의 YAML 파일에 추가됩니다. 튜토리얼에 연결된 엔티티의 `project_id`를 추가하면 두 Elements 간의 링크가 생성됩니다;
+- project_id**: 프로젝트 목록에서](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/resources/projects) 튜토리얼에 제시된 도구의 배후에 있는 회사 또는 조직의 UUID입니다. 예를 들어 Green Wallet 소프트웨어에 대한 튜토리얼을 만드는 경우 다음 파일에서 이 `project_id`를 찾을 수 있습니다: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. 이 정보는 Plan ₿ Network에서 Bitcoin 또는 관련 프로젝트를 운영하는 모든 회사 및 조직의 데이터베이스를 유지 관리하기 때문에 튜토리얼의 YAML 파일에 추가됩니다. 튜토리얼에 연결된 엔티티의 `project_id`를 추가하면 두 Elements 간의 링크가 생성됩니다;
 
 
 
-- 태그**: 튜토리얼 콘텐츠와 관련된 2~3개의 관련 키워드로, [Plan ₿ Network 태그 목록에서] 독점적으로 선택(https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md)합니다;
+- 태그**: 튜토리얼 콘텐츠와 관련된 2~3개의 관련 키워드로, [Plan ₿ Academy 태그 목록에서] 독점적으로 선택(https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md)합니다;
 
 
 
-- 카테고리**: Plan ₿ Network 웹사이트 구조에 따라 튜토리얼 콘텐츠에 해당하는 하위 카테고리(예: 지갑의 경우 `데스크톱`, `하드웨어`, `모바일`, `백업`);
+- 카테고리**: Plan ₿ Academy 웹사이트 구조에 따라 튜토리얼 콘텐츠에 해당하는 하위 카테고리(예: 지갑의 경우 `데스크톱`, `하드웨어`, `모바일`, `백업`);
 
 
 
@@ -217,7 +217,7 @@ reward:
 
 
 
-- 교수자_ID**: 교수자 프로필](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors)에 표시된 `교수자_id`(UUID)입니다;
+- 교수자_ID**: 교수자 프로필](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/professors)에 표시된 `교수자_id`(UUID)입니다;
 
 
 
@@ -236,7 +236,7 @@ reward:
 교사 ID에 대한 자세한 내용은 해당 튜토리얼을 참조하세요:
 
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 ```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
@@ -474,7 +474,7 @@ Assets` 폴더에 이미지를 추가하려면 로컬 파일에서 이미지를 
 ![GITHUB](assets/fr/35.webp)
 
 
-자신만의 도식을 만들려면 시각적 일관성을 보장하기 위해 Plan ₿ Network 그래픽 가이드라인을 따르세요:
+자신만의 도식을 만들려면 시각적 일관성을 보장하기 위해 Plan ₿ Academy 그래픽 가이드라인을 따르세요:
 
 
 
@@ -504,7 +504,7 @@ Assets` 폴더에 이미지를 추가하려면 로컬 파일에서 이미지를 
 ![GITHUB](assets/fr/36.webp)
 
 
-풀 리퀘스트는 브랜치의 변경 사항을 Plan ₿ Network 리포지토리의 메인 브랜치에 통합하기 위한 요청으로, 변경 사항이 병합되기 전에 검토하고 논의할 수 있습니다.
+풀 리퀘스트는 브랜치의 변경 사항을 Plan ₿ Academy 리포지토리의 메인 브랜치에 통합하기 위한 요청으로, 변경 사항이 병합되기 전에 검토하고 논의할 수 있습니다.
 
 
 계속하기 전에 Interface의 하단에서 이러한 변경 사항이 예상한 것과 일치하는지 주의 깊게 확인하세요:
@@ -513,7 +513,7 @@ Assets` 폴더에 이미지를 추가하려면 로컬 파일에서 이미지를 
 ![GITHUB](assets/fr/37.webp)
 
 
-Interface의 상단에서 작업 브랜치가 Plan ₿ Network 리포지토리(메인 브랜치)의 `dev` 브랜치에 병합되었는지 확인하세요.
+Interface의 상단에서 작업 브랜치가 Plan ₿ Academy 리포지토리(메인 브랜치)의 `dev` 브랜치에 병합되었는지 확인하세요.
 
 
 소스 리포지토리와 병합하려는 변경 사항을 간략하게 요약하는 제목을 입력합니다. 변경 사항을 설명하는 간단한 코멘트를 추가한 다음(튜토리얼 작성과 관련된 이슈 번호가 있는 경우 '#{이슈 번호}를 닫습니다'를 코멘트로 기록하세요) Green "*풀 리퀘스트 만들기*" 버튼을 클릭하여 병합 요청을 확인합니다:
@@ -522,7 +522,7 @@ Interface의 상단에서 작업 브랜치가 Plan ₿ Network 리포지토리(�
 ![GITHUB](assets/fr/38.webp)
 
 
-그러면 메인 Plan ₿ Network 리포지토리의 "*풀 리퀘스트*" 탭에서 PR을 볼 수 있습니다. 이제 관리자가 연락하여 기여가 병합되었는지 확인하거나 추가 수정을 요청할 때까지 기다리기만 하면 됩니다.
+그러면 메인 Plan ₿ Academy 리포지토리의 "*풀 리퀘스트*" 탭에서 PR을 볼 수 있습니다. 이제 관리자가 연락하여 기여가 병합되었는지 확인하거나 추가 수정을 요청할 때까지 기다리기만 하면 됩니다.
 
 
 ![GITHUB](assets/fr/39.webp)
@@ -540,7 +540,7 @@ PR을 메인 브랜치와 병합한 후에는 작업 브랜치(예: `tuto-Green-
 
 
 - PR이 아직 열려 있고 아직 병합되지 않은 경우 동일한 워크브랜치에서 변경을 수행합니다. 커밋 변경 사항이 아직 열려 있는 PR에 추가됩니다;
-- PR이 이미 메인 브랜치에 병합된 경우 새 브랜치를 만든 다음 새 PR을 제출하여 프로세스를 처음부터 다시 수행해야 합니다. 계속 진행하기 전에 Fork가 `dev` 브랜치의 Plan ₿ Network 소스 리포지토리와 동기화되었는지 확인하세요.
+- PR이 이미 메인 브랜치에 병합된 경우 새 브랜치를 만든 다음 새 PR을 제출하여 프로세스를 처음부터 다시 수행해야 합니다. 계속 진행하기 전에 Fork가 `dev` 브랜치의 Plan ₿ Academy 소스 리포지토리와 동기화되었는지 확인하세요.
 
 
 튜토리얼을 제출하는 데 기술적인 문제가 있는 경우, [기고 전용 텔레그램 그룹](https://t.me/PlanBNetwork_ContentBuilder)에서 언제든지 도움을 요청해 주세요. 대단히 감사합니다!

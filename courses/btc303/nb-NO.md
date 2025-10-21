@@ -75,7 +75,7 @@ Hva gjør Bitcoin unikt? Denne delen avslører de grunnleggende verdiene som lig
 Er du klar til å ta neste steg på din Bitcoin-reise? La oss begynne!
 
 
-**N.B.**: Hvis du støter på ukjente begreper knyttet til Bitcoin i løpet av kurset, kan du finne definisjoner i [ordlisten](https://planb.network/resources/glossary)
+**N.B.**: Hvis du støter på ukjente begreper knyttet til Bitcoin i løpet av kurset, kan du finne definisjoner i [ordlisten](https://planb.academy/resources/glossary)
 
 
 
@@ -154,7 +154,7 @@ Hvis de lykkes, vil de samme problemene sannsynligvis dukke opp igjen en gang i 
 Ingen av disse alternativene er fordelaktige for brukeren.
 
 
-Motstand mot sensur gjennom desentralisering er det som skiller Bitcoin fra andre pengesystemer, men det er ikke lett å oppnå på grunn av *Double-spending-problemet*. Dette er problemet med å sørge for at ingen kan bruke den samme mynten to ganger, et problem som mange trodde var umulig å løse på en desentralisert måte. Satoshi Nakamoto skriver i sin [Bitcoin whitepaper](https://planb.network/bitcoin.pdf) om hvordan man kan løse Double-spending-problemet:
+Motstand mot sensur gjennom desentralisering er det som skiller Bitcoin fra andre pengesystemer, men det er ikke lett å oppnå på grunn av *Double-spending-problemet*. Dette er problemet med å sørge for at ingen kan bruke den samme mynten to ganger, et problem som mange trodde var umulig å løse på en desentralisert måte. Satoshi Nakamoto skriver i sin [Bitcoin whitepaper](https://planb.academy/bitcoin.pdf) om hvordan man kan løse Double-spending-problemet:
 
 
 > I denne artikkelen foreslår vi en løsning på Double-spending-problemet ved å bruke en peer-to-peer-distribuert Timestamp-server for å generate-beregne bevis på den kronologiske rekkefølgen av transaksjoner.
@@ -652,7 +652,7 @@ For å redusere risikoen for at personopplysningene dine blir avslørt, bør du 
 Artikkelen foreslår at du unngår å bruke børser som krever KYC/AML, og i stedet handler privat eller bruker desentraliserte børser som [bisq](https://bisq.network/).
 
 
-https://planb.network/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+https://planb.academy/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 For mer inngående lesning om mottiltak, se den tidligere nevnte [wiki-artikkelen om personvern](https://en.Bitcoin.it/wiki/Privacy#Methods_for_improving_privacy_.28non-Blockchain.29), som starter på "Methods for improving privacy (non-Blockchain)".
 

@@ -22,7 +22,7 @@ description: 저장 장치를 쉽게 암호화하는 방법은 무엇인가요?
 이 3-2-1 백업 전략을 쉽게 구현하려면 컴퓨터의 파일을 클라우드에 있는 파일과 자동으로 또는 주기적으로 동기화하는 온라인 스토리지 솔루션을 선택할 수 있습니다. 이러한 온라인 백업 솔루션 중에는 여러분이 잘 알고 있는 대형 디지털 회사의 솔루션이 있습니다: 구글 드라이브, 마이크로소프트 원드라이브, 애플 아이클라우드 등이 있습니다. 하지만 이러한 솔루션은 개인 정보 보호에 가장 적합한 솔루션은 아닙니다. 이전 튜토리얼에서 더 나은 개인정보 보호를 위해 문서를 암호화하는 대안을 소개해 드렸습니다: 바로 프로톤 드라이브입니다.
 
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 로컬 및 클라우드 백업 전략을 채택하면 이미 데이터에 대해 두 가지 유형의 미디어(그 중 하나는 오프사이트)를 활용할 수 있습니다. 3-2-1 전략을 완성하려면 복사본을 하나 더 추가하기만 하면 됩니다. 로컬과 클라우드에 있는 데이터를 주기적으로 USB 스틱이나 외장형 Hard 드라이브와 같은 물리적 매체로 내보내면 됩니다. 이렇게 하면 온라인 스토리지 솔루션의 서버가 파괴되고 컴퓨터가 동시에 고장 나더라도 데이터를 잃지 않도록 외부 매체에 세 번째 사본을 보관할 수 있습니다.
 
@@ -151,7 +151,7 @@ VeraCrypt에서 "*볼륨*" 탭을 클릭합니다.
 비밀번호 관리에 대한 자세한 내용은 다른 전체 튜토리얼을 참조하세요:
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 지정된 2개의 필드에 비밀번호를 입력한 후 "*다음*"을 클릭합니다. ![VeraCrypt](assets/notext/25.webp)
 

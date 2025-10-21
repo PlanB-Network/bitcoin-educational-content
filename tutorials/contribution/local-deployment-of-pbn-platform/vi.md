@@ -1,12 +1,12 @@
 ---
-name: Hướng dẫn chạy nền tảng Plan ₿ Network cục bộ
-description: Làm thế nào bạn có thể chạy Plan ₿ Network trong môi trường cục bộ để kiểm tra nội dung đóng góp của tôi hoặc hiệu đính/xem xét nội dung giáo dục trên Plan ₿ Network?
+name: Hướng dẫn chạy nền tảng Plan ₿ Academy cục bộ
+description: Làm thế nào bạn có thể chạy Plan ₿ Academy trong môi trường cục bộ để kiểm tra nội dung đóng góp của tôi hoặc hiệu đính/xem xét nội dung giáo dục trên Plan ₿ Academy?
 ---
 ![github](assets/cover.webp)
 
 ## Tóm tắt
 
-Hướng dẫn này cung cấp hướng dẫn từng bước để thiết lập Hệ thống quản lý học tập Bitcoin từ Plan ₿ Network trên máy cục bộ của bạn bằng Docker, khóa giả và cấu hình kho lưu trữ tùy chỉnh.
+Hướng dẫn này cung cấp hướng dẫn từng bước để thiết lập Hệ thống quản lý học tập Bitcoin từ Plan ₿ Academy trên máy cục bộ của bạn bằng Docker, khóa giả và cấu hình kho lưu trữ tùy chỉnh.
 
 Nếu bạn không hiểu phần trên, đừng lo lắng - hướng dẫn này là dành cho bạn!
 
@@ -27,12 +27,12 @@ Hướng dẫn này cung cấp các bước chi tiết để thiết lập nền
 
 Sao chép kho lưu trữ vào máy cục bộ của bạn:
 
-git clone [https://github.com/PlanB-Network/Bitcoin-learning-management-system](https://github.com/PlanB-Network/Bitcoin-learning-management-system￼cd)
+git clone [https://github.com/Plan ₿ Academy/Bitcoin-learning-management-system](https://github.com/Plan ₿ Academy/Bitcoin-learning-management-system￼cd)
 
-[cd](https://github.com/PlanB-Network/Bitcoin-learning-management-system￼cd) Hệ thống quản lý học tập Bitcoin
+[cd](https://github.com/Plan ₿ Academy/Bitcoin-learning-management-system￼cd) Hệ thống quản lý học tập Bitcoin
 
 ```bash
-git clone https://github.com/PlanB-Network/bitcoin-learning-management-system
+git clone https://github.com/Plan ₿ Academy/bitcoin-learning-management-system
 cd bitcoin-learning-management-system
 ```
 
@@ -106,7 +106,7 @@ Sau khi các container đang chạy, hãy truy cập vào giao diện tại:
 
 \[<http://localhost:8181](http://localhost:8181)>
 
-![Plan ₿ Network Local](assets/en/1.webp)
+![Plan ₿ Academy Local](assets/en/1.webp)
 
 Lưu ý: ứng dụng sẽ tự động tải lại nếu bạn thay đổi bất kỳ tệp nguồn nào.
 
@@ -142,7 +142,7 @@ rồi lại nữa:
 curl -X POST http://localhost:3000/api/github/sync
 ```
 
-![Plan ₿ Network Local](assets/en/2.webp)
+![Plan ₿ Academy Local](assets/en/2.webp)
 
 **10. Tùy chỉnh Kho lưu trữ (Tùy chọn)**
 

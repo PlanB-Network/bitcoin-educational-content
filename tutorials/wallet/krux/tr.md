@@ -25,4 +25,4 @@ Bu eğitim videosunda öğrenecekleriniz:
 Bu videonun sonunda, Krux'u kendi kendine saklama için güvenli, DIY bir alternatif olarak kullanmak için tam donanımlı olacaksınız.
 
 
-**Not:** Bu eğitim sadece İngilizce bir taslaktır, hala bu konuda kapsamlı bir rehber yazacak birine ihtiyacımız var. Eğer o kişi sizseniz, lütfen [Telegram](https://t.me/PlanBNetwork_ContentBuilder/325) veya [GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content) adreslerimizden bize ulaşın
+**Not:** Bu eğitim sadece İngilizce bir taslaktır, hala bu konuda kapsamlı bir rehber yazacak birine ihtiyacımız var. Eğer o kişi sizseniz, lütfen [Telegram](https://t.me/PlanBNetwork_ContentBuilder/325) veya [GitHub](https://github.com/Plan ₿ Academy/Bitcoin-educational-content) adreslerimizden bize ulaşın

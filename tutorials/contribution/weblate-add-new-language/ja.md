@@ -17,7 +17,7 @@ Plan ₿ Networkの使命は、ビットコインに関する一流の教育リ�
 あなたの言語がすでに私たちが取り組んでいる言語の中にあるかどうかを確認する。
 
 
-- Weblateプラットフォーム](https://weblate.planb.network/projects/planb-network-website/)にアクセスしてください：
+- Weblateプラットフォーム](https://weblate.planb.network/projects/Plan ₿ Academy-website/)にアクセスしてください：
 
 ![language](assets/01.webp)
 
@@ -28,10 +28,10 @@ Plan ₿ Networkの使命は、ビットコインに関する一流の教育リ�
 
 あなたの言語がこのリストにあれば、再度追加する必要はありません。ウェブレートの校正で貢献するには、次のチュートリアルをご覧ください：
 
-https://planb.network/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
+https://planb.academy/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 言語がない場合は、以下のチュートリアルに従って追加してください。
 
-## プランに新しい言語を追加 Plan ₿ Network ネットワーク
+## プランに新しい言語を追加 Plan ₿ Academy ネットワーク
 
 
 - 最初のステップは、右上にある「登録」をクリックして、ウェブレートのアカウントを作成することです（ヘルプが必要な場合は、上記のチュートリアルに戻ってください）。
@@ -64,7 +64,7 @@ https://planb.network/tutorials/contribution/content/weblate-translate-front-end
 
 翻訳プロセスについては、以下の専用チュートリアルをご覧ください：
 
-https://planb.network/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
+https://planb.academy/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 おめでとうございます。Plan ₿ Networkのウェブサイトの静的要素の翻訳が始まりました！
 
 教育コンテンツ（コース、チュートリアル...）を除き、ウェブサイト上のすべての文字列が含まれ、別の半自動化手法（AI翻訳＋貢献者による校正）を使用しています。

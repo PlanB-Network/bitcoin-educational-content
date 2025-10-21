@@ -1,6 +1,6 @@
 ---
 name: 校對或審查內容
-description: 您如何參與校對／審查 Plan ₿ Network 上的教育內容？
+description: 您如何參與校對／審查 Plan ₿ Academy 上的教育內容？
 ---
 ![github](assets/cover.webp)
 
@@ -8,7 +8,7 @@ description: 您如何參與校對／審查 Plan ₿ Network 上的教育內容�
 ## 總結
 
 
-如果您想要校對或審查 Plan ₿ Network 的內容，請加入 [我們的 Telegram 群組](https://t.me/PlanBNetwork_ContentBuilder) 專門提供貢獻。簡短地自我介紹，然後說明您想要審閱的內容和語言。在工作分支上進行修正，並在審閱完成後提交 PR。
+如果您想要校對或審查 Plan ₿ Academy 的內容，請加入 [我們的 Telegram 群組](https://t.me/PlanBNetwork_ContentBuilder) 專門提供貢獻。簡短地自我介紹，然後說明您想要審閱的內容和語言。在工作分支上進行修正，並在審閱完成後提交 PR。
 
 
 如果您不瞭解上面的部分，別擔心，本教學就是為您準備的！
@@ -16,19 +16,19 @@ description: 您如何參與校對／審查 Plan ₿ Network 上的教育內容�
 
 ---
 
-## 什麼是 Plan ₿ Network？
+## 什麼是 Plan ₿ Academy？
 
 
-Plan ₿ Network 是一個透過眾多課程和教學讓大家學習 Bitcoin 的平台。目前，我們所有的內容都是開放原始碼，託管在 GitHub 儲存庫中，並開放給貢獻者進行審查和內容創作。
+Plan ₿ Academy 是一個透過眾多課程和教學讓大家學習 Bitcoin 的平台。目前，我們所有的內容都是開放原始碼，託管在 GitHub 儲存庫中，並開放給貢獻者進行審查和內容創作。
 
 
-Plan ₿ Network 的目標是成為 Bitcoin 網路空間的公共廣場，連接並鼓勵全世界的 Bitcoin 社群。
+Plan ₿ Academy 的目標是成為 Bitcoin 網路空間的公共廣場，連接並鼓勵全世界的 Bitcoin 社群。
 
 
 ## 為什麼要貢獻？
 
 
-Plan ₿ Network 從根本而言是多語言的，因為我們的目標是讓全世界每個人都能使用 Bitcoin 資源。我們相信語言不該成為主權金錢的障礙。
+Plan ₿ Academy 從根本而言是多語言的，因為我們的目標是讓全世界每個人都能使用 Bitcoin 資源。我們相信語言不該成為主權金錢的障礙。
 
 
 為了達到這個目標，我們使用人類 x AI 的方法。透過我們的 [程式](https://github.com/Asi0Flammeus/LLM-Translator)，我們可以自動將內容翻譯成許多語言。然而，我們需要一位能說流利話的人來審閱，以確保內容清晰易懂，沒有不適當的用語。
@@ -49,7 +49,7 @@ Plan ₿ Network 從根本而言是多語言的，因為我們的目標是讓全
 但是，如果您對 Git 和 GitHub 不熟悉，想要瞭解更多資訊，可以查看我們關於這些工具的介紹文章：
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 ## 1.建立帳號
 
@@ -71,7 +71,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 
 
-- 加入 Telegram 上的 [PBN Content Builder 群組](https://t.me/PlanBNetwork_ContentBuilder)。
+- 加入 Telegram 上的 [Plan ₿ Academy Content Builder 群組](https://t.me/PlanBNetwork_ContentBuilder)。
 
 
 ![REVIEW](assets/fr/01.webp)
@@ -120,7 +120,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![REVIEW](assets/fr/06.webp)
 
 
-注意。建議在程式碼視窗中檢閱，原始內容會顯示在另一個視窗中。例如，您可以在 Plan ₿ Network 網站或 GitHub 預覽的瀏覽器標籤上檢視文字。使用 `ctrl + F` 在程式碼檢視中找出錯誤，並隨時修正。
+注意。建議在程式碼視窗中檢閱，原始內容會顯示在另一個視窗中。例如，您可以在 Plan ₿ Academy 網站或 GitHub 預覽的瀏覽器標籤上檢視文字。使用 `ctrl + F` 在程式碼檢視中找出錯誤，並隨時修正。
 
 
 ## 4.承諾變更
@@ -161,7 +161,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 - 如果您尚未完成檢閱，並希望稍後繼續工作，您可以直接退出。
 - 只要您已提交變更，這些變更就會儲存在您的 GitHub Fork 上。
-- 若要繼續工作，請透過您的 GitHub 設定檔前往 Plan ₿ Network 內容儲存庫的 Fork。
+- 若要繼續工作，請透過您的 GitHub 設定檔前往 Plan ₿ Academy 內容儲存庫的 Fork。
 
 
 ![REVIEW](assets/fr/14.webp)
@@ -196,20 +196,20 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 ## 6.校對內容時需遵循的規則
 
-要了解在 Plan ₿ Network 上進行校對時需要遵循的語言或格式規則的指南，請參閱本節中的“contribution-proofreading-guidelines”教程！
+要了解在 Plan ₿ Academy 上進行校對時需要遵循的語言或格式規則的指南，請參閱本節中的“contribution-proofreading-guidelines”教程！
 
 ## 7.等待審核
 
 
 
-- 恭喜，您的 PR 已提交！您可以在 [Plan ₿ Network 的 GitHub 套件庫](https://github.com/PlanB-Network/Bitcoin-educational-content/pulls) 的「Pull requests」標籤中追蹤其進度：
+- 恭喜，您的 PR 已提交！您可以在 [Plan ₿ Academy 的 GitHub 套件庫](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/pulls) 的「Pull requests」標籤中追蹤其進度：
 
 
 ![REVIEW](assets/fr/12.webp)
 
 
 
-- 非常感謝您的貢獻！審核通過後，Plan ₿ Network 團隊成員將與您聯繫，發送您的獎勵。***支付方式僅通過 Lightning Network/***。
+- 非常感謝您的貢獻！審核通過後，Plan ₿ Academy 團隊成員將與您聯繫，發送您的獎勵。***支付方式僅通過 Lightning Network/***。
 - 如果您想重新開始，請返回步驟 2，並在 Telegram 群組中傳送新訊息，繼續貢獻其他內容。在建立新的工作分支之前，請務必同步您的 Fork。要做到這一點，請前往您的 Fork 首頁，選擇名為 `dev` 的主分支 (參閱 \**A\**)，然後點擊「同步 Fork」按鈕 (參閱 \**B\**)。如果您的 Fork 有可用的更新，"Update branch"（更新分支）按鈕就會出現。只需按一下即可執行更新。
 
 

@@ -251,4 +251,4 @@ ID가 스캔되면 연락처가 표시된 QR 코드를 스캔하도록 하거나
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

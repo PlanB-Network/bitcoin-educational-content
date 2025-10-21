@@ -1,12 +1,12 @@
 ---
-name: Guía para ejecutar localmente la plataforma Plan ₿ Network
-description: ¿Cómo se puede ejecutar Plan ₿ Network en un entorno local para probar mi aportación de contenidos o la corrección/revisión de contenidos educativos en Plan ₿ Network?
+name: Guía para ejecutar localmente la plataforma Plan ₿ Academy
+description: ¿Cómo se puede ejecutar Plan ₿ Academy en un entorno local para probar mi aportación de contenidos o la corrección/revisión de contenidos educativos en Plan ₿ Academy?
 ---
 ![github](assets/cover.webp)
 
 ## En resumen
 
-Este tutorial proporciona instrucciones paso a paso para configurar el Sistema de Gestión de Aprendizaje Bitcoin desde Plan ₿ Network en tu máquina local utilizando Docker, claves falsas y configuraciones de repositorio personalizadas.
+Este tutorial proporciona instrucciones paso a paso para configurar el Sistema de Gestión de Aprendizaje Bitcoin desde Plan ₿ Academy en tu máquina local utilizando Docker, claves falsas y configuraciones de repositorio personalizadas.
 
 Si no has entendido la parte de arriba, no te preocupes: ¡este tutorial es para ti!
 
@@ -26,12 +26,12 @@ Este tutorial proporciona pasos detallados para configurar la plataforma, maneja
 
 Clona el repositorio en tu máquina local:
 
-git clone [https://github.com/PlanB-Network/Bitcoin-learning-management-system](https://github.com/PlanB-Network/Bitcoin-learning-management-system￼cd)
+git clone [https://github.com/Plan ₿ Academy/Bitcoin-learning-management-system](https://github.com/Plan ₿ Academy/Bitcoin-learning-management-system￼cd)
 
-[cd](https://github.com/PlanB-Network/Bitcoin-learning-management-system￼cd) Bitcoin-sistema de gestión del aprendizaje
+[cd](https://github.com/Plan ₿ Academy/Bitcoin-learning-management-system￼cd) Bitcoin-sistema de gestión del aprendizaje
 
 ```bash
-git clone https://github.com/PlanB-Network/bitcoin-learning-management-system
+git clone https://github.com/Plan ₿ Academy/bitcoin-learning-management-system
 cd bitcoin-learning-management-system
 ```
 
@@ -105,7 +105,7 @@ Una vez que los contenedores estén funcionando, accede al frontend en:
 
 \[<http://localhost:8181](http://localhost:8181)>
 
-![Plan ₿ Network Local](assets/en/1.webp)
+![Plan ₿ Academy Local](assets/en/1.webp)
 
 Nota: la aplicación se recargará automáticamente si cambias algún archivo fuente.
 
@@ -141,7 +141,7 @@ Entonces otra vez:
 curl -X POST http://localhost:3000/api/github/sync
 ```
 
-![Plan ₿ Network Local](assets/en/2.webp)
+![Plan ₿ Academy Local](assets/en/2.webp)
 
 **10. Personalizar el repositorio (opcional)**
 

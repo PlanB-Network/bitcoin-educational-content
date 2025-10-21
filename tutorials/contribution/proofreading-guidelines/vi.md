@@ -1,27 +1,27 @@
 ---
 name: Hướng dẫn hiệu đính
-description: Những yếu tố quan trọng cần lưu ý khi hiệu đính trên Plan ₿ Network là gì?
+description: Những yếu tố quan trọng cần lưu ý khi hiệu đính trên Plan ₿ Academy là gì?
 ---
 
 ![github](assets/cover.webp)
 
 
-Chào mừng bạn đến với hướng dẫn này về **các hướng dẫn cần tuân theo khi hiệu đính nội dung trên Plan ₿ Network**. Chúng tôi rất vui khi bạn chia sẻ sứ mệnh của chúng tôi là dịch tài liệu Bitcoin sang càng nhiều ngôn ngữ càng tốt, để giúp mọi người nâng cao nhận thức về cách thức hoạt động và cách sử dụng trong cuộc sống hàng ngày của họ.
+Chào mừng bạn đến với hướng dẫn này về **các hướng dẫn cần tuân theo khi hiệu đính nội dung trên Plan ₿ Academy**. Chúng tôi rất vui khi bạn chia sẻ sứ mệnh của chúng tôi là dịch tài liệu Bitcoin sang càng nhiều ngôn ngữ càng tốt, để giúp mọi người nâng cao nhận thức về cách thức hoạt động và cách sử dụng trong cuộc sống hàng ngày của họ.
 
 
-Trước hết, đóng góp cho Plan ₿ Network [kho lưu trữ công khai](https://github.com/PlanB-Network/Bitcoin-educational-content) cho bạn cơ hội viết hướng dẫn, hiệu đính nội dung hiện có hoặc thậm chí đề xuất thêm ngôn ngữ mới vào nền tảng. Để biết thêm thông tin, hãy tham gia [Nhóm Telegram](https://t.me/PlanBNetwork_ContentBuilder) của chúng tôi trước và viết một bài thuyết trình ngắn về bạn và các ngôn ngữ bạn có thể nói.
+Trước hết, đóng góp cho Plan ₿ Academy [kho lưu trữ công khai](https://github.com/Plan ₿ Academy/Bitcoin-educational-content) cho bạn cơ hội viết hướng dẫn, hiệu đính nội dung hiện có hoặc thậm chí đề xuất thêm ngôn ngữ mới vào nền tảng. Để biết thêm thông tin, hãy tham gia [Nhóm Telegram](https://t.me/PlanBNetwork_ContentBuilder) của chúng tôi trước và viết một bài thuyết trình ngắn về bạn và các ngôn ngữ bạn có thể nói.
 
 
-Hướng dẫn này dành riêng cho những người đóng góp muốn hiệu đính nội dung. Hầu hết họ không biết nhiều về [Github](https://planb.network/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) hoặc [ngôn ngữ Markdown](https://www.markdownguide.org/basic-syntax/) mà chúng tôi sử dụng bên trong kho lưu trữ, vì vậy, điều quan trọng là phải chia sẻ một số hiểu biết sâu sắc về các yếu tố chính liên quan đến nhiệm vụ này.
+Hướng dẫn này dành riêng cho những người đóng góp muốn hiệu đính nội dung. Hầu hết họ không biết nhiều về [Github](https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) hoặc [ngôn ngữ Markdown](https://www.markdownguide.org/basic-syntax/) mà chúng tôi sử dụng bên trong kho lưu trữ, vì vậy, điều quan trọng là phải chia sẻ một số hiểu biết sâu sắc về các yếu tố chính liên quan đến nhiệm vụ này.
 
 
 Dưới đây, tôi đã tập hợp những vấn đề phổ biến nhất mà người hiệu đính gặp phải. Hãy thoải mái đề xuất thêm, vì điều đó có thể giúp những người khác cải thiện.
 
 
-Trước khi đi sâu vào chi tiết, điều đầu tiên cần làm là đọc hướng dẫn này về các hành động thực tế cần thực hiện trên Github, bằng cách phân nhánh kho lưu trữ Plan ₿ Network, cam kết thay đổi và gửi PR:
+Trước khi đi sâu vào chi tiết, điều đầu tiên cần làm là đọc hướng dẫn này về các hành động thực tế cần thực hiện trên Github, bằng cách phân nhánh kho lưu trữ Plan ₿ Academy, cam kết thay đổi và gửi PR:
 
 
-https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
+https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 
 ## Đọc và sửa lỗi là gì?
@@ -38,13 +38,13 @@ Hãy luôn nhớ rằng biên dịch/hiệu đính chính là GIÁO DỤC!
 
 Trên thực tế, mục tiêu chung của chúng ta là giáo dục càng nhiều người càng tốt về Bitcoin, vì vậy điều quan trọng là tài liệu họ đọc phải rõ ràng và mạch lạc.
 
-Theo nghĩa này, tất cả những người đóng góp cho Plan ₿ Network đều là nhà giáo dục!
+Theo nghĩa này, tất cả những người đóng góp cho Plan ₿ Academy đều là nhà giáo dục!
 
 
-## Các bước đầu tiên trước khi hiệu đính trên Plan ₿ Network
+## Các bước đầu tiên trước khi hiệu đính trên Plan ₿ Academy
 
 
-Trước khi bắt đầu một nhiệm vụ hiệu đính mới, hãy thông báo trong [nhóm Telegram](https://t.me/PlanBNetwork_ContentBuilder) hoặc thông báo cho điều phối viên Plan ₿ Network của bạn, người sẽ mở một [vấn đề](https://github.com/orgs/PlanB-Network/projects/3) chuyên dụng. Khi bạn nhận được liên kết vấn đề, chỉ cần **bình luận rằng bạn đang bắt đầu** với nhiệm vụ hiệu đính nội dung đó.
+Trước khi bắt đầu một nhiệm vụ hiệu đính mới, hãy thông báo trong [nhóm Telegram](https://t.me/PlanBNetwork_ContentBuilder) hoặc thông báo cho điều phối viên Plan ₿ Academy của bạn, người sẽ mở một [vấn đề](https://github.com/orgs/Plan ₿ Academy/projects/3) chuyên dụng. Khi bạn nhận được liên kết vấn đề, chỉ cần **bình luận rằng bạn đang bắt đầu** với nhiệm vụ hiệu đính nội dung đó.
 
 
 Hệ thống này giúp người điều phối theo dõi tiến trình bên trong kho lưu trữ và cho phép người hiệu đính "xác nhận" nội dung, ngăn chặn những nỗ lực trùng lặp của người khác.
@@ -60,7 +60,7 @@ Trước hết, **LUÔN nhớ ĐỒNG BỘ hóa kho lưu trữ của bạn, trê
 
 
 
-Sau khi đồng bộ hóa thành công, bạn có thể truy cập trực tiếp vào nội dung quan tâm và cam kết trên một nhánh mới, như được hiển thị trong [hướng dẫn] này (https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). Nếu không, bạn có thể mở một nhánh mới để làm việc bằng cách nhấp vào "Nhánh", như được hiển thị bên dưới.
+Sau khi đồng bộ hóa thành công, bạn có thể truy cập trực tiếp vào nội dung quan tâm và cam kết trên một nhánh mới, như được hiển thị trong [hướng dẫn] này (https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). Nếu không, bạn có thể mở một nhánh mới để làm việc bằng cách nhấp vào "Nhánh", như được hiển thị bên dưới.
 
 
 
@@ -115,11 +115,11 @@ Trong trường hợp thứ hai này, **luôn nghiên cứu để xem liệu có
 
 
 
-- Một giải pháp tốt khác là giữ nguyên từ/cụm từ gốc EN, sau đó **tạo siêu liên kết** chuyển hướng đến [glossary](https://planb.network/en/resources/glossary) trên planb.network. Để thực hiện việc này, bạn cần chèn từ/cụm từ bên trong dấu ngoặc vuông và liên kết bên trong dấu ngoặc tròn, như bạn có thể thấy trong ví dụ bên dưới:
+- Một giải pháp tốt khác là giữ nguyên từ/cụm từ gốc EN, sau đó **tạo siêu liên kết** chuyển hướng đến [glossary](https://planb.academy/en/resources/glossary) trên planb.network. Để thực hiện việc này, bạn cần chèn từ/cụm từ bên trong dấu ngoặc vuông và liên kết bên trong dấu ngoặc tròn, như bạn có thể thấy trong ví dụ bên dưới:
 
 
 ```
-[UTXO](https://planb.network/resources/glossary/utxo)
+[UTXO](https://planb.academy/resources/glossary/utxo)
 ```
 
 
@@ -131,14 +131,14 @@ Trong kết quả cuối cùng (hình ảnh bên dưới), bạn sẽ không nh�
 
 
 
-Xin lưu ý rằng liên kết chú giải thuật ngữ mà bạn sẽ lấy từ trang web có chứa mã ngôn ngữ sau từ "network" (ví dụ: ``https://planb.network/en/resources/glossary/utxo``-> tại đây bạn có thể đọc mã ngôn ngữ "en"). Trong trường hợp này, **xóa mã ngôn ngữ khỏi liên kết**, như bạn đã thấy trong hộp ở trên. Theo cách này, hệ thống sẽ tự động đưa người đọc đến ngôn ngữ được chỉ định của họ.
+Xin lưu ý rằng liên kết chú giải thuật ngữ mà bạn sẽ lấy từ trang web có chứa mã ngôn ngữ sau từ "network" (ví dụ: ``https://planb.academy/en/resources/glossary/utxo``-> tại đây bạn có thể đọc mã ngôn ngữ "en"). Trong trường hợp này, **xóa mã ngôn ngữ khỏi liên kết**, như bạn đã thấy trong hộp ở trên. Theo cách này, hệ thống sẽ tự động đưa người đọc đến ngôn ngữ được chỉ định của họ.
 
 
 Nội dung trên kho lưu trữ chứa đầy các siêu liên kết như trên. Bây giờ bạn đã biết ý nghĩa của chúng, **hãy đảm bảo không xóa bất kỳ liên kết nào** do tác giả gốc chèn vào.
 
 
 
-- Một điều khác liên quan đến việc dịch từ là như sau. Nếu bạn tìm thấy "Plan ₿ Network" trong văn bản, **hãy giữ nguyên dạng gốc này**. Không dịch từ "plan" hoặc từ "network". Bên cạnh đó, KHÔNG sử dụng mạo từ "The" khi giới thiệu Plan ₿ Network: **hãy coi đó là một thương hiệu**.
+- Một điều khác liên quan đến việc dịch từ là như sau. Nếu bạn tìm thấy "Plan ₿ Academy" trong văn bản, **hãy giữ nguyên dạng gốc này**. Không dịch từ "plan" hoặc từ "network". Bên cạnh đó, KHÔNG sử dụng mạo từ "The" khi giới thiệu Plan ₿ Academy: **hãy coi đó là một thương hiệu**.
 
 
 
@@ -289,7 +289,7 @@ Khi bạn gửi PR, sẽ thật tuyệt nếu bạn đặt tên theo định d�
 
 Ngoài ra, trong **phần bình luận của PR**, bạn có thể viết "closes" + số của vấn đề mà người điều phối đã gửi cho bạn khi bạn bắt đầu nhiệm vụ hiệu đính, bắt đầu bằng ``#``.
 
-Ví dụ, nếu bạn vừa gửi PR kèm theo bản hiệu đính của cyp201 + bài kiểm tra, bạn có thể viết "đóng [#2934](https://github.com/PlanB-Network/Bitcoin-educational-content/issues/2934)".
+Ví dụ, nếu bạn vừa gửi PR kèm theo bản hiệu đính của cyp201 + bài kiểm tra, bạn có thể viết "đóng [#2934](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/issues/2934)".
 
 
 Theo cách này, PR và vấn đề sẽ được kết nối và bất kỳ ai đọc kho lưu trữ Github công khai đều có thể dễ dàng tìm thấy thông tin.
@@ -323,7 +323,7 @@ Luôn kiểm tra lại tất cả các siêu liên kết trong văn bản để 
 
 
 
-- Tiếp theo chủ đề, nếu tác giả chèn liên kết đến khóa học hoặc bài hướng dẫn Plan ₿ Network (**không** nằm trong dấu ngoặc đơn), trang web sẽ tự động tạo một "thẻ" hiển thị hình thu nhỏ liên quan. Do đó, hãy luôn đảm bảo **thêm một dòng mới giữa văn bản và liên kết**, nếu không bạn có thể thấy lỗi sau trên trang web.
+- Tiếp theo chủ đề, nếu tác giả chèn liên kết đến khóa học hoặc bài hướng dẫn Plan ₿ Academy (**không** nằm trong dấu ngoặc đơn), trang web sẽ tự động tạo một "thẻ" hiển thị hình thu nhỏ liên quan. Do đó, hãy luôn đảm bảo **thêm một dòng mới giữa văn bản và liên kết**, nếu không bạn có thể thấy lỗi sau trên trang web.
 
 
 

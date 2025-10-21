@@ -25,4 +25,4 @@ Dans ce tutoriel vidéo, vous apprendrez :
 À la fin de cette vidéo, vous serez parfaitement équipé pour utiliser Krux en tant qu'alternative sécurisée et bricolée pour l'autodétention.
 
 
-**Note:** Ce tutoriel n'est qu'une ébauche en anglais, nous avons toujours besoin de quelqu'un pour écrire un guide complet sur ce sujet. Si vous êtes cette personne, veuillez nous contacter sur notre [Telegram](https://t.me/PlanBNetwork_ContentBuilder/325) ou sur [GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content)
+**Note:** Ce tutoriel n'est qu'une ébauche en anglais, nous avons toujours besoin de quelqu'un pour écrire un guide complet sur ce sujet. Si vous êtes cette personne, veuillez nous contacter sur notre [Telegram](https://t.me/PlanBNetwork_ContentBuilder/325) ou sur [GitHub](https://github.com/Plan ₿ Academy/Bitcoin-educational-content)

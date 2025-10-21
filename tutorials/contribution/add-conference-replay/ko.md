@@ -14,7 +14,7 @@ PlanB 네트워크 사이트에 Bitcoin 회의의 리플레이를 추가하고 �
 하지만 앞으로 열릴 회의를 추가하려면 사이트에 새 이벤트를 추가하는 방법을 설명하는 이 다른 튜토리얼을 읽어보시기 바랍니다.
 
 
-https://planb.network/tutorials/contribution/resource/add-event-1d3df554-c2d8-4e93-853f-58f672c5e097
+https://planb.academy/tutorials/contribution/resource/add-event-1d3df554-c2d8-4e93-853f-58f672c5e097
 
 
 ![conference](assets/01.webp)
@@ -23,11 +23,11 @@ https://planb.network/tutorials/contribution/resource/add-event-1d3df554-c2d8-4e
 - 먼저 GitHub에 계정이 있어야 합니다. 계정을 만드는 방법을 모르는 경우 자세한 튜토리얼을 만들어 안내해 드립니다.
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
-- 리소스/회의/` 섹션의 [데이터 전용 PlanB의 GitHub 리포지토리](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/conference)로 이동합니다:
+- 리소스/회의/` 섹션의 [데이터 전용 PlanB의 GitHub 리포지토리](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/resources/conference)로 이동합니다:
 
 ![conference](assets/02.webp)
 
@@ -105,7 +105,7 @@ tags:
 아직 조직의 "*프로젝트*" 식별자가 없는 경우 이 다른 튜토리얼을 따라 추가할 수 있습니다.
 
 
-https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
+https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 
 

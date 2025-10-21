@@ -30,7 +30,7 @@ For the creation of your recovery phrase by hand, you will need:
 - A sheet of paper;
 - A pen or pencil, ideally of different colors to facilitate organization;
 - Several dice, to minimize the risks of bias related to an unbalanced die;
-- [The list of 2048 BIP39 words](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf) printed out.
+- [The list of 2048 BIP39 words](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf) printed out.
 
 Subsequently, the use of a computer with a terminal will become necessary for the calculation of the checksum. It is precisely for this reason that I advise against the manual generation of the mnemonic phrase. In my opinion, the intervention of a computer, even under the precautions mentioned in this tutorial, significantly increases the vulnerability of a wallet.
 
@@ -68,7 +68,7 @@ Each of these packets represents a number in binary which will then be converted
 
 ![mnemonic](assets/notext/5.webp)
 
-Finally, the number in decimal tells us the position of the corresponding word in [the list of 2048 BIP39 words](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf). All that remains is to select these words to compose the recovery phrase for our wallet.
+Finally, the number in decimal tells us the position of the corresponding word in [the list of 2048 BIP39 words](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf). All that remains is to select these words to compose the recovery phrase for our wallet.
 
 ![mnemonic](assets/notext/6.webp)
 
@@ -91,7 +91,7 @@ As you can see in my example, the twelfth word is currently made up of only 7 bi
 
 ## Step 2: Calculating the checksum
 
-This step is the most critical in the manual generation of a mnemonic phrase, as it requires the use of a computer. As mentioned earlier, the checksum corresponds to the beginning of the SHA256 hash generated from the entropy. Although it is theoretically possible to calculate a SHA256 by hand for an input of 128 or 256 bits, this task could take an entire week. Moreover, any error in manual calculations would only be identified at the end of the process, forcing you to start over from the beginning. Therefore, it is unimaginable to do this step with just a sheet of paper and a pen. A computer is almost mandatory. If you still want to learn how to do a SHA256 by hand, we explain how to do it in [the CRYPTO301 course](https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f).
+This step is the most critical in the manual generation of a mnemonic phrase, as it requires the use of a computer. As mentioned earlier, the checksum corresponds to the beginning of the SHA256 hash generated from the entropy. Although it is theoretically possible to calculate a SHA256 by hand for an input of 128 or 256 bits, this task could take an entire week. Moreover, any error in manual calculations would only be identified at the end of the process, forcing you to start over from the beginning. Therefore, it is unimaginable to do this step with just a sheet of paper and a pen. A computer is almost mandatory. If you still want to learn how to do a SHA256 by hand, we explain how to do it in [the CRYPTO301 course](https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f).
 
 For this reason, I strongly advise against creating a manual phrase for an actual wallet. In my opinion, using a computer at this stage, even with all necessary precautions, unreasonably increases the attack surface of the wallet.
 To calculate the checksum while leaving as few traces as possible, we will use an amnesic Linux distribution from a removable drive named **Tails**. This operating system boots from a USB stick and operates entirely on the computer's RAM, without interacting with the hard drive. Thus, in theory, it leaves no trace on the computer after it is turned off. Please note that Tails is only compatible with x86_64 type processors, and not with ARM type processors.
@@ -231,7 +231,7 @@ With the decimal numbers obtained, we can now locate the corresponding words in 
 
 After this adjustment, you have the rank of each word within the list. All that remains is to identify each word by its number. Obviously, as with all the other steps, you must not use your computer to perform this conversion. Therefore, make sure you have printed the list beforehand.
 
-[**-> Print the BIP39 list in A4 format.**](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)
+[**-> Print the BIP39 list in A4 format.**](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)
 
 For example, if the number derived from the first line is 1721, the corresponding word will be the 1721st on the list:
 

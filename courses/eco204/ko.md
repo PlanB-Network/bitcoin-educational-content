@@ -1379,7 +1379,7 @@ MMT 지지자들은 막대한 통화 발행에도 불구하고 인플레이션�
 <chapterId>f3ffbb47-3aeb-54bd-80a9-adccb0f419e2</chapterId>
 
 
-[*Bitcoin 교육용 툴킷*에서 스캔한 컬렉션을 확인하세요(Plan ₿ Network 플랫폼의 *리소스* 섹션에서도 액세스 가능)](https://penpot.planb.network/#/view?page-id=c157057b-fd28-8042-8004-4f081b21defc&file-id=c157057b-fd28-8042-8004-4f081b21defb&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6475c2af5889&interactions-mode=show-on-click)
+[*Bitcoin 교육용 툴킷*에서 스캔한 컬렉션을 확인하세요(Plan ₿ Academy 플랫폼의 *리소스* 섹션에서도 액세스 가능)](https://penpot.planb.network/#/view?page-id=c157057b-fd28-8042-8004-4f081b21defc&file-id=c157057b-fd28-8042-8004-4f081b21defb&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6475c2af5889&interactions-mode=show-on-click)
 
 
 ![image](assets/fr/072.webp)

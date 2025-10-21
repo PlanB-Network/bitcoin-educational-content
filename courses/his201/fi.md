@@ -128,7 +128,7 @@ Diffien ja Hellmanin artikkeli raivasi tietä lukuisille innovaatioille. Yksi n�
 Epäsymmetrisen kryptografian löytäminen motivoi myös yksisuuntaisten funktioiden luomista, jotka ovat tunnettuja siitä, että kuvan (eteenpäin suunta) laskeminen on erittäin helppoa ja esikuvan (takaisin suunta) saaminen erittäin vaikeaa. Erityisesti se johti ensimmäisten kryptografisten hajautusfunktioiden kehittämiseen, jotka muuttivat muuttuvakokoisen viestin kiinteänkokoiseksi tiivisteeksi. Vuosien 1989 ja 1991 välillä Ronald Rivest suunnitteli MIT:lle useita hajautusalgoritmeja (MD2, MD4 ja MD5).
 Bitcoinin perustavanlaatuiset kryptografiset elementit juontavat juurensa tästä tutkimuksesta. ECDSA-allekirjoitusjärjestelmä, joka mahdollistaa perinteisen siirron valtuuttamisen, luotiin vuonna 1992 NISTille. SHA-256-tiivistefunktio, jota käytetään useissa protokollan osissa, julkaistiin vuonna 2001 osana SHA-2-algoritmipakettia, jonka NSA julkisti. Lisätietoja tästä aiheesta löydät kurssilta CYP201 jonka esittää Loïc Morel.
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### Sokkoallekirjoitukset ja sähköinen raha
 

@@ -743,7 +743,7 @@ $$
 
 現代暗号学の数学的基礎についてさらに学びたい場合は、Plan ₿ Network上のこの他のコースもお勧めします：
 
-https://planb.network/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
+https://planb.academy/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 
 ## 私鍵から公開鍵を計算する
 <chapterId>fcb2bd58-5dda-5ecf-bb8f-ad1a0561ab4a</chapterId>
@@ -1151,7 +1151,7 @@ Bitcoinには、まず第一に3つの基本的なsighashフラグがありま�
 
 Lightning Networkについての知識を深めるために、CYP201コースの後には、Fanis MichalakisによるLNP201コースを強くお勧めします。このコースでは、トピックについて詳しくカバーしています：
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 次のパートでは、Bitcoinウォレットの基礎となるニーモニックフレーズの仕組みを発見しましょう。
 
@@ -1186,7 +1186,7 @@ UTXOsは、さまざまなサイズのビットコインの断片を表し、そ
 
 ビットコインのプライバシーモデルについてさらに学び、プライバシーを保護する方法を発見するために、Plan ₿ NetworkのBTC204コースをフォローすることもお勧めします：
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### HDウォレット（_Hierarchical Deterministic_）
 
@@ -1289,7 +1289,7 @@ $$
 
 ### バイナリシーケンスをニーモニックフレーズに変換
 
-ビットシーケンス$\text{ENT} \Vert \text{CS}$は、11ビットのセグメントに分割されます。各11ビットセグメントは、10進数に変換されると、0から2047の間の数値に対応し、これは[BIP39によって標準化された2048語のリスト](https://github.com/Planb-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)の中の単語の位置を指定します。
+ビットシーケンス$\text{ENT} \Vert \text{CS}$は、11ビットのセグメントに分割されます。各11ビットセグメントは、10進数に変換されると、0から2047の間の数値に対応し、これは[BIP39によって標準化された2048語のリスト](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)の中の単語の位置を指定します。
 
 ![CYP201](assets/en/042.webp)
 たとえば、128ビットのエントロピーの場合、チェックサムは4ビットで、したがって合計シーケンスは132ビットになります。これは11ビットの12セグメントに分割されます（オレンジ色のビットはチェックサムを指定します）：
@@ -1329,7 +1329,7 @@ $$
 128ビットのセキュリティを提供する12語のフレーズは、現在、ビットコインをあらゆる盗難の試みから保護するために十分です。デジタル署名アルゴリズムがより大きなキーを使用するように変更されたり、ECDLP以外の数学的問題に依存するようにならない限り、24語のフレーズは余分なものです。さらに、フレーズが長くなると、バックアップ中の紛失リスクが増加します：半分の長さのバックアップは常に管理が容易です。
 テスト用ニーモニックフレーズを手動で生成する方法を具体的に学ぶために、このチュートリアルを見てみることをお勧めします：
 
-https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
+https://planb.academy/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
 
 このニーモニックフレーズからウォレットの派生を続ける前に、次の章でBIP39パスフレーズについて紹介します。これは派生プロセスで役割を果たし、ニーモニックフレーズと同じレベルにあります。
 ## パスフレーズ

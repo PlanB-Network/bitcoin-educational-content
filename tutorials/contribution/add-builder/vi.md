@@ -10,10 +10,10 @@ Bạn muốn thêm một "người xây dựng" Bitcoin mới vào trang web M�
 ![project](assets/01.webp)
 - Đầu tiên, bạn cần phải có một tài khoản GitHub. Nếu bạn không biết cách tạo tài khoản, chúng tôi đã tạo một hướng dẫn chi tiết để hướng dẫn bạn.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
-- Truy cập vào [kho lưu trữ GitHub của PlanB dành riêng cho dữ liệu](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects) trong phần `resources/project/`:
+- Truy cập vào [kho lưu trữ GitHub của PlanB dành riêng cho dữ liệu](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/resources/projects) trong phần `resources/project/`:
 ![project](assets/02.webp)
 - Nhấp vào nút `Add file` ở góc trên bên phải, sau đó chọn `Create new file`:
 ![project](assets/03.webp)
@@ -110,7 +110,7 @@ category: education
 ![project](assets/13.webp)
 - Nhấp vào ảnh hồ sơ GitHub của bạn ở góc trên bên phải, sau đó vào `Your Repositories`:
 ![project](assets/14.webp)
-- Chọn fork của bạn của kho lưu trữ PlanB Network:
+- Chọn fork của bạn của kho lưu trữ Plan ₿ Academy:
 ![project](assets/15.webp)
 - Bạn sẽ thấy một thông báo ở đầu cửa sổ với nhánh mới của bạn. Có thể nó được gọi là `patch-1`. Nhấp vào nó:
 ![project](assets/16.webp)
@@ -131,7 +131,7 @@ category: education
 ![project](assets/24.webp)
 - Nhấp vào nút `Add file`, sau đó vào `Upload files`:
 ![project](assets/25.webp)
-- Một trang mới sẽ mở ra. Kéo và thả một hình ảnh của công ty hoặc phần mềm của bạn vào khu vực đó. Hình ảnh này sẽ được hiển thị trên trang web của PlanB Network:
+- Một trang mới sẽ mở ra. Kéo và thả một hình ảnh của công ty hoặc phần mềm của bạn vào khu vực đó. Hình ảnh này sẽ được hiển thị trên trang web của Plan ₿ Academy:
 ![project](assets/26.webp)
 - Có thể là logo hoặc một biểu tượng:
 ![project](assets/27.webp)

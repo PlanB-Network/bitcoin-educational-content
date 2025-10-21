@@ -1,5 +1,5 @@
 ---
-name: Plan ₿ Network 교수
+name: Plan ₿ Academy 교수
 description: Plan ₿ Network에서 교사 프로필을 추가하거나 수정하려면 어떻게 하나요?
 ---
 ![cover](assets/cover.webp)
@@ -8,7 +8,7 @@ description: Plan ₿ Network에서 교사 프로필을 추가하거나 수정�
 새 튜토리얼이나 강좌를 작성하여 Plan ₿ Network에 기여하려는 경우 교사 프로필이 필요합니다. 이 프로필을 통해 플랫폼에 기여한 콘텐츠에 대해 적절한 크레딧을 받을 수 있습니다.
 
 
-이미 Plan ₿ Network에서 교육 콘텐츠 제작에 참여한 적이 있는 분이라면 이미 교사 프로필이 있을 것입니다. GitHub 리포지토리의 `/professors` 폴더에서 찾을 수 있습니다(https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors). 프로필이 이미 있는 경우 `professor.yml` 파일에서 로그인 정보를 찾으세요.
+이미 Plan ₿ Network에서 교육 콘텐츠 제작에 참여한 적이 있는 분이라면 이미 교사 프로필이 있을 것입니다. GitHub 리포지토리의 `/professors` 폴더에서 찾을 수 있습니다(https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/professors). 프로필이 이미 있는 경우 `professor.yml` 파일에서 로그인 정보를 찾으세요.
 
 
 프로필을 변경하려면 이 튜토리얼 마지막에 있는 '교사 프로필 수정' 섹션으로 이동합니다.
@@ -23,7 +23,7 @@ Plan ₿ Network에서 교사 프로필을 만드는 가장 쉬운 방법은 통
 ### 1 - 로컬 환경 구성
 
 
-GitHub의 Plan ₿ Network 리포지토리](https://github.com/PlanB-Network/Bitcoin-educational-content)의 Fork이 있어야 합니다.
+GitHub의 Plan ₿ Academy 리포지토리](https://github.com/Plan ₿ Academy/Bitcoin-educational-content)의 Fork이 있어야 합니다.
 
 
 Fork의 메인 브랜치(`개발`)를 소스 리포지토리와 동기화합니다.
@@ -37,7 +37,7 @@ Fork의 메인 브랜치(`개발`)를 소스 리포지토리와 동기화합니�
 git clone https://github.com/<username>/bitcoin-educational-content.git
 cd bitcoin-educational-content
 # Ajouter le dépôt source en tant que remote upstream
-git remote add upstream https://github.com/PlanB-Network/bitcoin-educational-content.git
+git remote add upstream https://github.com/Plan ₿ Academy/bitcoin-educational-content.git
 # Récupérer les dernières modifications depuis le dépôt source
 git fetch upstream
 # Se positionner sur la branche principale 'dev'
@@ -87,7 +87,7 @@ python3 main.py
 ```
 
 
-홈 페이지에서 리포지토리 복제본의 로컬 경로, 작성 중인 언어 및 GitHub ID를 입력합니다. 다른 사람을 위해 이 프로필을 만들고 이미 교수님의 프로필이 있는 경우 "*PBN 교수님의 ID*" 필드에 교수님의 ID를 입력합니다. 자신의 프로필을 만드는 중이라면 아직 교수님의 ID가 없으므로 이 필드를 비워 두세요.
+홈 페이지에서 리포지토리 복제본의 로컬 경로, 작성 중인 언어 및 GitHub ID를 입력합니다. 다른 사람을 위해 이 프로필을 만들고 이미 교수님의 프로필이 있는 경우 "*Plan ₿ Academy 교수님의 ID*" 필드에 교수님의 ID를 입력합니다. 자신의 프로필을 만드는 중이라면 아직 교수님의 ID가 없으므로 이 필드를 비워 두세요.
 
 
 그런 다음 "*새 교수*" 버튼을 클릭합니다.
@@ -156,8 +156,8 @@ Git 사용법을 익혔다면 새 브랜치를 만들고 기존 폴더에서 직
 초보자의 경우 GitHub의 Interface 웹을 통해 직접 수정하는 것을 권장합니다. GitHub 계정이 있는지 확인하세요. 계정을 만드는 방법을 모른다면 이 튜토리얼을 참조하세요:
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
-데이터 전용 Plan ₿ Network GitHub 리포지토리](https://github.com/PlanB-Network/Bitcoin-educational-content/graphs/contributors)로 이동합니다.
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+데이터 전용 Plan ₿ Academy GitHub 리포지토리](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/graphs/contributors)로 이동합니다.
 
 
 ![Image](assets/fr/03.webp)
@@ -184,7 +184,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![Image](assets/fr/06.webp)
 
 
-Plan ₿ Network 리포지토리에서 Fork을 아직 만들지 않았다면 GitHub에서 만들 것을 제안합니다. "*이 리포지토리에서 Fork 만들기*"를 클릭합니다.
+Plan ₿ Academy 리포지토리에서 Fork을 아직 만들지 않았다면 GitHub에서 만들 것을 제안합니다. "*이 리포지토리에서 Fork 만들기*"를 클릭합니다.
 
 
 ![Image](assets/fr/07.webp)
@@ -205,13 +205,13 @@ Plan ₿ Network 리포지토리에서 Fork을 아직 만들지 않았다면 Git
 변경사항에 대한 요약이 표시됩니다. 프로필을 더 변경하고 싶은 경우 폴더로 돌아가서 추가 커밋을 할 수 있습니다. 완료했으면 "*풀 리퀘스트 만들기*"를 클릭합니다.
 
 
-풀 리퀘스트는 브랜치의 변경 사항을 Plan ₿ Network 리포지토리의 메인 브랜치에 통합하기 위한 요청으로, 변경 사항이 병합되기 전에 검토하고 논의할 수 있습니다.
+풀 리퀘스트는 브랜치의 변경 사항을 Plan ₿ Academy 리포지토리의 메인 브랜치에 통합하기 위한 요청으로, 변경 사항이 병합되기 전에 검토하고 논의할 수 있습니다.
 
 
 ![Image](assets/fr/10.webp)
 
 
-Interface의 상단에서 작업 브랜치가 Plan ₿ Network 리포지토리(메인 브랜치)의 `dev` 브랜치와 병합되었는지 확인하세요.
+Interface의 상단에서 작업 브랜치가 Plan ₿ Academy 리포지토리(메인 브랜치)의 `dev` 브랜치와 병합되었는지 확인하세요.
 
 
 소스 리포지토리와 병합하려는 변경 사항을 간략하게 요약하는 제목을 입력합니다. 이러한 변경 사항을 설명하는 간단한 코멘트를 추가한 다음 Green "*풀 리퀘스트 만들기*" 버튼을 클릭하여 풀 리퀘스트를 확인합니다:
@@ -220,7 +220,7 @@ Interface의 상단에서 작업 브랜치가 Plan ₿ Network 리포지토리(�
 ![Image](assets/fr/11.webp)
 
 
-그러면 메인 Plan ₿ Network 리포지토리의 "*풀 리퀘스트*" 탭에서 PR을 볼 수 있습니다. 이제 관리자가 수정 사항을 병합할 때까지 기다리기만 하면 됩니다.
+그러면 메인 Plan ₿ Academy 리포지토리의 "*풀 리퀘스트*" 탭에서 PR을 볼 수 있습니다. 이제 관리자가 수정 사항을 병합할 때까지 기다리기만 하면 됩니다.
 
 
 ![Image](assets/fr/12.webp)

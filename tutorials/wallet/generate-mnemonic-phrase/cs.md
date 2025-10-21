@@ -30,7 +30,7 @@ Pro ruční vytvoření vaší obnovovací fráze budete potřebovat:
 - List papíru;
 - Pero nebo tužku, ideálně různých barev pro usnadnění organizace;
 - Několik kostek, aby se minimalizovala rizika zkreslení spojená s nevyváženou kostkou;
-- [Seznam 2048 BIP39 slov](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf) vytištěný.
+- [Seznam 2048 BIP39 slov](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf) vytištěný.
 
 Následně se stane nutné použití počítače s terminálem pro výpočet kontrolního součtu. Právě z tohoto důvodu doporučuji proti ruční generaci mnemonické fráze. Podle mého názoru zásah počítače, i při dodržení opatření uvedených v tomto tutoriálu, výrazně zvyšuje zranitelnost peněženky.
 Pro experimentální přístup týkající se "fiktivní peněženky" je možné použít váš běžný počítač a jeho terminál. Nicméně pro rigoróznější přístup zaměřený na omezení rizik kompromitace vaší fráze by bylo ideální použít PC odpojené od internetu (nejlépe bez wifi komponenty nebo kabelového RJ45 připojení), vybavené minimem periferií (všechny by měly být připojeny kabelem, aby se vyhnulo Bluetooth) a především běžící na amnestické distribuci Linuxu, jako je [Tails](https://tails.boum.org/index.fr.html), spuštěné z odnímatelného média.
@@ -65,7 +65,7 @@ Každý z těchto balíčků reprezentuje číslo v binární formě, které bud
 
 ![mnemonic](assets/notext/5.webp)
 
-Nakonec nám číslo v desítkové soustavě řekne pozici odpovídajícího slova v [seznamu 2048 slov BIP39](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf). Zbývá už jen vybrat tato slova, aby se složila obnovovací fráze pro naši peněženku.
+Nakonec nám číslo v desítkové soustavě řekne pozici odpovídajícího slova v [seznamu 2048 slov BIP39](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf). Zbývá už jen vybrat tato slova, aby se složila obnovovací fráze pro naši peněženku.
 
 ![mnemonic](assets/notext/6.webp)
 
@@ -86,7 +86,7 @@ Jak vidíte v mém příkladu, dvanácté slovo je v současnosti tvořeno pouze
 
 ## Krok 2: Výpočet kontrolního součtu
 
-Tento krok je nejkritičtější při ruční generaci mnemonické fráze, protože vyžaduje použití počítače. Jak bylo zmíněno dříve, kontrolní součet odpovídá začátku hash SHA256 generovaného z entropie. Ačkoliv je teoreticky možné vypočítat SHA256 ručně pro vstup 128 nebo 256 bitů, tento úkol by mohl trvat celý týden. Navíc jakákoli chyba v ručních výpočtech by byla identifikována až na konci procesu, což by vás nutilo začít znovu od začátku. Proto je nepředstavitelné provést tento krok pouze s listem papíru a perem. Počítač je téměř nezbytný. Pokud stále chcete vědět, jak provést SHA256 ručně, vysvětlujeme, jak na to v kurzu [CRYPTO301](https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f).
+Tento krok je nejkritičtější při ruční generaci mnemonické fráze, protože vyžaduje použití počítače. Jak bylo zmíněno dříve, kontrolní součet odpovídá začátku hash SHA256 generovaného z entropie. Ačkoliv je teoreticky možné vypočítat SHA256 ručně pro vstup 128 nebo 256 bitů, tento úkol by mohl trvat celý týden. Navíc jakákoli chyba v ručních výpočtech by byla identifikována až na konci procesu, což by vás nutilo začít znovu od začátku. Proto je nepředstavitelné provést tento krok pouze s listem papíru a perem. Počítač je téměř nezbytný. Pokud stále chcete vědět, jak provést SHA256 ručně, vysvětlujeme, jak na to v kurzu [CRYPTO301](https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f).
 
 Z tohoto důvodu důrazně doporučuji nevytvářet ručně frázi pro skutečnou peněženku. Podle mého názoru použití počítače v této fázi, i se všemi nezbytnými opatřeními, neúměrně zvyšuje útočnou plochu peněženky.
 Pro výpočet kontrolního součtu při zanechání co nejmenších stop použijeme amnestickou distribuci Linuxu na odnímatelném disku pojmenovanou **Tails**. Tento operační systém se spouští z USB klíčenky a funguje zcela v RAM počítače, aniž by interagoval s pevným diskem. Teoreticky tedy po vypnutí počítače nezanechává žádné stopy. Vezměte prosím na vědomí, že Tails je kompatibilní pouze s procesory typu x86_64, nikoli s procesory typu ARM.
@@ -221,7 +221,7 @@ S získanými desítkovými čísly nyní můžeme lokalizovat odpovídající s
 
 ![mnemonic](assets/notext/24.webp)
 Po tomto nastavení máte hodnost každého slova v seznamu. Zbývá už jen každé slovo identifikovat podle jeho čísla. Samozřejmě, stejně jako u všech ostatních kroků, nesmíte použít počítač k provedení této konverze. Proto se ujistěte, že máte seznam vytisknutý předem.
-[**-> Vytiskněte seznam BIP39 ve formátu A4.**](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)
+[**-> Vytiskněte seznam BIP39 ve formátu A4.**](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)
 
 Například, pokud číslo odvozené z prvního řádku je 1721, odpovídající slovo bude 1721. na seznamu:
 

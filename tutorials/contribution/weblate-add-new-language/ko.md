@@ -14,7 +14,7 @@ Plan ₿ Network의 사명은 Bitcoin에서 최고 수준의 교육 자료를 �
 아직 웹사이트에 모국어가 제공되지 않아 추가하고 싶으시다면 이 튜토리얼을 참고하세요!
 
 
-먼저, [텔레그램 그룹](https://t.me/PlanBNetwork_ContentBuilder)을 통해 Plan ₿ Network 팀에 연락하세요. 텔레그램이 없다면 mari@planb.network 으로 이메일을 보내주세요. 본인이 누구인지, 어떤 언어를 사용하는지에 대한 간단한 프레젠테이션을 작성해 주세요.
+먼저, [텔레그램 그룹](https://t.me/PlanBNetwork_ContentBuilder)을 통해 Plan ₿ Academy 팀에 연락하세요. 텔레그램이 없다면 mari@planb.network 으로 이메일을 보내주세요. 본인이 누구인지, 어떤 언어를 사용하는지에 대한 간단한 프레젠테이션을 작성해 주세요.
 
 
 ## 웹레이트에 언어가 있는지 확인하기
@@ -24,7 +24,7 @@ Plan ₿ Network의 사명은 Bitcoin에서 최고 수준의 교육 자료를 �
 
 
 
-- 웹레이트 플랫폼](https://weblate.planb.network/projects/planb-network-website/)으로 이동합니다:
+- 웹레이트 플랫폼](https://weblate.planb.network/projects/Plan ₿ Academy-website/)으로 이동합니다:
 
 ![language](assets/01.webp)
 
@@ -36,7 +36,7 @@ Plan ₿ Network의 사명은 Bitcoin에서 최고 수준의 교육 자료를 �
 사용 중인 언어가 이 목록에 있는 경우 다시 추가할 필요가 없습니다. 웹레이트 교정을 통해 기여하려면 다음 튜토리얼을 참조하세요:
 
 
-https://planb.network/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
+https://planb.academy/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 
 
 
@@ -81,9 +81,9 @@ https://planb.network/tutorials/contribution/content/weblate-translate-front-end
 번역 프로세스에 대한 안내를 받으려면 아래에서 전용 튜토리얼을 확인하세요:
 
 
-https://planb.network/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
+https://planb.academy/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 
-축하합니다, Plan ₿ Network 웹사이트의 정적 Elements 번역 프로세스를 시작하셨습니다!
+축하합니다, Plan ₿ Academy 웹사이트의 정적 Elements 번역 프로세스를 시작하셨습니다!
 
 여기에는 다른 반자동 방식(AI 번역 + 기여자 교정)을 사용하는 교육 콘텐츠(강좌, 튜토리얼 등)를 제외한 웹사이트의 모든 문자열이 포함됩니다.
 

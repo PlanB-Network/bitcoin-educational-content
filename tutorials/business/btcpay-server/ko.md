@@ -21,4 +21,4 @@ BTCpay 서버 - BTC세션으로 몇 분 안에 Bitcoin 결제 수락
 BTCPay 서버에 대한 전체 강좌를 무료로 확인하실 수 있으며, 이 놀라운 도구에 대한 지식을 넓힐 수 있습니다.
 
 
-[**-> couse**](https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1)에서 BTCPay 서버와 유틸리티에 대해 자세히 알아보세요
+[**-> couse**](https://planb.academy/courses/6fc12131-e464-4515-9d3f-9255365d5fa1)에서 BTCPay 서버와 유틸리티에 대해 자세히 알아보세요

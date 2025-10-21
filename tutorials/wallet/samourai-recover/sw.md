@@ -48,12 +48,12 @@ Kuhusu zana za matumizi ya mtu binafsi, kila kitu hufanya kazi kwa kawaida zinaz
 
 Maoni kwenye Twitter yamesisitiza kuwa faragha inayotolewa na shughuli ya Stonewall sasa inaweza kupunguzwa. Thamani iliyoongezwa ya shughuli ya Stonewall iko katika ukweli kwamba haiwezi kutofautishwa na muamala wa Stonewall x2 kulingana na muundo. Mchanganuzi anapokutana na muundo huu mahususi, hawezi kubainisha ikiwa ni Ukuta wa kawaida wa Stonewall na mtumiaji mmoja au Stonewall x2 inayohusisha watumiaji wawili. Walakini, kama tutakavyoona katika aya zifuatazo, kufanya miamala ya Stonewall x2 imekuwa ngumu zaidi kwa sababu ya kutopatikana kwa Soroban. Kwa hiyo wengine wanafikiri kwamba mchambuzi sasa anaweza kudhani kwamba shughuli yoyote na muundo huu ni Stonewall ya kawaida. Binafsi, sishiriki dhana hii. Ingawa shughuli za Stonewall x2 zinaweza kuwa chache (na nadhani zilikuwa tayari kabla ya tukio hili), ukweli kwamba bado zinawezekana zinaweza kubatilisha uchanganuzi mzima kulingana na kudhani kuwa sio.
 
-**[-> Pata maelezo zaidi kuhusu shughuli za Stonewall.](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)**
+**[-> Pata maelezo zaidi kuhusu shughuli za Stonewall.](https://planb.academy/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)**
 
 Kuhusu Ricochet, sijaweza kuthibitisha ikiwa huduma bado inafanya kazi, kwa sababu ya kutomiliki Dojo kwenye Testnet, na ninapendelea kutohatarisha kutumia `100 000 Sats` kuelekea Wallet ambayo inaweza kudhibitiwa na mamlaka. Ikiwa umepata fursa ya kujaribu zana hii hivi karibuni, ninakualika uwasiliane nami ili tuweze kusasisha nakala hii.
 
 
-Ikiwa unahitaji kutumia Ricochet, fahamu kwamba unaweza kufanya operesheni hii kwa mikono kila wakati na programu yoyote ya Wallet. Ili kujifunza jinsi ya kufanya humle mbalimbali wewe mwenyewe, ninapendekeza uangalie makala haya mengine: [**RICOCHET**](https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589)
+Ikiwa unahitaji kutumia Ricochet, fahamu kwamba unaweza kufanya operesheni hii kwa mikono kila wakati na programu yoyote ya Wallet. Ili kujifunza jinsi ya kufanya humle mbalimbali wewe mwenyewe, ninapendekeza uangalie makala haya mengine: [**RICOCHET**](https://planb.academy/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589)
 
 
 Zana ya JoinBot haifanyi kazi tena, kwani ilitegemea kabisa ushiriki wa Wallet inayosimamiwa na Samourai.
@@ -75,10 +75,10 @@ Baada ya majaribio kadhaa, inaonekana kwamba Soroban haifanyi kazi tena. Ili kuf
 - Ikiwa uko mbali na mshiriki wako, unaweza Exchange PSBTs kupitia njia ya mawasiliano ya nje kwa programu. Hata hivyo, kuwa mwangalifu, kwa kuwa data iliyo katika PSBT hizi ni nyeti katika suala la faragha. Ninapendekeza kutumia huduma ya ujumbe iliyosimbwa kwa njia fiche ili kuhakikisha usiri wa Exchange.
 
 
-**[-> Pata maelezo zaidi kuhusu shughuli za Stonewall x2.](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)**
+**[-> Pata maelezo zaidi kuhusu shughuli za Stonewall x2.](https://planb.academy/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)**
 
 
-**[-> Pata maelezo zaidi kuhusu shughuli za Stowaway.](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)**
+**[-> Pata maelezo zaidi kuhusu shughuli za Stowaway.](https://planb.academy/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)**
 
 
 Kuhusu Whirlpool, itifaki haionekani kufanya kazi tena, hata kwa watumiaji ambao wana Dojo yao wenyewe. Nimekuwa nikifuatilia RoninDojo yangu siku chache zilizopita na kujaribu upotoshaji wa kimsingi, lakini Whirlpool CLI haijaweza kuunganishwa tangu kuzimwa kwa seva.
@@ -240,7 +240,7 @@ Ikiwa unatumia programu tofauti na Sparrow, kama vile Electrum, kurejesha Samour
 - Mchanganyiko wa posta: `m/84'/0'/2147483646'`
 
 
-Sasa unaweza kufikia bitcoins zako kwenye Sparrow. Ikiwa unahitaji usaidizi wa kutumia Sparrow Wallet, unaweza pia kuangalia [mafunzo yetu maalum](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d).
+Sasa unaweza kufikia bitcoins zako kwenye Sparrow. Ikiwa unahitaji usaidizi wa kutumia Sparrow Wallet, unaweza pia kuangalia [mafunzo yetu maalum](https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d).
 
 
 Pia ninapendekeza uingize mwenyewe lebo ulizokuwa umehusisha na UTXO zako kwenye Samourai. Hii itakuruhusu kufanya udhibiti mzuri wa sarafu kwenye Sparrow baadaye.
@@ -329,7 +329,7 @@ Ikiwa unatumia programu nyingine kama Electrum kurejesha Samourai Wallet yako, h
 - Mchanganyiko wa posta: `m/84'/0'/2147483646'`
 
 
-Sasa unaweza kufikia bitcoins zako kwenye Sparrow. Iwapo unahitaji usaidizi wa kutumia Sparrow Wallet, unaweza pia kushauriana na [mafunzo yetu maalum](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d).
+Sasa unaweza kufikia bitcoins zako kwenye Sparrow. Iwapo unahitaji usaidizi wa kutumia Sparrow Wallet, unaweza pia kushauriana na [mafunzo yetu maalum](https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d).
 
 
 Pia ninapendekeza uingize mwenyewe lebo ulizokuwa umehusisha na UTXO zako kwenye Samourai. Hii itakuruhusu kufanya udhibiti mzuri wa sarafu kwenye Sparrow baadaye.

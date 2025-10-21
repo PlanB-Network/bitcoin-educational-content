@@ -6,7 +6,7 @@ description: PlanBネットワークに新しい教育資料をどのように�
 
 PlanBのミッションは、できるだけ多くの言語でBitcoinに関する最先端の教育リソースを提供することです。サイトに公開されているすべてのコンテンツはオープンソースであり、GitHub上でホストされているため、誰でもプラットフォームを豊かにするために参加することができます。
 
-チュートリアルやトレーニングを超えて、PlanBネットワークは、誰もがアクセスできるBitcoinに関する多様な教育コンテンツの広大なライブラリも提供しています。これは、[「BET」(_Bitcoin Educational Toolkit_)セクション](https://planb.network/resources/bet)でアクセスできます。このデータベースには、教育用ポスター、ミーム、ユーモラスなプロパガンダポスター、技術図、ロゴ、およびユーザー向けのその他のツールが含まれています。この取り組みの目的は、世界中でBitcoinを教える個人やコミュニティを、必要な視覚資源を提供することによって支援することです。
+チュートリアルやトレーニングを超えて、PlanBネットワークは、誰もがアクセスできるBitcoinに関する多様な教育コンテンツの広大なライブラリも提供しています。これは、[「BET」(_Bitcoin Educational Toolkit_)セクション](https://planb.academy/resources/bet)でアクセスできます。このデータベースには、教育用ポスター、ミーム、ユーモラスなプロパガンダポスター、技術図、ロゴ、およびユーザー向けのその他のツールが含まれています。この取り組みの目的は、世界中でBitcoinを教える個人やコミュニティを、必要な視覚資源を提供することによって支援することです。
 
 このデータベースを豊かにすることに参加したいですが、どうすればいいかわかりませんか？このチュートリアルはあなたのためです！
 
@@ -14,10 +14,10 @@ PlanBのミッションは、できるだけ多くの言語でBitcoinに関す�
 ![event](assets/01.webp)
 - まず、GitHubアカウントを持っている必要があります。アカウントの作成方法がわからない場合は、詳細なチュートリアルを用意しています。
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
-- `resources/bet/`セクションの[PlanB専用のGitHubリポジトリ](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet)に移動します：
+- `resources/bet/`セクションの[PlanB専用のGitHubリポジトリ](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/resources/bet)に移動します：
 ![event](assets/02.webp)
 - 右上の`Add file`ボタンをクリックし、次に`Create new file`をクリックします：
 ![event](assets/03.webp)
@@ -50,7 +50,7 @@ contributors:
 ```yaml
 project: 組織の識別子をPlanB Network上で指定します。もしまだ会社用の「project」識別子を持っていない場合は、このチュートリアルに従って作成することができます。
 
-https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
+https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 もし持っていない場合は、projectプロファイルを作成せずに、あなたの名前、偽名、または会社の名前をそのまま使用できます。
 type: コンテンツの性質を以下の二つのオプションから選択してください：
@@ -75,7 +75,7 @@ contributors: もし貢献者識別子を持っている場合は、それを記
 例えば、あなたのYAMLファイルは以下のようになるかもしれません：
 
 ```yaml
-project: PlanB-Network
+project: Plan ₿ Academy
 type: Educational Content
 links:
   download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
@@ -199,7 +199,7 @@ https://github.com/DiscoverBitcoin/bitcoin-educational-content/blob/dev/resource
 ![イベント](assets/55.webp)
 おめでとうございます！PRは正常に作成されました。管理者がこれをレビューし、すべてが順序どおりであれば、PlanB Networkのメインリポジトリにマージします。数日後には、ウェブサイト上であなたのBETが表示されるはずです。
 
-PRの進行状況をフォローしてください。管理者が追加情報を求めるコメントを残すことがあります。PRが承認されるまで、PlanB Network GitHubリポジトリのPull requestsタブでそれを確認することができます：
+PRの進行状況をフォローしてください。管理者が追加情報を求めるコメントを残すことがあります。PRが承認されるまで、Plan ₿ Academy GitHubリポジトリのPull requestsタブでそれを確認することができます：
 ![イベント](assets/56.webp)
 貴重な貢献をいただき、誠にありがとうございます！ :)
 

@@ -8,7 +8,7 @@ Passphrase BIP39 adalah kata sandi opsional yang, ketika digabungkan dengan fras
 
 Sebelum memulai tutorial ini, jika Anda tidak familiar dengan konsep passphrase, bagaimana cara kerjanya, dan implikasinya terhadap dompet Bitcoin Anda, saya sangat merekomendasikan untuk berkonsultasi dengan artikel teoretis lain ini di mana saya menjelaskan semuanya:
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ## Bagaimana fungsi passphrase pada Ledger?
 
@@ -26,13 +26,13 @@ Selain itu, opsi ini menawarkan semua manfaat keamanan dari passphrase BIP39 tan
 Opsi "passphrase sementara" tidak menyimpan passphrase pada perangkat. Setiap kali Anda ingin mengakses dompet terlindungi Anda, Anda perlu memasukkan passphrase secara manual pada Ledger. Ini membuat penggunaan menjadi lebih merepotkan tetapi juga sedikit meningkatkan keamanan dengan tidak meninggalkan jejak passphrase pada perangkat. Segera setelah Anda mematikan perangkat, itu kembali ke keadaan default dan memerlukan entri baru dari passphrase lengkap untuk mengakses akun tersembunyi. Opsi "passphrase sementara" ini dengan demikian mirip dengan operasi dompet perangkat keras lainnya.
 Dalam tutorial ini, saya akan menggunakan Ledger Flex sebagai contoh. Namun, jika Anda menggunakan model Ledger lain, prosesnya tetap sama. Untuk Ledger Stax, antarmukanya sama dengan Ledger Flex. Sedangkan untuk model Nano S, Nano S Plus, dan Nano X, meskipun antarmukanya berbeda, proses dan nama-nama menu tetap sama.
 **Perhatian:** Jika Anda sudah menerima bitcoin di Ledger Anda sebelum mengaktifkan passphrase, Anda perlu mentransfernya melalui transaksi Bitcoin. Passphrase menghasilkan satu set kunci baru, sehingga menciptakan dompet yang sepenuhnya independen dari dompet awal Anda. Saat menambahkan passphrase, Anda akan memiliki dompet baru yang akan kosong. Namun, ini tidak menghapus dompet pertama Anda tanpa passphrase. Anda masih bisa mengaksesnya, baik langsung melalui Ledger Anda tanpa memasukkan passphrase atau melalui perangkat lunak lain menggunakan frasa 24 kata Anda.
-Sebelum memulai tutorial ini, pastikan Anda sudah menginisialisasi Ledger Anda dan menghasilkan frasa mnemonik Anda. Jika ini tidak terjadi dan Ledger Anda baru, ikuti tutorial khusus untuk model Anda yang tersedia di PlanB Network. Setelah langkah ini selesai, Anda dapat kembali ke tutorial ini.
+Sebelum memulai tutorial ini, pastikan Anda sudah menginisialisasi Ledger Anda dan menghasilkan frasa mnemonik Anda. Jika ini tidak terjadi dan Ledger Anda baru, ikuti tutorial khusus untuk model Anda yang tersedia di Plan ₿ Academy. Setelah langkah ini selesai, Anda dapat kembali ke tutorial ini.
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
+https://planb.academy/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
 
 ## Bagaimana cara mengatur passphrase sementara dengan Ledger?
 
@@ -160,4 +160,4 @@ Selamat, dompet Bitcoin Anda sekarang diamankan dengan passphrase! Jika Anda mer
 
 Saya juga merekomendasikan Anda untuk memeriksa tutorial lengkap lainnya tentang cara menggunakan Ledger Flex Anda:
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a

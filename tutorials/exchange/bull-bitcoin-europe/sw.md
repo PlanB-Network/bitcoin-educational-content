@@ -68,7 +68,7 @@ Changanua msimbo wa QR na programu yako ya uthibitishaji, weka msimbo wa tarakim
 Ikiwa hujui kutumia programu za uthibitishaji za 2FA, ninapendekeza uangalie mafunzo haya kwenye programu ya Authy:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Weka nenosiri lako ili kuthibitisha.
 
@@ -181,9 +181,9 @@ Weka kiasi unachotaka kununua. Utahitaji pia kuchagua jinsi unavyotaka kuondoa S
 Ikiwa hujui kutumia pochi za Bitcoin, Radi au Liquid, ninapendekeza uchukue kozi yetu maalum ya mafunzo:
 
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
-Unaweza pia kugundua [mafunzo yetu ya kina kuhusu pochi bora zaidi za Bitcoin](https://planb.network/tutorials/wallet).
+Unaweza pia kugundua [mafunzo yetu ya kina kuhusu pochi bora zaidi za Bitcoin](https://planb.academy/tutorials/wallet).
 
 
 Kisha thibitisha ununuzi wako kwa kubofya "*Thibitisha Nunua*".
@@ -292,4 +292,4 @@ Sasa unajua jinsi ya kununua na kuuza Bitcoin kwa urahisi na Bull Bitcoin. Ikiwa
 Pia ninapendekeza uangalie mafunzo haya mengine ya kina ili kujifunza jinsi ya kudhibiti maneno yako ya Mnemonic kwa njia ifaayo:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270

@@ -10,10 +10,10 @@ Haluatko lisätä uuden Bitcoin "rakentajan" PlanB-verkon sivustolle ja antaa n�
 ![project](assets/01.webp)
 - Ensimmäiseksi sinulla täytyy olla GitHub-tili. Jos et tiedä, miten tili luodaan, olemme tehneet yksityiskohtaisen oppaan, joka opastaa sinua.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
-- Mene [PlanB:n GitHub-repositorioon, joka on omistettu datalle](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects) `resources/project/` osiossa:
+- Mene [PlanB:n GitHub-repositorioon, joka on omistettu datalle](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/resources/projects) `resources/project/` osiossa:
 ![project](assets/02.webp)
 - Klikkaa oikeassa yläkulmassa `Add file` -nappia, sitten `Create new file`:
 ![project](assets/03.webp)
@@ -110,7 +110,7 @@ kategoria: koulutus
 ![rakentaja](assets/13.webp)
 - Napsauta GitHub-profiilikuvakettasi oikeassa yläkulmassa, sitten `Your Repositories`:
 ![rakentaja](assets/14.webp)
-- Valitse PlanB Network -repositoriosi haara:
+- Valitse Plan ₿ Academy -repositoriosi haara:
 ![rakentaja](assets/15.webp)
 - Sinun pitäisi nähdä ilmoitus ikkunan yläosassa uudesta haarastasi. Sen nimi on todennäköisesti `patch-1`. Napsauta sitä:
 ![rakentaja](assets/16.webp)
@@ -132,7 +132,7 @@ kategoria: koulutus
 ![rakentaja](assets/24.webp)
 - Napsauta `Add file` -painiketta, sitten `Upload files`:
 ![rakentaja](assets/25.webp)
-- Uusi sivu avautuu. Vedä ja pudota yrityksesi tai ohjelmistosi kuva alueelle. Tämä kuva näytetään PlanB Network -sivustolla:
+- Uusi sivu avautuu. Vedä ja pudota yrityksesi tai ohjelmistosi kuva alueelle. Tämä kuva näytetään Plan ₿ Academy -sivustolla:
 ![rakentaja](assets/26.webp)
 - Se voi olla logo tai ikoni:
 ![rakentaja](assets/27.webp)

@@ -45,7 +45,7 @@ Za kreiranje vaše fraze za oporavak ručno, biće vam potrebno:
 - List papira;
 - Hemijska olovka ili obična olovka, po mogućstvu različitih boja radi lakše organizacije;
 - Nekoliko kockica, kako bi se smanjili rizici od pristrasnosti povezani sa neuravnoteženom kockicom;
-- [Lista od 2048 BIP39 reči](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf) odštampana.
+- [Lista od 2048 BIP39 reči](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf) odštampana.
 
 
 Nakon toga, upotreba računara sa terminalom postaje neophodna za izračunavanje kontrolne sume. Upravo iz tog razloga savetujem protiv ručnog generisanja Mnemonic fraze. Po mom mišljenju, intervencija računara, čak i uz mere predostrožnosti navedene u ovom vodiču, značajno povećava ranjivost Wallet.
@@ -102,7 +102,7 @@ Svaki od ovih paketa predstavlja broj u binarnom sistemu koji će zatim biti kon
 ![mnemonic](assets/notext/5.webp)
 
 
-Konačno, broj u decimalnom obliku nam govori poziciju odgovarajuće reči u [listi od 2048 BIP39 reči](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf). Sve što preostaje je da izaberemo ove reči kako bismo sastavili frazu za oporavak za naš Wallet.
+Konačno, broj u decimalnom obliku nam govori poziciju odgovarajuće reči u [listi od 2048 BIP39 reči](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf). Sve što preostaje je da izaberemo ove reči kako bismo sastavili frazu za oporavak za naš Wallet.
 
 
 ![mnemonic](assets/notext/6.webp)
@@ -137,7 +137,7 @@ Kao što možete videti u mom primeru, dvanaesta reč se trenutno sastoji od sam
 ## Korak 2: Izračunavanje kontrolnog zbira
 
 
-Ovaj korak je najkritičniji u ručnom generisanju Mnemonic fraze, jer zahteva upotrebu računara. Kao što je ranije pomenuto, kontrolni zbir odgovara početku SHA256 Hash generisanog iz entropije. Iako je teoretski moguće izračunati SHA256 ručno za unos od 128 ili 256 bita, ovaj zadatak bi mogao potrajati čitavu nedelju. Štaviše, svaka greška u ručnim proračunima bila bi identifikovana tek na kraju procesa, primoravajući vas da počnete ispočetka. Stoga je nezamislivo obaviti ovaj korak samo sa papirom i olovkom. Računar je gotovo obavezan. Ako i dalje želite da naučite kako da ručno uradite SHA256, objašnjavamo kako to učiniti u [kursu CRYPTO301](https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f).
+Ovaj korak je najkritičniji u ručnom generisanju Mnemonic fraze, jer zahteva upotrebu računara. Kao što je ranije pomenuto, kontrolni zbir odgovara početku SHA256 Hash generisanog iz entropije. Iako je teoretski moguće izračunati SHA256 ručno za unos od 128 ili 256 bita, ovaj zadatak bi mogao potrajati čitavu nedelju. Štaviše, svaka greška u ručnim proračunima bila bi identifikovana tek na kraju procesa, primoravajući vas da počnete ispočetka. Stoga je nezamislivo obaviti ovaj korak samo sa papirom i olovkom. Računar je gotovo obavezan. Ako i dalje želite da naučite kako da ručno uradite SHA256, objašnjavamo kako to učiniti u [kursu CRYPTO301](https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f).
 
 
 Iz tog razloga, toplo savetujem protiv kreiranja ručne fraze za stvarni Wallet. Po mom mišljenju, korišćenje računara u ovoj fazi, čak i uz sve neophodne mere predostrožnosti, nerazumno povećava površinu napada Wallet.
@@ -332,7 +332,7 @@ Sa dobijenim decimalnim brojevima, sada možemo locirati odgovarajuće reči na 
 Nakon ovog prilagođavanja, imate rang svakog reči unutar liste. Sve što preostaje je da identifikujete svaku reč po njenom broju. Očigledno, kao i kod svih drugih koraka, ne smete koristiti računar za izvođenje ove konverzije. Stoga, obavezno unapred odštampajte listu.
 
 
-[**-> Odštampaj BIP39 listu u A4 formatu.**](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)
+[**-> Odštampaj BIP39 listu u A4 formatu.**](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)
 
 
 Na primer, ako je broj dobijen iz prvog reda 1721, odgovarajuća reč će biti 1721. na listi:

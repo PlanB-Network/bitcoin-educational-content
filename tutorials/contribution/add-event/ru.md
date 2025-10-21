@@ -10,10 +10,10 @@ description: Как предложить добавление нового ме�
 ![event](assets/01.webp)
 - Во-первых, у вас должен быть аккаунт на GitHub. Если вы не знаете, как создать аккаунт, мы подготовили подробный учебник, который вас направит.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
-- Перейдите в [репозиторий GitHub PlanB, посвященный данным](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) в раздел `resources/conference/`:
+- Перейдите в [репозиторий GitHub PlanB, посвященный данным](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/resources/conference) в раздел `resources/conference/`:
 ![event](assets/02.webp)
 - Нажмите в верхнем правом углу на кнопку `Add file`, затем на `Create new file`:
 ![event](assets/03.webp)
@@ -83,7 +83,7 @@ price_dollars: 0
 ![мероприятие](assets/09.webp)
 Если у вашей организации еще нет идентификатора "*project*", вы можете добавить его, следуя этому другому учебному пособию.
 
-https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
+https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 
 
@@ -97,7 +97,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 ![мероприятие](assets/13.webp)
 - Нажмите на изображение вашего профиля GitHub в правом верхнем углу, затем на `Your Repositories`:
 ![мероприятие](assets/14.webp)
-- Выберите ваш форк репозитория PlanB Network:
+- Выберите ваш форк репозитория Plan ₿ Academy:
 ![мероприятие](assets/15.webp)
 - В верхней части окна вы должны увидеть уведомление с вашей новой веткой. Вероятно, она называется `patch-1`. Нажмите на нее:
 ![мероприятие](assets/16.webp)
@@ -118,7 +118,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 - Вернитесь в папку `assets`:
 ![мероприятие](assets/24.webp)
 - Нажмите на кнопку `Add file`, затем на `Upload files`: ![мероприятие](assets/25.webp)
-- Откроется новая страница. Перетащите изображение, которое представляет вашу конференцию и будет отображаться на сайте PlanB Network:
+- Откроется новая страница. Перетащите изображение, которое представляет вашу конференцию и будет отображаться на сайте Plan ₿ Academy:
 ![мероприятие](assets/26.webp)
 - Это может быть логотип, миниатюра или даже постер:
 ![мероприятие](assets/27.webp)

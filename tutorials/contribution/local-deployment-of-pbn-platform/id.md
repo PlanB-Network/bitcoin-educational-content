@@ -1,12 +1,12 @@
 ---
-name: Panduan untuk Menjalankan Plattform Plan ₿ Network Secara Lokal
-description: Bagaimana cara menjalankan Plan ₿ Network di lingkungan lokal untuk menguji kontribusi konten saya atau mengoreksi/meninjau konten pendidikan di Plan ₿ Network?
+name: Panduan untuk Menjalankan Plattform Plan ₿ Academy Secara Lokal
+description: Bagaimana cara menjalankan Plan ₿ Academy di lingkungan lokal untuk menguji kontribusi konten saya atau mengoreksi/meninjau konten pendidikan di Plan ₿ Academy?
 ---
 ![github](assets/cover.webp)
 
 ## Dalam Ringkasan
 
-Tutorial ini menyediakan petunjuk langkah demi langkah untuk menyiapkan Sistem Manajemen Pembelajaran Bitcoin dari Plan ₿ Network di mesin lokal Anda menggunakan Docker, kunci tiruan, dan konfigurasi repositori khusus.
+Tutorial ini menyediakan petunjuk langkah demi langkah untuk menyiapkan Sistem Manajemen Pembelajaran Bitcoin dari Plan ₿ Academy di mesin lokal Anda menggunakan Docker, kunci tiruan, dan konfigurasi repositori khusus.
 
 Jika Anda tidak memahami bagian di atas, jangan khawatir-tutorial ini cocok untuk Anda!
 
@@ -27,12 +27,12 @@ Tutorial ini menyediakan langkah-langkah terperinci untuk menyiapkan platform, m
 
 Kloning repositori ke mesin lokal Anda:
 
-git clone [https://github.com/PlanB-Network/Bitcoin-learning-management-system](https://github.com/PlanB-Network/Bitcoin-learning-management-system￼cd)
+git clone [https://github.com/Plan ₿ Academy/Bitcoin-learning-management-system](https://github.com/Plan ₿ Academy/Bitcoin-learning-management-system￼cd)
 
-[cd](https://github.com/PlanB-Network/Bitcoin-learning-management-system￼cd) Bitcoin-sistem-manajemen-pembelajaran
+[cd](https://github.com/Plan ₿ Academy/Bitcoin-learning-management-system￼cd) Bitcoin-sistem-manajemen-pembelajaran
 
 ```bash
-git clone https://github.com/PlanB-Network/bitcoin-learning-management-system
+git clone https://github.com/Plan ₿ Academy/bitcoin-learning-management-system
 cd bitcoin-learning-management-system
 ```
 
@@ -106,7 +106,7 @@ Setelah kontainer berjalan, akses frontend di:
 
 \[<http://localhost:8181](http://localhost:8181)>
 
-![Plan ₿ Network Local](assets/en/1.webp)
+![Plan ₿ Academy Local](assets/en/1.webp)
 
 Catatan: bahwa aplikasi akan secara otomatis memuat ulang jika Anda mengubah file sumber.
 
@@ -142,7 +142,7 @@ kemudian lagi:
 curl -X POST http://localhost:3000/api/github/sync
 ```
 
-![Plan ₿ Network Local](assets/en/2.webp)
+![Plan ₿ Academy Local](assets/en/2.webp)
 
 **10. Menyesuaikan Repositori (Opsional)**
 

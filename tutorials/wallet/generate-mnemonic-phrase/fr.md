@@ -31,7 +31,7 @@ Pour la création de votre phrase de récupération à la main, vous aurez besoi
 - Une feuille de papier ;
 - Un stylo ou un crayon, idéalement de couleurs différentes pour faciliter l'organisation ;
 - Plusieurs dés, afin de minimiser les risques de biais liés à un dé déséquilibré ;
-- [La liste des 2048 mots du BIP39](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf) imprimée.
+- [La liste des 2048 mots du BIP39](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf) imprimée.
 
 Par la suite, l'usage d'un ordinateur avec un terminal deviendra nécessaire pour le calcul de la somme de contrôle (checksum). C'est précisément pour cette raison que je déconseille la génération manuelle de la phrase mnémonique. À mon sens, l'intervention d'un ordinateur, même sous les précautions mentionnées dans ce tutoriel, accroît de manière significative la vulnérabilité d'un portefeuille.
 
@@ -73,7 +73,7 @@ Chacun de ces paquets représente un nombre en binaire qui sera ensuite converti
 
 ![mnemonic](assets/notext/5.webp)
 
-Enfin, le nombre en décimal nous indique la position du mot correspondant dans [la liste des 2048 mots du BIP39](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf). Il ne reste alors plus qu'à sélectionner ces mots pour composer la phrase de récupération de notre portefeuille.
+Enfin, le nombre en décimal nous indique la position du mot correspondant dans [la liste des 2048 mots du BIP39](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf). Il ne reste alors plus qu'à sélectionner ces mots pour composer la phrase de récupération de notre portefeuille.
 
 ![mnemonic](assets/notext/6.webp)
 
@@ -97,7 +97,7 @@ Comme on peut le voir sur mon exemple, le douzième mot est actuellement constit
 
 ## Étape 2 : Calcul de la checksum
 
-Cette étape est la plus critique dans la génération manuelle d'une phrase mnémonique, car elle requiert l'utilisation d'un ordinateur. Comme évoqué précédemment, la checksum correspond au début du hash SHA256 généré à partir de l'entropie. Bien qu'il soit théoriquement possible de calculer un SHA256 à la main pour une entrée de 128 ou 256 bits, cette tâche pourrait prendre une semaine entière. De plus, la moindre erreur dans les calculs manuels ne serait identifiée qu'à l'issue du processus, ce qui vous obligerait à tout reprendre depuis le début. Il est donc inimaginable de faire cette étape avec une feuille de papier et un stylo. L'ordinateur est quasi obligatoire. Si vous voulez toutefois apprendre à faire un SHA256 à la main, nous vous expliquons comment le faire dans [la formation CRYPTO301](https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f).
+Cette étape est la plus critique dans la génération manuelle d'une phrase mnémonique, car elle requiert l'utilisation d'un ordinateur. Comme évoqué précédemment, la checksum correspond au début du hash SHA256 généré à partir de l'entropie. Bien qu'il soit théoriquement possible de calculer un SHA256 à la main pour une entrée de 128 ou 256 bits, cette tâche pourrait prendre une semaine entière. De plus, la moindre erreur dans les calculs manuels ne serait identifiée qu'à l'issue du processus, ce qui vous obligerait à tout reprendre depuis le début. Il est donc inimaginable de faire cette étape avec une feuille de papier et un stylo. L'ordinateur est quasi obligatoire. Si vous voulez toutefois apprendre à faire un SHA256 à la main, nous vous expliquons comment le faire dans [la formation CRYPTO301](https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f).
 
 C'est pour cette raison que je vous déconseille fortement de faire une phrase manuelle pour un véritable portefeuille. Selon moi, l'utilisation d'un ordinateur à cette étape, même en prenant toutes les précautions nécessaires, augmente de manière irraisonnable la surface d'attaque du portefeuille.
 
@@ -243,7 +243,7 @@ Avec les nombres décimaux obtenus, nous pouvons désormais localiser les mots c
 
 Après cet ajustement, vous disposez du rang de chaque mot au sein de la liste. Il ne reste plus qu'à identifier chaque mot selon son numéro. Évidemment, comme pour toutes les autres étapes, vous ne devez pas utiliser votre ordinateur pour effectuer cette conversion. Assurez-vous donc d'avoir imprimé la liste au préalable.
 
-[**-> Imprimer la liste du BIP39 en format A4.**](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)
+[**-> Imprimer la liste du BIP39 en format A4.**](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)
 
 Par exemple, si le nombre dérivé de la première ligne est 1721, le mot correspondant sera le 1721ème de la liste :
 

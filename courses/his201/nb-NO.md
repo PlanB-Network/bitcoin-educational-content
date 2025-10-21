@@ -128,7 +128,7 @@ Artikkelen av Diffie og Hellman banet vei for en mengde innovasjoner. En av diss
 Oppdagelsen av asymmetrisk kryptografi motiverte også skapelsen av enveisfunksjoner, kjennetegnet ved å gjøre beregningen av et bilde (fremoverretning) veldig enkelt og å oppnå et pre-bilde (bakoverretning) veldig vanskelig. Spesielt førte det til utviklingen av de første kryptografiske hash-funksjonene, som omdannet en melding av variabel størrelse til et fast størrelses sammendrag. Mellom 1989 og 1991 ble derfor flere hashingalgoritmer (MD2, MD4, og MD5) designet av Ronald Rivest for MIT.
 De grunnleggende kryptografiske elementene i Bitcoin stammer fra denne forskningen. ECDSA-signaturordningen, som tillater autorisering av å bruke en tradisjonell transaksjon, ble skapt i 1992 for NIST. SHA-256 hash-funksjonen, brukt på flere steder i protokollen, ble publisert i 2001 som en del av SHA-2 algoritmesuiten gjort offentlig av NSA. For mer informasjon om dette emnet, kan du henvise til kurset CYP201 presentert av Loïc Morel.
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### Blindsignaturer og Elektronisk Kontanter
 

@@ -7,7 +7,7 @@ description: Nokoresha gute Umucungezi w'Imbuto n'Umucungezi wanje w'Imbuto?
 
 
 
-*Turashimira amashirahamwe ya [Satochip](https://satochip.io/) kwemera gusubira gukoresha [amasanamu yabo](https://www.youtube.com/@satochip/videos) mu guhingura iyi nyigisho. Ubu hariko harategurwa igitabu canditswe, kizohindurwa mu ndimi zose, kandi vuba kizoboneka kuri Plan ₿ Network.*
+*Turashimira amashirahamwe ya [Satochip](https://satochip.io/) kwemera gusubira gukoresha [amasanamu yabo](https://www.youtube.com/@satochip/videos) mu guhingura iyi nyigisho. Ubu hariko harategurwa igitabu canditswe, kizohindurwa mu ndimi zose, kandi vuba kizoboneka kuri Plan ₿ Academy.*
 
 
 

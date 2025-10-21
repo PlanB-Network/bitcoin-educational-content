@@ -14,7 +14,7 @@ La característica especial de este monedero es la posibilidad de enviar bitcoin
 
 Para utilizar Proton Wallet, necesitas una cuenta Proton. Puedes crear una gratuitamente siguiendo los primeros pasos de este tutorial dedicado a la creación de un buzón Proton (sólo la sección "*Crear una cuenta Proton*"). Una vez configurada tu cuenta, puedes continuar con el resto de este tutorial.
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Conectarse a Proton Wallet
 
@@ -68,7 +68,7 @@ Puedes escribirlo en un papel o, para mayor seguridad, te recomiendo grabarlo en
 
 Para más información sobre la forma correcta de guardar y gestionar tu frase mnemotécnica, te recomiendo encarecidamente que sigas este otro tutorial, especialmente si eres principiante:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 por supuesto, nunca se debe tomar una foto de estas palabras, a diferencia de lo que hago en este tutorial
 
@@ -96,7 +96,7 @@ Aquí es donde puedes añadir una frase de contraseña BIP39 a un nuevo monedero
 
 Para profundizar en el conocimiento de la frase de contraseña, te recomiendo este tutorial:
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ## Recibir bitcoins
 
@@ -162,4 +162,4 @@ Enhorabuena, ya sabes cómo configurar y utilizar Proton Wallet. Si este tutoria
 
 Para ir más allá, recomiendo este tutorial sobre Jade Plus, el último monedero de hardware de Blockstream:
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262

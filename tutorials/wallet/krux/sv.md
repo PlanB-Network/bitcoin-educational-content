@@ -25,4 +25,4 @@ I den här videohandledningen lär du dig:
 I slutet av den här videon kommer du att vara fullt utrustad för att använda Krux som ett säkert DIY-alternativ för självförvaring.
 
 
-**Notera: ** Denna handledning är bara ett engelskt utkast, vi behöver fortfarande någon som skriver en omfattande guide om detta ämne. Om du är den, vänligen kontakta oss på vårt [Telegram](https://t.me/PlanBNetwork_ContentBuilder/325) eller på [GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content)
+**Notera: ** Denna handledning är bara ett engelskt utkast, vi behöver fortfarande någon som skriver en omfattande guide om detta ämne. Om du är den, vänligen kontakta oss på vårt [Telegram](https://t.me/PlanBNetwork_ContentBuilder/325) eller på [GitHub](https://github.com/Plan ₿ Academy/Bitcoin-educational-content)

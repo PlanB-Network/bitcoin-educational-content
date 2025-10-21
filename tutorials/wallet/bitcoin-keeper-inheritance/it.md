@@ -17,7 +17,7 @@ Questo video tutorial illustra l'impostazione e l'utilizzo di Bitcoin Keeper Wal
 
 Per vedere l'esercitazione completa per il Bitcoin Keeper Wallet, vedere l'esercitazione qui:
 
-https://planb.network/tutorials/wallet/mobile/bitcoin-keeper-7f2a160b-10b6-4cc5-8820-514ee2eb1599
+https://planb.academy/tutorials/wallet/mobile/bitcoin-keeper-7f2a160b-10b6-4cc5-8820-514ee2eb1599
 
 Consultate qui altri link pertinenti:
 
@@ -26,4 +26,4 @@ Consultate qui altri link pertinenti:
 - Tapsigner [Video](youtube.com/watch?v=xKHy1HMw5iU)
 
 
-**Nota:** Questo tutorial è solo una bozza in inglese, abbiamo ancora bisogno di qualcuno che scriva una guida completa su questo argomento. Se siete voi, contattateci su [Telegram](https://t.me/PlanBNetwork_ContentBuilder/325) o su [GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content)
+**Nota:** Questo tutorial è solo una bozza in inglese, abbiamo ancora bisogno di qualcuno che scriva una guida completa su questo argomento. Se siete voi, contattateci su [Telegram](https://t.me/PlanBNetwork_ContentBuilder/325) o su [GitHub](https://github.com/Plan ₿ Academy/Bitcoin-educational-content)

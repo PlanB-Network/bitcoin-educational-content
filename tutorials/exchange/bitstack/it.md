@@ -51,9 +51,9 @@ Scegliete una password forte per proteggere l'accesso al vostro account, quindi 
 
 ![Image](assets/fr/06.webp)
 
-Per una gestione sicura delle password su base quotidiana, l'uso di un password manager è altamente raccomandato. Su Plan ₿ Network, troverete diversi tutorial sulle migliori soluzioni esistenti, come Bitwarden :
+Per una gestione sicura delle password su base quotidiana, l'uso di un password manager è altamente raccomandato. Su Plan ₿ Academy, troverete diversi tutorial sulle migliori soluzioni esistenti, come Bitwarden :
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Vi verrà quindi chiesto di verificare la vostra identità (KYC). In conformità alla normativa francese, vi verrà chiesto di fornire i vostri dati personali e un documento di identità. Compilate le caselle con il vostro cognome, nome e data di nascita.
 
@@ -184,7 +184,7 @@ Determinare la priorità della transazione. Per un prelievo senza commissioni, s
 
 ![Image](assets/fr/32.webp)
 
-Se non avete familiarità con il funzionamento di un portafoglio di autocustodia, offriamo tutorial sulla maggior parte delle soluzioni disponibili [sulla Rete Plan ₿ nella sezione "*Portafoglio*"](https://planb.network/tutorials/wallet).
+Se non avete familiarità con il funzionamento di un portafoglio di autocustodia, offriamo tutorial sulla maggior parte delle soluzioni disponibili [sulla Rete Plan ₿ nella sezione "*Portafoglio*"](https://planb.academy/tutorials/wallet).
 
 ## Vendere bitcoin
 

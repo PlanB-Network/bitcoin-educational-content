@@ -996,7 +996,7 @@ Bernholz 提出的一個有趣的觀點是，貨幣改革的成功不僅取決�
 
 <chapterId>f3ffbb47-3aeb-54bd-80a9-adccb0f419e2</chapterId>
 
-[在 *Bitcoin Educational Toolkit* 中探索掃描的收藏（也可以從 Plan ₿ Network 平台的 *資源* 區域存取。](https://penpot.planb.network/#/view?page-id=c157057b-fd28-8042-8004-4f081b21defc&file-id=c157057b-fd28-8042-8004-4f081b21defb&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6475c2af5889&interactions-mode=show-on-click)
+[在 *Bitcoin Educational Toolkit* 中探索掃描的收藏（也可以從 Plan ₿ Academy 平台的 *資源* 區域存取。](https://penpot.planb.network/#/view?page-id=c157057b-fd28-8042-8004-4f081b21defc&file-id=c157057b-fd28-8042-8004-4f081b21defb&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6475c2af5889&interactions-mode=show-on-click)
 
 ![圖片](assets/fr/072.webp)
 # 我們是怎麼來到這裡的？

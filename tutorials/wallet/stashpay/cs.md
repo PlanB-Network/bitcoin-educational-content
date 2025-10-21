@@ -42,7 +42,7 @@ Po instalaci aplikace vám StashPay při prvním otevření vytvoří počáteč
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Do nastavení StashPay se dostanete kliknutím na ikonu "Nastavení" a poté klikněte na možnost **Vytvořit zálohu**. Poté autorizujte zobrazení frází pro obnovení. Nekopírujte fráze pro obnovení do schránky telefonu, protože mohou být přístupné jiným podvodným aplikacím nainstalovaným v mobilním telefonu.
 
@@ -88,7 +88,7 @@ Jistě jste si všimli, že za příjem satoši musíte zaplatit síťový popla
 
 
 
-https://planb.network/tutorials/wallet/mobile/misty-breez-738ced2a-0764-4d7f-a150-ec0ce84a9d25
+https://planb.academy/tutorials/wallet/mobile/misty-breez-738ced2a-0764-4d7f-a150-ec0ce84a9d25
 
 ### Posílejte bitcoiny pomocí StashPay
 
@@ -106,7 +106,7 @@ Protože StashPay je Wallet založený na vývojové sadě Breez, těží ze zaj
 
 
 
-https://planb.network/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
+https://planb.academy/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
 
 Breez SDK však stanovuje minimální částku, za kterou můžete posílat bitcoiny na Address v hlavním řetězci.
 
@@ -168,4 +168,4 @@ Právě jste si poradili s minimalistickou platební kartou Bitcoin Wallet od sp
 
 
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f

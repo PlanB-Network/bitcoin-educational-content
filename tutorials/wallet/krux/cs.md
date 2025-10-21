@@ -25,4 +25,4 @@ V tomto výukovém videu se naučíte:
 Na konci tohoto videa budete plně připraveni používat Krux jako bezpečnou, DIY alternativu pro vlastní úschovu.
 
 
-**Poznámka:** Tento návod je pouze anglický návrh, stále potřebujeme, aby někdo napsal rozsáhlou příručku na toto téma. Pokud jste to vy, ozvěte se nám prosím na našem [Telegramu](https://t.me/PlanBNetwork_ContentBuilder/325) nebo na [GitHubu](https://github.com/PlanB-Network/Bitcoin-educational-content)
+**Poznámka:** Tento návod je pouze anglický návrh, stále potřebujeme, aby někdo napsal rozsáhlou příručku na toto téma. Pokud jste to vy, ozvěte se nám prosím na našem [Telegramu](https://t.me/PlanBNetwork_ContentBuilder/325) nebo na [GitHubu](https://github.com/Plan ₿ Academy/Bitcoin-educational-content)

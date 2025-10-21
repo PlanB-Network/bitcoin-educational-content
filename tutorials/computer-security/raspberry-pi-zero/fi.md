@@ -6,7 +6,7 @@ description: Kuinka rakentaa minimaalinen, eristetty ja edullinen tietokone Rasp
 
 
 
-Jos olet ollut Plan ₿ Network:n sivuilla jonkin aikaa, olet jo oppinut, että yksi eniten suositelluista tietoturva-asetuksista, melkeinpä pakollinen, **on varojen hallinta tallentamalla yksityiset avaimesi offline-tallennukseen**.
+Jos olet ollut Plan ₿ Academy:n sivuilla jonkin aikaa, olet jo oppinut, että yksi eniten suositelluista tietoturva-asetuksista, melkeinpä pakollinen, **on varojen hallinta tallentamalla yksityiset avaimesi offline-tallennukseen**.
 
 
 
@@ -14,7 +14,7 @@ Jos et ole vielä tutustunut siihen, löydät tämän oppaan aikana linkkejä av
 
 
 
-Yksityisten avainten hallintaan offline-tilassa tarvitaan siis laite, joka on pysyvästi irrotettu verkosta, olipa kyseessä [laitelompakko](https://planb.network/resources/glossary/hardware-wallet) tai airgap-tietokone, joka on omistettu tälle erityiselle toiminnolle.
+Yksityisten avainten hallintaan offline-tilassa tarvitaan siis laite, joka on pysyvästi irrotettu verkosta, olipa kyseessä [laitelompakko](https://planb.academy/resources/glossary/hardware-wallet) tai airgap-tietokone, joka on omistettu tälle erityiselle toiminnolle.
 
 
 
@@ -500,7 +500,7 @@ Tuntemieni lompakoiden joukossa ainoa, joka tarjoaa 32-bittisen version, on Elec
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-airgap-62b5a4c6-a221-4d41-9a62-4618c53d8223
+https://planb.academy/tutorials/wallet/desktop/electrum-airgap-62b5a4c6-a221-4d41-9a62-4618c53d8223
 
 ## Päätelmät
 

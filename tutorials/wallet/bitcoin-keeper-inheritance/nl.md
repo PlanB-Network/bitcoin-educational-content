@@ -17,7 +17,7 @@ Deze videotutorial leidt je door het opzetten en gebruiken van Bitcoin Keeper Wa
 
 De volledige tutorial voor Bitcoin Keeper Wallet vind je hier:
 
-https://planb.network/tutorials/wallet/mobile/bitcoin-keeper-7f2a160b-10b6-4cc5-8820-514ee2eb1599
+https://planb.academy/tutorials/wallet/mobile/bitcoin-keeper-7f2a160b-10b6-4cc5-8820-514ee2eb1599
 
 Bekijk hier andere relevante links:
 
@@ -26,4 +26,4 @@ Bekijk hier andere relevante links:
 - Tapsigner [Video](youtube.com/watch?v=xKHy1HMw5iU)
 
 
-**Note:** Deze tutorial is slechts een Engels ontwerp, we hebben nog steeds iemand nodig die een uitgebreide gids over dit onderwerp schrijft. Als jij die iemand bent, neem dan contact met ons op via [Telegram](https://t.me/PlanBNetwork_ContentBuilder/325) of [GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content)
+**Note:** Deze tutorial is slechts een Engels ontwerp, we hebben nog steeds iemand nodig die een uitgebreide gids over dit onderwerp schrijft. Als jij die iemand bent, neem dan contact met ons op via [Telegram](https://t.me/PlanBNetwork_ContentBuilder/325) of [GitHub](https://github.com/Plan ₿ Academy/Bitcoin-educational-content)

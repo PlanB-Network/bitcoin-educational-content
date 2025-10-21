@@ -75,7 +75,7 @@ Poruszanie się po złożonym krajobrazie zarządzania Bitcoin wymaga nie tylko 
 Gotowy na kolejny krok w swojej podróży Bitcoin? Zaczynajmy!
 
 
-**UWAGA: Jeśli podczas kursu napotkasz nieznane terminy związane z Bitcoin, zapoznaj się z [glosariuszem](https://planb.network/resources/glossary), aby znaleźć definicje**
+**UWAGA: Jeśli podczas kursu napotkasz nieznane terminy związane z Bitcoin, zapoznaj się z [glosariuszem](https://planb.academy/resources/glossary), aby znaleźć definicje**
 
 
 
@@ -154,7 +154,7 @@ Jeśli im się uda, te same problemy najprawdopodobniej powrócą w przyszłośc
 Żadna z tych opcji nie jest korzystna dla użytkownika.
 
 
-Odporność na cenzurę poprzez decentralizację jest tym, co odróżnia Bitcoin od innych systemów pieniężnych, ale nie jest to łatwe do osiągnięcia ze względu na *problem Double-spending*. Jest to problem polegający na upewnieniu się, że nikt nie może wydać tej samej monety dwa razy, co wiele osób uważało za niemożliwe do rozwiązania w sposób zdecentralizowany. Satoshi Nakamoto pisze w swoim [Bitcoin whitepaper](https://planb.network/bitcoin.pdf) o tym, jak rozwiązać problem Double-spending:
+Odporność na cenzurę poprzez decentralizację jest tym, co odróżnia Bitcoin od innych systemów pieniężnych, ale nie jest to łatwe do osiągnięcia ze względu na *problem Double-spending*. Jest to problem polegający na upewnieniu się, że nikt nie może wydać tej samej monety dwa razy, co wiele osób uważało za niemożliwe do rozwiązania w sposób zdecentralizowany. Satoshi Nakamoto pisze w swoim [Bitcoin whitepaper](https://planb.academy/bitcoin.pdf) o tym, jak rozwiązać problem Double-spending:
 
 
 > W niniejszym artykule proponujemy rozwiązanie problemu Double-spending przy użyciu rozproszonego serwera Timestamp typu peer-to-peer do generate obliczeniowego dowodu chronologicznej kolejności transakcji.
@@ -652,7 +652,7 @@ Aby zminimalizować ryzyko ujawnienia danych osobowych, nie należy ich podawać
 Artykuł sugeruje, aby unikać korzystania z giełd, które wymagają KYC/AML i zamiast tego handlować prywatnie lub korzystać ze zdecentralizowanych giełd, takich jak [bisq](https://bisq.network/).
 
 
-https://planb.network/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+https://planb.academy/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 Więcej informacji na temat środków zaradczych można znaleźć we wcześniej wspomnianym [artykule wiki na temat prywatności](https://en.Bitcoin.it/wiki/Privacy#Methods_for_improving_privacy_.28non-Blockchain.29), zaczynając od "Metod poprawy prywatności (nie-Blockchain)".
 

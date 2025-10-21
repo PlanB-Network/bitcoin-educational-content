@@ -10,16 +10,16 @@ description: Как добавить повтор конференции на с
 
 Однако, если вы хотите добавить конференцию, которая состоится в будущем, я советую вам прочитать этот другой учебник, в котором мы объясняем, как добавить новое событие на сайт.
 
-https://planb.network/tutorials/contribution/resource/add-event-1d3df554-c2d8-4e93-853f-58f672c5e097
+https://planb.academy/tutorials/contribution/resource/add-event-1d3df554-c2d8-4e93-853f-58f672c5e097
 
 
 ![conference](assets/01.webp)
 - Сначала вам нужно иметь аккаунт на GitHub. Если вы не знаете, как создать аккаунт, мы сделали подробный учебник, чтобы помочь вам.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
-- Перейдите в [репозиторий GitHub PlanB, посвященный данным](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) в разделе `resources/conference/`:
+- Перейдите в [репозиторий GitHub PlanB, посвященный данным](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/resources/conference) в разделе `resources/conference/`:
 ![conference](assets/02.webp)
 - Нажмите в правом верхнем углу на кнопку `Add file`, затем на `Create new file`:
 ![conference](assets/03.webp)
@@ -70,7 +70,7 @@ tags:
 ![conference](assets/09.webp)
 Если у вашей организации еще нет идентификатора "*project*", вы можете добавить его, следуя этому другому учебному пособию.
 
-https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
+https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 
 - Как только вы закончите вносить изменения в этот файл, сохраните их, нажав на кнопку `Commit changes...`:
@@ -83,7 +83,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 ![конференция](assets/13.webp)
 - Нажмите на изображение вашего профиля GitHub в правом верхнем углу, затем на `Your Repositories`:
 ![конференция](assets/14.webp)
-- Выберите ваш форк репозитория PlanB Network:
+- Выберите ваш форк репозитория Plan ₿ Academy:
 ![конференция](assets/15.webp)
 - В верхней части окна вы должны увидеть уведомление о вашей новой ветке. Вероятно, она называется `patch-1`. Нажмите на нее:
 ![конференция](assets/16.webp)
@@ -105,7 +105,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 ![конференция](assets/24.webp)
 - Нажмите на кнопку `Add file`, затем на `Upload files`:
 ![конференция](assets/25.webp)
-- Откроется новая страница. Перетащите изображение, которое представляет вашу конференцию и будет отображаться на сайте PlanB Network: ![конференция](assets/26.webp)
+- Откроется новая страница. Перетащите изображение, которое представляет вашу конференцию и будет отображаться на сайте Plan ₿ Academy: ![конференция](assets/26.webp)
 - Это может быть логотип, миниатюра или даже постер:
 ![конференция](assets/27.webp)
 - Как только изображение будет загружено, убедитесь, что отмечен пункт `Commit directly to the patch-1 branch`, затем нажмите на `Commit changes`:
@@ -177,7 +177,7 @@ description: Крупнейшая Биткоин конференция во Ф�
 ```
 
 ![conference](assets/37.webp)
-- В начале вашего документа, в "front matter", заполните поле `name:` названием вашей конференции и годом повторов. В поле `description:` напишите краткое описание вашего мероприятия на языке файла. Например, для файла с именем `en.md`, описание должно быть на английском. Команда PlanB Network позаботится о переводе вашего описания с использованием их модели.
+- В начале вашего документа, в "front matter", заполните поле `name:` названием вашей конференции и годом повторов. В поле `description:` напишите краткое описание вашего мероприятия на языке файла. Например, для файла с именем `en.md`, описание должно быть на английском. Команда Plan ₿ Academy позаботится о переводе вашего описания с использованием их модели.
 - Заголовки первого уровня, отмеченные `#`, используются для организации конференции по сценам. Например, `# Основная Сцена` для основной сцены и `# Комната Мастер-Классов` для сцены, посвященной мастер-классам.
 
 - Заголовки второго уровня, отмеченные двойным `##`, используются для разделения различных видео повторов. Если конференции фильмировались непрерывно на протяжении полудня, укажите, например, `## Пятница утро`. Если конференции фильмировались и транслировались по отдельности, назовите конференцию непосредственно с заголовком второго уровня.

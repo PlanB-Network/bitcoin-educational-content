@@ -7,7 +7,7 @@ description: Hoe gebruik ik Seedkeeper met mijn SeedSigner?
 
 
 
-*Met dank aan de [Satochip](https://satochip.io/) teams voor het toestaan van het hergebruik van [hun video's](https://www.youtube.com/@satochip/videos) voor het maken van deze tutorial. Een geschreven versie, die in alle talen zal worden vertaald, wordt momenteel opgesteld en zal binnenkort beschikbaar zijn op Plan ₿ Network.*
+*Met dank aan de [Satochip](https://satochip.io/) teams voor het toestaan van het hergebruik van [hun video's](https://www.youtube.com/@satochip/videos) voor het maken van deze tutorial. Een geschreven versie, die in alle talen zal worden vertaald, wordt momenteel opgesteld en zal binnenkort beschikbaar zijn op Plan ₿ Academy.*
 
 
 

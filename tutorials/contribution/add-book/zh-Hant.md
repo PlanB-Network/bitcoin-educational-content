@@ -1,6 +1,6 @@
 ---
 name: 將書籍加入 PlanB 網路
-description: 如何在 PlanB Network 加入新書？
+description: 如何在 Plan ₿ Academy 加入新書？
 ---
 ![book](assets/cover.webp)
 
@@ -8,7 +8,7 @@ description: 如何在 PlanB Network 加入新書？
 PlanB 的使命是以盡可能多的語言提供 Bitcoin 上的頂級教育資源。所有在網站上發表的內容都是開放原始碼，並託管在 GitHub 上，讓任何人都能為豐富平台做出貢獻。
 
 
-**您是否想在 PlanB Network 網站上新增與 Bitcoin 相關的書籍，並增加您作品的能見度，但卻不知道如何操作？本教學就是為您準備的！**
+**您是否想在 Plan ₿ Academy 網站上新增與 Bitcoin 相關的書籍，並增加您作品的能見度，但卻不知道如何操作？本教學就是為您準備的！**
 
 ![book](assets/01.webp)
 
@@ -16,11 +16,11 @@ PlanB 的使命是以盡可能多的語言提供 Bitcoin 上的頂級教育資�
 - 首先，您需要有一個 GitHub 帳戶。如果您不知道如何建立帳號，我們已經製作了詳細的教程來指導您。
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
-- 到 `resources/books/` 區的 [PlanB 專用於資料的 GitHub 儲存庫](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/books)：
+- 到 `resources/books/` 區的 [PlanB 專用於資料的 GitHub 儲存庫](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/resources/books)：
 
 ![book](assets/02.webp)
 
@@ -30,7 +30,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![book](assets/03.webp)
 
 
-- 如果您之前從未貢獻過 PlanB Network 的內容，您需要建立原始套件庫的 Fork。Forking 倉庫意味著在您自己的 GitHub 帳戶上建立該倉庫的副本，讓您可以在不影響原始倉庫的情況下進行專案工作。點擊 `Fork this repository` 按鈕：
+- 如果您之前從未貢獻過 Plan ₿ Academy 的內容，您需要建立原始套件庫的 Fork。Forking 倉庫意味著在您自己的 GitHub 帳戶上建立該倉庫的副本，讓您可以在不影響原始倉庫的情況下進行專案工作。點擊 `Fork this repository` 按鈕：
 
 ![book](assets/04.webp)
 
@@ -123,7 +123,7 @@ tags:
 ![book](assets/14.webp)
 
 
-- 選擇您的 PlanB Network 儲存庫 Fork：
+- 選擇您的 Plan ₿ Academy 儲存庫 Fork：
 
 ![book](assets/15.webp)
 
@@ -178,7 +178,7 @@ tags:
 ![book](assets/25.webp)
 
 
-- 新頁面將會開啟。將您書籍的封面圖片拖放到該區域。此圖片將會顯示在 PlanB Network 網站上：
+- 新頁面將會開啟。將您書籍的封面圖片拖放到該區域。此圖片將會顯示在 Plan ₿ Academy 網站上：
 
 ![book](assets/26.webp)
 

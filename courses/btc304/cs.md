@@ -241,7 +241,7 @@ Setkání Bitcoin mohou sloužit k mnoha účelům:
 
 
 
-Mnohými z těchto možností se budeme podrobně zabývat v části 6/8 tohoto kurzu s názvem "[Příklady projektů a iniciativ](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279).
+Mnohými z těchto možností se budeme podrobně zabývat v části 6/8 tohoto kurzu s názvem "[Příklady projektů a iniciativ](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279).
 
 
 
@@ -353,7 +353,7 @@ Vaší první akcí bude pravděpodobně setkání. Jejím hlavním účelem je 
 
 
 
-Jak si však ukážeme později v části [Příklady projektů a iniciativ](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279), **setkání lze vytvořit mnoha způsoby a s mnoha cíli:**
+Jak si však ukážeme později v části [Příklady projektů a iniciativ](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279), **setkání lze vytvořit mnoha způsoby a s mnoha cíli:**
 
 
 
@@ -866,7 +866,7 @@ Pro níže uvedené výukové programy jsme původně použili balíček "Telegr
 Pokud chcete vytvořit místo, kde spolu členové mohou přímo komunikovat, odpovídat si atd., pak byste možná měli vytvořit skupinu Telegramu, a ne kanál Telegramu!
 
 
-Přejděte přímo na další část s názvem [Vytvořit skupinu Telegram](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/d13714ce-8f08-53e9-bedd-b6a3aaac5dad).
+Přejděte přímo na další část s názvem [Vytvořit skupinu Telegram](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/d13714ce-8f08-53e9-bedd-b6a3aaac5dad).
 
 
 
@@ -1232,7 +1232,7 @@ Používání Twitteru je velmi snadné a pro zlepšení soukromí je třeba upr
 1/ **the @ Twitter**, který definuje vaši identitu a umožňuje vás snadno najít. Pokud je název vaší komunity "Bitcoin [MĚSTO]", je vhodné zvolit "@Bitcoin[MĚSTO]";
 
 
-2/ **logo a banner**, které jste vytvořili pro svou komunitu nebo setkání (viz část [Vytvoření loga, plakátu a banneru](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef));
+2/ **logo a banner**, které jste vytvořili pro svou komunitu nebo setkání (viz část [Vytvoření loga, plakátu a banneru](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef));
 
 
 3/ **popis**, který vám umožní sdílet klíčové informace o vaší komunitě v několika stech znacích. Například:
@@ -1547,7 +1547,7 @@ V druhém případě by se druhá měsíční akce mohla věnovat určitému té
 
 
 
-Mějte na paměti, že **to vyžaduje více organizace a času**. Naštěstí v [části 6/8 tohoto kurzu](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279) najdete řadu opakovaně použitelných zdrojů s otevřeným zdrojovým kódem, které vám pomohou.
+Mějte na paměti, že **to vyžaduje více organizace a času**. Naštěstí v [části 6/8 tohoto kurzu](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279) najdete řadu opakovaně použitelných zdrojů s otevřeným zdrojovým kódem, které vám pomohou.
 
 
 V každém případě záleží na krátkodobém, střednědobém a dlouhodobém akčním plánu, který si vy nebo vaše komunita stanovíte.
@@ -1619,7 +1619,7 @@ Kontaktujte místo, kde budete akci pořádat, a rezervujte si ho pro předpokl�
 
 
     - Sdílejte datum, čas a místo na sociálních sítích a dalších komunikačních kanálech. V případě potřeby uveďte odkaz na registraci.
-    - Vytvořte si speciální vizuál (například plakát v aplikaci Canva, viz část 2/8 "[Návrh identity pro vaši komunitu Bitcoin](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/b48a18cc-afdf-5216-802c-32647b5cd8a3)").
+    - Vytvořte si speciální vizuál (například plakát v aplikaci Canva, viz část 2/8 "[Návrh identity pro vaši komunitu Bitcoin](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/b48a18cc-afdf-5216-802c-32647b5cd8a3)").
     - Maximalizujte viditelnost připnutím oznámení na Telegram a Twitter a použitím zmínky "@everyone" na Discordu.
     - Zveřejněte oznámení 7 až 10 dní před akcí, aby si účastníci mohli akci naplánovat dopředu.
 
@@ -1721,7 +1721,7 @@ Pak budete mít několik týdnů na to, abyste připravili nové nápady, vizual
 Aby se tak stalo, je nezbytná jedna věc: **zajistit účastníkům účast**.
 
 
-Mohlo by to začít malou skupinou nadšených bitcoinářů, jejichž cílem by bylo pravidelně se scházet a mluvit o Bitcoin. Postupem času, v závislosti na dostupnosti a zájmech jednotlivých osob, můžete **sdílet určité organizační úkoly se skupinou** nebo přizvat základní **členy, aby se ujali konkrétních projektů**. Ty mohou být jedinečné pro vaši komunitu, vaše setkání nebo vaše město, nebo dokonce inspirované mnoha iniciativami navrženými v [části 6/8 tohoto kurzu](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279). **To nejen podporuje Commitment vašich základních členů, ale také pomáhá vaší komunitě růst a vzkvétat**.
+Mohlo by to začít malou skupinou nadšených bitcoinářů, jejichž cílem by bylo pravidelně se scházet a mluvit o Bitcoin. Postupem času, v závislosti na dostupnosti a zájmech jednotlivých osob, můžete **sdílet určité organizační úkoly se skupinou** nebo přizvat základní **členy, aby se ujali konkrétních projektů**. Ty mohou být jedinečné pro vaši komunitu, vaše setkání nebo vaše město, nebo dokonce inspirované mnoha iniciativami navrženými v [části 6/8 tohoto kurzu](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279). **To nejen podporuje Commitment vašich základních členů, ale také pomáhá vaší komunitě růst a vzkvétat**.
 
 
 Jak budou vaše setkání postupovat, budou se objevovat nové tváře: lidé, kteří si v předchozích cyklech koupili BTC a/nebo altcoiny, technologičtí nadšenci, kteří si chtějí prohloubit své znalosti, nebo úplní začátečníci, kteří se zajímají o tento necenzurovatelný, decentralizovaný, transparentní a spravedlivý platební systém, který funguje bez podmínek a bez důvěryhodných třetích stran.
@@ -1775,7 +1775,7 @@ Nakonec je na vás, abyste rozhodli, jak daleko by "otevřenost a inkluzivita" m
 S přibývajícími bloky se vaše komunita bude vyvíjet. Nové tváře se budou přidávat, jiné se budou vzdalovat, ale hlavní zásada by měla zůstat stejná: rozvíjet ekosystém Bitcoin a posilovat vazby mezi členy.
 
 
-Existuje mnoho projektů a iniciativ, které lze realizovat. Tato kapitola nabízí neúplný seznam nápadů, které lze realizovat v rámci komunity nebo během setkání. Neváhejte si vybrat ty, které vás inspirují, a dokonce přispět vlastními nápady do tohoto kurzu [vytvořením "Pull Request" na GitHubu](https://github.com/PlanB-Network/Bitcoin-educational-content).
+Existuje mnoho projektů a iniciativ, které lze realizovat. Tato kapitola nabízí neúplný seznam nápadů, které lze realizovat v rámci komunity nebo během setkání. Neváhejte si vybrat ty, které vás inspirují, a dokonce přispět vlastními nápady do tohoto kurzu [vytvořením "Pull Request" na GitHubu](https://github.com/Plan ₿ Academy/Bitcoin-educational-content).
 
 
 Než se do toho ponoříme, zopakujme si již dříve zmíněný bod.
@@ -1820,7 +1820,7 @@ Kromě velké vzdělávací hodnoty umožňuje tento přístup sdílet mezi skup
 Níže je uveden postup setkání ve Francii v letech 2023-2024. Ke každému tématu je k dispozici prezentace s otevřeným zdrojovým kódem a video, které vám mohou poskytnout nápady na témata, jimiž byste se mohli zabývat na svých vlastních akcích.
 
 
-Další upravitelné materiály naleznete také v [Bitcoin Teaching Toolbox](https://planb.network/fr/resources/bet)!
+Další upravitelné materiály naleznete také v [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)!
 
 
 
@@ -2003,7 +2003,7 @@ Tyto letáky mohou být určeny pro:
 Můžete také navrhnout leták specifický pro vaši komunitu nebo setkání, který bude prezentovat vaše aktivity, cíle, odkazy na sociální média, komunikační kanály a nadcházející akce.
 
 
-Několik letáků je již **k dispozici jako otevřený zdrojový kód v [Bitcoin Teaching Toolbox](https://planb.network/fr/resources/bet)** na webu planB.network a časem budou přidány další.
+Několik letáků je již **k dispozici jako otevřený zdrojový kód v [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)** na webu planB.network a časem budou přidány další.
 
 
 Jedním z příkladů je [kompletní leták](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin) s 21 důvody, proč používat Bitcoin. Jeho návrh je také [k dispozici v otevřeném zdrojovém kódu](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton), který můžete upravit, přizpůsobit a sdílet. Jen nezapomeňte uvést své zdroje.
@@ -2222,7 +2222,7 @@ Mezi oblíbené platformy patří:
 - [**peertube**](https://joinpeertube.org/fr_FR) umožňuje hostovat vlastní platformu pro videa, její nastavení je však složitější.
 
 
-Ať už se rozhodnete pro kteroukoli z nich, navrhněte vizuální prvky specifické pro danou platformu, aby byl váš kanál atraktivní. Aplikace Canva, zmíněná v [části 2/8](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef), nabízí kategorii "Miniatury YouTube" s předpřipravenými, přizpůsobitelnými návrhy.
+Ať už se rozhodnete pro kteroukoli z nich, navrhněte vizuální prvky specifické pro danou platformu, aby byl váš kanál atraktivní. Aplikace Canva, zmíněná v [části 2/8](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef), nabízí kategorii "Miniatury YouTube" s předpřipravenými, přizpůsobitelnými návrhy.
 
 
 
@@ -2857,7 +2857,7 @@ Abyste pomohli své komunitě dále růst, **doplnění kurzu COMMU302**<img wid
 
 <img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430" />
 
-může být v příštích měsících zveřejněn na [planb.network](https://planb.network/).
+může být v příštích měsících zveřejněn na [planb.network](https://planb.academy/).
 
 
 Další zasedání by se mohlo zabývat pokročilými tématy, jako jsou:

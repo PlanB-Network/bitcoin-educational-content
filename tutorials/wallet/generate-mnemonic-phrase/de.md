@@ -30,7 +30,7 @@ Für die Erstellung Ihrer Wiederherstellungsphrase von Hand benötigen Sie:
 - Ein Blatt Papier;
 - Einen Stift oder Bleistift, idealerweise in verschiedenen Farben, um die Organisation zu erleichtern;
 - Mehrere Würfel, um das Risiko von Verzerrungen durch einen unausgewogenen Würfel zu minimieren;
-- [Die Liste der 2048 BIP39-Wörter](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf) ausgedruckt.
+- [Die Liste der 2048 BIP39-Wörter](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf) ausgedruckt.
 
 Anschließend wird die Verwendung eines Computers mit einem Terminal für die Berechnung der Prüfsumme notwendig. Genau aus diesem Grund rate ich von der manuellen Generierung der Mnemonic-Phrase ab. Meiner Meinung nach erhöht der Einsatz eines Computers, selbst unter den in diesem Tutorial genannten Vorsichtsmaßnahmen, die Verwundbarkeit einer Wallet erheblich.
 Für einen experimentellen Ansatz bezüglich einer "fiktiven Geldbörse" ist es möglich, Ihren üblichen Computer und dessen Terminal zu verwenden. Für einen rigoroseren Ansatz, der darauf abzielt, die Risiken einer Kompromittierung Ihrer Phrase zu begrenzen, wäre es ideal, einen PC zu verwenden, der vom Internet getrennt ist (vorzugsweise ohne eine WLAN-Komponente oder RJ45-Kabelverbindung), ausgestattet mit dem Minimum an Peripheriegeräten (alle sollten per Kabel angeschlossen sein, um Bluetooth zu vermeiden), und vor allem, der auf einer amnesischen Linux-Distribution wie [Tails](https://tails.boum.org/index.fr.html) läuft, gestartet von einem entfernbaren Medium.
@@ -65,7 +65,7 @@ Jedes dieser Pakete stellt eine Zahl in Binär dar, die dann in eine Dezimalzahl
 
 ![mnemonic](assets/notext/5.webp)
 
-Schließlich teilt uns die Zahl in Dezimal die Position des entsprechenden Wortes in [der Liste der 2048 BIP39-Wörter](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf) mit. Es bleibt nur noch, diese Wörter auszuwählen, um die Wiederherstellungsphrase für unsere Wallet zu komponieren.
+Schließlich teilt uns die Zahl in Dezimal die Position des entsprechenden Wortes in [der Liste der 2048 BIP39-Wörter](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf) mit. Es bleibt nur noch, diese Wörter auszuwählen, um die Wiederherstellungsphrase für unsere Wallet zu komponieren.
 
 ![mnemonic](assets/notext/6.webp)
 
@@ -86,7 +86,7 @@ Wie Sie in meinem Beispiel sehen können, besteht das zwölfte Wort derzeit nur 
 
 ## Schritt 2: Berechnung der Prüfsumme
 
-Dieser Schritt ist der kritischste bei der manuellen Erzeugung einer Mnemonik-Phrase, da er die Verwendung eines Computers erfordert. Wie bereits erwähnt, entspricht die Prüfsumme dem Anfang des SHA256-Hashs, der aus der Entropie generiert wird. Obwohl es theoretisch möglich ist, einen SHA256-Hash von Hand für eine Eingabe von 128 oder 256 Bits zu berechnen, könnte diese Aufgabe eine ganze Woche in Anspruch nehmen. Darüber hinaus würde jeder Fehler bei manuellen Berechnungen erst am Ende des Prozesses identifiziert werden, was Sie zwingt, von vorne zu beginnen. Daher ist es undenkbar, diesen Schritt nur mit einem Blatt Papier und einem Stift durchzuführen. Ein Computer ist fast obligatorisch. Wenn Sie dennoch lernen möchten, wie man einen SHA256 von Hand berechnet, erklären wir, wie das im [CRYPTO301-Kurs](https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f) geht.
+Dieser Schritt ist der kritischste bei der manuellen Erzeugung einer Mnemonik-Phrase, da er die Verwendung eines Computers erfordert. Wie bereits erwähnt, entspricht die Prüfsumme dem Anfang des SHA256-Hashs, der aus der Entropie generiert wird. Obwohl es theoretisch möglich ist, einen SHA256-Hash von Hand für eine Eingabe von 128 oder 256 Bits zu berechnen, könnte diese Aufgabe eine ganze Woche in Anspruch nehmen. Darüber hinaus würde jeder Fehler bei manuellen Berechnungen erst am Ende des Prozesses identifiziert werden, was Sie zwingt, von vorne zu beginnen. Daher ist es undenkbar, diesen Schritt nur mit einem Blatt Papier und einem Stift durchzuführen. Ein Computer ist fast obligatorisch. Wenn Sie dennoch lernen möchten, wie man einen SHA256 von Hand berechnet, erklären wir, wie das im [CRYPTO301-Kurs](https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f) geht.
 
 Aus diesem Grund rate ich dringend davon ab, eine manuelle Phrase für eine tatsächliche Wallet zu erstellen. Meiner Meinung nach erhöht die Verwendung eines Computers in dieser Phase, selbst mit allen notwendigen Vorsichtsmaßnahmen, unangemessen die Angriffsfläche der Wallet.
 Um die Prüfsumme zu berechnen, während so wenig Spuren wie möglich hinterlassen werden, werden wir eine amnesische Linux-Distribution von einem entfernbaren Laufwerk namens **Tails** verwenden. Dieses Betriebssystem startet von einem USB-Stick und funktioniert vollständig im RAM des Computers, ohne mit der Festplatte zu interagieren. Theoretisch hinterlässt es daher keine Spuren auf dem Computer, nachdem er ausgeschaltet wurde. Bitte beachten Sie, dass Tails nur mit Prozessoren vom Typ x86_64 kompatibel ist und nicht mit Prozessoren vom Typ ARM.
@@ -222,7 +222,7 @@ Mit den erhaltenen Dezimalzahlen können wir nun die entsprechenden Wörter in d
 
 ![mnemonic](assets/notext/24.webp)
 Nach dieser Anpassung haben Sie den Rang jedes Wortes innerhalb der Liste. Alles, was bleibt, ist, jedes Wort durch seine Nummer zu identifizieren. Offensichtlich, wie bei allen anderen Schritten, dürfen Sie Ihren Computer nicht verwenden, um diese Umwandlung durchzuführen. Stellen Sie daher sicher, dass Sie die Liste vorher ausgedruckt haben.
-[**-> Drucken Sie die BIP39-Liste im A4-Format aus.**](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)
+[**-> Drucken Sie die BIP39-Liste im A4-Format aus.**](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)
 
 Zum Beispiel, wenn die aus der ersten Zeile abgeleitete Nummer 1721 ist, wird das entsprechende Wort das 1721. auf der Liste sein:
 

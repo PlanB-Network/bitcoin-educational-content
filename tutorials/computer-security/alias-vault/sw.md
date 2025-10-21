@@ -185,7 +185,7 @@ Kabla ya kutumia barua pepe hii kwa huduma ya kuingia, unaweza kujaribu utendaka
 
 
 
-https://planb.network/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
+https://planb.academy/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
 
 Ili kufuta lakabu ulilounda kama jaribio, unachotakiwa kufanya ni kuingia katika `Nyumbani` yako, kisha `Kitambulisho` na ubofye kitambulisho unachotaka kufuta. Amri ya _Delete_ itaonekana kwenye kona ya juu kulia ili uendelee.
 

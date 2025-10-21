@@ -1,6 +1,6 @@
 ---
-name: Plan ₿ Network Platformunu Yerel Olarak Çalıştırma Kılavuzu
-description: Plan ₿ Network'de içerik katkımı veya eğitim içeriğinin düzeltilmesini/incelenmesini test etmek için Plan ₿ Network'i yerel bir ortamda nasıl çalıştırabilirsiniz?
+name: Plan ₿ Academy Platformunu Yerel Olarak Çalıştırma Kılavuzu
+description: Plan ₿ Academy'de içerik katkımı veya eğitim içeriğinin düzeltilmesini/incelenmesini test etmek için Plan ₿ Academy'i yerel bir ortamda nasıl çalıştırabilirsiniz?
 ---
 ![github](assets/cover.webp)
 
@@ -8,7 +8,7 @@ description: Plan ₿ Network'de içerik katkımı veya eğitim içeriğinin dü
 ## Özet olarak
 
 
-Bu eğitim, Docker, sahte anahtarlar ve özel depo yapılandırmaları kullanarak yerel makinenizde Plan ₿ Network'den Bitcoin Öğrenme Yönetim Sistemini kurmak için adım adım talimatlar sağlar.
+Bu eğitim, Docker, sahte anahtarlar ve özel depo yapılandırmaları kullanarak yerel makinenizde Plan ₿ Academy'den Bitcoin Öğrenme Yönetim Sistemini kurmak için adım adım talimatlar sağlar.
 
 
 Yukarıdaki kısmı anlamadıysanız endişelenmeyin - bu eğitim sizin için!
@@ -38,13 +38,13 @@ Bu eğitimde platformu kurmak, sahte anahtarları işlemek ve depoları özelle�
 Depoyu yerel makinenize klonlayın:
 
 
-git clone [https://github.com/PlanB-Network/Bitcoin-learning-management-system](https://github.com/PlanB-Network/Bitcoin-learning-management-system￼cd)
+git clone [https://github.com/Plan ₿ Academy/Bitcoin-learning-management-system](https://github.com/Plan ₿ Academy/Bitcoin-learning-management-system￼cd)
 
-[cd](https://github.com/PlanB-Network/Bitcoin-learning-management-system￼cd) Bitcoin-öğrenme-yönetim-sistemi
+[cd](https://github.com/Plan ₿ Academy/Bitcoin-learning-management-system￼cd) Bitcoin-öğrenme-yönetim-sistemi
 
 
 ```bash
-git clone https://github.com/PlanB-Network/bitcoin-learning-management-system
+git clone https://github.com/Plan ₿ Academy/bitcoin-learning-management-system
 cd bitcoin-learning-management-system
 ```
 
@@ -147,7 +147,7 @@ Konteynerler çalıştıktan sonra, ön uca şu adresten erişin:
 \[<http://localhost:8181](http://localhost:8181)>
 
 
-![Plan ₿ Network Local](assets/en/1.webp)
+![Plan ₿ Academy Local](assets/en/1.webp)
 
 
 Not: Herhangi bir kaynak dosyayı değiştirirseniz uygulama otomatik olarak yeniden yüklenecektir.
@@ -196,7 +196,7 @@ curl -X POST http://localhost:3000/api/github/sync
 ```
 
 
-![Plan ₿ Network Local](assets/en/2.webp)
+![Plan ₿ Academy Local](assets/en/2.webp)
 
 
 

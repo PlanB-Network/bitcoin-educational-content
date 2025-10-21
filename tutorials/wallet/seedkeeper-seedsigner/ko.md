@@ -7,7 +7,7 @@ description: 시드서명과 함께 시드키퍼를 사용하려면 어떻게 �
 
 
 
-*이 튜토리얼 제작을 위해 [동영상](https://www.youtube.com/@satochip/videos)의 재사용에 동의해 주신 [Satochip](https://satochip.io/) 팀에게 감사드립니다. 모든 언어로 번역될 서면 버전은 현재 초안이 작성 중이며 곧 Plan ₿ Network.*에서 제공될 예정입니다
+*이 튜토리얼 제작을 위해 [동영상](https://www.youtube.com/@satochip/videos)의 재사용에 동의해 주신 [Satochip](https://satochip.io/) 팀에게 감사드립니다. 모든 언어로 번역될 서면 버전은 현재 초안이 작성 중이며 곧 Plan ₿ Academy.*에서 제공될 예정입니다
 
 
 

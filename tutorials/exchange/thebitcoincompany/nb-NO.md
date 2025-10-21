@@ -40,7 +40,7 @@ Kort sagt, "bruke" og "erstatte" ser ut til å være veien videre. Delta i utvik
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 Budskapet kunne ikke vært tydeligere: "Bruk Bitcoins overalt".
 
@@ -117,9 +117,9 @@ Hvis du er av den gamle skolen og ønsker å finne ut hvordan du enkelt kan oppr
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 For vår del velger vi "Sign in with Lightning".
 
@@ -154,7 +154,7 @@ Så la oss åpne Wallet Phoenix og skanne QR-koden som vises. Når den er skanne
 
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 Du blir umiddelbart identifisert via din Wallet Lightning, som selvfølgelig kan være Phoenix eller en annen, ettersom de fleste lommebøker på markedet støtter denne funksjonen.
 
@@ -291,4 +291,4 @@ Hvis du vil bidra til å popularisere Bitcoin og oppmuntre en uavhengig kjøpman
 
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

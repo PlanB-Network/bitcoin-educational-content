@@ -329,9 +329,9 @@ seed 12-rečeni izraz će biti prikazan da ga sačuvate.
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### 4.3. Proveri seed rečenicu
 
@@ -346,7 +346,7 @@ Da bismo to uradili, napisaćemo referencu, obrisati Wallet, vratiti je pomoću 
 
 
 
-- Na početnom ekranu Wallet, kliknite na karticu "Settings", zatim na "Wallet Details", i kopirajte zPub ([extended public key](https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f):
+- Na početnom ekranu Wallet, kliknite na karticu "Settings", zatim na "Wallet Details", i kopirajte zPub ([extended public key](https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f):
 
 
 
@@ -370,7 +370,7 @@ Napomena: zpub Address može se uvesti u vašu Blockstream aplikaciju za funkcij
 
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ### 4.4. Obezbeđivanje pristupa aplikaciji
 
@@ -521,19 +521,19 @@ Korišćenje Onchain mreže
 
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
 Uvoz i praćenje Wallet u režimu "Samo za gledanje"
 
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 Desktop verzija
 
 
 
-https://planb.network/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
+https://planb.academy/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 
 
 
@@ -552,9 +552,9 @@ Da biste koristili **Blockstream App** sigurno i efikasno, pratite ove preporuke
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
@@ -629,32 +629,32 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- **Učenje i tutorijali:** **[Plan ₿ Network](https://planb.network/)**
+- **Učenje i tutorijali:** **[Plan ₿ Academy](https://planb.academy/)**
  - Osiguravanje vaše fraze za oporavak
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
 
 - **Liquid Network** :
-- [Rečnik](https://planb.network/fr/resources/glossary/liquid-network)
+- [Rečnik](https://planb.academy/fr/resources/glossary/liquid-network)
 
 
 
 
-https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
+https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
 
 - **Lightning Network**:
-- [Rečnik](https://planb.network/fr/resources/glossary/lightning-network)
+- [Rečnik](https://planb.academy/fr/resources/glossary/lightning-network)
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

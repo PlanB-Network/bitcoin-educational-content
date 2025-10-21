@@ -21,4 +21,4 @@ BTCpay Server - Prihvatite Bitcoin Uplate Za Nekoliko Minuta od strane BTCSessio
 Imamo kompletan kurs o BTCPay Server-u. Dobrodošli ste da besplatno pogledate ceo kurs kako biste proširili svoje znanje o ovom neverovatnom alatu.
 
 
-[**-> Saznajte više o BTCPay Serveru i njihovoj korisnosti u našem kursu**](https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1)
+[**-> Saznajte više o BTCPay Serveru i njihovoj korisnosti u našem kursu**](https://planb.academy/courses/6fc12131-e464-4515-9d3f-9255365d5fa1)

@@ -11,7 +11,7 @@ Lightning Network is een Layer van het Bitcoin protocol, dat in de eerste plaats
 
 
 
-https://planb.network/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
+https://planb.academy/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
 
 Net als op de hoofdketen, is het essentieel geworden om gebruikers in staat te stellen de informatie en status van het netwerk te kennen, om verbindingen tussen knooppunten te vergemakkelijken en het liquiditeitsprobleem dat zich meestal voordoet op het netwerk te minimaliseren. Op Lightning Network raden we inderdaad microbetalingen aan van relatief kleinere bedragen dan die voor transacties op de hoofdketen van Bitcoin.
 
@@ -34,7 +34,7 @@ Net als [Mempool Space](https://Mempool.space), dat nuttige informatie geeft ove
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 In deze tutorial nemen we je mee op een tour door dit platform, dat een essentiële bron is voor Lightning Network gebruikers, diegenen die hun node willen aansluiten om het netwerk uit te breiden, enz.
 
@@ -57,7 +57,7 @@ Een van de doelen van het Amboss platform is om de verschillende knooppunten in 
 
 
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
 Op de startpagina vind je ook knooppunten die zijn ingedeeld volgens :
 
@@ -147,7 +147,7 @@ In het **Kanalen** gedeelte zie je de lijst met open kanalen en de verbindingen 
 
 - Inkomend tarief**: Het bedrag dat het knooppunt je in rekening brengt voor elk miljoen Satoshi dat het ontvangt, afhankelijk van het gekozen kanaal.
 - De verhouding (deeltjes per miljoen)** : die staat voor het aantal Satoshi per miljoen eenheden dat het knooppunt je in rekening brengt als je besluit een betaling te doen via een van zijn kanalen. Stel dat je besluit een betaling van `10_000 Sats` te doen via een kanaal waarvan de ppm-verhouding `500 Sats` is, dan moet je de knoop `10_000 * 500 / 1_000_000` satoshis betalen, wat overeenkomt met `5 Sats`.
-- Het [HTLC](https://planb.network/resources/glossary/htlc) maximum** : Het maximale bedrag dat dit knooppunt toestaat om door te sturen via een van deze kanalen.
+- Het [HTLC](https://planb.academy/resources/glossary/htlc) maximum** : Het maximale bedrag dat dit knooppunt toestaat om door te sturen via een van deze kanalen.
 
 
 
@@ -304,4 +304,4 @@ Je hebt nu een complete rondleiding gehad door de functies en analysehulpmiddele
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f

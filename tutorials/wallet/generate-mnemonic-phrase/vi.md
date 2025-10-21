@@ -30,7 +30,7 @@ Thông thường, cụm từ này được cung cấp trực tiếp cho bạn kh
 - Một tờ giấy;
 - Một cây bút hoặc bút chì, lý tưởng là có màu sắc khác nhau để dễ dàng tổ chức;
 - Một số xúc xắc, để giảm thiểu rủi ro về sự thiên vị liên quan đến một xúc xắc không cân bằng;
-- [Danh sách 2048 từ BIP39](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf) được in ra.
+- [Danh sách 2048 từ BIP39](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf) được in ra.
 
 Sau đó, việc sử dụng một máy tính với terminal sẽ trở nên cần thiết để tính toán mã kiểm tra. Chính vì lý do này mà tôi khuyên bạn không nên tự tạo cụm từ ghi nhớ. Theo ý kiến của tôi, sự can thiệp của một máy tính, ngay cả dưới các biện pháp phòng ngừa được đề cập trong hướng dẫn này, làm tăng đáng kể khả năng bị tấn công của một ví.
 Đối với một phương pháp thử nghiệm liên quan đến "ví giả tưởng", bạn có thể sử dụng máy tính thường ngày và terminal của nó. Tuy nhiên, để tiếp cận một cách nghiêm ngặt hơn nhằm giảm thiểu rủi ro làm lộ cụm từ bí mật của bạn, lý tưởng nhất là sử dụng một PC không kết nối internet (ưu tiên không có thành phần wifi hoặc kết nối dây RJ45), trang bị tối thiểu các thiết bị ngoại vi (tất cả phải được kết nối bằng cáp, để tránh Bluetooth), và quan trọng nhất, chạy trên một bản phân phối Linux không lưu trữ dữ liệu như [Tails](https://tails.boum.org/index.fr.html), khởi động từ một thiết bị gắn ngoài.
@@ -66,7 +66,7 @@ Mỗi gói này đại diện cho một số trong hệ nhị phân sẽ sau đ�
 
 ![mnemonic](assets/notext/5.webp)
 
-Cuối cùng, số thập phân cho chúng ta biết vị trí của từ tương ứng trong [danh sách 2048 từ BIP39](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf). Tất cả những gì còn lại là chọn những từ này để tạo thành cụm từ khôi phục cho ví của chúng ta.
+Cuối cùng, số thập phân cho chúng ta biết vị trí của từ tương ứng trong [danh sách 2048 từ BIP39](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf). Tất cả những gì còn lại là chọn những từ này để tạo thành cụm từ khôi phục cho ví của chúng ta.
 
 ![mnemonic](assets/notext/6.webp)
 
@@ -87,7 +87,7 @@ Như bạn có thể thấy trong ví dụ của tôi, từ thứ mười hai hi
 
 ## Bước 2: Tính toán checksum
 
-Bước này là quan trọng nhất trong quá trình tạo cụm từ ghi nhớ (mnemonic phrase) một cách thủ công, vì nó đòi hỏi sự sử dụng của máy tính. Như đã đề cập trước đó, checksum tương ứng với phần đầu của mã hash SHA256 được tạo ra từ entropy. Mặc dù lý thuyết có thể tính toán SHA256 bằng tay cho một đầu vào 128 hoặc 256 bit, công việc này có thể mất cả tuần. Hơn nữa, bất kỳ lỗi nào trong việc tính toán thủ công chỉ được phát hiện ở cuối quá trình, buộc bạn phải bắt đầu lại từ đầu. Do đó, việc thực hiện bước này chỉ với tờ giấy và bút là không thể tưởng tượng được. Một máy tính gần như là bắt buộc. Nếu bạn vẫn muốn học cách thực hiện SHA256 bằng tay, chúng tôi giải thích cách làm trong [khóa học CRYPTO301](https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f).
+Bước này là quan trọng nhất trong quá trình tạo cụm từ ghi nhớ (mnemonic phrase) một cách thủ công, vì nó đòi hỏi sự sử dụng của máy tính. Như đã đề cập trước đó, checksum tương ứng với phần đầu của mã hash SHA256 được tạo ra từ entropy. Mặc dù lý thuyết có thể tính toán SHA256 bằng tay cho một đầu vào 128 hoặc 256 bit, công việc này có thể mất cả tuần. Hơn nữa, bất kỳ lỗi nào trong việc tính toán thủ công chỉ được phát hiện ở cuối quá trình, buộc bạn phải bắt đầu lại từ đầu. Do đó, việc thực hiện bước này chỉ với tờ giấy và bút là không thể tưởng tượng được. Một máy tính gần như là bắt buộc. Nếu bạn vẫn muốn học cách thực hiện SHA256 bằng tay, chúng tôi giải thích cách làm trong [khóa học CRYPTO301](https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f).
 
 Vì lý do này, tôi khuyên bạn không nên tạo cụm từ thủ công cho một ví thực sự. Theo ý kiến của tôi, việc sử dụng máy tính ở giai đoạn này, ngay cả với tất cả các biện pháp phòng ngừa cần thiết, làm tăng không hợp lý mặt bằng tấn công của ví.
 Để tính toán checksum mà để lại ít dấu vết nhất có thể, chúng ta sẽ sử dụng một bản phân phối Linux quên lãng từ một ổ đĩa di động có tên là **Tails**. Hệ điều hành này khởi động từ một ổ USB và hoạt động hoàn toàn trên RAM của máy tính, không tương tác với ổ cứng. Do đó, theo lý thuyết, nó không để lại dấu vết nào trên máy tính sau khi được tắt. Xin lưu ý rằng Tails chỉ tương thích với các loại bộ xử lý x86_64, và không tương thích với các loại bộ xử lý ARM.
@@ -207,7 +207,7 @@ Với các số thập phân đã thu được, giờ đây chúng ta có thể 
 
 ![mnemonic](assets/notext/24.webp)
 Sau khi điều chỉnh này, bạn sẽ có thứ hạng của từng từ trong danh sách. Tất cả những gì còn lại là xác định mỗi từ bằng số của nó. Rõ ràng, như với tất cả các bước khác, bạn không được sử dụng máy tính để thực hiện việc chuyển đổi này. Do đó, hãy chắc chắn bạn đã in danh sách trước đó.
-[**-> In danh sách BIP39 ở định dạng A4.**](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)
+[**-> In danh sách BIP39 ở định dạng A4.**](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)
 
 Ví dụ, nếu số thu được từ dòng đầu tiên là 1721, từ tương ứng sẽ là từ thứ 1721 trong danh sách:
 

@@ -17,7 +17,7 @@ description: 设置并使用 Bitcoin Keeper Wallet 与 Tapsigners 一起创建�
 
 要查看 Bitcoin Keeper Wallet 的完整教程，请点击此处：
 
-https://planb.network/tutorials/wallet/mobile/bitcoin-keeper-7f2a160b-10b6-4cc5-8820-514ee2eb1599
+https://planb.academy/tutorials/wallet/mobile/bitcoin-keeper-7f2a160b-10b6-4cc5-8820-514ee2eb1599
 
 在此查看其他相关链接：
 
@@ -26,4 +26,4 @@ https://planb.network/tutorials/wallet/mobile/bitcoin-keeper-7f2a160b-10b6-4cc5-
 - Tapsigner [视频](youtube.com/watch?v=xKHy1HMw5iU)
 
 
-**注：** 本教程仅为英文版草稿，我们仍需要有人就此主题撰写详尽的指南。如果你是这样的人，请通过 [Telegram](https://t.me/PlanBNetwork_ContentBuilder/325) 或 [GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content) 联系我们。
+**注：** 本教程仅为英文版草稿，我们仍需要有人就此主题撰写详尽的指南。如果你是这样的人，请通过 [Telegram](https://t.me/PlanBNetwork_ContentBuilder/325) 或 [GitHub](https://github.com/Plan ₿ Academy/Bitcoin-educational-content) 联系我们。

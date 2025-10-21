@@ -718,7 +718,7 @@ $$
 
 如果您希望了解更多关于现代密码学的数学基础，我还推荐咨询Plan ₿ Network上的这门其他课程：
 
-https://planb.network/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
+https://planb.academy/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 
 ## 从私钥计算公钥
 
@@ -1110,7 +1110,7 @@ Schnorr 签名方案为比特币提供了几个相对于原始的 ECDSA 算法�
 
 为了深入了解闪电网络，在CYP201课程之后，我强烈推荐由Fanis Michalakis开设的LNP201课程，该课程详细讲解了这个主题：
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 在下一部分，我建议探索构成您比特币钱包基础的助记词是如何工作的。
 
@@ -1145,7 +1145,7 @@ UTXOs因此代表了不同大小的比特币碎片，只要满足其*scriptPubKe
 
 要了解更多关于比特币隐私模型的信息，并发现保护你隐私的方法，我还推荐你关注我在Plan ₿ Network上的BTC204课程：
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### HD 钱包（_层次化确定性_）
 
@@ -1248,7 +1248,7 @@ $$
 
 ### 将二进制序列转换为助记词组
 
-位序列 $\text{ENT} \Vert \text{CS}$ 然后被分割成11位的段。每个11位的段，一旦转换为十进制，对应于一个介于0到2047之间的数字，这个数字指定了[由BIP39标准化的2048个单词列表中](https://github.com/Planb-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)的一个单词的位置。
+位序列 $\text{ENT} \Vert \text{CS}$ 然后被分割成11位的段。每个11位的段，一旦转换为十进制，对应于一个介于0到2047之间的数字，这个数字指定了[由BIP39标准化的2048个单词列表中](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)的一个单词的位置。
 
 ![CYP201](assets/en/042.webp)
 例如，对于128位的熵，校验和是4位，因此总序列长度为132位。它被分成12个11位的段（橙色位指的是校验和）：
@@ -1289,7 +1289,7 @@ $$
 
 要进一步了解如何手动生成测试助记词短语，请参阅此教程：
 
-https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
+https://planb.academy/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
 
 在继续从这个助记词短语派生钱包之前，我将在下一章向您介绍BIP39密码短语，因为它在派生过程中起着作用，与助记词短语处于同一水平。
 

@@ -21,4 +21,4 @@ BTCpay Server - Accepteer Bitcoin betalingen in enkele minuten door BTCSession
 We hebben een complete cursus over BTCPay Server, je bent welkom om de complete cursus gratis te bekijken zodat je je kennis over deze geweldige tool kunt uitbreiden.
 
 
-[**-> Meer informatie over BTCPay Server en hun nut in onze cursus**](https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1)
+[**-> Meer informatie over BTCPay Server en hun nut in onze cursus**](https://planb.academy/courses/6fc12131-e464-4515-9d3f-9255365d5fa1)

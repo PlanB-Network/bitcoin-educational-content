@@ -163,15 +163,15 @@ Spécifiques pour Satodime :
 - [Produit Satodime](https://satochip.io/fr/product/satodime/)
 - [Guide mobile](https://satochip.io/wp-content/uploads/2024/11/Satodime-FR-Short-tuto-app-mobile.pdf)
 
-[Plan ₿ Network](https://planb.network/) pour tutoriels sur la self-custody, les clés privées, etc.
+[Plan ₿ Academy](https://planb.academy/) pour tutoriels sur la self-custody, les clés privées, etc.
 
 **Sauvegarder sa phrase de récupération** :
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 **Tutoriel sur le Satochip (premier produit de la marque) :**
 
-https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
+https://planb.academy/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
 
 **Tutoriels sur le Seedkeeper :**
 

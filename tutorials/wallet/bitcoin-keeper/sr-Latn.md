@@ -18,4 +18,4 @@ U ovom video tutorijalu proći ćete kroz postavljanje i korišćenje Bitcoin Ke
 Da biste preuzeli Keeper pogledajte [ovde](bitcoinkeeper.app)
 
 
-**Napomena:** Ovaj vodič je samo nacrt na engleskom jeziku, još uvek nam je potreban neko ko će napisati opsežan vodič na ovu temu. Ako ste vi ta osoba, molimo vas da nas kontaktirate na našem [Telegramu](https://t.me/PlanBNetwork_ContentBuilder/325) ili na [GitHubu](https://github.com/PlanB-Network/Bitcoin-educational-content)
+**Napomena:** Ovaj vodič je samo nacrt na engleskom jeziku, još uvek nam je potreban neko ko će napisati opsežan vodič na ovu temu. Ako ste vi ta osoba, molimo vas da nas kontaktirate na našem [Telegramu](https://t.me/PlanBNetwork_ContentBuilder/325) ili na [GitHubu](https://github.com/Plan ₿ Academy/Bitcoin-educational-content)

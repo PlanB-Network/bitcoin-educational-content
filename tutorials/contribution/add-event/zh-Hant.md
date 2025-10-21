@@ -1,6 +1,6 @@
 ---
 name: 在 PlanB 網路上新增活動
-description: 如何建議在 PlanB Network 上新增活動？
+description: 如何建議在 Plan ₿ Academy 上新增活動？
 ---
 ![event](assets/cover.webp)
 
@@ -8,7 +8,7 @@ description: 如何建議在 PlanB Network 上新增活動？
 PlanB 的使命是以盡可能多的語言提供 Bitcoin 上的頂級教育資源。網站發佈的所有內容都是開放原始碼，並託管在 GitHub 上，讓任何人都有機會為豐富平台做出貢獻。
 
 
-如果您想將 Bitcoin 會議新增至 PlanB Network 網站，並增加您活動的能見度，但卻不知道如何操作？本教學就是為您準備的！
+如果您想將 Bitcoin 會議新增至 Plan ₿ Academy 網站，並增加您活動的能見度，但卻不知道如何操作？本教學就是為您準備的！
 
 ![event](assets/01.webp)
 
@@ -16,11 +16,11 @@ PlanB 的使命是以盡可能多的語言提供 Bitcoin 上的頂級教育資�
 - 首先，您需要擁有一個 GitHub 帳戶。如果您不知道如何建立帳號，我們已為您準備了詳細的教學。
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
-- 前往 `resources/conference/` 區塊中的 [PlanB 專用於資料的 GitHub 儲存庫](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/conference)：
+- 前往 `resources/conference/` 區塊中的 [PlanB 專用於資料的 GitHub 儲存庫](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/resources/conference)：
 
 ![event](assets/02.webp)
 
@@ -30,7 +30,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![event](assets/03.webp)
 
 
-- 如果您之前從未貢獻過 PlanB Network 的內容，您需要建立原始套件庫的 Fork。Forking 倉庫意味著在您自己的 GitHub 帳戶上建立該倉庫的副本，讓您可以在不影響原始倉庫的情況下進行專案工作。點擊 `Fork this repository` 按鈕：
+- 如果您之前從未貢獻過 Plan ₿ Academy 的內容，您需要建立原始套件庫的 Fork。Forking 倉庫意味著在您自己的 GitHub 帳戶上建立該倉庫的副本，讓您可以在不影響原始倉庫的情況下進行專案工作。點擊 `Fork this repository` 按鈕：
 
 ![event](assets/04.webp)
 
@@ -118,7 +118,7 @@ tags:
 如果您的組織還沒有 "*project*"識別碼，您可以按照此其他教程來新增。
 
 
-https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
+https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 
 
@@ -148,7 +148,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 ![event](assets/14.webp)
 
 
-- 選擇您的 PlanB Network 儲存庫 Fork：
+- 選擇您的 Plan ₿ Academy 儲存庫 Fork：
 
 ![event](assets/15.webp)
 
@@ -199,7 +199,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 
 
 - 按一下「新增檔案」按鈕，然後按一下「上傳檔案」： ![event](assets/25.webp)
-- 將會開啟一個新頁面。拖放代表您的會議的圖片，並顯示在 PlanB Network 網站上：
+- 將會開啟一個新頁面。拖放代表您的會議的圖片，並顯示在 Plan ₿ Academy 網站上：
 
 ![event](assets/26.webp)
 
@@ -258,10 +258,10 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 
 ![event](assets/37.webp)
 
-恭喜您！您的 PR 已成功建立。管理員現在會檢查它，如果一切正常，就會合併到 PlanB Network 的主儲存庫裡。您應該會在幾天後看到您的活動出現在網站上。
+恭喜您！您的 PR 已成功建立。管理員現在會檢查它，如果一切正常，就會合併到 Plan ₿ Academy 的主儲存庫裡。您應該會在幾天後看到您的活動出現在網站上。
 
 
-請務必跟進您的 PR 進度。管理員可能會留言詢問其他資訊。只要您的 PR 未經驗證，您就可以在 PlanB Network GitHub 套件庫的「Pull requests」標籤中查詢：
+請務必跟進您的 PR 進度。管理員可能會留言詢問其他資訊。只要您的 PR 未經驗證，您就可以在 Plan ₿ Academy GitHub 套件庫的「Pull requests」標籤中查詢：
 
 ![event](assets/38.webp)
 

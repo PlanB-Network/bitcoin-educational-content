@@ -335,7 +335,7 @@ Bitcoin iradutera intege zo gusubira kwihweza kamere y’amahera ubwayo. Woba wo
 Kugira ngo umenye vyinshi ku bijanye na Bitcoin, amateka yayo, ingene ikora, n’ingene ikoreshwa, ndagusavye kandi gukurikira iyi yindi nyigisho yuzuye:
 
 
-https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
+https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 ## Intangamarara y’igitabu Lightning Network
 
@@ -438,7 +438,7 @@ Lightning Network ni nziza cane ku kwishura Bitcoin mu maduka agaragara canke yo
 Kugira ngo umenye vyinshi ku bijanye n’ingene Lightning Network ikora, ndagusavye kandi gukurikira iyi yindi nyigisho yuzuye:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 # Bitcoin mu bubiko
@@ -628,11 +628,11 @@ Abo bazirikana ni bo bashinze iciyumviro c’uko Leta igira ico ikoze bigoramye 
 Ushaka kumenya vyinshi kuri iyi nkuru:
 
 
-https://planb.network/courses/d955dd28-b7c6-4ba2-a123-d932e21d148f
+https://planb.academy/courses/d955dd28-b7c6-4ba2-a123-d932e21d148f
 
-https://planb.network/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
+https://planb.academy/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
 
-https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
+https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
 ## Gufata Bitcoin mu bubiko
 
@@ -839,7 +839,7 @@ Kubera ko Bitcoin ikora nk’umurongo wa Exchange, birashoboka ko umuntu yiyumvi
 Ivyo birimwo kuronka impembo mu gukoresha imashini za Mining. Ku bucuruzi butagiramwo ubuhinga bwihariye, ivyo biguma ari bike cane. Ushobora kugira uruhara biciye ku bahuza bazogurisha canke bagukodeshe compute, network n’ugutunganya. Nimba ari wewe ufise ayo mashini, urashobora kuyabara nk’ibintu bishobora gusenyuka. Ku rugero runini, uzokenera guharura neza inyungu y’ishoramari kuko isoko rifise amahiganwa menshi kandi risaba kwitega neza ibiciro, cane cane amashanyarazi.
 
 
-Kugira ngo umenye vyinshi ku buryo bwa Mining, urashobora [kuraba igice ca "Mining" mu nyigisho zacu](https://planb.network/inyigisho/mining).
+Kugira ngo umenye vyinshi ku buryo bwa Mining, urashobora [kuraba igice ca "Mining" mu nyigisho zacu](https://planb.academy/inyigisho/mining).
 
 
 
@@ -851,11 +851,11 @@ Ubu ni bwo buryo busanzwe cane, bukorwa biciye mu guhanahana amakuru hagati y’
 Kugira ngo umenye ingene wofungura konti y’ubucuruzi maze ukayikoresha mu kugura, kugurisha no gutanga amafaranga y’ibiceri, urashobora kuraba izi nyigisho zibiri zagenewe canecane ubucuruzi, zivuga ku mbuga za Kraken na Bitfinex mu mirongo yazo y’amashirahamwe:
 
 
-https://planb.network/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
+https://planb.academy/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
 
-https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
+https://planb.academy/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
 
-Kugira ngo umenye vyinshi ku buryo bwo kuronka amafaranga y'ibiceri biciye ku Exchange canke ku nzira y'urunganwe, urashobora [kuraba igice ca "Exchange" mu nyigisho zacu](https://planb.network/inyigisho/exchange).
+Kugira ngo umenye vyinshi ku buryo bwo kuronka amafaranga y'ibiceri biciye ku Exchange canke ku nzira y'urunganwe, urashobora [kuraba igice ca "Exchange" mu nyigisho zacu](https://planb.academy/inyigisho/exchange).
 
 
 ![BIZ101](assets/rn/012.webp)
@@ -1184,23 +1184,23 @@ Ku nyigisho zitomoye ku bijanye n'amasakoshi n'imiterere y'ishimikiro, usabwe ku
 **Ibipapuro vy'amahera vy'ukwizigama LN:**
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.academy/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-501d-439c-8691-d4a0d0de459b
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-501d-439c-8691-d4a0d0de459b
 
 
 **Ibikoko vy'ububiko LN:**
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
 
 ## Ivy'ingenzi
@@ -1247,19 +1247,19 @@ Naho urutonde rw’ibintu vy’ingenzi rudasaba uburyo bwo guharura amafaranga b
 Umuti mwiza cane w’ivy’ubuhinga bwa none ku bijanye n’ivy’ubuhinga bwawe ni Swiss Bitcoin Pay:
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 
 Ikindi gisubizo coroshe gushirwa mu ngiro, ariko gifise ingorane yo kuba 100% y’ububiko, ni Open Node:
 
 
-https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 
 Niba witeguye guhumanya ibiganza vyawe kandi ushaka gucungera neza igikorwa, porogarama ya BTCPay Server ni uburyo bwiza cane. Ariko rero, ikibazo gikomeye ca BTCPay Server ni uko gutegura no kuyicungera bitwara umwanya kandi bisaba ubuhinga bumwe bumwe, ariko urashobora gukurikiza ubuyobozi bwacu:
 
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 
 Ubwa nyuma, nk’inyongera y’ibibanza vy’ugurisha, woshobora kwiyumvira gushinga [PoS ya Bitcoinize] (https://bitcoinize.com/).
@@ -1316,7 +1316,7 @@ Ku bijanye n’ingero z’ukuri, rimbura iduka ry’ubudandaji ry’ubuhinga bwa
 Kugira ngo umenye neza ivyerekeye ugushirwa mu ngiro no kumenya uko BTCPay Server itunganywa, raba inyigisho ikurikira:
 
 
-https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
+https://planb.academy/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 
 
 ## Ikigo
@@ -1673,7 +1673,7 @@ Ariko rero, dosiye yoroshe `.csv` irimwo amateka y'ibikorwa akenshi irahagije ku
 Ku bantu bizigama Bitcoin yabo, gucunga UTXOs (*Ibiva mu bikorwa bitakoreshejwe*) ni intambwe ihambaye. Gushirako ikimenyetso ciza ca UTXO birafasha gukurikirana inkomoko y’igice kimwekimwe cose ca BTC, gutandukanya ibikorwa bijanye n’ibikorwa vy’umwuga n’ivyo umuntu akoresha, no kworohereza gukurikirana kubera intumbero z’amategeko canke z’imisoro. Porogaramu nziza nyinshi za Bitcoin Wallet zigufasha kwinjiza Wallet yawe ukoresheje dosiye yawe y’ububiko (canke xpub yawe, bivanye n’ingene uteguye) maze ugashirako amazina y’ama UTXO ashingiye ku nkomoko yayo canke aho aja. Kugira ngo bigufashe, ng’iyi inyigisho yuzuye yerekeye iyo ngeso:
 
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Ubwa nyuma, waba uri umucuruzi muto canke ubucuruzi bukomeye cane, birashoboka **gushinga Invoice muri Bitcoin**. Urufunguzo ni ugushira mu nyandiko neza ivyo ugurisha. Iyo uriha ukoresheje Wallet y’ukwizigama, ni vyiza ko generate icuruzwa ryanditseko inomero ya Invoice n’intumbero y’ukwishura mu bimenyetso vyawe. Niba ushaka gutanga Invoice biciye ku Exchange, uzogira kandi uburenganzira bwo kwohereza hanze ikimenyetso c’uko waronse canke amateka y’ibikorwa kugira ngo ubishire mu nyandiko zawe z’ivy’ubuhinga. Ukwo guseruka kuzotuma vyoroha gukurikirana no gutanga raporo y’ibikorwa vyawe vyose vya BTC.
 

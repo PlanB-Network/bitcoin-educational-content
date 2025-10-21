@@ -6,13 +6,13 @@ description: Руководство для опытных пользовател
 
 Прежде чем следовать этому руководству по добавлению нового учебника, вам необходимо выполнить несколько предварительных шагов. Если вы еще не сделали этого, ознакомьтесь сначала с этим вводным уроком, а затем вернитесь сюда:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+https://planb.academy/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
 У вас уже есть:
 
 
 - Выберите тему для своего учебника;
-- Свяжитесь с командой Plan ₿ Network через [группу Telegram](https://t.me/PlanBNetwork_ContentBuilder) или paolo@planb.network ;
+- Свяжитесь с командой Plan ₿ Academy через [группу Telegram](https://t.me/PlanBNetwork_ContentBuilder) или paolo@planb.network ;
 - Выберите инструменты для внесения средств.
 
 В этом руководстве для опытных пользователей Git мы кратко опишем ключевые шаги и основные принципы создания нового плана ₿ Сетевой учебник. Если вы не знакомы с Git и GitHub, я рекомендую вам воспользоваться одним из двух других более подробных руководств, которые расскажут вам шаг за шагом:
@@ -20,11 +20,11 @@ https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-91
 
 - **Промежуточный уровень (GitHub Desktop)**:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 - **Новички (веб-интерфейс)**:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 
 ## Предлагаемые инструменты
 
@@ -61,7 +61,7 @@ https://planb.network/tutorials/contribution/content/write-tutorials-github-web-
 ### 1 - Настройка локальной среды
 
 
-- У вас должен быть собственный форк [репозитория Plan ₿ Network на GitHub](https://github.com/PlanB-Network/bitcoin-educational-content).
+- У вас должен быть собственный форк [репозитория Plan ₿ Academy на GitHub](https://github.com/Plan ₿ Academy/bitcoin-educational-content).
 - Синхронизируйте основную ветку (`dev`) вашего форка с репозиторием исходных текстов.
 - Обновите локальный клон.
 
@@ -70,7 +70,7 @@ https://planb.network/tutorials/contribution/content/write-tutorials-github-web-
 git clone https://github.com/<votre-nom-utilisateur>/bitcoin-educational-content.git
 cd bitcoin-educational-content
 # Ajouter le dépôt source en tant que remote upstream
-git remote add upstream https://github.com/PlanB-Network/bitcoin-educational-content.git
+git remote add upstream https://github.com/Plan ₿ Academy/bitcoin-educational-content.git
 # Récupérer les dernières modifications depuis le dépôt source
 git fetch upstream
 # Se positionner sur la branche principale 'dev'
@@ -99,7 +99,7 @@ git push -u origin tuto-green-wallet-loic
 
 ### 3 - Добавьте учебные документы
 
-***Примечание:*** Вы можете автоматизировать шаги 3 и 4 с помощью [моего скрипта Python GUI](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/scripts/tutorial-related/new-tutorial-creation). Запустите его прямо из папки в локальном клоне, а затем заполните необходимые поля в графическом интерфейсе. Более подробную информацию о том, как его установить и использовать, вы найдете в [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
+***Примечание:*** Вы можете автоматизировать шаги 3 и 4 с помощью [моего скрипта Python GUI](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/scripts/tutorial-related/new-tutorial-creation). Запустите его прямо из папки в локальном клоне, а затем заполните необходимые поля в графическом интерфейсе. Более подробную информацию о том, как его установить и использовать, вы найдете в [README](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
 
 Если вы предпочитаете делать это вручную, выполните следующие действия:
 
@@ -166,11 +166,11 @@ proofreading:
 
 - **id**: UUID (_Универсально уникальный идентификатор_), который позволяет уникально идентифицировать учебник. Вы можете сгенерировать его с помощью [онлайн-инструмента](https://www.uuidgenerator.net/version4). Единственное требование заключается в том, чтобы этот UUID был случайным, чтобы избежать конфликта с другим UUID на платформе;
 
-- **project_id**: UUID компании или организации, стоящей за инструментом, представленным в учебнике [из списка проектов](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Например, если вы создаете учебник о программном обеспечении Green Wallet, вы можете найти этот `project_id` в следующем файле: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Эта информация добавляется в YAML файл вашего учебника, так как Plan ₿ Network поддерживает базу данных всех компаний и организаций, работающих с Биткоином или связанными проектами. Добавляя `project_id` связанной с вашим учебником сущности, вы создаете связь между этими элементами;
+- **project_id**: UUID компании или организации, стоящей за инструментом, представленным в учебнике [из списка проектов](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/resources/projects). Например, если вы создаете учебник о программном обеспечении Green Wallet, вы можете найти этот `project_id` в следующем файле: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Эта информация добавляется в YAML файл вашего учебника, так как Plan ₿ Academy поддерживает базу данных всех компаний и организаций, работающих с Биткоином или связанными проектами. Добавляя `project_id` связанной с вашим учебником сущности, вы создаете связь между этими элементами;
 
-- **tags**: 2 или 3 ключевых слова, связанных с содержанием учебника, выбранных исключительно [из списка тегов Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags**: 2 или 3 ключевых слова, связанных с содержанием учебника, выбранных исключительно [из списка тегов Plan ₿ Academy](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
-- **category**: Подкатегория, соответствующая содержанию учебника, в соответствии с структурой сайта Plan ₿ Network (например, для кошельков: `desktop`, `hardware`, `mobile`, `backup`);
+- **category**: Подкатегория, соответствующая содержанию учебника, в соответствии с структурой сайта Plan ₿ Academy (например, для кошельков: `desktop`, `hardware`, `mobile`, `backup`);
 
 - **level**: Уровень сложности учебника, выбираемый из:
     - `beginner`
@@ -178,7 +178,7 @@ proofreading:
     - `advanced`
     - `expert`
 
-- **professor_id**: Ваш `professor_id` (UUID), как указано в [вашем профиле преподавателя](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
+- **professor_id**: Ваш `professor_id` (UUID), как указано в [вашем профиле преподавателя](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/professors);
 
 - **original_language**: Оригинальный язык учебника (например, `fr`, `en`, и т. д.);
 
@@ -191,7 +191,7 @@ proofreading:
 
 Для получения более подробной информации об идентификаторе учителя обратитесь к соответствующему руководству:
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 ```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143

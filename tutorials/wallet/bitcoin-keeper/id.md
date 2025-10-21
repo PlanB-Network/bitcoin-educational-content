@@ -18,4 +18,4 @@ Dalam video tutorial ini, Anda akan mempelajari cara mengatur dan menggunakan Ap
 Untuk mengunduh Keeper, lihat [di sini](bitcoinkeeper.app)
 
 
-**Catatan:** Tutorial ini hanya berupa draf dalam bahasa Inggris, kami masih membutuhkan seseorang untuk menulis panduan yang lebih lengkap mengenai hal ini. Jika Anda orangnya, silakan hubungi kami di [Telegram](https://t.me/PlanBNetwork_ContentBuilder/325) atau di [GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content)
+**Catatan:** Tutorial ini hanya berupa draf dalam bahasa Inggris, kami masih membutuhkan seseorang untuk menulis panduan yang lebih lengkap mengenai hal ini. Jika Anda orangnya, silakan hubungi kami di [Telegram](https://t.me/PlanBNetwork_ContentBuilder/325) atau di [GitHub](https://github.com/Plan ₿ Academy/Bitcoin-educational-content)

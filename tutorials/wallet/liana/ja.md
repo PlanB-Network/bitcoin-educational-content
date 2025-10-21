@@ -27,7 +27,7 @@ Lianaはビットコインのプログラマビリティをベースに、先進
 
 
 
-- サクセッション（相続）プランとは、利用者が死亡した場合に相続人が資金を回収できるようにするプランのこと。このテーマについては、BTC102コースの[パート4](https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a209038)をお読みになることをお勧めします。
+- サクセッション（相続）プランとは、利用者が死亡した場合に相続人が資金を回収できるようにするプランのこと。このテーマについては、BTC102コースの[パート4](https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a209038)をお読みになることをお勧めします。
 - リカバリータイム付きのバックアップを強化することで、ユーザーは対応する秘密のフレーズを保持することなく財布を使用することができ、例えば空き巣に入られた際に財布を盗まれるリスクもなくなります。
 - ビットコインを使い始めた人のためのセーフティネット：自分のウォレットを管理し、その「後見人」（例えば親族）が一定期間後に資金を回収する権利を留保する。
 - マルチ・パーティ署名スキーム（*multisig*）は、企業のパートナーのような参加者の1人または複数が失踪した場合に対応するため、時間の経過とともに要件が減少する。
@@ -45,11 +45,11 @@ Lianaの大きな強みは、当座の支出に使われるメイン・キーが
 
 - Ledger Nano S Plus、日常生活用；
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
 - 資金回収に使用されるブロックストリーム・ジェイド；
 
-https://planb.network/tutorials/wallet/hardware/jade-7d62bf0c-f460-4e68-9635-af9b731dabc3
+https://planb.academy/tutorials/wallet/hardware/jade-7d62bf0c-f460-4e68-9635-af9b731dabc3
 
 - ポートフォリオ・ディスクリプタを保存するための2つの記憶媒体（USBメモリ）；
 - 資金を回収するための指示が記載された引継書；
@@ -63,7 +63,7 @@ Wizardsardineの公式サイトにアクセスし、https://wizardsardine.com/li
 
 インストール前にソフトウェアの信頼性と完全性を手動で確認する方法については、このチュートリアルを参照することをお勧めします：
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ソフトウェアをマシンにインストールし、起動します。**Create a new Liana wallet**オプションを選択し、ウォレットを設定します。
 
@@ -193,7 +193,7 @@ wsh(or_d(pk([3689a8e7/48'/0'/0'/2']xpub6FKYNH4XbbdADV98yTVxgZZrtB4eE2tiUPreEv5iJ
 
 Bitcoinで使用されているUTXO表現モデルをよりよく理解するには、Loïc Morelが書いたBitcoinの機密性に関するコースの最初の部分を参照してください：
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ## 当期支出
 
@@ -340,4 +340,4 @@ wsh(or_d(pk([3689a8e7/48'/0'/0'/2']xpub6FKYNH4XbbdADV98yTVxgZZrtB4eE2tiUPreEv5iJ
 
 ビットコインウォレットのセキュリティは、その仕組みの理解にも依存するため、Plan ₿ Networkの無料トレーニングコースを受講して、決定論的ウォレットと階層型ウォレットの仕組みを深く学ぶことをお勧めします：
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f

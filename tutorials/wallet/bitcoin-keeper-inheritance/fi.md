@@ -17,7 +17,7 @@ Tässä video-opetuksessa käydään läpi Bitcoin Keeper Wallet:n ja Tapsigners
 
 Bitcoin Keeper Wallet:n koko ohjeen näet täältä:
 
-https://planb.network/tutorials/wallet/mobile/bitcoin-keeper-7f2a160b-10b6-4cc5-8820-514ee2eb1599
+https://planb.academy/tutorials/wallet/mobile/bitcoin-keeper-7f2a160b-10b6-4cc5-8820-514ee2eb1599
 
 Katso täältä muita asiaankuuluvia linkkejä:
 
@@ -26,4 +26,4 @@ Katso täältä muita asiaankuuluvia linkkejä:
 - Tapsigner [Video](youtube.com/watch?v=xKHy1HMw5iU)
 
 
-**Huomautus:** Tämä opetusohjelma on vain englanninkielinen luonnos, tarvitsemme vielä jonkun kirjoittamaan laajan oppaan tästä aiheesta. Jos olet se henkilö, ota yhteyttä meihin [Telegramissa](https://t.me/PlanBNetwork_ContentBuilder/325) tai [GitHubissa](https://github.com/PlanB-Network/Bitcoin-educational-content)
+**Huomautus:** Tämä opetusohjelma on vain englanninkielinen luonnos, tarvitsemme vielä jonkun kirjoittamaan laajan oppaan tästä aiheesta. Jos olet se henkilö, ota yhteyttä meihin [Telegramissa](https://t.me/PlanBNetwork_ContentBuilder/325) tai [GitHubissa](https://github.com/Plan ₿ Academy/Bitcoin-educational-content)

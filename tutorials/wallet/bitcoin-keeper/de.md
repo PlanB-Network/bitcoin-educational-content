@@ -18,4 +18,4 @@ In diesem Video-Tutorial erfahren Sie, wie Sie die Bitcoin Keeper App einrichten
 Zum Herunterladen von Keeper siehe [hier](bitcoinkeeper.app)
 
 
-**Hinweis:** Dieses Tutorial ist nur ein Entwurf auf Englisch, wir brauchen noch jemanden, der eine ausführliche Anleitung zu diesem Thema schreibt. Wenn Sie derjenige sind, kontaktieren Sie uns bitte auf [Telegram] (https://t.me/PlanBNetwork_ContentBuilder/325) oder auf [GitHub] (https://github.com/PlanB-Network/Bitcoin-educational-content)
+**Hinweis:** Dieses Tutorial ist nur ein Entwurf auf Englisch, wir brauchen noch jemanden, der eine ausführliche Anleitung zu diesem Thema schreibt. Wenn Sie derjenige sind, kontaktieren Sie uns bitte auf [Telegram] (https://t.me/PlanBNetwork_ContentBuilder/325) oder auf [GitHub] (https://github.com/Plan ₿ Academy/Bitcoin-educational-content)

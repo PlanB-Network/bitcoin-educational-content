@@ -25,4 +25,4 @@ description: 設定 Krux DIY Bitcoin 硬體簽章裝置、更新其韌體，並�
 本影片結束時，您將能夠完全掌握如何使用 Krux 作為安全、DIY 的自我保管替代方案。
 
 
-**註：** 本教學只是純英文的草稿，我們仍需要有人撰寫這方面的詳盡指南。如果您是這樣的人，請透過 [Telegram](https://t.me/PlanBNetwork_ContentBuilder/325) 或 [GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content) 聯絡我們。
+**註：** 本教學只是純英文的草稿，我們仍需要有人撰寫這方面的詳盡指南。如果您是這樣的人，請透過 [Telegram](https://t.me/PlanBNetwork_ContentBuilder/325) 或 [GitHub](https://github.com/Plan ₿ Academy/Bitcoin-educational-content) 聯絡我們。

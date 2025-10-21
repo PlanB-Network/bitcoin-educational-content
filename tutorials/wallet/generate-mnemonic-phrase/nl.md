@@ -45,7 +45,7 @@ Om je herstelzin met de hand te maken, heb je het volgende nodig:
 - Een vel papier;
 - Een pen of potlood, liefst in verschillende kleuren om het organiseren te vergemakkelijken;
 - Meerdere dobbelstenen, om het risico op vertekening door een ongebalanceerde dobbelsteen te minimaliseren;
-- [De lijst met 2048 BIP39-woorden](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf) wordt afgedrukt.
+- [De lijst met 2048 BIP39-woorden](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf) wordt afgedrukt.
 
 
 Vervolgens wordt het gebruik van een computer met een terminal noodzakelijk voor het berekenen van de controlesom. Het is precies om deze reden dat ik het handmatig genereren van de Mnemonic frase afraad. Naar mijn mening verhoogt de tussenkomst van een computer, zelfs met de voorzorgsmaatregelen die in deze tutorial genoemd worden, de kwetsbaarheid van een Wallet aanzienlijk.
@@ -102,7 +102,7 @@ Elk van deze pakketjes vertegenwoordigt een binair getal dat vervolgens wordt om
 ![mnemonic](assets/notext/5.webp)
 
 
-Tenslotte vertelt het getal in decimaal ons de positie van het corresponderende woord in [de lijst van 2048 BIP39 woorden] (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf). We hoeven alleen nog maar deze woorden te selecteren om de herstelzin voor onze Wallet samen te stellen.
+Tenslotte vertelt het getal in decimaal ons de positie van het corresponderende woord in [de lijst van 2048 BIP39 woorden] (https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf). We hoeven alleen nog maar deze woorden te selecteren om de herstelzin voor onze Wallet samen te stellen.
 
 
 ![mnemonic](assets/notext/6.webp)
@@ -137,7 +137,7 @@ Zoals je in mijn voorbeeld kunt zien, bestaat het twaalfde woord momenteel uit s
 ## Stap 2: De controlesom berekenen
 
 
-Deze stap is het meest kritisch bij het handmatig genereren van een Mnemonic zin, omdat hiervoor een computer nodig is. Zoals eerder vermeld, komt de controlesom overeen met het begin van de SHA256 Hash die gegenereerd is uit de entropie. Hoewel het theoretisch mogelijk is om een SHA256 met de hand te berekenen voor een invoer van 128 of 256 bits, zou deze taak een hele week in beslag kunnen nemen. Bovendien zou elke fout in handmatige berekeningen pas aan het einde van het proces worden geïdentificeerd, waardoor je gedwongen wordt om vanaf het begin opnieuw te beginnen. Daarom is het ondenkbaar om deze stap uit te voeren met alleen een vel papier en een pen. Een computer is bijna verplicht. Als je toch wilt leren hoe je een SHA256 met de hand doet, leggen we uit hoe je dat doet in [de CRYPTO301 cursus](https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f).
+Deze stap is het meest kritisch bij het handmatig genereren van een Mnemonic zin, omdat hiervoor een computer nodig is. Zoals eerder vermeld, komt de controlesom overeen met het begin van de SHA256 Hash die gegenereerd is uit de entropie. Hoewel het theoretisch mogelijk is om een SHA256 met de hand te berekenen voor een invoer van 128 of 256 bits, zou deze taak een hele week in beslag kunnen nemen. Bovendien zou elke fout in handmatige berekeningen pas aan het einde van het proces worden geïdentificeerd, waardoor je gedwongen wordt om vanaf het begin opnieuw te beginnen. Daarom is het ondenkbaar om deze stap uit te voeren met alleen een vel papier en een pen. Een computer is bijna verplicht. Als je toch wilt leren hoe je een SHA256 met de hand doet, leggen we uit hoe je dat doet in [de CRYPTO301 cursus](https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f).
 
 
 Om deze reden raad ik het maken van een handmatige zin voor een echte Wallet sterk af. Naar mijn mening vergroot het gebruik van een computer in dit stadium, zelfs met alle noodzakelijke voorzorgsmaatregelen, onredelijk het aanvalsoppervlak van de Wallet.
@@ -332,7 +332,7 @@ Met de verkregen decimale getallen kunnen we nu de overeenkomstige woorden in de
 Na deze aanpassing heb je de rang van elk woord in de lijst. Nu hoef je alleen nog maar elk woord te identificeren aan de hand van het nummer. Uiteraard mag je, net als bij alle andere stappen, je computer niet gebruiken om deze conversie uit te voeren. Zorg er daarom voor dat je de lijst van tevoren hebt afgedrukt.
 
 
-[**-> De BIP39-lijst afdrukken in A4-formaat.**](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)
+[**-> De BIP39-lijst afdrukken in A4-formaat.**](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)
 
 
 Als het getal dat is afgeleid van de eerste regel bijvoorbeeld 1721 is, is het bijbehorende woord het 1721e op de lijst:

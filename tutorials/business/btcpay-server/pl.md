@@ -21,4 +21,4 @@ Serwer BTCpay - akceptacja płatności Bitcoin w kilka minut przez BTCSession
 Mamy kompletny kurs na temat BTCPay Server, zapraszamy do obejrzenia pełnego kursu za darmo, abyś mógł poszerzyć swoją wiedzę na temat tego niesamowitego narzędzia.
 
 
-[**-> Dowiedz się więcej o serwerach BTCPay i ich użyteczności w naszym kursie**](https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1)
+[**-> Dowiedz się więcej o serwerach BTCPay i ich użyteczności w naszym kursie**](https://planb.academy/courses/6fc12131-e464-4515-9d3f-9255365d5fa1)

@@ -64,7 +64,7 @@ Nous prendrons ensuite le temps de revenir sur certaines notions théoriques abo
 
 ### Partie 6 - Partie finale
 
-Comme pour toutes les autres formations de Plan ₿ Network, vous trouverez dans la dernière partie un examen final pour évaluer vos connaissances sur les nœuds Bitcoin.
+Comme pour toutes les autres formations de Plan ₿ Academy, vous trouverez dans la dernière partie un examen final pour évaluer vos connaissances sur les nœuds Bitcoin.
 
 Alors, êtes-vous prêt à faire tourner votre premier nœud Bitcoin ? Cap sur la souveraineté !
 
@@ -260,7 +260,7 @@ En effet, comme souligné dans un chapitre précédent, les portefeuilles ne com
 
 En utilisant votre propre nœud, vous diffusez directement vos transactions dans le réseau, sans passer par un intermédiaire. À condition de sécuriser correctement votre nœud (ce que nous aborderons plus loin) ou de respecter certains standards, aucune information n’est alors exposée : ni votre adresse IP, ni les détails de vos transactions ne transitent par une entité que vous ne contrôlez pas. Il s’agit donc d’un prérequis de base pour préserver votre confidentialité sur Bitcoin.
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Transactions non censurables
 
@@ -431,9 +431,9 @@ C’est l’approche la plus souveraine et la plus flexible : vous savez exactem
 
 **Inconvénients :** il faut construire le reste de la pile à la main si vous voulez un environnement applicatif complet, et pas juste un nœud Bitcoin.
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
 #### Bitcoin Knots (principal client alternatif)
 
@@ -443,7 +443,7 @@ Les motivations pour préférer Knots à Core peuvent être de 2 ordres :
 - **Techniques** : options différentes de Core, notamment en matière de gestion du relai, en déterminant les transactions acceptées et diffusées par votre nœud ;
 - **Politique** : certains préfèrent utiliser des clients alternatifs tels que Knots pour des raisons non techniques, notamment pour soutenir une alternative à Core et ainsi réduire son monopole. Si Core venait un jour à être compromis, il serait alors utile de disposer d'autres clients solides et bien maintenus, mais aussi de savoir les utiliser. D'autres utilisent Knots dans une démarche contestataire, parce qu'ils ont perdu confiance dans les développeurs de Core ou désapprouvent la gestion du client majoritaire. 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
 Personnellement, je vous recommande de choisir Core, principalement pour bénéficier plus rapidement des correctifs de sécurité. En effet, certaines failles découvertes sont corrigées dans Knots avec du retard. Plus généralement, le processus de développement de Core est solidement structuré et soutenu par un grand nombre de contributeurs, tandis que Knots est maintenu par une seule personne et dispose d’une communauté bien plus réduite. Par ailleurs, les règles de relais tendent aujourd’hui à perdre de leur utilité, en particulier lorsqu’on cherche à les durcir alors qu’elles ne sont appliquées que par une fraction minime du réseau (théorie de la percolation).
 
@@ -471,7 +471,7 @@ Lancé en 2020 comme un simple nœud Bitcoin accompagné de quelques application
 
 Je ne détaillerai pas davantage ici son fonctionnement et ses spécificités, car nous les examinerons plus en profondeur dans le premier chapitre de la prochaine partie. En effet, pour les besoins de ce cours BTC 202, j’ai choisi d’utiliser UmbrelOS, qui constitue selon moi la meilleure solution actuelle de node-in-a-box pour les utilisateurs débutants et intermédiaires.
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 ### Start9 (StartOS)
 
@@ -485,7 +485,7 @@ La principale différence avec Umbrel réside dans l’interface. Umbrel mise su
 
 En résumé, si vous avez simplement besoin des applications essentielles pour Bitcoin, sans intérêt particulier pour l’écosystème très riche d’Umbrel, et que l’interface utilisateur n’est pas une priorité, alors Start9 constitue une meilleure option. Dans le cas contraire, préférez Umbrel.
 
-https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
+https://planb.academy/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
 
 ### MyNode
 
@@ -495,7 +495,7 @@ https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-8905
 
 En pratique, MyNode réunit toutes les briques de base nécessaires pour exploiter un nœud complet ainsi que les applications essentielles à l’utilisateur de Bitcoin. C’est donc une solution pertinente si vous n’avez pas besoin d’applications externes à l’écosystème Bitcoin, comme par exemple des apps de self-hosting, que l’on retrouve dans les systèmes Start9 et Umbrel.
 
-https://planb.network/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
+https://planb.academy/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
 
 ### RaspiBlitz
 
@@ -505,7 +505,7 @@ https://planb.network/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112c
 
 Si vous possédez un Raspberry Pi, c’est une excellente option, car les systèmes plus complets comme Umbrel deviennent de plus en plus lourds pour ce type de mini-PC.
 
-https://planb.network/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
+https://planb.academy/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
 
 ### RoninDojo
 
@@ -517,7 +517,7 @@ Le principe est simple : si vous utilisez Ashigaru Wallet (le fork successeur de
 
 Le projet proposait auparavant une machine préconfigurée appelée le Tanto, mais celle-ci est pour l’instant indisponible. Elle pourrait cependant revenir ultérieurement. En attendant, il est possible d’installer RoninDojo facilement sur un Rock5B+ ou un Rockpro64, voire de manière détournée sur un Raspberry Pi.
 
-https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
+https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
 
 ### Nodl
 
@@ -776,7 +776,7 @@ Nous allons utiliser ici l’image UmbrelOS x86 (plus précisément la version x
 
 Si vous avez opté pour un Raspberry Pi 5 (option que je déconseille, comme évoqué dans la partie précédente), l’installation diffère légèrement. Vous pouvez alors suivre ce tutoriel dédié et revenir à mon cours une fois sur l’interface web `http://umbrel.local` :
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 Comme évoqué dans la partie précédente, pour ma part, j’ai choisi de réaliser ce tutoriel sur un petit PC reconditionné que j'ai trouvé à un prix intéressant : un *Lenovo ThinkCentre M900 Tiny* équipé d’un processeur Intel Core i7 et de 16 Go de RAM. C’est une configuration très confortable pour exécuter Umbrel, surtout pour un nœud Bitcoin. Mais j'ai choisi cette configuration, car par la suite, je souhaite installer un nœud Lightning et diverses applications plus exigeantes. J’ai également ajouté un SSD de 2 To à mon ThinkCentre pour conserver l’intégralité de la blockchain tout en disposant d’une marge confortable. Avec cette configuration, le coût total s’élève à 270 € tout compris.
 
@@ -903,7 +903,7 @@ Pour identifier l’adresse IP de votre Umbrel, il y a plusieurs méthodes, de l
 
 ![Image](assets/fr/012.webp)
 
-https://planb.network/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
+https://planb.academy/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
 
 - En dernier recours, rebranchez un écran et un clavier sur l’appareil, connectez-vous (identifiant par défaut : `umbrel`, mot de passe : `umbrel`), puis tapez la commande suivante :
 
@@ -925,9 +925,9 @@ Choisissez un pseudonyme ou indiquez votre nom, puis définissez un mot de passe
 
 Sélectionnez donc un mot de passe fort, et, surtout, veillez à en conserver une ou plusieurs sauvegardes (gestionnaire de mots de passe recommandé).
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Un fois le mot de passe renseigné, cliquez sur le bouton "*Create*".
 
@@ -965,7 +965,7 @@ L’interface d’Umbrel est assez intuitive :
 
 Avant toute chose, je vous recommande vivement d’activer le 2FA. Cette mesure ajoute une couche supplémentaire de sécurité à votre mot de passe. Elle s’avère quasi indispensable si vous envisagez d’utiliser votre Umbrel pour stocker des fichiers personnels, exécuter un nœud Lightning ou toute autre activité sensible.
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Pour cela, cliquez sur la case correspondante dans les paramètres.
 
@@ -1206,7 +1206,7 @@ Concrètement, l’explorateur vous permet d’estimer les frais nécessaires po
 
 Comme indiqué précédemment, un explorateur peut être hébergé en ligne sur un site web ou exécuté localement sur votre machine. L’inconvénient majeur d’un service en ligne est qu’il peut compromettre votre confidentialité. Sans VPN ni Tor, le serveur hébergeant l’explorateur peut relier votre adresse IP aux transactions que vous consultez, ce qui peut constituer un point d’entrée idéal pour une analyse de chaîne.
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 De plus, votre fournisseur d’accès à Internet (ISP) peut savoir que vous consultez telle ou telle transaction via le site de l’explorateur de blocs. Cela soulève également une question de confiance : vous devez vous en remettre au service en ligne pour obtenir des informations exactes sur vos transactions, sans pouvoir en vérifier la véracité par vous-même.
 
@@ -1225,7 +1225,7 @@ Une fois l’application installée, il vous suffit de l’ouvrir pour accéder 
 
 Pour approfondir l’utilisation de l'explorateur Mempool.space, je vous recommande de consulter ce tutoriel complet :
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ### Nœud Lightning
 
@@ -1235,13 +1235,13 @@ Umbrel propose de nombreuses applications pour vous aider à faire fonctionner v
 - LND, via l’application *Lightning Node* ;
 - Core Lightning.
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
 Vous pouvez ensuite administrer votre nœud depuis l’interface principale, ou bien, pour bénéficier de davantage de fonctionnalités et d’options avancées, installer *Ride The Lightning* ou *ThunderHub*. Ces outils vous offriront une interface web de gestion bien plus complète pour votre nœud.
 
-https://planb.network/tutorials/node/lightning-network/ride-the-lightning-ca007688-0653-490c-8349-81d330d744b5
+https://planb.academy/tutorials/node/lightning-network/ride-the-lightning-ca007688-0653-490c-8349-81d330d744b5
 
-https://planb.network/tutorials/node/lightning-network/thunderhub-16909a39-2484-408e-a118-4e34e249bb9a
+https://planb.academy/tutorials/node/lightning-network/thunderhub-16909a39-2484-408e-a118-4e34e249bb9a
 
 ![Image](assets/fr/088.webp)
 
@@ -1271,7 +1271,7 @@ Tailscale sur Umbrel est donc une solution très intéressante si vous souhaitez
 
 Pour installer et configurer Tailscale sur votre Umbrel, consultez ce tutoriel, section 4 : "*Utilisation de Tailscale sur Umbrel*" :
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 ### Nostr
 
@@ -1289,7 +1289,7 @@ Enfin, il y a l'application ***Nostr Wallet Connect*** sur Umbrel, qui permet de
 
 Pour savoir comment utiliser toutes ces applications, je vous conseille de découvrir ce tutoriel complet :
 
-https://planb.network/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b-17c2ea1e08fd
+https://planb.academy/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b-17c2ea1e08fd
 
 ### BTCPay Server
 
@@ -1303,15 +1303,15 @@ Si vous possédez un commerce et souhaitez accepter les paiements en bitcoins di
 
 - Le cours BIZ 101 sur l'utilisation de Bitcoin dans votre entreprise :
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 - Le cours POS 305 sur l'utilisation de BTCPay Server :
 
-https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
+https://planb.academy/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 
 - Le tutoriel sur BTCPay Server :
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 
 # Concepts avancés et bonnes pratiques
@@ -1364,7 +1364,7 @@ N’exposez jamais le tableau de bord sur Internet sans passer par une passerell
 
 Pour approfondir vos connaissances en sécurité informatique de manière générale, je vous recommande vivement de consulter cet autre cours gratuit :
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 ### Diagnostic et entraide
 
@@ -1530,9 +1530,9 @@ Notons que L'UTXO set est souvent au cœur d'inquiétudes sur la décentralisati
 
 La croissance de l'UTXO set découle également de la structure des transactions de paiement simples sur Bitcoin. En effet, lorsque vous effectuez un paiement, vous consommez un seul UTXO en entrée et créez en sortie 2 nouveaux UTXOs (l’un pour le paiement et l’autre pour le change). Enfin, une heuristique d’analyse de chaîne, appelée CIOH (*Common Input Ownership Heuristic*), est une incitation supplémentaire à éviter la consolidation de pièces.
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-Puisqu'il faut en conserver une partie en RAM pour pouvoir procéder à la vérification des transactions en temps raisonnable, il est possible que l'UTXO set rende progressivement l'opération d'un nœud complet trop couteuse. Pour résoudre ce problème, il existe déjà quelques propositions, notamment [Utreexo](https://planb.network/resources/glossary/utreexo).
+Puisqu'il faut en conserver une partie en RAM pour pouvoir procéder à la vérification des transactions en temps raisonnable, il est possible que l'UTXO set rende progressivement l'opération d'un nœud complet trop couteuse. Pour résoudre ce problème, il existe déjà quelques propositions, notamment [Utreexo](https://planb.academy/resources/glossary/utreexo).
 
 ### La mempool
 
@@ -1889,11 +1889,11 @@ Nous arrivons à la conclusion de ce cours BTC 202, qui vous aura permis non seu
 
 Vous pouvez à présent passer à la partie finale du cours, où vous pourrez évaluer BTC 202, puis passer votre diplôme pour vérifier que toutes les notions abordées sont bien acquises.
 
-Plusieurs chemins s’offrent maintenant à vous. La prochaine étape logique consiste à mettre en place votre propre nœud Lightning, afin d’être entièrement indépendant pour vos transactions off-chain. Ce sera le sujet d’une formation à venir, qui sera publiée cet automne 2025 sur Plan ₿ Network.
+Plusieurs chemins s’offrent maintenant à vous. La prochaine étape logique consiste à mettre en place votre propre nœud Lightning, afin d’être entièrement indépendant pour vos transactions off-chain. Ce sera le sujet d’une formation à venir, qui sera publiée cet automne 2025 sur Plan ₿ Academy.
 
 En attendant, je vous invite à découvrir la formation BTC 204, qui vous permettra de comprendre et de maîtriser les principes de protection de la vie privée dans votre utilisation de Bitcoin :
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 # Partie finale

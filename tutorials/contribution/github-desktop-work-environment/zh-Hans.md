@@ -10,9 +10,9 @@ PlanB 的使命是以尽可能多的语言提供关于比特币的顶级教育�
 - **直接通过 GitHub 的网页界面贡献**：这是最简单的方法。如果您是初学者或者您计划只做少量的小贡献，这个选项可能是最适合您的；
 - **使用 Git 本地贡献**：如果您计划对 PlanB 网络进行定期或重大贡献，这种方法更合适。虽然一开始在您的电脑上设置本地 Git 环境可能看起来复杂，但从长远来看，这种方法更高效。它允许更灵活地管理更改。如果您对此感到新奇，不用担心，**我们在本教程中解释了设置环境的整个过程**（承诺，您不需要输入任何命令行^^）。
 
-如果您不知道 GitHub 是什么，或者如果您想了解更多与 Git 和 GitHub 相关的技术术语，我建议您[阅读我们的入门文章以熟悉这些概念](https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)。
+如果您不知道 GitHub 是什么，或者如果您想了解更多与 Git 和 GitHub 相关的技术术语，我建议您[阅读我们的入门文章以熟悉这些概念](https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)。
 
-- 首先，您显然需要一个 GitHub 账户。如果您已经有一个，您可以登录，否则，您可以使用[我们的教程创建一个新账户](https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)。
+- 首先，您显然需要一个 GitHub 账户。如果您已经有一个，您可以登录，否则，您可以使用[我们的教程创建一个新账户](https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)。
 
 ## 第 1 步：安装 GitHub Desktop
 
@@ -37,7 +37,7 @@ PlanB 的使命是以尽可能多的语言提供关于比特币的顶级教育�
 
 ## 第3步：Fork PlanB Network仓库
 
-- 访问以下地址的PlanB Network数据仓库：[https://github.com/PlanB-Network/bitcoin-educational-content](https://github.com/PlanB-Network/bitcoin-educational-content)：![github-desktop](assets/10.webp)
+- 访问以下地址的PlanB Network数据仓库：[https://github.com/Plan ₿ Academy/bitcoin-educational-content](https://github.com/Plan ₿ Academy/bitcoin-educational-content)：![github-desktop](assets/10.webp)
 - 在此页面，点击窗口右上角的`Fork`按钮：![github-desktop](assets/11.webp)
 - 在创建菜单中，你可以保留默认设置。确保勾选了`Copy the dev branch only`框，然后点击`Create fork`按钮：![github-desktop](assets/12.webp)
 - 然后你将进入你自己的PlanB Network仓库的fork版本：![github-desktop](assets/13.webp)
@@ -57,7 +57,7 @@ PlanB 的使命是以尽可能多的语言提供关于比特币的顶级教育�
 ![github-desktop](assets/17.webp)
 - 等待GitHub Desktop将你的fork克隆到本地：
 ![github-desktop](assets/18.webp)
-- 克隆仓库后，软件为您提供两个选项。您必须选择第一个：`为父项目做贡献`。这个选择将允许您将未来的工作作为对父项目（`PlanB-Network/bitcoin-educational-content`）的贡献展示，而不仅仅是您个人分支（`[username]/bitcoin-educational-content`）的修改。选择该选项后，点击`继续`：![github-desktop](assets/19.webp)
+- 克隆仓库后，软件为您提供两个选项。您必须选择第一个：`为父项目做贡献`。这个选择将允许您将未来的工作作为对父项目（`Plan ₿ Academy/bitcoin-educational-content`）的贡献展示，而不仅仅是您个人分支（`[username]/bitcoin-educational-content`）的修改。选择该选项后，点击`继续`：![github-desktop](assets/19.webp)
 - 您的GitHub桌面现在已正确配置。现在，您可以在后台保持软件开启，以跟踪我们将进行的修改。
 ![github-desktop](assets/20.webp)
 我们在这个阶段实现的是创建您的仓库的本地副本，该仓库托管在GitHub上。提醒一下，这个仓库是PlanB网络源仓库的一个分支。您将能够对这个本地副本进行修改，例如添加教程、翻译或更正。一旦这些修改完成，您将使用**推送源**命令将您的本地修改发送到托管在GitHub上的您的分支。
@@ -86,4 +86,4 @@ PlanB 的使命是以尽可能多的语言提供关于比特币的顶级教育�
 
 对此，您有几个选项。尽管可以使用计算机的标准记事本进行这些修改，但这种解决方案对于整洁的工作来说并不理想。我推荐选择专为此目的设计的软件，如[VS Code](https://code.visualstudio.com/download)或[Sublime Text](https://www.sublimetext.com/download)。Sublime Text特别轻便，将非常适合我们的需求。
 - 安装这些软件程序中的一个，并为您未来的修改保留它。![github-desktop](assets/26.webp)
-恭喜您！您的工作环境现在已经设置好，可以为PlanB网络做出贡献了。您现在可以探索[我们的其他特定教程](https://planb.network/tutorials/others)来了解每种类型的贡献（翻译、校对、写作...）。
+恭喜您！您的工作环境现在已经设置好，可以为PlanB网络做出贡献了。您现在可以探索[我们的其他特定教程](https://planb.academy/tutorials/others)来了解每种类型的贡献（翻译、校对、写作...）。

@@ -38,7 +38,7 @@ Kwa ujumla, nguvu ya Supply inauzwa nayo. Ikiwa sivyo, utahitaji kununua nguvu y
 ![signup](assets/1.webp)
 
 
-### Usanidi
+## Usanidi
 
 Unapochomeka BitAxe yako kwa mara ya kwanza, itajaribu kuunganisha kwa mtandao wa Wi-Fi kwa chaguomsingi. Baada ya jaribio tano, itaonyesha jina la mtandao wake wa Wi-Fi ili uweze kuunganisha nayo na kuisanidi.
 

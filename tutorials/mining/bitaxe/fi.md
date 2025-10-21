@@ -28,7 +28,7 @@ Yleensä virtalähde myydään sen mukana. Jos ei, sinun on hankittava virtaläh
 
 ![signup](assets/1.webp)
 
-### Konfigurointi
+## Asetukset
 Kun kytket BitAxesi ensimmäisen kerran, se yrittää automaattisesti yhdistää Wi-Fi-verkkoon. Viiden yrityksen jälkeen se näyttää oman Wi-Fi-verkkonsa nimen, jotta voit yhdistää siihen ja konfiguroida sen.
 Tähän voit käyttää mitä tahansa tietokonetta tai älypuhelinta. Siirry Wi-Fi-asetuksiisi, etsi uusia verkkoja, ja näet Wi-Fi-verkon nimeltä Bitaxe_XXXX. Tässä tapauksessa se on `Bitaxe_A859`. Yhdistä tähän Wi-Fi-verkkoon, ja ikkuna avautuu automaattisesti.
 

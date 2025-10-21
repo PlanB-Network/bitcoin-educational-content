@@ -28,7 +28,7 @@ Obvykle je spolu s ním prodáván i zdroj napájení. Pokud ne, budete muset za
 
 ![signup](assets/1.webp)
 
-### Konfigurace
+## Nastavení
 Když poprvé zapojíte svůj BitAxe, pokusí se ve výchozím nastavení připojit k Wi-Fi síti. Po pěti pokusech zobrazí název vlastní Wi-Fi sítě, abyste se k ní mohli připojit a konfigurovat ji.
 K tomu můžete použít jakýkoliv počítač nebo smartphone. Jděte do nastavení Wi-Fi, vyhledejte nové sítě a uvidíte Wi-Fi s názvem Bitaxe_XXXX. Zde je to `Bitaxe_A859`. Připojte se k této Wi-Fi síti a automaticky se otevře okno.
 

@@ -28,7 +28,7 @@ Selles juhendis kasutame BitAxe Ultra 204, mis on varustatud BM1366 kiibiga, mid
 
 ![signup](assets/1.webp)
 
-### Konfiguratsioon
+## Seadistus
 Kui ühendate oma BitAxe esimest korda, üritab see vaikimisi ühenduda Wi-Fi võrguga. Pärast viit katset kuvab see oma Wi-Fi võrgu nime, et saaksite sellega ühenduda ja seda seadistada.
 Selleks võite kasutada mis tahes arvutit või nutitelefoni. Minge oma Wi-Fi seadetesse, otsige uusi võrke ja näete Wi-Fi võrku nimega Bitaxe_XXXX. Siin on see `Bitaxe_A859`. Ühendage see Wi-Fi võrguga ja automaatselt avaneb aken.
 

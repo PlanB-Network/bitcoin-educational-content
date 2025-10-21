@@ -28,7 +28,7 @@ Vanligvis selges strømforsyningen med den. Hvis ikke, må du kjøpe en strømfo
 
 ![signup](assets/1.webp)
 
-### Konfigurasjon
+## Konfigurasjon
 Når du først kobler til BitAxe, vil den forsøke å koble seg til et Wi-Fi-nettverk som standard. Etter fem forsøk, vil den vise navnet på sitt eget Wi-Fi-nettverk slik at du kan koble til det og konfigurere det.
 For å gjøre dette, kan du bruke hvilken som helst datamaskin eller smarttelefon. Gå til Wi-Fi-innstillingene dine, søk etter nye nettverk, og du vil se et Wi-Fi kalt Bitaxe_XXXX. Her er det `Bitaxe_A859`. Koble til dette Wi-Fi-nettverket, og et vindu vil automatisk åpne seg.
 

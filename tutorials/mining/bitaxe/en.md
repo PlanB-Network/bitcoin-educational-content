@@ -29,7 +29,7 @@ Generally, the power supply is sold with it. If not, you will need to purchase a
 
 ![signup](assets/1.webp)
 
-### Configuration
+## Configuration
 When you first plug in your BitAxe, it will attempt to connect to a Wi-Fi network by default. After five attempts, it will display the name of its own Wi-Fi network so you can connect to it and configure it.
 To do this, you can use any computer or smartphone. Go to your Wi-Fi settings, search for new networks, and you will see a Wi-Fi called Bitaxe_XXXX. Here, it is `Bitaxe_A859`. Connect to this Wi-Fi network, and a window will automatically open.
 

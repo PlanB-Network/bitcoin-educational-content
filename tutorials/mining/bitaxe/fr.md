@@ -29,7 +29,7 @@ Généralement, l'alimentation est vendue avec. Si ce n'est pas le cas, vous dev
 
 ![signup](assets/1.webp)
 
-### Paramétrage
+## Paramétrage
 
 Lorsque vous branchez votre BitAxe pour la première fois, il essaiera de se connecter à un réseau Wi-Fi par défaut. Après cinq tentatives, il affichera le nom de son propre réseau Wi-Fi pour que vous puissiez vous y connecter et le paramétrer.
 

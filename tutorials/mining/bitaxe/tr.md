@@ -39,7 +39,7 @@ Genellikle Supply güç ünitesi ile birlikte satılır. Değilse, 5V jak kablos
 ![signup](assets/1.webp)
 
 
-### Konfigürasyon
+## Yapılandırma
 
 BitAxe'inizi ilk taktığınızda, varsayılan olarak bir Wi-Fi ağına bağlanmayı deneyecektir. Beş denemeden sonra, bağlanabilmeniz ve yapılandırabilmeniz için kendi Wi-Fi ağının adını görüntüleyecektir.
 

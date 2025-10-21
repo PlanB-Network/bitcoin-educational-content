@@ -28,7 +28,7 @@ Umumnya, catu daya dijual bersamanya. Jika tidak, Anda akan perlu membeli catu d
 
 ![signup](assets/1.webp)
 
-### Konfigurasi
+## Konfigurasi
 Ketika Anda pertama kali menyambungkan BitAxe Anda, itu akan mencoba terhubung ke jaringan Wi-Fi secara default. Setelah lima percobaan, itu akan menampilkan nama jaringan Wi-Fi sendiri sehingga Anda dapat terhubung ke sana dan mengonfigurasinya.
 Untuk melakukan ini, Anda dapat menggunakan komputer atau smartphone apa saja. Pergi ke pengaturan Wi-Fi Anda, cari jaringan baru, dan Anda akan melihat Wi-Fi yang bernama Bitaxe_XXXX. Di sini, adalah `Bitaxe_A859`. Sambungkan ke jaringan Wi-Fi ini, dan sebuah jendela akan secara otomatis terbuka.
 

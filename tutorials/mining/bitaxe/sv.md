@@ -39,7 +39,7 @@ I allmänhet säljs strömförsörjningen Supply tillsammans med den. Om inte, m
 ![signup](assets/1.webp)
 
 
-### Konfiguration
+## Konfiguration
 
 När du först ansluter din BitAxe kommer den som standard att försöka ansluta till ett Wi-Fi-nätverk. Efter fem försök visar den namnet på sitt eget Wi-Fi-nätverk så att du kan ansluta till det och konfigurera det.
 

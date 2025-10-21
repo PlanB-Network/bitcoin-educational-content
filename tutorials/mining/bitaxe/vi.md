@@ -28,7 +28,7 @@ Thông thường, nguồn cung cấp điện được bán kèm theo. Nếu khô
 
 ![signup](assets/1.webp)
 
-### Cấu hình
+## Cấu hình
 Khi bạn cắm BitAxe vào lần đầu tiên, nó sẽ cố gắng kết nối với mạng Wi-Fi mặc định. Sau năm lần thử, nó sẽ hiển thị tên của mạng Wi-Fi của chính nó để bạn có thể kết nối và cấu hình.
 Để làm điều này, bạn có thể sử dụng bất kỳ máy tính hoặc điện thoại thông minh nào. Vào cài đặt Wi-Fi của bạn, tìm kiếm các mạng mới, và bạn sẽ thấy một Wi-Fi có tên là Bitaxe_XXXX. Ở đây, nó là `Bitaxe_A859`. Kết nối với mạng Wi-Fi này, và một cửa sổ sẽ tự động mở ra.
 

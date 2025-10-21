@@ -39,7 +39,7 @@ Over het algemeen wordt de Supply meegeleverd. Zo niet, dan moet je een Supply k
 ![signup](assets/1.webp)
 
 
-### Configuratie
+## Configuratie
 
 Als je de BitAxe voor het eerst aansluit, probeert hij standaard verbinding te maken met een Wi-Fi-netwerk. Na vijf pogingen geeft hij de naam van zijn eigen Wi-Fi-netwerk weer, zodat je er verbinding mee kunt maken en het kunt configureren.
 

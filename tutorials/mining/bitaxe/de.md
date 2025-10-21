@@ -28,7 +28,7 @@ In der Regel wird es mit einem Netzteil verkauft. Wenn nicht, müssen Sie ein Ne
 
 ![signup](assets/1.webp)
 
-### Konfiguration
+## Konfiguration
 Wenn Sie Ihr BitAxe zum ersten Mal anschließen, wird es standardmäßig versuchen, eine Verbindung zu einem Wi-Fi-Netzwerk herzustellen. Nach fünf Versuchen wird es den Namen seines eigenen Wi-Fi-Netzwerks anzeigen, sodass Sie sich damit verbinden und es konfigurieren können.
 Dazu können Sie jeden Computer oder Smartphone verwenden. Gehen Sie zu Ihren Wi-Fi-Einstellungen, suchen Sie nach neuen Netzwerken, und Sie werden ein Wi-Fi namens Bitaxe_XXXX sehen. Hier ist es `Bitaxe_A859`. Verbinden Sie sich mit diesem Wi-Fi-Netzwerk, und ein Fenster wird sich automatisch öffnen.
 

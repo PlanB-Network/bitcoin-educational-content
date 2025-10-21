@@ -39,7 +39,7 @@ Muri rusangi, ububasha Supply buragurishwa na yo. Niba atarivyo, uzokenera kugur
 ![signup](assets/1.webp)
 
 
-### Gutunganya
+## Igenamiterere
 
 Iyo ubanza gushiramwo BitAxe yawe, izogerageza kwifatanya n’urubuga rwa Wi-Fi ku buryo busanzwe. Inyuma y’ukugerageza gatanu, izokwerekana izina ry’urubuga rwayo rwa Wi-Fi kugira ngo ushobore kurufatanya na rwo no kurutunganya.
 

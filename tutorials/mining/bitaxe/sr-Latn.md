@@ -38,7 +38,7 @@ Generalno, uz njega se prodaje napajanje Supply. Ako nije, potrebno je kupiti na
 ![signup](assets/1.webp)
 
 
-### Konfiguracija
+## Podešavanje
 
 Kada prvi put priključite svoj BitAxe, pokušaće da se poveže na Wi-Fi mrežu po defaultu. Nakon pet pokušaja, prikazaće ime svoje Wi-Fi mreže kako biste se mogli povezati na nju i konfigurisati je.
 

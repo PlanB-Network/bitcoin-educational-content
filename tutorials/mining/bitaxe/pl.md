@@ -38,7 +38,7 @@ Zazwyczaj zasilacz Supply jest sprzedawany razem z nim. Jeśli nie, należy zaku
 ![signup](assets/1.webp)
 
 
-### Konfiguracja
+## Konfiguracja
 
 Po pierwszym podłączeniu BitAxe domyślnie spróbuje połączyć się z siecią Wi-Fi. Po pięciu próbach wyświetli nazwę własnej sieci Wi-Fi, aby można było się z nią połączyć i ją skonfigurować.
 

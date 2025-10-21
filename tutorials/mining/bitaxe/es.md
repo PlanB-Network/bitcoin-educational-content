@@ -28,7 +28,7 @@ Generalmente, la fuente de alimentación se vende con él. Si no, necesitarás c
 
 ![signup](assets/1.webp)
 
-### Configuración
+## Configuración
 Cuando conectes tu BitAxe por primera vez, intentará conectarse a una red Wi-Fi por defecto. Después de cinco intentos, mostrará el nombre de su propia red Wi-Fi para que puedas conectarte a ella y configurarla.
 Para hacer esto, puedes usar cualquier computadora o smartphone. Ve a tu configuración Wi-Fi, busca nuevas redes y verás una Wi-Fi llamada Bitaxe_XXXX. Aquí, es `Bitaxe_A859`. Conéctate a esta red Wi-Fi, y automáticamente se abrirá una ventana.
 

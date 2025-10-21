@@ -982,30 +982,23 @@ Luke a [appris](https://www.youtube.com/watch?v=3sXei0Iwf4Q) l'existence de Bitc
 
 *Avatar utilisé par Luke-Jr à partir de 2013 (source : [Gravatar](https://secure.gravatar.com/avatar/30aa55ee8573680ee4bbb556dae3160c?s=400))*
 
-Le 27 avril, Luke [crée](https://bitcointalk.org/index.php?topic=6667.msg97375#msg97375) une coopérative de minage appelée Eligius, qu'il présente comme une « nouvelle coopérative expérimentale » (original: "Experimental Pool"). Le nom est le nom latin de saint Éloi, évêque de Noyon au VIIe siècle et ministre des Finances auprès du roi des Francs Dagobert Ier. Le logiciel côté serveur s'appelle d'ailleurs [Eloipool](https://web.archive.org/web/20120701151930/http://gitorious.org/bitcoin/eloipool).
+Le 27 avril, Luke [crée](https://bitcointalk.org/index.php?topic=6667.msg97375#msg97375) une coopérative de minage appelée Eligius, qu'il présente comme une « nouvelle coopérative expérimentale » (original: "Experimental Pool"). Le nom est le nom latin de saint Éloi, évêque de Noyon au VIIe siècle et ministre des Finances auprès du roi des Francs Dagobert Ier. Le logiciel côté serveur s'appelle d'ailleurs [Eloipool](https://web.archive.org/web/20120701151930/http://gitorious.org/bitcoin/eloipool). Il est considéré, entre autres, comme le saint patron des mineurs.
 
 Luke adopte initialement un modèle de paiement proportionnel. Néanmoins, ses préoccupations liées au *pool hopping* le conduisent à [mettre en œuvre](https://bitcointalk.org/index.php?topic=6667.msg213885#msg213885) son propre système hybride le 13 juin : le modèle *Maximum Pay Per Share* (MPPS). Celui-ci [consiste](https://web.archive.org/web/20110615073316/http://eligius.st/wiki/index.php/Maximum_PPS) à tenir compte d'un solde lié aux parts trouvées, en plus du compteur lié au système proportionnel qui agit comme un tampon, afin d'obtenir un modèle qui ressemble au paiement par part sans le risque associé pour la coopérative. Ce modèle étant défectueux (Luke est momentanément [obligé](https://bitcointalk.org/index.php?topic=6667.msg259589#msg259589) de revenir au modèle proportionnel), il conçoit un système similaire qui [repose](https://web.archive.org/web/20110627025520/http://eligius.st/wiki/index.php/Shared_Maximum_PPS) sur un tampon collectif : le *Shared Maximum Pay Per Share* (SMPPS). Le but est de ne jamais distribuer plus que ce que la coopérative possède réellement. Après un [sondage](https://bitcointalk.org/index.php?topic=21999.msg276565#msg276565) favorable, Eligius [intègre](https://bitcointalk.org/index.php?topic=6667.msg290347#msg290347) ce nouveau modèle le 27 juin.
 
 ---
 
-Message de nature religieuse dans les coinbases : https://www.righto.com/2014/02/ascii-bernanke-wikileaks-photographs.html
+À partir du 5 août, Eligius [inclut](https://ourbigbook.com/cirosantilli/cool-data-embedded-in-the-bitcoin-blockchain/prayer-wars) des messages de nature religieuse dans les champs d'entrée des transactions de récompenses, des blocs générés par la coopérative. Conformément à la foi catholique romaine de l'opérateur, on retrouve des prières en latin : les Louanges divines, le *Je vous salue Marie*,le *Salve Regina*, le *Notre Père*, la prière du cœur, etc. Mais il y a également des passages en anglais : les Actes de contrition, de foi, d'espérance et de charité, le Confiteor, la prière à l'Ange Gardien, des méditations du chapelet du Sacré-Cœur de Jésus, des passages de l'Évangile, des commémorations des saints (comme celle d'Augustin d'Hippone le 28 août).
 
-exemples : https://bitcointalk.org/index.php?topic=38007.msg470800#msg470800
+![Louanges divines présentes dans les blocs minés par Eligius en août 2011](assets/en/eligius-coinbase-prayers-201108-blockchair.webp)
 
-https://blockchair.com/bitcoin/blocks?s=id(asc)&q=guessed_miner(Eligius),id(139690..)#f=id,hash,time,guessed_miner,size,coinbase_data_bin,coinbase_data_hex
+*Louanges divines présentes dans les blocs minés par Eligius en août 2011 (source : [Blockchair](https://blockchair.com/))*
 
-Premier bloc [139 690](https://blockchair.com/bitcoin/block/139690), 5/8/2011 08:42:59 UTC
+Deux semaines plus tard, ces prières sont remarquées par un membre de la communauté, qui inscrit un message dans une [transaction](https://mempool.space/tx/9740e7d646f5278603c04706a366716e5e87212c57395e0d24761c0ae784b2c6) classique. Il accuse Luke d'être « un pédophile » (original: "A PEDOPHILE"), affirme que « Dieu n'existe pas » (original: "god isn't real") et lui adjoint d'arrêter de « polluer la blockchain avec \[ses\] absurdités » (original: "Stop polluting the blockchain with your nonsense"). Cette transaction est [signalée](https://buildingbitcoin.org/bitcoin-dev/log-2011-08-18.html#l-598) dans la journée par Mark Karpelès, ce qui engendre une discussion [sur IRC](https://buildingbitcoin.org/bitcoin-dev/log-2011-08-18.html#l-851) et [sur le forum](https://bitcointalk.org/index.php?topic=38007.msg466841#msg466841) autour de ces inscriptions de texte. Graeme Tee...
 
-Benedictus Sanguis eius pretiosissimus.
-Benedictus Iesus in sanctissimo altaris Sacramento.
-Ave Maria, gratia plena, Dominus tecum. Benedicta tu in mulieribus, ...
-...and life everlasting, through the merits of Jesus Christ, my Lord and Redeemer.
-O Heart of Jesus, burning with love for us, inflame our hearts with love for Thee.
-Jesus, meek and humble of heart, make my heart like unto thine!
+---
 
-"We adore Thee, O Christ, and we bless Thee;" [20/8](https://mempool.space/block/00000000000002fa5ae8d386077c6279c977f14a948b36d93d180e3cc939dad9)
-
-Réaction, [18/8 09:08](https://mempool.space/tx/9740e7d646f5278603c04706a366716e5e87212c57395e0d24761c0ae784b2c6) : "LUKE-JR IS A PEDOPHILE! Oh, and god isn't real, sucka. Stop polluting the blockchain with your nonsense." ; incluse dans un [bloc](https://mempool.space/block/000000000000070f4407e0cf384e05275b7a0f31876baf3636b84cae341f4dc7) miné par Eligius (". O dulcis Virgo Maria. Ora pro nobis, sancta Dei Genetrix")
+Réaction, [18/8 09:08](https://mempool.space/tx/9740e7d646f5278603c04706a366716e5e87212c57395e0d24761c0ae784b2c6) : "LUKE-JR IS A PEDOPHILE! Oh, and god isn't real, sucka. Stop polluting the blockchain with your nonsense." ; incluse dans un [bloc](https://mempool.space/block/000000000000070f4407e0cf384e05275b7a0f31876baf3636b84cae341f4dc7) miné par Eligius ("O dulcis Virgo Maria. Ora pro nobis, sancta Dei Genetrix")
 
 Mark Karpelès [IRC 18/8 13:58](https://buildingbitcoin.org/bitcoin-dev/log-2011-08-18.html#l-598) "we got a strange tx in the blockchain"
 
@@ -1015,7 +1008,13 @@ Mark Karpelès [IRC 18/8 13:58](https://buildingbitcoin.org/bitcoin-dev/log-2011
 2011-08-18 16:24:15 <luke-jr> Graet: Catholics do not believe in freedom of religion.
 2011-08-18 16:24:35 <Graet> and you make your non catholic miners aware of this?
 
-Graet, "Eligius miners aware of prayers in block headers?", [19/8 02:05](https://bitcointalk.org/index.php?topic=38007.msg466841#msg466841)
+Graet, "Eligius miners aware of prayers in block headers?", [19/8 02:05 UTC](https://bitcointalk.org/index.php?topic=38007.msg466841#msg466841) ; exemples : https://bitcointalk.org/index.php?topic=38007.msg470800#msg470800
+
+Autres inscriptions ultérieures, [soumises](https://twitter.com/LukeDashjr/status/1749186831126581481) par les client d'Eligius.
+
+"Militant atheists, http://bit.ly/naNhG2 -- happy now?" (rickroll) [25/8 22:09:28 UTC](https://mempool.space/block/00000000000005b71bc4c0cf24a6f00e04980c627e9409266983bd37acbe14d3)
+
+https://www.righto.com/2014/02/ascii-bernanke-wikileaks-photographs.html
 
 ### La centralisation du minage
 
@@ -1023,7 +1022,7 @@ Les coopératives posent un problème de centralisation. Le regroupement en coop
 
 De plus, la concurrence entre les coopératives fait que seules quelques coopératives peuvent émerger...
 
-Les coopératives signent leurs blocs dans le script de déverrouillage de la transaction de récompense. (origine de la pratique ?) : Bitcoin.cz = `/slush/` ; EclipseMC = `EMC`
+Les coopératives signent leurs blocs dans le script de déverrouillage de la transaction de récompense. (origine de la pratique ?) : Bitcoin.cz = `/slush/` ; EclipseMC = `EMC` ; Eligius = `Eligius`
 
 Distribution du taux de hachage : https://web.archive.org/web/20110401115146/http://www.bitcoinwatch.com/ ([alors géré par tcatm](https://bitcointalk.org/index.php?topic=5016.msg73505#msg73505)) puis https://web.archive.org/web/20111018232813/http://blockchain.info/pools
 

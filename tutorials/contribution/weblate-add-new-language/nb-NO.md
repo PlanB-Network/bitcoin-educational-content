@@ -17,7 +17,7 @@ Først må du kontakte Plan ₿ Academy-teamet via vår [Telegram-gruppe] (https
 For å sjekke om språket ditt allerede er blant dem vi jobber med.
 
 
-- Gå til [vår Weblate-plattform] (https://weblate.planb.network/projects/Plan ₿ Academy-website/):
+- Gå til [vår Weblate-plattform] (https://weblate.planb.network/projects/planb-network-website/):
 
 ![language](assets/01.webp)
 

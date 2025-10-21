@@ -17,7 +17,7 @@ Plan ₿ Academy 的使命是提供一流的比特币教育资源，并将其翻
 检查您的语言是否已在我们的工作范围内。
 
 
-- 请访问 [我们的 Weblate 平台](https://weblate.planb.network/projects/Plan ₿ Academy-website/)：
+- 请访问 [我们的 Weblate 平台](https://weblate.planb.network/projects/planb-network-website/)：
 
 ![language](assets/01.webp)
 

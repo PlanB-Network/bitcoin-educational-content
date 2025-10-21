@@ -17,7 +17,7 @@ Innanzitutto, assicurati di contattare il team di Plan ₿ Academy tramite il no
 Per verificare se la tua lingua è già tra quelle su cui stiamo lavorando.
 
 
-- Vai sulla [nostra pagina Weblate](https://weblate.planb.network/projects/Plan ₿ Academy-website/):
+- Vai sulla [nostra pagina Weblate](https://weblate.planb.network/projects/planb-network-website/):
 
 ![language](assets/01.webp)
 

@@ -17,7 +17,7 @@ Plan ₿ Academy का मिशन Bitcoin पर उच्च-स्तरी
 यह देखने के लिए कि क्या आपकी भाषा उन भाषाओं में शामिल है जिन पर हम काम कर रहे हैं।
 
 
-- [हमारे वेब्लेट प्लेटफॉर्म](https://weblate.planb.network/projects/Plan ₿ Academy-website/) पर जाएं:
+- [हमारे वेब्लेट प्लेटफॉर्म](https://weblate.planb.network/projects/planb-network-website/) पर जाएं:
 
 ![language](assets/01.webp)
 

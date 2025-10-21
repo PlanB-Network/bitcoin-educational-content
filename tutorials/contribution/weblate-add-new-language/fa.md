@@ -24,7 +24,7 @@ description: چگونه می‌توانید یک زبان جدید به Plan ₿
 
 
 
-- به [پلتفرم Weblate ما](https://weblate.planb.network/projects/Plan ₿ Academy-website/) بروید:
+- به [پلتفرم Weblate ما](https://weblate.planb.network/projects/planb-network-website/) بروید:
 
 ![language](assets/01.webp)
 

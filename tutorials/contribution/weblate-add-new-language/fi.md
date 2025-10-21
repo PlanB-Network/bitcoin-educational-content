@@ -17,7 +17,7 @@ Varmista ensin, että otat yhteyttä Plan ₿ Academy -tiimiin [Telegram-ryhmäm
 Voit tarkistaa, onko kielesi jo niiden kielten joukossa, joiden parissa työskentelemme.
 
 
-- Siirry [Weblate-alustamme](https://weblate.planb.network/projects/Plan ₿ Academy-website/):
+- Siirry [Weblate-alustamme](https://weblate.planb.network/projects/planb-network-website/):
 
 ![language](assets/01.webp)
 

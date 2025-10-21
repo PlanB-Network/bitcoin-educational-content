@@ -24,7 +24,7 @@ För att kontrollera om ditt språk redan finns med bland de språk vi arbetar m
 
 
 
-- Gå till [vår Weblate-plattform] (https://weblate.planb.network/projects/Plan ₿ Academy-website/):
+- Gå till [vår Weblate-plattform] (https://weblate.planb.network/projects/planb-network-website/):
 
 ![language](assets/01.webp)
 

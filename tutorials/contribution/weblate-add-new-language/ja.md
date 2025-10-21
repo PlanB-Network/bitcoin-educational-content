@@ -17,7 +17,7 @@ Plan ₿ Networkの使命は、ビットコインに関する一流の教育リ�
 あなたの言語がすでに私たちが取り組んでいる言語の中にあるかどうかを確認する。
 
 
-- Weblateプラットフォーム](https://weblate.planb.network/projects/Plan ₿ Academy-website/)にアクセスしてください：
+- Weblateプラットフォーム](https://weblate.planb.network/projects/planb-network-website/)にアクセスしてください：
 
 ![language](assets/01.webp)
 

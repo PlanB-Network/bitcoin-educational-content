@@ -17,7 +17,7 @@ Nejprve se obraťte na tým sítě Plan ₿ prostřednictvím naší [skupiny Te
 Chcete-li zjistit, zda váš jazyk již patří mezi jazyky, na kterých pracujeme.
 
 
-- Přejděte na [naši platformu Weblate](https://weblate.planb.network/projects/Plan ₿ Academy-website/):
+- Přejděte na [naši platformu Weblate](https://weblate.planb.network/projects/planb-network-website/):
 
 ![language](assets/01.webp)
 

@@ -17,7 +17,7 @@ Trước tiên, hãy đảm bảo liên hệ với nhóm Plan ₿ Academy qua [n
 Để kiểm tra xem ngôn ngữ của bạn có nằm trong danh sách ngôn ngữ chúng tôi đang xử lý hay không.
 
 
-- Truy cập [nền tảng Weblate của chúng tôi](https://weblate.planb.network/projects/Plan ₿ Academy-website/):
+- Truy cập [nền tảng Weblate của chúng tôi](https://weblate.planb.network/projects/planb-network-website/):
 
 ![language](assets/01.webp)
 

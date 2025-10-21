@@ -24,7 +24,7 @@ Ili kuangalia ikiwa lugha yako tayari ni miongoni mwa zile tunazofanyia kazi.
 
 
 
-- Nenda kwa [jukwaa letu la Wavuti](https://weblate.planb.network/projects/Plan ₿ Academy-website/):
+- Nenda kwa [jukwaa letu la Wavuti](https://weblate.planb.network/projects/planb-network-website/):
 
 ![language](assets/01.webp)
 

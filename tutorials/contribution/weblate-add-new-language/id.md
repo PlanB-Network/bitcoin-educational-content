@@ -17,7 +17,7 @@ Pertama, pastikan Anda menghubungi tim Plan ₿ Academy melalui [grup Telegram] 
 Untuk memeriksa apakah bahasa Anda sudah termasuk di antara bahasa yang sedang kami kerjakan.
 
 
-- Kunjungi [platform Weblate kami](https://weblate.planb.network/projects/Plan ₿ Academy-website/):
+- Kunjungi [platform Weblate kami](https://weblate.planb.network/projects/planb-network-website/):
 
 ![language](assets/01.webp)
 

@@ -24,7 +24,7 @@ Dilinizin halihazırda üzerinde çalıştığımız diller arasında olup olmad
 
 
 
-- Weblate platformumuza] (https://weblate.planb.network/projects/Plan ₿ Academy-website/) gidin:
+- Weblate platformumuza] (https://weblate.planb.network/projects/planb-network-website/) gidin:
 
 ![language](assets/01.webp)
 

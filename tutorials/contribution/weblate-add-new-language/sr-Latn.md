@@ -24,7 +24,7 @@ Da proverite da li je vaš jezik već među onima na kojima radimo.
 
 
 
-- Idite na [našu Weblate platformu](https://weblate.planb.network/projects/Plan ₿ Academy-website/):
+- Idite na [našu Weblate platformu](https://weblate.planb.network/projects/planb-network-website/):
 
 ![language](assets/01.webp)
 

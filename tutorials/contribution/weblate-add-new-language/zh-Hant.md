@@ -24,7 +24,7 @@ Plan ₿ Academy 的使命是在 Bitcoin 上提供一流的教育資源，並將
 
 
 
-- 前往 [我們的 Weblate 平台](https://weblate.planb.network/projects/Plan ₿ Academy-website/)：
+- 前往 [我們的 Weblate 平台](https://weblate.planb.network/projects/planb-network-website/)：
 
 ![language](assets/01.webp)
 

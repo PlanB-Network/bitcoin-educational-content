@@ -16,7 +16,7 @@ First, make sure to contact the Plan ₿ Academy team via our [Telegram group](h
 
 To check if your language is already among those we are working on.
 
-- Go to [our Weblate platform](https://weblate.planb.network/projects/Plan ₿ Academy-website/):
+- Go to [our Weblate platform](https://weblate.planb.network/projects/planb-network-website/):
 ![language](assets/01.webp)
 - In the `Website elements` menu, you will find a list of all the languages in progress:
 ![language](assets/02.webp)

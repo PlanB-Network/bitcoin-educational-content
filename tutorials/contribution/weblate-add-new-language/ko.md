@@ -24,7 +24,7 @@ Plan ₿ Network의 사명은 Bitcoin에서 최고 수준의 교육 자료를 �
 
 
 
-- 웹레이트 플랫폼](https://weblate.planb.network/projects/Plan ₿ Academy-website/)으로 이동합니다:
+- 웹레이트 플랫폼](https://weblate.planb.network/projects/planb-network-website/)으로 이동합니다:
 
 ![language](assets/01.webp)
 

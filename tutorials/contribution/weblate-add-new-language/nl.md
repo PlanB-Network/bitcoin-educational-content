@@ -24,7 +24,7 @@ Om te controleren of jouw taal al een van de talen is waar we aan werken.
 
 
 
-- Ga naar [ons Weblate platform] (https://weblate.planb.network/projects/Plan ₿ Academy-website/):
+- Ga naar [ons Weblate platform] (https://weblate.planb.network/projects/planb-network-website/):
 
 ![language](assets/01.webp)
 

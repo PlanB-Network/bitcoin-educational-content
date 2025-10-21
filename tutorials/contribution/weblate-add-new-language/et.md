@@ -17,7 +17,7 @@ Kõigepealt võtke kindlasti ühendust Plan ₿ Academy'i meeskonnaga meie [Tele
 Kontrollida, kas teie keel on juba nende keelte hulgas, millega me töötame.
 
 
-- Mine [meie Weblate platvormile](https://weblate.planb.network/projects/Plan ₿ Academy-website/):
+- Mine [meie Weblate platvormile](https://weblate.planb.network/projects/planb-network-website/):
 
 ![language](assets/01.webp)
 

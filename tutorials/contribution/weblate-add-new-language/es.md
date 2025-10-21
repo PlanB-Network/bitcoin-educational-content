@@ -16,7 +16,7 @@ En primer lugar, asegúrate de ponerte en contacto con el equipo de Plan ₿ Aca
 
 Para comprobar si tu idioma ya se encuentra entre aquellos en los que estamos trabajando.
 
-- Ve a [nuestra plataforma Weblate](https://weblate.planb.network/projects/Plan ₿ Academy-website/):
+- Ve a [nuestra plataforma Weblate](https://weblate.planb.network/projects/planb-network-website/):
 
 ![language](assets/01.webp)
 

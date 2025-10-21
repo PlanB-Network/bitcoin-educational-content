@@ -1,6 +1,6 @@
 ---
 name: Coinos
-description: Une application web simple qui permet d’envoyer, de recevoir et d'accepter des paiements Bitcoin.
+description: Une application web simple qui permet d’envoyer, de recevoir et d'accepter des paiements en bitcoins.
 ---
 ![cover](assets/cover.webp)
 
@@ -10,9 +10,9 @@ Dans un monde où les paiements deviennent de plus en plus numériques, Bitcoin 
 
 C’est là qu’entre en jeu Coinos, une plateforme conçue par Adam Soltys, un développeur web qui avait créé la première version pour aider les commerçants de sa région à accepter les paiements en Bitcoin.
 
-Coinos est une plateforme simple et intuitive, pensée pour une utilisation fluide. Elle permet d’envoyer, de recevoir et d’accepter des paiements en Bitcoin, Liquid ou Lightning, directement depuis ton navigateur, sans aucune installation technique. Accessible à tous, Coinos combine les avantages de Bitcoin avec la simplicité d’une application web (**Application Web Progressive**), idéale pour les particuliers, les commerçants et les curieux.
+Coinos est une plateforme simple et intuitive, pensée pour une utilisation fluide. Elle permet d’envoyer, de recevoir et d’accepter des paiements en Bitcoin, Liquid ou Lightning, directement depuis ton navigateur, sans aucune installation technique. Accessible à tous, Coinos combine les avantages de Bitcoin avec la simplicité d’une application web (*Progressive Web App*, ou PWA), idéale pour les particuliers, les commerçants et les curieux.
 
-Vidéo tutoriel
+***Tutoriel en version vidéo :***
 
 ![vidéo](https://youtu.be/GADLcQ4g8DU)
 
@@ -28,7 +28,7 @@ Rendez-vous sur le site web de [Coinos](https://coinos.io/) dans votre navigateu
 
 Entrez votre **Nom d'utilisateur** et un **Mot de passe**, puis cliquez sur **Enregistrer**. 
 
-!![screen|220](assets/fr/04.webp)
+![screen|220](assets/fr/04.webp)
 
 Vous serez ensuite redirigé vers l'interface principale du portefeuille. Que ce soit sur votre ordinateur ou sur votre smartphone, l'interface demeure la même. 
 
@@ -37,47 +37,45 @@ Vous serez ensuite redirigé vers l'interface principale du portefeuille. Que ce
 ![screen](assets/fr/06.webp)
 
 En haut, au-dessus de votre avatar, vous avez l'icône de l'interface :
- 1. **principale**
+- **principale**
 
 ![screen|220](assets/fr/07.webp)
 
- 2. **de réception**
+- **de réception**
 
 ![screen|220](assets/fr/08.webp)
 
- 2.  **de l'historique des transactions**
+- **de l'historique des transactions**
 
 ![screen|220](assets/fr/09.webp)
 
- 4.  **d'envoi**
+- **d'envoi**
 
 ![screen|220](assets/fr/10.webp)
 
- 5.  **du menu déroulant**
+- **du menu déroulant**
 
-  ![screen|220](assets/fr/11.webp)
+![screen|220](assets/fr/11.webp)
   
 Ensuite, vous avez
 - votre **avatar** ;
-- votre **nom d'utilisateur ;
+- votre **nom d'utilisateur** ;
 - un **petit menu déroulant** qui renferme votre adresse Lightning Coinos, une URL publique et un code de paiement (adresse LNURL) ;
 - et une icône **crayon** qui vous redirige vers le sous-menu **Compte**.
 
 ![screen|220](assets/fr/12.webp)
 
-Au milieu, vous avez les icônes **Recevoir** et **Envoyer**. 
-Juste au-dessus de l’icône **Recevoir**, le solde de votre portefeuille est affiché en Satoshi ainsi que dans la monnaie locale que vous avez sélectionnée.
+Au milieu, vous avez les icônes **Recevoir** et **Envoyer**. Juste au-dessus de l’icône **Recevoir**, le solde de votre portefeuille est affiché en Satoshi ainsi que dans la monnaie locale que vous avez sélectionnée.
 
-Dans les deux coins inférieurs gauche et droit, on retrouve respectivement le prix actuel d'un bitcoin dans la monnaie locale choisie et le nombre de Satoshi équivalant à une unité de compte libellée dans la monnaie locale choisie. 
+Dans les deux coins inférieurs gauche et droit, on retrouve respectivement le prix actuel d'un bitcoin dans la monnaie locale choisie et le nombre de satoshis équivalant à une unité de compte libellée dans la monnaie locale choisie. 
 
 ![screen|220](assets/fr/13.webp)
 
-Coinos, en tant que portefeuille web, n'est pas disponible sur le Play store ni sur l'App store. Toutefois, il existe une manière de l'installer. 
-Depuis votre navigateur, une fois sur Coinos, cliquez d'abord sur les **trois points** situés dans le coin supérieur de votre écran.
+Coinos, en tant que portefeuille web, n'est pas disponible sur le Play Store ni sur l'App Store. Toutefois, il existe une manière de l'installer. Depuis votre navigateur, une fois sur Coinos, cliquez d'abord sur les **trois points** situés dans le coin supérieur de votre écran.
 
 ![screen|220](assets/fr/14.webp)
 
-Ensuite sur **Ajouter à l'écran d'accueil**.
+Ensuite, sélectionnez **Ajouter à l'écran d'accueil**.
 
 ![screen|220](assets/fr/15.webp)
 
@@ -95,9 +93,9 @@ Cliquez sur le **bouton de l'interface du menu déroulant** puis sur **Préfére
 
 ![screen|220](assets/fr/18.webp)
 
-Dans **Préférences**, on retrouve (4) quatre sous-menus qui vous permettent de configurer votre portefeuille :
+Dans **Préférences**, on retrouve 4 sous-menus qui vous permettent de configurer votre portefeuille :
 
-1. **Compte**
+- **Compte**
 
 Dans ce sous-menu, vous avez la possibilité de modifier votre nom d'utilisateur, de définir un nouveau mot de passe, de changer votre avatar (image de profil), d'ajouter une photo de bannière et même une description.
 
@@ -105,19 +103,22 @@ Dans ce sous-menu, vous avez la possibilité de modifier votre nom d'utilisateur
 
 ![screen|220](assets/fr/20.webp)
 
-2. **Point de vente** 
-Ici, vous choisissez la langue, la monnaie locale, vous ajoutez un e-mail, activez les notifications selon votre convenance, voire connectez votre portefeuille à Square si vous êtes commerçant…
+- **Point de vente** 
+
+Ici, vous pouvez choisir la langue et la monnaie locale, renseigner votre adresse e-mail, activer les notifications selon vos préférences, et, si vous êtes commerçant, connecter votre portefeuille à Square pour faciliter vos paiements.
 
 ![screen|220](assets/fr/21.webp)
 
 ![screen|220](assets/fr/22.webp)
 
-3. **Nostr**
-Si vous disposez d'un compte sur Nostr, vous pouvez le connecter à votre compte Coinos, etc.
+- **Nostr**
+
+Si vous disposez d'un compte sur Nostr, vous pouvez le relier à votre compte Coinos.
 
 ![screen|220](assets/fr/23.webp)
 
-4. **Sécurité**
+- **Sécurité**
+
 Vous avez la possibilité d'activer un code de sécurité, d'activer l'authentification à deux facteurs, et même d'ajouter un autre compte dans ce sous-menu.
 
 ![screen|220](assets/fr/24.webp)
@@ -128,17 +129,15 @@ N'oubliez pas de cliquer sur **Sauvegarder les paramètres** à chaque fois que 
 
 Une fois votre configuration achevée, revenez sur l'interface principale en cliquant sur son **icône**.
 
-## Les Types de paiements Bitcoin Supportés
+## Les différents types de paiements en bitcoins
 
-Coinos supporte les transactions :
+Coinos prend en charge les transactions :
 
 - **Bitcoin sur la chaîne principale (on chain)** avec des formats d'adresse tels que SegWit, Taproot et Legacy ;
 - **Lightning** LNURL, Bolt 11 et Bolt 12 ;
--  et d'autres, notamment via le réseau **Liquid** et **Ecash**. 
+- et d'autres, notamment via le réseau **Liquid** et le protocole **Ecash**. 
 
 ![screen|220](assets/fr/26.webp)
-
-Pour rappel, **Ecash** (XEC) est un jeton issu du projet Bitcoin Cash ABC, lui-même issu d’un fork de Bitcoin Cash et rebaptisé Ecash quelques années plus tard.
 
 ## Recevoir des bitcoins
 
@@ -198,23 +197,19 @@ Votre **code QR** et votre **adresse Lightning personnalisés** sont à présent
 
 ![screen|220](assets/fr/39.webp)
 
-De plus, pour la réception par **Lightning**, vous avez la possibilité d’utiliser le petit menu déroulant de l'interface principale du portefeuille. Ce dernier vous fournit votre adresse Lightning… Vous le copiez ou switchez vers le code QR.
+Pour recevoir un paiement via **Lightning**, vous pouvez utiliser le petit menu déroulant présent sur l’interface principale du portefeuille. Celui-ci vous permet d’afficher votre adresse Lightning : vous pouvez alors la copier ou basculer vers son code QR pour la partager facilement.
 
 ![screen|220](assets/fr/40.webp) 
 
-Notez qu'à chaque fois que vous définissez un montant, quel que soit le réseau utilisé, Coinos vous met l'équivalent en satoshis.
-
+À chaque fois que vous saisissez un montant, quel que soit le réseau utilisé, Coinos affiche automatiquement son équivalent en satoshis.
 
 ## Envoyer des bitcoins 
 
-Si vous désirez envoyer des bitcoins depuis votre portefeuille Coinos, cliquez sur l'**icône de l'interface d'envoi**. Une fois sur l'interface, plusieurs options s'offrent à vous, notamment :
-1. Scannez un code QR généré par le récepteur.
-
-2. Collez une adresse copiée dans le presse-papiers. 
-
-3. Sélectionnez immédiatement dans la section **Contacts** le nom d'utilisateur de quelqu'un avec qui vous aviez l'habitude de réaliser des transactions.
-
-4. Tapez dans le champ dédié une adresse Bitcoin (on chain, Liquid, LN), une facture Lightning ou tapez le nom d'utilisateur Coinos de votre récepteur. 
+Si vous souhaitez envoyer des bitcoins depuis votre portefeuille Coinos, cliquez sur l’**icône d’envoi**. Une fois sur l’interface correspondante, plusieurs possibilités s’offrent à vous :
+- Scanner un code QR fourni par le destinataire ;
+- Coller une adresse copiée dans votre presse-papiers ;
+- Sélectionner directement, dans la section **Contacts**, le nom d’utilisateur d’une personne avec qui vous avez déjà effectué des transactions ;
+- Saisir dans le champ prévu une adresse Bitcoin (on-chain, Liquid ou Bolt LN), une invoice Lightning, ou encore le nom d’utilisateur Coinos de votre destinataire.
 
 ![screen|220](assets/fr/41.webp)
 
@@ -228,8 +223,7 @@ La dernière étape avant l'envoi consiste à vérifier les informations et à a
 
 ![screen|220](assets/fr/44.webp)
 
-Pour ajuster, appuyez sur le petit triangle puis choisissez vos frais de réseau en fonction de la vitesse de transaction voulue. Plus l'exécution de votre transaction est rapide, plus vous payez de frais de réseau. 
-Aussi, des frais de plateforme sont prélevés par Coinos. Lorsque tout est en ordre et selon votre convenance, appuyez sur **Envoyer**.
+Pour ajuster les frais, appuyez sur le petit triangle, puis sélectionnez le niveau de frais souhaité selon la rapidité d’exécution dont vous avez besoin. Plus la transaction doit être confirmée rapidement, plus les frais de réseau seront élevés. Notez également que Coinos prélève de petits frais de service. Une fois tous les paramètres vérifiés et ajustés selon vos préférences, cliquez sur **Envoyer**.
 
 ![screen|220](assets/fr/45.webp)
 
@@ -237,7 +231,8 @@ Bravo ! Votre envoi est effectué.
 
 ![screen|220](assets/fr/46.webp)
 
-Essayons maintenant un envoi entre utilisateurs Coinos. Envoyons 21 satoshis à Adam Soltys. Personnellement, il dispose d'une adresse Coinos unique (adam).
+Essayons à présent d’effectuer un envoi entre utilisateurs Coinos. Envoyons 21 satoshis à Adam Soltys, qui possède une adresse Coinos unique : *adam*.
+
 
 ![screen|220](assets/fr/47.webp)
 
@@ -245,13 +240,14 @@ Essayons maintenant un envoi entre utilisateurs Coinos. Envoyons 21 satoshis à 
 
 ![screen|220](assets/fr/49.webp)
 
-Vous pouvez aussi essayer de m'envoyer quelques satoshis via mon adresse Lightning Raimi@coinos.io.
+Vous pouvez aussi essayer de m'envoyer quelques satoshis via mon adresse Lightning : Raimi@coinos.io.
 
 Notons que les transactions entre utilisateurs Coinos sont exemptes de tout frais de plateforme.
 
 ## Historique des transactions 
 
 Pour voir l'historique de vos transactions, cliquez sur l'**icône de l'interface de l'historique des transactions**.
+
 Pour chaque transaction, les informations suivantes seront affichées : le montant, le réseau utilisé, ainsi que la date et l'heure. Tandis que le solde affiché sur l'interface principale du portefeuille est un solde unifié.
 
 ![screen|220](assets/fr/50.webp)
@@ -264,14 +260,14 @@ Pour chaque transaction, les informations suivantes seront affichées : le monta
 Sur Coinos, vous disposez de fonctionnalités supplémentaires au nombre desquelles nous pouvons citer :
 
 - La **Carte des commerçants**
-Coinos intègre dans son portefeuille une carte des commerçants qu'il a activés. Tous ces commerçants répertoriés par Coinos acceptent Bitcoin comme moyen de paiement, notamment via leur portefeuille Coinos.
-Pour visionner les commerces enregistrés, cliquez sur l'icône du **menu déroulant**, puis sur **Carte**. Vous accédez alors à la liste des commerces et de leur emplacement dans le monde. 
+
+Coinos intègre dans son portefeuille une carte recensant les commerçants qui utilisent la plateforme. Tous les établissements répertoriés y acceptent les paiements en Bitcoin, notamment via leur portefeuille Coinos. Pour afficher cette carte, cliquez sur l’icône du **menu déroulant**, puis sélectionnez **Carte**. Vous verrez alors la liste des commerces ainsi que leur emplacement à travers le monde.
 
 ![screen|220](assets/fr/52.webp)
 
 ![screen|220](assets/fr/53.webp)
 
-Lorsque vous cliquez sur un commerce, vous verrez son étiquette et en cliquant sur l'étiquette, vous accéderez à son profil Coinos. Ce qui vous permet de payer vos achats dans ce commerce grâce à Coinos. 
+Lorsque vous cliquez sur un commerce, vous verrez son étiquette et en cliquant sur l'étiquette, vous accéderez à son profil Coinos. Cela vous permet de payer vos achats dans ce commerce grâce à Coinos.
 
 ![screen|220](assets/fr/54.webp)
 
@@ -279,10 +275,9 @@ Lorsque vous cliquez sur un commerce, vous verrez son étiquette et en cliquant 
 
 - **Assistance** 
 
-Pour toutes difficultés rencontrées dans l'utilisation de Coinos, vous pouvez :
-1. soit remplir un formulaire directement dans l'application pour soumettre vos préoccupations 
-2. soit écrire directement un courriel à 
-support@coinos.io.
+Pour toute difficulté rencontrée dans l'utilisation de Coinos, vous pouvez :
+1. soit remplir un formulaire directement dans l'application pour soumettre vos préoccupations,
+2. soit écrire directement un courriel à support@coinos.io.
 
 Pour accéder à ce menu, cliquez sur l'icône du menu déroulant puis sur **Assistance**.
 
@@ -294,20 +289,13 @@ Pour accéder à ce menu, cliquez sur l'icône du menu déroulant puis sur **Ass
 
 La sécurité est un point essentiel quand on dépense des bitcoins. Même si Coinos rend l’expérience simple et fluide, il est important de protéger ses bitcoins.
 
-1. Utilisez un mot de passe solide 
-Choisissez toujours un mot de passe unique, long et difficile à deviner.
+- Utilisez un mot de passe fort : Choisissez toujours un mot de passe unique, long et difficile à deviner.
+- Activez la double authentification (2FA).
+- Gardez vos identifiants privés : ne partagez jamais votre mot de passe avec qui que ce soit. Coinos ne vous le demandera jamais, ni par message, ni par e-mail.
+- Ne stockez pas de grosses sommes sur l’instance hébergée : Coinos est pratique pour les paiements quotidiens, mais reste une solution custodial. Gardez seulement ce dont vous avez besoin pour vos transactions courantes. Pour des montants importants, optez pour un portefeuille non custodial.
 
-2. Activez la double authentification (2FA).
+Je vous remercie d'avoir lu cet article jusqu'à la fin. Si ce tutoriel vous a été utile, merci de me laisser un pouce vert ci-dessous. N'hésitez pas à le partager. Merci infiniment !
 
-3. Gardez vos identifiants privés 
-Ne partagez jamais votre mot de passe avec quelqu’un d’autre. Coinos ne les demandera jamais par message ou email.
-
-4. Ne stockez pas de grosses sommes sur l’instance hébergée
-Coinos est pratique pour les paiements quotidiens, mais reste une solution custodial.
-Gardez seulement ce dont vous avez besoin pour vos transactions courantes. Pour des montants importants, optez pour un portefeuille non custodial.
-
-Je vous remercie d'avoir lu cet article jusqu'à la fin. Si ce tutoriel vous a été utile, merci de me laisser un pouce vert ci-dessous. N'hésitez pas à les partager, si vous avez des apports.
-Merci infiniment!
-Je vous suggère de découvrir ce tutoriel sur Aqua. Il s'agit également d'un portefeuille, à l'instar de Coinos qui supporte Bitcoin, Liquid et Lightning.
+Je vous suggère de découvrir ce tutoriel sur Aqua. Il s'agit également d'un portefeuille, à l'instar de Coinos qui prend en charge Bitcoin, Liquid et Lightning.
 
 https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125

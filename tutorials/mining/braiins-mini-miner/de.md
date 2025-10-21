@@ -6,7 +6,7 @@ description: Mining einfach von zu Hause aus herstellen.
 
 
 
-### Einführung
+## Einführung
 
 
 
@@ -18,7 +18,7 @@ Viele weitere wichtige Informationen finden Sie auch in der vollständigen Anlei
 
 
 
-### Überblick über BMM 100
+## Überblick über BMM 100
 
 
 
@@ -46,7 +46,7 @@ auf der Rückseite befinden sich: die Öffnung für den Stromanschluss, Platz f�
 
 
 
-### Anschließen des Mini Miner
+## Anschließen des Mini Miner
 
 
 
@@ -54,7 +54,7 @@ Sie müssen das Gerät über Ethernet mit dem Internet verbinden. Beachten Sie, 
 
 
 
-### Konfiguration
+## Konfiguration
 
 
 
@@ -74,7 +74,7 @@ Um sich anzumelden, müssen Sie `root` als Benutzernamen eingeben, während Sie 
 
 
 
-### Allgemeine Einstellungen
+## Allgemeine Einstellungen
 
 
 
@@ -110,7 +110,7 @@ Wenn Sie die Änderungen vorgenommen haben, klicken Sie auf "Änderungen speiche
 
 
 
-### Anschluss an Mining pool
+## Anschluss an Mining pool
 
 
 
@@ -142,7 +142,7 @@ Die zweite Möglichkeit besteht darin, uns mit einem Mining pool zu verbinden, d
 
 https://planb.network/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-#### Braiins Pool
+### Braiins Pool
 
 
 
@@ -236,7 +236,7 @@ wenn Sie zurück zum Dashboard gehen, sollten Sie anfangen, Bewegung auf dem Dia
 
 
 
-#### Öffentliches Schwimmbad
+### Öffentliches Schwimmbad
 
 
 

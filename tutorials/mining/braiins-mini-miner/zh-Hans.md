@@ -6,7 +6,7 @@ description: 在家轻松制作 Mining。
 
 
 
-### 导言
+## 导言
 
 
 
@@ -18,7 +18,7 @@ description: 在家轻松制作 Mining。
 
 
 
-### BMM 100概览
+## BMM 100概览
 
 
 
@@ -46,7 +46,7 @@ description: 在家轻松制作 Mining。
 
 
 
-### 连接迷你 Miner
+## 连接迷你 Miner
 
 
 
@@ -54,7 +54,7 @@ description: 在家轻松制作 Mining。
 
 
 
-### 配置
+## 配置
 
 
 
@@ -74,7 +74,7 @@ description: 在家轻松制作 Mining。
 
 
 
-### 常规设置
+## 常规设置
 
 
 
@@ -110,7 +110,7 @@ description: 在家轻松制作 Mining。
 
 
 
-### 与 Mining pool 连接
+## 与 Mining pool 连接
 
 
 
@@ -142,7 +142,7 @@ https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a
 
 https://planb.network/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-#### 布雷恩斯游泳池
+### 布雷恩斯游泳池
 
 
 
@@ -236,7 +236,7 @@ https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a
 
 
 
-#### 公共游泳池
+### 公共游泳池
 
 
 

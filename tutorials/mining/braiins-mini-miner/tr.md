@@ -6,7 +6,7 @@ description: Evden kolayca Mining yapmak.
 
 
 
-### Giriş
+## Giriş
 
 
 
@@ -18,7 +18,7 @@ Ayrıca, doğrudan [üreticinin sitesi] (https://braiins.com/hardware/mini-Miner
 
 
 
-### BMM 100'e Genel Bakış
+## BMM 100'e Genel Bakış
 
 
 
@@ -46,7 +46,7 @@ arka tarafta ise: güç için delik, SD kart için alan (herhangi bir güncellem
 
 
 
-### Mini Miner'in Bağlanması
+## Mini Miner'in Bağlanması
 
 
 
@@ -54,7 +54,7 @@ Cihazı ethernet üzerinden internete bağlamanız gerekecektir, yeni sürümle 
 
 
 
-### Konfigürasyon
+## Konfigürasyon
 
 
 
@@ -74,7 +74,7 @@ Giriş yapmak için kullanıcı adı olarak `root` girmeniz gerekecek, şifreyi 
 
 
 
-### Genel ayarlar
+## Genel ayarlar
 
 
 
@@ -110,7 +110,7 @@ Değişiklikleri yaptıktan sonra `Değişiklikleri Kaydet` seçeneğine tıklad
 
 
 
-### Mining pool'ye Bağlantı
+## Mining pool'ye Bağlantı
 
 
 
@@ -142,7 +142,7 @@ https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a
 
 https://planb.network/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-#### Braiins Havuz
+### Braiins Havuz
 
 
 
@@ -236,7 +236,7 @@ gösterge tablosuna geri dönerseniz grafikte hareket görmeye başlamalı ve ci
 
 
 
-#### Halka Açık Havuz
+### Halka Açık Havuz
 
 
 

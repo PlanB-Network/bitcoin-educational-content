@@ -6,7 +6,7 @@ description: Сделать Mining легко, не выходя из дома.
 
 
 
-### Введение
+## Введение
 
 
 
@@ -18,7 +18,7 @@ description: Сделать Mining легко, не выходя из дома.
 
 
 
-### Обзор BMM 100
+## Обзор BMM 100
 
 
 
@@ -46,7 +46,7 @@ description: Сделать Mining легко, не выходя из дома.
 
 
 
-### Подключение Mini Miner
+## Подключение Mini Miner
 
 
 
@@ -54,7 +54,7 @@ description: Сделать Mining легко, не выходя из дома.
 
 
 
-### Конфигурация
+## Конфигурация
 
 
 
@@ -74,7 +74,7 @@ description: Сделать Mining легко, не выходя из дома.
 
 
 
-### Общие настройки
+## Общие настройки
 
 
 
@@ -110,7 +110,7 @@ description: Сделать Mining легко, не выходя из дома.
 
 
 
-### Соединение с Mining pool
+## Соединение с Mining pool
 
 
 
@@ -142,7 +142,7 @@ https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a
 
 https://planb.network/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-#### Бассейн Braiins
+### Бассейн Braiins
 
 
 
@@ -236,7 +236,7 @@ https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a
 
 
 
-#### Общественный бассейн
+### Общественный бассейн
 
 
 

@@ -6,7 +6,7 @@ description: Łatwe tworzenie Mining z domu.
 
 
 
-### Wprowadzenie
+## Wprowadzenie
 
 
 
@@ -18,7 +18,7 @@ Znacznie więcej ważnych informacji można również znaleźć w kompletnym prz
 
 
 
-### Przegląd BMM 100
+## Przegląd BMM 100
 
 
 
@@ -46,7 +46,7 @@ natomiast z tyłu mamy: otwór na zasilanie, miejsce na kartę SD (która może 
 
 
 
-### Podłączanie Mini Miner
+## Podłączanie Mini Miner
 
 
 
@@ -54,7 +54,7 @@ Konieczne będzie podłączenie urządzenia do Internetu przez Ethernet, należy
 
 
 
-### Konfiguracja
+## Konfiguracja
 
 
 
@@ -74,7 +74,7 @@ Aby się zalogować, należy wpisać `root` jako nazwę użytkownika, natomiast 
 
 
 
-### Ustawienia ogólne
+## Ustawienia ogólne
 
 
 
@@ -110,7 +110,7 @@ Po wprowadzeniu zmian kliknij przycisk `Zapisz zmiany`, a zmiany zostaną wyświ
 
 
 
-### Połączenie z Mining pool
+## Połączenie z Mining pool
 
 
 
@@ -142,7 +142,7 @@ Drugą opcją jest podłączenie nas do Mining pool, który mina w solo, jak Pub
 
 https://planb.network/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-#### Basen Braiins
+### Basen Braiins
 
 
 
@@ -236,7 +236,7 @@ jeśli wrócisz do pulpitu nawigacyjnego, powinieneś zacząć widzieć ruch na 
 
 
 
-#### Basen publiczny
+### Basen publiczny
 
 
 

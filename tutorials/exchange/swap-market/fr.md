@@ -7,7 +7,7 @@ description: Agrégateur de services de swaps Bitcoin et Lightning
 
 Transférer des fonds entre Bitcoin on-chain et Lightning Network nécessite généralement soit l'ouverture manuelle de canaux Lightning (technique et coûteuse), soit le recours à des plateformes d'échange centralisées avec KYC. SwapMarket offre une alternative : des swaps atomiques trustless via des providers compétitifs, sans KYC.
 
-L'innovation : bien que les providers soient des intermédiaires, les HTLC (Hash Time Locked Contracts) garantissent mathématiquement que vos fonds restent sous votre contrôle. L'agrégation de plusieurs providers (Boltz, ZEUS Swaps, Eldamar, Middle Way) crée une compétition tarifaire. Interface web open-source self-hostable.
+L'innovation : bien que les providers soient des intermédiaires, les HTLC (*Hash Time Locked Contracts*) garantissent mathématiquement que vos fonds restent sous votre contrôle. L'agrégation de plusieurs providers (Boltz, ZEUS Swaps, Eldamar, Middle Way) crée une compétition tarifaire. Interface web open-source self-hostable.
 
 ## Qu'est-ce que SwapMarket ?
 

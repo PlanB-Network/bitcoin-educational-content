@@ -3,6 +3,7 @@ name: Coinos
 description: Une application web simple qui permet d’envoyer, de recevoir et d'accepter des paiements Bitcoin.
 ---
 ![cover](assets/cover.webp)
+
 ## Introduction
 
 Dans un monde où les paiements deviennent de plus en plus numériques, Bitcoin s’impose progressivement comme une alternative. Pourtant, pour beaucoup de novices, gérer un portefeuille ou accepter des paiements Bitcoin peut sembler compliqué.
@@ -310,4 +311,3 @@ Merci infiniment!
 Je vous suggère de découvrir ce tutoriel sur Aqua. Il s'agit également d'un portefeuille, à l'instar de Coinos qui supporte Bitcoin, Liquid et Lightning.
 
 https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
-

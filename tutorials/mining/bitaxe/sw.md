@@ -26,7 +26,7 @@ Kuna matoleo kadhaa ya BitAxe, yenye chips tofauti na maonyesho:
 Katika somo hili, tutakuwa tukitumia BitAxe Ultra 204 iliyo na chipu ya BM1366, inayotumika kwa Antminer S19XP. Hii tayari imekusanywa na kuangaza na muuzaji.
 
 
-### [Orodha ya wauzaji reja reja inapatikana kwenye ukurasa huu](https://bitaxe.org/legit.html)
+[Orodha ya wauzaji inapatikana kwenye ukurasa huu](https://bitaxe.org/legit.html)
 
 
 ![signup](assets/2.webp)

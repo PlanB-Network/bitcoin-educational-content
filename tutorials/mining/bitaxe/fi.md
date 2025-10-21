@@ -20,7 +20,7 @@ BitAxesta on useita versioita, joissa on erilaisia piirejä ja suorituskykyjä:
 
 Tässä oppaassa käytämme BitAxe Ultra 204 -mallia, jossa on BM1366-piiri, käytössä Antminer S19XP:ssä. Tämä yksikkö on jo koottu ja ohjelmoitu myyjän toimesta.
 
-### [Jälleenmyyjien lista on saatavilla tällä sivulla](https://bitaxe.org/legit.html)
+[Jälleenmyyjien luettelo on saatavilla tällä sivulla](https://bitaxe.org/legit.html)
 
 ![signup](assets/2.webp)
 

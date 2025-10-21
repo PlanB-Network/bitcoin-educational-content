@@ -20,7 +20,7 @@ Det finnes flere versjoner av BitAxe, med forskjellige brikker og ytelse:
 
 I denne veiledningen vil vi bruke en BitAxe Ultra 204 utstyrt med en BM1366-brikke, brukt for Antminer S19XP. Denne er allerede montert og flashet av forhandleren.
 
-### [Listen over forhandlere er tilgjengelig på denne siden](https://bitaxe.org/legit.html)
+[Listen over forhandlere er tilgjengelig på denne siden](https://bitaxe.org/legit.html)
 
 ![signup](assets/2.webp)
 

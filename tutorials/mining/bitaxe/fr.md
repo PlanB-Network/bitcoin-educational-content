@@ -21,7 +21,7 @@ Il existe plusieurs versions du BitAxe, avec différentes puces et performances 
 
 Dans ce tutoriel, nous utiliserons un BitAxe Ultra 204 équipé d'une puce BM1366, utilisée pour les Antminer S19XP. Celui-ci est déjà monté et flashé par le revendeur.
 
-### [La liste des revendeurs est disponible sur cette page](https://bitaxe.org/legit.html)
+[La liste des revendeurs est disponible sur cette page](https://bitaxe.org/legit.html)
 
 ![signup](assets/2.webp)
 

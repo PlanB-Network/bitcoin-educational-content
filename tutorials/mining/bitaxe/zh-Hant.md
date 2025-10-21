@@ -26,7 +26,7 @@ BitAxe 有多個版本，晶片和效能各不相同：
 在本教程中，我們將使用配備 BM1366 晶片的 BitAxe Ultra 204，用於 Antminer S19XP。這顆晶片已經由零售商組裝好並開機。
 
 
-### [零售商清單可在本頁取得](https://bitaxe.org/legit.html)
+[經銷商清單可在此頁面上查看](https://bitaxe.org/legit.html)
 
 
 ![signup](assets/2.webp)

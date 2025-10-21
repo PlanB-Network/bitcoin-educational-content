@@ -26,7 +26,7 @@ Postoji nekoliko verzija BitAxe-a, sa različitim čipovima i performansama:
 U ovom vodiču ćemo koristiti BitAxe Ultra 204 opremljen BM1366 čipom, koji se koristi za Antminer S19XP. Ovaj je već sastavljen i flešovan od strane prodavca.
 
 
-### [Spisak prodavaca je dostupan na ovoj stranici](https://bitaxe.org/legit.html)
+[Spisak prodavaca je dostupan na ovoj stranici](https://bitaxe.org/legit.html)
 
 
 ![signup](assets/2.webp)

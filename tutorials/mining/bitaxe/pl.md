@@ -26,7 +26,7 @@ Istnieje kilka wersji BitAxe, z różnymi chipami i wydajnością:
 W tym samouczku będziemy używać BitAxe Ultra 204 wyposażonego w układ BM1366, używany w Antminer S19XP. Ten jest już zmontowany i sflashowany przez sprzedawcę.
 
 
-### [Lista sprzedawców jest dostępna na tej stronie](https://bitaxe.org/legit.html)
+[Lista sprzedawców jest dostępna na tej stronie](https://bitaxe.org/legit.html)
 
 
 ![signup](assets/2.webp)

@@ -27,7 +27,7 @@ Hariho verisiyo nyinshi za BitAxe, zifise ibice bitandukanye n’imikorere:
 Muri iyi nyigisho, tuzoba turiko turakoresha BitAxe Ultra 204 ifise igice c’umubiri citwa BM1366, gikoreshwa ku gikoresho citwa Antminer S19XP. Iyi iramaze gukoranirizwa hamwe no guca ibibatsi n’umucuruzi.
 
 
-### [Urutonde rw'abagurisha ruraboneka kuri iyi paji]
+[Urutonde rw’abacuruzi ruri kuri uru rupapuro](https://bitaxe.org/legit.html)
 
 
 ![signup](assets/2.webp)

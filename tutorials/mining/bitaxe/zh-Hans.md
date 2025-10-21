@@ -20,7 +20,7 @@ BitAxe有几个版本，芯片和性能各不相同：
 
 在本教程中，我们将使用配备BM1366芯片的BitAxe Ultra 204，用于Antminer S19XP。这个已经由零售商组装和刷新。
 
-### [零售商列表可在此页面上找到](https://bitaxe.org/legit.html)
+[经销商列表可在此页面上查看](https://bitaxe.org/legit.html)
 
 ![signup](assets/2.webp)
 

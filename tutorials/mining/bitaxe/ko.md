@@ -27,7 +27,7 @@ BitAxe에는 다양한 칩과 성능을 갖춘 여러 버전이 있습니다:
 이 튜토리얼에서는 Antminer S19XP에 사용되는 BM1366 칩이 장착된 BitAxe Ultra 204를 사용하겠습니다. 이 제품은 소매점에서 이미 조립 및 플래싱된 제품입니다.
 
 
-### [소매업체 목록은 이 페이지에서 확인할 수 있습니다](https://bitaxe.org/legit.html)
+[리셀러 목록은 이 페이지에서 확인할 수 있습니다](https://bitaxe.org/legit.html)
 
 
 ![signup](assets/2.webp)

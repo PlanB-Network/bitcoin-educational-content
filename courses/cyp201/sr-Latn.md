@@ -1854,7 +1854,7 @@ Na primer, za entropiju od 256 bita, rezultat $\text{ENT} \Vert \text{CS}$ je 26
 ### Pretvaranje binarnog niza u bezbednosnu frazu
 
 
-Bit sekvenca $\text{ENT} \Vert \text{CS}$ se zatim deli na segmente od 11 bita. Svaki segment od 11 bita, kada se konvertuje u decimalni oblik, odgovara broju između 0 i 2047, koji označava poziciju reči [u listi od 2048 reči standardizovanih od strane BIP39](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
+Bit sekvenca $\text{ENT} \Vert \text{CS}$ se zatim deli na segmente od 11 bita. Svaki segment od 11 bita, kada se konvertuje u decimalni oblik, odgovara broju između 0 i 2047, koji označava poziciju reči [u listi od 2048 reči standardizovanih od strane BIP39](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
 
 ![CYP201](assets/en/042.webp)

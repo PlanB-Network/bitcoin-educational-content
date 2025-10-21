@@ -45,7 +45,7 @@ On olemas palju tarkvara, mis on spetsialiseerunud Markdown-failide redigeerimis
 
 ## 3. samm: Tee Plan ₿ Academy repositoriost fork
 
-- Mine Plan ₿ Academy andmerepositori aadressile: [https://github.com/Plan ₿ Academy/bitcoin-educational-content](https://github.com/Plan ₿ Academy/bitcoin-educational-content): ![github-desktop](assets/10.webp)
+- Mine Plan ₿ Academy andmerepositori aadressile: [https://github.com/PlanB-Network/bitcoin-educational-content](https://github.com/PlanB-Network/bitcoin-educational-content): ![github-desktop](assets/10.webp)
 - Sellelt lehelt klõpsa akna paremas ülanurgas asuval `Fork` nupul: ![github-desktop](assets/11.webp)
 - Loomismenüüs võid jätta vaikeseaded. Veendu, et `Copy the dev branch only` kast on märgitud, seejärel klõpsa `Create fork` nupul: ![github-desktop](assets/12.webp)
 - Seejärel jõuad oma Plan ₿ Academy repositori forki: ![github-desktop](assets/13.webp)

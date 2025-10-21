@@ -77,7 +77,7 @@ Markdown dosyalarını düzenlemek için özel olarak tasarlanmış Typora gibi 
 
 
 
-- Aşağıdaki Address adresinden Plan ₿ Academy veri havuzuna gidin: [https://github.com/Plan ₿ Academy/Bitcoin-educational-content](https://github.com/Plan ₿ Academy/Bitcoin-educational-content): ![github-desktop](assets/10.webp)
+- Aşağıdaki Address adresinden Plan ₿ Academy veri havuzuna gidin: [https://github.com/PlanB-Network/Bitcoin-educational-content](https://github.com/PlanB-Network/Bitcoin-educational-content): ![github-desktop](assets/10.webp)
 - Bu sayfadan, pencerenin sağ üst köşesindeki `Fork` düğmesine tıklayın: ![github-desktop](assets/11.webp)
 - Oluşturma menüsünde varsayılan ayarları bırakabilirsiniz. Yalnızca geliştirme dalını kopyala` kutusunun işaretli olduğundan emin olun, ardından `Fork Oluştur` düğmesine tıklayın: ![github-desktop](assets/12.webp)
 - Daha sonra Plan ₿ Academy deposunun kendi Fork'inize ulaşacaksınız: ![github-desktop](assets/13.webp)

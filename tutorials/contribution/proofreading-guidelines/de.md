@@ -9,7 +9,7 @@ description: Was sind die wichtigen Faktoren, die beim Korrekturlesen auf Plan �
 Willkommen zu diesem Tutorial über die **Richtlinien für das Korrekturlesen von Inhalten auf Plan ₿ Academy**. Wir freuen uns, dass Sie unsere Mission teilen, Bitcoin-Materialien in so viele Sprachen wie möglich zu übersetzen, um den Menschen zu helfen, ein Bewusstsein dafür zu entwickeln, wie es funktioniert und wie es in ihrem täglichen Leben genutzt werden kann.
 
 
-Zunächst einmal haben Sie durch Ihre Mitarbeit am Plan ₿ Academy [public repository](https://github.com/Plan ₿ Academy/Bitcoin-educational-content) die Möglichkeit, Tutorials zu schreiben, den vorhandenen Inhalt zu korrigieren oder sogar die Aufnahme einer neuen Sprache in die Plattform vorzuschlagen. Um mehr zu erfahren, treten Sie zunächst unserer [Telegram-Gruppe](https://t.me/PlanBNetwork_ContentBuilder) bei und stellen Sie sich und die Sprachen, die Sie sprechen, kurz vor.
+Zunächst einmal haben Sie durch Ihre Mitarbeit am Plan ₿ Academy [public repository](https://github.com/PlanB-Network/Bitcoin-educational-content) die Möglichkeit, Tutorials zu schreiben, den vorhandenen Inhalt zu korrigieren oder sogar die Aufnahme einer neuen Sprache in die Plattform vorzuschlagen. Um mehr zu erfahren, treten Sie zunächst unserer [Telegram-Gruppe](https://t.me/PlanBNetwork_ContentBuilder) bei und stellen Sie sich und die Sprachen, die Sie sprechen, kurz vor.
 
 
 Das vorliegende Tutorial ist denjenigen gewidmet, die Inhalte Korrektur lesen wollen. Die meisten von ihnen wissen nicht viel über [Github] (https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) oder die [Markdown-Sprache] (https://www.markdownguide.org/basic-syntax/), die wir innerhalb des Repositorys verwenden, daher ist es wichtig, einige Einblicke in die Schlüsselfaktoren dieser Aufgabe zu geben.
@@ -289,7 +289,7 @@ Wenn Sie Ihre PR senden, wäre es toll, wenn Sie sie in diesem Format benennen w
 
 Außerdem können Sie in den **Kommentarteil des PR** "schließt" + die Nummer der Ausgabe, die der Koordinator Ihnen zu Beginn der Korrekturleseaufgabe übermittelt hat, mit vorangestelltem ``#`` schreiben.
 
-Wenn Sie zum Beispiel gerade eine PR mit der Korrektur von cyp201 + Quiz geschickt haben, können Sie schreiben "schließt [#2934](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/issues/2934)".
+Wenn Sie zum Beispiel gerade eine PR mit der Korrektur von cyp201 + Quiz geschickt haben, können Sie schreiben "schließt [#2934](https://github.com/PlanB-Network/Bitcoin-educational-content/issues/2934)".
 
 
 Auf diese Weise werden der PR und das Problem miteinander verbunden, und jeder, der das öffentliche Github-Repository liest, kann leicht Informationen finden.

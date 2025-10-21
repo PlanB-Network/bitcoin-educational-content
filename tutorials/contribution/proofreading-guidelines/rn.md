@@ -9,7 +9,7 @@ description: Ni ibihe bintu bihambaye umuntu akwiye kuguma yibuka igihe ariko ar
 Ikaze muri iyi nyigisho yerekeye **amabwirizwa yo gukurikiza igihe usoma ibirimwo kuri Plan ₿ Academy**. Turanezerewe ko musangira ubutumwa bwacu bwo guhindura ibikoresho vya Bitcoin mu ndimi nyinshi zishoboka, kugira ngo dufashe abantu kumenya ingene bikora n’ingene bishobora gukoreshwa mu buzima bwabo bwa misi yose.
 
 
-Mbere na mbere, gutanga umusanzu kuri Plan ₿ Academy [ububiko bwa bose](https://github.com/Plan ₿ Academy/Bitcoin-ibirimwo-ivy’inyigisho) biguha amahirwe yo kwandika inyigisho, gukosora ibirimwo, canke mbere gusaba ko hokwongerwa ururimi rushasha ku rubuga. Kugira ngo umenye vyinshi, banza winjire muri [Itsinda rya Telegaramu](https://t.me/PlanBNetwork_ContentBuilder) ryacu, maze wandike ikiganiro kigufi ku bijanye nawe n’indimi ushobora kuvuga.
+Mbere na mbere, gutanga umusanzu kuri Plan ₿ Academy [ububiko bwa bose](https://github.com/PlanB-Network/Bitcoin-ibirimwo-ivy’inyigisho) biguha amahirwe yo kwandika inyigisho, gukosora ibirimwo, canke mbere gusaba ko hokwongerwa ururimi rushasha ku rubuga. Kugira ngo umenye vyinshi, banza winjire muri [Itsinda rya Telegaramu](https://t.me/PlanBNetwork_ContentBuilder) ryacu, maze wandike ikiganiro kigufi ku bijanye nawe n’indimi ushobora kuvuga.
 
 
 Iyi nyigisho igenewe abatanga intererano bashaka gukosora ibirimwo. Benshi muri bo ntibazi vyinshi ku vyerekeye [Github](https://planb.academy/ru/inyigisho/intererano/abandi/gukora-konti-ya-github-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) canke [Markdown ururimi](https://www.markdownguide.org/basic-syntax/) dukoresha imbere mu bubiko, rero birahambaye ko dusangira ubumenyi bumwe bumwe ku bintu nyamukuru biri muri iki gikorwa.

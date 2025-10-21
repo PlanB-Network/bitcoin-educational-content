@@ -9,7 +9,7 @@ description: Jakie są ważne czynniki, o których należy pamiętać podczas ko
 Witamy w tym samouczku dotyczącym **wytycznych, których należy przestrzegać podczas korekty treści na Plan ₿ Academy**. Cieszymy się, że podzielasz naszą misję tłumaczenia materiałów Bitcoin w jak największej liczbie języków, aby pomóc ludziom zdobyć wiedzę na temat tego, jak działa i jak można go używać w codziennym życiu.
 
 
-Przede wszystkim, współtworzenie Plan ₿ Academy [publiczne repozytorium](https://github.com/Plan ₿ Academy/Bitcoin-educational-content) daje ci szansę na pisanie samouczków, korektę istniejących treści, a nawet zaproponowanie dodania nowego języka do platformy. Aby dowiedzieć się więcej, dołącz najpierw do naszej [grupy Telegram](https://t.me/PlanBNetwork_ContentBuilder) i napisz krótką prezentację o sobie i językach, którymi potrafisz się posługiwać.
+Przede wszystkim, współtworzenie Plan ₿ Academy [publiczne repozytorium](https://github.com/PlanB-Network/Bitcoin-educational-content) daje ci szansę na pisanie samouczków, korektę istniejących treści, a nawet zaproponowanie dodania nowego języka do platformy. Aby dowiedzieć się więcej, dołącz najpierw do naszej [grupy Telegram](https://t.me/PlanBNetwork_ContentBuilder) i napisz krótką prezentację o sobie i językach, którymi potrafisz się posługiwać.
 
 
 Niniejszy samouczek jest przeznaczony dla współpracowników, którzy chcą dokonać korekty treści. Większość z nich nie wie zbyt wiele o [Github](https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) lub [języku Markdown](https://www.markdownguide.org/basic-syntax/), którego używamy w repozytorium, więc ważne jest, aby podzielić się kilkoma spostrzeżeniami na temat kluczowych czynników związanych z tym zadaniem.
@@ -289,7 +289,7 @@ Kiedy wysyłasz swój PR, byłoby wspaniale, gdybyś nazwał go w tym formacie: 
 
 Poza tym, w sekcji **komentarza PR** możesz wpisać "zamyka" + numer sprawy, którą koordynator wysłał ci, gdy rozpocząłeś zadanie korekty, poprzedzony ``#``.
 
-Na przykład, jeśli właśnie wysłałeś PR z korektą cyp201 + quizy, możesz napisać "zamyka [#2934](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/issues/2934)".
+Na przykład, jeśli właśnie wysłałeś PR z korektą cyp201 + quizy, możesz napisać "zamyka [#2934](https://github.com/PlanB-Network/Bitcoin-educational-content/issues/2934)".
 
 
 W ten sposób PR i wydanie zostaną połączone, a każdy, kto czyta publiczne repozytorium Github, może łatwo znaleźć informacje.

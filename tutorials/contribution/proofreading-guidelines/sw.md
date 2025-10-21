@@ -9,7 +9,7 @@ description: Ni mambo gani muhimu ya kuzingatia wakati wa kusahihisha kwenye Pla
 Karibu kwenye mafunzo haya kuhusu **miongozo ya kufuata wakati wa kusahihisha maudhui kwenye Plan ₿ Academy**. Tunafurahi kwamba unashiriki dhamira yetu ya kutafsiri nyenzo za Bitcoin katika lugha nyingi iwezekanavyo, ili kuwasaidia watu kupata ufahamu kuhusu jinsi inavyofanya kazi na jinsi inavyoweza kutumika katika maisha yao ya kila siku.
 
 
-Kwanza kabisa, kuchangia kwenye Plan ₿ Academy [hadhi ya umma](https://github.com/Plan ₿ Academy/Bitcoin-educational-content) hukupa fursa ya kuandika mafunzo, kusahihisha maudhui yaliyopo, au hata kupendekeza kuongezwa kwa lugha mpya kwenye jukwaa. Ili kujua zaidi, jiunge na [Telegram Group](https://t.me/PlanBNetwork_ContentBuilder) kwanza, na uandike wasilisho fupi kukuhusu wewe na lugha unazoweza kuzungumza.
+Kwanza kabisa, kuchangia kwenye Plan ₿ Academy [hadhi ya umma](https://github.com/PlanB-Network/Bitcoin-educational-content) hukupa fursa ya kuandika mafunzo, kusahihisha maudhui yaliyopo, au hata kupendekeza kuongezwa kwa lugha mpya kwenye jukwaa. Ili kujua zaidi, jiunge na [Telegram Group](https://t.me/PlanBNetwork_ContentBuilder) kwanza, na uandike wasilisho fupi kukuhusu wewe na lugha unazoweza kuzungumza.
 
 
 Mafunzo ya sasa yametolewa kwa wachangiaji ambao wanataka kusahihisha maudhui. Wengi wao hawajui mengi kuhusu [Github](https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) au [Lugha ya Markdown](https://icde.org/use//tumia lugha ya Markdown). hazina, kwa hivyo ni muhimu kushiriki maarifa fulani juu ya vipengele muhimu vinavyohusika katika kazi hii.
@@ -289,7 +289,7 @@ Unapotuma PR yako, itashangaza ikiwa utaipa jina ukitumia umbizo hili: [PROOFREA
 
 Kando na hilo, katika **sehemu ya maoni ya PR**, unaweza kuandika "kufunga" + nambari ya suala ambalo mratibu alikutumia ulipoanza kazi ya kusahihisha, ikitanguliwa na ``#``.
 
-Kwa mfano, ikiwa umetuma PR iliyo na usahihishaji wa maswali ya cyp201 +, unaweza kuandika "kufunga [#2934](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/issues/2934)".
+Kwa mfano, ikiwa umetuma PR iliyo na usahihishaji wa maswali ya cyp201 +, unaweza kuandika "kufunga [#2934](https://github.com/PlanB-Network/Bitcoin-educational-content/issues/2934)".
 
 
 Kwa njia hii, PR na suala zitaunganishwa, na yeyote anayesoma hazina ya umma ya Github anaweza kupata taarifa kwa urahisi.

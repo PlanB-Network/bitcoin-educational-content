@@ -50,7 +50,7 @@ Crédito de la imagen: [*SAFU Ninja Review*, Jameson Lopp](https://jlopp.github.
 
 Si prefieres invertir en un dispositivo completo de soporte metálico, te recomiendo que eches un vistazo a [las pruebas de resistencia de Jameson Lopp](https://jlopp.github.io/metal-bitcoin-storage-reviews/), que evalúan la mayoría de las soluciones disponibles en el mercado. Le aconsejo que opte por soportes de una sola pieza, como una placa metálica para grabar, estampar o perforar. Por lo general, estos dispositivos ofrecen una resistencia mucho mayor que los sistemas que utilizan letras independientes para ensamblar.
 
-Si opta por una cartera de papel, tiene varias opciones: una simple hoja de papel en blanco, la cartera de cartón que suele venir con su cartera de ferretería, o nuestra plantilla descargable que puede imprimir [haciendo clic aquí](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/resources/bet/wallet-backup-sheet/assets/mnemonic-sheet.pdf).
+Si opta por una cartera de papel, tiene varias opciones: una simple hoja de papel en blanco, la cartera de cartón que suele venir con su cartera de ferretería, o nuestra plantilla descargable que puede imprimir [haciendo clic aquí](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/wallet-backup-sheet/assets/mnemonic-sheet.pdf).
 
 ![SEED](assets/fr/02.webp)
 

@@ -15,7 +15,7 @@ La missione di Plan ₿ Academy è fornire risorse educative di primo livello su
 https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
-- Vai al [repository GitHub di Plan ₿ Academy](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/resources/books) nella sezione `resources/books/`:
+- Vai al [repository GitHub di Plan ₿ Academy](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/books) nella sezione `resources/books/`:
 
 ![book](assets/02.webp)
 
@@ -60,7 +60,7 @@ Ecco i dettagli da compilare per ogni campo:
 	- `intermediate`
   - `advanced`
   - `expert`
-- **`tags`**: Aggiungi due o tre [tag](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) relativi al tuo libro. Ad esempio:
+- **`tags`**: Aggiungi due o tre [tag](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) relativi al tuo libro. Ad esempio:
     - `bitcoin`
     - `history`
     - `tecnology`

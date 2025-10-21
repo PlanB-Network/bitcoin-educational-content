@@ -1775,7 +1775,7 @@ En última instancia, eres tú quien decide hasta dónde debe llegar el concepto
 A medida que avancen los bloques, tu comunidad evolucionará. Se unirán caras nuevas, otras se alejarán, pero el principio rector debe seguir siendo el mismo: desarrollar el ecosistema de Bitcoin y reforzar los lazos entre sus miembros.
 
 
-Hay muchos proyectos e iniciativas que pueden llevarse a cabo. Este capítulo ofrece una lista no exhaustiva de ideas que pueden llevarse a cabo dentro de una comunidad o durante un meetup. Siéntete libre de elegir las que te inspiren e incluso de aportar tus propias ideas a este curso [haciendo un "Pull Request" en GitHub](https://github.com/Plan ₿ Academy/Bitcoin-educational-content).
+Hay muchos proyectos e iniciativas que pueden llevarse a cabo. Este capítulo ofrece una lista no exhaustiva de ideas que pueden llevarse a cabo dentro de una comunidad o durante un meetup. Siéntete libre de elegir las que te inspiren e incluso de aportar tus propias ideas a este curso [haciendo un "Pull Request" en GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content).
 
 
 Antes de entrar en materia, repasemos un punto mencionado anteriormente.

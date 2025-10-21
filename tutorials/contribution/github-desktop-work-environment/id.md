@@ -37,7 +37,7 @@ Ada banyak perangkat lunak yang khusus dirancang untuk mengedit file Markdown, s
 
 ## Langkah 3: Fork repositori Plan ₿ Academy
 
-- Kunjungi repositori data Plan ₿ Academy di alamat berikut: [https://github.com/Plan ₿ Academy/bitcoin-educational-content](https://github.com/Plan ₿ Academy/bitcoin-educational-content): ![github-desktop](assets/10.webp)
+- Kunjungi repositori data Plan ₿ Academy di alamat berikut: [https://github.com/PlanB-Network/bitcoin-educational-content](https://github.com/PlanB-Network/bitcoin-educational-content): ![github-desktop](assets/10.webp)
 - Dari halaman ini, klik tombol `Fork` di pojok kanan atas jendela: ![github-desktop](assets/11.webp)
 - Di menu pembuatan, Anda dapat membiarkan pengaturan default. Pastikan kotak `Copy the dev branch only` dicentang, kemudian klik tombol `Create fork`: ![github-desktop](assets/12.webp)
 - Anda kemudian akan sampai pada fork Anda sendiri dari repositori Plan ₿ Academy: ![github-desktop](assets/13.webp)

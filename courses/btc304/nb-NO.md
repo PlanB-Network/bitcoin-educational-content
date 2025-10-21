@@ -1775,7 +1775,7 @@ Til syvende og sist er det opp til deg å bestemme hvor langt "åpen og inkluder
 Etter hvert som blokkene ruller videre, vil samfunnet utvikle seg. Nye ansikter vil komme til, andre vil forsvinne, men det ledende prinsippet bør forbli det samme: utvikle Bitcoin-økosystemet og styrke båndene mellom medlemmene.
 
 
-Det finnes mange prosjekter og initiativer som kan gjennomføres. Dette kapittelet inneholder en ikke-uttømmende liste over ideer som kan gjennomføres i et fellesskap eller under et møte. Velg gjerne de som inspirerer deg, og bidra gjerne med dine egne ideer til dette kurset [ved å lage en "Pull Request" på GitHub] (https://github.com/Plan ₿ Academy/Bitcoin-educational-content).
+Det finnes mange prosjekter og initiativer som kan gjennomføres. Dette kapittelet inneholder en ikke-uttømmende liste over ideer som kan gjennomføres i et fellesskap eller under et møte. Velg gjerne de som inspirerer deg, og bidra gjerne med dine egne ideer til dette kurset [ved å lage en "Pull Request" på GitHub] (https://github.com/PlanB-Network/Bitcoin-educational-content).
 
 
 Før vi går i gang, la oss ta opp igjen et poeng som er nevnt tidligere.

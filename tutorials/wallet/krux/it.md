@@ -25,4 +25,4 @@ In questo video tutorial imparerete:
 Alla fine di questo video, sarete completamente attrezzati per utilizzare Krux come alternativa sicura e fai-da-te per l'autocustodia.
 
 
-**Nota:** Questo tutorial è solo una bozza in inglese, abbiamo ancora bisogno di qualcuno che scriva una guida completa su questo argomento. Se siete voi, contattateci su [Telegram](https://t.me/PlanBNetwork_ContentBuilder/325) o su [GitHub](https://github.com/Plan ₿ Academy/Bitcoin-educational-content)
+**Nota:** Questo tutorial è solo una bozza in inglese, abbiamo ancora bisogno di qualcuno che scriva una guida completa su questo argomento. Se siete voi, contattateci su [Telegram](https://t.me/PlanBNetwork_ContentBuilder/325) o su [GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content)

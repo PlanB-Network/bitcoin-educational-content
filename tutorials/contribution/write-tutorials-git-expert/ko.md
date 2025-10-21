@@ -80,7 +80,7 @@ YAML 파일 편집용:
 
 
 
-- GitHub의 Fork 리포지토리(https://github.com/Plan ₿ Academy/Bitcoin-educational-content)의 Plan ₿ Network가 있어야 합니다.
+- GitHub의 Fork 리포지토리(https://github.com/PlanB-Network/Bitcoin-educational-content)의 Plan ₿ Network가 있어야 합니다.
 - Fork의 메인 브랜치(`개발`)를 소스 리포지토리와 동기화합니다.
 - 로컬 클론을 업데이트합니다.
 
@@ -91,7 +91,7 @@ git clone https://github.com/<your-username>/bitcoin-educational-content.git
 cd bitcoin-educational-content
 
 # Add the source repository as a remote upstream
-git remote add upstream https://github.com/Plan ₿ Academy/bitcoin-educational-content.git
+git remote add upstream https://github.com/PlanB-Network/bitcoin-educational-content.git
 
 # Fetch the latest changes from the source repository
 git fetch upstream
@@ -131,7 +131,7 @@ git push -u origin tuto-green-wallet-loic
 ### 3 - 튜토리얼 문서 추가
 
 
-***참고: *** [내 Python GUI 스크립트](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/scripts/tutorial-related/new-tutorial-creation)를 사용하여 3단계와 4단계를 자동화할 수 있습니다. 로컬 클론의 해당 폴더에서 직접 실행한 다음 GUI의 필수 입력란을 채우세요. 설치 및 사용 방법에 대한 자세한 내용은 [README](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md)를 참조하세요.
+***참고: *** [내 Python GUI 스크립트](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/scripts/tutorial-related/new-tutorial-creation)를 사용하여 3단계와 4단계를 자동화할 수 있습니다. 로컬 클론의 해당 폴더에서 직접 실행한 다음 GUI의 필수 입력란을 채우세요. 설치 및 사용 방법에 대한 자세한 내용은 [README](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md)를 참조하세요.
 
 
 수동으로 수행하려면 다음 단계를 따르세요:
@@ -213,11 +213,11 @@ reward:
 
 
 
-- project_id**: 프로젝트 목록에서](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/resources/projects) 튜토리얼에 제시된 도구의 배후에 있는 회사 또는 조직의 UUID입니다. 예를 들어 Green Wallet 소프트웨어에 대한 튜토리얼을 만드는 경우 다음 파일에서 이 `project_id`를 찾을 수 있습니다: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. 이 정보는 Plan ₿ Network에서 Bitcoin 또는 관련 프로젝트를 운영하는 모든 회사 및 조직의 데이터베이스를 유지 관리하기 때문에 튜토리얼의 YAML 파일에 추가됩니다. 튜토리얼에 연결된 엔티티의 `project_id`를 추가하면 두 Elements 사이에 링크가 생성됩니다;
+- project_id**: 프로젝트 목록에서](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects) 튜토리얼에 제시된 도구의 배후에 있는 회사 또는 조직의 UUID입니다. 예를 들어 Green Wallet 소프트웨어에 대한 튜토리얼을 만드는 경우 다음 파일에서 이 `project_id`를 찾을 수 있습니다: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. 이 정보는 Plan ₿ Network에서 Bitcoin 또는 관련 프로젝트를 운영하는 모든 회사 및 조직의 데이터베이스를 유지 관리하기 때문에 튜토리얼의 YAML 파일에 추가됩니다. 튜토리얼에 연결된 엔티티의 `project_id`를 추가하면 두 Elements 사이에 링크가 생성됩니다;
 
 
 
-- 태그**: 튜토리얼 콘텐츠와 관련된 관련 키워드 2개 또는 3개, [Plan ₿ Academy 태그 목록에서] 독점적으로 선택(https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- 태그**: 튜토리얼 콘텐츠와 관련된 관련 키워드 2개 또는 3개, [Plan ₿ Academy 태그 목록에서] 독점적으로 선택(https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 
 
@@ -233,7 +233,7 @@ reward:
 
 
 
-- 교수자_ID**: 교수자 프로필](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/professors)에 표시된 `교수자_id`(UUID)입니다;
+- 교수자_ID**: 교수자 프로필](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors)에 표시된 `교수자_id`(UUID)입니다;
 
 
 

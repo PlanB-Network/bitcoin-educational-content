@@ -41,7 +41,7 @@ Forutsetninger før du starter opplæringen:
 
 
 - Har en [GitHub-konto] (https://github.com/signup);
-- Ha en gaffel av [Plan ₿ Academy source repository] (https://github.com/Plan ₿ Academy/bitcoin-educational-content);
+- Ha en gaffel av [Plan ₿ Academy source repository] (https://github.com/PlanB-Network/bitcoin-educational-content);
 - Har [en professorprofil på Plan ₿ Academy] (https://planb.academy/professors) (bare hvis du foreslår en fullstendig veiledning).
 
 Hvis du trenger hjelp med å skaffe deg disse forutsetningene, kan du få hjelp i de andre veiledningene mine:
@@ -161,13 +161,13 @@ Velg et navn på katalogen som er opprettet spesielt for opplæringen. Navnet p�
 
 ![DATA-CREATOR-PY](assets/fr/45.webp)
 
-Prosjekt-ID er UUID-en til selskapet eller organisasjonen som står bak verktøyet som dekkes i opplæringen, tilgjengelig [i listen over prosjekter] (https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/resources/projects). For eksempel, for en veiledning om Sparrow Wallet, kan du finne `project_id` i filen: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. Denne informasjonen legges til i YAML-filen til opplæringen din fordi Plan ₿ Academy opprettholder en database over selskaper og organisasjoner som er aktive i Bitcoin eller relaterte prosjekter. Ved å legge til den tilknyttede `project_id`, kobler du innholdet ditt til den relevante enheten.
+Prosjekt-ID er UUID-en til selskapet eller organisasjonen som står bak verktøyet som dekkes i opplæringen, tilgjengelig [i listen over prosjekter] (https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). For eksempel, for en veiledning om Sparrow Wallet, kan du finne `project_id` i filen: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. Denne informasjonen legges til i YAML-filen til opplæringen din fordi Plan ₿ Academy opprettholder en database over selskaper og organisasjoner som er aktive i Bitcoin eller relaterte prosjekter. Ved å legge til den tilknyttede `project_id`, kobler du innholdet ditt til den relevante enheten.
 
 ***Oppdatering: *** I den nye versjonen av skriptet trenger du ikke lenger å skrive inn `project_id` manuelt. Det er lagt til en søkefunksjon som finner prosjektet etter navn og automatisk henter det tilsvarende `project_id`. Skriv inn begynnelsen av prosjektets navn i feltet "Project Name" for å søke etter det, og velg deretter ønsket selskap fra rullegardinmenyen. Prosjektnummeret fylles automatisk ut i feltet nedenfor. Du kan også skrive det inn manuelt om nødvendig.
 
 ![DATA-CREATOR-PY](assets/fr/46.webp)
 
-For tagger velger du to eller tre relevante nøkkelord som er relatert til opplæringsinnholdet ditt, og du velger utelukkende fra [Plan ₿ Academy tag list] (https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). Programvaren har også en søkefunksjon for nøkkelord med en nedtrekksliste.
+For tagger velger du to eller tre relevante nøkkelord som er relatert til opplæringsinnholdet ditt, og du velger utelukkende fra [Plan ₿ Academy tag list] (https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). Programvaren har også en søkefunksjon for nøkkelord med en nedtrekksliste.
 
 ![DATA-CREATOR-PY](assets/fr/47.webp)
 
@@ -177,7 +177,7 @@ Når all informasjon er lagt inn og bekreftet, klikker du på "Opprett opplærin
 
 Du kan nå hoppe over underavsnittet "Uten Python-skriptet mitt" og trinn 3, "Fyll inn YAML-filen", siden skriptet allerede har utført disse handlingene for deg. Gå direkte til trinn 4 og begynn å skrive opplæringen.
 
-Hvis du vil ha mer informasjon om dette Python-skriptet, kan du også lese [README] (https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
+Hvis du vil ha mer informasjon om dette Python-skriptet, kan du også lese [README] (https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
 
 ### Uten Python-skriptet mitt
 
@@ -250,9 +250,9 @@ Her er de obligatoriske feltene:
 
 - **id**: En UUID (_Universally Unique Identifier_) som unikt identifiserer veiledningen. Du kan generere den med [et nettbasert verktøy](https://www.uuidgenerator.net/version4). Det eneste kravet er at denne UUID-en er tilfeldig for å unngå konflikter med en annen UUID på plattformen;
 
-- **project_id**: UUID-en til selskapet eller organisasjonen bak verktøyet som presenteres i veiledningen [fra prosjektlisten](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/resources/projects). For eksempel, hvis du lager en veiledning om Green Wallet-programvaren, kan du finne denne `project_id` i følgende fil: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Denne informasjonen legges til i YAML-filen til veiledningen din fordi Plan ₿ Academy vedlikeholder en database over alle selskaper og organisasjoner som opererer på Bitcoin eller relaterte prosjekter. Ved å legge til `project_id` tilknyttet veiledningen din, oppretter du en kobling mellom de to elementene;
+- **project_id**: UUID-en til selskapet eller organisasjonen bak verktøyet som presenteres i veiledningen [fra prosjektlisten](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). For eksempel, hvis du lager en veiledning om Green Wallet-programvaren, kan du finne denne `project_id` i følgende fil: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Denne informasjonen legges til i YAML-filen til veiledningen din fordi Plan ₿ Academy vedlikeholder en database over alle selskaper og organisasjoner som opererer på Bitcoin eller relaterte prosjekter. Ved å legge til `project_id` tilknyttet veiledningen din, oppretter du en kobling mellom de to elementene;
 
-- **tags**: 2 eller 3 relevante stikkord relatert til veiledningens innhold, valgt utelukkende [fra Plan ₿ Academy tag-listen](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags**: 2 eller 3 relevante stikkord relatert til veiledningens innhold, valgt utelukkende [fra Plan ₿ Academy tag-listen](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 - **category**: Underkategorien som tilsvarer innholdet i veiledningen, i henhold til strukturen på Plan ₿ Academy-nettstedet (for eksempel for lommebøker: `desktop`, `hardware`, `mobile`, `backup`);
 
@@ -262,7 +262,7 @@ Her er de obligatoriske feltene:
     - `advanced`
     - `expert`
 
-- **professor_id**: Din `professor_id` (UUID) som vist på [din professorprofil](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/professors);
+- **professor_id**: Din `professor_id` (UUID) som vist på [din professorprofil](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
 
 - **original_language**: Det opprinnelige språket for veiledningen (f.eks. `fr`, `en`, etc.);
 

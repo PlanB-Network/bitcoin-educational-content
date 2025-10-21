@@ -1251,7 +1251,7 @@ $$
 
 ### Binaarjada Muundamine Mnemooniliseks Fraasiks
 
-Bittide jada $\text{ENT} \Vert \text{CS}$ jagatakse seejärel 11-bitisteks segmentideks. Iga 11-bitine segment, kui see on muundatud kümnendkohaks, vastab numbrile vahemikus 0 kuni 2047, mis määrab sõna positsiooni [2048 sõna standardiseeritud nimekirjas BIP39 poolt](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
+Bittide jada $\text{ENT} \Vert \text{CS}$ jagatakse seejärel 11-bitisteks segmentideks. Iga 11-bitine segment, kui see on muundatud kümnendkohaks, vastab numbrile vahemikus 0 kuni 2047, mis määrab sõna positsiooni [2048 sõna standardiseeritud nimekirjas BIP39 poolt](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
 ![CYP201](assets/en/042.webp)
 Näiteks 128-bitise entroopia korral on kontrollsumma 4 bitti, seega kogu jada mõõdab 132 bitti. See jagatakse 12 segmendiks, millest igaüks on 11 bitti (oranžid bitid tähistavad kontrollsummat):

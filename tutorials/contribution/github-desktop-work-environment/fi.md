@@ -45,7 +45,7 @@ On olemassa lukuisia ohjelmistoja, jotka on erikoistunut Markdown-tiedostojen mu
 
 ## Vaihe 3: Forkkaa Plan ₿ Academy -repositorio
 
-- Siirry Plan ₿ Academy -datan repositorioon seuraavassa osoitteessa: [https://github.com/Plan ₿ Academy/bitcoin-educational-content](https://github.com/Plan ₿ Academy/bitcoin-educational-content): ![github-desktop](assets/10.webp)
+- Siirry Plan ₿ Academy -datan repositorioon seuraavassa osoitteessa: [https://github.com/PlanB-Network/bitcoin-educational-content](https://github.com/PlanB-Network/bitcoin-educational-content): ![github-desktop](assets/10.webp)
 - Tältä sivulta, klikkaa `Fork`-nappia ikkunan oikeassa yläkulmassa: ![github-desktop](assets/11.webp)
 - Luontimenussa voit jättää oletusasetukset. Varmista, että `Copy the dev branch only` -ruutu on valittu, ja klikkaa sitten `Create fork` -nappia: ![github-desktop](assets/12.webp)
 - Saavut sitten omaan forkkiisi Plan ₿ Academy -repositoriosta: ![github-desktop](assets/13.webp)

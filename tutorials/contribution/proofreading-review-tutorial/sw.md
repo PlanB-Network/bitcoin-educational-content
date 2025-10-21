@@ -202,7 +202,7 @@ Ili kupata maelezo zaidi kuhusu miongozo ya kufuata wakati wa kuhariri kwenye Pl
 
 
 
-- Hongera, PR yako imewasilishwa! Unaweza kufuatilia maendeleo yake katika kichupo cha "Vuta maombi" kwenye [hazina ya Plan ₿ Academy ya GitHub](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/pulls):
+- Hongera, PR yako imewasilishwa! Unaweza kufuatilia maendeleo yake katika kichupo cha "Vuta maombi" kwenye [hazina ya Plan ₿ Academy ya GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content/pulls):
 
 
 ![REVIEW](assets/fr/12.webp)

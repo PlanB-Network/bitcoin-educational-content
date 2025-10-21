@@ -80,7 +80,7 @@ Ili kuunda michoro na taswira:
 
 
 
-- Ni lazima uwe na Fork yako mwenyewe ya [Plan ₿ Academy hazina kwenye GitHub](https://github.com/Plan ₿ Academy/Bitcoin-educational-content).
+- Ni lazima uwe na Fork yako mwenyewe ya [Plan ₿ Academy hazina kwenye GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content).
 - Sawazisha tawi kuu (`dev`) la Fork yako na hazina ya chanzo.
 - Sasisha mshirika wako wa karibu.
 
@@ -91,7 +91,7 @@ git clone https://github.com/<your-username>/bitcoin-educational-content.git
 cd bitcoin-educational-content
 
 # Add the source repository as a remote upstream
-git remote add upstream https://github.com/Plan ₿ Academy/bitcoin-educational-content.git
+git remote add upstream https://github.com/PlanB-Network/bitcoin-educational-content.git
 
 # Fetch the latest changes from the source repository
 git fetch upstream
@@ -131,7 +131,7 @@ git push -u origin tuto-green-wallet-loic
 ### 3 - Ongeza hati za mafunzo
 
 
-***Kumbuka:*** Unaweza kubadilisha hatua ya 3 na 4 otomatiki kwa kutumia [hati yangu ya Python GUI](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/scripts/tutorial-related/new-tutorial-creation). Iendeshe moja kwa moja kutoka kwa folda yake kwenye mwambaa wako wa karibu, kisha ujaze sehemu zinazohitajika kwenye GUI. Kwa maelezo zaidi kuhusu jinsi ya kuisakinisha na kuitumia, angalia [README](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
+***Kumbuka:*** Unaweza kubadilisha hatua ya 3 na 4 otomatiki kwa kutumia [hati yangu ya Python GUI](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/scripts/tutorial-related/new-tutorial-creation). Iendeshe moja kwa moja kutoka kwa folda yake kwenye mwambaa wako wa karibu, kisha ujaze sehemu zinazohitajika kwenye GUI. Kwa maelezo zaidi kuhusu jinsi ya kuisakinisha na kuitumia, angalia [README](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
 
 
 Ikiwa ungependa kuifanya kwa mikono, fuata hatua hizi:
@@ -213,11 +213,11 @@ Hapa kuna sehemu zinazohitajika:
 
 
 
-- **project_id**: UUID ya kampuni au shirika nyuma ya zana iliyowasilishwa kwenye mafunzo [kutoka kwenye orodha ya mradi](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/resources/projects). Kwa mfano, ikiwa unaunda mafunzo kuhusu programu ya Green Wallet, unaweza kupata `project_id` hii katika faili ifuatayo: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Maelezo haya yanaongezwa kwenye faili ya mafunzo yako ya YAML kwa sababu Plan ₿ Academy ina hifadhidata ya makampuni na mashirika yote yanayofanya kazi kwenye Bitcoin au miradi inayohusiana. Kwa kuongeza `project_id` ya huluki iliyounganishwa kwenye mafunzo yako, unaunda kiungo kati ya Elements mbili;
+- **project_id**: UUID ya kampuni au shirika nyuma ya zana iliyowasilishwa kwenye mafunzo [kutoka kwenye orodha ya mradi](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Kwa mfano, ikiwa unaunda mafunzo kuhusu programu ya Green Wallet, unaweza kupata `project_id` hii katika faili ifuatayo: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Maelezo haya yanaongezwa kwenye faili ya mafunzo yako ya YAML kwa sababu Plan ₿ Academy ina hifadhidata ya makampuni na mashirika yote yanayofanya kazi kwenye Bitcoin au miradi inayohusiana. Kwa kuongeza `project_id` ya huluki iliyounganishwa kwenye mafunzo yako, unaunda kiungo kati ya Elements mbili;
 
 
 
-- **tags**: Maneno muhimu 2 au 3 yanayohusiana na maudhui ya mafunzo, yaliyochaguliwa pekee [kutoka kwa orodha ya lebo za Plan ₿ Academy](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags**: Maneno muhimu 2 au 3 yanayohusiana na maudhui ya mafunzo, yaliyochaguliwa pekee [kutoka kwa orodha ya lebo za Plan ₿ Academy](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 
 
@@ -233,7 +233,7 @@ Hapa kuna sehemu zinazohitajika:
 
 
 
-- **professor_id**: `professor_id` (UUID) yako kama inavyoonyeshwa kwenye [wasifu wako wa profesa](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/professors);
+- **professor_id**: `professor_id` (UUID) yako kama inavyoonyeshwa kwenye [wasifu wako wa profesa](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors);
 
 
 

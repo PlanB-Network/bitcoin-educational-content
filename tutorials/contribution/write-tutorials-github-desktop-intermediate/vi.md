@@ -41,7 +41,7 @@ Phần mềm cần thiết để thực hiện hướng dẫn này:
 
 
 - Có [tài khoản GitHub](https://github.com/signup);
-- Có một nhánh của [Kho lưu trữ nguồn Plan ₿ Academy](https://github.com/Plan ₿ Academy/bitcoin-educational-content);
+- Có một nhánh của [Kho lưu trữ nguồn Plan ₿ Academy](https://github.com/PlanB-Network/bitcoin-educational-content);
 - Có [hồ sơ giáo sư trên Plan ₿ Academy](https://planb.academy/professors) (chỉ khi bạn đề xuất một bài hướng dẫn đầy đủ).
 
 Nếu bạn cần trợ giúp để đạt được các điều kiện tiên quyết này, các hướng dẫn khác của tôi sẽ hỗ trợ bạn:
@@ -161,13 +161,13 @@ Chọn tên cho thư mục được tạo riêng cho hướng dẫn của bạn.
 
 ![DATA-CREATOR-PY](assets/fr/45.webp)
 
-`project_id` là UUID của công ty hoặc tổ chức đứng sau công cụ được đề cập trong hướng dẫn, có sẵn [trong danh sách các dự án](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/resources/projects). Ví dụ, đối với hướng dẫn về Sparrow Wallet, bạn có thể tìm thấy `project_id` của nó trong tệp: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. Thông tin này được thêm vào tệp YAML của hướng dẫn của bạn vì Plan ₿ Academy duy trì cơ sở dữ liệu về các công ty và tổ chức hoạt động trong Bitcoin hoặc các dự án liên quan. Bằng cách thêm `project_id` được liên kết, bạn liên kết nội dung của mình với thực thể có liên quan.
+`project_id` là UUID của công ty hoặc tổ chức đứng sau công cụ được đề cập trong hướng dẫn, có sẵn [trong danh sách các dự án](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Ví dụ, đối với hướng dẫn về Sparrow Wallet, bạn có thể tìm thấy `project_id` của nó trong tệp: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. Thông tin này được thêm vào tệp YAML của hướng dẫn của bạn vì Plan ₿ Academy duy trì cơ sở dữ liệu về các công ty và tổ chức hoạt động trong Bitcoin hoặc các dự án liên quan. Bằng cách thêm `project_id` được liên kết, bạn liên kết nội dung của mình với thực thể có liên quan.
 
 ***Cập nhật:*** Trong phiên bản mới của tập lệnh, bạn không cần phải nhập thủ công `project_id` nữa. Một chức năng tìm kiếm đã được thêm vào để tìm dự án theo tên và tự động lấy `project_id` tương ứng. Nhập phần đầu của tên dự án vào trường "Project Name" để tìm kiếm, sau đó chọn công ty mong muốn từ menu thả xuống. `project_id` sẽ tự động được điền vào trường bên dưới. Bạn cũng có thể nhập thủ công nếu cần.
 
 ![DATA-CREATOR-PY](assets/fr/46.webp)
 
-Đối với thẻ, hãy chọn 2 hoặc 3 từ khóa có liên quan đến nội dung hướng dẫn của bạn, chỉ chọn từ [danh sách thẻ Plan ₿ Academy](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). Phần mềm này cũng cung cấp chức năng tìm kiếm từ khóa với danh sách thả xuống.
+Đối với thẻ, hãy chọn 2 hoặc 3 từ khóa có liên quan đến nội dung hướng dẫn của bạn, chỉ chọn từ [danh sách thẻ Plan ₿ Academy](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). Phần mềm này cũng cung cấp chức năng tìm kiếm từ khóa với danh sách thả xuống.
 
 ![DATA-CREATOR-PY](assets/fr/47.webp)
 
@@ -177,7 +177,7 @@ Sau khi nhập và xác minh tất cả thông tin, hãy nhấp vào "Create Tut
 
 Bây giờ bạn có thể bỏ qua phần phụ "Without my Python script" cũng như bước 3, "Fill in the YAML file", vì script đã hoàn tất các hành động này cho bạn. Tiến hành trực tiếp đến bước 4 và bắt đầu viết hướng dẫn của bạn.
 
-Để biết thêm thông tin về tập lệnh Python này, bạn cũng có thể xem [README](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
+Để biết thêm thông tin về tập lệnh Python này, bạn cũng có thể xem [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
 
 ### Không có tập lệnh Python của tôi
 
@@ -250,9 +250,9 @@ Dưới đây là các trường bắt buộc:
 
 - **id**: Một UUID (_Universally Unique Identifier_) cho phép xác định duy nhất hướng dẫn. Bạn có thể tạo nó bằng [một công cụ trực tuyến](https://www.uuidgenerator.net/version4). Điều kiện duy nhất là UUID này phải ngẫu nhiên để tránh xung đột với một UUID khác trên nền tảng;
 
-- **project_id**: UUID của công ty hoặc tổ chức đứng sau công cụ được trình bày trong hướng dẫn [từ danh sách các dự án](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/resources/projects). Ví dụ, nếu bạn tạo một hướng dẫn về phần mềm Green Wallet, bạn có thể tìm thấy `project_id` trong tệp sau: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Thông tin này được thêm vào tệp YAML của hướng dẫn của bạn vì Plan ₿ Academy duy trì cơ sở dữ liệu về tất cả các công ty và tổ chức hoạt động trên Bitcoin hoặc các dự án liên quan. Bằng cách thêm `project_id` của thực thể liên kết với hướng dẫn của bạn, bạn tạo ra một liên kết giữa hai phần tử;
+- **project_id**: UUID của công ty hoặc tổ chức đứng sau công cụ được trình bày trong hướng dẫn [từ danh sách các dự án](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Ví dụ, nếu bạn tạo một hướng dẫn về phần mềm Green Wallet, bạn có thể tìm thấy `project_id` trong tệp sau: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Thông tin này được thêm vào tệp YAML của hướng dẫn của bạn vì Plan ₿ Academy duy trì cơ sở dữ liệu về tất cả các công ty và tổ chức hoạt động trên Bitcoin hoặc các dự án liên quan. Bằng cách thêm `project_id` của thực thể liên kết với hướng dẫn của bạn, bạn tạo ra một liên kết giữa hai phần tử;
 
-- **tags**: 2 hoặc 3 từ khóa liên quan đến nội dung hướng dẫn, được chọn độc quyền [từ danh sách thẻ của Plan ₿ Academy](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags**: 2 hoặc 3 từ khóa liên quan đến nội dung hướng dẫn, được chọn độc quyền [từ danh sách thẻ của Plan ₿ Academy](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 - **category**: Danh mục con tương ứng với nội dung của hướng dẫn, theo cấu trúc của trang Plan ₿ Academy (ví dụ: đối với ví: `desktop`, `hardware`, `mobile`, `backup`);
 
@@ -262,7 +262,7 @@ Dưới đây là các trường bắt buộc:
     - `advanced`
     - `expert`
 
-- **professor_id**: `professor_id` của bạn (UUID) như được hiển thị trên [hồ sơ giáo sư của bạn](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/professors);
+- **professor_id**: `professor_id` của bạn (UUID) như được hiển thị trên [hồ sơ giáo sư của bạn](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
 
 - **original_language**: Ngôn ngữ gốc của hướng dẫn (ví dụ: `fr`, `en`, v.v.);
 

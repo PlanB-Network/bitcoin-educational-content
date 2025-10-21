@@ -56,7 +56,7 @@ Vereisten voordat u de tutorial start:
 
 
 - Een [GitHub account] hebben (https://github.com/signup);
-- Neem een fork van het [Plan ₿ Academy bronarchief] (https://github.com/Plan ₿ Academy/Bitcoin-educational-content);
+- Neem een fork van het [Plan ₿ Academy bronarchief] (https://github.com/PlanB-Network/Bitcoin-educational-content);
 - Heb [een professorprofiel op Plan ₿ Academy](https://planb.academy/professors) (alleen als je een complete tutorial voorstelt).
 
 
@@ -229,7 +229,7 @@ Kies een naam voor de map die speciaal voor je tutorial is gemaakt. De naam van 
 ![DATA-CREATOR-PY](assets/fr/45.webp)
 
 
-Het `project_id` is de UUID van het bedrijf of de organisatie achter de tool die in de tutorial behandeld wordt, beschikbaar [in de lijst van projecten] (https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/resources/projects). Bijvoorbeeld, voor een tutorial over Sparrow wallet, kun je het `project_id` vinden in het bestand: `Bitcoin-educational-content/resources/projects/Sparrow/project.yml`. Deze informatie is toegevoegd aan het YAML-bestand van je tutorial, omdat Plan ₿ Academy een database bijhoudt van bedrijven en organisaties die actief zijn in Bitcoin of gerelateerde projecten. Door het bijbehorende `project_id` toe te voegen, koppel je je inhoud aan de relevante entiteit.
+Het `project_id` is de UUID van het bedrijf of de organisatie achter de tool die in de tutorial behandeld wordt, beschikbaar [in de lijst van projecten] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Bijvoorbeeld, voor een tutorial over Sparrow wallet, kun je het `project_id` vinden in het bestand: `Bitcoin-educational-content/resources/projects/Sparrow/project.yml`. Deze informatie is toegevoegd aan het YAML-bestand van je tutorial, omdat Plan ₿ Academy een database bijhoudt van bedrijven en organisaties die actief zijn in Bitcoin of gerelateerde projecten. Door het bijbehorende `project_id` toe te voegen, koppel je je inhoud aan de relevante entiteit.
 
 
 ***Update:*** In de nieuwe versie van het script hoef je niet langer handmatig het `project_id` in te voeren. Er is een zoekfunctie toegevoegd om het project op naam te vinden en automatisch de bijbehorende `project_id` op te halen. Typ het begin van de naam van het project in het veld "Project Name" om het te zoeken en selecteer vervolgens het gewenste bedrijf in het vervolgkeuzemenu. Het `project_id` wordt automatisch ingevuld in het onderstaande veld. Je kunt het indien nodig ook handmatig invoeren.
@@ -238,7 +238,7 @@ Het `project_id` is de UUID van het bedrijf of de organisatie achter de tool die
 ![DATA-CREATOR-PY](assets/fr/46.webp)
 
 
-Voor tags selecteer je 2 of 3 relevante trefwoorden die verband houden met de inhoud van je tutorial en kies je uitsluitend uit [de Plan ₿ Academy taglijst] (https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). De software biedt ook een zoekfunctie voor trefwoorden met een vervolgkeuzelijst.
+Voor tags selecteer je 2 of 3 relevante trefwoorden die verband houden met de inhoud van je tutorial en kies je uitsluitend uit [de Plan ₿ Academy taglijst] (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). De software biedt ook een zoekfunctie voor trefwoorden met een vervolgkeuzelijst.
 
 
 ![DATA-CREATOR-PY](assets/fr/47.webp)
@@ -253,7 +253,7 @@ Zodra alle informatie is ingevoerd en gecontroleerd, klik je op "Create Tutorial
 Je kunt nu de subsectie "Zonder mijn Python script" overslaan, evenals stap 3, "Vul het YAML-bestand in", aangezien het script deze handelingen al voor je heeft uitgevoerd. Ga direct door naar stap 4 en begin met het schrijven van je tutorial.
 
 
-Voor meer informatie over dit Python-script kun je ook de [README](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md) bekijken.
+Voor meer informatie over dit Python-script kun je ook de [README](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md) bekijken.
 
 
 ### Zonder mijn Python-script
@@ -344,11 +344,11 @@ Dit zijn de verplichte velden:
 
 
 
-- **project_id**: De UUID van het bedrijf of de organisatie achter de tool die in de tutorial wordt gepresenteerd [uit de projectlijst] (https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/resources/projects). Als je bijvoorbeeld een tutorial maakt over de Green Wallet software, kun je het overeenstemmend `project_id` vinden in het volgende bestand: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Deze informatie wordt toegevoegd aan het YAML-bestand van je tutorial, omdat Plan ₿ Academy een database bijhoudt van alle bedrijven en organisaties die werken aan Bitcoin of gerelateerde projecten. Door het `project_id` van de entiteit die gelinkt is aan je tutorial toe te voegen, creëer je een link tussen de twee elementen;
+- **project_id**: De UUID van het bedrijf of de organisatie achter de tool die in de tutorial wordt gepresenteerd [uit de projectlijst] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Als je bijvoorbeeld een tutorial maakt over de Green Wallet software, kun je het overeenstemmend `project_id` vinden in het volgende bestand: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Deze informatie wordt toegevoegd aan het YAML-bestand van je tutorial, omdat Plan ₿ Academy een database bijhoudt van alle bedrijven en organisaties die werken aan Bitcoin of gerelateerde projecten. Door het `project_id` van de entiteit die gelinkt is aan je tutorial toe te voegen, creëer je een link tussen de twee elementen;
 
 
 
-- **tags**: 2 of 3 relevante trefwoorden die verband houden met de inhoud van de tutorial, exclusief gekozen [uit de Plan ₿ Academy taglijst](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags**: 2 of 3 relevante trefwoorden die verband houden met de inhoud van de tutorial, exclusief gekozen [uit de Plan ₿ Academy taglijst](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 
 
@@ -364,7 +364,7 @@ Dit zijn de verplichte velden:
 
 
 
-- **professor_id**: je `professor_id` (UUID) zoals weergegeven op [uw professorprofiel] (https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/professors);
+- **professor_id**: je `professor_id` (UUID) zoals weergegeven op [uw professorprofiel] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors);
 
 
 

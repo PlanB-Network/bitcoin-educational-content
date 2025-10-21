@@ -74,7 +74,7 @@ Bildkredit: [*SAFU Ninja Review*, Jameson Lopp] (https://jlopp.github.io/metal-B
 Om du föredrar att investera i en komplett metallsäkringsenhet rekommenderar jag att du tittar på [Jameson Lopps motståndstester] (https://jlopp.github.io/metal-Bitcoin-storage-reviews/), som utvärderar de flesta av de lösningar som finns på marknaden. Jag skulle råda dig att välja fästen i ett stycke, till exempel en metallplatta för gravyr, stansning eller stansning. Dessa anordningar erbjuder i allmänhet mycket större motstånd än system som använder oberoende bokstäver som ska monteras.
 
 
-Om du väljer en Wallet i papper har du flera alternativ: ett enkelt tomt pappersark, den Wallet i kartong som ofta medföljer din Hardware Wallet, eller vår nedladdningsbara mall som du kan skriva ut [genom att klicka här] (https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/resources/bet/Wallet-backup-sheet/assets/Mnemonic-sheet.pdf).
+Om du väljer en Wallet i papper har du flera alternativ: ett enkelt tomt pappersark, den Wallet i kartong som ofta medföljer din Hardware Wallet, eller vår nedladdningsbara mall som du kan skriva ut [genom att klicka här] (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/Wallet-backup-sheet/assets/Mnemonic-sheet.pdf).
 
 
 ![SEED](assets/fr/02.webp)

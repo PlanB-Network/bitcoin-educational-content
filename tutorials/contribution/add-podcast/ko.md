@@ -20,7 +20,7 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 
 
 
-- '자료/팟캐스트/' 섹션의 [데이터 전용 PlanB의 GitHub 리포지토리](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/resources/podcasts)로 이동합니다:
+- '자료/팟캐스트/' 섹션의 [데이터 전용 PlanB의 GitHub 리포지토리](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/podcasts)로 이동합니다:
 
 ![podcast](assets/02.webp)
 

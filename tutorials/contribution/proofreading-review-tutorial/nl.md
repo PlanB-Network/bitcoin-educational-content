@@ -199,7 +199,7 @@ Als je meer wilt weten over de richtlijnen die je moet gebruiken bij het proefle
 
 
 
-- Gefeliciteerd, je PR is ingediend! Je kunt de voortgang volgen in de "Pull requests" tab op [Plan ₿ Academy's GitHub repository] (https://github.com/Plan ₿ Academy/Bitcoin-educational-content/pulls):
+- Gefeliciteerd, je PR is ingediend! Je kunt de voortgang volgen in de "Pull requests" tab op [Plan ₿ Academy's GitHub repository] (https://github.com/PlanB-Network/Bitcoin-educational-content/pulls):
 
 
 ![REVIEW](assets/fr/12.webp)

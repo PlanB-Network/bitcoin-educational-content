@@ -26,4 +26,4 @@ https://planb.academy/tutorials/wallet/mobile/bitcoin-keeper-7f2a160b-10b6-4cc5-
 - Tapsigner [视频](youtube.com/watch?v=xKHy1HMw5iU)
 
 
-**注：** 本教程仅为英文版草稿，我们仍需要有人就此主题撰写详尽的指南。如果你是这样的人，请通过 [Telegram](https://t.me/PlanBNetwork_ContentBuilder/325) 或 [GitHub](https://github.com/Plan ₿ Academy/Bitcoin-educational-content) 联系我们。
+**注：** 本教程仅为英文版草稿，我们仍需要有人就此主题撰写详尽的指南。如果你是这样的人，请通过 [Telegram](https://t.me/PlanBNetwork_ContentBuilder/325) 或 [GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content) 联系我们。

@@ -1775,7 +1775,7 @@ Ostatecznie to ty decydujesz, jak daleko powinna sięgać "otwartość i integra
 W miarę upływu czasu społeczność będzie ewoluować. Dołączą nowe twarze, inni odejdą, ale zasada przewodnia powinna pozostać taka sama: rozwijać ekosystem Bitcoin i wzmacniać więzi między członkami.
 
 
-Istnieje wiele projektów i inicjatyw, które można wdrożyć. Ten rozdział zawiera niewyczerpującą listę pomysłów, które można zrealizować w ramach społeczności lub podczas spotkania. Zachęcamy do wybrania tych, które Cię inspirują, a nawet do wniesienia własnych pomysłów do tego kursu [poprzez złożenie "Pull Request" na GitHub](https://github.com/Plan ₿ Academy/Bitcoin-educational-content).
+Istnieje wiele projektów i inicjatyw, które można wdrożyć. Ten rozdział zawiera niewyczerpującą listę pomysłów, które można zrealizować w ramach społeczności lub podczas spotkania. Zachęcamy do wybrania tych, które Cię inspirują, a nawet do wniesienia własnych pomysłów do tego kursu [poprzez złożenie "Pull Request" na GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content).
 
 
 Zanim zagłębimy się w temat, wróćmy do kwestii wspomnianej wcześniej.

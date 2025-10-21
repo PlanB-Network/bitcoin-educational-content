@@ -9,7 +9,7 @@ Misi PlanB adalah menyediakan sumber daya pendidikan tingkat atas tentang Bitcoi
 Jika Anda ingin menambahkan konferensi Bitcoin ke situs Jaringan PlanB dan meningkatkan visibilitas untuk acara Anda, tetapi tidak tahu bagaimana? Tutorial ini adalah untuk Anda!
 ![event](assets/01.webp)
 - Pertama, Anda perlu memiliki akun di GitHub. Jika Anda tidak tahu cara membuat akun, kami telah membuat [tutorial terperinci untuk membimbing Anda](https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c).
-- Kunjungi [repositori GitHub dari PlanB yang didedikasikan untuk data](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/resources/conference) di bagian `resources/conference/`:
+- Kunjungi [repositori GitHub dari PlanB yang didedikasikan untuk data](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) di bagian `resources/conference/`:
 ![event](assets/02.webp)
 - Klik tombol `Add file` di kanan atas, kemudian pada `Create new file`:
 ![event](assets/03.webp)

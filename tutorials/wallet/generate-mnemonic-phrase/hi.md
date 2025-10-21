@@ -45,7 +45,7 @@ Mnemonic वाक्यांश, वैकल्पिक passphrase के �
 - कागज का टुकड़ा;
 - एक पेन या पेंसिल, अधिमानतः संगठन की सुविधा के लिए अलग-अलग रंगों का;
 - असंतुलित पासे से संबंधित पूर्वाग्रह के जोखिम को कम करने के लिए कई पासे;
-- [2048 BIP39 शब्दों की सूची](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf) मुद्रित की गई।
+- [2048 BIP39 शब्दों की सूची](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf) मुद्रित की गई।
 
 
 इसके बाद, चेकसम की गणना के लिए टर्मिनल वाले कंप्यूटर का उपयोग आवश्यक हो जाएगा। यह ठीक इसी कारण से है कि मैं Mnemonic वाक्यांश के मैन्युअल निर्माण के खिलाफ सलाह देता हूं। मेरी राय में, इस ट्यूटोरियल में उल्लिखित सावधानियों के तहत भी कंप्यूटर का हस्तक्षेप, Wallet की भेद्यता को काफी हद तक बढ़ाता है।
@@ -102,7 +102,7 @@ Mnemonic वाक्यांश, वैकल्पिक passphrase के �
 ![mnemonic](assets/notext/5.webp)
 
 
-अंत में, दशमलव में संख्या हमें [2048 BIP39 शब्दों की सूची](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf) में संबंधित शब्द की स्थिति बताती है। अब बस इतना ही बाकी है कि हम अपने Wallet के लिए रिकवरी वाक्यांश बनाने के लिए इन शब्दों का चयन करें।
+अंत में, दशमलव में संख्या हमें [2048 BIP39 शब्दों की सूची](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf) में संबंधित शब्द की स्थिति बताती है। अब बस इतना ही बाकी है कि हम अपने Wallet के लिए रिकवरी वाक्यांश बनाने के लिए इन शब्दों का चयन करें।
 
 
 ![mnemonic](assets/notext/6.webp)
@@ -332,7 +332,7 @@ a27abf1aff70311917a59a43ce86fa45a62723a00dd2f9d3d059aeac9b4b13d8
 इस समायोजन के बाद, आपके पास सूची में प्रत्येक शब्द की रैंक होगी। बस इतना ही बाकी है कि प्रत्येक शब्द को उसकी संख्या से पहचाना जाए। जाहिर है, अन्य सभी चरणों की तरह, आपको इस रूपांतरण को करने के लिए अपने कंप्यूटर का उपयोग नहीं करना चाहिए। इसलिए, सुनिश्चित करें कि आपने सूची को पहले से प्रिंट कर लिया है।
 
 
-[**-> BIP39 सूची को A4 प्रारूप में प्रिंट करें।**](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)
+[**-> BIP39 सूची को A4 प्रारूप में प्रिंट करें।**](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)
 
 
 उदाहरण के लिए, यदि पहली पंक्ति से प्राप्त संख्या 1721 है, तो संबंधित शब्द सूची में 1721वें स्थान पर होगा:

@@ -9,7 +9,7 @@ description: Plan ₿ Networkの校正で留意すべき点は何ですか？
 このチュートリアルへようこそ。Bitcoinの資料をできるだけ多くの言語で翻訳し、Bitcoinがどのように機能し、日常生活でどのように使用できるかを人々に知ってもらうという私たちの使命に共感していただき、うれしく思います。
 
 
-まず第一に、Plan ₿ Academy [公開リポジトリ](https://github.com/Plan ₿ Academy/Bitcoin-educational-content) に貢献することで、チュートリアルを書いたり、既存のコンテンツを校正したり、あるいはプラットフォームに新しい言語を追加することを提案するチャンスを得ることができます。もっと知るには、まず私たちの[Telegram Group](https://t.me/PlanBNetwork_ContentBuilder)に参加し、あなたとあなたが話せる言語について簡単なプレゼンテーションを書いてください。
+まず第一に、Plan ₿ Academy [公開リポジトリ](https://github.com/PlanB-Network/Bitcoin-educational-content) に貢献することで、チュートリアルを書いたり、既存のコンテンツを校正したり、あるいはプラットフォームに新しい言語を追加することを提案するチャンスを得ることができます。もっと知るには、まず私たちの[Telegram Group](https://t.me/PlanBNetwork_ContentBuilder)に参加し、あなたとあなたが話せる言語について簡単なプレゼンテーションを書いてください。
 
 
 このチュートリアルは、コンテンツの校正を希望するコントリビューターに捧げます。彼らのほとんどは[Github](https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)やリポジトリ内で使用している[Markdown言語](https://www.markdownguide.org/basic-syntax/)についてあまり知らないので、このタスクに関わる重要な要素についての洞察を共有することが重要です。
@@ -289,7 +289,7 @@ PRを送る際、次のような形式で名前をつけると素晴らしいで
 
 また、PR**の**コメント欄には、校正作業を開始したときにコーディネーターから送られてきたissueの番号と "closes "を、その前に``#``と書いてください。
 
-例えば、cyp201の校正＋クイズのPRを送ったばかりなら、「closes [#2934](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/issues/2934)」と書けばいい。
+例えば、cyp201の校正＋クイズのPRを送ったばかりなら、「closes [#2934](https://github.com/PlanB-Network/Bitcoin-educational-content/issues/2934)」と書けばいい。
 
 
 こうすることで、PRとイシューがつながり、公開されているGithubリポジトリを誰が読んでも簡単に情報を見つけることができる。

@@ -6,7 +6,7 @@ description: Làm thế nào để thêm hoặc sửa đổi hồ sơ giáo viê
 
 Nếu bạn có kế hoạch đóng góp cho Plan ₿ Academy bằng cách viết một hướng dẫn hoặc khóa học mới, bạn sẽ cần một hồ sơ giáo viên. Hồ sơ này sẽ cho phép bạn nhận được các khoản tín dụng phù hợp cho nội dung bạn đóng góp cho nền tảng.
 
-Đối với những bạn đã tham gia tạo nội dung giáo dục trên Plan ₿ Academy, có lẽ bạn đã có hồ sơ giáo viên. Bạn có thể tìm thấy hồ sơ này trong thư mục `/professors` [trên kho lưu trữ GitHub của chúng tôi](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/professors). Nếu hồ sơ của bạn đã tồn tại, hãy tìm thông tin đăng nhập của bạn trong tệp `professor.yml`.
+Đối với những bạn đã tham gia tạo nội dung giáo dục trên Plan ₿ Academy, có lẽ bạn đã có hồ sơ giáo viên. Bạn có thể tìm thấy hồ sơ này trong thư mục `/professors` [trên kho lưu trữ GitHub của chúng tôi](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors). Nếu hồ sơ của bạn đã tồn tại, hãy tìm thông tin đăng nhập của bạn trong tệp `professor.yml`.
 
 Để thay đổi hồ sơ của bạn, hãy vào phần "Chỉnh sửa hồ sơ giáo viên" ở cuối hướng dẫn này.
 
@@ -16,7 +16,7 @@ Cách dễ nhất để tạo hồ sơ giáo viên của bạn trên Plan ₿ Ac
 
 ### 1 - Cấu hình môi trường cục bộ của bạn
 
-Bạn phải có Fork của riêng mình từ [kho lưu trữ Plan ₿ Academy trên GitHub](https://github.com/Plan ₿ Academy/Bitcoin-educational-content).
+Bạn phải có Fork của riêng mình từ [kho lưu trữ Plan ₿ Academy trên GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content).
 
 Đồng bộ hóa nhánh chính (`dev`) của Fork với kho lưu trữ nguồn.
 
@@ -27,7 +27,7 @@ Cập nhật bản sao cục bộ của bạn.
 git clone https://github.com/<username>/bitcoin-educational-content.git
 cd bitcoin-educational-content
 # Ajouter le dépôt source en tant que remote upstream
-git remote add upstream https://github.com/Plan ₿ Academy/bitcoin-educational-content.git
+git remote add upstream https://github.com/PlanB-Network/bitcoin-educational-content.git
 # Récupérer les dernières modifications depuis le dépôt source
 git fetch upstream
 # Se positionner sur la branche principale 'dev'
@@ -119,7 +119,7 @@ Nếu bạn đã thành thạo cách sử dụng Git, hãy sửa đổi hồ sơ
 Đối với người mới bắt đầu, tôi khuyên bạn nên thực hiện sửa đổi trực tiếp thông qua trang web Interface của GitHub. Đảm bảo bạn có tài khoản GitHub. Nếu bạn không biết cách tạo tài khoản, hãy làm theo hướng dẫn này:
 
 https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
-Truy cập [kho lưu trữ GitHub Plan ₿ Academy dành riêng cho dữ liệu](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/graphs/contributors).
+Truy cập [kho lưu trữ GitHub Plan ₿ Academy dành riêng cho dữ liệu](https://github.com/PlanB-Network/Bitcoin-educational-content/graphs/contributors).
 
 ![Image](assets/fr/03.webp)
 

@@ -8,7 +8,7 @@ description: Je, ninawezaje kuongeza au kurekebisha wasifu wangu wa mwalimu kwen
 Ikiwa unapanga kuchangia Plan ₿ Academy kwa kuandika mafunzo au kozi mpya, utahitaji wasifu wa mwalimu. Wasifu huu utakuwezesha kupokea mikopo inayofaa kwa maudhui unayochangia kwenye jukwaa.
 
 
-Kwa wale ambao tayari wamehusika katika kuunda maudhui ya elimu kwenye Plan ₿ Academy, labda tayari una wasifu wa mwalimu. Unaweza kuipata kwenye folda ya `/maprofesa` [kwenye hazina yetu ya GitHub](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/professors). Ikiwa wasifu wako tayari upo, tafuta kuingia kwako katika faili ya `professor.yml`.
+Kwa wale ambao tayari wamehusika katika kuunda maudhui ya elimu kwenye Plan ₿ Academy, labda tayari una wasifu wa mwalimu. Unaweza kuipata kwenye folda ya `/maprofesa` [kwenye hazina yetu ya GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors). Ikiwa wasifu wako tayari upo, tafuta kuingia kwako katika faili ya `professor.yml`.
 
 
 Ili kufanya mabadiliko kwenye wasifu wako, nenda kwenye sehemu ya "Hariri wasifu wako wa mwalimu" mwishoni mwa mafunzo haya.
@@ -23,7 +23,7 @@ Njia rahisi zaidi ya kuunda wasifu wako wa mwalimu kwenye Plan ₿ Academy ni ku
 ### 1 - Sanidi mazingira ya eneo lako
 
 
-Ni lazima uwe na Fork yako mwenyewe kutoka [Plan ₿ Academy hazina kwenye GitHub](https://github.com/Plan ₿ Academy/Bitcoin-educational-content).
+Ni lazima uwe na Fork yako mwenyewe kutoka [Plan ₿ Academy hazina kwenye GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content).
 
 
 Sawazisha tawi kuu (`dev`) la Fork yako na hazina ya chanzo.
@@ -37,7 +37,7 @@ Sasisha mshirika wako wa karibu.
 git clone https://github.com/<username>/bitcoin-educational-content.git
 cd bitcoin-educational-content
 # Ajouter le dépôt source en tant que remote upstream
-git remote add upstream https://github.com/Plan ₿ Academy/bitcoin-educational-content.git
+git remote add upstream https://github.com/PlanB-Network/bitcoin-educational-content.git
 # Récupérer les dernières modifications depuis le dépôt source
 git fetch upstream
 # Se positionner sur la branche principale 'dev'
@@ -157,7 +157,7 @@ Kwa wanaoanza, ninapendekeza kufanya marekebisho moja kwa moja kupitia mtandao w
 
 
 https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
-Nenda kwenye [hakuna ya Plan ₿ Academy ya GitHub iliyowekwa kwa data](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/graphs/contributors).
+Nenda kwenye [hakuna ya Plan ₿ Academy ya GitHub iliyowekwa kwa data](https://github.com/PlanB-Network/Bitcoin-educational-content/graphs/contributors).
 
 
 ![Image](assets/fr/03.webp)

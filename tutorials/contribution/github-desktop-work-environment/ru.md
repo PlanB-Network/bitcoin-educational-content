@@ -45,7 +45,7 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 
 ## Шаг 3: Создайте форк репозитория Plan ₿ Academy
 
-- Перейдите в репозиторий данных Plan ₿ Academy по следующему адресу: [https://github.com/Plan ₿ Academy/bitcoin-educational-content](https://github.com/Plan ₿ Academy/bitcoin-educational-content): ![github-desktop](assets/10.webp)
+- Перейдите в репозиторий данных Plan ₿ Academy по следующему адресу: [https://github.com/PlanB-Network/bitcoin-educational-content](https://github.com/PlanB-Network/bitcoin-educational-content): ![github-desktop](assets/10.webp)
 - На этой странице нажмите кнопку `Fork` в верхнем правом углу окна: ![github-desktop](assets/11.webp)
 - В меню создания вы можете оставить настройки по умолчанию. Убедитесь, что отмечена галочка `Copy the dev branch only`, затем нажмите кнопку `Create fork`: ![github-desktop](assets/12.webp)
 - Затем вы попадете в свой собственный форк репозитория Plan ₿ Academy: ![github-desktop](assets/13.webp)

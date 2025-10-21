@@ -45,7 +45,7 @@ description: چگونه عبارت بازیابی generate خود را با تا
 - یک برگ کاغذ؛
 - یک خودکار یا مداد، ایده‌آل این است که رنگ‌های مختلفی داشته باشد تا به سازماندهی کمک کند؛
 - چندین تاس، برای به حداقل رساندن خطرات تعصب مربوط به تاس نامتعادل؛
-- [فهرست 2048 کلمه BIP39](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf) چاپ شده است.
+- [فهرست 2048 کلمه BIP39](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf) چاپ شده است.
 
 
 متعاقباً، استفاده از یک کامپیوتر با یک ترمینال برای محاسبه چکسام ضروری خواهد شد. دقیقاً به همین دلیل است که من توصیه می‌کنم از تولید دستی عبارت Mnemonic خودداری کنید. به نظر من، دخالت یک کامپیوتر، حتی با رعایت احتیاط‌های ذکر شده در این آموزش، به طور قابل توجهی آسیب‌پذیری یک Wallet را افزایش می‌دهد.
@@ -102,7 +102,7 @@ description: چگونه عبارت بازیابی generate خود را با تا
 ![mnemonic](assets/notext/5.webp)
 
 
-در نهایت، عدد در مبنای ده به ما موقعیت کلمه‌ی متناظر در [لیست 2048 کلمه‌ای BIP39](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf) را نشان می‌دهد. تنها کاری که باقی می‌ماند این است که این کلمات را انتخاب کنیم تا عبارت بازیابی برای Wallet خود را بسازیم.
+در نهایت، عدد در مبنای ده به ما موقعیت کلمه‌ی متناظر در [لیست 2048 کلمه‌ای BIP39](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf) را نشان می‌دهد. تنها کاری که باقی می‌ماند این است که این کلمات را انتخاب کنیم تا عبارت بازیابی برای Wallet خود را بسازیم.
 
 
 ![mnemonic](assets/notext/6.webp)
@@ -332,7 +332,7 @@ a27abf1aff70311917a59a43ce86fa45a62723a00dd2f9d3d059aeac9b4b13d8
 پس از این تنظیم، شما رتبه هر کلمه را درون لیست دارید. تنها کاری که باقی می‌ماند شناسایی هر کلمه با شماره آن است. بدیهی است که مانند تمام مراحل دیگر، نباید از کامپیوتر خود برای انجام این تبدیل استفاده کنید. بنابراین، مطمئن شوید که لیست را از قبل چاپ کرده‌اید.
 
 
-[**-> لیست BIP39 را در قالب A4 چاپ کنید.**](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)
+[**-> لیست BIP39 را در قالب A4 چاپ کنید.**](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)
 
 
 به عنوان مثال، اگر عدد مشتق شده از خط اول ۱۷۲۱ باشد، کلمه متناظر، ۱۷۲۱مین کلمه در فهرست خواهد بود:

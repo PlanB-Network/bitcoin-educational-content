@@ -30,7 +30,7 @@ For å skape din gjenopprettingsfrase for hånd, vil du trenge:
 - Et ark papir;
 - En penn eller blyant, ideelt sett i forskjellige farger for å lette organiseringen;
 - Flere terninger, for å minimere risikoen for skjevhet relatert til en ubalansert terning;
-- [Listen over 2048 BIP39 ord](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf) printet ut.
+- [Listen over 2048 BIP39 ord](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf) printet ut.
 
 Etter dette vil bruk av en datamaskin med en terminal bli nødvendig for beregningen av kontrollsummen. Det er nettopp av denne grunn jeg fraråder manuell generering av mnemonic frasen. Etter min mening øker inngripen av en datamaskin, selv under forholdsreglene nevnt i denne veiledningen, betydelig sårbarheten til en lommebok.
 For en eksperimentell tilnærming angående en "fiktiv lommebok", er det mulig å bruke din vanlige datamaskin og dens terminal. Imidlertid, for en mer rigorøs tilnærming rettet mot å begrense risikoen for å kompromittere din frase, ville det ideelle være å bruke en PC frakoblet fra internett (helst uten en wifi-komponent eller RJ45 kablet tilkobling), utstyrt med et minimum av periferiutstyr (alt bør være koblet til med kabel, for å unngå Bluetooth), og fremfor alt, kjørende på en amnesisk Linux-distribusjon som [Tails](https://tails.boum.org/index.fr.html), startet fra et flyttbart medium.
@@ -65,7 +65,7 @@ Hvert av disse pakkene representerer et tall i binær som deretter vil bli konve
 
 ![mnemonic](assets/notext/5.webp)
 
-Til slutt forteller tallet i desimal oss posisjonen til det tilsvarende ordet i [listen over 2048 BIP39 ord](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf). Alt som gjenstår er å velge disse ordene for å sette sammen gjenopprettingsfrasen for vår lommebok.
+Til slutt forteller tallet i desimal oss posisjonen til det tilsvarende ordet i [listen over 2048 BIP39 ord](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf). Alt som gjenstår er å velge disse ordene for å sette sammen gjenopprettingsfrasen for vår lommebok.
 
 ![mnemonic](assets/notext/6.webp)
 
@@ -221,7 +221,7 @@ Med de oppnådde desimaltallene, kan vi nå finne de tilsvarende ordene i listen
 
 ![mnemonic](assets/notext/24.webp)
 Etter denne justeringen har du rangen til hvert ord i listen. Alt som gjenstår er å identifisere hvert ord med dets nummer. Åpenbart, som med alle de andre stegene, må du ikke bruke datamaskinen din til å utføre denne konverteringen. Derfor, sørg for at du har skrevet ut listen på forhånd.
-[**-> Skriv ut BIP39-listen i A4-format.**](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)
+[**-> Skriv ut BIP39-listen i A4-format.**](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)
 
 For eksempel, hvis nummeret som er avledet fra den første linjen er 1721, vil det tilsvarende ordet være det 1721. på listen:
 

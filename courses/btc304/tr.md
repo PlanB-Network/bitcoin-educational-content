@@ -1775,7 +1775,7 @@ Nihayetinde, "açık ve kapsayıcı" olmanın ne kadar ileri gideceğine karar v
 Bloklar ilerledikçe topluluğunuz da gelişecektir. Yeni yüzler katılacak, diğerleri uzaklaşacak ancak yol gösterici ilke aynı kalmalıdır: Bitcoin ekosistemini geliştirmek ve üyeler arasındaki bağları güçlendirmek.
 
 
-Uygulanabilecek birçok proje ve girişim vardır. Bu bölüm, bir topluluk içinde veya bir buluşma sırasında gerçekleştirilebilecek fikirlerin kapsamlı olmayan bir listesini sunmaktadır. Size ilham verenleri seçmekten ve hatta [GitHub'da bir "Çekme İsteği" yaparak] bu kursa kendi fikirlerinizle katkıda bulunmaktan çekinmeyin (https://github.com/Plan ₿ Academy/Bitcoin-educational-content).
+Uygulanabilecek birçok proje ve girişim vardır. Bu bölüm, bir topluluk içinde veya bir buluşma sırasında gerçekleştirilebilecek fikirlerin kapsamlı olmayan bir listesini sunmaktadır. Size ilham verenleri seçmekten ve hatta [GitHub'da bir "Çekme İsteği" yaparak] bu kursa kendi fikirlerinizle katkıda bulunmaktan çekinmeyin (https://github.com/PlanB-Network/Bitcoin-educational-content).
 
 
 Konuya girmeden önce, daha önce değindiğimiz bir noktaya tekrar değinelim.

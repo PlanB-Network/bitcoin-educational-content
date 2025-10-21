@@ -46,7 +46,7 @@ Es gibt eine Vielzahl von Software, die speziell für das Bearbeiten von Markdow
 
 ## Schritt 3: Forken Sie das Plan ₿ Academy Repository
 
-- Gehen Sie zum Datenrepository des Plan ₿ Academy unter folgender Adresse: [https://github.com/Plan ₿ Academy/bitcoin-educational-content](https://github.com/Plan ₿ Academy/bitcoin-educational-content): ![github-desktop](assets/10.webp)
+- Gehen Sie zum Datenrepository des Plan ₿ Academy unter folgender Adresse: [https://github.com/PlanB-Network/bitcoin-educational-content](https://github.com/PlanB-Network/bitcoin-educational-content): ![github-desktop](assets/10.webp)
 - Klicken Sie auf dieser Seite auf den `Fork`-Button oben rechts im Fenster: ![github-desktop](assets/11.webp)
 - Im Erstellungsmenü können Sie die Standardeinstellungen belassen. Stellen Sie sicher, dass das Kästchen `Copy the dev branch only` angekreuzt ist, und klicken Sie dann auf den `Create fork`-Button: ![github-desktop](assets/12.webp)
 - Sie gelangen dann zu Ihrem eigenen Fork des Plan ₿ Academy Repository: ![github-desktop](assets/13.webp)

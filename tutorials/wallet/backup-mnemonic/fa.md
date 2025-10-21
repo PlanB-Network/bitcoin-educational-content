@@ -74,7 +74,7 @@ Mnemonic به شما دسترسی کامل و بدون محدودیت به تم�
 اگر ترجیح می‌دهید در یک دستگاه پشتیبان‌گیری فلزی کامل سرمایه‌گذاری کنید، توصیه می‌کنم نگاهی به [آزمون‌های مقاومت جیمسون لاپ](https://jlopp.github.io/metal-Bitcoin-storage-reviews/) بیندازید، که اکثر راه‌حل‌های موجود در بازار را ارزیابی می‌کند. به شما توصیه می‌کنم که براکت‌های یک‌تکه، مانند یک صفحه فلزی برای حکاکی، مهر زدن یا پانچ کردن را انتخاب کنید. این دستگاه‌ها عموماً مقاومت بسیار بیشتری نسبت به سیستم‌هایی که از حروف مستقل برای مونتاژ استفاده می‌کنند، ارائه می‌دهند.
 
 
-اگر شما گزینه‌ی Wallet کاغذی را انتخاب کنید، چندین گزینه دارید: یک برگ کاغذ ساده و خالی، مقوای Wallet که اغلب با Hardware Wallet شما ارائه می‌شود، یا قالب قابل دانلود ما که می‌توانید آن را [با کلیک اینجا](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/resources/bet/Wallet-backup-sheet/assets/Mnemonic-sheet.pdf) چاپ کنید.
+اگر شما گزینه‌ی Wallet کاغذی را انتخاب کنید، چندین گزینه دارید: یک برگ کاغذ ساده و خالی، مقوای Wallet که اغلب با Hardware Wallet شما ارائه می‌شود، یا قالب قابل دانلود ما که می‌توانید آن را [با کلیک اینجا](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/Wallet-backup-sheet/assets/Mnemonic-sheet.pdf) چاپ کنید.
 
 
 ![SEED](assets/fr/02.webp)

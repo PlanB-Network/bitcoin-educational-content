@@ -8,7 +8,7 @@ description: Plan ₿ Network에서 교사 프로필을 추가하거나 수정�
 새 튜토리얼이나 강좌를 작성하여 Plan ₿ Network에 기여하려는 경우 교사 프로필이 필요합니다. 이 프로필을 통해 플랫폼에 기여한 콘텐츠에 대해 적절한 크레딧을 받을 수 있습니다.
 
 
-이미 Plan ₿ Network에서 교육 콘텐츠 제작에 참여한 적이 있는 분이라면 이미 교사 프로필이 있을 것입니다. GitHub 리포지토리의 `/professors` 폴더에서 찾을 수 있습니다(https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/professors). 프로필이 이미 있는 경우 `professor.yml` 파일에서 로그인 정보를 찾으세요.
+이미 Plan ₿ Network에서 교육 콘텐츠 제작에 참여한 적이 있는 분이라면 이미 교사 프로필이 있을 것입니다. GitHub 리포지토리의 `/professors` 폴더에서 찾을 수 있습니다(https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors). 프로필이 이미 있는 경우 `professor.yml` 파일에서 로그인 정보를 찾으세요.
 
 
 프로필을 변경하려면 이 튜토리얼 마지막에 있는 '교사 프로필 수정' 섹션으로 이동합니다.
@@ -23,7 +23,7 @@ Plan ₿ Network에서 교사 프로필을 만드는 가장 쉬운 방법은 통
 ### 1 - 로컬 환경 구성
 
 
-GitHub의 Plan ₿ Academy 리포지토리](https://github.com/Plan ₿ Academy/Bitcoin-educational-content)의 Fork이 있어야 합니다.
+GitHub의 Plan ₿ Academy 리포지토리](https://github.com/PlanB-Network/Bitcoin-educational-content)의 Fork이 있어야 합니다.
 
 
 Fork의 메인 브랜치(`개발`)를 소스 리포지토리와 동기화합니다.
@@ -37,7 +37,7 @@ Fork의 메인 브랜치(`개발`)를 소스 리포지토리와 동기화합니�
 git clone https://github.com/<username>/bitcoin-educational-content.git
 cd bitcoin-educational-content
 # Ajouter le dépôt source en tant que remote upstream
-git remote add upstream https://github.com/Plan ₿ Academy/bitcoin-educational-content.git
+git remote add upstream https://github.com/PlanB-Network/bitcoin-educational-content.git
 # Récupérer les dernières modifications depuis le dépôt source
 git fetch upstream
 # Se positionner sur la branche principale 'dev'
@@ -157,7 +157,7 @@ Git 사용법을 익혔다면 새 브랜치를 만들고 기존 폴더에서 직
 
 
 https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
-데이터 전용 Plan ₿ Academy GitHub 리포지토리](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/graphs/contributors)로 이동합니다.
+데이터 전용 Plan ₿ Academy GitHub 리포지토리](https://github.com/PlanB-Network/Bitcoin-educational-content/graphs/contributors)로 이동합니다.
 
 
 ![Image](assets/fr/03.webp)

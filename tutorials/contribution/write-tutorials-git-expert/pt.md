@@ -61,7 +61,7 @@ Para criar diagramas e imagens:
 ### 1 - Configurar o seu ambiente local
 
 
-- Tem de ter a sua própria bifurcação do repositório [Plan ₿ Academy no GitHub] (https://github.com/Plan ₿ Academy/bitcoin-educational-content).
+- Tem de ter a sua própria bifurcação do repositório [Plan ₿ Academy no GitHub] (https://github.com/PlanB-Network/bitcoin-educational-content).
 - Sincroniza o ramo principal (`dev`) da sua bifurcação com o repositório de código fonte.
 - Actualize o seu clone local.
 
@@ -70,7 +70,7 @@ Para criar diagramas e imagens:
 git clone https://github.com/<votre-nom-utilisateur>/bitcoin-educational-content.git
 cd bitcoin-educational-content
 # Ajouter le dépôt source en tant que remote upstream
-git remote add upstream https://github.com/Plan ₿ Academy/bitcoin-educational-content.git
+git remote add upstream https://github.com/PlanB-Network/bitcoin-educational-content.git
 # Récupérer les dernières modifications depuis le dépôt source
 git fetch upstream
 # Se positionner sur la branche principale 'dev'
@@ -99,7 +99,7 @@ git push -u origin tuto-green-wallet-loic
 
 ### 3 - Adicionar os documentos do tutorial
 
-***Nota:*** Pode automatizar os passos 3 e 4 utilizando [o meu script Python GUI](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/scripts/tutorial-related/new-tutorial-creation). Execute-o diretamente a partir da sua pasta no seu clone local e, em seguida, preencha os campos necessários na GUI. Para mais informações sobre como o instalar e utilizar, consulte o [README](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
+***Nota:*** Pode automatizar os passos 3 e 4 utilizando [o meu script Python GUI](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/scripts/tutorial-related/new-tutorial-creation). Execute-o diretamente a partir da sua pasta no seu clone local e, em seguida, preencha os campos necessários na GUI. Para mais informações sobre como o instalar e utilizar, consulte o [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
 
 Se preferir fazê-lo manualmente, siga estes passos:
 
@@ -166,9 +166,9 @@ Aqui estão os campos obrigatórios:
 
 - **id**: Um UUID (_Identificador Universalmente Único_) que identifica de maneira única o tutorial. Você pode gerá-lo usando [uma ferramenta online](https://www.uuidgenerator.net/version4). O único requisito é que este UUID seja aleatório para evitar conflitos com outro UUID na plataforma;
 
-- **project_id**: O UUID da empresa ou organização por trás da ferramenta apresentada no tutorial [da lista de projetos](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/resources/projects). Por exemplo, se você estiver criando um tutorial sobre o software Green Wallet, poderá encontrar o `project_id` no seguinte arquivo: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Essas informações são adicionadas ao arquivo YAML do seu tutorial porque a Plan ₿ Academy mantém um banco de dados de todas as empresas e organizações que operam no Bitcoin ou projetos relacionados. Ao adicionar o `project_id` da entidade vinculada ao seu tutorial, você cria um vínculo entre os dois elementos;
+- **project_id**: O UUID da empresa ou organização por trás da ferramenta apresentada no tutorial [da lista de projetos](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Por exemplo, se você estiver criando um tutorial sobre o software Green Wallet, poderá encontrar o `project_id` no seguinte arquivo: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Essas informações são adicionadas ao arquivo YAML do seu tutorial porque a Plan ₿ Academy mantém um banco de dados de todas as empresas e organizações que operam no Bitcoin ou projetos relacionados. Ao adicionar o `project_id` da entidade vinculada ao seu tutorial, você cria um vínculo entre os dois elementos;
 
-- **tags**: 2 ou 3 palavras-chave relevantes relacionadas ao conteúdo do tutorial, escolhidas exclusivamente [da lista de tags da Plan ₿ Academy](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags**: 2 ou 3 palavras-chave relevantes relacionadas ao conteúdo do tutorial, escolhidas exclusivamente [da lista de tags da Plan ₿ Academy](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 - **category**: A subcategoria correspondente ao conteúdo do tutorial, de acordo com a estrutura do site Plan ₿ Academy (por exemplo, para carteiras: `desktop`, `hardware`, `mobile`, `backup`);
 
@@ -178,7 +178,7 @@ Aqui estão os campos obrigatórios:
     - `advanced`
     - `expert`
 
-- **professor_id**: Seu `professor_id` (UUID) conforme exibido no [seu perfil de professor](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/professors);
+- **professor_id**: Seu `professor_id` (UUID) conforme exibido no [seu perfil de professor](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
 
 - **original_language**: O idioma original do tutorial (por exemplo, `fr`, `en`, etc.);
 

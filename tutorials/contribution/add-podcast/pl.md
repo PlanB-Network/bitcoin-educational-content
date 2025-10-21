@@ -20,7 +20,7 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 
 
 
-- Przejdź do [repozytorium GitHub PlanB poświęconego danym](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/resources/podcasts) w sekcji `resources/podcasts/`:
+- Przejdź do [repozytorium GitHub PlanB poświęconego danym](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/podcasts) w sekcji `resources/podcasts/`:
 
 ![podcast](assets/02.webp)
 

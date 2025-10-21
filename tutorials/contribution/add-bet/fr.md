@@ -17,7 +17,7 @@ Vous souhaitez participer à l'enrichissement de cette base de données, mais vo
 https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
-- Rendez-vous sur [le dépôt GitHub de PlanB dédié à la data](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/resources/bet) dans la section `resources/bet/` :
+- Rendez-vous sur [le dépôt GitHub de PlanB dédié à la data](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet) dans la section `resources/bet/` :
 ![event](assets/02.webp)
 - Cliquez en haut à droite sur le bouton `Add file`, puis sur `Create new file` :
 ![event](assets/03.webp)
@@ -206,7 +206,7 @@ https://github.com/tutoriel-pandul/bitcoin-educational-content/blob/patch-1/reso
 - Ajoutez à la base de l'URL les informations suivantes pour avoir le bon lien :
 
 ```url
-https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
+https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
 ```
 
 Ce que l'on fait ici, c'est que l'on anticipe le futur lien vers votre fichier, une fois que votre proposition sera fusionnée sur le dépôt source de Plan ₿ Academy.

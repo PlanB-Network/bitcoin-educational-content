@@ -15,7 +15,7 @@ Vuoi aggiungere una conferenza Bitcoin su Plan ₿ Academy aumentando la visibil
 https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
-- Vai al [repository GitHub di Plan ₿ Academy](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/resources/conference) nella sezione `resources/conference/`:
+- Vai al [repository GitHub di Plan ₿ Academy](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) nella sezione `resources/conference/`:
 
 ![evento](assets/02.webp)
 

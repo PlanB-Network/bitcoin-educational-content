@@ -202,7 +202,7 @@ Da biste saznali više o smernicama koje treba pratiti prilikom lekture u Plan �
 
 
 
-- Čestitamo, vaš PR je poslat! Možete pratiti njegov napredak u kartici "Pull requests" na [Plan ₿ Academy's GitHub repository](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/pulls):
+- Čestitamo, vaš PR je poslat! Možete pratiti njegov napredak u kartici "Pull requests" na [Plan ₿ Academy's GitHub repository](https://github.com/PlanB-Network/Bitcoin-educational-content/pulls):
 
 
 ![REVIEW](assets/fr/12.webp)

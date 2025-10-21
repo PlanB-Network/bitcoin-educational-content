@@ -50,7 +50,7 @@ description: 了解保护比特币钱包的最佳做法
 
 如果您想投资购买一套完整的金属备用装置，我建议您看看 [Jameson Lopp 的电阻测试](https://jlopp.github.io/metal-bitcoin-storage-reviews/)，它对市场上的大多数解决方案都进行了评估。我建议您选择一体式支架，如用于雕刻、冲压或冲孔的金属板。与使用独立字母组合的系统相比，这些装置的阻力通常要大得多。
 
-如果您选择纸质钱包，您有几种选择：一张简单的白纸、通常随硬件钱包提供的硬纸板钱包，或者我们提供的可下载模板，您可以[点击此处](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/resources/bet/wallet-backup-sheet/assets/mnemonic-sheet.pdf)打印出来。
+如果您选择纸质钱包，您有几种选择：一张简单的白纸、通常随硬件钱包提供的硬纸板钱包，或者我们提供的可下载模板，您可以[点击此处](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/wallet-backup-sheet/assets/mnemonic-sheet.pdf)打印出来。
 
 ![SEED](assets/fr/02.webp)
 

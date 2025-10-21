@@ -25,4 +25,4 @@ description: क्रुक्स DIY Bitcoin हार्डवेयर स�
 इस वीडियो के अंत तक, आप स्व-संरक्षण के लिए सुरक्षित, DIY विकल्प के रूप में क्रुक्स का उपयोग करने के लिए पूरी तरह से तैयार हो जाएंगे।
 
 
-**नोट:** यह ट्यूटोरियल केवल अंग्रेज़ी में उपलब्ध है, हमें अभी भी इस विषय पर एक विस्तृत गाइड लिखने के लिए किसी व्यक्ति की आवश्यकता है। यदि आप ऐसा ही हैं, तो कृपया हमारे [Telegram](https://t.me/PlanBNetwork_ContentBuilder/325) या [GitHub](https://github.com/Plan ₿ Academy/Bitcoin-educational-content) पर हमसे संपर्क करें।
+**नोट:** यह ट्यूटोरियल केवल अंग्रेज़ी में उपलब्ध है, हमें अभी भी इस विषय पर एक विस्तृत गाइड लिखने के लिए किसी व्यक्ति की आवश्यकता है। यदि आप ऐसा ही हैं, तो कृपया हमारे [Telegram](https://t.me/PlanBNetwork_ContentBuilder/325) या [GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content) पर हमसे संपर्क करें।

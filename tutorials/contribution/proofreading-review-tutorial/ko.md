@@ -201,7 +201,7 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 
 
 
-- PR이 제출되었습니다! Plan ₿ Network의 깃허브 리포지토리](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/pulls)의 "풀 리퀘스트" 탭에서 진행 상황을 추적할 수 있습니다:
+- PR이 제출되었습니다! Plan ₿ Network의 깃허브 리포지토리](https://github.com/PlanB-Network/Bitcoin-educational-content/pulls)의 "풀 리퀘스트" 탭에서 진행 상황을 추적할 수 있습니다:
 
 
 ![REVIEW](assets/fr/12.webp)

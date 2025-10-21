@@ -45,7 +45,7 @@ Förutsättningar innan du påbörjar handledningen:
 
 
 - Har ett [GitHub-konto] (https://github.com/signup);
-- Ha en Fork av [Plan ₿ Academy-källförvaret] (https://github.com/Plan ₿ Academy/Bitcoin-educational-content);
+- Ha en Fork av [Plan ₿ Academy-källförvaret] (https://github.com/PlanB-Network/Bitcoin-educational-content);
 - Har [en lärarprofil på Plan ₿ Academy] (https://planb.academy/professors) (endast om du erbjuder en fullständig handledning).
 
 
@@ -197,11 +197,11 @@ Här är de obligatoriska fälten:
 
 
 
-- **projekt_id**: UUID för företaget eller organisationen bakom det verktyg som presenteras i handledningen [från projektlistan] (https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/resources/projects). Om du t.ex. skapar en handledning om programvaran Green Wallet hittar du detta `project_id` i följande fil: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Den här informationen läggs till i din handlednings YAML-fil eftersom Plan ₿ Academy upprätthåller en databas över alla företag och organisationer som arbetar med Bitcoin eller relaterade projekt. Genom att lägga till `project_id` för den enhet som är länkad till din handledning skapar du en länk mellan de två Elements;
+- **projekt_id**: UUID för företaget eller organisationen bakom det verktyg som presenteras i handledningen [från projektlistan] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Om du t.ex. skapar en handledning om programvaran Green Wallet hittar du detta `project_id` i följande fil: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Den här informationen läggs till i din handlednings YAML-fil eftersom Plan ₿ Academy upprätthåller en databas över alla företag och organisationer som arbetar med Bitcoin eller relaterade projekt. Genom att lägga till `project_id` för den enhet som är länkad till din handledning skapar du en länk mellan de två Elements;
 
 
 
-- **taggar**: 2 eller 3 relevanta nyckelord relaterade till handledningens innehåll, uteslutande valda [från Plan ₿ Academy:s tagglista](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **taggar**: 2 eller 3 relevanta nyckelord relaterade till handledningens innehåll, uteslutande valda [från Plan ₿ Academy:s tagglista](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 
 
@@ -217,7 +217,7 @@ Här är de obligatoriska fälten:
 
 
 
-- **professor_id**: Ditt `professor_id` (UUID) som visas på [din professorsprofil] (https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/professors);
+- **professor_id**: Ditt `professor_id` (UUID) som visas på [din professorsprofil] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors);
 
 
 

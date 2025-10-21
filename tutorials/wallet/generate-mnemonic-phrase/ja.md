@@ -30,7 +30,7 @@ description: サイコロを使って自分のリカバリーフレーズを生�
 - 紙のシート；
 - ペンまたは鉛筆、できれば組織化を容易にするために異なる色が理想的；
 - 偏りのあるサイコロに関連するリスクを最小限に抑えるために、複数のサイコロ；
-- 印刷された[2048 BIP39 単語のリスト](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)。
+- 印刷された[2048 BIP39 単語のリスト](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)。
 
 その後、チェックサムの計算にはコンピューターとターミナルの使用が必要になります。この理由から、私は助記フレーズの手動生成を勧めません。私の意見では、このチュートリアルで述べられた予防措置の下でも、コンピューターの介入はウォレットの脆弱性を大幅に高めます。
 「架空のウォレット」に関する実験的なアプローチでは、通常使用しているコンピュータとそのターミナルを使用することができます。しかし、フレーズの危険性を限定することを目指したより厳格なアプローチでは、インターネットから切断された PC（できれば WiFi コンポーネントや RJ45 有線接続がないもの）を使用し、最小限の周辺機器（すべてケーブルで接続されるべき）を装備し、何よりも、取り外し可能なメディアから起動される[Tails](https://tails.boum.org/index.fr.html)のような記憶喪失型 Linux ディストリビューションで動作することが理想的です。
@@ -65,7 +65,7 @@ description: サイコロを使って自分のリカバリーフレーズを生�
 
 ![mnemonic](assets/en/5.webp)
 
-最終的に、10 進数での数は、[2048 語の BIP39 単語リスト](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)の中で対応する単語の位置を教えてくれます。あとは、これらの単語を選択して、私たちのウォレットのための回復フレーズを構成するだけです。
+最終的に、10 進数での数は、[2048 語の BIP39 単語リスト](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)の中で対応する単語の位置を教えてくれます。あとは、これらの単語を選択して、私たちのウォレットのための回復フレーズを構成するだけです。
 
 ![mnemonic](assets/en/6.webp)
 
@@ -224,7 +224,7 @@ a27abf1aff70311917a59a43ce86fa45a62723a00dd2f9d3d059aeac9b4b13d8
 
 ![ニーモニック](assets/en/24.webp)
 この調整の後、リスト内の各単語のランクが得られます。残る作業は、各単語をその番号で識別することです。明らかに、他のすべてのステップと同様に、この変換を行うためにコンピュータを使用してはいけません。したがって、事前にリストを印刷しておくことを確認してください。
-[**-> BIP39 リストを A4 フォーマットで印刷する。**](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)
+[**-> BIP39 リストを A4 フォーマットで印刷する。**](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)
 
 例えば、最初の行から導き出された番号が 1721 である場合、対応する単語はリストの 1721 番目になります：
 

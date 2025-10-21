@@ -50,7 +50,7 @@ Crediti immagine: [*SAFU Ninja Review*, Jameson Lopp](https://jlopp.github.io/me
 
 Se preferite investire in un dispositivo di backup metallico completo, vi consiglio di dare un'occhiata ai [test di resistenza di Jameson Lopp](https://jlopp.github.io/metal-bitcoin-storage-reviews/), che valutano la maggior parte delle soluzioni disponibili sul mercato. Vi consiglio di optare per supporti monoblocco, come una piastra metallica per incisione, stampaggio o punzonatura. Questi dispositivi offrono generalmente una resistenza molto maggiore rispetto ai sistemi che utilizzano lettere indipendenti da assemblare.
 
-Se optate per un portafoglio di carta, avete diverse opzioni: un semplice foglio di carta bianca, il portafoglio di cartone spesso fornito con il portafoglio della ferramenta, o il nostro modello scaricabile che potete stampare [cliccando qui](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/resources/bet/wallet-backup-sheet/assets/mnemonic-sheet.pdf).
+Se optate per un portafoglio di carta, avete diverse opzioni: un semplice foglio di carta bianca, il portafoglio di cartone spesso fornito con il portafoglio della ferramenta, o il nostro modello scaricabile che potete stampare [cliccando qui](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/wallet-backup-sheet/assets/mnemonic-sheet.pdf).
 
 ![SEED](assets/fr/02.webp)
 

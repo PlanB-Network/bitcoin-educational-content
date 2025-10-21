@@ -1360,7 +1360,7 @@ Kwa mfano, kwa entropy ya 256-bit, matokeo $\text{ENT} \Vert \text{CS}$ ni biti 
 
 ### Ubadilishaji wa Mfuatano wa Nambari kuwa Neno la Mnemonic
 
-Mfuatano wa bits $\text{ENT} \Vert \text{CS}$ kisha umegawanywa katika sehemu za biti 11. Kila sehemu ya biti 11, ikibadilishwa kuwa desimali, inalingana na nambari kati ya 0 na 2047, ambayo huashiria nafasi ya neno [katika orodha ya maneno 2048 yaliyosanifiwa na BIP39](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
+Mfuatano wa bits $\text{ENT} \Vert \text{CS}$ kisha umegawanywa katika sehemu za biti 11. Kila sehemu ya biti 11, ikibadilishwa kuwa desimali, inalingana na nambari kati ya 0 na 2047, ambayo huashiria nafasi ya neno [katika orodha ya maneno 2048 yaliyosanifiwa na BIP39](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
 ![CYP201](assets/en/042.webp)
 

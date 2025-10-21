@@ -1013,7 +1013,7 @@ Letztendlich liegt es an dir zu entscheiden, wie weit "offen und integrativ" geh
 
 Im Laufe der Blöcke wird sich deine Gemeinschaft weiterentwickeln. Neue Gesichter werden hinzukommen, andere werden abwandern, aber der Leitgedanke sollte derselbe bleiben: das Bitcoin-Ökosystem zu entwickeln und die Bindungen zwischen den Mitgliedern zu stärken.
 
-Es gibt viele Projekte und Initiativen, die umgesetzt werden können. Dieses Kapitel bietet eine nicht erschöpfende Liste von Ideen, die innerhalb einer Gemeinschaft oder während eines Treffens umgesetzt werden können. Fühle dich frei, diejenigen auszuwählen, die dich inspirieren und trage sogar deine eigenen Ideen zu diesem Kurs bei [indem du einen "Pull Request" auf GitHub stellen](https://github.com/Plan ₿ Academy/Bitcoin-educational-content).
+Es gibt viele Projekte und Initiativen, die umgesetzt werden können. Dieses Kapitel bietet eine nicht erschöpfende Liste von Ideen, die innerhalb einer Gemeinschaft oder während eines Treffens umgesetzt werden können. Fühle dich frei, diejenigen auszuwählen, die dich inspirieren und trage sogar deine eigenen Ideen zu diesem Kurs bei [indem du einen "Pull Request" auf GitHub stellen](https://github.com/PlanB-Network/Bitcoin-educational-content).
 
 Bevor wir uns damit befassen, sollten wir noch einmal auf einen bereits erwähnten Punkt zurückkommen.
 

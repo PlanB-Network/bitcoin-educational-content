@@ -9,7 +9,7 @@ description: Koji su važni faktori koje treba imati na umu prilikom lekture na 
 Dobrodošli u ovaj vodič o **smernicama koje treba pratiti prilikom lekture sadržaja na Plan ₿ Academy**. Drago nam je što delite našu misiju da prevedemo materijale Bitcoin na što više jezika, kako bismo pomogli ljudima da steknu svest o tome kako funkcioniše i kako se može koristiti u njihovom svakodnevnom životu.
 
 
-Prvo i najvažnije, doprinos Plan ₿ Academy [javnom repozitorijumu](https://github.com/Plan ₿ Academy/Bitcoin-educational-content) daje vam priliku da pišete tutorijale, lektorirate postojeći sadržaj ili čak predložite dodavanje novog jezika na platformu. Da biste saznali više, pridružite se našoj [Telegram grupi](https://t.me/PlanBNetwork_ContentBuilder) prvo, i napišite kratku prezentaciju o sebi i jezicima koje govorite.
+Prvo i najvažnije, doprinos Plan ₿ Academy [javnom repozitorijumu](https://github.com/PlanB-Network/Bitcoin-educational-content) daje vam priliku da pišete tutorijale, lektorirate postojeći sadržaj ili čak predložite dodavanje novog jezika na platformu. Da biste saznali više, pridružite se našoj [Telegram grupi](https://t.me/PlanBNetwork_ContentBuilder) prvo, i napišite kratku prezentaciju o sebi i jezicima koje govorite.
 
 
 Ovaj vodič je posvećen saradnicima koji žele da lektorišu sadržaj. Većina njih ne zna mnogo o [Github-u](https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) ili o [Markdown jeziku](https://www.markdownguide.org/basic-syntax/) koji koristimo unutar repozitorijuma, pa je važno podeliti neka saznanja o ključnim faktorima uključenim u ovaj zadatak.
@@ -289,7 +289,7 @@ Kada pošaljete svoj PR, bilo bi sjajno ako ga nazovete koristeći ovaj format: 
 
 Pored toga, u **odeljku za komentare PR-a**, možete napisati "closes" + broj problema koji vam je koordinator poslao kada ste započeli zadatak lekture, prethodno dodajući ``#``.
 
-Na primer, ako ste upravo poslali PR sa lekturom cyp201 + kvizova, možete napisati "closes [#2934](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/issues/2934)".
+Na primer, ako ste upravo poslali PR sa lekturom cyp201 + kvizova, možete napisati "closes [#2934](https://github.com/PlanB-Network/Bitcoin-educational-content/issues/2934)".
 
 
 Na ovaj način, PR i problem će biti povezani, i svako ko čita javni Github repozitorijum može lako pronaći informacije.

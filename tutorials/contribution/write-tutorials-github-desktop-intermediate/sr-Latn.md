@@ -56,7 +56,7 @@ Preduslovi pre početka tutorijala:
 
 
 - Imate [GitHub nalog](https://github.com/signup);
-- Imate Fork iz [Plan ₿ Academy izvornog repozitorijuma](https://github.com/Plan ₿ Academy/Bitcoin-educational-content);
+- Imate Fork iz [Plan ₿ Academy izvornog repozitorijuma](https://github.com/PlanB-Network/Bitcoin-educational-content);
 - Imajte [profil profesora na Plan ₿ Academy](https://planb.academy/professors) (samo ako predlažete kompletan tutorijal).
 
 
@@ -229,7 +229,7 @@ Izaberite ime za direktorijum kreiran specifično za vaš vodič. Ime ove fascik
 ![DATA-CREATOR-PY](assets/fr/45.webp)
 
 
-`project_id` je UUID kompanije ili organizacije iza alata pokrivenog u vodiču, dostupan [u listi projekata](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/resources/projects). Na primer, za vodič o Sparrow Wallet, možete pronaći njegov `project_id` u fajlu: `Bitcoin-educational-content/resources/projects/sparrow/project.yml`. Ova informacija se dodaje u vaš YAML fajl vodiča jer Plan ₿ Academy održava bazu podataka kompanija i organizacija aktivnih u Bitcoin ili povezanim projektima. Dodavanjem povezanog `project_id`, povezujete vaš sadržaj sa relevantnim entitetom.
+`project_id` je UUID kompanije ili organizacije iza alata pokrivenog u vodiču, dostupan [u listi projekata](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Na primer, za vodič o Sparrow Wallet, možete pronaći njegov `project_id` u fajlu: `Bitcoin-educational-content/resources/projects/sparrow/project.yml`. Ova informacija se dodaje u vaš YAML fajl vodiča jer Plan ₿ Academy održava bazu podataka kompanija i organizacija aktivnih u Bitcoin ili povezanim projektima. Dodavanjem povezanog `project_id`, povezujete vaš sadržaj sa relevantnim entitetom.
 
 
 ***Ažuriranje:*** U novoj verziji skripte više nije potrebno ručno unositi `project_id`. Dodata je funkcija pretrage koja pronalazi projekat po imenu i automatski preuzima odgovarajući `project_id`. Upišite početak imena projekta u polje "Project Name" da biste ga pretražili, a zatim izaberite željenu kompaniju iz padajućeg menija. `project_id` će biti automatski popunjen u polju ispod. Takođe ga možete uneti ručno ako je potrebno.
@@ -238,7 +238,7 @@ Izaberite ime za direktorijum kreiran specifično za vaš vodič. Ime ove fascik
 ![DATA-CREATOR-PY](assets/fr/46.webp)
 
 
-Za oznake, izaberite 2 ili 3 relevantne ključne reči povezane sa sadržajem vašeg tutorijala, birajući isključivo sa [liste oznaka Plan ₿ Academy](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). Softver takođe pruža funkciju pretrage ključnih reči sa padajućom listom.
+Za oznake, izaberite 2 ili 3 relevantne ključne reči povezane sa sadržajem vašeg tutorijala, birajući isključivo sa [liste oznaka Plan ₿ Academy](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). Softver takođe pruža funkciju pretrage ključnih reči sa padajućom listom.
 
 
 ![DATA-CREATOR-PY](assets/fr/47.webp)
@@ -253,7 +253,7 @@ Kada su svi podaci uneti i verifikovani, kliknite na "Create Tutorial" da potvrd
 Sada možete preskočiti pododeljak "Bez mog Python skripta" kao i korak 3, "Popunite YAML datoteku," jer je skript već izvršio ove radnje za vas. Pređite direktno na korak 4 i počnite pisati svoj vodič.
 
 
-Za više informacija o ovom Python skriptu, možete pogledati i [README](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
+Za više informacija o ovom Python skriptu, možete pogledati i [README](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
 
 
 ### Bez mog Python skripta
@@ -344,11 +344,11 @@ Evo potrebna polja:
 
 
 
-- **project_id**: UUID kompanije ili organizacije iza alata predstavljenog u vodiču [sa liste projekata](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/resources/projects). Na primer, ako kreirate vodič o Green Wallet softveru, možete pronaći ovaj `project_id` u sledećem fajlu: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Ova informacija se dodaje u vaš YAML fajl vodiča jer Plan ₿ Academy održava bazu podataka svih kompanija i organizacija koje rade na Bitcoin ili povezanim projektima. Dodavanjem `project_id` entiteta povezanog sa vašim vodičem, kreirate vezu između dva Elements;
+- **project_id**: UUID kompanije ili organizacije iza alata predstavljenog u vodiču [sa liste projekata](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Na primer, ako kreirate vodič o Green Wallet softveru, možete pronaći ovaj `project_id` u sledećem fajlu: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Ova informacija se dodaje u vaš YAML fajl vodiča jer Plan ₿ Academy održava bazu podataka svih kompanija i organizacija koje rade na Bitcoin ili povezanim projektima. Dodavanjem `project_id` entiteta povezanog sa vašim vodičem, kreirate vezu između dva Elements;
 
 
 
-- **tagovi**: 2 ili 3 relevantne ključne reči povezane sa sadržajem tutorijala, isključivo odabrane [iz Plan ₿ Academy liste tagova](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tagovi**: 2 ili 3 relevantne ključne reči povezane sa sadržajem tutorijala, isključivo odabrane [iz Plan ₿ Academy liste tagova](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 
 
@@ -364,7 +364,7 @@ Evo potrebna polja:
 
 
 
-- **professor_id**: Vaš `professor_id` (UUID) kako je prikazan na [vašem profesorskom profilu](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/professors);
+- **professor_id**: Vaš `professor_id` (UUID) kako je prikazan na [vašem profesorskom profilu](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors);
 
 
 

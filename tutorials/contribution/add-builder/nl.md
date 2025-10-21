@@ -20,7 +20,7 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 
 
 
-- Ga naar [de GitHub repository van PlanB gewijd aan data](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/resources/projects) in de `resources/project/` sectie:
+- Ga naar [de GitHub repository van PlanB gewijd aan data](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects) in de `resources/project/` sectie:
 
 ![project](assets/02.webp)
 

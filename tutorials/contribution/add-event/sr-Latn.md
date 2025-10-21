@@ -20,7 +20,7 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 
 
 
-- Idite na [GitHub repozitorijum PlanB posvećen podacima](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/resources/conference) u sekciji `resources/conference/`:
+- Idite na [GitHub repozitorijum PlanB posvećen podacima](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/conference) u sekciji `resources/conference/`:
 
 ![event](assets/02.webp)
 

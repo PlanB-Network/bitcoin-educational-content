@@ -80,7 +80,7 @@ https://planb.academy/tutorials/contribution/content/write-tutorials-github-web-
 
 
 
-- شما باید Fork خود را از [مخزن Plan ₿ Academy در GitHub](https://github.com/Plan ₿ Academy/Bitcoin-educational-content) داشته باشید.
+- شما باید Fork خود را از [مخزن Plan ₿ Academy در GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content) داشته باشید.
 - شاخه اصلی (`dev`) از Fork خود را با مخزن منبع همگام‌سازی کنید.
 - کلون محلی خود را به‌روزرسانی کنید.
 
@@ -91,7 +91,7 @@ git clone https://github.com/<your-username>/bitcoin-educational-content.git
 cd bitcoin-educational-content
 
 # Add the source repository as a remote upstream
-git remote add upstream https://github.com/Plan ₿ Academy/bitcoin-educational-content.git
+git remote add upstream https://github.com/PlanB-Network/bitcoin-educational-content.git
 
 # Fetch the latest changes from the source repository
 git fetch upstream
@@ -131,7 +131,7 @@ git push -u origin tuto-green-wallet-loic
 ### ۳ - اسناد آموزشی را اضافه کنید
 
 
-***توجه:*** شما می‌توانید مراحل ۳ و ۴ را با استفاده از [اسکریپت GUI پایتون من](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/scripts/tutorial-related/new-tutorial-creation) خودکار کنید. آن را مستقیماً از پوشه‌اش در کلون محلی خود اجرا کنید، سپس فیلدهای مورد نیاز را در GUI پر کنید. برای اطلاعات بیشتر در مورد نحوه نصب و استفاده از آن، به [README](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md) مراجعه کنید.
+***توجه:*** شما می‌توانید مراحل ۳ و ۴ را با استفاده از [اسکریپت GUI پایتون من](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/scripts/tutorial-related/new-tutorial-creation) خودکار کنید. آن را مستقیماً از پوشه‌اش در کلون محلی خود اجرا کنید، سپس فیلدهای مورد نیاز را در GUI پر کنید. برای اطلاعات بیشتر در مورد نحوه نصب و استفاده از آن، به [README](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md) مراجعه کنید.
 
 
 اگر ترجیح می‌دهید به صورت دستی انجام دهید، این مراحل را دنبال کنید:
@@ -213,11 +213,11 @@ reward:
 
 
 
-- **project_id**: شناسه UUID شرکت یا سازمان پشت ابزار ارائه‌شده در آموزش [از لیست پروژه‌ها](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/resources/projects). به عنوان مثال، اگر در حال ایجاد یک آموزش درباره نرم‌افزار Green Wallet هستید، می‌توانید این `project_id` را در فایل زیر پیدا کنید: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. این اطلاعات به فایل YAML آموزش شما اضافه می‌شود زیرا Plan ₿ Academy یک پایگاه داده از تمام شرکت‌ها و سازمان‌هایی که بر روی Bitcoin یا پروژه‌های مرتبط فعالیت می‌کنند، نگهداری می‌کند. با افزودن `project_id` موجودیت مر
+- **project_id**: شناسه UUID شرکت یا سازمان پشت ابزار ارائه‌شده در آموزش [از لیست پروژه‌ها](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). به عنوان مثال، اگر در حال ایجاد یک آموزش درباره نرم‌افزار Green Wallet هستید، می‌توانید این `project_id` را در فایل زیر پیدا کنید: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. این اطلاعات به فایل YAML آموزش شما اضافه می‌شود زیرا Plan ₿ Academy یک پایگاه داده از تمام شرکت‌ها و سازمان‌هایی که بر روی Bitcoin یا پروژه‌های مرتبط فعالیت می‌کنند، نگهداری می‌کند. با افزودن `project_id` موجودیت مر
 
 
 
-- **برچسب‌ها**: 2 یا 3 کلمه کلیدی مرتبط با محتوای آموزش، به‌طور انحصاری انتخاب شده [از لیست برچسب‌های Plan ₿ Academy](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md)؛
+- **برچسب‌ها**: 2 یا 3 کلمه کلیدی مرتبط با محتوای آموزش، به‌طور انحصاری انتخاب شده [از لیست برچسب‌های Plan ₿ Academy](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md)؛
 
 
 
@@ -233,7 +233,7 @@ reward:
 
 
 
-- **professor_id**: `professor_id` (UUID) شما همانطور که در [پروفایل استاد شما](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/professors) نمایش داده شده است؛
+- **professor_id**: `professor_id` (UUID) شما همانطور که در [پروفایل استاد شما](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors) نمایش داده شده است؛
 
 
 

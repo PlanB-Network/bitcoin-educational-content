@@ -143,7 +143,7 @@ For mer informasjon om retningslinjene som skal følges ved korrekturlesing på 
 ## 7. Vent på vurdering
 
 
-- Gratulerer, PR-en din har blitt sendt inn! Du kan følge med på fremdriften i "Pull requests"-fanen på [Plan ₿ Academy's GitHub repository] (https://github.com/Plan ₿ Academy/bitcoin-educational-content/pulls):
+- Gratulerer, PR-en din har blitt sendt inn! Du kan følge med på fremdriften i "Pull requests"-fanen på [Plan ₿ Academy's GitHub repository] (https://github.com/PlanB-Network/bitcoin-educational-content/pulls):
 
 ![REVIEW](assets/fr/12.webp)
 

@@ -26,7 +26,7 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 
 
 
-- به مخزن [GitHub مربوط به PlanB که به داده‌ها اختصاص دارد](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/resources/bet) در بخش `resources/bet/` بروید:
+- به مخزن [GitHub مربوط به PlanB که به داده‌ها اختصاص دارد](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/bet) در بخش `resources/bet/` بروید:
 
 ![event](assets/02.webp)
 

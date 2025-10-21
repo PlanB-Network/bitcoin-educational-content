@@ -18,7 +18,7 @@ Más allá de tutoriales y formación, Plan ₿ Academy también ofrece una vast
 https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
-- Ve al [repositorio de GitHub de PlanB dedicado a datos](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/resources/bet) en la sección `resources/bet/`:
+- Ve al [repositorio de GitHub de PlanB dedicado a datos](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet) en la sección `resources/bet/`:
 
 ![event](assets/02.webp)
 

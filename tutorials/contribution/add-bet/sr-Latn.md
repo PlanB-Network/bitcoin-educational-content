@@ -26,7 +26,7 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 
 
 
-- Idite na [GitHub repozitorijum PlanB posvećen podacima](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/resources/bet) u odeljku `resources/bet/`:
+- Idite na [GitHub repozitorijum PlanB posvećen podacima](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/bet) u odeljku `resources/bet/`:
 
 ![event](assets/02.webp)
 

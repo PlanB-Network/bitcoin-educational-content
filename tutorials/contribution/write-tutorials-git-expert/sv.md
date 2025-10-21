@@ -80,7 +80,7 @@ För att skapa diagram och visuella bilder:
 
 
 
-- Du måste ha din egen Fork av [Plan ₿ Academy repository on GitHub] (https://github.com/Plan ₿ Academy/Bitcoin-educational-content).
+- Du måste ha din egen Fork av [Plan ₿ Academy repository on GitHub] (https://github.com/PlanB-Network/Bitcoin-educational-content).
 - Synkronisera huvudgrenen (`dev`) i din Fork med källkatalogen.
 - Uppdatera din lokala klon.
 
@@ -91,7 +91,7 @@ git clone https://github.com/<your-username>/bitcoin-educational-content.git
 cd bitcoin-educational-content
 
 # Add the source repository as a remote upstream
-git remote add upstream https://github.com/Plan ₿ Academy/bitcoin-educational-content.git
+git remote add upstream https://github.com/PlanB-Network/bitcoin-educational-content.git
 
 # Fetch the latest changes from the source repository
 git fetch upstream
@@ -131,7 +131,7 @@ git push -u origin tuto-green-wallet-loic
 ### 3 - Lägg till handledningsdokumenten
 
 
-***Anmärkning:*** Du kan automatisera steg 3 och 4 med hjälp av [mitt Python GUI-skript] (https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/scripts/tutorial-related/new-tutorial-creation). Kör det direkt från dess mapp i din lokala klon och fyll sedan i de obligatoriska fälten i GUI. För mer information om hur du installerar och använder det, se [README](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
+***Anmärkning:*** Du kan automatisera steg 3 och 4 med hjälp av [mitt Python GUI-skript] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/scripts/tutorial-related/new-tutorial-creation). Kör det direkt från dess mapp i din lokala klon och fyll sedan i de obligatoriska fälten i GUI. För mer information om hur du installerar och använder det, se [README](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
 
 
 Om du föredrar att göra det manuellt följer du dessa steg:
@@ -213,11 +213,11 @@ Här är de obligatoriska fälten:
 
 
 
-- **projekt_id**: UUID för företaget eller organisationen bakom det verktyg som presenteras i handledningen [från projektlistan] (https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/resources/projects). Om du till exempel skapar en handledning om programvaran Green Wallet kan du hitta detta `project_id` i följande fil: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Den här informationen läggs till i din handlednings YAML-fil eftersom Plan ₿ Academy upprätthåller en databas över alla företag och organisationer som arbetar med Bitcoin eller relaterade projekt. Genom att lägga till `project_id` för den enhet som är länkad till din handledning skapar du en länk mellan de två Elements;
+- **projekt_id**: UUID för företaget eller organisationen bakom det verktyg som presenteras i handledningen [från projektlistan] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Om du till exempel skapar en handledning om programvaran Green Wallet kan du hitta detta `project_id` i följande fil: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Den här informationen läggs till i din handlednings YAML-fil eftersom Plan ₿ Academy upprätthåller en databas över alla företag och organisationer som arbetar med Bitcoin eller relaterade projekt. Genom att lägga till `project_id` för den enhet som är länkad till din handledning skapar du en länk mellan de två Elements;
 
 
 
-- **taggar**: 2 eller 3 relevanta nyckelord relaterade till handledningens innehåll, uteslutande valda [från Plan ₿ Academy:s tagglista](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **taggar**: 2 eller 3 relevanta nyckelord relaterade till handledningens innehåll, uteslutande valda [från Plan ₿ Academy:s tagglista](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 
 
@@ -233,7 +233,7 @@ Här är de obligatoriska fälten:
 
 
 
-- **professor_id**: Ditt `professor_id` (UUID) som visas på [din professorsprofil] (https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/professors);
+- **professor_id**: Ditt `professor_id` (UUID) som visas på [din professorsprofil] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors);
 
 
 

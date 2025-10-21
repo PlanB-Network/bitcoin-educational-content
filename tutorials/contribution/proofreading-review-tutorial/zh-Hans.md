@@ -143,7 +143,7 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 ## 7. 等待审核
 
 
-- 恭喜，您的 PR 已提交！您可以在[Plan ₿ Academy 的 GitHub 代码库](https://github.com/Plan ₿ Academy/bitcoin-educational-content/pulls)的 "Pull requests "选项卡中跟踪进度：
+- 恭喜，您的 PR 已提交！您可以在[Plan ₿ Academy 的 GitHub 代码库](https://github.com/PlanB-Network/bitcoin-educational-content/pulls)的 "Pull requests "选项卡中跟踪进度：
 
 ![REVIEW](assets/fr/12.webp)
 

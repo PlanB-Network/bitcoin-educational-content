@@ -20,7 +20,7 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 
 
 
-- Nenda kwenye [hakuna ya GitHub ya PlanB iliyowekwa kwa data](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/resources/books) katika sehemu ya `resources/books/`:
+- Nenda kwenye [hakuna ya GitHub ya PlanB iliyowekwa kwa data](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/books) katika sehemu ya `resources/books/`:
 
 ![book](assets/02.webp)
 

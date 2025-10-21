@@ -77,7 +77,7 @@ Postoji mnoštvo softvera specijalizovanih za uređivanje Markdown fajlova, kao 
 
 
 
-- Idite u Plan ₿ Academy repozitorijum podataka na sledećem Address: [https://github.com/Plan ₿ Academy/Bitcoin-educational-content](https://github.com/Plan ₿ Academy/Bitcoin-educational-content): ![github-desktop](assets/10.webp)
+- Idite u Plan ₿ Academy repozitorijum podataka na sledećem Address: [https://github.com/PlanB-Network/Bitcoin-educational-content](https://github.com/PlanB-Network/Bitcoin-educational-content): ![github-desktop](assets/10.webp)
 - Sa ove stranice, kliknite na dugme `Fork` u gornjem desnom uglu prozora: ![github-desktop](assets/11.webp)
 - U meniju za kreiranje, možete ostaviti podrazumevana podešavanja. Uverite se da je polje `Copy the dev branch only` označeno, zatim kliknite na dugme `Create Fork`: ![github-desktop](assets/12.webp)
 - Stići ćete zatim do sopstvenog Fork repozitorijuma PlanB mreže: ![github-desktop](assets/13.webp)

@@ -9,7 +9,7 @@ description: Quais são os factores importantes a ter em conta na revisão de pr
 Bem-vindo a este tutorial sobre as **diretrizes a seguir na revisão de conteúdos do Plan ₿ Academy**. Estamos satisfeitos por partilhar a nossa missão de traduzir os materiais do Bitcoin no maior número de línguas possível, de modo a ajudar as pessoas a conhecerem o seu funcionamento e a forma como pode ser utilizado no seu dia a dia.
 
 
-Antes de mais, contribuir para o [repositório público](https://github.com/Plan ₿ Academy/Bitcoin-educational-content) do Plan ₿ Academy dá-lhe a oportunidade de escrever tutoriais, rever o conteúdo existente ou até propor a adição de uma nova língua à plataforma. Para saberes mais, junta-te primeiro ao nosso [Grupo de Telegramas](https://t.me/PlanBNetwork_ContentBuilder) e escreve uma breve apresentação sobre ti e as línguas que sabes falar.
+Antes de mais, contribuir para o [repositório público](https://github.com/PlanB-Network/Bitcoin-educational-content) do Plan ₿ Academy dá-lhe a oportunidade de escrever tutoriais, rever o conteúdo existente ou até propor a adição de uma nova língua à plataforma. Para saberes mais, junta-te primeiro ao nosso [Grupo de Telegramas](https://t.me/PlanBNetwork_ContentBuilder) e escreve uma breve apresentação sobre ti e as línguas que sabes falar.
 
 
 O presente tutorial é dedicado aos colaboradores que pretendem rever conteúdos. A maioria deles não sabe muito sobre o [Github](https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) ou a [linguagem Markdown](https://www.markdownguide.org/basic-syntax/) que usamos dentro do repositório, por isso é importante partilhar algumas ideias sobre os principais factores envolvidos nesta tarefa.
@@ -289,7 +289,7 @@ Quando enviar o seu RP, seria ótimo se o nomeasse utilizando este formato: [REV
 
 Além disso, na secção **comentário do PR**, pode escrever "fecha" + o número do problema que o coordenador lhe enviou quando iniciou a tarefa de revisão, precedido de ``#``.
 
-Por exemplo, se acabou de enviar um RP com a revisão do cyp201 + quizzes, pode escrever "fecha [#2934](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/issues/2934)".
+Por exemplo, se acabou de enviar um RP com a revisão do cyp201 + quizzes, pode escrever "fecha [#2934](https://github.com/PlanB-Network/Bitcoin-educational-content/issues/2934)".
 
 
 Desta forma, o PR e o problema estarão ligados e quem ler o repositório público do Github poderá encontrar facilmente as informações.

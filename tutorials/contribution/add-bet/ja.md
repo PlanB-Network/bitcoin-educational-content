@@ -17,7 +17,7 @@ PlanBのミッションは、できるだけ多くの言語でBitcoinに関す�
 https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
-- `resources/bet/`セクションの[PlanB専用のGitHubリポジトリ](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/resources/bet)に移動します：
+- `resources/bet/`セクションの[PlanB専用のGitHubリポジトリ](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet)に移動します：
 ![event](assets/02.webp)
 - 右上の`Add file`ボタンをクリックし、次に`Create new file`をクリックします：
 ![event](assets/03.webp)

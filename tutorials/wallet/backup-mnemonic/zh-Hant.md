@@ -74,7 +74,7 @@ Mnemonic 讓您可以完全不受限制地存取您所有的 bitcoins。任何�
 如果您偏好投資於完整的金屬後備裝置，我建議您看看 [Jameson Lopp 的電阻測試](https://jlopp.github.io/metal-Bitcoin-storage-reviews/)，其中評估了市面上大部分的解決方案。我建議您選擇一體成型的支架，例如用來雕刻、沖壓或打孔的金屬板。這些裝置的阻力通常比使用獨立字母組合的系統大得多。
 
 
-如果您選擇紙質 Wallet，您有幾種選擇：一張簡單的白紙、Hardware Wallet 隨附的紙板 Wallet，或是我們提供的可下載範本，您可以 [點選此處](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/resources/bet/Wallet-backup-sheet/assets/Mnemonic-sheet.pdf) 列印出來。
+如果您選擇紙質 Wallet，您有幾種選擇：一張簡單的白紙、Hardware Wallet 隨附的紙板 Wallet，或是我們提供的可下載範本，您可以 [點選此處](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/Wallet-backup-sheet/assets/Mnemonic-sheet.pdf) 列印出來。
 
 
 ![SEED](assets/fr/02.webp)

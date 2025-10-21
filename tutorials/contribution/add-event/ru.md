@@ -13,7 +13,7 @@ description: Как предложить добавление нового ме�
 https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
-- Перейдите в [репозиторий GitHub PlanB, посвященный данным](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/resources/conference) в раздел `resources/conference/`:
+- Перейдите в [репозиторий GitHub PlanB, посвященный данным](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) в раздел `resources/conference/`:
 ![event](assets/02.webp)
 - Нажмите в верхнем правом углу на кнопку `Add file`, затем на `Create new file`:
 ![event](assets/03.webp)

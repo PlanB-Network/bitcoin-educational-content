@@ -13,7 +13,7 @@ PlanB的使命是提供领先的比特币教育资源，尽可能多的语言。
 *所有整合到网站的内容必须是免版权的，或者尊重源文件的许可。此外，PlanB网络上发布的所有视觉内容都在[CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/)许可下提供。*
 ![event](assets/01.webp)
 - 首先，你需要在GitHub上有一个账户。如果你不知道如何创建账户，我们制作了[一个详细的教程来指导你](https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)。
-- 前往[PlanB专门用于数据的GitHub仓库](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/resources/bet)在`resources/bet/`部分：
+- 前往[PlanB专门用于数据的GitHub仓库](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet)在`resources/bet/`部分：
 ![event](assets/02.webp)
 - 点击右上角的`Add file`按钮，然后点击`Create new file`：
 ![event](assets/03.webp)

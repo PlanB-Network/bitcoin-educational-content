@@ -202,7 +202,7 @@ Plan ₿ नेटवर्क पर प्रूफरीडिंग कर�
 
 
 
-- बधाई हो, आपका PR सबमिट हो गया है! आप [Plan ₿ Academy के GitHub रिपॉजिटरी](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/pulls) पर "पुल रिक्वेस्ट" टैब में इसकी प्रगति को ट्रैक कर सकते हैं:
+- बधाई हो, आपका PR सबमिट हो गया है! आप [Plan ₿ Academy के GitHub रिपॉजिटरी](https://github.com/PlanB-Network/Bitcoin-educational-content/pulls) पर "पुल रिक्वेस्ट" टैब में इसकी प्रगति को ट्रैक कर सकते हैं:
 
 
 ![REVIEW](assets/fr/12.webp)

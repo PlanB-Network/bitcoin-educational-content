@@ -74,7 +74,7 @@ Resim kredisi: [*SAFU Ninja Review*, Jameson Lopp](https://jlopp.github.io/metal
 Komple bir metal yedekleme cihazına yatırım yapmayı tercih ediyorsanız, piyasada bulunan çözümlerin çoğunu değerlendiren [Jameson Lopp'un direnç testlerine] (https://jlopp.github.io/metal-Bitcoin-storage-reviews/) göz atmanızı tavsiye ederim. Gravür, damgalama veya delme için metal plaka gibi tek parça destekleri tercih etmenizi tavsiye ederim. Bu cihazlar genellikle monte edilecek bağımsız harfler kullanan sistemlerden çok daha fazla direnç sunar.
 
 
-Kağıt Wallet'yi tercih ederseniz, birkaç seçeneğiniz vardır: basit bir boş kağıt, genellikle Hardware Wallet'unuzla birlikte verilen karton Wallet veya [buraya tıklayarak] yazdırabileceğiniz indirilebilir şablonumuz (https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/resources/bet/Wallet-backup-sheet/assets/Mnemonic-sheet.pdf).
+Kağıt Wallet'yi tercih ederseniz, birkaç seçeneğiniz vardır: basit bir boş kağıt, genellikle Hardware Wallet'unuzla birlikte verilen karton Wallet veya [buraya tıklayarak] yazdırabileceğiniz indirilebilir şablonumuz (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/Wallet-backup-sheet/assets/Mnemonic-sheet.pdf).
 
 
 ![SEED](assets/fr/02.webp)

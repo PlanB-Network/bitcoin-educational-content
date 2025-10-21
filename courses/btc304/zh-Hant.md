@@ -1775,7 +1775,7 @@ Twitter 非常容易使用，若要改善您的隱私權，您需要調整一些
 隨著區塊的滾動，您的社群也將演化。新面孔會加入，其他人也會逐漸離開，但指導原則應該維持不變：發展 Bitcoin 生態系統，並加強會員間的聯繫。
 
 
-有許多專案和計畫可以實施。本章提供了一份非詳盡的構想清單，這些構想可以在社群中或聚會期間進行。您可以隨意選擇對您有啟發的構想，甚至可以 [透過在 GitHub 上提出「Pull Request」](https://github.com/Plan ₿ Academy/Bitcoin-educational-content) 將您自己的構想貢獻給本課程。
+有許多專案和計畫可以實施。本章提供了一份非詳盡的構想清單，這些構想可以在社群中或聚會期間進行。您可以隨意選擇對您有啟發的構想，甚至可以 [透過在 GitHub 上提出「Pull Request」](https://github.com/PlanB-Network/Bitcoin-educational-content) 將您自己的構想貢獻給本課程。
 
 
 在深入討論之前，讓我們重溫之前提到的一點。

@@ -62,7 +62,7 @@ Hay una multitud de software especializado en editar archivos Markdown, como Typ
 
 ## Paso 3: Haz un Fork del repositorio de Plan ₿ Academy
 
-- Ve al repositorio de datos de Plan ₿ Academy en la siguiente dirección: [https://github.com/Plan ₿ Academy/bitcoin-educational-content](https://github.com/Plan ₿ Academy/bitcoin-educational-content):
+- Ve al repositorio de datos de Plan ₿ Academy en la siguiente dirección: [https://github.com/PlanB-Network/bitcoin-educational-content](https://github.com/PlanB-Network/bitcoin-educational-content):
 
   ![github-desktop](assets/10.webp)
   

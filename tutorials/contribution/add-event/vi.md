@@ -13,7 +13,7 @@ Nếu bạn muốn thêm một hội nghị Bitcoin vào trang web Mạng lướ
 https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
-- Truy cập vào [kho lưu trữ GitHub của PlanB dành riêng cho dữ liệu](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/resources/conference) trong phần `resources/conference/`:
+- Truy cập vào [kho lưu trữ GitHub của PlanB dành riêng cho dữ liệu](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) trong phần `resources/conference/`:
 ![sự kiện](assets/02.webp)
 - Nhấp vào nút `Add file` ở góc trên bên phải, sau đó chọn `Create new file`:
 ![sự kiện](assets/03.webp)

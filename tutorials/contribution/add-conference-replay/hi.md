@@ -18,7 +18,7 @@ https://planb.academy/tutorials/contribution/resource/add-event-1d3df554-c2d8-4e
 
 https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
-- [PlanB के डेटा के लिए समर्पित GitHub रिपॉजिटरी](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/resources/conference) के `resources/conference/` सेक्शन में जाएं:
+- [PlanB के डेटा के लिए समर्पित GitHub रिपॉजिटरी](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/conference) के `resources/conference/` सेक्शन में जाएं:
 
 ![conference](assets/02.webp)
 

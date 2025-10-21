@@ -199,7 +199,7 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 
 
 
-- تبریک می‌گوییم، درخواست کشش شما ارسال شده است! می‌توانید پیشرفت آن را در زبانه "Pull requests" در [مخزن GitHub Plan ₿ Academy](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/pulls) پیگیری کنید:
+- تبریک می‌گوییم، درخواست کشش شما ارسال شده است! می‌توانید پیشرفت آن را در زبانه "Pull requests" در [مخزن GitHub Plan ₿ Academy](https://github.com/PlanB-Network/Bitcoin-educational-content/pulls) پیگیری کنید:
 
 
 ![REVIEW](assets/fr/12.webp)

@@ -9,7 +9,7 @@ description: Plan ₿ Network에서 교정할 때 염두에 두어야 할 중요
 Plan ₿ Academy**의 콘텐츠를 교정할 때 따라야 할 **가이드라인**에 대한 이 튜토리얼에 오신 것을 환영합니다. Bitcoin 자료를 최대한 많은 언어로 번역하여 사람들이 어떻게 작동하고 일상 생활에서 어떻게 사용할 수 있는지 알 수 있도록 돕는다는 사명을 공유해 주셔서 기쁩니다.
 
 
-우선, Plan ₿ Academy [공개 저장소](https://github.com/Plan ₿ Academy/Bitcoin-educational-content)에 기여하면 튜토리얼을 작성하거나, 기존 콘텐츠를 교정하거나, 플랫폼에 새로운 언어 추가를 제안할 수 있는 기회를 얻을 수 있습니다. 더 자세히 알아보시려면 먼저 [텔레그램 그룹](https://t.me/PlanBNetwork_ContentBuilder)에 가입하여 자신과 사용 가능한 언어에 대한 간단한 소개를 작성해 주세요.
+우선, Plan ₿ Academy [공개 저장소](https://github.com/PlanB-Network/Bitcoin-educational-content)에 기여하면 튜토리얼을 작성하거나, 기존 콘텐츠를 교정하거나, 플랫폼에 새로운 언어 추가를 제안할 수 있는 기회를 얻을 수 있습니다. 더 자세히 알아보시려면 먼저 [텔레그램 그룹](https://t.me/PlanBNetwork_ContentBuilder)에 가입하여 자신과 사용 가능한 언어에 대한 간단한 소개를 작성해 주세요.
 
 
 이 튜토리얼은 콘텐츠 교정을 원하는 기여자를 위한 것입니다. 대부분은 [Github](https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)이나 리포지토리 내에서 사용하는 [Markdown 언어](https://www.markdownguide.org/basic-syntax/)에 대해 잘 모르기 때문에 이 작업과 관련된 핵심 요소에 대한 몇 가지 인사이트를 공유하는 것이 중요합니다.
@@ -291,7 +291,7 @@ PR을 보낼 때 이 형식을 사용하여 이름을 지정하면 정말 멋질
 
 또한 PR**의 **댓글란에 "마감" + 교정 작업을 시작할 때 코디네이터가 보낸 이슈 번호 앞에 ``#``를 적으면 됩니다.
 
-예를 들어 cyp201 + 퀴즈 교정이 포함된 PR을 방금 보낸 경우 "[#2934](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/issues/2934)을 닫습니다."라고 작성할 수 있습니다.
+예를 들어 cyp201 + 퀴즈 교정이 포함된 PR을 방금 보낸 경우 "[#2934](https://github.com/PlanB-Network/Bitcoin-educational-content/issues/2934)을 닫습니다."라고 작성할 수 있습니다.
 
 
 이렇게 하면 PR과 이슈가 연결되고 공개 Github 리포지토리를 읽는 사람은 누구나 쉽게 정보를 찾을 수 있습니다.

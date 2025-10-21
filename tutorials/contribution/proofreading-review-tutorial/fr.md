@@ -128,7 +128,7 @@ Pour en savoir plus sur les directives à suivre lors de la relecture sur le Pla
 
 ## 7. Attendre la révision
 
-- Félicitations, votre PR a été envoyée ! Vous pouvez suivre son avancement dans l'onglet "Pull requests" sur [le dépôt GitHub de Plan ₿ Academy](https://github.com/Plan ₿ Academy/bitcoin-educational-content/pulls) :
+- Félicitations, votre PR a été envoyée ! Vous pouvez suivre son avancement dans l'onglet "Pull requests" sur [le dépôt GitHub de Plan ₿ Academy](https://github.com/PlanB-Network/bitcoin-educational-content/pulls) :
 
 ![REVIEW](assets/fr/12.webp)
 

@@ -143,7 +143,7 @@ Plan ₿ネットワークでの校正時に言語やフォーマットのルー
 ## 7. レビューを待つ
 
 
-- おめでとうございます！進捗は [Plan ₿ Academy's GitHub リポジトリ](https://github.com/Plan ₿ Academy/bitcoin-educational-content/pulls) の "Pull requests" タブで確認できます：
+- おめでとうございます！進捗は [Plan ₿ Academy's GitHub リポジトリ](https://github.com/PlanB-Network/bitcoin-educational-content/pulls) の "Pull requests" タブで確認できます：
 
 ![REVIEW](assets/fr/12.webp)
 

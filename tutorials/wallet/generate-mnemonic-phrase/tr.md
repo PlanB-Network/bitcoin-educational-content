@@ -45,7 +45,7 @@ Kurtarma cümlenizi elle oluşturmak için ihtiyacınız olacak:
 - Bir sayfa kağıt;
 - Düzenlemeyi kolaylaştırmak için ideal olarak farklı renklerde bir kalem veya kurşun kalem;
 - Dengesiz bir zarla ilgili önyargı risklerini en aza indirmek için birkaç zar;
-- [2048 BIP39 kelimelik liste] (https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf) çıktısı alındı.
+- [2048 BIP39 kelimelik liste] (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf) çıktısı alındı.
 
 
 Daha sonra, sağlama toplamının hesaplanması için terminali olan bir bilgisayarın kullanılması gerekli hale gelecektir. İşte tam da bu nedenle Mnemonic cümlesinin elle oluşturulmasını tavsiye etmiyorum. Bana göre, bir bilgisayarın müdahalesi, bu eğitimde belirtilen önlemler altında bile, bir Wallet'nın güvenlik açığını önemli ölçüde artırır.
@@ -102,7 +102,7 @@ Bu paketlerin her biri, daha sonra ondalık sayıya (10 tabanı) dönüştürül
 ![mnemonic](assets/notext/5.webp)
 
 
-Son olarak, ondalık sayı bize ilgili kelimenin [2048 BIP39 kelime listesi] (https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf) içindeki konumunu gösterir. Geriye kalan tek şey, Wallet'imiz için kurtarma ifadesini oluşturmak üzere bu kelimeleri seçmektir.
+Son olarak, ondalık sayı bize ilgili kelimenin [2048 BIP39 kelime listesi] (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf) içindeki konumunu gösterir. Geriye kalan tek şey, Wallet'imiz için kurtarma ifadesini oluşturmak üzere bu kelimeleri seçmektir.
 
 
 ![mnemonic](assets/notext/6.webp)
@@ -332,7 +332,7 @@ Elde edilen ondalık sayılarla, artık Mnemonic ifadesini oluşturmak için lis
 Bu ayarlamadan sonra, listedeki her bir kelimenin sıralamasına sahip olursunuz. Geriye kalan tek şey her kelimeyi numarasına göre tanımlamaktır. Açıkçası, diğer tüm adımlarda olduğu gibi, bu dönüşümü gerçekleştirmek için bilgisayarınızı kullanmamalısınız. Bu nedenle, listeyi önceden yazdırdığınızdan emin olun.
 
 
-[**-> BIP39 listesini A4 formatında yazdırın.**](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)
+[**-> BIP39 listesini A4 formatında yazdırın.**](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)
 
 
 Örneğin, ilk satırdan elde edilen sayı 1721 ise, karşılık gelen kelime listedeki 1721. kelime olacaktır:

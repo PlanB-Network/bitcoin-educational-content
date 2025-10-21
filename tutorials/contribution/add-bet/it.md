@@ -21,7 +21,7 @@ Vuoi partecipare all'arricchimento di questo database, ma non sai come fare? Que
 https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
-- Vai al [repository GitHub di PlanB dedicato](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/resources/bet) nella sezione `resources/bet/`:
+- Vai al [repository GitHub di PlanB dedicato](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet) nella sezione `resources/bet/`:
 
 ![event](assets/02.webp)
 

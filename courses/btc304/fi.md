@@ -1775,7 +1775,7 @@ Viime kädessä on sinun päätettävissäsi, kuinka pitkälle "avoin ja osallis
 Kun korttelit etenevät, yhteisösi kehittyy. Uusia kasvoja tulee mukaan, toiset lähtevät pois, mutta johtavan periaatteen pitäisi pysyä samana: Bitcoin-ekosysteemin kehittäminen ja jäsenten välisten siteiden vahvistaminen.
 
 
-On monia hankkeita ja aloitteita, jotka voidaan toteuttaa. Tässä luvussa on luettelo ideoista, jotka voidaan toteuttaa yhteisössä tai tapaamisissa. Voit vapaasti valita niistä ne, jotka inspiroivat sinua, ja jopa lisätä omia ideoitasi tähän kurssiin [tekemällä "Pull Request" GitHubissa](https://github.com/Plan ₿ Academy/Bitcoin-educational-content).
+On monia hankkeita ja aloitteita, jotka voidaan toteuttaa. Tässä luvussa on luettelo ideoista, jotka voidaan toteuttaa yhteisössä tai tapaamisissa. Voit vapaasti valita niistä ne, jotka inspiroivat sinua, ja jopa lisätä omia ideoitasi tähän kurssiin [tekemällä "Pull Request" GitHubissa](https://github.com/PlanB-Network/Bitcoin-educational-content).
 
 
 Ennen kuin siirrytään asiaan, palataan vielä yhteen aiemmin mainittuun seikkaan.

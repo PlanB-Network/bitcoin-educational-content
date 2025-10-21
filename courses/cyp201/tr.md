@@ -1855,7 +1855,7 @@ $$
 ### İkili Dizinin Mnemonic İfadesine Dönüştürülmesi
 
 
-Bit dizisi $\text{ENT} \Vert \text{CS}$ daha sonra 11 bitlik segmentlere bölünür. Her 11 bitlik segment, ondalık sayıya dönüştürüldükten sonra, bir kelimenin [BIP39 tarafından standartlaştırılan 2048 kelimelik bir listede] konumunu belirleyen 0 ile 2047 arasında bir sayıya karşılık gelir (https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
+Bit dizisi $\text{ENT} \Vert \text{CS}$ daha sonra 11 bitlik segmentlere bölünür. Her 11 bitlik segment, ondalık sayıya dönüştürüldükten sonra, bir kelimenin [BIP39 tarafından standartlaştırılan 2048 kelimelik bir listede] konumunu belirleyen 0 ile 2047 arasında bir sayıya karşılık gelir (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
 
 ![CYP201](assets/en/042.webp)

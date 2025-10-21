@@ -26,7 +26,7 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 
 
 
-- 到 `resources/bet/` 區的 [PlanB 專用於資料的 GitHub 儲存庫](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/resources/bet)：
+- 到 `resources/bet/` 區的 [PlanB 專用於資料的 GitHub 儲存庫](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/bet)：
 
 ![event](assets/02.webp)
 

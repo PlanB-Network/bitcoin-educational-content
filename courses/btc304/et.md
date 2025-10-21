@@ -1775,7 +1775,7 @@ Lõppkokkuvõttes on teie otsustada, kui kaugele "avatud ja kaasav" peaks minema
 Kui plokid veerevad edasi, areneb teie kogukond. Uued näod liituvad, teised eemalduvad, kuid juhtpõhimõte peaks jääma samaks: arendada Bitcoin ökosüsteemi ja tugevdada liikmetevahelisi sidemeid.
 
 
-On palju projekte ja algatusi, mida saab rakendada. Selles peatükis on esitatud mittetäielik nimekiri ideedest, mida saab ellu viia kogukonna raames või kohtumise ajal. Võite vabalt valida need, mis teid inspireerivad, ja isegi anda oma ideid sellesse kursusesse [tehes "Pull Request" GitHubis](https://github.com/Plan ₿ Academy/Bitcoin-educational-content).
+On palju projekte ja algatusi, mida saab rakendada. Selles peatükis on esitatud mittetäielik nimekiri ideedest, mida saab ellu viia kogukonna raames või kohtumise ajal. Võite vabalt valida need, mis teid inspireerivad, ja isegi anda oma ideid sellesse kursusesse [tehes "Pull Request" GitHubis](https://github.com/PlanB-Network/Bitcoin-educational-content).
 
 
 Enne kui sukeldume sellesse, vaatame veelkord üle ühe varem mainitud punkti.

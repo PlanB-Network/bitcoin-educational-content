@@ -20,7 +20,7 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 
 
 
-- 前往 `resources/conference/` 區塊中的 [PlanB 專用於資料的 GitHub 儲存庫](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/resources/conference)：
+- 前往 `resources/conference/` 區塊中的 [PlanB 專用於資料的 GitHub 儲存庫](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/conference)：
 
 ![event](assets/02.webp)
 

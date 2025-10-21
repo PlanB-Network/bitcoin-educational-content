@@ -1855,7 +1855,7 @@ $$
 ### تبدیل دنباله باینری به عبارت Mnemonic
 
 
-دنباله بیت $\text{ENT} \Vert \text{CS}$ سپس به بخش‌هایی از ۱۱ بیت تقسیم می‌شود. هر بخش ۱۱ بیتی، پس از تبدیل به دهدهی، به عددی بین ۰ تا ۲۰۴۷ تبدیل می‌شود که موقعیت یک کلمه [در لیستی از ۲۰۴۸ کلمه استاندارد شده توسط BIP39](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf) را تعیین می‌کند.
+دنباله بیت $\text{ENT} \Vert \text{CS}$ سپس به بخش‌هایی از ۱۱ بیت تقسیم می‌شود. هر بخش ۱۱ بیتی، پس از تبدیل به دهدهی، به عددی بین ۰ تا ۲۰۴۷ تبدیل می‌شود که موقعیت یک کلمه [در لیستی از ۲۰۴۸ کلمه استاندارد شده توسط BIP39](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf) را تعیین می‌کند.
 
 
 ![CYP201](assets/en/042.webp)

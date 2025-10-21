@@ -18,4 +18,4 @@ Check out here other relevant links:
 - Bitcoin Keeper App download [here](bitcoinkeeper.app)
 - Tapsigner [Video](youtube.com/watch?v=xKHy1HMw5iU)
 
-**Note:** This tutorial is just an English-only draft, we still require someone to write an extensive guide on this subject. If you are that one, please reach out to us on our [Telegram](https://t.me/PlanBNetwork_ContentBuilder/325) or on [GitHub](https://github.com/Plan ₿ Academy/bitcoin-educational-content)
+**Note:** This tutorial is just an English-only draft, we still require someone to write an extensive guide on this subject. If you are that one, please reach out to us on our [Telegram](https://t.me/PlanBNetwork_ContentBuilder/325) or on [GitHub](https://github.com/PlanB-Network/bitcoin-educational-content)

@@ -45,7 +45,7 @@ https://planb.academy/tutorials/contribution/content/write-tutorials-github-desk
 
 
 - एक [GitHub खाता](https://github.com/signup) रखें;
-- [Plan ₿ Academy स्रोत रिपॉजिटरी](https://github.com/Plan ₿ Academy/Bitcoin-educational-content) का Fork रखें;
+- [Plan ₿ Academy स्रोत रिपॉजिटरी](https://github.com/PlanB-Network/Bitcoin-educational-content) का Fork रखें;
 - [Plan ₿ Academy पर एक शिक्षक प्रोफ़ाइल](https://planb.academy/professors) रखें (केवल तभी जब आप एक पूर्ण ट्यूटोरियल प्रदान करते हैं)।
 
 
@@ -197,11 +197,11 @@ reward:
 
 
 
-- **project_id**: ट्यूटोरियल में प्रस्तुत टूल के पीछे कंपनी या संगठन का UUID [प्रोजेक्ट सूची से](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/resources/projects)। उदाहरण के लिए, यदि आप Green Wallet सॉफ़्टवेयर के बारे में एक ट्यूटोरियल बना रहे हैं, तो आप इस `project_id` को निम्न फ़ाइल में पा सकते हैं: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`। यह जानकारी आपके ट्यूटोरियल की YAML फ़ाइल में इसलिए जोड़ी जाती है क्योंकि Plan ₿ Academy Bitcoin या संबंधित प्रोजेक्ट पर काम करने वाली सभी कंपनियों और संगठनों का डेट
+- **project_id**: ट्यूटोरियल में प्रस्तुत टूल के पीछे कंपनी या संगठन का UUID [प्रोजेक्ट सूची से](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects)। उदाहरण के लिए, यदि आप Green Wallet सॉफ़्टवेयर के बारे में एक ट्यूटोरियल बना रहे हैं, तो आप इस `project_id` को निम्न फ़ाइल में पा सकते हैं: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`। यह जानकारी आपके ट्यूटोरियल की YAML फ़ाइल में इसलिए जोड़ी जाती है क्योंकि Plan ₿ Academy Bitcoin या संबंधित प्रोजेक्ट पर काम करने वाली सभी कंपनियों और संगठनों का डेट
 
 
 
-- **टैग**: ट्यूटोरियल सामग्री से संबंधित 2 या 3 प्रासंगिक कीवर्ड, विशेष रूप से [Plan ₿ Academy टैग सूची से](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) चुने गए;
+- **टैग**: ट्यूटोरियल सामग्री से संबंधित 2 या 3 प्रासंगिक कीवर्ड, विशेष रूप से [Plan ₿ Academy टैग सूची से](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) चुने गए;
 
 
 
@@ -217,7 +217,7 @@ reward:
 
 
 
-- **professor_id**: आपका `professor_id` (UUID) जैसा कि [आपके प्रोफेसर प्रोफ़ाइल](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/professors) पर प्रदर्शित है;
+- **professor_id**: आपका `professor_id` (UUID) जैसा कि [आपके प्रोफेसर प्रोफ़ाइल](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors) पर प्रदर्शित है;
 
 
 

@@ -9,7 +9,7 @@ description: 在 Plan ₿ Academy 上進行校對時要注意哪些重要因素�
 歡迎閱讀本教學，內容關於校對 Plan ₿ Academy 上的內容時**應遵循的準則**。我們很高興您能認同我們的使命，將 Bitcoin 的資料翻譯成儘可能多的語言，以協助人們瞭解它的運作方式，以及如何在日常生活中使用。
 
 
-首先，貢獻 Plan ₿ Academy [public repository](https://github.com/Plan ₿ Academy/Bitcoin-educational-content)讓您有機會撰寫教學、校對現有內容，甚至建議在平台上加入新的語言。若要瞭解更多資訊，請先加入我們的 [Telegram Group](https://t.me/PlanBNetwork_ContentBuilder)，並寫下關於您和您會說的語言的簡短介紹。
+首先，貢獻 Plan ₿ Academy [public repository](https://github.com/PlanB-Network/Bitcoin-educational-content)讓您有機會撰寫教學、校對現有內容，甚至建議在平台上加入新的語言。若要瞭解更多資訊，請先加入我們的 [Telegram Group](https://t.me/PlanBNetwork_ContentBuilder)，並寫下關於您和您會說的語言的簡短介紹。
 
 
 本教學專門提供給想要校對內容的撰稿人。他們大多不太瞭解 [Github](https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) 或我們在儲存庫內部使用的 [Markdown 語言](https://www.markdownguide.org/basic-syntax/)，因此有必要分享一些關於這項工作所涉及的關鍵因素的心得。
@@ -289,7 +289,7 @@ LLM 工具可能會從字面上翻譯一些與 Bitcoin 相關的字詞，就像 
 
 此外，在 PR**的**评论部分，您可以写上 "已关闭 "+协调人在您开始校对任务时发送给您的问题编号，前面加上 "#"。
 
-例如，如果您刚刚发送了校对 cyp201 + quizzes 的 PR，您可以写 "closes [#2934](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/issues/2934)" 。
+例如，如果您刚刚发送了校对 cyp201 + quizzes 的 PR，您可以写 "closes [#2934](https://github.com/PlanB-Network/Bitcoin-educational-content/issues/2934)" 。
 
 
 这样，PR 和问题就会连接起来，无论谁阅读 Github 公共仓库，都能轻松找到相关信息。

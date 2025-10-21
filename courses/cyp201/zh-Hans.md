@@ -1248,7 +1248,7 @@ $$
 
 ### 将二进制序列转换为助记词组
 
-位序列 $\text{ENT} \Vert \text{CS}$ 然后被分割成11位的段。每个11位的段，一旦转换为十进制，对应于一个介于0到2047之间的数字，这个数字指定了[由BIP39标准化的2048个单词列表中](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)的一个单词的位置。
+位序列 $\text{ENT} \Vert \text{CS}$ 然后被分割成11位的段。每个11位的段，一旦转换为十进制，对应于一个介于0到2047之间的数字，这个数字指定了[由BIP39标准化的2048个单词列表中](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)的一个单词的位置。
 
 ![CYP201](assets/en/042.webp)
 例如，对于128位的熵，校验和是4位，因此总序列长度为132位。它被分成12个11位的段（橙色位指的是校验和）：

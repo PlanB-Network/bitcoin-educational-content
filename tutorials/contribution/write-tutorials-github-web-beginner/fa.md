@@ -45,7 +45,7 @@ https://planb.academy/tutorials/contribution/content/write-tutorials-github-desk
 
 
 - یک [حساب GitHub](https://github.com/signup) داشته باشید؛
-- یک Fork از [مخزن منبع Plan ₿ Academy](https://github.com/Plan ₿ Academy/Bitcoin-educational-content) داشته باشید؛
+- یک Fork از [مخزن منبع Plan ₿ Academy](https://github.com/PlanB-Network/Bitcoin-educational-content) داشته باشید؛
 - [یک پروفایل معلم در Plan ₿ Academy داشته باشید](https://planb.academy/professors) (فقط اگر یک آموزش کامل ارائه می‌دهید).
 
 
@@ -197,11 +197,11 @@ reward:
 
 
 
-- **project_id**: شناسه UUID شرکت یا سازمان پشت ابزار ارائه‌شده در آموزش [از لیست پروژه‌ها](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/resources/projects). به عنوان مثال، اگر در حال ایجاد یک آموزش درباره نرم‌افزار Green Wallet هستید، می‌توانید این `project_id` را در فایل زیر پیدا کنید: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. این اطلاعات به فایل YAML آموزش شما اضافه می‌شود زیرا Plan ₿ Academy یک پایگاه داده از تمام شرکت‌ها و سازمان‌هایی که بر روی Bitcoin یا پروژه‌های مرتبط فعالیت می‌کنند، نگهداری می‌کند. با افزودن `project_id` موجودیت مر
+- **project_id**: شناسه UUID شرکت یا سازمان پشت ابزار ارائه‌شده در آموزش [از لیست پروژه‌ها](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). به عنوان مثال، اگر در حال ایجاد یک آموزش درباره نرم‌افزار Green Wallet هستید، می‌توانید این `project_id` را در فایل زیر پیدا کنید: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. این اطلاعات به فایل YAML آموزش شما اضافه می‌شود زیرا Plan ₿ Academy یک پایگاه داده از تمام شرکت‌ها و سازمان‌هایی که بر روی Bitcoin یا پروژه‌های مرتبط فعالیت می‌کنند، نگهداری می‌کند. با افزودن `project_id` موجودیت مر
 
 
 
-- **برچسب‌ها**: 2 یا 3 کلمه کلیدی مرتبط با محتوای آموزش، به‌طور انحصاری انتخاب شده [از لیست برچسب‌های Plan ₿ Academy](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md)؛
+- **برچسب‌ها**: 2 یا 3 کلمه کلیدی مرتبط با محتوای آموزش، به‌طور انحصاری انتخاب شده [از لیست برچسب‌های Plan ₿ Academy](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md)؛
 
 
 
@@ -217,7 +217,7 @@ reward:
 
 
 
-- **شناسه_استاد**: `شناسه_استاد` شما (UUID) همانطور که در [پروفایل استاد شما](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/professors) نمایش داده شده است؛
+- **شناسه_استاد**: `شناسه_استاد` شما (UUID) همانطور که در [پروفایل استاد شما](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors) نمایش داده شده است؛
 
 
 

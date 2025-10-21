@@ -74,7 +74,7 @@ Afbeelding credit: [*SAFU Ninja Review*, Jameson Lopp](https://jlopp.github.io/m
 Als je liever investeert in een compleet metalen back-up apparaat, raad ik je aan om eens te kijken naar [Jameson Lopp's weerstandstesten](https://jlopp.github.io/metal-Bitcoin-storage-reviews/), die de meeste oplossingen die op de markt verkrijgbaar zijn evalueren. Ik raad je aan om te kiezen voor beugels uit één stuk, zoals een metalen plaat om te graveren, stempelen of ponsen. Deze apparaten bieden over het algemeen een veel grotere weerstand dan systemen die gebruik maken van onafhankelijk te monteren letters.
 
 
-Als je kiest voor een papieren Wallet, heb je verschillende opties: een eenvoudig blanco vel papier, de kartonnen Wallet die vaak bij je Hardware Wallet wordt geleverd, of onze downloadbare sjabloon die je kunt afdrukken [door hier te klikken](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/resources/bet/Wallet-backup-sheet/assets/Mnemonic-sheet.pdf).
+Als je kiest voor een papieren Wallet, heb je verschillende opties: een eenvoudig blanco vel papier, de kartonnen Wallet die vaak bij je Hardware Wallet wordt geleverd, of onze downloadbare sjabloon die je kunt afdrukken [door hier te klikken](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/Wallet-backup-sheet/assets/Mnemonic-sheet.pdf).
 
 
 ![SEED](assets/fr/02.webp)

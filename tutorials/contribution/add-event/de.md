@@ -13,7 +13,7 @@ Wenn Sie eine Bitcoin-Konferenz zum Plan ₿ Academy-Website hinzufügen und die
 https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
-- Gehen Sie zu [dem GitHub-Repository von PlanB, das den Daten gewidmet ist](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/resources/conference) im Abschnitt `resources/conference/`:
+- Gehen Sie zu [dem GitHub-Repository von PlanB, das den Daten gewidmet ist](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) im Abschnitt `resources/conference/`:
 ![event](assets/02.webp)
 - Klicken Sie oben rechts auf den Button `Add file`, dann auf `Create new file`:
 ![event](assets/03.webp)

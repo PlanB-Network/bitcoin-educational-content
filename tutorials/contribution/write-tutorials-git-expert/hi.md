@@ -80,7 +80,7 @@ YAML फ़ाइलों को संपादित करने के ल�
 
 
 
-- आपके पास [GitHub पर Plan ₿ Academy रिपॉजिटरी](https://github.com/Plan ₿ Academy/Bitcoin-educational-content) का अपना Fork होना चाहिए।
+- आपके पास [GitHub पर Plan ₿ Academy रिपॉजिटरी](https://github.com/PlanB-Network/Bitcoin-educational-content) का अपना Fork होना चाहिए।
 - अपने Fork की मुख्य शाखा (`dev`) को स्रोत रिपोजिटरी के साथ सिंक्रनाइज़ करें।
 - अपने स्थानीय क्लोन को अद्यतन करें.
 
@@ -91,7 +91,7 @@ git clone https://github.com/<your-username>/bitcoin-educational-content.git
 cd bitcoin-educational-content
 
 # Add the source repository as a remote upstream
-git remote add upstream https://github.com/Plan ₿ Academy/bitcoin-educational-content.git
+git remote add upstream https://github.com/PlanB-Network/bitcoin-educational-content.git
 
 # Fetch the latest changes from the source repository
 git fetch upstream
@@ -131,7 +131,7 @@ git push -u origin tuto-green-wallet-loic
 ### 3 - ट्यूटोरियल दस्तावेज़ जोड़ें
 
 
-***नोट:*** आप [मेरी पायथन GUI स्क्रिप्ट](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/scripts/tutorial-related/new-tutorial-creation) का उपयोग करके चरण 3 और 4 को स्वचालित कर सकते हैं। इसे अपने स्थानीय क्लोन में इसके फ़ोल्डर से सीधे चलाएँ, फिर GUI पर आवश्यक फ़ील्ड भरें। इसे इंस्टॉल करने और उपयोग करने के तरीके के बारे में अधिक जानकारी के लिए, [README](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md) देखें।
+***नोट:*** आप [मेरी पायथन GUI स्क्रिप्ट](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/scripts/tutorial-related/new-tutorial-creation) का उपयोग करके चरण 3 और 4 को स्वचालित कर सकते हैं। इसे अपने स्थानीय क्लोन में इसके फ़ोल्डर से सीधे चलाएँ, फिर GUI पर आवश्यक फ़ील्ड भरें। इसे इंस्टॉल करने और उपयोग करने के तरीके के बारे में अधिक जानकारी के लिए, [README](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md) देखें।
 
 
 यदि आप इसे मैन्युअल रूप से करना पसंद करते हैं, तो इन चरणों का पालन करें:
@@ -213,11 +213,11 @@ reward:
 
 
 
-- **project_id**: ट्यूटोरियल में प्रस्तुत टूल के पीछे कंपनी या संगठन का UUID [प्रोजेक्ट सूची से](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/resources/projects)। उदाहरण के लिए, यदि आप Green Wallet सॉफ़्टवेयर के बारे में एक ट्यूटोरियल बना रहे हैं, तो आप इस `project_id` को निम्न फ़ाइल में पा सकते हैं: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`। यह जानकारी आपके ट्यूटोरियल की YAML फ़ाइल में इसलिए जोड़ी जाती है क्योंकि Plan ₿ Academy Bitcoin या संबंधित प्रोजेक्ट पर काम करने वाली सभी कंपनियों और संगठनों का डेट
+- **project_id**: ट्यूटोरियल में प्रस्तुत टूल के पीछे कंपनी या संगठन का UUID [प्रोजेक्ट सूची से](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects)। उदाहरण के लिए, यदि आप Green Wallet सॉफ़्टवेयर के बारे में एक ट्यूटोरियल बना रहे हैं, तो आप इस `project_id` को निम्न फ़ाइल में पा सकते हैं: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`। यह जानकारी आपके ट्यूटोरियल की YAML फ़ाइल में इसलिए जोड़ी जाती है क्योंकि Plan ₿ Academy Bitcoin या संबंधित प्रोजेक्ट पर काम करने वाली सभी कंपनियों और संगठनों का डेट
 
 
 
-- **टैग**: ट्यूटोरियल सामग्री से संबंधित 2 या 3 प्रासंगिक कीवर्ड, विशेष रूप से [Plan ₿ Academy टैग सूची से](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) चुने गए;
+- **टैग**: ट्यूटोरियल सामग्री से संबंधित 2 या 3 प्रासंगिक कीवर्ड, विशेष रूप से [Plan ₿ Academy टैग सूची से](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) चुने गए;
 
 
 
@@ -233,7 +233,7 @@ reward:
 
 
 
-- **professor_id**: आपका `professor_id` (UUID) जैसा कि [आपके प्रोफेसर प्रोफ़ाइल](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/professors) पर प्रदर्शित है;
+- **professor_id**: आपका `professor_id` (UUID) जैसा कि [आपके प्रोफेसर प्रोफ़ाइल](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors) पर प्रदर्शित है;
 
 
 

@@ -141,7 +141,7 @@ https://planb.academy/tutorials/contribution/content/proofreading-guidelines-523
 
 7. In attesa di revisione
 
-- Congratulazioni, la tua PR è stata inviata! puoi seguirne l'avanzamento nella sezione "Pull requests" del [repository GitHub di Plan ₿ Academy](https://github.com/Plan ₿ Academy/bitcoin-educational-content/pulls):
+- Congratulazioni, la tua PR è stata inviata! puoi seguirne l'avanzamento nella sezione "Pull requests" del [repository GitHub di Plan ₿ Academy](https://github.com/PlanB-Network/bitcoin-educational-content/pulls):
 
 ![REVIEW](assets/fr/12.webp)
 

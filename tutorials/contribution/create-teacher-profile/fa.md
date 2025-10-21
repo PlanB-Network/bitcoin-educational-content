@@ -8,7 +8,7 @@ description: چگونه می‌توانم پروفایل معلم خود را د
 اگر قصد دارید با نوشتن یک آموزش یا دوره جدید به Plan ₿ Academy کمک کنید، به یک پروفایل معلم نیاز خواهید داشت. این پروفایل به شما امکان می‌دهد تا اعتبار مناسب برای محتوایی که به پلتفرم ارائه می‌دهید را دریافت کنید.
 
 
-برای کسانی که قبلاً در ایجاد محتوای آموزشی در Plan ₿ Academy مشارکت داشته‌اند، احتمالاً پروفایل معلم دارید. می‌توانید آن را در پوشه `/professors` [در مخزن GitHub ما](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/professors) پیدا کنید. اگر پروفایل شما قبلاً وجود دارد، ورود خود را در فایل `professor.yml` پیدا کنید.
+برای کسانی که قبلاً در ایجاد محتوای آموزشی در Plan ₿ Academy مشارکت داشته‌اند، احتمالاً پروفایل معلم دارید. می‌توانید آن را در پوشه `/professors` [در مخزن GitHub ما](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors) پیدا کنید. اگر پروفایل شما قبلاً وجود دارد، ورود خود را در فایل `professor.yml` پیدا کنید.
 
 
 برای ایجاد تغییرات در پروفایل خود، به بخش "ویرایش پروفایل معلم خود" در انتهای این آموزش بروید.
@@ -23,7 +23,7 @@ description: چگونه می‌توانم پروفایل معلم خود را د
 ### ۱ - محیط محلی خود را پیکربندی کنید
 
 
-شما باید Fork خود را از [مخزن Plan ₿ Academy در GitHub](https://github.com/Plan ₿ Academy/Bitcoin-educational-content) داشته باشید.
+شما باید Fork خود را از [مخزن Plan ₿ Academy در GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content) داشته باشید.
 
 
 شاخه اصلی (`dev`) از Fork خود را با مخزن منبع همگام‌سازی کنید.
@@ -37,7 +37,7 @@ description: چگونه می‌توانم پروفایل معلم خود را د
 git clone https://github.com/<username>/bitcoin-educational-content.git
 cd bitcoin-educational-content
 # Ajouter le dépôt source en tant que remote upstream
-git remote add upstream https://github.com/Plan ₿ Academy/bitcoin-educational-content.git
+git remote add upstream https://github.com/PlanB-Network/bitcoin-educational-content.git
 # Récupérer les dernières modifications depuis le dépôt source
 git fetch upstream
 # Se positionner sur la branche principale 'dev'
@@ -157,7 +157,7 @@ git push origin add-professor-loic-morel
 
 
 https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
-به [مخزن GitHub Plan ₿ Academy اختصاص داده شده به داده‌ها](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/graphs/contributors) بروید.
+به [مخزن GitHub Plan ₿ Academy اختصاص داده شده به داده‌ها](https://github.com/PlanB-Network/Bitcoin-educational-content/graphs/contributors) بروید.
 
 
 ![Image](assets/fr/03.webp)

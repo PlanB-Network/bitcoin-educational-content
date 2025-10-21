@@ -125,7 +125,7 @@ Para obtener más información sobre las pautas a seguir al corregir en Plan ₿
 
 ## 7. Espera la revisión
 
-- ¡Felicidades, tu PR ha sido enviado! Puedes seguir su progreso en la pestaña "Pull requests" del repositorio GitHub de [Plan ₿ Academy](https://github.com/Plan ₿ Academy/bitcoin-educational-content/pulls):
+- ¡Felicidades, tu PR ha sido enviado! Puedes seguir su progreso en la pestaña "Pull requests" del repositorio GitHub de [Plan ₿ Academy](https://github.com/PlanB-Network/bitcoin-educational-content/pulls):
 
 ![REVIEW](assets/fr/12.webp)
 

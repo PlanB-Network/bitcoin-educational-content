@@ -27,12 +27,12 @@ Hướng dẫn này cung cấp các bước chi tiết để thiết lập nền
 
 Sao chép kho lưu trữ vào máy cục bộ của bạn:
 
-git clone [https://github.com/Plan ₿ Academy/Bitcoin-learning-management-system](https://github.com/Plan ₿ Academy/Bitcoin-learning-management-system￼cd)
+git clone [https://github.com/PlanB-Network/Bitcoin-learning-management-system](https://github.com/PlanB-Network/Bitcoin-learning-management-system￼cd)
 
-[cd](https://github.com/Plan ₿ Academy/Bitcoin-learning-management-system￼cd) Hệ thống quản lý học tập Bitcoin
+[cd](https://github.com/PlanB-Network/Bitcoin-learning-management-system￼cd) Hệ thống quản lý học tập Bitcoin
 
 ```bash
-git clone https://github.com/Plan ₿ Academy/bitcoin-learning-management-system
+git clone https://github.com/PlanB-Network/bitcoin-learning-management-system
 cd bitcoin-learning-management-system
 ```
 

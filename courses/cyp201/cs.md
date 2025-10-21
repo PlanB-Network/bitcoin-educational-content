@@ -1251,7 +1251,7 @@ Například pro entropii 256 bitů je výsledek $\text{ENT} \Vert \text{CS}$ 264
 
 ### Převod Binární Sekvence na Mnemonickou Frázi
 
-Bitová sekvence $\text{ENT} \Vert \text{CS}$ je poté rozdělena na segmenty po 11 bitech. Každý 11bitový segment, jednou převedený na desítkové číslo, odpovídá číslu mezi 0 a 2047, které určuje pozici slova [v seznamu 2048 slov standardizovaném BIP39](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
+Bitová sekvence $\text{ENT} \Vert \text{CS}$ je poté rozdělena na segmenty po 11 bitech. Každý 11bitový segment, jednou převedený na desítkové číslo, odpovídá číslu mezi 0 a 2047, které určuje pozici slova [v seznamu 2048 slov standardizovaném BIP39](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
 ![CYP201](assets/en/042.webp)
 Například pro 128bitovou entropii je kontrolní součet 4 bity, a celková sekvence tak měří 132 bitů. Je rozdělena na 12 segmentů po 11 bitech (oranžové bity označují kontrolní součet):

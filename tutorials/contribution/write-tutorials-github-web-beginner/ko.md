@@ -45,7 +45,7 @@ https://planb.academy/tutorials/contribution/content/write-tutorials-github-desk
 
 
 - GitHub 계정](https://github.com/signup)이 있어야 합니다;
-- Plan ₿ Academy 소스 리포지토리](https://github.com/Plan ₿ Academy/Bitcoin-educational-content)의 Fork가 있어야 합니다;
+- Plan ₿ Academy 소스 리포지토리](https://github.com/PlanB-Network/Bitcoin-educational-content)의 Fork가 있어야 합니다;
 - Plan ₿ Network에 [교사 프로필](https://planb.academy/professors)이 있어야 합니다(전체 튜토리얼을 제공하는 경우에만 해당).
 
 
@@ -197,11 +197,11 @@ reward:
 
 
 
-- project_id**: 프로젝트 목록에서](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/resources/projects) 튜토리얼에 제시된 도구의 배후에 있는 회사 또는 조직의 UUID입니다. 예를 들어 Green Wallet 소프트웨어에 대한 튜토리얼을 만드는 경우 다음 파일에서 이 `project_id`를 찾을 수 있습니다: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. 이 정보는 Plan ₿ Network에서 Bitcoin 또는 관련 프로젝트를 운영하는 모든 회사 및 조직의 데이터베이스를 유지 관리하기 때문에 튜토리얼의 YAML 파일에 추가됩니다. 튜토리얼에 연결된 엔티티의 `project_id`를 추가하면 두 Elements 간의 링크가 생성됩니다;
+- project_id**: 프로젝트 목록에서](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects) 튜토리얼에 제시된 도구의 배후에 있는 회사 또는 조직의 UUID입니다. 예를 들어 Green Wallet 소프트웨어에 대한 튜토리얼을 만드는 경우 다음 파일에서 이 `project_id`를 찾을 수 있습니다: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. 이 정보는 Plan ₿ Network에서 Bitcoin 또는 관련 프로젝트를 운영하는 모든 회사 및 조직의 데이터베이스를 유지 관리하기 때문에 튜토리얼의 YAML 파일에 추가됩니다. 튜토리얼에 연결된 엔티티의 `project_id`를 추가하면 두 Elements 간의 링크가 생성됩니다;
 
 
 
-- 태그**: 튜토리얼 콘텐츠와 관련된 2~3개의 관련 키워드로, [Plan ₿ Academy 태그 목록에서] 독점적으로 선택(https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md)합니다;
+- 태그**: 튜토리얼 콘텐츠와 관련된 2~3개의 관련 키워드로, [Plan ₿ Academy 태그 목록에서] 독점적으로 선택(https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md)합니다;
 
 
 
@@ -217,7 +217,7 @@ reward:
 
 
 
-- 교수자_ID**: 교수자 프로필](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/professors)에 표시된 `교수자_id`(UUID)입니다;
+- 교수자_ID**: 교수자 프로필](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors)에 표시된 `교수자_id`(UUID)입니다;
 
 
 

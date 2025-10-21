@@ -17,7 +17,7 @@ description: Как добавить новые образовательные �
 https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
-- Перейдите в [репозиторий GitHub PlanB, посвященный данным](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/resources/bet) в раздел `resources/bet/`:
+- Перейдите в [репозиторий GitHub PlanB, посвященный данным](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet) в раздел `resources/bet/`:
 ![event](assets/02.webp)
 - Нажмите в верхнем правом углу на кнопку `Add file`, затем на `Create new file`:
 ![event](assets/03.webp)

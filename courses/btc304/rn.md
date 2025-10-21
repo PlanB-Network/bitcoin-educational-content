@@ -1775,7 +1775,7 @@ Mu mpera, ni wewe ushobora gufata ingingo y'aho "ugufungura no gushiramwo abantu
 Uko amabuye azogenda aratera imbere, ni ko n’umuryango wawe uzotera imbere. Amaso mashasha azokwifatanya, ayandi azogenda ariko ingingo ngenderwako ikwiye kuguma ari imwe: guteza imbere ibidukikije vya Bitcoin no gukomeza ubucuti hagati y’abagize umuryango.
 
 
-Hariho imigambi myinshi n’imigambi myinshi ishobora gushirwa mu ngiro. Iki gice kiratanga urutonde rudahera rw’ivyiyumviro bishobora gushirwa mu ngiro mu kibano canke mu gihe c’inama. Ushobora guhitamwo izo zigutera intege mbere n'ivyiyumviro vyawe bwite muri iri shure [mu gukora "Igisabwa co Gukura" kuri GitHub](https://github.com/Plan ₿ Academy/Bitcoin-ibirimwo-ivy'inyigisho).
+Hariho imigambi myinshi n’imigambi myinshi ishobora gushirwa mu ngiro. Iki gice kiratanga urutonde rudahera rw’ivyiyumviro bishobora gushirwa mu ngiro mu kibano canke mu gihe c’inama. Ushobora guhitamwo izo zigutera intege mbere n'ivyiyumviro vyawe bwite muri iri shure [mu gukora "Igisabwa co Gukura" kuri GitHub](https://github.com/PlanB-Network/Bitcoin-ibirimwo-ivy'inyigisho).
 
 
 Imbere y’uko twisuka muri vyo, reka dusubire ku ciyumviro twamaze kuvuga.

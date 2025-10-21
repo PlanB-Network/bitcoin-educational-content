@@ -1360,7 +1360,7 @@ $$
 
 ### 將二進位序列轉換成 Mnemonic 樂句
 
-位元序列 $\text{ENT}\Vert \text{CS}$ 會被分成 11 位元的區段。每個 11 位元段轉換為十進位後，對應一個介於 0 與 2047 之間的數字，指定一個字的位置 [在 BIP39 標準化的 2048 個字清單中](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)。
+位元序列 $\text{ENT}\Vert \text{CS}$ 會被分成 11 位元的區段。每個 11 位元段轉換為十進位後，對應一個介於 0 與 2047 之間的數字，指定一個字的位置 [在 BIP39 標準化的 2048 個字清單中](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)。
 
 ![CYP201](assets/en/042.webp)
 

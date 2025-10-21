@@ -202,7 +202,7 @@ Aby dowiedzieć się więcej o wytycznych do stosowania podczas korekty w Plan �
 
 
 
-- Gratulacje, twój PR został przesłany! Możesz śledzić jego postęp w zakładce "Pull requests" na [Plan ₿ Academy's GitHub repository](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/pulls):
+- Gratulacje, twój PR został przesłany! Możesz śledzić jego postęp w zakładce "Pull requests" na [Plan ₿ Academy's GitHub repository](https://github.com/PlanB-Network/Bitcoin-educational-content/pulls):
 
 
 ![REVIEW](assets/fr/12.webp)

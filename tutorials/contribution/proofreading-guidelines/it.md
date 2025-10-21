@@ -7,7 +7,7 @@ description: Quali sono i fattori importanti da tenere a mente per il proofreadi
 
 Benvenuto in questo tutorial sulle **linee guida da seguire per la revisione dei contenuti su Plan ₿ Academy**. Siamo felici che tu condivida la nostra missione di tradurre risorse su Bitcoin nel maggior numero possibile di lingue, al fine di aiutare le persone a conoscere il suo funzionamento e il suo utilizzo nella vita quotidiana.
 
-Innanzitutto, contribuire al [repository pubblico](https://github.com/Plan ₿ Academy/Bitcoin-educational-content) di Plan ₿ Academy ti dà la possibilità di scrivere tutorial, correggere i contenuti esistenti o persino proporre l'aggiunta di una nuova lingua alla piattaforma. Per saperne di più, iscriviti prima al nostro [Gruppo Telegram](https://t.me/PlanBNetwork_ContentBuilder) e manda una breve presentazione su di te e sulle lingue che conosci.
+Innanzitutto, contribuire al [repository pubblico](https://github.com/PlanB-Network/Bitcoin-educational-content) di Plan ₿ Academy ti dà la possibilità di scrivere tutorial, correggere i contenuti esistenti o persino proporre l'aggiunta di una nuova lingua alla piattaforma. Per saperne di più, iscriviti prima al nostro [Gruppo Telegram](https://t.me/PlanBNetwork_ContentBuilder) e manda una breve presentazione su di te e sulle lingue che conosci.
 
 Questo gruppo è dedicato ai collaboratori che vogliono fare proofreading dei contenuti sul repo. La maggior parte di loro non sa molto di [Github](https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) o del [linguaggio Markdown](https://www.markdownguide.org/basic-syntax/) che usiamo all'interno del repository, quindi è importante condividere alcuni approfondimenti sui fattori chiave che il proofreading comporta.
 
@@ -170,7 +170,7 @@ Quando invii una PR, sarebbe fantastico se la intitolassi utilizzando questo for
 
 Inoltre, nella **sezione commenti della PR**, puoi scrivere "closes" + il numero della issue che il coordinatore ti ha inviato quando hai iniziato a controllare il mateirla, preceduto da ``#``.
 
-Ad esempio, se hai appena inviato una PR con il proofreading di cyp201 + quiz, puoi scrivere "closes [#2934](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/issues/2934)".
+Ad esempio, se hai appena inviato una PR con il proofreading di cyp201 + quiz, puoi scrivere "closes [#2934](https://github.com/PlanB-Network/Bitcoin-educational-content/issues/2934)".
 
 In questo modo, la PR e la issue saranno collegati, e chiunque legga il repository Github pubblico potrà trovare facilmente le informazioni.
 

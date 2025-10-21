@@ -18,4 +18,4 @@ description: برنامه Bitcoin Keeper - یک برنامه موبایل که �
 برای دانلود Keeper [اینجا](bitcoinkeeper.app) را ببینید.
 
 
-**توجه:** این آموزش فقط یک پیش‌نویس به زبان انگلیسی است، ما هنوز نیاز به کسی داریم که یک راهنمای جامع در این زمینه بنویسد. اگر شما آن فرد هستید، لطفاً از طریق [تلگرام](https://t.me/PlanBNetwork_ContentBuilder/325) یا [گیت‌هاب](https://github.com/Plan ₿ Academy/Bitcoin-educational-content) با ما تماس بگیرید.
+**توجه:** این آموزش فقط یک پیش‌نویس به زبان انگلیسی است، ما هنوز نیاز به کسی داریم که یک راهنمای جامع در این زمینه بنویسد. اگر شما آن فرد هستید، لطفاً از طریق [تلگرام](https://t.me/PlanBNetwork_ContentBuilder/325) یا [گیت‌هاب](https://github.com/PlanB-Network/Bitcoin-educational-content) با ما تماس بگیرید.

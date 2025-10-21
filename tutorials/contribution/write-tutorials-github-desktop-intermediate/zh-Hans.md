@@ -41,7 +41,7 @@ https://planb.academy/tutorials/contribution/content/write-tutorials-github-web-
 
 
 - 拥有 [GitHub 账户](https://github.com/signup)；
-- 有一个 [Plan ₿ Academy source repository](https://github.com/Plan ₿ Academy/bitcoin-educational-content) 的 fork；
+- 有一个 [Plan ₿ Academy source repository](https://github.com/PlanB-Network/bitcoin-educational-content) 的 fork；
 - 有 [Plan ₿ Academy 上的教授简介](https://planb.academy/professors)（仅限于您提出的完整教程）。
 
 如果您在获得这些先决条件方面需要帮助，我的其他教程将为您提供帮助：
@@ -52,7 +52,7 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 
 ## 1 - 创建新分支
 
-打开浏览器，进入 Plan ₿ Academy 代码库的分叉页面。这是您在 GitHub 上建立的分叉。你的分叉的 URL 应该是这样的: https://github.com/Plan ₿ Academy/bitcoin-educational-content
+打开浏览器，进入 Plan ₿ Academy 代码库的分叉页面。这是您在 GitHub 上建立的分叉。你的分叉的 URL 应该是这样的: https://github.com/PlanB-Network/bitcoin-educational-content
 
 ![TUTO](assets/fr/03.webp)
 
@@ -161,13 +161,13 @@ https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9b
 
 ![DATA-CREATOR-PY](assets/fr/45.webp)
 
-project_id "是教程中涉及的工具背后的公司或组织的 UUID，可在[项目列表](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/resources/projects)中找到。例如，关于 Sparrow Wallet 的教程，您可以在文件中找到它的 `project_id` ：bitcoin-educational-content/resources/projects/sparrow/project.yml`。该信息被添加到您教程的 YAML 文件中，是因为 Plan ₿ Academy 维护着一个活跃于比特币或相关项目的公司和组织的数据库。通过添加相关的 `project_id`，您可以将您的内容链接到相关实体。
+project_id "是教程中涉及的工具背后的公司或组织的 UUID，可在[项目列表](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects)中找到。例如，关于 Sparrow Wallet 的教程，您可以在文件中找到它的 `project_id` ：bitcoin-educational-content/resources/projects/sparrow/project.yml`。该信息被添加到您教程的 YAML 文件中，是因为 Plan ₿ Academy 维护着一个活跃于比特币或相关项目的公司和组织的数据库。通过添加相关的 `project_id`，您可以将您的内容链接到相关实体。
 
 ***更新：*** 在新版本的脚本中，您不再需要手动输入 `project_id`。新版本添加了搜索功能，可按名称查找项目并自动检索相应的 `project_id`。在 "项目名称 "字段中输入项目名称的开头进行搜索，然后从下拉菜单中选择所需的公司。项目id "将自动填充到下面的字段中。如有需要，您也可以手动输入。
 
 ![DATA-CREATOR-PY](assets/fr/46.webp)
 
-对于标签，请从[计划 ₿ 网络标签列表](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md)中选择 2 或 3 个与教程内容相关的关键字。软件还提供下拉列表关键字搜索功能。
+对于标签，请从[计划 ₿ 网络标签列表](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md)中选择 2 或 3 个与教程内容相关的关键字。软件还提供下拉列表关键字搜索功能。
 
 ![DATA-CREATOR-PY](assets/fr/47.webp)
 
@@ -177,7 +177,7 @@ project_id "是教程中涉及的工具背后的公司或组织的 UUID，可在
 
 现在您可以跳过 "不使用 Python 脚本 "小节和步骤 3 "填写 YAML 文件"，因为脚本已经为您完成了这些操作。直接进入第 4 步，开始编写教程。
 
-有关此 Python 脚本的更多信息，您也可以查看 [README](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md)。
+有关此 Python 脚本的更多信息，您也可以查看 [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md)。
 
 ### 没有我的 Python 脚本
 
@@ -250,9 +250,9 @@ proofreading:
 
 - **id**: 一个 UUID (_Universally Unique Identifier_) 用于唯一标识教程。您可以使用 [在线工具](https://www.uuidgenerator.net/version4) 生成它。唯一的要求是这个 UUID 是随机生成的，以避免与平台上的其他 UUID 冲突；
 
-- **project_id**: 提供教程中介绍的工具背后的公司或组织的 UUID [从项目列表中](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/resources/projects)。例如，如果您正在创建关于 Green Wallet 软件的教程，您可以在以下文件中找到 `project_id`：`bitcoin-educational-content/resources/projects/blockstream/project.yml`。这个信息会被添加到您的教程 YAML 文件中，因为 Plan ₿ Academy 维护着一个包含所有在 Bitcoin 或相关项目上运营的公司和组织的数据库。通过将与您的教程相关的实体 `project_id` 添加进去，您将两个元素连接起来；
+- **project_id**: 提供教程中介绍的工具背后的公司或组织的 UUID [从项目列表中](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects)。例如，如果您正在创建关于 Green Wallet 软件的教程，您可以在以下文件中找到 `project_id`：`bitcoin-educational-content/resources/projects/blockstream/project.yml`。这个信息会被添加到您的教程 YAML 文件中，因为 Plan ₿ Academy 维护着一个包含所有在 Bitcoin 或相关项目上运营的公司和组织的数据库。通过将与您的教程相关的实体 `project_id` 添加进去，您将两个元素连接起来；
 
-- **tags**: 2 或 3 个与教程内容相关的关键词，仅从 [Plan ₿ Academy 的标签列表](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) 中选择；
+- **tags**: 2 或 3 个与教程内容相关的关键词，仅从 [Plan ₿ Academy 的标签列表](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) 中选择；
 
 - **category**: 对应于教程内容的子类别，根据 Plan ₿ Academy 网站的结构（例如，对于钱包：`desktop`、`hardware`、`mobile`、`backup`）；
 
@@ -262,7 +262,7 @@ proofreading:
     - `advanced`
     - `expert`
 
-- **professor_id**: 您的 `professor_id` (UUID)，如在 [您的教授资料](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/professors) 中显示；
+- **professor_id**: 您的 `professor_id` (UUID)，如在 [您的教授资料](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors) 中显示；
 
 - **original_language**: 教程的原始语言（例如 `fr`、`en` 等）；
 

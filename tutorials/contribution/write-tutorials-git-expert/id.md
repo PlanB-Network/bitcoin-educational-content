@@ -61,7 +61,7 @@ Untuk membuat diagram dan visual:
 ### 1 - Konfigurasikan lingkungan lokal Anda
 
 
-- Anda harus memiliki fork Anda sendiri dari [Paket ₿ Repositori Jaringan di GitHub](https://github.com/Plan ₿ Academy/bitcoin-educational-content).
+- Anda harus memiliki fork Anda sendiri dari [Paket ₿ Repositori Jaringan di GitHub](https://github.com/PlanB-Network/bitcoin-educational-content).
 - Sinkronisasi cabang utama (`dev`) dari fork Anda dengan repositori sumber.
 - Perbarui klon lokal Anda.
 
@@ -70,7 +70,7 @@ Untuk membuat diagram dan visual:
 git clone https://github.com/<votre-nom-utilisateur>/bitcoin-educational-content.git
 cd bitcoin-educational-content
 # Ajouter le dépôt source en tant que remote upstream
-git remote add upstream https://github.com/Plan ₿ Academy/bitcoin-educational-content.git
+git remote add upstream https://github.com/PlanB-Network/bitcoin-educational-content.git
 # Récupérer les dernières modifications depuis le dépôt source
 git fetch upstream
 # Se positionner sur la branche principale 'dev'
@@ -99,7 +99,7 @@ git push -u origin tuto-green-wallet-loic
 
 ### 3 - Tambahkan dokumen tutorial
 
-***Catatan:*** Anda dapat mengotomatiskan langkah 3 dan 4 dengan menggunakan [skrip GUI Python saya] (https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/scripts/tutorial-related/new-tutorial-creation). Jalankan langsung dari foldernya di klon lokal Anda, lalu isi kolom yang diperlukan pada GUI. Untuk informasi lebih lanjut tentang cara menginstal dan menggunakannya, lihat [README](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
+***Catatan:*** Anda dapat mengotomatiskan langkah 3 dan 4 dengan menggunakan [skrip GUI Python saya] (https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/scripts/tutorial-related/new-tutorial-creation). Jalankan langsung dari foldernya di klon lokal Anda, lalu isi kolom yang diperlukan pada GUI. Untuk informasi lebih lanjut tentang cara menginstal dan menggunakannya, lihat [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
 
 Jika Anda lebih suka melakukannya secara manual, ikuti langkah-langkah berikut ini:
 
@@ -166,9 +166,9 @@ Berikut adalah bidang yang wajib diisi:
 
 - **id**: Sebuah UUID (_Universally Unique Identifier_) yang mengidentifikasi tutorial secara unik. Anda dapat membuatnya menggunakan [alat online](https://www.uuidgenerator.net/version4). Satu-satunya persyaratan adalah UUID ini harus acak untuk menghindari konflik dengan UUID lain di platform;
 
-- **project_id**: UUID dari perusahaan atau organisasi yang terkait dengan alat yang dibahas dalam tutorial [dari daftar proyek](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/resources/projects). Misalnya, jika Anda membuat tutorial tentang perangkat lunak Green Wallet, Anda dapat menemukan `project_id` dalam file berikut: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Informasi ini ditambahkan ke file YAML tutorial Anda karena Plan ₿ Academy mempertahankan basis data dari semua perusahaan dan organisasi yang beroperasi di Bitcoin atau proyek terkait. Dengan menambahkan `project_id` dari entitas yang terkait dengan tutorial Anda, Anda membuat hubungan antara kedua elemen tersebut;
+- **project_id**: UUID dari perusahaan atau organisasi yang terkait dengan alat yang dibahas dalam tutorial [dari daftar proyek](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Misalnya, jika Anda membuat tutorial tentang perangkat lunak Green Wallet, Anda dapat menemukan `project_id` dalam file berikut: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Informasi ini ditambahkan ke file YAML tutorial Anda karena Plan ₿ Academy mempertahankan basis data dari semua perusahaan dan organisasi yang beroperasi di Bitcoin atau proyek terkait. Dengan menambahkan `project_id` dari entitas yang terkait dengan tutorial Anda, Anda membuat hubungan antara kedua elemen tersebut;
 
-- **tags**: 2 atau 3 kata kunci relevan terkait dengan isi tutorial, dipilih secara eksklusif [dari daftar tag Plan ₿ Academy](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags**: 2 atau 3 kata kunci relevan terkait dengan isi tutorial, dipilih secara eksklusif [dari daftar tag Plan ₿ Academy](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 - **category**: Sub-kategori yang sesuai dengan isi tutorial sesuai dengan struktur situs Plan ₿ Academy (misalnya untuk dompet: `desktop`, `hardware`, `mobile`, `backup`);
 
@@ -178,7 +178,7 @@ Berikut adalah bidang yang wajib diisi:
     - `advanced`
     - `expert`
 
-- **professor_id**: `professor_id` Anda (UUID) seperti yang ditampilkan pada [profil profesor Anda](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/professors);
+- **professor_id**: `professor_id` Anda (UUID) seperti yang ditampilkan pada [profil profesor Anda](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
 
 - **original_language**: Bahasa asli dari tutorial (misalnya `fr`, `en`, dll.);
 

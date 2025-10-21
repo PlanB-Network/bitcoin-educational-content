@@ -1775,7 +1775,7 @@ U konačnici, na vama je da odlučite koliko daleko "otvorenost i inkluzivnost" 
 Kako se blokovi kotrljaju, vaša zajednica će se razvijati. Nova lica će se pridružiti, druga će se udaljiti, ali vodeći princip treba da ostane isti: razvijajte Bitcoin ekosistem i jačajte veze među članovima.
 
 
-Postoji mnogo projekata i inicijativa koje se mogu sprovesti. Ovo poglavlje nudi neiscrpnu listu ideja koje se mogu realizovati unutar zajednice ili tokom okupljanja. Slobodno izaberite one koje vas inspirišu i čak doprinesite sopstvenim idejama ovom kursu [pravljenjem "Pull Request"-a na GitHub-u](https://github.com/Plan ₿ Academy/Bitcoin-educational-content).
+Postoji mnogo projekata i inicijativa koje se mogu sprovesti. Ovo poglavlje nudi neiscrpnu listu ideja koje se mogu realizovati unutar zajednice ili tokom okupljanja. Slobodno izaberite one koje vas inspirišu i čak doprinesite sopstvenim idejama ovom kursu [pravljenjem "Pull Request"-a na GitHub-u](https://github.com/PlanB-Network/Bitcoin-educational-content).
 
 
 Pre nego što zaronimo, hajde da se vratimo na tačku pomenutu ranije.

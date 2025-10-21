@@ -1289,7 +1289,7 @@ $$
 
 ### バイナリシーケンスをニーモニックフレーズに変換
 
-ビットシーケンス$\text{ENT} \Vert \text{CS}$は、11ビットのセグメントに分割されます。各11ビットセグメントは、10進数に変換されると、0から2047の間の数値に対応し、これは[BIP39によって標準化された2048語のリスト](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)の中の単語の位置を指定します。
+ビットシーケンス$\text{ENT} \Vert \text{CS}$は、11ビットのセグメントに分割されます。各11ビットセグメントは、10進数に変換されると、0から2047の間の数値に対応し、これは[BIP39によって標準化された2048語のリスト](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)の中の単語の位置を指定します。
 
 ![CYP201](assets/en/042.webp)
 たとえば、128ビットのエントロピーの場合、チェックサムは4ビットで、したがって合計シーケンスは132ビットになります。これは11ビットの12セグメントに分割されます（オレンジ色のビットはチェックサムを指定します）：

@@ -1855,7 +1855,7 @@ $$
 ### 이진 시퀀스를 Mnemonic 구문으로 변환하기
 
 
-비트 시퀀스 $\text{ENT} \Vert \text{CS}$는 11비트의 세그먼트로 나뉩니다. 각 11비트 세그먼트는 십진수로 변환하면 0에서 2047 사이의 숫자에 해당하며, 이는 단어의 위치를 나타냅니다[BIP39로 표준화된 2048개의 단어 목록에서](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
+비트 시퀀스 $\text{ENT} \Vert \text{CS}$는 11비트의 세그먼트로 나뉩니다. 각 11비트 세그먼트는 십진수로 변환하면 0에서 2047 사이의 숫자에 해당하며, 이는 단어의 위치를 나타냅니다[BIP39로 표준화된 2048개의 단어 목록에서](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
 
 ![CYP201](assets/en/042.webp)

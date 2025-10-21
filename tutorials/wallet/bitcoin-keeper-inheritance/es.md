@@ -26,4 +26,4 @@ Consulte aquí otros enlaces de interés:
 - Tapsigner [Vídeo](youtube.com/watch?v=xKHy1HMw5iU)
 
 
-**Nota:** Este tutorial es sólo un borrador en inglés, todavía necesitamos a alguien que escriba una guía extensa sobre este tema. Si usted es esa persona, por favor póngase en contacto con nosotros en nuestro [Telegram](https://t.me/PlanBNetwork_ContentBuilder/325) o en [GitHub](https://github.com/Plan ₿ Academy/Bitcoin-educational-content)
+**Nota:** Este tutorial es sólo un borrador en inglés, todavía necesitamos a alguien que escriba una guía extensa sobre este tema. Si usted es esa persona, por favor póngase en contacto con nosotros en nuestro [Telegram](https://t.me/PlanBNetwork_ContentBuilder/325) o en [GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content)

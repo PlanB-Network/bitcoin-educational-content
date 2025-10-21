@@ -32,7 +32,7 @@ Eeltingimused enne õpetuse alustamist:
 
 
 - Kas teil on [GitHubi konto](https://github.com/signup);
-- On olemas [Plan ₿ Academy source repository](https://github.com/Plan ₿ Academy/bitcoin-educational-content);
+- On olemas [Plan ₿ Academy source repository](https://github.com/PlanB-Network/bitcoin-educational-content);
 - Omada [õpetaja profiili Plan ₿ Academy](https://planb.academy/professors) (ainult juhul, kui pakute täielikku õpetust).
 
 Kui vajate abi nende eelduste hankimisel, siis aitavad teid minu teised õpetused:
@@ -148,9 +148,9 @@ Siin on kohustuslikud väljad:
 
 - **id**: UUID (_Universally Unique Identifier_), mis võimaldab õpetust ainulaadselt tuvastada. Selle saab luua [veebitööriista](https://www.uuidgenerator.net/version4) abil. Ainus nõue on, et see UUID oleks juhuslik, et vältida konflikte teiste platvormil olevate UUID-dega;
 
-- **project_id**: Ettevõtte või organisatsiooni UUID, mis on seotud õpetuses esitatud tööriistaga [projektide loendist](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/resources/projects). Näiteks kui loote õpetust Green Walleti tarkvara kohta, leiate `project_id` järgmisest failist: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. See teave lisatakse teie õpetuse YAML-faili, kuna Plan ₿ Academy haldab kõigi Bitcoiniga seotud ettevõtete ja organisatsioonide andmebaasi. Lisades oma õpetusega seotud üksuse `project_id`, loote seose kahe elemendi vahel;
+- **project_id**: Ettevõtte või organisatsiooni UUID, mis on seotud õpetuses esitatud tööriistaga [projektide loendist](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Näiteks kui loote õpetust Green Walleti tarkvara kohta, leiate `project_id` järgmisest failist: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. See teave lisatakse teie õpetuse YAML-faili, kuna Plan ₿ Academy haldab kõigi Bitcoiniga seotud ettevõtete ja organisatsioonide andmebaasi. Lisades oma õpetusega seotud üksuse `project_id`, loote seose kahe elemendi vahel;
 
-- **tags**: 2 või 3 õpetuse sisuga seotud märksõna, mis valitakse ainult [Plan ₿ Networki siltide loendist](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags**: 2 või 3 õpetuse sisuga seotud märksõna, mis valitakse ainult [Plan ₿ Networki siltide loendist](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 - **category**: Õpetuse sisule vastav alamosa Plan ₿ Networki saidi struktuuri järgi (näiteks rahakottide jaoks: `desktop`, `hardware`, `mobile`, `backup`);
 
@@ -160,7 +160,7 @@ Siin on kohustuslikud väljad:
     - `advanced`
     - `expert`
 
-- **professor_id**: Teie `professor_id` (UUID), nagu on näidatud [teie professori profiilil](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/professors);
+- **professor_id**: Teie `professor_id` (UUID), nagu on näidatud [teie professori profiilil](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
 
 - **original_language**: Õpetuse algne keel (näiteks `fr`, `en`, jne);
 

@@ -27,7 +27,7 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 
 
 
-- Gå till [GitHub-arkivet för PlanB tillägnad data](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/resources/conference) i avsnittet `resurser/konferens/`:
+- Gå till [GitHub-arkivet för PlanB tillägnad data](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/conference) i avsnittet `resurser/konferens/`:
 
 ![conference](assets/02.webp)
 

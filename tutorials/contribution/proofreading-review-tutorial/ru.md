@@ -143,7 +143,7 @@ NB. Рекомендуется просматривать в окне кода, 
 ## 7. Ждите проверки
 
 
-- Поздравляем, ваш PR был отправлен! Вы можете следить за его продвижением на вкладке "Pull requests" на [репозитории Plan ₿ Academy на GitHub](https://github.com/Plan ₿ Academy/bitcoin-educational-content/pulls):
+- Поздравляем, ваш PR был отправлен! Вы можете следить за его продвижением на вкладке "Pull requests" на [репозитории Plan ₿ Academy на GitHub](https://github.com/PlanB-Network/bitcoin-educational-content/pulls):
 
 ![REVIEW](assets/fr/12.webp)
 

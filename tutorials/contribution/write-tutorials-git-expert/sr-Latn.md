@@ -80,7 +80,7 @@ Da biste kreirali dijagrame i vizuale:
 
 
 
-- Morate imati svoj Fork iz [Plan ₿ Academy repozitorijuma na GitHub-u](https://github.com/Plan ₿ Academy/Bitcoin-educational-content).
+- Morate imati svoj Fork iz [Plan ₿ Academy repozitorijuma na GitHub-u](https://github.com/PlanB-Network/Bitcoin-educational-content).
 - Sinhronizujte glavnu granu (`dev`) vašeg Fork sa izvornim repozitorijumom.
 - Ažurirajte svoju lokalnu kloniranu verziju.
 
@@ -91,7 +91,7 @@ git clone https://github.com/<your-username>/bitcoin-educational-content.git
 cd bitcoin-educational-content
 
 # Add the source repository as a remote upstream
-git remote add upstream https://github.com/Plan ₿ Academy/bitcoin-educational-content.git
+git remote add upstream https://github.com/PlanB-Network/bitcoin-educational-content.git
 
 # Fetch the latest changes from the source repository
 git fetch upstream
@@ -131,7 +131,7 @@ git push -u origin tuto-green-wallet-loic
 ### 3 - Dodajte dokumente za tutorijal
 
 
-***Napomena:*** Možete automatizovati korake 3 i 4 koristeći [moj Python GUI skript](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/scripts/tutorial-related/new-tutorial-creation). Pokrenite ga direktno iz njegove fascikle u vašoj lokalnoj kloniranoj verziji, zatim popunite potrebna polja na GUI. Za više informacija o tome kako ga instalirati i koristiti, pogledajte [README](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
+***Napomena:*** Možete automatizovati korake 3 i 4 koristeći [moj Python GUI skript](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/scripts/tutorial-related/new-tutorial-creation). Pokrenite ga direktno iz njegove fascikle u vašoj lokalnoj kloniranoj verziji, zatim popunite potrebna polja na GUI. Za više informacija o tome kako ga instalirati i koristiti, pogledajte [README](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
 
 
 Ako više volite da to uradite ručno, pratite ove korake:
@@ -213,11 +213,11 @@ Evo potrebna polja:
 
 
 
-- **project_id**: UUID kompanije ili organizacije iza alata predstavljenog u tutorijalu [sa liste projekata](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/resources/projects). Na primer, ako kreirate tutorijal o Green Wallet softveru, možete pronaći ovaj `project_id` u sledećoj datoteci: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Ova informacija se dodaje u YAML datoteku vašeg tutorijala jer Plan ₿ Academy održava bazu podataka svih kompanija i organizacija koje rade na Bitcoin ili povezanim projektima. Dodavanjem `project_id` entiteta povezanog sa vašim tutorijalom, kreirate vezu između dva Elements;
+- **project_id**: UUID kompanije ili organizacije iza alata predstavljenog u tutorijalu [sa liste projekata](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Na primer, ako kreirate tutorijal o Green Wallet softveru, možete pronaći ovaj `project_id` u sledećoj datoteci: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Ova informacija se dodaje u YAML datoteku vašeg tutorijala jer Plan ₿ Academy održava bazu podataka svih kompanija i organizacija koje rade na Bitcoin ili povezanim projektima. Dodavanjem `project_id` entiteta povezanog sa vašim tutorijalom, kreirate vezu između dva Elements;
 
 
 
-- **tagovi**: 2 ili 3 relevantne ključne reči povezane sa sadržajem tutorijala, isključivo odabrane [sa Plan ₿ Academy liste tagova](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tagovi**: 2 ili 3 relevantne ključne reči povezane sa sadržajem tutorijala, isključivo odabrane [sa Plan ₿ Academy liste tagova](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 
 
@@ -233,7 +233,7 @@ Evo potrebna polja:
 
 
 
-- **professor_id**: Vaš `professor_id` (UUID) kako je prikazan na [vašem profesorskom profilu](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/professors);
+- **professor_id**: Vaš `professor_id` (UUID) kako je prikazan na [vašem profesorskom profilu](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors);
 
 
 

@@ -18,4 +18,4 @@ description: Bitcoin कीपर ऐप - एक मोबाइल एप्�
 कीपर डाउनलोड करने के लिए [यहाँ](bitcoinkeeper.app) देखें
 
 
-**नोट:** यह ट्यूटोरियल केवल अंग्रेज़ी में उपलब्ध है, हमें अभी भी इस विषय पर एक विस्तृत गाइड लिखने के लिए किसी व्यक्ति की आवश्यकता है। यदि आप स्वयं ऐसा हैं, तो कृपया हमारे [Telegram](https://t.me/PlanBNetwork_ContentBuilder/325) या [GitHub](https://github.com/Plan ₿ Academy/Bitcoin-educational-content) पर हमसे संपर्क करें।
+**नोट:** यह ट्यूटोरियल केवल अंग्रेज़ी में उपलब्ध है, हमें अभी भी इस विषय पर एक विस्तृत गाइड लिखने के लिए किसी व्यक्ति की आवश्यकता है। यदि आप स्वयं ऐसा हैं, तो कृपया हमारे [Telegram](https://t.me/PlanBNetwork_ContentBuilder/325) या [GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content) पर हमसे संपर्क करें।

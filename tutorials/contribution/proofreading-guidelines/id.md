@@ -9,7 +9,7 @@ description: Apa saja faktor penting yang perlu diingat sewaktu mengoreksi pada 
 Selamat datang di tutorial tentang **panduan yang harus diikuti saat mengoreksi konten di Plan ₿ Academy**. Kami senang Anda berbagi misi kami untuk menerjemahkan materi Bitcoin ke dalam sebanyak mungkin bahasa, untuk membantu orang mendapatkan kesadaran tentang cara kerjanya dan bagaimana hal itu dapat digunakan dalam kehidupan sehari-hari.
 
 
-Pertama-tama, berkontribusi pada [repositori publik] Plan ₿ Academy (https://github.com/Plan ₿ Academy/Bitcoin-educational-content) memberi Anda kesempatan untuk menulis tutorial, mengoreksi konten yang sudah ada, atau bahkan mengusulkan penambahan bahasa baru pada platform ini. Untuk mengetahui lebih lanjut, bergabunglah dengan [Grup Telegram] (https://t.me/PlanBNetwork_ContentBuilder) kami terlebih dahulu, dan tulislah presentasi singkat tentang Anda dan bahasa yang Anda kuasai.
+Pertama-tama, berkontribusi pada [repositori publik] Plan ₿ Academy (https://github.com/PlanB-Network/Bitcoin-educational-content) memberi Anda kesempatan untuk menulis tutorial, mengoreksi konten yang sudah ada, atau bahkan mengusulkan penambahan bahasa baru pada platform ini. Untuk mengetahui lebih lanjut, bergabunglah dengan [Grup Telegram] (https://t.me/PlanBNetwork_ContentBuilder) kami terlebih dahulu, dan tulislah presentasi singkat tentang Anda dan bahasa yang Anda kuasai.
 
 
 Tutorial ini didedikasikan untuk kontributor yang ingin mengoreksi konten. Kebanyakan dari mereka tidak tahu banyak tentang [Github](https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) atau [Bahasa penurunan harga](https://www.markdownguide.org/basic-syntax/) yang kami gunakan di dalam repositori, jadi penting untuk membagikan beberapa wawasan tentang faktor-faktor kunci yang terlibat dalam tugas ini.
@@ -289,7 +289,7 @@ Ketika Anda mengirim PR Anda, akan sangat luar biasa jika Anda menamainya dengan
 
 Selain itu, di bagian **komentar PR**, Anda dapat menulis "ditutup" + nomor edisi yang dikirimkan koordinator kepada Anda saat Anda memulai tugas proofreading, diawali dengan ``#``.
 
-Sebagai contoh, jika Anda baru saja mengirim PR dengan mengoreksi kuis cyp201 +, Anda dapat menulis "menutup [#2934](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/issues/2934)".
+Sebagai contoh, jika Anda baru saja mengirim PR dengan mengoreksi kuis cyp201 +, Anda dapat menulis "menutup [#2934](https://github.com/PlanB-Network/Bitcoin-educational-content/issues/2934)".
 
 
 Dengan cara ini, PR dan masalah akan terhubung, dan siapa pun yang membaca repositori Github publik dapat dengan mudah menemukan informasi.

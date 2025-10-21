@@ -1775,7 +1775,7 @@ Hatimaye, ni juu yako kuamua ni umbali gani "wazi na wa kujumuisha" unapaswa kwe
 Vizuizi vikiendelea, jumuiya yako itabadilika. Nyuso mpya zitajiunga, zingine zitapeperuka lakini kanuni elekezi inapaswa kubaki sawa: kuendeleza mfumo ikolojia wa Bitcoin na kuimarisha uhusiano kati ya wanachama.
 
 
-Kuna miradi na mipango mingi inayoweza kutekelezwa. Sura hii inatoa orodha isiyo kamili ya mawazo ambayo yanaweza kutekelezwa ndani ya jumuiya au wakati wa mkutano. Jisikie huru kuchagua yale yanayokuhimiza na hata kuchangia mawazo yako mwenyewe kwenye kozi hii [kwa kufanya "Ombi la Kuvuta" kwenye GitHub](https://github.com/Plan ₿ Academy/Bitcoin-educational-content).
+Kuna miradi na mipango mingi inayoweza kutekelezwa. Sura hii inatoa orodha isiyo kamili ya mawazo ambayo yanaweza kutekelezwa ndani ya jumuiya au wakati wa mkutano. Jisikie huru kuchagua yale yanayokuhimiza na hata kuchangia mawazo yako mwenyewe kwenye kozi hii [kwa kufanya "Ombi la Kuvuta" kwenye GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content).
 
 
 Kabla ya kupiga mbizi ndani, acheni turudie hoja iliyotajwa hapo awali.

@@ -143,7 +143,7 @@ Lisätietoja Plan ₿ -verkon oikolukuohjeista kielen tai muotoilun sääntöjen
 ## 7. Odota arviointia
 
 
-- Onneksi olkoon, PR-työsi on toimitettu! Voit seurata sen edistymistä "Pull requests" -välilehdellä [Plan ₿ Academy's GitHub repository](https://github.com/Plan ₿ Academy/bitcoin-educational-content/pulls):
+- Onneksi olkoon, PR-työsi on toimitettu! Voit seurata sen edistymistä "Pull requests" -välilehdellä [Plan ₿ Academy's GitHub repository](https://github.com/PlanB-Network/bitcoin-educational-content/pulls):
 
 ![REVIEW](assets/fr/12.webp)
 

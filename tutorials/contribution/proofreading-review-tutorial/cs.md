@@ -142,7 +142,7 @@ Chcete-li se dozvědět více o pokynech, které je třeba dodržovat při korek
 
 ## 7. Počkejte na recenzi
 
-- Gratulujeme, vaše PR bylo odesláno! Jeho průběh můžete sledovat v záložce "Pull requests" v úložišti [Plan ₿ Academy's GitHub](https://github.com/Plan ₿ Academy/bitcoin-educational-content/pulls):
+- Gratulujeme, vaše PR bylo odesláno! Jeho průběh můžete sledovat v záložce "Pull requests" v úložišti [Plan ₿ Academy's GitHub](https://github.com/PlanB-Network/bitcoin-educational-content/pulls):
 
 ![REVIEW](assets/fr/12.webp)
 

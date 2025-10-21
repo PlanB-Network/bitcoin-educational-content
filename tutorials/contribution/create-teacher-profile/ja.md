@@ -6,7 +6,7 @@ description: Plan ₿ Networkに教師プロフィールを追加または変更
 
 新しいチュートリアルやコースを書いてPlan ₿ Networkに貢献することを計画している場合、教師プロファイルが必要です。このプロフィールは、あなたがプラットフォームに貢献したコンテンツに対して適切なクレジットを受け取ることを可能にします。
 
-すでにPlan ₿ Networkで教育コンテンツの作成に携わっている方は、すでに先生プロフィールをお持ちでしょう。GitHubリポジトリの`/professors`フォルダ(https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/professors)にあります。もし既にプロフィールが存在する場合は、`professor.yml`ファイルでログインを確認してください。
+すでにPlan ₿ Networkで教育コンテンツの作成に携わっている方は、すでに先生プロフィールをお持ちでしょう。GitHubリポジトリの`/professors`フォルダ(https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors)にあります。もし既にプロフィールが存在する場合は、`professor.yml`ファイルでログインを確認してください。
 
 プロフィールを変更するには、このチュートリアルの最後にある「教師プロフィールを編集する」のセクションに進んでください。
 
@@ -16,7 +16,7 @@ Plan ₿ Networkに先生プロフィールを作成する最も簡単な方法�
 
 ### 1 - ローカル環境を設定する
 
-Forkは[Plan ₿ Academy repository on GitHub](https://github.com/Plan ₿ Academy/Bitcoin-educational-content)から入手してください。
+Forkは[Plan ₿ Academy repository on GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content)から入手してください。
 
 Forkのメインブランチ(`dev`)をソースリポジトリと同期させる。
 
@@ -27,7 +27,7 @@ Forkのメインブランチ(`dev`)をソースリポジトリと同期させる
 git clone https://github.com/<username>/bitcoin-educational-content.git
 cd bitcoin-educational-content
 # Ajouter le dépôt source en tant que remote upstream
-git remote add upstream https://github.com/Plan ₿ Academy/bitcoin-educational-content.git
+git remote add upstream https://github.com/PlanB-Network/bitcoin-educational-content.git
 # Récupérer les dernières modifications depuis le dépôt source
 git fetch upstream
 # Se positionner sur la branche principale 'dev'
@@ -119,7 +119,7 @@ Git の使い方をマスターしているのであれば、新しいブラン�
 初心者の方には、GitHubのInterfaceウェブから直接修正することをお勧めします。GitHubのアカウントを持っていることを確認してください。作り方がわからない場合は、こちらのチュートリアルを参考にしてください：
 
 https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
-データ専用のPlan ₿ Network GitHubリポジトリ](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/graphs/contributors)にアクセスしてください。
+データ専用のPlan ₿ Network GitHubリポジトリ](https://github.com/PlanB-Network/Bitcoin-educational-content/graphs/contributors)にアクセスしてください。
 
 ![Image](assets/fr/03.webp)
 

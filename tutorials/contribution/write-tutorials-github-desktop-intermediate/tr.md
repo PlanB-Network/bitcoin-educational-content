@@ -56,7 +56,7 @@ Eğitime başlamadan önce önkoşullar:
 
 
 - Bir [GitHub hesabına] sahip olun (https://github.com/signup);
-- Fork kaynak deposunun] (https://github.com/Plan ₿ Academy/Bitcoin-educational-content) bir Plan ₿ Academy'ine sahip olun;
+- Fork kaynak deposunun] (https://github.com/PlanB-Network/Bitcoin-educational-content) bir Plan ₿ Academy'ine sahip olun;
 - Plan ₿ Academy'de bir profesör profiline sahip olun] (https://planb.academy/professors) (yalnızca tam bir eğitim öneriyorsanız).
 
 
@@ -229,7 +229,7 @@ Eğitiminiz için özel olarak oluşturulan dizin için bir ad seçin. Bu klasö
 ![DATA-CREATOR-PY](assets/fr/45.webp)
 
 
-Proje_id`, [projeler listesinde] (https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/resources/projects) bulunan, eğitimde ele alınan aracın arkasındaki şirket veya kuruluşun UUID'sidir. Örneğin, Sparrow wallet ile ilgili bir eğitim için `project_id` dosyasını dosyada bulabilirsiniz: `Bitcoin-educational-content/resources/projects/Sparrow/project.yml`. Bu bilgi öğreticinizin YAML dosyasına eklenir çünkü Plan ₿ Academy, Bitcoin veya ilgili projelerde aktif olan şirket ve kuruluşların bir veritabanını tutar. İlişkili `project_id` bilgisini ekleyerek içeriğinizi ilgili varlığa bağlamış olursunuz.
+Proje_id`, [projeler listesinde] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects) bulunan, eğitimde ele alınan aracın arkasındaki şirket veya kuruluşun UUID'sidir. Örneğin, Sparrow wallet ile ilgili bir eğitim için `project_id` dosyasını dosyada bulabilirsiniz: `Bitcoin-educational-content/resources/projects/Sparrow/project.yml`. Bu bilgi öğreticinizin YAML dosyasına eklenir çünkü Plan ₿ Academy, Bitcoin veya ilgili projelerde aktif olan şirket ve kuruluşların bir veritabanını tutar. İlişkili `project_id` bilgisini ekleyerek içeriğinizi ilgili varlığa bağlamış olursunuz.
 
 
 ***Güncelleme:*** Komut dosyasının yeni sürümünde, artık `proje_id`yi manuel olarak girmenize gerek yoktur. Projeyi adına göre bulmak ve ilgili `project_id`yi otomatik olarak almak için bir arama işlevi eklendi. Aramak için "Proje Adı" alanına proje adının baş harfini yazın, ardından açılır menüden istediğiniz şirketi seçin. Proje_id`si aşağıdaki alana otomatik olarak doldurulacaktır. Gerekirse manuel olarak da girebilirsiniz.
@@ -238,7 +238,7 @@ Proje_id`, [projeler listesinde] (https://github.com/Plan ₿ Academy/Bitcoin-ed
 ![DATA-CREATOR-PY](assets/fr/46.webp)
 
 
-Etiketler için, yalnızca [Plan ₿ Academy etiket listesinden] (https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) seçerek eğitim içeriğinizle ilgili 2 veya 3 anahtar kelime seçin. Yazılım ayrıca açılır listeli bir anahtar kelime arama işlevi de sağlar.
+Etiketler için, yalnızca [Plan ₿ Academy etiket listesinden] (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) seçerek eğitim içeriğinizle ilgili 2 veya 3 anahtar kelime seçin. Yazılım ayrıca açılır listeli bir anahtar kelime arama işlevi de sağlar.
 
 
 ![DATA-CREATOR-PY](assets/fr/47.webp)
@@ -253,7 +253,7 @@ Tüm bilgiler girildikten ve doğrulandıktan sonra, eğitim dosyalarınızın o
 Artık "Python betiğim olmadan" alt bölümünü ve 3. adım olan "YAML dosyasını doldurun" kısmını atlayabilirsiniz, çünkü betik bu işlemleri sizin için zaten tamamlamıştır. Doğrudan 4. adıma geçin ve öğreticinizi yazmaya başlayın.
 
 
-Bu Python betiği hakkında daha fazla bilgi için [README](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md) adresine de göz atabilirsiniz.
+Bu Python betiği hakkında daha fazla bilgi için [README](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md) adresine de göz atabilirsiniz.
 
 
 ### Python betiğim olmadan
@@ -344,11 +344,11 @@ reward:
 
 
 
-- **project_id**: Eğitimde sunulan aracın arkasındaki şirket veya kuruluşun UUID'si [proje listesinden] (https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/resources/projects). Örneğin, Green Wallet yazılımı hakkında bir eğitim oluşturuyorsanız, bu `project_id`yi aşağıdaki dosyada bulabilirsiniz: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Bu bilgi öğreticinizin YAML dosyasına eklenir çünkü Plan ₿ Academy, Bitcoin veya ilgili projeler üzerinde faaliyet gösteren tüm şirket ve kuruluşların bir veritabanını tutar. Öğreticinize bağlı varlığın `project_id` bilgisini ekleyerek, iki Elements arasında bir bağlantı oluşturursunuz;
+- **project_id**: Eğitimde sunulan aracın arkasındaki şirket veya kuruluşun UUID'si [proje listesinden] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Örneğin, Green Wallet yazılımı hakkında bir eğitim oluşturuyorsanız, bu `project_id`yi aşağıdaki dosyada bulabilirsiniz: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Bu bilgi öğreticinizin YAML dosyasına eklenir çünkü Plan ₿ Academy, Bitcoin veya ilgili projeler üzerinde faaliyet gösteren tüm şirket ve kuruluşların bir veritabanını tutar. Öğreticinize bağlı varlığın `project_id` bilgisini ekleyerek, iki Elements arasında bir bağlantı oluşturursunuz;
 
 
 
-- **etiketler**: özel olarak [Plan ₿ Academy etiket listesinden] seçilen, eğitim içeriğiyle ilgili 2 veya 3 anahtar kelime (https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **etiketler**: özel olarak [Plan ₿ Academy etiket listesinden] seçilen, eğitim içeriğiyle ilgili 2 veya 3 anahtar kelime (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 
 
@@ -364,7 +364,7 @@ reward:
 
 
 
-- **professor_id**: Profesör profilinizde (https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/professors) görüntülenen `profesör_id`niz (UUID);
+- **professor_id**: Profesör profilinizde (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors) görüntülenen `profesör_id`niz (UUID);
 
 
 

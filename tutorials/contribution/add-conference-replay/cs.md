@@ -19,7 +19,7 @@ https://planb.academy/tutorials/contribution/resource/add-event-1d3df554-c2d8-4e
 https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
-- Přejděte na [GitHubový repozitář PlanB věnovaný datům](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/resources/conference) v sekci `resources/conference/`:
+- Přejděte na [GitHubový repozitář PlanB věnovaný datům](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) v sekci `resources/conference/`:
 ![konference](assets/02.webp)
 - Klikněte vpravo nahoře na tlačítko `Add file` a poté na `Create new file`:
 ![konference](assets/03.webp)

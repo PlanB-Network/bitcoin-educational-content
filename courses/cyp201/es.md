@@ -1311,7 +1311,7 @@ $$
 
 ### Conversión de la Secuencia Binaria en una Frase Mnemotécnica
 
-La secuencia de bits $\text{ENT} \Vert \text{CS}$ se divide entonces en segmentos de 11 bits. Cada segmento de 11 bits, una vez convertido a decimal, corresponde a un número entre 0 y 2047, que designa la posición de una palabra [en una lista de 2048 palabras estandarizadas por el BIP39](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
+La secuencia de bits $\text{ENT} \Vert \text{CS}$ se divide entonces en segmentos de 11 bits. Cada segmento de 11 bits, una vez convertido a decimal, corresponde a un número entre 0 y 2047, que designa la posición de una palabra [en una lista de 2048 palabras estandarizadas por el BIP39](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
 ![CYP201](assets/en/042.webp)
 

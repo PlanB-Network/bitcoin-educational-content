@@ -45,7 +45,7 @@ Do ręcznego utworzenia frazy odzyskiwania potrzebne będą:
 - Kartka papieru;
 - Długopis lub ołówek, najlepiej w różnych kolorach, aby ułatwić organizację;
 - Kilka kości, aby zminimalizować ryzyko błędu związanego z niewyważoną kością;
-- [Wydrukowano listę 2048 słów BIP39](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
+- [Wydrukowano listę 2048 słów BIP39](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
 
 Następnie do obliczenia sumy kontrolnej konieczne będzie użycie komputera z terminalem. Właśnie z tego powodu odradzam ręczne generowanie frazy Mnemonic. Moim zdaniem ingerencja komputera, nawet przy zachowaniu środków ostrożności wspomnianych w tym poradniku, znacznie zwiększa podatność Wallet na ataki.
@@ -102,7 +102,7 @@ Każdy z tych pakietów reprezentuje liczbę binarną, która następnie zostani
 ![mnemonic](assets/notext/5.webp)
 
 
-Wreszcie, liczba w systemie dziesiętnym mówi nam o pozycji odpowiedniego słowa w [liście 2048 słów BIP39](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf). Pozostaje tylko wybrać te słowa, aby skomponować frazę odzyskiwania dla naszego Wallet.
+Wreszcie, liczba w systemie dziesiętnym mówi nam o pozycji odpowiedniego słowa w [liście 2048 słów BIP39](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf). Pozostaje tylko wybrać te słowa, aby skomponować frazę odzyskiwania dla naszego Wallet.
 
 
 ![mnemonic](assets/notext/6.webp)
@@ -332,7 +332,7 @@ Po uzyskaniu liczb dziesiętnych możemy teraz zlokalizować odpowiednie słowa 
 Po tej korekcie otrzymasz rangę każdego słowa na liście. Pozostaje tylko zidentyfikować każde słowo według jego numeru. Oczywiście, podobnie jak w przypadku wszystkich innych kroków, nie wolno używać komputera do wykonania tej konwersji. Dlatego upewnij się, że wcześniej wydrukowałeś listę.
 
 
-[**-> Wydruk listy BIP39 w formacie A4.**](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)
+[**-> Wydruk listy BIP39 w formacie A4.**](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)
 
 
 Na przykład, jeśli liczba pochodząca z pierwszej linii wynosi 1721, odpowiadające jej słowo będzie 1721. na liście:

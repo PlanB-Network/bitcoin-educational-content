@@ -50,7 +50,7 @@ Kuvan luotto: [*SAFU Ninja Review*, Jameson Lopp](https://jlopp.github.io/metal-
 
 Jos haluat mieluummin investoida täydelliseen metalliseen varmuuskopiointilaitteeseen, suosittelen tutustumaan [Jameson Loppin kestävyystesteihin](https://jlopp.github.io/metal-bitcoin-storage-reviews/), joissa arvioidaan useimmat markkinoilla olevat ratkaisut. Neuvoisin sinua valitsemaan yksiosaiset kannattimet, kuten metallilevyn kaiverrusta, leimausta tai lyöntiä varten. Nämä laitteet tarjoavat yleensä paljon suuremman kestävyyden kuin järjestelmät, joissa käytetään erillisiä koottavia kirjaimia.
 
-Jos valitset paperilompakon, sinulla on useita vaihtoehtoja: pelkkä tyhjä paperiarkki, pahvilompakko, joka usein toimitetaan laitteiston lompakon mukana, tai ladattava malli, jonka voit tulostaa [klikkaamalla tästä](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/resources/bet/wallet-backup-sheet/assets/mnemonic-sheet.pdf).
+Jos valitset paperilompakon, sinulla on useita vaihtoehtoja: pelkkä tyhjä paperiarkki, pahvilompakko, joka usein toimitetaan laitteiston lompakon mukana, tai ladattava malli, jonka voit tulostaa [klikkaamalla tästä](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/wallet-backup-sheet/assets/mnemonic-sheet.pdf).
 
 ![SEED](assets/fr/02.webp)
 

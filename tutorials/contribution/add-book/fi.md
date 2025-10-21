@@ -13,7 +13,7 @@ PlanB:n tehtävänä on tarjota huipputason koulutusresursseja Bitcoinista mahdo
 https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
-- Mene [PlanB:n GitHub-repositorioon, joka on omistettu datalle](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/resources/books) osiossa `resources/books/`:
+- Mene [PlanB:n GitHub-repositorioon, joka on omistettu datalle](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/books) osiossa `resources/books/`:
 ![kirja](assets/02.webp)
 - Klikkaa oikeassa yläkulmassa `Add file` -nappia, sitten `Create new file`:
 ![kirja](assets/03.webp)

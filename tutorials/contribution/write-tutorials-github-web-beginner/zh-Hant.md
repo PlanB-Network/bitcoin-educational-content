@@ -45,7 +45,7 @@ https://planb.academy/tutorials/contribution/content/write-tutorials-github-desk
 
 
 - 擁有 [GitHub 帳戶](https://github.com/signup)；
-- 擁有 [Plan ₿ Academy 原始碼倉庫](https://github.com/Plan ₿ Academy/Bitcoin-educational-content) 的 Fork；
+- 擁有 [Plan ₿ Academy 原始碼倉庫](https://github.com/PlanB-Network/Bitcoin-educational-content) 的 Fork；
 - 擁有 [Plan ₿ Academy 上的教師簡介](https://planb.academy/professors) (僅當您提供完整的教學)。
 
 
@@ -197,11 +197,11 @@ reward:
 
 
 
-- **project_id** ：教程中展示的工具背後的公司或組織的 UUID [來自專案清單](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/resources/projects)。例如，如果您要建立一個關於 Green Wallet 軟體的教學，您可以在下列檔案中找到這個 `project_id`：`Bitcoin-educational-content/resources/projects/blockstream/project.yml`。此資訊會被加入到您的教學 YAML 檔案中，因為 Plan ₿ Academy 會維護所有在 Bitcoin 或相關專案上運作的公司和組織的資料庫。透過加入連結到您教學的實體的「project_id」，您就在兩個 Elements 之間建立了連結；
+- **project_id** ：教程中展示的工具背後的公司或組織的 UUID [來自專案清單](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects)。例如，如果您要建立一個關於 Green Wallet 軟體的教學，您可以在下列檔案中找到這個 `project_id`：`Bitcoin-educational-content/resources/projects/blockstream/project.yml`。此資訊會被加入到您的教學 YAML 檔案中，因為 Plan ₿ Academy 會維護所有在 Bitcoin 或相關專案上運作的公司和組織的資料庫。透過加入連結到您教學的實體的「project_id」，您就在兩個 Elements 之間建立了連結；
 
 
 
-- **標籤**：從 [Plan ₿ Academy 標籤清單中](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) 獨家選取 2 或 3 個與教學內容相關的關鍵字；
+- **標籤**：從 [Plan ₿ Academy 標籤清單中](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) 獨家選取 2 或 3 個與教學內容相關的關鍵字；
 
 
 
@@ -217,7 +217,7 @@ reward:
 
 
 
-- **professor_id** ：您的 `professor_id` (UUID) 顯示在 [您的教授簡介](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/professors)；
+- **professor_id** ：您的 `professor_id` (UUID) 顯示在 [您的教授簡介](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors)；
 
 
 

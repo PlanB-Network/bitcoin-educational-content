@@ -50,7 +50,7 @@ Kredit gambar: [*SAFU Ninja Review*, Jameson Lopp](https://jlopp.github.io/metal
 
 Jika Anda lebih suka berinvestasi dalam perangkat cadangan logam yang lengkap, saya sarankan Anda melihat [tes ketahanan Jameson Lopp] (https://jlopp.github.io/metal-bitcoin-storage-reviews/), yang mengevaluasi sebagian besar solusi yang tersedia di pasar. Saya sarankan Anda untuk memilih braket satu bagian, seperti pelat logam untuk mengukir, mencap atau melubangi. Perangkat ini umumnya menawarkan ketahanan yang jauh lebih besar daripada sistem yang menggunakan huruf terpisah untuk dirakit.
 
-Jika Anda memilih dompet kertas, Anda memiliki beberapa pilihan: selembar kertas kosong sederhana, dompet karton yang sering disertakan dengan dompet perangkat keras Anda, atau templat yang dapat diunduh yang dapat Anda cetak [dengan mengeklik di sini] (https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/resources/bet/wallet-backup-sheet/assets/mnemonic-sheet.pdf).
+Jika Anda memilih dompet kertas, Anda memiliki beberapa pilihan: selembar kertas kosong sederhana, dompet karton yang sering disertakan dengan dompet perangkat keras Anda, atau templat yang dapat diunduh yang dapat Anda cetak [dengan mengeklik di sini] (https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/wallet-backup-sheet/assets/mnemonic-sheet.pdf).
 
 ![SEED](assets/fr/02.webp)
 

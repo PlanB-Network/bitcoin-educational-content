@@ -202,7 +202,7 @@ För att få mer information om riktlinjerna som ska följas vid korrekturläsni
 
 
 
-- Grattis, din PR har skickats in! Du kan följa dess framsteg under fliken "Pull requests" på [Plan ₿ Academy:s GitHub-arkiv] (https://github.com/Plan ₿ Academy/Bitcoin-educational-content/pulls):
+- Grattis, din PR har skickats in! Du kan följa dess framsteg under fliken "Pull requests" på [Plan ₿ Academy:s GitHub-arkiv] (https://github.com/PlanB-Network/Bitcoin-educational-content/pulls):
 
 
 ![REVIEW](assets/fr/12.webp)

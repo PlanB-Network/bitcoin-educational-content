@@ -13,7 +13,7 @@ Chcete přidat Bitcoin podcast na stránky sítě PlanB a zvýšit viditelnost v
 https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
-- Přejděte na [GitHubový repozitář PlanB věnovaný datům](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/resources/podcasts) v sekci `resources/podcasts/`:
+- Přejděte na [GitHubový repozitář PlanB věnovaný datům](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/podcasts) v sekci `resources/podcasts/`:
 ![podcast](assets/02.webp)
 - Klikněte vpravo nahoře na tlačítko `Add file` a poté na `Create new file`:
 ![podcast](assets/03.webp)

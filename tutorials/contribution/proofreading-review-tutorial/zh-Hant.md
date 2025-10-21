@@ -202,7 +202,7 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 
 
 
-- 恭喜，您的 PR 已提交！您可以在 [Plan ₿ Academy 的 GitHub 套件庫](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/pulls) 的「Pull requests」標籤中追蹤其進度：
+- 恭喜，您的 PR 已提交！您可以在 [Plan ₿ Academy 的 GitHub 套件庫](https://github.com/PlanB-Network/Bitcoin-educational-content/pulls) 的「Pull requests」標籤中追蹤其進度：
 
 
 ![REVIEW](assets/fr/12.webp)

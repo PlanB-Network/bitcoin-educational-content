@@ -13,7 +13,7 @@ Kas soovite osaleda selle andmebaasi rikastamises, kuid ei tea, kuidas? See õpe
 *On hädavajalik, et kõik saidile integreeritud sisu oleks vaba õigustest või austaks lähtefaili litsentsi. Samuti on kõik PlanB võrgustikus avaldatud visuaalid kättesaadavad [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) litsentsi alusel.*
 ![sündmus](assets/01.webp)
 - Esiteks, teil peab olema konto GitHub'is. Kui te ei tea, kuidas kontot luua, oleme teinud [üksikasjaliku õpetuse, mis juhendab teid](https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c).
-- Minge [PlanB-le pühendatud GitHubi repositooriumisse andmete jaoks](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/resources/bet) `resources/bet/` sektsioonis:
+- Minge [PlanB-le pühendatud GitHubi repositooriumisse andmete jaoks](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet) `resources/bet/` sektsioonis:
 ![sündmus](assets/02.webp)
 - Klõpsake paremal üleval nupul `Add file`, seejärel `Create new file`:
 ![sündmus](assets/03.webp)

@@ -199,7 +199,7 @@ Plan ₿ Academy'de dil veya format kuralları açısından redaksiyon yaparken 
 
 
 
-- Tebrikler, PR'niz gönderildi! İlerlemesini [Plan ₿ Academy'nin GitHub deposu] (https://github.com/Plan ₿ Academy/Bitcoin-educational-content/pulls) üzerindeki "Çekme istekleri" sekmesinden takip edebilirsiniz:
+- Tebrikler, PR'niz gönderildi! İlerlemesini [Plan ₿ Academy'nin GitHub deposu] (https://github.com/PlanB-Network/Bitcoin-educational-content/pulls) üzerindeki "Çekme istekleri" sekmesinden takip edebilirsiniz:
 
 
 ![REVIEW](assets/fr/12.webp)

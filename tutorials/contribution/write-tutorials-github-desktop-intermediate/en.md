@@ -38,7 +38,7 @@ Software required to follow this tutorial:
 Prerequisites before starting the tutorial:
 
 - Have a [GitHub account](https://github.com/signup);
-- Have a fork of the [Plan ₿ Academy source repository](https://github.com/Plan ₿ Academy/bitcoin-educational-content);
+- Have a fork of the [Plan ₿ Academy source repository](https://github.com/PlanB-Network/bitcoin-educational-content);
 - Have [a professor profile on Plan ₿ Academy](https://planb.academy/professors) (only if you are proposing a complete tutorial).
 
 If you need help obtaining these prerequisites, my other tutorials will assist you:
@@ -154,13 +154,13 @@ Choose a name for the directory created specifically for your tutorial. The name
 
 ![DATA-CREATOR-PY](assets/fr/45.webp)
 
-The `project_id` is the UUID of the company or organization behind the tool covered in the tutorial, available [in the list of projects](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/resources/projects). For example, for a tutorial on Sparrow Wallet, you can find its `project_id` in the file: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. This information is added to your tutorial's YAML file because Plan ₿ Academy maintains a database of companies and organizations active in Bitcoin or related projects. By adding the associated `project_id`, you link your content to the relevant entity.
+The `project_id` is the UUID of the company or organization behind the tool covered in the tutorial, available [in the list of projects](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). For example, for a tutorial on Sparrow Wallet, you can find its `project_id` in the file: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. This information is added to your tutorial's YAML file because Plan ₿ Academy maintains a database of companies and organizations active in Bitcoin or related projects. By adding the associated `project_id`, you link your content to the relevant entity.
 
 ***Update:*** In the new version of the script, you no longer need to manually enter the `project_id`. A search function has been added to find the project by name and automatically retrieve the corresponding `project_id`. Type the beginning of the project’s name in the "Project Name" field to search for it, then select the desired company from the dropdown menu. The `project_id` will be automatically populated in the field below. You can also enter it manually if needed.
 
 ![DATA-CREATOR-PY](assets/fr/46.webp)
 
-For tags, select 2 or 3 relevant keywords related to your tutorial content, choosing exclusively from [the Plan ₿ Academy tag list](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). The software also provides a keyword search function with a dropdown list.
+For tags, select 2 or 3 relevant keywords related to your tutorial content, choosing exclusively from [the Plan ₿ Academy tag list](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). The software also provides a keyword search function with a dropdown list.
 
 ![DATA-CREATOR-PY](assets/fr/47.webp)
 
@@ -170,7 +170,7 @@ Once all the information has been entered and verified, click "Create Tutorial" 
 
 You can now skip the subsection "Without my Python script" as well as step 3, "Fill in the YAML file," since the script has already completed these actions for you. Proceed directly to step 4 and start writing your tutorial.
 
-For more information about this Python script, you can also check out the [README](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
+For more information about this Python script, you can also check out the [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
 
 ### Without my Python script
 
@@ -241,9 +241,9 @@ Here are the required fields:
 
 - **id**: A UUID (_Universally Unique Identifier_) that uniquely identifies the tutorial. You can generate it using [an online tool](https://www.uuidgenerator.net/version4). The only requirement is that this UUID is random to avoid conflicts with another UUID on the platform;
 
-- **project_id**: The UUID of the company or organization behind the tool presented in the tutorial [from the project list](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/resources/projects). For example, if you are creating a tutorial about the Green Wallet software, you can find this `project_id` in the following file: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. This information is added to your tutorial's YAML file because Plan ₿ Academy maintains a database of all companies and organizations operating on Bitcoin or related projects. By adding the `project_id` of the entity linked to your tutorial, you create a link between the two elements;
+- **project_id**: The UUID of the company or organization behind the tool presented in the tutorial [from the project list](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). For example, if you are creating a tutorial about the Green Wallet software, you can find this `project_id` in the following file: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. This information is added to your tutorial's YAML file because Plan ₿ Academy maintains a database of all companies and organizations operating on Bitcoin or related projects. By adding the `project_id` of the entity linked to your tutorial, you create a link between the two elements;
 
-- **tags**: 2 or 3 relevant keywords related to the tutorial content, exclusively chosen [from the Plan ₿ Academy tag list](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags**: 2 or 3 relevant keywords related to the tutorial content, exclusively chosen [from the Plan ₿ Academy tag list](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 - **category**: The sub-category corresponding to the tutorial content, according to the Plan ₿ Academy website structure (for example, for wallets: `desktop`, `hardware`, `mobile`, `backup`);
 
@@ -253,7 +253,7 @@ Here are the required fields:
     - `advanced`
     - `expert`
 
-- **professor_id**: Your `professor_id` (UUID) as displayed on [your professor profile](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/professors);
+- **professor_id**: Your `professor_id` (UUID) as displayed on [your professor profile](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
 
 - **original_language**: The original language of the tutorial (e.g., `fr`, `en`, etc.);
 

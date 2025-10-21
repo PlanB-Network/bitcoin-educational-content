@@ -143,7 +143,7 @@ Para saber mais sobre as diretrizes a serem seguidas ao revisar no Plan ₿ Acad
 ## 7. Aguardar a revisão
 
 
-- Parabéns, o seu PR foi submetido! Pode acompanhar o seu progresso no separador "Pull requests" no [repositório GitHub do Plan ₿ Academy](https://github.com/Plan ₿ Academy/bitcoin-educational-content/pulls):
+- Parabéns, o seu PR foi submetido! Pode acompanhar o seu progresso no separador "Pull requests" no [repositório GitHub do Plan ₿ Academy](https://github.com/PlanB-Network/bitcoin-educational-content/pulls):
 
 ![REVIEW](assets/fr/12.webp)
 

@@ -8,7 +8,7 @@ description: Kako da dodam ili izmenim svoj profil nastavnika na Plan ₿ Academ
 Ako planirate da doprinesete Plan ₿ Academy pisanjem novog tutorijala ili kursa, biće vam potreban profil nastavnika. Ovaj profil će vam omogućiti da dobijete odgovarajuće kredite za sadržaj koji doprinosite platformi.
 
 
-Za one od vas koji su već bili uključeni u kreiranje edukativnog sadržaja na Plan ₿ Academy, verovatno već imate profil nastavnika. Možete ga pronaći u folderu `/professors` [na našem GitHub repozitorijumu](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/professors). Ako vaš profil već postoji, pronađite svoj login u `professor.yml` fajlu.
+Za one od vas koji su već bili uključeni u kreiranje edukativnog sadržaja na Plan ₿ Academy, verovatno već imate profil nastavnika. Možete ga pronaći u folderu `/professors` [na našem GitHub repozitorijumu](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors). Ako vaš profil već postoji, pronađite svoj login u `professor.yml` fajlu.
 
 
 Da biste izvršili izmene na svom profilu, idite na odeljak "Uredi profil nastavnika" na kraju ovog vodiča.
@@ -23,7 +23,7 @@ Najlakši način da kreirate svoj profil nastavnika na Plan ₿ Academy je kori�
 ### 1 - Konfigurišite vaše lokalno okruženje
 
 
-Morate imati svoj Fork iz [Plan ₿ Academy repozitorijuma na GitHub-u](https://github.com/Plan ₿ Academy/Bitcoin-educational-content).
+Morate imati svoj Fork iz [Plan ₿ Academy repozitorijuma na GitHub-u](https://github.com/PlanB-Network/Bitcoin-educational-content).
 
 
 Sinhronizujte glavnu granu (`dev`) vašeg Fork sa izvornim repozitorijumom.
@@ -37,7 +37,7 @@ Ažurirajte svoju lokalnu kloniranu verziju.
 git clone https://github.com/<username>/bitcoin-educational-content.git
 cd bitcoin-educational-content
 # Ajouter le dépôt source en tant que remote upstream
-git remote add upstream https://github.com/Plan ₿ Academy/bitcoin-educational-content.git
+git remote add upstream https://github.com/PlanB-Network/bitcoin-educational-content.git
 # Récupérer les dernières modifications depuis le dépôt source
 git fetch upstream
 # Se positionner sur la branche principale 'dev'
@@ -157,7 +157,7 @@ Za početnike, preporučujem da napravite izmene direktno putem GitHub-ovog Inte
 
 
 https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
-Idi na [Plan ₿ Academy GitHub repozitorijum posvećen podacima](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/graphs/contributors).
+Idi na [Plan ₿ Academy GitHub repozitorijum posvećen podacima](https://github.com/PlanB-Network/Bitcoin-educational-content/graphs/contributors).
 
 
 ![Image](assets/fr/03.webp)

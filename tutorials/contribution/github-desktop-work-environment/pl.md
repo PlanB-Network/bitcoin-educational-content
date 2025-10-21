@@ -77,7 +77,7 @@ Istnieje wiele programów specjalizujących się w edycji plików Markdown, taki
 
 
 
-- Przejdź do repozytorium danych Plan ₿ Academy pod następującym adresem Address: [https://github.com/Plan ₿ Academy/Bitcoin-educational-content](https://github.com/Plan ₿ Academy/Bitcoin-educational-content): ![github-desktop](assets/10.webp)
+- Przejdź do repozytorium danych Plan ₿ Academy pod następującym adresem Address: [https://github.com/PlanB-Network/Bitcoin-educational-content](https://github.com/PlanB-Network/Bitcoin-educational-content): ![github-desktop](assets/10.webp)
 - Na tej stronie kliknij przycisk `Fork` w prawym górnym rogu okna: ![github-desktop](assets/11.webp)
 - W menu tworzenia można pozostawić ustawienia domyślne. Upewnij się, że pole `Kopiuj tylko gałąź deweloperską` jest zaznaczone, a następnie kliknij przycisk `Utwórz Fork`: ![github-desktop](assets/12.webp)
 - Następnie dotrzesz do własnego Fork repozytorium Plan ₿ Academy: ![github-desktop](assets/13.webp)

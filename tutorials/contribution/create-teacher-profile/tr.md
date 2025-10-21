@@ -8,7 +8,7 @@ description: Plan ₿ Academy'de öğretmen profilimi nasıl ekleyebilirim veya 
 Yeni bir eğitim veya kurs yazarak Plan ₿ Academy'ye katkıda bulunmayı planlıyorsanız, bir öğretmen profiline ihtiyacınız olacaktır. Bu profil, platforma katkıda bulunduğunuz içerik için uygun kredileri almanızı sağlayacaktır.
 
 
-Plan ₿ Academy'te eğitim içeriği oluşturmaya zaten dahil olmuş olanlarınız için muhtemelen zaten bir öğretmen profiliniz vardır. Bunu [GitHub depomuzdaki] `/professors` klasöründe bulabilirsiniz (https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/professors). Profiliniz zaten mevcutsa, giriş bilgilerinizi `professor.yml` dosyasında bulabilirsiniz.
+Plan ₿ Academy'te eğitim içeriği oluşturmaya zaten dahil olmuş olanlarınız için muhtemelen zaten bir öğretmen profiliniz vardır. Bunu [GitHub depomuzdaki] `/professors` klasöründe bulabilirsiniz (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors). Profiliniz zaten mevcutsa, giriş bilgilerinizi `professor.yml` dosyasında bulabilirsiniz.
 
 
 Profilinizde değişiklik yapmak için bu eğitimin sonundaki "Öğretmen profilinizi düzenleyin" bölümüne gidin.
@@ -23,7 +23,7 @@ Plan ₿ Academy'te öğretmen profilinizi oluşturmanın en kolay yolu entegre 
 ### 1 - Yerel ortamınızı yapılandırın
 
 
-GitHub'daki Plan ₿ Academy deposundan] (https://github.com/Plan ₿ Academy/Bitcoin-educational-content) kendi Fork'inize sahip olmalısınız.
+GitHub'daki Plan ₿ Academy deposundan] (https://github.com/PlanB-Network/Bitcoin-educational-content) kendi Fork'inize sahip olmalısınız.
 
 
 Fork'unuzun ana dalını (`dev`) kaynak deposu ile senkronize edin.
@@ -37,7 +37,7 @@ Yerel klonunuzu güncelleyin.
 git clone https://github.com/<username>/bitcoin-educational-content.git
 cd bitcoin-educational-content
 # Ajouter le dépôt source en tant que remote upstream
-git remote add upstream https://github.com/Plan ₿ Academy/bitcoin-educational-content.git
+git remote add upstream https://github.com/PlanB-Network/bitcoin-educational-content.git
 # Récupérer les dernières modifications depuis le dépôt source
 git fetch upstream
 # Se positionner sur la branche principale 'dev'
@@ -157,7 +157,7 @@ Yeni başlayanlar için, değişikliği doğrudan GitHub'ın Interface web'i üz
 
 
 https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
-Verilere ayrılmış Plan ₿ Academy GitHub deposuna] (https://github.com/Plan ₿ Academy/Bitcoin-educational-content/graphs/contributors) gidin.
+Verilere ayrılmış Plan ₿ Academy GitHub deposuna] (https://github.com/PlanB-Network/Bitcoin-educational-content/graphs/contributors) gidin.
 
 
 ![Image](assets/fr/03.webp)

@@ -26,4 +26,4 @@ https://planb.academy/tutorials/wallet/mobile/bitcoin-keeper-7f2a160b-10b6-4cc5-
 - تپساینر [ویدیو](youtube.com/watch?v=xKHy1HMw5iU)
 
 
-**توجه:** این آموزش فقط یک پیش‌نویس به زبان انگلیسی است، ما هنوز نیاز داریم که کسی یک راهنمای جامع در این زمینه بنویسد. اگر شما آن فرد هستید، لطفاً از طریق [تلگرام](https://t.me/PlanBNetwork_ContentBuilder/325) یا [گیت‌هاب](https://github.com/Plan ₿ Academy/Bitcoin-educational-content) با ما تماس بگیرید.
+**توجه:** این آموزش فقط یک پیش‌نویس به زبان انگلیسی است، ما هنوز نیاز داریم که کسی یک راهنمای جامع در این زمینه بنویسد. اگر شما آن فرد هستید، لطفاً از طریق [تلگرام](https://t.me/PlanBNetwork_ContentBuilder/325) یا [گیت‌هاب](https://github.com/PlanB-Network/Bitcoin-educational-content) با ما تماس بگیرید.

@@ -143,7 +143,7 @@ Lisateabe saamiseks Plan ₿ võrgus korrektuuri tegemisel keele- või formaadir
 ## 7. Oodake ülevaatamist
 
 
-- Palju õnne, teie PR on esitatud! Saate jälgida selle edenemist [Plan ₿ Academy'i GitHubi repositooriumi](https://github.com/Plan ₿ Academy/bitcoin-educational-content/pulls) vahekaardil "Pull requests":
+- Palju õnne, teie PR on esitatud! Saate jälgida selle edenemist [Plan ₿ Academy'i GitHubi repositooriumi](https://github.com/PlanB-Network/bitcoin-educational-content/pulls) vahekaardil "Pull requests":
 
 ![REVIEW](assets/fr/12.webp)
 

@@ -41,7 +41,7 @@ Předpoklady před zahájením výuky:
 
 
 - Mít účet [GitHub](https://github.com/signup);
-- Mít fork zdrojového úložiště [Plan ₿ Academy](https://github.com/Plan ₿ Academy/bitcoin-educational-content);
+- Mít fork zdrojového úložiště [Plan ₿ Academy](https://github.com/PlanB-Network/bitcoin-educational-content);
 - Mít [profil profesora v síti Plan ₿](https://planb.academy/professors) (pouze pokud navrhujete kompletní výukový program).
 
 Pokud potřebujete pomoci se získáním těchto předpokladů, pomohou vám mé další výukové programy:
@@ -161,13 +161,13 @@ Zvolte název adresáře vytvořeného speciálně pro váš výukový program. 
 
 ![DATA-CREATOR-PY](assets/fr/45.webp)
 
-`project_id` je UUID společnosti nebo organizace, která stojí za nástrojem, jehož se výukový program týká, a je k dispozici [v seznamu projektů](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/resources/projects). Například u výukového kurzu o peněžence Sparrow Wallet najdete v souboru její `project_id`: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. Tato informace je přidána do souboru YAML vašeho výukového programu, protože síť Plan ₿ Academy spravuje databázi společností a organizací aktivních v oblasti Bitcoinu nebo souvisejících projektů. Přidáním přidruženého `project_id` propojíte svůj obsah s příslušným subjektem.
+`project_id` je UUID společnosti nebo organizace, která stojí za nástrojem, jehož se výukový program týká, a je k dispozici [v seznamu projektů](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Například u výukového kurzu o peněžence Sparrow Wallet najdete v souboru její `project_id`: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. Tato informace je přidána do souboru YAML vašeho výukového programu, protože síť Plan ₿ Academy spravuje databázi společností a organizací aktivních v oblasti Bitcoinu nebo souvisejících projektů. Přidáním přidruženého `project_id` propojíte svůj obsah s příslušným subjektem.
 
 ***Aktualizace:*** V nové verzi skriptu již nemusíte ručně zadávat `project_id`. Byla přidána funkce vyhledávání, která vyhledá projekt podle názvu a automaticky načte odpovídající `project_id`. Pro vyhledání projektu zadejte do pole `Název projektu` začátek jeho názvu a poté vyberte požadovanou společnost z rozbalovací nabídky. V poli níže se automaticky vyplní `project_id`. V případě potřeby jej můžete zadat také ručně.
 
 ![DATA-CREATOR-PY](assets/fr/46.webp)
 
-U značek vyberte 2 nebo 3 relevantní klíčová slova související s obsahem výukového programu a vybírejte výhradně ze [seznamu značek sítě Plan ₿](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). Software rovněž poskytuje funkci vyhledávání klíčových slov pomocí rozevíracího seznamu.
+U značek vyberte 2 nebo 3 relevantní klíčová slova související s obsahem výukového programu a vybírejte výhradně ze [seznamu značek sítě Plan ₿](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). Software rovněž poskytuje funkci vyhledávání klíčových slov pomocí rozevíracího seznamu.
 
 ![DATA-CREATOR-PY](assets/fr/47.webp)
 
@@ -177,7 +177,7 @@ Po zadání a ověření všech informací klikněte na tlačítko "Create Tutor
 
 Nyní můžete přeskočit podkapitolu "Bez mého skriptu Python" i krok 3 "Vyplňte soubor YAML", protože tyto činnosti již za vás provedl skript. Přejděte přímo ke kroku 4 a začněte psát svůj výukový program.
 
-Další informace o tomto skriptu v jazyce Python naleznete v [README](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
+Další informace o tomto skriptu v jazyce Python naleznete v [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
 
 ### Bez mého skriptu Python
 
@@ -251,9 +251,9 @@ Zde jsou povinná pole:
 
 - **id**: UUID (_Universally Unique Identifier_) umožňující jedinečně identifikovat tutoriál. Můžete jej vygenerovat pomocí [online nástroje](https://www.uuidgenerator.net/version4). Jedinou podmínkou je, aby toto UUID bylo náhodné, aby se zabránilo konfliktu s jiným UUID na platformě;
 
-- **project_id**: UUID společnosti nebo organizace stojící za nástrojem popsaným v tutoriálu [ze seznamu projektů](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/resources/projects). Například pokud vytváříte tutoriál o softwaru Green Wallet, můžete najít `project_id` v následujícím souboru: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Tato informace je přidána do YAML souboru vašeho tutoriálu, protože Plan ₿ Academy udržuje databázi všech společností a organizací působících na Bitcoinu nebo souvisejících projektech. Přidáním `project_id` subjektu spojeného s vaším tutoriálem vytváříte vazbu mezi těmito dvěma prvky;
+- **project_id**: UUID společnosti nebo organizace stojící za nástrojem popsaným v tutoriálu [ze seznamu projektů](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Například pokud vytváříte tutoriál o softwaru Green Wallet, můžete najít `project_id` v následujícím souboru: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Tato informace je přidána do YAML souboru vašeho tutoriálu, protože Plan ₿ Academy udržuje databázi všech společností a organizací působících na Bitcoinu nebo souvisejících projektech. Přidáním `project_id` subjektu spojeného s vaším tutoriálem vytváříte vazbu mezi těmito dvěma prvky;
 
-- **tags**: 2 nebo 3 relevantní klíčová slova související s obsahem tutoriálu, vybraná výhradně [ze seznamu značek Plan ₿ Academy](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags**: 2 nebo 3 relevantní klíčová slova související s obsahem tutoriálu, vybraná výhradně [ze seznamu značek Plan ₿ Academy](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 - **category**: Podkategorie odpovídající obsahu tutoriálu podle struktury stránky Plan ₿ Academy (například pro peněženky: `desktop`, `hardware`, `mobile`, `backup`);
 
@@ -263,7 +263,7 @@ Zde jsou povinná pole:
     - `advanced`
     - `expert`
 
-- **professor_id**: Vaše `professor_id` (UUID), jak je zobrazeno na [vašem profesorském profilu](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/professors);
+- **professor_id**: Vaše `professor_id` (UUID), jak je zobrazeno na [vašem profesorském profilu](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
 
 - **original_language**: Původní jazyk tutoriálu (například `fr`, `en`, atd.);
 

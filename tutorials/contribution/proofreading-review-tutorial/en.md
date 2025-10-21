@@ -128,7 +128,7 @@ To know more about the guidelines to use when proofreading on Plan ₿ Academy i
 
 ## 7. Wait for review
 
-- Congratulations, your PR has been submitted! You can track its progress in the "Pull requests" tab on [Plan ₿ Academy's GitHub repository](https://github.com/Plan ₿ Academy/bitcoin-educational-content/pulls):
+- Congratulations, your PR has been submitted! You can track its progress in the "Pull requests" tab on [Plan ₿ Academy's GitHub repository](https://github.com/PlanB-Network/bitcoin-educational-content/pulls):
 
 ![REVIEW](assets/fr/12.webp)
 

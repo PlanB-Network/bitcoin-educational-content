@@ -1315,7 +1315,7 @@ Par exemple, pour une entropie de 256 bits, le résultat $\text{ENT} \Vert \text
 
 ### Conversion de la séquence binaire en une phrase mnémonique
 
-La séquence de bits $\text{ENT} \Vert \text{CS}$ est ensuite découpée en segments de 11 bits. Chaque segment de 11 bits, une fois converti en décimal, correspond à un nombre compris entre 0 et 2047, qui désigne la position d’un mot [dans une liste de 2048 mots standardisée par le BIP39](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
+La séquence de bits $\text{ENT} \Vert \text{CS}$ est ensuite découpée en segments de 11 bits. Chaque segment de 11 bits, une fois converti en décimal, correspond à un nombre compris entre 0 et 2047, qui désigne la position d’un mot [dans une liste de 2048 mots standardisée par le BIP39](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
 ![CYP201](assets/en/042.webp)
 

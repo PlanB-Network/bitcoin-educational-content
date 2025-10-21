@@ -6,7 +6,7 @@ description: Hvordan legger jeg til eller endrer lærerprofilen min på Plan ₿
 
 Hvis du planlegger å bidra til Plan ₿ Academy ved å skrive en ny veiledning eller et nytt kurs, trenger du en lærerprofil. Denne profilen vil gjøre det mulig for deg å motta de riktige krediteringene for innholdet du bidrar med på plattformen.
 
-De av dere som allerede har vært med på å lage pedagogisk innhold på Plan ₿ Academy, har sannsynligvis allerede en lærerprofil. Du finner den i mappen `/professors` [på GitHub-depotet vårt] (https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/professors). Hvis profilen din allerede finnes, finner du påloggingen din i filen `professor.yml`.
+De av dere som allerede har vært med på å lage pedagogisk innhold på Plan ₿ Academy, har sannsynligvis allerede en lærerprofil. Du finner den i mappen `/professors` [på GitHub-depotet vårt] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors). Hvis profilen din allerede finnes, finner du påloggingen din i filen `professor.yml`.
 
 Hvis du vil gjøre endringer i profilen din, kan du gå til avsnittet "Rediger lærerprofilen din" på slutten av denne veiledningen.
 
@@ -16,7 +16,7 @@ Den enkleste måten å opprette lærerprofilen din på Plan ₿ Academy er å br
 
 ### 1 - Konfigurer ditt lokale miljø
 
-Du må ha din egen Fork fra [Plan ₿ Academy repository on GitHub] (https://github.com/Plan ₿ Academy/Bitcoin-educational-content).
+Du må ha din egen Fork fra [Plan ₿ Academy repository on GitHub] (https://github.com/PlanB-Network/Bitcoin-educational-content).
 
 Synkroniser hovedgrenen (`dev`) i Fork med kildelageret.
 
@@ -27,7 +27,7 @@ Oppdater din lokale klone.
 git clone https://github.com/<username>/bitcoin-educational-content.git
 cd bitcoin-educational-content
 # Ajouter le dépôt source en tant que remote upstream
-git remote add upstream https://github.com/Plan ₿ Academy/bitcoin-educational-content.git
+git remote add upstream https://github.com/PlanB-Network/bitcoin-educational-content.git
 # Récupérer les dernières modifications depuis le dépôt source
 git fetch upstream
 # Se positionner sur la branche principale 'dev'
@@ -119,7 +119,7 @@ Hvis du behersker Git, kan du endre lærerprofilen din ved å opprette en ny gre
 For nybegynnere anbefaler jeg å gjøre modifikasjonen direkte via GitHubs Interface-web. Sørg for at du har en GitHub-konto. Hvis du ikke vet hvordan du oppretter en, kan du følge denne veiledningen:
 
 https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
-Gå til [Plan ₿ Academy GitHub-arkivet dedikert til data] (https://github.com/Plan ₿ Academy/Bitcoin-educational-content/graphs/contributors).
+Gå til [Plan ₿ Academy GitHub-arkivet dedikert til data] (https://github.com/PlanB-Network/Bitcoin-educational-content/graphs/contributors).
 
 ![Image](assets/fr/03.webp)
 

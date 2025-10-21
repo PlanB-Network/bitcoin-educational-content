@@ -13,7 +13,7 @@ Pokud chcete přidat konferenci o Bitcoinu na web síť PlanB a zvýšit viditel
 https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
-- Přejděte na [GitHubový repozitář PlanB věnovaný datům](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/resources/conference) v sekci `resources/conference/`:
+- Přejděte na [GitHubový repozitář PlanB věnovaný datům](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) v sekci `resources/conference/`:
 ![event](assets/02.webp)
 - Klikněte vpravo nahoře na tlačítko `Add file`, poté na `Create new file`:
 ![event](assets/03.webp)

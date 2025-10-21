@@ -45,7 +45,7 @@ Det finnes en rekke programvarer spesialisert på å redigere Markdown-filer, so
 
 ## Steg 3: Fork Plan ₿ Academy-repositoriet
 
-- Gå til Plan ₿ Academy datarepositoriet på følgende adresse: [https://github.com/Plan ₿ Academy/bitcoin-educational-content](https://github.com/Plan ₿ Academy/bitcoin-educational-content): ![github-desktop](assets/10.webp)
+- Gå til Plan ₿ Academy datarepositoriet på følgende adresse: [https://github.com/PlanB-Network/bitcoin-educational-content](https://github.com/PlanB-Network/bitcoin-educational-content): ![github-desktop](assets/10.webp)
 - Fra denne siden, klikk på `Fork`-knappen øverst til høyre i vinduet: ![github-desktop](assets/11.webp)
 - I opprettelsesmenyen kan du la standardinnstillingene stå. Sørg for at boksen `Copy the dev branch only` er merket av, og klikk deretter på `Create fork`-knappen: ![github-desktop](assets/12.webp)
 - Du vil da komme til din egen fork av Plan ₿ Academy-repositoriet: ![github-desktop](assets/13.webp)

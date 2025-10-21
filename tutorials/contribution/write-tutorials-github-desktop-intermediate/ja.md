@@ -41,7 +41,7 @@ https://planb.academy/tutorials/contribution/content/write-tutorials-github-web-
 
 
 - GitHubアカウント](https://github.com/signup)を持っている；
-- Plan ₿ Networkソースリポジトリ](https://github.com/Plan ₿ Academy/bitcoin-educational-content)をフォークしてください；
+- Plan ₿ Networkソースリポジトリ](https://github.com/PlanB-Network/bitcoin-educational-content)をフォークしてください；
 - Plan ₿ Network上の教授プロフィール](https://planb.academy/professors)を持つ（完全なチュートリアルを提案する場合のみ）。
 
 これらの前提条件の取得に助けが必要な場合は、私の他のチュートリアルがお手伝いします：
@@ -161,13 +161,13 @@ https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9b
 
 ![DATA-CREATOR-PY](assets/fr/45.webp)
 
-project_id`はチュートリアルで使用するツールの会社または組織のUUIDで、[プロジェクトのリスト](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/resources/projects)にあります。例えば、Sparrow Walletのチュートリアルの場合、`project_id`はファイルで見つけることができます：bitcoin-educational-content/resources/projects/sparrow/project.yml`にあります。この情報は、Plan ↪Sc_20BF がビットコインや関連プロジェクトで活動している企業や組織のデータベースを管理しているため、チュートリアルの YAML ファイルに追加されます。関連する `project_id` を追加することで、コンテンツを関連するエンティティにリンクします。
+project_id`はチュートリアルで使用するツールの会社または組織のUUIDで、[プロジェクトのリスト](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects)にあります。例えば、Sparrow Walletのチュートリアルの場合、`project_id`はファイルで見つけることができます：bitcoin-educational-content/resources/projects/sparrow/project.yml`にあります。この情報は、Plan ↪Sc_20BF がビットコインや関連プロジェクトで活動している企業や組織のデータベースを管理しているため、チュートリアルの YAML ファイルに追加されます。関連する `project_id` を追加することで、コンテンツを関連するエンティティにリンクします。
 
 ***Update:***新バージョンのスクリプトでは、`project_id`を手動で入力する必要がなくなりました。検索機能が追加され、プロジェクト名で検索し、対応する `project_id` を自動的に取得します。プロジェクト名」フィールドにプロジェクト名の先頭を入力して検索し、ドロップダウンメニューから希望の会社を選択します。project_id`は自動的に下のフィールドに入力されます。必要に応じて手動で入力することもできます。
 
 ![DATA-CREATOR-PY](assets/fr/46.webp)
 
-タグは、チュートリアルのコンテンツに関連するキーワードを 2 つまたは 3 つ、[プラン ₿ ネットワークタグリスト](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) から選択します。このソフトウェアには、ドロップダウンリストによるキーワード検索機能もあります。
+タグは、チュートリアルのコンテンツに関連するキーワードを 2 つまたは 3 つ、[プラン ₿ ネットワークタグリスト](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) から選択します。このソフトウェアには、ドロップダウンリストによるキーワード検索機能もあります。
 
 ![DATA-CREATOR-PY](assets/fr/47.webp)
 
@@ -177,7 +177,7 @@ project_id`はチュートリアルで使用するツールの会社または組
 
 サブセクション「Pythonスクリプトを使わないで」とステップ3「YAMLファイルを埋める」は省略できます。ステップ4に直接進み、チュートリアルを書き始めます。
 
-このPythonスクリプトの詳細については、[README](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md)も参照してください。
+このPythonスクリプトの詳細については、[README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md)も参照してください。
 
 ### Pythonスクリプトなし
 
@@ -250,9 +250,9 @@ proofreading:
 
 - **id**: チュートリアルを一意に識別する UUID (_Universally Unique Identifier_)。 [オンラインツール](https://www.uuidgenerator.net/version4)を使用して生成できます。 この UUID はランダムである必要があり、プラットフォーム上の他の UUID と競合しないことが条件です;
 
-- **project_id**: チュートリアルで紹介されているツールの背後にある企業または組織の UUID [プロジェクトのリストから](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/resources/projects)。 たとえば、Green Wallet ソフトウェアに関するチュートリアルを作成している場合、この `project_id` は次のファイルにあります: `bitcoin-educational-content/resources/projects/blockstream/project.yml`。 Plan ₿ Academy は、Bitcoin または関連プロジェクトに取り組んでいるすべての企業および組織のデータベースを維持しているため、この情報はチュートリアルの YAML ファイルに追加されます。 チュートリアルに関連するエンティティの `project_id` を追加することで、2 つの要素間のリンクを作成できます;
+- **project_id**: チュートリアルで紹介されているツールの背後にある企業または組織の UUID [プロジェクトのリストから](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects)。 たとえば、Green Wallet ソフトウェアに関するチュートリアルを作成している場合、この `project_id` は次のファイルにあります: `bitcoin-educational-content/resources/projects/blockstream/project.yml`。 Plan ₿ Academy は、Bitcoin または関連プロジェクトに取り組んでいるすべての企業および組織のデータベースを維持しているため、この情報はチュートリアルの YAML ファイルに追加されます。 チュートリアルに関連するエンティティの `project_id` を追加することで、2 つの要素間のリンクを作成できます;
 
-- **tags**: チュートリアルの内容に関連する 2 または 3 の適切なキーワード、[Plan ₿ Academy のタグリスト](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) からのみ選択可能;
+- **tags**: チュートリアルの内容に関連する 2 または 3 の適切なキーワード、[Plan ₿ Academy のタグリスト](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) からのみ選択可能;
 
 - **category**: Plan ₿ Academy サイトの構造に従った、チュートリアルの内容に対応するサブカテゴリ（例：ウォレットの場合：`desktop`、`hardware`、`mobile`、`backup`）;
 
@@ -262,7 +262,7 @@ proofreading:
     - `advanced`
     - `expert`
 
-- **professor_id**: [あなたの教授プロフィール](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/professors) に表示される `professor_id` (UUID);
+- **professor_id**: [あなたの教授プロフィール](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors) に表示される `professor_id` (UUID);
 
 - **original_language**: チュートリアルの元の言語（例：`fr`、`en` など）;
 

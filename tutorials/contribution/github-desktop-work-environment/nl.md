@@ -85,7 +85,7 @@ Er is een veelheid aan software die gespecialiseerd is in het bewerken van Markd
 
 
 
-- Ga naar de data repository van het Plan ₿ Academy op de volgende Address: [https://github.com/Plan ₿ Academy/Bitcoin-educational-content](https://github.com/Plan ₿ Academy/Bitcoin-educational-content):
+- Ga naar de data repository van het Plan ₿ Academy op de volgende Address: [https://github.com/PlanB-Network/Bitcoin-educational-content](https://github.com/PlanB-Network/Bitcoin-educational-content):
 ![github-desktop](assets/10.webp)
 
 - Klik op deze pagina op de knop `Fork` rechtsboven in het venster:

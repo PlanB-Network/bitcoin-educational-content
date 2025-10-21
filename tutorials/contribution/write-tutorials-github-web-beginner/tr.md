@@ -45,7 +45,7 @@ Eğitime başlamadan önce önkoşullar:
 
 
 - Bir [GitHub hesabına] sahip olun (https://github.com/signup);
-- Plan ₿ Academy kaynak deposunun] (https://github.com/Plan ₿ Academy/Bitcoin-educational-content) bir Fork'ine sahip olun;
+- Plan ₿ Academy kaynak deposunun] (https://github.com/PlanB-Network/Bitcoin-educational-content) bir Fork'ine sahip olun;
 - Plan ₿ Academy'da bir öğretmen profiline sahip olun] (https://planb.academy/professors) (yalnızca tam bir eğitim sunuyorsanız).
 
 
@@ -197,11 +197,11 @@ reward:
 
 
 
-- **project_id**: Eğitimde sunulan aracın arkasındaki şirket veya kuruluşun UUID'si [proje listesinden] (https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/resources/projects). Örneğin, Green Wallet yazılımı hakkında bir eğitim oluşturuyorsanız, bu `project_id`yi aşağıdaki dosyada bulabilirsiniz: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Bu bilgi öğreticinizin YAML dosyasına eklenir çünkü Plan ₿ Academy, Bitcoin veya ilgili projeler üzerinde faaliyet gösteren tüm şirket ve kuruluşların bir veritabanını tutar. Öğreticinize bağlı varlığın `project_id` bilgisini ekleyerek, iki Elements arasında bir bağlantı oluşturursunuz;
+- **project_id**: Eğitimde sunulan aracın arkasındaki şirket veya kuruluşun UUID'si [proje listesinden] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Örneğin, Green Wallet yazılımı hakkında bir eğitim oluşturuyorsanız, bu `project_id`yi aşağıdaki dosyada bulabilirsiniz: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Bu bilgi öğreticinizin YAML dosyasına eklenir çünkü Plan ₿ Academy, Bitcoin veya ilgili projeler üzerinde faaliyet gösteren tüm şirket ve kuruluşların bir veritabanını tutar. Öğreticinize bağlı varlığın `project_id` bilgisini ekleyerek, iki Elements arasında bir bağlantı oluşturursunuz;
 
 
 
-- **etiketler**: özel olarak [Plan ₿ Academy etiket listesinden] seçilen, eğitim içeriğiyle ilgili 2 veya 3 anahtar kelime (https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **etiketler**: özel olarak [Plan ₿ Academy etiket listesinden] seçilen, eğitim içeriğiyle ilgili 2 veya 3 anahtar kelime (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 
 
@@ -217,7 +217,7 @@ reward:
 
 
 
-- **professor_id**: Profesör profilinizde (https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/professors) görüntülenen `profesör_id`niz (UUID);
+- **professor_id**: Profesör profilinizde (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors) görüntülenen `profesör_id`niz (UUID);
 
 
 

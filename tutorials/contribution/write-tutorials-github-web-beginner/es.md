@@ -30,7 +30,7 @@ https://planb.academy/tutorials/contribution/content/write-tutorials-github-desk
 Requisitos previos antes de empezar el tutorial:
 
 - Tener una [cuenta GitHub](https://github.com/signup);
-- Disponer de un fork del [Plan ₿ Academy source repository](https://github.com/Plan ₿ Academy/bitcoin-educational-content);
+- Disponer de un fork del [Plan ₿ Academy source repository](https://github.com/PlanB-Network/bitcoin-educational-content);
 - Tener [un perfil de profesor en Plan ₿ Academy](https://planb.academy/professors) (sólo si ofreces una tutoría completa).
 
 Si necesitas ayuda para conseguir estos requisitos previos, estos otros tutoriales te ayudarán:
@@ -143,9 +143,9 @@ Aquí están los campos obligatorios:
 
 - **id**: Un UUID (_Identificador Universalmente Único_) que permite identificar de manera única el tutorial. Puedes generarlo con [una herramienta en línea](https://www.uuidgenerator.net/version4). El único requisito es que este UUID sea aleatorio para evitar conflictos con otro UUID en la plataforma;
 
-- **project_id**: El UUID de la empresa u organización detrás de la herramienta presentada en el tutorial [desde la lista de proyectos](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/resources/projects). Por ejemplo, si estás creando un tutorial sobre el software Green Wallet, puedes encontrar el `project_id` en el siguiente archivo: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Esta información se agrega al archivo YAML de su tutorial porque Plan ₿ Academy mantiene una base de datos de todas las empresas y organizaciones que operan en Bitcoin o proyectos relacionados. Al agregar el `project_id` de la entidad relacionada con su tutorial, se crea un vínculo entre ambos elementos;
+- **project_id**: El UUID de la empresa u organización detrás de la herramienta presentada en el tutorial [desde la lista de proyectos](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Por ejemplo, si estás creando un tutorial sobre el software Green Wallet, puedes encontrar el `project_id` en el siguiente archivo: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Esta información se agrega al archivo YAML de su tutorial porque Plan ₿ Academy mantiene una base de datos de todas las empresas y organizaciones que operan en Bitcoin o proyectos relacionados. Al agregar el `project_id` de la entidad relacionada con su tutorial, se crea un vínculo entre ambos elementos;
 
-- **tags**: 2 o 3 palabras clave relevantes relacionadas con el contenido del tutorial, elegidas exclusivamente [de la lista de etiquetas de Plan ₿ Academy](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags**: 2 o 3 palabras clave relevantes relacionadas con el contenido del tutorial, elegidas exclusivamente [de la lista de etiquetas de Plan ₿ Academy](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 - **category**: La subcategoría correspondiente al contenido del tutorial, según la estructura del sitio web de Plan ₿ Academy (por ejemplo, para monederos: `desktop`, `hardware`, `mobile`, `backup`);
 
@@ -155,7 +155,7 @@ Aquí están los campos obligatorios:
     - `advanced`
     - `expert`
 
-- **professor_id**: Tu `professor_id` (UUID) tal como aparece en [tu perfil de profesor](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/professors);
+- **professor_id**: Tu `professor_id` (UUID) tal como aparece en [tu perfil de profesor](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
 
 - **original_language**: El idioma original del tutorial (por ejemplo, `fr`, `en`, etc.);
 

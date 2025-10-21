@@ -142,7 +142,7 @@ Um mehr über die Richtlinien zu erfahren, die bei der Korrekturlesung im Plan �
 
 ## 7. Warten Sie auf die Überprüfung
 
-- Herzlichen Glückwunsch, Ihr PR wurde eingereicht! Sie können den Fortschritt in der Registerkarte "Pull Requests" auf [Plan ₿ Academy's GitHub repository] (https://github.com/Plan ₿ Academy/bitcoin-educational-content/pulls) verfolgen:
+- Herzlichen Glückwunsch, Ihr PR wurde eingereicht! Sie können den Fortschritt in der Registerkarte "Pull Requests" auf [Plan ₿ Academy's GitHub repository] (https://github.com/PlanB-Network/bitcoin-educational-content/pulls) verfolgen:
 
 ![REVIEW](assets/fr/12.webp)
 

@@ -45,7 +45,7 @@ Existuje mnoho softwarů specializovaných na úpravu souborů Markdown, jako je
 
 ## Krok 3: Forkněte repozitář Plan ₿ Academy
 
-- Přejděte na datový repozitář Plan ₿ Academy na následující adrese: [https://github.com/Plan ₿ Academy/bitcoin-educational-content](https://github.com/Plan ₿ Academy/bitcoin-educational-content): ![github-desktop](assets/10.webp)
+- Přejděte na datový repozitář Plan ₿ Academy na následující adrese: [https://github.com/PlanB-Network/bitcoin-educational-content](https://github.com/PlanB-Network/bitcoin-educational-content): ![github-desktop](assets/10.webp)
 - Na této stránce klikněte na tlačítko `Fork` v pravém horním rohu okna: ![github-desktop](assets/11.webp)
 - V menu vytváření můžete ponechat výchozí nastavení. Ujistěte se, že je zaškrtnuto políčko `Copy the dev branch only`, a poté klikněte na tlačítko `Create fork`: ![github-desktop](assets/12.webp)
 - Poté se dostanete na vlastní fork repozitáře Plan ₿ Academy: ![github-desktop](assets/13.webp)

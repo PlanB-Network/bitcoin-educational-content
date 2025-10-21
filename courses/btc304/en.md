@@ -1240,7 +1240,7 @@ Ultimately, it's up to you to decide how far "open and inclusive" should go. Jus
 
 As the blocks roll on, your community will evolve. New faces will join, others will drift away but the guiding principle should remain the same: develope the Bitcoin ecosystem and strengthen the bonds between members.
 
-There are many projects and initiatives that can be implemented. This chapter offers a non-exhaustive list of ideas that can be carried out within a community or during a meetup. Feel free to choose the ones that inspire you and even contribute your own ideas to this course [by making a "Pull Request" on GitHub](https://github.com/Plan ₿ Academy/Bitcoin-educational-content).
+There are many projects and initiatives that can be implemented. This chapter offers a non-exhaustive list of ideas that can be carried out within a community or during a meetup. Feel free to choose the ones that inspire you and even contribute your own ideas to this course [by making a "Pull Request" on GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content).
 
 Before diving in, let's revisit a point mentioned earlier.
 

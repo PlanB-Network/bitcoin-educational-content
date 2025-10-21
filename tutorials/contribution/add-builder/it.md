@@ -15,7 +15,7 @@ Vuoi aggiungere un nuovo "project" Bitcoin al sito di Plan ₿ Academy e dare vi
 https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
-- Vai al [repository GitHub di Plan ₿ Academy](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/resources/projects) nella sezione `resources/project/`:
+- Vai al [repository GitHub di Plan ₿ Academy](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects) nella sezione `resources/project/`:
 
 ![project](assets/02.webp)
 
@@ -74,7 +74,7 @@ Ecco come compilare ogni voce:
 - `address` : L'indirizzo del tuo progetto (facoltativo);
 - `language` : I paesi in cui opera il tuo progetto o le lingue supportate (facoltativo);
 - `links` : I vari link ufficiali del tuo progetto (facoltativo);
-- `tags` : 2 [tag](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) che qualificano il tuo progetto (obbligatorio);
+- `tags` : 2 [tag](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) che qualificano il tuo progetto (obbligatorio);
 - `category` : La categoria che descrive meglio il campo in cui opera il tuo progetto tra le seguenti scelte:
 	- `wallet`,
 	- `infrastructure`,

@@ -27,11 +27,11 @@ This tutorial provides detailed steps to set up the platform, handle dummy keys,
 **2. Clone the Repository**  
 Clone the repository to your local machine:  
   
-git clone [https://github.com/Plan ₿ Academy/bitcoin-learning-management-system](https://github.com/Plan ₿ Academy/bitcoin-learning-management-system￼cd)  
-[cd](https://github.com/Plan ₿ Academy/bitcoin-learning-management-system￼cd) bitcoin-learning-management-system
+git clone [https://github.com/PlanB-Network/bitcoin-learning-management-system](https://github.com/PlanB-Network/bitcoin-learning-management-system￼cd)  
+[cd](https://github.com/PlanB-Network/bitcoin-learning-management-system￼cd) bitcoin-learning-management-system
 
 ```bash
-git clone https://github.com/Plan ₿ Academy/bitcoin-learning-management-system
+git clone https://github.com/PlanB-Network/bitcoin-learning-management-system
 cd bitcoin-learning-management-system
 ```
 

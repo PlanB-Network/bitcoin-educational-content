@@ -26,7 +26,7 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 
 
 
-- PlanB'nin verilere ayrılmış GitHub deposuna] (https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/resources/bet) `resources/bet/` bölümüne gidin:
+- PlanB'nin verilere ayrılmış GitHub deposuna] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/bet) `resources/bet/` bölümüne gidin:
 
 ![event](assets/02.webp)
 

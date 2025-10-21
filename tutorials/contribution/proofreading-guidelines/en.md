@@ -7,7 +7,7 @@ description: What are the important factors to keep in mind while proofreading o
 
 Welcome to this tutorial about the **guidelines to follow when proofreading content on Plan ₿ Academy**. We are glad you share our mission to translate Bitcoin materials in as many languages as possible, in order to help people gain awareness about how it works and how it can be used in their daily lives.
 
-First of all, contributing to Plan ₿ Academy [public repository](https://github.com/Plan ₿ Academy/bitcoin-educational-content) gives you the chance to write tutorials, proofread the existing content, or even propose the addition of a new language to the platform. To know more, join our [Telegram Group](https://t.me/PlanBNetwork_ContentBuilder) first, and write a brief presentation about you and the languages you can speak. 
+First of all, contributing to Plan ₿ Academy [public repository](https://github.com/PlanB-Network/bitcoin-educational-content) gives you the chance to write tutorials, proofread the existing content, or even propose the addition of a new language to the platform. To know more, join our [Telegram Group](https://t.me/PlanBNetwork_ContentBuilder) first, and write a brief presentation about you and the languages you can speak. 
 
 The present tutorial is dedicated to contributors who want to proofread content. Most of them don't know much about [Github](https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) or the [Markdown language](https://www.markdownguide.org/basic-syntax/) we use inside the repository, so it's important to share some insights on the key factors involved in this task.
 
@@ -199,7 +199,7 @@ When you send your PR, it would be amazing if you named it using this format: [P
 ```
 
 Besides, in the **comment section of the PR**, you can write "closes" + the number of the issue that the coordinator sent you when you started the proofreading task, preceded by ``#``.
-For example, if you just sent a PR with the proofreading of cyp201 + quizzes, you can write "closes [#2934](https://github.com/Plan ₿ Academy/bitcoin-educational-content/issues/2934)". 
+For example, if you just sent a PR with the proofreading of cyp201 + quizzes, you can write "closes [#2934](https://github.com/PlanB-Network/bitcoin-educational-content/issues/2934)". 
 
 This way, the PR and the issue will be connected, and whoever reads the public Github repository can easily find information.
 

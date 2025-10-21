@@ -13,7 +13,7 @@ La mission de PlanB est de mettre à disposition des ressources éducatives de p
 https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
-- Rendez-vous sur [le dépôt GitHub de PlanB dédié à la data](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/resources/books) dans la section `resources/books/` :
+- Rendez-vous sur [le dépôt GitHub de PlanB dédié à la data](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/books) dans la section `resources/books/` :
 ![book](assets/02.webp)
 - Cliquez en haut à droite sur le bouton `Add file`, puis sur `Create new file` :
 ![book](assets/03.webp)

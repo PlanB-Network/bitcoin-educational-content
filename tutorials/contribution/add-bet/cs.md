@@ -17,7 +17,7 @@ Chcete se podílet na obohacování této databáze, ale nevíte jak? Tento tuto
 https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
-- Přejděte na [GitHubový repozitář PlanB věnovaný datům](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/resources/bet) v sekci `resources/bet/`:
+- Přejděte na [GitHubový repozitář PlanB věnovaný datům](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet) v sekci `resources/bet/`:
 ![event](assets/02.webp)
 - Klikněte vpravo nahoře na tlačítko `Add file`, poté na `Create new file`:
 ![event](assets/03.webp)

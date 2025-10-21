@@ -41,7 +41,7 @@ https://planb.academy/tutorials/contribution/content/write-tutorials-github-web-
 
 
 - Иметь аккаунт [GitHub](https://github.com/signup);
-- Сделайте форк репозитория [Plan ₿ Academy source repository](https://github.com/Plan ₿ Academy/bitcoin-educational-content);
+- Сделайте форк репозитория [Plan ₿ Academy source repository](https://github.com/PlanB-Network/bitcoin-educational-content);
 - Иметь [профиль профессора в Plan ₿ Academy](https://planb.academy/professors) (только если вы предлагаете полное учебное пособие).
 
 Если вам нужна помощь в получении этих необходимых условий, вам помогут другие мои учебники:
@@ -160,13 +160,13 @@ https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9b
 
 ![DATA-CREATOR-PY](assets/fr/45.webp)
 
-`project_id` - это UUID компании или организации, стоящей за инструментом, о котором идет речь в учебнике, доступный [в списке проектов](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/resources/projects). Например, для учебника по кошельку Sparrow Wallet вы можете найти его `project_id` в файле: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. Эта информация добавляется в YAML-файл вашего учебника, потому что Plan ₿ Academy ведет базу данных компаний и организаций, активно работающих с Биткойном или связанными с ним проектами. Добавляя соответствующий `project_id`, вы связываете свой контент с соответствующей организацией.
+`project_id` - это UUID компании или организации, стоящей за инструментом, о котором идет речь в учебнике, доступный [в списке проектов](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Например, для учебника по кошельку Sparrow Wallet вы можете найти его `project_id` в файле: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. Эта информация добавляется в YAML-файл вашего учебника, потому что Plan ₿ Academy ведет базу данных компаний и организаций, активно работающих с Биткойном или связанными с ним проектами. Добавляя соответствующий `project_id`, вы связываете свой контент с соответствующей организацией.
 
 ***Обновление:*** В новой версии скрипта вам больше не нужно вручную вводить `project_id`. Была добавлена функция поиска, которая позволяет найти проект по названию и автоматически получить соответствующий `project_id`. Введите начало названия проекта в поле "Название проекта", чтобы найти его, а затем выберите нужную компанию из выпадающего меню. Значение `project_id` будет автоматически заполнено в поле ниже. При необходимости вы также можете ввести его вручную.
 
 ![DATA-CREATOR-PY](assets/fr/46.webp)
 
-Для тегов выберите 2 или 3 релевантных ключевых слова, связанных с содержанием вашего учебника, выбирая их исключительно из [списка тегов Plan ₿ Academy](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). В программе также предусмотрена функция поиска ключевых слов с помощью выпадающего списка.
+Для тегов выберите 2 или 3 релевантных ключевых слова, связанных с содержанием вашего учебника, выбирая их исключительно из [списка тегов Plan ₿ Academy](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). В программе также предусмотрена функция поиска ключевых слов с помощью выпадающего списка.
 
 ![DATA-CREATOR-PY](assets/fr/47.webp)
 
@@ -176,7 +176,7 @@ https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9b
 
 Теперь вы можете пропустить подраздел "Без моего Python-скрипта", а также шаг 3 "Заполнение YAML-файла", поскольку скрипт уже выполнил эти действия за вас. Переходите непосредственно к шагу 4 и начинайте писать свой учебник.
 
-Для получения дополнительной информации об этом Python-скрипте вы можете также ознакомиться с [README](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
+Для получения дополнительной информации об этом Python-скрипте вы можете также ознакомиться с [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
 
 ### Без моего скрипта Python
 
@@ -249,9 +249,9 @@ proofreading:
 
 - **id**: UUID (_Универсально уникальный идентификатор_), который позволяет уникально идентифицировать учебник. Вы можете сгенерировать его с помощью [онлайн-инструмента](https://www.uuidgenerator.net/version4). Единственное требование заключается в том, чтобы этот UUID был случайным, чтобы избежать конфликта с другим UUID на платформе;
 
-- **project_id**: UUID компании или организации, стоящей за инструментом, представленным в учебнике [из списка проектов](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/resources/projects). Например, если вы создаете учебник о программном обеспечении Green Wallet, вы можете найти этот `project_id` в следующем файле: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Эта информация добавляется в YAML файл вашего учебника, так как Plan ₿ Academy поддерживает базу данных всех компаний и организаций, работающих с Биткоином или связанными проектами. Добавляя `project_id` связанной с вашим учебником сущности, вы создаете связь между этими элементами;
+- **project_id**: UUID компании или организации, стоящей за инструментом, представленным в учебнике [из списка проектов](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Например, если вы создаете учебник о программном обеспечении Green Wallet, вы можете найти этот `project_id` в следующем файле: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Эта информация добавляется в YAML файл вашего учебника, так как Plan ₿ Academy поддерживает базу данных всех компаний и организаций, работающих с Биткоином или связанными проектами. Добавляя `project_id` связанной с вашим учебником сущности, вы создаете связь между этими элементами;
 
-- **tags**: 2 или 3 ключевых слова, связанных с содержанием учебника, выбранных исключительно [из списка тегов Plan ₿ Academy](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags**: 2 или 3 ключевых слова, связанных с содержанием учебника, выбранных исключительно [из списка тегов Plan ₿ Academy](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 - **category**: Подкатегория, соответствующая содержанию учебника, в соответствии с структурой сайта Plan ₿ Academy (например, для кошельков: `desktop`, `hardware`, `mobile`, `backup`);
 
@@ -261,7 +261,7 @@ proofreading:
     - `advanced`
     - `expert`
 
-- **professor_id**: Ваш `professor_id` (UUID), как указано в [вашем профиле преподавателя](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/professors);
+- **professor_id**: Ваш `professor_id` (UUID), как указано в [вашем профиле преподавателя](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
 
 - **original_language**: Оригинальный язык учебника (например, `fr`, `en`, и т. д.);
 

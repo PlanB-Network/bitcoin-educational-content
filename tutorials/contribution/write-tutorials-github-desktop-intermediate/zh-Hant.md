@@ -56,7 +56,7 @@ https://planb.academy/tutorials/contribution/content/write-tutorials-github-web-
 
 
 - 擁有 [GitHub 帳戶](https://github.com/signup)；
-- 擁有 [Plan ₿ Academy 原始碼倉庫](https://github.com/Plan ₿ Academy/Bitcoin-educational-content) 的 Fork；
+- 擁有 [Plan ₿ Academy 原始碼倉庫](https://github.com/PlanB-Network/Bitcoin-educational-content) 的 Fork；
 - 擁有 [Plan ₿ Academy 上的教授簡介](https://planb.academy/professors) (僅限於您提出完整的教學)。
 
 
@@ -229,7 +229,7 @@ https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9b
 ![DATA-CREATOR-PY](assets/fr/45.webp)
 
 
-project_id`是指教學中涉及的工具背後的公司或組織的UUID，可在[項目列表](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/resources/projects)中找到。例如，關於 Sparrow Wallet 的教學，您可以在檔案中找到它的「project_id」：Bitcoin-educational-content/resources/projects/sparrow/project.yml`。此資訊會被加入到您的教學 YAML 檔案中，因為 Plan ₿ Academy 會維護一個資料庫，其中包含活躍於 Bitcoin 或相關專案的公司和組織。透過加入相關的 `project_id`，您可以將您的內容連結到相關的實體。
+project_id`是指教學中涉及的工具背後的公司或組織的UUID，可在[項目列表](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects)中找到。例如，關於 Sparrow Wallet 的教學，您可以在檔案中找到它的「project_id」：Bitcoin-educational-content/resources/projects/sparrow/project.yml`。此資訊會被加入到您的教學 YAML 檔案中，因為 Plan ₿ Academy 會維護一個資料庫，其中包含活躍於 Bitcoin 或相關專案的公司和組織。透過加入相關的 `project_id`，您可以將您的內容連結到相關的實體。
 
 
 *** 更新：*** 在新版本的腳本中，您不再需要手動輸入 `project_id`。新增搜尋功能，可依名稱找到專案，並自動擷取對應的「project_id」。在 「專案名稱 」欄位中輸入專案名稱的開頭來搜尋，然後從下拉式功能表中選擇所需的公司。`project_id`將自動填入下方欄位。如果需要，您也可以手動輸入。
@@ -238,7 +238,7 @@ project_id`是指教學中涉及的工具背後的公司或組織的UUID，可�
 ![DATA-CREATOR-PY](assets/fr/46.webp)
 
 
-對於標籤，請選擇 2 或 3 個與您的教學內容相關的關鍵字，完全從 [Plan ₿ Academy 標籤清單](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) 中選擇。本軟體也提供下拉清單的關鍵字搜尋功能。
+對於標籤，請選擇 2 或 3 個與您的教學內容相關的關鍵字，完全從 [Plan ₿ Academy 標籤清單](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) 中選擇。本軟體也提供下拉清單的關鍵字搜尋功能。
 
 
 ![DATA-CREATOR-PY](assets/fr/47.webp)
@@ -253,7 +253,7 @@ project_id`是指教學中涉及的工具背後的公司或組織的UUID，可�
 現在您可以跳過「沒有我的 Python 指令碼」這一小節以及步驟 3「填入 YAML 檔案」，因為指令碼已經為您完成這些動作。直接進入步驟 4，開始撰寫您的教學。
 
 
-有關這個 Python 腳本的更多資訊，您也可以查看 [README](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md)。
+有關這個 Python 腳本的更多資訊，您也可以查看 [README](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md)。
 
 
 ### 沒有我的 Python 指令碼
@@ -344,11 +344,11 @@ reward:
 
 
 
-- **project_id** ：教程中展示的工具背後的公司或組織的 UUID [來自專案清單](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/resources/projects)。例如，如果您要建立一個關於 Green Wallet 軟體的教學，您可以在下列檔案中找到這個 `project_id`：`Bitcoin-educational-content/resources/projects/blockstream/project.yml`。此資訊會加入到您的教學 YAML 檔案中，因為 Plan ₿ Academy 會維護所有在 Bitcoin 或相關專案上運作的公司和組織的資料庫。透過加入連結到您的教學的實體的「project_id」，您就在兩個 Elements 之間建立了連結；
+- **project_id** ：教程中展示的工具背後的公司或組織的 UUID [來自專案清單](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects)。例如，如果您要建立一個關於 Green Wallet 軟體的教學，您可以在下列檔案中找到這個 `project_id`：`Bitcoin-educational-content/resources/projects/blockstream/project.yml`。此資訊會加入到您的教學 YAML 檔案中，因為 Plan ₿ Academy 會維護所有在 Bitcoin 或相關專案上運作的公司和組織的資料庫。透過加入連結到您的教學的實體的「project_id」，您就在兩個 Elements 之間建立了連結；
 
 
 
-- **標籤**：從 [Plan ₿ Academy 標籤清單中](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) 獨家選取 2 或 3 個與教學內容相關的關鍵字；
+- **標籤**：從 [Plan ₿ Academy 標籤清單中](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) 獨家選取 2 或 3 個與教學內容相關的關鍵字；
 
 
 
@@ -364,7 +364,7 @@ reward:
 
 
 
-- **professor_id** ：您的 `professor_id` (UUID) 顯示在 [您的教授簡介](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/professors)；
+- **professor_id** ：您的 `professor_id` (UUID) 顯示在 [您的教授簡介](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors)；
 
 
 

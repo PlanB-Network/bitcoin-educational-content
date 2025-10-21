@@ -80,7 +80,7 @@ Tworzenie diagramów i wizualizacji:
 
 
 
-- Musisz mieć własny Fork z [repozytorium Plan ₿ Academy na GitHub](https://github.com/Plan ₿ Academy/Bitcoin-educational-content).
+- Musisz mieć własny Fork z [repozytorium Plan ₿ Academy na GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content).
 - Zsynchronizuj główną gałąź (`dev`) Fork z repozytorium źródłowym.
 - Zaktualizuj lokalnego klona.
 
@@ -91,7 +91,7 @@ git clone https://github.com/<your-username>/bitcoin-educational-content.git
 cd bitcoin-educational-content
 
 # Add the source repository as a remote upstream
-git remote add upstream https://github.com/Plan ₿ Academy/bitcoin-educational-content.git
+git remote add upstream https://github.com/PlanB-Network/bitcoin-educational-content.git
 
 # Fetch the latest changes from the source repository
 git fetch upstream
@@ -131,7 +131,7 @@ git push -u origin tuto-green-wallet-loic
 ### 3 - Dodaj dokumenty samouczka
 
 
-***Uwaga:*** Kroki 3 i 4 można zautomatyzować za pomocą [mojego skryptu Python GUI](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/scripts/tutorial-related/new-tutorial-creation). Uruchom go bezpośrednio z folderu w lokalnym klonie, a następnie wypełnij wymagane pola w GUI. Więcej informacji na temat instalacji i użytkowania można znaleźć w [README](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
+***Uwaga:*** Kroki 3 i 4 można zautomatyzować za pomocą [mojego skryptu Python GUI](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/scripts/tutorial-related/new-tutorial-creation). Uruchom go bezpośrednio z folderu w lokalnym klonie, a następnie wypełnij wymagane pola w GUI. Więcej informacji na temat instalacji i użytkowania można znaleźć w [README](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
 
 
 Jeśli wolisz zrobić to ręcznie, wykonaj następujące kroki:
@@ -213,11 +213,11 @@ Poniżej znajdują się wymagane pola:
 
 
 
-- **project_id**: UUID firmy lub organizacji stojącej za narzędziem prezentowanym w samouczku [z listy projektów](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/resources/projects). Na przykład, jeśli tworzysz samouczek dotyczący oprogramowania Green Wallet, możesz znaleźć ten `project_id` w następującym pliku: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Informacje te są dodawane do pliku YAML samouczka, ponieważ Plan ₿ Academy utrzymuje bazę danych wszystkich firm i organizacji działających na Bitcoin lub powiązanych projektach. Dodając `project_id` podmiotu powiązanego z twoim tutorialem, tworzysz link między dwoma Elements;
+- **project_id**: UUID firmy lub organizacji stojącej za narzędziem prezentowanym w samouczku [z listy projektów](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Na przykład, jeśli tworzysz samouczek dotyczący oprogramowania Green Wallet, możesz znaleźć ten `project_id` w następującym pliku: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Informacje te są dodawane do pliku YAML samouczka, ponieważ Plan ₿ Academy utrzymuje bazę danych wszystkich firm i organizacji działających na Bitcoin lub powiązanych projektach. Dodając `project_id` podmiotu powiązanego z twoim tutorialem, tworzysz link między dwoma Elements;
 
 
 
-- **tagi**: 2 lub 3 odpowiednie słowa kluczowe związane z treścią samouczka, wybrane wyłącznie [z listy tagów Plan ₿ Academy] (https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tagi**: 2 lub 3 odpowiednie słowa kluczowe związane z treścią samouczka, wybrane wyłącznie [z listy tagów Plan ₿ Academy] (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 
 
@@ -233,7 +233,7 @@ Poniżej znajdują się wymagane pola:
 
 
 
-- **professor_id**: Twój `professor_id` (UUID) wyświetlany w [profilu profesora](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/professors);
+- **professor_id**: Twój `professor_id` (UUID) wyświetlany w [profilu profesora](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors);
 
 
 

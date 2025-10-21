@@ -41,7 +41,7 @@ Edellytykset ennen opetusohjelman aloittamista:
 
 
 - Sinulla on [GitHub-tili](https://github.com/signup);
-- Ota haara [Plan ₿ Academy source repository](https://github.com/Plan ₿ Academy/bitcoin-educational-content);
+- Ota haara [Plan ₿ Academy source repository](https://github.com/PlanB-Network/bitcoin-educational-content);
 - On [professorin profiili Plan ₿ Academy -verkossa](https://planb.academy/professors) (vain jos ehdotat täydellistä opetusohjelmaa).
 
 Jos tarvitset apua näiden edellytysten hankkimisessa, muut opetusohjelmani auttavat sinua:
@@ -161,13 +161,13 @@ Valitse nimi hakemistolle, joka on luotu erityisesti opetusohjelmaasi varten. T�
 
 ![DATA-CREATOR-PY](assets/fr/45.webp)
 
-`project_id` on sen yrityksen tai organisaation UUID-tunnus, joka on opetusohjelmassa käsitellyn työkalun takana, saatavilla [projektiluettelossa](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/resources/projects). Esimerkiksi Sparrow Wallet -oppaan kohdalla sen `project_id` löytyy tiedostosta: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. Tämä tieto lisätään opetusohjelmasi YAML-tiedostoon, koska Plan ₿ Academy ylläpitää tietokantaa yrityksistä ja organisaatioista, jotka toimivat Bitcoinissa tai siihen liittyvissä projekteissa. Lisäämällä siihen liittyvän `project_id`-tiedon linkität sisältösi asianomaiseen yksikköön.
+`project_id` on sen yrityksen tai organisaation UUID-tunnus, joka on opetusohjelmassa käsitellyn työkalun takana, saatavilla [projektiluettelossa](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Esimerkiksi Sparrow Wallet -oppaan kohdalla sen `project_id` löytyy tiedostosta: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. Tämä tieto lisätään opetusohjelmasi YAML-tiedostoon, koska Plan ₿ Academy ylläpitää tietokantaa yrityksistä ja organisaatioista, jotka toimivat Bitcoinissa tai siihen liittyvissä projekteissa. Lisäämällä siihen liittyvän `project_id`-tiedon linkität sisältösi asianomaiseen yksikköön.
 
 ***Päivitys:*** Skriptin uudessa versiossa sinun ei enää tarvitse syöttää manuaalisesti `project_id`. On lisätty hakutoiminto, joka etsii projektin nimen perusteella ja hakee automaattisesti vastaavan `project_id`-tunnuksen. Kirjoita projektin nimen alku "Projektin nimi"-kenttään sen etsimistä varten ja valitse sitten haluamasi yritys pudotusvalikosta. `project_id` täytetään automaattisesti alla olevaan kenttään. Voit syöttää sen tarvittaessa myös manuaalisesti.
 
 ![DATA-CREATOR-PY](assets/fr/46.webp)
 
-Valitse tunnisteiksi 2 tai 3 merkityksellistä avainsanaa, jotka liittyvät opetusohjelmasi sisältöön, valitsemalla yksinomaan [Plan ₿ Academy -verkon tunnisteiden luettelosta](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). Ohjelmisto tarjoaa myös avainsanahakutoiminnon pudotusluettelon avulla.
+Valitse tunnisteiksi 2 tai 3 merkityksellistä avainsanaa, jotka liittyvät opetusohjelmasi sisältöön, valitsemalla yksinomaan [Plan ₿ Academy -verkon tunnisteiden luettelosta](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). Ohjelmisto tarjoaa myös avainsanahakutoiminnon pudotusluettelon avulla.
 
 ![DATA-CREATOR-PY](assets/fr/47.webp)
 
@@ -177,7 +177,7 @@ Kun kaikki tiedot on syötetty ja tarkistettu, klikkaa "Create Tutorial" vahvist
 
 Voit nyt ohittaa alajakson "Ilman Python-skriptiä" sekä vaiheen 3 "Täytä YAML-tiedosto", koska skripti on jo suorittanut nämä toimet puolestasi. Siirry suoraan vaiheeseen 4 ja aloita opetusohjelmasi kirjoittaminen.
 
-Lisätietoja tästä Python-skriptistä saat myös [README](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
+Lisätietoja tästä Python-skriptistä saat myös [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
 
 ### Ilman Python-skriptiäni
 
@@ -251,9 +251,9 @@ Tässä ovat pakolliset kentät:
 
 - **id**: UUID (_Universally Unique Identifier_), joka yksilöi tutoriaalin. Voit luoda sen käyttämällä [verkkotyökalua](https://www.uuidgenerator.net/version4). Ainoa vaatimus on, että tämä UUID on satunnainen, jotta vältytään ristiriidoilta toisen UUID:n kanssa alustalla;
 
-- **project_id**: Yrityksen tai organisaation UUID, joka liittyy tutoriaalissa esiteltyyn työkaluun [projektien luettelosta](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/resources/projects). Jos esimerkiksi luot oppaan Green Wallet -ohjelmistosta, voit löytää tämän `project_id` seuraavasta tiedostosta: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Tämä tieto lisätään tutoriaalin YAML-tiedostoon, koska Plan ₿ Academy ylläpitää tietokantaa kaikista Bitcoinin tai siihen liittyvien projektien kanssa toimivista yrityksistä ja organisaatioista. Lisäämällä oppaasi liittyvän yksikön `project_id`, luot linkin kahden elementin välille;
+- **project_id**: Yrityksen tai organisaation UUID, joka liittyy tutoriaalissa esiteltyyn työkaluun [projektien luettelosta](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Jos esimerkiksi luot oppaan Green Wallet -ohjelmistosta, voit löytää tämän `project_id` seuraavasta tiedostosta: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Tämä tieto lisätään tutoriaalin YAML-tiedostoon, koska Plan ₿ Academy ylläpitää tietokantaa kaikista Bitcoinin tai siihen liittyvien projektien kanssa toimivista yrityksistä ja organisaatioista. Lisäämällä oppaasi liittyvän yksikön `project_id`, luot linkin kahden elementin välille;
 
-- **tags**: 2 tai 3 aiheeseen liittyvää avainsanaa, jotka valitaan yksinomaan [Plan ₿ Networkin avainsanaluettelosta](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags**: 2 tai 3 aiheeseen liittyvää avainsanaa, jotka valitaan yksinomaan [Plan ₿ Networkin avainsanaluettelosta](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 - **category**: Alakategoria, joka vastaa tutoriaalin sisältöä Plan ₿ Academy -sivuston rakenteen mukaisesti (esimerkiksi lompakoille: `desktop`, `hardware`, `mobile`, `backup`);
 
@@ -263,7 +263,7 @@ Tässä ovat pakolliset kentät:
     - `advanced`
     - `expert`
 
-- **professor_id**: Sinun `professor_id` (UUID), joka näkyy [professoriprofiilissasi](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/professors);
+- **professor_id**: Sinun `professor_id` (UUID), joka näkyy [professoriprofiilissasi](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
 
 - **original_language**: Oppaan alkuperäinen kieli (esimerkiksi `fr`, `en`, jne.);
 

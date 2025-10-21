@@ -32,7 +32,7 @@ https://planb.academy/tutorials/contribution/content/write-tutorials-github-desk
 
 
 - 拥有 [GitHub 账户](https://github.com/signup)；
-- 有一个 [Plan ₿ Academy source repository](https://github.com/Plan ₿ Academy/bitcoin-educational-content) 的 fork；
+- 有一个 [Plan ₿ Academy source repository](https://github.com/PlanB-Network/bitcoin-educational-content) 的 fork；
 - 拥有[Plan ₿ Academy 上的教师简介](https://planb.academy/professors) （仅当您提供完整教程时）。
 
 如果您在获得这些先决条件方面需要帮助，我的其他教程会有所帮助：
@@ -147,9 +147,9 @@ proofreading:
 
 - **id**: 一个 UUID (_Universally Unique Identifier_) 用于唯一标识教程。您可以使用 [在线工具](https://www.uuidgenerator.net/version4) 生成它。唯一的要求是这个 UUID 是随机生成的，以避免与平台上的其他 UUID 冲突；
 
-- **project_id**: 提供教程中介绍的工具背后的公司或组织的 UUID [从项目列表中](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/resources/projects)。例如，如果您正在创建关于 Green Wallet 软件的教程，您可以在以下文件中找到 `project_id`：`bitcoin-educational-content/resources/projects/blockstream/project.yml`。这个信息会被添加到您的教程 YAML 文件中，因为 Plan ₿ Academy 维护着一个包含所有在 Bitcoin 或相关项目上运营的公司和组织的数据库。通过将与您的教程相关的实体 `project_id` 添加进去，您将两个元素连接起来；
+- **project_id**: 提供教程中介绍的工具背后的公司或组织的 UUID [从项目列表中](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects)。例如，如果您正在创建关于 Green Wallet 软件的教程，您可以在以下文件中找到 `project_id`：`bitcoin-educational-content/resources/projects/blockstream/project.yml`。这个信息会被添加到您的教程 YAML 文件中，因为 Plan ₿ Academy 维护着一个包含所有在 Bitcoin 或相关项目上运营的公司和组织的数据库。通过将与您的教程相关的实体 `project_id` 添加进去，您将两个元素连接起来；
 
-- **tags**: 2 或 3 个与教程内容相关的关键词，仅从 [Plan ₿ Academy 的标签列表](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) 中选择；
+- **tags**: 2 或 3 个与教程内容相关的关键词，仅从 [Plan ₿ Academy 的标签列表](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) 中选择；
 
 - **category**: 对应于教程内容的子类别，根据 Plan ₿ Academy 网站的结构（例如，对于钱包：`desktop`、`hardware`、`mobile`、`backup`）；
 
@@ -159,7 +159,7 @@ proofreading:
     - `advanced`
     - `expert`
 
-- **professor_id**: 您的 `professor_id` (UUID)，如在 [您的教授资料](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/professors) 中显示；
+- **professor_id**: 您的 `professor_id` (UUID)，如在 [您的教授资料](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors) 中显示；
 
 - **original_language**: 教程的原始语言（例如 `fr`、`en` 等）；
 

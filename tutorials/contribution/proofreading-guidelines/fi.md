@@ -9,7 +9,7 @@ description: Mitkä ovat tärkeitä tekijöitä, jotka on pidettävä mielessä 
 Tervetuloa tähän oppaaseen, jossa käsitellään **ohjeita, joita on noudatettava Plan ₿ Academy:n sisällön oikolukemisessa**. Olemme iloisia, että jaat tavoitteemme kääntää Bitcoin-materiaalia mahdollisimman monelle kielelle, jotta ihmiset saisivat tietoa siitä, miten Bitcoin toimii ja miten sitä voidaan käyttää heidän jokapäiväisessä elämässään.
 
 
-Ensinnäkin, osallistumalla Plan ₿ Academy:n [julkinen arkisto] (https://github.com/Plan ₿ Academy/Bitcoin-educational-content) -palveluun voit kirjoittaa oppaita, oikolukea olemassa olevaa sisältöä tai jopa ehdottaa uuden kielen lisäämistä alustaan. Jos haluat lisätietoja, liity ensin [Telegram-ryhmään](https://t.me/PlanBNetwork_ContentBuilder) ja kirjoita lyhyt esittely itsestäsi ja kielistä, joita osaat.
+Ensinnäkin, osallistumalla Plan ₿ Academy:n [julkinen arkisto] (https://github.com/PlanB-Network/Bitcoin-educational-content) -palveluun voit kirjoittaa oppaita, oikolukea olemassa olevaa sisältöä tai jopa ehdottaa uuden kielen lisäämistä alustaan. Jos haluat lisätietoja, liity ensin [Telegram-ryhmään](https://t.me/PlanBNetwork_ContentBuilder) ja kirjoita lyhyt esittely itsestäsi ja kielistä, joita osaat.
 
 
 Tämä ohje on omistettu toimittajille, jotka haluavat oikolukea sisältöä. Useimmat heistä eivät tiedä paljoakaan [Githubista](https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) tai [Markdown-kielestä](https://www.markdownguide.org/basic-syntax/), jota käytämme arkiston sisällä, joten on tärkeää jakaa joitakin näkemyksiä tähän tehtävään liittyvistä avaintekijöistä.
@@ -289,7 +289,7 @@ Kun lähetät PR-toimintasi, olisi hienoa, jos nimeäisit sen tätä muotoa käy
 
 Lisäksi voit kirjoittaa PR:n **kommenttiosioon** "sulkee" + sen ongelman numero, jonka koordinaattori lähetti sinulle, kun aloitit oikolukutehtävän, ja sen eteen tulee ``#``.
 
-Jos esimerkiksi olet juuri lähettänyt PR:n, jossa on cyp201 + tietokilpailujen oikoluku, voit kirjoittaa "sulkee [#2934](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/issues/2934)".
+Jos esimerkiksi olet juuri lähettänyt PR:n, jossa on cyp201 + tietokilpailujen oikoluku, voit kirjoittaa "sulkee [#2934](https://github.com/PlanB-Network/Bitcoin-educational-content/issues/2934)".
 
 
 Näin PR ja ongelma ovat yhteydessä toisiinsa, ja kuka tahansa, joka lukee julkista Github-arkistoa, voi löytää tiedot helposti.

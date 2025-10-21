@@ -1397,7 +1397,7 @@ $$
 
 ### बाइनरी सीक्वेंस को Mnemonic फ्रेज़ में बदलना
 
-बिट सीक्वेंस $\text{ENT} \Vert \text{CS}$ को फिर 11 बिट्स के सेगमेंट में बाँटा जाता है। हर 11-बिट वाला सेगमेंट, जब डेसीमल में कन्वर्ट किया जाता है, तो 0 से 2047 के बीच की एक संख्या से मेल खाता है, जो [BIP39 द्वारा स्टैंडर्डाइज़्ड 2048 शब्दों की लिस्ट](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf) में एक शब्द की पोजीशन को दर्शाता है।
+बिट सीक्वेंस $\text{ENT} \Vert \text{CS}$ को फिर 11 बिट्स के सेगमेंट में बाँटा जाता है। हर 11-बिट वाला सेगमेंट, जब डेसीमल में कन्वर्ट किया जाता है, तो 0 से 2047 के बीच की एक संख्या से मेल खाता है, जो [BIP39 द्वारा स्टैंडर्डाइज़्ड 2048 शब्दों की लिस्ट](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf) में एक शब्द की पोजीशन को दर्शाता है।
 
 ![CYP201](assets/en/042.webp)
 

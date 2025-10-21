@@ -32,7 +32,7 @@ Forutsetninger før du starter opplæringen:
 
 
 - Har en [GitHub-konto] (https://github.com/signup);
-- Ha en gaffel av [Plan ₿ Academy source repository] (https://github.com/Plan ₿ Academy/bitcoin-educational-content);
+- Ha en gaffel av [Plan ₿ Academy source repository] (https://github.com/PlanB-Network/bitcoin-educational-content);
 - Ha [en lærerprofil på Plan ₿ Academy] (https://planb.academy/professors) (bare hvis du tilbyr en fullstendig veiledning).
 
 Hvis du trenger hjelp med å skaffe deg disse forutsetningene, kan du finne hjelp i de andre veiledningene mine:
@@ -147,9 +147,9 @@ Her er de obligatoriske feltene:
 
 - **id**: En UUID (_Universally Unique Identifier_) som unikt identifiserer veiledningen. Du kan generere den med [et nettbasert verktøy](https://www.uuidgenerator.net/version4). Det eneste kravet er at denne UUID-en er tilfeldig for å unngå konflikter med en annen UUID på plattformen;
 
-- **project_id**: UUID-en til selskapet eller organisasjonen bak verktøyet som presenteres i veiledningen [fra prosjektlisten](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/resources/projects). For eksempel, hvis du lager en veiledning om Green Wallet-programvaren, kan du finne denne `project_id` i følgende fil: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Denne informasjonen legges til i YAML-filen til veiledningen din fordi Plan ₿ Academy vedlikeholder en database over alle selskaper og organisasjoner som opererer på Bitcoin eller relaterte prosjekter. Ved å legge til `project_id` tilknyttet veiledningen din, oppretter du en kobling mellom de to elementene;
+- **project_id**: UUID-en til selskapet eller organisasjonen bak verktøyet som presenteres i veiledningen [fra prosjektlisten](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). For eksempel, hvis du lager en veiledning om Green Wallet-programvaren, kan du finne denne `project_id` i følgende fil: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Denne informasjonen legges til i YAML-filen til veiledningen din fordi Plan ₿ Academy vedlikeholder en database over alle selskaper og organisasjoner som opererer på Bitcoin eller relaterte prosjekter. Ved å legge til `project_id` tilknyttet veiledningen din, oppretter du en kobling mellom de to elementene;
 
-- **tags**: 2 eller 3 relevante stikkord relatert til veiledningens innhold, valgt utelukkende [fra Plan ₿ Academy tag-listen](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags**: 2 eller 3 relevante stikkord relatert til veiledningens innhold, valgt utelukkende [fra Plan ₿ Academy tag-listen](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 - **category**: Underkategorien som tilsvarer innholdet i veiledningen, i henhold til strukturen på Plan ₿ Academy-nettstedet (for eksempel for lommebøker: `desktop`, `hardware`, `mobile`, `backup`);
 
@@ -159,7 +159,7 @@ Her er de obligatoriske feltene:
     - `advanced`
     - `expert`
 
-- **professor_id**: Din `professor_id` (UUID) som vist på [din professorprofil](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/professors);
+- **professor_id**: Din `professor_id` (UUID) som vist på [din professorprofil](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
 
 - **original_language**: Det opprinnelige språket for veiledningen (f.eks. `fr`, `en`, etc.);
 

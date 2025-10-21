@@ -9,7 +9,7 @@ description: Plan ₿ Academy'da redaksiyon yaparken akılda tutulması gereken 
 Plan ₿ Academy'de içerik redaksiyonu yaparken izlenecek **yönergeler** hakkındaki bu eğitime hoş geldiniz. İnsanların Bitcoin'nin nasıl çalıştığı ve günlük yaşamlarında nasıl kullanılabileceği konusunda farkındalık kazanmalarına yardımcı olmak için Bitcoin materyallerini mümkün olduğunca çok dile çevirme misyonumuzu paylaştığınız için mutluyuz.
 
 
-Her şeyden önce, Plan ₿ Academy [public repository](https://github.com/Plan ₿ Academy/Bitcoin-educational-content)'e katkıda bulunmak size öğreticiler yazma, mevcut içeriği düzeltme ve hatta platforma yeni bir dil eklenmesini önerme şansı verir. Daha fazla bilgi edinmek için önce [Telegram Grubumuza](https://t.me/PlanBNetwork_ContentBuilder) katılın ve kendiniz ve konuşabildiğiniz diller hakkında kısa bir sunum yazın.
+Her şeyden önce, Plan ₿ Academy [public repository](https://github.com/PlanB-Network/Bitcoin-educational-content)'e katkıda bulunmak size öğreticiler yazma, mevcut içeriği düzeltme ve hatta platforma yeni bir dil eklenmesini önerme şansı verir. Daha fazla bilgi edinmek için önce [Telegram Grubumuza](https://t.me/PlanBNetwork_ContentBuilder) katılın ve kendiniz ve konuşabildiğiniz diller hakkında kısa bir sunum yazın.
 
 
 Bu eğitim, içeriği düzeltmek isteyen katılımcılara adanmıştır. Çoğu [Github](https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) veya depo içinde kullandığımız [Markdown dili](https://www.markdownguide.org/basic-syntax/) hakkında fazla bilgi sahibi değildir, bu nedenle bu görevde yer alan temel faktörler hakkında bazı bilgiler paylaşmak önemlidir.
@@ -289,7 +289,7 @@ Halkla ilişkilerinizi gönderirken, bu formatı kullanarak adlandırırsanız h
 
 Ayrıca, PR'nin **yorum** bölümüne, "kapanır" + düzeltme görevine başladığınızda koordinatörün size gönderdiği sorunun numarasını, başına ``#`` koyarak yazabilirsiniz.
 
-Örneğin, cyp201 + sınavların düzeltilmesi ile bir PR gönderdiyseniz, "closes [#2934](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/issues/2934)" yazabilirsiniz.
+Örneğin, cyp201 + sınavların düzeltilmesi ile bir PR gönderdiyseniz, "closes [#2934](https://github.com/PlanB-Network/Bitcoin-educational-content/issues/2934)" yazabilirsiniz.
 
 
 Bu şekilde, PR ve sorun birbirine bağlanacak ve herkese açık Github deposunu okuyan herkes kolayca bilgi bulabilecektir.

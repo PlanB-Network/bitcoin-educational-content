@@ -18,4 +18,4 @@ Katika mafunzo haya ya video utapitia jinsi ya kusanidi na kutumia Programu ya B
 Ili kupakua Keeper tazama [hapa] (bitcoinkeeper.app)
 
 
-**Kumbuka:** Mafunzo haya ni rasimu ya Kiingereza pekee, bado tunahitaji mtu kuandika mwongozo wa kina kuhusu somo hili. Ikiwa wewe ndiye huyo, tafadhali wasiliana nasi kwenye [Telegram](https://t.me/PlanBNetwork_ContentBuilder/325) au kwenye [GitHub](https://github.com/Plan ₿ Academy/Bitcoin-educational-content)
+**Kumbuka:** Mafunzo haya ni rasimu ya Kiingereza pekee, bado tunahitaji mtu kuandika mwongozo wa kina kuhusu somo hili. Ikiwa wewe ndiye huyo, tafadhali wasiliana nasi kwenye [Telegram](https://t.me/PlanBNetwork_ContentBuilder/325) au kwenye [GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content)

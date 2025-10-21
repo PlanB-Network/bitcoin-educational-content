@@ -1302,7 +1302,7 @@ Por exemplo, para uma entropia de 256 bits, o resultado $\text{ENT} \Vert \text{
 
 ### Conversão da Sequência Binária em uma Frase Mnemônica
 
-A sequência de bits $\text{ENT} \Vert \text{CS}$ é então dividida em segmentos de 11 bits. Cada segmento de 11 bits, uma vez convertido para decimal, corresponde a um número entre 0 e 2047, que designa a posição de uma palavra [em uma lista de 2048 palavras padronizadas pelo BIP39](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
+A sequência de bits $\text{ENT} \Vert \text{CS}$ é então dividida em segmentos de 11 bits. Cada segmento de 11 bits, uma vez convertido para decimal, corresponde a um número entre 0 e 2047, que designa a posição de uma palavra [em uma lista de 2048 palavras padronizadas pelo BIP39](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
 ![CYP201](assets/en/042.webp)
 Por exemplo, para uma entropia de 128 bits, o checksum é de 4 bits, e assim a sequência total mede 132 bits. Ela é dividida em 12 segmentos de 11 bits (os bits laranjas designam o checksum):

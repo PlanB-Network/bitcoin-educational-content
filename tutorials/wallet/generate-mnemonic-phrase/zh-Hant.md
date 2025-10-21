@@ -45,7 +45,7 @@ Mnemonic 詞組與可選的 passphrase 一起，用於確定性地推導出與 H
 - 一張紙
 - 一枝鋼筆或鉛筆，最好是不同顏色的，以便整理；
 - 多顆骰子，以減少與不平衡骰子有關的偏差風險；
-- [2048 個 BIP39 字元的清單](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf) 列印出來。
+- [2048 個 BIP39 字元的清單](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf) 列印出來。
 
 
 之後，計算校驗和時就必須使用配備終端機的電腦。正因如此，我建議不要手動產生 Mnemonic 詞組。在我看來，即使在本教程中提到的預防措施下，電腦的介入也會顯著增加 Wallet 的漏洞。
@@ -102,7 +102,7 @@ Mnemonic 詞組與可選的 passphrase 一起，用於確定性地推導出與 H
 ![mnemonic](assets/notext/5.webp)
 
 
-最後，十進位的數字會告訴我們相對應的字在 [2048 個 BIP39 字清單] 中的位置 (https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)。剩下的工作就是選擇這些字詞來組成 Wallet 的復原詞組。
+最後，十進位的數字會告訴我們相對應的字在 [2048 個 BIP39 字清單] 中的位置 (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)。剩下的工作就是選擇這些字詞來組成 Wallet 的復原詞組。
 
 
 ![mnemonic](assets/notext/6.webp)
@@ -332,7 +332,7 @@ a27abf1aff70311917a59a43ce86fa45a62723a00dd2f9d3d059aeac9b4b13d8
 調整之後，您就可以得到每個單字在清單中的排名。剩下來的工作就是根據每個單字的編號來識別它。很明顯，與所有其他步驟一樣，您一定不能使用電腦來執行此轉換。因此，請務必事先列印清單。
 
 
-[**-> 以 A4 格式列印 BIP39 清單。**](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)
+[**-> 以 A4 格式列印 BIP39 清單。**](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)
 
 
 例如，如果從第一行得出的數字是 1721，則對應的單字將是列表中的第 1721 個：

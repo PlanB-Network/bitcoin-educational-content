@@ -9,7 +9,7 @@ description: Quels sont les facteurs importants à prendre en compte lors de la 
 Bienvenue dans ce tutoriel sur les **règles à suivre lors de la relecture de contenu sur Plan ₿ Academy**. Nous sommes heureux que vous partagiez notre mission de traduire les documents Bitcoin dans le plus grand nombre de langues possible, afin d'aider les gens à prendre conscience de son fonctionnement et de la façon dont il peut être utilisé dans leur vie quotidienne.
 
 
-Tout d'abord, contribuer au [dépôt public] (https://github.com/Plan ₿ Academy/Bitcoin-educational-content) de Plan ₿ Academy vous donne la possibilité d'écrire des tutoriels, de relire le contenu existant, ou même de proposer l'ajout d'une nouvelle langue à la plateforme. Pour en savoir plus, rejoignez d'abord notre [groupe Telegram](https://t.me/PlanBNetwork_ContentBuilder), et écrivez une brève présentation de vous et des langues que vous pouvez parler.
+Tout d'abord, contribuer au [dépôt public] (https://github.com/PlanB-Network/Bitcoin-educational-content) de Plan ₿ Academy vous donne la possibilité d'écrire des tutoriels, de relire le contenu existant, ou même de proposer l'ajout d'une nouvelle langue à la plateforme. Pour en savoir plus, rejoignez d'abord notre [groupe Telegram](https://t.me/PlanBNetwork_ContentBuilder), et écrivez une brève présentation de vous et des langues que vous pouvez parler.
 
 
 Ce tutoriel est dédié aux contributeurs qui souhaitent relire du contenu. La plupart d'entre eux ne connaissent pas grand-chose à [Github](https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) ou au [langage Markdown](https://www.markdownguide.org/basic-syntax/) que nous utilisons dans le dépôt, il est donc important de partager quelques idées sur les facteurs clés impliqués dans cette tâche.
@@ -289,7 +289,7 @@ Lorsque vous envoyez votre RP, il serait souhaitable que vous le nommiez en util
 
 En outre, dans la **commentaire du PR**, vous pouvez écrire "closes" + le numéro de la question que le coordinateur vous a envoyé lorsque vous avez commencé la tâche de relecture, précédé par ``#``.
 
-Par exemple, si vous venez d'envoyer un PR avec la relecture de cyp201 + quiz, vous pouvez écrire "closes [#2934](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/issues/2934)".
+Par exemple, si vous venez d'envoyer un PR avec la relecture de cyp201 + quiz, vous pouvez écrire "closes [#2934](https://github.com/PlanB-Network/Bitcoin-educational-content/issues/2934)".
 
 
 De cette manière, le PR et le problème seront liés, et quiconque lit le dépôt public Github peut facilement trouver des informations.

@@ -56,7 +56,7 @@ https://planb.academy/tutorials/contribution/content/write-tutorials-github-web-
 
 
 - एक [GitHub खाता](https://github.com/signup) रखें;
-- [Plan ₿ Academy स्रोत रिपॉजिटरी](https://github.com/Plan ₿ Academy/Bitcoin-educational-content) का Fork रखें;
+- [Plan ₿ Academy स्रोत रिपॉजिटरी](https://github.com/PlanB-Network/Bitcoin-educational-content) का Fork रखें;
 - [Plan ₿ Academy पर एक प्रोफेसर प्रोफ़ाइल](https://planb.academy/professors) रखें (केवल तभी जब आप एक पूर्ण ट्यूटोरियल प्रस्तावित कर रहे हों)।
 
 
@@ -229,7 +229,7 @@ https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9b
 ![DATA-CREATOR-PY](assets/fr/45.webp)
 
 
-`project_id` ट्यूटोरियल में शामिल टूल के पीछे की कंपनी या संगठन का UUID है, जो [प्रोजेक्ट की सूची में](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/resources/projects) उपलब्ध है। उदाहरण के लिए, स्पैरो Wallet पर एक ट्यूटोरियल के लिए, आप इसकी `project_id` फ़ाइल में पा सकते हैं: `Bitcoin-educational-content/resources/projects/sparrow/project.yml`। यह जानकारी आपके ट्यूटोरियल की YAML फ़ाइल में इसलिए जोड़ी जाती है क्योंकि Plan ₿ Academy Bitcoin या संबंधित प्रोजेक्ट में सक्रिय कंपनियों और संगठनों का डेटाबेस बनाए रखता है। संबंधित `project_id` जोड़कर, आप अपनी सामग्री को संबंधित इकाई से लिंक करते हैं।
+`project_id` ट्यूटोरियल में शामिल टूल के पीछे की कंपनी या संगठन का UUID है, जो [प्रोजेक्ट की सूची में](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects) उपलब्ध है। उदाहरण के लिए, स्पैरो Wallet पर एक ट्यूटोरियल के लिए, आप इसकी `project_id` फ़ाइल में पा सकते हैं: `Bitcoin-educational-content/resources/projects/sparrow/project.yml`। यह जानकारी आपके ट्यूटोरियल की YAML फ़ाइल में इसलिए जोड़ी जाती है क्योंकि Plan ₿ Academy Bitcoin या संबंधित प्रोजेक्ट में सक्रिय कंपनियों और संगठनों का डेटाबेस बनाए रखता है। संबंधित `project_id` जोड़कर, आप अपनी सामग्री को संबंधित इकाई से लिंक करते हैं।
 
 
 ***अपडेट:*** स्क्रिप्ट के नए संस्करण में, अब आपको `project_id` को मैन्युअल रूप से दर्ज करने की आवश्यकता नहीं है। नाम से प्रोजेक्ट को खोजने और संबंधित `project_id` को स्वचालित रूप से प्राप्त करने के लिए एक खोज फ़ंक्शन जोड़ा गया है। इसे खोजने के लिए "प्रोजेक्ट नाम" फ़ील्ड में प्रोजेक्ट के नाम की शुरुआत टाइप करें, फिर ड्रॉपडाउन मेनू से वांछित कंपनी का चयन करें। `project_id` नीचे दिए गए फ़ील्ड में स्वचालित रूप से पॉप्युलेट हो जाएगा। यदि आवश्यक हो तो आप इसे मैन्युअल रूप से भी दर्ज कर सकते हैं।
@@ -238,7 +238,7 @@ https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9b
 ![DATA-CREATOR-PY](assets/fr/46.webp)
 
 
-टैग के लिए, अपने ट्यूटोरियल कंटेंट से संबंधित 2 या 3 प्रासंगिक कीवर्ड चुनें, विशेष रूप से [Plan ₿ Academy टैग सूची](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) से चुनें। सॉफ़्टवेयर ड्रॉपडाउन सूची के साथ कीवर्ड खोज फ़ंक्शन भी प्रदान करता है।
+टैग के लिए, अपने ट्यूटोरियल कंटेंट से संबंधित 2 या 3 प्रासंगिक कीवर्ड चुनें, विशेष रूप से [Plan ₿ Academy टैग सूची](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) से चुनें। सॉफ़्टवेयर ड्रॉपडाउन सूची के साथ कीवर्ड खोज फ़ंक्शन भी प्रदान करता है।
 
 
 ![DATA-CREATOR-PY](assets/fr/47.webp)
@@ -253,7 +253,7 @@ https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9b
 अब आप उपखंड "मेरी पायथन स्क्रिप्ट के बिना" के साथ-साथ चरण 3, "YAML फ़ाइल भरें" को छोड़ सकते हैं, क्योंकि स्क्रिप्ट ने आपके लिए ये क्रियाएँ पहले ही पूरी कर ली हैं। सीधे चरण 4 पर जाएँ और अपना ट्यूटोरियल लिखना शुरू करें।
 
 
-इस पायथन स्क्रिप्ट के बारे में अधिक जानकारी के लिए, आप [README](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md) भी देख सकते हैं।
+इस पायथन स्क्रिप्ट के बारे में अधिक जानकारी के लिए, आप [README](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md) भी देख सकते हैं।
 
 
 ### मेरी पायथन स्क्रिप्ट के बिना
@@ -344,11 +344,11 @@ reward:
 
 
 
-- **project_id**: ट्यूटोरियल में प्रस्तुत टूल के पीछे कंपनी या संगठन का UUID [प्रोजेक्ट सूची से](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/resources/projects)। उदाहरण के लिए, यदि आप Green Wallet सॉफ़्टवेयर के बारे में एक ट्यूटोरियल बना रहे हैं, तो आप इस `project_id` को निम्न फ़ाइल में पा सकते हैं: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`। यह जानकारी आपके ट्यूटोरियल की YAML फ़ाइल में इसलिए जोड़ी जाती है क्योंकि Plan ₿ Academy Bitcoin या संबंधित प्रोजेक्ट पर काम करने वाली सभी कंपनियों और संगठनों का डेट
+- **project_id**: ट्यूटोरियल में प्रस्तुत टूल के पीछे कंपनी या संगठन का UUID [प्रोजेक्ट सूची से](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects)। उदाहरण के लिए, यदि आप Green Wallet सॉफ़्टवेयर के बारे में एक ट्यूटोरियल बना रहे हैं, तो आप इस `project_id` को निम्न फ़ाइल में पा सकते हैं: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`। यह जानकारी आपके ट्यूटोरियल की YAML फ़ाइल में इसलिए जोड़ी जाती है क्योंकि Plan ₿ Academy Bitcoin या संबंधित प्रोजेक्ट पर काम करने वाली सभी कंपनियों और संगठनों का डेट
 
 
 
-- **टैग**: ट्यूटोरियल सामग्री से संबंधित 2 या 3 प्रासंगिक कीवर्ड, विशेष रूप से [Plan ₿ Academy टैग सूची से](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) चुने गए;
+- **टैग**: ट्यूटोरियल सामग्री से संबंधित 2 या 3 प्रासंगिक कीवर्ड, विशेष रूप से [Plan ₿ Academy टैग सूची से](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) चुने गए;
 
 
 
@@ -364,7 +364,7 @@ reward:
 
 
 
-- **professor_id**: आपका `professor_id` (UUID) जैसा कि [आपके प्रोफेसर प्रोफ़ाइल](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/professors) पर प्रदर्शित है;
+- **professor_id**: आपका `professor_id` (UUID) जैसा कि [आपके प्रोफेसर प्रोफ़ाइल](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors) पर प्रदर्शित है;
 
 
 

@@ -56,7 +56,7 @@ Masharti kabla ya kuanza mafunzo:
 
 
 - Kuwa na [akaunti ya GitHub](https://github.com/signup);
-- Kuwa na Fork ya [Plan ₿ Academy chanzo hazina](https://github.com/Plan ₿ Academy/Bitcoin-educational-content);
+- Kuwa na Fork ya [Plan ₿ Academy chanzo hazina](https://github.com/PlanB-Network/Bitcoin-educational-content);
 - Kuwa na [wasifu wa profesa kwenye Plan ₿ Academy](https://planb.academy/professors) (ikiwa tu unapendekeza mafunzo kamili).
 
 
@@ -229,7 +229,7 @@ Chagua jina la saraka iliyoundwa mahsusi kwa mafunzo yako. Jina la folda hii lin
 ![DATA-CREATOR-PY](assets/fr/45.webp)
 
 
-`project_id` ni UUID ya kampuni au shirika lililo nyuma ya zana iliyo katika mafunzo, inayopatikana [katika orodha ya miradi](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/resources/projects). Kwa mfano, kwa mafunzo kuhusu Sparrow Wallet, unaweza kupata `project_id` yake katika faili: `Bitcoin-educational-content/resources/projects/sparrow/project.yml`. Maelezo haya yameongezwa kwenye faili ya mafunzo yako ya YAML kwa sababu Plan ₿ Academy ina hifadhidata ya makampuni na mashirika yanayofanya kazi katika Bitcoin au miradi inayohusiana. Kwa kuongeza `id_ya_mradi` husika, unaunganisha maudhui yako na huluki husika.
+`project_id` ni UUID ya kampuni au shirika lililo nyuma ya zana iliyo katika mafunzo, inayopatikana [katika orodha ya miradi](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Kwa mfano, kwa mafunzo kuhusu Sparrow Wallet, unaweza kupata `project_id` yake katika faili: `Bitcoin-educational-content/resources/projects/sparrow/project.yml`. Maelezo haya yameongezwa kwenye faili ya mafunzo yako ya YAML kwa sababu Plan ₿ Academy ina hifadhidata ya makampuni na mashirika yanayofanya kazi katika Bitcoin au miradi inayohusiana. Kwa kuongeza `id_ya_mradi` husika, unaunganisha maudhui yako na huluki husika.
 
 
 ***Sasisha:*** Katika toleo jipya la hati, hauhitaji tena kuweka wewe mwenyewe `kitambulisho_cha_mradi`. Kitendo cha kutafuta kimeongezwa ili kupata mradi kwa jina na kupata kiotomatiki `project_id` inayolingana. Andika mwanzo wa jina la mradi katika sehemu ya "Jina la Mradi" ili utafute, kisha uchague kampuni unayotaka kutoka kwenye menyu kunjuzi. `Project_id` itawekwa kiotomatiki katika sehemu iliyo hapa chini. Unaweza pia kuiingiza mwenyewe ikiwa inahitajika.
@@ -238,7 +238,7 @@ Chagua jina la saraka iliyoundwa mahsusi kwa mafunzo yako. Jina la folda hii lin
 ![DATA-CREATOR-PY](assets/fr/46.webp)
 
 
-Kwa lebo, chagua maneno muhimu 2 au 3 yanayohusiana na maudhui yako ya mafunzo, ukichagua pekee kutoka [orodha ya lebo ya Plan ₿ Academy](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). Programu pia hutoa kazi ya utafutaji ya neno muhimu na orodha ya kushuka.
+Kwa lebo, chagua maneno muhimu 2 au 3 yanayohusiana na maudhui yako ya mafunzo, ukichagua pekee kutoka [orodha ya lebo ya Plan ₿ Academy](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). Programu pia hutoa kazi ya utafutaji ya neno muhimu na orodha ya kushuka.
 
 
 ![DATA-CREATOR-PY](assets/fr/47.webp)
@@ -253,7 +253,7 @@ Baada ya maelezo yote kuingizwa na kuthibitishwa, bofya "Unda Mafunzo" ili kuthi
 Sasa unaweza kuruka kifungu kidogo "Bila hati yangu ya Python" na pia hatua ya 3, "Jaza faili ya YAML," kwa kuwa hati tayari imekamilisha vitendo hivi kwa ajili yako. Endelea moja kwa moja hadi hatua ya 4 na uanze kuandika mafunzo yako.
 
 
-Kwa maelezo zaidi kuhusu hati hii ya Python, unaweza pia kuangalia [README](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
+Kwa maelezo zaidi kuhusu hati hii ya Python, unaweza pia kuangalia [README](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
 
 
 ### Bila hati yangu ya Python
@@ -344,11 +344,11 @@ Hapa kuna sehemu zinazohitajika:
 
 
 
-- **project_id**: UUID ya kampuni au shirika nyuma ya zana iliyowasilishwa kwenye mafunzo [kutoka kwenye orodha ya mradi](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/resources/projects). Kwa mfano, ikiwa unaunda mafunzo kuhusu programu ya Green Wallet, unaweza kupata `project_id` hii katika faili ifuatayo: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Maelezo haya yanaongezwa kwenye faili ya mafunzo yako ya YAML kwa sababu Plan ₿ Academy ina hifadhidata ya makampuni na mashirika yote yanayofanya kazi kwenye Bitcoin au miradi inayohusiana. Kwa kuongeza `project_id` ya huluki iliyounganishwa kwenye mafunzo yako, unaunda kiungo kati ya Elements mbili;
+- **project_id**: UUID ya kampuni au shirika nyuma ya zana iliyowasilishwa kwenye mafunzo [kutoka kwenye orodha ya mradi](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Kwa mfano, ikiwa unaunda mafunzo kuhusu programu ya Green Wallet, unaweza kupata `project_id` hii katika faili ifuatayo: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Maelezo haya yanaongezwa kwenye faili ya mafunzo yako ya YAML kwa sababu Plan ₿ Academy ina hifadhidata ya makampuni na mashirika yote yanayofanya kazi kwenye Bitcoin au miradi inayohusiana. Kwa kuongeza `project_id` ya huluki iliyounganishwa kwenye mafunzo yako, unaunda kiungo kati ya Elements mbili;
 
 
 
-- **tags**: Maneno muhimu 2 au 3 yanayohusiana na maudhui ya mafunzo, yaliyochaguliwa pekee [kutoka kwenye orodha ya lebo ya Plan ₿ Academy](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags**: Maneno muhimu 2 au 3 yanayohusiana na maudhui ya mafunzo, yaliyochaguliwa pekee [kutoka kwenye orodha ya lebo ya Plan ₿ Academy](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 
 
@@ -364,7 +364,7 @@ Hapa kuna sehemu zinazohitajika:
 
 
 
-- **profesa_id**: `Profesa_id` wako (UUID) kama inavyoonyeshwa kwenye [wasifu wako wa profesa](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/professors);
+- **profesa_id**: `Profesa_id` wako (UUID) kama inavyoonyeshwa kwenye [wasifu wako wa profesa](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors);
 
 
 

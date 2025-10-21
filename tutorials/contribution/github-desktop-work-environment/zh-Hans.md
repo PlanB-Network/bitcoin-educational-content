@@ -37,7 +37,7 @@ PlanB 的使命是以尽可能多的语言提供关于比特币的顶级教育�
 
 ## 第3步：Fork PlanB Network仓库
 
-- 访问以下地址的PlanB Network数据仓库：[https://github.com/Plan ₿ Academy/bitcoin-educational-content](https://github.com/Plan ₿ Academy/bitcoin-educational-content)：![github-desktop](assets/10.webp)
+- 访问以下地址的PlanB Network数据仓库：[https://github.com/PlanB-Network/bitcoin-educational-content](https://github.com/PlanB-Network/bitcoin-educational-content)：![github-desktop](assets/10.webp)
 - 在此页面，点击窗口右上角的`Fork`按钮：![github-desktop](assets/11.webp)
 - 在创建菜单中，你可以保留默认设置。确保勾选了`Copy the dev branch only`框，然后点击`Create fork`按钮：![github-desktop](assets/12.webp)
 - 然后你将进入你自己的PlanB Network仓库的fork版本：![github-desktop](assets/13.webp)

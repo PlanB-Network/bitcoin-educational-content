@@ -9,7 +9,7 @@ description: Những yếu tố quan trọng cần lưu ý khi hiệu đính tr�
 Chào mừng bạn đến với hướng dẫn này về **các hướng dẫn cần tuân theo khi hiệu đính nội dung trên Plan ₿ Academy**. Chúng tôi rất vui khi bạn chia sẻ sứ mệnh của chúng tôi là dịch tài liệu Bitcoin sang càng nhiều ngôn ngữ càng tốt, để giúp mọi người nâng cao nhận thức về cách thức hoạt động và cách sử dụng trong cuộc sống hàng ngày của họ.
 
 
-Trước hết, đóng góp cho Plan ₿ Academy [kho lưu trữ công khai](https://github.com/Plan ₿ Academy/Bitcoin-educational-content) cho bạn cơ hội viết hướng dẫn, hiệu đính nội dung hiện có hoặc thậm chí đề xuất thêm ngôn ngữ mới vào nền tảng. Để biết thêm thông tin, hãy tham gia [Nhóm Telegram](https://t.me/PlanBNetwork_ContentBuilder) của chúng tôi trước và viết một bài thuyết trình ngắn về bạn và các ngôn ngữ bạn có thể nói.
+Trước hết, đóng góp cho Plan ₿ Academy [kho lưu trữ công khai](https://github.com/PlanB-Network/Bitcoin-educational-content) cho bạn cơ hội viết hướng dẫn, hiệu đính nội dung hiện có hoặc thậm chí đề xuất thêm ngôn ngữ mới vào nền tảng. Để biết thêm thông tin, hãy tham gia [Nhóm Telegram](https://t.me/PlanBNetwork_ContentBuilder) của chúng tôi trước và viết một bài thuyết trình ngắn về bạn và các ngôn ngữ bạn có thể nói.
 
 
 Hướng dẫn này dành riêng cho những người đóng góp muốn hiệu đính nội dung. Hầu hết họ không biết nhiều về [Github](https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) hoặc [ngôn ngữ Markdown](https://www.markdownguide.org/basic-syntax/) mà chúng tôi sử dụng bên trong kho lưu trữ, vì vậy, điều quan trọng là phải chia sẻ một số hiểu biết sâu sắc về các yếu tố chính liên quan đến nhiệm vụ này.
@@ -289,7 +289,7 @@ Khi bạn gửi PR, sẽ thật tuyệt nếu bạn đặt tên theo định d�
 
 Ngoài ra, trong **phần bình luận của PR**, bạn có thể viết "closes" + số của vấn đề mà người điều phối đã gửi cho bạn khi bạn bắt đầu nhiệm vụ hiệu đính, bắt đầu bằng ``#``.
 
-Ví dụ, nếu bạn vừa gửi PR kèm theo bản hiệu đính của cyp201 + bài kiểm tra, bạn có thể viết "đóng [#2934](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/issues/2934)".
+Ví dụ, nếu bạn vừa gửi PR kèm theo bản hiệu đính của cyp201 + bài kiểm tra, bạn có thể viết "đóng [#2934](https://github.com/PlanB-Network/Bitcoin-educational-content/issues/2934)".
 
 
 Theo cách này, PR và vấn đề sẽ được kết nối và bất kỳ ai đọc kho lưu trữ Github công khai đều có thể dễ dàng tìm thấy thông tin.

@@ -38,13 +38,13 @@ Denna handledning innehåller detaljerade steg för att konfigurera plattformen,
 Klona arkivet till din lokala maskin:
 
 
-git clone [https://github.com/Plan ₿ Academy/Bitcoin-learning-management-system](https://github.com/Plan ₿ Academy/Bitcoin-learning-management-system￼cd)
+git clone [https://github.com/PlanB-Network/Bitcoin-learning-management-system](https://github.com/PlanB-Network/Bitcoin-learning-management-system￼cd)
 
-[cd](https://github.com/Plan ₿ Academy/Bitcoin-learning-management-system￼cd) Bitcoin-system för hantering av inlärning
+[cd](https://github.com/PlanB-Network/Bitcoin-learning-management-system￼cd) Bitcoin-system för hantering av inlärning
 
 
 ```bash
-git clone https://github.com/Plan ₿ Academy/bitcoin-learning-management-system
+git clone https://github.com/PlanB-Network/bitcoin-learning-management-system
 cd bitcoin-learning-management-system
 ```
 

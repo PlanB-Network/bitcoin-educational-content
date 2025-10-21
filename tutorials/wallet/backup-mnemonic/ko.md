@@ -74,7 +74,7 @@ Mnemonic 문구 백업의 물리적 도난을 방지하려면 안전한 장소�
 완전한 금속 백업 장치에 투자하고 싶다면 시중에서 판매되는 대부분의 솔루션을 평가하는 [Jameson Lopp의 저항 테스트](https://jlopp.github.io/metal-Bitcoin-storage-reviews/)를 살펴보는 것이 좋습니다. 조각, 스탬핑 또는 펀칭을 위한 금속판과 같은 일체형 브래킷을 선택하는 것이 좋습니다. 이러한 장치는 일반적으로 독립적인 글자를 사용하여 조립하는 시스템보다 훨씬 더 큰 저항력을 제공합니다.
 
 
-종이 Wallet를 선택하는 경우 간단한 빈 종이, Hardware Wallet와 함께 제공되는 판지 Wallet 또는 [여기를 클릭하여](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/resources/bet/Wallet-backup-sheet/assets/Mnemonic-sheet.pdf) 인쇄할 수 있는 다운로드 가능한 템플릿 등 여러 가지 옵션이 있습니다.
+종이 Wallet를 선택하는 경우 간단한 빈 종이, Hardware Wallet와 함께 제공되는 판지 Wallet 또는 [여기를 클릭하여](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/Wallet-backup-sheet/assets/Mnemonic-sheet.pdf) 인쇄할 수 있는 다운로드 가능한 템플릿 등 여러 가지 옵션이 있습니다.
 
 
 ![SEED](assets/fr/02.webp)

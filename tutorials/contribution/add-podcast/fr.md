@@ -13,7 +13,7 @@ Vous souhaitez ajouter un podcast Bitcoin sur le site de Plan ₿ Academy et don
 https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
-- Rendez-vous sur [le dépôt GitHub de PlanB dédié à la data](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/resources/podcasts) dans la section `resources/podcasts/` :
+- Rendez-vous sur [le dépôt GitHub de PlanB dédié à la data](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/podcasts) dans la section `resources/podcasts/` :
 ![podcast](assets/02.webp)
 - Cliquez en haut à droite sur le bouton `Add file`, puis sur `Create new file` :
 ![podcast](assets/03.webp)

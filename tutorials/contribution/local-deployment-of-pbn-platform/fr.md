@@ -27,12 +27,12 @@ Ce tutoriel fournit des étapes détaillées pour configurer la plateforme, gér
 
 Clonez le référentiel sur votre machine locale :
 
-git clone [https://github.com/Plan ₿ Academy/Bitcoin-learning-management-system](https://github.com/Plan ₿ Academy/Bitcoin-learning-management-system￼cd)
+git clone [https://github.com/PlanB-Network/Bitcoin-learning-management-system](https://github.com/PlanB-Network/Bitcoin-learning-management-system￼cd)
 
-[cd](https://github.com/Plan ₿ Academy/Bitcoin-learning-management-system￼cd) Bitcoin-learning-management-system
+[cd](https://github.com/PlanB-Network/Bitcoin-learning-management-system￼cd) Bitcoin-learning-management-system
 
 ```bash
-git clone https://github.com/Plan ₿ Academy/bitcoin-learning-management-system
+git clone https://github.com/PlanB-Network/bitcoin-learning-management-system
 cd bitcoin-learning-management-system
 ```
 

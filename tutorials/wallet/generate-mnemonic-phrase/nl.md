@@ -45,7 +45,7 @@ Om je herstelzin met de hand te maken, heb je het volgende nodig:
 - Een vel papier;
 - Een pen of potlood, liefst in verschillende kleuren om het organiseren te vergemakkelijken;
 - Meerdere dobbelstenen, om het risico op vertekening door een ongebalanceerde dobbelsteen te minimaliseren;
-- [De lijst met 2048 BIP39-woorden](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf) wordt afgedrukt.
+- [De lijst met 2048 BIP39-woorden](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf) wordt afgedrukt.
 
 
 Vervolgens wordt het gebruik van een computer met een terminal noodzakelijk voor het berekenen van de controlesom. Het is precies om deze reden dat ik het handmatig genereren van de Mnemonic frase afraad. Naar mijn mening verhoogt de tussenkomst van een computer, zelfs met de voorzorgsmaatregelen die in deze tutorial genoemd worden, de kwetsbaarheid van een Wallet aanzienlijk.
@@ -102,7 +102,7 @@ Elk van deze pakketjes vertegenwoordigt een binair getal dat vervolgens wordt om
 ![mnemonic](assets/notext/5.webp)
 
 
-Tenslotte vertelt het getal in decimaal ons de positie van het corresponderende woord in [de lijst van 2048 BIP39 woorden] (https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf). We hoeven alleen nog maar deze woorden te selecteren om de herstelzin voor onze Wallet samen te stellen.
+Tenslotte vertelt het getal in decimaal ons de positie van het corresponderende woord in [de lijst van 2048 BIP39 woorden] (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf). We hoeven alleen nog maar deze woorden te selecteren om de herstelzin voor onze Wallet samen te stellen.
 
 
 ![mnemonic](assets/notext/6.webp)
@@ -332,7 +332,7 @@ Met de verkregen decimale getallen kunnen we nu de overeenkomstige woorden in de
 Na deze aanpassing heb je de rang van elk woord in de lijst. Nu hoef je alleen nog maar elk woord te identificeren aan de hand van het nummer. Uiteraard mag je, net als bij alle andere stappen, je computer niet gebruiken om deze conversie uit te voeren. Zorg er daarom voor dat je de lijst van tevoren hebt afgedrukt.
 
 
-[**-> De BIP39-lijst afdrukken in A4-formaat.**](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)
+[**-> De BIP39-lijst afdrukken in A4-formaat.**](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)
 
 
 Als het getal dat is afgeleid van de eerste regel bijvoorbeeld 1721 is, is het bijbehorende woord het 1721e op de lijst:

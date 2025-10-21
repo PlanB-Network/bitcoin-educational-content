@@ -50,7 +50,7 @@ Image credit: [*SAFU Ninja Review*, Jameson Lopp](https://jlopp.github.io/metal-
 
 If you prefer to invest in a complete metal backup device, I recommend you take a look at [Jameson Lopp's resistance tests](https://jlopp.github.io/metal-bitcoin-storage-reviews/), which evaluate most of the solutions available on the market. I'd advise you to opt for one-piece brackets, such as a metal plate for engraving, stamping or punching. These devices generally offer much greater resistance than systems using independent letters to be assembled.
 
-If you opt for a paper wallet, you have several options: a simple blank sheet of paper, the cardboard wallet often supplied with your hardware wallet, or our downloadable template which you can print out [by clicking here](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/resources/bet/wallet-backup-sheet/assets/mnemonic-sheet.pdf).
+If you opt for a paper wallet, you have several options: a simple blank sheet of paper, the cardboard wallet often supplied with your hardware wallet, or our downloadable template which you can print out [by clicking here](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/wallet-backup-sheet/assets/mnemonic-sheet.pdf).
 
 ![SEED](assets/fr/02.webp)
 

@@ -1775,7 +1775,7 @@ In definitiva, spetta a voi decidere fino a che punto "aperto e inclusivo" debba
 Con il passare dei blocchi, la vostra comunità si evolverà. Nuovi volti si uniranno, altri si allontaneranno, ma il principio guida dovrebbe rimanere lo stesso: sviluppare l'ecosistema Bitcoin e rafforzare i legami tra i membri.
 
 
-Sono molti i progetti e le iniziative che si possono realizzare. Questo capitolo offre un elenco non esaustivo di idee che possono essere realizzate all'interno di una comunità o durante un meetup. Sentitevi liberi di scegliere quelle che vi ispirano e anche di contribuire con le vostre idee a questo corso [facendo una "Pull Request" su GitHub](https://github.com/Plan ₿ Academy/Bitcoin-educational-content).
+Sono molti i progetti e le iniziative che si possono realizzare. Questo capitolo offre un elenco non esaustivo di idee che possono essere realizzate all'interno di una comunità o durante un meetup. Sentitevi liberi di scegliere quelle che vi ispirano e anche di contribuire con le vostre idee a questo corso [facendo una "Pull Request" su GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content).
 
 
 Prima di immergerci, rivediamo un punto citato in precedenza.

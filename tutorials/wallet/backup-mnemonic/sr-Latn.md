@@ -74,7 +74,7 @@ Image credit: [*SAFU Ninja Review*, Jameson Lopp](https://jlopp.github.io/metal-
 Ako više volite da investirate u kompletan metalni uređaj za bekap, preporučujem da pogledate [testove otpornosti Jamesona Loppa](https://jlopp.github.io/metal-Bitcoin-storage-reviews/), koji ocenjuju većinu rešenja dostupnih na tržištu. Savetovao bih vas da se odlučite za nosače iz jednog komada, kao što je metalna ploča za graviranje, štancovanje ili bušenje. Ovi uređaji generalno nude mnogo veću otpornost od sistema koji koriste nezavisna slova koja se sastavljaju.
 
 
-Ako se odlučite za papirni Wallet, imate nekoliko opcija: jednostavan prazan list papira, kartonski Wallet koji se često isporučuje uz vaš Hardware Wallet, ili naš predložak za preuzimanje koji možete odštampati [klikom ovde](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/resources/bet/Wallet-backup-sheet/assets/Mnemonic-sheet.pdf).
+Ako se odlučite za papirni Wallet, imate nekoliko opcija: jednostavan prazan list papira, kartonski Wallet koji se često isporučuje uz vaš Hardware Wallet, ili naš predložak za preuzimanje koji možete odštampati [klikom ovde](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/Wallet-backup-sheet/assets/Mnemonic-sheet.pdf).
 
 
 ![SEED](assets/fr/02.webp)

@@ -1775,7 +1775,7 @@ Uiteindelijk is het aan jou om te beslissen hoe ver "open en inclusief" moet gaa
 Naarmate de blokken vorderen, zal jullie gemeenschap evolueren. Nieuwe gezichten zullen erbij komen, anderen zullen wegdrijven, maar het leidende principe moet hetzelfde blijven: ontwikkel het Bitcoin ecosysteem en versterk de banden tussen de leden.
 
 
-Er zijn veel projecten en initiatieven die kunnen worden uitgevoerd. Dit hoofdstuk biedt een niet-uitputtende lijst van ideeën die kunnen worden uitgevoerd binnen een community of tijdens een meetup. Voel je vrij om diegene te kiezen die je inspireren en zelfs om je eigen ideeën bij te dragen aan deze cursus [door een "Pull Request" aan te maken op GitHub](https://github.com/Plan ₿ Academy/Bitcoin-educational-content).
+Er zijn veel projecten en initiatieven die kunnen worden uitgevoerd. Dit hoofdstuk biedt een niet-uitputtende lijst van ideeën die kunnen worden uitgevoerd binnen een community of tijdens een meetup. Voel je vrij om diegene te kiezen die je inspireren en zelfs om je eigen ideeën bij te dragen aan deze cursus [door een "Pull Request" aan te maken op GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content).
 
 
 Laten we, voordat we er dieper op ingaan, nog eens terugkomen op een eerder genoemd punt.

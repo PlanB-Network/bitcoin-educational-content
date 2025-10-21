@@ -1775,7 +1775,7 @@ Em última análise, cabe-lhe a si decidir até onde deve ir o "aberto e inclusi
 À medida que os blocos avançam, a vossa comunidade irá evoluir. Novas caras juntar-se-ão, outras afastar-se-ão, mas o princípio orientador deve permanecer o mesmo: desenvolver o ecossistema Bitcoin e reforçar os laços entre os membros.
 
 
-Há muitos projectos e iniciativas que podem ser implementados. Este capítulo oferece uma lista não exaustiva de ideias que podem ser levadas a cabo numa comunidade ou durante um encontro. Sinta-se à vontade para escolher as que o inspiram e até contribuir com as suas próprias ideias para este curso [fazendo um "Pull Request" no GitHub] (https://github.com/Plan ₿ Academy/Bitcoin-educational-content).
+Há muitos projectos e iniciativas que podem ser implementados. Este capítulo oferece uma lista não exaustiva de ideias que podem ser levadas a cabo numa comunidade ou durante um encontro. Sinta-se à vontade para escolher as que o inspiram e até contribuir com as suas próprias ideias para este curso [fazendo um "Pull Request" no GitHub] (https://github.com/PlanB-Network/Bitcoin-educational-content).
 
 
 Antes de nos debruçarmos sobre o assunto, voltemos a um ponto mencionado anteriormente.

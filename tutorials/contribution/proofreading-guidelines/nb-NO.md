@@ -9,7 +9,7 @@ description: Hvilke faktorer er det viktig å huske på når man korrekturleser 
 Velkommen til denne veiledningen om **retningslinjer for korrekturlesing av innhold på Plan ₿ Academy**. Vi er glade for at du deler vårt mål om å oversette Bitcoin-materiell til så mange språk som mulig, for å hjelpe folk med å få kunnskap om hvordan det fungerer og hvordan det kan brukes i hverdagen.
 
 
-Først og fremst kan du bidra til Plan ₿ Academy [public repository](https://github.com/Plan ₿ Academy/Bitcoin-educational-content) ved å skrive veiledninger, korrekturlese eksisterende innhold eller til og med foreslå å legge til et nytt språk på plattformen. Hvis du vil vite mer, kan du først bli med i [Telegram Group](https://t.me/PlanBNetwork_ContentBuilder) og skrive en kort presentasjon om deg og språkene du kan snakke.
+Først og fremst kan du bidra til Plan ₿ Academy [public repository](https://github.com/PlanB-Network/Bitcoin-educational-content) ved å skrive veiledninger, korrekturlese eksisterende innhold eller til og med foreslå å legge til et nytt språk på plattformen. Hvis du vil vite mer, kan du først bli med i [Telegram Group](https://t.me/PlanBNetwork_ContentBuilder) og skrive en kort presentasjon om deg og språkene du kan snakke.
 
 
 Denne veiledningen er dedikert til bidragsytere som ønsker å korrekturlese innhold. De fleste av dem vet ikke så mye om [Github] (https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) eller [Markdown-språket] (https://www.markdownguide.org/basic-syntax/) vi bruker i depotet, så det er viktig å dele litt innsikt i de viktigste faktorene som er involvert i denne oppgaven.
@@ -289,7 +289,7 @@ Når du sender PR-en din, er det fint om du navngir den i dette formatet: [KORRE
 
 I **kommentardelen av PR-en** kan du dessuten skrive "lukkes" + nummeret på saken som koordinatoren sendte deg da du startet korrekturlesingen, etterfulgt av ``#``.
 
-Hvis du for eksempel nettopp har sendt en PR med korrekturlesing av cyp201 + spørrekonkurranser, kan du skrive "stenger [#2934] (https://github.com/Plan ₿ Academy/Bitcoin-educational-content/issues/2934)".
+Hvis du for eksempel nettopp har sendt en PR med korrekturlesing av cyp201 + spørrekonkurranser, kan du skrive "stenger [#2934] (https://github.com/PlanB-Network/Bitcoin-educational-content/issues/2934)".
 
 
 På denne måten blir PR-en og saken koblet sammen, og den som leser det offentlige Github-arkivet, kan enkelt finne informasjon.

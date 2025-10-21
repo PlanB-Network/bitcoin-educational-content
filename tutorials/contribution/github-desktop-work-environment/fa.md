@@ -77,7 +77,7 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 
 
 
-- به مخزن داده‌های شبکه PlanB در Address زیر بروید: [https://github.com/Plan ₿ Academy/Bitcoin-educational-content](https://github.com/Plan ₿ Academy/Bitcoin-educational-content): ![github-desktop](assets/10.webp)
+- به مخزن داده‌های شبکه PlanB در Address زیر بروید: [https://github.com/PlanB-Network/Bitcoin-educational-content](https://github.com/PlanB-Network/Bitcoin-educational-content): ![github-desktop](assets/10.webp)
 - از این صفحه، روی دکمه `Fork` در بالای سمت راست پنجره کلیک کنید: ![github-desktop](assets/11.webp)
 - در منوی ایجاد، می‌توانید تنظیمات پیش‌فرض را حفظ کنید. اطمینان حاصل کنید که گزینه `فقط شاخه dev را کپی کن` تیک خورده باشد، سپس روی دکمه `Create Fork` کلیک کنید: ![github-desktop](assets/12.webp)
 - سپس به Fork خود در مخزن شبکه PlanB خواهید رسید: ![github-desktop](assets/13.webp)

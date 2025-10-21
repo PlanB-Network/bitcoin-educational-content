@@ -41,7 +41,7 @@ Eeltingimused enne õpetuse alustamist:
 
 
 - Kas teil on [GitHubi konto](https://github.com/signup);
-- On olemas [Plan ₿ Academy source repository](https://github.com/Plan ₿ Academy/bitcoin-educational-content);
+- On olemas [Plan ₿ Academy source repository](https://github.com/PlanB-Network/bitcoin-educational-content);
 - Omama [professori profiili Plan ₿ Academy](https://planb.academy/professors) (ainult juhul, kui te esitate täieliku õpetuse).
 
 Kui vajate abi nende eelduste hankimisel, siis minu teised õpetused aitavad teid:
@@ -161,13 +161,13 @@ Valige spetsiaalselt teie õpetuse jaoks loodud kataloogile nimi. Selle kausta n
 
 ![DATA-CREATOR-PY](assets/fr/45.webp)
 
-`project_id` on õpetuses käsitletava tööriista taga oleva ettevõtte või organisatsiooni UUID, mis on saadaval [projektide nimekirjas](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/resources/projects). Näiteks Sparrow Wallet'i õpetuse puhul leiate selle `project_id` failist: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. See teave lisatakse teie õpetuse YAML-faili, sest Plan ₿ Academy haldab andmebaasi Bitcoini või sellega seotud projektidega tegelevate ettevõtete ja organisatsioonide kohta. Lisades seotud `project_id`, seote oma sisu vastava üksusega.
+`project_id` on õpetuses käsitletava tööriista taga oleva ettevõtte või organisatsiooni UUID, mis on saadaval [projektide nimekirjas](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Näiteks Sparrow Wallet'i õpetuse puhul leiate selle `project_id` failist: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. See teave lisatakse teie õpetuse YAML-faili, sest Plan ₿ Academy haldab andmebaasi Bitcoini või sellega seotud projektidega tegelevate ettevõtete ja organisatsioonide kohta. Lisades seotud `project_id`, seote oma sisu vastava üksusega.
 
 ***Update:*** Skripti uues versioonis ei ole enam vaja käsitsi sisestada `project_id`. Lisatud on otsingufunktsioon, mis otsib projekti nime järgi ja hangib automaatselt vastava `project_id`. Projekti otsimiseks sisestage projekti nime algus väljale `Projekti nimi` ja valige seejärel rippmenüüst soovitud ettevõte. Projekti_id` täidetakse automaatselt allolevasse väljale. Vajaduse korral võite selle ka käsitsi sisestada.
 
 ![DATA-CREATOR-PY](assets/fr/46.webp)
 
-Valige märksõnadeks 2 või 3 asjakohast märksõna, mis on seotud teie õpetuse sisuga, valides need eranditult [kava ₿ võrgu märksõnade loendist](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). Tarkvara pakub ka märksõnade otsingufunktsiooni ripploendist.
+Valige märksõnadeks 2 või 3 asjakohast märksõna, mis on seotud teie õpetuse sisuga, valides need eranditult [kava ₿ võrgu märksõnade loendist](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). Tarkvara pakub ka märksõnade otsingufunktsiooni ripploendist.
 
 ![DATA-CREATOR-PY](assets/fr/47.webp)
 
@@ -177,7 +177,7 @@ Kui kogu teave on sisestatud ja kontrollitud, klõpsake "Create Tutorial", et ki
 
 Nüüd võite vahele jätta alajaotuse "Ilma minu Python-skriptita" ning 3. sammu "YAML-faili täitmine", sest skript on need toimingud teie eest juba lõpetanud. Jätkake otse sammu 4 juurde ja alustage oma õpetuse kirjutamist.
 
-Lisateavet selle Pythoni skripti kohta leiate ka [README](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
+Lisateavet selle Pythoni skripti kohta leiate ka [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
 
 ### Ilma minu Python skriptita
 
@@ -251,9 +251,9 @@ Siin on kohustuslikud väljad:
 
 - **id**: UUID (_Universally Unique Identifier_), mis võimaldab õpetust ainulaadselt tuvastada. Selle saab luua [veebitööriista](https://www.uuidgenerator.net/version4) abil. Ainus nõue on, et see UUID oleks juhuslik, et vältida konflikte teiste platvormil olevate UUID-dega;
 
-- **project_id**: Ettevõtte või organisatsiooni UUID, mis on seotud õpetuses esitatud tööriistaga [projektide loendist](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/resources/projects). Näiteks kui loote õpetust Green Walleti tarkvara kohta, leiate `project_id` järgmisest failist: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. See teave lisatakse teie õpetuse YAML-faili, kuna Plan ₿ Academy haldab kõigi Bitcoiniga seotud ettevõtete ja organisatsioonide andmebaasi. Lisades oma õpetusega seotud üksuse `project_id`, loote seose kahe elemendi vahel;
+- **project_id**: Ettevõtte või organisatsiooni UUID, mis on seotud õpetuses esitatud tööriistaga [projektide loendist](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Näiteks kui loote õpetust Green Walleti tarkvara kohta, leiate `project_id` järgmisest failist: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. See teave lisatakse teie õpetuse YAML-faili, kuna Plan ₿ Academy haldab kõigi Bitcoiniga seotud ettevõtete ja organisatsioonide andmebaasi. Lisades oma õpetusega seotud üksuse `project_id`, loote seose kahe elemendi vahel;
 
-- **tags**: 2 või 3 õpetuse sisuga seotud märksõna, mis valitakse ainult [Plan ₿ Networki siltide loendist](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags**: 2 või 3 õpetuse sisuga seotud märksõna, mis valitakse ainult [Plan ₿ Networki siltide loendist](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 - **category**: Õpetuse sisule vastav alamosa Plan ₿ Networki saidi struktuuri järgi (näiteks rahakottide jaoks: `desktop`, `hardware`, `mobile`, `backup`);
 
@@ -263,7 +263,7 @@ Siin on kohustuslikud väljad:
     - `advanced`
     - `expert`
 
-- **professor_id**: Teie `professor_id` (UUID), nagu on näidatud [teie professori profiilil](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/professors);
+- **professor_id**: Teie `professor_id` (UUID), nagu on näidatud [teie professori profiilil](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
 
 - **original_language**: Õpetuse algne keel (näiteks `fr`, `en`, jne);
 

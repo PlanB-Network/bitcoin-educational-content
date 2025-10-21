@@ -50,7 +50,7 @@ Pildi krediit: [*SAFU Ninja Review*, Jameson Lopp](https://jlopp.github.io/metal
 
 Kui eelistate investeerida täielikule metallist varundusseadmele, siis soovitan vaadata [Jameson Loppi vastupidavustestid](https://jlopp.github.io/metal-bitcoin-storage-reviews/), kus hinnatakse enamikku turul saadaolevatest lahendustest. Soovitan valida üheosalise varunduskonksu, näiteks metallplaadi graveerimiseks, stantsimiseks või stantsimiseks. Need seadmed pakuvad üldjuhul palju suuremat vastupidavust kui süsteemid, mis kasutavad iseseisvalt kokkupandavaid tähti.
 
-Kui valite paberist rahakoti, on teil mitu võimalust: lihtne tühi paberileht, sageli riistvara rahakotiga kaasas olev papist rahakott või meie allalaaditav mall, mille saate välja printida [klõpsates siin](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/resources/bet/wallet-backup-sheet/assets/mnemonic-sheet.pdf).
+Kui valite paberist rahakoti, on teil mitu võimalust: lihtne tühi paberileht, sageli riistvara rahakotiga kaasas olev papist rahakott või meie allalaaditav mall, mille saate välja printida [klõpsates siin](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/wallet-backup-sheet/assets/mnemonic-sheet.pdf).
 
 ![SEED](assets/fr/02.webp)
 

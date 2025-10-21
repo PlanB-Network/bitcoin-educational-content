@@ -1343,7 +1343,7 @@ For example, for a 256-bit entropy, the result $\text{ENT} \Vert \text{CS}$ is 2
 
 ### Conversion of the Binary Sequence into a Mnemonic Phrase
 
-The bit sequence $\text{ENT} \Vert \text{CS}$ is then divided into segments of 11 bits. Each 11-bit segment, once converted to decimal, corresponds to a number between 0 and 2047, which designates the position of a word [in a list of 2048 words standardized by BIP39](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
+The bit sequence $\text{ENT} \Vert \text{CS}$ is then divided into segments of 11 bits. Each 11-bit segment, once converted to decimal, corresponds to a number between 0 and 2047, which designates the position of a word [in a list of 2048 words standardized by BIP39](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
 ![CYP201](assets/en/042.webp)
 

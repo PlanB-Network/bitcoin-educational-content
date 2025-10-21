@@ -1775,7 +1775,7 @@ Pada akhirnya, terserah Anda untuk memutuskan seberapa jauh "terbuka dan inklusi
 Seiring berjalannya waktu, komunitas Anda akan berkembang. Wajah-wajah baru akan bergabung, yang lain akan menjauh, tetapi prinsip panduannya harus tetap sama: mengembangkan ekosistem Bitcoin dan memperkuat ikatan di antara para anggota.
 
 
-Ada banyak proyek dan inisiatif yang dapat diimplementasikan. Bab ini menawarkan daftar ide yang tidak lengkap yang dapat dilakukan dalam komunitas atau selama pertemuan. Jangan ragu untuk memilih salah satu yang menginspirasi Anda dan bahkan menyumbangkan ide Anda sendiri ke kursus ini [dengan membuat "Pull Request" di GitHub](https://github.com/Plan ₿ Academy/Bitcoin-educational-content).
+Ada banyak proyek dan inisiatif yang dapat diimplementasikan. Bab ini menawarkan daftar ide yang tidak lengkap yang dapat dilakukan dalam komunitas atau selama pertemuan. Jangan ragu untuk memilih salah satu yang menginspirasi Anda dan bahkan menyumbangkan ide Anda sendiri ke kursus ini [dengan membuat "Pull Request" di GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content).
 
 
 Sebelum membahas lebih lanjut, mari kita tinjau kembali poin yang telah disebutkan sebelumnya.

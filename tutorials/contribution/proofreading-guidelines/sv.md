@@ -9,7 +9,7 @@ description: Vilka är de viktigaste faktorerna att tänka på när man korrektu
 Välkommen till denna handledning om **riktlinjer att följa vid korrekturläsning av innehåll på Plan ₿ Academy**. Vi är glada att du delar vårt uppdrag att översätta Bitcoin-material till så många språk som möjligt, för att hjälpa människor att bli medvetna om hur det fungerar och hur det kan användas i deras dagliga liv.
 
 
-Genom att bidra till Plan ₿ Academy [public repository](https://github.com/Plan ₿ Academy/Bitcoin-educational-content) får du först och främst chansen att skriva handledning, korrekturläsa befintligt innehåll eller till och med föreslå att ett nytt språk läggs till på plattformen. Om du vill veta mer kan du först gå med i vår [Telegram Group](https://t.me/PlanBNetwork_ContentBuilder) och skriva en kort presentation om dig och de språk du kan tala.
+Genom att bidra till Plan ₿ Academy [public repository](https://github.com/PlanB-Network/Bitcoin-educational-content) får du först och främst chansen att skriva handledning, korrekturläsa befintligt innehåll eller till och med föreslå att ett nytt språk läggs till på plattformen. Om du vill veta mer kan du först gå med i vår [Telegram Group](https://t.me/PlanBNetwork_ContentBuilder) och skriva en kort presentation om dig och de språk du kan tala.
 
 
 Den här handledningen är avsedd för bidragsgivare som vill korrekturläsa innehåll. De flesta av dem vet inte mycket om [Github] (https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) eller [Markdown-språket] (https://www.markdownguide.org/basic-syntax/) som vi använder i arkivet, så det är viktigt att dela med sig av några insikter om de nyckelfaktorer som är inblandade i denna uppgift.
@@ -289,7 +289,7 @@ När du skickar din PR skulle det vara fantastiskt om du namngav den i det här 
 
 Dessutom kan du i **kommentaravsnittet i PR** skriva "stängs" + numret på den utgåva som samordnaren skickade till dig när du påbörjade korrekturläsningsuppgiften, föregånget av ``#``.
 
-Om du till exempel just skickat en PR med korrekturläsning av cyp201 + frågesporter kan du skriva "stänger [#2934] (https://github.com/Plan ₿ Academy/Bitcoin-educational-content/issues/2934)".
+Om du till exempel just skickat en PR med korrekturläsning av cyp201 + frågesporter kan du skriva "stänger [#2934] (https://github.com/PlanB-Network/Bitcoin-educational-content/issues/2934)".
 
 
 På så sätt kopplas PR-meddelandet och frågan samman, och den som läser det offentliga Github-arkivet kan enkelt hitta information.

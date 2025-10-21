@@ -1775,7 +1775,7 @@ I slutändan är det upp till dig att bestämma hur långt "öppet och inkludera
 Allt eftersom blocken rullar vidare kommer din gemenskap att utvecklas. Nya ansikten kommer att ansluta sig, andra kommer att glida iväg men den vägledande principen bör förbli densamma: utveckla Bitcoin-ekosystemet och stärka banden mellan medlemmarna.
 
 
-Det finns många projekt och initiativ som kan genomföras. Det här kapitlet innehåller en icke uttömmande lista över idéer som kan genomföras inom ett community eller under en meetup. Välj gärna de som inspirerar dig och bidra även med dina egna idéer till den här kursen [genom att göra en "Pull Request" på GitHub] (https://github.com/Plan ₿ Academy/Bitcoin-educational-content).
+Det finns många projekt och initiativ som kan genomföras. Det här kapitlet innehåller en icke uttömmande lista över idéer som kan genomföras inom ett community eller under en meetup. Välj gärna de som inspirerar dig och bidra även med dina egna idéer till den här kursen [genom att göra en "Pull Request" på GitHub] (https://github.com/PlanB-Network/Bitcoin-educational-content).
 
 
 Innan vi går in på ämnet, låt oss återkomma till en punkt som nämndes tidigare.

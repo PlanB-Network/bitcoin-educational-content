@@ -9,7 +9,7 @@ description: Wat zijn de belangrijke factoren om in gedachten te houden bij het 
 Welkom bij deze handleiding over de **richtlijnen die gevolgd moeten worden bij het proeflezen van inhoud op Plan ₿ Academy**. We zijn blij dat u onze missie deelt om Bitcoin cursussen en lesmateriaal in zoveel mogelijk talen te vertalen, zodat mensen zich bewust worden van hoe het werkt en hoe het gebruikt kan worden in hun dagelijks leven.
 
 
-Ten eerste, bijdragen aan Plan ₿ Academy [openbare repository](https://github.com/Plan ₿ Academy/Bitcoin-educational-content) geeft je de kans om handleidingen te schrijven, de bestaande inhoud te proeflezen, of zelfs de toevoeging van een nieuwe taal aan het platform voor te stellen. Om meer te weten te komen, moet je eerst lid worden van onze [Telegram Groep](https://t.me/PlanBNetwork_ContentBuilder) en een korte presentatie schrijven over jezelf en de talen die je spreekt.
+Ten eerste, bijdragen aan Plan ₿ Academy [openbare repository](https://github.com/PlanB-Network/Bitcoin-educational-content) geeft je de kans om handleidingen te schrijven, de bestaande inhoud te proeflezen, of zelfs de toevoeging van een nieuwe taal aan het platform voor te stellen. Om meer te weten te komen, moet je eerst lid worden van onze [Telegram Groep](https://t.me/PlanBNetwork_ContentBuilder) en een korte presentatie schrijven over jezelf en de talen die je spreekt.
 
 
 Deze handleiding is bedoeld voor bijdragers die inhoud willen proeflezen. De meesten van hen weten niet veel over [Github](https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) of de [Markdown taal](https://www.markdownguide.org/basic-syntax/) die we gebruiken in de repository. Het is dus belangrijk om wat inzichten te delen over de belangrijkste aspecten die deze taak omvatten.
@@ -289,7 +289,7 @@ Als je je PR verstuurt, zou het geweldig zijn als je er deze naam aan geeft: [PR
 
 Daarnaast kun je in de **commentaar sectie van het PR**, "closes" schrijven + het nummer van het issue dat de coördinator je stuurde toen je de proefleestaak begon, voorafgegaan door ``#``.
 
-Als je bijvoorbeeld net een PR hebt gestuurd met het proeflezen van cyp201 + quizzen, dan kun je schrijven "closes [#2934](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/issues/2934)".
+Als je bijvoorbeeld net een PR hebt gestuurd met het proeflezen van cyp201 + quizzen, dan kun je schrijven "closes [#2934](https://github.com/PlanB-Network/Bitcoin-educational-content/issues/2934)".
 
 
 Op deze manier worden de PR en het issue met elkaar verbonden en kan iedereen die de openbare Github-repository leest gemakkelijk informatie vinden.

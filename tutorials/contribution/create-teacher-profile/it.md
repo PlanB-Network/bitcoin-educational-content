@@ -6,7 +6,7 @@ description: Come posso aggiungere o modificare il mio profilo di insegnante su 
 
 Se si intende contribuire a Plan ₿ Academy scrivendo un nuovo tutorial o un nuovo corso, è necessario avere un profilo docente. Questo profilo vi consentirà di ricevere i crediti appropriati per i contenuti che contribuite alla piattaforma.
 
-Chi ha già partecipato alla creazione di contenuti didattici su Plan ₿ Academy probabilmente ha già un profilo di insegnante. Lo si può trovare nella cartella `/professori` [sul nostro repository GitHub] (https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/professors). Se il vostro profilo esiste già, trovate il vostro login nel file `professor.yml`.
+Chi ha già partecipato alla creazione di contenuti didattici su Plan ₿ Academy probabilmente ha già un profilo di insegnante. Lo si può trovare nella cartella `/professori` [sul nostro repository GitHub] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors). Se il vostro profilo esiste già, trovate il vostro login nel file `professor.yml`.
 
 Per apportare modifiche al proprio profilo, andare alla sezione "Modifica del profilo del docente" alla fine di questa guida.
 
@@ -16,7 +16,7 @@ Il modo più semplice per creare il vostro profilo di insegnante su Plan ₿ Aca
 
 ### 1 - Configurare l'ambiente locale
 
-È necessario disporre del proprio Fork da [repository Plan ₿ Academy su GitHub](https://github.com/Plan ₿ Academy/Bitcoin-educational-content).
+È necessario disporre del proprio Fork da [repository Plan ₿ Academy su GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content).
 
 Sincronizzare il ramo principale (`dev`) del proprio Fork con il repository dei sorgenti.
 
@@ -27,7 +27,7 @@ Aggiornare il clone locale.
 git clone https://github.com/<username>/bitcoin-educational-content.git
 cd bitcoin-educational-content
 # Ajouter le dépôt source en tant que remote upstream
-git remote add upstream https://github.com/Plan ₿ Academy/bitcoin-educational-content.git
+git remote add upstream https://github.com/PlanB-Network/bitcoin-educational-content.git
 # Récupérer les dernières modifications depuis le dépôt source
 git fetch upstream
 # Se positionner sur la branche principale 'dev'
@@ -119,7 +119,7 @@ Se avete imparato a usare Git, modificate il vostro profilo docente creando un n
 Per i principianti, consiglio di effettuare la modifica direttamente tramite il web Interface di GitHub. Assicurarsi di avere un account GitHub. Se non si sa come crearne uno, seguire questo tutorial:
 
 https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
-Andare a [il repository Plan ₿ Academy GitHub dedicato ai dati](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/graphs/contributors).
+Andare a [il repository Plan ₿ Academy GitHub dedicato ai dati](https://github.com/PlanB-Network/Bitcoin-educational-content/graphs/contributors).
 
 ![Image](assets/fr/03.webp)
 

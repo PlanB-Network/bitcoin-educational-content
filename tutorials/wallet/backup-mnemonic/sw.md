@@ -74,7 +74,7 @@ Salio la picha: [*Uhakiki wa SAFU Ninja*, Jameson Lopp](https://jlopp.github.io/
 Iwapo ungependa kuwekeza kwenye kifaa kamili cha kuhifadhi nakala za chuma, ninapendekeza uangalie [majaribio ya upinzani ya Jameson Lopp](https://jlopp.github.io/metal-Bitcoin-storage-reviews/), ambayo hutathmini suluhu nyingi zinazopatikana kwenye soko. Ningekushauri uchague mabano ya kipande kimoja, kama vile bamba la chuma la kuchonga, kupiga muhuri au kupiga. Vifaa hivi kwa ujumla hutoa upinzani mkubwa zaidi kuliko mifumo inayotumia herufi huru kukusanywa.
 
 
-Ukichagua karatasi ya Wallet, una chaguo kadhaa: karatasi rahisi tupu, kadibodi ya Wallet inayotolewa mara nyingi na Hardware Wallet yako, au kiolezo chetu kinachoweza kupakuliwa ambacho unaweza kuchapisha [kwa kubofya. hapa](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/resources/bet/Wallet-backup-sheet/assets/Mnemonic-sheet.pdf).
+Ukichagua karatasi ya Wallet, una chaguo kadhaa: karatasi rahisi tupu, kadibodi ya Wallet inayotolewa mara nyingi na Hardware Wallet yako, au kiolezo chetu kinachoweza kupakuliwa ambacho unaweza kuchapisha [kwa kubofya. hapa](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/Wallet-backup-sheet/assets/Mnemonic-sheet.pdf).
 
 
 ![SEED](assets/fr/02.webp)

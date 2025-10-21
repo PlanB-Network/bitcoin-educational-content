@@ -25,4 +25,4 @@ W tym samouczku wideo dowiesz się:
 Pod koniec tego filmu będziesz w pełni przygotowany do korzystania z Krux jako bezpiecznej alternatywy dla samodzielnego przechowywania.
 
 
-**Uwaga:** Ten samouczek jest tylko wersją roboczą w języku angielskim, nadal potrzebujemy kogoś, kto napisze obszerny przewodnik na ten temat. Jeśli jesteś taką osobą, skontaktuj się z nami na naszym [Telegramie](https://t.me/PlanBNetwork_ContentBuilder/325) lub na [GitHubie](https://github.com/Plan ₿ Academy/Bitcoin-educational-content)
+**Uwaga:** Ten samouczek jest tylko wersją roboczą w języku angielskim, nadal potrzebujemy kogoś, kto napisze obszerny przewodnik na ten temat. Jeśli jesteś taką osobą, skontaktuj się z nami na naszym [Telegramie](https://t.me/PlanBNetwork_ContentBuilder/325) lub na [GitHubie](https://github.com/PlanB-Network/Bitcoin-educational-content)

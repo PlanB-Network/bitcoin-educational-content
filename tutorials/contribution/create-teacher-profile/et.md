@@ -6,7 +6,7 @@ description: Kuidas lisada või muuta oma õpetaja profiili Plan ₿ Academy-s?
 
 Kui kavatsete Plan ₿ Academy-sse panustada uue õpetuse või kursuse kirjutamisega, vajate õpetaja profiili. See profiil võimaldab teil saada asjakohaseid ainepunkte platvormile panustatava sisu eest.
 
-Need, kes on juba osalenud Plan ₿ Academy haridusliku sisu loomisel, on tõenäoliselt juba õpetaja profiili kasutanud. Selle leiate kaustast `/professors` [meie GitHubi repositooriumis](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/professors). Kui teie profiil on juba olemas, leidke oma kasutajanimi failist `professor.yml`.
+Need, kes on juba osalenud Plan ₿ Academy haridusliku sisu loomisel, on tõenäoliselt juba õpetaja profiili kasutanud. Selle leiate kaustast `/professors` [meie GitHubi repositooriumis](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors). Kui teie profiil on juba olemas, leidke oma kasutajanimi failist `professor.yml`.
 
 Oma profiili muutmiseks minge käesoleva õpetuse lõpus asuvasse jaotisse "Oma õpetaja profiili muutmine".
 
@@ -16,7 +16,7 @@ Kõige lihtsam viis oma õpetaja profiili loomiseks Plan ₿ Academy-s on kasuta
 
 ### 1 - Kohaliku keskkonna konfigureerimine
 
-Teil peab olema oma Fork [Plan ₿ Academy repositoorium GitHubis](https://github.com/Plan ₿ Academy/Bitcoin-educational-content).
+Teil peab olema oma Fork [Plan ₿ Academy repositoorium GitHubis](https://github.com/PlanB-Network/Bitcoin-educational-content).
 
 Sünkroniseeri oma Fork põhiharu (`dev`) allikarepositooriumiga.
 
@@ -27,7 +27,7 @@ Uuendage oma kohalikku klooni.
 git clone https://github.com/<username>/bitcoin-educational-content.git
 cd bitcoin-educational-content
 # Ajouter le dépôt source en tant que remote upstream
-git remote add upstream https://github.com/Plan ₿ Academy/bitcoin-educational-content.git
+git remote add upstream https://github.com/PlanB-Network/bitcoin-educational-content.git
 # Récupérer les dernières modifications depuis le dépôt source
 git fetch upstream
 # Se positionner sur la branche principale 'dev'
@@ -119,7 +119,7 @@ Kui olete Giti kasutamist omandanud, muutke oma õpetaja profiili, luues uue har
 Algajatele soovitan teha muudatused otse GitHubi Interface veebi kaudu. Veenduge, et teil on GitHubi konto. Kui te ei tea, kuidas seda luua, järgige seda õpetust:
 
 https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
-Mine [Plan ₿ Academy GitHubi andmehoidla, mis on pühendatud andmetele](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/graphs/contributors).
+Mine [Plan ₿ Academy GitHubi andmehoidla, mis on pühendatud andmetele](https://github.com/PlanB-Network/Bitcoin-educational-content/graphs/contributors).
 
 ![Image](assets/fr/03.webp)
 

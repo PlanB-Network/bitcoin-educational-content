@@ -19,7 +19,7 @@ https://planb.academy/tutorials/contribution/resource/add-event-1d3df554-c2d8-4e
 https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
-- Truy cập vào [kho lưu trữ GitHub của PlanB dành cho dữ liệu](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/resources/conference) trong phần `resources/conference/`:
+- Truy cập vào [kho lưu trữ GitHub của PlanB dành cho dữ liệu](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) trong phần `resources/conference/`:
 ![conference](assets/02.webp)
 - Nhấp vào nút `Add file` ở góc trên bên phải, sau đó chọn `Create new file`:
 ![conference](assets/03.webp)

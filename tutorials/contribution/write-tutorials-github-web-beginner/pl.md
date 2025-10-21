@@ -45,7 +45,7 @@ Wymagania wstępne przed rozpoczęciem samouczka:
 
 
 - Posiadać konto [GitHub] (https://github.com/signup);
-- Posiadanie Fork z [repozytorium źródłowego Plan ₿ Academy](https://github.com/Plan ₿ Academy/Bitcoin-educational-content);
+- Posiadanie Fork z [repozytorium źródłowego Plan ₿ Academy](https://github.com/PlanB-Network/Bitcoin-educational-content);
 - Posiadać [profil nauczyciela na Plan ₿ Academy](https://planb.academy/professors) (tylko jeśli oferujesz pełny samouczek).
 
 
@@ -197,11 +197,11 @@ Poniżej znajdują się wymagane pola:
 
 
 
-- **project_id**: UUID firmy lub organizacji stojącej za narzędziem prezentowanym w poradniku [z listy projektów](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/resources/projects). Na przykład, jeśli tworzysz samouczek dotyczący oprogramowania Green Wallet, możesz znaleźć ten `project_id` w następującym pliku: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Informacje te są dodawane do pliku YAML samouczka, ponieważ Plan ₿ Academy utrzymuje bazę danych wszystkich firm i organizacji działających na Bitcoin lub powiązanych projektach. Dodając `project_id` podmiotu powiązanego z twoim tutorialem, tworzysz link między dwoma Elements;
+- **project_id**: UUID firmy lub organizacji stojącej za narzędziem prezentowanym w poradniku [z listy projektów](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Na przykład, jeśli tworzysz samouczek dotyczący oprogramowania Green Wallet, możesz znaleźć ten `project_id` w następującym pliku: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Informacje te są dodawane do pliku YAML samouczka, ponieważ Plan ₿ Academy utrzymuje bazę danych wszystkich firm i organizacji działających na Bitcoin lub powiązanych projektach. Dodając `project_id` podmiotu powiązanego z twoim tutorialem, tworzysz link między dwoma Elements;
 
 
 
-- **tagi**: 2 lub 3 odpowiednie słowa kluczowe związane z treścią samouczka, wybrane wyłącznie [z listy tagów Plan ₿ Academy] (https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tagi**: 2 lub 3 odpowiednie słowa kluczowe związane z treścią samouczka, wybrane wyłącznie [z listy tagów Plan ₿ Academy] (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 
 
@@ -217,7 +217,7 @@ Poniżej znajdują się wymagane pola:
 
 
 
-- **professor_id**: Twój `professor_id` (UUID) wyświetlany w [profilu profesora](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/professors);
+- **professor_id**: Twój `professor_id` (UUID) wyświetlany w [profilu profesora](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors);
 
 
 

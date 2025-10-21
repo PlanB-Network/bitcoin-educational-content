@@ -44,7 +44,7 @@ git clone [Umugambi-B-Uburongozi-bw'Inyigisho-Bitcoin]
 
 
 ```bash
-git clone https://github.com/Plan ₿ Academy/bitcoin-learning-management-system
+git clone https://github.com/PlanB-Network/bitcoin-learning-management-system
 cd bitcoin-learning-management-system
 ```
 

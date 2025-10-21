@@ -1287,7 +1287,7 @@ Ví dụ, đối với một entropy 256-bit, kết quả $\text{ENT} \Vert \tex
 
 ### Chuyển Đổi Chuỗi Nhị Phân thành Cụm Từ Ghi Nhớ
 
-Chuỗi bit $\text{ENT} \Vert \text{CS}$ sau đó được chia thành các phân đoạn 11 bit. Mỗi phân đoạn 11 bit, một khi được chuyển đổi sang thập phân, tương ứng với một số từ 0 đến 2047, chỉ vị trí của một từ [trong danh sách 2048 từ được chuẩn hóa bởi BIP39](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
+Chuỗi bit $\text{ENT} \Vert \text{CS}$ sau đó được chia thành các phân đoạn 11 bit. Mỗi phân đoạn 11 bit, một khi được chuyển đổi sang thập phân, tương ứng với một số từ 0 đến 2047, chỉ vị trí của một từ [trong danh sách 2048 từ được chuẩn hóa bởi BIP39](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
 ![CYP201](assets/en/042.webp)
 Ví dụ, đối với một entropy 128-bit, checksum là 4 bit, và do đó, chuỗi tổng cộng là 132 bit. Nó được chia thành 12 phân đoạn 11 bit (các bit màu cam chỉ checksum):

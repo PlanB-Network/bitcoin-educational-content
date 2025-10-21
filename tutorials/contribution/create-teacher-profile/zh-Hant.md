@@ -8,7 +8,7 @@ description: 如何在 Plan ₿ Academy 上新增或修改教師檔案？
 如果您打算透過撰寫新的教學或課程來貢獻 Plan ₿ Academy，您將需要一個教師檔案。此設定檔可讓您為貢獻至平台的內容取得適當的學分。
 
 
-對於那些已經參與製作 Plan ₿ Academy 上教育內容的人，您可能已經有一個教師檔案。您可以在 `/professors` 資料夾 [我們的 GitHub 套件庫](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/professors) 中找到它。如果您的設定檔已經存在，請在 `professor.yml` 檔案中找到您的登入帳號。
+對於那些已經參與製作 Plan ₿ Academy 上教育內容的人，您可能已經有一個教師檔案。您可以在 `/professors` 資料夾 [我們的 GitHub 套件庫](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors) 中找到它。如果您的設定檔已經存在，請在 `professor.yml` 檔案中找到您的登入帳號。
 
 
 若要變更您的個人資料，請前往本教學結尾的「編輯您的教師個人資料」部分。
@@ -23,7 +23,7 @@ description: 如何在 Plan ₿ Academy 上新增或修改教師檔案？
 ### 1 - 設定您的本機環境
 
 
-您必須從 [GitHub 上的 Plan ₿ Academy 套件庫](https://github.com/Plan ₿ Academy/Bitcoin-educational-content) 擁有自己的 Fork。
+您必須從 [GitHub 上的 Plan ₿ Academy 套件庫](https://github.com/PlanB-Network/Bitcoin-educational-content) 擁有自己的 Fork。
 
 
 將 Fork 的主分支 (`dev`)與原始碼套件庫同步。
@@ -37,7 +37,7 @@ description: 如何在 Plan ₿ Academy 上新增或修改教師檔案？
 git clone https://github.com/<username>/bitcoin-educational-content.git
 cd bitcoin-educational-content
 # Ajouter le dépôt source en tant que remote upstream
-git remote add upstream https://github.com/Plan ₿ Academy/bitcoin-educational-content.git
+git remote add upstream https://github.com/PlanB-Network/bitcoin-educational-content.git
 # Récupérer les dernières modifications depuis le dépôt source
 git fetch upstream
 # Se positionner sur la branche principale 'dev'
@@ -157,7 +157,7 @@ git push origin add-professor-loic-morel
 
 
 https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
-前往 [專門提供資料的 Plan ₿ Academy GitHub 資源庫](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/graphs/contributors)。
+前往 [專門提供資料的 Plan ₿ Academy GitHub 資源庫](https://github.com/PlanB-Network/Bitcoin-educational-content/graphs/contributors)。
 
 
 ![Image](assets/fr/03.webp)

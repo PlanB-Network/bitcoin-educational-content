@@ -77,7 +77,7 @@ Kuna programu nyingi maalum za kuhariri faili za Markdown, kama vile Typora, ili
 
 
 
-- Nenda kwenye hazina ya data ya Plan ₿ Academy katika Address ifuatayo: [https://github.com/Plan ₿ Academy/Bitcoin-educational-content](https://github.com/Plan ₿ Academy/Bitcoin-educational-content): ![github-desktop](assets/10.
+- Nenda kwenye hazina ya data ya Plan ₿ Academy katika Address ifuatayo: [https://github.com/PlanB-Network/Bitcoin-educational-content](https://github.com/PlanB-Network/Bitcoin-educational-content): ![github-desktop](assets/10.
 - Kutoka kwa ukurasa huu, bofya kitufe cha `Fork` kilicho upande wa juu kulia wa dirisha: ![github-desktop](assets/11.webp)
 - Katika menyu ya uundaji, unaweza kuacha mipangilio ya chaguo-msingi. Hakikisha kisanduku cha `Nakili tawi la dev only` kimeteuliwa, kisha ubofye kitufe cha `Unda Fork`: ![github-desktop](assets/12.webp)
 - Kisha utafika kwenye Fork yako mwenyewe ya hazina ya Mtandao wa PlanB: ![github-desktop](assets/13.webp)

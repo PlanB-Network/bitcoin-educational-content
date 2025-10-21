@@ -45,7 +45,7 @@ Mnemonic 문구는 선택 사항인 passphrase과 함께 HD(계층적 결정론�
 - 종이 한 장;
 - 펜이나 연필, 정리하기 쉽도록 색이 다른 것이 좋습니다;
 - 불균형한 주사위로 인한 편향의 위험을 최소화하기 위해 여러 개의 주사위를 사용합니다;
-- [2048개의 BIP39 단어 목록](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)을 출력했습니다.
+- [2048개의 BIP39 단어 목록](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)을 출력했습니다.
 
 
 그 후 체크섬 계산을 위해 터미널이 있는 컴퓨터를 사용해야 합니다. 바로 이러한 이유로 Mnemonic 문구의 수동 생성을 권장하지 않는 것이 좋습니다. 제 생각에는 이 튜토리얼에서 언급 한 예방 조치 하에서도 컴퓨터의 개입은 Wallet의 취약성을 크게 증가시킵니다.
@@ -102,7 +102,7 @@ Mnemonic 문구의 경우, 체크섬의 기능은 Wallet 소프트웨어에 문�
 ![mnemonic](assets/notext/5.webp)
 
 
-마지막으로 십진수로 표시된 숫자는 [2048개의 BIP39 단어 목록](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)에서 해당 단어의 위치를 알려줍니다. 이제 남은 것은 이 단어들을 선택하여 Wallet의 복구 구문을 구성하는 것입니다.
+마지막으로 십진수로 표시된 숫자는 [2048개의 BIP39 단어 목록](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)에서 해당 단어의 위치를 알려줍니다. 이제 남은 것은 이 단어들을 선택하여 Wallet의 복구 구문을 구성하는 것입니다.
 
 
 ![mnemonic](assets/notext/6.webp)
@@ -332,7 +332,7 @@ Mnemonic 구문을 완성하려면 체크섬을 구성하는 Hash의 처음 4비
 이 조정이 끝나면 목록 내 각 단어의 순위가 정해집니다. 이제 남은 것은 각 단어를 번호로 식별하는 것입니다. 물론 다른 모든 단계와 마찬가지로 컴퓨터를 사용하여 이 변환을 수행해서는 안 됩니다. 따라서 미리 목록을 인쇄해 두어야 합니다.
 
 
-[**-> A4 형식의 BIP39 목록 인쇄**](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)
+[**-> A4 형식의 BIP39 목록 인쇄**](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)
 
 
 예를 들어 첫 번째 줄에서 파생된 숫자가 1721이면 해당 단어는 목록에서 1721번째가 됩니다:

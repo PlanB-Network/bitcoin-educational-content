@@ -80,7 +80,7 @@ Diyagramlar ve görseller oluşturmak için:
 
 
 
-- GitHub'daki Fork deposundan] (https://github.com/Plan ₿ Academy/Bitcoin-educational-content) kendi Plan ₿ Academy'ünüze sahip olmalısınız.
+- GitHub'daki Fork deposundan] (https://github.com/PlanB-Network/Bitcoin-educational-content) kendi Plan ₿ Academy'ünüze sahip olmalısınız.
 - Fork'nizin ana dalını (`dev`) kaynak deposu ile senkronize edin.
 - Yerel klonunuzu güncelleyin.
 
@@ -91,7 +91,7 @@ git clone https://github.com/<your-username>/bitcoin-educational-content.git
 cd bitcoin-educational-content
 
 # Add the source repository as a remote upstream
-git remote add upstream https://github.com/Plan ₿ Academy/bitcoin-educational-content.git
+git remote add upstream https://github.com/PlanB-Network/bitcoin-educational-content.git
 
 # Fetch the latest changes from the source repository
 git fetch upstream
@@ -131,7 +131,7 @@ git push -u origin tuto-green-wallet-loic
 ### 3 - Eğitim belgelerini ekleyin
 
 
-***Not:*** [Python GUI betiğimi] (https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/scripts/tutorial-related/new-tutorial-creation) kullanarak 3. ve 4. adımları otomatikleştirebilirsiniz. Doğrudan yerel klonunuzdaki klasöründen çalıştırın, ardından GUI'deki gerekli alanları doldurun. Nasıl kurulacağı ve kullanılacağı hakkında daha fazla bilgi için [README](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md) adresine bakın.
+***Not:*** [Python GUI betiğimi] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/scripts/tutorial-related/new-tutorial-creation) kullanarak 3. ve 4. adımları otomatikleştirebilirsiniz. Doğrudan yerel klonunuzdaki klasöründen çalıştırın, ardından GUI'deki gerekli alanları doldurun. Nasıl kurulacağı ve kullanılacağı hakkında daha fazla bilgi için [README](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md) adresine bakın.
 
 
 Manuel olarak yapmayı tercih ederseniz, aşağıdaki adımları izleyin:
@@ -213,11 +213,11 @@ reward:
 
 
 
-- **project_id**: Eğitimde sunulan aracın arkasındaki şirket veya kuruluşun UUID'si [proje listesinden] (https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/resources/projects). Örneğin, Green Wallet yazılımı hakkında bir eğitim oluşturuyorsanız, bu `project_id`yi aşağıdaki dosyada bulabilirsiniz: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Bu bilgi öğreticinizin YAML dosyasına eklenir çünkü Plan ₿ Academy, Bitcoin veya ilgili projeler üzerinde faaliyet gösteren tüm şirket ve kuruluşların bir veritabanını tutar. Öğreticinize bağlı varlığın `project_id` bilgisini ekleyerek, iki Elements arasında bir bağlantı oluşturursunuz;
+- **project_id**: Eğitimde sunulan aracın arkasındaki şirket veya kuruluşun UUID'si [proje listesinden] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Örneğin, Green Wallet yazılımı hakkında bir eğitim oluşturuyorsanız, bu `project_id`yi aşağıdaki dosyada bulabilirsiniz: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Bu bilgi öğreticinizin YAML dosyasına eklenir çünkü Plan ₿ Academy, Bitcoin veya ilgili projeler üzerinde faaliyet gösteren tüm şirket ve kuruluşların bir veritabanını tutar. Öğreticinize bağlı varlığın `project_id` bilgisini ekleyerek, iki Elements arasında bir bağlantı oluşturursunuz;
 
 
 
-- **etiketler**: özel olarak [Plan ₿ Academy etiket listesinden] seçilen, eğitim içeriğiyle ilgili 2 veya 3 anahtar kelime (https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **etiketler**: özel olarak [Plan ₿ Academy etiket listesinden] seçilen, eğitim içeriğiyle ilgili 2 veya 3 anahtar kelime (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 
 
@@ -233,7 +233,7 @@ reward:
 
 
 
-- **professor_id**: Profesör profilinizde (https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/professors) görüntülenen `profesör_id`niz (UUID);
+- **professor_id**: Profesör profilinizde (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors) görüntülenen `profesör_id`niz (UUID);
 
 
 

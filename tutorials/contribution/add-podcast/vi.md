@@ -13,7 +13,7 @@ Bạn đang muốn thêm podcast về Bitcoin của mình vào trang web Mạng 
 https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
-- Truy cập vào [kho lưu trữ GitHub của PlanB dành cho dữ liệu](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/resources/podcasts) trong phần `resources/podcasts/`:
+- Truy cập vào [kho lưu trữ GitHub của PlanB dành cho dữ liệu](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/podcasts) trong phần `resources/podcasts/`:
 ![podcast](assets/02.webp)
 - Nhấp vào nút `Add file` ở góc trên bên phải, sau đó chọn `Create new file`:
 ![podcast](assets/03.webp)

@@ -20,7 +20,7 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 
 
 
-- 前往 `resources/podcasts/` 區塊中的 [PlanB 專用於資料的 GitHub 儲存庫](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/resources/podcasts)：
+- 前往 `resources/podcasts/` 區塊中的 [PlanB 專用於資料的 GitHub 儲存庫](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/podcasts)：
 
 ![podcast](assets/02.webp)
 

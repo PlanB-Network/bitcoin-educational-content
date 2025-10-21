@@ -91,7 +91,7 @@ git clone https://github.com/<your-username>/bitcoin-educational-content.git
 cd bitcoin-educational-content
 
 # Add the source repository as a remote upstream
-git remote add upstream https://github.com/Plan ₿ Academy/bitcoin-educational-content.git
+git remote add upstream https://github.com/PlanB-Network/bitcoin-educational-content.git
 
 # Fetch the latest changes from the source repository
 git fetch upstream
@@ -131,7 +131,7 @@ git push -u origin tuto-green-wallet-loic
 ### 3 - Wongereko inyandiko z'inyigisho
 
 
-***Iciyumviro:*** Ushobora gukoresha intambwe ya 3 na 4 ukoresheje [inyandiko yanje ya Python GUI](https://github.com/Plan ₿ Academy/Bitcoin-ibirimwo-ivy’inyigisho/igiti/dev/inyandiko/ibijanye n’inyigisho/uguhingura-inyigisho nshasha). Ikoreshe uhereye kuri dosiye yayo muri clone yawe yo mu karere, hanyuma wuzuze ahantu bisabwa kuri GUI. Kugira ngo umenye vyinshi ku buryo woyishiramwo no kuyikoresha, raba [SOMA](https://github.com/Ivy’Inyigisho-Bitcoin/blob/dev/inyandiko/ibijanye n’inyigisho/Irema-ry’inyigisho-nshasha/README.md).
+***Iciyumviro:*** Ushobora gukoresha intambwe ya 3 na 4 ukoresheje [inyandiko yanje ya Python GUI](https://github.com/PlanB-Network/Bitcoin-ibirimwo-ivy’inyigisho/igiti/dev/inyandiko/ibijanye n’inyigisho/uguhingura-inyigisho nshasha). Ikoreshe uhereye kuri dosiye yayo muri clone yawe yo mu karere, hanyuma wuzuze ahantu bisabwa kuri GUI. Kugira ngo umenye vyinshi ku buryo woyishiramwo no kuyikoresha, raba [SOMA](https://github.com/Ivy’Inyigisho-Bitcoin/blob/dev/inyandiko/ibijanye n’inyigisho/Irema-ry’inyigisho-nshasha/README.md).
 
 
 Niba ushaka kubikora n'amaboko, kurikiza izi ntambwe:
@@ -213,7 +213,7 @@ Akira ahantu hakenewe:
 
 
 
-- project_id**: UUID y’ishirahamwe canke ishirahamwe riri inyuma y’igikoresho kigaragazwa mu nyigisho [bivuye ku rutonde rw’imigambi](https://github.com/Plan ₿ Academy/Bitcoin-ibirimwo-ivy’inyigisho/igiti/iterambere/ibikoresho/imigambi). Nk'akarorero, nimba uriko urakora inyigisho yerekeye porogaramu ya Green Wallet, ushobora kubona iyi `project_id` muri dosiye ikurikira: `Bitcoin-ibirimwo-ivy'inyigisho/ibikoresho/imigambi/umurongo/umugambi.yml`. Aya makuru yongerwa kuri dosiye ya YAML y’inyigisho yawe kubera ko Plan ₿ Academy ibungabunga urutonde rw’amashirahamwe yose n’imiryango yose ikora kuri Bitcoin canke imigambi ijana. Mu kwongerako `project_id` y'ikigo gihuye n'inyigisho yawe, urema ihuriro hagati y'izo Elements zibiri;
+- project_id**: UUID y’ishirahamwe canke ishirahamwe riri inyuma y’igikoresho kigaragazwa mu nyigisho [bivuye ku rutonde rw’imigambi](https://github.com/PlanB-Network/Bitcoin-ibirimwo-ivy’inyigisho/igiti/iterambere/ibikoresho/imigambi). Nk'akarorero, nimba uriko urakora inyigisho yerekeye porogaramu ya Green Wallet, ushobora kubona iyi `project_id` muri dosiye ikurikira: `Bitcoin-ibirimwo-ivy'inyigisho/ibikoresho/imigambi/umurongo/umugambi.yml`. Aya makuru yongerwa kuri dosiye ya YAML y’inyigisho yawe kubera ko Plan ₿ Academy ibungabunga urutonde rw’amashirahamwe yose n’imiryango yose ikora kuri Bitcoin canke imigambi ijana. Mu kwongerako `project_id` y'ikigo gihuye n'inyigisho yawe, urema ihuriro hagati y'izo Elements zibiri;
 
 
 

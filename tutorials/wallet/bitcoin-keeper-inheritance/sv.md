@@ -26,4 +26,4 @@ Kolla in andra relevanta länkar här:
 - Tapsigner [Video](youtube.com/watch?v=xKHy1HMw5iU)
 
 
-**Notera: ** Denna handledning är bara ett engelskt utkast, vi behöver fortfarande någon som skriver en omfattande guide om detta ämne. Om du är den, vänligen kontakta oss på vårt [Telegram](https://t.me/PlanBNetwork_ContentBuilder/325) eller på [GitHub](https://github.com/Plan ₿ Academy/Bitcoin-educational-content)
+**Notera: ** Denna handledning är bara ett engelskt utkast, vi behöver fortfarande någon som skriver en omfattande guide om detta ämne. Om du är den, vänligen kontakta oss på vårt [Telegram](https://t.me/PlanBNetwork_ContentBuilder/325) eller på [GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content)

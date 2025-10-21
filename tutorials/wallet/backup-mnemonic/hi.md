@@ -74,7 +74,7 @@ Mnemonic आपको अपने सभी बिटकॉइन तक पू
 यदि आप एक पूर्ण धातु बैकअप डिवाइस में निवेश करना पसंद करते हैं, तो मेरा सुझाव है कि आप [जेम्सन लोप के प्रतिरोध परीक्षण](https://jlopp.github.io/metal-Bitcoin-storage-reviews/) पर एक नज़र डालें, जो बाजार में उपलब्ध अधिकांश समाधानों का मूल्यांकन करते हैं। मैं आपको एक-टुकड़ा ब्रैकेट चुनने की सलाह दूंगा, जैसे कि उत्कीर्णन, मुद्रांकन या छिद्रण के लिए धातु की प्लेट। ये डिवाइस आम तौर पर स्वतंत्र अक्षरों का उपयोग करने वाले सिस्टम की तुलना में बहुत अधिक प्रतिरोध प्रदान करते हैं।
 
 
-यदि आप कागज़ Wallet चुनते हैं, तो आपके पास कई विकल्प हैं: कागज़ की एक साधारण खाली शीट, कार्डबोर्ड Wallet जो अक्सर आपके Hardware Wallet के साथ दिया जाता है, या हमारा डाउनलोड करने योग्य टेम्पलेट जिसे आप [यहाँ क्लिक करके](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/resources/bet/Wallet-backup-sheet/assets/Mnemonic-sheet.pdf) प्रिंट कर सकते हैं।
+यदि आप कागज़ Wallet चुनते हैं, तो आपके पास कई विकल्प हैं: कागज़ की एक साधारण खाली शीट, कार्डबोर्ड Wallet जो अक्सर आपके Hardware Wallet के साथ दिया जाता है, या हमारा डाउनलोड करने योग्य टेम्पलेट जिसे आप [यहाँ क्लिक करके](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/Wallet-backup-sheet/assets/Mnemonic-sheet.pdf) प्रिंट कर सकते हैं।
 
 
 ![SEED](assets/fr/02.webp)

@@ -18,4 +18,4 @@ Selles videoõpetuses näete läbi, kuidas seadistada ja kasutada Bitcoin Keeper
 Keeperi allalaadimiseks vt [siin](bitcoinkeeper.app)
 
 
-**Märkus:** See õpetus on ainult ingliskeelne eelnõu, me vajame veel kedagi, kes kirjutaks sel teemal põhjaliku juhendi. Kui te olete see, võtke meiega ühendust meie [Telegram](https://t.me/PlanBNetwork_ContentBuilder/325) või [GitHub](https://github.com/Plan ₿ Academy/Bitcoin-educational-content) kaudu
+**Märkus:** See õpetus on ainult ingliskeelne eelnõu, me vajame veel kedagi, kes kirjutaks sel teemal põhjaliku juhendi. Kui te olete see, võtke meiega ühendust meie [Telegram](https://t.me/PlanBNetwork_ContentBuilder/325) või [GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content) kaudu

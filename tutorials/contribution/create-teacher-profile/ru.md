@@ -6,7 +6,7 @@ description: Как добавить или изменить свой профи
 
 Если вы планируете внести свой вклад в Plan ₿ Academy, написав новый учебник или курс, вам понадобится профиль преподавателя. Этот профиль позволит вам получать соответствующие кредиты за контент, который вы вносите на платформу.
 
-У тех из вас, кто уже участвовал в создании образовательного контента на Plan ₿ Academy, наверняка уже есть профиль преподавателя. Вы можете найти его в папке `/professors` [на нашем репозитории GitHub] (https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/professors). Если ваш профиль уже существует, найдите свой логин в файле `professor.yml`.
+У тех из вас, кто уже участвовал в создании образовательного контента на Plan ₿ Academy, наверняка уже есть профиль преподавателя. Вы можете найти его в папке `/professors` [на нашем репозитории GitHub] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors). Если ваш профиль уже существует, найдите свой логин в файле `professor.yml`.
 
 Чтобы внести изменения в свой профиль, перейдите к разделу "Редактирование профиля учителя" в конце этого руководства.
 
@@ -16,7 +16,7 @@ description: Как добавить или изменить свой профи
 
 ### 1 - Настройка локальной среды
 
-У вас должен быть собственный Fork из [репозитория Plan ₿ Academy на GitHub](https://github.com/Plan ₿ Academy/Bitcoin-educational-content).
+У вас должен быть собственный Fork из [репозитория Plan ₿ Academy на GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content).
 
 Синхронизируйте основную ветку (`dev`) вашего Fork с репозиторием исходных текстов.
 
@@ -27,7 +27,7 @@ description: Как добавить или изменить свой профи
 git clone https://github.com/<username>/bitcoin-educational-content.git
 cd bitcoin-educational-content
 # Ajouter le dépôt source en tant que remote upstream
-git remote add upstream https://github.com/Plan ₿ Academy/bitcoin-educational-content.git
+git remote add upstream https://github.com/PlanB-Network/bitcoin-educational-content.git
 # Récupérer les dernières modifications depuis le dépôt source
 git fetch upstream
 # Se positionner sur la branche principale 'dev'
@@ -119,7 +119,7 @@ git push origin add-professor-loic-morel
 Новичкам я рекомендую вносить изменения непосредственно через GitHub's Interface web. Убедитесь, что у вас есть учетная запись GitHub. Если вы не знаете, как его создать, следуйте этому руководству:
 
 https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
-Перейдите на [репозиторий Plan ₿ Academy на GitHub, посвященный данным] (https://github.com/Plan ₿ Academy/Bitcoin-educational-content/graphs/contributors).
+Перейдите на [репозиторий Plan ₿ Academy на GitHub, посвященный данным] (https://github.com/PlanB-Network/Bitcoin-educational-content/graphs/contributors).
 
 ![Image](assets/fr/03.webp)
 

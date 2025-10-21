@@ -6,7 +6,7 @@ description: Miten voin lisätä tai muuttaa opettajaprofiiliani Plan ₿ Academ
 
 Jos aiot osallistua Plan ₿ Academy:een kirjoittamalla uuden opetusohjelman tai kurssin, tarvitset opettajan profiilin. Tämän profiilin avulla voit saada asianmukaiset hyvitykset alustalle tuottamastasi sisällöstä.
 
-Niillä teistä, jotka ovat jo osallistuneet Plan ₿ Academy:n opetussisällön luomiseen, on todennäköisesti jo opettajaprofiili. Löydät sen kansiosta `/professors` [GitHub-arkistossamme](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/professors). Jos profiilisi on jo olemassa, etsi kirjautumistietosi `professor.yml`-tiedostosta.
+Niillä teistä, jotka ovat jo osallistuneet Plan ₿ Academy:n opetussisällön luomiseen, on todennäköisesti jo opettajaprofiili. Löydät sen kansiosta `/professors` [GitHub-arkistossamme](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors). Jos profiilisi on jo olemassa, etsi kirjautumistietosi `professor.yml`-tiedostosta.
 
 Jos haluat tehdä muutoksia profiiliisi, siirry tämän ohjeen lopussa olevaan osioon "Muokkaa opettajaprofiiliasi".
 
@@ -16,7 +16,7 @@ Helpoin tapa luoda opettajaprofiili Plan ₿ Academy:een on käyttää integroit
 
 ### 1 - Määritä paikallinen ympäristö
 
-Sinulla on oltava oma Fork [Plan ₿ Academy-repository GitHubissa](https://github.com/Plan ₿ Academy/Bitcoin-educational-content).
+Sinulla on oltava oma Fork [Plan ₿ Academy-repository GitHubissa](https://github.com/PlanB-Network/Bitcoin-educational-content).
 
 Synkronoi Fork:n päähaara (`dev`) lähdekoodivaraston kanssa.
 
@@ -27,7 +27,7 @@ Päivitä paikallinen kloonisi.
 git clone https://github.com/<username>/bitcoin-educational-content.git
 cd bitcoin-educational-content
 # Ajouter le dépôt source en tant que remote upstream
-git remote add upstream https://github.com/Plan ₿ Academy/bitcoin-educational-content.git
+git remote add upstream https://github.com/PlanB-Network/bitcoin-educational-content.git
 # Récupérer les dernières modifications depuis le dépôt source
 git fetch upstream
 # Se positionner sur la branche principale 'dev'
@@ -119,7 +119,7 @@ Jos hallitset Gitin käytön, muokkaa opettajaprofiiliasi luomalla uusi haara ja
 Aloittelijoille suosittelen tekemään muutoksen suoraan GitHubin Interface-verkon kautta. Varmista, että sinulla on GitHub-tili. Jos et tiedä, miten sellainen luodaan, seuraa tätä ohjetta:
 
 https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
-Siirry [Plan ₿ Academy:n GitHub-tietovarastoon, joka on omistettu tiedoille](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/graphs/contributors).
+Siirry [Plan ₿ Academy:n GitHub-tietovarastoon, joka on omistettu tiedoille](https://github.com/PlanB-Network/Bitcoin-educational-content/graphs/contributors).
 
 ![Image](assets/fr/03.webp)
 

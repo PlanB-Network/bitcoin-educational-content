@@ -56,7 +56,7 @@ https://planb.academy/tutorials/contribution/content/write-tutorials-github-web-
 
 
 - یک [حساب GitHub](https://github.com/signup) داشته باشید؛
-- دارای Fork از [مخزن منبع Plan ₿ Academy](https://github.com/Plan ₿ Academy/Bitcoin-educational-content) باشید؛
+- دارای Fork از [مخزن منبع Plan ₿ Academy](https://github.com/PlanB-Network/Bitcoin-educational-content) باشید؛
 - [یک پروفایل استاد در Plan ₿ Academy داشته باشید](https://planb.academy/professors) (فقط اگر یک آموزش کامل پیشنهاد می‌دهید).
 
 
@@ -229,7 +229,7 @@ https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9b
 ![DATA-CREATOR-PY](assets/fr/45.webp)
 
 
-`project_id` شناسه UUID شرکت یا سازمانی است که ابزار مورد بحث در آموزش را پشتیبانی می‌کند و [در لیست پروژه‌ها](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/resources/projects) موجود است. به عنوان مثال، برای یک آموزش در مورد Sparrow wallet، می‌توانید `project_id` آن را در فایل: `Bitcoin-educational-content/resources/projects/Sparrow/project.yml` پیدا کنید. این اطلاعات به فایل YAML آموزش شما اضافه می‌شود زیرا Plan ₿ Academy یک پایگاه داده از شرکت‌ها و سازمان‌های فعال در Bitcoin یا پروژه‌های مرتبط را نگهداری می‌کند. با افزودن `project_id` مرتبط، محتوای خود را به نهاد مربوطه متصل می‌کنید.
+`project_id` شناسه UUID شرکت یا سازمانی است که ابزار مورد بحث در آموزش را پشتیبانی می‌کند و [در لیست پروژه‌ها](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects) موجود است. به عنوان مثال، برای یک آموزش در مورد Sparrow wallet، می‌توانید `project_id` آن را در فایل: `Bitcoin-educational-content/resources/projects/Sparrow/project.yml` پیدا کنید. این اطلاعات به فایل YAML آموزش شما اضافه می‌شود زیرا Plan ₿ Academy یک پایگاه داده از شرکت‌ها و سازمان‌های فعال در Bitcoin یا پروژه‌های مرتبط را نگهداری می‌کند. با افزودن `project_id` مرتبط، محتوای خود را به نهاد مربوطه متصل می‌کنید.
 
 
 ***به‌روزرسانی:*** در نسخه جدید اسکریپت، دیگر نیازی به وارد کردن دستی `project_id` ندارید. یک تابع جستجو اضافه شده است تا پروژه را بر اساس نام پیدا کرده و به‌طور خودکار `project_id` مربوطه را بازیابی کند. برای جستجو، ابتدای نام پروژه را در فیلد "نام پروژه" تایپ کنید، سپس شرکت مورد نظر را از منوی کشویی انتخاب کنید. `project_id` به‌طور خودکار در فیلد زیر پر خواهد شد. در صورت نیاز می‌توانید آن را به‌صورت دستی نیز وارد کنید.
@@ -238,7 +238,7 @@ https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9b
 ![DATA-CREATOR-PY](assets/fr/46.webp)
 
 
-برای برچسب‌ها، ۲ یا ۳ کلمه کلیدی مرتبط با محتوای آموزشی خود را انتخاب کنید و به‌طور انحصاری از [لیست برچسب‌های Plan ₿ Academy](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) انتخاب کنید. نرم‌افزار همچنین یک تابع جستجوی کلمه کلیدی با یک لیست کشویی ارائه می‌دهد.
+برای برچسب‌ها، ۲ یا ۳ کلمه کلیدی مرتبط با محتوای آموزشی خود را انتخاب کنید و به‌طور انحصاری از [لیست برچسب‌های Plan ₿ Academy](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) انتخاب کنید. نرم‌افزار همچنین یک تابع جستجوی کلمه کلیدی با یک لیست کشویی ارائه می‌دهد.
 
 
 ![DATA-CREATOR-PY](assets/fr/47.webp)
@@ -253,7 +253,7 @@ https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9b
 اکنون می‌توانید زیر بخش "بدون اسکریپت پایتون من" و همچنین مرحله 3، "پر کردن فایل YAML" را نادیده بگیرید، زیرا اسکریپت قبلاً این اقدامات را برای شما انجام داده است. مستقیماً به مرحله 4 بروید و شروع به نوشتن آموزش خود کنید.
 
 
-برای کسب اطلاعات بیشتر در مورد این اسکریپت پایتون، می‌توانید [README](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md) را نیز بررسی کنید.
+برای کسب اطلاعات بیشتر در مورد این اسکریپت پایتون، می‌توانید [README](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md) را نیز بررسی کنید.
 
 
 ### بدون اسکریپت پایتون من
@@ -344,11 +344,11 @@ reward:
 
 
 
-- **project_id**: شناسه UUID شرکت یا سازمان پشت ابزار ارائه شده در آموزش [از لیست پروژه](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/resources/projects). به عنوان مثال، اگر در حال ایجاد یک آموزش درباره نرم‌افزار Green Wallet هستید، می‌توانید این `project_id` را در فایل زیر پیدا کنید: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. این اطلاعات به فایل YAML آموزش شما اضافه می‌شود زیرا Plan ₿ Academy یک پایگاه داده از تمام شرکت‌ها و سازمان‌هایی که بر روی Bitcoin یا پروژه‌های مرتبط فعالیت می‌کنند را نگهداری می‌کند. با افزودن `project_id` موجودیت مرتبط با آمو
+- **project_id**: شناسه UUID شرکت یا سازمان پشت ابزار ارائه شده در آموزش [از لیست پروژه](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). به عنوان مثال، اگر در حال ایجاد یک آموزش درباره نرم‌افزار Green Wallet هستید، می‌توانید این `project_id` را در فایل زیر پیدا کنید: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. این اطلاعات به فایل YAML آموزش شما اضافه می‌شود زیرا Plan ₿ Academy یک پایگاه داده از تمام شرکت‌ها و سازمان‌هایی که بر روی Bitcoin یا پروژه‌های مرتبط فعالیت می‌کنند را نگهداری می‌کند. با افزودن `project_id` موجودیت مرتبط با آمو
 
 
 
-- **برچسب‌ها**: 2 یا 3 کلمه کلیدی مرتبط با محتوای آموزشی، به‌طور انحصاری انتخاب شده [از لیست برچسب‌های Plan ₿ Academy](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md)؛
+- **برچسب‌ها**: 2 یا 3 کلمه کلیدی مرتبط با محتوای آموزشی، به‌طور انحصاری انتخاب شده [از لیست برچسب‌های Plan ₿ Academy](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md)؛
 
 
 
@@ -364,7 +364,7 @@ reward:
 
 
 
-- **professor_id**: `professor_id` شما (UUID) همانطور که در [پروفایل استاد شما](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/professors) نمایش داده شده است؛
+- **professor_id**: `professor_id` شما (UUID) همانطور که در [پروفایل استاد شما](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors) نمایش داده شده است؛
 
 
 

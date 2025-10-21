@@ -143,7 +143,7 @@ Untuk mengetahui lebih lanjut tentang pedoman yang harus diikuti saat melakukan 
 ## 7. Tunggu ulasan
 
 
-- Selamat, PR Anda telah diajukan! Anda dapat melacak perkembangannya di tab "Pull request" di [Repositori GitHub Plan ₿ Academy](https://github.com/Plan ₿ Academy/bitcoin-educational-content/pulls):
+- Selamat, PR Anda telah diajukan! Anda dapat melacak perkembangannya di tab "Pull request" di [Repositori GitHub Plan ₿ Academy](https://github.com/PlanB-Network/bitcoin-educational-content/pulls):
 
 ![REVIEW](assets/fr/12.webp)
 

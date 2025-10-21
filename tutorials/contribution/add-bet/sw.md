@@ -26,7 +26,7 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 
 
 
-- Nenda kwenye [hazina ya GitHub ya PlanB iliyowekwa kwa data](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/resources/bet) katika sehemu ya `rasilimali/bet/`:
+- Nenda kwenye [hazina ya GitHub ya PlanB iliyowekwa kwa data](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/bet) katika sehemu ya `rasilimali/bet/`:
 
 ![event](assets/02.webp)
 

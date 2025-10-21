@@ -48,7 +48,7 @@ Crédit image : [*SAFU Ninja Review*, Jameson Lopp](https://jlopp.github.io/meta
 
 Si vous préférez investir dans un dispositif complet de sauvegarde en métal, je vous recommande de consulter [les tests de résistance réalisés par Jameson Lopp](https://jlopp.github.io/metal-bitcoin-storage-reviews/), qui évaluent la plupart des solutions disponibles sur le marché. Je vous conseille de privilégier les supports constitués d’une seule pièce, comme une plaque de métal à graver, frapper ou poinçonner. Ces dispositifs offrent généralement une résistance bien supérieure aux systèmes utilisant des lettres indépendantes à assembler.
 
-Si vous optez pour un support en papier, plusieurs options s'offrent à vous : une simple feuille blanche, le support cartonné souvent fourni avec votre hardware wallet, ou encore notre modèle téléchargeable que vous pouvez imprimer [en cliquant ici](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/resources/bet/wallet-backup-sheet/assets/mnemonic-sheet.pdf).
+Si vous optez pour un support en papier, plusieurs options s'offrent à vous : une simple feuille blanche, le support cartonné souvent fourni avec votre hardware wallet, ou encore notre modèle téléchargeable que vous pouvez imprimer [en cliquant ici](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/wallet-backup-sheet/assets/mnemonic-sheet.pdf).
 
 ![SEED](assets/fr/02.webp)
 

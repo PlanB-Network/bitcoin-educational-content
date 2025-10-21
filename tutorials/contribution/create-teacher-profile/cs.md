@@ -6,7 +6,7 @@ description: Jak mohu přidat nebo upravit svůj profil učitele v Plan ₿ Acad
 
 Pokud máte v plánu přispět do Plan ₿ Academy vytvořením nového výukového kurzu, budete potřebovat profil učitele. Tento profil vám umožní získat příslušné kredity za obsah, kterým do platformy přispíváte.
 
-Ti z vás, kteří se již podíleli na tvorbě vzdělávacího obsahu na Plan ₿ Academy, již pravděpodobně mají profil učitele. Najdete ho ve složce `/profesoři` [v našem úložišti GitHub](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/professors). Pokud váš profil již existuje, najděte své přihlašovací údaje v souboru `professor.yml`.
+Ti z vás, kteří se již podíleli na tvorbě vzdělávacího obsahu na Plan ₿ Academy, již pravděpodobně mají profil učitele. Najdete ho ve složce `/profesoři` [v našem úložišti GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors). Pokud váš profil již existuje, najděte své přihlašovací údaje v souboru `professor.yml`.
 
 Chcete-li provést změny ve svém profilu, přejděte do části "Úprava profilu učitele" na konci tohoto návodu.
 
@@ -16,7 +16,7 @@ Nejjednodušší způsob, jak si vytvořit profil učitele v Plan ₿ Academy, j
 
 ### 1 - Konfigurace místního prostředí
 
-Musíte mít vlastní Fork z [repozitáře Plan ₿ Academy na GitHubu](https://github.com/Plan ₿ Academy/Bitcoin-educational-content).
+Musíte mít vlastní Fork z [repozitáře Plan ₿ Academy na GitHubu](https://github.com/PlanB-Network/Bitcoin-educational-content).
 
 Synchronizujte hlavní větev (`dev`) svého Fork se zdrojovým úložištěm.
 
@@ -27,7 +27,7 @@ Aktualizujte svůj místní klon.
 git clone https://github.com/<username>/bitcoin-educational-content.git
 cd bitcoin-educational-content
 # Ajouter le dépôt source en tant que remote upstream
-git remote add upstream https://github.com/Plan ₿ Academy/bitcoin-educational-content.git
+git remote add upstream https://github.com/PlanB-Network/bitcoin-educational-content.git
 # Récupérer les dernières modifications depuis le dépôt source
 git fetch upstream
 # Se positionner sur la branche principale 'dev'
@@ -119,7 +119,7 @@ Pokud jste si osvojili používání systému Git, upravte svůj profil učitele
 Začátečníkům doporučuji provést úpravu přímo prostřednictvím webu Interface na GitHubu. Ujistěte se, že máte účet GitHub. Pokud nevíte, jak ho vytvořit, postupujte podle tohoto návodu:
 
 https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
-Přejděte na [úložiště GitHub Plan ₿ Academy věnované datům](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/graphs/contributors).
+Přejděte na [úložiště GitHub Plan ₿ Academy věnované datům](https://github.com/PlanB-Network/Bitcoin-educational-content/graphs/contributors).
 
 ![Image](assets/fr/03.webp)
 

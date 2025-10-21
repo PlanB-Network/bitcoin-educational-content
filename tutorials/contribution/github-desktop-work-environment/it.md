@@ -68,7 +68,7 @@ Esistono molteplici software specializzati nella modifica di file Markdown, come
 
 ## Passo 3: Fork del repository di Plan ₿ Academy
 
-- Vai al repository di Plan ₿ Academy al seguente indirizzo: [https://github.com/Plan ₿ Academy/bitcoin-educational-content](https://github.com/Plan ₿ Academy/bitcoin-educational-content):
+- Vai al repository di Plan ₿ Academy al seguente indirizzo: [https://github.com/PlanB-Network/bitcoin-educational-content](https://github.com/PlanB-Network/bitcoin-educational-content):
 
 ![github-desktop](assets/10.webp)
 

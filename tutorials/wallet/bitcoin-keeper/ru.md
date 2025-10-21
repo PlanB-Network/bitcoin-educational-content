@@ -18,4 +18,4 @@ description: Bitcoin Keeper App - мобильное приложение, по�
 Скачать Keeper можно здесь (bitcoinkeeper.app)
 
 
-**Примечание:** Этот учебник - только черновой вариант на английском языке, нам все еще требуется кто-то, кто напишет подробное руководство по этой теме. Если вы им являетесь, пожалуйста, свяжитесь с нами в [Telegram](https://t.me/PlanBNetwork_ContentBuilder/325) или на [GitHub](https://github.com/Plan ₿ Academy/Bitcoin-educational-content)
+**Примечание:** Этот учебник - только черновой вариант на английском языке, нам все еще требуется кто-то, кто напишет подробное руководство по этой теме. Если вы им являетесь, пожалуйста, свяжитесь с нами в [Telegram](https://t.me/PlanBNetwork_ContentBuilder/325) или на [GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content)

@@ -1775,7 +1775,7 @@ Twitter 非常容易使用，要改善隐私，你需要调整一些设置。
 随着时间的推移，您的社区将不断发展。会有新面孔加入，也会有新成员离开，但指导原则应该保持不变：发展 Bitcoin 生态系统，加强成员之间的联系。
 
 
-有许多项目和倡议可以实施。本章列举了一些可以在社区内或聚会期间实施的想法，但并非详尽无遗。您可以自由选择对您有启发的想法，甚至可以[通过在 GitHub 上提交 "Pull Request"](https://github.com/Plan ₿ Academy/Bitcoin-educational-content)为本课程贡献自己的想法。
+有许多项目和倡议可以实施。本章列举了一些可以在社区内或聚会期间实施的想法，但并非详尽无遗。您可以自由选择对您有启发的想法，甚至可以[通过在 GitHub 上提交 "Pull Request"](https://github.com/PlanB-Network/Bitcoin-educational-content)为本课程贡献自己的想法。
 
 
 在深入探讨之前，让我们重温一下之前提到的一点。

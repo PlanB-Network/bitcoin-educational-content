@@ -50,7 +50,7 @@ description: ビットコイン・ウォレットを保護するためのベス�
 
 もし完全な金属製バックアップ装置に投資したいのであれば、[Jameson Loppの抵抗テスト](https://jlopp.github.io/metal-bitcoin-storage-reviews/)をご覧になることをお勧めします。このテストでは、市場で入手可能なソリューションのほとんどを評価しています。私は、彫刻、スタンピング、パンチング用の金属プレートのような一体型ブラケットを選ぶことをお勧めします。これらの装置は、一般的に、組み立てられる独立した文字を使用するシステムよりもはるかに大きな抵抗を提供します。
 
-紙の財布を選ぶ場合、いくつかの選択肢があります：シンプルな白紙、ハードウェアの財布によく付属している厚紙の財布、または[ここをクリックして](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/resources/bet/wallet-backup-sheet/assets/mnemonic-sheet.pdf)印刷できるダウンロード可能なテンプレート。
+紙の財布を選ぶ場合、いくつかの選択肢があります：シンプルな白紙、ハードウェアの財布によく付属している厚紙の財布、または[ここをクリックして](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/wallet-backup-sheet/assets/mnemonic-sheet.pdf)印刷できるダウンロード可能なテンプレート。
 
 ![SEED](assets/fr/02.webp)
 

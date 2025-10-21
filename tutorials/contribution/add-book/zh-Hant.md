@@ -20,7 +20,7 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 
 
 
-- 到 `resources/books/` 區的 [PlanB 專用於資料的 GitHub 儲存庫](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/resources/books)：
+- 到 `resources/books/` 區的 [PlanB 專用於資料的 GitHub 儲存庫](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/books)：
 
 ![book](assets/02.webp)
 

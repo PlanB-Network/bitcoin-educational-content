@@ -15,7 +15,7 @@ PlanB का मिशन है कि Bitcoin पर उच्च स्तर
 
 https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
-- [PlanB के डेटा के लिए समर्पित GitHub रिपॉजिटरी](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/resources/conference) में `resources/conference/` सेक्शन पर जाएं:
+- [PlanB के डेटा के लिए समर्पित GitHub रिपॉजिटरी](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/conference) में `resources/conference/` सेक्शन पर जाएं:
 
 ![event](assets/02.webp)
 

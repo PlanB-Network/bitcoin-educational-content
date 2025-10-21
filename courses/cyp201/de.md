@@ -1323,7 +1323,7 @@ Beispielsweise ergibt eine 256-Bit-Entropie das Ergebnis $\text{ENT} \Vert \text
 
 ### Umwandlung der Binärsequenz in eine mnemonische Phrase
 
-Die Bitsequenz $\text{ENT} \Vert \text{CS}$ wird dann in Segmente von 11 Bits unterteilt. Jedes 11-Bit-Segment, einmal in Dezimal umgewandelt, entspricht einer Zahl zwischen 0 und 2047, die die Position eines Wortes [in einer Liste von 2048 durch BIP39 standardisierten Wörtern](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf) bezeichnet.
+Die Bitsequenz $\text{ENT} \Vert \text{CS}$ wird dann in Segmente von 11 Bits unterteilt. Jedes 11-Bit-Segment, einmal in Dezimal umgewandelt, entspricht einer Zahl zwischen 0 und 2047, die die Position eines Wortes [in einer Liste von 2048 durch BIP39 standardisierten Wörtern](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf) bezeichnet.
 
 ![CYP201](assets/en/042.webp)
 Zum Beispiel beträgt bei einer 128-Bit-Entropie die Prüfsumme 4 Bits, und somit misst die gesamte Sequenz 132 Bits. Sie wird in 12 Segmente zu je 11 Bits unterteilt (die orangefarbenen Bits bezeichnen die Prüfsumme):

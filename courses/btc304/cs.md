@@ -1775,7 +1775,7 @@ Nakonec je na vás, abyste rozhodli, jak daleko by "otevřenost a inkluzivita" m
 S přibývajícími bloky se vaše komunita bude vyvíjet. Nové tváře se budou přidávat, jiné se budou vzdalovat, ale hlavní zásada by měla zůstat stejná: rozvíjet ekosystém Bitcoin a posilovat vazby mezi členy.
 
 
-Existuje mnoho projektů a iniciativ, které lze realizovat. Tato kapitola nabízí neúplný seznam nápadů, které lze realizovat v rámci komunity nebo během setkání. Neváhejte si vybrat ty, které vás inspirují, a dokonce přispět vlastními nápady do tohoto kurzu [vytvořením "Pull Request" na GitHubu](https://github.com/Plan ₿ Academy/Bitcoin-educational-content).
+Existuje mnoho projektů a iniciativ, které lze realizovat. Tato kapitola nabízí neúplný seznam nápadů, které lze realizovat v rámci komunity nebo během setkání. Neváhejte si vybrat ty, které vás inspirují, a dokonce přispět vlastními nápady do tohoto kurzu [vytvořením "Pull Request" na GitHubu](https://github.com/PlanB-Network/Bitcoin-educational-content).
 
 
 Než se do toho ponoříme, zopakujme si již dříve zmíněný bod.

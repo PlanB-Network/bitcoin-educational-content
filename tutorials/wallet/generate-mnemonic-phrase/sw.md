@@ -45,7 +45,7 @@ Ili kuunda kifungu chako cha uokoaji kwa mkono, utahitaji:
 - Karatasi ya karatasi;
 - Kalamu au penseli, bora ya rangi tofauti ili kuwezesha shirika;
 - Dadi kadhaa, ili kupunguza hatari za upendeleo zinazohusiana na kifo kisicho na usawa;
-- [Orodha ya maneno 2048 BIP39](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf) imechapishwa.
+- [Orodha ya maneno 2048 BIP39](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf) imechapishwa.
 
 
 Baadaye, matumizi ya kompyuta iliyo na terminal itakuwa muhimu kwa hesabu ya hundi. Ni kwa sababu hii kwamba ninashauri dhidi ya kizazi cha mwongozo cha maneno ya Mnemonic. Kwa maoni yangu, kuingilia kati kwa kompyuta, hata chini ya tahadhari zilizotajwa katika mafunzo haya, huongeza kwa kiasi kikubwa hatari ya Wallet.
@@ -102,7 +102,7 @@ Kila moja ya pakiti hizi inawakilisha nambari katika mfumo wa jozi ambayo itabad
 ![mnemonic](assets/notext/5.webp)
 
 
-Hatimaye, nambari katika desimali hutuambia nafasi ya neno linalolingana katika [orodha ya maneno 2048 BIP39](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST). Kilichosalia ni kuchagua maneno haya ili kutunga kifungu cha uokoaji cha Wallet yetu.
+Hatimaye, nambari katika desimali hutuambia nafasi ya neno linalolingana katika [orodha ya maneno 2048 BIP39](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST). Kilichosalia ni kuchagua maneno haya ili kutunga kifungu cha uokoaji cha Wallet yetu.
 
 
 ![mnemonic](assets/notext/6.webp)
@@ -332,7 +332,7 @@ Kwa nambari za desimali zilizopatikana, sasa tunaweza kupata maneno yanayolingan
 Baada ya marekebisho haya, una cheo cha kila neno ndani ya orodha. Kilichobaki ni kutambua kila neno kwa idadi yake. Ni wazi, kama ilivyo kwa hatua zingine zote, lazima usitumie kompyuta yako kutekeleza ubadilishaji huu. Kwa hiyo, hakikisha umechapisha orodha kabla.
 
 
-[**-> Chapisha orodha ya BIP39 katika umbizo la A4.**](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)
+[**-> Chapisha orodha ya BIP39 katika umbizo la A4.**](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)
 
 
 Kwa mfano, ikiwa nambari inayotokana na mstari wa kwanza ni 1721, neno linalolingana litakuwa la 1721 kwenye orodha:

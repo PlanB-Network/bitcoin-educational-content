@@ -45,7 +45,7 @@ Preduslovi pre početka tutorijala:
 
 
 - Imate [GitHub nalog](https://github.com/signup);
-- Imate Fork iz [Plan ₿ Academy izvornog repozitorijuma](https://github.com/Plan ₿ Academy/Bitcoin-educational-content);
+- Imate Fork iz [Plan ₿ Academy izvornog repozitorijuma](https://github.com/PlanB-Network/Bitcoin-educational-content);
 - Imajte [profil nastavnika na Plan ₿ Academy](https://planb.academy/professors) (samo ako nudite kompletan tutorijal).
 
 
@@ -197,11 +197,11 @@ Evo potrebna polja:
 
 
 
-- **project_id**: The UUID kompanije ili organizacije iza alata predstavljenog u vodiču [sa liste projekata](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/resources/projects). Na primer, ako kreirate vodič o Green Wallet softveru, možete pronaći ovaj `project_id` u sledećem fajlu: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Ova informacija se dodaje u vaš YAML fajl vodiča jer Plan ₿ Academy održava bazu podataka svih kompanija i organizacija koje rade na Bitcoin ili povezanim projektima. Dodavanjem `project_id` entiteta povezanog sa vašim vodičem, kreirate vezu između dva Elements;
+- **project_id**: The UUID kompanije ili organizacije iza alata predstavljenog u vodiču [sa liste projekata](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Na primer, ako kreirate vodič o Green Wallet softveru, možete pronaći ovaj `project_id` u sledećem fajlu: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Ova informacija se dodaje u vaš YAML fajl vodiča jer Plan ₿ Academy održava bazu podataka svih kompanija i organizacija koje rade na Bitcoin ili povezanim projektima. Dodavanjem `project_id` entiteta povezanog sa vašim vodičem, kreirate vezu između dva Elements;
 
 
 
-- **tagovi**: 2 ili 3 relevantne ključne reči povezane sa sadržajem tutorijala, isključivo odabrane [iz Plan ₿ Academy liste tagova](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tagovi**: 2 ili 3 relevantne ključne reči povezane sa sadržajem tutorijala, isključivo odabrane [iz Plan ₿ Academy liste tagova](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 
 
@@ -217,7 +217,7 @@ Evo potrebna polja:
 
 
 
-- **professor_id**: Vaš `professor_id` (UUID) kako je prikazan na [vašem profesorskom profilu](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/professors);
+- **professor_id**: Vaš `professor_id` (UUID) kako je prikazan na [vašem profesorskom profilu](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors);
 
 
 

@@ -77,7 +77,7 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 
 
 
-- 다음 Address의 PlanB 네트워크 데이터 저장소로 이동하세요: [https://github.com/Plan ₿ Academy/Bitcoin-educational-content](https://github.com/Plan ₿ Academy/Bitcoin-educational-content): ![github-desktop](assets/10.webp)
+- 다음 Address의 PlanB 네트워크 데이터 저장소로 이동하세요: [https://github.com/PlanB-Network/Bitcoin-educational-content](https://github.com/PlanB-Network/Bitcoin-educational-content): ![github-desktop](assets/10.webp)
 - 이 페이지에서 창 오른쪽 상단의 `Fork` 버튼을 클릭합니다: ![github-desktop](assets/11.webp)
 - 생성 메뉴에서 기본 설정을 그대로 둘 수 있습니다. 개발 브랜치만 복사` 상자가 선택되어 있는지 확인한 다음 `Fork 생성` 버튼을 클릭합니다: ![github-desktop](assets/12.webp)
 - 그러면 플랜B 네트워크 리포지토리의 Fork에 도달하게 됩니다: ![github-desktop](assets/13.webp)

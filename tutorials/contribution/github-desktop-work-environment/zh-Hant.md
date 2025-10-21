@@ -77,7 +77,7 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 
 
 
-- 前往 Plan ₿ Academy 資料儲存庫，網址如下 Address：[https://github.com/Plan ₿ Academy/Bitcoin-educational-content](https://github.com/Plan ₿ Academy/Bitcoin-educational-content)：![github-desktop](assets/10.webp)
+- 前往 Plan ₿ Academy 資料儲存庫，網址如下 Address：[https://github.com/PlanB-Network/Bitcoin-educational-content](https://github.com/PlanB-Network/Bitcoin-educational-content)：![github-desktop](assets/10.webp)
 - 從本頁面，按一下視窗右上方的 `Fork`按鈕：![github-desktop](assets/11.webp)
 - 在建立選單中，您可以不使用預設設定。確定已勾選「僅複製開發分支」方塊，然後按一下「建立 Fork」按鈕： ![github-desktop](assets/12.webp)
 - 然後您就會到達 Plan ₿ Academy 儲存庫的 Fork：![github-desktop](assets/13.webp)

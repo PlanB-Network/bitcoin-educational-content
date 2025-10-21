@@ -9,7 +9,7 @@ description: Jaké důležité faktory je třeba mít na paměti při korektuře
 Vítejte v tomto návodu o **pokynech, kterými je třeba se řídit při korekturách obsahu v systému Plan ₿ Academy**. Jsme rádi, že sdílíte naše poslání překládat materiály Bitcoin do co největšího počtu jazyků, abychom lidem pomohli získat povědomí o tom, jak funguje a jak jej lze využít v každodenním životě.
 
 
-Přispívání do Plan ₿ Academy [veřejné úložiště](https://github.com/Plan ₿ Academy/Bitcoin-educational-content) vám především dává možnost psát výukové programy, opravovat stávající obsah nebo dokonce navrhnout přidání nového jazyka do platformy. Chcete-li se dozvědět více, připojte se nejprve k naší [Telegramové skupině](https://t.me/PlanBNetwork_ContentBuilder) a napište krátkou prezentaci o sobě a jazycích, které ovládáte.
+Přispívání do Plan ₿ Academy [veřejné úložiště](https://github.com/PlanB-Network/Bitcoin-educational-content) vám především dává možnost psát výukové programy, opravovat stávající obsah nebo dokonce navrhnout přidání nového jazyka do platformy. Chcete-li se dozvědět více, připojte se nejprve k naší [Telegramové skupině](https://t.me/PlanBNetwork_ContentBuilder) a napište krátkou prezentaci o sobě a jazycích, které ovládáte.
 
 
 Tento návod je určen přispěvatelům, kteří chtějí provádět korektury obsahu. Většina z nich toho o [Githubu](https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) ani o [jazyku Markdown](https://www.markdownguide.org/basic-syntax/), který v úložišti používáme, moc neví, a proto je důležité podělit se s nimi o několik informací o klíčových faktorech, které jsou s tímto úkolem spojeny.
@@ -290,7 +290,7 @@ Při odesílání PR by bylo úžasné, kdybyste jej pojmenovali v tomto formát
 
 Kromě toho můžete do části **komentáře k PR** napsat "uzavírá" + číslo problému, které vám koordinátor poslal při zahájení korektury, před které napíšete ``#``.
 
-Pokud jste například právě odeslali PR s korekturou cyp201 + kvízy, můžete napsat "uzavírá [#2934](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/issues/2934)".
+Pokud jste například právě odeslali PR s korekturou cyp201 + kvízy, můžete napsat "uzavírá [#2934](https://github.com/PlanB-Network/Bitcoin-educational-content/issues/2934)".
 
 
 Tímto způsobem budou PR a problém propojeny a kdokoli bude číst veřejný repozitář Github, může snadno najít informace.

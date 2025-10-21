@@ -56,7 +56,7 @@ Wymagania wstępne przed rozpoczęciem samouczka:
 
 
 - Posiadać konto [GitHub] (https://github.com/signup);
-- Posiadanie Fork z [repozytorium źródłowego Plan ₿ Academy](https://github.com/Plan ₿ Academy/Bitcoin-educational-content);
+- Posiadanie Fork z [repozytorium źródłowego Plan ₿ Academy](https://github.com/PlanB-Network/Bitcoin-educational-content);
 - Posiadać [profil profesora na Plan ₿ Academy](https://planb.academy/professors) (tylko jeśli proponujesz kompletny samouczek).
 
 
@@ -229,7 +229,7 @@ Wybierz nazwę dla katalogu utworzonego specjalnie na potrzeby samouczka. Nazwa 
 ![DATA-CREATOR-PY](assets/fr/45.webp)
 
 
-Identyfikator `project_id` to identyfikator UUID firmy lub organizacji stojącej za narzędziem opisanym w poradniku, dostępny [na liście projektów] (https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/resources/projects). Na przykład, dla samouczka na temat Sparrow Wallet, można znaleźć jego `project_id` w pliku: `Bitcoin-educational-content/resources/projects/sparrow/project.yml`. Informacje te są dodawane do pliku YAML samouczka, ponieważ Plan ₿ Academy utrzymuje bazę danych firm i organizacji aktywnych w Bitcoin lub powiązanych projektach. Dodając powiązany `project_id`, łączysz swoją zawartość z odpowiednim podmiotem.
+Identyfikator `project_id` to identyfikator UUID firmy lub organizacji stojącej za narzędziem opisanym w poradniku, dostępny [na liście projektów] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Na przykład, dla samouczka na temat Sparrow Wallet, można znaleźć jego `project_id` w pliku: `Bitcoin-educational-content/resources/projects/sparrow/project.yml`. Informacje te są dodawane do pliku YAML samouczka, ponieważ Plan ₿ Academy utrzymuje bazę danych firm i organizacji aktywnych w Bitcoin lub powiązanych projektach. Dodając powiązany `project_id`, łączysz swoją zawartość z odpowiednim podmiotem.
 
 
 ***Aktualizacja:*** W nowej wersji skryptu nie trzeba już ręcznie wprowadzać `project_id`. Dodano funkcję wyszukiwania, aby znaleźć projekt według nazwy i automatycznie pobrać odpowiedni `project_id`. Wpisz początek nazwy projektu w polu "Project Name", aby go wyszukać, a następnie wybierz żądaną firmę z rozwijanego menu. Identyfikator `project_id` zostanie automatycznie wypełniony w polu poniżej. W razie potrzeby można go również wprowadzić ręcznie.
@@ -238,7 +238,7 @@ Identyfikator `project_id` to identyfikator UUID firmy lub organizacji stojącej
 ![DATA-CREATOR-PY](assets/fr/46.webp)
 
 
-W przypadku tagów wybierz 2 lub 3 odpowiednie słowa kluczowe związane z treścią samouczka, wybierając wyłącznie z [listy tagów Plan ₿ Academy] (https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). Oprogramowanie udostępnia również funkcję wyszukiwania słów kluczowych z rozwijaną listą.
+W przypadku tagów wybierz 2 lub 3 odpowiednie słowa kluczowe związane z treścią samouczka, wybierając wyłącznie z [listy tagów Plan ₿ Academy] (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). Oprogramowanie udostępnia również funkcję wyszukiwania słów kluczowych z rozwijaną listą.
 
 
 ![DATA-CREATOR-PY](assets/fr/47.webp)
@@ -253,7 +253,7 @@ Po wprowadzeniu i zweryfikowaniu wszystkich informacji kliknij przycisk "Utwórz
 Możesz teraz pominąć podrozdział "Bez mojego skryptu Python", a także krok 3, "Wypełnij plik YAML", ponieważ skrypt już wykonał te czynności za Ciebie. Przejdź bezpośrednio do kroku 4 i zacznij pisać swój samouczek.
 
 
-Więcej informacji na temat tego skryptu Pythona można znaleźć w pliku [README](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
+Więcej informacji na temat tego skryptu Pythona można znaleźć w pliku [README](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
 
 
 ### Bez mojego skryptu Pythona
@@ -344,11 +344,11 @@ Poniżej znajdują się wymagane pola:
 
 
 
-- **project_id**: UUID firmy lub organizacji stojącej za narzędziem prezentowanym w samouczku [z listy projektów](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/resources/projects). Na przykład, jeśli tworzysz samouczek dotyczący oprogramowania Green Wallet, możesz znaleźć ten `project_id` w następującym pliku: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Ta informacja jest dodawana do pliku YAML samouczka, ponieważ Plan ₿ Academy utrzymuje bazę danych wszystkich firm i organizacji działających na Bitcoin lub powiązanych projektach. Dodając `project_id` podmiotu powiązanego z twoim tutorialem, tworzysz link między dwoma Elements;
+- **project_id**: UUID firmy lub organizacji stojącej za narzędziem prezentowanym w samouczku [z listy projektów](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Na przykład, jeśli tworzysz samouczek dotyczący oprogramowania Green Wallet, możesz znaleźć ten `project_id` w następującym pliku: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Ta informacja jest dodawana do pliku YAML samouczka, ponieważ Plan ₿ Academy utrzymuje bazę danych wszystkich firm i organizacji działających na Bitcoin lub powiązanych projektach. Dodając `project_id` podmiotu powiązanego z twoim tutorialem, tworzysz link między dwoma Elements;
 
 
 
-- **tagi**: 2 lub 3 odpowiednie słowa kluczowe związane z treścią samouczka, wybrane wyłącznie [z listy tagów Plan ₿ Academy] (https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tagi**: 2 lub 3 odpowiednie słowa kluczowe związane z treścią samouczka, wybrane wyłącznie [z listy tagów Plan ₿ Academy] (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 
 
@@ -364,7 +364,7 @@ Poniżej znajdują się wymagane pola:
 
 
 
-- **professor_id**: Twój `professor_id` (UUID) wyświetlany w [profilu profesora](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/professors);
+- **professor_id**: Twój `professor_id` (UUID) wyświetlany w [profilu profesora](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors);
 
 
 

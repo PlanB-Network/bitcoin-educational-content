@@ -56,7 +56,7 @@ https://planb.academy/tutorials/contribution/content/write-tutorials-github-web-
 
 
 - GitHub 계정](https://github.com/signup)이 있어야 합니다;
-- Plan ₿ Academy 소스 리포지토리](https://github.com/Plan ₿ Academy/Bitcoin-educational-content)의 Fork이 있어야 합니다;
+- Plan ₿ Academy 소스 리포지토리](https://github.com/PlanB-Network/Bitcoin-educational-content)의 Fork이 있어야 합니다;
 - Plan ₿ Network에 [교수 프로필](https://planb.academy/professors)이 있어야 합니다(전체 튜토리얼을 제안하는 경우에만 해당).
 
 
@@ -229,7 +229,7 @@ https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9b
 ![DATA-CREATOR-PY](assets/fr/45.webp)
 
 
-프로젝트_id`는 튜토리얼에서 다루는 도구를 만든 회사 또는 조직의 UUID로, [프로젝트 목록](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/resources/projects)에서 확인할 수 있습니다. 예를 들어 Sparrow wallet에 대한 튜토리얼의 경우 파일에서 `project_id`를 찾을 수 있습니다: `Bitcoin-educational-content/resources/projects/Sparrow/project.yml`입니다. 이 정보가 튜토리얼의 YAML 파일에 추가되는 이유는 Plan ₿ Network에서 Bitcoin 또는 관련 프로젝트에서 활동하는 회사 및 조직의 데이터베이스를 관리하기 때문입니다. 연결된 `project_id`를 추가하면 콘텐츠를 관련 엔티티에 연결할 수 있습니다.
+프로젝트_id`는 튜토리얼에서 다루는 도구를 만든 회사 또는 조직의 UUID로, [프로젝트 목록](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects)에서 확인할 수 있습니다. 예를 들어 Sparrow wallet에 대한 튜토리얼의 경우 파일에서 `project_id`를 찾을 수 있습니다: `Bitcoin-educational-content/resources/projects/Sparrow/project.yml`입니다. 이 정보가 튜토리얼의 YAML 파일에 추가되는 이유는 Plan ₿ Network에서 Bitcoin 또는 관련 프로젝트에서 활동하는 회사 및 조직의 데이터베이스를 관리하기 때문입니다. 연결된 `project_id`를 추가하면 콘텐츠를 관련 엔티티에 연결할 수 있습니다.
 
 
 ***업데이트: *** 새 버전의 스크립트에서는 더 이상 `project_id`를 수동으로 입력할 필요가 없습니다. 이름으로 프로젝트를 찾고 해당 `project_id`를 자동으로 검색하는 검색 기능이 추가되었습니다. 검색하려면 '프로젝트 이름' 필드에 프로젝트 이름의 앞부분을 입력한 후 드롭다운 메뉴에서 원하는 회사를 선택하세요. 아래 필드에 `project_id`가 자동으로 채워집니다. 필요한 경우 수동으로 입력할 수도 있습니다.
@@ -238,7 +238,7 @@ https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9b
 ![DATA-CREATOR-PY](assets/fr/46.webp)
 
 
-태그의 경우 [Plan ₿ Academy 태그 목록](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md)에서 튜토리얼 콘텐츠와 관련된 관련 키워드를 2개 또는 3개 선택합니다. 이 소프트웨어는 드롭다운 목록을 통한 키워드 검색 기능도 제공합니다.
+태그의 경우 [Plan ₿ Academy 태그 목록](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md)에서 튜토리얼 콘텐츠와 관련된 관련 키워드를 2개 또는 3개 선택합니다. 이 소프트웨어는 드롭다운 목록을 통한 키워드 검색 기능도 제공합니다.
 
 
 ![DATA-CREATOR-PY](assets/fr/47.webp)
@@ -253,7 +253,7 @@ https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9b
 이제 스크립트에서 이미 이러한 작업을 완료했으므로 '내 Python 스크립트 없이'라는 하위 섹션과 3단계인 'YAML 파일 채우기'를 건너뛸 수 있습니다. 4단계로 바로 진행하여 튜토리얼 작성을 시작하세요.
 
 
-이 Python 스크립트에 대한 자세한 내용은 [README](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md)에서도 확인할 수 있습니다.
+이 Python 스크립트에 대한 자세한 내용은 [README](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md)에서도 확인할 수 있습니다.
 
 
 ### 파이썬 스크립트 없이
@@ -344,11 +344,11 @@ reward:
 
 
 
-- project_id**: 프로젝트 목록에서](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/resources/projects) 튜토리얼에 제시된 도구의 배후에 있는 회사 또는 조직의 UUID입니다. 예를 들어 Green Wallet 소프트웨어에 대한 튜토리얼을 만드는 경우 다음 파일에서 이 `project_id`를 찾을 수 있습니다: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. 이 정보는 Plan ₿ Network에서 Bitcoin 또는 관련 프로젝트를 운영하는 모든 회사 및 조직의 데이터베이스를 유지 관리하기 때문에 튜토리얼의 YAML 파일에 추가됩니다. 튜토리얼에 연결된 엔티티의 `project_id`를 추가하면 두 Elements 사이에 링크가 생성됩니다;
+- project_id**: 프로젝트 목록에서](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects) 튜토리얼에 제시된 도구의 배후에 있는 회사 또는 조직의 UUID입니다. 예를 들어 Green Wallet 소프트웨어에 대한 튜토리얼을 만드는 경우 다음 파일에서 이 `project_id`를 찾을 수 있습니다: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. 이 정보는 Plan ₿ Network에서 Bitcoin 또는 관련 프로젝트를 운영하는 모든 회사 및 조직의 데이터베이스를 유지 관리하기 때문에 튜토리얼의 YAML 파일에 추가됩니다. 튜토리얼에 연결된 엔티티의 `project_id`를 추가하면 두 Elements 사이에 링크가 생성됩니다;
 
 
 
-- 태그**: 튜토리얼 콘텐츠와 관련된 관련 키워드 2개 또는 3개, [Plan ₿ Academy 태그 목록에서] 독점적으로 선택(https://github.com/Plan ₿ Academy/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- 태그**: 튜토리얼 콘텐츠와 관련된 관련 키워드 2개 또는 3개, [Plan ₿ Academy 태그 목록에서] 독점적으로 선택(https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 
 
@@ -364,7 +364,7 @@ reward:
 
 
 
-- 교수자_ID**: 교수자 프로필](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/professors)에 표시된 `교수자_id`(UUID)입니다;
+- 교수자_ID**: 교수자 프로필](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors)에 표시된 `교수자_id`(UUID)입니다;
 
 
 

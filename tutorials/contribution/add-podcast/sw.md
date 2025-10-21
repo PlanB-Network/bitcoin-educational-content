@@ -20,7 +20,7 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 
 
 
-- Nenda kwenye [hakuna ya GitHub ya PlanB iliyowekwa kwa data](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/tree/dev/resources/podcasts) katika sehemu ya `rasilimali/podcast/`:
+- Nenda kwenye [hakuna ya GitHub ya PlanB iliyowekwa kwa data](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/podcasts) katika sehemu ya `rasilimali/podcast/`:
 
 ![podcast](assets/02.webp)
 

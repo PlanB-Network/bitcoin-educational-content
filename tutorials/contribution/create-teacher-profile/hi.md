@@ -16,7 +16,7 @@ Plan ₿ Academy पर अपना शिक्षक प्रोफाइल
 
 ### 1 - अपने स्थानीय वातावरण को कॉन्फ़िगर करें
 
-आपके पास अपना खुद का Fork होना चाहिए, जिसे आप [Plan ₿ Academy रिपॉजिटरी GitHub पर](https://github.com/Plan ₿ Academy/Bitcoin-educational-content) से प्राप्त कर सकते हैं।
+आपके पास अपना खुद का Fork होना चाहिए, जिसे आप [Plan ₿ Academy रिपॉजिटरी GitHub पर](https://github.com/PlanB-Network/Bitcoin-educational-content) से प्राप्त कर सकते हैं।
 
 अपने Fork की मुख्य शाखा (`dev`) को स्रोत रिपॉजिटरी के साथ समकालिक करें।
 
@@ -27,7 +27,7 @@ Plan ₿ Academy पर अपना शिक्षक प्रोफाइल
 git clone https://github.com/<username>/bitcoin-educational-content.git
 cd bitcoin-educational-content
 # Ajouter le dépôt source en tant que remote upstream
-git remote add upstream https://github.com/Plan ₿ Academy/bitcoin-educational-content.git
+git remote add upstream https://github.com/PlanB-Network/bitcoin-educational-content.git
 # Récupérer les dernières modifications depuis le dépôt source
 git fetch upstream
 # Se positionner sur la branche principale 'dev'
@@ -120,7 +120,7 @@ git push origin add-professor-loic-morel
 शुरुआती लोगों के लिए, मैं सुझाव देता हूँ कि आप सीधे GitHub के Interface वेब के माध्यम से संशोधन करें। सुनिश्चित करें कि आपके पास एक GitHub खाता है। अगर आपको नहीं पता कि इसे कैसे बनाना है, तो इस ट्यूटोरियल का पालन करें:
 
 https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
-[Plan ₿ Academy GitHub रिपॉजिटरी जो डेटा के लिए समर्पित है](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/graphs/contributors) पर जाएं।
+[Plan ₿ Academy GitHub रिपॉजिटरी जो डेटा के लिए समर्पित है](https://github.com/PlanB-Network/Bitcoin-educational-content/graphs/contributors) पर जाएं।
 
 ![Image](assets/fr/03.webp)
 

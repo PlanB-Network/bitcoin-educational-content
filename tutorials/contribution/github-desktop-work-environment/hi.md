@@ -77,7 +77,7 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 
 
 
-- निम्नलिखित Address पर PlanB नेटवर्क डेटा रिपॉजिटरी पर जाएं: [https://github.com/Plan ₿ Academy/Bitcoin-educational-content](https://github.com/Plan ₿ Academy/Bitcoin-educational-content): ![github-desktop](assets/10.webp)
+- निम्नलिखित Address पर PlanB नेटवर्क डेटा रिपॉजिटरी पर जाएं: [https://github.com/PlanB-Network/Bitcoin-educational-content](https://github.com/PlanB-Network/Bitcoin-educational-content): ![github-desktop](assets/10.webp)
 - इस पृष्ठ से, विंडो के शीर्ष दाईं ओर स्थित `Fork` बटन पर क्लिक करें: ![github-desktop](assets/11.webp)
 - क्रिएशन मेनू में, आप डिफ़ॉल्ट सेटिंग को छोड़ सकते हैं। सुनिश्चित करें कि `केवल डेव शाखा की प्रतिलिपि बनाएँ` बॉक्स चेक किया गया है, फिर `Fork बनाएँ` बटन पर क्लिक करें: ![github-desktop](assets/12.webp)
 - फिर आप PlanB नेटवर्क रिपोजिटरी के अपने Fork पर पहुंचेंगे: ![github-desktop](assets/13.webp)

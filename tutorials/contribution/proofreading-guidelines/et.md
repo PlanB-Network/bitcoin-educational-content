@@ -9,7 +9,7 @@ description: Millised on olulised tegurid, mida tuleb Plan ₿ Academy korrektuu
 Tere tulemast selle õpetuse juurde, mis käsitleb **juhiseid, mida tuleb järgida Plan ₿ Academy sisu korrektuurimisel**. Meil on hea meel, et jagate meie missiooni tõlkida Bitcoin materjale võimalikult paljudesse keeltesse, et aidata inimestel saada teada, kuidas see toimib ja kuidas seda igapäevaelus kasutada.
 
 
-Kõigepealt annab Plan ₿ Academy [avalik repositoorium] (https://github.com/Plan ₿ Academy/Bitcoin-educational-content) panustamine teile võimaluse kirjutada õpetusi, parandada olemasolevat sisu või isegi teha ettepanekuid uue keele lisamiseks platvormile. Et rohkem teada saada, liitu kõigepealt meie [Telegram Group](https://t.me/PlanBNetwork_ContentBuilder) ja kirjuta lühike tutvustus enda ja keelte kohta, mida sa oskad.
+Kõigepealt annab Plan ₿ Academy [avalik repositoorium] (https://github.com/PlanB-Network/Bitcoin-educational-content) panustamine teile võimaluse kirjutada õpetusi, parandada olemasolevat sisu või isegi teha ettepanekuid uue keele lisamiseks platvormile. Et rohkem teada saada, liitu kõigepealt meie [Telegram Group](https://t.me/PlanBNetwork_ContentBuilder) ja kirjuta lühike tutvustus enda ja keelte kohta, mida sa oskad.
 
 
 Käesolev juhendmaterjal on pühendatud kaastöötajatele, kes soovivad sisu korrigeerida. Enamik neist ei tea palju [Githubist](https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) ega [Markdown keelest](https://www.markdownguide.org/basic-syntax/), mida me repositooriumi sees kasutame, seega on oluline jagada mõningaid teadmisi selle ülesandega seotud võtmeteguritest.
@@ -289,7 +289,7 @@ Kui sa saadad oma PR-i, oleks hämmastav, kui sa nimetaksid selle sellisel kujul
 
 Peale selle võite **PR** kommentaaride lahtrisse kirjutada "sulgeb" + selle teema number, mille koordinaator saatis teile, kui alustasite korrektuuritööd, mille ees on ``#``.
 
-Näiteks kui sa just saatsid PR-i koos cyp201 + viktoriinide korrektuuriga, võid kirjutada "sulgeb [#2934](https://github.com/Plan ₿ Academy/Bitcoin-educational-content/issues/2934)".
+Näiteks kui sa just saatsid PR-i koos cyp201 + viktoriinide korrektuuriga, võid kirjutada "sulgeb [#2934](https://github.com/PlanB-Network/Bitcoin-educational-content/issues/2934)".
 
 
 Nii on PR ja probleem omavahel seotud ja kes iganes loeb avalikku Githubi repositooriumi, saab hõlpsasti teavet leida.

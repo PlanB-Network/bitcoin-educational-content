@@ -11,7 +11,7 @@ Kas soovite lisada oma Bitcoin'i konverentsi korduse PlanB võrgustiku saidile j
 Kui aga soovite lisada tulevikus toimuva konverentsi, soovitan teil [lugeda seda teist õpetust](https://planb.academy/tutorials/contribution/resource/add-event-1d3df554-c2d8-4e93-853f-58f672c5e097), milles selgitame, kuidas saidile uut üritust lisada.
 ![konverents](assets/01.webp)
 - Esiteks peate omama kontot GitHub'is. Kui te ei tea, kuidas kontot luua, oleme teinud [üksikasjaliku õpetuse, mis juhendab teid](https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c).
-- Minge [PlanB-le pühendatud GitHub'i andmerepositooriumisse](https://github.com/Plan ₿ Academy/bitcoin-educational-content/tree/dev/resources/conference) jaotisesse `resources/conference/`:
+- Minge [PlanB-le pühendatud GitHub'i andmerepositooriumisse](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) jaotisesse `resources/conference/`:
 ![konverents](assets/02.webp)
 - Klõpsake paremal üleval nupul `Add file`, seejärel `Create new file`:
 ![konverents](assets/03.webp)

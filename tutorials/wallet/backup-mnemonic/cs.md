@@ -50,7 +50,7 @@ Image credit: [*SAFU Ninja Review*, Jameson Lopp](https://jlopp.github.io/metal-
 
 Pokud raději investujete do kompletního zařízení pro zálohování kovů, doporučuji vám podívat se na [testy odolnosti Jamesona Loppa](https://jlopp.github.io/metal-bitcoin-storage-reviews/), které hodnotí většinu řešení dostupných na trhu. Doporučil bych vám, abyste se rozhodli pro jednodílné držáky, jako je kovová deska pro gravírování, ražení nebo děrování. Tato zařízení obecně nabízejí mnohem větší odolnost než systémy využívající samostatná písmena, která je třeba sestavit.
 
-Pokud se rozhodnete pro papírovou peněženku, máte několik možností: jednoduchý prázdný list papíru, kartonovou peněženku, která se často dodává s hardwarovou peněženkou, nebo naši šablonu ke stažení, kterou si můžete vytisknout [kliknutím sem](https://github.com/Plan ₿ Academy/bitcoin-educational-content/blob/dev/resources/bet/wallet-backup-sheet/assets/mnemonic-sheet.pdf).
+Pokud se rozhodnete pro papírovou peněženku, máte několik možností: jednoduchý prázdný list papíru, kartonovou peněženku, která se často dodává s hardwarovou peněženkou, nebo naši šablonu ke stažení, kterou si můžete vytisknout [kliknutím sem](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/wallet-backup-sheet/assets/mnemonic-sheet.pdf).
 
 ![SEED](assets/fr/02.webp)
 

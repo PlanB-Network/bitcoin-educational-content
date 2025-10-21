@@ -410,7 +410,7 @@ Med andra ord kör cirka 9 av 10 publika noder Bitcoin core. Resten av nätverke
 
 
 
-Bitcoin core är skrivet i C++. Det är också ett projekt med öppen källkod som underhålls av en grupp utvecklare som arbetar frivilligt eller får betalt av olika enheter (ofta av företag i ekosystemet som har ett intresse av Cores utveckling). [Koden finns på GitHub] (https://github.com/Bitcoin/Bitcoin) och utvecklingen följer en rigorös:
+Bitcoin Core är en programvara skriven i C++. Det är också ett open source-projekt som underhålls av en gemenskap av utvecklare — frivilliga eller finansierade av olika aktörer (ofta företag i ekosystemet som har ett intresse av att Core-utvecklingen fortskrider gynnsamt). [Koden är hostad på GitHub](https://github.com/bitcoin/bitcoin), och utvecklingen följer en strikt modell:
 
 
 
@@ -448,7 +448,7 @@ Vi kan också nämna:
 
 - Libbitcoin**: ett modulärt C++-bibliotek som utvecklats av Amir Taaki och underhålls av Eric Voskuil;
 - Bcoin**: en JavaScript-implementering, som inte längre underhålls aktivt;
-- BTCD/btcsuit**e: en implementering i Go.
+- **BTCD/btcsuite** : en implementation i Go.
 
 
 
@@ -2941,7 +2941,7 @@ När noden har slutfört sin första synkronisering lagrar den flera komplettera
 
 
 
-- gW-402 **block** lagrade på disk,
+- **blocken** i blockkedjan som lagras på disken,
 - **UTXO-uppsättningen** i en databas med nyckelvärden,
 - och **Mempool** lagras i RAM-minnet och serialiseras periodiskt.
 
@@ -3093,7 +3093,7 @@ Mempool är den lokala uppsättningen av giltiga transaktioner som har tagits em
 
 
 - den storlek som tilldelas Mempool via parametern `maxmempool`: en nod med en större Mempool kommer att kunna rymma fler transaktioner än en nod med en mindre Mempool (såvida inte den senare blir tom);
-- gW-433-regler: dessa är en delmängd av nodens reläregler och definierar de egenskaper som en obekräftad transaktion måste uppfylla för att kunna accepteras i Mempool;
+- mempool-reglerna: de utgör en delmängd av nodens vidarebefordringsregler och definierar de egenskaper som en obekräftad transaktion måste uppfylla för att accepteras i mempoolen;
 - transaktionsperkolation: På grund av olika faktorer kan en viss transaktion ha distribuerats till en del av nätverket, men ännu inte nått en annan del.
 
 
@@ -3135,10 +3135,10 @@ Flera andra filer på samma nivå som `blocks/`, `chainstate/` och `indexes/` me
 - När noden stängs av sparar `anchors.dat` adresserna till utgående peers, så att du snabbt kan försöka kontakta dem igen nästa gång du startar upp.
 - `banlist.json` innehåller lokala förbud som beslutats av operatören eller av noden (upprepat ogiltigt beteende), för att förhindra att noden återansluter eller accepterar anslutningar från dessa specifika peers.
 - i `fee_estimates.dat` lagras tidshorisontstatistik över observerade bekräftelser, som används av avgiftsberäknaren för att föreslå avgiftssatser som överensstämmer med de fördröjningsmål som valts när en transaktion skapades.
-- gW-446.conf` innehåller din nods konfigurationsparametrar. Det är här du kan justera reläreglerna. Jag ska berätta mer om detta i nästa kapitel.
+- `bitcoin.conf` innehåller din nods konfigurationsparametrar. Det är i denna fil som reläreglerna kan justeras. Jag kommer att förklara detta mer i detalj i nästa kapitel;
 - `settings.json` innehåller ytterligare parametrar till `Bitcoin.conf`.
 - `debug.log` är en diagnostisk textlogg som kan användas för att förstå nodens aktivitet om det uppstår en bugg.
-- gW-448.pid` lagrar processidentifieraren vid körning, vilket gör att andra program eller skript enkelt kan identifiera bitcoind (*Bitcoin daemon*) och interagera med den vid behov. Den skapas vid nodstart och raderas vid nedstängning.
+- `bitcoind.pid` registrerar process-ID:t under körning, vilket gör att andra applikationer eller skript enkelt kan identifiera Bitcoind (*Bitcoin Daemon*) och interagera med det vid behov. Den skapas vid nodens start och tas bort vid avstängning;
 - `ip_asn.map` är en mappningstabell för IP → ASN (fristående system) som används för bucketing och peer-diversifiering (alternativet `-asmap`).
 - `onion_v3_private_key` lagrar den privata nyckeln för Tor v3-tjänsten när alternativet `-listenonion` är aktiverat, för att hålla en stabil lök Address mellan omstarter.
 - `i2p_private_key` lagrar I2P:s privata nyckel när `-i2psam=` används, för att göra utgående och eventuellt inkommande anslutningar på I2P.
@@ -3154,9 +3154,9 @@ Som vi såg i de första delarna av denna BTC 202-kurs är Bitcoin core både Bi
 
 
 
-- `wallets/` är standardkatalogen som är värd för en eller flera;
+- `wallets/` är standardkatalogen som innehåller en eller flera plånböcker;
 - `wallets/<name>/Wallet.dat` är SQLite-databasen för Wallet (nycklar, deskriptorer, transaktionsmetadata etc.);
-- wallets/<name>/Wallet.dat-journal` är SQLite rollback-loggen.
+- `wallets/<name>/wallet.dat-journal` är SQLite:s rollback-journal.
 
 
 
@@ -3335,10 +3335,10 @@ På nätverksnivå har vi också:
 
 
 - `addnode`: lägger till en vänlig kollega att kontakta utöver den vanliga upptäckten (kan anges flera gånger).
-- connect`: begränsar strikt anslutningar till den Address som tillhandahålls (kan anges flera gånger). Kärnan kommer inte att ansluta till någon annan nod.
+- `connect`: begränsar strikt anslutningar till den angivna adressen (kan anges flera gånger). Core kommer inte att ansluta till någon annan nod;
 - `seednode`: används endast för att fylla i boken-Address när du ansluter till en nod och sedan kopplar bort.
 - `maxconnections`: definierar det globala taket för inkommande + utgående anslutningar. Som standard är denna parameter inställd på 125, vilket innebär att din nod aldrig kommer att acceptera fler än 125 anslutningar.
-- maxuploadtarget`: begränsar uppladdningar för att begränsa bandbredden under ett glidande 24-timmarsfönster. Detta tak offrar inte spridningen av viktiga nya Elements.
+- `maxuploadtarget` : begränsar uppladdningen för att minska bandbredden under ett rullande 24-timmarsfönster. Denna gräns komprometterar inte spridningen av viktiga senaste element;
 - `onlynet`: begränsar utgående anslutningar till endast utvalda nätverk (`ipv4`, `ipv6`, `onion`, `i2p`, `cjdns`). Om du t.ex. vill att din nod endast ska ansluta till Bitcoin-nätverket via Tor kan du aktivera parametern `onlynet=onion` och inaktivera inkommande anslutningar (eller endast tillåta anslutningar via Tor också).
 - `dnsseed`: tillåter eller förbjuder _DNS seeds_ att begära peers när din lokala Address-pool är låg (standard: `1`, om inte `-connect` eller `-maxconnections=0`).
 - `forcednsseed`: tvingar _DNS seeds_ att begäras vid start, även om du redan har adresser i lager (standard: `0`).
@@ -3362,7 +3362,7 @@ För att vara helt Tor-aktiverad måste du tvinga Bitcoin core att endast använ
 - `torcontrol=127.0.0.1:9051`,
 - `proxyrandomize=1`,
 - `lyssna=1`,
-- bind=127.0.0.1`,
+- `bind=127.0.0.1`,
 - `upnp=0`,
 - `natpmp=0`.
 
@@ -3418,7 +3418,7 @@ Här är de grundläggande parametrarna som du kan ändra i din `Bitcoin.conf` n
 
 
 
-- blocksonly=1`: Avaktiverar godkännande och återsändning av obekräftade transaktioner som tas emot från peers (om inte särskilda behörigheter beviljas). Noden laddar nu bara upp och annonserar block. Transaktioner som skapas lokalt kan fortfarande sändas (för att använda din nod med din Wallet-programvara). Detta minskar kraftigt kraven på bandbredd och RAM-minne, om än på bekostnad av minskad användbarhet för reläet och total obekantskap med Mempool.
+- `blocksonly=1` : Inaktiverar mottagning och vidarebefordran av obekräftade transaktioner som tas emot från noder (förutom med särskilda tillstånd). Noden laddar endast ner och tillkännager block. Lokalt skapade transaktioner kan fortfarande sändas (för att använda din nod med din plånboksprogramvara). Detta minskar bandbredd och RAM-behov avsevärt, men minskar nyttan för relä och innebär total okunnighet om mempoolen.
 
 
 
@@ -3448,7 +3448,7 @@ Här är de avancerade inställningarna för Mempool och reläpolicy. Om du är 
 
 
 
-- datacarrier=1`: Tillåter vidarebefordran och (om Mining via nod) inkludering av transaktioner som innehåller icke-finansiella data via en `OP_RETURN`-utgång (standard: `1`). Om du avaktiverar denna parameter minskar ytan för spam med icke-finansiella data något, till priset av minskad kompatibilitet med vissa användningsområden. I samtliga fall måste du acceptera minerad `OP_RETURN`.
+- `datacarrier=1` : Tillåter vidarebefordran och (vid mining via noden) inkludering av transaktioner som bär icke-finansiella data via en `OP_RETURN`-utgång (standard: `1`). Att inaktivera denna parameter minskar något risken för icke-finansiell dataspam på bekostnad av lägre kompatibilitet med vissa användningsområden. I alla fall måste du acceptera utvunna `OP_RETURN`.
 
 
 
@@ -3490,13 +3490,13 @@ Här är de avancerade inställningarna för Mempool och reläpolicy. Om du är 
 
 
 
-- peerbloomfilters=1`: Aktivera stöd för Bloom-filter (BIP37) för att servera filtrerade block/transaktioner till tunna klienter (standard: `0`). Varning: detta ökar belastningen på dina resurser.
+- `peerbloomfilters=1` : Aktiverar stöd för Bloom-filter (BIP37) för att tillhandahålla filtrerade block/transaktioner till lätta klienter (standard: `0`). Observera att detta ökar belastningen på dina resurser.
 
 
 
 
 
-- peerblockfilters=1`: Serverar kompaktfilter för BIP157 (*Neutrino*) till peers (standard: `0`).
+- `peerblockfilters=1` : Tillhandahåller kompakta BIP157 (*Neutrino*) filter till noder (standard: `0`).
 
 
 
@@ -3520,7 +3520,7 @@ Du kan också justera hur dina plånböcker ska hanteras i filen `Bitcoin.conf`.
 
 
 
-- addresstype=<legacy|P2SH-SegWit|bech32|bech32m>`: Definierar formatet för Wallet-genererade adresser för mottagning.
+- `addresstype=<legacy|p2sh-segwit|bech32|bech32m>` : Definierar formatet för adresser som plånboken genererar för mottagning.
 
 
 
@@ -3568,7 +3568,7 @@ Du kan också justera hur dina plånböcker ska hanteras i filen `Bitcoin.conf`.
 
 
 
-- fallbackfee=<amt>`: Reservränta (BTC/kvB) som används om estimatorn får slut på data (standard: `0.00`). Om den sätts till 0 inaktiveras fallback helt.
+- `fallbackfee=<amt>` : Reservavgift (BTC/kvB) som används om uppskattaren saknar data (standard: `0.00`). Att ställa in den till 0 inaktiverar reservfunktionen helt.
 
 
 
@@ -3660,7 +3660,7 @@ Med konfigurationsfilen kan du också justera parametrarna för din maskin. Dett
 
 
 
-- txindex=1`: Skapar och underhåller ett globalt index över bekräftade transaktioner. Väsentligt för vissa frågor (`getrawtransaction` ej Wallet) och för utforskningsändamål, men ökar diskavtrycket avsevärt. Inkompatibel med pruned-läget.
+- `txindex=1` : Bygger och underhåller ett globalt index över bekräftade transaktioner. Nödvändigt för vissa förfrågningar (`getrawtransaction` utanför plånboken) och för utforskningsändamål, men ökar diskförbrukningen avsevärt. Inte kompatibelt med beskuret läge.
 
 
 

@@ -181,6 +181,8 @@ videos:
   - id: f00822b4-dc1a-46ff-adfc-ff7c97a0024d
     youtube:
       - en: AnMiD9amSUg
+    peertube:
+      - en: 982WYFS8NL9QcSecP1V6oW
   - id: 1a6289b5-fdae-4320-b5b1-41925150108c
     youtube:
       - en: ucc3a-udbgo

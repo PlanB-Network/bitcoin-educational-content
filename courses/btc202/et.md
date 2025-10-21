@@ -410,7 +410,7 @@ Teisisõnu, umbes 9 avalikku sõlme 10-st kasutab Bitcoin core. Ülejäänud võ
 
 
 
-Bitcoin core on kirjutatud C++ keeles. Samuti on tegemist avatud lähtekoodiga projektiga, mida hooldab arendajate kogukond, kes töötavad vabatahtlikult või saavad palka erinevatelt üksustelt (sageli ökosüsteemi ettevõtetelt, kellel on huvi Core'i arendamise vastu). [Kood asub GitHubis](https://github.com/Bitcoin/Bitcoin) ja arendus järgib ranget:
+Bitcoin Core on C++-is kirjutatud tarkvara. See on ka avatud lähtekoodiga projekt, mida haldab arendajate kogukond — vabatahtlikud või erinevate üksuste poolt tasustatud (sageli ökosüsteemi ettevõtted, kellel on huvi, et Core'i arendus kulgeks soodsalt). [Kood on majutatud GitHubis](https://github.com/bitcoin/bitcoin) ning arendus järgib ranget mudelit:
 
 
 
@@ -448,7 +448,7 @@ Võime ka mainida:
 
 - Libbitcoin**: Amir Taaki poolt välja töötatud ja Eric Voskuili poolt hooldatud modulaarne C++ raamatukogu;
 - Bcoin**: JavaScripti rakendus, mida enam aktiivselt ei hooldata;
-- BTCD/btcsuit**e: rakendamine Go keeles.
+- **BTCD/btcsuite** : Go-keeles teostus.
 
 
 
@@ -2941,7 +2941,7 @@ Kui teie sõlme on lõpetanud esialgse sünkroniseerimise, salvestab ta mitu tä
 
 
 
-- gW-402 **plokid**, mis on salvestatud kettale,
+- kettale salvestatud plokiahela **plokid**,
 - **UTXO kogum**, mida hoitakse võtmeväärtusandmebaasis,
 - ja **Mempool** salvestatakse RAM-i ja perioodiliselt seeriaviisiliselt.
 
@@ -3093,7 +3093,7 @@ Mempool on vastuvõetud, kuid veel kinnitamata kehtivate tehingute kohalik kogum
 
 
 - gW-614-le parameetri `maxmempool` kaudu eraldatud suurus: suurema Mempool-ga sõlme saab mahutada rohkem tehinguid kui väiksema Mempool-ga sõlme (välja arvatud juhul, kui viimane muutub tühjaks);
-- gW-433 reeglid: need on sõlme releereeglite alamhulk ja määratlevad omadused, millele kinnitamata tehing peab vastama, et seda Mempool-s aktsepteeritaks;
+- mempooli reeglid: need moodustavad sõlme edastusreeglite alamhulga ja määravad omadused, mida kinnitamata tehing peab täitma, et see vastu võetaks mempooli;
 - tehingu perkolatsioon: erinevate tegurite tõttu võib teatav tehing olla jaotatud võrgu ühte ossa, kuid ei ole veel jõudnud teise ossa.
 
 
@@ -3135,10 +3135,10 @@ Mitmed teised failid samal tasemel nagu `blocks/`, `chainstate/` ja `indexes/` o
 - Kui sõlm on välja lülitatud, salvestab `anchors.dat` väljuvate partnerite aadressid, nii et saate järgmisel käivitamisel nendega kiiresti uuesti ühendust võtta.
 - `banlist.json` sisaldab lokaalseid keelde, mille on otsustanud operaator või sõlm (korduv kehtetu käitumine), et takistada sõlme uuesti ühendumist või ühenduste vastuvõtmist nendelt konkreetsetelt eakaaslastelt.
 - "fee_estimates.dat" salvestab vaadeldud kinnituste ajalise horisondi statistikat, mida tasude kalkulaator kasutab, et teha ettepanekuid tasumäärade kohta, mis on kooskõlas tehingu loomisel valitud viivitus-eesmärkidega.
-- gW-446.conf` sisaldab teie sõlme konfiguratsiooniparameetreid. Siin saate reguleerida relee reegleid. Sellest räägin teile lähemalt järgmises peatükis.
+- `bitcoin.conf` sisaldab teie sõlme konfiguratsiooniparameetreid. Just selles failis saab kohandada edastamise reegleid. Räägin sellest lähemalt järgmises peatükis;
 - `settings.json` sisaldab täiendavaid parameetreid failile `Bitcoin.conf`.
 - `debug.log` on diagnostiline tekstilogi, mida saab kasutada vea korral sõlme tegevuse mõistmiseks.
-- gW-448.pid` salvestab protsessi identifikaatori töö ajal, mis võimaldab teistel rakendustel või skriptidel bitcoind (*Bitcoin daemon*) hõlpsasti tuvastada ja vajaduse korral sellega suhelda. See luuakse sõlme käivitamisel ja kustutatakse sulgemisel.
+- `bitcoind.pid` salvestab protsessi ID käivitamise ajal, mis võimaldab teistel rakendustel või skriptidel Bitcoind’i (*Bitcoin Daemon*) hõlpsasti tuvastada ja vajadusel sellega suhelda. See luuakse sõlme käivitamisel ja kustutatakse selle seiskamisel;
 - `ip_asn.map` on IP → ASN kaardistamise tabel (iseseisev süsteem), mida kasutatakse bucketing ja peer diversification (valik `-asmap`).
 - `onion_v3_private_key` salvestab Tor v3 teenuse privaatvõtme, kui valik `-listenonion` on lubatud, et hoida onion Address stabiilset taaskäivituste vahel.
 - `i2p_private_key` salvestab I2P privaatvõtme, kui kasutatakse `-i2psam=`, et luua väljaminevad ja võimalusel sissetulevad ühendused I2P kaudu.
@@ -3154,9 +3154,9 @@ Nagu me nägime selle BTC 202 kursuse esimestes osades, on Bitcoin core nii Bitc
 
 
 
-- `wallets/` on vaikimisi kataloog, kus asub üks või mitu;
+- `wallets/` on vaikimisi kataloog, mis sisaldab ühte või mitut rahakotti;
 - `wallets/<nimi>/Wallet.dat` on Wallet SQLite andmebaas (võtmed, kirjeldused, tehingu metaandmed jne);
-- wallets/<name>/Wallet.dat-journal` on SQLite'i tagasivõtulogi.
+- `wallets/<name>/wallet.dat-journal` on SQLite tagasipööramise logi.
 
 
 
@@ -3335,10 +3335,10 @@ Võrgustiku tasandil on meil ka:
 
 
 - `addnode`: lisab lisaks tavapärasele avastamisele (võib määrata mitu korda) ka sõbraliku partneri, kellega ühendust võtta.
-- connect`: piirab rangelt ühendusi Address-ga (võib määrata mitu korda). Core ei ühendu ühegi teise sõlme juurde.
+- `connect`: piirab ühendused rangelt antud aadressile (võib määrata mitu korda). Core ei ühendu ühegi teise sõlmega;
 - `seednode`: kasutatakse ainult book-Address täitmisel, kui sõlme ühendatakse, siis katkestatakse ühendus.
 - `maxconnections`: määrab sissetulevate + väljaminevate ühenduste üldise ülemmäära. Vaikimisi on selle parameetri väärtuseks 125, mis tähendab, et teie sõlmpunkt ei võta kunagi vastu rohkem kui 125 ühendust.
-- maxuploadtarget`: piirab üleslaadimisi, et piirata ribalaiust libiseva 24-tunnise akna jooksul. See ülempiir ei ohusta oluliste hiljutiste Elements levikut.
+- `maxuploadtarget` : piirab üleslaadimist, et vähendada ribalaiust 24-tunnise liikuva ajavahemiku jooksul. See piirang ei ohverda oluliste hiljutiste elementide levikut;
 - `onlynet`: piirab väljaminevaid ühendusi ainult valitud võrkudega (`ipv4`, `ipv6`, `onion`, `i2p`, `cjdns`). Näiteks kui soovite, et teie sõlme ühendataks Bitcoin võrguga ainult Tori kaudu, saate lubada parameetrit `onlynet=onion` ja keelata sissetulevad ühendused (või lubada ühendusi ainult ka Tori kaudu).
 - `dnsseed`: lubab või keelab _DNS-seemnete_ taotlemise, kui teie kohalik Address-pool on väike (vaikimisi: `1`, kui `-connect` või `-maxconnections=0`).
 - `forcednsseed`: sunnib _DNS-seemneid_ taotlema käivitamisel, isegi kui teil on aadressid juba olemas (vaikimisi: `0`).
@@ -3362,7 +3362,7 @@ Et olla täielikult Tor-võimeline, peate sundima Bitcoin core kasutama ainult s
 - `torcontrol=127.0.0.1:9051`,
 - `proxyrandomize=1`,
 - `listen=1`,
-- bind=127.0.0.0.1`,
+- `bind=127.0.0.1`,
 - `upnp=0`,
 - `natpmp=0`.
 
@@ -3418,7 +3418,7 @@ Siin on põhiparameetrid, mida saate muuta oma "Bitcoin.conf"-is seoses Mempool 
 
 
 
-- blocksonly=1`: Keelab eakaaslastelt saadud kinnitamata tehingute vastuvõtmise ja uuesti edastamise (kui ei ole antud erilisi õigusi). Sõlm laeb nüüd ainult plokke üles ja reklaamib neid. Lokaalselt loodud tehinguid saab endiselt edastada (et kasutada oma sõlme koos Wallet tarkvaraga). See vähendab oluliselt ribalaiuse ja RAM-i nõudeid, kuigi selle hinnaga väheneb relee kasulikkus ja Mempool täielik tundmatus.
+- `blocksonly=1` : Keelab kinnitamata tehingute vastuvõtmise ja edastamise teistelt sõlmedelt (välja arvatud eriloaga). Sõlm laadib alla ja teatab ainult plokkidest. Kohapeal loodud tehinguid saab siiski edastada (et kasutada oma sõlme koos rahakotitarkvaraga). See vähendab oluliselt ribalaiuse ja RAM-i nõudeid, kuid vähendab sõlme kasulikkust edastamisel ja muudab mempooli tundmatuks.
 
 
 
@@ -3448,7 +3448,7 @@ Siin on Mempool ja releepoliitika täiustatud seaded. Kui te olete algaja, ei pe
 
 
 
-- datacarrier=1`: Lubab edastada ja (kui Mining sõlme kaudu) kaasata tehinguid, mis ei sisalda finantsandmeid OP_RETURN väljundi kaudu (vaikimisi: `1`). Selle parameetri deaktiveerimine vähendab veidi mittefinantsandmete rämpsposti kasutamispinda, kuid vähendab ühilduvust teatavate kasutusviiside puhul. Kõigil juhtudel tuleb aktsepteerida kaevandatud `OP_RETURN`.
+- `datacarrier=1` : Lubab edastada ja (kui kaevandatakse sõlme kaudu) lisada tehinguid, mis kannavad mittefinantsandmeid `OP_RETURN` väljundi kaudu (vaikimisi: `1`). Selle parameetri keelamine vähendab veidi mittefinantsandmete rämpsposti pinda, kuid vähendab ühilduvust teatud kasutustega. Kõigil juhtudel peate aktsepteerima kaevandatud `OP_RETURN`-id.
 
 
 
@@ -3490,13 +3490,13 @@ Siin on Mempool ja releepoliitika täiustatud seaded. Kui te olete algaja, ei pe
 
 
 
-- peerbloomfilters=1`: (vaikimisi: `0`): Võimaldab Bloom-filtrite (BIP37) toetuse, et pakkuda filtreeritud plokke/tehinguid õhukestele klientidele (vaikimisi: `0`). Hoiatus: see suurendab teie ressursside koormust.
+- `peerbloomfilters=1` : Lubab Bloom-filtrite (BIP37) toe, et pakkuda filtreeritud blokke/tehinguid kergetele klientidele (vaikimisi: `0`). Tähelepanu, see suurendab teie ressursside koormust.
 
 
 
 
 
-- peerblockfilters=1`: (vaikimisi: `0`).
+- `peerblockfilters=1` : Teenindab kaaslastele kompaktseid BIP157 (*Neutrino*) filtreid (vaikimisi: `0`).
 
 
 
@@ -3520,7 +3520,7 @@ Samuti saate kohandada oma rahakottide haldamise viisi failis `Bitcoin.conf`. Ku
 
 
 
-- addresstype=<legacy|P2SH-SegWit|bech32|bech32m>`: Määratleb Wallet-ga genereeritud aadresside vastuvõtu formaadi.
+- `addresstype=<legacy|p2sh-segwit|bech32|bech32m>` : Määrab rahakoti poolt vastuvõtmiseks loodud aadresside vormingu.
 
 
 
@@ -3568,7 +3568,7 @@ Samuti saate kohandada oma rahakottide haldamise viisi failis `Bitcoin.conf`. Ku
 
 
 
-- fallbackfee=<amt>`: Tagasipöördumismäär (BTC/kvB), mida kasutatakse juhul, kui hindaja andmed saavad otsa (vaikimisi: `0.00`). Selle seadmine 0-ks keelab tagasilanguse täielikult.
+- `fallbackfee=<amt>` : Varutasu (BTC/kvB), mida kasutatakse, kui hinnangul puuduvad andmed (vaikimisi: `0.00`). Väärtuse 0 määramine keelab varutuse täielikult.
 
 
 
@@ -3660,7 +3660,7 @@ Konfiguratsioonifail võimaldab teil ka seadme parameetreid reguleerida. See võ
 
 
 
-- txindex=1`: Ehitab ja säilitab kinnitatud tehingute globaalset indeksit. Oluline teatavate päringute jaoks (`getrawtransaction`, mitte-Wallet) ja uurimiseks, kuid suurendab oluliselt kettamahte. Ei ühildu pruned režiimiga.
+- `txindex=1` : Loob ja hooldab kinnitatud tehingute globaalset indeksit. Vajalik teatud päringute jaoks (`getrawtransaction` väljaspool rahakotti) ja uurimise eesmärgil, kuid suurendab märkimisväärselt kettakasutust. Ei ühildu kärbitud režiimiga.
 
 
 

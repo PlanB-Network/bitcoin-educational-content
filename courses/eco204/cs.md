@@ -1,980 +1,1605 @@
 ---
 name: Studie hyperinflace
-goal: Porozumění vzniku hyperinflací ve světě Fiat měn a jejich důsledkům
-objectives:
-  - Studium cyklů hyperinflace
-  - Porozumění skutečným dopadům hyperinflací na náš každodenní život
-  - Studium podobností hyperinflací v průběhu času
-  - Získání konkrétní představy o tom, jak se chránit před hyperinflacemi
+goal: Pochopení vzniku hyperinflací ve světě Fiatu a jejich důsledků
+objectives: 
+
+  - Studium hyperinflačních cyklů
+  - Pochopit skutečné dopady hyperinflace na náš každodenní život
+  - Studie podobností hyperinflací v průběhu času
+  - Mít konkrétní představu o tom, jak se chránit před hyperinflací
+
 ---
 
-# Cesta do ekonomie
+# Cesta do ekonomiky
 
-Tento program má za cíl poskytnout hluboké porozumění vzniku hyperinflací ve světě ovládaném Fiat měnou a zkoumat jejich významné důsledky. Účastníci budou podrobně prozkoumávat cykly hyperinflace, analyzovat příčiny, spouštěče a historické i současné příklady. Také se budou zabývat hmatatelným dopadem hyperinflací na ekonomiku a každodenní život, studovat důsledky na hodnotu měny, kupní sílu a individuální i kolektivní úspory.
 
-Zde zdůrazníme trendy a společné vzorce v epizodách hyperinflace v průběhu historie, zatímco poskytneme účinné a konkrétní strategie, jak se během období hyperinflace chránit. Účastníci budou mít příležitost prozkoumat různé investiční možnosti a finanční obranné mechanismy, získají praktické nástroje a nezbytné znalosti pro klidné navigování v nestabilním ekonomickém klimatu.
+Cílem tohoto programu je poskytnout hluboké porozumění vzniku hyperinflací ve světě, kde dominuje Fiat měna, a prozkoumat jejich významné důsledky. Účastníci se budou podrobně zabývat cykly hyperinflace, zkoumat její příčiny, spouštěče a uvádět historické i současné příklady. Budou také zkoumat hmatatelný dopad hyperinflace na ekonomiku a každodenní život, studovat dopady na hodnotu měny, kupní sílu a individuální i kolektivní úspory.
+
+
+Upozorníme zde na trendy a společné vzorce v epizodách hyperinflace v historii a zároveň poskytneme účinné a konkrétní strategie, jak se v období hyperinflace chránit. Účastníci budou mít příležitost prozkoumat různé investiční možnosti a finanční obranné mechanismy a získají praktické nástroje a nezbytné znalosti pro klidnou orientaci v nestabilním ekonomickém klimatu.
+
 
 +++
 
 # Úvod
 
+
 <partId>6fe4d15d-f6e6-54be-9e04-0a75ac98df8b</partId>
 
-## Přehled kurzu
+
+## Přehled kurzů
+
 
 <chapterId>9d1aba8d-0485-5020-9863-5de37e6db8e0</chapterId>
 
+
 Vítejte v kurzu ECO204!
 
-Cílem tohoto kurzu je pomoci vám pochopit hlubší příčiny, mechanismy a důsledky hyperinflací v kontextu fiat měnového systému. Pomocí konkrétních příkladů a historických analýz se naučíte rozpoznávat opakující se vzorce, které předcházejí obdobím hyperinflace, a identifikovat nástroje, jak se proti nim chránit.
 
-**Sekce 2: Co je to inflace?**  
-Než se ponoříme do hlavního tématu, vrátíme se k základům: co je to inflace? Tato sekce představí její měnové kořeny, různé typy inflace a jak zapadají do širší ekonomické dynamiky. Je to nezbytný krok k pochopení toho, jak se běžná inflace může změnit v hyperinflaci.
+Cílem tohoto kurzu je pomoci vám pochopit základní příčiny, mechanismy a důsledky hyperinflace v kontextu fiat měnového systému. Prostřednictvím konkrétních příkladů a historické analýzy se naučíte rozpoznat opakující se vzorce, které předcházejí obdobím hyperinflace, a identifikovat akční páky, jak se chránit.
 
-**Sekce 3: Co je to hyperinflace?**  
-V této sekci se seznámíte s přesnými definicemi hyperinflace a několika významnými historickými epizodami, včetně Výmarského Německa a Zimbabwe. Budeme analyzovat jejich společné rysy, rozdíly a současné paralely. Objevíte také méně známé případy, jako jsou opakované redenominace v Latinské Americe, a cesty, kterými se některé země dostaly z krize.
 
-**Sekce 4: Jak jsme se sem dostali?**  
-Tato část se zaměřuje na pochopení strukturálních mechanismů, které činí hyperinflace možnou, zejména prostřednictvím rozvoje „druhé vrstvy“ měny a role centrálních bank. Budou navrženy doplňkové zdroje pro hlubší porozumění a inspirativní čtení.
+**Odddíl 2: Co je inflace?**
 
-A co když se historie měny právě opakuje před našima očima? Posuďte sami v následujících kapitolách!
+Než se ponoříme do jádra tématu, zopakujeme si základní informace: co je to inflace? V této části představíme její měnový původ, různé typy inflace a jejich začlenění do širší ekonomické dynamiky. To je nezbytný krok k pochopení toho, jak se běžná inflace může vyvinout v hyperinflaci.
 
-# Co je inflace?
+
+**Část 3: Co je hyperinflace?**
+
+V této části se seznámíte s přesnými definicemi hyperinflace a prozkoumáte několik významných historických epizod, včetně případů výmarského Německa a Zimbabwe. Budeme analyzovat jejich společné rysy, rozdíly a současné paralely. Objevíte také méně známé případy, jako jsou postupné redenominace v Latinské Americe, a také strategie odchodu z krize pozorované v některých zemích.
+
+
+**Část 4: Jak jsme se sem dostali?**
+
+Cílem této části je pochopit strukturální mechanismy, které umožňují hyperinflaci, zejména prostřednictvím vývoje měnové "druhé Layer" a úlohy centrálních bank. Pro další zkoumání budou poskytnuty další zdroje a návrhy na četbu.
+
+
+Co kdyby se měnová historie opakovala před našima očima? Posuďte sami v následujících kapitolách!
+
+
+# Co je to inflace?
+
 
 <partId>2b4f456c-3649-5cf9-b9b0-a5bffe92d962</partId>
 
-## Monetární jev
+
+## Měnový fenomén
+
 
 <chapterId>b2cbc915-c4ec-52b5-860c-0958f58c91e4</chapterId>
 
+
 ### Definice inflace
 
-Inflace je koncept, který je často nesprávně chápán kvůli mnoha definicím, které s ním souvisí. Pohled na inflaci se liší mezi různými skupinami, jako jsou bitcoinisté a tradiční ekonomové. Nejprve objasněme definice, než přejdeme k diskusi o hyperinflaci:
 
-- Definice od Roberta: Inflace je nadměrný nárůst platebních prostředků (bankovek, kapitálu) způsobující růst cen a znehodnocení měny.
+Inflace je pojem, který bývá často nesprávně chápán, protože má mnoho definic a výkladů. Vnímání inflace se liší mezi různými skupinami, například mezi bitcoinisty a tradičními ekonomy. Než začneme diskutovat o hyperinflaci, objasněme si nejprve definice:
 
-- Definice od Larousse: Inflace je jev charakterizovaný obecným a nepřetržitým růstem cenové hladiny. Zde je slovo "obecný" klíčové.
 
-![obrázek](assets/fr/001.webp)
 
-Vzhledem k těmto definicím je zásadní pochopit, že pro Roberta se inflace týká hlavně nárůstu peněžní zásoby. Na druhé straně Larousse se zaměřuje na důsledky tohoto rozšíření, tj. na obecný růst cen.
+- Definice ze slovníku Le Robert: Inflace je nadměrný nárůst platebních prostředků (bankovek, kapitálu), který způsobuje růst cen a znehodnocení měny.
 
-V naší studii o hyperinflaci přijmeme druhou definici, tj. definici obecného růstu cen, protože je pro naše téma relevantnější a jasnější. Je však zásadní si pamatovat, že tento růst cen je obvykle výsledkem rozšíření peněžní zásoby.
-Proslulý ekonom Milton Friedman prohlásil:
+
+
+- Definice z encyklopedie Larousse: Inflace je jev, který se vyznačuje všeobecným a trvalým růstem cen. Slovo "všeobecný" je zde klíčové.
+
+
+![image](assets/cs/001.webp)
+
+
+Ve světle těchto definic je nezbytné si uvědomit, že pro Roberta se inflace týká především růstu peněz Supply. Naproti tomu Larousse se zaměřuje na důsledky této expanze, a to na všeobecný růst cen.
+
+
+V naší studii o hyperinflaci přijmeme druhou definici, tedy definici všeobecného růstu cen, protože je pro naše téma relevantnější a jasnější. Je však nezbytné si uvědomit, že tento růst cen je obecně důsledkem expanze peněz Supply.
+
+Známý ekonom Milton Friedman prohlásil:
+
 
 > "Inflace je vždy a všude měnovým jevem."
 
-Toto prohlášení zdůrazňuje vnitřní vztah mezi měnovou expanzí a inflací. V následujících částech prozkoumáme interakce mezi inflací a ekonomickým růstem na základě těchto základních definic.
+Toto tvrzení zdůrazňuje vnitřní vztah mezi měnovou expanzí a inflací. V následujících částech se budeme zabývat vztahem mezi inflací a hospodářským růstem, přičemž budeme vycházet z těchto základních definic.
 
-### Porozumění měnovému jevu
 
-Když mluvíme o měnovém jevu, odkazujeme na to, jak je ovlivněna peněžní zásoba ekonomiky. Milton Friedman to viděl podstatně jako nárůst této zásoby. Historicky existovaly dvě hlavní metody, jak zvýšit peněžní zásobu:
+### Pochopení měnového fenoménu
+
+
+Když mluvíme o měnovém fenoménu, máme na mysli způsob, jakým jsou ovlivňovány peníze Supply ekonomiky. Milton Friedman to v podstatě viděl jako zvýšení tohoto Supply. Historicky existovaly dva hlavní způsoby zvyšování peněžního Supply:
+
 
 1. Tisk peněz:
-   V tradičních měnových systémech bylo dosaženo zvýšení peněžní zásoby fyzickým tiskem nových bankovek. Ačkoli dnes, s převahou digitální měny, je tento tisk převážně elektronický (prostřednictvím databází centrálních bank a dalších finančních institucí), historie nám ukazuje období, kdy doslovný tisk bankovek vedl k hyperinflaci.
 
-2. Snížení obsahu kovu:
-   Další metodou bylo snížení množství drahého kovu v měnách založených na kovech, jako je stříbro nebo zlato. Nápadným příkladem může být Římská říše, kde denár, původně téměř zcela složený ze stříbra, viděl svůj obsah stříbra drasticky snížen v průběhu času. To představovalo formu inflace, ale nutně ne hyperinflace.
+V tradičních měnových systémech se zvýšení objemu peněz Supply dosahovalo fyzickým tiskem nových bankovek. Ačkoli v dnešní době, kdy převažují digitální měny, je tento tisk převážně elektronický (prostřednictvím databází centrálních bank a dalších finančních institucí), historie nám ukazuje období, kdy doslovný tisk bankovek vedl k hyperinflaci.
 
-![obrázek](assets/fr/002.webp)
 
-Je zásadní zdůraznit, že hyperinflace je hlavně pozorována u fiat měn odpojených od jejich základních aktiv, jako jsou drahé kovy. Historicky, když byla měna založena na takových aktivech, byly epizody inflace (např. prostřednictvím devalvace obsahu kovu), ale tyto epizody nikdy nedosáhly extrémních úrovní hyperinflace. V následujících částech podrobně prozkoumáme období měnové devalvace a důsledky těchto různých měnových systémů na inflaci.
+2. Snížení obsahu kovů:
 
-### Studium období měnové devalvace
+Další metodou bylo snížení množství drahých kovů v měnách založených na kovech, jako je stříbro nebo zlato. Názorný příklad lze nalézt v Římské říši, kde se u denáru, původně složeného téměř výhradně ze stříbra, obsah stříbra postupem času drasticky snížil. Jednalo se o určitou formu inflace, nikoli však nutně o hyperinflaci.
 
-V průběhu historie různé civilizace zažily období měnové devalvace. Některá z těchto období souvisejí s hlavními událostmi nebo válkami, které vyvíjely tlak na ekonomiku.
+
+![image](assets/cs/002.webp)
+
+
+Je důležité zdůraznit, že hyperinflace se projevuje především u fiat měn, které nejsou kryty podkladovými aktivy, jako jsou například drahé kovy. V minulosti, kdy byla měna založena na takovýchto aktivech, docházelo k epizodám inflace (např. znehodnocením obsahu kovů), ale tyto epizody nikdy nedosáhly extrémních úrovní hyperinflace. V následujících částech se budeme podrobně zabývat obdobími znehodnocování měny a důsledky těchto různých měnových systémů na inflaci.
+
+
+### Studie období měnové devalvace
+
+
+V průběhu historie zažily různé civilizace období devalvace měny. Některá z těchto období se shodují s významnými událostmi nebo válkami, které vyvíjely tlak na ekonomiku.
+
 
 #### 1. Peloponéská válka a druhá punská válka:
 
-Peloponéská válka, konflikt mezi Athénami a Spartou, a druhá punská válka, mezi Římskou republikou a Kartágem, jsou nejstaršími příklady devalvace měny nalezené v archivech. Aby tyto civilizace financovaly tyto války, devalvovaly své měny snížením obsahu stříbra a začleněním dalších kovů, zatímco zvyšovaly počet vyrobených mincí.
-![image](assets/fr/003.webp)
-Rytina znázorňující masakr Athéňanů na břehu řeky Assinaros.
 
-#### 2. Starověký Řím za doby Říše:
+Peloponéská válka, konflikt mezi Athénami a Spartou, a druhá punská válka mezi Římskou republikou a Kartágem jsou nejstaršími příklady devalvace měny, které byly nalezeny v archivech. Aby mohly tyto války financovat, znehodnotily tyto civilizace své měny snížením obsahu stříbra a začleněním jiných kovů, přičemž zvýšily počet vyrobených mincí.
 
-Po období Římské republiky za doby Říše, ve 3. a 4. století, došlo k významné devalvaci měny. To ilustruje pokles obsahu stříbra v mincích, jak je vidět na předchozím grafu. Studie ukazuje, že cena pšenice v Egyptě, měřená v drachmách, se za období asi 400 let, od 40 př. n. l. do 360 n. l., zvýšila milionkrát. Za toto období to představuje průměrnou roční inflaci asi 4,4 %. Tato inflace však nebyla rovnoměrně rozložena. Skutečně začala kolem roku 238 n. l. Od 250 do 293 n. l. byla míra inflace asi 3,65 %, a mezi lety 293 a 301 n. l. vzrostla na 22,28 %.
+![image](assets/cs/003.webp)
 
-Ačkoli tyto období zažila významnou inflaci, nedosáhla úrovní hyperinflace, které můžeme pozorovat v některých moderních situacích. Důvodem je, že i přesto, že měna byla devalvována, stále byla založena na drahých kovech. Tento pevný základ poskytoval určitou ochranu proti extrémním úrovním inflace. V následujících sekcích podrobněji prozkoumáme povahu a důsledky hyperinflace.
 
-![image](assets/fr/004.webp)
+Rytina zobrazující masakr Athéňanů na břehu řeky Assinaros.
+
+
+#### 2. Starověký Řím v době císařství:
+
+
+Po éře římské republiky došlo v období císařství, ve 3. a 4. století, k výraznému znehodnocení měny. To dokládá pokles obsahu stříbra v mincích, jak je vidět na předchozím grafu. Studie ukazuje, že cena pšenice v Egyptě, měřená v drachmách, vzrostla během přibližně 400 let, od roku 40 př. n. l. do roku 360 n. l., milionkrát. Za toto období to představuje průměrnou roční inflaci přibližně 4,4 %. Tato inflace však nebyla rozložena rovnoměrně. Skutečně začala kolem roku 238 n. l. V letech 250 až 293 n. l. činila inflace přibližně 3,65 % a v letech 293 až 301 n. l. se zvýšila na 22,28 %.
+
+
+Ačkoli v těchto obdobích docházelo k výrazné inflaci, nedosahovala takového stupně hyperinflace jako v některých moderních situacích. Důvodem je skutečnost, že ačkoli byla měna devalvována, stále byla kryta drahými kovy. Tento pevný základ poskytoval určitou ochranu před extrémní úrovní inflace. V následujících kapitolách se budeme podrobněji zabývat povahou a důsledky hyperinflace.
+
+
+![image](assets/cs/004.webp)
+
+
 
 - Denár Marka Aurelia (160 n. l.):
-  Jednou z nejikoničtějších mincí starověkého Říma je denár, stříbrná měna. Vlastním konkrétní minci Marka Aurelia z roku 160 n. l., před hlavní devalvací. Ačkoli kamera může mít problémy zachytit jemné detaily, pouhým okem je vidět, že jde o krásnou stříbrnou minci, odrážející poměrně vysoký obsah stříbra.
+
+Jednou z nejznámějších mincí starověkého Říma je denár, stříbrná mince Coin. Vlastním konkrétní denáry Coin od Marka Aurelia z roku 160 n. l., tedy z doby před velkou devalvací. Ačkoli fotoaparát může mít problém zachytit jemné detaily, pouhým okem je patrné, že Coin je krásný a odráží poměrně vysoký obsah stříbra.
+
+
 
 - Antoninianus (konec 3. století n. l.):
-  S měnovou devalvací se objevila nová měna, Antoninianus. Tato měna měla být v hodnotě dvou denárů, ale obsahovala mnohem méně stříbra. Moje mince Antoninianus jasně ukazuje, že obsah stříbra byl významně snížen. Je zdobena korunou, typickou pro římské mince tohoto období, nazývané "radiáty". Porovnáním barvy a kvality je vidět, že Antoninianus není zdaleka čistě stříbrnou mincí.
-  Při srovnání obou mincí vedle sebe je rozdíl nápadný. Denár z roku 160 n. l. má výrazný stříbrný vzhled, zatímco Antoninianus z konce 3. století n. l. je mnohem matnější, což ukazuje na významné snížení obsahu stříbra. Toto vizuální srovnání poskytuje jasnou ilustraci měnové devalvace, kterou starověký Řím prošel během několika století.
 
-![image](assets/fr/005.webp)
+S devalvací měny se objevila nová měna, antoninianus. Tato měna měla mít hodnotu dvou denárů, ale obsahovala mnohem méně stříbra. Na mém antoniniánu Coin je jasně vidět, že obsah stříbra byl výrazně snížen. Je zdoben korunkou, typickou pro římské mince tohoto období, tzv. radiátem. Porovnáním barvy a kvality je vidět, že antoninianus Coin zdaleka není z ryzího stříbra.
 
-Pro dokončení této demonstrace by byl ideální graf ilustrující devalvaci těchto mincí v průběhu času. Ačkoli je to prostřednictvím této platformy obtížné vizualizovat, představte si graf ukazující hodnotu denáru, poté jeho pokles ke konci 2. století, nahrazený Antoninianem, který měl být v hodnotě dvou denárů, ale s mnohem nižším obsahem stříbra. Tyto artefakty jsou němými svědky ekonomických kolísání minulých civilizací.
+Při porovnání obou mincí vedle sebe je rozdíl markantní. Denáry z roku 160 n. l. mají výrazný stříbrný vzhled, zatímco antoninianus z konce 3. století n. l. je mnohem matnější, což svědčí o výrazném poklesu obsahu stříbra. Toto vizuální srovnání poskytuje jasnou ilustraci znehodnocení měny, kterým starověký Řím během několika století prošel.
 
-#### 3. Španělský Maravedi: Svědek cílené devalvace
 
-![image](assets/fr/006.webp)
-Maravedi, jako měďná měna, zaujímá zvláštní místo v historii španělské měny. Jak bylo zmíněno dříve, španělský dolar byl původně mezinárodním standardem, nezbytnou rezervní měnou pro Španělsko. Avšak, čelící určitým ekonomickým výzvám, muselo Španělsko sáhnout po chytrých měnových strategiích.
-Měnová devalvace je nástroj, který státy často používají k financování svých výdajů nebo stimulaci ekonomiky. Španělsko se však ocitlo v delikátní situaci. Ředění španělského dolaru by ohrozilo jeho pozici v mezinárodním obchodu. Aby překonalo tento dilema, obrátilo se Španělsko k Maravedi.
+![image](assets/cs/005.webp)
 
-![image](assets/chapitre-2.1/6.webp)
-Na rozdíl od cenného španělského stříbrného dolaru byl Maravedis hlavně měďnou měnou používanou v rámci místní populace. Tato měna byla určena k devalvaci. Když byla mince Maravedis původně v hodnotě dvou maravedisů, stát ji vybral, opětovně ji označil novou hodnotou, například "čtyři", a vrátil majiteli pouze jednu minci. Mince označená razítkem "osm" je důkazem tohoto procesu, když prošla několika cykly devalvace.
 
-Tato strategie umožnila státu efektivně devalvovat měnu, vytvářet inflaci a nepřímo se financovat, zatímco zachovávala integritu španělského dolaru na mezinárodní scéně. Avšak, tato cílená devalvace měla důsledky pro místní populaci, která viděla hodnotu jejich běžné měny zředěnou.
+Pro doplnění této ukázky by byl ideální graf znázorňující znehodnocení těchto mincí v čase. Ačkoli je to obtížné vizualizovat prostřednictvím této platformy, představte si graf znázorňující hodnotu denáru, po němž následoval jeho pokles ke konci 2. století, kdy byl nahrazen mincí Antoninianus, údajně v hodnotě dvou denárů, ale s výrazně nižším obsahem stříbra. Tyto artefakty jsou němými svědky ekonomických výkyvů minulých civilizací.
 
-Případ Maravedisů ilustruje, jak může stát selektivně devalvovat místní měnu, aby splnil své vnitřní ekonomické potřeby, zatímco zachovává hodnotu rezervní měny na globální scéně. Je to nápadný příklad složitosti a finesy měnové politiky v historii.
 
-![image](assets/fr/007.webp)
+#### 3. Španělské maravedi: svědectví cílené devalvace
 
-Více informací? -> [Odkaz](https://docs.google.com/document/d/1aZa7gvz1nt8ZHDCoWKQdS9RGGjBHdipH1ApC8dW1xpM/edit?usp=sharing)
 
-#### 4. Cena revoluce od 15. do 17. století
+![image](assets/cs/006.webp)
 
-Mezi 15. a 17. stoletím Evropa zažila pozoruhodný ekonomický jev, často označovaný jako "cena revoluce". Toto období inflace bylo do značné míry vyvoláno masivním přílivem drahých kovů, zejména zlata a stříbra, z Amerik. S evropskou ekonomikou tehdy z velké části založenou na kovovém standardu, toto dodatečné množství kovů zvýšilo peněžní zásobu. V důsledku toho se objevila míra inflace asi 1 až 2% ročně. Na první pohled se tato inflace může zdát skromná. Avšak v té době byly takové cenové fluktuace dostatečně neobvyklé, aby byly považovány za "revoluci". To zdůrazňuje, jak změny v měnových rezervách mohou ovlivnit celý ekonomický systém.
 
-#### 5. John Law a Assignáty
+Maravedi jako měděná měna zaujímá v historii španělské měny zvláštní místo. Jak již bylo zmíněno, španělský dolar byl původně mezinárodním standardem, pro Španělsko zásadní rezervní měnou. Tváří v tvář určitým ekonomickým výzvám se však Španělsko muselo uchýlit k chytrým měnovým strategiím.
 
-V 18. století byla francouzská ekonomická historie poznamenána dvěma významnými událostmi souvisejícími s měnou. Nejprve John Law, skotský ekonom a finančník, přesvědčil francouzskou vládu, aby přijala měnový systém založený na papírových penězích. Ačkoli bylo toto řešení původně považováno za inovativní řešení finančních problémů země, rychle vedlo k nekontrolované inflaci. Poté, krátce po tom, během zmatků Francouzské revoluce, vláda zavedla "assignáty".
 
-![image](assets/fr/008.webp)
+Devalvace měny je nástroj, který státy často používají k financování svých výdajů nebo ke stimulaci ekonomiky. Španělsko se však ocitlo ve svízelné situaci. Oslabení španělského dolaru by ohrozilo jeho postavení v mezinárodním obchodě. Aby toto dilema překonalo, obrátilo se Španělsko na maravedi.
 
-Assignáty z roku 1793
-Tyto bankovky jsou živým svědectvím prvního velkého období hyperinflace v historii. Původně navržené jako reakce na postupné finanční krize, assignáty se rychle staly symbolem měnové nestability. Vláda, spoléhající příliš na tuto papírovou měnu k financování svých výdajů, způsobila bezprecedentní ekonomickou krizi a vytvořila hlavní období hyperinflace ve Francii po revoluci.
 
-#### 6. Exekutivní nařízení 6102 a devalvace dolaru
+Na rozdíl od drahého španělského stříbrného dolaru bylo maravedi měděnou měnou používanou především mezi místním obyvatelstvem. Tato měna byla cílem devalvace. Když měl maravedi Coin původně hodnotu dvou maravedi, stát jej odebíral, znovu razítkoval novou hodnotou, například "čtyři", a majiteli vracel pouze jeden maravedi Coin. Dokladem tohoto procesu je Coin označená razítkem "osm", která prošla několika cykly devalvace.
 
-Exekutivní nařízení 6102 a devalvace dolaru
 
-Ve Spojených státech začátkem 30. let 20. století došlo k významné změně měnové politiky. Zde je podrobný přehled této transformace:
+Tato strategie umožnila státu účinně devalvovat měnu, což vedlo k inflaci a nepřímému financování státu, a zároveň zachovat integritu španělského dolaru na mezinárodní scéně. Tato cílená devalvace však měla důsledky pro místní obyvatelstvo, které vidělo, jak se hodnota jeho společné měny rozmělňuje.
 
-- Bankovka 20 dolarů z roku 1928
 
-![image](assets/fr/009.webp)
+Případ Maravedis ilustruje, jak může stát selektivně devalvovat místní měnu, aby uspokojil své vnitřní ekonomické potřeby, a zároveň zachovat hodnotu rezervní měny na globální scéně. Je to pozoruhodný příklad složitosti a rafinovanosti měnové politiky v historii.
 
-V roce 1928 bankovka 20 dolarů ve Spojených státech uváděla: "směnitelná za zlato na požádání." To znamená, že každá bankovka byla doslova směnitelná za zlato. Konkrétně bankovka 20,67 dolaru byla ekvivalentní jedné unci zlata.
 
-- Exekutivní nařízení 6102
+![image](assets/cs/007.webp)
 
-V roce 1933 došlo k významnému zvratu s vydáním Exekutivního nařízení 6102. Toto dekret učinil nelegálním pro občany vlastnit zlato, ať už ve formě slitků, mincí nebo certifikátů.
 
-![image](assets/fr/010.webp)
+Chcete se dozvědět více? -> [Odkaz](https://docs.google.com/document/d/1aZa7gvz1nt8ZHDCoWKQdS9RGGjBHdipH1ApC8dW1xpM/edit?usp=sharing)
 
-Zlatý certifikát je dobrým příkladem. Byl označen: "V zlatých mincích splatný držiteli na požádání." Vlastnění takového certifikátu se stalo nelegálním a zůstalo tak až do roku 1964.
 
-![image](assets/fr/011.webp)
+#### 4. Cenová revoluce od 15. do 17. století
+
+
+V 15. až 17. století byla Evropa svědkem pozoruhodného ekonomického jevu, který se často označuje jako "cenová revoluce" Toto období inflace bylo z velké části vyvoláno masivním přílivem drahých kovů, zejména zlata a stříbra, z Ameriky. Vzhledem k tomu, že evropská ekonomika byla v té době z velké části založena na kovovém standardu, zvýšil tento dodatečný Supply kovů peněžní Supply. V důsledku toho se objevila inflace ve výši přibližně 1 až 2 % ročně. Na první pohled se tato inflace může zdát mírná. V té době však byly takové cenové výkyvy natolik neobvyklé, že je bylo možné považovat za "revoluci" To poukazuje na to, jak mohou změny měnových rezerv ovlivnit celý ekonomický systém.
+
+
+#### 5. John Law a Assignats
+
+
+V 18. století se francouzské hospodářské dějiny vyznačovaly dvěma významnými událostmi souvisejícími s měnou. Nejprve John Law, skotský ekonom a finančník, přesvědčil francouzskou vládu, aby přijala měnový systém založený na papírových penězích. Ačkoli byla tato iniciativa zpočátku považována za inovativní řešení finančních problémů země, rychle vedla k prudké inflaci. Krátce poté, během zmatků Francouzské revoluce, vláda zavedla "asignáty".
+
+
+![image](assets/cs/008.webp)
+
+
+Assignats z roku 1793
+
+
+Tyto bankovky jsou živým svědectvím prvního významného období hyperinflace v historii. Asignáty, které byly původně navrženy jako reakce na postupné finanční krize, se rychle staly symbolem měnové nestability. Vláda, která se při financování svých výdajů nadměrně spoléhala na tuto papírovou měnu, způsobila bezprecedentní hospodářskou krizi a vedla k velkému období hyperinflace ve Francii po revoluci.
+
+
+#### 6. Nařízení 6102 a devalvace dolaru
+
+
+Nařízení 6102 a devalvace dolaru
+
+
+Na počátku 30. let 20. století došlo ve Spojených státech k zásadní změně měnové politiky. Zde je podrobný přehled této transformace:
+
+
+
+- 20dolarová bankovka z roku 1928
+
+
+![image](assets/cs/009.webp)
+
+
+V roce 1928 bylo na dvacetidolarové bankovce ve Spojených státech uvedeno: "vyměnitelné ve zlatě na požádání" To znamená, že každá bankovka byla doslova směnitelná za zlato. Konkrétně bankovka v hodnotě 20,67 dolaru odpovídala jedné unci zlata.
+
+
+
+- Výkonný příkaz 6102
+
+
+V roce 1933 došlo k velkému převratu vydáním nařízení 6102. Toto nařízení zakazovalo občanům vlastnit zlato, ať už ve formě prutů, mincí nebo certifikátů.
+
+
+![image](assets/cs/010.webp)
+
+
+Dobrým příkladem je zlatý certifikát. Byl označen: "Ve zlatě Coin splatný na doručitele na požádání" Držení takového certifikátu se stalo nezákonným a zůstalo jím až do roku 1964.
+
+
+![image](assets/cs/011.webp)
+
+
 
 - Zavedení nových bankovek
 
+
 Po zabavení zlata v roce 1934 byla do oběhu uvedena nová série bankovek.
 
-![image](assets/fr/012.webp)
-Poznámka označující jejich směnitelnost za zlato byla odstraněna a nahrazena "Tento lístek je zákonným platidlem pro všechny dluhy".
 
-- Přecenění zlata
+![image](assets/cs/012.webp)
 
-Fascinující na této transformaci je strategie vlády. V roce 1934 byla cena zlata přeceněna na 35 dolarů za unci, místo 20,67 dolaru. V podstatě vláda devalvovala dolar, který lidé vlastnili. Tím, že od obyvatelstva odkoupila zlato za 20,67 dolaru za unci v roce 1933 a poté v roce 1934 přecenila cenu zlata, vláda získala značný zisk, zatímco devalvovala úspory svých občanů.
+Zmínka o jejich směnitelnosti za zlato byla odstraněna a nahrazena textem "Tato bankovka je zákonným platidlem pro všechny dluhy" (Ce billet est une monnaie légale pour toutes dettes).
 
-Shrnutí, během jednoho roku vláda efektivně zabavila občanům zlato, poté změnila pravidla hry přeceněním hodnoty zlata ve prospěch státní pokladny a na úkor těch, kteří původně vyměnili své zlato za bankovky.
 
-### USA mění historii.
 
-Spojené státy udělaly historický obrat tím, že se staly prvními, které devalvovaly světovou rezervní měnu, americký dolar, na rozdíl od dřívějších praxí pozorovaných u malých obchodních národů.
+- Zhodnocení zlata
 
-Dříve, během renesance, byl italský florin vydávaný Florencií ve 13. století mezinárodní rezervní měnou a během jeho používání nebyla zaznamenána žádná devalvace, což odráží význam měnové stability pro mezinárodní obchod.
 
-Ve stejném duchu Španělsko a Nizozemsko, jako držitelé světové rezervní měny díky svému rozkvétajícímu mezinárodnímu obchodu, udržovaly integritu své měny, aby zachovaly důvěru a status quo v mezinárodních výměnách. Nizozemsko dokonce bylo svědkem vzniku první centrální banky, klíčového milníku v globální měnové evoluci.
+Fascinující na tomto přechodu je vládní strategie. V roce 1934 byla cena zlata revalvována na 35 dolarů za unci místo dosavadních 20,67 dolaru. Vláda v podstatě znehodnotila dolar, který lidé vlastnili. Tím, že vláda v roce 1933 nakoupila zlato od obyvatelstva za 20,67 dolaru za unci a poté v roce 1934 cenu zlata revalvovala, dosáhla značného zisku a zároveň znehodnotila úspory svých občanů.
 
-![image](assets/fr/013.webp)
-Situace se však změnila s nástupem Spojených států jako dominantní ekonomické mocnosti. Rozhodli se devalvovat svou rezervní měnu, čímž využívali inflaci ve svůj prospěch. Toto rozhodnutí je často připisováno změněným dynamikám, kdy volba rezervní měny již nebyla tak volná jako dříve. Americká hegemonie ustanovila dolar jako světovou rezervní měnu, což umožnilo manipulaci s jeho hodnotou. Tento posun odhaluje potenciální dopad měnových politik na mezinárodní obchod v globalizované ekonomice, což značí významný přechod v řízení globálních rezervních měn.
 
-### Poslední příklad na cestu: Švýcarský dinár
+Stručně řečeno, během jednoho roku vláda fakticky zabavila zlato občanů a poté změnila pravidla hry tím, že přehodnotila hodnotu zlata ve prospěch státní pokladny a v neprospěch těch, kteří původně vyměnili své zlato za bankovky.
 
-Švýcarský dinár ilustruje další fascinující aspekt měnové devalvace, tentokrát zakotvený v kontextu před válkou v Zálivu v Iráku. Tato měna, pojmenovaná po významné kvalitě svých bankovek, byla vydávána Centrální bankou Iráku a těšila se reputaci stability na Blízkém východě. Tato důvěra byla hlavně díky kvalitě tisku bankovek, který byl prováděn v Anglii, což naznačovalo určitou odolnost proti devalvaci.
-![image](assets/fr/014.webp)
 
-Nicméně války v Zálivu představovaly zlomový bod v historii švýcarského dináru. Irák, který již nemohl spoléhat na svého anglického dodavatele pro tisk bankovek, se obrátil na Čínu. Tento přechod vedl k jasnému rozdílu v kvalitě bankovek, přičemž čínská verze byla vnímána jako méně kvalitní. Toto vnímání nebylo neopodstatněné; čínské bankovky byly snadněji padělatelné a náchylnější k přetisku vládou, čímž byla ohrožena jejich hodnota.
+### USA mění dějiny.
 
-![image](assets/fr/015.webp)
 
-V irácké ekonomice po válce v Zálivu se objevil výrazný jev: systém dvojího ocenění. Obchodníci nabízeli různé ceny v závislosti na typu bankovky použité pro platbu, přičemž upřednostňovali původní švýcarský dinár před čínskou bankovkou. Tento systém odrážel udržovanou důvěru ve vysoce kvalitní bankovky, které byly méně náchylné k devalvaci, i v kontextu, kde hodnota byla primárně určována státem. Tato epizoda ukazuje význam vnitřních charakteristik měny a jak, i v režimu fiat měny, vnímaná kvalita měny může ovlivnit její relativní hodnotu a tím i důvěru ekonomických aktérů.
+Spojené státy učinily historický zlom, když jako první devalvovaly světovou rezervní měnu, americký dolar, v rozporu s předchozí praxí pozorovanou v malých obchodních zemích.
 
-#### Ano, skutečně jsme vážili mince!
 
-Běžné vnímání často spojuje měnu se státním vytvořením, kde její vydávání a hodnota jsou regulovány státem. Tento koncept má své kořeny v antických civilizacích, jako je Řím, kde byly mince standardizovány a razítkovány Říší, čímž byla měnám přiznána oficiální hodnota. Nicméně hlubší zkoumání odhaluje, že skutečná hodnota měny byla především odvozena od jejího obsahu drahých kovů.
+Dříve, v období renesance, byl italský florin vydaný Florencií ve 13. století mezinárodní rezervní měnou a během jeho používání nebyla zaznamenána žádná devalvace, což odráželo význam měnové stability pro mezinárodní obchod.
 
-![image](assets/fr/016.webp)
-Příklad je ilustrován prostřednictvím zkoumání měnové váhy odpovídající osmi španělským realům, nebo jednomu španělskému dolaru. Tato váha, označená římskou číslicí udávající její hodnotu, byla používána směnárníky k hodnocení hodnoty mincí na základě jejich váhy, nikoli jen jejich razítka. Vážením mincí mohli směnárníci určit, zda byly upraveny nebo poškozeny, což by mohlo snížit jejich hodnotu. Tato praxe zdůrazňuje, že ačkoliv standardizované razítko státem přiznávalo určitou jmenovitou hodnotu měně, skutečná hodnota spočívala ve váze obsaženého drahého kovu.
-Tato analýza ukazuje, že důvěra v měnu, a tím i její hodnota, byla zakotvena spíše ve hmotné podstatě než pouhém tvrzení státu. Zdůrazňuje dualitu mezi jmenovitou hodnotou, kterou určuje stát, a vnitřní hodnotou, která je dána obsahem drahých kovů. Měna tedy přesahuje svou roli pouhého státního nástroje, s její základní hodnotou neodmyslitelně spojenou s hmatatelnými a měřitelnými prvky.
+
+Ve stejném duchu udržovaly Španělsko a Nizozemsko jako držitelé světové rezervní měny díky svému prosperujícímu mezinárodnímu obchodu integritu svých měn, aby zachovaly důvěru a status quo v mezinárodní směně. Nizozemsko bylo dokonce svědkem vzniku první centrální banky, což byl významný milník v celosvětovém vývoji měnových systémů.
+
+
+![image](assets/cs/013.webp)
+
+
+Situace se však změnila s nástupem Spojených států jako dominantní ekonomické mocnosti. Ty se rozhodly devalvovat svou rezervní měnu, čímž využily inflaci ve svůj prospěch. Toto rozhodnutí se často připisuje změněné dynamice, kdy volba rezervní měny již nebyla tak svobodná jako dříve. Americká hegemonie ustanovila dolar jako světovou rezervní měnu, což umožnilo manipulaci s jeho hodnotou. Tato změna odhaluje potenciální dopad měnové politiky na mezinárodní obchod v globalizované ekonomice a znamená významnou změnu v řízení světových rezervních měn.
+
+
+### Poslední příklad na cestu: švýcarský dinár
+
+
+Švýcarský dinár ilustruje další fascinující aspekt měnové devalvace, tentokrát ukotvený v iráckém kontextu před válkou v Zálivu. Tato měna, pojmenovaná podle pozoruhodné kvality svých bankovek, byla emitována iráckou centrální bankou a těšila se v regionu Blízkého východu pověsti stabilní měny. Tato důvěra byla dána především kvalitou tisku bankovek, který byl prováděn v Anglii, což znamenalo určitou odolnost vůči devalvaci.
+
+
+![image](assets/cs/014.webp)
+
+
+Války v Perském zálivu však znamenaly zlom v historii švýcarského dináru. Irák, který se již nemohl spolehnout na svého anglického dodavatele bankovek, se obrátil s žádostí o pomoc na Čínu. Tento přechod měl za následek zřetelný rozdíl v kvalitě bankovek, přičemž čínská verze byla vnímána jako horší. Toto vnímání nebylo neopodstatněné; čínské bankovky byly snadněji padělatelné a náchylnější k přetiskování vládou, což ohrožovalo jejich hodnotu.
+
+
+![image](assets/cs/015.webp)
+
+
+V irácké ekonomice po válce v Zálivu se objevil zvláštní fenomén: dvojí systém cen. Obchodníci nabízeli různé ceny v závislosti na typu bankovky, kterou platili, přičemž upřednostňovali původní švýcarský dinár před čínskou bankovkou. Tento systém odrážel udržovanou důvěru v bankovky vyšší kvality, které byly méně náchylné k devalvaci, a to i v situaci, kdy hodnotu určoval především stát. Tato epizoda poukazuje na význam vnitřních charakteristik měny a na to, jak i v režimu fiat měny může vnímaná kvalita měny ovlivnit její relativní hodnotu, a tím i důvěru ekonomických subjektů.
+
+
+#### Ano, mince jsme skutečně zvážili!
+
+
+V běžném povědomí je měna často spojována se státním útvarem, kdy její vydávání a hodnota jsou regulovány státem. Toto pojetí má kořeny ve starověkých civilizacích, například v Římě, kde byly mince standardizovány a raženy císařstvím, čímž byla měně propůjčena oficiální hodnota. Při hlubším zkoumání však zjistíme, že vnitřní hodnota měny byla odvozena především od obsahu drahých kovů.
+
+
+![image](assets/cs/016.webp)
+
+Příkladem je zkoumání peněžní váhy odpovídající osmi španělským realům nebo jednomu španělskému dolaru. Toto závaží, označené římskou číslicí udávající jeho hodnotu, používali směnárníci k ocenění hodnoty mincí na základě jejich hmotnosti, a nikoli pouze na základě jejich ražby. Zvážením mincí mohli směnárníci zjistit, zda nebyly pozměněny nebo poškozeny, což mohlo snížit jejich hodnotu. Tato praxe zdůrazňuje, že ačkoli standardizované ražení státem propůjčovalo měně určitou nominální hodnotu, skutečná hodnota spočívala v hmotnosti drahého kovu, který obsahovala.
+
+
+Tato analýza ukazuje, že důvěra v měnu, a tím i její hodnota, byla zakotvena spíše v její hmotné podstatě než v pouhém tvrzení státu. Zdůrazňuje dualitu mezi nominální hodnotou stanovenou státem a vnitřní hodnotou diktovanou obsahem drahého kovu. Měna tak přesahuje rámec pouhého státního nástroje, přičemž její základní hodnota je neodmyslitelně spjata s hmatatelným a měřitelným Elements.
+
 
 #### Závěr
 
-Tato studie o monetární devalvaci otevírá dveře k hlubokému pochopení mechanismů inflace, které budou prozkoumány v následujících videích. Budeme diskutovat o různých typech inflace a o prahu, při kterém přecházejí na vysokou nebo hyperinflaci. Tento pevný základ nám umožní řešit složitosti inflace v nadcházejících sezeních. Děkuji za vaši pozornost a těším se na vás v dalším videu, kde budeme pokračovat v průzkumu monetárních dynamik.
+
+Závěrem lze říci, že tato studie o měnové devalvaci poskytuje hlubší pochopení mechanismů inflace, které budou zkoumány v následujících videích. Probereme různé typy inflace a hranici, při které přecházejí ve vysokou nebo hyperinflaci. Tento pevný základ nám umožní Address složitosti inflace v nadcházejících sezeních. Děkujeme vám za pozornost. Těšíme se na pokračování zkoumání měnové dynamiky v příštím videu.
+
 
 ## Typy inflace
 
+
 <chapterId>b438fe09-375e-5bb2-9196-7dd687b9f98c</chapterId>
 
-### Inflace není multifaktoriální jev
 
-V této části prozkoumáme různé dimenze inflace, jevu, který je často nesprávně chápán. Ačkoliv je inflace často vnímána jako multifaktoriální jev v médiích a běžných diskusích, je důležité si pamatovat, že je to základně monetární jev.
+### Inflace není multifaktorový jev
 
-![obrázek](assets/fr/017.webp)
+
+V této části se budeme zabývat různými aspekty inflace, jevu, který je často nesprávně chápán. Ačkoli je inflace v médiích a v každodenních diskusích často vnímána jako multifaktoriální jev, je nezbytné si uvědomit, že se v zásadě jedná o měnový jev.
+
+
+![image](assets/cs/017.webp)
+
 
 Zde je rozdělení tématu do několika klíčových bodů:
 
-- Rozlišení mezi zvýšením cen a inflací:
 
-  Zvýšení cen může být specifické pro sektor a vyvolané různými faktory, jako je snížení produkce OPEC pro ropu nebo nepříznivé povětrnostní podmínky pro pšenici.
-  Inflace na druhou stranu je definována jako generalizované zvýšení cen napříč širokou škálou zboží a služeb, nikoli jen v konkrétním sektoru.
 
-- Monetární podstata inflace:
-  Při pevném množství peněz by zvýšení cen v jednom sektoru vedlo ke snížení cen v ostatních sektorech, protože by se snížilo množství peněz dostupných k utracení jinde. Inflace je úzce spojena se zvýšením peněžní zásoby, což umožňuje současné zvýšení cen ve všech sektorech.
+- Rozdíl mezi růstem cen a inflací:
 
-- Dopad peněžní zásoby na inflaci a deflaci:
 
-  V systému s pevnou peněžní zásobou by teoreticky zvýšení produkce mělo vést k deflaci, tj. k poklesu cen, protože by bylo dostupné více zboží a služeb.
-  V současném fiatovém měnovém systému zvýšení peněžní zásoby ruší potenciální deflaci způsobenou zvýšením produkce.
+Růst cen může být specifický pro dané odvětví a vyvolaný různými faktory, jako je pokles produkce ropy OPEC nebo nepříznivé povětrnostní podmínky ovlivňující produkci pšenice.
 
-- Negativní účinky úpravy peněžní zásoby:
+Inflace je naproti tomu definována všeobecným růstem cen v celé škále zboží a služeb, nikoli pouze v určitém odvětví.
 
-  Zvýšení peněžní zásoby, bez odpovídajícího zvýšení produkce, vede k inflaci, protože je v oběhu více peněz pro stejné množství zboží a služeb.
-  Zatímco zvýšení produkce by mělo vést k deflaci, současné zvýšení peněžní zásoby tento efekt zrušilo, což místo toho vedlo k inflaci.
 
-- Inflace, deflace a peněžní zásoba: Komunikující nádoby:
 
-  Inflace a deflace jsou jako komunikující nádoby v ekonomice. Zvýšení produkce může vést k deflaci, ale pokud je současně zvýšena peněžní zásoba, deflační účinek je zrušen, což vede k inflaci.
+- Měnová podstata inflace:
 
-Tato diskuse zdůrazňuje význam pochopení základních mechanismů inflace a deflace a to, jak manipulace s peněžní zásobou může mít hluboké dopady na ekonomiku. Tyto koncepty pravděpodobně znovu prozkoumáme později pro hlubší pochopení jejich vzájemné propojenosti a jejich dopadu na světovou ekonomiku.
+Při pevném peněžním objemu Supply by zvýšení cen v jednom odvětví vedlo ke snížení cen v ostatních odvětvích, protože by se snížil objem peněz, které lze utratit jinde. Inflace úzce souvisí s růstem peněžního Supply, který umožňuje současný růst cen ve všech odvětvích.
+
+
+
+- Vliv Supply na inflaci a deflaci:
+
+
+V systému pevných peněz Supply by zvýšení výroby mělo teoreticky vést k deflaci, tj. poklesu cen, protože by bylo k dispozici více zboží a služeb.
+
+V současném fiat měnovém systému zvýšení peněz Supply ruší potenciální deflaci způsobenou zvýšením výroby.
+
+
+
+- Negativní účinky úpravy peněz Supply:
+
+
+Zvýšení objemu peněz Supply bez odpovídajícího zvýšení výroby vede k inflaci, protože je v oběhu více peněz za stejné množství zboží a služeb.
+
+Ačkoli zvýšení výroby mělo vést k deflaci, současné zvýšení peněz Supply tento efekt zmařilo a místo toho vedlo k inflaci.
+
+
+
+- Inflace, deflace a peníze Supply - Komunikační nádoby:
+
+
+Inflace a deflace jsou v ekonomice jako komunikační nádoby. Zvýšení výroby může vést k deflaci, ale pokud se současně zvýší objem peněz Supply, deflační efekt se vyruší a výsledkem je inflace.
+
+
+Tato diskuse zdůrazňuje význam pochopení základních mechanismů inflace a deflace, jakož i hluboký vliv, který může mít změna peněz Supply na ekonomiku. K těmto pojmům se pravděpodobně vrátíme později, abychom hlouběji pochopili jejich vzájemnou provázanost a dopad, který mají na globální ekonomiku.
+
 
 ### Proč tisk peněz nezpůsobuje vždy inflaci?
 
+
 #### Inflace ≠ CPI
 
-Inflace, ačkoli je často spojována se zvýšením peněžní zásoby, nemusí vždy přímo souviset s tiskem peněz, jak ukazuje období po finanční krizi v roce 2008. Přes významný tisk peněz na záchranu bank následující dekáda nezažila vysokou inflaci, průměrně se pohybovala mezi 0 a 2 % ročně. Tato situace vyvolává otázku: proč masivní tisk peněz nevedl k proporcionální inflaci? Odpověď spočívá v několika nuancích souvisejících s měřením inflace a Indexem spotřebitelských cen (CPI).
 
-První vysvětlení spočívá ve způsobu měření inflace. Index spotřebitelských cen (CPI), používaný jako hlavní ukazatel inflace, má určitá omezení. Například nezohledňuje komplexně vývoj cen nemovitostí. Ačkoli CPI zahrnuje komponentu související s nájmy, výrazné zhodnocení cen domů není plně odráženo. V důsledku toho mohou nastat významná zvýšení nákladů na bydlení, aniž by byla plně zachycena CPI, což může podcenit skutečnou inflaci.
+Inflace, ačkoli je často spojována s růstem peněz Supply, nemá vždy přímou souvislost s tiskem peněz, jak ukazuje období po finanční krizi v roce 2008. Navzdory značnému tištění peněz na záchranu bank se v následujícím desetiletí nevyskytovala vysoká inflace, která se v průměru pohybovala mezi 0 a 2 % ročně. Tato situace vyvolává otázku: Proč masivní tisk peněz nevedl k úměrné inflaci? Odpověď spočívá v několika nuancích souvisejících s měřením inflace a indexem spotřebitelských cen (CPI).
 
-Kromě toho výpočet CPI zahrnuje určité metodologie, které mohou kompenzovat nebo maskovat skutečná zvýšení cen. Například kvalitativní zlepšení produktů může být použito k úpravě indexu. Pokud cena produktu vzroste, ale zlepší se také jeho kvalita nebo vlastnosti, CPI může zvážit, že skutečná hodnota pro spotřebitele se nezměnila, a proto neodrážet inflaci. Ilustrativní případ je ten, kde navzdory zvýšení cen hovězího masa a počítačů kvůli monetární injekci je zlepšení výkonu počítačů použito k kompenzaci tohoto nárůstu. Pokud počítač stojí dvakrát více, ale je čtyřikrát výkonnější, CPI může interpretovat toto jako pokles cen, čímž maskuje zvýšení cen hovězího masa.
 
-Tyto nuance v měření inflace pomocí CPI zdůrazňují složitost vztahu mezi tiskem peněz a inflací. Také naznačují, že skutečná inflace může být vyšší než hlášená, pokud by všechna zvýšení cen, zejména v klíčových sektorech jako je realitní trh, byla komplexněji zohledněna. Tato analýza zdůrazňuje význam porozumění základním mechanismům inflace a omezením konvenčních indexů používaných k jejímu měření, aby bylo možné lépe pochopit ekonomický dopad měnových politik.
+![image](assets/cs/018.webp)
+
+
+První vysvětlení spočívá ve způsobu měření inflace. Index spotřebitelských cen (CPI), který slouží jako hlavní ukazatel inflace, má určitá omezení. Například nezohledňuje komplexně vývoj cen nemovitostí. Ačkoli index CPI zahrnuje složku týkající se nájemného, podstatné zhodnocení cen nemovitostí se v něm plně neprojevuje. V důsledku toho může dojít k výraznému zvýšení nákladů na bydlení, aniž by je index CPI plně zachytil, což může vést k podhodnocení skutečné inflace.
+
+
+Kromě toho se při výpočtu indexu spotřebitelských cen používají určité metodiky, které mohou kompenzovat nebo maskovat skutečný růst cen. K úpravě indexu lze například použít kvalitativní zlepšení výrobků. Pokud se cena výrobku zvýší, ale zároveň se zlepší jeho kvalita nebo vlastnosti, může se CPI domnívat, že se skutečná hodnota pro spotřebitele nezměnila, a tudíž neodráží inflaci. Ilustrativním případem je situace, kdy navzdory zvýšení cen hovězího masa a počítačů v důsledku měnové injekce se ke kompenzaci tohoto zvýšení použije zlepšení výkonnosti počítačů. Pokud počítač stojí dvakrát tolik, ale je čtyřikrát výkonnější, může to index CPI interpretovat jako snížení cen, a tím zakrýt zvýšení cen hovězího masa.
+
+
+![image](assets/cs/019.webp)
+
+
+Tyto nuance při měření inflace pomocí indexu spotřebitelských cen zdůrazňují složitost vztahu mezi měnovým tiskem a inflací. Naznačují také, že skutečná inflace může být vyšší, než se uvádí, pokud by se komplexněji zohlednil veškerý růst cen, zejména v klíčových odvětvích, jako jsou nemovitosti. Tato analýza zdůrazňuje význam pochopení základních mechanismů inflace a omezení konvenčních indexů používaných k jejímu měření, což usnadňuje hlubší pochopení ekonomických důsledků měnové politiky.
+
 
 #### Argumenty MMT
 
-Moderní monetární teorie (MMT) nabízí odlišný pohled na tvorbu peněz a inflaci. Podle MMT peníze primárně pocházejí od vlády, která může tisknout značné částky na financování svých potřeb bez způsobení inflace, pokud sektory zaměřené těmito prostředky nejsou nasyceny. Jedná se o přístup, který se odchyluje od tradičních měnových teorií a zdůrazňuje význam absorpčních kapacit sektorů v inflační dynamice.
 
-Ilustrativním příkladem MMT je americký vojensko-průmyslový komplex. Podle MMT mohou být stovky miliard dolarů alokovány do tohoto sektoru bez způsobení inflace díky jeho absorpční kapacitě. Naopak, pokud jsou značné prostředky injektovány do výstavby silnic ve Spojených státech, kde je omezený počet společností a pracovní síly, inflace by mohla nastat kvůli nedostatku zdrojů a zvýšeným nákladům požadovaným dodavateli.
-Japonsko je často citováno zastánci MMT jako další příklad absence inflace navzdory významnému tisku peněz. Situace v Japonsku nicméně také zdůrazňuje omezení tradičních měření inflace, jako je Index spotřebitelských cen (CPI). V Japonsku je velká část tištěných peněz buď ukládána nebo investována do nemovitostí nebo akciových trhů, místo aby byla utracena v běžné spotřební ekonomice. CPI tím, že plně nezachycuje tyto dynamiky, může podcenit skutečnou inflaci.
-Analýza Japonska (https://ideas.repec.org/p/ces/ceswps/_9821.html) také zdůrazňuje, že chování ekonomických subjektů, jako je spoření nebo investování do aktiv, která nejsou zahrnuta do CPI, může maskovat inflační dopad tisku peněz. Dále schopnost různých sektorů absorbovat injektovanou likviditu hraje klíčovou roli v tom, zda k inflaci dojde, či nikoliv.
+Moderní měnová teorie (MMT) nabízí odlišný pohled na tvorbu peněz a inflaci. Podle MMT peníze primárně pocházejí od vlády, která může tisknout značné množství peněz pro financování svých potřeb, aniž by způsobila inflaci, pokud nejsou sektory, na které jsou tyto prostředky určeny, nasyceny. Tento přístup se odchyluje od tradičních měnových teorií a zdůrazňuje význam absorpční kapacity jednotlivých sektorů pro inflační dynamiku.
+
+
+![image](assets/cs/020.webp)
+
+
+Názorným příkladem MMT je americký vojensko-průmyslový komplex. Podle MMT lze do tohoto odvětví alokovat stovky miliard dolarů, aniž by to způsobilo inflaci, a to díky jeho schopnosti absorbovat finanční prostředky. Naproti tomu, pokud se do výstavby silnic ve Spojených státech, kde je omezený počet firem a pracovních sil, vloží značné prostředky, může dojít k inflaci v důsledku nedostatku zdrojů a zvýšených nákladů požadovaných dodavateli.
+
+Zastánci MMT často uvádějí Japonsko jako další příklad absence inflace navzdory výraznému měnovému tisku. Situace v Japonsku však také poukazuje na omezení tradičních měřítek inflace, jako je index spotřebitelských cen (CPI). V Japonsku je značná část natištěných peněz buď uložena, nebo investována do nemovitostí či akciového trhu, nikoliv utracena na běžnou spotřebu. Protože index spotřebitelských cen tuto dynamiku plně nezachycuje, může skutečnou inflaci podhodnocovat.
+
+
+Analýza Japonska (https://ideas.repec.org/p/ces/ceswps/_9821.html) také zdůrazňuje, že chování ekonomických subjektů, jako jsou úspory nebo investice do aktiv nezahrnutých do indexu spotřebitelských cen, může maskovat inflační dopad měnového tisku. Navíc schopnost různých sektorů absorbovat napumpovanou likviditu hraje zásadní roli při určování toho, zda dojde k inflaci.
+
 
 #### Rozvahy bank a centrálních bank
 
-Třetím příkladem, proč tisk peněz nemusí způsobit inflaci, je to, že vztah mezi tiskem peněz a inflací je modulován způsobem, jakým je nově vytvořené peníze zavedeno do ekonomiky. Pokud tyto peníze zůstanou na rozvahách soukromých bank bez toho, aby byly půjčeny ekonomickým subjektům, nebudou přímo ovlivňovat reálnou ekonomiku a tudíž nezpůsobí inflaci.
 
-![image](assets/fr/021.webp)
+Třetím příkladem, proč by tisk peněz neměl způsobit inflaci, je skutečnost, že vztah mezi tiskem peněz a inflací je modulován způsobem, jakým jsou nově vytvořené peníze zaváděny do ekonomiky. Pokud tyto peníze zůstanou v rozvahách soukromých bank, aniž by byly půjčovány ekonomickým subjektům, nebudou mít přímý dopad na reálnou ekonomiku, a tudíž nepovedou k inflaci.
 
-Tisk peněz lze vidět jako meč Damoklův visící nad ekonomikou. Vytvořené peníze mohou zůstat latentní po určitou dobu bez jakéhokoli viditelného inflačního efektu, dokud nejsou injektovány do ekonomiky prostřednictvím bankovních půjček nebo jiných mechanismů. Avšak, když je toto latentní peníze nakonec uvedeno do oběhu, mohou se pak projevit inflační efekty. To bylo pozorováno ve 20. letech, kde dříve vytvořené peníze našly cestu do ekonomiky, což vedlo k inflaci.
-Tento scénář zdůrazňuje význam monetárních transmisních mechanismů při určování inflačního dopadu tisku peněz. Tvorba peněz centrální bankou je jen jedním kouskem skládačky. Chování soukromých bank, které rozhodují o objemu půjček, které poskytnou, a chování půjčujících, kteří rozhodují, jak utratí půjčené peníze, jsou také klíčovými prvky v této dynamice.
+
+![image](assets/cs/021.webp)
+
+
+Tisk peněz lze vnímat jako Damoklův meč visící nad ekonomikou. Vytvořené peníze mohou po určitou dobu zůstat latentní, aniž by se projevil jejich inflační efekt, pokud nejsou do ekonomiky vpuštěny prostřednictvím bankovních úvěrů nebo jiných mechanismů. Když se však tyto latentní peníze nakonec dostanou do oběhu, mohou se pak projevit inflační účinky. Právě to bylo pozorováno v roce 2020, kdy se dříve vytvořené peníze dostaly do ekonomiky a vedly k inflaci.
+
+Tento scénář zdůrazňuje význam měnových transmisních mechanismů při ovlivňování inflačních účinků tisku peněz. Tvorba peněz centrálními bankami je pouze jedním dílem skládačky. Chování soukromých bank, které rozhodují o objemu poskytnutých úvěrů, a chování dlužníků, kteří rozhodují o tom, jak vypůjčené peníze utratí, jsou v této dynamice také zásadními Elements.
+
 
 #### Inflace je sociální!
 
-Příklad Výmarské republiky ilustruje další klíčový aspekt vztahu mezi tiskem peněz a inflací: roli očekávání a chování ekonomických subjektů. Když Centrální banka Výmarské republiky začala tisknout velké množství peněz, ekonomická nejistota vedla jednotlivce k tomu, že si peníze hromadili, tj. ukládali peníze spíše než aby je utráceli. Tato reakce dočasně oddálila inflační efekty tisku peněz.
 
-![image](assets/fr/022.webp)
+Příklad Výmarské republiky ilustruje další zásadní aspekt vztahu mezi tiskem peněz a inflací: roli očekávání a chování ekonomických subjektů. Když Centrální banka Výmarské republiky začala tisknout velké množství peněz, vedla ekonomická nejistota jednotlivce k tomu, že peníze spíše hromadili, tj. skladovali, než utráceli. Tato reakce dočasně oddálila inflační účinky tištění peněz.
 
-Avšak, když se ekonomická situace začala mírně zlepšovat, důvěra se postupně obnovila. Jednotlivci pak vybrali své úspory ze svých úkrytů a začali masivně utrácet v ekonomice. Tento náhlý změna chování, spolu s již vysokou nabídkou peněz, vedla k explozi poptávky. S více penězi v oběhu a zvýšenou poptávkou začaly ceny rychle stoupat, což vedlo k patrné inflaci.
 
-Tento příklad zdůrazňuje význam načasování a chování subjektů při projevu inflace. Inflace nenastává pouze jako reakce na zvýšení peněžní zásoby, ale také v závislosti na tom, jak a kdy jsou tyto peníze utraceny v ekonomice. Ekonomické nejistoty a očekávání ekonomických subjektů hrají v této dynamice klíčovou roli a mohou inflační efekty tisku peněz buď urychlit, nebo zpozdit.
+![image](assets/cs/022.webp)
 
-#### Shrnutí:
 
-- Index spotřebitelských cen (CPI): CPI je strukturován tak, že podceňuje inflaci, což může poskytnout zkreslený obraz o inflační realitě.
+Když se však hospodářská situace začala mírně zlepšovat, důvěra se postupně obnovila. Jednotlivci pak vybírali své úspory z úkrytů a začali v ekonomice masivně utrácet. Tato náhlá změna chování v kombinaci s již tak vysokým objemem peněz Supply vedla k explozi poptávky. S větším množstvím peněz v oběhu a zvýšenou poptávkou začaly ceny rychle růst, což vedlo ke znatelné inflaci.
 
-- Sektorová absorpce: Monetární injekce do sektorů schopných ji absorbovat ne vždy vede k inflaci. Hlavním příkladem je americký vojensko-průmyslový komplex, který může absorbovat velké sumy peněz bez způsobení inflace.
 
-- Případ Japonska: Přes významný tisk peněz zůstává inflace v Japonsku nízká, protože prostředky jsou často spořeny nebo investovány do nemovitostí nebo akciových trhů. Tyto sektory absorbují tištěné peníze, a CPI tedy nutně neodráží cenové zvýšení v těchto oblastech.
-- Korelace mezi tiskem peněz a trhy: Pozoruje se, že křivky realitního a akciového trhu často sledují tisk peněz, což ukazuje, kam jsou tištěné peníze směrovány.
-- Monetární rezervy bank: Když tištěné peníze zůstávají na rozvahách bank a neobíhají v ekonomice, nezpůsobují inflaci. To ilustruje příklad z roku 2008, kdy tištěné peníze zůstaly většinou na rozvahách bank, což oddálilo inflační dopad.
+Tento příklad podtrhuje význam načasování a chování agenta při vzniku inflace. Inflace nevzniká pouze jako reakce na zvýšení peněz Supply, ale závisí také na tom, jak a kdy jsou tyto peníze v ekonomice utraceny. Ekonomická nejistota a očekávání ekonomických subjektů hrají v této dynamice zásadní roli a mohou inflační účinky tisku peněz buď urychlit, nebo oddálit.
 
-- Výmarská republika: Toto historické období ukazuje, jak ekonomická nejistota vedla k hromadění peněz, což oddálilo inflaci. Jakmile však byla obnovena důvěra a peníze byly utraceny, inflace explodovala.
 
-Tyto příklady lze použít v diskusích k vysvětlení, proč inflace není vždy okamžitým důsledkem tisku peněz, a jak ekonomické kontexty a chování agentů ovlivňují inflaci.
+#### Rekapitulace:
 
-![image](assets/fr/023.webp)
 
-Protože, jak ukazuje tento [vlákno](https://twitter.com/saifedean/status/1673639779433590786): Inflace je všechno, kromě chyby centrálních bank.
 
-- Ekonomové, kteří viní z inflace změnu klimatu
+- Index spotřebitelských cen (CPI): Index spotřebitelských cen je strukturován tak, že podhodnocuje inflaci, což může poskytovat zkreslený obraz o inflační realitě.
 
-![image](assets/fr/024.webp)
 
-- Příklad Švédska, které viní z inflace během konkrétního měsíce Beyoncé.
 
-![image](assets/fr/017.webp)
+- Odvětvová absorpce: Peněžní injekce do odvětví, která jsou schopna ji absorbovat, nevede vždy k inflaci. Významným příkladem je americký vojensko-průmyslový komplex, který dokáže absorbovat velké množství peněz, aniž by vyvolal inflaci.
 
-- Centrální banka v Polsku připisuje inflaci ruské agresi na Ukrajině a pandemii
 
-![image](assets/fr/025.webp)
 
-- Brexit obviňovaný z inflace ve Spojeném království.
+- Případ Japonska: V Japonsku zůstává inflace navzdory značnému tištění peněz nízká, protože finanční prostředky jsou často spořeny nebo investovány do nemovitostí či akciových trhů. Tato odvětví absorbují natištěné peníze a index spotřebitelských cen nemusí nutně odrážet růst cen v těchto oblastech.
+- Korelace mezi měnovým tiskem a trhy. Je patrné, že křivky realitních a akciových trhů často sledují měnový tisk, což ukazuje, kam natištěné peníze směřují.
+- Měnové rezervy bank: Pokud vytištěné peníze zůstávají v rozvahách bank a neobíhají v ekonomice, nezpůsobují inflaci. To ilustruje příklad z roku 2008, kdy natištěné peníze z velké části zůstaly v rozvahách bank, což oddálilo inflační dopad.
 
-![image](assets/fr/026.webp)
+
+
+- Výmarská republika: Toto historické období ukazuje, jak hospodářská nejistota vedla k hromadění peněz, což oddálilo inflaci. Jakmile však byla důvěra obnovena a peníze byly utraceny, inflace explodovala.
+
+
+Na těchto příkladech lze v diskusích vysvětlit, proč inflace není vždy bezprostředním důsledkem měnového tisku a jak ekonomické souvislosti a chování subjektů ovlivňují inflaci.
+
+
+![image](assets/cs/023.webp)
+
+
+Protože, jak ukazuje toto [vlákno](https://twitter.com/saifedean/status/1673639779433590786): Inflace je všechno, jen ne vina centrálních bank.
+
+
+
+- Ekonomové viní inflaci ze změny klimatu
+
+
+![image](assets/cs/024.webp)
+
+
+
+- Příklad Švédska, které obviňuje Beyoncé z inflace v určitém měsíci.
+
+
+![image](assets/cs/025.webp)
+
+
+
+- Centrální banka v Polsku přičítá inflaci ruské agresi na Ukrajině a pandemii
+
+
+![image](assets/cs/026.webp)
+
+
+
+- Za inflaci ve Spojeném království může brexit.
+
+
+![image](assets/cs/027.webp)
+
+
 
 - Vydání hry Zelda spojené s inflačním šokem.
 
-![image](assets/fr/027.webp)
 
-- Taylor Swift údajně způsobující inflaci.
+![image](assets/cs/028.webp)
 
-![image](assets/fr/028.webp)
 
-Jak by mi mohla Beyoncé nebo Taylor Swift, řekněte mi, vysvětlit rozšířený nárůst cen? Vidíte, to nedává smysl. Stručně řečeno:
 
-![image](assets/fr/029.webp)
+- Taylor Swift údajně způsobuje inflaci.
 
-### Průzkum typů inflace
 
-Je zásadní rozumět rozdílu mezi různými typy inflace, pochopení, které nám umožňuje pochopit různé projevy tohoto ekonomického jevu. Zde je vysvětlení těchto různých typů:
+![image](assets/cs/029.webp)
 
-- Plíživá inflace: Tento typ inflace je obecně cílem centrálních bank, nastaven na přibližně 2% ročně. Tento cíl byl přijat od 90. let a má za cíl udržet stabilní ekonomický růst bez přehřívání nebo deflace.
-- Mírná inflace: Tento typ inflace nastává, když inflace překročí cíl 2%. Často je spojována s přehřátím ekonomiky, stavem, kdy nadměrná peněžní nabídka stimuluje obecný nárůst cen. Tento scénář odhaluje limity měnové politiky a někdy odhaluje protiklady v ekonomickém diskurzu.
-- Ujíždějící inflace: Ujíždějící inflace, často označovaná jako inflace s dvojciferným číslem, nastává, když roční míra inflace překročí 10%. Označuje významný nárůst cen, který může ohrozit ekonomickou stabilitu.
 
-- Hyperinflace: Hyperinflace je extrémní jev, kdy míra inflace překročí 50% za měsíc, což kvůli exponenciální povaze inflace odpovídá roční míře inflace přes 13 000%. Tato úroveň inflace vážně destabilizuje ekonomiku, činí měnu téměř bezcennou a způsobuje ztrátu důvěry v měnový systém.
+Řekněte mi, jak mohla Beyoncé nebo Taylor Swift způsobit tak rozsáhlý nárůst cen? Víte, nedává to žádný smysl. Stručně řečeno:
 
-![image](assets/fr/030.webp)
-Při zkoumání typů inflace je běžné narazit na termíny jako "Demand Pull" (Tah poptávkou) a "Cost Push" (Tlak nákladů) ve vzdělávacích materiálech. Tyto koncepty, ačkoli platné, mají tendenci vysvětlovat spíše zvyšování cen než inflaci jako monetární jev. Zde je hlubší analýza:
 
-- Tah poptávkou:
-  Inflace tahem poptávkou je často vysvětlována jako situace, kdy poptávka v ekonomice převyšuje dostupnou produkci. Bez odpovídajícího nárůstu peněžní zásoby by tato situace vedla pouze k přerozdělení výdajů. Spotřebitelé by utráceli více za základní zboží a méně za ostatní, čímž by neutralizovali celkový inflační efekt.
+![image](assets/cs/030.webp)
 
-- Tlak nákladů:
-  Na druhou stranu, inflace tlakem nákladů je připisována nárůstu výrobních nákladů, jako jsou například náklady na přírodní zdroje nebo práci. Opět, bez nárůstu peněžní zásoby, mohou nárůsty nákladů v jednom sektoru jednoduše snížit výdaje v ostatních, aniž by způsobily rozšířenou inflaci.
-  Tyto tradiční vysvětlení často spojují nárůsty cen s inflací, což může být matoucí. Ve skutečnosti, pro rozšířenou inflaci je nutný nárůst peněžní zásoby. V tomto kontextu mohou koncepty Tah poptávkou a Tlak nákladů vysvětlovat sektorové cenové variace, ale nedokáží zachytit monetární povahu inflace. To zdůrazňuje důležitost rozlišování mezi sektorovými cenovými nárůsty a rozšířenou inflací a potvrzuje potřebu nárůstu peněžní zásoby, aby se inflace projevila v celé ekonomice. Tato analýza nabízí nuancovanější a přesnější perspektivu skutečných příčin inflace a odhaluje běžné interpretace, které mohou maskovat základní monetární dynamiku.
+
+### Zkoumání typů inflace
+
+
+Zásadní je pochopit rozdíl mezi různými typy inflace, což nám umožní pochopit rozmanité projevy tohoto ekonomického jevu. Zde je vysvětlení těchto různých typů:
+
+
+
+- Plíživá inflace: Jedná se o typ inflace, o který se centrální banky obvykle snaží a který se pohybuje kolem 2 % ročně. Tento cíl je přijímán od 90. let 20. století a jeho cílem je udržet stabilní hospodářský růst bez přehřátí nebo deflace.
+- Mírná inflace: Tato forma inflace nastává, když inflace překročí 2% cíl. Často je spojována s přehřátím ekonomiky, tedy se stavem, kdy nadměrný objem peněz Supply stimuluje všeobecný růst cen. Tento scénář odhaluje limity měnové politiky a někdy odhaluje rozpory v ekonomickém diskurzu.
+- Cválající inflace: V případě, že roční míra inflace přesáhne 10 %, dochází k tzv. galopující inflaci, často označované jako dvouciferná inflace. Znamená výrazný cenový skok, který může ohrozit ekonomickou stabilitu.
+
+
+
+- Hyperinflace: Hyperinflace je extrémní jev, kdy míra inflace přesahuje 50 % měsíčně, což vzhledem k exponenciálnímu charakteru inflace odpovídá roční míře inflace přesahující 13 000 %. Tato úroveň inflace vážně destabilizuje ekonomiku, činí měnu téměř bezcennou a podkopává důvěru v měnový systém.
+
+
+![image](assets/cs/031.webp)
+
+
+Při zkoumání typů inflace se ve vzdělávacích zdrojích běžně setkáváme s pojmy jako "Demand Pull" a "Cost Push". Tyto pojmy jsou sice platné, ale spíše vysvětlují růst cen než inflaci jako měnový jev. Zde je podrobnější analýza:
+
+
+
+- Poptávkový tah:
+
+Poptávková inflace je často popisována jako scénář, kdy poptávka v ekonomice převyšuje dostupné výrobní kapacity. Bez odpovídajícího zvýšení peněz Supply však tato situace povede pouze k přerozdělení výdajů. Spotřebitelé mohou utrácet více za nezbytné zboží a méně za nepotřebné položky, čímž se celkový inflační efekt neutralizuje.
+
+
+
+- Tlak na náklady:
+
+Na druhé straně nákladová inflace je způsobena růstem výrobních nákladů, například nákladů na přírodní zdroje nebo pracovní sílu. Opět platí, že bez zvýšení peněz Supply může zvýšení nákladů v jednom odvětví jednoduše snížit výdaje v ostatních, aniž by způsobilo rozsáhlou inflaci.
+
+Tato tradiční vysvětlení často spojují růst cen s inflací, což může vést k nedorozumění a nepochopení. Ve skutečnosti je pro vznik rozsáhlé inflace nutné zvýšení peněz Supply. V tomto kontextu mohou koncepty Demand Pull a Cost Push vysvětlit sektorové cenové rozdíly, ale nevystihují peněžní podstatu inflace. To zdůrazňuje důležitost rozlišování mezi sektorovým růstem cen a rozsáhlou inflací a potvrzuje potřebu zvýšení peněžního Supply, aby se inflace neprojevila v celé ekonomice. Tato analýza poskytuje diferencovanější a přesnější pohled na skutečné příčiny inflace a demystifikuje běžné interpretace, které mohou zastírat základní měnovou dynamiku.
+
 
 ### Klasifikace inflace podle Bernholze
 
-Bernholz navrhuje zjednodušenou, ale přesnou klasifikaci inflace do tří kategorií, která umožňuje lepší pochopení tohoto složitého monetárního jevu:
 
-![obrázek](assets/fr/031.webp)
+Bernholz navrhuje zjednodušenou, ale přesnou klasifikaci inflace do tří kategorií, což umožňuje lépe pochopit tento složitý měnový jev:
+
+
+![image](assets/cs/032.webp)
+
+
 
 - Mírná inflace:
-  Mírná inflace nastává, když je úroveň peněžní zásoby vyšší než normální, ale bez toho, aby stát musel uchýlit k velkým deficitům financovaným tvorbou peněz. Ačkoli termín "mírná" může znít nevýznamně, tento druh inflace může způsobit značné problémy, ačkoli není klasifikován jako vysoká inflace.
+
+Mírná inflace nastává, když je úroveň peněz Supply vyšší než obvykle, ale stát se neuchyluje k velkým deficitům financovaným tvorbou peněz. Ačkoli se termín "mírná" může zdát nevýznamný, tato forma inflace může způsobit značné problémy, ačkoli není klasifikována jako vysoká inflace.
+
+
 
 - Vysoká inflace:
-  Vysoká inflace nastává, když skutečná hodnota peněžní zásoby klesá navzdory nárůstu v nominálních termínech. Tato paradoxní situace vzniká z důvodu monetární substituce, kdy jednotlivci ztrácejí důvěru v národní měnu a snaží se ji vyměnit za zboží, služby nebo cizí měny. Tento proces dále snižuje skutečnou hodnotu měny, což inflaci zhoršuje.
+
+Vysoká inflace nastává, když reálná hodnota peněz Supply klesá navzdory růstu nominální hodnoty. Tato paradoxní situace vzniká v důsledku peněžní substituce, kdy jednotlivci ztrácejí důvěru v národní měnu a snaží se ji Exchange vyměnit za zboží, služby nebo zahraniční měny. Tento proces dále snižuje reálnou hodnotu měny, což prohlubuje inflaci.
+
+
 
 - Hyperinflace:
-  Hyperinflace je rozšířením vysoké inflace, charakterizovaná velkými rozpočtovými schodky financovanými tvorbou peněz. Historicky nebyl pozorován žádný případ hyperinflace bez významného financování schodku tiskem peněz. Hyperinflace vytváří zlomyslný cyklus: inflace tak rychle eroduje hodnotu měny, že daňové příjmy znehodnotí dříve, než stát stihne je vybrat, což stát nutí tisknout ještě více peněz pro své financování. Tento sebezvyšující cyklus vede k astronomickým inflačním sazbám, často přesahujícím 50 % za měsíc.
-  Tato klasifikace podle Bernholze zdůrazňuje nebezpečný postup od mírné inflace k hyperinflaci, zdůrazňuje zásadní důležitost monetární a rozpočtové kontroly při prevenci destruktivních inflačních spirál. Také ukazuje, že škodlivé důsledky na státní financování mohou nastat dobře před dosažením stupně hyperinflace, poskytující nuancovaný pohled na důsledky inflace v různých stupních.
 
-### Závěr: Souhrn typů inflace
+Hyperinflace je extrémní forma vysoké inflace, která se vyznačuje velkými rozpočtovými deficity, jež jsou financovány tvorbou peněz. Historicky nebyl zaznamenán žádný případ hyperinflace, který by se obešel bez výrazného financování deficitu tiskem peněz. Hyperinflace vytváří začarovaný kruh: inflace snižuje hodnotu měny tak rychle, že daňové příjmy se znehodnotí dříve, než je stát vůbec stihne vybrat, a stát je tak nucen tisknout ještě více peněz, aby se mohl financovat. Tento sebeposilující se cyklus vede k astronomické míře inflace, která často přesahuje 50 % měsíčně.
 
-Na závěr jsme prozkoumali řadu typů inflace, začínající běžně slyšenými termíny jako "plíživá inflace", "chodící inflace" a "galopující inflace", přičemž každý označuje různé úrovně procent inflace v ekonomice. Avšak pro naše podrobné studium hyperinflace se kategorie mírné inflace, vysoké inflace a hyperinflace, jak je popsal Bernholz, ukazují jako klíčové měřítka.
+Tato Bernholzova klasifikace poukazuje na nebezpečný vývoj od mírné inflace k hyperinflaci a zdůrazňuje zásadní význam měnové a fiskální kontroly pro prevenci destruktivních inflačních spirál. Ukazuje také, že škodlivé důsledky pro financování státu se mohou projevit mnohem dříve, než dojde k hyperinflaci, a poskytuje tak diferencovaný pohled na důsledky různých stupňů inflace.
 
-- Mírná Inflace:
-  Naznačuje úroveň peněžní zásoby nad normálem, ačkoliv tato úroveň může být udržitelná bez významného financování schodku státem.
 
-- Vysoká Inflace:
-  Dochází k ní, když skutečná hodnota peněžní zásoby klesá, často kvůli měnové substituci, kdy jednotlivci usilují o výměnu své měny za zboží, služby nebo jiné měny.
+### Závěr: Shrnutí typů inflace
+
+
+Na závěr jsme prozkoumali řadu typů inflace, počínaje běžně používanými termíny jako "plíživá inflace", "kráčející inflace" a "cválající inflace", z nichž každý označuje různé úrovně procentní míry inflace v ekonomice. Pro naši hloubkovou studii o hyperinflaci se však jako rozhodující měřítka ukazují kategorie mírné inflace, vysoké inflace a hyperinflace, jak je popsal Bernholz.
+
+
+
+- Mírná inflace:
+
+Ukazuje na nadstandardní úroveň peněz Supply, ačkoli tuto úroveň lze udržet bez výrazného deficitního financování ze strany státu.
+
+
+
+- Vysoká inflace:
+
+Dochází k němu, když reálná hodnota peněz Supply klesá, často v důsledku peněžní substituce, kdy se jednotlivci snaží Exchange svou měnu vyměnit za zboží, služby nebo jiné formy měny.
+
+
 
 - Hyperinflace:
-  Představuje extrémní verzi vysoké inflace, kde nadměrné tvorba peněz k financování velkých rozpočtových schodků vede k rychlé erozi skutečné hodnoty měny.
 
-Z našeho průzkumu vyplývá, že hyperinflace je složitý a protiintuitivní jev. Zatímco by se mohlo zdát, že hyperinflace je výsledkem masivního nárůstu peněžní zásoby, ve skutečnosti pramení ze snížení skutečné hodnoty této peněžní zásoby. Tato nuance je klíčová pro pochopení, proč některé země mají problémy vymanit se z hyperinflace, i s podporou mezinárodních institucí jako je Světová banka nebo MMF. Nesprávná charakterizace typu inflace může vést k použití nevhodných řešení, která ekonomické problémy spíše zhoršují než řeší.
+Představuje extrémní variantu vysoké inflace, kdy nadměrná tvorba peněz za účelem financování vysokých rozpočtových deficitů vede k rychlému poklesu reálné hodnoty měny.
 
-V našich budoucích diskusích se budeme hlouběji zabývat hyperinflací, prozkoumávat její definice a projevy v různých ekonomických kontextech. Naším cílem bude odhalit základní mechanismy hyperinflace a prozkoumat možná řešení jejího řešení. Toto prohloubené pochopení nám umožní lépe pochopit spojené výzvy a navrhnout informované strategie pro řízení inflace.
-Děkuji za vaši pozornost. Příští sezení bude zcela věnováno definování a odhalování hyperinflace, s přihlédnutím k různým akademickým a praktickým perspektivám. Těšíme se na pokračování tohoto průzkumu s vámi na našem dalším setkání.
+
+Z našeho zkoumání vyplývá, že hyperinflace je složitý a neintuitivní jev. Ačkoli bychom se mohli domnívat, že hyperinflace je důsledkem masivního nárůstu peněz Supply, ve skutečnosti je důsledkem poklesu reálné hodnoty těchto peněz Supply. Tato nuance je klíčová pro pochopení toho, proč se některé země z hyperinflace těžko dostávají, a to i s podporou mezinárodních institucí, jako je Světová banka nebo MMF. Nesprávná charakteristika typu inflace může vést k použití nevhodných nápravných opatření, která ekonomické problémy prohlubují, místo aby je řešila.
+
+
+V našich dalších diskusích se budeme hyperinflací zabývat hlouběji a prozkoumáme její definice a projevy v různých ekonomických kontextech. Naším cílem je odhalit základní mechanismy hyperinflace a prozkoumat možná řešení tohoto problému Address. Toto diferencované porozumění nám umožní lépe pochopit související problémy a navrhnout informované strategie pro řízení inflace.
+
+Děkujeme vám za pozornost. Příští zasedání bude zcela věnováno definici a demystifikaci hyperinflace, přičemž budou zohledněny různé akademické a praktické perspektivy. Těšíme se, že v tomto zkoumání s vámi budeme moci pokračovat na našem příštím setkání.
+
 
 # Co je hyperinflace?
 
+
 <partId>3f541663-1e2f-5410-8ee0-f61c5d009fa5</partId>
+
 
 ## Definice hyperinflace
 
+
 <chapterId>d2a71a2e-5f36-58d9-993c-d431f4aa07fd</chapterId>
+
 
 ### Definice hyperinflace
 
-V této sekci prozkoumáváme různé definice hyperinflace, klíčový termín ve studiu extrémních měnových jevů. Nejuznávanější definici poskytl Philip Cagan, který ve své práci z roku 1956, "The Monetary Dynamics of Hyperinflation," navrhuje kvantitativní pochopení hyperinflace. Podle Cagana:
+
+V této části se budeme zabývat různými definicemi hyperinflace, která je klíčovým pojmem při studiu extrémních měnových jevů. Nejuznávanější definice pochází od Philipa Cagana, který ve své práci "The Monetary Dynamics of Hyperinflation" z roku 1956 navrhuje kvantitativní chápání hyperinflace. Podle Cagana
+
+
 
 - Začátek a konec hyperinflace:
   - Hyperinflace začíná, když měsíční inflace překročí 50 %.
-  - Končí, když inflace klesne pod 50 % za měsíc po dobu alespoň jednoho roku.
+  - Končí, když míra inflace klesne pod 50 % měsíčně po dobu nejméně jednoho roku.
 
-Ilustračně, pokud inflace klesne na 40 % v červenci a do července následujícího roku nepřekročí 50 %, pak se období hyperinflace považuje za ukončené v červenci předchozího roku. Tato definice umožňuje přesnou charakterizaci epizod hyperinflace, což umožňuje strukturovanou analýzu.
 
-Tato definice byla přijata v tabulce Hanke-Krus, která dokumentuje 56 epizod hyperinflace. Avšak tabulka nezahrnuje všechny epizody, jako je ta ve Venezuele v roce 2016, čímž celkový počet dosahuje 57.
+Pro ilustraci, pokud inflace v červenci klesne na 40 % a nad 50 % se zvýší až v červenci následujícího roku, pak se má za to, že období hyperinflace skončilo v červenci roku předcházejícího roku, v němž byla poprvé zaznamenána. Tato definice umožňuje přesnou charakteristiku epizod hyperinflace, což usnadňuje strukturovanou analýzu.
 
-![obrázek](assets/fr/032.webp)
+
+Tato definice byla převzata do Hanke-Krusovy tabulky, která dokumentuje 56 případů hyperinflace. Tabulka však nezahrnuje všechny epizody, jako například tu ve Venezuele v roce 2016, čímž se celkový počet zvýšil na 57.
+
+
+![image](assets/cs/033.webp)
+
 
 zoom
-Je třeba poznamenat, že tato definice, ačkoli přesná, by mohla vyloučit určité epizody hyperinflace kvůli přísnosti 50% prahu. Existuje možnost rozšíření této definice tak, aby zahrnovala i další epizody, které ačkoli přísně nesplňují Caganova kritéria, přesto představují období extrémně vysoké inflace. Toto pozorování otevírá dveře k širšímu průzkumu jevů hyperinflace, což umožňuje nuancovanější pochopení jejích příčin a důsledků. V následujících diskusích zvážíme revidování této definice a zkoumání epizod hyperinflace, které nejsou pokryty Caganovými přísnými kritérii.
+
+
+![image](assets/cs/034.webp)
+
+
+Je třeba poznamenat, že tato definice, ačkoli je přesná, by mohla vyloučit některé epizody hyperinflace vzhledem k přísnosti 50% hranice. Existuje možnost rozšířit tuto definici o další epizody, které sice striktně nesplňují Caganova kritéria, nicméně představují období extrémně vysoké inflace. Toto pozorování otevírá dveře k širšímu zkoumání fenoménu hyperinflace, což umožňuje diferencovanější pochopení jejích příčin a důsledků. V následujících diskusích zvážíme, zda se k této definici vrátit a prozkoumat epizody hyperinflace, na které se nevztahují Caganova přísná kritéria.
+
 
 ### Definice hyperinflace podle Cagana
 
-Philip Cagan mohl stanovit libovolný milník s prahem měsíční inflace 50% při definování hyperinflace. Sám připouští, že tato definice je libovolná a sloužila především jeho analýze založené na sedmi epizodách hyperinflace. Prozkoumání Caganových dat ukazuje, že tři epizody hyperinflace s nejnižšími měsíčními inflačními sazbami byly kolem 47%, 46% a 57%. Zdá se, že 50% práh byl vybrán tak, aby zahrnoval tyto případy ve své studii.
 
-- Historický kontext:
-  Caganova definice sahá do roku 1956 a je založena na omezeném počtu dostupných epizod hyperinflace v té době.
+Philip Cagan možná stanovil při definování hyperinflace hranici 50 % měsíční inflace jako svévolný mezník. Sám přiznává, že tato definice je arbitrární a slouží především jeho analýze založené na sedmi epizodách hyperinflace. Zkoumání Caganových údajů ukazuje, že tři epizody hyperinflace s nejnižší měsíční mírou inflace se pohybovaly kolem 47 %, 46 % a 57 %. Zdá se, že hranice 50 % byla zvolena tak, aby tyto případy zahrnula do jeho studie.
 
-- Caganova pozorování:
-  Podle Cagana žádná epizoda nedosáhla tohoto prahu kolem 50% bez toho, aniž by postoupila k vážnější hyperinflaci, což by mohlo ospravedlnit výběr tohoto prahu.
+
+![image](assets/cs/035.webp)
+
+
+
+- Historické souvislosti:
+
+Caganova definice pochází z roku 1956 a je založena na omezeném počtu tehdy dostupných případů hyperinflace.
+
+
+
+- Caganovy poznámky:
+
+Podle Cagana žádná epizoda nedosáhla této hranice kolem 50 %, aniž by se rozvinula do silnější hyperinflace, což by mohlo ospravedlnit volbu této hranice.
+
+
 
 - Kritika Caganovy definice:
-  Další ekonomové, jako například Bernholz, autor knihy Monetary Regime and Inflation, také popisují 50% práh jako libovolný.
-  Bernholz poznamenává, že existují epizody vysoké inflace se stejnými kvalitativními charakteristikami jako epizody hyperinflace, aniž by dosáhly 50% prahu.
 
-Toto zamyšlení nás vede k otázce tuhosti tradiční definice hyperinflace a zdůrazňuje potřebu možná znovu navštívit tento práh začleněním více epizod a historických dat. Definice hyperinflace může vyžadovat flexibilitu, aby zahrnovala různé projevy extrémní inflace v různých ekonomických a historických kontextech.
+Také další ekonomové, jako například Bernholz, autor knihy Monetary Regime and Inflation, označují 50% hranici za arbitrární.
 
-### Definice hyperinflace podle Mezinárodní rady pro účetní standardy (IASB)
+Bernholz poznamenává, že existují epizody vysoké inflace se stejnými kvalitativními charakteristikami jako epizody hyperinflace, aniž by dosáhly 50% hranice.
 
-Tak kolik případů hyperinflace celkem existuje?
-Běžné definice hyperinflace, jako je ta, kterou předložil Cagan s měsíční inflační sazbou 50%, mohou být někdy matoucí nebo zjednodušené. Například dva státy zažívající vlastní roční inflační sazby 1 000% a 3 000% mohou být vnímány odlišně v závislosti na měsíční distribuci této inflace. Pokud žádný měsíc nepřekročí práh 50% podle definice Cagana, tyto země by se nenacházely ve stavu hyperinflace. Tento přístup tedy může vést k anomáliím v klasifikaci hyperinflace, zejména při srovnávání kumulativních inflací během roku.
 
-- Caganova práce "Monetary Dynamics of Hyperinflation", která poskytuje základní analýzu hyperinflace.
-- Bernholzova kniha, která studuje 30 odlišných období hyperinflace, čímž rozšiřuje rozsah analýzy.
-- Davidova osobní sbírka bankovek z 36 období hyperinflace, což umožňuje hmatatelné a historické pochopení.
-- Tabulka Hanky Cross (verze z roku 2012, aktualizovaná v roce 2016 o Venezuelu), uvádějící 57 období hyperinflace podle definice Cagana.
-  Je třeba poznamenat, že určitá historická období vysoké inflace nejsou zahrnuta v klasických tabulkách hyperinflace, často kvůli přísným kritériím klasifikace. Například během Americké války za nezávislost v listopadu 1779 a během Americké občanské války v březnu 1864 byly měsíční míry inflace 47,4 % a 40 %. Tyto míry, ačkoli vysoké, nepřekračují prahovou hodnotu 50 % stanovenou Caganem, a tím vylučují tyto období z klasifikace jako případy hyperinflace. Tato opomenutí ilustrují omezení rigidních definic a zdůrazňují potřebu nuancovanějšího přístupu k pochopení hyperinflace ve všech jejích složitostech.
+![image](assets/cs/036.webp)
 
-## Weimar vs Zimbabwe podobnosti
+
+Tato úvaha nás vede ke zpochybnění rigidnosti tradiční definice hyperinflace a zdůrazňuje potřebu možná přehodnotit tuto hranici zahrnutím více epizod a historických dat. Definice hyperinflace může vyžadovat flexibilitu, aby zahrnovala různé projevy extrémní inflace v různých ekonomických a historických kontextech.
+
+
+### Definice hyperinflace podle Rady pro mezinárodní účetní standardy (IASB)
+
+
+IASB nabízí jedinečný pohled na hyperinflaci a zaměřuje se na účetní postupy v období hyperinflace. Tento přístup je klíčový pro účetní a podniky působící v hyperinflačním prostředí, kde hodnota peněz rychle kolísá. Pokyny IASB identifikují různé ukazatele hyperinflace:
+
+
+
+- Preference pro nepeněžní aktiva:**
+
+Jednotlivci dávají přednost držení hodnoty ve zboží před držením hodnoty v měně z důvodu rychlého znehodnocování peněžní hodnoty.
+
+
+
+- Oceňování zboží a služeb:**
+
+Obyvatelé nepočítají hodnotu zboží a služeb v místní měně, což odráží ztrátu důvěry v místní měnu.
+
+
+
+- Náhrada za ztrátu peněžní hodnoty:**
+
+Ceny zahrnují kompenzaci ztráty peněžní hodnoty při nákupu na úvěr, což ilustruje dopad inflace na denní transakce.
+
+
+
+- Indexace cen, mezd a úroků:**
+
+Ceny, mzdy a úroky se upravují na základě indexu, který kompenzuje inflaci.
+
+
+
+- Kumulativní inflace za tři roky:**
+
+Kumulativní inflace za tři roky se blíží 100 % (zhruba 24 % ročně), což kontrastuje s Caganovou definicí 50 % měsíční inflace.
+
+
+![image](assets/cs/037.webp)
+
+
+Podle kritérií IASB zažívá v současné době hyperinflaci několik zemí, včetně Argentiny, Etiopie, Haiti, Íránu, Libanonu, Súdánu, Jižního Súdánu, Surinamu, Sýrie, Turecka, Venezuely, Jemenu a Zimbabwe.
+
+
+![image](assets/cs/038.webp)
+
+
+Tato definice předložená IASB se odklání od Caganova přísného kvantitativního prahu a zahrnuje kvalitativní analýzu ekonomického chování a praktických úprav tváří v tvář hyperinflaci. Ukazuje, že hyperinflace je komplexní jev, který vyžaduje vícerozměrné chápání, aby bylo možné pochopit jeho skutečné důsledky, zejména v oblasti účetnictví, které má zásadní význam pro stabilitu a finanční transparentnost podniků a trhů.
+
+
+### Kolik je tedy celkem hyperinflací?
+
+
+Běžné definice hyperinflace, jako je ta, kterou navrhl Cagan a která stanovuje měsíční míru inflace ve výši 50 %, mohou být někdy matoucí nebo příliš zjednodušující. Například dvě země s roční mírou inflace 1 000 % a 3 000 % mohou být vnímány odlišně na základě měsíčního rozložení této inflace. Pokud žádný měsíc nepřekročí 50% hranici, nebudou tyto země podle Caganovy definice klasifikovány jako země ve stavu hyperinflace. Tento přístup tak může vést k anomáliím při klasifikaci hyperinflace, zejména při porovnávání kumulativní inflace v průběhu roku.
+
+
+![image](assets/cs/039.webp)
+
+
+
+- Caganova práce "Monetary Dynamics of Hyperinflation" obsahuje základní analýzu hyperinflace.
+- Bernholzova kniha, která zkoumá 30 různých období hyperinflace, čímž rozšiřuje rozsah analýzy.
+- David St-Onge (autor tohoto kurzu) má osobní sbírku bankovek z 36 období hyperinflace, která umožňuje hmatatelné a historické pochopení.
+- Tabulka Hanky Crossové (verze z roku 2012, aktualizovaná v roce 2016 o Venezuelu), která uvádí 57 období hyperinflace na základě Caganovy definice.
+
+
+Je třeba poznamenat, že některá historická období vysoké inflace nejsou v klasických tabulkách hyperinflace zahrnuta, často kvůli přísným klasifikačním kritériím. Například během americké války za nezávislost v listopadu 1779 a během americké občanské války v březnu 1864 činila měsíční míra inflace 47,4 %, resp. 40 %. Tyto míry, ačkoli jsou vysoké, nepřekračují Caganem stanovenou hranici 50 %, což vylučuje, aby tato období byla klasifikována jako případy hyperinflace. Toto opomenutí poukazuje na omezení rigidních definic a zdůrazňuje potřebu diferencovanějšího chápání hyperinflace v celé její komplexnosti.
+
+
+## Podobnosti mezi Výmarskou republikou a Zimbabwe
+
 
 <chapterId>11eef458-aab8-5c63-8523-264d0ba69f5d</chapterId>
 
+
 ### Dvě éry, dvě katastrofy
 
-V této kapitole prozkoumáme dopady hyperinflace, zaměříme se na případy Zimbabwe a Výmarské republiky. Během mého výzkumu jsem upřednostňoval zkoumání přímých svědectví od jednotlivců, kteří prožili tyto období hyperinflace, oproti čistě ekonomickému či statistickému přístupu.
+
+V této kapitole se budeme zabývat důsledky hyperinflace se zaměřením na zkušenosti Zimbabwe a Výmarské republiky. V celém svém výzkumu jsem upřednostňoval zkoumání přímých svědectví jednotlivců, kteří tato období hyperinflace prožili, před čistě ekonomickým nebo statistickým přístupem.
+
 
 Několik knih bylo obzvláště poučných:
 
-![image](assets/fr/039.webp)
 
-- "When Money Dies" od Adama Fergusona, sleduje poválečnou hyperinflaci v Německu, stejně jako v Rakousku a Maďarsku.
-- Dvě knihy o hyperinflaci v Zimbabwe, "Zimbabwe Warm Heart Ugly Face" a "Hard Boiled Egg Index" od Jérôma Gardnera a Kudzai Josepha Gou Min-Yu, nabízejí dojemná svědectví od generálního ředitele řetězce obchodů s oblečením a zemědělského bankéře o jejich zkušenostech během tohoto bouřlivého období.
+![image](assets/cs/040.webp)
 
-![image](assets/fr/040.webp)
 
-Při konsolidaci mých poznámek jsem si všiml mnoha podobností mezi zkušenostmi s hyperinflací v Zimbabwe a ve Výmarské republice, přestože mezi nimi byl 90letý rozdíl. Identifikoval jsem asi 17 podobností, přičemž 13 ilustruje jakýsi postup směrem k ekonomické katastrofě popsané v těchto svědectvích. Tyto fascinující paralely ukazují opakující se a ničivou povahu hyperinflace napříč časem a hranicemi. Dnes prozkoumáme tyto podobnosti a jak ukazují znepokojivou trajektorii během období hyperinflace.
 
-### Komparativní analýza: Zimbabwe a Výmarská republika
+- kniha Adama Fergusona "Když peníze umírají" sleduje hyperinflaci po první světové válce v Německu, ale i v Rakousku a Maďarsku.
+- Dvě knihy o hyperinflaci v Zimbabwe, "Zimbabwe Warm Heart Ugly Face" a "Hard Boiled Egg Index" od Jérôma Gardnera a Kudzai Josepha Gou Min-Yu, přinášejí dojemná svědectví generálního ředitele sítě obchodů s oblečením a zemědělského bankéře o jejich zkušenostech z tohoto bouřlivého období.
 
-Hra na 14 rozdílů!
+
+![image](assets/cs/041.webp)
+
+
+Při konsolidaci svých poznámek jsem si všiml mnoha podobností mezi zkušenostmi s hyperinflací v Zimbabwe a Výmarské republice, přestože je dělí 90 let. Identifikoval jsem asi 17 podobností, přičemž 13 z nich ilustruje jakýsi vývoj směrem k ekonomické katastrofě, která je v těchto svědectvích zobrazena. Tyto fascinující paralely ukazují opakující se a ničivou povahu hyperinflace napříč časem a hranicemi. Dnes se budeme zabývat těmito podobnostmi a tím, jak zobrazují znepokojivou trajektorii v období hyperinflace.
+
+
+### Srovnávací analýza: Zimbabwe a Výmarská republika
+
+
+Hra se 14 rozdíly!
+
 
 #### 1. Nedostatek peněz
 
-Když měna ztrácí hodnotu závratnou rychlostí, i ty nejambicióznější pokusy zaplavit trh novými bankovkami se mohou ukázat jako nedostatečné. Neustálá poptávka po hmatatelné měně může daleko přesáhnout kapacitu centrálních bank vyrábět bankovky, což vytváří bezprecedentní likviditní krize.
 
-> Výmarská republika: "Během tohoto měsíce to bude zvýšeno na téměř 4 miliardy papírových marek, číslo, u kterého se doufá, že nedostatek měny bude definitivně překonán."
+Když se měna znehodnocuje závratnou rychlostí, mohou se i ty nejambicióznější pokusy o zaplavení trhu novými bankovkami ukázat jako nedostatečné. Neustálá poptávka po hmatatelné měně může značně převýšit kapacitu centrálních bank vyrábět bankovky a vyvolat bezprecedentní krizi likvidity.
 
-> Zimbabwe: "Od roku 2002 do ledna 2009 bylo několik kritických nedostatků likvidity. Jednoduše nebylo dostatek tištěných bankovek nebo bankovek v oběhu, aby udržely krok se strmě rostoucí inflací."
+
+> Výmar: "Během tohoto měsíce bude navýšen na téměř 4 miliardy papírových marek, což je částka, s níž se počítá, že bude definitivně překonán nedostatek měny."
+
+> Zimbabwe: "Od roku 2002 do ledna 2009 došlo k několika kritickým nedostatkům likvidity. Jednoduše se netisklo dost bankovek a nebylo jich v oběhu tolik, aby dokázaly udržet krok s prudce rostoucí inflací."
 
 #### 2. "A to je hnůj!"
 
-Rychlost, s jakou může měna ztrácet hodnotu v určitých ekonomických situacích, je ohromující. Astronomické částky bankovek mohou být vydány v rekordním čase, okamžitě proměňující kdysi značné sumy na něco tak nepatrného jako hnoj.
-Weimar: "Současná celková emise činí 63 000 miliard. Za několik dní budeme tedy schopni vydat dvě třetiny celkového oběhu za jeden den."
-Zimbabwe: "Dne 17. září 2006 prohlásil guvernér RBZ, Gideon Gono: 'Ještě je venku 10 bilionů a stalo se z nich hnojivo.'"
 
-#### 3. Bankovky mají menší hodnotu než papír, na kterém jsou vytištěny
-   V určitých ekonomických situacích může být vnitřní hodnota bankovky nižší než hodnota papíru, na kterém je tištěna. Tato drastická devalvace proměňuje bankovky, které jsou obvykle symbolem hodnoty a kupní síly, v pouhé kusy bezcenného papíru.
-   > Weimar: "Celé nominální hodnoty markových bankovek byly téměř bezcenné, jakmile vyšly z tiskárny."
+Rychlost, s jakou může měna v určitých ekonomických situacích ztratit svou hodnotu, je ohromující. V rekordně krátkém čase lze vydat astronomické množství bankovek, které kdysi značné částky okamžitě promění v něco tak bezvýznamného, jako je hnůj.
 
-> Zimbabwe: "Centrální banka promrhala peníze tiskem bankovky, která nestála ani za papír, na kterém byla tištěna. Jinými slovy, její hodnota byla nižší než hodnota toaletního papíru. Jak absurdní to může znít, bylo levnější použít bankovku ZWD 100 bilionů jako toaletní papír než koupit skutečný toaletní papír."
 
-![image](assets/fr/041.webp)
+> Výmar: "Současná celková emise činí 63 000 mld. Za několik dní tedy budeme schopni vydat dvě třetiny celkového oběživa za jeden den."
+
+> Zimbabwe: "17. září 2006 prohlásil guvernér RBZ Gideon Gono: "10 bilionů je stále někde venku a stal se z nich hnůj.""
+
+#### 3. Bankovky mají nižší hodnotu než papír, na kterém jsou vytištěny
+
+Za určitých ekonomických okolností může být vnitřní hodnota bankovky nižší než hodnota papíru, na kterém je vytištěna. Toto drastické znehodnocení mění bankovky, které jsou za normálních okolností symbolem hodnoty a kupní síly, v pouhé kusy bezcenného papíru.
+
+> Výmar: "Celé nominální hodnoty bankovek byly téměř bezcenné, jakmile vyšly z tiskárny."
+
+> Zimbabwe: "Centrální banka plýtvala penězi tím, že vytiskla bankovku, která neměla hodnotu papíru, na němž byla vytištěna. Jinými slovy, její hodnota byla nižší než hodnota toaletního papíru. Ačkoli to může znít absurdně, bylo levnější použít bankovku v hodnotě 100 bilionů ZWD jako toaletní papír než koupit skutečný toaletní papír."
+
+![image](assets/cs/042.webp)
+
 
 #### 4. Počítání peněz
 
-Když měna rychle ztrácí svou hodnotu, i ty nejjednodušší transakce se mohou stát náročnými úkoly. Výpočet ceny zboží nebo pouhé počítání bankovek potřebných k platbě může trvat několik minut, což přidává další vrstvu složitosti každodenním interakcím.
 
-> Weimar: "Nejobyčejnější nákup v obchodě vyžadoval tři až čtyři minuty výpočtu a jakmile byla cena stanovena, obvykle bylo potřeba dalších několik minut na spočítání bankovek."
+Když měna rychle ztrácí svou hodnotu, mohou se i ty nejjednodušší transakce stát pracnými úkoly. Výpočet ceny zboží nebo pouhé spočítání bankovek potřebných k zaplacení může trvat několik minut, což každodenní interakce ještě více zkomplikuje.
 
-> Zimbabwe: "Manažeři obchodů také mohli najmout dočasného pracovníka, který nahradil zaměstnance, který celý den počítal peníze. Samozřejmě, počítání peněz v obchodě pro účely správy a vkladu do banky bylo jedna věc, ale celý proces musel být opakován v bance během vkladu."
+
+> Výmar: "Nejobyčejnější nákup v obchodě vyžadoval tři až čtyři minuty počítání, a jakmile byla cena stanovena, bylo obvykle potřeba ještě několik minut na přepočítání bankovek."
+
+> Zimbabwe: "Vedoucí obchodů si také mohli najmout dočasného pracovníka, který by nahradil zaměstnance, jenž celý den počítal peníze. Samozřejmě, že počítání peněz v obchodě pro administrativu a bankovní vklad byla jedna věc, ale celý proces se musel opakovat v bance při vkladu."
 
 :::video id=910231d7-af90-4ab8-b74c-bfb81caebfb2:::
 
 Uzbecká technika počítání peněz
 
+
 #### 5. Platby šekem
 
-V nestabilních ekonomikách mohou tradiční platební metody, jako jsou šeky, rychle ztratit svou účinnost. Banky, přetížené rostoucí poptávkou po měně kvůli hyperinflaci, mohou omezit nebo zpozdit vyplácení šeků, čímž snižují jejich skutečnou hodnotu. Tato nestabilita často vede k prioritizaci platebních metod, kde ceny se mohou lišit v závislosti na způsobu platby.
 
-> Weimar: "Zvýšení cen zintenzivnilo poptávku po penězích, jak ze strany státu, tak i dalších zaměstnavatelů. Soukromé banky vůbec nemohly poptávku uspokojit a musely omezit vyplácení šeků, takže nevyplacené šeky zůstaly zamrzlé, zatímco jejich kupní síla klesala."
-> Zimbabwe: „Časová hodnota peněz vytvořila tři ceny za zboží a služby; konkrétně hotovostní cenu, cenu při hrubém vypořádání v reálném čase a cenu šekem. Nakonec nikdo nepřijímal šeky, jejichž proplacení trvalo pět dní.“
+V narušených ekonomikách mohou tradiční platební metody, jako jsou šeky, rychle ztratit svou účinnost. Banky, zahlcené rostoucí poptávkou po měně v důsledku hyperinflace, mohou omezit nebo pozdržet proplácení šeků, a tím snížit jejich reálnou hodnotu. Tato nestabilita často vede k upřednostňování platebních metod, kdy se ceny mohou lišit v závislosti na zvolené platební metodě.
 
 
+> Výmar: "Růst cen zesílil poptávku po penězích, a to jak ze strany státu, tak i ostatních zaměstnavatelů. Soukromé banky nemohly poptávku vůbec uspokojit a musely proplácení šeků omezit, takže nevyplacené šeky zůstávaly zmrazené, zatímco jejich kupní síla klesala."
+> Zimbabwe: "Časová hodnota peněz vytvořila tři ceny zboží a služeb, a to cenu v hotovosti, cenu v reálném čase a šekovou cenu. Nakonec nikdo nepřijímal šeky, jejichž zúčtování trvalo pět dní."
 
-#### 6. "Burner-preneuři"
 
-Jak hodnota měny klesá, objevují se nové ekonomické příležitosti, které využívají tržní zkreslení. Tito podnikatelé, často označovaní vynalézavými jmény jako "Burner-preneurs", mohou prosperovat tím, že si půjčují znehodnocenou měnu na investice do hmatatelných aktiv a poté své dluhy splácí ještě více znehodnocenou měnou.
 
-Weimar: "Spekulace na inflaci zahrnovala půjčování papírových marek, jejich přeměnu na zboží a továrny a poté splácení věřitelům znehodnoceným papírem."
+#### 6. "Podnikatelé v oblasti spalování"
 
-Zimbabwe: "Burner-preneurs"
 
-#### 7. Poctivost a tvrdá práce ztrácejí svůj půvab
-   V nestabilních ekonomických kontextech mohou tradiční hodnoty tvrdé práce, spořivosti a integrity být zastiňovány lákavostí rychlého bohatství. Spekulace a obchodování s měnami často nabízejí mnohem vyšší odměny než pravidelná práce, což způsobuje narušení společenských priorit.
-   Weimar: "Když staré ctnosti spořivosti, poctivosti a tvrdé práce ztratily své kouzlo, každý se snažil rychle zbohatnout, obzvláště proto, že spekulace s měnami nebo akciemi mohly zjevně přinést mnohem více než práce."
+S klesající hodnotou měny se objevují nové ekonomické příležitosti, které využívají narušení trhu. Tito podnikatelé, často označovaní jako "Burner-podnikatelé", mohou prosperovat díky tomu, že si půjčují znehodnocenou měnu na investice do hmotných aktiv a své dluhy pak splácejí ještě více znehodnocenou měnou.
 
-Zimbabwe: "Tyto praktiky, ačkoli obohatily několik jedinců, zchudly městskou pracující třídu a venkovské obyvatelstvo. Vzdělání ztratilo svou hodnotu, jelikož tento obchod byl řízen lidmi, kteří k jeho ospravedlnění nepotřebovali vzdělání ani tvrdou práci. Vše, co potřebovali, byly kontakty a počáteční kapitál k zahájení svého podnikání s snadnými penězi."
 
-![image](assets/fr/042.webp)
+Výmar: "Spekulace na inflaci spočívala v tom, že si stát půjčoval papírové marky, přeměňoval je na zboží a továrny a pak splácel věřitelům znehodnocenými papíry."
+
+
+Zimbabwe: "Podnikatelé v oblasti spalování"
+
+
+#### 7. Poctivost a práce Hard ztrácejí na atraktivitě
+
+
+V nestabilních ekonomických podmínkách mohou být tradiční hodnoty, jako je práce, šetrnost a poctivost, zastíněny lákadlem rychlého zbohatnutí. Spekulace a obchodování s měnami často nabízejí výrazně vyšší odměny než běžná práce, což vede k narušení společenských priorit.
+
+
+Výmar: "Protože staré ctnosti jako spořivost, poctivost a práce ztratily svou přitažlivost, každý se snažil rychle zbohatnout, zejména proto, že spekulace s měnou nebo akciemi zjevně přinášely mnohem více než práce."
+
+
+Zimbabwe: "Tyto praktiky sice obohatily několik jednotlivců, ale ochudily městskou dělnickou třídu a venkovské obyvatelstvo. Vzdělání ztratilo svou hodnotu, protože tímto obchodem se zabývali lidé, kteří k jeho ospravedlnění nepotřebovali vzdělání ani práci Hard . Stačily jim konexe a počáteční kapitál, aby mohli začít podnikat za snadné peníze."
+
+
+![image](assets/cs/043.webp)
+
 
 #### 8. "Banky světa"
 
-V situacích hyperinflace nebo měnové krize mají tendenci se množit paralelní a neregulované trhy s cizími měnami. Tyto neformální "banky", často humorně označované jako "světové banky" nebo jinými místními názvy, poskytují útočiště těm, kteří se snaží chránit svá aktiva před devalvací. Ačkoli tyto trhy mohou poskytovat nezbytnou ekonomickou životní linku, často poukazují na rozšířenou nedůvěru v oficiální finanční instituce a vládní politiky.
-Weimar: "Jejich transakce byly převážně prováděny takzvanými Winkelbankiers, uličními operátory, kteří se objevili s inflací a kteří, prosperující v nemocné ekonomice, žili zcela tím, že využívali rozdílu mezi nákupními a prodejními cenami cizích měn."
-Zimbabwe: "Byli to také směnárníci. Operovali bez trestu mezi 2. a 6. Avenue a Fort Street v Bulawayo, díky svým vychytralým obchodním dovednostem zahrnujícím korupci a další praktiky. Tato oblast města byla známá jako 'Světová banka'."
-Argentina: "Tak jsem šel tam, kam chodí všichni Argentinci: do cuevas, 'jeskyní', které se nacházejí ve čtvrti Florida v srdci Buenos Aires." - TheBigWhale
 
-#### 9. Směna cizích měn byla nezákonná
+V situacích hyperinflace nebo měnové krize často vznikají paralelní a neregulované trhy s cizími měnami. Tyto neformální "banky", často vtipně označované jako "světové banky" nebo jinými místními názvy, poskytují útočiště těm, kteří se snaží ochránit svůj majetek před znehodnocením. Přestože tyto trhy mohou poskytovat nezbytné ekonomické záchranné lano, často zdůrazňují rozšířenou nedůvěru v oficiální finanční instituce a vládní politiku.
 
-Vlády se v úsilí stabilizovat vlastní měnu a kontrolovat tok kapitálu mohou rozhodnout tyto transakce s cizími měnami prohlásit za nelegální. Tyto represivní opatření, ačkoli mají za cíl chránit národní ekonomiku, často mají opačný efekt, zvyšují veřejnou nedůvěru a podporují černý trh.
+Výmar: "Jejich transakce se uskutečňovaly především prostřednictvím takzvaných Winkelbankiers, pouličních obchodníků, kteří se objevili s inflací a kteří v nemocné ekonomice prosperovali výhradně z toho, že využívali rozdílu mezi nákupními a prodejními cenami zahraničních měn."
 
-Weimar: "Lidé se uchylovali k barteru a postupně přešli na cizí měny jako jediný spolehlivý prostředek výměny. Byly zavedeny nové dekrety týkající se nákupu cizích směnek a používání cizích měn pro domácí platby. Kromě vězení nyní mohly být uloženy pokuty až desetkrát vyšší než částka nelegální transakce."
+Zimbabwe: "Byli to také směnárníci. Díky svým mazaným obchodním praktikám, které často zahrnovaly korupci a další nezákonné činnosti, působili beztrestně mezi 2. a 6. avenue a Fort Street v Bulawayu. Tato část města byla známá jako 'Světová banka'."
 
-Zimbabwe: "Razie na podniky vedly k uvěznění několika podnikatelů z Bulawayo na víkend a k pokutám ve výši dvojnásobku částky získané cizí měny, poté tato odvaha opadla."
+Argentina: "Tak jsem se vydal tam, kam chodí všichni Argentinci: do cuevas, "jeskyní", které se nacházejí ve čtvrti Florida v centru Buenos Aires." - TheBigWhale
 
-#### 10. Kontrola kapitálu
 
-Když země čelí měnové nebo ekonomické krizi, jednou z běžných reakcí vlád je přísná kontrola pohybu a forem kapitálu. Ať už prostřednictvím nařízení, která vyžadují přijetí znehodnocených národních měn, nebo prostřednictvím vážných sankcí vůči těm, kdo odmítají určité platební metody, tyto opatření často mají za cíl omezit paniku a obnovit důvěru. Avšak jejich účinnost se liší a někdy mohou tyto opatření být kontraproduktivní nebo odpojené od reality, kterou občané zažívají.
-Weimar: "Obchodníci byli nedávno novým dekretem donuceni přijímat státní bankovky; ale protože to také umožňovalo pokračování používání cizích měn pro všechny nákupy, obchodníci obecně hledali výmluvy, aby přijímali skoro nic jiného."
-Zimbabwe: "Vláda zavedla SI 175/2008 dne 12. prosince 2008, které se týkalo platby šeky. Uvádělo se v něm: 'Pokuta za odmítnutí platby šekem/bankovní kartou nebo jakoukoli jinou elektronickou platební metodou prostřednictvím banky bude pokuta osmého stupně nebo vězení na šest měsíců, nebo obojí.' Samozřejmě jsme SI ignorovali, protože to bylo naprosto mimo realitu."
-![image](assets/fr/043.webp)
+#### 9. Směny cizích měn byly nezákonné
 
-#### 11. Donuceni držet své obchody otevřené
 
-Když ekonomika kolabuje a měna ztrácí svou hodnotu, vlády mohou sáhnout k drastickým opatřením, aby udržely zdání normálnosti.
+Vlády ve snaze stabilizovat vlastní měnu a kontrolovat tok kapitálu mohou tyto devizové transakce zakázat. Tato represivní opatření, ačkoli mají chránit národní ekonomiku, mohou mít často opačný účinek, neboť prohlubují nedůvěru veřejnosti a podporují černý trh.
 
-Weimar: "Obchodníci, kteří pokračovali ve své činnosti, byli předmětem nového nařízení, vydaného 22. října, které je vyžadovalo, aby udržovali své obchody otevřené a nabízeli zboží výměnou za papírové marky."
 
-Zimbabwe: "Zůstaly pouze prázdné ocelové regály a chladničky, chladiče a mrazáky. Tragédií bylo, že obchod byl stále otevřený, protože se neodvážili zavřít kvůli politickým napětím a strachu z toho, že by lídři byli zatčeni vládními silami kontroly cen. Dokonce ani pracovníci nebyli propuštěni, protože každý si myslel, že brzy přijde rychlé řešení."
+Výmar: "Lidé se uchýlili ke směnnému obchodu a postupně se obrátili k zahraničním měnám jako k jedinému spolehlivému prostředku Exchange. Byla zavedena nová nařízení týkající se nákupu zahraničních směnek a používání zahraničních měn pro domácí platby. Kromě trestu odnětí svobody mohly být nyní ukládány pokuty až do výše desetinásobku nelegální transakce."
+
+
+Zimbabwe: "Zátahy na podniky vedly k uvěznění několika podnikatelů z Bulawaya na víkend a k pokutám ve výši dvojnásobku vymožené cizí měny, poté tato odvaha opadla."
+
+
+#### 10. Kapitálové kontroly
+
+
+Když země čelí měnové nebo hospodářské krizi, je jednou z běžných reakcí vlád přísná kontrola pohybu a forem kapitálu. Ať už prostřednictvím příkazů, které nutí přijímat devalvované národní měny, nebo přísných sankcí vůči těm, kdo odmítají určité platební metody, jsou tato opatření často zaměřena na omezení paniky a obnovení důvěry. Jejich účinnost je však různá a někdy se tato opatření mohou ukázat jako kontraproduktivní nebo odtržená od reality, kterou občané zažívají.
+
+Výmar: "Obchodníci byli nedávno novým výnosem donuceni přijímat státní bankovky, ale protože výnos zároveň umožňoval nadále používat cizí měny pro všechny nákupy, obchodníci si většinou našli výmluvu, proč nepřijímat téměř nic jiného."
+
+
+Zimbabwe: "Vláda zavedla dne 12. prosince 2008 normu SI 175/2008 týkající se plateb šekem. V něm se uvádí: "Sankcí za odmítnutí platby šekem/bankovní kartou nebo jakoukoli jinou elektronickou platební metodou zprostředkovanou bankou je pokuta 8. stupně nebo trest odnětí svobody v délce šesti měsíců nebo obojí." SI jsme samozřejmě ignorovali, protože byl zcela mimo realitu."
+
+
+![image](assets/cs/044.webp)
+
+
+#### 11. Nuceni nechat své obchody otevřené
+
+
+Když se ekonomika zhroutí a měna ztratí svou hodnotu, mohou se vlády uchýlit k drastickým opatřením, aby udržely zdání normálnosti.
+
+
+Výmar: "Na obchodníky, kteří pokračovali ve své činnosti, se vztahovalo nové nařízení z 22. října, podle něhož museli mít své obchody otevřené a nabízet zboží v Exchange za papírové marky."
+
+
+Zimbabwe: "Zůstaly jen prázdné ocelové regály a chladničky, mrazničky a mrazáky. Tragédií bylo, že obchod byl stále otevřený, protože se neodvážili zavřít kvůli politickému napětí a strachu ze zatčení vedoucích pracovníků vládní jednotkou pro kontrolu cen. Dokonce ani zaměstnanci nebyli propuštěni, protože si všichni mysleli, že se najde rychlé řešení."
+
 
 #### 12. Každý je zločinec
 
-V situaci kolabující ekonomiky a všudypřítomných regulací se hranice mezi přežitím a kriminalitou stává nejasnou.
 
-Weimar: "Všechny zločiny proti státu, každý z nich, v různé míře, se stal otázkou přežití jednotlivců."
+Tváří v tvář kolabující ekonomice a všudypřítomným regulacím se hranice mezi přežitím a zločinem stírá.
 
-> Zimbabwe: „Každý obyvatel Zimbabwe byl zločinec. Ačkoli to může znít tvrdě, byla to pravda. Díky nesčetným malým zákonům upravujícím každý aspekt života bylo nevyhnutelné, že každý den někdo porušil zákon. Vlastnit cizí měnu bylo nezákonné podle SI vydaného v roce 2004. Mít více bankovních účtů k obcházení denního limitu výběru bylo nezákonné. Nemít správné poznávací značky na autě, nebo licenci na autorádio či povolení pro generátor, byly všechno zákony, které někdo, někde, porušoval.“
 
-#### 13. Koupit cizí měnu za každou cenu
+Výmar: "Všechny zločiny proti státu, každý z nich se v různé míře stal pro jednotlivce otázkou přežití."
 
-Zoufalé kupování cizích měn často označovalo kritický bod v devalvaci měny, který zhoršoval pokles vnitřní hodnoty.
 
-> Weimar: "Mannheimer na pokyn svého šéfa vyšel v srpnu 1921 a začal kupovat cizí měny za jakoukoli cenu - 'protože Německo mělo nekonečné množství papírových marek, ale žádné cizí měny.' To byl první znak absolutního kolapsu hodnoty marky."
+> Zimbabwe: "Každý obyvatel Zimbabwe byl zločinec. Ač to může znít krutě, byla to pravda. S nesčetným množstvím drobných zákonů, které upravovaly každý aspekt života, bylo nevyhnutelné, že každý den nějaký zákon porušil. Držení cizí měny bylo podle SI zveřejněného v roce 2004 nezákonné. Mít více bankovních účtů, aby se obešel denní limit pro výběr peněz, bylo nezákonné. Nemít na autě správné poznávací značky, licenci na autorádio nebo povolení ke generátoru, to všechno byly zákony, které někdo, někde, porušoval."
 
-> Zimbabwe: Bylo obviněno, že jim byly stanoveny denní cíle, protože některé požadavky na forex byly naléhavé a kupovali za jakoukoli sazbu, aby nahromadili forex a splnili termín. Tato údajná praxe byla obviněna z podněcování devalvace, protože hodnota zimbabwského dolaru pokračovala ve strmém poklesu."
+#### 13. Nákup cizí měny za každou cenu
 
-### Souhrn procesu
 
-![image](assets/fr/044.webp)
+Zběsilý nákup zahraničních měn často znamenal kritický bod obratu v devalvaci měny a prohloubil pokles její vnitřní hodnoty.
 
-Při analýze ekonomické trajektorie je zřejmé, že když je dosaženo vysoké inflace, hodnota peněžní hmoty se znehodnocuje. Tato devalvace vede k několika komplikacím, včetně nedostatku bankovek. V tomto kontextu vznikají příležitosti k arbitráži, zejména s kolísáním směnných kurzů. V důsledku toho se mnoho jednotlivců obrací k této arbitráži, investují těžce do hmatatelných aktiv v očekávání budoucí devalvace měny, která by jim umožnila splatit své dluhy oslabenou měnou. Toto ekonomické prostředí podkopává přitažlivost tradičních pracovních míst a následně eroduje sociální soudržnost.
-V reakci na tuto situaci vláda uvalila drakonická nařízení, včetně kontrol kapitálu. Také nařídila obchodníkům, aby přijímali národní měnu a šeky. Časem byly přijaty nové zákony, rozšiřující definici trestného chování. Nakonec směnný kurz exponenciálně stoupal, protože vláda byla ochotna směnit svou měnu, tištěnou za nižší náklady, za silnější zahraniční měny.
 
-### 4 podobnosti v důsledcích hyperinflace
+> Výmar: "Fritz Mannheimer se na pokyn svého šéfa vydal v srpnu 1921 ven a začal nakupovat zahraniční měny za každou cenu - "protože Německo mělo nekonečné množství papírových marek, ale žádné zahraniční měny" To byl první příznak absolutního zhroucení hodnoty marky."
 
-![obrázek](assets/fr/045.webp)
+> Zimbabwe: Údajně dostávali denní cíle, které měli splnit, protože některé požadavky na forex byly naléhavé a nakupovali za každou cenu, aby nashromáždili forex a splnili termín. Tato údajná praxe byla obviněna z toho, že podněcuje požár devalvace, protože hodnota zimbabwského dolaru nadále prudce klesá."
+
+### Shrnutí procesu
+
+
+![image](assets/cs/045.webp)
+
+
+Při analýze ekonomické trajektorie je zřejmé, že při dosažení vysoké inflace se hodnota peněžní masy zhoršuje. Toto znehodnocení vede k řadě komplikací, včetně nedostatku bankovek. V této souvislosti vznikají arbitrážní příležitosti, zejména v reakci na výkyvy sazeb Exchange. V důsledku toho se k této arbitráži obrací mnoho jednotlivců, kteří ve velkém investují do hmotných aktiv v očekávání budoucí devalvace měny, která by jim umožnila splácet dluhy oslabenou měnou. Toto ekonomické prostředí podkopává atraktivitu tradičních pracovních míst a v důsledku toho narušuje sociální soudržnost.
+
+
+V reakci na tuto situaci vláda zavádí drakonické regulace, včetně kontroly kapitálu. Nařizuje také obchodníkům přijímat národní měnu a šeky. Postupem času jsou přijímány nové zákony, které rozšiřují definici trestného jednání. Nakonec kurz Exchange exponenciálně stoupá, protože vláda je ochotna Exchange svou měnu, vytištěnou za nižší cenu, vyměnit za silnější zahraniční měny.
+
+
+### 4 Podobnosti v důsledcích hyperinflace
+
+
+![image](assets/cs/046.webp)
+
 
 #### 1. Ropa a kovy
 
-V Německu během období Výmarské republiky bylo krádeží cenných materiálů tolik, že olovo ze střech bylo často odcizováno. V Zimbabwe zoufalství přimělo některé lidi přerušit elektrickou síť, aby mohli získat olej z transformátorů a použít jej ve svých vozidlech.
 
-Weimar: „Kovové desky z národních památek musely být odstraněny a uloženy do bezpečí. Mosazné zvonkové destičky byly ukradeny z dveří britského velvyslanectví v Berlíně.“
+Ve výmarském období byly v Německu krádeže cenných materiálů tak rozšířené, že se často kradlo olovo ze střech. V Zimbabwe vedlo zoufalství některé lidi k tomu, že narušili elektrickou síť, aby z transformátorů získali olej a použili ho ve svých vozidlech.
 
-Zimbabwe: „Aby toho nebylo málo, kvůli nedostatku cizích měn došlo k nedostatku mazacího oleje pro automobily a transformátory se staly snadným cílem pro zloděje, kteří během výpadků elektřiny odsávali chladicí olej.“
+
+Výmar: "Kovové desky národních památek musely být pro jistotu odstraněny. Ze dveří britského velvyslanectví v Berlíně byly ukradeny mosazné zvonkové desky."
+
+
+Zimbabwe: "Aby toho nebylo málo, kvůli nedostatku zahraniční měny byl nedostatek mazacího oleje pro automobily a transformátory se staly snadným cílem zlodějů, kteří při výpadcích proudu odčerpávali chladicí olej."
+
 
 #### 2. Vlaky
 
-Znehodnocení měny může občany přimět k přežití založenému na vandalismu. Tvrdě zkoušená ekonomika může ohrozit nákladnou veřejnou infrastrukturu, jako jsou dopravní systémy, což vede k katastrofálním společenským důsledkům.
 
-> Weimar: „V Berlíně přestal fungovat tramvajový systém z důvodu nedostatku prostředků.“
+Devalvace měny může občany přimět k chování, které vede k přežití, včetně vandalismu. Tváří v tvář kolabující ekonomice může být ohrožena nákladná veřejná infrastruktura, například dopravní systémy, což může mít katastrofální společenské důsledky.
 
-> Zimbabwe: „Jedním z nejznepokojivějších a nejsmutnějších scénářů bylo, když byla téměř celá elektrická měděná linka spojující Harare a Dabuku (více než 280 kilometrů) ukradena. Při dokončení byla pýchou Zimbabwe, rychlé elektrické vlaky pro cestující i náklad po ní jezdily.“
 
-#### 3. „Mealie Meal“
+> Výmar: "V Berlíně přestaly jezdit tramvaje kvůli nedostatku financí."
 
-V kontextu mizivých platů a nestabilní ekonomiky byly podniky nuceny poskytovat zaměstnancům jídlo, aby zůstali produktivní a schopní pracovat. Tato iniciativa byla nejen prostředkem, jak čelit nedostatku a vysokým cenám potravin, ale také strategií, jak si udržet pracovní sílu v obtížném hospodářském prostředí.
+> Zimbabwe: "Jedním z nejznepokojivějších a nejsmutnějších scénářů byla krádež téměř celého elektrického měděného vedení spojujícího Harare s Dabukou (více než 280 kilometrů). V době svého dokončení to byla chlouba Zimbabwe, po této trase jezdily rychlé elektrické osobní i nákladní vlaky."
 
-> Weimar: „V Berlíně měli kancelářští zaměstnanci, kteří tvořili velmi důležitou třídu v hlavním městě, zcela neadekvátní platy pohybující se od 12 000 do 20 000 měsíčně (tedy mezi 12 a 19 librami ročně), které se neustále snižovaly; většina z nich si však stále mohla zajistit obědy za symbolickou částku, poskytovanou jejich úřady, takže tělo a duše mohly být alespoň udrženy pohromadě.“
+#### 3. "Mealie Meal"
 
-> Zimbabwe: „V této fázi jsme poskytovali všem našim zaměstnancům bezplatný oběd. Kukuřičná mouka byla nezbytná pro nepřetržitý chod našeho podniku, protože v mnoha případech to bylo jediné jídlo, které naši zaměstnanci každý den dostali.“
 
-#### 4. Benzínové kupony
+V kontextu nízkých mezd a nestabilní ekonomiky byly podniky nuceny poskytovat svým zaměstnancům potraviny, aby si udržely produktivitu a efektivitu provozu. Tato iniciativa byla nejen způsobem, jak kompenzovat nedostatek a vysoké náklady na potraviny, ale také strategií, jak si udržet zaměstnance v obtížném ekonomickém prostředí.
 
-Obyvatelstvo hledá stabilní alternativy pro transakce. Ve Výmaru sloužily výrobky jako mosaz a palivo jako prostředky směny díky své trvalé vnitřní hodnotě. V Zimbabwe, tváří v tvář rychlé devalvaci zimbabwského dolaru, se benzínové kupony, představující pevné množství základní komodity, staly de facto měnou. Tyto situace ukazují, jak se společnosti přizpůsobují extrémním ekonomickým podmínkám a hledají inovativní řešení, aby udržely obchod a ekonomiku v chodu.
 
-Weimar: „Trojka byla již běžnou formou směny; nyní se však zboží jako mosaz a palivo stalo běžnou měnou nákupu a plateb.“
+> Výmar: "V Berlíně měli kancelářští zaměstnanci, kteří tvořili v hlavním městě velmi důležitou třídu, naprosto nedostatečné platy v rozmezí 12 000 až 20 000 měsíčně (což odpovídá 12 až 19 librám ročně), které se neustále snižovaly; většina z nich však mohla ještě za symbolickou částku dostávat obědy, které jim poskytovaly úřady, takže tělo a duše mohly jen stěží zůstat pohromadě."
 
-Zimbabwe: „Tyto poukázky jsme nyní používali k placení nájmů majitelům, městských poplatků, telefonních účtů, vlastně téměř všeho, protože všichni přestali přijímat platby v zimbabwských dolarech a šecích.“
+> Zimbabwe: "V této fázi jsme všem zaměstnancům poskytovali obědy zdarma. Kukuřičné jídlo bylo pro další fungování naší společnosti nezbytné, protože v mnoha případech to bylo jediné jídlo, které naši zaměstnanci denně dostávali."
+
+#### 4. Kupóny na benzín
+
+
+Obyvatelstvo hledalo stabilní alternativy pro transakce. Ve Výmaru sloužily výrobky jako mosaz a palivo díky své stálé vnitřní hodnotě jako médium Exchange. V Zimbabwe, které čelilo rychlé devalvaci zimbabwského dolaru, se de facto měnou staly kupony na benzín, které představovaly pevné množství základního produktu. Tyto situace poukazují na to, jak se společnosti přizpůsobují extrémním ekonomickým podmínkám a vymýšlejí inovativní řešení, aby udržely obchod a ekonomiku.
+
+
+Výmar: "Barterový obchod byl již dříve obvyklou formou Exchange, ale nyní se běžným platidlem stalo zboží jako mosaz a palivo."
+
+
+Zimbabwe: "Tyto poukázky jsme nyní používali k placení nájemného majitelům bytů, obecních poplatků, telefonních účtů - vlastně téměř všeho - protože všichni přestali přijímat platby v zimbabwských dolarech a šeky."
+
 
 #### Závěr
 
-Tímto se uzavírá toto video o podobnostech zkušeností během období hyperinflace v Zimbabwe a ve Výmarské republice. V příštím videu budeme hovořit o rozdílech a současných paralelách. Děkuji.
+
+Tímto končí toto video o podobnostech zkušeností z období hyperinflace v Zimbabwe a Výmarské republice. V příštím videu se budeme zabývat rozdíly a současnými paralelami. Děkujeme.
 
 
-## Výmarská republika vs Zimbabwe: Rozdíly a současné paralely
+## Výmar vs. Zimbabwe: Rozdíly a současné paralely
+
 
 <chapterId>643f279c-d89f-5600-a2e2-b1bbbba0ab69</chapterId>
 
-V této kapitole prozkoumáme rozdíly a současné paralely mezi minulými a současnými obdobími hyperinflace, s anekdotami a relevantními srovnáními pro dnešek.
+
+V této kapitole se budeme zabývat rozdíly a současnými paralelami mezi minulými a současnými obdobími hyperinflace a uvedeme anekdoty a relevantní srovnání pro současnost.
+
 
 ### Rozdíly mezi Výmarskou republikou a Zimbabwe
 
-#### 1. To je vina dolaru!
 
-V Německu bylo běžné, že populace připisovala inflaci vzestupu dolaru spíše než vnitřní devalvaci vlastní měny. Mnozí věřili, že pozorovaný jev byl způsoben oceněním dolaru. Toto vnímání odmítalo jakékoli uznání spojitosti mezi jejich ekonomickými obtížemi a monetární devalvací, hlavně způsobenou nadměrnou tvorbou peněz. Kniha "When Money Dies" jasně ilustruje tento nedostatek porozumění mezi německou populací. Na rozdíl od toho, v Zimbabwe byla situace jiná: občané byli plně vědomi skutečné příčiny hyperinflace, kterou zažívali.
+#### 1. Může za to dolar!
 
-![obrázek](assets/fr/046.webp)
+
+V Německu bylo běžné, že obyvatelstvo přisuzovalo inflaci spíše růstu kurzu dolaru než vlastnímu znehodnocení vlastní měny. Mnozí se domnívali, že pozorovaný jev byl způsoben zhodnocením dolaru. Toto vnímání odmítalo jakékoli uznání souvislosti mezi jejich hospodářskými potížemi a znehodnocením měny, vyvolaným především nadměrnou tvorbou peněz. Kniha "Když peníze umírají" jasně ilustruje toto nepochopení mezi německým obyvatelstvem. Naproti tomu v Zimbabwe byla situace jiná: občané si plně uvědomovali základní příčinu hyperinflace, kterou zažívali.
+
+
+![image](assets/cs/047.webp)
+
 
 #### 2. Nouzové peníze (Notgeld)
-   Čelící měnové a ekonomické krizi, Německo sáhlo po "Notgeld" (nouzové peníze). Tyto bankovky, tisknuté městy nebo určitými společnostmi, byly navrženy k řešení nedostatku běžné měny. Zajímavě, Francie také sáhla po Notgeld, zejména ve 20. letech 20. století. Tato iniciativa nebyla jen přímým důsledkem hyperinflace, ale měla také kořeny v narušeních způsobených první světovou válkou. Válka nejen destabilizovala ekonomiku, ale také zvýšila cenu kovů. V důsledku toho často vnitřní hodnota kovových mincí převyšovala jejich nominální hodnotu, což vedlo lidi k jejich hromadění. V nepřítomnosti mincí některé instituce, jako například Obchodní komora v Lyonu, tiskly své vlastní Notgeld.
-   ![image](assets/fr/048.webp)
 
-> "Co musí být uděláno, musí být uděláno." - místní přísloví
 
-Mezi Notgeld vyniká jedna konkrétní bankovka. Na ní je dojemná ilustrace: v centru je zobrazen jedinec, který defekuje Mark. Na rubové straně tabulka cen z let 1913 až 1921 ilustruje nárůst inflace v tomto období.
+V době měnové a hospodářské krize se Německo uchýlilo k "Notgeld" (nouzovým penězům). Tyto bankovky, tištěné městy nebo některými společnostmi, byly určeny pro Address při nedostatku běžné měny.
 
-Umělec za tímto Notgeld se zdá dělat ironickou kritiku autorit odpovědných za krizi hyperinflace. Bankovka nese nápis "Nouze nezná zákon". Další výraz specifický pro lokalitu původu Notgeldu říká: "Co musí být uděláno, musí být uděláno".
+Zajímavé je, že k notgeldu se uchýlila i Francie, zejména ve 20. letech 20. století. Tato iniciativa nebyla jen přímým důsledkem hyperinflace, ale měla také kořeny v rozvratu způsobeném první světovou válkou. Válka nejen destabilizovala hospodářství, ale také zvýšila cenu kovů. V důsledku toho vnitřní hodnota kovových mincí často převyšovala jejich nominální hodnotu, což přimělo lidi k jejich hromadění. Při nedostatku mincí si některé instituce, jako například Lyonská obchodní komora, tiskly vlastní notgeld.
 
-![image](assets/fr/047.webp)
+![image](assets/cs/048.webp)
 
-> "nouze nezná zákon"
 
-> První Shitcoin: Anekdota, pohled na centrální ilustraci bankovky, kde je měna doslova znehodnocena akcí jedince, by se mohla nazvat prvním "shitcoinem".
+> "Co je třeba udělat, to se musí udělat." - místní přísloví
+
+Mezi bankovkami Notgeld vyniká jedna konkrétní. Je na ní dojemná ilustrace: uprostřed je vyobrazen člověk, který vyprazdňuje marku. Na rubové straně je tabulka cen z let 1913 až 1921, která ilustruje nárůst inflace v tomto období.
+
+
+Zdá se, že autor tohoto Notgeldu ironicky kritizuje úřady odpovědné za hyperinflační krizi. Bankovka nese nápis "Nutnost nezná zákon". Další výraz specifický pro lokalitu vzniku notgeldu zní: "Co se musí udělat, to se musí udělat."
+
+
+![image](assets/cs/049.webp)
+
+
+> "nutnost nezná zákon"
+
+> První shitcoin: Při pohledu na ústřední ilustraci bankovky, kde je měna doslova znehodnocena jednáním jednotlivce, by se dalo říci, že se jedná o první "shitcoin"
 
 #### 3. Dluhopisy a hypotéky
 
-Ve Výmarské republice byly některé dluhy přeceněny, aby kompenzovaly dopad inflace. Toto opatření nebylo přijato v Zimbabwe.
 
-> Výmarská republika: "Rozhodnutí o přecenění státních půjček se stalo zákonem v roce 1925, což vedlo k tomu, že akcionáři obdrželi 2,5 procenta své původní investice, za předpokladu, že všechny reparace byly zaplaceny."
+Ve Výmaru byly některé dluhy přeceněny, aby se kompenzoval dopad inflace. Toto opatření nebylo v Zimbabwe přijato.
 
-> Zimbabwe: "V červenci 2007 (tři roky později) jsem mohl vyndat z kapsy znehodnocenou bankovku ZDW 500 000 (bt "000"), nyní v hodnotě 1,67 dolaru na paralelním trhu, a splatit hypoteční úvěr, který měl být splacen během dvaceti let. Navíc tato bankovka představovala pouze 0,49 procenta mého měsíčního platu za stejný měsíc."
 
-Pro další informace o zvládání německé krize je také nezbytná tato kniha.
+> Výmar: "V roce 1925 bylo uzákoněno rozhodnutí o přecenění státem vlastněných půjček, na základě kterého akcionáři obdrželi 2,5 % své původní investice za předpokladu, že byly zaplaceny všechny reparace."
 
-![image](assets/fr/049.webp)
+> Zimbabwe: "V červenci 2007 (o tři roky později) jsem mohl z kapsy vytáhnout znehodnocenou bankovku v hodnotě 500 000 ZDW (bt "000"), která má nyní podle kurzu paralelního trhu hodnotu 1,67 USD, a splatit hypoteční úvěr, který měl být splácen dvacet let. Navíc tato bankovka představovala pouze 0,49 procenta mého měsíčního platu za tentýž měsíc."
+
+Chcete-li se dozvědět více o zvládání německé krize, je tato kniha rovněž nezbytná.
+
+
+![image](assets/cs/050.webp)
+
 
 ### Současné paralely
 
-#### 1. Manipulace měnové politiky k řízení ekonomiky.
-   V historii Výmarské republiky je zřejmé, že průmyslníci byli neochotní vidět ocenění Marky. Jejich schopnost půjčovat si a splácet své dluhy silně znehodnocenou měnou jim dávala značnou výhodu. Tento mechanismus usnadnil stavbu obrovských průmyslových komplexů téměř bez nákladů. Tito průmyslníci se obávali ocenění Marky, protože to bránilo jejich aktivitám. Někteří dokonce považovali nekontrolovanou inflaci za dobrou věc, protože věřili, že zaručuje zaměstnanost pro populaci. Nicméně si neuvědomovali škodlivý dopad této inflace na úspory a ekonomiku obecně. Pro tyto ekonomické aktéry byl tisk peněz požehnáním.
-1. Weimar: "To je důvod, proč se velmi obávalo zhodnocení marky, a dokonce i několik týdnů 'stability' po Janově způsobilo stagnaci v podnikání."
-   > Weimar: "Průmyslové kruhy čelily nebezpečí, že hotovost by se stala cennější než zboží, a když by se každý pokusil přeměnit svá aktiva na hotovost, došlo by k zániku."
 
-Současný paralelismus lze nalézt ve vyjádřeních Christine Lagardeové, která naznačuje, že občané by měli dát přednost vyhlídce na zaměstnání před ochranou svých úspor. Stejně jako průmyslníci ve Weimaru, zdá se, že podporuje tisk peněz jako nástroj k stimulaci zaměstnanosti, na úkor hodnoty úspor.
+#### 1. Manipulace s měnovou politikou za účelem řízení ekonomiky.
 
-> Christine Lagardeová: "Měli bychom být šťastnější mít práci, než vidět naše úspory chráněné."
+Z dějin Výmarské republiky je zřejmé, že průmyslníci nechtěli, aby se hodnota marky zhodnotila. Jejich schopnost půjčovat si a splácet dluhy silně znehodnocenou měnou jim poskytovala značnou výhodu. Tento mechanismus usnadnil výstavbu obrovských průmyslových komplexů téměř bez nákladů. Tito průmyslníci se obávali zhodnocení marky, protože to bránilo jejich činnosti. Někteří dokonce považovali prudkou inflaci za pozitivní jev, protože se domnívali, že zaručí zaměstnanost obyvatelstva. Neuvědomovali si však škodlivý dopad této inflace na úspory a hospodářství jako celek. Pro tyto ekonomické subjekty byl měnový tisk požehnáním.
 
-#### 2. Soukromý majetek v době konfliktů
 
-Historie Výmarské republiky odhaluje, že v tomto období byla aktiva a kapitál držený v zahraničí konfiskován. Toto opatření připomíná nedávné události v Rusku, zejména na začátku konfliktu. Tyto situace zdůrazňují znepokojivou realitu: v dobách krize může být ohrožen respekt k soukromému majetku. Jedná se o historický a současný paralelismus, který zdůrazňuje možné důsledky krizí na individuální práva.
+> Výmar: "Proto panovaly velké obavy z posílení marky, a dokonce i několik týdnů "stability" po Janově způsobilo stagnaci obchodu."
 
-> Weimar: "Veškerý německý kapitál držený v zahraničí byl konfiskován."
+> Výmar: "Průmyslové kruhy čelily nebezpečí, že se hotovost stane cennější než zboží a dojde ke kolapsu, když se všichni budou snažit přeměnit svůj majetek na hotovost."
 
-> [20minutes.fr](https://www.20minutes.fr/monde/3286947-20220513-guerre-ukraine-geler-avoirs-russes-vol-non-redistribuer-kiev-poserait-lourdes-questions): "Přibližně 300 miliard dolarů ruských rezerv držených v zahraničí bylo skutečně zmrazeno jako součást západních sankcí, z celkových 640 miliard dolarů rezerv držených Ruskou centrální bankou."
+Současnou paralelu lze najít ve výrocích Christine Lagardeové, která navrhuje, aby občané upřednostnili vyhlídky na zaměstnání před ochranou svých úspor. Stejně jako výmarští průmyslníci zřejmě obhajuje tisk peněz jako nástroj stimulace zaměstnanosti na úkor hodnoty úspor.
 
+
+> Christine Lagardeová: "Měli bychom být šťastnější, že máme práci, než že jsou naše úspory chráněny."
+
+#### 2. Soukromý majetek v době konfliktu
+
+
+Z historie Výmarské republiky vyplývá, že v tomto období byl zabavován majetek a kapitál držený v zahraničí. Toto opatření připomíná nedávné události v Rusku, zejména na začátku konfliktu. Tyto situace poukazují na znepokojivou skutečnost: v době krize může být ohrožena úcta k soukromému vlastnictví. Jedná se o historickou a současnou paralelu, která zdůrazňuje potenciální dopady krizí na práva jednotlivce.
+
+
+> Výmar: "Veškerý německý kapitál držený v zahraničí byl zkonfiskován."
+
+> [20minutes.fr](https://www.20minutes.fr/monde/3286947-20220513-guerre-ukraine-geler-avoirs-russes-vol-non-redistribuer-kiev-poserait-lourdes-questions): "V rámci západních sankcí bylo skutečně zmrazeno přibližně 300 miliard dolarů ruských rezerv držených v zahraničí z celkového objemu 640 miliard dolarů rezerv držených ruskou centrální bankou."
 
 #### 3. Pojem tržní ceny
 
-Během Výmarské republiky vyjadřovali zemědělci svou nespokojenost s „Umlage“, která je nutila odevzdávat první dva miliony tun pšenice vyprodukované každý rok. Tato regulace měla za následek, že polovina celkové dodávky chleba byla uvedena na trh za dotované ceny. Od srpna měli být tito zemědělci placeni za světovou cenu, protože přestože byli nuceni odevzdávat svou pšenici za snížené ceny, museli zároveň nakupovat hnojiva za světové sazby.
 
-Tato situace vyvolává klíčovou otázku spojenou s pojmem tržní ceny během hyperinflace. V tehdejším německém kontextu byli zemědělci nuceni prodávat svou pšenici pod její skutečnou hodnotou, zatímco museli nakupovat hnojiva za světové ceny. Takový ekonomický nesoulad zdůrazňuje výzvy, které dnes představují ceny potravin. Zemědělští producenti, čelící růstu nákladů na vstupy v důsledku inflace, tyto náklady promítají do konečných produktů. Kritizovat je za toto zvýšení znamená ignorovat dynamiku tržní ceny a ekonomické tlaky, kterým čelí. Prodávat za uměle nízké ceny při vysokých nákladech je pro jakýkoli podnik neudržitelné.
+Za Výmarské republiky vyjadřovali zemědělci nespokojenost s "Umlage", která je nutila odevzdávat první dva miliony tun vyprodukované pšenice ročně. Toto nařízení vedlo k tomu, že polovina celkového množství chleba Supply byla uváděna na trh za dotované ceny. Od srpna měli tito zemědělci dostávat zaplaceno za cenu na světovém trhu, protože i když byli nuceni odevzdávat pšenici za snížené ceny, museli stále nakupovat hnojiva za ceny na světovém trhu.
 
-> Weimar: „Zemědělské zájmy byly nespokojeny s 'Umlage', povinným odevzdáním prvních dvou milionů tun pšenice vyprodukovaných každý rok, což umožňovalo prodávat polovinu celkové zásoby chleba za nízké ceny. Od srpna měli být zemědělci placeni za světovou cenu, protože když byli nuceni prodávat pšenici levně, museli vždy platit světovou cenu za hnojiva.“
 
-#### 4. Popírání souvislosti mezi peněžní zásobou a inflací
+Tato situace vyvolává zásadní otázku související s pojmem tržní ceny během hyperinflace. V tehdejším německém kontextu byli zemědělci nuceni prodávat svou pšenici za cenu nižší, než byla její hodnota, a zároveň museli nakupovat hnojiva za ceny na světovém trhu. Takový ekonomický nesoulad poukazuje na problémy, které dnes představují ceny potravin. Zemědělští výrobci, kteří čelí rostoucím nákladům na vstupy v důsledku inflace, přenášejí tyto náklady na konečné produkty. Kritizovat je za tento nárůst znamená ignorovat dynamiku tržních cen a ekonomické tlaky, kterým čelí. Prodej za uměle nízké ceny při vysokých nákladech je pro jakýkoli podnik neudržitelný.
 
-> Weimar: „Pevně se držel svého názoru, že nabídka peněz nesouvisí ani s cenovými hladinami, ani s měnovými kurzy;“
 
-V současné době tento trend přetrvává, jak ukazuje příklad z předchozí kapitoly, kde různí ekonomové a ekonomické instituce uvádějí seznam vysvětlení pro ospravedlnění inflace. Tyto důvody se různí: od kulturních událostí a celebrit, jako Taylor Swift, Zelda nebo Beyoncé, až po globální faktory, jako je válka a pandemie. Všechny tyto důvody, i když mohou krátkodobě přispět k ekonomickým výkyvům, odvádějí pozornost od skutečné příčiny, kterou je expanze peněžní zásoby.
+> Výmar: "Zemědělské zájmy byly nespokojeny s "Umlage", nucenou dodávkou prvních dvou milionů tun pšenice, která umožňovala prodávat polovinu celkového množství chleba Supply za nízké ceny. Od srpna měli zemědělci dostávat cenu na světovém trhu, protože zatímco byli povinni prodávat pšenici za nízké ceny, za hnojiva museli vždy platit cenu na světovém trhu."
+
+#### 4. Popírání souvislosti mezi penězi Supply a inflací
+
+
+> Výmar: "Zůstal pevně stát na svém názoru, že peníze Supply nesouvisí ani s cenovou hladinou, ani se sazbami Exchange."
+
+V moderní době tento trend přetrvává, jak je vidět na příkladu z předchozí kapitoly, kde je uveden seznam vysvětlení, která předkládají různí ekonomové a ekonomické instituty k ospravedlnění inflace. Tyto důvody jsou různé, od kulturních událostí a celebrit, jako jsou Taylor Swift, Zelda nebo Beyoncé, až po globální faktory, jako je válka a pandemie. Všechny tyto důvody, ačkoli potenciálně přispívají ke krátkodobým ekonomickým výkyvům, odvádějí pozornost od skutečné příčiny: expanze peněz Supply.
+
 
 #### 5. Zombie společnosti
 
-> Weimar: „Stabilizace ukončila období, kdy si podnikatelé mohli půjčovat, kolik chtěli, na úkor všech ostatních. Velké množství podniků, založených nebo rozvinutých během peněžní hojnosti, se rychle stalo neproduktivními, když se kapitál stal vzácným.“
 
-Zombie společnost je podnik, který by za normálních tržních podmínek byl insolventní nebo blízko bankrotu, ale který nadále funguje, především díky levným půjčkám. Tyto společnosti vydělávají právě tolik, aby pokryly své dluhy, ale nejsou schopny výrazně růst.
+> Výmar: "Stabilizace ukončila období, kdy si podnikatelé mohli půjčovat, kolik chtěli, na úkor všech ostatních. Velmi mnoho podniků, které vznikly nebo se rozšířily v době peněžní hojnosti, se rychle stalo neproduktivními, jakmile se kapitál stal nedostatkovým."
 
-Pojem zombie společností není nový. Již ve Výmarské republice existoval. V té době mnoho podniků vypadalo naoko prosperující, protože hojně využívalo přístup k bezplatnému úvěru. Půjčovaly si značné částky s perspektivou splácení později znehodnocenou měnou kvůli prudké inflaci. Když však inflace skončila a německá marka znovu nabyla hodnoty, tyto podniky, které nebyly skutečně životaschopné z provozního ani finančního hlediska, se staly nerentabilními a musely zavřít své brány.
+Zombie společnost je podnik, který by za normálních tržních podmínek byl v platební neschopnosti nebo na pokraji úpadku, ale pokračuje ve své činnosti především díky levným půjčkám. Tyto podniky vydělávají jen tolik, aby pokryly své dluhy, ale nejsou schopny významně růst.
 
-![image](assets/fr/050.webp)
 
-Fenomen zombie společností se neomezuje pouze na poválečné Německo. I dnes mnohé velké podniky přežívají díky privilegovanému přístupu k půjčkám s velmi nízkými úrokovými sazbami. Pokud by si musely půjčovat za běžnější sazby, mnohé z nich by přestaly být ziskové. To je zvláště relevantní v roce 2023, kdy po dlouhém období téměř nulových úrokových sazeb začaly tyto sazby růst. Tento vývoj finančního prostředí bude nepochybně rozhodující zkouškou pro tyto dříve označované „zombie“ společnosti.
+Pojem zombie společnosti není nový. Ve skutečnosti existoval již za Výmarské republiky. V té době se zdálo, že mnoho podniků prosperuje a do značné míry těží z přístupu k volným úvěrům. Půjčovaly si značné částky s očekáváním, že je později splatí znehodnocenou měnou v důsledku zběsilé inflace. Když však inflace ustala a německá marka znovu získala hodnotu, staly se tyto podniky, které nebyly skutečně provozně ani finančně životaschopné, ztrátovými a musely ukončit činnost.
 
-#### 6. Rychlé zbohatnutí!
 
-Historie ukazuje chvíle, kdy se jednotlivci snažili rychle zbohatnout, jako tomu bylo ve Výmaru a v Zimbabwe prostřednictvím arbitráže. Dnes lze pozorovat podobný trend s nástupem některých kryptoměn. Lidé jsou lákáni rychlými zisky, riskují v naději na exponenciální zhodnocení své investice. Tento přístup může připomínat období hyperinflace, kdy byla arbitráž využívána k rychlému zisku, často na úkor ostatních.
+![image](assets/cs/051.webp)
 
-![image](assets/fr/051.webp)
 
-#### 7. Úspory, lék proti nejistotě
+Fenomén zombie společností se neomezuje pouze na poválečné Německo. I v současnosti mnoho velkých podniků nadále prosperuje díky svému privilegovanému přístupu k úvěrům za extrémně nízké úrokové sazby. Kdyby si musely půjčovat za běžnější sazby, mnohé z nich by přestaly být ziskové. To je zvláště důležité v roce 2023, po dlouhém období téměř nulových úrokových sazeb, protože sazby nyní začaly růst. Tento nedávný posun ve finančním prostředí bude pro tyto společnosti, kdysi označované za "zombie", nepochybně rozhodující zkouškou
 
-> Všeprostupující a destruktivní vliv neustálé eroze hodnoty kapitálu a příjmů a nejistota ohledně budoucnosti.
 
-Stojí za zmínku citát, který zdůrazňuje destruktivní vliv eroze hodnoty kapitálu na sociální soudržnost a nejistotu, kterou vyvolává. Říká: „všeprostupující a destruktivní vliv neustálé eroze hodnoty kapitálu a příjmů a nejistota ohledně budoucnosti.“
+#### 6. Rychle zbohatněte!
 
-Představte si scénář, kdy máte rodinu nebo blízké, které chcete chránit. Tvrdě pracujete, spoříte, abyste se připravili na budoucí nejistoty. Kdyby bylo vše předvídatelné, úspory by byly zbytečné. Avšak tváří v tvář nepředvídatelnému, například poruše auta, se úspory stávají záchranným kruhem. Snižují nejistotu světa. Během hyperinflace je však spoření výzvou. Peníze rychle ztrácejí hodnotu, což ztěžuje dlouhodobé plánování. Tato finanční nestabilita může vyvolat stres a úzkost.
 
-Dnes, kdy klesá schopnost spořit, přebírá roli investování. Tento přístup má však svá rizika. Úspory byly vždy lékem proti nejistotě. Mít finanční rezervy k řešení nepředvídaných situací přispívá k duševnímu klidu a posiluje sociální soudržnost. Závěrem lze říci, že ochrana naší schopnosti spořit je zásadní pro udržení sociální a individuální stability.
+Historie zná případy, kdy se jednotlivci snažili rychle nahromadit bohatství, jako tomu bylo ve Výmaru a Zimbabwe prostřednictvím arbitráže. Dnes lze podobný trend pozorovat při vzestupu některých kryptoměn. Lidé se nechávají zlákat rychlým ziskem a podstupují riziko v naději na exponenciální nárůst své investice. Tento přístup připomíná přístup pozorovaný v obdobích hyperinflace, kdy se k získání rychlých zisků využívala arbitráž, často na úkor ostatních.
+
+
+![image](assets/cs/052.webp)
+
+
+#### 7. Úspory, prostředek proti nejistotě
+
+
+> Všudypřítomný a destruktivní vliv neustálého snižování hodnoty kapitálu a příjmů, jakož i nejistota ohledně budoucnosti.
+
+Za pozornost stojí citát, který zdůrazňuje destruktivní vliv eroze kapitálové hodnoty na sociální soudržnost a nejistotu, kterou vyvolává. Uvádí se v něm: "všudypřítomný a destruktivní vliv neustálé eroze hodnoty kapitálu a příjmů, stejně jako nejistota ohledně budoucnosti"
+
+
+Představte si situaci, kdy máte rodinu nebo blízké, které chcete chránit. Pracujete podle Hard a spoříte, abyste předvídali budoucí nejistoty. Kdyby bylo vše předvídatelné, bylo by spoření zbytečné. Tváří v tvář nepředvídatelným okolnostem, jako je například porouchané auto, se však úspory stávají záchranným lanem. Snižují nejistotu světa. Během hyperinflace se však spoření stává výzvou. Peníze rychle ztrácejí svou hodnotu, což ztěžuje dlouhodobé plánování. Tato finanční nestabilita může vyvolat generate stres a úzkost.
+
+
+Dnes, kdy klesá síla úspor, přebírají její místo investice. Tento přístup však s sebou nese svá rizika. Spoření bylo vždy lékem proti nejistotě. Mít finanční rezervy pro případ nepředvídaných situací přispívá ke klidu a posiluje sociální soudržnost. Závěrem lze říci, že ochrana naší úsporné síly je nezbytná pro udržení sociální i individuální stability.
 
 
 
 ## Redenominace v Latinské Americe
 
+
 <chapterId>918eafd7-409d-5205-ad52-a52e63b23a64</chapterId>
 
-Nyní se podíváme na různá období redenominace v latinskoamerických zemích.
+
+Nyní se podíváme na různá období redenominace v zemích Latinské Ameriky.
+
 
 ### Vysvětlení grafů
 
-Na snímku, na levé straně, jsou roky redenominace, název nové měny a směnný kurz vůči staré měně. Jako příklad Argentiny, peso moneda nacional bylo převedeno v poměru 25 ku 1 z předchozí měny, peso real. V tomto kontextu budeme zkoumat vývoj argentinské měny v průběhu času. Kromě toho uvedeme počáteční a konečné nominální hodnoty bankovek pro každé období.
 
-![image](assets/fr/052.webp)
+Na snímku vlevo jsou roky redenominace, název nové měny a kurz Exchange vůči staré měně. Na příkladu Argentiny bylo peso moneda nacional přepočteno kurzem 25:1 z předchozí měny peso reàl. V této souvislosti budeme zkoumat vývoj argentinské měny v čase. Kromě toho uvedeme počáteční a konečné nominální hodnoty bankovek v jednotlivých obdobích.
 
-Na pravé straně snímku je graf inflace. Červené šipky reprezentují roky hyperinflace, definované podle Caganova kritéria jako inflační míra 50 % za měsíc. Toto kritérium někdy může vést k nejednoznačným interpretacím, s roky majícími vysokou inflační míru, ale nesplňujícími striktní definici hyperinflace.
-Je třeba poznamenat, že redenominace, během období inflace, je běžným opatřením přijímaným vládami. Nicméně toto neřeší základní problém inflace nebo hyperinflace. Je to pouze způsob, jak přejmenovat měnu a odstranit nuly, aniž by se skutečně řešila základní příčina hyperinflace: expanze peněžní zásoby. V pozdějším videu budeme diskutovat o skutečných řešeních pro řešení a vyřešení problému hyperinflace. V této sérii zdůrazníme důsledky jednoduché redenominace bez adekvátních reforem: inflace přetrvává.
-Po Argentině se naše studie zaměří na Brazílii, Bolívii, Peru, Nikaraguu a Venezuelu. Budeme zkoumat redenominace, které v těchto zemích proběhly.
+
+![image](assets/cs/053.webp)
+
+
+Na pravé straně snímku je zobrazen graf inflace. Červené šipky znázorňují roky hyperinflace, jak je definována podle Caganova kritéria, což je míra inflace 50 % měsíčně. Toto kritérium může někdy vést k nejednoznačnému výkladu, protože roky s vysokou mírou inflace nemusí splňovat striktní definici hyperinflace.
+
+Za zmínku stojí redenominace, která je běžným opatřením vlád v období inflace. To však neřeší základní problém inflace nebo hyperinflace. Je to pouze způsob, jak přejmenovat měnu a odstranit nuly, aniž by se skutečně řešila hlavní příčina hyperinflace: expanze peněz Supply. V některém z pozdějších videí se budeme zabývat skutečným řešením Address a vyřešením problému hyperinflace. V této sérii upozorníme na důsledky prosté redenominace bez odpovídajících reforem: inflace přetrvává.
+
+Po Argentině se naše studie bude týkat Brazílie, Bolívie, Peru, Nikaraguy a Venezuely. Budeme zkoumat redenominace, které v těchto zemích proběhly.
+
 
 ### Argentina
 
-![image](assets/fr/052.webp)
 
-Před rokem 1826 používala Argentina španělský dolar. Po svém osamostatnění v roce 1816 zavedla vlastní měnu založenou na španělském realu, což vedlo k vytvoření podobné měny. Tabulka začíná v roce 1881, rokem zavedení "peso moneda nacional" s bankovkami až do 10 000. Následovalo "peso ley", směňované v poměru 100 ku 1 a s bankovkami až do jednoho milionu. Poté přišlo "argentinské peso" s kurzem 10 000 ku 1 (ekvivalentní odstranění čtyř nul) a bankovkami až do 10 000. V roce 1985 bylo zavedeno "australes" směňované v poměru 1 000 ku 1, s bankovkami až do 500 000. V roce 1992 bylo zavedeno současné "peso ley" s kurzem 10 000 ku 1, opět s odstraněním čtyř nul. Pouze v letech 1989 a 1990 zaznamenala země hyperinflaci.
+![image](assets/cs/054.webp)
+
+
+Před rokem 1826 používala Argentina španělský dolar. Po získání nezávislosti v roce 1816 zavedla vlastní měnu založenou na španělském reálu, což vedlo k vytvoření podobné měny. Tabulka začíná rokem 1881, kdy bylo zavedeno "peso moneda nacional" s bankovkami v hodnotě do 10 000 EUR. Následovalo "peso ley", které se směňovalo v kurzu 100:1 a obsahovalo bankovky až do výše jednoho milionu. Poté se objevilo "argentinské peso" s kurzem 10 000 ku 1 (což odpovídá odstranění čtyř nul) a bankovkami do 10 000. V roce 2006 se objevilo "argentinské peso" s kurzem 10 000 ku 1 (což odpovídá odstranění čtyř nul). V roce 1985 byly zavedeny "australes", které se směňovaly v kurzu 1 000 ku 1 a byly k dispozici bankovky do 500 000 kusů. V roce 1992 bylo zavedeno současné "peso ley" v kurzu 10 000 ku 1, přičemž byly opět odstraněny čtyři nuly. Pouze v letech 1989 a 1990 došlo k hyperinflaci.
+
 
 ### Brazílie
 
-![image](assets/fr/053.webp)
 
-Brazílie je příkladem země, která prošla redenominací měny, jak ilustruje její historie změn měny. Před svou nezávislostí používala Brazílie portugalský real. Avšak již v roce 1747 začala země používat vlastní "brazilský real", dlouho před vyhlášením nezávislosti v roce 1822. Tabulka začíná v roce 1818, což označuje začátek vydávání brazilských bankovek. Předtím byla měna převážně ve formě mincí. Tyto bankovky dosáhly hodnot až jeden milion realů.
-Počínaje rokem 1942 začala Brazílie sérii redenominací. Ve většině případů (1942, 1967, 1986, 1989, 1993) byl směnný kurz 1 000 ku 1. V roce 1990 došlo ke změně názvu bez konverze. Sekvence těchto měn je následující:
+![image](assets/cs/055.webp)
 
-- Réis (stará verze) do roku 1942.
+
+Brazílie je pozoruhodným příkladem měnové redenominace, což dokládá historie změn měny. Před získáním nezávislosti používala Brazílie jako svou měnu portugalský reál. Již v roce 1747 však země začala používat vlastní "brazilský reàl", a to dlouho před vyhlášením nezávislosti v roce 1822. Tabulka začíná rokem 1818, který označuje počátek vydávání brazilských bankovek. Předtím měla měna především podobu mincí. Tyto bankovky dosahovaly hodnoty až jednoho milionu reálů.
+
+Od roku 1942 zahájila Brazílie sérii redenominací. Ve většině případů (1942, 1967, 1986, 1989, 1993) byl směnný kurz 1:1000. V roce 1990 došlo ke změně názvu bez konverze. Pořadí těchto měn je následující:
+
+
+
+- Réals (stará verze) do roku 1942.
 - Cruzeiros v roce 1942.
 - Cruzeiros (nová verze) v roce 1967.
 - Cruzados v roce 1986.
-- Cruzados Novo v roce 1989.
-- Návrat k Cruzeiros v roce 1990.
+- Cruzados Novos v roce 1989.
+- Návrat do Cruzeirosu v roce 1990.
 - Cruzeiros Reais v roce 1993.
-- Nakonec, brazilský Real v roce 1994.
+- Nakonec brazilský reàl v roce 1994.
 
-Nejvyšší hodnota bankovky dosáhla 500 000, a poslední redenominace v roce 1994 byla provedena v poměru 2 750 ku 1. Léta 1989 a 1990 byla poznamenána hyperinflací, zatímco v letech 1993-1994 došlo k vysokým inflačním sazbám, aniž by byl dosažen práh hyperinflace (50 % za měsíc). Po tomto bouřlivém období Brazílie znovu redenominovala svou měnu odstraněním několika nul.
+
+Nejvyšší nominální hodnota bankovky dosáhla 500 000 a poslední redenominace v roce 1994 byla provedena v poměru 2 750 ku 1. Roky 1989 a 1990 byly poznamenány hyperinflací, zatímco v letech 1993-1994 byla zaznamenána vysoká míra inflace, která nedosáhla hranice hyperinflace (50 % měsíčně). Po tomto bouřlivém období Brazílie opět redenominovala svou měnu odstraněním několika nul.
+
 
 ### Bolívie
 
-![image](assets/fr/054.webp)
 
-Bolívie je dalším příkladem země, která prošla obdobími akutní inflace, vyžadující redenominace měny. Zde je shrnutí její měnové historie:
-Před svou nezávislostí v roce 1825 používala Bolívie jako svou měnu španělský dolar. Po získání nezávislosti země zavedla mezi lety 1827 a 1864 Bolivijský Sol, který nahradil španělský dolar. Je však třeba poznamenat, že první bankovky v Bolívii se objevily až v roce 1864.
+![image](assets/cs/056.webp)
 
-V roce 1864 byl zaveden první "Boliviano" s kurzem 1 000 ku 1 ve srovnání s Bolivijským Solem. Tato měna zůstala v oběhu, dokud nedosáhla nominální hodnoty 10 000 Bolivianos.
 
-Následně Bolívie změnila svou měnu na "Bolivijské Peso", které zažilo tak vážnou hyperinflaci, že nakonec dosáhlo nominálních hodnot až 10 milionů. Tento období inflace vrcholilo v letech 1984-1985, kdy měsíční inflační sazby často přibližovaly hyperinflační hranici 50 %. Pro poskytnutí určité perspektivy, konstantní inflační sazba 50 % za měsíc po celý rok vede k roční inflační sazbě přibližně 12 800 %. V roce 1985 dosáhla roční inflační sazba Bolívie 11 749 %, což naznačuje, že inflace byla téměř každý měsíc blízko nebo překročila hranici 50 %.
+Bolívie je dalším příkladem země, která zažila období akutní inflace, jež si vyžádala redenominaci měny. Zde je shrnutí její měnové historie:
 
-Jako reakce na tuto měnovou krizi zavedla Bolívie v roce 1987 novou měnu, jednoduše nazvanou "Boliviano", s kurzem 1 milion Bolivijských Pesos za 1 Boliviano. Tato verze Boliviana je stále v oběhu dnes.
 
-To je přehled bouřlivé měnové historie Bolívie, která byla poznamenána obdobími hyperinflace a přecenění měny.
+Před získáním nezávislosti v roce 1825 používala Bolívie jako svou měnu španělský dolar. Po získání nezávislosti byl v letech 1827-1864 zaveden bolívijský sol, který nahradil španělský dolar. Za zmínku však stojí, že první bankovky byly v Bolívii zavedeny až v roce 1864.
+
+
+V roce 1864 byla zavedena první měna "Boliviano", jejíž kurz Exchange byl 1 000 ku 1 v porovnání s měnou Bolivian Sol. Tato měna zůstala v oběhu, dokud nedosáhla nominální hodnoty 10 000 bolivijských solů.
+
+Následně Bolívie změnila svou měnu na "bolivijské peso", které zažilo silnou hyperinflaci a nakonec dosáhlo nominální hodnoty až 10 milionů. Tato epizoda inflace vyvrcholila v letech 1984-1985, kdy se měsíční míra inflace často blížila hranici hyperinflace 50 %. Pro představu, konstantní měsíční míra inflace ve výši 50 % za celý rok znamená roční míru inflace přibližně 12 800 %. V roce 1985 dosáhla roční míra inflace v Bolívii 11 749 %, což znamená, že inflace se téměř každý měsíc blížila hranici 50 % nebo ji překračovala.
+
+
+V reakci na tuto měnovou krizi zavedla Bolívie v roce 1987 novou měnu nazvanou jednoduše "bolívano" s kurzem 1 milion bolívijských pesos za 1 bolívano. Tato verze bolívia je v oběhu dodnes.
+
+
+To je přehled bouřlivé měnové historie Bolívie, která se vyznačovala obdobími hyperinflace a redenominace.
+
 
 ### Peru
 
-![image](assets/fr/055.webp)
 
-Peru představuje zajímavý případ týkající se dopadů libovolného pravidla 50 %. Začínaje jeho měnovou historií, Peru používalo španělské zlato až do 19. století a vyhlásilo svou nezávislost v roce 1821. Peruský dolar byl v použití od roku 1822 do roku 1863. V roce 1863 byl Peruský real nahrazen soldi oro, s kurzem 10 ku 1, dosahujícím maximální hodnoty 50 000. V roce 1985 byla zavedena měna "Inti" s konverzním kurzem 1000 ku 1, dosahující vrcholu 5 milionů. V roce 1991 byl spuštěn "SOL" s kurzem 1 milion ku 1, s bankovkami v hodnotách od 10 do 200.
-Při zkoumání období přecenění měny, rok 1988 je považován za rok hyperinflace, zejména v září. Červenec-srpen 1990 také zažil období hyperinflace. V roce 1988 dosáhla roční inflační sazba 667 %, s vrcholem 50 % v září. Naproti tomu rok 1989 zažil inflační sazbu 3000 % bez překročení 50 % v žádném měsíci, takže nebyl klasifikován jako hyperinflace. V roce 1990 inflace dosáhla vrcholu 7481 %. Je zřejmé, že pravidlo 50 % může být libovolné, jelikož rok 1988 byl považován za rok hyperinflace, na rozdíl od roku 1989. Pokud by se toto pravidlo přehodnotilo, mohlo by být moudré snížit práh tak, aby zahrnoval období jako to, které zažilo Peru v roce 1989.
+![image](assets/cs/057.webp)
 
-> Porozumění tomu, co se děje
-> Klíčové je pochopit, že když hodnota měny dosáhne astronomických čísel, jako je 5 nebo 10 milionů, dochází k její redenominaci. Tento proces může být opakován několikrát a zahrnuje změnu měny. Výsledkem je, že úspory jednotlivců mohou být vážně ovlivněny, i když nedochází k hyperinflaci. Například, pokud někdo ušetří 1 000 dolarů za jeden rok a podaří se mu odložit 100 dolarů, následující rok může být nejnižší hodnota bankovky 1 000 dolarů, což znehodnotí dříve ušetřených 100 dolarů. Takové erozi úspor není nutné, aby byla zjevná hyperinflace. I když někdo ušetřil 10 000 dolarů za posledních deset let, tato částka by mohla skončit jako zanedbatelná, nedostatečná na koupi jednoduché láhve vody. Tato realita je zřejmá v mnoha zemích, které zažily redenominace, i když pouze několik měsíců bylo klasifikováno jako hyperinflační. Na rozdíl od toho, některé země, jako je Nikaragua, zažily několik po sobě jdoucích let hyperinflace.
+
+Peru představuje zajímavý případ, pokud jde o účinky svévolného pravidla 50 %. Počínaje historií měny Peru používalo španělské zlato až do 19. století, kdy v roce 1821 vyhlásilo nezávislost. Peruánský dolar se používal od roku 1822 do roku 1863. V roce 1863 byl peruánský reàl nahrazen měnou soldi oro v poměru 10:1, přičemž jeho maximální hodnota dosáhla 50 000. V roce 1863 byl peruánský reàl nahrazen měnou soldi oro. V roce 1985 byla zavedena měna "inti" s přepočítacím kurzem 1000 ku 1, s maximální hodnotou 5 milionů. V roce 1991 byla zavedena měna "SOL" s kurzem Exchange 1 milion ku 1, s bankovkami v hodnotě od 10 do 200. V roce 1991 byla zavedena měna "SOL" s kurzem 1 milion ku 1.
+
+Při zkoumání období redenominace je rok 1988 považován za rok hyperinflace, zejména v září. Období hyperinflace bylo zaznamenáno také v červenci až srpnu 1990. V roce 1988 činila roční míra inflace 667 %, přičemž v září dosáhla maxima 50 %. Naproti tomu v roce 1989 dosáhla míra inflace 3000 %, aniž by některý měsíc přesáhla 50 %, takže nebyla klasifikována jako hyperinflace. V roce 1990 dosáhla inflace vrcholu 7481 %. Je zřejmé, že pravidlo 50 % může být arbitrární, protože rok 1988 byl na rozdíl od roku 1989 považován za rok hyperinflace. Pokud by se toto pravidlo přehodnotilo, bylo by možná rozumné snížit tuto hranici tak, aby zahrnovala i období, jaké zažilo Peru v roce 1989.
+
+
+> Pochopení toho, co se děje
+>
+
+> Klíčové je pochopit, že když hodnota měny dosáhne astronomických hodnot, například 5 nebo 10 milionů, dochází k její redenominaci. Tento proces se může opakovat vícekrát a zahrnuje změnu měny. Výsledkem je, že úspory jednotlivců mohou být vážně postiženy, a to i v případě, že nedochází k hyperinflaci. Například pokud někdo v jednom roce ušetří 1 000 USD a podaří se mu odložit 100 USD, v následujícím roce může mít bankovka nejnižší nominální hodnoty hodnotu 1 000 USD, čímž se dříve ušetřených 100 USD stane bezcennými. Taková eroze úspor nevyžaduje zjevnou hyperinflaci. I když člověk za posledních deset let našetřil 10 000 dolarů, může se stát, že tato částka bude mít nakonec zanedbatelnou hodnotu a nebude si za ni moci koupit ani obyčejnou láhev vody. Tato realita je patrná v mnoha zemích, které zažily redenominaci, i když jen několik měsíců byly klasifikovány jako hyperinflační. Naproti tomu některé země, jako například Nikaragua, zažily několik po sobě jdoucích let hyperinflace.
 
 ### Nikaragua
 
-![image](assets/fr/056.webp)
-Nikaragua, dříve pod španělskou nadvládou, původně používala španělský dolar, jako mnoho dalších zemí kolonizovaných Španělskem. Po začlenění do Španělského impéria, Mexického impéria a poté Federální republiky Střední Ameriky, Nikaragua vyhlásila nezávislost. Od roku 1878 se peso stalo oficiální měnou země s hodnotami kolísajícími mezi 1 a 100. V roce 1912 země zavedla první Cordobu, následovanou druhou v roce 1988 a třetí v roce 1991, která je stále v používání. První Cordoba dosáhla hodnoty 1 milionu a druhá 10 milionů. Redenominace v roce 1991 následovala po několika letech hyperinflace.
+
+![image](assets/cs/058.webp)
+
+Nikaragua, která byla dříve pod španělskou nadvládou, zpočátku používala španělský dolar, stejně jako mnoho dalších zemí kolonizovaných Španělskem. Poté, co byla Nikaragua začleněna do Španělského impéria, Mexického impéria a následně do Federativní republiky Střední Amerika, vyhlásila nezávislost. Od roku 1878 se oficiální měnou v zemi stalo peso, jehož hodnota se pohybovala mezi 1 a 100. V roce 1878 byla zavedena měna peso. V roce 1912 byla v zemi zavedena první měna cordoba, v roce 1988 následovala druhá a v roce 1991 třetí, která se používá dodnes. První cordoba dosáhla hodnoty 1 milionu a druhá 10 milionů. Redenominace v roce 1991 následovala po několika letech hyperinflace.
+
 
 ### Venezuela
 
-![image](assets/fr/057.webp)
 
-Venezuela je poslední zemí zmíněnou v tomto videu. Země během času prošla čtyřmi redenominacemi měny. Ve svých počátcích používala Venezuela španělský dolar, než vyhlásila nezávislost v roce 1811. V roce 1879 zavedla jako oficiální měnu bolivar, který zůstal v platnosti až do roku 1983, kdy vláda zvolila plovoucí směnný kurz dolaru.
+![image](assets/cs/059.webp)
 
-Zajímavým faktem o Venezueli je její členství v Latinské měnové unii. Tato unie zahrnovala mince jako 5 peset ze Španělska, 5 drachem z Řecka, 5 bolivarů z Venezuely, 5 lir z Itálie, 5 belgických franků a 5 francouzských franků.
 
-![image](assets/fr/058.webp)
+Venezuela je poslední zemí zmíněnou v tomto videu. Tato země prošla v průběhu času čtyřmi redenominacemi měny. Na počátku své existence používala Venezuela španělský dolar, než v roce 1811 vyhlásila nezávislost. V roce 1879 zavedla jako oficiální měnu bolívar, který platil až do roku 1983, kdy se vláda rozhodla pro systém plovoucího kurzu Exchange s použitím dolaru.
 
-![image](assets/fr/059.webp)
 
-![image](assets/fr/060.webp)
+Pozoruhodnou skutečností o Venezuele je její členství v Latinské měnové unii. Tato unie zahrnovala mince, jako je 5 peset ze Španělska, 5 drachem z Řecka, 5 bolivarů z Venezuely, 5 lir z Itálie, 5 belgických franků a 5 francouzských franků.
 
-![image](assets/fr/061.webp)
 
-Během tohoto období měla 5 bolivarová mince z Venezuely stejnou váhu jako ty z členských zemí Unie, včetně Itálie, Španělska, Belgie a Francie. Tyto bolivary byly vyrobeny ze stříbra, přičemž konkrétní mince z roku 1929 vážila 25 gramů a měla čistotu 900, neboli 90% čisté stříbro. S aktuální cenou stříbra má tato mince hodnotu přibližně 17 až 18 amerických dolarů.
+![image](assets/cs/060.webp)
 
-Po přijetí plovoucího směnného kurzu v roce 1983 následovalo několik redenominací:
 
-- V roce 2008: byl zaveden bolivar fuerte, neboli "silný bolivar", který dosáhl hodnoty až 100 000 před denominací tisíc ku jedné.
-- V roce 2018: byl zaveden Soberano s bankovkami dosahujícími 1 milionu. V roce 2021 byl nahrazen digitálním bolivarem, který také dosáhl jednoho milionu, před novou denominací milion ku jedné. Dnes je bankovka 10 nebo 20 ekvivalentem 10 milionů nebo 20 milionů v Soberanu.
-  Bankovky z tohoto období, datované od roku 2018, jsou distribuovány na různých Bitcoinových konferencích v Biarritzu, Torontu a Miami. Tyto bankovky Soberano dosáhly maximální hodnoty 1 milionu. Poté došlo k denominaci, která snížila hodnotu jednoho milionu na asi 3 centy. V současné době 10 bankovek 1 milionu odpovídá jedné bankovce 10. Od roku 2016 Venezuela zažívá hyperinflaci, což představuje 57. období v určité tabulce.
+![image](assets/cs/061.webp)
 
-V dalším videu bude prezentována sbírka bankovek z období hyperinflace, zaměřená na Venezuelu a další uvedené země. Tato sbírka obsahuje téměř všechny venezuelské bankovky. Studie se zaměří na různé denominace pro každou zmíněnou zemi. Kromě toho bude probíhat průzkum denominací v Zimbabwe, což je téma významného zájmu.
+
+![image](assets/cs/062.webp)
+
+
+![image](assets/cs/063.webp)
+
+
+V tomto období měl 5 bolívarů Coin z Venezuely stejnou váhu jako bankovky členských zemí Unie, včetně Itálie, Španělska, Belgie a Francie. Tyto bolivary byly vyrobeny ze stříbra, přičemž konkrétní Coin z roku 1929 vážil 25 gramů a měl ryzost 900, tedy 90 % ryzího stříbra. Při současné ceně stříbra má tento Coin hodnotu přibližně 17 až 18 dolarů (v amerických dolarech).
+
+
+Po přijetí plovoucího kurzu Exchange v roce 1983 následovalo několik redenominací:
+
+
+
+- V roce 2008 byl zaveden bolívar fuerte neboli "silný bolívar", který před redenominací na tisíc ku jedné dosáhl hodnoty až 100 000.
+- V roce 2018 byl zaveden systém Soberano, jehož účty dosáhly 1 milionu. V roce 2021 byl nahrazen digitálním bolivarem, který rovněž dosáhl jednoho milionu, než došlo k nové redenominaci v poměru jeden milion ku jedné. V současné době odpovídá bankovka v hodnotě 10 nebo 20 milionů 10 nebo 20 milionům v Soberano.
+
+Účty z tohoto období, které sahají až do roku 2018, jsou distribuovány na různých konferencích Bitcoin v Biarritzu, Torontu a Miami. Tyto soberanské bankovky dosáhly maximální hodnoty 1 mil. Poté proběhla redenominace, která snížila hodnotu jednoho milionu na přibližně 3 centy. V současné době odpovídá 10 bankovek v hodnotě 1 milionu jedné bankovce v hodnotě 10. Od roku 2016 zažívá Venezuela hyperinflaci, která představuje 57. období v konkrétní tabulce.
+
+
+V dalším videu bude představena sbírka hyperinflačních účtů se zaměřením na Venezuelu a další uvedené země. Tato kolekce obsahuje téměř všechny venezuelské bankovky. Studie se zaměří na různé redenominace pro každou z uvedených zemí. Kromě toho bude proveden průzkum redenominací v Zimbabwe, což je téma, které se těší značnému zájmu.
+
 
 ### Závěr
 
-Viděli jsme, že hyperinflace není jediným ukazatelem ekonomické katastrofy. Opakované denominace, odstraňování nul nebo změna názvu měny mají přímé důsledky pro populaci, od ztráty pomoci po potravinové problémy. Ačkoliv je hyperinflace znepokojivá, počet denominací, jak bylo pozorováno v Brazílii, ukazuje složitější realitu.
 
-Na základě kritéria 50% inflace za měsíc by mohlo být několik období klasifikováno jako hyperinflace. To platí zejména při zkoumání kritérií mezinárodní účetní organizace, která zohledňuje charakteristiky, jako je rychlé opuštění měny populací, indexace mezd a půjčky s vysokými úrokovými sazbami jako kompenzace za inflaci.
+Viděli jsme, že hyperinflace není jediným ukazatelem ekonomické katastrofy. Vícenásobná redominalizace, odstranění nul nebo změna názvu měny má přímé dopady na obyvatelstvo, od ztráty pomoci až po problémy s potravinami. Ačkoli hyperinflace je znepokojující, počet redenominací, jak byl pozorován v Brazílii, ukazuje složitější realitu.
 
-Závěrem, hyperinflace je jen jeden aspekt ekonomických výzev. Vysoká inflace sama o sobě může být stejně škodlivá. Další část se bude zabývat možnými řešeními, jak překonat hyperinflaci.
+
+Na základě kritéria 50% měsíční inflace bylo možné několik období klasifikovat jako hyperinflaci. To platí zejména při zkoumání kritérií mezinárodní účetní organizace, která zohledňuje takové charakteristiky, jako je rychlé opuštění měny obyvatelstvem, indexace mezd a půjčky s vysokými úrokovými sazbami na kompenzaci inflace.
+
+
+Závěrem lze říci, že hyperinflace je pouze jedním z aspektů ekonomických problémů. Stejně škodlivá může být i samotná vysoká inflace. V další části se budeme zabývat možnými řešeními, jak hyperinflaci překonat.
+
 
 ## Jak překonat hyperinflaci
 
+
 <chapterId>e3484a31-a851-5f92-8af5-00eddae67db1</chapterId>
+
 
 ### Jak ukončit mírnou a vysokou inflaci
 
-Závěry uvedené jsou čerpány z knihy "Monetary Regime and Inflation" od Bernholza. Podle Bernholza jediným způsobem, jak ukončit inflaci, je provést měnovou reformu a uložit vládě omezení. Tato omezení zahrnují zřízení instituce, jako je centrální banka, která funguje nezávisle na politických rozhodnutích vlády. Vysoká a hyperinflace jsou často výsledkem financování rozpočtových schodků prostřednictvím tvorby peněz. Pro řešení mírné inflace je nezbytné snížit růst peněžní zásoby. Bernholz také naznačuje, že tento růst peněžní zásoby by měl být relativní vůči sousedním zemím. Překvapivým bodem je, že během období vysoké nebo hyperinflace může celková hodnota peněžní zásoby ve skutečnosti klesnout. Nápadným příkladem této situace je Zimbabwe.
 
-### Intuitivně protichůdná řešení
+Uvedené závěry jsou převzaty z knihy "Monetary Regime and Inflation" od Petera Bernholze. Podle Bernholze je jedinou metodou, jak ukončit inflaci, provedení měnové reformy a zavedení fiskálních restrikcí pro vládu. Tato omezení zahrnují zřízení instituce, například centrální banky, která by fungovala nezávisle na politických rozhodnutích vlády. Vysoká a hyperinflace jsou často důsledkem financování rozpočtových deficitů prostřednictvím tvorby peněz. Pro zmírnění Address inflace je nezbytné snížit růst peněz Supply. Bernholz také navrhuje, aby tento růst peněz byl relativní vůči sousedním zemím. Překvapivé je, že v období vysoké nebo hyperinflace může celková hodnota peněz Supply ve skutečnosti klesat. Výrazným příkladem této situace je Zimbabwe.
 
-Při studiu Zimbabwe bylo zjištěno, že 10 bilionů jednotek peněžní zásoby ztratilo veškerou svou hodnotu. Ve Výmarské republice bylo možné v jediném dni vytisknout dvě třetiny celkové nominální hodnoty 65 miliard jednotek peněžní zásoby. To ukazuje, jak může být peněžní zásoba znehodnocena. Aby se situace napravila, je nutné peněžní zásobu výrazně zvýšit, aby dosáhla vhodné úrovně. Poté je nezbytná měnová reforma. V situaci vysoké inflace je tato reforma nevyhnutelná, ale musí zajistit, že v oběhu bude dostatek peněz. Po tomto kroku mohou být vládě uložena omezení.
-Podle pozorování Bernholza, pokud jde o řešení problémů s inflací, instituce jako MMF a Světová banka ne vždy přijímají správnou strategii. V některých případech, kdy země potřebuje zvýšit svou peněžní zásobu, tyto instituce usilují o její snížení. Klíčem je dosáhnout adekvátní úrovně peněžní zásoby a poté omezit její růst, čímž se vyhne financování vládních výdajů prostřednictvím tvorby peněz.
 
-Zajímavým aspektem, který Bernholz zdůraznil, je, že úspěch měnové reformy závisí nejen na její technické relevanci, ale také na důvěře, kterou v ni vkládá populace. Některé dobře navržené reformy mohou selhat, protože veřejnost jim nedůvěřuje, zatímco jiné, špatně navržené, mohou uspět, protože populace jim důvěřuje. Vnímání a veřejná důvěra jsou tedy zásadními prvky úspěchu nebo neúspěchu měnové reformy.
+### Kontraintuitivní řešení
 
-- V Zimbabwe bylo přijaté řešení proti inflaci dollarizace, což znamená, že přijali americký dolar nebo jiné měny sousedních zemí. Tento přístup brání vládě v libovolném tisku peněz.
-- V Německu bylo řešením vytvoření nové měny, Rentenmark. Tato měna byla kryta teritoriálními aktivy Říše, a tato strategie se ukázala být účinná.
+
+Při studiu Zimbabwe bylo zjištěno, že 10 bilionů peněžních jednotek Supply ztratilo veškerou svou hodnotu. Ve Výmaru bylo možné vytisknout dvě třetiny celkové nominální hodnoty 65 miliard jednotek peněz Supply za jediný den. To ukazuje, jak lze peníze Supply znehodnotit. K nápravě této situace je nutné výrazně zvýšit hodnotu peněz Supply, aby dosáhla odpovídající úrovně. Pak je nezbytná měnová reforma. V situaci vysoké inflace je tato reforma nevyhnutelná, musí však zajistit dostatek peněz v oběhu. Po tomto kroku mohou být vládě uložena omezení.
+
+
+Podle Bernholzových pozorování nepřijímají instituce jako MMF a Světová banka při řešení problémů s inflací vždy ty nejúčinnější strategie. V některých případech, kdy země potřebuje zvýšit objem peněz Supply, se tyto instituce snaží o jeho snížení. Klíčové je dosáhnout přiměřené úrovně měny a poté stanovit omezení jejího růstu, čímž se zabrání financování vládních výdajů prostřednictvím měnové tvorby.
+
+
+Zajímavým aspektem, na který Bernholz upozorňuje, je skutečnost, že úspěch měnové reformy závisí nejen na její technické relevanci, ale také na důvěře, kterou v ni obyvatelstvo vkládá. Některé dobře navržené reformy mohou selhat, protože jim veřejnost nedůvěřuje, zatímco jiné, špatně navržené, mohou uspět, protože jim obyvatelstvo důvěřuje. Vnímání a důvěra veřejnosti jsou tedy zásadními Elements pro úspěch či neúspěch měnové reformy.
+
+
+
+- V Zimbabwe se proti inflaci bojovalo dolarizací, tedy přijetím amerického dolaru nebo jiných měn sousedních zemí. Tento přístup brání vládě tisknout peníze podle libosti.
+- V Německu bylo řešením vytvoření nové měny, rentenmarky. Tato měna byla kryta územním majetkem Říše a tato strategie se ukázala jako účinná.
+
 
 ### Případ Zimbabwe
 
-![image](assets/fr/062.webp)
 
-Zimbabwe získalo nezávislost v roce 1980 a zavedlo zimbabwský dolar. Původně dva zimbabwské dolary měly hodnotu asi 1,60 amerického dolaru. Avšak v roce 1997, po sociálních opatřeních ve prospěch veteránů války, měna jednoho dne během Černého pátku ztratila 72 % své hodnoty. Poté, na počátku 2000. let, země zahájila program přerozdělení půdy, kdy byla půda odebrána bílým majitelům a předána místnímu obyvatelstvu. Toto rozhodnutí poškodilo export, protože noví majitelé často postrádali potřebnou odbornost pro správu velkých farem. V důsledku toho, zatímco Zimbabwe bylo v roce 1999 čistým vývozcem, v roce 2003 se stalo čistým dovozcem.
+![image](assets/cs/064.webp)
 
-V roce 2006 země zavedla novou verzi své měny, ZWN, s kurzem 1 ku 1 000. V roce 2008 byla zavedena další denominace, ZWR, s kurzem 1 ku 10 miliardám. To vedlo k vytvoření ikonických bankovek o hodnotě 100 bilionů.
 
-![image](assets/fr/063.webp)
+Zimbabwe získalo nezávislost v roce 1980 a zavedlo vlastní měnu, zimbabwský dolar. Zpočátku měly dva zimbabwské dolary hodnotu přibližně 1,60 amerického dolaru. V roce 1997 však v důsledku sociálních opatření ve prospěch válečných veteránů došlo během Černého pátku k devalvaci měny o 72 % během jediného dne. Na počátku roku 2000 pak země zahájila program přerozdělování půdy, který spočíval v odebírání půdy bílým vlastníkům a jejím rozdělování místnímu obyvatelstvu. Toto rozhodnutí poškodilo export, protože noví vlastníci často neměli potřebné odborné znalosti pro řízení velkých zemědělských podniků. Výsledkem bylo, že zatímco v roce 1999 byla Zimbabwe čistým vývozcem, v roce 2003 se stala čistým dovozcem.
 
-#### Dollarizace & Řešení krize
 
-Proto po roce 2009, čelící trvalé měnové krizi a nekontrolované hyperinflaci, Zimbabwe opustilo svou národní měnu a povolilo používání cizích měn, především amerického dolaru. Toto rozhodnutí, ačkoli radikální, ukončilo hyperinflaci. Klíčovým ponaučením je, že zastavení nadměrné emise peněz a ukončení financování rozpočtového schodku centrální bankou může ukončit hyperinflaci.
+V roce 2006 země zavedla novou verzi své měny, ZWN, s kurzem Exchange 1:1 000. V roce 2008 byla zavedena další měna, ZWR, s kurzem Exchange v poměru 1 : 10 miliardám. To vedlo k vytvoření ikonických bankovek v hodnotě 100 bilionů.
 
-Dollarizace však není zázračným řešením. Ačkoli může ukončit hyperinflaci, přináší další ekonomické výzvy. Jednou z důsledků je ztráta autonomní měnové politiky. Bez vlastní měny nemůže země upravit svou měnovou politiku tak, aby reagovala na vnitřní ekonomické šoky.
-V roce 2007 dosáhla míra inflace v Zimbabwe prahu 50 % za měsíc, což oficiálně označilo zemi za postiženou hyperinflací. Po dolarizaci v roce 2009 hyperinflace ustala, ale země čelila dalším ekonomickým výzvám. Je znepokojivé, že Zimbabwe od té doby pokusilo znovu zavést vlastní měnu a znovu se objevily známky vysoké inflace. Podle některých mezinárodních organizací země již může splňovat kritéria pro hyperinflaci, i když dosud nedosáhla oficiálního prahu 50 % za měsíc. To připomíná nebezpečí nadměrné emise peněz a financování deficitu centrální bankou.
+
+![image](assets/cs/065.webp)
+
+
+#### Dolarizace a řešení krizí
+
+
+Proto Zimbabwe po roce 2009, kdy čelilo přetrvávající měnové krizi a rozbujelé hyperinflaci, opustilo svou národní měnu a povolilo používání zahraničních měn, především amerického dolaru. Toto rozhodnutí, ačkoli bylo radikální, ukončilo hyperinflaci. Klíčovým poučením je, že zastavení nadměrné emise peněz a ukončení financování rozpočtového deficitu centrální bankou může pomoci zabránit hyperinflaci.
+
+
+Dolarizace však není zázračným řešením. I když může ukončit hyperinflaci, představuje další ekonomické problémy. Jedním z důsledků je ztráta autonomní měnové politiky. Bez vlastní měny nemůže země upravovat svou měnovou politiku tak, aby reagovala na vnitřní ekonomické šoky.
+
+
+V roce 2007 dosáhla míra inflace v Zimbabwe hranice 50 % měsíčně, což zemi oficiálně označilo za hyperinflaci. Po dolarizaci v roce 2009 hyperinflace ustala, země však nadále čelila dalším hospodářským problémům.
+
+Je znepokojující, že Zimbabwe se od té doby pokusilo znovu zavést vlastní měnu a objevily se známky vysoké inflace. Podle některých mezinárodních organizací již země možná opět splňuje kritéria hyperinflace, i když zatím nedosáhla oficiální hranice 50 % měsíčně. To slouží jako připomínka nebezpečí nadměrné emise peněz a financování deficitu centrální bankou.
+
 
 ### Závěr
 
-Ve své knize nazvané "Vše o Bitcoinu" jsem věnoval celou kapitolu hyperinflaci v Zimbabwe. Podrobně popisuji významné události a poskytuji různé příklady, které ilustrují, jak země nakonec ukončila hyperinflaci.
 
-![image](assets/fr/064.webp)
+Ve své knize nazvané "Vše o Bitcoin" jsem věnoval celou kapitolu hyperinflaci v Zimbabwe. Podrobně popisuji významné události a uvádím různé příklady, které ilustrují, jak země nakonec hyperinflaci ukončila.
 
-Pro ty, kteří mají zájem o německé zkušenosti po první světové válce, vřele doporučuji komiks "Bankéř Říše". Vypráví, jak Německo zvládlo překonat hyperinflaci, zejména prostřednictvím vytvoření Rentenmarku.
 
-![image](assets/fr/065.webp)
+![image](assets/cs/066.webp)
 
-Klíčovým zjištěním je, že existuje několik strategií, jak překonat hyperinflaci. Je možné zvolit dolarizaci nebo zavést novou měnu. Tyto řešení budou fungovat pouze v případě, že v nich populace bude mít důvěru. Je zásadní stanovit přísná omezení. Naprosto nezávislá centrální banka je nezbytná. Nesmí inflaci peněžní zásoby používat k pokrytí vládních deficitů. V případě mírné inflace by mělo stačit omezení růstu peněžní zásoby. Avšak při čelění hyperinflaci je zásadní nejprve mít odpovídající peněžní zásobu pro velikost dotčené ekonomiky. Poté je nezbytné vládě uložit přísná omezení, aby se situace stabilizovala.
 
-## Prezentace sbírky bankovek hyperinflace
+Těm, které zajímá německá zkušenost po první světové válce, vřele doporučuji komiks "Říšský bankéř" Vypráví o tom, jak se Německu podařilo překonat hyperinflaci, zejména díky vytvoření rentenmarky.
+
+
+![image](assets/cs/067.webp)
+
+
+Klíčovým poznatkem je, že existuje několik strategií, jak překonat hyperinflaci. Lze zvolit dolarizaci nebo zavést novou měnu. Tato řešení budou fungovat pouze v případě, že k nim bude mít obyvatelstvo důvěru. Zásadní je zavést přísná omezení. Zásadní je skutečně nezávislá centrální banka. Nesmí nafukovat peníze Supply, aby pokryla vládní deficity. V případě mírné inflace by mělo stačit omezit růst peněz Supply. V případě hyperinflace je však nezbytné mít nejprve přiměřený objem peněz Supply ve vztahu k velikosti ekonomiky. Poté je nezbytné uvalit na vládu přísná omezení, aby se situace stabilizovala.
+
+
+## Prezentace sbírky hyperinflačních bankovek
+
 
 <chapterId>f3ffbb47-3aeb-54bd-80a9-adccb0f419e2</chapterId>
 
-[Objevte naskenovanou kolekci v *Bitcoin Educational Toolkit* (také přístupné z části *Zdroje* na platformě Plan ₿ Network.](https://penpot.planb.network/#/view?page-id=c157057b-fd28-8042-8004-4f081b21defc&file-id=c157057b-fd28-8042-8004-4f081b21defb&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6475c2af5889&interactions-mode=show-on-click)
 
-![obrázek](assets/fr/072.webp)
+[Objevte naskenovanou sbírku v souboru vzdělávacích nástrojů *Bitcoin* (přístupný také v sekci *Zdroje* na platformě Plan ₿ Network.](https://penpot.planb.network/#/view?page-id=c157057b-fd28-8042-8004-4f081b21defc&file-id=c157057b-fd28-8042-8004-4f081b21defb&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6475c2af5889&interactions-mode=show-on-click)
+
+
+![image](assets/cs/068.webp)
+
 # Jak jsme se sem dostali?
+
 
 <partId>f66ca17e-be9e-5d30-a098-f7affd8962a1</partId>
 
-## Vznik druhé vrstvy peněz a centrálních bank
+
+## Vznik druhé Layer peněz a centrálních bank
+
 
 <chapterId>0455ffe3-9d45-5a67-ac96-3f815dc507a1</chapterId>
 
+
 Přepis:
 
-Vznik druhé vrstvy peněz a prvních centrálních bank je fascinující téma. Toto téma je rozsáhle diskutováno v knize "Layered Money" od Nicka Battii. Vřele ji doporučuji těm, kteří mají zájem o vývoj a složitosti našich peněžních systémů. Cílem této sekce je pochopit původ tvorby peněz a jak by to mohlo vést k hyperinflaci.
 
-![image](assets/fr/066.webp)
+Vznik druhého Layer peněz a prvních centrálních bank je fascinující téma. Toto téma je obsáhle rozebráno v knize Nicka Battii "Vrstvené peníze". Vřele ji doporučuji těm, kteří se zajímají o vývoj a složitosti našich peněžních systémů. Cílem této části je pochopit původ tvorby peněz a to, jak mohla vést k hyperinflaci.
+
+
+![image](assets/cs/069.webp)
+
 
 ### Pyramidové peníze a centrální banky
 
+
 #### Florin
 
-Historie peněz sahá do 13. století v Itálii, konkrétně do Florencie. V té době byly běžné floriny a směnky. Významným příkladem je florin, zdobený postavou svatého Jana Křtitele.
 
-![image](assets/fr/067.webp)
+Historie peněz sahá až do 13. století v Itálii, konkrétně ve Florencii. V té době byly běžné florény a bankovky Exchange. Pozoruhodným příkladem je florin, který zdobí postava svatého Jana Křtitele.
 
-![image](assets/fr/068.webp)
 
-I když vlastnictví pravého florinu je dnes drahé, jsou k dispozici reprodukce. Existují také jiné měny z té doby, jako je soldo ze států Itálie 17. století, které zobrazuje obraz Krista.
+![image](assets/cs/070.webp)
 
-#### Směnky (13. století)
 
-Běžnou praxí v té době bylo následující: zlatníci vydávali směnky výměnou za uložené floriny. Tyto floriny byly pečlivě uchovávány v jejich trezorech. Takto skutečné zlato, reprezentované florinem, tvořilo první vrstvu peněz, zatímco směnky tvořily druhou vrstvu. Nicméně likvidita tohoto systému byla omezená. Pokud někdo chtěl své zlato vyměnit za svou směnku, transakce byla jednoduchá. Ale výměna těchto směnek mezi jednotlivci nebyla běžná.
+![image](assets/cs/071.webp)
 
-#### Antverpská burza (16. století)
 
-Antverpská burza označila klíčový milník ve vývoji papírových peněz. Právě tam byla zavedena praxe diskontování směnek. Tyto směnky byly papírové nástroje reprezentující peněžní hodnotu, ale jejich unikátnost spočívala v tom, že nesly jména a datum splatnosti. To je činilo obtížně vyměnitelnými před datem splatnosti.
-Revoluce, kterou Antverpská burza přinesla, spočívala v možnosti diskontovat tyto směnky před jejich datem splatnosti. Například, pokud byla směnka splatná za měsíc, bylo možné ji koupit za sníženou cenu, aby se zohlednil čas před datem splatnosti. Tato inovace nejenže učinila papírovou měnu likvidnější, ale také zavedla koncept časové hodnoty peněz.
+I když je dnes vlastnictví pravého florénu drahé, jsou k dispozici jeho reprodukce. Existují i další měny z té doby, například soldo z italských států 17. století, na němž je vyobrazen Kristus.
 
-Tento koncept, ačkoli je spojen s Nickem Bellem prostřednictvím jeho pseudonymu na Twitteru "časová hodnota BTC," není jeho vynálezem. Nicméně o něm podrobně diskutuje ve své práci. Hlavní myšlenka je, že čas má hodnotu. Takže, pokud se někdo rozhodne zaplatit směnku v hodnotě 100 dolarů o měsíc dříve, může ji získat například za 98 dolarů a na datum splatnosti obdržet 100 dolarů. Tato měnová inovace vznikla na Antverpské burze.
 
-#### VOC a Amsterdamská burza (17. století)
+#### Účty Exchange (13. století)
 
-![image](assets/fr/069.webp)
 
-Po Antverpské burze byl důležitým milníkem založení VOC, Nizozemské východoindické společnosti. Tato společnost se sídlem v Nizozemsku dokonce vydávala vlastní měnu. Po založení VOC byla v Amsterdamu zřízena první burza, která se stala první burzou pro tuto společnost. Zajímavé je poznamenat, jak se Nizozemcům podařilo ukončit antverpskou nadvládu jako mezinárodního ekonomického centra. Jednoduše zablokovali přístup k řece Scheldt. Tato strategie byla součástí většího historického hnutí, povstání žebráků. Klíčová událost v evropské historii.
+Běžná praxe v té době byla následující: zlatníci vydávali směnky Exchange v Exchange za složené florény. Tyto florény pečlivě uchovávali ve svých trezorech. Skutečné zlato, představované florénem, tak tvořilo první Layer peněz, zatímco směnky Exchange tvořily druhý Layer. V tomto případě se jednalo o zlaté peníze. Likvidita tohoto systému však byla omezená. Pokud chtěl někdo vyměnit své zlato Redeem za směnku Exchange, byla transakce jednoduchá. Výměna těchto bankovek mezi jednotlivci však nebyla běžnou praxí.
 
-#### Zásah Amsterdamské banky
 
-![image](assets/fr/070.webp)
-Po založení VOC představoval další významný prvek v dějinách peněz zavedení zlatých mincí Bankou Amsterodamu. Tyto mince, datované do roku 1722, byly vyrobeny ze stříbra. Avšak to, co skutečně zrevolucionizovalo finance v té době, nebyla tolik mince samotná, ale účty spojené s touto měnou v Bance Amsterodamu. Tyto účty se staly primárním prostředkem mezinárodní výměny. Transakce byly jednoduše zaznamenávány do registrů nebo účetních knih. Díky tomuto systému se Amsterdam stal globálním ekonomickým centrem. Časem se Banka Amsterodamu rozhodla vynutit používání těchto účtů. Nezávislí směnárníci byli povinni každý den směňovat své mince za vklady v bance.
+#### Antverpská zásoba Exchange (16. století)
 
-#### Založení Banky Anglie kvůli financování války
 
-Založení Banky Anglie bylo motivováno potřebou financovat válku na konci 17. století. Stejně jako Banka Amsterodamu i ona nařídila vklady dekretem. Zvláštností Banky Anglie bylo odsunutí soukromých bank do sekundární pozice v měnovém systému, čímž vznikla takzvaná "třetí vrstva" měny.
-Původně první vrstvu měny představovalo zlato. Vklady u soukromých bank tvořily druhou vrstvu. Když však tyto vklady již nebylo možné přeměnit na zlato, objevila se třetí vrstva měny. Od té doby již bankovky vydané soukromými bankami nebyly přeměnitelné na zlato, ale na papírovou měnu z Banky Anglie, která sama byla přeměnitelná na zlato. Tento vývoj vedl ke komplikaci měnového systému přidáním dalších vrstev.
+Antverpská burza Exchange znamenala klíčový milník ve vývoji papírových peněz. Právě tam byla zavedena praxe diskontování směnek. Tyto směnky byly papírovými nástroji představujícími peněžní hodnotu, ale jejich jedinečnost spočívala v tom, že byly opatřeny jménem a datem splatnosti. Díky tomu bylo obtížné je Exchange před datem splatnosti.
 
-#### Panika z roku 1796
+Revoluce, kterou přinesla antverpská burza Exchange, spočívala v možnosti diskontovat tyto směnky před datem jejich splatnosti. Například pokud byla směnka splatná za měsíc, bylo možné ji koupit za diskontovanou cenu, aby se zohlednila doba před datem splatnosti. Tato inovace nejenže zvýšila hodnotu papírové měny Liquid, ale také zavedla pojem časové hodnoty peněz.
 
-![image](assets/fr/071.webp)
-Bankovní panika v Seamen's Savings Bank během paniky z roku 1857.
 
-Následkem bankovní paniky z roku 1796 nastal jev, kdy každý se snažil posunout nahoru po "peněžní pyramidě". Lidé chtěli vyměnit svou měnu třetí vrstvy za měnu druhé vrstvy a nakonec za měnu první vrstvy, zlato. Před tímto masivním náporem byla Banka Anglie nucena podniknout kroky k stabilizaci situace. Aby zabránila potenciální deflaci zlatých rezerv, rozhodla se pozastavit přeměnitelnost svých bankovek na zlato. Toto pozastavení, původně zamýšlené jako dočasné opatření, trvalo dvě desetiletí.
+Tento koncept, ačkoli je spojován s Nickem Bellem prostřednictvím jeho twitterového pseudonymu "time value of BTC", není jeho vynálezem. Přesto se jím ve své práci podrobně zabývá. Hlavní myšlenkou je, že čas má hodnotu. Pokud se tedy někdo rozhodne zaplatit směnku v hodnotě 100 dolarů na měsíc dopředu, může ji získat například za 98 dolarů a v den splatnosti obdržet 100 dolarů. Tato peněžní inovace vznikla na antverpské burze Exchange.
+
+
+#### VOC a amsterdamská burza (17. století)
+
+
+![image](assets/cs/072.webp)
+
+
+Po založení antverpské burzy Exchange bylo významným mezníkem založení VOC, Nizozemské východoindické společnosti. Tato společnost se sídlem v Nizozemsku dokonce vydávala vlastní měnu. Po vzniku VOC byla v Amsterdamu založena první burza, která znamenala počátek burzovních operací společnosti. Zajímavé je, jak se Nizozemcům podařilo ukončit nadvládu Antverp jako mezinárodního hospodářského centra. Jednoduše zablokovali přístup k řece Šeldě. Tato strategie byla součástí většího historického hnutí, vzpoury žebráků. Zásadní událost evropských dějin.
+
+
+#### Zásah Bank of Amsterdam
+
+
+![image](assets/cs/073.webp)
+
+
+Po založení VOC se další významnou událostí v měnové historii stalo zavedení zlatých mincí amsterodamskou bankou. Tyto mince z roku 1722 byly vyrobeny ze stříbra. Skutečnou revoluci v tehdejším finančnictví však nepředstavovala ani tak samotná Coin, ale účty spojené s touto měnou v amsterodamské bance. Tyto účty se staly hlavním prostředkem mezinárodního platebního styku Exchange. Transakce se jednoduše zaznamenávaly do registrů nebo účetních knih. Díky tomuto systému se Amsterdam stal světovým ekonomickým centrem. Postupem času se amsterodamská banka rozhodla používání těchto účtů prosadit. Nezávislí směnárníci museli denně Exchange své mince ukládat do banky.
+
+
+#### Vytvoření Bank of England k financování války
+
+
+Vznik Anglické banky byl motivován potřebou financovat válku na konci 17. století. Stejně jako Amsterdamská banka zaváděla vklady na základě dekretu. Zvláštností Bank of England bylo odsunutí soukromých bank do druhořadého postavení v měnovém systému, čímž vzniklo něco, co by se dalo nazvat "třetí Layer" měny.
+
+Zpočátku představovalo první měnu Layer zlato. Vklady v soukromých bankách tvořily druhý Layer. Když však tyto vklady již nemohly být převedeny na zlato, objevil se třetí Layer měny. Od té doby již bankovky vydané soukromými bankami nebyly směnitelné za zlato, ale za papírovou měnu Bank of England, která sama byla směnitelná za zlato. Tento vývoj vedl ke zkomplikování měnového systému přidáním dalších vrstev.
+
+
+#### Panika v roce 1796
+
+
+![image](assets/cs/074.webp)
+
+Bankovní panika v Seamen's Savings Bank během paniky v roce 1857.
+
+
+Po bankovní panice v roce 1796 došlo k fenoménu, kdy se všichni snažili dostat na vyšší úroveň "peněžní pyramidy" Lidé chtěli vyměnit svou měnu Exchange třetího řádu za měnu druhého řádu a nakonec za měnu prvního řádu, což bylo zlato. Tváří v tvář tomuto masivnímu návalu byla Bank of England nucena přijmout opatření ke stabilizaci situace. Aby zabránila možné deflaci zlatých rezerv, rozhodla se pozastavit směnitelnost svých bankovek za zlato. Toto pozastavení, původně zamýšlené jako dočasné opatření, trvalo přibližně dvě desetiletí.
+
 
 ### Závěr:
 
-Centrální banky se vyvinuly v poskytovatele poslední instance, pozastavující přeměnitelnost své měny na zlato. Ačkoli bylo toto opatření původně zamýšleno jako dočasné řešení, nakonec se stalo trvalým, což znamenalo příchod konceptu poskytovatele poslední instance. Tato transformace formovala centrální banky, jak je známe dnes. Avšak ve zranitelnějších ekonomikách může tato schopnost libovolně tisknout peníze vést k nežádoucím důsledkům, jako je hyperinflace, pokud je používána nezodpovědně.
+
+Centrální banky se staly věřiteli poslední instance a pozastavily směnitelnost své měny za zlato. Ačkoli toto opatření bylo původně zamýšleno jako dočasné řešení, nakonec se stalo trvalým a znamenalo nástup konceptu věřitele poslední instance. Tato transformace formovala centrální banky tak, jak je známe dnes. V křehčích ekonomikách však může tato možnost tisknout peníze podle libosti vést při nezodpovědném používání k nežádoucím důsledkům, jako je hyperinflace.
+
 
 ## Knihy a zdroje
 
+
 <chapterId>c44e4519-0741-527b-b3b0-3f513e87147d</chapterId>
 
-Hyperinflace je fascinující téma, které bylo studováno prostřednictvím různých historických událostí. Pokud se chcete do tohoto tématu ponořit hlouběji, zde je seznam 10 zásadních zdrojů ke čtení a studiu:
 
-- "When Money Dies: The Nightmare of Deficit Spending, Devaluation, and Hyperinflation in Weimar Germany" od Adama Fergussona. Tato kniha podrobně popisuje krizi hyperinflace v Německu po první světové válce.
+Hyperinflace je fascinující téma, které bylo zkoumáno v různých historických událostech. Pokud se chcete do tohoto tématu ponořit hlouběji, přinášíme vám seznam 10 základních zdrojů, které je třeba přečíst a prostudovat:
 
-- "The Economics of Inflation - A Study of Currency Depreciation in Post-War Germany" od Costantina Brescianiho-Turroniho. Hloubková analýza německé hyperinflace ve 20. letech.
-- "This Time Is Different: Eight Centuries of Financial Folly" od Carmen M. Reinhart a Kennetha S. Rogoffa. Ačkoli kniha pokrývá mnoho typů finančních krizí, rozsáhle se zabývá hyperinflací v průběhu historie.
-- "Hyperinflace v Zimbabwe, analýza a poučení" od Steve Hanke. Studie o hyperinflaci v Zimbabwe na počátku 2000. let.
 
-- "Měnové režimy a inflace: Historie, ekonomické a politické vztahy" od Petera Bernholze. Kniha zkoumá případy hyperinflace v průběhu historie a snaží se pochopit jejich podkladové faktory.
 
-- "Přežití hyperinflace: Strategie pro americké podniky" od Geralda Swansona. Praktický průvodce, jak mohou podniky navigovat prostředím hyperinflace.
+- "Když peníze umírají: Noční můra deficitních výdajů, devalvace a hyperinflace ve výmarském Německu" od Adama Fergussona. Tato kniha podrobně popisuje hyperinflační krizi v Německu po první světové válce.
 
-- "Umírání peněz: Poučení z velkých německých a amerických inflací" od Jense O. Parssona. Komparativní analýza inflačních krizí v Německu a ve Spojených státech.
 
-- "Pád peněz: Hyperinflace v Německu a zničení střední třídy" od Fredericka Taylora. Vyprávění o sociálním a ekonomickém dopadu hyperinflace na německou společnost.
-- "Měnové rady pro rozvojové země: Příručka" od Steve Hanke a Kurta Schuler. Ačkoliv je zaměření na měnové rady, tato kniha nabízí perspektivu, jak se vyhnout situacím hyperinflace.
 
-# Sekce finále
+- "The Economics of Inflation - A Study of Currency Depreciation in Post-War Germany" (Ekonomie inflace - studie znehodnocování měny v poválečném Německu), Costantino Bresciani-Turroni. Podrobná analýza německé hyperinflace ve 20. letech 20. století.
+
+
+
+- "Tentokrát je to jiné: Reinhartové a Kennetha S. Rogoffa. Přestože se kniha zabývá různými typy finančních krizí, podrobně se věnuje hyperinflaci v průběhu historie.
+
+
+
+- "Hyperinflace v Zimbabwe, analýza a poučení" Steve Hanke. Studie o zimbabwské hyperinflaci na počátku roku 2000.
+
+
+
+- "Měnové režimy a inflace: Bernholz: "Historie, ekonomické a politické vztahy". Kniha zkoumá historické případy hyperinflace a snaží se pochopit základní faktory.
+
+
+
+- "Průvodce přežitím hyperinflace: Strategie pro americké podniky" od Geralda Swansona. Praktický průvodce, jak mohou podniky projít hyperinflačním prostředím.
+
+
+
+- "Umírání kvůli penězům: Jens O. Parsson: "Poučení z velkých německých a amerických inflací". Srovnávací analýza inflačních krizí v Německu a Spojených státech.
+
+
+
+- "Pád peněz: Frederick Taylor: "Pád peněz: hyperinflace v Německu a zničení střední třídy". Vyprávění o sociálním a ekonomickém dopadu hyperinflace na německou společnost.
+
+
+
+- "Měnové rady pro rozvojové země: A Handbook" autorů Steva Hankeho a Kurta Schulera. Přestože se kniha zaměřuje na měnové rady, nabízí pohled na to, jak se vyhnout hyperinflačním situacím.
+
+
+# Závěrečná část
+
 
 <partId>cb1f4a4b-556a-4e47-a5cc-136be35a1f9a</partId>
 
-## Recenze & Hodnocení
+
+## Recenze a hodnocení
+
 
 <chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
+
 <isCourseReview>true</isCourseReview>
 
 ## Závěrečná zkouška
 
+
 <chapterId>d01831c3-6c4d-59e3-95bc-03e97a05c142</chapterId>
+
 <isCourseExam>true</isCourseExam>
 
 ## Závěr
 
+
 <chapterId>45d410b0-71ed-4502-8d8d-8b6df761db23</chapterId>
+
 <isCourseConclusion>true</isCourseConclusion>

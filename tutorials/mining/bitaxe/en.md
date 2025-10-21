@@ -59,7 +59,7 @@ The `Core Voltage` setting should be left at `1200` by default, and for `Frequen
 
 Once you have correctly entered all the settings, click the `Save` button at the bottom, then restart your BitAxe simply by unplugging it and plugging it back in.
 If you have entered your information correctly, the device should quickly connect to your Wi-Fi, then to the mining pool, and start to display some information on its small screen. It will probably take a few minutes for it to appear on the mining pool's dashboard.
-### Dashboard and Screen
+## Dashboard and screen
 
 Three different displays will scroll through. On the third page, you will see the `IP` information, which is the IP address that allows you to connect to the dashboard. Here, the address is `192.168.1.19`.
 

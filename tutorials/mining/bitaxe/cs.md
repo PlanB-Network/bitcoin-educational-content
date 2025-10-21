@@ -56,7 +56,7 @@ Nastavení `Core Voltage` by mělo být ponecháno ve výchozím stavu `1200` a 
 
 Jakmile správně zadáte všechna nastavení, klikněte na tlačítko `Save` dole, poté restartujte svůj BitAxe jednoduše tak, že ho odpojíte a znovu zapojíte.
 Pokud jste své informace zadali správně, zařízení by se mělo rychle připojit k vaší Wi-Fi, poté k těžebnímu poolu a začít zobrazovat nějaké informace na svém malém displeji. Pravděpodobně to bude trvat několik minut, než se objeví na dashboardu těžebního poolu.
-### Dashboard a Displej
+## Dashboard a obrazovka
 
 Budou se střídat tři různé displeje. Na třetí stránce uvidíte informace `IP`, což je IP adresa, která vám umožní připojit se k dashboardu. Zde je adresa `192.168.1.19`.
 

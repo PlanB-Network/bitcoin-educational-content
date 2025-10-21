@@ -86,7 +86,7 @@ Tüm ayarları doğru bir şekilde girdikten sonra, alttaki `Kaydet` düğmesine
 
 Bilgilerinizi doğru girdiyseniz, cihaz hızlı bir şekilde Wi-Fi'nize ve ardından Mining pool'a bağlanmalı ve küçük ekranında bazı bilgileri görüntülemeye başlamalıdır. Mining pool'un kontrol panelinde görünmesi muhtemelen birkaç dakika alacaktır.
 
-### Gösterge Paneli ve Ekran
+## Gösterge paneli ve ekran
 
 
 Üç farklı ekran arasında geçiş yapılacaktır. Üçüncü sayfada, gösterge tablosuna bağlanmanızı sağlayan IP Address olan `IP` bilgisini göreceksiniz. Burada, Address `192.168.1.19`dur.

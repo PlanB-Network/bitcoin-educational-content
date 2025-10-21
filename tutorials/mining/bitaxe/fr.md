@@ -63,7 +63,7 @@ Une fois que vous avez bien renseigné tous les paramètres, cliquez sur le bout
 
 Si vous avez correctement saisi vos informations, l'appareil devrait se connecter rapidement à votre Wi-Fi, puis à la pool de minage, et commencer à afficher certaines informations sur son petit écran. Il faudra probablement quelques minutes pour qu'il apparaisse sur le dashboard de la pool de minage.
 
-### Dashboard et écran
+## Dashboard et écran
 
 Trois affichages différents vont défiler. Sur la troisième page, vous verrez l'information `IP`, qui est l'adresse IP vous permettant de vous connecter au dashboard. Ici, l’adresse est `192.168.1.19`.
 

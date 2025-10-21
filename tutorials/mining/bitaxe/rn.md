@@ -86,7 +86,7 @@ Umaze kwinjiza neza ama settings yose, ukande kuri buto ya `Save` iri musi, hany
 
 Nimba winjije neza amakuru yawe, ico gikoresho gikwiye kwihuta kwifatanya na Wi-Fi yawe, hanyuma kigafatanya na Mining pool, maze kigatangura kugaragaza amakuru amwamwe ku gicapo caco gitoyi. Birashoboka ko bizofata iminota mikeyi kugira ngo iboneke ku rubaho rwa Mining pool.
 
-### Dashboard na igicapo
+## Dashboard n’ikirato
 
 
 Ivyerekanywe bitatu bitandukanye bizokurikirwa. Ku rupapuro rwa gatatu, uzobona amakuru ya `IP`, ariyo IP Address ishobora kugufasha kwifatanya na dashboard. Aha, Address ni `192.168.1.19`.

@@ -56,7 +56,7 @@ L'impostazione del `Voltaggio Core` dovrebbe essere lasciata di default a `1200`
 
 Una volta che hai inserito correttamente tutte le impostazioni, clicca sul pulsante `Salva` in basso, poi riavvia il tuo BitAxe semplicemente scollegandolo e ricollegandolo.
 Se hai inserito correttamente le tue informazioni, il dispositivo dovrebbe connettersi rapidamente al tuo Wi-Fi, poi al mining pool, e iniziare a visualizzare alcune informazioni sul suo piccolo schermo. Probabilmente ci vorranno alcuni minuti perché appaia sulla dashboard del mining pool.
-### Dashboard e Schermo
+## Dashboard e schermo
 
 Tre diverse visualizzazioni scorrono. Nella terza pagina, vedrai le informazioni `IP`, che è l'indirizzo IP che ti permette di connetterti alla dashboard. Qui, l'indirizzo è `192.168.1.19`.
 

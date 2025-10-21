@@ -86,7 +86,7 @@ Als je alle instellingen correct hebt ingevoerd, klik je op de knop `Opslaan` on
 
 Als je je gegevens correct hebt ingevoerd, moet het apparaat snel verbinding maken met je Wi-Fi en vervolgens met de Mining pool, en informatie op het kleine schermpje weergeven. Het duurt waarschijnlijk een paar minuten voordat het op het dashboard van de Mining pool verschijnt.
 
-### Dashboard en scherm
+## Dashboard en scherm
 
 
 Drie verschillende schermen zullen doorlopen. Op de derde pagina zie je de `IP` informatie, dat is het IP van Address waarmee je verbinding kunt maken met het dashboard. Hier is de Address `192.168.1.19`.

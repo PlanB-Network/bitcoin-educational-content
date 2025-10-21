@@ -85,7 +85,7 @@ Po poprawnym wprowadzeniu wszystkich ustawień, kliknij przycisk `Zapisz` na dol
 
 Jeśli informacje zostały wprowadzone poprawnie, urządzenie powinno szybko połączyć się z siecią Wi-Fi, a następnie z Mining pool i zacząć wyświetlać informacje na małym ekranie. Prawdopodobnie minie kilka minut, zanim pojawią się one na pulpicie nawigacyjnym Mining pool.
 
-### Deska rozdzielcza i ekran
+## Pulpit i ekran
 
 
 Przewijane będą trzy różne ekrany. Na trzeciej stronie zobaczysz informacje `IP`, czyli adres IP Address, który umożliwia połączenie z pulpitem nawigacyjnym. Tutaj Address to `192.168.1.19`.

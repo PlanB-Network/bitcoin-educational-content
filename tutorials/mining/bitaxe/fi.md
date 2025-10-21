@@ -56,7 +56,7 @@ Seuraavaksi `User`-kenttään syötetään tunnisteesi ja sitten `Password`, yle
 
 Kun olet syöttänyt kaikki asetukset oikein, napsauta alhaalla olevaa `Save`-painiketta, ja käynnistä BitAxesi uudelleen yksinkertaisesti irrottamalla se ja kytke se takaisin.
 Jos olet syöttänyt tietosi oikein, laitteen pitäisi nopeasti yhdistää Wi-Fiisi, sitten louhintapooliin, ja alkaa näyttää tietoja pienellä näytöllään. Sen ilmestyminen louhintapoolin hallintapaneeliin saattaa kestää muutaman minuutin.
-### Hallintapaneeli ja Näyttö
+## Hallintapaneeli ja näyttö
 
 Näytöllä vierii kolme erilaista näkymää. Kolmannella sivulla näet `IP`-tiedot, jotka ovat IP-osoite, jonka avulla voit yhdistää hallintapaneeliin. Tässä tapauksessa osoite on `192.168.1.19`.
 

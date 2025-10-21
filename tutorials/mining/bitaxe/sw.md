@@ -85,7 +85,7 @@ Ukishaingiza mipangilio yote kwa usahihi, bofya kitufe cha `Hifadhi` chini, kish
 
 Ikiwa umeingiza maelezo yako kwa usahihi, kifaa kinapaswa kuunganisha haraka kwenye Wi-Fi yako, kisha kwa Mining pool, na kuanza kuonyesha habari fulani kwenye skrini yake ndogo. Pengine itachukua dakika chache ndio ionekane kwenye dashibodi ya Mining pool.
 
-### Dashibodi na Skrini
+## Dashibodi na skrini
 
 
 Maonyesho matatu tofauti yatapitia. Kwenye ukurasa wa tatu, utaona maelezo ya `IP`, ambayo ni IP Address inayokuruhusu kuunganisha kwenye dashibodi. Hapa, Address ni `192.168.1.19`.

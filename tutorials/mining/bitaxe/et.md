@@ -56,7 +56,7 @@ Järgmisena sisestage `User` väljale teie identifikaator ja seejärel `Password
 
 Kui olete kõik seaded õigesti sisestanud, klõpsake allpool olevat `Save` nuppu, seejärel taaskäivitage oma BitAxe lihtsalt välja tõmmates ja tagasi ühendades.
 Kui olete oma andmed õigesti sisestanud, peaks seade kiiresti ühenduma teie Wi-Fi'ga, seejärel kaevandusbasseiniga ja hakkama väikesel ekraanil kuvama teavet. Ilmselt kulub mõni minut, enne kui see kaevandusbasseini armatuurlaual kuvatakse.
-### Armatuurlaud ja ekraan
+## Armatuurlaud ja ekraan
 
 Läbi keritakse kolm erinevat kuvamist. Kolmandal lehel näete `IP` teavet, mis on IP-aadress, mis võimaldab teil armatuurlauaga ühendust luua. Siin on aadress `192.168.1.19`.
 

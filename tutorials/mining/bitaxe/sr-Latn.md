@@ -85,7 +85,7 @@ Kada pravilno unesete sva podešavanja, kliknite na dugme `Save` na dnu, zatim p
 
 Ako ste ispravno uneli svoje podatke, uređaj bi trebalo brzo da se poveže na vaš Wi-Fi, zatim na Mining pool, i počne da prikazuje neke informacije na svom malom ekranu. Verovatno će biti potrebno nekoliko minuta da se pojavi na kontrolnoj tabli Mining pool.
 
-### Kontrolna tabla i Ekran
+## Kontrolna tabla i ekran
 
 
 Tri različita prikaza će se smenjivati. Na trećoj stranici ćete videti informacije o `IP`, što je IP Address koji vam omogućava povezivanje na kontrolnu tablu. Ovde je Address `192.168.1.19`.

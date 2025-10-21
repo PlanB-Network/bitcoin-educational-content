@@ -56,7 +56,7 @@ Die Einstellung `Core Voltage` sollte standardmäßig auf `1200` belassen werden
 
 Sobald Sie alle Einstellungen korrekt eingegeben haben, klicken Sie unten auf den `Save`-Button und starten Sie Ihren BitAxe neu, indem Sie ihn einfach aus- und wieder einstecken.
 Wenn Sie Ihre Informationen korrekt eingegeben haben, sollte das Gerät schnell eine Verbindung zu Ihrem WLAN und dann zum Mining-Pool herstellen und beginnen, einige Informationen auf seinem kleinen Bildschirm anzuzeigen. Es wird wahrscheinlich einige Minuten dauern, bis es auf dem Dashboard des Mining-Pools erscheint.
-### Dashboard und Bildschirm
+## Dashboard und Bildschirm
 
 Drei verschiedene Anzeigen werden durchlaufen. Auf der dritten Seite sehen Sie die `IP`-Informationen, die die IP-Adresse ist, mit der Sie sich mit dem Dashboard verbinden können. Hier ist die Adresse `192.168.1.19`.
 

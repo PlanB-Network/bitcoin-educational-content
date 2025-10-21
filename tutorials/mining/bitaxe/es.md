@@ -56,7 +56,7 @@ La configuración de `Core Voltage` debe dejarse en `1200` por defecto, y para `
 
 Una vez que hayas ingresado correctamente todos los ajustes, haz clic en el botón `Save` en la parte inferior, luego reinicia tu BitAxe simplemente desenchufándolo y volviéndolo a enchufar.
 Si has ingresado tu información correctamente, el dispositivo debería conectarse rápidamente a tu Wi-Fi, luego al pool de minería, y comenzar a mostrar información en su pequeña pantalla. Probablemente tomará unos minutos para que aparezca en el tablero de control del pool de minería.
-### Tablero de Control y Pantalla
+## Panel de control y pantalla
 
 Tres pantallas diferentes se desplazarán. En la tercera página, verás la información de `IP`, que es la dirección IP que te permite conectarte al tablero de control. Aquí, la dirección es `192.168.1.19`.
 

@@ -86,7 +86,7 @@ När du har angett alla inställningar korrekt klickar du på knappen "Spara" l�
 
 Om du har angett dina uppgifter korrekt ska enheten snabbt ansluta till ditt Wi-Fi och sedan till Mining pool och börja visa viss information på sin lilla skärm. Det kommer förmodligen att ta några minuter innan den visas på Mining pool:s instrumentpanel.
 
-### Instrumentpanel och skärm
+## Instrumentpanel och skärm
 
 
 Tre olika skärmar kommer att rulla igenom. På den tredje sidan ser du "IP"-informationen, som är den IP Address som gör att du kan ansluta till instrumentpanelen. Här är Address `192.168.1.19`.

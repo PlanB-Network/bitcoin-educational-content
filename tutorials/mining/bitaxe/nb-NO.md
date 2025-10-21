@@ -56,7 +56,7 @@ Videre, i `User`, skriv inn din identifikator og deretter `Password`, vanligvis 
 
 Når du har korrekt angitt alle innstillingene, klikk på `Save`-knappen nederst, og deretter restart din BitAxe enkelt ved å koble den fra og koble den til igjen.
 Hvis du har angitt informasjonen din korrekt, bør enheten raskt koble seg til Wi-Fi, deretter til miningpoolen, og begynne å vise noe informasjon på sin lille skjerm. Det vil sannsynligvis ta noen minutter før den vises på miningpoolens dashboard.
-### Dashboard og Skjerm
+## Dashbord og skjerm
 
 Tre forskjellige visninger vil rulle gjennom. På den tredje siden vil du se `IP`-informasjonen, som er IP-adressen som lar deg koble til dashboardet. Her er adressen `192.168.1.19`.
 

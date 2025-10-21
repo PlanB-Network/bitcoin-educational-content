@@ -13,147 +13,147 @@ contributor_names:
 original_language: fr
 proofreading:
   - language: cs
-    last_contribution_date: null
+    last_contribution_date:
     urgency: 1
-    contributor_names: null
+    contributor_names:
     reward: 32.43
   - language: de
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
-    - CozyCaravan
+      - CozyCaravan
     reward: 12.17
   - language: en
-    last_contribution_date: null
+    last_contribution_date:
     urgency: 1
-    contributor_names: null
+    contributor_names:
     reward: 24.35
   - language: es
-    last_contribution_date: null
+    last_contribution_date:
     urgency: 1
-    contributor_names: null
+    contributor_names:
     reward: 24.35
   - language: fi
-    last_contribution_date: null
+    last_contribution_date:
     urgency: 1
-    contributor_names: null
+    contributor_names:
     reward: 32.43
   - language: fr
     last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
-    - Asi0Flammeus
-    - Sosylos
-    - ProfScofield21
+      - Asi0Flammeus
+      - Sosylos
+      - ProfScofield21
     reward: 0
   - language: it
     last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
-    - TinF0ilHat1
-    - AlbertoMagno21
-    - f205sats
+      - TinF0ilHat1
+      - AlbertoMagno21
+      - f205sats
     reward: 0
   - language: ja
-    last_contribution_date: null
+    last_contribution_date:
     urgency: 1
     contributor_names:
-    - yutaro21jp
+      - yutaro21jp
     reward: 24.3
   - language: pt
     last_contribution_date: 2023-12-24
     urgency: 1
-    contributor_names: null
+    contributor_names:
     reward: 24.35
   - language: ru
-    last_contribution_date: null
+    last_contribution_date:
     urgency: 1
-    contributor_names: null
+    contributor_names:
     reward: 32.43
   - language: vi
     last_contribution_date: 2024-11-16
     urgency: 1
     contributor_names:
-    - Henry-Da0
+      - Henry-Da0
     reward: 24.3
   - language: et
-    last_contribution_date: null
+    last_contribution_date:
     urgency: 1
-    contributor_names: null
+    contributor_names:
     reward: 32.43
   - language: id
     last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
-    - cindafelicia
+      - cindafelicia
     reward: 20.26
   - language: zh-Hans
-    last_contribution_date: null
+    last_contribution_date:
     urgency: 1
-    contributor_names: null
+    contributor_names:
     reward: 40.52
   - language: nb-NO
-    last_contribution_date: null
+    last_contribution_date:
     urgency: 1
-    contributor_names: null
+    contributor_names:
     reward: 32.43
   - language: pl
-    last_contribution_date: null
+    last_contribution_date:
     urgency: 1
-    contributor_names: null
+    contributor_names:
     reward: 32.43
   - language: hi
     last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
-    - e-manuel7
+      - e-manuel7
     reward: 28.34
   - language: sr-Latn
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
-    - Sanja22B
+      - Sanja22B
     reward: 16.22
   - language: sw
-    last_contribution_date: null
+    last_contribution_date:
     urgency: 1
-    contributor_names: null
+    contributor_names:
     reward: 32.43
   - language: zh-Hant
-    last_contribution_date: null
+    last_contribution_date:
     urgency: 1
-    contributor_names: null
+    contributor_names:
     reward: 40.52
   - language: fa
     last_contribution_date: 2025-05-24
     urgency: 1
     contributor_names:
-    - Arshia-r-m
+      - Arshia-r-m
     reward: 16.22
   - language: sv
-    last_contribution_date: null
+    last_contribution_date:
     urgency: 1
-    contributor_names: null
+    contributor_names:
     reward: 24.35
   - language: nl
-    last_contribution_date: null
+    last_contribution_date:
     urgency: 1
-    contributor_names: null
+    contributor_names:
     reward: 32.43
   - language: tr
-    last_contribution_date: null
+    last_contribution_date:
     urgency: 1
-    contributor_names: null
+    contributor_names:
     reward: 40.52
   - language: ko
-    last_contribution_date: null
+    last_contribution_date:
     urgency: 1
-    contributor_names: null
+    contributor_names:
     reward: 32.43
   - language: rn
-    last_contribution_date: null
+    last_contribution_date:
     urgency: 1
-    contributor_names: null
+    contributor_names:
     reward: 48.6
 tags:
   - lightning
@@ -191,6 +191,13 @@ videos:
       - de: p2tqCsgf6QvxHqPLaUyP2U
       - fr: fuxE98GGVLEdQBo7YHmH5r
       - es: fsNSGF9t8Dd6ipjGmTw2Zh
+      - fi: etayfZ8a2nrn4jhjYwqCFn
+      - id: hkvMn4zMAFKoMoWGNEq214
+      - ko: qa45vfnsLF3K7tsY3LGrcV
+      - pl: aEcufCGVdovzBB7hM26NNn
+      - pt: kMgz5HAv6KdExsAtV2ALre
+      - sv: tEwEvvX9HMeKcGsC77VByu
+      - tr: ts5WejJzWpzVhBr6RyLxQg
     youtube:
       - fr: aPqI34tpypM
   - id: 1d850f23-eff1-4725-b284-ce12456a2c26
@@ -202,6 +209,7 @@ videos:
       - de: hEMErwLsvxqYz1s1UrDhib
       - fr: 3z9hMfJtBbSofhB5ocAmzj
       - es: pZyr9V6AKT65TShHK7b1BK
+      - cs: aHym11aLXBC2j8J9LyKSzM
     youtube:
       - fr: RRvoVTLRJ84
   - id: 4d8ad4e6-32ff-46d3-bd17-343929aa863b

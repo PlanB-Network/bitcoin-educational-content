@@ -82,7 +82,7 @@ description: Comment utiliser son hardware wallet avec Blockstream App sur ordin
 
 ![image](assets/fr/06.webp)
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 #### 3.2.4. Vérification SPV
 

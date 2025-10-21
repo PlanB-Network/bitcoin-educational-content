@@ -5,7 +5,7 @@ description: Ni gute woshiraho BitAxe?
 ![video](https://youtu.be/tvLSK8v0MK8)
 
 
-### Imenyekanisha
+## Intangamariro
 
 
 BitAxe ni umugambi w’inkomoko yuguruye waremwe na Skot kandi [uboneka kuri GitHub](https://github.com/skot/bitaxe) ushobora gutuma habaho igerageza rya Mining ritari ryiza.

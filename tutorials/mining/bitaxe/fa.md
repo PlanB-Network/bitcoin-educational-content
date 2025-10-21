@@ -5,7 +5,7 @@ description: چگونه یک BitAxe راه‌اندازی کنیم؟
 ![video](https://youtu.be/tvLSK8v0MK8)
 
 
-### مقدمه
+## مقدمه
 
 
 BitAxe یک پروژه متن‌باز است که توسط Skot ایجاد شده و [در GitHub موجود است](https://github.com/skot/bitaxe) و امکان آزمایش Mining با هزینه کم را فراهم می‌کند.

@@ -4,7 +4,7 @@ description: 如何設定 BitAxe？
 
 ---
 ![video](https://youtu.be/tvLSK8v0MK8)
-### 簡介
+## 介紹
 
 
 BitAxe 是由 Skot 創建的開放原始碼專案，[可在 GitHub 上取得](https://github.com/skot/bitaxe)，可進行符合成本效益的 Mining 試驗。

@@ -4,7 +4,7 @@ description: How to set up a BitAxe?
 ---
 ![video](https://youtu.be/tvLSK8v0MK8)
 
-### Introduction
+## Introduction
 
 BitAxe is an open-source project created by Skot and [available on GitHub](https://github.com/skot/bitaxe) that allows for cost-effective mining experimentation.
 

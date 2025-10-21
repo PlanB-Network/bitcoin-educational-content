@@ -5,7 +5,7 @@ description: Hoe stel ik een BitAxe in?
 ![video](https://youtu.be/tvLSK8v0MK8)
 
 
-### Inleiding
+## Inleiding
 
 
 BitAxe is een open-source project gemaakt door Skot en [beschikbaar op GitHub](https://github.com/skot/bitaxe) dat kosteneffectieve Mining experimenten mogelijk maakt.

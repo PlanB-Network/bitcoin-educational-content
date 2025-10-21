@@ -3,7 +3,7 @@ name: Bitaxe
 description: BitAxeの設定方法とは？
 ---
 ![video](https://youtu.be/tvLSK8v0MK8)
-### はじめに
+## はじめに
 
 BitAxeは、Skotによって作成され、[GitHub](https://github.com/skot/bitaxe) で入手可能なオープンソースプロジェクトであり、費用対効果の高いマイニング実験を可能にします。
 

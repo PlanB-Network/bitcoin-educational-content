@@ -4,7 +4,7 @@ Opis: Kako postaviti BitAxe?
 
 ---
 ![video](https://youtu.be/tvLSK8v0MK8)
-### Uvod
+## Uvod
 
 
 BitAxe je projekat otvorenog koda koji je kreirao Skot i [dostupan je na GitHub-u](https://github.com/skot/bitaxe) što omogućava isplativo eksperimentisanje sa Mining.

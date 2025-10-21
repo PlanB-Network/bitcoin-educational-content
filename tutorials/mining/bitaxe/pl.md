@@ -4,7 +4,7 @@ description: Jak skonfigurować BitAxe?
 
 ---
 ![video](https://youtu.be/tvLSK8v0MK8)
-### Wprowadzenie
+## Wprowadzenie
 
 
 BitAxe to projekt open-source stworzony przez Skota i [dostępny na GitHub](https://github.com/skot/bitaxe), który pozwala na opłacalne eksperymentowanie z Mining.

@@ -4,7 +4,7 @@ description: Jinsi ya kusanidi BitAxe?
 
 ---
 ![video](https://youtu.be/tvLSK8v0MK8)
-### Utangulizi
+## Utangulizi
 
 
 BitAxe ni mradi wa programu huria ulioundwa na Skot na [unapatikana kwenye GitHub](https://github.com/skot/bitaxe) unaoruhusu majaribio ya gharama nafuu ya Mining.

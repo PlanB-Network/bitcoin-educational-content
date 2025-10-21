@@ -5,7 +5,7 @@ description: BitAxe를 설정하는 방법은 무엇인가요?
 ![video](https://youtu.be/tvLSK8v0MK8)
 
 
-### 소개
+## 소개
 
 
 BitAxe는 Skot에서 만든 오픈 소스 프로젝트로, 비용 효율적인 Mining 실험을 할 수 있는 [GitHub에서 사용 가능](https://github.com/skot/bitaxe)입니다.

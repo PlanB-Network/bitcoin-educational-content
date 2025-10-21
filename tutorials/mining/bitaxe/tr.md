@@ -5,7 +5,7 @@ description: BitAxe nasıl kurulur?
 ![video](https://youtu.be/tvLSK8v0MK8)
 
 
-### Giriş
+## Giriş
 
 
 BitAxe, Skot tarafından oluşturulan ve [GitHub'da mevcut] (https://github.com/skot/bitaxe) uygun maliyetli Mining denemelerine olanak tanıyan açık kaynaklı bir projedir.

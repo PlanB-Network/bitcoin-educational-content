@@ -9,7 +9,7 @@ Le SeedSigner est un hardware wallet Bitcoin open-source que chacun peut constru
 
 Le SeedSigner est conçu pour être 100 % ***air-gapped*** : il ne se connecte jamais à Internet, ne possède pas de Wi-Fi ni de Bluetooth (dans le cas du Raspberry Pi Zero v1.3) et n’est jamais branché à un ordinateur pour échanger des données. La communication se fait exclusivement via un système d’échange de QR codes. Concrètement, votre logiciel de gestion de portefeuille (comme Sparrow Wallet par exemple) affiche la transaction à signer sous forme de QR codes ; vous les scannez avec la caméra du SeedSigner, puis l’appareil signe la transaction en utilisant vos clés privées stockées temporairement dans sa mémoire vive. Enfin, il génère à son tour des QR codes contenant la transaction signée que vous scannez avec votre logiciel pour l’envoyer sur le réseau Bitcoin.
 
-001
+![Image](assets/fr/001.webp)
 
 Le SeedSigner est également ***stateless***. Autrement dit, il n’enregistre pas votre seed ni vos clés privées de manière permanente, contrairement à d’autres hardware wallets. À chaque redémarrage, sa mémoire est totalement vide, sauf si vous configurez l’appareil pour sauvegarder vos paramètres sur une carte microSD. Vous devez donc réintroduire votre seed à chaque utilisation, la méthode la plus pratique consistant à la conserver sous forme de QR code, à scanner au démarrage grâce à la caméra du SeedSigner. Ce mode de fonctionnement réduit considérablement la surface d’attaque : même si un voleur s’empare de votre appareil, il n’y trouvera aucune information, puisqu’il est toujours vide par défaut.
 
@@ -31,29 +31,29 @@ Pour construire votre SeedSigner, vous aurez besoin des composants suivants :
 	- Attention : certains modèles de Raspberry Pi Zero sont vendus sans broches GPIO présoudées. Vous pouvez soit acheter directement une version avec broches intégrées (solution la plus simple), soit acheter les broches séparément et les souder vous-même (solution plus complexe).
 	- Pensez également à prévoir une alimentation en micro-USB.
 
-002
+![Image](assets/fr/002.webp)
 
 - **Écran Waveshare 1.3" (240×240 px)**
     - Choisissez impérativement ce modèle précis : d’autres écrans similaires existent, mais avec une résolution différente. Sans la définition 240×240 px, l’affichage sera inutilisable.
     - Cet écran intègre trois boutons ainsi qu’un mini-joystick servant d’interface utilisateur.
 
-003
+![Image](assets/fr/003.webp)
 
 - **Caméra compatible Raspberry Pi Zero**
     - Option 1 : la caméra standard avec une nappe dorée large (vérifiez bien la compatibilité avec votre boîtier).
-    - Option 2 : la caméra "Zero", plus compacte, conçue spécifiquement pour le Pi Zero.
+    - Option 2 : la caméra "*Zero*", plus compacte, conçue spécifiquement pour le Pi Zero.
 
-004
+![Image](assets/fr/004.webp)
 
 - **Carte microSD**
     - Capacité recommandée : entre 4 et 32 Go.
 
 - **Boîtier (optionnel mais recommandé)**
     - Protège le dispositif et facilite son utilisation.
-    - Le modèle le plus répandu est le "Orange Pill Case", dont [les fichiers STL open-source sont disponibles pour impression 3D](https://github.com/SeedSigner/seedsigner/tree/dev/enclosureshttps://github.com/SeedSigner/seedsigner/tree/dev/enclosures).
+    - Le modèle le plus répandu est le "*Orange Pill Case*", dont [les fichiers STL open-source sont disponibles pour impression 3D](https://github.com/SeedSigner/seedsigner/tree/dev/enclosureshttps://github.com/SeedSigner/seedsigner/tree/dev/enclosures).
     - Vous pouvez également vous procurer des boîtiers auprès [de revendeurs indépendants liés au projet](https://seedsigner.com/hardware/).
 
-005
+![Image](assets/fr/005.webp)
 
 Vous pouvez acheter ces composants séparément ou, pour plus de simplicité, opter pour des packs tout prêts qui regroupent l’ensemble du matériel nécessaire. Personnellement, j’ai commandé mon pack [sur ce site français](https://bitcoinbazar.fr/), mais vous trouverez également une liste de vendeurs pour chaque région du monde sur [la page hardware du projet SeedSigner](https://seedsigner.com/hardware/). Si vous préférez acquérir les composants individuellement, ils sont disponibles sur les grandes plateformes de e-commerce ou dans des boutiques spécialisées.
 
@@ -68,7 +68,7 @@ Rendez-vous sur [le dépôt GitHub officiel du projet](https://github.com/SeedSi
 - Le fichier `.sha256.txt`.
 - Le fichier `.sha256.txt.sig`.
 
-006
+![Image](assets/fr/006.webp)
 
 Avant de commencer l'installation, nous allons vérifier le logiciel.
 
@@ -80,7 +80,7 @@ Commencez par importer la clé publique officielle du projet SeedSigner directem
 gpg --fetch-keys https://keybase.io/seedsigner/pgp_keys.asc
 ```
 
-007
+![Image](assets/fr/007.webp)
 
 Le terminal doit vous indiquer qu’une clé a bien été importée ou mise à jour. Ensuite, exécutez la commande de vérification sur le fichier de signature (pensez à modifier la commande en fonction de votre version, ici `0.8.6.`) :
 
@@ -88,7 +88,7 @@ Le terminal doit vous indiquer qu’une clé a bien été importée ou mise à j
 gpg --verify seedsigner.0.8.6.sha256.txt.sig
 ```
 
-008
+![Image](assets/fr/008.webp)
 
 Si tout est correct, la sortie doit afficher `Good signature`. Cela signifie que le fichier `.sha256.txt` a été signé par la clé que vous venez d’importer et que la signature est valide. Ignorez le message d’avertissement du type `WARNING: This key is not certified with a trusted signature` : il est normal, puisqu’il vous appartient maintenant de vérifier que la clé utilisée appartient bien au projet SeedSigner.
 
@@ -100,7 +100,7 @@ Lorsque la clé a été validée, vous pouvez vérifier que l’image téléchar
 shasum -a 256 --ignore-missing --check seedsigner.0.8.6.sha256.txt
 ```
 
-009
+![Image](assets/fr/009.webp)
 
 - Sous Linux, cette commande est intégrée.
 - Sous macOS, attention : les versions antérieures à `Big Sur (11)` ne reconnaissent pas l’option `--ignore-missing`. Dans ce cas, retirez-la et ignorez les avertissements concernant les fichiers manquants.
@@ -115,7 +115,7 @@ Sous Windows, la procédure est similaire mais les commandes sont différentes. 
 https://keybase.io/seedsigner/pgp_keys.asc
 ```
 
-010
+![Image](assets/fr/010.webp)
 
 Ensuite, ouvrez PowerShell dans le dossier où se trouvent vos fichiers téléchargés (`Shift` + clic droit > `Open PowerShell here`). Lancez la commande suivante pour vérifier la signature du manifeste (pensez à modifier la commande en fonction de votre version, ici `0.8.6.`) :
 
@@ -123,7 +123,7 @@ Ensuite, ouvrez PowerShell dans le dossier où se trouvent vos fichiers téléch
 gpg --verify seedsigner.0.8.6.sha256.txt.sig
 ```
 
-011
+![Image](assets/fr/011.webp)
 
 Si tout est correct, la sortie doit afficher `Good signature`. Cela signifie que le fichier `.sha256.txt` a été signé par la clé que vous venez d’importer et que la signature est valide. Ignorez le message d’avertissement du type `WARNING: This key is not certified with a trusted signature` : il est normal, puisqu’il vous appartient maintenant de vérifier que la clé utilisée appartient bien au projet SeedSigner.
 
@@ -141,13 +141,13 @@ Exemple pour un Raspberry Pi Zero 2 (pensez à modifier la commande en fonction 
 CertUtil -hashfile seedsigner_os.0.8.6.pi02w.img SHA256
 ```
 
-012
+![Image](assets/fr/012.webp)
 
 PowerShell calcule alors le hash SHA256 de votre fichier image. Comparez ce hash à la valeur correspondante contenue dans `seedsigner.0.8.6.sha256.txt`.
 - Si les deux valeurs sont strictement identiques, la vérification est réussie et vous pouvez continuer.
 - Si elles diffèrent, cela signifie que le fichier est corrompu ou altéré. Ne l’utilisez pas et recommencez le téléchargement.
 
-013
+![Image](assets/fr/013.webp)
 
 Une vérification réussie garantit que votre fichier `.img` est à la fois authentique (signé par SeedSigner) et intègre (non modifié). Vous pouvez alors passer à l’étape suivante en toute sécurité.
 
@@ -160,7 +160,7 @@ Si vous ne l'avez pas encore, téléchargez le logiciel [Balena Etcher](https://
 - Choisissez la carte microSD comme cible.
 - Cliquez sur `Flash!`.
 
-014
+![Image](assets/fr/014.webp)
 
 Patientez jusqu’à la fin du processus : votre microSD est prête à l’emploi. Nous pouvons maintenant passer à l'assemblage !
 
@@ -179,15 +179,15 @@ Avant toute chose, ouvrez votre boîtier. Vérifiez qu’il est propre et qu’a
 
 Repérez sur le Raspberry Pi Zero le connecteur de la nappe de la caméra : c’est une fine barrette noire située sur le côté de la carte, pouvant se soulever légèrement pour s’ouvrir. Relevez-la avec précaution, sans forcer : elle doit simplement basculer de quelques millimètres.
 
-015
+![Image](assets/fr/015.webp)
 
 Insérez la nappe de la caméra. La partie marron/cuivrée doit être orientée vers le bas. Assurez-vous qu’elle est bien enfoncée dans le connecteur, sans torsion.
 
-016
+![Image](assets/fr/016.webp)
 
 Refermez la barrette noire pour verrouiller la nappe (vous sentirez un léger clic). Vérifiez doucement qu’elle tient et ne bouge pas.
 
-017
+![Image](assets/fr/017.webp)
 
 Placez ensuite le module caméra dans l’orifice prévu du boîtier. Selon le modèle, il peut s’emboîter directement ou nécessiter un petit adhésif pour le maintenir. L’objectif doit être parfaitement aligné face à l’extérieur.
 
@@ -197,7 +197,7 @@ Si vous utilisez un boîtier, insérez la carte Raspberry Pi Zero à l’intéri
 
 Positionnez ensuite l’écran Waveshare au-dessus du Raspberry Pi Zero. Les broches GPIO du Pi doivent s’aligner parfaitement avec le connecteur femelle de l’écran. Enfoncez lentement l’écran sur les broches, en exerçant une pression uniforme de chaque côté afin d’éviter de les tordre.
 
-018
+![Image](assets/fr/018.webp)
 
 Si vous avez un boîtier, terminez le montage en ajoutant la face avant et le joystick.
 
@@ -207,27 +207,27 @@ Enfin, insérez la carte microSD contenant le logiciel flashé dans le lecteur d
 
 Branchez un câble d’alimentation micro-USB sur le port dédié. Patientez environ une minute. Le logo SeedSigner devrait apparaître, suivi de l’écran d’accueil.
 
-019
+![Image](assets/fr/019.webp)
 
 Pour commencer, vérifiez le bon fonctionnement des différents éléments en vous rendant dans le menu `Settings > I/O test`.
 
-020
+![Image](assets/fr/020.webp)
 
 Testez tous les boutons et assurez-vous qu’ils répondent correctement. Cliquez ensuite sur le bouton `KEY1` pour vérifier que la caméra fonctionne comme prévu. Cela va prendre une photo.
 
-021
+![Image](assets/fr/021.webp)
 
 ### 3.5 Ajustement de la caméra
 
 Selon la manière dont vous avez monté votre SeedSigner, il se peut que la caméra affiche une image inversée. Pour corriger cela, rendez-vous dans `Settings > Advanced > Camera rotation` et sélectionnez une rotation de 180° si nécessaire.
 
-022
+![Image](assets/fr/022.webp)
 
 Si vous avez modifié l’orientation de la caméra ou souhaitez ultérieurement changer d’autres paramètres (comme la langue de l’interface), il faut activer la persistance des paramètres sur la microSD. Sinon, vos réglages reviendront par défaut à chaque redémarrage, car le Raspberry Pi Zero ne dispose pas de mémoire persistante.
 
 Pour cela, ouvrez le menu `Settings > Persistent settings`, puis sélectionnez `Enabled`.
 
-023
+![Image](assets/fr/023.webp)
 
 Si tout est fonctionnel, votre SeedSigner est désormais prêt à être utilisé !
 
@@ -239,13 +239,13 @@ Avant de créer votre portefeuille Bitcoin, nous allons configurer le SeedSigner
 
 Démarrez votre SeedSigner et attendez l’apparition de l’écran d’accueil. À l’aide du joystick, naviguez jusqu’à l’option `Settings`, puis validez en appuyant sur le bouton central. Vous entrez alors dans le menu principal des paramètres.
 
-024
+![Image](assets/fr/024.webp)
 
 ### 4.2 Choisir le logiciel de gestion de portefeuille
 
 Accédez ensuite au menu `Coordinator software`.
 
-025
+![Image](assets/fr/025.webp)
 
 Le `Coordinator` désigne le logiciel de gestion de portefeuille avec lequel votre SeedSigner communiquera via des QR codes. Ce logiciel est installé soit sur votre ordinateur, soit sur votre smartphone. C’est lui qui vous permettra de gérer vos bitcoins, mais sans jamais avoir accès à vos clés privées. Le SeedSigner reste le seul appareil capable de signer vos transactions.
 
@@ -257,7 +257,7 @@ https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7
 
 Sélectionnez simplement le logiciel de votre choix dans le menu.
 
-026
+![Image](assets/fr/026.webp)
 
 ### 4.3 Unités et affichage des montants
 
@@ -268,7 +268,7 @@ Dans le menu `Denomination Display`, vous pouvez choisir l’unité d’affichag
 
 L’unité en **sats** est généralement la plus pratique pour les petites sommes.
 
-027
+![Image](assets/fr/027.webp)
 
 ### 4.4 Réglages avancés
 
@@ -282,7 +282,7 @@ Rendez-vous maintenant dans le menu `Advanced`. Vous y trouverez plusieurs optio
 
 Enfin, dans le menu `Language`, vous pouvez modifier la langue de l’interface selon votre préférence.
 
-028
+![Image](assets/fr/028.webp)
 
 ## 5. Création et sauvegarde de la seed
 
@@ -299,7 +299,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 Depuis l’écran d’accueil du SeedSigner, rendez-vous dans le menu `Tools`.
 
-029
+![Image](assets/fr/029.webp)
 
 Vous allez maintenant générer votre seed. Une seed est simplement un grand nombre aléatoire. Plus elle est générée de manière aléatoire, plus elle est sécurisée. Le SeedSigner propose deux méthodes pour cela :
 - `Camera` : la seed est générée à partir du bruit visuel d’une photo. Vous prenez une image d’un environnement aléatoire (objet, paysage, visage, etc.) dont les variations de pixels serviront à produire l’entropie. C'est une méthode rapide, mais non reproductible.  
@@ -315,15 +315,15 @@ Si vous choisissez la méthode de la photo, cliquez sur `New seed` (avec l'icôn
 
 Dans ce tutoriel, nous utilisons la méthode **Dice Rolls**. Cliquez sur `New seed` (avec l'icône de dés).
 
-030
+![Image](assets/fr/030.webp)
 
 Choisissez ensuite la longueur de votre phrase mnémonique. 12 mots offrent déjà un niveau de sécurité suffisant, c’est donc le choix que je recommande.
 
-031
+![Image](assets/fr/031.webp)
 
 Lancez vos dés et saisissez les chiffres obtenus à l’aide du curseur. Appuyez au centre pour valider chaque entrée. En cas d’erreur, vous pouvez revenir en arrière. Utilisez plusieurs dés différents pour réduire l'influence d’un éventuel dé déséquilibré. Veillez également à ne pas être observé pendant cette opération.
 
-032
+![Image](assets/fr/032.webp)
 
 Une fois vos 50 lancers saisis, le SeedSigner génère votre phrase. **Suivez attentivement les instructions de ce tutoriel si vous débutez :**
 
@@ -333,27 +333,27 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 Notez soigneusement les mots de votre phrase mnémonique sur un support physique adapté (papier ou métal).
 
-033
+![Image](assets/fr/033.webp)
 
 ### 5.5 Vérification du backup
 
 Pour éviter toute erreur de sauvegarde, le SeedSigner vous demande de vérifier votre sauvegarde. Cliquez sur `Verify`.
 
-034
+![Image](assets/fr/034.webp)
 
 Saisissez ensuite le mot demandé selon son ordre dans la phrase. Par exemple, ici, je dois choisir le troisième mot de ma phrase.
 
-035
+![Image](assets/fr/035.webp)
 
 En cas d’erreur, le SeedSigner vous en informera, et vous devrez recommencer en veillant à bien noter votre phrase mnémonique lorsqu'elle vous est donnée. Cette étape de vérification garantit que votre sauvegarde est correcte et complète. Une fois validée, l’écran affichera `Backup Verified`.
 
-036
+![Image](assets/fr/036.webp)
 
 Pour un test de restauration plus complet, suivez ce tutoriel :
 
 https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
-### 5.6 Comprendre la notion de "stateless device"
+### 5.6 Comprendre la notion de "*stateless device*"
 
 Le SeedSigner est un appareil sans mémoire permanente. Cela signifie que votre seed n’est jamais enregistrée à l’intérieur de l’appareil (contrairement à une Ledger, une Trezor ou une Coldcard, par exemple). Dès que vous coupez son alimentation, la seed disparaît totalement de sa mémoire vive. Au redémarrage, le SeedSigner revient à un état vierge : vous devrez alors lui redonner votre seed pour qu’il puisse signer vos transactions.
 
@@ -372,7 +372,7 @@ https://planb.network/tutorials/wallet/hardware/seedkeeper-seedsigner-45cca4c4-1
 
 Une fois la vérification terminée, le SeedSigner affiche l’empreinte de la clé maîtresse de votre portefeuille. Cette empreinte permet d’identifier votre portefeuille et de vous assurer, à l’avenir, que vous utilisez bien la bonne phrase de récupération. Elle ne révèle aucune information sur vos clés privées, vous pouvez donc la conserver sans risque sur un support numérique. Veillez simplement à en garder une copie accessible et à ne jamais la perdre.
 
-037
+![Image](assets/fr/037.webp)
 
 C’est également à ce stade que vous pouvez ajouter une **passphrase BIP39** pour renforcer la sécurité de votre portefeuille. Cette option peut être intéressante selon votre stratégie de sauvegarde, mais elle comporte aussi des risques : si vous perdez la passphrase, l’accès à vos bitcoins sera définitivement perdu.
 
@@ -380,7 +380,7 @@ Si vous n’êtes pas encore familier avec ce concept de passphrase, je vous inv
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
-038
+![Image](assets/fr/038.webp)
 
 ### 5.8 Sauvegarde de la seed au format QR (*SeedQR*)
 
@@ -394,19 +394,19 @@ Pour cela, munissez-vous d’un QR code vierge, en papier ou en métal, correspo
 
 Depuis l’écran de votre seed, sélectionnez `Backup Seed`.
 
-039
+![Image](assets/fr/039.webp)
 
 Puis choisissez `Export as SeedQR`.
 
-040
+![Image](assets/fr/040.webp)
 
 Sélectionnez ensuite le format souhaité (normal ou compact) selon le template papier dont vous disposez.
 
-041
+![Image](assets/fr/041.webp)
 
 Cliquez sur `Begin` pour démarrer la création du *SeedQR*. Le SeedSigner affichera alors une série de grilles (A1, A2, B1, etc.), correspondant chacune à une portion du code.
 
-042
+![Image](assets/fr/042.webp)
 
 Reproduisez soigneusement chaque point noir sur votre feuille de sauvegarde, puis utilisez le joystick pour passer au bloc suivant. Prenez votre temps : une simple erreur d’alignement peut rendre le QR code inutilisable.
 
@@ -414,15 +414,15 @@ Quelques conseils :
 - Commencez au crayon pour pouvoir corriger en cas d’erreur, puis repassez avec un stylo noir fin une fois terminé ;
 - Un point bien centré au milieu du carré suffit, nul besoin de le remplir entièrement.
 
-043
+![Image](assets/fr/043.webp)
 
 Cliquez ensuite sur `Confirm SeedQR`, puis scannez votre QR code pour vérifier qu’il fonctionne correctement.
 
-044
+![Image](assets/fr/044.webp)
 
 Si le message `Success` s’affiche, votre *SeedQR* est valide : vous pouvez passer à l’étape suivante.
 
-045
+![Image](assets/fr/045.webp)
 
 **Conservez cette feuille avec la même rigueur que votre phrase de récupération. Toute personne en possession de ce QR code peut reconstituer vos clés privées et voler vos bitcoins.**
 
@@ -436,23 +436,23 @@ Une fois votre SeedSigner configuré et votre seed correctement générée et sa
 
 Insérez la microSD contenant le système d’exploitation, allumez votre SeedSigner, puis chargez la seed que vous venez de créer à partir de votre QR code de sauvegarde. Sur l’écran d’accueil, sélectionnez `Scan`, puis scannez votre SeedQR avec le SeedSigner.
 
-046
+![Image](assets/fr/046.webp)
 
 Vérifiez que l’empreinte de votre clé maîtresse correspond bien à celle de votre portefeuille. Si vous utilisez une passphrase, saisissez-la à cette étape.
 
-047
+![Image](assets/fr/047.webp)
 
 Vous accédez ensuite au menu de votre portefeuille, dans mon cas nommé `d4149b27`. Si vous êtes revenu à l’écran d’accueil, sélectionnez `Seeds`, puis choisissez l’empreinte correspondant à votre portefeuille. Cliquez ensuite sur `Export Xpub`.
 
-048
+![Image](assets/fr/048.webp)
 
 Choisissez le type de portefeuille. Dans notre cas, il s’agit d’un portefeuille simple : sélectionnez donc `Single Sig`.
 
-049
+![Image](assets/fr/049.webp)
 
 Vient ensuite le choix du standard de script. Le plus récent et le plus économique en frais de transaction est `Taproot`. Je vous conseille donc de sélectionner ce standard.
 
-050
+![Image](assets/fr/050.webp)
 
 Un message d’avertissement apparaîtra. C’est normal : cette clé publique étendue (`xpub`) permet de visualiser toutes les adresses dérivées de votre seed (sur le premier compte). Elle ne permet pas de dépenser vos fonds, mais elle révèle la structure de votre portefeuille. Si jamais elle fuite, c'est un problème pour votre vie privée, mais pour la sécurité de vos bitcoins : elle permet de les voir, mais pas de les dépenser.
 
@@ -460,7 +460,7 @@ Cliquez sur `I Understand`, puis sur `Export Xpub` si les informations affichée
 
 Le SeedSigner génère alors votre xpub sous la forme d’un QR code dynamique contenant toutes les données nécessaires à la gestion de votre portefeuille dans Sparrow Wallet.
 
-051
+![Image](assets/fr/051.webp)
 
 Vous pouvez ajuster la luminosité de l’écran à l’aide du joystick pour faciliter le scan du QR code.
 
@@ -472,21 +472,21 @@ https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7
 
 Sur votre ordinateur, ouvrez Sparrow Wallet, puis dans la barre de menu, cliquez sur `File → Import Wallet`.
 
-052
+![Image](assets/fr/052.webp)
 
 Faites défiler jusqu’à l’option `SeedSigner`, puis sélectionnez `Scan...`. Votre webcam s’ouvrira : scannez alors le QR code dynamique affiché sur l’écran de votre SeedSigner.
 
-053
+![Image](assets/fr/053.webp)
 
 Attribuez un nom à votre portefeuille, puis cliquez sur `Create Wallet`. Sparrow vous demandera ensuite de définir un mot de passe pour verrouiller l’accès local à ce portefeuille. Choisissez un mot de passe fort : il protège l’accès aux données de votre portefeuille dans Sparrow (clés publiques, adresses, labels et historique des transactions). Ce mot de passe n’est pas nécessaire pour restaurer le portefeuille ultérieurement : seule votre phrase mnémonique (et éventuellement votre passphrase) est requise à cet effet.
 
 Je vous recommande de sauvegarder ce mot de passe dans un gestionnaire de mots de passe afin d’éviter de le perdre.
 
-054
+![Image](assets/fr/054.webp)
 
 Votre keystore est désormais importé avec succès.
 
-055
+![Image](assets/fr/055.webp)
 
 Vérifiez ensuite la correspondance entre la `Master fingerprint` affichée dans Sparrow et celle notée précédemment depuis votre SeedSigner.
 
@@ -502,7 +502,7 @@ Votre SeedSigner et Sparrow Wallet sont désormais configurés pour fonctionner 
 
 Sur votre ordinateur, ouvrez Sparrow Wallet et déverrouillez votre portefeuille SeedSigner à l’aide de votre mot de passe. Assurez-vous que le logiciel soit bien connecté à un serveur (encoche en bas à droite). Dans la barre latérale, cliquez sur `Receive`.
 
-056
+![Image](assets/fr/056.webp)
 
 Une nouvelle adresse Bitcoin s’affiche. Vous verrez :
 * L’adresse textuelle (commençant par `bc1p…` si vous utilisez P2TR comme moi),
@@ -523,7 +523,7 @@ Label : Sale of the Raspberry Pi Zero
 
 Votre adresse est désormais associée à ce label dans toutes les sections de Sparrow.
 
-057
+![Image](assets/fr/057.webp)
 
 #### 7.1.2 Vérification de l’adresse sur le SeedSigner
 
@@ -531,15 +531,15 @@ Avant de partager votre adresse de réception, il est très important de vérifi
 
 Sur Sparrow, cliquez sur le QR code de l’adresse pour l’agrandir : il s’affichera alors en plein écran.
 
-058
+![Image](assets/fr/058.webp)
 
 Sur votre SeedSigner, depuis le menu principal, sélectionnez `Scan`. Scannez le QR code affiché sur l’écran de votre ordinateur, puis choisissez la seed correspondant à votre portefeuille (dans mon cas, l’empreinte `d4149b27`).
 
-059
+![Image](assets/fr/059.webp)
 
 Si l’adresse scannée correspond bien à celle dérivée de votre seed, l’écran du SeedSigner affichera le message : `Address Verified`.
 
-060
+![Image](assets/fr/060.webp)
 
 Cela confirme que l’adresse appartient bien à votre portefeuille et que vous pouvez y recevoir des bitcoins en toute confiance.
 
@@ -547,7 +547,7 @@ Cela confirme que l’adresse appartient bien à votre portefeuille et que vous 
 
 Vous pouvez maintenant communiquer cette adresse (sous forme de texte ou de QR code) à la personne ou au service qui doit vous envoyer des sats. Une fois la transaction diffusée sur le réseau, elle apparaîtra dans l’onglet `Transactions` de Sparrow Wallet.
 
-061
+![Image](assets/fr/061.webp)
 
 ### 7.2 Envoyer des bitcoins
 
@@ -560,11 +560,11 @@ L’ensemble des échanges entre les deux appareils se fait exclusivement à l�
 
 #### 7.2.1 Créer la transaction dans Sparrow
 
-Dans Sparrow Wallet, vous pouvez cliquer sur l’onglet `Send` dans la barre latérale gauche. Toutefois, je préfère passer par l’onglet `UTXOs`, qui permet de pratiquer le "Coin Control". Cette méthode vous offre un contrôle précis sur les UTXOs utilisés, afin de maîtriser les informations que vous révélez lors de la transaction.
+Dans Sparrow Wallet, vous pouvez cliquer sur l’onglet `Send` dans la barre latérale gauche. Toutefois, je préfère passer par l’onglet `UTXOs`, qui permet de pratiquer le "*Coin Control*". Cette méthode vous offre un contrôle précis sur les UTXOs utilisés, afin de maîtriser les informations que vous révélez lors de la transaction.
 
 Dans l’onglet `UTXOs`, sélectionnez les pièces que vous souhaitez dépenser, puis cliquez sur `Send Selected`.
 
-062
+![Image](assets/fr/062.webp)
 
 Remplissez ensuite les champs de votre transaction :
 - Dans `Pay to`, collez l’adresse du destinataire ou cliquez sur l’icône d’appareil photo pour scanner son QR code ;
@@ -574,25 +574,25 @@ Remplissez ensuite les champs de votre transaction :
 
 Une fois les champs complétés, vérifiez attentivement les informations, puis cliquez sur `Create Transaction >>`.
 
-063
+![Image](assets/fr/063.webp)
 
 Vérifiez les détails de la transaction pour vous assurer que tout est correct, puis cliquez sur `Finalize Transaction for Signing`.
 
-064
+![Image](assets/fr/064.webp)
 
 La transaction est désormais prête mais encore non signée. Pour afficher la [PSBT (*Partially Signed Bitcoin Transaction*)](https://planb.academy/en/resources/glossary/psbt) sous forme de QR code, cliquez sur `Show QR`.
 
-065
+![Image](assets/fr/065.webp)
 
 #### 7.2.2 Signer la transaction avec le SeedSigner
 
 Allumez votre SeedSigner et scannez votre SeedQR pour accéder à votre portefeuille, comme d'habitude. Depuis l’écran d’accueil, sélectionnez `Scan`, puis scannez le QR code affiché sur Sparrow.
 
-066
+![Image](assets/fr/066.webp)
 
 Choisissez ensuite la seed correspondant à votre portefeuille.
 
-067
+![Image](assets/fr/067.webp)
 
 Le SeedSigner détecte automatiquement qu’il s’agit d’une PSBT et affiche un résumé de la transaction :
    * Le montant envoyé,
@@ -601,15 +601,15 @@ Le SeedSigner détecte automatiquement qu’il s’agit d’une PSBT et affiche 
 
 Cliquez sur `Review Details` et vérifiez attentivement toutes les informations directement sur l’écran du SeedSigner. Les éléments les plus importants à contrôler sont le montant envoyé, l’adresse du destinataire et le montant des frais appliqués.
 
-068
+![Image](assets/fr/068.webp)
 
 Si tout est correct, sélectionnez `Approve PSBT` pour signer la transaction à l’aide de la ou des clés privées correspondantes.
 
-069
+![Image](assets/fr/069.webp)
 
 Une fois la signature effectuée, le SeedSigner génère un nouveau QR code contenant la transaction signée, prêt à être scanné par Sparrow.
 
-070
+![Image](assets/fr/070.webp)
 
 #### 7.2.3 Diffuser la transaction depuis Sparrow
 
@@ -617,15 +617,15 @@ Maintenant que la transaction est valide, il va falloir la diffuser sur le rése
 
 Sur Sparrow, cliquez sur `Scan QR`.
 
-071
+![Image](assets/fr/071.webp)
 
 Présentez à la webcam le QR code affiché par votre SeedSigner (celui de la transaction signée). Sparrow va décoder la signature et afficher les détails complets de la transaction. Vérifiez une dernière fois l’exactitude de toutes les informations, puis cliquez sur `Broadcast Transaction` pour la diffuser sur le réseau Bitcoin.
 
-072
+![Image](assets/fr/072.webp)
 
 Votre transaction est maintenant envoyée sur le réseau Bitcoin. Vous pouvez suivre son évolution dans l’onglet `Transactions` de Sparrow Wallet.
 
-073
+![Image](assets/fr/073.webp)
 
 Vous maîtrisez désormais les bases de l’utilisation du SeedSigner. Pour approfondir vos connaissances et explorer des usages plus avancés, je vous invite à consulter le tutoriel suivant :
 

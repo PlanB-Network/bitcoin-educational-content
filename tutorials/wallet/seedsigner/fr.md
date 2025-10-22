@@ -428,29 +428,209 @@ Si le message `Success` s’affiche, votre *SeedQR* est valide : vous pouvez pas
 
 Félicitations, votre portefeuille Bitcoin est désormais créé et entièrement fonctionnel ! Nous allons à présent importer ses composantes publiques dans **Sparrow Wallet** afin de le gérer facilement.
 
+## 6. Importer le wallet dans Sparrow
 
+Une fois votre SeedSigner configuré et votre seed correctement générée et sauvegardée, l’étape suivante consiste à relier ce portefeuille à un logiciel de gestion comme Sparrow Wallet. Votre seed restera toujours hors ligne, car seule la partie publique de votre portefeuille sera transmise à Sparrow. Cela permettra au logiciel d’afficher vos adresses, vos transactions et de construire de nouvelles transactions, sans jamais pouvoir dépenser vos bitcoins. Pour effectuer une dépense, il faudra donc toujours que votre SeedSigner signe la transaction préparée par Sparrow.
 
+### 6.1 Préparation du SeedSigner
 
+Insérez la microSD contenant le système d’exploitation, allumez votre SeedSigner, puis chargez la seed que vous venez de créer à partir de votre QR code de sauvegarde. Sur l’écran d’accueil, sélectionnez `Scan`, puis scannez votre SeedQR avec le SeedSigner.
 
+046
 
+Vérifiez que l’empreinte de votre clé maîtresse correspond bien à celle de votre portefeuille. Si vous utilisez une passphrase, saisissez-la à cette étape.
 
+047
 
+Vous accédez ensuite au menu de votre portefeuille, dans mon cas nommé `d4149b27`. Si vous êtes revenu à l’écran d’accueil, sélectionnez `Seeds`, puis choisissez l’empreinte correspondant à votre portefeuille. Cliquez ensuite sur `Export Xpub`.
 
+048
 
+Choisissez le type de portefeuille. Dans notre cas, il s’agit d’un portefeuille simple : sélectionnez donc `Single Sig`.
 
+049
 
+Vient ensuite le choix du standard de script. Le plus récent et le plus économique en frais de transaction est `Taproot`. Je vous conseille donc de sélectionner ce standard.
 
+050
 
+Un message d’avertissement apparaîtra. C’est normal : cette clé publique étendue (`xpub`) permet de visualiser toutes les adresses dérivées de votre seed (sur le premier compte). Elle ne permet pas de dépenser vos fonds, mais elle révèle la structure de votre portefeuille. Si jamais elle fuite, c'est un problème pour votre vie privée, mais pour la sécurité de vos bitcoins : elle permet de les voir, mais pas de les dépenser.
 
+Cliquez sur `I Understand`, puis sur `Export Xpub` si les informations affichées vous conviennent.
 
+Le SeedSigner génère alors votre xpub sous la forme d’un QR code dynamique contenant toutes les données nécessaires à la gestion de votre portefeuille dans Sparrow Wallet.
 
+051
 
+Vous pouvez ajuster la luminosité de l’écran à l’aide du joystick pour faciliter le scan du QR code.
 
+### 6.2 Importer un nouveau portefeuille dans Sparrow Wallet
 
+Assurez-vous d’avoir le logiciel Sparrow Wallet installé sur votre ordinateur. Si vous ne savez pas comment le télécharger, le vérifier et l’installer correctement, consultez notre tutoriel complet à ce sujet :
 
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
+Sur votre ordinateur, ouvrez Sparrow Wallet, puis dans la barre de menu, cliquez sur `File → Import Wallet`.
 
+052
 
-**[Vous pouvez soutenir le développement du projet open-source SeedSigner en effectuant un don en bitcoins !](https://seedsigner.com/donate/)**
+Faites défiler jusqu’à l’option `SeedSigner`, puis sélectionnez `Scan...`. Votre webcam s’ouvrira : scannez alors le QR code dynamique affiché sur l’écran de votre SeedSigner.
+
+053
+
+Attribuez un nom à votre portefeuille, puis cliquez sur `Create Wallet`. Sparrow vous demandera ensuite de définir un mot de passe pour verrouiller l’accès local à ce portefeuille. Choisissez un mot de passe fort : il protège l’accès aux données de votre portefeuille dans Sparrow (clés publiques, adresses, labels et historique des transactions). Ce mot de passe n’est pas nécessaire pour restaurer le portefeuille ultérieurement : seule votre phrase mnémonique (et éventuellement votre passphrase) est requise à cet effet.
+
+Je vous recommande de sauvegarder ce mot de passe dans un gestionnaire de mots de passe afin d’éviter de le perdre.
+
+054
+
+Votre keystore est désormais importé avec succès.
+
+055
+
+Vérifiez ensuite la correspondance entre la `Master fingerprint` affichée dans Sparrow et celle notée précédemment depuis votre SeedSigner.
+
+Votre SeedSigner et Sparrow Wallet sont maintenant reliés de manière sécurisée. Sparrow agit comme une interface de gestion complète, tandis que le SeedSigner reste le seul appareil capable de signer vos transactions. Vous êtes désormais prêt à recevoir et envoyer des bitcoins dans une configuration totalement air-gapped.
+
+## 7. Recevoir et envoyer des bitcoins
+
+Votre SeedSigner et Sparrow Wallet sont désormais configurés pour fonctionner ensemble. Dans cette dernière partie, voyons concrètement comment recevoir puis envoyer des bitcoins à l’aide de cette configuration.
+
+### 7.1 Recevoir des bitcoins
+
+#### 7.1.1 Génération d’une adresse de réception
+
+Sur votre ordinateur, ouvrez Sparrow Wallet et déverrouillez votre portefeuille SeedSigner à l’aide de votre mot de passe. Assurez-vous que le logiciel soit bien connecté à un serveur (encoche en bas à droite). Dans la barre latérale, cliquez sur `Receive`.
+
+056
+
+Une nouvelle adresse Bitcoin s’affiche. Vous verrez :
+* L’adresse textuelle (commençant par `bc1p…` si vous utilisez P2TR comme moi),
+* Le QR code correspondant,
+* Un champ `Label` destiné à la traçabilité de vos transactions.
+
+Je vous recommande vivement d’ajouter un label à chaque réception de bitcoins sur votre portefeuille. Cela vous permettra d’identifier facilement la provenance de chaque UTXO et d’améliorer votre gestion de la confidentialité. Pour approfondir ce sujet important, vous pouvez consulter la formation dédiée sur Plan ₿ Academy :
+
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+
+Pour ajouter un label, saisissez simplement un nom dans le champ `Label`, puis validez.
+
+Par exemple :
+
+```txt
+Label : Sale of the Raspberry Pi Zero
+```
+
+Votre adresse est désormais associée à ce label dans toutes les sections de Sparrow.
+
+057
+
+#### 7.1.2 Vérification de l’adresse sur le SeedSigner
+
+Avant de partager votre adresse de réception, il est très important de vérifier qu’elle appartient bien à votre seed. Cette étape garantit que votre SeedSigner pourra ensuite signer les transactions associées à cette adresse. Elle protège contre d’éventuelles attaques où Sparrow afficherait une adresse frauduleuse. Rappelez-vous que Sparrow fonctionne sur un environnement non sécurisé (votre ordinateur), qui dispose d'une surface d'attaque bien plus grande que votre SeedSigner, qui est totalement isolé. C'est pourquoi vous ne devriez jamais croire aveuglement les adresses de réception présentées sur Sparrow avant de les avoir vérifiées avec votre hardware wallet.
+
+Sur Sparrow, cliquez sur le QR code de l’adresse pour l’agrandir : il s’affichera alors en plein écran.
+
+058
+
+Sur votre SeedSigner, depuis le menu principal, sélectionnez `Scan`. Scannez le QR code affiché sur l’écran de votre ordinateur, puis choisissez la seed correspondant à votre portefeuille (dans mon cas, l’empreinte `d4149b27`).
+
+059
+
+Si l’adresse scannée correspond bien à celle dérivée de votre seed, l’écran du SeedSigner affichera le message : `Address Verified`.
+
+060
+
+Cela confirme que l’adresse appartient bien à votre portefeuille et que vous pouvez y recevoir des bitcoins en toute confiance.
+
+#### 7.1.3 Réception des fonds
+
+Vous pouvez maintenant communiquer cette adresse (sous forme de texte ou de QR code) à la personne ou au service qui doit vous envoyer des sats. Une fois la transaction diffusée sur le réseau, elle apparaîtra dans l’onglet `Transactions` de Sparrow Wallet.
+
+061
+
+### 7.2 Envoyer des bitcoins
+
+L’envoi de bitcoins avec un SeedSigner s’effectue en 3 étapes :
+- Création de la transaction dans Sparrow ;
+- Signature de la transaction sur le SeedSigner ;
+- Diffusion finale de la transaction via Sparrow.
+
+L’ensemble des échanges entre les deux appareils se fait exclusivement à l’aide de QR codes.
+
+#### 7.2.1 Créer la transaction dans Sparrow
+
+Dans Sparrow Wallet, vous pouvez cliquer sur l’onglet `Send` dans la barre latérale gauche. Toutefois, je préfère passer par l’onglet `UTXOs`, qui permet de pratiquer le "Coin Control". Cette méthode vous offre un contrôle précis sur les UTXOs utilisés, afin de maîtriser les informations que vous révélez lors de la transaction.
+
+Dans l’onglet `UTXOs`, sélectionnez les pièces que vous souhaitez dépenser, puis cliquez sur `Send Selected`.
+
+062
+
+Remplissez ensuite les champs de votre transaction :
+- Dans `Pay to`, collez l’adresse du destinataire ou cliquez sur l’icône d’appareil photo pour scanner son QR code ;
+- Dans `Label`, ajoutez une étiquette pour suivre de cette dépense ;
+- Dans `Amount`, indiquez le montant à envoyer ;
+- Sélectionnez enfin le taux de frais en fonction des conditions actuelles du marché (vous pouvez consulter les estimations sur [mempool.space](https://mempool.space/)).
+
+Une fois les champs complétés, vérifiez attentivement les informations, puis cliquez sur `Create Transaction >>`.
+
+063
+
+Vérifiez les détails de la transaction pour vous assurer que tout est correct, puis cliquez sur `Finalize Transaction for Signing`.
+
+064
+
+La transaction est désormais prête mais encore non signée. Pour afficher la [PSBT (*Partially Signed Bitcoin Transaction*)](https://planb.academy/en/resources/glossary/psbt) sous forme de QR code, cliquez sur `Show QR`.
+
+065
+
+#### 7.2.2 Signer la transaction avec le SeedSigner
+
+Allumez votre SeedSigner et scannez votre SeedQR pour accéder à votre portefeuille, comme d'habitude. Depuis l’écran d’accueil, sélectionnez `Scan`, puis scannez le QR code affiché sur Sparrow.
+
+066
+
+Choisissez ensuite la seed correspondant à votre portefeuille.
+
+067
+
+Le SeedSigner détecte automatiquement qu’il s’agit d’une PSBT et affiche un résumé de la transaction :
+   * Le montant envoyé,
+   * Les adresses de sortie,
+   * Les frais de transaction associés.
+
+Cliquez sur `Review Details` et vérifiez attentivement toutes les informations directement sur l’écran du SeedSigner. Les éléments les plus importants à contrôler sont le montant envoyé, l’adresse du destinataire et le montant des frais appliqués.
+
+068
+
+Si tout est correct, sélectionnez `Approve PSBT` pour signer la transaction à l’aide de la ou des clés privées correspondantes.
+
+069
+
+Une fois la signature effectuée, le SeedSigner génère un nouveau QR code contenant la transaction signée, prêt à être scanné par Sparrow.
+
+070
+
+#### 7.2.3 Diffuser la transaction depuis Sparrow
+
+Maintenant que la transaction est valide, il va falloir la diffuser sur le réseau Bitcoin, afin qu'elle atteigne un mineur qui l'ajoutera dans un bloc.
+
+Sur Sparrow, cliquez sur `Scan QR`.
+
+071
+
+Présentez à la webcam le QR code affiché par votre SeedSigner (celui de la transaction signée). Sparrow va décoder la signature et afficher les détails complets de la transaction. Vérifiez une dernière fois l’exactitude de toutes les informations, puis cliquez sur `Broadcast Transaction` pour la diffuser sur le réseau Bitcoin.
+
+072
+
+Votre transaction est maintenant envoyée sur le réseau Bitcoin. Vous pouvez suivre son évolution dans l’onglet `Transactions` de Sparrow Wallet.
+
+073
+
+Vous maîtrisez désormais les bases de l’utilisation du SeedSigner. Pour approfondir vos connaissances et explorer des usages plus avancés, je vous invite à consulter le tutoriel suivant :
+
+https://planb.academy/tutorials/wallet/hardware/seedkeeper-seedsigner-45cca4c4-1f22-46bb-87ae-9cddb68aa579
+
+**[Vous pouvez également soutenir le développement du projet open-source SeedSigner en effectuant un don en bitcoins !](https://seedsigner.com/donate/)**
 
 *Crédit : certaines images de ce tutoriel proviennent du [site officiel du projet SeedSigner](https://seedsigner.com/) et [du dépôt GitHub](https://github.com/SeedSigner/seedsigner).*

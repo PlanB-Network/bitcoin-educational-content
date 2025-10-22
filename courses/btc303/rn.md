@@ -112,7 +112,7 @@ Hariho imice ibiri ikomeye y’ukwegereza ubutegetsi mu Bitcoin: Ukwegereza ubut
 Miner decentralisation yerekeza ku kuba ugutunganya amafaranga bidakorwa canke ngo bihuzwe n’ikigo na kimwe co hagati. Full node decentralization yerekeza ku kuba kwemeza ama block, ni ukuvuga amakuru abacukuzi basohora, bikorwa ku mpera y’urubuga, amaherezo n’abarukoresha, atari n’ubutegetsi bukeyi bwizigiwe.
 
 
-![](assets/decentralization-banner.webp)
+![](assets/en/001.webp)
 
 
 ### Miner kwegereza ubutegetsi
@@ -276,7 +276,7 @@ Uko Bitcoin ikora biciye mu kwegereza ubutegetsi ubusa n’ubwenge budasanzwe bw
 Avuga ko uburyo bwinshi, bwaba ubw’akameremere canke ubw’abantu, bushobora kandi bukora ata barongozi, kandi bufise ububasha kandi bushobora guhangana n’ingorane. Umuntu wese akorana gusa n’ibimukikuje, ariko bose hamwe barahingura ikintu gikomeye cane.
 
 
-![](assets/fishschool.webp)
+![](assets/en/002.webp)
 
 *Amashure y'amafi nta barongozi afise*
 
@@ -302,7 +302,7 @@ Uburyo bwegerejwe bushobora kuba Hard kugira ngo uzingure umutwe wawe, ariko har
 
 
 
-![](assets/trustlessness-banner.webp)
+![](assets/en/003.webp)
 
 
 Iki gice kiracapura iciyumviro c’ukutagira icizigiro, ico bisobanura mu bijanye n’ubuhinga bwa mudasobwa, n’igituma Bitcoin itegerezwa kuba Trustless kugira ngo igumye ifise agaciro.
@@ -453,7 +453,7 @@ Hatariho ukwizigira, ntidushobora kugira decentralisation, kuko ukwizigira ata k
 
 
 
-![](assets/privacy-banner.webp)
+![](assets/en/004.webp)
 
 
 Iki gice kivuga ingene wozigama amakuru yawe y’ivy’amahera y’ibanga. Irasigura ico ubuzima bwite buhagaze mu bijanye na Bitcoin, igituma buhambaye, n’ico bisobanura kuvuga ko Bitcoin ari izina ry’uruyeri. Iraba kandi ingene amakuru y'ibanga ashobora gusohoka, On-Chain na off-chain.
@@ -533,7 +533,7 @@ Satoshi Nakamoto azirikana ku bijanye n’ubuzima bwite bwa On-Chain mu gice ca 
 Ico cegeranyo kiraca irya n’ino ingorane nyamukuru z’ubuzima bwite bwa Blockchain, ni ukuvuga gusubira gukoresha Address no gukoranya Address. Irya mbere ni iryo kwisigura, irya nyuma ryerekeza ku bushobozi bwo gufata ingingo, n’urugero runaka rw’ukudakeka, ko umugwi w’amaderesi atandukanye ari uw’uwukoresha umwe.
 
 
-![](assets/address-reuse-clustering.webp)
+![](assets/en/005.webp)
 
 
 Ivyerekeye ubuzima bwite busanzwe kuri Blockchain
@@ -673,7 +673,7 @@ Kugira ngo ubone ubuzima bwite bubereye muri Bitcoin, utegerezwa gufata ingingo 
 
 
 
-![](assets/finitesupply-banner.webp)
+![](assets/en/006.webp)
 
 
 Iki gice kiraba mu gipimo ca Bitcoin Supply c’amamiliyoni 21 ya BTC, canke ni angahe mu vy’ukuri? Turavuga ingene uwo mupaka ushirwa mu ngiro n’ico umuntu yokora kugira ngo asuzume ko uriko urubahirizwa. Ikindi kandi, turafata akajisho mu mupira w’amabuye y’agaciro maze tukaganira ku bijanye n’inguvu zizoza mu rukino igihe Block reward izova ku bijanye n’infashanyo ikaja ku bijanye n’amahera.
@@ -785,7 +785,7 @@ Nimba Bitcoin Supply izokura ikarenga miliyoni 21 ntidushobora kuvuga uno musi, 
 
 
 
-![](assets/upgrading-banner.webp)
+![](assets/en/007.webp)
 
 
 Guhindura Bitcoin mu buryo butekanye birashobora kuba bigoye cane. Hari amahinduka afata imyaka myinshi kugira ngo ashike. Muri iki gice, turiga ku majambo asanzwe akikuje guhindura Bitcoin, no gutohoza ingero zimwe zimwe z’uguhindura amateka ku bijanye n’imirongo ngenderwako yayo hamwe n’ubumenyi twaronse muri vyo. Ubwa nyuma, turavuga ibijanye n’ugucapura uruzitiro be n’ingaruka n’ibiciro biva kuri vyo.
@@ -1025,7 +1025,7 @@ Kugira ngo Bitcoin igume ihuye, amaforogo ya Soft yerekanye ko ari yo nzira y’
 <chapterId>d4982f3d-4694-51cc-99be-28f54b03a2a2</chapterId>
 
 
-![](assets/adversarialthinking-banner.webp)
+![](assets/en/008.webp)
 
 
 Iki gice kivuga ku *vyiyumviro vy’abansi*, ivyiyumviro vyibanda ku vyoshobora gutera imbere n’ingene abansi boshobora gukora. Turatangura mu kuganira ku vyiyumviro vy’umutekano vya Bitcoin n’akarorero k’umutekano, hanyuma tugasigura ingene abakoresha basanzwe bashobora gutera imbere mu kwigenga kwabo no kwegereza ubutegetsi Bitcoin Full node mu kwiyumvira mu buryo bw’abansi. Hanyuma, turaba mu bintu bimwebimwe vy’ukuri bishobora gutera ubwoba Bitcoin be no mu muzirikanyi w’umwansi. Ubwa nyuma, turavuga ku *axiom of resistance* ishobora kugufasha gutahura igituma abantu bakora kuri Bitcoin mu kibanza ca mbere.
@@ -1099,7 +1099,7 @@ Ivyo bivugwa haruguru ni ingero z’ibintu vy’ukuri bishobora gutera ubwoba bi
 ### Umurima woroshe wo gusenya
 
 
-![](assets/sabotage-manual.webp)
+![](assets/en/009.webp)
 
 
 Igice kivuye mu gitabu c'itongo ryoroshe ry'ugusambura
@@ -1150,7 +1150,7 @@ Kugira ngo Bitcoin igume itekanye ukeneye kumenya abansi bayo n’ivyo bayitera 
 
 
 
-![](assets/opensource-banner.webp)
+![](assets/en/010.webp)
 
 
 Bitcoin yubatswe hakoreshejwe porogarama zifunguye. Muri iki gice turasuzuma ico ivyo bisobanura, ingene ugucungera porogarama bikora, n’ingene porogarama y’inkomoko yuguruye muri Bitcoin yemerera gutegura ata ruhusha. Twibika amano yacu muri *selection cryptography*, ivuga ku guhitamwo no gukoresha amasomero mu mice y'ubuhinga bwo guhitamwo. Ico gice kirimwo igice kivuga ku buryo Bitcoin isubiramwo, hanyuma hakaza ikindi kivuga ku buryo abakora Bitcoin baronka amahera. Igice ca nyuma kivuga ingene umuco wa Bitcoin wo gufungura ushobora gusa n’uwudasanzwe vy’ukuri uvuye hanze, n’igituma ivyo bitangaje vy’ukuri bibonwa ari ikimenyetso c’amagara meza.
@@ -1438,7 +1438,7 @@ Inzira y’iterambere ikikuje Bitcoin irafunguye cane, bishobora gutuma Bitcoin 
 
 
 
-![](assets/scaling-banner.webp)
+![](assets/en/011.webp)
 
 
 
@@ -1585,7 +1585,7 @@ Uburyo bushimwa cane ni ubwo twokwita *inward scaling*, bisobanura "kora vyinshi
 Ivyo vyateye imbere vyashitsweko biciye mu gutera imbere mu mutima biratangaje, kuvuga gusa. Kugira ngo mubone iciyumviro rusangi c’ivyo vyateye imbere mu myaka iheze, Jameson Lopp [yakoze ivyigwa vy’ingero] ku bijanye n’uguhuza Blockchain, agereranya verisiyo nyinshi zitandukanye za Bitcoin core zisubira ku verisiyo 0.8.
 
 
-![](assets/Bitcoin-Core-Sync-Performance-1.webp)
+![](assets/en/012.webp)
 
 
 Igikoresho ca mbere co gukuraho ubuhinga bwa verisiyo zitandukanye za Bitcoin core. Ku nzira ya Y niho uburebure bw'ibuye bwahujwe kandi ku nzira ya X ni igihe vyatwaye kugira ngo buhuzwe n'ubwo burebure
@@ -1600,7 +1600,7 @@ Ivyo bishobora gushirwa mu rwego rwo kuzigama umwanya (RAM, disk, bandwidth, n�
 Akarorero keza k’ugutera imbere mu vy’ubuhinga bw’ibarabara karaboneka mu bubiko bw’ibitabu [libsecp256k1](https://github.com/Bitcoin-core/secp256k1), mu bindi, bushira mu ngiro ibintu vya kera vy’ubuhinga bwa none bikenewe kugira ngo umuntu ashobore gukora no kugenzura imikono y’ubuhinga bwa none. Pieter Wuille ni umwe mu bafashije muri iri soko ry’ibitabu, kandi yanditse [urudodo rwa Twitter](https://twitter.com/pwuille/status/1450471673321381896) yerekana iterambere ry’ibikorwa ryashitsweko biciye mu bisabwa bitandukanye vyo gukurura.
 
 
-![](assets/libsecp256k1speedups.webp)
+![](assets/en/013.webp)
 
 
 Ibikorwa vyo kugenzura umukono mu gihe, n'ibisabwa bihambaye vy'ugukwegakwega vyashizweko ikimenyetso ku rutonde rw'igihe
@@ -1614,7 +1614,7 @@ Hariho kandi ingero nziza zitari nke z’ugutera imbere mu bijanye no kuzigama u
 [Ivyanditswe ku rubuga rwa interineti] (2-of-3-Multisig-inputs-using-Pay-to-Taproot-d5faf2312ba3) ku bijanye n'uruhara rwa Taproot mu kuzigama umwanya, umukoresha Murch agereranya ingene umwanya w'ububiko ukoresha ikimenyetso ca GW-of-3 cosaba, inzira nk’uko nyene kutayikoresha na gato.
 
 
-![](assets/murch-taproot.webp)
+![](assets/en/014.webp)
 
 
 Uguzigama umwanya ku bwoko butandukanye bwo gukoresha amahera, Taproot n’ibindi bikoresho vya kera.
@@ -1629,7 +1629,7 @@ Uretse ugupima imbere muri porogarama ya Bitcoin, hari uburyo bumwe bumwe abakor
 Iciyumviro kiri mu gukorana n’abandi ni ugufatanya amahera menshi mu kwishura kumwe, aho gukora amahera imwe ku kwishura. Ivyo bishobora kugukiza amahera menshi, kandi mu gihe nyene bikagabanya umuzigo w’ahantu h’amabuye.
 
 
-![](assets/tx-batching.webp)
+![](assets/en/015.webp)
 
 
 Transaction batching ihuza amahera menshi mu gucuruza kumwe kugira ngo umuntu azigame amahera.
@@ -1638,7 +1638,7 @@ Transaction batching ihuza amahera menshi mu gucuruza kumwe kugira ngo umuntu az
 Gushiramwo umusaruro vyerekeye gukoresha neza ibihe vy’ugusaba guke kw’ahantu h’amabuye kugira ngo umusaruro mwinshi ushire hamwe mu musaruro umwe. Ivyo bishobora kugabanya amafaranga yawe mu nyuma, igihe uzokenera kwishura mu gihe ivyipfuzo vy’ahantu h’amabarabara ari vyinshi.
 
 
-![](assets/utxo-consolidation.webp)
+![](assets/en/016.webp)
 
 
 Gushiramwo umusaruro: Funga ibiceri vyawe mu Coin imwe nini igihe amafaranga ari make kugira ngo uzigame amafaranga mu nyuma.
@@ -1660,7 +1660,7 @@ Uburyo bugira ingaruka cane ku bijanye no gupima kumbure ni uguteranya. Iciyumvi
 Ivyagezwe vy'imirongo bitangura n'abantu babiri canke barenga bemeranya ku bijanye n'ugutangura gucuruza bishizwe kuri Blockchain, nk'uko vyerekanwa ku gishushanyo kiri musi.
 
 
-![](assets/scaling-layer.webp)
+![](assets/en/017.webp)
 
 Itegeko risanzwe rya Layer 2 hejuru ya Bitcoin, Layer 1.
 
@@ -1714,7 +1714,7 @@ Turazi uno musi ko Bitcoin idashobora gupima neza mu buryo buhagaze ("ugura ibik
 
 
 
-![](assets/shtf-banner.webp)
+![](assets/en/018.webp)
 
 Bitcoin yubatswe n’abantu. Abantu barandika iyo porogarama, abantu na bo bagaca bayikoresha. Iyo havumbuwe ubugoyagoye bw’umutekano canke ikibazo gikomeye - vy’ukuri hariho itandukaniro hagati y’ivyo bibiri? - ryama rivumburwa n’abantu, inyama n’amaraso. Iki gice kirazirikana ivyo abantu bakora, ivyo bakwiye gukora n’ivyo badakwiye gukora iyo umucafu uteye umuyaga. Igice ca mbere gisigura ijambo *ugutangaza mu buryo buranga inshingano*, ryerekeza ku kuntu umuntu abonye ubugoyagoye ashobora gukora mu buryo buranga inshingano kugira ngo afashe mu kugabanya ingorane zishobora guterwa n’ubwo bugoyagoye. Igice gisigaye c’ikigabane kigutwara mu rugendo rwo guca mu bibazo bimwebimwe bikomeye cane vyavumbuwe mu myaka, n’ingene vyafashwe n’abahinguzi, abacukuzi b’amabuye y’agaciro n’ababikoresha. Ibintu ntivyari bikomeye cane mu bwana bwa Bitcoin nk’uko biri muri iki gihe.
 
@@ -2059,7 +2059,7 @@ Ivyerekeye iki kinyamakuru vyose vyasohowe ku wa 28 Nyakanga 2015 na Pieter Wuil
 Iyo email iratanga kandi ido n’ido ry’ingene ico kibazo camenyekanye be n’icatumye kiba. Mu mpera, aratanga urutonde rw’ibintu vyabaye, maze tuzosubira gukina bimwe mu bihambaye cane ngaha. Bamwe muri bo, nk’uko vyerekanywe n’igishushanyo kiri hejuru, baramaze kudondorwa.
 
 
-![](assets/bip66-timeline-1.webp)
+![](assets/en/019.webp)
 
 
 Urutonde rw'ibintu vyabaye bikikuje BIP66. Ibintu biri mu mwijima vyarasiguwe haruguru.
@@ -2097,7 +2097,7 @@ Ivyo bintu vyabaye vyoshobora kuguha iciyumviro c’uko Gregory Maxwell yari azi
 Hanyuma, nk’uko vyasabwe na Maxwell, BIP66 yararemwe nk’igice ca BIP62 kigaragaza gusa ugushiramwo amakuru akomeye ya DER. Iyi BIP iboneka ko yemewe cane kandi ikoreshwa muri Nyakanga, naho nyene Blockchain zibiri zacitsemwo ibice kubera *Mining itagira icemezo*. Ivyo bice bica bivugwa mu kigabane gikurikira.
 
 
-![](assets/bip66-timeline-2.webp)
+![](assets/en/020.webp)
 
 
 Iciyumviro nyamukuru co gukura muri ivyo ni uko BIPs ikwiye kuba *atomic* nyinshi canke nke, bisobanura ko zikwiye kuba zitunganye bihagije kugira ngo zitange ikintu c’ingirakamaro canke zitorere umuti ingorane yihariye, ariko zikaba ntoyi bihagije kugira ngo zishobore gushigikirwa n’abazikoresha benshi. Uko ushiramwo ibintu vyinshi muri BIP niko n’amahirwe yo kwemerwa aba make.
@@ -2118,7 +2118,7 @@ Iryo paji ry'imburi ryategetse abantu kurindira ibindi vyemezo 30 kuruta uko bob
 Ivyo bice vyavuzwe haruguru vyabaye ku wa 2015-07-04 isaha zibiri n’igice UTC inyuma y’uburebure bw’ibarabara 320d752b46b532ec0f3f815c5dae467aff5715a6e579e). Ico kibazo caratowe umuti isaha zitatu n’igice z’ijoro uwo musi nyene, inyuma y’aho amabuye 6 atagira akamaro amaze gucukurwa. Ikibabaje ni uko ico kibazo nyene carasubiye kuba ku musi ukurikira, ni ukuvuga ku wa 2015-07-05 isaha zibiri n’igice, ariko kuri iyi nshuro ishami ritagira akamaro ryaramaze amabarabara 3 gusa.
 
 
-![](assets/bip66-timeline-3.webp)
+![](assets/en/021.webp)
 
 Ivyabaye vyatumye BIP66 ibaho, gukoreshwa kwayo, n’ivyo vyakurikiye ni inyigisho nziza cane y’ingene abahinguzi ba Bitcoin bategerezwa kwitwararika. Ivyiza bikeyi vyo gukura muri BIP66:
 

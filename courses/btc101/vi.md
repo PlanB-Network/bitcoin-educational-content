@@ -1217,6 +1217,10 @@ Ngoài ra, có một số [thị trường](https://planb.network/tutorials/exch
 
 Cuối cùng, điều quan trọng cần lưu ý là nghĩa vụ thuế có thể khác nhau tùy theo khu vực pháp lý, vì vậy chúng tôi đặc biệt khuyến khích bạn tham khảo các quy định tại quốc gia của mình trước khi thực hiện bất kỳ hành động nào có thể gây rủi ro cho bạn.
 
+Nếu bạn muốn nâng cao kiến thức về các chiến lược mua, sử dụng và bảo mật bitcoin của mình, tôi thực sự khuyên bạn nên theo học khóa **BTC 102** sau khóa này. Ở đó, bạn sẽ khám phá ra, trong số những điều khác, các khuyến nghị về công cụ phù hợp với hồ sơ, nhu cầu và mục tiêu cá nhân của bạn:
+
+https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+
 ## Siêu bitcoin hóa
 
 <chapterId>b7275d31-3b60-5fb7-b9f5-030097010553</chapterId>

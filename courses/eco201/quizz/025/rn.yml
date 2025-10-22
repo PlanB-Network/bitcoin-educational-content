@@ -1,14 +1,14 @@
-question: Ni ibihe bipimo bitatu vy’ingorane y’uguhuza kabiri kw’ivyo umuntu ashaka?
+question: Ni ibihe bipimo bitatu vy’ingorane y’uguhurirana kabiri kw’ivyo umuntu ashaka?
 answer: Ivy’ahantu, ivy’igihe n’ivy’abantu.
 wrong_answers:
-  - Ivy’ahantu, ivy’igihe n’ivy’imbere mu muntu.
-  - Ivy’ahantu, ivy’igihe, n’ivy’abantu.
-  - Ivy’ahantu, ivy’igihe, n’ivy’abantu.
+  - Ivy’ahantu, ivy’igihe, ivy’abantu hagati yabo.
+  - Ivy’ahantu, ivy’igihe, ivy’abantu hagati yabo.
+  - Ivy’ahantu, ivy’igihe, ivy’abantu hagati yabo.
 explanation: |
   Ivyo bihuye kabiri n’ingorane y’ivyo umuntu ashaka yerekeza ku
-  ingorane zo guhinduranya aho bompi bakeneye kugira
+  ingorane zo gukabisha aho bose bakeneye kugira
   ikintu uwundi yipfuza mu gihe kimwe no mu kibanza kimwe.
   Ico kibazo gifise ingero zitatu; ikibanza (ahantu hamwe),
-  ivy’igihe gito (igihe kimwe), n’ivy’abantu (icipfuzo co gusangirira .
+  ivy’igihe gito (igihe kimwe), n’ivy’abantu hagati yabo (icipfuzo c'
   ivy’uwundi).
 reviewed: true

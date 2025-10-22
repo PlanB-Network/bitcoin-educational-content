@@ -146,6 +146,7 @@ proofreading:
     contributor_names:
     reward: 15.25
 tags:
+  - hardware-wallet-ready
   - wallets
   - guides
   - good-practice

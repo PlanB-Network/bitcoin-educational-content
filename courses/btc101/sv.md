@@ -1198,6 +1198,10 @@ Dessutom finns det flera [marknadsplatser] (https://planb.network/tutorials/exch
 
 Slutligen är det viktigt att notera att skatteskyldigheter kan variera beroende på jurisdiktion, så vi rekommenderar starkt att du konsulterar bestämmelserna i ditt land innan du vidtar några åtgärder som kan innebära en risk för dig.
 
+Om du vill fördjupa dina kunskaper om strategier för köp, användning och säkerhet av dina bitcoins, rekommenderar jag starkt att du går kursen **BTC 102** efter denna. Där kommer du bland annat att upptäcka rekommendationer för verktyg som är anpassade till din profil, dina behov och dina personliga mål:
+
+https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+
 ## Hyper-bitcoinisering
 
 <chapterId>b7275d31-3b60-5fb7-b9f5-030097010553</chapterId>

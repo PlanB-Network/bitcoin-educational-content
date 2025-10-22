@@ -38,6 +38,8 @@ Ovaj kurs je dizajniran da vam pruži potpunu kontrolu nad načinom na koji uči
 
 <chapterId>bfc96999-0ee1-5c41-8297-1b629f50cffc</chapterId>
 
+:::video id=58e578ef-bb3c-423d-8431-0c16db8e5f29:::
+
 
 Dobrodošli u BTC102! Ako ste već završili BTC101, istražili ste ključne teorijske koncepte zašto je Bitcoin tako revolucionarna tehnologija. Sada, sa BTC102, vreme je da to znanje sprovedete u delo. Ovaj kurs je osmišljen da vam pomogne da izgradite svoj lični Bitcoin plan, korak po korak.
 

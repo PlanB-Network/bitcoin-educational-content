@@ -72,7 +72,7 @@ Kuna vipengele viwili vikuu vya ugatuaji katika Bitcoin: ugatuaji wa Miner na ug
 Ugatuaji wa Miner unarejelea ukweli kwamba uchakataji wa muamala haufanywi wala kuratibiwa na huluki yoyote kuu. Ugatuaji wa Full node unarejelea ukweli kwamba uthibitishaji wa Block, yaani, data ambayo miner hutoa, hufanywa kando ya mtandao, hatimaye na watumiaji wake, na sio na mamlaka chache zinazoaminika.
 
 
-![](assets/decentralization-banner.webp)
+![](assets/en/001.webp)
 
 
 ### Miner ugatuaji
@@ -236,7 +236,7 @@ Jinsi Bitcoin inavyofanya kazi kupitia ugatuaji inafanana na akili ya pamoja isi
 Anasema kuwa mifumo mingi, ama ya asili au ya bandia, inaweza na kufanya kazi bila viongozi, na ina nguvu na ustahimilivu. Kila mtu huingiliana tu na mazingira yao ya karibu, lakini kwa pamoja huunda kitu kikubwa.
 
 
-![](assets/fishschool.webp)
+![](assets/en/002.webp)
 
 *Shule za samaki hazina viongozi*
 
@@ -262,7 +262,7 @@ Mifumo iliyogatuliwa inaweza kuwa Hard kuzungusha kichwa chako, lakini kuna mifa
 
 
 
-![](assets/trustlessness-banner.webp)
+![](assets/en/003.webp)
 
 
 Sura hii inatenganisha dhana ya kutokuwa na uaminifu, maana yake kutoka kwa mtazamo wa sayansi ya kompyuta, na kwa nini Bitcoin inapaswa kuwa Trustless ili kuhifadhi pendekezo lake la thamani.
@@ -413,7 +413,7 @@ Bila Trustless, hatuwezi kuwa na ugatuaji, kwa sababu uaminifu unahusisha sehemu
 
 
 
-![](assets/privacy-banner.webp)
+![](assets/en/004.webp)
 
 
 Sura hii inahusu jinsi ya kuweka taarifa zako za kibinafsi za kifedha kwako. Inafafanua ufaragha unasimamia nini katika muktadha wa Bitcoin, kwa nini ni muhimu, na inamaanisha nini kusema kwamba Bitcoin ni jina bandia. Pia inaangalia jinsi data ya kibinafsi inaweza kuvuja, zote mbili za On-Chain na off-chain.
@@ -493,7 +493,7 @@ Satoshi Nakamoto inatafakari kuhusu faragha ya On-Chain katika sehemu ya 7 ya [B
 Karatasi hiyo inatoa muhtasari wa shida kuu za faragha ya Blockchain, ambayo ni utumiaji tena wa Address na nguzo za Address. Ya kwanza ni kujieleza, ya mwisho inahusu uwezo wa kuamua, kwa kiwango fulani cha uhakika, kwamba seti ya address tofauti ni ya mtumiaji mmoja.
 
 
-![](assets/address-reuse-clustering.webp)
+![](assets/en/005.webp)
 
 
 Uvujaji wa kawaida wa faragha kwenye Blockchain
@@ -636,7 +636,7 @@ Ili kupata faragha inayostahili katika Bitcoin, unapaswa kuchukua hatua zinazoen
 
 
 
-![](assets/finitesupply-banner.webp)
+![](assets/en/006.webp)
 
 
 Sura hii inaangalia kikomo cha Bitcoin Supply cha BTC milioni 21, au ni kiasi gani kwa kweli? Tunazungumza kuhusu jinsi kikomo hiki kinavyotekelezwa na kile ambacho mtu anaweza kufanya ili kuthibitisha kuwa kinaheshimiwa. Zaidi ya hayo, tunachunguza mpira wa kioo na kujadili mienendo itakayotumika wakati Block reward inapohama kutoka kwa msingi wa ruzuku hadi kulingana na ada.
@@ -748,7 +748,7 @@ Ikiwa Bitcoin Supply itaongezeka zaidi ya milioni 21 hatuwezi kusema leo, na hiy
 
 
 
-![](assets/upgrading-banner.webp)
+![](assets/en/007.webp)
 
 
 Kuboresha Bitcoin kwa njia salama kunaweza kuwa vigumu sana. Baadhi ya mabadiliko huchukua miaka kadhaa kutekelezwa. Katika sura hii, tunajifunza kuhusu msamiati wa kawaida kuhusu kuboresha Bitcoin, na kuchunguza baadhi ya mifano ya uboreshaji wa kihistoria wa protocol yake pamoja na maarifa tuliyopata kutoka kwao. Mwishowe, tunazungumza juu ya mgawanyiko wa chain na hatari na gharama zinazohusiana nao.
@@ -988,7 +988,7 @@ Ili kuweka Bitcoin katika maelewano, uma za Soft zimethibitishwa kuwa njia ya ku
 <chapterId>d4982f3d-4694-51cc-99be-28f54b03a2a2</chapterId>
 
 
-![](assets/adversarialthinking-banner.webp)
+![](assets/en/008.webp)
 
 
 Sura hii inaangazia *mawazo ya kiadui*, mawazo ambayo yanazingatia kile kinachoweza kwenda vibaya na jinsi wapinzani wanaweza kutenda. Tunaanza kwa kujadili dhana za usalama za Bitcoin na modeli ya usalama, kisha tunaeleza jinsi watumiaji wa kawaida wanaweza kuboresha uhuru wao wa kujitegemea na ugatuaji wa Bitcoin wa Full node kwa kufikiria vibaya. Kisha, tunaangalia baadhi ya vitisho halisi kwa Bitcoin na vile vile katika akili ya adui. Hatimaye, tunazungumza kuhusu *axiom of resistance* ambayo inaweza kukusaidia kuelewa ni kwa nini watu wanafanyia kazi Bitcoin kwanza.
@@ -1062,7 +1062,7 @@ Ya hapo juu ni mifano ya vitisho vya kweli ambavyo vinahitaji kutunzwa.
 ### Uwanja Rahisi wa Hujuma
 
 
-![](assets/sabotage-manual.webp)
+![](assets/en/009.webp)
 
 
 Dondoo kutoka kwa Mwongozo wa Uga Rahisi wa Hujuma
@@ -1113,7 +1113,7 @@ Ili kuweka Bitcoin salama unahitaji kujua maadui wake na vivutio vyao. Vitisho v
 
 
 
-![](assets/opensource-banner.webp)
+![](assets/en/010.webp)
 
 
 Bitcoin imeundwa kwa kutumia programu huria. Katika sura hii tunachanganua maana ya hii, jinsi udumishaji wa programu unavyofanya kazi, na jinsi programu huria katika Bitcoin inavyoruhusu usanidi bila ruhusa. Tunachovya vidole vyetu vya miguu kwenye *teule cryptography*, ambayo inahusika na uteuzi na matumizi ya maktaba katika mifumo ya kriptografia. Sura hii inajumuisha sehemu kuhusu mchakato wa ukaguzi wa Bitcoin, ikifuatiwa na nyingine kuhusu njia ambazo watengenezaji wa Bitcoin wanafadhiliwa. Sehemu ya mwisho inazungumza kuhusu jinsi utamaduni wa chanzo huria wa Bitcoin unavyoweza kuonekana kuwa wa ajabu kutoka nje, na kwa nini ustaarabu huu unaotambulika ni ishara ya afya njema.
@@ -1401,7 +1401,7 @@ Mchakato wa uundaji karibu na Bitcoin umefunguliwa kwa kiasi kikubwa, ambayo ina
 
 
 
-![](assets/scaling-banner.webp)
+![](assets/en/011.webp)
 
 
 
@@ -1547,7 +1547,7 @@ Mbinu ambayo inapata shukrani ndogo sana ndiyo tunaweza kuita *internal scaling*
 Maboresho ambayo yamepatikana kupitia inward scaling ni ya kuvutia, kusema kidogo. Ili kukupa wazo la jumla la maboresho kwa miaka mingi, Jameson Lopp [amefanya majaribio ya msingi](https://blog.lopp.net/Bitcoin-core-performance-evolution/) kuhusu usawazishaji wa Blockchain, akilinganisha matoleo mengi tofauti ya Bitcoin Core kurudi kwenye toleo la 0.8.
 
 
-![](assets/Bitcoin-Core-Sync-Performance-1.webp)
+![](assets/en/012.webp)
 
 
 Utendaji wa awali wa upakuaji wa block wa matoleo mbalimbali ya Bitcoin Core. Kwenye mhimili wa Y kuna urefu wa block uliosawazishwa na kwenye mhimili wa X ndio wakati uliochukua kusawazisha kwa urefu huo.
@@ -1562,7 +1562,7 @@ Maboresho yanaweza kuainishwa kama kuokoa nafasi (RAM, diski, kipimo data, n.k.)
 Mfano mzuri wa uboreshaji wa hesabu unaweza kupatikana katika maktaba ya [libsecp256k1](https://github.com/Bitcoin-core/secp256k1), ambayo, miongoni mwa mambo mengine, hutekeleza kanuni za awali za cryptography zinazohitajika kutengeneza na kuthibitisha sahihi za kidijitali. Pieter Wuille ni mmoja wa wachangiaji wa maktaba hii, na aliandika [nyuzi ya Twitter](https://twitter.com/pwuille/status/1450471673321381896) inayoonyesha maboresho ya utendakazi yaliyopatikana kupitia maombi mbalimbali ya kuvuta.
 
 
-![](assets/libsecp256k1speedups.webp)
+![](assets/en/013.webp)
 
 
 Utendaji wa uthibitishaji wa sahihi baada ya muda, na maombi muhimu ya kuvuta alama kwenye rekodi ya matukio
@@ -1576,7 +1576,7 @@ Pia kuna mifano kadhaa mizuri ya maboresho ya kuokoa nafasi ambayo yalichangia u
 [Chapisho la kati la blogu](https://murchandamus.medium.com/2-of-3-Multisig-inputs-using-Pay-to-Taproot-d5faf2312ba3) kuhusu mchango wa Taproot katika kuokoa nafasi, mtumiaji Murch analinganisha ni nafasi ngapi ya block ambayo 2 kati ya 3 itahitaji kiwango cha juu cha 3 kama vile bila kutumia njia mbalimbali katika GW-5 inavyohitaji.
 
 
-![](assets/murch-taproot.webp)
+![](assets/en/014.webp)
 
 
 Uokoaji wa nafasi kwa aina tofauti za matumizi, Taproot na matoleo ya zamani.
@@ -1591,7 +1591,7 @@ Kando na inward scaling katika programu ya Bitcoin, kuna baadhi ya njia ambazo w
 Wazo la batching ya miamala ni kuchanganya malipo mengi katika muamala mmoja, badala ya kufanya muamala mmoja kwa kila malipo. Hii inaweza kukuokoa ada nyingi, na wakati huo huo kupunguza mzigo wa nafasi ya kuzuia.
 
 
-![](assets/tx-batching.webp)
+![](assets/en/015.webp)
 
 
 Uwekaji bandishaji wa miamala huchanganya malipo mengi katika muamala mmoja ili kuokoa ada.
@@ -1600,7 +1600,7 @@ Uwekaji bandishaji wa miamala huchanganya malipo mengi katika muamala mmoja ili 
 Ujumuishaji wa pato unarejelea kuchukua fursa ya vipindi vya mahitaji ya chini ya nafasi ya kuzuia ili kuchanganya matokeo mengi katika pato moja. Hii inaweza kupunguza gharama ya ada yako baadaye, wakati utahitaji kufanya malipo wakati mahitaji ya nafasi ya kuzuia ni makubwa.
 
 
-![](assets/utxo-consolidation.webp)
+![](assets/en/016.webp)
 
 
 Ujumuishaji wa pato: Yeyusha sarafu zako ziwe sarafu moja kubwa wakati ada ni ndogo ili kuokoa ada baadaye.
@@ -1622,7 +1622,7 @@ Njia yenye athari zaidi ya kuongeza labda ni kuweka tabaka. Wazo la jumla la kuw
 protocol ya safu huanza na watu wawili au zaidi kukubaliana juu ya shughuli ya kuanza ambayo imewekwa kwenye Blockchain, kama inavyoonyeshwa kwenye takwimu hapa chini.
 
 
-![](assets/scaling-layer.webp)
+![](assets/en/017.webp)
 
 Itifaki ya kawaida ya Layer 2 juu ya Bitcoin, Layer 1.
 
@@ -1676,7 +1676,7 @@ Tunajua leo kwamba Bitcoin haina kiwango vizuri kiwima ("kununua maunzi makubwa"
 
 
 
-![](assets/shtf-banner.webp)
+![](assets/en/018.webp)
 
 Bitcoin inajengwa na watu. Watu huandika programu, na watu huendesha programu hii. Wakati athari ya kiusalama au mdudu mkali inapogunduliwa - je, kweli kuna tofauti kati ya hizo mbili? - daima hugunduliwa na watu, nyama na damu. Sura hii inaangazia kile ambacho watu hufanya, wanapaswa, na wasichopaswa kufanya wakati uchafu unampata shabiki. Sehemu ya kwanza inafafanua neno *ufichuzi unaowajibika*, ambayo inarejelea jinsi mtu anayegundua athari anaweza kuwajibika ili kusaidia kupunguza uharibifu kutoka kwayo. Sehemu iliyosalia inakupeleka kwenye ziara kupitia baadhi ya udhaifu mkubwa zaidi uliogunduliwa kwa miaka mingi, na jinsi ulivyoshughulikiwa na wasanidi programu, wachimba migodi na watumiaji. Mambo hayakuwa magumu sana katika utoto wa mapema wa Bitcoin kama ilivyo leo.
 
@@ -2022,7 +2022,7 @@ Ufichuzi kamili wa toleo hili ulichapishwa mnamo Julai 28 2015 na Pieter Wuille 
 Barua pepe hiyo zaidi inaweka maelezo kuhusu jinsi suala hilo liligunduliwa na zaidi hasa ni nini kilisababisha. Mwishoni, anawasilisha ratiba ya matukio, na tutarudia baadhi ya yale muhimu zaidi hapa. Baadhi yao, kama inavyoonyeshwa na takwimu hapo juu, tayari wameelezewa.
 
 
-![](assets/bip66-timeline-1.webp)
+![](assets/en/019.webp)
 
 
 Rekodi ya matukio yanayozunguka BIP66. Vipengee vya rangi nyeusi vimeelezwa hapo juu.
@@ -2060,7 +2060,7 @@ Matukio haya yanaweza kukupa hisia kwamba Gregory Maxwell alijua kuhusu uwezekan
 Kisha, kama ilivyopendekezwa na Maxwell, BIP66 iliundwa kama kikundi kidogo cha BIP62 ambacho kilibainisha usimbaji madhubuti wa DER pekee. BIP hii inaonekana ilikubaliwa kwa mapana na kutumwa mwezi wa Julai, ingawa migawanyiko miwili ya Blockchain ilitokea kwa sababu ya *Mining* isiyo na uthibitisho. Migawanyiko hii itajadiliwa katika sehemu inayofuata.
 
 
-![](assets/bip66-timeline-2.webp)
+![](assets/en/020.webp)
 
 
 Jambo kuu la kuchukua kutoka kwa hili ni kwamba BIPs zinapaswa kuwa zaidi au chini ya *atomiki*, kumaanisha kuwa zinapaswa kuwa kamili vya kutosha kutoa kitu muhimu au kutatua tatizo mahususi, lakini ndogo vya kutosha kuruhusu usaidizi mpana miongoni mwa watumiaji. Kadiri unavyoweka vitu vingi kwenye BIP, ndivyo nafasi ya kukubalika inavyopungua.
@@ -2081,7 +2081,7 @@ Ukurasa wa arifa uliwaagiza watu wangojee uthibitisho 30 zaidi kuliko kawaida ik
 Mgawanyiko uliotajwa hapo juu ulitokea mnamo 2015-07-04 saa 02:10 UTC baada ya urefu wa block [363730](https://Mempool.space/block/000000000000000006a320d752b46b532ec0f3f815c5a5a7a5a7a5a7a5a7a5a75a5a75a5a7a5a7575a759). Suala hili lilitatuliwa saa 03:50 siku hiyo hiyo, baada ya blocks 6 batili kuminiwa. Kwa bahati mbaya, suala kama hilo lilitokea tena siku iliyofuata, i.e. mnamo 2015-07-05 saa 21:50, lakini wakati huu tawi batili lilidumu blocks 3 tu.
 
 
-![](assets/bip66-timeline-3.webp)
+![](assets/en/021.webp)
 
 Matukio ambayo yalisababisha BIP66, kupelekwa kwake, na matokeo yake ni uchunguzi mzuri sana wa jinsi wasanidi wa Bitcoin wanapaswa kuwa waangalifu. Vidokezo vichache muhimu kutoka kwa BIP66:
 

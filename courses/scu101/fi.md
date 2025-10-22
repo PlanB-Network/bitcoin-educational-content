@@ -30,6 +30,8 @@ Théo; panos
 
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
+:::video id=de7236a0-2985-41ef-86f7-3fa0b7f94531:::
+
 **Tavoite: Päivitä turvallisuustaitosi!**
 
 Tervetuloa kaikille tähän digitaalisen turvallisuuden koulutusohjelmaan. Tämä koulutus on suunniteltu kaikille saavutettavaksi, joten aiempaa tietotekniikan osaamista ei vaadita. Päätavoitteenamme on tarjota teille tietoa ja taitoja, jotka ovat tarpeen digitaalisessa maailmassa turvallisemmin ja yksityisemmin liikkumiseen.
@@ -85,6 +87,8 @@ Oletko valmis vahvistamaan digitaalista turvallisuuttasi ja ottamaan hallinnan t
 
 <chapterId>3a935da9-fa6e-57eb-bf85-7b3ec35e6ee2</chapterId>
 
+:::video id=f1cead27-ed41-4ca2-afd2-b08a994d0119:::
+
 Internetissä selatessa on tärkeää välttää tiettyjä yleisiä virheitä online-turvallisuutesi säilyttämiseksi. Tässä muutamia vinkkejä niiden välttämiseksi:
 
 ### Ole varovainen ohjelmistojen lataamisessa:
@@ -129,6 +133,8 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 <chapterId>5aac83f4-a685-54b0-9759-d71bea7eeed2</chapterId>
 
+:::video id=737d30ac-43d8-4a69-afda-89b9d7e8c4e1:::
+
 ### VPN:t
 
 Internet-yhteyden suojaaminen on olennainen osa online-turvallisuutta, ja virtuaaliset yksityisverkot (VPN:t) ovat tehokas tapa parantaa tätä turvallisuutta sekä yrityksille että yksityiskäyttäjille.
@@ -170,6 +176,8 @@ Yhteenvetona voidaan sanoa, että VPN:n käyttö voi merkittävästi parantaa on
 ## Tietokoneen käyttö
 
 <chapterId>16745632-b56b-5423-9873-ddf70fdf1efd</chapterId>
+
+:::video id=35892007-5ea5-4956-bf80-3363d69c96d5:::
 
 Tietokoneidemme turvallisuus on suuri huolenaihe tämän päivän digitaalisessa maailmassa. Tänään käsittelemme kolmea keskeistä kohtaa:
 
@@ -221,6 +229,8 @@ Yhteenvetona on olennaista valita käyttöjärjestelmä, joka vastaa tarpeitasi 
 
 <chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>
 
+:::video id=c6a2c152-f1ae-492c-8993-304d64cdda45:::
+
 ### Miten hakkerit hyökkäävät?
 
 Jotta voit suojautua tehokkaasti, on olennaista ymmärtää, miten hakkerit yrittävät tunkeutua tietokoneellesi. Todellisuudessa virukset eivät usein ilmesty tyhjästä, vaan ovat pikemminkin seurausta teoistamme, jopa tahattomasti!
@@ -269,6 +279,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 <chapterId>dfceea33-8712-5557-ace1-6ba5598d33d8</chapterId>
 
+:::video id=75cc914d-9c11-4d3f-86a7-6faf2077f00f:::
+
 ### Uuden sähköpostitilin perustaminen!
 
 Sähköpostitili on keskeinen osa verkkotoimintaasi: jos se on vaarantunut, hakkeri voi käyttää sitä kaikkien salasanojesi nollaamiseen "unohdin salasanan" -toiminnon kautta ja päästä käsiksi moniin muihin sivustoihin. Siksi on tärkeää suojata se asianmukaisesti.
@@ -301,6 +313,8 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 ## Salasananhallintaohjelma
 
 <chapterId>0b3c69b2-522c-56c8-9fb8-1562bd55930f</chapterId>
+
+:::video id=106b6f17-a5c1-4155-abdf-043ce469d45b:::
 
 ### Mikä on salasananhallintaohjelma?
 
@@ -349,6 +363,8 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 ## Kahden tekijän tunnistautuminen
 
 <chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>
+
+:::video id=10fede6f-c839-4455-b324-e887c502667e:::
 
 ### Miksi ottaa käyttöön 2FA
 
@@ -477,6 +493,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 <chapterId>aad1ae27-4280-5b07-b9ab-118ae013951a</chapterId>
 
+:::video id=4c818b5c-ea5d-496a-8e82-bc5d96d91430:::
+
 ### Kyberturvallisuus: Kasvava ala loputtomilla mahdollisuuksilla
 
 Jos olet intohimoinen järjestelmien ja tietojen suojaamisessa, kyberturvallisuuden ala tarjoaa lukuisia mahdollisuuksia. Jos tämä ala kiinnostaa sinua, tässä on joitakin keskeisiä askeleita, jotka voivat ohjata sinua.
@@ -514,6 +532,8 @@ Hallitsemalla näitä taitoja ja työkaluja, olet hyvin varustautunut navigoimaa
 ## Haastattelu Renaudin kanssa
 
 <chapterId>7d83fd98-ce22-514e-b9e8-729fbf71ee6e</chapterId>
+
+:::video id=ec7014aa-5ebe-444c-80d1-7b14f1fe7bb8:::
 
 ### Tehokas salasanojen hallinta ja autentikoinnin vahvistaminen: Akateeminen lähestymistapa
 

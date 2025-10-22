@@ -171,7 +171,7 @@ Je kunt de tweede cijfertekst zien in *Figuur 2* hieronder. [2] De sleutel tot d
 *Figuur 1: Beale-cijfer nr. 2*
 
 
-![Figure 1: Beale cipher no 2.](assets/Figure1-1.webp "Figure 1: Beale cipher no. 2")
+![Figure 1: Beale cipher no 2.](assets/en/001.webp "Figure 1: Beale cipher no. 2")
 
 
 
@@ -413,7 +413,7 @@ De mogelijke waarden en bijbehorende waarschijnlijkheden voor een willekeurige v
 *Figuur 1: Willekeurige variabele X*
 
 
-![Figure 1: Random variable X.](assets/Figure2-1.webp)
+![Figure 1: Random variable X.](assets/en/002.webp)
 
 
 De brede balken in *Figuur 1* zijn natuurlijk niet bedoeld om te suggereren dat de willekeurige variabele $X$ echt continu is. In plaats daarvan zijn de balken breed gemaakt om visueel aantrekkelijker te zijn (gewoon een lijn recht omhoog geeft een minder intuïtieve visualisatie).
@@ -467,7 +467,7 @@ Een grafische voorstelling van $Y$ wordt gegeven in *Figuur 2*.
 *Figuur 2: Willekeurige variabele Y*
 
 
-![Figure 2: Random variable Y.](assets/Figure2-2.webp "Figure 2: Random variable Y")
+![Figure 2: Random variable Y.](assets/en/003.webp "Figure 2: Random variable Y")
 
 
 Als laatste voorbeeld nemen we de willekeurige variabele Z. Deze heeft de uitkomstverzameling {1,3,7,11,12} en de volgende kansverdeling:
@@ -505,7 +505,7 @@ Je ziet het afgebeeld in *Figuur 3*. De willekeurige variabele Z is, in tegenste
 *Figuur 3: Willekeurige variabele Z*
 
 
-![Figure 3: Random variable Z.](assets/Figure2-3.webp "Figure 3: Random variable Z")
+![Figure 3: Random variable Z.](assets/en/004.webp "Figure 3: Random variable Z")
 
 
 
@@ -1430,7 +1430,7 @@ Bob versleutelt het bericht $M$ op tijdstip $T_0$ met de sleutel $K$ om de cijfe
 *Figuur 1: Geheimhouding in de ruimte*
 
 
-![Figure 1: Secrecy across space](assets/Figure4-1.webp "Figure 1: Secrecy across space")
+![Figure 1: Secrecy across space](assets/en/005.webp "Figure 1: Secrecy across space")
 
 
 
@@ -1438,7 +1438,7 @@ Bob versleutelt het bericht $M$ op tijdstip $T_0$ met de sleutel $K$ om de cijfe
 
 
 
-![Figure 2: Secrecy across time](assets/Figure4-2.webp "Figure 2: Secrecy across time")
+![Figure 2: Secrecy across time](assets/en/006.webp "Figure 2: Secrecy across time")
 
 
 
@@ -1587,7 +1587,7 @@ Een typisch XOR-stroomcijfer is afgebeeld in *Figuur 3*. Je neemt eerst een priv
 *Afbeelding 3: Een XOR-stroomcijfer*
 
 
-![Figure 3: An XOR stream cipher](assets/Figure4-3.webp "Figure 3: An XOR stream cipher")
+![Figure 3: An XOR stream cipher](assets/en/007.webp "Figure 3: An XOR stream cipher")
 
 
 Onthoud dat een encryptieschema meestal een sjabloon is voor encryptie met hetzelfde kernalgoritme, in plaats van een exacte specificatie. Bij uitbreiding is een streamcipher typisch een sjabloon voor encryptie waarin je sleutels van verschillende lengtes kunt gebruiken. Hoewel de sleutellengte van invloed kan zijn op enkele kleine details van het schema, heeft het geen invloed op de essentie ervan.
@@ -1705,7 +1705,7 @@ In *Figuur 4* hieronder is te zien hoe een bloksleutel werkt. Een bericht $M$ me
 *Afbeelding 4: Een blokcijfer*
 
 
-![Figure 4: A block cipher](assets/Figure4-4.webp "Figure 4: A block cipher")
+![Figure 4: A block cipher](assets/en/008.webp "Figure 4: A block cipher")
 
 
 Een blokcijfer op zichzelf is geen versleutelingsschema. Maar een blokcijfer kan gebruikt worden met verschillende **modi** om verschillende versleutelingsschema's te maken. Een modus voegt simpelweg wat extra operaties toe buiten het blokcijfer.
@@ -1717,7 +1717,7 @@ Om te illustreren hoe dit werkt, stellen we een blokcijfer (BC) voor dat een 128
 *Afbeelding 5: Een blokcijfer met ECB-modus*
 
 
-![Figure 5: A block cipher with ECB mode](assets/Figure4-5.webp "Figure 5: A block cipher with ECB mode")
+![Figure 5: A block cipher with ECB mode](assets/en/009.webp "Figure 5: A block cipher with ECB mode")
 
 
 Het proces voor elektronische codeboekvercijfering met het blokcijfer is als volgt. Kijk of u uw klaartekstbericht kunt verdelen in blokken van 128 bits. Zo niet, voeg dan **padding** toe aan het bericht, zodat het resultaat gelijkmatig kan worden gedeeld door de blokgrootte van 128 bits. Dit zijn de gegevens die worden gebruikt voor het versleutelingsproces.
@@ -1741,7 +1741,7 @@ De **cipher block chaining mode** (**CBC mode**) is waarschijnlijk de meest gebr
 *Afbeelding 6: Een blokcijfer met CBC-modus*
 
 
-![Figure 6: A block cipher with CBC mode](assets/Figure4-6.webp "Figure 6: A block cipher with CBC mode")
+![Figure 6: A block cipher with CBC mode](assets/en/010.webp "Figure 6: A block cipher with CBC mode")
 
 
 Stel dat de blokgrootte weer 128 bits is. Om te beginnen moet je er dus opnieuw voor zorgen dat je originele plaintext bericht de nodige padding krijgt.
@@ -1765,7 +1765,7 @@ Laten we tot slot onze aandacht richten op de **output feedback mode** (**OFB mo
 *Afbeelding 7: Een blokcijfer met OFB-modus*
 
 
-![Figure 7: A block cipher with OFB mode](assets/Figure4-7.webp "Figure 7: A block cipher with OFB mode")
+![Figure 7: A block cipher with OFB mode](assets/en/011.webp "Figure 7: A block cipher with OFB mode")
 
 
 Met OFB-modus selecteert u ook een initialisatievector. Maar hier wordt de initialisatievector voor het eerste blok direct in het blokcijfer ingevoegd met uw sleutel. De resulterende 128 bits worden dan behandeld als een sleutelstroom. Deze sleutelstroom wordt ge-XORed met de klaartekst om de cijfertekst voor het blok te produceren. Voor volgende blokken gebruikt u de keystream van het vorige blok als invoer in het blokversleutelingsprogramma en herhaalt u de stappen.
@@ -1836,7 +1836,7 @@ Na deze discussie zou je nu *Figuur 8* moeten begrijpen. Het geeft een overzicht
 *Figuur 8: Overzicht van symmetrische versleutelingsschema's*
 
 
-![Figure 8: Overview of symmetric encryption schemes](assets/Figure4-8.webp "Figure 8: Overview of symmetric encryption schemes")
+![Figure 8: Overview of symmetric encryption schemes](assets/en/012.webp "Figure 8: Overview of symmetric encryption schemes")
 
 
 
@@ -1871,7 +1871,7 @@ Het proces wordt afgebeeld in *Figuur 9*. Om een **MAC** (Message Authentication
 *Figuur 9: Overzicht van symmetrische versleutelingsschema's*
 
 
-![Figure 9: Overview of symmetric encryption schemes](assets/Figure4-9.webp "Figure 9: Overview of symmetric encryption schemes")
+![Figure 9: Overview of symmetric encryption schemes](assets/en/013.webp "Figure 9: Overview of symmetric encryption schemes")
 
 
 Vanwege **existentiële onvervalsbaarheid** kan een aanvaller het bericht $M$ op geen enkele manier wijzigen of een eigen bericht met een geldige tag maken. Dit is zo, zelfs als de aanvaller de tags observeert van vele berichten tussen Bob en Alice die dezelfde private sleutel gebruiken. Een aanvaller kan hooguit Alice verhinderen het bericht $M$ te ontvangen (een probleem dat cryptografie niet kan Address).
@@ -1919,7 +1919,7 @@ Alice controleert nu eerst of de tag geldig is gegeven de cijfertekst $C$ en de 
 *Figuur 10: Een geauthenticeerd versleutelingsschema*
 
 
-![Figure 10: An authenticated encryption scheme](assets/Figure4-10.webp "Figure 10: An authenticated encryption scheme")
+![Figure 10: An authenticated encryption scheme](assets/en/014.webp "Figure 10: An authenticated encryption scheme")
 
 
 Hoe worden MAC's aangemaakt? Hoewel MAC's op verschillende manieren aangemaakt kunnen worden, is een gebruikelijke en efficiënte manier om ze aan te maken ** via cryptografische Hash functies**.
@@ -1938,7 +1938,7 @@ Er is een palet aan Hash functies die gebruikt kunnen worden om een HMAC te make
 *Afbeelding 11: HMAC*
 
 
-![Figure 11: HMAC](assets/Figure4-11.webp "Figure 11: HMAC")
+![Figure 11: HMAC](assets/en/015.webp "Figure 11: HMAC")
 
 
 **Noten:**
@@ -1995,7 +1995,7 @@ De communicatiesessie begint met Bob die een cijfertekst $C_{0,B}$ naar Alice st
 *Afbeelding 12: Een beveiligde communicatiesessie*
 
 
-![Figure 12: A secure communication session](assets/Figure4-12.webp "Figure 12: A secure communication sessesion")
+![Figure 12: A secure communication session](assets/en/016.webp "Figure 12: A secure communication sessesion")
 
 
 
@@ -2188,7 +2188,7 @@ Laten we de sleutel $K_0$ noemen. De constructie met bovenstaande parameters zie
 *Figuur 1: AES-ECB met een 128-bits sleutel*
 
 
-![Figure 1: AES-ECB with a 128-bit key](assets/Figure5-1.webp "Figure 1: AES-ECB with a 128-bit key")
+![Figure 1: AES-ECB with a 128-bit key](assets/en/017.webp "Figure 1: AES-ECB with a 128-bit key")
 
 
 Elk 128-bits tekstblok doorloopt tien rondes in het Rijndael versleutelingsschema. Dit vereist een aparte rondesleutel voor elke ronde ($K_1$ tot $K_{10}$). Deze worden voor elke ronde gemaakt van de originele 128-bits sleutel $K_0$ met behulp van een **sleuteluitbreidingsalgoritme**. Voor elk blok tekst dat moet worden versleuteld, gebruiken we dus de oorspronkelijke sleutel $K_0$ en tien afzonderlijke rondesleutels. Merk op dat dezelfde 11 sleutels worden gebruikt voor elk blok platte tekst van 128 bits dat moet worden versleuteld.
@@ -2563,7 +2563,7 @@ Op een later tijdstip wil Bob een bericht $M$ aan Alice schrijven. Omdat het gev
 *Afbeelding 1: Asymmetrische codering*
 
 
-![Figure 1: Asymmetric encryption](assets/Figure6-1.webp "Figure 1: Asymmetric encryption")
+![Figure 1: Asymmetric encryption](assets/en/018.webp "Figure 1: Asymmetric encryption")
 
 
 
@@ -2600,7 +2600,7 @@ Een digitale handtekening is, zoals de naam duidelijk aangeeft, het digitale equ
 *Afbeelding 2: Asymmetrische authenticatie*
 
 
-![Figure 2: Asymmetric authentication](assets/Figure6-2.webp "Figure 2: Asymmetric authentication")
+![Figure 2: Asymmetric authentication](assets/en/019.webp "Figure 2: Asymmetric authentication")
 
 
 

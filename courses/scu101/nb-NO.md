@@ -30,6 +30,8 @@ Théo; bidrag
 
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
+:::video id=de7236a0-2985-41ef-86f7-3fa0b7f94531:::
+
 **Mål: Oppdater dine sikkerhetsferdigheter!**
 
 Velkommen til dette introduksjonskurset i digital sikkerhet. Denne opplæringen er designet for å være tilgjengelig for alle, så forkunnskaper i datavitenskap er ikke nødvendig. Vårt hovedmål er å gi dere kunnskapen og ferdighetene som er nødvendige for å navigere i den digitale verden på en tryggere og mer privat måte.
@@ -85,6 +87,8 @@ KEr du klar til å styrke din digitale sikkerhet og ta tilbake kontrollen over d
 
 <chapterId>3a935da9-fa6e-57eb-bf85-7b3ec35e6ee2</chapterId>
 
+:::video id=f1cead27-ed41-4ca2-afd2-b08a994d0119:::
+
 Når du surfer på internett, er det viktig å unngå visse vanlige feil for å bevare nettsikkerheten din. Her er noen tips for å unngå dem:
 
 ### Vær forsiktig med nedlastinger av programvare:
@@ -129,6 +133,8 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 <chapterId>5aac83f4-a685-54b0-9759-d71bea7eeed2</chapterId>
 
+:::video id=737d30ac-43d8-4a69-afda-89b9d7e8c4e1:::
+
 ### VPN-er
 
 Å beskytte internettforbindelsen din er et avgjørende aspekt for din nettsikkerhet, og bruk av virtuelle private nettverk (VPN-er) er en effektiv metode for å forbedre denne sikkerheten, både for bedrifter og individuelle brukere.
@@ -170,6 +176,8 @@ Oppsummert kan bruk av VPN i stor grad forbedre online sikkerhet, både for bedr
 ## Datamaskinbruk
 
 <chapterId>16745632-b56b-5423-9873-ddf70fdf1efd</chapterId>
+
+:::video id=35892007-5ea5-4956-bf80-3363d69c96d5:::
 
 Sikkerheten til våre datamaskiner er en stor bekymring i dagens digitale verden. I dag vil vi ta for oss tre nøkkelpunkter:
 
@@ -221,6 +229,8 @@ For å konkludere så er det essensielt å velge et operativsystem som passer di
 
 <chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>
 
+:::video id=c6a2c152-f1ae-492c-8993-304d64cdda45:::
+
 ### Hvordan angriper hackere?
 
 For å beskytte deg godt, er det essensielt å forstå hvordan hackere forsøker å infiltrere datamaskinen din. Viruser dukker ikke opp på magisk vis, men er heller konsekvensene av våre handlinger, selv utilsiktet!
@@ -242,6 +252,7 @@ Den gyldne regelen her er å nøye sjekke fullt navn på avsenderen samt opprinn
 Løsepengevirus er en type skadelig programvare som krypterer brukerdata og krever løsepenger for å dekryptere dem. Denne typen angrep blir stadig mer vanlig og kan være svært problematisk for et selskap eller en enkeltperson. For å beskytte deg, er det avgjørende å lage sikkerhetskopier av de mest sensitive filene! Dette vil ikke stoppe løsepengeviruset, men det vil tillate deg å ganske enkelt ignorere det.
 
 ![image](assets/nb-NO/014.webp)
+
 Sikkerhetskopier de viktige dataene dine regelmessig til en ekstern lagringsenhet eller en sikker nettbasert lagringstjeneste. På denne måten, i tilfelle et cyberangrep eller maskinvarefeil, kan du gjenopprette dataene dine uten å miste viktig informasjon.
 
 Enkel løsning:
@@ -268,6 +279,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 <chapterId>dfceea33-8712-5557-ace1-6ba5598d33d8</chapterId>
 
+:::video id=75cc914d-9c11-4d3f-86a7-6faf2077f00f:::
+
 ### Opprette en ny e-postkonto!
 
 E-postkontoen er senteret i din nettaktivitet: hvis den blir kompromittert, kan en hacker bruke den til å tilbakestille alle passordene dine via "glemt passord"-funksjonen og få tilgang til mange andre nettsteder. Derfor er det viktig å sikre den ordentlig.
@@ -281,6 +294,7 @@ Selv om vi alle allerede har en e-postkonto, er det viktig å vurdere å opprett
 Riktig håndtering av våre e-postadresser er avgjørende for å sikre sikkerheten til vår netttilgang. Det er viktig å velge en sikker og personvernsrespekterende e-postleverandør. ProtonMail er et eksempel på en sikker og personvernrespekterende e-posttjeneste.
 
 ![image](assets/nb-NO/015.webp)
+
 Når du velger en e-postleverandør og oppretter et passord, er det essensielt å aldri gjenbruke samme passord for forskjellige online tjenester. Det anbefales å regelmessig opprette nye e-postadresser og skille bruksområder ved å bruke forskjellige e-postadresser. Det er å foretrekke å velge en sikker e-posttjeneste for kritiske kontoer. Det bør også nevnes at noen tjenester begrenser lengden på passord, så det er viktig å være oppmerksom på denne begrensningen. Tjenester er også tilgjengelige for å opprette midlertidige e-postadresser, som kan brukes for kontoer med begrenset varighet.
 
 Det er viktig å vurdere at eldre e-postleverandører som La Poste, Arobase, Wig, Hotmail, fortsatt brukes, men deres sikkerhetspraksis kan ikke være like god som de hos Gmail. Derfor anbefales det å ha to separate e-postadresser, en for generell kommunikasjon og den andre for oppretting av kontoer, med sistnevnte bedre sikret. Det er best å unngå å blande e-postadressen med den fra din telefonoperatør eller internettleverandør, da dette kan være en angrepsvektor.
@@ -290,7 +304,9 @@ Det er viktig å vurdere at eldre e-postleverandører som La Poste, Arobase, Wig
 Det er anbefales å bruke nettstedet Have I Been Pwned (https://haveibeenpwned.com/) for å sjekke om din e-postadresse har blitt kompromittert og for å bli varslet om fremtidige datainnbrudd. En hacket database kan utnyttes av hackere for å sende phishing-e-poster eller gjenbruke kompromitterte passord.
 
 ![image](assets/nb-NO/016.webp)
+
 Generelt er det å begynne å bruke en ny, sikrere e-postadresse ikke en dårlig praksis og til og med nødvendig hvis man ønsker å starte på nytt med et sikrere utgangspunkt.
+
 Bonus Bitcoin: Det kan være lurt å opprette en spesifikk e-postadresse for dine Bitcoin-aktiviteter (opprette børs-kontoer) for å virkelig skille disse av livets aktiviteter med resten av livet.
 
 https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
@@ -298,6 +314,8 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 ## Passordbehandler
 
 <chapterId>0b3c69b2-522c-56c8-9fb8-1562bd55930f</chapterId>
+
+:::video id=106b6f17-a5c1-4155-abdf-043ce469d45b:::
 
 ### Hva er en passordbehandler?
 
@@ -310,7 +328,7 @@ Med en passordbehandler trenger du ikke lenger å bekymre deg for å glemme pass
 - LastPass: En av de mest populære passordbehandlerne. Det er en tredjepartstjeneste, noe som betyr at passordene dine lagres på deres servere. Den tilbyr en gratisversjon og en betalt versjon, med et brukervennlig grensesnitt.
 - Dashlane: Dette er også en tredjepartstjeneste, med et intuitivt grensesnitt og ekstra funksjoner som sporing av kredittkortinformasjon og sikre notater.
 
-  ![image](assets/nb-NO/017.webp)
+![image](assets/nb-NO/017.webp)
 
 ### Selvlagring (self-hosting) for mer kontroll:
 
@@ -347,6 +365,8 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 <chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>
 
+:::video id=10fede6f-c839-4455-b324-e887c502667e:::
+
 ### Hvorfor implementere 2FA
 
 To-faktor autentisering (2FA) er et ekstra lag med sikkerhet som brukes for å sikre at personene som forsøker å få tilgang til en nettbasert konto virkelig er den de hevder å være. I stedet for å bare skrive inn et brukernavn og passord, krever 2FA en sekundær form for verifisering.
@@ -358,7 +378,8 @@ Dette andre steget kan være:
 - En fysisk sikkerhetsnøkkel som du setter inn i datamaskinen din.
 
 ![image](assets/nb-NO/019.webp)
-  Med 2FA, selv om en hacker får tak i passordet ditt, vil de ikke kunne få tilgang til kontoen din uten denne andre verifiseringsfaktoren. Dette gjør 2FA essensielt for å beskytte dine nettbaserte kontoer mot uautorisert tilgang.
+
+Med 2FA, selv om en hacker får tak i passordet ditt, vil de ikke kunne få tilgang til kontoen din uten denne andre verifiseringsfaktoren. Dette gjør 2FA essensielt for å beskytte dine nettbaserte kontoer mot uautorisert tilgang.
 
 ### Hvilket alternativ skal man velge?
 
@@ -476,6 +497,8 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 <chapterId>aad1ae27-4280-5b07-b9ab-118ae013951a</chapterId>
 
+:::video id=4c818b5c-ea5d-496a-8e82-bc5d96d91430:::
+
 ### Cybersikkerhet: Et voksende felt med uendelige muligheter
 
 Hvis du er lidenskapelig opptatt av å beskytte systemer og data, tilbyr feltet innen cybersikkerhet en mengde muligheter. Hvis denne industrien er noe som interesserer deg, her er noen nøkkelsteg for å veilede deg.
@@ -513,6 +536,8 @@ Ved å mestre disse ferdighetene og verktøyene, vil du være godt rustet til å
 ## Intervju med Renaud
 
 <chapterId>7d83fd98-ce22-514e-b9e8-729fbf71ee6e</chapterId>
+
+:::video id=ec7014aa-5ebe-444c-80d1-7b14f1fe7bb8:::
 
 ### Effektiv passordhåndtering og styrking av autentisering: En akademisk tilnærming
 

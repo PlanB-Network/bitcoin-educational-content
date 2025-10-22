@@ -118,7 +118,7 @@ Puedes ver el segundo texto cifrado en la *Figura 2* de abajo. La clave de este 
 
 *Figura 1: Cifrado Beale no. 2*
 
-![Figure 1: Beale cipher no 2.](assets/Figure1-1.webp "Figure 1: Beale cipher no. 2")
+![Figure 1: Beale cipher no 2.](assets/en/001.webp "Figure 1: Beale cipher no. 2")
 
 Por ejemplo, el primer número del segundo texto cifrado es 115. La palabra 115 de la Declaración de Independencia es "instituido". La palabra 115 de la Declaración de Independencia es "instituyó", por lo que la primera letra del texto plano es "i" El texto cifrado no indica directamente el espaciado entre palabras ni las mayúsculas. Pero tras descifrar las primeras palabras, se puede deducir lógicamente que la primera palabra del texto plano era simplemente "I" (El texto plano comienza con la frase "He depositado en el condado de Bedford")
 
@@ -281,7 +281,7 @@ Los valores posibles y las probabilidades asociadas de una variable aleatoria pu
 
 *Figura 1: Variable aleatoria X*
 
-![Figure 1: Random variable X.](assets/Figure2-1.webp)
+![Figure 1: Random variable X.](assets/en/002.webp)
 
 Las barras anchas de la *Figura 1* obviamente no pretenden sugerir que la variable aleatoria $X$ sea realmente continua. En cambio, las barras son anchas para que resulten más atractivas visualmente (una simple línea recta hacia arriba proporciona una visualización menos intuitiva).
 
@@ -319,7 +319,7 @@ En la *Figura 2* se ofrece una representación gráfica de $Y$.
 
 *Figura 2: Variable aleatoria Y*
 
-![Figure 2: Random variable Y.](assets/Figure2-2.webp "Figure 2: Random variable Y")
+![Figure 2: Random variable Y.](assets/en/003.webp "Figure 2: Random variable Y")
 
 Como último ejemplo, consideremos la variable aleatoria Z. Tiene el conjunto de resultados ${1,3,7,11,12}$ y la siguiente distribución de probabilidad:
 
@@ -347,7 +347,7 @@ Puedes verlo representado en la *Figura 3*. La variable aleatoria Z es, a difere
 
 *Figura 3: Variable aleatoria Z*
 
-![Figure 3: Random variable Z.](assets/Figure2-3.webp "Figure 3: Random variable Z")
+![Figure 3: Random variable Z.](assets/en/004.webp "Figure 3: Random variable Z")
 
 ### Probabilidad condicional
 
@@ -1009,11 +1009,11 @@ Bob cifra el mensaje $M$ en el tiempo $T_0$ con la clave $K$ para producir el te
 
 *Figura 1: Secreto a través del espacio*
 
-![Figure 1: Secrecy across space](assets/Figure4-1.webp "Figure 1: Secrecy across space")
+![Figure 1: Secrecy across space](assets/en/005.webp "Figure 1: Secrecy across space")
 
 *Figura 2: Secretismo a lo largo del tiempo*
 
-![Figure 2: Secrecy across time](assets/Figure4-2.webp "Figure 2: Secrecy across time")
+![Figure 2: Secrecy across time](assets/en/006.webp "Figure 2: Secrecy across time")
 
 ## Un ejemplo: El cifrado por turnos
 
@@ -1115,7 +1115,7 @@ En la *Figura 3* se muestra un cifrado de flujo XOR típico. Primero se toma una
 
 *Figura 3: Cifrado de flujo XOR*
 
-![Figure 3: An XOR stream cipher](assets/Figure4-3.webp "Figure 3: An XOR stream cipher")
+![Figure 3: An XOR stream cipher](assets/en/007.webp "Figure 3: An XOR stream cipher")
 
 Recuerda que un esquema de cifrado suele ser una plantilla de cifrado con el mismo algoritmo central, y no una especificación exacta. Por extensión, un cifrado de flujo es normalmente una plantilla de cifrado en la que se pueden utilizar claves de diferentes longitudes. Aunque la longitud de la clave puede afectar a algunos detalles menores del esquema, no afectará a su forma esencial.
 
@@ -1199,7 +1199,7 @@ La *Figura 4* muestra cómo funciona un cifrado por bloques. Un mensaje $M$ de l
 
 *Figura 4: Cifrado por bloques*
 
-![Figure 4: A block cipher](assets/Figure4-4.webp "Figure 4: A block cipher")
+![Figure 4: A block cipher](assets/en/008.webp "Figure 4: A block cipher")
 
 Un cifrado por bloques en sí mismo no es un esquema de cifrado. Pero un cifrado por bloques puede utilizarse con varios **modos de operación** para producir diferentes esquemas de cifrado. Un modo de operación simplemente añade algunas operaciones adicionales fuera del cifrado por bloques.
 
@@ -1207,7 +1207,7 @@ Para ilustrar cómo funciona, supongamos un cifrado por bloques (BC) que requier
 
 *Figura 5: Cifrado por bloques con modo BCE*
 
-![Figure 5: A block cipher with ECB mode](assets/Figure4-5.webp "Figure 5: A block cipher with ECB mode")
+![Figure 5: A block cipher with ECB mode](assets/en/009.webp "Figure 5: A block cipher with ECB mode")
 
 El proceso de cifrado de libros de códigos electrónicos con el cifrado por bloques es el siguiente. Comprueba si puedes dividir tu mensaje de texto plano en bloques de 128 bits. Si no es así, añada **acolchado** al mensaje, de modo que el resultado pueda dividirse uniformemente por el tamaño de bloque de 128 bits. Estos son los datos utilizados para el proceso de cifrado.
 
@@ -1223,7 +1223,7 @@ El **modo de encadenamiento de cifrado por bloques** (**modo CBC**) es probablem
 
 *Figura 6: Cifrado por bloques en modo CBC*
 
-![Figure 6: A block cipher with CBC mode](assets/Figure4-6.webp "Figure 6: A block cipher with CBC mode")
+![Figure 6: A block cipher with CBC mode](assets/en/010.webp "Figure 6: A block cipher with CBC mode")
 
 Supongamos que el tamaño del bloque vuelve a ser de 128 bits. Para empezar, tendrías que asegurarte de que tu mensaje de texto plano original recibe el relleno necesario.
 
@@ -1239,7 +1239,7 @@ Por último, vamos a centrarnos en el **modo de realimentación de salida** (**m
 
 *Figura 7: Cifrado por bloques en modo OFB*
 
-![Figure 7: A block cipher with OFB mode](assets/Figure4-7.webp "Figure 7: A block cipher with OFB mode")
+![Figure 7: A block cipher with OFB mode](assets/en/011.webp "Figure 7: A block cipher with OFB mode")
 
 Con el modo OFB también se selecciona un vector de inicialización. Pero aquí, para el primer bloque, el vector de inicialización se inserta directamente en el cifrado por bloques con su clave. Los 128 bits resultantes se tratan como un flujo de claves. Este flujo de claves se combina con el texto plano para obtener el texto cifrado del bloque. Para los bloques siguientes, se utiliza el flujo de claves del bloque anterior como entrada en el cifrado por bloques y se repiten los pasos.
 
@@ -1285,7 +1285,7 @@ A partir de esta discusión, ahora deberías entender la *Figura 8*. Proporciona
 
 *Figura 8: Visión general de los esquemas de cifrado simétrico*
 
-![Figure 8: Overview of symmetric encryption schemes](assets/Figure4-8.webp "Figure 8: Overview of symmetric encryption schemes")
+![Figure 8: Overview of symmetric encryption schemes](assets/en/012.webp "Figure 8: Overview of symmetric encryption schemes")
 
 ## Códigos de autenticación de mensajes
 
@@ -1309,7 +1309,7 @@ El proceso se muestra en la *Figura 9*. Para utilizar un **MAC** (Código de Aut
 
 *Figura 9: Visión general de los esquemas de cifrado simétrico*
 
-![Figure 9: Overview of symmetric encryption schemes](assets/Figure4-9.webp "Figure 9: Overview of symmetric encryption schemes")
+![Figure 9: Overview of symmetric encryption schemes](assets/en/013.webp "Figure 9: Overview of symmetric encryption schemes")
 
 Debido a la **imposibilidad de falsificación existencial**, un atacante no puede alterar el mensaje $M$ de ninguna manera ni crear un mensaje propio con una etiqueta válida. Esto es así, incluso si el atacante observa las etiquetas de muchos mensajes entre Bob y Alice que utilizan la misma clave privada. Como mucho, un atacante podría impedir que Alice recibiera el mensaje $M$ (un problema que la criptografía no puede resolver).
 
@@ -1341,7 +1341,7 @@ Alice comprueba primero si la etiqueta es válida dado el texto cifrado $C$ y la
 
 *Figura 10: Esquema de encriptación autenticada*
 
-![Figure 10: An authenticated encryption scheme](assets/Figure4-10.webp "Figure 10: An authenticated encryption scheme")
+![Figure 10: An authenticated encryption scheme](assets/en/014.webp "Figure 10: An authenticated encryption scheme")
 
 ¿Cómo se crean las MAC? Aunque las MAC pueden crearse mediante múltiples métodos, una forma común y eficiente de crearlas es mediante **funciones hash criptográficas**.
 
@@ -1353,7 +1353,7 @@ Existe una paleta de funciones hash que pueden utilizarse para crear un HMAC. La
 
 *Figura 11: HMAC*
 
-![Figure 11: HMAC](assets/Figure4-11.webp "Figure 11: HMAC")
+![Figure 11: HMAC](assets/en/015.webp "Figure 11: HMAC")
 
 **Notas:**
 
@@ -1391,7 +1391,7 @@ La sesión de comunicación comienza con Bob enviando un texto cifrado $C_{0,B}$
 
 *Figura 12: Una sesión de comunicación segura*
 
-![Figure 12: A secure communication session](assets/Figure4-12.webp "Figure 12: A secure communication sessesion")
+![Figure 12: A secure communication session](assets/en/016.webp "Figure 12: A secure communication sessesion")
 
 # RC4 y AES
 
@@ -1526,7 +1526,7 @@ Llamemos a la clave $K_0$. La construcción con los parámetros anteriores tiene
 
 *Figura 1: AES-ECB con una clave de 128 bits*
 
-![Figure 1: AES-ECB with a 128-bit key](assets/Figure5-1.webp "Figure 1: AES-ECB with a 128-bit key")
+![Figure 1: AES-ECB with a 128-bit key](assets/en/017.webp "Figure 1: AES-ECB with a 128-bit key")
 
 Cada bloque de texto de 128 bits pasa por diez rondas en el esquema de cifrado Rijndael. Esto requiere una clave distinta para cada ronda (de $K_1$ a $K_{10}$). Éstas se producen para cada ronda a partir de la clave original de 128 bits $K_0$ utilizando un **algoritmo de expansión de claves**. Por lo tanto, para cada bloque de texto a cifrar, utilizaremos la clave original $K_0$ y diez claves de ronda distintas. Tenga en cuenta que estas mismas 11 claves se utilizan para cada bloque de texto plano de 128 bits que requiera cifrado.
 
@@ -1801,7 +1801,7 @@ Más adelante, Bob quiere escribir un mensaje $M$ a Alice. Como incluye informac
 
 *Figura 1: Cifrado asimétrico*
 
-![Figure 1: Asymmetric encryption](assets/Figure6-1.webp "Figure 1: Asymmetric encryption")
+![Figure 1: Asymmetric encryption](assets/en/018.webp "Figure 1: Asymmetric encryption")
 
 Cualquier adversario que escuche la comunicación entre Bob y Alice puede observar $C$. También conoce $K_P$ y el algoritmo de cifrado $E(\cdot)$. Sin embargo, es importante destacar que esta información no permite al atacante descifrar el texto cifrado $C$. El descifrado requiere específicamente $K_S$, que el atacante no posee.
 
@@ -1825,7 +1825,7 @@ Una firma digital es, como su nombre indica claramente, el equivalente digital d
 
 *Figura 2: Autenticación asimétrica*
 
-![Figure 2: Asymmetric authentication](assets/Figure6-2.webp "Figure 2: Asymmetric authentication")
+![Figure 2: Asymmetric authentication](assets/en/019.webp "Figure 2: Asymmetric authentication")
 
 Al igual que ocurre con el cifrado asimétrico, observamos un interesante contraste entre las firmas digitales y los códigos de autenticación de mensajes. En el caso de estos últimos, el algoritmo de verificación sólo puede ser empleado por una de las partes conocedoras de la comunicación segura. Esto se debe a que requiere una clave privada. Sin embargo, en la configuración asimétrica, cualquiera puede verificar una firma digital $S$ realizada por Bob.
 

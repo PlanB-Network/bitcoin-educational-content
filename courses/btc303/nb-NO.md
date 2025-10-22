@@ -112,7 +112,7 @@ Det er to hovedaspekter ved desentralisering i Bitcoin: Desentralisering i Miner
 Miner desentralisering refererer til det faktum at transaksjonsbehandling ikke utføres eller koordineres av noen sentral enhet. Full node desentralisering refererer til det faktum at validering av blokkene, dvs. dataene som utvinnerne produserer, gjøres i utkanten av nettverket, i siste instans av brukerne, og ikke av noen få betrodde myndigheter.
 
 
-![](assets/decentralization-banner.webp)
+![](assets/en/001.webp)
 
 
 ### Miner desentralisering
@@ -276,7 +276,7 @@ Måten Bitcoin fungerer på gjennom desentralisering, ligner den ekstraordinære
 Hun påpeker at mange systemer, både naturlige og kunstige, kan fungere og fungerer uten ledere, og at de er kraftfulle og motstandsdyktige. Hvert enkelt individ samhandler bare med sine umiddelbare omgivelser, men sammen utgjør de noe enormt.
 
 
-![](assets/fishschool.webp)
+![](assets/en/002.webp)
 
 *Fiskestimer har ingen ledere*
 
@@ -302,7 +302,7 @@ Desentraliserte systemer kan være vanskelig å forstå, men det finnes noen men
 
 
 
-![](assets/trustlessness-banner.webp)
+![](assets/en/003.webp)
 
 
 I dette kapittelet dissekerer vi begrepet tillitsløshet, hva det betyr fra et datavitenskapelig perspektiv, og hvorfor Bitcoin må være Trustless for å beholde sitt verdiforslag.
@@ -453,7 +453,7 @@ Uten tillit kan vi ikke ha desentralisering, fordi tillit uunngåelig innebærer
 
 
 
-![](assets/privacy-banner.webp)
+![](assets/en/004.webp)
 
 
 Dette kapittelet handler om hvordan du kan holde din private økonomiske informasjon for deg selv. Det forklarer hva personvern står for i forbindelse med Bitcoin, hvorfor det er viktig, og hva det betyr å si at Bitcoin er pseudonymt. Det ser også på hvordan private data kan lekke, både On-Chain og off-chain.
@@ -533,7 +533,7 @@ Satoshi Nakamoto funderer over On-Chain personvern i avsnitt 7 i [Bitcoin whitep
 Artikkelen oppsummerer hovedproblemene med Blockchain personvern, nemlig Address gjenbruk og Address klyngedannelse. Det første er selvforklarende, mens det siste dreier seg om muligheten til å avgjøre, med en viss grad av sikkerhet, at et sett med forskjellige adresser tilhører samme bruker.
 
 
-![](assets/address-reuse-clustering.webp)
+![](assets/en/005.webp)
 
 
 Typiske personvernlekkasjer på Blockchain
@@ -673,7 +673,7 @@ For å få et anstendig personvern i Bitcoin må du iverksette aktive tiltak, hv
 
 
 
-![](assets/finitesupply-banner.webp)
+![](assets/en/006.webp)
 
 
 Dette kapittelet ser nærmere på Bitcoin Supply-grensen på 21 millioner BTC, eller hvor mye er den egentlig? Vi snakker om hvordan denne grensen håndheves, og hva man kan gjøre for å kontrollere at den respekteres. I tillegg tar vi en titt inn i krystallkulen og diskuterer dynamikken som vil oppstå når Block reward går fra å være subsidiebasert til å bli avgiftsbasert.
@@ -785,7 +785,7 @@ Hvorvidt Bitcoin Supply vil vokse forbi 21 millioner kan vi ikke si i dag, og de
 
 
 
-![](assets/upgrading-banner.webp)
+![](assets/en/007.webp)
 
 
 Det kan være svært vanskelig å oppgradere Bitcoin på en sikker måte. Noen endringer tar flere år å rulle ut. I dette kapittelet lærer vi om det vanlige vokabularet rundt oppgradering av Bitcoin, og utforsker noen eksempler på historiske oppgraderinger av protokollen samt innsikten vi har fått fra dem. Til slutt snakker vi om kjedesplittinger og risikoen og kostnadene knyttet til dem.
@@ -1025,7 +1025,7 @@ For å holde Bitcoin i harmoni har Soft-gaffler vist seg å være veien å gå, 
 <chapterId>d4982f3d-4694-51cc-99be-28f54b03a2a2</chapterId>
 
 
-![](assets/adversarialthinking-banner.webp)
+![](assets/en/008.webp)
 
 
 Dette kapittelet tar for seg *kontradisjonell tenkning*, et tankesett som fokuserer på hva som kan gå galt og hvordan motstandere kan handle. Vi begynner med å diskutere Bitcoins sikkerhetsforutsetninger og sikkerhetsmodell, og deretter forklarer vi hvordan vanlige brukere kan forbedre sin egen suverenitet og Bitcoins Full node-desentralisering ved å tenke kontradiktorisk. Deretter ser vi på noen faktiske trusler mot Bitcoin og på hvordan motstanderen tenker. Til slutt snakker vi om *motstandens aksiom*, som kan hjelpe deg å forstå hvorfor folk jobber med Bitcoin i utgangspunktet.
@@ -1099,7 +1099,7 @@ Ovennevnte er eksempler på reelle trusler som må tas hånd om.
 ### Enkelt sabotasjefelt
 
 
-![](assets/sabotage-manual.webp)
+![](assets/en/009.webp)
 
 
 Utdrag fra håndboken Simple Sabotage Field Manual
@@ -1150,7 +1150,7 @@ For å beskytte Bitcoin må man kjenne fiendene og deres insentiver. De fleste t
 
 
 
-![](assets/opensource-banner.webp)
+![](assets/en/010.webp)
 
 
 Bitcoin er bygget ved hjelp av programvare med åpen kildekode. I dette kapittelet analyserer vi hva dette innebærer, hvordan vedlikehold av programvaren fungerer, og hvordan åpen kildekode i Bitcoin muliggjør utvikling uten tillatelse. Vi dypper tærne i *valgkryptografi*, som handler om valg og bruk av biblioteker i kryptografiske systemer. Kapittelet inneholder et avsnitt om Bitcoins vurderingsprosess, etterfulgt av et annet om hvordan Bitcoin-utviklere får finansiering. Den siste delen handler om hvordan Bitcoins åpen kildekode-kultur kan se veldig rar ut fra utsiden, og hvorfor denne oppfattede rarheten egentlig er et sunnhetstegn.
@@ -1438,7 +1438,7 @@ Utviklingsprosessen rundt Bitcoin er radikalt åpen, noe som kan få Bitcoin til
 
 
 
-![](assets/scaling-banner.webp)
+![](assets/en/011.webp)
 
 
 
@@ -1585,7 +1585,7 @@ En tilnærming som blir altfor lite verdsatt, er det vi kan kalle *inward scalin
 Forbedringene som har blitt oppnådd gjennom innskalering er mildt sagt imponerende. For å gi deg en generell idé om forbedringene gjennom årene, har Jameson Lopp [kjørt referansetester](https://blog.lopp.net/Bitcoin-core-performance-evolution/) på Blockchain-synkronisering, og sammenlignet mange forskjellige versjoner av Bitcoin Core helt tilbake til versjon 0.8.
 
 
-![](assets/Bitcoin-Core-Sync-Performance-1.webp)
+![](assets/en/012.webp)
 
 
 Innledende blokknedlastingsytelse for ulike versjoner av Bitcoin Core. På Y-aksen er blokkhøyden synkronisert, og på X-aksen er tiden det tok å synkronisere til den høyden
@@ -1600,7 +1600,7 @@ Forbedringene kan kategoriseres som enten plassbesparelser (RAM, disk, båndbred
 Et godt eksempel på beregningsforbedringer finnes i biblioteket [libsecp256k1](https://github.com/Bitcoin-core/secp256k1), som blant annet implementerer de kryptografiske primitivitetene som trengs for å lage og verifisere digitale signaturer. Pieter Wuille er en av bidragsyterne til dette biblioteket, og han har skrevet en [Twitter-tråd](https://twitter.com/pwuille/status/1450471673321381896) som viser ytelsesforbedringene som er oppnådd gjennom ulike pull-forespørsler.
 
 
-![](assets/libsecp256k1speedups.webp)
+![](assets/en/013.webp)
 
 
 Utførelse av signaturverifisering over tid, med viktige pull-forespørsler markert på tidslinjen
@@ -1614,7 +1614,7 @@ Det finnes også flere gode eksempler på plassbesparende forbedringer som har b
 [Medium-blogginnlegg](https://murchandamus.medium.com/2-of-3-Multisig-inputs-using-Pay-to-Taproot-d5faf2312ba3) om Taproots bidrag til å spare plass, sammenligner brukeren Murch hvor mye blokkplass en 2-av-3-terskelsignatur vil kreve, både ved å bruke Taproot på ulike måter og ved å ikke bruke den i det hele tatt.
 
 
-![](assets/murch-taproot.webp)
+![](assets/en/014.webp)
 
 
 Plassbesparelser for ulike utgiftstyper, Taproot og eldre versjoner.
@@ -1629,7 +1629,7 @@ Bortsett fra innskalering i Bitcoin-programvaren, finnes det også noen måter b
 Ideen med transaksjonsbatching er å kombinere flere betalinger i én enkelt transaksjon, i stedet for å foreta én transaksjon per betaling. Dette kan spare deg for mange gebyrer, samtidig som det reduserer belastningen på blokkplassen.
 
 
-![](assets/tx-batching.webp)
+![](assets/en/015.webp)
 
 
 Batching av transaksjoner kombinerer flere betalinger i én enkelt transaksjon for å spare gebyrer.
@@ -1638,7 +1638,7 @@ Batching av transaksjoner kombinerer flere betalinger i én enkelt transaksjon f
 Konsolidering av utdata betyr at man utnytter perioder med lav etterspørsel etter blokkplass til å slå sammen flere utdata til én enkelt utdata. Dette kan redusere gebyrkostnadene senere, når du må foreta en betaling mens etterspørselen etter blokkplass er høy.
 
 
-![](assets/utxo-consolidation.webp)
+![](assets/en/016.webp)
 
 
 Konsolidering av utdata: Smelt myntene dine sammen til én stor mynt når avgiftene er lave, for å spare avgifter senere.
@@ -1660,7 +1660,7 @@ Den mest effektive tilnærmingen til skalering er sannsynligvis lagdeling. Den g
 En lagdelt protokoll begynner med at to eller flere personer blir enige om en starttransaksjon som legges på Blockchain, som illustrert i figuren nedenfor.
 
 
-![](assets/scaling-layer.webp)
+![](assets/en/017.webp)
 
 En typisk Layer 2-protokoll på toppen av Bitcoin, Layer 1.
 
@@ -1714,7 +1714,7 @@ Vi vet i dag at Bitcoin ikke skalerer godt vertikalt ("kjøp større maskinvare"
 
 
 
-![](assets/shtf-banner.webp)
+![](assets/en/018.webp)
 
 Bitcoin er bygget av mennesker. Det er mennesker som skriver programvaren, og det er mennesker som kjører den. Når et sikkerhetshull eller en alvorlig feil oppdages - er det egentlig noe skille mellom de to? - er det alltid mennesker av kjøtt og blod som oppdager det. Dette kapittelet tar for seg hva folk gjør, bør og ikke bør gjøre når dritten treffer viften. Den første delen forklarer begrepet *ansvarlig avsløring*, som refererer til hvordan en person som oppdager en sårbarhet, kan opptre ansvarlig for å bidra til å minimere skaden. Resten av kapittelet tar deg med på en omvisning i noen av de mest alvorlige sårbarhetene som er oppdaget opp gjennom årene, og hvordan de ble håndtert av utviklere, utvinnere og brukere. I Bitcoins tidlige barndom var det ikke like strenge regler som det er i dag.
 
@@ -2059,7 +2059,7 @@ Den fullstendige avsløringen av dette problemet ble publisert 28. juli 2015 av 
 I e-posten redegjør han for detaljene rundt hvordan problemet ble oppdaget, og mer nøyaktig hva som forårsaket det. Til slutt legger han frem en tidslinje over hendelsene, og vi vil gjengi noen av de viktigste her. Noen av dem har, som illustrert i figuren over, allerede blitt beskrevet.
 
 
-![](assets/bip66-timeline-1.webp)
+![](assets/en/019.webp)
 
 
 Tidslinje over hendelser rundt BIP66. Punktene i svart har blitt forklart ovenfor.
@@ -2097,7 +2097,7 @@ Disse hendelsene kan gi deg inntrykk av at Gregory Maxwell visste om sårbarhete
 Deretter ble BIP66, som foreslått av Maxwell, opprettet som en delmengde av BIP62 som bare spesifiserte streng DER-koding. Denne BIP-en ble tilsynelatende bredt akseptert og tatt i bruk i juli, selv om det ironisk nok oppstod to Blockchain-splittinger på grunn av *valideringsløse Mining*. Disse splittelsene blir diskutert i neste avsnitt.
 
 
-![](assets/bip66-timeline-2.webp)
+![](assets/en/020.webp)
 
 
 En viktig lærdom av dette er at BIP-er bør være mer eller mindre *atomiske*, noe som betyr at de bør være komplette nok til å gi noe nyttig eller løse et spesifikt problem, men små nok til at de kan få bred støtte blant brukerne. Jo mer du putter inn i en BIP, desto mindre er sjansen for at den blir akseptert.
@@ -2118,7 +2118,7 @@ På varslingssiden ble folk bedt om å vente på 30 ekstra bekreftelser enn de n
 Splitten nevnt ovenfor skjedde 2015-07-04 kl. 02:10 UTC etter blokkhøyde [363730](https://Mempool.space/block/000000000000000006a320d752b46b532ec0f3f815c5dae467aff5715a6e579e). Dette problemet ble løst kl. 03:50 samme dag, etter at 6 ugyldige blokker hadde blitt utvunnet. Dessverre skjedde det samme problemet igjen dagen etter, dvs. den 2015-07-05 kl. 21:50, men denne gangen varte den ugyldige grenen bare i 3 blokker.
 
 
-![](assets/bip66-timeline-3.webp)
+![](assets/en/021.webp)
 
 Hendelsene som ledet opp til BIP66, utplasseringen og ettervirkningene er et godt eksempel på hvor forsiktige Bitcoin-utviklere må være. Noen viktige lærdommer fra BIP66:
 

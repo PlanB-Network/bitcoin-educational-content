@@ -6,7 +6,7 @@ description: घर से आसानी से Mining बनाना।
 
 
 
-### परिचय
+## परिचय
 
 
 
@@ -18,7 +18,7 @@ description: घर से आसानी से Mining बनाना।
 
 
 
-### बीएमएम 100 का अवलोकन
+## बीएमएम 100 का अवलोकन
 
 
 
@@ -46,7 +46,7 @@ description: घर से आसानी से Mining बनाना।
 
 
 
-### मिनी Miner को जोड़ना
+## मिनी Miner को जोड़ना
 
 
 
@@ -54,7 +54,7 @@ description: घर से आसानी से Mining बनाना।
 
 
 
-### विन्यास
+## विन्यास
 
 
 
@@ -74,7 +74,7 @@ description: घर से आसानी से Mining बनाना।
 
 
 
-### सामान्य सेटिंग्स
+## सामान्य सेटिंग्स
 
 
 
@@ -110,7 +110,7 @@ description: घर से आसानी से Mining बनाना।
 
 
 
-### Mining pool से कनेक्शन
+## Mining pool से कनेक्शन
 
 
 
@@ -142,7 +142,7 @@ https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a
 
 https://planb.network/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-#### ब्रेन्स पूल
+### ब्रेन्स पूल
 
 
 
@@ -236,7 +236,7 @@ https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a
 
 
 
-#### सार्वजनिक पूल
+### सार्वजनिक पूल
 
 
 

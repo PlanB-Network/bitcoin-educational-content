@@ -1161,6 +1161,10 @@ Daarnaast zijn er verschillende [marktplaatsen](https://planb.network/tutorials/
 
 Tot slot is het belangrijk op te merken dat belastingverplichtingen kunnen variëren afhankelijk van de jurisdictie, dus we raden je ten zeerste aan de regelgeving in je land te raadplegen voordat je acties onderneemt die je in gevaar kunnen brengen.
 
+Als u uw kennis wilt verdiepen over strategieën voor het kopen, gebruiken en beveiligen van uw bitcoins, raad ik u ten zeerste aan om na deze cursus de cursus **BTC 102** te volgen. Daar ontdekt u onder andere aanbevelingen voor hulpmiddelen die zijn afgestemd op uw profiel, behoeften en persoonlijke doelen:
+
+https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+
 ## Hyper-bitcoinisatie
 
 <chapterId>b7275d31-3b60-5fb7-b9f5-030097010553</chapterId>

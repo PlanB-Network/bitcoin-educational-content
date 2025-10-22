@@ -6,7 +6,7 @@ description: Membuat Mining dengan mudah dari rumah.
 
 
 
-### Pendahuluan
+## Pendahuluan
 
 
 
@@ -18,7 +18,7 @@ Anda juga dapat menemukan informasi yang jauh lebih penting dengan membaca pandu
 
 
 
-### Gambaran umum tentang BMM 100
+## Gambaran umum tentang BMM 100
 
 
 
@@ -46,7 +46,7 @@ sementara di sisi belakang terdapat: lubang untuk daya, ruang untuk kartu SD (ya
 
 
 
-### Menghubungkan Mini Miner
+## Menghubungkan Mini Miner
 
 
 
@@ -54,7 +54,7 @@ Anda perlu menghubungkan perangkat ke internet melalui ethernet, namun dengan ve
 
 
 
-### Konfigurasi
+## Konfigurasi
 
 
 
@@ -74,7 +74,7 @@ Untuk masuk, Anda harus memasukkan `root` sebagai nama pengguna Anda, sementara 
 
 
 
-### Pengaturan umum
+## Pengaturan umum
 
 
 
@@ -110,7 +110,7 @@ Setelah Anda membuat perubahan, klik `Simpan Perubahan` dan Anda akan melihat pe
 
 
 
-### Koneksi ke Mining pool
+## Koneksi ke Mining pool
 
 
 
@@ -142,7 +142,7 @@ Pilihan kedua adalah menghubungkan kita ke Mining pool yang mina di solo, sepert
 
 https://planb.network/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-#### Kolam renang Braiins
+### Kolam renang Braiins
 
 
 
@@ -236,7 +236,7 @@ jika Anda kembali ke dasbor, Anda akan mulai melihat pergerakan pada grafik dan 
 
 
 
-#### Kolam Renang Umum
+### Kolam Renang Umum
 
 
 

@@ -43,6 +43,8 @@ Tewo; intererano
 
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
+:::video id=de7236a0-2985-41ef-86f7-3fa0b7f94531:::
+
 
 **Intego: Guhindura ubuhinga bwawe bwo gucungera umutekano !**
 
@@ -126,6 +128,8 @@ Ni mwiteguye gukomeza umutekano wawe wa digitale no gusubira kugenzura amakuru y
 
 <chapterId>3a935da9-fa6e-57eb-bf85-7b3ec35e6ee2</chapterId>
 
+:::video id=f1cead27-ed41-4ca2-afd2-b08a994d0119:::
+
 
 Igihe uriko urarondera kuri internet, birahambaye cane ko wirinda amakosa asanzwe kugira ngo ugume ufise umutekano wo kuri internet. Akira inama zimwe zimwe zo kuzirinda:
 
@@ -186,6 +190,8 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 <chapterId>5aac83f4-a685-54b0-9759-d71bea7eeed2</chapterId>
 
+:::video id=737d30ac-43d8-4a69-afda-89b9d7e8c4e1:::
+
 
 ### VPNs
 
@@ -241,6 +247,8 @@ Mu ncamake, gukoresha VPN birashobora gutuma umutekano wo kuri internet utera im
 
 
 <chapterId>16745632-b56b-5423-9873-ddf70fdf1efd</chapterId>
+
+:::video id=35892007-5ea5-4956-bf80-3363d69c96d5:::
 
 
 Umutekano wa mudasobwa zacu ni ikintu gihambaye cane mw’isi y’ubu y’ubuhinga bwa none. Uyu musi, tuzogira Address ingingo zitatu z’ingenzi:
@@ -313,6 +321,8 @@ Mu gusozera, ni ngombwa guhitamwo ubuhinga bwo gukoresha bujanye n’ivyo ukeney
 
 <chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>
 
+:::video id=c6a2c152-f1ae-492c-8993-304d64cdda45:::
+
 
 ### None abasuma batera gute?
 
@@ -384,6 +394,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 <chapterId>dfceea33-8712-5557-ace1-6ba5598d33d8</chapterId>
 
+:::video id=75cc914d-9c11-4d3f-86a7-6faf2077f00f:::
+
 
 ### Gushinga konti nshasha ya imeyili!
 
@@ -428,6 +440,8 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 
 
 <chapterId>0b3c69b2-522c-56c8-9fb8-1562bd55930f</chapterId>
+
+:::video id=106b6f17-a5c1-4155-abdf-043ce469d45b:::
 
 
 ### Umucungerezi w’ijambobanga ni iki?
@@ -497,6 +511,8 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 
 <chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>
+
+:::video id=10fede6f-c839-4455-b324-e887c502667e:::
 
 
 ### Kubera iki gushira mu ngiro 2FA
@@ -680,6 +696,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 <chapterId>aad1ae27-4280-5b07-b9ab-118ae013951a</chapterId>
 
+:::video id=4c818b5c-ea5d-496a-8e82-bc5d96d91430:::
+
 
 ### Umutekano wo kuri Internet: Umurima uriko urakura ufise amahirwe atagira iherezo
 
@@ -732,6 +750,8 @@ Niwamenya neza ubwo buhinga n’ibikoresho, uzoba ufise ibikenewe vyose kugira n
 
 
 <chapterId>7d83fd98-ce22-514e-b9e8-729fbf71ee6e</chapterId>
+
+:::video id=ec7014aa-5ebe-444c-80d1-7b14f1fe7bb8:::
 
 
 ### Gucungera neza ijambobanga no gukomeza kwemeza: Uburyo bwo kwiga

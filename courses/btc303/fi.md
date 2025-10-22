@@ -112,7 +112,7 @@ Bitcoin:n hajauttamiseen liittyy kaksi tärkeää näkökohtaa: Miner:n hajautta
 Miner:n hajauttamisella tarkoitetaan sitä, että mikään keskusyksikkö ei suorita eikä koordinoi transaktioiden käsittelyä. Full node hajauttamisella tarkoitetaan sitä, että lohkojen eli louhijoiden tuottamien tietojen validointi tehdään verkon reunalla, viime kädessä sen käyttäjien toimesta, eikä muutamien luotettavien viranomaisten toimesta.
 
 
-![](assets/decentralization-banner.webp)
+![](assets/en/001.webp)
 
 
 ### Miner hajauttaminen
@@ -276,7 +276,7 @@ Bitcoin:n tapa toimia hajautetusti muistuttaa poikkeuksellista kollektiivista ä
 Hän huomauttaa, että monet järjestelmät, niin luonnolliset kuin keinotekoisetkin, voivat toimia ja toimivat ilman johtajia, ja ne ovat voimakkaita ja kestäviä. Kukin yksilö on vuorovaikutuksessa vain lähiympäristönsä kanssa, mutta yhdessä ne muodostavat jotain valtavaa.
 
 
-![](assets/fishschool.webp)
+![](assets/en/002.webp)
 
 *Kalakannoilla ei ole johtajia*
 
@@ -302,7 +302,7 @@ Hajautettuja järjestelmiä voi olla vaikea ymmärtää, mutta on olemassa menta
 
 
 
-![](assets/trustlessness-banner.webp)
+![](assets/en/003.webp)
 
 
 Tässä luvussa analysoidaan epäluotettavuuden käsitettä, mitä se tarkoittaa tietotekniikan näkökulmasta ja miksi Bitcoin:n on oltava Trustless säilyttääkseen arvolupauksensa.
@@ -453,7 +453,7 @@ Ilman luottamuksen puutetta ei voi olla hajauttamista, koska luottamukseen liitt
 
 
 
-![](assets/privacy-banner.webp)
+![](assets/en/004.webp)
 
 
 Tässä luvussa käsitellään sitä, miten voit pitää yksityiset taloudelliset tietosi omana tietonasi. Siinä selitetään, mitä yksityisyys tarkoittaa Bitcoin:n yhteydessä, miksi se on tärkeää ja mitä tarkoittaa, että Bitcoin on pseudonyymi. Siinä tarkastellaan myös sitä, miten yksityiset tiedot voivat vuotaa, sekä On-Chain että off-chain.
@@ -533,7 +533,7 @@ Satoshi Nakamoto pohtii On-Chain:n yksityisyyttä [Bitcoin whitepaperin](https:/
 Asiakirjassa esitetään yhteenveto Blockchain yksityisyyden suojan tärkeimmistä ongelmista, nimittäin Address uudelleenkäytöstä ja Address klusteroinnista. Ensimmäinen on itsestään selvä, jälkimmäisellä tarkoitetaan kykyä päättää tietyllä varmuudella, että joukko eri osoitteita kuuluu samalle käyttäjälle.
 
 
-![](assets/address-reuse-clustering.webp)
+![](assets/en/005.webp)
 
 
 Tyypillisiä Blockchain:n yksityisyysvuotoja
@@ -673,7 +673,7 @@ Saadaksesi kunnollisen yksityisyyden Bitcoin:ssa sinun on ryhdyttävä aktiivisi
 
 
 
-![](assets/finitesupply-banner.webp)
+![](assets/en/006.webp)
 
 
 Tässä luvussa tarkastellaan Bitcoin Supply-rajaa, joka on 21 miljoonaa BTC:tä, vai kuinka paljon se todellisuudessa on? Puhumme siitä, miten tätä rajaa valvotaan ja mitä voi tehdä varmistaakseen, että sitä noudatetaan. Lisäksi kurkistamme kristallipalloon ja keskustelemme dynamiikasta, joka astuu kuvaan, kun Block reward siirtyy tukipohjaisesta maksupohjaiseksi.
@@ -785,7 +785,7 @@ Sitä, kasvaako Bitcoin Supply yli 21 miljoonan, emme voi sanoa tänään, eikä
 
 
 
-![](assets/upgrading-banner.webp)
+![](assets/en/007.webp)
 
 
 Bitcoin:n päivittäminen turvallisella tavalla voi olla erittäin vaikeaa. Joidenkin muutosten käyttöönotto kestää useita vuosia. Tässä luvussa tutustumme Bitcoin:n päivittämiseen liittyvään yleiseen sanastoon ja tutkimme joitakin esimerkkejä sen protokollan historiallisista päivityksistä sekä niistä saatuja oivalluksia. Lopuksi puhumme ketjujen jakamisesta ja niihin liittyvistä riskeistä ja kustannuksista.
@@ -1025,7 +1025,7 @@ Bitcoin:n pitämiseksi sopusoinnussa Soft:n haarautuminen on osoittautunut oikea
 <chapterId>d4982f3d-4694-51cc-99be-28f54b03a2a2</chapterId>
 
 
-![](assets/adversarialthinking-banner.webp)
+![](assets/en/008.webp)
 
 
 Tässä luvussa käsitellään *vastapuoliajattelua*, ajattelutapaa, jossa keskitytään siihen, mikä voi mennä pieleen ja miten vastapuoli saattaa toimia. Aloitamme käsittelemällä Bitcoin:n turvallisuusoletuksia ja turvallisuusmallia, minkä jälkeen selitämme, miten tavalliset käyttäjät voivat parantaa itsemääräämisoikeuttaan ja Bitcoin:n Full node:n hajauttamista ajattelemalla vastakkainasettelua. Sen jälkeen tarkastelemme joitakin Bitcoin:ään kohdistuvia todellisia uhkia sekä vastustajan ajatuksia. Lopuksi puhumme *vastarinnan akselista*, joka voi auttaa ymmärtämään, miksi ihmiset ylipäätään työskentelevät Bitcoin:n parissa.
@@ -1099,7 +1099,7 @@ Edellä mainitut ovat esimerkkejä todellisista uhkista, joista on huolehdittava
 ### Yksinkertainen sabotaasikenttä
 
 
-![](assets/sabotage-manual.webp)
+![](assets/en/009.webp)
 
 
 Ote Yksinkertaisen sabotaasin kenttäoppaasta
@@ -1150,7 +1150,7 @@ Jotta Bitcoin pysyisi turvassa, sinun on tunnettava sen viholliset ja niiden kan
 
 
 
-![](assets/opensource-banner.webp)
+![](assets/en/010.webp)
 
 
 Bitcoin on rakennettu käyttäen avoimen lähdekoodin ohjelmistoja. Tässä luvussa analysoidaan, mitä tämä tarkoittaa, miten ohjelmiston ylläpito toimii ja miten Bitcoin:n avoimen lähdekoodin ohjelmistot mahdollistavat luvattoman kehityksen. Tutustumme *valintakryptografiaan*, joka käsittelee kirjastojen valintaa ja käyttöä kryptografisissa järjestelmissä. Luvussa on jakso Bitcoin:n tarkistusprosessista, jonka jälkeen on toinen jakso siitä, miten Bitcoin:n kehittäjät saavat rahoitusta. Viimeisessä jaksossa puhutaan siitä, miten Bitcoin:n avoimen lähdekoodin kulttuuri voi näyttää ulkopuolelta todella oudolta ja miksi tämä koettu outous on oikeastaan merkki hyvästä terveydestä.
@@ -1438,7 +1438,7 @@ Bitcoin:n kehitysprosessi on radikaalisti avoin, mikä voi saada Bitcoin:n näyt
 
 
 
-![](assets/scaling-banner.webp)
+![](assets/en/011.webp)
 
 
 
@@ -1585,7 +1585,7 @@ Aivan liian vähän arvostusta saa lähestymistapa, jota voidaan kutsua *sisäis
 Sisäisen skaalauksen avulla saavutetut parannukset ovat vähintäänkin vaikuttavia. Jotta saisit yleiskuvan vuosien varrella tapahtuneista parannuksista, Jameson Lopp [on suorittanut Blockchain:n synkronointia koskevia vertailuarvotestejä](https://blog.lopp.net/Bitcoin-core-performance-evolution/), joissa verrataan Bitcoin Coren monia eri versioita aina versiosta 0.8 asti.
 
 
-![](assets/Bitcoin-Core-Sync-Performance-1.webp)
+![](assets/en/012.webp)
 
 
 Bitcoin Core -ydinjärjestelmän eri versioiden alustava lohkolataussuoritus. Y-akselilla on synkronoidun lohkon korkeus ja X-akselilla aika, joka kului synkronointiin kyseiseen korkeuteen
@@ -1600,7 +1600,7 @@ Parannukset voidaan luokitella joko tilan (RAM-muisti, levy, kaistanleveys jne.)
 Hyvä esimerkki laskennallisesta parannuksesta on [libsecp256k1](https://github.com/Bitcoin-core/secp256k1) -kirjasto, joka muun muassa toteuttaa digitaalisten allekirjoitusten laatimiseen ja tarkistamiseen tarvittavat kryptografiset alkeet. Pieter Wuille on yksi tämän kirjaston tekijöistä, ja hän kirjoitti [Twitter-ketjun](https://twitter.com/pwuille/status/1450471673321381896), jossa esitellään eri pull request -pyynnöillä saavutettuja suorituskyvyn parannuksia.
 
 
-![](assets/libsecp256k1speedups.webp)
+![](assets/en/013.webp)
 
 
 Allekirjoitusten tarkastuksen suorituskyky ajan mittaan, ja aikajanalle on merkitty merkittävät vetopyynnöt
@@ -1614,7 +1614,7 @@ On myös useita hyviä esimerkkejä tilaa säästävistä parannuksista, jotka o
 [Medium-blogikirjoitus](https://murchandamus.medium.com/2-of-3-Multisig-inputs-using-Pay-to-Taproot-d5faf2312ba3) Taproot:n osuudesta tilan säästämiseen, käyttäjä Murch vertaa, kuinka paljon lohkotilaa 2:3-kynnysarvoinen allekirjoitus vaatisi käyttämällä Taproot:aa eri tavoin ja ilman sitä lainkaan.
 
 
-![](assets/murch-taproot.webp)
+![](assets/en/014.webp)
 
 
 Tilansäästö eri menotyypeille, Taproot ja vanhoille versioille.
@@ -1629,7 +1629,7 @@ Bitcoin-ohjelmiston sisäisen skaalautumisen lisäksi on joitakin tapoja, joilla
 Tapahtumien yhdistämisen ideana on yhdistää useita maksuja yhdeksi tapahtumaksi sen sijaan, että tehtäisiin yksi tapahtuma per maksu. Näin voit säästää paljon maksuja ja samalla vähentää lohkotilan kuormitusta.
 
 
-![](assets/tx-batching.webp)
+![](assets/en/015.webp)
 
 
 Maksutapahtumien yhdistäminen yhdistää useita maksuja yhdeksi maksutapahtumaksi ja säästää siten maksuja.
@@ -1638,7 +1638,7 @@ Maksutapahtumien yhdistäminen yhdistää useita maksuja yhdeksi maksutapahtumak
 Tuotosten yhdistämisellä tarkoitetaan lohkotilan vähäisen kysynnän kausien hyödyntämistä useiden tuotosten yhdistämiseksi yhdeksi tuotokseksi. Tämä voi vähentää maksukustannuksiasi myöhemmin, kun sinun on suoritettava maksu lohkotilan kysynnän ollessa korkealla.
 
 
-![](assets/utxo-consolidation.webp)
+![](assets/en/016.webp)
 
 
 Lähtöjen konsolidointi: Sulata kolikkosi yhdeksi isoksi kolikoksi, kun maksut ovat alhaiset, jotta säästät myöhemmin maksuja.
@@ -1660,7 +1660,7 @@ Vaikuttavin lähestymistapa skaalaamiseen on luultavasti kerrostaminen. Yleinen 
 Kerrosprotokolla alkaa siitä, että kaksi tai useampi henkilö sopii Blockchain:een laitettavasta aloitustapahtumasta, kuten alla olevassa kuvassa on esitetty.
 
 
-![](assets/scaling-layer.webp)
+![](assets/en/017.webp)
 
 Tyypillinen Layer 2 -protokolla Bitcoin:n ja Layer 1:n päälle.
 
@@ -1714,7 +1714,7 @@ Nykyään tiedämme, että Bitcoin ei skaalaudu hyvin vertikaalisesti ("osta iso
 
 
 
-![](assets/shtf-banner.webp)
+![](assets/en/018.webp)
 
 Bitcoin on ihmisten rakentama. Ihmiset kirjoittavat ohjelmiston, ja ihmiset sitten käyttävät tätä ohjelmistoa. Kun tietoturva-aukko tai vakava vika löydetään - onko näiden kahden välillä todella eroa? - sen löytävät aina ihmiset, lihaa ja verta. Tässä luvussa pohditaan, mitä ihmiset tekevät, mitä heidän pitäisi tehdä ja mitä heidän ei pitäisi tehdä, kun paska osuu tuulettimeen. Ensimmäisessä luvussa selitetään termi *vastuullinen paljastaminen*, jolla tarkoitetaan sitä, miten haavoittuvuuden löytäjä voi toimia vastuullisesti ja auttaa minimoimaan haavoittuvuudesta aiheutuvat vahingot. Luvun loppuosassa käydään läpi joitakin vuosien varrella löydetyistä vakavimmista haavoittuvuuksista ja sitä, miten kehittäjät, louhijat ja käyttäjät ovat niitä käsitelleet. Bitcoin:n varhaislapsuudessa asiat eivät olleet yhtä tiukkoja kuin nykyään.
 
@@ -2059,7 +2059,7 @@ Pieter Wuille julkaisi 28. heinäkuuta 2015 Pieter Wuillen 28. heinäkuuta 2015 
 Sähköpostissa kerrotaan tarkemmin, miten ongelma havaittiin ja mikä sen aiheutti. Lopussa hän esittää tapahtumien aikajanan, ja toistamme tässä joitakin tärkeimpiä tapahtumia. Osa niistä on jo kuvattu, kuten yllä olevasta kuvasta käy ilmi.
 
 
-![](assets/bip66-timeline-1.webp)
+![](assets/en/019.webp)
 
 
 BIP66:een liittyvien tapahtumien aikajana. Mustalla merkityt kohdat on selitetty edellä.
@@ -2097,7 +2097,7 @@ Näistä tapahtumista voi saada sen vaikutelman, että Gregory Maxwell tiesi Pie
 Maxwellin ehdotuksen mukaisesti BIP66 luotiin BIP62:n osajoukkona, jossa määritettiin vain tiukka DER-koodaus. Tämä BIP ilmeisesti hyväksyttiin laajalti ja otettiin käyttöön heinäkuussa, vaikka kaksi Blockchain:n jakoa ironisesti johtui *validoimattomasta Mining:sta*. Näitä jakoja käsitellään seuraavassa jaksossa.
 
 
-![](assets/bip66-timeline-2.webp)
+![](assets/en/020.webp)
 
 
 Keskeinen johtopäätös tästä on, että rajapintojen tulisi olla enemmän tai vähemmän *atomisia*, eli niiden tulisi olla riittävän kattavia tarjotakseen jotain hyödyllistä tai ratkaistakseen tietyn ongelman, mutta riittävän pieniä, jotta ne saavat laajan tuen käyttäjien keskuudessa. Mitä enemmän sisältöä BIP:hen laitetaan, sitä pienempi on sen hyväksymisen mahdollisuus.
@@ -2118,7 +2118,7 @@ Hälytyssivulla kehotettiin odottamaan 30 lisävahvistusta enemmän kuin normaal
 Edellä mainittu jako tapahtui 2015-07-04 klo 02:10 UTC lohkon korkeuden [363730](https://Mempool.space/block/000000000000000006a320d752b46b532ec0f3f815c5dae467aff5715a6e579e) jälkeen. Tämä ongelma ratkaistiin samana päivänä klo 03:50, kun 6 virheellistä lohkoa oli louhittu. Valitettavasti sama ongelma toistui seuraavana päivänä eli 2015-07-05 klo 21:50, mutta tällä kertaa invalidihaaran kesto oli vain 3 lohkoa.
 
 
-![](assets/bip66-timeline-3.webp)
+![](assets/en/021.webp)
 
 Tapahtumat, jotka johtivat BIP66:een, sen käyttöönottoon ja jälkiseurauksiin, ovat erittäin hyvä tapaustutkimus siitä, kuinka varovaisia Bitcoin:n kehittäjien on oltava. Muutamia keskeisiä asioita BIP66:sta:
 

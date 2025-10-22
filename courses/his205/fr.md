@@ -20,7 +20,7 @@ Ce cours captivant vous emmènera explorer l'évolution fascinante de la monnaie
 
 ## Introduction à l'Histoire de la monnaie
 <chapterId>ca53597e-be9a-5261-a55f-11fac8504a68</chapterId>
-![video](https://www.youtube.com/watch?v=jFK1ha2ALYE)
+:::video id=08ff35ca-8a40-4286-abaf-71283faf6e78:::
 
 
 Bienvenue dans ce cours consacré à l'histoire de la monnaie. Évidemment, comme son titre l'indique, nous allons explorer ensemble l'évolution historique des monnaies. Nous traverserons les époques, du Néolithique jusqu'à nos jours, en abordant les principaux empires et grandes civilisations que l'humanité a connus.
@@ -63,7 +63,7 @@ Merci et bon visionnement !
 
 ## De l'Australopithèque à l'Homme Moderne
 <chapterId>34a773aa-f2d3-5c26-8be4-f2cd79ed6fbc</chapterId>
-![video](https://www.youtube.com/watch?v=PQylNCGF3nA)
+:::video id=4f333013-4b2a-42ab-8761-593fafc971ca:::
 
 ### Pourquoi commencer au Néolithique
 
@@ -122,7 +122,7 @@ Donc, voilà ce survol historique pour nous donner une perspective de l'appariti
 
 ## Des Chasseurs-Cueilleurs aux Agriculteurs : L'Aube de la Civilisation
 <chapterId>ea950b6e-9eb7-553d-8f04-0eb042bb1f5a</chapterId>
-![video](https://www.youtube.com/watch?v=y6KPqmcv6os)
+:::video id=4b49a376-f6f4-42a0-86fa-264997a079f0:::
 
 ### La transition vers l'agriculture et la sédentarisation
 
@@ -155,7 +155,7 @@ Une autre théorie propose que les villages eux-mêmes ont créé le problème r
 
 ## Les échanges au néolithique
 <chapterId>8e495224-6d55-58f6-a9dc-ac2814281cfa</chapterId>
-![video](https://www.youtube.com/watch?v=e_HIT0QWF8A)
+:::video id=d04245af-e416-48b1-8157-d569207a32c4:::
 
 ### La Transition Paléolithique-Néolithique 
 
@@ -201,7 +201,7 @@ Le néolithique établit ainsi les bases de l'économie moderne : spécialisatio
 ## La formation des premières cités et l'émergence de l'écriture
 <chapterId>d6b799c2-8bf1-11f0-9c54-1b9f4f4c7011</chapterId>
 
-![video](https://www.youtube.com/watch?v=rPuDJ4893cg)
+:::video id=3ca18105-9856-4ceb-925c-c9e9215af21b:::
 
 ### L'irrigation et la naissance des grandes cités
 
@@ -255,7 +255,7 @@ Cette écriture, à la fois outil de gestion économique et vecteur culturel, pe
 
 ## Le rôles des tablettes sumériennes
 <chapterId>a396e6c5-56cc-5410-9e6b-0274401c5425</chapterId>
-![video](https://www.youtube.com/watch?v=yZbmrToK7X8)
+:::video id=a0729a35-01ec-4aa4-828f-d4ccc2eb168e:::
 
 ### Les systèmes de crédit pré-monétaires
 
@@ -285,7 +285,7 @@ Ainsi, les documents mésopotamiens qui nous sont parvenus reflètent principale
 
 ## Le contrôle des élites sur les tablettes sumériennes
 <chapterId>c6d3df0e-b1e1-58dc-ab35-9f76bbc39393</chapterId>
-![video](https://www.youtube.com/watch?v=SumG3wpjl5k)
+:::video id=04a95fb8-a701-4a48-9ce8-0e9b6ba256fd:::
 
 ### L'Écriture, Une Technologie Économique Avant Tout
 
@@ -332,7 +332,7 @@ Cette période fondatrice révèle également les enjeux de pouvoir inhérents �
 
 ## Les grandes civilisations de l’âge du Bronze
 <chapterId>fab9334c-7385-5d7c-ad40-7d152beb22a1</chapterId>
-![video](https://www.youtube.com/watch?v=WaqFNZwyrRA)
+:::video id=737e12e8-1033-4210-b1dd-b8a680f68b17:::
 
 Dans cette section intitulée "Les grandes civilisations de l'âge du bronze", nous allons débuter avec un extrait du livre: *A History of Money: From Ancient Times to the Present Day par Glyn Davies.* Je trouve que cet extrait est une excellente introduction à cette section où on parle des grandes civilisations de l'Antiquité.
 
@@ -366,7 +366,7 @@ Mais on n'a pas de traces à Babylone de ces fameux jardins suspendus. Tandis qu
 
 ## Organisation économique en Mésopotamie
 <chapterId>6afb6fc8-cbb7-56a5-8427-484b4b7d7477</chapterId>
-![video](https://www.youtube.com/watch?v=raatMwCHSp8)
+:::video id=aa6a2cbd-5916-4ae3-ad4f-65f0bd5643fa:::
 
 ### Les structures économiques pré-capitalistes et l'esclavagisme
 
@@ -419,7 +419,7 @@ Dans les prochaines sections, nous allons faire le même travail pour l'Égypte 
 
 ## Organisation économique et monétaire en Égypte ancienne
 <chapterId>bffcc16c-7fbf-5992-a0fa-6a7726d7d287</chapterId>
-![video](https://www.youtube.com/watch?v=L28eSCdUW_c)
+:::video id=40c1c4e5-b190-4bb6-b8a0-810c9ce7698b:::
 
 ### Cadre historique et périodes égyptiennes
 
@@ -490,7 +490,7 @@ L'auteur nous propose que dès les premières utilisations de pièces de monnaie
 
 ## La monnaie signe et l’organisation économique et monétaire en Chine antique
 <chapterId>e08d3be9-423c-5cf3-a606-6ad54e2261af</chapterId>
-![video](https://www.youtube.com/watch?v=r_Crf3bgic8)
+:::video id=ae7e6367-1725-455e-bfe6-359be1f443e5:::
 
 Dans cette section intitulée "La monnaie signe et l'organisation économique et monétaire en Chine antique" nous verrons que la monnaie antique chinoise présente des caractéristiques distinctes des traditions occidentales. La monnaie chinoise était déjà une “monnaie signe” dès son origine. Les enseignements de cette section sont tirés des notes que j'ai prises suite à la lecture du livre "Aux origines de la monnaie".
 
@@ -553,7 +553,7 @@ Ainsi, l’expérience chinoise se caractérise par une conception profondément
 
 ## Organisation sociétale et économique durant l’antiquité 
 <chapterId>4023c3ce-7a47-5ac4-8f5f-c7ab699ab20f</chapterId>
-![video](https://www.youtube.com/watch?v=E0eRh2afwNA)
+:::video id=2761efe4-21cf-4f06-9bda-c03f9ff39012:::
 
 ### Le Débat sur le Parasitisme Urbain
 
@@ -618,7 +618,7 @@ L'analyse de ces modèles historiques révèle que la monnaie, au-delà de sa fo
 
 ## L’émergence des pièces de monnaie
 <chapterId>40ed3414-3066-57bd-bc1b-617ad0a354e0</chapterId>
-![video](https://www.youtube.com/watch?v=g6brlSyqCao)
+:::video id=1d6834c4-98a3-43fe-ba80-04be51b0486e:::
 
 Nous en sommes maintenant arrivés au point névralgique de l'apparition des pièces de monnaie à proprement parler. J'insiste ici sur le mot pièce parce qu'on a bien vu dans les sections précédentes que la monnaie ou les systèmes monétaires étaient bien présents dans les civilisations qui ont précédé les peuples de Lydie, les Grecs, les Perses. C'est assez clair je pense avec ce qu'on vient de voir. Et donc cette section est dédiée à l'apparition des pièces de monnaie à proprement parler et s’intitule: *L'émergence des pièces de monnaie*.
 
@@ -647,7 +647,7 @@ Pour illustrer cette époque, voici un pièce de la région de l'Indes, une piè
 
 ## Les Lydiens et les Perses
 <chapterId>eb802ab8-8ffd-5b25-907f-8944f120ed14</chapterId>
-![video](https://www.youtube.com/watch?v=g1UO-Bh9Jsk)
+:::video id=f151eb42-5ff3-4ca1-9af1-1ae2a5e051c0:::
 
 ### Les premières pièces lydiennes en électrum
 
@@ -692,7 +692,7 @@ Un point essentiel à retenir de cette section est que nous parlons spécifiquem
 ## L’intervention institutionnelle et les premières pièces de monnaie 
 <chapterId>3e1efd08-99e3-5a32-9908-3185fef0e640</chapterId>
 
-![video](https://www.youtube.com/watch?v=oalzITZkY9I)
+:::video id=84847cf6-9e46-4a8c-9f35-25a27496cc4b:::
 
 ### La double nature de la monnaie 
 
@@ -729,7 +729,7 @@ Cette manipulation, observable dès les premières pièces lydiennes, suggère q
 ## La fabrication des pièces
 <chapterId>b205f4f2-c293-5308-b812-a998de9ad45e</chapterId>
 
-![video](https://www.youtube.com/watch?v=gKh7dyNgza8)
+:::video id=47c612ec-d97e-4498-b50e-7e66518bd56d:::
 
 ### Des blobs poinçonnés aux pièces frappées
 
@@ -761,7 +761,7 @@ Donc cette notion de frappe au balancier a aidé avec ce phénomène d'écrêtag
 
 ## Théories sur l’émergence de la monnaie et ses différentes définitions
 <chapterId>7d699d4d-8c70-55b5-bf36-609f3fd90bcf</chapterId>
-![video](https://www.youtube.com/watch?v=ia3AlOnbxS8)
+:::video id=523c873f-501b-4954-b79f-7e74c0f685a5:::
 
 Bienvenue dans ce segment qui est dédié aux différentes théories sur l'émergence de la monnaie et ses différentes définitions. Voici un court extrait du livre *Aux origines de la monnaie* qui, je trouve, résume assez bien et de manière très succincte les deux thèses principales auxquelles nous nous intéresserons dans cette section. 
 
@@ -776,7 +776,7 @@ C'est donc le travail qu'on va faire dans cette partie. On va faire une sorte d'
 ## L’émergence de la monnaie pour les économistes classiques
 <chapterId>1d3776cd-0dfd-5297-af48-c6f41e257a7e</chapterId>
 
-![video](https://www.youtube.com/watch?v=JAP8V5CYEpQ)
+:::video id=873a16c1-17ac-448d-8941-df4feb7ab79d:::
 
 Ce segment est dédié aux différentes théories sur l'émergence de la monnaie. Le premier sujet que l'on va couvrir est l'émergence de la monnaie pour les économistes classiques.
 
@@ -806,7 +806,7 @@ En conclusion, je pense qu'on peut dire que les pièces de monnaie émanent néc
 
 ## Le mythe du troc
 <chapterId>0fcd4964-ac36-5163-a8cf-1aacebc0d2c0</chapterId>
-![video](https://www.youtube.com/watch?v=BUh0NKt0KMA)
+:::video id=0ede29ab-8acd-4d79-9282-bd5991b97076:::
 
 ### La critique de David Graeber
 
@@ -834,7 +834,7 @@ Donc, comme on l’a vu précédemment dans la section de l'Égypte et même de 
 ## L'émergence de la monnaie par la monnaie-dette
 <chapterId>4f508615-aa61-5d62-89d3-cecd02aeaa62</chapterId>
 
-![video](https://www.youtube.com/watch?v=VHr5Tccq8Fo)
+:::video id=a23f547f-3906-4f4a-8f72-5d78c649d0c4:::
 
 ### Monnaie comme reconnaissance de dette
 
@@ -858,7 +858,7 @@ Posséder un jeton monétaire n’est pas une “créance” sur la société, c
 
 ## L’émergence spontanée de la monnaie 
 <chapterId>e3ef86b1-73b9-5140-a61e-2ab6a5b0b2d4</chapterId>
-![video](https://www.youtube.com/watch?v=HZKkwWp4L3o)
+:::video id=e543995f-d5e2-49d7-9133-e397b46e0833:::
 
 Pour l'école autrichienne d'économie, initiée par Carl Menger, la monnaie émerge naturellement d'une économie de troc confrontée au problème de la double coïncidence des besoins. Dans cette vision, les individus convergent spontanément vers des biens intermédiaires qui facilitent les échanges - non pas des biens directement consommés, mais des marchandises reconnues pour leur capacité à être largement demandées.
 
@@ -894,7 +894,7 @@ Le débat entre émergence spontanée et institution consciente reste ouvert, le
 
 ## La vision anthropologique de l’émergence de la monnaie
 <chapterId>ec48c5d8-47ed-530f-beb7-c44fd0b62880</chapterId>
-![video](https://www.youtube.com/watch?v=T6PyNnEkTpY)
+:::video id=8c1f8764-75af-4fb6-a98b-55de3b7da02e:::
 
 ### Les origines non-économiques de la monnaie
 
@@ -944,7 +944,7 @@ Ici, on se rend compte qu'au final, dans nos sociétés modernes, la finalité m
 
 ## L’unification par le registre 
 <chapterId>7664442a-91c1-5ce4-a8bd-53b7371a3e3d</chapterId>
-![video](https://www.youtube.com/watch?v=8hXI9GLTrxQ)
+:::video id=473fc284-5375-4e1b-b0cd-6b51ba0cc3b8:::
 
 ### La théorie du registre comptable
 
@@ -987,7 +987,7 @@ D'un côté on a la nature qui gère l'expansion de la masse monétaire. Donc, s
 
 ## L’unification par la prime monétaire
 <chapterId>093756e5-8908-55e5-bb76-376a3a3cc4d3</chapterId>
-![video](https://www.youtube.com/watch?v=jznqwJ4mpbE)
+:::video id=eabc342a-ecbd-46ca-a347-e914917e7c4f:::
 
 ### Le concept de prime monétaire
 
@@ -1023,7 +1023,7 @@ La prime monétaire repose simplement sur la confiance qu’une personne échang
 
 ## Money vs currency vs monnaie vs argent vs devise
 <chapterId>bf8a6d21-df88-5d23-a0a5-e9a5c1300554</chapterId>
-![video](https://www.youtube.com/watch?v=rxzqKRZFdcQ)
+:::video id=d9c9e7df-9db3-4a9f-801e-10d3fc7dfc22:::
 
 ### Sémantique des termes monétaires
 
@@ -1050,7 +1050,7 @@ Souvent, les gens qui n'ont pas creusé ces problèmes de sémantique, dans la t
 
 ## La définition de Saifedean Ammous 
 <chapterId>07c4ba50-168c-567a-8957-0b187ff75f97</chapterId>
-![video](https://www.youtube.com/watch?v=KfvBzNWuWdM)
+:::video id=936d6d3b-6d45-468e-bc44-85fbce9b857a:::
 
 ![](assets/12.webp)
 ![](assets/13.webp)
@@ -1077,7 +1077,7 @@ Donc ça, c'est la définition que Saifedean mentionne dans l'Étalon Bitcoin. M
 
 ## Moyen de paiement et valeur libératoire
 <chapterId>5d424039-e342-56f7-9d8b-bba9551831a9</chapterId>
-![video](https://www.youtube.com/watch?v=ZzeSvb13Ozk)
+:::video id=af4c0765-8111-4cb7-891b-3ee54d6e7054:::
 
 ### Moyen de paiement vs moyen d'échange
 
@@ -1105,7 +1105,7 @@ Je pense que dans cette discussion, on peut voir que le wergeld est un des bons 
 
 ## Monnaie dette vs monnaie marchandise
 <chapterId>4093677a-c8e8-5828-b994-15c01656186e</chapterId>
-![video](https://www.youtube.com/watch?v=X94tt6WQAfY)
+:::video id=f49cf5cc-288e-4daa-a1ff-b9de73506f4e:::
 
 ### Le débat fondamental
 
@@ -1174,7 +1174,7 @@ Ce paradoxe montre clairement l'écart entre ces deux conceptions monétaires : 
 
 ## La Théorie Monétaire Moderne
 <chapterId>8efc29af-3193-5d97-ad9f-e608b32924ff</chapterId>
-![video](https://www.youtube.com/watch?v=rr-9ex80jt0)
+:::video id=f8127cb7-46a1-468c-bbb5-97bf0a8b8837:::
 
 ### Principes de la théorie monétaire moderne
 
@@ -1220,7 +1220,7 @@ Aussi, cette théorie nécessite un certain niveau de planification centralisée
 
 ## Les monnaies grecques
 <chapterId>7714195f-74ce-5f8c-be5f-59302d39fff4</chapterId>
-![video](https://www.youtube.com/watch?v=PgVBJR0eaJQ)
+:::video id=8e5c3091-0910-471b-8d4b-0dc6e9afa656:::
 
 ### Cadre historique et contextuel
 
@@ -1332,7 +1332,7 @@ Enfin, malgré leur variété et leurs fluctuations régionales, les monnaies gr
 
 ## L'impact de la monnaie en Grèce
 <chapterId>3a5e6c7d-699c-5567-87cd-3374c49d55a9</chapterId>
-![video](https://www.youtube.com/watch?v=z3kkaX5D1x0)
+:::video id=0c79a59c-e179-4893-a414-1b8de0930eb9:::
 
 ### Athènes et le contraste avec Sparte
 
@@ -1371,7 +1371,7 @@ Ces deux systèmes révèlent que l'adoption de la monnaie dépend étroitement 
 
 ## La République romaine
 <chapterId>0bc80983-33e1-5881-85bb-7c22f3144a9a</chapterId>
-![video](https://www.youtube.com/watch?v=HWvtelD7Pmk)
+:::video id=dc05ca97-d29c-4679-bfeb-912c47d86ce2:::
 
 ### Cadre historique de la république romaine
 
@@ -1428,7 +1428,7 @@ Enfin, si Rome domina économiquement le monde méditerranéen, elle conserva un
 
 ## L'Empire Romain
 <chapterId>2dc44e50-112a-5abf-97ae-8e0a9ecda989</chapterId>
-![video](https://www.youtube.com/watch?v=ehEW5SVCjzY)
+:::video id=f8d6f3d6-9ee4-4504-888e-4f12b3f20489:::
 
 
 **Cadre historique:**
@@ -1542,7 +1542,7 @@ Pour conclure, j’aimerais vous partager cette citation de l’ouvrage *A Histo
 
 ## Liens entre dilution monétaire et inflation : des causes aux conséquences
 <chapterId>38d5781c-e900-53f7-baa7-413655d71754</chapterId>
-![video](https://www.youtube.com/watch?v=3h4ykXxjFV4)
+:::video id=3999256d-aafe-4502-9b72-dfa8491a2777:::
 
 Dans cette section, on va s'intéresser aux liens entre la dilution monétaire et l'inflation de ses causes aux conséquences. La dilution monétaire est l'un des phénomènes économiques majeurs de l’histoire monétaire romaine, avec des effets directs sur l’inflation. Dès le Ier siècle ap. J.-C., on observe une première phase lente de dilution de la monnaie d'argent (denier) à partir du règne de Néron (54-68 ap. J.-C.), accélérée par la suite lors de crises militaires et financières répétées, notamment sous Septime Sévère (193-211) puis sous Gallien (253-268).
 
@@ -1587,7 +1587,7 @@ Ainsi, on observe un lien clair entre la dilution monétaire romaine et l’infl
 
 ## La chute de l’Empire Romain
 <chapterId>b6ec0914-227b-509c-8108-b09eec9bb904</chapterId>
-![video](https://www.youtube.com/watch?v=x9glWpea1FE)
+:::video id=91d4fee5-59bb-4ab9-a90b-e1125c71decb:::
 
 ### La dévaluation monétaire et l'effondrement de Rome 
 
@@ -1629,7 +1629,7 @@ Cette transformation révèle la fragilité des civilisations complexes. La divi
 
 ## L’âge des ténèbres et le Moyen Âge
 <chapterId>a5856873-6142-57be-8a73-1f9e3df83792</chapterId>
-![video](https://www.youtube.com/watch?v=hcHscrzYGAM)
+:::video id=86b8da9b-3831-443d-b170-58c2bea3ad54:::
 
 L'histoire et l'émergence de la monnaie au Moyen Âge sont marquées par des périodes de régression, d'innovation et de rétablissement économique.
 
@@ -1677,7 +1677,7 @@ Au moment où la création de dette est faite par le Parlement, ça fait émerge
 
 ## La renaissance
 <chapterId>1d1dfb05-70b4-5b7b-9708-373c2182950d</chapterId>
-![video](https://www.youtube.com/watch?v=I0FTZz9KVDU)
+:::video id=4977b4f3-c7b2-41a5-ad7b-a96a8cca4092:::
 
 Nous en sommes déjà arrivés à la section du cours où nous parlons de cette période que l'on nomme la Renaissance. Elle se déroule sur fond d'une crise tragique avec la propagation fulgurante de la peste par des puces sur des rats qui embarquent sur les bateaux. Cette tragédie nous informe toutefois sur la croissance des échanges et des déplacements de la période du haut médiéval. Plus tôt durant cette période, pas autant de gens se déplaçaient aussi loin et aussi rapidement.
 
@@ -1728,7 +1728,7 @@ Enfin, la Renaissance financière amorce la transition vers la modernité écono
  
 ## L'évolution des monnaies de réserve mondiales
 <chapterId>d65cc352-e7ca-5f03-9b23-dd1fae5c0395</chapterId>
-![video](https://www.youtube.com/watch?v=Kg7oBu9dj1c)
+:::video id=82710062-8fff-426c-93af-923c08d82233:::
 
 ### L'importance historique des métaux précieux
 
@@ -1833,7 +1833,7 @@ Et ça, les souverains, c'était une pièce monétaire qui est une pièce d'or q
 ## L'émergence des banques centrales
 <chapterId>15777771-1e28-55f7-a400-69868a47079b</chapterId>
 
-![video](https://www.youtube.com/watch?v=zWqZHZ2i5cc)
+:::video id=7661b7b5-e00f-48f3-b69a-6fb2eb5ebba4:::
 
 Suite à cette section sur l'histoire des premières monnaies de réserve, l'évolution des monnaies de réserve, voici un segment sur l'émergence des banques centrales. Ça suit à peu près le même chemin que l'émergence des monnaies de réserve, mais ça se concentre un peu plus sur les technologies bancaires de l'époque.
 
@@ -1901,7 +1901,7 @@ Et le fait le plus important ici, c'est qu'**on est passé d'une dette qui pouva
 
 ## La route vers le système fiat
 <chapterId>27a98545-d350-56ee-a200-92468e6b9b33</chapterId>
-![video](https://www.youtube.com/watch?v=jQxuvdkErmQ)
+:::video id=e27a753e-aeee-4307-a65c-9506aab380a1:::
 
 Nous en sommes déjà arrivés à la fin de ce cours sur l'histoire de la monnaie et en toute fin de cours, j'avais envie de vous proposer deux sujets. Le premier sujet est les différentes étapes qui ont mené à notre système actuel fiat. Donc on va reprendre essentiellement les faits qu'on a vus dans le point 5 au sujet de la création des banques centrales. On va le voir assez rapidement de façon succincte et après la différence c'est qu'on va ajouter le concept du dollar américain qui est ultimement la monnaie de réserve actuelle. On va voir un peu comment ça a évolué, comment le dollar est né, le dollar est né de quoi, comment il a évolué, comment il a changé, quelles étapes il est passé pour devenir un système fiat parce que l'origine du dollar c'est une pièce en argent.
 
@@ -1988,7 +1988,7 @@ Je vous remercie pour votre attention.
 ## L'histoire des bulles monétaires 
 <chapterId>b6451c46-917d-11f0-97de-6bc5081765fa</chapterId>
 
-![video](https://www.youtube.com/watch?v=SFQ7mzGFaHA)
+:::video id=5967d9a6-aae4-4b84-a283-71b1b735bca4:::
 
 ### L’invention de la monnaie papier et la première grande bulle
 
@@ -2033,7 +2033,7 @@ L’histoire de la finance n’est qu’un cycle sans fin : imprimer, spéculer,
 
 ## Monnaie et violence
 <chapterId>9486fe64-854f-5e17-86b3-8873baca39a8</chapterId>
-![video](https://www.youtube.com/watch?v=N8Fd5AiLU7A)
+:::video id=bd6d0807-2d8f-4637-a0f5-1e990e5c0d0f:::
 
 Cette courte section au sujet de la monnaie et la violence reviendra sur plusieurs événements qu'on a déjà vus à travers tout le cours. Juste pour faire un petit résumé de certaines anecdotes que je trouve intéressantes.
 
@@ -2068,7 +2068,7 @@ Merci !
 
 ## Les conséquences économiques de la violence organisée 
 <chapterId>66bd4674-2159-5489-ad4b-ec5e3fb691af</chapterId>
-![video](https://www.youtube.com/watch?v=PnkMqfPoHSI)
+:::video id=c8b063c6-aeb4-4a94-9027-b11d369e71a4:::
 
 ### La violence organisée et l'évolution de l'État 
 
@@ -2112,7 +2112,7 @@ L'histoire nous enseigne que ces transitions durent des générations. Mais la s
 
 ## Une très courte histoire de la finance
 <chapterId>1d37fff1-a091-5034-8e71-4af590b8ffce</chapterId>
-![video](https://www.youtube.com/watch?v=q2aX9xwn0BE)
+:::video id=fdfabbc6-e4d8-463a-8522-19176f8fb460:::
 
 Suite à ce récit de l'histoire de la monnaie qui nous amène jusqu'au système fiat, j'aimerais assez rapidement et de manière très succincte vous expliquer l'évolution de la finance qui a mené éventuellement à l'état-providence. Au départ, à l'époque romaine, on a eu des pièces de monnaie.
 

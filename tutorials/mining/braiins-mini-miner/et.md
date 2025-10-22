@@ -6,7 +6,7 @@ description: Mining valmistamine hõlpsasti kodust.
 
 
 
-### Sissejuhatus
+## Sissejuhatus
 
 
 
@@ -18,7 +18,7 @@ Palju rohkem olulist teavet leiate ka otse [tootja veebisait](https://braiins.co
 
 
 
-### Ülevaade BMM 100-st
+## Ülevaade BMM 100-st
 
 
 
@@ -46,7 +46,7 @@ samas tagaküljel on meil: auk voolu jaoks, ruumi SD-kaardi jaoks (mida võib ol
 
 
 
-### Mini Miner ühendamine
+## Mini Miner ühendamine
 
 
 
@@ -54,7 +54,7 @@ Peate seadme ühendama internetiühendusega etherneti kaudu, märkige, et uue ve
 
 
 
-### Konfiguratsioon
+## Konfiguratsioon
 
 
 
@@ -74,7 +74,7 @@ Sisselogimiseks peate sisestama kasutajanimeks `root`, parooli võite jätta tü
 
 
 
-### Üldised seaded
+## Üldised seaded
 
 
 
@@ -110,7 +110,7 @@ Kui olete muudatused teinud, klõpsake nuppu "Muudatuste salvestamine" ja näete
 
 
 
-### Ühendus Mining pool-ga
+## Ühendus Mining pool-ga
 
 
 
@@ -142,7 +142,7 @@ Teine võimalus on ühendada meid Mining pool, mis mina soolo, nagu Public Pool,
 
 https://planb.network/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-#### Braiins bassein
+### Braiins bassein
 
 
 
@@ -236,7 +236,7 @@ kui te lähete tagasi armatuurlauale, peaksite hakkama nägema liikumist graafik
 
 
 
-#### Avalik bassein
+### Avalik bassein
 
 
 

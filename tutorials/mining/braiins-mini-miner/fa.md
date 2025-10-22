@@ -6,7 +6,7 @@ description: ساخت Mining به‌راحتی در خانه.
 
 
 
-### مقدمه
+## مقدمه
 
 
 
@@ -18,7 +18,7 @@ description: ساخت Mining به‌راحتی در خانه.
 
 
 
-### بررسی اجمالی BMM 100
+## بررسی اجمالی BMM 100
 
 
 
@@ -46,7 +46,7 @@ description: ساخت Mining به‌راحتی در خانه.
 
 
 
-### اتصال Mini Miner
+## اتصال Mini Miner
 
 
 
@@ -54,7 +54,7 @@ description: ساخت Mining به‌راحتی در خانه.
 
 
 
-### پیکربندی
+## پیکربندی
 
 
 
@@ -74,7 +74,7 @@ description: ساخت Mining به‌راحتی در خانه.
 
 
 
-### تنظیمات عمومی
+## تنظیمات عمومی
 
 
 
@@ -110,7 +110,7 @@ description: ساخت Mining به‌راحتی در خانه.
 
 
 
-### اتصال به Mining pool
+## اتصال به Mining pool
 
 
 
@@ -142,7 +142,7 @@ https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a
 
 https://planb.network/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-#### استخر Braiins
+### استخر Braiins
 
 
 
@@ -236,7 +236,7 @@ https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a
 
 
 
-#### استخر عمومی
+### استخر عمومی
 
 
 

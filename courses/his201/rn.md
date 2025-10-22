@@ -32,6 +32,8 @@ Ego ni ko, iki cigwa gishingiye ku gishushanyo ca Satoshi Nakamoto, amajambo yiw
 
 <chapterId>85290407-1aa3-4cb4-890a-aed23441afb7</chapterId>
 
+:::video id=d1eddf56-279d-459a-9568-5674606f0fd1:::
+
 Murakaze mu nyigisho ya HIS201!
 
 Iyi nyigisho igamije kubabwira inkuru y’iremwa rya Bitcoin mu buryo utigeze usoma. Naho yuzuyemwo ibintu vyinshi bishimishije, kenshi ntiyirengagizwa. Tuzokwihatira kuyidondora mu buryo bwose igoranye, kuva aho yateguwe na Satoshi Nakamoto gushika aho yazimiye vuba, akayishikirizwa abantu.
@@ -124,6 +126,8 @@ Woba witeguye gutohoza inkuru idasanzwe y’irema rya Bitcoin? Rero reka twinjir
 ## Amafaranga y'ubuhinga bwa none: Amafaranga y'ubuhinga bwa none
 
 <chapterId>e443d2ab-68ce-45c0-aec7-30b88d3acdc8</chapterId>
+
+:::video id=fe306046-2245-43a7-9144-6fbafda3205e:::
 
 
 Imbere yo kwinjira mu nkuru nyayo y’iremwa rya Bitcoin na Satoshi Nakamoto, birabereye ko tuganira ku vyayibanjirije. Tuzo Address iyo nsiguro mu ntambwe zitatu: iya mbere, tuzozana iciyumviro c’amahera y’ubuhinga bwa none (Chaumian digital cash) azwi cane yitwa *eCash*; hanyuma, tuzovuga ku mafaranga y’abikorera ku giti cabo ashingiye ku buryo buhurikiye hamwe nk’inzahabu y’ubuhinga bwa none; mu nyuma, tuzodondora ivyitegererezo vy’ubuhinga vyari vyiyumviriwe imbere y’uko hashirwa mu ngiro uburyo bukomeye bwo gutanga amakuru ari bwo Bitcoin.
@@ -300,6 +304,8 @@ Satoshi Nakamoto yaremye amafaranga akomeye kandi y'ibanga, amafaranga nyayo y'u
 
 <chapterId>43035fa3-2805-4331-a6fb-070931d749cf</chapterId>
 
+:::video id=0f75ff53-ebf6-481c-9d1c-863fabb19a6a:::
+
 
 Mu gice ca mbere, twasuzumye uburyo bwa mbere bw’amahera y’ubuhinga bwa none bwavuye mu kuza kwa Internet n’ubuhinga bwa none bwo gukoresha amakuru y’ibanga: uburyo bwa eCash bwa David Chaum. Ico kigereranyo caragize ico gikoze cane kuri Satoshi Nakamoto kandi cari ikintu gihambaye mu nzira yatumye igera kuri Bitcoin. Ariko rero, inkuru y’inkomoko y’amahera y’ivy’ubuhinga bwa none ntihera kuri eCash; harimwo kandi n’igerageza ry’amahera y’abantu ku giti cabo akoresha Internet, ryateguwe mu mpera z’imyaka ya 1990.
 
@@ -415,6 +421,8 @@ Kubera ko uburyo bwo gukorana n’abandi bugoyagoya, abashigikiye umwidegemvyo, 
 ## Ivyitegererezo vyegerejwe imbere ya Nakamoto
 
 <chapterId>a104f23c-e9c3-4457-a194-d87cc5f35f13</chapterId>
+
+:::video id=67e5f851-5ff6-4876-a74d-c5f8130b555c:::
 
 
 Bitcoin igereranya uburyo bwo gukoresha amafaranga y’ubuhinga bwa none. Mu kubigira, birarinda gukenera umuntu agira gatatu yizigirwa, ivyo bikaba vyoba ari ikintu kimwe co kunanirwa muri iyo nzira. Nk’uko vyerekanwa n’ingero za eCash, amafaranga y’inzahabu y’ubuhinga bwa none, na Liberty Reserve, gushiramwo ubuhinga bufise umugambi wo kuba ubundi buryo bwo gusubirira uburyo busanzweho, bituma ata kabuza bufunga.
@@ -624,6 +632,8 @@ Bitcoin rero ni yo igira iherezo ry’ugushaka amahera yo kuri Internet, amahera
 
 <chapterId>3d141918-e9c2-46e8-8c03-2bb4eb9b2150</chapterId>
 
+:::video id=825522d8-1ccc-4d14-80ac-e292a85a608a:::
+
 
 Tumaze kumenya aho Bitcoin yava, tuzokwibanda ku mateka yayo. Ivyo vyarashikirijwe ingingo nyinshi, amasanamu menshi be n’amasanamu menshi, ku buryo hafi y’aho vyacitse inkuru z’imigani zishinga intahe. Nk’uko twabibonye, ​​Bitcoin ntishobora gutandukanywa n’aho yaremewe; ni ko biri no ku bintu vyabaye mu myaka yayo ya mbere, ivyo bikaba vyatumye iba ico iri uno musi, n’imico yayo be n’amakosa yayo.
 
@@ -812,6 +822,8 @@ Ariko rero, ico gikorwa nticari gihagije, kandi vyasavye ko Satoshi ashikama kug
 ## Ivyo gushikiriza isi yose
 
 <chapterId>28be3515-d9da-4d91-b7ff-f8691d51c562</chapterId>
+
+:::video id=c9691569-f026-460d-a08d-98fa54f1ce25:::
 
 
 Tumaze gusuzuma ingene Bitcoin yahinguwe kandi itanguzwa na Satoshi Nakamoto, reka twibande ku kuntu yashikirijwe ku mugaragaro. Inyuma y’aho iyo nzira itanguye mu ntango z’umwaka w’2009, yaratanguye gukora. Naho ari ukwo, hariho uturongo dukeyi two gutanga umuriro (Satoshi yaracukuye amabuye menshi), kandi igikorwa cari hafi ata co cariho (ibikorwa 32 vy’ukuri vyabaye muri Mukakaro). Uwo mugambi wari ufise gusa urubuga rw’ishimikiro n’urubuga rwa SourceForge rwo gukuraho porogarama. Vyongeye, uguhanahana amakuru ku bijanye na Bitcoin kwari gushingiye gusa ku rutonde rw’abarungika ubutumwa rwa Metzdowd Cryptography, hakurikijwe n’abantu amajana makeyi bakunda cane ubuhinga bwo gufungura amakuru.
@@ -1049,6 +1061,8 @@ Mu mpera z’umwaka w’2009, Bitcoin yasa n’uyiteguriye gukura. Iciyo gihe ny
 
 <chapterId>6b3418a7-125e-4ea1-a03a-f36090fac8a4</chapterId>
 
+:::video id=2a31c9c2-bb14-4ed5-b906-7df373f81f98:::
+
 
 Mu bice vyabanje, twabonye ingene Satoshi Nakamoto yashize mu ngiro iciyumviro ciwe, akagimenyesha kugira ngo Bitcoin imenyekane kw’isi yose. Ariko rero, si vyose vyari bimuvanako: abantu na bo nyene bari bakeneye guha agaciro igice c’ibarabara. Kubera ko ivyo vyatuma abacukuzi b’amabuye y’agaciro bahembwa biciye ku mahera y’ugucuruza, abacuruzi bagahembwa biciye ku gusenyuka kw’ibiciro, mwene ukwo gukenguruka kwari guhambaye kugira ngo iyo nzira itekane.
 
@@ -1222,6 +1236,8 @@ Ariko rero, ico kibazo nticigeze gitera ubwoba Satoshi, kuko yabona ko gutangura
 
 <chapterId>9cd228a4-58d3-46a3-9935-06098bafc954</chapterId>
 
+:::video id=18913713-2f1a-4555-ba5d-06ec6d532bcb:::
+
 
 Mu gice ca mbere, twasuzumye ingene Bitcoin yaje, ingene yamenyeshejwe abantu bose, n’ingene yatanguye mu vy’ubutunzi. Mu mpera z’umwaka w’2010, igihe ubudandaji bwa Bitcoin bwariko buratangura gutera imbere, Satoshi Nakamoto n’abantu bakeyi bamushigikiye bari biyemeje kuguma bafise urubeya. Igishimishije ni uko abandi bantu barifatanije n’ico gikorwa, cane cane Miner Laszlo Hanyecz n’umuhinguzi Gavin Andresen, bakaba bari bahambaye kubera ivyo bakoze.
 
@@ -1372,6 +1388,8 @@ Ariko rero, mu mpera za Ruheshi, igikorwa co kuri iyo nzira cari caragumye ari g
 
 <chapterId>2eef715e-b018-445b-b360-1c6e1c1df462</chapterId>
 
+:::video id=c26f3696-4e33-4d38-9443-f237935f8b45:::
+
 
 Mu ntango z’icuma c’umwaka w’2010, Bitcoin yari ishingiye ku mushinge uhungabana naho hariho ibintu bimwebimwe biremesha vyabaye mu ntango. Iyi porogarama yari ifise abayikora bakeyi uretse Satoshi Nakamoto. Abacukuzi b’amabuye y’agaciro bari abahinga mu vyo gukoresha orodinateri zabo bwite. Hariho ibikorwa nka mirongo ibiri bijanye na Bitcoin, kandi n’uguhinduranya nyavyo na kwo nyene kwari guke cane. Ariko rero, ibintu vyari bigiye guhinduka cane mu gice ca kabiri c’umwaka.
 
@@ -1478,6 +1496,8 @@ Mu mezi yakurikiye, ubuhinga, ubutunzi, n’iterambere rya Mining vyarateye imbe
 ## Ibibazo vya mbere vy'ubuhinga
 
 <chapterId>30cc4fe4-22b0-429e-9874-029c9137c0aa</chapterId>
+
+:::video id=f3e98b49-c32e-451a-b7c1-224dc5b00cf5:::
 
 
 Nk’uko vyavuzwe mu kigabane ca nyuma, uruja n’uruza rw’abakoresha bavuye kuri Slashdot ku wa 11 Nyakanga 2010, rwatumye abantu benshi bakunda umugambi wa Satoshi Nakamoto. Ikoreshwa ry’iyo nzira ryarateye imbere cane, kandi igipimo ca Exchange caraduze incuro cumi, nk’uko nyene ububasha bwo gukoresha ubuhinga bwa none bwari bugenewe iyo nzira. Gutyo, Bitcoin yarateye imbere cane mu ci.
@@ -1599,6 +1619,8 @@ Mu mezi yakurikiye, haradutse ivyiza mu vy’ubuhinga, mu vy’ubutunzi no mu vy
 
 <chapterId>8e9899ca-e7a7-471b-8e69-847a56714d3b</chapterId>
 
+:::video id=665ac55c-cd61-4d07-a896-95248eec480d:::
+
 
 Mu gice ca mbere, twarize ingaruka gusohora ikiganiro ca Bitcoin kuri Slashdot (slashdotting) vyagize n’ingene Satoshi n’abafasha biwe bashoboye gutorera umuti ingorane z’ubuhinga za mbere. Mu mpera z’icuma, uwo mugambi wari waratsinze iyo nkubi y’umuyaga kandi wari witeguriye kwakira abantu bariko baragwira. Mu mpera z’umwaka w’2010 rero, ni co gihe Bitcoin yaroraniwe.
 
@@ -1701,6 +1723,8 @@ Ariko rero, ukugwa si bwo bwonyene bwaroraniwe mu buryo bwa Mining. Vyari kandi 
 ## Ugukura kw'ibidukikije
 
 <chapterId>0404f877-8b5c-4c7f-81ab-a4e6d9b3da9c</chapterId>
+
+:::video id=2327cb5b-36a1-49f4-a9de-09b70d76b8c1:::
 
 
 Mu kigabane ca mbere, twarasuzumye ingene Mining yateye imbere mu gice ca kabiri c’umwaka w’2010. Mu mpera z’umwaka, iyo nzira yari yarashitse neza. Ariko rero, Mining si yo yonyene yari umuce wa Bitcoin waroraniwe: ibidukikije vyayo ni vyo vyaroraniwe.
@@ -1846,6 +1870,8 @@ Mu mpera z’umwaka w’2010, ibidukikije bikikuje Bitcoin vyarateye imbere cane
 ## Ukuzimangana kwa Satoshi
 
 <chapterId>f7735239-4887-468f-9f06-1b07d00b30d9</chapterId>
+
+:::video id=fd5b40ae-b6bc-484a-b86b-af9c772f0afa:::
 
 
 Twarabonye ingene Bitcoin yafashe indege inyuma y’aho ico canditswe gisohokeye kuri Slashdot muri Nyakanga 2010. Kubera iterambere ritandukanye mu bijanye n’ubuhinga bwa none, Mining, n’ubutunzi mu mpera z’umwaka, amaherezo uwo mugambi wari mu nzira nziza. Ni co gituma ico kiringo cahuye n’igihe Satoshi Nakamoto yariko irasohoka buhoro buhoro.
@@ -2015,6 +2041,8 @@ Ivyo bihimba vy’akabanga bikikuje umuremyi wa Bitcoin vyavuzwe neza mu ncamake
 ## Umuryango uriko urafata ubutegetsi
 
 <chapterId>16c5e6d6-2412-48c6-9687-6af92cf0d89a</chapterId>
+
+:::video id=b29c3ea3-c4ca-4feb-bb29-5dc064987406:::
 
 
 Satoshi Nakamoto amaze kugenda, vyaciye biba ngombwa ko bagenda ata we bari kumwe. Igishimishije ni uko Bitcoin yari umugambi wuguruye umuntu wese yoshobora gutanga umusanzu, rero ukuzimangana kw’uwawushinze ntikwari ugupfa. Nk’uko umuhinguzi Jeff Garzik yavyanditse muri Nyakanga 2010 (ku bijanye n’uko uwushinze iyo nkuru yoba atahari):

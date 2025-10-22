@@ -410,7 +410,7 @@ Drugim rečima, oko 9 od 10 javnih čvorova koristi Bitcoin core. Ostatak mreže
 
 
 
-Bitcoin core je napisan u C++. Takođe je open source projekat koji održava zajednica programera koji volontiraju ili su plaćeni od strane različitih entiteta (često od strane kompanija u ekosistemu koje imaju interes u razvoju Core-a). [Kod je hostovan na GitHub-u](https://github.com/Bitcoin/Bitcoin), a razvoj prati rigorozan:
+Bitcoin Core je softver napisan u C++. To je takođe open-source projekat koji održava zajednica programera — volontera ili onih koje finansiraju različiti subjekti (često kompanije iz ekosistema koje imaju interes da se razvoj Core-a odvija povoljno). [Kod je hostovan na GitHubu](https://github.com/bitcoin/bitcoin), a razvoj prati rigorozan model:
 
 
 
@@ -448,7 +448,7 @@ Možemo takođe pomenuti:
 
 - Libbitcoin**: modularna C++ biblioteka koju je razvio Amir Taaki i održava Eric Voskuil;
 - Bcoin**: JavaScript implementacija, više se ne održava;
-- BTCD/btcsuit**e: implementacija u Go jeziku.
+- **BTCD/btcsuite** : implementacija u Go-u.
 
 
 
@@ -2941,7 +2941,7 @@ Kada vaš čvor završi svoju početnu sinhronizaciju, lokalno skladišti nekoli
 
 
 
-- gW-402 **blokova** pohranjenih na disku,
+- **blokovi** blokčejna sačuvani na disku,
 - **UTXO set** održavan u bazi podataka ključ-vrednost,
 - i **Mempool** se čuva u RAM-u i povremeno serijalizuje.
 
@@ -3093,7 +3093,7 @@ Mempool je lokalni skup važećih transakcija koje su primljene, ali još nisu p
 
 
 - veličina dodeljena Mempool putem parametra `maxmempool`: čvor sa većim Mempool moći će da drži više transakcija nego čvor sa manjim Mempool (osim ako se potonji ne isprazni);
-- gW-433 pravila: ovo je podskup pravila prenosa čvora i definiše karakteristike koje nepotvrđena transakcija mora ispuniti da bi bila prihvaćena u Mempool;
+- pravila mempool-a: ona predstavljaju podskup pravila prenosa čvora i definišu karakteristike koje nepotvrđena transakcija mora ispuniti da bi bila prihvaćena u mempool;
 - transakcija perkolacija: zbog različitih faktora, određena transakcija može biti distribuirana jednom delu mreže, ali još uvek nije stigla do drugog.
 
 
@@ -3135,10 +3135,10 @@ Nekoliko drugih fajlova na istom nivou kao `blocks/`, `chainstate/` i `indexes/`
 - Kada je čvor isključen, `anchors.dat` čuva adrese odlaznih vršnjaka, tako da možete brzo pokušati da ih kontaktirate ponovo sledeći put kada pokrenete sistem.
 - `banlist.json` sadrži lokalne zabrane koje je odredio operater ili čvor (ponovljeno nevažeće ponašanje), kako bi se sprečilo da se čvor ponovo poveže ili prihvati veze od ovih specifičnih vršnjaka.
 - `fee_estimates.dat` skladišti statistiku vremenskog horizonta o posmatranim potvrđivanjima, koju koristi procenjivač naknada za predlaganje stopa naknada u skladu sa ciljevima kašnjenja izabranim prilikom kreiranja transakcije.
-- gW-446.conf` sadrži parametre konfiguracije vašeg čvora. Ovde možete prilagoditi pravila releja. Reći ću vam više o tome u narednom poglavlju.
+- `bitcoin.conf` sadrži parametre konfiguracije vašeg čvora. Upravo u ovoj datoteci mogu se podesiti pravila prenosa. O tome ću detaljnije govoriti u sledećem poglavlju;
 - Datoteka `settings.json` sadrži dodatne parametre za `Bitcoin.conf`.
 - `debug.log` je dijagnostički tekstualni log, koji se može koristiti za razumevanje aktivnosti čvora u slučaju greške.
-- gW-448.pid` skladišti identifikator procesa u vreme izvršavanja, omogućavajući drugim aplikacijama ili skriptama da lako identifikuju bitcoind (*Bitcoin daemon*) i interaguju s njim ako je potrebno. Kreira se pri pokretanju čvora i briše pri gašenju.
+- `bitcoind.pid` beleži identifikator procesa tokom izvršavanja, što omogućava drugim aplikacijama ili skriptama da lako identifikuju Bitcoind (*Bitcoin Daemon*) i po potrebi interaguju sa njim. Kreira se pri pokretanju čvora i briše pri gašenju;
 - `ip_asn.map` je tabela mapiranja IP → ASN (samostalni sistem) koja se koristi za grupisanje i diversifikaciju peer-ova (opcija `-asmap`).
 - `onion_v3_private_key` čuva privatni ključ Tor v3 servisa kada je opcija `-listenonion` omogućena, kako bi se održao stabilan onion Address između ponovnih pokretanja.
 - `i2p_private_key` čuva I2P privatni ključ kada se koristi `-i2psam=`, za uspostavljanje odlaznih i moguće dolaznih veza na I2P.
@@ -3154,9 +3154,9 @@ Kao što smo videli u prvim delovima ovog BTC 202 kursa, Bitcoin core je i Bitco
 
 
 
-- `wallets/` je podrazumevani direktorijum koji sadrži jedan ili više;
+- `wallets/` je podrazumevani direktorijum koji sadrži jedan ili više novčanika;
 - `wallets/<name>/Wallet.dat` je SQLite baza podataka Wallet (ključevi, deskriptori, metapodaci transakcija, itd.);
-- wallets/<name>/Wallet.dat-journal` je SQLite rollback log.
+- `wallets/<name>/wallet.dat-journal` je SQLite rollback dnevnik.
 
 
 
@@ -3335,10 +3335,10 @@ Na nivou mreže, takođe imamo:
 
 
 - `addnode`: dodaje prijateljski peer za kontakt pored uobičajenog otkrivanja (može se navesti više puta).
-- connect`: strogo ograničava veze na navedeni Address (može biti specificirano više puta). Jezgro se neće povezivati ni sa jednim drugim čvorom.
+- `connect`: strogo ograničava veze na navedenu adresu (može se navesti više puta). Core se neće povezivati ni sa jednim drugim čvorom;
 - `seednode`: se koristi samo za popunjavanje book-Address prilikom povezivanja na čvor, zatim se prekida veza.
 - `maxconnections`: definiše globalni plafon za dolazne + odlazne konekcije. Po podrazumevanim postavkama, ovaj parametar je postavljen na 125, što znači da vaš čvor nikada neće prihvatiti više od 125 konekcija.
-- maxuploadtarget`: ograničava otpremu kako bi se ograničila širina pojasa tokom kliznog 24-časovnog perioda. Ovo ograničenje ne žrtvuje širenje esencijalnog nedavnog Elements.
+- `maxuploadtarget` : ograničava otpremanje kako bi se smanjila širina pojasa u pokretnom prozoru od 24 sata. Ovo ograničenje ne žrtvuje širenje neophodnih novijih elemenata;
 - `onlynet`: ograničava odlazne veze samo na odabrane mreže (`ipv4`, `ipv6`, `onion`, `i2p`, `cjdns`). Na primer, ako želite da se vaš čvor povezuje na Bitcoin mrežu samo putem Tor-a, možete omogućiti `onlynet=onion` parametar i onemogućiti dolazne veze (ili dozvoliti veze samo putem Tor-a).
 - `dnsseed`: omogućava ili onemogućava _DNS seeds_ da zahtevaju peer-ove kada je vaš lokalni Address pool nizak (podrazumevano: `1`, osim ako je `-connect` ili `-maxconnections=0`).
 - `forcednsseed`: forsira _DNS seeds_ da budu zatraženi pri pokretanju, čak i ako već imate adrese na raspolaganju (podrazumevano: `0`).
@@ -3362,7 +3362,7 @@ Da bi bio potpuno omogućen za Tor, potrebno je prisiliti Bitcoin core da korist
 - `torcontrol=127.0.0.1:9051`,
 - `proxyrandomize=1`,
 - `listen=1`,
-- bind=127.0.0.1`,
+- `bind=127.0.0.1`,
 - `upnp=0`,
 - `natpmp=0`.
 
@@ -3418,7 +3418,7 @@ Evo osnovnih parametara koje možete modifikovati u vašem `Bitcoin.conf` u vezi
 
 
 
-- blocksonly=1`: Onemogućava prihvatanje i ponovni prenos nepotvrđenih transakcija primljenih od vršnjaka (osim ako nisu dodeljene posebne dozvole). Čvor sada samo učitava i oglašava blokove. Transakcije kreirane lokalno i dalje mogu biti emitovane (za korišćenje vašeg čvora sa vašim Wallet softverom). Ovo značajno smanjuje zahteve za propusnim opsegom i RAM-om, iako na račun smanjene korisnosti za relej i potpune nepoznatosti sa Mempool.
+- `blocksonly=1` : Onemogućava prihvatanje i prosleđivanje nepotvrđenih transakcija primljenih od parova (osim sa posebnim dozvolama). Čvor preuzima i najavljuje samo blokove. Lokalno kreirane transakcije i dalje mogu biti emitovane (za korišćenje čvora sa softverom za novčanik). Ovo značajno smanjuje propusni opseg i potrebe za RAM-om, po cenu manje korisnosti za prosleđivanje i potpunog nepoznavanja mempool-a.
 
 
 
@@ -3448,7 +3448,7 @@ Evo su napredna podešavanja za Mempool i politiku releja. Ako ste početnik, ne
 
 
 
-- datacarrier=1`: Omogućava prosleđivanje i (ako je Mining preko čvora) uključivanje transakcija koje nose nefinansijske podatke putem `OP_RETURN` izlaza (podrazumevano: `1`). Deaktiviranje ovog parametra blago smanjuje površinu za spam nefinansijskih podataka, po cenu smanjene kompatibilnosti sa određenim upotrebama. U svim slučajevima, morate prihvatiti iskopane `OP_RETURN`.
+- `datacarrier=1` : Dozvoljava prenos i (ako se rudari preko čvora) uključivanje transakcija koje nose nefinansijske podatke putem `OP_RETURN` izlaza (podrazumevano: `1`). Onemogućavanje ovog parametra blago smanjuje mogućnost spama nefinansijskim podacima, ali smanjuje kompatibilnost sa određenim upotrebama. U svakom slučaju, moraćete da prihvatite izrudarene `OP_RETURN`.
 
 
 
@@ -3490,13 +3490,13 @@ Evo su napredna podešavanja za Mempool i politiku releja. Ako ste početnik, ne
 
 
 
-- peerbloomfilters=1`: Omogućite podršku za Bloom filtere (BIP37) kako biste opsluživali filtrirane blokove/transakcije tankim klijentima (podrazumevano: `0`). Upozorenje: ovo povećava opterećenje vaših resursa.
+- `peerbloomfilters=1` : Omogućava podršku za Bloom filtere (BIP37) radi pružanja filtriranih blokova/transakcija laganim klijentima (podrazumevano: `0`). Pažnja, ovo povećava opterećenje na vaše resurse.
 
 
 
 
 
-- peerblockfilters=1`: Služi BIP157 (*Neutrino*) kompaktne filtere vršnjacima (podrazumevano: `0`).
+- `peerblockfilters=1` : Pruža kompaktne BIP157 (*Neutrino*) filtere peerovima (podrazumevano: `0`).
 
 
 
@@ -3520,7 +3520,7 @@ Takođe možete prilagoditi način na koji se vaši novčanici upravljaju u dato
 
 
 
-- addresstype=<legacy|P2SH-SegWit|bech32|bech32m>`: Definiše format adresa generisanih Wallet za prijem.
+- `addresstype=<legacy|p2sh-segwit|bech32|bech32m>` : Definiše format adresa koje novčanik generiše za prijem.
 
 
 
@@ -3568,7 +3568,7 @@ Takođe možete prilagoditi način na koji se vaši novčanici upravljaju u dato
 
 
 
-- fallbackfee=<amt>`: Rezervna stopa (BTC/kvB) koja se koristi ako procenjivač ostane bez podataka (podrazumevano: `0.00`). Postavljanje na 0 potpuno onemogućava rezervu.
+- `fallbackfee=<amt>` : Rezervna naknada (BTC/kvB) koja se koristi ako procenitelj nema dovoljno podataka (podrazumevano: `0.00`). Postavljanje na 0 potpuno onemogućava rezervnu funkciju.
 
 
 
@@ -3660,7 +3660,7 @@ Datoteka konfiguracije takođe vam omogućava da prilagodite parametre vezane za
 
 
 
-- txindex=1`: Gradi i održava globalni indeks potvrđenih transakcija. Neophodan za određene upite (`getrawtransaction` non-Wallet) i za svrhe istraživanja, ali značajno povećava zauzeće diska. Nekompatibilan sa pruned režimom.
+- `txindex=1` : Kreira i održava globalni indeks potvrđenih transakcija. Neophodno za određene upite (`getrawtransaction` van novčanika) i za istraživačke svrhe, ali značajno povećava upotrebu diska. Nije kompatibilno sa režimom orezivanja.
 
 
 

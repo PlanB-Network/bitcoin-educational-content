@@ -112,7 +112,7 @@ Er zijn twee belangrijke aspecten van decentralisatie in Bitcoin: Miner decentra
 Miner decentralisatie verwijst naar het feit dat transactieverwerking niet wordt uitgevoerd of gecoördineerd door een centrale entiteit. Full node decentralisatie verwijst naar het feit dat validatie van de blokken, d.w.z. de gegevens die miners uitvoeren, aan de rand van het netwerk gebeurt, uiteindelijk door de gebruikers, en niet door een paar vertrouwde autoriteiten.
 
 
-![](assets/decentralization-banner.webp)
+![](assets/en/001.webp)
 
 
 ### Miner decentralisatie
@@ -276,7 +276,7 @@ De manier waarop Bitcoin werkt door decentralisatie lijkt op de buitengewone col
 Ze wijst erop dat veel systemen, zowel natuurlijke als kunstmatige, zonder leiders kunnen werken en dat ook doen, en dat ze krachtig en veerkrachtig zijn. Elk individu heeft alleen interactie met zijn directe omgeving, maar samen vormen ze iets geweldigs.
 
 
-![](assets/fishschool.webp)
+![](assets/en/002.webp)
 
 *Visscholen hebben geen leiders*
 
@@ -302,7 +302,7 @@ Gedecentraliseerde systemen kunnen Hard zijn om je hoofd in te wikkelen, maar er
 
 
 
-![](assets/trustlessness-banner.webp)
+![](assets/en/003.webp)
 
 
 Dit hoofdstuk ontleedt het concept van vertrouweloosheid, wat het betekent vanuit een computerwetenschappelijk perspectief en waarom Bitcoin Trustless moet zijn om zijn waardepropositie te behouden.
@@ -453,7 +453,7 @@ Zonder vertrouwensloosheid kunnen we geen decentralisatie hebben, omdat vertrouw
 
 
 
-![](assets/privacy-banner.webp)
+![](assets/en/004.webp)
 
 
 Dit hoofdstuk gaat over hoe je je financiële privégegevens voor jezelf kunt houden. Het legt uit waar privacy voor staat in de context van Bitcoin, waarom het belangrijk is, en wat het betekent om te zeggen dat Bitcoin pseudoniem is. Het gaat ook in op hoe privégegevens kunnen lekken, zowel On-Chain als off-chain.
@@ -533,7 +533,7 @@ Satoshi Nakamoto denkt na over On-Chain privacy in sectie 7 van zijn [Bitcoin wh
 Het artikel vat de belangrijkste problemen van Blockchain privacy samen, namelijk Address hergebruik en Address clustering. Het eerste is zelfverklarend, het laatste verwijst naar de mogelijkheid om met enige mate van zekerheid te beslissen dat een set verschillende adressen aan dezelfde gebruiker toebehoort.
 
 
-![](assets/address-reuse-clustering.webp)
+![](assets/en/005.webp)
 
 
 Typische privacylekken op de Blockchain
@@ -673,7 +673,7 @@ Om fatsoenlijke privacy te krijgen in Bitcoin, moet je actieve maatregelen nemen
 
 
 
-![](assets/finitesupply-banner.webp)
+![](assets/en/006.webp)
 
 
 Dit hoofdstuk gaat over de Bitcoin Supply limiet van 21 miljoen BTC, of hoeveel is het eigenlijk? We bespreken hoe deze limiet wordt afgedwongen en wat je kunt doen om te controleren of hij wordt gerespecteerd. Bovendien nemen we een kijkje in de kristallen bol en bespreken we de dynamiek die zal ontstaan wanneer Block reward verandert van subsidie- naar fee-gebaseerd.
@@ -785,7 +785,7 @@ Of de Bitcoin Supply voorbij de 21 miljoen zal groeien kunnen we vandaag niet ze
 
 
 
-![](assets/upgrading-banner.webp)
+![](assets/en/007.webp)
 
 
 Bitcoin op een veilige manier upgraden kan extreem moeilijk zijn. Bij sommige veranderingen duurt het meerdere jaren om ze uit te rollen. In dit hoofdstuk leren we over de algemene woordenschat rond het upgraden van Bitcoin en onderzoeken we enkele voorbeelden van historische upgrades van het protocol en de inzichten die we daaruit hebben opgedaan. Tot slot bespreken we ketensplitsingen en de risico's en kosten die daaraan verbonden zijn.
@@ -1025,7 +1025,7 @@ Om Bitcoin in harmonie te houden, hebben Soft vorken bewezen de weg vooruit te z
 <chapterId>d4982f3d-4694-51cc-99be-28f54b03a2a2</chapterId>
 
 
-![](assets/adversarialthinking-banner.webp)
+![](assets/en/008.webp)
 
 
 Dit hoofdstuk gaat over *tegenstrijdig denken*, een denkwijze die zich richt op wat er fout zou kunnen gaan en hoe tegenstanders zouden kunnen handelen. We beginnen met het bespreken van Bitcoin's beveiligingsaannames en beveiligingsmodel, waarna we uitleggen hoe gewone gebruikers hun zelfsoevereiniteit en Bitcoin's Full node decentralisatie kunnen verbeteren door adversair te denken. Daarna kijken we naar enkele actuele bedreigingen voor Bitcoin en in de geest van de tegenstander. Tot slot praten we over het *axioma van verzet*, dat je kan helpen begrijpen waarom mensen überhaupt aan Bitcoin werken.
@@ -1099,7 +1099,7 @@ Het bovenstaande zijn voorbeelden van echte bedreigingen die aangepakt moeten wo
 ### Eenvoudig sabotageveld
 
 
-![](assets/sabotage-manual.webp)
+![](assets/en/009.webp)
 
 
 Uittreksel uit de Eenvoudige Sabotage Veldhandleiding
@@ -1150,7 +1150,7 @@ Om Bitcoin veilig te houden, moet je de vijanden en hun drijfveren kennen. De me
 
 
 
-![](assets/opensource-banner.webp)
+![](assets/en/010.webp)
 
 
 Bitcoin is gebouwd met open source software. In dit hoofdstuk analyseren we wat dit betekent, hoe het onderhoud van de software werkt, en hoe open source software in Bitcoin toestemmingsvrije ontwikkeling mogelijk maakt. We duiken in *selectie cryptografie*, dat gaat over de selectie en het gebruik van bibliotheken in cryptografische systemen. Het hoofdstuk bevat een sectie over Bitcoin's beoordelingsproces, gevolgd door een andere over de manieren waarop Bitcoin ontwikkelaars gefinancierd worden. Het laatste deel gaat over hoe Bitcoin's open source cultuur er van buitenaf heel vreemd uit kan zien, en waarom deze vermeende vreemdheid eigenlijk een teken van goede gezondheid is.
@@ -1438,7 +1438,7 @@ Het ontwikkelingsproces rond Bitcoin is radicaal open, wat Bitcoin er giftig en 
 
 
 
-![](assets/scaling-banner.webp)
+![](assets/en/011.webp)
 
 
 
@@ -1585,7 +1585,7 @@ Een aanpak die veel te weinig waardering krijgt is wat we *inward scaling* kunne
 De verbeteringen die zijn bereikt door naar binnen te schalen zijn op zijn zachtst gezegd indrukwekkend. Om je een algemeen idee te geven van de verbeteringen door de jaren heen, Jameson Lopp [heeft benchmark tests](https://blog.lopp.net/Bitcoin-core-performance-evolution/) uitgevoerd op Blockchain synchronisatie, waarbij veel verschillende versies van Bitcoin Core zijn vergeleken, teruggaand tot versie 0.8.
 
 
-![](assets/Bitcoin-Core-Sync-Performance-1.webp)
+![](assets/en/012.webp)
 
 
 Initiële blokdownloadprestaties van verschillende versies van Bitcoin Core. Op de Y-as staat de gesynchroniseerde blokhoogte en op de X-as de tijd die het duurde om die hoogte te bereiken
@@ -1600,7 +1600,7 @@ De verbeteringen kunnen worden gecategoriseerd als het besparen van ruimte (RAM,
 Een goed voorbeeld van rekenkundige verbetering is te vinden in de bibliotheek [libsecp256k1](https://github.com/Bitcoin-core/secp256k1), die onder andere de cryptografische primitieven implementeert die nodig zijn om digitale handtekeningen te maken en te verifiëren. Pieter Wuille is een van de bijdragers aan deze bibliotheek en hij schreef een [Twitter thread](https://twitter.com/pwuille/status/1450471673321381896) die de prestatieverbeteringen laat zien die zijn bereikt door verschillende pull requests.
 
 
-![](assets/libsecp256k1speedups.webp)
+![](assets/en/013.webp)
 
 
 Prestaties van handtekeningverificatie in de loop der tijd, met significante pull requests gemarkeerd op de tijdlijn
@@ -1614,7 +1614,7 @@ Er zijn ook verschillende goede voorbeelden van ruimtebesparende verbeteringen d
 [Medium blog post](https://murchandamus.medium.com/2-of-3-Multisig-inputs-using-Pay-to-Taproot-d5faf2312ba3) over de bijdrage van Taproot aan het besparen van ruimte, gebruiker Murch vergelijkt hoeveel blokruimte een 2-van-3 drempel handtekening zou vereisen, waarbij Taproot op verschillende manieren wordt gebruikt en helemaal niet wordt gebruikt.
 
 
-![](assets/murch-taproot.webp)
+![](assets/en/014.webp)
 
 
 Ruimtebesparing voor verschillende typen uitgaven, Taproot en oudere versies.
@@ -1629,7 +1629,7 @@ Afgezien van binnenwaartse schaalvergroting in Bitcoin software, zijn er ook enk
 Het idee achter transaction batching is om meerdere betalingen te combineren in één enkele transactie, in plaats van één transactie per betaling. Dit kan je veel kosten besparen en tegelijkertijd de belasting van de blokruimte verminderen.
 
 
-![](assets/tx-batching.webp)
+![](assets/en/015.webp)
 
 
 Transaction batching combineert meerdere betalingen in één transactie om kosten te besparen.
@@ -1638,7 +1638,7 @@ Transaction batching combineert meerdere betalingen in één transactie om koste
 Consolidatie van uitvoer verwijst naar het profiteren van perioden met weinig vraag naar blokruimte om meerdere uitvoer te combineren tot één uitvoer. Dit kan je kosten later verlagen, wanneer je een betaling moet doen terwijl de vraag naar blokruimte hoog is.
 
 
-![](assets/utxo-consolidation.webp)
+![](assets/en/016.webp)
 
 
 Consolidatie van uitvoer: Smelt je munten samen in één grote munt wanneer de kosten laag zijn om later kosten te besparen.
@@ -1660,7 +1660,7 @@ De meest impactvolle benadering van schalen is waarschijnlijk layering. Het alge
 Een gelaagd protocol begint met twee of meer mensen die het eens zijn over een starttransactie die op de Blockchain wordt gezet, zoals geïllustreerd in de afbeelding hieronder.
 
 
-![](assets/scaling-layer.webp)
+![](assets/en/017.webp)
 
 Een typisch Layer 2 protocol bovenop Bitcoin, Layer 1.
 
@@ -1714,7 +1714,7 @@ We weten nu dat Bitcoin niet goed verticaal ("koop grotere hardware") of horizon
 
 
 
-![](assets/shtf-banner.webp)
+![](assets/en/018.webp)
 
 Bitcoin wordt gebouwd door mensen. Mensen schrijven de software en mensen draaien deze software. Wanneer een beveiligingslek of een ernstige bug wordt ontdekt - is er echt een onderscheid tussen die twee? - wordt het altijd ontdekt door mensen van vlees en bloed. Dit hoofdstuk gaat over wat mensen doen, zouden moeten doen en niet zouden moeten doen wanneer er stront aan de knikker is. Het eerste deel legt de term *verantwoorde openbaarmaking* uit, die verwijst naar hoe iemand die een kwetsbaarheid ontdekt verantwoordelijk kan handelen om de schade ervan te beperken. De rest van het hoofdstuk neemt je mee op een tour langs enkele van de ernstigste kwetsbaarheden die door de jaren heen ontdekt zijn en hoe ze behandeld werden door ontwikkelaars, miners en gebruikers. In de vroege kinderjaren van Bitcoin waren de dingen niet zo rigoureus als vandaag.
 
@@ -2059,7 +2059,7 @@ De volledige onthulling van deze kwestie werd op 28 juli 2015 gepubliceerd door 
 In de e-mail worden verder de details uiteengezet over hoe het probleem werd ontdekt en wat het precies veroorzaakte. Aan het einde geeft hij een tijdlijn van de gebeurtenissen, waarvan we hier een aantal van de belangrijkste herhalen. Sommige daarvan zijn, zoals de figuur hierboven laat zien, al beschreven.
 
 
-![](assets/bip66-timeline-1.webp)
+![](assets/en/019.webp)
 
 
 Tijdlijn van gebeurtenissen rond BIP66. Items in zwart zijn hierboven uitgelegd.
@@ -2097,7 +2097,7 @@ Deze gebeurtenissen zouden je de indruk kunnen geven dat Gregory Maxwell op de h
 Vervolgens werd, zoals voorgesteld door Maxwell, BIP66 gemaakt als een subset van BIP62 die alleen strikte DER codering specificeerde. Deze BIP werd blijkbaar breed geaccepteerd en ingezet in juli, hoewel er ironisch genoeg twee Blockchain splitsingen plaatsvonden als gevolg van *validatieloze Mining*. Deze splitsingen worden in de volgende sectie besproken.
 
 
-![](assets/bip66-timeline-2.webp)
+![](assets/en/020.webp)
 
 
 Een belangrijke afgeleide hiervan is dat BIP's min of meer *atomisch* moeten zijn, wat betekent dat ze compleet genoeg moeten zijn om iets nuttigs te bieden of een specifiek probleem op te lossen, maar klein genoeg om brede ondersteuning onder gebruikers mogelijk te maken. Hoe meer dingen je in een BIP stopt, hoe kleiner de kans op acceptatie.
@@ -2118,7 +2118,7 @@ De waarschuwingspagina instrueerde mensen om 30 extra bevestigingen te wachten d
 De bovengenoemde splitsing vond plaats op 2015-07-04 om 02:10 UTC na blokhoogte [363730] (https://Mempool.space/block/000000000000000006a320d752b46b532ec0f3f815c5dae467aff5715a6e579e). Dit probleem werd opgelost om 03:50 dezelfde dag, nadat 6 ongeldige blokken waren gemined. Helaas gebeurde hetzelfde probleem de volgende dag opnieuw, namelijk op 2015-07-05 om 21:50, maar deze keer duurde de ongeldige tak slechts 3 blokken.
 
 
-![](assets/bip66-timeline-3.webp)
+![](assets/en/021.webp)
 
 De gebeurtenissen die leidden tot BIP66, de inzet ervan en de nasleep zijn een zeer goede casestudy voor hoe voorzichtig Bitcoin ontwikkelaars moeten zijn. Een paar belangrijke conclusies van BIP66:
 

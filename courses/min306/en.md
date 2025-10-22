@@ -17,12 +17,52 @@ The Bitaxe project represents a paradigm shift in Bitcoin mining, breaking the m
 No prior mining experience is required, though basic electronics knowledge and familiarity with GitHub will be helpful. The course will transform you from a curious observer into a capable Bitaxe builder and contributor.
 
 +++
+
+
+# Introduction
+
+<partId>6b3cd9f0-0063-40f0-a7bb-00a48f330d88</partId>
+
+## Course overview
+
+<chapterId>1fac9579-0e1c-48e3-9bc5-e7a2960018c8</chapterId>
+
+Welcome to the course MIN 306 _**Bitaxe Open Source Mining Mastery**_, a comprehensive journey into the world of Bitaxe mining. This course is designed for those who want to understand, build, and optimize their own Bitaxe mining hardware while exploring the philosophical and technical foundations that make this project unique within the Bitcoin ecosystem.
+
+### Understanding Bitaxe
+
+The first section lays the essential groundwork: you’ll discover the origins of the Bitaxe project, its evolution, and the values of decentralization and transparency that define it. You’ll learn what a Bitaxe actually is, how it differs from proprietary ASICs, and where to find community resources to deepen your knowledge. This section provides the context needed to understand why Bitaxe represents a turning point in Bitcoin mining history.
+
+### Software and Operations
+
+The second section focuses on the software environment, with a detailed presentation of *AxeOS*, the open-source operating system designed specifically for Bitaxe devices. You’ll learn how to configure it, understand its main features, and interact with your device to start your first mining operations.
+
+### Community and Collaboration
+
+The third section highlights the collaborative aspect of the project. You’ll explore the open-source philosophy applied to both the hardware and software development of Bitaxe. Through practical exercises, you’ll learn how to contribute directly to the source code, and you’ll also discover _Public Pool_, a community platform for pooling computational power. You’ll also learn how to install it on an Umbrel node for local and sovereign integration.
+
+### Hardware Assembly and Troubleshooting
+
+In the fourth section, you’ll dive into the hardware itself. You’ll learn how to identify the tools needed to assemble a Bitaxe, fix soldering issues, and perform a complete diagnostic using *AxeOS* and USB tools. This section emphasizes hands-on practice and a deep understanding of how hardware and software components interact.
+
+### Advanced Customization
+
+The fifth section is dedicated to customization. You’ll learn how to modify the PCB (printed circuit board), create a factory file, and use the _Bitaxe Web Flasher_. This section is aimed at those who want to go beyond simple assembly and truly design customized versions of their own device.
+
+### Performance Optimization
+
+Finally, the sixth section covers advanced optimization techniques. You’ll learn how to benchmark your Bitaxe to evaluate its performance and how to overclock it efficiently. These skills will help you get the most out of your hardware while respecting its physical limitations.
+
+As with every course on Plan ₿ Academy, the final section includes an evaluation designed to reinforce your knowledge.
+
+Dive right into this technical adventure — the future of Bitcoin mining is in your hands!
+
 # Understanding Bitaxe
 <partId>ba1cb4ea-6a77-54fd-916c-57285c8c2418</partId>
 
 ## The History
 <chapterId>73d928e5-72f0-5c17-a7a6-8b6ece7f9a30</chapterId>
-![video](https://www.youtube.com/watch?v=73_2NqcxiWs)
+:::video id=67d2529a-b7cb-4804-b02c-e56c12c9e66e:::
 
 The Bitaxe project represents a groundbreaking shift in Bitcoin mining hardware development, bringing open source principles to an industry dominated by proprietary solutions. This educational series explores the comprehensive history, technical innovations, and community-driven evolution of Bitaxe, providing insights into how a single engineer's vision transformed into a thriving ecosystem of decentralized mining hardware. Through examining the project's origins, challenges, and achievements, we gain valuable understanding of both the technical complexities of ASIC development and the power of open source collaboration in the Bitcoin space.
 
@@ -60,7 +100,7 @@ The project's success has already begun influencing the broader Bitcoin mining e
 
 ## What is the Bitaxe?
 <chapterId>6a56af56-35ce-51af-999b-4bc7305e6464</chapterId>
-![video](https://www.youtube.com/watch?v=KcwM9yNuHpM)
+:::video id=12b26c7a-74b1-4ea9-afc0-e3ef90cf5837:::
 
 ### Hardware Overview and Capabilities
 
@@ -107,7 +147,7 @@ This evolutionary approach demonstrates the benefits of open-source hardware dev
 
 ## Where can I learn more?
 <chapterId>706f2fff-fa1c-5d8e-b14c-ece6e42c016f</chapterId>
-![video](https://www.youtube.com/watch?v=dmZZ3nkZrUk)
+:::video id=90088397-3a16-485f-bbd2-89cdbb844e4a:::
 
 The Bitaxe project represents a comprehensive open-source mining initiative that extends far beyond a single device. Understanding where to find reliable information, technical resources, and community support is crucial for anyone looking to engage with this ecosystem. This chapter provides a complete guide to the essential platforms and resources that form the foundation of the Bitaxe and Open Source Miners United (OSMU) community.
 
@@ -162,7 +202,7 @@ The emphasis on non-affiliate links demonstrates the community's commitment to p
 
 ## What is AxeOS ?
 <chapterId>a0cdf10d-e007-58e2-a17b-b588fd393b5e</chapterId>
-![video](https://www.youtube.com/watch?v=EQRJ64XgtYk)
+:::video id=de7bcbf2-f9ac-4057-ad40-29dc223b4798:::
 
 AxeOS represents the comprehensive firmware and web interface that powers Bitaxe mining devices, providing users with complete control and monitoring capabilities through an intuitive browser-based dashboard. This system transforms the complex task of ASIC management into an accessible experience, allowing miners to monitor performance, adjust settings, and manage multiple devices from a single interface. Understanding AxeOS is essential for maximizing your Bitaxe device's potential and maintaining optimal mining operations.
 
@@ -214,7 +254,7 @@ Additional system features include screen orientation control for devices used i
 
 ## Open-Source Contribution Overview
 <chapterId>715d026e-cebc-536e-a34e-728f5653b999</chapterId>
-![video](https://www.youtube.com/watch?v=YVXEhze5LKo)
+:::video id=7298ba19-28d2-4a7c-ac0b-44ad0c4770cf:::
 
 ### GitHub and Its Role in Software Development
 
@@ -258,7 +298,7 @@ The GitHub ecosystem creates a comprehensive environment for open-source collabo
 
 ## Open-Source Contribution Hands-on
 <chapterId>84d033f5-7182-584f-b1a5-697172bc7a1c</chapterId>
-![video](https://www.youtube.com/watch?v=-Af8zmdwy14)
+:::video id=7d318fd0-6f0b-422a-9f30-2c470b56951d:::
 
 Building upon the foundation of creating issues and exploring open source projects, this chapter focuses on the practical aspects of making direct contributions through pull requests and repository management. Understanding how to fork repositories, make changes, and submit pull requests represents a crucial skill set for any developer looking to contribute meaningfully to open source projects, whether they involve software development or hardware design.
 
@@ -302,7 +342,7 @@ Understanding that not all pull requests receive acceptance helps set appropriat
 ## What's Public-Pool ?
 <chapterId>b461bf94-4a90-5bb8-ba3f-976d5d57be0d</chapterId>
 
-![video](https://www.youtube.com/watch?v=QbOsH04Z9xM)
+:::video id=d4652496-1ed4-4415-8048-0b6871b9ed51:::
 
 Public Pool represents a revolutionary approach to Bitcoin mining that addresses many of the concerns miners have with traditional mining pools. As a fully open-source solo Bitcoin mining pool, Public Pool fundamentally changes the reward distribution model that miners have become accustomed to. Unlike conventional mining pools where participants share rewards when any miner in the pool finds a block, Public Pool operates on a solo mining principle where individual miners retain 100% of their block rewards when they successfully mine a block.
 
@@ -333,7 +373,7 @@ The platform's user interface provides miners with detailed monitoring capabilit
 ## How to install Public-Pool on Umbrel
 <chapterId>7f6d0307-7715-5581-89ea-f13cf8754f9a</chapterId>
 
-![video](https://www.youtube.com/watch?v=D36i3GnImyo)
+:::video id=3a4fe0a9-bbf5-458a-8ec1-52c3b83afd87:::
 
 Running your own Bitcoin mining pool at home has become increasingly accessible with modern hardware and simplified software solutions. This chapter explores the practical implementation of a home-based public pool using affordable mini PC hardware and streamlined node management software. By the end of this guide, you'll understand the hardware requirements, software setup process, and basic configuration needed to establish your own mining pool infrastructure.
 
@@ -369,7 +409,7 @@ The successful establishment of a home mining pool represents a significant step
 ## What tools to use?
 <chapterId>733935b5-0171-5a22-838c-e192df6f7ccf</chapterId>
 
-![video](https://www.youtube.com/watch?v=zz-ctGXzf0U)
+:::video id=bddd0e47-7b43-4685-ba2e-bf3a8ff653c9:::
 
 In the world of surface-mount device (SMD) soldering, particularly when working with Bitaxe projects, having the right tools makes the difference between frustration and success. This comprehensive guide covers the essential equipment needed to tackle SMD soldering projects effectively, from basic hand tools to specialized equipment that will elevate your soldering capabilities.
 
@@ -407,7 +447,7 @@ The combination of these tools creates a complete SMD soldering capability that 
 ## Fix solder issues
 <chapterId>96663744-b4f7-5154-930f-a68ba7954603</chapterId>
 
-![video](https://www.youtube.com/watch?v=LgsMSjTwJ8M)
+:::video id=9286c0dc-acd6-44d9-b34e-59cfb2da9748:::
 
 
 The Bitaxe transceiver kit presents unique challenges during assembly that require careful attention to component orientation, solder bridge prevention, and proper heat management. Understanding these common issues and their solutions is essential for successful kit construction and avoiding costly component damage. This chapter examines the most frequent soldering problems encountered during Bitaxe assembly and provides practical techniques for identifying and resolving them.
@@ -446,7 +486,7 @@ Component U8 presents unique challenges due to its numerous pins and potential f
 
 ## How to debug your Bitaxe using AxeOS
 <chapterId>603f5c0d-4b7c-51e1-9bad-318a8b8e9db7</chapterId>
-![video](https://www.youtube.com/watch?v=ztnLoD5Fp_A)
+:::video id=d23d748b-510e-4748-9617-b875da757031:::
 
 When working with Bitaxe mining devices, hardware failures can manifest in various ways that may not be immediately obvious. Understanding how to systematically diagnose these issues using the AxeOS operating system can save significant time and prevent unnecessary component replacements. This chapter explores the diagnostic techniques and troubleshooting methodologies that experienced technicians use to identify specific hardware problems through software analysis.
 
@@ -479,7 +519,7 @@ For cases where the U9 buck converter appears to be the problem, physical inspec
 ## How to debug using USB?
 <chapterId>f3182763-e1ef-5460-8bc0-f2ea53e3a410</chapterId>
 
-![video](https://www.youtube.com/watch?v=kZNtfD-91GU)
+:::video id=fe1b4b48-5f8a-4fd7-9417-ca03a36bce9f:::
 
 
 When troubleshooting Bitaxe mining devices, having direct access to the device's internal logging system provides invaluable insights that web-based interfaces cannot offer. This chapter explores how to establish a direct USB serial connection to your Bitaxe device using the ESP-IDF framework, enabling real-time monitoring of system logs, boot sequences, and error messages. This debugging approach is particularly crucial when dealing with devices that experience frequent reboots or hardware failures, as it captures all diagnostic information that might be lost during system restarts.
@@ -522,7 +562,7 @@ For systematic troubleshooting, document error patterns and component-specific f
 ## Modify the PCB
 <chapterId>ca08d2a4-2b34-575b-aecc-7482a03c190e</chapterId>
 
-![video](https://www.youtube.com/watch?v=EZSZyYkEq-A)
+:::video id=30fb0010-f560-4e96-a05b-c21dc172746e:::
 
 KiCad represents one of the most powerful open-source tools available for printed circuit board (PCB) design and routing. This professional-grade software enables engineers and hobbyists to create complex electronic designs by placing components on virtual boards and routing the intricate traces that connect these components together. What makes KiCad particularly valuable for educational and development purposes is its complete open-source nature, allowing users to modify, customize, and learn from existing designs without licensing restrictions.
 
@@ -557,7 +597,7 @@ KiCad's comprehensive design rule checking and verification tools ensure that mo
 ## How to create a factory file?
 <chapterId>e9da631c-e6d1-50c1-bb59-bc8455c29d3e</chapterId>
 
-![video](https://www.youtube.com/watch?v=3lpPGSvC2OY)
+:::video id=07f980bf-6052-4ed4-bf7b-75e8aba585df:::
 
 Building custom firmware for ESP-based mining devices requires careful attention to configuration, dependencies, and the proper build process. This comprehensive guide walks through the complete process of creating both standard firmware binaries and factory files that include pre-configured settings, making deployment more efficient and reducing setup time for end users.
 
@@ -598,7 +638,7 @@ The completed factory files provide deployment teams with ready-to-flash binarie
 ## How to use the Bitaxe Web Flasher ?
 <chapterId>8c3e2d4c-c038-53ec-93cb-cc30a29e4394</chapterId>
 
-![video](https://www.youtube.com/watch?v=EgUtT2aWlIg)
+:::video id=291757b9-f459-48f6-8766-56387f907859:::
 
 The Bitaxe Web Installer represents a streamlined approach to firmware management for Bitaxe devices, providing users with multiple installation options through a web-based interface. This comprehensive tool eliminates the complexity traditionally associated with firmware updates and fresh installations, making device management accessible to users regardless of their technical expertise. Understanding the proper use of this installer is crucial for maintaining optimal device performance and avoiding common pitfalls that can render devices temporarily inoperable.
 
@@ -635,7 +675,7 @@ The installation process itself proceeds automatically once users have made thei
 ## How to create and order the PCB?
 <chapterId>566f5e06-9ec9-55c0-84f6-101d6ca4c2ff</chapterId>
 
-![video](https://www.youtube.com/watch?v=YvMb6V1nPoI)
+:::video id=9a56ad84-d9cf-4f85-ab98-301fb3101228:::
 
 This chapter focuses on the practical process of generating manufacturing files from KiCad projects and ordering professional PCBs from online manufacturers. Using the Bitaxe project as our example, we'll walk through the complete workflow from file generation to placing an order with a PCB manufacturer.
 
@@ -677,7 +717,7 @@ The manufacturing and assembly process represents a crucial bridge between digit
 ## Benchmark your Bitaxe
 <chapterId>7259a4b1-93c1-5956-87d3-baaee58115af</chapterId>
 
-![video](https://www.youtube.com/watch?v=DYKByYGbj-E)
+:::video id=2491a783-9750-4ea5-a40c-1d1d611784d5:::
 
 The pursuit of optimal mining performance requires a systematic approach to hardware configuration that balances hashrate, efficiency, and thermal management. Modern ASIC miners like the Bitaxe offer numerous configuration parameters that can significantly impact performance, but manually testing every combination of settings would be impractical and time-consuming. This chapter explores how to leverage automated benchmarking tools to scientifically optimize your Bitaxe miner's performance while maintaining safe operating conditions.
 
@@ -710,7 +750,7 @@ The benchmarking tool also offers customization options for advanced users who w
 ## Overclock your Bitaxe
 <chapterId>6b48c0c6-51c3-51a3-b317-850a374ae61e</chapterId>
 
-![video](https://www.youtube.com/watch?v=nBINeqLnR08)
+:::video id=46c7a442-cd72-477c-8c91-b2c489ada1e6:::
 
 Overclocking a Bitaxe device requires careful consideration of both hardware limitations and cooling requirements. While many users prefer to underclock their devices for quieter operation, understanding proper overclocking techniques is essential for those seeking maximum performance without damaging their hardware. The process involves increasing the frequency and potentially adjusting voltage settings beyond factory specifications, which inherently increases heat generation and stress on components.
 

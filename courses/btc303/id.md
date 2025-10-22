@@ -112,7 +112,7 @@ Ada dua aspek utama desentralisasi dalam Bitcoin: Desentralisasi Miner dan desen
 Desentralisasi Miner mengacu pada fakta bahwa pemrosesan transaksi tidak dilakukan atau dikoordinasikan oleh entitas pusat mana pun. Desentralisasi Full node mengacu pada fakta bahwa validasi blok, yaitu data yang dihasilkan oleh penambang, dilakukan di tepi jaringan, pada akhirnya oleh para penggunanya, dan bukan oleh beberapa otoritas tepercaya.
 
 
-![](assets/decentralization-banner.webp)
+![](assets/en/001.webp)
 
 
 ### Desentralisasi Miner
@@ -276,7 +276,7 @@ Cara kerja Bitcoin melalui desentralisasi menyerupai kecerdasan kolektif yang lu
 Dia menunjukkan bahwa banyak sistem, baik alami maupun buatan, dapat dan memang bekerja tanpa pemimpin, dan mereka sangat kuat dan tangguh. Setiap individu hanya berinteraksi dengan lingkungan sekitar mereka, tetapi bersama-sama mereka membentuk sesuatu yang luar biasa.
 
 
-![](assets/fishschool.webp)
+![](assets/en/002.webp)
 
 *Kelompok ikan tidak memiliki pemimpin*
 
@@ -302,7 +302,7 @@ Sistem terdesentralisasi bisa jadi merupakan Hard yang membingungkan, tetapi ada
 
 
 
-![](assets/trustlessness-banner.webp)
+![](assets/en/003.webp)
 
 
 Bab ini membedah konsep trustlessness, apa artinya dari perspektif ilmu komputer, dan mengapa Bitcoin harus menjadi Trustless untuk mempertahankan proposisi nilainya.
@@ -453,7 +453,7 @@ Tanpa adanya kepercayaan, kita tidak dapat memiliki desentralisasi, karena keper
 
 
 
-![](assets/privacy-banner.webp)
+![](assets/en/004.webp)
 
 
 Bab ini membahas tentang cara menjaga informasi keuangan pribadi Anda. Bab ini menjelaskan apa yang dimaksud dengan privasi dalam konteks Bitcoin, mengapa hal ini penting, dan apa yang dimaksud dengan Bitcoin yang bersifat pseudonim. Bab ini juga membahas bagaimana data pribadi dapat bocor, baik On-Chain maupun off-chain.
@@ -533,7 +533,7 @@ Satoshi Nakamoto merenungkan privasi On-Chain di bagian 7 dari [whitepaper Bitco
 Makalah ini merangkum masalah utama dari privasi Blockchain, yaitu penggunaan ulang Address dan pengelompokan Address. Yang pertama menjelaskan sendiri, yang terakhir mengacu pada kemampuan untuk memutuskan, dengan tingkat kepastian tertentu, bahwa sekumpulan alamat yang berbeda adalah milik pengguna yang sama.
 
 
-![](assets/address-reuse-clustering.webp)
+![](assets/en/005.webp)
 
 
 Kebocoran privasi yang umum terjadi pada Blockchain
@@ -673,7 +673,7 @@ Untuk mendapatkan privasi yang layak di Bitcoin, Anda harus mengambil tindakan a
 
 
 
-![](assets/finitesupply-banner.webp)
+![](assets/en/006.webp)
 
 
 Bab ini membahas tentang batas Bitcoin Supply sebesar 21 juta BTC, atau berapa sebenarnya? Kita akan membahas tentang bagaimana batas ini diberlakukan dan apa yang dapat dilakukan untuk memverifikasi bahwa batas ini dipatuhi. Selain itu, kami mengintip ke dalam bola kristal dan mendiskusikan dinamika yang akan terjadi ketika Block reward bergeser dari berbasis subsidi menjadi berbasis biaya.
@@ -785,7 +785,7 @@ Apakah Bitcoin Supply akan tumbuh melewati 21 juta, kita tidak bisa mengatakanny
 
 
 
-![](assets/upgrading-banner.webp)
+![](assets/en/007.webp)
 
 
 Memutakhirkan Bitcoin dengan cara yang aman bisa jadi sangat sulit. Beberapa perubahan membutuhkan waktu beberapa tahun untuk diluncurkan. Dalam bab ini, kita belajar tentang kosakata umum seputar peningkatan Bitcoin, dan mengeksplorasi beberapa contoh peningkatan historis pada protokolnya serta wawasan yang kami peroleh darinya. Terakhir, kita akan membahas tentang pemisahan rantai dan risiko serta biaya yang terkait dengannya.
@@ -1025,7 +1025,7 @@ Untuk menjaga agar Bitcoin tetap selaras, garpu Soft telah terbukti sebagai jala
 <chapterId>d4982f3d-4694-51cc-99be-28f54b03a2a2</chapterId>
 
 
-![](assets/adversarialthinking-banner.webp)
+![](assets/en/008.webp)
 
 
 Bab ini membahas *pemikiran musuh*, pola pikir yang berfokus pada apa yang bisa salah dan bagaimana musuh dapat bertindak. Kita mulai dengan membahas asumsi keamanan dan model keamanan Bitcoin, setelah itu kita menjelaskan bagaimana pengguna biasa dapat meningkatkan kedaulatan diri mereka dan desentralisasi Bitcoin dengan berpikir secara berlawanan. Kemudian, kami melihat beberapa ancaman aktual terhadap Bitcoin serta ke dalam pikiran musuh. Terakhir, kami berbicara tentang *aksioma perlawanan* yang dapat membantu Anda memahami mengapa orang bekerja pada Bitcoin di tempat pertama.
@@ -1099,7 +1099,7 @@ Hal-hal di atas adalah contoh-contoh ancaman nyata yang perlu diwaspadai.
 ### Bidang Sabotase Sederhana
 
 
-![](assets/sabotage-manual.webp)
+![](assets/en/009.webp)
 
 
 Kutipan dari Manual Lapangan Sabotase Sederhana
@@ -1150,7 +1150,7 @@ Untuk menjaga keamanan Bitcoin, Anda perlu mengetahui musuh-musuh dan insentif m
 
 
 
-![](assets/opensource-banner.webp)
+![](assets/en/010.webp)
 
 
 Bitcoin dibangun menggunakan perangkat lunak sumber terbuka. Dalam bab ini kami menganalisis apa artinya ini, bagaimana pemeliharaan perangkat lunak bekerja, dan bagaimana perangkat lunak sumber terbuka di Bitcoin memungkinkan pengembangan tanpa izin. Kami membahas tentang *kriptografi pemilihan*, yang berhubungan dengan pemilihan dan penggunaan pustaka dalam sistem kriptografi. Bab ini mencakup sebuah bagian tentang proses peninjauan Bitcoin, diikuti dengan bagian lain tentang cara pengembang Bitcoin mendapatkan dana. Bagian terakhir membahas tentang bagaimana budaya open source Bitcoin dapat terlihat sangat aneh dari luar, dan mengapa keanehan yang dirasakan ini benar-benar merupakan tanda kesehatan yang baik.
@@ -1438,7 +1438,7 @@ Proses pengembangan di sekitar Bitcoin sangat terbuka, yang dapat membuat Bitcoi
 
 
 
-![](assets/scaling-banner.webp)
+![](assets/en/011.webp)
 
 
 
@@ -1585,7 +1585,7 @@ Sebuah pendekatan yang kurang mendapat apresiasi adalah apa yang bisa kita sebut
 Peningkatan yang telah dicapai melalui penskalaan ke dalam sangat mengesankan, untuk sedikitnya. Untuk memberi Anda gambaran umum tentang peningkatan selama bertahun-tahun, Jameson Lopp [telah menjalankan tes benchmark](https://blog.lopp.net/Bitcoin-core-performance-evolution/) pada sinkronisasi Blockchain, membandingkan berbagai versi Bitcoin Core yang berbeda hingga versi 0.8.
 
 
-![](assets/Bitcoin-Core-Sync-Performance-1.webp)
+![](assets/en/012.webp)
 
 
 Performa pengunduhan blok awal dari berbagai versi Bitcoin Core. Pada sumbu Y adalah ketinggian blok yang disinkronkan dan pada sumbu X adalah waktu yang diperlukan untuk menyinkronkan ke ketinggian tersebut
@@ -1600,7 +1600,7 @@ Peningkatan tersebut dapat dikategorikan sebagai penghematan ruang (RAM, disk, b
 Sebuah contoh yang baik untuk peningkatan komputasi dapat ditemukan di pustaka [libsecp256k1](https://github.com/Bitcoin-core/secp256k1), yang, antara lain, mengimplementasikan primitif kriptografi yang dibutuhkan untuk membuat dan memverifikasi tanda tangan digital. Pieter Wuille adalah salah satu kontributor dari pustaka ini, dan ia menulis sebuah [Twitter thread](https://twitter.com/pwuille/status/1450471673321381896) yang menampilkan peningkatan performa yang dicapai melalui berbagai pull request.
 
 
-![](assets/libsecp256k1speedups.webp)
+![](assets/en/013.webp)
 
 
 Performa verifikasi tanda tangan dari waktu ke waktu, dengan pull request yang signifikan ditandai pada timeline
@@ -1614,7 +1614,7 @@ Terdapat juga beberapa contoh bagus mengenai peningkatan penghematan ruang yang 
 [Medium blog post](https://murchandamus.medium.com/2-of-3-Multisig-inputs-using-Pay-to-Taproot-d5faf2312ba3) tentang kontribusi Taproot untuk menghemat ruang, pengguna Murch membandingkan berapa banyak ruang blok yang dibutuhkan oleh tanda tangan ambang batas 2 dari 3, menggunakan Taproot dalam berbagai cara serta tidak menggunakannya sama sekali.
 
 
-![](assets/murch-taproot.webp)
+![](assets/en/014.webp)
 
 
 Penghematan ruang untuk berbagai jenis pengeluaran, Taproot dan versi lama.
@@ -1629,7 +1629,7 @@ Selain penskalaan ke dalam dalam perangkat lunak Bitcoin, ada beberapa cara di m
 Ide dari pengelompokan transaksi adalah untuk menggabungkan beberapa pembayaran menjadi satu transaksi tunggal, daripada membuat satu transaksi per pembayaran. Hal ini dapat menghemat banyak biaya, dan pada saat yang sama mengurangi beban ruang blok.
 
 
-![](assets/tx-batching.webp)
+![](assets/en/015.webp)
 
 
 Pengelompokan transaksi menggabungkan beberapa pembayaran ke dalam satu transaksi untuk menghemat biaya.
@@ -1638,7 +1638,7 @@ Pengelompokan transaksi menggabungkan beberapa pembayaran ke dalam satu transaks
 Konsolidasi output mengacu pada mengambil keuntungan dari periode permintaan yang rendah untuk ruang blok untuk menggabungkan beberapa output menjadi satu output. Hal ini dapat mengurangi biaya biaya Anda di kemudian hari, ketika Anda harus melakukan pembayaran saat permintaan block space tinggi.
 
 
-![](assets/utxo-consolidation.webp)
+![](assets/en/016.webp)
 
 
 Konsolidasi keluaran: Gabungkan koin Anda menjadi satu koin besar saat biaya rendah untuk menghemat biaya di kemudian hari.
@@ -1660,7 +1660,7 @@ Pendekatan yang paling berdampak pada penskalaan mungkin adalah layering. Ide um
 Protokol berlapis dimulai dengan dua orang atau lebih yang menyetujui transaksi awal yang dimasukkan ke dalam Blockchain, seperti yang diilustrasikan pada gambar di bawah ini.
 
 
-![](assets/scaling-layer.webp)
+![](assets/en/017.webp)
 
 Protokol Layer 2 yang khas di atas Bitcoin, Layer 1.
 
@@ -1714,7 +1714,7 @@ Kita tahu saat ini bahwa Bitcoin tidak berskala baik secara vertikal ("membeli p
 
 
 
-![](assets/shtf-banner.webp)
+![](assets/en/018.webp)
 
 Bitcoin dibangun oleh manusia. Orang-orang menulis perangkat lunak, dan orang-orang kemudian menjalankan perangkat lunak ini. Ketika kerentanan keamanan atau bug yang parah ditemukan - apakah benar-benar ada perbedaan di antara keduanya? - itu selalu ditemukan oleh manusia, manusia biasa. Bab ini membahas tentang apa yang harus, boleh, dan tidak boleh dilakukan oleh orang-orang ketika terjadi masalah. Bagian pertama menjelaskan istilah *pengungkapan yang bertanggung jawab*, yang mengacu pada bagaimana seseorang yang menemukan kerentanan dapat bertindak secara bertanggung jawab untuk membantu meminimalkan kerusakan yang ditimbulkannya. Bagian selanjutnya dari bab ini akan membawa Anda dalam tur melalui beberapa kerentanan paling parah yang ditemukan selama bertahun-tahun, dan bagaimana penanganannya oleh pengembang, penambang, dan pengguna. Segala sesuatunya tidak seketat pada masa awal Bitcoin seperti saat ini.
 
@@ -2059,7 +2059,7 @@ Pengungkapan lengkap dari masalah ini diterbitkan pada tanggal 28 Juli 2015 oleh
 Email tersebut menjabarkan lebih lanjut rincian tentang bagaimana masalah ini ditemukan dan apa penyebabnya. Di bagian akhir, dia mengirimkan garis waktu kejadian, dan kami akan mengulang beberapa kejadian yang paling penting di sini. Beberapa di antaranya, seperti yang diilustrasikan oleh gambar di atas, sudah dijelaskan.
 
 
-![](assets/bip66-timeline-1.webp)
+![](assets/en/019.webp)
 
 
 Garis waktu kejadian di sekitar BIP66. Item berwarna hitam telah dijelaskan di atas.
@@ -2097,7 +2097,7 @@ Peristiwa ini mungkin memberi Anda kesan bahwa Gregory Maxwell tahu tentang kere
 Kemudian, seperti yang diusulkan oleh Maxwell, BIP66 dibuat sebagai bagian dari BIP62 yang hanya menetapkan pengkodean DER yang ketat. BIP ini tampaknya diterima secara luas dan digunakan pada bulan Juli, meskipun dua perpecahan Blockchain secara ironis terjadi karena *validasi tanpa Mining*. Perpecahan ini akan dibahas pada bagian selanjutnya.
 
 
-![](assets/bip66-timeline-2.webp)
+![](assets/en/020.webp)
 
 
 Kesimpulan utama dari hal ini adalah bahwa BIP harus lebih atau kurang *atomik*, yang berarti bahwa BIP harus cukup lengkap untuk menyediakan sesuatu yang berguna atau memecahkan masalah tertentu, tetapi cukup kecil untuk memungkinkan dukungan yang luas di antara para pengguna. Semakin banyak hal yang Anda masukkan ke dalam BIP, semakin kecil peluang untuk diterima.
@@ -2118,7 +2118,7 @@ Halaman peringatan menginstruksikan orang-orang untuk menunggu 30 konfirmasi tam
 Perpecahan yang disebutkan di atas terjadi pada 2015-07-04 pukul 02:10 UTC setelah ketinggian blok [363730](https://Mempool.space/block/000000000000000006a320d752b46b532ec0f3f815c5dae467aff5715a6e579e). Masalah ini berhasil diselesaikan pada pukul 03:50 di hari yang sama, setelah 6 blok yang tidak valid ditambang. Sayangnya, masalah yang sama terjadi lagi pada hari berikutnya, yaitu pada tanggal 2015-07-05 pukul 21:50, tetapi kali ini cabang yang tidak valid hanya bertahan selama 3 blok.
 
 
-![](assets/bip66-timeline-3.webp)
+![](assets/en/021.webp)
 
 Peristiwa yang terjadi sebelum BIP66, peluncurannya, dan setelahnya merupakan studi kasus yang sangat bagus untuk menunjukkan betapa berhatihatinya para pengembang Bitcoin. Beberapa hal penting yang dapat diambil dari BIP66:
 

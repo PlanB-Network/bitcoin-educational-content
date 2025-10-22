@@ -1,6 +1,6 @@
 ---
 name: SeedSigner
-description: Construisez votre dispositif de signature, abordable et 100 % hors-ligne
+description: Un hardware wallet DIY, stateless, abordable et entièrement air-gapped
 ---
 
 ![cover](assets/cover.webp)

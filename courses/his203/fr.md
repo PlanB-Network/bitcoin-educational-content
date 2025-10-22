@@ -952,9 +952,9 @@ Mais la dynamique ne s'est pas arrêtée là, et les choses sont encore allées 
 
 ### Les coopératives de minage et leur mode de rémunération
 
-L'année 2011 est l'année où le minage groupé se généralise : [de nombreuses coopératives de minage](https://en.bitcoin.it/w/index.php?title=Comparison_of_mining_pools&oldid=21595) sont lancent durant cette année-là. Bitcoin.cz, la coopérative de Marek Palatinus (alias Slush) [ouverte](https://bitcointalk.org/index.php?topic=1976.msg30520#msg30520) en décembre 2010, a rencontré le succès en quelques jours, en recueillant près de 3,5 % de la puissance de calcul du réseau, et n'a par conséquent pas manqué de faire des émules. Au fur et à mesure, les mineurs deviennent des « hacheurs », c'est-à-dire des personnes louant leur puissance de hachage à un opérateur, qui s'occupe de choisir les spécificités des blocs et les transactions à inclure.
+L'année 2011 est l'année où le minage groupé se généralise : [de nombreuses coopératives de minage](https://en.bitcoin.it/w/index.php?title=Comparison_of_mining_pools&oldid=21595) sont lancent durant cette année-là. Bitcoin.cz Mining, la coopérative [ouverte](https://bitcointalk.org/index.php?topic=1976.msg30520#msg30520) en décembre 2010 par Marek Palatinus (alias Slush), a rencontré le succès en quelques jours, en recueillant près de 3,5 % de la puissance de calcul du réseau, et n'a par conséquent pas manqué de faire des émules. Au fur et à mesure, les mineurs deviennent des « hacheurs », c'est-à-dire des personnes louant leur puissance de hachage à un opérateur, qui s'occupe de choisir les spécificités des blocs et les transactions à inclure.
 
-Différentes [méthodes de rémunération](https://arxiv.org/abs/1112.4980) sont adoptées par les coopératives. Le calcul est basé sur les parts fournies par les clients, c'est-à-dire les preuves de travail partielles calculées pour un bloc donné. Initialement, Bitcoin.cz applique un modèle proportionnel simple : ses utilisateurs sont récompensés à chaque bloc miné, au pro rata des parts qu'ils ont trouvées depuis le dernier bloc. Elle prélève sur cette récompense une commission de 2 %, soit 1 BTC par bloc. Ce modèle est cependant légèrement défectueux, les mineurs [pouvant](https://bitcointalk.org/index.php?topic=3165.msg44357#msg44357) « tricher » (et obtenir environ 28 % de bitcoins en plus) en se déconnectant de la coopérative une fois un certain nombre de parts obtenues lors d'un cycle et en redirigeant leur puissance de calcul à leur propre compte ou vers une autre coopérative (une pratique [connue](https://bitcointalk.org/index.php?topic=26866.msg337932#msg337932) sous le nom de *pool hopping*). C'est pourquoi Marek Palatinus [met en place](https://bitcointalk.org/index.php?topic=1976.msg50002#msg50002), le 4 février 2011, un système de score « anti-tricherie » faisant que les parts les plus récentes du cycle ont plus de poids que les parts les plus anciennes.
+Différentes [méthodes de rémunération](https://arxiv.org/abs/1112.4980) sont adoptées par les coopératives. Le calcul est basé sur les parts fournies par les clients, c'est-à-dire les preuves de travail partielles calculées pour un bloc donné. Initialement, la coopérative de Slush applique un modèle proportionnel simple : ses utilisateurs sont récompensés à chaque bloc miné, au pro rata des parts qu'ils ont trouvées depuis le dernier bloc. Elle prélève sur cette récompense une commission de 2 %, soit 1 BTC par bloc. Ce modèle est cependant légèrement défectueux, les mineurs [pouvant](https://bitcointalk.org/index.php?topic=3165.msg44357#msg44357) « tricher » (et obtenir environ 28 % de bitcoins en plus) en se déconnectant de la coopérative une fois un certain nombre de parts obtenues lors d'un cycle et en redirigeant leur puissance de calcul à leur propre compte ou vers une autre coopérative (une pratique [connue](https://bitcointalk.org/index.php?topic=26866.msg337932#msg337932) sous le nom de *pool hopping*). C'est pourquoi Marek Palatinus [met en place](https://bitcointalk.org/index.php?topic=1976.msg50002#msg50002), le 4 février 2011, un système de score « anti-tricherie » faisant que les parts les plus récentes du cycle ont plus de poids que les parts les plus anciennes.
 
 La première coopérative concurrente à émerger en 2011 est BitPenny, qui a la particularité d'appliquer un modèle de récompense alternatif simple : le *Pay Per Share* (PPS), ou paiement par part en français. Il s'agit de rémunérer les hacheurs de façon immédiate à chaque part fournie, selon son degré de difficulté, à partir du solde de la coopérative. Contrairement au modèle proportionnel, l'opérateur prend donc l'intégralité de la variance à sa charge, ce qui est risqué. La coopérative BitPenny est [lancée](https://bitcointalk.org/index.php?topic=3266.msg45809#msg45809) le 8 février, mais est forcée de fermer le 2 avril, à la suite de pertes trop importantes. Elle sera néanmoins [relancée](https://bitcointalk.org/index.php?topic=36371.msg447984#msg447984) en août, en appliquant un autre modèle plus complexe (le *Capped Pay Per Share with Recent Backpay* ou CPPSRB).
 
@@ -964,13 +964,17 @@ Le 27 février, une nouvelle coopérative est [ouverte](https://web.archive.org/
 
 Par la suite, plusieurs de dizaines coopératives (plus ou moins sérieuses) sont ouvertes dans l'année. Parmi elles, on trouve BTC Guild, une coopérative installée aux États-Unis qui est [créée](https://web.archive.org/web/20111127113730/https://bitcointalk.org/index.php?topic=7760.0) en mai 2011 par un mineur californien se faisant appeler Eleuthria (déformation du mot grec ἐλευθερία, eleuthería, qui signifie « liberté »). Elle applique un modèle de PPS pur.
 
-Des coopératives pour Namecoin apparaissent aussi, comme [Bitparking](https://bitcointalk.org/index.php?topic=8775.msg127063#msg127063), ouverte par DoubleC en mai, ou [NMCBIT](https://bitcointalk.org/index.php?topic=33612.msg419958#msg419958), créée par un certain Davinci Jeremie (DavinciJ15) en août. L'ajout du minage combiné fera qu'au fur et à mesure du temps, toutes les coopératives de Bitcoin seront amenées à intégrer le minage de Namecoin à leur offre.
+Des coopératives pour Namecoin apparaissent aussi, comme [Bitparking](https://bitcointalk.org/index.php?topic=8775.msg127063#msg127063), ouverte par DoubleC en mai, ou [NMCBit](https://bitcointalk.org/index.php?topic=33612.msg419958#msg419958), créée par un certain Davinci Jeremie (DavinciJ15) en août. L'ajout du minage combiné fera qu'au fur et à mesure du temps, toutes les coopératives de Bitcoin seront amenées à intégrer le minage de Namecoin à leur offre.
 
 Des méthodes de versement plus complexes ayant pour but de corriger les déficiences des modèles simples sont conceptualisés : le PPLNS, la méthode géométrique, et le SMPPS.
 
 Le 15 juin, une coopérative du nom de Mineco.in est [lancée](https://bitcointalk.org/index.php?topic=17944.msg227913#msg227913) par un nouveau venu utilisant le pseudonyme Wuked. Cette coopérative applique initialement un paiement proportionnel (comme Deepbit), mais innove [rapidement](https://en.bitcoin.it/w/index.php?title=Comparison_of_mining_pools&oldid=12816) en développant une méthode [connue](https://bitcointalk.org/index.php?topic=39832.msg486012#msg486012) sous le nom de *Pay Per Last N Shares* (PPLNS), ou paiement selon les N dernières parts en français. Il s'agit de récompenser le hacheur à chaque bloc miné, au pro rata de ses parts parmi les N dernières parts fournies à la coopérative. C'est donc une variante du modèle proportionnel dont la période d'évaluation n'est pas le cycle de production de bloc, mais une fenêtre de N parts indépendante du cycle.
 
 Toujours en juin (le 13), un certain Josh Zerlan (Inaba) ouvre la coopérative EclipseMC, qui a le mérite d'expérimenter en [intégrant](https://bitcointalk.org/index.php?topic=16385.msg364399#msg364399), à partir de la mi-juillet, la méthode géométrique, [décrite](https://bitcointalk.org/index.php?topic=4787.msg69890#msg69890) par le mathématicien israélien Meni Rosenfeld. Le principe est d'utiliser un score (pour faire rester les hacheurs) et de faire décroître la récompense par part de façon géométrique. En septembre, EclipseMC [adopte](https://bitcointalk.org/index.php?topic=16385.msg528287#msg528287) la « méthode double géométrique », conçue une nouvelle fois par Meni Rosenfeld, qui [constitue](https://bitcointalk.org/index.php?topic=39497.msg481864#msg481864) un système hybride entre le modèle PPLNS et la méthode géométrique. Ce système complexe sera également [adopté](https://bitcointalk.org/index.php?topic=14085.msg667220#msg667220) en décembre par Ozcoin, un service de minage groupé australien [lancé](https://bitcointalk.org/index.php?topic=14085.msg193967#msg193967) le 9 juin par un certain Graeme Tee (Graet).
+
+- BitMinter.com, DrHaribo, logiciel de minage *et* coopérative, [Cayman 25/6/2011](https://bitcointalk.org/index.php?topic=22432.msg281686#msg281686) et [BitMinter 8/7/2011](https://bitcointalk.org/index.php?topic=27062.msg340712#msg340712), https://web.archive.org/web/20201223061728/http://s1143.photobucket.com/albums/n629/DrHaribo/Cayman.png, Prop. puis PPLNS ([24/9/2011](https://bitcointalk.org/index.php?topic=27062.msg542688#msg542688))
+
+- 50BTC.com, Russie, PPS, 3 % de frais, [15/12/2011](https://bitcointalk.org/index.php?topic=54673.msg651025#msg651025), PPS principalement ; devient une grosse coopérative en 2012 (10–15 % en septembre 2012) ; exit scam fin 2013 : https://bitcointalk.org/index.php?topic=359277.0
 
 ### Eligius, la coopérative de Luke-Jr
 
@@ -986,126 +990,48 @@ Le 27 avril, Luke [crée](https://bitcointalk.org/index.php?topic=6667.msg97375#
 
 Luke adopte initialement un modèle de paiement proportionnel. Néanmoins, ses préoccupations liées au *pool hopping* le conduisent à [mettre en œuvre](https://bitcointalk.org/index.php?topic=6667.msg213885#msg213885) son propre système hybride le 13 juin : le modèle *Maximum Pay Per Share* (MPPS). Celui-ci [consiste](https://web.archive.org/web/20110615073316/http://eligius.st/wiki/index.php/Maximum_PPS) à tenir compte d'un solde lié aux parts trouvées, en plus du compteur lié au système proportionnel qui agit comme un tampon, afin d'obtenir un modèle qui ressemble au paiement par part sans le risque associé pour la coopérative. Ce modèle étant défectueux (Luke est momentanément [obligé](https://bitcointalk.org/index.php?topic=6667.msg259589#msg259589) de revenir au modèle proportionnel), il conçoit un système similaire qui [repose](https://web.archive.org/web/20110627025520/http://eligius.st/wiki/index.php/Shared_Maximum_PPS) sur un tampon collectif : le *Shared Maximum Pay Per Share* (SMPPS). Le but est de ne jamais distribuer plus que ce que la coopérative possède réellement. Après un [sondage](https://bitcointalk.org/index.php?topic=21999.msg276565#msg276565) favorable, Eligius [intègre](https://bitcointalk.org/index.php?topic=6667.msg290347#msg290347) ce nouveau modèle le 27 juin.
 
-À partir du 5 août, Eligius [inclut](https://ourbigbook.com/cirosantilli/cool-data-embedded-in-the-bitcoin-blockchain/prayer-wars) des messages de nature religieuse dans les champs d'entrée des transactions de récompenses, des blocs générés par la coopérative. Conformément à la foi catholique romaine de l'opérateur, on retrouve des prières en latin : les Louanges divines, le *Je vous salue Marie*,le *Salve Regina*, le *Notre Père*, la prière du cœur, etc. Mais il y a également des passages en anglais : les Actes de contrition, de foi, d'espérance et de charité, le Confiteor, la prière à l'Ange Gardien, des méditations du chapelet du Sacré-Cœur de Jésus, des passages de l'Évangile, des commémorations des saints (comme celle d'Augustin d'Hippone le 28 août).
+Eligius innove aussi par la pratique de la « signature de la coinbase » (original: "coinbase signing"), qui consiste à écrire le nom de la coopérative dans le champ d'entrée de la transaction de récompense du bloc miné. Cette pratique, permettant de rendre plus transparent le fonctionnement des coopératives, est inaugurée le jour du passage vers le modèle MPPS, dans la nuit du 13 au 14 juin, avec le bloc [130 635](https://mempool.space/block/0000000000000a067d94ff753eec72830f1205ad3a4c216a08a80c832e551a52). Il s'agit de la deuxième inscription réalisée par ce moyen, après l'emblématique citation du *Times* incluse par Satoshi Nakamoto dans le bloc de genèse.
+
+À partir du 5 août, Luke-Jr utilise ce champ pour [ajouter](https://ourbigbook.com/cirosantilli/cool-data-embedded-in-the-bitcoin-blockchain/prayer-wars) des messages de nature religieuse des blocs générés par la coopérative. Conformément à la foi catholique traditionnaliste de l'opérateur, on y retrouve des prières en latin : les Louanges divines, le *Je vous salue Marie*,le *Salve Regina*, le *Notre Père*, la prière du cœur, etc. Mais il y a aussi des textes en anglais : les Actes de contrition, de foi, d'espérance et de charité, le Confiteor, la prière à l'Ange Gardien, des méditations du chapelet du Sacré-Cœur de Jésus, des passages de l'Évangile, des commémorations des saints (comme celle d'Augustin d'Hippone le 28 août).
 
 ![Louanges divines présentes dans les blocs minés par Eligius en août 2011](assets/en/eligius-coinbase-prayers-201108-blockchair.webp)
 
 *Louanges divines présentes dans les blocs minés par Eligius en août 2011 (source : [Blockchair](https://blockchair.com/))*
 
-Deux semaines plus tard, ces prières sont remarquées par un membre de la communauté, qui inscrit un message dans une [transaction](https://mempool.space/tx/9740e7d646f5278603c04706a366716e5e87212c57395e0d24761c0ae784b2c6) classique. Il accuse Luke d'être « un pédophile » (original: "A PEDOPHILE"), affirme que « Dieu n'existe pas » (original: "god isn't real") et lui adjoint d'arrêter de « polluer la blockchain avec \[ses\] absurdités » (original: "Stop polluting the blockchain with your nonsense"). Cette transaction est [signalée](https://buildingbitcoin.org/bitcoin-dev/log-2011-08-18.html#l-598) dans la journée par Mark Karpelès, ce qui engendre une discussion [sur IRC](https://buildingbitcoin.org/bitcoin-dev/log-2011-08-18.html#l-851) et [sur le forum](https://bitcointalk.org/index.php?topic=38007.msg466841#msg466841) autour de ces inscriptions de texte. Graeme Tee, l'opérateur de Ozcoin, se montre particulièrement critique à l'égard de cette pratique, d'autant plus que les hacheurs d'Eligius ne sont pas au courant. Il demande à Luke s'il ne pense pas que « le fait d'inclure des prières pourrait rebuter certaines personnes » (original: "you dont think putting prayers in might alienate some ppl"), considérant que « btc est multiconfessionnel » (original: "btc is multidenominational"), ce à quoi le sédévacantiste répond brutalement que « les catholiques ne croient pas en la liberté de religion » (original: "Catholics do not believe in freedom of religion").
+Deux semaines plus tard, ces prières sont remarquées par un membre de la communauté, qui inscrit un message dans une [transaction](https://mempool.space/tx/9740e7d646f5278603c04706a366716e5e87212c57395e0d24761c0ae784b2c6) classique. Il accuse Luke d'être « un pédophile » (original: "A PEDOPHILE"), affirme que « Dieu n'existe pas » (original: "god isn't real") et lui adjoint d'arrêter de « polluer la blockchain avec \[ses\] absurdités » (original: "Stop polluting the blockchain with your nonsense"). Cette transaction est [signalée](https://buildingbitcoin.org/bitcoin-dev/log-2011-08-18.html#l-598) dans la journée par Mark Karpelès, ce qui engendre une discussion [sur IRC](https://buildingbitcoin.org/bitcoin-dev/log-2011-08-18.html#l-851) et [sur le forum](https://bitcointalk.org/index.php?topic=38007.msg466841#msg466841) autour de ces inscriptions de texte. Graeme Tee, l'opérateur d'Ozcoin, se montre particulièrement critique à l'égard de cette pratique, d'autant plus que les hacheurs d'Eligius ne sont pas au courant. Il demande à Luke s'il ne pense pas que « le fait d'inclure des prières pourrait rebuter certaines personnes » (original: "you dont think putting prayers in might alienate some ppl"), considérant que « btc est multiconfessionnel » (original: "btc is multidenominational"), ce à quoi le sédévacantiste répond brutalement que « les catholiques ne croient pas en la liberté de religion » (original: "Catholics do not believe in freedom of religion").
 
-Toutefois, Luke tient compte de cette remarque et permet aux mineurs de [demander](https://web.archive.org/web/20111001015612/http://eligius.st/wiki/index.php/FAQ#What_messages_are_included_in_payout_coinbases.3F) à inclure leurs propres messages, sous réserve de son accord. Plusieurs inscriptions humoristiques sont ainsi ajoutées, dont notamment un [rickroll](https://mempool.space/block/00000000000005b71bc4c0cf24a6f00e04980c627e9409266983bd37acbe14d3). Luke arrête la pratique au début du mois de septembre.
+Toutefois, Luke tient compte de cette remarque et permet aux mineurs de [demander](https://web.archive.org/web/20111001015612/http://eligius.st/wiki/index.php/FAQ#What_messages_are_included_in_payout_coinbases.3F) à inclure leurs propres messages, sous réserve de son accord. Plusieurs inscriptions humoristiques sont ainsi ajoutées, dont notamment un [rickroll](https://mempool.space/block/00000000000005b71bc4c0cf24a6f00e04980c627e9409266983bd37acbe14d3). Luke abandonne la pratique au début du mois de septembre.
 
 ### La centralisation du minage
 
-Les coopératives posent un problème de centralisation. Le regroupement en coopératives amène à une plus grande centralisation du minage.
+Les coopératives posent un problème de centralisation. Le regroupement en coopératives amène à une plus grande centralisation du minage. Ce qui inquiète naturellement les membres de la communauté.
 
 De plus, la concurrence entre les coopératives fait que seules quelques coopératives peuvent émerger...
 
-Les coopératives signent leurs blocs dans le script de déverrouillage de la transaction de récompense. (origine de la pratique ?) : Bitcoin.cz = `/slush/` ; EclipseMC = `EMC` ; Eligius = `Eligius`
+Le fonctionnement transparent des grosses coopératives (comme par exemple Deepbit qui [publie](https://web.archive.org/web/20110602135526/http://deepbit.net/stats) ses blocs trouvés tous les jours) rend possible d'estimer la proportion de leur taux de hachage par rapport à la puissance totale du réseau. C'est ce qui permet de générer des graphique en secteurs illustrant la distribution des coopératives, commele font par exemple [Bitcoin Watch](https://web.archive.org/web/20110401115146/http://www.bitcoinwatch.com/) (alors [géré](https://bitcointalk.org/index.php?topic=5016.msg73505#msg73505) par Nils Schneider) ou [Blockchain.info](https://web.archive.org/web/20111018232813/http://blockchain.info/pools). Il est ainsi possible de s'assurer que le taux de hachage ne soit pas centralisé au sein d'une seule coopérative.
 
-Distribution du taux de hachage : https://web.archive.org/web/20110401115146/http://www.bitcoinwatch.com/ ([alors géré par tcatm](https://bitcointalk.org/index.php?topic=5016.msg73505#msg73505)) puis https://web.archive.org/web/20111018232813/http://blockchain.info/pools
+![Distribution du taux de hachage de Bitcoin le 6 juillet 2011](assets/en/hashrate-distribution-pie-20110706bitcoinwatch.webp)
 
-6/7 : https://web.archive.org/web/20110706215910/http://www.bitcoinwatch.com/
-21/7 : https://web.archive.org/web/20110721162638/http://www.bitcoinwatch.com/
+Distribution du taux de hachage de Bitcoin le 6 juillet 2011 (source : [archive](https://web.archive.org/web/20110706215910/http://www.bitcoinwatch.com/) de Bitcoin Watch)
 
-Juillet 2011, 49 % : https://bitcointalk.org/index.php?topic=26656.msg334436#msg334436
+Et c'est ce qui se produit au début du mois de juillet, lorsque la part du taux de hachage mesuré de Deepbit, la coopérative de Tycho, avoisine les 50 % (à court terme). Cette domination provoque la réaction de certaines personnes sur le forum [pour qui](https://bitcointalk.org/index.php?topic=26630.msg333929#msg333929) « la sécurité de Bitcoin \[est\] presque compromise » (original: "Bitcoin Security nearly Breached"). Les utilisateurs les plus informés sont agacés, et rappellent [que](https://bitcointalk.org/index.php?topic=26630.msg333929#msg333929) l'opérateur n'a aucun intérêt économique à attaquer le réseau, que l'impact de cette attaque serait limité et [que](https://bitcointalk.org/index.php?topic=26630.msg334029#msg334029) les hacheurs sont à tout moment libres de changer de service, puisque « l'opérateur de la coopérative ne contrôle pas le matériel informatique de ses membres » (original: "The pool operator does not control the hardware of the members of the pool"). Il y a donc un problème de centralisation mais celui-ci n'est pas aussi grave qu'il n'en a l'air.
 
-Courbe du hashrate. 15 TH/s en août 2011. 7 TH/s en décembre. Stabilisation autour des 11 TH/s, le premier semestre 2012.
+![Pourcentage de production des blocs, mesuré de façon journalière et hebdomadaire, entre 2011 et 2014](assets/en/organofcorti-mining-pools-network-blocks-daily-weekly-20112014.webp)
 
-L'explosion de la bulle n'est pas tendre pour les coopératives, dont certaines sont amenées à fermer, à l'instar de Mineco.in [en novembre](https://bitcointalk.org/index.php?topic=17310.msg629624#msg629624). Trois groupes miniers sortent du lot : DeepBit, BTC Guild, Bitcoin.cz Mining (alias Slush Pool). La coopérative dominante, DeepBit, est gérée par un Russe \[?\] utilisant le pseudonyme Tycho. Elle [approchait](https://web.archive.org/web/20110706215910/http://www.bitcoinwatch.com/) des 50 % du taux de hachage en juillet 2011 ; au début de l'année 2012, elle possède autour des 30 % de la puissance de calcul. Les deux autres naviguent autour de 10–15 %.
+*Pourcentage de production des blocs, mesuré de façon journalière et hebdomadaire, entre 2011 et 2014 (source : OrganOfCorti pour le blog [Neighbourhood Pool Watch](https://organofcorti.blogspot.com/2014/06/166-fifty-percent-club.html))*
+
+La domination de Deepbit culmine lors de l'été, avec une part de puissance de calcul mesurée [atteignant](https://organofcorti.blogspot.com/2014/06/166-fifty-percent-club.html) 52,86 % le 5 août, et se maintient tout le reste de l'année. C'est ce qui amène la signature de la transaction de récompense, initiée par Eligius en juin, à se répandre à partir du mois de novembre. Ainsi, les coopératives BitMinter, BTC Guild et EclipseMC adoptent la pratique en novembre, et sont rejointes par des regroupements plus petits comme NMCBit ou Ozcoin. La coopérative de Slush [commence](https://mempool.space/block/000000000000032fb1005bc5de7ae276d2a91481619b7c4beb53e1ed63f71501) à le faire en janvier en signant ses blocs `/slush/`). La signature des transactions de récompense [deviendra majoritaire](https://organofcorti.blogspot.com/2013/11/162-short-post-on-mapping-historical.html) en septembre 2012. Deepbit [refusera](https://bitcointalk.org/index.php?topic=118245.msg1270292#msg1270292) cependant de le faire.
+
+---
+
+- Courbe du hashrate. 15 TH/s en août 2011. 7 TH/s en décembre. Stabilisation autour des 11 TH/s, le premier semestre 2012.
+
+L'explosion de la bulle n'est pas tendre pour les plus petites coopératives, dont certaines sont amenées à fermer, à l'instar de Mineco.in [en novembre](https://bitcointalk.org/index.php?topic=17310.msg629624#msg629624). Trois groupes miniers sortent du lot : DeepBit, BTC Guild, Bitcoin.cz Mining). La coopérative dominante, DeepBit, est gérée par un Russe \[?\] utilisant le pseudonyme Tycho. Elle [approchait](https://web.archive.org/web/20110706215910/http://www.bitcoinwatch.com/) des 50 % du taux de hachage en juillet 2011 ; au début de l'année 2012, elle possède autour des 30 % de la puissance de calcul. Les deux autres naviguent autour de 10–15 %.
 
 - [blockchain.info, 19/12](https://web.archive.org/web/20111219124912/http://blockchain.info/pools), 144 blocs : 24 %, 14 %, 2 %
 - [blockchain.info, 20/1](https://web.archive.org/web/20120120152812/http://blockchain.info/pools), 144 blocs : 42 %, 13 %, 4 %
 - [blockorigin.pfoe.be, 18/3](https://web.archive.org/web/20120318030111/http://blockorigin.pfoe.be/), 2 016 blocs : 33,63 %, 11,90 %, 12,05 %
 - [blockchain.info, 7/4](https://web.archive.org/web/20120407204745/http://blockchain.info/pools), 144 blocs : 32 %, 15 %, 11 %
-
-Juillet 2011 :
-
-- DeepBit
-- BTC Guild
-- Slush
-- btcmine
-- bitcoins.lc
-- Eligius
-- MtRed
-- ars
-- bitclockers
-- minecoin
-- ozcoin
-- swepool
-- p2pool
-- bitpit
-- others
-
-18 octobre 2011 :
-
-- BTC Guild	11
-- P2Pool	3
-- RFC pool	3
-- Slush	3
-- Ars bitcoin	3
-- BTCWorld	2
-- Toasty	1
-- pool.itzod.ru	1
-- Masterpool.eu	1
-- Mt.Red	1
-- OzCoin	1
-
-18 novembre 2011 :
-
-- Deepbit	30
-- BTC Guild	17
-- Slush	13
-- Mainframe Mining	5
-- Masterpool.eu	4
-- Eligius	3
-- BTCMine	2
-- EclipseMC	2
-- Bitcoinpool.com	1
-- Ars bitcoin	1
-- Mt.Red	1
-- Mineco.in	1
-- BitPal	1
-- Bitclockers	1
-- nmcbit	1
-- pool.itzod.ru	1
-- BTCWorld	1
-
-19 décembre 2011 :
-
-- Deepbit	35
-- BTC Guild	21
-- betsofbitco.in	10
-- EclipseMC	5
-- 50BTC	4
-- Eligius	3
-- Slush	3
-- Ars bitcoin	3
-- pool.itzod.ru	2
-- BTCMine	1
-- Mt.Red	1
-- OzCoin	1
-- BitPal	1
-- BTCServ	1
-
-20 janvier 2012 :
-
-- Deepbit	57
-- BTC Guild	18
-- GuildMiners	8
-- EclipseMC	6
-- Slush	6
-- Bitlc.net	4
-- OzCoin	3
-- Mt.Red	3
-- 50BTC	2
-- Eligius	2
-- pool.itzod.ru	2
-- P2Pool	2
-- betsofbitco.in	1
-- Masterpool.eu	1
-- BTCServ	1
 
 ### P2Pool (juil. 2011)
 
@@ -1161,7 +1087,7 @@ slush: "I see the difference between Stratum and GMP as Electrum client and Sato
 
 https://en.bitcoin.it/wiki/Stratum_mining_protocol
 
-Stratum (gestion de Bitcoin.cz mining), [27/11/2011](https://bitcointalk.org/index.php?topic=55842.msg664197#msg664197)
+Stratum (gestion de Bitcoin.cz Mining), [27/11/2011](https://bitcointalk.org/index.php?topic=55842.msg664197#msg664197)
 
 En avril 2013, le taux de hachage passant par Stratum [représente](https://web.archive.org/web/20150307191254/http://mining.bitcoin.cz/stratum-mining) plus de 90 % de la puissance totale du réseau !
 
@@ -1185,12 +1111,13 @@ Le 20 mai 2011, le premier algorithme ouvert pour FPGA est publié
 
 *Carte de développement FPGA Altera DE2-115, sortie en 2010 (source : [Terasic](https://www.terasic.com.tw/cgi-bin/page/archive.pl?CategoryNo=139&No=502))*
 
-
 "Custom FPGA Board for Sale!" [18/08/2011](https://bitcointalk.org/index.php?topic=37904.msg465501#msg465501)
 
 "X6500 Custom FPGA Miner" [29/08/2011](https://bitcointalk.org/index.php?topic=40058.msg488292#msg488292)
 
 "BTCMiner - Open Source Bitcoin Miner for ZTEX FPGA Boards" [29/8/2011](https://bitcointalk.org/index.php?topic=40047.0)
+
+Elden Tyrell, "Spartan6-LX150 board for $250 -- gauging interest for mid-Oct ship date" [24/9/2011](https://bitcointalk.org/index.php?topic=45532.msg543312#msg543312)
 
 BFGMiner, Luke-Jr, [26/4/2012](https://bitcointalk.org/index.php?topic=78192.msg870396#msg870396), https://web.archive.org/web/20130409154534/http://bfgminer.org/
 
@@ -1228,7 +1155,7 @@ Le 9 janvier 2012, un certain David Perry (Enmaku sur le forum) [publie](https:/
 
 ![Visualisation des contributions au logiciel de Bitcoin entre août 2009 et septembre 2012](https://www.youtube.com/watch?v=2VNPScd-xg0)
 
-Visualisation des contributions au logiciel de Bitcoin entre août 2009 et septembre 2012
+*Visualisation des contributions au logiciel de Bitcoin entre août 2009 et septembre 2012*
 
 ### La programmabilité de Bitcoin
 

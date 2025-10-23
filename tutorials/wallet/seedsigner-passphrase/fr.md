@@ -7,7 +7,7 @@ description: Comment ajouter une passphrase sur son portefeuille SeedSigner ?
 
 Une passphrase BIP39 est un mot de passe optionnel qui, combiné à la phrase mnémonique, offre une couche de sécurité supplémentaire pour les portefeuilles Bitcoin déterministes et hiérarchiques. Dans ce tutoriel, nous allons découvrir ensemble comment mettre en place une passphrase sur votre portefeuille Bitcoin utilisé avec un SeedSigner.
 
-01
+![Image](assets/fr/01.webp)
 
 ## Prérequis avant d'ajouter une Passphrase
 
@@ -27,13 +27,13 @@ Pour appliquer une passphrase sur votre SeedSigner, allumez l’appareil et scan
 
 Cliquez sur le bouton `BIP-39 Passphrase`.
 
-02
+![Image](assets/fr/02.webp)
 
 Saisissez ensuite la passphrase de votre choix dans le champ prévu à cet effet à l’aide du clavier à l’écran. Assurez-vous d’en faire une ou plusieurs sauvegardes physiques (papier ou métal) : la perte de cette passphrase entraînerait la perte définitive de l’accès à vos bitcoins. **Pour restaurer un portefeuille, la phrase mnémonique et la passphrase sont toutes deux indispensables.** Si l’une d’elles est perdue, vos bitcoins seront irrémédiablement bloqués.
 
 Une fois la saisie terminée, validez en appuyant sur le bouton `KEY3` situé en bas à droite du SeedSigner.
 
-03
+![Image](assets/fr/03.webp)
 
 *Dans cet exemple, j’ai utilisé la passphrase `pba`. Cependant, dans votre cas, veillez à choisir une passphrase robuste. Pour savoir comment définir une passphrase optimale, je vous invite à consulter cet autre article :*
 
@@ -47,11 +47,11 @@ Cette empreinte ne présente aucun risque pour la sécurité ni pour la confiden
 
 Une fois l’empreinte sauvegardée, cliquez sur `Done`.
 
-04
+![Image](assets/fr/04.webp)
 
 Vous accédez alors à toutes les fonctionnalités de votre portefeuille, comme sur un SeedSigner classique.
 
-05
+![Image](assets/fr/05.webp)
 
 Vous pouvez désormais importer le keystore dans Sparrow Wallet et utiliser votre portefeuille normalement. À chaque redémarrage, il faudra à la fois scanner votre SeedQR et ressaisir votre passphrase à l’aide du clavier, comme nous l'avons fait ici.
 

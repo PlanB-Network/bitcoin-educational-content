@@ -19,9 +19,13 @@ Ce tutoriel vous accompagne à travers l'installation complète de BTCPay Server
 
 Pour suivre ce tutoriel, vous devez disposer d'Umbrel correctement installé et configuré. Si ce n'est pas encore le cas, consultez notre tutoriel dédié à l'installation d'Umbrel.
 
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+
 Votre nœud Bitcoin Core doit être entièrement synchronisé avec la blockchain (100% dans l'application Bitcoin d'Umbrel). Cette synchronisation initiale nécessite généralement entre 3 jours et 2 semaines selon votre matériel et connexion Internet.
 
 Pour accepter des paiements Lightning instantanés, vous devrez également installer LND (Lightning Network Daemon) sur Umbrel. Consultez notre tutoriel dédié à l'installation et la configuration de LND sur Umbrel si vous souhaitez activer cette fonctionnalité.
+
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
 Prévoyez au moins 50 Go d'espace disque libre pour BTCPay Server, ses bases de données et les données Lightning. Une connexion Internet stable via câble Ethernet est fortement recommandée pour éviter les déconnexions.
 
@@ -48,6 +52,8 @@ Après la création du compte, BTCPay Server vous invite immédiatement à crée
 BTCPay Server est accessible depuis n'importe quel appareil de votre réseau local (WiFi ou Ethernet). Accédez à http://umbrel.local ou directement à http://umbrel.local:3003 depuis votre navigateur.
 
 **Accès à distance avec Tailscale** : Pour accéder à BTCPay Server depuis n'importe où dans le monde, utilisez Tailscale. Ce VPN sécurisé vous permet de vous connecter à votre Umbrel comme si vous étiez sur votre réseau local. Consultez notre tutoriel dédié à Tailscale sur Umbrel.
+
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 ## Configurer votre portefeuille Bitcoin
 

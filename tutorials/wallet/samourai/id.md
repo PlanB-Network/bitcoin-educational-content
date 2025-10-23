@@ -1,7 +1,7 @@
 ---
 name: Samourai
 
-description: Dapatkan kembali privasi Anda dengan Samourai
+description: Dapatkan kembali privasimu dengan Samourai
 ---
 
 ![Dompet Samourai](assets/cover.webp)

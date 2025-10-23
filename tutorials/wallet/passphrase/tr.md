@@ -79,3 +79,6 @@ Bir Trezor cihazında (Safe 3, Safe 5 veya Model One):
 
 
 https://planb.network/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
+Bir SeedSigner üzerinde:
+https://planb.academy/tutorials/wallet/backup/seedsigner-passphrase-7a61f64d-aa03-4bcf-8308-00c89a74cffe
+

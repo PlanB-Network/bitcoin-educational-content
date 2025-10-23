@@ -376,6 +376,8 @@ Une fois la vérification terminée, le SeedSigner affiche l’empreinte de la c
 
 C’est également à ce stade que vous pouvez ajouter une **passphrase BIP39** pour renforcer la sécurité de votre portefeuille. Cette option peut être intéressante selon votre stratégie de sauvegarde, mais elle comporte aussi des risques : si vous perdez la passphrase, l’accès à vos bitcoins sera définitivement perdu.
 
+https://planb.academy/tutorials/wallet/backup/seedsigner-passphrase-7a61f64d-aa03-4bcf-8308-00c89a74cffe
+
 Si vous n’êtes pas encore familier avec ce concept de passphrase, je vous invite à lire ce tutoriel complet sur le sujet :
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7

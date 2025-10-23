@@ -8,7 +8,7 @@ description: Dapatkan kembali privasi Anda dengan Samourai
 
 ---
 
-***PERINGATAN:** Menyusul penangkapan pendiri Samourai Wallet dan penyitaan server mereka pada 24 April, aplikasi Samourai masih tetap bisa dipakai, **tapi kamu wajib pakai Dojo milikmu sendiri** untuk mengakses informasi blockchain dan melakukan transaksi.*
+***PERINGATAN:** Setelah pendiri Samourai Wallet ditangkap dan server mereka disita pada 24 April, aplikasi Samourai tetap bisa digunakan, **tapi kamu wajib pakai Dojo milikmu sendiri** untuk mengakses informasi blockchain dan melakukan transaksi.*
 
 _Kita terus memantau perkembangan kasus ini dan juga perkembangan terkait alat-alat yang berhubungan. Tenang aja, kita bakal memperbarui tutorial ini begitu ada informasi baru yang tersedia.._
 

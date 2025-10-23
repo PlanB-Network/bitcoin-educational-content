@@ -585,21 +585,21 @@ Klik tombol "export" (paradoksnya, JANGAN klik tombol "save"), dan kamu akan mel
 
 ![image](assets/43.webp)
 
-Menyimpan ke kode QR sangat menarik. Jika Anda memilih ini, sebuah QR akan muncul:
+Menyimpan ke kode QR sangat menarik. Kalau kamu memilih ini, sebuah QR akan muncul:
 
 ![image](assets/44.webp)
 
-Anda kemudian dapat mengambil foto kode QR tersebut. Ada beberapa hal yang dapat Anda lakukan dengan ini, tetapi untuk sekarang, mari kita katakan Anda memuatnya kembali ke dalam dompet nanti. Anda dapat menutup Electrum, memuat dompet lagi, dan pergi ke menu Tools:
+Kemuduan kamu dapat mengambil foto kode QR tersebut. Ada beberapa hal yang dapat Anda lakukan dengan ini, tetapi untuk sekarang, mari kita katakan Anda memuatnya kembali ke dalam dompet nanti. Anda dapat menutup Electrum, memuat dompet lagi, dan pergi ke menu Tools:
 
 ![image](assets/45.webp)
 
-Ini akan memuat kamera komputer Anda. Anda kemudian menunjukkan kamera foto kode QR di ponsel Anda, dan ini akan memuat transaksi kembali, persis seperti Anda tinggalkan.
+Ini akan memuat kamera komputermu. Kemudian kamu menunjukkan kamera foto kode QR di ponsel Anda, dan ini akan memuat transaksi kembali, persis seperti Anda tinggalkan.
 
 Tidak intuitif bagaimana cara memuat transaksi yang disimpan, jadi perhatikan khusus. Memuat transaksi bukanlah "tool" tetapi opsi tersebut tersembunyi di menu tools (hal lain yang harus diperbaiki oleh pengembang Electrum).
 
 Proses serupa dimungkinkan dengan transaksi yang disimpan sebagai file. Cobalah berlatih dengan salah satu metode, dalam dompet yang sama. Saya tidak akan membahasnya di sini tetapi kamu dapat menggunakan fitur ini untuk memindahkan transaksi antara dompet yang sama di komputer yang berbeda, antara dompet multisignature, dan ke dan dari dompet hardware. Berikut adalah beberapa instruksi.
 
-Ketika Anda mengklik tombol “save” setelah membuat transaksi, sebenarnya Anda tidak sedang menyimpan file teks atau dokumen biasa. Yang dilakukan Electrum adalah menyimpan transaksi tersebut sebagai proposed transaction (pembayaran yang diajukan) secara lokal di komputer Anda. Artinya, Electrum akan menganggap transaksi itu seperti sudah “dalam proses”, meskipun belum benar-benar dikirim ke jaringan Bitcoin. Jika Anda melakukannya tanpa sengaja, transaksi itu akan muncul di daftar riwayat dengan ikon kecil bergambar komputer. Jangan panik—Anda bisa menghapusnya dengan klik kanan pada transaksi tersebut dan memilih “delete”. Ini tidak akan menghapus bitcoin Anda. Electrum hanya akan “melupakan” bahwa transaksi itu pernah dibuat dan secara otomatis memperbarui saldo, menampilkan kembali sats Anda di tempat yang seharusnya.
+Ketika kamu mengklik tombol “save” setelah membuat transaksi, sebenarnya Anda tidak sedang menyimpan file teks atau dokumen biasa. Yang dilakukan Electrum adalah menyimpan transaksi tersebut sebagai proposed transaction (pembayaran yang diajukan) secara lokal di komputer Anda. Artinya, Electrum akan menganggap transaksi itu seperti sudah “dalam proses”, meskipun belum benar-benar dikirim ke jaringan Bitcoin. Jika Anda melakukannya tanpa sengaja, transaksi itu akan muncul di daftar riwayat dengan ikon kecil bergambar komputer. Jangan panik—Anda bisa menghapusnya dengan klik kanan pada transaksi tersebut dan memilih “delete”. Ini tidak akan menghapus bitcoin Anda. Electrum hanya akan “melupakan” bahwa transaksi itu pernah dibuat dan secara otomatis memperbarui saldo, menampilkan kembali sats Anda di tempat yang seharusnya.
 
 ### Alamat Perubahan
 

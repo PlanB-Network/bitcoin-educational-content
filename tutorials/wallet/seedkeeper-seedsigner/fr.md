@@ -107,24 +107,45 @@ Une fois l’applet installée avec succès, vous pouvez passer à l’étape 4.
 
 13
 
-
-
-
-
-
-
-
-## Comment sauvegarder un SeedQR existant sur le Seedkeeper ?
+## 4. Sauvegarder un SeedQR existant sur le Seedkeeper
 
 ![video](https://youtu.be/X-vmFHU9Ec8)
 
+Maintenant que votre Seedkeeper est opérationnel, vous pouvez sauvegarder la phrase mnémonique de votre portefeuille Bitcoin sur la smartcard. Pour commencer, allumez votre SeedSigner comme d'habitude, puis scannez le *SeedQR* de votre portefeuille afin de le charger dans l’appareil. Une fois la seed importée, sélectionnez simplement `Done`.
 
+14
+
+Lorsque la seed est chargée, accédez au menu `Backup Seed`.
+
+15
+
+Insérez ensuite votre Seedkeeper dans le lecteur du SeedSigner, puis choisissez l’option `To SeedKeeper`.
+
+16
+
+Le SeedSigner vous demandera alors d’entrer un code PIN pour votre Seedkeeper. Comme il s’agit d’une carte encore vierge, aucun code n’a encore été défini. Saisissez donc un code quelconque pour passer cette étape, puis validez.
+
+17
+
+Le SeedSigner détecte que le Seedkeeper n’a pas encore été initialisé (autrement dit, qu’aucun mot de passe n’est configuré). Cliquez sur `I Understand` pour poursuivre.
+
+18
+
+Choisissez à présent le nouveau code PIN de votre Seedkeeper, entre 4 et 16 caractères. Pour renforcer la sécurité, privilégiez un code long et aléatoire : c’est la seule barrière protégeant l’accès physique à votre phrase mnémonique.
+
+Pensez à sauvegarder ce code PIN dès sa création, soit dans un gestionnaire de mots de passe fiable, soit sur un support physique séparé en fonction de votre stratégie. Dans ce dernier cas, veillez à ne jamais conserver le support contenant le PIN au même endroit que votre Seedkeeper, sans quoi la protection deviendrait inefficace. Il est important de disposer d’une copie de secours : **sans ce code PIN, vous ne pourrez plus accéder à votre seed, et donc vos bitcoins seront perdus**.
+
+19
+
+Vous pouvez ensuite définir un `Label` associé à votre phrase mnémonique. Cette étiquette est utile si vous enregistrez plusieurs secrets sur le Seedkeeper, afin de les identifier facilement.
+
+20
+
+Votre phrase mnémonique est désormais sauvegardée sur la smartcard.
+
+21
 
 ## Comment charger une seed depuis le Seedkeeper ?
 
 ![video](https://youtu.be/ms0Iq_IyaoE)
 
-
-## Comment supprimer une applet de la smartcard DIY ?
-
-![video](https://youtu.be/N-i2E5VmpXA)

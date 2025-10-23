@@ -948,21 +948,29 @@ Le Far West se caractérise aussi par le ruée vers l'or : la découverte d'or 
 
 À l'automne 2010, une première « ruée vers l'or numérique » (original: "digital gold rush") avait eu lieu, et avait entrainé une généralisation du minage par processeur graphique (GPU), beaucoup plus rentable que le minage par processeur central (CPU). Cette amélioration avait cependant fait augmenter la difficulté à un niveau tel que les petits mineurs ne pouvaient plus trouver de bloc dans un temps acceptable. C'est pourquoi les premiers regroupements de mineurs sont apparus, dont notamment Bitcoin.cz Mining, la coopérative de Slush.
 
-Mais la dynamique ne s'est pas arrêtée là, et les choses sont encore allées plus loin dans les années qui ont suivi. En 2011 en particulier, on a vu le minage en coopératives se normaliser, à tel point qu'il a provoqué la conception du protocole décentralisé P2Pool, permettant de générer des bitcoins sans dépendre d'un opérateur. On a aussi assisté au développement des circuits logiques programmables (FPGA), préfigurant l'apparition des premiers circuits intégrés spécialisés (ASIC), qui prendraient le relai à partir de 2013.
+Mais la dynamique ne s'est pas arrêtée là, et les choses sont encore allées plus loin dans les années qui ont suivi. En 2011 en particulier, on a vu le minage en coopératives se normaliser et se centraliser. Cela a provoqué la conception du protocole décentralisé P2Pool, permettant de générer des bitcoins sans dépendre d'un opérateur.
+
+### L'augmentation du taux de hachage
+
+Avec la généralisation du minage par processeur graphique et la croissance du taux de change record se produisant entre 2010 et 2011, le taux de hachage du réseau monte de façon exponentielle. Il est ainsi multiplié par 1 000 en moins d'un an. Alors qu'il n'était que de 10 gigahachages par seconde (GH/s) en septembre 2010, il atteint 100 GH/s en décembre, puis 1 TH/s en mai 2011 et dépasse les 10 TH/s en juin. Il culmine à 15,8 TH/s avant de redescendre de façon abrupte, conséquemment à l'éclatement de la grande bulle de 2011. Après avoir touché un point bas à 7 GH/s en décembre, il se stabilise entre 10 et 15 GH/s lors du premier semestre de 2012.
+
+![Taux de hachage total du réseau entre avril 2011 et juillet 2012](assets/en/btc-hashrate-coinwarz-20110420-20110720.webp)
+
+Taux de hachage total du réseau de Bitcoin entre avril 2011 et juillet 2012 (source : [CoinWarz](https://www.coinwarz.com/mining/bitcoin/hashrate-chart))
+
+Cette augmentation de la puissance de calcul du réseaux fait que le « minage en solitaire » (*solo mining*) n'est plus viable du tout, la variance étant trop grande la majorité des installations. C'est pourquoi la plupart des mineurs sont obligés de se réunir en coopératives de minage, ou *mining pools* en anglais, afin de lisser leurs revenus. Ils louent leur puissance de hachage à un opérateur, qui s'occupe de choisir les spécificités des blocs et les transactions à inclure.
+
+C'est dans ce contexte qu'en décembre 2010, Marek Palatinus (alias Slush) [lance](https://bitcointalk.org/index.php?topic=1976.msg30520#msg30520) Bitcoin.cz Mining, un service de « minage coopératif » (original: "cooperative mining") qui recueille 3,5 % du taux de hachage du réseau en quelques jours. Ce succès ne manque pas de faire des émules, et l'année 2011 est marquée par une normalisation du minage groupé, qui s'illustre par l'ouverture d'un [grand nombre](https://en.bitcoin.it/w/index.php?title=Comparison_of_mining_pools&oldid=21595) de coopératives.
 
 ### Les coopératives de minage et leur mode de rémunération
 
-L'année 2011 est l'année où le minage groupé se généralise : [de nombreuses coopératives de minage](https://en.bitcoin.it/w/index.php?title=Comparison_of_mining_pools&oldid=21595) sont lancent durant cette année-là. Bitcoin.cz Mining, la coopérative [ouverte](https://bitcointalk.org/index.php?topic=1976.msg30520#msg30520) en décembre 2010 par Marek Palatinus (alias Slush), a rencontré le succès en quelques jours, en recueillant près de 3,5 % de la puissance de calcul du réseau, et n'a par conséquent pas manqué de faire des émules. Au fur et à mesure, les mineurs deviennent des « hacheurs », c'est-à-dire des personnes louant leur puissance de hachage à un opérateur, qui s'occupe de choisir les spécificités des blocs et les transactions à inclure.
+Différentes [méthodes de rémunération](https://arxiv.org/abs/1112.4980) sont adoptées par les coopératives de minages. Le calcul est basé sur les « parts » (original: "shares") fournies par les clients, c'est-à-dire les preuves de travail partielles calculées pour un bloc donné. Initialement, la coopérative de Slush applique un modèle proportionnel simple : ses utilisateurs sont récompensés à chaque bloc miné, au pro rata des parts qu'ils ont trouvées depuis le dernier bloc. Elle prélève sur cette récompense une commission de 2 %, soit 1 BTC par bloc. Ce modèle est cependant légèrement défectueux, les mineurs [pouvant](https://bitcointalk.org/index.php?topic=3165.msg44357#msg44357) « tricher » (et obtenir environ 28 % de bitcoins en plus) en se déconnectant de la coopérative une fois un certain nombre de parts soumises lors d'un cycle et en redirigeant leur puissance de calcul à leur propre compte ou vers une autre coopérative (une pratique [connue](https://bitcointalk.org/index.php?topic=26866.msg337932#msg337932) sous le nom de *pool hopping*). C'est pourquoi Slush [met en place](https://bitcointalk.org/index.php?topic=1976.msg50002#msg50002), le 4 février 2011, un système de score « anti-tricherie » (original: "cheat proof") faisant que les parts les plus récentes du cycle ont plus de poids que les parts les plus anciennes.
 
-Différentes [méthodes de rémunération](https://arxiv.org/abs/1112.4980) sont adoptées par les coopératives. Le calcul est basé sur les parts fournies par les clients, c'est-à-dire les preuves de travail partielles calculées pour un bloc donné. Initialement, la coopérative de Slush applique un modèle proportionnel simple : ses utilisateurs sont récompensés à chaque bloc miné, au pro rata des parts qu'ils ont trouvées depuis le dernier bloc. Elle prélève sur cette récompense une commission de 2 %, soit 1 BTC par bloc. Ce modèle est cependant légèrement défectueux, les mineurs [pouvant](https://bitcointalk.org/index.php?topic=3165.msg44357#msg44357) « tricher » (et obtenir environ 28 % de bitcoins en plus) en se déconnectant de la coopérative une fois un certain nombre de parts obtenues lors d'un cycle et en redirigeant leur puissance de calcul à leur propre compte ou vers une autre coopérative (une pratique [connue](https://bitcointalk.org/index.php?topic=26866.msg337932#msg337932) sous le nom de *pool hopping*). C'est pourquoi Marek Palatinus [met en place](https://bitcointalk.org/index.php?topic=1976.msg50002#msg50002), le 4 février 2011, un système de score « anti-tricherie » faisant que les parts les plus récentes du cycle ont plus de poids que les parts les plus anciennes.
-
-La première coopérative concurrente à émerger en 2011 est BitPenny, qui a la particularité d'appliquer un modèle de récompense alternatif simple : le *Pay Per Share* (PPS), ou paiement par part en français. Il s'agit de rémunérer les hacheurs de façon immédiate à chaque part fournie, selon son degré de difficulté, à partir du solde de la coopérative. Contrairement au modèle proportionnel, l'opérateur prend donc l'intégralité de la variance à sa charge, ce qui est risqué. La coopérative BitPenny est [lancée](https://bitcointalk.org/index.php?topic=3266.msg45809#msg45809) le 8 février, mais est forcée de fermer le 2 avril, à la suite de pertes trop importantes. Elle sera néanmoins [relancée](https://bitcointalk.org/index.php?topic=36371.msg447984#msg447984) en août, en appliquant un autre modèle plus complexe (le *Capped Pay Per Share with Recent Backpay* ou CPPSRB).
-
-Le 15 février, le développeur Jeff Garzik [publie](https://bitcointalk.org/index.php?topic=3493.msg49110#msg49110) un outil appelé Pushpool, un logiciel au code source ouvert permettant de déployer sa propre coopérative. Cet outil sera [agrémenté](https://bitcointalk.org/index.php?topic=13164.msg181362#msg181362) d'une interface graphique appelée SimpleCoin en juin, qui sera [utilisé](https://bitcointalk.org/index.php?topic=11186.msg159103#msg159103) par un service minier du même nom, Simplecoin.us, géré par Mike Allison. Les coopératives préfèreront cependant développer leurs propres logiciels de serveur fermés.
+La première coopérative concurrente à émerger en 2011 est BitPenny, qui a la particularité d'appliquer un modèle de récompense alternatif simple : le *Pay Per Share* (PPS), ou paiement par part en français. Il s'agit de rémunérer les hacheurs de façon immédiate à chaque part fournie, selon son degré de difficulté, à partir du solde de la coopérative. Contrairement au modèle proportionnel, l'opérateur prend donc l'intégralité de la variance à sa charge, ce qui est risqué. La coopérative BitPenny est [lancée](https://bitcointalk.org/index.php?topic=3266.msg45809#msg45809) le 8 février, mais est forcée de fermer le 2 avril, à la suite de pertes trop importantes. Elle sera néanmoins [relancée](https://bitcointalk.org/index.php?topic=36371.msg447984#msg447984) en août, en appliquant une autre méthode plus complexe, variante du PPS (le *Capped Pay Per Share with Recent Backpay* ou CPPSRB).
 
 Le 27 février, une nouvelle coopérative est [ouverte](https://web.archive.org/web/20111127072845/https://bitcointalk.org/index.php?topic=3889.0) par un [Russe](https://buildingbitcoin.org/bitcoin-dev/log-2011-02-19.html#l-2646) se faisant appeler Tycho (qu'il orthographie \[Tycho\]). Il s'agit de Deepbit, qui a récompense ses clients à chaque bloc miné, au pro rata des parts qu'ils ont trouvées depuis le dernier bloc. À ce modèle proportionnel, Tycho [ajoute](https://bitcointalk.org/index.php?topic=3889.msg55799#msg55799) rapidement le modèle PPS à son offre, mais prélève des frais supérieurs pour ce mode (10 % au lieu de 3 %).
 
-Par la suite, plusieurs de dizaines coopératives (plus ou moins sérieuses) sont ouvertes dans l'année. Parmi elles, on trouve BTC Guild, une coopérative installée aux États-Unis qui est [créée](https://web.archive.org/web/20111127113730/https://bitcointalk.org/index.php?topic=7760.0) en mai 2011 par un mineur californien se faisant appeler Eleuthria (déformation du mot grec ἐλευθερία, eleuthería, qui signifie « liberté »). Elle applique un modèle de PPS pur.
+Par la suite, plusieurs de dizaines coopératives (plus ou moins sérieuses) sont ouvertes dans l'année. Parmi elles, on trouve BTC Guild, une coopérative installée aux États-Unis qui est [créée](https://web.archive.org/web/20111127113730/https://bitcointalk.org/index.php?topic=7760.0) en mai 2011 par un mineur californien se faisant appeler Eleuthria (déformation du mot grec ἐλευθερία, eleuthería, qui signifie « liberté »). Elle applique un modèle PPS pur.
 
 Des coopératives pour Namecoin apparaissent aussi, comme [Bitparking](https://bitcointalk.org/index.php?topic=8775.msg127063#msg127063), ouverte par DoubleC en mai, ou [NMCBit](https://bitcointalk.org/index.php?topic=33612.msg419958#msg419958), créée par un certain Davinci Jeremie (DavinciJ15) en août. L'ajout du minage combiné fera qu'au fur et à mesure du temps, toutes les coopératives de Bitcoin seront amenées à intégrer le minage de Namecoin à leur offre.
 
@@ -1024,8 +1032,6 @@ La domination de Deepbit culmine lors de l'été, avec une part de puissance de 
 
 ---
 
-- Courbe du hashrate. 15 TH/s en août 2011. 7 TH/s en décembre. Stabilisation autour des 11 TH/s, le premier semestre 2012.
-
 L'explosion de la bulle n'est pas tendre pour les plus petites coopératives, dont certaines sont amenées à fermer, à l'instar de Mineco.in [en novembre](https://bitcointalk.org/index.php?topic=17310.msg629624#msg629624). Trois groupes miniers sortent du lot : DeepBit, BTC Guild, Bitcoin.cz Mining). La coopérative dominante, DeepBit, est gérée par un Russe \[?\] utilisant le pseudonyme Tycho. Elle [approchait](https://web.archive.org/web/20110706215910/http://www.bitcoinwatch.com/) des 50 % du taux de hachage en juillet 2011 ; au début de l'année 2012, elle possède autour des 30 % de la puissance de calcul. Les deux autres naviguent autour de 10–15 %.
 
 - [blockchain.info, 19/12](https://web.archive.org/web/20111219124912/http://blockchain.info/pools), 144 blocs : 24 %, 14 %, 2 %
@@ -1059,7 +1065,11 @@ description : https://en.bitcoin.it/w/index.php?title=P2Pool&oldid=23453 "P2Poo
 
 ### Le protocole de minage Stratum (sept. 2012)
 
-La généralisation du minage en coopératives motive également le développement de nouveaux protocoles de communication, plus efficaces que la rudimentaire fonction `getwork`. Cette dernière est en effet extrêmement coûteuse en bande passante, que ce soit du côté du serveur que du client, si bien que la situation devient intenable lorsque le nombre de connexions explose. Ainsi, l'année 2012 est consacrée à établirt un standard dans le domaine.
+Le 15 février, le développeur Jeff Garzik [publie](https://bitcointalk.org/index.php?topic=3493.msg49110#msg49110) un outil appelé Pushpool, un logiciel au code source ouvert permettant de déployer sa propre coopérative. Cet outil sera [agrémenté](https://bitcointalk.org/index.php?topic=13164.msg181362#msg181362) d'une interface graphique appelée SimpleCoin en juin, qui sera [utilisé](https://bitcointalk.org/index.php?topic=11186.msg159103#msg159103) par un service minier du même nom, Simplecoin.us, géré par Mike Allison. Les coopératives préfèreront cependant développer leurs propres logiciels de serveur fermés.
+
+---
+
+La généralisation du minage en coopératives motive également le développement de nouveaux protocoles de communication, plus efficaces que la rudimentaire fonction `getwork`. Cette dernière est en effet extrêmement coûteuse en bande passante, que ce soit du côté du serveur que du client, si bien que la situation devient intenable lorsque le nombre de connexions explose. Ainsi, l'année 2012 est consacrée à établir un standard dans le domaine.
 
 Le premier standard est la fonction `getblocktemplate` (GBT). Celle-ci remplace l'appel RPC `getmemorypool`, [créé](https://bitcointalk.org/index.php?topic=39088.msg478130#msg478130) par Forrest Voight en août 2011 dans le but de simplifier P2Pool et [intégré](https://bitcointalk.org/index.php?topic=52480.msg626275#msg626275) au logiciel principal dans la version 0.5. GBT, décrit dans les BIP [22](https://github.com/bitcoin/bips/blob/master/bip-0022.mediawiki) et [23](https://github.com/bitcoin/bips/blob/master/bip-0023.mediawiki), est [proposé](https://en.bitcoin.it/w/index.php?title=BIP_0022&oldid=24328) par Luke-Jr le 28 février 2012, comme une amélioration de `getmemorypool`.
 
@@ -1091,7 +1101,9 @@ Stratum (gestion de Bitcoin.cz Mining), [27/11/2011](https://bitcointalk.org/ind
 
 En avril 2013, le taux de hachage passant par Stratum [représente](https://web.archive.org/web/20150307191254/http://mining.bitcoin.cz/stratum-mining) plus de 90 % de la puissance totale du réseau !
 
-### L'apparition du minage par FPGA
+### Ouverture : l'apparition du minage par FPGA
+
+On a aussi assisté au développement des circuits logiques programmables (FPGA), préfigurant l'apparition des premiers circuits intégrés spécialisés (ASIC), qui prendraient le relai à partir de 2013.
 
 Enfin, l'évolution est matérielle.
 
@@ -1122,8 +1134,6 @@ Elden Tyrell, "Spartan6-LX150 board for $250 -- gauging interest for mid-Oct shi
 BFGMiner, Luke-Jr, [26/4/2012](https://bitcointalk.org/index.php?topic=78192.msg870396#msg870396), https://web.archive.org/web/20130409154534/http://bfgminer.org/
 
 La spécialisation du minage s'accroit encore plus avec le développement des FPGA et des premiers modèles d'ASIC.
-
-### Ouverture
 
 ASIC, Butterfly Labs, Avalon
 

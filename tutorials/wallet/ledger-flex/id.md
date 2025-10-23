@@ -4,17 +4,17 @@ description: Mengatur dan menggunakan Ledger Flex
 ---
 ![cover](assets/cover.webp)
 
-Dompet perangkat keras adalah perangkat elektronik yang didedikasikan untuk mengelola dan mengamankan kunci privat dari dompet Bitcoin. Berbeda dengan dompet perangkat lunak (atau dompet panas) yang dipasang pada mesin umum yang sering terhubung ke Internet, dompet perangkat keras memungkinkan isolasi fisik dari kunci privat, mengurangi risiko peretasan dan pencurian.
+Dompet perangkat keras adalah perangkat elektronik yang dibuat khusus untuk mengelola dan mengamankan private key dari dompet Bitcoin. Berbeda dengan dompet perangkat lunak (atau dompet panas) yang dipasang di perangkat umum dan sering terhubung ke internet, dompet perangkat keras memberikan isolasi fisik bagi private key, sehingga mengurangi risiko peretasan dan pencurian.
 
-Tujuan utama dari dompet perangkat keras adalah untuk meminimalkan fungsionalitas perangkat untuk mengurangi permukaan serangan. Permukaan serangan yang lebih kecil juga berarti lebih sedikit vektor serangan potensial, yaitu, lebih sedikit titik lemah dalam sistem yang dapat dieksploitasi oleh penyerang untuk mengakses bitcoin.
+Tujuan utama dompet perangkat keras adalah meminimalkan fungsionalitas perangkat agar permukaan serangannya sekecil mungkin. Permukaan serangan yang lebih kecil berarti lebih sedikit celah yang bisa dimanfaatkan penyerang untuk mengakses bitcoin.
 
-Disarankan untuk menggunakan dompet perangkat keras untuk mengamankan bitcoin Anda, terutama jika Anda memiliki jumlah yang signifikan, baik dalam nilai absolut maupun sebagai proporsi dari total aset Anda.
+Kamu disarankan untuk menggunakan dompet perangkat keras untuk mengamankan bitcoin kamu, terutama kalau kamu menyimpan jumlah yang besar, baik dari segi nilai maupun proporsi terhadap total asetmu.
 
-Dompet perangkat keras digunakan bersama dengan perangkat lunak manajemen dompet pada komputer atau smartphone. Perangkat lunak ini mengelola pembuatan transaksi, tetapi tanda tangan kriptografis yang diperlukan untuk memvalidasi transaksi ini hanya dilakukan di dalam dompet perangkat keras. Ini berarti bahwa kunci privat tidak pernah terpapar ke lingkungan yang berpotensi rentan.
+Dompet perangkat keras biasanya digunakan bersama perangkat lunak pengelola dompet di komputer atau smartphone. Perangkat lunak ini menangani pembuatan transaksi, tapi tanda tangan kriptografis yang dibutuhkan untuk memvalidasi transaksi hanya dilakukan di dalam perangkat keras itu sendiri. Artinya, private key kamu tidak pernah terekspos ke lingkungan yang berpotensi rentan.
 
-Dompet perangkat keras menawarkan perlindungan ganda bagi pengguna: di satu sisi, mereka mengamankan bitcoin Anda dari serangan jarak jauh dengan menjaga kunci privat offline, dan di sisi lain, mereka umumnya menawarkan resistensi fisik yang lebih baik terhadap upaya untuk mengekstrak kunci. Dan tepat pada 2 kriteria keamanan ini, seseorang dapat menilai dan meranking model yang berbeda yang tersedia di pasar.
+Dompet perangkat keras memberi perlindungan ganda bagi pengguna: pertama, mereka menjaga bitcoin kamu dari serangan jarak jauh dengan menyimpan private key secara offline; kedua, mereka biasanya memiliki perlindungan fisik yang lebih kuat terhadap upaya untuk mengekstrak kunci. Berdasarkan dua aspek keamanan ini, kamu bisa menilai dan membandingkan berbagai model yang tersedia di pasaran.
 
-Dalam tutorial ini, saya mengusulkan untuk menemukan salah satu solusi ini: **Ledger Flex**.
+Dalam tutorial ini, aku akan mengajak kamu mengenal salah satu solusi tersebut: **Ledger Flex.**
 
 ![LEDGER FLEX](assets/notext/01.webp)
 
@@ -24,44 +24,45 @@ Ledger Flex adalah dompet perangkat keras yang diproduksi oleh perusahaan Pranci
 
 ![LEDGER FLEX](assets/notext/02.webp)
 
-Fitur ini mencakup layar sentuh E Ink besar, teknologi tampilan hitam putih. Ini adalah teknologi yang sama yang ditemukan dalam pembaca elektronik. Layar E Ink memungkinkan tampilan yang jelas dan mudah dibaca, bahkan dalam cahaya matahari terang, dan mengonsumsi sangat sedikit energi, atau sama sekali tidak ada ketika layar statis. Ini bekerja dengan menggunakan mikrokapsul yang berisi partikel pigmen hitam dan putih. Ketika muatan listrik diterapkan, partikel hitam atau putih bergerak ke permukaan layar, sehingga memungkinkan teks atau gambar dapat terbentuk.
-Ledger Flex dilengkapi dengan chip "elemen aman" bersertifikat CC EAL6+, menawarkan Anda perlindungan lanjutan terhadap serangan fisik pada perangkat keras. Layar dikontrol langsung oleh chip ini. Sebuah titik kritik umum adalah bahwa kode untuk chip ini tidak bersifat open-source, memerlukan tingkat kepercayaan tertentu pada integritas komponen ini. Namun, elemen ini diaudit oleh para ahli independen.
+Fitur ini mencakup layar sentuh E Ink besar, teknologi tampilan hitam putih. Ini adalah teknologi yang sama yang ditemukan dalam pembaca elektronik. Ledger Flex menggunakan layar E Ink, yang memungkinkan tampilan tetap jelas dan mudah dibaca bahkan di bawah sinar matahari langsung. Layar ini juga sangat hemat daya, atau bahkan tidak mengonsumsi energi sama sekali saat tampilan tidak berubah. Teknologinya bekerja dengan mikrokapsul berisi partikel pigmen hitam dan putih. Ketika diberi muatan listrik, partikel-partikel ini bergerak ke permukaan layar, menampilkan teks atau gambar yang diinginkan.
 
-Dalam hal penggunaan, Ledger Flex menawarkan beberapa opsi konektivitas: Bluetooth, USB-C, dan NFC. Layar besar memudahkan untuk memverifikasi detail transaksi Anda. Ledger juga menonjol dari pesaingnya dengan adopsi cepatnya terhadap fitur Bitcoin baru, seperti Miniscript, misalnya.
+Ledger Flex dilengkapi dengan chip Secure Element bersertifikat CC EAL6+, yang memberikan perlindungan tingkat lanjut terhadap serangan fisik pada perangkat keras. Layar E Ink ini dikontrol langsung oleh chip tersebut. Salah satu kritik umum terhadap pendekatan ini adalah bahwa kode di dalam chip tersebut tidak bersifat open-source, sehingga pengguna perlu menaruh tingkat kepercayaan tertentu pada integritas komponen tersebut. Namun, chip ini telah diaudit oleh para ahli independen untuk memastikan keamanannya.
 
-Setelah mengujinya, saya terkesan dengan kualitas produk. Pengalaman pengguna sangat baik, dan perangkat intuitif. Ini adalah dompet perangkat keras yang sangat baik. Namun, menurut saya, ini memiliki 2 kelemahan utama: ketidakmampuan untuk memverifikasi kode chip dan, tentu saja, harganya, yang secara signifikan lebih tinggi dari pesaingnya. Untuk perbandingan, model paling canggih dari Foundation dijual dengan harga $199, Coinkite dengan $219.99, sementara Trezor terbaru, juga dilengkapi dengan layar sentuh besar, ditawarkan dengan harga 169€.
+Dari sisi penggunaan, Ledger Flex menyediakan beberapa opsi konektivitas: Bluetooth, USB-C, dan NFC. Layar yang besar membuat kamu lebih mudah memverifikasi detail transaksi. Ledger juga dikenal cepat mengadopsi fitur-fitur baru Bitcoin, seperti Miniscript, misalnya.
+
+Setelah aku mencobanya sendiri, aku cukup terkesan dengan kualitas produknya. Pengalaman pengguna terasa halus, intuitif, dan desainnya solid. Ledger Flex benar-benar dompet perangkat keras yang sangat baik. Tapi, menurutku, ada dua kelemahan utama: pertama, ketidakmampuan untuk memverifikasi kode dalam chip Secure Element; dan kedua, harganya yang cukup tinggi dibandingkan kompetitornya. Sebagai perbandingan, model paling canggih dari Foundation dijual sekitar $199, Coinkite sekitar $219,99, sementara Trezor terbaru dengan layar sentuh besar ditawarkan sekitar 169€
 
 ## Bagaimana Cara Membeli Ledger Flex?
-Ledger Flex dapat dibeli [di situs resmi](https://shop.ledger.com/pages/ledger-flex). Untuk membelinya di toko fisik, Anda juga dapat menemukan [daftar reseller bersertifikat](https://www.ledger.com/reseller) di situs web Ledger.
+Ledger Flex dapat dibeli [di situs resmi](https://shop.ledger.com/pages/ledger-flex). Untuk membelinya di toko fisik, kamu juga bisa menemukan [daftar reseller bersertifikat](https://www.ledger.com/reseller) di situs web Ledger.
 ## Prasyarat
 
-Setelah Anda menerima Ledger Flex Anda, langkah pertama adalah memeriksa kemasannya untuk memastikan belum dibuka.
+Setelah kamu menerima Ledger Flex milikmu, langkah pertama adalah memeriksa kemasannya untuk memastikan belum dibuka.
 
 ![LEDGER FLEX](assets/notext/03.webp)
 
-Kemasan Ledger harus mencakup 2 strip segel. Jika strip ini hilang atau rusak, itu bisa menunjukkan bahwa dompet perangkat keras telah dikompromikan dan mungkin tidak asli.
+Kemasan Ledger seharusnya menyertakan dua strip segel keamanan. Kalau salah satu strip ini hilang atau rusak, itu bisa jadi tanda bahwa dompet perangkat keras kamu telah dikompromikan dan kemungkinan besar tidak asli.
 
 ![LEDGER FLEX](assets/notext/04.webp)
 
-Setelah dibuka, Anda seharusnya menemukan item berikut di dalam kotak:
+Setelah dibuka, kamu seharusnya menemukan item berikut di dalam kotak:
 - Ledger Flex;
 - Kabel USB-C;
 - Buku panduan pengguna;
-- Kartu untuk menuliskan frasa mnemonik Anda.
+- Kartu untuk menuliskan frasa mnemonik milikmu.
 
 ![LEDGER FLEX](assets/notext/05.webp)
 
-Untuk tutorial ini, Anda akan memerlukan 2 perangkat lunak: Ledger Live untuk menginisialisasi Ledger Flex, dan Sparrow Wallet untuk mengelola dompet Bitcoin Anda. Unduh [Ledger Live](https://www.ledger.com/ledger-live) dan [Sparrow Wallet](https://sparrowwallet.com/download/) dari situs web resmi mereka.
+Untuk tutorial ini, kamu akan memerlukan 2 perangkat lunak: Ledger Live untuk menginisialisasi Ledger Flex, dan Sparrow Wallet untuk mengelola dompet Bitcoinmu. Unduh [Ledger Live](https://www.ledger.com/ledger-live) dan [Sparrow Wallet](https://sparrowwallet.com/download/) dari situs web resmi mereka.
 
 ![LEDGER FLEX](assets/notext/06.webp)
-Kami akan segera menawarkan tutorial tentang cara memverifikasi keaslian dan integritas perangkat lunak yang Anda unduh. Saya sangat menyarankan untuk melakukannya di sini untuk Ledger Live dan Sparrow.
+Kami akan segera merilis tutorial tentang cara memverifikasi keaslian dan integritas perangkat lunak yang kamu unduh. Aku sangat menyarankan kamu untuk melakukan verifikasi ini, terutama untuk Ledger Live dan Sparrow.
 ## Bagaimana Cara Menginisialisasi Ledger Flex dengan Ledger Live?
 
-Nyalakan Ledger Flex Anda dengan menekan tombol sisi kanan selama beberapa detik.
+Nyalakan Ledger Flex dengan menekan tombol sisi kanan selama beberapa detik.
 
 ![LEDGER FLEX](assets/notext/07.webp)
 
-Gulir melalui berbagai halaman pengantar.
+Scroll melalui berbagai halaman pengantar.
 
 ![LEDGER FLEX](assets/notext/08.webp)
 
@@ -69,33 +70,34 @@ Pilih opsi "*Set up without Ledger Live*", kemudian klik tombol "*Skip Ledger Li
 
 ![LEDGER FLEX](assets/notext/09.webp)
 
-Anda kemudian akan diminta untuk memilih nama untuk Ledger Anda. Klik pada "*Set name*", dan kemudian masukkan nama pilihan Anda.
+Kamu akan diminta untuk memilih nama untuk Ledger milikmu. Klik pada "*Set name*", dan kemudian masukkan nama pilihan Anda.
 
 ![LEDGER FLEX](assets/notext/10.webp)
 
-Pilih kode PIN untuk perangkat Anda, yang akan digunakan untuk membuka kunci Ledger Anda. Ini adalah perlindungan terhadap akses fisik yang tidak sah. Kode PIN ini tidak berperan dalam derivasi kunci kriptografis dompet Anda. Dengan demikian, bahkan tanpa akses ke kode PIN ini, memiliki frasa mnemonik 24 kata Anda akan memungkinkan Anda untuk mendapatkan kembali akses ke bitcoin Anda.
+Pilih kode PIN untuk perangkat kamu. Kode ini digunakan untuk membuka kunci Ledger kamu dan berfungsi sebagai perlindungan terhadap akses fisik yang tidak sah. PIN ini tidak berperan dalam proses derivasi kunci kriptografis dompet kamu. Jadi, meskipun kamu kehilangan akses ke kode PIN, kamu tetap bisa memulihkan bitcoin kamu selama masih memiliki seedphrase 24 kata.
 
-Disarankan untuk memilih kode PIN 8 digit, seacak mungkin. Juga, pastikan untuk menyimpan kode ini di tempat yang berbeda dari tempat Ledger Flex Anda disimpan (misalnya, dalam pengelola kata sandi).
+Disarankan untuk memilih PIN dengan 8 digit yang benar-benar acak. Pastikan juga kamu menyimpannya di tempat yang terpisah dari Ledger Flex kamu, misalnya di dalam pengelola kata sandi.
 
 ![LEDGER FLEX](assets/notext/11.webp)
 
-Masukkan PIN Anda untuk kedua kalinya untuk mengonfirmasinya.
+Masukkan PIN untuk kedua kalinya untuk mengonfirmasinya.
 
 ![LEDGER FLEX](assets/notext/12.webp)
 
-Anda kemudian akan diminta untuk memilih antara memulihkan dompet yang ada atau membuat yang baru. Dalam tutorial ini, kami membahas membuat dompet baru dari awal, jadi pilih opsi "*Set up as a new Ledger*" untuk menghasilkan frasa mnemonik baru.
+Kemudian kamu akan diminta untuk memilih antara memulihkan dompet yang ada atau membuat yang baru. Dalam tutorial ini, kami membahas membuat dompet baru dari awal, jadi pilih opsi "*Set up as a new Ledger*" untuk menghasilkan frasa mnemonik baru.
 
 ![LEDGER FLEX](assets/notext/13.webp)
 
-Flex Anda akan memberikan instruksi tentang cara mengelola frasa pemulihan Anda.
-**Frasa mnemonik ini memberikan akses lengkap dan tidak terbatas ke semua bitcoin Anda**. Siapapun yang memiliki frasa ini dapat mencuri dana Anda, bahkan tanpa akses fisik ke Ledger Anda. Frasa 24 kata memungkinkan pemulihan akses ke bitcoin Anda dalam kasus kehilangan, pencurian, atau kerusakan pada Ledger Flex Anda. Oleh karena itu, sangat penting untuk menyimpan dan menyimpannya di lokasi yang aman dengan hati-hati.
-Anda dapat menuliskannya di kertas karton yang disediakan bersama Ledger Anda, atau untuk keamanan tambahan, saya merekomendasikan mengukirnya pada media stainless steel untuk melindungi dari risiko kebakaran, banjir, atau runtuh.
+Ledger Flex kamu akan memberikan instruksi tentang cara mengelola seedphrase pemulihan kamu.
+Seedphrase ini memberikan akses penuh dan tak terbatas ke semua bitcoin kamu. **Siapa pun yang memiliki seedphrase ini bisa mencuri dana kamu, bahkan tanpa akses fisik ke Ledger kamu.** Seedphrase 24 kata memungkinkan pemulihan akses ke bitcoin kamu jika Ledger Flex hilang, dicuri, atau rusak. Oleh karena itu sangat penting untuk menyimpan seedphrase ini di tempat yang aman dan merawatnya dengan sangat hati-hati.
+Kamu bisa menuliskannya pada kertas karton yang disertakan bersama Ledger, atau untuk keamanan ekstra aku sarankan mengukirnya pada media stainless steel untuk melindungi dari risiko kebakaran, banjir, atau kerusakan fisik.
 
-Anda dapat menjelajahi instruksi ini dan melewati halaman dengan menyentuh layar.
+Kamu dapat menelusuri instruksi ini dan melewati halaman dengan menyentuh layar.
 
 ![LEDGER FLEX](assets/notext/14.webp)
-Ledger akan membuat frasa mnemonik Anda menggunakan generator angka acaknya. Pastikan Anda tidak diamati selama operasi ini. Tuliskan kata-kata yang disediakan oleh Ledger pada media fisik pilihan Anda. Tergantung pada strategi keamanan Anda, Anda mungkin mempertimbangkan untuk membuat beberapa salinan fisik lengkap dari frasa tersebut (tapi yang paling penting, jangan membaginya). Penting untuk menjaga kata-kata tersebut bernomor dan berurutan.
-***Jelas, Anda seharusnya tidak pernah membagikan kata-kata ini di internet, berbeda dengan apa yang saya lakukan dalam tutorial ini. Dompet contoh ini hanya akan digunakan pada Testnet dan akan dihapus di akhir tutorial.***
+Ledger akan membuat seedphrase kamu menggunakan generator angka acak pada perangkat. Pastikan kamu tidak sedang diamati selama proses ini. Tuliskan kata-kata yang disediakan Ledger pada media fisik pilihanmu. Tergantung strategi keamananmu, kamu bisa mempertimbangkan membuat beberapa salinan fisik lengkap dari seedphrase tersebut, tetapi yang paling penting, jangan membagikannya. Penting untuk menjaga kata-kata itu bernomor dan berurutan.
+
+***Jelas, kamu tidak boleh pernah membagikan kata-kata ini di internet, berbeda dengan apa yang aku lakukan dalam tutorial ini. Dompet contoh ini hanya akan digunakan di Testnet dan akan dihapus di akhir tutorial.***
 
 ![LEDGER FLEX](assets/notext/15.webp)
 
@@ -103,106 +105,113 @@ Untuk berpindah ke kelompok kata berikutnya, klik tombol "*Next*". Setelah semua
 
 ![LEDGER FLEX](assets/notext/16.webp)
 
-Klik tombol "*Start confirmation*", lalu pilih kata-kata dari frasa mnemonik Anda sesuai urutannya untuk mengonfirmasi bahwa Anda telah mencatatnya dengan benar. Lanjutkan prosedur ini sampai kata ke-24.
+Klik tombol "*Start confirmation*", lalu pilih kata-kata dari frasa mnemonik sesuai urutannya untuk mengonfirmasi bahwa kamu telah mencatatnya dengan benar. Lanjutkan prosedur ini sampai kata ke-24.
 
 ![LEDGER FLEX](assets/notext/17.webp)
 
-Jika frasa yang Anda konfirmasi cocok persis dengan yang diberikan Flex pada langkah sebelumnya, Anda dapat melanjutkan. Jika tidak, ini menunjukkan bahwa cadangan fisik frasa mnemonik Anda salah dan Anda perlu memulai proses dari awal.
+Jika seedphrase yang kamu konfirmasi persis sama dengan yang ditampilkan oleh Flex pada langkah sebelumnya, kamu bisa melanjutkan prosesnya. Tapi kalau tidak cocok, itu berarti cadangan fisik seedphrase kamu salah, dan kamu harus mengulang proses dari awal.
 
 ![LEDGER FLEX](assets/notext/18.webp)
 
-Dan begitulah, seed Anda telah berhasil dibuat di Ledger Flex Anda. Sebelum melanjutkan untuk membuat dompet Bitcoin baru dari seed ini, mari kita jelajahi pengaturan perangkat bersama-sama.
+Dan begitulah, seedphrase kamu sudah berhasil dibuat di Ledger Flex. Sebelum lanjut membuat dompet Bitcoin baru dari seed ini, mari kita jelajahi dulu pengaturan perangkatnya bareng-bareng.
 
 ## Bagaimana cara mengubah pengaturan Ledger Anda?
 
-Untuk mengunci dan membuka kunci Ledger Anda, tekan tombol samping. Anda kemudian akan diminta untuk memasukkan kode PIN yang Anda tetapkan pada langkah sebelumnya.
+Untuk mengunci atau membuka kunci Ledger kamu, cukup tekan tombol di samping perangkat. Setelah itu, kamu akan diminta memasukkan kode PIN yang sudah kamu buat di langkah sebelumnya.
 
 ![LEDGER FLEX](assets/notext/19.webp)
 
-Untuk mengakses pengaturan, klik pada simbol roda gigi di bagian bawah kiri perangkat Anda.
+Untuk mengakses pengaturan, klik pada simbol roda gigi di bagian bawah kiri perangkat.
 
 ![LEDGER FLEX](assets/notext/20.webp)
 
-Menu "*Name*" memungkinkan Anda untuk mengubah nama Ledger Anda.
+Menu "*Name*" memungkinkanmu untuk mengubah nama Ledger milikmu.
 
 ![LEDGER FLEX](assets/notext/21.webp)
 
-Di "*About this Ledger*," Anda akan menemukan informasi tentang Flex Anda.
+Di "*About this Ledger*," Kamu akan menemukan informasi tentang Flex milikmu.
 
 ![LEDGER FLEX](assets/notext/22.webp)
 
-Di menu "*Lock screen*," Anda memiliki opsi untuk mengubah gambar yang ditampilkan pada layar kunci dengan memilih "*Customize lock screen picture*". Berkat teknologi layar E Ink perangkat, dimungkinkan untuk menjaga layar tetap menyala tanpa mengonsumsi baterai. Layar E Ink tidak menggunakan energi untuk mempertahankan gambar statis. Namun, mereka mengonsumsi energi selama perubahan tampilan.
-Submenu "*Auto-lock*" memungkinkan Anda untuk mengonfigurasi dan mengaktifkan penguncian otomatis Ledger Anda setelah periode tidak aktif yang ditentukan.
+Di menu *Lock screen*, kamu bisa mengubah gambar yang ditampilkan di layar kunci dengan memilih opsi *Customize lock screen picture*. Berkat teknologi layar E Ink, perangkat ini bisa mempertahankan tampilan di layar tanpa mengonsumsi baterai. Layar E Ink tidak membutuhkan energi untuk menampilkan gambar statis, hanya saat tampilan berubah.
+
+Submenu *Auto-lock* memungkinkan kamu mengatur dan mengaktifkan penguncian otomatis Ledger setelah periode tidak aktif yang kamu tentukan.
+
 ![LEDGER FLEX](assets/notext/23.webp)
+
 Menu "*Sounds*" memungkinkan Anda untuk mengaktifkan atau menonaktifkan suara pada Flex Anda. Dan di menu "Language", Anda dapat mengubah bahasa tampilan.
+
 ![LEDGER FLEX](assets/notext/24.webp)
 
-Dengan mengklik panah kanan, Anda dapat mengakses pengaturan lainnya. "*Change PIN*" memungkinkan Anda untuk mengubah kode PIN Anda.
+Dengan mengklik panah kanan, kamu bisa mengakses pengaturan lainnya. "*Change PIN*" berfungsi untuk mengubah kode PIN kamu.
 
 ![LEDGER FLEX](assets/notext/25.webp)
 
-Menu "*Bluetooth*" dan "*NFC*" memungkinkan Anda untuk mengelola komunikasi ini.
+Menu "*Bluetooth*" dan "*NFC*" memungkinkanmu untuk mengelola komunikasi ini.
 
 ![LEDGER FLEX](assets/notext/26.webp)
 
-Di "*Battery*" Anda dapat mengatur penonaktifan otomatis Ledger.
+Di "*Battery*" kamu dapat mengatur penonaktifan otomatis Ledger.
 
 ![LEDGER FLEX](assets/notext/27.webp)
 
-Bagian "*Advanced*" memberi Anda akses ke pengaturan keamanan yang lebih canggih. Disarankan untuk menjaga opsi "*PIN shuffle*" tetap aktif untuk meningkatkan keamanan. Juga di menu ini Anda dapat mengonfigurasi passphrase BIP39.
+Bagian "*Advanced*" memberimmu akses ke pengaturan keamanan yang lebih canggih. Disarankan untuk menjaga opsi "*PIN shuffle*" tetap aktif untuk meningkatkan keamanan. Juga di menu ini kamu dapat mengonfigurasi passphrase BIP39.
 
 ![LEDGER FLEX](assets/notext/28.webp)
 
-Passphrase adalah kata sandi opsional yang, dikombinasikan dengan frasa pemulihan, memberikan lapisan keamanan tambahan untuk dompet Anda.
+Passphrase adalah kata sandi opsional yang, bila dikombinasikan dengan seedphrase, memberikan lapisan keamanan tambahan untuk dompet kamu.
 
-Saat ini, dompet Anda dihasilkan dari frasa mnemonik yang terdiri dari 24 kata. Frasa pemulihan ini sangat penting, karena memungkinkan Anda untuk mengembalikan semua kunci dompet Anda dalam kasus kehilangan. Namun, ini merupakan single point of failure (SPOF). Jika dikompromikan, bitcoin Anda dalam bahaya. Di sinilah passphrase berperan. Ini adalah kata sandi opsional, yang dapat Anda pilih secara sembarangan, yang menambah frasa mnemonik untuk memperkuat keamanan dompet.
+Saat ini, dompet kamu dibuat dari seedphrase yang terdiri dari 24 kata. Seedphrase ini sangat penting karena memungkinkan kamu memulihkan semua kunci dompet jika perangkat hilang. Namun, seedphrase juga merupakan single point of failure (SPOF) — jika seedphrase kamu jatuh ke tangan orang lain, bitcoin kamu dalam bahaya. Di sinilah passphrase berperan. Ini adalah kata sandi opsional yang bisa kamu pilih sendiri, dan akan digabungkan dengan seedphrase untuk memperkuat keamanan dompet.
 
-Passphrase tidak boleh dikacaukan dengan kode PIN. Ini berperan dalam derivasi kunci kriptografis Anda. Ini bekerja bersama dengan frasa mnemonik, memodifikasi seed dari mana kunci dihasilkan. Jadi, bahkan jika seseorang mendapatkan frasa 24 kata Anda, tanpa passphrase, mereka tidak dapat mengakses dana Anda. Menggunakan passphrase pada dasarnya menciptakan dompet baru dengan kunci yang berbeda. Memodifikasi (bahkan sedikit) passphrase akan menghasilkan dompet yang berbeda.
+Passphrase tidak boleh disamakan dengan PIN, karena passphrase benar-benar berperan dalam proses derivasi kunci kriptografis. Ia bekerja bersama seedphrase untuk memodifikasi seed dasar tempat semua kunci dihasilkan. Jadi, meskipun seseorang memiliki seedphrase 24 kata kamu, tanpa passphrase mereka tetap tidak bisa mengakses dana kamu. Menggunakan passphrase pada dasarnya menciptakan dompet baru dengan kunci yang berbeda. Bahkan perubahan kecil pada passphrase akan menghasilkan dompet yang sepenuhnya berbeda.
 
-Passphrase adalah alat yang sangat kuat untuk meningkatkan keamanan bitcoin Anda. Namun, sangat penting untuk memahami cara kerjanya sebelum mengimplementasikannya, untuk menghindari kehilangan akses ke dompet Anda. Saya akan menjelaskan cara menggunakan passphrase dalam tutorial khusus lainnya.
+Passphrase adalah alat yang sangat kuat untuk meningkatkan keamanan bitcoin kamu. Tapi penting banget buat benar-benar memahami cara kerjanya sebelum digunakan, supaya kamu tidak kehilangan akses ke dompet sendiri. Aku akan jelaskan cara memakai passphrase ini dalam tutorial khusus lainnya.
 
 ![LEDGER FLEX](assets/notext/29.webp)
 
-Passphrase adalah alat yang sangat kuat untuk memperkuat keamanan bitcoin Anda. Namun, sangat penting untuk memahami cara kerjanya sebelum menerapkannya, agar tidak kehilangan akses ke dompet Anda. Itu sebabnya saya menjelaskannya secara lengkap dalam tutorial terpisah berikut:
+Passphrase adalah alat yang sangat kuat untuk memperkuat keamanan bitcoin kamu. Namun penting sekali untuk memahami cara kerjanya sebelum menerapkannya agar kamu tidak kehilangan akses ke dompet kamu. Itulah sebabnya aku menjelaskannya secara lengkap dalam tutorial terpisah berikut:
 
 https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
-Akhirnya, halaman pengaturan terakhir memungkinkan Anda untuk mereset Ledger Anda. Lanjutkan dengan reset ini hanya jika Anda yakin tidak mengandung kunci apa pun yang mengamankan bitcoin, karena Anda bisa kehilangan akses ke dana Anda secara permanen.
+Terakhir, halaman pengaturan ini memungkinkan kamu untuk mereset Ledger kamu. Lakukan reset hanya jika kamu benar-benar yakin perangkat tersebut tidak menyimpan kunci apa pun yang mengamankan bitcoin kamu, karena tindakan ini bisa menyebabkan kamu kehilangan akses ke dana secara permanen.
+
 ![LEDGER FLEX](assets/notext/30.webp)
 
 ## Bagaimana cara menginstal aplikasi Bitcoin?
 
-Mulailah dengan meluncurkan perangkat lunak Ledger Live di komputer Anda, kemudian sambungkan dan buka kunci Ledger Flex Anda.
+Mulailah dengan meluncurkan perangkat lunak Ledger Live di komputer kamu, kemudian sambungkan dan buka kunci Ledger Flex kamu.
 
 ![LEDGER FLEX](assets/notext/31.webp)
 
-Di Ledger Live, pergi ke menu "*My Ledger*". Anda akan diminta untuk mengizinkan akses ke Flex Anda.
+Di Ledger Live, pergi ke menu "*My Ledger*". Kamu akan diminta untuk mengizinkan akses ke Flex milikmu.
 
 ![LEDGER FLEX](assets/notext/32.webp)
 
-Validasi akses pada Ledger Anda dengan mengklik tombol "*Allow*".
+Validasi akses pada Ledger kamu dengan mengklik tombol "*Allow*".
 
 ![LEDGER FLEX](assets/notext/33.webp)
 
-Pertama, jika firmware Ledger Flex Anda tidak terbaru, Ledger Live secara otomatis akan menawarkan untuk memperbaruinya. Jika berlaku, klik pada "*Update firmware*", kemudian pada "*Install update*" untuk memulai instalasi.
+Pertama, jika firmware Ledger Flex kamu tidak terbaru, Ledger Live secara otomatis akan menawarkan untuk memperbaruinya. Jika berlaku, klik pada "*Update firmware*", kemudian pada "*Install update*" untuk memulai instalasi.
 
 ![LEDGER FLEX](assets/notext/34.webp)
 
-Di Ledger Anda, klik pada tombol "*Install*", lalu tunggu selama instalasi.
+Di Ledger kamu, klik pada tombol "*Install*", lalu tunggu selama instalasi.
 
 ![LEDGER FLEX](assets/notext/35.webp)
 
-Firmware Ledger Flex Anda sekarang sudah terbaru.
+Firmware Ledger Flex kamu sekarang sudah terbaru.
+
 ![LEDGER FLEX](assets/notext/36.webp)
-Jika Anda ingin, Anda dapat mengubah wallpaper layar kunci Ledger Flex Anda. Untuk melakukan ini, klik pada "*Add >*".
+
+Kalau kamu ingin, kamu bisa mengubah wallpaper layar kunci Ledger Flex. Untuk melakukan ini, klik pada "*Add >*".
 
 ![LEDGER FLEX](assets/notext/37.webp)
 
-Klik tombol "*Upload from computer*" dan pilih wallpaper Anda dari foto-foto Anda.
+Klik tombol "*Upload from computer*" dan pilih wallpaper dari foto-foto milikmu.
 
 ![LEDGER FLEX](assets/notext/38.webp)
 
-Anda dapat memotong gambar Anda.
+Kamu bisa memotong milikmu
 
 ![LEDGER FLEX](assets/notext/39.webp)
 
@@ -210,11 +219,11 @@ Pilih kontras dari berbagai opsi, kemudian klik pada "*Confirm contrast*".
 
 ![LEDGER FLEX](assets/notext/40.webp)
 
-Di Flex Anda, klik pada tombol "*Load picture*".
+Lalu, klik pada tombol "*Load picture*".
 
 ![LEDGER FLEX](assets/notext/41.webp)
 
-Jika Anda puas dengan gambar tersebut, klik pada "*Keep*" untuk mengaturnya sebagai wallpaper layar kunci Anda.
+Kalau kamu puas dengan gambar tersebut, klik pada "*Keep*" untuk mengaturnya sebagai wallpaper layar kunci.
 
 ![LEDGER FLEX](assets/notext/42.webp)
 
@@ -226,13 +235,15 @@ Aplikasi akan terinstal di Flex Anda.
 
 ![LEDGER FLEX](assets/notext/44.webp)
 
-Mulai sekarang, Anda tidak akan lagi memerlukan perangkat lunak Ledger Live untuk pengelolaan dompet Anda secara reguler. Anda dapat kembali ke sana sesekali untuk memperbarui firmware ketika versi baru tersedia. Untuk segala hal lainnya, kami akan menggunakan Sparrow Wallet, yang merupakan alat yang lebih komprehensif untuk mengelola dompet Bitcoin secara efisien.
+Mulai sekarang, kamu tidak lagi memerlukan perangkat lunak Ledger Live untuk pengelolaan dompet sehari-hari. Kamu hanya perlu membukanya sesekali untuk memperbarui firmware jika ada versi baru yang dirilis. Untuk semua kebutuhan lainnya, kita akan menggunakan Sparrow Wallet, yang merupakan alat yang jauh lebih lengkap dan efisien untuk mengelola dompet Bitcoin.
 
 ## Bagaimana cara menyiapkan dompet Bitcoin baru dengan Sparrow?
-Buka Sparrow Wallet dan lewati halaman pengantar untuk mengakses layar utama. Periksa bahwa Anda benar-benar terhubung ke sebuah node dengan mengamati sakelar yang terletak di pojok kanan bawah layar.
+Buka Sparrow Wallet dan lewati halaman pengantar untuk mengakses layar utama. Periksa bahwa kalau benar-benar terhubung ke sebuah node dengan mengamati sakelar yang terletak di pojok kanan bawah layar.
 ![LEDGER FLEX](assets/notext/45.webp)
 
-Saya sangat merekomendasikan menggunakan node Bitcoin Anda sendiri. Dalam tutorial ini, saya menggunakan node publik (kuning) karena saya berada di testnet, tetapi untuk penggunaan normal, lebih baik memilih Bitcoin Core lokal (hijau) atau server Electrum yang terhubung ke node jarak jauh (biru).
+ChatGPT said:
+
+Aku sangat menyarankan kamu untuk menggunakan node Bitcoin kamu sendiri. Dalam tutorial ini, aku menggunakan node publik (kuning) karena sedang berada di testnet, tapi untuk penggunaan normal, sebaiknya pilih Bitcoin Core lokal (hijau) atau server Electrum yang terhubung ke node pribadi jarak jauh (biru).
 
 Klik pada menu "*File*" kemudian "*New Wallet*".
 
@@ -242,7 +253,7 @@ Pilih nama untuk dompet ini, kemudian klik pada "*Create Wallet*".
 
 ![LEDGER FLEX](assets/notext/47.webp)
 
-Dalam menu dropdown "*Script Type*", pilih jenis skrip yang akan digunakan untuk mengamankan bitcoin Anda. Saya merekomendasikan untuk memilih "*Taproot*", atau jika tidak tersedia, "*Native SegWit*".
+Dalam menu dropdown "*Script Type*", pilih jenis skrip yang akan digunakan untuk mengamankan bitcoin kamu. Kamu merekomendasikan untuk memilih "*Taproot*", atau jika tidak tersedia, "*Native SegWit*".
 
 ![LEDGER FLEX](assets/notext/48.webp)
 
@@ -250,7 +261,7 @@ Klik pada tombol "*Connected Hardware Wallet*".
 
 ![LEDGER FLEX](assets/notext/49.webp)
 
-Hubungkan Ledger Flex Anda ke komputer, buka kunci dengan kode PIN Anda, kemudian buka aplikasi "*Bitcoin*". Dalam tutorial ini, saya menggunakan aplikasi "*Bitcoin Testnet*", tetapi prosedurnya tetap sama untuk mainnet.
+Hubungkan Ledger Flex kamu ke komputer, buka kunci dengan kode PIN milikmu, kemudian buka aplikasi "*Bitcoin*". Dalam tutorial ini, aku menggunakan aplikasi "*Bitcoin Testnet*", tetapi prosedurnya tetap sama untuk mainnet.
 
 ![LEDGER FLEX](assets/notext/50.webp)
 
@@ -262,18 +273,20 @@ Kemudian klik pada "*Import Keystore*".
 
 ![LEDGER FLEX](assets/notext/52.webp)
 
-Anda sekarang dapat melihat detail dompet Anda, termasuk kunci publik yang diperluas dari akun pertama Anda. Klik pada tombol "*Apply*" untuk menyelesaikan pembuatan dompet.
+Sekarang kamu bisa melihat detail dompet kamu, termasuk extended public key dari akun pertamamu. Klik tombol *Apply* untuk menyelesaikan proses pembuatan dompet.
 ![LEDGER FLEX](assets/notext/53.webp)
-Pilihlah kata sandi yang kuat untuk mengamankan akses ke Sparrow Wallet. Kata sandi ini akan memastikan keamanan akses ke data dompet Anda di Sparrow, yang membantu melindungi kunci publik, alamat, label, dan riwayat transaksi Anda dari akses tidak sah.
 
-Saya menyarankan Anda untuk menyimpan kata sandi ini di pengelola kata sandi agar Anda tidak lupa.
+Pilih kata sandi yang kuat untuk mengamankan akses ke Sparrow Wallet. Kata sandi ini akan melindungi data dompet kamu di Sparrow, termasuk public key, alamat, label, dan riwayat transaksi dari akses yang tidak sah.
+
+Aku sarankan kamu menyimpan kata sandi ini di pengelola kata sandi, supaya tidak lupa dan tetap aman.
 
 ![LEDGER FLEX](assets/notext/54.webp)
 
-Dan begitulah, dompet Anda sekarang telah dibuat!
+Dan begitulah, dompet kamu sekarang telah dibuat!
 
 ![LEDGER FLEX](assets/notext/55.webp)
-Sebelum menerima bitcoin pertama Anda di dompet, saya sangat menyarankan Anda untuk melakukan tes pemulihan kering. Catat informasi referensi, seperti xpub Anda, kemudian reset Ledger Flex Anda sementara dompet masih kosong. Setelah itu, coba pulihkan dompet Anda di Ledger menggunakan cadangan kertas Anda. Periksa bahwa xpub yang dihasilkan setelah pemulihan cocok dengan yang Anda catat awalnya. Jika ini kasusnya, Anda dapat yakin bahwa cadangan kertas Anda dapat diandalkan.
+
+Sebelum menerima bitcoin pertama kamu di dompet, aku sangat menyarankan untuk melakukan tes pemulihan kering terlebih dahulu. Catat informasi referensi seperti xpub kamu, lalu reset Ledger Flex saat dompet masih kosong. Setelah itu, coba pulihkan dompet di Ledger menggunakan cadangan kertas yang kamu punya. Periksa apakah xpub yang muncul setelah pemulihan sama dengan yang kamu catat sebelumnya. Kalau cocok, berarti cadangan kertas kamu bisa diandalkan sepenuhnya.
 
 ## Bagaimana cara menerima bitcoin dengan Ledger Flex?
 
@@ -281,65 +294,65 @@ Klik pada tab "*Receive*".
 
 ![LEDGER FLEX](assets/notext/56.webp)
 
-Hubungkan Ledger Flex Anda ke komputer, buka kunci dengan kode PIN Anda, kemudian buka aplikasi "*Bitcoin*".
+Hubungkan Ledger Flex ke komputer, buka kunci dengan kode PIN, kemudian buka aplikasi "*Bitcoin*".
 
 ![LEDGER FLEX](assets/notext/57.webp)
 
-Sebelum menggunakan alamat yang disediakan oleh Sparrow Wallet, verifikasi di layar Ledger Flex Anda. Praktik ini memungkinkan Anda untuk memastikan bahwa alamat yang ditampilkan di Sparrow tidak palsu dan bahwa Ledger memang memiliki kunci privat yang diperlukan untuk menghabiskan bitcoin yang diamankan dengan alamat ini nanti.
+Sebelum menggunakan alamat yang ditampilkan di Sparrow Wallet, pastikan kamu memverifikasinya langsung di layar Ledger Flex kamu. Langkah ini penting untuk memastikan bahwa alamat yang muncul di Sparrow benar-benar valid dan bukan hasil manipulasi, serta memastikan bahwa Ledger kamu memang memiliki private key yang diperlukan untuk menghabiskan bitcoin yang diamankan dengan alamat tersebut nantinya.
 
 Untuk melakukan verifikasi ini, klik pada tombol "*Display Address*".
 
 ![LEDGER FLEX](assets/notext/58.webp)
 
-Pastikan bahwa alamat yang ditampilkan di Ledger Flex Anda cocok dengan yang ditunjukkan di Sparrow Wallet. Juga disarankan untuk melakukan verifikasi ini tepat sebelum memberikan alamat Anda kepada pengirim, untuk memastikan validitasnya.
+Pastikan alamat yang ditampilkan di Ledger Flex kamu benar-benar sama dengan yang muncul di Sparrow Wallet. Disarankan juga untuk melakukan verifikasi ini tepat sebelum kamu memberikan alamat tersebut kepada pengirim, supaya kamu bisa memastikan alamatnya valid dan aman.
 
 ![LEDGER FLEX](assets/notext/59.webp)
 
-Anda dapat menambahkan "*Label*" untuk menggambarkan sumber bitcoin yang akan diamankan dengan alamat ini. Ini adalah praktik yang baik yang membantu Anda mengelola UTXO Anda dengan lebih baik.
+Kamu dapat menambahkan "*Label*" untuk menggambarkan sumber bitcoin yang akan diamankan dengan alamat ini. Ini adalah praktik yang baik yang membantu kamu mengelola UTXO Anda dengan lebih baik.
 
 ![LEDGER FLEX](assets/notext/60.webp)
 
-Untuk informasi lebih lanjut tentang pelabelan, saya juga menyarankan Anda untuk melihat tutorial lain ini:
+Untuk informasi lebih lanjut tentang pelabelan, aku juga menyarankanmu untuk melihat tutorial lain ini:
 
 https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
-Anda kemudian dapat menggunakan alamat ini untuk menerima bitcoin.
+Kemudian kamu dapat menggunakan alamat ini untuk menerima bitcoin.
 
 ![LEDGER FLEX](assets/notext/61.webp)
 
 ## Bagaimana cara mengirim bitcoin dengan Ledger Flex?
 
-Sekarang setelah Anda menerima sats pertama Anda di dompet yang diamankan dengan Flex, Anda juga dapat menghabiskannya! Hubungkan Ledger Anda ke komputer, buka kunci, luncurkan Sparrow Wallet, kemudian pergi ke tab "*Send*" untuk membuat transaksi baru.
+Sekarang setelah kamu menerima sats pertama di dompet yang diamankan dengan Ledger Flex, kamu juga bisa mulai menggunakannya! Hubungkan Ledger kamu ke komputer, buka kuncinya, jalankan Sparrow Wallet, lalu buka tab *Send* untuk membuat transaksi baru.
 
 ![LEDGER FLEX](assets/notext/62.webp)
 
-Jika Anda ingin melakukan "*coin control*", yaitu secara spesifik memilih UTXO mana yang akan dikonsumsi dalam transaksi, pergi ke tab "*UTXOs*". Pilih UTXO yang ingin Anda habiskan, kemudian klik pada "*Send Selected*". Anda akan diarahkan ke layar yang sama dari tab "*Send*", tetapi dengan UTXO Anda sudah dipilih untuk transaksi.
+Kalau kamu ingin melakukan "*coin control*", yaitu secara spesifik memilih UTXO mana yang akan dikonsumsi dalam transaksi, pergi ke tab "*UTXOs*". Pilih UTXO yang ingin kamu habiskan, kemudian klik pada "*Send Selected*". Kamu akan diarahkan ke layar yang sama dari tab "*Send*", tetapi dengan UTXO Anda sudah dipilih untuk transaksi.
 ![LEDGER FLEX](assets/notext/63.webp)
-Masukkan alamat tujuan. Anda juga dapat memasukkan beberapa alamat dengan mengklik tombol "*+ Add*".
+Masukkan alamat tujuan. Kamu juga dapat memasukkan beberapa alamat dengan mengklik tombol "*+ Add*".
 
 ![LEDGER FLEX](assets/notext/64.webp)
 
 Catat sebuah "*Label*" untuk mengingat tujuan pengeluaran ini.
 Pilih jumlah yang akan dikirim ke alamat ini.
 
-Sesuaikan tarif biaya transaksi Anda sesuai dengan pasar saat ini.
+Sesuaikan tarif biaya transaksi kamu sesuai dengan pasar saat ini.
 
-Pastikan semua pengaturan transaksi Anda sudah benar, kemudian klik pada "*Buat Transaksi*".
+Pastikan semua pengaturan transaksi kamu sudah benar, kemudian klik pada "*Buat Transaksi*".
 
-Jika semuanya sesuai dengan keinginan Anda, klik pada "*Finalisasi Transaksi untuk Ditandatangani*".
+Jika semuanya sesuai dengan keinginanmu, klik pada "*Finalisasi Transaksi untuk Ditandatangani*".
 
 Klik pada "*Tandatangan*".
 
-Klik pada "*Tandatangan*" di sebelah Ledger Flex Anda.
+Klik pada "*Tandatangan*" di sebelah Ledger Flex kamu.
 
-Verifikasi pengaturan transaksi di layar Flex Anda, termasuk alamat penerima, jumlah yang dikirim, dan jumlah biaya.
+Verifikasi pengaturan transaksi di layar Flex, termasuk alamat penerima, jumlah yang dikirim, dan jumlah biaya.
 
-Untuk menandatangani, tahan jari Anda pada tombol "*Tahan untuk menandatangani*".
+Untuk menandatangani, tahan jari pada tombol "*Tahan untuk menandatangani*".
 
-Transaksi Anda sekarang sudah ditandatangani. Klik pada "*Siarkan Transaksi*" untuk menyiarkannya di jaringan Bitcoin.
+Sekarang transaksi sudah ditandatangani. Klik pada "*Siarkan Transaksi*" untuk menyiarkannya di jaringan Bitcoin.
 
-Anda dapat menemukannya di tab "*Transaksi*" dari Sparrow Wallet.
+Kamu dapat menemukannya di tab "*Transaksi*" dari Sparrow Wallet.
 
-Selamat, Anda sekarang sudah menguasai penggunaan dasar Ledger Flex dengan Sparrow Wallet! Dalam tutorial mendatang, kita akan melihat cara menggunakan Ledger Flex dengan Liana untuk memanfaatkan Miniscript.
+Selamat, sekarang kamu sudah menguasai penggunaan dasar Ledger Flex dengan Sparrow Wallet! Di tutorial berikutnya, kita akan membahas cara menggunakan Ledger Flex dengan Liana untuk memanfaatkan fitur Miniscript.
 
-Jika Anda merasa tutorial ini bermanfaat, saya akan sangat menghargai jempol ke atas di bawah ini. Jangan ragu untuk membagikan artikel ini di jaringan sosial Anda. Terima kasih banyak!
+Kalau kamu merasa tutorial ini bermanfaat, aku akan sangat menghargai kalau kamu kasih jempol ke atas di bawah ini. Jangan ragu buat membagikan artikel ini di media sosial kamu. Terima kasih banyak!

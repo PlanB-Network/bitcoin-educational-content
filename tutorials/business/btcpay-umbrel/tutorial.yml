@@ -1,0 +1,25 @@
+id: 68e1c535-4322-4507-a69c-9dfcbc36dfd1
+
+project_id: c61cbdad-03bc-4178-9d8d-0b5b7c1141a0
+
+tags:
+  - software
+  - guides
+  - user-friendly
+
+category: point-of-sale
+
+level: intermediate
+
+professor_id: 93e251db-ee1c-4966-8dce-b54df9fca287
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-10-21
+    urgency: 1
+    contributor_names:
+      - Pivii
+    reward: 0

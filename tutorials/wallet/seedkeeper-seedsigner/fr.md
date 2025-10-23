@@ -7,17 +7,24 @@ description: Comment utiliser un Seedkeeper avec son SeedSigner ?
 
 *Merci aux équipes de [Satochip](https://satochip.io/) d’avoir accepté la réutilisation [de leurs vidéos](https://www.youtube.com/@satochip/videos) dans ce tutoriel.*
 
+---
 
+Le SeedSigner est un hardware wallet que l’on assemble soi-même à partir de matériel informatique standard, le plus souvent autour d’un Raspberry Pi Zero. Ce portefeuille est dit "stateless" : contrairement à la plupart des autres modèles du marché (Coldcard, Trezor, Ledger, etc.), il ne conserve aucune donnée en mémoire permanente et fonctionne uniquement en live à partir de la mémoire vive. Ainsi, la seed de votre portefeuille n’est jamais enregistrée sur le SeedSigner. À chaque redémarrage, il est donc nécessaire de la renseigner pour permettre au dispositif de signer vos transactions. La méthode la plus courante consiste à sauvegarder votre seed sous la forme d’un QR code, que vous scannez ensuite à chaque utilisation (*SeedQR*).
 
-Pour le émtairel
+Cette approche présente toutefois un risque important : la seed doit rester accessible en clair afin de pouvoir être scannée. En cas de vol ou d’intrusion, un attaquant pourrait donc facilement s’en emparer et dérober vos bitcoins.
 
-Le kit d’extension pour SeedSigner est disponible à l’achat [sur la boutique officielle de Satochip](https://satochip.io/product/seedsigner-extension-kit/).
+Pour pallier cette faiblesse, il est possible d’associer le SeedSigner au [**Seedkeeper**](https://satochip.io/product/seedkeeper/), une carte à puce développée par Satochip. Celle-ci permet de stocker des phrases mnémoniques (ou d’autres secrets) dans un élément sécurisé protégé par un code PIN. L’applet du Seedkeeper est open-source et son élément sécurisé bénéficie d’une certification EAL6. Utilisé conjointement avec le SeedSigner, il offre un dispositif de sécurité très intéressant : vos clés restent gérées entièrement hors ligne, vous signez vos transactions sur un écran de confiance, et la seed est protégée physiquement dans une smartcard résistante aux attaques physique.
 
+Pour réaliser cette installation, vous aurez simplement besoin des éléments suivants :  
+- Le matériel habituel nécessaire à un SeedSigner classique : un Raspberry Pi Zero, un écran Waveshare 1.3", une caméra compatible et une carte microSD (vous trouverez davantage de détails dans le tutoriel consacré au SeedSigner ci-dessous) ;  
+- Le kit d’extension pour SeedSigner, disponible [sur la boutique officielle de Satochip](https://satochip.io/product/seedsigner-extension-kit/), qui permet de lire et d’écrire sur la smartcard directement depuis votre SeedSigner ;  
+- Un Seedkeeper, ou à défaut une smartcard vierge sur laquelle vous installerez l’applet du Seedkeeper (le kit d’extension vendu par Satochip inclut déjà une smartcard vierge).  
 
+00
 
-Ce tutoriel s’applique à deux situations possibles selon votre cas :
-- Si vous possédez déjà un portefeuille Bitcoin géré via votre SeedSigner, il vous suffira simplement d’installer le nouveau firmware. Vous pourrez alors continuer à utiliser votre portefeuille existant, cette fois avec le Seedkeeper en plus du SeedSigner.
-- Si, en revanche, vous n’avez pas encore de portefeuille Bitcoin associé à votre SeedSigner, vous devrez suivre les étapes **5** et **6** de cet autre tutoriel ci-dessous. Vous y apprendrez à générer une phrase mnémonique depuis le SeedSigner, à la sauvegarder de manière classique via un SeedQR, puis à synchroniser ce portefeuille sur Sparrow Wallet afin de pouvoir le gérer facilement. Je ne reviendrai pas sur ces étapes dans le présent tutoriel, et **je pars du principe que vous disposez déjà d’un portefeuille Bitcoin géré avec Sparrow et votre SeedSigner**.
+Ce tutoriel couvre deux cas de figure :
+- Si vous disposez déjà d’un portefeuille Bitcoin géré via votre SeedSigner, il vous suffira d’installer le nouveau firmware. Vous pourrez alors continuer à utiliser votre portefeuille existant, cette fois en utilisant le Seedkeeper pour renforcer la sécurité.  
+- Si vous n’avez pas encore de portefeuille Bitcoin associé à votre SeedSigner, il faudra suivre les étapes **5** et **6** du tutoriel mentionné ci-dessous. Ces sections expliquent comment générer une phrase mnémonique avec le SeedSigner, la sauvegarder via un *SeedQR*, puis connecter ce portefeuille à Sparrow Wallet pour le gérer. Je n’aborderai pas ces procédures ici et **je pars du principe que vous possédez déjà un portefeuille Bitcoin fonctionnel, configuré avec Sparrow et votre SeedSigner**.
 
 https://planb.academy/tutorials/wallet/hardware/seedsigner-2b274bff-6fc8-407a-92d7-f6ec4d1fadfb
 

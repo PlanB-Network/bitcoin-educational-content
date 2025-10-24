@@ -65,4 +65,8 @@ Na Trezor uređaju (Safe 3, Safe 5 ili Model One):
 https://planb.network/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
 Na SeedSigner-u:
 https://planb.academy/tutorials/wallet/backup/seedsigner-passphrase-7a61f64d-aa03-4bcf-8308-00c89a74cffe
+Na SeedSigner-u sa Seedkeeper-om:
+https://planb.academy/tutorials/wallet/backup/seedkeeper-seedsigner-45cca4c4-1f22-46bb-87ae-9cddb68aa579
+
+
 

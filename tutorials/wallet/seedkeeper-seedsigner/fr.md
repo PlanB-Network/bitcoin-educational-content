@@ -5,7 +5,7 @@ description: Comment utiliser un Seedkeeper avec son SeedSigner ?
 
 ![cover](assets/cover.webp)
 
-*Merci aux équipes de [Satochip](https://satochip.io/) d’avoir accepté la réutilisation [de leurs vidéos](https://www.youtube.com/@satochip/videos) dans ce tutoriel.*
+*Merci aux équipes de [Satochip](https://satochip.io/) d’avoir accepté la réutilisation [de leurs vidéos](https://www.youtube.com/@satochip/videos) dans ce tutoriel. Merci également à [Crypto Guide](https://www.youtube.com/@CryptoGuide/) pour son fork du firmware SeedSigner permettant la prise en charge des smartcards.*
 
 ---
 

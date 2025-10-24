@@ -81,4 +81,8 @@ Trezor 장치(Safe 3, Safe 5 또는 모델 1)에서:
 https://planb.network/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
 SeedSigner에서:
 https://planb.academy/tutorials/wallet/backup/seedsigner-passphrase-7a61f64d-aa03-4bcf-8308-00c89a74cffe
+Seedkeeper가 있는 SeedSigner에서:
+https://planb.academy/tutorials/wallet/backup/seedkeeper-seedsigner-45cca4c4-1f22-46bb-87ae-9cddb68aa579
+
+
 

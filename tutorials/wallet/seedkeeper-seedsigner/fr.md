@@ -145,7 +145,47 @@ Votre phrase mnémonique est désormais sauvegardée sur la smartcard.
 
 21
 
-## Comment charger une seed depuis le Seedkeeper ?
+En termes de stratégie de sécurisation, plusieurs approches sont possibles selon vos besoins et votre niveau d’exposition au risque. Personnellement, je vous recommande de conserver au minimum 2 copies de votre seed :
+- Une première sur la smartcard, que vous garderez facilement accessible pour vos opérations courantes, comme la vérification d’adresses ou la signature de transactions. Cette méthode est pratique (comme nous le verrons dans la partie 5) et reste sûre grâce à la protection offerte par le code PIN, ce qui permet de la conserver accessible sans risque majeur ;
+- Une seconde copie de votre phrase mnémonique en clair, servant de sauvegarde ultime de votre portefeuille, à utiliser uniquement en cas de perte ou de vol du Seedkeeper. Cette version étant non chiffrée, elle doit impérativement être conservée dans un lieu distinct et plus sécurisé, afin d’éviter toute compromission simultanée des 2 backups.
+
+Selon votre stratégie de protection et votre profil de risque, vous pouvez aussi dupliquer la seed sur plusieurs Seedkeeper différents, ou créer plusieurs copies physiques de la phrase mnémonique. Pour approfondir ces pratiques, je vous invite à consulter le tutoriel suivant :
+
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
+
+## 5. Charger une seed depuis le Seedkeeper
 
 ![video](https://youtu.be/ms0Iq_IyaoE)
+
+Vous pouvez désormais utiliser votre Seedkeeper pour charger votre phrase mnémonique dans le SeedSigner au démarrage, et ainsi signer vos transactions Bitcoin. Pour commencer, allumez votre SeedSigner en le branchant, puis ouvrez le menu `Seeds`.
+
+22
+
+Sélectionnez ensuite l’option `From SeedKeeper`.
+
+23
+
+Insérez votre Seedkeeper dans le lecteur de carte à puce, puis saisissez votre code PIN pour le déverrouiller. Validez votre entrée en appuyant sur le bouton de confirmation situé en bas à droite, `KEY3`.
+
+24
+
+Le Seedkeeper peut contenir plusieurs secrets, donc le SeedSigner vous invite ensuite à choisir celui que vous souhaitez charger. L’étiquette affichée correspond au nom que vous aviez défini à l’étape 4. Si, comme dans mon cas, vous n’avez enregistré qu’une seule seed, une seule option sera disponible.
+
+25
+
+Votre seed est désormais chargée. Vérifiez qu’il s’agit bien du bon portefeuille en comparant l’empreinte affichée à l’écran avec celle indiquée dans les paramètres de votre Sparrow Wallet. Cette empreinte vous avait également été fournie lors de la création initiale du portefeuille.
+
+Si vous utilisez une passphrase, vous pouvez l’appliquer à cette étape (voir la partie 6 de ce tutoriel). Dans le cas contraire, cliquez simplement sur `Done`.
+
+26
+
+Vous pouvez ensuite utiliser votre portefeuille normalement : vérifier vos adresses de réception et signer des transactions, comme avec un SeedSigner classique. Pour en savoir plus sur son utilisation, reportez-vous au tutoriel dédié :
+
+https://planb.academy/tutorials/wallet/hardware/seedsigner-2b274bff-6fc8-407a-92d7-f6ec4d1fadfb
+
+## 6. Utiliser le Seedkeeper avec une passphrase BIP39
+
+
+
 

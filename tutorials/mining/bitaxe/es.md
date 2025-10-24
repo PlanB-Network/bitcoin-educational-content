@@ -3,7 +3,7 @@ name: Bitaxe
 description: ¿Cómo configurar un BitAxe?
 ---
 ![video](https://youtu.be/tvLSK8v0MK8)
-### Introducción
+## Introducción
 
 BitAxe es un proyecto de código abierto creado por Skot y [disponible en GitHub](https://github.com/skot/bitaxe) que permite la experimentación de minería de forma económica.
 
@@ -20,7 +20,7 @@ Hay varias versiones de BitAxe, con diferentes chips y rendimientos:
 
 En este tutorial, estaremos usando un BitAxe Ultra 204 equipado con un chip BM1366, usado para el Antminer S19XP. Este ya viene ensamblado y flasheado por el vendedor.
 
-### [La lista de vendedores está disponible en esta página](https://bitaxe.org/legit.html)
+[La lista de distribuidores está disponible en esta página](https://bitaxe.org/legit.html)
 
 ![signup](assets/2.webp)
 
@@ -28,7 +28,7 @@ Generalmente, la fuente de alimentación se vende con él. Si no, necesitarás c
 
 ![signup](assets/1.webp)
 
-### Configuración
+## Configuración
 Cuando conectes tu BitAxe por primera vez, intentará conectarse a una red Wi-Fi por defecto. Después de cinco intentos, mostrará el nombre de su propia red Wi-Fi para que puedas conectarte a ella y configurarla.
 Para hacer esto, puedes usar cualquier computadora o smartphone. Ve a tu configuración Wi-Fi, busca nuevas redes y verás una Wi-Fi llamada Bitaxe_XXXX. Aquí, es `Bitaxe_A859`. Conéctate a esta red Wi-Fi, y automáticamente se abrirá una ventana.
 
@@ -56,7 +56,7 @@ La configuración de `Core Voltage` debe dejarse en `1200` por defecto, y para `
 
 Una vez que hayas ingresado correctamente todos los ajustes, haz clic en el botón `Save` en la parte inferior, luego reinicia tu BitAxe simplemente desenchufándolo y volviéndolo a enchufar.
 Si has ingresado tu información correctamente, el dispositivo debería conectarse rápidamente a tu Wi-Fi, luego al pool de minería, y comenzar a mostrar información en su pequeña pantalla. Probablemente tomará unos minutos para que aparezca en el tablero de control del pool de minería.
-### Tablero de Control y Pantalla
+## Panel de control y pantalla
 
 Tres pantallas diferentes se desplazarán. En la tercera página, verás la información de `IP`, que es la dirección IP que te permite conectarte al tablero de control. Aquí, la dirección es `192.168.1.19`.
 

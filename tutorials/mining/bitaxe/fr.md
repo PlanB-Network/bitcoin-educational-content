@@ -3,7 +3,7 @@ name: Bitaxe
 description: Comment paramétrer un BitAxe ?
 ---
 ![video](https://youtu.be/tvLSK8v0MK8)
-### Présentation
+## Introduction
 
 BitAxe est un projet open source créé par Skot et [disponible sur GitHub](https://github.com/skot/bitaxe) qui permet d'expérimenter le minage à moindre coût.
 
@@ -21,7 +21,7 @@ Il existe plusieurs versions du BitAxe, avec différentes puces et performances 
 
 Dans ce tutoriel, nous utiliserons un BitAxe Ultra 204 équipé d'une puce BM1366, utilisée pour les Antminer S19XP. Celui-ci est déjà monté et flashé par le revendeur.
 
-### [La liste des revendeurs est disponible sur cette page](https://bitaxe.org/legit.html)
+[La liste des revendeurs est disponible sur cette page](https://bitaxe.org/legit.html)
 
 ![signup](assets/2.webp)
 
@@ -29,7 +29,7 @@ Généralement, l'alimentation est vendue avec. Si ce n'est pas le cas, vous dev
 
 ![signup](assets/1.webp)
 
-### Paramétrage
+## Paramétrage
 
 Lorsque vous branchez votre BitAxe pour la première fois, il essaiera de se connecter à un réseau Wi-Fi par défaut. Après cinq tentatives, il affichera le nom de son propre réseau Wi-Fi pour que vous puissiez vous y connecter et le paramétrer.
 
@@ -63,7 +63,7 @@ Une fois que vous avez bien renseigné tous les paramètres, cliquez sur le bout
 
 Si vous avez correctement saisi vos informations, l'appareil devrait se connecter rapidement à votre Wi-Fi, puis à la pool de minage, et commencer à afficher certaines informations sur son petit écran. Il faudra probablement quelques minutes pour qu'il apparaisse sur le dashboard de la pool de minage.
 
-### Dashboard et écran
+## Dashboard et écran
 
 Trois affichages différents vont défiler. Sur la troisième page, vous verrez l'information `IP`, qui est l'adresse IP vous permettant de vous connecter au dashboard. Ici, l’adresse est `192.168.1.19`.
 

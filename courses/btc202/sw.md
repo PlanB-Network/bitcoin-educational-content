@@ -410,7 +410,7 @@ Kwa maneno mengine, karibu nodi 9 kati ya 10 za umma zinaendesha Bitcoin core. M
 
 
 
-Bitcoin core imeandikwa katika C++. Pia ni mradi wa programu huria ambao hudumishwa na jumuiya ya wasanidi programu wanaojitolea au wanaolipwa na mashirika mbalimbali (mara nyingi na makampuni katika mfumo ikolojia ambao wana nia ya dhati katika maendeleo ya Core). [Msimbo umepangishwa kwenye GitHub](https://github.com/Bitcoin/Bitcoin), na usanidi unafuata ukali:
+Bitcoin Core ni programu iliyoandikwa kwa C++. Pia ni mradi wa chanzo huria unaodumishwa na jumuiya ya wasanidi programu — ama kwa hiari au wanaofadhiliwa na taasisi mbalimbali (mara nyingi kampuni kutoka kwenye mfumo ambazo zina maslahi ya kuhakikisha maendeleo ya Core yanaenda vizuri). [Msimbo umehifadhiwa kwenye GitHub](https://github.com/bitcoin/bitcoin), na maendeleo yanafuata muundo mkali:
 
 
 
@@ -448,7 +448,7 @@ Tunaweza pia kutaja:
 
 - Libbitcoin**: maktaba ya kawaida ya C++ iliyotengenezwa na Amir Taaki na kudumishwa na Eric Voskuil;
 - Bcoin**: utekelezaji wa JavaScript, haudumiwi tena kikamilifu;
-- BTCD/btcsuit**e: utekelezaji katika Go.
+- **BTCD/btcsuite** : utekelezaji katika Go.
 
 
 
@@ -2941,7 +2941,7 @@ Wakati nodi yako imekamilisha ulandanishi wake wa awali, huhifadhi seti kadhaa z
 
 
 
-- gW-402 **vitalu** vilivyohifadhiwa kwenye diski,
+- **vitalu** vya blockchain vilivyohifadhiwa kwenye diski,
 - **seti ya UTXO** iliyotunzwa katika hifadhidata ya thamani kuu,
 - na **Mempool** huhifadhiwa kwenye RAM na kupangwa mara kwa mara.
 
@@ -3093,7 +3093,7 @@ Mempool ni seti ya ndani ya miamala halali ambayo imepokelewa lakini bado haijat
 
 
 - ukubwa uliotengwa kwa Mempool kupitia parameter ya `maxmempool`: nodi yenye Mempool kubwa itaweza kushikilia shughuli nyingi zaidi kuliko nodi yenye Mempool ndogo (isipokuwa mwisho inakuwa tupu);
-- Sheria za gW-433: hizi ni sehemu ndogo ya sheria za upeanaji wa nodi na hufafanua sifa ambazo shughuli ambayo haijathibitishwa lazima ifikie ili kukubalika katika Mempool;
+- kanuni za mempool: ni sehemu ndogo ya kanuni za usambazaji za nodi na zinafafanua sifa ambazo muamala usiothibitishwa lazima uzikidhi ili ukubaliwe katika mempool;
 - uboreshaji wa shughuli: kutokana na sababu mbalimbali, muamala fulani unaweza kuwa umesambazwa kwa sehemu moja ya mtandao, lakini bado haujafikiwa nyingine.
 
 
@@ -3135,10 +3135,10 @@ Faili zingine kadhaa katika kiwango sawa na `blocks/`, `chainstate/`, na `indexe
 - Wakati nodi imezimwa, `anchors.dat` huhifadhi anwani za wenzao wanaotoka, ili uweze kujaribu kuwasiliana nao tena kwa haraka wakati mwingine unapoanza.
 - `banlist.json` ina marufuku ya ndani yaliyoamuliwa na opereta au nodi (tabia isiyo sahihi inayorudiwa), ili kuzuia nodi kuunganisha tena au kukubali miunganisho kutoka kwa programu zingine hizi mahususi.
 - `fee_estimates.dat` huhifadhi takwimu za upeo wa macho wa muda kwenye uthibitisho unaozingatiwa, unaotumiwa na mkadiriaji wa ada kupendekeza viwango vya ada vinavyolingana na malengo ya ucheleweshaji yaliyochaguliwa wakati wa kuunda muamala.
-- gW-446.conf` ina vigezo vya usanidi wa nodi yako. Hapa ndipo unaweza kurekebisha sheria za relay. Nitakuambia zaidi kuhusu hili katika sura inayofuata.
+- `bitcoin.conf` ina vigezo vya usanidi vya nodi yako. Ndani ya faili hii ndipo sheria za usambazaji zinaweza kurekebishwa. Nitaeleza zaidi kuhusu hili katika sura inayofuata;
 - `settings.json` ina vigezo vya ziada vya `Bitcoin.conf`.
 - `debug.log` ni kumbukumbu ya maandishi ya uchunguzi, ambayo inaweza kutumika kuelewa shughuli za nodi iwapo kuna hitilafu.
-- gW-448.pid` huhifadhi kitambulishi cha mchakato wakati wa utekelezaji, ikiruhusu programu au hati nyingine kutambua kwa urahisi bitcoind (*Bitcoin daemon*) na kuingiliana nayo inapohitajika. Inaundwa wakati wa kuanza kwa nodi na kufutwa wakati wa kuzima.
+- `bitcoind.pid` huandika kitambulisho cha mchakato wakati wa utekelezaji, na kuruhusu programu au hati zingine kutambua kwa urahisi Bitcoind (*Bitcoin Daemon*) na kuwasiliana nayo ikihitajika. Huundwa nodi inapoanzishwa na kufutwa inaposimama;
 - `ip_asn.map` ni IP → jedwali la ramani la ASN (mfumo unaojitegemea) unaotumika kwa kuweka ndoo na mseto wa rika (chaguo la `-asmap`).
 - `onion_v3_private_key` huhifadhi ufunguo wa faragha wa huduma ya Tor v3 wakati chaguo la `-listenonion` limewashwa, ili kuweka kitunguu kigumu Address kati ya kuwashwa tena.
 - `i2p_private_key` huhifadhi ufunguo wa faragha wa I2P `-i2psam=` inapotumika, kutengeneza miunganisho inayotoka na ikiwezekana inayoingia kwenye I2P.
@@ -3154,9 +3154,9 @@ Kama tulivyoona katika sehemu za kwanza za kozi hii ya BTC 202, Bitcoin core ni 
 
 
 
-- `pochi/` ni saraka chaguo-msingi inayopangisha moja au zaidi;
+- `wallets/` ni saraka chaguo-msingi inayohifadhi pochi moja au zaidi;
 - `pochi/<jina>/Wallet.dat` ni hifadhidata ya SQLite ya Wallet (funguo, maelezo, metadata ya muamala, n.k.);
-- wallets/<name>/Wallet.dat-journal` ni kumbukumbu ya kurejesha nyuma ya SQLite.
+- `wallets/<name>/wallet.dat-journal` ni jarida la kurudisha nyuma la SQLite.
 
 
 
@@ -3335,10 +3335,10 @@ Katika kiwango cha mtandao, pia tunayo:
 
 
 - `addnodi`: huongeza rafiki rafiki wa kuwasiliana naye pamoja na ugunduzi wa kawaida (unaweza kubainishwa mara kadhaa).
-- connect`: inazuia viunganisho kwa Address iliyotolewa (inaweza kutajwa mara kadhaa). Msingi hautaunganishwa na nodi nyingine yoyote.
+- `connect`: inazuia kikamilifu miunganisho kwa anwani iliyotolewa (inaweza kubainishwa mara kadhaa). Core haitaunganishwa na nodi nyingine yoyote;
 - `seednodi`: hutumika tu kujaza kitabu-Address wakati wa kuunganisha kwenye nodi, kisha hutenganisha.
 - `maxconnections`: inafafanua dari ya kimataifa kwa miunganisho inayoingia + inayotoka. Kwa chaguo-msingi, kigezo hiki kimewekwa kuwa 125, kumaanisha kuwa nodi yako haitakubali miunganisho zaidi ya 125.
-- maxuploadtarget`: upakiaji wa caps ili kupunguza kipimo data kwenye dirisha la saa 24 la kuteleza. Kikomo hiki hakitoi uenezi wa Elements muhimu ya hivi karibuni.
+- `maxuploadtarget` : hupunguza upakiaji ili kupunguza matumizi ya kipimo data ndani ya dirisha linalosogea la saa 24. Kiwango hiki hakizuia usambazaji wa vipengele muhimu vya hivi karibuni;
 - `onlynet`: inaweka mipaka miunganisho inayotoka kwa mitandao iliyochaguliwa pekee (`ipv4`, `ipv6`, `onion`, `i2p`, `cjdns`). Kwa mfano, ikiwa unataka nodi yako iunganishwe kwenye mtandao wa Bitcoin kupitia Tor pekee, unaweza kuwezesha kigezo cha `onlynet=onion` na kuzima miunganisho inayoingia (au ruhusu tu miunganisho kupitia Tor pia).
 - `dnsseed`: inaruhusu au hairuhusu _Mbegu za DNS_ kuomba programu zingine wakati bwawa la Address la eneo lako liko chini (chaguo-msingi: `1`, isipokuwa `-connect` au `-maxconnections=0`).
 - `imelazimishwa`: hulazimisha _mbegu za DNS_ kuombwa wakati wa kuanza, hata kama tayari una anwani kwenye akiba (chaguo-msingi: `0`).
@@ -3362,7 +3362,7 @@ Ili kuwasha Tor kikamilifu, unahitaji kulazimisha Bitcoin core kutumia mtandao h
 - `torcontrol=127.0.0.1:9051`,
 - `proxyrandomize=1`,
 - `sikiliza=1`,
-- funga=127.0.0.1`,
+- `bind=127.0.0.1`,
 - `upnp=0`,
 - `natpmp=0`.
 
@@ -3418,7 +3418,7 @@ Hivi ndivyo vigezo vya msingi unavyoweza kurekebisha kwenye `Bitcoin.conf` yako 
 
 
 
-- blocksonly=1`: Inalemaza kukubalika na uwasilishaji upya wa miamala ambayo haijathibitishwa iliyopokelewa kutoka kwa washirika (isipokuwa ruhusa maalum zimetolewa). Nodi sasa inapakia na kutangaza vitalu pekee. Miamala iliyoundwa ndani bado inaweza kutangazwa (ili kutumia nodi yako na programu yako ya Wallet). Hii inapunguza sana mahitaji ya kipimo data na RAM, ingawa kwa gharama ya kupunguzwa kwa manufaa kwa relay na kutofahamu kabisa kwa Mempool.
+- `blocksonly=1` : Huzima kukubali na kurudia utumaji wa miamala isiyothibitishwa inayopokelewa kutoka kwa wenzao (isipokuwa kwa ruhusa maalum). Nodi hupakua na kutangaza vitalu pekee. Miamala iliyoundwa ndani bado inaweza kutangazwa (kutumia nodi yako na programu ya pochi yako). Hii inapunguza sana matumizi ya kipimo data na mahitaji ya RAM, lakini hupunguza manufaa kwa kurudia na kutojua kabisa mempool.
 
 
 
@@ -3448,7 +3448,7 @@ Hapa kuna mipangilio ya kina ya Mempool na sera ya relay. Ikiwa wewe ni mwanzili
 
 
 
-- datacarrier=1`: Huruhusu utumaji tena na (ikiwa Mining kupitia nodi) ujumuishaji wa miamala inayobeba data isiyo ya kifedha kupitia towe la `OP_RETURN` (chaguo-msingi: `1`). Kuzima kigezo hiki hupunguza kidogo eneo la uso wa taka za data zisizo za kifedha, kwa gharama ya kupunguzwa kwa utangamano na matumizi fulani. Katika hali zote, lazima ukubali kuchimbwa `OP_RETURN`.
+- `datacarrier=1` : Inaruhusu kurudia na (ikiwa unachimba kupitia nodi) kujumuisha miamala inayobeba data zisizo za kifedha kupitia `OP_RETURN` (chaguo-msingi: `1`). Kuzima kipengele hiki hupunguza kidogo hatari ya spam ya data zisizo za kifedha, lakini hupunguza uoanifu na matumizi fulani. Katika hali zote, lazima ukubali `OP_RETURN` zilizochimbwa.
 
 
 
@@ -3490,13 +3490,13 @@ Hapa kuna mipangilio ya kina ya Mempool na sera ya relay. Ikiwa wewe ni mwanzili
 
 
 
-- peerbloomfilters=1`: Washa utumiaji wa vichujio vya Bloom (BIP37) ili kutoa vizuizi/ miamala iliyochujwa kwa wateja wembamba (chaguo-msingi: `0`). Onyo: hii huongeza mzigo kwenye rasilimali zako.
+- `peerbloomfilters=1` : Huamilisha usaidizi wa vichujio vya Bloom (BIP37) ili kutoa vitalu/miamala vilivyopitiwa kwa wateja wepesi (chaguo-msingi: `0`). Tahadhari, hii huongeza mzigo kwenye rasilimali zako.
 
 
 
 
 
-- peerblockfilters=1`: Hutoa BIP157 (*Neutrino*) vichujio kongamano kwa programu zingine (chaguo-msingi: `0`).
+- `peerblockfilters=1` : Hutoa vichujio vilivyoshikamana vya BIP157 (*Neutrino*) kwa wenzao (chaguo-msingi: `0`).
 
 
 
@@ -3520,7 +3520,7 @@ Unaweza pia kurekebisha jinsi pochi zako zinavyodhibitiwa katika faili ya `Bitco
 
 
 
-- addresstype=<legacy|P2SH-SegWit|bech32|bech32m>`: Inafafanua umbizo la anwani zinazozalishwa na Wallet kwa ajili ya mapokezi.
+- `addresstype=<legacy|p2sh-segwit|bech32|bech32m>` : Hufafanua umbizo la anwani zinazoundwa na pochi kwa ajili ya kupokea.
 
 
 
@@ -3568,7 +3568,7 @@ Unaweza pia kurekebisha jinsi pochi zako zinavyodhibitiwa katika faili ya `Bitco
 
 
 
-- fallbackfee=<amt>`: Kiwango cha kurudi nyuma (BTC/kvB) kinachotumika ikiwa kikadiriaji kinaishiwa na data (chaguo-msingi: `0.00`). Kuiweka kwa 0 huzima kabisa urejeshaji.
+- `fallbackfee=<amt>` : Kiwango cha ada ya akiba (BTC/kvB) kinachotumika ikiwa kipima data kinakosa taarifa (chaguo-msingi: `0.00`). Kukiweka kuwa 0 huzima kabisa akiba.
 
 
 
@@ -3660,7 +3660,7 @@ Faili ya usanidi pia hukuruhusu kurekebisha vigezo vinavyohusiana na mashine yak
 
 
 
-- txindex=1`: Huunda na kudumisha faharasa ya kimataifa ya miamala iliyothibitishwa. Muhimu kwa hoja fulani (`getrawtransaction` isiyo ya Wallet) na kwa madhumuni ya uchunguzi, lakini huongeza alama ya diski kwa kiasi kikubwa. Haioani na hali ya pruned.
+- `txindex=1` : Huunda na kudumisha faharasa ya kimataifa ya miamala iliyothibitishwa. Ni muhimu kwa baadhi ya maombi (`getrawtransaction` nje ya pochi) na kwa madhumuni ya uchunguzi, lakini huongeza kwa kiasi kikubwa matumizi ya diski. Haitangamani na hali ya kupunguzwa.
 
 
 

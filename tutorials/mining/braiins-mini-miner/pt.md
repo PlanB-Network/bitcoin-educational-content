@@ -6,7 +6,7 @@ description: Fazer Mining facilmente a partir de casa.
 
 
 
-### Introdução
+## Introdução
 
 
 
@@ -18,7 +18,7 @@ Também pode encontrar informações muito mais importantes consultando o guia c
 
 
 
-### Visão geral do BMM 100
+## Visão geral do BMM 100
 
 
 
@@ -46,7 +46,7 @@ enquanto na parte de trás temos: o orifício para a alimentação, espaço para
 
 
 
-### Ligar o Mini Miner
+## Ligar o Mini Miner
 
 
 
@@ -54,7 +54,7 @@ enquanto na parte de trás temos: o orifício para a alimentação, espaço para
 
 
 
-### Configuração
+## Configuração
 
 
 
@@ -74,7 +74,7 @@ Para iniciar a sessão, terá de introduzir `root` como nome de utilizador, pode
 
 
 
-### Definições gerais
+## Definições gerais
 
 
 
@@ -110,7 +110,7 @@ Depois de efetuar as alterações, clique em "Guardar alterações" e verá as a
 
 
 
-### Ligação ao Mining pool
+## Ligação ao Mining pool
 
 
 
@@ -142,7 +142,7 @@ A segunda opção é ligar-nos a um Mining pool que mina a solo, como o Public P
 
 https://planb.network/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-#### Piscina Braiins
+### Piscina Braiins
 
 
 
@@ -236,7 +236,7 @@ se voltarem ao painel de controlo, devem começar a ver movimento no gráfico e 
 
 
 
-#### Piscina pública
+### Piscina pública
 
 
 

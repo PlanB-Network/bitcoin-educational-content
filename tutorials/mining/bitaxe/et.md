@@ -3,7 +3,7 @@ name: Bitaxe
 description: Kuidas seadistada BitAxe'i?
 ---
 ![video](https://youtu.be/tvLSK8v0MK8)
-### Sissejuhatus
+## Sissejuhatus
 
 BitAxe on Skoti loodud avatud lähtekoodiga projekt, mis on [saadaval GitHubis](https://github.com/skot/bitaxe) ja võimaldab kuluefektiivset kaevandamise eksperimenteerimist.
 
@@ -20,7 +20,7 @@ BitAxel on mitu versiooni, erinevate kiipide ja jõudlusega:
 
 Selles juhendis kasutame BitAxe Ultra 204, mis on varustatud BM1366 kiibiga, mida kasutatakse Antminer S19XP jaoks. See on juba kokku pandud ja jaemüüja poolt välklambiga varustatud.
 
-### [Jaemüüjate nimekiri on saadaval sellel lehel](https://bitaxe.org/legit.html)
+[Edasimüüjate loend on saadaval sellel lehel](https://bitaxe.org/legit.html)
 
 ![signup](assets/2.webp)
 
@@ -28,7 +28,7 @@ Selles juhendis kasutame BitAxe Ultra 204, mis on varustatud BM1366 kiibiga, mid
 
 ![signup](assets/1.webp)
 
-### Konfiguratsioon
+## Seadistus
 Kui ühendate oma BitAxe esimest korda, üritab see vaikimisi ühenduda Wi-Fi võrguga. Pärast viit katset kuvab see oma Wi-Fi võrgu nime, et saaksite sellega ühenduda ja seda seadistada.
 Selleks võite kasutada mis tahes arvutit või nutitelefoni. Minge oma Wi-Fi seadetesse, otsige uusi võrke ja näete Wi-Fi võrku nimega Bitaxe_XXXX. Siin on see `Bitaxe_A859`. Ühendage see Wi-Fi võrguga ja automaatselt avaneb aken.
 
@@ -56,7 +56,7 @@ Järgmisena sisestage `User` väljale teie identifikaator ja seejärel `Password
 
 Kui olete kõik seaded õigesti sisestanud, klõpsake allpool olevat `Save` nuppu, seejärel taaskäivitage oma BitAxe lihtsalt välja tõmmates ja tagasi ühendades.
 Kui olete oma andmed õigesti sisestanud, peaks seade kiiresti ühenduma teie Wi-Fi'ga, seejärel kaevandusbasseiniga ja hakkama väikesel ekraanil kuvama teavet. Ilmselt kulub mõni minut, enne kui see kaevandusbasseini armatuurlaual kuvatakse.
-### Armatuurlaud ja ekraan
+## Armatuurlaud ja ekraan
 
 Läbi keritakse kolm erinevat kuvamist. Kolmandal lehel näete `IP` teavet, mis on IP-aadress, mis võimaldab teil armatuurlauaga ühendust luua. Siin on aadress `192.168.1.19`.
 

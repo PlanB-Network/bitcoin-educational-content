@@ -5,7 +5,7 @@ description: Making Mining easily from home.
 ![cover](assets/cover.webp)
 
 
-### Introduction
+## Introduction
 
 
 The Mini Miner braiins BMM 100 is a product created by Mining pool Braiins. This device has an attractive design and is extremely quiet. It produces 1.1 Th/s of computing power and consumes about 40 watts. Unlike other devices, it is not open source, but it is really easy to install, it really only takes a few clicks! The Mini Miner BMM 100 is the first version released. Now version 2 is in production, called BMM 101, which differs from the first one in having a larger display and the presence of Wi-Fi, but the installation procedures are the same.
@@ -14,7 +14,7 @@ The Mini Miner braiins BMM 100 is a product created by Mining pool Braiins. This
 You can also find much more important information by checking out the complete guide directly on [manufacturer's site](https://braiins.com/hardware/mini-Miner-bmm-100).
 
 
-### Overview of BMM 100
+## Overview of BMM 100
 
 
 the device looks like a parallelepiped with a display on the front
@@ -35,13 +35,13 @@ while on the back side we have: the hole for the power, space for an SD card (wh
 ![image](assets/en/03.webp)
 
 
-### Connecting the Mini Miner
+## Connecting the Mini Miner
 
 
 You will need to connect the device to the internet via ethernet, note that with the new version (BMM 101) this is no longer necessary. Back to this mini Miner, once we locate the location we will need to connect it first to the internet line and then to the power: the device will automatically turn on and show its IP address on the screen.
 
 
-### Configuration
+## Configuration
 
 
 We need to open a browser and enter the IP address that shows us the mini Miner in the search bar. I remind you that in order to find the device on the network you will have to be local, so you will have to have the computer you are using connected to the same network as the mini Miner. once we enter the IP address we press enter and the login page to the mini Miner's operating system, which is Braiins OS, will appear on the screen.
@@ -56,7 +56,7 @@ In order to log in you will have to enter `root` as your username, while you can
 ![image](assets/en/07.webp)
 
 
-### General settings
+## General settings
 
 
 Let's go to System
@@ -83,7 +83,7 @@ Once you have made changes, click on `Save Changes` and you will see the changes
 ![image](assets/en/27.webp)
 
 
-### Connection to Mining pool
+## Connection to Mining pool
 
 
 Now we are not yet operational, because we have to connect to a pool in order to start mining, so we have to go to "Configuration"
@@ -108,7 +108,7 @@ The second option is to connect us to a Mining pool that mina in solo, like Publ
 
 https://planb.network/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-#### Braiins pool
+### Braiins pool
 
 
 To connect to this pool we need to create an account. this pool also makes payments using Lightning Network, so we will be able to receive a few Sats per day. To do this we need to set up a Address lightning on which to receive the rewards. If you do not know how to create an account on braiins pool or how to set up your Address lightning you can follow this guide:
@@ -179,7 +179,7 @@ if you go back to the dashboard you should start to see movement on the graph an
 ![image](assets/en/16.webp)
 
 
-#### Public Pool
+### Public Pool
 
 
 Through this pool one can try one's luck and mine solo, leaning on a pool. In this case we will not receive reward, but we will receive the full reward if we ever manage to mine a block. We will then link to public pool, a Mining-only pool that is completely open source. We open a new window on the browser and go to [web.public-pool.io](https://web.public-pool.io/#/).

@@ -81,4 +81,8 @@ Ku gikoresho ca Trezor (Ikigega 3, Ikigega 5 canke Igishushanyo ca mbere):
 https://planb.network/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
 Ku SeedSigner:
 https://planb.academy/tutorials/wallet/backup/seedsigner-passphrase-7a61f64d-aa03-4bcf-8308-00c89a74cffe
+Ku SeedSigner ufite Seedkeeper:
+https://planb.academy/tutorials/wallet/backup/seedkeeper-seedsigner-45cca4c4-1f22-46bb-87ae-9cddb68aa579
+
+
 

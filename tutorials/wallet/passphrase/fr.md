@@ -61,3 +61,7 @@ https://planb.network/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f
 Sur un SeedSigner :
 
 https://planb.academy/tutorials/wallet/backup/seedsigner-passphrase-7a61f64d-aa03-4bcf-8308-00c89a74cffe
+
+Sur un SeedSigner avec un Seedkeeper :
+
+https://planb.academy/tutorials/wallet/backup/seedkeeper-seedsigner-45cca4c4-1f22-46bb-87ae-9cddb68aa579

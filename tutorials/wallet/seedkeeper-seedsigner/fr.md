@@ -13,12 +13,12 @@ Le SeedSigner est un hardware wallet que l’on assemble soi-même à partir de 
 
 Cette approche présente toutefois un risque important : la seed doit rester accessible en clair afin de pouvoir être scannée. En cas de vol ou d’intrusion, un attaquant pourrait donc facilement s’en emparer et dérober vos bitcoins.
 
-Pour pallier cette faiblesse, il est possible d’associer le SeedSigner au [**Seedkeeper**](https://satochip.io/product/seedkeeper/), une carte à puce développée par Satochip. Celle-ci permet de stocker des phrases mnémoniques (ou d’autres secrets) dans un élément sécurisé protégé par un code PIN. L’applet du Seedkeeper est open-source et son élément sécurisé bénéficie d’une certification EAL6. Utilisé conjointement avec le SeedSigner, il offre un dispositif de sécurité très intéressant : vos clés restent gérées entièrement hors ligne, vous signez vos transactions sur un écran de confiance, et la seed est protégée physiquement dans une smartcard résistante aux attaques physique.
+Pour pallier cette faiblesse, il est possible d’associer le SeedSigner au [**Seedkeeper**](https://satochip.io/product/seedkeeper/), une carte à puce développée par Satochip. Celle-ci permet de stocker des phrases mnémoniques (ou d’autres secrets) dans un élément sécurisé protégé par un code PIN. L’applet du Seedkeeper est open-source et son élément sécurisé bénéficie d’une certification EAL6+. Utilisé conjointement avec le SeedSigner, il offre un dispositif de sécurité très intéressant : vos clés restent gérées entièrement hors ligne, vous signez vos transactions sur un écran de confiance, et la seed est protégée physiquement dans une smartcard résistante aux attaques physique.
 
 Pour réaliser cette installation, vous aurez simplement besoin des éléments suivants :  
-- Le matériel habituel nécessaire à un SeedSigner classique : un Raspberry Pi Zero, un écran Waveshare 1.3", une caméra compatible et une carte microSD (vous trouverez davantage de détails dans le tutoriel consacré au SeedSigner ci-dessous) ;  
-- Le kit d’extension pour SeedSigner, disponible [sur la boutique officielle de Satochip](https://satochip.io/product/seedsigner-extension-kit/), qui permet de lire et d’écrire sur la smartcard directement depuis votre SeedSigner ;  
-- Un Seedkeeper, ou à défaut une smartcard vierge sur laquelle vous installerez l’applet du Seedkeeper (le kit d’extension vendu par Satochip inclut déjà une smartcard vierge).  
+- Le matériel habituel nécessaire à un SeedSigner classique : un Raspberry Pi Zero, un écran Waveshare 1.3", une caméra compatible et une carte microSD (vous trouverez davantage de détails dans le tutoriel consacré au SeedSigner ci-dessous) ;
+- Le kit d’extension pour SeedSigner, disponible [sur la boutique officielle de Satochip](https://satochip.io/product/seedsigner-extension-kit/), qui permet de lire et d’écrire sur la smartcard directement depuis votre SeedSigner. Une autre option consiste à utiliser un lecteur de carte à puce externe, pouvant être connecté par câble à un port Micro-USB du Raspberry Pi. Toutefois, je n'ai pas testé cette solution de mon côté ;
+- Un Seedkeeper, ou à défaut une smartcard vierge sur laquelle vous installerez l’applet du Seedkeeper (le kit d’extension vendu par Satochip inclut déjà une smartcard vierge).
 
 00
 
@@ -186,6 +186,82 @@ https://planb.academy/tutorials/wallet/hardware/seedsigner-2b274bff-6fc8-407a-92
 
 ## 6. Utiliser le Seedkeeper avec une passphrase BIP39
 
+Vous utilisez une passphrase pour protéger votre portefeuille Bitcoin ? Sachez qu’il est également possible de l’enregistrer dans votre Seedkeeper, aux côtés de votre seed. Cette solution vous permettra de charger rapidement votre portefeuille sur le SeedSigner, sans avoir à saisir manuellement la passphrase sur le petit clavier à chaque utilisation.
+
+Cette méthode me semble particulièrement intéressante, car elle vous fait bénéficier des avantages de sécurité apportés par la passphrase, tout en supprimant les contraintes liées à son usage au quotidien. Voici, à titre d’exemple, une configuration que je vous recommande :  
+- Conservez dans un Seedkeeper votre seed et votre passphrase, protégées par un code PIN fort (c’est important). Cette sauvegarde vous permettra d’utiliser facilement votre portefeuille au quotidien. Vous pouvez, si vous le souhaitez, dupliquer ces informations sur un second Seedkeeper ;
+- Conservez également une copie en clair de votre phrase mnémonique et de votre passphrase, sur papier ou sur métal. C'est votre backup de dernier recourt en cas de perte du Seedkeeper ou de son PIN. Veillez toutefois à stocker ces copies dans des lieux distincts, afin qu’elles ne puissent pas être compromises simultanément.
+
+Dans cette configuration, si une personne met la main sur votre phrase mnémonique en clair seule, elle ne pourra rien voler sans connaître la passphrase (à condition, bien sûr, que celle-ci soit suffisamment solide pour résister à une attaque par brute force). Inversement, si quelqu’un découvre votre passphrase en clair, elle restera inutilisable sans la phrase mnémonique correspondante.
+
+Enfin, si une personne parvient à accéder physiquement à votre Seedkeeper contenant la seed et la passphrase, elle ne pourra rien en extraire sans connaître le code PIN. Contrairement à une passphrase, ce dernier ne peut pas être bruteforcé, car la smartcard se bloque automatiquement après 5 tentatives invalides.
+
+La sécurité de cette configuration repose donc sur 2 points essentiels :  
+- Une **passphrase forte** : elle doit être longue, aléatoire et comporter une grande variété de caractères. Sa complexité n’est pas un problème pour vous, puisque vous ne l’entrerez qu’une seule fois au clavier lors de l’initialisation ; par la suite, elle sera transmise par le Seedkeeper ;  
+- Un **code PIN fort** pour le Seedkeeper : lui aussi aléatoire et composé de 16 caractères.
+
+Pour mettre en place ce setup, commencez par charger votre passphrase dans le SeedSigner de manière classique. Vous pouvez suivre la procédure détaillée dans ce tutoriel :  
+
+https://planb.academy/tutorials/wallet/backup/seedsigner-passphrase-7a61f64d-aa03-4bcf-8308-00c89a74cffe  
+
+Une fois votre portefeuille avec passphrase correctement chargé sur le SeedSigner, ouvrez le menu `Seeds` et sélectionnez l’empreinte correspondant à ce portefeuille. Notez que cette empreinte diffère de celle du portefeuille sans passphrase.
+
+27
+
+Cliquez ensuite sur `Backup Seed`, insérez le Seedkeeper dans le lecteur, puis sélectionnez `To SeedKeeper`.
+
+28
+
+Entrez votre code PIN pour déverrouiller le Seedkeeper, puis attribuez un label à ce secret. Vous pouvez laisser l’empreinte comme label afin de conserver une certaine forme de déni plausible, ou bien indiquer explicitement `Passphrase Wallet`, par exemple.
+
+29
+
+Votre portefeuille avec passphrase est désormais enregistré sur le Seedkeeper.
+
+30
+
+Lors d’un prochain démarrage, il vous suffira d’insérer votre Seedkeeper dans le lecteur, puis de naviguer dans `Seeds > From SeedKeeper`.
+
+31
+
+Saisissez votre code PIN pour déverrouiller la smartcard, puis sélectionnez le portefeuille correspondant à votre passphrase.
+
+32
+
+Vérifiez la passphrase et l’empreinte de votre portefeuille, puis validez.
+
+33
+
+Vous pouvez à présent accéder à votre portefeuille avec passphrase et signer vos transactions comme on le fait normalement sur un SeedSigner.
+
+## 7. Options supplémentaires
+
+Dans le menu `Tools > Smartcard Tools`, vous trouverez plusieurs options permettant de gérer votre Seedkeeper :
+
+- Dans le menu `Common Tools`, on peut :
+	- Vérifier l’authenticité de la carte ;
+	- Modifier le code PIN ;
+	- Changer les labels associés à vos secrets ;
+	- Désactiver la fonction NFC (recommandé si vous utilisez uniquement le lecteur de puce) ;
+	- Effectuer un factory reset.
+
+- Dans le menu `SeedKeeper Functions`, on peut :
+	- Consulter la liste des secrets enregistrés ;
+	- Sauvegarder un nouveau secret ;
+	- Supprimer un secret existant ;
+	- Sauvegarder ou charger vos descriptors (fonction utile pour les portefeuilles multisig).
+
+- Dans le menu `DIY Tools`, on peut :
+	- Compiler l’applet du Seedkeeper ;
+	- Installer l'applet sur une carte vierge ;
+	- Supprimer l’applet d’un Seedkeeper pour le réinitialiser et le rendre vierge à nouveau.
+
+Vous savez désormais comment utiliser le Seedkeeper pour sauvegarder votre portefeuille de manière sécurisée en combinaison avec le SeedSigner.
+
+Si ce setup vous a convaincu, n’hésitez pas à soutenir les projets qui le rendent possible :  
+- En achetant votre matériel directement [sur le site de Satochip](https://satochip.io/shop/) ;
+- En effectuant [un don au projet SeedSigner](https://seedsigner.com/donate/) ;
+- En vous abonnant à [la chaîne YouTube de Crypto Guide](https://www.youtube.com/@CryptoGuide/), tenue par la personne qui maintient le dépôt GitHub hébergeant le firmware modifié.
 
 
 

@@ -9,7 +9,7 @@ description: Comment utiliser un Seedkeeper avec son SeedSigner ?
 
 ---
 
-Le SeedSigner est un hardware wallet que l’on assemble soi-même à partir de matériel informatique standard, le plus souvent autour d’un Raspberry Pi Zero. Ce portefeuille est dit "stateless" : contrairement à la plupart des autres modèles du marché (Coldcard, Trezor, Ledger, etc.), il ne conserve aucune donnée en mémoire permanente et fonctionne uniquement en live à partir de la mémoire vive. Ainsi, la seed de votre portefeuille n’est jamais enregistrée sur le SeedSigner. À chaque redémarrage, il est donc nécessaire de la renseigner pour permettre au dispositif de signer vos transactions. La méthode la plus courante consiste à sauvegarder votre seed sous la forme d’un QR code, que vous scannez ensuite à chaque utilisation (*SeedQR*).
+Le SeedSigner est un hardware wallet que l’on assemble soi-même à partir de matériel informatique standard, le plus souvent autour d’un Raspberry Pi Zero. Ce portefeuille est dit "*stateless*" : contrairement à la plupart des autres modèles du marché (Coldcard, Trezor, Ledger, etc.), il ne conserve aucune donnée en mémoire permanente et fonctionne uniquement en live à partir de la mémoire vive. Ainsi, la seed de votre portefeuille n’est jamais enregistrée sur le SeedSigner. À chaque redémarrage, il est donc nécessaire de la renseigner pour permettre au dispositif de signer vos transactions. La méthode la plus courante consiste à sauvegarder votre seed sous la forme d’un QR code, que vous scannez ensuite à chaque utilisation (*SeedQR*).
 
 Cette approche présente toutefois un risque important : la seed doit rester accessible en clair afin de pouvoir être scannée. En cas de vol ou d’intrusion, un attaquant pourrait donc facilement s’en emparer et dérober vos bitcoins.
 
@@ -20,7 +20,7 @@ Pour réaliser cette installation, vous aurez simplement besoin des éléments s
 - Le kit d’extension pour SeedSigner, disponible [sur la boutique officielle de Satochip](https://satochip.io/product/seedsigner-extension-kit/), qui permet de lire et d’écrire sur la smartcard directement depuis votre SeedSigner. Une autre option consiste à utiliser un lecteur de carte à puce externe, pouvant être connecté par câble à un port Micro-USB du Raspberry Pi. Toutefois, je n'ai pas testé cette solution de mon côté ;
 - Un Seedkeeper, ou à défaut une smartcard vierge sur laquelle vous installerez l’applet du Seedkeeper (le kit d’extension vendu par Satochip inclut déjà une smartcard vierge).
 
-00
+![Image](assets/fr/01.webp)
 
 Ce tutoriel couvre deux cas de figure :
 - Si vous disposez déjà d’un portefeuille Bitcoin géré via votre SeedSigner, il vous suffira d’installer le nouveau firmware. Vous pourrez alors continuer à utiliser votre portefeuille existant, cette fois en utilisant le Seedkeeper pour renforcer la sécurité.  
@@ -30,9 +30,9 @@ https://planb.academy/tutorials/wallet/hardware/seedsigner-2b274bff-6fc8-407a-92
 
 ## 1. Installer le firmware
 
-Pour utiliser votre SeedSigner avec un Seedkeeper, il est nécessaire d’installer un firmware alternatif, différent de celui du SeedSigner original, afin d’avoir la prise en charge de la lecture des cartes à puce. Pour cela, [je vous recommande d’utiliser le fork de "3rdIteration"](https://github.com/3rdIteration/seedsigner). Téléchargez [la dernière version de l’image](https://github.com/3rdIteration/seedsigner/releases) (`.zip`) correspondant au modèle de Raspberry Pi que vous utilisez.
+Pour utiliser votre SeedSigner avec un Seedkeeper, il est nécessaire d’installer un firmware alternatif, différent de celui du SeedSigner original, afin d’avoir la prise en charge de la lecture des cartes à puce. Pour cela, [je vous recommande d’utiliser le fork de "*3rdIteration*"](https://github.com/3rdIteration/seedsigner). Téléchargez [la dernière version de l’image](https://github.com/3rdIteration/seedsigner/releases) (`.zip`) correspondant au modèle de Raspberry Pi que vous utilisez.
 
-01
+![Image](assets/fr/02.webp)
 
 Si vous ne l'avez pas encore, téléchargez le logiciel [Balena Etcher](https://etcher.balena.io/), puis procédez comme suit :
 - Insérez la carte microSD dans votre ordinateur ;
@@ -41,7 +41,7 @@ Si vous ne l'avez pas encore, téléchargez le logiciel [Balena Etcher](https://
 - Choisissez la carte microSD comme cible ;
 - Cliquez sur `Flash!`.
 
-02
+![Image](assets/fr/03.webp)
 
 Patientez jusqu’à la fin du processus : votre microSD est désormais prête à l’emploi. Vous pouvez à présent passer à l’assemblage de votre appareil.
 
@@ -55,27 +55,27 @@ https://planb.academy/tutorials/wallet/hardware/seedsigner-2b274bff-6fc8-407a-92
 
 Commencez par installer la caméra sur le Raspberry Pi Zero en l’insérant délicatement dans la broche prévue à cet effet, puis verrouillez-la avec la languette noire. Placez ensuite le Pi au fond du boîtier en veillant à bien aligner les ports avec les ouvertures correspondantes.
 
-03
+![Image](assets/fr/04.webp)
 
 Fixez ensuite le lecteur de carte à puce sur les broches GPIO du Raspberry Pi Zero.
 
-04
+![Image](assets/fr/05.webp)
 
 Glissez le cache en plastique sur le lecteur de carte à puce jusqu’à ce qu’il soit correctement positionné.
 
-05
+![Image](assets/fr/06.webp)
 
 Ajoutez ensuite l’écran sur les broches GPIO de l’extension.
 
-06
+![Image](assets/fr/07.webp)
 
 Insérez enfin la carte microSD contenant le firmware dans le port latéral du Raspberry Pi Zero.
 
-07
+![Image](assets/fr/08.webp)
 
 Vous pouvez désormais brancher votre SeedSigner soit via le port Micro-USB du Raspberry Pi Zero, soit via le port USB-C de l’extension. Les deux options fonctionnent. Attendez quelques secondes le temps du démarrage, puis vous devriez voir apparaître l’écran d’accueil.
 
-08
+![Image](assets/fr/09.webp)
 
 Pour plus de détails sur le paramétrage initial de votre SeedSigner, je vous recommande de consulter le tutoriel suivant :
 
@@ -89,23 +89,23 @@ Si vous possédez déjà un Seedkeeper, vous pouvez passer cette étape et aller
 
 Pour commencer, ouvrez le menu `Tools > Smartcard Tools` sur votre SeedSigner.
 
-09
+![Image](assets/fr/10.webp)
 
 Sélectionnez ensuite `DIY Tools > Install Applet`.
 
-10
+![Image](assets/fr/11.webp)
 
 Insérez votre smartcard dans le lecteur du SeedSigner, puce orientée vers le bas, puis choisissez l’applet `SeedKeeper`.
 
-11
+![Image](assets/fr/12.webp)
 
 Patientez pendant l’installation : le processus peut durer quelques dizaines de secondes.
 
-12
+![Image](assets/fr/13.webp)
 
 Une fois l’applet installée avec succès, vous pouvez passer à l’étape 4.
 
-13
+![Image](assets/fr/14.webp)
 
 ## 4. Sauvegarder un SeedQR existant sur le Seedkeeper
 
@@ -113,37 +113,37 @@ Une fois l’applet installée avec succès, vous pouvez passer à l’étape 4.
 
 Maintenant que votre Seedkeeper est opérationnel, vous pouvez sauvegarder la phrase mnémonique de votre portefeuille Bitcoin sur la smartcard. Pour commencer, allumez votre SeedSigner comme d'habitude, puis scannez le *SeedQR* de votre portefeuille afin de le charger dans l’appareil. Une fois la seed importée, sélectionnez simplement `Done`.
 
-14
+![Image](assets/fr/15.webp)
 
 Lorsque la seed est chargée, accédez au menu `Backup Seed`.
 
-15
+![Image](assets/fr/16.webp)
 
 Insérez ensuite votre Seedkeeper dans le lecteur du SeedSigner, puis choisissez l’option `To SeedKeeper`.
 
-16
+![Image](assets/fr/17.webp)
 
 Le SeedSigner vous demandera alors d’entrer un code PIN pour votre Seedkeeper. Comme il s’agit d’une carte encore vierge, aucun code n’a encore été défini. Saisissez donc un code quelconque pour passer cette étape, puis validez.
 
-17
+![Image](assets/fr/18.webp)
 
 Le SeedSigner détecte que le Seedkeeper n’a pas encore été initialisé (autrement dit, qu’aucun mot de passe n’est configuré). Cliquez sur `I Understand` pour poursuivre.
 
-18
+![Image](assets/fr/19.webp)
 
 Choisissez à présent le nouveau code PIN de votre Seedkeeper, entre 4 et 16 caractères. Pour renforcer la sécurité, privilégiez un code long et aléatoire : c’est la seule barrière protégeant l’accès physique à votre phrase mnémonique.
 
 Pensez à sauvegarder ce code PIN dès sa création, soit dans un gestionnaire de mots de passe fiable, soit sur un support physique séparé en fonction de votre stratégie. Dans ce dernier cas, veillez à ne jamais conserver le support contenant le PIN au même endroit que votre Seedkeeper, sans quoi la protection deviendrait inefficace. Il est important de disposer d’une copie de secours : **sans ce code PIN, vous ne pourrez plus accéder à votre seed, et donc vos bitcoins seront perdus**.
 
-19
+![Image](assets/fr/20.webp)
 
 Vous pouvez ensuite définir un `Label` associé à votre phrase mnémonique. Cette étiquette est utile si vous enregistrez plusieurs secrets sur le Seedkeeper, afin de les identifier facilement.
 
-20
+![Image](assets/fr/21.webp)
 
 Votre phrase mnémonique est désormais sauvegardée sur la smartcard.
 
-21
+![Image](assets/fr/22.webp)
 
 En termes de stratégie de sécurisation, plusieurs approches sont possibles selon vos besoins et votre niveau d’exposition au risque. Personnellement, je vous recommande de conserver au minimum 2 copies de votre seed :
 - Une première sur la smartcard, que vous garderez facilement accessible pour vos opérations courantes, comme la vérification d’adresses ou la signature de transactions. Cette méthode est pratique (comme nous le verrons dans la partie 5) et reste sûre grâce à la protection offerte par le code PIN, ce qui permet de la conserver accessible sans risque majeur ;
@@ -160,25 +160,25 @@ https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 Vous pouvez désormais utiliser votre Seedkeeper pour charger votre phrase mnémonique dans le SeedSigner au démarrage, et ainsi signer vos transactions Bitcoin. Pour commencer, allumez votre SeedSigner en le branchant, puis ouvrez le menu `Seeds`.
 
-22
+![Image](assets/fr/23.webp)
 
 Sélectionnez ensuite l’option `From SeedKeeper`.
 
-23
+![Image](assets/fr/24.webp)
 
 Insérez votre Seedkeeper dans le lecteur de carte à puce, puis saisissez votre code PIN pour le déverrouiller. Validez votre entrée en appuyant sur le bouton de confirmation situé en bas à droite, `KEY3`.
 
-24
+![Image](assets/fr/25.webp)
 
 Le Seedkeeper peut contenir plusieurs secrets, donc le SeedSigner vous invite ensuite à choisir celui que vous souhaitez charger. L’étiquette affichée correspond au nom que vous aviez défini à l’étape 4. Si, comme dans mon cas, vous n’avez enregistré qu’une seule seed, une seule option sera disponible.
 
-25
+![Image](assets/fr/26.webp)
 
 Votre seed est désormais chargée. Vérifiez qu’il s’agit bien du bon portefeuille en comparant l’empreinte affichée à l’écran avec celle indiquée dans les paramètres de votre Sparrow Wallet. Cette empreinte vous avait également été fournie lors de la création initiale du portefeuille.
 
 Si vous utilisez une passphrase, vous pouvez l’appliquer à cette étape (voir la partie 6 de ce tutoriel). Dans le cas contraire, cliquez simplement sur `Done`.
 
-26
+![Image](assets/fr/27.webp)
 
 Vous pouvez ensuite utiliser votre portefeuille normalement : vérifier vos adresses de réception et signer des transactions, comme avec un SeedSigner classique. Pour en savoir plus sur son utilisation, reportez-vous au tutoriel dédié :
 
@@ -206,31 +206,31 @@ https://planb.academy/tutorials/wallet/backup/seedsigner-passphrase-7a61f64d-aa0
 
 Une fois votre portefeuille avec passphrase correctement chargé sur le SeedSigner, ouvrez le menu `Seeds` et sélectionnez l’empreinte correspondant à ce portefeuille. Notez que cette empreinte diffère de celle du portefeuille sans passphrase.
 
-27
+![Image](assets/fr/28.webp)
 
 Cliquez ensuite sur `Backup Seed`, insérez le Seedkeeper dans le lecteur, puis sélectionnez `To SeedKeeper`.
 
-28
+![Image](assets/fr/29.webp)
 
 Entrez votre code PIN pour déverrouiller le Seedkeeper, puis attribuez un label à ce secret. Vous pouvez laisser l’empreinte comme label afin de conserver une certaine forme de déni plausible, ou bien indiquer explicitement `Passphrase Wallet`, par exemple.
 
-29
+![Image](assets/fr/30.webp)
 
 Votre portefeuille avec passphrase est désormais enregistré sur le Seedkeeper.
 
-30
+![Image](assets/fr/31.webp)
 
 Lors d’un prochain démarrage, il vous suffira d’insérer votre Seedkeeper dans le lecteur, puis de naviguer dans `Seeds > From SeedKeeper`.
 
-31
+![Image](assets/fr/32.webp)
 
 Saisissez votre code PIN pour déverrouiller la smartcard, puis sélectionnez le portefeuille correspondant à votre passphrase.
 
-32
+![Image](assets/fr/33.webp)
 
 Vérifiez la passphrase et l’empreinte de votre portefeuille, puis validez.
 
-33
+![Image](assets/fr/34.webp)
 
 Vous pouvez à présent accéder à votre portefeuille avec passphrase et signer vos transactions comme on le fait normalement sur un SeedSigner.
 

@@ -15,7 +15,7 @@ Le SeedSigner est également ***stateless***. Autrement dit, il n’enregistre p
 
 Une autre option pour stocker votre seed et l’utiliser avec le SeedSigner est d'utiliser une carte à puce *SeedKeeper* associée à un lecteur compatible. Vous bénéficiez ainsi d’un *Secure Element* très robuste pour conserver votre seed, tout en utilisant l’écran du SeedSigner pour la signature des transactions. Mais cette configuration particulière est l’objet d’un autre tutoriel dédié. Ici, nous nous concentrerons sur l’utilisation de base du SeedSigner :
 
-https://planb.network/tutorials/wallet/hardware/seedkeeper-seedsigner-45cca4c4-1f22-46bb-87ae-9cddb68aa579
+https://planb.academy/tutorials/wallet/hardware/seedkeeper-seedsigner-45cca4c4-1f22-46bb-87ae-9cddb68aa579
 
 Le projet SeedSigner occupe une place importante dans l’écosystème Bitcoin, car il offre à chacun, partout dans le monde, la possibilité de bénéficier d’une sécurité avancée pour protéger ses bitcoins. Son principal atout réside dans son accessibilité : le matériel requis peut être acquis pour moins de 50 $. Plus encore, il permet aux personnes vivant dans des pays soumis à des restrictions de fabriquer leur propre hardware wallet à partir de composants informatiques standards, faciles à trouver et plus rarement soumis à des contraintes réglementaires.
 
@@ -253,7 +253,7 @@ La version actuelle du firmware prend en charge plusieurs logiciels : Sparrow, S
 
 Si vous ne savez pas comment l’installer, vous pouvez suivre ce tutoriel :
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Sélectionnez simplement le logiciel de votre choix dans le menu.
 
@@ -293,7 +293,7 @@ Avant de commencer, quelques rappels essentiels :
 - Habituellement, une phrase de 12 mots sert à restaurer un portefeuille en cas de perte ou de vol d’un hardware wallet. Mais le SeedSigner étant un appareil *stateless*, il n’enregistre jamais votre seed. Vos sauvegardes physiques ne sont donc pas de simples copies de secours, mais bien **l’unique moyen d’utiliser votre portefeuille**. Si vous perdez ces sauvegardes, vos bitcoins seront définitivement perdus. Sauvegardez-la donc avec soin, sur plusieurs supports et en lieux sûrs ;
 - Si vous débutez, je vous conseille vivement de lire ce tutoriel pour comprendre en détail les risques liés à la gestion d’une phrase mnémonique :
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ### 5.1 Accéder à l’outil de création de seed
 
@@ -305,7 +305,7 @@ Vous allez maintenant générer votre seed. Une seed est simplement un grand nom
 - `Camera` : la seed est générée à partir du bruit visuel d’une photo. Vous prenez une image d’un environnement aléatoire (objet, paysage, visage, etc.) dont les variations de pixels serviront à produire l’entropie. C'est une méthode rapide, mais non reproductible.  
 - `Dice Rolls` : vous lancez des dés pour créer l’entropie nécessaire. C’est plus long, mais reproductible et donc vérifiable. Si vous optez pour cette méthode, suivez les conseils de ce tutoriel (inutile ici de calculer la checksum, le SeedSigner s’en charge) :  
 
-https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
+https://planb.academy/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
 
 ### 5.2 Création de la seed avec la photo
 
@@ -327,7 +327,7 @@ Lancez vos dés et saisissez les chiffres obtenus à l’aide du curseur. Appuye
 
 Une fois vos 50 lancers saisis, le SeedSigner génère votre phrase. **Suivez attentivement les instructions de ce tutoriel si vous débutez :**
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ### 5.4 Affichage et sauvegarde de la seed
 
@@ -351,7 +351,7 @@ En cas d’erreur, le SeedSigner vous en informera, et vous devrez recommencer e
 
 Pour un test de restauration plus complet, suivez ce tutoriel :
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ### 5.6 Comprendre la notion de "*stateless device*"
 
@@ -366,7 +366,7 @@ Je vous conseille également de stocker votre QR code et votre phrase mnémoniqu
 
 Enfin, une alternative plus avancée et plus sécurisée consiste à utiliser le SeedSigner avec un **SeedKeeper**, qui stocke la seed dans un élément sécurisé. Pour en savoir plus, consultez ce tutoriel :
 
-https://planb.network/tutorials/wallet/hardware/seedkeeper-seedsigner-45cca4c4-1f22-46bb-87ae-9cddb68aa579
+https://planb.academy/tutorials/wallet/hardware/seedkeeper-seedsigner-45cca4c4-1f22-46bb-87ae-9cddb68aa579
 
 ### 5.7 Écrire l'empreinte de la clé maîtresse
 
@@ -380,7 +380,7 @@ https://planb.academy/tutorials/wallet/backup/seedsigner-passphrase-7a61f64d-aa0
 
 Si vous n’êtes pas encore familier avec ce concept de passphrase, je vous invite à lire ce tutoriel complet sur le sujet :
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ![Image](assets/fr/038.webp)
 

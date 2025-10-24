@@ -6,7 +6,7 @@ description: Gjør Mining enkelt hjemmefra.
 
 
 
-### Innledning
+## Innledning
 
 
 
@@ -18,7 +18,7 @@ Du kan også finne mye mer viktig informasjon ved å sjekke ut den komplette vei
 
 
 
-### Oversikt over BMM 100
+## Oversikt over BMM 100
 
 
 
@@ -46,7 +46,7 @@ mens på baksiden har vi: hullet for strømmen, plass til et SD-kort (som kan v�
 
 
 
-### Tilkobling av Mini Miner
+## Tilkobling av Mini Miner
 
 
 
@@ -54,7 +54,7 @@ Du må koble enheten til internett via ethernet, men merk at med den nye versjon
 
 
 
-### Konfigurasjon
+## Konfigurasjon
 
 
 
@@ -74,7 +74,7 @@ For å logge inn må du oppgi `root` som brukernavn, mens du kan la passordet st
 
 
 
-### Generelle innstillinger
+## Generelle innstillinger
 
 
 
@@ -110,7 +110,7 @@ Når du har gjort endringer, klikker du på `Lagre endringer`, og du vil se endr
 
 
 
-### Tilkobling til Mining pool
+## Tilkobling til Mining pool
 
 
 
@@ -142,7 +142,7 @@ Det andre alternativet er å koble oss til en Mining pool som mina i solo, som P
 
 https://planb.academy/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-#### Braiins basseng
+### Braiins basseng
 
 
 
@@ -236,7 +236,7 @@ hvis du går tilbake til dashbordet, bør du begynne å se bevegelse på grafen 
 
 
 
-#### Offentlig basseng
+### Offentlig basseng
 
 
 

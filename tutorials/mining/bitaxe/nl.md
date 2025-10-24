@@ -5,7 +5,7 @@ description: Hoe stel ik een BitAxe in?
 ![video](https://youtu.be/tvLSK8v0MK8)
 
 
-### Inleiding
+## Inleiding
 
 
 BitAxe is een open-source project gemaakt door Skot en [beschikbaar op GitHub](https://github.com/skot/bitaxe) dat kosteneffectieve Mining experimenten mogelijk maakt.
@@ -27,7 +27,7 @@ Er zijn verschillende versies van BitAxe, met verschillende chips en prestaties:
 In deze tutorial gebruiken we een BitAxe Ultra 204 uitgerust met een BM1366 chip, gebruikt voor de Antminer S19XP. Deze is al geassembleerd en geflashed door de verkoper.
 
 
-### [De lijst met retailers is beschikbaar op deze pagina](https://bitaxe.org/legit.html)
+[De lijst met wederverkopers is beschikbaar op deze pagina](https://bitaxe.org/legit.html)
 
 
 ![signup](assets/2.webp)
@@ -39,7 +39,7 @@ Over het algemeen wordt de Supply meegeleverd. Zo niet, dan moet je een Supply k
 ![signup](assets/1.webp)
 
 
-### Configuratie
+## Configuratie
 
 Als je de BitAxe voor het eerst aansluit, probeert hij standaard verbinding te maken met een Wi-Fi-netwerk. Na vijf pogingen geeft hij de naam van zijn eigen Wi-Fi-netwerk weer, zodat je er verbinding mee kunt maken en het kunt configureren.
 
@@ -86,7 +86,7 @@ Als je alle instellingen correct hebt ingevoerd, klik je op de knop `Opslaan` on
 
 Als je je gegevens correct hebt ingevoerd, moet het apparaat snel verbinding maken met je Wi-Fi en vervolgens met de Mining pool, en informatie op het kleine schermpje weergeven. Het duurt waarschijnlijk een paar minuten voordat het op het dashboard van de Mining pool verschijnt.
 
-### Dashboard en scherm
+## Dashboard en scherm
 
 
 Drie verschillende schermen zullen doorlopen. Op de derde pagina zie je de `IP` informatie, dat is het IP van Address waarmee je verbinding kunt maken met het dashboard. Hier is de Address `192.168.1.19`.

@@ -3,7 +3,7 @@ name: Bitaxe
 description: Bagaimana cara mengatur BitAxe?
 ---
 ![video](https://youtu.be/tvLSK8v0MK8)
-### Pendahuluan
+## Pendahuluan
 
 BitAxe adalah proyek open-source yang dibuat oleh Skot dan [tersedia di GitHub](https://github.com/skot/bitaxe) yang memungkinkan eksperimen penambangan dengan biaya efektif.
 
@@ -20,7 +20,7 @@ Ada beberapa versi BitAxe, dengan chip dan performa yang berbeda:
 
 Dalam tutorial ini, kita akan menggunakan BitAxe Ultra 204 yang dilengkapi dengan chip BM1366, digunakan untuk Antminer S19XP. Ini sudah dirakit dan diflash oleh penjual.
 
-### [Daftar penjual tersedia di halaman ini](https://bitaxe.org/legit.html)
+[Daftar pengecer tersedia di halaman ini](https://bitaxe.org/legit.html)
 
 ![signup](assets/2.webp)
 
@@ -28,7 +28,7 @@ Umumnya, catu daya dijual bersamanya. Jika tidak, Anda akan perlu membeli catu d
 
 ![signup](assets/1.webp)
 
-### Konfigurasi
+## Konfigurasi
 Ketika Anda pertama kali menyambungkan BitAxe Anda, itu akan mencoba terhubung ke jaringan Wi-Fi secara default. Setelah lima percobaan, itu akan menampilkan nama jaringan Wi-Fi sendiri sehingga Anda dapat terhubung ke sana dan mengonfigurasinya.
 Untuk melakukan ini, Anda dapat menggunakan komputer atau smartphone apa saja. Pergi ke pengaturan Wi-Fi Anda, cari jaringan baru, dan Anda akan melihat Wi-Fi yang bernama Bitaxe_XXXX. Di sini, adalah `Bitaxe_A859`. Sambungkan ke jaringan Wi-Fi ini, dan sebuah jendela akan secara otomatis terbuka.
 
@@ -56,7 +56,7 @@ Pengaturan `Core Voltage` sebaiknya dibiarkan pada `1200` secara default, dan un
 
 Setelah Anda dengan benar memasukkan semua pengaturan, klik tombol `Save` di bagian bawah, kemudian restart BitAxe Anda hanya dengan mencabutnya dan memasangnya kembali.
 Jika Anda memasukkan informasi Anda dengan benar, perangkat harus segera terhubung ke Wi-Fi Anda, kemudian ke mining pool, dan mulai menampilkan beberapa informasi di layar kecilnya. Mungkin akan membutuhkan beberapa menit agar muncul di dashboard mining pool.
-### Dashboard dan Layar
+## Dasbor dan layar
 
 Tiga tampilan berbeda akan bergulir. Pada halaman ketiga, Anda akan melihat informasi `IP`, yang merupakan alamat IP yang memungkinkan Anda terhubung ke dashboard. Di sini, alamatnya adalah `192.168.1.19`.
 

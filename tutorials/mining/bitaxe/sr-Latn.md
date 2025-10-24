@@ -4,7 +4,7 @@ Opis: Kako postaviti BitAxe?
 
 ---
 ![video](https://youtu.be/tvLSK8v0MK8)
-### Uvod
+## Uvod
 
 
 BitAxe je projekat otvorenog koda koji je kreirao Skot i [dostupan je na GitHub-u](https://github.com/skot/bitaxe) što omogućava isplativo eksperimentisanje sa Mining.
@@ -26,7 +26,7 @@ Postoji nekoliko verzija BitAxe-a, sa različitim čipovima i performansama:
 U ovom vodiču ćemo koristiti BitAxe Ultra 204 opremljen BM1366 čipom, koji se koristi za Antminer S19XP. Ovaj je već sastavljen i flešovan od strane prodavca.
 
 
-### [Spisak prodavaca je dostupan na ovoj stranici](https://bitaxe.org/legit.html)
+[Spisak prodavaca je dostupan na ovoj stranici](https://bitaxe.org/legit.html)
 
 
 ![signup](assets/2.webp)
@@ -38,7 +38,7 @@ Generalno, uz njega se prodaje napajanje Supply. Ako nije, potrebno je kupiti na
 ![signup](assets/1.webp)
 
 
-### Konfiguracija
+## Podešavanje
 
 Kada prvi put priključite svoj BitAxe, pokušaće da se poveže na Wi-Fi mrežu po defaultu. Nakon pet pokušaja, prikazaće ime svoje Wi-Fi mreže kako biste se mogli povezati na nju i konfigurisati je.
 
@@ -85,7 +85,7 @@ Kada pravilno unesete sva podešavanja, kliknite na dugme `Save` na dnu, zatim p
 
 Ako ste ispravno uneli svoje podatke, uređaj bi trebalo brzo da se poveže na vaš Wi-Fi, zatim na Mining pool, i počne da prikazuje neke informacije na svom malom ekranu. Verovatno će biti potrebno nekoliko minuta da se pojavi na kontrolnoj tabli Mining pool.
 
-### Kontrolna tabla i Ekran
+## Kontrolna tabla i ekran
 
 
 Tri različita prikaza će se smenjivati. Na trećoj stranici ćete videti informacije o `IP`, što je IP Address koji vam omogućava povezivanje na kontrolnu tablu. Ovde je Address `192.168.1.19`.

@@ -6,7 +6,7 @@ description: Pravljenje Mining lako od kuće.
 
 
 
-### Uvod
+## Uvod
 
 
 
@@ -18,7 +18,7 @@ Takođe možete pronaći mnogo važnije informacije pregledom kompletnog vodiča
 
 
 
-### Pregled BMM 100
+## Pregled BMM 100
 
 
 
@@ -46,7 +46,7 @@ dok na zadnjoj strani imamo: otvor za napajanje, prostor za SD karticu (koja mo�
 
 
 
-### Povezivanje Mini Miner
+## Povezivanje Mini Miner
 
 
 
@@ -54,7 +54,7 @@ Moraćete da povežete uređaj na internet putem ethernet-a, imajte na umu da sa
 
 
 
-### Konfiguracija
+## Konfiguracija
 
 
 
@@ -74,7 +74,7 @@ Da biste se prijavili, moraćete da unesete `root` kao svoje korisničko ime, do
 
 
 
-### Opšta podešavanja
+## Opšta podešavanja
 
 
 
@@ -110,7 +110,7 @@ Kada izvršite izmene, kliknite na `Save Changes` i videćete izmene na ekranu v
 
 
 
-### Povezivanje sa Mining pool
+## Povezivanje sa Mining pool
 
 
 
@@ -142,7 +142,7 @@ Druga opcija je da nas povežete sa Mining pool koji mina solo, kao Public Pool,
 
 https://planb.academy/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-#### Braiins pool
+### Braiins pool
 
 
 
@@ -236,7 +236,7 @@ ako se vratite na kontrolnu tablu, trebali biste početi da primećujete kretanj
 
 
 
-#### Javni bazen
+### Javni bazen
 
 
 

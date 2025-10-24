@@ -3,7 +3,7 @@ name: Bitaxe
 description: Jak nastavit BitAxe?
 ---
 ![video](https://youtu.be/tvLSK8v0MK8)
-### Úvod
+## Úvod
 
 BitAxe je open-source projekt vytvořený Skotem a [dostupný na GitHubu](https://github.com/skot/bitaxe), který umožňuje cenově efektivní experimentování s těžbou.
 
@@ -20,7 +20,7 @@ Existuje několik verzí BitAxe, s různými čipy a výkony:
 
 V tomto tutoriálu budeme používat BitAxe Ultra 204 vybavený čipem BM1366, používaný pro Antminer S19XP. Tento je již sestaven a nahrán firmwarem prodejcem.
 
-### [Seznam prodejců je dostupný na této stránce](https://bitaxe.org/legit.html)
+[Seznam prodejců je k dispozici na této stránce](https://bitaxe.org/legit.html)
 
 ![signup](assets/2.webp)
 
@@ -28,7 +28,7 @@ Obvykle je spolu s ním prodáván i zdroj napájení. Pokud ne, budete muset za
 
 ![signup](assets/1.webp)
 
-### Konfigurace
+## Nastavení
 Když poprvé zapojíte svůj BitAxe, pokusí se ve výchozím nastavení připojit k Wi-Fi síti. Po pěti pokusech zobrazí název vlastní Wi-Fi sítě, abyste se k ní mohli připojit a konfigurovat ji.
 K tomu můžete použít jakýkoliv počítač nebo smartphone. Jděte do nastavení Wi-Fi, vyhledejte nové sítě a uvidíte Wi-Fi s názvem Bitaxe_XXXX. Zde je to `Bitaxe_A859`. Připojte se k této Wi-Fi síti a automaticky se otevře okno.
 
@@ -56,7 +56,7 @@ Nastavení `Core Voltage` by mělo být ponecháno ve výchozím stavu `1200` a 
 
 Jakmile správně zadáte všechna nastavení, klikněte na tlačítko `Save` dole, poté restartujte svůj BitAxe jednoduše tak, že ho odpojíte a znovu zapojíte.
 Pokud jste své informace zadali správně, zařízení by se mělo rychle připojit k vaší Wi-Fi, poté k těžebnímu poolu a začít zobrazovat nějaké informace na svém malém displeji. Pravděpodobně to bude trvat několik minut, než se objeví na dashboardu těžebního poolu.
-### Dashboard a Displej
+## Dashboard a obrazovka
 
 Budou se střídat tři různé displeje. Na třetí stránce uvidíte informace `IP`, což je IP adresa, která vám umožní připojit se k dashboardu. Zde je adresa `192.168.1.19`.
 

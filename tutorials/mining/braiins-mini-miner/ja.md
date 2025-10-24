@@ -6,7 +6,7 @@ description: 自宅で簡単にMiningを作る。
 
 
 
-### はじめに
+## はじめに
 
 
 
@@ -18,7 +18,7 @@ Mini Miner braiins BMM 100は、Mining pool Braiinsの製品です。このデ�
 
 
 
-### BMM100の概要
+## BMM100の概要
 
 
 
@@ -46,7 +46,7 @@ Mini Miner braiins BMM 100は、Mining pool Braiinsの製品です。このデ�
 
 
 
-### ミニMinerの接続
+## ミニMinerの接続
 
 
 
@@ -54,7 +54,7 @@ Mini Miner braiins BMM 100は、Mining pool Braiinsの製品です。このデ�
 
 
 
-### 構成
+## 構成
 
 
 
@@ -74,7 +74,7 @@ Mini Miner braiins BMM 100は、Mining pool Braiinsの製品です。このデ�
 
 
 
-### 一般設定
+## 一般設定
 
 
 
@@ -110,7 +110,7 @@ Mini Miner braiins BMM 100は、Mining pool Braiinsの製品です。このデ�
 
 
 
-### Mining poolへの接続
+## Mining poolへの接続
 
 
 
@@ -142,7 +142,7 @@ https://planb.academy/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a
 
 https://planb.academy/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-#### ブレイインズ・プール
+### ブレイインズ・プール
 
 
 
@@ -236,7 +236,7 @@ stratumv2で始まるこの文字列をコピーする必要がある。コピ�
 
 
 
-#### 公共プール
+### 公共プール
 
 
 

@@ -6,7 +6,7 @@ description: Snadná výroba Mining z domova.
 
 
 
-### Úvod
+## Úvod
 
 
 
@@ -18,7 +18,7 @@ Mnohem více důležitých informací najdete také v kompletní příručce př
 
 
 
-### Přehled BMM 100
+## Přehled BMM 100
 
 
 
@@ -46,7 +46,7 @@ na zadní straně je otvor pro napájení, prostor pro kartu SD (která může b
 
 
 
-### Připojení zařízení Mini Miner
+## Připojení zařízení Mini Miner
 
 
 
@@ -54,7 +54,7 @@ Zařízení je třeba připojit k internetu prostřednictvím ethernetu, ale v n
 
 
 
-### Konfigurace
+## Konfigurace
 
 
 
@@ -74,7 +74,7 @@ Pro přihlášení musíte jako uživatelské jméno zadat `root` a heslo může
 
 
 
-### Obecná nastavení
+## Obecná nastavení
 
 
 
@@ -110,7 +110,7 @@ Po provedení změn klikněte na `Uložit změny` a změny se zobrazí na obrazo
 
 
 
-### Připojení ke Mining pool
+## Připojení ke Mining pool
 
 
 
@@ -142,7 +142,7 @@ Druhou možností je připojit nás k Mining pool, který mina v sólo, jako je 
 
 https://planb.academy/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-#### Bazén Braiins
+### Bazén Braiins
 
 
 
@@ -236,7 +236,7 @@ pokud se vrátíte na ovládací panel, měli byste na grafu vidět pohyb a vid�
 
 
 
-#### Veřejný bazén
+### Veřejný bazén
 
 
 

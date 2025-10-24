@@ -1,5 +1,5 @@
 ---
-name: BTCPay Server sur Umbrel
+name: BTCPay Server - Umbrel
 description: Installation et utilisation de BTCPay Server sur Umbrel pour accepter Bitcoin et Lightning
 ---
 
@@ -11,7 +11,7 @@ BTCPay Server émerge comme la réponse open-source à cette problématique. Ce 
 
 Traditionnellement, installer BTCPay Server exige des compétences techniques avancées : configuration de serveur Linux, maîtrise de Docker, gestion de certificats SSL et sécurisation réseau. Umbrel révolutionne cette approche en proposant une installation en un clic directement intégrée avec votre nœud Bitcoin et Lightning. Cette simplification rend accessible à tous ce qui était auparavant réservé aux techniciens expérimentés.
 
-**Point important à comprendre** : BTCPay Server sur Umbrel fonctionne par défaut sur votre réseau local uniquement. Vous pouvez créer des factures, accepter des paiements Lightning et Bitcoin, et gérer votre comptabilité depuis n'importe quel appareil connecté à votre réseau domestique (ordinateur, smartphone, tablette). Cette configuration convient parfaitement pour facturer des services en présentiel, gérer des paiements face-à-face, ou utiliser BTCPay Server depuis votre réseau local. En revanche, pour intégrer BTCPay Server à une boutique en ligne accessible publiquement sur Internet, une configuration supplémentaire avec exposition publique sera nécessaire (nous aborderons cette problématique en fin de tutoriel).
+**Point important à comprendre** : BTCPay Server sur Umbrel fonctionne par défaut sur votre réseau local uniquement. Vous pouvez créer des factures, accepter des paiements Lightning et Bitcoin, et gérer votre comptabilité depuis n'importe quel appareil connecté à votre réseau domestique (ordinateur, smartphone, tablette). Cette configuration convient parfaitement pour facturer des services en présentiel, gérer des paiements en face-à-face, ou utiliser BTCPay Server depuis votre réseau local. En revanche, pour intégrer BTCPay Server à une boutique en ligne accessible publiquement sur Internet, une configuration supplémentaire avec exposition publique sera nécessaire (nous aborderons cette problématique en fin de tutoriel).
 
 Ce tutoriel vous accompagne à travers l'installation complète de BTCPay Server sur Umbrel, la configuration de votre portefeuille Bitcoin et de votre nœud Lightning, la création et le paiement de factures, ainsi que la gestion du reporting comptable. Vous découvrirez comment utiliser BTCPay Server efficacement sur votre réseau local, puis nous évoquerons les solutions pour une exposition publique si vous souhaitez l'intégrer à un site e-commerce.
 
@@ -31,7 +31,7 @@ Prévoyez au moins 50 Go d'espace disque libre pour BTCPay Server, ses bases de 
 
 ## Installation de BTCPay Server sur Umbrel
 
-Depuis l'interface Umbrel (umbrel.local), accédez à l'App Store et recherchez "BTCPay Server" dans la catégorie Bitcoin.
+Depuis l’interface d’Umbrel (`umbrel.local`), accédez à l'App Store et recherchez "BTCPay Server" dans la catégorie Bitcoin.
 
 ![Interface Umbrel App Store avec BTCPay Server](assets/fr/01.webp)
 
@@ -49,7 +49,17 @@ Après la création du compte, BTCPay Server vous invite immédiatement à crée
 
 ## Accéder à BTCPay Server sur votre réseau local
 
-BTCPay Server est accessible depuis n'importe quel appareil de votre réseau local (WiFi ou Ethernet). Accédez à http://umbrel.local ou directement à http://umbrel.local:3003 depuis votre navigateur.
+BTCPay Server est accessible depuis n'importe quel appareil de votre réseau local (WiFi ou Ethernet). Accédez depuis votre navigateur à : 
+
+```url
+http://umbrel.local
+```
+
+Ou bien directement à :
+
+```url
+http://umbrel.local:3003
+```
 
 **Accès à distance avec Tailscale** : Pour accéder à BTCPay Server depuis n'importe où dans le monde, utilisez Tailscale. Ce VPN sécurisé vous permet de vous connecter à votre Umbrel comme si vous étiez sur votre réseau local. Consultez notre tutoriel dédié à Tailscale sur Umbrel.
 
@@ -60,6 +70,7 @@ https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7
 Pour accepter des paiements, vous devez configurer un portefeuille Bitcoin. BTCPay Server affiche les options de configuration dans le tableau de bord.
 
 ![Tableau de bord avec options de configuration de portefeuille](assets/fr/05.webp)
+
 Pour configurer le wallet Bitcoin, rendez-vous dans la section "Wallets" > "Bitcoin".
 
 Vous avez deux options : créer un nouveau portefeuille directement dans BTCPay, ou importer un portefeuille existant. Pour l'import, plusieurs méthodes sont proposées :

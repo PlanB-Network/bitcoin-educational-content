@@ -1,5 +1,5 @@
 ---
-name: Sentinel Watch-Only
+name: Sentinel
 description: Czym jest Watch-only wallet i jak z niego korzystać?
 ---
 
@@ -8,7 +8,7 @@ description: Czym jest Watch-only wallet i jak z niego korzystać?
 
 ---
 
-**\*OSTRZEŻENIE: Po aresztowaniu założycieli Samourai Wallet i przejęciu ich serwerów 24 kwietnia, aplikacja Sentinel nadal działa, ale **obowiązkowe jest korzystanie z własnego Dojo** w celu uzyskania dostępu do informacji Blockchain i transmisji transakcji
+**OSTRZEŻENIE: Po aresztowaniu założycieli Samourai Wallet i przejęciu ich serwerów 24 kwietnia, aplikacja Sentinel nadal działa, ale **obowiązkowe jest korzystanie z własnego Dojo** w celu uzyskania dostępu do informacji Blockchain i transmisji transakcji**
 
 
 uważnie śledzimy rozwój tej sprawy, a także rozwój związany z powiązanymi narzędziami. Zapewniamy, że będziemy aktualizować ten poradnik w miarę pojawiania się nowych informacji

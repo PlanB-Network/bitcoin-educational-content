@@ -1,5 +1,5 @@
 ---
-name: Trezor Shamirin varmuuskopiointi
+name: Trezor Shamir Backup
 description: Yhden ja useamman osakkeen Mnemonic-lauseet Trezorissa
 ---
 ![cover](assets/cover.webp)
@@ -145,7 +145,7 @@ Valitse Trezorissa niiden osakkeiden kokonaismäärä, jotka haluat määrittä�
 
 
 
-*Safe 5 -käyttäjille, vaikka näytöllä lukee "*Tap jatka*", sinun on itse asiassa pyyhkäistävä ylöspäin vahvistaaksesi
+**Safe 5 -käyttäjille**, vaikka näytöllä lukee "*Tap jatka*", sinun on itse asiassa pyyhkäistävä ylöspäin vahvistaaksesi
 
 
 
@@ -173,7 +173,7 @@ Näytön yläreunassa näkyy, mitä jakoa parhaillaan katselet.
 
 
 
-näitä sanoja ei tietenkään saa koskaan jakaa internetissä, kuten minä teen tässä ohjeessa. Tätä esimerkkiä Wallet käytetään vain Testnet:ssa ja se poistetaan opetusohjelman lopussa.**_
+näitä sanoja ei tietenkään saa koskaan jakaa internetissä, kuten minä teen tässä ohjeessa. Tätä esimerkkiä Wallet käytetään vain Testnet:ssa ja se poistetaan opetusohjelman lopussa.
 
 
 

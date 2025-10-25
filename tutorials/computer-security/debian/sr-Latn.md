@@ -17,11 +17,11 @@ Debian je besplatna GNU/Linux distribucija, poznata po svojoj robusnosti i pouzd
 
 
 
-- Besplatan i otvoren**: Debian je potpuno otvorenog koda, garantujući transparentnost i bez troškova licenci.
-- Stabilnost i sigurnost**: svako izdanje prolazi kroz temeljni proces testiranja, čineći Debian jednom od najpouzdanijih i najsigurnijih distribucija na tržištu.
-- Aktivna zajednica**: dostupna je velika zajednica i opsežna dokumentacija da vas podrži kad god vam zatreba.
-- Lagan i skalabilan**: možete instalirati Debian na mašine sa skromnim resursima uz održavanje dobre performanse.
-- Opsežan katalog softvera**: preko 50.000 zvaničnih paketa je dostupno putem repozitorijuma.
+- **Besplatan i otvoren**: Debian je potpuno otvorenog koda, garantujući transparentnost i bez troškova licenci.
+- **Stabilnost i sigurnost**: svako izdanje prolazi kroz temeljni proces testiranja, čineći Debian jednom od najpouzdanijih i najsigurnijih distribucija na tržištu.
+- **Aktivna zajednica**: dostupna je velika zajednica i opsežna dokumentacija da vas podrži kad god vam zatreba.
+- **Lagan i skalabilan**: možete instalirati Debian na mašine sa skromnim resursima uz održavanje dobre performanse.
+- **Opsežan katalog softvera**: preko 50.000 zvaničnih paketa je dostupno putem repozitorijuma.
 
 
 
@@ -35,12 +35,12 @@ Debian nudi nekoliko radnih okruženja koja odgovaraju vašim potrebama:
 
 
 
-- GNOME**: moderan, intuitivan Interface, idealan za početnike. Nudi fluidan, jednostavan grafički meni za pristup aplikacijama.
-- XFCE**: lagan i brz, savršen za manje moćne mašine.
-- KDE Plasma**: visoko prilagodljiv, sa izgledom sličnim Windows-u.
-- Cinnamon**: jednostavan, elegantan Interface, inspirisan Windows-om.
-- LXDE / LXQt**: ultra-lagani, pogodan za starije računare.
-- MATE**: jednostavan i klasičan, blizak starom GNOME-u.
+- **GNOME**: moderan, intuitivan Interface, idealan za početnike. Nudi fluidan, jednostavan grafički meni za pristup aplikacijama.
+- **XFCE**: lagan i brz, savršen za manje moćne mašine.
+- **KDE Plasma**: visoko prilagodljiv, sa izgledom sličnim Windows-u.
+- **Cinnamon**: jednostavan, elegantan Interface, inspirisan Windows-om.
+- **LXDE / LXQt**: ultra-lagani, pogodan za starije računare.
+- **MATE**: jednostavan i klasičan, blizak starom GNOME-u.
 
 
 
@@ -61,9 +61,9 @@ Pre nego što započnete instalaciju, molimo vas da se uverite da imate sledeću
 
 
 
-- USB ključ**: minimum 8 GB za smeštaj butabilne ISO slike.
-- Random Access Memory (RAM)**: 4 GB za glatku instalaciju i rad.
-- Prostor na disku**: najmanje 15 GB slobodnog prostora za sistem i ažuriranja.
+- **USB ključ**: minimum 8 GB za smeštaj butabilne ISO slike.
+- **Random Access Memory (RAM)**: 4 GB za glatku instalaciju i rad.
+- **Prostor na disku**: najmanje 15 GB slobodnog prostora za sistem i ažuriranja.
 
 
 
@@ -77,9 +77,9 @@ Izbor Debian slike zavisi od arhitekture vašeg procesora:
 
 
 
-- AMD64**: preuzmite izdanje "live hybrid" sa [download] liste (https://debian.obspm.fr/debian-cd/12.11.0-live/amd64/iso-hybrid/).
-- ARM64**: preuzmite DVD sliku sa zvanične [Debian] veb stranice (https://debian.obspm.fr/debian-cd/12.11.0/arm64/iso-dvd/).
-- Druge arhitekture**: pronađite ISO koji odgovara vašoj arhitekturi [ovde](https://debian.obspm.fr/debian-cd/12.11.0/).
+- **AMD64**: preuzmite izdanje "live hybrid" sa [download] liste (https://debian.obspm.fr/debian-cd/12.11.0-live/amd64/iso-hybrid/).
+- **ARM64**: preuzmite DVD sliku sa zvanične [Debian] veb stranice (https://debian.obspm.fr/debian-cd/12.11.0/arm64/iso-dvd/).
+- **Druge arhitekture**: pronađite ISO koji odgovara vašoj arhitekturi [ovde](https://debian.obspm.fr/debian-cd/12.11.0/).
 
 
 
@@ -96,7 +96,7 @@ Kada preuzmete odgovarajuću ISO sliku, nastavite sa kreiranjem instalacionog me
 
 
 
-- Preuzmite Balena Etcher** sa [zvaničnog sajta](https://etcher.balena.io/), zatim preuzmite binarni fajl za vaš sistem i instalirajte ga.
+- Preuzmite **Balena Etcher** sa [zvaničnog sajta](https://etcher.balena.io/), zatim preuzmite binarni fajl za vaš sistem i instalirajte ga.
 
 
 
@@ -106,9 +106,9 @@ Kada preuzmete odgovarajuću ISO sliku, nastavite sa kreiranjem instalacionog me
 
 
 
-- Pokreni Etcher**: otvori softver i izaberi prethodno preuzetu Debian ISO sliku.
-- Izaberite USB ključ**: navedite vaš ključ (8 GB+) kao cilj.
-- Pokreni flash**: klikni na **Flash!** i sačekaj dok se proces ne završi.
+- Pokreni **Etcher**: otvori softver i izaberi prethodno preuzetu Debian ISO sliku.
+- **Izaberite USB ključ**: navedite vaš ključ (8 GB+) kao cilj.
+- Pokreni flash: klikni na **Flash!** i sačekaj dok se proces ne završi.
 
 
 
@@ -133,10 +133,10 @@ Da pokrenete instalaciju sa vašeg USB ključa:
 
 
 
-- Isključite** računar potpuno.
-- Ponovo pokreni** zatim pristupi BIOS/UEFI tako što ćeš odmah pritisnuti `ESC`, `F2`, `F11` (ili odgovarajući taster u zavisnosti od brenda).
+- **Isključite** računar potpuno.
+- **Ponovo pokreni** zatim pristupi BIOS/UEFI tako što ćeš odmah pritisnuti `ESC`, `F2`, `F11` (ili odgovarajući taster u zavisnosti od brenda).
 - U meniju za pokretanje, **izaberite vaš USB ključ** kao uređaj za pokretanje.
-- Potvrdite** tasterom Enter za pokretanje na Debian slici: ovo će vas odvesti do ekrana dobrodošlice instalatera.
+- Potvrdite tasterom **Enter** za pokretanje na Debian slici: ovo će vas odvesti do ekrana dobrodošlice instalatera.
 
 
 
@@ -157,9 +157,9 @@ Kada se pokreće sa USB memorije, Debian početni ekran nudi nekoliko opcija:
 
 
 
-- Live System**: pokreće Debian bez instalacije, idealno za testiranje okruženja.
-- Pokreni Instalater**: pokreće instalaciju direktno na Hard disk.
-- Napredne opcije instalacije**: omogućava vam pristup prilagođenim režimima instalacije.
+- **Live System**: pokreće Debian bez instalacije, idealno za testiranje okruženja.
+- **Pokreni Instalater**: pokreće instalaciju direktno na Hard disk.
+- **Napredne opcije instalacije**: omogućava vam pristup prilagođenim režimima instalacije.
 
 
 
@@ -173,7 +173,7 @@ Da biste istražili Debian u live režimu, izaberite **Live System** i potvrdite
 
 
 
-- Izbor jezika** (opciono)
+- **Izbor jezika** (opciono)
 
 
 
@@ -187,7 +187,7 @@ Izaberite glavni jezik vašeg Debian sistema sa liste, zatim kliknite na OK.
 
 
 
-- Vremenska zona** (GMT)
+- **Vremenska zona** (GMT)
 
 
 
@@ -219,8 +219,8 @@ Izaberite jezik i raspored tastature. Koristite ugrađeno polje za testiranje ka
 
 
 
-- Obriši disk**: ako imate posvećenu particiju, ova opcija će obrisati sav njen sadržaj.
-- Ručno particionisanje**: izaberite ovu opciju da kreirate, promenite veličinu ili obrišete particije po potrebi.
+- **Obriši disk**: ako imate posvećenu particiju, ova opcija će obrisati sav njen sadržaj.
+- **Ručno particionisanje**: izaberite ovu opciju da kreirate, promenite veličinu ili obrišete particije po potrebi.
 
 
 
@@ -244,7 +244,7 @@ Unesite svoje puno ime, ime naloga i jaku lozinku kako biste osigurali da je va�
 
 
 
-- Rezime parametara**
+- **Rezime parametara**
 
 
 
@@ -272,7 +272,7 @@ Kliknite na **Install** da biste započeli kopiranje fajlova i konfigurisanje si
 
 
 
-- Ponovno pokretanje**
+- **Ponovno pokretanje**
 
 
 

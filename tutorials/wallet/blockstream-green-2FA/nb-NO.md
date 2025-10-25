@@ -60,7 +60,7 @@ For Android-brukere kan du også installere applikasjonen via `.apk`-filen [tilg
 
 ![GREEN 2FA MULTISIG](assets/fr/04.webp)
 
-Start programmet, og kryss av i boksen "Jeg godtar vilkårene...*".
+Start programmet, og kryss av i boksen "Jeg godtar vilkårene...".
 
 ![GREEN 2FA MULTISIG](assets/fr/05.webp)
 
@@ -166,7 +166,7 @@ Legg til en ny kode i autentiseringsprogrammet ditt, og skann deretter QR-koden 
 
 ![GREEN 2FA MULTISIG](assets/fr/26.webp)
 
-*Du må selvsagt aldri dele denne nøkkelen og QR-koden på Internett, slik jeg gjør i denne veiledningen. Denne eksempellommeboken vil kun bli brukt på Testnet og vil bli slettet ved slutten av opplæringen
+**Du må selvsagt aldri dele denne nøkkelen og QR-koden på Internett, slik jeg gjør i denne veiledningen. Denne eksempellommeboken vil kun bli brukt på Testnet og vil bli slettet ved slutten av opplæringen**
 
 Klikk på knappen "*Fortsett*".
 
@@ -271,4 +271,3 @@ Hvis du fant denne opplæringen nyttig, ville jeg være takknemlig hvis du legge
 Jeg anbefaler også at du sjekker ut denne andre omfattende veiledningen om Blockstream Green-mobilapplikasjonen for å sette opp en Liquid-lommebok :
 
 https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
-

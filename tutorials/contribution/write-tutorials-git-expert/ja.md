@@ -18,11 +18,11 @@ https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-91
 このチュートリアルでは、Git の使用経験が豊富なユーザーを対象に、新しい Plan ₋ Network チュートリアルを提供するための重要なステップと重要なガイドラインを簡単にまとめます。Git や GitHub にあまりなじみがないのなら、以下の 2 つのチュートリアルを参考にすることをおすすめします：
 
 
-- 中級（GitHub Desktop）** ：
+- **中級（GitHub Desktop）**：
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
-- 初心者向け（ウェブインターフェース）** ：
+- **初心者向け（ウェブインターフェース）**：
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 
@@ -31,30 +31,30 @@ https://planb.network/tutorials/contribution/content/write-tutorials-github-web-
 Markdownファイル編集用：
 
 
-- オブシディアン**（フリー、オープンソースではない）
-- マークテキスト**（無料、オープンソース）
-- Zettlr**（無料、オープンソース）
-- Typora** （有料、～15ユーロ、オープンソースではない）
+- **オブシディアン**（フリー、オープンソースではない）
+- **マークテキスト**（無料、オープンソース）
+- **Zettlr**（無料、オープンソース）
+- **Typora** （有料、～15ユーロ、オープンソースではない）
 
 ギットのために：
 
 
-- Git**（フリー、オープンソース）
-- GitHub Desktop** （無料、オープンソース）
-- ソースツリー**（無料、オープンソースではない）
+- **Git**（フリー、オープンソース）
+- **GitHub Desktop** （無料、オープンソース）
+- **ソースツリー**（無料、オープンソースではない）
 
 YAMLファイルの編集 ：
 
 
-- Visual Studio Code**（無料、オープンソース）
-- Sublime Text** （制限付きで無料、オープンソースではない）
+- **Visual Studio Code**（無料、オープンソース）
+- **Sublime Text** （制限付きで無料、オープンソースではない）
 
 ダイアグラムやビジュアルを作成する：
 
 
-- Canva**（無料、有料オプションあり、オープンソースではない）
-- Inkscape**（フリー、オープンソース）
-- Penpot**（無料、オープンソース）
+- **Canva**（無料、有料オプションあり、オープンソースではない）
+- **Inkscape**（フリー、オープンソース）
+- **Penpot**（無料、オープンソース）
 
 ## ワークフロー
 
@@ -281,7 +281,7 @@ git push origin tuto-green-wallet-loic
 ## コンテンツ作成基準
 
 
-- プラットフォームでサポートされているフォーマット** ：
+- **プラットフォームでサポートされているフォーマット**：
     - クラシックなMarkdown：リスト、リンク、画像、引用、太字、斜体など。
     - LaTeX（ブロックのみ、インライン不可）：`$$`で区切る。
     - インラインコード：シングル・バックティック付きの構文。
@@ -292,13 +292,13 @@ print("Hello, Bitcoin!")
 ```
 
 
-- イラストと図** ：
+- **イラストと図**：
     - すべての画像はWebP形式でなければなりません。必要であれば、この無料ツールを使って変換してください：[ImagesConverter](https://github.com/LoicPandul/ImagesConverter)。
     - ビジュアルに 2 桁または 3 桁の数字で名前をつけます （例：`001.webp`、`002.webp`）。
     - モバイルウォレットやハードウェアウォレットのチュートリアルには、モックアップを使いましょう。
     - 自作またはロイヤリティフリーのビジュアルのみを使用すること。
     - 関連性があり、質の高いものであることを確認してください。
-- グラフィック・チャーター** ：
+- **グラフィック・チャーター**：
     - フォント：[ルービック](https://fonts.google.com/specimen/IBM+Plex+Sans)。
     - カラーズプラン ȏ ネットワーク ：
         - オレンジ: `#FF5C00`

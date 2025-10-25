@@ -28,8 +28,8 @@ Lightning Network Daemon 是 Lightning Network 的完整 Go 实现。它由 Ligh
 
 
 
-- 与Lightning Network**互动：您可以使用命令行直接从机器终端创建闪电投资组合、管理支付渠道和路线等。
-- 链接远程 Bitcoin 节点或您自己的 Bitcoin 核心实例**：LND 允许您链接 Bitcoin 实例并将其用作后台。要使用这种实现方式，您不需要在自己的机器上运行 Bitcoin Core 实例。
+- 与**Lightning Network**互动：您可以使用命令行直接从机器终端创建闪电投资组合、管理支付渠道和路线等。
+- 链接远程 Bitcoin 节点或您自己的 Bitcoin 核心实例：LND 允许您链接 Bitcoin 实例并将其用作后台。要使用这种实现方式，您不需要在自己的机器上运行 Bitcoin Core 实例。
 
 
 
@@ -57,10 +57,10 @@ https://planb.network/fr/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746
 
 
 
-- 全面控制**：管理自己的支付渠道，成为自己的银行，掌握自己的资产。
-- 保密性**：无需依赖第三方保护您的隐私即可进行交易。
-- 学习和自主**：有了 "lncli "命令，你就可以在终端上自行应用，从而更好地了解 Lightning 的底层进程。
-- 权力下放**：在加强和下放 Bitcoin / Lightning Network 方面发挥积极作用。
+- 全面控制：管理自己的支付渠道，成为自己的银行，掌握自己的资产。
+- **保密性**：无需依赖第三方保护您的隐私即可进行交易。
+- 学习和自主**性**：有了 "lncli "命令，你就可以在终端上自行应用，从而更好地了解 Lightning 的底层进程。
+- **权力下放**：在加强和下放 Bitcoin / Lightning Network 方面发挥积极作用。
 
 
 
@@ -83,7 +83,7 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-- 硬件要求：**
+- 硬件要求：
 
 
 为了获得流畅、无缝的体验，您的机器需要具备运行 LND Lightning 节点所需的容量。
@@ -105,7 +105,7 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-- 安装有用的依赖项：**
+- 安装有用的依赖项：
 
 
 下面的命令将允许您在机器上安装运行 LND 所需的工具。除其他事项外，您还需要安装版本管理工具 `Git` 和 `make`，后者可以从源代码执行和构建 LND 实现。
@@ -124,11 +124,11 @@ sudo apt install -y build-essential git make
 
 
 
-- 在 Linux 机器上安装 GoLang**
+- 在 Linux 机器上安装 **GoLang**
 
 
 
-截至本教程发布之日，LND 需要 Go*** 1.23.6 版本才能安装。
+截至本教程发布之日，LND 需要 Go **1.23.6** 版本才能安装。
 
 
 
@@ -156,7 +156,7 @@ sudo tar -C /usr/local -xzf go1.23.6.linux-amd64.tar.gz
 
 
 
-- Go** 环境配置
+- **Go** 环境配置
 
 
 在你的 `~/.bashrc` 文件中，初始化以下环境变量，将 Go 添加到你的 Linux 系统中。
@@ -178,7 +178,7 @@ source ~/.bashrc
 
 
 
-- 检查安装** （法语）
+- 检查安装**（法语）**
 
 
 ```bash
@@ -334,37 +334,37 @@ bitcoind.zmqpubrawtx=tcp://127.0.0.1:28333
 
 
 
-- noseedbackup**：允许您选择是否希望 LND 对您的投资组合执行自动备份。  将此属性设置为 "0 "可让您手动将还原信息保存在个人选择的安全位置。
+- **noseedbackup**：允许您选择是否希望 LND 对您的投资组合执行自动备份。  将此属性设置为 "0 "可让您手动将还原信息保存在个人选择的安全位置。
 
 
 
 
 
-- debuglevel**：允许您定义在操作过程中出现错误时，错误和日志的详细程度。
+- **debuglevel**：允许您定义在操作过程中出现错误时，错误和日志的详细程度。
 
 
 
 
 
-- Bitcoin.active**：指示 LND 作为 Bitcoin 节点运行并与 Bitcoin 网络交互。
+- **Bitcoin.active**：指示 LND 作为 Bitcoin 节点运行并与 Bitcoin 网络交互。
 
 
 
 
 
-- Bitcoin.Mainnet**：指定 LND 连接到 Bitcoin 的主网络 (Mainnet)，您可以为 Bitcoin Signet 和 Bitcoin Regtest 网络分别设置`bitcoind.signet`和`bitcoind.regtest`。
+- **Bitcoin.Mainnet**：指定 LND 连接到 Bitcoin 的主网络 (Mainnet)，您可以为 Bitcoin Signet 和 Bitcoin Regtest 网络分别设置`bitcoind.signet`和`bitcoind.regtest`。
 
 
 
 
 
-- Bitcoin.node**：指定 LND 应连接的 Bitcoin 节点类型。
+- **Bitcoin.node**：指定 LND 应连接的 Bitcoin 节点类型。
 
 
 
 
 
-- Bitcoin.rpcuser** 和 **Bitcoin.rpcpassword** ：代表。
+- **Bitcoin.rpcuser** 和 **Bitcoin.rpcpassword** ：代表。
 
 
 分别连接到 Bitcoin 节点的登录名（用户、密码
@@ -373,7 +373,7 @@ bitcoind.zmqpubrawtx=tcp://127.0.0.1:28333
 
 
 
-- bitcoind.zmqpubrawblock** 和 **bitcoind.zmqpubrawtx**：分别定义 ZeroMQ 端点，用于接收 Bitcoin 网络上新区块和事务的通知。
+- **bitcoind.zmqpubrawblock** 和 **bitcoind.zmqpubrawtx**：分别定义 ZeroMQ 端点，用于接收 Bitcoin 网络上新区块和事务的通知。
 
 
 
@@ -475,7 +475,7 @@ lncli listpeers
 
 
 
-通过 "闪电 "通道，您可以与 Lightning Network 上的另一个节点**直接、成对连接。在该通道中，您可以自由使用 Exchange Satoshis，但不得超过通道的容量。
+通过 "闪电" 通道，您可以与 Lightning Network 上的另一个节点**直接、成对连接**。在该通道中，您可以自由使用 Exchange Satoshis，但不得超过通道的容量。
 
 
 
@@ -492,9 +492,9 @@ lncli listpeers
 
 
 
-- 节点的公钥**：这是节点在 Bitcoin 网络中的唯一标识符；
-- IP** ：安装节点的机器 IP；
-- 端口** ：  机器上允许与该节点通信的开放端口。
+- 节点的公钥：这是节点在 Bitcoin 网络中的唯一标识符；
+- **IP**：安装节点的机器 IP；
+- **端口**：机器上允许与该节点通信的开放端口。
 
 
 
@@ -519,25 +519,25 @@ lncli connect 035e4ff418fc8b5554c5d9eea66396c227bd429a3251c8cbc711002ba215bfc226
 
 
 
-- 地域多样化**：连接不同地区的节点。
+- **地域多样化**：连接不同地区的节点。
 
 
 
 
 
-- 信誉**：选择可用性好的节点。
+- **信誉**：选择可用性好的节点。
 
 
 
 
 
-- 容量**：选择流动性好的绳结。
+- 容量：选择流动性好的绳结。
 
 
 
 
 
-- 收费**：支票路由费。
+- 收费：支票路由费。
 
 
 ### 开通支付渠道
@@ -590,7 +590,7 @@ lncli payinvoice <FACTURE>
 
 
 
-- 合作关闭**：这表示你的节点希望退出支付渠道，确保正在进行的任务已完成，数据已备份，以避免资金损失。
+- 合作关闭：这表示你的节点希望退出支付渠道，确保正在进行的任务已完成，数据已备份，以避免资金损失。
 
 
 ```
@@ -600,7 +600,7 @@ lncli closechannel <ID_CANAL>
 
 
 
-- 强制关闭**：⚠️ 尽可能避免使用，因为这种操作会中断您支付渠道中正在进行的流程，并增加损失资金的风险。
+- 强制关闭：⚠️ 尽可能避免使用，因为这种操作会中断您支付渠道中正在进行的流程，并增加损失资金的风险。
 
 
 ```
@@ -653,9 +653,9 @@ lncli restorechanbackup <CHEMIN_DU_FICHIER>
 
 
 
-- bitcoind 连接错误** ：检查您的 RPC 登录信息
-- 同步受阻** ：检查您的互联网连接
-- 权限错误**：检查文件夹 `~/.LND` 的权限
+- **bitcoind 连接错误**：检查您的 RPC 登录信息
+- **同步受阻**：检查您的互联网连接
+- **权限错误**：检查文件夹 `~/.LND` 的权限
 
 
 

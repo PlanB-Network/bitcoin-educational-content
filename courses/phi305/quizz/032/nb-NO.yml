@@ -1,0 +1,9 @@
+question: Hvem var Bernardin de Saint-Pierre?
+answer: Direktør for Paris' naturhistoriske museum på begynnelsen av 1800-tallet.
+wrong_answers:
+  - En av Ludvig XIVs ministre.
+  - En fransk filosof.
+  - En revolusjonær av terror.
+explanation: |
+  Bernardin de Saint-Pierre (1737-1814) var direktør for Jardin des Plantes (naturhistorisk museum) i Paris på begynnelsen av 1800-tallet. Han er mest kjent for romanen Paul et Virginie og sine naturskildringer.
+reviewed: false

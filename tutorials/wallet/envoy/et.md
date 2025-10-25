@@ -1,5 +1,5 @@
 ---
-name: Saadik
+name: Envoy
 description: Passi seadistamine ja kasutamine koos Envoy rakendusega
 ---
 ![cover](assets/cover.webp)
@@ -256,7 +256,7 @@ Lisateavet selle kohta, kuidas oma mnemofraasi õigesti salvestada ja hallata, s
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-loomulikult ei tohi te neid sõnu kunagi internetis jagada, nagu ma seda käesolevas õpetuses teen. Seda näidisportfelli kasutatakse ainult Testnetis ja see kustutatakse õpetuse lõpus.**_
+loomulikult ei tohi te neid sõnu kunagi internetis jagada, nagu ma seda käesolevas õpetuses teen. Seda näidisportfelli kasutatakse ainult Testnetis ja see kustutatakse õpetuse lõpus.
 
 Tehke sellest lausest füüsiline varukoopia.
 

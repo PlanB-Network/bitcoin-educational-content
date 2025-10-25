@@ -17,13 +17,13 @@ Det har du allerede gjort:
 I denne veiledningen vil vi se hvordan du legger til opplæringen din på Plan ₿ Network ved å sette opp ditt lokale miljø med GitHub Desktop. Hvis du allerede er dyktig med Git, er denne veldig detaljerte opplæringen kanskje ikke nødvendig for deg. Jeg vil heller anbefale å lese denne andre veiledningen, der jeg bare presenterer de viktigste retningslinjene, uten detaljert trinnvis veiledning:
 
 
-- Erfarne brukere**:
+- **Erfarne brukere**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 Hvis du foretrekker å ikke sette opp ditt lokale miljø, kan du følge denne andre veiledningen for nybegynnere, der vi gjør endringene direkte via GitHubs webgrensesnitt:
 
 
-- Nybegynnere (nettgrensesnitt)**:
+- **Nybegynnere (nettgrensesnitt)**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 ## Forutsetninger
@@ -381,8 +381,8 @@ Utropstegnet i begynnelsen indikerer at det er et bilde. Den alternative teksten
 Hvis du ønsker å lage dine egne diagrammer, må du sørge for å følge Plan ₿ Network sitt grafiske charter for å sikre visuell konsistens:
 
 
-- Skrifttype**: Bruk [IBM Plex Sans] (https://fonts.google.com/specimen/IBM+Plex+Sans);
-- Farger**:
+- **Skrifttype**: Bruk [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
+- **Farger**:
  - Oransje: #FF5C00
  - Svart: #000000
  - Hvit: #FFFFFFFF
@@ -446,5 +446,4 @@ Hvis du ønsker å gjøre endringer i bidraget ditt etter at du allerede har sen
 - Hvis PR-en din allerede har blitt slått sammen med hovedgrenen, må du starte prosessen på nytt ved å opprette en ny gren og deretter sende inn en ny PR. Sørg for at det lokale depotet ditt er synkronisert med Plan ₿ Network-kilderegisteret før du fortsetter.
 
 Hvis du støter på tekniske problemer med å sende inn opplæringen din, ikke nøl med å be om hjelp på [vår dedikerte Telegram-gruppe for bidrag] (https://t.me/PlanBNetwork_ContentBuilder). Takk skal du ha!
-
 

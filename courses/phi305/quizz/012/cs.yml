@@ -1,0 +1,9 @@
+question: Co je pro Gillese Deleuze morálka?
+answer: Systém posuzování dobra a morálky.
+wrong_answers:
+  - Náboženská iniciativa.
+  - Výsledek zákona.
+  - Trvalá zásada.
+explanation: |
+  Pro Gillese Deleuze je morálka systémem soudu, který rozděluje činy na dobré a zlé podle transcendentních hodnot. To staví do kontrastu se spinozistickou etikou, která hodnotí způsoby existence podle jejich schopnosti jednat.
+reviewed: false

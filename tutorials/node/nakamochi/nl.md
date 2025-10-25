@@ -1,7 +1,9 @@
 ---
 name: Nakamochi
-description: Node Running Made Easy - Hoe je Nakamochi Bitcoin en Lightning node instelt en gebruikt.
+description: Node draaien eenvoudig gemaakt - Hoe de Nakamochi Bitcoin- en Lightning-node te configureren en gebruiken.
 ---
+
+![image](assets/cover.webp)
 
 Het runnen van je eigen Bitcoin en Lightning Full node hoeft niet langer een complexe taak te zijn die alleen is voorbehouden aan technische experts. Traditioneel vereiste het opzetten en beheren van nodes diepgaande kennis van cryptografie, netwerken en softwareontwikkeling. Nakamochi verandert dat door nodes toegankelijk te maken voor iedereen, ongeacht de technische achtergrond.
 
@@ -49,35 +51,37 @@ Je Nakamochi node wordt beheerd via een mobiele app, [BitBanana (Android)](https
 
 ![image](assets/en/01.webp)
 
-_Connect to power and write down your 24-word seed phrase_
+_Sluit aan op stroom en schrijf uw 24-woorden herstelzin op_
 
 
 ![image](assets/en/02.webp)
 
-_Wacht tot de Blockchain is ingehaald_
+_Wacht tot de blockchain is bijgewerkt_
 
 
 ![image](assets/en/03.webp)
 
-nieuwe Wallet instellen in Lightning Tab_
+_Stel een nieuwe wallet in op het Lightning-tabblad_
 
 
 ![image](assets/en/04.webp)
 
-_Scan QR Code met Node Management App_
+_Scan de QR-code met de Node Management-app_
 
 
 ![image](assets/en/05.webp)
 
-_Voor extra veiligheid stel een pincode in_
+_Stel een pincode in voor extra veiligheid_
 
 
-**Noot:** _Laat je Nakamochi node synchroniseren met de Blockchain. Dit proces kan enige tijd duren, afhankelijk van uw internetverbinding._
+**Opmerking:** _Laat uw Nakamochi-node synchroniseren met de blockchain. Dit proces kan enige tijd duren, afhankelijk van uw internetverbinding._
 
 
 
 ## Over de Lightning Network
 
+
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 De Bitcoin Lightning Network revolutioneert Bitcoin transacties door ze sneller, goedkoper en efficiënter te maken. Hij is perfect voor dagelijks gebruik en maakt bijna onmiddellijke betalingen met minimale kosten mogelijk, ideaal voor microtransacties zoals het kopen van een kopje koffie of het afhandelen van frequente kleine aankopen.
 
@@ -160,4 +164,4 @@ In het algemeen raden we aan om kanalen open te laten om kosten te besparen en d
 
 
 - [Over Nakamochi](https://nakamochi.io/)
-- [Inschrijven voor Nakamochi's nieuwsbrief](https://90c7addc.sibforms.com/serve/MUIFAHG7H5YBPpm-kZ8G6TuS-nmL4uaq85rlpBfI__S79tZ5jheIJfF3kJYudycgs_6_RUdDBkt8Sd7OyNL_JDTTJvOb36ifF6vcQoabBXKp4cbefzh1DYqnok_jItexICcQL13ucd2aS581ngqy7jr0Q1H3HhxV3z2eWKE5-Z-YMasj-MMotQeDvdorMCSi0XgCWDqs8rEMQC7E)
+- [Abonneer je op de nieuwsbrief van Nakamochi](https://90c7addc.sibforms.com/serve/MUIFAHG7H5YBPpm-kZ8G6TuS-nmL4uaq85rlpBfI__S79tZ5jheIJfF3kJYudycgs_6_RUdDBkt8Sd7OyNL_JDTTJvOb36ifF6vcQoabBXKp4cbefzh1DYqnok_jItexICcQL13ucd2aS581ngqy7jr0Q1H3HhxV3z2eWKE5-Z-YMasj-MMotQeDvdorMCSi0XgCWDqs8rEMQC7E)

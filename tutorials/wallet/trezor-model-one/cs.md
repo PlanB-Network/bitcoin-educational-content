@@ -201,7 +201,7 @@ Model One vytvoří frázi Mnemonic pomocí generátoru náhodných čísel. Uji
 
 
 
-***Samozřejmě nesmíte tato slova nikdy sdílet na internetu, jak to dělám v tomto návodu. Tento příklad Wallet bude použit pouze na Testnet a na konci tutoriálu bude odstraněn
+**Samozřejmě nesmíte tato slova nikdy sdílet na internetu, jak to dělám v tomto návodu. Tento příklad Wallet bude použit pouze na Testnet a na konci tutoriálu bude odstraněn**
 
 
 

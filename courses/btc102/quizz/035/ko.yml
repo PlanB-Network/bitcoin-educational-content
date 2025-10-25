@@ -1,0 +1,9 @@
+question: 호들러에게 권장되는 스토리지 솔루션은 무엇인가요?
+answer: Hardware Wallet
+wrong_answers:
+  - Hot Wallet
+  - 관리 서비스
+  - 종이 Wallet
+explanation: |
+  비트코인을 장기적으로 보유하는 호들러는 보안을 극대화하기 위해 Hardware Wallet를 사용해야 합니다.
+reviewed: false

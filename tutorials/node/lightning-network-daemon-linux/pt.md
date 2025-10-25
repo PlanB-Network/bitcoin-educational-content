@@ -28,8 +28,8 @@ Por outras palavras, com esta implementação, é possível :
 
 
 
-- Interagir com o Lightning Network**: Pode utilizar linhas de comando para criar carteiras Lightning, gerir canais e rotas de pagamento, e muito mais, diretamente a partir do terminal da sua máquina.
-- Vinculação de um nó Bitcoin remoto ou sua própria instância Bitcoin Core**: O LND permite que você vincule uma instância do Bitcoin e use-a como seu backend. Para usar esta implementação, não é necessário executar uma instância do Bitcoin Core na sua máquina.
+- **Interagir com o Lightning Network**: Pode utilizar linhas de comando para criar carteiras Lightning, gerir canais e rotas de pagamento, e muito mais, diretamente a partir do terminal da sua máquina.
+- **Vinculação de um nó Bitcoin remoto ou sua própria instância Bitcoin Core**: O LND permite que você vincule uma instância do Bitcoin e use-a como seu backend. Para usar esta implementação, não é necessário executar uma instância do Bitcoin Core na sua máquina.
 
 
 
@@ -57,10 +57,10 @@ Nesse sentido, a execução de um nó Lightning aumenta a segurança e a integri
 
 
 
-- Controlo total**: Gerir os seus próprios canais de pagamento, tornar-se o seu próprio banco e ser dono dos seus activos.
-- Confidencialidade**: Efectue transacções sem depender de terceiros para proteger a sua privacidade.
-- Aprendizagem e autonomia**: Graças aos comandos `lncli`, você pode entender melhor os processos subjacentes do Lightning aplicando-se a partir do seu terminal.
-- Descentralização**: Desempenhar um papel ativo no reforço e descentralização do Bitcoin / Lightning Network.
+- **Controlo total**: Gerir os seus próprios canais de pagamento, tornar-se o seu próprio banco e ser dono dos seus activos.
+- **Confidencialidade**: Efectue transacções sem depender de terceiros para proteger a sua privacidade.
+- **Aprendizagem e autonomia**: Graças aos comandos `lncli`, você pode entender melhor os processos subjacentes do Lightning aplicando-se a partir do seu terminal.
+- **Descentralização**: Desempenhar um papel ativo no reforço e descentralização do Bitcoin / Lightning Network.
 
 
 
@@ -83,7 +83,7 @@ Como o LND é escrito em Go, é necessário certificar-se de que tem o ambiente 
 
 
 
-- Requisitos de hardware:**
+- **Requisitos de hardware:**
 
 
 Para uma experiência suave e sem interrupções, a sua máquina terá de ter a capacidade necessária para executar o nó LND Lightning.
@@ -105,7 +105,7 @@ Necessita de :
 
 
 
-- Instalar dependências úteis:**
+- **Instalar dependências úteis:**
 
 
 O comando abaixo permitirá que você instale em sua máquina as ferramentas necessárias para executar o LND. Entre outras coisas, será necessário instalar o `Git`, uma ferramenta de versionamento, e o `make`, que pode executar e construir a implementação do LND a partir do código fonte.
@@ -124,11 +124,11 @@ sudo apt install -y build-essential git make
 
 
 
-- Instalar o GoLang na sua máquina Linux**
+- **Instalar o GoLang na sua máquina Linux**
 
 
 
-A partir da data deste tutorial, o LND requer a versão 1.23.6 do Go*** para instalação.
+A partir da data deste tutorial, o LND requer a versão 1.23.6 do **Go** para instalação.
 
 
 
@@ -156,7 +156,7 @@ sudo tar -C /usr/local -xzf go1.23.6.linux-amd64.tar.gz
 
 
 
-- Configuração do ambiente Go**
+- **Configuração do ambiente Go**
 
 
 No seu arquivo `~/.bashrc`, inicialize as seguintes variáveis de ambiente para adicionar o Go ao seu sistema Linux.
@@ -178,7 +178,7 @@ source ~/.bashrc
 
 
 
-- Verificação da instalação** (em francês)
+- **Verificação da instalação** (em francês)
 
 
 ```bash
@@ -239,7 +239,7 @@ make install
 
 
 
-- Verificar a sua instalação** (em francês)
+- **Verificar a sua instalação** (em francês)
 
 
 
@@ -334,37 +334,37 @@ Com base no conteúdo do ficheiro `~/.LND/LND.conf`, eis os detalhes dos campos:
 
 
 
-- noseedbackup**: Permite-lhe escolher se quer que o LND faça backups automáticos dos seus portfólios.  Definir esta propriedade como `0` permite-lhe guardar manualmente as informações de restauração num local seguro escolhido pessoalmente.
+- **noseedbackup**: Permite-lhe escolher se quer que o LND faça backups automáticos dos seus portfólios.  Definir esta propriedade como `0` permite-lhe guardar manualmente as informações de restauração num local seguro escolhido pessoalmente.
 
 
 
 
 
-- debuglevel**: Permite definir o nível de detalhe dos erros e dos registos no caso de ocorrerem erros durante uma ação.
+- **debuglevel**: Permite definir o nível de detalhe dos erros e dos registos no caso de ocorrerem erros durante uma ação.
 
 
 
 
 
-- Bitcoin.active**: Instrui o LND a funcionar como um nó Bitcoin e a interagir com a rede Bitcoin.
+- **Bitcoin.active**: Instrui o LND a funcionar como um nó Bitcoin e a interagir com a rede Bitcoin.
 
 
 
 
 
-- Bitcoin.Mainnet**: Especifica o LND para se ligar à rede principal do Bitcoin (Mainnet), pode definir os valores `bitcoind.signet` e `bitcoind.regtest` respetivamente para as redes Bitcoin Signet e Bitcoin Regtest
+- **Bitcoin.Mainnet**: Especifica o LND para se ligar à rede principal do Bitcoin (Mainnet), pode definir os valores `bitcoind.signet` e `bitcoind.regtest` respetivamente para as redes Bitcoin Signet e Bitcoin Regtest
 
 
 
 
 
-- Bitcoin.node**: Especifica o tipo de nó Bitcoin ao qual o LND se deve ligar.
+- **Bitcoin.node**: Especifica o tipo de nó Bitcoin ao qual o LND se deve ligar.
 
 
 
 
 
-- Bitcoin.rpcuser** e **Bitcoin.rpcpassword** : Representar.
+- **Bitcoin.rpcuser** e **Bitcoin.rpcpassword**: Representar.
 
 
 respetivamente os logins (utilizador, palavra-passe) para ligar ao seu nó Bitcoin
@@ -373,7 +373,7 @@ respetivamente os logins (utilizador, palavra-passe) para ligar ao seu nó Bitco
 
 
 
-- bitcoind.zmqpubrawblock** e **bitcoind.zmqpubrawtx**: definem, respetivamente, pontos finais ZeroMQ para receber notificações sobre novos blocos e transacções na rede Bitcoin.
+- **bitcoind.zmqpubrawblock** e **bitcoind.zmqpubrawtx**: definem, respetivamente, pontos finais ZeroMQ para receber notificações sobre novos blocos e transacções na rede Bitcoin.
 
 
 
@@ -492,9 +492,9 @@ Para se ligar a um par (Lightning node), são necessárias três informações:
 
 
 
-- A chave pública do nó**: Este é o identificador único do nó na rede Bitcoin;
-- IP** : O IP da máquina em que o nó está instalado;
-- PORT** :  A porta aberta na máquina que permite a comunicação com este nó.
+- **A chave pública do nó**: Este é o identificador único do nó na rede Bitcoin;
+- **IP**: O IP da máquina em que o nó está instalado;
+- **PORT**: A porta aberta na máquina que permite a comunicação com este nó.
 
 
 
@@ -519,25 +519,25 @@ Certifique-se de que se liga a **nós fiáveis** para preservar a integridade do
 
 
 
-- Diversificação geográfica**: Ligação a nós em diferentes regiões.
+- **Diversificação geográfica**: Ligação a nós em diferentes regiões.
 
 
 
 
 
-- Reputação**: Escolher nós com boa disponibilidade.
+- **Reputação**: Escolher nós com boa disponibilidade.
 
 
 
 
 
-- Capacidade**: Escolher nós com boa liquidez.
+- **Capacidade**: Escolher nós com boa liquidez.
 
 
 
 
 
-- Encargos**: Encargos de encaminhamento de cheques.
+- **Encargos**: Encargos de encaminhamento de cheques.
 
 
 ### Abrir um canal de pagamento
@@ -590,7 +590,7 @@ Existem duas formas de fechar um canal ativo no seu nó atual.
 
 
 
-- Encerramento cooperativo**: Este procedimento assinala o desejo do nó de se retirar do canal de pagamento, garantindo que as tarefas em curso são concluídas e que é feita uma cópia de segurança dos dados para evitar a perda de fundos.
+- **Encerramento cooperativo**: Este procedimento assinala o desejo do nó de se retirar do canal de pagamento, garantindo que as tarefas em curso são concluídas e que é feita uma cópia de segurança dos dados para evitar a perda de fundos.
 
 
 ```
@@ -600,7 +600,7 @@ lncli closechannel <ID_CANAL>
 
 
 
-- Encerramento forçado**: ⚠️ A evitar se possível, esta ação interrompe os processos em curso no seu canal de pagamento e aumenta o risco de perda de fundos.
+- **Encerramento forçado**: ⚠️ A evitar se possível, esta ação interrompe os processos em curso no seu canal de pagamento e aumenta o risco de perda de fundos.
 
 
 ```
@@ -653,9 +653,9 @@ lncli restorechanbackup <CHEMIN_DU_FICHIER>
 
 
 
-- Erro de ligação do bitcoind** : Verifique os seus dados de início de sessão do RPC
-- Sincronização bloqueada** : Verifique a sua ligação à Internet
-- Erro de permissão**: Verificar os direitos da pasta `~/.LND`
+- **Erro de ligação do bitcoind**: Verifique os seus dados de início de sessão do RPC
+- **Sincronização bloqueada**: Verifique a sua ligação à Internet
+- **Erro de permissão**: Verificar os direitos da pasta `~/.LND`
 
 
 

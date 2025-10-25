@@ -73,7 +73,7 @@ Banxaasi veebiplatvorm on minimalistlik ja intuitiivne, võimaldades teil oma te
 
 
 
-- CFA frangist satoshi** :
+- **CFA frangist satoshi**:
 
 
 
@@ -114,7 +114,7 @@ Kinnitage oma tehing, klõpsates nupule **Troc**, et osta bitcoine oma CFA frang
 
 
 
-- Alates Satoshist kuni CFA frankini**
+- Alates Satoshist kuni **CFA frankini**
 
 
 

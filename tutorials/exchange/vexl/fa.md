@@ -1,5 +1,5 @@
 ---
-name: وکسل
+name: Vexl
 description: خرید و فروش BTC طبق برنامه اصلی، در P2P
 ---
 

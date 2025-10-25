@@ -5,5 +5,5 @@ wrong_answers:
   - Le fichier listant les signatures des développeurs
   - Le code source complet du projet
 explanation: |
-  Le fichier manifest ou SHA256SUMS contient le hash de chaque fichier distribué par le projet et permet de vérifier leur intégrité.
+  Le fichier MANIFEST ou SHA256SUMS contient le hash de chaque fichier distribué par le projet et permet de vérifier leur intégrité.
 reviewed: false

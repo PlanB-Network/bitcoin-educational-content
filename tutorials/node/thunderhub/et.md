@@ -19,10 +19,10 @@ ThunderHub on **avatud lähtekoodiga Lightning-sõlmede (LND)** haldur, mis paku
 
 
 
-- Järelevalve**: Saldode, kanalite, tehingute ja marsruutimisstatistika üldine vaade
-- Juhtimine**: Kanalite avamine/sulgemine, sissetulevad/väljaminevad maksed, kanalite tasakaalustamine
-- Integratsioonid**: LNURL tugi, vahetused Boltz'i kaudu, Amboss varundamine
-- Interface reageerib**: Ühildub mobiili, tahvelarvuti ja lauaarvuti seadmetega tumedate/heledate teemadega
+- **Järelevalve**: Saldode, kanalite, tehingute ja marsruutimisstatistika üldine vaade
+- **Juhtimine**: Kanalite avamine/sulgemine, sissetulevad/väljaminevad maksed, kanalite tasakaalustamine
+- **Integratsioonid**: LNURL tugi, vahetused Boltz'i kaudu, Amboss varundamine
+- **Interface reageerib**: Ühildub mobiili, tahvelarvuti ja lauaarvuti seadmetega tumedate/heledate teemadega
 
 
 
@@ -30,7 +30,7 @@ ThunderHub integreerub hõlpsasti **Umbrel**, **Voltage**, **RaspiBlitz** ja **M
 
 
 
-**ThunderHub sobib eriti hästi operaatoritele, kes otsivad ergonoomilist Interface kanalite haldamiseks, likviidsuse kontrollimiseks (tasakaalustamine), tehingute jälgimiseks ja kolmandate osapoolte teenuste, nagu Amboss, integreerimiseks. Turvalisus on tagatud kohaliku või Tor-ühenduse kaudu.
+**ThunderHub sobib eriti hästi operaatoritele, kes otsivad ergonoomilist Interface kanalite haldamiseks, likviidsuse kontrollimiseks (tasakaalustamine), tehingute jälgimiseks ja kolmandate osapoolte teenuste, nagu Amboss, integreerimiseks. Turvalisus on tagatud kohaliku või Tor-ühenduse kaudu.**
 
 
 
@@ -58,8 +58,8 @@ Umbrel integreerib ThunderHubi oma **App Store'i**, mis muudab installimise ää
 
 
 
-- Avage Umbrel armatuurlaud**: Ühendage oma Umbreli sõlme Interface veebiga (nt `http://umbrel.local` oma kohalikus võrgus või selle `.onion` Address kaudu, kui kasutate Tor'i).
-- Juurdepääs App Store'ile**: Umbreli peamenüüs klõpsake "App Store" (või "App"). Otsige saadaval olevate rakenduste nimekirjast **ThunderHub**.
+- **Avage Umbrel armatuurlaud**: Ühendage oma Umbreli sõlme Interface veebiga (nt `http://umbrel.local` oma kohalikus võrgus või selle `.onion` Address kaudu, kui kasutate Tor'i).
+- **Juurdepääs App Store'ile**: Umbreli peamenüüs klõpsake "App Store" (või "App"). Otsige saadaval olevate rakenduste nimekirjast **ThunderHub**.
 
 
 
@@ -69,13 +69,13 @@ Umbrel integreerib ThunderHubi oma **App Store'i**, mis muudab installimise ää
 
 
 
-- Paigaldage ThunderHub**: Klõpsake ThunderHubi rakendusel ja seejärel nupul install. Vajaduse korral kinnitage. Umbrel laeb automaatselt alla ja paigaldab ThunderHubi teie sõlme.
+- Paigaldage **ThunderHub**: Klõpsake ThunderHubi rakendusel ja seejärel nupul install. Vajaduse korral kinnitage. Umbrel laeb automaatselt alla ja paigaldab ThunderHubi teie sõlme.
 
 
 
 
 
-- Käivitage rakendus**: Kui paigaldus on lõpule viidud (mõned kümned sekundid), ilmub ThunderHub teie avalehele. Selle avamiseks klõpsake ikoonil. ThunderHub käivitub teie brauseris.
+- **Käivitage rakendus**: Kui paigaldus on lõpule viidud (mõned kümned sekundid), ilmub ThunderHub teie avalehele. Selle avamiseks klõpsake ikoonil. ThunderHub käivitub teie brauseris.
 
 
 
@@ -88,8 +88,8 @@ Umbrel integreerib ThunderHubi oma **App Store'i**, mis muudab installimise ää
 
 
 
-- Salvesta see parool kohe** oma paroolihaldurisse
-- Kopeeri see** kasutamiseks järgmises etapis
+- **Salvesta see parool kohe** oma paroolihaldurisse
+- Kopeeri see kasutamiseks järgmises etapis
 - Märkige "Ära näita seda uuesti", kui parool on salvestatud
 
 
@@ -127,8 +127,8 @@ Väljaspool Umbrelit (nt isiklikul serveril, Raspberry Pi koos RaspiBlitziga võ
 
 
 
-- Node.js** versioon 18 või uuem
-- npm** paigaldatud
+- **Node.js** versioon 18 või uuem
+- **npm** paigaldatud
 - Juurdepääs LND autentimisfailidele :
   - LND TLS sertifikaat (`tls.cert`)
   - LND administreerimise makaron (`admin.macaroon`)
@@ -304,8 +304,8 @@ Ilmub ThunderHubi sisselogimisleht. Valige konfigureeritud konto ja sisestage pa
 
 
 
-- Paigaldamine:** [docs.thunderhub.io/installation](https://docs.thunderhub.io/installation)
-- Konfiguratsioon:** [docs.thunderhub.io/setup](https://docs.thunderhub.io/setup)
+- **Paigaldamine:** [docs.thunderhub.io/installation](https://docs.thunderhub.io/installation)
+- **Konfiguratsioon:** [docs.thunderhub.io/setup](https://docs.thunderhub.io/setup)
 
 
 
@@ -327,18 +327,18 @@ Interface ThunderHub on üles ehitatud peamenüü ümber (tavaliselt kuvatakse v
 
 
 
-- Avaleht** - Avaleht, kus on üldine armatuurlaud (ülevaade teie sõlme ja kiirtehingute kohta).
-- Armatuurlaud** - Kohandatav armatuurlaud koos vidinate ja täiustatud mõõdikutega.
-- Peers** - Lightning peer management (ühendused teiste sõlmedega).
-- Kanalid** - välgukanalite üksikasjalik haldamine.
-- Rebalance** - kanalite tasakaalustamise vahend (ringmaksed).
-- Tehingud** - välkmaksete ajalugu (LN tehingud).
-- Edasi** - marsruutimisstatistika (teie sõlme poolt edastatud maksed).
-- Kett** - Node'i On-Chain portfell (On-Chain BTC: UTXOs, tehingud).
-- Amboss** - integratsioon Ambossiga (sõlmede jälgimine, varundamine jne).
-- Tööriistad** - mitmesugused tööriistad (varukoopiad, allkirjastatud sõnumid, makaronid, aruanded jne).
-- Vahetus** - On-Chain/Lightning vahetusfunktsioonid Boltzi kaudu.
-- Stats** - Täiustatud statistika ja sõlmede jõudlusnäitajad.
+- **Avaleht** - Avaleht, kus on üldine armatuurlaud (ülevaade teie sõlme ja kiirtehingute kohta).
+- **Armatuurlaud** - Kohandatav armatuurlaud koos vidinate ja täiustatud mõõdikutega.
+- **Peers** - Lightning peer management (ühendused teiste sõlmedega).
+- **Kanalid** - välgukanalite üksikasjalik haldamine.
+- **Rebalance** - kanalite tasakaalustamise vahend (ringmaksed).
+- **Tehingud** - välkmaksete ajalugu (LN tehingud).
+- **Edasi** - marsruutimisstatistika (teie sõlme poolt edastatud maksed).
+- **Kett** - Node'i On-Chain portfell (On-Chain BTC: UTXOs, tehingud).
+- **Amboss** - integratsioon Ambossiga (sõlmede jälgimine, varundamine jne).
+- **Tööriistad** - mitmesugused tööriistad (varukoopiad, allkirjastatud sõnumid, makaronid, aruanded jne).
+- **Vahetus** - On-Chain/Lightning vahetusfunktsioonid Boltzi kaudu.
+- **Stats** - Täiustatud statistika ja sõlmede jõudlusnäitajad.
 
 
 
@@ -360,32 +360,32 @@ ThunderHubi vahekaart **Kodu** on avaleht, mis ilmub pärast sisselogimist. See 
 
 
 
-- Saldod ja mahud:** Lehe ülaosas näitab ThunderHub teie olemasolevaid saldosid. Siin näete tavaliselt On-Chain saldot (Bitcoin On-Chain sõlme Wallet, mida sümboliseerib Anchor ⚓) ja Lightning saldot (teie kanalite võimsused, mida sümboliseerib välk Bolt ⚡). See annab teile otsese ettekujutuse teie vahenditest On-Chain ja Lightning. Kui teil on mitu kontot või kanalit, veenduge, et teil on õige konto (nt Mainnet vs Testnet).
+- **Saldod ja mahud:** Lehe ülaosas näitab ThunderHub teie olemasolevaid saldosid. Siin näete tavaliselt On-Chain saldot (Bitcoin On-Chain sõlme Wallet, mida sümboliseerib Anchor ⚓) ja Lightning saldot (teie kanalite võimsused, mida sümboliseerib välk Bolt ⚡). See annab teile otsese ettekujutuse teie vahenditest On-Chain ja Lightning. Kui teil on mitu kontot või kanalit, veenduge, et teil on õige konto (nt Mainnet vs Testnet).
 
 
 
 
 
-- Põhistatistika:** Armatuurlaual saab kuvada teie sõlme kohta mõningaid üldisi näitajaid - näiteks avatud kanalite arv, ühendatud eakaaslaste arv, teenitud marsruutimistasud (kui see on kohaldatav) jne. See on kokkuvõte sõlme hiljutisest aktiivsusest ja tervisest.
+- **Põhistatistika:** Armatuurlaual saab kuvada teie sõlme kohta mõningaid üldisi näitajaid - näiteks avatud kanalite arv, ühendatud eakaaslaste arv, teenitud marsruutimistasud (kui see on kohaldatav) jne. See on kokkuvõte sõlme hiljutisest aktiivsusest ja tervisest.
 
 
 
 
 
-- Kiiretoimingud:** Armatuurlaual on nupud kõige tavalisemate ülesannete kiireks täitmiseks, ilma et oleks vaja menüüdes navigeerida. Need kiiretoimingud hõlmavad järgmist:
+- **Kiiretoimingud:** Armatuurlaual on nupud kõige tavalisemate ülesannete kiireks täitmiseks, ilma et oleks vaja menüüdes navigeerida. Need kiiretoimingud hõlmavad järgmist:
 
 
 
 
 
-  - Kummitus**: Seadistage Amboss'i kaudu kohandatud Lightning Address.
-  - Annetada**: Tehke annetus välklambi kaudu.
-  - Logi sisse/kuuluta**: Ühendage oma Amboss'i kontoga (Quick Connect) ja minge otse Amboss.space'i, et vaadata oma sõlme teavet.
-  - Address** : Makse tegemiseks sisestage Lightning Address.
-  - Avatud**: Avage uus Lightning-kanal. Klõpsates avaneb vorm, kuhu sisestatakse selle kaugsõlme URI, millele kanal avada, ning summa ja vajaduse korral maksimaalne On-Chain tasu, mida tuleb kasutada.
-  - Dekodeeri**: Dekodeerige Lightning Invoice või LNURL, et vaadata üksikasju enne maksmist.
-  - LNURL**: Töötlema LNURLi välkmaksete või väljamaksete tegemiseks.
-  - LnMarkets sisselogimine**: Logi sisse LnMarkets kauplemiseks.
+- **Kummitus**: Seadistage Amboss'i kaudu kohandatud Lightning Address.
+- **Annetada**: Tehke annetus välklambi kaudu.
+- **Logi sisse/kuuluta**: Ühendage oma Amboss'i kontoga (Quick Connect) ja minge otse Amboss.space'i, et vaadata oma sõlme teavet.
+- **Address**: Makse tegemiseks sisestage Lightning Address.
+- **Avatud**: Avage uus Lightning-kanal. Klõpsates avaneb vorm, kuhu sisestatakse selle kaugsõlme URI, millele kanal avada, ning summa ja vajaduse korral maksimaalne On-Chain tasu, mida tuleb kasutada.
+- **Dekodeeri**: Dekodeerige Lightning Invoice või LNURL, et vaadata üksikasju enne maksmist.
+- **LNURL**: Töötlema LNURLi välkmaksete või väljamaksete tegemiseks.
+- **LnMarkets sisselogimine**: Logi sisse LnMarkets kauplemiseks.
 
 
 
@@ -407,7 +407,7 @@ Jaotis **Dashboard** on vahekaardist Home eraldi ja pakub täiustatud, kohandata
 
 
 
-- Kohandatavad vidinad:** Erinevalt avalehelt, millel on fikseeritud paigutus, saate juhtpaneelil täpselt valida, milliseid Elements kuvada ja kuidas neid korraldada.
+- **Kohandatavad vidinad:** Erinevalt avalehelt, millel on fikseeritud paigutus, saate juhtpaneelil täpselt valida, milliseid Elements kuvada ja kuidas neid korraldada.
 
 
 
@@ -445,19 +445,19 @@ Pärast seadistamist saab teie armatuurlaual kuvada erinevaid graafikuid ja mõ�
 
 
 
-- Täiustatud mõõdikud:** Juurdepääs üksikasjalikumale statistikale sõlme jõudluse kohta koos graafikute ja reaalajas andmetega.
+- **Täiustatud mõõdikud:** Juurdepääs üksikasjalikumale statistikale sõlme jõudluse kohta koos graafikute ja reaalajas andmetega.
 
 
 
 
 
-- Konfigureeritav ülevaade:** Kohandage ekraan vastavalt sellele, kas olete juhuslik kasutaja või professionaalne operaator, kes haldab mitut marsruutimiskanalit.
+- **Konfigureeritav ülevaade:** Kohandage ekraan vastavalt sellele, kas olete juhuslik kasutaja või professionaalne operaator, kes haldab mitut marsruutimiskanalit.
 
 
 
 
 
-- Modulaarne Interface:** Lisage või eemaldage vidinaid vastavalt vajadusele: edasisuunamisgraafikud, likviidsusmõõdikud, sõlmede tervisehoiatused jne.
+- **Modulaarne Interface:** Lisage või eemaldage vidinaid vastavalt vajadusele: edasisuunamisgraafikud, likviidsusmõõdikud, sõlmede tervisehoiatused jne.
 
 
 
@@ -483,8 +483,8 @@ Vahelehel näete :
 
 
 
-- Teabesambad:** Interface kuvab kasulikke andmeid, nagu sünkroniseerimise staatus, ühenduse tüüp (clearnet või Tor), ping, vastuvõetud/saadetud satoshid ja vahetatud andmete maht.
-- Peer'i lisamine:** ThunderHub võimaldab teil käsitsi uue peer'iga ühenduda **"Lisa "** nupu abil üleval paremas nurgas. Sa pead sisestama sõlme URI (formaat `<avalik_võti>@<socket>`). Pärast valideerimist saadab ThunderHub vastava käsu `lncli connect`. Kui sõlm on võrgus ja kättesaadav, lisatakse see teie partnerite nimekirja.
+- **Teabesambad:** Interface kuvab kasulikke andmeid, nagu sünkroniseerimise staatus, ühenduse tüüp (clearnet või Tor), ping, vastuvõetud/saadetud satoshid ja vahetatud andmete maht.
+- **Peer'i lisamine:** ThunderHub võimaldab teil käsitsi uue peer'iga ühenduda **"Lisa"** nupu abil üleval paremas nurgas. Sa pead sisestama sõlme URI (formaat `<avalik_võti>@<socket>`). Pärast valideerimist saadab ThunderHub vastava käsu `lncli connect`. Kui sõlm on võrgus ja kättesaadav, lisatakse see teie partnerite nimekirja.
 
 
 
@@ -506,31 +506,31 @@ Kanalite lehel leiate järgmist:
 
 
 
-- Kanalite loendi vaade:** Iga avatud (või avanev/sulgev) kanal on loetletud, tavaliselt koos kaugkeskuse aliasiga, kanali koguvõimsusega ja värvilise ribaga, mis näitab kohaliku ja kaugliikuvuse jaotust. ThunderHub kasutab kanali tasakaalu näitamiseks värvikoodi (sageli sinine/Green) või protsenti: näiteks sinine tähistab teie kohalikku osakaalu, Green kaugosakut. Kui kanal on täiesti tasakaalus (50/50), on tulp mõlemast värvist pool. See võimaldab teil ühe pilguga tuvastada, millised kanalid on tasakaalustamata (kõik sinised = peaaegu kõik kohalikud, kõik Green = peaaegu kõik kaugkanalid).
+- **Kanalite loendi vaade:** Iga avatud (või avanev/sulgev) kanal on loetletud, tavaliselt koos kaugkeskuse aliasiga, kanali koguvõimsusega ja värvilise ribaga, mis näitab kohaliku ja kaugliikuvuse jaotust. ThunderHub kasutab kanali tasakaalu näitamiseks värvikoodi (sageli sinine/Green) või protsenti: näiteks sinine tähistab teie kohalikku osakaalu, Green kaugosakut. Kui kanal on täiesti tasakaalus (50/50), on tulp mõlemast värvist pool. See võimaldab teil ühe pilguga tuvastada, millised kanalid on tasakaalustamata (kõik sinised = peaaegu kõik kohalikud, kõik Green = peaaegu kõik kaugkanalid).
 
 
 
 
 
-- Teabesambad:** Interface kuvab üksikasjalikud veerud, sealhulgas olek, olemasolevad tegevused, partnerite andmed, kanali ID, võimsus, aktiivsus, tasud ja saldo koos graafilise likviidsuse kuvamisega.
+- **Teabesambad:** Interface kuvab üksikasjalikud veerud, sealhulgas olek, olemasolevad tegevused, partnerite andmed, kanali ID, võimsus, aktiivsus, tasud ja saldo koos graafilise likviidsuse kuvamisega.
 
 
 
 
 
-- Ekraani konfigureerimine:** Paremas ülemises nurgas asuv hammasratas võimaldab teil kohandada kanali kuvamist vastavalt oma eelistustele.
+- **Ekraani konfigureerimine:** Paremas ülemises nurgas asuv hammasratas võimaldab teil kohandada kanali kuvamist vastavalt oma eelistustele.
 
 
 
 
 
-- Staatus:** Näete ka staatuse indikaatoreid - nt "Aktiivne" (kanal on avatud ja töökorras), "Offline" (partner on lahti ühendatud, nii et kanal on hetkel kasutamiskõlbmatu), "Ootel" (avamise või sulgemise puhul ootab On-Chain kinnitust).
+- **Staatus:** Näete ka staatuse indikaatoreid - nt "Aktiivne" (kanal on avatud ja töökorras), "Offline" (partner on lahti ühendatud, nii et kanal on hetkel kasutamiskõlbmatu), "Ootel" (avamise või sulgemise puhul ootab On-Chain kinnitust).
 
 
 
 
 
-- Tegevused kanalil:** ThunderHub pakub iga kanali jaoks tegevusnuppe (sageli ikoonide kujul):
+- **Tegevused kanalil:** ThunderHub pakub iga kanali jaoks tegevusnuppe (sageli ikoonide kujul):
 
 
 
@@ -540,9 +540,9 @@ Kanalite lehel leiate järgmist:
 
 
 
-  - Muuda tasusid:** Interface "Update Channel Policy" võimaldab teil kohandada kõiki kanali parameetreid: Põhitasu, tasumäär (ppm), CLTV delta, Max HTLC ja Min HTLC. See võimaldab teil kohandada oma tasupoliitikat individuaalselt iga kanali kohta, eesmärgiga meelitada (või heidutada) marsruutimisliiklust. *(Märkus: ThunderHub ei asenda automaatset tasude haldamise vahendit, kuid käsitsi reguleerimiseks on see väga tõhus)*
-  - Sulge kanal (*Sulge*)**: Interface "Sulge kanal" annab teile võimaluse valida **kooperatiivse sulgemise** (vaikimisi) või **vajutatud sulgemise** (*Force Close*) vahel, määratledes tasud (Sats/vByte). **Tähtis:** Eelistage võimaluse korral alati kooperatiivset sulgemist, et vältida On-Chain arveldamise viivitusi ja suuremaid tasusid. ThunderHub ütleb teile, kas vastaspool on võrgus (võimalik koostöö) või mitte. Force close'i korral kinnitage kindlasti, sest see on pöördumatu ja käivitab pühkimistehingu koos timelockiga (tavaliselt 144 plokki või ~1 päev Bitcoin Mainnet puhul).
-  - Uue kanali avamine:** Uue kanali avamiseks klõpsake kanalite lehe paremal ülaosas oleval hammasrattaotsikul ja valige "Ava". Seejärel saate algatada kanali uuele või olemasolevale eakaaslasele. Selle lehe kasutamise eelis on see, et teil on ees nimekiri olemasolevatest kanalitest, mis aitab teil otsustada, kus uut kanalit avada.
+- **Muuda tasusid:** Interface "Update Channel Policy" võimaldab teil kohandada kõiki kanali parameetreid: Põhitasu, tasumäär (ppm), CLTV delta, Max HTLC ja Min HTLC. See võimaldab teil kohandada oma tasupoliitikat individuaalselt iga kanali kohta, eesmärgiga meelitada (või heidutada) marsruutimisliiklust. *(Märkus: ThunderHub ei asenda automaatset tasude haldamise vahendit, kuid käsitsi reguleerimiseks on see väga tõhus)*
+- Sulge kanal (**Sulge**): Interface "Sulge kanal" annab teile võimaluse valida **kooperatiivse sulgemise** (vaikimisi) või **vajutatud sulgemise** (*Force Close*) vahel, määratledes tasud (Sats/vByte). **Tähtis:** Eelistage võimaluse korral alati kooperatiivset sulgemist, et vältida On-Chain arveldamise viivitusi ja suuremaid tasusid. ThunderHub ütleb teile, kas vastaspool on võrgus (võimalik koostöö) või mitte. Force close'i korral kinnitage kindlasti, sest see on pöördumatu ja käivitab pühkimistehingu koos timelockiga (tavaliselt 144 plokki või ~1 päev Bitcoin Mainnet puhul).
+- **Uue kanali avamine:** Uue kanali avamiseks klõpsake kanalite lehe paremal ülaosas oleval hammasrattaotsikul ja valige "Ava". Seejärel saate algatada kanali uuele või olemasolevale eakaaslasele. Selle lehe kasutamise eelis on see, et teil on ees nimekiri olemasolevatest kanalitest, mis aitab teil otsustada, kus uut kanalit avada.
 
 
 
@@ -568,41 +568,41 @@ ThunderHub lihtsustab seda toimingut oluliselt, mis muidu oleks käsureal tüüt
 
 
 
-- Esialgne kanali vaade:** Uuesti tasakaalustamisse sisenedes kuvab ThunderHub teie kanalite nimekirja, kus iga kanali kohta on tasakaalunäitaja (sarnaselt kanalite lehel olevale). Näete kohe, millised kanalid on tasakaalust väljas. ThunderHub saab kanalid sorteerida tasakaalu suurenemise järjekorras, nii et kõige tasakaalustamata kanalid paistavad nimekirja ülaosas (0,0 tähendab täielikult kohalikke või kaugkasutatavaid kanaleid).
+- **Esialgne kanali vaade:** Uuesti tasakaalustamisse sisenedes kuvab ThunderHub teie kanalite nimekirja, kus iga kanali kohta on tasakaalunäitaja (sarnaselt kanalite lehel olevale). Näete kohe, millised kanalid on tasakaalust väljas. ThunderHub saab kanalid sorteerida tasakaalu suurenemise järjekorras, nii et kõige tasakaalustamata kanalid paistavad nimekirja ülaosas (0,0 tähendab täielikult kohalikke või kaugkasutatavaid kanaleid).
 
 
 
 
 
-- Peeride valik:** Interface võimaldab lihtsasti valida väljaminevad ja sissetulevad peerid tasakaalustamiseks.
+- **Peeride valik:** Interface võimaldab lihtsasti valida väljaminevad ja sissetulevad peerid tasakaalustamiseks.
 
 
 
 
 
-- Parameetri seaded:** Saate määrata :
+- **Parameetri seaded:** Saate määrata :
   - **maksimaalne tasu** (Sats ja ppm), mida olete valmis maksma
   - **Tasakaalustatav summa** valikuga "Fikseeritud" või "Eesmärk"
-  - Sõlmed, mida tuleb marsruutimisel vältida**
-  - Maksimaalne katseaeg** marsruudi leidmiseks
+- **Sõlmed, mida tuleb marsruutimisel vältida**
+- **Maksimaalne katseaeg** marsruudi leidmiseks
 
 
 
 
 
-- Valige **allikas**** kanal: Valige kõigepealt **väljaminev (allikas)** kanal, st kanal, millest teil on liiga palju kohalikku likviidsust, et seda liigutada. Praktikas on see kanal, kus teie kohalik osakaal on suur (> 50%). Kujutame ette A-kanalit, kus on 1 000 000 Satss, millest 900 000 on kohalik - hea kandidaat Satsside saatmiseks mujale. Klõpsates sellel A-kanalil kui "väljamineval", märgistab ThunderHub selle allikaks.
+- Valige **allikas** kanal: Valige kõigepealt **väljaminev (allikas)** kanal, st kanal, millest teil on liiga palju kohalikku likviidsust, et seda liigutada. Praktikas on see kanal, kus teie kohalik osakaal on suur (> 50%). Kujutame ette A-kanalit, kus on 1 000 000 Satss, millest 900 000 on kohalik - hea kandidaat Satsside saatmiseks mujale. Klõpsates sellel A-kanalil kui "väljamineval", märgistab ThunderHub selle allikaks.
 
 
 
 
 
-- Valige **sihtkanal****: Järgmisena valige **saabuv (siht)** kanal, mis peab saama likviidsust. Tavaliselt on see kanal, kus see on vastupidi - enamik vahendeid on kaugemal (nt ainult 100 000 kohalikku Satsi 1 000 000-st). ThunderHub sorteerib pärast lähtekanali valimist teised kanalid vastupidises järjekorras (vähenev tasakaal), et aidata tuvastada kõige täiendavamad kanalid. Valige B-kanal, millel on ruumi kohalikul poolel. ThunderHub näitab seejärel selgelt, millised kaks kanalit on valitud (allikas A ja sihtpunkt B).
+- Valige **sihtkanal**: Järgmisena valige **saabuv (siht)** kanal, mis peab saama likviidsust. Tavaliselt on see kanal, kus see on vastupidi - enamik vahendeid on kaugemal (nt ainult 100 000 kohalikku Satsi 1 000 000-st). ThunderHub sorteerib pärast lähtekanali valimist teised kanalid vastupidises järjekorras (vähenev tasakaal), et aidata tuvastada kõige täiendavamad kanalid. Valige B-kanal, millel on ruumi kohalikul poolel. ThunderHub näitab seejärel selgelt, millised kaks kanalit on valitud (allikas A ja sihtpunkt B).
 
 
 
 
 
-- Tasu summa ja tolerantsi määramine:** Vorm võimaldab sisestada :
+- **Tasu summa ja tolerantsi määramine:** Vorm võimaldab sisestada :
 
 
 
@@ -615,19 +615,19 @@ ThunderHub lihtsustab seda toimingut oluliselt, mis muidu oleks käsureal tüüt
 
 
 
-- Marsruudi leidmine:** Marsruudi leidmiseks klõpsake nupule. ThunderHub küsib LND-lt, et arvutada marsruut teie lähtekanalist läbi võrgu teie enda sihtkanalini. Kui ta leiab võimaliku marsruudi, mis vastab teie tasukriteeriumidele, kuvab ta selle koos üksikasjadega hüpete ja tasukulude kohta. Näiteks võib see näidata, et ta on leidnud 3-hobujõulise tee, mille tasudeks on kokku 2 Sats.
+- **Marsruudi leidmine:** Marsruudi leidmiseks klõpsake nupule. ThunderHub küsib LND-lt, et arvutada marsruut teie lähtekanalist läbi võrgu teie enda sihtkanalini. Kui ta leiab võimaliku marsruudi, mis vastab teie tasukriteeriumidele, kuvab ta selle koos üksikasjadega hüpete ja tasukulude kohta. Näiteks võib see näidata, et ta on leidnud 3-hobujõulise tee, mille tasudeks on kokku 2 Sats.
 
 
 
 
 
-- Alusta tasakaalustamist:** Kui oled kavandatud marsruudiga rahul, klõpsa **Tasakaalukanal**. Seejärel algatab ThunderHub LND kaudu ringmakse. Kui makse on edukas, näete teate õnnestumise kohta ning kanalite A ja B saldod muutuvad reaalajas. ThunderHub ajakohastab nende kanalite saldoindikaatorit (ideaalis on see rohelisem kui varem, mis näitab paremat saldot).
+- Alusta tasakaalustamist: Kui oled kavandatud marsruudiga rahul, klõpsa **Tasakaalukanal**. Seejärel algatab ThunderHub LND kaudu ringmakse. Kui makse on edukas, näete teate õnnestumise kohta ning kanalite A ja B saldod muutuvad reaalajas. ThunderHub ajakohastab nende kanalite saldoindikaatorit (ideaalis on see rohelisem kui varem, mis näitab paremat saldot).
 
 
 
 
 
-- Kohandused ja iteratsioonid:** Kui marsruuti ei leita esimesel katsel (või kui see on liiga kallis), saate parameetreid kohandada:
+- **Kohandused ja iteratsioonid:** Kui marsruuti ei leita esimesel katsel (või kui see on liiga kallis), saate parameetreid kohandada:
 
 
 
@@ -666,7 +666,7 @@ Sellel vahekaardil leiate :
 
 
 
-- Invoice graafik:** Paremas ülemises nurgas olev graafik näitab saadud arvete arengut aja jooksul, mis võimaldab teil visualiseerida oma sõlme tegevust.
+- **Invoice graafik:** Paremas ülemises nurgas olev graafik näitab saadud arvete arengut aja jooksul, mis võimaldab teil visualiseerida oma sõlme tegevust.
 
 
 
@@ -682,7 +682,7 @@ Sellel vahekaardil leiate :
   - Summa Sats.
   - Kuupäev/kellaaeg.
   - Makse ID (Hash või RHash eelpilt) või kommentaar (kui lisasite Invoice-le märkuse).
-  - Staatus: **(nt lahendamist ootav makse, kuid üldiselt menetleb LND seda kiiresti, nii et võrreldes On-Chain tehingutega on siin vähe "ootel").
+- Staatus: **(nt lahendamist ootav makse, kuid üldiselt menetleb LND seda kiiresti, nii et võrreldes On-Chain tehingutega on siin vähe "ootel").**
 
 
 
@@ -708,13 +708,13 @@ Edasi, ThunderHub esitleb :
 
 
 
-- Filtrid ja kuvamisvõimalused:** Paremal üleval olevad filtrid võimaldavad sorteerida andmeid päeva/nädala/kuu/aasta järgi ning valida graafilise või tabeli kujulise kuvamise vahel.
+- **Filtrid ja kuvamisvõimalused:** Paremal üleval olevad filtrid võimaldavad sorteerida andmeid päeva/nädala/kuu/aasta järgi ning valida graafilise või tabeli kujulise kuvamise vahel.
 
 
 
 
 
-- Tegevusteade:** Kui valitud ajavahemiku jooksul ei ole marsruutimist teostatud, kuvab Interface "No forwards for this period", nagu on näidatud käesolevas näites.
+- **Tegevusteade:** Kui valitud ajavahemiku jooksul ei ole marsruutimist teostatud, kuvab Interface "No forwards for this period", nagu on näidatud käesolevas näites.
 
 
 
@@ -736,7 +736,7 @@ Edasi, ThunderHub esitleb :
 
 
 
-- Koondstatistika**: ThunderHub arvutab ja kuvab lehe ülaosas kokkuvõtteid ja statistikat teatud ajavahemiku kohta (nt viimased 24 tundi või 7 päeva jne, mõnikord seadistatav).
+- **Koondstatistika**: ThunderHub arvutab ja kuvab lehe ülaosas kokkuvõtteid ja statistikat teatud ajavahemiku kohta (nt viimased 24 tundi või 7 päeva jne, mõnikord seadistatav).
 
 
 
@@ -762,19 +762,19 @@ Kettas leiate :
 
 
 
-- Saldo On-Chain :** Kuvab Wallet LND olemasoleva BTC kogusaldo.
+- Saldo On-Chain: **Kuvab Wallet LND olemasoleva BTC kogusaldo.**
 
 
 
 
 
-- UTXOde nimekiri:** Vaadake kõiki kasutamata väljundeid (UTXO) koos summa, kinnituste, Address ja vorminguga iga väljundi kohta.
+- **UTXO nimekiri:** Vaadake kõiki kasutamata väljundeid (UTXO) koos summa, kinnituste, Address ja vorminguga iga väljundi kohta.
 
 
 
 
 
-- Tehingute ajalugu:** Üksikasjalik tabel kõigi Bitcoin tehingute kohta koos tüübi (sisse/välja), kuupäeva, summa, tasude, kinnituste, lisabloki, aadresside ja txid-ga.
+- **Tehingute ajalugu:** Üksikasjalik tabel kõigi Bitcoin tehingute kohta koos tüübi (sisse/välja), kuupäeva, summa, tasude, kinnituste, lisabloki, aadresside ja txid-ga.
 
 
 
@@ -796,7 +796,7 @@ ThunderHubi Amboss'i sektsioon võimaldab teil **liita** oma sõlme oma Amboss'i
 
 
 
-- Ghost Address:** Seadistage oma sõlme jaoks **isikupärastatud Lightning Address**, mis hõlbustab sissetulevaid makseid.
+- **Ghost Address:** Seadistage oma sõlme jaoks **isikupärastatud Lightning Address**, mis hõlbustab sissetulevaid makseid.
 
 
 
@@ -808,13 +808,13 @@ ThunderHubi Amboss'i sektsioon võimaldab teil **liita** oma sõlme oma Amboss'i
 
 
 
-- Tervisekontrollid:** Aktiveerige **Amboss Healthcheck = Jah**, et teie sõlmpunkt saadaks Ambossile regulaarselt pings'e. Saate teateid, kui teie sõlme näib olevat offline.
+- **Tervisekontrollid:** Aktiveerige **Amboss Healthcheck = Jah**, et teie sõlmpunkt saadaks Ambossile regulaarselt pings'e. Saate teateid, kui teie sõlme näib olevat offline.
 
 
 
 
 
-- Muud funktsioonid:** Automaatne saldopüstitus, **Magma/Hydro** integratsioon (likviidsuse turg) ja juurdepääs üksikasjalikule tulemuslikkuse statistikale.
+- **Muud funktsioonid:** Automaatne saldopüstitus, **Magma/Hydro** integratsioon (likviidsuse turg) ja juurdepääs üksikasjalikule tulemuslikkuse statistikale.
 
 
 
@@ -836,16 +836,16 @@ Jaotises **Tööriistad** on koondatud mitmesugused täiustatud tööriistad sõ
 
 
 
-- Varukoopiad:** Manuaalselt hallata oma kanali varukoopiaid (SCB). ThunderHub võimaldab teil **laadida alla oma kanalite täieliku varukoopia** (valik "Kõigi kanalite varundamine -> Laadige alla"). Hoidke seda `channel-all.bak` faili turvalises kohas - see on hädavajalik teie vahendite taastamiseks krahhi korral. Saate ka **importida** varukoopiafaili, kui võtate sõlme uuesti kasutusele.
+- **Varukoopiad:** Manuaalselt hallata oma kanali varukoopiaid (SCB). ThunderHub võimaldab teil **laadida alla oma kanalite täieliku varukoopia** (valik "Kõigi kanalite varundamine -> Laadige alla"). Hoidke seda `channel-all.bak` faili turvalises kohas - see on hädavajalik teie vahendite taastamiseks krahhi korral. Saate ka **importida** varukoopiafaili, kui võtate sõlme uuesti kasutusele.
 
 
 
 
 
-- Raamatupidamine:** Finantsaruannete ekspordivahend, sealhulgas teenitud/makstud tasud ja antud perioodi jooksul suunatud mahud.
-- Allkirjastatud sõnumid:** **allkirjastage või kontrollige sõnumeid** oma sõlme abil, et tõestada oma Lightning-sõlme Ownership krüptograafilise allkirja abil.
+- **Raamatupidamine:** Finantsaruannete ekspordivahend, sealhulgas teenitud/makstud tasud ja antud perioodi jooksul suunatud mahud.
+- **Allkirjastatud sõnumid:** allkirjastage või kontrollige sõnumeid oma sõlme abil, et tõestada oma Lightning-sõlme Ownership krüptograafilise allkirja abil.
 - Makroonid (pagaritoodete sektsioon):** Halda LND** makroonid, et luua kohandatud juurdepääs. Interface "Bakery" võimaldab teil täpselt valida iga kasutusõiguse: "Peeride lisamine või eemaldamine", "Loo ketiaadressid", "Loo arved", "Loo makaronid", "Tuleta võtmed", "Võta juurdepääsukoodid", "Võta ketitehingud", "Võta arved", "Võta Wallet info", "Get Payments", "Get Peers", "Pay Invoices", "Revoke Access Ids", "Send to Chain Addresses", "Sign bytes", "Sign Messages", "Stop daemon", "Verify bytes signature", "Verify messages" jne. Iga luba saab eraldi aktiveerida nuppudega "Jah/ei", et luua kohandatud makaron.
-- Süsteemi teave:** Wallet versiooni ja aktiveeritud RPC-de kuvamine.
+- **Süsteemi teave:** Wallet versiooni ja aktiveeritud RPC-de kuvamine.
 
 
 
@@ -871,9 +871,9 @@ Protsess on lihtne:
 
 
 
-- Summa**: Määrake vahetatav summa
-- Address** : Sisestage Bitcoin vastuvõtt Address
-- Täitmine**: ThunderHub suhtleb Boltziga, et automaatselt töödelda Exchange
+- **Summa**: Määrake vahetatav summa
+- **Address**: Sisestage Bitcoin vastuvõtt Address
+- **Täitmine**: ThunderHub suhtleb Boltziga, et automaatselt töödelda Exchange
 
 
 
@@ -940,6 +940,6 @@ ThunderHub demokratiseerib täiustatud Lightning-sõlmede haldamise, muutes kät
 
 
 
-- Ametlik veebisait:** [thunderhub.io](https://thunderhub.io)
-- Dokumentatsioon:** [docs.thunderhub.io](https://docs.thunderhub.io)
-- GitHubi lähtekood:** [github.com/apotdevin/thunderhub](https://github.com/apotdevin/thunderhub)
+- **Ametlik veebisait:** [thunderhub.io](https://thunderhub.io)
+- **Dokumentatsioon:** [docs.thunderhub.io](https://docs.thunderhub.io)
+- **GitHubi lähtekood:** [github.com/apotdevin/thunderhub](https://github.com/apotdevin/thunderhub)

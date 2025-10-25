@@ -4,7 +4,7 @@ description: Installere din RoninDojo v2 Bitcoin-node på en Raspberry Pi
 ---
 ![cover RoninDojo v2](assets/cover.webp)
 
-***ADVARSEL:** Etter arrestasjonen av grunnleggerne av Samourai Wallet og beslagleggelsen av deres servere den 24. april, er visse funksjoner i RoninDojo, som Whirlpool, ikke lenger operative. Det er imidlertid mulig at disse verktøyene kan bli gjeninnført eller relansert på en annen måte i de kommende ukene. I tillegg, siden RoninDojo-koden var hostet på Samourais GitLab, som også ble beslaglagt, er det for øyeblikket ikke mulig å laste ned koden eksternt. RoninDojo-teamene jobber sannsynligvis med å publisere koden på nytt.*
+**ADVARSEL:** Etter arrestasjonen av grunnleggerne av Samourai Wallet og beslagleggelsen av deres servere den 24. april, er visse funksjoner i RoninDojo, som Whirlpool, ikke lenger operative. Det er imidlertid mulig at disse verktøyene kan bli gjeninnført eller relansert på en annen måte i de kommende ukene. I tillegg, siden RoninDojo-koden var hostet på Samourais GitLab, som også ble beslaglagt, er det for øyeblikket ikke mulig å laste ned koden eksternt. RoninDojo-teamene jobber sannsynligvis med å publisere koden på nytt.*
 
 _Vi følger nøye med på utviklingen av denne saken samt utviklingen angående de tilknyttede verktøyene. Vær trygg på at vi vil oppdatere denne opplæringen så snart ny informasjon blir tilgjengelig._
 
@@ -12,7 +12,7 @@ _Denne opplæringen er gitt kun for utdannings- og informasjonsformål. Vi støt
 
 ---
 
-> "*Bruk Bitcoin med personvern.*"
+> Bruk Bitcoin med personvern.
 
 I en tidligere opplæring hadde vi allerede forklart prosedyren for å installere og bruke RoninDojo v1. Men, i løpet av det siste året har RoninDojo-teamene lansert versjon 2 av deres implementasjon, som markerte et betydelig vendepunkt i programmets arkitektur. Faktisk, de gikk bort fra Linux Manjaro-distribusjonen til fordel for Debian. Følgelig tilbyr de ikke lenger et forhåndskonfigurert bilde for automatisk installasjon på Raspberry Pi. Men det er fortsatt en metode for å fortsette med en manuell installasjon. Dette er hva jeg brukte for min egen node, og siden da har RoninDojo v2 fungert fantastisk på min Raspberry Pi 4. Jeg tilbyr derfor en ny opplæring om hvordan man manuelt installerer RoninDojo v2 på en Raspberry Pi.
 
@@ -242,7 +242,7 @@ Gratulerer! Din RoninDojo v2 node er nå konfigurert og klar til bruk. Den vil b
 
 **Hvis du migrerer fra en gammel RoninDojo v1 node** til denne nye versjonen med denne veiledningen samtidig som du beholder den samme SSD-en, bør noden din automatisk oppdage og gjenbruke de eksisterende dataene på disken, og spare deg for nødvendigheten av å utføre IBD igjen. I dette tilfellet trenger du bare å vente på at noden din resynkroniseres med de siste blokkene.
 
-### Trinn 8: "veth* fix"
+### Trinn 8: "veth fix"
 Hvis du støter på en feil med din RoninDojo v2 på Raspberry Pi, hvor etter en problemfri installasjon, blir noden din plutselig utilgjengelig via SSH men gjenopprettes etter en enkel omstart, da må du følge dette trinn 8. Denne vanlige feilen kan enkelt fikses med en løsning utviklet av fellesskapet: "_veth fix_". Denne mindre korreksjonen retter permanent de brå frakoblingene. Slik bruker du den.
 
 Åpne en ny terminal på din personlige datamaskin og opprett en SSH-forbindelse med noden din ved å bruke følgende kommando:
@@ -252,7 +252,7 @@ Hvis for eksempel IP-adressen til noden din er `192.168.1.40`, ville den passend
 `SSH ronindojo@192.168.1.40`
 
 Du vil bli bedt om å skrive inn brukerpassordet. Skriv det inn og trykk `enter` for å validere. Du vil da få tilgang til RoninCLI-grensesnittet. Bruk piltastene på tastaturet ditt for å navigere til `Exit RoninDojo`-alternativet og trykk `enter` for å velge det.
-På dette tidspunktet er du på terminalen til noden din, med en kommandoprompt som ligner på: `ronindojo@RoninDojo:~ $`. For å anvende veth*-fiksen, skriv inn følgende kommando og trykk `enter`: `sudo nano /etc/dhcpcd.conf`
+På dette tidspunktet er du på terminalen til noden din, med en kommandoprompt som ligner på: `ronindojo@RoninDojo:~ $`. For å anvende **veth**-fiksen, skriv inn følgende kommando og trykk `enter`: `sudo nano /etc/dhcpcd.conf`
 
 Bekreft passordet ditt igjen og trykk `enter`.
 
@@ -319,7 +319,7 @@ En detaljert opplæring er under forberedelse for å veilede deg trinn for trinn
 
 For en dypere forståelse av coinjoin og bruken av det på Bitcoin, inviterer jeg deg også til å konsultere denne andre artikkelen: Forståelse og bruk av coinjoin på Bitcoin, hvor jeg detaljerer alt du trenger å vite om denne teknikken.
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 
 ### Bruke Whirlpool Stat Tool (WST)
 
@@ -503,3 +503,4 @@ Der har du det! Takk for at du fulgte denne veiledningen til slutten. Hvis du li
 - [https://gist.github.com/LaurentMT/e758767ca4038ac40aaf](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf)
 - [https://medium.com/@laurentmt/introducing-boltzmann-85930984a159](https://medium.com/@laurentmt/introducing-boltzmann-85930984a159)
 - [https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry](https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry)
+

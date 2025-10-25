@@ -13,7 +13,7 @@ Ali aplikacija takođe ima funkciju "Embedded node".
 
 
 
-**Ovo je aspekt aplikacije koji ćemo istraživati u ovom vodiču. Ovo omogućava svakome da ima svoj sopstveni lightning čvor na mobilnom uređaju, bez potrebe za posvećenim serverom, na isti način kao što ACINQ nudi svoj neverovatan Wallet lightning Phoenix.
+**Ovo je aspekt aplikacije koji ćemo istraživati u ovom vodiču.** Ovo omogućava svakome da ima svoj sopstveni lightning čvor na mobilnom uređaju, bez potrebe za posvećenim serverom, na isti način kao što ACINQ nudi svoj neverovatan Wallet lightning Phoenix.
 
 
 
@@ -248,7 +248,7 @@ Na sledećem ekranu, od vas se traži da otvorite kanal u saradnji sa **"Olympus
 Za ovaj vodič, izabraćemo ovu opciju radi jednostavnosti, ali je potpuno moguće otvoriti kanale sa bilo kojim čvorom na mreži.
 
 
-Moguće je otvoriti nekoliko kanala u jednoj transakciji odabirom opcije "OPEN ADDITIONAL CHANNEL". *Ali ćemo to razmotriti u "naprednoj" verziji **Zeus Embedded**** tutorijala.
+Moguće je otvoriti nekoliko kanala u jednoj transakciji odabirom opcije "OPEN ADDITIONAL CHANNEL". *Ali ćemo to razmotriti u "naprednoj" verziji **Zeus Embedded** tutorijala.*
 
 
 

@@ -1,4 +1,2 @@
 description: |
   Bitcoin Knots là một triển khai thay thế của giao thức Bitcoin, bắt nguồn từ Bitcoin Core. Được thiết kế và bảo trì bởi Luke Dashjr, Knots cung cấp chức năng bổ sung và điều chỉnh quy tắc, đồng thời vẫn tương thích với các nút khác trong mạng. Bitcoin Knots có thể được sử dụng để quản lý danh mục đầu tư tích hợp hoặc hoạt động như một nút xác thực đầy đủ, đơn giản. Nó cung cấp khả năng kiểm soát nâng cao hơn cho người dùng có kinh nghiệm, đặc biệt là về mặt xác thực và cấu hình giao dịch.
-contributor_names:
-  - LoicPandul

@@ -1,5 +1,5 @@
 ---
-name: मिस्टी ब्रीज़
+name: Misty Breez
 description: बिना कटोरे वाली लाइटनिंग Wallet.
 ---
 

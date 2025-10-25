@@ -39,7 +39,7 @@ Totally **free and open source**, PicoCrypt is available for **Windows,** **Linu
 ## II. Picocrypt, open source encryption software
 
 
-Picocrypt** encryption software presents itself as **an alternative** to other well-known solutions such as **VeraCrypt** and **Cryptomator** (*designed to encrypt data on Cloud environments*), or **AxCrypt**. By the way, on Picocrypt's official GitHub, you can find a comparison with some competitors:
+**Picocrypt** encryption software presents itself as **an alternative** to other well-known solutions such as **VeraCrypt** and **Cryptomator** (*designed to encrypt data on Cloud environments*), or **AxCrypt**. By the way, on Picocrypt's official GitHub, you can find a comparison with some competitors:
 
 
 |                | Picocrypt                                                                          | VeraCrypt   | 7-Zip GUI | BitLocker  | Cryptomator |
@@ -67,7 +67,7 @@ Picocrypt is **very lightweight**, weighing in at just **3 MB**, and doesn't nee
 
 
 
-- XChaCha20** encryption algorithm
+- **XChaCha20** encryption algorithm
 - Key bypass function **Argon2**
 
 
@@ -123,11 +123,11 @@ Before we talk about data decryption, here's some information about some of the 
 
 
 
-- Paranoid mode**: use the highest security level offered by Picocrypt. The tool will use several cascading encryption algorithms (XChaCha20 and Serpent) and HMAC-SHA3 instead of BLAKE2b for data authentication.
-- Reed-Solomon**: implement *Reed-Solomon* error correction codes to facilitate error correction on corrupted data. This allows you to support a corruption level of around 3% of your file.
-- Split into chunks** or **divide into several parts**: if you're encrypting a large file, you can ask Picocrypt to split it into several parts. This may make the file easier to transfer.
-- Compress Files** or **Compress files**: compress files to reduce the size of encrypted files.
-- Deleted files** or **Fichiers supprimés**: delete source files to keep only the encrypted version
+- **Paranoid mode**: use the highest security level offered by Picocrypt. The tool will use several cascading encryption algorithms (XChaCha20 and Serpent) and HMAC-SHA3 instead of BLAKE2b for data authentication.
+- **Reed-Solomon**: implement *Reed-Solomon* error correction codes to facilitate error correction on corrupted data. This allows you to support a corruption level of around 3% of your file.
+- **Split into chunks** or **divide into several parts**: if you're encrypting a large file, you can ask Picocrypt to split it into several parts. This may make the file easier to transfer.
+- **Compress Files** or **Compress files**: compress files to reduce the size of encrypted files.
+- **Deleted files** or **Fichiers supprimés**: delete source files to keep only the encrypted version
 
 
 ### B. Decrypting data with Picocrypt

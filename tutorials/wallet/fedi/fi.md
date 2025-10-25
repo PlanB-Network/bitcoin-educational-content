@@ -33,7 +33,7 @@ Fedi Wallet on Bitcoin-salkku, jossa on uusi lähestymistapa avainsanojen tallen
 
 
 
-- Huoltajat**: Salkunhoitaja: Päätät sijoittaa luottamuksesi ulkopuoliselle taholle, salkun kehittäjälle, joka säilyttää salkkusi perintäsanat puolestasi. Sinulla ei ole pääsyä eikä mahdollisuutta viedä Bitcoin-salkkuasi.
+- **Huoltajat**: Salkunhoitaja: Päätät sijoittaa luottamuksesi ulkopuoliselle taholle, salkun kehittäjälle, joka säilyttää salkkusi perintäsanat puolestasi. Sinulla ei ole pääsyä eikä mahdollisuutta viedä Bitcoin-salkkuasi.
 
 
 
@@ -43,7 +43,7 @@ https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c
 
 
 
-- Itsehuoltajat** : Sovellus antaa sinulle pääsyn takaisinperintäsanoihin heti, kun luot Wallet:n. Voit siis vapaasti viedä bitcoinisi sinulle parhaiten sopivaan Wallet:een.
+- **Itsehuoltajat**: Sovellus antaa sinulle pääsyn takaisinperintäsanoihin heti, kun luot Wallet:n. Voit siis vapaasti viedä bitcoinisi sinulle parhaiten sopivaan Wallet:een.
 
 
 
@@ -103,7 +103,7 @@ Selaa **Liitot** -valikossa liiton kohdalle ja napsauta sitten **Liiton tiedot**
 
 
 
-- Vastaanota bitcoineja Fedi**: Valitse etusivulla liitto, jota haluat käyttää bitcoinien vastaanottamiseen, ja napsauta sitten **Vastaanottaa**-painiketta luodaksesi Lightning Invoice:n, jossa on vastaanotettava summa.
+- Vastaanota bitcoineja **Fedi**: Valitse etusivulla liitto, jota haluat käyttää bitcoinien vastaanottamiseen, ja napsauta sitten **Vastaanottaa**-painiketta luodaksesi Lightning Invoice:n, jossa on vastaanotettava summa.
 
 
 
@@ -232,4 +232,3 @@ Olet juuri käynyt Fedi Wallet -kierroksella, ja nyt voit hyödyntää tämän s
 
 
 https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
-

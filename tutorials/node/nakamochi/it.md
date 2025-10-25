@@ -1,7 +1,9 @@
 ---
 name: Nakamochi
-description: Esecuzione del nodo semplificata - Come impostare e utilizzare il nodo Nakamochi Bitcoin e Lightning.
+description: Esecuzione del nodo resa semplice - Come configurare e utilizzare il nodo Nakamochi Bitcoin e Lightning.
 ---
+![image](assets/cover.webp)
+
 Gestire un proprio nodo Bitcoin e Lightning non deve più essere un compito complesso limitato agli esperti tecnici. Tradizionalmente, la creazione e la gestione dei nodi richiedeva una conoscenza approfondita della crittografia, delle reti e dello sviluppo di software. Nakamochi cambia questa situazione rendendo i nodi accessibili a tutti, indipendentemente dal background tecnico.
 
 Con Nakamochi, chiunque può creare e gestire un nodo da casa, consentendo una totale privacy e indipendenza finanziaria. La gestione di un nodo completo non solo protegge le proprie transazioni, ma contribuisce anche alla forza della rete Bitcoin. Una rete Bitcoin decentralizzata e resiliente si basa su un'ampia distribuzione di nodi per garantire la sua sicurezza e indipendenza.
@@ -36,27 +38,29 @@ Il vostro nodo Nakamochi è gestito tramite un'applicazione mobile, [BitBanana (
 
 ![image](assets/en/01.webp)
 
-collegatevi all'alimentazione e scrivete la vostra frase-seme di 24 parole
+_Collegati all’alimentazione e annota la tua frase seme di 24 parole_
 
 ![image](assets/en/02.webp)
 
-aspettate che la Blockchain si metta al passo con i tempi
+_Attendi finché la Blockchain non si è aggiornata_
 
 ![image](assets/en/03.webp)
 
-imposta un nuovo portafoglio nella scheda Lightning
+_Imposta un nuovo portafoglio nella scheda Lightning_
 
 ![image](assets/en/04.webp)
 
-scansione del codice QR con l'app di gestione dei nodi
+_Scansiona il codice QR con l’app di gestione del nodo_
 
 ![image](assets/en/05.webp)
 
-per una maggiore sicurezza, impostare un codice PIN
+_Per maggiore sicurezza imposta un codice PIN_
 
-**Nota:** _Permettere al nodo Nakamochi di sincronizzarsi con la blockchain. Questo processo potrebbe richiedere un po' di tempo a seconda della connessione a Internet
+**Nota:** _Consenti al tuo nodo Nakamochi di sincronizzarsi con la blockchain. Questo processo potrebbe richiedere del tempo a seconda della tua connessione internet._
 
 ## Informazioni sulla rete Lightning
+
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 La Bitcoin Lightning Network rivoluziona le transazioni in Bitcoin rendendole più veloci, più economiche e più efficienti. È perfetta per l'uso quotidiano, in quanto consente pagamenti quasi istantanei con commissioni minime, ideali per le microtransazioni come l'acquisto di un caffè o la gestione di piccoli acquisti frequenti.
 
@@ -108,7 +112,7 @@ Per maggiori informazioni: [Canali | Documentazione Zeus](https://docs.zeusln.ap
 
 schermata di Bitbanana
 
-Per maggiori informazioni: [BitBanana](https://bitbanana.com)
+Per ulteriori informazioni: [BitBanana](https://bitbanana.com)
 
 Una volta che il vostro canale è aperto, i pagamenti possono essere inoltrati attraverso di esso ad altri partecipanti alla rete. I saldi si regolano fuori dalla catena, garantendo transazioni quasi istantanee e commissioni minime.
 

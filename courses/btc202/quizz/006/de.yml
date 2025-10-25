@@ -1,0 +1,9 @@
+question: Warum wird ein einzelner Wallet nicht als Bitcoin-Netzteilnehmer betrachtet?
+answer: Weil es keine Transaktionen oder Blöcke validiert
+wrong_answers:
+  - Weil es nicht generate private Schlüssel
+  - Weil es keine Bitcoin-Adressen erstellen kann
+  - Weil es keine Verkäufe oder Adressen validiert
+explanation: |
+  Ein Wallet validiert Blöcke und Transaktionen nicht direkt; er verwaltet lediglich die Schlüssel und ist für den Rest von den Knoten abhängig.
+reviewed: true

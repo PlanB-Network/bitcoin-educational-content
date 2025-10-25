@@ -16,7 +16,7 @@ _Bu eğitim yalnızca eğitim ve bilgilendirme amaçlıdır. Bu araçların suç
 
 ---
 
-> *İşlemlerinizin göndericisi ve alıcısı arasında matematiksel olarak kanıtlanabilir şüphe ile Blockchain analizinin varsayımlarını kırın
+> *İşlemlerinizin göndericisi ve alıcısı arasında matematiksel olarak kanıtlanabilir şüphe ile Blockchain analizinin varsayımlarını kırın*
 
 ## Stonewall işlemi nedir?
 

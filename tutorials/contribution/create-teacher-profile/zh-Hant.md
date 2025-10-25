@@ -196,7 +196,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![Image](assets/fr/08.webp)
 
 
-輸入描述變更的訊息，然後選擇「*提出變更」。
+輸入描述變更的訊息，然後選擇「**提出變更**」。
 
 
 ![Image](assets/fr/09.webp)

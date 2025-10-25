@@ -1,0 +1,9 @@
+question: چه مراحلی باید قبل از نصب UmbrelOS انجام شود؟
+answer: ایجاد یک کلید USB قابل بوت با تصویر
+wrong_answers:
+  - کامپایل کردن کد منبع Bitcoin core
+  - قالب‌بندی Blockchain
+  - ایجاد یک حساب کاربری در umbrel.com
+explanation: |
+  نصب با آماده‌سازی یک کلید USB قابل بوت با UmbrelOS از طریق Balena Etcher آغاز می‌شود.
+reviewed: true

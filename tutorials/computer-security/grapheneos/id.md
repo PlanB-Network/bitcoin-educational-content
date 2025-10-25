@@ -1,12 +1,15 @@
 ---
 name: GrapheneOS
 
-description: Tutorial Graphene OS
+description: Sistem operasi seluler yang berfokus pada keamanan dan privasi berbasis Android
 ---
 
-> "[GrapheneOS](https://grapheneos.org/) adalah sistem operasi mobile yang fokus pada privasi dan keamanan dengan kompatibilitas aplikasi Android, dikembangkan sebagai proyek open source nirlaba."
+![cover](assets/cover.webp)
+> [GrapheneOS](https://grapheneos.org/) adalah sistem operasi seluler open source nirlaba yang dirancang untuk memberikan tingkat privasi dan keamanan yang tinggi sambil tetap sepenuhnya kompatibel dengan aplikasi Android.
 
 GrapheneOS, yang awalnya didirikan pada tahun 2014 sebagai 'CopperheadOS', berbasis pada Kode Android tradisional (AOSP), namun dengan banyak perubahan dan peningkatan yang bertujuan untuk meningkatkan privasi dan keamanan pengguna. GrapheneOS memberikan kontrol kepada pengguna atas telepon mereka, bukan kepada perusahaan teknologi besar.
+
+![video](https://youtu.be/VnumtalYLFI)
 
 ### Sommaire:
 
@@ -17,7 +20,7 @@ GrapheneOS, yang awalnya didirikan pada tahun 2014 sebagai 'CopperheadOS', berba
 - Kekurangan
 - Info Berguna
 
-Panduan oleh https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md
+*Tutorial ini merupakan adaptasi dari konten asli yang diterbitkan oleh [BitcoinQnA di Bitcoiner.Guide di bawah lisensi MIT](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), yang sepenuhnya berhak atas penghargaan untuk penulisan awal.*
 
 ## Mengapa menggunakan GrapheneOS?
 
@@ -76,7 +79,7 @@ Yang Anda butuhkan adalah:
 9. Akhirnya, lanjutkan ke langkah berikutnya dari web installer dan klik **Lock Bootloader**. Anda perlu mengubah seleksi dan konfirmasi dengan tombol power dengan cara yang sama seperti yang Anda lakukan sebelumnya dalam proses.
 10. Ketika Anda melihat kata `Start`, konfirmasi ini dengan tombol power dan perangkat akan boot ke sistem operasi baru Anda tanpa Google.
     
-![image](assets/2.webp)
+![image](assets/fr/2.webp)
 
 Layar awal GrapheneOS
 
@@ -92,7 +95,7 @@ Jika langkah-langkah sederhana tersebut terasa terlalu sulit, Anda bisa memperti
 
 Sekarang setelah pengaturan selesai, Anda mungkin menyadari betapa minimalisnya GrapheneOS saat pertama kali diinstal. Secara default, Anda akan memiliki aplikasi-aplikasi berikut yang terpasang:
 
-![image](assets/3.webp)
+![image](assets/fr/3.webp)
 
 Aplikasi bawaan
 
@@ -121,7 +124,7 @@ Menuju ke **Settings / Pengaturan** > **Battery / Baterai**, kemudian aktifkan *
 
 **Dari iOS** - Gunakan aplikasi seperti Export Contacts dan pilih opsi ekspor 'vCard' untuk membuat file VCF. Setelah Anda memiliki file VCF tersebut, Anda bisa memindahkannya ke perangkat GrapheneOS Anda menggunakan opsi penyimpanan eksternal seperti kartu microSD atau USB drive. Jika Anda tidak memiliki salah satu dari itu, Anda bisa memilih untuk membagikan melalui salah satu dari banyak aplikasi yang tercantum di bawah ini.
 
-![image](assets/4.webp)
+![image](assets/fr/4.webp)
 
 Layar utama yang dipersonalisasi
 
@@ -139,9 +142,11 @@ Untuk menginstal F-Droid cukup menuju ke situs web mereka melalui browser di pon
 
 Selain aplikasi yang ditemukan di repositori default F-Droid, banyak proyek open source juga yang memiliki host repositori mereka sendiri yang dapat ditambahkan di pengaturan aplikasi F-Droid. Jika ini terjadi, proyek yang bersangkutan akan memandu Anda melalui langkah-langkah yang sangat sederhana yang diperlukan untuk mencapai ini di situs web mereka.
 
-![image](assets/5.webp)
+![image](assets/fr/5.webp)
 
 Layar utama F-Droid
+
+https://planb.network/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
 
 ### Aurora Store
 [Aurora Store](https://auroraoss.com/) adalah versi FOSS dari Google Play Store. Aurora memiliki tampilan dan nuansa yang sangat mirip dengan Play Store tradisional dan memungkinkan Anda untuk mengunduh dan memperbarui aplikasi apa pun yang biasanya Anda temukan melalui opsi Google.
@@ -158,9 +163,11 @@ Aurora juga memiliki beberapa potensi vektor serangan, karena "akun anonim" sebe
 
 **Tips Penting** - Terkadang Aurora Store akan mengalami pembatasan kecepatan (rate limiting) yang membatasi kemampuan Anda untuk mencari dan menginstal aplikasi. Untuk mengatasinya, buka **Settings / Pengaturan** > **Apps / Aplikasi** > **Aurora** > **Open by default / Buka secara default**, lalu tambahkan domain `play.google.com`. Sekarang, setiap kali Anda membuka situs web produk atau layanan yang memiliki tautan 'Download via Play Store / Unduh via Play Store'', mengetuk tautan tersebut akan membuka aplikasi di dalam Aurora untuk Anda unduh.
 
-![image](assets/6.webp)
+![image](assets/fr/6.webp)
 
 Layar beranda Aurora Store
+
+https://planb.network/tutorials/computer-security/data/aurora-store-b3345da7-1ed1-407e-a9ae-a1c7f0ba9967
 
 ### Unduhan APK
 
@@ -168,7 +175,7 @@ Aplikasi di Android juga dapat diunduh dan diinstal melalui file `.apk`. Ini ada
 
 Kekurangan dari cara ini adalah Anda tidak mendapatkan pembaruan otomatis, jadi Anda perlu memantau saluran komunikasi layanan tersebut untuk mengetahui rilis baru. Namun, ada proyek hebat bernama Obtainium yang bertujuan untuk mengatasi masalah ini. [Obtainium](https://github.com/ImranR98/Obtainium) memungkinkan Anda untuk menginstal dan memperbarui aplikasi open source langsung dari halaman rilis mereka, dan menerima notifikasi saat rilis baru tersedia.
 
-![image](assets/7.webp)
+![image](assets/fr/7.webp)
 
 Layar Utama Obtanium
 
@@ -180,7 +187,7 @@ Untuk mencapai ini di Vanadium, browser native GrapheneOS, cukup navigasikan ke 
 
 Satu-satunya kekurangan dari cara ini adalah karena ini hanyalah halaman web yang ditandai, Anda tidak akan mendapatkan bentuk notifikasi apa pun. Meskipun beberapa orang mungkin melihatnya sebagai hal yang positif!
 
-![image](assets/8.webp)
+![image](assets/fr/8.webp)
 
 Twitter PWA
 
@@ -194,10 +201,11 @@ Untuk saat-saat ketika Anda perlu mengakses situs `.onion` asli Tor, Anda bisa m
 
 Untuk melindungi aktivitas online Anda dari penyedia layanan internet (ISP) yang mungkin memata-matai, aplikasi Jaringan Pribadi Virtual (VPN) adalah pilihan yang baik. Sebuah VPN mengirimkan lalu lintas internet Anda melalui terowongan terenkripsi ke alamat IP bersama yang dikendalikan oleh penyedia layanan VPN untuk memastikan aktivitas perangkat Anda tidak dapat dikaitkan dengan Anda.
 
-Berikut adalah 3 opsi terpercaya yang memungkinkan Anda membayar layanan dengan Bitcoin dan tanpa memberikan informasi pribadi apa pun. Semua 3 opsi tersedia melalui F-Droid.
-- [Mullvad](https://f-droid.org/packages/net.mullvad.mullvadvpn/)
-- [Proton](https://f-droid.org/en/packages/ch.protonvpn.android/)
-- [iVPN](https://f-droid.org/en/packages/net.ivpn.client/)
+Berikut dua opsi yang diakui yang memungkinkan Anda membayar layanan dengan Bitcoin tanpa memberikan informasi pribadi apa pun. Keduanya tersedia di F-Droid.
+
+https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+
+https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 ### Pesan
 
@@ -210,9 +218,19 @@ Kebanyakan orang yang tidak tertarik pada ruang privasi kemungkinan besar menggu
 - [Threema](https://threema.ch/en/faq/libre_installation) menawarkan pengalaman yang mirip dengan Simplex, tetapi sudah ada lebih lama dan sebagai hasilnya, terasa sedikit lebih "sempurna". Threema tidak gratis, lisensi seumur hidup berharga $4.99 dan dapat dibeli dengan Bitcoin. Threema menawarkan aplikasi web dan aplikasi desktop. Aplikasi Android tersedia melalui F-Droid.
 - [Telegram FOSS](https://f-droid.org/en/packages/org.telegram.messenger/) adalah fork FOSS tidak resmi dari aplikasi Telegram resmi untuk Android. Telegram memiliki 'obrolan rahasia' E2EE, tetapi opsi default-nya tidak pribadi. Telegram FOSS dapat diunduh dari F-Droid.
 
-![image](assets/9.webp)
+![image](assets/fr/9.webp)
 
 Kiri: Threema Kanan: Simplex
+
+https://planb.network/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
+
+https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
+
+https://planb.network/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3
+
+https://planb.network/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
+
+https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
 
 ### Media
 - [Spotube](https://f-droid.org/packages/oss.krtirtho.spotube/) adalah aplikasi Spotify lintas platform yang tidak memerlukan akun Premium. Spotube tersedia melalui F-Droid.
@@ -220,7 +238,7 @@ Kiri: Threema Kanan: Simplex
 - [Newpipe](https://f-droid.org/packages/org.schabi.newpipe/) menawarkan pengalaman YouTube tanpa iklan yang mengganggu dan izin yang meragukan. Dengan NewPipe Anda dapat berlangganan saluran, mendengarkan di latar belakang, dan bahkan mengunduh untuk ditonton secara offline. NewPipe dapat diakses melalui F-Droid.
 - [AntennaPod](https://f-droid.org/packages/de.danoeh.antennapod/) adalah pemutar podcast yang memungkinkan Anda untuk berlangganan dan mengelola semua acara favorit Anda. AntennaPod tersedia melalui F-Droid.
 
-![image](assets/11.webp)
+![image](assets/fr/11.webp)
 
 Kiri: Spotube
 Kanan: ViMusic
@@ -233,7 +251,7 @@ Jika Anda ingin bantuan suara saat mengemudi dan menggunakan aplikasi peta di Gr
 - [Organic Maps]((https://f-droid.org/en/packages/app.organicmaps/)) merupakan alternatif aplikasi peta yang dirancang bagi para pelancong, wisatawan, pendaki, dan pesepeda. Aplikasi ini dikembangkan berdasarkan data OpenStreetMap yang dihimpun dari kontribusi komunitas (crowd-sourced). Organic Maps adalah turunan (fork) open-source dari aplikasi Maps.me (yang sebelumnya dikenal sebagai MapsWithMe). Aplikasi ini mendukung seluruh fiturnya tanpa memerlukan koneksi internet aktif dan tersedia untuk diunduh melalui F-Droid.
 - [OsmAnd](https://f-droid.org/en/packages/net.osmand.plus/) adalah alternatif peta lain yang mendukung semua fitur yang disebutkan di atas.
 
-![image](assets/13.webp)
+![image](assets/fr/13.webp)
 
 Kiri: Magic Earth
 Kanan: Organic Maps
@@ -244,7 +262,7 @@ Kanan: Organic Maps
 - [Tutanota](https://tutanota.com/) menawarkan fitur yang sama dengan Proton Mail, termasuk layanan berbayar opsional dan dapat diunduh sebagai APK langsung atau melalui F-Droid.
 - [K-9 Mail](https://f-droid.org/en/packages/com.fsck.k9/) adalah aplikasi email open source yang bekerja dengan hampir sama seperti penyedia email. Mendukung beberapa akun, kotak masuk terpadu, dan standar enkripsi OpenPGP.
 
-![image](assets/15.webp)
+![image](assets/fr/15.webp)
 
 Kiri: Proton Mail
 Kanan: Tutanota
@@ -258,7 +276,7 @@ Kanan: Tutanota
 - [Anysoft Keyboard](https://f-droid.org/packages/com.menny.android.anysoftkeyboard/) adalah aplikasi papan ketik (keyboard) yang memungkinkan Anda menyesuaikan hampir semua hal terkait pengalaman mengetik di ponsel Anda. Aplikasi ini dapat diunduh melalui F-Droid.
 - [GBoard](https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin&hl=en&gl=US) adalah aplikasi keyboard bawaan dari Google. Menurut pengalaman saya, GBoard menawarkan pengalaman mengetik dan menggeser terbaik. Jika Anda mengunduh aplikasi ini, pastikan Anda sepenuhnya menonaktifkan semua izin terkait jaringan. Dapat diunduh melalui Aurora.
 
-![image](assets/17.webp)
+![image](assets/fr/17.webp)
 
 Kiri: Notesnook
 Kanan: KDE Connect
@@ -270,7 +288,7 @@ Kanan: KDE Connect
 - [Proton Calendar](https://proton.me/calendar/download) adalah E2EE yang mudah digunakan dan berinteraksi dengan mulus dengan akun email Proton Anda. Proton Calendar dapat diunduh sebagai APK atau melalui toko Aurora.
 - [PassAndroid](https://f-droid.org/en/packages/org.ligi.passandroid/) adalah aplikasi yang dirancang untuk menampilkan dan menyimpan berbagai jenis tiket digital, seperti boarding pass, kupon, tiket bioskop, dan kartu keanggotaan. Cukup unduh file `pkpass` atau `espass` yang relevan, lalu buka dengan aplikasi ini. PassAndroid tersedia melalui F-Droid.
 
-![image](assets/19.webp)
+![image](assets/fr/19.webp)
 
 Kiri: Geometric Weather
 Kanan: Proton Calendar
@@ -283,10 +301,18 @@ Kanan: Proton Calendar
 - [Aegis](https://f-droid.org/en/packages/com.beemdevelopment.aegis/) adalah aplikasi gratis, aman, dan Open Source untuk Android untuk mengelola token verifikasi 2-langkah untuk layanan online Anda. Aegis tersedia melalui F-Droid.
 - [Cryptomator](https://f-droid.org/en/packages/org.cryptomator.lite/) adalah layanan berbayar, lintas platform yang mengenkripsi data Anda secara lokal sehingga Anda dapat dengan aman mengunggahnya ke layanan cloud favorit Anda. Cryptomator dapat diunduh melalui F-Droid.
 
-![image](assets/21.webp)
+![image](assets/fr/21.webp)
 
 Kiri: Proton Pass
 Kanan: Bitwarden
+
+https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
+
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
+https://planb.network/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
+
+https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 ### Solusi Cloud
 
@@ -295,9 +321,11 @@ Kanan: Bitwarden
 - [Nextcloud](https://f-droid.org/en/packages/com.nextcloud.client/) menawarkan solusi berbasis cloud dengan fitur lengkap untuk kolaborasi, sinkronisasi antar perangkat, dan penyimpanan file. Pengguna yang lebih mahir dapat memilih untuk melakukan self-host perangkat lunak gratis dan open source (FOSS) mereka sendiri pada perangkat keras apa pun yang diinginkan. Aplikasi Android-nya dapat diunduh melalui F-Droid.
 - [Cryptpad](https://cryptpad.fr/) menawarkan alternatif berbasis web, E2EE, gratis untuk Google Docs.
 
-![image](assets/23.webp)
+![image](assets/fr/23.webp)
 
 Proton Drive
+
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 ## Kekurangan
 
@@ -319,7 +347,7 @@ Sebelum Anda terburu-buru menginstalnya di hari pertama, saya sangat menyarankan
 
 Jika Anda tetap ingin menginstalnya, cukup ketuk aplikasi 'Apps' yang sudah terinstal, lalu pilih 'Google Play Services'. Pertimbangkan untuk menginstalnya bersama aplikasi yang kurang menjaga privasi yang tidak bisa Anda tinggalkan, di dalam profil pengguna yang sama sekali terpisah. Ini akan memberikan lapisan pemisahan ekstra dari bagian lain ponsel Anda.
 
-![image](assets/24.webp)
+![image](assets/fr/24.webp)
 
 Layar instalasi Layanan Play
 
@@ -331,7 +359,7 @@ Anda dapat membaca lebih lanjut tentang kasus penggunaan ini [di sini](https://d
 
 Jika Anda memutuskan untuk menambahkan profil terpisah sesuai kebutuhan Anda, aplikasi [Insular](https://f-droid.org/en/packages/com.oasisfeng.island.fdroid/) mungkin akan sangat berguna. Insular memungkinkan Anda untuk dengan mudah menggandakan aplikasi yang sudah ada ke profil baru tanpa perlu melalui rute instalasi tradisional yang dibahas sebelumnya dalam panduan ini. Selain itu, Insular juga memungkinkan Anda untuk dengan cepat 'membekukan' aplikasi-aplikasi tersebut untuk menonaktifkan sepenuhnya semua layanan latar belakang aplikasi dari berjalan.
 
-![image](assets/24.webp)
+![image](assets/fr/24.webp)
 
 Layar manajemen profil pengguna
 
@@ -356,7 +384,7 @@ Untuk membuat cadangan pertama Anda:
 3. Pilih data yang akan dicadangkan. Jika ruang penyimpanan pada media yang Anda tentukan mencukupi, saya sarankan untuk memilih semuanya.
 4. Ketuk tiga titik di kanan atas, dan pilih **Backup now / Cadangkan sekarang**.
 
-![gambar](assets/26.webp)
+![gambar](assets/fr/26.webp)
 
 Layar Cadangan
 
@@ -385,4 +413,6 @@ GrapheneOS adalah sebuah "lubang kelinci" (rabbit hole) yang bisa dengan mudah m
 - [Kelas Master Pengaturan GrapheneOS](https://www.youtube.com/watch?app=desktop&v=GLJyD9MJgIQ) - Video oleh 'The Privacy Wayfinder'
 - [Podcast Umum GrapheneOS](https://www.youtube.com/watch?app=desktop&v=UCPX0mFFRNA) - Podcast oleh 'Watchman Privacy'
 
-kredit penuh ke: https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md
+*Tutorial ini merupakan adaptasi dari konten asli yang diterbitkan oleh [BitcoinQnA di Bitcoiner.Guide di bawah lisensi MIT](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), yang sepenuhnya berhak atas penghargaan untuk penulisan awal.*
+
+

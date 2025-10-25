@@ -1,5 +1,5 @@
 ---
-name: Sinyal
+name: Signal
 description: Kendinizi özgürce ifade edin
 ---
 ![cover](assets/cover.webp)

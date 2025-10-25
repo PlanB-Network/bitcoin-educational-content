@@ -1,5 +1,5 @@
 ---
-name: Chat SimpleX
+name: SimpleX Chat
 description: El primer buzón sin identificación de usuario
 ---
 ![cover](assets/cover.webp)

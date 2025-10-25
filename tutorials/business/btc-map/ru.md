@@ -1,5 +1,5 @@
 ---
-name: Карта BTC
+name: BTC Map
 description: Найдите места, где можно провести Sats
 ---
 ![cover](assets/cover.webp)

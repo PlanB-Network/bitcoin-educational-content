@@ -118,7 +118,7 @@ Kalau sambungan berhasil, bakal muncul tanda centang hijau di pojok kanan bawah.
 
 ![Image](assets/fr/11.webp)
 
-*dengan remote Bitcoin Core: ** Dengan remote Bitcoin Core:**
+**dengan remote Bitcoin Core: Dengan remote Bitcoin Core:**
 
 Kalau Bitcoin Core-nya ada di komputer lain tapi masih dalam jaringan yang sama, kamu tetap bisa sambungin ke Sparrow.
 Pertama, cari file bitcoin.conf di folder data Bitcoin. Kalau belum ada, kamu bisa bikin sendiri.
@@ -255,9 +255,9 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 ![Image](assets/fr/26.webp)
 
-**Jelas ya, frasa 12 kata ini nggak boleh dibagikan di internet — beda sama yang aku lakukan di tutorial ini.
+**Jelas ya, frasa 12 kata ini nggak boleh dibagikan di internet — beda sama yang aku lakukan di tutorial ini.**
 Wallet ini cuma contoh, dan cuma dipakai di Testnet (bukan jaringan Bitcoin asli).
-Nanti juga bakal dihapus setelah tutorial selesai. Jadi ingat, jangan pernah bagikan frasa wallet asli kamu ke siapa pun, apalagi online.**
+Nanti juga bakal dihapus setelah tutorial selesai. Jadi ingat, jangan pernah bagikan frasa wallet asli kamu ke siapa pun, apalagi online.
 
 Kamu juga bisa nambahin passphrase BIP39 dengan centang kotak “Use passphrase”.
 Fitur ini bisa bikin wallet kamu jauh lebih aman, tapi hati-hati — kalau kamu nggak ngerti cara kerjanya, risikonya bisa besar. Makanya, aku saranin banget buat baca dulu penjelasan singkat tentang teori di balik passphrase ini sebelum kamu pakai.

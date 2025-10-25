@@ -1,5 +1,5 @@
 ---
-name: Wallet av Satoshi - Försäljningsställe
+name: Wallet of Satoshi - POS
 description: Anta Bitcoin via Lightning Network i ditt företag.
 ---
 

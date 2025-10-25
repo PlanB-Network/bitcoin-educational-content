@@ -1,7 +1,7 @@
 ---
 name: LN VPN
 
-description: Mengatur VPN Anda
+description: Konfigurasikan LN VPN dengan Lightning untuk VPN anonim dan sesuai permintaan
 ---
 
 ![image](assets/cover.webp)

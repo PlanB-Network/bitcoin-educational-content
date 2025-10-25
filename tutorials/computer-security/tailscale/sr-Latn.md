@@ -72,7 +72,7 @@ Međutim, ova arhitektura zavisi od Tailscale Inc. za koordinaciju mreže. Da bi
 
 
 
-**Za detaljno objašnjenje unutrašnjeg funkcionisanja Tailscale-a, uključujući upravljanje kontrolnom ravni, NAT prolaz i DERP releje, preporučujemo odličan članak [Kako Tailscale funkcioniše](https://tailscale.com/blog/how-tailscale-works) na zvaničnom blogu. Ovaj članak detaljno objašnjava tehničke koncepte koji čine Tailscale tako moćnim.
+**Za detaljno objašnjenje unutrašnjeg funkcionisanja Tailscale-a, uključujući upravljanje kontrolnom ravni, NAT prolaz i DERP releje, preporučujemo odličan članak** [Kako Tailscale funkcioniše](https://tailscale.com/blog/how-tailscale-works) **na zvaničnom blogu. Ovaj članak detaljno objašnjava tehničke koncepte koji čine Tailscale tako moćnim.**
 
 
 

@@ -44,7 +44,7 @@ In diesem Sinne sind alle, die an Plan ₿ Network mitarbeiten, Pädagogen!
 ## Die ersten Schritte vor dem Korrekturlesen auf Plan ₿ Network
 
 
-Bevor Sie mit einer neuen Korrekturleseaufgabe beginnen, kündigen Sie sie in der [Telegram-Gruppe] (https://t.me/PlanBNetwork_ContentBuilder) an oder informieren Sie Ihren Plan ₿ Network-Koordinator, der eine spezielle [Ausgabe] (https://github.com/orgs/PlanB-Network/projects/3) eröffnet. Wenn Sie den Link zur Ausgabe erhalten, geben Sie einfach an, dass Sie mit dem Korrekturlesen des betreffenden Inhalts beginnen**.
+Bevor Sie mit einer neuen Korrekturleseaufgabe beginnen, kündigen Sie sie in der [Telegram-Gruppe] (https://t.me/PlanBNetwork_ContentBuilder) an oder informieren Sie Ihren Plan ₿ Network-Koordinator, der eine spezielle [Ausgabe] (https://github.com/orgs/PlanB-Network/projects/3) eröffnet. Wenn Sie den Link zur Ausgabe erhalten, geben Sie einfach an, dass Sie mit dem Korrekturlesen des betreffenden Inhalts beginnen.
 
 
 Dieses System hilft dem Koordinator, den Fortschritt innerhalb des Repos zu verfolgen, und ermöglicht es, dass der Inhalt vom Korrekturleser "beansprucht" wird, um doppelte Arbeit durch jemand anderen zu verhindern.
@@ -172,7 +172,7 @@ Achten Sie darauf, dass Sie **niemals die Hash-Zeichen** vor einem Titel lösche
 Gleichzeitig **verändern** Sie nicht den Teil der Kapitel-ID, den Sie im obigen Bild sehen können, ``<chapterId>d668fdf6-fb4c-4bbf-82e1-afcb95c122e0</chapterId>`` oder die Video-Referenzen wie ``:::video id=ba99951f-81d2-418f-b5e7-4b8c9f8b8cc8:::``.
 
 
-Wenn wir ``#`` vor einem Titel einfügen, wird dieser in der Kursvorschau automatisch fett. Vermeiden Sie es also, die Titel während der Korrektur fett zu machen**.
+Wenn wir ``#`` vor einem Titel einfügen, wird dieser in der Kursvorschau automatisch fett. Vermeiden Sie es also, die Titel während der Korrektur fett zu machen.
 
 
 Nebenbei bemerkt: In der EN-Version von Kursen beginnen **Titel, die mit einem oder zwei ``#`` eingeleitet werden, alle Wörter in Großbuchstaben**, während Titel, die mit drei oder vier ``#`` beginnen, normalerweise nicht dieser Regel folgen. Stellen Sie nach Möglichkeit sicher, dass die Titel in Ihrer Zielsprache dieser Struktur folgen.
@@ -234,22 +234,29 @@ Nachfolgend finden Sie einige Beispiele für Formatierungsfragen, auf die Sie be
 
 ![REVIEW](assets/en/11.webp)
 
-
-
 ## Korrekturlesen von Quiz
 
 
-Wussten Sie, dass Sie auch die Quizfragen in jedem Kurs Korrektur lesen können? Wenn Sie z. B. die Quizfragen für BTC101 in IT Korrektur lesen möchten, können Sie eine spezielle Verzweigung öffnen und diesem Pfad folgen: "Kurse" -> "BTC101" -> "Quiz". Dort finden Sie alle Ordner, die den einzelnen Fragen gewidmet sind, zusammen mit der entsprechenden Sprachdatei im _yml_-Format.
+Wussten Sie, dass Sie auch die Quizfragen in jedem Kurs Korrektur lesen können? Wenn Sie z. B. die Quizfragen für BTC101 in IT Korrektur lesen möchten, können Sie eine eigene Verzweigung öffnen und diesem Pfad folgen: "Kurse" -> "BTC101" -> "Quiz". Dort finden Sie alle Ordner, die den einzelnen Fragen gewidmet sind, zusammen mit der entsprechenden Sprachdatei im _yml_-Format.
 
 
 Vergewissern Sie sich auch hier, dass Sie sich in einer eigens zu diesem Zweck eröffneten Zweigstelle befinden, und informieren Sie immer den Koordinator.
 
 
-Nachdem Sie die Frage überprüft haben, ändern Sie den Status "überprüft" von "falsch" auf "wahr", wie in der folgenden Abbildung gezeigt.
-
+Eine wichtige Sache, die Sie beim Korrekturlesen dieser Art von _yml_-Datei beachten sollten, ist, dass Sie keine Doppelpunkte ``:`` innerhalb des Textes einfügen. Tatsächlich wird der Doppelpunkt **nur** verwendet, um Schlüssel-Wert-Paare wie "wrong_answers" vom Rest zu trennen. Ein Beispiel sehen Sie in der folgenden Abbildung:
 
 
 ![REVIEW](assets/en/12.webp)
+
+
+Nachdem Sie die Frage geprüft haben, ändern Sie den Status "geprüft" von "falsch" auf "wahr", wie in der Abbildung unten gezeigt. Achten Sie darauf, dass diese Statuswörter in Englisch bleiben, unabhängig davon, in welcher Sprache Sie arbeiten!
+
+
+
+![REVIEW](assets/en/13.webp)
+
+
+Wenn die Statuszeile "reviewed:true" fehlt, stellen Sie sicher, dass Sie sie am Ende des Quiz **hinzufügen**.
 
 
 ## Korrekturlesen des Glossars
@@ -258,7 +265,35 @@ Nachdem Sie die Frage überprüft haben, ändern Sie den Status "überprüft" vo
 Genau wie die Quizfragen können Sie auch das Glossar Korrektur lesen. Das Originalglossar wurde in französischer Sprache verfasst, so dass Sie Sätze finden werden wie: "Im Französischen kann dieser Ausdruck übersetzt werden mit..."
 
 
-In solchen Fällen passen Sie diesen Satz bitte an Ihre Zielsprache oder an das Englische an.
+In solchen Fällen passen Sie den Satz bitte an Ihre Zielsprache oder an das Englische an. Sie könnten zum Beispiel schreiben: "Im Englischen ist dieser Ausdruck...".
+
+Wenn der Titel auf Englisch bleibt, können Sie den Satz an Ihre Sprache anpassen: "Auf Suaheli bedeutet dieser Ausdruck ..."
+
+
+Achten Sie außerdem darauf, Titel in GROSSBUCHSTABEN zu schreiben.
+
+
+![REVIEW](assets/en/14.webp)
+
+
+## Der Titel und die Beschreibung Ihrer PR
+
+
+Wenn Sie Ihre PR senden, wäre es toll, wenn Sie sie in diesem Format benennen würden: [KORREKTURLESEN] NAME DES INHALTS - SPRACHE:
+
+
+```
+[PROOFREADING] BTC101 - ENGLISH
+```
+
+
+Außerdem können Sie in den **Kommentarteil des PR** "schließt" + die Nummer der Ausgabe, die der Koordinator Ihnen zu Beginn der Korrekturleseaufgabe übermittelt hat, mit vorangestelltem ``#`` schreiben.
+
+Wenn Sie zum Beispiel gerade eine PR mit der Korrektur von cyp201 + Quiz geschickt haben, können Sie schreiben "schließt [#2934](https://github.com/PlanB-Network/Bitcoin-educational-content/issues/2934)".
+
+
+Auf diese Weise werden der PR und das Problem miteinander verbunden, und jeder, der das öffentliche Github-Repository liest, kann leicht Informationen finden.
+
 
 
 ## Andere bewährte Praktiken
@@ -269,7 +304,7 @@ In solchen Fällen passen Sie diesen Satz bitte an Ihre Zielsprache oder an das 
 
 
 
-![REVIEW](assets/en/13.webp)
+![REVIEW](assets/en/15.webp)
 
 
 
@@ -283,23 +318,35 @@ Im folgenden Beispiel hat der Korrektor die obige Funktion verwendet, um "Satosh
 
 
 
-![REVIEW](assets/en/14.webp)
+![REVIEW](assets/en/16.webp)
 
 
 
 
-- Wenn der Autor einen Link einfügt, der auf einen Plan ₿ Network-Kurs oder ein Tutorial verweist (**nicht** in Klammern), erstellt die Website automatisch eine "Karte" mit der entsprechenden Miniaturansicht. Achten Sie daher immer darauf, dass Sie **ein Leerzeichen zwischen dem Text und dem Link selbst** einfügen, da sonst der folgende Fehler auf der Website angezeigt werden kann.
+- Wenn der Autor einen Link einfügt, der auf einen Plan ₿ Network-Kurs oder ein Lernprogramm verweist (**nicht** in Klammern), erstellt die Website automatisch eine "Karte" mit dem entsprechenden Miniaturbild. Achten Sie daher immer darauf, dass Sie **eine neue Zeile zwischen dem Text und dem Link selbst** einfügen, da sonst der folgende Fehler auf der Website auftreten kann.
 
 
 
-![REVIEW](assets/en/15.webp)
+![REVIEW](assets/en/17.webp)
 
 
+Dasselbe gilt für "Bildcodes" wie diesen ``[BILD](asset/fr/001.webp)``: Achten Sie darauf, dass Sie immer eine neue Zeile zwischen dem Bildcode und dem Text einfügen. Ein Beispiel unten:
 
 
+```
+WRONG CONFIGURATION:
+- to start translating, click on the button `Translate`: ![language](assets/08.webp)
+To save, click on `save`!
 
-- Ein weiteres bewährtes Verfahren, das Sie anwenden sollten, wenn Sie Ihre Korrekturleseaufgabe abgeschlossen haben und den PR abschicken, besteht darin, zu der ursprünglichen, vom Koordinator eröffneten Frage zurückzukehren und sie mit "Korrekturlesen erledigt" zu kommentieren. **Stellen Sie sicher, dass Sie dort auch Ihren PR-Link einfügen**.
 
+RIGHT CONFIGURATION:
+
+- to start translating, click on the button `Translate`:
+
+![language](assets/08.webp)
+
+To save, click on `save`!
+```
 
 
 ## Schlussfolgerung
@@ -309,6 +356,9 @@ Zusammenfassend lässt sich sagen, dass Sie Ihre Fähigkeiten bei der Überprüf
 
 
 Denken Sie immer daran, dass ein Anfänger diese Kurse und Tutorien lesen könnte, und es liegt in unserer Verantwortung, dafür zu sorgen, dass er alles versteht. Als Korrekturleser sind Sie ein Pädagoge!
+
+
+Jetzt können Sie mit dem Korrekturlesen von Kursen, Tutorials, Quizzen und Glossaren beginnen. Bleiben Sie dran und beginnen Sie auch mit der Überprüfung von Bildern und Videotranskripten ;)
 
 
 Vielen Dank für die Lektüre dieses Tutorials und viel Spaß beim Korrekturlesen!

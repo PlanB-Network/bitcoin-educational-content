@@ -1,5 +1,5 @@
 ---
-name: 藍色 Wallet
+name: Blue Wallet
 
 description: Bitcoin 徹底簡單且功能強大的產品組合
 ---
@@ -152,7 +152,7 @@ https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43c
 
 
 
-- 誇大費用**：您是否有一筆交易花了很長時間才被確認？啟用費用膨脹功能後，您可以在待處理交易中增加額外的交易費用，以加快交易確認的速度。
+- **誇大費用**：您是否有一筆交易花了很長時間才被確認？啟用費用膨脹功能後，您可以在待處理交易中增加額外的交易費用，以加快交易確認的速度。
 
 
 
@@ -248,7 +248,7 @@ Multisig (多重簽名) Wallet 代表由一定數量 (最少 2 個) 的 Bitcoin 
 
 
 
-- 發送 bitcoins** ：
+- 發送 **bitcoins** ：
 
 
 
@@ -274,7 +274,7 @@ Multisig (多重簽名) Wallet 代表由一定數量 (最少 2 個) 的 Bitcoin 
 
 
 
-- 更進一步的多重簽章**組合：
+- 更進一步的多重簽章組合：
 
 
 

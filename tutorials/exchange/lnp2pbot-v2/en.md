@@ -43,7 +43,7 @@ Start by installing a compatible Lightning wallet. Here are our detailed recomme
 **Recommended wallets**
 
 
-- [Breez](https://breez.technology)**:
+- [Breez](https://breez.technology):
   - Excellent for beginners
   - Intuitive, modern interface
   - Non-custodial (you retain control of your funds)
@@ -54,7 +54,7 @@ Below is the link to the tutorial for this wallet:
 
 https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
-- [Phoenix](https://phoenix.acinq.co)** :
+- [Phoenix](https://phoenix.acinq.co) :
   - Simple and reliable
   - Automatic channel configuration
   - Native support for BOLT11 invoices
@@ -65,7 +65,7 @@ Below is the link to the tutorial for this wallet:
 
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-- [Blixt](https://blixtwallet.github.io)** :
+- [Blixt](https://blixtwallet.github.io) :
   - More technical but very complete
   - Advanced configuration options
   - Perfect for experienced users
@@ -81,9 +81,9 @@ https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-8405
 ⚠️ **Important**: Before selling sats, make sure your wallet supports "hold" invoices, which are used by the bot as an escrow system.
 
 
-- Wallet of Satoshi**: Works well for receiving sats, but can have delays in updating the balance if a sale is cancelled.
-- Muun**: Not recommended as payments may fail due to bot routing fee limits (maximum 0.2%).
-- Aqua**: Works to receive sats, but can have long delays (up to 48 hours) for balance updates in the event of a sale cancellation.
+- **Wallet of Satoshi**: Works well for receiving sats, but can have delays in updating the balance if a sale is cancelled.
+- **Muun**: Not recommended as payments may fail due to bot routing fee limits (maximum 0.2%).
+- **Aqua**: Works to receive sats, but can have long delays (up to 48 hours) for balance updates in the event of a sale cancellation.
 
 💡 **Tip**: For optimum experience, opt for recommended wallets (Breez, Phoenix or Blixt).
 
@@ -153,7 +153,7 @@ Once the invoice has been sent, the bot puts you in touch with the seller.
 
 Click on the seller's nickname to open a private chat channel where you can exchange fiat payment details.
 
-**5. Confirmation of payment
+**5. Confirmation of payment**
 
 ![Confirmation du paiement](assets/fr/05.webp)
 
@@ -246,17 +246,17 @@ Lnp2pbot has several advantages and disadvantages over other P2P exchange soluti
 ### Advantages of Lnp2pbot
 
 
-- No KYC required** : Unlike some platforms, Lnp2pbot does not require identity verification, thus preserving user privacy.
-- Fast transactions**: Thanks to the Lightning network, transactions are almost instantaneous.
-- Low fees** : Transaction costs are lower than for traditional exchanges.
-- Mobile availability**: LNP2PBot is accessible via Telegram, making it easy to use on mobile devices.
-- Easy to use** : Lnp2pbot's intuitive interface makes it easy to use, even for less experienced users.
+- **No KYC required**: Unlike some platforms, Lnp2pbot does not require identity verification, thus preserving user privacy.
+- **Fast transactions**: Thanks to the Lightning network, transactions are almost instantaneous.
+- **Low fees**: Transaction costs are lower than for traditional exchanges.
+- **Mobile availability**: LNP2PBot is accessible via Telegram, making it easy to use on mobile devices.
+- **Easy to use**: Lnp2pbot's intuitive interface makes it easy to use, even for less experienced users.
 
 ### Disadvantages of Lnp2pbot
 
 
-- Telegram dependency**: Using Lnp2pbot requires a Telegram account, which may not be suitable for all users.
-- Less liquidity**: Compared to more established platforms like Bisq, liquidity can be more limited.
+- **Telegram dependency**: Using Lnp2pbot requires a Telegram account, which may not be suitable for all users.
+- **Less liquidity**: Compared to more established platforms like Bisq, liquidity can be more limited.
 
 In comparison, solutions such as Bisq offer greater liquidity and a desktop interface, but may involve higher fees and longer transaction times. HodlHodl and Robosat, meanwhile, also offer KYC-free trading, but with different fee structures and interfaces.
 

@@ -19,7 +19,7 @@ Alby Hub on erittäin mukautuva työkalu. Se pystyy vastaamaan sekä aloittelijo
 Alby Hub on saatavana neljässä eri kokoonpanossa tarpeidesi mukaan:
 
 
-- Alby Hub Cloud :**
+- **Alby Hub Cloud:**
 
 Ihanteellinen aloittelijoille, tämä ensimmäinen vaihtoehto on Albyn pilvivaihtoehto. Se mahdollistaa Hubin käyttöönoton suoraan Albyn hallinnoimalla palvelimella, johon pääsee Alby Hub -käyttöliittymän kautta. Vaikka Alby hallinnoi palvelinta, säilytät suvereniteetin varoihisi, koska avaimesi on salattu salasanalla, jonka vain sinä tiedät. Avaimet on kuitenkin pidettävä salauksenpurkamattomina RAM-muistissa, jotta solmu voi toimia, mikä teoreettisesti altistaa ne riskille, jos joku pääsee fyysisesti palvelimelle. Tämä on mielenkiintoinen kompromissi aloittelijoille, mutta on tärkeää olla tietoinen riskeistä.
 
@@ -298,7 +298,7 @@ Palaa takaisin Alby Go -sovellukseen, skannaa QR-koodi tai liitä salaisuus.
 
 ![ALBY HUB](assets/fr/50.webp)
 
-Napsauta "Valmis*".
+Napsauta "Valmis".
 
 ![ALBY HUB](assets/fr/51.webp)
 

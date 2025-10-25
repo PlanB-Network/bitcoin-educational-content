@@ -16,11 +16,11 @@ description: Guía de la aplicación móvil Alby Go
 
 
 
-- [Alby Hub](https://albyhub.com/)** *(recomendado)*
-- Umbrel**, **Start9**, **RaspiBlitz** (vía **Alby Hub**)
-- Coinos** *(no probado)*
-- Primal** *(no probado)*
-- Minibits** *(sin probar)*
+- [Alby Hub](https://albyhub.com/) **(recomendado)**
+- **Umbrel**, **Start9**, **RaspiBlitz** (vía **Alby Hub**)
+- **Coinos** *(no probado)*
+- **Primal** *(no probado)*
+- **Minibits** *(sin probar)*
 
 
 La mayoría de los servicios compatibles con NWC deberían funcionar. Si estás probando uno nuevo, ¡comunica tus resultados a la comunidad!
@@ -33,9 +33,9 @@ Disponible en las principales plataformas:
 
 
 
-- iOS:** [Descargar de la App Store](https://apps.apple.com/us/app/alby-go/id6471335774)
-- Android:** [Descargar de Google Play](https://play.google.com/store/apps/details?id=com.getalby.mobile)
-- ZapStore**
+- **iOS:** [Descargar de la App Store](https://apps.apple.com/us/app/alby-go/id6471335774)
+- **Android:** [Descargar de Google Play](https://play.google.com/store/apps/details?id=com.getalby.mobile)
+- **ZapStore**
 
 
 
@@ -123,6 +123,6 @@ Sin hinchazón. Sin complicaciones. Rápido como un rayo.
 - 🧷 Añadir, eliminar y exportar carteras
 
 
-**💡 ¿Necesitas ayuda?*
+**💡 ¿Necesitas ayuda?**
 
 Visita getalby.com para obtener asistencia y actualizaciones.

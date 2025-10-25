@@ -1,0 +1,9 @@
+question: Qual è la differenza tra le regole del consenso e le regole della staffetta?
+answer: Il consenso definisce la validità, rilancia la diffusione delle transazioni
+wrong_answers:
+  - Il consenso definisce le tariffe, il relè gli indirizzi
+  - Il consenso gestisce Blockchain, il relay gestisce le chiavi private
+  - Il consenso sceglie i minatori, il relay sceglie i commercianti
+explanation: |
+  Le regole del consenso determinano ciò che è valido nel Bitcoin, mentre le regole del relè gestiscono le transazioni tra i nodi.
+reviewed: true

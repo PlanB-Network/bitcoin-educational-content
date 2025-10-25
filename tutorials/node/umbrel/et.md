@@ -1,5 +1,5 @@
 ---
-name: Vihmavarju
+name: Umbrel
 description: Avasta ja paigalda Umbrel - Sinu Bitcoin sõlme ja koduserver
 ---
 
@@ -21,10 +21,10 @@ Bitcoin-sõlm on arvuti, mis osaleb Bitcoin võrgus, kasutades Bitcoin Core tark
 
 
 
-- Blockchain ladustamine**: Hoiab Blockchain täielikku ja ajakohastatud koopiat Bitcoin
-- Tehingu kontrollimine**: valideerib iga tehingu ja ploki vastavalt protokolli reeglitele
-- Teabe levitamine**: Jagab uusi tehinguid ja plokke teiste sõlmedega
-- Konsensuse saavutamine**: Aitab kaasa võrgueeskirjade kohaldamisele
+- **Blockchain ladustamine**: Hoiab Blockchain täielikku ja ajakohastatud koopiat Bitcoin
+- **Tehingu kontrollimine**: valideerib iga tehingu ja ploki vastavalt protokolli reeglitele
+- **Teabe levitamine**: Jagab uusi tehinguid ja plokke teiste sõlmedega
+- **Konsensuse saavutamine**: Aitab kaasa võrgueeskirjade kohaldamisele
 
 
 
@@ -34,11 +34,11 @@ Oma Bitcoin-sõlme haldamine on oluline samm finantssõltumatuse suunas, pakkude
 
 
 
-- Konfidentsiaalsus**: Jagage oma tehinguid ilma teie andmeid kolmandatele osapooltele avaldamata
-- Vastupanu tsensuurile**: Keegi ei saa teid takistada Bitcoin kasutamast
-- Sõltumatu kontroll**: Teie tehingute kontrollimiseks ei ole vaja usaldada teiste inimeste sõlmi
-- Konsensuse saavutamine**: Bitcoin võrgueeskirjade kohaldamisele kaasaaitamine
-- Võrgustiku tugi**: Hakka aktiivselt osalema võrgu levitamises ja detsentraliseerimises
+- **Konfidentsiaalsus**: Jagage oma tehinguid ilma teie andmeid kolmandatele osapooltele avaldamata
+- **Vastupanu tsensuurile**: Keegi ei saa teid takistada Bitcoin kasutamast
+- **Sõltumatu kontroll**: Teie tehingute kontrollimiseks ei ole vaja usaldada teiste inimeste sõlmi
+- **Konsensuse saavutamine**: Bitcoin võrgueeskirjade kohaldamisele kaasaaitamine
+- **Võrgustiku tugi**: Hakka aktiivselt osalema võrgu levitamises ja detsentraliseerimises
 
 
 
@@ -144,7 +144,7 @@ UmbrelOS on Umbreli operatsioonisüsteemi vaba, avatud lähtekoodiga versioon. S
 
 
 
-**Piirangud
+**Piirangud**
 
 
 
@@ -268,7 +268,7 @@ Selle paigalduse jaoks on vaja :
 
 
 
-**microSD-kaardi paigaldamine
+**microSD-kaardi paigaldamine**
 
 
 
@@ -295,7 +295,7 @@ Selle paigalduse jaoks on vaja :
 
 
 
-**Võimsus sisse
+**Võimsus sisse**
 
 
 
@@ -365,7 +365,7 @@ Kui teie Umbrel on käivitatud ja brauseri kaudu kättesaadav, järgige järgmis
 
 
 
-**Konto kinnitamine
+**Konto kinnitamine**
 
 
 
@@ -581,7 +581,7 @@ Selle rakenduse abil saate tõhusalt jälgida oma tehinguid, mõista, kuidas tas
 
 
 
-**Lokaalne ühendus
+**Lokaalne ühendus**
 
 
 
@@ -613,7 +613,7 @@ Selle rakenduse abil saate tõhusalt jälgida oma tehinguid, mõista, kuidas tas
 
 
 
-**Juurdepääs parameetritele
+**Juurdepääs parameetritele**
 
 
 
@@ -628,7 +628,7 @@ Selle rakenduse abil saate tõhusalt jälgida oma tehinguid, mõista, kuidas tas
 
 
 
-**Võimalus valida ühenduse tüüp
+**Võimalus valida ühenduse tüüp**
 
 
 
@@ -678,7 +678,7 @@ Mõlemal juhul jätke valikud "Use SSL" ja "Use proxy" märkimata.
 
 
 
-**Lokaalne ühendus
+**Lokaalne ühendus**
 
 
 Host: umbrel.local

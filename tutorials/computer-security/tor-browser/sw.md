@@ -1,5 +1,5 @@
 ---
-name: Kivinjari cha Tor
+name: Tor Browser
 description: Jinsi ya kutumia Kivinjari cha Tor?
 ---
 ![cover](assets/cover.webp)

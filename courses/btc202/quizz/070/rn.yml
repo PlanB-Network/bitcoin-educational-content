@@ -1,0 +1,9 @@
+question: Ni nde abungabunga ama server ya DNS seed akoreshwa mu kuvumbura abagenzi ba mbere?
+answer: Abateza imbere ibidukikije
+wrong_answers:
+  - Abatanga serivisi za Internet
+  - Satoshi Nakamoto
+  - Mining ibidengeri
+explanation: |
+  Imbuto za DNS zitunganywa n’abahinguzi bazwi cane (Wuille, Corallo, Dashjr, n’abandi) kandi zitanga IPs zikora kugira ngo zitangure gukorana.
+reviewed: true

@@ -347,7 +347,7 @@ To sell, follow the same principle, but select "Sell" at the top of the buy/sell
 ### 6.2 - DCA (Automated time-controlled buying and selling)
 
 
-A practical solution for buying Bitcoin automatically, without even having to log back into your Kraken account, is to set up a DCA. Deposit a quantity of fiat into your account and set up regular purchases that will be triggered automatically at regular intervals, as long as your fiat portfolio is sufficiently funded.
+A practical solution for buying Bitcoin automatically, without even having to log back into your Kraken account, is to set up a DCA. Deposit a quantity of fiat into your account and set up regular purchases that will be triggered automatically at regular intervals, as long as your fiat wallet is sufficiently funded.
 
 
 To do this, click on "Buy now" to bring up the various options, then choose "Recuring".

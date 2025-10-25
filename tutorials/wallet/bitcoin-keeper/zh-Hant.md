@@ -1,5 +1,5 @@
 ---
-name: Bitcoin Keeper - 多重鑰匙安全性
+name: Bitcoin Keeper
 description: Bitcoin Keeper 應用程式 - 可讓您同時建立 Hot 荷里活錢包和 Cold 儲存金庫以進行長期儲蓄的行動應用程式
 ---
 

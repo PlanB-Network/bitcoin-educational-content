@@ -1,5 +1,5 @@
 ---
-name: Wallet ya Satoshi
+name: Wallet of Satoshi
 description: Wallet rahisi zaidi ya uhifadhi ili kuanza
 ---
 ![cover](assets/cover.webp)
@@ -79,8 +79,8 @@ Wallet ya Satoshi imetuma ujumbe kwa kikasha cha barua pepe kilichoonyeshwa.
 Katika sanduku la barua, tutapata maneno mawili, ambayo tunahitaji kuingia, kuandika tena, katika nafasi iliyotolewa na programu.
 
 
-- usiamsha mfasiri: maneno ni na lazima yabaki katika Kiingereza **
-- andika upya maneno mawili ukizingatia herufi kubwa/chini**
+- usiamsha mfasiri: maneno ni na lazima yabaki katika Kiingereza
+- andika upya maneno mawili ukizingatia herufi kubwa/chini
 
 
 ![image](assets/it/10.webp)

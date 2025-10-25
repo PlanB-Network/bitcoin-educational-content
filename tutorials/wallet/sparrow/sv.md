@@ -1,5 +1,5 @@
 ---
-name: Sparrow wallet
+name: Sparrow Wallet
 description: Installera, konfigurera och använda Sparrow wallet
 ---
 ![cover](assets/cover.webp)

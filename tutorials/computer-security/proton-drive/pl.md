@@ -11,7 +11,7 @@ W dzisiejszych czasach kluczowe znaczenie ma ustanowienie strategii zapewniając
 Aby zapobiec tym problemom, zalecam utrzymywanie wielu kopii zapasowych plików na różnych nośnikach. Powszechnie stosowaną strategią w informatyce jest strategia tworzenia kopii zapasowych "3-2-1", która zapewnia ochronę plików:
 
 
-- 3** kopie plików;
+- 3 **kopie plików**;
 - Zapisane na co najmniej **2** różnych typach nośników;
 - Z co najmniej **1** kopią przechowywaną poza siedzibą firmy.
 

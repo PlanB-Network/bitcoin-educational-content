@@ -5,7 +5,7 @@ description: Hoe kun je een nieuwe taal toevoegen aan Plan ₿ Network?
 ![cover](assets/cover.webp)
 
 
-De missie van Plan ₿ Network is om eersteklas educatieve bronnen op Bitcoin aan te bieden en deze in zoveel mogelijk talen te vertalen. Veel van de inhoud die op de site wordt gepubliceerd, is open-source en wordt gehost op GitHub, zodat iedereen kan deelnemen aan het verrijken van het platform. Bijdragen kunnen verschillende vormen aannemen: het corrigeren en proeflezen van bestaande inhoud, het bijwerken van informatie of het creëren van nieuwe tutorials om toe te voegen aan het platform.
+De missie van Plan ₿ Network is om eersteklas educatieve bronnen over Bitcoin aan te bieden en deze in zoveel mogelijk talen te vertalen. Veel van de inhoud die op de site wordt gepubliceerd, is open-source en wordt gehost op GitHub, zodat iedereen kan deelnemen aan het verrijken van het platform. Bijdragen kunnen verschillende vormen aannemen: het corrigeren en proeflezen van bestaande inhoud, het bijwerken van informatie of het creëren van nieuwe tutorials om toe te voegen aan het platform.
 
 
 Onze website is momenteel beschikbaar in verschillende talen en we werken er voortdurend aan om meer talen toe te voegen. Om het vertaalproces voor onze frontend te verbeteren, gebruiken we de tool Weblate, die ons helpt om efficiënt samen te werken en vertalingen te beheren. Het is een gebruiksvriendelijke tool.
@@ -47,11 +47,11 @@ Als je taal er niet bij staat, volg dan de onderstaande handleiding om deze toe 
 
 
 
-- De eerste stap is het aanmaken van een account op Weblate door te klikken op "Registreren" in de rechterbovenhoek (als je hulp nodig hebt, kun je teruggaan naar de tutorial hierboven).
+- De eerste stap is het aanmaken van een account op Weblate door te klikken op "Register" (Registreren) in de rechterbovenhoek (als je hulp nodig hebt, kun je teruggaan naar de tutorial hierboven).
 
 
 
-- Zodra je account is aangemaakt, ga je naar het `Website Elements` menu en selecteer je de `Talen` tab:
+- Zodra je account is aangemaakt, ga je naar het `Website Elements` menu en selecteer je de `Languages` tab:
 
 ![language](assets/03.webp)
 
@@ -66,7 +66,7 @@ Als je taal er niet bij staat, volg dan de onderstaande handleiding om deze toe 
 ![language](assets/05.webp)
 
 
-- Klik op `Start nieuwe vertaling`:
+- Klik op `Start new translation` (Start nieuwe vertaling):
 
 ![language](assets/06.webp)
 
@@ -76,16 +76,16 @@ Als je taal er niet bij staat, volg dan de onderstaande handleiding om deze toe 
 ![language](assets/07.webp)
 
 
-- Om te beginnen met het vertalen van de statische Elements van de website, klik je op de `Translate` knop: ![language](assets/08.webp)
+- Om te beginnen met het vertalen van de statische elementen van de website, klik je op de knop `Translate`: ![language](assets/08.webp)
 
-Bekijk onze speciale handleiding hieronder om door het vertaalproces geleid te worden:
+Bekijk onze speciale tutorial hieronder om door het vertaalproces geleid te worden:
 
 
 https://planb.network/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 
-Gefeliciteerd, je bent begonnen met het vertalen van de statische Elements op de Plan ₿ Network website!
+Gefeliciteerd, je bent begonnen met het vertalen van de statische elementen op de Plan ₿ Network website!
 
-Ze omvatten alle strings op de website, behalve de educatieve inhoud (cursussen, tutorials...) waarvoor we een andere semi-geautomatiseerde methode gebruiken (AI-vertaling + meelezerscontrole).
+Ze omvatten alle strings op de website, behalve de educatieve inhoud (cursussen, tutorials...) waarvoor we een andere semi-geautomatiseerde methode gebruiken (AI-vertaling + proeflezen door bijdragers).
 
 
 Hartelijk dank voor je waardevolle bijdrage!

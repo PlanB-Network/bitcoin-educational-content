@@ -1,0 +1,9 @@
+question: Wat is de standaardwaarde van de maxconnections parameter in Bitcoin core?
+answer: 125
+wrong_answers:
+  - 10
+  - 100
+  - 150
+explanation: |
+  maxconnections beperkt het totale aantal inkomende en uitgaande verbindingen. De standaardwaarde is 125.
+reviewed: true

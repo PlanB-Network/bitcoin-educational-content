@@ -1,5 +1,5 @@
 ---
-name: Krux - Single ja Multi Sig
+name: Krux
 description: krux DIY Bitcoin -laitteistosignointilaitteen asentaminen, sen laiteohjelmiston flashaaminen ja sen käyttäminen sekä single-sig- että Multisig-lompakoissa.
 ---
 

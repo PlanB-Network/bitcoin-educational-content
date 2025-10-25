@@ -1,5 +1,5 @@
 ---
-name: Zwitsers Bitcoin loon
+name: Swiss Bitcoin Pay
 description: Hoe accepteer ik gemakkelijk Bitcoin betalingen?
 ---
 ![cover](assets/cover.webp)

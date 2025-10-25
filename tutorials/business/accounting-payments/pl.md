@@ -100,7 +100,7 @@ Wraz ze wzrostem wolumenu transakcji Bitcoin, wprowadzanie gotówki do kasy moż
 Jak widzieliśmy, łatwo jest zaakceptować Bitcoin bez wprowadzania nowych procedur księgowych szkodliwych dla indywidualnej prywatności; jednak nadal wskazane byłoby prowadzenie równoległego systemu księgowego w celu śledzenia przepływu Bitcoin. Nie martw się, może to być tak proste, jak chcesz, o ile rozumiesz, ile Bitcoinów wchodzi i wychodzi z twojego Wallet.
 
 
-**Uwaga: wypełnienie pola `Nota` podczas tworzenia LN Invoice dla klienta znacznie ułatwi aktualizację księgowania Bitcoin. To samo dotyczy dokonywania płatności LN na rzecz dostawców. Idealnie byłoby, gdyby każda transakcja była powiązana z notą płatności.
+**Uwaga: wypełnienie pola `Nota` podczas tworzenia LN Invoice dla klienta znacznie ułatwi aktualizację księgowania Bitcoin. To samo dotyczy dokonywania płatności LN na rzecz dostawców. Idealnie byłoby, gdyby każda transakcja była powiązana z notą płatności.**
 
 
 ## Wnioski

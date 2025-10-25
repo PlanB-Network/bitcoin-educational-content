@@ -93,19 +93,19 @@ Una delle caratteristiche speciali di Blitz Wallet è che supporta reti e canali
 
 
 
-- Lightning Network** : Una delle sovrapposizioni del Bitcoin che consente di effettuare microtransazioni istantaneamente.
+- **Lightning Network**: Una delle sovrapposizioni del Bitcoin che consente di effettuare microtransazioni istantaneamente.
 
 
 
 
 
-- Bitcoin Mainnet** : La catena principale del protocollo Bitcoin, adatta a transazioni di grande valore.
+- **Bitcoin Mainnet**: La catena principale del protocollo Bitcoin, adatta a transazioni di grande valore.
 
 
 
 
 
-- Liquid Network**: Una catena parallela alla Bitcoin Mainnet sviluppata da BlockStream che utilizza Liquid Bitcoin per eseguire operazioni veloci, Confidential Transactions.
+- **Liquid Network**: Una catena parallela alla Bitcoin Mainnet sviluppata da BlockStream che utilizza Liquid Bitcoin per eseguire operazioni veloci, Confidential Transactions.
 
 
 
@@ -169,7 +169,7 @@ Oltre alle operazioni di trasferimento Bitcoin, Blitz Wallet offre un negozio do
 
 
 
-- Accesso ai servizi di intelligenza artificiale**: Utilizzate modelli di intelligenza artificiale generativa come: Claude 3-5 sonnet, gpt-4o, gpt-4o-mini gemini-flash-1.5 e pagate direttamente in bitcoin.
+- **Accesso ai servizi di intelligenza artificiale**: Utilizzate modelli di intelligenza artificiale generativa come: Claude 3-5 sonnet, gpt-4o, gpt-4o-mini gemini-flash-1.5 e pagate direttamente in bitcoin.
 
 
 
@@ -179,7 +179,7 @@ Oltre alle operazioni di trasferimento Bitcoin, Blitz Wallet offre un negozio do
 
 
 
-- Inviare messaggi di testo in tutto il mondo**: Nel negozio Blitz, avete accesso a un servizio GSM che vi permette di inviare messaggi di testo in forma anonima in tutto il mondo, con fatturazione diretta in Bitcoin.
+- **Inviare messaggi di testo in tutto il mondo**: Nel negozio Blitz, avete accesso a un servizio GSM che vi permette di inviare messaggi di testo in forma anonima in tutto il mondo, con fatturazione diretta in Bitcoin.
 
 
 
@@ -189,7 +189,7 @@ Oltre alle operazioni di trasferimento Bitcoin, Blitz Wallet offre un negozio do
 
 
 
-- Navigate in totale riservatezza**: Pagate un abbonamento WireGuard VPN (Virtual Private Network) nel negozio Wallet Blitz con i vostri bitcoin.
+- **Navigate in totale riservatezza**: Pagate un abbonamento WireGuard VPN (Virtual Private Network) nel negozio Wallet Blitz con i vostri bitcoin.
 
 
 
@@ -249,7 +249,7 @@ Attivando la modalità Lightning, una volta soddisfatta la condizione principale
 
 
 
-- Accettare il Bitcoin nel proprio negozio** :
+- **Accettare il Bitcoin nel proprio negozio**:
 
 
 
@@ -270,4 +270,3 @@ Se questa esercitazione vi ha aiutato a familiarizzare con Blitz, siamo sicuri c
 
 
 https://planb.network/tutorials/wallet/mobile/muun-111b56b0-4872-4130-ad2e-e58f8363451d
-

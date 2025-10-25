@@ -1,5 +1,5 @@
 ---
-name: स्टोनवॉल x2
+name: Stonewall x2
 description: स्टोनवॉल x2 लेनदेन को समझना और उपयोग करना
 ---
 ![cover stonewall x2](assets/cover.webp)

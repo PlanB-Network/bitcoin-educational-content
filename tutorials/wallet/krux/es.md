@@ -1,5 +1,5 @@
 ---
-name: Krux - Mono y Multi Sig
+name: Krux
 description: configurar el dispositivo de firma por hardware Krux DIY Bitcoin, flashear su firmware y utilizarlo para monederos de firma única y Multisig.
 ---
 

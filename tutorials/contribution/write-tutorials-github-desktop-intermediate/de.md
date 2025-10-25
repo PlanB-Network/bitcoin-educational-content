@@ -17,13 +17,13 @@ Das haben Sie bereits:
 In diesem Tutorial werden wir sehen, wie Sie Ihr Tutorial zum Plan ₿ Network hinzufügen, indem Sie Ihre lokale Umgebung mit GitHub Desktop einrichten. Wenn Sie bereits mit Git vertraut sind, ist dieses sehr detaillierte Tutorial vielleicht nicht notwendig für Sie. Ich würde eher empfehlen, dieses andere Tutorial zu konsultieren, in dem ich nur die wichtigsten Richtlinien vorstelle, ohne detaillierte Schritt-für-Schritt-Anleitung:
 
 
-- Erfahrene Benutzer**:
+- **Erfahrene Benutzer**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 Wenn Sie es vorziehen, Ihre lokale Umgebung nicht einzurichten, folgen Sie dieser anderen Anleitung für Anfänger, in der wir die Änderungen direkt über die Weboberfläche von GitHub vornehmen:
 
 
-- Anfänger (Webschnittstelle)**:
+- **Anfänger (Webschnittstelle)**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 ## Voraussetzungen
@@ -383,8 +383,8 @@ Das Ausrufezeichen am Anfang zeigt an, dass es sich um ein Bild handelt. Der alt
 Wenn Sie Ihre eigenen Diagramme erstellen möchten, sollten Sie sich an die grafische Charta des Plan ₿ Network halten, um die visuelle Konsistenz zu gewährleisten:
 
 
-- Schriftart**: Verwenden Sie [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
-- Farben**:
+- **Schriftart**: Verwenden Sie [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
+- **Farben**:
  - Orange: #FF5C00
  - Schwarz: #000000
  - Weiß: #FFFFFF
@@ -448,5 +448,4 @@ Wenn Sie Änderungen an Ihrem Beitrag vornehmen möchten, nachdem Sie Ihren PR b
 - Wenn Ihr PR bereits mit dem Hauptzweig zusammengeführt wurde, müssen Sie den Prozess neu beginnen, indem Sie einen neuen Zweig erstellen und dann einen neuen PR einreichen. Stellen Sie sicher, dass Ihr lokales Repository mit dem Plan ₿ Network Source Repository synchronisiert ist, bevor Sie fortfahren.
 
 Wenn Sie beim Einreichen Ihres Tutorials auf technische Schwierigkeiten stoßen, zögern Sie nicht, auf [unserer speziellen Telegram-Gruppe für Beiträge] (https://t.me/PlanBNetwork_ContentBuilder) um Hilfe zu bitten. Vielen Dank!
-
 

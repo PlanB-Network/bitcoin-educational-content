@@ -1,5 +1,5 @@
 ---
-name: Sperling Wallet
+name: Sparrow Wallet
 description: Installieren, Konfigurieren und Verwenden von Sparrow Wallet
 ---
 ![cover](assets/cover.webp)

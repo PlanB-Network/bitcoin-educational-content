@@ -17,7 +17,7 @@ ___
 ## I. Presentation
 
 
-**In this tutorial, we're going to learn how to perform a security audit on a Linux machine using Lynis! For those of you who don't know **Lynis,** it's a small command-line utility that will analyze your server's configuration and make recommendations for **improving the security of your machine.**
+**In this tutorial, we're going to learn how to perform a security audit on a Linux machine using Lynis! For those of you who don't know** Lynis, **it's a small command-line utility that will analyze your server's configuration and make recommendations for improving the security of your machine.**
 
 
 Lynis is an open source tool from CISOFY, a company specializing in **system auditing and hardening**. If you want to make progress in hardening Linux and popular services (SSH, Apache2, etc.), Lynis is your ally! Lynis not only tells you what's going wrong, but also provides recommendations to point you in the right direction (and save you time).
@@ -247,10 +247,10 @@ Next, Lynis will list a set of points corresponding to everything he has checked
 
 
 
-- Red** for critical elements or best practices not respected (a missing package, for example), i.e. your server does not respect this point
-- Yellow** for suggestions or partial compliance with the recommendation (let's say it's a plus to comply with a point highlighted with this color (non-priority))
-- Green** for points where your server configuration is compliant
-- White**, when neutral
+- **Red** for critical elements or best practices not respected (a missing package, for example), i.e. your server does not respect this point
+- **Yellow** for suggestions or partial compliance with the recommendation (let's say it's a plus to comply with a point highlighted with this color (non-priority))
+- **Green** for points where your server configuration is compliant
+- **White**, when neutral
 
 
 Here, we can see that Lynis recommends installing **fail2ban**:
@@ -455,10 +455,10 @@ Some information about the installed packages:
 
 
 
-- Clamav** is an antivirus.
-- unattend-upgrades** will enable you to manage your updates automatically and even reboot the machine or automatically purge old packages, it's fully configurable.
-- rkhunter** is an anti-rootkit that scans your file system.
-- Fail2ban** will base itself on your log files according to what you give it to read and it will work with **iptables**, for example to ban IP addresses that try to "brute force" your server in SSH.
+- **Clamav** is an antivirus.
+- **unattend-upgrades** will enable you to manage your updates automatically and even reboot the machine or automatically purge old packages, it's fully configurable.
+- **rkhunter** is an anti-rootkit that scans your file system.
+- **Fail2ban** will base itself on your log files according to what you give it to read and it will work with **iptables**, for example to ban IP addresses that try to "brute force" your server in SSH.
 
 
 ### C. Recommendations for SSH
@@ -618,7 +618,7 @@ In images, this gives:
 Finally, let's not forget to check the **Lynis audit score**! We see that **my Hardening score is 63** and that the report file can be viewed in "**/var/log/lynis-report.dat**". There's also the file "**/var/log/lynis.log**".
 
 
-**In other words, the higher the score, the better! You therefore need to work on your configuration to achieve the highest possible score, while allowing your machine and hosted services to function normally (which means carrying out functional tests).
+**In other words, the higher the score, the better!** You therefore need to work on your configuration to achieve the highest possible score, while allowing your machine and hosted services to function normally (which means carrying out functional tests).
 
 
 ![Image](assets/fr/046.webp)
@@ -678,4 +678,4 @@ Don't forget to communicate with your teams before implementation: you need to m
 Finally, you can also compare **Lynis** with other tools, of which there are several. If you want to move towards centralized management while remaining open source, I recommend the [Wazuh] tool (https://wazuh.com/).
 
 
-**This tutorial is over, have fun with Lynis!
+**This tutorial is over, have fun with Lynis!**

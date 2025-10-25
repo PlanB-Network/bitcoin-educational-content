@@ -1,9 +1,11 @@
 ---
-name: LAPP bitcoin
-description: 最初のLAppを開発するためのチュートリアル
+name: Lightning App
+description: 最初のLightningアプリ (LAPP) を開発するためのチュートリアル
 ---
 
-最初のライトニングアプリのコーディングを学ぼう
+![cover](assets/cover.webp)
+
+## 最初のLightningアプリをコーディングする方法を学びましょう
 
 要件:
 
@@ -18,6 +20,8 @@ LNDノードをダウンロードして設定する代わりに、私たちはpo
 
 - ウェブサーバー用のExpress
 - フロントエンド用のPugテンプレート + bootstrap
+
+https://planb.network/courses/bbf08a64-84ca-11f0-9d7a-c3c481a45799
 
 ## オペレーティングシステム
 

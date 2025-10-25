@@ -1,5 +1,5 @@
 ---
-name: Wallet of Satoshi - Myyntipiste
+name: Wallet of Satoshi - POS
 description: Ota Bitcoin käyttöön Lightning Network:n kautta yrityksessäsi.
 ---
 

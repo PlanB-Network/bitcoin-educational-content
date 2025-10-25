@@ -1,0 +1,9 @@
+question: Mikä tekijä määrittää solmun vaikutuksen konsensussääntöihin?
+answer: Sen taloudellinen painoarvo
+wrong_answers:
+  - Lähtevien yhteyksien määrä
+  - Senioriteetti verkostossa
+  - Ei mitään, koska jokaisella solmulla on yksi ääni
+explanation: |
+  Vaikutus konsensussääntöihin riippuu solmun tukemasta taloudellisesta toiminnasta, ei sen lukumäärästä.
+reviewed: true

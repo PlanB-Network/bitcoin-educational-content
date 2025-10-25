@@ -1,0 +1,9 @@
+question: Was ist das Besondere an einem SPV-Knoten?
+answer: Es werden nur die Blockköpfe beibehalten
+wrong_answers:
+  - Der gesamte Blockchain wird beibehalten, da der Genesis-Block
+  - Er speichert nur die neuesten Blöcke
+  - Es bleibt nur der UTXO Satz erhalten, nicht der Blockchain
+explanation: |
+  Ein SPV-Knoten verifiziert Transaktionen über Block-Header und Merkle-Proofs, ohne die vollständigen Daten zu speichern.
+reviewed: true

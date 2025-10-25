@@ -59,8 +59,8 @@ Once you have completed all the sections and sent the necessary documents, click
 Once your account has been verified, you will access the platform where you will be offered two interfaces:
 
 
-- Kraken**: A simplified interface offering essential functionality.
-- Kraken Pro**: An advanced interface with additional features, especially for trading.
+- **Kraken**: A simplified interface offering essential functionality.
+- **Kraken Pro**: An advanced interface with additional features, especially for trading.
 
 If your aim is solely to buy and sell bitcoin, opt for the simplified interface. You'll always have the option of switching to the advanced interface later if necessary.
 
@@ -158,9 +158,9 @@ Select the amount, choose the cryptocurrency you wish to obtain, then confirm th
 For these transactions, you can choose between different order types: *Market*, *Limit*, or *Stop-Loss*:
 
 
-- Market*: Allows immediate purchase at current market price;
-- Limit*: Allows you to specify a purchase price, and the order will only be executed if the market price reaches this amount;
-- Stop-Loss*: Automatically sells when the price reaches a certain threshold.
+- **Market**: Allows immediate purchase at current market price;
+- **Limit**: Allows you to specify a purchase price, and the order will only be executed if the market price reaches this amount;
+- **Stop-Loss**: Automatically sells when the price reaches a certain threshold.
 
 ## 7 - Transaction management and accounting
 

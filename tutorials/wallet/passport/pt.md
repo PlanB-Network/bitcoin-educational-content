@@ -240,7 +240,7 @@ O submenu "*Ferramentas de conta*" oferece opções como a verificação de um e
 
 ![Image](assets/fr/38.webp)
 
-No submenu "*Manage Account*" (Gerir conta*), pode ligar a sua carteira Bitcoin a um software de gestão de carteiras (que abordaremos nos próximos passos deste tutorial), ou ver e mudar o nome da sua conta.
+No submenu **Manage Account** (Gerir conta), pode ligar a sua carteira Bitcoin a um software de gestão de carteiras (que abordaremos nos próximos passos deste tutorial), ou ver e mudar o nome da sua conta.
 
 ![Image](assets/fr/39.webp)
 
@@ -485,4 +485,3 @@ Parabéns, agora já sabe como configurar e utilizar o Passport. Se achou este t
 Para mais informações, consulte o nosso tutorial sobre o software Liana:
 
 https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
-

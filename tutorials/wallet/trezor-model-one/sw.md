@@ -201,7 +201,7 @@ Model One itaunda maneno yako ya Mnemonic kwa kutumia jenereta yake ya nambari n
 
 
 
-***Ni wazi, hupaswi kamwe kushiriki maneno haya kwenye Mtandao, kama nifanyavyo katika mafunzo haya. Mfano huu wa Wallet utatumika kwenye Testnet pekee na utafutwa mwishoni mwa mafunzo.
+**Ni wazi, hupaswi kamwe kushiriki maneno haya kwenye Mtandao, kama nifanyavyo katika mafunzo haya. Mfano huu wa Wallet utatumika kwenye Testnet pekee na utafutwa mwishoni mwa mafunzo.**
 
 
 
@@ -283,7 +283,7 @@ Andika PIN yako tena ili kuthibitisha.
 
 
 
-Kwenye Trezor Suite, bofya kitufe cha "*Kamilisha kusanidi".
+Kwenye Trezor Suite, bofya kitufe cha **Kamilisha kusanidi**.
 
 
 
@@ -477,7 +477,7 @@ Ikiwa ungependa *Udhibiti wa Sarafu*, yaani, uchague UTXOs gani utumie katika mu
 
 
 
-Ingiza unakoenda Address. Unaweza pia kuingiza anwani nyingi kwa kubofya kitufe cha "+ Ongeza*".
+Ingiza unakoenda Address. Unaweza pia kuingiza anwani nyingi kwa kubofya kitufe cha **"+ Ongeza"**.
 
 
 

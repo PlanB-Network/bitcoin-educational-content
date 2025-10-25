@@ -196,13 +196,13 @@ Aegise seadete menüü koondab mitu olulist jaotist:
 
 
 
-- Välimus**: Kohandage teemat (hele, tume, AMOLED), keelt ja muid visuaalseid seadeid
-- Käitumine**: Konfigureerige rakenduse käitumist kirjete loeteluga suhtlemisel
-- Ikoonipaketid**: hallata ja importida ikoonipakette, et kohandada oma kontode välimust ja tunnetust
-- Turvalisus**: Krüpteerimise, biomeetrilise avamise, automaatse lukustuse ja muude turvaparameetrite seaded
-- Varukoopiad**: Konfigureerige automaatsed varukoopiad teie valitud asukohta
-- Import ja eksport**: Importida varukoopiaid teistest autentimisrakendustest ja eksportida käsitsi oma Aegis Vault
-- Auditilogi**: Üksikasjalik logi kõigi oluliste sündmuste kohta rakenduses
+- **Välimus**: Kohandage teemat (hele, tume, AMOLED), keelt ja muid visuaalseid seadeid
+- **Käitumine**: Konfigureerige rakenduse käitumist kirjete loeteluga suhtlemisel
+- **Ikoonipaketid**: hallata ja importida ikoonipakette, et kohandada oma kontode välimust ja tunnetust
+- **Turvalisus**: Krüpteerimise, biomeetrilise avamise, automaatse lukustuse ja muude turvaparameetrite seaded
+- **Varukoopiad**: Konfigureerige automaatsed varukoopiad teie valitud asukohta
+- **Import ja eksport**: Importida varukoopiaid teistest autentimisrakendustest ja eksportida käsitsi oma Aegis Vault
+- **Auditilogi**: Üksikasjalik logi kõigi oluliste sündmuste kohta rakenduses
 
 
 
@@ -228,9 +228,9 @@ Vajutage Aegis Interface põhisüsteemis paremal allosas olevale nupule **+**, e
 
 
 
-- Skaneeri QR-kood**: Skaneeri otse veebiteenuse poolt kuvatud QR-koodi
-- Skaneeri pilt**: Skaneerige QR-koodi seadmesse salvestatud pildilt
-- Sisestage käsitsi**: Sisestage 2FA konto andmed käsitsi
+- **Skaneeri QR-kood**: Skaneeri otse veebiteenuse poolt kuvatud QR-koodi
+- **Skaneeri pilt**: Skaneerige QR-koodi seadmesse salvestatud pildilt
+- **Sisestage käsitsi**: Sisestage 2FA konto andmed käsitsi
 
 
 
@@ -252,8 +252,8 @@ Võtame protsessi illustreerimiseks konkreetse näite 2FA aktiveerimisest Bitwar
 
 
 
-- Sisselogimine ja juurdepääs seadetele**: Logige sisse oma Bitwardeni kontole ja sisenege seadetele, vahekaardile "Turvalisus"
-- Teenuseosutajad**: Mine jaotisse "Providers" ja klõpsa "Manage" jaotises "Authenticator app"
+- **Sisselogimine ja juurdepääs seadetele**: Logige sisse oma Bitwardeni kontole ja sisenege seadetele, vahekaardile "Turvalisus"
+- **Teenuseosutajad**: Mine jaotisse "Providers" ja klõpsa "Manage" jaotises "Authenticator app"
 
 
 
@@ -267,10 +267,10 @@ Võtame protsessi illustreerimiseks konkreetse näite 2FA aktiveerimisest Bitwar
 
 
 
-- Skaneeri QR-kood**: Avaneb hüpikaken QR-koodi ja salajase võtmega
-- Aegis**: Kasutage "Skaneeri QR-koodi", et automaatselt teavet koguda
-- Kontrollimine**: Sisestage Aegise poolt genereeritud 6-kohaline kood väljale "Verifitseerimiskood"
-- Aktiveerimine**: Aktiveerimise lõpuleviimiseks klõpsake nuppu "Aktiveeri"
+- **Skaneeri QR-kood**: Avaneb hüpikaken QR-koodi ja salajase võtmega
+- **Aegis**: Kasutage "Skaneeri QR-koodi", et automaatselt teavet koguda
+- **Kontrollimine**: Sisestage Aegise poolt genereeritud 6-kohaline kood väljale "Verifitseerimiskood"
+- **Aktiveerimine**: Aktiveerimise lõpuleviimiseks klõpsake nuppu "Aktiveeri"
 
 
 
@@ -292,12 +292,12 @@ Kui te eelistate või ei saa QR-koodi skaneerida, kasutage valikut "Sisesta käs
 
 
 
-- Nimi** : Teenuse nimi (nt Bitwarden, GitHub...)
-- Emitent** : Emitent (sageli identne nimega)
-- Rühm**: Valikuline, et korraldada oma kontosid kategooriate kaupa
-- Märkus** : Isiklikud märkused selle konto kohta
-- Saladus** : Teenuse esitatud salajane võti (vaikimisi maskeeritud)
-- Edasijõudnud**: Täiustatud parameetrid (algoritm, periood, numbrite arv)
+- **Nimi**: Teenuse nimi (nt Bitwarden, GitHub...)
+- **Emitent**: Emitent (sageli identne nimega)
+- **Rühm**: Valikuline, et korraldada oma kontosid kategooriate kaupa
+- **Märkus**: Isiklikud märkused selle konto kohta
+- **Saladus**: Teenuse esitatud salajane võti (vaikimisi maskeeritud)
+- **Edasijõudnud**: Täiustatud parameetrid (algoritm, periood, numbrite arv)
 
 
 
@@ -323,10 +323,10 @@ Kui olete lisanud mitu kontot, hakkate hindama Aegise organiseerimisvahendeid:
 
 
 
-- Kohandatud sorteerimine:** Vaikimisi on kontod loetletud tähestikulises järjekorras, kuid te saate järjekorda käsitsi muuta
-- Rühmad ja kategooriad:** Looge rühmad, et eristada oma isiklikke kontosid ärikontodest, või grupeerige neid teenuse tüübi järgi (pangandus, e-post, suhtlusvõrgustikud jne)
-- Kohandatud ikoonid:** Aegis püüab automaatselt määrata sobiva ikooni, kui see on saadaval, vastasel juhul saate valida paljude üldiste ikoonide vahel või importida pildi
-- Kiirotsing:** Otsinguriba ülaosas võimaldab teil sisestada paar tähte, et filtreerida koheselt sobivad kirjed välja
+- **Kohandatud sorteerimine:** Vaikimisi on kontod loetletud tähestikulises järjekorras, kuid te saate järjekorda käsitsi muuta
+- **Rühmad ja kategooriad:** Looge rühmad, et eristada oma isiklikke kontosid ärikontodest, või grupeerige neid teenuse tüübi järgi (pangandus, e-post, suhtlusvõrgustikud jne)
+- **Kohandatud ikoonid:** Aegis püüab automaatselt määrata sobiva ikooni, kui see on saadaval, vastasel juhul saate valida paljude üldiste ikoonide vahel või importida pildi
+- **Kiirotsing:** Otsinguriba ülaosas võimaldab teil sisestada paar tähte, et filtreerida koheselt sobivad kirjed välja
 
 
 
@@ -423,15 +423,15 @@ Aegis pakub mitmeid varundusstrateegiaid, mis vastavad erinevatele turva- ja mug
 
 
 
-- Hoidke mitu varukoopiat**, et vältida kahjustusi
-- Testige regulaarselt** oma varukoopiaid, tehes taastamiskatseid
-- Säilitage oma teenuse osutamise koodid eraldi**
-- Teie põhiparool** on endiselt vajalik ka pilvekaardistamise puhul
-- Turvaline põhiparool**: kasutage unikaalset, tugevat parooli, mis on salvestatud paroolihaldurisse
-- Hoidke oma rakendus ajakohasena** koos viimaste turvaparandustega
-- Aktiveerige seadetes automaatne lukustus**, et tagada juurdepääs rakendusele
-- Lülita ekraanipildid** välja (vaikimisi valik), et sinu koode ei saaks pealtkuulata
-- Kasutage biomeetriaid säästlikult**: eelistage paroole kriitiliste juurdepääsude puhul
+- Hoidke mitu varukoopiat, et vältida kahjustusi
+- Testige regulaarselt **oma varukoopiaid**, tehes taastamiskatseid
+- Säilitage oma teenuse osutamise koodid **eraldi**
+- Teie **põhiparool** on endiselt vajalik ka pilvekaardistamise puhul
+- **Turvaline põhiparool**: kasutage unikaalset, tugevat parooli, mis on salvestatud paroolihaldurisse
+- Hoidke oma rakendus **ajakohasena** koos viimaste turvaparandustega
+- Aktiveerige seadetes **automaatne lukustus**, et tagada juurdepääs rakendusele
+- Lülita **ekraanipildid** välja (vaikimisi valik), et sinu koode ei saaks pealtkuulata
+- **Kasutage biomeetriaid säästlikult**: eelistage paroole kriitiliste juurdepääsude puhul
 
 
 
@@ -534,9 +534,9 @@ Teie võrgukontode turvalisus ei pea sõltuma kaubandusettevõtete heast tahtest
 
 
 
-- Ametlik veebileht**: [getaegis.app](https://getaegis.app/) - Taotluse esitlus ja allalaadimine
-- Allikakood**: [github.com/beemdevelopment/Aegis](https://github.com/beemdevelopment/Aegis) - Ametlik GitHub repository
-- F-Droid** : [f-droid.org/packages/com.beemdevelopment.aegis](https://f-droid.org/packages/com.beemdevelopment.aegis/) - Installeerimine tasuta poe kaudu
+- **Ametlik veebileht**: [getaegis.app](https://getaegis.app/) - Taotluse esitlus ja allalaadimine
+- **Allikakood**: [github.com/beemdevelopment/Aegis](https://github.com/beemdevelopment/Aegis) - Ametlik GitHub repository
+- **F-Droid**: [f-droid.org/packages/com.beemdevelopment.aegis](https://f-droid.org/packages/com.beemdevelopment.aegis/) - Installeerimine tasuta poe kaudu
 
 
 
@@ -545,6 +545,6 @@ Teie võrgukontode turvalisus ei pea sõltuma kaubandusettevõtete heast tahtest
 
 
 
-- Vault dokumentatsioon**: [Vault design](https://github.com/beemdevelopment/Aegis/blob/master/docs/vault.md) - Krüpteerimise ja turvalise arhitektuuri tehniline kirjeldus
-- Ametlik KKK**: [getaegis.app/#faq](https://getaegis.app/#faq) - Vastused korduma kippuvatele küsimustele
-- Projekti wiki**: [github.com/beemdevelopment/Aegis/wiki](https://github.com/beemdevelopment/Aegis/wiki) - Täielik kasutajate dokumentatsioon
+- **Vault dokumentatsioon**: [Vault design](https://github.com/beemdevelopment/Aegis/blob/master/docs/vault.md) - Krüpteerimise ja turvalise arhitektuuri tehniline kirjeldus
+- **Ametlik KKK**: [getaegis.app/#faq](https://getaegis.app/#faq) - Vastused korduma kippuvatele küsimustele
+- **Projekti wiki**: [github.com/beemdevelopment/Aegis/wiki](https://github.com/beemdevelopment/Aegis/wiki) - Täielik kasutajate dokumentatsioon

@@ -28,7 +28,7 @@ W zależności od potrzeb, Alby Hub jest dostępny w 4 konfiguracjach:
 
 
 
-- Alby Hub Cloud :**
+- **Alby Hub Cloud:**
 
 
 Pierwsza opcja, idealna dla nowicjuszy, to opcja chmury Alby. Pozwala ona wdrożyć Hub bezpośrednio na serwerze zarządzanym przez Alby, dostępnym za pośrednictwem Alby Hub Interface. Chociaż Alby zarządza serwerem, użytkownik zachowuje suwerenność nad swoimi środkami, ponieważ klucze są szyfrowane przy użyciu hasła znanego tylko użytkownikowi. Jednak klucze muszą pozostać odszyfrowane w pamięci RAM, aby węzeł mógł działać, co teoretycznie naraża je na ryzyko, jeśli ktoś fizycznie uzyska dostęp do serwera. Jest to interesujący kompromis dla początkujących, ale ważne jest, aby być świadomym ryzyka.
@@ -43,7 +43,7 @@ Alby Cloud jest usługą płatną [sprawdź cennik] (https://albyhub.com/#pricin
 
 
 
-- Alby Hub z istniejącym węzłem :**
+- Alby Hub z istniejącym węzłem:
 
 
 Jeśli masz już węzeł hostowany, na przykład na Umbrel lub Start9, Alby Hub może być używany jako zaawansowane zarządzanie Interface, w taki sam sposób jak ThunderHub lub RTL.
@@ -446,7 +446,7 @@ Wróć do aplikacji Alby Go, zeskanuj kod QR lub wklej sekret.
 ![ALBY HUB](assets/fr/50.webp)
 
 
-Kliknij przycisk "Zakończ*".
+Kliknij przycisk "Zakończ".
 
 
 ![ALBY HUB](assets/fr/51.webp)

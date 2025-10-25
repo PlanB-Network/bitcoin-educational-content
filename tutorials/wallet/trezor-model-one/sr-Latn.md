@@ -201,7 +201,7 @@ Model One će kreirati vašu Mnemonic frazu koristeći svoj generator slučajnih
 
 
 
-***Očigledno, nikada ne smete deliti ove reči na Internetu, kao što ja činim u ovom uputstvu. Ovaj primer Wallet će biti korišćen samo na Testnet i biće obrisan na kraju uputstva.
+**Očigledno, nikada ne smete deliti ove reči na Internetu, kao što ja činim u ovom uputstvu. Ovaj primer Wallet će biti korišćen samo na Testnet i biće obrisan na kraju uputstva.**
 
 
 

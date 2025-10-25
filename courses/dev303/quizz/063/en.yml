@@ -1,0 +1,8 @@
+question: When a macro uses the pattern `$($x:expr),*` in its definition, what does this pattern accomplish?
+answer: It matches zero or more expressions separated by commas, enabling variable-length argument lists
+wrong_answers:
+  - It matches exactly one expression and repeats the macro expansion multiple times
+  - It matches any number of type definitions separated by semicolons for code generation
+  - It creates a loop that executes the macro at runtime with different expression values
+explanation: |
+  The pattern `$($x:expr),*` uses Rust's macro repetition syntax where the `*` quantifier means 'zero or more', `$x:expr` captures each expression, and the comma specifies the separator between expressions. This enables macros like `vec!` to accept any number of arguments: `vec![1, 2, 3]` or `vec![]`. The other options are incorrect because: the pattern handles multiple expressions not just one, it specifically matches expressions not type definitions and uses commas not semicolons, and macros execute at compile-time during code generation not at runtime.

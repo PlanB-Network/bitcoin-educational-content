@@ -1,5 +1,5 @@
 ---
-name: Bitcoin Keeper - Seguridad multi-llave
+name: Bitcoin Keeper
 description: Bitcoin Keeper App una aplicación móvil que permite crear carteras Hot y cámaras acorazadas Cold para ahorrar a largo plazo
 ---
 

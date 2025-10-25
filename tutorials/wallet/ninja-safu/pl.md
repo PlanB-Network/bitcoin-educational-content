@@ -24,19 +24,19 @@ Podejście Ninja SAFU oferuje kilka korzyści:
 
 
 
-- Poufność**: Nie kupujesz produktu zidentyfikowanego jako przeznaczony do tworzenia kopii zapasowych kryptowalut. Komponenty są standardowe (podkładki, śruby, metalowe pudełko), dostępne w sklepach ze sprzętem, co zmniejsza ryzyko namierzenia w przypadku wycieku danych od wyspecjalizowanego dostawcy.
+- **Poufność**: Nie kupujesz produktu zidentyfikowanego jako przeznaczony do tworzenia kopii zapasowych kryptowalut. Komponenty są standardowe (podkładki, śruby, metalowe pudełko), dostępne w sklepach ze sprzętem, co zmniejsza ryzyko namierzenia w przypadku wycieku danych od wyspecjalizowanego dostawcy.
 
 
 
 
 
-- Przystępność** : To rozwiązanie kosztuje od **15 do 140 EUR**, w zależności od posiadanych już narzędzi.
+- **Przystępność**: To rozwiązanie kosztuje od **15 do 140 EUR**, w zależności od posiadanych już narzędzi.
 
 
 
 
 
-- Niezawodność**: Testowana od 2020 roku metoda została wypróbowana i przetestowana przez ekspertów ds. bezpieczeństwa, takich jak [Jameson Lopp](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/), którzy poddali ją rygorystycznym testom obciążeniowym (ekstremalne ciepło, korozja, nacisk mechaniczny).
+- **Niezawodność**: Testowana od 2020 roku metoda została wypróbowana i przetestowana przez ekspertów ds. bezpieczeństwa, takich jak [Jameson Lopp](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/), którzy poddali ją rygorystycznym testom obciążeniowym (ekstremalne ciepło, korozja, nacisk mechaniczny).
 
 
 
@@ -59,17 +59,17 @@ Aby utworzyć kopię zapasową Ninja SAFU, potrzebne będą następujące kompon
 
 
 
-- Podkładki ze stali nierdzewnej (zalecane M8)** :
- - Materiał**: Stal nierdzewna (np. 304 lub V4A dla zwiększonej odporności na korozję)
-    - Rozmiar**: M8 (średnica wewnętrzna 8 mm, średnica zewnętrzna ~24 mm). Podkładki M6 są zbyt małe i trudne do grawerowania.
-    - Ilość**: 12 lub 24 podkładki dla standardowego zdania seed, plus opcjonalne podkładki (patrz sekcja 3.4) i dziesięć lub więcej dla testów lub błędów.
+- **Podkładki ze stali nierdzewnej (zalecane M8)**:
+- **Materiał**: Stal nierdzewna (np. 304 lub V4A dla zwiększonej odporności na korozję)
+- **Rozmiar**: M8 (średnica wewnętrzna 8 mm, średnica zewnętrzna ~24 mm). Podkładki M6 są zbyt małe i trudne do grawerowania.
+- **Ilość**: 12 lub 24 podkładki dla standardowego zdania seed, plus opcjonalne podkładki (patrz sekcja 3.4) i dziesięć lub więcej dla testów lub błędów.
 
 
 
 
 
-- Bolt ze stali nierdzewnej i nakrętka (M8)** :
- - Specyfikacja**: Bolt o długości od 2,5 do 5 cm, w zależności od liczby i grubości podkładek, średnica 8 mm. Nakrętka motylkowa ułatwia otwieranie bez użycia narzędzi, ale można również użyć zwykłej nakrętki.
+- **Bolt ze stali nierdzewnej i nakrętka (M8)**:
+- **Specyfikacja**: Bolt o długości od 2,5 do 5 cm, w zależności od liczby i grubości podkładek, średnica 8 mm. Nakrętka motylkowa ułatwia otwieranie bez użycia narzędzi, ale można również użyć zwykłej nakrętki.
 
 
 
@@ -79,8 +79,8 @@ Aby utworzyć kopię zapasową Ninja SAFU, potrzebne będą następujące kompon
 
 
 
-- Zestaw dziurkaczy do liter i cyfr (3 mm lub 6 mm)** :
-    - Specyfikacja**: znaki o wysokości 6 mm ułatwiają czytelność i mogą być preferowane, jeśli część napisu uległa degradacji. Wybierz wytrzymały zestaw do wielokrotnego użytku.
+- **Zestaw dziurkaczy do liter i cyfr (3 mm lub 6 mm)**:
+- **Specyfikacja**: znaki o wysokości 6 mm ułatwiają czytelność i mogą być preferowane, jeśli część napisu uległa degradacji. Wybierz wytrzymały zestaw do wielokrotnego użytku.
 
 
 
@@ -90,14 +90,14 @@ Aby utworzyć kopię zapasową Ninja SAFU, potrzebne będą następujące kompon
 
 
 
-- Młotek lub młot kowalski** :
+- **Młotek lub młot kowalski**:
     - Dla uzyskania wystarczającej i precyzyjnej siły tłoczenia preferowany jest młot kowalski
 
 
 
 
 
-- Kowadło lub wytrzymała powierzchnia** :
+- **Kowadło lub wytrzymała powierzchnia**:
  - Gruba powierzchnia Hard (np. kowadło o wadze 1 kg lub kostka brukowa o grubości 10 cm) pochłaniająca wstrząsy.
 
 
@@ -112,7 +112,7 @@ Jeśli nie chcesz inwestować w zestaw stempli, możesz również wygrawerować 
 
 
 
-- Urządzenie stemplujące**: Przytrzymuje podkładkę i prowadzi stempel, umożliwiając precyzyjne, czyste stemplowanie, lepszą orientację i równe odstępy między literami
+- **Urządzenie stemplujące**: Przytrzymuje podkładkę i prowadzi stempel, umożliwiając precyzyjne, czyste stemplowanie, lepszą orientację i równe odstępy między literami
 
 
 
@@ -122,7 +122,7 @@ Jeśli nie chcesz inwestować w zestaw stempli, możesz również wygrawerować 
 
 
 
-- Urządzenia uszczelniające**: Szczelna torebka lub taśma uszczelniająca
+- **Urządzenia uszczelniające**: Szczelna torebka lub taśma uszczelniająca
 
 
 
@@ -132,7 +132,7 @@ Jeśli nie chcesz inwestować w zestaw stempli, możesz również wygrawerować 
 
 
 
-- Hermetycznie zamknięty pojemnik**: Do przechowywania bloku podkładek
+- **Hermetycznie zamknięty pojemnik**: Do przechowywania bloku podkładek
 
 
 
@@ -145,8 +145,8 @@ Jeśli nie chcesz inwestować w zestaw stempli, możesz również wygrawerować 
 
 
 
-- Zalecane rękawice** i **okulary ochronne**.
-- Klucz do rur**, w który należy wsunąć stempel, tak aby trzymać stempel kluczem do rur, a nie palcami.
+- Zalecane **rękawice** i **okulary ochronne**.
+- Klucz do rur, w który należy wsunąć stempel, tak aby trzymać stempel kluczem do rur, a nie palcami.
 
 
 
@@ -156,13 +156,13 @@ Jeśli nie chcesz inwestować w zestaw stempli, możesz również wygrawerować 
 
 
 
-- Ilość dla kopii zapasowej 24 słów**: 24 podkładki (minimum), 1 Bolt, 1 nakrętka motylkowa, 1 zestaw stempli, 1 młotek/maseta, 1 kowadełko/podpórka.
+- **Ilość dla kopii zapasowej 24 słów**: 24 podkładki (minimum), 1 Bolt, 1 nakrętka motylkowa, 1 zestaw stempli, 1 młotek/maseta, 1 kowadełko/podpórka.
 
 
 
 
 
-- Całkowity koszt** :
+- **Całkowity koszt**:
  - Podkładki i śruby/nakrętki: ~ 15 EUR
  - Zestaw dziurkaczy: ~ 45 EUR
  - Etui ochronne: ~ 55 EUR
@@ -254,7 +254,7 @@ Jeśli nie chcesz inwestować w zestaw stempli, możesz również wygrawerować 
 
 
     - Z nowej kopii zapasowej spróbuj odzyskać swoje portfolio
-- Uszczelnienie kopii zapasowej** (opcjonalne i zalecane) :
+- **Uszczelnienie kopii zapasowej** (opcjonalne i zalecane):
  - Poprzez zgrzewanie pasków lub w zapieczętowanych woreczkach.
  - Jeśli używasz woreczka, zanotuj jego unikalny numer identyfikacyjny, abyś mógł sprawdzić, czy jest to właściwy woreczek, a nie przynęta zastępująca oryginał.
 
@@ -269,7 +269,7 @@ Jeśli nie chcesz inwestować w zestaw stempli, możesz również wygrawerować 
 
 
 
-Przechowuj kopię zapasową w **dyskretnym miejscu**, poza zasięgiem wzroku i dostępnym do okresowych kontroli. Wybierz ognioodporne i wodoszczelne miejsce przechowywania**, w domu lub w miejscu znajdującym się pod twoją **wyłączną kontrolą**.
+Przechowuj kopię zapasową w **dyskretnym miejscu**, poza zasięgiem wzroku i dostępnym do okresowych kontroli. Wybierz ognioodporne i wodoszczelne **miejsce przechowywania**, w domu lub w miejscu znajdującym się pod twoją **wyłączną kontrolą**.
 
 
 
@@ -313,7 +313,7 @@ Nawet dobrze przechowywana kopia zapasowa musi być **regularnie sprawdzana**:
 
 
 
-*STAY SAFU!
+**STAY SAFU!**
 
 
 ![image](assets/fr/08.webp)
@@ -379,21 +379,21 @@ Według Jamesona Loppa:
 
 
 
-- Podkładki** dla
+- **Podkładki** dla
  - [Titan](https://pleb.style/fr-fr/products/disques-de-seed-supplementaires-titan-Wallet)
-- Podkładki + nakrętka + etui ochronne** (dla podkładek)
+- **Podkładki + nakrętka + etui ochronne** (dla podkładek)
  - [Titan](https://pleb.style/fr-fr/products/titan-Wallet-premium-acier-steel-Wallet-backup?variant=50022696419664)
  - [TerraSteel](https://pleb.style/fr-fr/products/terrasteel-Wallet-plebstyle-acier-backup)
 - Zestaw dziurkaczy
  - [PlebStyle](https://pleb.style/fr/products/schlagstempelset-a-z-0-9-3mm)
-- Podstawa typowania**
+- **Podstawa typowania**
  - [PlebStyle](https://pleb.style/fr/products/schlagunterlage-10cm-x-10cm-x-1-5cm)
-- Urządzenie do gwintowania** (prowadnica)
+- **Urządzenie do gwintowania** (prowadnica)
  - [TerraSteel](https://pleb.style/fr-fr/products/zubehor-einschlag-vorrichtung?_pos=1&_sid=2767fd66f&_ss=r)
 - Urządzenie uszczelniające
  - [Zapieczętowany woreczek](https://pleb.style/fr/products/zubehor-5x-sicherheitstasche-tamper-evident)
  - [Paski uszczelniające](https://pleb.style/fr/products/zubehor-5x-siegel-streifen-fur-dein-seed-backup)
-- Kompletny** zestaw
+- **Kompletny** zestaw
  - [Titan](https://pleb.style/fr-fr/products/titan-Wallet-diy-kit-premium-seed-backup-steelwallet-plebstyle?pr_prod_strat=e5_desc&pr_rec_id=aa9f36359&pr_rec_pid=8728733155664&pr_ref_pid=8730877788496&pr_seq=uniform)
  - [TerraSteel](https://pleb.style/fr-fr/products/kopie-von-terrasteel-Wallet-starter-kit)
 

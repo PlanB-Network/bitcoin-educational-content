@@ -99,13 +99,13 @@ Du måste sedan välja mellan två olika sätt att hantera meddelanden:
 
 
 
-- Snabbläge ("*Firebase Cloud Messaging/Apple Push Notification Service*")**: gör att du kan ta emot meddelanden i nära realtid tack vare de meddelandetjänster som tillhandahålls av Google eller Apple (beroende på ditt system). För att detta ska fungera överförs din IP Address och ett unikt meddelande-ID till Google eller Apple, och sessionskontots ID registreras också på en STF-server (via Tor). Detta läge innebär (visserligen minimal) exponering av metadata, men äventyrar inte meddelandets innehåll eller kontakter och gör det inte möjligt att spåra din faktiska aktivitet. Detta läge är därför mer effektivt när det gäller respons, men är beroende av en centraliserad infrastruktur och är något mindre effektivt när det gäller konfidentialitet.
+- Snabbläge (**Firebase Cloud Messaging/Apple Push Notification Service**): gör att du kan ta emot meddelanden i nära realtid tack vare de meddelandetjänster som tillhandahålls av Google eller Apple (beroende på ditt system). För att detta ska fungera överförs din IP Address och ett unikt meddelande-ID till Google eller Apple, och sessionskontots ID registreras också på en STF-server (via Tor). Detta läge innebär (visserligen minimal) exponering av metadata, men äventyrar inte meddelandets innehåll eller kontakter och gör det inte möjligt att spåra din faktiska aktivitet. Detta läge är därför mer effektivt när det gäller respons, men är beroende av en centraliserad infrastruktur och är något mindre effektivt när det gäller konfidentialitet.
 
 
 
 
 
-- Långsamt läge (*background polling*)**: Session-applikationen förblir aktiv i bakgrunden och pollar regelbundet nätverket efter nya meddelanden. Detta tillvägagångssätt garanterar större sekretess än det första, eftersom inga data överförs till tredjepartsservrar; varken Google, Apple eller STF:s servrar får någon information. Å andra sidan har detta läge två nackdelar: meddelanden kan försenas (upp till flera minuter) och energiförbrukningen är i allmänhet högre på grund av applikationsaktivitet i bakgrunden.
+- Långsamt läge (**background polling**): Session-applikationen förblir aktiv i bakgrunden och pollar regelbundet nätverket efter nya meddelanden. Detta tillvägagångssätt garanterar större sekretess än det första, eftersom inga data överförs till tredjepartsservrar; varken Google, Apple eller STF:s servrar får någon information. Å andra sidan har detta läge två nackdelar: meddelanden kan försenas (upp till flera minuter) och energiförbrukningen är i allmänhet högre på grund av applikationsaktivitet i bakgrunden.
 
 
 

@@ -1,5 +1,5 @@
 ---
-name: سیگنال
+name: Signal
 description: احساسات خود را آزادانه بیان کنید
 ---
 ![cover](assets/cover.webp)

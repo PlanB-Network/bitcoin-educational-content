@@ -61,9 +61,9 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 ![REVIEW](assets/fr/03.webp)
 
-* You can now view the GitHub interface of the file to review.
+*You can now view the GitHub interface of the file to review.*
 * The left panel allows you to navigate through your branch (cf. \**A\**) and files (cf. \**B\**).
-* Click the pencil icon to start reviewing (cf. \**C\**).
+*Click the pencil icon to start reviewing (cf. **C**).*
 
 ![REVIEW](assets/fr/04.webp)
 
@@ -138,4 +138,3 @@ To know more about the guidelines to use when proofreading on Plan ₿ Network i
 ![REVIEW](assets/fr/16.webp)
 
 - If you have any remarks, questions, or comments about this project, feel free to send a DM [to the contributors' Telegram group](https://t.me/PlanBNetwork_ContentBuilder).
-

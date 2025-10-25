@@ -79,11 +79,11 @@ You will then have to choose between two notification management modes:
 
 
 
-- Fast mode ("*Firebase Cloud Messaging/Apple Push Notification Service*")**: enables you to receive message notifications in near real time, thanks to the notification services provided by Google or Apple (depending on your system). For this to work, your IP address and a unique notification ID are transmitted to Google or Apple, and the Session account ID is also registered with an STF server (via Tor). This mode involves (admittedly minimal) exposure of metadata, but does not compromise message content or contacts, and does not allow your actual activity to be traced. This mode is therefore more efficient in terms of responsiveness, but relies on a centralized infrastructure and is slightly less effective in terms of confidentiality.
+- Fast mode ("*Firebase Cloud Messaging/Apple Push Notification Service*"): enables you to receive message notifications in near real time, thanks to the notification services provided by Google or Apple (depending on your system). For this to work, your IP address and a unique notification ID are transmitted to Google or Apple, and the Session account ID is also registered with an STF server (via Tor). This mode involves (admittedly minimal) exposure of metadata, but does not compromise message content or contacts, and does not allow your actual activity to be traced. This mode is therefore more efficient in terms of responsiveness, but relies on a centralized infrastructure and is slightly less effective in terms of confidentiality.
 
 
 
-- Slow mode (*background polling*)**: the Session application remains active in the background, periodically polling the network for new messages. This approach guarantees greater confidentiality than the first, as no data is transmitted to third-party servers; neither Google, Apple nor STF servers receive any information. On the other hand, this mode has two drawbacks: notifications can be delayed (up to several minutes), and energy consumption is generally higher due to application activity in the background.
+- Slow mode (*background polling*): the Session application remains active in the background, periodically polling the network for new messages. This approach guarantees greater confidentiality than the first, as no data is transmitted to third-party servers; neither Google, Apple nor STF servers receive any information. On the other hand, this mode has two drawbacks: notifications can be delayed (up to several minutes), and energy consumption is generally higher due to application activity in the background.
 
 
 ![Image](assets/fr/04.webp)

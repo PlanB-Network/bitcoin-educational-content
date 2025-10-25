@@ -4,9 +4,10 @@ name: NOSTR
 description: Temukan dan mulai menggunakan NOSTR
 ---
 
-Di akhir panduan ini, Anda akan memahami apa itu Nostr, Anda akan telah membuat sebuah akun, dan Anda akan dapat menggunakannya.
 
 ![Seorang penantang baru telah tiba](assets/1.webp)
+
+*Di akhir panduan ini, Anda akan memahami apa itu Nostr, Anda akan membuat akun, dan Anda akan dapat menggunakannya.*
 
 ## Apa itu Nostr?
 
@@ -34,9 +35,9 @@ Kunci publik, npub, adalah pengenal unik di mana semua konten yang diterbitkan o
 
 Klien adalah perangkat lunak yang memungkinkan interaksi dengan Nostr. Klien utama adalah:
 
-> iOS: damus
-> Android: amethyst
-> Web: iris.to; snort.social; astral.ninja
+- iOS: damus
+- Android: amethyst
+- Web: iris.to; snort.social; astral.ninja
 
 Klien memungkinkan pengguna untuk menghasilkan pasangan kunci baru (setara dengan membuat akun) atau otentikasi dengan pasangan kunci yang sudah ada.
 
@@ -46,7 +47,7 @@ Relay adalah server sederhana yang dapat Anda tinggalkan kapan saja jika Anda ti
 
 > 💡 Tips Pro: Relay berbayar umumnya lebih efektif dalam menyaring spam dan konten yang tidak diinginkan.
 
-# Panduan
+## Panduan
 
 Sekarang Anda sudah cukup tahu tentang Nostr untuk memulai dan membuat identitas pertama Anda pada protokol ini.
 

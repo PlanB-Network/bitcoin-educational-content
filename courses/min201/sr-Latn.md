@@ -93,7 +93,7 @@ Spremni da otkrijete svet Bitcoin Mining i prihvatite praktični izazov Attakai?
 Da bi se koncept Mining objasnio na pojednostavljen način, može se koristiti relevantna analogija: slagalice. Baš kao slagalica, Mining je složen zadatak za izvršavanje, ali ga je lako proveriti kada je završen. U kontekstu Bitcoin Mining, rudari se trude da brzo reše digitalnu slagalicu. Prvi Miner koji reši slagalicu predstavlja svoje rešenje celokupnoj mreži, koja zatim lako može proveriti njegovu validnost. Ovo uspešno verifikovanje omogućava Miner da validira novi blok i doda ga u Bitcoin Timechain. Kao priznanje za njihov rad, koji uključuje značajne troškove, Miner dobija nagradu u određenom broju bitkoina. Ova nagrada služi kao finansijski podsticaj rudarima da nastave svoj rad na validaciji transakcija i obezbeđivanju Bitcoin mreže.
 
 
-![image](assets/en/01.webp)
+![image](assets/en/001.webp)
 
 
 U početku u Bitcoin mreži, dodeljena nagrada je bila 50 bitkoina svakih deset minuta, paralelno sa otkrivanjem bloka u proseku svakih deset minuta od strane rudara. Ova nagrada prolazi kroz Halving svakih 210.000 blokova, otprilike svake četiri godine. Ova naknada služi kao snažan podsticaj da se rudari ohrabre da učestvuju u Mining procesu uprkos njegovim energetskim troškovima. Bez nagrade, energetski intenzivan Mining bi bio napušten, ugrožavajući sigurnost i stabilnost cele Bitcoin mreže.
@@ -110,7 +110,7 @@ Proces Mining uključuje pronalaženje validnog Hash koji je prihvatljiv za Bitc
 Na početku je dominirala era CPU-a, gde su rudari koristili svoje lične računare za Bitcoin Mining. Otkriće prednosti GPU-ova (grafičkih kartica) za ovaj zadatak označilo je prekretnicu, značajno povećavajući Hashrate i smanjujući potrošnju energije. Napredak se tu nije zaustavio, sa kasnijim uvođenjem FPGA-ova (polje-programabilnih gejt nizova). FPGA-ovi su služili kao platforma za razvoj ASIC-ova (integrisanih kola specifičnih za aplikaciju).
 
 
-![image](assets/en/02.webp)
+![image](assets/en/002.webp)
 
 
 ASIC-i su čipovi, uporedivi sa CPU čipom, međutim, oni su razvijeni da obavljaju samo jednu specifičnu vrstu proračuna na najefikasniji mogući način. Drugim rečima, CPU je sposoban da obavlja mnoštvo različitih vrsta proračuna bez da je posebno optimizovan za jednu ili drugu vrstu proračuna, dok će ASIC moći da obavlja samo jednu vrstu proračuna, ali veoma efikasno. U slučaju Bitcoin ASIC-a, oni su dizajnirani za proračun SHA256 algoritma.
@@ -127,7 +127,7 @@ Da ilustrujemo intenzitet ovog procesa, razmotrite tipičan Miner sposoban da po
 Podešavanje težine je ključni mehanizam u radu Bitcoin mreže, osiguravajući da se blokovi rudare u proseku svakih 10 minuta. Ovo trajanje je prosečno jer je Mining proces zapravo igra verovatnoće, slična bacanju kockica u nadi da će se dobiti broj manji od broja definisanog težinom. Svakih 2016 blokova, mreža podešava Mining težinu na osnovu prosečnog vremena potrebnog za rudarenje prethodnih blokova. Ako je prosečno vreme veće od 10 minuta, težina se smanjuje, i obrnuto, ako je prosečno vreme manje, težina se povećava. Ovaj mehanizam podešavanja osigurava da Mining vreme za nove blokove ostane konstantno tokom vremena, bez obzira na broj rudara ili ukupnu računarsku snagu mreže. Zato se Bitcoin Blockchain takođe naziva Timechain.
 
 
-![image](assets/en/03.webp)
+![image](assets/en/003.webp)
 
 
 
@@ -145,7 +145,7 @@ Slučaj Kine savršeno ilustruje ovaj mehanizam prilagođavanja težine. Sa obil
 Suočeni sa stalnim tehnološkim napretkom u oblasti Mining, profesionalci moraju strateški da se pozicioniraju. Industrija Mining je podložna kontinuiranim inovacijama, što je pokazano nedavnim izdanjem J verzije S19 i očekivanim izdanjem S19 XP, koji nude značajno veće mogućnosti Mining. Štaviše, poboljšanja nisu vezana samo za sirove performanse mašina. Na primer, novi model S19 XP koristi Liquid sistem hlađenja, tehničku modifikaciju koja omogućava značajno poboljšanje energetske efikasnosti. Iako inovacija ostaje konstantna, budući dobici u efikasnosti verovatno će biti manji u poređenju sa onima koji su do sada zabeleženi, zbog dostizanja određenog praga tehnološke inovacije.
 
 
-![image](assets/en/04.webp)
+![image](assets/en/004.webp)
 
 
 Zaključno, industrija Bitcoin Mining nastavlja da se prilagođava i razvija, i igrači u industriji moraju predvideti smanjenje dobitaka u efikasnosti u budućnosti i prilagoditi svoje strategije u skladu s tim. Budući tehnološki napreci, iako još uvek prisutni, verovatno će se dešavati u manjem obimu, što odražava rastuću zrelost sektora.
@@ -163,7 +163,7 @@ Zaključno, industrija Bitcoin Mining nastavlja da se prilagođava i razvija, i 
 Trenutno, Bitcoin Mining se razvio u ozbiljnu i značajnu industriju, sa mnogim igračima koji su sada javno poznati i sve većim brojem značajnih rudara. Ova evolucija je učinila Mining gotovo nedostupnim za male igrače zbog visokih troškova povezanih sa nabavkom novih Mining mašina. Ovo postavlja pitanje distribucije Hashrate među različitim tržišnim igračima. Situacija je složena jer je neophodno ispitati i distribuciju Hashrate među različitim kompanijama i među različitim Mining bazenima.
 
 
-![image](assets/en/05.webp)
+![image](assets/en/005.webp)
 
 
 Mining pool je grupa rudara koji kombinuju svoje računarske resurse kako bi povećali svoje šanse za Mining. Ova saradnja je neophodna jer izolovana mala Mining mašina takmiči se protiv industrijskih giganata, smanjujući svoje šanse za uspeh na zanemarljiv nivo. Mining radi na principu lutrije, i šanse za osvajanje bloka (a samim tim i Bitcoin nagrade) svakih deset minuta su izuzetno male za pojedinačni mali Miner. Udruživanjem, rudari mogu kombinovati svoju računarsku snagu, češće pronalaziti blokove, a zatim raspodeliti nagrade proporcionalno doprinosu svakog Miner u bazenu.
@@ -210,7 +210,7 @@ Centralizacija Mining se smatra glavnim izazovom. Veliki igrači, kao što je Fo
 Regulation Risk Naglašava se da ako bi zemlja poput Sjedinjenih Američkih Država odlučila da reguliše ili zabrani određene Bitcoin transakcije, to bi moglo imati značajan uticaj na mrežu, posebno ako je veliki deo hashing snage centralizovan u toj zemlji.
 
 
-![image](assets/en/06.webp)
+![image](assets/en/006.webp)
 
 
 Da bi se suzbila ova centralizacija, razmatraju se različite strategije:
@@ -248,7 +248,7 @@ Inicijativa Attakai potiče iz ličnog kućnog-Mining eksperimenta koji su sprov
 Nakon što su predstavili svoj projekat zajednici Bitcoin i videli interesovanje koje je izazvao, pronalazači Attakai odlučili su da objave detaljne vodiče na platformi Découvre Bitcoin, omogućavajući svakome da replicira svoje kućno-Mining iskustvo. Sada planiraju da prošire ovaj koncept izvan domaćeg okruženja. Cilj je da pokažu kako modifikovani Miner može biti transformisan u tihi pomoćni grejač koji se može koristiti tokom zime, nudeći glatku tranziciju ka drugom delu obuke, fokusiranom na praktičnu primenu ovih modifikacija, ilustrovanu objašnjavajućim video zapisima. Međutim, ostaje pitanje da li se ova inicijativa može proširiti na veću skalu, nudeći realističnu i održivu alternativu trenutnim centralizovanim Mining strukturama.
 
 
-![image](assets/en/07.webp)
+![image](assets/en/007.webp)
 
 
 ### Granica ove decentralizacije?
@@ -284,7 +284,7 @@ Porast Lightning Network, koji omogućava brze i niskobudžetne transakcije van 
 Sa očekivanim rastom Lightning Network i posljedičnim povećanjem otvaranja i zatvaranja kanala, prostor u Bitcoin blokovima postaje sve vredniji. Zajednica Bitcoin već teži da ceni očuvanje ovog prostora, prepoznajući njegovu intrinzičnu ograničenost. Ova svest je dovela do diskusija o legitimnoj upotrebi prostora blokova, sa zabrinutošću zbog "spama" na Blockchain od transakcija koje se smatraju neesencijalnim.
 
 
-![image](assets/en/08.webp)
+![image](assets/en/008.webp)
 
 
 Spekulacije okružuju buduću upotrebu prostora blokova, ali se generalno prihvata da je to oskudan resurs koji treba mudro koristiti. Iako postoji želja da se popuni, neophodno je očuvati ga kako bi se osigurala dugoročna održivost Bitcoin mreže, predviđajući buduće povećanje potražnje za prostorom blokova. Kao i na svakom slobodnom tržištu, Supply i potražnja će regulisati upotrebu prostora blokova. Sa ograničenim Supply, zainteresovane strane će morati donositi informisane odluke o korišćenju ovog vrednog prostora kako bi osigurale dugoročnu efikasnost i sigurnost Bitcoin mreže.
@@ -305,7 +305,7 @@ Uloga rudara u Bitcoin mreži bila je predmet intenzivne debate tokom ratova oko
 Tokom ratova oko veličine blokova, mnogi rudari su se protivili određenim razvojnim promenama u mreži, ističući tenzije između različitih aktera u ekosistemu. Pitanje ostaje kako balansirati moć među rudarima, čvorovima i korisnicima kako bi se osigurala dugoročna sigurnost Bitcoin.
 
 
-![image](assets/en/09.webp)
+![image](assets/en/009.webp)
 
 
 Sigurnosna dilema Bitcoin počiva na delikatnoj ravnoteži. Dok rudari igraju ključnu ulogu u validaciji i kreiranju blokova, čvorovi održavaju integritet verifikacijom i validacijom transakcija i blokova. Neispravan ili lažan blok će biti odbijen od strane čvorova, čime se cenzuriše Miner i očuva sigurnost mreže. Moć takođe drže čvorovi i korisnici Bitcoin mreže. Čvorovi imaju moć verifikacije i validacije, dok korisnici imaju moć da biraju koji Blockchain će koristiti. Ova distribucija moći osigurava distribuciju i integritet Bitcoin mreže.
@@ -323,7 +323,7 @@ Na kraju, odgovornost je podeljena među svim akterima u Bitcoin mreži. Smanjen
 Satoshi Nakamotova elegantna teorija igara uspostavila je situaciju u kojoj je svaki akter u Bitcoin mreži motivisan da deluje ispravno kako bi zaštitio i svoje interese i interese drugih učesnika. Ovo stvara ravnotežu u kojoj se loše ponašanje može kazniti, čime se poboljšava sigurnost i stabilnost celog sistema. Uprkos ovoj ravnoteži, države ostaju potencijalna pretnja. Kao što je navedeno u prezentaciji na Surfing Bitcoin 2022, države mogu pokušati da napadnu Mining industriju, izlažući Bitcoin mrežu rizicima centralizacije i napada. Hipotetički scenariji kao što je vojni napad usmeren na proizvodne pogone Mining hardvera ističu važnost geografske i industrijske diverzifikacije za otpornost Bitcoin mreže.
 
 
-![image](assets/en/10.webp)
+![image](assets/en/010.webp)
 
 
 Centralizacija proizvodnje Mining hardvera u Kini predstavlja još jedan rizik. Odbijanje izvoza Mining mašina ili akumulacija Hashrate za potencijalni 51% napad od strane Kine naglašava potrebu za diversifikovanom proizvodnjom Mining hardvera. Kao odgovor na ove rizike, Bitcoin zajednica aktivno istražuje rešenja. Kompanije poput Intela razmatraju proizvodnju Mining opreme u Sjedinjenim Državama, doprinoseći distribuciji proizvodnje. Druge inicijative, kao što je Block-ov open-source Mining Development Kit (MDK), imaju za cilj smanjenje monopola na dizajn i proizvodnju Mining hardvera, omogućavajući širu distribuciju Hashrate. U središtu ovih diskusija leži osnovna misija Bitcoin: biti mreža vrednosti Exchange otporna na cenzuru. Bitcoin zajednica neprestano teži jačanju distribucije, otpornosti na cenzuru i antifragilnosti mreže, odbacujući predloge kao što je prelazak na proof of stake, koji nisu u skladu sa ovim osnovnim principima.
@@ -335,7 +335,7 @@ Centralizacija proizvodnje Mining hardvera u Kini predstavlja još jedan rizik. 
 Proof of Work (PoW) je suštinski važan jer predstavlja fizičku vezu između stvarnog sveta i Bitcoin. Iako su bitkoini nematerijalni, njihova proizvodnja zahteva opipljivu energiju, čime se uspostavlja direktna veza sa fizičkim i stvarnim svetom. Ova veza osigurava da proizvodnja i validacija bitkoina i blokova imaju stvarni energetski trošak, čime se mreža Bitcoin usidruje u fizičkoj stvarnosti i sprečava njena potpuna dominacija od strane moćnih entiteta. PoW deluje kao bedem protiv centralizacije, osiguravajući da učešće u mreži i validacija transakcija zahtevaju ulaganje u opipljive resurse. Ovo sprečava monopolizaciju mreže od strane entiteta koji bi inače mogli preuzeti kontrolu bez značajne ulazne barijere, čime se osigurava pravednija distribucija moći i uticaja unutar mreže Bitcoin.
 
 
-![image](assets/en/11.webp)
+![image](assets/en/011.webp)
 
 
 ### Ograničenja Proof of Stake
@@ -365,7 +365,7 @@ Trenutna stopa Hash, uprkos tome što je cena Bitcoin na $30,000 u poređenju sa
 Ova situacija takođe ilustruje otpornost Bitcoin, često procenjivanu na osnovu njegove cene. Međutim, dublja analiza zdravlja Bitcoin zahteva ispitivanje njegove Hash stope, koja meri proračune po sekundi u Bitcoin mreži. Dok cena Bitcoin varira, njegov trošak, povezan sa električnom energijom potrebnom za rad Mining mašina, ostaje ključan za razumevanje dinamike tržišta. Fokusiranjem na trošak umesto na cenu, dobija se konzistentnija perspektiva o stabilnosti i dugoročnoj održivosti Bitcoin. Generalno, trošak Bitcoin je proporcionalan njegovoj ceni, pružajući bolje razumevanje fluktuacija cena i budućih izgleda.
 
 
-![image](assets/en/12.webp)
+![image](assets/en/012.webp)
 
 
 ### Hash stopa i nagrada
@@ -419,7 +419,7 @@ Međutim, Mining nudi jedinstvene načine za uključivanje u ekosistem Bitcoin. 
 Uprkos ovim opcijama, Mining predstavlja značajne izazove. Dobro poznata izreka u svetu kriptovaluta, "Nisu tvoji ključevi, nisu tvoji Bitcoini," nalazi sličan odjek u svetu Mining: "Nije tvoj Hashrate, nije tvoja nagrada." Priče o razočaranjima i isključenim mašinama su česte, sa mnogim igračima koji obećavaju izuzetne rezultate, ali ne uspevaju da ih isporuče. Problemi sa električnom energijom Supply i kvarovi mašina mogu ostaviti investitore nemoćnim, sa skupom opremom koju ne kontrolišu. U ovom kontekstu, oprez i duboko razumevanje sektora Mining su ključni pre nego što se upustite u njega. Iako postoje mogućnosti za dobitke, rizici su značajni, i informisan i promišljen pristup je neophodan za navigaciju ovim složenim i često nepredvidivim poljem. Stoga je od vitalnog značaja sprovesti temeljno istraživanje i pažljivo razmotriti prednosti i mane pre nego što se uključite u Bitcoin Mining.
 
 
-![image](assets/en/13.webp)
+![image](assets/en/013.webp)
 
 
 ### Virgin Bitcoini
@@ -440,7 +440,7 @@ U ovom kontekstu, izbor autonomnog i obrazovanog pristupa Mining čini se mudrim
 Sa pitanjem potencijalne zabrane Mining u Evropi, diskusije o regulaciji postaju sve relevantnije. Promenljivi regulatorni pejzaž zaista može značajno uticati na industriju Bitcoin Mining. Zabrana Mining u Evropi je zamisliv scenario, posebno uzimajući u obzir presedane u Kini. Iako operacije Mining i dalje traju u Kini uprkos zabrani, Evropa bi mogla slediti sličan put. Šira distribucija Hashrate širom različitih regiona mogla bi pomoći u jačanju zajednice Mining u Evropi, omogućavajući im da efikasno suprotstave nesporazume i zablude o Mining, njegovom uticaju na životnu sredinu i njegovom otisku na električnu mrežu.
 
 
-![image](assets/en/14.webp)
+![image](assets/en/014.webp)
 
 
 Suočeni sa kampanjama poput onih Greenpeace-a i često obmanjujućim podacima iz nekih studija, najbolje oružje ostaje istinita informacija. Neophodno je informisati širu javnost i donosioce odluka o stvarnosti Mining, njegovoj složenosti i nijansama, umesto da se oslanjaju na stereotipe i netačne informacije. Što su ljudi više informisani i svesni šta Mining zaista jeste, to se industrija bolje može braniti od potencijalnih restriktivnih regulativa.
@@ -546,7 +546,7 @@ Antminer S9 dolazi u nekoliko varijacija (i, j) koje čine manje modifikacije na
 Cena ASIC-a varira u zavisnosti od mnogih faktora kao što su cena Bitcoin, težina mreže, efikasnost mašine i trošak električne energije. Stoga je teško dati tačnu procenu za kupovinu korišćene mašine. U februaru 2023. godine, očekivana cena u Francuskoj generalno se kreće od €100 do €200, ali ove cene mogu brzo da se promene.
 
 
-![image](assets/en/15.webp)
+![image](assets/en/015.webp)
 
 
 Antminer S9 se sastoji od sledećih delova:
@@ -556,54 +556,54 @@ Antminer S9 se sastoji od sledećih delova:
 - 3 hešborda koji sadrže čipove koji proizvode hešing snagu.
 
 
-![image](assets/en/16.webp)
+![image](assets/en/016.webp)
 
 
 
 - Kontrolna ploča koja uključuje slot za SD karticu, Ethernet port i konektore za hashboardove i ventilatore. Ovo je mozak vašeg ASIC.
 
 
-![image](assets/en/17.webp)
+![image](assets/en/017.webp)
 
 
 
 - 3 data kablova koji povezuju heš table sa kontrolnom pločom.
 
 
-![image](assets/en/18.webp)
+![image](assets/en/018.webp)
 
 
 
 - Snaga Supply, koja radi na 220V i može se priključiti kao običan kućni aparat.
 
 
-![image](assets/en/19.webp)
+![image](assets/en/019.webp)
 
 
 
 - 2 ventilatora od 120mm.
 
 
-![image](assets/en/20.webp)
+![image](assets/en/020.webp)
 
 
 
 - Muški C13 kabl.
 
 
-![image](assets/en/21.webp)
+![image](assets/en/021.webp)
 
 
 Kada kupujete korišćenu mašinu, važno je proveriti da li su svi delovi uključeni i funkcionalni. Tokom Exchange, trebalo bi da zamolite prodavca da uključi mašinu kako biste proverili njeno pravilno funkcionisanje. Važno je potvrditi da se uređaj pravilno uključuje, a zatim proveriti internet konekciju priključivanjem Ethernet kabla i pristupom Bitmain loginu Interface putem web pregledača na istoj lokalnoj mreži. Možete pronaći ovaj IP Address povezivanjem na vaš internet ruter Interface i traženjem povezanih uređaja. Ovaj Address bi trebalo da ima sledeći format: 192.168.x.x
 
 
-![image](assets/en/22.webp)
+![image](assets/en/022.webp)
 
 
 Takođe, proverite da li podrazumevane kredencijale rade (korisničko ime: root, lozinka: root). Ako podrazumevane kredencijale ne rade, biće potrebno da resetujete mašinu.
 
 
-![image](assets/en/23.webp)
+![image](assets/en/023.webp)
 
 
 Kada se povežete, trebali biste moći videti status svake hashboarde na kontrolnoj tabli. Ako je Miner povezan na pool, trebali biste videti da sve hashboarde funkcionišu. Važno je napomenuti da rudari prave mnogo buke, što je normalno. Takođe, proverite da li ventilatori rade ispravno.
@@ -638,19 +638,19 @@ Ako ste vešt majstor i želite da transformišete Miner u grejač, ovaj vodič 
 Originalni ventilatori Antminer S9 su previše bučni da biste koristili svoj Antminer kao grejač. Rešenje je da ih zamenite tišim ventilatorima. Naš tim je testirao nekoliko modela brenda Noctua i odabrao Noctua NF-A14 iPPC-2000 PWM kao najbolji kompromis. Obavezno izaberite verziju ventilatora od 12V. Ovaj ventilator od 140mm može proizvesti do 1200W grejanja uz održavanje teoretskog nivoa buke od 31 dB. Da biste instalirali ove ventilatore od 140mm, biće vam potreban adapter od 140mm na 120mm, koji možete pronaći u DécouvreBitcoin prodavnici. Takođe ćemo dodati zaštitne rešetke od 140mm.
 
 
-![image](assets/en/24.webp)
+![image](assets/en/024.webp)
 
-![image](assets/en/25.webp)
+![image](assets/en/025.webp)
 
-![image](assets/en/26.webp)
+![image](assets/en/026.webp)
 
 
 Ventilator Supply je takođe prilično bučan i potrebno ga je zameniti. Preporučujemo Noctua NF-A6x25 PWM. Imajte na umu da konektori Noctua ventilatora nisu isti kao originalni, tako da će vam biti potreban adapter za konektor da ih povežete. Dva će biti dovoljna. Ponovo, obavezno izaberite 12V verziju ventilatora.
 
 
-![image](assets/en/27.webp)
+![image](assets/en/027.webp)
 
-![image](assets/en/28.webp)
+![image](assets/en/028.webp)
 
 
 2. Dodajte WIFI/Ethernet most
@@ -659,9 +659,9 @@ Ventilator Supply je takođe prilično bučan i potrebno ga je zameniti. Preporu
 Umesto korišćenja Ethernet kabla, možete povezati svoj Antminer putem WIFI-ja dodavanjem WIFI/Ethernet mosta. Odabrali smo vonets vap11g-300 jer vam lako omogućava da preuzmete WIFI signal sa vaše Internet kutije i prenesete ga na vaš Antminer putem Ethernet-a bez kreiranja podmreže. Ako imate električarske veštine, možete ga napajati direktno sa napajanjem Antminera Supply bez potrebe za dodavanjem USB punjača. Za ovo će vam biti potreban ženski 5.5mmx2.1mm džek.
 
 
-![image](assets/en/29.webp)
+![image](assets/en/029.webp)
 
-![image](assets/en/30.webp)
+![image](assets/en/030.webp)
 
 
 3. Opcionalno: dodajte pametnu utičnicu
@@ -670,7 +670,7 @@ Umesto korišćenja Ethernet kabla, možete povezati svoj Antminer putem WIFI-ja
 Ako želite da uključite/isključite vaš Antminer sa pametnog telefona i pratite njegovu potrošnju energije, možete dodati pametnu utičnicu. Testirali smo ANTELA utičnicu u verziji od 16A, kompatibilnu sa smartlife aplikacijom. Ova pametna utičnica vam omogućava da vidite dnevnu i mesečnu potrošnju energije i povezuje se direktno na vaš internet ruter putem WiFi-a.
 
 
-![image](assets/en/31.webp)
+![image](assets/en/031.webp)
 
 
 Lista opreme i linkovi
@@ -719,19 +719,19 @@ Napajajte most povezivanjem putem USB-a.
 Sa vašeg računara povežite se na VONETS\_**\*\*** WIFI mrežu sa lozinkom 12345678.
 
 
-![image](assets/en/32.webp)
+![image](assets/en/032.webp)
 
 
 Prijavite se sa korisničkim imenom "admin" i lozinkom "admin".
 
 
-![image](assets/en/33.webp)
+![image](assets/en/033.webp)
 
 
 Izaberi Čarobnjaka.
 
 
-![image](assets/en/34.webp)
+![image](assets/en/034.webp)
 
 
 Izaberite WIFI mrežu na koju želite da povežete svoj Miner, zatim kliknite Dalje.
@@ -740,7 +740,7 @@ Izaberite WIFI mrežu na koju želite da povežete svoj Miner, zatim kliknite Da
 NAPOMENA: Vonet most radi samo na frekvenciji od 2.4GHz. Danas ruteri obično nude dve WIFI mreže, jednu na 2.4GHz i jednu na 5GHz.
 
 
-![image](assets/en/35.webp)
+![image](assets/en/035.webp)
 
 
 Unesite lozinku za vašu WIFI mrežu u polje "Source WIFI hotspot password". Ako ne želite da koristite vaš Vonet most za proširenje vaše WIFI mreže, označite polje "Disable Hotspot". U suprotnom, ostavite ga neoznačenim.
@@ -771,7 +771,7 @@ Ova metoda se može primeniti između 2 minuta i 10 minuta nakon pokretanja Mine
 2 minuta nakon uključivanja Miner, pritisnite dugme "Reset" na 5 sekundi, a zatim ga otpustite. Miner će biti vraćen na fabrička podešavanja u roku od 4 minuta i automatski će se ponovo pokrenuti (nema potrebe da ga isključujete).
 
 
-![image](assets/en/36.webp)
+![image](assets/en/036.webp)
 
 
 ## Instaliranje BraiinsOS+ na Antminer S9
@@ -796,13 +796,13 @@ Ovde ćemo videti kako lako instalirati Braiins OS+ direktno na memoriju vašeg 
 3. Raspakujte preuzetu datoteku i otvorite bos-toolbox.bat datoteku. Izaberite jezik, i nakon nekoliko trenutaka, videćete ovaj prozor:
 
 
-![image](assets/en/37.webp)
+![image](assets/en/037.webp)
 
 
 4. Bos toolbox će vam omogućiti da lako pronađete IP Address vašeg Antminera i instalirate BraiinsOS+. Ako već znate IP Address vaše mašine, možete preskočiti na korak 8. U suprotnom, idite na karticu za skeniranje.
 
 
-![image](assets/en/38.webp)
+![image](assets/en/038.webp)
 
 
 5. Obično, na kućnim mrežama, IP Address opseg je između 192.168.1.1 i 192.168.1.255, pa unesite "192.168.1.0/24" u polje za IP opseg. Ako je vaša mreža drugačija, molimo vas da promenite ove adrese u skladu s tim. Zatim kliknite na "Start".
@@ -814,7 +814,7 @@ Ovde ćemo videti kako lako instalirati Braiins OS+ direktno na memoriju vašeg 
 7. Trebalo bi da vidite sve Antminere na vašoj mreži kako se pojavljuju ovde, a IP Address je 192.168.1.37.
 
 
-![image](assets/en/39.webp)
+![image](assets/en/039.webp)
 
 
 8. Kliknite na "Back", a zatim na karticu "Install", unesite prethodno pronađeni IP Address i kliknite na "Start".
@@ -822,7 +822,7 @@ Ovde ćemo videti kako lako instalirati Braiins OS+ direktno na memoriju vašeg 
 
 > Ako instalacija ne radi, možda će biti potrebno izvršiti resetovanje i pokušati ponovo (pogledajte prethodni odeljak).
 
-![image](assets/en/40.webp)
+![image](assets/en/040.webp)
 
 
 9. Nakon nekoliko trenutaka, vaš Antminer će se ponovo pokrenuti i moći ćete pristupiti Braiins OS+ Interface na specificiranoj IP adresi Address, ovde 192.168.1.37, direktno u Address traci vašeg pregledača. Podrazumevano korisničko ime je "root" i nema podrazumevane lozinke.
@@ -854,7 +854,7 @@ Zatim će vas dočekati Brains OS+ Dashboard.
 ### Kontrolna tabla
 
 
-![image](assets/en/41.webp)
+![image](assets/en/041.webp)
 
 
 Na ovoj prvoj stranici možete posmatrati performanse vaše mašine u realnom vremenu.
@@ -866,7 +866,7 @@ Na ovoj prvoj stranici možete posmatrati performanse vaše mašine u realnom vr
 - Ispod, brzina ventilatora kao procenat maksimalne brzine i broj obrtaja u minuti.
 
 
-![image](assets/en/42.webp)
+![image](assets/en/042.webp)
 
 
 
@@ -879,19 +879,19 @@ Na ovoj prvoj stranici možete posmatrati performanse vaše mašine u realnom vr
 ### Konfiguracija
 
 
-![image](assets/en/43.webp)
+![image](assets/en/043.webp)
 
 
 ### Sistem
 
 
-![image](assets/en/44.webp)
+![image](assets/en/044.webp)
 
 
 ### Brze radnje
 
 
-![image](assets/en/45.webp)
+![image](assets/en/045.webp)
 
 
 # Attakai - Fan Modification
@@ -908,7 +908,7 @@ Na ovoj prvoj stranici možete posmatrati performanse vaše mašine u realnom vr
 
 > UPOZORENJE: Neophodno je prethodno instalirati Braiins OS+ na vaš Miner, ili bilo koji drugi softver koji može smanjiti performanse vaše mašine. Ova mera je ključna jer ćemo, kako bismo smanjili buku, instalirati manje snažne ventilatore koji mogu raspršiti manje toplote.
 
-![image](assets/en/46.webp)
+![image](assets/en/046.webp)
 
 
 ### Potrebni materijali
@@ -921,88 +921,88 @@ Na ovoj prvoj stranici možete posmatrati performanse vaše mašine u realnom vr
 
 > UPOZORENJE: Pre svega, pre nego što počnete, uverite se da ste isključili svoj Miner kako biste izbegli bilo kakav rizik od strujnog udara.
 
-![image](assets/en/47.webp)
+![image](assets/en/047.webp)
 
 
 Prvo, uklonite 6 šrafova sa strane kućišta koji ga drže zatvorenim. Kada uklonite šrafove, pažljivo otvorite kućište kako biste uklonili plastičnu zaštitu koja pokriva komponente.
 
 
-![image](assets/en/48.webp)
+![image](assets/en/048.webp)
 
-![image](assets/en/49.webp)
+![image](assets/en/049.webp)
 
 
 Zatim, vreme je da uklonite originalni ventilator, pazeći da ne oštetite druge komponente. Da biste to uradili, uklonite šrafove koji ga drže na mestu i pažljivo odlepite beli lepak koji okružuje konektor. Važno je postupati pažljivo kako biste izbegli oštećenje žica ili konektora.
 
 
-![image](assets/en/50.webp)
+![image](assets/en/050.webp)
 
 
 Kada se originalni ventilator ukloni, primetićete da konektori novog Noctua ventilatora ne odgovaraju onima originalnog ventilatora. Naime, novi ventilator ima 3 žice, uključujući žutu žicu koja omogućava kontrolu brzine. Međutim, ova žica neće biti korišćena u ovom specifičnom slučaju. Da biste povezali novi ventilator, preporučuje se korišćenje specijalnog adaptera. Međutim, važno je napomenuti da ovaj adapter ponekad može biti teško pronaći.
 
 
-![image](assets/en/51.webp)
+![image](assets/en/051.webp)
 
 
 Ako nemate ovaj adapter, i dalje možete nastaviti sa povezivanjem novog ventilatora koristeći električarsku čokoladu. Da biste to uradili, biće potrebno da isečete kablove starog i novog ventilatora.
 
 
-![image](assets/en/52.webp)
+![image](assets/en/052.webp)
 
-![image](assets/en/53.webp)
+![image](assets/en/053.webp)
 
 
 Na novom ventilatoru, koristite sekač i pažljivo isecite konture glavnog omotača na 1 cm, bez sečenja omotača kablova ispod.
 
 
-![image](assets/en/54.webp)
+![image](assets/en/054.webp)
 
 
 Zatim, povlačenjem glavne obloge prema dole, isecite obloge crvenog i crnog kabla na isti način kao ranije. A žuti kabl isecite u ravni.
 
 
-![image](assets/en/55.webp)
+![image](assets/en/055.webp)
 
 
 Na starom ventilatoru, delikatnije je preseći glavni omotač bez oštećenja omotača crvene i crne žice. Za to smo koristili iglu koju smo provukli između glavnog omotača i crvene i crne žice.
 
 
-![image](assets/en/56.webp)
+![image](assets/en/056.webp)
 
-![image](assets/en/57.webp)
+![image](assets/en/057.webp)
 
 
 Kada su crvene i crne žice izložene, pažljivo isecite omotače kako ne biste oštetili električne žice.
 
 
-![image](assets/en/58.webp)
+![image](assets/en/058.webp)
 
 
 Zatim, povežite kablove sa šugarom, crnu žicu sa crnom i crvenu žicu sa crvenom. Možete dodati i izolir traku.
 
 
-![image](assets/en/59.webp)
+![image](assets/en/059.webp)
 
-![image](assets/en/60.webp)
+![image](assets/en/060.webp)
 
 
 Kada se uspostavi veza, vreme je da instalirate novi Noctua ventilator sa rešetkom i starim šrafovima. Novi šrafovi iz kutije će biti ponovo korišćeni kasnije. Uverite se da ga postavite u ispravnu orijentaciju. Primetićete strelicu na jednoj strani ventilatora, koja pokazuje pravac protoka vazduha. Važno je postaviti ventilator tako da ova strelica pokazuje ka unutrašnjosti kućišta. Zatim ponovo povežite ventilator.
 
 
-![image](assets/en/61.webp)
+![image](assets/en/061.webp)
 
-![image](assets/en/62.webp)
+![image](assets/en/062.webp)
 
 
 > Opcionalno: Ako ste upućeni u električnu energiju, možete direktno dodati ženski 5.5mm džek konektor na 12V izlaz za napajanje, što će direktno napajati Vonet Wi-Fi most. Međutim, ako niste sigurni u svoje električne veštine, najbolje je koristiti USB konektor sa punjačem tipa za pametni telefon kako biste izbegli bilo kakav rizik od kratkog spoja ili električnog oštećenja.
 
-![image](assets/en/63.webp)
+![image](assets/en/063.webp)
 
 
 Kada su veze uspostavljene, postavite plastični poklopac preko kućišta plastike, a ne unutra.
 
 
-![image](assets/en/64.webp)
+![image](assets/en/064.webp)
 
 
 Konačno, vratite poklopac kućišta na mesto i zavrnite 6 šrafova sa strane kako biste sve učvrstili. I eto ga, vaše Supply kućište sada ima novi ventilator.
@@ -1016,7 +1016,7 @@ Konačno, vratite poklopac kućišta na mesto i zavrnite 6 šrafova sa strane ka
 
 > UPOZORENJE: Neophodno je prethodno instalirati Braiins OS+ na vaš Miner, ili bilo koji drugi softver sposoban da smanji performanse vaše mašine. Ova mera je ključna jer ćemo, kako bismo smanjili buku, instalirati manje snažne ventilatore, koji će rasipati manje toplote.
 
-![image](assets/en/46.webp)
+![image](assets/en/046.webp)
 
 
 ### Potrebni materijali
@@ -1033,15 +1033,15 @@ Konačno, vratite poklopac kućišta na mesto i zavrnite 6 šrafova sa strane ka
 1. Prvo, isključite ventilatore i odvrnite ih.
 
 
-![image](assets/en/65.webp)
+![image](assets/en/065.webp)
 
 
 2. Konektori novih Noctua ventilatora ne odgovaraju originalnim, ali ne brinite! Uzmite svoj rezač i pažljivo isecite male plastične jezičke tako da konektori savršeno odgovaraju vašem Miner.
 
 
-![image](assets/en/66.webp)
+![image](assets/en/066.webp)
 
-![image](assets/en/67.webp)
+![image](assets/en/067.webp)
 
 
 3. Vreme je da instalirate 3D delove!
@@ -1049,7 +1049,7 @@ Konačno, vratite poklopac kućišta na mesto i zavrnite 6 šrafova sa strane ka
 Pričvrstite ih na obe strane Miner koristeći šrafove koje ste uklonili sa ventilatora. Ušrafite ih dok glava šrafa ne bude u ravni sa 3D delom i dok ne bude sigurno na mestu. Pazite da ne zategnete previše, jer biste mogli deformisati deo i jedan od šrafova bi mogao dodirnuti kondenzator!
 
 
-![image](assets/en/68.webp)
+![image](assets/en/068.webp)
 
 
 4. Sada pređimo na navijače.
@@ -1058,31 +1058,31 @@ Pričvrstite ih na obe strane Miner koristeći šrafove koje ste uklonili sa ven
 Pričvrstite ih na 3D delove koristeći šrafove koji su obezbeđeni u kutiji. Obratite pažnju na pravac protoka vazduha, strelice na stranama ventilatora će pokazati pravac koji treba pratiti. Idite od strane sa Ethernet portom ka drugoj strani. Pogledajte fotografiju ispod.
 
 
-![image](assets/en/69.webp)
+![image](assets/en/069.webp)
 
-![image](assets/en/70.webp)
+![image](assets/en/070.webp)
 
-![image](assets/en/71.webp)
+![image](assets/en/071.webp)
 
 
 5. Poslednji korak: povežite ventilatore i pričvrstite rešetke na vrh pomoću šrafova koji nisu korišćeni u kutiji ventilatora Supply. Imate samo 4, ali 2 po rešetki u suprotnim uglovima će biti dovoljna. Takođe možete potražiti slične šrafove u prodavnici alata ako je potrebno.
 
 
-![image](assets/en/72.webp)
+![image](assets/en/072.webp)
 
-![image](assets/en/73.webp)
+![image](assets/en/073.webp)
 
 
 Dok čekate da budete u mogućnosti da ponudite stilizovanije kućište za vaš novi grejač, možete pričvrstiti kućište i napajanje Supply električarskim vezicama.
 
 
-![image](assets/en/74.webp)
+![image](assets/en/074.webp)
 
 
 I za završni dodir, povežite Vonet most na Ethernet port i njegovu struju Supply.
 
 
-![image](assets/en/75.webp)
+![image](assets/en/075.webp)
 
 
 I eto ga, čestitamo! Upravo ste zamenili ceo mehanički deo vašeg Miner. Sada bi trebalo da čujete mnogo manje buke.
@@ -1129,7 +1129,7 @@ Model nagrađivanja koji nas zanima je PPS, što znači "plaćanje po deonici". 
 Da biste konfigurisali bazen u Braiins OS+, potrebno je da kreirate nalog u jednom od bazena po vašem izboru. Ovde ćemo uzeti primer Linecoin:
 
 
-![image](assets/en/76.webp)
+![image](assets/en/076.webp)
 
 
 Kada je vaš nalog kreiran, kliknite na Connect To Pool
@@ -1138,13 +1138,13 @@ Kada je vaš nalog kreiran, kliknite na Connect To Pool
 Zatim kopirajte Stratum Address i vaše korisničko ime:
 
 
-![image](assets/en/77.webp)
+![image](assets/en/077.webp)
 
 
 Sada se možete vratiti na Braiins OS+ Interface da unesete ove akreditive. Polje za lozinku možete ostaviti prazno.
 
 
-![image](assets/en/78.webp)
+![image](assets/en/078.webp)
 
 
 ## Optimizacija performansi vašeg Antminer S9

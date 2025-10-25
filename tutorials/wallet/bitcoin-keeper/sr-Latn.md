@@ -1,5 +1,5 @@
 ---
-name: Bitcoin Keeper - Višeključna Sigurnost
+name: Bitcoin Keeper
 description: Bitcoin Keeper App - mobilna aplikacija koja vam omogućava kreiranje Hot novčanika i Cold skladišnih trezora za dugoročne uštede
 ---
 

@@ -18,11 +18,11 @@ Anda sudah memiliki:
 Dalam tutorial ini, kita akan melihat cara menambahkan tutorial Anda ke Plan ₿ Network menggunakan versi web GitHub. Jika Anda sudah menguasai Git, tutorial yang sangat mendetail ini mungkin tidak diperlukan untuk Anda. Sebagai gantinya, saya sarankan Anda untuk melihat salah satu dari 2 tutorial lainnya, di mana saya merinci panduan yang harus diikuti dan langkah-langkah untuk membuat perubahan dari file:
 
 
-- Pengguna yang berpengalaman**:
+- **Pengguna yang berpengalaman**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
-- Menengah (GitHub Desktop)**:
+- **Menengah (GitHub Desktop)**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
@@ -347,8 +347,8 @@ Tanda seru di awal menunjukkan gambar. Teks alternatif, yang membantu aksesibili
 Jika Anda ingin membuat skema Anda sendiri, pastikan untuk mengikuti panduan grafis Plan ₿ Network (Rencana ₿ Jaringan) untuk memastikan konsistensi visual:
 
 
-- Huruf **: Gunakan [IBM Plex Sans] (https://fonts.google.com/specimen/IBM+Plex+Sans);
-- Warna**:
+- **Huruf**: Gunakan [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
+- **Warna**:
  - Oranye: #FF5C00
  - Hitam: #000000
  - Putih: #FFFFFF
@@ -377,7 +377,7 @@ Masukkan sebuah judul yang secara singkat meringkas perubahan yang ingin Anda ga
 
 ![GITHUB](assets/fr/38.webp)
 
-PR Anda kemudian akan terlihat di tab "*Tarik Permintaan*" pada tab "*Repositori Jaringan" pada paket utama. Yang harus Anda lakukan sekarang adalah menunggu hingga administrator menghubungi Anda untuk mengonfirmasi bahwa kontribusi Anda telah digabungkan, atau untuk meminta modifikasi lebih lanjut.
+PR Anda kemudian akan terlihat di tab "*Tarik Permintaan*" pada tab "*Repositori Jaringan*" pada paket utama. Yang harus Anda lakukan sekarang adalah menunggu hingga administrator menghubungi Anda untuk mengonfirmasi bahwa kontribusi Anda telah digabungkan, atau untuk meminta modifikasi lebih lanjut.
 
 ![GITHUB](assets/fr/39.webp)
 

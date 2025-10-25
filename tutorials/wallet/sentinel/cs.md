@@ -1,5 +1,5 @@
 ---
-name: Sentinel Watch-Only
+name: Sentinel
 description: Co je to peněženka pouze pro sledování a jak ji používat?
 ---
 ![cover](assets/cover.webp)

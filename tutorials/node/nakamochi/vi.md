@@ -1,7 +1,9 @@
 ---
 name: Nakamochi
-description: Chạy Node dễ dàng - Cách thiết lập và sử dụng node Nakamochi Bitcoin và Lightning.
+description: Vận hành nút dễ dàng - Cách cấu hình và sử dụng nút Nakamochi Bitcoin và Lightning.
 ---
+![image](assets/cover.webp)
+
 Việc chạy full node Bitcoin và Lightning của riêng bạn không còn là một nhiệm vụ phức tạp chỉ dành cho các chuyên gia kỹ thuật nữa. Theo truyền thống, việc thiết lập và quản lý các node đòi hỏi kiến thức chuyên sâu về mật mã, mạng và phát triển phần mềm. Nakamochi thay đổi điều đó bằng cách làm cho các node có thể truy cập được với mọi người, bất kể trình độ kỹ thuật.
 
 Với Nakamochi, bất kỳ ai cũng có thể thiết lập và vận hành một nút từ nhà, cho phép bảo mật hoàn toàn và độc lập về tài chính. Việc vận hành một nút đầy đủ không chỉ bảo mật các giao dịch của riêng bạn mà còn góp phần vào sức mạnh của mạng Bitcoin. Một mạng Bitcoin phi tập trung và bền bỉ dựa vào sự phân bổ rộng rãi các nút để đảm bảo tính bảo mật và độc lập của nó.
@@ -36,7 +38,7 @@ Nút Nakamochi của bạn được quản lý thông qua ứng dụng di độn
 
 ![image](assets/en/01.webp)
 
-_Kết nối với nguồn điện và viết ra cụm từ hạt giống gồm 24 từ của bạn_
+_Kết nối nguồn điện và ghi lại cụm từ khởi tạo 24 từ của bạn_
 
 ![image](assets/en/02.webp)
 
@@ -44,11 +46,11 @@ _Chờ cho đến khi Blockchain bắt kịp_
 
 ![image](assets/en/03.webp)
 
-_Thiết lập ví mới trong Lightning Tab_
+_Thiết lập ví mới trong Tab Lightning_
 
 ![image](assets/en/04.webp)
 
-_Quét mã QR bằng ứng dụng Node Management_
+_Quét mã QR bằng Ứng dụng Quản lý Node_
 
 ![image](assets/en/05.webp)
 
@@ -57,6 +59,8 @@ _Để an toàn hơn, hãy đặt mã PIN_
 **Lưu ý:** _Cho phép nút Nakamochi của bạn đồng bộ với blockchain. Quá trình này có thể mất một thời gian tùy thuộc vào kết nối internet của bạn._
 
 ## Về Mạng lưới Lightning
+
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Bitcoin Lightning Network cách mạng hóa các giao dịch Bitcoin bằng cách làm cho chúng nhanh hơn, rẻ hơn và hiệu quả hơn. Nó hoàn hảo cho việc sử dụng hàng ngày, cho phép thanh toán gần như ngay lập tức với mức phí tối thiểu, lý tưởng cho các giao dịch nhỏ như mua cà phê hoặc xử lý các giao dịch mua nhỏ thường xuyên.
 
@@ -120,4 +124,4 @@ Nhìn chung, chúng tôi khuyên bạn nên để các kênh mở để giảm c
 
 
 - [Giới thiệu về Nakamochi](https://nakamochi.io/)
-- [Đăng ký nhận Bản tin của Nakamochi](https://90c7addc.sibforms.com/serve/MUIFAHG7H5YBPpm-kZ8G6TuS-nmL4uaq85rlpBfI__S79tZ5jheIJfF3kJYudycgs_6_RUdDBkt8Sd7OyNL_JDTTJvOb36ifF6vcQoabBXKp4cbefzh1DYqnok_jItexICcQL13ucd2aS581ngqy7jr0Q1H3HhxV3z2eWKE5-Z-YMasj-MMotQeDvdorMCSi0XgCWDqs8rEMQC7E)
+- [Đăng ký nhận bản tin của Nakamochi](https://90c7addc.sibforms.com/serve/MUIFAHG7H5YBPpm-kZ8G6TuS-nmL4uaq85rlpBfI__S79tZ5jheIJfF3kJYudycgs_6_RUdDBkt8Sd7OyNL_JDTTJvOb36ifF6vcQoabBXKp4cbefzh1DYqnok_jItexICcQL13ucd2aS581ngqy7jr0Q1H3HhxV3z2eWKE5-Z-YMasj-MMotQeDvdorMCSi0XgCWDqs8rEMQC7E)

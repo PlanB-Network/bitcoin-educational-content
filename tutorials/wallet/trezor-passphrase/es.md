@@ -1,5 +1,5 @@
 ---
-name: passphrase BIP39 Trezor
+name: BIP-39 Passphrase Trezor
 description: ¿Cómo añado una passphrase a mi cartera de Trezor?
 ---
 ![cover](assets/cover.webp)
@@ -71,7 +71,7 @@ Esta ventana le pide que introduzca su passphrase. Elige un passphrase potente y
 
 
 
-por supuesto, nunca debes compartir tu passphrase en Internet, como hago yo en este tutorial. Este ejemplo Wallet sólo se utilizará en Testnet y se eliminará al final del tutorial.**_
+por supuesto, nunca debes compartir tu passphrase en Internet, como hago yo en este tutorial. Este ejemplo Wallet sólo se utilizará en Testnet y se eliminará al final del tutorial.
 
 
 

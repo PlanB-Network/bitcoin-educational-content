@@ -1,5 +1,5 @@
 ---
-name: Bitcoin Keeper - Keamanan Multi Kunci
+name: Bitcoin Keeper
 description: Aplikasi Bitcoin Keeper - aplikasi seluler yang memungkinkan Anda membuat dompet Hot dan brankas penyimpanan Cold untuk tabungan jangka panjang
 ---
 

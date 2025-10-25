@@ -1,5 +1,5 @@
 ---
-name: İsviçre Bitcoin Maaşı
+name: Swiss Bitcoin Pay
 description: Bitcoin ödemeleri nasıl kolayca kabul edilir?
 ---
 ![cover](assets/cover.webp)

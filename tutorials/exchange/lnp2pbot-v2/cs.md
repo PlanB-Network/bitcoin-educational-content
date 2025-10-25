@@ -43,7 +43,7 @@ Začněte instalací kompatibilní peněženky Lightning. Zde jsou naše podrobn
 **Doporučená portfolia**
 
 
-- [Breez](https://breez.technology)**:
+- [Breez](https://breez.technology):
   - Vynikající pro začátečníky
   - Intuitivní a moderní rozhraní
   - Bez svěřenectví (zachováte si kontrolu nad svými prostředky)
@@ -54,7 +54,7 @@ Níže naleznete odkaz na výukový program pro tuto peněženku:
 
 https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
-- [Phoenix](https://phoenix.acinq.co)** :
+- [Phoenix](https://phoenix.acinq.co) :
   - Jednoduché a spolehlivé
   - Automatická konfigurace kanálů
   - Nativní podpora faktur BOLT11
@@ -65,7 +65,7 @@ Níže naleznete odkaz na výukový program pro tuto peněženku:
 
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-- [Blixt](https://blixtwallet.github.io)** :
+- [Blixt](https://blixtwallet.github.io) :
   - Techničtější, ale velmi kompletní
   - Rozšířené možnosti konfigurace
   - Ideální pro zkušené uživatele
@@ -81,9 +81,9 @@ https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-8405
 ⚠️ **Důležité**: Před prodejem satelitů se ujistěte, že vaše portfolio podporuje faktury "hold", které bot používá jako systém úschovy.
 
 
-- Peněženka Satoshi**: Funguje dobře pro příjem sats, ale může mít zpoždění při aktualizaci zůstatku, pokud je prodej zrušen.
-- Muun**: Nedoporučuje se, protože platby mohou selhat kvůli limitům poplatků za směrování botů (maximálně 0,2 %).
-- Aqua**: V případě zrušení prodeje může dojít k dlouhému zpoždění (až 48 hodin) aktualizace zůstatku.
+- **Peněženka Satoshi**: Funguje dobře pro příjem sats, ale může mít zpoždění při aktualizaci zůstatku, pokud je prodej zrušen.
+- **Muun**: Nedoporučuje se, protože platby mohou selhat kvůli limitům poplatků za směrování botů (maximálně 0,2 %).
+- **Aqua**: V případě zrušení prodeje může dojít k dlouhému zpoždění (až 48 hodin) aktualizace zůstatku.
 
 💡 **Tip**: Pro optimální zážitek si vyberte doporučená portfolia (Breez, Phoenix nebo Blixt).
 
@@ -153,7 +153,7 @@ Po odeslání faktury vás bot spojí s prodejcem.
 
 Kliknutím na přezdívku prodávajícího otevřete soukromý chatovací kanál, kde si můžete vyměnit údaje o platbě fiat.
 
-**5. Potvrzení o platbě
+**5. Potvrzení o platbě**
 
 ![Confirmation du paiement](assets/fr/05.webp)
 
@@ -246,17 +246,17 @@ Lnp2pbot má několik výhod a nevýhod oproti jiným P2P výměnným řešením
 ### Výhody Lnp2pbot
 
 
-- KYC není vyžadováno** : Na rozdíl od některých platforem Lnp2pbot nevyžaduje ověření totožnosti, čímž zachovává důvěrnost uživatelů.
-- Rychlé transakce**: Díky síti Lightning jsou transakce téměř okamžité.
-- Nízké poplatky** : Transakční náklady jsou nižší než u tradičních burz.
-- Mobilní dostupnost**: LNP2PBot je dostupný přes Telegram, což usnadňuje jeho používání na mobilních zařízeních.
-- Snadné použití** : Intuitivní rozhraní Lnp2pbot usnadňuje používání i méně zkušeným uživatelům.
+- **KYC není vyžadováno**: Na rozdíl od některých platforem Lnp2pbot nevyžaduje ověření totožnosti, čímž zachovává důvěrnost uživatelů.
+- **Rychlé transakce**: Díky síti Lightning jsou transakce téměř okamžité.
+- **Nízké poplatky**: Transakční náklady jsou nižší než u tradičních burz.
+- **Mobilní dostupnost**: LNP2PBot je dostupný přes Telegram, což usnadňuje jeho používání na mobilních zařízeních.
+- **Snadné použití**: Intuitivní rozhraní Lnp2pbot usnadňuje používání i méně zkušeným uživatelům.
 
 ### Nevýhody Lnp2pbot
 
 
-- Závislost na Telegramu**: Používání Lnp2pbot vyžaduje účet Telegram, což nemusí být vhodné pro všechny uživatele.
-- Menší likvidita**: V porovnání se zavedenými platformami, jako je Bisq, může být likvidita omezenější.
+- **Závislost na Telegramu**: Používání Lnp2pbot vyžaduje účet Telegram, což nemusí být vhodné pro všechny uživatele.
+- **Menší likvidita**: V porovnání se zavedenými platformami, jako je Bisq, může být likvidita omezenější.
 
 Oproti tomu řešení, jako je Bisq, nabízejí vyšší likviditu a rozhraní pro stolní počítače, ale mohou zahrnovat vyšší poplatky a delší dobu transakce. HodlHodl a Robosat mezitím také nabízejí obchodování bez KYC, ale s odlišnou strukturou poplatků a rozhraním.
 

@@ -28,8 +28,8 @@ Dengan kata lain, dengan implementasi ini, Anda dapat :
 
 
 
-- Berinteraksi dengan Lightning Network**: Anda dapat menggunakan baris perintah untuk membuat portofolio Lightning, mengelola saluran dan rute pembayaran, dan masih banyak lagi, langsung dari terminal mesin Anda.
-- Menautkan node Bitcoin jarak jauh atau instance Bitcoin Core Anda sendiri**: LND memungkinkan Anda menautkan instance Bitcoin dan menggunakannya sebagai backend. Untuk menggunakan implementasi ini, Anda tidak perlu menjalankan instance Bitcoin Core di mesin Anda.
+- **Berinteraksi dengan Lightning Network**: Anda dapat menggunakan baris perintah untuk membuat portofolio Lightning, mengelola saluran dan rute pembayaran, dan masih banyak lagi, langsung dari terminal mesin Anda.
+- **Menautkan node Bitcoin jarak jauh atau instance Bitcoin Core Anda sendiri**: LND memungkinkan Anda menautkan instance Bitcoin dan menggunakannya sebagai backend. Untuk menggunakan implementasi ini, Anda tidak perlu menjalankan instance Bitcoin Core di mesin Anda.
 
 
 
@@ -57,10 +57,10 @@ Dalam hal ini, menjalankan node Lightning meningkatkan keamanan dan integritas d
 
 
 
-- Kendali penuh**: Kelola saluran pembayaran Anda sendiri, jadilah bank Anda sendiri, dan jadilah penguasa aset Anda.
-- Kerahasiaan**: Bertransaksi tanpa bergantung pada pihak ketiga untuk melindungi privasi Anda.
-- Pembelajaran dan otonomi**: Berkat perintah `lncli`, Anda dapat lebih memahami proses yang mendasari Lightning dengan menerapkannya sendiri dari terminal Anda.
-- Desentralisasi**: Berperan aktif dalam memperkuat dan mendesentralisasikan Bitcoin / Lightning Network.
+- **Kendali penuh**: Kelola saluran pembayaran Anda sendiri, jadilah bank Anda sendiri, dan jadilah penguasa aset Anda.
+- **Kerahasiaan**: Bertransaksi tanpa bergantung pada pihak ketiga untuk melindungi privasi Anda.
+- **Pembelajaran dan otonomi**: Berkat perintah `lncli`, Anda dapat lebih memahami proses yang mendasari Lightning dengan menerapkannya sendiri dari terminal Anda.
+- **Desentralisasi**: Berperan aktif dalam memperkuat dan mendesentralisasikan Bitcoin / Lightning Network.
 
 
 
@@ -83,7 +83,7 @@ Karena LND ditulis dalam bahasa Go, Anda harus memastikan bahwa Anda memiliki li
 
 
 
-- Persyaratan perangkat keras:** Persyaratan perangkat keras
+- **Persyaratan perangkat keras:** Persyaratan perangkat keras
 
 
 Untuk pengalaman yang mulus dan lancar, mesin Anda harus memiliki kapasitas yang diperlukan untuk menjalankan node LND Lightning Anda.
@@ -105,7 +105,7 @@ Anda akan membutuhkan :
 
 
 
-- Instal dependensi yang berguna:**
+- Instal dependensi yang berguna:
 
 
 Perintah di bawah ini akan memungkinkan Anda untuk menginstal pada mesin Anda alat yang Anda butuhkan untuk menjalankan LND. Di antaranya, Anda perlu menginstal `Git`, sebuah alat bantu versi, dan `make`, yang dapat menjalankan dan membangun implementasi LND dari kode sumber.
@@ -124,11 +124,11 @@ sudo apt install -y build-essential git make
 
 
 
-- Instal GoLang pada mesin Linux Anda**
+- **Instal GoLang pada mesin Linux Anda**
 
 
 
-Pada tanggal tutorial ini, LND membutuhkan versi 1.23.6 dari Go*** untuk instalasi.
+Pada tanggal tutorial ini, LND membutuhkan versi 1.23.6 dari **Go** untuk instalasi.
 
 
 
@@ -156,7 +156,7 @@ sudo tar -C /usr/local -xzf go1.23.6.linux-amd64.tar.gz
 
 
 
-- Konfigurasi lingkungan Go**
+- **Konfigurasi lingkungan Go**
 
 
 Pada berkas `~/.bashrc`, inisialisasi variabel lingkungan berikut ini untuk menambahkan Go pada sistem Linux Anda.
@@ -178,7 +178,7 @@ source ~/.bashrc
 
 
 
-- Memeriksa instalasi** (dalam bahasa Prancis)
+- Memeriksa **instalasi** (dalam bahasa Prancis)
 
 
 ```bash
@@ -239,7 +239,7 @@ make install
 
 
 
-- Memeriksa instalasi Anda** (dalam bahasa Prancis)
+- **Memeriksa instalasi Anda** (dalam bahasa Prancis)
 
 
 
@@ -334,37 +334,37 @@ Berdasarkan isi file `~/.LND/LND.conf`, berikut ini adalah rincian bidangnya:
 
 
 
-- pencadangan otomatis**: Memungkinkan Anda memilih apakah Anda ingin LND melakukan pencadangan otomatis pada portofolio Anda.  Mengatur properti ini ke `0` memungkinkan Anda menyimpan informasi pemulihan secara manual di lokasi aman yang dipilih secara pribadi.
+- **pencadangan otomatis**: Memungkinkan Anda memilih apakah Anda ingin LND melakukan pencadangan otomatis pada portofolio Anda.  Mengatur properti ini ke `0` memungkinkan Anda menyimpan informasi pemulihan secara manual di lokasi aman yang dipilih secara pribadi.
 
 
 
 
 
-- debuglevel**: Memungkinkan Anda menentukan tingkat detail kesalahan dan log jika terjadi kesalahan selama suatu tindakan.
+- **debuglevel**: Memungkinkan Anda menentukan tingkat detail kesalahan dan log jika terjadi kesalahan selama suatu tindakan.
 
 
 
 
 
-- Bitcoin.active**: Menginstruksikan LND untuk beroperasi sebagai node Bitcoin dan berinteraksi dengan jaringan Bitcoin.
+- **Bitcoin.active**: Menginstruksikan LND untuk beroperasi sebagai node Bitcoin dan berinteraksi dengan jaringan Bitcoin.
 
 
 
 
 
-- Bitcoin.Mainnet**: Menentukan LND untuk menyambung ke jaringan utama Bitcoin (Mainnet), Anda dapat menetapkan nilai `bitcoind.signet` dan `bitcoind.regtest` masing-masing untuk jaringan Bitcoin Signet dan Bitcoin Regtest
+- **Bitcoin.Mainnet**: Menentukan LND untuk menyambung ke jaringan utama Bitcoin (Mainnet), Anda dapat menetapkan nilai `bitcoind.signet` dan `bitcoind.regtest` masing-masing untuk jaringan Bitcoin Signet dan Bitcoin Regtest
 
 
 
 
 
-- Bitcoin.node**: Menentukan jenis node Bitcoin yang akan disambungkan ke LND.
+- **Bitcoin.node**: Menentukan jenis node Bitcoin yang akan disambungkan ke LND.
 
 
 
 
 
-- Bitcoin.rpcuser** dan **Bitcoin.rpcpassword**: Mewakili.
+- **Bitcoin.rpcuser** dan **Bitcoin.rpcpassword**: Mewakili.
 
 
 masing-masing login (pengguna, kata sandi) untuk terhubung ke node Bitcoin Anda
@@ -373,7 +373,7 @@ masing-masing login (pengguna, kata sandi) untuk terhubung ke node Bitcoin Anda
 
 
 
-- bitcoind.zmqpubrawblock** dan **bitcoind.zmqpubrawtx**: masing-masing mendefinisikan titik akhir ZeroMQ untuk menerima notifikasi tentang blok dan transaksi baru di jaringan Bitcoin.
+- **bitcoind.zmqpubrawblock** dan **bitcoind.zmqpubrawtx**: masing-masing mendefinisikan titik akhir ZeroMQ untuk menerima notifikasi tentang blok dan transaksi baru di jaringan Bitcoin.
 
 
 
@@ -492,9 +492,9 @@ Untuk menyambung ke peer (simpul Lightning), Anda memerlukan tiga informasi:
 
 
 
-- Kunci publik node**: Ini adalah pengenal unik node dalam jaringan Bitcoin;
-- IP** : IP mesin tempat node dipasang;
-- PORT** :  Port yang terbuka pada mesin yang memungkinkan komunikasi dengan node ini.
+- **Kunci publik node**: Ini adalah pengenal unik node dalam jaringan Bitcoin;
+- **IP** : IP mesin tempat node dipasang;
+- **PORT** :  Port yang terbuka pada mesin yang memungkinkan komunikasi dengan node ini.
 
 
 
@@ -519,25 +519,25 @@ Pastikan Anda tersambung ke **simpul yang dapat diandalkan** untuk menjaga integ
 
 
 
-- Diversifikasi geografis**: Terhubung ke node di berbagai wilayah.
+- **Diversifikasi geografis**: Terhubung ke node di berbagai wilayah.
 
 
 
 
 
-- Reputasi**: Pilih node dengan ketersediaan yang baik.
+- **Reputasi**: Pilih node dengan ketersediaan yang baik.
 
 
 
 
 
-- Kapasitas**: Pilihlah simpul dengan likuiditas yang baik.
+- **Kapasitas**: Pilihlah simpul dengan likuiditas yang baik.
 
 
 
 
 
-- Biaya**: Memeriksa biaya perutean.
+- **Biaya**: Memeriksa biaya perutean.
 
 
 ### Buka saluran pembayaran
@@ -590,7 +590,7 @@ Ada dua cara untuk menutup saluran aktif pada node Anda saat ini.
 
 
 
-- Penutupan koperasi**: Ini menandakan keinginan node Anda untuk menarik diri dari saluran pembayaran, memastikan bahwa tugas-tugas yang sedang berjalan telah selesai dan data dicadangkan untuk menghindari hilangnya dana.
+- **Penutupan koperasi**: Ini menandakan keinginan node Anda untuk menarik diri dari saluran pembayaran, memastikan bahwa tugas-tugas yang sedang berjalan telah selesai dan data dicadangkan untuk menghindari hilangnya dana.
 
 
 ```
@@ -600,7 +600,7 @@ lncli closechannel <ID_CANAL>
 
 
 
-- Penutupan paksa**: ⚠️ Sebisa mungkin dihindari, karena tindakan ini akan mengganggu proses yang sedang berlangsung di saluran pembayaran Anda dan meningkatkan risiko kehilangan dana.
+- **Penutupan paksa**: ⚠️ Sebisa mungkin dihindari, karena tindakan ini akan mengganggu proses yang sedang berlangsung di saluran pembayaran Anda dan meningkatkan risiko kehilangan dana.
 
 
 ```
@@ -653,9 +653,9 @@ lncli restorechanbackup <CHEMIN_DU_FICHIER>
 
 
 
-- Kesalahan koneksi bitcoind **: Periksa detail login RPC Anda
-- Sinkronisasi diblokir** : Memeriksa koneksi Internet Anda
-- Kesalahan izin**: Periksa hak folder `~/.LND`
+- **Kesalahan koneksi bitcoind**: Periksa detail login RPC Anda
+- **Sinkronisasi diblokir**: Memeriksa koneksi Internet Anda
+- **Kesalahan izin**: Periksa hak folder `~/.LND`
 
 
 

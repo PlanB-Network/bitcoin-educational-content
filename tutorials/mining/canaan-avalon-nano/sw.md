@@ -1,5 +1,5 @@
 ---
-name: Kanaani Avalon Nano 3S
+name: Canaan Avalon Nano 3S
 description: Inasanidi Avalon yako ya ASIC kwa ushiriki wa solomining au Miner
 ---
 

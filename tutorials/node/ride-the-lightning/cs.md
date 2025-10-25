@@ -9,35 +9,35 @@ description: Ke správě uzlu Lightning použijte aplikaci Ride The Lightning (R
 
 
 
-**Ride The Lightning (RTL)** je kompletní webová aplikace Interface pro správu uzlu Lightning Network. Tato samostatně hostovaná webová aplikace nabízí "kokpit" Lightning** přístupný z prohlížeče. RTL pracuje se všemi hlavními implementacemi Lightning (LND, Core Lightning/CLN a Eclair) a poskytuje vám úplnou kontrolu nad vaším uzlem a kanály. RTL je zdarma a s otevřeným zdrojovým kódem (licence MIT) a je standardně integrován do mnoha hotových řešení uzlů (RaspiBlitz, MyNode, Umbrel atd.).
+**Ride The Lightning (RTL)** je kompletní webová aplikace Interface pro správu uzlu Lightning Network. Tato samostatně hostovaná webová aplikace nabízí **kokpit Lightning** přístupný z prohlížeče. RTL pracuje se všemi hlavními implementacemi Lightning (LND, Core Lightning/CLN a Eclair) a poskytuje vám úplnou kontrolu nad vaším uzlem a kanály. RTL je zdarma a s otevřeným zdrojovým kódem (licence MIT) a je standardně integrován do mnoha hotových řešení uzlů (RaspiBlitz, MyNode, Umbrel atd.).
 
 
 
-**Bez grafického rozhraní Interface lze uzly Lightning spravovat pouze pomocí uživatelsky přívětivých příkazů CLI. RTL tyto operace zjednodušuje pomocí ergonomického Interface. Zde jsou **hlavní aplikace**:
-
-
-
-
-
-- Zobrazení kanálů a uzlů** - Na ovládacím panelu se zobrazuje zůstatek On-Chain, likvidita Lightning (místní/vzdálená), stav synchronizace, alias uzlu a další údaje. Můžete si zobrazit seznam kanálů, kapacitu, místní/vzdálenou distribuci a stav. RTL nabízí kontextové ovládací panely pro analýzu činnosti z různých úhlů pohledu.
+**Bez grafického rozhraní Interface lze uzly Lightning spravovat pouze pomocí uživatelsky přívětivých příkazů CLI. RTL tyto operace zjednodušuje pomocí ergonomického Interface. Zde jsou hlavní aplikace:**
 
 
 
 
 
-- Blesková správa kanálů** - Otevřete/zavřete kanály několika kliknutími. RTL umožňuje připojit se k partnerovi a otevřít kanál bez příkazu. Můžete upravit poplatky za směrování, zobrazit skóre zůstatku nebo iniciovat kruhové vyvážení pro změnu rovnováhy prostředků mezi kanály.
+- **Zobrazení kanálů a uzlů** - Na ovládacím panelu se zobrazuje zůstatek On-Chain, likvidita Lightning (místní/vzdálená), stav synchronizace, alias uzlu a další údaje. Můžete si zobrazit seznam kanálů, kapacitu, místní/vzdálenou distribuci a stav. RTL nabízí kontextové ovládací panely pro analýzu činnosti z různých úhlů pohledu.
 
 
 
 
 
-- Sledování a provádění plateb** - RTL spravuje transakce Lightning: odesílání plateb prostřednictvím faktur, příjem faktur generate, sledování transakcí (platby, směrování) s podrobnou historií. Interface také analyzuje směrování a zjišťuje, které platby procházejí vaším uzlem.
+- **Blesková správa kanálů** - Otevřete/zavřete kanály několika kliknutími. RTL umožňuje připojit se k partnerovi a otevřít kanál bez příkazu. Můžete upravit poplatky za směrování, zobrazit skóre zůstatku nebo iniciovat kruhové vyvážení pro změnu rovnováhy prostředků mezi kanály.
 
 
 
 
 
-- Wallet Správa a zálohování On-Chain** - Karta On-Chain umožňuje zadávat adresy generate a odesílat transakce. RTL usnadňuje ukládání kanálů exportem souboru SCB pro LND s automatickou aktualizací při každé změně kanálu.
+- **Sledování a provádění plateb** - RTL spravuje transakce Lightning: odesílání plateb prostřednictvím faktur, příjem faktur generate, sledování transakcí (platby, směrování) s podrobnou historií. Interface také analyzuje směrování a zjišťuje, které platby procházejí vaším uzlem.
+
+
+
+
+
+- **Wallet Správa a zálohování On-Chain** - Karta On-Chain umožňuje zadávat adresy generate a odesílat transakce. RTL usnadňuje ukládání kanálů exportem souboru SCB pro LND s automatickou aktualizací při každé změně kanálu.
 
 
 
@@ -142,9 +142,9 @@ Tento příkaz nainstaluje potřebné balíčky NPM (ignoruje vývojové závisl
 
 
 
-   - Heslo uživatelského rozhraní**: zvolte bezpečné heslo a zadejte ho do `multiPass` (místo výchozího `"heslo"`).
-   - Port**: výchozí `3000`. Pokud je tento port na vašem počítači již obsazen, můžete jej změnit.
-   - Uzel**: v sekci `uzly[0]` nastavte parametry pro svůj uzel:
+- **Heslo uživatelského rozhraní**: zvolte bezpečné heslo a zadejte ho do `multiPass` (místo výchozího `"heslo"`).
+- **Port**: výchozí `3000`. Pokud je tento port na vašem počítači již obsazen, můžete jej změnit.
+- **Uzel**: v sekci `uzly[0]` nastavte parametry pro svůj uzel:
      - `lnNode`: popisný název uzlu (např. `"LND Node Maison"`).
      - lnImplementation`: `"LND"` (případně `"CLN"`/`"ECL"`).
      - V části `autentizace`:
@@ -270,8 +270,8 @@ Pokud používáte [Umbrel](https://getumbrel.com), je instalace RTL mnohem jedn
 
 
 
-- Ride The Lightning** (pro LND): pro použití s výchozím bleskovým uzlem Umbrel (LND).
-- Ride The Lightning (Core Lightning)**: použijte pouze v případě, že máte nainstalovanou aplikaci *Core Lightning* na Umbrel a chcete tento uzel spravovat pomocí RTL.
+- **Ride The Lightning** (pro LND): pro použití s výchozím bleskovým uzlem Umbrel (LND).
+- **Ride The Lightning (Core Lightning)**: použijte pouze v případě, že máte nainstalovanou aplikaci *Core Lightning* na Umbrel a chcete tento uzel spravovat pomocí RTL.
 
 
 
@@ -639,9 +639,9 @@ Nikdy nevystavujte RTL přímo na internetu. Dávejte přednost :
 
 
 
-- VPN** (např. Tailscale) pro soukromý, šifrovaný přístup
-- Tor** pro bezpečný a anonymní přístup
-- Reverzní proxy server HTTPS** (Nginx/Caddy) pouze pokud víte, jak jej nakonfigurovat
+- **VPN** (např. Tailscale) pro soukromý, šifrovaný přístup
+- **Tor** pro bezpečný a anonymní přístup
+- Reverzní proxy server **HTTPS** (Nginx/Caddy) pouze pokud víte, jak jej nakonfigurovat
 
 
 
@@ -653,11 +653,11 @@ https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7
 
 
 
-- Chraňte svůj přístup**: nikdy nesdílejte heslo admin.macaroon nebo RTL. Omezte oprávnění k citlivým souborům.
-- Pravidelné zálohování**: po každé změně exportujte soubor zálohy kanálu (SCB) a uložte jej mimo uzel.
-- Aktualizace**: udržujte RTL, svůj uzel a Umbrel v aktuálním stavu s nejnovějšími bezpečnostními opravami.
-- Důvěrnost**: před sdílením anonymizujte protokoly a snímky obrazovky. Nikdy nesdílejte své zůstatky nebo seznamy kolegů veřejně.
-- Jediný přístup**: RTL není víceuživatelský. Nesdílejte přístup správce. Pro přístup pouze pro čtení použijte v případě potřeby vyhrazený makropřístup.
+- **Chraňte svůj přístup**: nikdy nesdílejte heslo admin.macaroon nebo RTL. Omezte oprávnění k citlivým souborům.
+- **Pravidelné zálohování**: po každé změně exportujte soubor zálohy kanálu (SCB) a uložte jej mimo uzel.
+- **Aktualizace**: udržujte RTL, svůj uzel a Umbrel v aktuálním stavu s nejnovějšími bezpečnostními opravami.
+- **Důvěrnost**: před sdílením anonymizujte protokoly a snímky obrazovky. Nikdy nesdílejte své zůstatky nebo seznamy kolegů veřejně.
+- **Jediný přístup**: RTL není víceuživatelský. Nesdílejte přístup správce. Pro přístup pouze pro čtení použijte v případě potřeby vyhrazený makropřístup.
 
 
 
@@ -684,10 +684,10 @@ Chcete-li se dozvědět více :
 
 - Oficiální webové stránky RTL: https://www.ridethelightning.info/
 - GitHub RTL: https://github.com/Ride-The-Lightning/RTL
-- Reddit r/lightningnetwork**: [r/lightningnetwork](https://www.reddit.com/r/lightningnetwork) - Technické diskuse, oznámení projektů, zpětná vazba a vzdělávací zdroje
-- Fórum komunity Umbrel**: [community.getumbrel.com](https://community.getumbrel.com) - Oficiální fórum se sekcí věnovanou Bitcoin/Lightning, návody a řešením běžných problémů
-- Lightning Network Vývojáři**: [github.com/lightning](https://github.com/lightning) - Oficiální úložiště GitHub pro sledování vývoje a přispívání zdrojovým kódem
-- Zásobník Exchange Bitcoin** : [Bitcoin.stackexchange.com](https://Bitcoin.stackexchange.com) - Technické otázky a odpovědi pro vývojáře a pokročilé uživatele
+- **Reddit r/lightningnetwork**: [r/lightningnetwork](https://www.reddit.com/r/lightningnetwork) - Technické diskuse, oznámení projektů, zpětná vazba a vzdělávací zdroje
+- **Fórum komunity Umbrel**: [community.getumbrel.com](https://community.getumbrel.com) - Oficiální fórum se sekcí věnovanou Bitcoin/Lightning, návody a řešením běžných problémů
+- **Lightning Network Vývojáři**: [github.com/lightning](https://github.com/lightning) - Oficiální úložiště GitHub pro sledování vývoje a přispívání zdrojovým kódem
+- Zásobník Exchange **Bitcoin**: [Bitcoin.stackexchange.com](https://Bitcoin.stackexchange.com) - Technické otázky a odpovědi pro vývojáře a pokročilé uživatele
 
 
 

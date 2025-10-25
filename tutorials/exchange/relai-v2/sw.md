@@ -24,25 +24,25 @@ Relai anajitokeza kwa urahisi, ufikiaji na kuzingatia uokoaji wa muda mrefu wa B
 
 
 
-- Mahali pa Kuipata:** Programu hii inapatikana kwenye Duka la Programu (iOS) na Google Play Store (Android). Tafuta "Relai" na uipakue bila malipo.
-- Usanidi wa Haraka:** Baada ya kusakinishwa, fungua programu na ufuate mchakato wa usanidi unaoongozwa.
+- **Mahali pa Kuipata:** Programu hii inapatikana kwenye Duka la Programu (iOS) na Google Play Store (Android). Tafuta "Relai" na uipakue bila malipo.
+- **Usanidi wa Haraka:** Baada ya kusakinishwa, fungua programu na ufuate mchakato wa usanidi unaoongozwa.
 
 
 ### Hatua ya 2: Unda Akaunti Yako
 
 
 
-- KYC ya lazima:** Relai sasa inahitaji uthibitishaji wa Mjue Mteja Wako (KYC). Tayarisha hati halali ya kitambulisho na uthibitisho wa Address.
-- Mchakato wa Uthibitishaji:** Pakia hati zako, piga selfie ili uthibitisho wa utambulisho, na usubiri idhini (kwa kawaida ndani ya saa 24).
-- Kwa nini KYC?:** Inahakikisha utiifu wa kanuni za fedha na kuimarisha usalama kwa watumiaji wote.
+- **KYC ya lazima:** Relai sasa inahitaji uthibitishaji wa Mjue Mteja Wako (KYC). Tayarisha hati halali ya kitambulisho na uthibitisho wa Address.
+- **Mchakato wa Uthibitishaji:** Pakia hati zako, piga selfie ili uthibitisho wa utambulisho, na usubiri idhini (kwa kawaida ndani ya saa 24).
+- **Kwa nini KYC?:** Inahakikisha utiifu wa kanuni za fedha na kuimarisha usalama kwa watumiaji wote.
 
 
 ### Hatua ya 3: Linda Wallet Yako
 
 
 
-- Kujitunza:** Relai inatoa Wallet isiyo ya ulinzi, kumaanisha kuwa unadhibiti funguo zako za faragha.
-- Hifadhi Nakala ya Funguo Zako:** Andika kifungu chako cha maneno 12 cha urejeshaji kwenye karatasi (si kidigitali) na uihifadhi kwa usalama. Hii ni muhimu ili kufikia pesa zako ikiwa simu yako itapotea au kuibiwa.
+- **Kujitunza:** Relai inatoa Wallet isiyo ya ulinzi, kumaanisha kuwa unadhibiti funguo zako za faragha.
+- **Hifadhi Nakala ya Funguo Zako:** Andika kifungu chako cha maneno 12 cha urejeshaji kwenye karatasi (si kidigitali) na uihifadhi kwa usalama. Hii ni muhimu ili kufikia pesa zako ikiwa simu yako itapotea au kuibiwa.
 
 
 ---
@@ -58,7 +58,7 @@ Mpango wa akiba wa Bitcoin wa Relai hukuruhusu kuwekeza kiotomatiki mara kwa mar
 
 
 - Amua ni kiasi gani cha Bitcoin unachotaka kukusanya na kwa kipindi gani.
-- Anza kidogo ikiwa wewe ni mpya kwa Bitcoin; unaweza kuongeza michango yako wakati wowote baadaye.
+- Anza kidogo ikiwa wewe ni mgeni kwa Bitcoin; unaweza kuongeza michango yako wakati wowote baadaye.
 
 
 ### Hatua ya 2: Weka Uwekezaji wa Mara kwa Mara
@@ -175,11 +175,11 @@ Relai itaonyesha ada zinazotumika za mtandao.
 
 
 
-- Weka Maneno Yako ya Urejeshi Salama:** Ihifadhi nje ya mtandao na uepuke kuishiriki na mtu yeyote.
-- Washa Usalama wa Programu:** Tumia PIN thabiti au uthibitishaji wa kibayometriki.
-- Diversify Storage:** Fikiria kutumia Hardware Wallet kwa kiasi kikubwa cha Bitcoin.
-- Sasisha Programu Mara kwa Mara:** Lindwa kwa kutumia vipengele na vipengele vipya zaidi vya usalama.
-- Epuka Wi-Fi ya Umma:** Fikia Wallet yako kwenye mitandao salama pekee.
+- **Weka Maneno Yako ya Urejeshi Salama:** Ihifadhi nje ya mtandao na uepuke kuishiriki na mtu yeyote.
+- **Washa Usalama wa Programu:** Tumia PIN thabiti au uthibitishaji wa kibayometriki.
+- **Diversify Storage:** Fikiria kutumia Hardware Wallet kwa kiasi kikubwa cha Bitcoin.
+- **Sasisha Programu Mara kwa Mara:** Lindwa kwa kutumia vipengele na vipengele vipya zaidi vya usalama.
+- **Epuka Wi-Fi ya Umma:** Fikia Wallet yako kwenye mitandao salama pekee.
 
 
 ---
@@ -191,10 +191,10 @@ Relai pia inasaidia biashara zinazotaka kuwekeza katika Bitcoin. Vipengele ni pa
 
 
 
-- Mipango Maalum ya Akiba:** Mipango iliyoundwa kulingana na mahitaji ya biashara.
-- Ufikiaji wa Watumiaji Wengi:** Washa washiriki wengi wa timu ili kudhibiti akaunti kwa usalama.
-- Vikomo Vilivyoimarishwa:** Wekeza kiasi kikubwa ikilinganishwa na akaunti za kibinafsi.
-- Usaidizi wa Kujitolea:** Fikia huduma ya wateja iliyopewa kipaumbele kwa biashara.
+- **Mipango Maalum ya Akiba:** Mipango iliyoundwa kulingana na mahitaji ya biashara.
+- **Ufikiaji wa Watumiaji Wengi:** Washa washiriki wengi wa timu ili kudhibiti akaunti kwa usalama.
+- **Vikomo Vilivyoimarishwa:** Wekeza kiasi kikubwa ikilinganishwa na akaunti za kibinafsi.
+- **Usaidizi wa Kujitolea:** Fikia huduma ya wateja iliyopewa kipaumbele kwa biashara.
 
 
 Ili kufungua akaunti ya biashara, wasiliana na timu ya usaidizi ya Relai kupitia tovuti yao.
@@ -209,9 +209,9 @@ Relai inatoa mpango wa kuvutia wa rufaa ambapo unaweza kujishindia Bitcoin kwa k
 
 
 
-- Shiriki Msimbo Wako wa Rufaa:** Kila mtumiaji wa Relai anapata msimbo wa kipekee wa rufaa. Shiriki na marafiki zako.
-- Pata 10% ya Ada:** Utapokea 10% ya ada kutokana na miamala ya marafiki wako wanapotumia nambari yako ya kuthibitisha.
-- Mapato Asili ya Bitcoin:** Marafiki zako wanapoendelea kufanya biashara kwenye Relai, utaendelea kupata Bitcoin. Ni ushindi wa ushindi kwako na kwa marafiki zako.
+- **Shiriki Msimbo Wako wa Rufaa:** Kila mtumiaji wa Relai anapata msimbo wa kipekee wa rufaa. Shiriki na rafiki zako.
+- **Pata 10% ya Ada:** Utapokea 10% ya ada kutokana na miamala ya marafiki wako wanapotumia nambari yako ya kuthibitisha.
+- **Mapato Asili ya Bitcoin:** Marafiki zako wanapoendelea kufanya biashara kwenye Relai, utaendelea kupata Bitcoin. Ni ushindi wa ushindi kwako na kwa rafiki zako.
 
 
 Anza kushiriki msimbo wako leo na ukuze rafu yako ya Bitcoin bila kujitahidi!
@@ -227,7 +227,7 @@ Anza kushiriki msimbo wako leo na ukuze rafu yako ya Bitcoin bila kujitahidi!
 
 
 - Relai inatoza ada ya ushindani ya 1% kwa kila ununuzi, au 0.9% ukitumia msimbo wa rufaa kama `REL361712`. Ada huonyeshwa kwa uwazi kabla ya kuthibitisha ununuzi.
-- Ada Sifuri:** Miamala ya hadi €100 au CHF 100 hailipiwi kabisa.
+- **Ada Sifuri:** Miamala ya hadi €100 au CHF 100 hailipiwi kabisa.
 
 
 ### Je, Ninaweza Kusitisha Mpango Wangu wa Akiba?

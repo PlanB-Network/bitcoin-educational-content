@@ -10,7 +10,7 @@ ___
 
 
 
-*Denne opplæringen er basert på originalt innhold av Florian BURNEL publisert på [IT-Connect](https://www.it-connect.fr/). Lisens [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Det er gjort endringer i det opprinnelige innholdet
+*Denne opplæringen er basert på originalt innhold av Florian BURNEL publisert på [IT-Connect](https://www.it-connect.fr/). Lisens [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Det er gjort endringer i det opprinnelige innholdet.*
 
 
 
@@ -52,7 +52,7 @@ PicoCrypt er helt **gratis og med åpen kildekode**, og er tilgjengelig for **Wi
 
 
 
-Picocrypt** krypteringsprogramvare presenterer seg selv som **et alternativ** til andre velkjente løsninger som **VeraCrypt** og **Cryptomator** (*designet for å kryptere data i skymiljøer*), eller **AxCrypt**. På Picocrypts offisielle GitHub kan du forresten finne en sammenligning med noen konkurrenter:
+**Picocrypt** krypteringsprogramvare presenterer seg selv som **et alternativ** til andre velkjente løsninger som **VeraCrypt** og **Cryptomator** (*designet for å kryptere data i skymiljøer*), eller **AxCrypt**. På Picocrypts offisielle GitHub kan du forresten finne en sammenligning med noen konkurrenter:
 
 
 
@@ -84,7 +84,7 @@ Picocrypt er **veldig lett**, veier bare **3 MB**, og trenger ikke installeres: 
 
 
 
-- XChaCha20**-krypteringsalgoritme
+- **XChaCha20**-krypteringsalgoritme
 - Nøkkelforbikoblingsfunksjon **Argon2**
 
 
@@ -159,11 +159,11 @@ Før vi snakker om dekryptering av data, får du her litt informasjon om noen av
 
 
 
-- Paranoid modus**: Bruk det høyeste sikkerhetsnivået som Picocrypt tilbyr. Verktøyet bruker flere kaskadekrypteringsalgoritmer (XChaCha20 og Serpent) og HMAC-SHA3 i stedet for BLAKE2b for dataautentisering.
-- Reed-Solomon**: implementerer *Reed-Solomon*-feilkorrigeringskoder for å gjøre det lettere å korrigere feil i korrupte data. Dette gjør at du kan støtte et korrupsjonsnivå på rundt 3 % av filen din.
-- Del opp i biter** eller **del opp i flere deler**: Hvis du krypterer en stor fil, kan du be Picocrypt om å dele den opp i flere deler. Dette kan gjøre filen enklere å overføre.
-- Komprimere filer** eller **Komprimere filer**: Komprimere filer for å redusere størrelsen på krypterte filer.
-- Slettede filer** eller **Fichiers supprimés**: slett kildefiler for å beholde kun den krypterte versjonen
+- **Paranoid modus**: Bruk det høyeste sikkerhetsnivået som Picocrypt tilbyr. Verktøyet bruker flere kaskadekrypteringsalgoritmer (XChaCha20 og Serpent) og HMAC-SHA3 i stedet for BLAKE2b for dataautentisering.
+- **Reed-Solomon**: implementerer *Reed-Solomon*-feilkorrigeringskoder for å gjøre det lettere å korrigere feil i korrupte data. Dette gjør at du kan støtte et korrupsjonsnivå på rundt 3 % av filen din.
+- **Del opp i biter** eller **del opp i flere deler**: Hvis du krypterer en stor fil, kan du be Picocrypt om å dele den opp i flere deler. Dette kan gjøre filen enklere å overføre.
+- **Komprimere filer** eller **Komprimere filer**: Komprimere filer for å redusere størrelsen på krypterte filer.
+- **Slettede filer** eller **Fichiers supprimés**: slett kildefiler for å beholde kun den krypterte versjonen
 
 
 

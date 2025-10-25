@@ -1,5 +1,5 @@
 ---
-name: Paraplu
+name: Umbrel
 description: Umbrel ontdekken en installeren - Uw Bitcoin knooppunt en thuisserver
 ---
 
@@ -23,10 +23,10 @@ Een Bitcoin knooppunt is een computer die deelneemt aan het Bitcoin netwerk door
 
 
 
-- Blockchain opslag**: Behoudt een volledige, actuele kopie van de Blockchain Bitcoin
-- Transactieverificatie**: valideert elke transactie en elk blok volgens de protocolregels
-- Informatieverspreiding**: Deelt nieuwe transacties en blokken met andere nodes
-- Consensusvorming**: Draagt bij aan de toepassing van netwerkregels
+- **Blockchain opslag**: Behoudt een volledige, actuele kopie van de Blockchain Bitcoin
+- **Transactieverificatie**: valideert elke transactie en elk blok volgens de protocolregels
+- **Informatieverspreiding**: Deelt nieuwe transacties en blokken met andere nodes
+- **Consensusvorming**: Draagt bij aan de toepassing van netwerkregels
 
 
 
@@ -36,11 +36,11 @@ Het runnen van je eigen Bitcoin node is een cruciale stap op weg naar financiël
 
 
 
-- Vertrouwelijkheid**: Deel uw transacties zonder uw informatie aan derden te onthullen
-- Weerstand tegen censuur**: Niemand kan je tegenhouden om Bitcoin te gebruiken
-- Onafhankelijke verificatie**: Je hoeft niet te vertrouwen op andermans nodes om je transacties te verifiëren
-- Consensusvorming**: Bijdragen aan de toepassing van Bitcoin netwerkregels
-- Netwerkondersteuning**: Actief deelnemen aan netwerkdistributie en decentralisatie
+- **Vertrouwelijkheid**: Deel uw transacties zonder uw informatie aan derden te onthullen
+- **Weerstand tegen censuur**: Niemand kan je tegenhouden om Bitcoin te gebruiken
+- **Onafhankelijke verificatie**: Je hoeft niet te vertrouwen op andermans nodes om je transacties te verifiëren
+- **Consensusvorming**: Bijdragen aan de toepassing van Bitcoin netwerkregels
+- **Netwerkondersteuning**: Actief deelnemen aan netwerkdistributie en decentralisatie
 
 
 
@@ -146,7 +146,7 @@ UmbrelOS is de gratis, open source versie van het Umbrel besturingssysteem. Met 
 
 
 
-**Beperkingen
+**Beperkingen**
 
 
 
@@ -270,7 +270,7 @@ Voor deze installatie heb je nodig :
 
 
 
-**Installatie microSD-kaart
+**Installatie microSD-kaart**
 
 
 
@@ -297,7 +297,7 @@ Voor deze installatie heb je nodig :
 
 
 
-**Aanzetten
+**Aanzetten**
 
 
 
@@ -367,7 +367,7 @@ Zodra je Umbrel is opgestart en toegankelijk is via je browser, volg je deze sta
 
 
 
-**Accountbevestiging
+**Accountbevestiging**
 
 
 
@@ -583,7 +583,7 @@ Met deze applicatie kunt u uw transacties efficiënt controleren, begrijpen hoe 
 
 
 
-**Lokale verbinding
+**Lokale verbinding**
 
 
 
@@ -615,7 +615,7 @@ Met deze applicatie kunt u uw transacties efficiënt controleren, begrijpen hoe 
 
 
 
-**Toegang tot parameters
+**Toegang tot parameters**
 
 
 
@@ -630,7 +630,7 @@ Met deze applicatie kunt u uw transacties efficiënt controleren, begrijpen hoe 
 
 
 
-**Kies type verbinding
+**Kies type verbinding**
 
 
 
@@ -680,7 +680,7 @@ Laat in beide gevallen de opties "SSL gebruiken" en "Proxy gebruiken" uitgevinkt
 
 
 
-**Lokale verbinding
+**Lokale verbinding**
 
 
 Host: umbrel.local

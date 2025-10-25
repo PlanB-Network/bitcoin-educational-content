@@ -1,0 +1,9 @@
+question: Kuna tofauti gani ya kiuchumi kati ya nodi na Miner?
+answer: Miner inapokea tuzo, node haina faida ya moja kwa moja
+wrong_answers:
+  - Node inapokea ada, Miner inapokea ruzuku ya kuzuia
+  - Node inapokea tuzo, Miner haina faida ya moja kwa moja
+  - Wote wawili hupokea tuzo sawa
+explanation: |
+  Wachimbaji hupokea tuzo (ruzuku na ada), ambapo nodi haileti faida ya moja kwa moja ya kifedha kwa mtumiaji wake.
+reviewed: true

@@ -1,0 +1,9 @@
+question: What is the main risk posed by the accumulation of dust in your mini-PC?
+answer: Processor throttling
+wrong_answers:
+  - Blockchain block deletion
+  - Disk corruption
+  - Reduced RAM capacity
+explanation: |
+  Dust blocks ventilation, causes overheating, and leads to throttling, reducing processor efficiency.
+reviewed: true

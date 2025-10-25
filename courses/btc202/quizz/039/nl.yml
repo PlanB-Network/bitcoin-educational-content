@@ -1,0 +1,9 @@
+question: Wat is de aanbevolen minimale SSD-capaciteit in 2025 voor een Bitcoin node?
+answer: 2 Aan
+wrong_answers:
+  - 512 GB
+  - 10 Om
+  - 256 GB
+explanation: |
+  Met een Blockchain van meer dan 700 GB en extra toepassingen is 2 TB het redelijke minimum geworden.
+reviewed: true

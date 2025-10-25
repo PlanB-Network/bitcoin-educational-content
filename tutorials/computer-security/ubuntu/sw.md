@@ -16,13 +16,13 @@ Mfumo wa uendeshaji (OS) ni programu kuu inayosimamia rasilimali zote za kompyut
 
 
 
-- Usalama ulioimarishwa**: Usambazaji wa Linux unajulikana kwa usalama na uimara wao
-- Gharama sifuri**: Ubuntu na usambazaji mwingi wa Linux ni bila malipo
-- Jumuiya kubwa**: Jumuiya ya watumiaji walio tayari kusaidia kupitia vikao na mafunzo
-- Kuheshimu faragha**: Mfumo wa chanzo wazi kwa uwazi zaidi
-- Urahisi**: Interface ifaayo kwa mtumiaji na urahisi wa kutumia
-- Mfumo tajiri wa ikolojia**: Katalogi pana ya programu huria
-- Usaidizi wa mara kwa mara**: Linda masasisho kutoka kwa Canonical
+- **Usalama ulioimarishwa**: Usambazaji wa Linux unajulikana kwa usalama na uimara wao
+- **Gharama sifuri**: Ubuntu na usambazaji mwingi wa Linux ni bila malipo
+- **Jumuiya kubwa**: Jumuiya ya watumiaji walio tayari kusaidia kupitia vikao na mafunzo
+- **Kuheshimu faragha**: Mfumo wa chanzo wazi kwa uwazi zaidi
+- **Urahisi**: Interface ifaayo kwa mtumiaji na urahisi wa kutumia
+- **Mfumo tajiri wa ikolojia**: Katalogi pana ya programu huria
+- **Usaidizi wa mara kwa mara**: Linda masasisho kutoka kwa Canonical
 
 
 ## Ufungaji na usanidi
@@ -110,7 +110,7 @@ Unapoanzisha kutoka kwa ufunguo wa USB, utaona skrini hii, ambayo inakuwezesha k
 ![Écran de démarrage Ubuntu](assets/fr/06.webp)
 
 
-**Chaguo la lugha
+**Chaguo la lugha**
 
 
 Chagua lugha unayopendelea kwa usakinishaji na mfumo.
@@ -119,7 +119,7 @@ Chagua lugha unayopendelea kwa usakinishaji na mfumo.
 ![Sélection de la langue](assets/fr/07.webp)
 
 
-**Chaguo za ufikivu
+**Chaguo za ufikivu**
 
 
 Sanidi chaguo za ufikivu ikihitajika (kisoma skrini, utofautishaji wa juu, n.k.).
@@ -128,7 +128,7 @@ Sanidi chaguo za ufikivu ikihitajika (kisoma skrini, utofautishaji wa juu, n.k.)
 ![Options d'accessibilité](assets/fr/08.webp)
 
 
-**Mipangilio ya kibodi
+**Mipangilio ya kibodi**
 
 
 Chagua mpangilio wa kibodi yako. Sehemu ya majaribio inapatikana ili kuangalia kama funguo zinalingana na usanidi wako.
@@ -146,7 +146,7 @@ Unganisha kwenye Wi-Fi yako au mtandao wa waya ili kupakua masasisho wakati wa u
 ![Configuration réseau](assets/fr/10.webp)
 
 
-**Aina ya ufungaji
+**Aina ya ufungaji**
 
 
 Chagua kati ya "Jaribu Ubuntu" (kujaribu bila kusakinisha) au "Sakinisha Ubuntu".
@@ -155,7 +155,7 @@ Chagua kati ya "Jaribu Ubuntu" (kujaribu bila kusakinisha) au "Sakinisha Ubuntu"
 ![Choix du type d'installation](assets/fr/11.webp)
 
 
-**Njia ya usakinishaji
+**Njia ya usakinishaji**
 
 
 Chagua usakinishaji unaoingiliana.
@@ -164,7 +164,7 @@ Chagua usakinishaji unaoingiliana.
 ![Mode d'installation](assets/fr/12.webp)
 
 
-**Uteuzi wa maombi
+**Uteuzi wa maombi**
 
 
 Chagua kati ya usakinishaji chaguo-msingi au uteuzi uliopanuliwa wa programu.
@@ -173,7 +173,7 @@ Chagua kati ya usakinishaji chaguo-msingi au uteuzi uliopanuliwa wa programu.
 ![Sélection des applications](assets/fr/13.webp)
 
 
-**Programu za wahusika wengine
+**Programu za wahusika wengine**
 
 
 Amua ikiwa utasakinisha au kutosakinisha viendeshi vya ziada na programu inayomilikiwa.
@@ -182,7 +182,7 @@ Amua ikiwa utasakinisha au kutosakinisha viendeshi vya ziada na programu inayomi
 ![Installation applications tierces](assets/fr/14.webp)
 
 
-**Aina ya kugawa
+**Aina ya kugawa**
 
 
 Una chaguzi kuu mbili:
@@ -197,7 +197,7 @@ Una chaguzi kuu mbili:
 ![Choix du partitionnement](assets/fr/15.webp)
 
 
-**Uundaji wa akaunti ya mtumiaji
+**Uundaji wa akaunti ya mtumiaji**
 
 
 Weka jina lako la mtumiaji na nenosiri kwa akaunti yako ya Ubuntu.
@@ -206,7 +206,7 @@ Weka jina lako la mtumiaji na nenosiri kwa akaunti yako ya Ubuntu.
 ![Création du compte](assets/fr/16.webp)
 
 
-**Saa za eneo
+**Saa za eneo**
 
 
 Chagua eneo lako la kijiografia ili kuweka wakati wa mfumo.
@@ -240,7 +240,7 @@ Kusasisha mfumo wako ni hatua muhimu baada ya usakinishaji mpya. Una chaguzi mbi
 - Fuata maagizo kwenye skrini ili kusakinisha masasisho
 
 
-**Chaguo la 2: Kupitia Kituo
+**Chaguo la 2: Kupitia Kituo**
 
 
 
@@ -273,7 +273,7 @@ sudo apt upgrade
 ### 5. Kugundua kazi za msingi
 
 
-**5.1 Kuvinjari Mtandao
+**5.1 Kuvinjari Mtandao**
 
 
 Kwa chaguo-msingi, mara nyingi utapata Firefox kwenye upau wa uzinduzi.
@@ -285,7 +285,7 @@ Zindua Firefox na uanze kuvinjari.
 Vivinjari vingine (Chrome, Jasiri, n.k.) vinaweza kusakinishwa kupitia Kidhibiti Programu au kupitia vifurushi vya .deb.
 
 
-**5.2 Usindikaji wa maneno
+**5.2 Usindikaji wa maneno**
 
 
 Ubuntu inakuja na Suite ya LibreOffice (Mwandishi wa usindikaji wa maneno).
@@ -297,7 +297,7 @@ Ili kuifungua: Shughuli > Tafuta "Mwandishi wa LibreOffice" au bonyeza kwenye ik
 Unaweza kuunda, kuhariri na kuhifadhi hati katika miundo mbalimbali (ikiwa ni pamoja na .docx).
 
 
-**5.3 Kusakinisha programu
+**5.3 Kusakinisha programu**
 
 
 Kidhibiti programu (kinachoitwa "Ubuntu Software"): Interface ya picha ya kutafuta na kusakinisha programu.

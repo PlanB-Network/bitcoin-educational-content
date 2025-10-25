@@ -2,7 +2,7 @@
 name: Blixt Wallet
 description: Cep telefonunuzda güçlü bir LN düğümünü kullanmaya nasıl başlayabilirsiniz?
 ---
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 
 Bu kılavuz, Bitcoin Lightning Network (LN)'ü ÜCRETSİZ AÇIK KAYNAK, TAM MÜŞTEREK OLMAYAN bir şekilde kullanmaya başlamak isteyen tüm yeni kullanıcılara adanmıştır.

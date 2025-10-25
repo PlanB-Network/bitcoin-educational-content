@@ -1,5 +1,5 @@
 ---
-name: Mündikaardid
+name: Coincards
 description: Kuidas saab Coincardsiga BTC-s kaupu ja teenuseid osta?
 ---
 ![cover](assets/cover.webp)

@@ -1,9 +1,11 @@
 ---
-name: LAPP Bitcoin
-description: Handleiding voor het ontwikkelen van je eerste LApp
+name: Lightning App
+description: Handleiding om je eerste Lightning-app (LAPP) te ontwikkelen
 ---
 
-Leer je eerste lightning-app coderen
+![cover](assets/cover.webp)
+
+## Leer je eerste lightning-app te coderen
 
 
 Vereisten:
@@ -27,6 +29,8 @@ Om onze Lightning-app te bouwen, gebruiken we de volgende technologieën:
 - Express voor onze webserver
 - Pug templates + bootstrap voor onze frontend
 
+
+https://planb.network/courses/bbf08a64-84ca-11f0-9d7a-c3c481a45799
 
 ## Besturingssysteem
 

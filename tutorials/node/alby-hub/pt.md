@@ -20,7 +20,7 @@ O Alby Hub é uma ferramenta altamente adaptável. Pode satisfazer as necessidad
 Em função das suas necessidades, o Alby Hub está disponível em 4 configurações:
 
 
-- Alby Hub Cloud :**
+- **Alby Hub Cloud:**
 
 Ideal para iniciantes, esta primeira opção é a opção em nuvem da Alby. Ela permite implantar um Hub diretamente em um servidor gerido pela Alby, acessível através da sua interface Alby Hub. Embora a Alby gerencie o servidor, você mantém a soberania sobre seus fundos, pois suas chaves são criptografadas com uma senha conhecida apenas por você. No entanto, suas chaves devem permanecer descriptografadas na RAM para que o nó funcione, o que teoricamente as expõe a riscos se alguém acessar fisicamente o servidor. É um compromisso interessante para iniciantes, mas é importante estar ciente dos riscos.
 
@@ -29,7 +29,7 @@ A principal vantagem dessa opção é que você obtém um nó do Lightning em fu
 Alby Cloud é um serviço pago [Verifique os preços](https://albyhub.com/#pricing) para mais detalhes. A taxa é deduzida automaticamente da sua carteira por meio de uma fatura Lightning emitida pela Alby. Isso é feito através de uma conexão NWC que configura seu nó para pagar automaticamente as faturas da Alby relacionadas à sua assinatura.
 
 
-- Alby Hub com um nó existente :**
+- Alby Hub com um nó existente:
 
 Se já tiver um nó alojado, por exemplo, na Umbrel ou na Start9, o Alby Hub pode ser utilizado como interface de gestão avançada, tal como o ThunderHub ou o RTL.
 
@@ -299,7 +299,7 @@ Regresse à aplicação Alby Go, leia o código QR ou cole o segredo.
 
 ![ALBY HUB](assets/fr/50.webp)
 
-Clique em "Concluir*".
+Clique em "Concluir".
 
 ![ALBY HUB](assets/fr/51.webp)
 

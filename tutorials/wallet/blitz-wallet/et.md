@@ -93,19 +93,19 @@ Blitz Wallet üks eripära on see, et see toetab erinevaid võrke ja kanaleid v�
 
 
 
-- Lightning Network** : Üks Bitcoin kattekihid, mis võimaldab teil teha mikrotehinguid koheselt.
+- **Lightning Network**: Üks Bitcoin kattekihid, mis võimaldab teil teha mikrotehinguid koheselt.
 
 
 
 
 
-- Bitcoin Mainnet** : Bitcoin protokolli põhikett, mis sobib suure väärtusega tehingute tegemiseks.
+- **Bitcoin Mainnet**: Bitcoin protokolli põhikett, mis sobib suure väärtusega tehingute tegemiseks.
 
 
 
 
 
-- Liquid Network**: Bitcoin Mainnet paralleelne ahel, mille on välja töötanud BlockStream ja mis kasutab Liquid Bitcoine, et teostada kiireid, Confidential Transactions.
+- **Liquid Network**: Bitcoin Mainnet paralleelne ahel, mille on välja töötanud BlockStream ja mis kasutab Liquid Bitcoine, et teostada kiireid, Confidential Transactions.
 
 
 
@@ -169,7 +169,7 @@ Lisaks Bitcoin ülekandetehingutele pakub Blitz Wallet teile kauplust, kus saate
 
 
 
-- Juurdepääs tehisintellekti teenustele**: Kasutage genereerivaid tehisintellekti mudeleid, näiteks: Gpt-4o, gpt-4o-mini gemini-flash-1.5 ja maksa otse bitcoin'idega.
+- **Juurdepääs tehisintellekti teenustele**: Kasutage genereerivaid tehisintellekti mudeleid, näiteks: Gpt-4o, gpt-4o-mini gemini-flash-1.5 ja maksa otse bitcoin'idega.
 
 
 
@@ -179,7 +179,7 @@ Lisaks Bitcoin ülekandetehingutele pakub Blitz Wallet teile kauplust, kus saate
 
 
 
-- Saada tekstisõnumeid kõikjal maailmas**: Blitz poes on teil juurdepääs GSM-teenusele, mis võimaldab teil saata tekstisõnumeid anonüümselt kõikjal maailmas, kusjuures arveldus toimub otse Bitcoin-s.
+- **Saada tekstisõnumeid kõikjal maailmas**: Blitz poes on teil juurdepääs GSM-teenusele, mis võimaldab teil saata tekstisõnumeid anonüümselt kõikjal maailmas, kusjuures arveldus toimub otse Bitcoin-s.
 
 
 
@@ -189,7 +189,7 @@ Lisaks Bitcoin ülekandetehingutele pakub Blitz Wallet teile kauplust, kus saate
 
 
 
-- Surfage täiesti konfidentsiaalselt**: Maksa WireGuard VPN (Virtual Private Network) tellimuse eest Wallet Blitz poes oma bitcoin'idega.
+- Surfage täiesti konfidentsiaalselt: Maksa WireGuard VPN (Virtual Private Network) tellimuse eest **Wallet Blitz** poes oma bitcoin'idega.
 
 
 
@@ -249,7 +249,7 @@ Lightning-režiimi aktiveerimisel saate pärast põhitingimuse täitmist (saldo 
 
 
 
-- Võtke Bitcoin oma kaupluses vastu** :
+- **Võtke Bitcoin oma kaupluses vastu**:
 
 
 
@@ -270,4 +270,3 @@ Kui see õpetus aitas teil Blitziga hakkama saada, siis oleme kindlad, et teile 
 
 
 https://planb.network/tutorials/wallet/mobile/muun-111b56b0-4872-4130-ad2e-e58f8363451d
-

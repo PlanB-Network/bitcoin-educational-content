@@ -1,0 +1,9 @@
+question: URL에 IPv6 Address을 삽입할 때 어떤 표기법을 사용하나요?
+answer: IPv6 Address은 대괄호로 묶여 있습니다
+wrong_answers:
+  - IPv6 Address는 괄호로 묶여 있습니다
+  - IPv6 Address은 따옴표로 묶여 있습니다
+  - IPv6 Address는 원시로 작성됩니다
+explanation: |
+  대괄호는 모호함을 피하기 위해 URL의 포트와 IPv6 Address를 구분하는 데 사용됩니다.
+reviewed: false

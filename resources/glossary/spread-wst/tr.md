@@ -14,4 +14,4 @@ Muhtemel yayılma, parçanızın muhtemel anonsu ile Tx0'ınızdan sonra oluştu
 Bu iki gösterge, havuzun sunduğu potansiyele göre parçanızın karışımının etkinliğini değerlendirmek için kullanılır. 5 gibi düşük bir olası fark, ilave karışımlar yoluyla olası iyileştirme için önemli bir marj olduğunu gösterir. Buna karşılık, %97 gibi yüksek bir olası yayılma, ek birleştirme ile çok az ek anonset elde edilebileceği anlamına gelir.
 
 
-> ► *İngilizcede "spread" kelimesi "yayılma oranı" veya "yayılma hızı" olarak çevrilebilir
+> ► *İngilizcede "spread" kelimesi "yayılma oranı" veya "yayılma hızı" olarak çevrilebilir*

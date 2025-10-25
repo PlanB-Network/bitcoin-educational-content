@@ -1,0 +1,9 @@
+question: Bitcoin는 주로 어떤 특징이 알트코인과 다른가요?
+answer: 탈중앙화
+wrong_answers:
+  - 유동성
+  - 평판
+  - 개인 정보 보호
+explanation: |
+  Bitcoin은 다소 중앙화된 대부분의 알트코인과 달리 탈중앙화로 유명합니다.
+reviewed: false

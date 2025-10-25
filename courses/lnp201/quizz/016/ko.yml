@@ -1,0 +1,9 @@
+question: Commitment Transaction은 언제 Bitcoin Blockchain에 게시되나요?
+answer: 결국 채널이 닫히면
+wrong_answers:
+  - 채널에서 각 전송 직후
+  - 새로운 Commitment Transaction
+  - 사용 가능한 자금이 모두 소진된 경우
+explanation: |
+  Commitment 트랜잭션은 할당이 변경될 때마다 생성되고 서명되지만, 최종적으로 채널이 닫힐 때만 Blockchain에 게시됩니다.
+reviewed: true

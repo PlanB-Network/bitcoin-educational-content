@@ -1,5 +1,5 @@
 ---
-name: Guarda-chuva
+name: Umbrel
 description: Descubra e instale o Umbrel - Seu nó Bitcoin e servidor doméstico
 ---
 
@@ -21,10 +21,10 @@ Um nó Bitcoin é um computador que participa na rede Bitcoin, executando o soft
 
 
 
-- Armazenamento do Blockchain**: Mantém uma cópia completa e actualizada do Blockchain Bitcoin
-- Verificação da transação**: valida cada transação e bloco de acordo com as regras do protocolo
-- Divulgação de informações**: Partilha novas transacções e blocos com outros nós
-- Criação de consensos**: Contribui para a aplicação das regras da rede
+- **Armazenamento do Blockchain**: Mantém uma cópia completa e actualizada do Blockchain Bitcoin
+- **Verificação da transação**: valida cada transação e bloco de acordo com as regras do protocolo
+- **Divulgação de informações**: Partilha novas transacções e blocos com outros nós
+- **Criação de consensos**: Contribui para a aplicação das regras da rede
 
 
 
@@ -34,11 +34,11 @@ Gerir o seu próprio nó Bitcoin é um passo crucial para a soberania financeira
 
 
 
-- Confidencialidade**: Partilhe as suas transacções sem revelar as suas informações a terceiros
-- Resistência à censura**: Ninguém o pode impedir de utilizar o Bitcoin
-- Verificação independente**: Não é necessário confiar nos nós de outras pessoas para verificar as suas transacções
-- Criação de consenso**: Contribuir para a aplicação das regras da rede Bitcoin
-- Apoio à rede**: Tornar-se um participante ativo na distribuição e descentralização da rede
+- **Confidencialidade**: Partilhe as suas transacções sem revelar as suas informações a terceiros
+- **Resistência à censura**: Ninguém o pode impedir de utilizar o Bitcoin
+- **Verificação independente**: Não é necessário confiar nos nós de outras pessoas para verificar as suas transacções
+- **Criação de consenso**: Contribuir para a aplicação das regras da rede Bitcoin
+- **Apoio à rede**: Tornar-se um participante ativo na distribuição e descentralização da rede
 
 
 
@@ -95,7 +95,7 @@ O Umbrel Home é um servidor doméstico pré-configurado, especialmente concebid
 
 
 
-**Vantagens exclusivas
+**Vantagens exclusivas**
 
 
 
@@ -121,7 +121,7 @@ O UmbrelOS é a versão gratuita e de código aberto do sistema operativo Umbrel
 
 
 
-**Benefícios
+**Benefícios**
 
 
 
@@ -144,7 +144,7 @@ O UmbrelOS é a versão gratuita e de código aberto do sistema operativo Umbrel
 
 
 
-**Limitações
+**Limitações**
 
 
 
@@ -211,7 +211,7 @@ Para esta instalação, é necessário :
 
 
 
-**Descarregar o UmbrelOS
+**Descarregar o UmbrelOS**
 
 
 
@@ -225,7 +225,7 @@ Para esta instalação, é necessário :
 
 
 
-**Instalação de Balena Etcher
+**Instalação de Balena Etcher**
 
 
 
@@ -238,7 +238,7 @@ Para esta instalação, é necessário :
 
 
 
-**Preparar o cartão microSD
+**Preparar o cartão microSD**
 
 
 
@@ -251,7 +251,7 @@ Para esta instalação, é necessário :
 
 
 
-**Imagem a piscar
+**Imagem a piscar**
 
 
 
@@ -268,7 +268,7 @@ Para esta instalação, é necessário :
 
 
 
-**Instalação do cartão microSD
+**Instalação do cartão microSD**
 
 
 
@@ -281,7 +281,7 @@ Para esta instalação, é necessário :
 
 
 
-**Ligação periférica
+**Ligação periférica**
 
 
 
@@ -295,7 +295,7 @@ Para esta instalação, é necessário :
 
 
 
-**Ligar
+**Ligar**
 
 
 
@@ -309,7 +309,7 @@ Para esta instalação, é necessário :
 
 
 
-**Primeiro acesso
+**Primeiro acesso**
 
 
 
@@ -350,7 +350,7 @@ Quando o Umbrel estiver iniciado e acessível através do seu browser, siga este
 
 
 
-**Criar a sua conta
+**Criar a sua conta**
 
 
 
@@ -365,7 +365,7 @@ Quando o Umbrel estiver iniciado e acessível através do seu browser, siga este
 
 
 
-**Confirmação da conta
+**Confirmação da conta**
 
 
 
@@ -378,7 +378,7 @@ Quando o Umbrel estiver iniciado e acessível através do seu browser, siga este
 
 
 
-**Descoberta do Interface
+**Descoberta do Interface**
 
 
 
@@ -397,7 +397,7 @@ Quando o Umbrel estiver iniciado e acessível através do seu browser, siga este
 
 
 
-**Nó Bitcoin
+**Nó Bitcoin**
 
 
 
@@ -411,7 +411,7 @@ Quando o Umbrel estiver iniciado e acessível através do seu browser, siga este
 
 
 
-**Eleitores
+**Eleitores**
 
 
 
@@ -581,7 +581,7 @@ Com esta aplicação, pode monitorizar eficazmente as suas transacções, compre
 
 
 
-**Ligação local
+**Ligação local**
 
 
 
@@ -595,7 +595,7 @@ Com esta aplicação, pode monitorizar eficazmente as suas transacções, compre
 
 
 
-**Ligação remota via Tor
+**Ligação remota via Tor**
 
 
 
@@ -613,7 +613,7 @@ Com esta aplicação, pode monitorizar eficazmente as suas transacções, compre
 
 
 
-**Acesso aos parâmetros
+**Acesso aos parâmetros**
 
 
 
@@ -628,7 +628,7 @@ Com esta aplicação, pode monitorizar eficazmente as suas transacções, compre
 
 
 
-**Escolha do tipo de ligação
+**Escolha do tipo de ligação**
 
 
 
@@ -666,7 +666,7 @@ O Sparrow oferece três modos de ligação:
 
 
 
-**Configuração dos eleitores
+**Configuração dos eleitores**
 
 
 
@@ -678,7 +678,7 @@ Em ambos os casos, deixe as opções "Utilizar SSL" e "Utilizar proxy" desmarcad
 
 
 
-**Ligação local
+**Ligação local**
 
 
 Anfitrião: umbrel.local

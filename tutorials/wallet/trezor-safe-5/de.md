@@ -279,7 +279,7 @@ Safe 5 erstellt Ihren Mnemonic-Satz mithilfe seines Zufallszahlengenerators. Ste
 
 
 
-***Natürlich dürfen Sie diese Wörter niemals im Internet weitergeben, wie ich es in diesem Tutorial tue. Dieses Beispiel Wallet wird nur auf dem Testnet verwendet und wird am Ende des Tutorials gelöscht werden
+**Natürlich dürfen Sie diese Wörter niemals im Internet weitergeben, wie ich es in diesem Tutorial tue. Dieses Beispiel Wallet wird nur auf dem Testnet verwendet und wird am Ende des Tutorials gelöscht werden**
 
 
 

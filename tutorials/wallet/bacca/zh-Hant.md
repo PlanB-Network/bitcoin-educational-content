@@ -1,5 +1,5 @@
 ---
-name: 巴卡
+name: Bacca
 description: 在沒有 Ledger Live 軟體的情況下設定 Ledger
 ---
 ![cover](assets/cover.webp)
@@ -15,7 +15,7 @@ description: 在沒有 Ledger Live 軟體的情況下設定 Ledger
 
 
 ---
-*請注意，此工具相當新，其開發人員說明它仍處於**測試階段。他們建議僅將此工具用於測試目的，而非用於承載真正 Bitcoin Wallet 的裝置，儘管這是可能的。在這方面，我建議您遵循此工具開發人員的建議，這些建議已在 [其 GitHub 儲存庫的 README](https://github.com/darosior/ledger_installer).* 中註明。
+*請注意，此工具相當新，其開發人員說明它仍處於**測試階段**。他們建議僅將此工具用於測試目的，而非用於承載真正 Bitcoin Wallet 的裝置，儘管這是可能的。在這方面，我建議您遵循此工具開發人員的建議，這些建議已在 [其 GitHub 儲存庫的 README](https://github.com/darosior/ledger_installer) 中註明。*
 
 
 ---

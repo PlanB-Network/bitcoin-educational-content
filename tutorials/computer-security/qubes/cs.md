@@ -118,7 +118,7 @@ Před instalací operačního systému Qubes je nutné se ujistit, že váš har
 
 - **Procesor**: 64bitový procesor kompatibilní s hardwarovou virtualizací (Intel VT-x nebo AMD-V).
 - Paměť RAM: je vyžadováno minimálně 8 GB, ale doporučujeme 16 GB nebo více, abyste mohli spustit několik qubů současně.
-- Úložný prostor**: minimálně 36 GB, ideálně 128 GB na disku SSD pro optimální výkon.
+- **Úložný prostor**: minimálně 36 GB, ideálně 128 GB na disku SSD pro optimální výkon.
 
 
 

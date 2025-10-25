@@ -29,7 +29,7 @@ Harap dicatat bahwa perbedaan harga dengan pemanas tradisional dengan daya yang 
 
 
 
-Menurut pendapat saya, perangkat ini harus dilihat lebih sebagai cara sederhana untuk Miner di rumah bagi mereka yang ingin melakukannya karena alasan pribadi: *mendapatkan Satss non-KYC / memainkan "lotre" dengan menyendiri / berpartisipasi dalam desentralisasi Hashrate dll., sambil mendapatkan keuntungan **sebagai bonus** dari panas yang dihasilkan untuk menghangatkan ruangan di musim dingin. Tetapi bukan sebagai cara untuk menghemat uang setidaknya dalam banyak kasus (negara-negara Barat).
+Menurut pendapat saya, perangkat ini harus dilihat lebih sebagai cara sederhana untuk Miner di rumah bagi mereka yang ingin melakukannya karena alasan pribadi: *mendapatkan Satss non-KYC / memainkan "lotre" dengan menyendiri / berpartisipasi dalam desentralisasi Hashrate dll.*, sambil mendapatkan keuntungan **sebagai bonus** dari panas yang dihasilkan untuk menghangatkan ruangan di musim dingin. Tetapi bukan sebagai cara untuk menghemat uang setidaknya dalam banyak kasus (negara-negara Barat).
 
 
 

@@ -1,5 +1,5 @@
 ---
-name: Yeşim
+name: Jade
 
 description: JADE cihazınızı nasıl kurarsınız
 ---

@@ -1,0 +1,9 @@
+question: Kwa nini HDD haifai kwa nodi ya Bitcoin?
+answer: Kwa sababu inapunguza kasi ya IBD na matumizi ya jumla
+wrong_answers:
+  - Kwa sababu haiwezi kuhifadhi faili za Blockchain
+  - Kwa sababu hutumia nishati kidogo sana na hatari ya kulipuka
+  - Kwa sababu haiendani na Bitcoin core
+explanation: |
+  Diski za mitambo hupunguza utendakazi, huongeza muda wa IBD kwa kiasi kikubwa, na huchakaa haraka chini ya upakiaji wa nodi.
+reviewed: true

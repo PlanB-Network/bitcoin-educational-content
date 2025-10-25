@@ -1,5 +1,5 @@
 ---
-name: जीडब्ल्यू-0
+name: Aqua
 description: Bitcoin, लाइटनिंग और Liquid एक ही Wallet में
 ---
 ![cover](assets/cover.webp)

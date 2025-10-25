@@ -1,5 +1,5 @@
 ---
-name: Wallet of Satoshi - Verkooppunt
+name: Wallet of Satoshi - POS
 description: Adopteer Bitcoin via Lightning Network in je bedrijf.
 ---
 

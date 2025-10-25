@@ -1,5 +1,5 @@
 ---
-name: Billetera Proton
+name: Proton Wallet
 description: Instalación y uso del monedero Proton Bitcoin
 ---
 ![cover](assets/cover.webp)

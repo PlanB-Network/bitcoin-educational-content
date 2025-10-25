@@ -1,5 +1,5 @@
 ---
-name: ビットキー
+name: Bitkey
 description: Hardware Walletシードレス
 ---
 ![cover](assets/cover.webp)

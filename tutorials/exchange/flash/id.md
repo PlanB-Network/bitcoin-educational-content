@@ -39,8 +39,8 @@ Ada dua layanan utama yang ditawarkan oleh platform ini:
 
 
 
-- FlashX**: Bitcoin Exchange dengan Uang Seluler.
-- Pembayaran Flash**: Gunakan Bitcoin untuk layanan sehari-hari.
+- **FlashX**: Bitcoin Exchange dengan Uang Seluler.
+- **Pembayaran Flash**: Gunakan Bitcoin untuk layanan sehari-hari.
 
 
 
@@ -73,9 +73,9 @@ Flash mengoperasikan transaksinya menggunakan Uang Seluler lokal. Tergantung pad
 
 
 
-- Benin**: MTN Benin, Moov Benin, Celtiis.
-- Togo** : Moov Togo.
-- Burkina-Faso**: Oranye.
+- **Benin**: MTN Benin, Moov Benin, Celtiis.
+- **Togo**: Moov Togo.
+- **Burkina-Faso**: Oranye.
 
 
 
@@ -157,10 +157,10 @@ Selain membeli dan menjual bitcoin, Flash menawarkan penggunaan kontekstual Bitc
 
 
 
-- Unit GSM**;
-- Paket internet**;
-- Paket panggilan**;
-- Kombinasi paket telepon dan Internet**.
+- Unit **GSM**;
+- Paket internet;
+- Paket **panggilan**;
+- Kombinasi paket telepon dan **Internet**.
 
 
 
@@ -203,4 +203,3 @@ Jika Anda merasa tutorial ini bermanfaat dalam memahami Flash, silakan beri kami
 
 
 https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
-

@@ -1,5 +1,5 @@
 ---
-name: BTCpay 伺服器
+name: BTCPay Server
 
 description: BTCPay伺服器設定與管理指南
 ---

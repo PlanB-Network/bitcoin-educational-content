@@ -64,10 +64,10 @@ Na panelu nabídek najdete následující sítě:
 
 
 
-- Mainnet** : Hlavní síť Bitcoin, kde probíhají skutečné transakce Bitcoin.
-- Signet**: Testovací síť, která používá digitální podpisy k ověřování bloků, aniž by vyžadovala prostředky vyžadované hlavní sítí.
-- Testnet 3**: Bezriziková testovací a vývojová síť na protokolu Bitcoin.
-- Testnet 4** : Nová verze Testnet 3 přináší do testovacího prostředí větší stabilitu a nová pravidla konsensu.
+- **Mainnet**: Hlavní síť Bitcoin, kde probíhají skutečné transakce Bitcoin.
+- **Signet**: Testovací síť, která používá digitální podpisy k ověřování bloků, aniž by vyžadovala prostředky vyžadované hlavní sítí.
+- **Testnet 3**: Bezriziková testovací a vývojová síť na protokolu Bitcoin.
+- **Testnet 4**: Nová verze Testnet 3 přináší do testovacího prostředí větší stabilitu a nová pravidla konsensu.
 
 
 
@@ -142,9 +142,9 @@ Na stránce s podrobnostmi o transakci najdete obecné informace o transakci:
 
 
 
-- Stav**: Potvrzeno, když je přidáno do bloku, nepotvrzeno, když čeká v Mempool.
-- Transakční poplatky**.
-- Předpokládaný čas příjezdu (ETA)** :  Přibližná doba, za kterou bude vaše transakce přidána do bloku. Počítá se podle poměru, který tvoří poplatky spojené s touto transakcí.
+- **Stav**: Potvrzeno, když je přidáno do bloku, nepotvrzeno, když čeká v Mempool.
+- **Transakční poplatky**.
+- **Předpokládaný čas příjezdu (ETA)**: Přibližná doba, za kterou bude vaše transakce přidána do bloku. Počítá se podle poměru, který tvoří poplatky spojené s touto transakcí.
 
 
 
@@ -192,7 +192,7 @@ Naštěstí jsou v síti Bitcoin k dispozici dvě metody, které potvrzení tran
 
 
 
-- RBF** - Náhrada za poplatek: Metoda, která umožňuje utratit stejné položky jako u transakce s nízkým poplatkem, ale tentokrát zvýšením poplatku za transakci, aby se urychlila validace. Vaše nová transakce bude rychleji ověřena a zařazena do bloku, čímž se transakce s nízkým poplatkem zneplatní.
+- **RBF** - Náhrada za poplatek: Metoda, která umožňuje utratit stejné položky jako u transakce s nízkým poplatkem, ale tentokrát zvýšením poplatku za transakci, aby se urychlila validace. Vaše nová transakce bude rychleji ověřena a zařazena do bloku, čímž se transakce s nízkým poplatkem zneplatní.
 
 
 
@@ -204,7 +204,7 @@ https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-837
 
 
 
-- CPFP** - Child pay for parent: Přístup inspirovaný RBF, ale na straně přijímače. Když je transakce, v níž jste příjemcem, zablokována v Mempool, máte možnost utratit výstupy (UTXO) této transakce, přestože ještě nebyla potvrzena, a to tak, že této nové transakci přidělíte více poplatků, takže průměrné poplatky - transakce, u níž jste příjemcem, a iniciované transakce - povzbudí těžaře, aby obě transakce zařadili do bloku.
+- **CPFP** - Child pay for parent: Přístup inspirovaný RBF, ale na straně přijímače. Když je transakce, v níž jste příjemcem, zablokována v Mempool, máte možnost utratit výstupy (UTXO) této transakce, přestože ještě nebyla potvrzena, a to tak, že této nové transakci přidělíte více poplatků, takže průměrné poplatky - transakce, u níž jste příjemcem, a iniciované transakce - povzbudí těžaře, aby obě transakce zařadili do bloku.
 
 
 

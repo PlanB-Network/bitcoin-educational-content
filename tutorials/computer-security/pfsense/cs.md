@@ -111,9 +111,9 @@ Pro standardní nasazení doporučujeme:
 
 
 
-- minimálně 1 GB RAM** (doporučuje se 2 GB nebo více, aby bylo možné používat další balíčky nebo podporu ZFS).
-- 8 GB místa na disku** (pro pokročilejší konfigurace je vhodnější 20 GB nebo více, zejména pokud instalujete proxy cache, IDS/IPS nebo podrobné protokoly).
-- Alespoň dvě virtuální síťová rozhraní** (jedno pro WAN, jedno pro LAN). Ve VirtualBoxu je před spuštěním přidejte do nastavení virtuálního počítače.
+- minimálně 1 GB RAM (doporučuje se 2 GB nebo více, aby bylo možné používat další balíčky nebo podporu ZFS).
+- **8 GB místa na disku** (pro pokročilejší konfigurace je vhodnější 20 GB nebo více, zejména pokud instalujete proxy cache, IDS/IPS nebo podrobné protokoly).
+- Alespoň dvě virtuální síťová rozhraní (jedno pro WAN, jedno pro LAN). Ve VirtualBoxu je před spuštěním přidejte do nastavení virtuálního počítače.
 
 
 
@@ -309,8 +309,8 @@ Zobrazí se přihlašovací obrazovka. Výchozí přihlašovací údaje jsou:
 
 
 
-- Uživatelské jméno:** `admin`
-- Heslo:** `pfsense`
+- **Uživatelské jméno:** `admin`
+- **Heslo:** `pfsense`
 
 
 
@@ -429,10 +429,10 @@ Chcete-li ukončit své nasazení s klidnou myslí:
 
 
 
-- Úprava pravidel brány firewall**: ve výchozím nastavení povoluje aplikace pfSense veškerý odchozí provoz v síti LAN a blokuje příchozí provoz v síti WAN. Upravte tato pravidla podle potřeby.
-- Konfigurace zabezpečeného vzdáleného přístupu**: v případě potřeby povolte přístup k webu Interface z WAN pouze prostřednictvím VPN nebo s omezením IP.
-- Povolit oznámení**: nakonfigurujte server SMTP pro příjem upozornění (selhání, aktualizace, chyby).
-- Nainstalujte užitečná rozšíření**: například IDS/IPS (Snort, Suricata), proxy (Squid), filtrování DNS (pfBlockerNG).
+- **Úprava pravidel brány firewall**: ve výchozím nastavení povoluje aplikace pfSense veškerý odchozí provoz v síti LAN a blokuje příchozí provoz v síti WAN. Upravte tato pravidla podle potřeby.
+- **Konfigurace zabezpečeného vzdáleného přístupu**: v případě potřeby povolte přístup k webu Interface z WAN pouze prostřednictvím VPN nebo s omezením IP.
+- **Povolit oznámení**: nakonfigurujte server SMTP pro příjem upozornění (selhání, aktualizace, chyby).
+- Nainstalujte užitečná rozšíření: například IDS/IPS (Snort, Suricata), proxy (Squid), filtrování DNS (pfBlockerNG).
 
 
 

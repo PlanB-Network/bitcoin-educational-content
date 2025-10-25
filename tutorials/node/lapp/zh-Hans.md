@@ -1,9 +1,11 @@
 ---
-name: LAPP比特币
-description: 开发你的第一个LApp的教程
+name: Lightning App
+description: 开发您的第一个Lightning应用程序 (LAPP) 的教程
 ---
 
-学习编写你的第一个闪电网络应用
+![cover](assets/cover.webp)
+
+## 学习编写你的第一个闪电应用程序
 
 要求：
 
@@ -18,6 +20,8 @@ NodeJs可以从其官方网站下载
 
 - Express作为我们的web服务器
 - Pug模板 + bootstrap作为我们的前端
+
+https://planb.network/courses/bbf08a64-84ca-11f0-9d7a-c3c481a45799
 
 ## 操作系统
 

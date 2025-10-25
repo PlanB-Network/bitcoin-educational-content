@@ -1,0 +1,9 @@
+question: RGB에서 사용하는 Client-side Validation 패러다임에서 Blockchain의 주요 기능은 무엇인가요?
+answer: 타임 스탬프 제공 및 이중 지출 방지
+wrong_answers:
+  - 모든 상태 전환 저장
+  - Smart contract 데이터 복제
+  - 글로벌 데이터 가용성 보장
+explanation: |
+  Bitcoin Blockchain는 RGB에서 모든 상태 전환을 저장하지 않고 타임스탬프를 찍고 Double-spending를 방지하는 데 사용됩니다.
+reviewed: false

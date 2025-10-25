@@ -1,5 +1,5 @@
 ---
-name: Signál
+name: Signal
 description: Vyjadřujte se svobodně
 ---
 ![cover](assets/cover.webp)

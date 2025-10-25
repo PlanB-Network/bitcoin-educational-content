@@ -62,10 +62,10 @@ Deberá configurar un cubo y proporcionar la siguiente información:
 
 
 
-- S3_BUCKET**: nombre del cubo
-- S3_ENDPOINT_URL**: enlace de acceso a su servicio S3
-- S3_KEY_ID** y S3_KEY_SECRET: sus códigos de acceso
-- S3_REGION**: la región de su servicio S3
+- **S3_BUCKET**: nombre del cubo
+- **S3_ENDPOINT_URL**: enlace de acceso a su servicio S3
+- **S3_KEY_ID** y **S3_KEY_SECRET**: sus códigos de acceso
+- **S3_REGION**: la región de su servicio S3
 
 
 
@@ -94,8 +94,8 @@ Necesitarás las siguientes variables:
 
 
 
-- MONGODB_URL**: conexión a la base de datos Address
-- MONGODB_DB**: nombre de la base de datos
+- **MONGODB_URL**: conexión a la base de datos Address
+- **MONGODB_DB**: nombre de la base de datos
 
 
 
@@ -474,8 +474,8 @@ La configuración **Barra superior** le permite personalizar la identidad visual
 
 
 - En el campo "Nombre de marca", introduzca el nombre de su empresa, organización o producto. Este nombre aparecerá en la parte superior de la Interface y representará su identidad visual principal.
-- Indique el título del sitio web**: el título elegido debe resumir la finalidad de la plataforma. Este título puede aparecer en la cabecera o en la pestaña del navegador.
-- Añadir descripción del sitio web**: aquí es donde debe introducir una breve descripción de su iniciativa. Esta descripción ayuda a contextualizar la herramienta para los usuarios y también puede utilizarse con fines de SEO.
+- **Indique el título del sitio web**: el título elegido debe resumir la finalidad de la plataforma. Este título puede aparecer en la cabecera o en la pestaña del navegador.
+- **Añadir descripción del sitio web**: aquí es donde debe introducir una breve descripción de su iniciativa. Esta descripción ayuda a contextualizar la herramienta para los usuarios y también puede utilizarse con fines de SEO.
 
 
 
@@ -497,10 +497,10 @@ La sección `Enlaces` de la barra superior le permite añadir accesos directos a
 
 
 
-- Introduzca el nombre del enlace (Texto)**: en el campo `Texto`, introduzca el nombre o etiqueta del enlace tal y como aparecerá (por ejemplo, Inicio, Contacto, Ayuda...).
-- Indicar enlace Address (Url)**: en el campo `Url`, introduzca el Address completo de la página de destino (interna o externa).
-- Añada otros enlaces si es necesario**: cada línea de configuración le permite añadir un enlace adicional utilizando los campos `Text` y `Url`.
-- Guardar enlaces**: una vez introducidos todos los enlaces, haga clic en el botón "Añadir enlace de la barra superior" para guardarlos.
+- **Introduzca el nombre del enlace (Texto)**: en el campo `Texto`, introduzca el nombre o etiqueta del enlace tal y como aparecerá (por ejemplo, Inicio, Contacto, Ayuda...).
+- Indicar enlace **Address (Url)**: en el campo `Url`, introduzca el Address completo de la página de destino (interna o externa).
+- Añada otros enlaces si es necesario: cada línea de configuración le permite añadir un enlace adicional utilizando los campos `Text` y `Url`.
+- **Guardar enlaces**: una vez introducidos todos los enlaces, haga clic en el botón "Añadir enlace de la barra superior" para guardarlos.
 
 
 
@@ -522,10 +522,10 @@ La sección **Navbar** le permite configurar el menú de navegación principal d
 
 
 
-- Introduzca el nombre del enlace (`Text`)**: en la línea de configuración, comience rellenando el campo `Text`. Corresponde al nombre del enlace que aparece en la barra de navegación (ejemplos: *Dashboard*, *Users*, *Settings*...).
-- Introduzca el Address del enlace (`Url`)**: junto al campo `Text`, encontrará el campo `Url`. En este campo, introduzca el Address de la página a la que debe redirigir el enlace. Puede ser una ruta interna o un enlace a una página externa.
-- Añadir varios enlaces si es necesario**: debajo de la primera línea, hay nuevos campos `Text` y `Url` disponibles para añadir tantos enlaces como sea necesario. Cada línea representa un enlace de navegación adicional.
-- Guardar enlaces**: una vez que haya introducido todos los Elements, haga clic en el botón `Añadir enlace a la barra de navegación` para guardar y mostrar los resultados en la barra de navegación.
+- Introduzca el nombre del enlace (`Text`): en la línea de configuración, comience rellenando el campo `Text`. Corresponde al nombre del enlace que aparece en la barra de navegación (ejemplos: *Dashboard*, *Users*, *Settings*...).
+- Introduzca el Address del enlace (`Url`): junto al campo `Text`, encontrará el campo `Url`. En este campo, introduzca el Address de la página a la que debe redirigir el enlace. Puede ser una ruta interna o un enlace a una página externa.
+- **Añadir varios enlaces si es necesario**: debajo de la primera línea, hay nuevos campos `Text` y `Url` disponibles para añadir tantos enlaces como sea necesario. Cada línea representa un enlace de navegación adicional.
+- **Guardar enlaces**: una vez que haya introducido todos los Elements, haga clic en el botón `Añadir enlace a la barra de navegación` para guardar y mostrar los resultados en la barra de navegación.
 
 
 
@@ -547,11 +547,11 @@ La sección **Pie de página** le permite personalizar el pie de página de su p
 
 
 
-- Activar la visualización de la etiqueta "Powered by be-BOP "**: active el botón `Display Powered by be-BOP` para mostrar esta etiqueta en el pie de página.
-- Introduzca el nombre del enlace (`Text`)**: rellene el campo `Text`, que corresponde al texto del enlace en el pie de página (ejemplos: *Condiciones generales*, *Privacidad*, *Contacto*...).
-- Indicar enlace Address (`Url`)**: en el campo `Url`, introduzca el Address de la página de destino (interna o externa).
-- Añada más enlaces si es necesario**: utilice las líneas adicionales para crear tantos enlaces como desee.
-- Guardar enlaces**: haga clic en el botón "Añadir enlace a pie de página" para guardar los enlaces.
+- Activar la visualización de la etiqueta **"Powered by be-BOP"**: active el botón `Display Powered by be-BOP` para mostrar esta etiqueta en el pie de página.
+- Introduzca el nombre del enlace (**Text**): rellene el campo `Text`, que corresponde al texto del enlace en el pie de página (ejemplos: *Condiciones generales*, *Privacidad*, *Contacto*...).
+- Indicar enlace Address (`Url`): en el campo `Url`, introduzca el Address de la página de destino (interna o externa).
+- **Añada más enlaces si es necesario**: utilice las líneas adicionales para crear tantos enlaces como desee.
+- **Guardar enlaces**: haga clic en el botón "Añadir enlace a pie de página" para guardar los enlaces.
 
 
 
@@ -641,8 +641,8 @@ Accesible a través de `Admin > Identidad` (o `Configuración > Identidad`), est
 
 
 
-- Razón social**: nombre oficial de la empresa.
-- Identificación de la empresa**: identificador legal o número de registro (RCCM, SIRET...).
+- **Razón social**: nombre oficial de la empresa.
+- **Identificación de la empresa**: identificador legal o número de registro (RCCM, SIRET...).
 
 
 
@@ -652,11 +652,11 @@ Accesible a través de `Admin > Identidad` (o `Configuración > Identidad`), est
 
 
 
-- Calle**: Address postal (calle, número...).
-- País**: país.
-- Estado**: provincia o región.
-- Ciudad**: ciudad.
-- Código postal**: código postal.
+- **Calle**: Address postal (calle, número...).
+- **País**: país.
+- **Estado**: provincia o región.
+- **Ciudad**: ciudad.
+- **Código postal**: código postal.
 
 
 
@@ -666,8 +666,8 @@ Accesible a través de `Admin > Identidad` (o `Configuración > Identidad`), est
 
 
 
-- Correo electrónico**: correo electrónico profesional Address.
-- Teléfono**: número de teléfono de la empresa.
+- **Correo electrónico**: correo electrónico profesional Address.
+- **Teléfono**: número de teléfono de la empresa.
 
 
 
@@ -677,10 +677,10 @@ Accesible a través de `Admin > Identidad` (o `Configuración > Identidad`), est
 
 
 
-- Nombre del titular de la cuenta**: nombre del titular de la cuenta.
-- Titular de la cuenta Address**: Address del titular.
-- IBAN**: Número internacional de cuenta bancaria.
-- BIC**: Código SWIFT/BIC.
+- **Nombre del titular de la cuenta**: nombre del titular de la cuenta.
+- **Titular de la cuenta Address**: Address del titular.
+- **IBAN**: Número internacional de cuenta bancaria.
+- **BIC**: Código SWIFT/BIC.
 
 
 
@@ -695,7 +695,7 @@ Accesible a través de `Admin > Identidad` (o `Configuración > Identidad`), est
 
 
 - Haga clic en "Rellenar con la información principal de la tienda" para rellenar los datos.
-- Información del emisor muy arriba a la derecha**: campo para la información legal/tributaria visible en las facturas.
+- **Información del emisor muy arriba a la derecha**: campo para la información legal/tributaria visible en las facturas.
 - Haga clic en "Actualizar" para guardar los cambios.
 
 
@@ -742,9 +742,9 @@ Vaya a `Admin > Merch > Products` para añadir o modificar un producto. Rellene 
 
 
 
-- Nombre del producto**: nombre del producto (por ejemplo, *BOP T-shirt limited edition*).
-- Slug**: Identificador de URL sin espacios (por ejemplo, `tshirt-bop-edition-limitee`).
-- Alias** *(opcional)*: útil para añadir rápidamente a la cesta mediante un campo específico.
+- **Nombre del producto**: nombre del producto (por ejemplo, *BOP T-shirt limited edition*).
+- **Slug**: Identificador de URL sin espacios (por ejemplo, `tshirt-bop-edition-limitee`).
+- **Alias** *(opcional)*: útil para añadir rápidamente a la cesta mediante un campo específico.
 
 
 
@@ -758,9 +758,9 @@ Vaya a `Admin > Merch > Products` para añadir o modificar un producto. Rellene 
 
 
 
-- Precio Importe**: precio del producto (por ejemplo, `25,00`).
-- Divisa del precio**: divisa (EUR, USD, BTC, etc.).
-- Productos especiales**:
+- **Precio Importe**: precio del producto (por ejemplo, `25,00`).
+- **Divisa del precio**: divisa (EUR, USD, BTC, etc.).
+- **Productos especiales**:
   - este es un producto gratuito.
   - este es un producto de pago por uso.
 
@@ -772,14 +772,14 @@ Vaya a `Admin > Merch > Products` para añadir o modificar un producto. Rellene 
 
 
 
-- Producto único (`standalone`)**: sólo es posible un añadido por pedido (por ejemplo, donación, entrada).
-- Producto con variaciones**:
+- Producto único (`standalone`): sólo es posible un añadido por pedido (por ejemplo, donación, entrada).
+- **Producto con variaciones**:
   - No compruebes `Standalone`.
   - Marque `El producto tiene ligeras variaciones (no hay diferencia de stock)`.
   - Añadir:
-    - Nombre** (por ejemplo, *Tamaño*),
-    - Valores** (por ejemplo: S, M, L, XL),
-    - Diferencias de precio** si procede (por ejemplo: `+2 USD` para XL).
+- **Nombre** (por ejemplo, *Tamaño*),
+- **Valores** (por ejemplo: S, M, L, XL),
+- **Diferencias de precio** si procede (por ejemplo: `+2 USD` para XL).
 
 
 
@@ -809,8 +809,8 @@ El sistema gestiona:
 
 
 
-- Existencias reservadas** → productos de las cestas aún no pagados
-- Existencias vendidas** → productos ya comprados
+- **Existencias reservadas** → productos de las cestas aún no pagados
+- **Existencias vendidas** → productos ya comprados
 
 
 
@@ -832,8 +832,8 @@ Marque `El producto tiene un componente físico que se enviará al Address del c
 
 
 
-- Entrada**: marque esta casilla si el producto es una entrada para un evento
-- Reserva**: compruebe si se trata de una franja horaria de reserva (por ejemplo: sesión, cita)
+- **Entrada**: marque esta casilla si el producto es una entrada para un evento
+- **Reserva**: compruebe si se trata de una franja horaria de reserva (por ejemplo: sesión, cita)
 
 
 
@@ -898,7 +898,7 @@ Si lo desea, puede añadir otras páginas:
 
 
 
-**Consejo: Haga clic en cada enlace o icono para modificar el **contenido**, el **título** o la **visibilidad** de cada página.
+**Consejo: Haga clic en cada enlace o icono para modificar el contenido, el título o la visibilidad de cada página.**
 
 
 
@@ -983,7 +983,7 @@ También modificable en `Imágenes`, permite mostrar un **resumen o eslogan** en
 
 
 
-Los widgets** enriquecen sus páginas CMS con Elements dinámicos o visuales.
+Los **widgets** enriquecen sus páginas CMS con Elements dinámicos o visuales.
 
 
 
@@ -1001,14 +1001,14 @@ Ejemplos de widgets disponibles:
 
 
 
-- Desafíos**: desafíos o misiones
-- Etiquetas**: categorías o palabras clave
-- Sliders**: carruseles de imágenes
-- Especificaciones**: Tablas de especificaciones
-- Formularios**: formularios (contacto, comentarios, etc.)
-- Cuenta atrás**: temporizadores
-- Galerías**: galerías de imágenes
-- Tablas de clasificación**: clasificaciones de los usuarios
+- **Desafíos**: desafíos o misiones
+- **Etiquetas**: categorías o palabras clave
+- **Sliders**: carruseles de imágenes
+- **Especificaciones**: Tablas de especificaciones
+- **Formularios**: formularios (contacto, comentarios, etc.)
+- **Cuenta atrás**: temporizadores
+- **Galerías**: galerías de imágenes
+- **Tablas de clasificación**: clasificaciones de los usuarios
 
 
 
@@ -1166,9 +1166,9 @@ Los informes se dividen en secciones:
 
 
 
-- Detalle del pedido**: número de pedidos, estado (confirmado, cancelado, pendiente), evolución
-- Detalle del producto**: productos vendidos, cantidades, productos populares
-- Detalle de los pagos**: importes cobrados, desglose por forma de pago
+- **Detalle del pedido**: número de pedidos, estado (confirmado, cancelado, pendiente), evolución
+- **Detalle del producto**: productos vendidos, cantidades, productos populares
+- **Detalle de los pagos**: importes cobrados, desglose por forma de pago
 
 
 
@@ -1310,9 +1310,9 @@ Al crear o modificar un tema, puede definir:
 
 
 
-- Colores**: para botones, fondos, texto, enlaces, etc.
-- Tipos de letra**: elección de tipos de letra para títulos, párrafos y menús
-- Estilos gráficos**: bordes, márgenes, espaciado, formas de bloque
+- **Colores**: para botones, fondos, texto, enlaces, etc.
+- **Tipos de letra**: elección de tipos de letra para títulos, párrafos y menús
+- **Estilos gráficos**: bordes, márgenes, espaciado, formas de bloque
 
 
 
@@ -1326,9 +1326,9 @@ Cada parte del sitio puede ajustarse de forma independiente:
 
 
 
-- Cabecera**: barra de navegación superior
-- Cuerpo**: contenido principal
-- Pie de página**: parte inferior de la página
+- **Cabecera**: barra de navegación superior
+- **Cuerpo**: contenido principal
+- **Pie de página**: parte inferior de la página
 
 
 
@@ -1377,8 +1377,8 @@ Cada correo electrónico (confirmación de pedido, contraseña olvidada, etc.) t
 
 
 
-- Asunto**: el asunto del correo electrónico (por ejemplo, "Su pedido ha sido validado")
-- Cuerpo HTML**: Contenido HTML mostrado en el correo electrónico
+- **Asunto**: el asunto del correo electrónico (por ejemplo, "Su pedido ha sido validado")
+- **Cuerpo HTML**: Contenido HTML mostrado en el correo electrónico
 
 
 
@@ -1444,9 +1444,9 @@ Rellene los siguientes campos:
 
 
 
-- Nombre de la etiqueta**: nombre de la etiqueta mostrada
-- Slug**: identificador único (sin espacios ni acentos)
-- Familia de etiquetas**: agrupa las etiquetas por categorías
+- **Nombre de la etiqueta**: nombre de la etiqueta mostrada
+- **Slug**: identificador único (sin espacios ni acentos)
+- **Familia de etiquetas**: agrupa las etiquetas por categorías
 
 
 
@@ -1480,8 +1480,8 @@ Estos campos pueden utilizarse para enriquecer una etiqueta como si fuera una p�
 - Título
 - Subtítulo
 - Contenidos breves
-- Contenido completo** (en francés)
-- CTA** (botones de acción)
+- **Contenido completo** (en francés)
+- **CTA** (botones de acción)
 
 
 
@@ -1520,8 +1520,8 @@ Para ofrecer documentos descargables a sus clientes: `Admin > Merch > Files`
 
 
 
-   - Nombre del archivo** (por ejemplo, *Guía de instalación*)
-   - Archivo a cargar** (PDF, imagen, Word...)
+- **Nombre del archivo** (por ejemplo, *Guía de instalación*)
+- **Archivo a cargar** (PDF, imagen, Word...)
 
 
 
@@ -1539,7 +1539,7 @@ Este enlace puede insertarse en:
 
 
 
-- Página CMS** (como enlace de texto o botón)
+- **Página CMS** (como enlace de texto o botón)
 - Un **cliente de correo electrónico** (a través de una plantilla)
 - Una **hoja de producto** (por ejemplo, descarga del manual)
 
@@ -1635,9 +1635,9 @@ Los archivos de traducción están en JSON. Puede:
 
 
 
-- Descargar** archivos de idioma
-- Modificar** textos existentes
-- Añade** tus propias traducciones
+- **Descargar** archivos de idioma
+- **Modificar** textos existentes
+- Añade **tus propias traducciones**
 
 
 
@@ -1678,9 +1678,9 @@ Cada rol contiene:
 
 
 
-- acceso de escritura**: acceso de escritura
-- acceso de lectura**: acceso de lectura
-- acceso prohibido**: secciones interdites
+- **acceso de escritura**: acceso de escritura
+- **acceso de lectura**: acceso de lectura
+- **acceso prohibido**: secciones interdites
 
 
 
@@ -1709,7 +1709,7 @@ Asignar un rol previamente definido.
 
 
 
-Los usuarios de sólo lectura** verán los menús en *itálica* y no podrán modificar el contenido.
+Los usuarios de **sólo lectura** verán los menús en *itálica* y no podrán modificar el contenido.
 
 
 
@@ -1779,8 +1779,8 @@ Existen dos opciones avanzadas:
 
 
 
-- Exención del IVA**: aplicable a la justificación (ONG, extranjeros...)
-- Descuento regalo**: descuento excepcional con comentario obligatorio
+- **Exención del IVA**: aplicable a la justificación (ONG, extranjeros...)
+- **Descuento regalo**: descuento excepcional con comentario obligatorio
 
 
 

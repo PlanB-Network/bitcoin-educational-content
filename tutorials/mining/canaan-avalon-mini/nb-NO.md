@@ -137,7 +137,7 @@ Nedenfor finner du en oppsummeringstabell over Mini 3s generelle tekniske spesif
 
 
 
-**Denne delen er felles for Nano 3s og Mini 3-enhetene, ettersom prosessene er helt identiske
+**Denne delen er felles for Nano 3s og Mini 3-enhetene, ettersom prosessene er helt identiske**
 
 
 

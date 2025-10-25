@@ -1,5 +1,5 @@
 ---
-name: बिटकी
+name: Bitkey
 description: Hardware Wallet बीजरहित
 ---
 ![cover](assets/cover.webp)

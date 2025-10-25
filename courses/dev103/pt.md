@@ -36,7 +36,6 @@ No final do curso, deverá ser capaz de escrever os seus próprios programas em 
 <chapterId>ba05a290-1782-5268-87c9-62fd09590e05</chapterId>
 
 
-Nesta secção, vamos configurar a nossa máquina para escrever e executar o nosso primeiro programa JavaScript.
 
 
 Um programa JavaScript é apenas uma coleção de (um ou mais) ficheiros de texto, que contêm comandos a serem executados por um tempo de execução JavaScript.
@@ -51,16 +50,16 @@ Os comandos que contêm são escritos na linguagem de programação JavaScript.
 Um tempo de execução do JavaScript é um programa especial que executa estes ficheiros.
 
 
-![](assets/en/1.webp)
+![](assets/en/001.webp)
 
 
-### Instalação do NodeJS
+### O runtime do NodeJS
 
 
 O tempo de execução JavaScript mais comum é o NodeJS.
 
 
-Pode instalá-lo seguindo as [instruções oficiais] (https://nodejs.org/en/download).
+O seu IDE pode já incluí-lo, ou poderá precisar de baixá-lo no [site oficial](https://nodejs.org/en/download).
 
 
 A página de transferência fornecerá instruções para os três principais SOs (Sistemas Operativos): Windows, Linux e MacOS. Pressupõe que sabe como abrir um terminal no seu sistema operativo.
@@ -72,25 +71,19 @@ Uma vez que o NodeJS está disponível para os três sistemas operativos, os pro
 Isto significa que pode, por exemplo, escrever um jogo de vídeo simples em JavaScript no seu PC Windows e passá-lo ao seu amigo para o executar no seu Mac.
 
 
-![](assets/en/2.webp)
+![](assets/en/002.webp)
 
 
-### Edição de texto
 
 
-Um dos aspectos mais interessantes da programação é o facto de poder escrever código utilizando qualquer editor de texto, mesmo o bloco de notas predefinido do seu sistema operativo.
 
 
-No entanto, existem alguns editores de texto especializados para escrever código, alguns estão disponíveis gratuitamente, outros requerem o pagamento de uma licença.
 
 
-A escolha de um editor de código é uma grande toca de coelho que transcende o âmbito deste curso, por isso não vamos falar sobre isso aqui. Se não sabe o que usar, o editor gratuito mais usado é o [VSCode](https://code.visualstudio.com/).
 
 
-O seu Interface é um pouco inchado, mas tem o que precisa: um editor de ficheiros, um explorador de ficheiros (para visualizar os ficheiros e subdirectórios no diretório em que está a trabalhar) e um terminal para executar o seu código. Também suporta muitos plugins e vem com realce de sintaxe JavaScript por defeito.
 
 
-Se quiser ser um pouco mais Cypherpunk-y, pode utilizar [VSCodium](https://vscodium.com/).
 
 
 ### Primeiro programa (hello world)
@@ -102,7 +95,7 @@ Tradicionalmente, quando se estuda uma linguagem de programação, o primeiro pr
 Crie um diretório chamado `my_js_code/`, com dentro um arquivo chamado `main.js` (esses nomes são arbitrários).
 
 
-Abrir o diretório com o VSCode.
+Abra o diretório com o seu editor de código.
 
 
 Escreva este código no seu ficheiro:
@@ -687,7 +680,7 @@ false
 - `!` significa "não", é aplicado antes de um booleano e inverte-o: se o booleano for `verdadeiro`, devolverá `falso`, e vice-versa.
 
 
-![](assets/en/3.webp)
+![](assets/en/003.webp)
 
 
 Exemplos:
@@ -737,9 +730,9 @@ Nesta secção, abordaremos mais três tipos que são muito comuns em programas 
 
 
 
-- Arrays**: sequências de valores
-- undefined**: um valor especial que significa "nada foi atribuído"
-- null**: outro valor especial que significa "intencionalmente vazio"
+- **Arrays**: sequências de valores
+- **undefined**: um valor especial que significa "nada foi atribuído"
+- **null**: outro valor especial que significa "intencionalmente vazio"
 
 
 ### Matrizes e acesso a índices
@@ -2302,7 +2295,7 @@ console.log(`${this.brand} car is ready to drive!`)
 A classe `Carro` agora **herda** tudo de `Veículo`. Ela recebe a propriedade `brand`, e nós substituímos o método `start()` pela nossa própria versão.
 
 
-![](assets/en/4.webp)
+![](assets/en/004.webp)
 
 
 Vamos experimentar:
@@ -2356,7 +2349,7 @@ myCar.start()
 ```
 
 
-![](assets/en/5.webp)
+![](assets/en/005.webp)
 
 
 
@@ -4197,7 +4190,7 @@ Here is the doubled array: [ 2, 4, 6 ]
 ```
 
 
-**O que é que está a acontecer aqui?
+**O que é que está a acontecer aqui?**
 
 
 1. Passamos `input` como a lista de números que queremos duplicar.
@@ -5235,7 +5228,7 @@ O JavaScript é uma linguagem interpretada, por oposição a linguagens compilad
 O código escrito numa linguagem compilada é transformado em binário, e o binário é enviado diretamente para a CPU do computador.
 
 
-![](assets/en/6.webp)
+![](assets/en/006.webp)
 
 
 As linguagens interpretadas, por outro lado, tendem a ser mais fáceis de utilizar e estão mais próximas da forma como os seres humanos pensam ("alto nível") do que da forma como as máquinas funcionam ("baixo nível"); por isso, normalmente, têm uma máquina virtual construída para executar o seu código.
@@ -5268,7 +5261,7 @@ Porque é que isso é um problema?
 Bem, uma vez que os browsers executam código obtido a partir de milhões de fontes diferentes na Internet, podem facilmente incorrer em malware, pelo que estão "protegidos" do resto do sistema operativo.
 
 
-![](assets/en/7.webp)
+![](assets/en/007.webp)
 
 
 O JavaScript não podia aceder ao sistema de ficheiros e a outros recursos locais do seu computador (pelo menos, não tão facilmente como outras linguagens), pelo que isso constituía uma limitação significativa do tipo de aplicações que podia construir com ele.
@@ -5277,7 +5270,7 @@ O JavaScript não podia aceder ao sistema de ficheiros e a outros recursos locai
 Em 2009, Ryan Dahl publicou o NodeJS, que é um tempo de execução que permite utilizar o motor V8 fora do browser, diretamente no sistema operativo nativo do computador. Ele também adiciona muitos recursos que são úteis para escrever programas do lado do servidor e de linha de comando. Por exemplo, pode utilizar o NodeJS para criar um servidor Web, ler e escrever ficheiros ou criar ferramentas que automatizam tarefas.
 
 
-![](assets/en/8.webp)
+![](assets/en/008.webp)
 
 
 Neste curso, até agora, exploramos os recursos do JavaScript que estão presentes no navegador e no NodeJS. Esses recursos nos permitiram definir dados e manipulá-los de maneiras abstratas. Nas próximas lições, exploraremos os recursos que são específicos do NodeJS e que nos permitem interagir com o sistema operacional.
@@ -6438,10 +6431,10 @@ O NodeJS tem quatro tipos principais de fluxos:
 
 
 
-- Readable**: fluxos a partir dos quais se pode ler dados (como ler um ficheiro)
-- Writable**: fluxos onde se pode escrever dados (como escrever num ficheiro)
-- Duplex**: fluxos que são simultaneamente legíveis e graváveis
-- Transform**: como os fluxos duplex, mas podem alterar (transformar) os dados à medida que estes fluem
+- **Readable**: fluxos a partir dos quais se pode ler dados (como ler um ficheiro)
+- **Writable**: fluxos onde se pode escrever dados (como escrever num ficheiro)
+- **Duplex**: fluxos que são simultaneamente legíveis e graváveis
+- **Transform**: como os fluxos duplex, mas podem alterar (transformar) os dados à medida que estes fluem
 
 
 ### Fluxos legíveis

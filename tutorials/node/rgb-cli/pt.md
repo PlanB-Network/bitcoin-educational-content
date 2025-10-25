@@ -233,8 +233,8 @@ Para efetuar uma transferência, é necessário manipular uma carteira Bitcoin l
 Na maioria dos casos, a interação entre os participantes num contrato (por exemplo, Alice e Bob) ocorre através da geração de uma fatura. Se a Alice quiser que o Bob execute algo (uma transferência de fichas, uma reemissão, uma ação num DAO, etc.), a Alice cria uma fatura que detalha as suas instruções ao Bob. Assim, temos :
 
 
-- Alice** (o emitente da fatura) ;
-- Bob** (que recebe e executa a fatura).
+- **Alice** (o emitente da fatura) ;
+- **Bob** (que recebe e executa a fatura).
 
 Ao contrário de outros ecossistemas, uma fatura RGB não se limita à noção de pagamento. Pode incluir qualquer pedido ligado ao contrato: revogar uma chave, votar, criar uma gravação (*gravação*) num NFT, etc. A operação correspondente pode ser descrita na interface do contrato. A operação correspondente pode ser descrita na interface do contrato.
 

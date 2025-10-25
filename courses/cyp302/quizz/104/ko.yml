@@ -1,0 +1,9 @@
+question: 인증된 암호화 체계의 주요 목표는 무엇인가요?
+answer: 커뮤니케이션의 기밀성 및 신뢰성 보장
+wrong_answers:
+  - 안전한 방식의 generate 키
+  - 암호 화폐 거래소에서 MAC 교체하기
+  - 가로챈 메시지 자동 해독
+explanation: |
+  인증된 암호화 체계는 암호화와 인증 코드(MAC)를 결합하여 메시지의 기밀성과 신뢰성을 모두 보장합니다.
+reviewed: false

@@ -1,0 +1,9 @@
+question: What is the default number of outgoing connections a Bitcoin Core node maintains?
+answer: 10
+wrong_answers:
+  - 2
+  - 4
+  - 3
+explanation: |
+  Bitcoin Core maintains 10 outgoing connections by default (8 full-relay and 2 block-relay-only).
+reviewed: true

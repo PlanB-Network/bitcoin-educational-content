@@ -87,8 +87,8 @@ När ditt konto har verifierats kommer du att få tillgång till plattformen dä
 
 
 
-- Kraken**: En förenklad Interface med viktiga funktioner.
-- Kraken Pro**: En avancerad Interface med ytterligare funktioner, särskilt för handel.
+- **Kraken**: En förenklad Interface med viktiga funktioner.
+- **Kraken Pro**: En avancerad Interface med ytterligare funktioner, särskilt för handel.
 
 
 Om ditt mål enbart är att köpa och sälja Bitcoin ska du välja den förenklade Interface. Du kommer alltid att ha möjlighet att byta till den avancerade Interface senare om det behövs.
@@ -139,7 +139,7 @@ Därunder har du också tillgång till avancerade inställningar, inklusive möj
 
 
 
-- Huvudnyckeln** fungerar som en återställningsmekanism som ska användas om du inte kan komma åt din vanliga 2FA-metod för att logga in;
+- **Huvudnyckeln** fungerar som en återställningsmekanism som ska användas om du inte kan komma åt din vanliga 2FA-metod för att logga in;
 - **2FA för finansiering** kräver ytterligare autentisering för alla uttagstransaktioner eller när du skapar en insättning Address, vilket stärker säkerheten för dina medel;
 - Med **2FA för handel** införs en 2FA för varje transaktion som utförs på kontot.
 
@@ -233,9 +233,9 @@ För dessa transaktioner kan du välja mellan olika ordertyper: *Marknad*, *Limi
 
 
 
-- Marknad*: Tillåter omedelbart köp till aktuellt marknadspris;
-- Begränsa*: Låter dig ange ett inköpspris, och ordern kommer endast att utföras om marknadspriset når detta belopp;
-- Stop-Loss*: Säljer automatiskt när kursen når ett visst tröskelvärde.
+- **Marknad**: Tillåter omedelbart köp till aktuellt marknadspris;
+- **Begränsa**: Låter dig ange ett inköpspris, och ordern kommer endast att utföras om marknadspriset når detta belopp;
+- **Stop-Loss**: Säljer automatiskt när kursen når ett visst tröskelvärde.
 
 
 ## 7 - Transaktionshantering och redovisning

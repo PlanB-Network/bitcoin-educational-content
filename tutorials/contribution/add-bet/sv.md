@@ -79,7 +79,7 @@ Här är de uppgifter som ska fyllas i för varje fält:
 
 
 
-- `byggare`**: Ange din organisations identifierare på PlanB Network. Om du ännu inte har en "project"-identifierare för ditt företag kan du skapa en genom att följa denna handledning.
+- **`byggare`**: Ange din organisations identifierare på PlanB Network. Om du ännu inte har en "project"-identifierare för ditt företag kan du skapa en genom att följa denna handledning.
 
 
 https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
@@ -88,13 +88,13 @@ Om du inte har någon sådan kan du använda ditt namn, din pseudonym eller ditt
 
 
 
-- `typ`**: Välj vilken typ av innehåll du vill ha bland följande två alternativ:
+- **`typ`**: Välj vilken typ av innehåll du vill ha bland följande två alternativ:
  - `Utbildningsinnehåll` för utbildningsinnehåll.
  - `Visuellt innehåll` för andra typer av olika innehåll.
 
 
 
-- `länkar`**: Tillhandahåller länkar till ditt innehåll. Du har två alternativ:
+- **`länkar`**: Tillhandahåller länkar till ditt innehåll. Du har två alternativ:
  - Om du väljer att hosta ditt innehåll direkt på PlanB:s GitHub måste du lägga till länkarna till den här filen under följande steg.
  - Om ditt innehåll finns någon annanstans, t.ex. på din personliga webbplats, anger du motsvarande länkar här:
      - `nedladdning`: En länk för att ladda ner ditt innehåll.
@@ -102,7 +102,7 @@ Om du inte har någon sådan kan du använda ditt namn, din pseudonym eller ditt
 
 
 
-- `taggar`**: Lägg till två taggar som associeras med ditt innehåll. Exempel på taggar:
+- `taggar`**: Lägg till två taggar som associeras med ditt innehåll. Exempel på taggar:**
  - Bitcoin
  - teknik
  - ekonomi
@@ -111,7 +111,7 @@ Om du inte har någon sådan kan du använda ditt namn, din pseudonym eller ditt
 
 
 
-- bidragsgivare**: Ange din identifierare för bidragsgivare om du har en.
+- **bidragsgivare**: Ange din identifierare för bidragsgivare om du har en.
 
 
 Din YAML-fil kan till exempel se ut så här:

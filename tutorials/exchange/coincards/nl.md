@@ -1,5 +1,5 @@
 ---
-name: Munten
+name: Coincards
 description: Hoe kan ik goederen en diensten in BTC kopen met Coincards?
 ---
 ![cover](assets/cover.webp)

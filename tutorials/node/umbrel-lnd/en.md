@@ -118,7 +118,7 @@ LND (Lightning Network Daemon) will be deployed on your Umbrel as an application
 You can choose between creating a new node or restoring one from a backup/seed. For a first-time installation, choose to create a new node. The Lightning Node app will generate a 24-word mnemonic phrase (your seed Lightning): write it down very carefully (ideally offline, on paper), as it will be used to restore your Lightning funds if necessary.
 
 
-**Note: On recent versions of Umbrel, installation of the Lightning app provides this 24-word seed (the Bitcoin Umbrel node itself does not).
+**Note:** On recent versions of Umbrel, installation of the Lightning app provides this 24-word seed (the Bitcoin Umbrel node itself does not).
 
 
 ![Interface principale de Lightning Node](assets/fr/04.webp)
@@ -375,10 +375,10 @@ Your Lightning Umbrel node requires two types of backups:
 
 - Contains Lightning channel information
 - Enables forced channel closure in the event of a crash
-- Important:** Never save the `channel.db` file manually (risk of penalties)
+- **Important:** Never save the `channel.db` file manually (risk of penalties)
 
 
-**Manual backup procedure
+**Manual backup procedure**
 
 
 To save your channels manually :
@@ -466,10 +466,10 @@ https://planb.network/tutorials/node/lightning-network/watch-tower-26937006-dfe5
 
 
 
-- Software updates:** Keep Umbrel and LND up to date (security fixes)
-- Hardware protection:** Use a stable system (Raspberry Pi with SSD, mini-PC) and a UPS
-- Network security:** Keep default Tor configuration, change Umbrel admin password (default: "moneyprintergobrrr")
-- Encryption:** Enable disk encryption if possible
+- **Software updates:** Keep Umbrel and LND up to date (security fixes)
+- **Hardware protection:** Use a stable system (Raspberry Pi with SSD, mini-PC) and a UPS
+- **Network security:** Keep default Tor configuration, change Umbrel admin password (default: "moneyprintergobrrr")
+- **Encryption:** Enable disk encryption if possible
 
 
 ## 6. Additional tools
@@ -520,10 +520,10 @@ RTL is a complete "Swiss army knife" for administering a Lightning node with a m
 
 
 
-- Lightning Shell** : Command line (lncli) via browser
-- BTC RPC Explorer & Mempool** : Monitoring Blockchain
-- LNmetrics & Torq**: Routing performance analysis
-- Amboss & 1ML**: "Social" management of your node (aliases, contacts, network analysis)
+- **Lightning Shell**: Command line (lncli) via browser
+- **BTC RPC Explorer & Mempool**: Monitoring Blockchain
+- **LNmetrics & Torq**: Routing performance analysis
+- **Amboss & 1ML**: "Social" management of your node (aliases, contacts, network analysis)
 
 
 These tools can be installed in just a few clicks via the Umbrel App Store, without any complex configuration.

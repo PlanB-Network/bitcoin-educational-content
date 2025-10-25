@@ -90,9 +90,9 @@ Da bi Manjaro radio optimalno, vaš računar mora ispunjavati nekoliko minimalni
 
 
 
-- 64-bitni (x86_64)** procesor
-- Preporučeno 4 GB RAM (minimum 2 GB)** (vidi dole)
-- 30 GB diska (više ako kreirate posebnu particiju `/home`)**
+- **64-bitni (x86_64)** procesor
+- **Preporučeno 4 GB RAM (minimum 2 GB)** (vidi dole)
+- 30 GB diska (više ako kreirate posebnu particiju `/home`)
 
 
 
@@ -219,8 +219,8 @@ Manjaro vam omogućava da birate između **FreeOffice** i **LibreOffice**.
 
 
 
-- LibreOffice** je potpuniji, sa širim spektrom softvera i naprednim funkcijama.
-- FreeOffice**, s druge strane, je lakši i uključuje samo osnovne stvari: **TextMaker**, **PlanMaker** i **Presentations**.
+- **LibreOffice** je potpuniji, sa širim spektrom softvera i naprednim funkcijama.
+- **FreeOffice**, s druge strane, je lakši i uključuje samo osnovne stvari: **TextMaker**, **PlanMaker** i **Presentations**.
 
 
 

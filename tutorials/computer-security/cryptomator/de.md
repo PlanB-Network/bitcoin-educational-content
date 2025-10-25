@@ -1,5 +1,5 @@
 ---
-name: Kryptomator
+name: Cryptomator
 description: Verschlüsseln Sie Ihre Dateien in der Cloud
 ---
 ![cover](assets/cover.webp)
@@ -170,7 +170,7 @@ Sie müssen Ihr Passwort eingeben, um den Safe zu entsperren. Klicken Sie dann a
 
 
 
-Auf der OneDrive-Seite können wir den Cryptomator-Datenspeicher nicht direkt durchsuchen. Wir können die Daten nicht sehen (weder die Dateinamen noch den Inhalt). Das bedeutet, dass Sie Ihre Daten nicht über die übliche OneDrive-Verknüpfung zu Ihrem Cryptomator-Tresor hinzufügen müssen. **Sie müssen Ihre Daten über das virtuelle Laufwerk von Cryptomator hinzufügen
+Auf der OneDrive-Seite können wir den Cryptomator-Datenspeicher nicht direkt durchsuchen. Wir können die Daten nicht sehen (weder die Dateinamen noch den Inhalt). Das bedeutet, dass Sie Ihre Daten nicht über die übliche OneDrive-Verknüpfung zu Ihrem Cryptomator-Tresor hinzufügen müssen. **Sie müssen Ihre Daten über das virtuelle Laufwerk von Cryptomator hinzufügen.**
 
 
 

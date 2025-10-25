@@ -16,4 +16,4 @@ abc...123:0
 
 El punto de salida se utiliza en las entradas (`vin`) de una nueva transacción para indicar qué UTXO se está gastando.
 
-> ► *El término "punto de salida" se utiliza a menudo como sinónimo de "UTXO"
+> ► *El término "punto de salida" se utiliza a menudo como sinónimo de "UTXO"*

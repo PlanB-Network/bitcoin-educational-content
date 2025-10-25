@@ -1,6 +1,6 @@
 ---
 name: Start9
-description: Postavite svoj Start 9 čvor
+description: Postavite svoj Start9 čvor
 ---
 
 Start9 je lični server i Bitcoin čvor.

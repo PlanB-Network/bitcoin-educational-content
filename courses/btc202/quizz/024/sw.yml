@@ -1,0 +1,9 @@
+question: Ni hatari gani ikiwa Wallet inategemea nodi ya mtu wa tatu?
+answer: Hatari ya ufuatiliaji na udhibiti
+wrong_answers:
+  - Hatari ya Double-spending moja kwa moja
+  - Hatari ya kupoteza funguo za kibinafsi
+  - Hatari ya kupoteza na ufuatiliaji
+explanation: |
+  Nodi ya wahusika wengine inaweza kuchanganua au kuzuia miamala yako, au hata kuhusisha data yako na utambulisho wako.
+reviewed: true

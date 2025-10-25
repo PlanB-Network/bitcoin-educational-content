@@ -196,13 +196,13 @@ Menu pengaturan Aegis mengelompokkan beberapa bagian penting:
 
 
 
-- Penampilan**: Menyesuaikan tema (terang, gelap, AMOLED), bahasa, dan pengaturan visual lainnya
-- Perilaku**: Mengonfigurasi perilaku aplikasi saat berinteraksi dengan daftar entri
-- Paket ikon**: mengelola dan mengimpor paket ikon untuk menyesuaikan tampilan dan nuansa akun Anda
-- Keamanan**: Pengaturan untuk enkripsi, pembukaan kunci biometrik, penguncian otomatis, dan parameter keamanan lainnya
-- Cadangan**: Konfigurasikan pencadangan otomatis ke lokasi pilihan Anda
-- Impor & Ekspor**: Mengimpor cadangan dari aplikasi autentikasi lain dan mengekspor brankas Aegis Anda secara manual
-- Log audit**: Log terperinci dari semua peristiwa penting dalam aplikasi
+- **Penampilan**: Menyesuaikan tema (terang, gelap, AMOLED), bahasa, dan pengaturan visual lainnya
+- **Perilaku**: Mengonfigurasi perilaku aplikasi saat berinteraksi dengan daftar entri
+- **Paket ikon**: mengelola dan mengimpor paket ikon untuk menyesuaikan tampilan dan nuansa akun Anda
+- **Keamanan**: Pengaturan untuk enkripsi, pembukaan kunci biometrik, penguncian otomatis, dan parameter keamanan lainnya
+- **Cadangan**: Konfigurasikan pencadangan otomatis ke lokasi pilihan Anda
+- **Impor & Ekspor**: Mengimpor cadangan dari aplikasi autentikasi lain dan mengekspor brankas Aegis Anda secara manual
+- **Log audit**: Log terperinci dari semua peristiwa penting dalam aplikasi
 
 
 
@@ -228,9 +228,9 @@ Dari Aegis Interface utama, tekan tombol **+** di kanan bawah untuk mengakses op
 
 
 
-- Memindai kode QR**: Memindai secara langsung kode QR yang ditampilkan oleh layanan web
-- Memindai gambar**: Memindai kode QR dari gambar yang tersimpan di perangkat Anda
-- Masukkan secara manual**: Masukkan informasi akun 2FA secara manual
+- **Memindai kode QR**: Memindai secara langsung kode QR yang ditampilkan oleh layanan web
+- **Memindai gambar**: Memindai kode QR dari gambar yang tersimpan di perangkat Anda
+- **Masukkan secara manual**: Masukkan informasi akun 2FA secara manual
 
 
 
@@ -252,8 +252,8 @@ Mari kita ambil contoh konkret aktivasi 2FA di Bitwarden untuk mengilustrasikan 
 
 
 
-- Masuk dan mengakses pengaturan**: Masuk ke akun Bitwarden Anda dan akses pengaturan, tab "Keamanan"
-- Bagian Penyedia**: Buka bagian "Penyedia" dan klik "Kelola" di bagian "Aplikasi autentikator"
+- **Masuk dan mengakses pengaturan**: Masuk ke akun Bitwarden Anda dan akses pengaturan, tab "Keamanan"
+- **Bagian Penyedia**: Buka bagian "Penyedia" dan klik "Kelola" di bagian "Aplikasi autentikator"
 
 
 
@@ -267,10 +267,10 @@ Mari kita ambil contoh konkret aktivasi 2FA di Bitwarden untuk mengilustrasikan 
 
 
 
-- Pindai kode QR**: Jendela popup terbuka dengan kode QR dan kunci rahasia
-- Dalam Aegis**: Gunakan "Pindai kode QR" untuk menangkap informasi secara otomatis
-- Verifikasi**: Masukkan kode 6 digit yang dihasilkan oleh Aegis di bidang "Kode verifikasi"
-- Aktivasi**: Klik "Nyalakan" untuk menyelesaikan aktivasi
+- **Pindai kode QR**: Jendela popup terbuka dengan kode QR dan kunci rahasia
+- Dalam **Aegis**: Gunakan "Pindai kode QR" untuk menangkap informasi secara otomatis
+- **Verifikasi**: Masukkan kode 6 digit yang dihasilkan oleh Aegis di bidang "Kode verifikasi"
+- **Aktivasi**: Klik "Nyalakan" untuk menyelesaikan aktivasi
 
 
 
@@ -292,12 +292,12 @@ Jika Anda lebih suka atau tidak dapat memindai kode QR, gunakan opsi "Masukkan s
 
 
 
-- Nama** : Nama layanan (mis. Bitwarden, GitHub...)
-- Penerbit** : Penerbit (sering kali identik dengan nama)
-- Grup**: Opsional, untuk mengatur akun Anda berdasarkan kategori
-- Catatan** : Komentar pribadi di akun ini
-- Rahasia** : Kunci rahasia yang disediakan oleh layanan (disembunyikan secara default)
-- Tingkat Lanjut**: Parameter lanjutan (algoritme, periode, jumlah digit)
+- **Nama** : Nama layanan (mis. Bitwarden, GitHub...)
+- **Penerbit** : Penerbit (sering kali identik dengan nama)
+- **Grup**: Opsional, untuk mengatur akun Anda berdasarkan kategori
+- **Catatan**: Komentar pribadi di akun ini
+- **Rahasia** : Kunci rahasia yang disediakan oleh layanan (disembunyikan secara default)
+- **Tingkat Lanjut**: Parameter lanjutan (algoritme, periode, jumlah digit)
 
 
 
@@ -323,10 +323,10 @@ Setelah Anda menambahkan beberapa akun, Anda akan menghargai alat organisasi Aeg
 
 
 
-- Pengurutan khusus:** Secara default, akun didaftarkan dalam urutan abjad, tetapi Anda dapat mengubah urutannya secara manual
-- Grup dan kategori:** Buat grup untuk memisahkan akun pribadi Anda dari akun bisnis, atau kelompokkan berdasarkan jenis layanan (perbankan, email, jejaring sosial, dll.)
-- Ikon yang disesuaikan:** Aegis mencoba untuk secara otomatis menetapkan ikon yang sesuai jika tersedia, jika tidak, Anda dapat memilih dari banyak ikon umum atau mengimpor gambar
-- Pencarian cepat:** Bilah pencarian di bagian atas memungkinkan Anda mengetikkan beberapa huruf untuk langsung menyaring entri yang cocok
+- **Pengurutan khusus:** Secara default, akun didaftarkan dalam urutan abjad, tetapi Anda dapat mengubah urutannya secara manual
+- **Grup dan kategori:** Buat grup untuk memisahkan akun pribadi Anda dari akun bisnis, atau kelompokkan berdasarkan jenis layanan (perbankan, email, jejaring sosial, dll.)
+- **Ikon yang disesuaikan:** Aegis mencoba untuk secara otomatis menetapkan ikon yang sesuai jika tersedia, jika tidak, Anda dapat memilih dari banyak ikon umum atau mengimpor gambar
+- **Pencarian cepat:** Bilah pencarian di bagian atas memungkinkan Anda mengetikkan beberapa huruf untuk langsung menyaring entri yang cocok
 
 
 
@@ -423,15 +423,15 @@ Aegis menawarkan beberapa strategi pencadangan yang sesuai dengan kebutuhan keam
 
 
 
-- Simpan beberapa versi cadangan** untuk mencegah kerusakan
-- Uji** cadangan Anda secara teratur dengan mencoba memulihkannya
-- Simpan kode pemulihan yang disediakan oleh layanan Anda secara terpisah**
-- Kata sandi utama** Anda masih diperlukan bahkan dengan cadangan awan
-- Amankan kata sandi utama Anda**: gunakan kata sandi yang unik dan kuat yang disimpan dalam pengelola kata sandi
-- Selalu perbarui aplikasi Anda** dengan patch keamanan terbaru
-- Aktifkan penguncian otomatis** dalam pengaturan untuk mengamankan akses ke aplikasi
-- Nonaktifkan tangkapan layar** (opsi default) untuk mencegah kode Anda disadap
-- Gunakan biometrik dengan hemat**: lebih memilih kata sandi untuk akses penting
+- Simpan beberapa versi **cadangan** untuk mencegah kerusakan
+- **Uji** cadangan Anda secara teratur dengan mencoba memulihkannya
+- Simpan kode pemulihan yang disediakan oleh layanan Anda secara terpisah
+- Kata sandi utama **Anda** masih diperlukan bahkan dengan cadangan awan
+- **Amankan kata sandi utama Anda**: gunakan kata sandi yang unik dan kuat yang disimpan dalam pengelola kata sandi
+- Selalu perbarui **aplikasi Anda** dengan patch keamanan terbaru
+- Aktifkan **penguncian otomatis** dalam pengaturan untuk mengamankan akses ke aplikasi
+- Nonaktifkan **tangkapan layar** (opsi default) untuk mencegah kode Anda disadap
+- **Gunakan biometrik dengan hemat**: lebih memilih kata sandi untuk akses penting
 
 
 
@@ -534,9 +534,9 @@ Keamanan akun online Anda tidak harus bergantung pada niat baik perusahaan komer
 
 
 
-- Situs web resmi**: [getaegis.app](https://getaegis.app/) - Presentasi dan pengunduhan aplikasi
-- Kode sumber**: [github.com/beemdevelopment/Aegis](https://github.com/beemdevelopment/Aegis) - Repositori resmi GitHub
-- F-Droid** : [f-droid.org/packages/com.beemdevelopment.aegis](https://f-droid.org/packages/com.beemdevelopment.aegis/) - Instalasi melalui toko gratis
+- **Situs web resmi**: [getaegis.app](https://getaegis.app/) - Presentasi dan pengunduhan aplikasi
+- **Kode sumber**: [github.com/beemdevelopment/Aegis](https://github.com/beemdevelopment/Aegis) - Repositori resmi GitHub
+- **F-Droid**: [f-droid.org/packages/com.beemdevelopment.aegis](https://f-droid.org/packages/com.beemdevelopment.aegis/) - Instalasi melalui toko gratis
 
 
 
@@ -545,6 +545,6 @@ Keamanan akun online Anda tidak harus bergantung pada niat baik perusahaan komer
 
 
 
-- Dokumentasi lemari besi**: [Desain Vault] (https://github.com/beemdevelopment/Aegis/blob/master/docs/vault.md) - Deskripsi teknis enkripsi dan arsitektur yang aman
-- Pertanyaan Umum Resmi**: [getaegis.app/#faq](https://getaegis.app/#faq) - Jawaban atas pertanyaan yang sering diajukan
-- Wiki proyek**: [github.com/beemdevelopment/Aegis/wiki](https://github.com/beemdevelopment/Aegis/wiki) - Dokumentasi pengguna lengkap
+- **Dokumentasi lemari besi**: [Desain Vault](https://github.com/beemdevelopment/Aegis/blob/master/docs/vault.md) - Deskripsi teknis enkripsi dan arsitektur yang aman
+- **Pertanyaan Umum Resmi**: [getaegis.app/#faq](https://getaegis.app/#faq) - Jawaban atas pertanyaan yang sering diajukan
+- **Wiki proyek**: [github.com/beemdevelopment/Aegis/wiki](https://github.com/beemdevelopment/Aegis/wiki) - Dokumentasi pengguna lengkap

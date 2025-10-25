@@ -10,7 +10,7 @@ ___
 
 
 
-*Denne opplæringen er basert på originalt innhold av Florian Duchemin publisert på [IT-Connect](https://www.it-connect.fr/). Lisens [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Det kan ha blitt gjort endringer i den opprinnelige teksten
+*Denne opplæringen er basert på originalt innhold av Florian Duchemin publisert på [IT-Connect](https://www.it-connect.fr/). Lisens [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Det kan ha blitt gjort endringer i den opprinnelige teksten.*
 
 
 
@@ -160,9 +160,9 @@ Her ser jeg tre grensesnitt:
 
 
 
-- Lo**: Dette er loopback Interface; det er en virtuell Interface som "looper" over utstyret. I utgangspunktet brukes denne Interface-en, hvis Address er 127.0.0.1 (selv om en hvilken som helst Address i 127.0.0.0/8 duger, ettersom dette området er reservert for dette formålet), til å kontakte selve utstyret. Hvis du har installert et nettsted på arbeidsstasjonen din (for eksempel ved hjelp av WAMPP), har du sannsynligvis brukt "*localhost*" Address en eller annen gang for å vise nettstedet som ligger på din egen maskin. Dette vertsnavnet er knyttet til Address 127.0.0.1 og dermed til Interface-loopbacken.
-- ens33**: dette er min første Interface, som mottok en Address her fra DHCP-en min
-- ens36**: min andre Interface
+- **Lo**: Dette er loopback Interface; det er en virtuell Interface som "looper" over utstyret. I utgangspunktet brukes denne Interface-en, hvis Address er 127.0.0.1 (selv om en hvilken som helst Address i 127.0.0.0/8 duger, ettersom dette området er reservert for dette formålet), til å kontakte selve utstyret. Hvis du har installert et nettsted på arbeidsstasjonen din (for eksempel ved hjelp av WAMPP), har du sannsynligvis brukt "*localhost*" Address en eller annen gang for å vise nettstedet som ligger på din egen maskin. Dette vertsnavnet er knyttet til Address 127.0.0.1 og dermed til Interface-loopbacken.
+- **ens33**: dette er min første Interface, som mottok en Address her fra DHCP-en min
+- **ens36**: min andre Interface
 
 
 
@@ -211,8 +211,8 @@ Her er noen forklaringer på disse første endringene:
 
 
 
-- auto *Interface***: vil automatisk "starte" Interface ved oppstart av systemet
-- iface *Interface* inet manual**: for å bruke Interface uten noen IP Address. Som nøkkelordet "static" for å definere en statisk IP Address eller "dhcp" for å bruke dynamisk adressering
+- auto **Interface**: vil automatisk "starte" Interface ved oppstart av systemet
+- iface *Interface* inet **manual**: for å bruke Interface uten noen IP Address. Som nøkkelordet "static" for å definere en statisk IP Address eller "dhcp" for å bruke dynamisk adressering
 
 
 
@@ -239,10 +239,10 @@ Her igjen, noen forklaringer:
 
 
 
-- iface br0 inet static**: her har jeg definert min Interface-bro (*br0*) med en statisk Address.
-- Address, nettmaske, gateway**: informasjon om kortadressering
-- bridge_ports**: grensesnitt som skal inkluderes i broen
-- bridge_stp**: Spanning Tree-protokollen brukes ved sammenkobling av svitsjer for å oppdage redundante koblinger og unngå looper. Siden en bro kan settes inn mellom to nettverksbaner, kan den være kilden til en sløyfe, og derfor er det mulig å aktivere denne protokollen. Jeg trenger den ikke her, så jeg deaktiverer den.
+- **iface br0 inet static**: her har jeg definert min Interface-bro (*br0*) med en statisk Address.
+- **Address, nettmaske, gateway**: informasjon om kortadressering
+- **bridge_ports**: grensesnitt som skal inkluderes i broen
+- **bridge_stp**: Spanning Tree-protokollen brukes ved sammenkobling av svitsjer for å oppdage redundante koblinger og unngå looper. Siden en bro kan settes inn mellom to nettverksbaner, kan den være kilden til en sløyfe, og derfor er det mulig å aktivere denne protokollen. Jeg trenger den ikke her, så jeg deaktiverer den.
 
 
 
@@ -281,8 +281,8 @@ Som standard inneholder pakkekildene kun DFSG (*Debian Free Sotftware Guidelines
 
 
 
-- contrib**: pakker som inneholder DFSG-kompatibel programvare, men som bruker avhengigheter som ikke er en del av **main**-grenen
-- non-free**: inneholder pakker som ikke er DFSG-kompatible
+- **contrib**: pakker som inneholder DFSG-kompatibel programvare, men som bruker avhengigheter som ikke er en del av **main**-grenen
+- **non-free**: inneholder pakker som ikke er DFSG-kompatible
 
 
 
@@ -426,7 +426,7 @@ Du vil også legge merke til en ny meny øverst i dette sammendraget. Jeg foresl
 ![Image](assets/fr/017.webp)
 
 
-Ha, det ser ut til at vi har et svar! På grafen til venstre ser vi at 76,6 % av trafikken kommer fra ... Windows Update**, så denne verten laster ned oppdateringer!
+Ha, det ser ut til at vi har et svar! På grafen til venstre ser vi at 76,6 % av trafikken kommer fra **Windows Update**, så denne verten laster ned oppdateringer!
 
 
 
@@ -442,7 +442,7 @@ For å demonstrere dette starter jeg en YouTube-video på verten min:
 
 
 
-**Trafikken ble umiddelbart gjenkjent og kategorisert!
+**Trafikken ble umiddelbart gjenkjent og kategorisert!**
 
 
 

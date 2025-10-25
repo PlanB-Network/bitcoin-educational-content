@@ -1,4 +1,4 @@
-question: How do I import the "NonInflatableAsset.rgb" Schema into the local stash?
+question: How do I import the NonInflatableAsset.rgb Schema into the local stash?
 answer: rgb import schemata/NonInflatableAssets.rgb
 wrong_answers:
   - rgb import schema/NonInflatableAssets.rgb

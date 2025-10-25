@@ -36,10 +36,10 @@ Maar Firefox kiezen is slechts de eerste stap. Standaard vereist zelfs Firefox a
 
 
 
-- Gratis en open-source** (Gecko-engine): controleerbare, transparante code
-- Non-profitorganisatie**: Mozilla Foundation, missie van algemeen belang
-- Ingebouwde native beveiligingen**: Verbeterde Trackingbescherming (ETP), Totale cookiebescherming (TCP), State Partitioning, Alleen HTTPS-modus, DNS over HTTPS (DoH)
-- Geavanceerde aanpassingen**: in tegenstelling tot Chrome kunt u bij Firefox het gedrag diepgaand aanpassen
+- **Gratis en open-source** (Gecko-engine): controleerbare, transparante code
+- **Non-profitorganisatie**: Mozilla Foundation, missie van algemeen belang
+- **Ingebouwde native beveiligingen**: Verbeterde Trackingbescherming (ETP), Totale cookiebescherming (TCP), State Partitioning, Alleen HTTPS-modus, DNS over HTTPS (DoH)
+- **Geavanceerde aanpassingen**: in tegenstelling tot Chrome kunt u bij Firefox het gedrag diepgaand aanpassen
 
 
 
@@ -49,9 +49,9 @@ Maar Firefox kiezen is slechts de eerste stap. Standaard vereist zelfs Firefox a
 
 
 
-- Geen universeel recept**: hoe meer je aanpast, hoe meer je het risico loopt op te vallen (fingerprinting). Het doel is om beter beschermd te zijn zonder op te vallen.
-- Stap-voor-stap vooruitgang**: Verander een instelling, test je gebruikelijke sites en ga dan verder. Je hoeft niet alles in één keer te veranderen.
-- Persoonlijke balans**: Vind JOUW compromis tussen privacy en gebruiksgemak.
+- **Geen universeel recept**: hoe meer je aanpast, hoe meer je het risico loopt op te vallen (fingerprinting). Het doel is om beter beschermd te zijn zonder op te vallen.
+- **Stap-voor-stap vooruitgang**: Verander een instelling, test je gebruikelijke sites en ga dan verder. Je hoeft niet alles in één keer te veranderen.
+- **Persoonlijke balans**: Vind JOUW compromis tussen privacy en gebruiksgemak.
 
 
 
@@ -69,9 +69,9 @@ Maar Firefox kiezen is slechts de eerste stap. Standaard vereist zelfs Firefox a
 
 
 
-- Windows**: download het `.exe` installatieprogramma, dubbelklik en volg de installatiewizard
-- macOS**: download het `.dmg`-bestand, open het en sleep Firefox naar de map Toepassingen
-- Linux**: verschillende opties beschikbaar - pakket `.deb`/`.rpm`, Flatpak (Flathub), Snap, of via pakketbeheerder (apt, dnf, pacman). Geef de voorkeur aan officiële Mozilla-bronnen.
+- **Windows**: download het `.exe` installatieprogramma, dubbelklik en volg de installatiewizard
+- **macOS**: download het `.dmg`-bestand, open het en sleep Firefox naar de map Toepassingen
+- **Linux**: verschillende opties beschikbaar - pakket `.deb`/`.rpm`, Flatpak (Flathub), Snap, of via pakketbeheerder (apt, dnf, pacman). Geef de voorkeur aan officiële Mozilla-bronnen.
 
 
 
@@ -106,9 +106,9 @@ Maar Firefox kiezen is slechts de eerste stap. Standaard vereist zelfs Firefox a
 
 
 
-- Site-isolatie (Fission)**: in progressieve implementatie. Deze functie voert elke site in een apart proces uit om te voorkomen dat een kwaadaardig tabblad toegang krijgt tot de gegevens van een ander. Controleer de status via `about:support` (zoek naar "Fission"). Als het niet is ingeschakeld, kun je het handmatig activeren in `about:config` met `fission.autostart = true`.
-- Total Cookie Protection (TCP)**: standaard actief. Cookies en andere opslag worden beperkt tot de site van de eerste partij (één "potje" per site), waardoor cross-site tracking wordt geneutraliseerd. Waar nodig worden tijdelijke uitzonderingen gemaakt via de Storage Access API (geïntegreerde aanmeldingsknoppen).
-- Bescherming tegen volgen via bounce/omleiding**: Firefox detecteert en ruimt automatisch cookies op die zijn achtergelaten door bounce-sites (koppelingen die u via een tracker vóór de bestemming omleiden), waardoor dit trackingkanaal zonder enige actie van uw kant wordt verminderd.
+- **Site-isolatie (Fission)**: in progressieve implementatie. Deze functie voert elke site in een apart proces uit om te voorkomen dat een kwaadaardig tabblad toegang krijgt tot de gegevens van een ander. Controleer de status via `about:support` (zoek naar "Fission"). Als het niet is ingeschakeld, kun je het handmatig activeren in `about:config` met `fission.autostart = true`.
+- **Total Cookie Protection (TCP)**: standaard actief. Cookies en andere opslag worden beperkt tot de site van de eerste partij (één "potje" per site), waardoor cross-site tracking wordt geneutraliseerd. Waar nodig worden tijdelijke uitzonderingen gemaakt via de Storage Access API (geïntegreerde aanmeldingsknoppen).
+- **Bescherming tegen volgen via bounce/omleiding**: Firefox detecteert en ruimt automatisch cookies op die zijn achtergelaten door bounce-sites (koppelingen die u via een tracker vóór de bestemming omleiden), waardoor dit trackingkanaal zonder enige actie van uw kant wordt verminderd.
 
 
 
@@ -146,13 +146,13 @@ Hier zijn de verschillende ETP beveiligingsniveaus:
 
 
 
-- Standaard** (gebalanceerd, maximale compatibiliteit)
+- **Standaard** (gebalanceerd, maximale compatibiliteit)
   - Blokkeert: sociale trackers, cross-site cookies (alle vensters), inhoud volgen in privénavigatie, cryptocurrency miners, vingerafdrukdetectors.
   - Inclusief **Total Cookie Protection** (TCP): één potje per site.
-- Strict** (aanbevolen voor vertrouwelijkheid)
+- **Strict** (aanbevolen voor vertrouwelijkheid)
   - Blokkeert ook tracking-inhoud in alle vensters + bekende en vermoede vingerafdrukken.
   - Kan sommige sites breken; gebruik het 🛡️ schild voor een lokale uitzondering.
-- Aangepast** (geavanceerd)
+- **Aangepast** (geavanceerd)
   - Fijnafstemming: cookies, tracking-inhoud, minderjarigen, vingerafdrukken (bekend/verdacht).
 
 
@@ -161,7 +161,7 @@ Hier zijn de verschillende ETP beveiligingsniveaus:
 
 
 
-**Cookies en sitegegevens
+**Cookies en sitegegevens**
 
 
 
@@ -176,9 +176,9 @@ Hier zijn de verschillende ETP beveiligingsniveaus:
 
 
 - Deactiveer **autofill** (ID's, adressen, kaarten). Gebruik in plaats daarvan een wachtwoordmanager.
-- Zoeken**: uitschakelen **"Zoeksuggesties weergeven"**.
-- Address balk**: knip **"Gesponsorde suggesties"** en **"Contextuele suggesties"**.
-- Home**: schakel **Pocket** en **gesponsorde inhoud** uit.
+- **Zoeken**: uitschakelen **"Zoeksuggesties weergeven"**.
+- Address balk: knip **"Gesponsorde suggesties"** en **"Contextuele suggesties"**.
+- **Home**: schakel **Pocket** en **gesponsorde inhoud** uit.
 
 
 
@@ -186,7 +186,7 @@ Hier zijn de verschillende ETP beveiligingsniveaus:
 
 
 
-*alleen *HTTPS**
+*alleen* **HTTPS**
 
 
 
@@ -198,14 +198,14 @@ Hier zijn de verschillende ETP beveiligingsniveaus:
 
 
 
-**Telemetrie en reclamemeting
+**Telemetrie en reclamemeting**
 
 
 
 
 - Schakel bij "Gegevensverzameling door Firefox" **alles** uit.
 - Deactiveer **"Privacyvriendelijke advertentiemaatregelen"** (PPA).
-- Safe Browsing**: ingeschakeld houden (aanbevolen). Firefox controleert sites op dreigingslijsten via gehashte query's en lokale controles, en beschermt zo tegen phishing en malware met minimale gevolgen voor de privacy.
+- **Safe Browsing**: ingeschakeld houden (aanbevolen). Firefox controleert sites op dreigingslijsten via gehashte query's en lokale controles, en beschermt zo tegen phishing en malware met minimale gevolgen voor de privacy.
 
 
 
@@ -218,7 +218,7 @@ Hier zijn de verschillende ETP beveiligingsniveaus:
 
 
 
-**Zoekmachine
+**Zoekmachine**
 
 
 
@@ -245,10 +245,10 @@ Hier zijn de verschillende ETP beveiligingsniveaus:
 
 
 
-- uBlock Origin**: blokkeert advertenties en huidige tracking, lichtgewicht.
-- Privacy Badger**: leert te blokkeren wat jou volgt; stuurt Do Not Track / GPC.
-- ClearURLs** (optioneel): Firefox (ETP Strict) en uBO ruimen al veel op; bewaar deze als je nog steeds "vuile" URL's ziet (utm, fbclid).
-- Firefox Containers voor meerdere accounts**: **isoleert cookies/sessies en opslag per container; parallelle multi-accounts; minder cross-site tracking**. Officiële extensie: `https://addons.mozilla.org/fr/firefox/addon/multi-account-containers/`.
+- **uBlock Origin**: blokkeert advertenties en huidige tracking, lichtgewicht.
+- **Privacy Badger**: leert te blokkeren wat jou volgt; stuurt Do Not Track / GPC.
+- **ClearURLs** (optioneel): Firefox (ETP Strict) en uBO ruimen al veel op; bewaar deze als je nog steeds "vuile" URL's ziet (utm, fbclid).
+- **Firefox Containers voor meerdere accounts**: **isoleert cookies/sessies en opslag per container; parallelle multi-accounts; minder cross-site tracking**. Officiële extensie: `https://addons.mozilla.org/fr/firefox/addon/multi-account-containers/`.
 
 
 
@@ -261,7 +261,7 @@ Hier zijn de verschillende ETP beveiligingsniveaus:
 
 
 
-- Gebruik een speciale wachtwoordmanager** (Bitwarden, KeePassXC). **Vermijd** het opslaan van wachtwoorden in de browser. **Enable 2FA** waar mogelijk.
+- Gebruik een speciale **wachtwoordmanager** (Bitwarden, KeePassXC). **Vermijd** het opslaan van wachtwoorden in de browser. **Enable 2FA** waar mogelijk.
 
 
 
@@ -278,11 +278,11 @@ Doel: activiteiten compartimenteren en netwerklekken verminderen.
 
 
 
-- Standaardstatus**: Automatisch geactiveerd in sommige regio's (VS, Canada, Rusland, Oekraïne). Elders handmatige activering vereist.
-- Configuratie**: Instellingen → Algemeen → Netwerkinstellingen → **DoH inschakelen** → **Cloudflare** of **Quad9** → **Maximale bescherming**.
-- Maximale bescherming = alleen TRR** (geen fallback naar systeem DNS). Als een bedrijfs-/hotelnetwerk blokkeert, schakel dan terug naar **Standaard** of schakel DoH uit.
-- Redundantie**: Als je al een vertrouwd VPN gebruikt met een eigen beveiligde DNS, kan DoH overbodig zijn.
-- Controletest**: `https://www.dnsleaktest.com/` moet alleen de gekozen DoH provider weergeven.
+- **Standaardstatus**: Automatisch geactiveerd in sommige regio's (VS, Canada, Rusland, Oekraïne). Elders handmatige activering vereist.
+- **Configuratie**: Instellingen → Algemeen → Netwerkinstellingen → **DoH inschakelen** → **Cloudflare** of **Quad9** → **Maximale bescherming**.
+- Maximale bescherming = alleen **TRR** (geen fallback naar systeem DNS). Als een bedrijfs-/hotelnetwerk blokkeert, schakel dan terug naar **Standaard** of schakel DoH uit.
+- **Redundantie**: Als je al een vertrouwd VPN gebruikt met een eigen beveiligde DNS, kan DoH overbodig zijn.
+- **Controletest**: `https://www.dnsleaktest.com/` moet alleen de gekozen DoH provider weergeven.
 
 
 
@@ -290,20 +290,20 @@ Doel: activiteiten compartimenteren en netwerklekken verminderen.
 
 
 
-**Compartimentering met containers en profielen
+**Compartimentering met containers en profielen**
 
 
 
 
-- Containers met meerdere accounts**: maak ruimtes (Persoonlijk, Werk, Financiën, Sociale netwerken, Winkelen, Wegwerp). Configureer **"Altijd openen in deze container"** voor uw terugkerende sites. Officiële extensie: `https://addons.mozilla.org/fr/firefox/addon/multi-account-containers/`.
+- **Containers met meerdere accounts**: maak ruimtes (Persoonlijk, Werk, Financiën, Sociale netwerken, Winkelen, Wegwerp). Configureer **"Altijd openen in deze container"** voor uw terugkerende sites. Officiële extensie: `https://addons.mozilla.org/fr/firefox/addon/multi-account-containers/`.
 - Waarom zou je ze gebruiken?
-  - Sterke isolatie** van cookies/sessies/opslag per ruimte.
-  - Minder cross-site tracking**: beperk de reuzen (Facebook, Google).
-  - Gelijktijdige multi-accounts** op dezelfde service.
-  - Minder risico op CSRF/XSS** tussen gesegmenteerde identiteiten.
+- **Sterke isolatie** van cookies/sessies/opslag per ruimte.
+- **Minder cross-site tracking**: beperk de reuzen (Facebook, Google).
+- Gelijktijdige **multi-accounts** op dezelfde service.
+- Minder risico op **CSRF/XSS** tussen gesegmenteerde identiteiten.
   - Tip: op zijn minst speciale containers voor Sociale netwerken/Google, Werk, Financiën.
-- Facebook Container** (optioneel): een vereenvoudigde versie speciaal voor FB/Instagram.
-- Aparte profielen**: via `about:profiles` (hoofdprofiel, minimaal "ultraveilig" profiel, testprofiel). Volledige compartimentering van gegevens en extensies.
+- **Facebook Container** (optioneel): een vereenvoudigde versie speciaal voor FB/Instagram.
+- **Aparte profielen**: via `about:profiles` (hoofdprofiel, minimaal "ultraveilig" profiel, testprofiel). Volledige compartimentering van gegevens en extensies.
 
 
 
@@ -312,8 +312,8 @@ Doel: activiteiten compartimenteren en netwerklekken verminderen.
 
 
 
-- Cookie AutoDelete**: verwijdert de cookies van een website zodra het tabblad wordt gesloten (handig als Firefox lange tijd open staat).
-- LocalCDN**: serveert de huidige bibliotheken lokaal (vermindert oproepen naar Google/Microsoft). Gedeeltelijke compatibiliteit.
+- **Cookie AutoDelete**: verwijdert de cookies van een website zodra het tabblad wordt gesloten (handig als Firefox lange tijd open staat).
+- **LocalCDN**: serveert de huidige bibliotheken lokaal (vermindert oproepen naar Google/Microsoft). Gedeeltelijke compatibiliteit.
 
 
 
@@ -322,7 +322,7 @@ Doel: activiteiten compartimenteren en netwerklekken verminderen.
 
 
 
-- Firefox Android + uBlock Origin**: vergelijkbare bescherming onderweg.
+- **Firefox Android + uBlock Origin**: vergelijkbare bescherming onderweg.
 
 
 
@@ -542,11 +542,11 @@ Beste praktijken
 
 
 
-- Updates**: Firefox en extensies bijgewerkt.
-- Verlengingen**: redelijk en betrouwbaar; kijk uit voor "dubieuze" aflossingen.
-- Downloads**: let op; test gevoelige bestanden op VirusTotal.
-- Wachtwoorden**: **dedicated manager** (Bitwarden, KeePassXC); **2FA** ingeschakeld; voorkom opslaan in browser.
-- Hygiëne**: beperk Google/Facebook tot containers; sluit/open regelmatig om de context te "resetten".
+- **Updates**: Firefox en extensies bijgewerkt.
+- **Verlengingen**: redelijk en betrouwbaar; kijk uit voor "dubieuze" aflossingen.
+- **Downloads**: let op; test gevoelige bestanden op VirusTotal.
+- **Wachtwoorden**: **dedicated manager** (Bitwarden, KeePassXC); **2FA** ingeschakeld; voorkom opslaan in browser.
+- **Hygiëne**: beperk Google/Facebook tot containers; sluit/open regelmatig om de context te "resetten".
 
 
 
@@ -559,7 +559,7 @@ Beste praktijken
 - Een verharde browser ≠ netwerkanonimiteit: zonder **VPN** blijft je IP zichtbaar; zelfs met blijft correlatie mogelijk.
 - Te veel aanpassen kan je **uniek** maken. **RFP** standaardiseert; randomisatietools (bijv. Kameleon) kunnen... je onderscheiden. Test, vergelijk, pas aan.
 - Alternatieven/complementen:
- - Tor Browser: netwerkanonimiteit via Tor; langzamer. Bekijk onze volledige installatie- en configuratiegids**:
+- Tor Browser: netwerkanonimiteit via Tor; langzamer. Bekijk onze volledige installatie- en configuratiegids:
 
 
 
@@ -567,7 +567,7 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 
 
- - Mullvad-browser: "Tor zonder Tor", te combineren met VPN; gestandaardiseerde footprint. Ontdek hoe je het installeert in onze speciale tutorial**:
+- Mullvad-browser: "Tor zonder Tor", te combineren met VPN; gestandaardiseerde footprint. Ontdek hoe je het installeert in onze speciale **tutorial**:
 
 
 
@@ -591,7 +591,7 @@ Door deze stapsgewijze handleiding te volgen, hebt u Firefox omgetoverd tot een 
 
 
 
-**Onthoud: vertrouwelijkheid is nooit vanzelfsprekend. Test je bescherming regelmatig, werk je instellingen bij en aarzel niet om je configuratie aan te passen als je gewoonten veranderen. Je online anonimiteit hangt evenveel af van je tools als van je gewoontes.
+**Onthoud: vertrouwelijkheid is nooit vanzelfsprekend. Test je bescherming regelmatig, werk je instellingen bij en aarzel niet om je configuratie aan te passen als je gewoonten veranderen. Je online anonimiteit hangt evenveel af van je tools als van je gewoontes.**
 
 
 
@@ -604,7 +604,7 @@ Door deze stapsgewijze handleiding te volgen, hebt u Firefox omgetoverd tot een 
 
 
 
-- SCU 202 - Uw persoonlijke digitale veiligheid verbeteren: Voor meer informatie over de concepten voor digitale beveiliging die in deze tutorial aan bod komen**
+- SCU 202 - Uw persoonlijke digitale veiligheid verbeteren: Voor meer informatie over de concepten voor digitale beveiliging die in deze tutorial aan bod komen
 
 
 
@@ -637,8 +637,8 @@ https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 
 - [PrivacyGidsen - Desktopbrowsers](https://www.privacyguides.org/en/desktop-browsers/): Browseraanbevelingen en -vergelijkingen
-- Reddit**: r/firefox, r/privacy voor feedback en ondersteuning
-- PrivacyGuides forum**: diepgaande technische discussies
+- **Reddit**: r/firefox, r/privacy voor feedback en ondersteuning
+- **PrivacyGuides forum**: diepgaande technische discussies
 
 
 

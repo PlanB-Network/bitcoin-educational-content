@@ -1,4 +1,4 @@
-question: Je, ni kizingiti gani rasmi cha nchi kuzingatiwa katika mfumuko wa bei?
+question: Je, ni kizingiti kipi rasmi cha nchi kuzingatiwa katika mfumuko wa bei?
 answer: 50% kwa mwezi
 wrong_answers:
   - 10% kwa mwezi
@@ -7,4 +7,4 @@ wrong_answers:
 explanation: |
   Mwaka 2007, mfumuko wa bei wa Zimbabwe ulifikia kiwango cha 50% kwa mwezi,
   kuashiria nchi kuwa katika mfumuko wa bei.
-reviewed: false
+reviewed: true

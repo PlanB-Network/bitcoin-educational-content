@@ -1,5 +1,5 @@
 ---
-name: Bitcoin Keeper - säkerhet med flera nycklar
+name: Bitcoin Keeper
 description: Bitcoin Keeper App - en mobilapplikation som gör att du kan skapa både Hot-plånböcker och Cold-förvaringsvalv för långsiktigt sparande
 ---
 

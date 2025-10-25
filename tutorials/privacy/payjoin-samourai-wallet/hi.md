@@ -1,5 +1,5 @@
 ---
-name: PayJoin - समुराई Wallet
+name: Payjoin - Samourai Wallet
 description: समौराई Wallet पर PayJoin लेनदेन कैसे करें?
 ---
 ![samourai payjoin cover](assets/cover.webp)

@@ -18,11 +18,11 @@ Sie haben bereits:
 In diesem Tutorial zeigen wir Ihnen, wie Sie Ihr Tutorial mit der Web-Version von GitHub zum Plan ₿ Network hinzufügen. Wenn Sie Git bereits beherrschen, ist dieses sehr detaillierte Tutorial vielleicht nicht notwendig für Sie. Stattdessen empfehle ich Ihnen, sich eines der beiden anderen Tutorials anzusehen, in denen ich die zu befolgenden Richtlinien und die Schritte zum Vornehmen von Änderungen von einem lokalen:
 
 
-- Erfahrene Benutzer**:
+- **Erfahrene Benutzer**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
-- Fortgeschrittene (GitHub Desktop)**:
+- **Fortgeschrittene (GitHub Desktop)**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
@@ -346,8 +346,8 @@ Das Ausrufezeichen am Anfang weist auf ein Bild hin. Der alternative Text, der d
 Wenn Sie Ihre eigenen Schemata erstellen möchten, sollten Sie sich an die grafischen Richtlinien des Plan ₿ Network halten, um die visuelle Konsistenz zu gewährleisten:
 
 
-- Schriftart**: Verwenden Sie [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
-- Farben**:
+- **Schriftart**: Verwenden Sie [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
+- **Farben**:
  - Orange: #FF5C00
  - Schwarz: #000000
  - Weiß: #FFFFFF

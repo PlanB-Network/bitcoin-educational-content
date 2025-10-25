@@ -27,25 +27,25 @@ PureOS ni mfumo wa uendeshaji unaotegemea Debian uliotengenezwa na Purism. PureO
 
 
 
-- Rahisi, angavu Interface**: GNOME inatoa eneo-kazi wazi la Interface, iliyoundwa kuwa rahisi kutumia, hata kwa watu ambao hawapendezwi na safu ya amri.
+- **Rahisi, angavu Interface**: GNOME inatoa eneo-kazi wazi la Interface, iliyoundwa kuwa rahisi kutumia, hata kwa watu ambao hawapendezwi na safu ya amri.
 
 
 
 
 
-- Bure**: kama usambazaji mwingi wa Linux, PureOS ni bure kabisa kutumia. Hata hivyo, usajili wa kila mwezi unapatikana ili kusaidia wasanidi programu.
+- **Bure**: kama usambazaji mwingi wa Linux, PureOS ni bure kabisa kutumia. Hata hivyo, usajili wa kila mwezi unapatikana ili kusaidia wasanidi programu.
 
 
 
 
 
-- Usalama na uthabiti**: Usanifu na hali ya uendeshaji ya PureOS huifanya usambazaji salama sana, unaohakikisha ulinzi wa data na uthabiti wa mfumo.
+- **Usalama na uthabiti**: Usanifu na hali ya uendeshaji ya PureOS huifanya usambazaji salama sana, unaohakikisha ulinzi wa data na uthabiti wa mfumo.
 
 
 
 
 
-- Hati na jumuiya inayotumika**: PureOS ina hati wazi, zinazoweza kufikiwa na jumuiya iliyojitolea, inayoitikia, inayoifanya iwe rahisi kutatua matatizo na kujifunza mfumo hatua kwa hatua.
+- **Hati na jumuiya inayotumika**: PureOS ina hati wazi, zinazoweza kufikiwa na jumuiya iliyojitolea, inayoitikia, inayoifanya iwe rahisi kutatua matatizo na kujifunza mfumo hatua kwa hatua.
 
 
 
@@ -181,7 +181,7 @@ Una chaguzi mbili za kugawa diski yako ya Hard:
 
 
 
-- Futa diski**: Kwa usakinishaji kamili wa PureOS, kufuta data zote zilizopo kwenye diski yako ya Hard.
+- **Futa diski**: Kwa usakinishaji kamili wa PureOS, kufuta data zote zilizopo kwenye diski yako ya Hard.
 
 
 
@@ -191,7 +191,7 @@ Una chaguzi mbili za kugawa diski yako ya Hard:
 
 
 
-- Kugawanya Mwongozo** ili kuunda alama zako mwenyewe
+- **Kugawanya Mwongozo** ili kuunda alama zako mwenyewe
 
 
 
@@ -260,7 +260,7 @@ Kabla ya kuanza kutumia PureOS, ni muhimu kusasisha mfumo wako. Hii itakuwezesha
 
 
 
-- Sasisha kupitia mchoro wa Interface**:
+- Sasisha kupitia mchoro wa **Interface**:
 
 
 Fungua programu ya **Programu**, kisha uende kwenye kichupo cha **Sasisho**. Masasisho yanayopatikana yanaonyeshwa kiotomatiki. Bofya **Pakua**, kisha **Sakinisha** upakuaji utakapokamilika.
@@ -269,7 +269,7 @@ Fungua programu ya **Programu**, kisha uende kwenye kichupo cha **Sasisho**. Mas
 
 
 
-- Sasisha kupitia terminal**:
+- **Sasisha kupitia terminal**:
 
 
 Fungua terminal, kisha ingiza amri ifuatayo ili kusasisha orodha ya vifurushi vinavyopatikana:
@@ -331,9 +331,9 @@ PureOS pia inajumuisha **LibreOffice** ofisi ya Suite, ambayo ni pamoja na:
 
 
 
-- Mwandishi**: kichakataji kamili cha maneno cha kuunda na kuhariri hati.
-- Calc**: programu yenye nguvu ya lahajedwali ya kudhibiti data na hesabu zako.
-- Boresha**: zana ya kuunda mawasilisho ya kitaalamu.
+- **Mwandishi**: kichakataji kamili cha maneno cha kuunda na kuhariri hati.
+- **Calc**: programu yenye nguvu ya lahajedwali ya kudhibiti data na hesabu zako.
+- **Boresha**: zana ya kuunda mawasilisho ya kitaalamu.
 
 
 

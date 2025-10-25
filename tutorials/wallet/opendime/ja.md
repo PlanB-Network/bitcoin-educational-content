@@ -1,5 +1,5 @@
 ---
-name: オープンプライム
+name: OPENDIME
 description: OEPNDIMEを設定する
 ---
 

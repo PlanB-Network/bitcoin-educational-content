@@ -88,7 +88,7 @@ Voor Android gebruikers kun je de applicatie ook installeren via het `.apk` best
 ![GREEN 2FA MULTISIG](assets/fr/04.webp)
 
 
-Start de applicatie en vink het vakje "Ik accepteer de voorwaarden...*" aan.
+Start de applicatie en vink het vakje "Ik accepteer de voorwaarden..." aan.
 
 
 ![GREEN 2FA MULTISIG](assets/fr/05.webp)

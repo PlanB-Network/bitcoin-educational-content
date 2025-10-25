@@ -1,5 +1,5 @@
 ---
-name: Nodi Bitcoin
+name: Bitcoin Knots
 description: Come si lancia un nodo con il client alternativo Bitcoin Knots?
 ---
 ![cover](assets/cover.webp)
@@ -19,8 +19,8 @@ Tuttavia, è disponibile anche un software alternativo. Non si tratta di nodi co
 Ci sono due ragioni principali per utilizzare un client alternativo come Knots invece di Core:
 
 
-- Tecnico**: Questi client offrono spesso diverse opzioni al Core, in particolare in termini di gestione del Mempool, determinando quali transazioni vengono accettate e trasmesse dal nodo.
-- Politica**: Alcune persone preferiscono usare client alternativi come Knots per ragioni non tecniche, in particolare per supportare un'alternativa a Core e quindi ridurre il suo monopolio. Se Core fosse mai compromesso, sarebbe utile non solo avere client alternativi solidi e ben mantenuti, ma anche sapere come usarli. Altri usano Knots per protesta, perché hanno perso fiducia negli sviluppatori di Core o disapprovano la gestione del client di maggioranza.
+- **Tecnico**: Questi client offrono spesso diverse opzioni al Core, in particolare in termini di gestione del Mempool, determinando quali transazioni vengono accettate e trasmesse dal nodo.
+- **Politica**: Alcune persone preferiscono usare client alternativi come Knots per ragioni non tecniche, in particolare per supportare un'alternativa a Core e quindi ridurre il suo monopolio. Se Core fosse mai compromesso, sarebbe utile non solo avere client alternativi solidi e ben mantenuti, ma anche sapere come usarli. Altri usano Knots per protesta, perché hanno perso fiducia negli sviluppatori di Core o disapprovano la gestione del client di maggioranza.
 
 ## Come si installano i nodi Bitcoin?
 
@@ -218,7 +218,7 @@ Quindi accedere al software di gestione del portafoglio (ad esempio Sparrow Wall
 
 |**Windows**|%APPDATA%\Bitcoin|
 
-|**{\i}Linux {\i}~/.Bitcoin}
+|**Linux ~/.Bitcoin**
 
 ![Image](assets/fr/35.webp)
 
@@ -242,7 +242,7 @@ Dopo aver modificato il file, assicuratevi di salvarlo nella cartella appropriat
 
 |**Windows**|%APPDATA%\Bitcoin|
 
-|**{\i}Linux {\i}~/.Bitcoin}
+|**Linux ~/.Bitcoin**
 
 Questa operazione può essere eseguita anche tramite la grafica Bitcoin-QT di Interface. Accedere al menu "*Impostazioni*", quindi "*Opzioni...*", e attivare l'opzione "*Abilita server RPC*" selezionando la casella corrispondente. Se il file `Bitcoin.conf` non esiste, è possibile crearlo direttamente da questo Interface facendo clic su "*Apri file di configurazione*".
 

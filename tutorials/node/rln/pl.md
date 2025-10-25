@@ -96,7 +96,7 @@ Aby działać, `RGB-lightning-node` daemon potrzebuje obecności i konfiguracji 
 
 
 
-- Węzeł `bitcoind`**
+- Węzeł `bitcoind`
 
 
 Każda instancja RLN będzie musiała komunikować się z `bitcoind`, aby transmitować i monitorować transakcje On-Chain. Uwierzytelnianie (login/hasło) i adres URL (host/port) będą musiały być dostarczone do daemon.
@@ -104,7 +104,7 @@ Każda instancja RLN będzie musiała komunikować się z `bitcoind`, aby transm
 
 
 
-- Indeksator** (Electrum lub Esplora)
+- **Indeksator** (Electrum lub Esplora)
 
 
 daemon musi być w stanie wyświetlać i eksplorować transakcje On-Chain, w szczególności w celu znalezienia UTXO, na którym zakotwiczono aktywa. Konieczne będzie podanie adresu URL serwera Electrum lub Esplora.
@@ -112,7 +112,7 @@ daemon musi być w stanie wyświetlać i eksplorować transakcje On-Chain, w szc
 
 
 
-- Serwer proxy RGB**
+- Serwer proxy **RGB**
 
 
 Serwer proxy jest komponentem (opcjonalnym, ale wysoce zalecanym) upraszczającym przesyłanie Exchange z RGB *przesyłek* między urządzeniami równorzędnymi Lightning. Ponownie należy określić adres URL.

@@ -1,5 +1,5 @@
 ---
-name: Sateenvarjo Nostr
+name: Umbrel Nostr
 description: Nostr-sovellusten määrittäminen ja käyttö Umbrelissa
 ---
 
@@ -69,7 +69,7 @@ Näet sen Interface-verkon Umbrelin kautta: se antaa perustiedot ja ennen kaikke
 
 
 
-**Hyödyntääksesi sateenvarjoreleesi :
+**Hyödyntääksesi sateenvarjoreleesi:**
 
 
 
@@ -326,7 +326,7 @@ Turvallisuussyistä Umbreliin pääsee oletusarvoisesti käsiksi vain lähiverko
 
 
 
-- Pääsy Torin kautta:** Umbrel määrittää automaattisesti **Tor-palvelun (.onion)** Interface-verkkoa ja -sovelluksia varten. Tämä tarkoittaa, että voit käyttää Interface Umbrelia (mukaan lukien _noStrudel_ tai _Snort_) mistä tahansa Tor-selaimen avulla paljastamatta julkista IP-osoitettasi. _Torin avulla voit käyttää Umbrel-palveluitasi lähiverkkosi ulkopuolelta paljastamatta laitettasi Internetille ([Setup Tor on your system - Guides - Umbrel Community](https://community.umbrel.com/t/setup-tor-on-your-system/7509#:~:text=Official%20website%3A%20https%3A%2F%2Fwww)). _ Käyttääksesi tätä vaihtoehtoa, siirry Umbrelin asetuksiin ja hae Umbrelisi .onion-URL-osoite (tai skannaa annettu QR-koodi). Käy Tor-selaimella tätä .onion Address: saat saman Interface:n kuin paikallisesti. Sen jälkeen voit käyttää Nostr-sovelluksiasi aivan kuten kotona.
+- **Pääsy Torin kautta:** Umbrel määrittää automaattisesti **Tor-palvelun (.onion)** Interface-verkkoa ja -sovelluksia varten. Tämä tarkoittaa, että voit käyttää Interface Umbrelia (mukaan lukien *noStrudel* tai *Snort*) mistä tahansa Tor-selaimen avulla paljastamatta julkista IP-osoitettasi. *Torin avulla voit käyttää Umbrel-palveluitasi lähiverkkosi ulkopuolelta paljastamatta laitettasi Internetille* ([Setup Tor on your system - Guides - Umbrel Community](https://community.umbrel.com/t/setup-tor-on-your-system/7509#:~:text=Official%20website%3A%20https%3A%2F%2Fwww.tor)). Käyttääksesi tätä vaihtoehtoa, siirry Umbrelin asetuksiin ja hae Umbrelisi .onion-URL-osoite (tai skannaa annettu QR-koodi). Käy Tor-selaimella tätä .
 
 
 **Nostr-rele Torin kautta:** Jos haluat, että asiakkaasi (tai valtuutetut ystäväsi) voivat käyttää Nostr-releetäsi Torin kautta, se on mahdollista. Umbrel ei tarjoa releen .onion Address:tä suoraan, mutta koska se toimii portissa 4848, voit joko :
@@ -341,13 +341,13 @@ Turvallisuussyistä Umbreliin pääsee oletusarvoisesti käsiksi vain lähiverko
 
 
 
-    - Tai** paljasta portti 4848 erillisenä sipulipalveluna. Tämä vaatii Umbrelin Tor-konfiguraation muokkaamista (varattu SSH:n hallitseville edistyneille käyttäjille). Vaihtoehtoisesti voit harkita **Tor-tunnelia** toisella palvelimella, joka ohjaa Umbreliin: henkilökohtaiseen käyttöön on kuitenkin helpointa käyttää Tailscalea.
+- Tai paljasta portti 4848 erillisenä sipulipalveluna. Tämä vaatii Umbrelin Tor-konfiguraation muokkaamista (varattu SSH:n hallitseville edistyneille käyttäjille). Vaihtoehtoisesti voit harkita **Tor-tunnelia** toisella palvelimella, joka ohjaa Umbreliin: henkilökohtaiseen käyttöön on kuitenkin helpointa käyttää Tailscalea.
 
 
 
 
 
-- Pääsy Tailscalen kautta:** [Tailscale](https://tailscale.com/) on mesh-VPN-ratkaisu, joka luo virtuaalisen yksityisverkon laitteidesi ja Umbrelin välille. Etu: se toimii kuin olisit lähiverkossa, mutta Internetin kautta, salattuna ja ilman monimutkaisia asetuksia. **Tailscale määrittää Umbrel-laitteellesi kiinteän IP-osoitteen ja yksityisen verkkotunnuksen verkon sijainnista riippumatta ([Tailscale | Umbrel App Store](https://apps.umbrel.com/app/tailscale#:~:text=Tailscale%20is%20zero%20config%20VPN,reviewed%20and%20trusted%20standard))**. Käytännössä, kun olet asentanut Tailscalen Umbreliin (Umbrel App Storesta, kategoria _Networking_) **ja** laitteisiisi (matkapuhelin, PC...), voit tavoittaa Umbrelin Address:n kuten `100.x.y.z` (Tailscalen IP) tai nimen kuten `umbrel.tailnet123.ts.net` kautta.
+- Pääsy Tailscalen kautta: **[Tailscale](https://tailscale.com/) on mesh-VPN-ratkaisu, joka luo virtuaalisen yksityisverkon laitteidesi ja Umbrelin välille. Etu: se toimii kuin olisit lähiverkossa, mutta Internetin kautta, salattuna ja ilman monimutkaisia asetuksia.** Tailscale määrittää Umbrel-laitteellesi kiinteän IP-osoitteen ja yksityisen verkkotunnuksen verkon sijainnista riippumatta ([Tailscale | Umbrel App Store](https://apps.umbrel.com/app/tailscale#:~:text=Tailscale%20is%20zero%20config%20VPN,reviewed%20and%20trusted%20standard)). Käytännössä, kun olet asentanut Tailscalen Umbreliin (Umbrel App Storesta, kategoria *Networking*) **ja** laitteisiisi (matkapuhelin, PC...), voit tavoittaa Umbrelin Address:n kuten `100.x.y.z` (Tailscalen IP) tai
 
 
 nostr_:n osalta Tailscale on erittäin hyödyllinen: jos kännykkäsi, jossa Tailscale on aktiivinen, voi muodostaa yhteyden osoitteeseen `ws://umbrel:4848` (MagicDNS:n ansiosta) tai suoraan Tailscalen IP-osoitteeseen ja porttiin 4848 käyttääksesi relettä. Asiakkaat, kuten Damus tai Amethyst, näkevät Umbrelisi ikään kuin se olisi samassa lähiverkossa. **Vinkki:** Ota **MagicDNS** -vaihtoehto käyttöön Tailscale-ohjelmassa, jotta voit käyttää isäntänimeä `umbrel` sen sijaan, että muistaisit IP-osoitteen. Tämä takaa sujuvan yhteyden releeseesi myös silloin, kun olet liikkeellä ([Nostr Relay | Umbrel App Store](https://apps.umbrel.com/app/nostr-relay#:~:text=client%20%28e,That%27s%20it%21%20Your%20past)).
@@ -358,7 +358,7 @@ Lisäksi Tailscalen avulla voit käyttää Interface Umbrelia (ja siten _noStrud
 
 
 
-**Huomaa: Tor ja Tailscale eivät sulje toisiaan pois. Voit pitää Torin aktiivisena anonymisoitua käyttöä tai tiettyjä palveluja varten ja käyttää Tailscalea päivittäin sen yksinkertaisuuden vuoksi. Kummassakaan tapauksessa sinun ei tarvitse avata porttia reitittimessäsi, mikä vahvistaa turvallisuutta.
+**Huomaa: Tor ja Tailscale eivät sulje toisiaan pois. Voit pitää Torin aktiivisena anonymisoitua käyttöä tai tiettyjä palveluja varten ja käyttää Tailscalea päivittäin sen yksinkertaisuuden vuoksi. Kummassakaan tapauksessa sinun ei tarvitse avata porttia reitittimessäsi, mikä vahvistaa turvallisuutta.**
 
 
 
@@ -372,7 +372,7 @@ Jos isännöit Nostr-releetä Umbrelissa, erityisesti edistyneessä kontekstissa
 
 
 
-- Yksityinen tai rajoitettu rele:** Oletusarvoisesti Umbrel-releesi on yksityinen (ei julkisesti ilmoitettu), ja jos käytät sitä vain Tailscalen tai lähiverkkosi kautta, se pysyy vieraiden ulottumattomissa. **Pitäkää linkki luottamuksellisena ** Älä lähetä sitä julkisiin Nostr-verkkoihin, ellet halua vapaaehtoisesti isännöidä muita käyttäjiä, mikä on aivan toinen asia (moderointi, kaistanleveys jne.). Henkilökohtaisessa käytössä suosittelemme rajoittamaan pääsyn itsellesi ja tarvittaessa muutamalle luotettavalle ystävälle ja perheelle.
+- Yksityinen tai rajoitettu rele: Oletusarvoisesti Umbrel-releesi on yksityinen (ei julkisesti ilmoitettu), ja jos käytät sitä vain Tailscalen tai lähiverkkosi kautta, se pysyy vieraiden ulottumattomissa. **Pitäkää linkki luottamuksellisena** - Älä lähetä sitä julkisiin Nostr-verkkoihin, ellet halua vapaaehtoisesti isännöidä muita käyttäjiä, mikä on aivan toinen asia (moderointi, kaistanleveys jne.). Henkilökohtaisessa käytössä suosittelemme rajoittamaan pääsyn itsellesi ja tarvittaessa muutamalle luotettavalle ystävälle ja perheelle.
 
 
 
@@ -384,19 +384,19 @@ Jos isännöit Nostr-releetä Umbrelissa, erityisesti edistyneessä kontekstissa
 
 
 
-- Päivitykset ja ylläpito:** Pidä Umbrel ja _Nostr Relay_ -sovellus ajan tasalla. Päivitykset voivat sisältää suorituskykyparannuksia (esim. parempi roskapostin käsittely) ja tietoturvakorjauksia. Tarkista Umbrelissa App Storesta säännöllisesti _Nostr Relay_ -sovelluksen päivitykset ja käytä niitä tarvittaessa.
+- **Päivitykset ja ylläpito:** Pidä Umbrel ja *Nostr Relay* -sovellus ajan tasalla. Päivitykset voivat sisältää suorituskykyparannuksia (esim. parempi roskapostin käsittely) ja tietoturvakorjauksia. Tarkista Umbrelissa App Storesta säännöllisesti *Nostr Relay* -sovelluksen päivitykset ja käytä niitä tarvittaessa.
 
 
 
 
 
-- Seuranta ja rajoitukset:** Pidä silmällä, miten relettäsi käytetään. Jos avaat sen muille, pidä silmällä Umbrelisi kuormitusta (CPU/RAM-tallennus), sillä releeseen voi nopeasti kertyä paljon dataa. nostr-rs-relay tarjoaa konfiguroitavissa olevat **nopeus- ja tallennusrajat** (`rajat` konfiguraatiossa, esim. tapahtumien määrä sekunnissa, tapahtumien maksimikoko, vanhojen tapahtumien tyhjennys...). Yksityisessä käytössä sinun ei luultavasti tarvitse koskea näihin, mutta ole tietoinen, että nämä parametrit ovat olemassa, jos tarvitset niitä ([nostr-rs-relay/config.toml at master - scsibug/nostr-rs-relay - GitHub](https://github.com/scsibug/nostr-rs-relay/blob/master/config.toml#:~:text=)).
+- **Seuranta ja rajoitukset:** Pidä silmällä, miten relettäsi käytetään. Jos avaat sen muille, pidä silmällä Umbrelisi kuormitusta (CPU/RAM-tallennus), sillä releeseen voi nopeasti kertyä paljon dataa. nostr-rs-relay tarjoaa konfiguroitavissa olevat **nopeus- ja tallennusrajat** (`rajat` konfiguraatiossa, esim. tapahtumien määrä sekunnissa, tapahtumien maksimikoko, vanhojen tapahtumien tyhjennys...). Yksityisessä käytössä sinun ei luultavasti tarvitse koskea näihin, mutta ole tietoinen, että nämä parametrit ovat olemassa, jos tarvitset niitä ([nostr-rs-relay/config.toml at master - scsibug/nostr-rs-relay - GitHub](https://github.com/scsibug/nostr-rs-relay/blob/master/config.toml#:~:text=)).
 
 
 
 
 
-- Nostr-avainten suojaaminen:** Tämä kohta on jo mainittu, mutta se on ratkaisevan tärkeä: älä koskaan syötä Nostr-avainta Interface:ään, johon et täysin luota. Käytä sen sijaan selainlaajennuksia tai ulkoisia laitteita (kuten erillisissä puhelimissa olevia Nostr- _signaattoreita_) arkaluontoisten toimintojen allekirjoittamiseen. Umbrelissa verkko-ohjelmasi, kuten _Snort_ ja _noStrudel_, voivat toimia NIP-07:n kautta tietämättä salaista avaintasi. Hyödynnä tätä mahdollisuutta yhdistää mukavuus ja turvallisuus.
+- **Nostr-avainten suojaaminen:** Tämä kohta on jo mainittu, mutta se on ratkaisevan tärkeä: älä koskaan syötä Nostr-avainta Interface:ään, johon et täysin luota. Käytä sen sijaan selainlaajennuksia tai ulkoisia laitteita (kuten erillisissä puhelimissa olevia Nostr-*signaattoreita*) arkaluontoisten toimintojen allekirjoittamiseen. Umbrelissa verkko-ohjelmasi, kuten *Snort* ja *noStrudel*, voivat toimia NIP-07:n kautta tietämättä salaista avaintasi. Hyödynnä tätä mahdollisuutta yhdistää mukavuus ja turvallisuus.
 
 
 

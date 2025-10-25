@@ -1,5 +1,5 @@
 ---
-name: Bitcoin Keeper - Moniavainturva
+name: Bitcoin Keeper
 description: Bitcoin Keeper App - mobiilisovellus, jonka avulla voit luoda sekä Hot-lompakoita että Cold-säilytysholveja pitkän aikavälin säästöjä varten
 ---
 

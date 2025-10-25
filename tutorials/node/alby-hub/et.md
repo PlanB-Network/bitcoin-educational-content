@@ -19,7 +19,7 @@ Alby Hub on väga kohandatav vahend. See vastab nii algajate kui ka edasijõudnu
 Sõltuvalt teie vajadustest on Alby Hub saadaval 4 konfiguratsioonis:
 
 
-- Alby Hub Cloud :**
+- **Alby Hub Cloud:**
 
 Ideaalne algajatele, see esimene võimalus on Alby pilvevõimalus. See võimaldab teil juurutada Hubi otse Alby hallatavale serverile, millele pääseb teie Alby Hubi liidese kaudu. Kuigi Alby haldab serverit, säilitate oma vahendite suveräänsuse, kuna teie võtmed on krüpteeritud parooliga, mida teate ainult teie. Kuid teie võtmed peavad sõlme töötamiseks jääma RAM-is dekrüpteerituks, mis teoreetiliselt seab need ohtu, kui keegi pääseb füüsiliselt serverile ligi. See on algajatele huvitav kompromiss, kuid oluline on olla teadlik riskidest.
 
@@ -297,7 +297,7 @@ Mine tagasi Alby Go rakendusse, skaneeri QR-kood või kleebi saladus sisse.
 
 ![ALBY HUB](assets/fr/50.webp)
 
-Klõpsake nuppu "Lõpeta*".
+Klõpsake nuppu "Lõpeta".
 
 ![ALBY HUB](assets/fr/51.webp)
 

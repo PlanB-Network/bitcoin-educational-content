@@ -1,5 +1,5 @@
 ---
-name: 嵌入式 Zeus
+name: Zeus Embedded
 description: 如何使用闪电宙斯嵌入式 Wallet
 ---
 ![cover-zeus-embedded](assets/cover.webp)
@@ -13,13 +13,13 @@ ZEUS 最初是一款用于远程管理闪电节点的移动应用程序，可让
 
 
 
-**我们将在本教程中探讨应用程序的这个方面。这样，任何人都可以在移动设备上拥有自己的闪电节点，而无需专用服务器，就像 ACINQ 提供其令人难以置信的 Wallet 闪电凤凰一样。
+**我们将在本教程中探讨应用程序的这个方面。这样，任何人都可以在移动设备上拥有自己的闪电节点，而无需专用服务器，就像 ACINQ 提供其令人难以置信的 Wallet 闪电凤凰一样。**
 
 
 
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-*需要提醒的是，"闪电 "是一个与 Bitcoin 并行运行的网络，无需系统地进行 On-Chain 交易即可交换比特币。其结果是交易近乎瞬时，无需等待 10 分钟来验证一个区块。这在向实体商家付款时尤其有用。此外，"闪电 "还提供了Bitcoin网络所不具备的**保密性**。
+*需要提醒的是，"闪电 "是一个与 Bitcoin 并行运行的网络，无需系统地进行 On-Chain 交易即可交换比特币。其结果是交易近乎瞬时，无需等待 10 分钟来验证一个区块。这在向实体商家付款时尤其有用。此外，"闪电 "还提供了Bitcoin网络所不具备的* **保密性**。
 
 
 
@@ -248,7 +248,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 在本教程中，为了简单起见，我们将选择这个选项，但也完全可以与网络上的任何节点打开通道。
 
 
-通过选择 "OPENDITIONAL CHANNEL（打开附加通道）"，甚至可以在单个事务中打开多个通道。 *不过，我们将在**Zeus Embedded**** 教程的 "高级 "版本中讨论这个问题。
+通过选择 "OPENDITIONAL CHANNEL（打开附加通道）"，甚至可以在单个事务中打开多个通道。 *不过，我们将在**Zeus Embedded** 教程的 "高级 "版本中讨论这个问题。*
 
 
 

@@ -60,7 +60,7 @@ Per gli utenti Android, è possibile installare l'applicazione anche tramite il 
 
 ![GREEN 2FA MULTISIG](assets/fr/04.webp)
 
-Avviare l'applicazione, quindi selezionare la casella "Accetto le condizioni...*".
+Avviare l'applicazione, quindi selezionare la casella "Accetto le condizioni...".
 
 ![GREEN 2FA MULTISIG](assets/fr/05.webp)
 
@@ -271,4 +271,3 @@ Se avete trovato utile questa guida, vi sarei grato se lasciaste un pollice verd
 Vi consiglio anche di dare un'occhiata a quest'altro tutorial completo sull'applicazione mobile Blockstream Green per configurare un portafoglio Liquid:
 
 https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
-

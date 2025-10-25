@@ -64,10 +64,10 @@ In der Menüleiste finden Sie die folgenden Netzwerke:
 
 
 
-- Mainnet** : Das wichtigste Bitcoin-Netz, in dem echte Bitcoin-Transaktionen stattfinden.
-- Signet**: Ein Testnetz, das digitale Signaturen zur Validierung von Blöcken verwendet, ohne die vom Hauptnetz benötigten Ressourcen zu benötigen.
-- Testnet 3**: Ein risikofreies Test- und Entwicklungsnetz auf Basis des Bitcoin-Protokolls.
-- Testnet 4** : Die neue Version von Testnet 3 bringt mehr Stabilität und neue Konsensregeln in die Testumgebung.
+- **Mainnet**: Das wichtigste Bitcoin-Netz, in dem echte Bitcoin-Transaktionen stattfinden.
+- **Signet**: Ein Testnetz, das digitale Signaturen zur Validierung von Blöcken verwendet, ohne die vom Hauptnetz benötigten Ressourcen zu benötigen.
+- **Testnet 3**: Ein risikofreies Test- und Entwicklungsnetz auf Basis des Bitcoin-Protokolls.
+- **Testnet 4**: Die neue Version von Testnet 3 bringt mehr Stabilität und neue Konsensregeln in die Testumgebung.
 
 
 
@@ -142,9 +142,9 @@ Auf der Seite mit den Transaktionsdetails finden Sie allgemeine Informationen zu
 
 
 
-- Status**: Bestätigt, wenn zu einem Block hinzugefügt, unbestätigt, wenn in einem Mempool wartend.
-- Transaktionsgebühren**.
-- Geschätzte Ankunftszeit (ETA)** :  Die ungefähre Zeit, die es dauert, bis Ihre Transaktion zu einem Block hinzugefügt wird. Sie wird nach dem Verhältnis berechnet, das die mit dieser Transaktion verbundenen Gebühren ausmacht.
+- **Status**: Bestätigt, wenn zu einem Block hinzugefügt, unbestätigt, wenn in einem Mempool wartend.
+- **Transaktionsgebühren**.
+- **Geschätzte Ankunftszeit (ETA)**: Die ungefähre Zeit, die es dauert, bis Ihre Transaktion zu einem Block hinzugefügt wird. Sie wird nach dem Verhältnis berechnet, das die mit dieser Transaktion verbundenen Gebühren ausmacht.
 
 
 
@@ -192,7 +192,7 @@ Zum Glück gibt es im Bitcoin-Netz zwei Methoden, um die Bestätigung Ihrer Tran
 
 
 
-- RBF** - Ersetzung durch Gebühr: Eine Methode, die es Ihnen ermöglicht, dieselben Einträge wie bei der Transaktion mit niedriger Gebühr auszugeben, aber dieses Mal durch Erhöhung der Transaktionsgebühr, um die Validierung zu beschleunigen. Ihre neue Transaktion wird schneller validiert und in einen Block aufgenommen, wodurch die Transaktion mit niedriger Gebühr ungültig wird.
+- **RBF** - Ersetzung durch Gebühr: Eine Methode, die es Ihnen ermöglicht, dieselben Einträge wie bei der Transaktion mit niedriger Gebühr auszugeben, aber dieses Mal durch Erhöhung der Transaktionsgebühr, um die Validierung zu beschleunigen. Ihre neue Transaktion wird schneller validiert und in einen Block aufgenommen, wodurch die Transaktion mit niedriger Gebühr ungültig wird.
 
 
 
@@ -204,7 +204,7 @@ https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-837
 
 
 
-- CPFP** - Child pay for parent: Ein Ansatz, der sich an RBF anlehnt, aber auf der Seite des Empfängers. Wenn die Transaktion, bei der Sie der Empfänger sind, in einem Mempool blockiert wird, haben Sie die Möglichkeit, die Outputs (UTXOs) dieser Transaktion auszugeben, obwohl sie noch nicht bestätigt wurde, indem Sie dieser neuen Transaktion mehr Gebühren zuweisen, so dass die durchschnittlichen Gebühren - der Transaktion, bei der Sie der Empfänger sind, und der initiierten Transaktion - die Miner dazu veranlassen, beide Transaktionen in einen Block aufzunehmen.
+- **CPFP** - Child pay for parent: Ein Ansatz, der sich an RBF anlehnt, aber auf der Seite des Empfängers. Wenn die Transaktion, bei der Sie der Empfänger sind, in einem Mempool blockiert wird, haben Sie die Möglichkeit, die Outputs (UTXOs) dieser Transaktion auszugeben, obwohl sie noch nicht bestätigt wurde, indem Sie dieser neuen Transaktion mehr Gebühren zuweisen, so dass die durchschnittlichen Gebühren - der Transaktion, bei der Sie der Empfänger sind, und der initiierten Transaktion - die Miner dazu veranlassen, beide Transaktionen in einen Block aufzunehmen.
 
 
 

@@ -60,7 +60,7 @@ For Android users, you can also install the application via the `.apk` file [ava
 
 ![GREEN 2FA MULTISIG](assets/fr/04.webp)
 
-Launch the application, then check the "I accept the conditions...*" box.
+Launch the application, then check the "I accept the conditions..." box.
 
 ![GREEN 2FA MULTISIG](assets/fr/05.webp)
 
@@ -271,4 +271,3 @@ If you found this tutorial useful, I'd be grateful if you'd leave a green thumb 
 I also recommend you check out this other comprehensive tutorial on the Blockstream Green mobile application to set up a Liquid wallet :
 
 https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
-

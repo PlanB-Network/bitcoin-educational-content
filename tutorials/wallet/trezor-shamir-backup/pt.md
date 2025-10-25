@@ -34,7 +34,7 @@ Os utilizadores que criaram um portfólio com a *Cópia de segurança de partilh
 
 
 
-A cópia de segurança multipartilha* está disponível no Trezor Model T, Safe 3 e Safe 5. Esta funcionalidade não é suportada pelo Trezor Model One.
+A cópia de segurança multipartilha está disponível no Trezor Model T, Safe 3 e Safe 5. Esta funcionalidade não é suportada pelo Trezor Model One.
 
 
 
@@ -145,7 +145,7 @@ No Trezor, selecione o número total de acções que pretende configurar. As con
 
 
 
-*Para os utilizadores do Safe 5, embora o ecrã diga "*Toque para continuar*", terá de deslizar para cima para confirmar
+*Para os utilizadores do Safe 5, embora o ecrã diga "Toque para continuar", terá de deslizar para cima para confirmar*
 
 
 

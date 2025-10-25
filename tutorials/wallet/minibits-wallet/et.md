@@ -73,7 +73,7 @@ Vaikimisi on Minibitsi mündi kasutamine rakenduse käivitamisel lubatud. Üks e
 
 Varundamine on vaieldamatult kõige kriitilisem samm kogu seadistamisprotsessis. Varundamise valikutele pääsemiseks navigeerige menüüsse `Settings`-> `Backup` Siit leiate kaks olulist valikut: `Settings`-> `Backup`, `Backup` ja `Backup`:
 
-1. "Sinu seed fraas", mis sisaldab "12 sõna", mis võimaldab sul seadme kadumise korral taastada oma e-kassasaldo. See seed fraas on teie põhivõti kogu ecash'ile kõigis lisatud rahapaikades. Kirjutage see füüsilisele kandjale (paber või metall) ja hoidke seda turvaliselt mitmes kohas. Ärge kunagi säilitage oma seed fraasi digitaalselt, kus seda võidakse ohustada. Vaadake seda [õpetust](https://planb.network/en/tutorials/Wallet/backup/backup-Mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270), et tutvuda Wallet kaitsmise parimate tavadega.
+1. "Sinu seed fraas", mis sisaldab "12 sõna", mis võimaldab sul seadme kadumise korral taastada oma e-kassasaldo. See seed fraas on teie põhivõti kogu ecash'ile kõigis lisatud rahapaikades. Kirjutage see füüsilisele kandjale (paber või metall) ja hoidke seda turvaliselt mitmes kohas. Ärge kunagi säilitage oma seed fraasi digitaalselt, kus seda võidakse ohustada. Vaadake seda [õpetust](https://planb.network/en/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270), et tutvuda Wallet kaitsmise parimate tavadega.
 
 2. `Wallet backup`, mis sisaldab pikka varundustrenni.
 

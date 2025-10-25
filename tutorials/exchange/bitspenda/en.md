@@ -137,10 +137,10 @@ Check and confirm your exchange number and amount, then pay the Lightning invoic
 Through BitSpenda, [Bitcoin Dua](https://www.bitcoindua.org/) aims to set up an ideal framework for the adoption of Bitcoin in Africa. BitSpenda stands out mainly for :
 
 
-- Confidentiality**: You don't need to create an account on the platform, you don't need to verify your identity, and you don't need to provide any personal information.
-- Freedom**: You can use BitSpenda from any country to make transactions to Ghana, Nigeria and Kenya.
-- Speed**: Relying on Lightning payments has enabled BitSpenda to reduce processing times and make transactions instantaneous.
-- Transparency**: All the transactions you have carried out on BitSpenda are associated with unique identifiers that enable you to trace and track the progress of these transactions. You can also use these identifiers to contact [application support on X](https://x.com/bitspenda).
+- **Confidentiality**: You don't need to create an account on the platform, you don't need to verify your identity, and you don't need to provide any personal information.
+- **Freedom**: You can use BitSpenda from any country to make transactions to Ghana, Nigeria and Kenya.
+- **Speed**: Relying on Lightning payments has enabled BitSpenda to reduce processing times and make transactions instantaneous.
+- **Transparency**: All the transactions you have carried out on BitSpenda are associated with unique identifiers that enable you to trace and track the progress of these transactions. You can also use these identifiers to contact [application support on X](https://x.com/bitspenda).
 
 
 You can now use Bitcoin on a daily basis in countries served by BitSpenda.

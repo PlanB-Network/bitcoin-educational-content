@@ -68,7 +68,7 @@ Para más información sobre la forma correcta de guardar y gestionar tu frase m
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-por supuesto, nunca debes compartir estas palabras en Internet, como hago yo en este tutorial. Esta cartera de muestra sólo se utilizará en Testnet y se eliminará al final del tutorial.**_
+por supuesto, nunca debes compartir estas palabras en Internet, como hago yo en este tutorial. Esta cartera de muestra sólo se utilizará en Testnet y se eliminará al final del tutorial.
 
 Pulse firmemente el botón de su Portal para pasar a las palabras siguientes. Asegúrate de colocar todo el dedo sobre el botón y mantener la presión durante unos segundos, para que la interacción se detecte correctamente.
 

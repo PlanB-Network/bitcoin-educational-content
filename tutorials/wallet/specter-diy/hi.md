@@ -1,5 +1,5 @@
 ---
-name: स्पेक्टर DIY
+name: Specter DIY
 
 description: स्पेक्टर DIY के लिए सेटअप गाइड
 ---

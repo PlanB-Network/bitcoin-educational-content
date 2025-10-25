@@ -90,9 +90,9 @@ Jotta Manjaro toimisi optimaalisesti, tietokoneesi on täytettävä muutamat vä
 
 
 
-- 64-bittinen (x86_64)** prosessori
-- suositellaan 4 Gt RAM-muistia (vähintään 2 Gt)** (katso alla)
-- 30 Gt levytilaa (enemmän, jos luot oman `/home`-osion)**
+- **64-bittinen (x86_64)** prosessori
+- suositellaan **4 Gt RAM-muistia (vähintään 2 Gt)** (katso alla)
+- 30 Gt levytilaa (enemmän, jos luot oman `/home`-osion)
 
 
 
@@ -219,8 +219,8 @@ Manjaro antaa sinun valita **FreeOfficen** ja **LibreOfficen** välillä.
 
 
 
-- LibreOffice** on kattavampi, ja siinä on laajempi valikoima ohjelmistoja ja kehittyneitä ominaisuuksia.
-- FreeOffice** on sen sijaan kevyempi ja sisältää vain välttämättömät asiat: **TextMaker**, PlanMaker** ja Presentations**.
+- **LibreOffice** on kattavampi, ja siinä on laajempi valikoima ohjelmistoja ja kehittyneitä ominaisuuksia.
+- **FreeOffice** on sen sijaan kevyempi ja sisältää vain välttämättömät asiat: **TextMaker**, **PlanMaker** ja **Presentations**.
 
 
 

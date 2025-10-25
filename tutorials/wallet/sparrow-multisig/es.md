@@ -1,5 +1,5 @@
 ---
-name: Gorrión Wallet - Multisig
+name: Sparrow Wallet - Multisig
 description: Crear una cartera multifirma en Sparrow
 ---
 ![cover](assets/cover.webp)

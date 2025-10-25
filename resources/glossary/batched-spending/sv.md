@@ -8,4 +8,4 @@ Batchade utgifter är en utgiftsteknik som främst används av enheter med en h�
 ![](../../dictionnaire/assets/8.webp)
 
 
-> ► * På franska kan "batched spending" översättas med "grupperad utgift"
+> ► *På franska kan "batched spending" översättas med "grupperad utgift"*

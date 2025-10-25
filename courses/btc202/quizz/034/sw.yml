@@ -1,0 +1,9 @@
+question: Kuna tofauti gani kuu kati ya utekelezaji mbichi na nodi-ndani-sanduku?
+answer: Uwepo wa Interface na programu zilizojumuishwa
+wrong_answers:
+  - Utangamano wa mtandao
+  - Saizi ya Blockchain iliyohifadhiwa kwenye diski
+  - Itifaki na sarafu iliyotumika
+explanation: |
+  Utekelezaji ghafi husakinisha programu ya nodi pekee, ilhali nodi ndani ya kisanduku huongeza Interface, Duka la Programu na huduma zilizounganishwa.
+reviewed: true

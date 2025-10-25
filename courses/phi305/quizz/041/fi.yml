@@ -1,0 +1,9 @@
+question: Kuka on Saint-Augustin?
+answer: Yksi kirkon isistä.
+wrong_answers:
+  - Valistusfilosofi.
+  - Tähtitieteilijä.
+  - Keksijä.
+explanation: |
+  Pyhä Augustinus (354-430) on yksi kirkkoisistä. Hän oli filosofi ja teologi, joka vaikutti syvällisesti länsimaisen kristillisen ajattelun kehitykseen muun muassa teoksillaan "Tunnustukset" ja "Jumalan kaupunki".
+reviewed: false

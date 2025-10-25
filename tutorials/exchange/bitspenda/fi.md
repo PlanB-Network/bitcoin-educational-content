@@ -182,10 +182,10 @@ BitSpendan kautta [Bitcoin Dua] (https://www.bitcoindua.org/) pyrkii luomaan iha
 
 
 
-- Luottamuksellisuus**: Sinun ei tarvitse luoda tiliä alustalle, sinun ei tarvitse todentaa henkilöllisyyttäsi, eikä sinun tarvitse antaa mitään henkilökohtaisia tietoja.
-- Vapaus**: Voit käyttää BitSpendaa mistä tahansa maasta tehdäksesi maksuja Ghanaan, Nigeriaan ja Keniaan.
-- Nopeus**: Lightning-maksuihin tukeutuminen on antanut BitSpendalle mahdollisuuden lyhentää käsittelyaikoja ja tehdä transaktioista välittömiä.
-- Avoimuus**: Kaikkiin BitSpendassa suorittamiisi transaktioihin liittyy yksilöllisiä tunnuksia, joiden avulla voit jäljittää ja seurata näiden transaktioiden etenemistä. Voit myös käyttää näitä tunnuksia ottaaksesi yhteyttä [sovellustukeen osoitteessa X](https://x.com/bitspenda).
+- **Luottamuksellisuus**: Sinun ei tarvitse luoda tiliä alustalle, sinun ei tarvitse todentaa henkilöllisyyttäsi, eikä sinun tarvitse antaa mitään henkilökohtaisia tietoja.
+- **Vapaus**: Voit käyttää BitSpendaa mistä tahansa maasta tehdäksesi maksuja Ghanaan, Nigeriaan ja Keniaan.
+- **Nopeus**: Lightning-maksuihin tukeutuminen on antanut BitSpendalle mahdollisuuden lyhentää käsittelyaikoja ja tehdä transaktioista välittömiä.
+- **Avoimuus**: Kaikkiin BitSpendassa suorittamiisi transaktioihin liittyy yksilöllisiä tunnuksia, joiden avulla voit jäljittää ja seurata näiden transaktioiden etenemistä. Voit myös käyttää näitä tunnuksia ottaaksesi yhteyttä [sovellustukeen osoitteessa X](https://x.com/bitspenda).
 
 
 

@@ -205,7 +205,7 @@ Ispod možete pronaći nekoliko primera problema sa formatiranjem na koje treba 
 
 
 
-- Obratite pažnju na čudnu interpunkciju kao što je `\*\*\`, ili ``**`` što može predstavljati loše prikazivanje simbola za podebljavanje. Na slici ispod, možete videti da su zvezdice samo sa desne strane reči, što izgleda čudno.
+- Obratite pažnju na čudnu interpunkciju kao što je `**`, ili `**` što može predstavljati loše prikazivanje simbola za podebljavanje. Na slici ispod, možete videti da su zvezdice samo sa desne strane reči, što izgleda čudno.
 
 
 
@@ -234,61 +234,73 @@ Obavezno proverite originalnu jezičku datoteku (često EN ili FR) da vidite gde
 
 ![REVIEW](assets/en/11.webp)
 
-
-
 ## Kviz lektura
 
 
-Da li ste znali da možete i lektorisati pitanja za kviz u svakom kursu? Na primer, ako želite da lektorišete kvizove za BTC101 u IT-u, možete otvoriti posebnu granu i pratiti ovaj put: "courses" -> "BTC101" -> "quiz". Tamo ćete pronaći sve foldere posvećene svakom pitanju, zajedno sa pripadajućom jezičkom datotekom u _yml_ formatu.
+Da li ste znali da možete i lektorisati pitanja za kviz u svakom kursu? Na primer, ako želite da lektorišete kvizove za BTC101 u IT-u, možete otvoriti posebnu granu i pratiti ovaj put: "courses" -> "BTC101" -> "quiz". Tamo ćete pronaći sve foldere posvećene svakom pitanju, zajedno sa odgovarajućom jezičkom datotekom u _yml_ formatu.
 
 
 Još jednom, uverite se da ste u posebnoj grani koju otvarate posebno za ovu svrhu, i uvek obavestite koordinatora.
 
 
-Nakon pregleda pitanja, obavezno promenite status "reviewed" sa "false" na "true," kao što je prikazano na slici ispod.
-
+Važna stvar koju treba imati na umu prilikom lekture ove vrste _yml_ datoteke je izbegavanje dodavanja dvotački ``:`` unutar teksta. Zapravo, dvotačka se koristi **samo** za razdvajanje parova ključ-vrednost kao što je "wrong_answers" od ostatka. Primer možete videti na slici ispod:
 
 
 ![REVIEW](assets/en/12.webp)
 
 
-## Lektura korekture rečnika
-
-
-Baš kao i kvizove, možete lektorisati i rečnik. Originalni rečnik je napisan na francuskom, tako da ćete naći rečenice poput: "Na francuskom, ovaj izraz se može prevesti kao..."
-
-
-U slučajevima poput ovog, molimo vas da prilagodite ovu rečenicu vašem ciljanom jeziku ili engleskom.
-
-
-## Druge najbolje prakse
-
-
-
-- Ako treba da pretražujete specifične reči unutar teksta, možete kliknuti na ``CTRL+F`` i pojaviće se deo za pronalaženje-zamenu. Ovaj deo je veoma koristan kada treba da skočite na određeni deo teksta, ili treba da zamenite specifične reči/rečenice u seriji, bez prelistavanja celog sadržaja.
+After reviewing the question, make sure you change the "reviewed" status from "false" to "true," as shown in the image below. Make sure to keep these status words in English, no matter what language you are working on!
 
 
 
 ![REVIEW](assets/en/13.webp)
 
 
-
-Kada koristite funkciju "zameni sve", važno je dvaput proveriti rezultate kako biste osigurali da linkovi nisu takođe izmenjeni. Na primer, ako želite da promenite reč "Bitcoin" u "Bitkoin" (što može biti potrebno u nekim jezicima), korišćenje funkcije "zameni sve" može efikasno ažurirati sve instance u tekstu. Međutim, budite svesni da će ovaj alat takođe izmeniti sve linkove koji sadrže tu reč, što može dovesti do problema sa preusmeravanjem.
-
-
-U primeru ispod, lektor je koristio gorenavedenu funkciju da zameni "Satoshi" sa "Satoshi(Sats)", i takođe promenio link ka tutorijalu koji sadrži samu reč. Kao posledica, link je postao nevažeći.
+Ako nedostaje statusna linija "reviewed:true", obavezno je **dodajte na kraj kviza**.
 
 
-Uvek dvaput proverite sve hiperveze u tekstu, kako biste bili sigurni da su tačne.
+## Lektura korekture rečnika
 
+
+Baš kao i kvizove, možete i lektorisati rečnik. Originalni rečnik je napisan na francuskom, tako da ćete naći rečenice poput: "Na francuskom, ovaj izraz se može prevesti kao..."
+
+
+U slučajevima poput ovog, molimo vas da prilagodite rečenicu vašem ciljanom jeziku ili engleskom. Na primer, možete napisati "Na engleskom, ovaj izraz...".
+
+Ako je naslov ostavljen na engleskom, možete prilagoditi rečenicu svom jeziku: "Na svahiliju, ovaj izraz..."
+
+
+DODATNO, UVERITE SE DA SU NASLOVI NAPISANI VELIKIM SLOVIMA.
 
 
 ![REVIEW](assets/en/14.webp)
 
 
+## Naslov i opis vašeg PR-a
 
 
-- Prateći temu, ako autor umetne link koji se odnosi na Plan ₿ Network kurs ili tutorijal (**ne** unutar zagrada), vebsajt će automatski kreirati "kartu" koja prikazuje povezanu sličicu. Kao posledica toga, uvek se uverite da **imate razmak između teksta i samog linka**, inače biste mogli videti sledeću grešku na vebsajtu.
+Kada pošaljete svoj PR, bilo bi sjajno ako ga nazovete koristeći ovaj format: [PROOFREADING] NAZIV SADRŽAJA - JEZIK:
+
+
+```
+[PROOFREADING] BTC101 - ENGLISH
+```
+
+
+Pored toga, u **odeljku za komentare PR-a**, možete napisati "closes" + broj problema koji vam je koordinator poslao kada ste započeli zadatak lekture, prethodno dodajući ``#``.
+
+Na primer, ako ste upravo poslali PR sa lekturom cyp201 + kvizova, možete napisati "closes [#2934](https://github.com/PlanB-Network/Bitcoin-educational-content/issues/2934)".
+
+
+Na ovaj način, PR i problem će biti povezani, i svako ko čita javni Github repozitorijum može lako pronaći informacije.
+
+
+
+## Druge najbolje prakse
+
+
+
+- Ako treba da pretražujete specifične reči unutar teksta, možete kliknuti na ``CTRL+F`` i pojaviće se deo za pronalaženje-zamenu. Ovaj deo je veoma koristan kada treba da skočite na određeni deo teksta, ili treba da zamenite specifične reči/rečenice u seriji, bez listanja celog sadržaja.
 
 
 
@@ -296,10 +308,45 @@ Uvek dvaput proverite sve hiperveze u tekstu, kako biste bili sigurni da su tač
 
 
 
+Kada koristite funkciju "zameni sve", važno je dvaput proveriti rezultate kako biste osigurali da linkovi nisu takođe izmenjeni. Na primer, ako želite da promenite reč "Bitcoin" u "Bitkoin" (što može biti potrebno u nekim jezicima), korišćenje funkcije "zameni sve" može efikasno ažurirati sve instance u tekstu. Međutim, budite svesni da će ovaj alat takođe izmeniti sve linkove koji sadrže tu reč, što može dovesti do problema sa preusmeravanjem.
 
 
-- Konačno, još jedna najbolja praksa koju treba primeniti kada završite zadatak lekture i pošaljete PR je da se vratite na originalni problem koji je otvorio koordinator i komentarišete sa "Proofreading done". **Obavezno tamo umetnite i link vašeg PR-a**.
+U primeru ispod, lektor je koristio gorenavedenu funkciju da zameni "Satoshi" sa "Satoshi(Sats)", i takođe je promenio link ka tutorijalu koji sadrži samu reč. Kao posledica, link je postao nevažeći.
 
+
+Uvek dvaput proverite sve hiperveze u tekstu, kako biste bili sigurni da su tačne.
+
+
+
+![REVIEW](assets/en/16.webp)
+
+
+
+
+- Prateći temu, ako autor umetne link koji se odnosi na Plan ₿ Network kurs ili tutorijal (**ne** unutar zagrada), vebsajt će automatski kreirati "kartu" koja prikazuje povezanu sličicu. Kao posledica toga, uvek se pobrinite da **dodate novi red između teksta i samog linka**, inače biste mogli videti sledeću grešku na vebsajtu.
+
+
+
+![REVIEW](assets/en/17.webp)
+
+
+Isto se dešava i sa "kodovima slike" kao što je ovaj ``[IMAGE](asset/fr/001.webp)``: uvek se pobrinite da dodate novi red između koda slike i teksta. Primer ispod:
+
+
+```
+WRONG CONFIGURATION:
+- to start translating, click on the button `Translate`: ![language](assets/08.webp)
+To save, click on `save`!
+
+
+RIGHT CONFIGURATION:
+
+- to start translating, click on the button `Translate`:
+
+![language](assets/08.webp)
+
+To save, click on `save`!
+```
 
 
 ## Zaključak
@@ -311,4 +358,7 @@ Ukratko, biti svestan uobičajenih grešaka lektora može vam zaista pomoći da 
 Uvek imajte na umu da početnik može čitati ove kurseve i tutorijale, tako da je naša odgovornost da osiguramo da oni u potpunosti razumeju. Kao lektor, vi ste edukator!
 
 
-Hvala što ste pročitali ovaj vodič i uživajte u svom putovanju kroz lekturu!
+Sada ste spremni da počnete sa kursevima lekture, tutorijalima, kvizovima i rečima iz rečnika. Ostanite u toku kako biste počeli sa proverom slika i transkripata video zapisa ;)
+
+
+Hvala što ste pročitali ovaj vodič i uživajte u svom putovanju lekture!

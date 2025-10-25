@@ -1,5 +1,5 @@
 ---
-name: Gorrión Wallet
+name: Sparrow Wallet
 description: Instalación, configuración y uso de Sparrow Wallet
 ---
 ![cover](assets/cover.webp)

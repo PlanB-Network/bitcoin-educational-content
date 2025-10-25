@@ -24,19 +24,19 @@ A abordagem Ninja SAFU oferece várias vantagens:
 
 
 
-- Confidencialidade**: Não está a comprar um produto identificado como sendo destinado ao backup de criptomoedas. Os componentes são padrão (anilhas, parafusos, caixa metálica), disponíveis em lojas de ferragens, o que reduz o risco de ser visado no caso de uma fuga de dados de um fornecedor especializado.
+- **Confidencialidade**: Não está a comprar um produto identificado como sendo destinado ao backup de criptomoedas. Os componentes são padrão (anilhas, parafusos, caixa metálica), disponíveis em lojas de ferragens, o que reduz o risco de ser visado no caso de uma fuga de dados de um fornecedor especializado.
 
 
 
 
 
-- Acessibilidade** : Esta solução custa entre **15 e 140 EUR**, consoante as ferramentas de que já dispõe.
+- **Acessibilidade**: Esta solução custa entre **15 e 140 EUR**, consoante as ferramentas de que já dispõe.
 
 
 
 
 
-- Fiabilidade**: Testado desde 2020, o método foi experimentado e testado por especialistas em segurança, como [Jameson Lopp] (https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/), que o submeteram a rigorosos testes de esforço (calor extremo, corrosão, pressão mecânica).
+- **Fiabilidade**: Testado desde 2020, o método foi experimentado e testado por especialistas em segurança, como [Jameson Lopp] (https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/), que o submeteram a rigorosos testes de esforço (calor extremo, corrosão, pressão mecânica).
 
 
 
@@ -59,17 +59,17 @@ Para criar uma cópia de segurança Ninja SAFU, são necessários os seguintes c
 
 
 
-- Anilhas de aço inoxidável (recomenda-se M8)** :
- - Material**: Aço inoxidável (por exemplo, 304 ou V4A para maior resistência à corrosão)
-    - Tamanho**: M8 (diâmetro interior 8 mm, diâmetro exterior ~24 mm). As anilhas M6 são demasiado pequenas e difíceis de gravar.
-    - Quantidade**: 12 ou 24 anilhas para uma frase seed padrão, mais anilhas opcionais (ver secção 3.4) e cerca de dez para testes ou erros.
+- **Anilhas de aço inoxidável (recomenda-se M8)**:
+- **Material**: Aço inoxidável (por exemplo, 304 ou V4A para maior resistência à corrosão)
+- **Tamanho**: M8 (diâmetro interior 8 mm, diâmetro exterior ~24 mm). As anilhas M6 são demasiado pequenas e difíceis de gravar.
+- **Quantidade**: 12 ou 24 anilhas para uma frase seed padrão, mais anilhas opcionais (ver secção 3.4) e cerca de dez para testes ou erros.
 
 
 
 
 
-- Aço inoxidável Bolt e porca (M8)** :
- - Especificações**: Bolt 2,5 a 5 cm de comprimento, dependendo do número e espessura das anilhas, diâmetro 8mm. Um parafuso de orelhas facilita a abertura sem ferramentas, mas também pode ser utilizada uma simples porca.
+- **Aço inoxidável Bolt e porca (M8)**:
+- **Especificações**: Bolt 2,5 a 5 cm de comprimento, dependendo do número e espessura das anilhas, diâmetro 8mm. Um parafuso de orelhas facilita a abertura sem ferramentas, mas também pode ser utilizada uma simples porca.
 
 
 
@@ -79,8 +79,8 @@ Para criar uma cópia de segurança Ninja SAFU, são necessários os seguintes c
 
 
 
-- Conjunto de punções para letras e números (3 mm ou 6 mm)** :
-    - Especificações**: os caracteres com 6 mm de altura facilitam a legibilidade e podem ser preferíveis se parte das letras estiver degradada. Escolha um conjunto robusto para utilização repetida.
+- **Conjunto de punções para letras e números (3 mm ou 6 mm)**:
+- **Especificações**: os caracteres com 6 mm de altura facilitam a legibilidade e podem ser preferíveis se parte das letras estiver degradada. Escolha um conjunto robusto para utilização repetida.
 
 
 
@@ -90,14 +90,14 @@ Para criar uma cópia de segurança Ninja SAFU, são necessários os seguintes c
 
 
 
-- Martelo ou marreta** :
+- **Martelo ou marreta**:
     - É preferível utilizar uma marreta para obter uma força de estampagem suficiente e precisa
 
 
 
 
 
-- Bigorna ou superfície resistente** :
+- **Bigorna ou superfície resistente**:
  - Uma superfície espessa, Hard (por exemplo, bigorna de 1 kg ou pedra de calçada de 10 cm) para absorver os choques.
 
 
@@ -112,7 +112,7 @@ Se não quiser investir num conjunto de punções, pode também gravar as suas a
 
 
 
-- Dispositivo de estampagem**: Segura a anilha e guia o punção, permitindo uma estampagem precisa e limpa, uma melhor orientação e um espaçamento uniforme das letras
+- **Dispositivo de estampagem**: Segura a anilha e guia o punção, permitindo uma estampagem precisa e limpa, uma melhor orientação e um espaçamento uniforme das letras
 
 
 
@@ -122,7 +122,7 @@ Se não quiser investir num conjunto de punções, pode também gravar as suas a
 
 
 
-- Dispositivos de selagem**: Bolsa selada ou tira de selagem
+- **Dispositivos de selagem**: Bolsa selada ou tira de selagem
 
 
 
@@ -132,7 +132,7 @@ Se não quiser investir num conjunto de punções, pode também gravar as suas a
 
 
 
-- Recipiente hermeticamente fechado**: Para armazenar o bloco de anilhas
+- **Recipiente hermeticamente fechado**: Para armazenar o bloco de anilhas
 
 
 
@@ -145,8 +145,8 @@ Se não quiser investir num conjunto de punções, pode também gravar as suas a
 
 
 
-- Recomenda-se o uso de luvas** e **óculos de proteção**.
-- Chave de tubos** na qual se introduz o punção, de modo a segurar o punção com a chave de tubos e não com os dedos.
+- Recomenda-se o uso de **luvas** e **óculos de proteção**.
+- **Chave de tubos** na qual se introduz o punção, de modo a segurar o punção com a chave de tubos e não com os dedos.
 
 
 
@@ -156,13 +156,13 @@ Se não quiser investir num conjunto de punções, pode também gravar as suas a
 
 
 
-- Quantidade para um backup de 24 palavras**: 24 anilhas (mínimo), 1 Bolt, 1 porca de orelhas, 1 conjunto de punções, 1 martelo/masseta, 1 bigorna/suporte.
+- **Quantidade para um backup de 24 palavras**: 24 anilhas (mínimo), 1 Bolt, 1 porca de orelhas, 1 conjunto de punções, 1 martelo/masseta, 1 bigorna/suporte.
 
 
 
 
 
-- Custo total** :
+- **Custo total**:
  - Anilhas e parafusos/porcas: ~ 15 EUR
  - Conjunto de punções: ~ 45 EUR
  - Estojo de proteção: ~ 55 EUR
@@ -254,7 +254,7 @@ Se não quiser investir num conjunto de punções, pode também gravar as suas a
 
 
     - A partir da sua nova cópia de segurança, tente recuperar a sua carteira
-- Selagem da cópia de segurança** (opcional e recomendada) :
+- **Selagem da cópia de segurança** (opcional e recomendada):
  - Em tiras seladas ou em bolsas seladas.
  - Se utilizar uma bolsa, anote o seu número de identificação único, de modo a poder verificar se se trata da bolsa correta e não de um engodo que substitui a original.
 
@@ -269,7 +269,7 @@ Se não quiser investir num conjunto de punções, pode também gravar as suas a
 
 
 
-Armazene a sua cópia de segurança num **local discreto**, fora da vista e acessível para verificações periódicas. Escolha um armazenamento à prova de fogo e à prova de água**, em casa ou num local sob o seu **controlo exclusivo**.
+Armazene a sua cópia de segurança num **local discreto**, fora da vista e acessível para verificações periódicas. Escolha um armazenamento **à prova de fogo e à prova de água**, em casa ou num local sob o seu **controlo exclusivo**.
 
 
 
@@ -313,7 +313,7 @@ Mesmo quando bem guardada, a sua cópia de segurança precisa de ser **verificad
 
 
 
-*FIQUEM SEGUROS!
+**FIQUEM SEGUROS!**
 
 
 ![image](assets/fr/08.webp)
@@ -379,21 +379,21 @@ De acordo com Jameson Lopp:
 
 
 
-- Anilhas** para
+- **Anilhas** para
  - [Titan](https://pleb.style/fr-fr/products/disques-de-seed-supplementaires-titan-Wallet)
-- Anilhas + porca + estojo de proteção** (para anilhas)
+- **Anilhas + porca + estojo de proteção** (para anilhas)
  - [Titan](https://pleb.style/fr-fr/products/titan-Wallet-premium-acier-steel-Wallet-backup?variant=50022696419664)
  - [TerraSteel](https://pleb.style/fr-fr/products/terrasteel-Wallet-plebstyle-acier-backup)
 - Conjunto de punções
  - [PlebStyle](https://pleb.style/fr/products/schlagstempelset-a-z-0-9-3mm)
-- Base de digitação**
+- **Base de digitação**
  - [PlebStyle](https://pleb.style/fr/products/schlagunterlage-10cm-x-10cm-x-1-5cm)
-- Dispositivo de roscar** (guia)
+- **Dispositivo de roscar** (guia)
  - [TerraSteel](https://pleb.style/fr-fr/products/zubehor-einschlag-vorrichtung?_pos=1&_sid=2767fd66f&_ss=r)
 - Dispositivo de vedação
  - [Bolsa selada] (https://pleb.style/fr/products/zubehor-5x-sicherheitstasche-tamper-evident)
  - [Tiras de vedação] (https://pleb.style/fr/products/zubehor-5x-siegel-streifen-fur-dein-seed-backup)
-- Kit completo**
+- **Kit completo**
  - [Titan](https://pleb.style/fr-fr/products/titan-Wallet-diy-kit-premium-seed-backup-steelwallet-plebstyle?pr_prod_strat=e5_desc&pr_rec_id=aa9f36359&pr_rec_pid=8728733155664&pr_ref_pid=8730877788496&pr_seq=uniform)
  - [TerraSteel](https://pleb.style/fr-fr/products/kopie-von-terrasteel-Wallet-starter-kit)
 

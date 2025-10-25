@@ -19,8 +19,8 @@ Tuy nhiên, phần mềm thay thế cũng khả dụng. Đây không phải là 
 Có hai lý do chính để sử dụng ứng dụng thay thế như Knots thay vì Core:
 
 
-- Kỹ thuật**: Các máy khách này thường cung cấp các tùy chọn khác nhau cho Core, đặc biệt là về mặt quản lý Mempool, bằng cách xác định giao dịch nào được nút của bạn chấp nhận và phát đi.
-- Chính sách**: Một số người thích sử dụng các máy khách thay thế như Knots vì những lý do không liên quan đến kỹ thuật, đặc biệt là để hỗ trợ một giải pháp thay thế cho Core và do đó làm giảm sự độc quyền của nó. Nếu Core bị xâm phạm, sẽ hữu ích không chỉ khi có các máy khách thay thế vững chắc, được bảo trì tốt mà còn phải biết cách sử dụng chúng. Những người khác sử dụng Knots cho mục đích phản đối, vì họ đã mất lòng tin vào các nhà phát triển Core hoặc không chấp thuận cách quản lý của phần lớn máy khách.
+- **Kỹ thuật**: Các máy khách này thường cung cấp các tùy chọn khác nhau cho Core, đặc biệt là về mặt quản lý Mempool, bằng cách xác định giao dịch nào được nút của bạn chấp nhận và phát đi.
+- **Chính sách**: Một số người thích sử dụng các máy khách thay thế như Knots vì những lý do không liên quan đến kỹ thuật, đặc biệt là để hỗ trợ một giải pháp thay thế cho Core và do đó làm giảm sự độc quyền của nó. Nếu Core bị xâm phạm, sẽ hữu ích không chỉ khi có các máy khách thay thế vững chắc, được bảo trì tốt mà còn phải biết cách sử dụng chúng. Những người khác sử dụng Knots cho mục đích phản đối, vì họ đã mất lòng tin vào các nhà phát triển Core hoặc không chấp thuận cách quản lý của phần lớn máy khách.
 
 ## Làm thế nào để cài đặt Bitcoin Knots?
 

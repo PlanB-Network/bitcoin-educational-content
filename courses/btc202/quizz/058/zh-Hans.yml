@@ -1,0 +1,9 @@
+question: Tor 与您的节点通信的主要限制是什么？
+answer: 缓慢
+wrong_answers:
+  - 缺乏加密
+  - 垃圾邮件
+  - 不可能使用 RPC
+explanation: |
+  Tor 连接很安全，但比 VPN 等其他方式慢。
+reviewed: true

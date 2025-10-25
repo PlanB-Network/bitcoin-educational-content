@@ -1,5 +1,5 @@
 ---
-name: ओल्विद
+name: Olvid
 description: सभी के लिए निजी संदेश
 ---
 ![cover](assets/cover.webp)

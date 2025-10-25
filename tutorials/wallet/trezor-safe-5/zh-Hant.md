@@ -279,7 +279,7 @@ Safe 5 會使用隨機數字產生器建立您的 Mnemonic 詞組。請確定在
 
 
 
-***顯然，您絕對不能在網路上分享這些文字，就像我在本教程中所做的一樣。本範例 Wallet 只會用在 Testnet 上，並會在教學結束時刪除。
+**顯然，您絕對不能在網路上分享這些文字，就像我在本教程中所做的一樣。本範例 Wallet 只會用在 Testnet 上，並會在教學結束時刪除。**
 
 
 
@@ -431,7 +431,7 @@ https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7
 
 
 
-當您將 Safe 5 連接到開啟 Sparrow Wallet 的電腦時，Hardware Wallet 螢幕會提示您輸入 passphrase BIP39。這個進階選項將會在未來的教學中介紹。目前，您只需點選右上角的 Green 剔號，確認您希望使用空的 passphrase（即沒有 passphrase）。為了防止您的 Trezor 在每次啟動時都要求您輸入 passphrase，請進入 Trezor Suite，進入設定，更改 "*Device*" > "*Wallet default "中的選項。> "*Wallet default*「中的選項改為 」*Standard*「，而不是 」*passphrase*"。
+當您將 Safe 5 連接到開啟 Sparrow Wallet 的電腦時，Hardware Wallet 螢幕會提示您輸入 passphrase BIP39。這個進階選項將會在未來的教學中介紹。目前，您只需點選右上角的 Green 剔號，確認您希望使用空的 passphrase（即沒有 passphrase）。為了防止您的 Trezor 在每次啟動時都要求您輸入 passphrase，請進入 Trezor Suite，進入設定，更改 **Device** > **Wallet default** 中的選項改為 **Standard**，而不是 **passphrase**。
 
 
 

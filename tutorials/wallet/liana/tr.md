@@ -472,7 +472,7 @@ Bu Descriptor'ten aşağıdaki bilgiler çıkarılabilir:
 
 
 - wsh` (*witness script Hash*'in kısaltması): Bu, oluşturulan işlemsel çıktı türüdür. Eğer Taproot kullanmayı seçmiş olsaydık, tanımlayıcı `tr` olacaktı.
-- veya_d`: Bu, masrafın kabul edilmesi için aşağıdaki iki* koşuldan birinin karşılanması gerektiğini belirten mantıksal bir işleçtir (`_d` belirli bir sözdizimini belirtir).
+- veya_d`: Bu, masrafın kabul edilmesi için aşağıdaki **iki** koşuldan birinin karşılanması gerektiğini belirten mantıksal bir işleçtir (`_d` belirli bir sözdizimini belirtir).
 - pk` (*açık anahtarın* kısaltması): Bu işleç, verilen bir imzayı aşağıdaki açık anahtarla karşılaştırır ve cevabı Boolean (DOĞRU veya YANLIŞ) olarak verir.
 - `[3689a8e7/48'/0'/0'/2']`: Bu öğe, ana Hardware Wallet (bu durumda Nano S Plus) için ana anahtarın *parmak izini* ve bağlantılı genişletilmiş özel anahtara (diğer tüm özel anahtarların türetildiği) giden türetme yolunu içerir.
 - `xpub6FKY ... WQa`: Bu, ana Hardware Wallet'ye (burada Nano S Plus) bağlı genişletilmiş açık anahtardır

@@ -1,5 +1,5 @@
 ---
-name: Schweiziska Bitcoin Pay
+name: Swiss Bitcoin Pay
 description: Hur kan jag enkelt acceptera Bitcoin-betalningar?
 ---
 ![cover](assets/cover.webp)

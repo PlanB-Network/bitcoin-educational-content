@@ -1,0 +1,9 @@
+question: Millaisia laitteita käytetään nykyään Bitcoin:n tehokkaaseen louhintaan?
+answer: ASIC
+wrong_answers:
+  - Klassinen CPU
+  - GPU
+  - FPGA
+explanation: |
+  Nykyään Bitcoin Mining toteutetaan ASIC-piirien avulla. Nämä ovat SHA-256-algoritmiin erikoistuneita siruja.
+reviewed: true

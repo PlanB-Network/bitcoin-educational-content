@@ -73,7 +73,7 @@ Standaard is de Minibits-munt ingeschakeld wanneer je de app start. Een van de s
 
 Back-up is waarschijnlijk de meest kritieke stap in het hele installatieproces. Om toegang te krijgen tot de Back-up opties, navigeer je naar `Instellingen`-> `Back-up` Hier vind je twee essentiële opties:
 
-1. uw seed zinsdeel bevat 12 woorden waarmee u uw ecash-saldo kunt terugkrijgen als u het apparaat verliest. Deze seed zin is uw hoofdsleutel voor al het ecash in alle mints die u hebt toegevoegd. Schrijf het op een fysieke drager (papier of metaal) en bewaar het veilig op meerdere locaties. Bewaar je seed zinsdeel nooit digitaal waar het gecompromitteerd kan worden. Overweeg deze [tutorial] (https://planb.network/en/tutorials/Wallet/backup/backup-Mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270) te bezoeken voor best practices voor het beveiligen van je Wallet.
+1. uw seed zinsdeel bevat 12 woorden waarmee u uw ecash-saldo kunt terugkrijgen als u het apparaat verliest. Deze seed zin is uw hoofdsleutel voor al het ecash in alle mints die u hebt toegevoegd. Schrijf het op een fysieke drager (papier of metaal) en bewaar het veilig op meerdere locaties. Bewaar je seed zinsdeel nooit digitaal waar het gecompromitteerd kan worden. Overweeg deze [tutorial] (https://planb.network/en/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270) te bezoeken voor best practices voor het beveiligen van je Wallet.
 
 2. `Wallet backup` die een lange back-uptekenreeks bevat.
 

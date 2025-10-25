@@ -10,7 +10,7 @@ ___
 
 
 
-*Ten samouczek jest oparty na oryginalnej treści autorstwa Floriana Duchemin opublikowanej na stronie [IT-Connect](https://www.it-connect.fr/). Licencja [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). W oryginalnym tekście mogły zostać wprowadzone zmiany
+*Ten samouczek jest oparty na oryginalnej treści autorstwa Floriana Duchemin opublikowanej na stronie [IT-Connect](https://www.it-connect.fr/). Licencja [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). W oryginalnym tekście mogły zostać wprowadzone zmiany.*
 
 
 
@@ -160,9 +160,9 @@ Tutaj widzę 3 interfejsy:
 
 
 
-- Lo**: jest to Interface pętli zwrotnej; jest to wirtualny Interface, który "zapętla się" nad sprzętem. Zasadniczo ten Interface, którego Address to 127.0.0.1 (chociaż dowolny Address w 127.0.0.0/8 wystarczy, ponieważ ten zakres jest zarezerwowany do tego celu) jest używany do kontaktowania się z samym sprzętem. Jeśli zainstalowałeś stronę internetową na swojej stacji roboczej (na przykład przy użyciu WAMPP), prawdopodobnie użyłeś "*localhost*" Address, aby wyświetlić witrynę hostowaną na własnym komputerze. Ta nazwa hosta jest powiązana z Address 127.0.0.1, a zatem z pętlą zwrotną Interface.
-- ens33**: to mój pierwszy Interface, który otrzymał Address z mojego DHCP
-- ens36**: mój drugi Interface
+- **Lo**: jest to Interface pętli zwrotnej; jest to wirtualny Interface, który "zapętla się" nad sprzętem. Zasadniczo ten Interface, którego Address to 127.0.0.1 (chociaż dowolny Address w 127.0.0.0/8 wystarczy, ponieważ ten zakres jest zarezerwowany do tego celu) jest używany do kontaktowania się z samym sprzętem. Jeśli zainstalowałeś stronę internetową na swojej stacji roboczej (na przykład przy użyciu WAMPP), prawdopodobnie użyłeś "*localhost*" Address, aby wyświetlić witrynę hostowaną na własnym komputerze. Ta nazwa hosta jest powiązana z Address 127.0.0.1, a zatem z pętlą zwrotną Interface.
+- **ens33**: to mój pierwszy Interface, który otrzymał Address z mojego DHCP
+- **ens36**: mój drugi Interface
 
 
 
@@ -211,8 +211,8 @@ Oto kilka wyjaśnień dotyczących tych pierwszych zmian:
 
 
 
-- auto *Interface***: automatycznie "uruchomi" Interface przy starcie systemu
-- iface *Interface* inet manual**: aby używać Interface bez żadnego IP Address. Podobnie jak słowo kluczowe "static", aby zdefiniować statyczny adres IP Address lub "dhcp", aby użyć adresowania dynamicznego
+- auto **Interface**: automatycznie "uruchomi" Interface przy starcie systemu
+- iface *Interface* inet **manual**: aby używać Interface bez żadnego IP Address. Podobnie jak słowo kluczowe "static", aby zdefiniować statyczny adres IP Address lub "dhcp", aby użyć adresowania dynamicznego
 
 
 
@@ -239,10 +239,10 @@ Jeszcze raz kilka wyjaśnień:
 
 
 
-- iface br0 inet static**: tutaj zdefiniowałem mój most Interface (*br0*) ze statycznym Address.
-- Address, maska sieci, brama**: informacje o adresowaniu tablicy
-- bridge_ports**: interfejsy, które mają być włączone do mostu
-- bridge_stp**: protokół Spanning Tree jest używany podczas łączenia przełączników w celu wykrywania nadmiarowych łączy i unikania pętli. Ponieważ most może być wstawiony między dwie ścieżki sieciowe, może być źródłem pętli, stąd możliwość włączenia tego protokołu. Nie potrzebuję go tutaj, więc go wyłączam.
+- **iface br0 inet static**: tutaj zdefiniowałem mój most Interface (*br0*) ze statycznym Address.
+- **Address, maska sieci, brama**: informacje o adresowaniu tablicy
+- **bridge_ports**: interfejsy, które mają być włączone do mostu
+- **bridge_stp**: protokół Spanning Tree jest używany podczas łączenia przełączników w celu wykrywania nadmiarowych łączy i unikania pętli. Ponieważ most może być wstawiony między dwie ścieżki sieciowe, może być źródłem pętli, stąd możliwość włączenia tego protokołu. Nie potrzebuję go tutaj, więc go wyłączam.
 
 
 
@@ -281,8 +281,8 @@ Domyślnie źródła pakietów zawierają tylko pakiety zgodne z DFSG (*Debian F
 
 
 
-- contrib**: pakiety zawierające oprogramowanie zgodne z DFSG, ale korzystające z zależności, które nie są częścią gałęzi **main**
-- non-free**: zawiera pakiety, które nie są zgodne z DFSG
+- **contrib**: pakiety zawierające oprogramowanie zgodne z DFSG, ale korzystające z zależności, które nie są częścią gałęzi **main**
+- **non-free**: zawiera pakiety, które nie są zgodne z DFSG
 
 
 
@@ -426,7 +426,7 @@ Zauważysz również nowe menu w górnej części tego podsumowania. Proponuję 
 ![Image](assets/fr/017.webp)
 
 
-Ha, wygląda na to, że mamy odpowiedź! Na wykresie po lewej stronie widzimy, że 76,6% ruchu pochodzi z... Windows Update**, więc ten host pobiera aktualizacje!
+Ha, wygląda na to, że mamy odpowiedź! Na wykresie po lewej stronie widzimy, że 76,6% ruchu pochodzi z... **Windows Update**, więc ten host pobiera aktualizacje!
 
 
 
@@ -442,7 +442,7 @@ Aby to zademonstrować, uruchamiam film z YouTube na moim hoście:
 
 
 
-**Ruch został natychmiast rozpoznany i skategoryzowany!
+**Ruch został natychmiast rozpoznany i skategoryzowany!**
 
 
 

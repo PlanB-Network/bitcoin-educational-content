@@ -1,5 +1,5 @@
 ---
-name: Krux - Single и Multi Sig
+name: Krux
 description: настройка устройства аппаратной подписи Krux DIY Bitcoin, прошивка его прошивки и использование его как для кошельков с одной подписью, так и для кошельков Multisig.
 ---
 

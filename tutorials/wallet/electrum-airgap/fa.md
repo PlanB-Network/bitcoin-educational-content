@@ -1,6 +1,6 @@
 ---
-name: الکتروم ایرگپ
-description: اولین گام به سوی ایمنی، یک Cold Wallet با Electrum
+name: Electrum Airgap
+description: گامی نخست به سوی امنیت، یک کیف پول سرد با Electrum
 ---
 ![cover](assets/cover.webp)
 
@@ -54,7 +54,7 @@ description: اولین گام به سوی ایمنی، یک Cold Wallet با El
 
 
 
-https://planb.network/it/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 پس از دانلود، همیشه نسخه را قبل از نصب تأیید کنید، سپس به پیکربندی "یک سرور" ادامه دهید، همانطور که در بخش راهنما، تحت `شروع با یک Dummy Wallet` خواهید یافت.
 

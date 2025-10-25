@@ -1,0 +1,9 @@
+question: Wat is de beste manier om op afstand toegang te krijgen tot Bitcoin core?
+answer: De RPC poort ontsluiten
+wrong_answers:
+  - Tor gebruiken
+  - Een VPN gebruiken
+  - Een Electrum-server ontmaskeren
+explanation: |
+  De RPC poort onversleuteld openstellen is een groot veiligheidsrisico. Tor of VPN verdient de voorkeur.
+reviewed: true

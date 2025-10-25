@@ -1,0 +1,9 @@
+question: Chi ha scritto "In natura non accade nulla che possa essere attribuito ad una
+answer: Spinoza.
+wrong_answers:
+  - Cartesio.
+  - Newton.
+  - Saint-Augustin.
+explanation: |
+  È stato Spinoza a scrivere: "Non accade nulla in natura che possa essere attribuito a un vizio esistente in essa". Questa frase esprime l'idea che la natura è perfetta nel suo genere e che i difetti sono solo giudizi umani.
+reviewed: false

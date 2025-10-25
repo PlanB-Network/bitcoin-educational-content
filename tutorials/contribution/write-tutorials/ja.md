@@ -87,11 +87,11 @@ Plan ₿ Networkに貢献するには、GitHubの経験レベルに応じて3つ
 
 https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
-- 中級 (GitHub Desktop)** ：Gitの使い方に慣れていない場合、最初の選択肢は、Plan ₿ Networkに貢献するために自分のローカル環境を簡単にセットアップすることです。この方法は、完全なチュートリアルを書くなど、重要な貢献をする場合に推奨されます。これを行うには、以下のステップバイステップのチュートリアルに従ってください：
+- **中級 (GitHub Desktop)** ：Gitの使い方に慣れていない場合、最初の選択肢は、Plan ₿ Networkに貢献するために自分のローカル環境を簡単にセットアップすることです。この方法は、完全なチュートリアルを書くなど、重要な貢献をする場合に推奨されます。これを行うには、以下のステップバイステップのチュートリアルに従ってください：
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
-- 初心者向け（ウェブインターフェース）** ：GitHub のウェブインターフェースを直接使うこともできます。この方法は、ちょっとした貢献には使えます。しかし、全く新しいチュートリアルを追加するような大きな貢献の場合、この方法はローカル環境をセットアップするよりも複雑になるかもしれません。このチュートリアルでその方法を説明します：
+- **初心者向け（ウェブインターフェース）**：GitHub のウェブインターフェースを直接使うこともできます。この方法は、ちょっとした貢献には使えます。しかし、全く新しいチュートリアルを追加するような大きな貢献の場合、この方法はローカル環境をセットアップするよりも複雑になるかもしれません。このチュートリアルでその方法を説明します：
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 

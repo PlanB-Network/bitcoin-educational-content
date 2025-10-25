@@ -196,13 +196,13 @@ Meni podešavanja Aegis-a grupiše nekoliko važnih sekcija:
 
 
 
-- Izgled**: Prilagodite temu (svetla, tamna, AMOLED), jezik i druge vizuelne postavke
-- Ponašanje**: Konfigurišite ponašanje aplikacije prilikom interakcije sa listom unosa
-- Ikone paketi**: upravljajte i uvozite ikone pakete kako biste prilagodili izgled i doživljaj vaših naloga
-- Bezbednost**: Postavke za šifrovanje, biometrijsko otključavanje, automatsko zaključavanje i druge bezbednosne parametre
-- Bekapovi**: Konfigurišite automatske bekapove na lokaciju po vašem izboru
-- Import & Export**: Uvezite rezervne kopije iz drugih aplikacija za autentifikaciju i ručno izvezite svoj Aegis trezor
-- Dnevnik revizije**: Detaljan dnevnik svih značajnih događaja u aplikaciji
+- **Izgled**: Prilagodite temu (svetla, tamna, AMOLED), jezik i druge vizuelne postavke
+- **Ponašanje**: Konfigurišite ponašanje aplikacije prilikom interakcije sa listom unosa
+- **Ikone paketi**: upravljajte i uvozite ikone pakete kako biste prilagodili izgled i doživljaj vaših naloga
+- **Bezbednost**: Postavke za šifrovanje, biometrijsko otključavanje, automatsko zaključavanje i druge bezbednosne parametre
+- **Bekapovi**: Konfigurišite automatske bekapove na lokaciju po vašem izboru
+- **Import & Export**: Uvezite rezervne kopije iz drugih aplikacija za autentifikaciju i ručno izvezite svoj Aegis trezor
+- **Dnevnik revizije**: Detaljan dnevnik svih značajnih događaja u aplikaciji
 
 
 
@@ -228,9 +228,9 @@ Sa glavnog Aegis Interface, pritisnite dugme **+** u donjem desnom uglu da biste
 
 
 
-- Skeniraj QR kod**: Skeniraj direktno QR kod prikazan od strane veb servisa
-- Skeniraj sliku**: Skeniraj QR kod sa slike sačuvane na svom uređaju
-- Unesite ručno**: Ručno unesite informacije o 2FA nalogu
+- **Skeniraj QR kod**: Skeniraj direktno QR kod prikazan od strane veb servisa
+- **Skeniraj sliku**: Skeniraj QR kod sa slike sačuvane na svom uređaju
+- **Unesite ručno**: Ručno unesite informacije o 2FA nalogu
 
 
 
@@ -252,8 +252,8 @@ Uzmimo konkretan primer aktivacije 2FA na Bitwardenu da ilustrujemo proces:
 
 
 
-- Prijavljivanje i pristup podešavanjima**: Prijavite se na svoj Bitwarden nalog i pristupite podešavanjima, kartica "Bezbednost"
-- Odsek za provajdere**: Idite na odsek "Provajderi" i kliknite na "Upravljaj" u odeljku "Aplikacija za autentifikaciju"
+- **Prijavljivanje i pristup podešavanjima**: Prijavite se na svoj Bitwarden nalog i pristupite podešavanjima, kartica "Bezbednost"
+- **Odsek za provajdere**: Idite na odsek "Provajderi" i kliknite na "Upravljaj" u odeljku "Aplikacija za autentifikaciju"
 
 
 
@@ -267,10 +267,10 @@ Uzmimo konkretan primer aktivacije 2FA na Bitwardenu da ilustrujemo proces:
 
 
 
-- Skeniraj QR kod**: Otvara se iskačući prozor sa QR kodom i tajnim ključem
-- U Aegis**: Koristite "Skeniraj QR kod" da automatski preuzmete informacije
-- Verifikacija**: Unesite 6-cifreni kod koji je generisao Aegis u polje "Verifikacioni kod"
-- Aktivacija**: Kliknite na "Uključi" da biste završili aktivaciju
+- **Skeniraj QR kod**: Otvara se iskačući prozor sa QR kodom i tajnim ključem
+- **U Aegis**: Koristite "Skeniraj QR kod" da automatski preuzmete informacije
+- **Verifikacija**: Unesite 6-cifreni kod koji je generisao Aegis u polje "Verifikacioni kod"
+- **Aktivacija**: Kliknite na "Uključi" da biste završili aktivaciju
 
 
 
@@ -292,12 +292,12 @@ Ako više volite ili niste u mogućnosti da skenirate QR kod, koristite opciju "
 
 
 
-- Ime** : Ime usluge (npr. Bitwarden, GitHub...)
-- Izdavalac** : Izdavalac (često identičan imenu)
-- Grupa**: Opcionalno, za organizovanje vaših naloga po kategoriji
-- Napomena** : Lične primedbe na ovom nalogu
-- Tajna** : Tajni ključ koji obezbeđuje usluga (podrazumevano maskiran)
-- Napredno**: Napredni parametri (algoritam, period, broj cifara)
+- **Ime**: Ime usluge (npr. Bitwarden, GitHub...)
+- **Izdavalac**: Izdavalac (često identičan imenu)
+- **Grupa**: Opcionalno, za organizovanje vaših naloga po kategoriji
+- **Napomena**: Lične primedbe na ovom nalogu
+- **Tajna**: Tajni ključ koji obezbeđuje usluga (podrazumevano maskiran)
+- **Napredno**: Napredni parametri (algoritam, period, broj cifara)
 
 
 
@@ -323,10 +323,10 @@ Kada dodate nekoliko naloga, cenićete Aegis-ove alate za organizaciju:
 
 
 
-- Prilagođeno sortiranje:** Podrazumevano, nalozi su navedeni abecednim redom, ali možete ručno promeniti redosled
-- Grupe i kategorije:** Kreirajte grupe kako biste odvojili svoje lične naloge od poslovnih naloga, ili ih grupišite prema tipu usluge (bankarstvo, e-mail, društvene mreže, itd.)
-- Prilagođene ikone:** Aegis pokušava automatski dodeliti odgovarajuću ikonu ako je dostupna, u suprotnom možete izabrati iz mnogih generičkih ikona ili uvesti sliku
-- Brza pretraga:** Traka za pretragu na vrhu omogućava vam da unesete nekoliko slova kako biste odmah filtrirali odgovarajuće unose
+- **Prilagođeno sortiranje:** Podrazumevano, nalozi su navedeni abecednim redom, ali možete ručno promeniti redosled
+- **Grupe i kategorije:** Kreirajte grupe kako biste odvojili svoje lične naloge od poslovnih naloga, ili ih grupišite prema tipu usluge (bankarstvo, e-mail, društvene mreže, itd.)
+- **Prilagođene ikone:** Aegis pokušava automatski dodeliti odgovarajuću ikonu ako je dostupna, u suprotnom možete izabrati iz mnogih generičkih ikona ili uvesti sliku
+- **Brza pretraga:** Traka za pretragu na vrhu omogućava vam da unesete nekoliko slova kako biste odmah filtrirali odgovarajuće unose
 
 
 
@@ -423,15 +423,15 @@ Aegis nudi nekoliko strategija bekapa kako bi zadovoljio različite potrebe za s
 
 
 
-- Čuvajte nekoliko rezervnih verzija** kako biste sprečili oštećenje
-- Redovno testirajte** svoje rezervne kopije pokušajem vraćanja
-- Čuvajte kodove za oporavak koje pruža usluga odvojeno**
-- Vaša glavna lozinka** je i dalje potrebna čak i uz rezervne kopije u oblaku
-- Osigurajte svoju glavnu lozinku**: koristite jedinstvenu, jaku lozinku pohranjenu u menadžeru lozinki
-- Ažurirajte svoju aplikaciju** sa najnovijim sigurnosnim zakrpama
-- Aktiviraj automatsko zaključavanje** u podešavanjima kako bi osigurao pristup aplikaciji
-- Onemogući snimke ekrana** (podrazumevana opcija) kako bi sprečio presretanje tvojih kodova
-- Koristite biometriju štedljivo**: preferirajte lozinke za kritične pristupe
+- Čuvajte nekoliko rezervnih verzija kako biste sprečili oštećenje
+- Redovno testirajte **svoje rezervne kopije pokušajem vraćanja**
+- Čuvajte kodove za oporavak koje pruža usluga odvojeno
+- **Vaša glavna lozinka** je i dalje potrebna čak i uz rezervne kopije u oblaku
+- **Osigurajte svoju glavnu lozinku**: koristite jedinstvenu, jaku lozinku pohranjenu u menadžeru lozinki
+- **Ažurirajte svoju aplikaciju** sa najnovijim sigurnosnim zakrpama
+- Aktiviraj **automatsko zaključavanje** u podešavanjima kako bi osigurao pristup aplikaciji
+- Onemogući **snimke ekrana** (podrazumevana opcija) kako bi sprečio presretanje tvojih kodova
+- **Koristite biometriju štedljivo**: preferirajte lozinke za kritične pristupe
 
 
 
@@ -534,9 +534,9 @@ Bezbednost vaših online naloga ne mora zavisiti od dobre volje komercijalnih ko
 
 
 
-- Zvanična veb stranica**: [getaegis.app](https://getaegis.app/) - Prezentacija aplikacije i preuzimanje
-- Izvorni kod**: [github.com/beemdevelopment/Aegis](https://github.com/beemdevelopment/Aegis) - Zvanični GitHub repozitorijum
-- F-Droid** : [f-droid.org/packages/com.beemdevelopment.aegis](https://f-droid.org/packages/com.beemdevelopment.aegis/) - Instalacija putem besplatne prodavnice
+- **Zvanična veb stranica**: [getaegis.app](https://getaegis.app/) - Prezentacija aplikacije i preuzimanje
+- **Izvorni kod**: [github.com/beemdevelopment/Aegis](https://github.com/beemdevelopment/Aegis) - Zvanični GitHub repozitorijum
+- **F-Droid**: [f-droid.org/packages/com.beemdevelopment.aegis](https://f-droid.org/packages/com.beemdevelopment.aegis/) - Instalacija putem besplatne prodavnice
 
 
 
@@ -545,6 +545,6 @@ Bezbednost vaših online naloga ne mora zavisiti od dobre volje komercijalnih ko
 
 
 
-- Vault dokumentacija**: [Vault dizajn](https://github.com/beemdevelopment/Aegis/blob/master/docs/vault.md) - Tehnički opis enkripcije i sigurne arhitekture
-- Službena FAQ**: [getaegis.app/#faq](https://getaegis.app/#faq) - Odgovori na često postavljana pitanja
-- Projekat viki**: [github.com/beemdevelopment/Aegis/wiki](https://github.com/beemdevelopment/Aegis/wiki) - Kompletna korisnička dokumentacija
+- **Vault dokumentacija**: [Vault dizajn](https://github.com/beemdevelopment/Aegis/blob/master/docs/vault.md) - Tehnički opis enkripcije i sigurne arhitekture
+- **Službena FAQ**: [getaegis.app/#faq](https://getaegis.app/#faq) - Odgovori na često postavljana pitanja
+- **Projekat viki**: [github.com/beemdevelopment/Aegis/wiki](https://github.com/beemdevelopment/Aegis/wiki) - Kompletna korisnička dokumentacija

@@ -1,5 +1,5 @@
 ---
-name: 克拉肯
+name: Kraken
 description: 如何在 Kraken 上买卖比特币？
 ---
 ![cover](assets/cover.webp)

@@ -1,0 +1,9 @@
+question: Wat moet een Wallet doen om de status van Blockchain te zien?
+answer: Verbinding maken met een lokaal of extern knooppunt
+wrong_answers:
+  - Vraag andere portemonnees in het netwerk
+  - Netwerkminers interviewen
+  - Verbinding maken met een online Exchange platform
+explanation: |
+  Een Wallet moet verbinding maken met een knooppunt om toegang te krijgen tot de Blockchain status en zijn transacties uit te zenden.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Hvorfor regnes ikke en enkelt Wallet som en Bitcoin-nettverksdeltaker?
+answer: Fordi den ikke validerer transaksjoner eller blokker
+wrong_answers:
+  - Fordi den ikke kan generate private nøkler
+  - Fordi den ikke kan opprette Bitcoin-adresser
+  - Fordi den ikke validerer salg eller adresser
+explanation: |
+  En Wallet validerer ikke blokker og transaksjoner direkte; den administrerer bare nøklene og er avhengig av nodene for resten.
+reviewed: true

@@ -56,45 +56,45 @@ Na Gitu i GitHubu, naići ćete na komande i funkcije čija imena mogu delovati 
 
 
 
-- Dohvati poreklo:** Komanda koja preuzima nedavne informacije i promene iz udaljenog repozitorijuma bez njihovog spajanja sa vašim lokalnim radom. Ažurira vaš lokalni repozitorijum sa novim granama i komitima prisutnim u udaljenom repozitorijumu.
+- **Dohvati poreklo:** Komanda koja preuzima nedavne informacije i promene iz udaljenog repozitorijuma bez njihovog spajanja sa vašim lokalnim radom. Ažurira vaš lokalni repozitorijum sa novim granama i komitima prisutnim u udaljenom repozitorijumu.
 
 
 
-- Povuci poreklo:** Komanda koja preuzima ažuriranja iz udaljenog repozitorijuma i odmah ih integriše u vašu lokalnu granu kako bi je sinhronizovala. Ovo kombinuje korake preuzimanja i spajanja u jednu komandu.
-- Sinhronizacija Fork:** Funkcija na GitHub-u koja vam omogućava da ažurirate svoj Fork projekta sa najnovijim promenama iz izvornog repozitorijuma. Ovo osigurava da vaša kopija projekta ostane ažurirana sa glavnim razvojem.
-- Push origin:** Komanda koja se koristi za slanje vaših lokalnih izmena u udaljeni repozitorijum.
+- **Povuci poreklo:** Komanda koja preuzima ažuriranja iz udaljenog repozitorijuma i odmah ih integriše u vašu lokalnu granu kako bi je sinhronizovala. Ovo kombinuje korake preuzimanja i spajanja u jednu komandu.
+- **Sinhronizacija Fork:** Funkcija na GitHub-u koja vam omogućava da ažurirate svoj Fork projekta sa najnovijim promenama iz izvornog repozitorijuma. Ovo osigurava da vaša kopija projekta ostane ažurirana sa glavnim razvojem.
+- **Push origin:** Komanda koja se koristi za slanje vaših lokalnih izmena u udaljeni repozitorijum.
 
 
 
-- Zahtev za povlačenje:** Zahtev koji šalje saradnik kako bi naznačio da je poslao izmene na granu u udaljenom repozitorijumu i želi da te izmene budu pregledane i potencijalno spojene u glavnu granu repozitorijuma.
+- **Zahtev za povlačenje:** Zahtev koji šalje saradnik kako bi naznačio da je poslao izmene na granu u udaljenom repozitorijumu i želi da te izmene budu pregledane i potencijalno spojene u glavnu granu repozitorijuma.
 
 
 
-- Commit:** Čuvanje vaših izmena. Commit je kao trenutna snimka vašeg rada u datom trenutku, što omogućava čuvanje istorije izmena. Svaki commit uključuje opisnu poruku koja objašnjava šta je izmenjeno.
+- **Commit:** Čuvanje vaših izmena. Commit je kao trenutna snimka vašeg rada u datom trenutku, što omogućava čuvanje istorije izmena. Svaki commit uključuje opisnu poruku koja objašnjava šta je izmenjeno.
 
 
 
-- Grana:** Paralelna verzija repozitorijuma, koja vam omogućava da radite na izmenama bez uticaja na glavnu granu (često nazvanu "main" ili "master"). Grane olakšavaju razvoj novih funkcionalnosti i ispravku grešaka bez rizika od narušavanja stabilnog koda.
+- **Grana:** Paralelna verzija repozitorijuma, koja vam omogućava da radite na izmenama bez uticaja na glavnu granu (često nazvanu "main" ili "master"). Grane olakšavaju razvoj novih funkcionalnosti i ispravku grešaka bez rizika od narušavanja stabilnog koda.
 
 
 
-- Spoji:** Spajanje se sastoji od integrisanja izmena iz jedne grane u drugu. Koristi se, na primer, za dodavanje izmena iz radne grane na glavnu granu, što omogućava dodavanje različitih doprinosa.
+- **Spoji:** Spajanje se sastoji od integrisanja izmena iz jedne grane u drugu. Koristi se, na primer, za dodavanje izmena iz radne grane na glavnu granu, što omogućava dodavanje različitih doprinosa.
 
 
 
-- Fork:** Forkovanje repozitorijuma znači kreiranje kopije tog repozitorijuma na vašem GitHub nalogu, što vam omogućava da radite na projektu bez uticaja na originalni repozitorijum. Fork može ili krenuti svojim putem i postati drugačiji projekat od originalnog, ili može redovno sinhronizovati sa originalnim projektom kako bi doprineo njemu.
+- **Fork:** Forkovanje repozitorijuma znači kreiranje kopije tog repozitorijuma na vašem GitHub nalogu, što vam omogućava da radite na projektu bez uticaja na originalni repozitorijum. Fork može ili krenuti svojim putem i postati drugačiji projekat od originalnog, ili može redovno sinhronizovati sa originalnim projektom kako bi doprineo njemu.
 
 
 
-- Kloniranje:** Kloniranje repozitorijuma znači pravljenje lokalne kopije na vašem računaru, što vam omogućava pristup svim fajlovima i istoriji. Ovo vam omogućava da radite na projektu direktno lokalno.
+- **Kloniranje:** Kloniranje repozitorijuma znači pravljenje lokalne kopije na vašem računaru, što vam omogućava pristup svim fajlovima i istoriji. Ovo vam omogućava da radite na projektu direktno lokalno.
 
 
 
-- Repozitorijum:** Prostor za skladištenje projekta na GitHub-u. Repozitorijum sadrži sve datoteke projekta kao i istoriju svih promena koje su napravljene na njemu. To je osnova za skladištenje i saradnju na GitHub-u.
+- **Repozitorijum:** Prostor za skladištenje projekta na GitHub-u. Repozitorijum sadrži sve datoteke projekta kao i istoriju svih promena koje su napravljene na njemu. To je osnova za skladištenje i saradnju na GitHub-u.
 
 
 
-- Problem:** Alat za praćenje zadataka i grešaka na GitHub-u. Problemi omogućavaju prijavljivanje problema, predlaganje poboljšanja ili diskusiju o novim funkcijama. Svaki problem može biti dodeljen, označen i komentarisati.
+- **Problem:** Alat za praćenje zadataka i grešaka na GitHub-u. Problemi omogućavaju prijavljivanje problema, predlaganje poboljšanja ili diskusiju o novim funkcijama. Svaki problem može biti dodeljen, označen i komentarisati.
 
 
 Ova lista očigledno nije iscrpna. Postoji mnogo drugih tehničkih termina specifičnih za Git i GitHub. Međutim, oni koji su ovde pomenuti su glavni koje ćete često sretati.

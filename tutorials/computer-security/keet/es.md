@@ -1,5 +1,5 @@
 ---
-name: Tecla
+name: Keet
 description: Chat entre iguales
 ---
 ![cover](assets/cover.webp)

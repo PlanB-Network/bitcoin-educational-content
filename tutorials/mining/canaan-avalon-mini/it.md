@@ -137,7 +137,7 @@ Di seguito viene riportata una tabella riassuntiva delle specifiche tecniche gen
 
 
 
-**Questa parte è comune ai dispositivi Nano 3 e Mini 3, in quanto i processi sono strettamente identici
+**Questa parte è comune ai dispositivi Nano 3 e Mini 3, in quanto i processi sono strettamente identici**
 
 
 

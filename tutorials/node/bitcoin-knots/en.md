@@ -21,8 +21,8 @@ However, alternative software is also available. These are not altcoin-linked no
 There are two main reasons to use an alternative client like Knots instead of Core:
 
 
-- Technical**: These clients often offer different options to Core, notably in terms of Mempool management, by determining which transactions are accepted and broadcast by your node.
-- Policy**: Some people prefer to use alternative clients such as Knots for non-technical reasons, notably to support an alternative to Core and thus reduce its monopoly. If Core were ever compromised, it would be useful not only to have solid, well-maintained alternative clients, but also to know how to use them. Others use Knots for protest purposes, because they have lost confidence in Core's developers or disapprove of the majority client's management.
+- **Technical**: These clients often offer different options to Core, notably in terms of Mempool management, by determining which transactions are accepted and broadcast by your node.
+- **Policy**: Some people prefer to use alternative clients such as Knots for non-technical reasons, notably to support an alternative to Core and thus reduce its monopoly. If Core were ever compromised, it would be useful not only to have solid, well-maintained alternative clients, but also to know how to use them. Others use Knots for protest purposes, because they have lost confidence in Core's developers or disapprove of the majority client's management.
 
 ## How do I install Bitcoin Knots?
 

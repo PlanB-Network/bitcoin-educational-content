@@ -36,7 +36,6 @@ I slutet av kursen ska du kunna skriva egna program i JavaScript, använda NodeJ
 <chapterId>ba05a290-1782-5268-87c9-62fd09590e05</chapterId>
 
 
-I det här avsnittet ska vi ställa in vår maskin så att vi kan skriva och köra vårt första JavaScript-program.
 
 
 Ett JavaScript-program är bara en samling av (en eller flera) textfiler som innehåller kommandon som ska utföras av en JavaScript-körtid.
@@ -51,16 +50,16 @@ De kommandon som de innehåller är skrivna i programmeringsspråket JavaScript.
 En JavaScript-körtid är ett speciellt program som kör dessa filer.
 
 
-![](assets/en/1.webp)
+![](assets/en/001.webp)
 
 
-### Installation av NodeJS
+### NodeJS-körtid
 
 
 Den vanligaste JavaScript-körtiden är NodeJS.
 
 
-Du kan installera det genom att följa de [officiella instruktionerna] (https://nodejs.org/en/download).
+Din IDE kan redan innehålla det, eller så kan du behöva ladda ner det från [officiella webbplatsen](https://nodejs.org/en/download).
 
 
 På nedladdningssidan finns instruktioner för alla de tre stora OS:en (operativsystemen): Windows, Linux och MacOS. Det förutsätter att du vet hur man öppnar en terminal i ditt operativsystem.
@@ -72,25 +71,19 @@ Eftersom NodeJS är tillgängligt för alla tre operativsystemen kommer de progr
 Det innebär att du t.ex. kan skriva ett enkelt videospel i JavaScript på din Windows-dator och skicka det till din vän som kör det på sin Mac.
 
 
-![](assets/en/2.webp)
+![](assets/en/002.webp)
 
 
-### Textredigering
 
 
-En av de häftiga sakerna med programmering är att du kan skriva kod med vilken textredigerare som helst, till och med standardanteckningsblocket i ditt operativsystem.
 
 
-Det finns dock vissa texteditorer som är specialiserade på att skriva kod, vissa är tillgängliga gratis, andra kräver att du betalar för en licens.
 
 
-Valet av kodredigerare är ett gigantiskt kaninhål som överskrider omfattningen av denna kurs, så vi kommer inte att prata om det här. Om du inte vet vad du ska använda är den mest använda gratisredigeraren [VSCode] (https://code.visualstudio.com/).
 
 
-Dess Interface är lite uppblåst, men det har vad du behöver: en filredigerare, en filutforskare (för att visualisera filerna och underkatalogerna i den katalog du arbetar med) och en terminal för att köra din kod. Det stöder också en hel del plugins, och det levereras med JavaScript syntaxmarkering som standard.
 
 
-Om du vill vara lite mer Cypherpunk-aktig kan du använda [VSCodium](https://vscodium.com/) istället.
 
 
 ### Första programmet (hello world)
@@ -102,7 +95,7 @@ När man studerar ett programmeringsspråk brukar det första programmet man skr
 Skapa en katalog som heter `my_js_code/`, med en fil som heter `main.js` (dessa namn är godtyckliga).
 
 
-Öppna katalogen med VSCode.
+Öppna katalogen med din kodredigerare.
 
 
 Skriv in den här koden i din fil:
@@ -687,7 +680,7 @@ Du kan kombinera booleaner med hjälp av logiska operatorer:
 - `!` betyder "inte", det används före en boolean och vänder på det: om booleanen är "sann" kommer den att returnera "falsk" och vice versa.
 
 
-![](assets/en/3.webp)
+![](assets/en/003.webp)
 
 
 Exempel på detta:
@@ -737,9 +730,9 @@ I det här avsnittet går vi igenom ytterligare tre typer som är mycket vanliga
 
 
 
-- Arrayer**: sekvenser av värden
-- undefined**: ett speciellt värde som betyder "ingenting tilldelades"
-- null**: ett annat specialvärde som betyder "avsiktligt tom"
+- **Arrayer**: sekvenser av värden
+- **undefined**: ett speciellt värde som betyder "ingenting tilldelades"
+- **null**: ett annat specialvärde som betyder "avsiktligt tom"
 
 
 ### Arrayer och indexåtkomst
@@ -2302,7 +2295,7 @@ console.log(`${this.brand} car is ready to drive!`)
 Klassen `Car` **ärver** nu allt från `Vehicle`. Den får egenskapen `brand`, och vi har ersatt metoden `start()` med vår egen version.
 
 
-![](assets/en/4.webp)
+![](assets/en/004.webp)
 
 
 Låt oss prova det:
@@ -2356,7 +2349,7 @@ myCar.start()
 ```
 
 
-![](assets/en/5.webp)
+![](assets/en/005.webp)
 
 
 
@@ -4197,7 +4190,7 @@ Here is the doubled array: [ 2, 4, 6 ]
 ```
 
 
-**Vad är det som händer här?
+**Vad är det som händer här?**
 
 
 1. Vi skickar `input` som en lista med siffror som vi vill fördubbla.
@@ -5055,7 +5048,7 @@ Dessa är användbara när du vill uppdatera en variabel med hjälp av dess eget
 ### Destrukturering
 
 
-*med *Destructuring** kan du enkelt ta värden från matriser eller objekt och lagra dem i variabler.
+**Med Destructuring** kan du enkelt ta värden från matriser eller objekt och lagra dem i variabler.
 
 
 #### Arrayer
@@ -5235,7 +5228,7 @@ JavaScript är ett tolkat språk, i motsats till kompilerade språk som C.
 Kod som skrivs i ett kompilerat språk omvandlas till en binär fil och den binära filen matas direkt till datorns CPU.
 
 
-![](assets/en/6.webp)
+![](assets/en/006.webp)
 
 
 Interpredspråk, å andra sidan, tenderar att vara mer användarvänliga och ligger närmare hur människor tänker ("hög nivå") snarare än hur maskiner fungerar ("låg nivå"); så de har vanligtvis en virtuell maskin byggd för att köra sin kod.
@@ -5268,7 +5261,7 @@ Varför är det ett problem?
 Eftersom webbläsare exekverar kod som hämtas från miljontals olika källor på internet kan de lätt bli skadlig kod, så de är "sandboxade" från resten av operativsystemet.
 
 
-![](assets/en/7.webp)
+![](assets/en/007.webp)
 
 
 JavaScript kunde inte komma åt filsystemet och andra lokala resurser på din dator (åtminstone inte lika enkelt som andra språk), så det var en betydande begränsning för vilken typ av applikationer du kunde bygga med det.
@@ -5277,7 +5270,7 @@ JavaScript kunde inte komma åt filsystemet och andra lokala resurser på din da
 År 2009 publicerade Ryan Dahl NodeJS, som är en runtime som gör att du kan använda V8-motorn utanför webbläsaren, direkt på datorns inbyggda operativsystem. Det lägger också till många funktioner som är användbara för att skriva program på serversidan och kommandoraden. Du kan t.ex. använda NodeJS för att skapa en webbserver, läsa och skriva filer eller bygga verktyg som automatiserar uppgifter.
 
 
-![](assets/en/8.webp)
+![](assets/en/008.webp)
 
 
 I den här kursen har vi hittills utforskat de JavaScript-funktioner som finns i både webbläsaren och i NodeJS. Dessa funktioner gjorde det möjligt för oss att definiera data och manipulera dem på abstrakta sätt. Under de kommande lektionerna kommer vi att utforska de funktioner som är specifika för NodeJS och som gör att vi kan interagera med operativsystemet.
@@ -6438,10 +6431,10 @@ NodeJS har fyra huvudtyper av strömmar:
 
 
 
-- Readable**: strömmar som du kan läsa data från (som att läsa en fil)
-- Writable**: strömmar som du kan skriva data till (som att skriva till en fil)
-- Duplex**: strömmar som är både läsbara och skrivbara
-- Transform**: som duplexströmmar, men de kan ändra (transformera) datan när den flödar
+- **Readable**: strömmar som du kan läsa data från (som att läsa en fil)
+- **Writable**: strömmar som du kan skriva data till (som att skriva till en fil)
+- **Duplex**: strömmar som är både läsbara och skrivbara
+- **Transform**: som duplexströmmar, men de kan ändra (transformera) datan när den flödar
 
 
 ### Läsbara strömmar

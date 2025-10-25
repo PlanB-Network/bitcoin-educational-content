@@ -1,5 +1,5 @@
 ---
-name: Sentinel Watch-Only
+name: Sentinel
 description: Hva er en Watch-Only lommebok og hvordan bruke den?
 ---
 ![cover](assets/cover.webp)

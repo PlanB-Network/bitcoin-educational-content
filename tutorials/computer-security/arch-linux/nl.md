@@ -17,10 +17,10 @@ Arch Linux is een distributie die bekend staat om zijn robuustheid, prestaties e
 
 
 
-- Gratis en open source**: Net als de meeste Linux-distributies is Arch Linux helemaal gratis. Er zijn geen licentiekosten, waardoor het een uitstekende keuze is voor studenten, freelancers of enthousiastelingen.
-- KISS** filosofie: Arch is ontworpen om eenvoudig, licht en efficiënt te zijn. Het biedt alleen het essentiële, zodat je je omgeving à la carte kunt opbouwen.
-- Pacman** pakketbeheerder: Pacman is een snelle, betrouwbare en goed ontworpen pakketbeheerder. Het maakt efficiënte installatie en updaten van software mogelijk en beheert afhankelijkheden met precisie.
-- Uitgebreide documentatie en een actieve gemeenschap**: de [Arch Wiki](https://wiki.archlinux.org) is waarschijnlijk een van de beste technische documentaties in de Linux-wereld. Het is een goudmijn om te begrijpen wat je aan het doen bent. De gemeenschap, die voornamelijk bestaat uit ervaren profielen, is erg actief en kan je helpen als je vastloopt, op voorwaarde dat je van tevoren wat onderzoek hebt gedaan.
+- **Gratis en open source**: Net als de meeste Linux-distributies is Arch Linux helemaal gratis. Er zijn geen licentiekosten, waardoor het een uitstekende keuze is voor studenten, freelancers of enthousiastelingen.
+- **KISS** filosofie: Arch is ontworpen om eenvoudig, licht en efficiënt te zijn. Het biedt alleen het essentiële, zodat je je omgeving à la carte kunt opbouwen.
+- **Pacman pakketbeheerder**: Pacman is een snelle, betrouwbare en goed ontworpen pakketbeheerder. Het maakt efficiënte installatie en updaten van software mogelijk en beheert afhankelijkheden met precisie.
+- **Uitgebreide documentatie en een actieve gemeenschap**: de [Arch Wiki](https://wiki.archlinux.org) is waarschijnlijk een van de beste technische documentaties in de Linux-wereld. Het is een goudmijn om te begrijpen wat je aan het doen bent. De gemeenschap, die voornamelijk bestaat uit ervaren profielen, is erg actief en kan je helpen als je vastloopt, op voorwaarde dat je van tevoren wat onderzoek hebt gedaan.
 
 
 
@@ -39,7 +39,7 @@ Benodigde materialen:
 
 
 - Een USB-sleutel van minstens **8 GB**
-- minimaal 2 GB** RAM
+- minimaal 2 GB **RAM**
 - Een computer met minstens 20 GB vrije schijfruimte
 
 
@@ -261,7 +261,7 @@ Kies **GPT** als je in UEFI zit, **DOS** als je in BIOS zit.
 
 
 
-- In UEFI**-modus
+- In **UEFI**-modus
 
 
 
@@ -294,7 +294,7 @@ Selecteer **Schrijven**, typ **ja** en vervolgens **Afsluiten**.
 
 
 
-- UEFI**:
+- **UEFI**:
 
 
 
@@ -309,7 +309,7 @@ mkfs.ext4 /dev/sda3
 
 
 
-- BIOS**:
+- **BIOS**:
 
 
 

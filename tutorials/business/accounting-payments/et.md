@@ -100,7 +100,7 @@ Kui Bitcoin tehingute maht suureneb, võib sularaha sisestamine kassasse muutuda
 Nagu me nägime, on Bitcoin lihtne vastu võtta ilma uute, üksikisiku eraelu puutumatust kahjustavate raamatupidamisprotseduuride kehtestamiseta; siiski oleks soovitatav säilitada paralleelne raamatupidamissüsteem, et jälgida oma Bitcoin voolu. Ärge muretsege, see võib olla nii lihtne kui soovite, kui te saate aru, kui palju Bitcoine teie Wallet-sse siseneb ja sealt väljub.
 
 
-**Välja "Märkus" täitmine LN Invoice loomisel kliendi jaoks muudab Bitcoin raamatupidamise ajakohastamise palju lihtsamaks. Sama kehtib ka LN makse tegemisel tarnijatele. Ideaalis on iga tehing seotud maksemärkusega.
+**Välja "Märkus" täitmine LN Invoice loomisel kliendi jaoks muudab Bitcoin raamatupidamise ajakohastamise palju lihtsamaks. Sama kehtib ka LN makse tegemisel tarnijatele. Ideaalis on iga tehing seotud maksemärkusega.**
 
 
 ## Kokkuvõte

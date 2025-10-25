@@ -31,7 +31,7 @@ sudo apt install gnupg
 ```
 
 
-MacOS** için, Homebrew paket yöneticisini henüz yüklemediyseniz, aşağıdaki komutları kullanarak yükleyin:
+**MacOS** için, Homebrew paket yöneticisini henüz yüklemediyseniz, aşağıdaki komutları kullanarak yükleyin:
 
 
 ```bash
@@ -56,7 +56,7 @@ Ardından bu komutla GPG'yi yükleyin:
 brew install gnupg
 ```
 
-Windows** için, eğer GPG'niz yoksa, [Gpg4win](https://www.gpg4win.org/) yazılımını yükleyebilirsiniz.
+**Windows** için, eğer GPG'niz yoksa, [Gpg4win](https://www.gpg4win.org/) yazılımını yükleyebilirsiniz.
 
 ![GnuPG](assets/notext/01.webp)
 
@@ -150,7 +150,7 @@ gpg --verify [file.asc]
 Yazılımın gerçekliği doğrulandığına göre, bütünlüğünü de doğrulamak gerekir. Yazılımın Hash'unu geliştirici tarafından sağlanan Hash ile karşılaştıracağız. İkisi eşleşirse, yazılım kodunun değiştirilmediğini garanti eder.
 
 
-Windows** üzerinde bir terminal açın ve aşağıdaki komutu çalıştırın:
+**Windows** üzerinde bir terminal açın ve aşağıdaki komutu çalıştırın:
 
 
 ```bash
@@ -182,7 +182,7 @@ Ardından sonucu "*Sparrow-2.0.0-manifest.txt*" dosyasındaki ilgili değerle ka
 Benim durumumda, iki karmanın mükemmel bir şekilde eşleştiğini görüyoruz.
 
 
-MacOS** ve **Linux** üzerinde Hash doğrulama işlemi otomatiktir. Windows'ta olduğu gibi iki karma arasındaki eşleşmeyi manuel olarak kontrol etmek gerekmez.
+**MacOS** ve **Linux** üzerinde Hash doğrulama işlemi otomatiktir. Windows'ta olduğu gibi iki karma arasındaki eşleşmeyi manuel olarak kontrol etmek gerekmez.
 
 
 Bu komutu **macOS** üzerinde çalıştırmanız yeterlidir:

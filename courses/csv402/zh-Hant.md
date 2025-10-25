@@ -1,13 +1,11 @@
 ---
-name: RGB 協定，從理論到實踐
+name: RGB編程
 goal: 獲得瞭解和使用 RGB 所需的技能
-objectives: 
-
-  - 瞭解 RGB 通訊協定的基本概念
-  - 掌握 Client-side Validation 和 Bitcoin 承諾的原則
-  - 學習如何建立、管理和轉移 RGB 合約
-  - 如何操作與 RGB 相容的 Lightning 節點
-
+objectives:
+- 瞭解 RGB 通訊協定的基本概念
+- 掌握 Client-side Validation 和 Bitcoin 承諾的原則
+- 學習如何建立、管理和轉移 RGB 合約
+- 如何操作與 RGB 相容的 Lightning 節點
 ---
 # 發現 RGB 通訊協定
 
@@ -30,15 +28,15 @@ objectives:
 
 大家好，歡迎來到這個專門針對 RGB 的訓練課程，RGB 是在 Bitcoin 和 Lightning Network 上執行的客戶端驗證 Smart contract 系統。本課程的結構設計是為了能夠深入探索這個複雜的主題。以下是本課程的組織方式：
 
-**第 1 節：理論
+**第 1 節：理論**
 
 第一部分專門講解理解 Client-side Validation 和 RGB 基礎所需的理論概念。正如您在本課程中所發現的，RGB 引進了許多在 Bitcoin 中並不常見的技術概念。在本節中，您還可以找到詞彙表，提供 RGB 協定特有的所有詞彙定義。
 
-**第二節：練習
+**第二節：練習**
 
 第二節將著重於第一節中所看到的理論概念的應用。我們將學習如何建立和操作 RGB 契約。我們也會看到如何使用這些工具來編程。前兩節由 Maxim Orlovsky 主講。
 
-**第 3 節：應用
+**第 3 節：應用**
 
 最後一節由其他講者帶領，介紹以 RGB 為基礎的具體應用，強調現實生活中的使用案例。
 
@@ -50,11 +48,11 @@ https://planb.network/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
 
 **Week 1 - LNP402:**
 
-![RGB-Bitcoin](assets/fr/001.webp)
+![RGB-Bitcoin](assets/en/001.webp)
 
 **第 2 週 - 目前的訓練 CSV402:**
 
-![RGB-Bitcoin](assets/fr/002.webp)
+![RGB-Bitcoin](assets/en/002.webp)
 
 非常感謝這些現場課程的主辦單位以及參與的三位老師：
 
@@ -88,23 +86,23 @@ RGB 是基於 Bitcoin Blockchain 的共識規則與運作，以可擴充與保�
 分散式運算是電腦科學的一個特定分支，研究用於在節點網路中流通和處理資訊的通訊協定。這些節點和通訊協定規則共同構成了所謂的分散式系統。這種系統的基本特性包括 ：
 
 
-- 每個節點對特定資料進行獨立驗證及確認的**能力；
-- 節點建構完整或部分資訊視圖的可能性（取決於協定）。這些視圖就是分散式系統的**狀態；
+- 每個節點對特定資料進行獨立驗證及確認的**能力**；
+- 節點建構完整或部分資訊視圖的可能性（取決於協定）。這些視圖就是分散式系統的**狀態**；
 - 操作的**時序**，使資料有可靠的時間戳記，並對事件的順序（狀態順序）達成共識。
 
 特別是，分散式系統中的**共識**概念涵蓋兩方面：
 
 
-- 確認狀態變更的有效性**（根據協議規則）；
-- 這些狀態變更的**協定順序，使後續無法重寫或逆向驗證的作業（這在 Bitcoin 中也稱為「雙重花費保護」）。
+- 確認狀態變更的**有效性**（根據協議規則）；
+- 這些狀態變更的**協定順序**，使後續無法重寫或逆向驗證的作業（這在 Bitcoin 中也稱為「雙重花費保護」）。
 
 Satoshi Nakamoto 以 Bitcoin 引入了第一個功能性、無權限的分散式共識機制實現，這要歸功於 Blockchain 資料結構和 Proof-of-Work (PoW) 演算法的結合使用。在這個系統中，區塊歷史的可信度取決於節點（礦工）對其投入的計算能力。因此，Bitcoin 是分佈式共識系統的主要歷史性案例，對所有人開放（*無權限*）。
 
-在 Blockchain 和分散式運算的世界裡，我們可以區分出兩種基本範例： *傳統意義上的 Blockchain****，以及***狀態通道*****，其中最佳的生產範例就是 Lightning Network。Blockchain 被定義為一個按時間順序排列的事件登錄器，在一個開放、無權限的網絡中以共識方式複製。另一方面，狀態通道是對等通道，可讓兩個（或更多）參與者維持更新的狀態 off-chain，僅在開啟和關閉這些通道時使用 Blockchain。
+在 Blockchain 和分散式運算的世界裡，我們可以區分出兩種基本範例：**傳統意義上的 Blockchain**，以及**狀態通道**，其中最佳的生產範例就是 Lightning Network。Blockchain 被定義為一個按時間順序排列的事件登錄器，在一個開放、無權限的網絡中以共識方式複製。另一方面，狀態通道是對等通道，可讓兩個（或更多）參與者維持更新的狀態 off-chain，僅在開啟和關閉這些通道時使用 Blockchain。
 
 在 Bitcoin 的背景下，您無疑已經熟悉了 Mining 的原則、Blockchain 上交易的去中心化和終局性，以及支付通道的工作方式。有了 RGB，我們將引進一個新的範例，稱為 **Client-side Validation**，與 Blockchain 或 Lightning 不同，它包含本機（客戶端）儲存和驗證 Smart contract 的狀態轉換。這也有別於其他「DeFi」技術 (_rollups_、_plasma_、_ARK_ 等)，因為 Client-side Validation 依賴 Blockchain 來防止 Double-spending 並擁有時間戳記系統，同時只與相關參與者保留 off-chain 狀態和轉換的登錄器。
 
-![RGB-Bitcoin](assets/fr/003.webp)
+![RGB-Bitcoin](assets/en/003.webp)
 
 稍後，我們還會介紹一個重要的名詞：「**Stash**」的概念，它是指保存 Contract 狀態所需的客戶端資料集，因為這些資料不會在網路上進行全局複製。最後，我們將探討 RGB 背後的原理，這是一個利用 Client-side Validation 的通訊協定，以及為什麼它可以補充現有的方法 (Blockchain 和狀態通道)。
 
@@ -113,55 +111,55 @@ Satoshi Nakamoto 以 Bitcoin 引入了第一個功能性、無權限的分散式
 要瞭解 Client-side Validation 和 RGB Address 如何解決 Blockchain 和 Lightning 未解決的問題，讓我們來發現分散式運算中的 3 大「三難題」：
 
 
-- 可擴充、分散、隱私** ；
-- CAP** 理論 (一致性、可用性、分割容忍度) ；
-- CIA** 三難點 (機密性、完整性、可用性)。
+- 可擴充、分散、隱私；
+- **CAP** 理論 (一致性、可用性、分割容忍度) ；
+- **CIA** 三難點 (機密性、完整性、可用性)。
 
 #### 1.可擴充性、分散性和機密性
 
 
-- Blockchain (Bitcoin)**
+- **Blockchain (Bitcoin)**
 
 Blockchain 高度分散，但擴充性不高。更重要的是，由於所有東西都在全球公開的登記冊中，因此保密性有限。我們可以嘗試使用零知識技術 (Confidential Transactions、mimblewimble 方案等) 來提高機密性，但公有鏈無法隱藏交易圖形。
 
 
-- 閃電/國家頻道**
+- **閃電/國家頻道**
 
 與 Blockchain 相比，狀態通道 (如 Lightning Network)更具擴充性，也更隱密，因為交易是在 off-chain 進行的。然而，公開宣佈某些 Elements (資金交易、網路拓樸) 的義務以及網路流量的監控會部分損害機密性。分散性也會受到影響：路由是現金密集型的，主要節點可能成為集中點。這正是我們在 Lightning 上開始看到的現象。
 
 
-- Client-side Validation (RGB)**
+- **Client-side Validation (RGB)**
 
 這種新的範例更具擴展性，也更機密，因為我們不僅可以整合零揭露的知識證明技術，而且沒有全局的交易圖表，因為沒有人持有整個登記冊。另一方面，這也意味著在去中心化上的某種妥協：Smart contract 的發行者可以扮演中心角色（就像 Ethereum 中的「Contract 部署者」）。然而，與 Blockchain 不同的是，使用 Client-side Validation，您只需儲存和驗證您感興趣的合約，這樣就避免了下載和驗證所有現有狀態的需要，從而提高了可擴展性。
 
-![RGB-Bitcoin](assets/fr/004.webp)
+![RGB-Bitcoin](assets/en/004.webp)
 
 #### 2.CAP 理論 (一致性、可用性、分割容錯)
 
 CAP 理論強調，分散式系統不可能同時滿足一致性 (*一致性*)、可用性 (* 可用性*) 和分割容忍度 (* 分割容忍度*)。
 
 
-- Blockchain**
+- **Blockchain**
 
 Blockchain 偏重於一致性和可用性，但在網路分割方面做得不好：如果看不到區塊，就無法行動，也無法擁有與整個網路相同的視圖。
 
 
-- 閃電** (法文)
+- **閃電** (法文)
 
 狀態通道系統具有可用性和分割容錯性 (因為即使網路被分割，兩個節點仍能彼此保持連線)，但整體一致性則取決於 Blockchain 上通道的開啟和關閉。
 
 
-- Client-side Validation (RGB)**
+- **Client-side Validation (RGB)**
 
 像 RGB 這樣的系統可提供一致性（每個參與者都在本地驗證其資料，不會含糊不清）和分割容錯性（您可自主保存資料），但無法保證全球可用性（每個人都必須確認自己擁有相關的歷史片段，有些參與者可能不會發佈任何內容或停止分享某些資訊）。
 
-![RGB-Bitcoin](assets/fr/005.webp)
+![RGB-Bitcoin](assets/en/005.webp)
 
 #### 3.CIA 三難點 (機密性、完整性、可用性)
 
 這個三難題提醒我們，機密性、完整性和可用性無法同時獲得最佳化。Blockchain、Lightning 和 Client-side Validation 以不同的方式達到此平衡。我們的想法是，沒有任何單一系統可以提供所有功能；必須結合幾種方法 (Blockchain 的時間戳記、Lightning 的同步方法，以及 RGB 的本地驗證)，才能獲得一個連貫的套件，在每個層面上提供良好的保證。
 
-![RGB-Bitcoin](assets/fr/006.webp)
+![RGB-Bitcoin](assets/en/006.webp)
 
 ### Blockchain 的作用和分片概念
 
@@ -178,23 +176,23 @@ Sharding 是一個起源於分散式資料庫的概念 (例如 MySQL 用於 Face
 因此，我們可以想像這個生態系統如下：
 
 
-- Blockchain (Bitcoin)** 作為確保完整複製最小暫存器的基礎，並作為時間戳記 Layer；
-- Lightning Network** 為快速、Confidential Transactions，仍基於 Bitcoin Blockchain 的安全性與最終結算；
-- RGB 與 Client-side Validation** 可加入更複雜的 Smart contract 邏輯，而不會使 Blockchain 變得雜亂或失去保密性。
+- **Blockchain (Bitcoin)** 作為確保完整複製最小暫存器的基礎，並作為時間戳記 Layer；
+- **Lightning Network** 為快速、Confidential Transactions，仍基於 Bitcoin Blockchain 的安全性與最終結算；
+- **RGB 與 Client-side Validation** 可加入更複雜的 Smart contract 邏輯，而不會使 Blockchain 變得雜亂或失去保密性。
 
-![RGB-Bitcoin](assets/fr/007.webp)
+![RGB-Bitcoin](assets/en/007.webp)
 
 這三個 Elements 形成一個三角形的整體，而不是「Layer 2」、「Layer 3」等的線性堆疊。Lightning 可以直接連接到 Bitcoin，或與結合 RGB 資料的 Bitcoin 交易相關聯。同樣地，「BiFi」用途（Bitcoin 上的財務）可根據保密性、擴充性或 Contract 邏輯的需求，與 Blockchain、Lightning 及 RGB 組成。
 
-![RGB-Bitcoin](assets/fr/008.webp)
+![RGB-Bitcoin](assets/en/008.webp)
 
 ### 狀態轉換的概念
 
-在任何分散式系統中，驗證機制的目的是能夠**確定狀態變更的有效性和時間順序。其目的在於驗證通訊協定規則是否受到尊重，並證明這些狀態變更是以確定且不可篡改的順序相繼發生。
+在任何分散式系統中，驗證機制的目的是能夠**確定狀態變更的有效性和時間順序**。其目的在於驗證通訊協定規則是否受到尊重，並證明這些狀態變更是以確定且不可篡改的順序相繼發生。
 
 為了了解這種驗證在**Bitcoin**的情況下是如何運作的，更廣泛來說，為了掌握 Client-side Validation 背後的哲學，讓我們先回顧一下 Bitcoin Blockchain 的機制，然後再看看 Client-side Validation 與它們有什麼不同，以及它做了哪些優化。
 
-![RGB-Bitcoin](assets/fr/009.webp)
+![RGB-Bitcoin](assets/en/009.webp)
 
 就 Bitcoin Blockchain 而言，交易驗證是基於一個簡單的規則：
 
@@ -203,15 +201,15 @@ Sharding 是一個起源於分散式資料庫的概念 (例如 MySQL 用於 Face
 - 他們驗證這些交易，以驗證 UTXO 集 (所有未使用的輸出) 的正確演變；
 - 它們會儲存這些資料 (以區塊的形式)，以便在必要時重播歷史。
 
-![RGB-Bitcoin](assets/fr/010.webp)
+![RGB-Bitcoin](assets/en/010.webp)
 
 然而，這種模式有兩大缺點：
 
 
-- 可擴充性**：由於每個節點都必須處理、驗證和存檔每個人的交易，因此交易容量有明顯的限制，尤其是與最大區塊大小有關（Bitcoin 平均 10 分鐘 1 MB，不包括 cookies）；
-- 隱私**：所有東西都是公開廣播和儲存的（金額、目的地址等），這限制了交換的機密性。
+- **可擴充性**：由於每個節點都必須處理、驗證和存檔每個人的交易，因此交易容量有明顯的限制，尤其是與最大區塊大小有關（Bitcoin 平均 10 分鐘 1 MB，不包括 cookies）；
+- 隱私：所有東西都是公開廣播和儲存的（金額、目的地址等），這限制了交換的機密性。
 
-![RGB-Bitcoin](assets/fr/012.webp)
+![RGB-Bitcoin](assets/en/012.webp)
 
 實際上，這個模式對於作為基礎 Layer (Layer 1) 的 Bitcoin 來說是可行的，但對於同時需要高交易吞吐量和一定保密性的更複雜用途來說，可能就不夠用了。
 
@@ -221,7 +219,7 @@ Client-side Validation 是基於相反的想法：與其要求整個網路驗證
 - 當某人收到資產（或任何其他數位財產）時，他只需要知道並驗證導致該資產的作業鏈（狀態轉換），並證明其合法性；
 - 這一系列的作業，從 ***Genesis***（初始發行）到最近的交易，形成一個無環有向圖 (DAG) 或 Shard，也就是整體歷史的一部分。
 
-![RGB-Bitcoin](assets/fr/013.webp)
+![RGB-Bitcoin](assets/en/013.webp)
 
 與此同時，為了讓網路的其他部分（或更精確地說，底層的 Layer，例如 Bitcoin）能夠鎖定最終狀態，而不會看到這些資料的細節，Client-side Validation 依賴於 ***Commitment*** 的概念。
 
@@ -242,12 +240,12 @@ Client-side Validation 是基於相反的想法：與其要求整個網路驗證
 - 您 generate 加密 Commitment 到此轉換，並將其插入 Bitcoin 交易 (這些承諾在 RGB 通訊協定中稱為 「*錨*」)；
 - 交易對手（接收方）擷取與此資產相關的客戶端歷史記錄，並驗證端對端的一致性，從 Smart contract 的 Genesis 到您傳送給它的轉換。
 
-![RGB-Bitcoin](assets/fr/014.webp)
+![RGB-Bitcoin](assets/en/014.webp)
 
 Client-side Validation 有兩大優點：
 
 
-- 可擴充性：**
+- 可擴充性：
 
 Blockchain 所包含的承諾 (*commitments*) 都很小 (約數十位元組)。這可確保區塊空間不會飽和，因為只需要包含 Hash。這也使得 off-chain 通訊協定得以演進，因為每個使用者只需儲存他或她的歷史片段 (他或她的 _stash_)。
 
@@ -260,13 +258,13 @@ Blockchain 所包含的承諾 (*commitments*) 都很小 (約數十位元組)。�
 
 實際上，當這個 Bitcoin 交易被驗證時，就永久「鎖定」了基礎契約的狀態，因為已經刻在 Blockchain 中的 Hash 就不可能再修改了。
 
-![RGB-Bitcoin](assets/fr/015.webp)
+![RGB-Bitcoin](assets/en/015.webp)
 
 ### Stash 概念
 
 **Stash**是參與者為了維護RGB Smart contract的完整性和歷史而必須絕對保留的一組客戶端資料。不像 Lightning 頻道，某些狀態可以在本機從共用資訊中重建，RGB Contract 的 Stash 不會複製到其他地方：如果您遺失了它，沒有人能夠還原給您，因為您要對自己的那份歷史負責。這就是您需要在 RGB 中採用具有可靠備份程序的系統的原因。
 
-![RGB-Bitcoin](assets/fr/016.webp)
+![RGB-Bitcoin](assets/en/016.webp)
 
 ### Single-Use Seal：起源與運作
 
@@ -284,11 +282,11 @@ Blockchain 所包含的承諾 (*commitments*) 都很小 (約數十位元組)。�
 
 一次性封印是由 Peter Todd 於 2016 年提出的加密基元，類似於實體封印的概念：一旦在容器上貼上 Seal，若不不可逆轉地破壞 Seal，就無法打開或修改容器。
 
-![RGB-Bitcoin](assets/fr/018.webp)
+![RGB-Bitcoin](assets/en/018.webp)
 
 將這種方法轉換到數位世界，就能證明一連串的事件確實發生過，而且不能再在事後更改。因此，單次使用封印超越了「Hash + Timestamp」的簡單邏輯，增加了一個 Seal 的概念，這個 Seal 只能關閉 ** 一次**。
 
-![RGB-Bitcoin](assets/fr/017.webp)
+![RGB-Bitcoin](assets/en/017.webp)
 
 為了讓單次使用封條發揮作用，您需要一個能夠證明出版物存在或不存在的出版物證明媒介，而且一旦資訊散布出去，就很難 (如果不是不可能) 偽造。例如，**Blockchain**（如 Bitcoin）可充當此角色，而一份公開發行的紙張報紙也可。構想如下：
 
@@ -306,9 +304,9 @@ Blockchain 非常適合扮演這個角色：只要交易被包含在區塊中，
 以下的比較有助於了解這個原則：
 
 
-- 加密 Commitment (Hash)**：使用 Hash 函式，您可以透過公佈其 Hash 來承諾一段資料（一個數字）。在您揭露預先映像之前，該資料仍然是保密的，但您可以證明您事先知道該資料；
-- Timestamp (Blockchain)**：透過在 Blockchain 中插入此 Hash，我們也證明我們在一個精確的時刻（即包含在區塊中）知道它；
-- Single-Use Seal**：有了單次使用的封條，我們更進一步讓 Commitment 成為唯一。使用單一 Hash，您可以同時創造多個相互矛盾的承諾 (醫生向家人宣布「*是男孩*」，卻在個人日記中寫下「*是女孩*」的問題)。Single-Use Seal 透過將 Commitment 連結到一個公開證明媒介 (例如 Bitcoin Blockchain) 來消除這種可能性，因此花費 UTXO 就能確實封鎖 Commitment。一旦花費 UTXO，就無法再花費相同的 UTXO 來取代 Commitment。
+- 加密 Commitment (Hash)：使用 Hash 函式，您可以透過公佈其 Hash 來承諾一段資料（一個數字）。在您揭露預先映像之前，該資料仍然是保密的，但您可以證明您事先知道該資料；
+- Timestamp (Blockchain)：透過在 Blockchain 中插入此 Hash，我們也證明我們在一個精確的時刻（即包含在區塊中）知道它；
+- **Single-Use Seal**：有了單次使用的封條，我們更進一步讓 Commitment 成為唯一。使用單一 Hash，您可以同時創造多個相互矛盾的承諾 (醫生向家人宣布「*是男孩*」，卻在個人日記中寫下「*是女孩*」的問題)。Single-Use Seal 透過將 Commitment 連結到一個公開證明媒介 (例如 Bitcoin Blockchain) 來消除這種可能性，因此花費 UTXO 就能確實封鎖 Commitment。一旦花費 UTXO，就無法再花費相同的 UTXO 來取代 Commitment。
 
 | | 簡單的 Commitment (digest/Hash) | 時間戳 | 單次使用的封條 | | 簡單的 Commitment (digest/Hash) | 時間戳 | 單次使用的封條
 
@@ -328,7 +326,7 @@ Blockchain 非常適合扮演這個角色：只要交易被包含在區塊中，
 - Alice 事先定義發佈 Seal 的規則 (何時、何地及如何發佈訊息)；
 - Bob 接受或承認這些條件。
 
-![RGB-Bitcoin](assets/fr/021.webp)
+![RGB-Bitcoin](assets/en/021.webp)
 
 **Seal 關閉 :**
 
@@ -336,7 +334,7 @@ Blockchain 非常適合扮演這個角色：只要交易被包含在區塊中，
 - 在執行時，Alice 會透過發佈實際訊息 (通常是 _commitment_ 的形式，例如 Hash)，來關閉 Seal；
 - 它還能提供**見證**（加密證明），證明 Seal 是封閉且不可撤銷的。
 
-![RGB-Bitcoin](assets/fr/019.webp)
+![RGB-Bitcoin](assets/en/019.webp)
 
 **Seal 驗證 :**
 
@@ -384,19 +382,19 @@ bool <- Verify(seal, witness, message)
 
 一個 RGB Smart contract 可能需要同時使用數個單次使用封條（數個 UTXO）。更重要的是，單一 Bitcoin 交易可能會引用數個不同的合約，每個合約都會封印自己的 State Transition。這需要一個 ** 多重 Commitment** 機制，以確定且唯一地證明沒有任何承諾是重複存在的。這就是 **Anchor** 的概念在 RGB 中發揮作用的地方：一個特殊的結構連結 Bitcoin 交易和一個或多個客戶端承諾 (狀態轉換)，每個都可能屬於不同的 Contract。我們會在下一章仔細研究這個概念。
 
-![RGB-Bitcoin](assets/fr/023.webp)
+![RGB-Bitcoin](assets/en/023.webp)
 
 該專案的兩個主要 GitHub 套件庫 (位於 LNPBP 組織之下) 將第一章所研究的這些概念的基本實作集中在一起：
 
 
-- client_side_validation** ：包含用於本地驗證的 Rust 基元；
-- single_use_seals**：執行邏輯來定義並安全地關閉這些封條。
+- **client_side_validation**：包含用於本地驗證的 Rust 基元；
+- **single_use_seals**：執行邏輯來定義並安全地關閉這些封條。
 
-![RGB-Bitcoin](assets/fr/020.webp)
+![RGB-Bitcoin](assets/en/020.webp)
 
 請注意，這些軟體磚塊與 Bitcoin 無關；理論上，它們可應用於任何其他出版證明媒體 (其他註冊表、期刊等)。實際上，RGB 依賴 Bitcoin 的穩健性和廣泛共識。
 
-![RGB-Bitcoin](assets/fr/021.webp)
+![RGB-Bitcoin](assets/en/021.webp)
 
 ### 來自公眾的問題
 
@@ -443,12 +441,12 @@ Peter Todd 也創造了_Open Timestamps_協定，而 Single-Use Seal 概念則�
 為了了解這個邏輯，讓我們回想一下基本原則：為了關閉_單次使用的封印_，我們在指定的訊息上插入_commitment_來花費封印區域。在 Bitcoin 中，有多種方式可以做到這一點：
 
 
-- 使用公開金鑰或 Address**
+- 使用公開金鑰或 **Address**
 
 我們可以決定特定的公開金鑰或 Address 是_單次使用的封印_。只要這個金鑰或 Address 在交易中出現 On-Chain，就表示 Seal 以某個訊息結束。
 
 
-- 使用 Bitcoin** 交易輸出
+- 使用 **Bitcoin** 交易輸出
 
 這表示一個 _ 單次使用的封印被定義為一個精確的 _outpoint_ （一個 txid + 輸出號碼對）。只要這個 _outpoint_ 用完，Seal 就會關閉。
 
@@ -475,8 +473,8 @@ Peter Todd 也創造了_Open Timestamps_協定，而 Single-Use Seal 概念則�
 我們不會詳細說明每一種配置，因為在 RGB 中，我們選擇使用 ** 個 _outpoint_ 作為 Seal** 的定義，並將 _commitment_ 放在花費這個 _outpoint_ 的交易輸出中。因此，我們可以為後續引入以下概念：
 
 
-- "Seal Definition"** ：一個指定的 _outpoint_ (以 txid + 輸出號碼來識別) ；
-- 「Seal 結束 」**：花費此 _outpoint_ 的交易，其中一個 _commitment_ 被加入到訊息中。
+- **"Seal Definition"**：一個指定的 _outpoint_ (以 txid + 輸出號碼來識別)；
+- 「Seal 結束 」**：花費此 _outpoint_ 的交易，其中一個 _commitment_ 被加入到訊息中。**
 
 選擇此方案是為了與 RGB 架構相容，但其他配置也可能適用於不同用途。
 
@@ -486,11 +484,11 @@ TxO2 「中的 」O2 "提醒我們，定義和結束都是基於交易輸出的�
 
 提醒一下，定義_單次使用的印章_不一定需要發佈 On-Chain 交易。舉例來說，Alice 已經有一個未使用的 UTXO 就夠了。她可以決定「這個 _outpoint_ (已經存在的) 現在是我的 Seal」。她在本地（_客戶端）記下這一點，直到這個 UTXO 用完，Seal 才會被視為開放。
 
-![RGB-Bitcoin](assets/fr/024.webp)
+![RGB-Bitcoin](assets/en/024.webp)
 
 在它想要關閉 Seal 的那一天（為了發出一個事件信號，或是為了 Anchor 一個特定的訊息），它會在一個新的交易中花費這個 UTXO（這個交易通常被稱為 "_witness transaction_"（與 _segwit_ 無關，只是我們給它的術語）。這個新的事務將包含對訊息的_commitment_。
 
-![RGB-Bitcoin](assets/fr/025.webp)
+![RGB-Bitcoin](assets/en/025.webp)
 
 請注意，在本範例中 ：
 
@@ -504,15 +502,15 @@ TxO2 「中的 」O2 "提醒我們，定義和結束都是基於交易輸出的�
 
 Alice 通知 Bob 如果花掉這筆 UTXO，就會被視為發生了特定事件。從外面看，我們只看到 Bitcoin 的交易；但鮑勃知道這筆支出有隱藏的意義。
 
-![RGB-Bitcoin](assets/fr/026.webp)
+![RGB-Bitcoin](assets/en/026.webp)
 
 當 Alice 使用這個 UTXO 時，她會關閉訊息上的 Seal，表示她的新金鑰，或只是舊金鑰的廢止。如此一來，任何監控 On-Chain 的人都會看到 UTXO 已經用完，但只有擁有完整證明的人才會知道這正是 PGP 金鑰的撤銷。
 
-![RGB-Bitcoin](assets/fr/027.webp)
+![RGB-Bitcoin](assets/en/027.webp)
 
 為了讓 Bob 或其他相關人員檢查隱藏的訊息，Alice 必須提供他 off-chain 資訊。
 
-![RGB-Bitcoin](assets/fr/028.webp)
+![RGB-Bitcoin](assets/en/028.webp)
 
 因此 Alice 必須提供 Bob ：
 
@@ -520,31 +518,31 @@ Alice 通知 Bob 如果花掉這筆 UTXO，就會被視為發生了特定事件�
 - 訊息本身（例如，新的 PGP 金鑰） ；
 - 該訊息涉及交易的加密證明 (稱為 _extra transaction proof_ 或 _anchor_)。
 
-![RGB-Bitcoin](assets/fr/029.webp)
+![RGB-Bitcoin](assets/en/029.webp)
 
 第三方沒有這些資訊。他們只會看到 UTXO 已經使用。因此保密性得到了保證。
 
 為了釐清架構，讓我們將過程歸納為兩個交易：
 
 
-- 交易 1**：這包含_seal 定義_，也就是將作為 Seal 的_outpoint_。
+- 交易 1：這包含 **seal 定義**，也就是將作為 Seal 的 **outpoint**。
 
-![RGB-Bitcoin](assets/fr/031.webp)
+![RGB-Bitcoin](assets/en/031.webp)
 
 
-- 交易 2**：花費這個_outpoint_。這會關閉 Seal，並在同一個事務中，插入訊息上的 _commitment_ 。
+- 交易 2：花費這個 _outpoint_。這會關閉 Seal，並在同一個事務中，插入訊息上的 _commitment_。
 
-![RGB-Bitcoin](assets/fr/033.webp)
+![RGB-Bitcoin](assets/en/033.webp)
 
 因此，我們稱第二筆交易為「_見證交易」。
 
 從另一個角度來說明，我們可以代表兩個層次：
 
 
-- 頂端 Layer (Blockchain，公開)**：每個人都會看到交易，並知道已花費一個 _outpoint_ ；
-- 較低的 Layer（客戶端，隱私）**：只有 Alice（或相關人員）透過加密證明和她在本機保留的訊息，知道這項支出對應於這樣那樣的訊息。
+- 頂端 Layer (**Blockchain，公開**)：每個人都會看到交易，並知道已花費一個 _outpoint_ ；
+- 較低的 Layer（客戶端，隱私）：只有 Alice（或相關人員）透過加密證明和她在本機保留的訊息，知道這項支出對應於這樣那樣的訊息。
 
-![RGB-Bitcoin](assets/fr/034.webp)
+![RGB-Bitcoin](assets/en/034.webp)
 
 但在關閉 Seal 時，會產生一個問題，就是 _commitment_ 應該插入哪裡？
 
@@ -552,26 +550,26 @@ Alice 通知 Bob 如果花掉這筆 UTXO，就會被視為發生了特定事件�
 
 ### 交易中的 Commitment 位置
 
-當你向某人證明某個訊息被嵌入到一個交易中時，你需要能夠保證在同一個交易中沒有另一種形式的 Commitment (第二個隱藏的訊息)，而這個訊息還沒有被揭露給你。為了讓 Client-side Validation 保持穩健，您需要一個 ** 決定性的 *** 機制，將單一的_commitment_放在關閉_單次使用封印_的交易中。
+當你向某人證明某個訊息被嵌入到一個交易中時，你需要能夠保證在同一個交易中沒有另一種形式的 Commitment (第二個隱藏的訊息)，而這個訊息還沒有被揭露給你。為了讓 Client-side Validation 保持穩健，您需要一個**決定性的**機制，將單一的_commitment_放在關閉_單次使用封印_的交易中。
 
 _witness transaction_ 花費了著名的 UTXO（或稱 _seal definition_），這項花費對應於 Seal 的關閉。從技術上來說，我們知道每個 outpoint 只能花費一次。這正是 Bitcoin 抵制雙重支出的基礎。但是花費交易可能有幾個_輸入_、幾個_輸出_，或是以複雜的方式組成（coinjoins、Lightning channels 等）。因此，我們需要清楚地定義在這個結構中插入 _commitment_ 的位置，而且要毫不含糊、統一。
 
 無論使用何種方法 (PkO、TxO2 等)，都可以插入 _commitment_ ：
 
 
-- 在輸入**中透過.NET 輸入：
-    - Sigtweak** (修改 ECDSA 簽署的 `r` 元件，類似於「Sign-to-Contract」原則) ；
-    - Witweak** (交易的 _segregated witness_ 資料被修改)。
-- 在輸出**中透過 ：
-    - Keytweak** (收件者的公開金鑰與訊息一起被「調整」) ；
-    - Opret** (訊息會放置在非消耗性輸出 `OP_RETURN` 中) ；
-    - Tapret** (或 _Taptweak_)，它依賴 Taproot 將 Commitment 插入 Taproot 金鑰的腳本部分，因此可以確定地修改公開金鑰。
+- 在輸入**中透過.NET 輸入**：
+- **Sigtweak** (修改 ECDSA 簽署的 `r` 元件，類似於「Sign-to-Contract」原則)；
+- **Witweak** (交易的 _segregated witness_ 資料被修改)。
+- 在輸出中透過：
+- **Keytweak** (收件者的公開金鑰與訊息一起被「調整」) ；
+- **Opret** (訊息會放置在非消耗性輸出 `OP_RETURN` 中)；
+- **Tapret** (或 _Taptweak_)，它依賴 Taproot 將 Commitment 插入 Taproot 金鑰的腳本部分，因此可以確定地修改公開金鑰。
 
-![RGB-Bitcoin](assets/fr/035.webp)
+![RGB-Bitcoin](assets/en/035.webp)
 
 以下是每種方法的詳細資訊：
 
-![RGB-Bitcoin](assets/fr/038.webp)
+![RGB-Bitcoin](assets/en/038.webp)
 
 *** 簽名調整 (簽名至 Contract) :***
 
@@ -632,9 +630,9 @@ OP_RETURN   OP_PUSHBYTE_32   <mpc::Commitment>
 
 最後一個選項是使用 **Taproot**（BIP341 引進）與 *Tapret* 方案。 *Tapret* 是確定性 Commitment 的更複雜形式，在 Blockchain 的佔用空間和 Contract 作業的保密性方面帶來改善。主要的構想是將 Commitment 隱藏在 [Taproot 交易] (https://github.com/Bitcoin/bips/blob/master/bip-0341.mediawiki) 的「腳本路徑支出」部分。
 
-![RGB-Bitcoin](assets/fr/036.webp)
+![RGB-Bitcoin](assets/en/036.webp)
 
-在描述如何將 Commitment 插入 Taproot 交易之前，我們先來看看 Commitment 的**確切形式，它必須**臨時**對應於一個 64 位元組的字串 [建構](https://github.com/BP-WG/bp-core/blob/master/dbc/src/tapret/mod.rs#L179-L196)，如下所示：
+在描述如何將 Commitment 插入 Taproot 交易之前，我們先來看看 Commitment 的**確切形式，它必須*臨時*對應於一個 64 位元組的字串** [建構](https://github.com/BP-WG/bp-core/blob/master/dbc/src/tapret/mod.rs#L179-L196)，如下所示：
 
 ```txt
 64-byte_Tapret_Commitment =
@@ -663,7 +661,7 @@ TAPRET_SCRIPT_COMMITMENT_PREFIX = 31 bytes                    MPC commitment + N
 
 在第一種情況下，我們從 Taproot 輸出金鑰 (*Taproot Output Key*) `Q` 開始，它只包含內部公開金鑰 `P` *(內部金鑰*)，沒有相關的腳本路徑 (*Script Path*) ：
 
-![RGB-Bitcoin](assets/fr/047.webp)
+![RGB-Bitcoin](assets/en/047.webp)
 
 
 - `P`：_Key Path Spend_ 的內部公開金鑰。
@@ -672,7 +670,7 @@ TAPRET_SCRIPT_COMMITMENT_PREFIX = 31 bytes                    MPC commitment + N
 
 若要包含**Tapret** Commitment，請新增**腳本路徑花費**，並使用**獨特的腳本**，如下所示：
 
-![RGB-Bitcoin](assets/fr/048.webp)
+![RGB-Bitcoin](assets/en/048.webp)
 
 
 - t = tH_TWEAK(P || Script_root)`之後會變成新的調整因子，包括 **Script_root**。
@@ -682,9 +680,9 @@ Taproot 樹狀結構中的包含性和唯一性證明可歸結為單一的內部
 
 #### Tapret 整合至預先存在的 Script Path
 
-第二種情況是關於更複雜的 `Q` Taproot** 輸出，其中已包含數個腳本。例如，我們有一棵由 3 個腳本組成的樹：
+第二種情況是關於更複雜的 **Q Taproot** 輸出，其中已包含數個腳本。例如，我們有一棵由 3 個腳本組成的樹：
 
-![RGB-Bitcoin](assets/fr/049.webp)
+![RGB-Bitcoin](assets/en/049.webp)
 
 
 - tH_LEAF(x)` 指定葉腳本的歸一化標籤 Hash 函數。
@@ -692,7 +690,7 @@ Taproot 樹狀結構中的包含性和唯一性證明可歸結為單一的內部
 
 若要新增 Tapret Commitment，我們需要在樹狀結構的第一層插入一個 * 不可消耗的腳本*，將現有的腳本下移一層。從視覺上來看，樹會變成 .NET：
 
-![RGB-Bitcoin](assets/fr/050.webp)
+![RGB-Bitcoin](assets/en/050.webp)
 
 
 - tHABC ` 代表頂層群組 `A, B, C` 的標記 Hash。
@@ -702,15 +700,15 @@ Taproot 樹狀結構中的包含性和唯一性證明可歸結為單一的內部
 
 
 - `tHT` > `tHABC`: Tapret Commitment 移到樹的右邊。唯一性證明只需要 `tHABC` 和 `P` ；
-- tHT` < `tHABC`**: Tapret Commitment 放在左邊。為了證明右邊沒有其他的 Tapret Commitment，必須揭示 `tHAB` 和 `tHC` 以證明沒有其他這樣的文字。
+- **`tHT` < `tHABC`**: Tapret Commitment 放在左邊。為了證明右邊沒有其他的 Tapret Commitment，必須揭示 `tHAB` 和 `tHC` 以證明沒有其他這樣的文字。
 
 第一種情況 (`tHABC < tHT`) 的視覺範例：
 
-![RGB-Bitcoin](assets/fr/051.webp)
+![RGB-Bitcoin](assets/en/051.webp)
 
 第二種情況的範例 (`tHABC>tHT`)：
 
-![RGB-Bitcoin](assets/fr/052.webp)
+![RGB-Bitcoin](assets/en/052.webp)
 
 #### 使用 Nonce 進行最佳化
 
@@ -837,7 +835,7 @@ Multi Protocol Commitment (MPC) 旨在滿足兩種需求：
 
 具體來說，每一個_transition bundle_屬於一個特定的 Contract。所有這些資訊都會被插入一棵 **MPC Tree**，其根 (`mPC::Root`)再經過哈希處理，得到`mPC::Commitment`。根據所選擇的確定方法，正是這最後的 Hash 被放置在 Bitcoin 交易（_見證交易_）中。
 
-![RGB-Bitcoin](assets/fr/042.webp)
+![RGB-Bitcoin](assets/en/042.webp)
 
 #### MPC Root Hash
 
@@ -855,7 +853,7 @@ mpc::Commitment = SHA-256(SHA-256(mpc_tag) || SHA-256(mpc_tag) || depth || cofac
 - cofactor`（16 位元，以 Little Endian 表示）是一個參數，用來提升分配給樹狀結構中每個 Contract 的位置的唯一性；
 - `mpc::Root` 是 *MPC Tree* 的根，根據下一節所述的程序計算。
 
-![RGB-Bitcoin](assets/fr/044.webp)
+![RGB-Bitcoin](assets/en/044.webp)
 
 #### MPC 樹木建設
 
@@ -940,7 +938,7 @@ tH_MPC_BRANCH(tH1 || tH2) = SHA-256(SHA-256(merkle_tag) || SHA-256(merkle_tag) |
 
 最後的結果是 **mPC::Root**，然後是 `mPC::Commitment`。
 
-![RGB-Bitcoin](assets/fr/053.webp)
+![RGB-Bitcoin](assets/en/053.webp)
 
 #### MPC 軸檢查
 
@@ -948,7 +946,7 @@ tH_MPC_BRANCH(tH1 || tH2) = SHA-256(SHA-256(merkle_tag) || SHA-256(merkle_tag) |
 
 在範例中，`c_2`驗證器只需要一個中間 Hash (`tH_MPC_LEAF(D)`)、兩個`tH_MPC_BRANCH(...)`、`pos(c_2)`位置證明和`cofactor`值。然後，它可以在本機重建根，再重新計算 `mpc::Commitment` 並與寫入 Bitcoin 交易 (在 `Opret` 或 `Tapret` 內) 的 `mpc::Commitment` 比較。
 
-![RGB-Bitcoin](assets/fr/054.webp)
+![RGB-Bitcoin](assets/en/054.webp)
 
 此機制可確保 ：
 
@@ -1017,7 +1015,7 @@ pos(c_i) = c_i mod (w - cofactor)
 
 這個額外的證明是必要的，因為與`Opret`不同，`Tapret` Commitment是整合在Taproot腳本的結構中，這需要揭露Taproot樹的一部分，才能正確地驗證*Commitment*的位置。
 
-![RGB-Bitcoin](assets/fr/045.webp)
+![RGB-Bitcoin](assets/en/045.webp)
 
 因此，**錨**封裝了在 RGB 的情況下驗證 Bitcoin Commitment 所需的所有資訊。它們同時指出相關的交易 (`txid`)，以及 Contract 定位的證明 (`MPC證明`)，同時在`Tapret`的情況下管理額外的證明 (`ETP`)。如此一來，Anchor 可保護 off-chain 狀態的完整性和唯一性，確保相同的交易無法被重新詮釋為其他契約資料。
 
@@ -1034,7 +1032,7 @@ pos(c_i) = c_i mod (w - cofactor)
 
 實際上，技術實作分為幾個專用的 Rust _crates_（在 _client_side_validation_、_commit-verify_、_bp_core_ 等）。基本概念是存在的：
 
-![RGB-Bitcoin](assets/fr/046.webp)
+![RGB-Bitcoin](assets/en/046.webp)
 
 在下一章，我們將探討 RGB 純粹的 off-chain 元件，也就是 Contract 邏輯。我們會看到 RGB 契約如何以部分複製_無限狀態機_的方式組織，達到比 Bitcoin scripts 更高的表達能力，同時又能保持資料的機密性。
 
@@ -1044,7 +1042,7 @@ pos(c_i) = c_i mod (w - cofactor)
 
 :::video id=db4ee09f-1352-4ad1-9f7a-c962df7ea9fa:::
 
-在本章與下一章中，我們將探討 RGB 環境中的 ***Smart contract** 概念，並探討這些契約定義與演進其 *state* 的不同方式。我們會了解為什麼 RGB 架構使用單次使用 Seals 的有序順序，能以可擴充的方式執行各種類型的 ***Contract 作業***，而且不需要經過集中式的註冊中心。我們也將探討***Business Logic***在構成 Contract State 演進過程中的基本角色。
+在本章與下一章中，我們將探討 RGB 環境中的 **Smart contract** 概念，並探討這些契約定義與演進其 *state* 的不同方式。我們會了解為什麼 RGB 架構使用單次使用 Seals 的有序順序，能以可擴充的方式執行各種類型的 **Contract 作業**，而且不需要經過集中式的註冊中心。我們也將探討 **Business Logic** 在構成 Contract State 演進過程中的基本角色。
 
 ### 智慧契約與數位不記名權利
 
@@ -1052,7 +1050,7 @@ RGB 的目的是提供在 Bitcoin 上執行智慧合約的基礎架構。我們�
 
 這種自動化提出了分散化的問題：我們如何才能擺脫集中化的登記處 (例如中央平台或資料庫) 來管理 Ownership 和 Contract 的效能？RGB 所接手的原始想法，是回到 Ownership 所謂的「不記名證券」模式。歷史上，某些證券 (債券、股票等) 是以不記名形式發行，讓任何實際持有該文件的人都能強制執行其權利。
 
-![RGB-Bitcoin](assets/fr/055.webp)
+![RGB-Bitcoin](assets/en/055.webp)
 
 RGB 將這個概念應用於數位世界：權利 (和義務) 被封裝在可操作的 off-chain 資料中，而這些資料的狀態則由參與者自己驗證。相較於其他以公開登記冊為基礎的方法，此舉先驗地允許更大程度的保密性與獨立性。
 
@@ -1064,14 +1062,14 @@ RGB 中的 Smart contract 可視為狀態機，由 ：
 - 一個 **狀態**，即反映 Contract 目前組態的資訊集；
 - 一個 **Business Logic**（一組規則），說明在什麼條件下以及由誰修改狀態。
 
-![RGB-Bitcoin](assets/fr/056.webp)
+![RGB-Bitcoin](assets/en/056.webp)
 
 重要的是要了解這些合約不只限於代幣的簡單轉讓。它們可以體現各式各樣的應用：從傳統資產（代幣、股票、債券）到更複雜的機制（使用權、商業條款等）。與其他區塊鏈不同的是，Contract 的程式碼是所有人都可以存取和執行的，RGB 的方法將 Contract 的存取和知識區分給參與者 (「***Contract 參與者***」)。有幾種角色：
 
 
-- Contract 的發行者**或建立者，他定義了 Contract 的 Genesis 及其初始變數；
+- Contract 的發行者**或建立者**，他定義了 Contract 的 Genesis 及其初始變數；
 - 有權** (*Ownership*) 或其他執行能力的當事人 ；
-- 觀察員**，可能只限於看到某些資訊，但不能觸發修改。
+- 觀察員，可能只限於看到某些資訊，但不能觸發修改。
 
 這種角色分離確保只有授權人員才能與契約狀態互動，有助於抵抗審查。這也讓 RGB 具備橫向擴充的能力：大部分的驗證都在 Blockchain 外部進行，只有加密錨點 (*承諾*) 會刻在 Bitcoin 上。
 
@@ -1088,7 +1086,7 @@ RGB 中的 Smart contract 可視為狀態機，由 ：
 
 
 - A **Global State**：公共部分，所有人都有可能觀察到（取決於組態）；
-- Owned States**：私人部分，透過 Contract 邏輯中參考的 UTXOs 專門分配給擁有者。
+- **Owned States**：私人部分，透過 Contract 邏輯中參考的 UTXOs 專門分配給擁有者。
 
 正如我們在接下來的章節所看到的，任何狀態更新 (*Contract Operation*) 都必須對接 Bitcoin _commitment_ (透過 `Opret` 或 `Tapret`) 並遵守 *Business Logic* 腳本，才能被視為有效。
 
@@ -1102,7 +1100,7 @@ RGB 中的 Smart contract 可視為狀態機，由 ：
 - 我們透過 Blockchain 上的新_commitment_來進行 Anchor 的修改，關閉一個_單用封印_並建立另一個 ；
 - 相關權利人在本機 (* 客戶端*) 驗證轉換符合 *Schema*，且相關的 Bitcoin 交易已註冊 On-Chain。
 
-![RGB-Bitcoin](assets/fr/057.webp)
+![RGB-Bitcoin](assets/en/057.webp)
 
 最終的結果是更新的 Contract，現在有了不同的狀態。這個轉換不需要整個 Bitcoin 網路關心細節，因為 Blockchain 中只記錄了一個小小的加密指紋 (_commitment_)。單次使用 Seals 的順序可防止任何 Double-spending 或雙重使用狀態。
 
@@ -1115,7 +1113,7 @@ RGB 中的 Smart contract 可視為狀態機，由 ：
 - 由於 Bitcoin Anchor 的共識，每個轉換都有時間戳記，且不可更改，因此保證了時間順序；
 - 當沒有更多的作業正在進行時，就會達到**終點狀態**：Contract 最近的完整狀態。
 
-![RGB-Bitcoin](assets/fr/012.webp)
+![RGB-Bitcoin](assets/en/012.webp)
 
 這種 DAG 拓樸結構 (而非簡單的線性鏈) 反映出 Contract 的不同部分只要不互相矛盾，就有可能並行演進。RGB 接著會透過 * 客戶端 * 驗證所涉及的每個參與者，來注意避免任何不一致的情況。
 
@@ -1124,9 +1122,9 @@ RGB 中的 Smart contract 可視為狀態機，由 ：
 RGB 中的智慧契約引進了數位不記名票據的模式，雖然是分散式的，但錨定在 Bitcoin 中，用於時間戳記和保證交易順序。這些合約的自動執行是基於.NET技術：
 
 
-- A **Contract State*，表示 Contract 目前的組態（權限、餘額、變數等）；
+- A **Contract State**，表示 Contract 目前的組態（權限、餘額、變數等）；
 - A **Business Logic** (*Schema*)，定義哪些轉換是允許的，以及必須如何驗證；
-- Contract 作業**，透過錨定在 Bitcoin 交易中的承諾，逐步更新此狀態。
+- Contract 作業，透過錨定在 Bitcoin 交易中的承諾，逐步更新此狀態。
 
 在下一章中，我們將詳細介紹這些***狀態***和***狀態轉換***在 off-chain 層級的具體表示，以及它們與嵌入在 Bitcoin 中的 UTXOs 和 Single-use Seals 的關係。這將是一個機會，讓我們看看 RGB 以 Client-side Validation 為基礎的內部機制，如何在維護資料機密性的同時，維持智慧型契約的一致性。
 
@@ -1148,19 +1146,19 @@ RGB 中的智慧契約引進了數位不記名票據的模式，雖然是分散�
 
 Alice 有一個 ***Stash RGB*** 本地端驗證的資料 (* 客戶端*)。這個 Stash 指的是她在 Bitcoin 上的一個 UTXO。這表示此資料中的_seal definition_會指向屬於 Alice 的 UTXO。這個想法是要讓她能夠將與資產 (例如 RGB 代幣) 相關聯的某些數位權利轉移給 Bob。
 
-![RGB-Bitcoin](assets/fr/058.webp)
+![RGB-Bitcoin](assets/en/058.webp)
 
 **Bob 也有 UTXOs :**
 
 另一方面，Bob 至少有一個自己的 UTXO，與 Alice 的 UTXO 沒有直接連結。在 Bob 沒有 UTXO 的情況下，仍然可以使用 *Witness Transaction* 本身來向他進行轉移：這個交易的輸出就會包含 Commitment (_commitment_)，並隱含地將新 Contract 的 Ownership 與 Bob 相關聯。
 
-![RGB-Bitcoin](assets/fr/059.webp)
+![RGB-Bitcoin](assets/en/059.webp)
 
 **建造新物業 (*新國家*) :**
 
 鮑勃傳送給愛麗絲以 ***Invoice*** 形式編碼的資訊（我們會在後面的章節詳細說明 Invoice 的建構），要求她建立一個符合 Contract 規則的新狀態。這個狀態會包含一個新的 *Seal Definition* 指向鮑勃的其中一個 UTXO。如此一來，鮑勃就會得到這個新狀態所定義資產的 Ownership，例如一定數量的 RGB 代幣。
 
-![RGB-Bitcoin](assets/fr/060.webp)
+![RGB-Bitcoin](assets/en/060.webp)
 
 **準備交易樣本：**
 
@@ -1178,13 +1176,13 @@ Alice 然後建立一個 Bitcoin 交易，花費先前 Seal 所引用的 UTXO（
 
 如果 Bob 感到滿意，他可以給予批准 (例如，簽署 *Consignment*)。接著 Alice 就可以廣播準備好的樣本交易。一旦確認後，這就會關閉先前由 Alice 持有的 Seal，並由 Bob 正式確認 Ownership。反 Double-spending 安全性則基於與 Bitcoin 相同的機制：UTXO 已經用完，證明 Alice 無法再重複使用。
 
-![RGB-Bitcoin](assets/fr/061.webp)
+![RGB-Bitcoin](assets/en/061.webp)
 
 新的狀態現在會參考 Bob 的 UTXO，讓 Bob 得到先前由 Alice 持有的 Ownership。錨定 RGB 資料的 Bitcoin 輸出，成為 Ownership 轉移的不可撤銷證明。
 
 由兩個 Contract 作業（一個 **Genesis** 然後一個 ***State Transition*** ）組成的最小 DAG (*Directed Acyclic Graph*) 的範例可以說明 RGB 狀態 (* 客戶端 * Layer，紅色) 如何連接至 Bitcoin Blockchain (*Commitment* Layer，橘色)。
 
-![RGB-Bitcoin](assets/fr/062.webp)
+![RGB-Bitcoin](assets/en/062.webp)
 
 它顯示一個 Genesis 定義了一個 Seal (*Seal Definition*)，然後一個 *State Transition* 關閉這個 Seal，在另一個 UTXO 中建立一個新的 Seal。
 
@@ -1193,12 +1191,12 @@ Alice 然後建立一個 Bitcoin 交易，花費先前 Seal 所引用的 UTXO（
 
 - 一台 ***Assignment*** 將 ：
     - 一台 ***Seal Definition*** (指向 UTXO)；
-    - Owned States**，即與 Ownership 相關聯的資料 (例如，代幣轉移的數量)。
+- **Owned States**，即與 Ownership 相關聯的資料 (例如，代幣轉移的數量)。
 - 一個 **Global State** 匯集了 Contract 的一般屬性，對所有人可見，並確保演化的全局一致性。
 
-狀態轉換**（State Transitions）在前一章中已描述，是 Contract Operation 的主要形式。它們參考一個或多個先前的狀態（來自 Genesis 或另一個 State Transition），並將它們更新為新的狀態。
+狀態轉換**（State Transitions）**在前一章中已描述，是 Contract Operation 的主要形式。它們參考一個或多個先前的狀態（來自 Genesis 或另一個 State Transition），並將它們更新為新的狀態。
 
-![RGB-Bitcoin](assets/fr/063.webp)
+![RGB-Bitcoin](assets/en/063.webp)
 
 此圖顯示在一個 *State Transition Bundle* 中，如何在單一樣本交易中關閉數個封印，同時開啟新的封印。事實上，RGB 通訊協定的一個有趣特點是它的擴充能力：數個過程可以聚合成一個 Transition Bundle，每個聚合都與 *MPC 樹*（一個獨特的捆綁識別符）的一個獨特葉子相關聯。拜 *Deterministic Bitcoin Commitment* (DBC) 機制所賜，整個訊息會插入到 `Tapret` 或 `Opret` 輸出中，同時關閉先前的封印，並可能定義新的封印。Anchor* 是儲存在 Blockchain 中的 Commitment 與 Client-side Validation 結構（*客戶端）之間的直接連結。
 
@@ -1245,13 +1243,13 @@ MapElement1                MapElement2                       MapElementN
 因此，狀態轉換可用於將資產的 Ownership 從一個人轉移至另一個人。然而，它們並非 RGB 通訊協定中唯一可能的操作。該通訊協定定義了三種 **Contract 作業** ：
 
 
-- State Transition** ；
-- Genesis** ；
-- State Extension**.
+- **State Transition**；
+- **Genesis**；
+- State **Extension**.
 
 其中，**Genesis** 和 **State Extension** 有時被稱為「*狀態產生操作*」，因為它們會建立新的狀態，而不會立即關閉任何狀態。這是非常重要的一點： **Genesis** 和 **State Extension** 不涉及關閉 Seal。相反，它們定義了一個新的 Seal，而這個新的 Seal 必須由後續的 **State Transition** 耗費，才能在 Blockchain 歷史中真正生效。
 
-![RGB-Bitcoin](assets/fr/064.webp)
+![RGB-Bitcoin](assets/en/064.webp)
 
 Contract 的 **Active State** 通常定義為從 Genesis 開始，在 Bitcoin Blockchain 的所有錨點之後，由交易歷史（DAG）所產生的最新狀態集合。任何已過時的舊狀態（即附在已用完的 UTXO 上）不再視為活動狀態，但仍是檢查歷史一致性的必要條件。
 
@@ -1268,7 +1266,7 @@ Genesis 是每個 RGB Contract 的起點。它由 Contract 發行者建立，並
 
 ### State Extension
 
-State Extensions** 為智慧契約提供了獨創的功能。它們讓 Redeem 在 Contract 定義中規定的某些數位權利 (*Valencies*) 成為可能，而不會立即關閉 Seal。最常見的情況是，這涉及到 .NET 和 .NET：
+**State Extensions** 為智慧契約提供了獨創的功能。它們讓 Redeem 在 Contract 定義中規定的某些數位權利 (*Valencies*) 成為可能，而不會立即關閉 Seal。最常見的情況是，這涉及到 .NET 和 .NET：
 
 
 - 分散式代幣問題；
@@ -1277,7 +1275,7 @@ State Extensions** 為智慧契約提供了獨創的功能。它們讓 Redeem �
 
 技術上來說，State Extension 會引用 *Redeem*（一種特殊類型的 RGB 輸入），對應於先前定義的 *Valency*（例如，在 Genesis 或其他 State Transition 中）。它定義了一個新的 Seal，可提供給受益的人或條件。要使 Seal 生效，必須由後續的 State Transition 使用。
 
-![RGB-Bitcoin](assets/fr/065.webp)
+![RGB-Bitcoin](assets/en/065.webp)
 
 例如：Genesis 會產生發行權 (*Valency*)。經授權的行動者可行使此權利，並建立 State Extension ：
 
@@ -1347,17 +1345,17 @@ State Extensions** 為智慧契約提供了獨創的功能。它們讓 Redeem �
 **新國家**的 Elements 是 ：
 
 
-- 指派**，其中定義了 ：
- - Seal Definition***；
+- 指派**，其中定義了**：
+- **Seal Definition**;
  - **Owned State**。
 - **Global State**，可以修改或豐富；
-- Valencies**, 可能在 State Transition 或 Genesis 中定義。
+- **Valencies**, 可能在 State Transition 或 Genesis 中定義。
 
 **舊國家**是透過 .NET Framework 來引用的：
 
 
 - 輸入**，指向先前狀態轉換的*Assignments*（Genesis 中並沒有）；
-- Redeems**，指先前定義的 Valencies（僅在 State Extensions 中）。
+- **Redeems**，指先前定義的 Valencies（僅在 State Extensions 中）。
 
 此外，Contract Operation 包含更多針對操作的一般欄位：
 
@@ -1381,12 +1379,16 @@ RGB Contract 由 Genesis `OpId`衍生的 `ContractId` 來識別（因為沒有�
 **Contract State** 代表 RGB 通訊協定必須追蹤給定 Contract 的資訊集。它由 ：
 
 
-- 單一 Global State**：這是 Contract 的公共、全局部分，對所有人可見；
-- 一個或多個 Owned 狀態**：每個 Owned State 都與唯一的 Seal 相關聯（因此在 Bitcoin 上有一個 UTXO）。.與.之間有區別：
-    - 公**擁有的國家、
-    - 私人**擁有的國家。
+- 單一 **Global State**：這是 Contract 的公共、全局部分，對所有人可見；
+- 一個或多個 Owned 狀態：每個 Owned State 都與唯一的 Seal 相關聯（因此在 Bitcoin 上有一個 UTXO）。與之間有區別：
+- 公**擁有的國家、
 
-![RGB-Bitcoin](assets/fr/066.webp)
+Looking at this line, I can see there's an unbalanced ** marker. The text appears to be incomplete, but based on the context, it seems like it should be bold text. Here's the corrected version:
+
+- **公擁有的國家、**
+- 私人**擁有的國家**。
+
+![RGB-Bitcoin](assets/en/066.webp)
 
 *Global State* 作為單一區塊直接包含在 *Contract Operation* 中。*Owned States* 定義在每個 *Assignment* 中，與 *Seal Definition* 一起。
 
@@ -1426,7 +1428,7 @@ RGB 的一大特色是修改 Global State 和 Owned States 的方式。一般有
 
 | **範圍** | 為單一 Contract Operation 定義 | 為 Contract 全局定義 | 為每個 Seal (*Assignment*) 定義 | ** 範圍** | 為單一 Contract Operation 定義 | 為 Contract 全局定義 | 為每個 Seal (*Assignment*) 定義
 
-| **誰可以更新它？** | 不可更新（短暫資料） | 由行為人（發行者等）發行的操作 | 取決於擁有 Seal 的合法持有人（可以在隨後的交易中使用它的人） | **誰可以更新它？
+| **誰可以更新它？** | 不可更新（短暫資料） | 由行為人（發行者等）發行的操作 | 取決於擁有 Seal 的合法持有人（可以在隨後的交易中使用它的人） | **誰可以更新它？** |
 
 | **時間範圍** | 僅適用於目前的作業 | 狀態在作業結束時建立 | 狀態在作業之前已定義（由前一作業的 *Seal Definition* 定義） | | **時間範圍** | 僅適用於目前的作業 | 狀態在作業結束時建立
 
@@ -1456,40 +1458,40 @@ Global State 常被形容為「沒有人擁有，大家都知道」。它包含�
 
 RGB 的一大優勢在於能夠隨意顯示 (*reveal*) 或隱藏 (*conceal*) *Seal Definition* 和 *Owned State* 欄位。這提供了保密性和選擇性的強大組合。舉例來說，您可以在不揭露所有資料的情況下，證明轉換是有效的，方法是將揭露的版本提供給必須驗證的人，而第三方只能看到隱藏的版本 (一個 Hash)。實際上，轉換的 `OpId` 總是從 * 隱藏 * 資料計算出來的。
 
-![RGB-Bitcoin](assets/fr/067.webp)
+![RGB-Bitcoin](assets/en/067.webp)
 
 #### Seal Definition
 
 *Seal Definition* 在其揭示的形式中，有四個基本欄位：txptr"、"vout"、"blinding 「和 」method"：
 
 
-- txptr**： 這是 Bitcoin 上的 UTXO 參照 ：
+- **txptr**： 這是 Bitcoin 上的 UTXO 參照 ：
     - 如果是 **Genesis Seal**，則會直接指向現有的 UTXO（與 Genesis 相關的 UTXO）；
     - 在**圖 Seal** 的情況下，我們可以有 ：
         - 一個簡單的 `txid`，如果指向特定的 UTXO、
         - 或`WitnessTx`，它指定了一個自我參考：Seal 指向交易本身。這在沒有外部 UTXO 時特別有用，例如在 Lightning 通道開啟交易中，或收件人沒有 UTXO 時。
-- vout** : `txptr` 所指示的交易輸出號碼。只出現在標準圖形 Seal (不適用於 `WitnessTx`)；
-- billing**：8 位元組的隨機數字，用來加強機密性，並防止對 UTXO 身份的暴力嘗試；
-- method** : 表示使用的錨定方法 (`Tapret`或`Opret`)。
+- **vout** : `txptr` 所指示的交易輸出號碼。只出現在標準圖形 Seal (不適用於 `WitnessTx`)；
+- **billing**：8 位元組的隨機數字，用來加強機密性，並防止對 UTXO 身份的暴力嘗試；
+- **method** : 表示使用的錨定方法 (`Tapret`或`Opret`)。
 
 Seal Definition 的*隱藏*形式是這 4 個欄位串連的 SHA256 Hash（已標記），並加上 RGB 的特定標記。
 
-![RGB-Bitcoin](assets/fr/068.webp)
+![RGB-Bitcoin](assets/en/068.webp)
 
 #### 擁有國家
 
 *Assignment* 的第二個元件是 Owned State。與 Global State 不同的是，它可以公共或私人形式存在：
 
 
-- 公開 Owned State**：所有人都知道與 Seal 相關的資料。例如，公開圖片；
-- 隱私 Owned State**：資料是隱藏的，只有擁有者（必要時也可能包括驗證者）知道。例如，持有的代幣數量。
+- 公開 **Owned State**：所有人都知道與 Seal 相關的資料。例如，公開圖片；
+- 隱私 **Owned State**：資料是隱藏的，只有擁有者（必要時也可能包括驗證者）知道。例如，持有的代幣數量。
 
 RGB 定義了 Owned State 四種可能的狀態類型 (*StateTypes*)：
 
 
-- 宣告式**：不包含數值資料，只包含宣告式權利 (例如投票權)。隱藏和揭示的形式是相同的；
-- Fungible**: 代表可替代的數量 (就像代幣)。在揭示形式中，我們有 `amount` 和 `blinding`。在隱藏形式中，我們有一個 *Pedersen commitment*，它會隱藏數量和盲點；
-- Structured**: 儲存結構化資料 (最多 64 kB)。在揭示形式下，它是資料 Blob。在隱藏形式下，它是此 blob 的標記 Hash：
+- 宣告式：不包含數值資料，只包含宣告式權利 (例如投票權)。隱藏和揭示的形式是相同的；
+- **Fungible**: 代表可替代的數量 (就像代幣)。在揭示形式中，我們有 `amount` 和 `blinding`。在隱藏形式中，我們有一個 *Pedersen commitment*，它會隱藏數量和盲點；
+- **Structured**: 儲存結構化資料 (最多 64 kB)。在揭示形式下，它是資料 Blob。在隱藏形式下，它是此 blob 的標記 Hash：
 
 ```txt
 SHA-256(SHA-256(tag_data) || SHA-256(tag_data) || blob)
@@ -1502,7 +1504,7 @@ tag_data = urn:lnp-bp:rgb:state-data#2024-02-12
 ```
 
 
-- Attachments**：將檔案 (音訊、影像、二進位檔案等) 連結至 Owned State，儲存檔案 Hash `file_hash`、MIME 類型 `media type` 及加密鹽值 `salt`。檔案本身則存放在其他地方。在隱藏形式下，它是一個以前面三個資料項為標記的 Hash：
+- **Attachments**：將檔案 (音訊、影像、二進位檔案等) 連結至 Owned State，儲存檔案 Hash `file_hash`、MIME 類型 `media type` 及加密鹽值 `salt`。檔案本身則存放在其他地方。在隱藏形式下，它是一個以前面三個資料項為標記的 Hash：
 
 ```txt
 SHA-256(SHA-256(tag_attachment) || SHA-256(tag_attachment) || file_hash || media_type || salt)
@@ -1558,7 +1560,7 @@ Attachments        | |     Tagged Hash      | | <========== | | File Hash | | Me
 
 ### 輸入
 
-*Contract Operation* 的 Input（輸入）是指在此新操作中使用的 *Assignments（分配）。一個 Input 表示 ：
+**Contract Operation** 的 Input（輸入）是指在此新操作中使用的 *Assignments（分配）*。一個 Input 表示：
 
 
 - prevOpId` : *Assignment*所在的上一個操作的識別碼 (`OpId`)；
@@ -1575,7 +1577,7 @@ Attachments        | |     Tagged Hash      | | <========== | | File Hash | | Me
 
 ### 閥值
 
-Valencies** 是一種原始的 RGB 通訊協定機制。它們可以在 Genesis、State Transition 或 State Extensions 中找到。它們代表可由 State Extension (透過 *Redeems*) 啟動，然後由後續的轉換 (Transition) 終止的數值權利。每個 Valency 都由一個 `ValencyType` (16 位元) 來識別。其語義 (重新發行權、代幣交換、燒錄權等) 定義在 Schema 中。
+Valencies 是一種原始的 RGB 通訊協定機制。它們可以在 Genesis、State Transition 或 State Extensions 中找到。它們代表可由 State Extension (透過 **Redeems**) 啟動，然後由後續的轉換 (Transition) 終止的數值權利。每個 Valency 都由一個 `ValencyType` (16 位元) 來識別。其語義 (重新發行權、代幣交換、燒錄權等) 定義在 Schema 中。
 
 具體來說，我們可以想像一個 Genesis 定義了一個「再發行權」Valency。如果符合特定條件，State Extension 將消耗它 (*Redeem*)，以引入新數量的代幣。然後，由 Seal 持有者產生的 State Transition 可以轉讓這些新代用幣。
 
@@ -1650,14 +1652,14 @@ BEiLYE-am9WhTW1-oK8cpvw4-FEMtzMrf-mKocuGZn-qWK6YF#ginger-parking-nirvana
 RGB 的一大創新是嚴格區分兩個概念：
 
 
-- 驗證**：檢查 State Transition 是否尊重 Contract 的規則 (Business Logic、歷史等)；
+- 驗證：檢查 State Transition 是否尊重 Contract 的規則 (Business Logic、歷史等)；
 - **Ownership**（Ownership，或稱控制）：擁有 Bitcoin UTXO 的事實，可讓 Single-Use Seal 花費（或關閉），進而發生 State Transition。
 
-驗證**發生在 RGB 軟體堆疊層級 (函式庫、*承諾*協定等)。其作用是確保 Contract 的內部規則（金額、權限等）受到尊重。觀察員或其他參與者也可以驗證資料歷史。
+驗證**發生在 RGB 軟體堆疊層級 (函式庫、*承諾*協定等)**。其作用是確保 Contract 的內部規則（金額、權限等）受到尊重。觀察員或其他參與者也可以驗證資料歷史。
 
-另一方面，Ownership** 完全依賴 Bitcoin 的安全性。擁有 UTXO 的私密金鑰意味著可以控制啟動新轉換（關閉 Single-Use Seal）的能力。因此，即使有人可以看到或驗證資料，但如果他們不擁有相關的 UTXO 就無法改變狀態。
+另一方面，**Ownership** 完全依賴 Bitcoin 的安全性。擁有 UTXO 的私密金鑰意味著可以控制啟動新轉換（關閉 Single-Use Seal）的能力。因此，即使有人可以看到或驗證資料，但如果他們不擁有相關的 UTXO 就無法改變狀態。
 
-![RGB-Bitcoin](assets/fr/069.webp)
+![RGB-Bitcoin](assets/en/069.webp)
 
 這種方法限制了在更複雜的區塊鏈中遇到的典型漏洞（Smart contract 的所有代碼都是公開的，任何人都可以修改，有時這會導致黑客入侵）。在 RGB 上，攻擊者無法簡單地與 On-Chain 狀態互動，因為對狀態 (*Ownership*) 行動的權利受到 Bitcoin Layer 的保護。
 
@@ -1668,8 +1670,8 @@ RGB 的一大創新是嚴格區分兩個概念：
 除了語意程式碼版本化之外，RGB 還包含一個可隨時間演進或更新 Contract 共識規則的系統。演進有兩種主要形式：
 
 
-- 快進**
-- 推回**（法文）
+- 快進
+- 推回**（法文）**
 
 當先前無效的規則變為有效時，就會發生快轉。例如，如果 Contract 演變為允許新的 `AssignmentType` 類型或新的欄位 ：
 
@@ -1741,8 +1743,8 @@ $$
 此機制包含兩個主要操作：
 
 
-- Commit**：將加密函數應用於訊息 `m` 和隨機數 `r` 以產生 `C` ；
-- 驗證**：我們使用 `C`、`m` 訊息和 `r` 值來檢查這個 Commitment 是否正確。函式會回傳 `True` 或 `False`。
+- **Commit**：將加密函數應用於訊息 `m` 和隨機數 `r` 以產生 `C` ；
+- 驗證：我們使用 `C`、`m` 訊息和 `r` 值來檢查這個 Commitment 是否正確。函式會回傳 `True` 或 `False`。
 
 Commitment 必須尊重兩個屬性：
 
@@ -1760,7 +1762,7 @@ $$
 $$
 
 
-- 隱藏**: 瞭解 `C` 不得洩露 `m` 的內容。
+- **隱藏**: 瞭解 `C` 不得洩露 `m` 的內容。
 
 在 RGB 通訊協定中，Commitment 會包含在 Bitcoin 交易中，以證明在特定時間存在某項資訊，但不會透露資訊本身。
 
@@ -1770,7 +1772,7 @@ $$
 
 
 - Contract Consignment**：由 * 發行者* (Contract 發行者) 提供，它包括初始化資訊，例如 Schema、Genesis、Interface 和 Interface Implementation。
-- 傳輸 Consignment**：由付款方 (*payer*) 提供。它包含導致 Terminal Consignment 的整個狀態轉換歷史（即付款方收到的最終狀態）。
+- 傳輸 Consignment：由付款方 (*payer*) 提供。它包含導致 Terminal Consignment 的整個狀態轉換歷史（即付款方收到的最終狀態）。
 
 這些託運貨物不會在 Blockchain 上公開記錄，而是由相關各方透過其選擇的通訊渠道直接交換。
 
@@ -1783,9 +1785,9 @@ Contract 是一組透過 RGB 通訊協定在多位行動者之間以數位方式
 Contract Operation 是根據 Schema 規則執行的 Contract 狀態更新。RGB 中存在以下操作：
 
 
-- State Transition** ；
-- Genesis** ；
-- State Extension**.
+- **State Transition**；
+- **Genesis**；
+- State **Extension**.
 
 每個操作都會透過新增或取代某些資料來修改狀態 (Global State、Owned State...) 。
 
@@ -1813,15 +1815,15 @@ Contract State 對應於特定時刻 Contract 的當前狀態。它可以由公�
 
 
 - **Global State**，其中包括 Contract 的公共屬性（在 Genesis 中設定或透過授權更新新增）；
-- Owned States**，屬於特定所有者，由其 UTXOs 識別。
+- **Owned States**，屬於特定所有者，由其 UTXOs 識別。
 
 #### Deterministic Bitcoin Commitment - DBC
 
 Deterministic Bitcoin Commitment (DBC) 是一套規則，用來在 Bitcoin 交易中以可證明和唯一的方式註冊_commitment_。在 RGB 通訊協定中，DBC 有兩種主要形式：
 
 
-- Opret**
-- Tapret**
+- **Opret**
+- **Tapret**
 
 這些機制精確地定義了 _commitment_ 在 Bitcoin 交易的輸出或結構中如何編碼，以確保此 Commitment 是確定地可追蹤與可驗證的。
 
@@ -1868,7 +1870,7 @@ Lightning Network 是 Bitcoin 上支付通道（或稱 _state 通道_）的分�
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 #### Multi Protocol Commitment - MPC
 
-Multi Protocol Commitment (MPC) 是指在 RGB 中使用的 Merkle Tree 結構，在單一 Bitcoin 交易中包含來自不同合約的多個 ** 過渡包。其目的是在單一 Anchor 點組合數個承諾 (可能對應不同的合約或不同的資產)，以最佳化區塊空間的佔用。
+Multi Protocol Commitment (MPC) 是指在 RGB 中使用的 Merkle Tree 結構，在單一 Bitcoin 交易中包含來自不同合約的多個**過渡包**。其目的是在單一 Anchor 點組合數個承諾 (可能對應不同的合約或不同的資產)，以最佳化區塊空間的佔用。
 
 #### Owned State
 
@@ -1987,12 +1989,12 @@ Witness Transaction 是 Bitcoin 交易，用來關閉包含 Multi Protocol Commi
 總而言之，每台 Contract 包含 ：
 
 
-- Genesis**，這是 Contract 的初始狀態（可比喻為定義資產、權利或任何其他可參數化資料的第一個 Ownership 的特殊交易）；
-- Schema**，說明 Contract 的 Business Logic（資料類型、驗證規則等）；
-- Interface**，為錢包與人類使用者提供語意 Layer，闡明交易的讀取與執行；
-- 實施** Interface，銜接 Business Logic 與呈現方式，以確保 Contract 定義與使用者體驗一致。
+- **Genesis**，這是 Contract 的初始狀態（可比喻為定義資產、權利或任何其他可參數化資料的第一個 Ownership 的特殊交易）；
+- **Schema**，說明 Contract 的 Business Logic（資料類型、驗證規則等）；
+- **Interface**，為錢包與人類使用者提供語意 Layer，闡明交易的讀取與執行；
+- 實施 **Interface**，銜接 Business Logic 與呈現方式，以確保 Contract 定義與使用者體驗一致。
 
-![RGB-Bitcoin](assets/fr/070.webp)
+![RGB-Bitcoin](assets/en/070.webp)
 
 值得注意的是，Wallet 若要管理 RGB 資產 (無論是可替代代幣或任何種類的權利)，必須具備所有這些 Elements 編譯： *Schema*、*Interface*、*Interface Implementation* 和 *Genesis*。這是透過 ***Contract Consignment*** 來傳輸的，也就是包含驗證客戶端 Contract 所需的一切資料包。
 
@@ -2042,7 +2044,7 @@ Schema 可比喻為物件導向程式設計 (OOP) 中的「類」。一般而言
 - 決定 Contract 內部資料如何演變的規則（例如，欄位是否可變或累積）；
 - 被視為有效的作業順序：例如，需要遵守的轉換順序或需要滿足的邏輯條件集。
 
-![RGB-Bitcoin](assets/fr/071.webp)
+![RGB-Bitcoin](assets/en/071.webp)
 
 當資產的*發行者*在 RGB 上發佈 Contract 時，會提供與之相關的 Genesis 和 Schema。希望與資產互動的使用者或錢包會擷取 Schema 以瞭解 Contract 背後的邏輯，並在稍後驗證他們將參與的轉換是否合法。
 
@@ -2100,12 +2102,12 @@ Schema 定義了 RGB 中的 Business Logic。它列出 Contract 的演化規則�
 
 - 可能的 `SchemaId`，表示使用另一個基本 Schema 作為範本；
 - **全球國家**和**自有國家**（有其嚴格的類型） ；
-- Valencies** （如有）；
+- **Valencies** （如有）；
 - 可以引用這些狀態和值的**操作** (Genesis、狀態轉換、狀態延伸)；
 - 用於描述和驗證資料的 **Strict Type System**；
-- 驗證腳本** (透過 AluVM 執行)。
+- 驗證腳本 (透過 AluVM 執行)。
 
-![RGB-Bitcoin](assets/fr/072.webp)
+![RGB-Bitcoin](assets/en/072.webp)
 
 下面的程式碼顯示 Rust Schema 的完整定義。我們將根據下面的註釋 (1) 至 (9) 逐部分進行註釋：
 
@@ -2174,12 +2176,12 @@ EntryPoint::ValidateTransition(TS_TRANSFER) => LibSite::with(FN_TRANSFER_OFFSET,
 ```
 
 
-- (1) - 函式標頭及子結構描述**
+- (1) - **函式標頭及子結構描述**
 
 nia_schema()`函數會回傳一個`SubSchema`，表示這個 Schema 可以部分繼承自一個更通用的 Schema。在 RGB 的生態系統中，這種彈性使得重複使用主 Schema 的某些標準 Elements 成為可能，然後再定義特定於 Contract 的規則。在這裡，我們選擇不啟用繼承，因為 `subset_of` 將會是 `None`。
 
 
-- (2) - 一般屬性：ffv、subset_of、type_system**
+- (2) - 一般屬性：ffv、subset_of、type_system
 
 `ffv` 屬性對應於 Contract 的 *fast-forward* 版本。此處的 `zero!()` 值表示我們處於版本 0 或此 Schema 的初始版本。如果您之後想要增加新的功能 (新的操作類型等)，您可以遞增這個版本來表示共識的改變。
 
@@ -2204,7 +2206,7 @@ nia_schema()`函數會回傳一個`SubSchema`，表示這個 Schema 可以部分
 在 `owned_types` 中，我們宣告了 `OS_ASSET`，它描述了一個可替代的狀態。我們使用 `StateSchema::Fungible(FungibleType::Unsigned64Bit)`，表示資產 (代幣) 的數量儲存為 64 位元的無符號整數。因此，任何交易都會傳送一定數量單位的此代用幣，並根據此嚴格類型化的數值結構進行驗證。
 
 
-- (5) - Valencies**
+- (5) - **Valencies**
 
 我們指出 `valency_types: none!()`，這表示此 Schema 中沒有 Valencies，換句話說，沒有特殊或額外的權利 (例如重新發行、有條件燒錄等)。如果 Schema 包含任何 Valencies，則會在此節中宣告。
 
@@ -2241,7 +2243,7 @@ nia_schema()`函數會回傳一個`SubSchema`，表示這個 Schema 可以部分
 這模擬了基本轉移的行為，它消耗 UTXO 上的代幣，然後創建新的 Owned 狀態，以利於接收者，因此保留了輸入和輸出之間總量的相等。
 
 
-- (9) - AluVM script 與入口點** (法文)
+- (9) - **AluVM script 與入口點** (法文)
 
 最後，我們宣告一個 AluVM script (`Script::AluVM(AluScript { ... })`)。這個腳本包含 ：
 
@@ -2270,7 +2272,7 @@ Interface 是為了使 Contract 可被使用者（人類閱讀）和組合（軟
 - 存取每個欄位的名稱和值，以便顯示（例如：針對代用幣，找出其股票代號、最大金額等）；
 - 透過將資料與可理解的名稱相關聯（例如，透過明確指定「金額」而非二進制識別符來執行轉帳），以解釋和建構 Contract 作業 (Genesis、State Transition 或 State Extension)。
 
-![RGB-Bitcoin](assets/fr/073.webp)
+![RGB-Bitcoin](assets/en/073.webp)
 
 例如，有了 Interface，您就可以在 Wallet 中編寫程式碼，直接操作「代幣數量」、「資產名稱」等標籤，而不是操作欄位。如此一來，管理 Contract 就變得更直覺。如此一來，Contract 的管理變得更直覺。
 
@@ -2279,17 +2281,17 @@ Interface 是為了使 Contract 可被使用者（人類閱讀）和組合（軟
 此方法有許多優點：
 
 
-- 標準化：**
+- 標準化：
 
 相同類型的 Contract 可由標準 Interface 支援，在數個 Wallet 實作之間共用。這有助於相容性和程式碼重複使用。
 
 
-- Schema 和 Interface 之間有明顯的分隔：**
+- Schema 和 Interface 之間有明顯的分隔：
 
 在 RGB 設計中，Schema (Business Logic) 與 Interface（呈現與操作）是兩個獨立的實體。編寫 Contract 邏輯的開發人員可以專注於 Schema，而不必擔心人體工學或資料表示，而另一個團隊 (或同一團隊，但在不同的時間線上) 則可以開發 Interface。
 
 
-- 彈性演進：**
+- 彈性演進：
 
 Interface 可在資產發行後修改或新增，而無需變更 Contract 本身。這與某些 On-Chain Smart contract 系統有很大的不同，在某些系統中，Interface（通常與執行代碼混合）會凍結在 Blockchain 中。
 
@@ -2298,7 +2300,7 @@ Interface 可在資產發行後修改或新增，而無需變更 Contract 本身
 
 相同的 Contract 可透過不同的 Interfaces 暴露於不同的需求：一個簡單的 Interface 供最終使用者使用，另一個較進階的 Interface 則供需要管理複雜組態作業的發行者使用。Wallet 可以依據用途選擇匯入哪一個 Interface。
 
-![RGB-Bitcoin](assets/fr/074.webp)
+![RGB-Bitcoin](assets/en/074.webp)
 
 實際上，當 Wallet 擷取 RGB Contract (透過 `.RGB` 或 `.rgba` 檔案) 時，也會匯入相關的 Interface，而 Interface 也會被編譯。在執行時，Wallet 可以，例如 ：
 
@@ -2343,18 +2345,18 @@ Interface 可在資產發行後修改或新增，而無需變更 Contract 本身
 - 整合支援在 Contract 中直接包含檔案（最多 16 MB）（用於用戶端擷取）；
 - 物主可在歷史中輸入「*雕刻*」，以證明 NFT 過去的 Ownership。
 
-**RGB25** 是一種混合標準，結合了可替代與不可替代的層面。它專為部分可替代資產所設計，例如不動產代用化，您想要分割財產，同時保留與單一根資產的連結 (換句話說，您有一棟房子的可替代部分，連結到一棟不可替代的房子)。技術上來說，此 Interface 可與 **Collectible Fungible Asset* (CFA)** Schema 相關聯，此 Schema 考慮到分割的概念，同時追溯原始資產。
+**RGB25** 是一種混合標準，結合了可替代與不可替代的層面。它專為部分可替代資產所設計，例如不動產代用化，您想要分割財產，同時保留與單一根資產的連結 (換句話說，您有一棟房子的可替代部分，連結到一棟不可替代的房子)。技術上來說，此 Interface 可與 **Collectible Fungible Asset (CFA) Schema** 相關聯，此 Schema 考慮到分割的概念，同時追溯原始資產。
 
 #### 開發中的介面
 
 為了更專門的用途，還規劃了其他介面，但目前尚未推出：
 
 
-- RGB22**，專門用於數位身分，以管理 RGB 生態系統中的識別碼和 On-Chain 設定檔；
+- **RGB22**，專門用於數位身分，以管理 RGB 生態系統中的識別碼和 On-Chain 設定檔；
 - RGB23**，用於進階時間戳記，使用 *Opentimestamps* 的某些構想，但具有可追蹤功能；
-- RGB24**，其目的是建立一個類似於 *Ethereum Name Service* 的去中心化域名系統 (DNS)；
-- RGB26**, 旨在以更複雜的格式 (治理、投票等) 管理 DAOs (*分散式自治組織*)；
-- RGB30**，與 RGB20 非常相似，但其特點是考慮到分散的初始發行和使用國家擴展。這將用於由多個實體管理再發行或受更精細條件限制的資產。
+- **RGB24**，其目的是建立一個類似於 *Ethereum Name Service* 的去中心化域名系統 (DNS)；
+- **RGB26**, 旨在以更複雜的格式 (治理、投票等) 管理 DAOs (*分散式自治組織*)；
+- **RGB30**，與 RGB20 非常相似，但其特點是考慮到分散的初始發行和使用國家擴展。這將用於由多個實體管理再發行或受更精細條件限制的資產。
 
 當然，視您諮詢本課程的日期而定，這些介面可能已經可以運作和存取。
 
@@ -2688,7 +2690,7 @@ Bob 接著需要擷取他感興趣的 Contract 資料。這些資料可以透過
 - **Interface**，定義呈現 Layer（欄位名稱、可存取的操作）；
 - **Interface Implementation**，具體連結 Schema 與 Interface。
 
-![RGB-Bitcoin](assets/fr/075.webp)
+![RGB-Bitcoin](assets/en/075.webp)
 
 由於每個元件的重量通常少於 200 位元組，因此總大小通常為幾千位元組。也有可能在 Base58 中透過抗檢查頻道 (例如 Nostr 或透過 Lightning Network) 廣播此 Consignment，或以 QR 碼的形式廣播。
 
@@ -2726,7 +2728,7 @@ bob$ rgb invoice RGB20 100 <ContractId> tapret1st:456e3..dfe1:0
 
 生成的 Invoice（例如 URL：`RGB:2WBcas9.../RGB20/100+utxob:...`）包含 Alice 準備傳輸所需的所有資訊。與 Consignment 一樣，它可以精簡地編碼 (Base58 或其他格式)，並透過訊息應用程式、電子郵件、Nostr... 傳送。
 
-![RGB-Bitcoin](assets/fr/076.webp)
+![RGB-Bitcoin](assets/en/076.webp)
 
 #### 6) Alice 方面的交易準備
 
@@ -2769,7 +2771,7 @@ bob$ rgb accept consignment.rgb
 sig:DbwzvSu4BZU81jEpE9FVZ3xjcyuTKWWy2gmdnaxtACrS
 ```
 
-![RGB-Bitcoin](assets/fr/077.webp)
+![RGB-Bitcoin](assets/en/077.webp)
 
 #### 9)選項：Bob 將確認發送回 Alice (* 付費單*)
 
@@ -2795,28 +2797,28 @@ alice$ rgb check <sig>
 alice$ wallet sign —publish tx.psbt
 ```
 
-![RGB-Bitcoin](assets/fr/078.webp)
+![RGB-Bitcoin](assets/en/078.webp)
 
 一經確認，此交易即標誌著轉讓的結束。Bob 成為資產的新擁有者：他現在有一個 Owned State 指向他控制的 UTXO，交易中 Commitment 的出現證明了這一點。
 
 總括而言，以下是完整的轉移程序：
 
-![RGB-Bitcoin](assets/fr/079.webp)
+![RGB-Bitcoin](assets/en/079.webp)
 
 ### RGB 轉移的優勢
 
 
-- 保密性** ：
+- **保密性**：
 
 只有 Alice 和 Bob 可以存取所有 State Transition 資料。他們在 Blockchain 外部透過託管方式 Exchange 這些資訊。Bitcoin 交易中的加密承諾不會透露資產類型或金額，這保證了遠高於其他 On-Chain 代幣系統的保密性。
 
 
-- 客戶端驗證** ：
+- **客戶端驗證**：
 
 Bob 可以透過比較 *Consignment* 與 Bitcoin Blockchain 中的 *anchors* 來檢查傳輸的一致性。他不需要第三方驗證。Alice 不需要在 Blockchain 上公佈完整的歷史記錄，這可以減少基本通訊協定的負載，並提高保密性。
 
 
-- 簡化原子性** ：
+- **簡化原子性**：
 
 複雜的交換（例如 BTC 與 RGB 資產之間的原子交換）可以在單一交易中進行，避免使用 HTLC 或 PTLC 腳本。如果協議沒有廣播，每個人都可以其他方式重複使用他們的 UTXO。
 
@@ -2832,7 +2834,7 @@ Bob 可以透過比較 *Consignment* 與 Bitcoin Blockchain 中的 *anchors* 來
 - Alice 在 Bitcoin 網路上公佈交易；
 - 交易確認後，轉帳才算正式完成。
 
-![RGB-Bitcoin](assets/fr/080.webp)
+![RGB-Bitcoin](assets/en/080.webp)
 
 這項轉移說明了 RGB 通訊協定的所有威力與彈性：在客戶端驗證的私有 Exchange，以最小且隱密的方式錨定在 Bitcoin Blockchain 上，並保留該通訊協定的最佳安全性 (沒有 Double-spending 的風險)。這使得 RGB 成為一個很有前途的價值轉移生態系統，比 On-Chain 可程式化區塊鏈更具機密性和可擴展性。
 
@@ -2893,9 +2895,9 @@ rgb:2WBcas9-yjzEvGufY-9GEgnyMj7-beMNMWA8r-sPHtV1nPU-TMsGMQX/RGB20/100+utxob:egXs
 
 - `RGB:`** (前綴): 表示啟用 RGB 通訊協定的連結 (類似於其他上下文中的 `http:` 或 `Bitcoin:`)；
 - `2WBcas9-yjzEvGufY-9GEgnyMj7-beMNMWA8r-sPHtV1nPU-TMsGMQX`**：表示您要操作的令牌的`ContractId`；
-- `/RGB20/100`**：表示使用 `RGB20` Interface，並要求 100 單位的資產。語法為`/Interface/amount` ；
-- `+utxob:`**:指定加入收件人 UTXO 的資訊 (或更精確地說，Single-Use Seal 的定義)；
-- `egXsFnw-5Eud7WKYn-7DVQvcPbc-rR69YmgmG-veacwmUFo-uMFKFb`**：這是 *blinded* UTXO（或 Seal Definition）。換句話說，Bob 隱藏了他確切的 UTXO，所以寄件者 (Alice) 不知道確切的 Address 是什麼。她只知道有一個有效的 Seal 指的是由 Bob 控制的 UTXO。
+- `/RGB20/100`**：表示使用 `RGB20` Interface，並要求 100 單位的資產。語法為`/Interface/amount`** ；
+- `+utxob:`**指定加入收件人 UTXO 的資訊 (或更精確地說，Single-Use Seal 的定義)；**
+- `egXsFnw-5Eud7WKYn-7DVQvcPbc-rR69YmgmG-veacwmUFo-uMFKFb`：這是 *blinded* UTXO（或 Seal Definition）。換句話說，Bob 隱藏了他確切的 UTXO，所以寄件者 (Alice) 不知道確切的 Address 是什麼。她只知道有一個有效的 Seal 指的是由 Bob 控制的 UTXO。
 
 事實上，所有功能都可整合到單一 URL 中，讓使用者的生活更輕鬆：只需在 Wallet 中輕輕一按或掃描，即可執行操作。
 
@@ -2923,10 +2925,10 @@ rgb:7BKsac8-beMNMWA8r-3GEprtFh7-bjzEvGufY-aNLuU4nSN-MRsLOIK/RGB21/DbwzvSu-4BZU81
 
 
 - `RGB:`**：URL 前綴 ；
-- `7BKsac8-beMNMWA8r-3GEprtFh7-bjzEvGufY-aNLuU4nSN-MRsLOIK`**：Contract ID (NFT) ；
-- rGB21**：Interface 適用於不可偽造資產 (NFT) ；
-- `DbwzvSu-4BZU81jEp-...`**：對 NFT 唯一部分的明確引用，例如資料 Blob（媒體、元資料...）的 Hash ；
-- `+utxob:egXsFnw-...`**：Seal Definition。
+- `7BKsac8-beMNMWA8r-3GEprtFh7-bjzEvGufY-aNLuU4nSN-MRsLOIK`**：Contract ID (NFT)；**
+- rGB21**：Interface 適用於不可偽造資產 (NFT)** ；
+- `DbwzvSu-4BZU81jEp-...`**：對 NFT 唯一部分的明確引用，例如資料 Blob（媒體、元資料...）的 Hash；**
+- `+utxob:egXsFnw-...`**：Seal Definition**。
 
 想法是一樣的：傳輸一個 Wallet 可以解讀的獨特連結，清楚識別要傳輸的獨特資產。
 
@@ -2946,7 +2948,7 @@ rgb:2WBcas9-yjzEvGufY-9GEgnyMj7-beMNMWA8r-sPHtV1nPU-TMsGMQX/RGB20/issue/100000+u
 - `/RGB20/issue/100000`：表示要調用「*Issue*」轉換來建立額外 100,000 個代幣；
 - `+utxob:`：Seal Definition。
 
-例如，Wallet 可能會寫道："I have been asked to carry out an `issue` operation from the `RGB20` Interface, on such and such a Contract, for 100,000 units, for the benefit of such and such a Single-Use Seal.*."
+例如，Wallet 可能會寫道："I have been asked to carry out an `issue` operation from the `RGB20` Interface, on such and such a Contract, for 100,000 units, for the benefit of such and such a Single-Use Seal."
 
 現在我們已經瞭解了 RGB 程式設計的主要 Elements，接下來我將帶您了解如何繪製 RGB Contract 的章節。
 
@@ -2984,7 +2986,7 @@ rgb
 
 執行 `RGB`（不含參數）會顯示可用的子指令清單，例如 `interfaces`, `Schema`, `import`, `export`, `issue`, `Invoice`, `transfer` 等。您可以變更本機儲存目錄 (存放所有記錄、示意圖與實作的 Stash)、選擇網路 (Testnet、Mainnet) 或設定您的 Electrum 伺服器。
 
-![RGB-Bitcoin](assets/fr/081.webp)
+![RGB-Bitcoin](assets/en/081.webp)
 
 #### 控制的第一次概述
 
@@ -3012,7 +3014,7 @@ cargo run
 rgb import interfaces/RGB20.rgb
 ```
 
-![RGB-Bitcoin](assets/fr/082.webp)
+![RGB-Bitcoin](assets/en/082.webp)
 
 另一方面，我們被告知尚未有 Schema 匯入軟體中。Stash 中也沒有 Contract。若要查看，請執行命令 ：
 
@@ -3026,7 +3028,7 @@ rgb schemata
 git clone https://github.com/RGB-WG/rgb-schemata
 ```
 
-![RGB-Bitcoin](assets/fr/083.webp)
+![RGB-Bitcoin](assets/en/083.webp)
 
 此儲存庫在其 `src/` 目錄中包含數個 Rust 檔案 (例如 `nia.rs`)，這些檔案定義模式 (NIA 代表 "*Non Inflatable Asset*「，UDA 代表 」*Unique Digital Asset*"，等等)。若要編譯，您可以執行 ：
 
@@ -3045,7 +3047,7 @@ cargo run
 rgb import schemata/NonInflatableAssets.rgb
 ```
 
-![RGB-Bitcoin](assets/fr/084.webp)
+![RGB-Bitcoin](assets/en/084.webp)
 
 這會將它加入本機的 Stash。如果我們執行以下指令，就會發現 Schema 現在出現了：
 
@@ -3092,7 +3094,7 @@ seal: tapret1st:b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804
 amount: 100000000 # this is 1 million (we have two digits for cents)
 ```
 
-![RGB-Bitcoin](assets/fr/085.webp)
+![RGB-Bitcoin](assets/en/085.webp)
 
 然後只要執行指令 ：
 
@@ -3100,7 +3102,7 @@ amount: 100000000 # this is 1 million (we have two digits for cents)
 rgb issue '<SchemaID>' ssi:<Issuer> rgb20-demo.yaml
 ```
 
-![RGB-Bitcoin](assets/fr/086.webp)
+![RGB-Bitcoin](assets/en/086.webp)
 
 在我的案例中，唯一的 Schema 識別碼 (需用單引號括起）是 `RDYhMTR!9gv8Y2GLv9UNBEK1hcrCmdLDFk9Qd5fnO8k` 而且我沒有輸入任何發行商。所以我的訂單是 ：
 
@@ -3120,7 +3122,7 @@ CLI 回覆說新的 Contract 已經發出並加入 Stash。如果我們鍵入以
 rgb contracts
 ```
 
-![RGB-Bitcoin](assets/fr/087.webp)
+![RGB-Bitcoin](assets/en/087.webp)
 
 接著，下一個指令會顯示全局狀態 (名稱、股票、Supply...) 和 Owned 狀態清單，也就是分配 (例如，在 UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1` 中定義的 100 萬個 `PBN` 代幣)。
 
@@ -3128,7 +3130,7 @@ rgb contracts
 rgb state '<ContractId>'
 ```
 
-![RGB-Bitcoin](assets/fr/088.webp)
+![RGB-Bitcoin](assets/en/088.webp)
 
 ### 匯出、匯入及驗證
 
@@ -3138,7 +3140,7 @@ rgb state '<ContractId>'
 rgb export '<ContractId>' myContractPBN.rgb
 ```
 
-![RGB-Bitcoin](assets/fr/089.webp)
+![RGB-Bitcoin](assets/en/089.webp)
 
 可以將 `myContractPBN.RGB` 檔案傳給其他使用者，他可以使用命令 ：
 
@@ -3162,7 +3164,7 @@ rgb validate myContract.rgb
 rgb dump
 ```
 
-![RGB-Bitcoin](assets/fr/090.webp)
+![RGB-Bitcoin](assets/en/090.webp)
 
 這將 generate 一個資料夾，其中包含整個 Stash 的詳細資訊。
 
@@ -3175,8 +3177,8 @@ rgb dump
 在大多數情況下，Contract 的參與者 (例如 Alice 和 Bob) 之間的互動是透過產生 Invoice 來進行的。如果 Alice 想要 Bob 執行某些事情 (代幣轉移、重新發行、DAO 中的動作等)，Alice 會建立一個 Invoice 詳細說明她對 Bob 的指示。因此我們有 ：
 
 
-- Alice** （Invoice 的發行者） ；
-- Bob** (接收並執行 Invoice)。
+- **Alice** （Invoice 的發行者） ；
+- **Bob** (接收並執行 Invoice)。
 
 與其他生態系統不同，RGB Invoice 並不局限於付款的概念。它可以嵌入任何與 Contract 相關聯的請求：撤銷金鑰、投票、在 NFT 上建立雕刻 (*engraving*) 等。相應的操作可以在 Contract Interface 中描述。相應的操作可以在 Contract Interface 中描述。
 
@@ -3269,7 +3271,7 @@ bob$ rgb check <sig> && wallet sign --publish tx.psbt
 
 以 Bitcoin 來說，資金交易必須存在，以定義參考 UTXO，即使它只包含少量的 Sats（這只是未來 Commitment 交易中的每個輸出都一樣保持在 Dust 限制之上的問題）。例如，Alice 可能決定提供 10k Sats 和 500 USDT（作為 RGB 資產發行）。在資金交易中，我們會加入一個 Commitment (`Opret`或`Tapret`)，錨定 RGB State Transition。
 
-![RGB-Bitcoin](assets/fr/091.webp)
+![RGB-Bitcoin](assets/en/091.webp)
 
 一旦準備好融資交易（但尚未廣播），就會建立 Commitment 交易，以便任何一方可以隨時單方面關閉通道。這些交易類似 Lightning 的經典 Commitment 交易，只是我們增加了一個額外的輸出，包含與新 State Transition 相連的 RGB Anchor (OP_RETURN 或 Taproot)。
 
@@ -3277,11 +3279,11 @@ bob$ rgb check <sig> && wallet sign --publish tx.psbt
 
 因此，由 Alice 簽署並傳送給 Bob 的 Commitment Transaction 會是這樣：
 
-![RGB-Bitcoin](assets/fr/092.webp)
+![RGB-Bitcoin](assets/en/092.webp)
 
 由 Bob 簽署並發送給 Alice 的 Commitment Transaction 會是這樣：
 
-![RGB-Bitcoin](assets/fr/093.webp)
+![RGB-Bitcoin](assets/en/093.webp)
 
 ### 頻道更新
 
@@ -3291,17 +3293,17 @@ bob$ rgb check <sig> && wallet sign --publish tx.psbt
 
 由 Alice 簽署的 Commitment Transaction，準備由 Bob 分發：
 
-![RGB-Bitcoin](assets/fr/094.webp)
+![RGB-Bitcoin](assets/en/094.webp)
 
 由 Bob 簽署的 Commitment Transaction，準備由 Alice 分發：
 
-![RGB-Bitcoin](assets/fr/095.webp)
+![RGB-Bitcoin](assets/en/095.webp)
 
 ### HTLC 管理
 
 實際上，Lightning Network 可讓付款透過多個通道，使用 HTLC (*Hashed Time-Locked Contracts*)。RGB 也是一樣：每筆經由通道的付款，都會有一個 HTLC 輸出加入到承諾交易中，並有一個 RGB 分配連結到這個 HTLC。因此，花費 HTLC 輸出的人 (由於秘密或在時間鎖到期後) 可同時收回 Sats 和相關的 RGB 資產。另一方面，您顯然需要有足夠的 Sats 和 RGB 資產現金。
 
-![RGB-Bitcoin](assets/fr/096.webp)
+![RGB-Bitcoin](assets/en/096.webp)
 
 因此，RGB 在 Lightning 上的操作必須與 Lightning Network 本身的操作同步考慮。如果您想深入瞭解這個主題，我強烈建議您看看這另一個全面的訓練課程：
 
@@ -3310,92 +3312,92 @@ https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 最後，在進入下一節之前，我想先為您介紹一下 RGB 所使用的程式碼。協定是基於一套 Rust 函式庫和開放原始碼規格。以下是主要儲存庫和 crates 的概觀：
 
-![RGB-Bitcoin](assets/fr/097.webp)
+![RGB-Bitcoin](assets/en/097.webp)
 
 #### Client-side Validation
 
 
-- 儲存庫**：[client_side_validation](https://github.com/LNP-BP/client_side_validation)
-- Crates** ：[client_side_validation](https://crates.io/crates/client_side_validation), [single_use_seals](https://crates.io/crates/single_use_seals)
+- 儲存庫：**[client_side_validation](https://github.com/LNP-BP/client_side_validation)**
+- **Crates**: [client_side_validation](https://crates.io/crates/client_side_validation), [single_use_seals](https://crates.io/crates/single_use_seals)
 
 管理 off-chain 驗證和一次性使用封條邏輯。
 
 #### 確定性 Bitcoin 承諾 (DBC)
 
 
-- 儲存庫**：[bp-core](https://github.com/BP-WG/bp-core)
-- 木箱**：[BP-DBC](https://crates.io/crates/bp-dbc)
+- 儲存庫：[bp-core](https://github.com/BP-WG/bp-core)
+- **木箱**：[BP-DBC](https://crates.io/crates/bp-dbc)
 
 管理 Bitcoin 交易（Tapret、OP_RETURN 等）中的確定性錨定。
 
 #### Multi Protocol Commitment (MPC)
 
 
-- 儲存庫**：[client_side_validation](https://github.com/LNP-BP/client_side_validation)
-- Crate** ：[commit_verify](https://crates.io/crates/commit_verify)
+- 儲存庫：**[client_side_validation](https://github.com/LNP-BP/client_side_validation)**
+- **Crate**: [commit_verify](https://crates.io/crates/commit_verify)
 
 多種接合組合，並與不同的通訊協定整合。
 
 #### 嚴格類型與嚴格編碼
 
 
-- 規格**：[網站 strict-types.org](https://www.strict-types.org/)
-- 儲存庫**：[string-types](https://github.com/strict-types/strict-types), [strict-encoding](https://github.com/strict-types/strict-encoding)
-- Crates** ：[strict_types](https://crates.io/crates/strict_types), [strict_encoding](https://crates.io/crates/strict_encoding)
+- 規格：**[網站 strict-types.org](https://www.strict-types.org/)**
+- 儲存庫：[string-types](https://github.com/strict-types/strict-types), [strict-encoding](https://github.com/strict-types/strict-encoding)
+- **Crates**: [strict_types](https://crates.io/crates/strict_types), [strict_encoding](https://crates.io/crates/strict_encoding)
 
 Client-side Validation 使用嚴格的類型系統和確定序列化。
 
 #### RGB 核心
 
 
-- 儲存庫**：[RGB-core](https://github.com/RGB-WG/RGB-core)
-- 箱子**：[RGB-core](https://crates.io/crates/RGB-core)
+- 儲存庫：**[RGB-core](https://github.com/RGB-WG/RGB-core)**
+- **箱子**：[RGB-core](https://crates.io/crates/RGB-core)
 
 協定的核心，包含 RGB 驗證的主要邏輯。
 
 #### RGB 標準函式庫 & Wallet
 
 
-- 儲存庫**：[RGB-std](https://github.com/RGB-WG/RGB-std)
-- 箱子** ：[RGB-std](https://crates.io/crates/RGB-std)
+- 儲存庫：**[RGB-std](https://github.com/RGB-WG/RGB-std)**
+- **箱子**：[RGB-std](https://crates.io/crates/RGB-std)
 
 標準實作、Stash 和 Wallet 管理。
 
 #### RGB CLI
 
 
-- 儲存庫**：[RGB](https://github.com/RGB-WG/RGB)
-- 木箱**：[RGB-CLI](https://crates.io/crates/RGB-CLI), [RGB-Wallet](https://crates.io/crates/RGB-Wallet)
+- 儲存庫：**[RGB](https://github.com/RGB-WG/RGB)**
+- 木箱：[RGB-CLI](https://crates.io/crates/RGB-CLI), [RGB-Wallet](https://crates.io/crates/RGB-Wallet)
 
 `RGB` CLI 和 crate Wallet，用於命令列操作契約。
 
 #### RGB Schema
 
 
-- 儲存庫**：[RGB-schemata](https://github.com/RGB-WG/RGB-schemata/)
+- 儲存庫：**[RGB-schemata](https://github.com/RGB-WG/rgb-schemata/)**
 
 包含模式 (NIA、UDA 等) 及其實作的範例。
 
 #### AluVM
 
 
-- 資訊** ：[AluVM.org](https://www.AluVM.org/)
-- 儲存庫**：[AluVM-spec](https://github.com/AluVM/AluVM-spec), [alure](https://github.com/AluVM/alure)
-- 箱子**：[AluVM](https://crates.io/crates/AluVM), [aluasm](https://crates.io/crates/aluasm)
+- **資訊**：[AluVM.org](https://www.AluVM.org/)
+- 儲存庫：[AluVM-spec](https://github.com/AluVM/AluVM-spec), [alure](https://github.com/AluVM/alure)
+- 箱子：[AluVM](https://crates.io/crates/AluVM), [aluasm](https://crates.io/crates/aluasm)
 
 基於註冊表的虛擬機器，用於執行驗證指令碼。
 
 #### Bitcoin 協定 - BP
 
 
-- 儲存庫** ：[bp-core](https://github.com/BP-WG/bp-core), [bp-std](https://github.com/BP-WG/bp-std), [bp-Wallet](https://github.com/BP-WG/bp-Wallet)
+- 儲存庫：[bp-core](https://github.com/BP-WG/bp-core), [bp-std](https://github.com/BP-WG/bp-std), [bp-Wallet](https://github.com/BP-WG/bp-Wallet)
 
 支援 Bitcoin 通訊協定的附加元件 (交易、旁路等)。
 
 #### 無所不在的確定性運算 - UBIDECO
 
 
-- 儲存庫**：[UBIDECO](https://github.com/UBIDECO)
+- 儲存庫：**[UBIDECO](https://github.com/UBIDECO)**
 
 與開放原始碼決定性開發相連結的生態系統。
 
@@ -3459,7 +3461,7 @@ Bitmask 背後的公司並不僅限於簡單的 Wallet 開發。DIBA 打算開�
 
 - 交換代幣的**市場**，尤其是以**RGB21**形式交換；
 - 與其他錢包相容（例如 *Iris Wallet*）；
-- 轉移批次**技術，即在單一交易中包含數筆連續的 RGB 轉移的可能性。
+- 轉移批次**技術**，即在單一交易中包含數筆連續的 RGB 轉移的可能性。
 
 與此同時，我們正在開發 **WebBTC** 或 **WebLN** (讓網站可以要求 Wallet 簽署 Bitcoin 或 Lightning 交易的標準)，以及「電子燒錄」Ordinals 項目的能力 (如果我們想要將 Ordinals 轉換成更隱密、更靈活的 RGB 格式)。
 
@@ -3623,7 +3625,7 @@ Bitfinex 團隊工作的另一個重點是使 Lightning Network 與 RGB 資產�
 git clone https://github.com/RGB-Tools/rgb-lightning-node --recurse-submodules --shallow-submodules
 ```
 
-![RGB-Bitcoin](assets/fr/098.webp)
+![RGB-Bitcoin](assets/en/098.webp)
 
 
 - `--recurse-submodules` 選項也會複製必要的子裝置 (包括修改版的 `Rust-lightning`)；
@@ -3635,7 +3637,7 @@ git clone https://github.com/RGB-Tools/rgb-lightning-node --recurse-submodules -
 cargo install --locked --debug --path .
 ```
 
-![RGB-Bitcoin](assets/fr/099.webp)
+![RGB-Bitcoin](assets/en/099.webp)
 
 
 - `--locked` 可確保嚴格遵守相依性的版本；
@@ -3649,19 +3651,19 @@ cargo install --locked --debug --path .
 RGB-lightning-node` daemon 需要 .NET Framework 的存在和配置才能運作：
 
 
-- 一個 `bitcoind`** 節點
+- 一個 `bitcoind` **節點**
 
 每個 RLN 實例都需要與 `bitcoind` 通訊，以廣播和監控其 On-Chain 交易。需要向 daemon 提供驗證 (登入/密碼) 和 URL (主機/連接埠)。
 
 
-- 索引器** (Electrum 或 Esplora)
+- **索引器** (Electrum 或 Esplora)
 
 daemon 必須能夠列出並探索 On-Chain 交易，特別是找到資產已被錨定的 UTXO。您需要指定您的 Electrum 伺服器或 Esplora 的 URL。
 
 
-- 一個 RGB** 代理
+- 一個 **RGB** 代理
 
-如前幾章所述，**代理伺服器**是一個元件（可選，但強烈建議使用），用來簡化 Lightning 對等體之間的 Exchange *分配。再一次，必須指定 URL。
+如前幾章所述，**代理伺服器**是一個元件（可選，但強烈建議使用），用來簡化 Lightning 對等體之間的 Exchange **分配**。再一次，必須指定 URL。
 
 ID 和 URL 會在 daemon 透過 API 解鎖時輸入。稍後再詳述。
 
@@ -3669,7 +3671,7 @@ ID 和 URL 會在 daemon 透過 API 解鎖時輸入。稍後再詳述。
 
 對於簡單的使用，有一個 `regtest.sh` 腳本可以透過 Docker 自動啟動一組服務：bitcoind」、「electrs」（索引器）、「RGB-proxy-server」。
 
-![RGB-Bitcoin](assets/fr/100.webp)
+![RGB-Bitcoin](assets/en/100.webp)
 
 這可讓您啟動一個本機、隔離、預先設定的環境。它會在每次重新啟動時建立和銷毀容器和資料目錄。我們將從啟動 ：
 
@@ -3684,7 +3686,7 @@ ID 和 URL 會在 daemon 透過 API 解鎖時輸入。稍後再詳述。
 - 在 regtest 中執行 `bitcoind` 以及索引器 `electrs` 和 `RGB-proxy-server` ；
 - 等到一切準備就緒即可使用。
 
-![RGB-Bitcoin](assets/fr/101.webp)
+![RGB-Bitcoin](assets/en/101.webp)
 
 接下來，我們要啟動幾個 RLN 節點。在不同的 shell 中執行，例如 (啟動 3 個 RLN 節點) ：
 
@@ -3700,7 +3702,7 @@ rgb-lightning-node dataldk2/ --daemon-listening-port 3003 \
 --ldk-peer-listening-port 9737 --network regtest
 ```
 
-![RGB-Bitcoin](assets/fr/102.webp)
+![RGB-Bitcoin](assets/en/102.webp)
 
 
 - `--network regtest` 參數表示使用 regtest 設定；
@@ -3722,7 +3724,7 @@ curl -X POST http://localhost:3001/address
 
 答案會為您提供 Address。
 
-![RGB-Bitcoin](assets/fr/103.webp)
+![RGB-Bitcoin](assets/en/103.webp)
 
 在 `bitcoind` Regtest 上，我們要挖一些 bitcoins。運行：
 
@@ -3730,7 +3732,7 @@ curl -X POST http://localhost:3001/address
 ./regtest.sh mine 101
 ```
 
-![RGB-Bitcoin](assets/fr/104.webp)
+![RGB-Bitcoin](assets/en/104.webp)
 
 將資金傳送至上述產生的節點 Address：
 
@@ -3738,7 +3740,7 @@ curl -X POST http://localhost:3001/address
 ./regtest.sh sendtoaddress <address> <amount>
 ```
 
-![RGB-Bitcoin](assets/fr/105.webp)
+![RGB-Bitcoin](assets/en/105.webp)
 
 然後挖掘一個區塊來確認交易：
 
@@ -3746,7 +3748,7 @@ curl -X POST http://localhost:3001/address
 ./regtest.sh mine 1
 ```
 
-![RGB-Bitcoin](assets/fr/106.webp)
+![RGB-Bitcoin](assets/en/106.webp)
 
 ### Testnet 啟動 (無 Docker)
 
@@ -3793,7 +3795,7 @@ curl -X POST -H "Content-Type: application/json" \
 http://localhost:3001/createutxos
 ```
 
-![RGB-Bitcoin](assets/fr/107.webp)
+![RGB-Bitcoin](assets/en/107.webp)
 
 當然，您可以調整訂單。為了確認交易，我們會挖出一個 .NET：
 
@@ -3816,7 +3818,7 @@ curl -X POST -H "Content-Type: application/json" \
 http://localhost:3001/issueassetnia
 ```
 
-![RGB-Bitcoin](assets/fr/108.webp)
+![RGB-Bitcoin](assets/en/108.webp)
 
 回應包括新建立資產的 ID。請記住這個識別碼。在我的例子中，它是 ：
 
@@ -3824,7 +3826,7 @@ http://localhost:3001/issueassetnia
 rgb:fc7fMj5S-8yz!vIl-260BEhU-Hj1skvM-ZHcjfyz-RTcWc10
 ```
 
-![RGB-Bitcoin](assets/fr/109.webp)
+![RGB-Bitcoin](assets/en/109.webp)
 
 然後您可以將它轉移到 On-Chain 或分配到 Lightning 頻道中。這正是我們下一節要做的。
 
@@ -3844,7 +3846,7 @@ curl -X 'GET' \
 031e81e4c5c6b6a50cbf5d85b15dad720fec92c62e84bafb34088f0488e00a8e94
 ```
 
-![RGB-Bitcoin](assets/fr/110.webp)
+![RGB-Bitcoin](assets/en/110.webp)
 
 接下來，我們將透過指定相關資產 (`PBN`)來開啟通道。`/openchannel` 指令可讓您以 satoshis 為單位定義通道的大小，並選擇包含 RGB 資產。這取決於您想要建立什麼，但在我的情況下，命令是 ：
 
@@ -3875,7 +3877,7 @@ http://localhost:3001/openchannel
 - `asset_id` : RGB 資產在頻道中的唯一識別碼；
 - `public`：表示通道是否應該公開，以便在網路上進行路由。
 
-![RGB-Bitcoin](assets/fr/111.webp)
+![RGB-Bitcoin](assets/en/111.webp)
 
 為了確認交易，需要挖出 6 個區塊：
 
@@ -3883,7 +3885,7 @@ http://localhost:3001/openchannel
 ./regtest.sh mine 6
 ```
 
-![RGB-Bitcoin](assets/fr/112.webp)
+![RGB-Bitcoin](assets/en/112.webp)
 
 Lightning 通道現在打開，節點 n°1 一邊也包含 500 `PBN` 代幣。如果節點 n°2 希望接收 `PBN` 代幣，它必須 generate 和 Invoice。以下是操作方法：
 
@@ -3912,7 +3914,7 @@ http://localhost:3002/lninvoice
 lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87eykx96zt47e5pz8sfz8qp28fgpp5jksvqtleryhvwr299qdz96qxzm24augy5agkdhltudk463lt9dassp5d6n0sqgl0c4gx52fdmutrdtqamt0y4xuz2rcgel4hpjwne08gmls9qyysgqcqpcxqzdylz5wfnkywnxvvmkvnt2x4fj6wre0gshvjtv95ervvzzg4592t2gdgchx6mkf5k45jrrdfn8j73d2f2xx4mrxycq7qzry4v4jan6uxhhacyqa4gn6plggwpq9j74tu74f2zsamtz6ymt600p8su4c4ap9g9d8ku2x3wdh6fuc8fd8pff2yzpjrf24ys3cltca9fgqut6gzj
 ```
 
-![RGB-Bitcoin](assets/fr/113.webp)
+![RGB-Bitcoin](assets/en/113.webp)
 
 現在我們將從第一個節點支付這筆 Invoice，該節點持有必要的現金與 `PBN` 代幣：
 
@@ -3924,7 +3926,7 @@ curl -X POST -H "Content-Type: application/json" \
 http://localhost:3001/sendpayment
 ```
 
-![RGB-Bitcoin](assets/fr/114.webp)
+![RGB-Bitcoin](assets/en/114.webp)
 
 已付款。執行命令 ：
 
@@ -3934,7 +3936,7 @@ curl -X 'GET' \
 -H 'accept: application/json'
 ```
 
-![RGB-Bitcoin](assets/fr/115.webp)
+![RGB-Bitcoin](assets/en/115.webp)
 
 以下是如何部署經修改以搭載 RGB 資產的 Lightning 節點。本示範以 .NET Framework 為基礎：
 

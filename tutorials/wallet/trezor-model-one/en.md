@@ -151,7 +151,7 @@ Confirm the instructions, then click on the "*Create Wallet backup*" button.
 The Model One will create your mnemonic phrase using its random number generator. Make sure you're not being watched during this operation. Write down the words provided on the screen on the physical medium of your choice. Depending on your security strategy, you may consider making several complete physical copies of the phrase (but above all, don't divide it). It's important to keep the words numbered and in sequential order.
 
 
-***Obviously, you must never share these words on the Internet, as I do in this tutorial. This example wallet will be used only on the Testnet and will be deleted at the end of the tutorial
+**Obviously, you must never share these words on the Internet, as I do in this tutorial. This example wallet will be used only on the Testnet and will be deleted at the end of the tutorial**
 
 
 For more information on the proper way to save and manage your mnemonic phrase, I highly recommend following this other tutorial, especially if you're a beginner:

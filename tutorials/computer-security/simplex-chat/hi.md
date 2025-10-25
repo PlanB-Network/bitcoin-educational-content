@@ -1,5 +1,5 @@
 ---
-name: सिंपलएक्स चैट
+name: SimpleX Chat
 description: बिना उपयोगकर्ता आईडी वाला पहला मेलबॉक्स
 ---
 ![cover](assets/cover.webp)

@@ -1,0 +1,9 @@
+question: S napsáním TTP je Spinoza?
+answer: Vynálezce sekularismu.
+wrong_answers:
+  - Zastánce plánování.
+  - Obhájce osvícené diktatury.
+  - Obhájce konstituční monarchie.
+explanation: |
+  Spinozu lze díky jeho Pojednání o teologii a politice považovat za vynálezce moderního sekularismu. Obhajoval v něm oddělení náboženské a politické moci, což byla v té době revoluční myšlenka.
+reviewed: false

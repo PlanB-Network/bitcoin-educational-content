@@ -82,7 +82,7 @@ Użytkownicy Androida mogą również zainstalować aplikację za pomocą pliku 
 ![GREEN 2FA MULTISIG](assets/fr/04.webp)
 
 
-Uruchom aplikację, a następnie zaznacz pole "Akceptuję warunki...*".
+Uruchom aplikację, a następnie zaznacz pole "Akceptuję warunki...".
 
 
 ![GREEN 2FA MULTISIG](assets/fr/05.webp)
@@ -160,7 +160,7 @@ Green przekaże ci wtedy twoją frazę Mnemonic. Przed kontynuowaniem upewnij si
 Umożliwia ona przywrócenie dostępu do kluczy lokalnych w przypadku utraty, kradzieży lub uszkodzenia telefonu. Dlatego bardzo ważne jest, aby starannie wykonać kopię zapasową **na nośniku fizycznym (nie cyfrowym)** i przechowywać ją w bezpiecznym miejscu. Można ją zapisać na kartce papieru, a dla zwiększenia bezpieczeństwa, jeśli jest to duży Wallet, zalecam wygrawerowanie jej na wsporniku ze stali nierdzewnej, aby chronić ją przed ryzykiem pożaru, powodzi lub zawalenia (w przypadku Hot Wallet zaprojektowanego do zabezpieczenia niewielkiej ilości bitcoinów, prawdopodobnie wystarczy zwykła kopia zapasowa na papierze).
 
 
-*Oczywiście nigdy nie wolno udostępniać tych słów w Internecie, tak jak robię to w tym samouczku. Ten przykładowy Wallet będzie używany tylko na Testnet i zostanie usunięty po zakończeniu samouczka
+*Oczywiście nigdy nie wolno udostępniać tych słów w Internecie, tak jak robię to w tym samouczku. Ten przykładowy Wallet będzie używany tylko na Testnet i zostanie usunięty po zakończeniu samouczka.*
 
 
 ![GREEN 2FA MULTISIG](assets/fr/16.webp)
@@ -240,7 +240,7 @@ W aplikacji uwierzytelniającej dodaj nowy kod, a następnie zeskanuj kod QR dos
 ![GREEN 2FA MULTISIG](assets/fr/26.webp)
 
 
-*Oczywiście nigdy nie wolno udostępniać tego klucza i kodu QR w Internecie, tak jak robię to w tym samouczku. Ten przykładowy Wallet będzie używany tylko na Testnet i zostanie usunięty po zakończeniu samouczka
+*Oczywiście nigdy nie wolno udostępniać tego klucza i kodu QR w Internecie, tak jak robię to w tym samouczku. Ten przykładowy Wallet będzie używany tylko na Testnet i zostanie usunięty po zakończeniu samouczka.*
 
 
 Kliknij przycisk "*Kontynuuj*".

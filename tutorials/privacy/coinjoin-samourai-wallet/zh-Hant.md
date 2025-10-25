@@ -1,11 +1,11 @@
 ---
-name: CoinJoin - Samourai Wallet
+name: Coinjoin - Samourai Wallet
 description: 如何在 Samourai Wallet 上執行 CoinJoin？
 ---
 ![cover](assets/cover.webp)
 
 
-***警告：** Samourai Wallet 的創始人於 4 月 24 日被捕並其伺服器被扣押後，Whirlpool 工具已不再運作，即使是擁有自己的道場或正在使用 Sparrow Wallet 的個人也是如此。不過，這個工具仍有可能在未來幾週內恢復，或以不同的方式重新推出。此外，這篇文章的理論部分對於了解一般（不只是 Whirlpool）coinjoins 的原則和目標，以及了解 Whirlpool 模型的有效性，仍然具有相關性。
+**警告：** Samourai Wallet 的創始人於 4 月 24 日被捕並其伺服器被扣押後，Whirlpool 工具已不再運作，即使是擁有自己的道場或正在使用 Sparrow Wallet 的個人也是如此。不過，這個工具仍有可能在未來幾週內恢復，或以不同的方式重新推出。此外，這篇文章的理論部分對於了解一般（不只是 Whirlpool）coinjoins 的原則和目標，以及了解 Whirlpool 模型的有效性，仍然具有相關性。
 
 
 我們正密切注意此案例的發展，以及相關工具的發展。請放心，我們會在有新資訊時更新本教學。
@@ -110,10 +110,10 @@ Whirlpool 的設計考慮到兩個重要的要求：
 
 這些必要因素引導 Samourai Wallet 的開發人員設計 Whirlpool，導致他們限制每個週期的參與者人數。參與人數太少會影響 CoinJoin 的效率，大幅減少每個週期所產生的 anonsets，而參與人數太多則會對行動應用程式造成管理問題，並會妨礙週期的流程。
 
-**終究，Whirlpool 上的每個 CoinJoin 不需要有大量參與者，因為ONSET 是透過累積數個 CoinJoin 週期來達成的。
+**終究，Whirlpool 上的每個 CoinJoin 不需要有大量參與者，因為 ONSET 是透過累積數個 CoinJoin 週期來達成的。**
 
 
-[-> 進一步了解 Whirlpool anonsets。](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
+-> 進一步了解 Whirlpool anonsets。
 
 
 ### 水池和 CoinJoin 費用
@@ -140,7 +140,7 @@ Whirlpool 的設計考慮到兩個重要的要求：
 | 0.01           | 0.7                                |
 | 0.001          | 0.025                              |
 
-如前所述，當 UTXO 可整合至 CoinJoin 時，即視為屬於一個池。然而，這並不表示使用者失去對它的擁有權。 ***這是 CoinJoin 技術與其他集中式混合技術的不同之處。
+如前所述，當 UTXO 可整合至 CoinJoin 時，即視為屬於一個池。然而，這並不表示使用者失去對它的擁有權。**這是 CoinJoin 技術與其他集中式混合技術的不同之處。**
 
 
 要進入 CoinJoin 遊戲池，必須支付服務費以及 Mining 費用。服務費對每個池都是固定的，目的是補償負責開發和維護 Whirlpool 的團隊。
@@ -602,7 +602,7 @@ Whirlpool 會自動關閉。等待 Samourai 載入完成後，再次開啟 Whirl
 若要深入探討這些指標（Whirlpool 模型被公認為能為共同接合帶來最大同质性的模型），請參考教學：[boltzmann calculator](https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe)
 
 
-接下來，我們會根據硬幣被隱藏的群組程度來評估幾個 CoinJoin 循環的效能。這些群組的大小定義了所謂的 anonsets。有兩種類型的 anonsets：第一種是針對回溯分析（從現在到過去）來評估所獲得的隱藏性，第二種是針對前瞻分析（從過去到現在）來評估所獲得的隱藏性。如需這兩個指標的詳細說明，請參閱教學：[Whirlpool STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
+接下來，我們會根據硬幣被隱藏的群組程度來評估幾個 CoinJoin 循環的效能。這些群組的大小定義了所謂的 anonsets。有兩種類型的 anonsets：第一種是針對回溯分析（從現在到過去）來評估所獲得的隱藏性，第二種是針對前瞻分析（從過去到現在）來評估所獲得的隱藏性。如需這兩個指標的詳細說明，請參閱教學：Whirlpool STATS TOOLS - ANONSETS
 
 
 ## 如何管理後混合？
@@ -632,12 +632,12 @@ Whirlpool 會自動關閉。等待 Samourai 載入完成後，再次開啟 Whirl
 接下來，您必須小心管理有毒的變更，也就是無法進入 CoinJoin 池的變更。這些因使用 Whirlpool 而產生的毒性 UTXOs 會對您的隱私構成風險，因為它們會在您與 CoinJoin 的使用之間建立連結。因此，必須謹慎處理，不要將它們與其他 UTXOs（特別是混合 UTXOs）結合在一起。以下是使用它們時要考慮的不同策略：
 
 
-- 在較小的水池中混合使用：** 如果您的毒性 UTXO 大到足以單獨進入較小的水池，請考慮混合使用。這通常是最好的選擇。但是，關鍵是不要將幾個有毒的 UTXO 合併進入一個池中，因為這可能會將您的不同入口連結起來。
-- 將它們標記為「不可花費」：** 另一種方法是停止使用，在專用帳戶中將它們標記為「不可花費」，並直接使用 HODL。這樣可以確保您不會不小心花掉它們。如果 Bitcoin 的價值增加，可能會出現更適合您的有毒 UTXOs 的新池；
-- 捐款：** 請考慮捐款，即使是微不足道的捐款，也要捐給研究 Bitcoin 及其相關軟體的開發人員。您也可以捐款給接受 BTC 的組織。如果管理您的有毒 UTXOs 看起來太複雜，您可以直接透過捐款來擺脫它們；
-- 購買禮品卡：** [Bitrefill](https://www.bitrefill.com/) 等平台允許您用 Exchange 比特幣購買禮品卡，這些禮品卡可以在各種商家使用。這可以在不損失相關價值的情況下，將有毒的 UTXOs 處理掉；
-- 在 Monero 上整合它們：** Samourai Wallet 現在提供 BTC 和 XMR 之間的原子交換服務。這是管理有毒 UTXOs 的理想選擇，您可以將它們整合到 Monero 上，而不會透過 KYC 洩露您的隱私，然後再將它們送回 Bitcoin。但是，由於流動性的限制，這個選擇在 Mining 費用和溢價方面可能會很昂貴；
-- 將它們傳送至 Lightning Network：** 將這些 UTXO 傳送至 Lightning Network 以享受交易費用的降低，是一個很有趣的選擇。但是，此方法可能會透露某些資訊，這取決於您對 Lightning 的使用，因此應謹慎實行。
+- 在較小的水池中混合使用：**如果您的毒性 UTXO 大到足以單獨進入較小的水池，請考慮混合使用。這通常是最好的選擇。但是，關鍵是不要將幾個有毒的 UTXO 合併進入一個池中，因為這可能會將您的不同入口連結起來。**
+- 將它們標記為「不可花費」：**另一種方法是停止使用，在專用帳戶中將它們標記為「不可花費」，並直接使用 HODL。這樣可以確保您不會不小心花掉它們。如果 Bitcoin 的價值增加，可能會出現更適合您的有毒 UTXOs 的新池；**
+- 捐款：請考慮捐款，即使是微不足道的捐款，也要捐給研究 Bitcoin 及其相關軟體的開發人員。您也可以捐款給接受 BTC 的組織。如果管理您的有毒 UTXOs 看起來太複雜，您可以直接透過捐款來擺脫它們；
+- 購買禮品卡：**[Bitrefill](https://www.bitrefill.com/)** 等平台允許您用 Exchange 比特幣購買禮品卡，這些禮品卡可以在各種商家使用。這可以在不損失相關價值的情況下，將有毒的 UTXOs 處理掉；
+- 在 Monero 上整合它們：**Samourai Wallet 現在提供 BTC 和 XMR 之間的原子交換服務。這是管理有毒 UTXOs 的理想選擇，您可以將它們整合到 Monero 上，而不會透過 KYC 洩露您的隱私，然後再將它們送回 Bitcoin。但是，由於流動性的限制，這個選擇在 Mining 費用和溢價方面可能會很昂貴**；
+- 將它們傳送至 Lightning Network：將這些 UTXO 傳送至 Lightning Network 以享受交易費用的降低，是一個很有趣的選擇。但是，此方法可能會透露某些資訊，這取決於您對 Lightning 的使用，因此應謹慎實行。
 
 
 PlanB Network 即將提供實施這些不同技術的詳細教學。
@@ -645,7 +645,7 @@ PlanB Network 即將提供實施這些不同技術的詳細教學。
 
 **其他資源：**
 
-[Samourai Wallet video tutorial](https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956)
+[Samourai Wallet video tutorial]()
 
 
 - [Samourai Wallet Documentation - Whirlpool](https://docs.samourai.io/Whirlpool/basic-concepts)；

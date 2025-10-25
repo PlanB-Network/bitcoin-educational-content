@@ -1,0 +1,9 @@
+question: Bitcoinノードとは？
+answer: Bitcoinプロトコルを実装したソフトウェアが動作するコンピューター
+wrong_answers:
+  - Bitcoinネットワークを実装するHardware Wallet
+  - Bitcoin用の新しいブロックを生産するMiner
+  - Bitcoinネットワークと取引確認を管理する中央サーバー
+explanation: |
+  Bitcoinノードは、Bitcoin coreなどのソフトウェアが動作するコンピュータで、プロトコルを実装し、Bitcoinネットワークに参加する。
+reviewed: true

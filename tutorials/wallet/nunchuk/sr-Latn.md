@@ -98,7 +98,7 @@ U prozoru koji se pojavi, pronaći ćete polja za "popunjavanje": izaberite dugm
 Možete pronaći vodič za Sparrow wallet da preuzmete ovaj Software Wallet
 
 
-https://planb.network/en/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Možete zatim preneti `.apk` datoteku sa svog računara na telefon.
 

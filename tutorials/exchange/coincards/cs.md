@@ -1,5 +1,5 @@
 ---
-name: Mincovní karty
+name: Coincards
 description: Jak mohu nakupovat zboží a služby v BTC pomocí Coincards?
 ---
 ![cover](assets/cover.webp)
@@ -8,7 +8,7 @@ description: Jak mohu nakupovat zboží a služby v BTC pomocí Coincards?
 
 > Bitcoin: Elektronický peněžní systém Peer-to-Peer
 
-Právě o tom je Bitcoin - o tom, že se utrácí peer-to-peer, aniž byste museli někoho žádat o svolení. Dnes jen velmi málo obchodníků přijímá Bitcoin v Exchange za své zboží a služby (jsme tak brzo), což ztěžuje situaci těm z nás, kteří potřebují utratit své satoši. *tento problém se snaží vyřešit *Coincards**, které vám umožní utratit vaše bitcoiny za **nákup dárkových karet**
+Právě o tom je Bitcoin - o tom, že se utrácí peer-to-peer, aniž byste museli někoho žádat o svolení. Dnes jen velmi málo obchodníků přijímá Bitcoin v Exchange za své zboží a služby (jsme tak brzo), což ztěžuje situaci těm z nás, kteří potřebují utratit své satoši. *Tento problém se snaží vyřešit* **Coincards**, které vám umožní utratit vaše bitcoiny za **nákup dárkových karet**.
 
 
 

@@ -1,5 +1,5 @@
 ---
-name: بانکساس
+name: Banxaas
 description: ساتوشی‌ها و XOF را در سراسر سنگال معامله کنید
 ---
 
@@ -73,7 +73,7 @@ https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43c
 
 
 
-- از فرانک CFA به ساتوشی‌ها** :
+- از فرانک CFA به **ساتوشی‌ها**:
 
 
 
@@ -114,7 +114,7 @@ Banxaas به شما اجازه می‌دهد تا با کلیک بر روی دک
 
 
 
-- از ساتوشی به فرانک CFA**
+- از ساتوشی به فرانک **CFA**
 
 
 

@@ -22,7 +22,7 @@ ___
 
 
 
-**In diesem Tutorial werden wir lernen, wie man mit Lynis eine Sicherheitsüberprüfung auf einem Linux-Rechner durchführt! Für diejenigen unter Ihnen, die **Lynis,** nicht kennen, ist es ein kleines Kommandozeilenprogramm, das die Konfiguration Ihres Servers analysiert und Empfehlungen zur **Verbesserung der Sicherheit Ihres Rechners** gibt
+**In diesem Tutorial werden wir lernen, wie man mit Lynis eine Sicherheitsüberprüfung auf einem Linux-Rechner durchführt!** Für diejenigen unter Ihnen, die **Lynis** nicht kennen, ist es ein kleines Kommandozeilenprogramm, das die Konfiguration Ihres Servers analysiert und Empfehlungen zur **Verbesserung der Sicherheit Ihres Rechners** gibt.
 
 
 
@@ -321,10 +321,10 @@ Als Nächstes wird Lynis eine Reihe von Punkten auflisten, die allem entsprechen
 
 
 
-- Rot** für kritische Elements oder nicht eingehaltene bewährte Praktiken (z. B. ein fehlendes Paket), d. h. Ihr Server hält diesen Punkt nicht ein
-- Gelb** für Vorschläge oder teilweise Erfüllung der Empfehlung (z. B. ist es von Vorteil, einen mit dieser Farbe hervorgehobenen Punkt zu erfüllen (nicht prioritär))
-- Green** für Punkte, bei denen Ihre Serverkonfiguration konform ist
-- Weiß**, wenn neutral
+- **Rot** für kritische Elements oder nicht eingehaltene bewährte Praktiken (z. B. ein fehlendes Paket), d. h. Ihr Server hält diesen Punkt nicht ein
+- **Gelb** für Vorschläge oder teilweise Erfüllung der Empfehlung (z. B. ist es von Vorteil, einen mit dieser Farbe hervorgehobenen Punkt zu erfüllen (nicht prioritär))
+- **Green** für Punkte, bei denen Ihre Serverkonfiguration konform ist
+- **Weiß**, wenn neutral
 
 
 
@@ -604,10 +604,10 @@ Einige Informationen über die installierten Pakete:
 
 
 
-- Clamav** ist ein Antivirusprogramm.
-- unattend-upgrades** ermöglicht es Ihnen, Ihre Aktualisierungen automatisch zu verwalten und sogar den Rechner neu zu starten oder alte Pakete automatisch zu entfernen, es ist vollständig konfigurierbar.
-- rkhunter** ist ein Anti-Rootkit, das Ihr Dateisystem durchsucht.
-- Fail2ban** stützt sich auf Ihre Logdateien, je nachdem, was Sie ihm zu lesen geben, und arbeitet mit **iptables**, um z.B. IP-Adressen zu sperren, die versuchen, Ihren Server per SSH zu "brute force".
+- **Clamav** ist ein Antivirusprogramm.
+- **unattend-upgrades** ermöglicht es Ihnen, Ihre Aktualisierungen automatisch zu verwalten und sogar den Rechner neu zu starten oder alte Pakete automatisch zu entfernen, es ist vollständig konfigurierbar.
+- **rkhunter** ist ein Anti-Rootkit, das Ihr Dateisystem durchsucht.
+- **Fail2ban** stützt sich auf Ihre Logdateien, je nachdem, was Sie ihm zu lesen geben, und arbeitet mit **iptables**, um z.B. IP-Adressen zu sperren, die versuchen, Ihren Server per SSH zu "brute force".
 
 
 
@@ -820,7 +820,7 @@ Vergessen wir nicht, den **Lynis-Audit-Score** zu überprüfen! Wir sehen, dass 
 
 
 
-**Mit anderen Worten: je höher die Punktzahl, desto besser! Sie müssen also an Ihrer Konfiguration arbeiten, um die höchstmögliche Punktzahl zu erreichen, und gleichzeitig dafür sorgen, dass Ihr Rechner und die gehosteten Dienste normal funktionieren (was bedeutet, dass Sie Funktionstests durchführen müssen).
+**Mit anderen Worten: je höher die Punktzahl, desto besser!** Sie müssen also an Ihrer Konfiguration arbeiten, um die höchstmögliche Punktzahl zu erreichen, und gleichzeitig dafür sorgen, dass Ihr Rechner und die gehosteten Dienste normal funktionieren (was bedeutet, dass Sie Funktionstests durchführen müssen).
 
 
 
@@ -896,4 +896,4 @@ Schließlich können Sie **Lynis** auch mit anderen Tools vergleichen, von denen
 
 
 
-**Dieses Tutorial ist vorbei, viel Spaß mit Lynis!
+**Dieses Tutorial ist vorbei, viel Spaß mit Lynis!**

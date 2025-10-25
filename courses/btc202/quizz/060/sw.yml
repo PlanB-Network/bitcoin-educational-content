@@ -1,0 +1,9 @@
+question: Je, ni jukumu gani la relay ya Nostr iliyowekwa kwenye Umbrel?
+answer: Panga machapisho yako ndani ya nchi
+wrong_answers:
+  - Angalia shughuli za Bitcoin
+  - Unda vituo vya Nostr ukitumia anwani zako
+  - Nakala ya ndani ya Blockchain Nostr
+explanation: |
+  Relay ya Nostr kwenye Umbrel huwezesha data kupangishwa ndani ya nchi, ikihakikisha upatikanaji na uhuru.
+reviewed: true

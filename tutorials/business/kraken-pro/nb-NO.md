@@ -59,8 +59,8 @@ Når du har fylt ut alle seksjonene og sendt de nødvendige dokumentene, klikker
 Når kontoen din er bekreftet, får du tilgang til plattformen, der du blir tilbudt to grensesnitt:
 
 
-- Kraken**: Et forenklet grensesnitt som tilbyr viktig funksjonalitet.
-- Kraken Pro**: Et avansert grensesnitt med flere funksjoner, spesielt for handel.
+- **Kraken**: Et forenklet grensesnitt som tilbyr viktig funksjonalitet.
+- **Kraken Pro**: Et avansert grensesnitt med flere funksjoner, spesielt for handel.
 
 Hvis målet ditt kun er å kjøpe og selge bitcoin, bør du velge det forenklede grensesnittet. Du har alltid muligheten til å bytte til det avanserte grensesnittet senere, om nødvendig.
 
@@ -158,9 +158,9 @@ Velg beløpet, velg kryptovalutaen du ønsker å få tak i, og bekreft deretter 
 For disse transaksjonene kan du velge mellom ulike ordretyper: *Marked*, *Limit* eller *Stop-Loss*:
 
 
-- Marked*: Tillater umiddelbart kjøp til gjeldende markedspris;
-- Limit*: Her kan du angi en kjøpskurs, og ordren vil bare bli utført hvis markedskursen når dette beløpet;
-- Stop-Loss*: Selger automatisk når kursen når en viss terskel.
+- **Marked**: Tillater umiddelbart kjøp til gjeldende markedspris;
+- **Limit**: Her kan du angi en kjøpskurs, og ordren vil bare bli utført hvis markedskursen når dette beløpet;
+- **Stop-Loss**: Selger automatisk når kursen når en viss terskel.
 
 ## 7 - Transaksjonshåndtering og regnskap
 

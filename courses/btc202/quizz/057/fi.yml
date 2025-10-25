@@ -1,0 +1,9 @@
+question: Mikä Sparrow wallet-palvelimen vaihtoehto vastaa RPC-yhteyttä?
+answer: Bitcoin core
+wrong_answers:
+  - Julkinen palvelin
+  - Yksityinen Electrum
+  - Etä-API
+explanation: |
+  Sparrow:ssä Bitcoin core-vaihtoehto vastaa suoraa yhteyttä solmuun RPC:n kautta.
+reviewed: true

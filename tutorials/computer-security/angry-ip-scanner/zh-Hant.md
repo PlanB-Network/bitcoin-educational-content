@@ -1,5 +1,5 @@
 ---
-name: 憤怒 IP 掃描器
+name: Angry IP Scanner
 description: 掃描網路的簡單方法
 ---
 ![cover](assets/cover.webp)
@@ -10,7 +10,7 @@ ___
 
 
 
-*本教學是根據 Florian BURNEL 發表於 [IT-Connect](https://www.it-connect.fr/) 的原始內容。原始碼授權類型 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)。原文可能有變更。
+*本教學是根據 Florian BURNEL 發表於 [IT-Connect](https://www.it-connect.fr/) 的原始內容。原始碼授權類型 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)。原文可能有變更。*
 
 
 
@@ -84,8 +84,8 @@ https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6d
 
 
 
-- Feeder**：負責從隨機 IP 範圍或包含 IP 位址清單的檔案中，產生要掃描的 IP 位址清單的模組。
-- Fetcher**：一組擷取網路上主機資訊的模組。例如，有偵測 MAC 位址、掃描連接埠、偵測主機名稱或傳送 HTTP 請求的擷取器。
+- **Feeder**：負責從隨機 IP 範圍或包含 IP 位址清單的檔案中，產生要掃描的 IP 位址清單的模組。
+- **Fetcher**：一組擷取網路上主機資訊的模組。例如，有偵測 MAC 位址、掃描連接埠、偵測主機名稱或傳送 HTTP 請求的擷取器。
 
 
 

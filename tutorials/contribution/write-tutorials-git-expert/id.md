@@ -18,11 +18,11 @@ Anda sudah memiliki:
 Dalam tutorial untuk pengguna Git yang sudah berpengalaman ini, kami akan meringkas secara singkat langkah-langkah utama dan panduan penting untuk menawarkan tutorial Plan ₿ Network yang baru. Jika Anda tidak terbiasa dengan Git dan GitHub, saya sarankan Anda untuk mengikuti salah satu dari 2 tutorial lain yang lebih terperinci yang akan membawa Anda langkah demi langkah:
 
 
-- Menengah (GitHub Desktop)**:
+- **Menengah (GitHub Desktop)**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
-- Pemula (antarmuka web)**:
+- **Pemula (antarmuka web)**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 
@@ -31,30 +31,30 @@ https://planb.network/tutorials/contribution/content/write-tutorials-github-web-
 Untuk mengedit file Penurunan harga:
 
 
-- Obsidian** (Gratis, bukan sumber terbuka)
-- Tandai Teks** (Gratis, sumber terbuka)
-- Zettlr** (Gratis, sumber terbuka)
-- Typora** (Perangkat lunak berbayar, ~€15, bukan sumber terbuka)
+- **Obsidian** (Gratis, bukan sumber terbuka)
+- **Tandai Teks** (Gratis, sumber terbuka)
+- **Zettlr** (Gratis, sumber terbuka)
+- **Typora** (Perangkat lunak berbayar, ~€15, bukan sumber terbuka)
 
 Untuk Git:
 
 
-- Git** (Gratis, sumber terbuka)
-- GitHub Desktop** (Gratis, sumber terbuka)
-- Sourcetree** (Gratis, bukan sumber terbuka)
+- **Git** (Gratis, sumber terbuka)
+- **GitHub Desktop** (Gratis, sumber terbuka)
+- **Sourcetree** (Gratis, bukan sumber terbuka)
 
 Untuk mengedit file YAML:
 
 
-- Kode Visual Studio** (Gratis, sumber terbuka)
-- Sublime Text** (Gratis dengan batasan, bukan sumber terbuka)
+- **Kode Visual Studio** (Gratis, sumber terbuka)
+- **Sublime Text** (Gratis dengan batasan, bukan sumber terbuka)
 
 Untuk membuat diagram dan visual:
 
 
-- Canva** (Gratis dengan opsi berbayar, bukan sumber terbuka)
-- Inkscape** (Gratis, sumber terbuka)
-- Penpot** (Gratis, sumber terbuka)
+- **Canva** (Gratis dengan opsi berbayar, bukan sumber terbuka)
+- **Inkscape** (Gratis, sumber terbuka)
+- **Penpot** (Gratis, sumber terbuka)
 
 ## Alur kerja
 
@@ -281,7 +281,7 @@ git push origin tuto-green-wallet-loic
 ## Standar pembuatan konten
 
 
-- Pemformatan yang didukung pada platform**:
+- Pemformatan yang didukung pada **platform**:
     - Penurunan Harga Klasik: daftar, tautan, gambar, kutipan, cetak tebal, cetak miring, dll.
     - LaTeX (hanya blok, tidak sebaris): dibatasi oleh `$$`.
     - Kode sebaris: Sintaks dengan satu backtick.
@@ -292,13 +292,13 @@ print("Hello, Bitcoin!")
 ```
 
 
-- Ilustrasi dan diagram**:
+- **Ilustrasi dan diagram**:
     - Semua gambar harus dalam format WebP. Gunakan alat gratis ini untuk mengonversinya jika diperlukan: [ImagesConverter] (https://github.com/LoicPandul/ImagesConverter).
     - Beri nama visual dengan 2 atau 3 digit (misalnya `001.webp`, `002.webp`).
     - Untuk tutorial dompet seluler atau perangkat keras, gunakan mock-up.
     - Gunakan hanya visual yang dibuat sendiri atau bebas royalti.
     - Pastikan mereka relevan dan berkualitas tinggi.
-- Piagam grafis**:
+- **Piagam grafis**:
     - Font: [IBM Plex Sans] (https://fonts.google.com/specimen/IBM+Plex+Sans).
     - Rencana Warna ₿ Jaringan:
         - Oranye: `#FF5C00`

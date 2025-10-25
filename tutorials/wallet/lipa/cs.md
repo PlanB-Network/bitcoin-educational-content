@@ -52,10 +52,10 @@ Po výběru možnosti vás aplikace vyzve k povolení oznámení. Tento krok je 
 Aplikace pak představuje své hlavní funkce prostřednictvím řady úvodních obrazovek:
 
 
-- Bezproblémové přijímání plateb**: Uživatelé mohou přijímat platby v bitcoinech, i když je aplikace zavřená, což zaručuje spolehlivost a pohodlí.
-- Bleskové adresy, na které se nevztahuje opatrovnictví**: Lipa nyní podporuje neúřední adresy Lightning, čímž zvyšuje soukromí a bezpečnost a dává uživatelům plnou kontrolu nad jejich bitcoiny.
-- Kontrola analytických dat** : Vzhledem k tomu, že transparentnost a důvěrnost jsou prvořadé, mohou si uživatelé prohlédnout typy shromážděných dat a zvolit své preference sdílení.
-- Odeslat prostřednictvím telefonního čísla**: Jednoduše vyberte kontakt, zadejte částku a pošlete bitcoiny přímo na jeho telefonní číslo.
+- **Bezproblémové přijímání plateb**: Uživatelé mohou přijímat platby v bitcoinech, i když je aplikace zavřená, což zaručuje spolehlivost a pohodlí.
+- **Bleskové adresy, na které se nevztahuje opatrovnictví**: Lipa nyní podporuje neúřední adresy Lightning, čímž zvyšuje soukromí a bezpečnost a dává uživatelům plnou kontrolu nad jejich bitcoiny.
+- **Kontrola analytických dat**: Vzhledem k tomu, že transparentnost a důvěrnost jsou prvořadé, mohou si uživatelé prohlédnout typy shromážděných dat a zvolit své preference sdílení.
+- **Odeslat prostřednictvím telefonního čísla**: Jednoduše vyberte kontakt, zadejte částku a pošlete bitcoiny přímo na jeho telefonní číslo.
 
 Aplikace také těží z neustálého zlepšování stability, bezpečnosti a spolehlivosti, aby byla zaručena optimální uživatelská zkušenost.
 
@@ -66,10 +66,10 @@ Rozhraní aplikace Lipa je uspořádáno do 4 hlavních karet, které jsou pří
 ![Navigation principale](assets/fr/02.webp)
 
 
-- Domov**: Zobrazuje aktuální zůstatek a historii transakcí
-- Skener**: Umožňuje skenovat QR kódy a provádět platby
-- Mapa**: Zobrazí interaktivní mapu podniků, které přijímají bitcoiny ve vašem okolí
-- Nastavení**: Přístup k nastavení aplikace, zálohování a předvolbám
+- **Domov**: Zobrazuje aktuální zůstatek a historii transakcí
+- **Skener**: Umožňuje skenovat QR kódy a provádět platby
+- **Mapa**: Zobrazí interaktivní mapu podniků, které přijímají bitcoiny ve vašem okolí
+- **Nastavení**: Přístup k nastavení aplikace, zálohování a předvolbám
 
 Další nabídku lze otevřít stažením domovské obrazovky dolů:
 

@@ -1,5 +1,5 @@
 ---
-name: BTC Kaart
+name: BTC Map
 description: Vind plaatsen om je Sats door te brengen
 ---
 ![cover](assets/cover.webp)

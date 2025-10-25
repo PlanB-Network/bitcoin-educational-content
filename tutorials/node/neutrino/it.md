@@ -1,101 +1,134 @@
 ---
 name: Neutrino
-description: Guida all'installazione di LND Neutrino
+description: Guida all'installazione del LND Neutrino
 ---
+![image](assets/cover.webp)
 
-# Configurazione di Raspberry Pi con LND
 
-1. Scarica Raspberry Pi OS Lite
+## Configurazione di Raspberry Pi con LND
 
-Scarica Raspberry Pi OS Lite, [in questa pagina](https://www.raspberrypi.org/software/operating-systems/) troverai le istruzioni per scaricare e installare l'immagine su una micro SD su Windows, Mac e Linux.
 
-2. Formatta la scheda SD
+### 1. Scaricare Raspberry Pi OS Lite
 
-Formatta la scheda SD con Raspberry Pi Imager o con balenaEtcher.
 
-> NOTA: Il simbolo `$` viene utilizzato come prompt e consente all'utente di inserire comandi nel computer, i comandi verranno interpretati da bash in Linux. Il simbolo `#` all'inizio di una riga indica che il testo successivo è un commento.
+Le istruzioni per scaricare e installare l'immagine su una scheda micro SD in Windows, Mac e Linux sono disponibili su [questa pagina](https://www.raspberrypi.org/software/operating-systems/).
 
-3. Abilita SSH
 
-Prima di avviare Raspberry Pi con la scheda di memoria formattata, inseriscila in un computer e crea due file che ci consentiranno di connetterci in remoto. Utilizzando il comando `touch` creiamo un file vuoto nella partizione /boot, in questo modo abilitiamo la connessione SSH al primo avvio della scheda SD appena formattata.
+### 2. Formattare la scheda SD
+
+
+Utilizzare Raspberry Pi Imager o balenaEtcher.
+
+
+**Nota:** Il simbolo `$` è usato come prompt e permette all'utente di inserire comandi nel computer; i comandi saranno interpretati da bash in Linux. Il simbolo `#` all'inizio di una riga indica che il testo seguente è un commento.
+
+
+### 3. Abilitare SSH
+
+
+Prima di avviare il Raspberry Pi con la memoria formattata, dobbiamo inserirlo in un computer e creare due file che ci permetteranno di connetterci da remoto. Utilizzando il comando `touch`, creiamo un file vuoto nella partizione /boot, consentendo la connessione SSH al primo avvio della scheda SD appena formattata.
+
 
 ```
-# NOTA: Se la microSD è stata montata in /media/microSD, il comando
-# dovrebbe essere $ sudo touch /media/microSD/boot/ssh
+# NOTE: If the microSD card has been mounted at /media/microSD, the command
+# should be $ sudo touch /media/microSD/boot/ssh
 $ touch /boot/ssh
 ```
 
-4.- Utilizzando il comando nano, creiamo il file wpa_supplicant.conf e iniziamo immediatamente a modificarlo, in questo file dobbiamo copiare la configurazione del wifi, copia il testo compreso tra INIZIO e FINE e modifica l'SSID e la password del wifi a cui desideri connetterti.
+
+### 4. Creare un file per la connessione Wi-Fi
+
+
+Con il comando nano creiamo il file `wpa_supplicant.conf` e iniziamo direttamente a modificarlo. In questo file, dobbiamo copiare la configurazione del wifi, copiando il testo tra START e END e modificando l'SSID e la password del wifi a cui ci si vuole connettere.
+
 
 ```
 $ nano /boot/wpa_supplicant.conf
 
------- INIZIO -------
+------ START -------
 country=ar
 update_config=1
 ctrl_interface=/var/run/wpa_supplicant
 
 network={
- ssid="MyNetworkSSID"
- psk="password"
+ssid="MyNetworkSSID"
+psk="password"
 }
------- FINE -------
+------ END -------
 ```
 
-5.- Successivamente inseriamo la scheda SD nella Raspberry Pi e colleghiamo la rpi all'alimentatore per avviare il sistema operativo, dovremo identificarla nella rete, probabilmente il protocollo mDNS le assegnerà questo nome nella rete raspberrypi.local, proviamo a connetterci tramite ssh.
+
+### 5. Connessione
+
+
+Quindi, inseriamo la scheda SD nel Raspberry Pi e colleghiamo il Pi all'alimentazione per avviare il sistema operativo. Dobbiamo identificarlo sulla rete e il protocollo mDNS probabilmente gli assegnerà il nome raspberrypi.local. Proviamo a connetterci tramite SSH.
+
 
 ```
 $ ssh pi@raspberrypi.local
 password: raspberry
 ```
 
-Se non funziona, dobbiamo scoprire la rete, scopriamo l'indirizzo IP a cui siamo connessi.
+
+Se non funziona, dobbiamo scoprire la rete. Scopriamo l'IP Address a cui siamo connessi.
+
 
 ```
 $ ifconfig
 ```
 
-Ad esempio, se è 192.168.0.0, eseguiamo nmap per trovare la rpi
+
+Ad esempio, se è 192.168.0.0, usare nmap per trovare il Pi.
+
 
 ```
 nmap -v 192.168.0.0/24
 ```
 
-Supponendo di aver trovato un nuovo IP nella nostra rete 192.168.0.30
 
-Accediamo tramite ssh.
+Supponendo di aver trovato un nuovo IP sulla nostra rete, entriamo tramite SSH.
+
 
 ```
 $ ssh pi@192.168.0.30
 password: raspberry
 ```
 
-6.- Configuriamo la rpi
+
+### 6. Configurare il Pi
+
 
 ```
 $ sudo raspi-config
 ```
 
-- Selezioniamo l'opzione (1) e cambiamo la password dell'utente pi'
-- Seleccionamos la opción (8) per aggiornare lo strumento di configurazione all'ultima versione
-- Seleccionamos la opción (4) per selezionare il nostro fuso orario
-- Seleccionamos la opción (7) e poi Expand filesystem
-- Finish
 
-  7.- Aggiorniamo il sistema operativo
+- Selezionare l'opzione (1) e modificare la password dell'utente pi.
+- Selezioniamo l'opzione (8) per aggiornare lo strumento di configurazione alla versione più recente
+- Selezioniamo l'opzione (4) per selezionare il nostro fuso orario
+- Selezioniamo l'opzione (7) e poi Espandi filesystem
+- Finitura
+
+
+### 7. Ora aggiornate il sistema operativo
+
 
 ```
 $ sudo apt update && sudo apt upgrade -y
 $ sudo apt install htop git curl bash-completion jq qrencode dphys-swapfile vim --install-recommends -y
 ```
 
-8.- Aggiungiamo l'utente bitcoin
+
+### 8. Aggiungere l'utente Bitcoin
+
 
 ```
 $ sudo adduser bitcoin
 ```
 
-9.- Assicuriamo la rpi
+
+### 9. Proteggere l'rpi
+
 
 ```
 $ sudo apt install ufw
@@ -110,7 +143,12 @@ $ sudo ufw status
 $ sudo apt install fail2ban
 ```
 
-10.- Installiamo go: se non si sta utilizzando una raspberry pi, scaricare go per la propria architettura qui (https://golang.org/dl/)
+
+### 10. Installare Go
+
+
+Se non si utilizza un raspberry pi, scaricare Go for your architecture [qui] (https://golang.org/dl/).
+
 
 ```
 $ wget https://golang.org/dl/go1.15.linux-armv6l.tar.gz
@@ -119,10 +157,12 @@ $ echo "export PATH=$PATH:/usr/local/go/bin" >> ~/.bashrc
 $ echo "export GOPATH=$HOME/go" >> ~/.bashrc
 $ echo "export PATH=$PATH:$GOPATH/bin" >> ~/.bashrc
 $ source ~/.bashrc
-$ go version # dovrebbe mostrare il seguente messaggio 'go version go1.13.5 linux/arm'
+$ go version # should display the following message 'go version go1.13.5 linux/arm'
 ```
 
-11.- Compiliamo e installiamo lnd
+
+### 11. Compilare e installare LND
+
 
 ```
 $ git clone https://github.com/lightningnetwork/lnd.git
@@ -135,7 +175,12 @@ $ lncli --version
 lncli version 0.11.0-beta commit=v0.11.0-beta-61-g6055b00dbbcedf45cd60f12e57dc5c1a7b97746f
 ```
 
-12.- Creiamo il file di configurazione di lnd, questo deve essere fatto con l'utente 'bitcoin'
+
+### 12. Creare il file conf di LND
+
+
+Creare il file di configurazione del LND; questa operazione deve essere eseguita con l'utente "Bitcoin"
+
 
 ```
 $ sudo su - bitcoin
@@ -143,14 +188,15 @@ $ mkdir .lnd
 $ nano .lnd/lnd.conf
 ```
 
+
 ```
 [Application Options]
-# permette pagamenti spontanei
+# enable spontaneous payments
 accept-keysend=1
 
-# Nome pubblico del nodo
-alias=TU_ALIAS
-# Colore pubblico in esadecimale
+# Public name of the node
+alias=YOUR_ALIAS
+# Public color in hexadecimal
 color=#000000
 debuglevel=info
 maxpendingchannels=5
@@ -167,13 +213,18 @@ bitcoin.node=neutrino
 neutrino.connect=bb2.breez.technology
 ```
 
-13.- Per far sì che LND si avvii dopo il boot della rpi, dobbiamo creare il file .service in systemd.
-'Se siamo loggati come utente bitcoin e vogliamo tornare a utilizzare l'utente pi, basta scrivere "exit"
+
+### 13. LND servizio di avvio automatico
+
+
+Per fare in modo che LND si avvii dopo l'avvio di rpi, dobbiamo creare il file .service in systemd. Se siamo connessi come utente Bitcoin e vogliamo tornare all'utente pi, dobbiamo semplicemente digitare 'exit'
+
 
 ```
 $ exit
 $ sudo nano /etc/systemd/system/lnd.service
 ```
+
 
 ```
 [Unit]
@@ -182,13 +233,13 @@ After=network.target
 
 [Service]
 
-# Esecuzione del servizio
+# Service execution
 ###################
 
 ExecStart=/usr/local/bin/lnd
 
 
-# Gestione del processo
+# Process management
 ####################
 
 Type=simple
@@ -197,10 +248,10 @@ RestartSec=30
 TimeoutSec=240
 LimitNOFILE=128000
 
-# Creazione delle directory e impostazioni dei permessi
+# Directory creation and permissions
 ####################################
 
-# Esegui come bitcoin:bitcoin
+# Run as bitcoin:bitcoin
 User=bitcoin
 Group=bitcoin
 
@@ -208,29 +259,30 @@ Group=bitcoin
 RuntimeDirectory=lightningd
 RuntimeDirectoryMode=0710
 
-# Misure di sicurezza
+# Hardening measures
 ####################
 
-# Fornisci una /tmp e /var/tmp private.
+# Provide a private /tmp and /var/tmp.
 PrivateTmp=true
 
-# Monta /usr, /boot/ e /etc in sola lettura per il processo.
+# Mount /usr, /boot/ and /etc read-only for the process.
 ProtectSystem=full
 
-# Impedisce al processo e a tutti i suoi figli di ottenere
-# nuovi privilegi tramite execve().
+# Disallow the process and all of its children to gain
+# new privileges through execve().
 NoNewPrivileges=true
 
-# Utilizza un nuovo namespace /dev popolato solo con dispositivi pseudo API
-# come /dev/null, /dev/zero e /dev/random.
+# Use a new /dev namespace only populated with API pseudo devices
+# such as /dev/null, /dev/zero and /dev/random.
 PrivateDevices=true
 
-# Negare la creazione di mappature di memoria scrivibili ed eseguibili.
+# Deny the creation of writable and executable memory mappings.
 MemoryDenyWriteExecute=true
 
 [Install]
 WantedBy=multi-user.target
 ```
+
 
 ```
 $ sudo systemctl enable lnd
@@ -238,95 +290,123 @@ $ sudo systemctl start lnd
 $ systemctl status lnd
 ```
 
-Possiamo visualizzare i log eseguendo il comando journalctl
+
+È possibile visualizzare i registri eseguendo il comando journalctl
+
 
 ```
 $ sudo journalctl -f -u lnd
 ```
 
-14. Ora avviamo lnd
+
+### 14. Ora iniziamo il LND
+
 
 ```
 $ sudo su - bitcoin
 $ lncli create
 ```
 
-15. Aggiungiamo fondi al nostro nodo
+
+### 15. Aggiungere fondi al nodo
+
 
 ```
 $ lncli newaddress p2wkh
 ```
 
-Inviare btc all'indirizzo restituito da lnd
+È ora possibile inviare btc al Address restituito dal LND.
 
-Per controllare il saldo
+
+con questo comando, è possibile controllare l'equilibrio:
+
 
 ```
 $ lncli walletbalance
 {
-    "total_balance": "500000",
-    "confirmed_balance": "0",
-    "unconfirmed_balance": "500000"
+"total_balance": "500000",
+"confirmed_balance": "0",
+"unconfirmed_balance": "500000"
 }
 ```
 
-Dopo che la transazione è stata confermata, possiamo aprire un canale, se non sai ancora con quale nodo aprire il canale, puoi andare su 1ml.com e scegliere un nodo.
 
-Apriamo una connessione a un nodo:
+Una volta confermata la transazione, possiamo aprire un canale. Se non sapete con quale nodo aprire il canale, potete andare su 1ml.com e scegliere un nodo.
+
+
+Aprire una connessione a un nodo:
+
 
 ```
 $ lncli connect 031015a7839468a3c266d662d5bb21ea4cea24226936e2864a7ca4f2c3939836e0@212.129.58.219:9735
 ```
 
-Poi apriamo un canale
+
+Quindi aprire un canale:
+
 
 ```
 $ lncli openchannel 031015a7839468a3c266d662d5bb21ea4cea24226936e2864a7ca4f2c3939836e0 1000000 0
 ```
 
-Controlliamo i nostri fondi
+
+Controllate i nostri fondi:
+
 
 ```
 $ lncli walletbalance
 $ lncli channelbalance
 ```
 
-Possiamo vedere i canali in sospeso e attivi
+
+Possiamo visualizzare i canali in attesa e quelli attivi:
+
 
 ```
 $ lncli pendingchannels
 $ lncli listchannels
 ```
 
-Per pagare una fattura lightning
+
+Per pagare un fulmine Invoice:
+
 
 ```
 $ lncli payinvoice lnbc1p0kkhgwpp5sn9y6xe9hx7swrjj4057674vh73nwk6rxg8j8zedztkn3vdzgjafacqmud86h
 ```
 
-Per ricevere un pagamento, creo una fattura per un importo specifico
+
+Per ricevere un pagamento, creare un Invoice per un importo specifico:
+
 
 ```
-$ lncli addinvoice --memo 'mi primer pago en LN' --amt 100
+$ lncli addinvoice --memo 'my first payment on LN' --amt 100
 ```
 
-Per visualizzare le informazioni sul mio nodo
+
+Per visualizzare le informazioni sul mio nodo:
+
 
 ```
 $ lncli getinfo
 ```
 
-È possibile visualizzare l'elenco completo dei comandi eseguendo semplicemente lncli
+
+L'elenco completo dei comandi può essere visualizzato semplicemente eseguendo il comando lncli:
+
 
 ```
 $ lncli
 ```
 
-Infine, per effettuare chiamate all'API di lnd
+
+Infine, per effettuare chiamate all'API LND:
+
 
 ```
 $ MACAROON_HEADER="Grpc-Metadata-macaroon: $(xxd -ps -u -c 1000 .lnd/data/chain/bitcoin/mainnet/admin.macaroon)"
 $ curl -X GET --cacert .lnd/tls.cert --header "$MACAROON_HEADER" https://localhost:8080/v1/getinfo |jq
 ```
 
-> FINE
+
+Fine della guida!

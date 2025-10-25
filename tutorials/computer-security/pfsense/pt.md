@@ -111,9 +111,9 @@ Para uma implantação padrão, recomendamos o:
 
 
 
-- 1 GB de RAM** no mínimo (recomenda-se 2 GB ou mais para permitir pacotes adicionais ou suporte a ZFS).
-- 8 GB de espaço em disco** (20 GB ou mais é preferível para configurações mais avançadas, especialmente se estiver a instalar uma cache de proxy, IDS/IPS ou registos detalhados).
-- Pelo menos duas interfaces de rede virtuais** (uma para a WAN e outra para a LAN). No VirtualBox, adicione-as às configurações da VM antes da inicialização.
+- 1 GB de RAM **no mínimo** (recomenda-se 2 GB ou mais para permitir pacotes adicionais ou suporte a ZFS).
+- **8 GB de espaço em disco** (20 GB ou mais é preferível para configurações mais avançadas, especialmente se estiver a instalar uma cache de proxy, IDS/IPS ou registos detalhados).
+- Pelo menos duas interfaces de rede virtuais (uma para a WAN e outra para a LAN). No VirtualBox, adicione-as às configurações da VM antes da inicialização.
 
 
 
@@ -309,8 +309,8 @@ No seu navegador, vá para o Address indicado pelo console (por padrão `https:/
 
 
 
-- Nome do utilizador:** `admin`
-- Palavra-passe:** `pfsense`
+- **Nome do utilizador:** `admin`
+- **Palavra-passe:** `pfsense`
 
 
 
@@ -429,10 +429,10 @@ Para terminar o seu destacamento com paz de espírito:
 
 
 
-- Modificar regras de firewall**: por padrão, o pfSense permite todo o tráfego de saída na LAN e bloqueia o tráfego de entrada na WAN. Ajuste essas regras conforme necessário.
-- Configurar o acesso remoto seguro**: se necessário, permitir o acesso à Web do Interface a partir da WAN apenas através de VPN ou com restrições de IP.
-- Ativar notificações**: configurar um servidor SMTP para receber alertas (falhas, actualizações, erros).
-- Instalar extensões úteis**: por exemplo, IDS/IPS (Snort, Suricata), proxy (Squid), filtragem de DNS (pfBlockerNG).
+- **Modificar regras de firewall**: por padrão, o pfSense permite todo o tráfego de saída na LAN e bloqueia o tráfego de entrada na WAN. Ajuste essas regras conforme necessário.
+- **Configurar o acesso remoto seguro**: se necessário, permitir o acesso à Web do Interface a partir da WAN apenas através de VPN ou com restrições de IP.
+- **Ativar notificações**: configurar um servidor SMTP para receber alertas (falhas, actualizações, erros).
+- **Instalar extensões úteis**: por exemplo, IDS/IPS (Snort, Suricata), proxy (Squid), filtragem de DNS (pfBlockerNG).
 
 
 

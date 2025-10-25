@@ -1,0 +1,9 @@
+question: 클라우드 없이도 로컬에 자격 증명을 저장할 수 있는 오픈 소스 비밀번호 관리자는 무엇인가요?
+answer: KeePassDX
+wrong_answers:
+  - LastPass
+  - NordPass
+  - Google 비밀번호 관리자
+explanation: |
+  KeePassDX는 클라우드나 중앙 집중식 서비스에 가입할 필요 없이 암호화된 로컬 파일을 기반으로 작동합니다.
+reviewed: false

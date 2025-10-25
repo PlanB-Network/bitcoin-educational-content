@@ -61,9 +61,9 @@ Nmaps styrkor är många:
 
 
 
-- Kraftfull och flexibel**: Nmap kan skanna stora nätverk och använda avancerade detekteringstekniker. Den stöder UDP, TCP, ICMP, IPv4 och IPv6 och kan utföra versionsdetektering, sårbarhetsskanningar eller protokollspecifika interaktioner. Dess arkitektur är modulär, särskilt tack vare NSE-skript (Nmap Scripting Engine), som vi kommer att titta på senare i denna handledning.
-- Användarvänlighet**: Den officiella dokumentationen är riklig och av högsta kvalitet. Det finns också många resurser tillgängliga för att hjälpa dig att komma igång.
-- Popularitet och lång livslängd**: Nmap har varit en referens inom sitt område sedan 1998. Den aktuella versionen, vid tidpunkten för den här uppdateringen, är 7.95. Även om det finns andra verktyg för specifika uppgifter är Nmap fortfarande ett måste för kartläggning och analys av nätverk.
+- **Kraftfull och flexibel**: Nmap kan skanna stora nätverk och använda avancerade detekteringstekniker. Den stöder UDP, TCP, ICMP, IPv4 och IPv6 och kan utföra versionsdetektering, sårbarhetsskanningar eller protokollspecifika interaktioner. Dess arkitektur är modulär, särskilt tack vare NSE-skript (Nmap Scripting Engine), som vi kommer att titta på senare i denna handledning.
+- **Användarvänlighet**: Den officiella dokumentationen är riklig och av högsta kvalitet. Det finns också många resurser tillgängliga för att hjälpa dig att komma igång.
+- **Popularitet och lång livslängd**: Nmap har varit en referens inom sitt område sedan 1998. Den aktuella versionen, vid tidpunkten för den här uppdateringen, är 7.95. Även om det finns andra verktyg för specifika uppgifter är Nmap fortfarande ett måste för kartläggning och analys av nätverk.
 
 
 
@@ -87,7 +87,7 @@ Han förekommer också i andra filmverk.
 
 
 
-**Återkoppling
+**Återkoppling**
 
 
 
@@ -183,7 +183,7 @@ nmap --open -p 80 192.168.1.18
 
 
 
-*Använd Nmap för att hämta webbtjänststatus från en fjärrserver
+*Använd Nmap för att hämta webbtjänststatus från en fjärrserver*
 
 
 
@@ -463,7 +463,7 @@ Nmap är nu installerat på Windows. Du kan använda det på exakt samma sätt s
 
 
 
-Men förresten, när du använder Nmap, **är det nödvändigt att ha förhöjda lokala behörigheter på systemet? **det beror på**.
+Men förresten, när du använder Nmap, **är det nödvändigt att ha förhöjda lokala behörigheter på systemet?** **Det beror på**.
 
 
 
@@ -485,25 +485,25 @@ Oavsett om du använder Linux eller Windows finns det många fall där Nmap komm
 
 
 
-- Konstruera "råa" nätverkspaket**: Nmap kan använda ett brett spektrum av skanningsmetoder, inklusive avancerad paketmanipulation och paketkonstruktion. Detta är till exempel fallet när vi vill utföra TCP SYN-skanningar, som inte respekterar den klassiska _trevägshandskakningen_ i TCP-utbyten. För att göra detta måste Nmap använda andra funktioner än de som är inbyggda i operativsystem, som bara vet hur man respekterar god praxis i nätverkskommunikation (det anropar biblioteken "Npcap" och "libcap" som ses ovan). Det är för att Nmap inte gör saker på det "vanliga" sättet som den kan härleda viss information om operativsystem, tjänster och vissa sårbarheter.
+- Konstruera "råa" nätverkspaket: Nmap kan använda ett brett spektrum av skanningsmetoder, inklusive avancerad paketmanipulation och paketkonstruktion. Detta är till exempel fallet när vi vill utföra TCP SYN-skanningar, som inte respekterar den klassiska *trevägshandskakningen* i TCP-utbyten. För att göra detta måste Nmap använda andra funktioner än de som är inbyggda i operativsystem, som bara vet hur man respekterar god praxis i nätverkskommunikation (det anropar biblioteken "Npcap" och "libcap" som ses ovan). Det är för att Nmap inte gör saker på det "vanliga" sättet som den kan härleda viss information om operativsystem, tjänster och vissa sårbarheter.
 
 
 
 
 
-- Lyssna på nätverkstrafik**: vissa av Nmaps alternativ kräver att den lyssnar på nätverket för att kunna hämta viss information. Denna åtgärd anses vara känslig på operativsystem, eftersom den också gör det möjligt att lyssna på kommunikationen från andra applikationer på systemet. Precis som Wireshark behöver Nmap särskilda behörigheter för att göra detta, vilka är lättare att få genom att vara direkt i en privilegierad session.
+- Lyssna på nätverkstrafik: vissa av Nmaps alternativ kräver att den lyssnar på nätverket för att kunna hämta viss information. Denna åtgärd anses vara känslig på operativsystem, eftersom den också gör det möjligt att lyssna på kommunikationen från andra applikationer på systemet. Precis som Wireshark behöver Nmap särskilda behörigheter för att göra detta, vilka är lättare att få genom att vara direkt i en privilegierad session.
 
 
 
 
 
-- Lyssna på privilegierade portar**: På operativsystem sägs portar från 0 till 1024 (TCP såväl som UDP) vara privilegierade, dvs. de är på något sätt reserverade för mycket specifika användningsområden och därför skyddade. Även om detta är ett något föråldrat skäl idag, är det fortfarande nödvändigt att ha vissa privilegier för att lyssna på dessa portar, vilket Nmap kan behöva göra beroende på hur det kommer att användas.
+- **Lyssna på privilegierade portar**: På operativsystem sägs portar från 0 till 1024 (TCP såväl som UDP) vara privilegierade, dvs. de är på något sätt reserverade för mycket specifika användningsområden och därför skyddade. Även om detta är ett något föråldrat skäl idag, är det fortfarande nödvändigt att ha vissa privilegier för att lyssna på dessa portar, vilket Nmap kan behöva göra beroende på hur det kommer att användas.
 
 
 
 
 
-- Skicka UDP-paket:** På samma sätt kräver lyssnande på en nätverksapplikation på UDP-portar (ett statslöst protokoll) privilegierade rättigheter på operativsystemen. En privilegierad session krävs därför om du vill utföra en UDP-sökning, för vilken Nmap måste lyssna efter ett svar för att kunna analysera svaren på dess sökningar.
+- Skicka UDP-paket: På samma sätt kräver lyssnande på en nätverksapplikation på UDP-portar (ett statslöst protokoll) privilegierade rättigheter på operativsystemen. En privilegierad session krävs därför om du vill utföra en UDP-sökning, för vilken Nmap måste lyssna efter ett svar för att kunna analysera svaren på dess sökningar.
 
 
 
@@ -562,13 +562,13 @@ Från och med nu ska du komma ihåg att endast skanna värdar i en kontrollerad 
 
 
 
-- [Hack The Box] (https://app.hackthebox.com/ "Hack The Box")**: Hacking-utbildningsplattformen Hack The Box tillhandahåller ständigt sårbara system som du kan attackera efter eget gottfinnande. Flera hundra system finns tillgängliga, men en förnyad pool med 20 maskiner erbjuds gratis året runt, med åtkomst via en OpenVPN VPN.
+- [Hack The Box](https://app.hackthebox.com/ "Hack The Box"): Hacking-utbildningsplattformen Hack The Box tillhandahåller ständigt sårbara system som du kan attackera efter eget gottfinnande. Flera hundra system finns tillgängliga, men en förnyad pool med 20 maskiner erbjuds gratis året runt, med åtkomst via en OpenVPN VPN.
 
 
 
 
 
-- [Vulnhub](https://www.vulnhub.com/ "Vulnhub")**: Denna plattform erbjuder många avsiktligt sårbara system för nedladdning, som kan användas via VirtualBox (även en gratis lösning) eller på andra sätt. När du har laddat ner finns det inget behov av VPN - allt är lokalt.
+- [Vulnhub](https://www.vulnhub.com/ "Vulnhub"): Denna plattform erbjuder många avsiktligt sårbara system för nedladdning, som kan användas via VirtualBox (även en gratis lösning) eller på andra sätt. När du har laddat ner finns det inget behov av VPN - allt är lokalt.
 
 
 
@@ -815,7 +815,7 @@ svar på ett TCP SYN-paket som skickas på port 22, aktivt på skanningsmålet
 
 
 
-I skärmdumpen ovan ser vi ett TCP SYN/ACK-paket som skickas av målvärden**. Porten är aktiv och exponerar en tjänst. Nmap bekräftar mottagandet av svaret och avslutar sedan anslutningen (TCP RST/ACK). **Det var så den visste att port TCP/22 var aktiv**.
+I skärmdumpen ovan ser vi ett TCP SYN/ACK-paket som skickas av målvärden. Porten är aktiv och exponerar en tjänst. Nmap bekräftar mottagandet av svaret och avslutar sedan anslutningen (TCP RST/ACK). **Det var så den visste att port TCP/22 var aktiv**.
 
 
 
@@ -976,7 +976,7 @@ Som vi har sett väljer Nmap själv det antal och de portar som ska skannas om d
 
 
 
-**Hur väljs dessa portar ut?
+**Hur väljs dessa portar ut?**
 
 
 
@@ -1060,7 +1060,7 @@ Oavsett ordning kommer Nmap att kontrollera alla dessa portar, och bara de på d
 
 
 
-**Skanna en rad olika portar
+**Skanna en rad olika portar**
 
 
 
@@ -1096,7 +1096,7 @@ nmap 192.168.1.19 -p 22,80,1000-2000,3389
 
 
 
-**Skanning av TCP- och UDP-portar
+**Skanning av TCP- och UDP-portar**
 
 
 
@@ -1134,7 +1134,7 @@ Det är ett intressant sätt att anpassa dina skanningar!
 
 
 
-**Skanna alla portar
+**Skanna alla portar**
 
 
 
@@ -1347,7 +1347,7 @@ Men det är mer än så. Du kan se i Wireshark-fångsten ovan att **TCP SYN**-pa
 
 
 
-**Varför skicka TCP-paket till portar som en del av nätverksupptäckten?
+**Varför skicka TCP-paket till portar som en del av nätverksupptäckten?**
 
 
 
@@ -2165,31 +2165,31 @@ Låt oss vara tydliga: Nmap kan inte utföra ett fullständigt penetrationstest 
 
 
 
-- Begränsad täckning**: även om Nmaps NSE-skript är kraftfulla kan deras testtäckning vara begränsad jämfört med andra specialiserade verktyg för upptäckt av sårbarheter. Vissa sårbarheter kanske inte täcks av de NSE-skript som finns tillgängliga, t.ex. Active Directory-sårbarheter, exponering av känsliga data eller mer avancerade fall av sårbara webbapplikationer.
+- **Begränsad täckning**: även om Nmaps NSE-skript är kraftfulla kan deras testtäckning vara begränsad jämfört med andra specialiserade verktyg för upptäckt av sårbarheter. Vissa sårbarheter kanske inte täcks av de NSE-skript som finns tillgängliga, t.ex. Active Directory-sårbarheter, exponering av känsliga data eller mer avancerade fall av sårbara webbapplikationer.
 
 
 
 
 
-- Sårbarhetens komplexitet**: vissa typer av sårbarheter kan vara svåra att upptäcka med hjälp av NSE-skript på grund av deras komplexitet. Till exempel kan sårbarheter som kräver komplex interaktion med en fjärrtjänst kanske inte upptäckas effektivt av Nmap (som i fallet med överdrivna behörigheter i en fildelning eller ett behörighetskontrollfel i en webbapplikation).
+- **Sårbarhetens komplexitet**: vissa typer av sårbarheter kan vara svåra att upptäcka med hjälp av NSE-skript på grund av deras komplexitet. Till exempel kan sårbarheter som kräver komplex interaktion med en fjärrtjänst kanske inte upptäckas effektivt av Nmap (som i fallet med överdrivna behörigheter i en fildelning eller ett behörighetskontrollfel i en webbapplikation).
 
 
 
 
 
-- Passiv detektering**: Nmap fokuserar främst på aktiva skanningar för att upptäcka sårbarheter, vilket innebär att den kanske inte effektivt upptäcker potentiella sårbarheter utan att upprätta en aktiv anslutning till målvärdarna. Sårbarheter som inte manifesterar sig under en aktiv skanning kan därför missas (som i fallet med en kodinjektion i en webbapplikation).
+- **Passiv detektering**: Nmap fokuserar främst på aktiva skanningar för att upptäcka sårbarheter, vilket innebär att den kanske inte effektivt upptäcker potentiella sårbarheter utan att upprätta en aktiv anslutning till målvärdarna. Sårbarheter som inte manifesterar sig under en aktiv skanning kan därför missas (som i fallet med en kodinjektion i en webbapplikation).
 
 
 
 
 
-- Beroende av uppdateringar**: Nmaps [databas](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) med NSE-skript utvecklas ständigt, men det kan gå en tid mellan upptäckten av en ny sårbarhet och tillägget av ett motsvarande skript till Nmap. Därför kanske Nmap inte alltid är uppdaterat med de senaste sårbarheterna.
+- **Beroende av uppdateringar**: Nmaps [databas](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) med NSE-skript utvecklas ständigt, men det kan gå en tid mellan upptäckten av en ny sårbarhet och tillägget av ett motsvarande skript till Nmap. Därför kanske Nmap inte alltid är uppdaterat med de senaste sårbarheterna.
 
 
 
 
 
-- Falska positiva och falska negativa resultat**: Som med alla säkerhetsverktyg kan Nmaps NSE-skript ge falska positiva resultat (falska varningar om sårbarheter) eller falska negativa resultat (verkliga sårbarheter som inte upptäcks). Detta är något man bör ha i åtanke när man analyserar Nmap-resultat.
+- **Falska positiva och falska negativa resultat**: Som med alla säkerhetsverktyg kan Nmaps NSE-skript ge falska positiva resultat (falska varningar om sårbarheter) eller falska negativa resultat (verkliga sårbarheter som inte upptäcks). Detta är något man bör ha i åtanke när man analyserar Nmap-resultat.
 
 
 

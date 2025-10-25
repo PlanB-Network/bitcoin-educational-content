@@ -1,6 +1,6 @@
 ---
-name: Electrum luchtspleet
-description: Een eerste stap naar veiligheid, een Cold Wallet met Electrum
+name: Electrum Airgap
+description: Een eerste stap naar veiligheid, een cold wallet met Electrum
 ---
 ![cover](assets/cover.webp)
 
@@ -54,7 +54,7 @@ Om Electrum te downloaden, raad ik je aan de eerste stappen in deze tutorial te 
 
 
 
-https://planb.network/it/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 Controleer na het downloaden altijd de release voordat je deze installeert en ga dan verder met de "One Server" configuratie, zoals je kunt vinden in de Help sectie, onder `Start met een Dummy Wallet`.
 

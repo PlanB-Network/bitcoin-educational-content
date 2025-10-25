@@ -1,5 +1,5 @@
 ---
-name: Payjoin - Ví Samourai
+name: Payjoin - Samourai Wallet
 description: Cách thực hiện giao dịch Payjoin trên Ví Samourai?
 ---
 ![samourai payjoin cover](assets/cover.webp)

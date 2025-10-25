@@ -1,12 +1,12 @@
 ---
-name: Mini Miner Brains
+name: Braiins Mini Miner
 description: Dễ dàng thực hiện Mining tại nhà.
 ---
 ![cover](assets/cover.webp)
 
 
 
-### Giới thiệu
+## Giới thiệu
 
 
 
@@ -18,7 +18,7 @@ Bạn cũng có thể tìm thấy nhiều thông tin quan trọng hơn bằng c�
 
 
 
-### Tổng quan về BMM 100
+## Tổng quan về BMM 100
 
 
 
@@ -46,7 +46,7 @@ trong khi ở mặt sau chúng ta có: lỗ cắm nguồn, không gian cho thẻ
 
 
 
-### Kết nối Mini Miner
+## Kết nối Mini Miner
 
 
 
@@ -54,7 +54,7 @@ Bạn sẽ cần kết nối thiết bị với internet qua ethernet, lưu ý r
 
 
 
-### Cấu hình
+## Cấu hình
 
 
 
@@ -74,7 +74,7 @@ Chúng ta cần mở trình duyệt và nhập IP Address cho chúng ta thấy m
 
 
 
-### Cài đặt chung
+## Cài đặt chung
 
 
 
@@ -110,7 +110,7 @@ Sau khi bạn đã thực hiện thay đổi, hãy nhấp vào `Lưu thay đổi
 
 
 
-### Kết nối với Mining pool
+## Kết nối với Mining pool
 
 
 
@@ -142,7 +142,7 @@ Lựa chọn thứ hai là kết nối chúng ta với Mining pool có thể s�
 
 https://planb.network/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-#### Bể não
+### Bể não
 
 
 
@@ -236,7 +236,7 @@ nếu bạn quay lại bảng điều khiển, bạn sẽ bắt đầu thấy ch
 
 
 
-#### Hồ bơi công cộng
+### Hồ bơi công cộng
 
 
 

@@ -11,4 +11,4 @@ Coinbase Transaction 主要有兩個目的：將 Block reward 賦予 Miner，並
 Coinbase Transaction 與一般交易有幾個不同之處。首先，它沒有輸入，這意味著它不會消耗現有的交易輸出 (UTXO)。接下來，Coinbase Transaction 的簽章腳本 (`scriptSig`)通常包含一個任意欄位，允許加入額外的資料，例如自訂訊息或 Mining 軟體版本資訊。最後，Coinbase Transaction 產生的比特幣要經過 100 個區塊（101 次確認）的成熟期才能使用，以防止在鏈重組的情況下，可能花掉不存在的比特幣。
 
 
-> ► *法語中沒有 "Coinbase "的翻譯。因此，直接使用此術語是可以接受的。
+> ► *法語中沒有 "Coinbase" 的翻譯。因此，直接使用此術語是可以接受的。*

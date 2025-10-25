@@ -1,5 +1,5 @@
 ---
-name: پاسپورت کور
+name: Passport Core
 description: پیکربندی و استفاده از Passport Hardware Wallet در حالت دستی
 ---
 ![cover](assets/cover.webp)
@@ -303,7 +303,7 @@ https://planb.network/tutorials/computer-security/data/integrity-authenticity-21
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-البته، شما هرگز نباید این کلمات را در اینترنت به اشتراک بگذارید، همانطور که من در این آموزش انجام می‌دهم. این نمونه Wallet فقط بر روی Testnet استفاده خواهد شد و در پایان آموزش حذف خواهد شد.**_
+البته، شما هرگز نباید این کلمات را در اینترنت به اشتراک بگذارید، همانطور که من در این آموزش انجام می‌دهم. این نمونه Wallet فقط بر روی Testnet استفاده خواهد شد و در پایان آموزش حذف خواهد شد.
 
 
 از این جمله یک نسخه پشتیبان فیزیکی تهیه کنید.

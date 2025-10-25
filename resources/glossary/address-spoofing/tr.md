@@ -14,4 +14,4 @@ Yanlış Address'i kurbanın önüne koymanın bir başka yöntemi de meşru yaz
 Bu farklı saldırı yöntemlerine karşı kendinizi korumak için, işlemi imzalamadan önce imzalama cihazının ekranında Address'nin birkaç karakterini, özellikle de sağlama toplamını (sonunda) kontrol etmeniz önemlidir.
 
 
-> ► *Bu saldırı bazen Address Zehirlenmesi olarak da adlandırılır
+> ► *Bu saldırı bazen Address Zehirlenmesi olarak da adlandırılır*

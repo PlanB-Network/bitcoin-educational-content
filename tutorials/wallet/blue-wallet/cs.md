@@ -1,5 +1,5 @@
 ---
-name: Modrá Wallet
+name: Blue Wallet
 
 description: Radikálně jednoduché a výkonné portfolio Bitcoin
 ---
@@ -152,7 +152,7 @@ Jednoho nebo všechny příjemce můžete odebrat kliknutím na **Odebrat příj
 
 
 
-- Nafoukněte poplatky**: Provedli jste transakci, jejíž potvrzení trvá dlouho? Povolením inflace poplatků můžete k čekající transakci přidat další poplatky a urychlit tak její potvrzení.
+- **Nafoukněte poplatky**: Provedli jste transakci, jejíž potvrzení trvá dlouho? Povolením inflace poplatků můžete k čekající transakci přidat další poplatky a urychlit tak její potvrzení.
 
 
 
@@ -248,7 +248,7 @@ Přijímání bitcoinů v Wallet s více podpisy probíhá stejně, jako když j
 
 
 
-- Poslat bitcoiny** :
+- **Poslat bitcoiny** :
 
 
 
@@ -274,7 +274,7 @@ Druhý signatář Wallet, pokud je také uživatelem, může transakci podepsat,
 
 
 
-- S portfoliem Multi signature** můžete jít ještě dál:
+- S portfoliem **Multi signature** můžete jít ještě dál:
 
 
 

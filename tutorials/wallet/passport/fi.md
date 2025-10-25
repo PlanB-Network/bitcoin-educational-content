@@ -209,7 +209,7 @@ Jos haluat lisätietoa siitä, miten muistisääntöjä tallennetaan ja hallitaa
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-näitä sanoja ei tietenkään saa koskaan jakaa internetissä, kuten minä teen tässä ohjeessa. Tätä esimerkkisalkkua käytetään vain Testnetissä, ja se poistetaan opetusohjelman päätyttyä.**_
+näitä sanoja ei tietenkään saa koskaan jakaa internetissä, kuten minä teen tässä ohjeessa. Tätä esimerkkisalkkua käytetään vain Testnetissä, ja se poistetaan opetusohjelman päätyttyä.
 
 Tee fyysinen varmuuskopio tästä lauseesta.
 
@@ -485,4 +485,3 @@ Onneksi olkoon, tiedät nyt, miten Passportin asetukset määritetään ja miten
 Lisätietoja on Liana-ohjelmiston oppaassa:
 
 https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
-

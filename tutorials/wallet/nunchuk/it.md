@@ -48,7 +48,7 @@ Nella finestra che si apre in pop-up, trovi dei campi da "compilare": scegli il 
 **N.B. lo screenshot è tratto da un PC Windows, la stessa pratica si può usare per qualsiasi sistema operativo del tuo computer, basta avere Sparrow Wallet installato. E verificato!**
 
 Puoi trovare la guida a Sparrow wallet per scaricare questo software wallet
-https://planb.network/en/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Puoi quindi trasferire il file `.apk` dal computer al cellulare
 

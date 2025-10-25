@@ -1,0 +1,9 @@
+question: Chi ha inventato il concetto di verifica semplificata dei pagamenti (SPV)?
+answer: Satoshi Nakamoto
+wrong_answers:
+  - Hal Finney
+  - Adam Back
+  - Pieter Wuille
+explanation: |
+  L'SPV è presentato nella parte 8 del Libro Bianco di Satoshi Nakamoto.
+reviewed: true

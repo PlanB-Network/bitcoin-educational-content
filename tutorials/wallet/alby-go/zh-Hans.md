@@ -1,5 +1,5 @@
 ---
-name: 阿尔比-戈
+name: Alby Go
 description: Alby Go 移动应用程序指南
 ---
 
@@ -16,10 +16,10 @@ description: Alby Go 移动应用程序指南
 
 
 
-- [Alby Hub](https://albyhub.com/)** *（推荐）*
-- Umbrel**、**Start9**、**RaspiBlitz**（通过**Alby Hub**）。
-- Coinos** *（未经测试）*
-- 原始** *（未测试）*
+- [Alby Hub](https://albyhub.com/) **（推荐）**
+- **Umbrel**、**Start9**、**RaspiBlitz**（通过**Alby Hub**）。
+- **Coinos** *（未经测试）*
+- 原始**（未测试）**
 - 微型位** *（未经测试）*
 
 
@@ -33,9 +33,9 @@ description: Alby Go 移动应用程序指南
 
 
 
-- iOS：** [从 App Store 下载](https://apps.apple.com/us/app/alby-go/id6471335774)
-- 安卓：** [从 Google Play 下载](https://play.google.com/store/apps/details?id=com.getalby.mobile)
-- ZapStore**
+- iOS：**[从 App Store 下载](https://apps.apple.com/us/app/alby-go/id6471335774)**
+- 安卓：**[从 Google Play 下载](https://play.google.com/store/apps/details?id=com.getalby.mobile)**
+- **ZapStore**
 
 
 
@@ -123,6 +123,6 @@ Alby Go 可通过 NWC（Nostr Wallet Connect）密码连接到支持闪电的节
 - 🧷 添加、删除和导出钱包
 
 
-**需要帮助吗？
+**需要帮助吗？**
 
 请访问 getalby.com 获取支持和更新。

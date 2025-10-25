@@ -19,7 +19,7 @@ Alby Hub je vysoce přizpůsobivý nástroj. Dokáže uspokojit potřeby začát
 V závislosti na vašich potřebách je Alby Hub k dispozici ve 4 konfiguracích:
 
 
-- Alby Hub Cloud :**
+- **Alby Hub Cloud:**
 
 Ideální pro začátečníky, tato první možnost je cloudová možnost Alby. Umožňuje vám nasadit Hub přímo na server spravovaný společností Alby, přístupný prostřednictvím vašeho rozhraní Alby Hub. Ačkoli Alby spravuje server, nad svými prostředky si zachováváte suverenitu, protože vaše klíče jsou šifrovány pomocí hesla známého pouze vám. Nicméně vaše klíče musí zůstat dešifrované v paměti RAM, aby uzel mohl fungovat, což je teoreticky vystavuje riziku, pokud někdo fyzicky přistoupí k serveru. Je to zajímavý kompromis pro začátečníky, ale je důležité si být vědom rizik.
 
@@ -297,7 +297,7 @@ Vraťte se do aplikace Alby Go, naskenujte QR kód nebo vložte tajenku.
 
 ![ALBY HUB](assets/fr/50.webp)
 
-Klikněte na "Finish*".
+Klikněte na "Finish".
 
 ![ALBY HUB](assets/fr/51.webp)
 

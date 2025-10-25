@@ -1,5 +1,5 @@
 ---
-name: passphrase BIP39 Trezor
+name: BIP-39 Passphrase Trezor
 description: Как добавить passphrase в портфель Trezor?
 ---
 ![cover](assets/cover.webp)
@@ -71,7 +71,7 @@ https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4
 
 
 
-конечно, вы никогда не должны выкладывать свой passphrase в Интернет, как это делаю я в этом руководстве. Этот пример Wallet будет использоваться только на Testnet и будет удален в конце учебника.**_
+конечно, вы никогда не должны выкладывать свой passphrase в Интернет, как это делаю я в этом руководстве. Этот пример Wallet будет использоваться только на Testnet и будет удален в конце учебника.
 
 
 

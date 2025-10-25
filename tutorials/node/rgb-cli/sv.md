@@ -318,8 +318,8 @@ I de flesta fall sker interaktionen mellan deltagarna i en Contract (t.ex. Alice
 
 
 
-- Alice** (emittenten av Invoice) ;
-- Bob** (som tar emot och verkställer Invoice).
+- **Alice** (emittenten av Invoice) ;
+- **Bob** (som tar emot och verkställer Invoice).
 
 
 Till skillnad från andra ekosystem är en RGB Invoice inte begränsad till begreppet betalning. Den kan bädda in vilken begäran som helst som är kopplad till Contract: återkalla en nyckel, rösta, skapa en gravyr (*gravyr*) på en NFT, etc. Motsvarande operation kan beskrivas i Contract Interface. Motsvarande operation kan beskrivas i Contract Interface.

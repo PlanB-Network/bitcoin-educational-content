@@ -45,7 +45,7 @@ To download VirtualBox for installation on a Windows machine, there's only one g
 ### A. Installing VirtualBox
 
 
-Installing VirtualBox** is straightforward, and the process is the same for all versions of Windows. Start by launching the VirtualBox executable you've just downloaded, then click on "**Next**".
+Installing **VirtualBox** is straightforward, and the process is the same for all versions of Windows. Start by launching the VirtualBox executable you've just downloaded, then click on "**Next**".
 
 
 ![Image](assets/fr/026.webp)
@@ -55,9 +55,9 @@ This installation is customizable, but I recommend that you install all features
 
 
 
-- VirtualBox USB Support** to enable VirtualBox to support USB devices
-- VirtualBox Bridged Network** to integrate network support in "Bridge" mode (the virtual machine can connect directly to your local network)
-- VirtualBox Host-Only Network** to integrate network support in "Host-Only" mode (the virtual machine can only communicate with your Windows 11 physical host and other virtual machines in this mode)
+- **VirtualBox USB Support** to enable VirtualBox to support USB devices
+- **VirtualBox Bridged Network** to integrate network support in "Bridge" mode (the virtual machine can connect directly to your local network)
+- **VirtualBox Host-Only Network** to integrate network support in "Host-Only" mode (the virtual machine can only communicate with your Windows 11 physical host and other virtual machines in this mode)
 
 
 Click "**Next**" to continue.
@@ -124,10 +124,10 @@ To create a new virtual machine on VirtualBox, simply click on the "**New**" but
 
 
 
-- Settings**: general VirtualBox configuration (default VM folder, update management, language, NAT networks, extensions, etc.)
-- Import**: import a virtual appliance in OVF format
-- Export**: export an existing virtual machine in OVF format to create a virtual appliance
-- Add**: add an existing virtual machine to your VirtualBox inventory, in standard VirtualBox format (.vbox) or XML format
+- **Settings**: general VirtualBox configuration (default VM folder, update management, language, NAT networks, extensions, etc.)
+- **Import**: import a virtual appliance in OVF format
+- **Export**: export an existing virtual machine in OVF format to create a virtual appliance
+- **Add**: add an existing virtual machine to your VirtualBox inventory, in standard VirtualBox format (.vbox) or XML format
 
 
 On the left, the "**Tools**" section gives access to **advanced functions, notably for managing the virtual network, but also for managing VM storage**. Under the "**Tools**" entry, your virtual machines will be added later.
@@ -139,14 +139,14 @@ On the left, the "**Tools**" section gives access to **advanced functions, notab
 ### A. VM creation process
 
 
-**As a reminder, VirtualBox supports a multitude of operating systems, including Windows, Linux and BSD. In this example, I'm going to create a virtual machine for Windows 11. Several fields need to be filled in:
+**As a reminder, VirtualBox supports a multitude of operating systems, including Windows, Linux and BSD.** In this example, I'm going to create a virtual machine for Windows 11. Several fields need to be filled in:
 
 
 
-- Name**: virtual machine name (this is the name that will be displayed in VirtualBox)
-- Machine folder**: where to store the virtual machine, knowing that a subfolder with the VM's name will be created at this location
-- Type**: the type of operating system, depending on what OS you want to install
-- Version**: the version of the system you wish to install, in this case Windows 11, so "**Windows11_64**"
+- **Name**: virtual machine name (this is the name that will be displayed in VirtualBox)
+- **Machine folder**: where to store the virtual machine, knowing that a subfolder with the VM's name will be created at this location
+- **Type**: the type of operating system, depending on what OS you want to install
+- **Version**: the version of the system you wish to install, in this case Windows 11, so "**Windows11_64**"
 
 
 Click "**Next**" to continue.
@@ -155,7 +155,7 @@ Click "**Next**" to continue.
 ![Image](assets/fr/010.webp)
 
 
-Depending on the operating system you select in the previous step, **VirtualBox makes recommendations on the resources to allocate to the virtual machine**. Here, we're talking about the RAM you wish to allocate to the VM. Let's assume 4 GB, because this is indeed recommended for Windows 11, but if you're short of resources, specify 2 GB instead. **Continue
+Depending on the operating system you select in the previous step, **VirtualBox makes recommendations on the resources to allocate to the virtual machine**. Here, we're talking about the RAM you wish to allocate to the VM. Let's assume 4 GB, because this is indeed recommended for Windows 11, but if you're short of resources, specify 2 GB instead. **Continue**.
 
 
 **Note**: the resources allocated to the virtual machine can be modified later.
@@ -174,9 +174,9 @@ VirtualBox supports three different formats for virtual hard disks, which is a m
 
 
 
-- VDI**, the official VirtualBox format
-- VHD**, which is the official Hyper-V format, although the new VHDX format is used more often these days
-- VMDX** is the official VMware format for both VMware Workstation and VMware ESXi
+- **VDI**, the official VirtualBox format
+- **VHD**, which is the official Hyper-V format, although the new VHDX format is used more often these days
+- **VMDX** is the official VMware format for both VMware Workstation and VMware ESXi
 
 
 To create a virtual machine that will be used only on this VirtualBox instance, choose "**VDI**". On the other hand, if the virtual hard disk is to be attached to a Hyper-V host at a later date, it may be a good idea to start with the VHD format to avoid having to convert it. Click on "**Next**".
@@ -206,7 +206,7 @@ At this point, the VM is in our inventory, it's configured, but the operating sy
 ### B. Assigning an ISO image to a VirtualBox VM
 
 
-To install Windows 11, or any other system, we need installation sources. In most cases, we use a disk image in ISO format to install an operating system. **It is necessary to load the Windows 11 ISO image into our VM's virtual DVD drive
+To install Windows 11, or any other system, we need installation sources. In most cases, we use a disk image in ISO format to install an operating system. **It is necessary to load the Windows 11 ISO image into our VM's virtual DVD drive.**
 
 
 Click on the VM in the VirtualBox inventory (1), then on the "**Configuration**" button (2), which gives access to the general configuration of this virtual machine. This menu is used to manage resources (e.g. increase RAM, configure CPU, etc.). Click on "**Storage**" on the left (3), on the DVD drive where it says "**Empty**" for the moment (4) then click on the DVD-shaped icon (5) and "**Choose a disk file**".
@@ -251,7 +251,7 @@ In my case, the virtual machine has 2 virtual processors:
 ![Image](assets/fr/019.webp)
 
 
-**Don't hesitate to have a look at the other sections of the configuration menu.
+**Don't hesitate to have a look at the other sections of the configuration menu.**
 
 
 ### E. First boot and OS installation
@@ -294,10 +294,10 @@ On our Windows 11 physical host, where VirtualBox is installed, we can see that 
 
 
 
-- The VBOX** file (in XML format) corresponding to the VM configuration (RAM, CPU, etc.)
-- The VBOX-PREV** file is a backup of the previous configuration
-- The VDI** file corresponds to the virtual hard disk in dynamic mode, so it is currently only 13 GB, whereas its maximum size is 64 GB
-- The NVRAM** file contains the BIOS state of the virtual machine, which is equivalent to the non-volatile memory of a physical machine
+- The **VBOX** file (in XML format) corresponding to the VM configuration (RAM, CPU, etc.)
+- The **VBOX-PREV** file is a backup of the previous configuration
+- The **VDI** file corresponds to the virtual hard disk in dynamic mode, so it is currently only 13 GB, whereas its maximum size is 64 GB
+- The **NVRAM** file contains the BIOS state of the virtual machine, which is equivalent to the non-volatile memory of a physical machine
 
 
 ![Image](assets/fr/024.webp)

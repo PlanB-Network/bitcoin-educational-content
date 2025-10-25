@@ -1,5 +1,5 @@
 ---
-name: जीडब्ल्यू-0 नैनो एस
+name: Ledger Nano S
 
 description: अपना Ledger नैनो एस डिवाइस कैसे सेट करें
 ---

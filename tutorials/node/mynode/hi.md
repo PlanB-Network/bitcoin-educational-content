@@ -1,5 +1,5 @@
 ---
-name: मेरा नोड
+name: My Node
 description: अपने Bitcoin MyNode को सेट अप करें
 ---
 ![image](assets/0.webp)

@@ -53,10 +53,10 @@ Kontoen din er nå opprettet. Klikk på "*Logg inn*" for å få tilgang til plat
 Bitfinex bruker en bekreftelsesprosess (KYC) som er i samsvar med gjeldende regelverk. I "Basic" -modus er det umulig å gjøre innskudd, uttak eller transaksjoner, noe som gjør det viktig å oppnå minst verifikasjonsnivået "Basic Plus", eller til og med "Intermediate" eller "Full" om nødvendig:
 
 
-- Basic* er en ren visningsmodus som gjør det mulig å se plattformen uten å utføre noen operasjoner;
-- Basic Plus* gir tilgang til viktige funksjoner, inkludert spotmarkedstransaksjoner og utvalgte innskudds- og uttaksmuligheter;
-- Intermediate* gir tilgang til avanserte tjenester som marginhandel, lån, P2P- og OTC-transaksjoner, og tilbyr kortere innskuddsfrister;
-- Full* gir deg tilgang til internasjonale bankoverføringer og alle plattformens funksjoner.
+- **Basic** er en ren visningsmodus som gjør det mulig å se plattformen uten å utføre noen operasjoner;
+- **Basic Plus** gir tilgang til viktige funksjoner, inkludert spotmarkedstransaksjoner og utvalgte innskudds- og uttaksmuligheter;
+- **Intermediate** gir tilgang til avanserte tjenester som marginhandel, lån, P2P- og OTC-transaksjoner, og tilbyr kortere innskuddsfrister;
+- **Full** gir deg tilgang til internasjonale bankoverføringer og alle plattformens funksjoner.
 
 For hvert nivå kreves det ytterligere dokumenter for verifisering. For de fleste brukere er *Basic Plus*- eller *Intermediate*-kontoer vanligvis tilstrekkelig.
 
@@ -79,11 +79,11 @@ Fullfør trinnene ved å oppgi den forespurte informasjonen og dokumentene. Når
 Når du er logget inn, vil du se en navigasjonslinje øverst i grensesnittet med: "*Trading*", "*Derivatives*", "*Funding*", "*OTC*", "*P2P*", "*Wallet*", osv. Bitfinex tilbyr et bredt spekter av funksjoner, inkludert :
 
 
-- Handel**: "*klassisk*" marked der du kan legge inn ordre om å kjøpe og selge kryptovalutaer (inkludert bitcoin);
-- OTC**: Over-The-Counter-tjeneste for handel med store volumer direkte med en annen aktør, utenfor de offentlige ordrebøkene;
-- Finansiering**: Område dedikert til utlån og marginfinansiering;
-- Derivater**: Seksjon for derivater (futures osv.), beregnet på erfarne tradere;
-- P2P**: Lar deg kjøpe eller selge kryptoer fra andre brukere på peer-to-peer-basis.
+- **Handel**: "*klassisk*" marked der du kan legge inn ordre om å kjøpe og selge kryptovalutaer (inkludert bitcoin);
+- **OTC**: Over-The-Counter-tjeneste for handel med store volumer direkte med en annen aktør, utenfor de offentlige ordrebøkene;
+- **Finansiering**: Område dedikert til utlån og marginfinansiering;
+- **Derivater**: Seksjon for derivater (futures osv.), beregnet på erfarne tradere;
+- **P2P**: Lar deg kjøpe eller selge kryptoer fra andre brukere på peer-to-peer-basis.
 
 For standard bruk (kjøp/salg av bitcoins og innskudd/uttak) bruker du hovedsakelig "*Trading*"-fanen, samt "*Wallet*"-, "*Deposit*"- og "*Withdraw*"-seksjonene.
 

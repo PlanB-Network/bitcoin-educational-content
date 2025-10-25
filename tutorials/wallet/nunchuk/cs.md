@@ -98,7 +98,7 @@ V okně, které se zobrazí, najdete pole, která je třeba "vyplnit": zvolte tl
 Ke stažení tohoto Software Wallet najdete průvodce Sparrow wallet
 
 
-https://planb.network/en/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Poté můžete soubor `.apk` přenést z počítače do telefonu
 

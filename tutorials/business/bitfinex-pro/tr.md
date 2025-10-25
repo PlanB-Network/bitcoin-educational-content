@@ -116,11 +116,11 @@ Giriş yaptıktan sonra, Interface'un üst kısmında bir gezinme çubuğu göre
 
 
 
-- Ticaret**: kripto para birimleri (Bitcoin dahil) almak ve satmak için emir verebileceğiniz "*klasik*" piyasa;
-- OTC**: Halka açık emir defterlerinin dışında, doğrudan başka bir oyuncuyla büyük hacimli alım satım yapmak için Tezgah Üstü hizmet;
-- Fonlama**: Borç verme ve marj fonlamasına ayrılmış alan;
-- Türevler**: Türev ürünler (vadeli işlemler vb.) bölümü, deneyimli tüccarlara yöneliktir;
-- P2P**: Eşler arası temelde diğer kullanıcılardan kripto almanıza veya satmanıza olanak tanır.
+- **Ticaret**: kripto para birimleri (Bitcoin dahil) almak ve satmak için emir verebileceğiniz "*klasik*" piyasa;
+- **OTC**: Halka açık emir defterlerinin dışında, doğrudan başka bir oyuncuyla büyük hacimli alım satım yapmak için Tezgah Üstü hizmet;
+- **Fonlama**: Borç verme ve marj fonlamasına ayrılmış alan;
+- **Türevler**: Türev ürünler (vadeli işlemler vb.) bölümü, deneyimli tüccarlara yöneliktir;
+- **P2P**: Eşler arası temelde diğer kullanıcılardan kripto almanıza veya satmanıza olanak tanır.
 
 
 Standart kullanım için (bitcoin satın alma/satma, para yatırma/çekme ve nakit yönetimi), esas olarak "*Trading*" sekmesinin yanı sıra "*Wallet*", "*Deposit*" ve "*Withdraw*" bölümlerini kullanacaksınız.

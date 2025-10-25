@@ -36,10 +36,10 @@ description: 如何設定 Firefox 以保護您的隱私？
 
 
 
-- 免費且開放原始碼** (Gecko 引擎)：可稽核且透明的程式碼
-- 非營利組織**：Mozilla 基金會，一般利益的使命
-- 內建原生保護**：增強追蹤保護 (ETP)、全面 Cookie 保護 (TCP)、狀態分割、僅 HTTPS 模式、DNS over HTTPS (DoH)
-- 進階自訂**：與 Chrome 不同，Firefox 可讓您深入修改其行為
+- **免費且開放原始碼** (Gecko 引擎)：可稽核且透明的程式碼
+- 非營利組織：**Mozilla 基金會，一般利益的使命**
+- 內建原生保護：增強追蹤保護 (ETP)、全面 Cookie 保護 (TCP)、狀態分割、僅 HTTPS 模式、DNS over HTTPS (DoH)
+- 進階自訂：與 Chrome 不同，Firefox 可讓您深入修改其行為
 
 
 
@@ -49,9 +49,9 @@ description: 如何設定 Firefox 以保護您的隱私？
 
 
 
-- 沒有通用的配方**：您修改得越多，您就越有可能脫穎而出 (指紋)。我們的目標是在不顯眼的情況下提供更好的保護。
-- 循序漸進**：變更設定，測試您常用的網站，然後繼續。不需要一次過變更所有設定。
-- 個人平衡**：在隱私權和易用性之間找到您的折衷。
+- 沒有通用的配方：您修改得越多，您就越有可能脫穎而出 **(指紋)**。我們的目標是在不顯眼的情況下提供更好的保護。
+- 循序漸進：變更設定，測試您常用的網站，然後繼續。不需要一次過變更所有設定。
+- 個人平衡：在隱私權和易用性之間找到您的折衷。
 
 
 
@@ -69,9 +69,9 @@ description: 如何設定 Firefox 以保護您的隱私？
 
 
 
-- Windows**：下載 `.exe` 安裝程式，按兩下並依安裝精靈操作
-- macOS**：下載 `.dmg` 檔案，開啟並將 Firefox 拖曳到「應用程式」資料夾。
-- Linux**：有幾種選擇 - package `.deb`/`.rpm`、Flatpak (Flathub)、Snap，或透過套件管理員 (apt、dnf、pacman)。偏好 Mozilla 官方來源。
+- **Windows**：下載 `.exe` 安裝程式，按兩下並依安裝精靈操作
+- **macOS**：下載 `.dmg` 檔案，開啟並將 Firefox 拖曳到「應用程式」資料夾。
+- **Linux**：有幾種選擇 - package `.deb`/`.rpm`、Flatpak (Flathub)、Snap，或透過套件管理員 (apt、dnf、pacman)。偏好 Mozilla 官方來源。
 
 
 
@@ -106,9 +106,9 @@ description: 如何設定 Firefox 以保護您的隱私？
 
 
 
-- 網站隔離 (Fission)**：逐步部署中。此功能在單獨的程序中執行每個網站，以防止一個惡意標籤存取另一個的資料。透過 `about:support` 檢查其狀態 (搜尋「Fission」)。如果未啟用，您可以在 `about:config` 中使用 `fission.autostart = true` 手動啟用。
-- Total Cookie Protection (TCP)**：預設為啟用。Cookie 和其他儲存內容只限於第一方網站 (每個網站一個「罐子」)，可中和跨網站追蹤。必要時會透過儲存存取 API 作臨時例外處理 (整合登入按鈕)。
-- 跳出/重定向追蹤保護**：Firefox 會自動偵測並清理跳出網站 (在目的地前透過追蹤器將您重新導向的連結) 所留下的 cookies，無須您採取任何行動即可減少此追蹤管道。
+- 網站隔離 (Fission)：逐步部署中。此功能在單獨的程序中執行每個網站，以防止一個惡意標籤存取另一個的資料。透過 `about:support` 檢查其狀態 (搜尋「Fission」)。如果未啟用，您可以在 `about:config` 中使用 `fission.autostart = true` 手動啟用。
+- **Total Cookie Protection (TCP)**：預設為啟用。Cookie 和其他儲存內容只限於第一方網站 (每個網站一個「罐子」)，可中和跨網站追蹤。必要時會透過儲存存取 API 作臨時例外處理 (整合登入按鈕)。
+- 跳出/重定向追蹤保護：Firefox 會自動偵測並清理跳出網站 (在目的地前透過追蹤器將您重新導向的連結) 所留下的 cookies，無須您採取任何行動即可減少此追蹤管道。
 
 
 
@@ -146,13 +146,13 @@ description: 如何設定 Firefox 以保護您的隱私？
 
 
 
-- 標準** (平衡、最大相容性)
+- **標準** (平衡、最大相容性)
   - 攔截：社交追蹤器、跨站 cookies (所有視窗)、私人瀏覽中的追蹤內容、加密貨幣礦工、指紋偵測器。
   - 包含 **Total Cookie Protection** (TCP)：每個網站一罐。
-- 嚴格** (建議用於保密)
+- **嚴格** (建議用於保密)
   - 同時封鎖所有視窗中的追蹤內容 + 已知及可疑的指紋。
   - 可能會破壞某些網站；請使用 🛡️ 護盾來做局部例外處理。
-- 自訂** (進階)
+- **自訂** (進階)
   - 微調：Cookie、追蹤內容、未成年人、指紋（已知/疑似）。
 
 
@@ -161,7 +161,7 @@ description: 如何設定 Firefox 以保護您的隱私？
 
 
 
-**Cookies 和網站資料
+**Cookies 和網站資料**
 
 
 
@@ -176,9 +176,9 @@ description: 如何設定 Firefox 以保護您的隱私？
 
 
 - 停用 ** 自動填寫** (身分證、地址、卡片)。改用密碼管理器。
-- 搜尋**：停用 **「顯示搜尋建議」**。
-- Address 欄**：切換 **「贊助建議」** 和 **「內容建議」**。
-- 首頁**：停用 **Pocket** 和 **贊助內容**。
+- 搜尋：停用「顯示搜尋建議」。
+- Address 欄：切換 **「贊助建議」** 和 **「內容建議」**。
+- 首頁：停用 **Pocket** 和 **贊助內容**。
 
 
 
@@ -198,14 +198,14 @@ description: 如何設定 Firefox 以保護您的隱私？
 
 
 
-** 電話測量和廣告測量
+**電話測量和廣告測量**
 
 
 
 
 - 在「Firefox 收集資料」中，**取消勾選所有**。
 - 停用 **「隱私友善廣告措施」** (PPA)。
-- 安全瀏覽**：保持啟用 (建議)。Firefox 會透過散列查詢和本機檢查，針對威脅清單檢查網站，以防禦網路釣魚和惡意軟體，並將隱私影響降至最低。
+- 安全瀏覽：保持啟用 (建議)。Firefox 會透過散列查詢和本機檢查，針對威脅清單檢查網站，以防禦網路釣魚和惡意軟體，並將隱私影響降至最低。
 
 
 
@@ -218,7 +218,7 @@ description: 如何設定 Firefox 以保護您的隱私？
 
 
 
-**搜尋引擎
+**搜尋引擎**
 
 
 
@@ -245,10 +245,10 @@ description: 如何設定 Firefox 以保護您的隱私？
 
 
 
-- uBlock Origin**：封鎖廣告和目前的追蹤，輕量級。
-- Privacy Badger**：學習封鎖跟蹤您的內容；傳送 Do Not Track / GPC。
-- ClearURLs** (選用)：Firefox (ETP Strict) 和 uBO 已經清理了很多；如果您仍然看到「骯髒」的 URL (utm、fbclid)，請保留它。
-- Firefox 多帳號容器**： **isolates cookies/sessions and storage per container; parallel multi-accounts; less cross-site tracking**.官方擴充套件：`https://addons.mozilla.org/fr/firefox/addon/multi-account-containers/`。
+- **uBlock Origin**：封鎖廣告和目前的追蹤，輕量級。
+- **Privacy Badger**：學習封鎖跟蹤您的內容；傳送 Do Not Track / GPC。
+- **ClearURLs** (選用)：Firefox (ETP Strict) 和 uBO 已經清理了很多；如果您仍然看到「骯髒」的 URL (utm、fbclid)，請保留它。
+- Firefox 多帳號容器：**isolates cookies/sessions and storage per container; parallel multi-accounts; less cross-site tracking**。官方擴充套件：`https://addons.mozilla.org/fr/firefox/addon/multi-account-containers/`。
 
 
 
@@ -261,7 +261,7 @@ description: 如何設定 Firefox 以保護您的隱私？
 
 
 
-- 使用專用的密碼管理器** (Bitwarden, KeePassXC)。 **避免**在瀏覽器中儲存密碼。 **盡可能啟用 2FA**。
+- 使用專用的密碼管理器 **(Bitwarden, KeePassXC)**。**避免**在瀏覽器中儲存密碼。**盡可能啟用 2FA**。
 
 
 
@@ -278,11 +278,11 @@ description: 如何設定 Firefox 以保護您的隱私？
 
 
 
-- 預設狀態**：在某些地區 (美國、加拿大、俄羅斯、烏克蘭) 自動啟動。其他地區則需要手動啟動。
-- 設定** ：設定 → 一般 → 網路設定 → **啟用 DoH** → **Cloudflare**或**Quad9** → **最大保護**。
-- 最大保護 = 僅 TRR**（無回退至系統 DNS）。如果企業/飯店網路阻擋，請切換回 **Standard** 或停用 DoH。
-- 備援**：如果您已經在使用有自己安全 DNS 的可信賴 VPN，DoH 可以作為備援。
-- 驗證測試**：`https://www.dnsleaktest.com/` 應該只顯示所選擇的 DoH 提供者。
+- **預設狀態**：在某些地區 (美國、加拿大、俄羅斯、烏克蘭) 自動啟動。其他地區則需要手動啟動。
+- **設定**：設定 → 一般 → 網路設定 → **啟用 DoH** → **Cloudflare**或**Quad9** → **最大保護**。
+- 最大保護 = 僅 TRR（無回退至系統 DNS）。如果企業/飯店網路阻擋，請切換回 **Standard** 或停用 DoH。
+- 備援：如果您已經在使用有自己安全 DNS 的可信賴 VPN，DoH 可以作為備援。
+- 驗證測試：`https://www.dnsleaktest.com/` 應該只顯示所選擇的 DoH 提供者。
 
 
 
@@ -290,20 +290,20 @@ description: 如何設定 Firefox 以保護您的隱私？
 
 
 
-**使用容器和配置文件進行分隔
+**使用容器和配置文件進行分隔**
 
 
 
 
-- 多帳戶容器**：建立空間 (個人、工作、財務、社交網路、購物、一次性)。為您的經常性網站設定 **「永遠在此容器中開啟」**。官方擴充名：`https://addons.mozilla.org/fr/firefox/addon/multi-account-containers/`。
+- 多帳戶容器：建立空間 (個人、工作、財務、社交網路、購物、一次性)。為您的經常性網站設定 **「永遠在此容器中開啟」**。官方擴充名：`https://addons.mozilla.org/fr/firefox/addon/multi-account-containers/`。
 - 為什麼要使用它們？
-  - 按空間強制隔離** cookie/會話/儲存。
-  - 減少跨站追蹤**：限制巨頭 (Facebook、Google)。
-  - 在同一服務上同時擁有多個帳號**。
-  - 分段式身分之間的 CSRF/XSS** 風險較低。
+- 按空間強制隔離 **cookie/會話/儲存**。
+- 減少跨站追蹤：限制巨頭 (Facebook、Google)。
+- 在同一服務上同時擁有多個帳號。
+- 分段式身分之間的 **CSRF/XSS** 風險較低。
   - 提示：至少要為社交網路/Google、工作、財務設置專屬容器。
-- Facebook Container** (選購)：專門用於 FB/Instagram 的簡化版本。
-- 獨立的設定檔**：透過 `about:profiles` (主要設定檔、最小「超安全」設定檔、測試設定檔)。資料與擴充套件完全分隔。
+- **Facebook Container** (選購)：專門用於 FB/Instagram 的簡化版本。
+- 獨立的設定檔：透過 `about:profiles` (主要設定檔、最小「超安全」設定檔、測試設定檔)。資料與擴充套件完全分隔。
 
 
 
@@ -312,8 +312,8 @@ description: 如何設定 Firefox 以保護您的隱私？
 
 
 
-- Cookie AutoDelete**：關閉標籤頁時，立即刪除網站的 Cookie (如果 Firefox 長時間開啟，此功能很有用)。
-- LocalCDN**：在本地提供目前的程式庫 (減少對 Google/Microsoft 的呼叫)。部分相容性。
+- **Cookie AutoDelete**：關閉標籤頁時，立即刪除網站的 Cookie (如果 Firefox 長時間開啟，此功能很有用)。
+- **LocalCDN**：在本地提供目前的程式庫 (減少對 Google/Microsoft 的呼叫)。部分相容性。
 
 
 
@@ -542,10 +542,10 @@ user_pref("network.http.referer.trimOnCrossOrigin", true);
 
 
 
-- 更新**：Firefox 和擴充套件為最新版本。
+- 更新：Firefox 和擴充套件為最新版本。
 - 延長**：合理可靠；小心「可疑」的贖回。
 - 下載**：請謹慎；在 VirusTotal 上測試敏感檔案。
-- 密碼**： **專用管理器** (Bitwarden, KeePassXC)；啟用**2FA**；避免儲存在瀏覽器中。
+- 密碼：**專用管理器** (Bitwarden, KeePassXC)；啟用**2FA**；避免儲存在瀏覽器中。
 - 衛生**：將 Google/Facebook 限制在容器中；定期關閉/開啟，以「重設」上下文。
 
 
@@ -557,9 +557,9 @@ user_pref("network.http.referer.trimOnCrossOrigin", true);
 
 
 - 強化瀏覽器 ≠ 網路匿名性：沒有**VPN**，您的 IP 仍然可見；即使有了它，關聯性仍然可能存在。
-- 修改太多會讓你**獨一無二。 **RFP** 標準化；隨機化工具 (例如 Chameleon) 可以...讓您與眾不同。測試、比較、調整。
+- 修改太多會讓你**獨一無二**。**RFP** 標準化；隨機化工具 (例如 Chameleon) 可以...讓您與眾不同。測試、比較、調整。
 - 替代品/補充品：
- - Tor 瀏覽器：透過 Tor 進行網路匿名；速度較慢。請參閱我們完整的安裝與設定指南** ：
+- Tor 瀏覽器：透過 Tor 進行網路匿名；速度較慢。請參閱我們**完整的安裝與設定指南**：
 
 
 
@@ -567,7 +567,7 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 
 
- - Mullvad 瀏覽器：「沒有 Tor 的 Tor」，與 VPN 結合；標準化的足跡。了解如何在我們的專用教學中安裝它** ：
+- Mullvad 瀏覽器：「沒有 Tor 的 Tor」，與 VPN 結合；標準化的足跡。了解如何在我們的專用教學中安裝它：
 
 
 
@@ -591,7 +591,7 @@ https://planb.network/tutorials/computer-security/communication/mullvad-browser-
 
 
 
-**請記住：保密性永遠不是必然的。請定期測試您的防護功能、更新您的設定，並隨著您的習慣改變而毫不猶豫地調整您的配置。您的線上匿名性既取決於您的工具，也取決於您的習慣。
+**請記住：保密性永遠不是必然的。請定期測試您的防護功能、更新您的設定，並隨著您的習慣改變而毫不猶豫地調整您的配置。您的線上匿名性既取決於您的工具，也取決於您的習慣。**
 
 
 
@@ -604,7 +604,7 @@ https://planb.network/tutorials/computer-security/communication/mullvad-browser-
 
 
 
-- SCU 202 - 改善您的個人數位安全：要進一步了解本教程所涵蓋的數位安全概念**
+- SCU 202 - 改善您的個人數位安全：要進一步了解本教程所涵蓋的數位安全概念
 
 
 
@@ -637,8 +637,8 @@ https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 
 - [PrivacyGuides - 桌面瀏覽器](https://www.privacyguides.org/en/desktop-browsers/)：瀏覽器推薦與比較
-- Reddit**：r/firefox、r/privacy 以獲得回饋與支援
-- PrivacyGuides 論壇**：深入的技術討論
+- **Reddit**：r/firefox、r/privacy 以獲得回饋與支援
+- PrivacyGuides 論壇：深入的技術討論
 
 
 

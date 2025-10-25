@@ -1,5 +1,5 @@
 ---
-name: अचंभा
+name: Phoenix
 description: फीनिक्स Wallet को स्थापित करना और उपयोग करना
 ---
 ![cover](assets/cover.webp)

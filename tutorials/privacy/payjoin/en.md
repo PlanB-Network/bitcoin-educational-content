@@ -4,13 +4,9 @@ description: What is a Payjoin on Bitcoin?
 ---
 ![Payjoin thumbnail - steganography](assets/cover.webp)
 
-***ATTENTION:** Following the arrest of the founders of Samourai Wallet and the seizure of their servers on April 24th, Payjoins Stowaway on Samourai Wallet only function by manually exchanging PSBT between the concerned parties, provided that both users are connected to their own Dojo. As for Sparrow, Payjoins via BIP78 still work. However, it is possible that these tools will be relaunched in the coming weeks. In the meantime, you can still read this article to understand the theoretical functioning of payjoins.*
 
-_We are closely following the developments of this case as well as developments concerning the associated tools. Rest assured that we will update this tutorial as new information becomes available._
 
-_This tutorial is provided for educational and informational purposes only. We do not endorse or encourage the use of these tools for criminal purposes. It is the responsibility of each user to comply with the laws in their jurisdiction._
 
----
 ## Understanding Payjoin Transactions on Bitcoin
 
 Payjoin is a specific structure of Bitcoin transaction that enhances user privacy during a payment by collaborating with the payment recipient.
@@ -45,12 +41,11 @@ By seeing this transaction on the blockchain, an external observer who follows t
 This interpretation is obviously incorrect because, as you already know, the two input UTXOs do not belong to the same person. Furthermore, the actual value of the payment is not `19,000 sats`, but rather `4,000 sats`. The analysis of the external observer is thus directed towards an erroneous conclusion, ensuring the preservation of the privacy of the stakeholders.![payjoin transaction diagram](assets/en/1.webp)
 If you wish to analyze a real Payjoin transaction, here is one that I performed on the testnet: [8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c](https://mempool.space/fr/testnet/tx/8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c)
 
-[**-> Discover our tutorial on how to make a Payjoin with Samourai Wallet**](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)  
-
-[**-> Discover our tutorial on how to make a Payjoin with Sparrow Wallet**](https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62)
-
 
 **External resources:**
-- https://docs.samourai.io/en/spend-tools#stowaway;
 - https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt;
 - https://github.com/bitcoin/bips/blob/master/bip-0078.mediawiki.
+- https://payjoin.org/
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+
+

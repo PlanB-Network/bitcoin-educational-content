@@ -1,0 +1,9 @@
+question: 정류성 조건을 만족하는 그룹을 무엇이라고 하나요?
+answer: 아벨리안 그룹
+wrong_answers:
+  - 비공개 그룹
+  - 연관 그룹
+  - 역 그룹
+explanation: |
+  아벨리안 또는 순열 그룹은 이진 연산에서 Elements의 순서가 결과에 영향을 미치지 않는 그룹입니다. 즉, 어떤 a와 b에 대해 a ∘ b = b ∘ a가 됩니다.
+reviewed: false

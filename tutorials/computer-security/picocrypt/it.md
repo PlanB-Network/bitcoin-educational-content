@@ -10,7 +10,7 @@ ___
 
 
 
-*Questa esercitazione si basa su un contenuto originale di Florian BURNEL pubblicato su [IT-Connect](https://www.it-connect.fr/). Licenza [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Sono state apportate modifiche al contenuto originale
+*Questa esercitazione si basa su un contenuto originale di Florian BURNEL pubblicato su [IT-Connect](https://www.it-connect.fr/). Licenza [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Sono state apportate modifiche al contenuto originale.*
 
 
 
@@ -52,7 +52,7 @@ Totalmente **libero e open source**, PicoCrypt è disponibile per **Windows,** *
 
 
 
-Il software di crittografia Picocrypt** si presenta come **un'alternativa** ad altre soluzioni ben note come **VeraCrypt** e **Cryptomator** (*progettati per crittografare i dati su ambienti Cloud*), o **AxCrypt**. A proposito, sul GitHub ufficiale di Picocrypt è possibile trovare un confronto con alcuni concorrenti:
+Il software di crittografia **Picocrypt** si presenta come **un'alternativa** ad altre soluzioni ben note come **VeraCrypt** e **Cryptomator** (*progettati per crittografare i dati su ambienti Cloud*), o **AxCrypt**. A proposito, sul GitHub ufficiale di Picocrypt è possibile trovare un confronto con alcuni concorrenti:
 
 
 
@@ -84,7 +84,7 @@ Picocrypt è **molto leggero**, pesa solo **3 MB**, e non ha bisogno di essere i
 
 
 
-- Algoritmo di crittografia XChaCha20**
+- **Algoritmo di crittografia XChaCha20**
 - Funzione di bypass dei tasti **Argon2**
 
 
@@ -159,11 +159,11 @@ Prima di parlare della decodifica dei dati, ecco alcune informazioni su alcune d
 
 
 
-- Modalità paranoica**: utilizza il livello di sicurezza più elevato offerto da Picocrypt. Lo strumento utilizzerà diversi algoritmi di crittografia a cascata (XChaCha20 e Serpent) e HMAC-SHA3 invece di BLAKE2b per l'autenticazione dei dati.
-- Reed-Solomon**: implementa i codici di correzione degli errori *Reed-Solomon* per facilitare la correzione degli errori sui dati corrotti. Ciò consente di supportare un livello di corruzione di circa il 3% del file.
-- Dividere in pezzi** o **dividere in più parti**: se state criptando un file di grandi dimensioni, potete chiedere a Picocrypt di dividerlo in più parti. Questo può rendere il file più facile da trasferire.
-- Compress Files** o **Compress files**: comprime i file per ridurre le dimensioni dei file criptati.
-- File eliminati** o **Fichiers supprimés**: eliminare i file sorgente per mantenere solo la versione criptata
+- **Modalità paranoica**: utilizza il livello di sicurezza più elevato offerto da Picocrypt. Lo strumento utilizzerà diversi algoritmi di crittografia a cascata (XChaCha20 e Serpent) e HMAC-SHA3 invece di BLAKE2b per l'autenticazione dei dati.
+- **Reed-Solomon**: implementa i codici di correzione degli errori *Reed-Solomon* per facilitare la correzione degli errori sui dati corrotti. Ciò consente di supportare un livello di corruzione di circa il 3% del file.
+- **Dividere in pezzi** o **dividere in più parti**: se state criptando un file di grandi dimensioni, potete chiedere a Picocrypt di dividerlo in più parti. Questo può rendere il file più facile da trasferire.
+- **Compress Files**: **Compress files**: comprime i file per ridurre le dimensioni dei file criptati.
+- **File eliminati** o **Fichiers supprimés**: eliminare i file sorgente per mantenere solo la versione criptata
 
 
 

@@ -30,7 +30,7 @@ Neste tutorial, vamos analisar o projeto **Mempool.space**, as suas caraterísti
 
 
 
-*o *Mempool.space** é um explorador de código aberto que fornece informações úteis sobre transacções, taxas de transação, blocos e mineiros nas várias redes do protocolo Bitcoin. Lançado em 2020, traz uma melhoria significativa na experiência do utilizador através de gráficos representativos, animações suaves e interfaces organizadas.
+O **Mempool.space** é um explorador de código aberto que fornece informações úteis sobre transacções, taxas de transação, blocos e mineiros nas várias redes do protocolo Bitcoin. Lançado em 2020, traz uma melhoria significativa na experiência do utilizador através de gráficos representativos, animações suaves e interfaces organizadas.
 
 
 
@@ -64,10 +64,10 @@ Na barra de menu, encontra as seguintes redes:
 
 
 
-- Mainnet** : A rede principal do Bitcoin onde se realizam as verdadeiras transacções do Bitcoin.
-- Signet**: Uma rede de teste que utiliza assinaturas digitais para validar blocos sem necessitar dos recursos exigidos pela rede principal.
-- Testnet 3**: Uma rede de teste e desenvolvimento sem riscos sobre o protocolo Bitcoin.
-- Testnet 4** : A nova versão do Testnet 3 traz maior estabilidade e novas regras de consenso para o ambiente de teste.
+- **Mainnet**: A rede principal do Bitcoin onde se realizam as verdadeiras transacções do Bitcoin.
+- **Signet**: Uma rede de teste que utiliza assinaturas digitais para validar blocos sem necessitar dos recursos exigidos pela rede principal.
+- **Testnet 3**: Uma rede de teste e desenvolvimento sem riscos sobre o protocolo Bitcoin.
+- **Testnet 4**: A nova versão do Testnet 3 traz maior estabilidade e novas regras de consenso para o ambiente de teste.
 
 
 
@@ -142,9 +142,9 @@ Na página de detalhes da transação, encontrará informações gerais sobre a 
 
 
 
-- Estado**: Confirmado quando adicionado a um bloco, não confirmado quando em espera num Mempool.
-- Taxas de transação**.
-- Hora prevista de chegada (ETA)** :  O tempo aproximado que levará para a sua transação ser adicionada a um bloco. É calculado de acordo com o rácio que constitui as taxas associadas a esta transação.
+- **Estado**: Confirmado quando adicionado a um bloco, não confirmado quando em espera num Mempool.
+- **Taxas de transação**.
+- **Hora prevista de chegada (ETA)**: O tempo aproximado que levará para a sua transação ser adicionada a um bloco. É calculado de acordo com o rácio que constitui as taxas associadas a esta transação.
 
 
 
@@ -192,7 +192,7 @@ Felizmente, existem dois métodos disponíveis na rede Bitcoin para acelerar a c
 
 
 
-- RBF** - Substituição por taxa: Um método que lhe permite gastar as mesmas entradas que a sua transação de taxa reduzida, mas desta vez aumentando a taxa de transação para acelerar a validação. A nova transação será validada mais rapidamente e incluída num bloco, invalidando a transação de taxa reduzida.
+- **RBF** - Substituição por taxa: Um método que lhe permite gastar as mesmas entradas que a sua transação de taxa reduzida, mas desta vez aumentando a taxa de transação para acelerar a validação. A nova transação será validada mais rapidamente e incluída num bloco, invalidando a transação de taxa reduzida.
 
 
 
@@ -204,7 +204,7 @@ https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-837
 
 
 
-- CPFP** - Child pay for parent: Uma abordagem inspirada no RBF, mas do lado do destinatário. Quando a transação de que é destinatário é bloqueada num Mempool, tem a possibilidade de gastar os outputs (UTXOs) desta transação, apesar de esta ainda não ter sido confirmada, atribuindo mais taxas a esta nova transação, de modo a que as taxas médias - da transação de que é destinatário e da transação iniciada - incentivem os mineiros a incluir ambas as transacções num bloco.
+- **CPFP** - Child pay for parent: Uma abordagem inspirada no RBF, mas do lado do destinatário. Quando a transação de que é destinatário é bloqueada num Mempool, tem a possibilidade de gastar os outputs (UTXOs) desta transação, apesar de esta ainda não ter sido confirmada, atribuindo mais taxas a esta nova transação, de modo a que as taxas médias - da transação de que é destinatário e da transação iniciada - incentivem os mineiros a incluir ambas as transacções num bloco.
 
 
 

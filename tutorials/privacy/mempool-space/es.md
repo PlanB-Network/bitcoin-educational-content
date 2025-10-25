@@ -64,10 +64,10 @@ En la barra de menús, encontrará las siguientes redes:
 
 
 
-- Mainnet** : La red principal de Bitcoin donde tienen lugar las transacciones reales de Bitcoin.
-- Signet**: Una red de prueba que utiliza firmas digitales para validar bloques sin requerir los recursos que necesita la red principal.
-- Testnet 3**: Una red de pruebas y desarrollo sin riesgos sobre el protocolo Bitcoin.
-- Testnet 4** : La nueva versión de Testnet 3 aporta mayor estabilidad y nuevas reglas de consenso al entorno de pruebas.
+- **Mainnet**: La red principal de Bitcoin donde tienen lugar las transacciones reales de Bitcoin.
+- **Signet**: Una red de prueba que utiliza firmas digitales para validar bloques sin requerir los recursos que necesita la red principal.
+- **Testnet 3**: Una red de pruebas y desarrollo sin riesgos sobre el protocolo Bitcoin.
+- **Testnet 4**: La nueva versión de Testnet 3 aporta mayor estabilidad y nuevas reglas de consenso al entorno de pruebas.
 
 
 
@@ -142,9 +142,9 @@ En la página de detalles de la transacción, encontrará información general s
 
 
 
-- Estado**: Confirmado cuando se añade a un bloque, sin confirmar cuando espera en un Mempool.
-- Comisiones de transacción**.
-- Tiempo estimado de llegada (ETA)** :  El tiempo aproximado que tardará su transacción en añadirse a un bloque. Se calcula en función del ratio que constituyen las comisiones asociadas a esta transacción.
+- **Estado**: Confirmado cuando se añade a un bloque, sin confirmar cuando espera en un Mempool.
+- **Comisiones de transacción**.
+- **Tiempo estimado de llegada (ETA)**: El tiempo aproximado que tardará su transacción en añadirse a un bloque. Se calcula en función del ratio que constituyen las comisiones asociadas a esta transacción.
 
 
 
@@ -192,7 +192,7 @@ Afortunadamente, hay dos métodos disponibles en la red Bitcoin para acelerar la
 
 
 
-- RBF** - Sustitución por comisión: Método que le permite gastar las mismas entradas que su transacción de baja comisión, pero esta vez aumentando la comisión de la transacción para acelerar la validación. Su nueva transacción se validará más rápidamente y se incluirá en un bloque, invalidando la transacción de tarifa baja.
+- **RBF** - Sustitución por comisión: Método que le permite gastar las mismas entradas que su transacción de baja comisión, pero esta vez aumentando la comisión de la transacción para acelerar la validación. Su nueva transacción se validará más rápidamente y se incluirá en un bloque, invalidando la transacción de tarifa baja.
 
 
 
@@ -204,7 +204,7 @@ https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-837
 
 
 
-- CPFP** - Child pay for parent: Un enfoque inspirado en RBF, pero del lado del receptor. Cuando la transacción de la que eres receptor se bloquea en una Mempool, tienes la opción de gastar las salidas (UTXOs) de esta transacción, a pesar de que aún no se haya confirmado, asignando más comisiones a esta nueva transacción para que las comisiones medias -de la transacción de la que eres receptor y de la transacción iniciada- animen a los mineros a incluir ambas transacciones en un bloque.
+- **CPFP** - Child pay for parent: Un enfoque inspirado en RBF, pero del lado del receptor. Cuando la transacción de la que eres receptor se bloquea en una Mempool, tienes la opción de gastar las salidas (UTXOs) de esta transacción, a pesar de que aún no se haya confirmado, asignando más comisiones a esta nueva transacción para que las comisiones medias -de la transacción de la que eres receptor y de la transacción iniciada- animen a los mineros a incluir ambas transacciones en un bloque.
 
 
 

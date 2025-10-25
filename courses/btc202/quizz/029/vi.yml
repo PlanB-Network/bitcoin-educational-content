@@ -1,0 +1,9 @@
+question: Đặc điểm chính của Full node là gì?
+answer: Nó tải xuống và xác thực toàn bộ Blockchain
+wrong_answers:
+  - Nó chỉ giữ lại các tiêu đề khối
+  - Nó xóa các khối cũ sau khi xác minh
+  - Nó phụ thuộc vào một nút khác để xác thực giao dịch
+explanation: |
+  Full node giữ lại toàn bộ Blockchain và xác thực từng khối và giao dịch một cách độc lập.
+reviewed: true

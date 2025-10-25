@@ -66,4 +66,4 @@ b2e00517
 
 Para ser válido, um bloco deve ter um cabeçalho que, uma vez transformado em hash com `SHA256d`, produza um hash que seja menor ou igual ao alvo de dificuldade.
 
-> ► *Em inglês, é referido como "Block Header"
+> ► *Em inglês, é referido como "Block Header"*

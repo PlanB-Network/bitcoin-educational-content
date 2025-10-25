@@ -1,5 +1,5 @@
 ---
-name: Ukuta wa mawe x2
+name: Stonewall x2
 description: Kuelewa na kutumia miamala ya Stonewall x2
 ---
 ![cover stonewall x2](assets/cover.webp)
@@ -30,11 +30,11 @@ Stonewall x2 ni aina mahususi ya muamala wa Bitcoin unaolenga kuongeza faragha y
 Uendeshaji wake ni rahisi kiasi: tunatumia UTXO tuliyo nayo kufanya malipo na kutafuta usaidizi wa wahusika wengine ambao pia huchangia na UTXO yao wenyewe. Muamala huo unasababisha matokeo manne: mawili kati ya hayo yakiwa na kiasi sawa, moja kwa ajili ya Address ya mpokeaji malipo, nyingine kwa Address inayomilikiwa na mshirika. UTXO ya tatu inarejeshwa kwa Address nyingine ya mshirika, na kuwaruhusu kupata kiasi cha awali (hatua isiyopendelea upande wowote, ada za modulo za Mining), na UTXO ya mwisho inarudi kwa Address yetu, ambayo inajumuisha mabadiliko kutoka kwa malipo.
 
 
-Kwa hivyo, majukumu matatu tofauti yanafafanuliwa katika shughuli za Stonewall x2:
+Kwa hivyo, majukumu matatu tofauti yanafafanuliwa katika muamala za Stonewall x2:
 
 
 - Mtumaji, ambaye hufanya malipo halisi;
-- Mshiriki, ambaye hutoa bitcoins ili kuboresha kutokujulikana kwa jumla kwa shughuli, huku akipata kikamilifu fedha zao mwishoni (hatua ya neutral kwao, ada za modulo za Mining);
+- Mshiriki, ambaye hutoa bitcoins ili kuboresha kutokujulikana kwa jumla kwa muamala, huku akipata kikamilifu fedha zao mwishoni (hatua ya neutral kwao, ada za modulo za Mining);
 - Mpokeaji, ambaye huenda hajui aina mahususi ya muamala na anatarajia tu malipo kutoka kwa mtumaji.
 
 
@@ -50,10 +50,10 @@ Katika mfano huu, nilipuuza ada za Mining kimakusudi ili kuwezesha kuelewana. Kw
 ## Kuna tofauti gani kati ya Stonewall na Stonewall x2?
 
 
-Muamala wa StonewallX2 hufanya kazi sawasawa kabisa na muamala wa Stonewall, isipokuwa ule wa kwanza unashirikiana ilhali wa pili haufanyi kazi. Kama tulivyoona, muamala wa Stonewall x2 unahusisha ushiriki wa mtu wa tatu, ambaye yuko nje ya malipo, na ambaye atatoa bitcoins zao ili kuimarisha faragha ya ununuzi. Katika shughuli ya kawaida ya Stonewall, jukumu la mshirika linachukuliwa na mtumaji.
+Muamala wa StonewallX2 hufanya kazi sawasawa kabisa na muamala wa Stonewall, isipokuwa ule wa kwanza unashirikiana ilhali wa pili haufanyi kazi. Kama tulivyoona, muamala wa Stonewall x2 unahusisha ushiriki wa mtu wa tatu, ambaye yuko nje ya malipo, na ambaye atatoa bitcoins zao ili kuimarisha faragha ya ununuzi. Katika muamala ya kawaida ya Stonewall, jukumu la mshirika linachukuliwa na mtumaji.
 
 
-Wacha tuangalie tena mfano wetu wa Alice kwenye duka la mkate. Ikiwa hangeweza kupata mtu kama Bob wa kuandamana naye kwa gharama zake, angeweza kufanya shughuli ya Stonewall peke yake. Kwa hivyo, UTXO mbili za pembejeo zingekuwa zake, na angepokea 3 kwenye pato.
+Wacha tuangalie tena mfano wetu wa Alice kwenye duka la mkate. Ikiwa hangeweza kupata mtu kama Bob wa kuandamana naye kwa gharama zake, angeweza kufanya muamala ya Stonewall peke yake. Kwa hivyo, UTXO mbili za pembejeo zingekuwa zake, na angepokea 3 kwenye pato.
 
 ![transaction stonewall](assets/en/2.webp)
 
@@ -62,27 +62,27 @@ Kwa mtazamo wa nje, muundo wa muamala ungebaki vile vile.
 
 ![Stonewall or Stonewall x2?](assets/en/5.webp)
 
-Kwa hivyo, mantiki inapaswa kuwa kama ifuatavyo wakati wa kutumia zana ya matumizi ya Samourai:
+Kwa hivyo, mantiki inapaswa kuwa kama ifuatavyo wakati wa kutumia tools ya matumizi ya Samourai:
 
 
 - Ikiwa mfanyabiashara hatatumia PayJoin Stowaway, muamala shirikishi unaweza kufanywa na mtu mwingine nje ya malipo kwa kutumia Stonewall x2.
-- Ikiwa hakuna mtu anayepatikana kufanya shughuli ya Stonewall x2, muamala wa Stonewall unaweza kufanywa peke yake, kuiga tabia ya muamala wa Stonewall x2.
-- Hatimaye, chaguo la mwisho litakuwa kufanya muamala na JoinBot, seva inayodumishwa na Samourai, ambayo inaweza, kwa ombi, kufanya kama mshiriki katika shughuli ya Stonewall x2.
+- Ikiwa hakuna mtu anayepatikana kufanya muamala ya Stonewall x2, muamala wa Stonewall unaweza kufanywa peke yake, kuiga tabia ya muamala wa Stonewall x2.
+- Hatimaye, chaguo la mwisho litakuwa kufanya muamala na JoinBot, server inayodumishwa na Samourai, ambayo inaweza, kwa ombi, kufanya kama mshiriki katika muamala ya Stonewall x2.
 
 
 Iwapo ungependa kupata mshirika ambaye yuko tayari kukusaidia katika muamala wa Stonewall X2, unaweza pia kutembelea kikundi hiki cha Telegram (kisicho rasmi) kinachodumishwa na watumiaji wa Samourai ili kuunganisha watumaji na washirika: [Make Every Spend a CoinJoin](https://t.me/EverySpendACoinjoin).
 
 
-[**-> Pata maelezo zaidi kuhusu shughuli za Stonewall**](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
+[**-> Pata maelezo zaidi kuhusu muamala za Stonewall**](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 
 ## Madhumuni ya muamala wa Stonewall x2 ni nini?
 
 
-Muundo wa Stonewall x2 huongeza kiasi kikubwa cha entropy kwenye shughuli na huchanganya uchanganuzi wa mnyororo. Kutoka nje, shughuli kama hiyo inaweza kufasiriwa kama CoinJoin ndogo kati ya watu wawili. Lakini kwa kweli, ni malipo. Njia hii inazalisha kutokuwa na uhakika katika uchanganuzi wa mnyororo, na hata husababisha miongozo ya uwongo.
+Muundo wa Stonewall x2 huongeza kiasi kikubwa cha entropy kwenye muamala na huchanganya uchanganuzi wa Blockchain. Kutoka nje, muamala kama hiyo inaweza kufasiriwa kama CoinJoin ndogo kati ya watu wawili. Lakini kwa kweli, ni malipo. Njia hii inazalisha kutokuwa na uhakika katika uchanganuzi wa Blockchain, na hata husababisha miongozo ya uwongo.
 
 
-Hebu turudi kwenye mfano wa Alice, Bob, na Baker. Shughuli kwenye Blockchain ingeonekana kama hii:
+Hebu turudi kwenye mfano wa Alice, Bob, na Baker. Muamala kwenye Blockchain ingeonekana kama hii:
 
 ![stonewall x2 public](assets/en/3.webp)
 
@@ -92,7 +92,7 @@ Ufafanuzi huu sio sahihi kwa sababu, kama unavyojua, UTXO ilitumwa kwa Baker, Al
 
 ![transaction stonewall x2](assets/en/1.webp)
 
-Hata kama mwangalizi wa nje ataweza kutambua muundo wa shughuli ya Stonewall x2, hatakuwa na taarifa zote. Hawataweza kubainisha ni ipi kati ya UTXO mbili za kiasi sawa inalingana na malipo. Zaidi ya hayo, hawataweza kujua ikiwa ni Alice au Bob waliofanya malipo hayo. Hatimaye, hawataweza kubainisha ikiwa UTXO mbili za pembejeo zinatoka kwa watu wawili tofauti au kama ni za mtu mmoja aliyeziunganisha. Hoja hii ya mwisho ni kwa sababu ya ukweli kwamba shughuli za kawaida za Stonewall, ambazo tulijadili hapo juu, zinafuata muundo sawa na shughuli za Stonewall x2. Kutoka nje na bila maelezo ya ziada kuhusu muktadha, haiwezekani kutofautisha muamala wa Stonewall kutoka kwa shughuli ya Stonewall x2. Walakini, za kwanza sio shughuli shirikishi, wakati za mwisho ni. Hii inaongeza mashaka zaidi kuhusu gharama hii.
+Hata kama mwangalizi wa nje ataweza kutambua muundo wa muamala ya Stonewall x2, hatakuwa na taarifa zote. Hawataweza kubainisha ni ipi kati ya UTXO mbili za kiasi sawa inalingana na malipo. Zaidi ya hayo, hawataweza kujua ikiwa ni Alice au Bob waliofanya malipo hayo. Hatimaye, hawataweza kubainisha ikiwa UTXO mbili za pembejeo zinatoka kwa watu wawili tofauti au kama ni za mtu mmoja aliyeziunganisha. Hoja hii ya mwisho ni kwa sababu ya ukweli kwamba muamala za kawaida za Stonewall, ambazo tulijadili hapo juu, zinafuata muundo sawa na muamala za Stonewall x2. Kutoka nje na bila maelezo ya ziada kuhusu muktadha, haiwezekani kutofautisha muamala wa Stonewall kutoka kwa muamala ya Stonewall x2. Walakini, za kwanza sio muamala shirikishi, wakati za mwisho ni. Hii inaongeza mashaka zaidi kuhusu gharama hii.
 
 ![Stonewall or Stonewall x2 ?](assets/en/5.webp)
 
@@ -101,7 +101,7 @@ Hata kama mwangalizi wa nje ataweza kutambua muundo wa shughuli ya Stonewall x2,
 ## Jinsi ya kuanzisha muunganisho kati ya Paynyms ili kuweza kushirikiana kupitia Soroban?
 
 
-Kama ilivyo kwa miamala mingine ya ushirikiano kwenye Samourai (*Cahoots*), kutekeleza Stonewall x2 inahusisha Exchange ya miamala iliyotiwa saini kiasi kati ya mtumaji na mshirika. Exchange hii inaweza kufanywa wewe mwenyewe, ikiwa uko pamoja na mshirika wako, au kiotomatiki kupitia itifaki ya mawasiliano ya Soroban.
+Kama ilivyo kwa miamala mingine ya ushirikiano kwenye Samourai (*Cahoots*), kutekeleza Stonewall x2 inahusisha Exchange ya miamala iliyotiwa saini kiasi kati ya mtumaji na mshirika. Exchange hii inaweza kufanywa wewe mwenyewe, ikiwa uko pamoja na mshirika wako, au kiotomatiki kupitia protocol ya mawasiliano ya Soroban.
 
 
 Ukichagua chaguo la pili, utahitaji kuanzisha muunganisho kati ya Paynyms kabla ya kuweza kutekeleza Stonewall x2. Ili kufanya hivyo, Paynym yako lazima "ifuate" Paynym ya mshirika wako, na kinyume chake.
@@ -147,7 +147,7 @@ Programu itakupa kitufe cha 'CONNECT'. Sio lazima kubofya kitufe hiki kwa mafunz
 
 ![connect paynym](assets/notext/13.webp)
 
-Mara tu PayNym yako inapofuata PayNym ya mshirika wako, rudia mchakato huu kinyume chake ili mshiriki wako pia aweze kukufuata. Kisha unaweza kufanya shughuli ya Stonewall x2.
+Mara tu PayNym yako inapofuata PayNym ya mshirika wako, rudia mchakato huu kinyume chake ili mshiriki wako pia aweze kukufuata. Kisha unaweza kufanya muamala ya Stonewall x2.
 
 
 **Kufuata PayNym ya mshirika wako kutoka Sparrow Wallet:**
@@ -164,9 +164,9 @@ Kisha weka kitambulisho cha PayNym cha mshirika wako (ama jina la utani la '+...
 Programu itakupa kitufe cha 'Unganisha Anwani'. Sio lazima kubofya kitufe hiki kwa mafunzo yetu. Hatua hii inahitajika tu ikiwa unapanga kufanya malipo kwa PayNym iliyoonyeshwa kama sehemu ya BIP47, ambayo haihusiani na mafunzo yetu.
 
 
-Mara tu PayNym yako inapofuata PayNym ya mshirika wako, rudia mchakato huu kinyume chake ili mshiriki wako pia aweze kukufuata. Kisha unaweza kufanya shughuli ya Stonewall x2.
+Mara tu PayNym yako inapofuata PayNym ya mshirika wako, rudia mchakato huu kinyume chake ili mshiriki wako pia aweze kukufuata. Kisha unaweza kufanya muamala ya Stonewall x2.
 
-## Jinsi ya kufanya shughuli ya Stonewall x2 kwenye Samourai Wallet?
+## Jinsi ya kufanya muamala ya Stonewall x2 kwenye Samourai Wallet?
 
 
 Ikiwa umekamilisha hatua za awali za kuunganisha Paynyms, hatimaye uko tayari kufanya muamala wa Stonewall x2! Ili kufanya hivyo, fuata mafunzo yetu ya video kwenye Samourai Wallet:
@@ -174,7 +174,7 @@ Ikiwa umekamilisha hatua za awali za kuunganisha Paynyms, hatimaye uko tayari ku
 ![Stonewall x2 Tutorial - Samourai Wallet](https://youtu.be/89oYE1Hw3Fk?si=QTqUZ6IypiR6PPMr)
 
 
-## Jinsi ya kufanya shughuli ya Stonewall x2 kwenye Sparrow Wallet?
+## Jinsi ya kufanya muamala ya Stonewall x2 kwenye Sparrow Wallet?
 
 
 Ikiwa umekamilisha hatua za awali za kuunganisha Paynyms, hatimaye uko tayari kufanya muamala wa Stonewall x2! Ili kufanya hivyo, fuata mafunzo yetu ya video kwenye Sparrow Wallet:

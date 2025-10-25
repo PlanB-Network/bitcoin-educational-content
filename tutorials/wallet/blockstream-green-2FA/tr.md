@@ -88,7 +88,7 @@ Android kullanıcıları için, uygulamayı [Blockstream'in GitHub'ında bulunan
 ![GREEN 2FA MULTISIG](assets/fr/04.webp)
 
 
-Uygulamayı başlatın, ardından "Koşulları kabul ediyorum...*" kutusunu işaretleyin.
+Uygulamayı başlatın, ardından "Koşulları kabul ediyorum..." kutusunu işaretleyin.
 
 
 ![GREEN 2FA MULTISIG](assets/fr/05.webp)

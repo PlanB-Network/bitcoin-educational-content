@@ -1,0 +1,9 @@
+question: Jaka jest główna funkcja węzła Bitcoin?
+answer: Zapisywanie Blockchain i zatwierdzanie transakcji i bloków
+wrong_answers:
+  - Przechowywanie kluczy prywatnych i tworzenie transakcji
+  - Tworzenie nowych adresów dla użytkowników
+  - Konwersja bitcoinów na waluty fiducjarne
+explanation: |
+  Węzeł Bitcoin utrzymuje kopię Blockchain i uczestniczy w zatwierdzaniu i przekazywaniu transakcji i bloków.
+reviewed: true

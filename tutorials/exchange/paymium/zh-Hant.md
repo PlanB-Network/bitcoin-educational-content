@@ -1,5 +1,5 @@
 ---
-name: 付費
+name: Paymium
 
 description: 設定您的 Paymium 帳戶
 ---

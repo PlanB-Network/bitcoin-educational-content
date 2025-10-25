@@ -1,0 +1,9 @@
+question: Bitcoin 노드에 HDD를 권장하지 않는 이유는 무엇인가요?
+answer: IBD 및 일반적인 사용 속도가 현저히 느려지기 때문입니다
+wrong_answers:
+  - Blockchain 파일을 저장할 수 없기 때문에
+  - 에너지 소비량이 너무 적고 폭발 위험이 있기 때문입니다
+  - Bitcoin core와 호환되지 않기 때문에
+explanation: |
+  기계식 디스크는 성능을 제한하고 IBD를 크게 늘리며 노드 부하로 인해 빠르게 마모됩니다.
+reviewed: true

@@ -201,7 +201,7 @@ Model One oppretter Mnemonic-frasen din ved hjelp av en tilfeldig tallgenerator.
 
 
 
-***Du må selvsagt aldri dele disse ordene på Internett, slik jeg gjør i denne veiledningen. Dette eksemplet Wallet vil kun bli brukt på Testnet og vil bli slettet ved slutten av opplæringen
+**Du må selvsagt aldri dele disse ordene på Internett, slik jeg gjør i denne veiledningen. Dette eksemplet Wallet vil kun bli brukt på Testnet og vil bli slettet ved slutten av opplæringen**
 
 
 

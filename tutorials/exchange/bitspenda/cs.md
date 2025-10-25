@@ -182,10 +182,10 @@ Společnost [Bitcoin Dua](https://www.bitcoindua.org/) si prostřednictvím BitS
 
 
 
-- Důvěrnost**: Nemusíte si na platformě vytvářet účet, nemusíte ověřovat svou totožnost a nemusíte poskytovat žádné osobní údaje.
-- Svoboda**: Můžete používat BitSpenda z jakékoli země k provádění transakcí do Ghany, Nigérie a Keni.
-- Rychlost**: BitSpenda se spoléhá na platby Lightning, což jí umožňuje zkrátit dobu zpracování a zajistit okamžité transakce.
-- Transparentnost**: Všechny transakce, které jste provedli na BitSpendě, jsou spojeny s jedinečnými identifikátory, které umožňují sledovat průběh těchto transakcí. Tyto identifikátory můžete také použít ke kontaktování [aplikační podpory na X](https://x.com/bitspenda).
+- **Důvěrnost**: Nemusíte si na platformě vytvářet účet, nemusíte ověřovat svou totožnost a nemusíte poskytovat žádné osobní údaje.
+- **Svoboda**: Můžete používat BitSpenda z jakékoli země k provádění transakcí do Ghany, Nigérie a Keni.
+- **Rychlost**: BitSpenda se spoléhá na platby Lightning, což jí umožňuje zkrátit dobu zpracování a zajistit okamžité transakce.
+- **Transparentnost**: Všechny transakce, které jste provedli na BitSpendě, jsou spojeny s jedinečnými identifikátory, které umožňují sledovat průběh těchto transakcí. Tyto identifikátory můžete také použít ke kontaktování [aplikační podpory na X](https://x.com/bitspenda).
 
 
 

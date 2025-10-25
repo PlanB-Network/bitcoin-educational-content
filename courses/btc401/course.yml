@@ -133,6 +133,21 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 99.54
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 124.4
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 99.54
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 149.26
 tags:
   - development
   - protocols
@@ -227,4 +242,4 @@ videos:
       - en: IiY5PmkGNVo
   - id: ce625225-310c-4130-a436-8a3adf7860f9
     youtube:
-      - de: P0reZe6pMpo
+      - en: P0reZe6pMpo

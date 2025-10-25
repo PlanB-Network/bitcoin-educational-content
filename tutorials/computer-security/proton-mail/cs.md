@@ -306,7 +306,7 @@ Na kartě "*Filtry*" můžete spravovat filtry pro přijímané e-maily.
 
 
 
-Karta "Přeposílání a automatická odpověď*" umožňuje spravovat přeposílání a automatickou odpověď na e-maily.
+Karta "Přeposílání a automatická odpověď" umožňuje spravovat přeposílání a automatickou odpověď na e-maily.
 
 
 

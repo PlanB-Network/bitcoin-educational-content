@@ -76,10 +76,10 @@ Programmet presenterar sedan sina huvudfunktioner genom en serie introduktionssk
 
 
 
-- Sömlös mottagning av betalningar**: Användare kan ta emot Bitcoin-betalningar även när applikationen är stängd, vilket garanterar tillförlitlighet och bekvämlighet.
-- Lightning-adresser utan förmyndarskap**: Lipa stöder nu Lightning-adresser utan förmyndare, vilket förbättrar integriteten och säkerheten genom att ge användarna full kontroll över sina bitcoins.
-- Kontroll över analytiska data** : Eftersom transparens och sekretess är av största vikt kan användarna se vilka typer av data som samlas in och välja hur de vill dela dem.
-- Skicka via telefonnummer**: Inget behov av komplexa adresser - välj bara en kontakt, ange beloppet och skicka bitcoins direkt till deras telefonnummer.
+- **Sömlös mottagning av betalningar**: Användare kan ta emot Bitcoin-betalningar även när applikationen är stängd, vilket garanterar tillförlitlighet och bekvämlighet.
+- **Lightning-adresser utan förmyndarskap**: Lipa stöder nu Lightning-adresser utan förmyndare, vilket förbättrar integriteten och säkerheten genom att ge användarna full kontroll över sina bitcoins.
+- **Kontroll över analytiska data**: Eftersom transparens och sekretess är av största vikt kan användarna se vilka typer av data som samlas in och välja hur de vill dela dem.
+- **Skicka via telefonnummer**: Inget behov av komplexa adresser - välj bara en kontakt, ange beloppet och skicka bitcoins direkt till deras telefonnummer.
 
 
 Applikationen drar också nytta av kontinuerliga förbättringar när det gäller stabilitet, säkerhet och tillförlitlighet, för att garantera en optimal användarupplevelse.
@@ -96,10 +96,10 @@ Lipa's Interface är organiserad kring 4 huvudflikar som nås via navigeringsfä
 
 
 
-- Hem**: Visar ditt aktuella saldo och din transaktionshistorik
-- Skanner**: Gör att du kan skanna QR-koder för att göra betalningar
-- Karta**: Visar en interaktiv karta över Bitcoin-godkännande företag i ditt område
-- Inställningar**: Tillgång till programinställningar, säkerhetskopiering och preferenser
+- **Hem**: Visar ditt aktuella saldo och din transaktionshistorik
+- **Skanner**: Gör att du kan skanna QR-koder för att göra betalningar
+- **Karta**: Visar en interaktiv karta över Bitcoin-godkännande företag i ditt område
+- **Inställningar**: Tillgång till programinställningar, säkerhetskopiering och preferenser
 
 
 En ytterligare meny kan nås genom att dra ner startskärmen:

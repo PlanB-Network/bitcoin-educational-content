@@ -13,7 +13,7 @@ Pero la aplicación también cuenta con un "Nodo incrustado".
 
 
 
-**Es esta faceta de la aplicación la que exploraremos en este tutorial. Esto permite a cualquiera tener su propio nodo de rayos en el móvil, sin necesidad de un servidor dedicado, del mismo modo que ACINQ ofrece su increíble Wallet lightning Phoenix.
+**Es esta faceta de la aplicación la que exploraremos en este tutorial.** Esto permite a cualquiera tener su propio nodo de rayos en el móvil, sin necesidad de un servidor dedicado, del mismo modo que ACINQ ofrece su increíble Wallet lightning Phoenix.
 
 
 
@@ -248,7 +248,7 @@ En la pantalla siguiente, se le pide que abra un canal en colaboración con **"O
 Para este tutorial, elegiremos esta opción por simplicidad, pero es perfectamente posible abrir canales con cualquier nodo de la red.
 
 
-Incluso es posible abrir varios canales en una sola transacción seleccionando "ABRIR CANAL ADICIONAL". *Pero esto lo veremos en una versión "avanzada" del tutorial **Zeus Embedded****.
+Incluso es posible abrir varios canales en una sola transacción seleccionando "ABRIR CANAL ADICIONAL". *Pero esto lo veremos en una versión "avanzada" del tutorial* **Zeus Embedded**.
 
 
 

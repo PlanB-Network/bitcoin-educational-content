@@ -118,7 +118,7 @@ Voordat je Qubes OS installeert, is het essentieel om ervoor te zorgen dat je ha
 
 - De **processor**: Een 64-bits processor die compatibel is met hardwarevirtualisatie (Intel VT-x of AMD-V).
 - RAM: minimaal 8 GB is vereist, maar we raden 16 GB RAM of meer aan om meerdere qubes tegelijk te draaien.
-- Opslagruimte**: minimaal 36 GB, idealiter 128 GB op een SSD voor optimale prestaties.
+- **Opslagruimte**: minimaal 36 GB, idealiter 128 GB op een SSD voor optimale prestaties.
 
 
 
@@ -136,7 +136,7 @@ Zodra de ISO is geverifieerd, moet je een opstartbaar installatiemedium maken, m
 
 
 
-Voordat u met de installatie begint, moet u het **BIOS of UEFI** van uw computer configureren om **virtualisatie** in te schakelen en opstarten vanaf USB toe te staan. Afhankelijk van uw machinemodel, kan het nodig zijn om Secure Boot** uit te schakelen, omdat Qubes OS mogelijk niet opstart met deze optie ingeschakeld.
+Voordat u met de installatie begint, moet u het **BIOS of UEFI** van uw computer configureren om **virtualisatie** in te schakelen en opstarten vanaf USB toe te staan. Afhankelijk van uw machinemodel, kan het nodig zijn om **Secure Boot** uit te schakelen, omdat Qubes OS mogelijk niet opstart met deze optie ingeschakeld.
 
 
 

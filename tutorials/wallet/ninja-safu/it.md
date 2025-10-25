@@ -1,5 +1,5 @@
 ---
-name: Ninja SAFU
+name: SAFU Ninja
 description: Salvate il vostro seed con il metodo SAFU Ninja
 ---
 
@@ -24,19 +24,19 @@ L'approccio Ninja SAFU offre diversi vantaggi:
 
 
 
-- Riservatezza**: Non si acquista un prodotto identificato come destinato al backup delle criptovalute. I componenti sono standard (rondelle, bulloni, scatola metallica), disponibili nei negozi di ferramenta, il che riduce il rischio di essere presi di mira in caso di fuga di dati da un fornitore specializzato.
+- **Riservatezza**: Non si acquista un prodotto identificato come destinato al backup delle criptovalute. I componenti sono standard (rondelle, bulloni, scatola metallica), disponibili nei negozi di ferramenta, il che riduce il rischio di essere presi di mira in caso di fuga di dati da un fornitore specializzato.
 
 
 
 
 
-- Convenienza** : Questa soluzione costa tra i **15 e i 140 euro**, a seconda degli strumenti già in vostro possesso.
+- **Convenienza**: Questa soluzione costa tra i **15 e i 140 euro**, a seconda degli strumenti già in vostro possesso.
 
 
 
 
 
-- Affidabilità**: Testato dal 2020, il metodo è stato provato e testato da esperti di sicurezza come [Jameson Lopp](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/), che lo hanno sottoposto a rigorosi stress test (calore estremo, corrosione, pressione meccanica).
+- **Affidabilità**: Testato dal 2020, il metodo è stato provato e testato da esperti di sicurezza come [Jameson Lopp](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/), che lo hanno sottoposto a rigorosi stress test (calore estremo, corrosione, pressione meccanica).
 
 
 
@@ -59,17 +59,17 @@ Per creare un backup Ninja SAFU, sono necessari i seguenti componenti, tutti dis
 
 
 
-- Rondelle in acciaio inox (consigliate M8)** :
- - Materiale**: Acciaio inox (ad es. 304 o V4A per una maggiore resistenza alla corrosione)
-    - Dimensioni**: M8 (diametro interno 8 mm, diametro esterno ~24 mm). Le rondelle M6 sono troppo piccole e difficili da incidere.
-    - Quantità**: 12 o 24 rondelle per una frase standard seed, più le rondelle opzionali (vedere sezione 3.4) e una decina per i test o gli errori.
+- Rondelle in acciaio inox (consigliate M8):
+- **Materiale**: Acciaio inox (ad es. 304 o V4A per una maggiore resistenza alla corrosione)
+- **Dimensioni**: M8 (diametro interno 8 mm, diametro esterno ~24 mm). Le rondelle M6 sono troppo piccole e difficili da incidere.
+- **Quantità**: 12 o 24 rondelle per una frase standard seed, più le rondelle opzionali (vedere sezione 3.4) e una decina per i test o gli errori.
 
 
 
 
 
 - Bolt e dado (M8) in acciaio inox ** :
- - Specifiche**: Bolt Lunghezza da 2,5 a 5 cm, a seconda del numero e dello spessore delle rondelle, diametro 8 mm. Un dado ad alette facilita l'apertura senza attrezzi, ma è possibile utilizzare anche un semplice dado.
+- **Specifiche**: Bolt Lunghezza da 2,5 a 5 cm, a seconda del numero e dello spessore delle rondelle, diametro 8 mm. Un dado ad alette facilita l'apertura senza attrezzi, ma è possibile utilizzare anche un semplice dado.
 
 
 
@@ -79,8 +79,8 @@ Per creare un backup Ninja SAFU, sono necessari i seguenti componenti, tutti dis
 
 
 
-- Set di punzoni per lettere e numeri (3 mm o 6 mm)** :
-    - Specifiche**: i caratteri alti 6 mm facilitano la leggibilità e possono essere preferiti se parte della scritta è degradata. Scegliere un set robusto per un uso ripetuto.
+- **Set di punzoni per lettere e numeri (3 mm o 6 mm)**:
+- **Specifiche**: i caratteri alti 6 mm facilitano la leggibilità e possono essere preferiti se parte della scritta è degradata. Scegliere un set robusto per un uso ripetuto.
 
 
 
@@ -90,14 +90,14 @@ Per creare un backup Ninja SAFU, sono necessari i seguenti componenti, tutti dis
 
 
 
-- Martello o mazza** :
+- **Martello o mazza**:
     - Per ottenere una forza di stampaggio sufficiente e precisa, è preferibile utilizzare una mazza
 
 
 
 
 
-- Incudine o superficie robusta** :
+- **Incudine o superficie robusta**:
  - Una superficie spessa e Hard (ad esempio, un'incudine da 1 kg o una pietra di 10 cm) per assorbire gli urti.
 
 
@@ -112,7 +112,7 @@ Se non volete investire in un set di punzoni, potete anche incidere le vostre ro
 
 
 
-- Dispositivo di timbratura**: Trattiene la rondella e guida il punzone, consentendo una timbratura precisa e pulita, un migliore orientamento e una spaziatura uniforme delle lettere
+- **Dispositivo di timbratura**: Trattiene la rondella e guida il punzone, consentendo una timbratura precisa e pulita, un migliore orientamento e una spaziatura uniforme delle lettere
 
 
 
@@ -122,7 +122,7 @@ Se non volete investire in un set di punzoni, potete anche incidere le vostre ro
 
 
 
-- Dispositivi di sigillatura**: Sacchetto sigillato o striscia sigillante
+- **Dispositivi di sigillatura**: Sacchetto sigillato o striscia sigillante
 
 
 
@@ -132,7 +132,7 @@ Se non volete investire in un set di punzoni, potete anche incidere le vostre ro
 
 
 
-- Contenitore ermetico**: Per conservare il blocco di rondelle
+- **Contenitore ermetico**: Per conservare il blocco di rondelle
 
 
 
@@ -145,8 +145,8 @@ Se non volete investire in un set di punzoni, potete anche incidere le vostre ro
 
 
 
-- Si consigliano guanti** e **occhiali di sicurezza**.
-- Chiave per tubi** in cui infilare il punzone, in modo da tenere il punzone con la chiave per tubi e non con le dita.
+- Si consigliano **guanti** e **occhiali di sicurezza**.
+- Chiave per tubi in cui infilare il punzone, in modo da tenere il punzone con la chiave per tubi e non con le dita.
 
 
 
@@ -156,13 +156,13 @@ Se non volete investire in un set di punzoni, potete anche incidere le vostre ro
 
 
 
-- Quantità per un backup di 24 parole**: 24 rondelle (minimo), 1 Bolt, 1 dado ad alette, 1 set di punzoni, 1 martello/massetta, 1 incudine/supporto.
+- **Quantità per un backup di 24 parole**: 24 rondelle (minimo), 1 Bolt, 1 dado ad alette, 1 set di punzoni, 1 martello/massetta, 1 incudine/supporto.
 
 
 
 
 
-- Costo totale** :
+- **Costo totale**:
  - Rondelle e bulloni/dadi: ~ 15 EUR
  - Set di punzoni: ~ 45 EUR
  - Custodia protettiva: ~ 55 EUR
@@ -254,7 +254,7 @@ Se non volete investire in un set di punzoni, potete anche incidere le vostre ro
 
 
     - Dal nuovo backup, provare a ripristinare il portfolio
-- Sigillatura del backup** (facoltativa e consigliata) :
+- **Sigillatura del backup** (facoltativa e consigliata):
  - In strisce sigillate o in buste sigillate.
  - Se utilizzate una busta, annotate il suo numero di identificazione unico, in modo da poter verificare che si tratti della busta giusta e non di un'esca che sostituisce l'originale.
 
@@ -269,7 +269,7 @@ Se non volete investire in un set di punzoni, potete anche incidere le vostre ro
 
 
 
-Conservare il backup in un **luogo discreto**, lontano da occhi indiscreti e accessibile per controlli periodici. Scegliete un deposito ignifugo e impermeabile**, a casa o in un luogo sotto il vostro **esclusivo controllo**.
+Conservare il backup in un **luogo discreto**, lontano da occhi indiscreti e accessibile per controlli periodici. Scegliete un **deposito ignifugo e impermeabile**, a casa o in un luogo sotto il vostro **esclusivo controllo**.
 
 
 
@@ -313,7 +313,7 @@ Anche se ben conservato, il backup deve essere **controllato regolarmente**:
 
 
 
-*STAY SAFU !
+**STAY SAFU !**
 
 
 ![image](assets/fr/08.webp)
@@ -379,21 +379,21 @@ Secondo Jameson Lopp:
 
 
 
-- Rondelle** per
+- **Rondelle** per
  - [Titano](https://pleb.style/fr-fr/products/disques-de-seed-supplementaires-titan-Wallet)
-- Rondelle + dado + custodia protettiva** (per le rondelle)
+- Rondelle + dado + **custodia protettiva** (per le rondelle)
  - [Titano](https://pleb.style/fr-fr/products/titan-Wallet-premium-acier-steel-Wallet-backup?variant=50022696419664)
  - [TerraSteel](https://pleb.style/fr-fr/products/terrasteel-Wallet-plebstyle-acier-backup)
 - Set di punzoni
  - [PlebStyle](https://pleb.style/fr/products/schlagstempelset-a-z-0-9-3mm)
-- Base della tipizzazione**
+- **Base della tipizzazione**
  - [PlebStyle](https://pleb.style/fr/products/schlagunterlage-10cm-x-10cm-x-1-5cm)
-- Dispositivo di maschiatura** (guida)
+- **Dispositivo di maschiatura** (guida)
  - [TerraSteel](https://pleb.style/fr-fr/products/zubehor-einschlag-vorrichtung?_pos=1&_sid=2767fd66f&_ss=r)
 - Dispositivo di tenuta
  - [Astuccio sigillato](https://pleb.style/fr/products/zubehor-5x-sicherheitstasche-tamper-evident)
  - [Strisce di tenuta](https://pleb.style/fr/products/zubehor-5x-siegel-streifen-fur-dein-seed-backup)
-- Kit completo**
+- **Kit completo**
  - [Titan](https://pleb.style/fr-fr/products/titan-Wallet-diy-kit-premium-seed-backup-steelwallet-plebstyle?pr_prod_strat=e5_desc&pr_rec_id=aa9f36359&pr_rec_pid=8728733155664&pr_ref_pid=8730877788496&pr_seq=uniform)
  - [TerraSteel](https://pleb.style/fr-fr/products/kopie-von-terrasteel-Wallet-starter-kit)
 

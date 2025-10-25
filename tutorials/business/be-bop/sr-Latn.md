@@ -62,10 +62,10 @@ Moraćete da konfigurišete bucket i obezbedite sledeće informacije:
 
 
 
-- S3_BUCKET**: ime korpe
-- S3_ENDPOINT_URL**: pristupni link za vašu S3 uslugu
-- S3_KEY_ID** i S3_KEY_SECRET: vaši pristupni kodovi
-- S3_REGION**: region vaše S3 usluge
+- **S3_BUCKET**: ime korpe
+- **S3_ENDPOINT_URL**: pristupni link za vašu S3 uslugu
+- **S3_KEY_ID** i **S3_KEY_SECRET**: vaši pristupni kodovi
+- **S3_REGION**: region vaše S3 usluge
 
 
 
@@ -94,8 +94,8 @@ Trebaće vam sledeće promenljive:
 
 
 
-- MONGODB_URL**: veza sa bazom podataka Address
-- MONGODB_DB**: ime baze podataka
+- **MONGODB_URL**: veza sa bazom podataka Address
+- **MONGODB_DB**: ime baze podataka
 
 
 
@@ -474,8 +474,8 @@ Konfiguracija **Top Bar** omogućava personalizaciju vizuelnog identiteta vašeg
 
 
 - U polje `Brand name` unesite ime vaše kompanije, organizacije ili proizvoda. Ovo ime će se pojaviti na vrhu Interface i predstavljaće vaš glavni vizuelni identitet.
-- Naznačite naslov veb-sajta**: izabrani naslov treba da sažme svrhu platforme. Ovaj naslov može se pojaviti u zaglavlju ili na kartici pregledača.
-- Dodajte opis veb-sajta**: ovde unesite kratak opis vaše inicijative. Ovaj opis pomaže u kontekstualizaciji alata za korisnike i može se koristiti i za SEO svrhe.
+- **Naznačite naslov veb-sajta**: izabrani naslov treba da sažme svrhu platforme. Ovaj naslov može se pojaviti u zaglavlju ili na kartici pregledača.
+- **Dodajte opis veb-sajta**: ovde unesite kratak opis vaše inicijative. Ovaj opis pomaže u kontekstualizaciji alata za korisnike i može se koristiti i za SEO svrhe.
 
 
 
@@ -497,10 +497,10 @@ Odjeljak `Linkovi` u Gornjoj traci omogućava vam dodavanje prečica do važnih 
 
 
 
-- Unesite naziv linka (Tekst)**: u polje `Tekst` unesite naziv ili oznaku linka kako će se prikazivati (npr. Početna, Kontakt, Pomoć...).
-- Naznačite link Address (Url)**: u polje `Url` unesite puni Address ciljne stranice (interna ili eksterna).
-- Dodajte druge linkove ako je potrebno**: svaki red konfiguracije omogućava dodavanje dodatnog linka koristeći polja `Text` i `Url`.
-- Sačuvaj linkove**: kada su svi linkovi uneti, kliknite na dugme "Dodaj link u gornju traku" da ih sačuvate.
+- Unesite naziv linka **(Tekst)**: u polje `Tekst` unesite naziv ili oznaku linka kako će se prikazivati (npr. Početna, Kontakt, Pomoć...).
+- Naznačite link **Address (Url)**: u polje `Url` unesite puni Address ciljne stranice (interna ili eksterna).
+- **Dodajte druge linkove ako je potrebno**: svaki red konfiguracije omogućava dodavanje dodatnog linka koristeći polja `Text` i `Url`.
+- **Sačuvaj linkove**: kada su svi linkovi uneti, kliknite na dugme "Dodaj link u gornju traku" da ih sačuvate.
 
 
 
@@ -522,10 +522,10 @@ Ova konfiguracija vam omogućava da ponudite jasnu, fluidnu i pristupačnu navig
 
 
 
-- Unesite naziv linka (`Text`)**: na liniji konfiguracije, počnite popunjavanjem polja `Text`. Ovo odgovara nazivu linka prikazanom u navigacionoj traci (primeri: *Dashboard*, *Users*, *Settings*...).
-- Unesite link Address (`Url`)**: pored polja `Text`, pronaći ćete polje `Url`. U ovo polje unesite Address stranice na koju bi link trebalo da preusmeri. Ovo može biti interna ruta ili link ka eksternoj stranici.
-- Dodajte više veza ako je potrebno**: ispod prvog reda, dostupna su nova polja `Text` i `Url` za dodavanje onoliko veza koliko je potrebno. Svaka linija predstavlja dodatnu navigacionu vezu.
-- Sačuvaj linkove**: kada unesete sve Elements, kliknite na dugme `Dodaj link u navigacioni bar` da sačuvate i prikažete rezultate u navigacionom baru.
+- Unesite naziv linka (`Text`): na liniji konfiguracije, počnite popunjavanjem polja `Text`. Ovo odgovara nazivu linka prikazanom u navigacionoj traci (primeri: *Dashboard*, *Users*, *Settings*...).
+- Unesite link Address (`Url`): pored polja `Text`, pronaći ćete polje `Url`. U ovo polje unesite Address stranice na koju bi link trebalo da preusmeri. Ovo može biti interna ruta ili link ka eksternoj stranici.
+- **Dodajte više veza ako je potrebno**: ispod prvog reda, dostupna su nova polja `Text` i `Url` za dodavanje onoliko veza koliko je potrebno. Svaka linija predstavlja dodatnu navigacionu vezu.
+- **Sačuvaj linkove**: kada unesete sve Elements, kliknite na dugme `Dodaj link u navigacioni bar` da sačuvate i prikažete rezultate u navigacionom baru.
 
 
 
@@ -547,11 +547,11 @@ Deo **Footer** omogućava vam da prilagodite podnožje vašeg softvera, dodajuć
 
 
 
-- Omogući prikaz oznake "Powered by be-BOP"**: aktiviraj dugme `Display Powered by be-BOP` da bi prikazao ovu oznaku u podnožju.
-- Unesite naziv linka (`Text`)**: popunite polje `Text`, koje odgovara tekstu linka u podnožju (primeri: *Uslovi*, *Privatnost*, *Kontakt*...).
-- Navedite link Address (`Url`)**: u polje `Url` unesite Address ciljne stranice (interna ili eksterna).
-- Dodajte više linkova ako je potrebno**: koristite dodatne linije da kreirate onoliko linkova koliko želite.
-- Sačuvaj linkove**: kliknite na dugme "Dodaj link u podnožje" da sačuvate linkove.
+- Omogući prikaz oznake **"Powered by be-BOP"**: aktiviraj dugme `Display Powered by be-BOP` da bi prikazao ovu oznaku u podnožju.
+- Unesite naziv linka (**Text**): popunite polje `Text`, koje odgovara tekstu linka u podnožju (primeri: *Uslovi*, *Privatnost*, *Kontakt*...).
+- Navedite link Address (`Url`): u polje `Url` unesite Address ciljne stranice (interna ili eksterna).
+- **Dodajte više linkova ako je potrebno**: koristite dodatne linije da kreirate onoliko linkova koliko želite.
+- **Sačuvaj linkove**: kliknite na dugme "Dodaj link u podnožje" da sačuvate linkove.
 
 
 
@@ -641,8 +641,8 @@ Dostupno putem `Admin > Identity` (ili `Settings > Identity`), ovaj odeljak vam 
 
 
 
-- Naziv preduzeća**: zvanični naziv kompanije.
-- Business ID**: pravni identifikator ili registarski broj (RCCM, SIRET...).
+- **Naziv preduzeća**: zvanični naziv kompanije.
+- **Business ID**: pravni identifikator ili registarski broj (RCCM, SIRET...).
 
 
 
@@ -652,11 +652,11 @@ Dostupno putem `Admin > Identity` (ili `Settings > Identity`), ovaj odeljak vam 
 
 
 
-- Ulica**: poštanski Address (ulica, broj...).
-- Country**: zemlja.
-- Država**: pokrajina ili region.
-- Grad**: city.
-- Poštanski broj**: postal code.
+- **Ulica**: poštanski Address (ulica, broj...).
+- **Country**: zemlja.
+- **Država**: pokrajina ili region.
+- **Grad**: city.
+- **Poštanski broj**: postal code.
 
 
 
@@ -666,8 +666,8 @@ Dostupno putem `Admin > Identity` (ili `Settings > Identity`), ovaj odeljak vam 
 
 
 
-- Email**: profesionalni email Address.
-- Telefon**: broj telefona kompanije.
+- **Email**: profesionalni email Address.
+- **Telefon**: broj telefona kompanije.
 
 
 
@@ -677,10 +677,10 @@ Dostupno putem `Admin > Identity` (ili `Settings > Identity`), ovaj odeljak vam 
 
 
 
-- Ime vlasnika računa**: ime vlasnika računa.
-- Vlasnik računa Address**: vlasnik Address.
-- IBAN**: Međunarodni broj bankovnog računa.
-- BIC**: SWIFT/BIC kod.
+- **Ime vlasnika računa**: ime vlasnika računa.
+- Vlasnik računa **Address**: vlasnik Address.
+- **IBAN**: Međunarodni broj bankovnog računa.
+- **BIC**: SWIFT/BIC kod.
 
 
 
@@ -695,7 +695,7 @@ Dostupno putem `Admin > Identity` (ili `Settings > Identity`), ovaj odeljak vam 
 
 
 - Kliknite na `Popuni sa glavnim informacijama prodavnice` da unapred popunite podatke.
-- Informacije o izdavaocu u gornjem desnom uglu**: polje za pravne/porezne informacije vidljivo na fakturama.
+- **Informacije o izdavaocu u gornjem desnom uglu**: polje za pravne/porezne informacije vidljivo na fakturama.
 - Kliknite `Update` da sačuvate izmene.
 
 
@@ -742,9 +742,9 @@ Idite na `Admin > Merch > Products` da biste dodali ili izmenili proizvod. Popun
 
 
 
-- Naziv proizvoda**: naziv proizvoda (npr. *BOP majica ograničeno izdanje*).
-- Slug**: URL identifikator bez razmaka (npr. `tshirt-bop-edition-limitee`).
-- Alias** *(opciono)*: korisno za brzo dodavanje u korpu putem posebnog polja.
+- **Naziv proizvoda**: naziv proizvoda (npr. *BOP majica ograničeno izdanje*).
+- **Slug**: URL identifikator bez razmaka (npr. `tshirt-bop-edition-limitee`).
+- **Alias** *(opciono)*: korisno za brzo dodavanje u korpu putem posebnog polja.
 
 
 
@@ -758,9 +758,9 @@ Idite na `Admin > Merch > Products` da biste dodali ili izmenili proizvod. Popun
 
 
 
-- Cena Iznos**: cena proizvoda (npr. `25.00`).
-- Cena Valuta**: valuta (EUR, USD, BTC, itd.).
-- Specijalni proizvodi**:
+- **Cena Iznos**: cena proizvoda (npr. `25.00`).
+- **Cena Valuta**: valuta (EUR, USD, BTC, itd.).
+- **Specijalni proizvodi**:
   - ovo je besplatan proizvod.
   - ovo je proizvod plati-koliko-želiš.
 
@@ -772,14 +772,14 @@ Idite na `Admin > Merch > Products` da biste dodali ili izmenili proizvod. Popun
 
 
 
-- Jedan proizvod (`standalone`)**: samo jedno dodavanje moguće po narudžbini (npr. donacija, ulaznica).
-- Proizvod sa varijacijama**:
+- Jedan proizvod (`standalone`): samo jedno dodavanje moguće po narudžbini (npr. donacija, ulaznica).
+- **Proizvod sa varijacijama**:
   - Nemoj proveravati `Standalone`.
   - Proveri `Proizvod ima male varijacije (nema razlike u zalihama)`.
   - Dodaj:
-    - Ime** (npr. *Veličina*),
-    - Vrednosti** (npr.: S, M, L, XL),
-    - Razlike u ceni** ako je primenljivo (npr.: `+2 USD` za XL).
+- **Ime** (npr. *Veličina*),
+- **Vrednosti** (npr.: S, M, L, XL),
+- Razlike u ceni ako je primenljivo (npr.: `+2 USD` za XL).
 
 
 
@@ -809,8 +809,8 @@ Sistem upravlja:
 
 
 
-- Rezervisane zalihe** → proizvodi u korpama koji još nisu plaćeni
-- Zalihe prodate** → proizvodi već kupljeni
+- **Rezervisane zalihe** → proizvodi u korpama koji još nisu plaćeni
+- **Zalihe prodate** → proizvodi već kupljeni
 
 
 
@@ -832,8 +832,8 @@ Proveri `Proizvod ima fizičku komponentu koja će biti poslata kupcu na Address
 
 
 
-- Karta**: označite ako je proizvod karta za događaj
-- Rezervacija**: proverite da li je ovo termin za rezervaciju (npr.: sesija, sastanak)
+- **Karta**: označite ako je proizvod karta za događaj
+- **Rezervacija**: proverite da li je ovo termin za rezervaciju (npr.: sesija, sastanak)
 
 
 
@@ -983,7 +983,7 @@ Takođe se može menjati u `Slike`, omogućava vam da prikažete **rezime ili sl
 
 
 
-Vidžeti** obogaćuju vaše CMS stranice dinamičkim ili vizuelnim Elements.
+**Vidžeti** obogaćuju vaše CMS stranice dinamičkim ili vizuelnim elementima.
 
 
 
@@ -1001,14 +1001,14 @@ Primeri dostupnih widgeta:
 
 
 
-- Izazovi**: izazovi ili misije
-- Tagovi**: kategorije ili ključne reči
-- Slajderi**: karuseli sa slikama
-- Specifikacije**: Tabele specifikacija
-- Forms**: forme (kontakt, povratne informacije, itd.)
-- Odbrojavanja**: tajmeri
-- Galerije**: galerije slika
-- Leaderboards**: rangiranje korisnika
+- **Izazovi**: izazovi ili misije
+- **Tagovi**: kategorije ili ključne reči
+- **Slajderi**: karuseli sa slikama
+- **Specifikacije**: Tabele specifikacija
+- **Forms**: forme (kontakt, povratne informacije, itd.)
+- **Odbrojavanja**: tajmeri
+- **Galerije**: galerije slika
+- **Leaderboards**: rangiranje korisnika
 
 
 
@@ -1166,9 +1166,9 @@ Izveštaji su podeljeni u odeljke:
 
 
 
-- Detalji narudžbine**: broj narudžbina, status (potvrđeno, otkazano, na čekanju), evolucija
-- Detalji proizvoda**: prodati proizvodi, količine, popularni proizvodi
-- Detalji Plaćanja**: iznosi prikupljeni, razvrstani po načinu plaćanja
+- **Detalji narudžbine**: broj narudžbina, status (potvrđeno, otkazano, na čekanju), evolucija
+- **Detalji proizvoda**: prodati proizvodi, količine, popularni proizvodi
+- **Detalji Plaćanja**: iznosi prikupljeni, razvrstani po načinu plaćanja
 
 
 
@@ -1310,9 +1310,9 @@ Kada kreirate ili modifikujete temu, možete definisati:
 
 
 
-- Boje**: za dugmad, pozadine, tekst, linkove, itd.
-- Fontovi**: izbor tipova pisma za naslove, paragrafe, menije
-- Grafički stilovi**: ivice, margine, razmaci, oblici blokova
+- **Boje**: za dugmad, pozadine, tekst, linkove, itd.
+- **Fontovi**: izbor tipova pisma za naslove, paragrafe, menije
+- **Grafički stilovi**: ivice, margine, razmaci, oblici blokova
 
 
 
@@ -1326,9 +1326,9 @@ Svaki deo sajta može se podešavati nezavisno:
 
 
 
-- Zaglavlje**: gornja navigaciona traka
-- Body**: glavni sadržaj
-- Futer**: dno stranice
+- **Zaglavlje**: gornja navigaciona traka
+- **Body**: glavni sadržaj
+- **Futer**: dno stranice
 
 
 
@@ -1377,8 +1377,8 @@ Svaki email (potvrda narudžbine, zaboravljena lozinka, itd.) ima:
 
 
 
-- Subject**: predmet e-pošte (npr. "Vaša narudžbina je potvrđena")
-- HTML Telo**: HTML sadržaj prikazan u e-pošti
+- **Subject**: predmet e-pošte (npr. "Vaša narudžbina je potvrđena")
+- **HTML Telo**: HTML sadržaj prikazan u e-pošti
 
 
 
@@ -1444,9 +1444,9 @@ Popunite sledeća polja:
 
 
 
-- Ime Oznake**: prikazano ime oznake
-- Slug**: jedinstveni_identifikator (bez razmaka ili akcenata)
-- Oznaka Porodica**: grupiše oznake po kategoriji
+- **Ime Oznake**: prikazano ime oznake
+- **Slug**: jedinstveni_identifikator (bez razmaka ili akcenata)
+- **Oznaka Porodica**: grupiše oznake po kategoriji
 
 
 
@@ -1479,9 +1479,9 @@ Ova polja se mogu koristiti za obogaćivanje oznake kao da je stranica sa sadrž
 
 - Naslov
 - Podnaslov
-- Kratak** sadržaj
-- Pun sadržaj** (na francuskom)
-- CTAs** (dugmad za akciju)
+- **Kratak** sadržaj
+- **Pun sadržaj** (na francuskom)
+- **CTAs** (dugmad za akciju)
 
 
 
@@ -1520,8 +1520,8 @@ Da biste ponudili dokumente za preuzimanje svojim kupcima: `Admin > Merch > File
 
 
 
-   - Ime datoteke** (npr. *Vodič za instalaciju*)
-   - Datoteka za otpremanje** (PDF, slika, Word...)
+- **Ime datoteke** (npr. *Vodič za instalaciju*)
+- **Datoteka za otpremanje** (PDF, slika, Word...)
 
 
 
@@ -1539,7 +1539,7 @@ Ovaj link se zatim može umetnuti u:
 
 
 
-- CMS** stranica (kao tekstualni link ili dugme)
+- **CMS** stranica (kao tekstualni link ili dugme)
 - **e-mail klijent** (putem šablona)
 - **list proizvoda** (npr. preuzimanje priručnika)
 
@@ -1635,9 +1635,9 @@ Datoteke za prevod su u JSON formatu. Možete:
 
 
 
-- Preuzmi** jezičke datoteke
-- Izmeni** postojeće tekstove
-- Dodajte** svoje prevode
+- **Preuzmi** jezičke datoteke
+- **Izmeni** postojeće tekstove
+- Dodajte **svoje prevode**
 
 
 
@@ -1678,9 +1678,9 @@ Svaka uloga sadrži:
 
 
 
-- write access**: write access
-- read access**: read access
-- zabranjen pristup**: zabranjeni odeljci
+- **write access**: write access
+- **read access**: read access
+- **zabranjen pristup**: zabranjeni odeljci
 
 
 
@@ -1779,8 +1779,8 @@ Dve napredne opcije su dostupne:
 
 
 
-- Izuzimanje od PDV-a**: primenljivo uz opravdanje (NVO, stranci...)
-- Poklon popust**: izuzetan popust uz obavezan komentar
+- **Izuzimanje od PDV-a**: primenljivo uz opravdanje (NVO, stranci...)
+- **Poklon popust**: izuzetan popust uz obavezan komentar
 
 
 

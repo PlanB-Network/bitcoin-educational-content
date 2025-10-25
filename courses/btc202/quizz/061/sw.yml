@@ -1,0 +1,9 @@
+question: Ni faida gani kuu ya Tailscale juu ya Tor kwa ufikiaji wa mbali kwa Umbrel?
+answer: Muunganisho wa kasi zaidi
+wrong_answers:
+  - Usimbaji fiche wenye nguvu zaidi kuliko WireGuard
+  - Utangamano na ruta za biashara
+  - Uwezo wa kutumia Electrs nje ya mtandao
+explanation: |
+  Tailcale inatoa usalama wa WireGuard, lakini kwa kasi ya unganisho la wazi, tofauti na Tor, ambayo ni polepole.
+reviewed: true

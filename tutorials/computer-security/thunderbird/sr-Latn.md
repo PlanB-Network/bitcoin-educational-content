@@ -17,13 +17,13 @@ Thunderbird je aplikacija za e-poštu poznata po svojoj fleksibilnosti i široko
 
 
 
-- Besplatan i otvorenog koda**: za razliku od mnogih aplikacija za razmenu poruka, Thunderbird je potpuno besplatan. Međutim, možete podržati zajednicu programera slanjem donacije.
-- Intuitivan Interface i lak za učenje**: Thunderbirdova konfiguracija je, uglavnom, jednostavna, tako da ne morate brinuti o tome.
-- Pogodno za nekoliko vrsta e-pošte**: bilo da je u pitanju Gmail, Yahoo, Outlook ili čak poslovne e-pošte povezane sa nazivom domena, ovaj poštanski sandučić je veoma svestran.
-- Multi-account**: Thunderbird vam omogućava da se povežete sa nekoliko e-mail naloga odjednom, što olakšava pristup svim vašim porukama.
-- Funkcije visokih performansi i skalabilnost**: po defaultu, Thunderbird nudi širok spektar funkcija za upravljanje vašim e-mail nalozima i kalendarom događaja. Međutim, takođe vam omogućava dodavanje dodatnih opcija zahvaljujući mnogim dostupnim ekstenzijama.
-- Više platformi**: Thunderbird je dostupan na različitim uređajima (Android, Windows, Linux, macOS), omogućavajući vam lak pristup vašim e-mailovima.
-- Sigurnost**: Thunderbird je veoma sigurna aplikacija, koja vam omogućava da koristite end-to-end enkripciju zasnovanu na RSA ili ECC (Eliptična Kriva) kako biste garantovali poverljivost vaših podataka.
+- **Besplatan i otvorenog koda**: za razliku od mnogih aplikacija za razmenu poruka, Thunderbird je potpuno besplatan. Međutim, možete podržati zajednicu programera slanjem donacije.
+- **Intuitivan Interface i lak za učenje**: Thunderbirdova konfiguracija je, uglavnom, jednostavna, tako da ne morate brinuti o tome.
+- **Pogodno za nekoliko vrsta e-pošte**: bilo da je u pitanju Gmail, Yahoo, Outlook ili čak poslovne e-pošte povezane sa nazivom domena, ovaj poštanski sandučić je veoma svestran.
+- **Multi-account**: Thunderbird vam omogućava da se povežete sa nekoliko e-mail naloga odjednom, što olakšava pristup svim vašim porukama.
+- **Funkcije visokih performansi i skalabilnost**: po defaultu, Thunderbird nudi širok spektar funkcija za upravljanje vašim e-mail nalozima i kalendarom događaja. Međutim, takođe vam omogućava dodavanje dodatnih opcija zahvaljujući mnogim dostupnim ekstenzijama.
+- **Više platformi**: Thunderbird je dostupan na različitim uređajima (Android, Windows, Linux, macOS), omogućavajući vam lak pristup vašim e-mailovima.
+- **Sigurnost**: Thunderbird je veoma sigurna aplikacija, koja vam omogućava da koristite end-to-end enkripciju zasnovanu na RSA ili ECC (Eliptična Kriva) kako biste garantovali poverljivost vaših podataka.
 
 
 
@@ -59,8 +59,8 @@ Na Windows-u, pokrenite preuzetu izvršnu datoteku da biste započeli instalacij
 
 
 
-- Standard**: omogućava direktnu instalaciju bez prethodne konfiguracije.
-- Custom**: omogućava vam da izaberete folder za instalaciju i da li želite da kreirate prečice na radnoj površini ili ne.
+- **Standard**: omogućava direktnu instalaciju bez prethodne konfiguracije.
+- **Custom**: omogućava vam da izaberete folder za instalaciju i da li želite da kreirate prečice na radnoj površini ili ne.
 
 
 

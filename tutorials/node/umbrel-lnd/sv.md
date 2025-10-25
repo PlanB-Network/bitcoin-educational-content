@@ -1,5 +1,5 @@
 ---
-name: Paraply LND
+name: Umbrel LND
 description: Avancerad handledning om installation och konfiguration av Lightning Network Daemon (LND) på Umbrel
 ---
 ![cover](assets/cover.webp)
@@ -154,7 +154,7 @@ Du kan välja mellan att skapa en ny nod eller att återställa en nod från en 
 
 
 
-**Note: På de senaste versionerna av Umbrel ger installationen av Lightning-appen detta 24 ord seed (själva Umbrel-noden Bitcoin gör det inte).
+**Note:** På de senaste versionerna av Umbrel ger installationen av Lightning-appen detta 24 ord seed (själva Umbrel-noden Bitcoin gör det inte).
 
 
 
@@ -496,11 +496,11 @@ Din Lightning Umbrel-nod kräver två typer av säkerhetskopior:
 
 - Innehåller information om Lightning-kanalen
 - Möjliggör tvingad stängning av kanalen i händelse av en krasch
-- Viktigt:** Spara aldrig filen `channel.db` manuellt (risk för påföljder)
+- **Viktigt:** Spara aldrig filen `channel.db` manuellt (risk för påföljder)
 
 
 
-**Manuellt förfarande för säkerhetskopiering
+**Manuellt förfarande för säkerhetskopiering**
 
 
 
@@ -620,10 +620,10 @@ https://planb.network/tutorials/node/lightning-network/watch-tower-26937006-dfe5
 
 
 
-- Programuppdateringar:** Håll Umbrel och LND uppdaterade (säkerhetsfixar)
-- Hårdvaruskydd:** Använd ett stabilt system (Raspberry Pi med SSD, mini-PC) och en UPS
-- Nätverkssäkerhet:** Behåll standardkonfigurationen för Tor, ändra lösenordet för Umbrels administratör (standard: "moneyprintergobrrr")
-- Kryptering:** Aktivera diskkryptering om möjligt
+- **Programuppdateringar:** Håll Umbrel och LND uppdaterade (säkerhetsfixar)
+- **Hårdvaruskydd:** Använd ett stabilt system (Raspberry Pi med SSD, mini-PC) och en UPS
+- **Nätverkssäkerhet:** Behåll standardkonfigurationen för Tor, ändra lösenordet för Umbrels administratör (standard: "moneyprintergobrrr")
+- **Kryptering:** Aktivera diskkryptering om möjligt
 
 
 
@@ -691,10 +691,10 @@ RTL är en komplett "schweizisk armékniv" för att administrera en Lightning-no
 
 
 
-- Lightning Shell** : Kommandorad (lncli) via webbläsare
-- BTC RPC Explorer & Mempool** : Övervakning Blockchain
-- LNmetrics & Torq**: Analys av routningsprestanda
-- Amboss & 1ML**: "Social" hantering av din nod (alias, kontakter, nätverksanalys)
+- **Lightning Shell**: Kommandorad (lncli) via webbläsare
+- **BTC RPC Explorer & Mempool**: Övervakning Blockchain
+- **LNmetrics & Torq**: Analys av routningsprestanda
+- **Amboss & 1ML**: "Social" hantering av din nod (alias, kontakter, nätverksanalys)
 
 
 

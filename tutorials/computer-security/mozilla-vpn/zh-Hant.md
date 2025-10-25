@@ -183,7 +183,7 @@ Mozilla VPN 允許您以兩種格式選擇您的位置：
 
 
 
-Mozilla VPN 永遠以確保用戶的機密性為目標，Mozilla VPN 具有 ** 終止切換 *** 系統，可在 VPN 因任何原因斷線時終止您的網際網路連線。這可以保護您的 IP Address 和其他個人資訊。
+Mozilla VPN 永遠以確保用戶的機密性為目標，Mozilla VPN 具有 **終止切換** 系統，可在 VPN 因任何原因斷線時終止您的網際網路連線。這可以保護您的 IP Address 和其他個人資訊。
 
 
 

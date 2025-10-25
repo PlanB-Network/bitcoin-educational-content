@@ -193,7 +193,7 @@ Chagua jina na maelezo ya "*Chumba* chako", kisha ubofye "*Unda gumzo la kikundi
 
 
 
-"*Chumba*" chako sasa kimeundwa. Bofya aikoni ya "+*" iliyo juu kulia ili kuwaalika washiriki.
+"*Chumba*" chako sasa kimeundwa. Bofya aikoni ya "**+**" iliyo juu kulia ili kuwaalika washiriki.
 
 
 

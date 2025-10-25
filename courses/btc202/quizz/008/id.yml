@@ -1,0 +1,9 @@
+question: Apa fungsi utama dari Bitcoin Wallet?
+answer: Menyimpan dan mengelola kunci pribadi
+wrong_answers:
+  - Menyimpan dan mengelola Blockchain yang lengkap
+  - Periksa validitas blok
+  - Menyampaikan transaksi jaringan
+explanation: |
+  Bitcoin Wallet mengelola kunci privat yang memungkinkan bitcoin dibelanjakan, tetapi tidak menjalankan fungsi node.
+reviewed: true

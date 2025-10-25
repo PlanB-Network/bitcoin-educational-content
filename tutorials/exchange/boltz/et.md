@@ -25,10 +25,10 @@ Bitcoin protokolli kihtide vahel jäi siiski üks suur probleem: sujuv koostalit
 
 
 
-- on chain**: Bitcoin peamine kett, kus tehinguid kinnitatakse keskmiselt iga 10 minuti järel, tehingutasud on sageli kõrged, mis ei pruugi vastata kasutajate vajadustele ;
-- Lightning Network**: Bitcoin pealekandmine madala tasu eest tehtavateks välkmakseteks, mis võimaldab Bitcoin kasutada igapäevasteks makseteks;
-- Liquid Network**: Blockstream'i loodud Bitcoin kattekiht, mis võimaldab kiire, Confidential Transactions ja muude Bitcoin-põhiste finantsinstrumentide kasutamist;
-- RootStock**: Bitcoin protokollil põhinev lahendus arukate lepingute arendamiseks.
+- **on chain**: Bitcoin peamine kett, kus tehinguid kinnitatakse keskmiselt iga 10 minuti järel, tehingutasud on sageli kõrged, mis ei pruugi vastata kasutajate vajadustele ;
+- **Lightning Network**: Bitcoin pealekandmine madala tasu eest tehtavateks välkmakseteks, mis võimaldab Bitcoin kasutada igapäevasteks makseteks;
+- **Liquid Network**: Blockstream'i loodud Bitcoin kattekiht, mis võimaldab kiire, Confidential Transactions ja muude Bitcoin-põhiste finantsinstrumentide kasutamist;
+- **RootStock**: Bitcoin protokollil põhinev lahendus arukate lepingute arendamiseks.
 
 
 

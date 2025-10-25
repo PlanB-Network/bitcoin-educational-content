@@ -563,7 +563,7 @@ Bir "Maker" olarak, %0,25'lik bir ücretten yararlandığınız için daha da iy
 
 
 
-Kraken Pro'ya** erişmek için, ekranın sağ üst köşesinde kare şeklinde dizilmiş 9 küçük noktaya tıklayın ve "Kraken Pro "yu seçin.
+Kraken Pro'ya erişmek için, ekranın sağ üst köşesinde kare şeklinde dizilmiş 9 küçük noktaya tıklayın ve **"Kraken Pro"**yu seçin.
 
 
 
@@ -579,7 +579,7 @@ Interface daha sonra aşağıda gösterildiği gibi değişir.
 
 
 
-Kraken Pro** üzerinden alım/satım yapmak için sol üst köşedeki "Ticaret" seçeneğine tıklayın.
+**Kraken Pro** üzerinden alım/satım yapmak için sol üst köşedeki "Ticaret" seçeneğine tıklayın.
 
 
 

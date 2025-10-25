@@ -1,5 +1,5 @@
 ---
-name: Zeus Tertanam
+name: Zeus Embedded
 description: Cara menggunakan Lightning Zeus Embedded Wallet
 ---
 ![cover-zeus-embedded](assets/cover.webp)
@@ -13,17 +13,17 @@ Tetapi aplikasi ini juga memiliki fitur "Node tertanam".
 
 
 
-**Aspek aplikasi inilah yang akan kita jelajahi dalam tutorial ini. Hal ini memungkinkan siapa saja untuk memiliki node petir mereka sendiri di ponsel, tanpa perlu server khusus, dengan cara yang sama seperti ACINQ menawarkan petir Wallet yang luar biasa, Phoenix.
+**Aspek aplikasi inilah yang akan kita jelajahi dalam tutorial ini.** Hal ini memungkinkan siapa saja untuk memiliki node petir mereka sendiri di ponsel, tanpa perlu server khusus, dengan cara yang sama seperti ACINQ menawarkan petir Wallet yang luar biasa, Phoenix.
 
 
 
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-*Sebagai pengingat, Lightning adalah sebuah jaringan yang beroperasi secara paralel dengan Bitcoin, yang memungkinkan bitcoin untuk ditukarkan tanpa harus melakukan transaksi On-Chain secara sistematis. Hasilnya adalah transaksi yang hampir seketika, tanpa perlu menunggu 10 menit untuk memvalidasi sebuah blok. Hal ini sangat berguna ketika membayar pedagang di dunia fisik. Terlebih lagi, Lightning memberikan tingkat kerahasiaan yang luar biasa yang tidak dimiliki oleh jaringan Bitcoin.
+**Sebagai pengingat, Lightning adalah sebuah jaringan yang beroperasi secara paralel dengan Bitcoin, yang memungkinkan bitcoin untuk ditukarkan tanpa harus melakukan transaksi On-Chain secara sistematis. Hasilnya adalah transaksi yang hampir seketika, tanpa perlu menunggu 10 menit untuk memvalidasi sebuah blok. Hal ini sangat berguna ketika membayar pedagang di dunia fisik. Terlebih lagi, Lightning memberikan tingkat kerahasiaan yang luar biasa yang tidak dimiliki oleh jaringan Bitcoin.**
 
 
 
-**Zeus "Integrated" ditujukan untuk para pengguna Bitcoin yang ingin memaksimalkan privasi dan otonomi mereka.
+**Zeus "Integrated"** ditujukan untuk para pengguna Bitcoin yang ingin memaksimalkan privasi dan otonomi mereka.
 
 
 Singkatnya, ini adalah ponsel Wallet impian para cypherpunks. Meskipun masih dalam tahap awal (versi alfa) dan masih terdapat beberapa bug, fitur-fiturnya sangat banyak, dan tidak diragukan lagi bahwa ini akan menyenangkan para pemberani di antara kita, yang menginginkan kontrol dan pilihan maksimum.
@@ -248,7 +248,7 @@ Pada layar berikutnya, Anda diminta untuk membuka saluran yang bekerja sama deng
 Untuk tutorial ini, kita akan memilih opsi ini demi kemudahan, tetapi sangat mungkin untuk membuka saluran dengan node apa pun di jaringan.
 
 
-Bahkan dimungkinkan untuk membuka beberapa saluran dalam satu transaksi dengan memilih "OPEN ADDITIONAL CHANNEL". *Tetapi kita akan membahas hal ini dalam versi "lanjutan" dari tutorial **Zeus Embedded****.
+Bahkan dimungkinkan untuk membuka beberapa saluran dalam satu transaksi dengan memilih "OPEN ADDITIONAL CHANNEL". *Tetapi kita akan membahas hal ini dalam versi "lanjutan" dari tutorial* **Zeus Embedded**.
 
 
 

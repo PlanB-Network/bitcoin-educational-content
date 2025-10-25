@@ -327,37 +327,37 @@ To enhance your reputation on Bisq as a seller, conduct regular transactions and
 ### Benefits of Bisq 2
 
 
-- Maximum confidentiality**: No KYC, use of Tor
-- Decentralization**: No central server
-- Security**: Open source, non-custodial code
-- Intuitive interface**: simpler than Bisq 1
-- Flexibility**: Multiple exchange protocols
+- **Maximum confidentiality**: No KYC, use of Tor
+- **Decentralization**: No central server
+- **Security**: Open source, non-custodial code
+- **Intuitive interface**: simpler than Bisq 1
+- **Flexibility**: Multiple exchange protocols
 
 ### Bisq 2 disadvantages
 
 
-- Limited liquidity** (for the moment) :
+- **Limited liquidity** (for the moment) :
  - New protocol in start-up phase
  - Few sales offers available
  - Potentially long waiting times to find a buyer
-- Trading limits**: Maximum of USD 600 per transaction (with Bisq easy)
-- Desktop only**: No mobile application
+- **Trading limits**: Maximum of USD 600 per transaction (with Bisq easy)
+- **Desktop only**: No mobile application
 
 ## Future Protocols
 
 Although Bisq Easy is currently the only protocol available, several other protocols are under development for Bisq 2 :
 
 
-- Bisq Lightning**: Exchange protocol based on an escrow system using multiparty computation cryptography on the Lightning network.
-- Bisq MuSig**: Migration of the main protocol from Bisq 1 to Bisq 2, using a 2-on-2 multisig with security deposits.
-- BSQ Swaps**: Instant atomic swaps between BSQ and BTC.
-- Liquid Swaps**: Exchange of assets on the Liquid network (USDT, BTC-L) via atomic swaps.
-- Monero Swaps**: Atomic exchanges between Bitcoin and Monero.
-- Liquid MuSig**: Version of the multisig protocol using L-BTC for lower costs and greater confidentiality.
-- Submarine Swaps**: Exchanges between Bitcoin on the Lightning network and Bitcoin on-chain.
-- Stablecoin Swaps**: Atomic exchanges between Bitcoin and USD stablecoins.
-- Multisig Options**: Creation of P2P put and call options with BTC blocking in an on-chain multisig transaction.
-- Multisig Open Contracts**: Enables the creation of customized conditional contracts using a 2-on-3 multisig system with arbitrage.
+- **Bisq Lightning**: Exchange protocol based on an escrow system using multiparty computation cryptography on the Lightning network.
+- **Bisq MuSig**: Migration of the main protocol from Bisq 1 to Bisq 2, using a 2-on-2 multisig with security deposits.
+- **BSQ Swaps**: Instant atomic swaps between BSQ and BTC.
+- **Liquid Swaps**: Exchange of assets on the Liquid network (USDT, BTC-L) via atomic swaps.
+- **Monero Swaps**: Atomic exchanges between Bitcoin and Monero.
+- **Liquid MuSig**: Version of the multisig protocol using L-BTC for lower costs and greater confidentiality.
+- **Submarine Swaps**: Exchanges between Bitcoin on the Lightning network and Bitcoin on-chain.
+- **Stablecoin Swaps**: Atomic exchanges between Bitcoin and USD stablecoins.
+- **Multisig Options**: Creation of P2P put and call options with BTC blocking in an on-chain multisig transaction.
+- **Multisig Open Contracts**: Enables the creation of customized conditional contracts using a 2-on-3 multisig system with arbitrage.
 
 These protocols are currently under development and will be progressively integrated into Bisq 2, offering greater flexibility to users according to their specific needs.
 

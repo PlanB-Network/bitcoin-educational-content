@@ -33,7 +33,7 @@ Fedi Wallet är en Bitcoin Wallet som kommer med ett nytt sätt att spara dina n
 
 
 
-- Förvaltare**: Du bestämmer dig för att sätta din tillit till en extern enhet, Wallet-utvecklaren, som kommer att behålla återställningsorden för din Wallet åt dig. Du har varken tillgång till eller möjlighet att exportera din Bitcoin Wallet.
+- **Förvaltare**: Du bestämmer dig för att sätta din tillit till en extern enhet, Wallet-utvecklaren, som kommer att behålla återställningsorden för din Wallet åt dig. Du har varken tillgång till eller möjlighet att exportera din Bitcoin Wallet.
 
 
 
@@ -43,7 +43,7 @@ https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c
 
 
 
-- Självförvaltande** : Applikationen ger dig tillgång till återställningsord så snart du skapar din Wallet. Så du kan fritt exportera dina bitcoins till den Wallet som passar dig bäst.
+- **Självförvaltande**: Applikationen ger dig tillgång till återställningsord så snart du skapar din Wallet. Så du kan fritt exportera dina bitcoins till den Wallet som passar dig bäst.
 
 
 
@@ -103,7 +103,7 @@ I menyn **Federations**, scrolla ner till en federation och klicka sedan på **F
 
 
 
-- Ta emot bitcoins på Fedi**: På startsidan väljer du den federation du vill använda för att ta emot bitcoins och klickar sedan på knappen **Receive** för att skapa en Lightning Invoice med ett belopp att ta emot.
+- Ta emot bitcoins på **Fedi**: På startsidan väljer du den federation du vill använda för att ta emot bitcoins och klickar sedan på knappen **Receive** för att skapa en Lightning Invoice med ett belopp att ta emot.
 
 
 
@@ -113,7 +113,7 @@ I menyn **Federations**, scrolla ner till en federation och klicka sedan på **F
 
 
 
-- Skicka bitcoins**: På startsidan klickar du på knappen **Sänd** för att skicka bitcoins till en Lightning Address, för att betala en Invoice eller göra en offlinebetalning.
+- **Skicka bitcoins**: På startsidan klickar du på knappen **Sänd** för att skicka bitcoins till en Lightning Address, för att betala en Invoice eller göra en offlinebetalning.
 
 
 

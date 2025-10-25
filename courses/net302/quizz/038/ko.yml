@@ -1,0 +1,9 @@
+question: IANA가 RIR에 할당하는 IPv4 블록의 크기를 나타내는 일반적인 CIDR 범위는 무엇인가요?
+answer: /8
+wrong_answers:
+  - /12
+  - /16
+  - /24
+explanation: |
+  IANA는 IPv4 공간을 /8 크기의 블록으로 나누며, 각 블록에는 2^24개의 주소가 포함되어 있습니다.
+reviewed: false

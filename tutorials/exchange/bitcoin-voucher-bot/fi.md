@@ -4,9 +4,9 @@ description: Telegram-robotti ostaa Bitcoin:n luottamuksellisesti
 ---
 ![image](assets/cover.webp)
 
-_Tämän ohjeen on kirjoittanut_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
+_Tämän oppaan on kirjoittanut_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
-# Johdanto
+## Johdanto
 
 BitcoinVoucherBot on työkalu, jolla Bitcoineja voi ostaa Exchange:ssa euroja vastaan.
 
@@ -32,7 +32,7 @@ Telegram-keskustelussa valmistelemme tilauksen, maksamme sen pankkisiirrolla, ja
 
 Aktivointi on yksinkertainen kertatoiminto. Etsi Telegramista _@BitcoinVoucherBot_ ja heti kun pääset botin chattiin, alareunassa erottuu suuri _Start/Start_-painike. Toiminto saa botin vastaamaan, jolloin se esittää valikon tärkeimmistä käytettävissä olevista komennoista. Myös ensimmäiset tervetuliaisviestit tulevat näkyviin, jotka kannattaa lukea huolellisesti.
 
-**Varoitus**: on olemassa useita huijareita, jotka esiintyvät alkuperäisenä VoucherBotina. Jos et ole varma hausta Telegramin kautta, käytä BitcoinVoucherBot-linkkiä [virallisilla verkkosivuilla](https://www.bitcoinvoucherbot.com/)
+**Varoitus**: on useita huijareita, jotka teeskentelevät olevansa alkuperäinen VoucherBot. Jos et ole varma hausta Telegramin kautta, käytä BitcoinVoucherBot-linkkiä [viralliselta sivustolta](https://www.bitcoinvoucherbot.com/)
 
 ![image](assets/it/01.webp)
 
@@ -53,9 +53,9 @@ Tärkeimpiä toimintoja ovat:
 - _/fees_: komento verkkomaksujen tarkistamiseksi. Niiden arvioimiseksi on aina parasta luottaa Mempool.spaceen.
 - _/support_: tarvittaessa avautuu yhteystietoja, joiden kautta voit ilmoittaa ongelmista tukitiimille.
 
-# Bitcoin hankintamenettely
+## Bitcoinin ostoprosessi
 
-## Tilauksen valmistelu
+### Tilauksen valmistelu
 
 Napsauta komentovalikosta _/purchase_
 
@@ -97,7 +97,7 @@ Jos kaikki on oikein, jatka valitsemalla _Proceed_.
 
 ![image](assets/it/10.webp)
 
-## Maksu
+### Maksu
 
 Muutaman hetken kuluttua, joka on tarpeen tietojen käsittelemiseksi, VoucherBot vastaa viestillä, joka sisältää kaikki tilauksen loppuunsaattamiseen tarvittavat tiedot. Riippuen siitä, mitä pankkisi vaatii, asiaankuuluvat tiedot ovat:
 
@@ -124,7 +124,7 @@ Huom:
 - kaikkiin tarpeisiin, Bitcoin VoucherBotilla on erinomainen [tuki](https://t.me/BitcoinVoucherGroup) palvelu Telegramissa.
 
 ---
-## Lunastus
+### Lunastus
 
 Heti kun maksu on onnistunut, Bitcoin VoucherBot lähettää kupongin suoraan chattiin. Salamakuponki on QR-koodin muodossa, joka on painettu oranssille taustalle.
 
@@ -139,7 +139,7 @@ Siellä on kaikki tarvittavat tiedot sen lunastamiseksi:
 
 Voit lunastaa kupongin kehystämällä QR-koodin yhteensopivan Wallet Lightning Network -laitteen skannaustoiminnolla tai LNURL:n kautta, joka näkyy myös QR-koodin alla.
 
-Tässä opetusohjelmassa käytimme Wallet:tä Satoshi:stä käyttäen skannaustoimintoa, joka aktivoitiin _Send_-näppäimellä
+Tässä ohjeessa käytimme Wallet Of Satoshi -sovellusta hyödyntäen skannaustoimintoa, joka aktivoidaan _Send_-painikkeella.
 
 ![image](assets/it/32.webp)
 
@@ -147,17 +147,17 @@ Kun kännykkäkamera on aktivoitu, kehystä QR-koodi chatissa, avaa Telegram tie
 
 ![image](assets/it/34.webp)
 
-Ennen kuin jatkat, Wallet Of Satoshi alkaen todentamisnäyttö, joka sisältää määrän, joka täsmälleen vastaa summaa ilmaistu tositteen ja, kuvauksena, BitcoinVoucherBot. Voit lunastaa kupongin yksinkertaisesti klikkaamalla _Receive_
+Ennen jatkamista Wallet Of Satoshi näyttää vahvistusnäytön, joka sisältää summan, joka vastaa täsmälleen voucherissa ilmoitettua, sekä kuvauksena BitcoinVoucherBot. Voucherin lunastamiseen riittää, että napsautat _Receive_.
 
 ![image](assets/it/35.webp)
 
-Wallet:n ja Satoshi:n prosessit kestävät muutaman hetken
+Wallet Of Satoshi käsittelee hetken aikaa.
 
 ![image](assets/it/36.webp)
 
 ja lopuksi keräys ilmoitetaan ja se on välittömästi käytettävissä Wallet:n saldossa.
 
-** Satoshi:n Wallet on säilytyssovellus: heti tositteen lunastamisen jälkeen on suositeltavaa siirtää Sats ei-huoltosovellukseen Wallet. **
+**Wallet of Satoshi on säilytyslompakko: heti voucherin lunastamisen jälkeen on suositeltavaa siirtää satsit non-custodial-lompakkoon.**
 
 ![image](assets/it/37.webp)
 

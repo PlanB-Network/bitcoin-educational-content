@@ -83,15 +83,15 @@ paolo@planb.network
 Để đóng góp cho Plan ₿ Network, bạn có 3 lựa chọn tùy thuộc vào mức độ kinh nghiệm của bạn với GitHub:
 
 
-- Người dùng có kinh nghiệm**: Tiếp tục với các phương pháp thông thường của bạn và chỉ cần tham khảo hướng dẫn ngắn bên dưới tóm tắt cấu trúc tệp kho lưu trữ Plan ₿ Network, các yêu cầu cụ thể và phương pháp làm việc:
+- **Người dùng có kinh nghiệm**: Tiếp tục với các phương pháp thông thường của bạn và chỉ cần tham khảo hướng dẫn ngắn bên dưới tóm tắt cấu trúc tệp kho lưu trữ Plan ₿ Network, các yêu cầu cụ thể và phương pháp làm việc:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
-- Trung cấp (GitHub Desktop)**: Nếu bạn không quen sử dụng Git, tùy chọn đầu tiên là dễ dàng thiết lập môi trường cục bộ của riêng bạn để đóng góp cho Plan ₿ Network. Phương pháp này được khuyến nghị cho những đóng góp quan trọng, chẳng hạn như viết hướng dẫn đầy đủ. Để thực hiện việc này, hãy làm theo hướng dẫn từng bước bên dưới:
+- **Trung cấp (GitHub Desktop)**: Nếu bạn không quen sử dụng Git, tùy chọn đầu tiên là dễ dàng thiết lập môi trường cục bộ của riêng bạn để đóng góp cho Plan ₿ Network. Phương pháp này được khuyến nghị cho những đóng góp quan trọng, chẳng hạn như viết hướng dẫn đầy đủ. Để thực hiện việc này, hãy làm theo hướng dẫn từng bước bên dưới:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
-- Người mới bắt đầu (giao diện web)**: Bạn cũng có thể chọn sử dụng trực tiếp giao diện web của GitHub mà không cần phải thiết lập môi trường cục bộ hoàn chỉnh. Phương pháp này có thể được cân nhắc cho những đóng góp nhỏ. Tuy nhiên, đối với những đóng góp lớn, chẳng hạn như thêm một hướng dẫn hoàn toàn mới, tùy chọn này có thể phức tạp hơn so với việc thiết lập môi trường cục bộ. Tôi sẽ giải thích cách thực hiện trong hướng dẫn này:
+- **Người mới bắt đầu (giao diện web)**: Bạn cũng có thể chọn sử dụng trực tiếp giao diện web của GitHub mà không cần phải thiết lập môi trường cục bộ hoàn chỉnh. Phương pháp này có thể được cân nhắc cho những đóng góp nhỏ. Tuy nhiên, đối với những đóng góp lớn, chẳng hạn như thêm một hướng dẫn hoàn toàn mới, tùy chọn này có thể phức tạp hơn so với việc thiết lập môi trường cục bộ. Tôi sẽ giải thích cách thực hiện trong hướng dẫn này:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 

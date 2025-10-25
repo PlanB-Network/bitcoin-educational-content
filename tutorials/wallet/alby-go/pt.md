@@ -9,18 +9,18 @@ description: Guia para a aplicação móvel Alby Go
 ## 🚀 Bem-vindo ao Alby Go - o Wallet móvel mais fácil de utilizar
 
 
-*a *Alby Go** é uma aplicação móvel de código aberto e fácil de utilizar, que actua como um nó de iluminação e carteira Wallet Interface para Bitcoin. Eis como começar e tirar o máximo partido da sua experiência.
+**Alby Go** é uma aplicação móvel de código aberto e fácil de utilizar, que actua como um nó de iluminação e carteira Wallet Interface para Bitcoin. Eis como começar e tirar o máximo partido da sua experiência.
 
 
 **✅ Carteiras/Nós suportados e compatíveis conhecidos:**
 
 
 
-- [Alby Hub](https://albyhub.com/)** *(recomendado)*
-- Umbrel**, **Start9**, **RaspiBlitz** (via **Alby Hub**)
-- Coinos** *(não testado)*
-- Primal** *(não testado)*
-- Minibits** *(não testado)*
+- [Alby Hub](https://albyhub.com/) **(recomendado)**
+- **Umbrel**, **Start9**, **RaspiBlitz** (via **Alby Hub**)
+- **Coinos** *(não testado)*
+- **Primal** *(não testado)*
+- **Minibits** *(não testado)*
 
 
 A maioria dos serviços compatíveis com NWC deve funcionar. Se estiver a testar um novo serviço, informe a comunidade dos seus resultados!
@@ -33,9 +33,9 @@ Disponível nas principais plataformas:
 
 
 
-- iOS:** [Descarregar da App Store](https://apps.apple.com/us/app/alby-go/id6471335774)
-- Android:** [Descarregar do Google Play] (https://play.google.com/store/apps/details?id=com.getalby.mobile)
-- ZapStore**
+- **iOS:** [Descarregar da App Store](https://apps.apple.com/us/app/alby-go/id6471335774)
+- **Android:** [Descarregar do Google Play](https://play.google.com/store/apps/details?id=com.getalby.mobile)
+- **ZapStore**
 
 
 
@@ -105,7 +105,7 @@ Tanto os códigos QR como as cadeias Invoice estão disponíveis para conveniên
 
 Leve o seu Bitcoin para onde quer que vá.
 
-*o *Alby Go** é leve, rápido e fácil de usar - perfeito para operadores de nós e Bitcoiners em movimento.
+**Alby Go** é leve, rápido e fácil de usar - perfeito para operadores de nós e Bitcoiners em movimento.
 
 Sem inchaço. Sem confusão. Rápido como um relâmpago.
 
@@ -123,6 +123,6 @@ Sem inchaço. Sem confusão. Rápido como um relâmpago.
 - adicionar, remover e exportar carteiras
 
 
-**💡 Precisa de ajuda?
+**💡 Precisa de ajuda?**
 
 Visite getalby.com para obter suporte e actualizações.

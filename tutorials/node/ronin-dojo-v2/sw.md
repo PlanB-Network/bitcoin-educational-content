@@ -5,7 +5,7 @@ description: Kufunga nodi yako ya RoninDojo v2 Bitcoin kwenye Raspberry Pi
 ![cover RoninDojo v2](assets/cover.webp)
 
 
-***ONYO:** Kufuatia kukamatwa kwa waanzilishi wa Samourai Wallet na kunaswa kwa seva zao mnamo Aprili 24, vipengele fulani vya RoninDojo, kama vile Whirlpool, havifanyi kazi tena. Hata hivyo, kuna uwezekano kwamba zana hizi zinaweza kurejeshwa au kuzinduliwa upya kwa njia tofauti katika wiki zijazo. Zaidi ya hayo, kwa kuwa msimbo wa RoninDojo ulipangishwa kwenye GitLab ya Samourai, ambayo pia ilichukuliwa, kwa sasa haiwezekani kupakua msimbo kwa mbali. Timu za RoninDojo huenda zinashughulikia kuchapisha upya msimbo.*
+**ONYO:** Kufuatia kukamatwa kwa waanzilishi wa Samourai Wallet na kunaswa kwa seva zao mnamo Aprili 24, vipengele fulani vya RoninDojo, kama vile Whirlpool, havifanyi kazi tena. Hata hivyo, kuna uwezekano kwamba zana hizi zinaweza kurejeshwa au kuzinduliwa upya kwa njia tofauti katika wiki zijazo. Zaidi ya hayo, kwa kuwa msimbo wa RoninDojo ulipangishwa kwenye GitLab ya Samourai, ambayo pia ilichukuliwa, kwa sasa haiwezekani kupakua msimbo kwa mbali. Timu za RoninDojo huenda zinashughulikia kuchapisha upya msimbo.*
 
 
 _Tunafuatilia kwa karibu maendeleo ya kesi hii pamoja na maendeleo kuhusu zana zinazohusiana. Uwe na uhakika kwamba tutasasisha mafunzo haya kadiri habari mpya zinavyopatikana._
@@ -391,7 +391,7 @@ Hongera! Njia yako ya RoninDojo v2 sasa imesanidiwa na iko tayari kutumika. Itaa
 **Ikiwa unahama kutoka nodi ya zamani ya RoninDojo v1** hadi toleo hili jipya na mafunzo haya huku ukihifadhi SSD sawa, nodi yako inapaswa kutambua kiotomatiki na kutumia tena data iliyopo kwenye diski, kukuepusha na umuhimu wa kutekeleza IBD tena. Katika kesi hii, utahitaji tu kusubiri nodi yako ili kusawazisha na vitalu vya hivi karibuni.
 
 
-### Hatua ya 8: "veth* fix"
+### Hatua ya 8: "veth fix"
 
 Ikiwa unakutana na mdudu na RoninDojo v2 yako kwenye Raspberry Pi, ambapo baada ya usakinishaji usio na shida, nodi yako ghafla haipatikani kupitia SSH lakini inapona baada ya kuanzisha upya rahisi, basi unahitaji kufuata hatua hii ya 8. Hitilafu hii ya kawaida inaweza kurekebishwa kwa urahisi na ufumbuzi uliotengenezwa na jumuiya: "_veth fix_". Usahihishaji huu mdogo husuluhisha kukatika kwa ghafla. Hapa ni jinsi ya kuitumia.
 
@@ -409,7 +409,7 @@ Ikiwa, kwa mfano, IP Address ya nodi yako ni `192.168.1.40`, amri inayofaa itaku
 Utaulizwa kuingiza nenosiri la mtumiaji. Ingiza na ubonyeze `enter` ili kuhalalisha. Kisha utafikia RoninCLI Interface. Tumia vishale vya kibodi yako kwenda kwenye chaguo la `Toka RoninDojo` na ubonyeze `ingia` ili kuichagua.
 
 
-Kwa wakati huu, uko kwenye terminal ya nodi yako, na upesi wa amri sawa na: `ronindojo@RoninDojo:~ $`. Ili kutumia urekebishaji wa veth*, chapa amri ifuatayo na ubonyeze `ingia`:
+Kwa wakati huu, uko kwenye terminal ya nodi yako, na upesi wa amri sawa na: `ronindojo@RoninDojo:~ $`. Ili kutumia urekebishaji wa **veth**, chapa amri ifuatayo na ubonyeze `ingia`:
 
 `sudo nano /etc/dhcpcd.conf`
 
@@ -419,7 +419,7 @@ Thibitisha nenosiri lako tena na ubonyeze `ingiza`.
 
 Utafika kwenye faili ya `dhcpcd.conf`. Unahitaji kunakili maandishi yafuatayo, ukihakikisha kuwa unajumuisha nyota, na kuiongeza chini ya faili:
 
-`nyingi za nyuso veth*`
+`nyingi za nyuso veth`
 
 
 Ili kufanya hivyo, nenda chini ya faili kwa kutumia mshale wa chini kwenye kibodi yako, kisha ubofye kulia kwa kipanya chako ili kubandika maandishi kwenye mstari unaojitegemea.
@@ -532,7 +532,7 @@ Mafunzo ya kina yako katika maandalizi ya kukuongoza hatua kwa hatua katika mcha
 Kwa ufahamu wa kina wa CoinJoin na matumizi yake kwenye Bitcoin, ninakualika pia kushauriana na makala haya mengine: Kuelewa na kutumia CoinJoin kwenye Bitcoin, ambapo ninaelezea kila kitu unachohitaji kujua kuhusu mbinu hii.
 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 
 ### Kwa kutumia Whirlpool Stat Tool (WST)
 
@@ -807,9 +807,9 @@ Hakikisha kwamba miamala yote imeorodheshwa ipasavyo. Ni muhimu pia kuthibitisha
 Zaidi ya zana hii, kichupo cha `Matengenezo` cha RoninUI kimejaa vipengele vingine muhimu:
 
 
-- Zana ya Muamala*: Huruhusu kuchunguza maelezo ya shughuli fulani;
-- Zana ya Address*: Inaruhusu kuthibitisha ufuatiliaji wa Address iliyotolewa na Dojo yako;
-- Changanua upya Vitalu*: Hulazimisha nodi yako kufanya uchanganuzi mpya wa safu maalum ya kuzuia.
+- **Zana ya Muamala**: Huruhusu kuchunguza maelezo ya shughuli fulani;
+- **Zana ya Address**: Inaruhusu kuthibitisha ufuatiliaji wa Address iliyotolewa na Dojo yako;
+- Changanua upya Vitalu: Hulazimisha nodi yako kufanya uchanganuzi mpya wa safu maalum ya kuzuia.
 
 
 Kichupo cha `Push Tx` ni kipengele kingine cha kuvutia cha RoninUI, ambacho huwezesha utangazaji wa shughuli iliyosainiwa kwenye mtandao wa Bitcoin. Muamala lazima uingizwe katika fomu ya hexadecimal.
@@ -835,3 +835,4 @@ Hapo unayo! Asante kwa kufuatilia mafunzo haya hadi mwisho. Ikiwa uliyafurahia, 
 - [https://gist.github.com/LaurentMT/e758767ca4038ac40aaf](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf)
 - [https://medium.com/@laurentmt/introducing-boltzmann-85930984a159](https://medium.com/@laurentmt/introducing-boltzmann-85930984a159)
 - [https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry](https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry)
+

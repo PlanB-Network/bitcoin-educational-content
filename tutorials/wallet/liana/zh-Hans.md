@@ -177,7 +177,7 @@ Liana的主屏幕显示您的余额以及与您的投资组合相关的过去和
 
 ![Écran principal](assets/fr/20.webp)
 
-为了接收资金，请前往 "*接收(Receive)*"选项卡，然后点击 "*生成地址(Generate
+为了接收资金，请前往 **接收(Receive)** 选项卡，然后点击 **生成地址(Generate)**
 address)*"。屏幕上会出现一个新地址。它比传统投资组合的地址更长：这是一个与独立合约（P2WSH 或 Taproot）相连的地址。
 
 ![Générer nouvelle adresse](assets/fr/21.webp)

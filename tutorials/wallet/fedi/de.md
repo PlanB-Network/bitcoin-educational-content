@@ -33,7 +33,7 @@ Fedi Wallet ist ein Bitcoin-Portfolio, das einen neuen Ansatz für die Speicheru
 
 
 
-- Verwahrer**: Sie entscheiden sich dafür, Ihr Vertrauen in eine externe Einrichtung, den Portfolioentwickler, zu setzen, der die Wiederherstellungswörter für Ihr Portfolio für Sie aufbewahrt. Sie haben weder Zugang noch die Möglichkeit, Ihr Bitcoin-Portfolio zu exportieren.
+- **Verwahrer**: Sie entscheiden sich dafür, Ihr Vertrauen in eine externe Einrichtung, den Portfolioentwickler, zu setzen, der die Wiederherstellungswörter für Ihr Portfolio für Sie aufbewahrt. Sie haben weder Zugang noch die Möglichkeit, Ihr Bitcoin-Portfolio zu exportieren.
 
 
 
@@ -43,7 +43,7 @@ https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c
 
 
 
-- Selbsthilfegruppen** : Die Anwendung gibt Ihnen Zugang zu den Wiederherstellungswörtern, sobald Sie Ihr Wallet erstellt haben. So können Sie Ihre Bitcoins frei auf den Wallet exportieren, der Ihnen am besten passt.
+- **Selbsthilfegruppen**: Die Anwendung gibt Ihnen Zugang zu den Wiederherstellungswörtern, sobald Sie Ihr Wallet erstellt haben. So können Sie Ihre Bitcoins frei auf den Wallet exportieren, der Ihnen am besten passt.
 
 
 
@@ -103,7 +103,7 @@ Blättern Sie im Menü **Verbände** nach unten zu einem Verband und klicken Sie
 
 
 
-- Empfangen Sie Bitcoins auf Fedi**: Wählen Sie auf der Startseite die Föderation aus, die Sie für den Empfang von Bitcoins verwenden möchten, und klicken Sie dann auf die Schaltfläche **Empfangen**, um eine Lightning Invoice mit einem zu empfangenden Betrag zu erstellen.
+- Empfangen Sie Bitcoins auf **Fedi**: Wählen Sie auf der Startseite die Föderation aus, die Sie für den Empfang von Bitcoins verwenden möchten, und klicken Sie dann auf die Schaltfläche **Empfangen**, um eine Lightning Invoice mit einem zu empfangenden Betrag zu erstellen.
 
 
 
@@ -113,7 +113,7 @@ Blättern Sie im Menü **Verbände** nach unten zu einem Verband und klicken Sie
 
 
 
-- Bitcoins senden**: Klicken Sie auf der Startseite auf die Schaltfläche **Senden**, um Bitcoins an einen Lightning Address zu senden, einen Invoice zu bezahlen oder eine Offline-Zahlung vorzunehmen.
+- **Bitcoins senden**: Klicken Sie auf der Startseite auf die Schaltfläche **Senden**, um Bitcoins an einen Lightning Address zu senden, einen Invoice zu bezahlen oder eine Offline-Zahlung vorzunehmen.
 
 
 
@@ -232,4 +232,3 @@ Sie haben gerade die Wallet-Tour von Fedi absolviert und sind nun in der Lage, d
 
 
 https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
-

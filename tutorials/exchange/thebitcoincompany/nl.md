@@ -1,5 +1,5 @@
 ---
-name: De Bitcoin Onderneming
+name: The Bitcoin Company
 description: Hoe kan ik goederen en diensten in BTC kopen met The Bitcoin Company?
 ---
 ![cover](assets/cover.webp)

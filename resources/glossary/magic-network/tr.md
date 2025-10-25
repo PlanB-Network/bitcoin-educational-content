@@ -31,4 +31,4 @@ fabfb5da
 ```
 
 
-> ► *Bu 4 bayt bazen "Sihirli Sayı", "Sihirli Bayt" veya "Başlangıç Dizesi" olarak da adlandırılır
+> ► *Bu 4 bayt bazen "Sihirli Sayı", "Sihirli Bayt" veya "Başlangıç Dizesi" olarak da adlandırılır*

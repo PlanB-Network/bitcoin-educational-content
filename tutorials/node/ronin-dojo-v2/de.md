@@ -4,7 +4,7 @@ description: Installation deines RoninDojo v2 Bitcoin-Knotens auf einem Raspberr
 ---
 ![cover RoninDojo v2](assets/cover.webp)
 
-***WARNUNG:** Nach der Verhaftung der Gründer von Samourai Wallet und der Beschlagnahme ihrer Server am 24. April sind bestimmte Funktionen von RoninDojo, wie Whirlpool, nicht mehr funktionsfähig. Es besteht jedoch die Möglichkeit, dass diese Werkzeuge in den kommenden Wochen wieder in Betrieb genommen oder anders neu gestartet werden. Da der Code von RoninDojo auf dem GitLab von Samourai gehostet wurde, das ebenfalls beschlagnahmt wurde, ist es derzeit nicht möglich, den Code aus der Ferne herunterzuladen. Die Teams von RoninDojo arbeiten wahrscheinlich an einer erneuten Veröffentlichung des Codes.*
+**WARNUNG:** Nach der Verhaftung der Gründer von Samourai Wallet und der Beschlagnahme ihrer Server am 24. April sind bestimmte Funktionen von RoninDojo, wie Whirlpool, nicht mehr funktionsfähig. Es besteht jedoch die Möglichkeit, dass diese Werkzeuge in den kommenden Wochen wieder in Betrieb genommen oder anders neu gestartet werden. Da der Code von RoninDojo auf dem GitLab von Samourai gehostet wurde, das ebenfalls beschlagnahmt wurde, ist es derzeit nicht möglich, den Code aus der Ferne herunterzuladen. Die Teams von RoninDojo arbeiten wahrscheinlich an einer erneuten Veröffentlichung des Codes.*
 
 _Wir verfolgen die Entwicklungen in diesem Fall sowie die Entwicklungen bezüglich der zugehörigen Tools genau. Seien Sie versichert, dass wir dieses Tutorial aktualisieren werden, sobald neue Informationen verfügbar sind._
 
@@ -245,7 +245,7 @@ Sie werden aufgefordert, Ihr Benutzerpasswort zu bestätigen. Geben Sie es ein u
 Herzlichen Glückwunsch! Ihr RoninDojo v2 Node ist jetzt konfiguriert und einsatzbereit. Er wird mit dem IBD (*Initial Block Download*) beginnen, um die Bitcoin-Blockchain vom Genesis-Block an herunterzuladen und zu verifizieren. Dieser Schritt umfasst das Abrufen aller seit dem 3. Januar 2009 getätigten Bitcoin-Transaktionen und nimmt einige Zeit in Anspruch. Sobald die Blockchain vollständig heruntergeladen ist, wird der Indexer fortfahren, die Datenbank zu komprimieren. Die Dauer des IBD kann erheblich variieren. Ihr RoninDojo Node wird voll funktionsfähig sein, sobald dieser Prozess abgeschlossen ist.
 **Wenn Sie von einem alten RoninDojo v1 Node** auf diese neue Version mit diesem Tutorial migrieren und dabei die gleiche SSD behalten, sollte Ihr Node automatisch die vorhandenen Daten auf der Festplatte erkennen und wiederverwenden, sodass Sie den IBD nicht erneut durchführen müssen. In diesem Fall müssen Sie nur darauf warten, dass Ihr Node mit den neuesten Blöcken resynchronisiert wird.
 
-### Schritt 8: "veth* fix"
+### Schritt 8: "veth fix"
 Wenn Sie auf Ihrem RoninDojo v2 auf Raspberry Pi auf einen Fehler stoßen, bei dem Ihr Knoten nach einer problemlosen Installation plötzlich über SSH nicht mehr erreichbar ist, sich aber nach einem einfachen Neustart wieder erholt, dann müssen Sie diesen Schritt 8 befolgen. Dieser häufige Fehler kann leicht mit einer von der Gemeinschaft entwickelten Lösung behoben werden: dem "_veth fix_". Diese kleine Korrektur behebt dauerhaft die plötzlichen Verbindungsabbrüche. Hier erfahren Sie, wie Sie sie anwenden.
 
 Öffnen Sie ein neues Terminal auf Ihrem persönlichen Computer und stellen Sie eine SSH-Verbindung zu Ihrem Knoten her, indem Sie den folgenden Befehl verwenden: 
@@ -256,7 +256,7 @@ Wenn beispielsweise die IP-Adresse Ihres Knotens `192.168.1.40` ist, wäre der p
 
 Es wird Sie aufgefordert, das Benutzerpasswort einzugeben. Geben Sie es ein und drücken Sie `Enter`, um zu bestätigen. Sie gelangen dann zur RoninCLI-Schnittstelle. Verwenden Sie die Pfeiltasten Ihrer Tastatur, um zur Option `Exit RoninDojo` zu navigieren und drücken Sie `Enter`, um sie auszuwählen.
 
-An diesem Punkt befinden Sie sich im Terminal Ihres Knotens, mit einem Befehlsprompt ähnlich wie: `ronindojo@RoninDojo:~ $`. Um den veth* fix anzuwenden, geben Sie den folgenden Befehl ein und drücken Sie `Enter`: 
+An diesem Punkt befinden Sie sich im Terminal Ihres Knotens, mit einem Befehlsprompt ähnlich wie: `ronindojo@RoninDojo:~ $`. Um den **veth** fix anzuwenden, geben Sie den folgenden Befehl ein und drücken Sie `Enter`:
 `sudo nano /etc/dhcpcd.conf`
 
 Bestätigen Sie Ihr Passwort erneut und drücken Sie `Enter`.
@@ -325,7 +325,7 @@ Ein detailliertes Tutorial wird vorbereitet, um Sie Schritt für Schritt durch d
 
 Für ein tieferes Verständnis von Coinjoin und dessen Verwendung bei Bitcoin lade ich Sie auch ein, diesen anderen Artikel zu konsultieren: Verständnis und Nutzung von Coinjoin bei Bitcoin, wo ich alles, was Sie über diese Technik wissen müssen, im Detail erkläre.
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 
 ### Verwendung des Whirlpool Stat Tool (WST)
 
@@ -514,3 +514,4 @@ Das war's! Vielen Dank, dass Sie diesem Tutorial bis zum Ende gefolgt sind. Wenn
 - [https://gist.github.com/LaurentMT/e758767ca4038ac40aaf](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf)
 - [https://medium.com/@laurentmt/introducing-boltzmann-85930984a159](https://medium.com/@laurentmt/introducing-boltzmann-85930984a159)
 - [https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry](https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry)
+

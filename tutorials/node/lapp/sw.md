@@ -1,9 +1,11 @@
 ---
-name: LAPP Bitcoin
-description: Mafunzo ya kutengeneza LApp yako ya kwanza
+name: Lightning App
+description: Mafunzo ya kukuza programu yako ya kwanza ya Lightning (LAPP)
 ---
 
-Jifunze kuweka msimbo kwenye programu yako ya kwanza ya umeme
+![cover](assets/cover.webp)
+
+## Jifunze kuandika programu yako ya kwanza ya lightning
 
 
 Mahitaji:
@@ -27,6 +29,8 @@ Ili kuunda programu yetu ya Umeme, tutakuwa tukitumia teknolojia zifuatazo:
 - Express kwa webserver yetu
 - Violezo vya Pug + bootstrap kwa upande wetu wa mbele
 
+
+https://planb.network/courses/bbf08a64-84ca-11f0-9d7a-c3c481a45799
 
 ## Mfumo wa uendeshaji
 

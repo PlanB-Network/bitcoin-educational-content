@@ -1,0 +1,9 @@
+question: Jaký typ zařízení se dnes používá k efektivní těžbě Bitcoin?
+answer: ASIC
+wrong_answers:
+  - Klasický procesor
+  - GPU
+  - FPGA
+explanation: |
+  V současné době se Bitcoin Mining provádí pomocí ASIC. Jedná se o specializované čipy pro algoritmus SHA-256.
+reviewed: true

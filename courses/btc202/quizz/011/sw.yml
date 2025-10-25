@@ -1,0 +1,9 @@
+question: Kwa nini Miner inahitaji nodi ya Bitcoin?
+answer: Ili kuingiliana na mtandao na kusambaza vizuizi vyako
+wrong_answers:
+  - Kwa saini za kidijitali za generate
+  - Ili kuingiza utoaji wako wa Address katika Coinbase Transaction
+  - Ili kupunguza ugumu wa Mining
+explanation: |
+  Wachimbaji hutumia nodi kuwasiliana na mtandao, kupitisha vizuizi vyao, na kupokea shughuli.
+reviewed: true

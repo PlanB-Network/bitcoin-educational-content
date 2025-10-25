@@ -21,8 +21,8 @@ In other words, with this implementation, you can :
 
 
 
-- Interact with the Lightning network**: You can use command lines to create Lightning wallets, manage payment channels and routes, and much more, directly from your machine terminal.
-- Linking a remote Bitcoin node or your own Bitcoin Core instance**: LND lets you link a Bitcoin instance and use it as your backend. To use this implementation, you don't need to run a Bitcoin Core instance on your machine.
+- **Interact with the Lightning network**: You can use command lines to create Lightning wallets, manage payment channels and routes, and much more, directly from your machine terminal.
+- **Linking a remote Bitcoin node or your own Bitcoin Core instance**: LND lets you link a Bitcoin instance and use it as your backend. To use this implementation, you don't need to run a Bitcoin Core instance on your machine.
 
 
 
@@ -43,10 +43,10 @@ In this sense, running a Lightning node increases the security and integrity of 
 
 
 
-- Total control**: Manage your own payment channels, become your own bank and be master of your assets.
-- Confidentiality**: Transact without relying on third parties to protect your privacy.
-- Learning and autonomy**: Thanks to `lncli` commands, you can better understand Lightning's underlying processes by applying yourself from your terminal.
-- Decentralization**: Play an active part in strengthening and decentralizing the Bitcoin / Lightning network.
+- **Total control**: Manage your own payment channels, become your own bank and be master of your assets.
+- **Confidentiality**: Transact without relying on third parties to protect your privacy.
+- **Learning and autonomy**: Thanks to `lncli` commands, you can better understand Lightning's underlying processes by applying yourself from your terminal.
+- **Decentralization**: Play an active part in strengthening and decentralizing the Bitcoin / Lightning network.
 
 
 https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
@@ -63,7 +63,7 @@ As LND is written in Go, you need to make sure you have the GoLang environment a
 
 
 
-- Hardware requirements:**
+- **Hardware requirements:**
 
 For a smooth, seamless experience, your machine will need to have the necessary capacity to run your LND Lightning node.
 
@@ -78,7 +78,7 @@ You will need :
 
 
 
-- Install useful dependencies:**
+- Install useful dependencies:
 
 The command below will allow you to install on your machine the tools you need to run LND. Among other things, you'll need to install `Git`, a versioning tool, and `make`, which can execute and build the LND implementation from source code.
 
@@ -92,10 +92,10 @@ sudo apt install -y build-essential git make
 
 
 
-- Install GoLang on your Linux machine**
+- **Install GoLang on your Linux machine**
 
 
-As of the date of this tutorial, LND requires version 1.23.6 of Go*** for installation.
+As of the date of this tutorial, LND requires version 1.23.6 of **Go** for installation.
 
 
 If you had a previous version already installed, remove it for the new Go installation.
@@ -118,7 +118,7 @@ sudo tar -C /usr/local -xzf go1.23.6.linux-amd64.tar.gz
 
 
 
-- Go** environment configuration
+- **Go** environment configuration
 
 In your `~/.bashrc` file, initialize the following environment variables to add Go to your Linux system.
 
@@ -136,7 +136,7 @@ source ~/.bashrc
 
 
 
-- Checking the installation** (in French)
+- Checking the **installation** (in French)
 
 ```bash
 go version
@@ -183,7 +183,7 @@ make install
 ![make-lnd](assets/fr/06.webp)
 
 
-- Checking your installation** (in French)
+- **Checking your installation** (in French)
 
 
 To make sure everything went smoothly, running this command should give you the version of LND you're currently running.
@@ -261,33 +261,33 @@ Based on the contents of the `~/.LND/LND.conf` file, here are the details of the
 
 
 
-- noseedbackup**: Allows you to choose whether you want LND to perform automatic backups of your wallets.  Setting this property to `0` allows you to manually save restore information in a personally chosen secure location.
+- **noseedbackup**: Allows you to choose whether you want LND to perform automatic backups of your wallets. Setting this property to `0` allows you to manually save restore information in a personally chosen secure location.
 
 
 
-- debuglevel**: Allows you to define the level of detail of errors and logs in the event of errors occurring during an action.
+- **debuglevel**: Allows you to define the level of detail of errors and logs in the event of errors occurring during an action.
 
 
 
-- Bitcoin.active**: Instructs LND to operate as a Bitcoin node and interact with the Bitcoin network.
+- **Bitcoin.active**: Instructs LND to operate as a Bitcoin node and interact with the Bitcoin network.
 
 
 
-- Bitcoin.Mainnet**: Specifies LND to connect to Bitcoin's main network (Mainnet), you can set the values `bitcoind.signet` and `bitcoind.regtest` respectively for the Bitcoin Signet and Bitcoin Regtest networks
+- **Bitcoin.Mainnet**: Specifies LND to connect to Bitcoin's main network (Mainnet), you can set the values `bitcoind.signet` and `bitcoind.regtest` respectively for the Bitcoin Signet and Bitcoin Regtest networks
 
 
 
-- Bitcoin.node**: Specifies the type of Bitcoin node to which LND should connect.
+- **Bitcoin.node**: Specifies the type of Bitcoin node to which LND should connect.
 
 
 
-- Bitcoin.rpcuser** and **Bitcoin.rpcpassword** : Represent.
+- **Bitcoin.rpcuser** and **Bitcoin.rpcpassword** : Represent.
 
 respectively the logins (user, password) to connect to your Bitcoin node
 
 
 
-- bitcoind.zmqpubrawblock** and **bitcoind.zmqpubrawtx**: respectively define ZeroMQ endpoints to receive notifications about new blocks and transactions on the Bitcoin network.
+- **bitcoind.zmqpubrawblock** and **bitcoind.zmqpubrawtx**: respectively define ZeroMQ endpoints to receive notifications about new blocks and transactions on the Bitcoin network.
 
 
 
@@ -376,9 +376,9 @@ Connecting to other Lightning nodes is a fundamental action if you want to activ
 To connect to a peer (Lightning node), you'll need three pieces of information:
 
 
-- The node's public key**: This is the node's unique identifier in the Bitcoin network;
-- IP** : The IP of the machine on which the node is installed;
-- PORT** :  The port open on the machine that allows communication with this node.
+- **The node's public key**: This is the node's unique identifier in the Bitcoin network;
+- **IP**: The IP of the machine on which the node is installed;
+- **PORT**: The port open on the machine that allows communication with this node.
 
 
 You can find nodes to connect to on [amboss](https://amboss.space/), a platform that lists information on Lightning nodes.
@@ -398,19 +398,19 @@ Make sure you connect to **reliable nodes** to preserve the integrity of your ow
 
 
 
-- Geographic diversification**: Connect to nodes in different regions.
+- **Geographic diversification**: Connect to nodes in different regions.
 
 
 
-- Reputation**: Choose nodes with good availability.
+- **Reputation**: Choose nodes with good availability.
 
 
 
-- Capacity**: Choose knots with good liquidity.
+- **Capacity**: Choose knots with good liquidity.
 
 
 
-- Charges**: Check routing charges.
+- **Charges**: Check routing charges.
 
 ### Open a payment channel
 
@@ -450,14 +450,14 @@ There are two ways to close an active channel on your current node.
 
 
 
-- Cooperative closure**: This signals your node's wish to withdraw from the payment channel, ensuring that ongoing tasks are completed and that data is backed up to avoid loss of funds.
+- **Cooperative closure**: This signals your node's wish to withdraw from the payment channel, ensuring that ongoing tasks are completed and that data is backed up to avoid loss of funds.
 
 ```
 lncli closechannel <ID_CANAL>
 ```
 
 
-- Forced closure**: ⚠️ To be avoided if possible, this action interrupts ongoing processes in your payment channel and increases the risk of losing funds.
+- **Forced closure**: ⚠️ To be avoided if possible, this action interrupts ongoing processes in your payment channel and increases the risk of losing funds.
 
 ```
 lncli closechannel --force <ID_CANAL>
@@ -494,9 +494,9 @@ lncli restorechanbackup <CHEMIN_DU_FICHIER>
 ### Frequent problems
 
 
-- bitcoind connection error** : Check your RPC login details
-- Synchronization blocked** : Check your Internet connection
-- Permission error**: Check the rights of the folder `~/.LND`
+- **bitcoind connection error**: Check your RPC login details
+- **Synchronization blocked**: Check your Internet connection
+- **Permission error**: Check the rights of the folder `~/.LND`
 
 
 

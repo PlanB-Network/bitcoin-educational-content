@@ -73,7 +73,7 @@ Platforma internetowa Banxaas jest minimalistyczna i intuicyjna, umożliwiając 
 
 
 
-- Od franka CFA do satoshi**:
+- Od franka CFA do **satoshi**:
 
 
 
@@ -114,7 +114,7 @@ Potwierdź transakcję, klikając przycisk **Troc**, aby kupić bitcoiny z płat
 
 
 
-- Od satoshi do franków CFA**
+- Od satoshi do franków **CFA**
 
 
 

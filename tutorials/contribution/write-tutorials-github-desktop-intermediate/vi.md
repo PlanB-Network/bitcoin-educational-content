@@ -17,13 +17,13 @@ Bạn đã có:
 Trong hướng dẫn này, chúng ta sẽ xem cách thêm hướng dẫn của bạn vào Plan ₿ Network bằng cách thiết lập môi trường cục bộ của bạn với GitHub Desktop. Nếu bạn đã thành thạo với Git, hướng dẫn rất chi tiết này có thể không cần thiết đối với bạn. Tôi khuyên bạn nên tham khảo hướng dẫn khác này, trong đó tôi chỉ trình bày các hướng dẫn chính, không có hướng dẫn từng bước chi tiết:
 
 
-- Người dùng có kinh nghiệm**:
+- **Người dùng có kinh nghiệm**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 Nếu bạn không muốn thiết lập môi trường cục bộ, hãy làm theo hướng dẫn này dành cho người mới bắt đầu, trong đó chúng tôi thực hiện các thay đổi trực tiếp thông qua giao diện web của GitHub:
 
 
-- Người mới bắt đầu (giao diện web)**:
+- **Người mới bắt đầu (giao diện web)**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 ## Điều kiện tiên quyết
@@ -381,8 +381,8 @@ Dấu chấm than ở đầu cho biết đó là hình ảnh. Văn bản thay th
 Nếu bạn muốn tạo sơ đồ của riêng mình, hãy đảm bảo tuân thủ điều lệ đồ họa của Plan ₿ Network để đảm bảo tính nhất quán về mặt hình ảnh:
 
 
-- Phông chữ**: Sử dụng [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
-- Màu sắc**:
+- **Phông chữ**: Sử dụng [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
+- **Màu sắc**:
  - Màu cam: #FF5C00
  - Đen: #000000
  - Trắng: #FFFFFF
@@ -446,5 +446,4 @@ Nếu bạn muốn thay đổi nội dung đóng góp của mình sau khi đã n
 - Nếu PR của bạn đã được hợp nhất với nhánh chính, bạn sẽ cần bắt đầu lại quy trình bằng cách tạo nhánh mới, sau đó gửi PR mới. Đảm bảo rằng kho lưu trữ cục bộ của bạn được đồng bộ hóa với kho lưu trữ nguồn Plan ₿ Network trước khi tiếp tục.
 
 Nếu bạn gặp khó khăn về mặt kỹ thuật khi gửi bài hướng dẫn, đừng ngần ngại yêu cầu trợ giúp trên [nhóm Telegram chuyên dụng của chúng tôi để đóng góp](https://t.me/PlanBNetwork_ContentBuilder). Cảm ơn bạn!
-
 

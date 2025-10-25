@@ -8,4 +8,4 @@ Bitcoin'ün ana Blockchain'i ile paralel olarak çalışmak üzere tasarlanmış
 Sidechain kavramı ilk olarak 2014 yılında Adam Back, Matt Corallo, Luke Dashjr, Mark Friedenbach, Gregory Maxwell, Andrew Miller, Andrew Poelstra, Jorge Timon ve Pieter Wuille tarafından ortaya atılmıştır. Şu anda, Bitcoin üzerindeki en iyi bilinen yan zincirler Liquid ve RSK (Rootstock). Ancak bunlar, Lightning Network gibi farklı bir modele sahip diğer bindirme çözümlerine kıyasla çok daha az kullanılmaktadır.
 
 
-> ► *Fransızcada "chaîne latérale" veya "chaîne parallèle" olarak adlandırılır
+> ► *Fransızcada "chaîne latérale" veya "chaîne parallèle" olarak adlandırılır*

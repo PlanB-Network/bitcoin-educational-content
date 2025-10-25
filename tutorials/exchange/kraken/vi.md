@@ -1,5 +1,5 @@
 ---
-name: Thủy quái
+name: Kraken
 description: Làm thế nào tôi có thể mua và bán bitcoin trên Kraken?
 ---
 ![cover](assets/cover.webp)

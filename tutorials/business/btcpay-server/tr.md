@@ -1,5 +1,5 @@
 ---
-name: BTCpay Sunucusu
+name: BTCPay Server
 
 description: BTCPay sunucunuzu kurma ve yönetme kılavuzu
 ---

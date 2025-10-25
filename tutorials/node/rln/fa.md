@@ -1,5 +1,5 @@
 ---
-name: گره رعد و برق RGB
+name: RGB Lightning Node
 description: چگونه می‌توانم یک نود لایتنینگ سازگار با RGB را با RLN راه‌اندازی کنم؟
 ---
 ![cover](assets/cover.webp)
@@ -96,7 +96,7 @@ cargo install --locked --debug --path .
 
 
 
-- یک گره `bitcoind`**
+- یک گره `bitcoind`
 
 
 هر نمونه RLN نیاز خواهد داشت تا با `bitcoind` ارتباط برقرار کند تا تراکنش‌های On-Chain خود را پخش و نظارت کند. احراز هویت (ورود/رمز عبور) و URL (میزبان/پورت) باید به daemon ارائه شود.
@@ -104,7 +104,7 @@ cargo install --locked --debug --path .
 
 
 
-- یک ایندکسر** (Electrum یا Esplora)
+- یک **ایندکسر** (Electrum یا Esplora)
 
 
 daemon باید بتواند تراکنش‌های On-Chain را فهرست کرده و بررسی کند، به‌ویژه برای یافتن UTXO که یک دارایی بر روی آن لنگر انداخته است. شما باید URL سرور Electrum یا Esplora خود را مشخص کنید.
@@ -112,7 +112,7 @@ daemon باید بتواند تراکنش‌های On-Chain را فهرست کر
 
 
 
-- یک پروکسی RGB**
+- یک پروکسی **RGB**
 
 
 سرور پروکسی یک مؤلفه (اختیاری، اما به شدت توصیه می‌شود) برای ساده‌سازی Exchange از RGB *محموله‌ها* بین همتایان Lightning است. بار دیگر، باید یک URL مشخص شود.

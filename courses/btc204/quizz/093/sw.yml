@@ -1,10 +1,10 @@
-question: Je, ni jukumu gani kuu la shughuli ya Tx0 katika Whirlpool?
+question: Je, ni jukumu lipi kuu la shughuli ya Tx0 katika Whirlpool?
 answer: Ili kusawazisha UTXOs.
 wrong_answers:
   - Ili kufanya mchanganyiko wa kwanza.
-  - Ili kuondoa UTXO kutoka kwenye dimbwi.
+  - Ili kuondoa UTXO kutoka kwa dimbwi.
   - Kutumia UTXO zilizochanganywa.
 explanation: |
   Tx0 inalenga kuandaa na kusawazisha UTXOs kwa CoinJoin, kwa kugawanyika katika vitengo vinavyolingana na kiasi cha bwawa kilichochaguliwa, ili kuhakikisha homogeneity ya kuchanganya.
   
-reviewed: false
+reviewed: true

@@ -1,0 +1,9 @@
+question: Ai đã viết "Không có gì xảy ra trong tự nhiên có thể được quy cho một
+answer: Spinoza.
+wrong_answers:
+  - Descartes.
+  - Newton.
+  - Thánh Augustin.
+explanation: |
+  Spinoza đã viết: "Không có điều gì xảy ra trong tự nhiên có thể được quy cho một thói xấu tồn tại trong đó". Câu nói này thể hiện ý tưởng rằng tự nhiên là hoàn hảo theo đúng bản chất của nó, và những khiếm khuyết chỉ là những phán đoán của con người.
+reviewed: false

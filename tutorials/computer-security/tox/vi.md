@@ -1,5 +1,5 @@
 ---
-name: Chất độc
+name: Tox
 description: Mở ra các cuộc trò chuyện không cần trung gian trên giao thức Tox phi tập trung
 ---
 ![cover](assets/cover.webp)

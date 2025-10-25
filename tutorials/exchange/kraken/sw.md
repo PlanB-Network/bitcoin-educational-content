@@ -6,7 +6,7 @@ description: Ninawezaje kununua na kuuza bitcoins kwenye Kraken?
 
 
 
-Kraken ni mojawapo ya majukwaa ya zamani zaidi duniani ya Bitcoin na Exchange ya sarafu ya cryptocurrency. Kampuni hiyo ilianzishwa mnamo 2011 na Jesse Powell na washirika wake. Powell akiwa mshauri wa jukwaa lililokuwa likiongoza soko la MtGox, na baada ya kutarajia anguko lake, alizindua Kraken mwaka wa 2013 kwa lengo kuu la kuchukua nafasi ya MtGox, ambayo alijua ilikuwa imepotea, na kutorudia makosa sawa. Hii inaifanya kuwa mojawapo ya majukwaa ya zamani na yenye sifa nzuri ya Exchange duniani.
+Kraken ni mojawapo ya majukwaa ya zamani zaidi dunia ya Bitcoin na Exchange ya sarafu ya cryptocurrency. Kampuni hiyo ilianzishwa mnamo 2011 na Jesse Powell na washirika wake. Powell akiwa mshauri wa jukwaa lililokuwa likiongoza soko la MtGox, na baada ya kutarajia anguko lake, alizindua Kraken mwaka wa 2013 kwa lengo kuu la kuchukua nafasi ya MtGox, ambayo alijua ilikuwa imepotea, na kutorudia makosa sawa. Hii inaifanya kuwa mojawapo ya majukwaa ya zamani na yenye sifa nzuri ya Exchange duniani.
 
 
 
@@ -218,7 +218,7 @@ Kutoka juu hadi chini tunaona kichupo:
 
 
 
-Ili kupata "Sats" yetu ya kwanza, utahitaji kuweka sarafu ya fiat kwenye jukwaa, katika kesi hii euro.
+Ili kupata "Sats" zetu za kwanza, utahitaji kuweka sarafu ya fiat kwenye jukwaa, katika kesi hii euro.
 
 
 
@@ -464,7 +464,7 @@ Ili kuuza, fuata kanuni sawa, lakini chagua "Uza" juu ya kisanduku cha kununua/u
 
 
 
-Suluhisho la vitendo la kununua Bitcoin kiotomatiki, bila hata kulazimika kuingia tena kwenye akaunti yako ya Kraken, ni kusanidi DCA. Weka kiasi cha fiat kwenye akaunti yako na usanidi ununuzi wa mara kwa mara ambao utaanzishwa moja kwa moja kwa vipindi vya kawaida, mradi tu kwingineko yako ya fiat inafadhiliwa vya kutosha.
+Suluhisho la vitendo vya kununua Bitcoin kiotomatiki, bila hata kulazimika kuingia tena kwenye akaunti yako ya Kraken, ni kusanidi DCA. Weka kiasi cha fiat kwenye akaunti yako na usanidi ununuzi wa mara kwa mara ambao utaanzishwa moja kwa moja kwa vipindi vya kawaida, mradi tu kwingineko yako ya fiat inafadhiliwa vya kutosha.
 
 
 

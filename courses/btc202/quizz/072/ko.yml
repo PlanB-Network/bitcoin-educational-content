@@ -1,0 +1,9 @@
+question: 노드를 빠르게 사용할 수 있도록 UTXO 세트의 스냅샷을 로드하는 데 사용할 수 있는 메커니즘은 무엇인가요?
+answer: 가정
+wrong_answers:
+  - 가정 체인 상태
+  - txindex
+  - notxindex
+explanation: |
+  Assumeutxo는 UTXO 세트의 스냅샷을 로드하여 노드를 빠르게 가동하고 실행하는 동시에 백그라운드에서 전체 UTXO 세트를 다시 빌드합니다.
+reviewed: true

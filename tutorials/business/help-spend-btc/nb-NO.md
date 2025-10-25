@@ -57,7 +57,7 @@ Denne typen rabatt er mer effektiv for fysiske butikker, spesielt for produkter 
 ##### Et eksempel
 
 
-Alle europeiske land er underlagt en forbruksavgift som på engelsk kalles Value-Added Tax, [VAT](https://en.wikipedia.org/wiki/Value-added_tax) som følger. Denne avgiften ble oppfunnet i Frankrike i 1954, og allerede i 1970 hadde den begynt å spre seg til hele det opprinnelige EU-fellesskapet. I 2020 hadde den spredt seg til det meste av verden.
+Alle europeiske land er underlagt en forbruksavgift, kalt på engelsk "Value-added Tax", heretter [VAT](https://en.wikipedia.org/wiki/Value-added_tax). Denne avgiften ble oppfunnet i Frankrike i 1954, og innen 1970 hadde den allerede begynt å spre seg i det tidlige Europeiske fellesskap; innen 2020 hadde den spredd seg til store deler av verden.
 
 
 I dette eksempelet antar vi at vi befinner oss i Europa, i et land der momssatsen er 20 % for alle varekategorier. Vi er i en skobutikk, og la oss si at et par skinnsko koster 120 dollar hvis vi betaler med debetkort.
@@ -126,7 +126,7 @@ Det er opp til forhandleren å bestemme hvordan den skal implementeres, men her 
 ### BTC-kart
 
 
-Uansett er det alltid en god praksis å sørge for at virksomheten din, hvis den har en fysisk plassering, er til stede og oppdatert på [BTC Map] (https://btcmap.org/map). De fleste Bitcoin-brukere er kjent med dette verktøyet, og nesten alle som har brukt Bitcoin i fysiske butikker har sjekket minst en gang for å se hvilke steder som godtar dem. Hvis du vil lære hvordan du legger til butikken din på BTC Map eller ønsker mer informasjon, kan du se denne veiledningen:
+Uansett er det alltid god praksis å sørge for at virksomheten din, dersom den har en fysisk beliggenhet, er til stede og oppdatert på [BTC Map](https://btcmap.org/map). De fleste bitcoin-brukere er kjent med dette verktøyet, og nesten alle som har brukt bitcoin i fysiske butikker har sjekket minst én gang hvilke steder som aksepterer dem. Hvis du vil lære hvordan du legger til butikken din på BTC Map eller ønsker mer informasjon, se denne veiledningen:
 
 
 https://planb.network/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-f62658f343c6

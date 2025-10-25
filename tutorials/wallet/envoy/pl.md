@@ -1,5 +1,5 @@
 ---
-name: Wysłannik
+name: Envoy
 description: Konfigurowanie i używanie paszportu z aplikacją Envoy
 ---
 ![cover](assets/cover.webp)
@@ -373,7 +373,7 @@ Aby uzyskać więcej informacji na temat prawidłowego sposobu zapisywania i zar
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-oczywiście nigdy nie wolno dzielić się tymi słowami w Internecie, tak jak robię to w tym samouczku. Ten przykładowy Wallet będzie używany tylko na Testnet i zostanie usunięty po zakończeniu samouczka.**_
+oczywiście nigdy nie wolno dzielić się tymi słowami w Internecie, tak jak robię to w tym samouczku. Ten przykładowy Wallet będzie używany tylko na Testnet i zostanie usunięty po zakończeniu samouczka.
 
 
 Utwórz fizyczną kopię zapasową tego zdania.

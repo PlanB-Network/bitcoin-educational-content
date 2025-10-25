@@ -17,21 +17,21 @@ A Bitcoin node is a computer that participates in the Bitcoin network by running
 
 
 
-- Blockchain storage**: Maintains a complete, up-to-date copy of the Blockchain Bitcoin
-- Transaction verification**: validates each transaction and block according to protocol rules
-- Information dissemination**: Shares new transactions and blocks with other nodes
-- Consensus-building**: Contributes to the application of network rules
+- **Blockchain storage**: Maintains a complete, up-to-date copy of the Blockchain Bitcoin
+- **Transaction verification**: validates each transaction and block according to protocol rules
+- **Information dissemination**: Shares new transactions and blocks with other nodes
+- **Consensus-building**: Contributes to the application of network rules
 
 
 Running your own Bitcoin node is a crucial step towards financial sovereignty, offering several key benefits:
 
 
 
-- Confidentiality**: Share your transactions without revealing your information to third parties
-- Resistance to censorship**: No one can stop you from using Bitcoin
-- Independent verification**: No need to trust other people's nodes to verify your transactions
-- Consensus building**: Contribute to the application of Bitcoin network rules
-- Network support**: Become an active participant in network distribution and decentralization
+- **Confidentiality**: Share your transactions without revealing your information to third parties
+- **Resistance to censorship**: No one can stop you from using Bitcoin
+- **Independent verification**: No need to trust other people's nodes to verify your transactions
+- **Consensus building**: Contribute to the application of Bitcoin network rules
+- **Network support**: Become an active participant in network distribution and decentralization
 
 
 ### Umbrel: A simple solution for running a Bitcoin node
@@ -111,7 +111,7 @@ UmbrelOS is the free, open source version of the Umbrel operating system. This f
 - Virtual machine: For testing or use on existing infrastructure
 
 
-**Limitations
+**Limitations**
 
 
 - Community support only
@@ -203,7 +203,7 @@ For this installation you will need :
 - Safely eject the card
 
 
-**microSD card installation
+**microSD card installation**
 
 
 ![Installation microSD](assets/fr/05.webp)
@@ -222,7 +222,7 @@ For this installation you will need :
 - Connect the Ethernet cable between the Pi and your router
 
 
-**Power on
+**Power on**
 
 
 ![Démarrage du Pi](assets/fr/07.webp)
@@ -273,7 +273,7 @@ Once your Umbrel is started and accessible via your browser, follow these steps 
 - You will need these credentials to access your Umbrel
 
 
-**Account confirmation
+**Account confirmation**
 
 
 ![Confirmation compte](assets/fr/11.webp)
@@ -430,7 +430,7 @@ With this application, you can efficiently monitor your transactions, understand
 ### Electrs configuration
 
 
-**Local connection
+**Local connection**
 
 
 ![Connexion locale](assets/fr/18.webp)
@@ -453,7 +453,7 @@ With this application, you can efficiently monitor your transactions, understand
 ### Connection with Sparrow Wallet
 
 
-**Access to parameters
+**Access to parameters**
 
 
 ![Paramètres Sparrow](assets/fr/20.webp)
@@ -464,7 +464,7 @@ With this application, you can efficiently monitor your transactions, understand
 - Click on "Modify existing connection"
 
 
-**Choice of connection type
+**Choice of connection type**
 
 
 Sparrow offers three connection modes:
@@ -500,7 +500,7 @@ Choose your connection type using the information displayed in the Electrs appli
 In both cases, leave the "Use SSL" and "Use proxy" options unchecked.
 
 
-**Local connection
+**Local connection**
 
 Host: umbrel.local
 

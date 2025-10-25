@@ -1,0 +1,9 @@
+question: 메인 Bitcoin 네트워크에 피해를 주지 않기 위해 테스트 네트워크를 설정하는 아이디어를 낸 사람은 누구일까요?
+answer: 개빈 안드레센
+wrong_answers:
+  - Satoshi 나카모토
+  - 마르티 말미
+  - 라즐로 하녜츠
+explanation: |
+  그는 6월 9일 포럼에서 이 아이디어를 [언급](https: //bitcointalk.org/index.php?topic=240.msg2104#msg2104)했고, Satoshi가 승인했습니다. 그는 7월 15일에 Testnet를 [생성](https; //bitcointalk.org/index.php?topic=363.msg3018#msg3018)했습니다.
+reviewed: true

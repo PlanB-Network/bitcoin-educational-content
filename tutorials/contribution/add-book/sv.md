@@ -70,12 +70,12 @@ tags:
 Här är de uppgifter som ska fyllas i för varje fält:
 
 
-- `författare`**: Ange namnet på bokens författare.
-- nivå**: Ange den nivå som krävs för att kunna läsa och förstå boken på ett bra sätt. Välj en nivå bland följande:
+- **`författare`**: Ange namnet på bokens författare.
+- **Nivå**: Ange den nivå som krävs för att kunna läsa och förstå boken på ett bra sätt. Välj en nivå bland följande:
  - "nybörjare
  - "mellanliggande
 - "avancerad" - "expert
-- `taggar`**: Lägg till två eller tre taggar som är relaterade till din bok. Till exempel:
+- `taggar`**: Lägg till två eller tre taggar som är relaterade till din bok. Till exempel:**
     - `Bitcoin`
     - `historia`
     - teknik
@@ -247,11 +247,11 @@ contributors:
 Här är de uppgifter som ska fyllas i för varje fält:
 
 
-- `title`**: Ange bokens namn inom citationstecken.
-- `publication_year`**: Anger det år boken publicerades.
-- `cover`**: Ange namnet på den fil som motsvarar omslagsbilden, i enlighet med språket i den YAML-fil som du för närvarande redigerar. Om du t.ex. redigerar filen `en.yml` och du tidigare har lagt till den engelska omslagsbilden med titeln `cover_en.webp`, anger du bara `cover_en.webp` i det här fältet.
-- `Beskrivning`**: Lägg till ett kort stycke som beskriver boken. Beskrivningen måste vara på samma språk som anges i titeln på YAML-filen.
-- `bidragsgivare`**: Lägg till ditt bidragsgivar-ID om du har ett.
+- `title`: **Ange bokens namn inom citationstecken.**
+- `publication_year`: Anger det år boken publicerades.
+- `cover`: Ange namnet på den fil som motsvarar omslagsbilden, i enlighet med språket i den YAML-fil som du för närvarande redigerar. Om du t.ex. redigerar filen `en.yml` och du tidigare har lagt till den engelska omslagsbilden med titeln `cover_en.webp`, anger du bara `cover_en.webp` i det här fältet.
+- `Beskrivning`: Lägg till ett kort stycke som beskriver boken. Beskrivningen måste vara på samma språk som anges i titeln på YAML-filen.
+- **`bidragsgivare`**: Lägg till ditt bidragsgivar-ID om du har ett.
 
 
 Din YAML-fil kan till exempel se ut så här:

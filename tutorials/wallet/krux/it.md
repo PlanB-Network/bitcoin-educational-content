@@ -1,5 +1,5 @@
 ---
-name: Krux - Singolo e Multi Sig
+name: Krux
 description: impostare il dispositivo di firma hardware Bitcoin di Krux DIY, flashare il suo firmware e utilizzarlo sia per i portafogli single-sig che per quelli Multisig.
 ---
 

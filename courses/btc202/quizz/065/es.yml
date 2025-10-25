@@ -1,0 +1,9 @@
+question: ¿Cuál es el primer paso que hay que dar en caso de error en Umbrel?
+answer: generate un paquete de diagnóstico
+wrong_answers:
+  - Reinstalar Bitcoin core y rehacer IBD
+  - Borrar caché
+  - Desactivar 2FA
+explanation: |
+  En caso de problema, empezamos generando un paquete de diagnóstico en la sección de solución de problemas para analizar el problema y mantener un registro.
+reviewed: true

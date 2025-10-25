@@ -279,7 +279,7 @@ Safe 5 creerà la vostra frase Mnemonic utilizzando il suo generatore di numeri 
 
 
 
-***Ovviamente, non dovete mai condividere queste parole su Internet, come faccio io in questa esercitazione. Questo esempio di Wallet sarà utilizzato solo sul Testnet e sarà cancellato alla fine del tutorial
+**Ovviamente, non dovete mai condividere queste parole su Internet, come faccio io in questa esercitazione. Questo esempio di Wallet sarà utilizzato solo sul Testnet e sarà cancellato alla fine del tutorial**
 
 
 
@@ -431,7 +431,7 @@ Fare clic sul pulsante "*Connected Hardware Wallet*". Il Safe 5 deve ovviamente 
 
 
 
-Quando si collega il Safe 5 a un computer con Sparrow Wallet aperto, verrà richiesto di inserire un passphrase BIP39 sullo schermo del Hardware Wallet. Questa opzione avanzata verrà trattata in un prossimo tutorial. Questa opzione avanzata sarà trattata in una prossima esercitazione. Per ora, è sufficiente fare clic sul segno di spunta Green nell'angolo in alto a destra per confermare che si desidera utilizzare un passphrase vuoto (cioè senza passphrase). Per evitare che il vostro Trezor vi chieda di inserire un passphrase a ogni avvio, andate su Trezor Suite, accedete alle impostazioni e modificate l'opzione in "*Device*" > "*Wallet default" > "*Wallet default*" in "*Standard*" invece di "*passphrase*".
+Quando si collega il Safe 5 a un computer con Sparrow Wallet aperto, verrà richiesto di inserire un passphrase BIP39 sullo schermo del Hardware Wallet. Questa opzione avanzata verrà trattata in un prossimo tutorial. Questa opzione avanzata sarà trattata in una prossima esercitazione. Per ora, è sufficiente fare clic sul segno di spunta Green nell'angolo in alto a destra per confermare che si desidera utilizzare un passphrase vuoto (cioè senza passphrase). Per evitare che il vostro Trezor vi chieda di inserire un passphrase a ogni avvio, andate su Trezor Suite, accedete alle impostazioni e modificate l'opzione in "**Device**" > "**Wallet default**" > "**Wallet default**" in "**Standard**" invece di "**passphrase**".
 
 
 

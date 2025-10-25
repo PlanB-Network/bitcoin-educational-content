@@ -1,0 +1,8 @@
+question: Lightning Network의 거래 수수료는 매우 낮으며, 종종...?
+answer: 0.5%.
+wrong_answers:
+  - 1%.
+  - 2%.
+  - 3%.
+explanation: >-
+reviewed: true

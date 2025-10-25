@@ -52,7 +52,7 @@ PicoCrypt hoàn toàn **miễn phí và mã nguồn mở**, có sẵn cho **Wind
 
 
 
-Phần mềm mã hóa Picocrypt** tự giới thiệu là **một lựa chọn thay thế** cho các giải pháp nổi tiếng khác như **VeraCrypt** và **Cryptomator** (*được thiết kế để mã hóa dữ liệu trên môi trường đám mây*), hoặc **AxCrypt**. Nhân tiện, trên GitHub chính thức của Picocrypt, bạn có thể tìm thấy bảng so sánh với một số đối thủ cạnh tranh:
+Phần mềm mã hóa **Picocrypt** tự giới thiệu là **một lựa chọn thay thế** cho các giải pháp nổi tiếng khác như **VeraCrypt** và **Cryptomator** (*được thiết kế để mã hóa dữ liệu trên môi trường đám mây*), hoặc **AxCrypt**. Nhân tiện, trên GitHub chính thức của Picocrypt, bạn có thể tìm thấy bảng so sánh với một số đối thủ cạnh tranh:
 
 
 
@@ -84,7 +84,7 @@ Picocrypt **rất nhẹ**, chỉ nặng **3 MB**, và không cần cài đặt: 
 
 
 
-- Thuật toán mã hóa XChaCha20**
+- Thuật toán mã hóa **XChaCha20**
 - Chức năng bỏ qua phím **Argon2**
 
 
@@ -159,11 +159,11 @@ Trước khi nói về giải mã dữ liệu, sau đây là một số thông t
 
 
 
-- Chế độ Paranoid**: sử dụng mức bảo mật cao nhất do Picocrypt cung cấp. Công cụ này sẽ sử dụng một số thuật toán mã hóa xếp tầng (XChaCha20 và Serpent) và HMAC-SHA3 thay vì BLAKE2b để xác thực dữ liệu.
-- Reed-Solomon**: triển khai mã sửa lỗi *Reed-Solomon* để hỗ trợ sửa lỗi dữ liệu bị hỏng. Điều này cho phép bạn hỗ trợ mức độ hỏng khoảng 3% tệp của mình.
-- Chia thành nhiều phần** hoặc **chia thành nhiều phần**: nếu bạn đang mã hóa một tệp lớn, bạn có thể yêu cầu Picocrypt chia tệp thành nhiều phần. Điều này có thể giúp việc truyền tệp dễ dàng hơn.
-- Nén tệp** hoặc **Nén tệp**: nén tệp để giảm kích thước của tệp được mã hóa.
-- Các tệp đã xóa** hoặc **Fichiers supprimés**: xóa các tệp nguồn để chỉ giữ lại phiên bản được mã hóa
+- **Chế độ Paranoid**: sử dụng mức bảo mật cao nhất do Picocrypt cung cấp. Công cụ này sẽ sử dụng một số thuật toán mã hóa xếp tầng (XChaCha20 và Serpent) và HMAC-SHA3 thay vì BLAKE2b để xác thực dữ liệu.
+- **Reed-Solomon**: triển khai mã sửa lỗi *Reed-Solomon* để hỗ trợ sửa lỗi dữ liệu bị hỏng. Điều này cho phép bạn hỗ trợ mức độ hỏng khoảng 3% tệp của mình.
+- **Chia thành nhiều phần** hoặc **chia thành nhiều phần**: nếu bạn đang mã hóa một tệp lớn, bạn có thể yêu cầu Picocrypt chia tệp thành nhiều phần. Điều này có thể giúp việc truyền tệp dễ dàng hơn.
+- **Nén tệp** hoặc **Nén tệp**: nén tệp để giảm kích thước của tệp được mã hóa.
+- **Các tệp đã xóa** hoặc **Fichiers supprimés**: xóa các tệp nguồn để chỉ giữ lại phiên bản được mã hóa
 
 
 

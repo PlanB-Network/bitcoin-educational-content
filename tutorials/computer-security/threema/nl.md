@@ -276,7 +276,7 @@ Hier vindt u twee opties voor het maken van back-ups van uw gegevens:
 
 
 
-"Threema Safe* bewaart al je accountgegevens, behalve je gesprekken, op de servers van Threema. Deze gegevens worden versleuteld met het wachtwoord dat je hebt gekozen toen je je account aanmaakte, zodat Threema er geen toegang toe heeft. Back-ups worden automatisch en regelmatig gemaakt.
+"**Threema Safe** bewaart al je accountgegevens, behalve je gesprekken, op de servers van Threema. Deze gegevens worden versleuteld met het wachtwoord dat je hebt gekozen toen je je account aanmaakte, zodat Threema er geen toegang toe heeft. Back-ups worden automatisch en regelmatig gemaakt.
 
 
 

@@ -1,0 +1,9 @@
+question: Jaka jest główna funkcja Bitcoin Wallet?
+answer: Przechowywanie kluczy prywatnych i zarządzanie nimi
+wrong_answers:
+  - Przechowywanie i zarządzanie kompletnym Blockchain
+  - Sprawdź ważność bloku
+  - Transakcje w sieci przekaźnikowej
+explanation: |
+  Bitcoin Wallet zarządza kluczami prywatnymi, które umożliwiają wydawanie bitcoinów, ale nie wykonuje funkcji węzła.
+reviewed: true

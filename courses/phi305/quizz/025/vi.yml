@@ -1,0 +1,9 @@
+question: René Descartes có tin vào ý chí tự do không?
+answer: Không bao giờ.
+wrong_answers:
+  - Chỉ dành cho người lớn.
+  - Chỉ khi chúng ta học triết học.
+  - Trong những điều kiện nhất định.
+explanation: |
+  René Descartes chưa bao giờ tin vào ý chí tự do. Ông cho rằng mọi hành động của chúng ta đều được quyết định bởi những nguyên nhân trước đó, mặc dù ông cố gắng duy trì một số hình thức tự do ý chí.
+reviewed: false

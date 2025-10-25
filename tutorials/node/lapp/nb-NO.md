@@ -1,9 +1,11 @@
 ---
-name: LAPP bitcoin
-description: Veiledning for å utvikle din første LApp
+name: Lightning App
+description: Veiledning for å utvikle din første Lightning-app (LAPP)
 ---
 
-Lær å kode din første lyn-app
+![cover](assets/cover.webp)
+
+## Lær å kode din første lightning-app
 
 Krav:
 
@@ -18,6 +20,8 @@ For å bygge vår Lightning-app, vil vi bruke følgende teknologier:
 
 - Express for vår webserver
 - Pug-maler + bootstrap for vår frontend
+
+https://planb.network/courses/bbf08a64-84ca-11f0-9d7a-c3c481a45799
 
 ## Operativsystem
 

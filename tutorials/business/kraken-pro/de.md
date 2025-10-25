@@ -59,8 +59,8 @@ Wenn Sie alle Abschnitte ausgefüllt und die erforderlichen Unterlagen eingereic
 Sobald Ihr Konto verifiziert ist, erhalten Sie Zugang zur Plattform, auf der Ihnen zwei Schnittstellen angeboten werden:
 
 
-- Kraken**: Eine vereinfachte Schnittstelle mit den wichtigsten Funktionen.
-- Kraken Pro**: Eine erweiterte Schnittstelle mit zusätzlichen Funktionen, insbesondere für den Handel.
+- **Kraken**: Eine vereinfachte Schnittstelle mit den wichtigsten Funktionen.
+- **Kraken Pro**: Eine erweiterte Schnittstelle mit zusätzlichen Funktionen, insbesondere für den Handel.
 
 Wenn Sie nur Bitcoin kaufen und verkaufen möchten, entscheiden Sie sich für die vereinfachte Schnittstelle. Sie haben immer die Möglichkeit, später auf die erweiterte Schnittstelle zu wechseln, falls erforderlich.
 
@@ -158,9 +158,9 @@ Wählen Sie den Betrag und die Kryptowährung, die Sie erhalten möchten, und be
 Für diese Transaktionen können Sie zwischen verschiedenen Auftragsarten wählen: *Markt*, *Limit*, oder *Stop-Loss*:
 
 
-- Markt*: Ermöglicht den sofortigen Kauf zum aktuellen Marktpreis;
-- Limit*: Ermöglicht die Angabe eines Kaufpreises, wobei der Auftrag nur ausgeführt wird, wenn der Marktpreis diesen Betrag erreicht;
-- Stop-Loss*: Verkauft automatisch, wenn der Kurs einen bestimmten Schwellenwert erreicht.
+- **Markt**: Ermöglicht den sofortigen Kauf zum aktuellen Marktpreis;
+- **Limit**: Ermöglicht die Angabe eines Kaufpreises, wobei der Auftrag nur ausgeführt wird, wenn der Marktpreis diesen Betrag erreicht;
+- **Stop-Loss**: Verkauft automatisch, wenn der Kurs einen bestimmten Schwellenwert erreicht.
 
 ## 7 - Transaktionsmanagement und Buchhaltung
 

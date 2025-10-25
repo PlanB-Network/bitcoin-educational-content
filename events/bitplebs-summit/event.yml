@@ -1,0 +1,20 @@
+id: 01cfd92f-645f-4a1f-b376-67240fcaebda
+start_date: 2025-11-01 05:30:00
+end_date: 2025-11-01 12:30:00
+timezone: Asia/Kolkata
+address_city_country: Goa, India
+name: Bitplebs Summit
+type: conference
+description: |
+  "The BitPlebs Summit brings together India’s sovereign builders,
+  educators, and plebs to share ideas, build tools, and push Bitcoin adoption
+  forward in an intimate, all-inclusive setting in Goa, India. "
+language:
+  - en
+links:
+  website: https://bitplebs.in/
+project_id: 5cffb254-278e-4d87-a4d6-4efe5a538dde
+tags:
+  - market-trends
+  - adoption
+  - education

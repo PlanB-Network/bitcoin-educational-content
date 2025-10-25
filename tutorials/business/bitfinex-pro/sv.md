@@ -116,11 +116,11 @@ När du är inloggad ser du ett navigeringsfält högst upp på Interface med: "
 
 
 
-- Handel**: "*klassisk*" marknad där du kan lägga order för att köpa och sälja kryptovalutor (inklusive Bitcoin) ;
-- OTC**: Over-The-Counter-tjänst för handel med stora volymer direkt med en annan aktör, utanför de publika orderböckerna;
-- Finansiering**: Område för utlåning och marginalfinansiering;
-- Derivat**: Sektion för derivat (terminer m.m.), avsedd för erfarna handlare;
-- P2P**: Gör att du kan köpa eller sälja krypton från andra användare på peer-to-peer-basis.
+- **Handel**: "*klassisk*" marknad där du kan lägga order för att köpa och sälja kryptovalutor (inklusive Bitcoin) ;
+- **OTC**: Over-The-Counter-tjänst för handel med stora volymer direkt med en annan aktör, utanför de publika orderböckerna;
+- **Finansiering**: Område för utlåning och marginalfinansiering;
+- **Derivat**: Sektion för derivat (terminer m.m.), avsedd för erfarna handlare;
+- **P2P**: Gör att du kan köpa eller sälja krypton från andra användare på peer-to-peer-basis.
 
 
 För standardanvändning (köp / försäljning av bitcoins, insättningar / uttag och kontanthantering) använder du främst fliken "*Trading *", samt avsnitten "*Wallet *", "*Deposit *" och "*Withdraw *".

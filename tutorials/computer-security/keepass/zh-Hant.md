@@ -28,7 +28,7 @@ https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f
 
 ---
 
-*注意：密碼管理器是儲存密碼的好幫手，但 ** 您絕對不能將 Bitcoin Wallet 的 Mnemonic 短語儲存其中！** 請記住，Mnemonic 短語應該專門以實體格式儲存，例如紙張或金屬。
+*注意：密碼管理器是儲存密碼的好幫手，但* **您絕對不能將 Bitcoin Wallet 的 Mnemonic 短語儲存其中！** *請記住，Mnemonic 短語應該專門以實體格式儲存，例如紙張或金屬。*
 
 
 ---

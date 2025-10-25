@@ -4,6 +4,8 @@ category: bitcoin
 
 level: advanced
 
+professor_id: 2e1b5182-567e-453a-af29-36009340ff02
+
 # Proofreading metadata
 project_id: 1c05cbf7-679c-4c8c-8adc-fb91397f950d
 original_language: en
@@ -126,6 +128,21 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 0.24
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.28
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.24
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.31
 tags:
   - node
   - guides

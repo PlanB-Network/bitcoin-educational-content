@@ -52,10 +52,10 @@ Depois de ter escolhido a sua opção, a aplicação pede-lhe que active as noti
 Em seguida, a aplicação apresenta as suas principais funções através de uma série de ecrãs introdutórios:
 
 
-- Recibo de pagamento sem falhas**: Os utilizadores podem receber pagamentos em Bitcoin mesmo quando a aplicação está fechada, garantindo fiabilidade e conveniência.
-- Endereços Lightning sem custódia**: A Lipa agora suporta endereços Lightning sem custódia, aumentando a privacidade e a segurança, dando aos utilizadores controlo total sobre os seus bitcoins.
-- Controlo dos dados analíticos** : Com transparência e confidencialidade primordiais, os utilizadores podem ver os tipos de dados recolhidos e escolher as suas preferências de partilha.
-- Enviar através do número de telefone**: Não há necessidade de endereços complexos - basta selecionar um contacto, introduzir o montante e enviar bitcoins diretamente para o seu número de telefone.
+- **Recibo de pagamento sem falhas**: Os utilizadores podem receber pagamentos em Bitcoin mesmo quando a aplicação está fechada, garantindo fiabilidade e conveniência.
+- **Endereços Lightning sem custódia**: A Lipa agora suporta endereços Lightning sem custódia, aumentando a privacidade e a segurança, dando aos utilizadores controlo total sobre os seus bitcoins.
+- **Controlo dos dados analíticos**: Com transparência e confidencialidade primordiais, os utilizadores podem ver os tipos de dados recolhidos e escolher as suas preferências de partilha.
+- **Enviar através do número de telefone**: Não há necessidade de endereços complexos - basta selecionar um contacto, introduzir o montante e enviar bitcoins diretamente para o seu número de telefone.
 
 A aplicação também beneficia de melhorias contínuas em termos de estabilidade, segurança e fiabilidade, para garantir uma experiência óptima para o utilizador.
 
@@ -66,10 +66,10 @@ A interface do Lipa está organizada em torno de 4 separadores principais acess�
 ![Navigation principale](assets/fr/02.webp)
 
 
-- Início**: Apresenta o saldo atual e o histórico de transacções
-- Scanner**: Permite-lhe ler códigos QR para efetuar pagamentos
-- Mapa**: Apresenta um mapa interativo das empresas que aceitam Bitcoin na sua área
-- Definições**: Acesso às definições da aplicação, cópia de segurança e preferências
+- **Início**: Apresenta o saldo atual e o histórico de transacções
+- **Scanner**: Permite-lhe ler códigos QR para efetuar pagamentos
+- **Mapa**: Apresenta um mapa interativo das empresas que aceitam Bitcoin na sua área
+- **Definições**: Acesso às definições da aplicação, cópia de segurança e preferências
 
 É possível aceder a um menu adicional puxando para baixo o ecrã inicial:
 

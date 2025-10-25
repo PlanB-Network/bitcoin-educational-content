@@ -33,7 +33,7 @@ Fedi Wallet je Bitcoin portfolio koji dolazi s novim pristupom čuvanju vaših k
 
 
 
-- Custodials**: Vi odlučujete da poverenje poklonite eksternom entitetu, razvojnog programeru portfolija, koji će čuvati reči za oporavak vašeg portfolija za vas. Nemate pristup niti mogućnost da izvezete vaš Bitcoin portfolio.
+- **Custodials**: Vi odlučujete da poverenje poklonite eksternom entitetu, razvojnog programeru portfolija, koji će čuvati reči za oporavak vašeg portfolija za vas. Nemate pristup niti mogućnost da izvezete vaš Bitcoin portfolio.
 
 
 
@@ -43,7 +43,7 @@ https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c
 
 
 
-- Samostalni skrbnici** : Aplikacija vam omogućava pristup rečima za oporavak čim kreirate svoj Wallet. Tako možete slobodno izvoziti svoje bitkoine na Wallet koji vam najviše odgovara.
+- **Samostalni skrbnici**: Aplikacija vam omogućava pristup rečima za oporavak čim kreirate svoj Wallet. Tako možete slobodno izvoziti svoje bitkoine na Wallet koji vam najviše odgovara.
 
 
 
@@ -103,7 +103,7 @@ U meniju **Federations**, skroluj dole do federacije, zatim klikni na **Federati
 
 
 
-- Primite bitkoine na Fedi**: Na početnoj stranici izaberite federaciju koju želite koristiti za primanje bitkoina, zatim kliknite na dugme **Primite** da kreirate Lightning Invoice sa iznosom za primanje.
+- **Primite bitkoine na Fedi**: Na početnoj stranici izaberite federaciju koju želite koristiti za primanje bitkoina, zatim kliknite na dugme **Primite** da kreirate Lightning Invoice sa iznosom za primanje.
 
 
 
@@ -113,7 +113,7 @@ U meniju **Federations**, skroluj dole do federacije, zatim klikni na **Federati
 
 
 
-- Pošalji bitkoine**: Na početnoj stranici, kliknite na dugme **Pošalji** da biste poslali bitkoine na Lightning Address, platili Invoice ili izvršili offline plaćanje.
+- **Pošalji bitkoine**: Na početnoj stranici, kliknite na dugme **Pošalji** da biste poslali bitkoine na Lightning Address, platili Invoice ili izvršili offline plaćanje.
 
 
 
@@ -232,4 +232,3 @@ Upravo ste završili Fedi Wallet turu, sada ste u poziciji da iskoristite puni p
 
 
 https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
-

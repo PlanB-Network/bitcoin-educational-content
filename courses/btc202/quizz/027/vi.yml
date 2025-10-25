@@ -1,0 +1,9 @@
+question: Điểm đặc biệt của nút SPV là gì?
+answer: Nó chỉ giữ lại các tiêu đề khối
+wrong_answers:
+  - Nó giữ lại toàn bộ Blockchain kể từ khối Genesis
+  - Nó chỉ lưu trữ các khối gần đây nhất
+  - Nó chỉ giữ lại bộ UTXO, không phải Blockchain
+explanation: |
+  Một nút SPV xác minh các giao dịch thông qua tiêu đề khối và bằng chứng Merkle mà không lưu trữ toàn bộ dữ liệu.
+reviewed: true

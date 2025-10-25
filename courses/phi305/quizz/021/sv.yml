@@ -1,0 +1,9 @@
+question: René Descartes?
+answer: Föregår Spinoza.
+wrong_answers:
+  - Är en arvtagare till Spinoza.
+  - Är en schweizisk filosof.
+  - Är en ateistisk filosof.
+explanation: |
+  René Descartes (1596-1650) är äldre än Spinoza och anses vara den moderna rationalismens fader. Spinoza var influerad av Descartes, men utvecklade ett filosofiskt system som avvek avsevärt från cartesianismen.
+reviewed: false

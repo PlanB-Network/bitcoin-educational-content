@@ -60,7 +60,7 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-90
 
 ![GREEN 2FA MULTISIG](assets/fr/04.webp)
 
-Запустите приложение, затем установите флажок "Я принимаю условия...*".
+Запустите приложение, затем установите флажок "Я принимаю условия...".
 
 ![GREEN 2FA MULTISIG](assets/fr/05.webp)
 
@@ -271,4 +271,3 @@ https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-
 Я также рекомендую вам ознакомиться с другим исчерпывающим руководством по настройке мобильного приложения Blockstream Green для создания кошелька Liquid:
 
 https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
-

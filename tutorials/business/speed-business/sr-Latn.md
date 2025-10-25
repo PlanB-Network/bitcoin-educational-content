@@ -1,5 +1,5 @@
 ---
-name: Brzina Wallet - PoS
+name: Speed Wallet - POS
 description: Integrirajte Bitcoin i plaćanja stabilnim kovanicama u vaše poslovanje s lakoćom
 ---
 ![cover](assets/cover.webp)
@@ -28,25 +28,25 @@ Brzina ima širok spektar funkcija za pokrivanje finansijskih aspekata vašeg po
 
 
 
-- Konfiguracija online plaćanja**: Primajte uplate od svojih kupaca gde god da se nalaze, zahvaljujući vašem vebsajtu.
+- **Konfiguracija online plaćanja**: Primajte uplate od svojih kupaca gde god da se nalaze, zahvaljujući vašem vebsajtu.
 
 
 
 
 
-- Plaćanja na licu mesta**: Idealno za prodavnice i preduzeća koja primaju gotovinu u prodavnici.
+- **Plaćanja na licu mesta**: Idealno za prodavnice i preduzeća koja primaju gotovinu u prodavnici.
 
 
 
 
 
-- Povlačenja**: Povucite svoju imovinu glatko i koristite svoje bitkoine za isplatu svojih kupaca i plata.
+- **Povlačenja**: Povucite svoju imovinu glatko i koristite svoje bitkoine za isplatu svojih kupaca i plata.
 
 
 
 
 
-- Povezivanje sa drugim platformama**: Da li koristite spoljne alate za upravljanje plaćanjima? Speed vam nudi mogućnost povezivanja sa svojom platformom, za sve-u-jednom ekosistem koji odražava vaše poslovanje.
+- **Povezivanje sa drugim platformama**: Da li koristite spoljne alate za upravljanje plaćanjima? Speed vam nudi mogućnost povezivanja sa svojom platformom, za sve-u-jednom ekosistem koji odražava vaše poslovanje.
 
 
 
@@ -265,13 +265,13 @@ U meniju **Send Payments** pronaći ćete sve opcije za transfer novca koje brzi
 
 
 
-- Instant payments**: Sa opcijom Instant Send, sigurno pošaljite bitkoine trenutno sa svog trgovačkog računa.
+- **Instant payments**: Sa opcijom Instant Send, sigurno pošaljite bitkoine trenutno sa svog trgovačkog računa.
 
 
 
 
 
-- generate linkovi za povlačenje** kako bi omogućili vašim partnerima i dobavljačima pristup njihovim isplatama kasnije, bez potrebe za vašim prisustvom na mreži.
+- generate linkovi za **povlačenje** kako bi omogućili vašim partnerima i dobavljačima pristup njihovim isplatama kasnije, bez potrebe za vašim prisustvom na mreži.
 
 
 
@@ -289,7 +289,7 @@ U opciji **Withdrawal Links**, kreirajte novi link za povlačenje, zatim ga konf
 
 
 
-- Isplate**: U meniju Isplate, pokrenite povlačenja sa svog Speed Business salda na vaš lični Wallet.
+- **Isplate**: U meniju Isplate, pokrenite povlačenja sa svog Speed Business salda na vaš lični Wallet.
 
 
 
@@ -299,7 +299,7 @@ U opciji **Withdrawal Links**, kreirajte novi link za povlačenje, zatim ga konf
 
 
 
-- Popusti**: Podstaknite svoje redovne kupce postavljanjem opcija za povrat novca kako bi zaradili bonuse.
+- **Popusti**: Podstaknite svoje redovne kupce postavljanjem opcija za povrat novca kako bi zaradili bonuse.
 
 
 
@@ -436,4 +436,3 @@ Imate dobro razumevanje brzine, integrišite Bitcoin u svoj posao i razvijajte s
 
 
 https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
-

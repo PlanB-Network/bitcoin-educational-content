@@ -17,10 +17,10 @@ Arch Linux, özellikle geliştirme amaçları için sağlamlığı, performansı
 
 
 
-- Ücretsiz ve açık kaynak**: Çoğu Linux dağıtımı gibi Arch Linux da tamamen ücretsizdir. Lisans ücreti yoktur, bu da onu öğrenciler, serbest çalışanlar veya meraklılar için mükemmel bir seçim haline getirir.
-- KISS** felsefesi: Arch basit, hafif ve verimli olacak şekilde tasarlanmıştır. Yalnızca temel unsurları sağlayarak ortamınızı alakart olarak oluşturmanıza olanak tanır.
-- Pacman** paket yöneticisi: Pacman hızlı, güvenilir ve iyi tasarlanmış bir paket yöneticisidir. Yazılımın verimli bir şekilde kurulmasını ve güncellenmesini sağlar ve bağımlılıkları hassas bir şekilde yönetir.
-- Kapsamlı dokümantasyon ve aktif bir topluluk**: [Arch Wiki] (https://wiki.archlinux.org) muhtemelen Linux dünyasındaki en iyi teknik dokümantasyonlardan biridir. Ne yaptığınızı anlamak için bir altın madeni. Çoğunlukla deneyimli profillerden oluşan topluluk çok aktiftir ve önceden biraz araştırma yapmış olmanız koşuluyla takıldığınızda size yardımcı olabilir.
+- **Ücretsiz ve açık kaynak**: Çoğu Linux dağıtımı gibi Arch Linux da tamamen ücretsizdir. Lisans ücreti yoktur, bu da onu öğrenciler, serbest çalışanlar veya meraklılar için mükemmel bir seçim haline getirir.
+- **KISS** felsefesi: Arch basit, hafif ve verimli olacak şekilde tasarlanmıştır. Yalnızca temel unsurları sağlayarak ortamınızı alakart olarak oluşturmanıza olanak tanır.
+- **Pacman** paket yöneticisi: Pacman hızlı, güvenilir ve iyi tasarlanmış bir paket yöneticisidir. Yazılımın verimli bir şekilde kurulmasını ve güncellenmesini sağlar ve bağımlılıkları hassas bir şekilde yönetir.
+- **Kapsamlı dokümantasyon ve aktif bir topluluk**: [Arch Wiki] (https://wiki.archlinux.org) muhtemelen Linux dünyasındaki en iyi teknik dokümantasyonlardan biridir. Ne yaptığınızı anlamak için bir altın madeni. Çoğunlukla deneyimli profillerden oluşan topluluk çok aktiftir ve önceden biraz araştırma yapmış olmanız koşuluyla takıldığınızda size yardımcı olabilir.
 
 
 
@@ -39,7 +39,7 @@ Gerekli malzemeler:
 
 
 - En az **8 GB** boyutunda bir USB anahtarı
-- minimum 2 GB** RAM
+- minimum 2 GB **RAM**
 - En az 20 GB boş disk alanına sahip bir bilgisayar
 
 
@@ -261,7 +261,7 @@ UEFI'de iseniz **GPT**, BIOS'ta iseniz **DOS** öğesini seçin.
 
 
 
-- UEFI** modunda
+- **UEFI** modunda
 
 
 
@@ -284,7 +284,7 @@ UEFI'de iseniz **GPT**, BIOS'ta iseniz **DOS** öğesini seçin.
 
 
 
-Yaz** öğesini seçin, **Evet** yazın ve ardından **Kapat** öğesini seçin.
+**Yaz** öğesini seçin, **Evet** yazın ve ardından **Kapat** öğesini seçin.
 
 
 
@@ -294,7 +294,7 @@ Yaz** öğesini seçin, **Evet** yazın ve ardından **Kapat** öğesini seçin.
 
 
 
-- UEFI**:
+- **UEFI**:
 
 
 
@@ -309,7 +309,7 @@ mkfs.ext4 /dev/sda3
 
 
 
-- BIOS**:
+- **BIOS**:
 
 
 
@@ -329,7 +329,7 @@ mkfs.ext4 /dev/sda2
 
 
 
-Kök** bölümünü bağlayın:
+**Kök** bölümünü bağlayın:
 
 
 
@@ -378,7 +378,7 @@ genfstab -U /mnt >> /mnt/etc/fstab
 
 
 
-Chroot** ortamına girin:
+**Chroot** ortamına girin:
 
 
 
@@ -472,7 +472,7 @@ pacman -S grub
 
 
 
-- BIOS** için:
+- **BIOS** için:
 
 
 
@@ -489,7 +489,7 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
 
 
-- UEFI** için:
+- **UEFI** için:
 
 
 
@@ -623,7 +623,7 @@ pacman -S gnome gnome-extra
 
 
 
-Oturum yöneticisini** etkinleştirin:
+**Oturum yöneticisini** etkinleştirin:
 
 
 
@@ -646,7 +646,7 @@ Sistem otomatik olarak yeniden başlatılır ve Interface grafik girişini alır
 
 
 
-Interface GNOME'a** girdikten sonra, daha fazla güvenlik ve daha güvenli, risksiz kullanım için yeni bir kullanıcı oluşturmanız gerekecektir. Uygulamalara girin ve terminali başlatmak için "konsol" seçeneğini seçin.
+Interface **GNOME'a** girdikten sonra, daha fazla güvenlik ve daha güvenli, risksiz kullanım için yeni bir kullanıcı oluşturmanız gerekecektir. Uygulamalara girin ve terminali başlatmak için "konsol" seçeneğini seçin.
 
 
 
@@ -680,7 +680,7 @@ pacman -S sudo
 
 
 
-- Sudo** haklarını etkinleştirin:
+- **Sudo** haklarını etkinleştirin:
 
 
 

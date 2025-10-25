@@ -1,0 +1,9 @@
+question: 是學術主義嗎？
+answer: 中世紀的哲學。
+wrong_answers:
+  - 現代的哲學。
+  - 古老的哲學。
+  - 一種無神論哲學。
+explanation: |
+  學術主義（Scholasticism）是中世紀的一種哲學，旨在調和基督教信仰與亞里斯多德哲學。在現代哲學出現之前，它在歐洲的大學中佔有主導地位。
+reviewed: false

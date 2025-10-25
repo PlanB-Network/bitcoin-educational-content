@@ -209,7 +209,7 @@ Per ulteriori informazioni sul modo corretto di salvare e gestire la frase mnemo
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-naturalmente, non dovete mai condividere queste parole su Internet, come sto facendo io in questa esercitazione. Questo portfolio di esempio sarà utilizzato solo su Testnet e sarà cancellato alla fine del tutorial.**_
+naturalmente, non dovete mai condividere queste parole su Internet, come sto facendo io in questa esercitazione. Questo portfolio di esempio sarà utilizzato solo su Testnet e sarà cancellato alla fine del tutorial.
 
 Eseguite un backup fisico di questa frase.
 
@@ -485,4 +485,3 @@ Congratulazioni, ora sapete come configurare e utilizzare Passport. Se questa gu
 Per ulteriori informazioni, consultare il nostro tutorial sul software Liana:
 
 https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
-

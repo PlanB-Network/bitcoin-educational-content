@@ -4,11 +4,12 @@ name: NOSTR
 description: Gundua na anza kutumia NOSTR
 ---
 
-Mwishoni mwa mwongozo huu, utaelewa nini Nostr, utakuwa umeunda akaunti, na utaweza kuitumia.
 
 
 ![A new challenger has arrived](assets/1.webp)
 
+
+*Mwisho wa mwongozo huu, utaelewa Nostr ni nini, utakuwa umeunda akaunti, na utaweza kuitumia.*
 
 ## Nostr ni nini?
 
@@ -51,8 +52,8 @@ Wateja ni programu ambayo inaruhusu mwingiliano na Nostr. Wateja wakuu ni:
 
 
 - iOS: damus
-- Android: amethisto
-- Mtandao: iris.to; koroma.kijamii; astral.ninja
+- Android: amethyst
+- Web: iris.to; snort.social; astral.ninja
 
 
 Wateja huruhusu watumiaji kugenerate jozi mpya ya funguo (sawa na kuunda akaunti) au kuthibitisha kwa kutumia jozi za funguo zilizopo.
@@ -67,7 +68,7 @@ Reli ni seva rahisi ambazo unaweza kuziacha wakati wowote ikiwa hupendi maudhui 
 💡 **Kidokezo cha kitaalamu:** Relay zinazolipishwa kwa ujumla hufaa zaidi katika kuchuja barua taka na maudhui yasiyotakikana.
 
 
-### Mwongozo
+## Mwongozo
 
 
 Sasa unajua vya kutosha kuhusu Nostr ili kuanza na kuunda utambulisho wako wa kwanza kwenye itifaki hii.

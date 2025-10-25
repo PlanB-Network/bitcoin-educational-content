@@ -1,5 +1,5 @@
 ---
-name: Wallet از Satoshi - نقطه فروش
+name: Wallet of Satoshi - POS
 description: Bitcoin را از طریق Lightning Network در کسب‌وکار خود اتخاذ کنید.
 ---
 

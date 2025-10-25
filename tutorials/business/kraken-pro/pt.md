@@ -59,8 +59,8 @@ Depois de preencher todas as secções e enviar os documentos necessários, cliq
 Assim que a sua conta for verificada, acederá à plataforma onde lhe serão oferecidas duas interfaces:
 
 
-- Kraken**: Uma interface simplificada que oferece funcionalidades essenciais.
-- Kraken Pro**: Uma interface avançada com funcionalidades adicionais, especialmente para negociação.
+- **Kraken**: Uma interface simplificada que oferece funcionalidades essenciais.
+- **Kraken Pro**: Uma interface avançada com funcionalidades adicionais, especialmente para negociação.
 
 Se o seu objetivo é apenas comprar e vender bitcoin, opte pela interface simplificada. Terá sempre a opção de mudar para a interface avançada mais tarde, se necessário.
 
@@ -158,9 +158,9 @@ Selecione o montante, escolha a criptomoeda que pretende obter e, em seguida, co
 Para estas transacções, pode escolher entre diferentes tipos de ordens: *Market*, *Limit*, ou *Stop-Loss*:
 
 
-- Mercado*: Permite a compra imediata ao preço atual de mercado;
-- Limite*: Permite especificar um preço de compra, e a ordem só será executada se o preço de mercado atingir esse valor;
-- Stop-Loss*: Vende automaticamente quando o preço atinge um determinado limite.
+- **Mercado**: Permite a compra imediata ao preço atual de mercado;
+- **Limite**: Permite especificar um preço de compra, e a ordem só será executada se o preço de mercado atingir esse valor;
+- **Stop-Loss**: Vende automaticamente quando o preço atinge um determinado limite.
 
 ## 7 - Gestão de transacções e contabilidade
 

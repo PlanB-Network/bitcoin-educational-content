@@ -1,0 +1,9 @@
+question: Který parametr souboru Bitcoin.conf omezuje velikost souboru Mempool v MB?
+answer: maxmempool
+wrong_answers:
+  - totalmempool
+  - mempoolexpiry
+  - velikost paměti
+explanation: |
+  maxmempool nastavuje maximální velikost paměťového fondu Mempool (ve výchozím nastavení 300 MB). Když je plný, méně výnosné transakce jsou vyřazeny.
+reviewed: true

@@ -1,5 +1,5 @@
 ---
-name: Bitcoin Keeper - Zabezpečení více klíčů
+name: Bitcoin Keeper
 description: Aplikace Bitcoin Keeper - mobilní aplikace, která umožňuje vytvářet peněženky Hot i trezory Cold pro dlouhodobé spoření
 ---
 

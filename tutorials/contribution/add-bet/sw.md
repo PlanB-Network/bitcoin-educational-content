@@ -79,7 +79,7 @@ Hapa kuna maelezo ya kujaza kwa kila sehemu:
 
 
 
-- `mjenzi`**: Onyesha kitambulisho cha shirika lako kwenye PlanB Network. Ikiwa bado hauna kitambulisho cha "mjenzi" cha kampuni yako, unaweza kuunda kwa kufuata mafunzo haya.
+- **`mjenzi`**: Onyesha kitambulisho cha shirika lako kwenye PlanB Network. Ikiwa bado hauna kitambulisho cha "mjenzi" cha kampuni yako, unaweza kuunda kwa kufuata mafunzo haya.
 
 
 https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
@@ -88,13 +88,13 @@ Ikiwa hauna, unaweza kutumia jina lako, jina lako bandia, au jina la kampuni yak
 
 
 
-- `aina`**: Chagua asili ya maudhui yako kati ya chaguo mbili zifuatazo:
+- **`aina`**: Chagua asili ya maudhui yako kati ya chaguo mbili zifuatazo:
  - `Maudhui ya Kielimu` kwa maudhui ya elimu.
  - `Maudhui Yanayoonekana` kwa aina nyinginezo za maudhui mbalimbali.
 
 
 
-- `viungo`**: Toa viungo kwa yaliyomo kwako. Una chaguzi mbili:
+- **`viungo`**: Toa viungo kwa yaliyomo kwako. Una chaguzi mbili:
  - Ukichagua kupangisha maudhui yako moja kwa moja kwenye GitHub ya PlanB, utahitaji kuongeza viungo kwenye faili hii wakati wa hatua zifuatazo.
  - Ikiwa yaliyomo kwako yamepangishwa mahali pengine, kama vile kwenye wavuti yako ya kibinafsi, onyesha viungo vinavyolingana hapa:
      - `kupakua`: Kiungo cha kupakua maudhui yako.
@@ -102,7 +102,7 @@ Ikiwa hauna, unaweza kutumia jina lako, jina lako bandia, au jina la kampuni yak
 
 
 
-- `tagi`**: Ongeza lebo mbili zinazohusiana na maudhui yako. Mifano:
+- **`tagi`**: Ongeza lebo mbili zinazohusiana na maudhui yako. Mifano:
  - Bitcoin
  - teknolojia
  - uchumi
@@ -111,7 +111,7 @@ Ikiwa hauna, unaweza kutumia jina lako, jina lako bandia, au jina la kampuni yak
 
 
 
-- `wachangiaji`**: Taja kitambulisho cha mchangiaji wako ikiwa unacho.
+- **`wachangiaji`**: Taja kitambulisho cha mchangiaji wako ikiwa unacho.
 
 
 Kwa mfano, faili yako ya YAML inaweza kuonekana kama hii:

@@ -1,5 +1,5 @@
 ---
-name: 質子郵件
+name: Proton Mail
 description: 設定安全信箱
 ---
 ![cover](assets/cover.webp)
@@ -306,7 +306,7 @@ https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-
 
 
 
-轉寄與自動回覆*」標籤可讓您管理電子郵件的轉寄與自動回覆。
+轉寄與自動回覆」標籤可讓您管理電子郵件的轉寄與自動回覆。
 
 
 
@@ -390,7 +390,7 @@ https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-
 
 
 
-然後，您可以在「*已傳送」標籤中找到已傳送的訊息。
+然後，您可以在「*已傳送*」標籤中找到已傳送的訊息。
 
 
 

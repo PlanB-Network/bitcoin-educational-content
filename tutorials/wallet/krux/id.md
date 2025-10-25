@@ -1,5 +1,5 @@
 ---
-name: Krux - Single dan Multi Sig
+name: Krux
 description: menyiapkan perangkat penandatanganan perangkat keras Krux DIY Bitcoin, mem-flash firmware-nya, dan menggunakannya untuk dompet single-sig dan Multisig.
 ---
 

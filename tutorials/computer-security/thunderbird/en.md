@@ -13,13 +13,13 @@ Thunderbird is an e-mail application renowned for its flexibility and wide range
 
 
 
-- Free and open source**: unlike many messaging applications, Thunderbird is totally free. However, you can support the developer community by sending them a donation.
-- Intuitive Interface and easy to learn**: Thunderbird's configuration is, for the most part, straightforward, so you don't have to worry about it.
-- Suitable for several types of e-mail**: whether Gmail, Yahoo, Outlook or even business e-mails associated with a domain name, this mailbox is highly versatile.
-- Multi-account**: Thunderbird lets you connect to several e-mail accounts at once, making it easy to access all your messages.
-- High-performance features and scalability**: by default, Thunderbird offers a wide range of features for managing your e-mail accounts and events calendar. However, it also lets you add further options thanks to the many extensions available.
-- Multi-platform**: Thunderbird is available on a variety of devices (Android, Windows, Linux, macOS), giving you easy access to your e-mails.
-- Security**: Thunderbird is a highly secure application, allowing you to benefit from end-to-end encryption based on RSA or ECC (Elliptic Curve) to guarantee the confidentiality of your data.
+- **Free and open source**: unlike many messaging applications, Thunderbird is totally free. However, you can support the developer community by sending them a donation.
+- **Intuitive Interface and easy to learn**: Thunderbird's configuration is, for the most part, straightforward, so you don't have to worry about it.
+- Suitable for several types of **e-mail**: whether Gmail, Yahoo, Outlook or even business e-mails associated with a domain name, this mailbox is highly versatile.
+- **Multi-account**: Thunderbird lets you connect to several e-mail accounts at once, making it easy to access all your messages.
+- **High-performance features and scalability**: by default, Thunderbird offers a wide range of features for managing your e-mail accounts and events calendar. However, it also lets you add further options thanks to the many extensions available.
+- **Multi-platform**: Thunderbird is available on a variety of devices (Android, Windows, Linux, macOS), giving you easy access to your e-mails.
+- **Security**: Thunderbird is a highly secure application, allowing you to benefit from end-to-end encryption based on RSA or ECC (Elliptic Curve) to guarantee the confidentiality of your data.
 
 
 ## Download and installation
@@ -45,8 +45,8 @@ To download a specific version of Thunderbird, go to [this page](https://www.thu
 On Windows, run the downloaded executable to start the installation. Click on "Next" to continue. Two options are available:
 
 
-- Standard**: allows direct installation without prior configuration.
-- Custom**: lets you choose the installation folder and whether or not to create desktop shortcuts.
+- **Standard**: allows direct installation without prior configuration.
+- **Custom**: lets you choose the installation folder and whether or not to create desktop shortcuts.
 
 
 ![0_02](assets/fr/02.webp)

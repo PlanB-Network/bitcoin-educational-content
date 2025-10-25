@@ -4,7 +4,7 @@ description: Memasang node Bitcoin RoninDojo v2 Anda pada Raspberry Pi
 ---
 ![cover RoninDojo v2](assets/cover.webp)
 
-***PERINGATAN:** Menyusul penangkapan pendiri Samourai Wallet dan penyitaan server mereka pada 24 April, beberapa fitur RoninDojo, seperti Whirlpool, tidak lagi beroperasi. Namun, ada kemungkinan bahwa alat-alat ini dapat dipulihkan atau diluncurkan kembali dengan cara yang berbeda dalam beberapa minggu mendatang. Selain itu, karena kode RoninDojo di-host di GitLab Samourai, yang juga disita, saat ini tidak mungkin untuk mengunduh kode secara remote. Tim RoninDojo kemungkinan sedang bekerja untuk menerbitkan ulang kode tersebut.*
+**PERINGATAN:** Menyusul penangkapan pendiri Samourai Wallet dan penyitaan server mereka pada 24 April, beberapa fitur RoninDojo, seperti Whirlpool, tidak lagi beroperasi. Namun, ada kemungkinan bahwa alat-alat ini dapat dipulihkan atau diluncurkan kembali dengan cara yang berbeda dalam beberapa minggu mendatang. Selain itu, karena kode RoninDojo di-host di GitLab Samourai, yang juga disita, saat ini tidak mungkin untuk mengunduh kode secara remote. Tim RoninDojo kemungkinan sedang bekerja untuk menerbitkan ulang kode tersebut.*
 
 _Kami sedang mengikuti perkembangan kasus ini serta perkembangan terkait alat-alat yang terkait. Yakinlah bahwa kami akan memperbarui tutorial ini seiring dengan tersedianya informasi baru._
 
@@ -12,7 +12,7 @@ _Tutorial ini disediakan hanya untuk tujuan pendidikan dan informasi. Kami tidak
 
 ---
 
-> "*Gunakan Bitcoin dengan privasi.*"
+> Gunakan Bitcoin dengan privasi.
 
 Dalam [tutorial sebelumnya](https://planb.network/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-95ec5dde72b0), kami telah menjelaskan prosedur untuk memasang dan menggunakan RoninDojo v1. Namun, selama setahun terakhir, tim RoninDojo telah meluncurkan versi 2 dari implementasi mereka, yang menandai titik balik penting dalam arsitektur perangkat lunak. Memang, mereka beralih dari distribusi Linux Manjaro ke Debian. Akibatnya, mereka tidak lagi menawarkan gambar yang telah dikonfigurasi sebelumnya untuk instalasi otomatis pada Raspberry Pi. Namun, masih ada metode untuk melanjutkan dengan instalasi manual. Inilah yang saya gunakan untuk node saya sendiri, dan sejak itu, RoninDojo v2 telah bekerja dengan luar biasa di Raspberry Pi 4 saya. Oleh karena itu, saya menawarkan tutorial baru tentang cara memasang RoninDojo v2 secara manual pada Raspberry Pi.
 
@@ -220,7 +220,7 @@ Selamat! Node RoninDojo v2 Anda sekarang dikonfigurasi dan siap digunakan. Ini a
 
 **Jika Anda bermigrasi dari node RoninDojo v1 lama** ke versi baru ini dengan tutorial ini sambil mempertahankan SSD yang sama, node Anda seharusnya secara otomatis mendeteksi dan menggunakan kembali data yang ada di disk, menghemat Anda dari keharusan melakukan IBD lagi. Dalam kasus ini, Anda hanya perlu menunggu node Anda untuk resinkronisasi dengan blok terbaru.
 
-### Langkah 8: "veth* fix"
+### Langkah 8: "veth fix"
 Jika Anda menemui bug dengan RoninDojo v2 Anda di Raspberry Pi, di mana setelah instalasi tanpa masalah, node Anda tiba-tiba menjadi tidak dapat dijangkau melalui SSH tetapi pulih setelah restart sederhana, maka Anda perlu mengikuti langkah 8 ini. Bug umum ini dapat dengan mudah diperbaiki dengan solusi yang dikembangkan oleh komunitas: "_veth fix_". Koreksi kecil ini secara permanen mengatasi pemutusan mendadak. Berikut cara menerapkannya.
 
 Buka terminal baru di komputer pribadi Anda dan buat koneksi SSH dengan node Anda menggunakan perintah berikut:
@@ -230,7 +230,7 @@ Jika, misalnya, alamat IP node Anda adalah `192.168.1.40`, perintah yang tepat a
 `SSH ronindojo@192.168.1.40`
 
 Anda akan diminta untuk memasukkan kata sandi pengguna. Masukkan dan tekan `enter` untuk memvalidasi. Anda kemudian akan mengakses antarmuka RoninCLI. Gunakan panah keyboard Anda untuk menavigasi ke opsi `Exit RoninDojo` dan tekan `enter` untuk memilihnya.
-Pada titik ini, Anda berada di terminal node Anda, dengan prompt perintah serupa dengan: `ronindojo@RoninDojo:~ $`. Untuk menerapkan perbaikan veth*, ketik perintah berikut dan tekan `enter`: `sudo nano /etc/dhcpcd.conf`
+Pada titik ini, Anda berada di terminal node Anda, dengan prompt perintah serupa dengan: `ronindojo@RoninDojo:~ $`. Untuk menerapkan perbaikan **veth**, ketik perintah berikut dan tekan `enter`: `sudo nano /etc/dhcpcd.conf`
 
 Konfirmasi password Anda lagi dan tekan `enter`.
 
@@ -296,7 +296,7 @@ Node RoninDojo Anda juga mengintegrasikan _WhirlpoolCLI_, antarmuka baris perint
 Melakukan coinjoin melalui Whirlpool memerlukan aplikasi yang digunakan untuk tetap aktif dalam melakukan remix. Kondisi ini bisa menjadi pembatas bagi mereka yang ingin mencapai tingkat anonim yang tinggi. Memang, perangkat yang menghosting aplikasi yang mengintegrasikan Whirlpool harus tetap menyala secara terus-menerus. Ini berarti untuk berpartisipasi dalam remix 24 jam sehari, komputer atau smartphone Anda harus tetap menyala dengan Samourai atau Sparrow terbuka terus-menerus. Solusi untuk kendala ini adalah menggunakan _WhirlpoolCLI_ pada mesin yang selalu aktif, seperti node Bitcoin, memungkinkan koin Anda untuk remix tanpa gangguan, dan tanpa perlu menjaga perangkat lain tetap menyala.
 Tutorial terperinci sedang disiapkan untuk memandu Anda langkah demi langkah melalui proses coinjoining dengan Samourai Wallet dan RoninDojo v2, dari A sampai Z.
 
-Untuk pemahaman yang lebih mendalam tentang coinjoin dan penggunaannya pada Bitcoin, saya juga mengundang Anda untuk membaca artikel lain ini: [Memahami dan menggunakan coinjoin pada Bitcoin](https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2), di mana saya menjelaskan segala hal yang perlu Anda ketahui tentang teknik ini.
+Untuk pemahaman yang lebih mendalam tentang coinjoin dan penggunaannya pada Bitcoin, saya juga mengundang Anda untuk membaca artikel lain ini: Memahami dan menggunakan coinjoin pada Bitcoin, di mana saya menjelaskan segala hal yang perlu Anda ketahui tentang teknik ini.
 ### Menggunakan Whirlpool Stat Tool (WST)
 
 Setelah melakukan coinjoins dengan Whirlpool, berguna untuk mengevaluasi secara tepat tingkat privasi yang dicapai untuk UTXO campuran Anda. Untuk melakukan ini, Anda dapat menggunakan alat Python *Whirlpool Stat Tool*. Alat ini memungkinkan Anda untuk mengukur baik skor prospektif maupun retrospektif dari UTXO Anda, sambil menganalisis tingkat difusi mereka di kolam.
@@ -477,3 +477,4 @@ Itu dia! Terima kasih telah mengikuti tutorial ini sampai selesai. Jika Anda men
 - [https://gist.github.com/LaurentMT/e758767ca4038ac40aaf](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf)
 - [https://medium.com/@laurentmt/memperkenalkan-boltzmann-85930984a159](https://medium.com/@laurentmt/memperkenalkan-boltzmann-85930984a159)
 - [https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry](https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry)
+

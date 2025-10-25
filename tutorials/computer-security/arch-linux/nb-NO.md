@@ -17,10 +17,10 @@ Arch Linux er en distribusjon som er kjent for sin robusthet, ytelse og tilpasni
 
 
 
-- Gratis og åpen kildekode**: Som de fleste Linux-distribusjoner er Arch Linux helt gratis. Det er ingen lisensavgifter, noe som gjør den til et utmerket valg for studenter, frilansere eller entusiaster.
-- KISS**-filosofien: Arch er designet for å være enkel, lett og effektiv. Den inneholder bare det viktigste, slik at du kan bygge opp miljøet ditt à la carte.
-- Pakkebehandleren Pacman**: Pacman er en rask, pålitelig og veldesignet pakkebehandler. Den muliggjør effektiv installasjon og oppdatering av programvare, og håndterer avhengigheter med presisjon.
-- Omfattende dokumentasjon og et aktivt fellesskap**: [Arch Wiki] (https://wiki.archlinux.org) er sannsynligvis en av de beste tekniske dokumentasjonene i Linux-verdenen. Det er en gullgruve for å forstå hva du gjør. Fellesskapet, som for det meste består av erfarne profiler, er svært aktivt og kan hjelpe deg hvis du står fast, forutsatt at du har gjort litt research på forhånd.
+- **Gratis og åpen kildekode**: Som de fleste Linux-distribusjoner er Arch Linux helt gratis. Det er ingen lisensavgifter, noe som gjør den til et utmerket valg for studenter, frilansere eller entusiaster.
+- **KISS-filosofien**: Arch er designet for å være enkel, lett og effektiv. Den inneholder bare det viktigste, slik at du kan bygge opp miljøet ditt à la carte.
+- **Pakkebehandleren Pacman**: Pacman er en rask, pålitelig og veldesignet pakkebehandler. Den muliggjør effektiv installasjon og oppdatering av programvare, og håndterer avhengigheter med presisjon.
+- **Omfattende dokumentasjon og et aktivt fellesskap**: [Arch Wiki] (https://wiki.archlinux.org) er sannsynligvis en av de beste tekniske dokumentasjonene i Linux-verdenen. Det er en gullgruve for å forstå hva du gjør. Fellesskapet, som for det meste består av erfarne profiler, er svært aktivt og kan hjelpe deg hvis du står fast, forutsatt at du har gjort litt research på forhånd.
 
 
 
@@ -39,7 +39,7 @@ Materialer som kreves:
 
 
 - En USB-nøkkel på minst **8 GB**
-- minimum 2 GB** RAM
+- minimum 2 GB **RAM**
 - En datamaskin med minst 20 GB ledig diskplass
 
 
@@ -261,7 +261,7 @@ Velg **GPT** hvis du bruker UEFI, og **DOS** hvis du bruker BIOS.
 
 
 
-- I UEFI**-modus
+- I **UEFI**-modus
 
 
 
@@ -294,7 +294,7 @@ Velg **Write**, skriv **yes** og deretter **Quit**.
 
 
 
-- UEFI**:
+- **UEFI**:
 
 
 
@@ -309,7 +309,7 @@ mkfs.ext4 /dev/sda3
 
 
 
-- BIOS**:
+- **BIOS**:
 
 
 

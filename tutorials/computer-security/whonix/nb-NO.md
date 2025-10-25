@@ -7,7 +7,7 @@ description: Bevar personvernet og konfidensialiteten din.
 
 
 
-**Whonix** er en Linux-distribusjon basert på **Debian**, designet for å tilby et miljø som kombinerer **sikkerhet**, **anonymitet** og **privatliv**. Den er enkel å lære og kompatibel med ulike grensesnitt (virtuelle maskiner, Qubes OS, Live-modus), og inkluderer som standard ruting av nettverkstrafikk via **Tor**, **dobbel brannmur** (en brannmur på gatewayen og en annen på arbeidsstasjonen), **full beskyttelse mot IP/DNS-lekkasjer** og verktøy for å effektivt skjule aktiviteten din for nettverksobservatører, inkludert Internett-leverandøren din. Whonix** er mer enn bare et anonymt system, det er et komplett og sikkert utviklingsmiljø.
+**Whonix** er en Linux-distribusjon basert på **Debian**, designet for å tilby et miljø som kombinerer **sikkerhet**, **anonymitet** og **privatliv**. Den er enkel å lære og kompatibel med ulike grensesnitt (virtuelle maskiner, Qubes OS, Live-modus), og inkluderer som standard ruting av nettverkstrafikk via **Tor**, **dobbel brannmur** (en brannmur på gatewayen og en annen på arbeidsstasjonen), **full beskyttelse mot IP/DNS-lekkasjer** og verktøy for å effektivt skjule aktiviteten din for nettverksobservatører, inkludert Internett-leverandøren din. **Whonix** er mer enn bare et anonymt system, det er et komplett og sikkert utviklingsmiljø.
 
 
 
@@ -17,12 +17,12 @@ description: Bevar personvernet og konfidensialiteten din.
 
 
 
-- Gratis**: I likhet med de fleste Linux-distribusjoner er Whonix et system med åpen kildekode som lisensieres helt gratis. Det er utviklet i åpen kildekode, med et aktivt og åpent fellesskap.
-- Personvern, sikkerhet og anonymitet**: Whonix' hovedmål er å tilby et ultrasikkert miljø, der alle dataene dine er beskyttet og kommunikasjonen din kryptert via Tor-nettverket.
-- Enkel å bruke**: Whonix tilbyr en intuitiv, forhåndskonfigurert grafisk Interface, som passer selv for nybegynnere. Du trenger ikke å være ekspert for å dra nytte av avansert beskyttelse.
-- Ideelt miljø for sikker utvikling**: Med Whonix kan du utvikle, teste, revidere eller kjøre programmer uten å avsløre din virkelige IP Address eller eksponere dine surfe- eller nettverkskommunikasjonsvaner.
-- Engangsøkter og Live-modus**: Whonix kan startes i Live-modus eller via engangsmaskiner (f.eks. via **Qubes OS**), noe som gjør det mulig å utføre kritiske oppgaver uten å etterlate vedvarende spor når økten er avsluttet.
-- Relativt enkel installasjon**: Det følger med ferdige avbildninger for rask installasjon i virtuelle maskiner (VirtualBox, KVM, Qubes). Systemet er dokumentert og oppdateres jevnlig.
+- **Gratis**: I likhet med de fleste Linux-distribusjoner er Whonix et system med åpen kildekode som lisensieres helt gratis. Det er utviklet i åpen kildekode, med et aktivt og åpent fellesskap.
+- **Personvern, sikkerhet og anonymitet**: Whonix' hovedmål er å tilby et ultrasikkert miljø, der alle dataene dine er beskyttet og kommunikasjonen din kryptert via Tor-nettverket.
+- **Enkel å bruke**: Whonix tilbyr en intuitiv, forhåndskonfigurert grafisk Interface, som passer selv for nybegynnere. Du trenger ikke å være ekspert for å dra nytte av avansert beskyttelse.
+- **Ideelt miljø for sikker utvikling**: Med Whonix kan du utvikle, teste, revidere eller kjøre programmer uten å avsløre din virkelige IP Address eller eksponere dine surfe- eller nettverkskommunikasjonsvaner.
+- **Engangsøkter og Live-modus**: Whonix kan startes i Live-modus eller via engangsmaskiner (f.eks. via **Qubes OS**), noe som gjør det mulig å utføre kritiske oppgaver uten å etterlate vedvarende spor når økten er avsluttet.
+- **Relativt enkel installasjon**: Det følger med ferdige avbildninger for rask installasjon i virtuelle maskiner (VirtualBox, KVM, Qubes). Systemet er dokumentert og oppdateres jevnlig.
 
 
 
@@ -56,9 +56,9 @@ Her er de anbefalte spesifikasjonene for en jevn og stabil opplevelse med Whonix
 
 
 
-- Random Access Memory (RAM)**: minimum **8 GB** anbefales på det sterkeste. Jo mer RAM du har, desto flere ressurser kan du allokere til de virtuelle maskinene (Gateway og Workstation), noe som forbedrer ytelsen.
+- **Random Access Memory (RAM)**: minimum **8 GB** anbefales på det sterkeste. Jo mer RAM du har, desto flere ressurser kan du allokere til de virtuelle maskinene (Gateway og Workstation), noe som forbedrer ytelsen.
 - Tilgjengelig diskplass**: Sørg for minst 30 GB ledig diskplass**. Dette inkluderer plassen som kreves for de to virtuelle maskinene, systemfiler og eventuelle data eller øyeblikksbilder.
-- Prosessor**: En prosessor med minst **4 fysiske kjerner** (8 logiske tråder) anbefales, spesielt hvis du ønsker å kjøre andre tjenester eller verktøy parallelt.
+- **Prosessor**: En prosessor med minst **4 fysiske kjerner** (8 logiske tråder) anbefales, spesielt hvis du ønsker å kjøre andre tjenester eller verktøy parallelt.
 
 
 

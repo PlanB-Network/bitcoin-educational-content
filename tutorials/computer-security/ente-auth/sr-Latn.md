@@ -107,9 +107,9 @@ Imate nekoliko opcija:
 
 
 
-- Google Play Store**: Pretraži "Ente Auth" za klasičnu instalaciju
-- F-Droid**: Dostupno iz kataloga aplikacija otvorenog koda za Android, sa garancijom verifikovane izrade i bez vlasničkog sadržaja
-- Ručno instaliranje** : APK datoteke mogu se preuzeti sa [GitHub stranice projekta](https://github.com/ente-io/auth/releases) sa integrisanim obaveštenjem o novim verzijama
+- **Google Play Store**: Pretraži "Ente Auth" za klasičnu instalaciju
+- **F-Droid**: Dostupno iz kataloga aplikacija otvorenog koda za Android, sa garancijom verifikovane izrade i bez vlasničkog sadržaja
+- **Ručno instaliranje**: APK datoteke mogu se preuzeti sa [GitHub stranice projekta](https://github.com/ente-io/auth/releases) sa integrisanim obaveštenjem o novim verzijama
 
 
 
@@ -129,9 +129,9 @@ Ente Auth nudi izvorne desktop aplikacije. Posetite [ente.io/download](https://e
 
 
 
-- Windows**: Isporučen je EXE instalacioni program
-- macOS**: Prevucite i otpustite DMG sliku diska u Aplikacije
-- Linux** : Više formata dostupno (prenosivi AppImage, .deb za Debian/Ubuntu, .rpm za Fedora/Red Hat)
+- **Windows**: Isporučen je EXE instalacioni program
+- **macOS**: Prevucite i otpustite DMG sliku diska u Aplikacije
+- **Linux**: Više formata dostupno (prenosivi AppImage, .deb za Debian/Ubuntu, .rpm za Fedora/Red Hat)
 
 
 
@@ -196,9 +196,9 @@ Preporučujem da omogućite lokalnu zaštitu pomoću koda ili biometrije. Idite 
 
 
 
-- Otključavanje biometrijom**: Face ID, otisak prsta u zavisnosti od mogućnosti vašeg uređaja
-- PIN/lozinka specifična za aplikaciju**
-- Kašnjenje automatskog zaključavanja**: npr. "Odmah" ili nakon 30 sekundi neaktivnosti
+- **Otključavanje biometrijom**: Face ID, otisak prsta u zavisnosti od mogućnosti vašeg uređaja
+- **PIN/lozinka specifična za aplikaciju**
+- **Kašnjenje automatskog zaključavanja**: npr. "Odmah" ili nakon 30 sekundi neaktivnosti
 
 
 
@@ -294,7 +294,7 @@ Možete prilagoditi naziv usluge i svoju prijavu kako biste ih lakše pronašli.
 
 
 
-**Rezervni kodovi**: Bik Bitcoin će vam obezbediti kodove za oporavak. **Sačuvajte ih na sigurnom mestu, odvojeno od vašeg autentifikatora.
+**Rezervni kodovi**: Bik Bitcoin će vam obezbediti kodove za oporavak. **Sačuvajte ih na sigurnom mestu, odvojeno od vašeg autentifikatora.**
 
 
 
@@ -431,10 +431,10 @@ Opšta podešavanja uključuju :
 
 
 
-- Jezik**: Interface višejezični
-- Prikaz**: Velike ikone, kompaktni režim
-- Privatnost**: Sakrij kodove, brza pretraga
-- Telemetrija**: Prijavljivanje grešaka (može se onemogućiti)
+- **Jezik**: Interface višejezični
+- **Prikaz**: Velike ikone, kompaktni režim
+- **Privatnost**: Sakrij kodove, brza pretraga
+- **Telemetrija**: Prijavljivanje grešaka (može se onemogućiti)
 
 
 
@@ -498,7 +498,7 @@ Ente Auth je zasnovan na robusnoj end-to-end enkripciji sa arhitekturom bez znan
 
 
 
-**Arhitektura nultog znanja: Ente fizički ne može pristupiti vašim podacima. Čak su i metapodaci (imena usluga, oznake, beleške) šifrovani na strani klijenta pre prenosa. Ovaj pristup osigurava da, u slučaju napada na vaše servere ili zahteva vlade, Ente može otkriti samo šifrovane podatke koji se ne mogu pročitati bez vaše lozinke.
+**Arhitektura nultog znanja:** Ente fizički ne može pristupiti vašim podacima. Čak su i metapodaci (imena usluga, oznake, beleške) šifrovani na strani klijenta pre prenosa. Ovaj pristup osigurava da, u slučaju napada na vaše servere ili zahteva vlade, Ente može otkriti samo šifrovane podatke koji se ne mogu pročitati bez vaše lozinke.
 
 
 
@@ -516,9 +516,9 @@ Kako je kod [open source](https://github.com/ente-io/auth), zajednica može veri
 
 
 
-- Cure53** (Nemačka): Revizija bezbednosti aplikacije i kriptografije
-- Symbolic Software** (Francuska): Specijalizovana stručnost u kriptografiji
-- Fallible** (India): Testiranje penetracije i analiza ranjivosti
+- **Cure53** (Nemačka): Revizija bezbednosti aplikacije i kriptografije
+- **Symbolic Software** (Francuska): Specijalizovana stručnost u kriptografiji
+- **Fallible** (India): Testiranje penetracije i analiza ranjivosti
 
 
 
@@ -600,37 +600,37 @@ Za timove koji upravljaju osetljivim nalozima, Ente Auth olakšava saradnju uz o
 
 
 
-- Sačuvajte svoje hitne kodove**: Čuvajte kodove za oporavak koje pruža svaka usluga dalje od vašeg telefona.
+- **Sačuvajte svoje hitne kodove**: Čuvajte kodove za oporavak koje pruža svaka usluga dalje od vašeg telefona.
 
 
 
 
 
-- Koristite jaku glavnu lozinku**: Vaša Ente Auth glavna lozinka mora biti jedinstvena i snažna, jer štiti sve vaše kodove.
+- **Koristite jaku glavnu lozinku**: Vaša Ente Auth glavna lozinka mora biti jedinstvena i snažna, jer štiti sve vaše kodove.
 
 
 
 
 
-- Aktiviraj lokalnu zaštitu**: Konfiguriši PIN ili biometriju kako bi sprečio neovlašćen fizički pristup.
+- **Aktiviraj lokalnu zaštitu**: Konfiguriši PIN ili biometriju kako bi sprečio neovlašćen fizički pristup.
 
 
 
 
 
-- Ne preterujte sa prilagođavanjem**: Izbegavajte napredne izmene koje bi mogle ugroziti sinhronizaciju.
+- **Ne preterujte sa prilagođavanjem**: Izbegavajte napredne izmene koje bi mogle ugroziti sinhronizaciju.
 
 
 
 
 
-- Ažurirajte aplikaciju**: Ažuriranja ispravljaju sigurnosne propuste i poboljšavaju funkcionalnost.
+- **Ažurirajte aplikaciju**: Ažuriranja ispravljaju sigurnosne propuste i poboljšavaju funkcionalnost.
 
 
 
 
 
-- Testiranje vraćanja**: Povremeno proverite da li možete da vratite svoje kodove na drugom uređaju.
+- **Testiranje vraćanja**: Povremeno proverite da li možete da vratite svoje kodove na drugom uređaju.
 
 
 
@@ -659,9 +659,9 @@ Bilo da ste pojedinac koji želi da zaštiti svoje lične naloge ili tim koji up
 
 
 
-- Zvanična veb stranica**: [ente.io/auth](https://ente.io/auth)
-- Help centar**: [help.ente.io/auth](https://help.ente.io/auth)
-- Tehnički blog**: [ente.io/blog](https://ente.io/blog)
+- **Zvanična veb stranica**: [ente.io/auth](https://ente.io/auth)
+- **Help centar**: [help.ente.io/auth](https://help.ente.io/auth)
+- **Tehnički blog**: [ente.io/blog](https://ente.io/blog)
 
 
 
@@ -670,8 +670,8 @@ Bilo da ste pojedinac koji želi da zaštiti svoje lične naloge ili tim koji up
 
 
 
-- GitHub**: [github.com/ente-io/auth](https://github.com/ente-io/auth)
-- Kriptografski audit**: [ente.io/blog/cryptography-audit](https://ente.io/blog/cryptography-audit)
+- **GitHub**: [github.com/ente-io/auth](https://github.com/ente-io/auth)
+- **Kriptografski audit**: [ente.io/blog/cryptography-audit](https://ente.io/blog/cryptography-audit)
 
 
 
@@ -680,5 +680,5 @@ Bilo da ste pojedinac koji želi da zaštiti svoje lične naloge ili tim koji up
 
 
 
-- Discord**: [discord.gg/z2YVKkycX3](https://discord.gg/z2YVKkycX3)
-- Reddit**: [r/enteio](https://reddit.com/r/enteio)
+- **Discord**: [discord.gg/z2YVKkycX3](https://discord.gg/z2YVKkycX3)
+- **Reddit**: [r/enteio](https://reddit.com/r/enteio)

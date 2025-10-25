@@ -1,5 +1,5 @@
 ---
-name: Sentinel Watch-Pekee
+name: Sentinel
 description: Watch-only wallet ni nini na jinsi ya kuitumia?
 ---
 
@@ -21,7 +21,7 @@ _Mafunzo haya yametolewa kwa madhumuni ya elimu na habari pekee. Hatuidhinishi a
 
 > Weka funguo zako za faragha, za faragha.
 
-Katika makala hii, tunachunguza kila kitu unachohitaji kujua kuhusu pochi za saa pekee. Tunajadili jinsi wanavyofanya kazi na kuchunguza maombi tofauti yanayopatikana kwenye soko. Hatimaye, tunatoa mafunzo ya kina juu ya mojawapo ya programu maarufu za Watch-only wallet: Sentinel.
+Katika makala hii, tunachunguza kila kitu unachohitaji kujua kuhusu wall za saa pekee. Tunajadili jinsi wanavyofanya kazi na kuchunguza maombi tofauti yanayopatikana kwenye soko. Hatimaye, tunatoa mafunzo ya kina juu ya mojawapo ya programu maarufu za Watch-only wallet: Sentinel.
 
 
 ## Watch-only wallet ni nini?
@@ -34,7 +34,7 @@ Aina hii ya programu huhifadhi tu data muhimu kwa ufuatiliaji wa Bitcoin Wallet,
 
 ![watch-only](assets/en/1.webp)
 
-Kutazama pekee kwa ujumla hutumiwa pamoja na Hardware Wallet. Hii inaruhusu uhifadhi wa funguo za faragha za Wallet "Cold," kwenye kifaa ambacho hakijaunganishwa kwenye mtandao, ambacho kina sehemu ndogo ya mashambulizi, ikitenga funguo za faragha kutoka kwa mazingira yanayoweza kuathirika. Programu ya saa pekee, kwa upande mwingine, huhifadhi ufunguo uliopanuliwa wa umma (`xpub`, `zpub`, n.k.) wa Bitcoin Wallet. Ufunguo huu wa mzazi hauruhusu ugunduzi wa funguo za faragha zinazohusiana na, kwa hiyo, hauruhusu matumizi ya bitcoins. Hata hivyo, inaruhusu kupata funguo za umma za watoto na anwani za kupokea. Kwa ujuzi wa anwani za Wallet zinazolindwa na Hardware Wallet, programu ya saa pekee inaweza kufuatilia miamala hii kwenye mtandao wa Bitcoin, ikimpa mtumiaji uwezo wa kufuatilia salio lake na anwani mpya za generate za kupokea, bila kulazimika kuunganisha Hardware Wallet yao kila wakati.
+Watch only wallet kwa ujumla hutumiwa pamoja na Hardware Wallet. Hii inaruhusu uhifadhi wa funguo za faragha za Wallet "Cold," kwenye kifaa ambacho hakijaunganishwa kwenye mtandao, ambacho kina sehemu ndogo ya mashambulizi, ikitenga funguo za faragha kutoka kwa mazingira yanayoweza kuathirika. Programu ya saa pekee, kwa upande mwingine, huhifadhi ufunguo uliopanuliwa wa umma (`xpub`, `zpub`, n.k.) wa Bitcoin Wallet. Ufunguo huu wa mzazi hauruhusu ugunduzi wa funguo za faragha zinazohusiana na, kwa hiyo, hauruhusu matumizi ya bitcoins. Hata hivyo, inaruhusu kupata funguo za umma za watoto na anwani za kupokea. Kwa ujuzi wa anwani za Wallet zinazolindwa na Hardware Wallet, programu ya saa pekee inaweza kufuatilia miamala hii kwenye mtandao wa Bitcoin, ikimpa mtumiaji uwezo wa kufuatilia salio lake na anwani mpya za generate za kupokea, bila kulazimika kuunganisha Hardware Wallet yao kila wakati.
 
 
 ## Watch-only wallet ipi ya kutumia?
@@ -46,12 +46,12 @@ Kwa sasa, programu pana zaidi ya saa pekee ni [Sentinel](https://sentinel.watch/
 
 - Usaidizi wa funguo zilizopanuliwa, funguo za umma, na anwani;
 - Uwezo wa kupanga akaunti nyingi au pochi kwenye makusanyo;
-- Kizazi cha anwani za kupokea bitcoins kwenye Hardware Wallet ya mtu bila kuhitaji matumizi yake ya moja kwa moja;
-- Uwezo wa kuunda na kutangaza shughuli nje ya mkondo;
+- Kizazi cha Address za kupokea bitcoins kwenye Hardware Wallet ya mtu bila kuhitaji matumizi yake ya moja kwa moja;
+- Uwezo wa kuunda na kutangaza miamala nje ya mkondo;
 - Chaguo la kuunganisha kwenye node ya Bitcoin ya mtu mwenyewe;
 - Ujumuishaji wa Tor kwa faragha iliyoimarishwa.
 
-Upungufu wa kipekee wa Sentinel unatokana na ukweli kwamba programu inapatikana kwa ajili ya Android pekee na haitumii pochi zenye saini nyingi. Kwa hivyo, ikiwa unamiliki kifaa cha Android na Wallet yako ni sahihi moja ya kawaida, ninapendekeza Sentinel.
+Upungufu wa kipekee wa Sentinel unatokana na ukweli kwamba programu inapatikana kwa ajili ya Android pekee na haitumii wallet zenye saini nyingi. Kwa hivyo, ikiwa unamiliki kifaa cha Android na Wallet yako ni sahihi moja ya kawaida, ninapendekeza Sentinel.
 
 Kwa wale wanaotaka kufuatilia Wallet yenye saini nyingi, Blue Wallet ndiyo programu pekee ninayoijua ambayo inatoa hali ya kuangalia pekee kwa aina hizi za pochi, na inapatikana kwenye Android na iOS.
 
@@ -81,7 +81,7 @@ Unapofungua programu kwanza, unapewa chaguo kati ya:
 - `Unganisha kwa seva ya Samourai`.
 
 
-Dojo, iliyotengenezwa na timu ya Samourai, ni toleo kamili la nodi za Bitcoin ambalo linaweza kusakinishwa likiwa peke yake au kuongezwa kwa mbofyo mmoja kwenye suluhu za nodi-in-box kama vile [Umbrel](https://umbrel.com/) na [RoninDojo](https://ronindojo.io/).
+Dojo, iliyotengenezwa na timu ya Samourai, ni toleo kamili la nodi za Bitcoin ambalo linaweza kusakinishwa likiwa peke yake au kuongezwa kwa mbofyo mmoja kwenye suluhu za node-in-box kama vile [Umbrel](https://umbrel.com/) na [RoninDojo](https://ronindojo.io/).
 
 
 [**-> Gundua jinsi ya kusakinisha RoninDojo v2 kwenye Raspberry Pi.**](https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8)
@@ -173,7 +173,7 @@ Kutoka kwa mkusanyiko, kwa kugonga vitone vitatu kwenye sehemu ya juu kulia, kis
 ### Kutuma na Kupokea Bitcoins kutoka Sentinel
 
 
-Kama ilivyo kwa Watch-only wallet yoyote nzuri, Sentinel hukuruhusu kupokea generate anwani ili kupokea bitcoins kwenye Wallet inayofuatiliwa. Lakini Sentinel pia inatoa kipengele kingine cha juu: uundaji na utangazaji wa Partially Signed Bitcoin Transaction (PSBT). Kwa hivyo, Wallet iliyoshikilia funguo za kibinafsi inaweza kusaini shughuli hii, ambayo, ikiwa imesainiwa, inaweza kutangazwa kwenye mtandao wa Bitcoin na Sentinel. Wacha tuone jinsi ya kufanya haya yote.
+Kama ilivyo kwa Watch-only wallet yoyote nzuri, Sentinel hukuruhusu kuunda anwani ili kupokea bitcoins kwenye Wallet inayofuatiliwa. Lakini Sentinel pia inatoa kipengele kingine cha juu: uundaji na utangazaji wa Partially Signed Bitcoin Transaction (PSBT). Hivyo, Wallet inayoshikilia funguo za kibinafsi inaweza kusaini muamala huu, ambao, baada ya kusainiwa, unaweza kutangazwa kwenye mtandao wa Bitcoin kupitia Sentinel. Wacha tuone jinsi ya kufanya haya yote.
 
 
 **Tahadhari, haipendekezwi kupokea bitcoins kwenye Address inayopokea ambayo haijathibitishwa na Wallet yenyewe.** Ikiwa Wallet iliyoshikilia funguo za faragha, kama vile Hardware Wallet, haijathibitisha wazi kwamba Address fulani inahusishwa nayo, kutuma bitcoins kwa Address hii ni mazoezi hatari. Hakika, bila uthibitisho huu, hakuna hakikisho kwamba Address ni mali ya Wallet yako. Kwa hivyo, utendakazi wa kupokea wa Watch-only wallet unapaswa kutumiwa kwa tahadhari, ikizingatiwa kuwa pesa zilizotumwa zinaweza kupotea.
@@ -191,7 +191,7 @@ Hatimaye, bofya kwenye ikoni ya mshale chini kushoto ya skrini. Sentinel kisha i
 ![watch-only](assets/notext/18.webp)
 
 
-Kwa generate PSBT kutoka Sentinel, na hivyo kuanzisha shughuli ya matumizi, nenda kwenye ufunguo uliopanuliwa wa Wallet ambao ungependa kufanya malipo. Hebu tuchukue, kwa mfano, akaunti yangu ya amana kwenye Samourai Wallet yangu. Kisha bonyeza kwenye ikoni ya mshale iliyo chini ya kulia ya skrini.
+Kwa kuunda PSBT kutoka Sentinel, na hivyo kuanzisha muamala wa matumizi, nenda kwenye ufunguo uliopanuliwa wa Wallet ambao ungependa kufanya malipo. Hebu tuchukue, kwa mfano, akaunti yangu ya amana kwenye Samourai Wallet yangu. Kisha bonyeza kwenye ikoni ya mshale iliyo chini kulia ya skrini.
 
 
 ![watch-only](assets/notext/19.webp)

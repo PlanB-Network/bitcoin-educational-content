@@ -1,5 +1,5 @@
 ---
-name: COLDCARD Q - Avanzato
+name: COLDCARD Q - Esperto
 description: Utilizzo delle opzioni avanzate di COLDCARD Q
 ---
 ![cover](assets/cover.webp)
@@ -28,7 +28,7 @@ Sulle COLDCARD sono disponibili due opzioni per la gestione della passphrase:
 
 1. **Immissione classica:** La passphrase viene immessa manualmente ogni volta che si utilizza il portafoglio hardware, proprio come si fa con altri portafogli hardware. COLDCARD Q semplifica questo compito grazie alla sua tastiera completa.
 
-2. **È possibile scegliere di criptare la passphrase e memorizzarla su una scheda microSD. In questo caso, sarà necessario inserire la microSD nella COLDCARD Q ogni volta che la si utilizza. Si noti che questa microSD funzionerà solo sulla COLDCARD Q e non è un backup. È quindi molto importante conservare una copia della passphrase su un supporto fisico, come carta o metallo.
+2. **È possibile scegliere di criptare la passphrase e memorizzarla su una scheda microSD. In questo caso, sarà necessario inserire la microSD nella COLDCARD Q ogni volta che la si utilizza. Si noti che questa microSD funzionerà solo sulla COLDCARD Q e non è un backup. È quindi molto importante conservare una copia della passphrase su un supporto fisico, come carta o metallo.**
 
 Per impostare la passphrase del BIP39, accedere al menu "*Passphrase*".
 
@@ -76,7 +76,7 @@ Le COLDCARD offrono inoltre una serie di opzioni per il processo di sblocco del 
 
 ### PIN truccati
 
-Il Trick PIN è un codice PIN secondario diverso da quello definito durante la configurazione iniziale del dispositivo. Questo codice viene utilizzato per attivare azioni specifiche preconfigurate non appena viene inserito all'accensione della COLDCARD. È possibile configurare diversi Trick PIN, ciascuno collegato a un'azione diversa. Queste funzioni consentono di adattare la COLDCARD alla propria strategia di sicurezza personale. Sono particolarmente utili in caso di costrizione fisica, come ad esempio durante una rapina (comunemente chiamata nella comunità Bitcoin "attacco con chiave da 5 dollari*").
+Il Trick PIN è un codice PIN secondario diverso da quello definito durante la configurazione iniziale del dispositivo. Questo codice viene utilizzato per attivare azioni specifiche preconfigurate non appena viene inserito all'accensione della COLDCARD. È possibile configurare diversi Trick PIN, ciascuno collegato a un'azione diversa. Queste funzioni consentono di adattare la COLDCARD alla propria strategia di sicurezza personale. Sono particolarmente utili in caso di costrizione fisica, come ad esempio durante una rapina (comunemente chiamata nella comunità Bitcoin "attacco con chiave da 5 dollari").
 
 Per attivare un Trick PIN e associarlo a un'azione, accedere al menu `Impostazioni > Impostazioni di accesso > Trick PIN`.
 
@@ -112,9 +112,9 @@ Scegliere quindi l'azione da eseguire automaticamente ogni volta che si inserisc
 ![CCQ](assets/fr/16.webp)
 
 
-- "*Conto alla rovescia del login*": Questo menu raggruppa le azioni con un conto alla rovescia prima della loro esecuzione. **Attenzione, alcune di esse possono distruggere il dispositivo o causare la perdita di bitcoin. Ecco le sottoazioni disponibili:
+- "*Conto alla rovescia del login*": Questo menu raggruppa le azioni con un conto alla rovescia prima della loro esecuzione. **Attenzione, alcune di esse possono distruggere il dispositivo o causare la perdita di bitcoin.** Ecco le sottoazioni disponibili:
  - "Cancella e conto alla rovescia": Cancella il seme dalla memoria della COLDCARD, quindi avvia un conto alla rovescia di un'ora. Senza salvare la mnemonica o la passphrase, i bitcoin andranno persi. Questa opzione è progettata per ingannare un aggressore e fargli credere che il dispositivo si sbloccherà al termine del conto alla rovescia, mentre in realtà verrà ripristinato alle impostazioni di fabbrica.
- - "Conto alla rovescia e mattone*": Avvia un conto alla rovescia di un'ora, al termine del quale la COLDCARD distrugge i suoi due chip di sicurezza, rendendola definitivamente inutilizzabile. Senza backup, i bitcoin andranno persi. Questa azione è progettata per ingannare un aggressore, che pensa di essere in attesa di uno sblocco, mentre in realtà il dispositivo si autodistruggerà.
+- "Conto alla rovescia e mattone": Avvia un conto alla rovescia di un'ora, al termine del quale la COLDCARD distrugge i suoi due chip di sicurezza, rendendola definitivamente inutilizzabile. Senza backup, i bitcoin andranno persi. Questa azione è progettata per ingannare un aggressore, che pensa di essere in attesa di uno sblocco, mentre in realtà il dispositivo si autodistruggerà.
  - "*Solo conto alla rovescia* : Attiva un semplice conto alla rovescia di un'ora, al termine del quale la COLDCARD si riavvia senza ulteriori azioni. Il seme non viene cancellato e il dispositivo rimane intatto. Attenzione a non confondere questa azione con l'opzione "*Conto alla rovescia per l'accesso*", discussa nelle sezioni seguenti, che aggiunge un conto alla rovescia al PIN principale e dà accesso al portafoglio reale.
 
 ![CCQ](assets/fr/17.webp)

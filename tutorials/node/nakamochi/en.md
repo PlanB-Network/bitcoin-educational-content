@@ -1,7 +1,8 @@
 ---
 name: Nakamochi
-description: Node Running Made Easy - How to set up and use Nakamochi Bitcoin and Lightning node.
+description: Node Running Made Easy - How to set up and use Nakamochi Bitcoin and Lightning node ?
 ---
+![image](assets/cover.webp)
 
 Running your own Bitcoin and Lightning full node no longer needs to be a complex task limited to technical experts. Traditionally, setting up and managing nodes has demanded in-depth knowledge of cryptography, networking, and software development. Nakamochi changes that by making nodes accessible to everyone, regardless of technical background.
 
@@ -51,6 +52,8 @@ _For additional safety set a PIN code_
 
 
 ## About the Lightning Network
+
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 The Bitcoin Lightning Network revolutionizes Bitcoin transactions by making them faster, cheaper, and more efficient. It’s perfect for everyday use, enabling near-instant payments with minimal fees, ideal for microtransactions like buying a coffee or handling frequent small purchases.
 By operating off-chain, Lightning is designed to scale, supporting thousands of transactions per second without overloading the main Bitcoin blockchain. This makes it a key player in Bitcoin’s evolution into a practical, global payment system.

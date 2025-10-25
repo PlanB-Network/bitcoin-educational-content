@@ -1,5 +1,5 @@
 ---
-name: COLDCARD Q - Advanced
+name: COLDCARD Q - Chuyên gia
 description: Using COLDCARD Q's advanced options
 ---
 ![cover](assets/cover.webp)
@@ -28,7 +28,7 @@ On COLDCARDs, you have two options for managing your passphrase:
 
 1. **Classic entry:** You enter the passphrase manually each time you use your hardware wallet, just as you do with other hardware wallets. COLDCARD Q simplifies this task with its full keyboard.
 
-2. **You can choose to encrypt your passphrase and store it on a microSD card. In this case, you'll need to insert the microSD into the COLDCARD Q each time you use it. Note that this microSD will only work on your COLDCARD Q and is not a backup. It is therefore very important that you also keep a copy of your passphrase on a physical medium, such as paper or metal.
+2. **You can choose to encrypt your passphrase and store it on a microSD card. In this case, you'll need to insert the microSD into the COLDCARD Q each time you use it. Note that this microSD will only work on your COLDCARD Q and is not a backup. It is therefore very important that you also keep a copy of your passphrase on a physical medium, such as paper or metal.**
 
 To set your BIP39 passphrase, access the "*Passphrase*" menu.
 

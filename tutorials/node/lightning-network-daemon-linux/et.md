@@ -28,8 +28,8 @@ Teisisõnu, selle rakendusega saate :
 
 
 
-- Suhelda Lightning Network**: Saate kasutada käsureid Lightning portfellide loomiseks, maksekanalite ja marsruutide haldamiseks ja paljuks muuks otse oma masina terminalist.
-- Kaugse Bitcoin sõlme või oma Bitcoin Core'i instantsi** ühendamine: LND võimaldab teil linkida Bitcoin instantsi ja kasutada seda oma backendina. Selle rakenduse kasutamiseks ei ole vaja oma masinas käivitada Bitcoin Core'i instantsi.
+- **Suhelda Lightning Network**: Saate kasutada käsureid Lightning portfellide loomiseks, maksekanalite ja marsruutide haldamiseks ja paljuks muuks otse oma masina terminalist.
+- **Kaugse Bitcoin sõlme või oma Bitcoin Core'i instantsi ühendamine**: LND võimaldab teil linkida Bitcoin instantsi ja kasutada seda oma backendina. Selle rakenduse kasutamiseks ei ole vaja oma masinas käivitada Bitcoin Core'i instantsi.
 
 
 
@@ -57,10 +57,10 @@ Selles mõttes suurendab Lightning-sõlme kasutamine teie andmete turvalisust ja
 
 
 
-- Täielik kontroll**: Haldage oma maksekanaleid, muutuge oma pangaks ja olge oma varade peremees.
-- Konfidentsiaalsus**: Tehke tehinguid, ilma et usaldaksite oma privaatsust kolmandate isikute suhtes.
-- Õppimine ja iseseisvus**: Tänu käskudele `lncli` saate paremini mõista Lightningi aluseks olevaid protsesse, rakendades neid ise oma terminalist.
-- Detsentraliseerimine**: Võtta aktiivselt osa Bitcoin / Lightning Network tugevdamisest ja detsentraliseerimisest.
+- **Täielik kontroll**: Haldage oma maksekanaleid, muutuge oma pangaks ja olge oma varade peremees.
+- **Konfidentsiaalsus**: Tehke tehinguid, ilma et usaldaksite oma privaatsust kolmandate isikute suhtes.
+- **Õppimine ja iseseisvus**: Tänu käskudele `lncli` saate paremini mõista Lightningi aluseks olevaid protsesse, rakendades neid ise oma terminalist.
+- **Detsentraliseerimine**: Võtta aktiivselt osa Bitcoin / Lightning Network tugevdamisest ja detsentraliseerimisest.
 
 
 
@@ -83,7 +83,7 @@ Kuna LND on kirjutatud Go keeles, peate veenduma, et teie Linuxi masinas on olem
 
 
 
-- Riistvaranõuded:**
+- **Riistvaranõuded:**
 
 
 Sujuva ja tõrgeteta kasutuskogemuse tagamiseks peab teie masinal olema vajalik võimsus LND Lightning-sõlme käivitamiseks.
@@ -105,7 +105,7 @@ Sa pead :
 
 
 
-- Paigaldage kasulikud sõltuvused:**
+- Paigaldage kasulikud sõltuvused:
 
 
 Allpool toodud käsk võimaldab teil paigaldada oma masinasse LND käivitamiseks vajalikud tööriistad. Muuhulgas on vaja paigaldada `Git`, mis on versioonimisvahend, ja `make`, mis suudab LND implementatsiooni lähtekoodist käivitada ja ehitada.
@@ -124,11 +124,11 @@ sudo apt install -y build-essential git make
 
 
 
-- Paigaldage GoLang oma Linuxi masinasse**
+- Paigaldage GoLang oma Linuxi masinasse
 
 
 
-Selle õpetuse valmimise ajal vajab LND paigaldamiseks Go*** versiooni 1.23.6.
+Selle õpetuse valmimise ajal vajab LND paigaldamiseks **Go** versiooni 1.23.6.
 
 
 
@@ -156,7 +156,7 @@ sudo tar -C /usr/local -xzf go1.23.6.linux-amd64.tar.gz
 
 
 
-- Go** keskkonna konfiguratsioon
+- **Go** keskkonna konfiguratsioon
 
 
 Initsialiseerige oma failis `~/.bashrc` järgmised keskkonnamuutujad, et lisada Go oma Linuxi süsteemi.
@@ -178,7 +178,7 @@ source ~/.bashrc
 
 
 
-- Paigalduse kontrollimine** (prantsuse keeles)
+- **Paigalduse kontrollimine** (prantsuse keeles)
 
 
 ```bash
@@ -239,7 +239,7 @@ make install
 
 
 
-- Paigalduse kontrollimine** (prantsuse keeles)
+- **Paigalduse kontrollimine** (prantsuse keeles)
 
 
 
@@ -334,37 +334,37 @@ Faili `~/.LND/LND.conf` sisu põhjal on siinkohal esitatud väljade üksikasjad:
 
 
 
-- ninaedbackup**: Võimaldab valida, kas soovite, et LND teeks portfellidest automaatseid varukoopiaid.  Selle omaduse seadmine `0` võimaldab teil käsitsi salvestada taastamisandmeid isiklikult valitud turvalisse kohta.
+- **ninaedbackup**: Võimaldab valida, kas soovite, et LND teeks portfellidest automaatseid varukoopiaid. Selle omaduse seadmine `0` võimaldab teil käsitsi salvestada taastamisandmeid isiklikult valitud turvalisse kohta.
 
 
 
 
 
-- debuglevel**: Võimaldab määrata vigade ja logide detailsuse taseme, kui toimingu käigus ilmnevad vead.
+- **debuglevel**: Võimaldab määrata vigade ja logide detailsuse taseme, kui toimingu käigus ilmnevad vead.
 
 
 
 
 
-- Bitcoin.active**: Käsib LND-l tegutseda Bitcoin sõlmpunktina ja suhelda Bitcoin võrguga.
+- **Bitcoin.active**: Käsib LND-l tegutseda Bitcoin sõlmpunktina ja suhelda Bitcoin võrguga.
 
 
 
 
 
-- Bitcoin.Mainnet**: Määratleb LND ühendamiseks Bitcoin põhivõrguga (Mainnet), Bitcoin Signet ja Bitcoin Regtest võrkudele saab määrata vastavalt väärtused `bitcoind.signet` ja `bitcoind.regtest`
+- **Bitcoin.Mainnet**: Määratleb LND ühendamiseks Bitcoin põhivõrguga (Mainnet), Bitcoin Signet ja Bitcoin Regtest võrkudele saab määrata vastavalt väärtused `bitcoind.signet` ja `bitcoind.regtest`
 
 
 
 
 
-- Bitcoin.node**: Määrab Bitcoin sõlme tüübi, millega LND peaks ühenduma.
+- **Bitcoin.node**: Määrab Bitcoin sõlme tüübi, millega LND peaks ühenduma.
 
 
 
 
 
-- Bitcoin.rpcuser** ja **Bitcoin.rpcpassword** : Esindada.
+- **Bitcoin.rpcuser** ja **Bitcoin.rpcpassword** : Esindada.
 
 
 vastavalt sisselogimine (kasutaja, parool), et luua ühendus oma Bitcoin sõlme jaoks
@@ -373,7 +373,7 @@ vastavalt sisselogimine (kasutaja, parool), et luua ühendus oma Bitcoin sõlme 
 
 
 
-- bitcoind.zmqpubrawblock** ja **bitcoind.zmqpubrawtx**: defineerivad vastavalt ZeroMQ lõpp-punkte, et saada teateid uute plokkide ja tehingute kohta Bitcoin võrgus.
+- **bitcoind.zmqpubrawblock** ja **bitcoind.zmqpubrawtx**: defineerivad vastavalt ZeroMQ lõpp-punkte, et saada teateid uute plokkide ja tehingute kohta Bitcoin võrgus.
 
 
 
@@ -492,9 +492,9 @@ Selleks, et luua ühendus partneriga (Lightning-sõlmega), on vaja kolme teavet:
 
 
 
-- Sõlme avalik võti**: See on sõlme unikaalne identifikaator Bitcoin võrgus;
-- IP** : Selle masina IP-aadress, millele sõlme on paigaldatud;
-- PORT** :  Masina avatud port, mis võimaldab selle sõlme suhtlemist.
+- **Sõlme avalik võti**: See on sõlme unikaalne identifikaator Bitcoin võrgus;
+- **IP**: Selle masina IP-aadress, millele sõlme on paigaldatud;
+- **PORT**: Masina avatud port, mis võimaldab selle sõlme suhtlemist.
 
 
 
@@ -519,25 +519,25 @@ Veenduge, et ühendute **lugevate sõlmedega**, et säilitada oma süsteemi terv
 
 
 
-- Geograafiline mitmekesistamine**: Ühendage eri piirkondade sõlmedega.
+- **Geograafiline mitmekesistamine**: Ühendage eri piirkondade sõlmedega.
 
 
 
 
 
-- Maine**: Valige hea kättesaadavusega sõlmed.
+- **Maine**: Valige hea kättesaadavusega sõlmed.
 
 
 
 
 
-- Maht**: Valige hea likviidsusega sõlmed.
+- **Maht**: Valige hea likviidsusega sõlmed.
 
 
 
 
 
-- Tasud**: Kontrollige marsruutimistasusid.
+- **Tasud**: Kontrollige marsruutimistasusid.
 
 
 ### Avage maksekanal
@@ -590,7 +590,7 @@ Praeguse sõlme aktiivse kanali sulgemiseks on kaks võimalust.
 
 
 
-- Ühistegevuse lõpetamine**: See annab märku teie sõlme soovist maksekanalist välja astuda, tagades, et käimasolevad ülesanded on lõpetatud ja andmed on varundatud, et vältida vahendite kadumist.
+- **Ühistegevuse lõpetamine**: See annab märku teie sõlme soovist maksekanalist välja astuda, tagades, et käimasolevad ülesanded on lõpetatud ja andmed on varundatud, et vältida vahendite kadumist.
 
 
 ```
@@ -600,7 +600,7 @@ lncli closechannel <ID_CANAL>
 
 
 
-- Sulgemine**: see tegevus katkestab teie maksekanalis käimasolevad protsessid ja suurendab rahaliste vahendite kaotamise riski.
+- **Sulgemine**: see tegevus katkestab teie maksekanalis käimasolevad protsessid ja suurendab rahaliste vahendite kaotamise riski.
 
 
 ```
@@ -653,9 +653,9 @@ lncli restorechanbackup <CHEMIN_DU_FICHIER>
 
 
 
-- bitcoind ühendusviga** : Kontrollige oma RPC sisselogimise andmeid
-- Sünkroniseerimine blokeeritud** : Kontrollige oma internetiühendust
-- Lubade viga**: Kontrollige kausta `~/.LND` õigusi
+- **bitcoind ühendusviga**: Kontrollige oma RPC sisselogimise andmeid
+- **Sünkroniseerimine blokeeritud**: Kontrollige oma internetiühendust
+- **Lubade viga**: Kontrollige kausta `~/.LND` õigusi
 
 
 

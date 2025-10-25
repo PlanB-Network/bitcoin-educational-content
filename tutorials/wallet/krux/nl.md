@@ -1,5 +1,5 @@
 ---
-name: Krux - Enkele en Multi Sig
+name: Krux
 description: het opzetten van de Krux DIY Bitcoin hardware ondertekenaar, het flashen van de firmware en het gebruik voor zowel single-sig als Multisig wallets.
 ---
 

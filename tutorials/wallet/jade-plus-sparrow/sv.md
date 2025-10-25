@@ -112,7 +112,7 @@ Klicka på "*Setup Jade*".
 ![JADE-PLUS-SPARROW](assets/fr/06.webp)
 
 
-Välj "Advanced Setup*".
+Välj "Advanced Setup".
 
 
 ![Image](assets/fr/07.webp)
@@ -130,7 +130,7 @@ Klicka på knappen "*Continue*" för att visa din nya återställningsfras.
 ![Image](assets/fr/09.webp)
 
 
-Din Jade Plus visar din Mnemonic-fras på 12 ord. **Den här Mnemonic ger dig full, obegränsad tillgång till alla dina bitcoins. Vem som helst som har tillgång till denna fras kan stjäla dina pengar, även utan fysisk tillgång till din Jade Plus. Frasen på 12 ord återställer åtkomsten till dina bitcoins i händelse av förlust, stöld eller brott på din Jade. Det är därför mycket viktigt att spara den noggrant och förvara den på en säker plats.
+Din Jade Plus visar din Mnemonic-fras på 12 ord. **Den här Mnemonic ger dig full, obegränsad tillgång till alla dina bitcoins. Vem som helst som har tillgång till denna fras kan stjäla dina pengar, även utan fysisk tillgång till din Jade Plus. Frasen på 12 ord återställer åtkomsten till dina bitcoins i händelse av förlust, stöld eller brott på din Jade. Det är därför mycket viktigt att spara den noggrant och förvara den på en säker plats.**
 
 
 Du kan skriva den på kartongen som medföljer i lådan, eller för extra säkerhet rekommenderar jag att du graverar den på en bas av rostfritt stål för att skydda den mot brand, översvämning eller kollaps.
@@ -144,7 +144,7 @@ För mer information om det rätta sättet att spara och hantera din Mnemonic-fr
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-naturligtvis får du aldrig dela dessa ord på Internet, som jag gör i den här handledningen. Detta prov Wallet kommer endast att användas på Testnet och kommer att raderas i slutet av handledningen.**_
+naturligtvis får du aldrig dela dessa ord på Internet, som jag gör i den här handledningen. Detta prov Wallet kommer endast att användas på Testnet och kommer att raderas i slutet av handledningen.
 
 
 Klicka på pilen till höger på skärmen för att visa följande ord.

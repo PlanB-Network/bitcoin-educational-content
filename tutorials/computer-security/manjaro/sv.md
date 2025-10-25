@@ -90,9 +90,9 @@ För att Manjaro ska fungera optimalt måste din dator uppfylla vissa minimikrav
 
 
 
-- En 64-bitars (x86_64)** processor
-- 4 GB RAM rekommenderas (minst 2 GB)** (se nedan)
-- 30 GB diskutrymme (mer om du skapar en särskild `/home`-partition)**
+- En 64-bitars (x86_64) **processor**
+- **4 GB RAM rekommenderas (minst 2 GB)** (se nedan)
+- 30 GB diskutrymme (mer om du skapar en särskild `/home`-partition)
 
 
 
@@ -219,8 +219,8 @@ Med Manjaro kan du välja mellan **FreeOffice** och **LibreOffice**.
 
 
 
-- LibreOffice** är mer komplett, med ett bredare utbud av program och avancerade funktioner.
-- FreeOffice**, å andra sidan, är lättare och innehåller bara det nödvändigaste: **TextMaker**, PlanMaker** och Presentations**.
+- **LibreOffice** är mer komplett, med ett bredare utbud av program och avancerade funktioner.
+- **FreeOffice**, å andra sidan, är lättare och innehåller bara det nödvändigaste: **TextMaker**, **PlanMaker** och **Presentations**.
 
 
 

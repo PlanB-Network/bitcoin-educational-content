@@ -196,13 +196,13 @@ Aegisin asetusvalikossa on useita tärkeitä osioita:
 
 
 
-- Ulkonäkö**: Mukauta teemaa (vaalea, tumma, AMOLED), kieltä ja muita visuaalisia asetuksia
-- Käyttäytyminen**: Määritä sovelluksen käyttäytyminen, kun se on vuorovaikutuksessa merkintäluettelon kanssa
-- Kuvakepaketit**: hallinnoi ja tuo kuvakepaketteja tiliesi ulkoasun mukauttamiseksi
-- Turvallisuus**: Salauksen, biometrisen lukituksen avaamisen, automaattisen lukituksen ja muiden turvallisuusparametrien asetukset
-- Varmuuskopiot**: Määritä automaattiset varmuuskopiot haluamaasi paikkaan
-- Tuonti ja vienti**: Tuo varmuuskopiot muista todennussovelluksista ja vie Aegis-holvisi manuaalisesti
-- Tarkastusloki**: Yksityiskohtainen loki kaikista sovelluksen merkittävistä tapahtumista
+- **Ulkonäkö**: Mukauta teemaa (vaalea, tumma, AMOLED), kieltä ja muita visuaalisia asetuksia
+- **Käyttäytyminen**: Määritä sovelluksen käyttäytyminen, kun se on vuorovaikutuksessa merkintäluettelon kanssa
+- **Kuvakepaketit**: hallinnoi ja tuo kuvakepaketteja tiliesi ulkoasun mukauttamiseksi
+- **Turvallisuus**: Salauksen, biometrisen lukituksen avaamisen, automaattisen lukituksen ja muiden turvallisuusparametrien asetukset
+- **Varmuuskopiot**: Määritä automaattiset varmuuskopiot haluamaasi paikkaan
+- **Tuonti ja vienti**: Tuo varmuuskopiot muista todennussovelluksista ja vie Aegis-holvisi manuaalisesti
+- **Tarkastusloki**: Yksityiskohtainen loki kaikista sovelluksen merkittävistä tapahtumista
 
 
 
@@ -228,9 +228,9 @@ Paina Aegis Interface:n pääikkunassa oikeassa alakulmassa olevaa **+**-painike
 
 
 
-- Skannaa QR-koodi**: Skannaa suoraan verkkopalvelun näyttämä QR-koodi
-- Skannaa kuva**: Skannaa QR-koodi laitteeseen tallennetusta kuvasta
-- Syötä manuaalisesti**: Syötä 2FA-tilin tiedot manuaalisesti
+- **Skannaa QR-koodi**: Skannaa suoraan verkkopalvelun näyttämä QR-koodi
+- **Skannaa kuva**: Skannaa QR-koodi laitteeseen tallennetusta kuvasta
+- **Syötä manuaalisesti**: Syötä 2FA-tilin tiedot manuaalisesti
 
 
 
@@ -252,8 +252,8 @@ Otetaan konkreettinen esimerkki 2FA:n aktivoinnista Bitwardenissa prosessin hava
 
 
 
-- Kirjautuminen sisään ja asetusten käyttäminen**: Kirjaudu sisään Bitwarden-tilillesi ja avaa asetukset, "Turvallisuus"-välilehti
-- Palveluntarjoajia koskeva osa**: Siirry "Providers"-osioon ja napsauta "Manage" (Hallitse) "Authenticator app"-osiossa
+- **Kirjautuminen sisään ja asetusten käyttäminen**: Kirjaudu sisään Bitwarden-tilillesi ja avaa asetukset, "Turvallisuus"-välilehti
+- **Palveluntarjoajia koskeva osa**: Siirry "Providers"-osioon ja napsauta "Manage" (Hallitse) "Authenticator app"-osiossa
 
 
 
@@ -267,10 +267,10 @@ Otetaan konkreettinen esimerkki 2FA:n aktivoinnista Bitwardenissa prosessin hava
 
 
 
-- Skannaa QR-koodi**: Avautuu ponnahdusikkuna, jossa on QR-koodi ja salainen avain
-- Aegiksessa**: Käytä "Skannaa QR-koodi" tietojen automaattiseen keräämiseen
-- Tarkastus**: Syötä Aegisin luoma 6-numeroinen koodi kenttään "Verification code"
-- Aktivointi**: Napsauta "Ota käyttöön" aktivoinnin viimeistelemiseksi
+- **Skannaa QR-koodi**: Avautuu ponnahdusikkuna, jossa on QR-koodi ja salainen avain
+- **Aegiksessa**: Käytä "Skannaa QR-koodi" tietojen automaattiseen keräämiseen
+- **Tarkastus**: Syötä Aegisin luoma 6-numeroinen koodi kenttään "Verification code"
+- **Aktivointi**: Napsauta "Ota käyttöön" aktivoinnin viimeistelemiseksi
 
 
 
@@ -292,12 +292,12 @@ Jos haluat tai et pysty skannaamaan QR-koodia, käytä vaihtoehtoa "Syötä manu
 
 
 
-- Nimi** : Palvelun nimi (esim. Bitwarden, GitHub...)
-- Liikkeeseenlaskija** : Liikkeeseenlaskija (usein sama kuin nimi)
-- Ryhmä**: Valinnainen, tilien järjestäminen luokittain
-- Huomautus** : Henkilökohtaisia huomautuksia tästä tilistä
-- Salaisuus** : Palvelun toimittama salainen avain (oletusarvoisesti peitetty)
-- Edistyneet**: Lisäparametrit (algoritmi, jakso, numeroiden määrä)
+- **Nimi**: Palvelun nimi (esim. Bitwarden, GitHub...)
+- **Liikkeeseenlaskija**: Liikkeeseenlaskija (usein sama kuin nimi)
+- **Ryhmä**: Valinnainen, tilien järjestäminen luokittain
+- **Huomautus**: Henkilökohtaisia huomautuksia tästä tilistä
+- **Salaisuus**: Palvelun toimittama salainen avain (oletusarvoisesti peitetty)
+- **Edistyneet**: Lisäparametrit (algoritmi, jakso, numeroiden määrä)
 
 
 
@@ -323,10 +323,10 @@ Kun olet lisännyt useita tilejä, arvostat Aegisin organisointityökaluja:
 
 
 
-- Mukautettu lajittelu:** Oletusarvoisesti tilit luetellaan aakkosjärjestyksessä, mutta voit muuttaa järjestystä manuaalisesti
-- Ryhmät ja luokat:** Luo ryhmiä, joilla erotat henkilökohtaiset tilisi yritystileistäsi, tai ryhmittele ne palvelutyypin mukaan (pankki, sähköposti, sosiaaliset verkostot jne.)
-- Mukautetut kuvakkeet:** Aegis yrittää määrittää automaattisesti sopivan kuvakkeen, jos sellainen on saatavilla, muuten voit valita monista yleisistä kuvakkeista tai tuoda kuvan
-- Pikahaku:** Yläreunassa olevan hakupalkin avulla voit kirjoittaa muutaman kirjaimen ja suodattaa vastaavia merkintöjä välittömästi
+- **Mukautettu lajittelu:** Oletusarvoisesti tilit luetellaan aakkosjärjestyksessä, mutta voit muuttaa järjestystä manuaalisesti
+- **Ryhmät ja luokat:** Luo ryhmiä, joilla erotat henkilökohtaiset tilisi yritystileistäsi, tai ryhmittele ne palvelutyypin mukaan (pankki, sähköposti, sosiaaliset verkostot jne.)
+- **Mukautetut kuvakkeet:** Aegis yrittää määrittää automaattisesti sopivan kuvakkeen, jos sellainen on saatavilla, muuten voit valita monista yleisistä kuvakkeista tai tuoda kuvan
+- **Pikahaku:** Yläreunassa olevan hakupalkin avulla voit kirjoittaa muutaman kirjaimen ja suodattaa vastaavia merkintöjä välittömästi
 
 
 
@@ -423,15 +423,15 @@ Aegis tarjoaa useita varmuuskopiointistrategioita, jotka sopivat erilaisiin turv
 
 
 
-- Pidä useita varmuuskopioita** korruption estämiseksi
-- Testaa** varmuuskopiot säännöllisesti yrittämällä palauttamista
-- Säilytä palvelun antamat palautuskoodit erillään**
-- Pääsalasanasi** tarvitaan edelleen myös pilvivarmistusten yhteydessä
-- Suojaa pääsalasanasi**: käytä ainutlaatuista, vahvaa salasanaa, joka on tallennettu salasanahallintaohjelmaan
-- Pidä sovelluksesi ajan tasalla** uusimpien tietoturvakorjausten kanssa
-- Ota automaattinen lukitus** käyttöön asetuksissa, jotta sovelluksen käyttö on turvallista
-- Poista kuvakaappaukset käytöstä** (oletusvaihtoehto) estääksesi koodiesi salakuuntelun
-- Käytä biometriikkaa säästeliäästi**: suosi salasanoja kriittisiin käyttöoikeuksiin
+- Pidä useita **varmuuskopioita** korruption estämiseksi
+- **Testaa** varmuuskopiot säännöllisesti yrittämällä palauttamista
+- Säilytä palvelun antamat palautuskoodit erillään
+- **Pääsalasanasi** tarvitaan edelleen myös pilvivarmistusten yhteydessä
+- **Suojaa pääsalasanasi**: käytä ainutlaatuista, vahvaa salasanaa, joka on tallennettu salasanahallintaohjelmaan
+- Pidä sovelluksesi ajan tasalla uusimpien tietoturvakorjausten kanssa
+- Ota **automaattinen lukitus** käyttöön asetuksissa, jotta sovelluksen käyttö on turvallista
+- **Poista kuvakaappaukset käytöstä** (oletusvaihtoehto) estääksesi koodiesi salakuuntelun
+- **Käytä biometriikkaa säästeliäästi**: suosi salasanoja kriittisiin käyttöoikeuksiin
 
 
 
@@ -534,9 +534,9 @@ Verkkotilisi turvallisuuden ei tarvitse olla riippuvainen kaupallisten yritysten
 
 
 
-- Virallinen verkkosivusto**: [getaegis.app](https://getaegis.app/) - Hakemuksen esittely ja lataus
-- Lähdekoodi**: [github.com/beemdevelopment/Aegis](https://github.com/beemdevelopment/Aegis) - Virallinen GitHub-tietovarasto
-- F-Droid** : [f-droid.org/packages/com.beemdevelopment.aegis](https://f-droid.org/packages/com.beemdevelopment.aegis/) - Asennus ilmaisen kaupan kautta
+- **Virallinen verkkosivusto**: [getaegis.app](https://getaegis.app/) - Hakemuksen esittely ja lataus
+- **Lähdekoodi**: [github.com/beemdevelopment/Aegis](https://github.com/beemdevelopment/Aegis) - Virallinen GitHub-tietovarasto
+- **F-Droid**: [f-droid.org/packages/com.beemdevelopment.aegis](https://f-droid.org/packages/com.beemdevelopment.aegis/) - Asennus ilmaisen kaupan kautta
 
 
 
@@ -545,6 +545,6 @@ Verkkotilisi turvallisuuden ei tarvitse olla riippuvainen kaupallisten yritysten
 
 
 
-- Holvin dokumentaatio**: [Holvin suunnittelu](https://github.com/beemdevelopment/Aegis/blob/master/docs/vault.md) - Tekninen kuvaus salauksesta ja turvallisesta arkkitehtuurista
-- Virallinen FAQ**: [getaegis.app/#faq](https://getaegis.app/#faq) - Vastauksia usein kysyttyihin kysymyksiin
-- Projekti wiki**: [github.com/beemdevelopment/Aegis/wiki](https://github.com/beemdevelopment/Aegis/wiki) - Täydellinen käyttäjädokumentaatio
+- **Holvin dokumentaatio**: [Holvin suunnittelu](https://github.com/beemdevelopment/Aegis/blob/master/docs/vault.md) - Tekninen kuvaus salauksesta ja turvallisesta arkkitehtuurista
+- **Virallinen FAQ**: [getaegis.app/#faq](https://getaegis.app/#faq) - Vastauksia usein kysyttyihin kysymyksiin
+- **Projekti wiki**: [github.com/beemdevelopment/Aegis/wiki](https://github.com/beemdevelopment/Aegis/wiki) - Täydellinen käyttäjädokumentaatio

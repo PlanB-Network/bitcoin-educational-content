@@ -1,5 +1,5 @@
 ---
-name: Společnost Bitcoin
+name: The Bitcoin Company
 description: Jak mohu nakupovat zboží a služby v BTC u společnosti Bitcoin Company?
 ---
 ![cover](assets/cover.webp)
@@ -8,7 +8,7 @@ description: Jak mohu nakupovat zboží a služby v BTC u společnosti Bitcoin C
 
 > Bitcoin: Elektronický peněžní systém Peer-to-Peer
 
-Právě o tom je Bitcoin, že se utrácí mezi kolegy, aniž by bylo nutné žádat někoho o svolení. Dnes jen velmi málo obchodníků přijímá Bitcoin v Exchange za své zboží a služby (jsme tak brzo), což ztěžuje situaci těm z nás, kteří potřebují utrácet své satoši. *společnost *The Bitcoin Company** je zde, aby vám pomohla tento problém vyřešit, a umožňuje vám utratit vaše bitcoiny za **nákup dárkových karet**
+Právě o tom je Bitcoin, že se utrácí mezi kolegy, aniž by bylo nutné žádat někoho o svolení. Dnes jen velmi málo obchodníků přijímá Bitcoin v Exchange za své zboží a služby (jsme tak brzo), což ztěžuje situaci těm z nás, kteří potřebují utrácet své satoši. Společnost **The Bitcoin Company** je zde, aby vám pomohla tento problém vyřešit, a umožňuje vám utratit vaše bitcoiny za **nákup dárkových karet**
 
 
 

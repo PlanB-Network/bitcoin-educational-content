@@ -10,7 +10,7 @@ ___
 
 
 
-*Este tutorial é baseado no conteúdo original de Florian BURNEL publicado em [IT-Connect](https://www.it-connect.fr/). Licença [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Podem ter sido efectuadas alterações ao texto original
+*Este tutorial é baseado no conteúdo original de Florian BURNEL publicado em [IT-Connect](https://www.it-connect.fr/). Licença [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Podem ter sido efectuadas alterações ao texto original.*
 
 
 
@@ -84,8 +84,8 @@ No primeiro lançamento, leia as instruções na janela "**Começar**" para sabe
 
 
 
-- Alimentador**: módulo responsável pela geração de listas de endereços IP a serem verificados, a partir de um intervalo de IP aleatório ou de um ficheiro com uma lista de endereços IP.
-- Fetcher**: um conjunto de módulos para obter informações sobre anfitriões na rede. Existem, por exemplo, fetchers para detetar endereços MAC, pesquisar portas, detetar nomes de anfitriões ou enviar pedidos HTTP.
+- **Alimentador**: módulo responsável pela geração de listas de endereços IP a serem verificados, a partir de um intervalo de IP aleatório ou de um ficheiro com uma lista de endereços IP.
+- **Fetcher**: um conjunto de módulos para obter informações sobre anfitriões na rede. Existem, por exemplo, fetchers para detetar endereços MAC, pesquisar portas, detetar nomes de anfitriões ou enviar pedidos HTTP.
 
 
 

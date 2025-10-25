@@ -1,5 +1,5 @@
 ---
-name: Bitcoin Şirketi
+name: The Bitcoin Company
 description: The Bitcoin Company ile BTC cinsinden nasıl mal ve hizmet satın alabilirim?
 ---
 ![cover](assets/cover.webp)

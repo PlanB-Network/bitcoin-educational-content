@@ -36,7 +36,6 @@ Alla fine del corso, dovreste essere in grado di scrivere i vostri programmi in 
 <chapterId>ba05a290-1782-5268-87c9-62fd09590e05</chapterId>
 
 
-In questa sezione imposteremo la nostra macchina per scrivere ed eseguire il nostro primo programma JavaScript.
 
 
 Un programma JavaScript è solo un insieme di (uno o più) file di testo, che contengono comandi da eseguire da un runtime JavaScript.
@@ -51,16 +50,16 @@ I comandi che contengono sono scritti nel linguaggio di programmazione JavaScrip
 Un runtime JavaScript è un programma speciale che esegue questi file.
 
 
-![](assets/en/1.webp)
+![](assets/en/001.webp)
 
 
-### Installazione di NodeJS
+### Il runtime di NodeJS
 
 
 Il runtime JavaScript più comune è NodeJS.
 
 
-È possibile installarlo seguendo le [istruzioni ufficiali] (https://nodejs.org/en/download).
+Il tuo IDE potrebbe già includerlo, oppure potresti doverlo scaricare dal [sito ufficiale](https://nodejs.org/en/download).
 
 
 La pagina di download contiene le istruzioni per tutti e tre i principali sistemi operativi (OS): Windows, Linux e MacOS. Si presuppone che sappiate aprire un terminale nel vostro sistema operativo.
@@ -72,25 +71,19 @@ Poiché NodeJS è disponibile per tutti e tre i sistemi operativi, i programmi c
 Ciò significa che potete, ad esempio, scrivere un semplice videogioco in JavaScript sul vostro PC Windows e passarlo al vostro amico perché lo esegua sul suo Mac.
 
 
-![](assets/en/2.webp)
+![](assets/en/002.webp)
 
 
-### Modifica del testo
 
 
-Uno degli aspetti positivi della programmazione è che si può scrivere il codice utilizzando qualsiasi editor di testo, persino il blocco note predefinito del sistema operativo.
 
 
-Esistono però alcuni editor di testo specializzati nella scrittura di codice; alcuni sono disponibili gratuitamente, altri richiedono il pagamento di una licenza.
 
 
-La scelta dell'editor di codice è un'enorme tana di coniglio che trascende lo scopo di questo corso, quindi non ne parleremo qui. Se non sapete cosa usare, l'editor gratuito più usato è [VSCode](https://code.visualstudio.com/).
 
 
-Il suo Interface è un po' gonfio, ma ha ciò che serve: un editor di file, un esploratore di file (per visualizzare i file e le sottodirectory della directory su cui si sta lavorando) e un terminale per eseguire il codice. Supporta anche molti plugin e viene fornito con l'evidenziazione della sintassi di JavaScript per impostazione predefinita.
 
 
-Se si vuole essere un po' più Cypherpunk, si può usare invece [VSCodium](https://vscodium.com/).
 
 
 ### Primo programma (hello world)
@@ -102,7 +95,7 @@ Tradizionalmente, quando si studia un linguaggio di programmazione, il primo pro
 Creare una cartella chiamata `my_js_code/`, con all'interno un file chiamato `main.js` (questi nomi sono arbitrari).
 
 
-Aprire la directory con VSCode.
+Apri la directory con il tuo editor di codice.
 
 
 Scrivete questo codice nel vostro file:
@@ -687,7 +680,7 @@ false
 - `!` significa "non", si applica prima di un booleano e lo capovolge: se il booleano è `vero` restituirà `falso`, e viceversa.
 
 
-![](assets/en/3.webp)
+![](assets/en/003.webp)
 
 
 Esempi:
@@ -737,9 +730,9 @@ In questa sezione tratteremo altri tre tipi molto comuni nei programmi JavaScrip
 
 
 
-- Array**: sequenze di valori
-- undefined**: un valore speciale che significa "non è stato assegnato nulla"
-- null**: un altro valore speciale che significa "intenzionalmente vuoto"
+- **Array**: sequenze di valori
+- **undefined**: un valore speciale che significa "non è stato assegnato nulla"
+- **null**: un altro valore speciale che significa "intenzionalmente vuoto"
 
 
 ### Array e accesso agli indici
@@ -1816,7 +1809,7 @@ Javascript ci fornisce un modo diverso per creare nuovi oggetti che possono fare
 ### Creare un oggetto
 
 
-Il modo più semplice per creare un oggetto è raggruppare i dati e le funzioni usando le parentesi graffe** `{}`.
+Il modo più semplice per creare un oggetto è raggruppare i dati e le funzioni usando le **parentesi graffe** `{}`.
 
 
 Questo crea quello che chiamiamo un **oggetto anonimo**
@@ -2302,7 +2295,7 @@ console.log(`${this.brand} car is ready to drive!`)
 La classe `Car` ora **eredita** tutto da `Vehicle`. Ottiene la proprietà `brand` e abbiamo sostituito il metodo `start()` con una nostra versione.
 
 
-![](assets/en/4.webp)
+![](assets/en/004.webp)
 
 
 Proviamo:
@@ -2356,7 +2349,7 @@ myCar.start()
 ```
 
 
-![](assets/en/5.webp)
+![](assets/en/005.webp)
 
 
 
@@ -4109,7 +4102,7 @@ Questa stampa:
 Finora il nostro codice è stato **sincrono**: viene eseguito una riga alla volta, in ordine. Ma alcune cose nel mondo reale richiedono tempo e non vogliamo che l'intero programma si fermi in attesa.
 
 
-In questo capitolo introdurremo un nuovo concetto: *la *valuta**. Permette di manipolare l'ordine in cui le cose vengono eseguite. Questo è utile quando si ha a che fare con cose come timer, input dell'utente o lettura di file dal disco. JavaScript offre diversi strumenti per la concomitanza.
+In questo capitolo introdurremo un nuovo concetto: **la valuta**. Permette di manipolare l'ordine in cui le cose vengono eseguite. Questo è utile quando si ha a che fare con cose come timer, input dell'utente o lettura di file dal disco. JavaScript offre diversi strumenti per la concomitanza.
 
 
 ### `setTimeout`
@@ -4197,7 +4190,7 @@ Here is the doubled array: [ 2, 4, 6 ]
 ```
 
 
-**Che cosa sta succedendo qui?
+**Che cosa sta succedendo qui?**
 
 
 1. Passiamo `input' come elenco di numeri che vogliamo raddoppiare.
@@ -5055,7 +5048,7 @@ Sono utili quando si vuole aggiornare una variabile utilizzando il suo stesso va
 ### Destrutturazione
 
 
-*la *distrutturazione** consente di estrarre i valori da array o oggetti e di memorizzarli facilmente in variabili.
+*La **distrutturazione** consente di estrarre i valori da array o oggetti e di memorizzarli facilmente in variabili.*
 
 
 #### Array
@@ -5235,7 +5228,7 @@ JavaScript è un linguaggio interpretato, a differenza dei linguaggi compilati c
 Il codice scritto in un linguaggio compilato viene trasformato in un binario, che viene trasmesso direttamente alla CPU del computer.
 
 
-![](assets/en/6.webp)
+![](assets/en/006.webp)
 
 
 I linguaggi interpred, invece, tendono a essere più facili da usare e sono più vicini al modo in cui gli esseri umani pensano ("alto livello") piuttosto che al modo in cui le macchine funzionano ("basso livello"); quindi di solito hanno una macchina virtuale costruita per eseguire il loro codice.
@@ -5268,7 +5261,7 @@ Perché è un problema?
 Dal momento che i browser eseguono codice prelevato da milioni di fonti diverse su Internet, possono facilmente incorrere in malware, quindi sono "sandboxati" dal resto del sistema operativo.
 
 
-![](assets/en/7.webp)
+![](assets/en/007.webp)
 
 
 JavaScript non poteva accedere al file system e ad altre risorse locali del computer (almeno non facilmente come altri linguaggi), per cui questo rappresentava un limite significativo al tipo di applicazioni che si potevano creare con esso.
@@ -5277,7 +5270,7 @@ JavaScript non poteva accedere al file system e ad altre risorse locali del comp
 Nel 2009, Ryan Dahl ha pubblicato NodeJS, un runtime che consente di utilizzare il motore V8 al di fuori del browser, direttamente sul sistema operativo nativo del computer. Aggiunge inoltre molte funzionalità utili per la scrittura di programmi lato server e a riga di comando. Ad esempio, è possibile utilizzare NodeJS per creare un server web, leggere e scrivere file o creare strumenti per automatizzare le attività.
 
 
-![](assets/en/8.webp)
+![](assets/en/008.webp)
 
 
 In questo corso abbiamo esplorato le caratteristiche di JavaScript presenti sia nel browser che in NodeJS. Queste caratteristiche ci hanno permesso di definire i dati e di manipolarli in modo astratto. Nelle prossime lezioni esploreremo le funzionalità specifiche di NodeJS che ci permettono di interagire con il sistema operativo.
@@ -6438,10 +6431,10 @@ NodeJS ha quattro tipi principali di flussi:
 
 
 
-- Readable**: flussi da cui è possibile leggere i dati (come la lettura di un file)
-- Writable**: flussi su cui è possibile scrivere dati (come la scrittura su un file)
-- Duplex**: flussi che sono sia leggibili che scrivibili
-- Transform**: come i flussi duplex, ma possono modificare (trasformare) i dati durante il flusso
+- **Readable**: flussi da cui è possibile leggere i dati (come la lettura di un file)
+- **Writable**: flussi su cui è possibile scrivere dati (come la scrittura su un file)
+- **Duplex**: flussi che sono sia leggibili che scrivibili
+- **Transform**: come i flussi duplex, ma possono modificare (trasformare) i dati durante il flusso
 
 
 ### Flussi leggibili

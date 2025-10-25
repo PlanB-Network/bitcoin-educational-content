@@ -1,5 +1,5 @@
 ---
-name: Lango
+name: Portal
 description: Kusanidi na kutumia Tovuti ya Hardware Wallet ya Vifaa Ishirini na Mbili
 ---
 ![cover](assets/cover.webp)
@@ -8,7 +8,7 @@ description: Kusanidi na kutumia Tovuti ya Hardware Wallet ya Vifaa Ishirini na 
 Portal ni Bitcoin Hardware Wallet iliyoundwa na TwentyTwo Devices, kampuni inayojishughulisha na uundaji wa pochi za vifaa huria kwa bitcoiners. Ilianzishwa na Alekos Filini, mtayarishaji wa mradi wa Kichawi wa Bitcoin ([iliyopewa jina la BDK](https://github.com/bitcoindevkit)) na baada ya kufanya kazi kwa Blockstream na BHB Network, TwentyTwo Devices inalenga kuzingatia uhuru, urahisi na usalama wa mtumiaji.
 
 
-Kinachotofautisha Portal na pochi zingine za maunzi kwenye soko ni ujumuishaji wake asilia na simu mahiri. Inafanya kazi bila nyaya au betri. Inatumia teknolojia ya NFC kujiendesha yenyewe na kuwasiliana na Wallet yoyote ya rununu inayooana. Muundo wake wa kuvutia umeundwa kwa matumizi ya ergonomic. Sehemu ya pande zote imewekwa nyuma ya simu mahiri ili kufichua skrini ambapo unaweza kuangalia maelezo ya miamala yako kabla ya kuyasaini kwa kutumia kitufe maalum.
+Kinachotofautisha Portal na Wallet zingine za maunzi kwenye soko ni ujumuishaji wake asilia na simu mahiri. Inafanya kazi bila nyaya au betri. Inatumia teknolojia ya NFC kujiendesha yenyewe na kuwasiliana na Wallet yoyote ya rununu inayooana. Muundo wake wa kuvutia umeundwa kwa matumizi ya ergonomic. Sehemu ya pande zote imewekwa nyuma ya simu mahiri ili kufichua skrini ambapo unaweza kuangalia maelezo ya miamala yako kabla ya kuyasaini kwa kutumia kitufe maalum.
 
 
 ![Image](assets/fr/01.webp)
@@ -26,7 +26,7 @@ Wakati wa kuandika, Tovuti hiyo inaendana na maombi ya Nunchuk na Bitcoin Keeper
 Unapopokea Tovuti yako, hakikisha kuwa kisanduku na lebo inayoifunga ziko katika hali nzuri. Ndani, utapata Tovuti yako kwenye mfuko uliofungwa.
 
 
-Hakikisha kuwa Seal ni sawa ili kuthibitisha kuwa pochi haijafunguliwa. Nambari ya kipekee inayoonyeshwa kwa herufi kubwa kwenye kifuko inapaswa kuendana na ile iliyoandikwa kwa rangi nyeusi chini ya Seal ya samawati, na ile iliyo kwenye lebo ya kisanduku, na ile itakayoonekana kwenye skrini yako unapoanzisha.
+Hakikisha kuwa Seal ni sawa ili kuthibitisha kuwa Wallet haijafunguliwa. Nambari ya kipekee inayoonyeshwa kwa herufi kubwa kwenye kifuko inapaswa kuendana na ile iliyoandikwa kwa rangi nyeusi chini ya Seal ya samawati, na ile iliyo kwenye lebo ya kisanduku, na ile itakayoonekana kwenye skrini yako unapoanzisha.
 
 
 ![Image](assets/fr/02.webp)
@@ -80,7 +80,7 @@ Unaweza kuchagua kati ya maneno 12- au 24 ya Mnemonic. Usalama unaotolewa na cha
 ![Image](assets/fr/09.webp)
 
 
-Kisha utaulizwa kuchagua nenosiri. Nenosiri hufungua Tovuti yako. Kwa hiyo hutoa ulinzi dhidi ya ufikiaji wa kimwili usioidhinishwa. Nenosiri hili halihusiki katika kupata vitufe vya kriptografia vya Wallet yako. Kwa hivyo, hata bila ufikiaji wa nenosiri hili, umiliki wa maneno yako ya Mnemonic yenye 12- au 24 itakuwezesha kupata tena upatikanaji wa bitcoins zako. Inashauriwa kuchagua nenosiri ambalo ni nasibu iwezekanavyo na la muda wa kutosha. Hakikisha umehifadhi nenosiri hili katika sehemu tofauti na mahali ambapo Tovuti yako imehifadhiwa (k.m. katika kidhibiti cha nenosiri).
+Kisha utaulizwa kuchagua nenosiri. Nenosiri hufungua Tovuti yako. Kwa hiyo hutoa ulinzi dhidi ya ufikiaji wa kimwili usioidhinishwa. Nenosiri hili halihusiki katika kupata vitufe vya cryptography ya Wallet yako. Kwa hivyo, hata bila ufikiaji wa nenosiri hili, umiliki wa maneno yako ya Mnemonic yenye 12- au 24 itakuwezesha kupata tena upatikanaji wa bitcoins zako. Inashauriwa kuchagua nenosiri ambalo ni nasibu iwezekanavyo na la muda wa kutosha. Hakikisha umehifadhi nenosiri hili katika sehemu tofauti na mahali ambapo Tovuti yako imehifadhiwa (k.m. katika kidhibiti cha nenosiri).
 
 
 ![Image](assets/fr/10.webp)
@@ -241,7 +241,7 @@ Hakikisha kuwa Address iliyoonyeshwa kwenye Tovuti inalingana na ile iliyo kweny
 ![Image](assets/fr/31.webp)
 
 
-Pindi tu shughuli ya mlipaji itakapotangazwa, utaona ikionekana kwenye Wallet yako.
+Pindi tu muamala wa mlipaji itakapotangazwa, utaona ikionekana kwenye Wallet yako.
 
 
 ![Image](assets/fr/32.webp)

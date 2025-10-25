@@ -1,5 +1,5 @@
 ---
-name: BTC-kartta
+name: BTC Map
 description: Etsi paikkoja, joissa voit viettää Sats
 ---
 ![cover](assets/cover.webp)

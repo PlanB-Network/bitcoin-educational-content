@@ -26,7 +26,9 @@ Questi due wallet saranno, in tutto e per tutto, molto diversi tra loro. L'unica
 
 Per scaricare Electrum, ti consiglio di seguire i primi passi di questo tutorial:
 
-https://planb.network/it/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+
+https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+
 
 Dopo il download verifica sempre la release prima di installarla, poi procedi alla configurazione "One Server", come troverai nella sezione della guida, al capitolo `Inizia con un wallet fittizio`.
 

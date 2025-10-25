@@ -1,0 +1,9 @@
+question: IPv6에서 MAC Address이 아닌 무작위 Interface 식별자를 사용하는 주된 동기는 무엇인가요?
+answer: 개인 정보 보호
+wrong_answers:
+  - 패킷 크기 줄이기
+  - DNS 확인 속도 향상
+  - ARP 호환성 개선
+explanation: |
+  임의의 Interface 식별자를 사용하면 MAC Address에 기반한 디바이스 추적을 방지하는 데 도움이 됩니다.
+reviewed: false

@@ -1,5 +1,5 @@
 ---
-name: passphrase BIP39 Trezor
+name: BIP-39 Passphrase Trezor
 description: Kako da dodam passphrase u svoj Trezor portfolio?
 ---
 ![cover](assets/cover.webp)
@@ -71,7 +71,7 @@ Ovaj prozor vas pita da unesete vaš passphrase. Izaberite jak passphrase i odma
 
 
 
-naravno, nikada ne bi trebalo da delite svoj passphrase na Internetu, kao što to radim u ovom vodiču. Ovaj primer Wallet će biti korišćen samo na Testnet i biće obrisan na kraju vodiča.**_
+naravno, nikada ne bi trebalo da delite svoj passphrase na Internetu, kao što to radim u ovom vodiču. Ovaj primer Wallet će biti korišćen samo na Testnet i biće obrisan na kraju vodiča.
 
 
 

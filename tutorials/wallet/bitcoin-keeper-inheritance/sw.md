@@ -1,5 +1,5 @@
 ---
-name: Mlinzi wa Bitcoin - Mpango wa Mirathi
+name: Bitcoin-keeper-inheritance
 description: Sanidi na utumie Bitcoin Keeper Wallet na Tapsigners ili kuunda mpango wa urithi
 ---
 

@@ -73,7 +73,7 @@ Webová platforma Banxaas je minimalistická a intuitivní a umožňuje dokonči
 
 
 
-- Z franku CFA na satoši** :
+- Z franku CFA na satoši:
 
 
 
@@ -114,7 +114,7 @@ Potvrďte transakci kliknutím na tlačítko **Troc** a nakupte bitcoiny z platb
 
 
 
-- Z Satoshis na CFA frank**
+- Z Satoshis na CFA frank
 
 
 

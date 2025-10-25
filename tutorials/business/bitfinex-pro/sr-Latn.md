@@ -116,11 +116,11 @@ Kada se prijavite, videćete navigacionu traku na vrhu Interface sa: "*Trading*"
 
 
 
-- Trgovanje**: "*klasično*" tržište gde možete postavljati naloge za kupovinu i prodaju kriptovaluta (uključujući Bitcoin) ;
-- OTC**: Over-The-Counter usluga za trgovanje velikim količinama direktno sa drugim igračem, van javnih knjiga naloga;
-- Finansiranje**: Oblast posvećena pozajmljivanju i maržinskom finansiranju;
-- Derivatives**: Sekcija za derivate (fjučersi, itd.), namenjena iskusnim trgovcima;
-- P2P**: Omogućava vam kupovinu ili prodaju kriptovaluta od drugih korisnika na peer-to-peer osnovi.
+- **Trgovanje**: "*klasično*" tržište gde možete postavljati naloge za kupovinu i prodaju kriptovaluta (uključujući Bitcoin) ;
+- **OTC**: Over-The-Counter usluga za trgovanje velikim količinama direktno sa drugim igračem, van javnih knjiga naloga;
+- **Finansiranje**: Oblast posvećena pozajmljivanju i maržinskom finansiranju;
+- **Derivatives**: Sekcija za derivate (fjučersi, itd.), namenjena iskusnim trgovcima;
+- **P2P**: Omogućava vam kupovinu ili prodaju kriptovaluta od drugih korisnika na peer-to-peer osnovi.
 
 
 Za standardnu upotrebu (kupovina/prodaja bitkoina, depoziti/isplate i upravljanje gotovinom), uglavnom ćete koristiti karticu "*Trading*", kao i odeljke "*Wallet*", "*Deposit*" i "*Withdraw*".

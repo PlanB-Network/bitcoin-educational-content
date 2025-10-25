@@ -1,4 +1,4 @@
-question: Ni muundo gani wa muamala unaobatilisha matumizi ya CIOH?
+question: Ni muundo upi wa muamala unaobatilisha matumizi ya CIOH?
 answer: Shughuli ya ushirikiano.
 wrong_answers:
   - Malipo rahisi.
@@ -6,4 +6,4 @@ wrong_answers:
   - Kufagia.
 explanation: |
   CIOH haitumiki kwa miamala inayotumia muundo shirikishi, kwa sababu katika hali hii mahususi, ingizo lazima litoke kwa huluki tofauti.
-reviewed: false
+reviewed: true

@@ -1,5 +1,5 @@
 ---
-name: コインカード
+name: Coincards
 description: Coincardsを使ってBTCで商品やサービスを購入するには？
 ---
 ![cover](assets/cover.webp)

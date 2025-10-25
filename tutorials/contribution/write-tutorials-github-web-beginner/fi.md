@@ -18,11 +18,11 @@ Sinulla on jo:
 Tässä oppaassa tarkastelemme, miten voit lisätä oppaasi Plan ₿ -verkkoon GitHubin verkkoversion avulla. Jos hallitset jo Gitin, tämä hyvin yksityiskohtainen opetusohjelma ei ehkä ole sinulle tarpeen. Sen sijaan suosittelen, että tutustut johonkin näistä kahdesta muusta opetusohjelmasta, joissa kerron yksityiskohtaisesti noudatettavista ohjeista ja muutosten tekemisen vaiheista paikallisesta:
 
 
-- Kokeneet käyttäjät**:
+- **Kokeneet käyttäjät**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
-- Keskitason (GitHub Desktop)**:
+- **Keskitason (GitHub Desktop)**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
@@ -348,8 +348,8 @@ Huutomerkki alussa osoittaa kuvan. Vaihtoehtoinen teksti, joka helpottaa saavute
 Jos haluat luoda omia kaavioita, muista noudattaa Plan ₿ Network -ohjelman graafisia ohjeita visuaalisen yhdenmukaisuuden varmistamiseksi:
 
 
-- Fontti**: IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
-- Värit**:
+- **Fontti**: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
+- **Värit**:
  - Oranssi: #FF5C00
  - Musta: #000000
  - Valkoinen: #FFFFFF

@@ -4,6 +4,8 @@ category: centralized
 
 level: intermediate
 
+professor_id: 2e1b5182-567e-453a-af29-36009340ff02
+
 # Proofreading metadata
 project_id: cf8ac868-c02a-4d67-98e7-ed9c907e7a7b
 original_language: en
@@ -125,6 +127,21 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 0.32
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.38
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.32
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.43
 tags:
   - guides
   - user-friendly

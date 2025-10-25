@@ -472,11 +472,11 @@ Om je reputatie als verkoper op Bisq te verbeteren, moet je regelmatig transacti
 
 
 
-- Maximale privacy**: Geen KYC, gebruik van Tor
-- Decentralisatie**: Geen centrale server
-- Beveiliging**: Open source, niet-custodiale code
-- Intuïtieve Interface**: eenvoudiger dan Bisq 1
-- Flexibiliteit**: Meerdere Exchange protocollen
+- **Maximale privacy**: Geen KYC, gebruik van Tor
+- **Decentralisatie**: Geen centrale server
+- **Beveiliging**: Open source, niet-custodiale code
+- **Intuïtieve Interface**: eenvoudiger dan Bisq 1
+- **Flexibiliteit**: Meerdere Exchange protocollen
 
 
 ### Bisq 2 nadelen
@@ -484,12 +484,12 @@ Om je reputatie als verkoper op Bisq te verbeteren, moet je regelmatig transacti
 
 
 
-- Beperkte liquiditeit** (op dit moment) :
+- **Beperkte liquiditeit** (op dit moment) :
  - Nieuw protocol in opstartfase
  - Weinig verkoopaanbiedingen beschikbaar
  - Potentieel lange wachttijden om een koper te vinden
-- Handelslimieten**: Maximaal USD 600 per transactie (met Bisq easy)
-- Alleen desktop**: Geen mobiele applicatie
+- **Handelslimieten**: Maximaal USD 600 per transactie (met Bisq easy)
+- **Alleen desktop**: Geen mobiele applicatie
 
 
 ## Toekomstige protocollen
@@ -500,16 +500,16 @@ Hoewel Bisq Easy momenteel het enige beschikbare protocol is, zijn er verschille
 
 
 
-- Bisq Lightning**: Exchange protocol gebaseerd op een borgsysteem dat gebruik maakt van meerpartijenrekencryptografie op de Lightning Network.
-- Bisq MuSig**: Migratie van het hoofdprotocol van Bisq 1 naar Bisq 2, met behulp van een 2-op-2 Multisig met veiligheidsdeposito's.
-- BSQ Swaps**: Directe atomaire swaps tussen BSQ en BTC.
-- Liquid Swaps**: Exchange van activa op Liquid Network (USDT, BTC-L) via atomaire swaps.
-- Monero Swaps**: Atomaire uitwisselingen tussen Bitcoin en Monero.
-- Liquid MuSig**: Versie van het Multisig protocol met L-BTC voor lagere kosten en meer privacy.
-- Submarine Swaps**: Uitwisseling tussen Bitcoin op de Lightning Network en Bitcoin On-Chain.
-- Stablecoin Swaps**: Atomische uitwisselingen tussen Bitcoin en USD stablecoins.
-- Multisig Opties**: Creatie van P2P put- en callopties met BTC-blokkering in een On-Chain Multisig transactie.
-- Multisig Open Contracten**: Maakt het mogelijk om aangepaste voorwaardelijke contracten te maken met behulp van een 2-op-3 Multisig systeem met arbitrage.
+- **Bisq Lightning**: Exchange protocol gebaseerd op een borgsysteem dat gebruik maakt van meerpartijenrekencryptografie op de Lightning Network.
+- **Bisq MuSig**: Migratie van het hoofdprotocol van Bisq 1 naar Bisq 2, met behulp van een 2-op-2 Multisig met veiligheidsdeposito's.
+- **BSQ Swaps**: Directe atomaire swaps tussen BSQ en BTC.
+- **Liquid Swaps**: Exchange van activa op Liquid Network (USDT, BTC-L) via atomaire swaps.
+- **Monero Swaps**: Atomaire uitwisselingen tussen Bitcoin en Monero.
+- **Liquid MuSig**: Versie van het Multisig protocol met L-BTC voor lagere kosten en meer privacy.
+- **Submarine Swaps**: Uitwisseling tussen Bitcoin op de Lightning Network en Bitcoin On-Chain.
+- **Stablecoin Swaps**: Atomische uitwisselingen tussen Bitcoin en USD stablecoins.
+- **Multisig Opties**: Creatie van P2P put- en callopties met BTC-blokkering in een On-Chain Multisig transactie.
+- **Multisig Open Contracten**: Maakt het mogelijk om aangepaste voorwaardelijke contracten te maken met behulp van een 2-op-3 Multisig systeem met arbitrage.
 
 
 Deze protocollen zijn momenteel in ontwikkeling en zullen geleidelijk worden geïntegreerd in Bisq 2, waardoor gebruikers meer flexibiliteit krijgen naargelang hun specifieke behoeften.

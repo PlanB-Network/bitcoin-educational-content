@@ -24,19 +24,19 @@ Ninja SAFU-metoden har flere fordeler:
 
 
 
-- Konfidensialitet**: Du kjøper ikke et produkt som er identifisert som beregnet for sikkerhetskopiering av kryptovaluta. Komponentene er standard (skiver, bolter, metallboks), tilgjengelige i maskinvareforretninger, noe som reduserer risikoen for målretting i tilfelle en datalekkasje fra en spesialisert leverandør.
+- **Konfidensialitet**: Du kjøper ikke et produkt som er identifisert som beregnet for sikkerhetskopiering av kryptovaluta. Komponentene er standard (skiver, bolter, metallboks), tilgjengelige i maskinvareforretninger, noe som reduserer risikoen for målretting i tilfelle en datalekkasje fra en spesialisert leverandør.
 
 
 
 
 
-- Rimelig pris** : Denne løsningen koster mellom **15 og 140 EUR**, avhengig av hvilke verktøy du allerede har.
+- **Rimelig pris**: Denne løsningen koster mellom **15 og 140 EUR**, avhengig av hvilke verktøy du allerede har.
 
 
 
 
 
-- Pålitelighet**: Metoden har blitt testet siden 2020 og er utprøvd og testet av sikkerhetseksperter som [Jameson Lopp] (https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/), som har utsatt den for strenge stresstester (ekstrem varme, korrosjon, mekanisk trykk).
+- **Pålitelighet**: Metoden har blitt testet siden 2020 og er utprøvd og testet av sikkerhetseksperter som [Jameson Lopp] (https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/), som har utsatt den for strenge stresstester (ekstrem varme, korrosjon, mekanisk trykk).
 
 
 
@@ -59,17 +59,17 @@ For å lage en Ninja SAFU-sikkerhetskopi trenger du følgende komponenter, som a
 
 
 
-- Skiver i rustfritt stål (M8 anbefales)** :
- - Materiale**: Rustfritt stål (f.eks. 304 eller V4A for økt korrosjonsbestandighet)
-    - Størrelse**: M8 (indre diameter 8 mm, ytre diameter ~24 mm). M6-skiver er for små og vanskelige å gravere.
-    - Antall**: 12 eller 24 skiver for en standard seed-setning, pluss valgfrie skiver (se avsnitt 3.4) og ca. ti skiver for tester eller feil.
+- **Skiver i rustfritt stål (M8 anbefales)**:
+- **Materiale**: Rustfritt stål (f.eks. 304 eller V4A for økt korrosjonsbestandighet)
+- **Størrelse**: M8 (indre diameter 8 mm, ytre diameter ~24 mm). M6-skiver er for små og vanskelige å gravere.
+- **Antall**: 12 eller 24 skiver for en standard seed-setning, pluss valgfrie skiver (se avsnitt 3.4) og ca. ti skiver for tester eller feil.
 
 
 
 
 
-- Rustfritt stål Bolt og mutter (M8)** :
- - Spesifikasjoner**: Bolt 2,5 til 5 cm lang, avhengig av antall og tykkelse på skivene, diameter 8 mm. En vingemutter gjør det lettere å åpne uten verktøy, men en enkel mutter kan også brukes.
+- **Rustfritt stål Bolt og mutter (M8)** :
+- **Spesifikasjoner**: Bolt 2,5 til 5 cm lang, avhengig av antall og tykkelse på skivene, diameter 8 mm. En vingemutter gjør det lettere å åpne uten verktøy, men en enkel mutter kan også brukes.
 
 
 
@@ -79,8 +79,8 @@ For å lage en Ninja SAFU-sikkerhetskopi trenger du følgende komponenter, som a
 
 
 
-- Bokstav- og tallstansesett (3 mm eller 6 mm)** :
-    - Spesifikasjoner**: 6 mm høye bokstaver gjør det lettere å lese og kan være å foretrekke hvis en del av bokstavene er ødelagt. Velg et robust sett for gjentatt bruk.
+- **Bokstav- og tallstansesett (3 mm eller 6 mm)**:
+- **Spesifikasjoner**: 6 mm høye bokstaver gjør det lettere å lese og kan være å foretrekke hvis en del av bokstavene er ødelagt. Velg et robust sett for gjentatt bruk.
 
 
 
@@ -90,14 +90,14 @@ For å lage en Ninja SAFU-sikkerhetskopi trenger du følgende komponenter, som a
 
 
 
-- Hammer eller slegge** :
+- **Hammer eller slegge**:
     - En slegge er å foretrekke for tilstrekkelig og presis stemplingskraft
 
 
 
 
 
-- Ambolt eller solid underlag** :
+- **Ambolt eller solid underlag**:
  - Et tykt Hard-underlag (f.eks. 1 kg ambolt eller 10 cm belegningsstein) for å absorbere støt.
 
 
@@ -112,7 +112,7 @@ Hvis du ikke ønsker å investere i et sett med stanser, kan du også gravere sk
 
 
 
-- Stempelanordning**: Holder skiven og styrer stempelet, noe som gir presis, ren stempling, bedre orientering og jevn avstand mellom bokstavene
+- **Stempelanordning**: Holder skiven og styrer stempelet, noe som gir presis, ren stempling, bedre orientering og jevn avstand mellom bokstavene
 
 
 
@@ -122,7 +122,7 @@ Hvis du ikke ønsker å investere i et sett med stanser, kan du også gravere sk
 
 
 
-- Forseglingsanordninger**: Forseglet pose eller forseglingsstrimmel
+- **Forseglingsanordninger**: Forseglet pose eller forseglingsstrimmel
 
 
 
@@ -132,7 +132,7 @@ Hvis du ikke ønsker å investere i et sett med stanser, kan du også gravere sk
 
 
 
-- Hermetisk forseglet beholder**: For oppbevaring av skiveblokken
+- **Hermetisk forseglet beholder**: For oppbevaring av skiveblokken
 
 
 
@@ -145,8 +145,8 @@ Hvis du ikke ønsker å investere i et sett med stanser, kan du også gravere sk
 
 
 
-- Hansker** og **Vernebriller** anbefales.
-- Rørtang** til å skyve stansen inn i, slik at du holder stansen med rørtangen og ikke med fingrene.
+- **Hansker** og **Vernebriller** anbefales.
+- **Rørtang** til å skyve stansen inn i, slik at du holder stansen med rørtangen og ikke med fingrene.
 
 
 
@@ -156,13 +156,13 @@ Hvis du ikke ønsker å investere i et sett med stanser, kan du også gravere sk
 
 
 
-- Antall for en sikkerhetskopi på 24 ord**: 24 skiver (minimum), 1 Bolt, 1 vingemutter, 1 sett med stempler, 1 hammer/massett, 1 ambolt/støtte.
+- **Antall for en sikkerhetskopi på 24 ord**: 24 skiver (minimum), 1 Bolt, 1 vingemutter, 1 sett med stempler, 1 hammer/massett, 1 ambolt/støtte.
 
 
 
 
 
-- Total kostnad** :
+- **Total kostnad**:
  - Skiver og bolter/muttere: ~ 15 EUR
  - Stansesett: ~ 45 EUR
  - Beskyttelsesveske: ~ 55 EUR
@@ -254,7 +254,7 @@ Hvis du ikke ønsker å investere i et sett med stanser, kan du også gravere sk
 
 
     - Prøv å gjenopprette porteføljen din fra den nye sikkerhetskopien
-- Forsegling av sikkerhetskopien** (valgfritt og anbefalt) :
+- **Forsegling av sikkerhetskopien** (valgfritt og anbefalt):
  - Ved å forsegle strimler, eller i forseglede poser.
  - Hvis du bruker en pose, bør du notere det unike identifikasjonsnummeret, slik at du kan kontrollere at det er den riktige posen og ikke en attrapp som erstatter den originale.
 
@@ -269,7 +269,7 @@ Hvis du ikke ønsker å investere i et sett med stanser, kan du også gravere sk
 
 
 
-Oppbevar sikkerhetskopien på et **diskret sted**, ute av syne og tilgjengelig for regelmessige kontroller. Velg brannsikker og vanntett oppbevaring**, hjemme eller på et sted du har **eksklusiv kontroll over**.
+Oppbevar sikkerhetskopien på et **diskret sted**, ute av syne og tilgjengelig for regelmessige kontroller. Velg **brannsikker og vanntett oppbevaring**, hjemme eller på et sted du har **eksklusiv kontroll over**.
 
 
 
@@ -313,7 +313,7 @@ Selv om sikkerhetskopien er godt lagret, må den **kontrolleres regelmessig**:
 
 
 
-*STAY SAFU!
+**STAY SAFU!**
 
 
 ![image](assets/fr/08.webp)
@@ -379,21 +379,21 @@ Ifølge Jameson Lopp
 
 
 
-- Skiver** for
+- **Skiver** for
  - [Titan] (https://pleb.style/fr-fr/products/disques-de-seed-supplementaires-titan-Wallet)
-- Skiver + mutter + beskyttelsesetui** (for skiver)
+- Skiver + mutter + **beskyttelsesetui** (for skiver)
  - [Titan] (https://pleb.style/fr-fr/products/titan-Wallet-premium-acier-steel-Wallet-backup?variant=50022696419664)
  - [TerraSteel](https://pleb.style/fr-fr/products/terrasteel-Wallet-plebstyle-acier-backup)
 - Stansesett
  - [PlebStyle](https://pleb.style/fr/products/schlagstempelset-a-z-0-9-3mm)
-- Grunnlag for typing**
+- **Grunnlag for typing**
  - [PlebStyle](https://pleb.style/fr/products/schlagunterlage-10cm-x-10cm-x-1-5cm)
-- Tappeinnretning** (guide)
+- **Tappeinnretning** (guide)
  - [TerraSteel](https://pleb.style/fr-fr/products/zubehor-einschlag-vorrichtung?_pos=1&_sid=2767fd66f&_ss=r)
 - Forseglingsenhet
  - [Forseglet pose] (https://pleb.style/fr/products/zubehor-5x-sicherheitstasche-tamper-evident)
  - [Tetningslister] (https://pleb.style/fr/products/zubehor-5x-siegel-streifen-fur-dein-seed-backup)
-- Komplett** sett
+- **Komplett** sett
  - [Titan](https://pleb.style/fr-fr/products/titan-Wallet-diy-kit-premium-seed-backup-steelwallet-plebstyle?pr_prod_strat=e5_desc&pr_rec_id=aa9f36359&pr_rec_pid=8728733155664&pr_ref_pid=8730877788496&pr_seq=uniform)
  - [TerraSteel](https://pleb.style/fr-fr/products/kopie-von-terrasteel-Wallet-starter-kit)
 

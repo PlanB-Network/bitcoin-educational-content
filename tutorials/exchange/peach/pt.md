@@ -1,5 +1,5 @@
 ---
-name: Pêssego
+name: Peach
 description: Guia completo para utilizar a Peach e trocar bitcoins P2P
 ---
 ![cover](assets/cover.webp)
@@ -18,7 +18,7 @@ Peach é uma plataforma de troca P2P que permite aos utilizadores comprar e vend
 
 ### 2. Privacidade e recolha de dados
 
-**Que informações é que a Peach recolhe?
+**Que informações é que a Peach recolhe?**
 
 A Peach esforça-se por armazenar o mínimo absoluto de dados sobre os seus utilizadores. Aqui está uma visão geral dos dados armazenados nos seus servidores:
 
@@ -36,7 +36,7 @@ Para relembrar, um hash são dados que se tornam irreconhecíveis, à semelhanç
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
-**Quem pode ver os meus dados de pagamento?
+**Quem pode ver os meus dados de pagamento?**
 
 
 - Apenas a sua contraparte pode ver os seus dados de pagamento
@@ -68,17 +68,17 @@ A aplicação Peach está organizada em torno de quatro ecrãs principais acess�
 ![Navigation dans l'application](assets/fr/02.webp)
 
 
-- Início** : O ecrã principal para comprar e vender bitcoins. É aqui que pode criar novas transacções e aceder às ofertas disponíveis.
-- Carteira**: A sua carteira de bitcoin integrada que lhe permite :
+- **Início**: O ecrã principal para comprar e vender bitcoins. É aqui que pode criar novas transacções e aceder às ofertas disponíveis.
+- **Carteira**: A sua carteira de bitcoin integrada que lhe permite :
  - Verificar o seu saldo
  - Receber bitcoins
  - Enviar bitcoins
  - Ver o seu histórico de transacções
-- Transacções** : O seu centro de gestão comercial onde encontrará :
+- **Transacções**: O seu centro de gestão comercial onde encontrará :
  - As suas transacções actuais
  - Um historial completo das suas trocas
  - O estado de cada transação
-- Definições** : O centro de configuração da sua conta para :
+- **Definições**: O centro de configuração da sua conta para :
  - Gerir os seus métodos de pagamento
  - Configurar as suas cópias de segurança
  - Personalizar as suas preferências
@@ -90,7 +90,7 @@ A aplicação Peach está organizada em torno de quatro ecrãs principais acess�
 
 Aceder aos métodos de pagamento através do separador Definições (imagem 8)
 
-**Pagamentos em linha
+**Pagamentos em linha**
 
 ![Configuration des paiements en ligne](assets/fr/04.webp)
 
@@ -149,13 +149,13 @@ Sistemas de pagamento específicos de cada país :
 
 ### 4. Como proteger a sua carteira
 
-**Compreender a sua conta Peach
+**Compreender a sua conta Peach**
 
 Uma conta Peach não é uma conta tradicional de início de sessão e palavra-passe. Trata-se de um ficheiro armazenado localmente no seu telemóvel, o que significa que a Peach não precisa de armazenar os seus dados nem de conhecer a sua identidade: o controlo é seu. Este ficheiro contém todos os seus dados, desde as chaves da sua carteira bitcoin até aos seus dados de pagamento.
 
 Esta abordagem garante uma maior confidencialidade, mas também implica uma maior responsabilidade. Perder o telemóvel sem uma cópia de segurança significa perder o acesso à sua conta Peach e aos seus fundos. Por isso, é crucial fazer uma cópia de segurança deste ficheiro e protegê-lo com uma palavra-passe forte.
 
-**Crie as suas cópias de segurança
+**Crie as suas cópias de segurança**
 
 ![Accéder aux sauvegardes](assets/fr/13.webp)
 
@@ -255,7 +255,7 @@ Para uma segurança óptima, recomendamos que efectue ambos os tipos de cópia d
 - Avaliar a transação
 - Os bitcoins são automaticamente libertados para o comprador
 
-**Dicas para uma transação bem sucedida
+**Dicas para uma transação bem sucedida**
 
 
 - Responder rapidamente às mensagens da sua contraparte
@@ -269,16 +269,16 @@ Para uma segurança óptima, recomendamos que efectue ambos os tipos de cópia d
 ### Benefícios do pêssego
 
 
-- Não é necessário KYC**: Preserva a confidencialidade do utilizador.
-- Sem acesso a dados bancários**: A Peach não tem acesso aos seus dados bancários ou à sua identidade.
-- Interface intuitiva**: Fácil de utilizar para utilizadores intermédios.
-- Código aberto** : O código-fonte é público e verificável pela comunidade.
+- **Não é necessário KYC**: Preserva a confidencialidade do utilizador.
+- **Sem acesso a dados bancários**: A Peach não tem acesso aos seus dados bancários ou à sua identidade.
+- **Interface intuitiva**: Fácil de utilizar para utilizadores intermédios.
+- **Código aberto**: O código-fonte é público e verificável pela comunidade.
 
 ### Desvantagens do pêssego
 
 
-- Liquidez limitada**: Menor volume de transacções do que as plataformas mais estabelecidas.
-- Risco regulamentar** : A aplicação é gerida por uma empresa suíça. Por conseguinte, está sujeita à regulamentação suíça, que pode evoluir e eventualmente censurar a aplicação.
+- **Liquidez limitada**: Menor volume de transacções do que as plataformas mais estabelecidas.
+- **Risco regulamentar**: A aplicação é gerida por uma empresa suíça. Por conseguinte, está sujeita à regulamentação suíça, que pode evoluir e eventualmente censurar a aplicação.
 
 ## Recursos úteis
 

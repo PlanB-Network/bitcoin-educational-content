@@ -1,0 +1,9 @@
+question: Kdy je uzel pruned problémem pro uzel Wallet?
+answer: Při obnově starého modelu Wallet
+wrong_answers:
+  - Při vytváření nového příjmu Address
+  - Při odesílání nedávné transakce
+  - Při výběru výše poplatku
+explanation: |
+  Uzel pruned neuchovává staré bloky, což může zabránit skenování minulých transakcí při obnově.
+reviewed: true

@@ -1,5 +1,5 @@
 ---
-name: Ledger U2F & FIDO2
+name: "Ledger U2F & FIDO2"
 description: Zwiększ swoje bezpieczeństwo online dzięki Ledger
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: कीपास
+name: KeePass
 description: स्थानीय पासवर्ड मैनेजर कैसे स्थापित करें?
 ---
 ![cover](assets/cover.webp)

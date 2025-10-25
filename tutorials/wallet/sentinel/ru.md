@@ -1,5 +1,5 @@
 ---
-name: Sentinel Watch-Only
+name: Sentinel
 description: Что такое кошелек только для просмотра и как им пользоваться?
 ---
 ![cover](assets/cover.webp)

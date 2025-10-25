@@ -1,0 +1,9 @@
+question: Jaka jest domyślna liczba połączeń wychodzących utrzymywanych przez węzeł Bitcoin core?
+answer: 10
+wrong_answers:
+  - 2
+  - 4
+  - 3
+explanation: |
+  Bitcoin core utrzymuje domyślnie 10 połączeń wychodzących (8 w trybie pełnego przekazywania i 2 w trybie tylko przekazywania bloków).
+reviewed: true

@@ -80,24 +80,24 @@ contributors:
 
 
 
-- `name`**: Podcast'inizin adını belirtin.
+- **`name`**: Podcast'inizin adını belirtin.
 - `host`**: Konuşmacıların veya podcast sunucusunun adlarını veya takma adlarını listeleyin. Her isim virgülle ayrılmalıdır.
 - `language`**: Podcast'inizde konuşulan dilin dil kodunu belirtin. Örneğin, İngilizce için `en`, İtalyanca için `it`...
 
 
 
-- `bağlantılar`**: İçeriğinize bağlantılar sağlayın. İki seçeneğiniz var:
+- **bağlantılar**: İçeriğinize bağlantılar sağlayın. İki seçeneğiniz var:
  - podcast`: podcast'inizin bağlantısı,
  - `twitter`: podcast'in veya onu üreten kuruluşun Twitter profiline bağlantı,
  - `web sitesi`: podcast'in veya onu üreten kuruluşun web sitesine bağlantı.
 
 
 
-- `açıklama`**: Podcast'inizi tanımlayan kısa bir paragraf ekleyin. Açıklama, `language:` alanında belirtilenle aynı dilde olmalıdır.
+- `açıklama`: Podcast'inizi tanımlayan kısa bir paragraf ekleyin. Açıklama, `language:` alanında belirtilenle aynı dilde olmalıdır.
 
 
 
-- `tags`**: Podcast'inizle ilişkili iki etiket ekleyin. Örnekler:
+- `tags`: Podcast'inizle ilişkili iki etiket ekleyin. Örnekler:
     - `Bitcoin`
     - `teknoloji`
     - `ekonomi`
@@ -105,7 +105,7 @@ contributors:
 
 
 
-- `contributors`**: Eğer varsa katılımcı kimliğinizi belirtin.
+- `contributors`**: Eğer varsa katılımcı kimliğinizi belirtin.**
 
 
 Örneğin, YAML dosyanız aşağıdaki gibi görünebilir:

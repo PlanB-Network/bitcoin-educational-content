@@ -1,0 +1,9 @@
+question: Tunaitaje seti ya mashine zinazoendesha utekelezaji wa Bitcoin na kuunganishwa kwa kila mmoja?
+answer: Mtandao wa Bitcoin
+wrong_answers:
+  - Itifaki ya Bitcoin
+  - sarafu ya Bitcoin
+  - Blockchain Bitcoin
+explanation: |
+  Mtandao wa Bitcoin unajumuisha nodi zote zilizounganishwa, kila moja inatekeleza utekelezaji tofauti wa itifaki.
+reviewed: true

@@ -28,7 +28,7 @@ Afhankelijk van uw behoeften is Alby Hub verkrijgbaar in 4 configuraties:
 
 
 
-- Alby Hub Wolk :**
+- **Alby Hub Wolk:**
 
 
 Deze eerste optie is ideaal voor beginners en is de Alby cloud-optie. Hiermee kunt u een Hub direct inzetten op een door Alby beheerde server, die toegankelijk is via uw Alby Hub Interface. Hoewel Alby de server beheert, behoudt u de soevereiniteit over uw fondsen, omdat uw sleutels worden versleuteld met een wachtwoord dat alleen u kent. Je sleutels moeten echter gedecodeerd blijven in RAM om het knooppunt te laten werken, waardoor ze theoretisch blootgesteld worden aan risico's als iemand fysiek toegang krijgt tot de server. Het is een interessant compromis voor beginners, maar het is belangrijk om je bewust te zijn van de risico's.
@@ -446,7 +446,7 @@ Ga terug naar de Alby Go applicatie, scan de QR code of plak het geheim.
 ![ALBY HUB](assets/fr/50.webp)
 
 
-Klik op "Voltooien*".
+Klik op "Voltooien".
 
 
 ![ALBY HUB](assets/fr/51.webp)

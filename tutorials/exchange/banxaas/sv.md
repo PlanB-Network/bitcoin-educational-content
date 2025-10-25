@@ -73,7 +73,7 @@ Banxaas webbplattform är minimalistisk och intuitiv, vilket gör att du kan slu
 
 
 
-- Från CFA-franc till satoshis** :
+- **Från CFA-franc till satoshis**:
 
 
 
@@ -114,7 +114,7 @@ Bekräfta din transaktion genom att klicka på **Troc**-knappen för att köpa b
 
 
 
-- Från Satoshis till CFA-franc**
+- Från Satoshis till **CFA-franc**
 
 
 

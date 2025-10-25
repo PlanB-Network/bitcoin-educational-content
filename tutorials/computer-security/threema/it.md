@@ -272,11 +272,11 @@ Qui sono disponibili due opzioni per il backup dei dati:
 
 
 - "*Treema sicuro*";
-- "Backup dei dati*".
+- "Backup dei dati".
 
 
 
-"Threema Safe* salva tutti i dati del vostro account, ad eccezione delle vostre conversazioni, sui server di Threema. Questi dati sono criptati con la password scelta al momento della creazione dell'account, in modo che Threema non possa accedervi. I backup vengono effettuati automaticamente e regolarmente.
+"**Threema Safe** salva tutti i dati del vostro account, ad eccezione delle vostre conversazioni, sui server di Threema. Questi dati sono criptati con la password scelta al momento della creazione dell'account, in modo che Threema non possa accedervi. I backup vengono effettuati automaticamente e regolarmente.
 
 
 

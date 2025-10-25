@@ -1,0 +1,9 @@
+question: SPVノードの何が特別なのか？
+answer: ブロックヘッダーのみを保持
+wrong_answers:
+  - Genesisブロック以降のBlockchain全体を保持する。
+  - 最新のブロックだけを保存する
+  - Blockchainのセットではなく、UTXOのセットだけを保持する。
+explanation: |
+  SPVノードは、完全なデータを保存することなく、ブロックヘッダとMerkle証明によってトランザクションを検証する。
+reviewed: true

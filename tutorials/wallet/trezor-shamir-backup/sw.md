@@ -1,5 +1,5 @@
 ---
-name: Hifadhi Nakala ya Trezor Shamir
+name: Trezor Shamir Backup
 description: Vifungu vya kushiriki mara moja na vya kushiriki vingi vya Mnemonic kwenye Trezor
 ---
 ![cover](assets/cover.webp)
@@ -14,7 +14,7 @@ description: Vifungu vya kushiriki mara moja na vya kushiriki vingi vya Mnemonic
 
 
 
-Tangu 2023, Trezor imekuwa ikitoa umbizo jipya la hifadhi rudufu inayoitwa ***Hifadhi Nakala ya Shiriki Moja***, ikichukua nafasi ya mbinu ya msingi ya BIP39 inayopatikana kwenye portfolio nyingi. Tofauti na vishazi vya kimapokeo vya Mnemonic vyenye maneno 12 au 24, umbizo hili jipya linatokana na kishazi kimoja cha maneno 20 kinachotokana na kiwango kilichotengenezwa na SatoshiLabs: **SLIP39**. Kusudi ni kuboresha uimara na usomaji wa chelezo, huku kuwezesha uhamiaji laini hadi muundo wa chelezo uliosambazwa.
+Tangu 2023, Trezor imekuwa ikitoa umbizo jipya la hifadhi rudufu inayoitwa ***Single Share Backup***, ikichukua nafasi ya mbinu ya msingi ya BIP39 inayopatikana kwenye portfolio nyingi. Tofauti na vishazi vya kimapokeo vya Mnemonic vyenye maneno 12 au 24, umbizo hili jipya linatokana na kishazi kimoja cha maneno 20 kinachotokana na kiwango kilichotengenezwa na SatoshiLabs: **SLIP39**. Kusudi ni kuboresha uimara na usomaji wa chelezo, huku kuwezesha uhamiaji laini hadi muundo wa chelezo uliosambazwa.
 
 
 
@@ -30,11 +30,11 @@ Mfumo huu hutatua tatizo la hatua moja ya kushindwa kwa maneno ya Mnemonic bila 
 
 
 
-Watumiaji ambao wameunda jalada kwa kutumia *Hifadhi Nakala ya Shiriki Moja* wanaweza kubadili hadi *Hifadhi Nakala nyingi za Kushiriki* wakati wowote bila kulazimika kuhamisha jalada lao. Anwani na akaunti zinazopokea zitasalia kuwa sawa. Mfumo wa *Shiriki nyingi* huathiri tu hifadhi rudufu, huku kwingineko iliyosalia ikiwa haijabadilishwa.
+Watumiaji ambao wameunda jalada kwa kutumia *Single Share Backup* wanaweza kubadili hadi *Hifadhi Nakala nyingi za Kushiriki* wakati wowote bila kulazimika kuhamisha jalada lao. Anwani na akaunti zinazopokea zitasalia kuwa sawa. Mfumo wa *Shiriki nyingi* huathiri tu hifadhi rudufu, huku kwingineko iliyosalia ikiwa haijabadilishwa.
 
 
 
-Hifadhi Nakala ya Ushiriki mwingi* inapatikana kwenye Trezor Model T, Safe 3 na Safe 5. Kipengele hiki hakitumiki na Trezor Model One.
+Hifadhi Nakala ya Ushiriki mwingi inapatikana kwenye Trezor Model T, Safe 3 na Safe 5. Kipengele hiki hakitumiki na Trezor Model One.
 
 
 
@@ -103,7 +103,7 @@ Sasa umekamilisha usanidi wa awali wa Trezor yako na uko tayari kuunda kwinginek
 
 
 
-Chagua chaguo la "*Hifadhi Nakala nyingi", kisha ubofye "*Unda Wallet*".
+Chagua chaguo la "**Hifadhi Nakala nyingi**", kisha ubofye "**Unda Wallet**".
 
 
 
@@ -145,7 +145,7 @@ Kwenye Trezor, chagua jumla ya idadi ya hisa unazotaka kusanidi. Mipangilio ya k
 
 
 
-*Kwa watumiaji 5 Salama, ingawa skrini itasema "*Gusa ili kuendelea*", utahitaji kutelezesha kidole juu ili kuthibitisha.
+**Kwa watumiaji 5 Salama**, ingawa skrini itasema "**Gusa ili kuendelea**", utahitaji kutelezesha kidole juu ili kuthibitisha.
 
 
 
@@ -173,7 +173,7 @@ Unaweza kuona sehemu ya juu ya skrini ambayo unatazama kwa sasa.
 
 
 
-bila shaka, hupaswi kamwe kushiriki maneno haya kwenye Mtandao, kama ninavyofanya katika mafunzo haya. Mfano huu Wallet itatumika kwenye Testnet pekee na itafutwa mwishoni mwa mafunzo.**_
+bila shaka, hupaswi kamwe kushiriki maneno haya kwenye Mtandao, kama ninavyofanya katika mafunzo haya. Mfano huu Wallet itatumika kwenye Testnet pekee na itafutwa mwishoni mwa mafunzo.
 
 
 
@@ -269,7 +269,7 @@ Mara tu unapounda Hifadhi Nakala yako ya Ushiriki mwingi, utahitaji kuamua cha k
 
 
 
-Hongera, sasa umeboresha utumiaji wa Hifadhi Nakala za Kushiriki Moja na Ushiriki mwingi kwenye pochi za maunzi za Trezor. Ikiwa ungependa kupeleka usalama wako wa Wallet hatua zaidi, angalia mafunzo haya kwenye kaulisiri za BIP39:
+Hongera, sasa umeboresha utumiaji wa Hifadhi Nakala za Kushiriki Moja na Ushiriki mwingi kwenye Wallet za maunzi za Trezor. Ikiwa ungependa kupeleka usalama wako wa Wallet hatua zaidi, angalia mafunzo haya kwenye kaulisiri za BIP39:
 
 
 

@@ -128,7 +128,7 @@ sudo apt install -y build-essential git make
 
 
 
-Kuanzia tarehe ya mafunzo haya, LND inahitaji toleo la 1.23.6 la Go*** kwa ajili ya kusakinisha.
+Kuanzia tarehe ya mafunzo haya, LND inahitaji toleo la 1.23.6 la **Go** kwa ajili ya kusakinisha.
 
 
 
@@ -475,7 +475,7 @@ lncli listpeers
 
 
 
-**Chaneli ya Umeme hukuruhusu kuwa na ** muunganisho wa moja kwa moja, wa jozi-kwa-jozi na nodi nyingine kwenye Lightning Network**. Katika chaneli hii, unaweza kwa uhuru Exchange Satoshis hadi uwezo wa kituo.
+**Chaneli ya Umeme hukuruhusu kuwa na muunganisho wa moja kwa moja, wa jozi-kwa-jozi na nodi nyingine kwenye Lightning Network**. Katika chaneli hii, unaweza kwa uhuru Exchange Satoshis hadi uwezo wa kituo.
 
 
 

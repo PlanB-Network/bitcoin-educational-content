@@ -69,7 +69,7 @@ Sur la page d'accueil au menu **Wallet**, vous retrouverez :
 
 ⚠️ **NOTE** : Une adresse Lightning est un alias sous forme d'email unique qui vous permet de simplifier la lecture de votre URL Lightning. Assurez-vous de fournir l'adresse Lightning correcte lorsque vous souhaitez recevoir des paiements Lightning.
 
-* **Recevoir des paiements sur Speed Wallet :**
+**Recevoir des paiements sur Speed Wallet :**
 
 Cliquez sur le bouton **Recevoir** puis sélectionnez la couche sur laquelle vous souhaitez recevoir puis le montant de la transaction pour partager votre facture à votre expéditeur.
 

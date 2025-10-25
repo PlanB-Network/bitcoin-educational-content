@@ -40,25 +40,25 @@ Mevcut çok sayıda Linux dağıtımı arasında Fedora, özellikle:
 
 
 
-- Modülerlik**: Farklı işlemci mimarileriyle uyumlu olan Fedora, düşük güçlü olanlar da dahil olmak üzere çoğu bilgisayara kurulabilir ve ihtiyaçlarınıza mükemmel şekilde uyum sağlar.
+- **Modülerlik**: Farklı işlemci mimarileriyle uyumlu olan Fedora, düşük güçlü olanlar da dahil olmak üzere çoğu bilgisayara kurulabilir ve ihtiyaçlarınıza mükemmel şekilde uyum sağlar.
 
 
 
 
 
-- Basit, sezgisel bir Interface**: Fedora, modern bir grafik Interface ile güçlü bir komut satırı Interface'i birleştirerek tüm profiller için kullanımı kolaylaştırır.
+- **Basit, sezgisel bir Interface**: Fedora, modern bir grafik Interface ile güçlü bir komut satırı Interface'i birleştirerek tüm profiller için kullanımı kolaylaştırır.
 
 
 
 
 
-- Çekirdek kararlılığı**: Red Hat tabanlı Fedora, geniş bir topluluğun ücretsiz katkıları sayesinde büyük hatalar olmadan gerçekleştirilen güncellemelerinin, özellikle de çekirdek güncellemelerinin güvenilirliği ile ünlüdür.
+- **Çekirdek kararlılığı**: Red Hat tabanlı Fedora, geniş bir topluluğun ücretsiz katkıları sayesinde büyük hatalar olmadan gerçekleştirilen güncellemelerinin, özellikle de çekirdek güncellemelerinin güvenilirliği ile ünlüdür.
 
 
 
 
 
-- Hızlı, kolay kurulum**: Sadece 3 GB'lık görüntü boyutuyla, sınırlı kaynaklara sahip makinelerde bile kurulum hızlı ve kolaydır.
+- **Hızlı, kolay kurulum**: Sadece 3 GB'lık görüntü boyutuyla, sınırlı kaynaklara sahip makinelerde bile kurulum hızlı ve kolaydır.
 
 
 
@@ -72,19 +72,19 @@ Profilinize ve kullanımınıza bağlı olarak, Fedora ihtiyaçlarınıza uygun 
 
 
 
-- Fedora İş İstasyonu**: Bilgisayarlarınızda kişisel ve/veya profesyonel kullanım için ideal olan bu sürüm, tarayıcılar, ofis paketi (metin düzenleyiciler) ve medya oynatma yazılımı gibi genel yardımcı programlarla birlikte yüklenir.
+- **Fedora İş İstasyonu**: Bilgisayarlarınızda kişisel ve/veya profesyonel kullanım için ideal olan bu sürüm, tarayıcılar, ofis paketi (metin düzenleyiciler) ve medya oynatma yazılımı gibi genel yardımcı programlarla birlikte yüklenir.
 
 
 
 
 
-- Fedora Sunucusu**: Bu sürüm sunucu yönetimine adanmıştır. Fedora Server, sunucuları kendi ölçeğinize göre dağıtmanıza ve yönetmenize yardımcı olacak çeşitli araçlar içerir.
+- **Fedora Sunucusu**: Bu sürüm sunucu yönetimine adanmıştır. Fedora Server, sunucuları kendi ölçeğinize göre dağıtmanıza ve yönetmenize yardımcı olacak çeşitli araçlar içerir.
 
 
 
 
 
-- Fedora CoreOS**: Bulut uygulamalarını kolayca çalıştırmak ve dağıtmak mı istiyorsunuz? Fedora CoreOS, örneğin Docker ve Kubernets ile imajlar oluşturmak ve yönetmek için size araçlar sağlayan sürümdür.
+- **Fedora CoreOS**: Bulut uygulamalarını kolayca çalıştırmak ve dağıtmak mı istiyorsunuz? Fedora CoreOS, örneğin Docker ve Kubernets ile imajlar oluşturmak ve yönetmek için size araçlar sağlayan sürümdür.
 
 
 
@@ -103,7 +103,7 @@ Fedora Workstation'ı yüklemek için aşağıdaki donanım yapılandırması ge
 
 - İşletim sistemini başlatmak için en az **8 GB** büyüklüğünde bir USB anahtarı.
 - Bilgisayarınızın Hard diskinde en az **40 GB boş alan**.
-- sorunsuz bir deneyim için 4 GB RAM**.
+- sorunsuz bir deneyim için **4 GB RAM**.
 
 
 
@@ -156,7 +156,7 @@ Bilgisayarınızı açın, ardından başlangıç sırasında bilgisayarınıza 
 
 
 
-Önyükleme seçeneklerinde, birincil önyükleme aygıtı olarak USB anahtarınızı seçin. Bu seçimi onayladığınızda, bilgisayarınız yeniden başlatılacak ve USB anahtarında bulunan Fedora yükleyicisini** otomatik olarak başlatacaktır.
+Önyükleme seçeneklerinde, birincil önyükleme aygıtı olarak USB anahtarınızı seçin. Bu seçimi onayladığınızda, bilgisayarınız yeniden başlatılacak ve USB anahtarında bulunan Fedora yükleyicisini otomatik olarak başlatacaktır.
 
 
 
@@ -169,7 +169,7 @@ Bu aşamada aşağıdaki seçeneklere sahipsiniz:
 
 
 
-- Ortamı test edin**: Bu seçenek USB belleğin bütünlüğünü kontrol etmenizi ve doğru bir kurulum için gereken tüm bağımlılıkların mevcut olduğundan emin olmanızı sağlar. Bu isteğe bağlı bir adımdır, ancak USB bellek hakkında herhangi bir şüpheniz varsa önerilir.
+- **Ortamı test edin**: Bu seçenek USB belleğin bütünlüğünü kontrol etmenizi ve doğru bir kurulum için gereken tüm bağımlılıkların mevcut olduğundan emin olmanızı sağlar. Bu isteğe bağlı bir adımdır, ancak USB bellek hakkında herhangi bir şüpheniz varsa önerilir.
 
 
 
@@ -183,7 +183,7 @@ Bu aşamada aşağıdaki seçeneklere sahipsiniz:
 
 
 
-- Fedora'yı Başlat**: Bu, Fedora'yı kurulum yapmadan "canlı" modda başlatır.
+- **Fedora'yı Başlat**: Bu, Fedora'yı kurulum yapmadan "canlı" modda başlatır.
 
 
 
@@ -368,9 +368,9 @@ Fedora, varsayılan olarak çeşitli yararlı araçlar sunan **LibreOffice** ofi
 
 
 
-- Kelime işlem için Writer**.
-- Elektronik tablolar için Calc**.
-- Sunumlar oluşturmak için Impress**.
+- Kelime işlem için **Writer**.
+- Elektronik tablolar için **Calc**.
+- Sunumlar oluşturmak için **Impress**.
 
 
 ## Uygulamaları yükleme

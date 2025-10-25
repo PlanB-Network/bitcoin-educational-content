@@ -53,10 +53,10 @@ Ihr Konto ist nun erstellt. Klicken Sie auf "*Anmelden*", um auf die Plattform z
 Bitfinex wendet ein Verifizierungsverfahren (KYC) an, das den geltenden Vorschriften entspricht. Im "Basic"-Modus ist es nicht möglich, Einzahlungen, Abhebungen oder Transaktionen vorzunehmen. Daher ist es unabdingbar, mindestens die Verifizierungsstufe "Basic Plus" zu erhalten, oder sogar "Intermediate" oder "Full", falls erforderlich:
 
 
-- Basic* ist ein reiner Anzeigemodus, in dem Sie die Plattform konsultieren können, ohne irgendwelche Operationen durchzuführen;
-- Basic Plus* bietet Zugang zu den wichtigsten Funktionen, einschließlich Kassamarkttransaktionen und ausgewählten Ein- und Auszahlungsoptionen;
-- Intermediate* schaltet fortgeschrittene Dienste wie Margenhandel, Kredite, P2P- und OTC-Transaktionen frei und bietet kürzere Einzahlungsfristen;
-- Full* bietet Ihnen Zugang zu internationalen Banküberweisungen und allen Funktionen der Plattform.
+- **Basic** ist ein reiner Anzeigemodus, in dem Sie die Plattform konsultieren können, ohne irgendwelche Operationen durchzuführen;
+- **Basic Plus** bietet Zugang zu den wichtigsten Funktionen, einschließlich Kassamarkttransaktionen und ausgewählten Ein- und Auszahlungsoptionen;
+- **Intermediate** schaltet fortgeschrittene Dienste wie Margenhandel, Kredite, P2P- und OTC-Transaktionen frei und bietet kürzere Einzahlungsfristen;
+- **Full** bietet Ihnen Zugang zu internationalen Banküberweisungen und allen Funktionen der Plattform.
 
 Für jede Stufe werden zusätzliche Dokumente zur Überprüfung benötigt. Für die meisten Nutzer sind die Konten *Basic Plus* oder *Intermediate* in der Regel ausreichend.
 
@@ -79,11 +79,11 @@ Schließen Sie die Schritte ab, indem Sie die angeforderten Informationen und Do
 Sobald Sie angemeldet sind, sehen Sie oben auf der Oberfläche eine Navigationsleiste mit: "*Handel*", "*Derivate*", "*Funding*", "*OTC*", "*P2P*", "*Wallet*", usw. Bitfinex bietet eine breite Palette von Funktionalitäten, einschließlich :
 
 
-- Handel**: "*klassischer*" Markt, auf dem Sie Aufträge zum Kauf und Verkauf von Kryptowährungen (einschließlich Bitcoin) erteilen können;
-- OTC**: Over-The-Counter-Dienst für den direkten Handel großer Volumina mit einem anderen Marktteilnehmer, außerhalb der öffentlichen Orderbücher;
-- Finanzierungen**: Bereich, der der Kreditvergabe und der Margenfinanzierung gewidmet ist;
-- Derivate**: Abschnitt für Derivate (Termingeschäfte usw.), der für erfahrene Händler gedacht ist;
-- P2P**: Ermöglicht es Ihnen, Kryptos von anderen Nutzern auf Peer-to-Peer-Basis zu kaufen oder zu verkaufen.
+- **Handel**: "*klassischer*" Markt, auf dem Sie Aufträge zum Kauf und Verkauf von Kryptowährungen (einschließlich Bitcoin) erteilen können;
+- **OTC**: Over-The-Counter-Dienst für den direkten Handel großer Volumina mit einem anderen Marktteilnehmer, außerhalb der öffentlichen Orderbücher;
+- **Finanzierungen**: Bereich, der der Kreditvergabe und der Margenfinanzierung gewidmet ist;
+- **Derivate**: Abschnitt für Derivate (Termingeschäfte usw.), der für erfahrene Händler gedacht ist;
+- **P2P**: Ermöglicht es Ihnen, Kryptos von anderen Nutzern auf Peer-to-Peer-Basis zu kaufen oder zu verkaufen.
 
 Für den normalen Gebrauch (Kauf/Verkauf von Bitcoins und Einzahlungen/Abhebungen) werden Sie hauptsächlich die Registerkarte "*Handel*" sowie die Bereiche "*Wallet*", "*Einzahlung*" und "*Abhebung*" verwenden.
 

@@ -491,7 +491,7 @@ Ikiwa unataka kufanya "*udhibiti wa sarafu*," yaani, chagua hasa UTXO za kutumia
 
 ![LEDGER FLEX](assets/notext/63.webp)
 
-Ingiza unakoenda Address. Unaweza pia kuingiza anwani nyingi kwa kubofya kitufe cha "+ Ongeza*".
+Ingiza unakoenda Address. Unaweza pia kuingiza anwani nyingi kwa kubofya kitufe cha **"+ Ongeza"**.
 
 
 ![LEDGER FLEX](assets/notext/64.webp)

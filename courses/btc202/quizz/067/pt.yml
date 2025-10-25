@@ -1,0 +1,9 @@
+question: Quais backups são necessários para restaurar um nó do Lightning?
+answer: seed e SCB
+wrong_answers:
+  - seed e ficheiro txindex
+  - seed e IP público Address
+  - seed e 2FA
+explanation: |
+  A restauração de um nó Lightning requer o seed e o SCB (Static Channel Backup), sem os quais os fundos de canal não podem ser recuperados.
+reviewed: true

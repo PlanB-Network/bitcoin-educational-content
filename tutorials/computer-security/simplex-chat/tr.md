@@ -1,5 +1,5 @@
 ---
-name: SimpleX Sohbet
+name: SimpleX Chat
 description: Kullanıcı kimliği olmayan ilk posta kutusu
 ---
 ![cover](assets/cover.webp)

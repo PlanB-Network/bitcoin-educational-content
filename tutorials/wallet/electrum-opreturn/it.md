@@ -150,8 +150,8 @@ Selezionare il messaggio che si desidera inserire (ad esempio, `Grazie Satoshi`)
 
 
 
-- lasciare una bella espressione della nostra umanità,*
-- evitate di inserire contenuti di cui potreste pentirvi*
+- lasciare una bella espressione della nostra umanità,
+- evitate di inserire contenuti di cui potreste pentirvi
 
 
 
@@ -208,9 +208,9 @@ che si compone di :
 
 
 
-- Destinazione Address**: Un Bitcoin Address valido. Ici, `bc1q879cv4p5q6s9537orange3zss33d3turzad8`. Può essere il proprio Address, se si desidera restituire a se stessi i fondi trasferiti;
-- Importo trasferito**: l'importo della transazione, qui `0,00001` BTC. **Nota bene**: poiché l'unità di misura utilizzata in Electrum è il BTC, anche l'importo indicato nello script della transazione deve essere espresso in BTC e non in Sats ;
-- Script OP_RETURN**: Il messaggio convertito in esadecimale preceduto da script(`OP_RETURN <messaggio>), 0`. Qui, `5468616e6b73205361746f736869` per il messaggio in esadecimale.
+- **Destinazione Address**: Un Bitcoin Address valido. Ici, `bc1q879cv4p5q6s9537orange3zss33d3turzad8`. Può essere il proprio Address, se si desidera restituire a se stessi i fondi trasferiti;
+- **Importo trasferito**: l'importo della transazione, qui `0,00001` BTC. **Nota bene**: poiché l'unità di misura utilizzata in Electrum è il BTC, anche l'importo indicato nello script della transazione deve essere espresso in BTC e non in Sats ;
+- Script **OP_RETURN**: Il messaggio convertito in esadecimale preceduto da script(`OP_RETURN <messaggio>), 0`. Qui, `5468616e6b73205361746f736869` per il messaggio in esadecimale.
 
 
 

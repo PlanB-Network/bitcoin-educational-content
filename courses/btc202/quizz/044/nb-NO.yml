@@ -1,0 +1,9 @@
+question: Hvilken teknologi bruker Umbrel for å isolere og administrere applikasjonene sine?
+answer: Docker-containere
+wrong_answers:
+  - Virtuelle maskiner i VirtualBox
+  - Bash-skript
+  - Kubernetes-klynger
+explanation: |
+  Hver applikasjon i Umbrel kjører i en Docker-container, noe som muliggjør uavhengig administrasjon og isolering.
+reviewed: true

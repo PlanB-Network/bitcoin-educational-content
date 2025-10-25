@@ -1,5 +1,5 @@
 ---
-name: Ô LND
+name: Umbrel LND
 description: Hướng dẫn nâng cao về cài đặt và cấu hình Lightning Network Daemon (LND) trên Umbrel
 ---
 ![cover](assets/cover.webp)
@@ -154,7 +154,7 @@ Bạn có thể chọn giữa việc tạo một nút mới hoặc khôi phục 
 
 
 
-**Lưu ý: Trên các phiên bản Umbrel gần đây, việc cài đặt ứng dụng Lightning sẽ cung cấp seed gồm 24 từ này (bản thân nút Bitcoin Umbrel thì không).
+**Lưu ý: Trên các phiên bản Umbrel gần đây, việc cài đặt ứng dụng Lightning sẽ cung cấp seed gồm 24 từ này (bản thân nút Bitcoin Umbrel thì không).**
 
 
 
@@ -496,11 +496,11 @@ Nút Lightning Umbrel của bạn yêu cầu hai loại sao lưu:
 
 - Chứa thông tin kênh Lightning
 - Cho phép đóng kênh bắt buộc trong trường hợp xảy ra sự cố
-- Quan trọng:** Không bao giờ lưu tệp `channel.db` theo cách thủ công (nguy cơ bị phạt)
+- **Quan trọng:** Không bao giờ lưu tệp `channel.db` theo cách thủ công (nguy cơ bị phạt)
 
 
 
-**Quy trình sao lưu thủ công
+**Quy trình sao lưu thủ công**
 
 
 
@@ -620,10 +620,10 @@ https://planb.network/tutorials/node/lightning-network/watch-tower-26937006-dfe5
 
 
 
-- Cập nhật phần mềm:** Cập nhật Umbrel và LND (sửa lỗi bảo mật)
-- Bảo vệ phần cứng:** Sử dụng hệ thống ổn định (Raspberry Pi với SSD, mini-PC) và UPS
-- Bảo mật mạng:** Giữ nguyên cấu hình Tor mặc định, thay đổi mật khẩu quản trị Umbrel (mặc định: "moneyprintergobrrr")
-- Mã hóa:** Bật mã hóa đĩa nếu có thể
+- **Cập nhật phần mềm:** Cập nhật Umbrel và LND (sửa lỗi bảo mật)
+- **Bảo vệ phần cứng:** Sử dụng hệ thống ổn định (Raspberry Pi với SSD, mini-PC) và UPS
+- **Bảo mật mạng:** Giữ nguyên cấu hình Tor mặc định, thay đổi mật khẩu quản trị Umbrel (mặc định: "moneyprintergobrrr")
+- **Mã hóa:** Bật mã hóa đĩa nếu có thể
 
 
 
@@ -691,10 +691,10 @@ RTL là một "con dao đa năng" hoàn chỉnh để quản lý một nút Ligh
 
 
 
-- Lightning Shell**: Dòng lệnh (lncli) thông qua trình duyệt
-- BTC RPC Explorer & Mempool** : Giám sát Blockchain
-- LNmetrics & Torq**: Phân tích hiệu suất định tuyến
-- Amboss & 1ML**: Quản lý "xã hội" nút của bạn (bí danh, danh bạ, phân tích mạng)
+- **Lightning Shell**: Dòng lệnh (lncli) thông qua trình duyệt
+- **BTC RPC Explorer & Mempool**: Giám sát Blockchain
+- **LNmetrics & Torq**: Phân tích hiệu suất định tuyến
+- **Amboss & 1ML**: Quản lý "xã hội" nút của bạn (bí danh, danh bạ, phân tích mạng)
 
 
 

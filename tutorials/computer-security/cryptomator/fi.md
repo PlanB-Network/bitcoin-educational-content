@@ -170,7 +170,7 @@ Kassakaapin lukituksen avaaminen edellyttää salasanan syöttämistä. Napsauta
 
 
 
-OneDriven puolella emme voi selata Cryptomatorin holvia suoraan. Emme näe tietoja (emme tiedostojen nimiä emmekä sisältöä). Tämä tarkoittaa, että sinun ei tarvitse lisätä tietoja Cryptomator-holviin tavallisen OneDrive-pikakuvakkeen kautta. **Tietosi on lisättävä Cryptomatorin virtuaalisen aseman kautta
+OneDriven puolella emme voi selata Cryptomatorin holvia suoraan. Emme näe tietoja (emme tiedostojen nimiä emmekä sisältöä). Tämä tarkoittaa, että sinun ei tarvitse lisätä tietoja Cryptomator-holviin tavallisen OneDrive-pikakuvakkeen kautta. **Tietosi on lisättävä Cryptomatorin virtuaalisen aseman kautta.**
 
 
 

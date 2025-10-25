@@ -1,0 +1,9 @@
+question: Welke Sparrow wallet serveroptie komt overeen met de RPC verbinding?
+answer: Bitcoin core
+wrong_answers:
+  - Publieke server
+  - Privé Electrum
+  - Externe API
+explanation: |
+  In Sparrow komt de Bitcoin core optie overeen met een directe verbinding met het knooppunt via RPC.
+reviewed: true

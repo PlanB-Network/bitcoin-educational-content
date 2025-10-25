@@ -1,136 +1,155 @@
 id: 568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
 professor_id: 8260ed86-de30-468b-88bc-6ed4140a24e2
+
 credit_link: https://agora256.com/configuration-tor-bitcoin-core/
 
 category: bitcoin
 
 level: advanced
 
-# Proofreading metadata
 project_id: b1dcf2e8-81b0-4286-9e44-bb97a526ef69
-original_language: en
-proofreading:
-  - language: cs
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 5.36
-  - language: de
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 4.05
-  - language: en
-    last_contribution_date: 2024-09-01
-    urgency: 1
-    contributor_names:
-      - Asi0Flammeus
-    reward: 2.02
-  - language: es
-    last_contribution_date: '2025-08-18'
-    urgency: 1
-    contributor_names:
-      - Salgraphics
-    reward: 2.02
-  - language: fi
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 5.36
-  - language: fr
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 4.05
-  - language: it
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 4.05
-  - language: ja
-    last_contribution_date: 2025-05-14
-    urgency: 1
-    contributor_names:
-      - yutaro21jp
-    reward: 4.0
-  - language: pt
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 4.05
-  - language: ru
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 5.36
-  - language: vi
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 7.99
-  - language: et
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 5.36
-  - language: id
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 6.68
-  - language: zh-Hans
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 6.68
-  - language: nb-NO
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 5.36
-  - language: hi
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 9.31
-  - language: pl
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 5.36
-  - language: sr-Latn
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 5.36
-  - language: sw
-    last_contribution_date: '2025-08-18'
-    urgency: 1
-    contributor_names:
-      - monyangi10
-    reward: 2.68
-  - language: zh-Hant
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 6.68
-  - language: fa
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 5.36
-  - language: sv
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 4.05
-  - language: nl
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 5.36
+
 tags:
   - node
   - guides
   - software
+
+
+# Proofreading metadata
+
+original_language: en
+
+proofreading:
+  - language: en
+    last_contribution_date: 2024-09-17
+    urgency: 1
+    contributor_names:
+      - Asi0Flammeus
+      - LoicPandul
+    reward: 1.02
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.4
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.07
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.07
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.4
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.4
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.4
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.07
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 9.37
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.72
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.07
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.05
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.4
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.4
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.4
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.4
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.07
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.05
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.4
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.4
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.07
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.4
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.72
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.05
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.72
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.72

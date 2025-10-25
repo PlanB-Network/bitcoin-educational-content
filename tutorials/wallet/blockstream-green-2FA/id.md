@@ -60,7 +60,7 @@ Untuk pengguna Android, Anda juga dapat menginstal aplikasi melalui file `.apk` 
 
 ![GREEN 2FA MULTISIG](assets/fr/04.webp)
 
-Luncurkan aplikasi, lalu centang kotak "Saya menerima ketentuan...*".
+Luncurkan aplikasi, lalu centang kotak "Saya menerima ketentuan...".
 
 ![GREEN 2FA MULTISIG](assets/fr/05.webp)
 
@@ -271,4 +271,3 @@ Jika Anda merasa tutorial ini bermanfaat, saya akan sangat berterima kasih jika 
 Saya juga menyarankan Anda untuk melihat tutorial komprehensif lainnya di aplikasi seluler Blockstream Green untuk menyiapkan dompet Liquid:
 
 https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
-

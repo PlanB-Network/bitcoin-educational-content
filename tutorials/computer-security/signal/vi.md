@@ -1,5 +1,5 @@
 ---
-name: Tín hiệu
+name: Signal
 description: Hãy tự do thể hiện bản thân
 ---
 ![cover](assets/cover.webp)

@@ -103,9 +103,9 @@ Společnost Breez vám nabízí tři možnosti:
 
 
 
-- Přijímejte bleskem nebo ID** Invoice: generate an Invoice a získejte platbu.
-- Příjem prostřednictvím Bitcoin Address**: Přijímejte bitcoiny pomocí transakcí v hlavní síti Bitcoin.
-- Koupit Bitcoin**: Breez obsahuje způsob, jak získat Bitcoin přímo z fiat měn.
+- Přijímejte bleskem nebo **ID Invoice**: generate an Invoice a získejte platbu.
+- **Příjem prostřednictvím Bitcoin Address**: Přijímejte bitcoiny pomocí transakcí v hlavní síti Bitcoin.
+- **Koupit Bitcoin**: Breez obsahuje způsob, jak získat Bitcoin přímo z fiat měn.
 
 
 
@@ -139,9 +139,9 @@ Breez nabízí tři možnosti posílání bitcoinů.
 
 
 
-- Vložte Invoice nebo ID uživatele**: Invoice.
-- Připojení k platbě**: Vytvořte relaci a pozvěte příjemce, aby se k ní připojil a poslal bitcoiny.
-- Odeslat na adresu BTC Address**: Transakce v hlavní síti Bitcoin.
+- Vložte Invoice nebo ID uživatele: **Invoice**.
+- **Připojení k platbě**: Vytvořte relaci a pozvěte příjemce, aby se k ní připojil a poslal bitcoiny.
+- Odeslat na adresu **BTC Address**: Transakce v hlavní síti Bitcoin.
 
 
 
@@ -169,7 +169,7 @@ Přímo v aplikaci najdete užitečné služby.
 
 
 
-- Poslouchejte podcasty**: Breez je přehrávač podcastů 2.0, který vám umožní podpořit tvůrce, které máte rádi, pomocí příspěvků Bitcoin.
+- **Poslouchejte podcasty**: Breez je přehrávač podcastů 2.0, který vám umožní podpořit tvůrce, které máte rádi, pomocí příspěvků Bitcoin.
 
 
 V nabídce vyberte možnost **Podcasty** a poté vyhledejte, objevte a poslouchejte své oblíbené tvůrce obsahu.
@@ -186,7 +186,7 @@ Podpořte práci tvůrců obsahu, který máte rádi, příspěvkem.
 
 
 
-- Prodejní místo**: Breez se dokonale přizpůsobí vašemu podnikání a umožní vám v aplikaci provozovat prodejní místo. Můžete spravovat zásoby svého obchodu, přijímat platby od zákazníků a tisknout faktury generate za každý uskutečněný nákup. A co víc, v množství měn podporovaných aplikací Breez najdete i místní měny.
+- **Prodejní místo**: Breez se dokonale přizpůsobí vašemu podnikání a umožní vám v aplikaci provozovat prodejní místo. Můžete spravovat zásoby svého obchodu, přijímat platby od zákazníků a tisknout faktury generate za každý uskutečněný nákup. A co víc, v množství měn podporovaných aplikací Breez najdete i místní měny.
 
 
 
@@ -210,7 +210,7 @@ Jakmile je inventář kompletní, můžete pro tyto produkty snadno získat Invo
 
 
 
-- Přístup ke službám třetích stran**: Breez integruje služby třetích stran, které vám umožňují podniknout více kroků, aniž byste museli opustit portfolio. Patří mezi ně Bitrefill, LN Markets, Wavlake, Fold, Fixed Float, The Bitcoin Company, Azteco, Boltz, Geyser, Lightsats, SMS Sats, LN.PIZZA, LNCAL.
+- **Přístup ke službám třetích stran**: Breez integruje služby třetích stran, které vám umožňují podniknout více kroků, aniž byste museli opustit portfolio. Patří mezi ně Bitrefill, LN Markets, Wavlake, Fold, Fixed Float, The Bitcoin Company, Azteco, Boltz, Geyser, Lightsats, SMS Sats, LN.PIZZA, LNCAL.
 
 
 ![apps](assets/fr/16.webp)

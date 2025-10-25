@@ -28,8 +28,8 @@ Toisin sanoen, tällä toteutuksella voit :
 
 
 
-- Vuorovaikutus Lightning Network**:n kanssa: Voit käyttää komentoriviä Lightning-salkkujen luomiseen, maksukanavien ja -reittien hallintaan ja paljon muuta suoraan koneen päätelaitteesta.
-- Etäisen Bitcoin-solmun tai oman Bitcoin Core-instanssin linkittäminen**: LND:n avulla voit linkittää Bitcoin-instanssin ja käyttää sitä backendinäsi. Tämän toteutuksen käyttämiseksi sinun ei tarvitse käyttää Bitcoin Core -instanssia koneellasi.
+- Vuorovaikutus **Lightning Network**:n kanssa: Voit käyttää komentoriviä Lightning-salkkujen luomiseen, maksukanavien ja -reittien hallintaan ja paljon muuta suoraan koneen päätelaitteesta.
+- **Etäisen Bitcoin-solmun tai oman Bitcoin Core-instanssin linkittäminen**: LND:n avulla voit linkittää Bitcoin-instanssin ja käyttää sitä backendinäsi. Tämän toteutuksen käyttämiseksi sinun ei tarvitse käyttää Bitcoin Core -instanssia koneellasi.
 
 
 
@@ -57,10 +57,10 @@ Tässä mielessä Lightning-solmun käyttäminen lisää tietojesi turvallisuutt
 
 
 
-- Täydellinen valvonta**: Hallitse omia maksukanavia, tule omaksi pankiksesi ja hallitse omaisuuttasi.
-- Luottamuksellisuus**: Suorita liiketoimia turvautumatta yksityisyytesi suojaamiseen kolmansien osapuolten toimesta.
-- Oppiminen ja itsenäisyys**: `lncli`-komentojen ansiosta voit ymmärtää paremmin Lightningin taustalla olevia prosesseja soveltamalla niitä itse päätelaitteesta käsin.
-- Hajauttaminen**: Osallistu aktiivisesti Bitcoin:n / Lightning Network:n vahvistamiseen ja hajauttamiseen.
+- **Täydellinen valvonta**: Hallitse omia maksukanavia, tule omaksi pankiksesi ja hallitse omaisuuttasi.
+- **Luottamuksellisuus**: Suorita liiketoimia turvautumatta yksityisyytesi suojaamiseen kolmansien osapuolten toimesta.
+- **Oppiminen ja itsenäisyys**: `lncli`-komentojen ansiosta voit ymmärtää paremmin Lightningin taustalla olevia prosesseja soveltamalla niitä itse päätelaitteesta käsin.
+- **Hajauttaminen**: Osallistu aktiivisesti Bitcoin:n / Lightning Network:n vahvistamiseen ja hajauttamiseen.
 
 
 
@@ -83,7 +83,7 @@ Koska LND on kirjoitettu Go-kielellä, sinun on varmistettava, että sinulla on 
 
 
 
-- Laitteistovaatimukset:**
+- **Laitteistovaatimukset:**
 
 
 Sujuvan ja saumattoman käyttökokemuksen takaamiseksi koneellasi on oltava tarvittava kapasiteetti LND Lightning -solmun käyttämiseen.
@@ -105,7 +105,7 @@ Tarvitset :
 
 
 
-- Asenna hyödyllisiä riippuvuuksia:**
+- Asenna hyödyllisiä riippuvuuksia:
 
 
 Alla olevan komennon avulla voit asentaa koneellesi työkalut, joita tarvitset LND:n käyttämiseen. Sinun on muun muassa asennettava `Git`, versiointityökalu, ja `make`, joka voi suorittaa ja rakentaa LND-toteutuksen lähdekoodista.
@@ -124,11 +124,11 @@ sudo apt install -y build-essential git make
 
 
 
-- Asenna GoLang Linux-koneellesi**
+- Asenna GoLang Linux-koneellesi
 
 
 
-Tämän ohjeen päivämääränä LND vaatii Go***:n version 1.23.6 asennusta varten.
+Tämän ohjeen päivämääränä LND vaatii **Go:n** version 1.23.6 asennusta varten.
 
 
 
@@ -156,7 +156,7 @@ sudo tar -C /usr/local -xzf go1.23.6.linux-amd64.tar.gz
 
 
 
-- Go**-ympäristön konfigurointi
+- **Go-ympäristön konfigurointi**
 
 
 Alusta seuraavat ympäristömuuttujat tiedostossa `~/.bashrc` lisätäksesi Go:n Linux-järjestelmääsi.
@@ -178,7 +178,7 @@ source ~/.bashrc
 
 
 
-- Asennuksen tarkistus** (ranskaksi)
+- **Asennuksen tarkistus** (ranskaksi)
 
 
 ```bash
@@ -239,7 +239,7 @@ make install
 
 
 
-- Asennuksen tarkistaminen** (ranskaksi)
+- **Asennuksen tarkistaminen** (ranskaksi)
 
 
 
@@ -334,37 +334,37 @@ Seuraavassa on kenttien yksityiskohdat tiedoston `~/.LND/LND.conf` sisällön pe
 
 
 
-- noseedbackup**: Voit valita, haluatko LND:n tekevän automaattisia varmuuskopioita salkuistasi.  Asettamalla tämän ominaisuuden arvoksi `0` voit tallentaa palautustiedot manuaalisesti henkilökohtaisesti valitsemaasi turvalliseen paikkaan.
+- **noseedbackup**: Voit valita, haluatko LND:n tekevän automaattisia varmuuskopioita salkuistasi. Asettamalla tämän ominaisuuden arvoksi `0` voit tallentaa palautustiedot manuaalisesti henkilökohtaisesti valitsemaasi turvalliseen paikkaan.
 
 
 
 
 
-- debuglevel**: Mahdollistaa virheiden ja lokien yksityiskohtaisuuden tason määrittelyn, jos toiminnon aikana tapahtuu virheitä.
+- **debuglevel**: Mahdollistaa virheiden ja lokien yksityiskohtaisuuden tason määrittelyn, jos toiminnon aikana tapahtuu virheitä.
 
 
 
 
 
-- Bitcoin.active**: Ohjaa LND:ta toimimaan Bitcoin-solmuna ja olemaan vuorovaikutuksessa Bitcoin-verkon kanssa.
+- **Bitcoin.active**: Ohjaa LND:ta toimimaan Bitcoin-solmuna ja olemaan vuorovaikutuksessa Bitcoin-verkon kanssa.
 
 
 
 
 
-- Bitcoin.Mainnet**: Bitcoin Signet- ja Bitcoin Regtest-verkkoja varten voidaan asettaa arvot `bitcoind.signet` ja `bitcoind.regtest`
+- **Bitcoin.Mainnet**: Bitcoin Signet- ja Bitcoin Regtest-verkkoja varten voidaan asettaa arvot `bitcoind.signet` ja `bitcoind.regtest`
 
 
 
 
 
-- Bitcoin.node**: Määrittää sen Bitcoin-solmun tyypin, johon LND:n pitäisi muodostaa yhteys.
+- **Bitcoin.node**: Määrittää sen Bitcoin-solmun tyypin, johon LND:n pitäisi muodostaa yhteys.
 
 
 
 
 
-- Bitcoin.rpcuser** ja **Bitcoin.rpcpassword** : Edustavat.
+- **Bitcoin.rpcuser** ja **Bitcoin.rpcpassword** : Edustavat.
 
 
 vastaavasti käyttäjätunnukset (käyttäjä, salasana), joilla voit muodostaa yhteyden Bitcoin-solmuun
@@ -373,7 +373,7 @@ vastaavasti käyttäjätunnukset (käyttäjä, salasana), joilla voit muodostaa 
 
 
 
-- bitcoind.zmqpubrawblock** ja **bitcoind.zmqpubrawtx**: määrittelevät ZeroMQ-päätepisteet, jotka vastaanottavat ilmoituksia uusista lohkoista ja transaktioista Bitcoin-verkossa.
+- **bitcoind.zmqpubrawblock** ja **bitcoind.zmqpubrawtx**: määrittelevät ZeroMQ-päätepisteet, jotka vastaanottavat ilmoituksia uusista lohkoista ja transaktioista Bitcoin-verkossa.
 
 
 
@@ -492,9 +492,9 @@ Jos haluat muodostaa yhteyden vertaisverkkoon (Lightning-solmuun), tarvitset kol
 
 
 
-- Solmun julkinen avain**: Tämä on solmun yksilöllinen tunniste Bitcoin-verkossa;
-- IP** : Sen koneen IP-osoite, johon solmu on asennettu;
-- PORT** :  Koneessa avattu portti, joka sallii kommunikoinnin tämän solmun kanssa.
+- **Solmun julkinen avain**: Tämä on solmun yksilöllinen tunniste Bitcoin-verkossa;
+- **IP**: Sen koneen IP-osoite, johon solmu on asennettu;
+- **PORT**: Koneessa avattu portti, joka sallii kommunikoinnin tämän solmun kanssa.
 
 
 
@@ -519,25 +519,25 @@ Varmista, että muodostat yhteyden **luotettaviin solmuihin**, jotta oman järje
 
 
 
-- Maantieteellinen monipuolistuminen**: Yhteys eri alueiden solmukohtiin.
+- **Maantieteellinen monipuolistuminen**: Yhteys eri alueiden solmukohtiin.
 
 
 
 
 
-- Maine**: Valitse solmut, joilla on hyvä saatavuus.
+- **Maine**: Valitse solmut, joilla on hyvä saatavuus.
 
 
 
 
 
-- Kapasiteetti**: Valitse solmut, joilla on hyvä maksuvalmius.
+- **Kapasiteetti**: Valitse solmut, joilla on hyvä maksuvalmius.
 
 
 
 
 
-- Syytteet**: Shekin reititysmaksut.
+- **Syytteet**: Shekin reititysmaksut.
 
 
 ### Avaa maksukanava
@@ -590,7 +590,7 @@ Nykyisen solmun aktiivisen kanavan voi sulkea kahdella tavalla.
 
 
 
-- Osuuskunnan sulkeminen**: Tämä ilmaisee solmusi halun vetäytyä maksukanavasta, jolloin varmistetaan, että käynnissä olevat tehtävät on suoritettu loppuun ja että tiedot varmuuskopioidaan varojen menettämisen välttämiseksi.
+- **Osuuskunnan sulkeminen**: Tämä ilmaisee solmusi halun vetäytyä maksukanavasta, jolloin varmistetaan, että käynnissä olevat tehtävät on suoritettu loppuun ja että tiedot varmuuskopioidaan varojen menettämisen välttämiseksi.
 
 
 ```
@@ -600,7 +600,7 @@ lncli closechannel <ID_CANAL>
 
 
 
-- Pakkosulkeminen**: ⚠️ Vältä mahdollisuuksien mukaan, sillä tämä toimenpide keskeyttää käynnissä olevat prosessit maksukanavassasi ja lisää varojen menettämisen riskiä.
+- **Pakkosulkeminen**: ⚠️ Vältä mahdollisuuksien mukaan, sillä tämä toimenpide keskeyttää käynnissä olevat prosessit maksukanavassasi ja lisää varojen menettämisen riskiä.
 
 
 ```
@@ -653,9 +653,9 @@ lncli restorechanbackup <CHEMIN_DU_FICHIER>
 
 
 
-- bitcoind yhteysvirhe** : Tarkista RPC kirjautumistietosi
-- Synkronointi estetty** : Tarkista Internet-yhteys
-- Lupavirhe**: Tarkista kansion `~/.LND` oikeudet
+- **bitcoind yhteysvirhe**: Tarkista RPC kirjautumistietosi
+- **Synkronointi estetty**: Tarkista Internet-yhteys
+- **Lupavirhe**: Tarkista kansion `~/.LND` oikeudet
 
 
 

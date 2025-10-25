@@ -60,7 +60,7 @@ Androidi kasutajate jaoks saate rakenduse paigaldada ka `.apk` faili kaudu [saad
 
 ![GREEN 2FA MULTISIG](assets/fr/04.webp)
 
-Käivitage rakendus, seejärel märgistage ruut "Nõustun tingimustega...*".
+Käivitage rakendus, seejärel märgistage ruut "Nõustun tingimustega...".
 
 ![GREEN 2FA MULTISIG](assets/fr/05.webp)
 
@@ -271,4 +271,3 @@ Kui leidsid selle õpetuse kasulikuks, oleksin tänulik, kui jätaksid alla rohe
 Samuti soovitan teil vaadata seda teist põhjalikku õpetust Blockstream Green mobiilirakenduse kohta, et luua Liquid rahakott :
 
 https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
-

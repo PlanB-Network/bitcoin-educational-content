@@ -53,10 +53,10 @@ Tilisi on nyt luotu. Klikkaa "*Log in*" päästäksesi alustalle.
 Bitfinex soveltaa nykyisten säännösten mukaista todentamisprosessia (KYC). "Basic"-tilassa on mahdotonta tehdä talletuksia, nostoja tai liiketoimia, minkä vuoksi on välttämätöntä saada vähintään "Basic Plus" -varmistustaso tai tarvittaessa jopa "Intermediate" tai "Full" -varmistustaso:
 
 
-- Basic* on pelkkä näyttötila, jossa voit tarkastella alustaa suorittamatta mitään toimintoja;
-- Basic Plus* tarjoaa pääsyn tärkeimpiin toimintoihin, kuten spot-markkinatapahtumiin ja valittuihin talletus- ja nostovaihtoehtoihin;
-- Intermediate* avaa edistyneet palvelut, kuten marginaalikaupan, lainat, P2P- ja OTC-tapahtumat, ja tarjoaa lyhennetyt talletusajat;
-- Full* antaa sinulle pääsyn kansainvälisiin pankkisiirtoihin ja kaikkiin alustan ominaisuuksiin.
+- **Basic** on pelkkä näyttötila, jossa voit tarkastella alustaa suorittamatta mitään toimintoja;
+- **Basic Plus** tarjoaa pääsyn tärkeimpiin toimintoihin, kuten spot-markkinatapahtumiin ja valittuihin talletus- ja nostovaihtoehtoihin;
+- **Intermediate** avaa edistyneet palvelut, kuten marginaalikaupan, lainat, P2P- ja OTC-tapahtumat, ja tarjoaa lyhennetyt talletusajat;
+- **Full** antaa sinulle pääsyn kansainvälisiin pankkisiirtoihin ja kaikkiin alustan ominaisuuksiin.
 
 Kullakin tasolla tarvitaan lisäasiakirjoja todentamista varten. Useimmille käyttäjille riittää yleensä *Basic Plus*- tai *Intermediate*-tili.
 
@@ -79,11 +79,11 @@ Suorita vaiheet loppuun toimittamalla pyydetyt tiedot ja asiakirjat. Kun hakemuk
 Kun olet kirjautunut sisään, näet käyttöliittymän yläosassa navigointipalkin, jossa on: "*Trading*", "*Derivatives*", "*Funding*", "*OTC*", "*P2P*", "*Wallet*", jne. Bitfinex tarjoaa laajan valikoiman toimintoja, kuten :
 
 
-- Kaupankäynti**: "*klassinen*" markkina, jossa voit tehdä tilauksia ostaa ja myydä kryptovaluuttoja (mukaan lukien bitcoin) ;
-- OTC**: Over-The-Counter-palvelu, jossa suurilla volyymeillä käydään kauppaa suoraan toisen toimijan kanssa julkisten tilauskirjojen ulkopuolella;
-- Rahoitus**: Luotonantoon ja marginaalirahoitukseen tarkoitettu alue;
-- Johdannaiset**: Johdannaisia (futuurit jne.) käsittelevä osio, joka on tarkoitettu kokeneille kauppiaille;
-- P2P**: Mahdollistaa kryptojen ostamisen tai myymisen muilta käyttäjiltä vertaisverkkopohjaisesti.
+- **Kaupankäynti**: "*klassinen*" markkina, jossa voit tehdä tilauksia ostaa ja myydä kryptovaluuttoja (mukaan lukien bitcoin) ;
+- **OTC**: Over-The-Counter-palvelu, jossa suurilla volyymeillä käydään kauppaa suoraan toisen toimijan kanssa julkisten tilauskirjojen ulkopuolella;
+- **Rahoitus**: Luotonantoon ja marginaalirahoitukseen tarkoitettu alue;
+- **Johdannaiset**: Johdannaisia (futuurit jne.) käsittelevä osio, joka on tarkoitettu kokeneille kauppiaille;
+- **P2P**: Mahdollistaa kryptojen ostamisen tai myymisen muilta käyttäjiltä vertaisverkkopohjaisesti.
 
 Tavalliseen käyttöön (bitcoinien ostaminen/myyminen ja talletukset/nostot) käytät pääasiassa "*Trading*"-välilehteä sekä "*Wallet*"-, "*Deposit*"- ja "*Withdraw*"-osioita.
 

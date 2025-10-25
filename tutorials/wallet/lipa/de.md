@@ -52,10 +52,10 @@ Sobald Sie Ihre Option gewählt haben, fordert die Anwendung Sie auf, Benachrich
 Die Anwendung stellt dann ihre Hauptfunktionen über eine Reihe von Einführungsbildschirmen vor:
 
 
-- Nahtloser Zahlungseingang**: Nutzer können Bitcoin-Zahlungen empfangen, auch wenn die Anwendung geschlossen ist, was Zuverlässigkeit und Komfort garantiert.
-- Nicht-kustodiale Lightning-Adressen**: Lipa unterstützt jetzt nicht-verwahrende Lightning-Adressen, was den Datenschutz und die Sicherheit erhöht, da die Nutzer die volle Kontrolle über ihre Bitcoins haben.
-- Kontrolle über analytische Daten** : Da Transparenz und Vertraulichkeit an erster Stelle stehen, können die Nutzer die Art der erfassten Daten einsehen und ihre Präferenzen für die Weitergabe festlegen.
-- Senden Sie über Ihre Telefonnummer**: Sie brauchen keine komplexen Adressen - wählen Sie einfach einen Kontakt aus, geben Sie den Betrag ein und senden Sie Bitcoins direkt an dessen Telefonnummer.
+- **Nahtloser Zahlungseingang**: Nutzer können Bitcoin-Zahlungen empfangen, auch wenn die Anwendung geschlossen ist, was Zuverlässigkeit und Komfort garantiert.
+- **Nicht-kustodiale Lightning-Adressen**: Lipa unterstützt jetzt nicht-verwahrende Lightning-Adressen, was den Datenschutz und die Sicherheit erhöht, da die Nutzer die volle Kontrolle über ihre Bitcoins haben.
+- **Kontrolle über analytische Daten**: Da Transparenz und Vertraulichkeit an erster Stelle stehen, können die Nutzer die Art der erfassten Daten einsehen und ihre Präferenzen für die Weitergabe festlegen.
+- Senden Sie über Ihre Telefonnummer: Sie brauchen keine komplexen Adressen - wählen Sie einfach einen Kontakt aus, geben Sie den Betrag ein und senden Sie Bitcoins direkt an dessen Telefonnummer.
 
 Die Anwendung profitiert außerdem von kontinuierlichen Verbesserungen in Bezug auf Stabilität, Sicherheit und Zuverlässigkeit, um eine optimale Nutzererfahrung zu gewährleisten.
 
@@ -66,10 +66,10 @@ Die Benutzeroberfläche von Lipa ist in 4 Hauptregisterkarten unterteilt, die ü
 ![Navigation principale](assets/fr/02.webp)
 
 
-- Startseite**: Zeigt Ihren aktuellen Kontostand und die Transaktionshistorie an
-- Scanner**: Ermöglicht das Scannen von QR-Codes zur Durchführung von Zahlungen
-- Karte**: Zeigt eine interaktive Karte mit Bitcoin-akzeptierenden Unternehmen in Ihrer Nähe an
-- Einstellungen**: Zugriff auf Anwendungseinstellungen, Backup und Präferenzen
+- **Startseite**: Zeigt Ihren aktuellen Kontostand und die Transaktionshistorie an
+- **Scanner**: Ermöglicht das Scannen von QR-Codes zur Durchführung von Zahlungen
+- **Karte**: Zeigt eine interaktive Karte mit Bitcoin-akzeptierenden Unternehmen in Ihrer Nähe an
+- **Einstellungen**: Zugriff auf Anwendungseinstellungen, Backup und Präferenzen
 
 Ein zusätzliches Menü kann durch Herunterziehen des Startbildschirms aufgerufen werden:
 

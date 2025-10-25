@@ -1,5 +1,5 @@
 ---
-name: Воробей Wallet - Multisig
+name: Sparrow Wallet - Multisig
 description: Создайте портфель с несколькими подписями на Sparrow
 ---
 ![cover](assets/cover.webp)

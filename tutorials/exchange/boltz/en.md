@@ -19,10 +19,10 @@ However, a major problem remained between the Bitcoin protocol layers: fluid int
 [Boltz](https://boltz.Exchange) is a non-custodial platform ideal for anyone wishing to transact between the different layers of the Bitcoin protocol:
 
 
-- on chain**: Bitcoin's main chain where transactions are confirmed every 10 minutes on average, transaction fees are often high, which does not necessarily meet users' needs ;
-- Lightning Network**: The Bitcoin overlay for instant payments at low fees, allowing the Bitcoin to be used for daily payments;
-- Liquid Network**: an overlay for Bitcoin created by Blockstream, enabling fast, confidential transactions and the use of other Bitcoin-based financial instruments;
-- RootStock**: A solution for developing smart contracts based on the Bitcoin protocol.
+- **on chain**: Bitcoin's main chain where transactions are confirmed every 10 minutes on average, transaction fees are often high, which does not necessarily meet users' needs ;
+- **Lightning Network**: The Bitcoin overlay for instant payments at low fees, allowing the Bitcoin to be used for daily payments;
+- **Liquid Network**: an overlay for Bitcoin created by Blockstream, enabling fast, confidential transactions and the use of other Bitcoin-based financial instruments;
+- **RootStock**: A solution for developing smart contracts based on the Bitcoin protocol.
 
 
 ![layers](assets/fr/01.webp)
@@ -106,7 +106,7 @@ On the **Settings** icon, download the backup key and save the file appropriatel
 ![rescue-key](assets/fr/09.webp)
 
 
-This file contains the 12 keywords of the portfolio associated with your atomic exchanges.
+This file contains the 12 keywords of the wallet associated with your atomic exchanges.
 
 
 Then click on the **Create atomic exchange** button and proceed with payment of the indicated amount.

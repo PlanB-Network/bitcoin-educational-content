@@ -1,5 +1,5 @@
 ---
-name: کیت
+name: Keet
 description: چت همتا به همتا
 ---
 ![cover](assets/cover.webp)

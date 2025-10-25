@@ -1,5 +1,5 @@
 ---
-name: Robosatlar
+name: Robosats
 
 description: Robosatlar nasıl kullanılır?
 ---

@@ -18,3 +18,5 @@ sync-errors-summary.md
 AGENTS.md
 .serena
 .env
+scripts/pdf_courses
+scripts/quizz_to_pdfs/output

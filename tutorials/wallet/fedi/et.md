@@ -33,7 +33,7 @@ Fedi Wallet on Bitcoin portfell, mis pakub uut lähenemist märksõnade salvesta
 
 
 
-- Hooldajad**: Te otsustate usaldada oma usalduse välisele üksusele, portfelliarendajale, kes hoiab teie eest teie portfelli taastamissõnu. Teil ei ole juurdepääsu ega võimalust oma Bitcoin portfelli eksportida.
+- **Hooldajad**: Te otsustate usaldada oma usalduse välisele üksusele, portfelliarendajale, kes hoiab teie eest teie portfelli taastamissõnu. Teil ei ole juurdepääsu ega võimalust oma Bitcoin portfelli eksportida.
 
 
 
@@ -43,7 +43,7 @@ https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c
 
 
 
-- Iseseisvad isikud** : Rakendus annab teile juurdepääsu taastamissõnadele kohe pärast Wallet loomist. Seega saate vabalt eksportida oma bitcoinid teile kõige paremini sobivasse Wallet-sse.
+- **Iseseisvad isikud**: Rakendus annab teile juurdepääsu taastamissõnadele kohe pärast Wallet loomist. Seega saate vabalt eksportida oma bitcoinid teile kõige paremini sobivasse Wallet-sse.
 
 
 
@@ -103,7 +103,7 @@ Menüüs **Liidud** kerige alla liidule ja seejärel klõpsake **Liidu andmed**,
 
 
 
-- Saada bitcoine Fedi**: Valige avalehel föderatsioon, mida soovite bitcoinide vastuvõtmiseks kasutada, seejärel klõpsake nupule **Võta**, et luua Lightning Invoice koos vastuvõetava summaga.
+- Saada bitcoine **Fedi**: Valige avalehel föderatsioon, mida soovite bitcoinide vastuvõtmiseks kasutada, seejärel klõpsake nupule **Võta**, et luua Lightning Invoice koos vastuvõetava summaga.
 
 
 
@@ -113,7 +113,7 @@ Menüüs **Liidud** kerige alla liidule ja seejärel klõpsake **Liidu andmed**,
 
 
 
-- Saatke bitcoinid**: Bitcoinide saatmiseks Lightning Address-le, Invoice-le maksmiseks või offline-makse tegemiseks klõpsake avalehel nupule **Saatmine**.
+- **Saatke bitcoinid**: Bitcoinide saatmiseks Lightning Address-le, Invoice-le maksmiseks või offline-makse tegemiseks klõpsake avalehel nupule **Saatmine**.
 
 
 
@@ -232,4 +232,3 @@ Olete just läbinud Fedi Wallet ekskursiooni, nüüd saate selle portfelli kogu 
 
 
 https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
-

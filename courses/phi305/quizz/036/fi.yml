@@ -1,0 +1,9 @@
+question: Kuka on Gilles Deleuze?
+answer: Filosofian opettaja 80-luvulta, erikoistunut Spinozaan.
+wrong_answers:
+  - Poliitikko.
+  - Liberaali taloustieteilijä.
+  - Keksijä.
+explanation: |
+  Gilles Deleuze (1925-1995) oli 1980-luvulla ranskalainen filosofian professori ja tunnettu Spinoza-asiantuntija. Hänen kirjansa Spinoza et le problème de l'expression (Spinoza ja ilmaisun ongelma) uudisti etiikan lukemistamme.
+reviewed: false

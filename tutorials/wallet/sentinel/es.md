@@ -1,5 +1,5 @@
 ---
-name: Sentinel Watch-Only
+name: Sentinel
 description: ¿Qué es una cartera Watch-Only y cómo usarla?
 ---
 ![cover](assets/cover.webp)

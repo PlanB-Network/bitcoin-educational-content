@@ -27,25 +27,25 @@ PureOS là hệ điều hành dựa trên Debian do Purism phát triển. PureOS
 
 
 
-- Interface** đơn giản, trực quan: GNOME cung cấp màn hình nền Interface rõ ràng, được thiết kế để dễ sử dụng, ngay cả với những người không thoải mái với dòng lệnh.
+- **Interface đơn giản, trực quan**: GNOME cung cấp màn hình nền Interface rõ ràng, được thiết kế để dễ sử dụng, ngay cả với những người không thoải mái với dòng lệnh.
 
 
 
 
 
-- Miễn phí**: Giống như hầu hết các bản phân phối Linux khác, PureOS hoàn toàn miễn phí sử dụng. Tuy nhiên, có gói đăng ký hàng tháng để hỗ trợ các nhà phát triển.
+- **Miễn phí**: Giống như hầu hết các bản phân phối Linux khác, PureOS hoàn toàn miễn phí sử dụng. Tuy nhiên, có gói đăng ký hàng tháng để hỗ trợ các nhà phát triển.
 
 
 
 
 
-- Bảo mật và ổn định**: Kiến trúc và chế độ hoạt động của PureOS khiến nó trở thành bản phân phối có tính bảo mật cao, đảm bảo bảo vệ dữ liệu và tính ổn định của hệ thống.
+- **Bảo mật và ổn định**: Kiến trúc và chế độ hoạt động của PureOS khiến nó trở thành bản phân phối có tính bảo mật cao, đảm bảo bảo vệ dữ liệu và tính ổn định của hệ thống.
 
 
 
 
 
-- Tài liệu và cộng đồng năng động**: PureOS có tài liệu rõ ràng, dễ tiếp cận và cộng đồng tận tâm, phản hồi nhanh chóng, giúp bạn dễ dàng giải quyết vấn đề và tìm hiểu hệ thống từng bước.
+- **Tài liệu và cộng đồng năng động**: PureOS có tài liệu rõ ràng, dễ tiếp cận và cộng đồng tận tâm, phản hồi nhanh chóng, giúp bạn dễ dàng giải quyết vấn đề và tìm hiểu hệ thống từng bước.
 
 
 
@@ -181,7 +181,7 @@ Bạn có hai tùy chọn để phân vùng đĩa Hard của mình:
 
 
 
-- Xóa đĩa**: Để cài đặt hoàn chỉnh PureOS, hãy xóa toàn bộ dữ liệu có sẵn trên đĩa Hard của bạn.
+- **Xóa đĩa**: Để cài đặt hoàn chỉnh PureOS, hãy xóa toàn bộ dữ liệu có sẵn trên đĩa Hard của bạn.
 
 
 
@@ -191,7 +191,7 @@ Bạn có hai tùy chọn để phân vùng đĩa Hard của mình:
 
 
 
-- Phân vùng thủ công** để tạo điểm số của riêng bạn
+- **Phân vùng thủ công** để tạo điểm số của riêng bạn
 
 
 
@@ -260,7 +260,7 @@ Trước khi bắt đầu sử dụng PureOS, việc cập nhật hệ thống l
 
 
 
-- Cập nhật qua đồ họa Interface**:
+- Cập nhật qua đồ họa **Interface**:
 
 
 Mở ứng dụng **Phần mềm**, sau đó chuyển đến tab **Cập nhật**. Các bản cập nhật khả dụng sẽ tự động hiển thị. Nhấp vào **Tải xuống**, rồi **Cài đặt** sau khi quá trình tải xuống hoàn tất.
@@ -269,7 +269,7 @@ Mở ứng dụng **Phần mềm**, sau đó chuyển đến tab **Cập nhật*
 
 
 
-- Cập nhật qua terminal**:
+- Cập nhật qua **terminal**:
 
 
 Mở terminal, sau đó nhập lệnh sau để cập nhật danh sách các gói có sẵn:
@@ -331,9 +331,9 @@ PureOS cũng bao gồm bộ ứng dụng văn phòng **LibreOffice**, bao gồm:
 
 
 
-- Writer**: trình xử lý văn bản hoàn chỉnh để tạo và chỉnh sửa tài liệu.
-- Calc**: một chương trình bảng tính mạnh mẽ để quản lý dữ liệu và tính toán của bạn.
-- Impress**: công cụ tạo bài thuyết trình chuyên nghiệp.
+- **Writer**: trình xử lý văn bản hoàn chỉnh để tạo và chỉnh sửa tài liệu.
+- **Calc**: một chương trình bảng tính mạnh mẽ để quản lý dữ liệu và tính toán của bạn.
+- **Impress**: công cụ tạo bài thuyết trình chuyên nghiệp.
 
 
 

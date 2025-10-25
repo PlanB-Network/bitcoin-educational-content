@@ -1,0 +1,9 @@
+question: Ni nini sifa kuu ya Full node?
+answer: Inapakua na kuhalalisha Blockchain nzima
+wrong_answers:
+  - Inabakiza vichwa vya kuzuia pekee
+  - Inafuta vizuizi vya zamani baada ya uthibitishaji
+  - Inategemea nodi nyingine ili kuthibitisha shughuli
+explanation: |
+  Full node huhifadhi Blockchain nzima na inathibitisha kila kizuizi na shughuli kwa kujitegemea.
+reviewed: true

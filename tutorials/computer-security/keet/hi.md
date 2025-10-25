@@ -1,5 +1,5 @@
 ---
-name: कीट
+name: Keet
 description: पीयर-टू-पीयर चैट
 ---
 ![cover](assets/cover.webp)

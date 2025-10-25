@@ -28,8 +28,8 @@ Med andre ord, med denne implementeringen kan du :
 
 
 
-- Samhandle med Lightning Network**: Du kan bruke kommandolinjer til å opprette Lightning-porteføljer, administrere betalingskanaler og -ruter og mye mer, direkte fra maskinterminalen din.
-- Koble til en ekstern Bitcoin-node eller din egen Bitcoin Core-forekomst**: Med LND kan du koble til en Bitcoin-forekomst og bruke den som backend. For å bruke denne implementasjonen trenger du ikke å kjøre en Bitcoin Core-forekomst på maskinen din.
+- **Samhandle med Lightning Network**: Du kan bruke kommandolinjer til å opprette Lightning-porteføljer, administrere betalingskanaler og -ruter og mye mer, direkte fra maskinterminalen din.
+- **Koble til en ekstern Bitcoin-node eller din egen Bitcoin Core-forekomst**: Med LND kan du koble til en Bitcoin-forekomst og bruke den som backend. For å bruke denne implementasjonen trenger du ikke å kjøre en Bitcoin Core-forekomst på maskinen din.
 
 
 
@@ -57,10 +57,10 @@ På denne måten øker sikkerheten og integriteten til dataene dine ved å kjør
 
 
 
-- Total kontroll**: Administrer dine egne betalingskanaler, bli din egen bank og vær herre over eiendelene dine.
-- Konfidensialitet**: Transaksjoner uten å måtte stole på at tredjeparter beskytter personvernet ditt.
-- Læring og selvstendighet**: Takket være `lncli`-kommandoer kan du bedre forstå Lightnings underliggende prosesser ved å bruke dem selv fra terminalen din.
-- Desentralisering**: Ta en aktiv rolle i å styrke og desentralisere Bitcoin/Lightning Network.
+- **Total kontroll**: Administrer dine egne betalingskanaler, bli din egen bank og vær herre over eiendelene dine.
+- **Konfidensialitet**: Transaksjoner uten å måtte stole på at tredjeparter beskytter personvernet ditt.
+- **Læring og selvstendighet**: Takket være `lncli`-kommandoer kan du bedre forstå Lightnings underliggende prosesser ved å bruke dem selv fra terminalen din.
+- **Desentralisering**: Ta en aktiv rolle i å styrke og desentralisere Bitcoin/Lightning Network.
 
 
 
@@ -83,7 +83,7 @@ Siden LND er skrevet i Go, må du sørge for at du har GoLang-miljøet og de nø
 
 
 
-- Krav til maskinvare:**
+- **Krav til maskinvare:**
 
 
 For å få en smidig og sømløs opplevelse må maskinen din ha den nødvendige kapasiteten til å kjøre LND Lightning-noden.
@@ -105,7 +105,7 @@ Du trenger :
 
 
 
-- Installer nyttige avhengigheter:**
+- Installer nyttige avhengigheter:
 
 
 Kommandoen nedenfor lar deg installere verktøyene du trenger for å kjøre LND på maskinen din. Du må blant annet installere `Git`, et versjonsverktøy, og `make`, som kan kjøre og bygge LND-implementasjonen fra kildekoden.
@@ -124,11 +124,11 @@ sudo apt install -y build-essential git make
 
 
 
-- Installer GoLang på Linux-maskinen din**
+- **Installer GoLang på Linux-maskinen din**
 
 
 
-Per datoen for denne veiledningen krever LND versjon 1.23.6 av Go*** for installasjon.
+Per datoen for denne veiledningen krever LND versjon 1.23.6 av **Go** for installasjon.
 
 
 
@@ -156,7 +156,7 @@ sudo tar -C /usr/local -xzf go1.23.6.linux-amd64.tar.gz
 
 
 
-- Konfigurasjon av Go**-miljøet
+- Konfigurasjon av **Go-miljøet**
 
 
 I filen `~/.bashrc` initialiserer du følgende miljøvariabler for å legge til Go i Linux-systemet ditt.
@@ -178,7 +178,7 @@ source ~/.bashrc
 
 
 
-- Kontroll av installasjonen** (på fransk)
+- **Kontroll av installasjonen** (på fransk)
 
 
 ```bash
@@ -239,7 +239,7 @@ make install
 
 
 
-- Kontroll av installasjonen** (på fransk)
+- **Kontroll av installasjonen** (på fransk)
 
 
 
@@ -334,37 +334,37 @@ Basert på innholdet i filen `~/.LND/LND.conf`, her er detaljene i feltene:
 
 
 
-- noseedbackup**: Lar deg velge om du vil at LND skal utføre automatiske sikkerhetskopier av porteføljene dine.  Hvis du setter denne egenskapen til `0`, kan du lagre gjenopprettingsinformasjon manuelt på et personlig valgt sikkert sted.
+- **noseedbackup**: Lar deg velge om du vil at LND skal utføre automatiske sikkerhetskopier av porteføljene dine.  Hvis du setter denne egenskapen til `0`, kan du lagre gjenopprettingsinformasjon manuelt på et personlig valgt sikkert sted.
 
 
 
 
 
-- feilsøkingsnivå**: Her kan du definere detaljnivået for feil og logger i tilfelle det oppstår feil under en handling.
+- **feilsøkingsnivå**: Her kan du definere detaljnivået for feil og logger i tilfelle det oppstår feil under en handling.
 
 
 
 
 
-- Bitcoin.aktiv**: Instruerer LND til å fungere som en Bitcoin-node og samhandle med Bitcoin-nettverket.
+- **Bitcoin.aktiv**: Instruerer LND til å fungere som en Bitcoin-node og samhandle med Bitcoin-nettverket.
 
 
 
 
 
-- Bitcoin.Mainnet**: Angir at LND skal koble seg til Bitcoins hovednettverk (Mainnet), og du kan angi verdiene `bitcoind.signet` og `bitcoind.regtest` for henholdsvis Bitcoin Signet- og Bitcoin Regtest-nettverkene
+- **Bitcoin.Mainnet**: Angir at LND skal koble seg til Bitcoins hovednettverk (Mainnet), og du kan angi verdiene `bitcoind.signet` og `bitcoind.regtest` for henholdsvis Bitcoin Signet- og Bitcoin Regtest-nettverkene
 
 
 
 
 
-- Bitcoin.node**: Angir hvilken type Bitcoin-node LND skal koble seg til.
+- **Bitcoin.node**: Angir hvilken type Bitcoin-node LND skal koble seg til.
 
 
 
 
 
-- Bitcoin.rpcuser** og **Bitcoin.rpcpassword** : Representerer.
+- **Bitcoin.rpcuser** og **Bitcoin.rpcpassword** : Representerer.
 
 
 henholdsvis påloggingsinformasjon (bruker, passord) for å koble til Bitcoin-noden
@@ -373,7 +373,7 @@ henholdsvis påloggingsinformasjon (bruker, passord) for å koble til Bitcoin-no
 
 
 
-- bitcoind.zmqpubrawblock** og **bitcoind.zmqpubrawtx**: definerer henholdsvis ZeroMQ-endepunkter for å motta varsler om nye blokker og transaksjoner på Bitcoin-nettverket.
+- **bitcoind.zmqpubrawblock** og **bitcoind.zmqpubrawtx**: definerer henholdsvis ZeroMQ-endepunkter for å motta varsler om nye blokker og transaksjoner på Bitcoin-nettverket.
 
 
 
@@ -492,9 +492,9 @@ For å koble deg til en motpart (Lightning-node) trenger du tre opplysninger:
 
 
 
-- Nodens offentlige nøkkel**: Dette er nodens unike identifikator i Bitcoin-nettverket;
-- IP** : IP-en til maskinen som noden er installert på;
-- PORT** :  Porten som er åpen på maskinen som tillater kommunikasjon med denne noden.
+- **Nodens offentlige nøkkel**: Dette er nodens unike identifikator i Bitcoin-nettverket;
+- **IP**: IP-en til maskinen som noden er installert på;
+- **PORT**: Porten som er åpen på maskinen som tillater kommunikasjon med denne noden.
 
 
 
@@ -519,25 +519,25 @@ Sørg for at du kobler deg til **pålitelige noder** for å bevare integriteten 
 
 
 
-- Geografisk diversifisering**: Koble deg til noder i ulike regioner.
+- **Geografisk diversifisering**: Koble deg til noder i ulike regioner.
 
 
 
 
 
-- Omdømme**: Velg noder med god tilgjengelighet.
+- **Omdømme**: Velg noder med god tilgjengelighet.
 
 
 
 
 
-- Kapasitet**: Velg knuter med god likviditet.
+- **Kapasitet**: Velg knuter med god likviditet.
 
 
 
 
 
-- Gebyrer**: Gebyrer for ruting av sjekker.
+- **Gebyrer**: Gebyrer for ruting av sjekker.
 
 
 ### Åpne en betalingskanal
@@ -590,7 +590,7 @@ Det finnes to måter å lukke en aktiv kanal på den aktuelle noden på.
 
 
 
-- Nedleggelse av samarbeid**: Dette signaliserer at noden din ønsker å trekke seg ut av betalingskanalen, og sikrer at pågående oppgaver fullføres og at data sikkerhetskopieres for å unngå tap av midler.
+- **Nedleggelse av samarbeid**: Dette signaliserer at noden din ønsker å trekke seg ut av betalingskanalen, og sikrer at pågående oppgaver fullføres og at data sikkerhetskopieres for å unngå tap av midler.
 
 
 ```
@@ -600,7 +600,7 @@ lncli closechannel <ID_CANAL>
 
 
 
-- Tvungen stenging**: ⚠️ Bør unngås hvis mulig, da denne handlingen avbryter pågående prosesser i betalingskanalen din og øker risikoen for å miste penger.
+- **Tvungen stenging**: ⚠️ Bør unngås hvis mulig, da denne handlingen avbryter pågående prosesser i betalingskanalen din og øker risikoen for å miste penger.
 
 
 ```
@@ -653,9 +653,9 @@ lncli restorechanbackup <CHEMIN_DU_FICHIER>
 
 
 
-- bitcoind-tilkoblingsfeil** : Sjekk innloggingsdetaljene dine for RPC
-- Synkronisering blokkert** : Sjekk Internett-tilkoblingen din
-- Tillatelsesfeil**: Sjekk rettighetene til mappen `~/.LND`
+- **bitcoind-tilkoblingsfeil**: Sjekk innloggingsdetaljene dine for RPC
+- **Synkronisering blokkert**: Sjekk Internett-tilkoblingen din
+- **Tillatelsesfeil**: Sjekk rettighetene til mappen `~/.LND`
 
 
 

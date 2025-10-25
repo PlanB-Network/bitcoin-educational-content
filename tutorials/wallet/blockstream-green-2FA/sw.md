@@ -82,7 +82,7 @@ Kwa watumiaji wa Android, unaweza pia kusakinisha programu kupitia faili ya `.ap
 ![GREEN 2FA MULTISIG](assets/fr/04.webp)
 
 
-Fungua programu, kisha uteue kisanduku cha "Ninakubali masharti...*".
+Fungua programu, kisha uteue kisanduku cha "Ninakubali masharti...".
 
 
 ![GREEN 2FA MULTISIG](assets/fr/05.webp)

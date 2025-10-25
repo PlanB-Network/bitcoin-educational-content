@@ -33,7 +33,7 @@ Fedi Wallet là danh mục đầu tư Bitcoin đi kèm với cách tiếp cận 
 
 
 
-- Người bảo quản**: Bạn quyết định đặt niềm tin vào một thực thể bên ngoài, nhà phát triển danh mục đầu tư, người sẽ giữ các từ khôi phục cho danh mục đầu tư của bạn cho bạn. Bạn không có quyền truy cập cũng như khả năng xuất danh mục đầu tư Bitcoin của mình.
+- **Người bảo quản**: Bạn quyết định đặt niềm tin vào một thực thể bên ngoài, nhà phát triển danh mục đầu tư, người sẽ giữ các từ khôi phục cho danh mục đầu tư của bạn cho bạn. Bạn không có quyền truy cập cũng như khả năng xuất danh mục đầu tư Bitcoin của mình.
 
 
 
@@ -43,7 +43,7 @@ https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c
 
 
 
-- Tự lưu ký**: Ứng dụng này cho phép bạn truy cập vào các từ khôi phục ngay khi bạn tạo Wallet. Vì vậy, bạn có thể tự do xuất bitcoin của mình sang Wallet phù hợp nhất với bạn.
+- **Tự lưu ký**: Ứng dụng này cho phép bạn truy cập vào các từ khôi phục ngay khi bạn tạo Wallet. Vì vậy, bạn có thể tự do xuất bitcoin của mình sang Wallet phù hợp nhất với bạn.
 
 
 
@@ -103,7 +103,7 @@ Trong menu **Liên đoàn**, cuộn xuống một liên đoàn, sau đó nhấp 
 
 
 
-- Nhận bitcoin trên Fedi**: Trên trang chủ, hãy chọn liên bang bạn muốn sử dụng để nhận bitcoin, sau đó nhấp vào nút **Nhận** để tạo Lightning Invoice với số tiền cần nhận.
+- **Nhận bitcoin trên Fedi**: Trên trang chủ, hãy chọn liên bang bạn muốn sử dụng để nhận bitcoin, sau đó nhấp vào nút **Nhận** để tạo Lightning Invoice với số tiền cần nhận.
 
 
 
@@ -113,7 +113,7 @@ Trong menu **Liên đoàn**, cuộn xuống một liên đoàn, sau đó nhấp 
 
 
 
-- Gửi bitcoin**: Trên trang chủ, nhấp vào nút **Gửi** để gửi bitcoin đến Lightning Address, để thanh toán Invoice hoặc thực hiện thanh toán ngoại tuyến.
+- **Gửi bitcoin**: Trên trang chủ, nhấp vào nút **Gửi** để gửi bitcoin đến Lightning Address, để thanh toán Invoice hoặc thực hiện thanh toán ngoại tuyến.
 
 
 
@@ -232,4 +232,3 @@ Bạn vừa tham gia chuyến tham quan Fedi Wallet, giờ đây bạn đã có 
 
 
 https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
-

@@ -1,5 +1,5 @@
 ---
-name: Niebieski Wallet
+name: Blue Wallet
 
 description: Bitcoin Radykalnie prosty i potężny portfel
 ---
@@ -152,7 +152,7 @@ Możesz usunąć jednego lub wszystkich odbiorców, klikając odpowiednio **Usu�
 
 
 
-- Zawyżone opłaty**: Dokonałeś transakcji, której potwierdzenie zajmuje dużo czasu? Włączając inflację opłat, możesz dodać dodatkowe opłaty transakcyjne do oczekującej transakcji, aby przyspieszyć jej potwierdzenie.
+- **Zawyżone opłaty**: Dokonałeś transakcji, której potwierdzenie zajmuje dużo czasu? Włączając inflację opłat, możesz dodać dodatkowe opłaty transakcyjne do oczekującej transakcji, aby przyspieszyć jej potwierdzenie.
 
 
 
@@ -248,7 +248,7 @@ Odbieranie bitcoinów w Wallet z wieloma podpisami jest takim samym procesem, ja
 
 
 
-- Wysyłanie bitcoinów** :
+- **Wysyłanie bitcoinów**:
 
 
 
@@ -274,7 +274,7 @@ Drugi sygnatariusz Wallet, jeśli jest również użytkownikiem, może podpisać
 
 
 
-- Idź dalej z portfelem Multi signature**:
+- Idź dalej z portfelem **Multi signature**:
 
 
 

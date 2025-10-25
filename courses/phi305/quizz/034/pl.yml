@@ -1,0 +1,9 @@
+question: Kim jest Lamarck?
+answer: Francuski przyrodnik, który poprzedzał Darwina.
+wrong_answers:
+  - Holenderski filozof.
+  - Uczeń Spinozy.
+  - Klasyczny malarz.
+explanation: |
+  Jean-Baptiste de Lamarck (1744-1829) był francuskim przyrodnikiem, który zaproponował teorię ewolucji przed Darwinem. Jego teoria transformizmu obejmowała dziedziczność cech nabytych.
+reviewed: false

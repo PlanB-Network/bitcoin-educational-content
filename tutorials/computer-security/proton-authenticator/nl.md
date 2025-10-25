@@ -32,37 +32,37 @@ Proton Authenticator biedt de volgende belangrijke functies:
 
 
 
-- Genereren van TOTP**-codes voor je 2FA-accounts, compatibel met de meeste sites die Google Authenticator, Authy, enz. gebruiken.
+- Genereren van **TOTP-codes** voor je 2FA-accounts, compatibel met de meeste sites die Google Authenticator, Authy, enz. gebruiken.
 
 
 
 
 
-- Optionele versleutelde cloudback-up**: je kunt de applicatie koppelen aan je Proton-account om een back-up te maken van je codes en ze te synchroniseren met end-to-end versleuteling. Als je je apparaat verliest, kun je gewoon een nieuw apparaat koppelen om al je codes te herstellen.
+- **Optionele versleutelde cloudback-up**: je kunt de applicatie koppelen aan je Proton-account om een back-up te maken van je codes en ze te synchroniseren met end-to-end versleuteling. Als je je apparaat verliest, kun je gewoon een nieuw apparaat koppelen om al je codes te herstellen.
 
 
 
 
 
-- Multi-device synchronisatie**: door in te loggen op Proton in de app, worden je 2FA-codes automatisch gesynchroniseerd tussen meerdere apparaten via end-to-end encryptie. Op iOS is synchronisatie via iCloud een alternatief.
+- **Multi-device synchronisatie**: door in te loggen op Proton in de app, worden je 2FA-codes automatisch gesynchroniseerd tussen meerdere apparaten via end-to-end encryptie. Op iOS is synchronisatie via iCloud een alternatief.
 
 
 
 
 
-- Lokale vergrendeling met wachtwoord of biometrie**: de applicatie biedt vergrendeling met PIN en/of vingerafdruk/gezichtsidentificatie. Dus zelfs als iemand fysiek toegang heeft tot je ontgrendelde telefoon, kan hij Proton Authenticator niet openen.
+- **Lokale vergrendeling met wachtwoord of biometrie**: de applicatie biedt vergrendeling met PIN en/of vingerafdruk/gezichtsidentificatie. Dus zelfs als iemand fysiek toegang heeft tot je ontgrendelde telefoon, kan hij Proton Authenticator niet openen.
 
 
 
 
 
-- Geen gegevensverzameling of trackers**: Proton streeft ernaar geen persoonlijke gegevens te verzamelen via de applicatie. Er is geen verborgen reclame of gedragsanalyse.
+- **Geen gegevensverzameling of trackers**: Proton streeft ernaar geen persoonlijke gegevens te verzamelen via de applicatie. Er is geen verborgen reclame of gedragsanalyse.
 
 
 
 
 
-- Gemakkelijk importeren/exporteren**: een van de sterke punten van Proton Authenticator is de importwizard voor bestaande accounts, die compatibel is met andere applicaties (Google Authenticator, Authy, Aegis, enz.). Je kunt je codes desgewenst ook exporteren naar een bestand.
+- **Gemakkelijk importeren/exporteren**: een van de sterke punten van Proton Authenticator is de importwizard voor bestaande accounts, die compatibel is met andere applicaties (Google Authenticator, Authy, Aegis, enz.). Je kunt je codes desgewenst ook exporteren naar een bestand.
 
 
 
@@ -560,10 +560,10 @@ Proton Authenticator is een van de meest uitgebreide en veilige oplossingen die 
 
 
 
-- Officiële website**: [proton.me/authenticator](https://proton.me/authenticator) - Productpresentatie en downloads
-- Downloadpagina**: [proton.me/nl/authenticator/download](https://proton.me/fr/authenticator/download) - Koppelingen voor alle besturingssystemen
-- Proton-ondersteuning**: [proton.me/support/two-factor-authentication-2fa](https://proton.me/support/two-factor-authentication-2fa) - Officiële 2FA activeringsgids
-- Proton blog**: [proton.me/blog/authenticator-app](https://proton.me/blog/authenticator-app) - Aankondiging en gedetailleerde functies
+- **Officiële website**: [proton.me/authenticator](https://proton.me/authenticator) - Productpresentatie en downloads
+- **Downloadpagina**: [proton.me/nl/authenticator/download](https://proton.me/fr/authenticator/download) - Koppelingen voor alle besturingssystemen
+- **Proton-ondersteuning**: [proton.me/support/two-factor-authentication-2fa](https://proton.me/support/two-factor-authentication-2fa) - Officiële 2FA activeringsgids
+- **Proton blog**: [proton.me/blog/authenticator-app](https://proton.me/blog/authenticator-app) - Aankondiging en gedetailleerde functies
 
 
 
@@ -572,8 +572,8 @@ Proton Authenticator is een van de meest uitgebreide en veilige oplossingen die 
 
 
 
-- GitHub Proton Authenticator** : [github.com/ProtonMail/proton-authenticator](https://github.com/ProtonMail/proton-authenticator) - Open broncode
-- Beveiligingsaudits**: [proton.me/community/security-audits](https://proton.me/community/security-audits) - Onafhankelijke auditrapporten
+- **GitHub Proton Authenticator**: [github.com/ProtonMail/proton-authenticator](https://github.com/ProtonMail/proton-authenticator) - Open broncode
+- **Beveiligingsaudits**: [proton.me/community/security-audits](https://proton.me/community/security-audits) - Onafhankelijke auditrapporten
 
 
 
@@ -595,9 +595,9 @@ Test je installatie na de configuratie:
 
 
 
-- Reddit r/Proton** : [reddit.com/r/ProtonMail](https://reddit.com/r/ProtonMail) - Officiële Protongemeenschap
-- Privacygidsen Forum** : [discuss.privacyguides.net](https://discuss.privacyguides.net) - Technische discussies over privacykwesties
-- Reddit r/privacy**: [reddit.com/r/privacy](https://reddit.com/r/privacy) - Algemene privacytips
+- Reddit r/Proton: [reddit.com/r/ProtonMail](https://reddit.com/r/ProtonMail) - Officiële Protongemeenschap
+- **Privacygidsen Forum**: [discuss.privacyguides.net](https://discuss.privacyguides.net) - Technische discussies over privacykwesties
+- **Reddit r/privacy**: [reddit.com/r/privacy](https://reddit.com/r/privacy) - Algemene privacytips
 
 
 

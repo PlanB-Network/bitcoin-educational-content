@@ -2,8 +2,9 @@ question: Siber güvenlik konferanslarına ve atölye çalışmalarına katılma
 answer: Sektör profesyonelleri ile bağlantı kurmanızı sağlar
 wrong_answers:
   - Tüm siber güvenlik işleri için bir gerekliliktir
-  - Siber güvenlik alanında bir işi garanti ediyor
-  - Siber güvenlik hakkında bilgi edinmenin tek yolu
+  - Siber güvenlik alanında bir işi garanti eder
+  - Siber güvenlik hakkında bilgi edinmenin tek yoludur
 explanation: |
-  Bölüm, siber güvenlik konferanslarına ve çalıştaylarına katılmanın öğrenmenizi sağladığını ve sektör profesyonelleriyle bağlantı kurmanıza yardımcı olduğunu belirtiyor.
+  Bölüm, siber güvenlik konferanslarına ve çalıştaylarına katılmanın sadece öğrenmenizi sağlamadığını 
+  aynı zamanda sektör profesyonelleriyle bağlantı kurmanıza yardımcı olduğunu belirtiyor.
 reviewed: true

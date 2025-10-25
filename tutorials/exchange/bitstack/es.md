@@ -6,7 +6,7 @@ description: Comprar y vender bitcoins en la aplicación Bitstack
 
 Bitstack es una plataforma francesa de inversión en bitcoins, regulada PSAN por la AMF. Ofrece una aplicación disponible en Android e iOS para comprar y vender bitcoins fácilmente.
 
-Lo que diferencia a Bitstack es su sistema de redondeo automático, que sincroniza la cuenta bancaria del usuario para convertir la diferencia entre la cantidad cargada durante el gasto diario y el euro inmediatamente superior, directamente en bitcoins. Este método facilita la aplicación del *Dollar Cost Averaging* (DCA), permitiendo una acumulación gradual e indolora de satoshis. Además de esta original característica, la plataforma también ofrece un sistema DCA clásico con inversiones automáticas, así como compraventa al contado.
+Lo que distingue a Bitstack es su sistema de redondeo automático, que sincroniza la cuenta bancaria del usuario para convertir la diferencia entre el monto debitado en los gastos diarios y el euro superior directamente en bitcoins. Este método facilita la aplicación del *Dollar Cost Averaging* (DCA), permitiendo una acumulación progresiva e indolora de satoshis. Además de esta función original, la plataforma también ofrece un sistema DCA clásico con inversiones automáticas, así como compras y ventas puntuales.
 
 ![Image](assets/fr/01.webp)
 
@@ -110,7 +110,7 @@ Como se mencionó en la introducción, Bitstack ofrece 3 métodos para invertir 
 - Configuración de compras periódicas (RPC) ;
 - El uso del redondeo automático en los gastos.
 
-### Comprar en efectivo
+### Realizar una compra puntual
 
 Para realizar una compra única de bitcoins a precio de mercado, basta con hacer clic en "*Comprar*".
 
@@ -126,7 +126,7 @@ Su transacción está confirmada.
 
 ### Crear un ACA
 
-El Dollar Cost Averaging* (DCA) es una atractiva estrategia de inversión para acumular bitcoins al tiempo que se reducen los riesgos asociados a su volatilidad. Al comprar regularmente una cantidad fija, independientemente del precio, puede suavizar su coste de adquisición y evitar la toma de decisiones impulsivas. El DCA ayuda a reducir sesgos de comportamiento como el miedo a perder una oportunidad o el pánico en caso de caída del precio, y le permite así gestionar sus ahorros en bitcoins de forma serena y disciplinada.
+El **Dollar Cost Averaging** (DCA) es una atractiva estrategia de inversión para acumular bitcoins al tiempo que se reducen los riesgos asociados a su volatilidad. Al comprar regularmente una cantidad fija, independientemente del precio, puede suavizar su coste de adquisición y evitar la toma de decisiones impulsivas. El DCA ayuda a reducir sesgos de comportamiento como el miedo a perder una oportunidad o el pánico en caso de caída del precio, y le permite así gestionar sus ahorros en bitcoins de forma serena y disciplinada.
 
 Para configurar una compra recurrente (DCA) en Bitstack, vaya a la sección "*Ahorro*" de la página de inicio y seleccione "*Recurrente*". A continuación, pulsa "*Continuar*".
 

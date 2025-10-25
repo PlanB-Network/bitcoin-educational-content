@@ -36,7 +36,6 @@ Kursuse lõpuks peaksite olema võimeline kirjutama oma programme JavaScriptis, 
 <chapterId>ba05a290-1782-5268-87c9-62fd09590e05</chapterId>
 
 
-Selles jaotises seadistame oma masina, et kirjutada ja käivitada meie esimene JavaScript programm.
 
 
 JavaScript-programm on lihtsalt (ühe või mitme) tekstifaili kogum, mis sisaldab käske, mida JavaScripti tööprogramm täidab.
@@ -51,16 +50,16 @@ Neis sisalduvad käsud on kirjutatud JavaScript programmeerimiskeeles.
 JavaScripti runtime on spetsiaalne programm, mis täidab neid faile.
 
 
-![](assets/en/1.webp)
+![](assets/en/001.webp)
 
 
-### NodeJS-i paigaldamine
+### NodeJS-i käitusaeg
 
 
 Kõige tavalisem JavaScripti tööaeg on NodeJS.
 
 
-Saate selle paigaldada, järgides [ametlikke juhiseid](https://nodejs.org/en/download).
+Teie IDE võib selle juba sisaldada või peate selle alla laadima [ametlikult veebisaidilt](https://nodejs.org/en/download).
 
 
 Allalaadimislehelt leiate juhised kõigi kolme peamise operatsioonisüsteemi (operatsioonisüsteemi) jaoks: Windows, Linux ja MacOS. See eeldab, et te teate, kuidas oma operatsioonisüsteemis terminali avada.
@@ -72,25 +71,19 @@ Kuna NodeJS on saadaval kõigile kolmele operatsioonisüsteemile, saab teie kirj
 See tähendab, et saate näiteks kirjutada lihtsa videomängu JavaScriptis oma Windows-arvutis ja anda selle oma sõbrale edasi, et ta seda oma Macil jooksutaks.
 
 
-![](assets/en/2.webp)
+![](assets/en/002.webp)
 
 
-### Teksti redigeerimine
 
 
-Programmeerimise üks lahedamaid asju on see, et koodi saab kirjutada mis tahes tekstiredaktoriga, isegi oma operatsioonisüsteemi vaikimisi märkmikuga.
 
 
-Siiski on olemas mõned tekstiredaktorid, mis on spetsialiseerunud koodi kirjutamisele, mõned on saadaval tasuta, teised nõuavad litsentsi eest maksmist.
 
 
-Koodiredaktori valik on hiiglaslik jänesepesa, mis ületab selle kursuse ulatuse, nii et me ei räägi sellest siinkohal. Kui te ei tea, mida kasutada, siis kõige enam kasutatav tasuta toimetaja on [VSCode](https://code.visualstudio.com/).
 
 
-Selle Interface on pisut paisutatud, kuid selles on kõik vajalik: failiredaktor, failiotsinguprogramm (failide ja alamkataloogide visualiseerimiseks kataloogis, kus te töötate) ja terminal oma koodi käivitamiseks. Samuti toetab see palju pluginaid ja on vaikimisi varustatud JavaScripti süntaksi esiletõstmisega.
 
 
-Kui soovite olla veidi rohkem Cypherpunk-y, võite selle asemel kasutada [VSCodium](https://vscodium.com/).
 
 
 ### Esimene programm (hello world)
@@ -102,7 +95,7 @@ Traditsiooniliselt seisneb programmeerimiskeele õppimisel esimene programm, mil
 Loo kataloog nimega `my_js_code/`, mille sees on fail nimega `main.js` (need nimed on suvalised).
 
 
-Avage kataloog VSCode'iga.
+Avage kataloog oma koodiredaktoriga.
 
 
 Kirjutage see kood oma faili:
@@ -687,7 +680,7 @@ Booluseid saab kombineerida loogiliste operaatorite abil:
 - `!` tähendab "mitte", seda rakendatakse enne boolean'i ja see pöörab selle ümber: kui boolean on `true`, siis tagastab see `false` ja vastupidi.
 
 
-![](assets/en/3.webp)
+![](assets/en/003.webp)
 
 
 Näited:
@@ -737,9 +730,9 @@ Selles jaotises käsitleme veel kolme tüüpi, mis on JavaScript-programmides v�
 
 
 
-- Arrays**: väärtuste jadad
-- undefined**: eriväärtus, mis tähendab, et "midagi ei ole määratud"
-- null**: teine eriväärtus, mis tähendab "tahtlikult tühi"
+- **Arrays**: väärtuste jadad
+- **undefined**: eriväärtus, mis tähendab, et "midagi ei ole määratud"
+- **null**: teine eriväärtus, mis tähendab "tahtlikult tühi"
 
 
 ### Massiivid ja juurdepääs indeksitele
@@ -1411,7 +1404,7 @@ Nagu näete, on piiratud tsükkel meil võimalik deklareerida keerulisemaid ting
 ### Plokkide sildid
 
 
-Kui teil on vaja kirjutada keerulisemat kontrollivoolu, võimaldab JavaScript teil nimetada plokki, kasutades **labelit**, mida saab kasutada `break` või `continue` abil, et määrata *kohta*, kuhu* tagasi hüpata.
+Kui teil on vaja kirjutada keerulisemat kontrollivoolu, võimaldab JavaScript teil nimetada plokki, kasutades **labelit**, mida saab kasutada `break` või `continue` abil, et määrata *kohta*, *kuhu* tagasi hüpata.
 
 
 Näide:
@@ -2302,7 +2295,7 @@ console.log(`${this.brand} car is ready to drive!`)
 Klass `Auto` pärib nüüd kõik `Auto` klassist `Vehicle`. See saab omaduse `brand` ja me oleme asendanud meetodi `start()` oma versiooniga.
 
 
-![](assets/en/4.webp)
+![](assets/en/004.webp)
 
 
 Proovime seda välja:
@@ -2356,7 +2349,7 @@ myCar.start()
 ```
 
 
-![](assets/en/5.webp)
+![](assets/en/005.webp)
 
 
 
@@ -3867,7 +3860,7 @@ Alice
 #### `Object.entries()`
 
 
-Kui soovite nii võtit kui ka väärtust**, kasutage `Object.entries()`:
+Kui soovite nii võtit kui ka **väärtust**, kasutage `Object.entries()`:
 
 
 ```javascript
@@ -4197,7 +4190,7 @@ Here is the doubled array: [ 2, 4, 6 ]
 ```
 
 
-**Mida siin toimub?*
+**Mida siin toimub?**
 
 
 1. Edastame `input` kui numbrite nimekirja, mida tahame kahekordistada.
@@ -4566,7 +4559,7 @@ Iga `.then()` ootab, et enne seda sammu lõpetataks. Seega saame luua **tegevust
 Me nägime, kuidas `Promise` ahelad aitavad meil vältida tagasikutsumise põrgut, kuid neid võib siiski veidi Hard lugeda, kui on kaasatud palju samme.
 
 
-Siin tulevadki mängu `async` ja `await`. Need võimaldavad meil kirjutada asünkroonset koodi, mis näeb välja nagu sünkroonne kood**, mis teeb selle arusaadavamaks.
+Siin tulevadki mängu `async` ja `await`. Need võimaldavad meil kirjutada asünkroonset koodi, mis näeb välja nagu sünkroonne kood, mis teeb selle arusaadavamaks.
 
 
 ### Mis on `async`?
@@ -5235,7 +5228,7 @@ JavaScript on interpreteeritud keel, erinevalt kompileeritud keeltest nagu C.
 Kompileerimiskeeles kirjutatud kood muudetakse binaarseks ja binaarskeem suunatakse otse arvuti protsessorisse.
 
 
-![](assets/en/6.webp)
+![](assets/en/006.webp)
 
 
 Teisalt kipuvad interpreed keeled olema kasutajasõbralikumad ja on lähemal sellele, kuidas inimesed mõtlevad ("kõrge tase") kui sellele, kuidas masinad töötavad ("madal tase"); seega on nende koodide käivitamiseks tavaliselt ehitatud virtuaalmasin.
@@ -5268,7 +5261,7 @@ Miks on see probleem?
 Kuna veebilehitsejad täidavad miljonitest erinevatest internetiallikatest hangitud koodi, võivad nad kergesti sattuda pahavara hulka, seega on nad ülejäänud operatsioonisüsteemist "liivakastis".
 
 
-![](assets/en/7.webp)
+![](assets/en/007.webp)
 
 
 JavaScript ei saanud juurdepääsu failisüsteemile ja muudele arvuti kohalikele ressurssidele (vähemalt mitte nii lihtsalt nagu teised keeled), nii et see oli oluline piirang selle abil loodavate rakenduste osas.
@@ -5277,7 +5270,7 @@ JavaScript ei saanud juurdepääsu failisüsteemile ja muudele arvuti kohalikele
 2009. aastal avaldas Ryan Dahl NodeJSi, mis on runtime, mis võimaldab kasutada V8 mootorit väljaspool brauserit, otse arvuti emakeelses operatsioonisüsteemis. See lisab ka palju funktsioone, mis on kasulikud serveripoolsete ja käsurea programmide kirjutamiseks. Näiteks saab NodeJS-i kasutada veebiserveri loomiseks, failide lugemiseks ja kirjutamiseks või ülesannete automatiseerimiseks mõeldud tööriistade loomiseks.
 
 
-![](assets/en/8.webp)
+![](assets/en/008.webp)
 
 
 Selles kursuses oleme seni uurinud JavaScripti funktsioone, mis on olemas nii brauseris kui ka NodeJSis. Need funktsioonid võimaldasid meil andmeid defineerida ja nendega abstraktselt manipuleerida. Järgmistes õppetundides uurime funktsioone, mis on NodeJS-i spetsiifilised ja võimaldavad meil suhelda operatsioonisüsteemiga.
@@ -6438,10 +6431,10 @@ NodeJSil on neli peamist voogude tüüpi:
 
 
 
-- Readable**: voogude, millest saab andmeid lugeda (nagu faili lugemine)
-- Writable**: voogud, kuhu saab andmeid kirjutada (nagu faili kirjutamine)
-- Duplex**: voogude puhul on võimalik nii lugeda kui ka kirjutada
-- Transform**: nagu dupleksvooge, kuid nad võivad andmete liikumise ajal neid muuta (transformeerida)
+- **Readable**: voogude, millest saab andmeid lugeda (nagu faili lugemine)
+- **Writable**: voogud, kuhu saab andmeid kirjutada (nagu faili kirjutamine)
+- **Duplex**: voogude puhul on võimalik nii lugeda kui ka kirjutada
+- **Transform**: nagu dupleksvooge, kuid nad võivad andmete liikumise ajal neid muuta (transformeerida)
 
 
 ### Loetavad voolud

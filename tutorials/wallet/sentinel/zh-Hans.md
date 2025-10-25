@@ -1,5 +1,5 @@
 ---
-name: Sentinel Watch-Only
+name: Sentinel
 description: 什么是仅观察钱包以及如何使用它？
 ---
 ![cover](assets/cover.webp)

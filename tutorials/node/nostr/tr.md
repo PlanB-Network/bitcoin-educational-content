@@ -4,11 +4,12 @@ name: NOSTR
 description: NOSTR'u keşfedin ve kullanmaya başlayın
 ---
 
-Bu kılavuzun sonunda, Nostr'un ne olduğunu anlayacak, bir hesap oluşturmuş olacak ve onu kullanabileceksiniz.
 
 
 ![A new challenger has arrived](assets/1.webp)
 
+
+*Bu kılavuzun sonunda Nostr’un ne olduğunu anlayacak, bir hesap oluşturmuş olacak ve onu kullanabileceksiniz.*
 
 ## Nostr nedir?
 
@@ -51,7 +52,7 @@ Genel anahtar, npub, bir kullanıcı tarafından yayınlanan tüm içeriğin ekl
 
 
 - iOS: damus
-- Android: ametist
+- Android: amethyst
 - Web: iris.to; snort.social; astral.ninja
 
 
@@ -67,7 +68,7 @@ Aktarıcılar, size sundukları içeriği beğenmediğiniz takdirde istediğiniz
 💡 **Pro ipucu:** Ücretli aktarıcılar genellikle spam ve istenmeyen içeriği filtrelemede daha etkilidir.
 
 
-### Kılavuz
+## Kılavuz
 
 
 Artık Nostr hakkında, başlamak ve bu protokol üzerinde ilk kimliğinizi oluşturmak için yeterli bilgiye sahipsiniz.

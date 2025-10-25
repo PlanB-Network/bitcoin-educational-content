@@ -17,13 +17,13 @@ Thunderbird je e-mailová aplikace proslulá svou flexibilitou a širokou škál
 
 
 
-- Zdarma a s otevřeným zdrojovým kódem**: na rozdíl od mnoha aplikací pro zasílání zpráv je Thunderbird zcela zdarma. Komunitu vývojářů však můžete podpořit zasláním příspěvku.
-- Intuitivní Interface a snadné učení**: Konfigurace Thunderbirdu je z velké části jednoduchá, takže si s ní nemusíte dělat starosti.
-- Tato schránka je vhodná pro několik typů e-mailů**: ať už se jedná o Gmail, Yahoo, Outlook nebo dokonce firemní e-maily spojené s názvem domény, je velmi univerzální.
-- Více účtů**: Thunderbird umožňuje připojení k několika e-mailovým účtům najednou, což usnadňuje přístup ke všem zprávám.
-- Vysoce výkonné funkce a škálovatelnost**: ve výchozím nastavení nabízí Thunderbird širokou škálu funkcí pro správu e-mailových účtů a kalendáře událostí. Umožňuje však také přidat další možnosti díky mnoha dostupným rozšířením.
-- Multiplatformní**: Thunderbird je k dispozici na různých zařízeních (Android, Windows, Linux, macOS), takže máte snadný přístup ke svým e-mailům.
-- Bezpečnost**: Thunderbird je vysoce bezpečná aplikace, která vám umožní využívat end-to-end šifrování založené na RSA nebo ECC (Elliptic Curve), které zaručí důvěrnost vašich dat.
+- **Zdarma a s otevřeným zdrojovým kódem**: na rozdíl od mnoha aplikací pro zasílání zpráv je Thunderbird zcela zdarma. Komunitu vývojářů však můžete podpořit zasláním příspěvku.
+- **Intuitivní Interface a snadné učení**: Konfigurace Thunderbirdu je z velké části jednoduchá, takže si s ní nemusíte dělat starosti.
+- Tato schránka je vhodná pro několik typů e-mailů: ať už se jedná o Gmail, Yahoo, Outlook nebo dokonce firemní e-maily spojené s názvem domény, je velmi univerzální.
+- **Více účtů**: Thunderbird umožňuje připojení k několika e-mailovým účtům najednou, což usnadňuje přístup ke všem zprávám.
+- **Vysoce výkonné funkce a škálovatelnost**: ve výchozím nastavení nabízí Thunderbird širokou škálu funkcí pro správu e-mailových účtů a kalendáře událostí. Umožňuje však také přidat další možnosti díky mnoha dostupným rozšířením.
+- **Multiplatformní**: Thunderbird je k dispozici na různých zařízeních (Android, Windows, Linux, macOS), takže máte snadný přístup ke svým e-mailům.
+- **Bezpečnost**: Thunderbird je vysoce bezpečná aplikace, která vám umožní využívat end-to-end šifrování založené na RSA nebo ECC (Elliptic Curve), které zaručí důvěrnost vašich dat.
 
 
 
@@ -59,8 +59,8 @@ V systému Windows spusťte stažený spustitelný soubor a spusťte instalaci. 
 
 
 
-- Standard**: umožňuje přímou instalaci bez předchozí konfigurace.
-- Vlastní**: umožňuje zvolit instalační složku a vytvořit či nevytvořit zástupce na ploše.
+- **Standard**: umožňuje přímou instalaci bez předchozí konfigurace.
+- **Vlastní**: umožňuje zvolit instalační složku a vytvořit či nevytvořit zástupce na ploše.
 
 
 

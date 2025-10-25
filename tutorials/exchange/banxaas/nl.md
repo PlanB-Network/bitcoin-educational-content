@@ -73,7 +73,7 @@ Het Banxaas-webplatform is minimalistisch en intuïtief, zodat je je transactie 
 
 
 
-- Van CFA Franc naar satoshis** :
+- **Van CFA Franc naar satoshis**:
 
 
 
@@ -114,7 +114,7 @@ Bevestig je transactie door op de **Troc** knop te klikken om bitcoins te kopen 
 
 
 
-- Van Satoshis naar CFA-frank**
+- Van Satoshis naar CFA-frank
 
 
 

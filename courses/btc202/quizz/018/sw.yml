@@ -1,0 +1,9 @@
+question: Ni utekelezaji gani wa nodi ya Bitcoin inayotumika sana?
+answer: Bitcoin core
+wrong_answers:
+  - Bitcoin Knots
+  - Bitcoin Classic
+  - Bcoin
+explanation: |
+  Kwa takriban nodi 9 kati ya 10 kwenye mtandao, Bitcoin core ndiyo wateja wengi zaidi.
+reviewed: true

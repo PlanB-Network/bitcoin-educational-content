@@ -73,7 +73,7 @@ Podrazumevano, Minibits kovnica je omogućena kada pokrenete aplikaciju. Međuti
 
 Bekap je verovatno najkritičniji korak u celom procesu postavljanja. Da biste pristupili opcijama Bekapa, idite na `Podešavanja`-> `Bekap` Ovde ćete pronaći dve ključne opcije:
 
-1. `Vaša seed fraza` koja sadrži `12 reči` omogućava vam da povratite svoj ecash saldo u slučaju gubitka uređaja. Ova seed fraza je vaš glavni ključ za sav ecash preko svih menjačnica koje ste dodali. Zapišite je na fizički medijum (papir ili metal) i čuvajte je na sigurnom na više lokacija. Nikada ne čuvajte svoju seed frazu digitalno gde bi mogla biti ugrožena. Razmislite o poseti ovom [uputstvu](https://planb.network/en/tutorials/Wallet/backup/backup-Mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270) za najbolje prakse za zaštitu vaše Wallet.
+1. `Vaša seed fraza` koja sadrži `12 reči` omogućava vam da povratite svoj ecash saldo u slučaju gubitka uređaja. Ova seed fraza je vaš glavni ključ za sav ecash preko svih menjačnica koje ste dodali. Zapišite je na fizički medijum (papir ili metal) i čuvajte je na sigurnom na više lokacija. Nikada ne čuvajte svoju seed frazu digitalno gde bi mogla biti ugrožena. Razmislite o poseti ovom [uputstvu](https://planb.network/en/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270) za najbolje prakse za zaštitu vaše Wallet.
 
 2. `Wallet backup` koji sadrži dugačak niz za rezervnu kopiju.
 

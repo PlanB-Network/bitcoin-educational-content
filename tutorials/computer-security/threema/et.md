@@ -276,7 +276,7 @@ Siit leiate kaks võimalust oma andmete varundamiseks:
 
 
 
-"Threema Safe* salvestab kogu teie kontoteabe, välja arvatud teie vestlused, Threema serverites. Need andmed on krüpteeritud teie poolt konto loomisel valitud parooliga, mis tagab, et Threema ei pääse neile ligi. Varukoopiaid tehakse automaatselt ja regulaarselt.
+"**Threema Safe** salvestab kogu teie kontoteabe, välja arvatud teie vestlused, Threema serverites. Need andmed on krüpteeritud teie poolt konto loomisel valitud parooliga, mis tagab, et Threema ei pääse neile ligi. Varukoopiaid tehakse automaatselt ja regulaarselt.
 
 
 

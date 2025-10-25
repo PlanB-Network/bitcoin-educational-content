@@ -1,5 +1,5 @@
 ---
-name: ققنوس
+name: Phoenix
 description: نصب و استفاده از Phoenix Wallet
 ---
 ![cover](assets/cover.webp)

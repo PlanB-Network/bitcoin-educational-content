@@ -79,7 +79,7 @@ contributors:
 
 
 
-- `project`**：表示您的組織在 PlanB Network 上的識別碼。如果您的公司還沒有 "project "識別碼，您可以按照本教學建立一個。
+- `project`**：**表示您的組織在 PlanB Network 上的識別碼。如果您的公司還沒有 "project" 識別碼，您可以按照本教學建立一個。
 
 
 https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
@@ -88,13 +88,13 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 
 
 
-- `type`**：在下列兩個選項中選擇您內容的性質：
+- `type`**：在下列兩個選項中選擇您內容的性質：**
  - `教育內容'用於教育內容。
  - 其他類型的多樣內容的 ` 視覺內容
 
 
 
-- `links`**：提供您內容的連結。您有兩個選項：
+- `links`**：提供您內容的連結。您有兩個選項：**
  - 如果您選擇直接在 PlanB 的 GitHub 上託管您的內容，您需要在下列步驟中將連結加入此檔案。
  - 如果您的內容寄存在其他地方，例如您的個人網站，請在此標明相應的連結：
      - `下載`：下載內容的連結。
@@ -102,7 +102,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 
 
 
-- `tags`**：新增兩個與內容相關的標籤。範例：
+- `tags`**：新增兩個與內容相關的標籤。範例：**
  - Bitcoin
  - 技術
  - 經濟
@@ -111,7 +111,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 
 
 
-- `contributors`**：如果您有貢獻者識別碼，請提及。
+- `contributors`**：如果您有貢獻者識別碼，請提及。**
 
 
 例如，您的 YAML 檔案可以如下所示：

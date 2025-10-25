@@ -1,5 +1,5 @@
 ---
-name: Монетные карточки
+name: Coincards
 description: Как я могу покупать товары и услуги в BTC с помощью Coincards?
 ---
 ![cover](assets/cover.webp)

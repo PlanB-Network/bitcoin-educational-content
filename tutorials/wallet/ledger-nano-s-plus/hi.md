@@ -1,5 +1,5 @@
 ---
-name: Ledger नैनो एस प्लस
+name: Ledger Nano S Plus
 description: Ledger नैनो एस प्लस का सेटअप और उपयोग
 ---
 ![cover](assets/cover.webp)

@@ -1,14 +1,13 @@
-question: Iciyumviro co guhitamwo umwanya ni ikihe?
-answer: Igihe co guhitamwo ni ugusuzuma umuntu ku giti ciwe agaciro k’ibintu vyo muri kazoza ugereranyije n’ibintu vyo muri iki gihe. Ibindi vyose bikaba bingana, ivyiza vyo muri iki gihe birakunda cane kuruta ivyiza vyo muri kazoza.
+question: Iciyumviro co guhitamwo umwanya n'iki?
+answer: Igihe co guhitamwo umwanya ni ugusuzuma umuntu ku gaciro k’ibintu vyo muri kazoza ugereranyije n’ibintu vyo muri kubu. Ibindi vyose bikaba bingana, ivyiza vyo muri iki gihe birakunda cane kuruta ivyiza vyo muri kazoza.
 wrong_answers:
-  - Igihe co guhitamwo ni ugusuzuma ataco bimaze agaciro k’ibintu vyo muri kazoza ugereranyije n’ivyo muri iki gihe.
-  - Guhitamwo igihe ni uguhitamwo ibintu vyo muri kazoza kuruta ibintu vyo muri iki gihe.
-  - Igihe co guhitamwo ni ugusuzuma umuntu ku giti ciwe agaciro k’ibintu biriho ubu ugereranije n’ibintu vyo muri kazoza.
+  - guhitamwo igihe ni ugusuzuma ataco agaciro k’ibintu vyo muri kazoza ugereranyije n’ivyo muri kubu.
+  - guhitamwo igihe ni uguhitamwo ibintu vyo muri kazoza kuruta ibintu vyo muri kubu.
+  - guhitamwo igihe ni ugusuzuma agaciro k’ibintu biriho ubu ugereranije n’ibintu vyo muri kazoza.
 explanation: |
-  Igihe gihitamwo ni isuzuma ry'agaciro
-  y’ibintu vyo muri kazoza ugereranyije n’ivyo muri iki gihe. Kubera ko turi
-  umuntu apfa, kandi kazoza kama katamenyekana, twebwe mu bisanzwe .
-  guhitamwo kuronka ivyiza ubu aho kuronka mu nyuma.
+  guhitamwo igihe ni ugusuzuma agaciro
+  k’ibintu vyo muri kazoza ugereranyije n’ivyo muri iki gihe. Kubera ko turi abapfa, kandi kazoza kama katazwi, twebwe mu bisanzwe .
+  duhitamwo kuronka ivyiza ubu aho kubironka mu nyuma.
   Naho igihe umuntu akunda gishobora gutandukanywa hagati y’abantu, kubera
   ku bintu vyinshi cane nk’umuco, ubutunzi, uburezi, .
   physiologie, n'ibindi, igihe umuntu akunda cama ari ciza,

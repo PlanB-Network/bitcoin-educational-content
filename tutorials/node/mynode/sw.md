@@ -1,5 +1,5 @@
 ---
-name: Nodi yangu
+name: My Node
 description: Sanidi Bitcoin MyNode yako
 ---
 

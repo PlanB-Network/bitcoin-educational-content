@@ -279,7 +279,7 @@ Safe 5 loob teie Mnemonic fraasi, kasutades oma juhusliku numbrigeneraatorit. Ve
 
 
 
-***Es on selge, et te ei tohi neid sõnu kunagi internetis jagada, nagu ma seda käesolevas õpetuses teen. Seda näidist Wallet kasutatakse ainult Testnet peal ja see kustutatakse õpetuse lõpus
+**Es on selge, et te ei tohi neid sõnu kunagi internetis jagada, nagu ma seda käesolevas õpetuses teen. Seda näidist Wallet kasutatakse ainult Testnet peal ja see kustutatakse õpetuse lõpus**
 
 
 

@@ -54,7 +54,7 @@ All communications are encrypted with WireGuard. Tailscale only sees metadata (c
 However, this architecture is dependent on Tailscale Inc. for network coordination. To eliminate this dependency, Headscale offers an open-source alternative that allows you to self-host the control server while using the official Tailscale clients, thus guaranteeing complete sovereignty over your network infrastructure, at the cost of a more technical configuration.
 
 
-**For a detailed explanation of the inner workings of Tailscale, including control plane management, NAT traversal and DERP relays, we recommend the excellent article [How Tailscale Works](https://tailscale.com/blog/how-tailscale-works) on the official blog. This article explains in depth the technical concepts that make Tailscale so powerful.
+**For a detailed explanation of the inner workings of Tailscale, including control plane management, NAT traversal and DERP relays, we recommend the excellent article [How Tailscale Works](https://tailscale.com/blog/how-tailscale-works) on the official blog. This article explains in depth the technical concepts that make Tailscale so powerful.**
 
 
 ## 3. Installing Tailscale
@@ -103,7 +103,7 @@ Once you have created your account, you can install Tailscale on your devices:
 
 
 
-- On Windows and macOS:** Simply download the graphical application from the official Tailscale website and install it (.msi file on Windows, .dmg file on Mac). Once installed, the application launches a graphical Interface that lets you connect (via a browser) to your Tailscale account to authenticate the machine.
+- On Windows and macOS: Simply download the graphical application from the official Tailscale website and install it (.msi file on Windows, .dmg file on Mac). Once installed, the application launches a graphical Interface that lets you connect (via a browser) to your Tailscale account to authenticate the machine.
 
 
 ![Connexion d'un appareil macOS](assets/fr/08.webp)
@@ -117,7 +117,7 @@ Once you have created your account, you can install Tailscale on your devices:
 
 
 
-- On Linux (Debian, Ubuntu, etc.):** You have several options. The simplest method is to run the official installation script: for example, on Debian/Ubuntu:
+- On Linux (Debian, Ubuntu, etc.): You have several options. The simplest method is to run the official installation script: for example, on Debian/Ubuntu:
 
 
 ```bash
@@ -129,11 +129,11 @@ This script will add the official Tailscale repository and install the package. 
 
 
 
-- On ARM-based systems (Raspberry Pi, etc.):** We're generally on Linux, so the same approach as above (script or package). Note that Tailscale supports ARM32/ARM64 architecture without any problems. Many users install Tailscale on Raspberry Pi OS via apt or on lightweight distributions (DietPi, etc.) to access their Pi everywhere.
+- On ARM-based systems (Raspberry Pi, etc.): We're generally on Linux, so the same approach as above (script or package). Note that Tailscale supports ARM32/ARM64 architecture without any problems. Many users install Tailscale on Raspberry Pi OS via apt or on lightweight distributions (DietPi, etc.) to access their Pi everywhere.
 
 
 
-- On iOS and Android:** Tailscale provides **official** mobile applications. Simply install *Tailscale* from the [App Store](https://apps.apple.com/us/app/tailscale/id1470499037?ls=1) (iOS) or the [Play Store](https://play.google.com/store/apps/details?id=com.tailscale.ipn) (Android).
+- On iOS and Android: Tailscale provides **official** mobile applications. Simply install *Tailscale* from the [App Store](https://apps.apple.com/us/app/tailscale/id1470499037?ls=1) (iOS) or the [Play Store](https://play.google.com/store/apps/details?id=com.tailscale.ipn) (Android).
 
 
 ![Installation sur iPhone](assets/fr/11.webp)
@@ -191,11 +191,11 @@ The web administration console lets you view and manage all your connected devic
 
 
 
-- Interface Web (Admin Console)**: accessible at [https://login.tailscale.com](https://login.tailscale.com), this web console is the central dashboard for your Tailscale network. It lists all devices (*Machines*), their online/offline status, their Tailscale IP addresses, and more. Here you can **manage devices** (rename, expire keys, authorize routes, disable a node), **manage users** (in an organizational context), and define security rules (ACLs). This is also where you configure global options such as MagicDNS, tags, or auth keys (pre-generate auth keys for automated device addition). Interface web is very handy for getting an overview and applying changes that will be propagated via the coordination server to all nodes. *Example:* Activating a **subnet route** or an **exit node** is done with a single click in the console, once the node in question has announced itself as such.
+- **Interface Web (Admin Console)**: accessible at [https://login.tailscale.com](https://login.tailscale.com), this web console is the central dashboard for your Tailscale network. It lists all devices (*Machines*), their online/offline status, their Tailscale IP addresses, and more. Here you can **manage devices** (rename, expire keys, authorize routes, disable a node), **manage users** (in an organizational context), and define security rules (ACLs). This is also where you configure global options such as MagicDNS, tags, or auth keys (pre-generate auth keys for automated device addition). Interface web is very handy for getting an overview and applying changes that will be propagated via the coordination server to all nodes. *Example:* Activating a **subnet route** or an **exit node** is done with a single click in the console, once the node in question has announced itself as such.
 
 
 
-- Interface command line (CLI):** The `tailscale` command is available in CLI on every device where Tailscale is installed. This CLI allows you to do everything locally: connect (`tailscale up`), inspect status (`tailscale status` to see which peers are connected), debug (`tailscale ping <ip>`), and so on. Some features are even **exclusive to CLI** or more advanced, for example:
+- **Interface command line (CLI):** The `tailscale` command is available in CLI on every device where Tailscale is installed. This CLI allows you to do everything locally: connect (`tailscale up`), inspect status (`tailscale status` to see which peers are connected), debug (`tailscale ping <ip>`), and so on. Some features are even **exclusive to CLI** or more advanced, for example:
 
 
 
@@ -224,7 +224,7 @@ Using Umbrel and Tailscale together is a particularly interesting use case, as U
 
 
 
-- Installing Tailscale on Umbrel:** Umbrel has an official Tailscale application in its App Store. Installation couldn't be simpler:
+- **Installing Tailscale on Umbrel:** Umbrel has an official Tailscale application in its App Store. Installation couldn't be simpler:
 
 
 ![Interface Umbrel avec l'application Tailscale](assets/fr/16.webp)
@@ -278,11 +278,11 @@ Access is remarkably simple: instead of using `umbrel.local` (which only works o
 
 
 
-- Interface main Umbrel**: Access your Umbrel dashboard simply by typing `http://100.x.y.z` in your browser
-- Bitcoin node**: Manage your Bitcoin node without latency, view synchronization and statistics
-- Lightning Node**: Use ThunderHub, RTL or other Lightning management interfaces with immediate responsiveness
-- Mempool**: View Bitcoin transactions and Mempool without Tor delays
-- noStrudel**: Access your Nostr services hosted on Umbrel
+- **Interface main Umbrel**: Access your Umbrel dashboard simply by typing `http://100.x.y.z` in your browser
+- **Bitcoin node**: Manage your Bitcoin node without latency, view synchronization and statistics
+- **Lightning Node**: Use ThunderHub, RTL or other Lightning management interfaces with immediate responsiveness
+- **Mempool**: View Bitcoin transactions and Mempool without Tor delays
+- **noStrudel**: Access your Nostr services hosted on Umbrel
 
 
 **Connect external wallets to your Bitcoin or lightning nodes via Tailscale:**
@@ -292,7 +292,7 @@ Tailscale also enables your Bitcoin and Lightning wallets installed on other dev
 
 
 
-- Sparrow wallet (Bitcoin)**: This external Wallet Bitcoin can connect directly to your Umbrel's Electrum server using the Tailscale IP address:
+- **Sparrow wallet (Bitcoin)**: This external Wallet Bitcoin can connect directly to your Umbrel's Electrum server using the Tailscale IP address:
 
 
 ![Configuration Electrum dans Sparrow](assets/fr/21.webp)
@@ -312,7 +312,7 @@ https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7
 
 
 
-- Zeus (Lightning)**: This Wallet mobile Lightning can connect to your Lightning node on Umbrel. Instead of configuring the endpoint as `.onion', simply set the Tailscale IP of your Umbrel and the Lightning API port. The connection will be instantaneous compared to Tor.
+- **Zeus (Lightning)**: This Wallet mobile Lightning can connect to your Lightning node on Umbrel. Instead of configuring the endpoint as `.onion', simply set the Tailscale IP of your Umbrel and the Lightning API port. The connection will be instantaneous compared to Tor.
 
 
 ![Configuration Zeus avec IP Tailscale](assets/fr/23.webp)
@@ -358,7 +358,7 @@ Communications are encrypted (WireGuard) in addition to any encryption your serv
 
 ---
 
-To conclude this section, integrating Tailscale on Umbrel takes just a few clicks and **greatly improves the accessibility** of your self-hosted node. You'll be able to administer Umbrel and its services from anywhere, securely and efficiently, just as if you were at home. This is a particularly useful solution for real-time applications (Lightning) that suffer from Tor latency, or more generally for any self-host looking for a simple private connection. All without exposing a single port** on your box, and without complicated network configuration.
+To conclude this section, integrating Tailscale on Umbrel takes just a few clicks and **greatly improves the accessibility** of your self-hosted node. You'll be able to administer Umbrel and its services from anywhere, securely and efficiently, just as if you were at home. This is a particularly useful solution for real-time applications (Lightning) that suffer from Tor latency, or more generally for any self-host looking for a simple private connection. All without exposing a single port on your box, and without complicated network configuration.
 
 
 ## 5. Advanced management and use cases
@@ -376,7 +376,7 @@ To conclude this section, integrating Tailscale on Umbrel takes just a few click
 **ACL and access control:** Define precisely who can access what in your network via JSON rules, ideal for isolating certain devices or restricting access to specific services.
 
 
-**Device Sharing lets you invite someone to access a specific machine without giving them access to your entire network.
+**Device Sharing** lets you invite someone to access a specific machine without giving them access to your entire network.
 
 
 **Subnet Router:** A Tailscale machine can act as a gateway for an entire subnet, enabling access to non-Tailscale devices (IoT, printers, etc.) via a single configured machine.
@@ -394,7 +394,7 @@ To conclude this section, integrating Tailscale on Umbrel takes just a few click
 **Vs OpenVPN:** Tailscale is much simpler to configure (no ports to open, no certificate management) but involves dependence on a third-party service. OpenVPN is fully controllable, but requires more expertise.
 
 
-**As a direct competitor, ZeroTier operates at Layer 2 (Ethernet), enabling broadcast/multicast, while Tailscale operates at Layer 3 (IP). ZeroTier offers greater network flexibility, while Tailscale favors simplicity of use.
+**As a direct competitor, ZeroTier operates at Layer 2 (Ethernet), enabling broadcast/multicast, while Tailscale operates at Layer 3 (IP). ZeroTier offers greater network flexibility, while Tailscale favors simplicity of use.**
 
 
 **Vs Tor:** Tor offers anonymity that Tailscale doesn't, but is much slower. Tor is decentralized and doesn't require an account, while Tailscale is faster and offers a LAN-like experience.
@@ -413,22 +413,22 @@ In conclusion, Tailscale positions itself as a modern, simplicity-oriented solut
 
 
 
-- Simplicity and performance** - Quick installation on all platforms without complex network configuration. Traffic follows the most direct path between your machines (P2P mesh), with the performance of the WireGuard protocol and no central server to limit throughput.
-- Security and flexibility** - End-to-end encryption, reduced attack surface, and advanced features (ACL, SSO/MFA authentication). Works even behind NATs or on the move, with subnet routers and exit nodes to adapt the network to your needs.
+- **Simplicity and performance** - Quick installation on all platforms without complex network configuration. Traffic follows the most direct path between your machines (P2P mesh), with the performance of the WireGuard protocol and no central server to limit throughput.
+- **Security and flexibility** - End-to-end encryption, reduced attack surface, and advanced features (ACL, SSO/MFA authentication). Works even behind NATs or on the move, with subnet routers and exit nodes to adapt the network to your needs.
 
 
 **Limits:** Also keep in mind:
 
 
 
-- External dependency** - In its standard version, the service relies on the Tailscale Inc. infrastructure. This dependency can be bypassed via Headscale (self-hosting alternative).
-- Other constraints** - Partially closed source code, limitations of the free version for certain advanced uses, no support for Layer 2 (broadcast/multicast), and need for Internet access to establish connections.
+- **External dependency** - In its standard version, the service relies on the Tailscale Inc. infrastructure. This dependency can be bypassed via Headscale (self-hosting alternative).
+- **Other constraints** - Partially closed source code, limitations of the free version for certain advanced uses, no support for Layer 2 (broadcast/multicast), and need for Internet access to establish connections.
 
 
-**Tailscale is ideal for individual self-hosts and small teams, developers needing access to dispersed resources, VPN beginners and mobile users. For companies requiring total control, other solutions such as Headscale or WireGuard directly may be preferable.
+**Tailscale is ideal for individual self-hosts and small teams, developers needing access to dispersed resources, VPN beginners and mobile users. For companies requiring total control, other solutions such as Headscale or WireGuard directly may be preferable.**
 
 
-**Explore Headscale for full self-hosting, API and DevOps integrations (Terraform), or alternatives like Innernet (similar but fully self-hosted) and Netmaker.
+**Explore Headscale for full self-hosting, API and DevOps integrations (Terraform), or alternatives like Innernet (similar but fully self-hosted) and Netmaker.**
 
 
 Tailscale is an essential tool for self-hosting, thanks to its simplicity and efficiency, making your private infrastructure as accessible as if it were in the cloud, while keeping control at home.
@@ -441,34 +441,34 @@ Tailscale is an essential tool for self-hosting, thanks to its simplicity and ef
 
 
 
-- Tailscale Documentation Center**: [docs.tailscale.com](https://docs.tailscale.com) - Full English documentation, installation guides, tutorials and technical references.
-- How Tailscale works**: [How Tailscale Works](https://tailscale.com/blog/how-tailscale-works) - Detailed article explaining the inner workings of Tailscale.
-- Changelog**: [tailscale.com/changelog](https://tailscale.com/changelog) - Tracking updates and new features.
+- **Tailscale Documentation Center**: [docs.tailscale.com](https://docs.tailscale.com) - Full English documentation, installation guides, tutorials and technical references.
+- **How Tailscale works**: [How Tailscale Works](https://tailscale.com/blog/how-tailscale-works) - Detailed article explaining the inner workings of Tailscale.
+- **Changelog**: [tailscale.com/changelog](https://tailscale.com/changelog) - Tracking updates and new features.
 
 
 ### Practical guides
 
 
 
-- Homelab** tutorials: [tailscale.com/kb/1310/homelab](https://tailscale.com/kb/1310/homelab) - Specific guides for self-hosting.
-- Configuring an Exit Node**: [tailscale.com/kb/1103/exit-nodes](https://tailscale.com/kb/1103/exit-nodes) - Detailed guide to configuring Exit Nodes.
-- Use Taildrop**: [tailscale.com/kb/1106/taildrop](https://tailscale.com/kb/1106/taildrop) - Transfer files between Tailscale devices.
+- **Homelab** tutorials: [tailscale.com/kb/1310/homelab](https://tailscale.com/kb/1310/homelab) - Specific guides for self-hosting.
+- **Configuring an Exit Node**: [tailscale.com/kb/1103/exit-nodes](https://tailscale.com/kb/1103/exit-nodes) - Detailed guide to configuring Exit Nodes.
+- Use **Taildrop**: [tailscale.com/kb/1106/taildrop](https://tailscale.com/kb/1106/taildrop) - Transfer files between Tailscale devices.
 
 
 ### Comparisons
 
 
 
-- Tailscale vs. other solutions**: [tailscale.com/compare](https://tailscale.com/compare) - Detailed comparisons with other VPN and network solutions (ZeroTier, OpenVPN, etc.).
+- **Tailscale vs. other solutions**: [tailscale.com/compare](https://tailscale.com/compare) - Detailed comparisons with other VPN and network solutions (ZeroTier, OpenVPN, etc.).
 
 
 ### Community
 
 
 
-- Reddit**: [r/Tailscale](https://www.reddit.com/r/tailscale/) - Discussions, questions and feedback.
-- GitHub**: [github.com/tailscale/tailscale](https://github.com/tailscale/tailscale) - Customer source code, where to track development and report problems.
-- Discord**: [discord.gg/tailscale](https://discord.gg/tailscale) - Community of users and developers.
+- **Reddit**: [r/Tailscale](https://www.reddit.com/r/tailscale/) - Discussions, questions and feedback.
+- **GitHub**: [github.com/tailscale/tailscale](https://github.com/tailscale/tailscale) - Customer source code, where to track development and report problems.
+- **Discord**: [discord.gg/tailscale](https://discord.gg/tailscale) - Community of users and developers.
 
 
 Tailscale regularly provides new content and features. Check out their [official blog](https://tailscale.com/blog/) for the latest news and case studies.

@@ -154,7 +154,7 @@ Yeni bir düğüm oluşturmak veya bir yedekten/seed'den bir düğümü geri yü
 
 
 
-**Not: Umbrel'in son sürümlerinde, Lightning uygulamasının yüklenmesi bu 24 kelimelik seed'ü sağlar (Bitcoin Umbrel düğümünün kendisi sağlamaz).
+**Not:** Umbrel'in son sürümlerinde, Lightning uygulamasının yüklenmesi bu 24 kelimelik seed'ü sağlar (Bitcoin Umbrel düğümünün kendisi sağlamaz).
 
 
 
@@ -360,7 +360,7 @@ Lightning düğümünüzü uzaktan (akıllı telefon) kontrol etmek için Zeus'u
 
 
 
-*umbrel ile *Zeus yapılandırması :**
+**umbrel ile Zeus yapılandırması:**
 
 
 
@@ -496,11 +496,11 @@ Lightning Umbrel düğümünüz iki tür yedekleme gerektirir:
 
 - Yıldırım kanalı bilgilerini içerir
 - Bir çarpışma durumunda kanalın zorla kapatılmasını sağlar
-- Önemli:** `channel.db` dosyasını asla manuel olarak kaydetmeyin (ceza riski)
+- **Önemli:** `channel.db` dosyasını asla manuel olarak kaydetmeyin (ceza riski)
 
 
 
-**Manuel yedekleme prosedürü
+**Manuel yedekleme prosedürü**
 
 
 
@@ -620,10 +620,10 @@ https://planb.network/tutorials/node/lightning-network/watch-tower-26937006-dfe5
 
 
 
-- Yazılım güncellemeleri:** Umbrel ve LND'i güncel tutun (güvenlik düzeltmeleri)
-- Donanım koruması:** Sabit bir sistem (SSD'li Raspberry Pi, mini-PC) ve bir UPS kullanın
-- Ağ güvenliği:** Varsayılan Tor yapılandırmasını koruyun, Umbrel yönetici parolasını değiştirin (varsayılan: "moneyprintergobrrr")
-- Şifreleme:** Mümkünse disk şifrelemeyi etkinleştirin
+- **Yazılım güncellemeleri:** Umbrel ve LND'i güncel tutun (güvenlik düzeltmeleri)
+- **Donanım koruması:** Sabit bir sistem (SSD'li Raspberry Pi, mini-PC) ve bir UPS kullanın
+- **Ağ güvenliği:** Varsayılan Tor yapılandırmasını koruyun, Umbrel yönetici parolasını değiştirin (varsayılan: "moneyprintergobrrr")
+- **Şifreleme:** Mümkünse disk şifrelemeyi etkinleştirin
 
 
 
@@ -691,10 +691,10 @@ RTL, bir Lightning düğümünü daha uzman odaklı bir yaklaşımla yönetmek i
 
 
 
-- Lightning Shell** : Tarayıcı üzerinden komut satırı (lncli)
-- BTC RPC Explorer & Mempool** : Blockchain'in İzlenmesi
-- LNmetrics & Torq**: Yönlendirme performans analizi
-- Amboss & 1ML**: düğümünüzün "sosyal" yönetimi (takma adlar, kişiler, ağ analizi)
+- **Lightning Shell**: Tarayıcı üzerinden komut satırı (lncli)
+- **BTC RPC Explorer & Mempool**: Blockchain'in İzlenmesi
+- **LNmetrics & Torq**: Yönlendirme performans analizi
+- **Amboss & 1ML**: düğümünüzün "sosyal" yönetimi (takma adlar, kişiler, ağ analizi)
 
 
 

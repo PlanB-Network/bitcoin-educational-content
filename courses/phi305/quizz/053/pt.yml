@@ -1,0 +1,9 @@
+question: O que é que o Livro Branco de Satoshi Nakamoto apresenta?
+answer: Um meio descentralizado de Exchange na Internet.
+wrong_answers:
+  - Uma nova política liberal.
+  - Um protocolo Exchange centralizado.
+  - Um programa político.
+explanation: |
+  Livro Branco do Satoshi Nakamoto apresenta o Bitcoin como um meio descentralizado do Exchange na Internet. Propõe um sistema de pagamento eletrónico peer-to-peer sem autoridade central.
+reviewed: false

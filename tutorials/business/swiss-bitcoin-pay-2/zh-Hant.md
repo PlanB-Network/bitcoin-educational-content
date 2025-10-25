@@ -1,5 +1,5 @@
 ---
-name: 瑞士 Bitcoin 薪資
+name: Swiss Bitcoin Pay
 description: 如何輕鬆接受 Bitcoin 付款？
 ---
 ![cover](assets/cover.webp)

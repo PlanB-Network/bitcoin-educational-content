@@ -50,10 +50,11 @@ That is why I consider the use of Whirlpool to be particularly relevant in a `Ho
 
 I hope this answer has shed some light on the Whirlpool model. If you want to learn more about how coinjoins work on Bitcoin, I recommend reading my comprehensive article on this topic:
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 
 **External resources:**
 - Samourai Wallet Whirlpool
 - https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923
 - https://estudiobitcoin.com/como-instalar-y-utilizar-whirlpool-stats-tools-wst-para-los-calculos-de-los-sets-de-anonimato-de-las-transacciones-coinjoins/
 - https://medium.com/samourai-wallet/diving-head-first-into-whirlpool-anonymity-sets-4156a54b0bc7.
+

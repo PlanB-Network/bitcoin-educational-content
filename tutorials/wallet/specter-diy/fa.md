@@ -1,5 +1,5 @@
 ---
-name: اسپکتر DIY
+name: Specter DIY
 
 description: راهنمای راه‌اندازی برای Specter DIY
 ---

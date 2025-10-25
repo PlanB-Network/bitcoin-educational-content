@@ -306,7 +306,7 @@ Op het tabblad "*Filters*" kun je filters beheren voor de e-mails die je ontvang
 
 
 
-Met het tabblad "Doorsturen en automatisch antwoorden*" kun je het doorsturen en automatisch antwoorden van je e-mails beheren.
+Met het tabblad **"Doorsturen en automatisch antwoorden"** kun je het doorsturen en automatisch antwoorden van je e-mails beheren.
 
 
 

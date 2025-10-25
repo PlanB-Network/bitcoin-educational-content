@@ -1,5 +1,5 @@
 ---
-name: 特雷佐-沙米尔备份
+name: Trezor Shamir Backup
 description: Trezor 上的单股和多股 Mnemonic 短语
 ---
 ![cover](assets/cover.webp)
@@ -18,7 +18,7 @@ description: Trezor 上的单股和多股 Mnemonic 短语
 
 
 
-这种分布式模式被称为***多共享备份***。它基于相同的原理，但不是生成一个单一的 Mnemonic 短语，而是将其分割成多个称为 ***shares*** 的片段，每个片段本身就是一个 Mnemonic 短语。要恢复组合，其中一定数量的 *shares*（由 *threshold* 定义）必须重新组合。例如，在 "3-of-5 "方案中，5 份中的任何 3 份*都能恢复投资组合。请注意，Trezor 的分布式备份系统不同于 Multisig 钱包。要使用比特币，只需使用 Hardware Wallet Trezor。只需要一个签名。分布式仅适用于 Mnemonic 短语级别，即备份。
+这种分布式模式被称为**多共享备份**。它基于相同的原理，但不是生成一个单一的 Mnemonic 短语，而是将其分割成多个称为 **shares** 的片段，每个片段本身就是一个 Mnemonic 短语。要恢复组合，其中一定数量的 *shares*（由 *threshold* 定义）必须重新组合。例如，在 "3-of-5 "方案中，5 份中的任何 3 份都能恢复投资组合。请注意，Trezor 的分布式备份系统不同于 Multisig 钱包。要使用比特币，只需使用 Hardware Wallet Trezor。只需要一个签名。分布式仅适用于 Mnemonic 短语级别，即备份。
 
 
 
@@ -30,11 +30,11 @@ description: Trezor 上的单股和多股 Mnemonic 短语
 
 
 
-使用*单份备份*创建了投资组合的用户可随时切换到*多份备份*，而无需迁移投资组合。接收地址和账户将保持不变。多份备份*系统只影响备份，而投资组合的其他部分保持不变。
+使用*单份备份*创建了投资组合的用户可随时切换到*多份备份*，而无需迁移投资组合。接收地址和账户将保持不变。*多份备份*系统只影响备份，而投资组合的其他部分保持不变。
 
 
 
-Trezor Model T、Safe 3 和 Safe 5 提供多共享备份*。Trezor Model One 不支持该功能。
+Trezor Model T、Safe 3 和 Safe 5 提供多共享备份。Trezor Model One 不支持该功能。
 
 
 
@@ -145,7 +145,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 
-*对于 Safe 5 用户，虽然屏幕上会显示 "*轻点继续*"，但您实际上需要向上轻扫来确认
+**对于 Safe 5 用户，虽然屏幕上会显示 "*轻点继续*"，但您实际上需要向上轻扫来确认**
 
 
 

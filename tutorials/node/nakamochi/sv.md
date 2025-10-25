@@ -1,7 +1,9 @@
 ---
 name: Nakamochi
-description: Node Running Made Easy - Så här ställer du in och använder Nakamochi Bitcoin och Lightning node.
+description: Körning av nod enkelt - Hur man konfigurerar och använder Nakamochi Bitcoin- och Lightning-noden.
 ---
+
+![image](assets/cover.webp)
 
 Att köra sin egen Bitcoin och Lightning Full node behöver inte längre vara en komplex uppgift som är begränsad till tekniska experter. Traditionellt har det krävts djupgående kunskaper om kryptografi, nätverk och mjukvaruutveckling för att sätta upp och hantera noder. Nakamochi ändrar på detta genom att göra noder tillgängliga för alla, oavsett teknisk bakgrund.
 
@@ -49,35 +51,37 @@ Din Nakamochi-nod hanteras via en mobilapp, [BitBanana (Android)](https://bitban
 
 ![image](assets/en/01.webp)
 
-_Connect to power and write down your 24-word seed phrase_
+_Anslut till ström och skriv ner din 24-ords fras_
 
 
 ![image](assets/en/02.webp)
 
-_Vänta tills Blockchain har kommit ikapp
+_Vänta tills blockkedjan har hunnit ikapp_
 
 
 ![image](assets/en/03.webp)
 
-_Sätta upp en ny Wallet i Lightning Tab_
+_Ställ in ny plånbok i Lightning-fliken_
 
 
 ![image](assets/en/04.webp)
 
-_Skanna QR-kod med Node Management App_
+_Skanna QR-koden med Node Management-appen_
 
 
 ![image](assets/en/05.webp)
 
-för extra säkerhet ange en PIN-kod
+_För extra säkerhet ställ in en PIN-kod_
 
 
-**Notera:** _Låt din Nakamochi-nod synkronisera med Blockchain. Denna process kan ta lite tid beroende på din internetanslutning._
+**Obs:** _Låt din Nakamochi-nod synkronisera med blockkedjan. Denna process kan ta lite tid beroende på din internetanslutning._
 
 
 
 ## Om Lightning Network
 
+
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Bitcoin Lightning Network revolutionerar Bitcoin-transaktioner genom att göra dem snabbare, billigare och mer effektiva. Den är perfekt för daglig användning och möjliggör nästan omedelbara betalningar med minimala avgifter, perfekt för mikrotransaktioner som att köpa kaffe eller hantera frekventa småköp.
 
@@ -160,4 +164,4 @@ Generellt rekommenderar vi att du lämnar kanaler öppna för att minska kostnad
 
 
 - [Om Nakamochi](https://nakamochi.io/)
-- [Prenumerera på Nakamochis nyhetsbrev] (https://90c7addc.sibforms.com/serve/MUIFAHG7H5YBPpm-kZ8G6TuS-nmL4uaq85rlpBfI__S79tZ5jheIJfF3kJYudycgs_6_RUdDBkt8Sd7OyNL_JDTTJvOb36ifF6vcQoabBXKp4cbefzh1DYqnok_jItexICcQL13ucd2aS581ngqy7jr0Q1H3HhxV3z2eWKE5-Z-YMasj-MMotQeDvdorMCSi0XgCWDqs8rEMQC7E)
+- [Prenumerera på Nakamochis nyhetsbrev](https://90c7addc.sibforms.com/serve/MUIFAHG7H5YBPpm-kZ8G6TuS-nmL4uaq85rlpBfI__S79tZ5jheIJfF3kJYudycgs_6_RUdDBkt8Sd7OyNL_JDTTJvOb36ifF6vcQoabBXKp4cbefzh1DYqnok_jItexICcQL13ucd2aS581ngqy7jr0Q1H3HhxV3z2eWKE5-Z-YMasj-MMotQeDvdorMCSi0XgCWDqs8rEMQC7E)

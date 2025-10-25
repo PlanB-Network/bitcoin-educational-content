@@ -17,10 +17,10 @@ Arch Linux je distribucija poznata po svojoj robusnosti, performansama i prilago
 
 
 
-- Besplatan i otvoren izvor**: Kao većina Linux distribucija, Arch Linux je potpuno besplatan. Nema licenci, što ga čini odličnim izborom za studente, freelancere ili entuzijaste.
-- KISS** filozofija: Arch je dizajniran da bude jednostavan, lagan i efikasan. Pruža samo osnovne stvari, omogućavajući vam da izgradite svoje okruženje à la carte.
-- Pacman** package manager: Pacman je brz, pouzdan i dobro dizajniran upravitelj paketa. Omogućava efikasnu instalaciju i ažuriranje softvera, i upravlja zavisnostima sa preciznošću.
-- Sveobuhvatna dokumentacija i aktivna zajednica**: [Arch Wiki](https://wiki.archlinux.org) je verovatno jedna od najboljih tehničkih dokumentacija u Linux svetu. To je rudnik zlata za razumevanje onoga što radite. Zajednica, koja se uglavnom sastoji od iskusnih profila, je veoma aktivna i može vam pomoći ako zapnete, pod uslovom da ste prethodno malo istražili.
+- **Besplatan i otvoren izvor**: Kao većina Linux distribucija, Arch Linux je potpuno besplatan. Nema licenci, što ga čini odličnim izborom za studente, freelancere ili entuzijaste.
+- **KISS** filozofija: Arch je dizajniran da bude jednostavan, lagan i efikasan. Pruža samo osnovne stvari, omogućavajući vam da izgradite svoje okruženje à la carte.
+- **Pacman** package manager: Pacman je brz, pouzdan i dobro dizajniran upravitelj paketa. Omogućava efikasnu instalaciju i ažuriranje softvera, i upravlja zavisnostima sa preciznošću.
+- **Sveobuhvatna dokumentacija i aktivna zajednica**: [Arch Wiki](https://wiki.archlinux.org) je verovatno jedna od najboljih tehničkih dokumentacija u Linux svetu. To je rudnik zlata za razumevanje onoga što radite. Zajednica, koja se uglavnom sastoji od iskusnih profila, je veoma aktivna i može vam pomoći ako zapnete, pod uslovom da ste prethodno malo istražili.
 
 
 
@@ -39,7 +39,7 @@ Materijali potrebni:
 
 
 - USB ključ od najmanje **8 GB**
-- 2 GB** RAM minimum
+- **2 GB** RAM minimum
 - Računar sa najmanje 20 GB slobodnog prostora na disku
 
 
@@ -261,7 +261,7 @@ Izaberite **GPT** ako ste u UEFI, **DOS** ako ste u BIOS-u.
 
 
 
-- U UEFI** režimu
+- U **UEFI** režimu
 
 
 
@@ -294,7 +294,7 @@ Odaberite **Write**, upišite **yes**, zatim **Quit**.
 
 
 
-- UEFI**:
+- **UEFI**:
 
 
 
@@ -309,7 +309,7 @@ mkfs.ext4 /dev/sda3
 
 
 
-- BIOS**:
+- **BIOS**:
 
 
 

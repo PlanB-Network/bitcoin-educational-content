@@ -1,7 +1,9 @@
 ---
 name: Nakamochi
-description: Uendeshaji wa Nodi Umerahisishwa - Jinsi ya kusanidi na kutumia Nakamochi Bitcoin na nodi ya Umeme.
+description: Uendeshaji wa Node kwa urahisi - Jinsi ya kusanidi na kutumia nodi ya Nakamochi Bitcoin na Lightning.
 ---
+
+![image](assets/cover.webp)
 
 Kuendesha Bitcoin yako mwenyewe na Lightning Full node hakuhitaji tena kuwa kazi ngumu iliyozuiliwa na wataalamu wa kiufundi. Kijadi, kusanidi na kudhibiti nodi kumedai ujuzi wa kina wa cryptography, mitandao, na ukuzaji wa programu. Nakamochi hubadilisha hilo kwa kufanya nodi kufikiwa na kila mtu, bila kujali usuli wa kiufundi.
 
@@ -49,35 +51,37 @@ Nodi yako ya Nakamochi inadhibitiwa kupitia programu ya simu, [BitBanana (Androi
 
 ![image](assets/en/01.webp)
 
-_Unganisha umeme na uandike kifungu chako cha maneno 24 cha seed_
+_Unganisha kwenye umeme na uandike kifungu chako cha maneno 24_
 
 
 ![image](assets/en/02.webp)
 
-_Subiri hadi Blockchain ikamilike_
+_Subiri hadi Blockchain ifikie kiwango cha sasa_
 
 
 ![image](assets/en/03.webp)
 
-_Weka Wallet mpya katika Kichupo cha Umeme_
+_Sanidi pochi mpya katika Kichupo cha Lightning_
 
 
 ![image](assets/en/04.webp)
 
-_Changanua Msimbo wa QR na Programu ya Usimamizi wa Njia_
+_Changanua Msimbo wa QR kwa kutumia Programu ya Usimamizi wa Node_
 
 
 ![image](assets/en/05.webp)
 
-_Kwa usalama zaidi weka PIN code_
+_Kwa usalama wa ziada weka nambari ya PIN_
 
 
-**Kumbuka:** _Ruhusu nodi yako ya Nakamochi kusawazisha na Blockchain. Mchakato huu unaweza kuchukua muda kulingana na muunganisho wako wa intaneti._
+**Kumbuka:** _Ruhusu nodi yako ya Nakamochi isawazishe na blockchain. Mchakato huu unaweza kuchukua muda kulingana na muunganisho wako wa intaneti._
 
 
 
 ## Kuhusu Lightning Network
 
+
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Bitcoin Lightning Network inaleta mapinduzi makubwa katika shughuli za Bitcoin kwa kuzifanya kuwa za haraka, za bei nafuu na zenye ufanisi zaidi. Ni bora kwa matumizi ya kila siku, kuwezesha malipo ya karibu ya papo hapo na ada ndogo, bora kwa miamala midogo kama vile kununua kahawa au kufanya ununuzi mdogo mara kwa mara.
 
@@ -144,7 +148,7 @@ Kwa habari zaidi: [Vituo | Hati ya Zeus](https://docs.zeusln.app/)
 _Picha ya skrini ya Bitbanana_
 
 
-Kwa habari zaidi: [BitBanana](https://bitbanana.com)
+Kwa maelezo zaidi: [BitBanana](https://bitbanana.com)
 
 
 Baada ya kituo chako kufunguliwa, malipo yanaweza kupitishwa kwa washiriki wengine kwenye mtandao. Salio hurekebisha off-chain, kuhakikisha kwamba miamala ni karibu papo hapo na inatoza ada ndogo.
@@ -160,4 +164,4 @@ Kwa ujumla, tunapendekeza kuacha njia wazi ili kupunguza gharama na kuongeza uam
 
 
 - [Kuhusu Nakamochi](https://nakamochi.io/)
-- [Jiandikishe kwa Nakamochi's Jarida](https://90c7addc.sibforms.com/serve/MUIFAHG7H5YBPpm-kZ8G6TuS-nmL4uaq85rlpBfI__S79tZ5jheIJfF3kJYudycgs_6_RUdDBkt8Sd7O yNL_JDTTJvOb36ifF6vcQoabBXKp4cbefzh1DYqnok_jItexICcQL13ucd2aS581ngqy7jr0Q1H3HhxV3z2eWKE5-Z-YMasj-MMotQeDvDQEMMCs0x8
+- [Jiandikishe kwa Jarida la Nakamochi](https://90c7addc.sibforms.com/serve/MUIFAHG7H5YBPpm-kZ8G6TuS-nmL4uaq85rlpBfI__S79tZ5jheIJfF3kJYudycgs_6_RUdDBkt8Sd7OyNL_JDTTJvOb36ifF6vcQoabBXKp4cbefzh1DYqnok_jItexICcQL13ucd2aS581ngqy7jr0Q1H3HhxV3z2eWKE5-Z-YMasj-MMotQeDvdorMCSi0XgCWDqs8rEMQC7E)

@@ -1,0 +1,11 @@
+question: Bitcoin의 맥락에서 Halving이란 무엇인가요?
+answer: 4년마다 Mining 보상을 절반으로 줄이는 Bitcoin 코드의 기능
+wrong_answers:
+  - Bitcoin의 글로벌 채택을 늘리는 과정
+  - Bitcoin의 가치 붕괴를 방지하는 메커니즘
+  - Bitcoin의 가격이 급등하는 이벤트를 설명하는 데 사용되는 용어입니다
+explanation: |
+  Halving은 Bitcoin의 코드에 있는 기능으로, 약 3년마다 Mining
+  보상을 약 4년마다 절반으로 줄이는 기능입니다. 이 이벤트는
+  채굴자의 수익에 영향을 미치고 Bitcoin의 가격에 상승 압력을 가합니다.
+reviewed: true

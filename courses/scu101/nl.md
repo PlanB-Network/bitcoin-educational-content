@@ -43,6 +43,8 @@ Théo; bijdrage
 
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
+:::video id=de7236a0-2985-41ef-86f7-3fa0b7f94531:::
+
 
 **Doel: Werk je beveiligingsvaardigheden bij!**
 
@@ -80,7 +82,7 @@ Als je op zoek bent naar meer geavanceerde vaardigheden over dit onderwerp, dan 
 Om te beginnen bespreken we het belang van het kiezen van een webbrowser en de bijbehorende beveiligingsimplicaties. Daarna gaan we dieper in op de specifieke kenmerken van browsers, met name wat betreft cookiebeheer. We zullen ook zien hoe je veiliger en anoniemer kunt browsen met tools zoals TOR. Daarna richten we ons op het gebruik van VPN's om de bescherming van je gegevens te verbeteren. Tot slot doen we aanbevelingen voor een veilig gebruik van WiFi-verbindingen.
 
 
-![](assets/en/1.webp)
+![image](assets/nl/001.webp)
 
 
 **Sectie 2: Beste praktijken voor computergebruik**
@@ -93,7 +95,7 @@ Om te beginnen bespreken we het belang van het kiezen van een webbrowser en de b
 
 In dit hoofdstuk behandelen we drie belangrijke gebieden van computerbeveiliging. Eerst zullen we verschillende besturingssystemen onderzoeken, waaronder Mac, PC en Linux, en hun specifieke kenmerken en sterke punten belichten. Vervolgens gaan we in op methoden om je effectief te beschermen tegen hackpogingen en de beveiliging van je apparaten te verbeteren. Tot slot benadrukken we het belang van het regelmatig beveiligen en back-uppen van je gegevens om verlies of ransomware te voorkomen.
 
-![](assets/en/2.webp)
+![image](assets/nl/002.webp)
 
 
 **Deel 3: Implementatie van oplossingen**
@@ -110,7 +112,7 @@ In dit praktische derde deel gaan we verder met de implementatie van je concrete
 
 Eerst zullen we zien hoe je je e-mail inbox kunt beschermen, die essentieel is voor je communicatie en vaak het doelwit is van hackers. Daarna laten we je kennismaken met een wachtwoordmanager: een praktische oplossing om te voorkomen dat je wachtwoorden vergeet of door elkaar gebruikt worden en om ze veilig te houden. Tot slot bespreken we een extra beveiligingsmaatregel, twee-factor authenticatie, die een extra Layer bescherming toevoegt aan je accounts. Alles wordt duidelijk en toegankelijk uitgelegd.
 
-![](assets/en/3.webp)
+![image](assets/nl/003.webp)
 
 
 Klaar om uw digitale beveiliging te versterken en de controle over uw gegevens terug te nemen? Laten we gaan!
@@ -126,6 +128,8 @@ Klaar om uw digitale beveiliging te versterken en de controle over uw gegevens t
 
 <chapterId>3a935da9-fa6e-57eb-bf85-7b3ec35e6ee2</chapterId>
 
+:::video id=f1cead27-ed41-4ca2-afd2-b08a994d0119:::
+
 
 Wanneer je op het internet surft, is het essentieel om veelgemaakte fouten te vermijden om je online veiligheid te behouden. Hier volgen enkele tips om ze te vermijden:
 
@@ -137,14 +141,16 @@ Het is aan te raden om software te downloaden van de officiële website van de u
 
 Voorbeeld: Gebruik www.signal.org/download in plaats van www.logicieltelechargement.fr/signal.
 
-![](assets/notext/4.webp)
+![image](assets/nl/004.webp)
 
 
 Het is ook raadzaam om de voorkeur te geven aan open-source software omdat deze vaak veiliger zijn en vrij van kwaadaardige software. Een "open-source" software is een type software waarvan de code openbaar beschikbaar en toegankelijk is voor iedereen. Hierdoor kan onder andere worden gecontroleerd of er geen verborgen toegang is om je gegevens te stelen.
 
 
 > Bonus: Open-source software is vaak gratis! Deze universiteit is 100% open-source, dus je kunt onze code ook bekijken op GitHub.
-> (activa/notext/5.webp)
+
+
+![image](assets/nl/005.webp)
 
 ### Cookiebeheer: Fouten en best practices
 
@@ -161,7 +167,7 @@ Er zijn twee grote families browsers: browsers gebaseerd op Chrome en browsers g
 
 Hoewel beide families een vergelijkbaar beveiligingsniveau bieden, is het aan te raden om het gebruik van de Google Chrome browser te vermijden vanwege de trackingmogelijkheden. Lichtere alternatieven voor Chrome, zoals Chromium of Brave, verdienen wellicht de voorkeur. Brave wordt met name aanbevolen vanwege de ingebouwde advertentieblokkering. Het kan nodig zijn om meerdere browsers te gebruiken om toegang te krijgen tot bepaalde websites.
 
-![](assets/notext/6.webp)
+![image](assets/nl/006.webp)
 
 
 ### Privénavigatie, TOR en andere alternatieven voor veiliger en anoniemer surfen
@@ -175,7 +181,7 @@ Een geavanceerder alternatief is het TOR-netwerk (The Onion Router), dat anonimi
 
 TOR is een legaal en veelgebruikt hulpmiddel voor journalisten, vrijheidsactivisten en anderen die censuur in autoritaire landen willen omzeilen. Het is echter belangrijk om te begrijpen dat TOR de bezochte sites of de computer zelf niet beveiligt. Daarnaast kan het gebruik van TOR de internetverbinding vertragen, omdat de gegevens door drie computers van anderen gaan voordat ze hun bestemming bereiken. Het is ook belangrijk op te merken dat TOR geen waterdichte oplossing is om 100% anonimiteit te garanderen en dat het niet voor illegale activiteiten mag worden gebruikt.
 
-![](assets/notext/7.webp)
+![image](assets/nl/007.webp)
 
 
 https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
@@ -184,6 +190,8 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 
 <chapterId>5aac83f4-a685-54b0-9759-d71bea7eeed2</chapterId>
+
+:::video id=737d30ac-43d8-4a69-afda-89b9d7e8c4e1:::
 
 
 ### VPN's
@@ -194,7 +202,7 @@ Het beschermen van je internetverbinding is een cruciaal aspect van online bevei
 
 VPN's zijn tools die gegevens versleutelen die via het internet worden verzonden, waardoor de verbinding veiliger wordt. In een professionele context stellen VPN's werknemers in staat om veilig toegang te krijgen tot het interne netwerk van het bedrijf vanaf externe locaties. De uitgewisselde gegevens worden versleuteld, waardoor het voor derden veel moeilijker wordt om ze te onderscheppen. Naast het beveiligen van de toegang tot een intern netwerk, kan het gebruik van een VPN een gebruiker in staat stellen om zijn internetverbinding via het interne netwerk van het bedrijf te laten lopen, waardoor het lijkt alsof zijn verbinding van het bedrijf afkomstig is. Dit kan vooral handig zijn voor toegang tot online diensten die geografisch beperkt zijn.
 
-![](assets/en/8.webp)
+![image](assets/nl/008.webp)
 
 
 ### Soorten VPN's
@@ -205,7 +213,7 @@ Er zijn twee hoofdtypen VPN's: ondernemings-VPN's en consumenten-VPN's, zoals No
 
 Het gebruik van een consumenten-VPN garandeert echter geen volledige anonimiteit. Veel VPN-aanbieders bewaren informatie over hun gebruikers, waardoor hun anonimiteit in gevaar kan komen. Hoewel VPN's nuttig kunnen zijn voor het verbeteren van online beveiliging, zijn ze geen universele oplossing. Ze zijn effectief voor specifieke toepassingen, zoals toegang tot geografisch beperkte diensten of het verbeteren van de veiligheid tijdens het reizen, maar ze garanderen geen volledige veiligheid. Bij het kiezen van een VPN is het cruciaal om betrouwbaarheid en technische expertise te verkiezen boven populariteit. VPN-aanbieders die de minste persoonlijke informatie verzamelen zijn over het algemeen het veiligst. Diensten zoals iVPN en Mullvad verzamelen geen persoonlijke informatie en staan zelfs betalingen in Bitcoin toe voor meer privacy.
 
-![](assets/notext/9.webp)
+![image](assets/nl/009.webp)
 
 Tot slot kan een VPN ook worden gebruikt om online advertenties te blokkeren, waardoor je prettiger en veiliger kunt surfen. Het is echter essentieel om grondig onderzoek te doen om de VPN te vinden die het beste bij je behoeften past. Het gebruik van een VPN wordt aanbevolen om de veiligheid te verbeteren, zelfs wanneer je thuis op het internet surft. Dit zorgt voor een hoger beschermingsniveau voor online uitgewisselde gegevens. Tot slot, zou je de URL's en het kleine hangslotje in de Address balk kunnen controleren om te bevestigen dat je op de bedoelde site bent?
 
@@ -225,7 +233,7 @@ In de Europese Unie wordt gegevensbescherming geregeld door de General Data Prot
 
 Om online oplichting te voorkomen, is het cruciaal om de identiteit van de site die je bezoekt te verifiëren, vooral door de extensie en domeinnaam te controleren. Wees daarnaast waakzaam voor scammers die vergelijkbare letters in URL's gebruiken om gebruikers te misleiden.
 
-![](assets/en/10.webp)
+![image](assets/nl/010.webp)
 
 Samengevat kan het gebruik van een VPN de online veiligheid voor zowel bedrijven als individuele gebruikers sterk verbeteren. Bovendien kan het aanleren van goede surfgewoonten bijdragen aan een betere digitale hygiëne. In het volgende deel van deze cursus behandelen we computerbeveiliging, waaronder updates, antivirussoftware en wachtwoordbeheer.
 
@@ -240,6 +248,8 @@ Samengevat kan het gebruik van een VPN de online veiligheid voor zowel bedrijven
 
 
 <chapterId>16745632-b56b-5423-9873-ddf70fdf1efd</chapterId>
+
+:::video id=35892007-5ea5-4956-bf80-3363d69c96d5:::
 
 
 De beveiliging van onze computers is een grote zorg in de huidige digitale wereld. Vandaag zullen we Address drie belangrijke punten behandelen:
@@ -256,14 +266,14 @@ De beveiliging van onze computers is een grote zorg in de huidige digitale werel
 
 Wat betreft de keuze van de computer is er geen significant verschil in beveiliging tussen oude en nieuwe computers. Er bestaan echter wel verschillen in beveiliging tussen besturingssystemen, waaronder Windows, Linux en Mac.
 
-![](assets/notext/11.webp)
+![image](assets/nl/011.webp)
 
 Voor Windows wordt aangeraden om niet dagelijks een beheerdersaccount te gebruiken, maar om twee aparte accounts aan te maken: één voor beheerdersgebruik en één voor dagelijks gebruik. Windows is vaak kwetsbaarder voor malware vanwege het grote aantal gebruikers en het gemak waarmee van een standaardgebruiker naar een beheerder kan worden overgeschakeld. Bedreigingen komen daarentegen minder vaak voor op Linux en Mac.
 
 
 De keuze van het besturingssysteem moet gebaseerd zijn op je behoeften en voorkeuren. Linux-systemen zijn de laatste jaren sterk geëvolueerd en worden steeds gebruiksvriendelijker. Ubuntu is een interessant alternatief voor beginners, met een gebruiksvriendelijke grafische Interface. Het is mogelijk om een computer te partitioneren om te experimenteren met Linux terwijl je Windows behoudt, maar dit kan een ingewikkeld proces zijn. Het is vaak beter om een eigen computer, een virtuele machine of een USB-sleutel te hebben om Linux of Ubuntu te testen.
 
-![](assets/notext/12.webp)
+![image](assets/nl/012.webp)
 
 
 ### Software-updates
@@ -293,7 +303,7 @@ De keuze en implementatie van een antivirus is belangrijk. Windows Defender, de 
 
 Voor degenen die willen investeren in een betaalde antivirus, is het aan te raden om een antivirus te kiezen die op intelligente wijze onbekende en opkomende bedreigingen analyseert, zoals Kaspersky. Antivirusupdates zijn cruciaal voor de bescherming tegen nieuwe bedreigingen.
 
-![](assets/notext/13.webp)
+![image](assets/nl/013.webp)
 
 
 > Opmerking: Linux en Mac hebben dankzij hun systeem voor scheiding van gebruikersrechten vaak geen antivirus nodig.
@@ -311,6 +321,8 @@ Tot slot is het essentieel om een besturingssysteem te kiezen dat aan je behoeft
 
 
 <chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>
+
+:::video id=c6a2c152-f1ae-492c-8993-304d64cdda45:::
 
 
 ### Hoe vallen hackers aan?
@@ -343,7 +355,7 @@ De gouden regel hier is om zorgvuldig de volledige naam van de afzender en de he
 
 Ransomware is een soort kwaadaardige software die gegevens van gebruikers versleutelt en losgeld eist om ze te ontsleutelen. Dit soort aanvallen komt steeds vaker voor en kan erg lastig zijn voor zowel bedrijven als individuen. Om jezelf te beschermen is het noodzakelijk om back-ups te maken van de meest gevoelige bestanden! Dit zal de ransomware niet stoppen, maar het zal je wel in staat stellen om het te negeren.
 
-![](assets/notext/14.webp)
+![image](assets/nl/014.webp)
 
 Maak regelmatig een back-up van je belangrijke gegevens op een extern opslagapparaat of een veilige online opslagdienst. Zo kun je in het geval van een cyberaanval of hardwarestoring je gegevens herstellen zonder cruciale informatie te verliezen.
 
@@ -383,6 +395,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 <chapterId>dfceea33-8712-5557-ace1-6ba5598d33d8</chapterId>
 
+:::video id=75cc914d-9c11-4d3f-86a7-6faf2077f00f:::
+
 
 ### Een nieuw e-mailaccount aanmaken!
 
@@ -401,7 +415,7 @@ Hoewel we allemaal al een e-mailaccount hebben, is het essentieel om te overwege
 
 Een goed beheer van onze e-mailadressen is cruciaal voor de veiligheid van onze online toegang. Het is belangrijk om een veilige en privacy respecterende e-mailprovider te kiezen. ProtonMail is bijvoorbeeld een veilige en privacy respecterende e-mail service.
 
-![](assets/notext/15.webp)
+![image](assets/nl/015.webp)
 
 Bij het kiezen van een e-mailprovider en het aanmaken van een wachtwoord is het essentieel om nooit hetzelfde wachtwoord te hergebruiken voor verschillende online diensten. Het is aan te raden om regelmatig nieuwe e-mailadressen aan te maken en deze voor verschillende doeleinden te gebruiken. Het is raadzaam om een beveiligde e-mailservice te gebruiken voor belangrijke accounts. Het is ook de moeite waard om op te merken dat sommige diensten de lengte van wachtwoorden beperken, dus het is essentieel om op de hoogte te zijn van deze beperking. Er zijn ook diensten beschikbaar voor het aanmaken van tijdelijke e-mailadressen, die kunnen worden gebruikt voor accounts met een beperkte duur.
 
@@ -414,7 +428,7 @@ Om je op de hoogte te stellen: oudere e-mailproviders, zoals La Poste, Arobase, 
 
 Gebruik de Have I Been Pwned website (https://haveibeenpwned.com/) om te controleren of je e-mail Address is gecompromitteerd en om meldingen van toekomstige datalekken te ontvangen. Hackers kunnen misbruik maken van een gehackte database om phishing e-mails te versturen of gecompromitteerde wachtwoorden opnieuw te gebruiken.
 
-![](assets/notext/16.webp)
+![image](assets/nl/016.webp)
 
 In het algemeen is het geen slechte gewoonte om een nieuwe, veiligere e-mail Address te gaan gebruiken en het is zelfs noodzakelijk als je op een gezonde basis opnieuw wilt beginnen.
 
@@ -427,6 +441,8 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 
 
 <chapterId>0b3c69b2-522c-56c8-9fb8-1562bd55930f</chapterId>
+
+:::video id=106b6f17-a5c1-4155-abdf-043ce469d45b:::
 
 
 ### Wat is een wachtwoordmanager?
@@ -448,7 +464,7 @@ Met een wachtwoordmanager hoeft u zich geen zorgen meer te maken dat u uw wachtw
 
 - Dashlane: Het is ook een service van derden, met een intuïtieve Interface en extra functies zoals het bijhouden van creditcardgegevens en beveiligde notities.
 
-![](assets/notext/17.webp)
+![image](assets/nl/017.webp)
 
 
 ### Zelf hosten voor meer controle:
@@ -461,7 +477,7 @@ Met een wachtwoordmanager hoeft u zich geen zorgen meer te maken dat u uw wachtw
 
 - KeePass: Het is een open-source oplossing die vooral bedoeld is voor zelf-hosting. Uw gegevens worden standaard lokaal opgeslagen, maar u kunt de wachtwoorddatabase desgewenst op verschillende manieren synchroniseren. KeePass wordt algemeen erkend om zijn veiligheid en flexibiliteit, hoewel het misschien iets minder gebruiksvriendelijk is voor beginners.
 
-![](assets/notext/18.webp)
+![image](assets/nl/018.webp)
 
 Voor zelfgehoste oplossingen zoals KeePass is het mogelijk om uw database te synchroniseren tussen meerdere apparaten zonder gebruik te maken van gecentraliseerde diensten van derden. Hulpmiddelen zoals **Syncthing** maken versleutelde en gedecentraliseerde synchronisatie rechtstreeks tussen uw apparaten mogelijk. Deze aanpak houdt uw gegevens onder uw controle en zorgt tegelijkertijd voor beschikbaarheid op al uw apparaten.
 
@@ -490,6 +506,8 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 <chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>
 
+:::video id=10fede6f-c839-4455-b324-e887c502667e:::
+
 ### Waarom 2FA implementeren
 
 Tweefactorauthenticatie (2FA) is een extra Layer van beveiliging die ervoor zorgt dat de persoon die toegang probeert te krijgen tot een online account, is wie hij/zij beweert te zijn. In plaats van alleen een gebruikersnaam en wachtwoord in te voeren, vereist 2FA een extra vorm van verificatie.
@@ -500,7 +518,7 @@ Deze tweede stap kan zijn:
 - Een code gegenereerd door een applicatie zoals Google Authenticator of Authy.
 - Een fysieke beveiligingssleutel die je in je computer steekt.
 
-![](assets/notext/19.webp)
+![image](assets/nl/019.webp)
 
 Met 2FA zal een hacker, zelfs als hij je wachtwoord bemachtigt, geen toegang krijgen tot je account zonder deze tweede verificatiefactor. Dit maakt 2FA essentieel voor het beschermen van je online accounts tegen ongeautoriseerde toegang.
 
@@ -665,6 +683,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 <chapterId>aad1ae27-4280-5b07-b9ab-118ae013951a</chapterId>
 
+:::video id=4c818b5c-ea5d-496a-8e82-bc5d96d91430:::
+
 
 ### Cyberbeveiliging: Een groeiend veld met eindeloze mogelijkheden
 
@@ -710,13 +730,15 @@ De voortdurende evolutie van bedreigingen vereist regelmatige controle van nieuw
 
 Als je deze vaardigheden en tools onder de knie hebt, ben je goed uitgerust om succesvol te navigeren in de wereld van cyberbeveiliging.
 
-![](assets/notext/20.webp)
+![image](assets/nl/020.webp)
 
 
 ## Interview met Renaud
 
 
 <chapterId>7d83fd98-ce22-514e-b9e8-729fbf71ee6e</chapterId>
+
+:::video id=ec7014aa-5ebe-444c-80d1-7b14f1fe7bb8:::
 
 
 ### Efficiënt wachtwoordbeheer en versterking van authenticatie: Een academische benadering
@@ -730,7 +752,7 @@ Het wordt over het algemeen afgeraden om browserextensies te gebruiken voor het 
 
 Wachtwoordmanagers moedigen over het algemeen het gebruik van extra verificatiefactoren aan, zoals twee-factor authenticatie. Voor optimale beveiliging is het raadzaam om OTP's (One-Time Passwords) op uw mobiele apparaat te bewaren. AndOTP biedt een open-source oplossing voor het genereren en opslaan van one-time password (OTP) codes op je mobiele apparaat. Hoewel Google Authenticator het exporteren van authenticatiecode seeds toestaat, blijft het vertrouwen in back-up op een Google-account beperkt. Daarom worden de applicaties OTI en AndoTP aanbevolen voor autonoom OTP-beheer.
 
-![](assets/notext/21.webp)
+![image](assets/nl/021.webp)
 
 De kwestie van digitale erfenis en digitale rouw benadrukt het belang van een procedure om wachtwoorden over te dragen na iemands overlijden. Een wachtwoordmanager vergemakkelijkt deze overgang door alle digitale geheimen veilig op één plaats op te slaan. De wachtwoordmanager maakt het ook mogelijk om alle open accounts te identificeren en hun sluiting of overdracht te beheren. Het wordt aanbevolen om het hoofdwachtwoord op papier te zetten, maar het moet op een verborgen en veilige plaats bewaard worden. Als de Hard schijf versleuteld is en de computer vergrendeld, is het wachtwoord niet toegankelijk, zelfs niet in geval van inbraak.
 

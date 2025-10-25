@@ -52,10 +52,10 @@ Una volta scelta l'opzione, l'applicazione richiede di attivare le notifiche. Qu
 L'applicazione presenta quindi le sue funzioni principali attraverso una serie di schermate introduttive:
 
 
-- Ricezione dei pagamenti senza problemi**: Gli utenti possono ricevere pagamenti in Bitcoin anche quando l'applicazione è chiusa, garantendo affidabilità e convenienza.
-- Indirizzi Lightning non custodiali**: Lipa ora supporta gli indirizzi Lightning non custodiali, migliorando la privacy e la sicurezza e dando agli utenti il pieno controllo sui loro bitcoin.
-- Controllo sui dati analitici** : Con la massima trasparenza e riservatezza, gli utenti possono visualizzare i tipi di dati raccolti e scegliere le loro preferenze di condivisione.
-- Invia tramite numero di telefono**: Non c'è bisogno di indirizzi complessi: basta selezionare un contatto, inserire l'importo e inviare bitcoin direttamente al suo numero di telefono.
+- **Ricezione dei pagamenti senza problemi**: Gli utenti possono ricevere pagamenti in Bitcoin anche quando l'applicazione è chiusa, garantendo affidabilità e convenienza.
+- **Indirizzi Lightning non custodiali**: Lipa ora supporta gli indirizzi Lightning non custodiali, migliorando la privacy e la sicurezza e dando agli utenti il pieno controllo sui loro bitcoin.
+- **Controllo sui dati analitici**: Con la massima trasparenza e riservatezza, gli utenti possono visualizzare i tipi di dati raccolti e scegliere le loro preferenze di condivisione.
+- **Invia tramite numero di telefono**: Non c'è bisogno di indirizzi complessi: basta selezionare un contatto, inserire l'importo e inviare bitcoin direttamente al suo numero di telefono.
 
 L'applicazione beneficia inoltre di continui miglioramenti in termini di stabilità, sicurezza e affidabilità, per garantire un'esperienza utente ottimale.
 
@@ -66,10 +66,10 @@ L'interfaccia di Lipa è organizzata in 4 schede principali accessibili tramite 
 ![Navigation principale](assets/fr/02.webp)
 
 
-- Home**: Visualizza il saldo corrente e la cronologia delle transazioni
-- Scanner**: Consente di scansionare i codici QR per effettuare pagamenti
-- Mappa**: Visualizza una mappa interattiva delle aziende che accettano Bitcoin nella vostra zona
-- Impostazioni**: Accesso alle impostazioni dell'applicazione, al backup e alle preferenze
+- **Home**: Visualizza il saldo corrente e la cronologia delle transazioni
+- **Scanner**: Consente di scansionare i codici QR per effettuare pagamenti
+- **Mappa**: Visualizza una mappa interattiva delle aziende che accettano Bitcoin nella vostra zona
+- **Impostazioni**: Accesso alle impostazioni dell'applicazione, al backup e alle preferenze
 
 È possibile accedere a un menu aggiuntivo tirando verso il basso la schermata iniziale:
 

@@ -10,7 +10,7 @@ ___
 
 
 
-*Denne opplæringen er basert på originalt innhold av Florian BURNEL publisert på [IT-Connect](https://www.it-connect.fr/). Lisens [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Det kan ha blitt gjort endringer i den opprinnelige teksten
+*Denne opplæringen er basert på originalt innhold av Florian BURNEL publisert på [IT-Connect](https://www.it-connect.fr/). Lisens [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Det kan ha blitt gjort endringer i den opprinnelige teksten.*
 
 
 
@@ -101,9 +101,9 @@ Når det gjelder IP-adresser, gir dette:
 
 
 
-- Hjemmenettverk**: 192.168.1.0/24
-- Bedriftsnettverk**: 192.168.100.0/24
-- WireGuard-tunnelnettverk**: 192.168.110.0/24
+- **Hjemmenettverk**: 192.168.1.0/24
+- **Bedriftsnettverk**: 192.168.100.0/24
+- **WireGuard-tunnelnettverk**: 192.168.110.0/24
 
 
 + IP Address til Peer 1 (Windows) i tunnelen: 192.168.110.2/24
@@ -117,7 +117,7 @@ Det er alt som trengs! La oss komme i gang med konfigurasjonen!
 
 
 
-**Merk: WireGuard fungerer som standard i UDP-modus på **port 51820**.
+**Merk: WireGuard fungerer som standard i UDP-modus på port 51820.**
 
 
 
@@ -219,10 +219,10 @@ Seksjon `[Interface]` brukes til å deklarere serverdelen. Her er litt informasj
 
 
 
-- Address**: IP Address til Interface WireGuard innenfor VPN-tunnelen (annet subnett enn det eksterne LAN)
-- SaveConfig**: konfigurasjonen lagres (og beskyttes) så lenge Interface er aktiv
-- ListenPort**: WireGuards lytteport. I dette tilfellet er 51820 standardporten, men du kan gjerne tilpasse den
-- PrivateKey**: verdien av serverens private nøkkel (*wg-private.key*)
+- **Address**: IP Address til Interface WireGuard innenfor VPN-tunnelen (annet subnett enn det eksterne LAN)
+- **SaveConfig**: konfigurasjonen lagres (og beskyttes) så lenge Interface er aktiv
+- **ListenPort**: WireGuards lytteport. I dette tilfellet er 51820 standardporten, men du kan gjerne tilpasse den
+- **PrivateKey**: verdien av serverens private nøkkel (*wg-private.key*)
 
 
 
@@ -372,7 +372,7 @@ Legg til disse linjene på slutten av filen for å **aktivere IP-maskerade på I
 
 ```
 # NAT - IP masquerade
-*nat
+*nat*
 :POSTROUTING ACCEPT [0:0]
 -A POSTROUTING -o ens192 -j MASQUERADE
 
@@ -475,7 +475,7 @@ Start med å åpne programvaren for å opprette en ny tunnel. Dette gjør du ved
 
 
 
-Et konfigurasjonsvindu åpnes. Hver gang en ny tunnelkonfigurasjon opprettes, genererer WireGuard et privat/offentlig nøkkelpar som er spesifikt for denne konfigurasjonen. **I denne konfigurasjonen må vi oppgi "peer", dvs. den eksterne serveren:
+Et konfigurasjonsvindu åpnes. Hver gang en ny tunnelkonfigurasjon opprettes, genererer WireGuard et privat/offentlig nøkkelpar som er spesifikt for denne konfigurasjonen. **I denne konfigurasjonen må vi oppgi "peer", dvs. den eksterne serveren:**
 
 
 
@@ -523,15 +523,15 @@ I bilder:
 
 
 
-**Noen få forklaringer om [Peer]-blokken:
+**Noen få forklaringer om [Peer]-blokken:**
 
 
 
 
 
-- PublicKey**: dette er den offentlige nøkkelen til WireGuard Debian 11-serveren (du kan få tak i verdien med kommandoen "*sudo wg*")
-- AllowedIPs**: dette er IP-adressene/undernettene som er tilgjengelige via dette WireGuard VPN-nettverket, i dette tilfellet undernettet som er spesifikt for mitt WireGuard VPN (*192.168.110.0/24*) og mitt eksterne LAN (*192.168.100.0/24*)
-- Sluttpunkt**: dette er IP Address for Debian 11-verten, siden dette er vårt WireGuard-tilkoblingspunkt (du må angi den offentlige IP Address)
+- **PublicKey**: dette er den offentlige nøkkelen til WireGuard Debian 11-serveren (du kan få tak i verdien med kommandoen "*sudo wg*")
+- **AllowedIPs**: dette er IP-adressene/undernettene som er tilgjengelige via dette WireGuard VPN-nettverket, i dette tilfellet undernettet som er spesifikt for mitt WireGuard VPN (*192.168.110.0/24*) og mitt eksterne LAN (*192.168.100.0/24*)
+- **Sluttpunkt**: dette er IP Address for Debian 11-verten, siden dette er vårt WireGuard-tilkoblingspunkt (du må angi den offentlige IP Address)
 
 
 
@@ -625,7 +625,7 @@ sudo chmod 600 /etc/wireguard/ -R
 
 
 
-Nå som konfigurasjonen er klar, kan vi starte den fra Windows-PC-en. For å gjøre dette, i "**WireGuard**"-klienten, klikker du på "**Activate**"-knappen: tilkoblingen vil **endre fra "Off" til "On"**, men det betyr ikke at den vil fungere. Alt avhenger av om konfigurasjonen din er riktig eller ikke. **Når forbindelsen er opprettet, kommuniserer våre to maskiner via Interface WireGuard som er konfigurert på hver side!
+Nå som konfigurasjonen er klar, kan vi starte den fra Windows-PC-en. For å gjøre dette, i "**WireGuard**"-klienten, klikker du på "**Activate**"-knappen: tilkoblingen vil **endre fra "Off" til "On"**, men det betyr ikke at den vil fungere. Alt avhenger av om konfigurasjonen din er riktig eller ikke. **Når forbindelsen er opprettet, kommuniserer våre to maskiner via Interface WireGuard som er konfigurert på hver side!**
 
 
 
@@ -663,7 +663,7 @@ Fra min eksterne PC kan jeg pinge IP Address til Interface WireGuard på servers
 
 
 
-Fra min eksterne PC som er koblet til WireGuard VPN, kunne jeg få tilgang til en filserver og overføre en fil via [SMB] (https://www.it-connect.fr/le-protocole-smb-pour-les-debutants/), for å se overføringshastigheten. **Med WireGuard når jeg maks 45 Mb/s, noe som er flott, siden jeg er på WiFi
+Fra min eksterne PC som er koblet til WireGuard VPN, kunne jeg få tilgang til en filserver og overføre en fil via [SMB](https://www.it-connect.fr/le-protocole-smb-pour-les-debutants/), for å se overføringshastigheten. **Med WireGuard når jeg maks 45 Mb/s, noe som er flott, siden jeg er på WiFi.**
 
 
 
@@ -752,7 +752,7 @@ AllowedIPs = 0.0.0.0/0
 
 
 
-Du kan se at dette også aktiverer alternativet "**Kill switch*".
+Du kan se at dette også aktiverer alternativet "**Kill switch**".
 
 
 
@@ -783,4 +783,4 @@ Ytterligere dokumentasjon:
 
 
 
-**WireGuard VPN er oppe og går! Vi gratulerer!
+**WireGuard VPN er oppe og går! Vi gratulerer!**

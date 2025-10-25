@@ -56,45 +56,45 @@ På Git och GitHub kommer du att stöta på kommandon och funktioner vars namn k
 
 
 
-- Fetch origin:** Kommando som hämtar ny information och ändringar från ett fjärrarkiv utan att sammanfoga dem med ditt lokala arbete. Det uppdaterar ditt lokala arkiv med nya grenar och commits som finns i fjärrarkivet.
+- **Fetch origin:** Kommando som hämtar ny information och ändringar från ett fjärrarkiv utan att sammanfoga dem med ditt lokala arbete. Det uppdaterar ditt lokala arkiv med nya grenar och commits som finns i fjärrarkivet.
 
 
 
-- Pull origin:** Kommando som hämtar uppdateringar från ett fjärrförvar och omedelbart integrerar dem i din lokala gren för att synkronisera den. Detta kombinerar stegen för fetch och merge i ett enda kommando.
-- Sync Fork:** En funktion på GitHub som gör att du kan uppdatera din Fork av ett projekt med de senaste ändringarna från källarkivet. Detta säkerställer att din kopia av projektet håller sig uppdaterad med den huvudsakliga utvecklingen.
-- Push origin:** Kommando som används för att skicka dina lokala ändringar till ett fjärrarkiv.
+- **Pull origin:** Kommando som hämtar uppdateringar från ett fjärrförvar och omedelbart integrerar dem i din lokala gren för att synkronisera den. Detta kombinerar stegen för fetch och merge i ett enda kommando.
+- **Sync Fork:** En funktion på GitHub som gör att du kan uppdatera din Fork av ett projekt med de senaste ändringarna från källarkivet. Detta säkerställer att din kopia av projektet håller sig uppdaterad med den huvudsakliga utvecklingen.
+- **Push origin:** Kommando som används för att skicka dina lokala ändringar till ett fjärrarkiv.
 
 
 
-- Pull Request:** En begäran som skickas av en bidragsgivare för att ange att de har skickat ändringar till en gren i ett fjärrförvar och vill att dessa ändringar ska granskas och eventuellt slås samman till huvudgrenen i förvaret.
+- **Pull Request:** En begäran som skickas av en bidragsgivare för att ange att de har skickat ändringar till en gren i ett fjärrförvar och vill att dessa ändringar ska granskas och eventuellt slås samman till huvudgrenen i förvaret.
 
 
 
-- Commit:** Spara dina ändringar. En commit är som en ögonblicksbild av ditt arbete vid ett givet tillfälle, vilket gör det möjligt att hålla en historik över ändringar. Varje commit innehåller ett beskrivande meddelande som förklarar vad som har ändrats.
+- **Commit:** Spara dina ändringar. En commit är som en ögonblicksbild av ditt arbete vid ett givet tillfälle, vilket gör det möjligt att hålla en historik över ändringar. Varje commit innehåller ett beskrivande meddelande som förklarar vad som har ändrats.
 
 
 
-- Gren:** En parallell version av arkivet som gör det möjligt att arbeta med ändringar utan att påverka huvudgrenen (ofta kallad "main" eller "master"). Filialer underlättar utvecklingen av nya funktioner och korrigering av buggar utan att riskera att störa stabil kod.
+- **Gren:** En parallell version av arkivet som gör det möjligt att arbeta med ändringar utan att påverka huvudgrenen (ofta kallad "main" eller "master"). Filialer underlättar utvecklingen av nya funktioner och korrigering av buggar utan att riskera att störa stabil kod.
 
 
 
-- Sammanfoga:** Sammanfogning består i att integrera ändringar från en gren till en annan. Det används till exempel för att lägga till ändringarna från en arbetsgren till huvudgrenen, vilket gör det möjligt att lägga till de olika bidragen.
+- **Sammanfoga:** Sammanfogning består i att integrera ändringar från en gren till en annan. Det används till exempel för att lägga till ändringarna från en arbetsgren till huvudgrenen, vilket gör det möjligt att lägga till de olika bidragen.
 
 
 
-- Fork:** Att forka ett arkiv innebär att du skapar en kopia av det arkivet på ditt eget GitHub-konto, vilket gör att du kan arbeta med projektet utan att påverka det ursprungliga arkivet. Fork kan antingen gå sin egen väg och bli ett annat projekt än det ursprungliga, eller så kan det regelbundet synkronisera med det ursprungliga projektet för att bidra till det.
+- **Fork:** Att forka ett arkiv innebär att du skapar en kopia av det arkivet på ditt eget GitHub-konto, vilket gör att du kan arbeta med projektet utan att påverka det ursprungliga arkivet. Fork kan antingen gå sin egen väg och bli ett annat projekt än det ursprungliga, eller så kan det regelbundet synkronisera med det ursprungliga projektet för att bidra till det.
 
 
 
-- Klona:** Att klona ett repository innebär att du gör en lokal kopia på din dator, vilket ger dig tillgång till alla filer och historiken. Detta gör att du kan arbeta med projektet direkt lokalt.
+- **Klona:** Att klona ett repository innebär att du gör en lokal kopia på din dator, vilket ger dig tillgång till alla filer och historiken. Detta gör att du kan arbeta med projektet direkt lokalt.
 
 
 
-- Repository:** Lagringsutrymme för ett projekt på GitHub. Ett repository innehåller alla projektfiler samt historiken för alla ändringar som har gjorts i dem. Det är grunden för lagring och samarbete på GitHub.
+- **Repository:** Lagringsutrymme för ett projekt på GitHub. Ett repository innehåller alla projektfiler samt historiken för alla ändringar som har gjorts i dem. Det är grunden för lagring och samarbete på GitHub.
 
 
 
-- Issue:** Ett verktyg för att spåra uppgifter och buggar på GitHub. Frågor gör det möjligt att rapportera problem, föreslå förbättringar eller diskutera nya funktioner. Varje fråga kan tilldelas, märkas och kommenteras.
+- **Issue:** Ett verktyg för att spåra uppgifter och buggar på GitHub. Frågor gör det möjligt att rapportera problem, föreslå förbättringar eller diskutera nya funktioner. Varje fråga kan tilldelas, märkas och kommenteras.
 
 
 Den här listan är naturligtvis inte uttömmande. Det finns många andra tekniska termer som är specifika för Git och GitHub. De som nämns här är dock de viktigaste som du ofta kommer att stöta på.

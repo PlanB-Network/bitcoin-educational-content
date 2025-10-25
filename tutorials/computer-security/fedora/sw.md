@@ -40,25 +40,25 @@ Kati ya wingi wa usambazaji wa Linux unaopatikana, Fedora anasimama haswa kwa:
 
 
 
-- Modularity**: Inaoana na usanifu tofauti wa vichakataji, Fedora inaweza kusakinishwa kwenye kompyuta nyingi, hata zile zenye uwezo mdogo, ikibadilika kikamilifu kulingana na mahitaji yako.
+- **Modularity**: Inaoana na usanifu tofauti wa vichakataji, Fedora inaweza kusakinishwa kwenye kompyuta nyingi, hata zile zenye uwezo mdogo, ikibadilika kikamilifu kulingana na mahitaji yako.
 
 
 
 
 
-- Interface** rahisi na angavu: Fedora inachanganya mchoro wa kisasa wa Interface na mstari wa amri wenye nguvu wa Interface, na kuifanya iwe rahisi kutumia kwa wasifu wote.
+- **Interface rahisi na angavu**: Fedora inachanganya mchoro wa kisasa wa Interface na mstari wa amri wenye nguvu wa Interface, na kuifanya iwe rahisi kutumia kwa wasifu wote.
 
 
 
 
 
-- Uthabiti wa Kernel**: Kulingana na Red Hat, Fedora inajulikana kwa kutegemewa kwa masasisho yake, hasa masasisho ya kernel, ambayo hufanywa bila hitilafu kuu kutokana na michango ya bure kutoka kwa jumuiya kubwa.
+- **Uthabiti wa Kernel**: Kulingana na Red Hat, Fedora inajulikana kwa kutegemewa kwa masasisho yake, hasa masasisho ya kernel, ambayo hufanywa bila hitilafu kuu kutokana na michango ya bure kutoka kwa jumuiya kubwa.
 
 
 
 
 
-- Usakinishaji wa haraka na rahisi**: ukiwa na saizi ya picha ya GB 3 tu, usakinishaji ni wa haraka na rahisi, hata kwenye mashine zilizo na rasilimali chache.
+- **Usakinishaji wa haraka na rahisi**: ukiwa na saizi ya picha ya GB 3 tu, usakinishaji ni wa haraka na rahisi, hata kwenye mashine zilizo na rasilimali chache.
 
 
 
@@ -72,19 +72,19 @@ Kulingana na wasifu wako na matumizi, Fedora inatoa matoleo ili kukidhi mahitaji
 
 
 
-- Fedora Workstation**: Inafaa kwa matumizi ya kibinafsi na/au ya kitaaluma kwenye kompyuta yako, toleo hili limesakinishwa na huduma za kawaida kama vile vivinjari, chumba cha ofisi (vihariri vya maandishi), na programu ya kucheza maudhui.
+- **Fedora Workstation**: Inafaa kwa matumizi ya kibinafsi na/au ya kitaaluma kwenye kompyuta yako, toleo hili limesakinishwa na huduma za kawaida kama vile vivinjari, chumba cha ofisi (vihariri vya maandishi), na programu ya kucheza maudhui.
 
 
 
 
 
-- Seva ya Fedora**: Toleo hili limetolewa kwa usimamizi wa seva. Seva ya Fedora inajumuisha zana mbalimbali za kukusaidia kupeleka na kudhibiti seva kwa kiwango chako mwenyewe.
+- **Seva ya Fedora**: Toleo hili limetolewa kwa usimamizi wa seva. Seva ya Fedora inajumuisha zana mbalimbali za kukusaidia kupeleka na kudhibiti seva kwa kiwango chako mwenyewe.
 
 
 
 
 
-- Fedora CoreOS**: Je, unataka kuendesha na kupeleka programu za wingu kwa urahisi? Fedora CoreOS ni toleo ambalo hukupa zana za kuunda na kudhibiti picha na Docker na Kubernets, kwa mfano.
+- **Fedora CoreOS**: Je, unataka kuendesha na kupeleka programu za wingu kwa urahisi? Fedora CoreOS ni toleo ambalo hukupa zana za kuunda na kudhibiti picha na Docker na Kubernets, kwa mfano.
 
 
 
@@ -103,7 +103,7 @@ Kufunga Fedora Workstation inahitaji usanidi wa vifaa ufuatao:
 
 - Kitufe cha USB cha angalau **8 GB** ili kuwasha mfumo wa uendeshaji.
 - Angalau **nafasi ya GB 40 bila malipo** kwenye diski ya Hard ya kompyuta yako.
-- 4 GB RAM** kwa matumizi laini.
+- **4 GB RAM** kwa matumizi laini.
 
 
 
@@ -156,7 +156,7 @@ Washa kompyuta yako, kisha ufikie BIOS wakati wa kuwasha kwa kubonyeza kitufe ch
 
 
 
-Katika chaguzi za kuwasha, chagua ufunguo wako wa USB kama kifaa msingi cha kuwasha. Kwa kuthibitisha chaguo hili, kompyuta yako itaanza upya na itazindua kiotomatiki kisakinishi cha Fedora** kilichopo kwenye kitufe cha USB.
+Katika chaguzi za kuwasha, chagua ufunguo wako wa USB kama kifaa msingi cha kuwasha. Kwa kuthibitisha chaguo hili, kompyuta yako itaanza upya na itazindua kiotomatiki kisakinishi cha **Fedora** kilichopo kwenye kitufe cha USB.
 
 
 
@@ -169,7 +169,7 @@ Katika hatua hii, una chaguzi zifuatazo:
 
 
 
-- Jaribio la media**: Chaguo hili hukuruhusu kuangalia uadilifu wa fimbo ya USB na kuhakikisha kuwa vitegemezi vyote vinavyohitajika kwa usakinishaji sahihi vipo. Hii ni hatua ya hiari, lakini inapendekezwa ikiwa una shaka yoyote kuhusu fimbo ya USB.
+- **Jaribio la media**: Chaguo hili hukuruhusu kuangalia uadilifu wa fimbo ya USB na kuhakikisha kuwa vitegemezi vyote vinavyohitajika kwa usakinishaji sahihi vipo. Hii ni hatua ya hiari, lakini inapendekezwa ikiwa una shaka yoyote kuhusu fimbo ya USB.
 
 
 
@@ -183,7 +183,7 @@ Katika hatua hii, una chaguzi zifuatazo:
 
 
 
-- Anzisha Fedora**: Hii inazindua Fedora katika hali ya "moja kwa moja", bila usakinishaji.
+- **Anzisha Fedora**: Hii inazindua Fedora katika hali ya "moja kwa moja", bila usakinishaji.
 
 
 
@@ -368,9 +368,9 @@ Fedora inajumuisha **LibreOffice** ofisi ya suite kwa chaguo-msingi, ambayo huto
 
 
 
-- Mwandishi** kwa usindikaji wa maneno.
-- Calc** kwa lahajedwali.
-- Boresha** ili kuunda mawasilisho.
+- **Mwandishi** kwa usindikaji wa maneno.
+- **Calc** kwa lahajedwali.
+- **Boresha** ili kuunda mawasilisho.
 
 
 ## Inasakinisha programu

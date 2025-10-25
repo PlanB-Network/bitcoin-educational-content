@@ -73,7 +73,7 @@ Platform web Banxaas minimalis dan intuitif, memungkinkan Anda untuk menyelesaik
 
 
 
-- Dari CFA Franc hingga satoshi**:
+- Dari CFA Franc hingga **satoshi**:
 
 
 
@@ -114,7 +114,7 @@ Konfirmasikan transaksi Anda dengan mengeklik tombol **Troc** untuk membeli bitc
 
 
 
-- Dari Satoshi hingga CFA Francs**
+- Dari Satoshi hingga CFA Francs
 
 
 

@@ -1,0 +1,9 @@
+question: 스톤월 x2 트랜잭션이란 무엇인가요?
+answer: 미니 CoinJoin 형태의 결제 거래
+wrong_answers:
+  - 미니 CoinJoin이 아니면서 미니 CoinJoin을 모방하는 거래
+  - 간편 결제 거래
+  - 수신자가 입력에 참여하는 트랜잭션입니다
+explanation: |
+  스톤월 x2는 거래에 관여하지 않는 제3자와의 협업을 통해 지출 시 사용자 개인정보 보호를 강화하도록 설계된 특정 형태의 Bitcoin 거래입니다. 이 방식은 두 참가자 간의 미니 CoinJoin처럼 작동하며, 동시에 제3자에게 결제를 진행합니다.
+reviewed: true

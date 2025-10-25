@@ -1,0 +1,9 @@
+question: Mis on peamine erinevus Electrs ja Fulcrumi vahel?
+answer: Electrs on kompaktsem, Fulcrum on võimsam
+wrong_answers:
+  - Electrs ei ole tasuta, Fulcrum on tasuta
+  - Fulcrum ei toeta Electrumi protokolli
+  - Electrs on patenteeritud, Fulcrum on avatud lähtekoodiga
+explanation: |
+  Electrs kasutab vähem kettaruumi, samas kui Fulcrum vastab päringutele kiiremini, kuid tarbib rohkem ressursse.
+reviewed: true

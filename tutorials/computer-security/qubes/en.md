@@ -88,7 +88,7 @@ Before installing Qubes OS, it's essential to ensure that your hardware meets th
 
 - The **Processor**: A 64-bit processor compatible with hardware virtualization (Intel VT-x or AMD-V).
 - RAM: a minimum of 8 GB is required, but we recommend RAM of 16 GB or more to run several qubes simultaneously.
-- Storage space**: a minimum of 36 GB, ideally 128 GB on an SSD for optimum performance.
+- **Storage space**: a minimum of 36 GB, ideally 128 GB on an SSD for optimum performance.
 
 
 To install Qubes OS, download the official ISO image from the Qubes OS [official site](https://www.qubes-os.org/downloads/). It is essential to check the integrity of the ISO using the GPG signatures provided, to ensure that the file has not been tampered with and that the download is secure.

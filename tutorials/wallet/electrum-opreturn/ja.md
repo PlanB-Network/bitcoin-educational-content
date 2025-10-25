@@ -1,5 +1,5 @@
 ---
-name: エレクトラム OP_RETURN
+name: Electrum OP_RETURN
 description: エレクトラムでBlockchain Bitcoinにメッセージを登録する
 ---
 
@@ -145,7 +145,7 @@ https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-
 
 
 
-*Blockchain Bitcoinに書いたことは永遠であり、すべての人がアクセスできる。
+**Blockchain Bitcoin**に書いたことは永遠であり、すべての人がアクセスできる。
 
 
 
@@ -155,7 +155,7 @@ https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-
 
 
 
-*Blockchainのスペースとビットコインは貴重である。
+**Blockchain**のスペースとビットコインは貴重である。
 
 
 
@@ -208,9 +208,9 @@ script(OP_RETURN 5468616e6b73205361746f736869), 0
 
 
 
-- 宛先Address**：有効な Bitcoin Address です。Ici, `bc1q879cv4p5q6s9537orange3zss33d3turzad8`.送金された資金を自分に返したい場合は、これは自分のAddressでもよい；
-- 送金額**: 取引額。ここでは `0.00001` BTC。 **注意**: Electrumで使用される単位はBTCなので、取引スクリプトで表示される金額もBTCでなければなりません；
-- スクリプト OP_RETURN**：script(`OP_RETURN <messsage>), 0` で始まる16進数に変換されたメッセージ。ここでは、`5468616e6b73205361746f736869`が16進数でのメッセージになります。
+- 宛先Address：有効な Bitcoin Address です。Ici, `bc1q879cv4p5q6s9537orange3zss33d3turzad8`.送金された資金を自分に返したい場合は、これは自分のAddressでもよい；
+- **送金額**: 取引額。ここでは `0.00001` BTC。**注意**: Electrumで使用される単位はBTCなので、取引スクリプトで表示される金額もBTCでなければなりません；
+- スクリプト **OP_RETURN**：script(`OP_RETURN <messsage>), 0` で始まる16進数に変換されたメッセージ。ここでは、`5468616e6b73205361746f736869`が16進数でのメッセージになります。
 
 
 

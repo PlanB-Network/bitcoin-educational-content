@@ -1,5 +1,5 @@
 ---
-name: KARTU KOLEKSI Q
+name: COLDCARD Q
 description: Menyiapkan dan menggunakan COLDCARD Q
 ---
 ![cover](assets/cover.webp)

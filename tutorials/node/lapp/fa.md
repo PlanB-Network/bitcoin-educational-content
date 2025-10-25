@@ -1,9 +1,11 @@
 ---
-name: LAPP Bitcoin
-description: آموزش توسعه اولین LApp خود
+name: Lightning App
+description: آموزش توسعه اولین برنامه Lightning (LAPP) شما
 ---
 
-اولین برنامه لایتنینگ خود را کدنویسی کنید
+![cover](assets/cover.webp)
+
+## یاد بگیرید اولین برنامه Lightning خود را کدنویسی کنید
 
 
 الزامات:
@@ -27,6 +29,8 @@ NodeJs می‌تواند از وب‌سایت رسمی آن دانلود شود.
 - اکسپرس برای وب‌سرور ما
 - قالب‌های Pug + بوت‌استرپ برای فرانت‌اند ما
 
+
+https://planb.network/courses/bbf08a64-84ca-11f0-9d7a-c3c481a45799
 
 ## سیستم‌عامل
 

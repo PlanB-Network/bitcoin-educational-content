@@ -1,0 +1,9 @@
+question: Var Immanuel Kant?
+answer: En tysk filosof från upplysningstiden.
+wrong_answers:
+  - En engelsk filosof och lärjunge till Newton
+  - En filosof från 1600-talet.
+  - En kristen filosof.
+explanation: |
+  Immanuel Kant (1724-1804) var en tysk upplysningsfilosof. Han utvecklade en kritisk filosofi som fick ett djupgående inflytande på det moderna tänkandet, framför allt genom "Kritiken av det rena förnuftet".
+reviewed: false

@@ -193,7 +193,7 @@ In het tabblad "*WiFi control*" hebt u de mogelijkheid om specifieke acties te c
 
 ![IVPN](assets/notext/31.webp)
 
-Selecteer in het menu "*AntiTracker*" het blokkeerprofiel voor je anti-tracker. Dit is ontworpen om advertenties, malware en datatrackers te blokkeren door verzoeken aan trackingservices te blokkeren terwijl je op het internet surft. Dit verbetert je privacy door te voorkomen dat bedrijven je surfgegevens verzamelen en verkopen. Er is ook een "Hardcore-modus*" beschikbaar om alle domeinen die eigendom zijn van Google en Meta en alle afhankelijke services volledig te blokkeren.
+Selecteer in het menu "*AntiTracker*" het blokkeerprofiel voor je anti-tracker. Dit is ontworpen om advertenties, malware en datatrackers te blokkeren door verzoeken aan trackingservices te blokkeren terwijl je op het internet surft. Dit verbetert je privacy door te voorkomen dat bedrijven je surfgegevens verzamelen en verkopen. Er is ook een "*Hardcore-modus*" beschikbaar om alle domeinen die eigendom zijn van Google en Meta en alle afhankelijke services volledig te blokkeren.
 
 ![IVPN](assets/notext/32.webp)
 

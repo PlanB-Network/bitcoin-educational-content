@@ -1,9 +1,9 @@
 question: Hangi kullanıcı profili Dolar-Maliyet Ortalaması yoluyla düzenli olarak bitcoin biriktiriyor?
-answer: İstifleyici
+answer: İstifçi
 wrong_answers:
   - Hodler
   - Aktif kullanıcı
   - Paranoyak
 explanation: |
-  İstifleyici, satın alma fiyatının uzun vadede ortalamasını almak için düzenli olarak küçük miktarlarda satın alır.
+  İstifçi, satın alma fiyatının uzun vadede ortalamasını almak için düzenli olarak küçük miktarlarda satın alır.
 reviewed: false

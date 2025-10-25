@@ -7,7 +7,7 @@ description: Nunua na uuze bitcoins kwenye Bull Bitcoin
 
 Bull Bitcoin ni jukwaa la Bitcoin-pekee la Exchange lililoanzishwa mwaka wa 2013 nchini Kanada na Francis Pouliot, mtu mashuhuri katika mfumo ikolojia wa Bitcoin. Falsafa ya Bull Bitcoin ni kuwapa watumiaji zana za uhuru wa kifedha na ukombozi. Jukwaa la Exchange halina uhifadhi, ambayo ina maana kwamba daima unabaki kuwa huru juu ya Bitcoins zako.
 
-Awali ilipatikana tu Kanada, jukwaa hili sasa linapatikana Ulaya na katika nchi nyingi nyingine, likiwa na kiolesura kipya kilichoboreshwa. Toleo hili jipya la Bull Bitcoin linakuwezesha kununua na kuuza bitcoins kwa urahisi na haraka kwa kutumia Lightning na uhamisho wa SEPA wa papo hapo. Pia linajumuisha malipo ya ankara kwa kutumia bitcoins. Hapo baadaye, jukwaa litajumuisha chaguo za DCA, manunuzi ya kiotomatiki, na maagizo ya kikomo.
+Awali ilipatikana tu Kanada, jukwaa hili sasa linapatikana Ulaya na katika nchi nyingi zingine, likiwa na kiolesura kipya kilichoboreshwa. Toleo hili jipya la Bull Bitcoin linakuwezesha kununua na kuuza bitcoins kwa urahisi na haraka kwa kutumia Lightning na uhamisho wa SEPA wa papo hapo. Pia linajumuisha malipo ya ankara kwa kutumia bitcoins. Hapo baadaye, jukwaa litajumuisha chaguo za DCA, ununuzi wa kiotomatiki, na maagizo ya kikomo.
 
 Bull Bitcoin inajivunia kutoa huduma iliyo wazi bila ada zilizofichwa. Tafadhali kumbuka kuwa, kama ilivyo kwa ubadilishaji mwingi, kutumia Bull Bitcoin kunahitaji kukamilisha mchakato wa KYC (Kumjua Mteja Wako).
 
@@ -47,7 +47,7 @@ Sasa hebu tuimarishe usalama wa akaunti yako. Bonyeza "*Akaunti Yangu*".
 ![BULL](assets/fr/05.webp)
 
 
-Nenda kwenye kichupo cha "* Mipangilio ya Usalama*" na uchague "* Mipangilio ya Ufikiaji *".
+Nenda kwenye kichupo cha "*Mipangilio ya Usalama*" na uchague "*Mipangilio ya Ufikiaji*".
 
 
 ![BULL](assets/fr/06.webp)
@@ -94,7 +94,7 @@ Chagua "*generate misimbo mipya ya urejeshaji chelezo*" na uhifadhi misimbo hii 
 ![BULL](assets/fr/12.webp)
 
 
-Ili kubinafsisha zaidi Interface yako, nenda kwenye kichupo cha "*Mipangilio ya Programu*", ambapo unaweza kuchagua lugha na sarafu unayopenda.
+Ili kubinafsisha zaidi Interface yako, nenda kwenye kichupo cha "*Mipangilio ya Programu*", ambapo unaweza kuchagua lugha na sarafu unayoipenda.
 
 
 ![BULL](assets/fr/13.webp)
@@ -103,7 +103,7 @@ Ili kubinafsisha zaidi Interface yako, nenda kwenye kichupo cha "*Mipangilio ya 
 ## KYC
 
 
-Ili kufikia utendakazi kamili wa Bull Bitcoin, ambayo ni jukwaa linalodhibitiwa, unahitaji kufanya uthibitishaji wa utambulisho (KYC). Bonyeza "*Endelea Uthibitishaji*".
+Ili kufikia utendakazi kamili wa Bull Bitcoin, ambao ni jukwaa linalodhibitiwa, unahitaji kufanya uthibitishaji wa utambulisho (KYC). Bonyeza "*Endelea Uthibitishaji*".
 
 
 ![BULL](assets/fr/14.webp)
@@ -145,7 +145,7 @@ Ili kuanza, labda utataka kuweka euro kadhaa kwa Bull ili kununua Sats yako ya k
 ![BULL](assets/fr/17.webp)
 
 
-Chagua "* Uhamisho wa SEPA*".
+Chagua "*Uhamisho wa SEPA*".
 
 
 ![BULL](assets/fr/18.webp)
@@ -286,7 +286,7 @@ Ili kufuatilia miamala yako yote, unaweza kutazama historia katika menyu ya "*Sh
 ![BULL](assets/fr/36.webp)
 
 
-Sasa unajua jinsi ya kununua na kuuza Bitcoin kwa urahisi na Bull Bitcoin. Ikiwa umepata mafunzo haya kuwa ya manufaa, ningeshukuru sana ukiweka kidole gumba cha Green hapa chini. Jisikie huru kushiriki nakala hii kwenye mitandao yako ya kijamii. Asante sana!
+Sasa unajua jinsi ya kununua na kuuza Bitcoin kwa urahisi na Bull Bitcoin. Ikiwa umepata mafunzo haya kuwa ya manufaa, nitashukuru sana ukiweka kidole gumba cha Green hapa chini. Jisikie huru kushiriki nakala hii kwenye mitandao yako ya kijamii. Asante sana!
 
 
 Pia ninapendekeza uangalie mafunzo haya mengine ya kina ili kujifunza jinsi ya kudhibiti maneno yako ya Mnemonic kwa njia ifaayo:

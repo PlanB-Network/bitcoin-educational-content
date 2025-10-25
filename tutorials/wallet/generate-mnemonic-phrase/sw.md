@@ -1,15 +1,15 @@
 ---
-name: Neno la Mnemonic - Mzunguko wa Kete
-description: Jinsi ya generate maneno yako mwenyewe ya kurejesha na kete?
+name: Mnemonic phrase- Mzunguko wa Dadi
+description: Jinsi ya tengeneza maneno yako mwenyewe ya kurejesha na dadi?
 ---
 
 ![cover](assets/cover.webp)
 
 
-Katika somo hili, utajifunza jinsi ya kuunda mwenyewe kifungu cha maneno cha uokoaji kwa Bitcoin Wallet kwa kutumia roll za kete.
+Katika somo hili, utajifunza jinsi ya kuunda mwenyewe mnemonic phrase cha uokoaji kwa Bitcoin Wallet kwa kutumia roll za dadi.
 
 
-**ONYO:** Kuunda kifungu cha maneno cha Mnemonic kwa njia salama kunahitaji kuacha alama yoyote ya kidijitali wakati wa kuundwa kwake, jambo ambalo ni karibu kutowezekana. Vinginevyo, Wallet ingewasilisha eneo kubwa sana la mashambulizi, na kuongeza kwa kiasi kikubwa hatari ya bitcoins zako kuibiwa. **Kwa hivyo inashauriwa sana dhidi ya kuhamisha fedha kwa Wallet ambayo inategemea neno la urejeshaji ambalo umejitengenezea mwenyewe.** Hata ukifuata mafunzo haya hadi herufi, kuna hatari kwamba kishazi cha kurejesha kinaweza kuathiriwa. **Kwa hivyo, mafunzo haya hayafai kutumika katika uundaji wa Wallet halisi.** Kutumia Hardware Wallet kwa kazi hii sio hatari sana, kwani hutoa maneno nje ya mtandao, na waandishi halisi wa kriptografia wamezingatia matumizi ya vyanzo vya ubora vya entropy.
+**ONYO:** Kuunda mnemonic phrase cha Mnemonic kwa njia salama kunahitaji kuacha alama yoyote ya kidijitali wakati wa kuundwa kwake, jambo ambalo ni karibu kutowezekana. Vinginevyo, Wallet ingewasilisha eneo kubwa sana la mashambulizi, na kuongeza kwa kiasi kikubwa hatari ya bitcoins zako kuibiwa. **Kwa hivyo inashauriwa sana dhidi ya kuhamisha fedha kwa Wallet ambayo inategemea neno la urejeshaji ambalo umejitengenezea mwenyewe.** Hata ukifuata mafunzo haya hadi herufi, kuna hatari kwamba kishazi cha kurejesha kinaweza kuathiriwa. **Kwa hivyo, mafunzo haya hayafai kutumika katika uundaji wa Wallet halisi.** Kutumia Hardware Wallet kwa kazi hii sio hatari sana, kwani hutoa maneno nje ya mtandao, na waandishi halisi wa kriptografia wamezingatia matumizi ya vyanzo vya ubora vya entropy.
 
 
 Mafunzo haya yanaweza kufuatwa kwa madhumuni ya majaribio tu kwa kuunda Wallet ya uwongo, bila nia ya kuitumia na bitcoins halisi. Walakini, uzoefu hutoa faida mbili:
@@ -26,13 +26,13 @@ Mafunzo haya yanaweza kufuatwa kwa madhumuni ya majaribio tu kwa kuunda Wallet y
 Kishazi cha urejeshaji, pia wakati mwingine huitwa "Mnemonic," "maneno ya seed," au "maneno ya siri," ni mfuatano kwa kawaida unaojumuisha maneno 12 au 24, ambayo hutokezwa kwa njia ya uwongo-nasibu kutoka kwa chanzo cha entropy. Mlolongo wa pseudo-nasibu hukamilishwa kila wakati na hundi.
 
 
-Maneno ya Mnemonic, pamoja na passphrase ya hiari, hutumiwa kupata funguo zote zinazohusiana na HD (Hierarchical Deterministic) Wallet. Hii ina maana kwamba kutokana na kifungu hiki, inawezekana kubainisha generate na kuunda upya funguo zote za faragha na za umma za Bitcoin Wallet, na hivyo basi, kufikia fedha zinazohusiana nayo.
+Maneno ya Mnemonic, pamoja na passphrase ya hiari, hutumiwa kupata funguo zote zinazohusiana na HD (Hierarchical Deterministic) Wallet. Hii ina maana kwamba kutokana na kifungu hiki, inawezekana kubainisha tengeneza na kuunda upya funguo zote za faragha na za umma za Bitcoin Wallet, na hivyo basi, kufikia fedha zinazohusiana nayo.
 
 ![mnemonic](assets/notext/1.webp)
 
-Madhumuni ya sentensi hii ni kutoa njia rahisi kutumia ya kuhifadhi na kurejesha bitcoins. Ni muhimu kuweka kifungu cha maneno cha Mnemonic mahali salama na salama, kwani mtu yeyote aliye na kifungu hiki angeweza kupata pesa za Wallet inayolingana. Ikiwa inatumiwa katika muktadha wa Wallet ya jadi, na bila passphrase ya hiari, mara nyingi hujumuisha SPOF (Pointi Moja ya Kushindwa).
+Madhumuni ya sentensi hii ni kutoa njia rahisi kutumia ya kuhifadhi na kurejesha bitcoins. Ni muhimu kuweka mnemonic phrase cha Mnemonic mahali salama na salama, kwani mtu yeyote aliye na kifungu hiki angeweza kupata pesa za Wallet inayolingana. Ikiwa inatumiwa katika muktadha wa Wallet ya jadi, na bila passphrase ya hiari, mara nyingi hujumuisha SPOF (Pointi Moja ya Kushindwa).
 
-Kawaida, kifungu hiki hutolewa kwako moja kwa moja wakati wa kuunda Wallet yako, na programu au Hardware Wallet iliyotumiwa. Walakini, inawezekana pia generate kifungu hiki peke yako, na kisha uingize kwenye usaidizi uliochaguliwa ili kupata funguo za Wallet. Hivi ndivyo tutajifunza kufanya katika somo hili.
+Kawaida, kifungu hiki hutolewa kwako moja kwa moja wakati wa kuunda Wallet yako, na programu au Hardware Wallet iliyotumiwa. Walakini, inawezekana pia tengeneza kifungu hiki peke yako, na kisha uingize kwenye usaidizi uliochaguliwa ili kupata funguo za Wallet. Hivi ndivyo tutajifunza kufanya katika somo hili.
 
 
 ## Maandalizi ya vifaa muhimu
@@ -44,7 +44,7 @@ Ili kuunda kifungu chako cha uokoaji kwa mkono, utahitaji:
 
 - Karatasi ya karatasi;
 - Kalamu au penseli, bora ya rangi tofauti ili kuwezesha shirika;
-- Kete kadhaa, ili kupunguza hatari za upendeleo zinazohusiana na kifo kisicho na usawa;
+- Dadi kadhaa, ili kupunguza hatari za upendeleo zinazohusiana na kifo kisicho na usawa;
 - [Orodha ya maneno 2048 BIP39](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf) imechapishwa.
 
 
@@ -59,9 +59,9 @@ Kwa mbinu ya majaribio kuhusu "Wallet ya uwongo", inawezekana kutumia kompyuta y
 
 Katika muktadha halisi, itakuwa muhimu kuhakikisha usiri wa nafasi yako ya kazi kwa kuchagua eneo mbali na macho ya watu wanaotazama, bila trafiki ya watu, na bila kamera (kamera za wavuti, simu...).
 
-Inapendekezwa kutumia idadi kubwa ya kete ili kupunguza athari za kifo ambacho kinaweza kutokuwa na usawa kwenye entropy. Kabla ya matumizi yao, kuangalia kete kunapendekezwa: hii inaweza kupatikana kwa kuwajaribu kwenye bakuli la maji yaliyojaa chumvi, kuruhusu kete kuelea. Kisha kuendelea na unaendelea kila kufa kama mara ishirini katika maji ya chumvi, kuangalia matokeo. Ikiwa uso mmoja au mbili zinaonekana bila uwiano ikilinganishwa na zingine, panua jaribio kwa safu nyingi zaidi. Matokeo yaliyosambazwa kwa usawa yanaonyesha kuwa kufa ni ya kuaminika. Hata hivyo, ikiwa uso mmoja au mbili hutawala mara kwa mara, kete hizi zinapaswa kuwekwa kando, kwa kuwa zinaweza kuathiri entropy ya maneno yako ya Mnemonic na, hivyo basi, usalama wa Wallet yako.
+Inapendekezwa kutumia idadi kubwa ya dadi ili kupunguza athari za kifo ambacho kinaweza kutokuwa na usawa kwenye entropy. Kabla ya matumizi yao, kuangalia dadi kunapendekezwa: hii inaweza kupatikana kwa kuwajaribu kwenye bakuli la maji yaliyojaa chumvi, kuruhusu dadi kuelea. Kisha kuendelea na unaendelea kila kufa kama mara ishirini katika maji ya chumvi, kuangalia matokeo. Ikiwa uso mmoja au mbili zinaonekana bila uwiano ikilinganishwa na zingine, panua jaribio kwa safu nyingi zaidi. Matokeo yaliyosambazwa kwa usawa yanaonyesha kuwa kufa ni ya kuaminika. Hata hivyo, ikiwa uso mmoja au mbili hutawala mara kwa mara, dadi hizi zinapaswa kuwekwa kando, kwa kuwa zinaweza kuathiri entropy ya maneno yako ya Mnemonic na, hivyo basi, usalama wa Wallet yako.
 
-Katika hali halisi, baada ya kufanya ukaguzi huu, utakuwa tayari kwa generate entropy muhimu. Kwa majaribio ya kubuniwa ya Wallet iliyoundwa kama sehemu ya mafunzo haya, unaweza kuruka matayarisho haya kwa kawaida.
+Katika hali halisi, baada ya kufanya ukaguzi huu, utakuwa tayari kwa tengeneza entropy muhimu. Kwa majaribio ya kubuniwa ya Wallet iliyoundwa kama sehemu ya mafunzo haya, unaweza kuruka matayarisho haya kwa kawaida.
 
 
 ## Vikumbusho Vichache juu ya Maneno ya Urejeshaji
@@ -81,14 +81,14 @@ Ukubwa wa taarifa hii ya awali, ambayo mara nyingi hujulikana kama "entropy," im
 | 21             | 224            | 7               | 231                       |
 | 24             | 256            | 8               | 264                       |
 
-Entropy kwa hivyo ni nambari ya nasibu kati ya biti 128 na 256. Katika somo hili, tutachukua mfano wa kishazi cha maneno 12, ambapo entropy ni biti 128, kumaanisha kwamba tuta generate mlolongo wa nasibu wa 128 `0` au `1`. Hii inawakilisha nambari inayojumuisha tarakimu 128 katika msingi wa 2 (binari).
+Entropy kwa hivyo ni nambari ya nasibu kati ya biti 128 na 256. Katika somo hili, tutachukua mfano wa kishazi cha maneno 12, ambapo entropy ni biti 128, kumaanisha kwamba tuta tengeneza mlolongo wa nasibu wa 128 `0` au `1`. Hii inawakilisha nambari inayojumuisha tarakimu 128 katika msingi wa 2 (binari).
 
 Kulingana na entropy hii, hundi itatolewa. Cheki ni thamani inayokokotolewa kutoka kwa seti ya data, inayotumiwa kuthibitisha uadilifu na uhalali wa data hiyo wakati wa uwasilishaji au uhifadhi wake. Algorithms ya Checksum imeundwa kugundua hitilafu au mabadiliko ya data kwa bahati mbaya.
 
 Kwa upande wa maneno yetu ya Mnemonic, kazi ya checksum ni kugundua hitilafu zozote za ingizo wakati wa kuingiza kifungu kwenye programu ya Wallet. Hundi batili huashiria kuwepo kwa hitilafu katika maneno. Kinyume chake, hundi halali huonyesha kwamba maneno kuna uwezekano mkubwa kuwa sahihi.
 
 
-Ili kupata hundi hii, entropy inapitishwa kupitia kazi ya SHA256 Hash. Uendeshaji huu hutoa mfuatano wa biti 256 kama pato, ambapo biti za `N` pekee ndizo zitabaki, `N` kulingana na urefu unaohitajika wa kishazi cha kurejesha (ona jedwali hapo juu). Kwa hivyo, kwa kifungu cha maneno 12, bits 4 za kwanza za Hash zitahifadhiwa.
+Ili kupata hundi hii, entropy inapitishwa kupitia kazi ya SHA256 Hash. Uendeshaji huu hutoa mfuatano wa biti 256 kama pato, ambapo biti za `N` pekee ndizo zitabaki, `N` kulingana na urefu unaohitajika wa kishazi cha kurejesha (ona jedwali hapo juu). Kwa hivyo, kwa mnemonic phrase 12, bits 4 za kwanza za Hash zitahifadhiwa.
 
 ![mnemonic](assets/en/3.webp)
 
@@ -108,18 +108,18 @@ Hatimaye, nambari katika desimali hutuambia nafasi ya neno linalolingana katika 
 ![mnemonic](assets/notext/6.webp)
 
 
-Sasa, wacha tuendelee kufanya mazoezi! Tutatumia generate neno la kurejesha urejeshaji lenye maneno 12. Hata hivyo, operesheni hii inasalia kuwa sawa katika kesi ya kishazi cha maneno 24, isipokuwa kwamba itahitaji biti 256 za entropy na ukaguzi wa biti 8, kama inavyoonyeshwa kwenye jedwali la usawa lililo mwanzoni mwa sehemu hii.
+Sasa, wacha tuendelee kufanya mazoezi! Tutatumia tengeneza neno la kurejesha urejeshaji lenye maneno 12. Hata hivyo, operesheni hii inasalia kuwa sawa katika kesi ya kishazi cha maneno 24, isipokuwa kwamba itahitaji biti 256 za entropy na ukaguzi wa biti 8, kama inavyoonyeshwa kwenye jedwali la usawa lililo mwanzoni mwa sehemu hii.
 
 
 ## Hatua ya 1: Kuzalisha Entropy
 
 
-Andaa karatasi yako, kalamu yako, na kete zako. Kuanza, tutahitaji generate 128 bits nasibu, yaani, mlolongo wa 128 `0`s na `1`s mfululizo. Ili kufanya hivyo, tutatumia kete.
+Andaa karatasi yako, kalamu yako, na dadi zako. Kuanza, tutahitaji tengeneza 128 bits nasibu, yaani, mlolongo wa 128 `0`s na `1`s mfululizo. Ili kufanya hivyo, tutatumia dadi.
 
 ![mnemonic](assets/notext/7.webp)
 
 
-Kete zina pande 6, zote zikiwa na uwezekano sawa wa kuviringishwa. Walakini, lengo letu ni kutoa matokeo ya binary, ikimaanisha matokeo mawili yanayowezekana. Kwa hivyo, tutaweka thamani `0` kwa kila safu inayotua kwenye nambari sawia, na `1` kwa kila nambari isiyo ya kawaida. Kwa hivyo, tutafanya roli 128 ili kuunda entropy yetu ya 128-bit. Ikiwa herufi inaonyesha `2`, `4`, au `6`, tutaandika `0`; kwa `1`, `3`, au `5`, itakuwa `1`. Kila matokeo yatazingatiwa kwa mfuatano, kutoka kushoto kwenda kulia na juu hadi chini.
+Dadi zina pande 6, zote zikiwa na uwezekano sawa wa kuviringishwa. Walakini, lengo letu ni kutoa matokeo ya binary, ikimaanisha matokeo mawili yanayowezekana. Kwa hivyo, tutaweka thamani `0` kwa kila safu inayotua kwenye nambari sawia, na `1` kwa kila nambari isiyo ya kawaida. Kwa hivyo, tutafanya roli 128 ili kuunda entropy yetu ya 128-bit. Ikiwa herufi inaonyesha `2`, `4`, au `6`, tutaandika `0`; kwa `1`, `3`, au `5`, itakuwa `1`. Kila matokeo yatazingatiwa kwa mfuatano, kutoka kushoto kwenda kulia na juu hadi chini.
 
 
 Ili kuwezesha hatua zifuatazo, tutaweka bits katika pakiti za nne na tatu, kama inavyoonekana kwenye picha hapa chini. Kila mstari lazima uwe na biti 11: pakiti 2 za biti 4 na pakiti moja ya biti 3.
@@ -152,7 +152,7 @@ Kwanza, endelea kuumbiza kijiti chako cha USB, kisha usakinishe Mikia kwa kutumi
 
 ![mnemonic](assets/notext/11.webp)
 
-Baada ya kuthibitisha kuwa flashing imefanikiwa, zima kompyuta yako. Kisha endelea kukata nguvu ya Supply na uondoe kiendeshi cha Hard kwenye ubao wa mama wa Kompyuta yako. Katika kesi ambapo kadi ya WiFi iko, inapaswa kukatwa. Vile vile, ondoa kebo yoyote ya Ethaneti ya RJ45. Ili kupunguza hatari ya kuvuja kwa data, inashauriwa kuondoa kisanduku chako cha mtandao na kuzima simu yako ya rununu. Zaidi ya hayo, hakikisha kuwa umetenganisha vifaa vya ziada vya ziada kutoka kwa kompyuta yako, kama vile maikrofoni, kamera ya wavuti, spika au vifaa vya sauti, na uangalie kuwa vifaa vingine vya kusambaza sauti vimeunganishwa kupitia waya pekee. Hatua hizi zote za maandalizi ya PC sio muhimu, lakini husaidia tu kupunguza uso wa mashambulizi iwezekanavyo katika muktadha halisi.
+Baada ya kuthibitisha kuwa flashing imefanikiwa, zima kompyuta yako. Kisha endelea kukata nguvu ya ugavi wa umeme na uondoe kiendeshi cha Hard kwenye ubao wa mama wa Kompyuta yako. Katika kesi ambapo kadi ya WiFi iko, inapaswa kukatwa. Vile vile, ondoa kebo yoyote ya Ethaneti ya RJ45. Ili kupunguza hatari ya kuvuja kwa data, inashauriwa kuondoa kisanduku chako cha mtandao na kuzima simu yako ya rununu. Zaidi ya hayo, hakikisha kuwa umetenganisha vifaa vya ziada vya ziada kutoka kwa kompyuta yako, kama vile maikrofoni, kamera ya wavuti, spika au vifaa vya sauti, na uangalie kuwa vifaa vingine vya kusambaza sauti vimeunganishwa kupitia waya pekee. Hatua hizi zote za maandalizi ya PC sio muhimu, lakini husaidia tu kupunguza uso wa mashambulizi iwezekanavyo katika muktadha halisi.
 
 
 Angalia ikiwa BIOS yako imesanidiwa ili kuruhusu uanzishaji kutoka kwa kifaa cha nje. Ikiwa sivyo, badilisha mpangilio huu, kisha uanze upya mashine yako. Mara baada ya kupata mazingira ya kompyuta, anzisha upya kompyuta kutoka kwa fimbo ya USB na Tails OS.
@@ -236,7 +236,7 @@ a27abf1aff70311917a59a43ce86fa45a62723a00dd2f9d3d059aeac9b4b13d8
 ```
 
 
-Ili kukamilisha maneno yetu ya Mnemonic, tunahitaji tu biti 4 za kwanza za Hash, ambazo zinajumuisha hundi. Katika umbizo la heksadesimali, kila herufi inawakilisha biti 4. Kwa hivyo, tutahifadhi tu tabia ya kwanza ya Hash. Kwa kifungu cha maneno 24, itakuwa muhimu kuzingatia herufi mbili za kwanza. Katika mfano wangu, hii inalingana na herufi: `a`. Kumbuka kwa uangalifu herufi hii mahali fulani kwenye laha yako, kisha uzime kompyuta yako.
+Ili kukamilisha maneno yetu ya Mnemonic, tunahitaji tu biti 4 za kwanza za Hash, ambazo zinajumuisha hundi. Katika umbizo la heksadesimali, kila herufi inawakilisha biti 4. Kwa hivyo, tutahifadhi tu tabia ya kwanza ya Hash. Kwa mnemonic phrase 24, itakuwa muhimu kuzingatia herufi mbili za kwanza. Katika mfano wangu, hii inalingana na herufi: `a`. Kumbuka kwa uangalifu herufi hii mahali fulani kwenye laha yako, kisha uzime kompyuta yako.
 
 
 Hatua inayofuata ni kubadilisha herufi hii ya heksadesimali (msingi 16) kuwa thamani ya jozi (msingi 2), kwani kifungu chetu cha maneno kimeundwa katika umbizo hili. Ili kufanya hivyo, unaweza kutumia jedwali lifuatalo la ubadilishaji:
@@ -368,16 +368,16 @@ Ni wakati wa uagizaji pekee ambapo unaweza kuthibitisha uhalali wa hundi yako. I
 Baada ya kuunda Wallet yako, usisahau kuweka nakala ya maneno yako ya urejeshaji kwenye nyenzo halisi, kama vile karatasi au chuma, na uharibu lahajedwali inayotumiwa wakati wa kuunda ili kuzuia uvujaji wowote wa taarifa.
 
 
-## Kesi Maalum ya Chaguo la Kusonga Kete kwenye Kadi Cold
+## Kesi Maalum ya Chaguo la Kusonga Dadi kwenye Kadi Cold
 
 
-Pochi za maunzi kutoka kwa familia ya Coldcard hutoa [kipengele kinachoitwa _Dice Roll_](https://youtu.be/Rc29d9m92xg?si=OeFW2iCGRvxexhK7), kwa generate maneno ya kurejesha akaunti ya Wallet yenye kete. Njia hii ni bora kwa sababu inakupa udhibiti wa moja kwa moja juu ya uundaji wa entropy, bila kuhitaji matumizi ya kifaa cha nje kwa kuhesabu cheki kama ilivyo kwenye somo letu.
+Pochi za maunzi kutoka kwa familia ya Coldcard hutoa [kipengele kinachoitwa _Dice Roll_](https://youtu.be/Rc29d9m92xg?si=OeFW2iCGRvxexhK7), kwa tengeneza maneno ya kurejesha akaunti ya Wallet yenye dadi. Njia hii ni bora kwa sababu inakupa udhibiti wa moja kwa moja juu ya uundaji wa entropy, bila kuhitaji matumizi ya kifaa cha nje kwa kuhesabu cheki kama ilivyo kwenye somo letu.
 
 
-Hata hivyo, matukio ya wizi wa Bitcoin yameripotiwa hivi karibuni kutokana na matumizi yasiyofaa ya kipengele hiki. Hakika, idadi ndogo sana ya kete inaweza kusababisha entropy haitoshi, kinadharia ikifanya iwezekanavyo kulazimisha maneno ya Mnemonic na kuiba bitcoins zinazohusiana. Ili kuepuka hatari hii, inashauriwa kufanya angalau kete 99 kwenye Coldcard, ambayo inahakikisha entropy ya kutosha.
+Hata hivyo, matukio ya wizi wa Bitcoin yameripotiwa hivi karibuni kutokana na matumizi yasiyofaa ya kipengele hiki. Hakika, idadi ndogo sana ya dadi inaweza kusababisha entropy haitoshi, kinadharia ikifanya iwezekanavyo kulazimisha maneno ya Mnemonic na kuiba bitcoins zinazohusiana. Ili kuepuka hatari hii, inashauriwa kufanya angalau dadi 99 kwenye Coldcard, ambayo inahakikisha entropy ya kutosha.
 
 
-Mbinu ya kutafsiri matokeo yaliyopendekezwa na Coldcard inatofautiana na ile iliyotolewa katika somo hili. Ingawa tunapendekeza roli 128 ili kufikia biti 128 za usalama kwenye mafunzo, Coldcard inapendekeza roli 99 kufikia biti 256 za usalama. Kwa hakika, katika mbinu yetu, ni matokeo mawili tu yanawezekana kwa kila safu ya kete: hata (`0`) au isiyo ya kawaida (`1`). Kwa hivyo, entropy inayotokana na kila safu ni sawa na `logi2(2)`. Kwa upande wa Coldcard, ambayo inazingatia nyuso sita zinazowezekana za kete (kutoka `1` hadi `6`), entropy per roll ni sawa na `logi2(6)`. Hii ndio sababu katika somo letu, tunahitaji kutekeleza safu zaidi ili kufikia kiwango sawa cha entropy.
+Mbinu ya kutafsiri matokeo yaliyopendekezwa na Coldcard inatofautiana na ile iliyotolewa katika somo hili. Ingawa tunapendekeza roli 128 ili kufikia biti 128 za usalama kwenye mafunzo, Coldcard inapendekeza roli 99 kufikia biti 256 za usalama. Kwa hakika, katika mbinu yetu, ni matokeo mawili tu yanawezekana kwa kila safu ya dadi: hata (`0`) au isiyo ya kawaida (`1`). Kwa hivyo, entropy inayotokana na kila safu ni sawa na `logi2(2)`. Kwa upande wa Coldcard, ambayo inazingatia nyuso sita zinazowezekana za dadi (kutoka `1` hadi `6`), entropy per roll ni sawa na `logi2(6)`. Hii ndio sababu katika somo letu, tunahitaji kutekeleza safu zaidi ili kufikia kiwango sawa cha entropy.
 
 
 ```plaintext

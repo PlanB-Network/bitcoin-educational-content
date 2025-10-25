@@ -1,0 +1,9 @@
+question: ¿Cuál era la actividad profesional de Spinoza?
+answer: Pulidor para visores astronómicos.
+wrong_answers:
+  - Minorista.
+  - Profesor de filosofía.
+  - Editorial.
+explanation: |
+  Para mantenerse, Spinoza trabajó como pulidor de lentes de telescopios astronómicos. Este trabajo manual le permitió mantener su independencia intelectual al tiempo que contribuía al progreso científico de su época.
+reviewed: false

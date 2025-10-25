@@ -1,5 +1,5 @@
 ---
-name: استون‌وال x2
+name: Stonewall x2
 description: درک و استفاده از تراکنش‌های Stonewall x2
 ---
 ![cover stonewall x2](assets/cover.webp)

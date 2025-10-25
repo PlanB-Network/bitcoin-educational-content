@@ -1,5 +1,5 @@
 ---
-name: CoinJoin - Samourai Wallet
+name: Coinjoin - Samourai Wallet
 description: Hur utför man en CoinJoin på Samourai Wallet?
 ---
 ![cover](assets/cover.webp)
@@ -113,7 +113,7 @@ Dessa krav vägledde utvecklarna av Samourai Wallet i utformningen av Whirlpool 
 **I slutändan finns det inget behov av att ha ett högt antal deltagare per CoinJoin på Whirlpool eftersom anonsets uppnås genom ackumulering av flera CoinJoin-cykler.**
 
 
-[-> Läs mer om Whirlpool anonsets.](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
+-> Läs mer om Whirlpool anonsets.
 
 
 ### Poolerna och CoinJoin-avgifter
@@ -602,7 +602,7 @@ För att en CoinJoin verkligen ska vara effektiv är det viktigt att den visar p
 För en djupgående undersökning av dessa indikatorer (Whirlpool-modellen är erkänd som den som ger mest homogenitet till coinjoins) hänvisar jag dig till handledningen: [BOLTZMANN KALKYLATOR](https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe)
 
 
-Därefter utvärderas prestandan hos flera CoinJoin-cykler baserat på omfattningen av de grupper i vilka ett mynt är dolt. Storleken på dessa grupper definierar vad som kallas anonsets. Det finns två typer av anonsets: den första bedömer den integritet som erhållits mot en retrospektiv analys (från nutid till dåtid) och den andra mot en prospektiv analys (från dåtid till nutid). För en detaljerad förklaring av dessa två indikatorer uppmanar jag dig att läsa handledningen: [Whirlpool STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
+Därefter utvärderas prestandan hos flera CoinJoin-cykler baserat på omfattningen av de grupper i vilka ett mynt är dolt. Storleken på dessa grupper definierar vad som kallas anonsets. Det finns två typer av anonsets: den första bedömer den integritet som erhållits mot en retrospektiv analys (från nutid till dåtid) och den andra mot en prospektiv analys (från dåtid till nutid). För en detaljerad förklaring av dessa två indikatorer uppmanar jag dig att läsa handledningen: Whirlpool STATS TOOLS - ANONSETS
 
 
 ## Hur hanterar man postmix?
@@ -632,12 +632,12 @@ Den enklaste och säkraste lösningen är att låta dina blandade UTXO:er vila p
 Därefter måste du vara försiktig med att hantera doxisk förändring, den förändring som inte kunde komma in i CoinJoin-poolen. Dessa toxiska UTXO:er, som är resultatet av användningen av Whirlpool, utgör en risk för din integritet eftersom de etablerar en koppling mellan dig och användningen av CoinJoin. Det är därför absolut nödvändigt att hantera dem med försiktighet och inte kombinera dem med andra UTXO:er, särskilt inte blandade UTXO:er. Här är olika strategier att överväga för deras användning:
 
 
-- Blanda dem i mindre pooler:** Om din giftiga UTXO är tillräckligt stor för att komma in i en mindre pool på egen hand, överväg att blanda den. Detta är ofta det bästa alternativet. Det är dock viktigt att inte slå samman flera giftiga UTXO för att komma in i en pool, eftersom detta kan länka dina olika poster.
-- Markera dem som "icke spenderbara":** Ett annat tillvägagångssätt är att sluta använda dem, markera dem som "icke spenderbara" på deras dedikerade konto och bara HODL. Detta säkerställer att du inte av misstag spenderar dem. Om värdet på Bitcoin ökar kan nya pooler som är mer lämpade för dina giftiga UTXO: er dyka upp;
-- Gör donationer:** Överväg att göra donationer, även blygsamma, till utvecklare som arbetar med Bitcoin och dess tillhörande programvara. Du kan också donera till organisationer som accepterar BTC. Om det verkar för komplicerat att hantera dina giftiga UTXO:er kan du helt enkelt bli av med dem genom att göra en donation;
-- Köp presentkort:** Plattformar som [Bitrefill] (https://www.bitrefill.com/) låter dig Exchange bitcoins för presentkort som kan användas hos olika handlare. Detta kan vara ett sätt att bli av med dina giftiga UTXO:er utan att förlora det tillhörande värdet;
-- Konsolidera dem på Monero:** Samourai Wallet erbjuder nu en atomic swap-tjänst mellan BTC och XMR. Detta är perfekt för att hantera giftiga UTXO:er genom att konsolidera dem på Monero, utan att äventyra din integritet via KYC, innan du skickar tillbaka dem till Bitcoin. Detta alternativ kan dock vara kostsamt när det gäller Mining-avgifter och premien på grund av likviditetsbegränsningar;
-- Skicka dem till Lightning Network:** Att överföra dessa UTXO:er till Lightning Network för att dra nytta av reducerade transaktionsavgifter är ett alternativ som kan vara intressant. Denna metod kan dock avslöja viss information beroende på din användning av Lightning och bör därför utövas med försiktighet.
+- Blanda dem i mindre pooler: Om din giftiga UTXO är tillräckligt stor för att komma in i en mindre pool på egen hand, överväg att blanda den. Detta är ofta det bästa alternativet. Det är dock viktigt att inte slå samman flera giftiga UTXO för att komma in i en pool, eftersom detta kan länka dina olika poster.
+- Markera dem som "icke spenderbara": Ett annat tillvägagångssätt är att sluta använda dem, markera dem som "icke spenderbara" på deras dedikerade konto och bara HODL. Detta säkerställer att du inte av misstag spenderar dem. Om värdet på Bitcoin ökar kan nya pooler som är mer lämpade för dina giftiga UTXO: er dyka upp;
+- Gör donationer: Överväg att göra donationer, även blygsamma, till utvecklare som arbetar med Bitcoin och dess tillhörande programvara. Du kan också donera till organisationer som accepterar BTC. Om det verkar för komplicerat att hantera dina giftiga UTXO:er kan du helt enkelt bli av med dem genom att göra en donation;
+- Köp presentkort: Plattformar som [Bitrefill](https://www.bitrefill.com/) låter dig Exchange bitcoins för presentkort som kan användas hos olika handlare. Detta kan vara ett sätt att bli av med dina giftiga UTXO:er utan att förlora det tillhörande värdet;
+- Konsolidera dem på Monero: Samourai Wallet erbjuder nu en atomic swap-tjänst mellan BTC och XMR. Detta är perfekt för att hantera giftiga UTXO:er genom att konsolidera dem på Monero, utan att äventyra din integritet via KYC, innan du skickar tillbaka dem till Bitcoin. Detta alternativ kan dock vara kostsamt när det gäller Mining-avgifter och premien på grund av likviditetsbegränsningar;
+- Skicka dem till Lightning Network: Att överföra dessa UTXO:er till Lightning Network för att dra nytta av reducerade transaktionsavgifter är ett alternativ som kan vara intressant. Denna metod kan dock avslöja viss information beroende på din användning av Lightning och bör därför utövas med försiktighet.
 
 
 Detaljerade handledningar om hur man implementerar dessa olika tekniker kommer snart att erbjudas på PlanB Network.
@@ -645,7 +645,7 @@ Detaljerade handledningar om hur man implementerar dessa olika tekniker kommer s
 
 **Ytterligare resurser:**
 
-[Samourai Wallet video tutorial](https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956)
+[Samourai Wallet video tutorial]()
 
 
 - [Samourai Wallet Dokumentation - Whirlpool](https://docs.samourai.io/Whirlpool/basic-concepts);

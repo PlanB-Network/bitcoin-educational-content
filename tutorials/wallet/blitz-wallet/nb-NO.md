@@ -93,19 +93,19 @@ En av de spesielle egenskapene til Blitz Wallet er at den støtter forskjellige 
 
 
 
-- Lightning Network** : Et av Bitcoin-overlayene som lar deg utføre mikrotransaksjoner umiddelbart.
+- **Lightning Network**: Et av Bitcoin-overlayene som lar deg utføre mikrotransaksjoner umiddelbart.
 
 
 
 
 
-- Bitcoin Mainnet** : Hovedkjeden i Bitcoin-protokollen, egnet for transaksjoner med store verdier.
+- **Bitcoin Mainnet**: Hovedkjeden i Bitcoin-protokollen, egnet for transaksjoner med store verdier.
 
 
 
 
 
-- Liquid Network**: En parallellkjede til Bitcoin Mainnet utviklet av BlockStream som bruker Liquid Bitcoins til å utføre raske, Confidential Transactions.
+- **Liquid Network**: En parallellkjede til Bitcoin Mainnet utviklet av BlockStream som bruker Liquid Bitcoins til å utføre raske, Confidential Transactions.
 
 
 
@@ -169,7 +169,7 @@ I tillegg til Bitcoin-overføringer tilbyr Blitz Wallet deg en butikk der du kan
 
 
 
-- Få tilgang til AI-tjenester**: Bruk generative modeller for kunstig intelligens som f.eks: Claude 3-5 sonnet, gpt-4o, gpt-4o-mini gemini-flash-1.5 og betal direkte i bitcoins.
+- **Få tilgang til AI-tjenester**: Bruk generative modeller for kunstig intelligens som f.eks: Claude 3-5 sonnet, gpt-4o, gpt-4o-mini gemini-flash-1.5 og betal direkte i bitcoins.
 
 
 
@@ -179,7 +179,7 @@ I tillegg til Bitcoin-overføringer tilbyr Blitz Wallet deg en butikk der du kan
 
 
 
-- Send tekstmeldinger hvor som helst i verden**: I Blitz-butikken har du tilgang til en GSM-tjeneste som lar deg sende tekstmeldinger anonymt hvor som helst i verden, med direkte fakturering i Bitcoin.
+- **Send tekstmeldinger hvor som helst i verden**: I Blitz-butikken har du tilgang til en GSM-tjeneste som lar deg sende tekstmeldinger anonymt hvor som helst i verden, med direkte fakturering i Bitcoin.
 
 
 
@@ -189,7 +189,7 @@ I tillegg til Bitcoin-overføringer tilbyr Blitz Wallet deg en butikk der du kan
 
 
 
-- Surf i total konfidensialitet**: Betal for et WireGuard VPN-abonnement (Virtual Private Network) i Wallet Blitz-butikken med dine bitcoins.
+- **Surf i total konfidensialitet**: Betal for et WireGuard VPN-abonnement (Virtual Private Network) i Wallet Blitz-butikken med dine bitcoins.
 
 
 
@@ -249,7 +249,7 @@ Ved å aktivere Lightning-modus, når hovedbetingelsen er oppfylt (saldo på 500
 
 
 
-- Ta imot Bitcoin i butikken din** :
+- **Ta imot Bitcoin i butikken din**:
 
 
 
@@ -270,4 +270,3 @@ Hvis denne veiledningen hjalp deg med å få grep om Blitz, er vi sikre på at d
 
 
 https://planb.network/tutorials/wallet/mobile/muun-111b56b0-4872-4130-ad2e-e58f8363451d
-

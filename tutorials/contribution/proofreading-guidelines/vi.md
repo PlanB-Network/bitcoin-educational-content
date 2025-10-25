@@ -205,7 +205,7 @@ Dưới đây bạn có thể tìm thấy một số ví dụ về các vấn đ
 
 
 
-- Hãy chú ý đến dấu câu kỳ lạ như `\*\*\` hoặc ``**`` có thể biểu thị cách thể hiện không tốt của ký hiệu in đậm. Trong hình ảnh bên dưới, bạn có thể thấy dấu hoa thị chỉ ở bên phải từ, trông kỳ lạ.
+- Hãy chú ý đến dấu câu kỳ lạ như `**` hoặc `**` có thể biểu thị cách thể hiện không tốt của ký hiệu in đậm. Trong hình ảnh bên dưới, bạn có thể thấy dấu hoa thị chỉ ở bên phải từ, trông kỳ lạ.
 
 
 
@@ -234,61 +234,73 @@ Hãy đảm bảo kiểm tra tệp ngôn ngữ gốc (thường là EN hoặc FR
 
 ![REVIEW](assets/en/11.webp)
 
-
-
 ## Kiểm tra bài kiểm tra
 
 
-Bạn có biết bạn cũng có thể hiệu đính các câu hỏi trắc nghiệm trong mọi khóa học không? Ví dụ, nếu bạn muốn hiệu đính các câu hỏi trắc nghiệm cho môn BTC101 trong CNTT, bạn có thể mở một nhánh chuyên dụng và theo đường dẫn này: "courses" -> "BTC101" -> "quiz". Ở đó, bạn sẽ tìm thấy tất cả các thư mục dành riêng cho từng câu hỏi, cùng với tệp ngôn ngữ liên quan ở định dạng _yml_.
+Bạn có biết bạn cũng có thể hiệu đính các câu hỏi trắc nghiệm trong mỗi khóa học không? Ví dụ: nếu bạn muốn hiệu đính các câu hỏi trắc nghiệm cho môn BTC101 ngành CNTT, bạn có thể mở một nhánh riêng và làm theo đường dẫn sau: "courses" -> "BTC101" -> "quiz". Tại đó, bạn sẽ tìm thấy tất cả các thư mục dành riêng cho từng câu hỏi, cùng với tệp ngôn ngữ liên quan ở định dạng _yml_.
 
 
 Một lần nữa, hãy đảm bảo rằng bạn đang ở chi nhánh chuyên dụng mà bạn mở cho mục đích này và luôn thông báo cho người điều phối.
 
 
-Sau khi xem xét câu hỏi, hãy đảm bảo bạn thay đổi trạng thái "đã xem xét" từ "sai" thành "đúng" như hình ảnh bên dưới.
-
+Một điều quan trọng cần lưu ý khi hiệu đính loại tệp _yml_ này là tránh thêm dấu hai chấm ``:`` vào trong văn bản. Thực tế, dấu hai chấm **chỉ** được sử dụng để phân tách các cặp khóa-giá trị như "wrong_answers" với phần còn lại. Bạn có thể xem ví dụ trong hình ảnh bên dưới:
 
 
 ![REVIEW](assets/en/12.webp)
 
 
-## Hiệu đính thuật ngữ
-
-
-Giống như các bài kiểm tra, bạn cũng có thể đọc lại phần chú giải thuật ngữ. Phần chú giải thuật ngữ gốc được viết bằng tiếng Pháp, vì vậy bạn sẽ tìm thấy những câu như: "Trong tiếng Pháp, cụm từ này có thể được dịch thành..."
-
-
-Trong những trường hợp như thế này, hãy sửa đổi câu này sang ngôn ngữ đích của bạn hoặc sang tiếng Anh.
-
-
-## Các biện pháp thực hành tốt nhất khác
-
-
-
-- Nếu bạn cần tìm kiếm các từ cụ thể trong văn bản, bạn có thể nhấp vào ``CTRL+F`` và phần tìm-thay thế sẽ xuất hiện. Phần này rất hữu ích khi bạn cần chuyển đến một phần cụ thể của văn bản hoặc bạn cần thay thế các từ/câu cụ thể theo lô mà không cần cuộn toàn bộ nội dung.
+Sau khi xem lại câu hỏi, hãy đảm bảo bạn đổi trạng thái "đã xem lại" từ "sai" thành "đúng" như hình minh họa bên dưới. Hãy đảm bảo sử dụng các từ trạng thái này bằng tiếng Anh, bất kể bạn đang làm việc với ngôn ngữ nào!
 
 
 
 ![REVIEW](assets/en/13.webp)
 
 
-
-Khi sử dụng chức năng "thay thế tất cả", điều quan trọng là phải kiểm tra lại kết quả để đảm bảo rằng các liên kết cũng không bị thay đổi. Ví dụ, nếu bạn muốn đổi từ "Bitcoin" thành "Bitkoin" (có thể cần thiết trong một số ngôn ngữ), sử dụng chức năng "thay thế tất cả" có thể cập nhật hiệu quả tất cả các trường hợp trong văn bản. Tuy nhiên, hãy lưu ý rằng công cụ này cũng sẽ sửa đổi bất kỳ liên kết nào có chứa từ đó, có khả năng dẫn đến các vấn đề chuyển hướng.
-
-
-Trong ví dụ dưới đây, người hiệu đính đã sử dụng hàm trên để thay thế "Satoshi" bằng "Satoshi(Sats)", và cũng thay đổi liên kết đến một hướng dẫn có chứa từ đó. Do đó, liên kết trở nên không hợp lệ.
+Nếu dòng trạng thái "reviewed:true" bị thiếu, hãy nhớ **thêm dòng này vào cuối bài kiểm tra**.
 
 
-Luôn kiểm tra lại tất cả các siêu liên kết trong văn bản để đảm bảo chúng chính xác.
+## Hiệu đính thuật ngữ
 
+
+Giống như bài kiểm tra, bạn cũng có thể đọc lại phần chú giải thuật ngữ. Bản gốc của phần chú giải thuật ngữ được viết bằng tiếng Pháp, vì vậy bạn sẽ thấy những câu như: "Trong tiếng Pháp, cụm từ này có thể được dịch thành..."
+
+
+Trong những trường hợp như vậy, hãy điều chỉnh câu sang ngôn ngữ đích hoặc tiếng Anh. Ví dụ, bạn có thể viết "Trong tiếng Anh, cụm từ này...".
+
+Nếu tiêu đề được để bằng tiếng Anh, bạn có thể điều chỉnh câu sang ngôn ngữ của mình: "Trong tiếng Swahili, thành ngữ này..."
+
+
+Ngoài ra, hãy đảm bảo viết tiêu đề bằng CHỮ IN HOA.
 
 
 ![REVIEW](assets/en/14.webp)
 
 
+## Tiêu đề và mô tả về PR của bạn
 
 
-- Tiếp theo chủ đề, nếu tác giả chèn liên kết tham chiếu đến khóa học hoặc hướng dẫn Plan ₿ Network (**không** trong dấu ngoặc đơn), trang web sẽ tự động tạo một "thẻ" hiển thị hình thu nhỏ liên quan. Do đó, hãy luôn đảm bảo rằng bạn **có khoảng cách giữa văn bản và chính liên kết**, nếu không, bạn có thể thấy lỗi sau trên trang web.
+Khi bạn gửi PR, sẽ thật tuyệt nếu bạn đặt tên theo định dạng này: [ĐANG KIỂM TRA] TÊN NỘI DUNG - NGÔN NGỮ:
+
+
+```
+[PROOFREADING] BTC101 - ENGLISH
+```
+
+
+Ngoài ra, trong **phần bình luận của PR**, bạn có thể viết "closes" + số của vấn đề mà người điều phối đã gửi cho bạn khi bạn bắt đầu nhiệm vụ hiệu đính, bắt đầu bằng ``#``.
+
+Ví dụ, nếu bạn vừa gửi PR kèm theo bản hiệu đính của cyp201 + bài kiểm tra, bạn có thể viết "đóng [#2934](https://github.com/PlanB-Network/Bitcoin-educational-content/issues/2934)".
+
+
+Theo cách này, PR và vấn đề sẽ được kết nối và bất kỳ ai đọc kho lưu trữ Github công khai đều có thể dễ dàng tìm thấy thông tin.
+
+
+
+## Các phương pháp hay nhất khác
+
+
+
+- Nếu bạn cần tìm kiếm các từ cụ thể trong văn bản, bạn có thể nhấn ``CTRL+F`` và mục tìm kiếm-thay thế sẽ xuất hiện. Tính năng này rất hữu ích khi bạn cần chuyển đến một phần cụ thể của văn bản, hoặc cần thay thế hàng loạt các từ/câu cụ thể mà không cần cuộn toàn bộ nội dung.
 
 
 
@@ -296,19 +308,57 @@ Luôn kiểm tra lại tất cả các siêu liên kết trong văn bản để 
 
 
 
+Khi sử dụng chức năng "thay thế tất cả", điều quan trọng là phải kiểm tra lại kết quả để đảm bảo rằng các liên kết không bị thay đổi. Ví dụ: nếu bạn muốn đổi từ "Bitcoin" thành "Bitkoin" (điều này có thể cần thiết trong một số ngôn ngữ), việc sử dụng chức năng "thay thế tất cả" có thể cập nhật hiệu quả tất cả các trường hợp trong văn bản. Tuy nhiên, lưu ý rằng công cụ này cũng sẽ sửa đổi bất kỳ liên kết nào chứa từ đó, có khả năng dẫn đến sự cố chuyển hướng.
 
 
-- Cuối cùng, một cách thực hành tốt nhất khác để áp dụng khi bạn hoàn thành nhiệm vụ hiệu đính và gửi PR là quay lại vấn đề gốc mà người điều phối mở ra và bình luận "Đã hiệu đính xong". **Đảm bảo chèn liên kết PR của bạn vào đó**.
+Trong ví dụ dưới đây, người hiệu đính đã sử dụng hàm trên để thay thế "Satoshi" bằng "Satoshi(Sats)", đồng thời thay đổi liên kết đến một hướng dẫn có chứa chính từ đó. Kết quả là liên kết trở nên không hợp lệ.
 
+
+Luôn kiểm tra lại tất cả các siêu liên kết trong văn bản để đảm bảo chúng chính xác.
+
+
+
+![REVIEW](assets/en/16.webp)
+
+
+
+
+- Tiếp theo chủ đề, nếu tác giả chèn liên kết đến khóa học hoặc bài hướng dẫn Plan ₿ Network (**không** nằm trong dấu ngoặc đơn), trang web sẽ tự động tạo một "thẻ" hiển thị hình thu nhỏ liên quan. Do đó, hãy luôn đảm bảo **thêm một dòng mới giữa văn bản và liên kết**, nếu không bạn có thể thấy lỗi sau trên trang web.
+
+
+
+![REVIEW](assets/en/17.webp)
+
+
+Điều tương tự cũng xảy ra với "mã hình ảnh" như thế này ``[IMAGE](asset/fr/001.webp)``: hãy đảm bảo bạn luôn thêm một dòng mới giữa mã hình ảnh và văn bản. Ví dụ bên dưới:
+
+
+```
+WRONG CONFIGURATION:
+- to start translating, click on the button `Translate`: ![language](assets/08.webp)
+To save, click on `save`!
+
+
+RIGHT CONFIGURATION:
+
+- to start translating, click on the button `Translate`:
+
+![language](assets/08.webp)
+
+To save, click on `save`!
+```
 
 
 ## Phần kết luận
 
 
-Tóm lại, việc nhận thức được những lỗi thường gặp của người hiệu đính có thể thực sự giúp bạn cải thiện kỹ năng khi kiểm tra nội dung. Thật dễ dàng để bỏ qua những thứ như ngữ cảnh hoặc tính nhất quán, và việc phát hiện ra những lỗi này có thể tạo ra sự khác biệt lớn.
+Tóm lại, việc nhận biết những lỗi thường gặp của người hiệu đính có thể thực sự giúp bạn cải thiện kỹ năng kiểm tra nội dung. Chúng ta rất dễ bỏ qua những yếu tố như ngữ cảnh hoặc tính nhất quán, và việc phát hiện ra những lỗi này có thể tạo ra sự khác biệt lớn.
 
 
-Luôn nhớ rằng người mới bắt đầu có thể đọc các khóa học và hướng dẫn này, vì vậy chúng tôi có trách nhiệm đảm bảo rằng họ hiểu đầy đủ. Là người hiệu đính, bạn là một nhà giáo dục!
+Hãy luôn nhớ rằng người mới bắt đầu có thể đọc các khóa học và hướng dẫn này, vì vậy chúng tôi có trách nhiệm đảm bảo họ hiểu đầy đủ. Là một người hiệu đính, bạn cũng chính là một nhà giáo dục!
 
 
-Cảm ơn bạn đã đọc hướng dẫn này và chúc bạn có chuyến hành trình hiệu đính vui vẻ!
+Giờ bạn đã sẵn sàng bắt đầu các khóa học hiệu đính, hướng dẫn, bài kiểm tra và từ vựng. Hãy theo dõi để bắt đầu kiểm tra hình ảnh và bản ghi video nhé ;)
+
+
+Cảm ơn bạn đã đọc hướng dẫn này và chúc bạn có một hành trình hiệu đính tuyệt vời!

@@ -277,7 +277,7 @@ git push origin tuto-green-wallet-loic
 
 ## Content creation standards
 
-- Formatting supported on the platform**:
+- **Formatting supported on the platform**:
     - Classic Markdown: lists, links, images, quotes, bold, italics, etc.
     - LaTeX (block only, not inline): delimited by `$$`.
     - Inline code: Syntax with a single backtick.
@@ -287,13 +287,13 @@ git push origin tuto-green-wallet-loic
 print("Hello, Bitcoin!")
 ```
 
-- Illustrations and diagrams**:
+- **Illustrations and diagrams**:
     - All images must be in WebP format. Use this free tool to convert them if required: [ImagesConverter](https://github.com/LoicPandul/ImagesConverter).
     - Name visuals with 2 or 3 digits (e.g. `001.webp`, `002.webp`).
     - For mobile or hardware wallet tutorials, use mock-ups.
     - Use only self-created or royalty-free visuals.
     - Make sure they are relevant and of high quality.
-- Graphic charter**:
+- **Graphic charter**:
     - Font: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans).
     - Colors Plan ₿ Network:
         - Orange: `#FF5C00`

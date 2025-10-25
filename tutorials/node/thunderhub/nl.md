@@ -19,10 +19,10 @@ ThunderHub is een **open-source manager voor Lightning nodes (LND)**, die een in
 
 
 
-- Bewaking**: Globaal overzicht van saldi, kanalen, transacties, routingstatistieken
-- Beheer**: Kanalen openen/sluiten, inkomende/uitgaande betalingen, kanaalbalancering
-- Integraties**: LNURL ondersteuning, swaps via Boltz, Amboss back-up
-- Interface responsief**: Compatibel met mobiele, tablet- en desktopapparaten met donkere/lichte thema's
+- **Bewaking**: Globaal overzicht van saldi, kanalen, transacties, routingstatistieken
+- **Beheer**: Kanalen openen/sluiten, inkomende/uitgaande betalingen, kanaalbalancering
+- **Integraties**: LNURL ondersteuning, swaps via Boltz, Amboss back-up
+- **Interface responsief**: Compatibel met mobiele, tablet- en desktopapparaten met donkere/lichte thema's
 
 
 
@@ -30,7 +30,7 @@ ThunderHub integreert eenvoudig met **Umbrel**, **Voltage**, **RaspiBlitz** en *
 
 
 
-**ThunderHub is met name geschikt voor operators die op zoek zijn naar een ergonomische Interface om hun kanalen te beheren, liquiditeit (rebalancing) te controleren, transacties te monitoren en diensten van derden zoals Amboss te integreren. Beveiliging is verzekerd via een lokale of Tor-verbinding.
+**ThunderHub is met name geschikt voor operators die op zoek zijn naar een ergonomische Interface om hun kanalen te beheren, liquiditeit (rebalancing) te controleren, transacties te monitoren en diensten van derden zoals Amboss te integreren. Beveiliging is verzekerd via een lokale of Tor-verbinding.**
 
 
 
@@ -58,8 +58,8 @@ Umbrel integreert ThunderHub in zijn **App Store**, waardoor installatie extreem
 
 
 
-- Open het Umbrel dashboard**: Maak verbinding met het Interface web van je Umbrel knooppunt (bijvoorbeeld `http://umbrel.local` op je lokale netwerk, of via zijn `.onion` Address als je Tor gebruikt).
-- Ga naar de App Store**: Klik in het hoofdmenu van Umbrel op "App Store" (of "App"). Zoek naar **ThunderHub** in de lijst met beschikbare applicaties.
+- **Open het Umbrel dashboard**: Maak verbinding met het Interface web van je Umbrel knooppunt (bijvoorbeeld `http://umbrel.local` op je lokale netwerk, of via zijn `.onion` Address als je Tor gebruikt).
+- Ga naar de **App Store**: Klik in het hoofdmenu van Umbrel op "App Store" (of "App"). Zoek naar **ThunderHub** in de lijst met beschikbare applicaties.
 
 
 
@@ -69,13 +69,13 @@ Umbrel integreert ThunderHub in zijn **App Store**, waardoor installatie extreem
 
 
 
-- Installeer ThunderHub**: Klik op de ThunderHub-toepassing en vervolgens op de knop Installeren. Bevestig indien nodig. Umbrel zal ThunderHub automatisch downloaden en implementeren op uw knooppunt.
+- **Installeer ThunderHub**: Klik op de ThunderHub-toepassing en vervolgens op de knop Installeren. Bevestig indien nodig. Umbrel zal ThunderHub automatisch downloaden en implementeren op uw knooppunt.
 
 
 
 
 
-- Start de toepassing**: Zodra de installatie is voltooid (enkele tientallen seconden), verschijnt ThunderHub op uw startpagina. Klik op het pictogram om het te openen. ThunderHub wordt gestart in uw browser.
+- **Start de toepassing**: Zodra de installatie is voltooid (enkele tientallen seconden), verschijnt ThunderHub op uw startpagina. Klik op het pictogram om het te openen. ThunderHub wordt gestart in uw browser.
 
 
 
@@ -88,8 +88,8 @@ Umbrel integreert ThunderHub in zijn **App Store**, waardoor installatie extreem
 
 
 
-- Sla dit wachtwoord onmiddellijk** op in uw wachtwoordmanager
-- Kopieer het** voor gebruik in de volgende stap
+- Sla dit wachtwoord **onmiddellijk** op in uw wachtwoordmanager
+- Kopieer het **voor gebruik in de volgende stap**
 - Vink "Dit niet meer tonen" aan zodra het wachtwoord is opgeslagen
 
 
@@ -127,8 +127,8 @@ Voor gebruikers buiten Umbrel (bijvoorbeeld op een persoonlijke server, een Rasp
 
 
 
-- Node.js** versie 18 of hoger
-- npm** geïnstalleerd
+- **Node.js** versie 18 of hoger
+- **npm** geïnstalleerd
 - Toegang tot LND authenticatiebestanden :
   - LND TLS-certificaat (`tls.cert`)
   - LND administratiemacaron (`admin.macaroon`)
@@ -304,8 +304,8 @@ De ThunderHub aanmeldpagina verschijnt. Selecteer de geconfigureerde account en 
 
 
 
-- Installatie:** [docs.thunderhub.io/installatie](https://docs.thunderhub.io/installation)
-- Configuratie:** [docs.thunderhub.io/setup](https://docs.thunderhub.io/setup)
+- **Installatie:** [docs.thunderhub.io/installatie](https://docs.thunderhub.io/installation)
+- **Configuratie:** [docs.thunderhub.io/setup](https://docs.thunderhub.io/setup)
 
 
 
@@ -327,18 +327,18 @@ Interface ThunderHub is opgebouwd rond een hoofdmenu (meestal weergegeven in de 
 
 
 
-- Home** - tabblad Home met een algemeen dashboard (overzicht van je knooppunt en snelle acties).
-- Dashboard** - Aanpasbaar dashboard met widgets en geavanceerde statistieken.
-- Peers** - Bliksem peer management (verbindingen met andere nodes).
-- Kanalen** - Gedetailleerd beheer van Lightning-kanalen.
-- Rebalance** - tool voor kanaalbalancering (circulaire betalingen).
-- Transacties** - Bliksem betalingsgeschiedenis (LN transacties).
-- Forwards** - Routingstatistieken (betalingen doorgegeven door je knooppunt).
-- Chain** - Node's On-Chain Wallet (On-Chain BTC: UTXO's, transacties).
-- Amboss** - Integratie met Amboss (nodebewaking, back-ups, enz.).
-- Tools** - Diverse tools (back-ups, ondertekende berichten, macarons, rapporten, etc.).
-- Wissel** - On-Chain/Lightning wisselfuncties via Boltz.
-- Stats** - Geavanceerde statistieken en statistieken over knooppuntprestaties.
+- **Home** - tabblad Home met een algemeen dashboard (overzicht van je knooppunt en snelle acties).
+- **Dashboard** - Aanpasbaar dashboard met widgets en geavanceerde statistieken.
+- **Peers** - Bliksem peer management (verbindingen met andere nodes).
+- **Kanalen** - Gedetailleerd beheer van Lightning-kanalen.
+- **Rebalance** - tool voor kanaalbalancering (circulaire betalingen).
+- **Transacties** - Bliksem betalingsgeschiedenis (LN transacties).
+- **Forwards** - Routingstatistieken (betalingen doorgegeven door je knooppunt).
+- **Chain** - Node's On-Chain Wallet (On-Chain BTC: UTXO's, transacties).
+- **Amboss** - Integratie met Amboss (nodebewaking, back-ups, enz.).
+- **Tools** - Diverse tools (back-ups, ondertekende berichten, macarons, rapporten, etc.).
+- **Wissel** - On-Chain/Lightning wisselfuncties via Boltz.
+- **Stats** - Geavanceerde statistieken en statistieken over knooppuntprestaties.
 
 
 
@@ -360,32 +360,32 @@ Het tabblad **Home** van ThunderHub is de startpagina die verschijnt nadat u ben
 
 
 
-- Saldi en capaciteiten:** Bovenaan de pagina toont ThunderHub je beschikbare saldi. Hier zie je meestal het On-Chain saldo (Bitcoin On-Chain in de Wallet van het knooppunt, gesymboliseerd door een Anchor ⚓) en het Lightning saldo (de capaciteiten van je kanalen, gesymboliseerd door een Bolt ⚡ bliksemschicht). Dit geeft je direct een idee van de fondsen die je hebt in On-Chain en Lightning. Als je meerdere accounts of kanalen hebt, controleer dan of je op de juiste zit (bijvoorbeeld Mainnet vs Testnet).
+- **Saldi en capaciteiten:** Bovenaan de pagina toont ThunderHub je beschikbare saldi. Hier zie je meestal het On-Chain saldo (Bitcoin On-Chain in de Wallet van het knooppunt, gesymboliseerd door een Anchor ⚓) en het Lightning saldo (de capaciteiten van je kanalen, gesymboliseerd door een Bolt ⚡ bliksemschicht). Dit geeft je direct een idee van de fondsen die je hebt in On-Chain en Lightning. Als je meerdere accounts of kanalen hebt, controleer dan of je op de juiste zit (bijvoorbeeld Mainnet vs Testnet).
 
 
 
 
 
-- Belangrijkste statistieken:** Het dashboard kan een aantal globale statistieken voor je knooppunt laten zien - bijvoorbeeld het aantal open kanalen, het aantal verbonden peers, verdiende routing fees (indien van toepassing), enz. Het is een samenvatting van de recente activiteit en gezondheid van het knooppunt.
+- **Belangrijkste statistieken:** Het dashboard kan een aantal globale statistieken voor je knooppunt laten zien - bijvoorbeeld het aantal open kanalen, het aantal verbonden peers, verdiende routing fees (indien van toepassing), enz. Het is een samenvatting van de recente activiteit en gezondheid van het knooppunt.
 
 
 
 
 
-- Snelle acties:** Het dashboard bevat knoppen om de meest voorkomende taken snel uit te voeren, zonder door menu's te hoeven navigeren. Deze snelle acties omvatten :
+- **Snelle acties:** Het dashboard bevat knoppen om de meest voorkomende taken snel uit te voeren, zonder door menu's te hoeven navigeren. Deze snelle acties omvatten :
 
 
 
 
 
-  - Ghost**: Stel een aangepaste Lightning Address in via Amboss.
-  - Doneren**: Doe een donatie via Lightning.
-  - Inloggen/Ga naar**: Maak verbinding met uw Amboss account (Quick Connect) en ga direct naar Amboss.space om de informatie van uw node te bekijken.
-  - Address** : Voer een Lightning Address in om een betaling te doen.
-  - Openen**: Open een nieuw Lightning-kanaal. Klikken opent een formulier voor het invoeren van de URI van het externe knooppunt waarnaar de chatroom moet worden geopend, het bedrag en, indien van toepassing, de maximale On-Chain-vergoeding die moet worden gebruikt.
-  - Decode**: Decodeer een Lightning Invoice of LNURL om details te bekijken voor betaling.
-  - LNURL**: LNURL's verwerken voor Lightning-betalingen of -opnames.
-  - Inloggen bij LnMarkets**: Log in bij LnMarkets om te handelen.
+- **Ghost**: Stel een aangepaste Lightning Address in via Amboss.
+- **Doneren**: Doe een donatie via Lightning.
+- **Inloggen/Ga naar**: Maak verbinding met uw Amboss account (Quick Connect) en ga direct naar Amboss.space om de informatie van uw node te bekijken.
+- **Address**: Voer een Lightning Address in om een betaling te doen.
+- **Openen**: Open een nieuw Lightning-kanaal. Klikken opent een formulier voor het invoeren van de URI van het externe knooppunt waarnaar de chatroom moet worden geopend, het bedrag en, indien van toepassing, de maximale On-Chain-vergoeding die moet worden gebruikt.
+- **Decode**: Decodeer een Lightning Invoice of LNURL om details te bekijken voor betaling.
+- **LNURL**: LNURL's verwerken voor Lightning-betalingen of -opnames.
+- **Inloggen bij LnMarkets**: Log in bij LnMarkets om te handelen.
 
 
 
@@ -407,7 +407,7 @@ Het **Dashboard** gedeelte staat los van het tabblad Home en biedt een geavancee
 
 
 
-- Aanpasbare widgets:** In tegenstelling tot de startpagina, die een vaste lay-out heeft, kun je in het Dashboard precies kiezen welke Elements je wilt weergeven en hoe je ze wilt organiseren.
+- **Aanpasbare widgets:** In tegenstelling tot de startpagina, die een vaste lay-out heeft, kun je in het Dashboard precies kiezen welke Elements je wilt weergeven en hoe je ze wilt organiseren.
 
 
 
@@ -445,19 +445,19 @@ Eenmaal geconfigureerd kan je dashboard verschillende grafieken en statistieken 
 
 
 
-- Geavanceerde statistieken:** Krijg toegang tot meer gedetailleerde statistieken over de prestaties van je node, met grafieken en realtime gegevens.
+- **Geavanceerde statistieken:** Krijg toegang tot meer gedetailleerde statistieken over de prestaties van je node, met grafieken en realtime gegevens.
 
 
 
 
 
-- Configureerbaar overzicht:** Pas het display aan je wensen aan, of je nu een gewone gebruiker bent of een professionele operator die meerdere routingkanalen beheert.
+- **Configureerbaar overzicht:** Pas het display aan je wensen aan, of je nu een gewone gebruiker bent of een professionele operator die meerdere routingkanalen beheert.
 
 
 
 
 
-- Modulaire Interface:** Voeg naar behoefte widgets toe of verwijder ze: voorwaartse grafieken, liquiditeitsmetriek, node gezondheidswaarschuwingen, enz.
+- **Modulaire Interface:** Voeg naar behoefte widgets toe of verwijder ze: voorwaartse grafieken, liquiditeitsmetriek, node gezondheidswaarschuwingen, enz.
 
 
 
@@ -483,8 +483,8 @@ Op het tabblad Peers zie je :
 
 
 
-- Informatiekolommen:** De Interface toont nuttige details zoals synchronisatiestatus, verbindingstype (clearnet of Tor), ping, ontvangen/verzonden satoshi's en volume van de uitgewisselde gegevens.
-- Een peer toevoegen:** Met ThunderHub kun je handmatig verbinding maken met een nieuwe peer via de **"Add"** knop in de rechterbovenhoek. Je moet de URI van het knooppunt invoeren (formaat `<public_key>@<socket>`). Eenmaal gevalideerd, stuurt ThunderHub het bijbehorende `lncli connect` commando. Als het knooppunt online en toegankelijk is, wordt het toegevoegd aan je lijst met peers.
+- **Informatiekolommen:** De Interface toont nuttige details zoals synchronisatiestatus, verbindingstype (clearnet of Tor), ping, ontvangen/verzonden satoshi's en volume van de uitgewisselde gegevens.
+- Een peer toevoegen: Met ThunderHub kun je handmatig verbinding maken met een nieuwe peer via de **"Add"** knop in de rechterbovenhoek. Je moet de URI van het knooppunt invoeren (formaat `<public_key>@<socket>`). Eenmaal gevalideerd, stuurt ThunderHub het bijbehorende `lncli connect` commando. Als het knooppunt online en toegankelijk is, wordt het toegevoegd aan je lijst met peers.
 
 
 
@@ -506,31 +506,31 @@ Dit is wat je kunt vinden op de Kanalen-pagina:
 
 
 
-- Kanaallijstweergave:** Elk open (of openend/sluitend) kanaal wordt weergegeven, meestal met de alias van het externe knooppunt, de totale kanaalcapaciteit en een gekleurde balk die de verdeling van lokale vs. externe liquiditeit illustreert. ThunderHub gebruikt een kleurcode (vaak blauw/Green) of percentage om de kanaalbalans aan te geven: bijvoorbeeld blauw voor het lokale aandeel, Green voor het aandeel op afstand. Als een kanaal perfect in balans is (50/50), zal de balk de helft van elke kleur zijn. Zo kun je in één oogopslag zien welke kanalen uit balans zijn (helemaal blauw = bijna helemaal lokaal, helemaal Green = bijna helemaal op afstand).
+- **Kanaallijstweergave:** Elk open (of openend/sluitend) kanaal wordt weergegeven, meestal met de alias van het externe knooppunt, de totale kanaalcapaciteit en een gekleurde balk die de verdeling van lokale vs. externe liquiditeit illustreert. ThunderHub gebruikt een kleurcode (vaak blauw/Green) of percentage om de kanaalbalans aan te geven: bijvoorbeeld blauw voor het lokale aandeel, Green voor het aandeel op afstand. Als een kanaal perfect in balans is (50/50), zal de balk de helft van elke kleur zijn. Zo kun je in één oogopslag zien welke kanalen uit balans zijn (helemaal blauw = bijna helemaal lokaal, helemaal Green = bijna helemaal op afstand).
 
 
 
 
 
-- Informatiekolommen:** De Interface toont gedetailleerde kolommen waaronder Status, Beschikbare acties, Peerinfo, Kanaal-ID, Capaciteit, Activiteit, Kosten en Saldo met grafische liquiditeitsweergave.
+- **Informatiekolommen:** De Interface toont gedetailleerde kolommen waaronder Status, Beschikbare acties, Peerinfo, Kanaal-ID, Capaciteit, Activiteit, Kosten en Saldo met grafische liquiditeitsweergave.
 
 
 
 
 
-- Weergaveconfiguratie:** Met een tandwiel in de rechterbovenhoek kun je de kanaalweergave aan je voorkeuren aanpassen.
+- **Weergaveconfiguratie:** Met een tandwiel in de rechterbovenhoek kun je de kanaalweergave aan je voorkeuren aanpassen.
 
 
 
 
 
-- Status:** Je ziet ook statusindicatoren - bijvoorbeeld `Actief` (het kanaal is open en operationeel), `Offline` (de verbinding met de peer is verbroken, dus het kanaal is tijdelijk onbruikbaar), `Pending` (voor openingen of sluitingen die wachten op On-Chain bevestiging).
+- **Status:** Je ziet ook statusindicatoren - bijvoorbeeld `Actief` (het kanaal is open en operationeel), `Offline` (de verbinding met de peer is verbroken, dus het kanaal is tijdelijk onbruikbaar), `Pending` (voor openingen of sluitingen die wachten op On-Chain bevestiging).
 
 
 
 
 
-- Acties op een kanaal:** Voor elk kanaal biedt ThunderHub actieknoppen (vaak in de vorm van pictogrammen):
+- **Acties op een kanaal:** Voor elk kanaal biedt ThunderHub actieknoppen (vaak in de vorm van pictogrammen):
 
 
 
@@ -540,9 +540,9 @@ Dit is wat je kunt vinden op de Kanalen-pagina:
 
 
 
-  - Vergoedingen bewerken:** Met Interface "Kanaalbeleid bijwerken" kun je alle kanaalparameters aanpassen: Base Fee, Fee Rate (in ppm), CLTV Delta, Max HTLC en Min HTLC. Hierdoor kunt u uw vergoedingenbeleid individueel per kanaal aanpassen, met als doel routeringsverkeer aan te trekken (of te ontmoedigen). *(Opmerking: ThunderHub is geen vervanging voor een automatische fee management tool, maar voor handmatige aanpassing is het zeer effectief)*
-  - Kanaal sluiten (*Sluiten*)**: Het Interface "Close Channel" geeft u de keuze tussen een **coöperatieve afsluiting** (standaard) of een **geforceerde afsluiting** (*Force Close*) door de kosten te definiëren (in Sats/vByte). **Belangrijk:** geef altijd de voorkeur aan een coöperatieve afsluiting wanneer mogelijk, om On-Chain vertragingen in de afhandeling en hogere kosten te voorkomen. ThunderHub zal je vertellen of de peer online is (coöperatief mogelijk) of niet. In het geval van een geforceerde sluiting, moet je bevestigen, want dit is onomkeerbaar en zal een vegende transactie met een tijdslot veroorzaken (over het algemeen 144 blokken of ~1 dag op Bitcoin Mainnet).
-  - Een nieuwe chatroom openen:** Om een nieuwe chatroom te openen, klik je op het tandwiel rechtsboven op de chatroompagina en selecteer je "Openen". Je kunt dan een chatroom starten naar een nieuwe of bestaande leeftijdsgenoot. Het voordeel van het gebruik van deze pagina is dat je een lijst van je bestaande chatrooms voor je hebt, wat je kan helpen beslissen waar je een nieuwe chatroom wilt openen.
+- **Vergoedingen bewerken:** Met Interface "Kanaalbeleid bijwerken" kun je alle kanaalparameters aanpassen: Base Fee, Fee Rate (in ppm), CLTV Delta, Max HTLC en Min HTLC. Hierdoor kunt u uw vergoedingenbeleid individueel per kanaal aanpassen, met als doel routeringsverkeer aan te trekken (of te ontmoedigen). *(Opmerking: ThunderHub is geen vervanging voor een automatische fee management tool, maar voor handmatige aanpassing is het zeer effectief)*
+- Kanaal sluiten (*Sluiten*): Het Interface "Close Channel" geeft u de keuze tussen een **coöperatieve afsluiting** (standaard) of een **geforceerde afsluiting** (*Force Close*) door de kosten te definiëren (in Sats/vByte). **Belangrijk:** geef altijd de voorkeur aan een coöperatieve afsluiting wanneer mogelijk, om On-Chain vertragingen in de afhandeling en hogere kosten te voorkomen. ThunderHub zal je vertellen of de peer online is (coöperatief mogelijk) of niet. In het geval van een geforceerde sluiting, moet je bevestigen, want dit is onomkeerbaar en zal een vegende transactie met een tijdslot veroorzaken (over het algemeen 144 blokken of ~1 dag op Bitcoin Mainnet).
+- Een nieuwe chatroom openen: Om een nieuwe chatroom te openen, klik je op het tandwiel rechtsboven op de chatroompagina en selecteer je "Openen". Je kunt dan een chatroom starten naar een nieuwe of bestaande leeftijdsgenoot. Het voordeel van het gebruik van deze pagina is dat je een lijst van je bestaande chatrooms voor je hebt, wat je kan helpen beslissen waar je een nieuwe chatroom wilt openen.
 
 
 
@@ -568,41 +568,41 @@ ThunderHub maakt deze handeling, die anders vervelend zou zijn op de opdrachtreg
 
 
 
-- Oorspronkelijke kanaalweergave:** Bij het openen van Rebalance toont ThunderHub een lijst van je kanalen, met een balansindicator voor elk kanaal (vergelijkbaar met de indicator op de Kanalen pagina). Je kunt meteen zien welke kanalen uit balans zijn. ThunderHub kan kanalen sorteren in volgorde van toenemende balans, zodat de kanalen met de meeste onbalans bovenaan de lijst staan (0.0 betekent volledig lokaal of op afstand).
+- **Oorspronkelijke kanaalweergave:** Bij het openen van Rebalance toont ThunderHub een lijst van je kanalen, met een balansindicator voor elk kanaal (vergelijkbaar met de indicator op de Kanalen pagina). Je kunt meteen zien welke kanalen uit balans zijn. ThunderHub kan kanalen sorteren in volgorde van toenemende balans, zodat de kanalen met de meeste onbalans bovenaan de lijst staan (0.0 betekent volledig lokaal of op afstand).
 
 
 
 
 
-- Peer selectie:** De Interface maakt het eenvoudig om uitgaande en inkomende peers te selecteren voor rebalancing.
+- **Peer selectie:** De Interface maakt het eenvoudig om uitgaande en inkomende peers te selecteren voor rebalancing.
 
 
 
 
 
-- Parameterinstellingen:** U kunt :
+- **Parameterinstellingen:** U kunt :
   - De **maximale vergoeding** (in Sats en ppm) die je bereid bent te betalen
   - Het **bedrag om opnieuw in evenwicht te brengen** met de optie "Vast" of "Doel
-  - Te vermijden knooppunten** bij het routeren
-  - Maximale proeftijd** voor routebepaling
+- Te vermijden **knooppunten** bij het routeren
+- **Maximale proeftijd** voor routebepaling
 
 
 
 
 
-- Selecteer **bron**** kanaal: Selecteer eerst het **uitgaande (bron)** kanaal, d.w.z. het kanaal waarvan je te veel lokale liquiditeit hebt om te verplaatsen. In de praktijk is dit een kanaal waar je lokale aandeel hoog is (> 50%). Stel je een A-kanaal voor met 1.000.000 Satss, waarvan er 900.000 lokaal zijn - een goede kandidaat om Satss naar elders te sturen. Door op dit A-kanaal te klikken als "uitgaand", markeert ThunderHub het als een bron.
+- Selecteer **bron kanaal**: Selecteer eerst het **uitgaande (bron)** kanaal, d.w.z. het kanaal waarvan je te veel lokale liquiditeit hebt om te verplaatsen. In de praktijk is dit een kanaal waar je lokale aandeel hoog is (> 50%). Stel je een A-kanaal voor met 1.000.000 Satss, waarvan er 900.000 lokaal zijn - een goede kandidaat om Satss naar elders te sturen. Door op dit A-kanaal te klikken als "uitgaand", markeert ThunderHub het als een bron.
 
 
 
 
 
-- Kies **doelkanaal****: Kies vervolgens het **inkomende (doel)** kanaal dat liquiditeit moet ontvangen. Meestal zal dit een kanaal zijn waar het andersom is - de meeste fondsen zijn aan de lage kant (bijv. slechts 100.000 lokale Satss van de 1.000.000). ThunderHub zal, zodra het bronkanaal is geselecteerd, de andere kanalen in omgekeerde volgorde sorteren (afnemende balans) om te helpen bij het identificeren van de meest complementaire kanalen. Selecteer een B-kanaal dat ruimte heeft aan de lokale kant. ThunderHub geeft dan duidelijk weer welke twee kanalen zijn geselecteerd (bron A en doel B).
+- Kies **doelkanaal**: Kies vervolgens het **inkomende (doel)** kanaal dat liquiditeit moet ontvangen. Meestal zal dit een kanaal zijn waar het andersom is - de meeste fondsen zijn aan de lage kant (bijv. slechts 100.000 lokale Satss van de 1.000.000). ThunderHub zal, zodra het bronkanaal is geselecteerd, de andere kanalen in omgekeerde volgorde sorteren (afnemende balans) om te helpen bij het identificeren van de meest complementaire kanalen. Selecteer een B-kanaal dat ruimte heeft aan de lokale kant. ThunderHub geeft dan duidelijk weer welke twee kanalen zijn geselecteerd (bron A en doel B).
 
 
 
 
 
-- Tariefbedrag en tolerantie instellen:** Via een formulier kun je :
+- **Tariefbedrag en tolerantie instellen:** Via een formulier kun je :
 
 
 
@@ -615,19 +615,19 @@ ThunderHub maakt deze handeling, die anders vervelend zou zijn op de opdrachtreg
 
 
 
-- Route zoeken:** Klik op de knop om een route te vinden. ThunderHub bevraagt LND om een route te berekenen van uw bronkanaal door het netwerk naar uw eigen doelkanaal. Als er een mogelijke route wordt gevonden die voldoet aan uw tariefcriteria, wordt deze weergegeven met details van de hops en de tariefkosten. Het kan bijvoorbeeld aangeven dat het een 3-hop pad heeft gevonden met in totaal 2 Sats aan kosten.
+- **Route zoeken:** Klik op de knop om een route te vinden. ThunderHub bevraagt LND om een route te berekenen van uw bronkanaal door het netwerk naar uw eigen doelkanaal. Als er een mogelijke route wordt gevonden die voldoet aan uw tariefcriteria, wordt deze weergegeven met details van de hops en de tariefkosten. Het kan bijvoorbeeld aangeven dat het een 3-hop pad heeft gevonden met in totaal 2 Sats aan kosten.
 
 
 
 
 
-- Start rebalance:** Als u tevreden bent met de voorgestelde route, klikt u op **Balanceer kanaal**. ThunderHub zal dan de circulaire betaling starten via LND. Als de betaling succesvol is, zie je een melding van het succes en worden de saldi van kanaal A en B in realtime aangepast. ThunderHub zal de balansindicator voor deze kanalen bijwerken (idealiter zullen ze groener zijn dan voorheen, wat duidt op een betere balans).
+- Start rebalance: Als u tevreden bent met de voorgestelde route, klikt u op **Balanceer kanaal**. ThunderHub zal dan de circulaire betaling starten via LND. Als de betaling succesvol is, zie je een melding van het succes en worden de saldi van kanaal A en B in realtime aangepast. ThunderHub zal de balansindicator voor deze kanalen bijwerken (idealiter zullen ze groener zijn dan voorheen, wat duidt op een betere balans).
 
 
 
 
 
-- Aanpassingen en iteraties:** Als er bij de eerste poging geen route wordt gevonden (of als deze te duur is), kun je de parameters aanpassen :
+- **Aanpassingen en iteraties:** Als er bij de eerste poging geen route wordt gevonden (of als deze te duur is), kun je de parameters aanpassen :
 
 
 
@@ -666,7 +666,7 @@ In dit tabblad vindt u :
 
 
 
-- Invoice grafiek:** In de rechterbovenhoek toont een grafiek de ontwikkeling van de ontvangen facturen in de loop van de tijd, zodat je de activiteit van je knooppunt kunt visualiseren.
+- **Invoice grafiek:** In de rechterbovenhoek toont een grafiek de ontwikkeling van de ontvangen facturen in de loop van de tijd, zodat je de activiteit van je knooppunt kunt visualiseren.
 
 
 
@@ -708,13 +708,13 @@ In Forwards presenteert ThunderHub :
 
 
 
-- Filters en weergaveopties:** Rechtsboven kun je met filters gegevens sorteren op dag/week/maand/jaar en kiezen tussen grafische weergave of weergave in tabelvorm.
+- **Filters en weergaveopties:** Rechtsboven kun je met filters gegevens sorteren op dag/week/maand/jaar en kiezen tussen grafische weergave of weergave in tabelvorm.
 
 
 
 
 
-- Activiteitsbericht:** Als er geen routering is uitgevoerd tijdens de geselecteerde periode, geeft de Interface "No forwards for this period" weer, zoals in dit voorbeeld.
+- **Activiteitsbericht:** Als er geen routering is uitgevoerd tijdens de geselecteerde periode, geeft de Interface "No forwards for this period" weer, zoals in dit voorbeeld.
 
 
 
@@ -736,7 +736,7 @@ In Forwards presenteert ThunderHub :
 
 
 
-- Samengevoegde statistieken**: ThunderHub berekent en toont bovenaan de pagina totalen en statistieken over een bepaalde periode (bijv. de laatste 24 uur, of 7 dagen, etc., soms instelbaar).
+- **Samengevoegde statistieken**: ThunderHub berekent en toont bovenaan de pagina totalen en statistieken over een bepaalde periode (bijv. de laatste 24 uur, of 7 dagen, etc., soms instelbaar).
 
 
 
@@ -762,19 +762,19 @@ In Chain vindt u :
 
 
 
-- Balans On-Chain :** Toont het totale BTC-saldo beschikbaar in Wallet LND.
+- Balans On-Chain: Toont het totale BTC-saldo beschikbaar in Wallet LND.
 
 
 
 
 
-- Lijst van UTXO's:** Bekijk alle onbestede uitgaven (UTXO) met bedrag, bevestigingen, Address en formaat voor elke uitgave.
+- **Lijst van UTXO's:** Bekijk alle onbestede uitgaven (UTXO) met bedrag, bevestigingen, Address en formaat voor elke uitgave.
 
 
 
 
 
-- Transactiegeschiedenis:** Gedetailleerde tabel van alle Bitcoin transacties met type (in/uit), datum, bedrag, kosten, bevestigingen, inclusieblok, adressen en txid.
+- **Transactiegeschiedenis:** Gedetailleerde tabel van alle Bitcoin transacties met type (in/uit), datum, bedrag, kosten, bevestigingen, inclusieblok, adressen en txid.
 
 
 
@@ -796,7 +796,7 @@ In ThunderHub kun je in het Amboss gedeelte je node **linken** aan je Amboss acc
 
 
 
-- Ghost Address:** Zet een **persoonlijke Lightning Address** op voor je node, om inkomende betalingen te vergemakkelijken.
+- **Ghost Address:** Zet een **persoonlijke Lightning Address** op voor je node, om inkomende betalingen te vergemakkelijken.
 
 
 
@@ -808,13 +808,13 @@ In ThunderHub kun je in het Amboss gedeelte je node **linken** aan je Amboss acc
 
 
 
-- Health Checks:** Activeer **Amboss Healthcheck = Yes** om je node regelmatig pings te laten sturen naar Amboss. Je ontvangt waarschuwingen als je node offline lijkt te zijn.
+- **Health Checks:** Activeer **Amboss Healthcheck = Yes** om je node regelmatig pings te laten sturen naar Amboss. Je ontvangt waarschuwingen als je node offline lijkt te zijn.
 
 
 
 
 
-- Andere functies:** Automatische balans push, **Magma/Hydro** integratie (liquiditeitenmarktplaats) en toegang tot gedetailleerde prestatiestatistieken.
+- **Andere functies:** Automatische balans push, **Magma/Hydro** integratie (liquiditeitenmarktplaats) en toegang tot gedetailleerde prestatiestatistieken.
 
 
 
@@ -836,16 +836,16 @@ De **Tools** sectie groepeert verschillende geavanceerde gereedschappen voor het
 
 
 
-- Back-ups:** Beheer handmatig uw kanaalback-ups (SCB). ThunderHub laat je **het complete back-up bestand** van je kanalen downloaden (optie "Back-up van alle kanalen -> Downloaden"). Bewaar dit `kanaal-all.bak` bestand op een veilige plek - het is essentieel voor het herstellen van je fondsen in het geval van een crash. Je kunt ook een back-upbestand **importeren** wanneer je een node opnieuw installeert.
+- **Back-ups:** Beheer handmatig uw kanaalback-ups (SCB). ThunderHub laat je **het complete back-up bestand** van je kanalen downloaden (optie "Back-up van alle kanalen -> Downloaden"). Bewaar dit `kanaal-all.bak` bestand op een veilige plek - het is essentieel voor het herstellen van je fondsen in het geval van een crash. Je kunt ook een back-upbestand **importeren** wanneer je een node opnieuw installeert.
 
 
 
 
 
-- Boekhouding:** Exporttool voor financiële rapporten, inclusief verdiende/betaalde vergoedingen en gerouteerde volumes over een bepaalde periode.
-- Ondertekende berichten:** **Teken of verifieer berichten** met uw knooppunt om Ownership van uw Lightning-knooppunt aan te tonen via een cryptografische handtekening.
+- **Boekhouding:** Exporttool voor financiële rapporten, inclusief verdiende/betaalde vergoedingen en gerouteerde volumes over een bepaalde periode.
+- **Ondertekende berichten:** Teken of verifieer berichten met uw knooppunt om Ownership van uw Lightning-knooppunt aan te tonen via een cryptografische handtekening.
 - Macarons (Bakkerijgedeelte):** Beheer LND** macarons om aangepaste toegang te creëren. In de Interface "Bakkerij" kun je elke toestemming precies selecteren: "Peers toevoegen of verwijderen", "Ketenadressen aanmaken", "Facturen aanmaken", "Macarons aanmaken", "Sleutels afleiden", "Toegangssleutels ophalen", "Kettingtransacties ophalen", "Facturen ophalen", "Wallet-info ophalen", "Get Payments", "Get Peers", "Pay Invoices", "Revoke Access Ids", "Send to Chain Addresses", "Sign bytes", "Sign Messages", "Stop daemon", "Verify bytes signature", "Verify messages", enzovoort. Elke toestemming kan afzonderlijk worden geactiveerd met de knoppen "Ja/Nee" om een macaron op maat te maken.
-- Systeeminformatie:** Weergave van Wallet versie en geactiveerde RPC's.
+- **Systeeminformatie:** Weergave van Wallet versie en geactiveerde RPC's.
 
 
 
@@ -871,9 +871,9 @@ Het proces is eenvoudig:
 
 
 
-- Bedrag**: Definieer het in te ruilen bedrag
-- Address** : Bitcoin ontvangst Address invoeren
-- Uitvoering**: ThunderHub communiceert met Boltz om automatisch de Exchange te verwerken
+- **Bedrag**: Definieer het in te ruilen bedrag
+- **Address**: Bitcoin ontvangst Address invoeren
+- **Uitvoering**: ThunderHub communiceert met Boltz om automatisch de Exchange te verwerken
 
 
 
@@ -940,6 +940,6 @@ ThunderHub democratiseert geavanceerd beheer van Lightning-knooppunten en maakt 
 
 
 
-- Officiële website:** [thunderhub.io](https://thunderhub.io)
-- Documentatie:** [docs.thunderhub.io](https://docs.thunderhub.io)
-- GitHub broncode:** [github.com/apotdevin/thunderhub](https://github.com/apotdevin/thunderhub)
+- **Officiële website:** [thunderhub.io](https://thunderhub.io)
+- **Documentatie:** [docs.thunderhub.io](https://docs.thunderhub.io)
+- GitHub broncode: **[github.com/apotdevin/thunderhub](https://github.com/apotdevin/thunderhub)**

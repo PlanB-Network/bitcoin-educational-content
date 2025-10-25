@@ -1,5 +1,5 @@
 ---
-name: بیت‌واردن
+name: Bitwarden
 description: چگونه یک مدیر رمز عبور راه‌اندازی کنیم؟
 ---
 ![cover](assets/cover.webp)

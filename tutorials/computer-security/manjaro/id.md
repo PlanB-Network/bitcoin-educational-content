@@ -90,9 +90,9 @@ Agar Manjaro dapat bekerja secara optimal, komputer Anda harus memenuhi beberapa
 
 
 
-- Prosesor 64-bit (x86_64)**
-- rAM 4 GB direkomendasikan (minimum 2 GB)** (lihat di bawah)
-- ruang disk sebesar 30 GB (lebih besar jika Anda membuat partisi khusus `/home`)**
+- Prosesor 64-bit (x86_64)
+- **RAM 4 GB direkomendasikan (minimum 2 GB)** (lihat di bawah)
+- ruang disk sebesar 30 GB (lebih besar jika Anda membuat partisi khusus `/home`)
 
 
 
@@ -219,8 +219,8 @@ Manjaro memungkinkan Anda memilih antara **FreeOffice** dan **LibreOffice**.
 
 
 
-- LibreOffice** lebih lengkap, dengan perangkat lunak yang lebih luas dan fitur-fitur canggih.
-- FreeOffice**, di sisi lain, lebih ringan dan hanya mencakup hal-hal yang penting: **TextMaker**, PlanMaker**, dan Presentasi**.
+- **LibreOffice** lebih lengkap, dengan perangkat lunak yang lebih luas dan fitur-fitur canggih.
+- **FreeOffice**, di sisi lain, lebih ringan dan hanya mencakup hal-hal yang penting: **TextMaker**, **PlanMaker**, dan **Presentasi**.
 
 
 
@@ -377,7 +377,7 @@ sudo passwd username
 
 
 
-2. *konfigurasi file suoers ** * Konfigurasi file suoers
+2. **Konfigurasi file sudoers** - Konfigurasi file sudoers
 
 
 

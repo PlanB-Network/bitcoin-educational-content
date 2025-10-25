@@ -1,5 +1,5 @@
 ---
-name: Trezor U2F và FIDO2
+name: "Trezor U2F & FIDO2"
 description: Tăng cường bảo mật trực tuyến của bạn với Trezor
 ---
 ![cover](assets/cover.webp)
@@ -22,7 +22,7 @@ Ngoài U2F, cho phép xác thực hai yếu tố, Trezor còn hỗ trợ FIDO2 (
 
 
 
-Ngoài chức năng "không cần mật khẩu*", FIDO2 còn cho phép xác thực hai yếu tố theo cách tương tự như U2F.
+Ngoài chức năng "không cần mật khẩu", FIDO2 còn cho phép xác thực hai yếu tố theo cách tương tự như U2F.
 
 
 

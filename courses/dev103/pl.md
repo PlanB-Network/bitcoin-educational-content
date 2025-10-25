@@ -36,7 +36,6 @@ Pod koniec kursu powinieneś być w stanie pisać własne programy w JavaScript,
 <chapterId>ba05a290-1782-5268-87c9-62fd09590e05</chapterId>
 
 
-W tej sekcji skonfigurujemy naszą maszynę do napisania i wykonania naszego pierwszego programu JavaScript.
 
 
 Program JavaScript to po prostu zbiór (jednego lub więcej) plików tekstowych, które zawierają polecenia do wykonania przez środowisko uruchomieniowe JavaScript.
@@ -51,16 +50,16 @@ Zawarte w nich polecenia są napisane w języku programowania JavaScript.
 Środowisko uruchomieniowe JavaScript to specjalny program, który wykonuje te pliki.
 
 
-![](assets/en/1.webp)
+![](assets/en/001.webp)
 
 
-### Instalacja NodeJS
+### Środowisko uruchomieniowe NodeJS
 
 
 Najpopularniejszym środowiskiem uruchomieniowym JavaScript jest NodeJS.
 
 
-Można go zainstalować, postępując zgodnie z [oficjalnymi instrukcjami] (https://nodejs.org/en/download).
+Twoje IDE może już to zawierać, albo będziesz musiał pobrać to ze [strony oficjalnej](https://nodejs.org/en/download).
 
 
 Strona pobierania zawiera instrukcje dla wszystkich trzech głównych systemów operacyjnych: Windows, Linux i MacOS. Zakłada się, że wiesz, jak otworzyć terminal w swoim systemie operacyjnym.
@@ -72,25 +71,19 @@ Ponieważ NodeJS jest dostępny dla wszystkich trzech systemów operacyjnych, pr
 Oznacza to, że można na przykład napisać prostą grę wideo w JavaScript na komputerze z systemem Windows i przekazać ją znajomemu, aby uruchomił ją na swoim komputerze Mac.
 
 
-![](assets/en/2.webp)
+![](assets/en/002.webp)
 
 
-### Edycja tekstu
 
 
-Jedną z fajnych rzeczy w programowaniu jest to, że można pisać kod za pomocą dowolnego edytora tekstu, nawet domyślnego notatnika systemu operacyjnego.
 
 
-Istnieją jednak edytory tekstu, które specjalizują się w pisaniu kodu, niektóre są dostępne za darmo, inne wymagają opłacenia licencji.
 
 
-Wybór edytora kodu to gigantyczna królicza nora, która wykracza poza zakres tego kursu, więc nie będziemy o tym tutaj mówić. Jeśli nie wiesz, czego użyć, najczęściej używanym darmowym edytorem jest [VSCode](https://code.visualstudio.com/).
 
 
-Jego Interface jest nieco rozdęty, ale ma to, czego potrzebujesz: edytor plików, eksplorator plików (do wizualizacji plików i podkatalogów w katalogu, nad którym pracujesz) oraz terminal do uruchamiania kodu. Obsługuje również wiele wtyczek i domyślnie zawiera podświetlanie składni JavaScript.
 
 
-Jeśli chcesz być trochę bardziej Cypherpunk-y, możesz zamiast tego użyć [VSCodium](https://vscodium.com/).
 
 
 ### Pierwszy program (hello world)
@@ -102,7 +95,7 @@ Tradycyjnie, podczas nauki języka programowania, pierwszy napisany program pole
 Utwórz katalog o nazwie `my_js_code/`, a w nim plik o nazwie `main.js` (te nazwy są dowolne).
 
 
-Otwórz katalog za pomocą VSCode.
+Otwórz katalog w swoim edytorze kodu.
 
 
 Wpisz ten kod do pliku:
@@ -687,7 +680,7 @@ Wartości logiczne można łączyć za pomocą operatorów logicznych:
 - `!` oznacza "nie", jest stosowane przed wartością logiczną i odwraca ją: jeśli wartość logiczna jest `true`, zwróci `false` i odwrotnie.
 
 
-![](assets/en/3.webp)
+![](assets/en/003.webp)
 
 
 Przykłady:
@@ -737,15 +730,15 @@ W tej sekcji omówimy trzy kolejne typy, które są bardzo powszechne w programa
 
 
 
-- Tablice**: sekwencje wartości
-- undefined**: wartość specjalna, która oznacza "nic nie zostało przypisane"
-- null**: kolejna wartość specjalna, która oznacza "celowo pusty"
+- **Tablice**: sekwencje wartości
+- **undefined**: wartość specjalna, która oznacza "nic nie zostało przypisane"
+- **null**: kolejna wartość specjalna, która oznacza "celowo pusty"
 
 
 ### Tablice i dostęp do indeksów
 
 
-Tablica** jest typem, który może przechowywać wiele wartości na liście.
+**Tablica** jest typem, który może przechowywać wiele wartości na liście.
 
 
 Tablicę tworzy się za pomocą nawiasów kwadratowych `[]` i oddzielając elementy przecinkami.
@@ -1032,7 +1025,7 @@ Ale co dzieje się wewnątrz bloku?
 ### Bloki i zakres lokalny
 
 
-Blok** to fragment kodu otoczony nawiasami klamrowymi `{}`.
+**Blok** to fragment kodu otoczony nawiasami klamrowymi `{}`.
 
 
 Zmienne zadeklarowane z `let` lub `const` wewnątrz bloku istnieją **tylko** wewnątrz tego bloku.
@@ -2302,7 +2295,7 @@ console.log(`${this.brand} car is ready to drive!`)
 Klasa `Car` teraz **dziedziczy** wszystko od `Vehicle`. Otrzymuje właściwość `brand` i zastąpiliśmy metodę `start()` naszą własną wersją.
 
 
-![](assets/en/4.webp)
+![](assets/en/004.webp)
 
 
 Wypróbujmy to:
@@ -2356,7 +2349,7 @@ myCar.start()
 ```
 
 
-![](assets/en/5.webp)
+![](assets/en/005.webp)
 
 
 
@@ -4197,7 +4190,7 @@ Here is the doubled array: [ 2, 4, 6 ]
 ```
 
 
-**Co tu się dzieje?
+**Co tu się dzieje?**
 
 
 1. Przekazujemy `input` jako listę liczb, które chcemy podwoić.
@@ -4209,7 +4202,7 @@ Here is the doubled array: [ 2, 4, 6 ]
 4. Gdy to zrobimy, wywołujemy wywołanie zwrotne na wynikowej "podwojonej" tablicy.
 
 
-Ta technika działa, ale wyobraź sobie, że chcesz wykonać **więcej kroków** po tym, na przykład odfiltrować małe liczby, a następnie je zsumować. Musiałbyś zagnieździć** więcej takich wywołań zwrotnych:
+Ta technika działa, ale wyobraź sobie, że chcesz wykonać **więcej kroków** po tym, na przykład odfiltrować małe liczby, a następnie je zsumować. Musiałbyś zagnieździć **więcej takich wywołań zwrotnych:**
 
 
 ```javascript
@@ -5235,7 +5228,7 @@ JavaScript jest językiem interpretowanym, w przeciwieństwie do języków kompi
 Kod napisany w skompilowanym języku jest przekształcany w plik binarny, a ten jest przesyłany bezpośrednio do procesora komputera.
 
 
-![](assets/en/6.webp)
+![](assets/en/006.webp)
 
 
 Z drugiej strony, języki interpred są zwykle bardziej przyjazne dla użytkownika i są bliższe temu, jak myślą ludzie ("wysokiego poziomu"), a nie temu, jak działają maszyny ("niskiego poziomu"); więc zwykle mają zbudowaną maszynę wirtualną do uruchamiania ich kodu.
@@ -5268,7 +5261,7 @@ Dlaczego jest to problem?
 Cóż, ponieważ przeglądarki wykonują kod pobrany z milionów różnych źródeł w Internecie, mogą łatwo stać się złośliwym oprogramowaniem, więc są "piaskownicą" od reszty systemu operacyjnego.
 
 
-![](assets/en/7.webp)
+![](assets/en/007.webp)
 
 
 JavaScript nie mógł uzyskać dostępu do systemu plików i innych lokalnych zasobów na komputerze (przynajmniej nie tak łatwo, jak inne języki), więc było to znaczące ograniczenie tego, jakie aplikacje można było za jego pomocą tworzyć.
@@ -5277,7 +5270,7 @@ JavaScript nie mógł uzyskać dostępu do systemu plików i innych lokalnych za
 W 2009 roku Ryan Dahl opublikował NodeJS, który jest środowiskiem wykonawczym umożliwiającym korzystanie z silnika V8 poza przeglądarką, bezpośrednio w natywnym systemie operacyjnym komputera. Dodaje również wiele funkcji przydatnych do pisania programów po stronie serwera i wiersza poleceń. Na przykład, można użyć NodeJS do utworzenia serwera WWW, odczytu i zapisu plików lub tworzenia narzędzi automatyzujących zadania.
 
 
-![](assets/en/8.webp)
+![](assets/en/008.webp)
 
 
 W tym kursie do tej pory zbadaliśmy funkcje JavaScript, które są obecne zarówno w przeglądarce, jak i w NodeJS. Funkcje te pozwoliły nam definiować dane i manipulować nimi w abstrakcyjny sposób. W następnych kilku lekcjach zbadamy funkcje, które są specyficzne dla NodeJS i pozwalają nam na interakcję z systemem operacyjnym.
@@ -6336,7 +6329,7 @@ Na przykład:
 - żądanie sieciowe zwraca dane
 
 
-Zdarzenie** jest po prostu sygnałem, że coś się wydarzyło i można napisać kod, który będzie nasłuchiwał tych zdarzeń i reagował na nie.
+**Zdarzenie** jest po prostu sygnałem, że coś się wydarzyło i można napisać kod, który będzie nasłuchiwał tych zdarzeń i reagował na nie.
 
 
 W NodeJS wiele obiektów może emitować zdarzenia. Obiekty te nazywane są **EventEmitters**.
@@ -6438,10 +6431,10 @@ NodeJS posiada cztery główne typy strumieni:
 
 
 
-- Readable**: strumienie, z których można odczytywać dane (jak odczyt pliku)
-- Writable**: strumienie, do których można zapisywać dane (jak zapis do pliku)
-- Duplex**: strumienie, które można zarówno odczytywać, jak i zapisywać
-- Transform**: jak strumienie dupleksowe, ale mogą zmieniać (przekształcać) dane w trakcie ich przepływu
+- **Readable**: strumienie, z których można odczytywać dane (jak odczyt pliku)
+- **Writable**: strumienie, do których można zapisywać dane (jak zapis do pliku)
+- **Duplex**: strumienie, które można zarówno odczytywać, jak i zapisywać
+- **Transform**: jak strumienie dupleksowe, ale mogą zmieniać (przekształcać) dane w trakcie ich przepływu
 
 
 ### Strumienie do odczytu

@@ -11,13 +11,13 @@ An operating system (OS) is the main software that manages all your computer's r
 ### Why Ubuntu?
 
 
-- Enhanced security**: Linux distributions are renowned for their security and robustness
-- Zero cost**: Ubuntu and most Linux distributions are free of charge
-- Large community**: A community of users ready to help via forums and tutorials
-- Respect for privacy**: Open source system for greater transparency
-- Simplicity**: User-friendly interface and ease of use
-- Rich ecosystem**: Extensive catalog of open source software
-- Regular support**: Secure updates from Canonical
+- **Enhanced security**: Linux distributions are renowned for their security and robustness
+- **Zero cost**: Ubuntu and most Linux distributions are free of charge
+- **Large community**: A community of users ready to help via forums and tutorials
+- **Respect for privacy**: Open source system for greater transparency
+- **Simplicity**: User-friendly interface and ease of use
+- **Rich ecosystem**: Extensive catalog of open source software
+- **Regular support**: Secure updates from Canonical
 
 ## Installation and configuration
 
@@ -77,19 +77,19 @@ When booting from the USB key, you'll see this screen, which allows you to start
 
 ![Écran de démarrage Ubuntu](assets/fr/06.webp)
 
-**Choice of language
+**Choice of language**
 
 Choose your preferred language for installation and the system.
 
 ![Sélection de la langue](assets/fr/07.webp)
 
-**Accessibility options
+**Accessibility options**
 
 Configure accessibility options if necessary (screen reader, high contrast, etc.).
 
 ![Options d'accessibilité](assets/fr/08.webp)
 
-**Keyboard configuration
+**Keyboard configuration**
 
 Select your keyboard layout. A test field is available to check that the keys correspond to your configuration.
 
@@ -101,31 +101,31 @@ Connect to your Wi-Fi or wired network to download updates during installation.
 
 ![Configuration réseau](assets/fr/10.webp)
 
-**Type of installation
+**Type of installation**
 
 Choose between "Try Ubuntu" (to test without installing) or "Install Ubuntu".
 
 ![Choix du type d'installation](assets/fr/11.webp)
 
-**Installation method
+**Installation method**
 
 Select interactive installation.
 
 ![Mode d'installation](assets/fr/12.webp)
 
-**Application selection
+**Application selection**
 
 Choose between the default installation or an extended selection of applications.
 
 ![Sélection des applications](assets/fr/13.webp)
 
-**Third-party applications
+**Third-party applications**
 
 Decide whether or not to install additional drivers and proprietary software.
 
 ![Installation applications tierces](assets/fr/14.webp)
 
-**Type of partitioning
+**Type of partitioning**
 
 You have two main options:
 
@@ -135,13 +135,13 @@ You have two main options:
 
 ![Choix du partitionnement](assets/fr/15.webp)
 
-**User account creation
+**User account creation**
 
 Set your username and password for your Ubuntu account.
 
 ![Création du compte](assets/fr/16.webp)
 
-**Time zone
+**Time zone**
 
 Select your geographical area to set the system time.
 
@@ -164,7 +164,7 @@ Updating your system is an important step after a new installation. You have two
 - The application will automatically check for available updates
 - Follow the on-screen instructions to install the updates
 
-**Option 2: Via Terminal
+**Option 2: Via Terminal**
 
 
 - Open Terminal (Ctrl + Alt + T)
@@ -187,7 +187,7 @@ sudo apt upgrade
 
 ### 5. Discovering basic tasks
 
-**5.1 Browsing the Internet
+**5.1 Browsing the Internet**
 
 By default, you'll often find Firefox in the launch bar.
 
@@ -195,7 +195,7 @@ Launch Firefox and start browsing.
 
 Other browsers (Chrome, Brave, etc.) can be installed via the Software Manager or via .deb packages.
 
-**5.2 Word processing
+**5.2 Word processing**
 
 Ubuntu comes with the LibreOffice suite (Writer for word processing).
 
@@ -203,7 +203,7 @@ To open it: Activities > Search for "LibreOffice Writer" or click on the icon if
 
 You can create, edit and save documents in a variety of formats (including .docx).
 
-**5.3 Installing applications
+**5.3 Installing applications**
 
 Software manager (called "Ubuntu Software"): graphical interface for searching and installing applications.
 

@@ -18,11 +18,11 @@ Sul on juba olemas:
 Selles õpetuses vaatame, kuidas lisada oma õpetus Plan ₿ Network'ile, kasutades GitHubi veebiversiooni. Kui olete Gitiga juba kursis, ei pruugi see väga üksikasjalik õpetus teile vajalik olla. Selle asemel soovitan teil vaadata ühte neist kahest teisest õpetusest, kus ma üksikasjalikult kirjeldan juhiseid, mida järgida, ja samme muudatuste tegemiseks kohalikust:
 
 
-- Kogenud kasutajad**:
+- **Kogenud kasutajad**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
-- Vahepealne (GitHub Desktop)**:
+- **Vahepealne (GitHub Desktop)**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
@@ -348,8 +348,8 @@ Alguses olev hüüumärk tähistab pilti. Alternatiivne tekst, mis aitab ligipä
 Kui soovite luua omaenda skeeme, järgige kindlasti Plan ₿ Network graafilisi suuniseid, et tagada visuaalne järjepidevus:
 
 
-- Font**: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
-- Värvid**:
+- **Font**: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
+- **Värvid**:
  - Oranž: #FF5C00
  - Must: #000000
  - Valge: #FFFFFF

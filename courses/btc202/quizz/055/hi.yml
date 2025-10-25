@@ -1,0 +1,9 @@
+question: Sparrow में उपलब्ध तीन सर्वर विकल्प क्या हैं?
+answer: सार्वजनिक सर्वर, Bitcoin core, निजी इलेक्ट्रम
+wrong_answers:
+  - RPC डायरेक्ट, वीपीएन, टोर
+  - Full node, लाइट नोड, मोबाइल नोड
+  - कोर RPC, लाइटनिंग, इलेक्ट्रमएक्स
+explanation: |
+  Sparrow तीन सर्वर विकल्प प्रदान करता है: पब्लिक सर्वर, Bitcoin core (RPC), और प्राइवेट इलेक्ट्रम।
+reviewed: true

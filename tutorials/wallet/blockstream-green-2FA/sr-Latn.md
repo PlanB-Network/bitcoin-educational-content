@@ -82,7 +82,7 @@ Za korisnike Androida, aplikaciju možete instalirati i putem `.apk` fajla [dost
 ![GREEN 2FA MULTISIG](assets/fr/04.webp)
 
 
-Pokrenite aplikaciju, a zatim označite polje "Prihvatam uslove...*".
+Pokrenite aplikaciju, a zatim označite polje "Prihvatam uslove...".
 
 
 ![GREEN 2FA MULTISIG](assets/fr/05.webp)

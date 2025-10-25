@@ -1,0 +1,9 @@
+question: 為什麼單個 Wallet 不被視為 Bitcoin 網路參與者？
+answer: 因為它不會驗證交易或區塊
+wrong_answers:
+  - 因為它無法 generate 私密金鑰
+  - 因為它無法建立 Bitcoin 位址
+  - 因為它無法驗證銷售額或地址
+explanation: |
+  Wallet 不直接驗證區塊和交易；它只是管理金鑰，其餘的則依賴節點。
+reviewed: true

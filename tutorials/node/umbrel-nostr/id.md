@@ -53,7 +53,7 @@ Umbrel menawarkan ekosistem aplikasi yang terintegrasi untuk memanfaatkan Nostr 
 
 
 
-**Nostr Relay** adalah aplikasi resmi Umbrel untuk menjalankan **Nostr relay** Anda sendiri pada node Anda. Tujuan utamanya adalah untuk memiliki *private** dan relay yang dapat diandalkan untuk *mencadangkan semua aktivitas Nostr Anda secara real time. Dengan kata lain, dengan menggunakan relai pribadi ini selain relai publik, Anda memastikan bahwa semua catatan, pesan, dan reaksi Anda disalin ke rumah, aman dari penyensoran atau kehilangan data.
+**Nostr Relay** adalah aplikasi resmi Umbrel untuk menjalankan **Nostr relay** Anda sendiri pada node Anda. Tujuan utamanya adalah untuk memiliki *private* dan relay yang dapat diandalkan untuk *mencadangkan* semua aktivitas Nostr Anda secara real time. Dengan kata lain, dengan menggunakan relai pribadi ini selain relai publik, Anda memastikan bahwa semua catatan, pesan, dan reaksi Anda disalin ke rumah, aman dari penyensoran atau kehilangan data.
 
 
 
@@ -69,7 +69,7 @@ Anda akan melihat web Interface melalui Umbrel: web ini menyediakan informasi da
 
 
 
-**Untuk memanfaatkan estafet Umbrel Anda:
+**Untuk memanfaatkan estafet Umbrel Anda:**
 
 
 
@@ -298,7 +298,7 @@ Anda akan diarahkan ke noStrudel dengan pesan konfirmasi: Anda sekarang bisa mel
 
 
 
-Berkat NWC, pembayaran **Lightning** Anda melalui Nostr** (zaps ke pos hadiah, pembayaran _Value for Value_, dll.) dimulai dari **node Anda sendiri**. Anda tidak perlu lagi merutekan transaksi Anda melalui layanan eksternal atau memindai QR dari ponsel Anda setiap saat. Pengalaman pengguna sangat ditingkatkan, namun tetap _non-kustodian_ dan ramah privasi.
+Berkat NWC, pembayaran **Lightning** Anda melalui **Nostr** (zaps ke pos hadiah, pembayaran *Value for Value*, dll.) dimulai dari **node Anda sendiri**. Anda tidak perlu lagi merutekan transaksi Anda melalui layanan eksternal atau memindai QR dari ponsel Anda setiap saat. Pengalaman pengguna sangat ditingkatkan, namun tetap *non-kustodian* dan ramah privasi.
 
 
 
@@ -326,7 +326,7 @@ Untuk alasan keamanan, Umbrel Anda hanya dapat diakses secara default di jaringa
 
 
 
-- Akses melalui Tor:** Umbrel secara otomatis mengonfigurasi **layanan Tor (.onion)** untuk web dan aplikasi Interface. Ini berarti Anda dapat mengakses Interface Umbrel (termasuk _noStrudel_ atau _Snort_) dari mana saja, menggunakan peramban Tor, tanpa mengekspos IP publik Anda. tor digunakan untuk mengakses layanan Umbrel Anda dari luar jaringan lokal Anda, tanpa mengekspos perangkat Anda ke Internet ([Siapkan Tor di sistem Anda - Panduan - Komunitas Umbrel] (https://community.umbrel.com/t/setup-tor-on-your-system/7509#:~:text=Official%20website%3A%20https%3A%2F%2Fwww))._ Untuk menggunakan opsi ini, masuk ke pengaturan Umbrel dan ambil URL .onion Umbrel Anda (atau pindai kode QR yang disediakan). Pada peramban Tor, akses .onion Address ini: Anda akan mendapatkan Interface yang sama dengan Interface lokal. Anda kemudian dapat menggunakan aplikasi Nostr Anda seperti di rumah.
+- Akses melalui Tor: Umbrel secara otomatis mengonfigurasi **layanan Tor (.onion)** untuk web dan aplikasi Interface. Ini berarti Anda dapat mengakses Interface Umbrel (termasuk *noStrudel* atau *Snort*) dari mana saja, menggunakan peramban Tor, tanpa mengekspos IP publik Anda. Tor digunakan untuk mengakses layanan Umbrel Anda dari luar jaringan lokal Anda, tanpa mengekspos perangkat Anda ke Internet ([Siapkan Tor di sistem Anda - Panduan - Komunitas Umbrel](https://community.umbrel.com/t/setup-tor-on-your-system/7509#:~:text=Official%20website%3A%20https%3A%2F%2Fwww)). Untuk menggunakan opsi ini, masuk ke pengaturan Umbrel dan ambil URL .onion Umbrel Anda (atau pindai kode QR yang disediakan). Pada peramban Tor, akses .onion Address ini: Anda akan mendapatkan Interface yang sama dengan Interface lokal. Anda kem
 
 
 **Relai Nostr melalui Tor:** Jika Anda ingin relai Nostr Anda dapat dijangkau melalui Tor oleh pelanggan Anda (atau teman yang berwenang), hal ini dimungkinkan. Umbrel tidak menyediakan relai .onion Address secara langsung, tetapi karena berjalan pada port 4848, Anda dapat menggunakan .onion:
@@ -341,13 +341,13 @@ Untuk alasan keamanan, Umbrel Anda hanya dapat diakses secara default di jaringa
 
 
 
-    - Atau ** mengekspos port 4848 sebagai layanan bawang terpisah. Ini memerlukan mengutak-atik konfigurasi Tor pada Umbrel (disediakan untuk pengguna tingkat lanjut yang sudah terbiasa dengan SSH). Sebagai alternatif, pertimbangkan sebuah terowongan Tor di server lain yang mengarahkan ke Umbrel: namun, untuk penggunaan pribadi, paling mudah menggunakan Tailscale.
+- Atau **mengekspos port 4848 sebagai layanan bawang terpisah**. Ini memerlukan mengutak-atik konfigurasi Tor pada Umbrel (disediakan untuk pengguna tingkat lanjut yang sudah terbiasa dengan SSH). Sebagai alternatif, pertimbangkan sebuah terowongan Tor di server lain yang mengarahkan ke Umbrel: namun, untuk penggunaan pribadi, paling mudah menggunakan Tailscale.
 
 
 
 
 
-- Akses melalui Tailscale:** [Tailscale](https://tailscale.com/) adalah solusi VPN mesh yang menciptakan jaringan privat virtual antara perangkat Anda dan Umbrel. Keuntungannya: bekerja seolah-olah Anda berada di LAN, tetapi melalui Internet, terenkripsi dan tanpa konfigurasi yang rumit. **Tailscale memberikan Umbrel Anda IP tetap dan nama domain pribadi, terlepas dari lokasi jaringannya ([Tailscale | Umbrel App Store](https://apps.umbrel.com/app/tailscale#:~:text=Tailscale%20is%20zero%20config%20VPN,reviewed%20and%20trusted%20standard))**. Dalam praktiknya, setelah Anda menginstal Tailscale di Umbrel (dari Umbrel App Store, kategori _Networking_) **dan** pada perangkat Anda (ponsel, PC...), Anda akan dapat menjangkau Umbrel melalui Address seperti `100.x.y.z` (IP Tailscale) atau nama seperti `umbrel.tailnet123.ts.net`.
+- Akses melalui **Tailscale:** [Tailscale](https://tailscale.com/) adalah solusi VPN mesh yang menciptakan jaringan privat virtual antara perangkat Anda dan Umbrel. Keuntungannya: bekerja seolah-olah Anda berada di LAN, tetapi melalui Internet, terenkripsi dan tanpa konfigurasi yang rumit. **Tailscale memberikan Umbrel Anda IP tetap dan nama domain pribadi, terlepas dari lokasi jaringannya** ([Tailscale | Umbrel App Store](https://apps.umbrel.com/app/tailscale#:~:text=Tailscale%20is%20zero%20config%20VPN,reviewed%20and%20trusted%20standard)). Dalam praktiknya, setelah Anda menginstal Tailscale di Umbrel (dari Umbrel App Store, kategori *Networking*) **dan** pada perangkat Anda (ponsel, PC...), Anda akan dapat menjangkau Umbrel melalui Address seperti `100.x.y.z` (IP Tailscale) atau nama seperti `umbrel.tailnet123.
 
 
 untuk Nostr_, Tailscale sangat berguna: ponsel Anda, jika memiliki Tailscale aktif, akan dapat terhubung ke `ws://umbrel:4848` (terima kasih kepada MagicDNS) atau langsung ke IP Tailscale dan port 4848 untuk menggunakan relay. Klien seperti Damus atau Amethyst akan melihat Umbrel Anda seolah-olah berada di jaringan lokal yang sama. **Tips:** Aktifkan opsi **MagicDNS** di Tailscale untuk menggunakan nama host `umbrel` alih-alih mengingat IP. Hal ini memastikan koneksi yang lancar ke relay Anda bahkan ketika Anda sedang bepergian ([Nostr Relay | Umbrel App Store](https://apps.umbrel.com/app/nostr-relay#:~:text=client%20%28e,That%27s%20it%21%20Your%20past)).
@@ -358,7 +358,7 @@ Terlebih lagi, Tailscale memungkinkan Anda mengakses Interface Umbrel (dan denga
 
 
 
-**Catatan: Tor dan Tailscale tidak saling eksklusif. Anda bisa tetap mengaktifkan Tor untuk akses anonim atau layanan tertentu, dan menggunakan Tailscale sehari-hari untuk kemudahannya. Dalam kedua kasus tersebut, Anda tidak perlu membuka port pada router Anda, yang memperkuat keamanan.
+**Catatan: Tor dan Tailscale tidak saling eksklusif. Anda bisa tetap mengaktifkan Tor untuk akses anonim atau layanan tertentu, dan menggunakan Tailscale sehari-hari untuk kemudahannya. Dalam kedua kasus tersebut, Anda tidak perlu membuka port pada router Anda, yang memperkuat keamanan.**
 
 
 
@@ -372,31 +372,31 @@ Jika Anda menjadi tuan rumah relai Nostr di Umbrel, terutama dalam konteks tingk
 
 
 
-- Relai pribadi atau terbatas:** Secara default, relai Umbrel Anda bersifat pribadi (tidak diumumkan kepada publik) dan, jika Anda hanya mengaksesnya melalui Tailscale atau LAN Anda, relai tersebut tidak akan dapat diakses oleh orang asing. **Jaga kerahasiaan tautan ** Jangan menyiarkannya di jaringan Nostr publik kecuali jika Anda ingin menjadi tuan rumah bagi pengguna lain secara sukarela, yang merupakan masalah lain (moderasi, bandwidth, dll.). Untuk penggunaan pribadi, kami sarankan untuk membatasi akses ke diri Anda sendiri dan, jika perlu, ke beberapa teman dan keluarga tepercaya.
+- **Relai pribadi atau terbatas:** Secara default, relai Umbrel Anda bersifat pribadi (tidak diumumkan kepada publik) dan, jika Anda hanya mengaksesnya melalui Tailscale atau LAN Anda, relai tersebut tidak akan dapat diakses oleh orang asing. **Jaga kerahasiaan tautan** Jangan menyiarkannya di jaringan Nostr publik kecuali jika Anda ingin menjadi tuan rumah bagi pengguna lain secara sukarela, yang merupakan masalah lain (moderasi, bandwidth, dll.). Untuk penggunaan pribadi, kami sarankan untuk membatasi akses ke diri Anda sendiri dan, jika perlu, ke beberapa teman dan keluarga tepercaya.
 
 
 
 
 
-- Daftar Putih / Auth**: Implementasi relai nostr-rs mendukung mekanisme autentikasi **NIP-42** serta _whitelist_ kunci publik. Dengan mengaktifkan opsi-opsi ini, Anda dapat membatasi relai Anda sehingga **hanya menerima peristiwa yang ditandatangani oleh kunci tertentu (milik Anda)**, atau bahwa klien harus mengautentikasi untuk mempublikasikan. pengaturan ini membutuhkan pengeditan file konfigurasi `config.toml` relai di Umbrel (melalui SSH di kontainer Docker)._ Ini merupakan manipulasi tingkat lanjut, tetapi sebagai contoh, Anda dapat membuat daftar iklan yang diizinkan (`pubkey_whitelist`). Dengan cara ini, bahkan jika seseorang menemukan relai Anda, mereka tidak akan dapat memublikasikan apa pun di sana jika tidak ada dalam daftar.
+- Daftar Putih / Auth: Implementasi relai nostr-rs mendukung mekanisme autentikasi **NIP-42** serta *whitelist* kunci publik. Dengan mengaktifkan opsi-opsi ini, Anda dapat membatasi relai Anda sehingga **hanya menerima peristiwa yang ditandatangani oleh kunci tertentu (milik Anda)**, atau bahwa klien harus mengautentikasi untuk mempublikasikan. Pengaturan ini membutuhkan pengeditan file konfigurasi `config.toml` relai di Umbrel (melalui SSH di kontainer Docker). *Ini merupakan manipulasi tingkat lanjut, tetapi sebagai contoh, Anda dapat membuat daftar iklan yang diizinkan* (`pubkey_whitelist`). Dengan cara ini, bahkan jika seseorang menemukan relai Anda, mereka tidak akan dapat memublikasikan apa pun di sana jika tidak ada dalam daftar.
 
 
 
 
 
-- Pembaruan dan pemeliharaan:** Selalu perbarui Umbrel dan aplikasi _Nostr Relay_ Anda. Pembaruan dapat mencakup peningkatan kinerja (misalnya penanganan spam yang lebih baik) dan perbaikan keamanan. Di Umbrel, periksa App Store secara teratur untuk mengetahui pembaruan _Nostr Relay_, dan terapkan jika diperlukan.
+- **Pembaruan dan pemeliharaan:** Selalu perbarui Umbrel dan aplikasi *Nostr Relay* Anda. Pembaruan dapat mencakup peningkatan kinerja (misalnya penanganan spam yang lebih baik) dan perbaikan keamanan. Di Umbrel, periksa App Store secara teratur untuk mengetahui pembaruan *Nostr Relay*, dan terapkan jika diperlukan.
 
 
 
 
 
-- Pemantauan dan batasan:** Awasi bagaimana relai Anda digunakan. Jika anda membukanya untuk orang lain, awasi beban (penyimpanan CPU/RAM) pada Umbrel anda, karena relai dapat dengan cepat menumpuk banyak data. nostr-rs-relay menawarkan **batas kecepatan dan penyimpanan yang dapat dikonfigurasi** (`batas` dalam konfigurasi, misalnya jumlah kejadian per detik, ukuran kejadian maksimum, pembersihan kejadian lama...). Untuk penggunaan pribadi, Anda mungkin tidak perlu menyentuhnya, tetapi ketahuilah bahwa parameter-parameter ini ada jika Anda membutuhkannya ([nostr-rs-relay/config.toml di master - scsibug/nostr-rs-relay - GitHub](https://github.com/scsibug/nostr-rs-relay/blob/master/config.toml#:~:text=)).
+- **Pemantauan dan batasan:** Awasi bagaimana relai Anda digunakan. Jika anda membukanya untuk orang lain, awasi beban (penyimpanan CPU/RAM) pada Umbrel anda, karena relai dapat dengan cepat menumpuk banyak data. nostr-rs-relay menawarkan **batas kecepatan dan penyimpanan yang dapat dikonfigurasi** (`batas` dalam konfigurasi, misalnya jumlah kejadian per detik, ukuran kejadian maksimum, pembersihan kejadian lama...). Untuk penggunaan pribadi, Anda mungkin tidak perlu menyentuhnya, tetapi ketahuilah bahwa parameter-parameter ini ada jika Anda membutuhkannya ([nostr-rs-relay/config.toml di master - scsibug/nostr-rs-relay - GitHub](https://github.com/scsibug/nostr-rs-relay/blob/master/config.toml#:~:text=)).
 
 
 
 
 
-- Mengamankan kunci Nostr:** Poin ini sudah disebutkan sebelumnya, tetapi ini sangat penting: jangan pernah memasukkan kunci pribadi Nostr Anda ke dalam Interface yang tidak Anda percayai. Sebagai gantinya, gunakan ekstensi peramban atau perangkat eksternal (seperti _signer_ Nostr pada ponsel terpisah) untuk menandatangani tindakan sensitif. Pada Umbrel, klien web Anda seperti _Snort_ dan _noStrudel_ dapat bekerja tanpa mengetahui kunci rahasia Anda, melalui NIP-07. Manfaatkan kesempatan ini untuk menggabungkan kenyamanan dan keamanan.
+- Mengamankan kunci Nostr: Poin ini sudah disebutkan sebelumnya, tetapi ini sangat penting: jangan pernah memasukkan kunci pribadi Nostr Anda ke dalam Interface yang tidak Anda percayai. Sebagai gantinya, gunakan ekstensi peramban atau perangkat eksternal (seperti *signer* Nostr pada ponsel terpisah) untuk menandatangani tindakan sensitif. Pada Umbrel, klien web Anda seperti *Snort* dan *noStrudel* dapat bekerja tanpa mengetahui kunci rahasia Anda, melalui NIP-07. Manfaatkan kesempatan ini untuk menggabungkan kenyamanan dan keamanan.
 
 
 

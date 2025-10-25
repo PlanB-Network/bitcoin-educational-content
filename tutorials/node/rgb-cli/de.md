@@ -1,5 +1,5 @@
 ---
-name: RGB-CLI
+name: RGB CLI
 description: Wie erstelle und tausche ich Smart Contracts auf RGB?
 ---
 ![cover](assets/cover.webp)
@@ -233,8 +233,8 @@ Um eine Überweisung durchzuführen, müssen Sie eine lokale Bitcoin-Wallet mani
 In den meisten Fällen erfolgt die Interaktion zwischen den Teilnehmern eines Vertrags (z. B. Alice und Bob) über die Erstellung einer Rechnung. Wenn Alice möchte, dass Bob etwas ausführt (eine Token-Übertragung, eine Neuausgabe, eine Aktion in einer DAO usw.), erstellt Alice eine Rechnung, in der sie ihre Anweisungen an Bob detailliert beschreibt. Wir haben also :
 
 
-- Alice** (der Aussteller der Rechnung) ;
-- Bob** (der die Rechnung erhält und ausführt).
+- **Alice** (der Aussteller der Rechnung) ;
+- **Bob** (der die Rechnung erhält und ausführt).
 
 Im Gegensatz zu anderen Ökosystemen ist eine RGB-Rechnung nicht auf den Begriff der Zahlung beschränkt. Sie kann jede mit dem Vertrag verbundene Anfrage enthalten: Widerruf eines Schlüssels, Abstimmung, Erstellung einer Gravur (*Gravur*) auf einer NFT usw. Der entsprechende Vorgang kann in der Vertragsschnittstelle beschrieben werden. Der entsprechende Vorgang kann in der Vertragsschnittstelle beschrieben werden.
 

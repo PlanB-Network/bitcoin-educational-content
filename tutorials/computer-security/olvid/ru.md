@@ -1,5 +1,5 @@
 ---
-name: Ольвид
+name: Olvid
 description: Личные сообщения для всех
 ---
 ![cover](assets/cover.webp)

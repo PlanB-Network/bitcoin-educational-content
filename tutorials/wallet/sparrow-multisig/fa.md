@@ -1,5 +1,5 @@
 ---
-name: Sparrow wallet - Multisig
+name: Sparrow Wallet - Multisig
 description: ایجاد یک Wallet چند امضایی بر روی Sparrow
 ---
 ![cover](assets/cover.webp)

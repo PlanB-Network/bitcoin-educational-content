@@ -73,7 +73,7 @@ Banxaas' nettplattform er minimalistisk og intuitiv, slik at du kan fullføre tr
 
 
 
-- Fra CFA-franc til satoshis** :
+- **Fra CFA-franc til satoshis**:
 
 
 
@@ -114,7 +114,7 @@ Bekreft transaksjonen ved å klikke på **Troc**-knappen for å kjøpe bitcoins 
 
 
 
-- Fra satoshier til CFA-franc**
+- Fra satoshier til **CFA-franc**
 
 
 

@@ -1,0 +1,9 @@
+question: Nani hudumisha seva za DNS seed zinazotumiwa kwa ugunduzi wa awali wa programu zingine?
+answer: Watengenezaji wa mfumo wa ikolojia
+wrong_answers:
+  - Watoa huduma za mtandao
+  - Satoshi Nakamoto
+  - Mabwawa ya Mining
+explanation: |
+  Mbegu za DNS hudumishwa na wasanidi programu wanaojulikana (Wuille, Corallo, Dashjr, n.k.) na hutoa IP za nodi amilifu ili kuanzisha miunganisho.
+reviewed: true

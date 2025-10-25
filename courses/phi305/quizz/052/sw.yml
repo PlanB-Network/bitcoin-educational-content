@@ -1,0 +1,9 @@
+question: Nani aliandika ilani ya Cypherpunk?
+answer: Eric Hughes.
+wrong_answers:
+  - Timothy Mei.
+  - Satoshi Nakamoto.
+  - Milton Friedman.
+explanation: |
+  Eric Hughes ndiye mwandishi wa Manifesto ya Cypherpunk (1993). Maandishi haya ya mwisho yanatetea matumizi ya cryptography kulinda faragha katika enzi ya dijitali.
+reviewed: false

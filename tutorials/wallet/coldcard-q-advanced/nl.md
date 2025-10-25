@@ -1,5 +1,5 @@
 ---
-name: COLDCARD Q - Gevorderd
+name: COLDCARD Q - Expert
 description: De geavanceerde opties van COLDCARD Q gebruiken
 ---
 ![cover](assets/cover.webp)
@@ -42,7 +42,7 @@ Op COLDCARDs heb je twee opties om je passphrase te beheren:
 1. **Klassieke invoer:** Je voert de passphrase handmatig in elke keer dat je je Hardware Wallet gebruikt, net zoals je met andere hardware wallets doet. COLDCARD Q vereenvoudigt deze taak met zijn volledige toetsenbord.
 
 
-2. **Je kunt ervoor kiezen om je passphrase te coderen en op te slaan op een microSD-kaart. In dit geval moet je de microSD elke keer dat je hem gebruikt in de COLDCARD Q steken. Let op: deze microSD werkt alleen op je COLDCARD Q en is geen back-up. Het is daarom erg belangrijk dat je ook een kopie van je passphrase bewaart op een fysieke drager, zoals papier of metaal.
+2. **Je kunt ervoor kiezen om je passphrase te coderen en op te slaan op een microSD-kaart. In dit geval moet je de microSD elke keer dat je hem gebruikt in de COLDCARD Q steken. Let op: deze microSD werkt alleen op je COLDCARD Q en is geen back-up. Het is daarom erg belangrijk dat je ook een kopie van je passphrase bewaart op een fysieke drager, zoals papier of metaal.**
 
 
 Om uw BIP39 passphrase in te stellen, opent u het "*passphrase*" menu.

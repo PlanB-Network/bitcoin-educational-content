@@ -81,7 +81,7 @@ Google “Ledger live GitHub” au ubofye ![hii](kiungo https://github.com/Ledge
 ![image](assets/3.webp)
 
 
-Tembeza chini hadi uone kichwa, "Vipakuliwa"...
+Tembeza chini hadi uone kichwa, "downloads"...
 
 
 ![image](assets/4.webp)
@@ -125,7 +125,7 @@ Kwa kweli, unataka kupata dhana ya ziada na uhakikishe kuwa heshi ambazo zimecha
 ## Unganisha kwa Ledger Live
 
 
-Kabla ya kutumia Ledger Live, inasaidia faragha kidogo kuwasha VPN. Ledger bado itapata anwani zako zote, lakini hawatajua IP yako Address, ambayo inatoa nyumba yako Address. Mullvad VPN ni huduma bora ya VPN na sio ghali sana (sitangazi, ni kile ninachotumia).
+Kabla ya kutumia Ledger Live, inasaidia faragha kidogo kuwasha VPN. Ledger bado itapata addresses zako zote, lakini hawatajua IP yako Address, ambayo inatoa nyumba yako Address. Mullvad VPN ni huduma bora ya VPN na sio ghali sana (sitangazi, ni kile ninachotumia).
 
 
 Sakinisha programu kwenye kompyuta yako na uiendeshe.
@@ -146,7 +146,7 @@ Kisha utachukuliwa kupitia mchawi, lakini tumefanya hatua hizi zote ili uweze ku
 ![image](assets/8.webp)
 
 
-Baada ya hatua nyingi na jaribio, itaangalia kifaa ni cha kweli. Unahitaji kuhakikisha kuwa umeunganishwa na kuingia pini, na kisha itauliza kwenye kifaa ikiwa unaruhusu Ledger Live kuunganisha. Lazima uthibitishe hilo, bila shaka.
+Baada ya hatua nyingi na jaribio, itaangalia kama kifaa ni cha kweli. Unahitaji kuhakikisha kuwa umeunganishwa na kuingiza PIN, na kisha itauliza kwenye kifaa ikiwa unaruhusu Ledger Live kuunganisha. Lazima uthibitishe hilo, bila shaka.
 
 
 ![image](assets/9.webp)
@@ -187,7 +187,7 @@ Unaweza kuzima Ledger Live sasa.
 Kwa kuwa sasa tunayo Programu ya Bitcoin, tunaweza kuongeza passphrase kwa maneno yetu ya seed. Hatukuweza kufanya hivyo hapo awali seed ilipoundwa kwa mara ya kwanza kwa sababu mwanzoni, hatukuwa na Programu ya Bitcoin, na tulihitaji kuunganisha kwenye Ledger Live ili kuipata.
 
 
-Nenda kwenye menyu ya "mipangilio" ndani ya kifaa, kisha menyu ndogo ya "usalama". Kisha chagua passphrase. Utaona "Kipengele cha hali ya juu". Bonyeza kitufe cha kulia, utaona "soma manuel ..." na kisha baada ya kubofya kitufe cha kulia, utaona "nyuma". Lakini huo sio mwisho. Intuitively, ungefikiria hivyo lakini bonyeza kitufe cha kulia tena. Utaona "kuweka passphrase".
+Nenda kwenye menyu ya "Settings" ndani ya kifaa, kisha menyu ndogo ya "Security". Kisha chagua "Passphrase". Utaona "Advanced feature". Bonyeza kitufe cha kulia, utaona "Read manual..." na kisha baada ya kubofya kitufe cha kulia, utaona "Back". Lakini huo sio mwisho. Kihisia, unaweza kufikiria ndiyo mwisho, lakini bonyeza kitufe cha kulia tena. Utaona "Set passphrase".
 
 
 Unaweza kuamua "kuambatisha kwa PIN" au "Weka kwa muda". Ninapendekeza "ambatisha kwa PIN". Kwa njia hiyo, unaweza kufikia pochi tofauti kulingana na PIN unayoingiza unapowasha kifaa kwa mara ya kwanza. Ikiwa "utaweka kwa muda", utahitaji kuingiza passphrase kila wakati unapotaka kufikia Wallet hiyo, lakini daima ni kutoka kwa PIN chaguo-msingi.
@@ -196,7 +196,7 @@ Unaweza kuamua "kuambatisha kwa PIN" au "Weka kwa muda". Ninapendekeza "ambatish
 Ingiza passphrase na uithibitishe.
 
 
-Itakuuliza "PIN ya Sasa". Hii si PIN unayoihusisha na passphrase mpya. Ni PIN uliyoweka ulipowasha kifaa kwa kipindi hiki.
+Itakuuliza "Current PIN". Hii si PIN unayoihusisha na passphrase mpya, bali ni PIN uliyoweka ulipowasha kifaa kwa kipindi hiki.
 
 
 Sasa unaweza kuondoka hadi kwenye menyu kuu kwa kuchagua chaguo la nyuma mara chache.
@@ -238,7 +238,7 @@ Ipe jina la kupendeza
 ![image](assets/15.webp)
 
 
-Angalia kisanduku cha kuteua, "Ina muamala uliopo". Ikiwa hii ni Wallet uliyotumia hapo awali, basi angalia hii vinginevyo salio lako litaonekana kimakosa kama sifuri. Kuteua kisanduku hiki kunauliza Sparrow kuchunguza hifadhidata ya Bitcoin Core (Blockchain) kwa miamala ya awali. Kwa mwongozo huu, tunatumia Wallet mpya kabisa, ili uweze kuacha kisanduku bila kuchaguliwa.
+Angalia kisanduku cha kuteua, "Contains existing transaction". Ikiwa hii ni Wallet uliyotumia hapo awali, basi angalia hii, vinginevyo salio lako litaonekana kimakosa kama sifuri. Kuteua kisanduku hiki kunauliza Sparrow kuchunguza hifadhidata ya Bitcoin Core (Blockchain) kwa miamala ya awali. Kwa mwongozo huu, tunatumia Wallet mpya kabisa, hivyo unaweza kuacha kisanduku bila kuchaguliwa.
 
 
 ![image](assets/16.webp)
@@ -250,7 +250,7 @@ Bofya kwenye "Imeunganishwa Hardware Wallet" na uhakikishe kuwa kifaa kimeungani
 ![image](assets/17.webp)
 
 
-Bofya "Changanua" na kisha "Ingiza Duka la vitufe" kwenye skrini inayofuata.
+Bofya "Scan" na kisha "Import Keystore" kwenye skrini inayofuata.
 
 
 ![image](assets/18.webp)
@@ -268,7 +268,7 @@ Skrini inayofuata hukuruhusu kuongeza nenosiri. Usichanganye hii na "passphrase"
 ![image](assets/20.webp)
 
 
-Baada ya pause, wakati kompyuta inafikiri, utaona vifungo upande wa kushoto mabadiliko kutoka kijivu hadi bluu. Hongera, Wallet yako sasa iko tayari kutumika. Fanya na utume miamala kwa maudhui ya moyo wako.
+Baada ya pause, wakati kompyuta inafikiri, utaona vifungo upande wa kushoto vikibadilika kutoka kijivu hadi bluu. Hongera, Wallet yako sasa iko tayari kutumika. Fanya na utume miamala kwa maudhui ya moyo wako.
 
 
 ![image](assets/21.webp)
@@ -283,28 +283,28 @@ Ili kupokea Bitcoin, nenda kwenye kichupo cha Anwani kilicho upande wa kushoto n
 Unapotumia Wallet kwa mara ya kwanza, unapaswa kupokea kiasi kidogo sana, ujizoeze kuitumia kwa Address nyingine, ama ndani ya Wallet au kurudi kwenye Exchange, ili kuthibitisha kwamba Wallet inafanya kazi inavyotarajiwa.
 
 
-Ukishafanya hivyo, lazima uhifadhi nakala ya maneno uliyoandika. Nakala moja haitoshi. Kuwa na nakala mbili za karatasi angalau (chuma ni bora), na uziweke katika sehemu mbili tofauti, zilizolindwa vizuri. Hii inapunguza hatari ya janga la asili kuharibu HWW yako na nakala ya karatasi katika tukio moja. Tazama "Kutumia Bitcoin Hardware Wallets" kwa majadiliano kamili kuhusu hili.
+Ukishafanya hivyo, lazima uhifadhi nakala ya maneno uliyoandika. Nakala moja haitoshi. Kuwa na nakala mbili za karatasi angalau (chuma ni bora), na uziweke katika sehemu mbili tofauti, zilizolindwa vizuri. Hii inapunguza hatari ya janga la asili kuharibu HWW yako na nakala ya karatasi katika tukio moja. Tazama "Using Bitcoin Hardware Wallets" kwa majadiliano kamili kuhusu hili.
 
 
-## Inatuma
+## Kutuma
 
 
 ![image](assets/22.webp)
 
 
-Unapofanya malipo, unahitaji kubandika kwenye Address unayolipa katika sehemu ya "Lipa ili". Kwa kweli huwezi kuacha Lebo tupu, ni kwa rekodi za pochi zako tu, lakini Sparrow hairuhusu - ingiza tu kitu (wewe tu utakiona). Weka kiasi na unaweza pia kurekebisha ada unayotaka.
+Unapofanya malipo, unahitaji kubandika Address unayolipa katika sehemu ya "Pay to". Huwezi kuacha Label tupu — ni kwa rekodi za Wallet zako tu, lakini Sparrow hairuhusu, kwa hivyo ingiza tu kitu (wewe tu utakiona). Weka kiasi na unaweza pia kurekebisha ada unayotaka.
 
 
-Wallet haiwezi kutia sahihi muamala isipokuwa HWW imeunganishwa. Hiyo ndiyo kazi ya HWW - kupokea shughuli, kusaini, na kurudisha, iliyosainiwa. Hakikisha unapoingia kwenye kifaa, unakagua kwa macho Address unayolipa ni sawa kwenye kifaa na kwenye skrini ya kompyuta, na Invoice unayopokea (kwa mfano, unaweza kuwa umepokea barua pepe ya kulipa Address fulani).
+Wallet haiwezi kutia sahihi muamala isipokuwa HWW imeunganishwa. Hiyo ndiyo kazi ya HWW - kupokea muamala, kusaini, na kurudisha, iliyosainiwa. Hakikisha unapoingia kwenye kifaa, unakagua kwa macho Address unayolipa ni sawa kwenye kifaa na kwenye skrini ya kompyuta, na Invoice unayopokea (kwa mfano, unaweza kuwa umepokea barua pepe ya kulipa Address fulani).
 
 
-Pia zingatia kwamba ukichagua kutumia sarafu ambayo ni kubwa kuliko kiasi cha malipo, basi salio litarejeshwa kwenye mojawapo ya anwani za kubadilisha pochi zako. Baadhi ya watu hawajajua hili, na walitazama shughuli zao kwenye Blockchain ya umma, na walidhani kwamba baadhi ya Bitcoin ilitumwa kwa washambuliaji Address, lakini kwa kweli, ilikuwa mabadiliko yao wenyewe Address.
+Pia zingatia kwamba ukichagua kutumia sarafu ambayo ni kubwa kuliko kiasi cha malipo, basi salio litarejeshwa kwenye mojawapo ya anwani za kubadilisha Wallet zako. Baadhi ya watu hawajajua hili, na walitazama shughuli zao kwenye Blockchain ya umma, na walidhani kwamba baadhi ya Bitcoin ilitumwa kwa washambuliaji Address, lakini kwa kweli, ilikuwa mabadiliko yao wenyewe Address.
 
 
 ## Firmware
 
 
-Ili kusasisha programu dhibiti, unahitaji kuunganisha kwa Ledger Live. Ikiwa unataka kufanya hivyo, unapaswa kufuta kifaa kwanza, na uhakikishe kuwa una maneno yako ya kuhifadhi na passphrase inapatikana ili kurejesha kifaa. Sababu ninapendelea kufuta kifaa kwanza ni kwamba unapaswa kuunganisha kifaa chako kwa Ledger Live ili kusasisha programu dhibiti, na ninapendelea kutofichua Wallet yako mpya (ile iliyo na passphrase) kwa Ledger Live, milele. Siamini kwamba Ledger haitoi maelezo yangu ya ufunguo wa umma kutoka kwa kifaa ninapounganisha kwenye Ledger Live. Wanadai hawafanyi hivyo, lakini siwezi kuthibitisha hilo mimi mwenyewe isipokuwa nisome msimbo, na kuelewa maunzi ya ndani pia.
+Ili kusasisha firmware, unahitaji kuunganisha kwa Ledger Live. Ikiwa unataka kufanya hivyo, unapaswa kufuta kifaa kwanza, na uhakikishe kuwa una maneno yako ya kuhifadhi na passphrase inapatikana ili kurejesha kifaa. Sababu ninapendelea kufuta kifaa kwanza ni kwamba unapaswa kuunganisha kifaa chako kwa Ledger Live ili kusasisha firmware, na ninapendelea kutofichua Wallet yako mpya (ile iliyo na passphrase) kwa Ledger Live, milele. Siamini kwamba Ledger haitoi maelezo yangu ya ufunguo wa umma kutoka kwa kifaa ninapounganisha kwenye Ledger Live. Wanadai hawafanyi hivyo, lakini siwezi kuthibitisha hilo mimi mwenyewe isipokuwa nisome msimbo, na kuelewa maunzi ya ndani pia.
 
 
 ## Hitimisho
@@ -315,7 +315,7 @@ Makala haya yalikuonyesha jinsi ya kutumia Ledger HWW kwa njia salama na ya fara
 Vidokezo:
 
 
-Umeme tuli Address: dandysack84@walletofsatoshi.com
+Lightning Address: dandysack84@walletofsatoshi.com
 
 https://armantheparman.com/ledgersparrow/
 

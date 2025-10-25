@@ -13,7 +13,7 @@ Men applikasjonen har også en "Embedded node".
 
 
 
-**Det er denne siden av applikasjonen vi skal utforske i denne veiledningen. Dette gjør det mulig for hvem som helst å ha sin egen lynnode på mobilen, uten behov for en dedikert server, på samme måte som ACINQ tilbyr sin utrolige Wallet lightning Phoenix.
+**Det er denne siden av applikasjonen vi skal utforske i denne veiledningen. Dette gjør det mulig for hvem som helst å ha sin egen lynnode på mobilen, uten behov for en dedikert server, på samme måte som ACINQ tilbyr sin utrolige Wallet lightning Phoenix.**
 
 
 
@@ -248,7 +248,7 @@ På neste skjermbilde blir du bedt om å åpne en kanal i samarbeid med **"Olymp
 I denne veiledningen velger vi dette alternativet for enkelhets skyld, men det er fullt mulig å åpne kanaler med en hvilken som helst node i nettverket.
 
 
-Det er til og med mulig å åpne flere kanaler i én og samme transaksjon ved å velge "OPEN ADDITIONAL CHANNEL". *Men dette skal vi se nærmere på i en "avansert" versjon av **Zeus Embedded****-veiledningen.
+Det er til og med mulig å åpne flere kanaler i én og samme transaksjon ved å velge "OPEN ADDITIONAL CHANNEL". *Men dette skal vi se nærmere på i en "avansert" versjon av **Zeus Embedded**-veiledningen.*
 
 
 

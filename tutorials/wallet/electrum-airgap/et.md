@@ -1,6 +1,6 @@
 ---
 name: Electrum Airgap
-description: Esimene samm ohutuse suunas, Cold Wallet koos Electrumiga
+description: Esimene samm turvalisuse suunas, cold wallet Electrumiga
 ---
 ![cover](assets/cover.webp)
 
@@ -54,7 +54,7 @@ Electrumi allalaadimiseks soovitan järgida selle õpetuse esimesi samme:
 
 
 
-https://planb.network/it/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 Pärast allalaadimist kontrollige alati väljalase enne selle paigaldamist, seejärel jätkake "One Server" konfigureerimist, nagu te leiate abiosast "Start with a Dummy Wallet".
 

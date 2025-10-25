@@ -73,7 +73,7 @@ Nền tảng web Banxaas được thiết kế tối giản và trực quan, cho
 
 
 
-- Từ CFA Franc sang satoshi**:
+- Từ CFA Franc sang **satoshi**:
 
 
 
@@ -114,7 +114,7 @@ Xác nhận giao dịch của bạn bằng cách nhấp vào nút **Troc** để
 
 
 
-- Từ Satoshi đến CFA Franc**
+- Từ Satoshi đến **CFA Franc**
 
 
 

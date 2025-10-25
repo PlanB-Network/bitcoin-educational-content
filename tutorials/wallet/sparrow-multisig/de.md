@@ -1,5 +1,5 @@
 ---
-name: Sperling Wallet - Multisig
+name: Sparrow Wallet - Multisig
 description: Erstellen Sie ein Portfolio mit mehreren Unterschriften auf Sparrow
 ---
 ![cover](assets/cover.webp)

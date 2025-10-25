@@ -130,7 +130,7 @@ Klicka på knappen "*Continue*" för att visa din nya återställningsfras.
 ![JADE-PLUS-GREEN](assets/fr/09.webp)
 
 
-Din Jade Plus visar din Mnemonic-fras med 12 ord. **Den här Mnemonic ger dig full, obegränsad tillgång till alla dina bitcoins. Vem som helst som har tillgång till denna fras kan stjäla dina pengar, även utan fysisk tillgång till din Jade Plus. Den 12 ord långa frasen återställer åtkomsten till dina bitcoins i händelse av förlust, stöld eller brott på din Jade. Det är därför mycket viktigt att spara den noggrant och förvara den på en säker plats.
+Din Jade Plus visar din Mnemonic-fras med 12 ord. **Den här Mnemonic ger dig full, obegränsad tillgång till alla dina bitcoins. Vem som helst som har tillgång till denna fras kan stjäla dina pengar, även utan fysisk tillgång till din Jade Plus. Den 12 ord långa frasen återställer åtkomsten till dina bitcoins i händelse av förlust, stöld eller brott på din Jade. Det är därför mycket viktigt att spara den noggrant och förvara den på en säker plats.**
 
 
 Du kan skriva den på kartongen som medföljer i lådan, eller för extra säkerhet rekommenderar jag att du graverar den på en bas av rostfritt stål för att skydda den mot brand, översvämning eller kollaps.
@@ -144,7 +144,7 @@ För mer information om det rätta sättet att spara och hantera din Mnemonic-fr
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-***Du får naturligtvis aldrig dela med dig av dessa ord på Internet, vilket jag gör i den här handledningen. Detta prov Wallet kommer endast att användas på Testnet och kommer att raderas i slutet av handledningen
+**Du får naturligtvis aldrig dela med dig av dessa ord på Internet, vilket jag gör i den här handledningen. Detta prov Wallet kommer endast att användas på Testnet och kommer att raderas i slutet av handledningen**
 
 
 Klicka på pilen till höger på skärmen för att visa följande ord.
@@ -423,5 +423,4 @@ För att ta saker ett steg längre rekommenderar jag denna handledning om Jade P
 
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
-
 

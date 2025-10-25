@@ -54,7 +54,7 @@ Assim, sempre que introduz o nome de um sítio Web no seu browser ou clica numa 
 
 
 
-**O PiHole inspeccionará então estes pedidos (são centenas todos os dias!) e bloqueará automaticamente os que são conhecidos por alojar publicidade ou mesmo ficheiros maliciosos
+**O PiHole inspeccionará então estes pedidos (são centenas todos os dias!) e bloqueará automaticamente os que são conhecidos por alojar publicidade ou mesmo ficheiros maliciosos**
 
 
 
@@ -62,7 +62,7 @@ Assim, sempre que introduz o nome de um sítio Web no seu browser ou clica numa 
 
 
 
-Com um nome como Pi-Hole, pode pensar-se, com razão, que é necessário um Raspberry-Pi... Mas isso não é bem verdade. **O Pi-Hole pode ser instalado em qualquer computador Linux (Debian, Fedora, Rocky, Ubuntu, etc.)
+Com um nome como Pi-Hole, pode pensar-se, com razão, que é necessário um Raspberry-Pi... Mas isso não é bem verdade. **O Pi-Hole pode ser instalado em qualquer computador Linux (Debian, Fedora, Rocky, Ubuntu, etc.).**
 
 
 
@@ -84,7 +84,7 @@ curl -sSL https://install.pi-hole.net | bash
 >
 
 
-> **Nota: em versões mínimas da Debian 11, o Curl não está instalado, por isso precisa de o instalar manualmente com o comando **apt-get install curl** antes de escrever o comando acima.
+> **Nota: em versões mínimas da Debian 11, o Curl não está instalado, por isso precisa de o instalar manualmente com o comando** `apt-get install curl` **antes de escrever o comando acima.**
 
 Depois de o script ser executado, será efectuada uma série de testes e a própria instalação será feita por si:
 
@@ -124,7 +124,7 @@ Seleção de DNS - Pi-Hole
 
 
 
-> **Nota: se estiver numa empresa, é provável que o seu servidor DNS atual seja o controlador de domínio do Active Diretory. Mas não se preocupe, pode mais tarde especificar um redirector condicional para um domínio à sua escolha. Normalmente, poderá redirecionar qualquer pedido relativo ao seu domínio local para o seu servidor DNS.
+> **Nota: se estiver numa empresa, é provável que o seu servidor DNS atual seja o controlador de domínio do Active Directory. Mas não se preocupe, pode mais tarde especificar um redirector condicional para um domínio à sua escolha. Normalmente, poderá redirecionar qualquer pedido relativo ao seu domínio local para o seu servidor DNS.**
 
 Irá reparar que algumas escolhas incluem uma opção DNSSEC. Basicamente, o protocolo DNS não é seguro (não foi concebido com isso em mente na altura). O DNSSEC resolve este problema adicionando um Layer de segurança através da encriptação e assinatura das trocas, conforme explicado no artigo correspondente: [Segurança do DNS](https://www.it-connect.fr/securite-dns-doh-quest-ce-le-dns-over-https/)
 

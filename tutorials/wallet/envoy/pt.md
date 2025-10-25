@@ -1,5 +1,5 @@
 ---
-name: Enviado
+name: Envoy
 description: Configurar e utilizar um Passaporte com a aplicação Envoy
 ---
 ![cover](assets/cover.webp)
@@ -313,7 +313,7 @@ O submenu "*Ferramentas de conta*" oferece opções como a verificação de um e
 
 ![Image](assets/fr/38.webp)
 
-No submenu "*Manage Account*" (Gerir conta*), pode ligar a sua carteira Bitcoin a um software de gestão de carteiras (que abordaremos nos próximos passos deste tutorial), ou ver e mudar o nome da sua conta.
+No submenu **Manage Account** (Gerir conta), pode ligar a sua carteira Bitcoin a um software de gestão de carteiras (que abordaremos nos próximos passos deste tutorial), ou ver e mudar o nome da sua conta.
 
 ![Image](assets/fr/39.webp)
 

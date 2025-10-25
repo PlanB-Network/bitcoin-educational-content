@@ -1,5 +1,5 @@
 ---
-name: Krux - Single ja Multi Sig
+name: Krux
 description: krux DIY Bitcoin riistvaralise allkirjastamisseadme seadistamine, selle püsivara väljalülitamine ja selle kasutamine nii ühe signeeringuga kui ka Multisig rahakottide jaoks.
 ---
 

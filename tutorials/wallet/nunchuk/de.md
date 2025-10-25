@@ -24,7 +24,7 @@ Der erste Schritt ist definitiv die Entscheidung, wo Sie die App herunterladen k
 
 
 
-📌 In diesem Tutorial zeige ich euch, wie ihr Software Wallet aus dem Github-Repository herunterladet und wie ihr die Version vor der Installation auf eurem Handy überprüft. **Die folgende Prozedur kann nur von deinem Computer aus durchgeführt werden, daher empfehle ich dir, all diese Schritte von deinem Desktop oder Laptop aus zu machen und - nach allen Überprüfungen - die `.apk` Datei auf dein Handy zu übertragen.
+📌 In diesem Tutorial zeige ich euch, wie ihr Software Wallet aus dem Github-Repository herunterladet und wie ihr die Version vor der Installation auf eurem Handy überprüft. **Die folgende Prozedur kann nur von deinem Computer aus durchgeführt werden, daher empfehle ich dir, all diese Schritte von deinem Desktop oder Laptop aus zu machen und - nach allen Überprüfungen - die `.apk` Datei auf dein Handy zu übertragen.**
 
 
 
@@ -98,7 +98,7 @@ In dem sich öffnenden Fenster finden Sie Felder zum "Ausfüllen": Wählen Sie d
 Sie können den Leitfaden zu Sparrow wallet finden, um diesen Software Wallet herunterzuladen
 
 
-https://planb.network/en/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Sie können dann die "apk"-Datei von Ihrem Computer auf Ihr Handy übertragen
 

@@ -17,13 +17,13 @@ Už jste to udělali:
 V tomto tutoriálu se podíváme, jak přidat svůj tutoriál do sítě Plan ₿ nastavením místního prostředí pomocí aplikace GitHub Desktop. Pokud jste již zběhlí v práci se systémem Git, tento velmi podrobný návod pro vás nemusí být nutný. Doporučuji spíše konzultaci tohoto jiného tutoriálu, kde uvádím pouze hlavní pokyny, bez podrobného návodu krok za krokem:
 
 
-- Zkušení uživatelé**:
+- **Zkušení uživatelé**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 Pokud nechcete nastavovat místní prostředí, postupujte podle tohoto dalšího návodu určeného pro začátečníky, kde změny provedeme přímo přes webové rozhraní GitHubu:
 
 
-- Pro začátečníky (webové rozhraní)**:
+- **Pro začátečníky (webové rozhraní)**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 ## Předpoklady
@@ -383,8 +383,8 @@ Vykřičník na začátku označuje, že se jedná o obrázek. Alternativní tex
 Pokud si chcete vytvořit vlastní diagramy, dbejte na dodržování grafické charty sítě Plan ₿, abyste zajistili vizuální konzistenci:
 
 
-- Písmo**: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
-- Barvy**:
+- **Písmo**: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
+- **Barvy**:
  - Oranžová: #FF5C00
  - Černá barva: #000000
  - Bílá: #FFFFFF
@@ -448,5 +448,4 @@ Pokud chcete provést změny ve svém příspěvku poté, co jste již předlož
 - Pokud byl váš PR již sloučen s hlavní větví, musíte proces začít znovu vytvořením nové větve a následným odesláním nového PR. Před pokračováním se ujistěte, že je váš místní repozitář synchronizován se zdrojovým repozitářem sítě Plan ₿.
 
 Pokud se při odesílání výukového programu setkáte s technickými potížemi, neváhejte požádat o pomoc na [naší speciální skupině pro příspěvky na Telegramu](https://t.me/PlanBNetwork_ContentBuilder). Děkujeme!
-
 

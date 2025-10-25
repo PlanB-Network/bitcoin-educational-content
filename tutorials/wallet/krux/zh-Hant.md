@@ -1,5 +1,5 @@
 ---
-name: Krux - 單把和多把 Sig
+name: Krux
 description: 設定 Krux DIY Bitcoin 硬體簽章裝置、更新其韌體，並將其用於單一簽章和 Multisig 錢包。
 ---
 

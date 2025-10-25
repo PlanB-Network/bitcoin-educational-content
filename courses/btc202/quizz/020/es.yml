@@ -1,0 +1,9 @@
+question: ¿Qué ocurre si un bloque viola las reglas del consenso?
+answer: Es inmediatamente rechazada por los nodos
+wrong_answers:
+  - Se almacena en Mempool a la espera de validación
+  - Sólo lo retransmiten los nodos que aceptan otras normas
+  - Sólo lo validan los monederos
+explanation: |
+  Los nodos rechazan sistemáticamente cualquier bloque que no cumpla las reglas de consenso.
+reviewed: true

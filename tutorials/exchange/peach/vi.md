@@ -18,7 +18,7 @@ Peach is a P2P exchange platform that allows users to buy and sell bitcoins with
 
 ### 2. Privacy and Data Collection
 
-**What information does Peach collect?
+**What information does Peach collect?**
 
 Peach strives to store the absolute minimum of data about its users. Here is an overview of the data stored on its servers:
 
@@ -36,7 +36,7 @@ As a reminder, a hash is data rendered unrecognizable, similar to encryption. Th
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
-**Who can see my payment details?
+**Who can see my payment details?**
 
 
 - Only your counterparty can see your payment details
@@ -68,17 +68,17 @@ The Peach application is organized around four main screens accessible from the 
 ![Navigation dans l'application](assets/fr/02.webp)
 
 
-- Home** : The main screen for buying and selling bitcoins. This is where you can create new transactions and access available offers.
-- Wallet**: Your integrated bitcoin wallet that allows you to :
+- **Home**: The main screen for buying and selling bitcoins. This is where you can create new transactions and access available offers.
+- **Wallet**: Your integrated bitcoin wallet that allows you to :
  - Check your balance
  - Receive bitcoins
  - Send bitcoins
  - View your transaction history
-- Trades** : Your trade management center where you'll find :
+- **Trades**: Your trade management center where you'll find:
  - Your current transactions
  - A complete history of your exchanges
  - The status of each transaction
-- Settings** : Your account configuration hub for :
+- **Settings**: Your account configuration hub for :
  - Manage your payment methods
  - Configure your backups
  - Customize your preferences
@@ -90,7 +90,7 @@ The Peach application is organized around four main screens accessible from the 
 
 Access payment methods via the Settings tab (image 8)
 
-**Online payments
+**Online payments**
 
 ![Configuration des paiements en ligne](assets/fr/04.webp)
 
@@ -149,7 +149,7 @@ Country-specific payment systems :
 
 ### 4. How to secure your portfolio
 
-**Understanding your Peach account
+**Understanding your Peach account**
 
 A Peach account is not a traditional login and password account. It's a file stored locally on your phone, which means Peach doesn't need to store your data or know your identity: you're in control. This file contains all your data, from your bitcoin wallet keys to your payment details.
 
@@ -269,16 +269,16 @@ For optimum security, we recommend that you perform both types of backup.
 ### Peach benefits
 
 
-- No KYC required**: Preserves user confidentiality.
-- No access to bank details**: Peach has no access to your bank details or your identity.
-- Intuitive interface**: Easy to use for intermediate users.
-- Open Source** : Source code is public and verifiable by the community.
+- **No KYC required**: Preserves user confidentiality.
+- **No access to bank details**: Peach has no access to your bank details or your identity.
+- **Intuitive interface**: Easy to use for intermediate users.
+- **Open Source**: Source code is public and verifiable by the community.
 
 ### Peach disadvantages
 
 
-- Limited liquidity**: Less trading volume than more established platforms.
-- Regulatory risk** : The application is managed by a Swiss company. It is therefore subject to Swiss regulations, which could evolve and potentially censor the application.
+- **Limited liquidity**: Less trading volume than more established platforms.
+- **Regulatory risk**: The application is managed by a Swiss company. It is therefore subject to Swiss regulations, which could evolve and potentially censor the application.
 
 ## Useful resources
 

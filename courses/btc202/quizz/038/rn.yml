@@ -1,0 +1,9 @@
+question: Ni kuki HDD idakenewe ku node ya Bitcoin?
+answer: Kuko bigabanya cane IBD n’ikoreshwa rusangi .
+wrong_answers:
+  - Kuko idashobora kubika amadosiye ya Blockchain .
+  - Kubera ko ikoresha inguvu nke cane kandi ishobora guturika .
+  - Kubera ko ridahuye na Bitcoin core.
+explanation: |
+  Amadisiki y’ubuhinga aragabanya ubushobozi, ararekura cane IBD, kandi arashaza ningoga iyo afise umuzigo w’ibihimba.
+reviewed: true

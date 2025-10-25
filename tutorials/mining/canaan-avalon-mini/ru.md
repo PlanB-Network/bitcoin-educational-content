@@ -137,7 +137,7 @@ https://planb.network/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a
 
 
 
-**Эта часть является общей для устройств Nano 3s и Mini 3, так как процессы полностью идентичны*
+**Эта часть является общей для устройств Nano 3s и Mini 3, так как процессы полностью идентичны**
 
 
 

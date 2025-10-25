@@ -16,11 +16,11 @@ description: Alby Go 行動應用程式指南
 
 
 
-- [Alby Hub](https://albyhub.com/)** *(建議)*
-- Umbrel**、**Start9**、**RaspiBlitz** (via **Alby Hub**)
-- Coinos** *（未測試）*
-- Primal** *(未經測試)*
-- Minibits** *（未測試）*
+- [Alby Hub](https://albyhub.com/) **(建議)**
+- **Umbrel**、**Start9**、**RaspiBlitz** (via **Alby Hub**)
+- **Coinos** *（未測試）*
+- **Primal** *(未經測試)*
+- **Minibits** *（未測試）*
 
 
 大多數啟用 NWC 的服務都應該可以運作。如果您正在測試新的服務，請讓社群知道您的結果！
@@ -33,9 +33,9 @@ description: Alby Go 行動應用程式指南
 
 
 
-- iOS:** [從 App Store 下載](https://apps.apple.com/us/app/alby-go/id6471335774)
-- Android:** [從 Google Play 下載](https://play.google.com/store/apps/details?id=com.getalby.mobile)
-- ZapStore**
+- **iOS:** [從 App Store 下載](https://apps.apple.com/us/app/alby-go/id6471335774)
+- **Android:** [從 Google Play 下載](https://play.google.com/store/apps/details?id=com.getalby.mobile)
+- **ZapStore**
 
 
 
@@ -123,6 +123,6 @@ QR 代碼和 Invoice 字串都可用，以方便寄件者。
 - 新增、移除和匯出錢包
 
 
-**💡 需要幫助嗎？
+**💡 需要幫助嗎？**
 
 請造訪 getalby.com 以取得支援與更新。

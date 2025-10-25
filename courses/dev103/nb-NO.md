@@ -36,7 +36,6 @@ Ved kursets slutt skal du kunne skrive dine egne programmer i JavaScript, bruke 
 <chapterId>ba05a290-1782-5268-87c9-62fd09590e05</chapterId>
 
 
-I denne delen skal vi konfigurere maskinen vår til å skrive og kjøre vårt første JavaScript-program.
 
 
 Et JavaScript-program er bare en samling av (en eller flere) tekstfiler som inneholder kommandoer som skal utføres av en JavaScript-kjøretid.
@@ -51,16 +50,16 @@ Kommandoene de inneholder, er skrevet i programmeringsspråket JavaScript.
 En JavaScript-kjøretid er et spesielt program som kjører disse filene.
 
 
-![](assets/en/1.webp)
+![](assets/en/001.webp)
 
 
-### NodeJS-installasjon
+### NodeJS-kjøretid
 
 
 Den vanligste JavaScript-kjøretiden er NodeJS.
 
 
-Du kan installere den ved å følge de [offisielle instruksjonene] (https://nodejs.org/en/download).
+IDE-en din kan allerede inneholde det, eller du må kanskje laste det ned fra [offisielt nettsted](https://nodejs.org/en/download).
 
 
 På nedlastingssiden finner du instruksjoner for alle de tre største operativsystemene (OS): Windows, Linux og MacOS. Det forutsettes at du vet hvordan du åpner en terminal i operativsystemet ditt.
@@ -72,25 +71,19 @@ Siden NodeJS er tilgjengelig for alle tre operativsystemene, vil programmene du 
 Det betyr at du for eksempel kan skrive et enkelt videospill i JavaScript på Windows-PC-en din og sende det til en venn som kjører det på Mac-en sin.
 
 
-![](assets/en/2.webp)
+![](assets/en/002.webp)
 
 
-### Redigering av tekst
 
 
-Noe av det kule med programmering er at du kan skrive kode med en hvilken som helst teksteditor, til og med standard notisblokk i operativsystemet ditt.
 
 
-Det finnes imidlertid noen tekstredigeringsprogrammer som er spesialisert for å skrive kode. Noen er gratis, mens andre krever at du betaler for en lisens.
 
 
-Valg av kodeditor er et gigantisk kaninhull som overskrider omfanget av dette kurset, så vi skal ikke snakke om det her. Hvis du ikke vet hva du skal bruke, er den mest brukte gratis editoren [VSCode] (https://code.visualstudio.com/).
 
 
-Interface er litt oppblåst, men det har det du trenger: en filredigerer, en filutforsker (for å visualisere filene og underkatalogene i katalogen du jobber i) og en terminal for å kjøre koden din. Det støtter også mange plugins, og JavaScript-syntaksutheving er standard.
 
 
-Hvis du vil være litt mer Cypherpunk-aktig, kan du bruke [VSCodium](https://vscodium.com/) i stedet.
 
 
 ### Første program (hello world)
@@ -102,7 +95,7 @@ Når man lærer seg et programmeringsspråk, er det vanlig at det første progra
 Opprett en katalog som heter `my_js_code/`, med en fil som heter `main.js` (disse navnene er vilkårlige).
 
 
-Åpne katalogen med VSCode.
+Åpne katalogen med kodeeditoren din.
 
 
 Skriv denne koden inn i filen din:
@@ -687,7 +680,7 @@ Du kan kombinere boolske tegn ved hjelp av logiske operatorer:
 - `!` betyr "ikke", det brukes foran en boolsk, og det vil snu den: hvis den boolske er `sann`, vil den returnere `falsk`, og vice versa.
 
 
-![](assets/en/3.webp)
+![](assets/en/003.webp)
 
 
 Eksempler:
@@ -737,9 +730,9 @@ I dette avsnittet tar vi for oss ytterligere tre typer som er svært vanlige i J
 
 
 
-- Matriser**: sekvenser av verdier
-- udefinert**: en spesiell verdi som betyr at "ingenting ble tildelt"
-- null**: en annen spesiell verdi som betyr "med vilje tom"
+- **Matriser**: sekvenser av verdier
+- **udefinert**: en spesiell verdi som betyr at "ingenting ble tildelt"
+- **null**: en annen spesiell verdi som betyr "med vilje tom"
 
 
 ### Matriser og indekstilgang
@@ -2302,7 +2295,7 @@ console.log(`${this.brand} car is ready to drive!`)
 Klassen `Car` **arver** nå alt fra `Vehicle`. Den får egenskapen `brand`, og vi har erstattet `start()`-metoden med vår egen versjon.
 
 
-![](assets/en/4.webp)
+![](assets/en/004.webp)
 
 
 La oss prøve det ut:
@@ -2356,7 +2349,7 @@ myCar.start()
 ```
 
 
-![](assets/en/5.webp)
+![](assets/en/005.webp)
 
 
 
@@ -4197,7 +4190,7 @@ Here is the doubled array: [ 2, 4, 6 ]
 ```
 
 
-**Hva er det som skjer her?
+**Hva er det som skjer her?**
 
 
 1. Vi sender `input` som en liste over tall vi ønsker å doble.
@@ -5055,7 +5048,7 @@ Disse er nyttige når du vil oppdatere en variabel ved hjelp av dens egen verdi.
 ### Destrukturering
 
 
-*med *Destructuring** kan du enkelt ta verdier ut av matriser eller objekter og lagre dem i variabler.
+**Med Destructuring** kan du enkelt ta verdier ut av matriser eller objekter og lagre dem i variabler.
 
 
 #### Matriser
@@ -5235,7 +5228,7 @@ JavaScript er et tolket språk, i motsetning til kompilerte språk som C.
 Kode skrevet i et kompilert språk blir omgjort til en binær fil, og den binære filen blir sendt direkte til datamaskinens CPU.
 
 
-![](assets/en/6.webp)
+![](assets/en/006.webp)
 
 
 Interpred-språk, derimot, er gjerne mer brukervennlige og ligger nærmere hvordan mennesker tenker ("høyt nivå") enn hvordan maskiner fungerer ("lavt nivå"), og de har derfor vanligvis en virtuell maskin som kjører koden deres.
@@ -5268,7 +5261,7 @@ Hvorfor er det et problem?
 Vel, siden nettlesere kjører kode hentet fra millioner av forskjellige kilder på Internett, kan de lett bli infisert med skadelig programvare, så de er "sandkassert" fra resten av operativsystemet.
 
 
-![](assets/en/7.webp)
+![](assets/en/007.webp)
 
 
 JavaScript hadde ikke tilgang til filsystemet og andre lokale ressurser på datamaskinen (i hvert fall ikke på samme enkle måte som andre språk), så det var en betydelig begrensning for hva slags applikasjoner du kunne bygge med det.
@@ -5277,7 +5270,7 @@ JavaScript hadde ikke tilgang til filsystemet og andre lokale ressurser på data
 I 2009 publiserte Ryan Dahl NodeJS, som er en kjøretid som gjør det mulig å bruke V8-motoren utenfor nettleseren, direkte på det opprinnelige operativsystemet på datamaskinen. Den legger også til mange funksjoner som er nyttige for å skrive programmer på serversiden og kommandolinjen. Du kan for eksempel bruke NodeJS til å opprette en webserver, lese og skrive filer eller bygge verktøy som automatiserer oppgaver.
 
 
-![](assets/en/8.webp)
+![](assets/en/008.webp)
 
 
 I dette kurset har vi så langt utforsket JavaScript-funksjonene som finnes både i nettleseren og i NodeJS. Disse funksjonene har gjort det mulig for oss å definere data og manipulere dem på abstrakte måter. I de neste leksjonene skal vi utforske funksjonene som er spesifikke for NodeJS, og som gjør det mulig for oss å samhandle med operativsystemet.
@@ -6438,10 +6431,10 @@ NodeJS har fire hovedtyper av strømmer:
 
 
 
-- Readable**: strømmer du kan lese data fra (som å lese en fil)
-- Writable**: strømmer du kan skrive data til (som å skrive til en fil)
-- Tosidig**: strømmer som både kan leses og skrives
-- Transform**: som tosidige strømmer, men de kan endre (transformere) dataene mens de flyter
+- **Readable**: strømmer du kan lese data fra (som å lese en fil)
+- **Writable**: strømmer du kan skrive data til (som å skrive til en fil)
+- **Tosidig**: strømmer som både kan leses og skrives
+- **Transform**: som tosidige strømmer, men de kan endre (transformere) dataene mens de flyter
 
 
 ### Lesbare strømmer

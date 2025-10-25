@@ -17,13 +17,13 @@ Thunderbird is een e-mailprogramma dat bekend staat om zijn flexibiliteit en uit
 
 
 
-- Gratis en open source**: in tegenstelling tot veel berichtenapplicaties is Thunderbird helemaal gratis. U kunt de ontwikkelaars echter steunen door hen een donatie te sturen.
-- Intuïtief Interface en gemakkelijk te leren**: De configuratie van Thunderbird is voor het grootste deel eenvoudig, dus u hoeft zich er geen zorgen over te maken.
-- Geschikt voor verschillende soorten e-mail**: of het nu gaat om Gmail, Yahoo, Outlook of zelfs zakelijke e-mails gekoppeld aan een domeinnaam, deze mailbox is zeer veelzijdig.
-- Meerdere accounts**: Met Thunderbird kunt u verbinding maken met meerdere e-mailaccounts tegelijk, zodat u gemakkelijk toegang hebt tot al uw berichten.
-- Krachtige functies en schaalbaarheid**: Thunderbird biedt standaard een groot aantal functies voor het beheren van uw e-mailaccounts en evenementenkalender. Maar u kunt ook extra opties toevoegen dankzij de vele beschikbare extensies.
-- Multi-platform**: Thunderbird is beschikbaar op verschillende apparaten (Android, Windows, Linux, macOS), waardoor je eenvoudig toegang hebt tot je e-mails.
-- Beveiliging**: Thunderbird is een zeer veilige toepassing, waardoor u kunt profiteren van end-to-endencryptie op basis van RSA of ECC (Elliptic Curve) om de vertrouwelijkheid van uw gegevens te garanderen.
+- **Gratis en open source**: in tegenstelling tot veel berichtenapplicaties is Thunderbird helemaal gratis. U kunt de ontwikkelaars echter steunen door hen een donatie te sturen.
+- **Intuïtief Interface en gemakkelijk te leren**: De configuratie van Thunderbird is voor het grootste deel eenvoudig, dus u hoeft zich er geen zorgen over te maken.
+- Geschikt voor verschillende soorten e-mail: of het nu gaat om Gmail, Yahoo, Outlook of zelfs zakelijke e-mails gekoppeld aan een domeinnaam, deze mailbox is zeer veelzijdig.
+- **Meerdere accounts**: Met Thunderbird kunt u verbinding maken met meerdere e-mailaccounts tegelijk, zodat u gemakkelijk toegang hebt tot al uw berichten.
+- **Krachtige functies en schaalbaarheid**: Thunderbird biedt standaard een groot aantal functies voor het beheren van uw e-mailaccounts en evenementenkalender. Maar u kunt ook extra opties toevoegen dankzij de vele beschikbare extensies.
+- **Multi-platform**: Thunderbird is beschikbaar op verschillende apparaten (Android, Windows, Linux, macOS), waardoor je eenvoudig toegang hebt tot je e-mails.
+- **Beveiliging**: Thunderbird is een zeer veilige toepassing, waardoor u kunt profiteren van end-to-endencryptie op basis van RSA of ECC (Elliptic Curve) om de vertrouwelijkheid van uw gegevens te garanderen.
 
 
 
@@ -59,8 +59,8 @@ Voer in Windows het gedownloade uitvoerbare bestand uit om de installatie te sta
 
 
 
-- Standaard**: maakt directe installatie zonder voorafgaande configuratie mogelijk.
-- Aangepast**: hiermee kun je de installatiemap kiezen en al dan niet snelkoppelingen op het bureaublad maken.
+- **Standaard**: maakt directe installatie zonder voorafgaande configuratie mogelijk.
+- **Aangepast**: hiermee kun je de installatiemap kiezen en al dan niet snelkoppelingen op het bureaublad maken.
 
 
 

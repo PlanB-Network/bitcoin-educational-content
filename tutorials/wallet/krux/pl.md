@@ -1,5 +1,5 @@
 ---
-name: Krux - Single i Multi Sig
+name: Krux
 description: konfigurowanie sprzętowego urządzenia podpisującego Krux DIY Bitcoin, flashowanie jego oprogramowania układowego i używanie go zarówno do portfeli single-sig, jak i Multisig.
 ---
 

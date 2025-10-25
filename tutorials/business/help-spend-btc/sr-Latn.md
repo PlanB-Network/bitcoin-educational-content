@@ -57,7 +57,7 @@ Ova vrsta popusta je efikasnija za fizičke prodavnice, posebno za proizvode koj
 ##### Primer
 
 
-Sve evropske zemlje podležu porezu na potrošnju koji se na engleskom zove Value-Added Tax, [VAT](https://en.wikipedia.org/wiki/Value-added_tax), kako sledi. Ovaj porez je izmišljen u Francuskoj 1954. godine, a do 1970. već je počeo da se širi širom originalne Evropske zajednice. Do 2020. godine, proširio se na većinu sveta.
+Sve evropske zemlje podležu porezu na potrošnju, koji se na engleskom naziva "Value-added Tax", u daljem tekstu [VAT](https://en.wikipedia.org/wiki/Value-added_tax). Ovaj porez je izmišljen u Francuskoj 1954. godine, do 1970. već je počeo da se širi u prvoj Evropskoj zajednici; do 2020. se već proširio na dobar deo sveta.
 
 
 Za ovaj primer, pretpostavimo da smo u Evropi, u zemlji gde je stopa PDV-a 20% za bilo koju kategoriju robe. Nalazimo se u prodavnici obuće, i recimo da par kožnih cipela košta $120 ako se plaća debitnom karticom.
@@ -126,7 +126,7 @@ Način implementacije prepušten je trgovcu, ali ukratko, evo nekih dostupnih op
 ### BTC Mapa
 
 
-U svakom slučaju, uvek je dobra praksa osigurati da je vaše preduzeće, ako ima fizičku lokaciju, prisutno i ažurirano na [BTC Map](https://btcmap.org/map). Većina korisnika Bitcoin je upoznata sa ovim alatom, i skoro svi koji su potrošili Bitcoin u fizičkim prodavnicama su barem jednom proverili koja mesta ih prihvataju. Ako želite da naučite kako da dodate svoju prodavnicu na BTC Map ili želite više informacija, pogledajte ovaj tutorijal:
+U svakom slučaju, uvek je dobra praksa osigurati da je vaš biznis, ako ima fizičku lokaciju, prisutan i ažuran na [BTC Map](https://btcmap.org/map). Većina korisnika bitkoina je upoznata sa ovim alatom, i skoro svi koji su trošili bitkoin u fizičkim prodavnicama su barem jednom proverili koja mesta ga prihvataju. Ako želite da naučite kako da dodate svoju prodavnicu na BTC Map ili želite više informacija, pogledajte ovaj tutorijal:
 
 
 https://planb.network/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-f62658f343c6

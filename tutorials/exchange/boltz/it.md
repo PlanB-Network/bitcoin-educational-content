@@ -25,10 +25,10 @@ Tuttavia, rimaneva un problema importante tra i livelli del protocollo Bitcoin: 
 
 
 
-- on chain**: La catena principale di Bitcoin dove le transazioni sono confermate in media ogni 10 minuti, le commissioni di transazione sono spesso elevate, il che non soddisfa necessariamente le esigenze degli utenti;
-- Lightning Network**: Il sovrapposto Bitcoin per pagamenti istantanei a commissioni ridotte, che consente di utilizzare il Bitcoin per i pagamenti giornalieri;
-- Liquid Network**: un overlay per il Bitcoin creato da Blockstream, che consente di utilizzare strumenti finanziari veloci, Confidential Transactions e altri strumenti finanziari basati su Bitcoin;
-- RootStock**: Una soluzione per lo sviluppo di contratti intelligenti basati sul protocollo Bitcoin.
+- **on chain**: La catena principale di Bitcoin dove le transazioni sono confermate in media ogni 10 minuti, le commissioni di transazione sono spesso elevate, il che non soddisfa necessariamente le esigenze degli utenti;
+- **Lightning Network**: Il sovrapposto Bitcoin per pagamenti istantanei a commissioni ridotte, che consente di utilizzare il Bitcoin per i pagamenti giornalieri;
+- **Liquid Network**: un overlay per il Bitcoin creato da Blockstream, che consente di utilizzare strumenti finanziari veloci, Confidential Transactions e altri strumenti finanziari basati su Bitcoin;
+- **RootStock**: Una soluzione per lo sviluppo di contratti intelligenti basati sul protocollo Bitcoin.
 
 
 

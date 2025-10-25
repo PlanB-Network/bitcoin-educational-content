@@ -1,0 +1,9 @@
+question: Mida tagab perkolatsiooniteooria kohaselt kriitilise lävendi ületamine?
+answer: Tehingu levik kogu võrgus
+wrong_answers:
+  - Uue ploki kohene loomine
+  - Automaatne kulude vähendamine sõlmede kaupa
+  - Tehingu blokeerimine võrgu poolt
+explanation: |
+  Kui perkolatsioonikünnis on ületatud, levib tehing peaaegu koheselt kogu Bitcoin võrgus.
+reviewed: true

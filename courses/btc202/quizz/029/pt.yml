@@ -1,0 +1,9 @@
+question: Qual é a principal caraterística de um Full node?
+answer: Descarrega e valida a totalidade do Blockchain
+wrong_answers:
+  - Mantém apenas os cabeçalhos do bloco
+  - Elimina os blocos antigos após a verificação
+  - Depende de outro nó para validar as transacções
+explanation: |
+  O Full node retém todo o Blockchain e valida cada bloco e transação de forma independente.
+reviewed: true

@@ -306,7 +306,7 @@ Auf der Registerkarte "*Filter*" können Sie Filter für die von Ihnen empfangen
 
 
 
-Auf der Registerkarte "Weiterleitung und automatische Antwort*" können Sie die Weiterleitung und automatische Antwort für Ihre E-Mails verwalten.
+Auf der Registerkarte "Weiterleitung und automatische Antwort" können Sie die Weiterleitung und automatische Antwort für Ihre E-Mails verwalten.
 
 
 

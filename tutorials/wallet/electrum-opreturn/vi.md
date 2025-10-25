@@ -150,8 +150,8 @@ Chọn tin nhắn bạn muốn nhập (ví dụ: `Cảm ơn Satoshi`). Lưu ý: 
 
 
 
-- để lại một biểu hiện đẹp đẽ về nhân tính của chúng ta,*
-- tránh nhập nội dung mà bạn có thể hối tiếc*
+- để lại một biểu hiện đẹp đẽ về nhân tính của chúng ta,
+- tránh nhập nội dung mà bạn có thể hối tiếc
 
 
 
@@ -208,9 +208,9 @@ script(OP_RETURN 5468616e6b73205361746f736869), 0
 
 
 
-- Điểm đến Address**: Bitcoin Address hợp lệ. Ici, `bc1q879cv4p5q6s9537orange3zss33d3turzad8`. Đây có thể là Address của riêng bạn, nếu bạn muốn tự trả lại số tiền đã chuyển;
-- Số tiền đã chuyển**: số tiền của giao dịch, ở đây là `0,00001` BTC. **Xin lưu ý**: vì đơn vị được sử dụng trong Electrum là BTC, nên số tiền được chỉ định trong tập lệnh giao dịch cũng phải được thể hiện bằng BTC, chứ không phải bằng Sats;
-- Script OP_RETURN**: Tin nhắn được chuyển đổi sang hệ thập lục phân, bắt đầu bằng script(`OP_RETURN <messsage>), 0`. Ở đây, `5468616e6b73205361746f736869` cho tin nhắn ở hệ thập lục phân.
+- Điểm đến **Address**: Bitcoin Address hợp lệ. Ici, `bc1q879cv4p5q6s9537orange3zss33d3turzad8`. Đây có thể là Address của riêng bạn, nếu bạn muốn tự trả lại số tiền đã chuyển;
+- **Số tiền đã chuyển**: số tiền của giao dịch, ở đây là `0,00001` BTC. **Xin lưu ý**: vì đơn vị được sử dụng trong Electrum là BTC, nên số tiền được chỉ định trong tập lệnh giao dịch cũng phải được thể hiện bằng BTC, chứ không phải bằng Sats;
+- **Script OP_RETURN**: Tin nhắn được chuyển đổi sang hệ thập lục phân, bắt đầu bằng script(`OP_RETURN <messsage>), 0`. Ở đây, `5468616e6b73205361746f736869` cho tin nhắn ở hệ thập lục phân.
 
 
 

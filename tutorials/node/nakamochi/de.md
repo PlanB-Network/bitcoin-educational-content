@@ -1,7 +1,9 @@
 ---
 name: Nakamochi
-description: Benutzerfreundlicher Node-Betrieb – Wie man die Nakamochi Bitcoin- und Lightning-Node einrichtet und nutzt.
+description: Node-Betrieb leicht gemacht - So konfigurieren und verwenden Sie den Nakamochi Bitcoin- und Lightning-Node.
 ---
+![image](assets/cover.webp)
+
 Der Betrieb einer eigenen Bitcoin- und Lightning-Node ist längst keine komplexe Aufgabe mehr, die nur Personen mit technischen Kenntnisse vorbehalten ist. Traditionell erfordert die Einrichtung und der Betrieb von Nodes fundierte Kenntnisse in den Bereichen Kryptografie, Netzwerktechnologie und Softwareentwicklung. Nakamochi ändert das, indem es Nodes für jeden zugänglich macht.
 
 Mit Nakamochi kann jeder eine Node von zu Hause aus einrichten und betreiben, und vollständige Privatsphäre und finanzielle Unabhängigkeit erreichen. Der Betrieb einer Full Node sichert nicht nur eigene Transaktionen, sondern trägt auch zur Stärkung des Bitcoin-Netzwerks bei. Ein dezentralisiertes und widerstandsfähiges Bitcoin-Netzwerk ist auf eine breites Netzwerk von Nodes angewiesen, um seine Sicherheit und Unabhängigkeit zu gewährleisten.
@@ -31,24 +33,26 @@ Die Nakamochi Node wird über eine mobile Node Management App verwaltet, [BitBan
 4. Für mehr Sicherheit kann ein Bildschirm Pin eingerichtet werden.
 
 ![image](assets/en/01.webp)
-_Gerät einstecken und Seed Phrase notieren_
+_Schließen Sie an den Strom an und notieren Sie Ihre 24-Wörter-Seed-Phrase_
 
 ![image](assets/en/02.webp)
-_Warten, bis die Blockchain aufgeholt hat_
+_Warten Sie, bis die Blockchain aufgeholt hat_
 
 ![image](assets/en/03.webp)
-_Neue Lightning Wallet aufsetzen_
+_Richten Sie eine neue Wallet im Lightning-Tab ein_
 
 ![image](assets/en/04.webp)
-_QR Code mit Node Management App scannen_
+_Scannen Sie den QR-Code mit der Node-Management-App_
 
 ![image](assets/en/05.webp)
-_Für mehr Sicherheit Bildschirm Pin einrichten_
+_Für zusätzliche Sicherheit richten Sie einen PIN-Code ein_
 
-**Hinweis:** _Warten, bis die Nakamochi-Node die Blockchain synchronisiert hat. Dieser Prozess kann je nach Internetverbindung ein wenig Zeit in Anspruch nehmen._
+**Hinweis:** _Erlauben Sie Ihrem Nakamochi-Node, sich mit der Blockchain zu synchronisieren. Dieser Vorgang kann je nach Ihrer Internetverbindung einige Zeit dauern._
 
 
 ## Über das Lightning Netzwerk
+
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Das Bitcoin Lightning Network revolutioniert Bitcoin-Transaktionen, indem es sie schneller, billiger und effizienter macht. Es ist perfekt für den alltäglichen Gebrauch, da es nahezu sofortige Zahlungen mit minimalen Gebühren ermöglicht, ideal für Mikrotransaktionen wie den Kauf eines Kaffees oder die Abwicklung kleiner Zahlungen.
 Durch den Betrieb außerhalb der Bitcoin-Blockchain ist Lightning skalierbar und unterstützt Tausende von Transaktionen pro Sekunde, ohne die Haupt-Bitcoin-Blockchain zu überlasten. Dies macht es zu einem Schlüsselakteur in der Entwicklung von Bitcoin zu einem praktischen, globalen Zahlungssystem.
@@ -90,7 +94,7 @@ Mehr Informationen: [Channels | Zeus Documentation](https://docs.zeusln.app/)
 ![image](assets/en/07.webp)
 _BitBanana Screenshot_
 
-Mehr Informationen: [BitBanana](https://bitbanana.com)
+Für weitere Informationen: [BitBanana](https://bitbanana.com)
 
 Sobald dein Kanal geöffnet ist, können Zahlungen durch ihn zu anderen Teilnehmern im Netzwerk weitergeleitet werden. Die Bilanzen werden Off-Chain angepasst, wodurch Transaktionen nahezu sofort erfolgen und minimale Gebühren anfallen.
 
@@ -102,4 +106,4 @@ Im Allgemeinen empfehlen wir, Kanäle offen zu lassen, um Kosten zu senken und d
 ### Nützliche Links
 
 - [Über Nakamochi](https://nakamochi.io/)
-- [Newsletter abonnieren](https://90c7addc.sibforms.com/serve/MUIFAHG7H5YBPpm-kZ8G6TuS-nmL4uaq85rlpBfI__S79tZ5jheIJfF3kJYudycgs_6_RUdDBkt8Sd7OyNL_JDTTJvOb36ifF6vcQoabBXKp4cbefzh1DYqnok_jItexICcQL13ucd2aS581ngqy7jr0Q1H3HhxV3z2eWKE5-Z-YMasj-MMotQeDvdorMCSi0XgCWDqs8rEMQC7E)
+- [Abonnieren Sie den Nakamochi-Newsletter](https://90c7addc.sibforms.com/serve/MUIFAHG7H5YBPpm-kZ8G6TuS-nmL4uaq85rlpBfI__S79tZ5jheIJfF3kJYudycgs_6_RUdDBkt8Sd7OyNL_JDTTJvOb36ifF6vcQoabBXKp4cbefzh1DYqnok_jItexICcQL13ucd2aS581ngqy7jr0Q1H3HhxV3z2eWKE5-Z-YMasj-MMotQeDvdorMCSi0XgCWDqs8rEMQC7E)

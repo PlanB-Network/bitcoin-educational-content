@@ -1,5 +1,5 @@
 ---
-name: जीडब्ल्यू-0 बीआईपी39 जीडब्ल्यू-1
+name: BIP-39 Passphrase Ledger
 description: अपने Ledger Wallet में passphrase कैसे जोड़ें?
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: जीडब्ल्यू-0
+name: Liana
 description: Liana पर Wallet की स्थापना और उपयोग करना
 ---
 ![cover](assets/cover.webp)

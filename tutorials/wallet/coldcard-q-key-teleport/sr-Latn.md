@@ -31,10 +31,10 @@ Ovo se može koristiti za prenos:
 
 
 
-- gW-0 fraze** (ColdCard Q-ova seed master ili tajne pohranjene u ColdCardQ-ovom [seed Vault-u](https://coldcard.com/docs/temporary-seeds/#seed-vault).
-- poverljive beleške i lozinke**: ovo može biti bilo koja tajna ili čitav direktorijum [Secure Notes & Passwords] (https://coldcard.com/docs/secure_notes/) na vašem ColdCardQ.
-- rezervna kopija celog vašeg ColdCardQ**: ColdCardQ koji prima ovu rezervnu kopiju ne sme imati seed Master da bi ovo funkcionisalo.
-- gW-3 (*Delimično potpisane Bitcoin transakcije*) kao deo šeme sa više potpisa**.
+- gW-0 fraze (ColdCard Q-ova seed master ili tajne pohranjene u ColdCardQ-ovom [seed Vault-u](https://coldcard.com/docs/temporary-seeds/#seed-vault).
+- **poverljive beleške i lozinke**: ovo može biti bilo koja tajna ili čitav direktorijum [Secure Notes & Passwords] (https://coldcard.com/docs/secure_notes/) na vašem ColdCardQ.
+- rezervna kopija celog vašeg **ColdCardQ**: ColdCardQ koji prima ovu rezervnu kopiju ne sme imati seed Master da bi ovo funkcionisalo.
+- gW-3 (**Delimično potpisane Bitcoin transakcije**) kao deo šeme sa više potpisa.
 
 
 
@@ -102,9 +102,9 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-- generisao efemerni par ključeva (javni/privatni odnosno Ka i ka sa Ka=G.ka, gde je G ECDH generator tačka), i 8-cifrenu lozinku*.
-- koristio ovu lozinku za šifrovanje javnog ključa (Ka) putem AES-256-CTR, zatim preneo ovu lozinku putem komunikacionog kanala A do "šaljuće" ColdCardQ.*
-- konačno, preneli smo šifrovani paket pošiljaocu putem QR koda iznad, koristeći drugi komunikacioni kanal B različit od 1.*
+- generisao efemerni par ključeva (javni/privatni odnosno Ka i ka sa Ka=G.ka, gde je G ECDH generator tačka), i **8-cifrenu lozinku**.
+- koristio ovu lozinku za šifrovanje javnog ključa (Ka) putem AES-256-CTR, zatim preneo ovu lozinku putem komunikacionog kanala A do "šaljuće" ColdCardQ.
+- konačno, preneli smo šifrovani paket pošiljaocu putem QR koda iznad, koristeći drugi komunikacioni kanal B različit od 1.
 
 
 
@@ -129,10 +129,10 @@ Sa uređaja za slanje, kliknite na dugme **"QR "** da skenirate QR kod koji vam 
 
 
 
-- uvezli smo šifrovane podatke skeniranjem QR koda na uređaju za prijem*.
-- zatim smo ih dešifrovali koristeći 8-cifrenu lozinku koja nam je preneta putem sekundarnog kanala*.
-- stoga smo u posedu javnog ključa (Ka) koji je inicijalno generisao primalac.*
-- Zatim generate novi efemerni par ključeva (Kb/kb, sa Kb=G.kb) na uređaju za slanje, koji koristimo za primenu ECDH na Ka. Stoga izvodimo operaciju kb.Ka=Ks, gde se Ks naziva **"Ključ sesije "**.*
+- uvezli smo šifrovane podatke skeniranjem QR koda na uređaju za prijem.
+- zatim smo ih dešifrovali koristeći 8-cifrenu lozinku koja nam je preneta putem sekundarnog kanala.
+- stoga smo u posedu javnog ključa (Ka) koji je inicijalno generisao primalac.
+- Zatim generate novi efemerni par ključeva (Kb/kb, sa Kb=G.kb) na uređaju za slanje, koji koristimo za primenu ECDH na Ka. Stoga izvodimo operaciju kb.Ka=Ks, gde se Ks naziva **"Ključ sesije"**.
 
 
 
@@ -169,8 +169,8 @@ Pritisnite **"ENTER "** i biće vam prikazan novi QR kod. Neka ga skenira uređa
 
 
 
-- nakon odabira tajni za prenos, mi generate novu nasumičnu lozinku nazvanu **"Teleport Password "***.
-- zatim šifrujemo tajne putem AES-256-CTR koristeći **"Ključ Sesije "**, "Ks", generisan u prethodnom koraku.*
+- nakon odabira tajni za prenos, mi generate novu nasumičnu lozinku nazvanu **"Teleport Password"**.
+- zatim šifrujemo tajne putem AES-256-CTR koristeći **"Ključ Sesije"**, "Ks", generisan u prethodnom koraku.
 - mi prefiksujemo paket koji je već enkriptovan sa **"Ključ Sesije "** sa našim Kb javnim ključem, zatim dodajemo dodatni Layer AES-256-CTR enkripciju sa **"Teleport Lozinkom "**. Cela stvar je zatim enkodovana kao QR kod.
 
 
@@ -203,10 +203,10 @@ Podaci se zatim dešifruju i postaju razumljivi za uređaj koji ih prima. Poruka
 
 
 
-- dešifrovali smo podatke koje je poslao pošiljalac koristeći **"Teleport Password "**.*
+- dešifrovali smo podatke koje je poslao pošiljalac koristeći **"Teleport Password"**.
 - stoga imamo javni ključ Kb i našu tajnu poruku šifrovanu pomoću **"Ključa Sesije"**, "Ks". Ali kako to možemo uraditi kada, kao primalac, ne znamo Ks, koji je kreirao pošiljalac?
-- Moramo primeniti naš privatni ključ "ka" iz početnog koraka **"Pripremite uređaj koji će primiti podatke "** na javni ključ Kb.*
-- Zapravo, izračunavanjem ka.Kb = ka.kb.G=kb.ka.G=kb.Ka=Ks, pronalazimo Ks. Koji se konačno koristi za dešifrovanje tajne poruke.*
+- Moramo primeniti naš privatni ključ "ka" iz početnog koraka **"Pripremite uređaj koji će primiti podatke"** na javni ključ Kb.
+- Zapravo, izračunavanjem ka.Kb = ka.kb.G=kb.ka.G=kb.Ka=Ks, pronalazimo Ks. Koji se konačno koristi za dešifrovanje tajne poruke.
 
 
 

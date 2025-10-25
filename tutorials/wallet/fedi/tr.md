@@ -33,7 +33,7 @@ Fedi Wallet, anahtar kelimelerinizi kaydetmek için yeni bir yaklaşımla gelen 
 
 
 
-- Emanetçiler**: Wallet'unuzun kurtarma sözcüklerini sizin için saklayacak olan harici bir kuruluşa, Wallet geliştiricisine güvenmeye karar verirsiniz. Bitcoin Wallet'unuzu dışa aktarmak için ne erişiminiz ne de yeteneğiniz var.
+- **Emanetçiler**: Wallet'unuzun kurtarma sözcüklerini sizin için saklayacak olan harici bir kuruluşa, Wallet geliştiricisine güvenmeye karar verirsiniz. Bitcoin Wallet'unuzu dışa aktarmak için ne erişiminiz ne de yeteneğiniz var.
 
 
 
@@ -43,7 +43,7 @@ https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c
 
 
 
-- Kendi kendine gözaltılar** : Uygulama, Wallet'inizi oluşturur oluşturmaz kurtarma sözcüklerine erişmenizi sağlar. Böylece bitcoinlerinizi size en uygun Wallet'e özgürce aktarabilirsiniz.
+- **Kendi kendine gözaltılar** : Uygulama, Wallet'inizi oluşturur oluşturmaz kurtarma sözcüklerine erişmenizi sağlar. Böylece bitcoinlerinizi size en uygun Wallet'e özgürce aktarabilirsiniz.
 
 
 
@@ -93,7 +93,7 @@ Ait olduğunuz federasyon yapılandırmasına bağlı olarak, bitcoinlerinizin b
 
 
 
-Federasyonlar** menüsünde bir federasyona ilerleyin, ardından hangi eşiklerin belirlendiğini öğrenmek için **Federasyon Ayrıntıları** üzerine tıklayın.
+**Federasyonlar** menüsünde bir federasyona ilerleyin, ardından hangi eşiklerin belirlendiğini öğrenmek için **Federasyon Ayrıntıları** üzerine tıklayın.
 
 
 
@@ -103,7 +103,7 @@ Federasyonlar** menüsünde bir federasyona ilerleyin, ardından hangi eşikleri
 
 
 
-- Fedi** üzerinden bitcoin alın: Ana sayfada, bitcoin almak için kullanmak istediğiniz federasyonu seçin, ardından alınacak bir miktar ile bir Lightning Invoice oluşturmak için **Al** düğmesine tıklayın.
+- **Fedi** üzerinden bitcoin alın: Ana sayfada, bitcoin almak için kullanmak istediğiniz federasyonu seçin, ardından alınacak bir miktar ile bir Lightning Invoice oluşturmak için **Al** düğmesine tıklayın.
 
 
 
@@ -113,7 +113,7 @@ Federasyonlar** menüsünde bir federasyona ilerleyin, ardından hangi eşikleri
 
 
 
-- Bitcoin gönderin**: Ana sayfada, bir Lightning Address'ya bitcoin göndermek, bir Invoice'ye ödeme yapmak veya çevrimdışı bir ödeme yapmak için **Gönder** düğmesine tıklayın.
+- **Bitcoin gönderin**: Ana sayfada, bir Lightning Address'ya bitcoin göndermek, bir Invoice'ye ödeme yapmak veya çevrimdışı bir ödeme yapmak için **Gönder** düğmesine tıklayın.
 
 
 
@@ -125,7 +125,7 @@ Fedi Wallet'in özelliklerinden biri de çevrimdışı olarak gönderilebilmesid
 
 
 
-Çevrimdışı gönder** seçeneğine tıklayın ve göndermek istediğiniz satoshis miktarını ayarlayın.
+**Çevrimdışı gönder** seçeneğine tıklayın ve göndermek istediğiniz satoshis miktarını ayarlayın.
 
 
 
@@ -181,7 +181,7 @@ Fedi'nin modüler menüsü, topluluğunuz tarafından kullanılan en iyi uygulam
 
 
 
-Modlar** menüsünde, aşağıdaki gibi uygulamalar bulacaksınız:
+**Modlar** menüsünde, aşağıdaki gibi uygulamalar bulacaksınız:
 
 
 
@@ -215,11 +215,11 @@ Ana sayfada, federasyonunuzdaki en popüler modülleri de bulacaksınız.
 
 
 
-Modlar** menüsünde, topluluğunuz için kendi federasyonunuzun oluşturulmasını talep edebilirsiniz.
+**Modlar** menüsünde, topluluğunuz için kendi federasyonunuzun oluşturulmasını talep edebilirsiniz.
 
 
 
-Federasyon Oluştur** modülüne tıklayın, ardından federasyonunuzu oluşturma sürecine başlayın. Fedi onaylı bir federasyonun oluşturulması, Bitcoin Mentor ve Fedi ekipleri tarafından yönetilen ve başlatıcıların topluluklarının hedefini, federasyon özelliklerinin uygulanmasını tartışmalarını sağlamak için bir mentorluk eğitim oturumunu içerir. Bu programın temel amacı, Bitcoin'in topluluk içinde yapıcı bir şekilde kullanılmasını sağlamak için federasyon girişimlerini taramaktır.
+**Federasyon Oluştur** modülüne tıklayın, ardından federasyonunuzu oluşturma sürecine başlayın. Fedi onaylı bir federasyonun oluşturulması, Bitcoin Mentor ve Fedi ekipleri tarafından yönetilen ve başlatıcıların topluluklarının hedefini, federasyon özelliklerinin uygulanmasını tartışmalarını sağlamak için bir mentorluk eğitim oturumunu içerir. Bu programın temel amacı, Bitcoin'in topluluk içinde yapıcı bir şekilde kullanılmasını sağlamak için federasyon girişimlerini taramaktır.
 
 
 

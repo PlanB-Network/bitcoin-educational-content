@@ -1,5 +1,5 @@
 ---
-name: 质子钱包
+name: Proton Wallet
 description: 安装和使用 Proton 比特币钱包
 ---
 ![cover](assets/cover.webp)
@@ -78,7 +78,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 ## 发现界面
 
-质子钱包的界面非常直观。左侧是不同的钱包及其相关账户。主要*"账户是您的主账户。为保密起见，通过 Proton 电子邮件地址收到的比特币会被存放在一个名为 "*通过电子邮件收到的比特币*"的独立账户中。
+质子钱包的界面非常直观。左侧是不同的钱包及其相关账户。主要**账户**是您的主账户。为保密起见，通过 Proton 电子邮件地址收到的比特币会被存放在一个名为 "**通过电子邮件收到的比特币**"的独立账户中。
 
 ![Image](assets/fr/13.webp)
 

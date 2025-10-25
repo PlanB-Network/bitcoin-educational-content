@@ -1,0 +1,9 @@
+question: Qual é o valor predefinido para minrelaytxfee no Bitcoin core?
+answer: 0.00001 BTC/kvB (1 sat/vB)
+wrong_answers:
+  - 0.0001 BTC/kvB (10 sat/vB)
+  - 0.000001 BTC/kvB (0.1 sat/vB)
+  - 0.00002 BTC/kvB (2 sat/vB)
+explanation: |
+  minrelaytxfee por defeito é 0.00001 BTC/kvB, ou 1 sat/vB, abaixo do qual as transacções não são retransmitidas.
+reviewed: true

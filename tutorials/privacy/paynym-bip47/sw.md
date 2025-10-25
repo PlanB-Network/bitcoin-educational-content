@@ -1,15 +1,14 @@
 ---
 name: BIP47 - PayNym
-
 description: Jinsi PayNyms hufanya kazi
 ---
-***ONYO:** Kufuatia kukamatwa kwa waanzilishi wa Samourai Wallet na kunaswa seva zao tarehe 24 Aprili, programu haiwezi kutumiwa tena na watumiaji ambao hawana Dojo yao wenyewe. BIP47 inasalia kutumika kwenye Sparrow Wallet kwa watumiaji wote na **kwenye Samourai Wallet kwa watumiaji walio na Dojo** pekee.*
+**ONYO**: Kufuatia kukamatwa kwa waanzilishi wa Samourai Wallet na kunaswa seva zao tarehe 24 Aprili, Samourai Wallet haiwezi kutumiwa tena na watumiaji ambao hawana Dojo yao wenyewe. BIP47 inasalia kutumika kwenye Sparrow Wallet kwa watumiaji wote na kwenye Samourai Wallet kwa watumiaji walio na Dojo pekee.
 
 
 _Tunafuatilia kwa karibu maendeleo ya kesi hii pamoja na maendeleo kuhusu zana zinazohusiana. Uwe na uhakika kwamba tutasasisha mafunzo haya kadiri habari mpya zinavyopatikana._
 
 
-_Mafunzo haya yametolewa kwa madhumuni ya elimu na habari pekee. Hatuidhinishi au kuhimiza matumizi ya zana hizi kwa madhumuni ya uhalifu. Ni wajibu wa kila mtumiaji kutii sheria katika eneo la mamlaka yake._
+_Mafunzo haya yametolewa kwa madhumuni ya elimu na taarifa pekee. Hatuidhinishi wala kuhimiza matumizi ya zana hizi kwa malengo ya kihalifu. Kila mtumiaji anawajibika kutii sheria za eneo lake la mamlaka.._
 
 
 ---
@@ -19,10 +18,10 @@ _Mafunzo haya yametolewa kwa madhumuni ya elimu na habari pekee. Hatuidhinishi a
 ![BIP47, the ugly duckling illustration](assets/1.webp)
 
 
-Mojawapo ya masuala muhimu zaidi kwenye itifaki ya Bitcoin ni kutumia tena Address. Uwazi na usambazaji wa mtandao hufanya mazoezi haya kuwa hatari kwa faragha ya mtumiaji. Ili kuepuka matatizo yanayohusiana na hili, inashauriwa kutumia tupu mpya ya kupokea Address kwa kila malipo mapya yanayoingia kwa Wallet, ambayo inaweza kuwa ngumu kufikia katika baadhi ya matukio.
+Mojawapo ya masuala muhimu zaidi kwenye protocol ya Bitcoin ni kutumia tena Address. Uwazi na usambazaji wa mtandao hufanya mazoezi haya kuwa hatari kwa faragha ya mtumiaji. Ili kuepuka matatizo yanayohusiana na hili, inashauriwa kutumia tupu mpya ya kupokea Address kwa kila malipo mapya yanayoingia kwa Wallet, ambayo inaweza kuwa ngumu kufikia katika baadhi ya matukio.
 
 
-Maelewano haya ni ya zamani kama White Paper. Satoshi tayari ilituonya juu ya hatari hii katika kazi yake iliyochapishwa mwishoni mwa 2008:
+Maelewano haya ni ya zamani kama White Paper. Satoshi tayari alituonya juu ya hatari hii katika kazi yake iliyochapishwa mwishoni mwa 2008:
 
 
 > Kama ngome ya ziada, jozi mpya ya funguo inapaswa kutumika kwa kila shughuli ili kuwazuia kuunganishwa na mmiliki wa kawaida.
@@ -33,9 +32,9 @@ Kuna masuluhisho mengi yanayopatikana ili kupokea malipo mengi bila kutumia tena
 Hapo awali, pendekezo hili lilipokelewa kwa dharau na sehemu ya jamii, na halikuongezwa kamwe kwa Bitcoin Core. Walakini, programu zingine bado zilichagua kuitekeleza peke yao. Kwa mfano, Samourai Wallet ilitengeneza utekelezaji wake wa BIP47: PayNym. Leo, utekelezaji huu unapatikana kwenye Samourai Wallet kwa simu mahiri, na pia kwenye [Sparrow Wallet](https://sparrowwallet.com/) kwa Kompyuta.
 
 
-Baada ya muda, Samourai imepanga vipengele vipya vinavyohusiana moja kwa moja na PayNym. Sasa, kuna mfumo mzima wa zana unaopatikana ili kuboresha faragha ya mtumiaji kulingana na PayNym na BIP47.
+Baada ya muda, Samourai imeongeza vipengele vipya vinavyohusiana moja kwa moja na PayNym. Sasa, kuna mfumo mzima wa zana unaopatikana ili kuboresha faragha ya mtumiaji ukitumia PayNym na BIP47.
 
-Katika makala haya, utagundua kanuni ya BIP47 na PayNym, taratibu za itifaki hizi, na matumizi ya vitendo yanayotokana nayo. Nitatumia Address pekee toleo la kwanza la BIP47, ambalo kwa sasa linatumika kwa PayNym, lakini matoleo ya 2, 3, na 4 yanafanya kazi kwa njia sawa.
+Katika makala haya, utagundua kanuni ya BIP47 na PayNym, taratibu za protocol hizi, na matumizi ya vitendo yanayotokana nayo. Nitatumia Address pekee toleo la kwanza la BIP47, ambalo kwa sasa linatumika kwa PayNym, lakini matoleo ya 2, 3, na 4 yanafanya kazi kwa njia sawa.
 
 
 **Kumbuka** kuwa tofauti kuu pekee inapatikana katika shughuli ya arifa:
@@ -89,16 +88,16 @@ Taratibu zilizojadiliwa katika nakala hii, pamoja na njia za kriptografia zilizo
 ## Tatizo la kutumia tena Address.
 
 
-Address inayopokea hutumiwa kupokea bitcoins. Inatolewa kutoka kwa ufunguo wa umma kwa kuharakisha na kutumia umbizo maalum. Kwa hivyo, inaruhusu kuundwa kwa hali mpya ya matumizi kwenye sarafu ili kubadilisha mmiliki wake.
+Address inayopokea hutumiwa kupokea bitcoin. Inatolewa kutoka kwa ufunguo wa umma kwa kuharakisha na kutumia umbizo maalum. Kwa hivyo, inaruhusu kuundwa kwa hali mpya ya matumizi kwenye sarafu ili kubadilisha mmiliki wake.
 
 
 Ili kupata maelezo zaidi kuhusu kutengeneza Address inayopokea, ninapendekeza usome sehemu ya mwisho ya makala haya: **The Bitcoin Wallet - dondoo kutoka** [ebook Bitcoin Démocratisé 2](https://www.pandul.fr/post/le-portefeuille-Bitcoin-extrait-ebook-Bitcoin-d%C3%A9mocratis%C3%A9-2#viewer-epio7).
 
 
-Zaidi ya hayo, pengine tayari umesikia kutoka kwa bitcoiner mwenye ujuzi kwamba anwani za kupokea ni za matumizi ya mara moja, na kwamba unapaswa generate mpya kwa kila malipo mapya yanayoingia kwa Wallet yako. Sawa, lakini kwa nini?
+Zaidi ya hayo, pengine tayari umesikia kutoka kwa bitcoiner mwenye ujuzi kwamba address za kupokea ni za single-use na kwamba unapaswa generate mpya kwa kila malipo mapya yanayoingia kwa Wallet yako. Sawa, lakini kwa nini?
 
 
-Kimsingi, kutumia tena Address hakuhatarishi pesa zako moja kwa moja. Utumiaji wa kriptografia kwenye mikunjo ya duaradufu hukuruhusu kudhibitisha kwa mtandao kuwa una ufunguo wa kibinafsi bila kufichua ufunguo huo. Kwa hivyo, unaweza kufunga UTXO nyingi tofauti (Matokeo ya Shughuli Zisizotumika) kwenye Address sawa na kuzitumia kwa nyakati tofauti. Ikiwa hutafichua ufunguo wa faragha unaohusishwa na Address hiyo, hakuna mtu anayeweza kufikia pesa zako. Suala la kutumia tena Address linahusiana zaidi na faragha.
+Kimsingi, kutumia tena Address hakuhatarishi pesa zako moja kwa moja. Utumiaji wa kriptografia kwenye mikunjo ya duaradufu hukuruhusu kudhibitisha kwa mtandao kuwa una ufunguo wa kibinafsi bila kufichua ufunguo huo. Kwa hivyo, unaweza kufunga UTXO nyingi tofauti kwenye Address sawa na kuzitumia kwa nyakati tofauti. Ikiwa hutafichua ufunguo wa faragha unaohusishwa na Address hiyo, hakuna mtu anayeweza kufikia pesa zako. Suala la kutumia tena Address linahusiana zaidi na faragha.
 
 
 Kama ilivyoelezwa katika utangulizi, uwazi na usambazaji wa mtandao wa Bitcoin unamaanisha kwamba mtumiaji yeyote anayeweza kufikia nodi anaweza kuchunguza shughuli za mfumo wa malipo. Matokeo yake, wanaweza kuona mizani tofauti ya anwani. Satoshi Nakamoto kisha ilitaja uwezekano wa kuzalisha jozi mpya muhimu, na hivyo anwani mpya, kwa kila malipo mapya yanayoingia kwa Wallet. Lengo litakuwa kuwa na ngome ya ziada ikiwa kuna uhusiano kati ya utambulisho wa mtumiaji na mojawapo ya jozi zao muhimu.
@@ -132,7 +131,7 @@ Grafu kutoka OXT.me inayoonyesha mabadiliko ya kiwango cha jumla cha matumizi ya
 _Mikopo: OXT_
 
 
-Wengi wa utumiaji huu tena hutoka kwa kubadilishana, ambayo, kwa sababu za ufanisi na urahisi, hutumia tena Address sawa mara nyingi. Hadi sasa, BIP47 itakuwa suluhu bora ya kukomesha jambo hili kati ya kubadilishana. Hili lingesaidia kupunguza kiwango cha jumla cha matumizi ya Address bila kusababisha msuguano mwingi kwa huluki hizi.
+Wengi wa utumiaji huu tena hutoka kwa Exchange, ambayo, kwa sababu za ufanisi na urahisi, hutumia tena Address sawa mara nyingi. Hadi sasa, BIP47 itakuwa suluhu bora ya kukomesha jambo hili kati ya exchanges. Hili lingesaidia kupunguza kiwango cha jumla cha matumizi ya Address bila kusababisha msuguano mwingi kwa huluki hizi.
 
 
 Kipimo hiki cha kimataifa katika mtandao mzima kinafaa hasa katika kesi hii. Hakika, kutumia tena Address si tatizo kwa mtu anayejihusisha na mazoezi haya tu, bali pia kwa yeyote anayefanya miamala naye. Kupotea kwa faragha kwenye Bitcoin hufanya kama virusi, kuenea kutoka kwa mtumiaji hadi kwa mtumiaji. Kusoma kipimo cha kimataifa kwenye miamala yote ya mtandao huturuhusu kuelewa ukubwa wa jambo hili.
@@ -152,10 +151,10 @@ Mtumiaji anaweza kushiriki kwa uhuru msimbo wake wa malipo (kwenye mitandao ya k
 Ili kutekeleza Exchange, watumiaji wote wawili lazima wawe na Bitcoin Wallet yenye utekelezaji wa BIP47, kama vile PayNym kwenye Samourai Wallet au Sparrow Wallet. Kuunganishwa kwa misimbo ya malipo ya watumiaji hao wawili kutaanzisha chaneli ya siri kati yao. Ili kuanzisha idhaa hii ipasavyo, mtumaji lazima afanye shughuli kwenye Bitcoin Blockchain: shughuli ya arifa (Nitaelezea zaidi kuhusu hili baadaye).
 
 
-Uhusiano wa misimbo ya malipo ya watumiaji hao wawili hutoa siri zilizoshirikiwa ambazo wao wenyewe generate idadi kubwa ya anwani za kipekee za Bitcoin zinazopokea (haswa 2^32). Kwa hiyo, kwa kweli, malipo na BIP47 haitumwa kwa msimbo wa malipo, lakini kwa anwani za kawaida kabisa, zinazotokana na kanuni za malipo za wahusika wanaohusika.
+Uhusiano wa misimbo ya malipo ya watumiaji hao wawili hutoa siri zilizoshirikiwa ambazo wao wenyewe generate idadi kubwa ya anwani za kipekee za Bitcoin zinazopokea (haswa 2^32). Kwa hiyo, kwa kweli, malipo na BIP47 haitumwa kwa msimbo wa malipo, lakini kwa address za kawaida kabisa, zinazotokana na kanuni za malipo za wahusika wanaohusika.
 
 
-Nambari ya malipo hutumika kama kitambulisho pepe, kinachotokana na Wallet seed. Katika muundo wa derivation wa HD Wallet, msimbo wa malipo iko katika kina cha 3, katika ngazi ya akaunti ya Wallet.
+Nambari ya malipo hutumika kama kitambulisho pepe, kinachotokana na Wallet seed. Katika muundo wa derivation ya HD Wallet, msimbo wa malipo iko katika kina cha 3, katika ngazi ya akaunti ya Wallet.
 
 
 ![image](assets/3.webp)
@@ -164,7 +163,7 @@ Nambari ya malipo hutumika kama kitambulisho pepe, kinachotokana na Wallet seed.
 Madhumuni ya utoaji wake yamebainishwa kama 47' (0x8000002F) kwa kurejelea BIP47. Kwa mfano, njia ya kupata nambari ya malipo inayoweza kutumika tena itakuwa: ** m/47'/0'/0'/**
 
 
-Ili kukupa wazo la jinsi nambari ya malipo inavyoonekana, hii ndio yangu: **PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4Hwq9JXSRzGcZJbdJAjM9oVQ1UKU5j5j2nr*
+Ili kukupa wazo la jinsi nambari ya malipo inavyoonekana, hii ndio yangu: **PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4Hwq9JXSRzGcZJbdJAjM9oVQ1UKU5j5j2nr**
 
 
 Inaweza pia kusimba kama msimbo wa QR ili kuwezesha mawasiliano:
@@ -173,13 +172,13 @@ Inaweza pia kusimba kama msimbo wa QR ili kuwezesha mawasiliano:
 ![image](assets/4.webp)
 
 
-Kuhusu PayNym Boti, roboti hizo unazoona kwenye Twitter, ni viwakilishi tu vya kuona vya msimbo wako wa malipo, iliyoundwa na Samourai Wallet. Wao huzalishwa kwa kutumia kazi ya Hash, ambayo inawafanya kuwa karibu kipekee. Hii hapa yangu na kitambulisho chake: **+throbbingpond8B1**
+Kuhusu PayNym Bot, roboti hizo unazoona kwenye Twitter, ni viwakilishi tu vya kuona vya msimbo wako wa malipo, iliyoundwa na Samourai Wallet. Wao huzalishwa kwa kutumia kazi ya Hash, ambayo inawafanya kuwa karibu kipekee. Hii hapa yangu na kitambulisho chake: **+throbbingpond8B1**
 
 
 ![image](assets/5.webp)
 
 
-Boti hizi hazina matumizi halisi ya kiufundi. Badala yake, hurahisisha mwingiliano kati ya watumiaji kwa kuunda utambulisho pepe wa kuona.
+Bot hizi hazina matumizi halisi ya kiufundi. Badala yake, hurahisisha mwingiliano kati ya watumiaji kwa kuunda utambulisho pepe wa kuona.
 
 
 Kwa mtumiaji, mchakato wa kufanya malipo ya BIP47 kwa utekelezaji wa PayNym ni rahisi sana. Wacha tufikirie kuwa Alice anataka kutuma malipo kwa Bob:
@@ -219,7 +218,7 @@ Ili kuunganisha PayNym mbili, lazima tayari zimeunganishwa.
 ## Mafunzo: Kwa kutumia PayNym.
 
 
-Sasa kwa kuwa tumeona nadharia, hebu tujifunze mazoezi pamoja. Wazo la mafunzo yaliyo hapa chini ni kuunganisha PayNym yangu kwenye Sparrow yangu Wallet na PayNym yangu kwenye Samourai Wallet yangu. Mafunzo ya kwanza yanakuonyesha jinsi ya kufanya muamala kwa kutumia msimbo wa malipo unaoweza kutumika tena kutoka Samourai hadi Sparrow, na somo la pili linaeleza utaratibu sawa kutoka Sparrow hadi Samourai.
+Sasa kwa kuwa tumeona nadharia, hebu tuingie kwenye mazoezi kwa pamoja. Lengo la mafunzo yaliyo hapa chini ni kuunganisha PayNym yangu kwenye Sparrow Wallet na PayNym yangu kwenye Samourai Wallet. Mafunzo ya kwanza yanaonyesha jinsi ya kufanya muamala kwa kutumia msimbo wa malipo unaoweza kutumika tena kutoka Samourai hadi Sparrow, na somo la pili linaeleza utaratibu sawa kutoka Sparrow hadi Samourai.
 
 
 **Kumbuka:** Nilitekeleza mafunzo haya kwenye Testnet. Hizi sio bitcoins halisi.
@@ -240,7 +239,7 @@ Hatua ya kwanza ya kufanya malipo ya BIP47 ni kupata msimbo wa malipo unaoweza k
 ![video](assets/6.mp4)
 
 
-Mara tu shughuli ya arifa itakapothibitishwa, ninaweza kutuma malipo mengi kwa mpokeaji wangu. Kila muamala utafanywa kiotomatiki na Address mpya tupu ambayo mpokeaji ana funguo zake. Mpokeaji haitaji kuchukua hatua yoyote, kila kitu kinahesabiwa kwa upande wangu.
+Mara tu muamala wa arifa unapothibitishwa, ninaweza kutuma malipo mengi kwa mpokeaji wangu. Kila muamala unaundwa kiotomatiki na address mpya tupu ambayo mpokeaji anamiliki funguo zake. Mpokeaji hahitaji kuchukua hatua yoyote, kila kitu kinahesabiwa upande wangu.
 
 
 Hivi ndivyo jinsi ya kufanya muamala wa BIP47 kwenye Samourai Wallet:
@@ -264,13 +263,13 @@ Unda Wallet na uombe PayNym yako kwa kubofya "Onyesha PayNym" kutoka kwenye meny
 ![image](assets/8.webp)
 
 
-Kisha, utahitaji kuunganisha na kuunganisha PayNym yako na ile ya mpokeaji wako. Ili kufanya hivyo, weka msimbo wao wa malipo unaoweza kutumika tena kwenye dirisha la "Tafuta Anwani", uwafuate, kisha ufanye shughuli ya arifa kwa kubofya "Unganisha Anwani":
+Kisha, utahitaji kuunganisha na kuunganisha PayNym yako na ile ya mpokeaji wako. Ili kufanya hivyo, weka msimbo wao wa malipo unaoweza kutumika tena kwenye dirisha la "Tafuta address", uwafuate, kisha ufanye shughuli ya arifa kwa kubofya "Unganisha address":
 
 
 ![image](assets/9.webp)
 
 
-Baada ya shughuli ya arifa kuthibitishwa, unaweza kutuma malipo kwa nambari ya malipo inayoweza kutumika tena. Hapa ni jinsi ya kufanya hivyo:
+Baada ya muamala wa arifa kuthibitishwa, unaweza kutuma malipo kwa nambari ya malipo inayoweza kutumika tena. Hapa ni jinsi ya kufanya hivyo:
 
 
 ![video](assets/10.mp4)
@@ -316,7 +315,7 @@ Huu hapa ni uwakilishi wa heksadesimali wa nambari yangu ya malipo inayoweza kut
 Kisha, unahitaji pia kuongeza kiambishi awali "P" ili kutambua kwa haraka kuwa tunashughulikia msimbo wa malipo. Baiti hii ni 0x47.
 
 
-**0x47010002a0716529bae6b36c5c9aa518a52f9c828b46ad8d907747f0d09dcd4d9a39e97c3c5f37c4 70c390d842f364086362f6122f412e2b0c7e7fc6e32287e364a7a36a00000000000000000000000000000000000.
+**0x47010002a0716529bae6b36c5c9aa518a52f9c828b46ad8d907747f0d09dcd4d9a39e97c3c5f37c4 70c390d842f364086362f6122f412e2b0c7e7fc6e32287e364a7a36a00000000000000000000000000000000000.**
 
 
 Hatimaye, tunakokotoa hesabu ya hundi ya msimbo huu wa malipo kwa kutumia HASH256, ambayo ina maana ya kuharakisha mara mbili kwa chaguo za kukokotoa za SHA256. Tunapata baiti nne za kwanza za digest hii na kuziunganisha mwishoni (kwa waridi).
@@ -328,7 +327,7 @@ Hatimaye, tunakokotoa hesabu ya hundi ya msimbo huu wa malipo kwa kutumia HASH25
 Nambari ya malipo iko tayari, sasa tunahitaji tu kuibadilisha kuwa Base 58:
 
 
-**PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4Hwq9JXSRzGcZJbdJAjM9oVQ1UKU5j5j2nr*
+**PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4Hwq9JXSRzGcZJbdJAjM9oVQ1UKU5j5j2nr**
 
 
 Kama unaweza kuona, ujenzi huu unafanana kwa karibu na muundo wa ufunguo wa umma uliopanuliwa wa aina ya "xpub".
@@ -346,7 +345,7 @@ Kwa maneno madhubuti, ili kupata ufunguo wa umma na msimbo wa msimbo wa msimbo w
 ### Mbinu ya kriptografia: Kitufe cha Elliptic Curve Diffie-Hellman Exchange (ECDH).
 
 
-Mbinu ya kriptografia inayotumika katika msingi wa BIP47 ni ECDH (Elliptic-Curve Diffie-Hellman). Itifaki hii ni lahaja ya ufunguo wa kawaida wa Diffie-Hellman Exchange.
+Mbinu ya kriptografia inayotumika katika msingi wa BIP47 ni ECDH (Elliptic-Curve Diffie-Hellman). protocol hii ni lahaja ya ufunguo wa kawaida wa Diffie-Hellman Exchange.
 
 
 Diffie-Hellman, katika toleo lake la kwanza, ni itifaki kuu ya makubaliano iliyowasilishwa mnamo 1976 ambayo inaruhusu pande mbili, kila moja ikiwa na jozi ya funguo za umma na za kibinafsi, kuamua siri iliyoshirikiwa kwa kubadilishana habari juu ya njia isiyo salama ya mawasiliano.
@@ -467,7 +466,7 @@ Mshambulizi anayemiliki p, g, A, na B hataweza kukokotoa a, b, au z. Kutekeleza 
 Kwa hivyo, mradi tunachagua thamani kubwa za kutosha za a, b, na p, Diffie-Hellman ni salama. Kwa kawaida, na vigezo vya biti 2,048 (nambari yenye tarakimu 600 katika desimali), kupima uwezekano wote wa a na b hakutakuwa na maana. Hadi sasa, kwa nambari za ukubwa huu, algorithm inachukuliwa kuwa salama.
 
 
-Hapa ndipo haswa ambapo kasoro kuu ya itifaki ya Diffie-Hellman iko. Ili kuwa salama, algorithm lazima itumie nambari kubwa. Kwa hivyo, algoriti ya ECDH sasa inapendelewa, ambayo ni lahaja ya Diffie-Hellman inayotumia mkunjo wa aljebra, hasa mkunjo wa duaradufu. Hii huturuhusu kufanya kazi na nambari ndogo zaidi huku tukidumisha usalama sawa, na hivyo kupunguza rasilimali za kukokotoa na kuhifadhi zinazohitajika.
+Hapa ndipo haswa ambapo kasoro kuu ya itifaki ya Diffie-Hellman iko. Ili kuwa salama, algorithm lazima itumie nambari kubwa. Kwa hivyo, algorithm ya ECDH sasa inapendelewa, ambayo ni lahaja ya Diffie-Hellman inayotumia mkunjo wa aljebra, hasa mkunjo wa duaradufu. Hii huturuhusu kufanya kazi na nambari ndogo zaidi huku tukidumisha usalama sawa, na hivyo kupunguza rasilimali za kukokotoa na kuhifadhi zinazohitajika.
 
 
 Kanuni ya jumla ya algorithm inabaki sawa. Hata hivyo, badala ya kutumia nambari nasibu A na nambari A iliyokokotwa kutoka kwa upanuzi wa moduli, tutatumia jozi ya vitufe vilivyowekwa kwenye mkunjo wa duaradufu. Badala ya kutegemea usambaaji wa mwendeshaji wa modulo, tutatumia sheria ya kikundi kwenye mikunjo ya duaradufu, haswa ushirika wa sheria hii.
@@ -541,7 +540,7 @@ ECDH ni algorithm inayoruhusu ufunguo wa Exchange. Mara nyingi hutumiwa pamoja n
 TLS inafafanua "s" katika "https" na ikoni ndogo ya kufunga unayoona kwenye kivinjari chako cha wavuti kwenye kona ya juu kushoto, ambayo inahakikisha mawasiliano yaliyosimbwa. Kwa hivyo, kwa sasa unatumia ECDH kwa kusoma makala hii, na pengine unaitumia kila siku bila kujua.
 
 
-### Shughuli ya arifa
+### Miamala ya arifa
 
 
 Kama tulivyogundua katika sehemu iliyotangulia, ECDH ni lahaja ya Diffie-Hellman Exchange inayohusisha jozi muhimu zilizoanzishwa kwenye mkunjo wa duaradufu. Kwa bahati nzuri, tuna jozi nyingi muhimu zinazofikia kiwango hiki katika pochi zetu za Bitcoin!
@@ -604,10 +603,10 @@ Katika mchoro ulio hapa chini, mistari nyekundu inawakilisha wakati ambapo mtiri
 Kwa kweli, kwa mfano wa faragha wa Bitcoin, mara nyingi ni vigumu kuvunja kabisa mtiririko wa habari kati ya jozi muhimu na mtumiaji, hasa wakati wa kufanya shughuli za mbali. Kwa mfano, katika kesi ya kampeni ya mchango, mpokeaji atahitajika kufichua Address au ufunguo wa umma kwenye tovuti yao au majukwaa ya mitandao ya kijamii. Matumizi sahihi ya BIP47, yaani, pamoja na shughuli ya arifa, hutatua suala hili kupitia ECDHE na usimbaji fiche Layer ambayo tutajifunza.
 
 
-Ni wazi, mtindo wa kawaida wa faragha wa Bitcoin bado unazingatiwa katika kiwango cha funguo za muda mfupi za umma zinazotokana na uhusiano wa misimbo miwili ya malipo. Mifano mbili zinategemeana. Ningependa kuangazia hapa kwamba, tofauti na matumizi ya kawaida ya ufunguo wa umma kupokea bitcoins, nambari ya malipo inaweza kuhusishwa na utambulisho kwa sababu maelezo "Bob anafanya muamala na Alice" yamevunjwa wakati mwingine. Nambari ya malipo hutumiwa kwa anwani za malipo za generate, lakini kwa kuzingatia tu Blockchain, haiwezekani kuhusisha shughuli ya malipo ya BIP47 na nambari za malipo zilizotumiwa kuifanya.
+Ni wazi, mtindo wa kawaida wa faragha wa Bitcoin bado unazingatiwa katika kiwango cha funguo za muda mfupi za umma zinazotokana na uhusiano wa misimbo miwili ya malipo. Mifano mbili zinategemeana. Ningependa kuangazia hapa kwamba, tofauti na matumizi ya kawaida ya ufunguo wa umma kupokea bitcoins, nambari ya malipo inaweza kuhusishwa na utambulisho kwa sababu maelezo "Bob anafanya muamala na Alice" yamevunjwa wakati mwingine. Nambari ya malipo hutumiwa kwa anwani za malipo za generate, lakini kwa kuzingatia tu Blockchain, haiwezekani kuhusisha miamala ya malipo ya BIP47 na nambari za malipo zilizotumiwa kuifanya.
 
 
-### Ujenzi wa shughuli ya arifa
+### Ujenzi wa muamala wa arifa
 
 
 Sasa, hebu tuone jinsi shughuli hii ya arifa inavyofanya kazi. Hebu tufikirie kwamba Alice anataka kutuma pesa kwa Bob kwa kutumia BIP47. Katika mfano wangu, Alice anafanya kama mtumaji na Bob kama mpokeaji. Bob tayari amechapisha nambari yake ya malipo kwenye tovuti yake, kwa hivyo Alice tayari anafahamu msimbo wa malipo wa Bob.
@@ -815,7 +814,7 @@ Inayofuata inakuja nambari ya malipo iliyo na mzigo uliosimbwa kwa njia fiche.
 Huu hapa ni msimbo wangu wa malipo uliotumika katika muamala huu:
 
 
-Katika msingi wa 58: **PM8TJQCyt6ovbozreUCBrfKqmSVmTzJ5vjqse58LnBzKFFZTwny3KfCDdwTqAEYVasn11tTMPc2FJsFygFd3YzsHvwNXLEQNADgxeGn6MKTZ8Ugmin*
+Katika msingi wa 58: **PM8TJQCyt6ovbozreUCBrfKqmSVmTzJ5vjqse58LnBzKFFZTwny3KfCDdwTqAEYVasn11tTMPc2FJsFygFd3YzsHvwNXLEQNADgxeGn6MKTZ8Ugmin**
 
 
 Katika msingi wa 16 (HEX): **4701000277507c9c17a89cfca2d3af554745d6c2db0e7f6b2721a3941a504933103cc42add94881210d6e 752a9abc8a9fa0070e85184993c4f643f1121dd807dd556d1dc00000000000000000000000008604e4db**
@@ -931,7 +930,7 @@ Acha nifanye muhtasari wa hatua ambazo tumeziona kwa pamoja ili kupokea na kutaf
 - Anatumia kipengele hiki cha upofu ili kusimbua upakiaji wa msimbo wa malipo wa Alice ulio katika OP_RETURN.
 
 
-### Shughuli ya malipo ya BIP47.
+### Miamala ya malipo ya BIP47.
 
 
 Hebu sasa tujifunze mchakato wa malipo na BIP47. Ili kukukumbusha hali ya sasa ya hali:
@@ -1097,7 +1096,7 @@ Mara tu Bob anapopokea muamala wa arifa kutoka kwa Alice, anapata kitufe cha umm
 
 
 
-- Kama vile Alice alivyofanya, Bob hutenganisha kiratibu cha x cha nukta hii "S". Tumeiita thamani hii "Sx". Anapitisha thamani hii kupitia kazi ya SHA256 ili kupata "s" za siri zilizoshirikiwa (herufi ndogo).
+- Kama vile Alice alivyofanya, Bob hutenganisha kiratibu cha x cha nukta "S". Thamani hii tumeiita "Sx". Anapitisha thamani hii kupitia kazi ya SHA256 ili kupata siri iliyoshirikiwa "s" (herufi ndogo).
 
 **s = SHA256(Sx)**
 
@@ -1137,7 +1136,7 @@ Ikiwa tutalinganisha mchoro huu na kile nilichokuelezea hapo awali:
 
 
 
-- "Siri ya Malipo 0" inalingana na: s.
+- "Payment Code 0" inalingana na: s.
 
 
 
@@ -1145,7 +1144,7 @@ Ikiwa tutalinganisha mchoro huu na kile nilichokuelezea hapo awali:
 
 
 
-- "Malipo ya Priv-Ufunguo 0" inalingana na: k0.
+- "Payment  Priv-Priv-key 0" inalingana na: k0.
 
 
 Acha nifanye muhtasari wa hatua ambazo tumeona pamoja ili kupokea malipo ya BIP47 na kukokotoa ufunguo wa faragha unaolingana:
@@ -1220,7 +1219,7 @@ Utekelezaji wa BIP47 hii kwenye Samourai Wallet umesababisha PayNyms, vitambulis
 Timu ya Samourai inaendeleza taratibu mfumo mzima wa zana na huduma kulingana na PayNym ya mtumiaji. Miongoni mwa hizi, ni dhahiri kuna zana zote za matumizi zinazoruhusu kuboresha faragha ya mtumiaji kwa kuongeza entropy kwenye shughuli, na hivyo kuongeza ukanushaji unaokubalika.
 
 
-Matumizi ya pamoja ya Soroban, mtandao wa mawasiliano uliosimbwa kwa njia fiche kulingana na Tor, na PayNyms yameboresha sana matumizi ya mtumiaji wakati wa kuunda miamala shirikishi, huku tukidumisha kiwango kizuri cha usalama. Kwa hivyo, ni rahisi kufanya shughuli za Stowaway (PayJoin) na StonewallX2 bila kufanya ubadilishanaji mwingi wa miamala ambayo haijasainiwa inayohitajika kuanzisha shughuli kama hiyo ya ushirikiano.
+Matumizi ya pamoja ya Soroban, mtandao wa mawasiliano uliosimbwa kwa njia fiche kulingana na Tor, na PayNyms yameboresha sana matumizi ya mtumiaji wakati wa kuunda miamala shirikishi, huku tukidumisha kiwango kizuri cha usalama. Kwa hivyo, ni rahisi kufanya shughuli za Stowaway (PayJoin) na StonewallX2 bila kufanya ubadilishanaji mwingi wa miamala ambayo haijasainiwa inayohitajika kuanzisha miamala kama hiyo ya ushirikiano.
 
 
 Tofauti na matumizi ya BIP47, kwa kuwa miamala hii shirikishi haihitaji muamala wa arifa, inatosha kuunganisha PayNyms ili kutumia zana hizi. Hakuna haja ya kuwaunganisha.
@@ -1229,16 +1228,16 @@ Tofauti na matumizi ya BIP47, kwa kuwa miamala hii shirikishi haihitaji muamala 
 Ikiwa unataka kujifunza zaidi kuhusu shughuli za ushirikiano, na kwa upana zaidi kuhusu zana zote za matumizi za Samourai Wallet, unaweza kusoma sehemu ya "Zana za Kutumia" katika makala hii. Utapata maelezo ya kiufundi na mafunzo ya kina kwa kila chombo.
 
 
-Kando na miamala hii shirikishi, imeonekana hivi majuzi kuwa timu ya Samourai inashughulikia itifaki ya uthibitishaji iliyounganishwa na PayNym: Auth47. Zana hii tayari imetekelezwa na inaruhusu, kwa mfano, uthibitishaji na PayNym kwenye tovuti inayokubali njia hii. Katika siku zijazo, nadhani kuwa zaidi ya uwezekano huu wa uthibitishaji kwenye wavuti, Auth47 itakuwa sehemu ya mradi mkubwa karibu na mfumo ikolojia wa BIP47/PayNym/Samourai. Labda itifaki hii itatumika kuboresha zaidi uzoefu wa mtumiaji wa Samourai Wallet, hasa katika matumizi ya zana za matumizi. Inabakia kuonekana ...
+Kando na miamala hii shirikishi, imeonekana hivi majuzi kuwa timu ya Samourai inashughulikia protocol ya uthibitishaji iliyounganishwa na PayNym: Auth47. Zana hii tayari imetekelezwa na inaruhusu, kwa mfano, uthibitishaji na PayNym kwenye tovuti inayokubali njia hii. Katika siku zijazo, nadhani kuwa zaidi ya uwezekano huu wa uthibitishaji kwenye wavuti, Auth47 itakuwa sehemu ya mradi mkubwa karibu na mfumo ikolojia wa BIP47/PayNym/Samourai. Labda itifaki hii itatumika kuboresha zaidi uzoefu wa mtumiaji wa Samourai Wallet, hasa katika matumizi ya zana za matumizi. Inabakia kuonekana ...
 
 
 ## Maoni yangu ya kibinafsi juu ya BIP47.
 
 
-Kwa wazi, hasara kuu ya BIP47 ni shughuli ya arifa. Inapelekea mtumiaji kulazimika kutumia ada kwa Mining yake, ambayo inaweza kuwaudhi baadhi. Walakini, hoja ya "spam" kwenye Bitcoin Blockchain haikubaliki kabisa. Yeyote anayelipa ada za muamala wake lazima aweze kuirekodi kwenye Ledger, bila kujali madhumuni yake. Kudai vinginevyo ni kutetea udhibiti.
+Kwa wazi, hasara kuu ya BIP47 ni muamala wa arifa. Inapelekea mtumiaji kulazimika kutumia ada kwa mining yake, ambayo inaweza kuwaudhi baadhi. Walakini, hoja ya "spam" kwenye Bitcoin Blockchain haikubaliki kabisa. Yeyote anayelipa ada za muamala wake lazima aweze kuirekodi kwenye Ledger, bila kujali madhumuni yake. Kudai vinginevyo ni kutetea udhibiti.
 
 
-Inawezekana kwamba katika siku zijazo, suluhu zingine za bei nafuu zitapatikana ili kuwasiliana na msimbo wa malipo wa mtumaji kwa mpokeaji, na kwa mpokeaji kuihifadhi kwa usalama. Lakini kwa sasa, shughuli ya arifa inasalia kuwa suluhisho na maelewano machache zaidi.
+Inawezekana kwamba katika siku zijazo, suluhu zingine za bei nafuu zitapatikana ili kuwasiliana na msimbo wa malipo wa mtumaji kwa mpokeaji, na kwa mpokeaji kuihifadhi kwa usalama. Lakini kwa sasa, miamala ya arifa inasalia kuwa suluhisho na maelewano machache zaidi.
 
 
 Hasara hii inasalia kuwa kidogo wakati wa kuzingatia faida zote za BIP47. Miongoni mwa mapendekezo yote yaliyopo ya kutatua tatizo hili la utumiaji tena wa Address, inaonekana kwangu kama suluhisho bora zaidi.
@@ -1250,7 +1249,7 @@ Kama ilivyoelezwa hapo awali, matumizi mengi ya Address yanatokana na kubadilish
 Kwa upande wa utumiaji, ingawa kazi zake za ndani ni ngumu sana, utaratibu wa malipo wa BIP47 ni wa moja kwa moja. Kwa hivyo, misimbo ya malipo inayoweza kutumika tena inaweza kupitishwa kwa urahisi, hata na watumiaji wapya.
 
 
-Kwa upande wa faragha, BIP47 inavutia sana. Kama nilivyoeleza katika sehemu ya shughuli ya arifa, msimbo wa malipo hauonyeshi taarifa yoyote kuhusu anwani za muda mfupi zinazotolewa. Kwa hivyo huvunja mtiririko wa maelezo kati ya shughuli ya Bitcoin na kitambulisho cha mpokeaji, tofauti na matumizi ya jadi ya Address inayopokea.
+Kwa upande wa faragha, BIP47 inavutia sana. Kama nilivyoeleza katika sehemu ya muamala wa arifa, msimbo wa malipo hauonyeshi taarifa yoyote kuhusu address za muda mfupi zinazotolewa. Kwa hivyo huvunja mtiririko wa maelezo kati ya muamala wa Bitcoin na kitambulisho cha mpokeaji, tofauti na matumizi ya jadi ya Address inayopokea.
 
 
 Na zaidi ya yote, utekelezaji wa PayNym wa BIP47 hufanya kazi! Imepatikana kwenye Samourai Wallet tangu 2016 na kwenye Sparrow Wallet tangu mwanzoni mwa mwaka huu. Sio mradi wa kisayansi, lakini suluhisho ambalo limejaribiwa jana na linafanya kazi kikamilifu leo.
@@ -1276,7 +1275,7 @@ Alifikiria jinsi alivyokuwa akiteswa na kutukanwa kila mahali, na sasa akasikia 
 
 
 
-- Inasakinisha na kutumia nodi yako ya RoninDojo Bitcoin.
+- Inasakinisha na kutumia node yako ya RoninDojo Bitcoin.
 
 
 ### Rasilimali za nje na shukrani:

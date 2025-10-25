@@ -1,0 +1,9 @@
+question: 新しいファイルが作成されるまでのblkNNNNN.datファイルの最大サイズは？
+answer: 128 MiB
+wrong_answers:
+  - 256 MiB
+  - 256ギガバイト
+  - 128ギガバイト
+explanation: |
+  blkNNNNN.datファイルはブロックを順次保存し、Bitcoin coreが次のブロックをオープンするまでに約128MiBに達する。
+reviewed: true

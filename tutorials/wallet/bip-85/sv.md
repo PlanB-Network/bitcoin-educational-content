@@ -91,9 +91,9 @@ Med BIP-85 kan du skapa flera Bitcoin-portföljer från en enda seed-kärnfras, 
 
 
 
-- Scenario**: Du använder en "Hot Wallet" Wallet (installerad på en internetansluten enhet) för dagliga transaktioner.
-- Lösning BIP-85**: Du skapar en seed sekundärfras som är avsedd för denna portfölj.
-- Fördel jämfört med BIP-32**: Du behöver inte importera seed:s primära fras till din telefon, vilket minskar risken för hackning. Endast den sekundära seed-frasen äventyras, vilket skyddar dina andra plånböcker. Med BIP-32 måste du använda seed:s huvudfras och en förbikopplingsväg, vilket exponerar alla dina medel.
+- **Scenario**: Du använder en "Hot Wallet" Wallet (installerad på en internetansluten enhet) för dagliga transaktioner.
+- **Lösning BIP-85**: Du skapar en seed sekundärfras som är avsedd för denna portfölj.
+- **Fördel jämfört med BIP-32**: Du behöver inte importera seed:s primära fras till din telefon, vilket minskar risken för hackning. Endast den sekundära seed-frasen äventyras, vilket skyddar dina andra plånböcker. Med BIP-32 måste du använda seed:s huvudfras och en förbikopplingsväg, vilket exponerar alla dina medel.
 
 
 
@@ -103,9 +103,9 @@ Med BIP-85 kan du skapa flera Bitcoin-portföljer från en enda seed-kärnfras, 
 
 
 
-- Scenario**: Du sätter upp en Bitcoin Wallet för någon som står dig nära (t.ex. din mamma), samtidigt som du kan återställa den om de tappar bort den.
-- Lösning BIP-85**: Du skapar en dedikerad seed sekundär mening och delar endast denna.
-- Fördel jämfört med BIP-32**: Med BIP-32 kräver skapandet av ett konto för en närstående att du antingen delar din huvudsakliga seed-fras, riskerar alla dina medel och komplicerar hanteringen för din närstående (hantering av förgreningsvägar), eller skapar en ny seed-fras för att spara utöver din huvudsakliga seed-fras.
+- **Scenario**: Du sätter upp en Bitcoin Wallet för någon som står dig nära (t.ex. din mamma), samtidigt som du kan återställa den om de tappar bort den.
+- **Lösning BIP-85**: Du skapar en dedikerad seed sekundär mening och delar endast denna.
+- Fördel jämfört med **BIP-32**: Med BIP-32 kräver skapandet av ett konto för en närstående att du antingen delar din huvudsakliga seed-fras, riskerar alla dina medel och komplicerar hanteringen för din närstående (hantering av förgreningsvägar), eller skapar en ny seed-fras för att spara utöver din huvudsakliga seed-fras.
 
 
 
@@ -115,9 +115,9 @@ Med BIP-85 kan du skapa flera Bitcoin-portföljer från en enda seed-kärnfras, 
 
 
 
-- Scenario**: Du separerar dina bitcoins för olika ändamål (t.ex. långsiktiga besparingar, icke-KYC-fonder).
-- Lösning BIP-85**: Du skapar seed sekundära fraser som är dedikerade till varje mål.
-- Fördel jämfört med BIP-32**: Med BIP-32 delar alla konton samma seed-fras, vilket komplicerar hanteringen i tredjepartsportföljer eftersom det krävs att avledningsvägar som `m/44'/0'/0'` hanteras. Dessutom är det inte möjligt att tilldela ett separat konto per enhet (t.ex. "besparingar på Coldcard", "dagligen på mobilen", "semestrar på Trezor"). BIP-85 tilldelar en unik seed sekundärfras per mål, som är lätt att identifiera och importera separat på varje enhet.
+- **Scenario**: Du separerar dina bitcoins för olika ändamål (t.ex. långsiktiga besparingar, icke-KYC-fonder).
+- **Lösning BIP-85**: Du skapar seed sekundära fraser som är dedikerade till varje mål.
+- Fördel jämfört med **BIP-32**: Med BIP-32 delar alla konton samma seed-fras, vilket komplicerar hanteringen i tredjepartsportföljer eftersom det krävs att avledningsvägar som `m/44'/0'/0'` hanteras. Dessutom är det inte möjligt att tilldela ett separat konto per enhet (t.ex. "besparingar på Coldcard", "dagligen på mobilen", "semestrar på Trezor"). BIP-85 tilldelar en unik seed sekundärfras per mål, som är lätt att identifiera och importera separat på varje enhet.
 
 
 
@@ -127,9 +127,9 @@ Med BIP-85 kan du skapa flera Bitcoin-portföljer från en enda seed-kärnfras, 
 
 
 
-- Scenario**: Du behöver en tillfällig portfölj för en engångstransaktion eller för att bevara sekretessen (t.ex. blandning av fonder, interaktion med Exchange KYC etc.).
-- Lösning BIP-85**: Du skapar en seed sekundär mening, använder den för transaktionen och förstör den sedan om det behövs, eftersom du vet att den kan återskapas.
-- Fördel jämfört med BIP-32**: Med BIP-32 är ett tillfälligt konto beroende av seed:s huvudmening, vilket innebär att alla dina medel exponeras om de äventyras.
+- **Scenario**: Du behöver en tillfällig portfölj för en engångstransaktion eller för att bevara sekretessen (t.ex. blandning av fonder, interaktion med Exchange KYC etc.).
+- **Lösning BIP-85**: Du skapar en seed sekundär mening, använder den för transaktionen och förstör den sedan om det behövs, eftersom du vet att den kan återskapas.
+- Fördel jämfört med **BIP-32**: Med BIP-32 är ett tillfälligt konto beroende av seed:s huvudmening, vilket innebär att alla dina medel exponeras om de äventyras.
 
 
 
@@ -141,7 +141,7 @@ Med BIP-85 kan du skapa flera Bitcoin-portföljer från en enda seed-kärnfras, 
 
 
 
-- Hårdvara** (tillval)
+- **Hårdvara** (tillval)
  - Coldcard Mk4 eller Q1
  - MicroSD-kort
 
@@ -158,7 +158,7 @@ Med BIP-85 kan du skapa flera Bitcoin-portföljer från en enda seed-kärnfras, 
 
 
 
-- Kompatibel** programvara
+- **Kompatibel** programvara
  - Sparrow wallet (dator, för endast bevakning eller avancerad hantering)
  - Nunchuck (mobil, för flera signaturer)
  - BlueWallet (mobil)
@@ -168,7 +168,7 @@ Med BIP-85 kan du skapa flera Bitcoin-portföljer från en enda seed-kärnfras, 
 
 
 
-- 3.4 Coldcard**-konfiguration
+- 3.4 **Coldcard-konfiguration**
  - Initiera en seed-mening med 24 ord på Coldcard.
  - Valfritt: Lägg till en passphrase för att säkra åtkomst till BIP-85-filialer.
  - Aktivera användbara alternativ: NFC (för export), avaktivera USB på batteri (säkerhet).
@@ -197,7 +197,7 @@ Slå på ditt Coldcard och ange din PIN-kod.
 
 
 
-- 1. Om du har applicerat en passphrase på din huvud seed:**
+- 1. Om du har applicerat en passphrase på din huvud seed:
  - Från startskärmen, gå till `passphrase`.
     - Välj `Add Word` och ange ditt lösenord.
     - Tryck på `Apply`.
@@ -207,7 +207,7 @@ Slå på ditt Coldcard och ange din PIN-kod.
 
 
 
-- 2. Gå till menyn BIP-85**
+- 2. Gå till menyn **BIP-85**
  - Från startskärmen, gå till `Avancerat > Härled seed B85`
  - Läs varningen och bekräfta.
 
@@ -246,7 +246,7 @@ Välj seed frasformat: 12, 18 eller 24 ord. Kontrollera antalet ord som accepter
 
 
 
-- 5. Notera eller exportera seed sekundär mening**
+- 5. Notera eller exportera seed sekundär mening
 
 
 ColdCard visar nu en ny seed sekundär mening. Du kan :

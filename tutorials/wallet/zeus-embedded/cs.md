@@ -13,7 +13,7 @@ Aplikace však obsahuje také "vložený uzel".
 
 
 
-** Právě tento aspekt aplikace budeme v tomto tutoriálu zkoumat. Díky tomu může mít kdokoli svůj vlastní bleskový uzel v mobilu, aniž by potřeboval vyhrazený server, stejně jako ACINQ nabízí svůj neuvěřitelný blesk Wallet Phoenix.
+**Právě tento aspekt aplikace budeme v tomto tutoriálu zkoumat.** Díky tomu může mít kdokoli svůj vlastní bleskový uzel v mobilu, aniž by potřeboval vyhrazený server, stejně jako ACINQ nabízí svůj neuvěřitelný blesk Wallet Phoenix.
 
 
 
@@ -248,7 +248,7 @@ Na další obrazovce budete vyzváni k otevření kanálu ve spolupráci s **"Ol
 V tomto výukovém programu zvolíme tuto možnost pro zjednodušení, ale je možné otevřít kanály s libovolným uzlem v síti.
 
 
-V rámci jedné transakce je možné otevřít i několik kanálů výběrem možnosti "OTEVŘÍT DALŠÍ KANÁL". *Tomu se však budeme věnovat v "pokročilé" verzi výukového programu **Zeus Embedded****.
+V rámci jedné transakce je možné otevřít i několik kanálů výběrem možnosti "OTEVŘÍT DALŠÍ KANÁL". *Tomu se však budeme věnovat v "pokročilé" verzi výukového programu* **Zeus Embedded**.
 
 
 

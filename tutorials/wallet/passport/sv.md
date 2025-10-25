@@ -303,7 +303,7 @@ För mer information om det rätta sättet att spara och hantera din Mnemonic-fr
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-naturligtvis får du aldrig dela dessa ord på Internet, som jag gör i den här handledningen. Detta prov Wallet kommer endast att användas på Testnet och kommer att raderas i slutet av handledningen.**_
+naturligtvis får du aldrig dela dessa ord på Internet, som jag gör i den här handledningen. Detta prov Wallet kommer endast att användas på Testnet och kommer att raderas i slutet av handledningen.
 
 
 Gör en fysisk säkerhetskopia av denna mening.

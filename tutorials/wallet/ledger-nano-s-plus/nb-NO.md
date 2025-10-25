@@ -96,7 +96,7 @@ Du kan bla gjennom disse instruksjonene og hoppe over sider ved å klikke på h�
 
 Hovedboken vil lage minnefrasen din ved hjelp av en tilfeldig tallgenerator. Forsikre deg om at du ikke blir observert under denne operasjonen. Skriv ned ordene du får fra Ledger på det fysiske mediet du ønsker. Avhengig av sikkerhetsstrategien din, kan du vurdere å lage flere fullstendige fysiske kopier av frasen (men det er viktig at du ikke deler den opp). Det er viktig å holde ordene nummerert og i sekvensiell rekkefølge.
 
-***Du bør selvsagt aldri dele disse ordene på internett, i motsetning til hva jeg gjør i denne veiledningen. Dette eksemplet på lommebok vil kun bli brukt på Testnet og vil bli slettet etter opplæringen
+**Du bør selvsagt aldri dele disse ordene på internett, i motsetning til hva jeg gjør i denne veiledningen. Dette eksemplet på lommebok vil kun bli brukt på Testnet og vil bli slettet etter opplæringen**
 
 ![NANO S PLUS LEDGER](assets/notext/11.webp)
 
@@ -252,7 +252,7 @@ Og der har du det, lommeboken din er nå opprettet!
 
 ![NANO S PLUS LEDGER](assets/notext/43.webp)
 
-Før du mottar dine første bitcoins i lommeboken din, anbefaler jeg deg på det sterkeste å utføre en gjenopprettingstest**. Noter ned en referanseinformasjon, for eksempel xpub, og tilbakestill deretter Ledger Nano mens lommeboken fortsatt er tom. Prøv deretter å gjenopprette lommeboken på Ledger ved hjelp av papirsikkerhetskopiene dine. Sjekk at xpuben som genereres etter gjenopprettingen, stemmer overens med den du først noterte. Hvis det stemmer, kan du være sikker på at papirbackupene dine er pålitelige.
+Før du mottar dine første bitcoins i lommeboken din, anbefaler jeg deg på det sterkeste å utføre en **gjenopprettingstest**. Noter ned en referanseinformasjon, for eksempel xpub, og tilbakestill deretter Ledger Nano mens lommeboken fortsatt er tom. Prøv deretter å gjenopprette lommeboken på Ledger ved hjelp av papirsikkerhetskopiene dine. Sjekk at xpuben som genereres etter gjenopprettingen, stemmer overens med den du først noterte. Hvis det stemmer, kan du være sikker på at papirbackupene dine er pålitelige.
 
 Hvis du vil lære mer om hvordan du utfører en gjenopprettingstest, anbefaler jeg at du leser denne andre veiledningen:
 
@@ -359,4 +359,3 @@ Hvis du fant denne opplæringen nyttig, vil jeg sette pris på det hvis du kan l
 Jeg anbefaler også at du sjekker ut denne komplette veiledningen om Ledger Flex:
 
 https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
-

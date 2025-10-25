@@ -80,9 +80,9 @@ Ente Auth is available on most popular platforms. You can download the applicati
 You have several options:
 
 
-- Google Play Store**: Search for "Ente Auth" for classic installation
-- F-Droid**: Available from the Android open-source application catalog, with a guarantee of verified construction and no proprietary content
-- Manual installation** : APK files can be downloaded from the [project's GitHub page](https://github.com/ente-io/auth/releases) with integrated notification of new versions
+- **Google Play Store**: Search for "Ente Auth" for classic installation
+- **F-Droid**: Available from the Android open-source application catalog, with a guarantee of verified construction and no proprietary content
+- **Manual installation**: APK files can be downloaded from the [project's GitHub page](https://github.com/ente-io/auth/releases) with integrated notification of new versions
 
 
 ### iOS (iPhone/iPad)
@@ -96,9 +96,9 @@ Ente Auth offers native desktop applications. Visit [ente.io/download](https://e
 
 
 
-- Windows**: An EXE installer is supplied
-- macOS**: Drag-and-drop DMG disk image in Applications
-- Linux** : Several formats available (AppImage portable, .deb for Debian/Ubuntu, .rpm for Fedora/Red Hat)
+- **Windows**: An EXE installer is supplied
+- **macOS**: Drag-and-drop DMG disk image in Applications
+- **Linux**: Several formats available (AppImage portable, .deb for Debian/Ubuntu, .rpm for Fedora/Red Hat)
 
 
 **Note:** This tutorial is based on Ente Auth v4.4.4 and later. Earlier versions may have minor Interface differences.
@@ -146,9 +146,9 @@ I strongly recommend enabling local protection by code or biometrics. Go to **Se
 
 
 
-- Biometric unlocking**: Face ID, fingerprint depending on your device's capabilities
-- Application-specific PIN/password**
-- Auto-Lock delay**: e.g. "Immediately" or after 30 seconds of inactivity
+- **Biometric unlocking**: Face ID, fingerprint depending on your device's capabilities
+- **Application-specific PIN/password**
+- **Auto-Lock delay**: e.g. "Immediately" or after 30 seconds of inactivity
 
 
 This protection prevents unauthorized access to your codes if someone gains access to your unlocked phone. Note that this lock is an additional barrier: your data remains end-to-end encrypted even without this protection.
@@ -220,7 +220,7 @@ You can customize the name of the service and your login to make it easier to fi
 *Confirmation of successful 2FA activation on Bull Bitcoin*
 
 
-**Backup codes**: Bull Bitcoin will provide you with recovery codes. **Save them in a safe place, separate from your authenticator.
+**Backup codes**: Bull Bitcoin will provide you with recovery codes. **Save them in a safe place, separate from your authenticator.**
 
 
 ![Gestion des codes de sauvegarde](assets/fr/11.webp)
@@ -322,10 +322,10 @@ The security settings allow you to :
 General settings include :
 
 
-- Language**: Interface multilingual
-- Display**: Large icons, compact mode
-- Privacy**: Hide codes, quick search
-- Telemetry**: Error reporting (can be disabled)
+- **Language**: Interface multilingual
+- **Display**: Large icons, compact mode
+- **Privacy**: Hide codes, quick search
+- **Telemetry**: Error reporting (can be disabled)
 
 
 ## Backup and synchronization
@@ -373,7 +373,7 @@ Synchronization requires the Internet, but Ente Auth works perfectly offline on 
 Ente Auth is based on robust end-to-end encryption with zero-knowledge architecture. Your codes are encrypted with a key you alone hold, derived from your master password using advanced key derivation functions.
 
 
-**Zero-knowledge architecture: Ente cannot physically access your data. Even metadata (service names, tags, notes) is encrypted on the client side before transmission. This approach ensures that, in the event of an attack on your servers or a government request, Ente can only disclose encrypted data that cannot be read without your password.
+**Zero-knowledge architecture:** Ente cannot physically access your data. Even metadata (service names, tags, notes) is encrypted on the client side before transmission. This approach ensures that, in the event of an attack on your servers or a government request, Ente can only disclose encrypted data that cannot be read without your password.
 
 
 **Local encryption**: The encryption process takes place entirely on your device before it is sent to the cloud. Ente's servers receive and store only encrypted data, making unauthorized access impossible, even for service administrators.
@@ -386,9 +386,9 @@ As the code is [open source](https://github.com/ente-io/auth), the community can
 
 
 
-- Cure53** (Germany): Application and cryptographic security audit
-- Symbolic Software** (France): Specialized cryptographic expertise
-- Fallible** (India): Penetration testing and vulnerability analysis
+- **Cure53** (Germany): Application and cryptographic security audit
+- **Symbolic Software** (France): Specialized cryptographic expertise
+- **Fallible** (India): Penetration testing and vulnerability analysis
 
 
 These independent audits, carried out by recognized firms, guarantee that Ente Auth's cryptographic implementation complies with best security practices and has no critical flaws.
@@ -451,27 +451,27 @@ For teams managing sensitive accounts, Ente Auth facilitates collaboration while
 
 
 
-- Save your emergency codes**: Keep the recovery codes provided by each service away from your phone.
+- **Save your emergency codes**: Keep the recovery codes provided by each service away from your phone.
 
 
 
-- Use a strong master password**: Your Ente Auth master password must be unique and robust, as it protects all your codes.
+- **Use a strong master password**: Your Ente Auth master password must be unique and robust, as it protects all your codes.
 
 
 
-- Activate local protection**: Configure PIN or biometrics to prevent unauthorized physical access.
+- **Activate local protection**: Configure PIN or biometrics to prevent unauthorized physical access.
 
 
 
-- Don't over-customize**: Avoid advanced modifications that could compromise synchronization.
+- **Don't over-customize**: Avoid advanced modifications that could compromise synchronization.
 
 
 
-- Keep the application up to date**: Updates correct security flaws and improve functionality.
+- **Keep the application up to date**: Updates correct security flaws and improve functionality.
 
 
 
-- Test restoration**: Occasionally check that you can restore your codes on another device.
+- **Test restoration**: Occasionally check that you can restore your codes on another device.
 
 
 ## Conclusion
@@ -492,20 +492,20 @@ Whether you're an individual looking to secure your personal accounts, or a team
 ### Official documentation
 
 
-- Official website**: [ente.io/auth](https://ente.io/auth)
-- Help center**: [help.ente.io/auth](https://help.ente.io/auth)
-- Technical blog**: [ente.io/blog](https://ente.io/blog)
+- **Official website**: [ente.io/auth](https://ente.io/auth)
+- **Help center**: [help.ente.io/auth](https://help.ente.io/auth)
+- **Technical blog**: [ente.io/blog](https://ente.io/blog)
 
 
 ### Source code and transparency
 
 
-- GitHub**: [github.com/ente-io/auth](https://github.com/ente-io/auth)
-- Cryptography audit**: [ente.io/blog/cryptography-audit](https://ente.io/blog/cryptography-audit)
+- **GitHub**: [github.com/ente-io/auth](https://github.com/ente-io/auth)
+- **Cryptography audit**: [ente.io/blog/cryptography-audit](https://ente.io/blog/cryptography-audit)
 
 
 ### Community
 
 
-- Discord**: [discord.gg/z2YVKkycX3](https://discord.gg/z2YVKkycX3)
-- Reddit**: [r/enteio](https://reddit.com/r/enteio)
+- **Discord**: [discord.gg/z2YVKkycX3](https://discord.gg/z2YVKkycX3)
+- **Reddit**: [r/enteio](https://reddit.com/r/enteio)

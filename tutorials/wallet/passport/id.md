@@ -210,7 +210,7 @@ Untuk informasi lebih lanjut mengenai cara yang tepat untuk menyimpan dan mengel
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-tentu saja, Anda tidak boleh membagikan kata-kata ini di Internet, seperti yang saya lakukan dalam tutorial ini. Portofolio contoh ini hanya akan digunakan di Testnet dan akan dihapus di akhir tutorial.**_
+tentu saja, Anda tidak boleh membagikan kata-kata ini di Internet, seperti yang saya lakukan dalam tutorial ini. Portofolio contoh ini hanya akan digunakan di Testnet dan akan dihapus di akhir tutorial.
 
 Buatlah cadangan fisik dari kalimat ini.
 
@@ -491,4 +491,3 @@ Selamat, Anda sekarang tahu cara mengonfigurasi dan menggunakan Passport. Jika A
 Untuk informasi lebih lanjut, lihat tutorial kami tentang perangkat lunak Liana:
 
 https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
-

@@ -13,10 +13,10 @@ Maailmas, kus digitaalne jälgimine on muutumas igapäevaeluks, ei ole eraelu pu
 
 
 
-- Kolmanda osapoole küpsised**: väikesed failid, mida välised saidid hoiavad, et teid ühelt saidilt teisele jälgida
-- Sõrmejälg**: kogub teie brauseri ja seadme unikaalseid omadusi (ekraani resolutsioon, paigaldatud fondid, pluginad jne), et teid ilma küpsisteta tuvastada
-- Jälgimisskriptid**: nähtamatud JavaScript-koodid, mis analüüsivad teie sirvimiskäitumist (klõpsud, kerimine, ajakulu)
-- IP Address analüüs**: geograafiline asukoht ja teie Interneti-teenuse pakkuja tuvastamine
+- **Kolmanda osapoole küpsised**: väikesed failid, mida välised saidid hoiavad, et teid ühelt saidilt teisele jälgida
+- **Sõrmejälg**: kogub teie brauseri ja seadme unikaalseid omadusi (ekraani resolutsioon, paigaldatud fondid, pluginad jne), et teid ilma küpsisteta tuvastada
+- **Jälgimisskriptid**: nähtamatud JavaScript-koodid, mis analüüsivad teie sirvimiskäitumist (klõpsud, kerimine, ajakulu)
+- **IP Address analüüs**: geograafiline asukoht ja teie Interneti-teenuse pakkuja tuvastamine
 
 
 
@@ -74,25 +74,25 @@ Mullvad brauseri väljatöötamisel on silmas peetud ühte peamist eesmärki: **
 
 
 
-- Vähendage järsult reklaami jälgimist ja jälgimist** veebisaitide ja reklaamiagentuuride poolt. Mullvad Browser blokeerib vaikimisi kolmandate osapoolte jälgimisseadmed, jälgimisküpsised ja sõrmejälje skriptid, mis võivad teid tuvastada.
+- Vähendage järsult reklaami jälgimist ja jälgimist veebisaitide ja reklaamiagentuuride poolt. Mullvad Browser blokeerib vaikimisi kolmandate osapoolte jälgimisseadmed, jälgimisküpsised ja sõrmejälje skriptid, mis võivad teid tuvastada.
 
 
 
 
 
-- Standardiseerige oma brauseri sõrmejälg**, et **"sulanduda rahva hulka "**. Sõrmejälg on nagu unikaalne "isikutunnistus", mis on loodud teie brauseri kõigi omaduste kombineerimisel. Mullvad Browser tagab, et kõigil kasutajatel on täpselt sama "isikutunnistus", mistõttu on võimatu neid individuaalselt eristada.
+- Standardiseerige oma brauseri sõrmejälg, et **"sulanduda rahva hulka"**. Sõrmejälg on nagu unikaalne "isikutunnistus", mis on loodud teie brauseri kõigi omaduste kombineerimisel. Mullvad Browser tagab, et kõigil kasutajatel on täpselt sama "isikutunnistus", mistõttu on võimatu neid individuaalselt eristada.
 
 
 
 
 
-- Pakub kohest kaitset ilma täiendavate pikendusteta**. Mullvad Browser on "kasutusvalmis" konfiguratsiooniga: kasutaja ei pea paigaldama hulgaliselt laiendusi ega muutma mingeid seadistusi, et olla kaitstud.
+- Pakub kohest kaitset ilma täiendavate pikendusteta. Mullvad Browser on "kasutusvalmis" konfiguratsiooniga: kasutaja ei pea paigaldama hulgaliselt laiendusi ega muutma mingeid seadistusi, et olla kaitstud.
 
 
 
 
 
-- Ärge ohverdage jõudlust või ergonoomikat** rohkem kui vaja. Tori marsruutimise puudumisel pakub Mullvad Browser palju kiiremat sirvimist kui Tor Browser, lähenedes tavalise brauseri jõudlusele koos VPN-iga.
+- Ärge ohverdage jõudlust või ergonoomikat rohkem kui vaja. Tori marsruutimise puudumisel pakub Mullvad Browser palju kiiremat sirvimist kui Tor Browser, lähenedes tavalise brauseri jõudlusele koos VPN-iga.
 
 
 
@@ -106,36 +106,36 @@ Mullvad Browser sisaldab mitmeid **turbe- ja privaatsusfunktsioone**, mis on ots
 
 
 
-- Privaatne sirvimine kogu aeg:** Privaatne sirvimisrežiim on vaikimisi aktiveeritud ja seda ei saa deaktiveerida. **Es ei salvestata ajalugu, küpsiseid ega vahemälu ühest seansist teise**. Niipea, kui sulgete Mullvad Browser'i, kustutatakse kõik sirvimisandmed.
+- **Privaatne sirvimine kogu aeg:** Privaatne sirvimisrežiim on vaikimisi aktiveeritud ja seda ei saa deaktiveerida. **Es ei salvestata ajalugu, küpsiseid ega vahemälu ühest seansist teise**. Niipea, kui sulgete Mullvad Browser'i, kustutatakse kõik sirvimisandmed.
 
 
 
 
 
-- Tõhustatud kaitse sõrmejälgede võtmise vastu:** Brauser rakendab rangeid seadistusi, et takistada digitaalset sõrmejälgede võtmist. See hõlmab järgmist:
- - Kasutajaagendi** ja brauseri versiooni standardimine
- - Kõigi kasutajate ajavööndiks on seatud UTC**
- - Letterboxing**: tehnika, mis lisab automaatselt hallid marginaalid veebilehtede ümber, et ühtlustada ekraanisuurust ja vältida tuvastamist ekraani mõõtmete järgi
- - Blokeeritud sõrmejälgede APId**: Canvas (2D joonistamine), WebGL (3D graafika) ja AudioContext (helitöötlus) tehnoloogiad on keelatud, sest need võivad avaldada unikaalseid üksikasju teie riistvara kohta
- - Standardiseeritud süsteemifontid**, et vältida tuvastamist paigaldatud fontide järgi
+- **Tõhustatud kaitse sõrmejälgede võtmise vastu:** Brauser rakendab rangeid seadistusi, et takistada digitaalset sõrmejälgede võtmist. See hõlmab järgmist:
+- **Kasutajaagendi** ja brauseri versiooni standardimine
+- Kõigi kasutajate ajavööndiks on seatud **UTC**
+- **Letterboxing**: tehnika, mis lisab automaatselt hallid marginaalid veebilehtede ümber, et ühtlustada ekraanisuurust ja vältida tuvastamist ekraani mõõtmete järgi
+- **Blokeeritud sõrmejälgede APId**: Canvas (2D joonistamine), WebGL (3D graafika) ja AudioContext (helitöötlus) tehnoloogiad on keelatud, sest need võivad avaldada unikaalseid üksikasju teie riistvara kohta
+- **Standardiseeritud süsteemifontid**, et vältida tuvastamist paigaldatud fontide järgi
 
 
 
 
 
-- Jälgijate ja reklaami blokeerimine:** Mullvad Browser integreerib algselt **uBlock Origin** laienduse (eelinstallitud) koos täiendavate kaitselistidega, et blokeerida **kolmandate osapoolte jälgijad, reklaamskriptid ja muu pahatahtlik sisu**. Selle kaitsega kaasneb **Esimesi isoleerimine**: tehnika, mis salvestab küpsised iga veebisaidi jaoks eraldi "pottidesse", mis takistab ühel veebisaidil lugeda teise saidi poolt hoiustatud küpsiseid.
+- Jälgijate ja reklaami blokeerimine: Mullvad Browser integreerib algselt **uBlock Origin** laienduse (eelinstallitud) koos täiendavate kaitselistidega, et blokeerida **kolmandate osapoolte jälgijad, reklaamskriptid ja muu pahatahtlik sisu**. Selle kaitsega kaasneb **Esimeste osapoolte isoleerimine**: tehnika, mis salvestab küpsised iga veebisaidi jaoks eraldi "pottidesse", mis takistab ühel veebisaidil lugeda teise saidi poolt hoiustatud küpsiseid.
 
 
 
 
 
-- Seansi lähtestamise nupp:** Sarnaselt Tor Brauseri nupuga "Uus identiteet" pakub Mullvad Browser nuppu, mille abil saab **suurelt taaskäivitada brauseri uue, tühja seansiga**.
+- **Seansi lähtestamise nupp:** Sarnaselt Tor Brauseri nupuga "Uus identiteet" pakub Mullvad Browser nuppu, mille abil saab **suurelt taaskäivitada brauseri uue, tühja seansiga**.
 
 
 
 
 
-- Reguleeritavad turvatasemed:** Saate seadetes reguleerida turvataset (*Normaalne*, *Safer*, *Safest*), nagu ka Tor Browseris.
+- **Reguleeritavad turvatasemed:** Saate seadetes reguleerida turvataset (*Normaalne*, *Safer*, *Safest*), nagu ka Tor Browseris.
 
 
 
@@ -174,9 +174,9 @@ NoScript töötab taustal, et hallata brauseri **turvalisuse taset**. See:
 
 
 
-- Kontrollib JavaScripti** täitmist vastavalt valitud tasemele (normaalne/ kõige turvalisem/ kõige turvalisem)
-- Filtreerib XSS** (Cross-Site Scripting) rünnakud automaatselt välja
-- Blokeerib ohtliku** aktiivse sisu mitte-HTTPS-saitidel
+- Kontrollib **JavaScripti** täitmist vastavalt valitud tasemele (normaalne/ kõige turvalisem/ kõige turvalisem)
+- Filtreerib **XSS** (Cross-Site Scripting) rünnakud automaatselt välja
+- Blokeerib **ohtliku** aktiivse sisu mitte-HTTPS-saitidel
 - Selle ikoon on vaikimisi peidetud, kuid seda saab kuvada "Tööriistariba kohandamise" kaudu
 
 
@@ -193,10 +193,10 @@ See Mullvad-spetsiifiline laiendus pakub erinevaid funktsioone sõltuvalt selles
 
 
 
-- Põhiline ühenduse kontroll**: näitab teie praegust avalikku IP-aadressi ja mõningaid andmeid ühenduse kohta
-- Privaatsussoovitused**: näpunäited turvasätete parandamiseks (DNS, ainult HTTPS, otsingumootor)
-- WebRTC** kontroll: IP Address lekete vältimiseks lubada/välja lülitada
-- Saab kustutada ilma mõju** teie digitaalsele jalajäljele, kui te ei kasuta Mullvad VPN-i
+- **Põhiline ühenduse kontroll**: näitab teie praegust avalikku IP-aadressi ja mõningaid andmeid ühenduse kohta
+- **Privaatsussoovitused**: näpunäited turvasätete parandamiseks (DNS, ainult HTTPS, otsingumootor)
+- **WebRTC** kontroll: IP Address lekete vältimiseks lubada/välja lülitada
+- Saab kustutada ilma mõjuta **teie digitaalsele jalajäljele**, kui te ei kasuta Mullvad VPN-i
 
 
 
@@ -209,16 +209,16 @@ Laiendus avab oma täieliku potentsiaali koos täiustatud funktsioonidega:
 
 
 
-- Integreeritud SOCKS5 proxy**: ühe klõpsuga ühendus Mullvad VPN serveri proxy'ga
- - Fikseeritud IP Address**: erinevalt VPN-st, mis võib muuta oma IP Address, tagab proxy alati sama väljund Address
- - Automaatne kill switch**: kui VPN katkestab ühenduse, blokeeritakse brauseri liiklus koheselt
- - IPv6 tugi**: IPv6 ühenduvus isegi siis, kui teie VPN-ühendus ei ole lubatud
+- **Integreeritud SOCKS5 proxy**: ühe klõpsuga ühendus Mullvad VPN serveri proxy'ga
+- **Fikseeritud IP Address**: erinevalt VPN-st, mis võib muuta oma IP Address, tagab proxy alati sama väljund Address
+- **Automaatne kill switch**: kui VPN katkestab ühenduse, blokeeritakse brauseri liiklus koheselt
+- **IPv6 tugi**: IPv6 ühenduvus isegi siis, kui teie VPN-ühendus ei ole lubatud
 
 
 
 
 
-- Multihop (topelt VPN)**: võimalus muuta proxy asukohta, et luua tunneli sees tunneli
+- **Multihop (topelt VPN)**: võimalus muuta proxy asukohta, et luua tunneli sees tunneli
  - Teie liiklus läbib kõigepealt teie VPN-serveri, seejärel "hüppab" teise Mullvadi serverisse
  - Kasutage erinevat lokaliseerimist ainult brauseri jaoks
 
@@ -226,13 +226,13 @@ Laiendus avab oma täieliku potentsiaali koos täiustatud funktsioonidega:
 
 
 
-- Täiustatud ühenduse seire**: VPN-i oleku, ühendatud serveri ja DNS-lekke tuvastamine reaalajas
+- **Täiustatud ühenduse seire**: VPN-i oleku, ühendatud serveri ja DNS-lekke tuvastamine reaalajas
 
 
 
 
 
-- Juurdepääs Mullvad Leta**: privaatne otsingumootor, mis on reserveeritud tellijatele (kuigi Mullvad ei soovita seda oma kontoga korrelatsiooni tõttu)
+- Juurdepääs **Mullvad Leta**: privaatne otsingumootor, mis on reserveeritud tellijatele (kuigi Mullvad ei soovita seda oma kontoga korrelatsiooni tõttu)
 
 
 
@@ -250,25 +250,25 @@ Need kolm laiendust töötavad koos, et luua ühtne kaitse ökosüsteem, kus iga
 
 
 
-- Suurepärane privaatsuskaitse vaikimisi:** Mullvad Browser rakendab algusest peale väga rangeid privaatsusseadeid, ilma et oleks vaja käsitsi konfigureerida.
+- **Suurepärane privaatsuskaitse vaikimisi:** Mullvad Browser rakendab algusest peale väga rangeid privaatsusseadeid, ilma et oleks vaja käsitsi konfigureerida.
 
 
 
 
 
-- Parem jõudlus kui Tor Browser:** Onioni marsruutimise puudumisel on Mullvad Browser klassikalise veebi sirvimise puhul **nähtavalt kiirem ja reageerimisvõimelisem** kui Tor Browser.
+- **Parem jõudlus kui Tor Browser:** Onioni marsruutimise puudumisel on Mullvad Browser klassikalise veebi sirvimise puhul **nähtavalt kiirem ja reageerimisvõimelisem** kui Tor Browser.
 
 
 
 
 
-- Tuttav Interface lihtsus:** Mullvad Browser põhineb Firefoxi Interface-l. Kui olete harjunud Firefoxi või isegi Tor Browseriga, siis ei tunne te end kohatuna.
+- **Tuttav Interface lihtsus:** Mullvad Browser põhineb Firefoxi Interface-l. Kui olete harjunud Firefoxi või isegi Tor Browseriga, siis ei tunne te end kohatuna.
 
 
 
 
 
-- Usaldusväärne koostöö ja auditeeritud kood:** Mullvad Browser saab kasu Tor Projecti kogemustest ja kogu lähtekood on kättesaadav välisauditiks.
+- **Usaldusväärne koostöö ja auditeeritud kood:** Mullvad Browser saab kasu Tor Projecti kogemustest ja kogu lähtekood on kättesaadav välisauditiks.
 
 
 
@@ -278,25 +278,25 @@ Need kolm laiendust töötavad koos, et luua ühtne kaitse ökosüsteem, kus iga
 
 
 
-- Ilma VPN-ita ei ole võrgu anonüümsust:** Kõige olulisem on see, et **Mullvad Browser ei peida oma IP Address ise** (nagu kõik teised brauserid, välja arvatud Tor Browser). Teie IP Address on nagu teie "posti Address" internetis: see paljastab teie asukoha ja teie Interneti-teenusepakkuja. Seetõttu sõltub see **suures osas VPNist** (virtuaalne privaatvõrk), et seda olulist teavet varjata.
+- Ilma VPN-ita ei ole võrgu anonüümsust: Kõige olulisem on see, et **Mullvad Browser ei peida oma IP Address ise** (nagu kõik teised brauserid, välja arvatud Tor Browser). Teie IP Address on nagu teie "posti Address" internetis: see paljastab teie asukoha ja teie Interneti-teenusepakkuja. Seetõttu sõltub see **suures osas VPNist** (virtuaalne privaatvõrk), et seda olulist teavet varjata.
 
 
 
 
 
-- Mobiiliversioon puudub:** Praeguseks on Mullvad Browser saadaval ainult PC-l (Windows, Mac, Linux).
+- **Mobiiliversioon puudub:** Praeguseks on Mullvad Browser saadaval ainult PC-l (Windows, Mac, Linux).
 
 
 
 
 
-- Ei ühildu teatud harjumustega:** **püsiv privaatne režiim** tähendab, et seanssi ei saa hoida ühest kasutusest teise. Veebikontoga ei ole võimalik jääda ühest seansist teise ühendatud.
+- Ei ühildu teatud harjumustega: **püsiv privaatne režiim** tähendab, et seanssi ei saa hoida ühest kasutusest teise. Veebikontoga ei ole võimalik jääda ühest seansist teise ühendatud.
 
 
 
 
 
-- Piiratud funktsioonid:** Et säilitada sõrmejälgede ühtsust, on Mullvad Browseris **keelatud mitmed Firefoxis olevad funktsioonid** ja need ei ole mõeldud kohandamiseks.
+- **Piiratud funktsioonid:** Et säilitada sõrmejälgede ühtsust, on Mullvad Browseris **keelatud mitmed Firefoxis olevad funktsioonid** ja need ei ole mõeldud kohandamiseks.
 
 
 
@@ -399,13 +399,13 @@ Mullvad Browser pakub kolme turvataset:
 
 
 
-- Normaalne** (praegune vaikimisi tase): Kõik brauseri ja veebisaidi funktsioonid on lubatud
+- **Normaalne** (praegune vaikimisi tase): Kõik brauseri ja veebisaidi funktsioonid on lubatud
 
 
 
 
 
-- Turvalisem**: Lülitab välja sageli ohtlikud veebisaitide funktsioonid, mis võivad viia mõne veebisaidi funktsionaalsuse kadumiseni:
+- **Turvalisem**: Lülitab välja sageli ohtlikud veebisaitide funktsioonid, mis võivad viia mõne veebisaidi funktsionaalsuse kadumiseni:
  - JavaScript on keelatud mitte-HTTPS-saitidel
  - Mõned kirjatüübid ja matemaatilised sümbolid on välja lülitatud
  - Heli ja video (HTML5 meedia) ning WebGL on "kliki mängimiseks"
@@ -414,7 +414,7 @@ Mullvad Browser pakub kolme turvataset:
 
 
 
-- Kõige ohutum**: Võimaldab ainult staatiliste veebilehtede ja põhiteenuste jaoks vajalikke veebisaitide funktsioone:
+- **Kõige ohutum**: Võimaldab ainult staatiliste veebilehtede ja põhiteenuste jaoks vajalikke veebisaitide funktsioone:
  - JavaScript on vaikimisi kõigi saitide puhul välja lülitatud
  - Mõned kirjatüübid, ikoonid, pildid ja matemaatilised sümbolid on välja lülitatud
  - Heli ja video (HTML5 meedia) ning WebGL on "kliki mängimiseks"
@@ -477,7 +477,7 @@ Kui otsustate siiski laiendusi paigaldada, olge teadlik, et loote unikaalse sõr
 
 
 
-1. **Kasutage alati VPN-i: Mullvad Browser ei maskeeri teie IP-aadressi. VPN on täielikuks anonüümsuseks hädavajalik.
+1. **Kasutage alati VPN-i:** Mullvad Browser ei maskeeri teie IP-aadressi. VPN on täielikuks anonüümsuseks hädavajalik.
 
 
 
@@ -494,9 +494,9 @@ Kui otsustate siiski laiendusi paigaldada, olge teadlik, et loote unikaalse sõr
 
 
 
-   - Normaalne (soovitatav)**: Igapäevaseks sirvimiseks. Pakub juba praegu suurepärast kaitset, säilitades samal ajal veebisaitide funktsionaalsuse. See on parim tasakaal 95% kasutajate jaoks.
-   - Turvalisem**: Kui külastate tundmatuid või potentsiaalselt ohtlikke saite või kui soovite täiendavat kaitset avalikes WiFi-võrkudes. Mõne saidi puhul võib esineda tõrkeid.
-   - Kõige turvalisem**: Reserveeritud kõrge riskiga olukordade jaoks (uuriv ajakirjandus, tundlik side, vaenulikud keskkonnad). Enamik moodsaid saite läheb katki, kuid see on maksimaalse turvalisuse hind.
+- **Normaalne (soovitatav)**: Igapäevaseks sirvimiseks. Pakub juba praegu suurepärast kaitset, säilitades samal ajal veebisaitide funktsionaalsuse. See on parim tasakaal 95% kasutajate jaoks.
+- **Turvalisem**: Kui külastate tundmatuid või potentsiaalselt ohtlikke saite või kui soovite täiendavat kaitset avalikes WiFi-võrkudes. Mõne saidi puhul võib esineda tõrkeid.
+- **Kõige turvalisem**: Reserveeritud kõrge riskiga olukordade jaoks (uuriv ajakirjandus, tundlik side, vaenulikud keskkonnad). Enamik moodsaid saite läheb katki, kuid see on maksimaalse turvalisuse hind.
 
 
 

@@ -91,9 +91,9 @@ BIP-85 ermöglicht es Ihnen, mehrere Bitcoin-Portfolios aus einem einzigen seed-
 
 
 
-- Szenario**: Sie verwenden einen "Hot Wallet" Wallet (installiert auf einem mit dem Internet verbundenen Gerät) für tägliche Transaktionen.
-- Lösung BIP-85**: Sie erstellen einen sekundären seed-Satz für dieses Portfolio.
-- Vorteil gegenüber BIP-32**: Sie müssen den seed-Primärsatz nicht in Ihr Telefon importieren, wodurch das Risiko eines Hackerangriffs verringert wird. Nur der seed-Sekundärsatz ist gefährdet und schützt Ihre anderen Geldbörsen. Bei BIP-32 müssen Sie die seed-Hauptphrase und einen Umgehungspfad verwenden, wodurch alle Ihre Geldmittel offengelegt werden.
+- **Szenario**: Sie verwenden einen "Hot Wallet" Wallet (installiert auf einem mit dem Internet verbundenen Gerät) für tägliche Transaktionen.
+- **Lösung BIP-85**: Sie erstellen einen sekundären seed-Satz für dieses Portfolio.
+- **Vorteil gegenüber BIP-32**: Sie müssen den seed-Primärsatz nicht in Ihr Telefon importieren, wodurch das Risiko eines Hackerangriffs verringert wird. Nur der seed-Sekundärsatz ist gefährdet und schützt Ihre anderen Geldbörsen. Bei BIP-32 müssen Sie die seed-Hauptphrase und einen Umgehungspfad verwenden, wodurch alle Ihre Geldmittel offengelegt werden.
 
 
 
@@ -103,9 +103,9 @@ BIP-85 ermöglicht es Ihnen, mehrere Bitcoin-Portfolios aus einem einzigen seed-
 
 
 
-- Szenario**: Sie richten für eine Ihnen nahestehende Person (z. B. Ihre Mutter) einen Bitcoin Wallet ein und können ihn wiedererlangen, wenn sie ihn verliert.
-- Lösung BIP-85**: Sie erstellen einen eigenen seed-Sekundärsatz und teilen nur diesen.
-- Vorteil gegenüber BIP-32**: Bei BIP-32 muss man bei der Einrichtung eines Kontos für einen geliebten Menschen entweder seinen Haupt-seed-Satz mitbenutzen, wodurch man sein gesamtes Guthaben riskiert und die Verwaltung für den geliebten Menschen erschwert (Verwaltung von Verzweigungspfaden), oder einen neuen seed-Satz anlegen, den man zusätzlich zu seinem Haupt-seed-Satz speichert.
+- **Szenario**: Sie richten für eine Ihnen nahestehende Person (z. B. Ihre Mutter) einen Bitcoin Wallet ein und können ihn wiedererlangen, wenn sie ihn verliert.
+- **Lösung BIP-85**: Sie erstellen einen eigenen seed-Sekundärsatz und teilen nur diesen.
+- **Vorteil gegenüber BIP-32**: Bei BIP-32 muss man bei der Einrichtung eines Kontos für einen geliebten Menschen entweder seinen Haupt-seed-Satz mitbenutzen, wodurch man sein gesamtes Guthaben riskiert und die Verwaltung für den geliebten Menschen erschwert (Verwaltung von Verzweigungspfaden), oder einen neuen seed-Satz anlegen, den man zusätzlich zu seinem Haupt-seed-Satz speichert.
 
 
 
@@ -115,9 +115,9 @@ BIP-85 ermöglicht es Ihnen, mehrere Bitcoin-Portfolios aus einem einzigen seed-
 
 
 
-- Szenario**: Sie trennen Ihre Bitcoins für verschiedene Zwecke (z. B. langfristige Ersparnisse, Nicht-KYC-Fonds).
-- Lösung BIP-85**: Sie erstellen seed sekundäre Phrasen für jedes Ziel.
-- Vorteil gegenüber BIP-32**: Bei BIP-32 teilen sich alle Konten denselben seed-Satz, was die Verwaltung in Portfolios von Drittanbietern erschwert, da Ableitungspfade wie `m/44'/0'/0'` verwaltet werden müssen. Außerdem ist es nicht möglich, jedem Gerät ein eigenes Konto zuzuweisen (z. B. "Sparen auf Coldcard", "täglich auf Handy", "Urlaub auf Trezor"). BIP-85 weist jedem Ziel eine eindeutige seed-Sekundärphrase zu, die leicht zu identifizieren ist und für jedes Gerät separat importiert werden kann.
+- **Szenario**: Sie trennen Ihre Bitcoins für verschiedene Zwecke (z. B. langfristige Ersparnisse, Nicht-KYC-Fonds).
+- **Lösung BIP-85**: Sie erstellen seed sekundäre Phrasen für jedes Ziel.
+- **Vorteil gegenüber BIP-32**: Bei BIP-32 teilen sich alle Konten denselben seed-Satz, was die Verwaltung in Portfolios von Drittanbietern erschwert, da Ableitungspfade wie `m/44'/0'/0'` verwaltet werden müssen. Außerdem ist es nicht möglich, jedem Gerät ein eigenes Konto zuzuweisen (z. B. "Sparen auf Coldcard", "täglich auf Handy", "Urlaub auf Trezor"). BIP-85 weist jedem Ziel eine eindeutige seed-Sekundärphrase zu, die leicht zu identifizieren ist und für jedes Gerät separat importiert werden kann.
 
 
 
@@ -127,9 +127,9 @@ BIP-85 ermöglicht es Ihnen, mehrere Bitcoin-Portfolios aus einem einzigen seed-
 
 
 
-- Szenario**: Sie benötigen ein temporäres Portfolio für eine einmalige Transaktion oder zur Wahrung der Vertraulichkeit (z. B.: Vermischung von Fonds, Interaktion mit einem Exchange KYC usw.).
-- Lösung BIP-85**: Sie erstellen einen seed-Sekundärsatz, verwenden ihn für die Transaktion und vernichten ihn dann, wenn nötig, in dem Wissen, dass er wiederhergestellt werden kann.
-- Vorteil gegenüber BIP-32**: Bei BIP-32 hängt ein temporäres Konto vom seed-Hauptsatz ab, so dass bei einer Kompromittierung alle Ihre Gelder gefährdet sind.
+- **Szenario**: Sie benötigen ein temporäres Portfolio für eine einmalige Transaktion oder zur Wahrung der Vertraulichkeit (z. B.: Vermischung von Fonds, Interaktion mit einem Exchange KYC usw.).
+- **Lösung BIP-85**: Sie erstellen einen seed-Sekundärsatz, verwenden ihn für die Transaktion und vernichten ihn dann, wenn nötig, in dem Wissen, dass er wiederhergestellt werden kann.
+- **Vorteil gegenüber BIP-32**: Bei BIP-32 hängt ein temporäres Konto vom seed-Hauptsatz ab, so dass bei einer Kompromittierung alle Ihre Gelder gefährdet sind.
 
 
 
@@ -141,7 +141,7 @@ BIP-85 ermöglicht es Ihnen, mehrere Bitcoin-Portfolios aus einem einzigen seed-
 
 
 
-- Hardware** (optional)
+- **Hardware** (optional)
  - Coldcard Mk4 oder Q1
  - MicroSD-Karte
 
@@ -158,7 +158,7 @@ BIP-85 ermöglicht es Ihnen, mehrere Bitcoin-Portfolios aus einem einzigen seed-
 
 
 
-- Kompatible** Software
+- **Kompatible** Software
  - Sparrow wallet (Computer, für reine Überwachung oder erweiterte Verwaltung)
  - Nunchuck (mobil, für Mehrfachsignaturen)
  - BlueWallet (mobil)
@@ -168,7 +168,7 @@ BIP-85 ermöglicht es Ihnen, mehrere Bitcoin-Portfolios aus einem einzigen seed-
 
 
 
-- 3.4 Coldcard**-Konfiguration
+- 3.4 **Coldcard-Konfiguration**
  - Initialisieren Sie einen seed-Satz mit 24 Wörtern auf der Coldcard.
  - Optional: Fügen Sie einen passphrase hinzu, um den Zugang zu BIP-85-Zweigstellen zu sichern.
  - Aktivieren Sie nützliche Optionen: NFC (für den Export), USB am Akku deaktivieren (Sicherheit).
@@ -197,7 +197,7 @@ Schalten Sie Ihre Coldcard ein, geben Sie Ihren PIN-Code ein.
 
 
 
-- 1. Wenn Sie einen passphrase an Ihrem Haupt-seed angebracht haben:**
+- 1. Wenn Sie einen passphrase an Ihrem Haupt-seed angebracht haben:
  - Gehen Sie auf dem Startbildschirm zu "passphrase".
     - Wählen Sie "Wort hinzufügen" und geben Sie Ihr Passwort ein.
     - Drücken Sie "Anwenden".
@@ -207,7 +207,7 @@ Schalten Sie Ihre Coldcard ein, geben Sie Ihren PIN-Code ein.
 
 
 
-- 2. Zum Menü BIP-85** gehen
+- 2. Zum Menü **BIP-85** gehen
  - Gehen Sie auf dem Startbildschirm zu "Erweitert > seed B85 ableiten"
  - Lesen Sie die Warnung und bestätigen Sie sie.
 
@@ -246,7 +246,7 @@ Wählen Sie das seed Phrasenformat: 12, 18 oder 24 Wörter. Prüfen Sie die Anza
 
 
 
-- 5. seed Nebensatz notieren oder exportieren**
+- 5. seed Nebensatz notieren oder **exportieren**
 
 
 ColdCard zeigt jetzt einen neuen seed Nebensatz an. Sie können :

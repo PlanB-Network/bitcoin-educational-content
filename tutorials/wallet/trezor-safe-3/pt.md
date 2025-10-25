@@ -271,7 +271,7 @@ O Safe 3 criará a sua frase Mnemonic utilizando o seu gerador de números aleat
 
 
 
-***Obviamente, nunca deve partilhar estas palavras na Internet, como eu faço neste tutorial. Este exemplo Wallet será utilizado apenas no Testnet e será apagado no final do tutorial
+**Obviamente, nunca deve partilhar estas palavras na Internet, como eu faço neste tutorial. Este exemplo Wallet será utilizado apenas no Testnet e será apagado no final do tutorial**
 
 
 

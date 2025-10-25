@@ -1,0 +1,9 @@
+question: Wat is de belangrijkste functie van een Bitcoin knooppunt?
+answer: Blockchain opslaan en transacties en blokken valideren
+wrong_answers:
+  - Privé sleutels opslaan en transacties opbouwen
+  - Nieuwe adressen voor gebruikers aanmaken
+  - Bitcoins omzetten in fiatvaluta's
+explanation: |
+  Een Bitcoin knooppunt onderhoudt een kopie van Blockchain en neemt deel aan het valideren en doorgeven van transacties en blokken.
+reviewed: true

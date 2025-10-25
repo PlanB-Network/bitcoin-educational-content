@@ -166,7 +166,7 @@ V kurzech jsou nejdůležitější části představeny jedním znakem Hash, zat
 
 
 
-Dbejte na to, abyste před nadpisem NIKDY neodstraňovali znaky Hash**, jinak způsobíte problémy se strukturou textu.
+Dbejte na to, abyste před nadpisem NIKDY neodstraňovali znaky **Hash**, jinak způsobíte problémy se strukturou textu.
 
 
 Zároveň **nezměňte** část chapterID, kterou vidíte na obrázku výše, ``<chapterId>d668fdf6-fb4c-4bbf-82e1-afcb95c122e0</chapterId>`` nebo odkazy na video, jako ``:::video id=ba99951f-81d2-418f-b5e7-4b8c9f8b8cc8:::``.
@@ -205,7 +205,7 @@ Níže najdete několik příkladů formátových problémů, na které je třeb
 
 
 
-- Věnujte pozornost podivným interpunkčním znaménkům, jako je `\*\*`` nebo ``**``, která mohou představovat špatné vykreslení tučného symbolu. Na obrázku níže vidíte, že hvězdičky jsou pouze v pravé části slova, což vypadá divně.
+- Věnujte pozornost podivným interpunkčním znaménkům, jako je `**` nebo `**`, která mohou představovat špatné vykreslení tučného symbolu. Na obrázku níže vidíte, že hvězdičky jsou pouze v pravé části slova, což vypadá divně.
 
 
 
@@ -235,7 +235,6 @@ Ujistěte se, že jste zkontrolovali původní jazykový soubor (často EN nebo 
 ![REVIEW](assets/en/11.webp)
 
 
-
 ## Korektury kvízů
 
 
@@ -245,11 +244,20 @@ Věděli jste, že můžete také opravovat kvízové otázky v každém kurzu? 
 Opět se ujistěte, že se nacházíte ve vyhrazené pobočce, kterou jste otevřeli speciálně pro tento účel, a vždy informujte koordinátora.
 
 
-Po přezkoumání otázky se ujistěte, že jste změnili stav "přezkoumáno" z "false" na "true", jak je znázorněno na obrázku níže.
-
+Důležitou věcí, kterou je třeba mít na paměti při korektuře tohoto typu souboru _yml_, je vyhnout se přidávání dvojteček ``:`` uvnitř textu. Dvojtečka se ve skutečnosti **používá** pouze k oddělení dvojic klíč-hodnota, jako je "wrong_answers", od ostatních. Příklad můžete vidět na obrázku níže:
 
 
 ![REVIEW](assets/en/12.webp)
+
+
+Po přezkoumání otázky se ujistěte, že jste změnili stav "přezkoumáno" z "false" na "true", jak je znázorněno na obrázku níže. Ujistěte se, že tato slova o stavu jsou v angličtině, ať už pracujete v jakémkoli jazyce!
+
+
+
+![REVIEW](assets/en/13.webp)
+
+
+Pokud chybí stavový řádek "reviewed:true", nezapomeňte jej **přidat na konec kvízu**.
 
 
 ## Korektury glosáře
@@ -258,7 +266,35 @@ Po přezkoumání otázky se ujistěte, že jste změnili stav "přezkoumáno" z
 Stejně jako u kvízů můžete provést korekturu slovníčku. Původní slovníček byl napsán ve francouzštině, takže v něm najdete věty jako např: "Ve francouzštině lze tento výraz přeložit jako..."
 
 
-V podobných případech upravte tuto větu do cílového jazyka nebo do angličtiny.
+V takových případech větu přizpůsobte cílovému jazyku nebo angličtině. Například můžete napsat "V angličtině je tento výraz...".
+
+Pokud je název ponechán v angličtině, můžete větu přizpůsobit svému jazyku: "Ve svahilštině je tento výraz..."
+
+
+Kromě toho dbejte na to, abyste názvy psali VELKÝMI PÍSMENY.
+
+
+![REVIEW](assets/en/14.webp)
+
+
+## Název a popis vaší PR
+
+
+Při odesílání PR by bylo úžasné, kdybyste jej pojmenovali v tomto formátu: [KOREKTURA] NÁZEV OBSAHU - JAZYK:
+
+
+```
+[PROOFREADING] BTC101 - ENGLISH
+```
+
+
+Kromě toho můžete do části **komentáře k PR** napsat "uzavírá" + číslo problému, které vám koordinátor poslal při zahájení korektury, před které napíšete ``#``.
+
+Pokud jste například právě odeslali PR s korekturou cyp201 + kvízy, můžete napsat "uzavírá [#2934](https://github.com/PlanB-Network/Bitcoin-educational-content/issues/2934)".
+
+
+Tímto způsobem budou PR a problém propojeny a kdokoli bude číst veřejný repozitář Github, může snadno najít informace.
+
 
 
 ## Další osvědčené postupy
@@ -269,7 +305,7 @@ V podobných případech upravte tuto větu do cílového jazyka nebo do anglič
 
 
 
-![REVIEW](assets/en/13.webp)
+![REVIEW](assets/en/15.webp)
 
 
 
@@ -279,27 +315,39 @@ Při použití funkce "nahradit vše" je důležité překontrolovat výsledky, 
 V níže uvedeném příkladu korektor použil výše uvedenou funkci k nahrazení slova "Satoshi" slovem "Satoshi(Sats)" a také změnil odkaz na výukový program obsahující samotné slovo. V důsledku toho se odkaz stal neplatným.
 
 
-Vždy překontrolujte všechny hypertextové odkazy v textu a ujistěte se, že jsou správné.
+Vždy dvakrát zkontrolujte všechny hypertextové odkazy v textu a ujistěte se, že jsou správné.
 
 
 
-![REVIEW](assets/en/14.webp)
-
-
-
-
-- V návaznosti na téma, pokud autor vloží odkaz odkazující na kurz nebo výukový program Plan ₿ Network (**ne** v závorce), webová stránka automaticky vytvoří "kartu" zobrazující související miniaturu. V důsledku toho se vždy ujistěte, že mezi textem a samotným odkazem **je mezera**, jinak se na webu může objevit následující chyba.
-
-
-
-![REVIEW](assets/en/15.webp)
+![REVIEW](assets/en/16.webp)
 
 
 
 
+- V návaznosti na téma, pokud autor vloží odkaz odkazující na kurz nebo výukový program Plan ₿ Network (**ne** v závorce), webová stránka automaticky vytvoří "kartu" zobrazující související miniaturu. V důsledku toho vždy dbejte na to, abyste mezi text a samotný odkaz **vložili nový řádek**, jinak se na webu může objevit následující chyba.
 
-- A konečně, další osvědčený postup, který můžete použít po dokončení korektury a odeslání PR, je vrátit se k původnímu problému otevřenému koordinátorem a napsat komentář "Korektura hotova". **Nezapomeňte tam také vložit odkaz na svůj PR**.
 
+
+![REVIEW](assets/en/17.webp)
+
+
+Totéž se děje s "kódy obrázků", jako je tento ``[IMAGE](asset/fr/001.webp)``: mezi kód obrázku a text vždy přidejte nový řádek. Příklad níže:
+
+
+```
+WRONG CONFIGURATION:
+- to start translating, click on the button `Translate`: ![language](assets/08.webp)
+To save, click on `save`!
+
+
+RIGHT CONFIGURATION:
+
+- to start translating, click on the button `Translate`:
+
+![language](assets/08.webp)
+
+To save, click on `save`!
+```
 
 
 ## Závěr
@@ -309,6 +357,9 @@ Pokud to shrneme, znalost běžných chyb korektorů vám může pomoci zlepšit
 
 
 Vždy mějte na paměti, že tyto kurzy a výukové programy může číst i začátečník, takže je naší povinností zajistit, aby jim plně porozuměl. Jako korektor jste pedagogem!
+
+
+Nyní jste připraveni začít s korekturami kurzů, výukových programů, kvízů a slovníčků. Zůstaňte naladěni a začněte také kontrolovat obrázky a přepisy videí ;)
 
 
 Děkujeme, že jste si přečetli tento návod, a přejeme vám příjemnou cestu za korekturami!

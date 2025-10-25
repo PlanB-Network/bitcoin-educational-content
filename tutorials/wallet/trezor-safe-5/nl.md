@@ -281,7 +281,7 @@ Safe 5 zal uw Mnemonic zin creëren met behulp van de willekeurige nummergenerat
 
 
 
-***Het spreekt voor zich dat je deze woorden nooit mag delen op het Internet, zoals ik doe in deze tutorial. Dit voorbeeld Wallet wordt alleen gebruikt op de Testnet en wordt aan het eind van de tutorial verwijderd
+**Het spreekt voor zich dat je deze woorden nooit mag delen op het Internet, zoals ik doe in deze tutorial. Dit voorbeeld Wallet wordt alleen gebruikt op de Testnet en wordt aan het eind van de tutorial verwijderd**
 
 
 
@@ -433,7 +433,7 @@ Klik op de knop "*Gebonden Hardware Wallet*". Je Safe 5 moet natuurlijk verbonde
 
 
 
-Wanneer u uw Safe 5 aansluit op een computer met Sparrow wallet open, wordt u gevraagd een passphrase BIP39 in te voeren op het Hardware Wallet scherm. Deze geavanceerde optie wordt in een toekomstige tutorial behandeld. Voor nu kun je gewoon op het Green vinkje rechtsboven klikken om te bevestigen dat je een lege passphrase wilt gebruiken (dus zonder passphrase). Om te voorkomen dat je Trezor je elke keer als je opstart vraagt om een passphrase in te voeren, ga je naar Trezor Suite, open je de instellingen en verander je de optie in "*Device*" > "*Wallet default" > "*Wallet standaard*" in "*Standaard*" in plaats van "*passphrase*".
+Wanneer u uw Safe 5 aansluit op een computer met Sparrow wallet open, wordt u gevraagd een passphrase BIP39 in te voeren op het Hardware Wallet scherm. Deze geavanceerde optie wordt in een toekomstige tutorial behandeld. Voor nu kun je gewoon op het Green vinkje rechtsboven klikken om te bevestigen dat je een lege passphrase wilt gebruiken (dus zonder passphrase). Om te voorkomen dat je Trezor je elke keer als je opstart vraagt om een passphrase in te voeren, ga je naar Trezor Suite, open je de instellingen en verander je de optie in **Device** > **Wallet default** > **Wallet standaard** in **Standaard** in plaats van **passphrase**.
 
 
 

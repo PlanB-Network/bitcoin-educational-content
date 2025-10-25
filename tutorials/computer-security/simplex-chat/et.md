@@ -1,5 +1,5 @@
 ---
-name: SimpleX vestlus
+name: SimpleX Chat
 description: Esimene postkast ilma kasutajatunnuseta
 ---
 ![cover](assets/cover.webp)

@@ -1,0 +1,9 @@
+question: 為什麼不建議 Bitcoin 節點使用 HDD？
+answer: 因為它會顯著減緩 IBD 和一般使用
+wrong_answers:
+  - 因為它無法儲存 Blockchain 檔案
+  - 因為它消耗的能量太少，而且有爆炸的危險
+  - 因為它與 Bitcoin core 不相容
+explanation: |
+  機械圓盤會限制效能、大幅延長 IBD，並在節點負載下快速磨損。
+reviewed: true

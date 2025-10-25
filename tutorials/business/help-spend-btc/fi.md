@@ -57,7 +57,7 @@ Tämäntyyppinen alennus on tehokkaampi fyysisissä myymälöissä ja erityisest
 ##### Esimerkki
 
 
-Kaikissa Euroopan maissa kannetaan kulutusveroa, jota kutsutaan englanniksi Value-Added Taxiksi, [VAT] (https://en.wikipedia.org/wiki/Value-added_tax), seuraavasti. Tämä vero keksittiin Ranskassa vuonna 1954, ja vuoteen 1970 mennessä se oli jo alkanut levitä koko alkuperäiseen Euroopan yhteisöön. Vuoteen 2020 mennessä se oli levinnyt suurimpaan osaan maapalloa.
+Kaikki Euroopan maat ovat kulutusveron alaisia, jota englanniksi kutsutaan nimellä "Value-added Tax", jäljempänä [VAT](https://en.wikipedia.org/wiki/Value-added_tax). Tämä vero keksittiin Ranskassa vuonna 1954, ja vuoteen 1970 mennessä se oli jo alkanut levitä alkuperäisessä Euroopan yhteisössä; vuoteen 2020 mennessä se oli levinnyt suureen osaan maailmaa.
 
 
 Tässä esimerkissä oletetaan, että olemme Euroopassa, maassa, jossa arvonlisäverokanta on 20 prosenttia minkä tahansa tavararyhmän osalta. Olemme kenkäkaupassa, ja sanotaan, että nahkakenkäpari maksaa 120 dollaria, jos se maksetaan pankkikortilla.
@@ -126,7 +126,7 @@ Toteutustapa jää kauppiaan valittavaksi, mutta tässä on lyhyesti joitakin k�
 ### BTC-kartta
 
 
-Joka tapauksessa on aina hyvä käytäntö varmistaa, että yrityksesi, jos sillä on fyysinen toimipaikka, on läsnä ja ajan tasalla [BTC Mapissa](https://btcmap.org/map). Useimmat Bitcoin-käyttäjät tuntevat tämän työkalun, ja lähes kaikki ne, jotka ovat käyttäneet Bitcoin:tä fyysisissä liikkeissä, ovat ainakin kerran tarkistaneet, mitkä paikat hyväksyvät ne. Jos haluat oppia lisäämään liikkeesi BTC Mapiin tai haluat lisätietoja, katso tämä opetusohjelma:
+Joka tapauksessa on aina hyvä käytäntö varmistaa, että yrityksesi, jos sillä on fyysinen sijainti, on mukana ja ajan tasalla [BTC Map](https://btcmap.org/map)-palvelussa. Suurin osa bitcoinin käyttäjistä tuntee tämän työkalun, ja lähes kaikki, jotka ovat käyttäneet bitcoineja fyysisissä kaupoissa, ovat tarkistaneet ainakin kerran, mitkä paikat hyväksyvät ne. Jos haluat oppia lisäämään kauppasi BTC Mapiin tai haluat lisätietoja, katso tämä opetusohjelma:
 
 
 https://planb.network/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-f62658f343c6

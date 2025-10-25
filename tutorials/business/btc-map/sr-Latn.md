@@ -1,5 +1,5 @@
 ---
-name: BTC Mapa
+name: BTC Map
 description: Pronađite mesta za trošenje vašeg Sats
 ---
 ![cover](assets/cover.webp)

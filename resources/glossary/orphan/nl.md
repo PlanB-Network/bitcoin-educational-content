@@ -11,4 +11,4 @@ In algemeen gebruik verwijst de term "Orphan block" echter vaak naar een blok zo
 ![](../../dictionnaire/assets/9.webp)
 
 
-> persoonlijk gebruik ik liever de term "Orphan block" om te spreken over een blok zonder ouder en de term "stale block" om te verwijzen naar een blok dat geen kind heeft. Ik vind dit logischer en begrijpelijker, hoewel de meerderheid van de bitcoiners dit gebruik niet volgt.*
+> persoonlijk gebruik ik liever de term "Orphan block" om te spreken over een blok zonder ouder en de term "stale block" om te verwijzen naar een blok dat geen kind heeft. Ik vind dit logischer en begrijpelijker, hoewel de meerderheid van de bitcoiners dit gebruik niet volgt.

@@ -222,7 +222,7 @@ make install
 ![make-lnd](assets/fr/06.webp)
 
 
-- Comprobación de la instalación** (en francés)
+- **Comprobación de la instalación** (en francés)
 
 
 
@@ -298,7 +298,7 @@ Es importante que conozcas la configuración mínima que necesitas para una corr
 Basándonos en el contenido del fichero `~/.LND/LND.conf`, aquí están los detalles de los campos:
 
 
-- noseedbackup**: Permite elegir si deseas que LND realice copias de seguridad automáticas de tus billeteras.  Establecer esta propiedad a `0` te permite guardar manualmente la información de restauración en una ubicación segura elegida personalmente.
+- **noseedbackup**: Permite elegir si deseas que LND realice copias de seguridad automáticas de tus billeteras. Establecer esta propiedad a `0` te permite guardar manualmente la información de restauración en una ubicación segura elegida personalmente.
 
 
 

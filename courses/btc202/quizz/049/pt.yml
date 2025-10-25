@@ -1,0 +1,9 @@
+question: Qual é o valor predefinido do parâmetro dbcache no Bitcoin core?
+answer: 450 MiB
+wrong_answers:
+  - 128 MiB
+  - 1 GiB
+  - 4 GiB
+explanation: |
+  Por defeito, o Bitcoin core atribui 450 MiB (472 MB) à cache.
+reviewed: true

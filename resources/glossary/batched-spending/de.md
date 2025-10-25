@@ -6,4 +6,4 @@ Batched Spending ist eine Ausgabetechnik, die in erster Linie von Unternehmen mi
 
 ![](../../dictionnaire/assets/8.webp)
 
-> ► *Im Französischen kann "batched spending" mit "dépense groupée" übersetzt werden
+> ► *Im Französischen kann "batched spending" mit "dépense groupée" übersetzt werden*

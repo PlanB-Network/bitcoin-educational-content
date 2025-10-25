@@ -18,7 +18,7 @@ Questa frase è quindi l'informazione unica che consente di ripristinare l'acces
 
 È quindi importante salvare questa frase con la massima cura e conservarla in un luogo sicuro, come illustreremo nelle sezioni seguenti.
 
-**La vostra frase mnemonica è quindi esposta a due rischi principali: furto e smarrimento
+**La vostra frase mnemonica è quindi esposta a due rischi principali: furto e smarrimento**
 
 Il furto può avvenire in due modi principali:
 

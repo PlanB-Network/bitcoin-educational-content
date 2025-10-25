@@ -1,14 +1,11 @@
 ---
-name: RGB protokol, od teorije do prakse
+name: RGB programiranje
 goal: Steknite veštine potrebne za razumevanje i korišćenje RGB
-objectives: 
-
-  - Razumeti osnovne koncepte RGB protokola
-  - Savladajte principe obaveza Client-side Validation i Bitcoin
-  - Naučite kako kreirati, upravljati i prenositi RGB ugovore
-  - Kako upravljati Lightning čvorom kompatibilnim sa RGB
-
-
+objectives:
+- Razumeti osnovne koncepte RGB protokola
+- Savladajte principe obaveza Client-side Validation i Bitcoin
+- Naučite kako kreirati, upravljati i prenositi RGB ugovore
+- Kako upravljati Lightning čvorom kompatibilnim sa RGB
 ---
 # Otkriće RGB protokola
 
@@ -41,19 +38,19 @@ Kurs je zasnovan na seminaru uživo koji organizuje Fulgur'Ventures i predaju ga
 Zdravo svima, i dobrodošli na ovaj kurs obuke posvećen RGB, sistemu validiranom na strani klijenta Smart contract koji radi na Bitcoin i Lightning Network. Struktura ovog kursa je dizajnirana da omogući detaljno istraživanje ove složene teme. Evo kako je kurs organizovan:
 
 
-**Section 1: Teorija
+**Section 1: Teorija**
 
 
 Prvi deo je posvećen teorijskim konceptima potrebnim za razumevanje osnova Client-side Validation i RGB. Kao što ćete otkriti u ovom kursu, RGB uvodi niz tehničkih koncepata koji se obično ne viđaju u Bitcoin. U ovom delu ćete takođe pronaći rečnik sa definicijama svih termina specifičnih za RGB protokol.
 
 
-**Section 2: Praksa
+**Section 2: Praksa**
 
 
 Drugi deo će se fokusirati na primenu teorijskih koncepata viđenih u odeljku 1. Naučićemo kako da kreiramo i manipulišemo RGB ugovorima. Takođe ćemo videti kako da programiramo sa ovim alatima. Ova prva dva odeljka predstavlja Maksim Orlovski.
 
 
-**Section 3: Applications
+**Section 3: Applications**
 
 
 Završni deo vodiće drugi govornici koji će predstaviti konkretne aplikacije zasnovane na RGB, kako bi istakli primere iz stvarnog života.
@@ -71,13 +68,13 @@ U ovom kursu, fokusiramo se na drugu nedelju bootcampa, koja se fokusira na RGB.
 **Nedelja 1 - LNP402:**
 
 
-![RGB-Bitcoin](assets/fr/001.webp)
+![RGB-Bitcoin](assets/en/001.webp)
 
 
 **Nedelja 2 - Trenutni trening CSV402:**
 
 
-![RGB-Bitcoin](assets/fr/002.webp)
+![RGB-Bitcoin](assets/en/002.webp)
 
 
 Mnogo hvala organizatorima ovih kurseva uživo i 3 nastavnika koji su učestvovali:
@@ -141,7 +138,7 @@ Posebno, pojam **konsenzusa** u distribuiranom sistemu pokriva dva aspekta:
 
 
 
-- Prepoznavanje validnosti** promena stanja (prema pravilima protokola);
+- Prepoznavanje **validnosti** promena stanja (prema pravilima protokola);
 - **sporazum o redosledu** ovih promena stanja, što onemogućava prepravljanje ili poništavanje validiranih operacija a posteriori (ovo je takođe poznato u Bitcoin kao "zaštita od dvostrukog trošenja").
 
 
@@ -154,7 +151,7 @@ U svetu Blockchain i distribuiranog računarstva, možemo razlikovati dva fundam
 U kontekstu Bitcoin, sigurno ste upoznati sa principima Mining, decentralizacijom i finalnošću transakcija na Blockchain, kao i kako funkcionišu platni kanali. Sa RGB, uvodimo novu paradigmu zvanu **Client-side Validation**, koja, za razliku od Blockchain ili Lightning, podrazumeva lokalno (na strani klijenta) čuvanje i validaciju prelaza stanja Smart contract. Ovo se takođe razlikuje od drugih "DeFi" tehnika (_rollups_, _plasma_, _ARK_, itd.), jer Client-side Validation se oslanja na Blockchain da spreči Double-spending i da ima sistem vremenskog pečatiranja, dok zadržava registar stanja i prelaza off-chain, samo sa uključenim učesnicima.
 
 
-![RGB-Bitcoin](assets/fr/003.webp)
+![RGB-Bitcoin](assets/en/003.webp)
 
 
 Kasnije ćemo takođe uvesti važan termin: pojam "**Stash**", koji se odnosi na skup podataka na strani klijenta potrebnih za očuvanje stanja Contract, jer ti podaci nisu globalno replicirani preko mreže. Na kraju ćemo razmotriti logiku iza RGB, protokola koji koristi Client-side Validation, i zašto dopunjuje postojeće pristupe (Blockchain i state kanale).
@@ -168,9 +165,9 @@ Da bismo razumeli kako Client-side Validation i RGB Address problemi nisu rešen
 
 
 
-- Skalabilnost, Decentralizacija, Privatnost** ;
-- CAP** Teorema (Konzistentnost, Dostupnost, Tolerancija particije) ;
-- CIA** trilema (Poverljivost, Integritet, Dostupnost).
+- **Skalabilnost, Decentralizacija, Privatnost**;
+- **CAP Teorema** (Konzistentnost, Dostupnost, Tolerancija particije);
+- **CIA** trilema (Poverljivost, Integritet, Dostupnost).
 
 
 #### 1. Skalabilnost, decentralizacija i poverljivost
@@ -178,7 +175,7 @@ Da bismo razumeli kako Client-side Validation i RGB Address problemi nisu rešen
 
 
 
-- Blockchain (Bitcoin)**
+- **Blockchain (Bitcoin)**
 
 
 Blockchain je visoko decentralizovan, ali nije veoma skalabilan. Štaviše, pošto je sve u globalnom, javnom registru, poverljivost je ograničena. Možemo pokušati da poboljšamo poverljivost tehnologijama nultog znanja (Confidential Transactions, mimblewimble šeme, itd.), ali javni lanac ne može sakriti grafikon transakcija.
@@ -186,7 +183,7 @@ Blockchain je visoko decentralizovan, ali nije veoma skalabilan. Štaviše, poš
 
 
 
-- Lightning/State channels**
+- **Lightning/State channels**
 
 
 Državni kanali (kao kod Lightning Network) su skalabilniji i privatniji od Blockchain, jer se transakcije odvijaju off-chain. Međutim, obaveza javnog objavljivanja određenih Elements (transakcije finansiranja, topologija mreže) i praćenje mrežnog saobraćaja mogu delimično ugroziti poverljivost. Decentralizacija takođe trpi: rutiranje je intenzivno u pogledu gotovine, a glavni čvorovi mogu postati tačke centralizacije. Ovo je upravo fenomen koji počinjemo da primećujemo na Lightning-u.
@@ -194,13 +191,13 @@ Državni kanali (kao kod Lightning Network) su skalabilniji i privatniji od Bloc
 
 
 
-- Client-side Validation (RGB)**
+- **Client-side Validation (RGB)**
 
 
 Ovaj novi paradigm je još skalabilniji i poverljiviji, jer ne samo da možemo integrisati tehnike dokaza znanja bez otkrivanja, već ne postoji globalni grafikon transakcija, pošto niko ne drži ceo registar. S druge strane, to takođe podrazumeva određeni kompromis u decentralizaciji: izdavalac Smart contract može imati centralnu ulogu (kao "Contract deployer" u Ethereumu). Međutim, za razliku od Blockchain, sa Client-side Validation, skladištite i validirate samo ugovore koji vas interesuju, što poboljšava skalabilnost izbegavanjem potrebe za preuzimanjem i verifikacijom svih postojećih stanja.
 
 
-![RGB-Bitcoin](assets/fr/004.webp)
+![RGB-Bitcoin](assets/en/004.webp)
 
 
 #### 2. CAP Teorem (Konzistentnost, Dostupnost, Tolerancija particionisanja)
@@ -211,7 +208,7 @@ Teorema CAP naglašava da je nemoguće da distribuirani sistem istovremeno zadov
 
 
 
-- Blockchain**
+- **Blockchain**
 
 
 Blockchain favorizuje doslednost i dostupnost, ali se ne snalazi dobro sa particionisanjem mreže: ako ne možete videti blok, ne možete delovati i imati isti pregled kao cela mreža.
@@ -219,7 +216,7 @@ Blockchain favorizuje doslednost i dostupnost, ali se ne snalazi dobro sa partic
 
 
 
-- Munja** (in French)
+- **Munja** (in French)
 
 
 Sistem državnih kanala ima dostupnost i toleranciju particionisanja (pošto dva čvora mogu ostati povezana međusobno čak i ako je mreža fragmentirana), ali ukupna konzistentnost zavisi od otvaranja i zatvaranja kanala na Blockchain.
@@ -227,13 +224,13 @@ Sistem državnih kanala ima dostupnost i toleranciju particionisanja (pošto dva
 
 
 
-- Client-side Validation (RGB)**
+- **Client-side Validation (RGB)**
 
 
 Sistem kao što je RGB nudi konzistentnost (svaki učesnik validira svoje podatke lokalno, bez nejasnoća) i toleranciju particionisanja (podatke čuvate autonomno), ali ne garantuje globalnu dostupnost (svako mora da se pobrine da ima relevantne delove istorije, a neki učesnici možda neće objaviti ništa ili će prestati da dele određene informacije).
 
 
-![RGB-Bitcoin](assets/fr/005.webp)
+![RGB-Bitcoin](assets/en/005.webp)
 
 
 #### 3. CIA trilema (Poverljivost, Integritet, Dostupnost)
@@ -242,7 +239,7 @@ Sistem kao što je RGB nudi konzistentnost (svaki učesnik validira svoje podatk
 Ova trilema nas podseća da poverljivost, integritet i dostupnost ne mogu svi biti optimizovani u isto vreme. Blockchain, Lightning i Client-side Validation se različito uklapaju u ovu ravnotežu. Ideja je da nijedan sistem ne može pružiti sve; neophodno je kombinovati nekoliko pristupa (Blockchain-ovo vremensko označavanje, Lightning-ov sinhroni pristup i lokalnu validaciju sa RGB) kako bi se dobio koherentan paket koji nudi dobre garancije u svakoj dimenziji.
 
 
-![RGB-Bitcoin](assets/fr/006.webp)
+![RGB-Bitcoin](assets/en/006.webp)
 
 
 ### Uloga Blockchain i pojam shardinga
@@ -268,18 +265,18 @@ Stoga možemo zamisliti ekosistem na sledeći način:
 
 
 
-- Blockchain (Bitcoin)** kao osnova koja osigurava potpunu replikaciju minimalnog registra i služi kao vremensko označavanje Layer;
-- Lightning Network** za brzo, Confidential Transactions, i dalje zasnovan na bezbednosti i konačnom poravnanju Bitcoin Blockchain;
-- RGB i Client-side Validation** da dodaju složeniju Smart contract logiku, bez zatrpavanja Blockchain ili gubitka poverljivosti.
+- **Blockchain (Bitcoin)** kao osnova koja osigurava potpunu replikaciju minimalnog registra i služi kao vremensko označavanje Layer;
+- **Lightning Network** za brzo, Confidential Transactions, i dalje zasnovan na bezbednosti i konačnom poravnanju Bitcoin Blockchain;
+- **RGB i Client-side Validation** da dodaju složeniju Smart contract logiku, bez zatrpavanja Blockchain ili gubitka poverljivosti.
 
 
-![RGB-Bitcoin](assets/fr/007.webp)
+![RGB-Bitcoin](assets/en/007.webp)
 
 
 Ova tri Elements formiraju trokutastu celinu, umesto linearnog niza "Layer 2", "Layer 3" i tako dalje. Munja se može direktno povezati sa Bitcoin, ili biti povezana sa Bitcoin transakcijama koje uključuju RGB podatke. Slično tome, "BiFi" upotreba (finansije na Bitcoin) može se kombinovati sa Blockchain, sa Munjom i sa RGB u skladu sa potrebama za poverljivošću, skalabilnošću ili Contract logikom.
 
 
-![RGB-Bitcoin](assets/fr/008.webp)
+![RGB-Bitcoin](assets/en/008.webp)
 
 
 ### Pojam prelaza stanja
@@ -291,7 +288,7 @@ U bilo kom distribuiranom sistemu, cilj mehanizma validacije je da bude u stanju
 Da bismo razumeli kako ova validacija funkcioniše u kontekstu **Bitcoin** i, generalno, da bismo shvatili filozofiju iza Client-side Validation, hajde prvo da se osvrnemo na mehanizme Bitcoin i Blockchain, pre nego što vidimo kako se Client-side Validation razlikuje od njih i koje optimizacije omogućava.
 
 
-![RGB-Bitcoin](assets/fr/009.webp)
+![RGB-Bitcoin](assets/en/009.webp)
 
 
 U slučaju Bitcoin Blockchain, validacija transakcije zasniva se na jednostavnom pravilu:
@@ -304,7 +301,7 @@ U slučaju Bitcoin Blockchain, validacija transakcije zasniva se na jednostavnom
 - Oni skladište ove podatke (u obliku blokova) kako bi se istorija mogla ponovo reprodukovati ako je potrebno.
 
 
-![RGB-Bitcoin](assets/fr/010.webp)
+![RGB-Bitcoin](assets/en/010.webp)
 
 
 Međutim, ovaj model ima dva glavna nedostatka:
@@ -312,11 +309,11 @@ Međutim, ovaj model ima dva glavna nedostatka:
 
 
 
-- Skalabilnost**: pošto svaki čvor mora da obradi, verifikuje i arhivira transakcije svih korisnika, postoji očigledno ograničenje kapaciteta transakcija, posebno povezano sa maksimalnom veličinom bloka (1 MB u proseku na svakih 10 minuta za Bitcoin, isključujući kolačiće);
-- Privatnost**: sve se emituje i skladišti javno (iznosi, odredišne adrese, itd.), što ograničava poverljivost razmena.
+- **Skalabilnost**: pošto svaki čvor mora da obradi, verifikuje i arhivira transakcije svih korisnika, postoji očigledno ograničenje kapaciteta transakcija, posebno povezano sa maksimalnom veličinom bloka (1 MB u proseku na svakih 10 minuta za Bitcoin, isključujući kolačiće);
+- **Privatnost**: sve se emituje i skladišti javno (iznosi, odredišne adrese, itd.), što ograničava poverljivost razmena.
 
 
-![RGB-Bitcoin](assets/fr/012.webp)
+![RGB-Bitcoin](assets/en/012.webp)
 
 
 U praksi, ovaj model funkcioniše za Bitcoin kao osnovu Layer (Layer 1), ali može postati nedovoljan za složenije upotrebe koje istovremeno zahtevaju visok protok transakcija i određeni stepen poverljivosti.
@@ -331,7 +328,7 @@ Client-side Validation se zasniva na suprotnoj ideji: umesto da cela mreža mora
 - Ova sekvenca operacija, od ***Genesis*** (početno izdanje) do najnovije transakcije, formira aciklični usmereni graf (DAG) ili Shard, tj. deo celokupne istorije.
 
 
-![RGB-Bitcoin](assets/fr/013.webp)
+![RGB-Bitcoin](assets/en/013.webp)
 
 
 Istovremeno, tako da ostatak mreže (ili preciznije, osnovni Layer, kao što je Bitcoin) može zaključati konačno stanje bez uvida u detalje ovih podataka, Client-side Validation se oslanja na pojam ***Commitment***.
@@ -362,7 +359,7 @@ U konkretnim terminima, evo kako RGB State Transition funkcioniše:
 - Suprotna strana (primalac) preuzima istoriju sa strane korisnika povezanu sa ovom imovinom i potvrđuje doslednost od kraja do kraja, od Genesis Smart contract do prelaza koji mu šaljete.
 
 
-![RGB-Bitcoin](assets/fr/014.webp)
+![RGB-Bitcoin](assets/en/014.webp)
 
 
 Client-side Validation nudi dve glavne prednosti:
@@ -370,7 +367,7 @@ Client-side Validation nudi dve glavne prednosti:
 
 
 
-- Skalabilnost:**
+- **Skalabilnost:**
 
 
 Obaveze (*commitments*) uključene u Blockchain su male (reda veličine nekoliko desetina bajtova). Ovo osigurava da prostor bloka nije zasićen, jer je potrebno uključiti samo Hash. Takođe omogućava da se off-chain protokol razvija, jer svaki korisnik treba da čuva samo svoj fragment istorije (svoj _stash_).
@@ -378,7 +375,7 @@ Obaveze (*commitments*) uključene u Blockchain su male (reda veličine nekoliko
 
 
 
-- Privatnost :**
+- Privatnost:
 
 
 Transakcije same po sebi (tj. njihov detaljan sadržaj) nisu objavljene On-Chain. Objavljeni su samo njihovi otisci (*Hash*). Dakle, iznosi, adrese i Contract logika ostaju privatni, a primalac može lokalno verifikovati validnost svog Shard pregledom svih prethodnih tranzicija. Nema razloga da primalac učini ove podatke javnim, osim u slučaju spora ili kada je potreban dokaz.
@@ -390,7 +387,7 @@ U sistemu kao što je RGB, više prelaza stanja iz različitih ugovora (ili razl
 U praksi, kada je ova transakcija Bitcoin validirana, ona trajno "zaključava" stanje osnovnih ugovora, jer postaje nemoguće modifikovati Hash već upisan u Blockchain.
 
 
-![RGB-Bitcoin](assets/fr/015.webp)
+![RGB-Bitcoin](assets/en/015.webp)
 
 
 ### Koncept Stash
@@ -399,7 +396,7 @@ U praksi, kada je ova transakcija Bitcoin validirana, ona trajno "zaključava" s
 **Stash** je skup podataka na strani klijenta koje učesnik mora apsolutno zadržati kako bi održao integritet i istoriju RGB Smart contract. Za razliku od Lightning kanala, gde se određena stanja mogu lokalno rekonstruisati iz deljenih informacija, Stash od RGB Contract nije repliciran drugde: ako ga izgubite, niko neće moći da ga obnovi za vas, jer ste vi odgovorni za svoj deo istorije. Zato je potrebno usvojiti sistem sa pouzdanim procedurama za bekap u RGB.
 
 
-![RGB-Bitcoin](assets/fr/016.webp)
+![RGB-Bitcoin](assets/en/016.webp)
 
 
 ### Single-Use Seal: poreklo i rad
@@ -426,13 +423,13 @@ Da bismo sprečili Double-spending od RGB tokena, koristimo mehanizam nazvan "**
 Jednokratne plombe su kriptografski primitivni elementi, koje je 2016. godine predložio Peter Todd, slične konceptu fizičkih plombi: kada se Seal postavi na kontejner, postaje nemoguće otvoriti ga ili izmeniti bez nepovratnog razbijanja Seal.
 
 
-![RGB-Bitcoin](assets/fr/018.webp)
+![RGB-Bitcoin](assets/en/018.webp)
 
 
 Ovaj pristup, prenesen u digitalni svet, omogućava dokazivanje da se niz događaja zaista odigrao i da se više ne može naknadno menjati. Jednokratne plombe tako prevazilaze jednostavnu logiku `Hash + Timestamp`, dodajući pojam Seal koji se može zatvoriti **samo jednom**.
 
 
-![RGB-Bitcoin](assets/fr/017.webp)
+![RGB-Bitcoin](assets/en/017.webp)
 
 
 Da bi jednokratne plombe funkcionisale, potreban vam je medijum za dokazivanje publikacije koji je sposoban da dokaže postojanje ili odsustvo publikacije, i koji je teško (ako ne i nemoguće) falsifikovati kada su informacije već distribuirane. **Blockchain** (kao i Bitcoin) može ispuniti ovu ulogu, kao i papirne novine sa javnom cirkulacijom, na primer. Ideja je sledeća:
@@ -459,9 +456,9 @@ Sledeće poređenje pomaže da se razume ovaj princip:
 
 
 
-- Kriptografski Commitment (Hash)**: Sa funkcijom Hash, možete se obavezati na deo podataka (broj) objavljivanjem njegovog Hash. Podaci ostaju tajni dok ne otkrijete pre-image, ali možete dokazati da ste ih unapred znali;
-- Timestamp (Blockchain)**: Umetanjem ovog Hash u Blockchain, takođe dokazujemo da smo to znali u tačnom trenutku (onog uključivanja u blok);
-- Single-Use Seal**: Sa pečatima za jednokratnu upotrebu, idemo korak dalje čineći Commitment jedinstvenim. Sa jednim Hash, možete stvoriti nekoliko kontradiktornih obaveza paralelno (problem doktora koji objavljuje "*To je dečak*" porodici i "*To je devojčica*" u svom ličnom dnevniku). Single-Use Seal eliminiše ovu mogućnost povezivanjem Commitment sa medijumom za dokazivanje objavljivanja, kao što je Bitcoin Blockchain, tako da trošak UTXO definitivno zapečati Commitment. Jednom potrošen, isti UTXO ne može biti ponovo potrošen da zameni Commitment.
+- **Kriptografski Commitment (Hash)**: Sa funkcijom Hash, možete se obavezati na deo podataka (broj) objavljivanjem njegovog Hash. Podaci ostaju tajni dok ne otkrijete pre-image, ali možete dokazati da ste ih unapred znali;
+- **Timestamp (Blockchain)**: Umetanjem ovog Hash u Blockchain, takođe dokazujemo da smo to znali u tačnom trenutku (onog uključivanja u blok);
+- **Single-Use Seal**: Sa pečatima za jednokratnu upotrebu, idemo korak dalje čineći Commitment jedinstvenim. Sa jednim Hash, možete stvoriti nekoliko kontradiktornih obaveza paralelno (problem doktora koji objavljuje "*To je dečak*" porodici i "*To je devojčica*" u svom ličnom dnevniku). Single-Use Seal eliminiše ovu mogućnost povezivanjem Commitment sa medijumom za dokazivanje objavljivanja, kao što je Bitcoin Blockchain, tako da trošak UTXO definitivno zapečati Commitment. Jednom potrošen, isti UTXO ne može biti ponovo potrošen da zameni Commitment.
 
 
 |                                                                                  | Simple commitment (digest/hash) | Timestamps | Single-use seals |
@@ -482,7 +479,7 @@ Jednokratne plombe funkcionišu u tri glavne faze:
 - Bob prihvata ili priznaje ove uslove.
 
 
-![RGB-Bitcoin](assets/fr/021.webp)
+![RGB-Bitcoin](assets/en/021.webp)
 
 
 **Seal Zatvaranje :**
@@ -494,7 +491,7 @@ Jednokratne plombe funkcionišu u tri glavne faze:
 - Takođe pruža **svedoka** (kriptografski dokaz) koji dokazuje da je Seal zatvoren i neopoziv.
 
 
-![RGB-Bitcoin](assets/fr/019.webp)
+![RGB-Bitcoin](assets/en/019.webp)
 
 
 **Seal Verifikacija :**
@@ -560,7 +557,7 @@ Ova jedinstvenost je važna za Client-side Validation: kada validirate State Tra
 RGB Smart contract možda će morati da potroši nekoliko jednokratnih pečata (nekoliko UTXO-a) istovremeno. Štaviše, jedna Bitcoin transakcija može referencirati nekoliko različitih ugovora, od kojih svaki zapečaćuje svoj State Transition. Ovo zahteva mehanizam **multi-Commitment** da bi se dokazalo, deterministički i jedinstveno, da nijedna od obaveza ne postoji u duplikatu. Tu dolazi do izražaja pojam **Anchor** u RGB: posebna struktura koja povezuje Bitcoin transakciju i jednu ili više klijentskih obaveza (tranzicije stanja), od kojih svaka potencijalno pripada različitom Contract. Detaljnije ćemo razmotriti ovaj koncept u narednom poglavlju.
 
 
-![RGB-Bitcoin](assets/fr/023.webp)
+![RGB-Bitcoin](assets/en/023.webp)
 
 
 Dva glavna GitHub repozitorijuma projekta (pod LNPBP organizacijom) grupišu osnovne implementacije ovih koncepata proučenih u prvom poglavlju:
@@ -568,17 +565,17 @@ Dva glavna GitHub repozitorijuma projekta (pod LNPBP organizacijom) grupišu osn
 
 
 
-- client_side_validation** : Sadrži Rust primitive za lokalnu validaciju ;
-- single_use_seals**: Implementira logiku za definisanje i sigurno zatvaranje ovih pečata.
+- **client_side_validation** : Sadrži Rust primitive za lokalnu validaciju ;
+- **single_use_seals**: Implementira logiku za definisanje i sigurno zatvaranje ovih pečata.
 
 
-![RGB-Bitcoin](assets/fr/020.webp)
+![RGB-Bitcoin](assets/en/020.webp)
 
 
 Imajte na umu da su ovi softverski blokovi agnostički prema Bitcoin; u teoriji, mogli bi se primeniti na bilo koji drugi medij za dokazivanje objavljivanja (drugi registar, časopis, itd.). U praksi, RGB se oslanja na Bitcoin za svoju robusnost i široki konsenzus.
 
 
-![RGB-Bitcoin](assets/fr/021.webp)
+![RGB-Bitcoin](assets/en/021.webp)
 
 
 ### Pitanja iz javnosti
@@ -649,7 +646,7 @@ Da bismo razumeli logiku, prisetimo se osnovnog principa: da bismo zatvorili _je
 
 
 
-- Koristite javni ključ ili Address**
+- Koristite javni ključ ili **Address**
 
 
 Možemo odlučiti da je određeni javni ključ ili Address _jednokratni pečat_. Čim se ovaj ključ ili Address pojavi On-Chain u transakciji, to znači da je Seal zatvoren sa određenom porukom.
@@ -657,7 +654,7 @@ Možemo odlučiti da je određeni javni ključ ili Address _jednokratni pečat_.
 
 
 
-- Koristite izlaz transakcije Bitcoin**
+- Koristite izlaz transakcije **Bitcoin**
 
 
 To znači da je _jednokratni pečat_ definisan kao precizan _outpoint_ (par txid + izlazni broj). Čim je ovaj _outpoint_ potrošen, Seal se zatvara.
@@ -703,13 +700,13 @@ Ova šema je odabrana zbog svoje kompatibilnosti sa RGB arhitekturom, ali druge 
 Kao podsetnik, definisanje _jednokratnog pečata_ ne zahteva nužno objavljivanje On-Chain transakcije. Dovoljno je da, na primer, Alisa već ima neiskorišćen UTXO. Ona može odlučiti: "Ovaj _outpoint_ (već postojeći) je sada moj Seal". Ona to beleži lokalno (_klijent-strana_), i dokle god ovaj UTXO nije potrošen, Seal se smatra otvorenim.
 
 
-![RGB-Bitcoin](assets/fr/024.webp)
+![RGB-Bitcoin](assets/en/024.webp)
 
 
 Na dan kada želi da zatvori Seal (da signalizira događaj, ili da Anchor pošalje određenu poruku), troši ovaj UTXO u novoj transakciji (ova transakcija se često naziva "_witness transaction_" (nije povezano sa _segwit_, to je samo termin koji koristimo). Ova nova transakcija će sadržati _commitment_ na poruku.
 
 
-![RGB-Bitcoin](assets/fr/025.webp)
+![RGB-Bitcoin](assets/en/025.webp)
 
 
 Imajte na umu da u ovom primeru :
@@ -730,19 +727,19 @@ Alice stoga ima specifičan UTXO, sa kojim je određeno stanje ili podaci (pozna
 Alice obaveštava Boba da ako se ovaj UTXO potroši, određeni događaj će se smatrati da se desio. Sa spoljašnje strane, sve što vidimo je Bitcoin transakcija; ali Bob zna da ova potrošnja ima skriveno značenje.
 
 
-![RGB-Bitcoin](assets/fr/026.webp)
+![RGB-Bitcoin](assets/en/026.webp)
 
 
 Kako Alice troši ovaj UTXO, ona zatvara Seal porukom koja ukazuje na njen novi ključ, ili jednostavno opoziv starog. Na ovaj način, svako ko prati On-Chain će videti da je UTXO potrošen, ali samo oni sa punim dokazom će znati da je to upravo opoziv PGP ključa.
 
 
-![RGB-Bitcoin](assets/fr/027.webp)
+![RGB-Bitcoin](assets/en/027.webp)
 
 
 Da bi Bob ili bilo ko drugi umešan mogao da proveri skrivenu poruku, Alisa mora da mu obezbedi off-chain informacije.
 
 
-![RGB-Bitcoin](assets/fr/028.webp)
+![RGB-Bitcoin](assets/en/028.webp)
 
 
 Alice stoga mora obezbediti Bobu:
@@ -754,7 +751,7 @@ Alice stoga mora obezbediti Bobu:
 - Kriptografski dokaz da je poruka bila uključena u transakciju (poznat kao _dodatni dokaz transakcije_ ili _sidro_).
 
 
-![RGB-Bitcoin](assets/fr/029.webp)
+![RGB-Bitcoin](assets/en/029.webp)
 
 
 Treća lica nemaju ove informacije. Oni samo vide da je UTXO potrošen. Povjerljivost je stoga osigurana.
@@ -765,18 +762,18 @@ Da bismo pojasnili strukturu, hajde da sumiramo proces u dve transakcije:
 
 
 
-- Transakcija 1**: Ovo sadrži _definiciju pečata_, tj. _outpoint_ koji će služiti kao Seal.
+- **Transakcija 1**: Ovo sadrži _definiciju pečata_, tj. _outpoint_ koji će služiti kao Seal.
 
 
-![RGB-Bitcoin](assets/fr/031.webp)
+![RGB-Bitcoin](assets/en/031.webp)
 
 
 
 
-- Transakcija 2**: Troši ovaj _outpoint_. Ovo zatvara Seal i, u istoj transakciji, ubacuje _commitment_ na poruku.
+- **Transakcija 2**: Troši ovaj _outpoint_. Ovo zatvara Seal i, u istoj transakciji, ubacuje _commitment_ na poruku.
 
 
-![RGB-Bitcoin](assets/fr/033.webp)
+![RGB-Bitcoin](assets/en/033.webp)
 
 
 Stoga drugi transakciju nazivamo "_witness transaction_".
@@ -787,11 +784,11 @@ Da bismo ovo ilustrovali iz drugog ugla, možemo predstaviti dva sloja:
 
 
 
-- The top Layer (Blockchain, public)**: everyone sees the transaction and knows that a _outpoint_ has been spent;
-- Donji Layer (klijentska strana, privatno)** : samo Alisa (ili osoba na koju se odnosi) zna da ovaj trošak odgovara toj i toj poruci, putem kriptografskog dokaza i poruke koju čuva lokalno.
+- The top Layer (Blockchain, public): everyone sees the transaction and knows that an _outpoint_ has been spent;
+- **Donji Layer (klijentska strana, privatno)**: samo Alisa (ili osoba na koju se odnosi) zna da ovaj trošak odgovara toj i toj poruci, putem kriptografskog dokaza i poruke koju čuva lokalno.
 
 
-![RGB-Bitcoin](assets/fr/034.webp)
+![RGB-Bitcoin](assets/en/034.webp)
 
 
 Ali kada se zatvara Seal, postavlja se pitanje gde bi _commitment_ trebalo umetnuti
@@ -814,22 +811,22 @@ Koji god metod (PkO, TxO2, itd.), _obaveza_ se može umetnuti :
 
 
 
-- U unosu** putem :
-    - Sigtweak** (modifikuje `r` komponentu ECDSA potpisa, slično principu "Sign-to-Contract") ;
-    - Witweak** (podatak _segregated witness_ transakcije je izmenjen).
-- U Izlazu** putem :
-    - Keytweak** (javni ključ primaoca je "prilagođen" sa porukom) ;
-    - Opret** (poruka je postavljena u nepotrošivi izlaz `OP_RETURN`) ;
-    - Tapret** (ili _Taptweak_), koji se oslanja na Taproot da umetne Commitment u skriptni deo Taproot ključa, čime se javni ključ deterministički modifikuje.
+- U unosu putem :
+- **Sigtweak** (modifikuje `r` komponentu ECDSA potpisa, slično principu "Sign-to-Contract");
+- **Witweak** (podatak _segregated witness_ transakcije je izmenjen).
+- U **Izlazu** putem :
+- **Keytweak** (javni ključ primaoca je "prilagođen" sa porukom);
+- **Opret** (poruka je postavljena u nepotrošivi izlaz `OP_RETURN`);
+- **Tapret** (ili _Taptweak_), koji se oslanja na Taproot da umetne Commitment u skriptni deo Taproot ključa, čime se javni ključ deterministički modifikuje.
 
 
-![RGB-Bitcoin](assets/fr/035.webp)
+![RGB-Bitcoin](assets/en/035.webp)
 
 
 Evo detalja o svakoj metodi:
 
 
-![RGB-Bitcoin](assets/fr/038.webp)
+![RGB-Bitcoin](assets/en/038.webp)
 
 
 ***Sig prilagodba (sign-to-Contract) :***
@@ -918,7 +915,7 @@ OP_RETURN   OP_PUSHBYTE_32   <mpc::Commitment>
 Konačna opcija je upotreba **Taproot** (uveden sa BIP341) sa šemom *Tapret*. *Tapret* je složeniji oblik determinističkog Commitment, koji donosi poboljšanja u pogledu otiska na Blockchain i poverljivosti za Contract operacije. Glavna ideja je sakriti Commitment u delu `Script Path Spend` [Taproot transakcije](https://github.com/Bitcoin/bips/blob/master/bip-0341.mediawiki).
 
 
-![RGB-Bitcoin](assets/fr/036.webp)
+![RGB-Bitcoin](assets/en/036.webp)
 
 
 Pre nego što opišemo kako se Commitment ubacuje u Taproot transakciju, pogledajmo **tačan oblik** Commitment, koji mora **imperativno** odgovarati nizu od 64 bajta [konstruisanom](https://github.com/BP-WG/bp-core/blob/master/dbc/src/tapret/mod.rs#L179-L196) na sledeći način:
@@ -962,7 +959,7 @@ Hajde da detaljnije pogledamo svaki od ova dva scenarija.
 U ovom prvom slučaju, počinjemo od Taproot izlaznog ključa (*Taproot Output Key*) `Q` koji sadrži samo interni javni ključ `P` *(Internal Key*), bez pridruženog putanje skripte (*Script Path*):
 
 
-![RGB-Bitcoin](assets/fr/047.webp)
+![RGB-Bitcoin](assets/en/047.webp)
 
 
 
@@ -975,7 +972,7 @@ U ovom prvom slučaju, počinjemo od Taproot izlaznog ključa (*Taproot Output K
 Da biste uključili **Tapret** Commitment, dodajte **Putanju skripte potrošnje** sa **jedinstvenom skriptom**, na sledeći način:
 
 
-![RGB-Bitcoin](assets/fr/048.webp)
+![RGB-Bitcoin](assets/en/048.webp)
 
 
 
@@ -990,10 +987,10 @@ Dokaz o uključenju i jedinstvenosti u Taproot stablu ovde se svodi na jedini in
 #### Integracija Tapret-a u već postojeći Script Path
 
 
-Drugi scenario se odnosi na složeniji `Q` Taproot** izlaz, koji već sadrži nekoliko skripti. Na primer, imamo stablo od 3 skripte:
+Drugi scenario se odnosi na složeniji **Q Taproot** izlaz, koji već sadrži nekoliko skripti. Na primer, imamo stablo od 3 skripte:
 
 
-![RGB-Bitcoin](assets/fr/049.webp)
+![RGB-Bitcoin](assets/en/049.webp)
 
 
 
@@ -1005,7 +1002,7 @@ Drugi scenario se odnosi na složeniji `Q` Taproot** izlaz, koji već sadrži ne
 Da bismo dodali Tapret Commitment, potrebno je umetnuti *nepotrošiv skript* na prvom nivou stabla, pomerajući postojeće skripte jedan nivo niže. Vizuelno, stablo postaje :
 
 
-![RGB-Bitcoin](assets/fr/050.webp)
+![RGB-Bitcoin](assets/en/050.webp)
 
 
 
@@ -1020,19 +1017,19 @@ Prema pravilima Taproot, svaka grana/list mora biti kombinovana prema leksikogra
 
 
 - `tHT` > `tHABC`: Tapret Commitment se pomera desno od drveta. Dokaz jedinstvenosti zahteva samo `tHABC` i `P` ;
-- tHT` < `tHABC`**: Tapret Commitment je postavljen na levoj strani. Da bi se dokazalo da nema drugog Tapret Commitment sa desne strane, `tHAB` i `tHC` moraju biti otkriveni kako bi se pokazalo odsustvo bilo kojeg drugog takvog skripta.
+- **tHT` < `tHABC`**: Tapret Commitment je postavljen na levoj strani. Da bi se dokazalo da nema drugog Tapret Commitment sa desne strane, `tHAB` i `tHC` moraju biti otkriveni kako bi se pokazalo odsustvo bilo kojeg drugog takvog skripta.
 
 
 Vizuelni primer za prvi slučaj (`tHABC < tHT`):
 
 
-![RGB-Bitcoin](assets/fr/051.webp)
+![RGB-Bitcoin](assets/en/051.webp)
 
 
 Primer za drugi slučaj (`tHABC > tHT`):
 
 
-![RGB-Bitcoin](assets/fr/052.webp)
+![RGB-Bitcoin](assets/en/052.webp)
 
 
 #### Optimizacija sa Nonce
@@ -1157,7 +1154,7 @@ Multi Protocol Commitment (MPC) je dizajniran da zadovolji dve potrebe:
 U konkretnim terminima, svaki _transition bundle_ pripada određenom Contract. Sve ove informacije su umetnute u **MPC Tree**, čiji koren (`mpc::Root`) se zatim ponovo hešira da bi se dobio `mpc::Commitment`. Upravo taj poslednji Hash se stavlja u Bitcoin transakciju (_witness transaction_), prema izabranom determinističkom metodu.
 
 
-![RGB-Bitcoin](assets/fr/042.webp)
+![RGB-Bitcoin](assets/en/042.webp)
 
 
 #### MPC Root Hash
@@ -1182,7 +1179,7 @@ gde :
 - `mpc::Root` je koren *MPC stabla*, izračunat prema procesu opisanom u narednom odeljku.
 
 
-![RGB-Bitcoin](assets/fr/044.webp)
+![RGB-Bitcoin](assets/en/044.webp)
 
 
 #### Izgradnja MPC stabla
@@ -1301,7 +1298,7 @@ Da bismo to ilustrovali, zamislimo primer gde je `C=3` (tri ugovora). Njihove po
 Konačni rezultat je **mpc::Root**, zatim `mpc::Commitment`.
 
 
-![RGB-Bitcoin](assets/fr/053.webp)
+![RGB-Bitcoin](assets/en/053.webp)
 
 
 #### Provera MPC osovine
@@ -1313,7 +1310,7 @@ Kada verifikator želi da osigura da je `c_i` Contract (i njegov `BundleId`) ukl
 U primeru, `c_2` verifikatoru je potreban samo međurezultat Hash (`tH_MPC_LEAF(D)`), dva `tH_MPC_BRANCH(...)`, dokaz pozicije `pos(c_2)` i vrednost `cofactor`. Zatim može lokalno rekonstruisati koren, ponovo izračunati `mpc::Commitment` i uporediti ga sa onim zapisanim u Bitcoin transakciji (unutar `Opret` ili `Tapret`).
 
 
-![RGB-Bitcoin](assets/fr/054.webp)
+![RGB-Bitcoin](assets/en/054.webp)
 
 
 Ovaj mehanizam osigurava da :
@@ -1413,7 +1410,7 @@ Treće polje, **ETP**, zavisi od tipa Commitment koji se koristi. Ako je Commitm
 Ovaj dodatni dokaz je suštinski važan jer, za razliku od `Opret`, `Tapret` Commitment je integrisan u strukturu Taproot skripta, što zahteva otkrivanje dela Taproot stabla kako bi se pravilno validirala lokacija *Commitment*.
 
 
-![RGB-Bitcoin](assets/fr/045.webp)
+![RGB-Bitcoin](assets/en/045.webp)
 
 
 **Anchors** stoga obuhvataju sve informacije potrebne za validaciju Bitcoin Commitment u kontekstu RGB. Oni ukazuju na relevantnu transakciju (`txid`) i dokaz pozicioniranja Contract (`MPC Proof`), dok upravljaju dodatnim dokazom (`ETP`) u slučaju `Tapret`. Na ovaj način, Anchor štiti integritet i jedinstvenost stanja off-chain osiguravajući da se ista transakcija ne može reinterpretirati za druge ugovorne podatke.
@@ -1437,7 +1434,7 @@ U ovom poglavlju pokrivamo :
 U praksi, tehnička implementacija je podeljena između nekoliko posvećenih Rust _sanduka_ (u _client_side_validation_, _commit-verify_, _bp_core_, itd.). Osnovne ideje su tu:
 
 
-![RGB-Bitcoin](assets/fr/046.webp)
+![RGB-Bitcoin](assets/en/046.webp)
 
 
 U sledećem poglavlju, pogledaćemo čisto off-chain komponentu RGB, naime Contract logiku. Videćemo kako RGB ugovori, organizovani kao delimično replikovane _konačne automatske mašine_, postižu mnogo veću izražajnost od Bitcoin skripti, dok čuvaju poverljivost svojih podataka.
@@ -1464,7 +1461,7 @@ Cilj RGB je da obezbedi infrastrukturu za implementaciju pametnih ugovora na Bit
 Ova automatizacija postavlja pitanje decentralizacije: kako se možemo osloboditi centralizovanog registra (npr. centralne platforme ili baze podataka) za upravljanje performansama Ownership i Contract? Originalna ideja, koju je preuzeo RGB, jeste povratak na način Ownership poznat kao "instrumenti donosioca". Istorijski gledano, određeni hartije od vrednosti (obveznice, akcije, itd.) su izdavane u obliku donosioca, omogućavajući svakome ko fizički poseduje dokument da ostvaruje svoja prava.
 
 
-![RGB-Bitcoin](assets/fr/055.webp)
+![RGB-Bitcoin](assets/en/055.webp)
 
 
 RGB primenjuje ovaj koncept na digitalni svet: prava (i obaveze) su inkapsulirana u podatke koji se manipulišu off-chain, a status ovih podataka potvrđuju sami učesnici. Ovo omogućava, a priori, mnogo veći stepen poverljivosti i nezavisnosti nego što to nude drugi pristupi zasnovani na javnim registrima.
@@ -1482,7 +1479,7 @@ Smart contract u RGB mogu se posmatrati kao mašine stanja, definisane sa:
 - **Business Logic** (skup pravila), koji opisuje pod kojim uslovima i od strane koga država može biti izmenjena.
 
 
-![RGB-Bitcoin](assets/fr/056.webp)
+![RGB-Bitcoin](assets/en/056.webp)
 
 
 Važno je razumeti da ovi ugovori nisu ograničeni na jednostavan prenos tokena. Oni mogu obuhvatiti širok spektar aplikacija: od tradicionalnih sredstava (tokeni, akcije, obveznice) do složenijih mehanika (prava korišćenja, komercijalni uslovi, itd.). Za razliku od drugih blokčejnova, gde je Contract kod dostupan i izvršiv od strane svih, pristup RGB pristupu deli pristup i znanje o Contract učesnicima ("***Contract učesnici***"). Postoji nekoliko uloga:
@@ -1490,9 +1487,9 @@ Važno je razumeti da ovi ugovori nisu ograničeni na jednostavan prenos tokena.
 
 
 
-- Izdavalac** ili tvorac Contract, koji definiše Genesis od Contract i njegove početne varijable;
+- **Izdavalac** ili tvorac Contract, koji definiše Genesis od Contract i njegove početne varijable;
 - Strane sa pravima** (*Ownership*) ili drugim mogućnostima sprovođenja ;
-- Posmatrači**, potencijalno ograničeni na pregled određenih informacija, ali koji ne mogu pokrenuti izmene.
+- **Posmatrači**, potencijalno ograničeni na pregled određenih informacija, ali koji ne mogu pokrenuti izmene.
 
 
 Ova podela uloga doprinosi otpornosti na cenzuru, osiguravajući da samo ovlašćene osobe mogu komunicirati sa ugovornim stanjem. Takođe daje RGB mogućnost horizontalnog skaliranja: većina validacija se odvija van Blockchain, a samo kriptografski sidra (*commitments*) su upisana na Bitcoin.
@@ -1517,7 +1514,7 @@ U isto vreme, **Contract State** se često razlaže na dve komponente:
 
 
 - A **Global State**: javni deo, potencijalno vidljiv svima (u zavisnosti od konfiguracije);
-- Vlasnička Stanja**: privatni delovi, dodeljeni specifično vlasnicima putem UTXO-a referenciranih u Contract logici.
+- **Vlasnička Stanja**: privatni delovi, dodeljeni specifično vlasnicima putem UTXO-a referenciranih u Contract logici.
 
 
 Kao što ćemo videti u narednim poglavljima, svako ažuriranje statusa (*Contract Operation*) mora se povezati sa Bitcoin _obavezom_ (putem `Opret` ili `Tapret`) i biti u skladu sa *Business Logic* skriptama da bi se smatralo važećim.
@@ -1537,7 +1534,7 @@ U RGB univerzumu, ***Contract Operation*** je bilo koji događaj koji menja Cont
 - Nositelji prava proveravaju lokalno (*client-side*) da li tranzicija odgovara *Schema* i da li je povezana transakcija Bitcoin registrovana kao On-Chain.
 
 
-![RGB-Bitcoin](assets/fr/057.webp)
+![RGB-Bitcoin](assets/en/057.webp)
 
 
 Konačni rezultat je ažurirani Contract, sada sa drugačijim stanjem. Ova tranzicija ne zahteva da cela Bitcoin mreža bude zabrinuta za detalje, jer je samo mali kriptografski otisak ( _commitment_ ) zabeležen u Blockchain. Sekvenca jednokratnih pečata sprečava bilo kakav Double-spending ili dvostruku upotrebu Stanja.
@@ -1556,7 +1553,7 @@ Da bismo ovo stavili u perspektivu, RGB Smart contract počinje sa **Genesis**, 
 - Kada više nema operacija u toku, dostignuto je **Terminalno Stanje**: najnovije i najkompletnije stanje Contract.
 
 
-![RGB-Bitcoin](assets/fr/012.webp)
+![RGB-Bitcoin](assets/en/012.webp)
 
 
 Ova DAG topologija (umesto jednostavnog linearnog lanca) odražava mogućnost da se različiti delovi Contract mogu razvijati paralelno, sve dok se međusobno ne protivreče. RGB zatim vodi računa o izbegavanju bilo kakvih nedoslednosti putem *klijentske* verifikacije svakog uključenog učesnika.
@@ -1570,9 +1567,9 @@ Pametni ugovori u RGB uvode model digitalnih nosilaca instrumenata, decentralizo
 
 
 
-- A **Contract State*, ukazujući trenutnu konfiguraciju Contract (prava, stanja, varijable, itd.);
+- A **Contract State**, ukazujući trenutnu konfiguraciju Contract (prava, stanja, varijable, itd.);
 - A **Business Logic** (*Schema*), definišući koje tranzicije su dozvoljene i kako moraju biti validirane;
-- Contract Operacije**, koje ažuriraju ovo stanje korak po korak, zahvaljujući obavezama usidrenim u Bitcoin transakcijama.
+- **Contract Operacije**, koje ažuriraju ovo stanje korak po korak, zahvaljujući obavezama usidrenim u Bitcoin transakcijama.
 
 
 U narednom poglavlju, detaljnije ćemo razmotriti konkretnu reprezentaciju ovih ***stanja*** i ***tranzicija stanja*** na nivou off-chain, i kako se oni odnose na UTXO-e i Jednokratne Pečate ugrađene u Bitcoin. Ovo će biti prilika da vidimo kako unutrašnji mehanizmi RGB, zasnovani na Client-side Validation, uspevaju da održe konzistentnost pametnih ugovora uz očuvanje poverljivosti podataka.
@@ -1605,7 +1602,7 @@ Da bismo ilustrovali proces *State Transition* (koji je jedna od fundamentalnih 
 Alisa ima ***Stash RGB*** lokalno validiranih podataka (*client-side*). Ovaj Stash se odnosi na jedan od njenih UTXO-a na Bitcoin. To znači da _definicija pečata_ u ovim podacima ukazuje na UTXO koji pripada Alisi. Ideja je omogućiti joj da prenese određena digitalna prava povezana sa sredstvom (npr. RGB tokeni) Bobu.
 
 
-![RGB-Bitcoin](assets/fr/058.webp)
+![RGB-Bitcoin](assets/en/058.webp)
 
 
 **Bob takođe ima UTXO-e :**
@@ -1614,7 +1611,7 @@ Alisa ima ***Stash RGB*** lokalno validiranih podataka (*client-side*). Ovaj Sta
 Bob, s druge strane, ima bar jedan svoj UTXO, bez direktne veze sa Alice-inim. U slučaju da Bob nema UTXO, i dalje je moguće izvršiti prenos na njega koristeći sam *Witness Transaction*: izlaz ove transakcije će tada uključivati Commitment (_commitment_) i implicitno povezati Ownership novog Contract sa Bobom.
 
 
-![RGB-Bitcoin](assets/fr/059.webp)
+![RGB-Bitcoin](assets/en/059.webp)
 
 
 **Izgradnja nove nekretnine (*New State*) :**
@@ -1623,7 +1620,7 @@ Bob, s druge strane, ima bar jedan svoj UTXO, bez direktne veze sa Alice-inim. U
 Bob šalje Alisi informacije kodirane u obliku ***Invoice*** (detaljnije ćemo razmotriti konstrukciju Invoice u kasnijim poglavljima), tražeći od nje da kreira novo stanje koje se pridržava pravila Contract. Ovo stanje će uključivati novi *Seal Definition* koji pokazuje na jedan od Bobovih UTXO-a. Na ovaj način, Bob dobija Ownership sredstava definisanih u ovom novom stanju, na primer određenu količinu RGB tokena.
 
 
-![RGB-Bitcoin](assets/fr/060.webp)
+![RGB-Bitcoin](assets/en/060.webp)
 
 
 **Priprema uzorka transakcije:**
@@ -1650,7 +1647,7 @@ Pre nego što emituje transakciju, Alisa šalje Bobu ***Consignment*** koji sadr
 Ako je Bob zadovoljan, može dati svoje odobrenje (na primer, potpisivanjem *Consignment*). Alice tada može emitovati pripremljenu uzorak transakciju. Kada bude potvrđena, ovo zatvara Seal koji je prethodno držala Alice i formalizuje Ownership od strane Boba. Anti-Double-spending sigurnost se zatim zasniva na istom mehanizmu kao u Bitcoin: UTXO se troši, dokazujući da Alice više ne može ponovo da ga koristi.
 
 
-![RGB-Bitcoin](assets/fr/061.webp)
+![RGB-Bitcoin](assets/en/061.webp)
 
 
 Nova država sada referencira Bobov UTXO, dajući Bobu Ownership koji je prethodno držala Alisa. Izlaz Bitcoin gde su podaci RGB usidreni postaje neopoziv dokaz prenosa Ownership.
@@ -1659,7 +1656,7 @@ Nova država sada referencira Bobov UTXO, dajući Bobu Ownership koji je prethod
 Primer minimalnog DAG-a (*Directed Acyclic Graph*), koji se sastoji od dve Contract operacije (**Genesis** pa ***State Transition***), može ilustrovati kako se RGB stanje (*klijent-strana* Layer, u crvenoj boji) povezuje sa Bitcoin Blockchain (*Commitment* Layer, u narandžastoj boji).
 
 
-![RGB-Bitcoin](assets/fr/062.webp)
+![RGB-Bitcoin](assets/en/062.webp)
 
 
 Pokazuje da Genesis definiše Seal (*Seal Definition*), zatim *State Transition* zatvara ovaj Seal kako bi kreirao novi u drugom UTXO.
@@ -1672,17 +1669,17 @@ U ovom kontekstu, evo nekoliko podsetnika o terminologiji:
 
 - An ***Assignment*** kombinuje :
     - A ***Seal Definition*** (koji ukazuje na UTXO);
-    - Owned States**, tj. podaci povezani sa Ownership (na primer, količina prenetih tokena).
+- **Owned States**, tj. podaci povezani sa Ownership (na primer, količina prenetih tokena).
 - **Global State** objedinjuje opšte osobine Contract, vidljive svima, i osigurava globalnu doslednost evolucija.
 
 
-Prelazi stanja**, opisani u prethodnom poglavlju, predstavljaju glavni oblik Contract Operation. Oni se odnose na jedno ili više prethodnih stanja (iz Genesis ili drugog State Transition) i ažuriraju ih u novo stanje.
+Prelazi stanja, opisani u prethodnom poglavlju, predstavljaju glavni oblik **Contract Operation**. Oni se odnose na jedno ili više prethodnih stanja (iz Genesis ili drugog State Transition) i ažuriraju ih u novo stanje.
 
 
-![RGB-Bitcoin](assets/fr/063.webp)
+![RGB-Bitcoin](assets/en/063.webp)
 
 
-Ovaj dijagram pokazuje kako se u *State Transition Bundle* nekoliko pečata može zatvoriti u jednoj uzorkovanoj transakciji, dok se istovremeno otvaraju novi pečati. Zaista, zanimljiva karakteristika RGB protokola je njegova sposobnost skaliranja: nekoliko tranzicija može biti agregirano u Transition Bundle, pri čemu je svaka agregacija povezana sa različitim listom *MPC stabla* (jedinstveni identifikator paketa). Zahvaljujući *Deterministic Bitcoin Commitment* (DBC) mehanizmu, cela poruka se ubacuje u `Tapret` ili `Opret` izlaz, dok se zatvaraju prethodni pečati i moguće definišu novi. `Anchor* služi kao direktna veza između Commitment pohranjenog u Blockchain i Client-side Validation strukture (*klijent-strana*).
+Ovaj dijagram pokazuje kako se u *State Transition Bundle* nekoliko pečata može zatvoriti u jednoj uzorkovanoj transakciji, dok se istovremeno otvaraju novi pečati. Zaista, zanimljiva karakteristika RGB protokola je njegova sposobnost skaliranja: nekoliko tranzicija može biti agregirano u Transition Bundle, pri čemu je svaka agregacija povezana sa različitim listom *MPC stabla* (jedinstveni identifikator paketa). Zahvaljujući *Deterministic Bitcoin Commitment* (DBC) mehanizmu, cela poruka se ubacuje u `Tapret` ili `Opret` izlaz, dok se zatvaraju prethodni pečati i moguće definišu novi. **Anchor** služi kao direktna veza između Commitment pohranjenog u Blockchain i Client-side Validation strukture (*klijent-strana*).
 
 
 U narednim poglavljima, pogledaćemo sve komponente i procese uključene u izgradnju i validaciju State Transition. Većina ovih Elements su deo RGB konsenzusa, implementiranog u **RGB Core Library**.
@@ -1746,15 +1743,15 @@ Prelazi stanja se stoga mogu koristiti za prenos Ownership sredstva sa jedne oso
 
 
 
-- State Transition** ;
-- Genesis** ;
-- State Extension**.
+- **State Transition**;
+- **Genesis**;
+- State **Extension**.
 
 
 Među njima, **Genesis** i **State Extension** se ponekad nazivaju "*Operacije generisanja stanja*", jer kreiraju nova stanja bez trenutnog zatvaranja bilo kojeg. Ovo je veoma važna tačka: **Genesis** i **State Extension** ne uključuju zatvaranje Seal. Umesto toga, oni definišu novi Seal, koji zatim mora biti potrošen od strane narednog **State Transition** da bi bio zaista validiran u istoriji Blockchain.
 
 
-![RGB-Bitcoin](assets/fr/064.webp)
+![RGB-Bitcoin](assets/en/064.webp)
 
 
 **Aktivno stanje** Contract često se definiše kao skup najnovijih stanja koja proizlaze iz istorije (DAG) transakcija, počevši od Genesis i prateći sve anker tačke u Bitcoin Blockchain. Bilo koja stara stanja koja su već zastarela (tj. povezana sa potrošenim UTXO-ima) više se ne smatraju aktivnim, ali ostaju ključna za proveru konzistentnosti istorije.
@@ -1792,7 +1789,7 @@ Proširenja države** nude originalnu funkciju za pametne ugovore. Omogućavaju 
 Tehnički gledano, State Extension referiše na *Redeem* (određeni tip RGB unosa) koji odgovara prethodno definisanom *Valency* (na primer, u Genesis ili drugom State Transition). On definiše novi Seal, dostupan osobi ili stanju koje od njega ima koristi. Da bi ovaj Seal postao efektivan, mora biti potrošen od strane narednog State Transition.
 
 
-![RGB-Bitcoin](assets/fr/065.webp)
+![RGB-Bitcoin](assets/en/065.webp)
 
 
 Na primer: Genesis stvara pravo izdavanja (*Valency*). Ovo pravo može biti iskorišćeno od strane ovlašćenog aktera, koji zatim gradi State Extension :
@@ -1873,11 +1870,11 @@ Elements **Nove Države** su :
 
 
 
-- Assignments**, u kojima su definisani :
+- **Assignments**, u kojima su definisani :
  - **Seal Definition**;
  - **Owned State**.
 - **Global State**, koji se može modifikovati ili obogatiti;
-- Valencies**, possibly defined in a State Transition or Genesis.
+- **Valencies**, possibly defined in a State Transition or Genesis.
 
 
 **Stara država** se referencira putem :
@@ -1885,8 +1882,8 @@ Elements **Nove Države** su :
 
 
 
-- Ulazi**, koji ukazuju na *Zadatke* prethodnih prelaza stanja (nisu prisutni u Genesis);
-- Iskupljenja**, koja se odnose na prethodno definisane Valencije (samo u državnim ekstenzijama).
+- **Ulazi**, koji ukazuju na *Zadatke* prethodnih prelaza stanja (nisu prisutni u Genesis);
+- **Iskupljenja**, koja se odnose na prethodno definisane Valencije (samo u državnim ekstenzijama).
 
 
 Pored toga, Contract Operation uključuje opštija polja specifična za operaciju:
@@ -1920,13 +1917,13 @@ An RGB Contract je zatim identifikovan pomoću `ContractId`, izvedenog iz Genesi
 
 
 
-- Jedan Global State**: ovo je javni, globalni deo Contract, vidljiv svima;
-- Jedna ili više Vlasničkih Država**: svaki Owned State je povezan sa jedinstvenim Seal (i stoga sa UTXO na Bitcoin). Pravi se razlika između:
+- **Jedan Global State**: ovo je javni, globalni deo Contract, vidljiv svima;
+- Jedna ili više **Vlasničkih Država**: svaki Owned State je povezan sa jedinstvenim Seal (i stoga sa UTXO na Bitcoin). Pravi se razlika između:
     - **Javne** Države u vlasništvu,
     - **Privatno** Vlasničke Države.
 
 
-![RGB-Bitcoin](assets/fr/066.webp)
+![RGB-Bitcoin](assets/en/066.webp)
 
 
 *Global State* je direktno uključen u *Contract Operation* kao jedan blok. *Vlasničke države* su definisane u svakom *Assignment*, zajedno sa *Seal Definition*.
@@ -1937,8 +1934,8 @@ Glavna karakteristika RGB je način na koji se Global State i Owned States modif
 
 
 
-- Promenljiv**: kada je element stanja opisan kao promenljiv, svaka nova operacija zamenjuje prethodno stanje novim stanjem. Stari podaci se tada smatraju zastarelim;
-- Akumuliranje**: kada je element stanja definisan kao akumulirajući, svaka nova operacija dodaje nove informacije prethodnom stanju, bez prepisivanja. Rezultat je neka vrsta akumulirane istorije.
+- **Promenljiv**: kada je element stanja opisan kao promenljiv, svaka nova operacija zamenjuje prethodno stanje novim stanjem. Stari podaci se tada smatraju zastarelim;
+- **Akumuliranje**: kada je element stanja definisan kao akumulirajući, svaka nova operacija dodaje nove informacije prethodnom stanju, bez prepisivanja. Rezultat je neka vrsta akumulirane istorije.
 
 
 Ako, u Contract, element stanja nije definisan kao promenljiv ili kumulativan, ovaj element će ostati prazan za naredne operacije (drugim rečima, nema novih verzija za ovo polje). To je Contract Schema (tj. kodirani Business Logic) koji određuje da li je stanje (Globalno ili Vlasničko) promenljivo, kumulativno ili fiksno. Kada je Genesis definisan, ova svojstva se mogu menjati samo ako to Contract sam dozvoljava, na primer putem specifičnog State Extension.
@@ -2009,7 +2006,7 @@ Ovaj Global State može biti postavljen na javne resurse (web stranice, IPFS, No
 Jedna od velikih snaga RGB leži u sposobnosti da po volji otkrije (*reveal*) ili sakrije (*conceal*) polja *Seal Definition* i *Owned State*. Ovo nudi moćnu kombinaciju poverljivosti i selektivnosti. Na primer, možete dokazati da je tranzicija validna bez otkrivanja svih podataka, tako što ćete osobama koje treba da je validiraju pružiti otkrivenu verziju, dok treće strane vide samo skrivenu verziju (Hash). U praksi, `OpId` tranzicije se uvek izračunava iz *skrivenih* podataka.
 
 
-![RGB-Bitcoin](assets/fr/067.webp)
+![RGB-Bitcoin](assets/en/067.webp)
 
 
 #### Seal Definition
@@ -2020,20 +2017,20 @@ Jedna od velikih snaga RGB leži u sposobnosti da po volji otkrije (*reveal*) il
 
 
 
-- txptr**: ovo je referenca na UTXO na Bitcoin :
+- **txptr**: ovo je referenca na UTXO na Bitcoin :
     - U slučaju **Genesis Seal**, direktno ukazuje na postojeći UTXO (onaj povezan sa Genesis);
     - U slučaju **Graf Seal**, možemo imati :
         - Jednostavan `txid`, ako ukazuje na određeni UTXO,
         - Ili `WitnessTx`, koji označava samoreferencu: Seal upućuje na samu transakciju. Ovo je posebno korisno kada nije dostupan spoljašnji UTXO, na primer u transakcijama otvaranja Lightning kanala, ili ako primalac nema UTXO.
-- vout** : izlazni broj transakcije označen `txptr`. Prisutan samo za standardni Graph Seal (ne za `WitnessTx`);
-- zaslepljivanje**: nasumičan broj od 8 bajtova, za jačanje poverljivosti i sprečavanje pokušaja brutalne sile na identitet UTXO;
-- method** : označava korišćeni metod ankerisanja (`Tapret` ili `Opret`).
+- **vout** : izlazni broj transakcije označen `txptr`. Prisutan samo za standardni Graph Seal (ne za `WitnessTx`);
+- **zaslepljivanje**: nasumičan broj od 8 bajtova, za jačanje poverljivosti i sprečavanje pokušaja brutalne sile na identitet UTXO;
+- **method** : označava korišćeni metod ankerisanja (`Tapret` ili `Opret`).
 
 
 Skrivena forma Seal Definition je SHA256 Hash (označena) od konkatenacije ova 4 polja, sa oznakom specifičnom za RGB.
 
 
-![RGB-Bitcoin](assets/fr/068.webp)
+![RGB-Bitcoin](assets/en/068.webp)
 
 
 #### Vlasničke Države
@@ -2044,8 +2041,8 @@ Druga komponenta *Assignment* je Owned State. Za razliku od Global State, može 
 
 
 
-- Javni Owned State**: svi znaju podatke povezane sa Seal. Na primer, javna slika;
-- Privatno Owned State**: podaci su skriveni, poznati samo vlasniku (i potencijalno validatoru ako je potrebno). Na primer, broj tokena koji se drže.
+- **Javni Owned State**: svi znaju podatke povezane sa Seal. Na primer, javna slika;
+- **Privatno Owned State**: podaci su skriveni, poznati samo vlasniku (i potencijalno validatoru ako je potrebno). Na primer, broj tokena koji se drže.
 
 
 RGB definiše četiri moguća tipa stanja (*StateTypes*) za Owned State:
@@ -2053,9 +2050,9 @@ RGB definiše četiri moguća tipa stanja (*StateTypes*) za Owned State:
 
 
 
-- Deklarativno**: ne sadrži numeričke podatke, samo deklarativno pravo (npr. pravo glasa). Skriveni i otkriveni oblici su identični;
-- Fungible**: predstavlja fungibilnu količinu (kao tokeni). U otkrivenom obliku, imamo `amount` i `blinding`. U skrivenom obliku, imamo jedan *Pedersen commitment* koji skriva količinu i zaslepljivanje;
-- Struktuirano**: čuva strukturirane podatke (do 64 kB). U otkrivenom obliku, to je podatkovni blok. U skrivenom obliku, to je označeni Hash ovog bloka:
+- **Deklarativno**: ne sadrži numeričke podatke, samo deklarativno pravo (npr. pravo glasa). Skriveni i otkriveni oblici su identični;
+- **Fungible**: predstavlja fungibilnu količinu (kao tokeni). U otkrivenom obliku, imamo `amount` i `blinding`. U skrivenom obliku, imamo jedan *Pedersen commitment* koji skriva količinu i zaslepljivanje;
+- **Struktuirano**: čuva strukturirane podatke (do 64 kB). U otkrivenom obliku, to je podatkovni blok. U skrivenom obliku, to je označeni Hash ovog bloka:
 
 
 ```txt
@@ -2073,7 +2070,7 @@ tag_data = urn:lnp-bp:rgb:state-data#2024-02-12
 
 
 
-- Prilozi**: povezuje datoteku (audio, slika, binarno, itd.) sa Owned State, čuvajući datoteku Hash `file_hash`, MIME tip `media type` i kriptografski salt `salt`. Sama datoteka je hostovana na drugom mestu. U skrivenom obliku, to je Hash označen sa tri prethodna podatka:
+- **Prilozi**: povezuje datoteku (audio, slika, binarno, itd.) sa Owned State, čuvajući datoteku Hash `file_hash`, MIME tip `media type` i kriptografski salt `salt`. Sama datoteka je hostovana na drugom mestu. U skrivenom obliku, to je Hash označen sa tri prethodna podatka:
 
 
 ```txt
@@ -2158,7 +2155,7 @@ Polje **Metadata** može biti do 64 KiB i koristi se za uključivanje privremeni
 ### Valencije
 
 
-Valencies** su originalni RGB protokolski mehanizam. Mogu se pronaći u Genesis, Prelazima Stanja ili Proširenjima Stanja. Predstavljaju numerička prava koja mogu biti aktivirana od strane State Extension (putem *Redeems*), a zatim finalizovana naknadnim Prelazom. Svaki Valency je identifikovan `ValencyType` (16 bita). Njegova semantika (pravo ponovnog izdavanja, zamena tokena, pravo spaljivanja, itd.) je definisana u Schema.
+**Valencies** su originalni RGB protokolski mehanizam. Mogu se pronaći u Genesis, Prelazima Stanja ili Proširenjima Stanja. Predstavljaju numerička prava koja mogu biti aktivirana od strane State Extension (putem **Redeems**), a zatim finalizovana naknadnim Prelazom. Svaki Valency je identifikovan `ValencyType` (16 bita). Njegova semantika (pravo ponovnog izdavanja, zamena tokena, pravo spaljivanja, itd.) je definisana u Schema.
 
 
 U konkretnim terminima, mogli bismo zamisliti Genesis koji definiše "pravo na ponovno izdavanje" Valency. State Extension će ga konzumirati (*Redeem*) ako su ispunjeni određeni uslovi, kako bi se uvela nova količina tokena. Zatim, State Transition koji potiče od nosioca tako kreiranog Seal može preneti ove nove tokene.
@@ -2267,17 +2264,17 @@ Jedna od glavnih inovacija RGB je stroga razdvojenost između dva pojma:
 
 
 
-- Validacija**: proveravanje da li State Transition poštuje pravila Contract (Business Logic, istorija, itd.);
+- **Validacija**: proveravanje da li State Transition poštuje pravila Contract (Business Logic, istorija, itd.);
 - **Ownership** (Ownership, ili kontrola): činjenica posedovanja Bitcoin UTXO koja omogućava da se Single-Use Seal potroši (ili zatvori), i tako State Transition da se dogodi.
 
 
-Validacija** se odvija na nivou RGB softverskog steka (biblioteke, *commitments* protokol, itd.). Njena uloga je da osigura poštovanje internih pravila Contract (iznosi, dozvole, itd.). Posmatrači ili drugi učesnici takođe mogu validirati istoriju podataka.
+**Validacija** se odvija na nivou RGB softverskog steka (biblioteke, *commitments* protokol, itd.). Njena uloga je da osigura poštovanje internih pravila Contract (iznosi, dozvole, itd.). Posmatrači ili drugi učesnici takođe mogu validirati istoriju podataka.
 
 
-Ownership**, s druge strane, u potpunosti se oslanja na sigurnost Bitcoin. Posedovanje privatnog ključa UTXO znači kontrolisanje sposobnosti za pokretanje nove tranzicije (zatvaranje Single-Use Seal). Dakle, čak i ako neko može videti ili validirati podatke, ne može promeniti stanje ako ne poseduje dotični UTXO.
+**Ownership**, s druge strane, u potpunosti se oslanja na sigurnost Bitcoin. Posedovanje privatnog ključa UTXO znači kontrolisanje sposobnosti za pokretanje nove tranzicije (zatvaranje Single-Use Seal). Dakle, čak i ako neko može videti ili validirati podatke, ne može promeniti stanje ako ne poseduje dotični UTXO.
 
 
-![RGB-Bitcoin](assets/fr/069.webp)
+![RGB-Bitcoin](assets/en/069.webp)
 
 
 Ovaj pristup ograničava klasične ranjivosti koje se susreću u složenijim blokčejnovima (gde je sav kod Smart contract javan i može ga menjati bilo ko, što je ponekad dovodilo do hakova). Na RGB, napadač ne može jednostavno da interaguje sa stanjem On-Chain, jer je pravo na delovanje na stanju (*Ownership*) zaštićeno Bitcoin Layer.
@@ -2294,8 +2291,8 @@ Pored semantičkog verzionisanja koda, RGB uključuje sistem za evoluciju ili a�
 
 
 
-- Premotaj unapred**
-- Push-back** (na francuskom)
+- Premotaj unapred
+- **Push-back** (na francuskom)
 
 
 Brzo premotavanje unapred se dešava kada prethodno nevažeće pravilo postane važeće. Na primer, ako se Contract razvije da dozvoli novi tip `AssignmentType` ili novo polje :
@@ -2400,8 +2397,8 @@ Ovaj mehanizam obuhvata dve glavne operacije:
 
 
 
-- Commit**: kriptografska funkcija se primenjuje na poruku `m` i nasumičan broj `r` kako bi se proizvelo `C` ;
-- Verifikuj**: koristimo `C`, poruku `m` i vrednost `r` da proverimo da li je ovaj Commitment tačan. Funkcija vraća `True` ili `False`.
+- **Commit**: kriptografska funkcija se primenjuje na poruku `m` i nasumičan broj `r` kako bi se proizvelo `C`;
+- **Verifikuj**: koristimo `C`, poruku `m` i vrednost `r` da proverimo da li je ovaj Commitment tačan. Funkcija vraća `True` ili `False`.
 
 
 Commitment mora poštovati dva svojstva:
@@ -2409,7 +2406,7 @@ Commitment mora poštovati dva svojstva:
 
 
 
-- Vezivanje**: mora biti nemoguće pronaći dve različite poruke koje proizvode isti `C` :
+- **Vezivanje**: mora biti nemoguće pronaći dve različite poruke koje proizvode isti `C` :
 
 
 $$
@@ -2427,7 +2424,7 @@ $$
 
 
 
-- Skrivanje**: znanje o `C` ne sme otkriti sadržaj `m`.
+- **Skrivanje**: znanje o `C` ne sme otkriti sadržaj `m`.
 
 
 U RGB protokolu, Commitment je uključen u Bitcoin transakciju kako bi se dokazalo postojanje određene informacije u datom trenutku, bez otkrivanja same informacije.
@@ -2441,8 +2438,8 @@ U RGB protokolu, Commitment je uključen u Bitcoin transakciju kako bi se dokaza
 
 
 
-- Contract Consignment**: isporučeno od strane *izdavaoca* (Contract izdavalac), uključuje informacije o inicijalizaciji kao što su Schema, Genesis, Interface i Interface Implementation.
-- Transfer Consignment**: isporučeno od strane platioca (*payer*). Sadrži celu istoriju prelaza stanja koja vodi do Terminal Consignment (tj. konačno stanje primljeno od strane platioca).
+- **Contract Consignment**: isporučeno od strane *izdavaoca* (Contract izdavalac), uključuje informacije o inicijalizaciji kao što su Schema, Genesis, Interface i Interface Implementation.
+- **Transfer Consignment**: isporučeno od strane platioca (*payer*). Sadrži celu istoriju prelaza stanja koja vodi do Terminal Consignment (tj. konačno stanje primljeno od strane platioca).
 
 
 Ove pošiljke nisu javno zabeležene na Blockchain; razmenjuju se direktno između zainteresovanih strana putem komunikacionog kanala po njihovom izboru.
@@ -2462,9 +2459,9 @@ A Contract Operation je ažuriranje statusa Contract izvedeno prema pravilima Sc
 
 
 
-- State Transition** ;
-- Genesis** ;
-- State Extension**.
+- **State Transition**;
+- **Genesis**;
+- State **Extension**.
 
 
 Svaka operacija menja stanje dodavanjem ili zamenom određenih podataka (Global State, Owned State...).
@@ -2491,9 +2488,9 @@ Contract Rights odnosi se na različita prava koja mogu biti ostvarena od strane
 
 
 
-- Ownership prava**, povezana sa Ownership određenog UTXO (putem _Definicije Pečata_);
-- Izvršna prava**, tj. sposobnost izgradnje jedne ili više tranzicija (State Transitions) u skladu sa Schema ;
-- Javna prava**, kada Schema ovlašćuje određene javne upotrebe, na primer stvaranje State Extension putem otkupa Valency.
+- **Ownership prava**, povezana sa Ownership određenog UTXO (putem _Definicije Pečata_);
+- **Izvršna prava**, tj. sposobnost izgradnje jedne ili više tranzicija (State Transitions) u skladu sa Schema ;
+- **Javna prava**, kada Schema ovlašćuje određene javne upotrebe, na primer stvaranje State Extension putem otkupa Valency.
 
 
 #### Contract State
@@ -2505,7 +2502,7 @@ Contract State odgovara trenutnom stanju Contract u datom trenutku. Može se sas
 
 
 - **Global State**, koji uključuje javne osobine Contract (postavljene u Genesis ili dodate putem autorizovanih ažuriranja);
-- Owned States**, koje pripadaju specifičnim vlasnicima, identifikovanim po njihovim UTXO-ima.
+- **Owned States**, koje pripadaju specifičnim vlasnicima, identifikovanim po njihovim UTXO-ima.
 
 
 #### Deterministic Bitcoin Commitment - DBC
@@ -2516,8 +2513,8 @@ Deterministic Bitcoin Commitment (DBC) je skup pravila korišćenih za dokazivo 
 
 
 
-- Opret**
-- Tapret**
+- **Opret**
+- **Tapret**
 
 
 Ovi mehanizmi precizno definišu kako je _commitment_ kodiran u izlazu ili strukturi Bitcoin transakcije, kako bi se osiguralo da je ovaj Commitment deterministički sledljiv i proverljiv.
@@ -2765,13 +2762,13 @@ Da sumiramo, svaki Contract se sastoji od :
 
 
 
-- Genesis**, što je početno stanje Contract (i može se uporediti sa posebnom transakcijom koja definiše prvi Ownership nekog sredstva, prava ili bilo kojih drugih parametarskih podataka);
-- Schema**, koji opisuje Contract-ov Business Logic (tipovi podataka, pravila validacije, itd.);
-- Interface**, koji pruža semantički Layer za oba novčanika i ljudske korisnike, pojašnjavajući čitanje i izvršavanje transakcija;
-- Implementacija** Interface, koja premošćuje jaz između Business Logic i prezentacije, kako bi se osiguralo da je definicija Contract u skladu sa korisničkim iskustvom.
+- **Genesis**, što je početno stanje Contract (i može se uporediti sa posebnom transakcijom koja definiše prvi Ownership nekog sredstva, prava ili bilo kojih drugih parametarskih podataka);
+- **Schema**, koji opisuje Contract-ov Business Logic (tipovi podataka, pravila validacije, itd.);
+- **Interface**, koji pruža semantički Layer za oba novčanika i ljudske korisnike, pojašnjavajući čitanje i izvršavanje transakcija;
+- **Implementacija Interface**, koja premošćuje jaz između Business Logic i prezentacije, kako bi se osiguralo da je definicija Contract u skladu sa korisničkim iskustvom.
 
 
-![RGB-Bitcoin](assets/fr/070.webp)
+![RGB-Bitcoin](assets/en/070.webp)
 
 
 Važno je napomenuti da da bi Wallet upravljao RGB sredstvom (bilo da je to fungibilni token ili pravo bilo koje vrste), mora imati sve ove Elements kompajlirane: *Schema*, *Interface*, *Interface Implementation* i *Genesis*. Ovo se prenosi putem ***Contract Consignment***, tj. paketom podataka koji sadrži sve što je potrebno za validaciju klijentske strane Contract.
@@ -2832,7 +2829,7 @@ Schema se može uporediti sa "klasom" u objektno-orijentisanom programiranju (OO
 - Sekvence operacija koje se smatraju validnim: na primer, redosled tranzicija koji treba poštovati ili skup logičkih uslova koji treba da budu zadovoljeni.
 
 
-![RGB-Bitcoin](assets/fr/071.webp)
+![RGB-Bitcoin](assets/en/071.webp)
 
 
 Kada *izdavalac* sredstva na RGB objavi Contract, on obezbeđuje Genesis i Schema povezane s tim. Korisnici ili novčanici koji žele da interaguju sa sredstvom preuzimaju ovaj Schema kako bi razumeli logiku iza Contract, i kako bi kasnije mogli da verifikuju da su tranzicije u kojima će učestvovati legitimne.
@@ -2917,13 +2914,13 @@ Pre nego što zaronimo u kod, vredi se prisetiti opšte strukture RGB Schema. Po
 
 - Mogući `SchemaId` koji ukazuje na korišćenje drugog osnovnog Schema kao šablona;
 - **Global States** i **Owned States** (sa njihovim strogim tipovima) ;
-- Valencije** (ako ih ima);
+- **Valencije** (ako ih ima);
 - **Operacije** (Genesis, State Transitions, State Extensions) koje mogu referencirati ova stanja i valencije;
 - **Strogi tip sistema** korišćen za opisivanje i validaciju podataka;
-- Skripte za validaciju** (pokrenuti putem AluVM).
+- **Skripte za validaciju** (pokrenuti putem AluVM).
 
 
-![RGB-Bitcoin](assets/fr/072.webp)
+![RGB-Bitcoin](assets/en/072.webp)
 
 
 Kod ispod prikazuje kompletnu definiciju Rust Schema. Komentarisaćemo ga deo po deo, prateći anotacije (1) do (9) ispod:
@@ -2996,7 +2993,7 @@ EntryPoint::ValidateTransition(TS_TRANSFER) => LibSite::with(FN_TRANSFER_OFFSET,
 
 
 
-- (1) - Zaglavlje funkcije i PodŠema**
+- (1) - **Zaglavlje funkcije i PodŠema**
 
 
 Funkcija `nia_schema()` vraća `SubSchema`, što ukazuje na to da ovaj Schema može delimično naslediti od generičkijeg Schema. U ekosistemu RGB, ova fleksibilnost omogućava ponovno korišćenje određenih standardnih Elements glavnog Schema, a zatim definisanje pravila specifičnih za dotični Contract. Ovde odlučujemo da ne omogućimo nasleđivanje, pošto će `subset_of` biti `None`.
@@ -3004,7 +3001,7 @@ Funkcija `nia_schema()` vraća `SubSchema`, što ukazuje na to da ovaj Schema mo
 
 
 
-- (2) - Opšte osobine: ffv, subset_of, type_system**
+- (2) - Opšte osobine: **ffv, subset_of, type_system**
 
 
 Svojstvo `ffv` odgovara *fast-forward* verziji Contract. Vrednost `zero!()` ovde označava da smo na verziji 0 ili početnoj verziji ovog Schema. Ako kasnije želite da dodate nove funkcionalnosti (novi tip operacije, itd.), možete povećati ovu verziju kako biste označili promenu konsenzusa.
@@ -3042,7 +3039,7 @@ U `owned_types`, deklarišemo `OS_ASSET`, koji opisuje fungibilno stanje. Korist
 
 
 
-- (5) - Valencije**
+- (5) - **Valencije**
 
 
 Navodimo `valency_types: none!()`, što znači da nema Valencija u ovom Schema, drugim rečima, nema posebnih ili dodatnih prava (kao što su ponovo izdavanje, uslovno spaljivanje, itd.). Ako bi Schema uključivao neka, bila bi navedena u ovom odeljku.
@@ -3097,7 +3094,7 @@ Ovo modelira ponašanje osnovnog transfera, koji troši tokene na UTXO, zatim kr
 
 
 
-- (9) - AluVM skripta i Ulazne Tačke** (na francuskom)
+- (9) - **AluVM skripta i Ulazne Tačke** (na francuskom)
 
 
 Konačno, deklarisali smo skript AluVM (`Script::AluVM(AluScript { ... })`). Ovaj skript sadrži :
@@ -3140,7 +3137,7 @@ Za razliku od Schema, koji je isključivo deklarativan i kompajliran u binarnu d
 - Tumačenje i konstrukcija operacija Contract (Genesis, State Transition, ili State Extension) povezivanjem podataka sa razumljivim nazivima (npr. izvršiti transfer jasno navodeći "iznos" umesto binarnog identifikatora).
 
 
-![RGB-Bitcoin](assets/fr/073.webp)
+![RGB-Bitcoin](assets/en/073.webp)
 
 
 Zahvaljujući Interface, možete, na primer, pisati kod u Wallet koji, umesto da manipuliše poljima, direktno manipuliše oznakama kao što su "broj tokena", "ime sredstva", itd. Na ovaj način, upravljanje Contract postaje intuitivnije. Na ovaj način, upravljanje Contract postaje intuitivnije.
@@ -3154,7 +3151,7 @@ Ova metoda ima mnogo prednosti:
 
 
 
-- Standardizacija:**
+- **Standardizacija:**
 
 
 Isti tip Contract može biti podržan standardnim Interface, deljenim između nekoliko Wallet implementacija. Ovo olakšava kompatibilnost i ponovnu upotrebu koda.
@@ -3162,7 +3159,7 @@ Isti tip Contract može biti podržan standardnim Interface, deljenim između ne
 
 
 
-- Jasna razlika između Schema i Interface:**
+- **Jasna razlika između Schema i Interface:**
 
 
 U dizajnu RGB, Schema (Business Logic) i Interface (prezentacija i manipulacija) su dva nezavisna entiteta. Programeri koji pišu logiku Contract mogu se koncentrisati na Schema, bez brige o ergonomiji ili reprezentaciji podataka, dok drugi tim (ili isti tim, ali u drugom vremenskom okviru) može razvijati Interface.
@@ -3170,7 +3167,7 @@ U dizajnu RGB, Schema (Business Logic) i Interface (prezentacija i manipulacija)
 
 
 
-- Fleksibilna evolucija:**
+- **Fleksibilna evolucija:**
 
 
 Interface se može modifikovati ili dodati nakon što je sredstvo izdato, bez potrebe za promenom samog Contract. Ovo je velika razlika u odnosu na neke On-Chain Smart contract sisteme, gde je Interface (često pomešan sa izvršnim kodom) zamrznut u Blockchain.
@@ -3184,7 +3181,7 @@ Interface se može modifikovati ili dodati nakon što je sredstvo izdato, bez po
 Isti Contract može biti izložen kroz različite Interfejse prilagođene različitim potrebama: jednostavan Interface za krajnjeg korisnika, drugi napredniji za izdavača koji treba da upravlja složenim operacijama konfiguracije. Wallet zatim može izabrati koji Interface da uveze, u zavisnosti od njegove upotrebe.
 
 
-![RGB-Bitcoin](assets/fr/074.webp)
+![RGB-Bitcoin](assets/en/074.webp)
 
 
 U praksi, kada Wallet preuzima RGB Contract (putem `.RGB` ili `.rgba` fajla), takođe uvozi povezani Interface, koji je takođe kompajliran. Tokom izvršavanja, Wallet može, na primer :
@@ -3251,7 +3248,7 @@ Na primer, RGB20 Interface može biti povezan sa **šemom Neinflabilne Imovine (
 - Mogućnost za vlasnika da unese "*gravuru*" u istoriju kako bi dokazao prošli Ownership NFT-a.
 
 
-**RGB25** je hibridni standard koji kombinuje fungibilne i ne-fungibilne aspekte. Dizajniran je za delimično fungibilne asete, kao što je tokenizacija nekretnina, gde želite da podelite imovinu dok zadržavate vezu sa jednim osnovnim asetom (drugim rečima, imate fungibilne delove kuće, povezane sa ne-fungibilnom kućom). Tehnički, ovaj Interface može biti povezan sa **Collectible Fungible Asset* (CFA)** Schema, koji uzima u obzir koncept deljenja dok prati originalni aset.
+**RGB25** je hibridni standard koji kombinuje fungibilne i ne-fungibilne aspekte. Dizajniran je za delimično fungibilne asete, kao što je tokenizacija nekretnina, gde želite da podelite imovinu dok zadržavate vezu sa jednim osnovnim asetom (drugim rečima, imate fungibilne delove kuće, povezane sa ne-fungibilnom kućom). Tehnički, ovaj Interface može biti povezan sa **Collectible Fungible Asset (CFA)** Schema, koji uzima u obzir koncept deljenja dok prati originalni aset.
 
 
 #### Interfejsi u razvoju
@@ -3262,11 +3259,11 @@ Druge interfejse planirane su za specijalizovanije upotrebe, ali još uvek nisu 
 
 
 
-- RGB22**, posvećen digitalnim identitetima, za upravljanje identifikatorima i On-Chain profilima u RGB ekosistemu;
-- RGB23**, za napredno vremensko označavanje, koristeći neke od ideja *Opentimestamps*, ali sa funkcijama za praćenje;
-- RGB24**, koji ima za cilj ekvivalent decentralizovanog sistema domena (DNS) sličnog *Ethereum Name Service* ;
-- RGB26**, dizajniran za upravljanje DAO-ovima (*Decentralized Autonomous Organization*) u složenijem formatu (upravljanje, glasanje, itd.);
-- RGB30**, vrlo sličan RGB20, ali sa posebnom karakteristikom uzimanja u obzir decentralizovanog početnog izdavanja i korišćenja državnih ekstenzija. Ovo bi se koristilo za sredstva čije ponovno izdavanje upravlja nekoliko entiteta, ili su podložna finijim uslovima.
+- **RGB22**, posvećen digitalnim identitetima, za upravljanje identifikatorima i On-Chain profilima u RGB ekosistemu;
+- **RGB23**, za napredno vremensko označavanje, koristeći neke od ideja *Opentimestamps*, ali sa funkcijama za praćenje;
+- **RGB24**, koji ima za cilj ekvivalent decentralizovanog sistema domena (DNS) sličnog *Ethereum Name Service*;
+- **RGB26**, dizajniran za upravljanje DAO-ovima (*Decentralized Autonomous Organization*) u složenijem formatu (upravljanje, glasanje, itd.);
+- **RGB30**, vrlo sličan RGB20, ali sa posebnom karakteristikom uzimanja u obzir decentralizovanog početnog izdavanja i korišćenja državnih ekstenzija. Ovo bi se koristilo za sredstva čije ponovno izdavanje upravlja nekoliko entiteta, ili su podložna finijim uslovima.
 
 
 Naravno, u zavisnosti od datuma na koji konsultujete ovaj kurs, ove interfejse možda već budu operativne i dostupne.
@@ -3667,7 +3664,7 @@ Bob zatim treba da preuzme podatke Contract koji ga zanimaju. Ovi podaci mogu ci
 - **Interface Implementation**, koji konkretno povezuje Schema sa Interface.
 
 
-![RGB-Bitcoin](assets/fr/075.webp)
+![RGB-Bitcoin](assets/en/075.webp)
 
 
 Ukupna veličina je često reda veličine nekoliko kilobajta, jer svaka komponenta obično teži manje od 200 bajtova. Takođe je moguće emitovati ovaj Consignment u Base58, putem kanala otpornih na cenzuru (kao što su Nostr ili putem Lightning Network, na primer), ili kao QR kod.
@@ -3722,7 +3719,7 @@ Na kraju ovog poglavlja detaljnije ćemo pogledati strukturu faktura RGB.
 Generisani Invoice (npr. kao URL: `RGB:2WBcas9.../RGB20/100+utxob:...`) sadrži sve informacije koje su Alisi potrebne za pripremu transfera. Kao i kod Consignment, može biti kompaktno kodiran (Base58 ili neki drugi format) i poslat putem aplikacije za razmenu poruka, e-maila, Nostr...
 
 
-![RGB-Bitcoin](assets/fr/076.webp)
+![RGB-Bitcoin](assets/en/076.webp)
 
 
 #### 6) Priprema transakcije na strani Alice
@@ -3782,7 +3779,7 @@ sig:DbwzvSu4BZU81jEpE9FVZ3xjcyuTKWWy2gmdnaxtACrS
 ```
 
 
-![RGB-Bitcoin](assets/fr/077.webp)
+![RGB-Bitcoin](assets/en/077.webp)
 
 
 #### 9) Opcija: Bob šalje potvrdu nazad Alisi (*platni listić*)
@@ -3819,7 +3816,7 @@ alice$ wallet sign —publish tx.psbt
 ```
 
 
-![RGB-Bitcoin](assets/fr/078.webp)
+![RGB-Bitcoin](assets/en/078.webp)
 
 
 Jednom potvrđeno, ova transakcija označava zaključak prenosa. Bob postaje novi vlasnik sredstva: sada ima Owned State koji pokazuje na UTXO koji on kontroliše, što je dokazano prisustvom Commitment u transakciji.
@@ -3828,7 +3825,7 @@ Jednom potvrđeno, ova transakcija označava zaključak prenosa. Bob postaje nov
 Da rezimiramo, ovde je kompletan proces prenosa:
 
 
-![RGB-Bitcoin](assets/fr/079.webp)
+![RGB-Bitcoin](assets/en/079.webp)
 
 
 ### Prednosti RGB transfera
@@ -3836,7 +3833,7 @@ Da rezimiramo, ovde je kompletan proces prenosa:
 
 
 
-- Poverljivost** :
+- **Poverljivost**:
 
 
 Samo Alice i Bob imaju pristup svim State Transition podacima. Oni Exchange ove informacije izvan Blockchain, putem pošiljki. Kriptografske obaveze u Bitcoin transakciji ne otkrivaju tip imovine ili iznos, što garantuje daleko veću poverljivost od drugih On-Chain token sistema.
@@ -3844,7 +3841,7 @@ Samo Alice i Bob imaju pristup svim State Transition podacima. Oni Exchange ove 
 
 
 
-- Validacija na strani klijenta** :
+- **Validacija na strani klijenta**:
 
 
 Bob može proveriti doslednost prenosa poređenjem *Consignment* sa *sidrima* u Bitcoin Blockchain. Njemu nije potrebna validacija od strane trećih lica. Alisa ne mora objaviti celu istoriju na Blockchain, što smanjuje opterećenje osnovnog protokola i poboljšava poverljivost.
@@ -3852,7 +3849,7 @@ Bob može proveriti doslednost prenosa poređenjem *Consignment* sa *sidrima* u 
 
 
 
-- Pojednostavljena atomskost** :
+- **Pojednostavljena atomskost**:
 
 
 Složene razmene (atomski svopovi između BTC i RGB imovine, na primer) mogu se izvršiti unutar jedne transakcije, izbegavajući potrebu za HTLC ili PTLC skriptama. Ako dogovor nije emitovan, svi mogu ponovo koristiti svoje UTXO na druge načine.
@@ -3874,7 +3871,7 @@ Pre nego što detaljnije pogledamo fakture, evo dijagrama sažetka celokupnog to
 - Potvrda transakcije čini prenos zvaničnim.
 
 
-![RGB-Bitcoin](assets/fr/080.webp)
+![RGB-Bitcoin](assets/en/080.webp)
 
 
 Transfer pokazuje svu moć i fleksibilnost RGB protokola: privatni Exchange, validiran na strani klijenta, minimalno i diskretno usidren na Bitcoin Blockchain, zadržavajući najbolje od sigurnosti protokola (bez rizika od Double-spending). Ovo čini RGB obećavajućim ekosistemom za prenose vrednosti koji su poverljiviji i skalabilniji od On-Chain programabilnih blokčejnova.
@@ -3960,10 +3957,10 @@ Hajde da analiziramo ovaj URL:
 
 
 - `RGB:`** (prefiks): označava vezu koja poziva RGB protokol (analogno `http:` ili `Bitcoin:` u drugim kontekstima);
-- `2WBcas9-yjzEvGufY-9GEgnyMj7-beMNMWA8r-sPHtV1nPU-TMsGMQX`**: predstavlja `ContractId` tokena kojim želite da manipulišete;
-- `/RGB20/100`**: označava da se koristi `RGB20` Interface i da je zatraženo 100 jedinica sredstva. Sintaksa je: `/Interface/amount` ;
+- **`2WBcas9-yjzEvGufY-9GEgnyMj7-beMNMWA8r-sPHtV1nPU-TMsGMQX`**: predstavlja `ContractId` tokena kojim želite da manipulišete;
+- `/RGB20/100`: označava da se koristi `RGB20` Interface i da je zatraženo 100 jedinica sredstva. Sintaksa je: `/Interface/amount` ;
 - `+utxob:`**: specificira da su dodate informacije o primaocu UTXO (ili, preciznije, definicija Single-Use Seal);
-- `egXsFnw-5Eud7WKYn-7DVQvcPbc-rR69YmgmG-veacwmUFo-uMFKFb`**: ovo je *blinded* UTXO (ili Seal Definition). Drugim rečima, Bob je prikrio svoj tačan UTXO, tako da pošiljalac (Alice) ne zna koji je tačan Address. Ona samo zna da postoji važeći Seal koji se odnosi na UTXO kojim upravlja Bob.
+- `egXsFnw-5Eud7WKYn-7DVQvcPbc-rR69YmgmG-veacwmUFo-uMFKFb`: ovo je *blinded* UTXO (ili Seal Definition). Drugim rečima, Bob je prikrio svoj tačan UTXO, tako da pošiljalac (Alice) ne zna koji je tačan Address. Ona samo zna da postoji važeći Seal koji se odnosi na UTXO kojim upravlja Bob.
 
 
 Činjenica da se sve uklapa u jedan URL olakšava život korisniku: jednostavan klik ili skeniranje u Wallet, i operacija je spremna za izvršenje.
@@ -4002,11 +3999,11 @@ Ovde vidimo :
 
 
 
-- `RGB:`**: URL prefiks ;
-- `7BKsac8-beMNMWA8r-3GEprtFh7-bjzEvGufY-aNLuU4nSN-MRsLOIK`**: Contract ID (NFT) ;
-- rGB21**: Interface za nezamenljive asete (NFT) ;
-- `DbwzvSu-4BZU81jEp-...`**: eksplicitna referenca na jedinstveni deo NFT-a, na primer Hash podatkovnog bloba (mediji, metapodaci...);
-- `+utxob:egXsFnw-...`**: the Seal Definition.
+- `RGB:` **URL prefiks** ;
+- `7BKsac8-beMNMWA8r-3GEprtFh7-bjzEvGufY-aNLuU4nSN-MRsLOIK`: **Contract ID (NFT)** ;
+- **rGB21**: Interface za nezamenljive asete (NFT) ;
+- **`DbwzvSu-4BZU81jEp-...`**: eksplicitna referenca na jedinstveni deo NFT-a, na primer Hash podatkovnog bloba (mediji, metapodaci...);
+- **`+utxob:egXsFnw-...`**: the Seal Definition.
 
 
 Ideja je ista: preneti jedinstveni link koji Wallet može interpretirati, jasno identifikujući jedinstvenu imovinu koja se prenosi.
@@ -4034,7 +4031,7 @@ Ovde nalazimo :
 - `+utxob:`: the Seal Definition.
 
 
-Na primer, Wallet bi mogao glasiti: "Zamoljen sam da izvršim operaciju `issue` sa `RGB20` Interface, na takvom i takvom Contract, za 100.000 jedinica, u korist takvog i takvog Single-Use Seal.*"
+Na primer, Wallet bi mogao glasiti: "Zamoljen sam da izvršim operaciju `issue` sa `RGB20` Interface, na takvom i takvom Contract, za 100.000 jedinica, u korist takvog i takvog Single-Use Seal."
 
 
 Sada kada smo pogledali glavni Elements programiranja RGB, provesti ću vas kroz sledeće poglavlje o tome kako izraditi RGB Contract.
@@ -4089,7 +4086,7 @@ rgb
 Pokretanje `RGB` (bez argumenata) prikazuje listu dostupnih pod-komandi, kao što su `interfaces`, `Schema`, `import`, `export`, `issue`, `Invoice`, `transfer`, itd. Možete promeniti lokalni direktorijum za skladištenje (Stash koji sadrži sve logove, šeme i implementacije), izabrati mrežu (Testnet, Mainnet) ili konfigurisati vaš Electrum server.
 
 
-![RGB-Bitcoin](assets/fr/081.webp)
+![RGB-Bitcoin](assets/en/081.webp)
 
 
 #### Prvi pregled kontrola
@@ -4127,7 +4124,7 @@ rgb import interfaces/RGB20.rgb
 ```
 
 
-![RGB-Bitcoin](assets/fr/082.webp)
+![RGB-Bitcoin](assets/en/082.webp)
 
 
 S druge strane, rečeno nam je da nijedan Schema još nije uvezen u softver. Takođe, nema Contract u Stash. Da biste to videli, pokrenite komandu :
@@ -4146,7 +4143,7 @@ git clone https://github.com/RGB-WG/rgb-schemata
 ```
 
 
-![RGB-Bitcoin](assets/fr/083.webp)
+![RGB-Bitcoin](assets/en/083.webp)
 
 
 Ovo spremište sadrži, u svom direktorijumu `src/`, nekoliko Rust datoteka (na primer `nia.rs`) koje definišu šeme (NIA za "*Non Inflatable Asset*", UDA za "*Unique Digital Asset*", itd.). Da biste kompajlirali, možete zatim pokrenuti :
@@ -4172,7 +4169,7 @@ rgb import schemata/NonInflatableAssets.rgb
 ```
 
 
-![RGB-Bitcoin](assets/fr/084.webp)
+![RGB-Bitcoin](assets/en/084.webp)
 
 
 Ovo ga dodaje lokalnom Stash. Ako pokrenemo sledeću komandu, vidimo da se sada pojavljuje Schema:
@@ -4232,7 +4229,7 @@ amount: 100000000 # this is 1 million (we have two digits for cents)
 ```
 
 
-![RGB-Bitcoin](assets/fr/085.webp)
+![RGB-Bitcoin](assets/en/085.webp)
 
 
 Zatim jednostavno pokrenite komandu :
@@ -4243,7 +4240,7 @@ rgb issue '<SchemaID>' ssi:<Issuer> rgb20-demo.yaml
 ```
 
 
-![RGB-Bitcoin](assets/fr/086.webp)
+![RGB-Bitcoin](assets/en/086.webp)
 
 
 U mom slučaju, jedinstveni Schema identifikator (koji treba staviti u jednostruke navodnike) je `RDYhMTR!9gv8Y2GLv9UNBEK1hcrCmdLDFk9Qd5fnO8k` i nisam naveo izdavaoca. Dakle, moja narudžba je :
@@ -4270,7 +4267,7 @@ rgb contracts
 ```
 
 
-![RGB-Bitcoin](assets/fr/087.webp)
+![RGB-Bitcoin](assets/en/087.webp)
 
 
 Zatim, sledeća komanda prikazuje globalna stanja (ime, oznaka, Supply...) i listu Posedovanih Stanja, tj. alokacije (na primer, 1 milion `PBN` tokena definisanih u UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
@@ -4281,7 +4278,7 @@ rgb state '<ContractId>'
 ```
 
 
-![RGB-Bitcoin](assets/fr/088.webp)
+![RGB-Bitcoin](assets/en/088.webp)
 
 
 ### Izvoz, uvoz i validacija
@@ -4295,7 +4292,7 @@ rgb export '<ContractId>' myContractPBN.rgb
 ```
 
 
-![RGB-Bitcoin](assets/fr/089.webp)
+![RGB-Bitcoin](assets/en/089.webp)
 
 
 Datoteku `myContractPBN.RGB` može proslediti drugom korisniku, koji je može dodati svom Stash pomoću komande :
@@ -4328,7 +4325,7 @@ rgb dump
 ```
 
 
-![RGB-Bitcoin](assets/fr/090.webp)
+![RGB-Bitcoin](assets/en/090.webp)
 
 
 Ovo će generate fasciklu sa detaljima celog Stash.
@@ -4348,8 +4345,8 @@ U većini slučajeva, interakcija između učesnika u Contract (npr. Alice i Bob
 
 
 
-- Alice** (izdavalac Invoice) ;
-- Bob** (koji prima i izvršava Invoice).
+- **Alice** (izdavalac Invoice) ;
+- **Bob** (koji prima i izvršava Invoice).
 
 
 Za razliku od drugih ekosistema, RGB Invoice nije ograničen na pojam plaćanja. Može ugraditi bilo koji zahtev povezan sa Contract: opozvati ključ, glasati, kreirati gravuru (*gravura*) na NFT-u, itd. Odgovarajuća operacija može biti opisana u Contract Interface. Odgovarajuća operacija može biti opisana u Contract Interface.
@@ -4478,7 +4475,7 @@ Da bismo kreirali Lightning kanal koji nosi RGB sredstva, potrebna su nam dva El
 U terminima Bitcoin, transakcija finansiranja mora postojati da bi se definisala referenca UTXO, čak i ako sadrži samo malu količinu Sats (svejedno je da li svaki izlaz u budućim Commitment transakcijama ostaje iznad Dust limita). Na primer, Alisa može odlučiti da obezbedi 10k Sats i 500 USDT (izdatih kao RGB sredstvo). Na transakciji finansiranja, dodajemo Commitment (`Opret` ili `Tapret`) koji sidri RGB State Transition.
 
 
-![RGB-Bitcoin](assets/fr/091.webp)
+![RGB-Bitcoin](assets/en/091.webp)
 
 
 Jednom kada je transakcija finansiranja pripremljena (ali još nije emitovana), kreiraju se Commitment transakcije tako da bilo koja strana može jednostrano zatvoriti kanal u bilo kom trenutku. Ove transakcije podsećaju na klasične Lightning Commitment transakcije, osim što dodajemo dodatni izlaz koji sadrži RGB Anchor (OP_RETURN ili Taproot) povezan sa novim State Transition.
@@ -4490,13 +4487,13 @@ RGB State Transition zatim premešta sredstva sa 2/2 Multisig finansiranja na iz
 Commitment Transaction potpisan od strane Alice i poslat Bobu bi stoga izgledao ovako:
 
 
-![RGB-Bitcoin](assets/fr/092.webp)
+![RGB-Bitcoin](assets/en/092.webp)
 
 
 A prateći Commitment Transaction, potpisan od strane Boba i poslat Alisi, izgledaće ovako:
 
 
-![RGB-Bitcoin](assets/fr/093.webp)
+![RGB-Bitcoin](assets/en/093.webp)
 
 
 ### Ažuriranje kanala
@@ -4511,13 +4508,13 @@ Na primer, ako Alisa prenese 30 USDT Bobu u kanalu, novi State Transition će od
 Commitment Transaction potpisan od strane Alice, spreman za distribuciju od strane Boba :
 
 
-![RGB-Bitcoin](assets/fr/094.webp)
+![RGB-Bitcoin](assets/en/094.webp)
 
 
 Commitment Transaction potpisan od strane Boba, spreman za distribuciju od strane Alise :
 
 
-![RGB-Bitcoin](assets/fr/095.webp)
+![RGB-Bitcoin](assets/en/095.webp)
 
 
 ### HTLC upravljanje
@@ -4526,7 +4523,7 @@ Commitment Transaction potpisan od strane Boba, spreman za distribuciju od stran
 U stvarnosti, Lightning Network omogućava da se plaćanja usmeravaju putem više kanala, koristeći HTLCs (*Hashed Time-Locked Contracts*). Isto je i sa RGB: za svako plaćanje u tranzitu kroz kanal, HTLC izlaz se dodaje transakciji koja se izvršava, i RGB alokacija povezana sa ovim HTLC. Dakle, ko god potroši HTLC izlaz (zahvaljujući tajni ili nakon isteka vremenskog zaključavanja) povratiće i Sats i povezane RGB resurse. S druge strane, očigledno je da morate imati dovoljno gotovine na putu u smislu i Sats i RGB resursa.
 
 
-![RGB-Bitcoin](assets/fr/096.webp)
+![RGB-Bitcoin](assets/en/096.webp)
 
 
 Rad RGB na Lightning-u mora se stoga razmatrati paralelno sa radom samog Lightning Network. Ako želite dublje istražiti ovu temu, toplo preporučujem da pogledate ovaj drugi sveobuhvatni kurs obuke:
@@ -4540,7 +4537,7 @@ https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 Konačno, pre nego što pređemo na sledeći deo, želeo bih da vam dam pregled koda korišćenog u RGB. Protokol se zasniva na skupu Rust biblioteka i specifikacija otvorenog koda. Evo pregleda glavnih repozitorijuma i sanduka:
 
 
-![RGB-Bitcoin](assets/fr/097.webp)
+![RGB-Bitcoin](assets/en/097.webp)
 
 
 #### Client-side Validation
@@ -4548,8 +4545,8 @@ Konačno, pre nego što pređemo na sledeći deo, želeo bih da vam dam pregled 
 
 
 
-- Repozitorijum**: [client_side_validation](https://github.com/LNP-BP/client_side_validation)
-- Crates** : [client_side_validation](https://crates.io/crates/client_side_validation), [single_use_seals](https://crates.io/crates/single_use_seals)
+- **Repozitorijum**: [client_side_validation](https://github.com/LNP-BP/client_side_validation)
+- **Crates**: [client_side_validation](https://crates.io/crates/client_side_validation), [single_use_seals](https://crates.io/crates/single_use_seals)
 
 
 Upravljanje validacijom off-chain i logikom jednokratnih zaptivki.
@@ -4560,8 +4557,8 @@ Upravljanje validacijom off-chain i logikom jednokratnih zaptivki.
 
 
 
-- Repozitorijum**: [bp-core](https://github.com/BP-WG/bp-core)
-- Crate**: [bp-dbc](https://crates.io/crates/bp-dbc)
+- **Repozitorijum**: [bp-core](https://github.com/BP-WG/bp-core)
+- **Crate**: [bp-dbc](https://crates.io/crates/bp-dbc)
 
 
 Upravljanje determinističkim sidrenjem u Bitcoin transakcijama (Tapret, OP_RETURN, itd.).
@@ -4572,8 +4569,8 @@ Upravljanje determinističkim sidrenjem u Bitcoin transakcijama (Tapret, OP_RETU
 
 
 
-- Repozitorijum**: [client_side_validation](https://github.com/LNP-BP/client_side_validation)
-- Crate** : [commit_verify](https://crates.io/crates/commit_verify)
+- **Repozitorijum**: [client_side_validation](https://github.com/LNP-BP/client_side_validation)
+- **Crate**: [commit_verify](https://crates.io/crates/commit_verify)
 
 
 Višestruke kombinacije angažmana i integracija sa različitim protokolima.
@@ -4584,9 +4581,9 @@ Višestruke kombinacije angažmana i integracija sa različitim protokolima.
 
 
 
-- Specifikacije**: [website strict-types.org](https://www.strict-types.org/)
-- Repozitorijumi**: [strict-types](https://github.com/strict-types/strict-types), [strict-encoding](https://github.com/strict-types/strict-encoding)
-- Crates** : [strict_types](https://crates.io/crates/strict_types), [strict_encoding](https://crates.io/crates/strict_encoding)
+- **Specifikacije**: [website strict-types.org](https://www.strict-types.org/)
+- **Repozitorijumi**: [strict-types](https://github.com/strict-types/strict-types), [strict-encoding](https://github.com/strict-types/strict-encoding)
+- **Crates**: [strict_types](https://crates.io/crates/strict_types), [strict_encoding](https://crates.io/crates/strict_encoding)
 
 
 Strogi sistem tipizacije i deterministička serijalizacija korišćeni za Client-side Validation.
@@ -4597,8 +4594,8 @@ Strogi sistem tipizacije i deterministička serijalizacija korišćeni za Client
 
 
 
-- Repozitorijum**: [RGB-core](https://github.com/RGB-WG/RGB-core)
-- Crate**: [RGB-core](https://crates.io/crates/RGB-core)
+- **Repozitorijum**: [RGB-core](https://github.com/RGB-WG/RGB-core)
+- **Crate**: [RGB-core](https://crates.io/crates/RGB-core)
 
 
 Jezgro protokola, koje obuhvata glavnu logiku validacije RGB.
@@ -4609,8 +4606,8 @@ Jezgro protokola, koje obuhvata glavnu logiku validacije RGB.
 
 
 
-- Repozitorijum**: [RGB-std](https://github.com/RGB-WG/RGB-std)
-- Crate** : [RGB-std](https://crates.io/crates/RGB-std)
+- **Repozitorijum**: [RGB-std](https://github.com/RGB-WG/RGB-std)
+- **Crate**: [RGB-std](https://crates.io/crates/RGB-std)
 
 
 Standardne implementacije, Stash i Wallet upravljanje.
@@ -4621,8 +4618,8 @@ Standardne implementacije, Stash i Wallet upravljanje.
 
 
 
-- Repozitorijum**: [RGB](https://github.com/RGB-WG/RGB)
-- Crates**: [RGB-CLI](https://crates.io/crates/RGB-CLI), [RGB-Wallet](https://crates.io/crates/RGB-Wallet)
+- **Repozitorijum**: [RGB](https://github.com/RGB-WG/RGB)
+- **Crates**: [RGB-CLI](https://crates.io/crates/RGB-CLI), [RGB-Wallet](https://crates.io/crates/RGB-Wallet)
 
 
 `RGB` CLI i sanduk Wallet, za manipulaciju ugovorima putem komandne linije.
@@ -4633,7 +4630,7 @@ Standardne implementacije, Stash i Wallet upravljanje.
 
 
 
-- Repozitorijum**: [RGB-schemata](https://github.com/RGB-WG/RGB-schemata/)
+- **Repozitorijum**: [RGB-schemata](https://github.com/RGB-WG/RGB-schemata/)
 
 
 Sadrži primere šema (NIA, UDA, itd.) i njihove implementacije.
@@ -4644,9 +4641,9 @@ Sadrži primere šema (NIA, UDA, itd.) i njihove implementacije.
 
 
 
-- Info** : [AluVM.org](https://www.AluVM.org/)
-- Repozitorijumi**: [AluVM-spec](https://github.com/AluVM/AluVM-spec), [alure](https://github.com/AluVM/alure)
-- Crates**: [AluVM](https://crates.io/crates/AluVM), [aluasm](https://crates.io/crates/aluasm)
+- **Info**: [AluVM.org](https://www.AluVM.org/)
+- **Repozitorijumi**: [AluVM-spec](https://github.com/AluVM/AluVM-spec), [alure](https://github.com/AluVM/alure)
+- **Crates**: [AluVM](https://crates.io/crates/AluVM), [aluasm](https://crates.io/crates/aluasm)
 
 
 Virtuelna mašina zasnovana na registru koja se koristi za pokretanje skripti za validaciju.
@@ -4657,7 +4654,7 @@ Virtuelna mašina zasnovana na registru koja se koristi za pokretanje skripti za
 
 
 
-- Repozitorijumi** : [bp-core](https://github.com/BP-WG/bp-core), [bp-std](https://github.com/BP-WG/bp-std), [bp-Wallet](https://github.com/BP-WG/bp-Wallet)
+- **Repozitorijumi**: [bp-core](https://github.com/BP-WG/bp-core), [bp-std](https://github.com/BP-WG/bp-std), [bp-Wallet](https://github.com/BP-WG/bp-Wallet)
 
 
 Dodaci za podršku Bitcoin protokolu (transakcije, zaobilaženja, itd.).
@@ -4668,7 +4665,7 @@ Dodaci za podršku Bitcoin protokolu (transakcije, zaobilaženja, itd.).
 
 
 
-- Repozitorijum**: [UBIDECO](https://github.com/UBIDECO)
+- **Repozitorijum**: [UBIDECO](https://github.com/UBIDECO)
 
 
 Ekosistem povezan sa razvojem otvorenog koda determinističkog tipa.
@@ -4763,7 +4760,7 @@ Kompanija iza Bitmask-a ne ograničava se na jednostavan razvoj Wallet. DIBA nam
 
 - Tržište za razmenu tokena, posebno u obliku **RGB21**;
 - Kompatibilnost sa drugim novčanicima (kao što je *Iris Wallet*);
-- Tehnike grupisanja transfera**, tj. mogućnost uključivanja nekoliko uzastopnih RGB transfera u jednu transakciju.
+- **Tehnike grupisanja transfera**, tj. mogućnost uključivanja nekoliko uzastopnih RGB transfera u jednu transakciju.
 
 
 U isto vreme, radimo na **WebBTC** ili **WebLN** (standardi koji omogućavaju vebsajtovima da traže od Wallet da potpiše Bitcoin ili Lightning transakcije), kao i na mogućnosti da "teleburn" Ordinals unose (ako želimo da repatriramo Ordinals u diskretniji i fleksibilniji RGB format).
@@ -5002,7 +4999,7 @@ git clone https://github.com/RGB-Tools/rgb-lightning-node --recurse-submodules -
 ```
 
 
-![RGB-Bitcoin](assets/fr/098.webp)
+![RGB-Bitcoin](assets/en/098.webp)
 
 
 
@@ -5019,7 +5016,7 @@ cargo install --locked --debug --path .
 ```
 
 
-![RGB-Bitcoin](assets/fr/099.webp)
+![RGB-Bitcoin](assets/en/099.webp)
 
 
 
@@ -5040,7 +5037,7 @@ Da bi funkcionisao, `RGB-lightning-node` daemon zahteva prisustvo i konfiguracij
 
 
 
-- Čvor `bitcoind`**
+- Čvor `bitcoind`
 
 
 Svaka RLN instanca će morati komunicirati sa `bitcoind` kako bi emitovala i pratila svoje On-Chain transakcije. Autentifikacija (login/lozinka) i URL (host/port) će morati biti obezbeđeni za daemon.
@@ -5048,7 +5045,7 @@ Svaka RLN instanca će morati komunicirati sa `bitcoind` kako bi emitovala i pra
 
 
 
-- Indekser** (Electrum ili Esplora)
+- **Indekser** (Electrum ili Esplora)
 
 
 daemon mora biti u mogućnosti da navede i istraži On-Chain transakcije, posebno da pronađe UTXO na kojem je sredstvo usidreno. Moraćete da navedete URL vašeg Electrum servera ili Esplora.
@@ -5056,7 +5053,7 @@ daemon mora biti u mogućnosti da navede i istraži On-Chain transakcije, posebn
 
 
 
-- An RGB** proxy
+- An **RGB** proxy
 
 
 Kao što je viđeno u prethodnim poglavljima, **proxy server** je komponenta (opcionalna, ali visoko preporučena) za pojednostavljenje Exchange *pošiljki* između Lightning vršnjaka. Još jednom, URL mora biti specificiran.
@@ -5071,7 +5068,7 @@ ID-ovi i URL-ovi se unose kada je daemon _otključan_ putem API-ja. Više o tome
 Za jednostavnu upotrebu, postoji skripta `regtest.sh` koja automatski pokreće, putem Dockera, skup servisa: `bitcoind`, `electrs` (indekser), `RGB-proxy-server`.
 
 
-![RGB-Bitcoin](assets/fr/100.webp)
+![RGB-Bitcoin](assets/en/100.webp)
 
 
 Ovo vam omogućava pokretanje lokalnog, izolovanog, unapred konfigurisanog okruženja. Kreira i uništava kontejnere i direktorijume podataka pri svakom ponovnom pokretanju. Počećemo pokretanjem :
@@ -5092,7 +5089,7 @@ Ovaj skript će :
 - Sačekajte dok sve ne bude spremno za korišćenje.
 
 
-![RGB-Bitcoin](assets/fr/101.webp)
+![RGB-Bitcoin](assets/en/101.webp)
 
 
 Zatim ćemo pokrenuti nekoliko RLN čvorova. U posebnim terminalima pokrenite, na primer (za pokretanje 3 RLN čvora) :
@@ -5111,7 +5108,7 @@ rgb-lightning-node dataldk2/ --daemon-listening-port 3003 \
 ```
 
 
-![RGB-Bitcoin](assets/fr/102.webp)
+![RGB-Bitcoin](assets/en/102.webp)
 
 
 
@@ -5141,7 +5138,7 @@ curl -X POST http://localhost:3001/address
 Odgovor će vam pružiti Address.
 
 
-![RGB-Bitcoin](assets/fr/103.webp)
+![RGB-Bitcoin](assets/en/103.webp)
 
 
 Na `bitcoind` Regtestu, kopaćemo nekoliko bitkoina. Pokreni :
@@ -5152,7 +5149,7 @@ Na `bitcoind` Regtestu, kopaćemo nekoliko bitkoina. Pokreni :
 ```
 
 
-![RGB-Bitcoin](assets/fr/104.webp)
+![RGB-Bitcoin](assets/en/104.webp)
 
 
 Pošalji sredstva na čvor Address generisan iznad:
@@ -5163,7 +5160,7 @@ Pošalji sredstva na čvor Address generisan iznad:
 ```
 
 
-![RGB-Bitcoin](assets/fr/105.webp)
+![RGB-Bitcoin](assets/en/105.webp)
 
 
 Zatim iskopaj blok da potvrdiš transakciju:
@@ -5174,7 +5171,7 @@ Zatim iskopaj blok da potvrdiš transakciju:
 ```
 
 
-![RGB-Bitcoin](assets/fr/106.webp)
+![RGB-Bitcoin](assets/en/106.webp)
 
 
 ### Testnet lansiranje (bez Dockera)
@@ -5235,7 +5232,7 @@ http://localhost:3001/createutxos
 ```
 
 
-![RGB-Bitcoin](assets/fr/107.webp)
+![RGB-Bitcoin](assets/en/107.webp)
 
 
 Naravno, možete prilagoditi redosled. Da bismo potvrdili transakciju, mi iskopavamo :
@@ -5263,7 +5260,7 @@ http://localhost:3001/issueassetnia
 ```
 
 
-![RGB-Bitcoin](assets/fr/108.webp)
+![RGB-Bitcoin](assets/en/108.webp)
 
 
 Odgovor uključuje ID novokreirane imovine. Zapamtite da zabeležite ovaj identifikator. U mom slučaju, to je:
@@ -5274,7 +5271,7 @@ rgb:fc7fMj5S-8yz!vIl-260BEhU-Hj1skvM-ZHcjfyz-RTcWc10
 ```
 
 
-![RGB-Bitcoin](assets/fr/109.webp)
+![RGB-Bitcoin](assets/en/109.webp)
 
 
 Zatim ga možete preneti na On-Chain ili ga dodeliti u Lightning kanal. Upravo to ćemo uraditi u sledećem odeljku.
@@ -5301,7 +5298,7 @@ Komanda vraća javni ključ mog čvora br. 2 :
 ```
 
 
-![RGB-Bitcoin](assets/fr/110.webp)
+![RGB-Bitcoin](assets/en/110.webp)
 
 
 Dalje, otvorićemo kanal specificiranjem relevantne imovine (`PBN`). Komanda `/openchannel` vam omogućava da definišete veličinu kanala u satoshijima i odlučite da uključite RGB imovinu. Zavisi od toga šta želite da kreirate, ali u mom slučaju, komanda je :
@@ -5338,7 +5335,7 @@ Saznajte više ovde:
 - `public`: Označava da li kanal treba da bude javan za rutiranje na mreži.
 
 
-![RGB-Bitcoin](assets/fr/111.webp)
+![RGB-Bitcoin](assets/en/111.webp)
 
 
 Da bi se transakcija potvrdila, 6 blokova se rudari:
@@ -5349,7 +5346,7 @@ Da bi se transakcija potvrdila, 6 blokova se rudari:
 ```
 
 
-![RGB-Bitcoin](assets/fr/112.webp)
+![RGB-Bitcoin](assets/en/112.webp)
 
 
 Lightning kanal je sada otvoren i takođe sadrži 500 `PBN` tokena na strani čvora n°1. Ako čvor n°2 želi da primi `PBN` tokene, mora generate i Invoice. Evo kako to uraditi:
@@ -5386,7 +5383,7 @@ lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87e
 ```
 
 
-![RGB-Bitcoin](assets/fr/113.webp)
+![RGB-Bitcoin](assets/en/113.webp)
 
 
 Sada ćemo platiti ovaj Invoice sa prvog čvora, koji drži potreban novac sa `PBN` tokenom:
@@ -5401,7 +5398,7 @@ http://localhost:3001/sendpayment
 ```
 
 
-![RGB-Bitcoin](assets/fr/114.webp)
+![RGB-Bitcoin](assets/en/114.webp)
 
 
 Plaćanje je izvršeno. Ovo se može proveriti izvršavanjem komande :
@@ -5414,7 +5411,7 @@ curl -X 'GET' \
 ```
 
 
-![RGB-Bitcoin](assets/fr/115.webp)
+![RGB-Bitcoin](assets/en/115.webp)
 
 
 Evo kako da implementirate Lightning čvor modifikovan za prenos RGB sredstava. Ova demonstracija se zasniva na :

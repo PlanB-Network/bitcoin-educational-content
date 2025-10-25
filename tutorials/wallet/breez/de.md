@@ -103,9 +103,9 @@ Breez bietet Ihnen drei Optionen:
 
 
 
-- Empfangen Sie per Blitz oder ID** Invoice: generate und Invoice und lassen Sie sich bezahlen.
-- Empfangen Sie über einen Bitcoin Address**: Empfangen Sie Bitcoins mit Transaktionen im Bitcoin Hauptnetzwerk.
-- Bitcoin kaufen**: Breez bietet eine Möglichkeit, Bitcoin direkt aus Fiat-Währungen zu erwerben.
+- Empfangen Sie per Blitz oder ID **Invoice**: generate und Invoice und lassen Sie sich bezahlen.
+- **Empfangen Sie über einen Bitcoin Address**: Empfangen Sie Bitcoins mit Transaktionen im Bitcoin Hauptnetzwerk.
+- **Bitcoin kaufen**: Breez bietet eine Möglichkeit, Bitcoin direkt aus Fiat-Währungen zu erwerben.
 
 
 
@@ -139,9 +139,9 @@ Breez bietet Ihnen drei Optionen für den Versand von Bitcoins.
 
 
 
-- Invoice oder Benutzer-ID** einfügen: Bezahlen Sie einen Lightning Invoice.
-- Verbinden zum Bezahlen**: Erstellen Sie eine Sitzung und laden Sie Ihren Empfänger ein, der Sitzung beizutreten, um ihm Bitcoins zu senden.
-- Senden Sie an BTC Address**: Über das Hauptnetz Bitcoin abwickeln.
+- **Invoice oder Benutzer-ID** einfügen: Bezahlen Sie einen Lightning Invoice.
+- **Verbinden zum Bezahlen**: Erstellen Sie eine Sitzung und laden Sie Ihren Empfänger ein, der Sitzung beizutreten, um ihm Bitcoins zu senden.
+- Senden Sie an **BTC Address**: Über das Hauptnetz Bitcoin abwickeln.
 
 
 
@@ -169,7 +169,7 @@ Sie finden nützliche Dienste direkt in der Anwendung.
 
 
 
-- Podcasts anhören**: Breez ist ein Podcast 2.0-Player, mit dem Sie die Schöpfer, die Sie lieben, mit Bitcoin-Spenden unterstützen können.
+- **Podcasts anhören**: Breez ist ein Podcast 2.0-Player, mit dem Sie die Schöpfer, die Sie lieben, mit Bitcoin-Spenden unterstützen können.
 
 
 Wählen Sie im Menü die Option **Podcasts** und suchen Sie dann nach Ihren Lieblingsautoren, entdecken Sie sie und hören Sie sie an.
@@ -186,7 +186,7 @@ Unterstützen Sie die Arbeit der Autoren, die Sie lieben, durch Spenden.
 
 
 
-- Eine Verkaufsstelle**: Breez passt sich perfekt an Ihr Geschäft an und ermöglicht es Ihnen, innerhalb der Anwendung eine Verkaufsstelle zu betreiben. Sie können das Inventar Ihres Ladens verwalten, Zahlungen von Ihren Kunden entgegennehmen und generate druckbare Rechnungen für jeden getätigten Kauf erstellen. Darüber hinaus können Sie Ihre lokalen Währungen in der Vielzahl der von Breez unterstützten Währungen finden.
+- **Eine Verkaufsstelle**: Breez passt sich perfekt an Ihr Geschäft an und ermöglicht es Ihnen, innerhalb der Anwendung eine Verkaufsstelle zu betreiben. Sie können das Inventar Ihres Ladens verwalten, Zahlungen von Ihren Kunden entgegennehmen und generate druckbare Rechnungen für jeden getätigten Kauf erstellen. Darüber hinaus können Sie Ihre lokalen Währungen in der Vielzahl der von Breez unterstützten Währungen finden.
 
 
 
@@ -210,7 +210,7 @@ Sobald Ihr Inventar vollständig ist, können Sie Ihren Kunden Invoice für dies
 
 
 
-- Zugang zu Diensten von Drittanbietern**: Breez integriert Dienste von Drittanbietern, die es Ihnen ermöglichen, mehr zu unternehmen, ohne das Portfolio verlassen zu müssen. Dazu gehören Bitrefill, LN Markets, Wavlake, Fold, Fixed Float, The Bitcoin Company, Azteco, Boltz, Geyser, Lightsats, SMS Sats, LN.PIZZA, LNCAL.
+- **Zugang zu Diensten von Drittanbietern**: Breez integriert Dienste von Drittanbietern, die es Ihnen ermöglichen, mehr zu unternehmen, ohne das Portfolio verlassen zu müssen. Dazu gehören Bitrefill, LN Markets, Wavlake, Fold, Fixed Float, The Bitcoin Company, Azteco, Boltz, Geyser, Lightsats, SMS Sats, LN.PIZZA, LNCAL.
 
 
 ![apps](assets/fr/16.webp)

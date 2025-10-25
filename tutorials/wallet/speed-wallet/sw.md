@@ -1,5 +1,5 @@
 ---
-name: Kasi ya Wallet
+name: Speed Wallet
 description: Lipa na Exchange katika bitcoins na USDT papo hapo
 ---
 ![cover](assets/cover.webp)
@@ -143,7 +143,7 @@ Kwenye ukurasa wa nyumbani wa **Wallet**, utapata :
 
 
 
-- Kupokea malipo kwa Kasi ya Wallet :**
+- Kupokea malipo kwa Kasi ya Wallet:
 
 
 
@@ -161,7 +161,7 @@ Unaweza pia kutumia Lightning Address yako unapotaka kumpa mtumaji wako wepesi w
 
 
 
-- Tuma bitcoins kwa Kasi ya Wallet** :
+- **Tuma bitcoins kwa Kasi ya Wallet** :
 
 
 
@@ -191,7 +191,7 @@ Chaguo za **Nunua** na **Badilisha** hukuwezesha bitcoins za Exchange kwa sarafu
 
 
 
-- Nunua Bitcoin ukitumia kadi yako ya mkopo**: Kasi ya Wallet hurahisisha kupata Bitcoin kutoka kwa sarafu za malipo unazotumia kila siku. Inajumuisha kijumlishi cha malipo ambacho hukuruhusu kulipa bitcoins kwa kadi yako ya mkopo.
+- **Nunua Bitcoin ukitumia kadi yako ya mkopo**: Kasi ya Wallet hurahisisha kupata Bitcoin kutoka kwa sarafu za malipo unazotumia kila siku. Inajumuisha kijumlishi cha malipo ambacho hukuruhusu kulipa bitcoins kwa kadi yako ya mkopo.
 
 
 
@@ -201,7 +201,7 @@ Chaguo za **Nunua** na **Badilisha** hukuwezesha bitcoins za Exchange kwa sarafu
 
 
 
-- Nunua Bitcoin kutoka kwa fedha zingine za siri**: Unaweza Exchange USDT yako, USDC kwa bitcoins katika Wallet yako na kinyume chake. Kupitia chaguo hili, Speed ​​Wallet hurahisisha mchakato wa kununua na kuuza Bitcoin bila kurejelea majukwaa ya nje ya Exchange. Kwa hivyo unaweza kufanya biashara kwa kiasi kidogo cha satoshi 20,000, karibu $20 kwa kiwango cha sasa, bila kuacha Kasi yako ya Wallet.
+- Nunua Bitcoin kutoka kwa fedha zingine za siri: Unaweza Exchange USDT yako, USDC kwa bitcoins katika Wallet yako na kinyume chake. Kupitia chaguo hili, Speed ​​Wallet hurahisisha mchakato wa kununua na kuuza Bitcoin bila kurejelea majukwaa ya nje ya Exchange. Kwa hivyo unaweza kufanya biashara kwa kiasi kidogo cha satoshi 20,000, karibu $20 kwa kiwango cha sasa, bila kuacha Kasi yako ya Wallet.
 
 
 
@@ -375,25 +375,25 @@ Kwa kulenga malipo, utapata chaguzi zifuatazo:
 
 
 
-- Malipo ya mtandaoni**: Kwa chaguo hili, unaweza kukubali Bitcoin kama njia ya malipo ya bidhaa zako za kidijitali, kupitia viungo vya malipo, ankara na usajili.
+- **Malipo ya mtandaoni**: Kwa chaguo hili, unaweza kukubali Bitcoin kama njia ya malipo ya bidhaa zako za kidijitali, kupitia viungo vya malipo, ankara na usajili.
 
 
 
 
 
-- Malipo kwenye tovuti**: Kukusanya malipo kwenye duka lako.
+- **Malipo kwenye tovuti**: Kukusanya malipo kwenye duka lako.
 
 
 
 
 
-- Malipo ya papo hapo**: Chaguo linalokuruhusu kudhibiti urejeshaji, uondoaji, gharama na hati za malipo ya mfanyakazi moja kwa moja kutoka kwa Speed ​​Business Interface.
+- **Malipo ya papo hapo**: Chaguo linalokuruhusu kudhibiti urejeshaji, uondoaji, gharama na hati za malipo ya mfanyakazi moja kwa moja kutoka kwa Speed ​​Business Interface.
 
 
 
 
 
-- Malipo ya mfumo**: Unganisha akaunti yako ya Kasi ya Biashara kwa zana za nje unazotumia kufanya uhamisho na malipo kwenye mifumo hii.
+- **Malipo ya mfumo**: Unganisha akaunti yako ya Kasi ya Biashara kwa zana za nje unazotumia kufanya uhamisho na malipo kwenye mifumo hii.
 
 
 

@@ -1,5 +1,5 @@
 ---
-name: Wróbel Wallet - Multisig
+name: Sparrow Wallet - Multisig
 description: Utwórz portfolio z wieloma podpisami w Sparrow
 ---
 ![cover](assets/cover.webp)

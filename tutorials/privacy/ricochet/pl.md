@@ -1,11 +1,11 @@
 ---
-name: Rykoszet
+name: Ricochet
 description: Zrozumienie i korzystanie z transakcji Ricochet
 ---
 ![cover ricochet](assets/cover.webp)
 
 
-***OSTRZEŻENIE:** Po aresztowaniu założycieli Samourai Wallet i zajęciu ich serwerów 24 kwietnia, narzędzie Ricochet nie jest już dostępne. Możliwe jest jednak, że narzędzie to zostanie przywrócone w nadchodzących tygodniach. W międzyczasie rykoszet można wykonać tylko ręcznie. Teoretyczna część tego artykułu pozostaje istotna, aby zrozumieć jego działanie i dowiedzieć się, jak wykonać go ręcznie
+**OSTRZEŻENIE:** Po aresztowaniu założycieli Samourai Wallet i zajęciu ich serwerów 24 kwietnia, narzędzie Ricochet nie jest już dostępne. Możliwe jest jednak, że narzędzie to zostanie przywrócone w nadchodzących tygodniach. W międzyczasie rykoszet można wykonać tylko ręcznie. Teoretyczna część tego artykułu pozostaje istotna, aby zrozumieć jego działanie i dowiedzieć się, jak wykonać go ręcznie
 
 
 uważnie śledzimy rozwój tej sprawy, a także rozwój związany z powiązanymi narzędziami. Zapewniamy, że będziemy aktualizować ten poradnik w miarę pojawiania się nowych informacji

@@ -18,11 +18,11 @@ Bạn đã có:
 Trong hướng dẫn này, chúng ta sẽ xem cách thêm hướng dẫn của bạn vào Plan ₿ Network bằng phiên bản web của GitHub. Nếu bạn đã thành thạo Git, hướng dẫn rất chi tiết này có thể không cần thiết đối với bạn. Thay vào đó, tôi khuyên bạn nên xem một trong 2 hướng dẫn khác này, trong đó tôi trình bày chi tiết các hướng dẫn cần tuân theo và các bước thực hiện thay đổi từ bản địa phương:
 
 
-- Người dùng có kinh nghiệm**:
+- **Người dùng có kinh nghiệm**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
-- Trung cấp (GitHub Desktop)**:
+- **Trung cấp (GitHub Desktop)**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
@@ -346,8 +346,8 @@ Dấu chấm than ở đầu chỉ ra một hình ảnh. Văn bản thay thế, 
 Nếu bạn muốn tạo sơ đồ của riêng mình, hãy đảm bảo tuân theo hướng dẫn đồ họa của Plan ₿ Network để đảm bảo tính nhất quán về mặt hình ảnh:
 
 
-- Phông chữ**: Sử dụng [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
-- Màu sắc**:
+- **Phông chữ**: Sử dụng [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
+- **Màu sắc**:
  - Màu cam: #FF5C00
  - Đen: #000000
  - Trắng: #FFFFFF

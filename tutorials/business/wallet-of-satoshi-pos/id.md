@@ -1,5 +1,5 @@
 ---
-name: Wallet dari Satoshi - Tempat Penjualan
+name: Wallet of Satoshi - POS
 description: Mengadopsi Bitcoin melalui Lightning Network dalam bisnis Anda.
 ---
 

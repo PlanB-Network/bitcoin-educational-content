@@ -52,10 +52,10 @@ Kui olete valinud oma valiku, palub rakendus teil teateid lubada. See samm on ol
 Seejärel tutvustab rakendus oma põhifunktsioone mitme sissejuhatava ekraani kaudu:
 
 
-- Saamatu maksekviitung**: Kasutajad saavad Bitcoin-makseid vastu võtta isegi siis, kui rakendus on suletud, tagades usaldusväärsuse ja mugavuse.
-- Mittehooldusõiguslikud välguaadressid**: Lipa toetab nüüd ka mittekaitstavaid Lightning-aadresse, mis suurendab privaatsust ja turvalisust, andes kasutajatele täieliku kontrolli oma bitcoinide üle.
-- Kontroll analüütiliste andmete üle** : Kuna läbipaistvus ja konfidentsiaalsus on esmatähtsad, saavad kasutajad vaadata kogutud andmete tüüpe ja valida oma jagamise eelistusi.
-- Saatke telefoninumbri** kaudu: Lihtsalt valige kontakt, sisestage summa ja saatke bitcoinid otse tema telefoninumbrile.
+- **Saamatu maksekviitung**: Kasutajad saavad Bitcoin-makseid vastu võtta isegi siis, kui rakendus on suletud, tagades usaldusväärsuse ja mugavuse.
+- **Mittehooldusõiguslikud välguaadressid**: Lipa toetab nüüd ka mittekaitstavaid Lightning-aadresse, mis suurendab privaatsust ja turvalisust, andes kasutajatele täieliku kontrolli oma bitcoinide üle.
+- **Kontroll analüütiliste andmete üle**: Kuna läbipaistvus ja konfidentsiaalsus on esmatähtsad, saavad kasutajad vaadata kogutud andmete tüüpe ja valida oma jagamise eelistusi.
+- Saatke **telefoninumbri** kaudu: Lihtsalt valige kontakt, sisestage summa ja saatke bitcoinid otse tema telefoninumbrile.
 
 Rakendust täiustatakse pidevalt stabiilsuse, turvalisuse ja töökindluse osas, et tagada optimaalne kasutajakogemus.
 
@@ -66,10 +66,10 @@ Lipa kasutajaliides on korraldatud 4 peamise vahekaardi ümber, millele pääseb
 ![Navigation principale](assets/fr/02.webp)
 
 
-- Kodu**: Näitab teie jooksvat saldot ja tehinguajalugu
-- Skanner**: Võimaldab maksete tegemiseks skaneerida QR-koode
-- Kaart**: Kuvab interaktiivse kaardi Bitcoini aktsepteerivatest ettevõtetest teie piirkonnas
-- Seaded**: Juurdepääs rakenduse seadetele, varundamisele ja eelistustele
+- **Kodu**: Näitab teie jooksvat saldot ja tehinguajalugu
+- **Skanner**: Võimaldab maksete tegemiseks skaneerida QR-koode
+- **Kaart**: Kuvab interaktiivse kaardi Bitcoini aktsepteerivatest ettevõtetest teie piirkonnas
+- **Seaded**: Juurdepääs rakenduse seadetele, varundamisele ja eelistustele
 
 Täiendavasse menüüsse pääseb, kui tõmmata avakuva alla:
 

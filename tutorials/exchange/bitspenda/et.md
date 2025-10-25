@@ -182,10 +182,10 @@ BitSpenda kaudu on [Bitcoin Dua] (https://www.bitcoindua.org/) eesmärk luua ide
 
 
 
-- Konfidentsiaalsus**: Te ei pea platvormil kontot looma, te ei pea oma isikut tõendama ja te ei pea esitama mingeid isikuandmeid.
-- Vabadus**: Võite kasutada BitSpendat mis tahes riigist, et teha tehinguid Ghanasse, Nigeeriasse ja Keeniasse.
-- Kiirus**: Lightning-maksetele tuginedes on BitSpenda suutnud vähendada töötlemisaega ja muuta tehingud koheseks.
-- Läbipaistvus**: Kõik teie poolt BitSpendas tehtud tehingud on seotud unikaalsete identifikaatoritega, mis võimaldavad teil jälgida ja jälgida nende tehingute kulgu. Neid identifikaatoreid saate kasutada ka [rakenduse tugiteenus X](https://x.com/bitspenda).
+- **Konfidentsiaalsus**: Te ei pea platvormil kontot looma, te ei pea oma isikut tõendama ja te ei pea esitama mingeid isikuandmeid.
+- **Vabadus**: Võite kasutada BitSpendat mis tahes riigist, et teha tehinguid Ghanasse, Nigeeriasse ja Keeniasse.
+- **Kiirus**: Lightning-maksetele tuginedes on BitSpenda suutnud vähendada töötlemisaega ja muuta tehingud koheseks.
+- **Läbipaistvus**: Kõik teie poolt BitSpendas tehtud tehingud on seotud unikaalsete identifikaatoritega, mis võimaldavad teil jälgida ja jälgida nende tehingute kulgu. Neid identifikaatoreid saate kasutada ka [rakenduse tugiteenus X](https://x.com/bitspenda).
 
 
 

@@ -98,7 +98,7 @@ I vinduet som dukker opp, finner du felter som skal "fylles ut": Velg _Browse_-k
 Du kan finne veiledningen til Sparrow wallet for å laste ned denne Software Wallet
 
 
-https://planb.network/en/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Deretter kan du overføre .apk-filen fra datamaskinen til telefonen
 

@@ -1,5 +1,5 @@
 ---
-name: COLDCARD Q - 進階
+name: COLDCARD Q - 專家
 description: 使用 COLDCARD Q 的進階選項
 ---
 ![cover](assets/cover.webp)
@@ -39,7 +39,7 @@ https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14
 1. **Classic entry:**每次使用 Hardware Wallet 時，您都要手動輸入 passphrase，就像使用其他硬體錢包一樣。COLDCARD Q 的全鍵盤簡化了這項工作。
 
 
-2. **您可以選擇加密 passphrase 並將其儲存在 microSD 卡中。在這種情況下，每次使用時您都需要將 microSD 插入 COLDCARD Q。請注意，此 microSD 只能在您的 COLDCARD Q 上使用，而非備份。因此，非常重要的是，您也應在紙張或金屬等實體媒體上保留一份 passphrase 副本。
+2. **您可以選擇加密 passphrase 並將其儲存在 microSD 卡中。在這種情況下，每次使用時您都需要將 microSD 插入 COLDCARD Q。請注意，此 microSD 只能在您的 COLDCARD Q 上使用，而非備份。因此，非常重要的是，您也應在紙張或金屬等實體媒體上保留一份 passphrase 副本。**
 
 
 若要設定 BIP39 passphrase，請存取「*passphrase*」功能表。

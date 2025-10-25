@@ -81,7 +81,7 @@ https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e
 
 
 
-- Skaneeri ja maksa** :
+- **Skaneeri ja maksa**:
 
 
 
@@ -95,7 +95,7 @@ Skaneeri makse on üks rakenduse automaatsetest maksevõimalustest. Skaneerige k
 
 
 
-- Raha saatmine Keeniasse** :
+- **Raha saatmine Keeniasse**:
 
 
 
@@ -121,7 +121,7 @@ Makske arve oma Lightning Wallet-ga ja Tando konverteerib selle Keenia šillingi
 
 
 
-- Makske oma arved** :
+- Makske oma arved:
 
 
 
@@ -135,7 +135,7 @@ Sisestage selle Invoice number, mille eest soovite maksta, seejärel jätkake se
 
 
 
-- Kaupade ostmine** :
+- **Kaupade ostmine**:
 
 
 

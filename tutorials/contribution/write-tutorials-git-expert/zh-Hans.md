@@ -18,11 +18,11 @@ https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-91
 在这篇面向资深 Git 用户的教程中，我们将简要总结提供新计划 ₿ 网络教程的关键步骤和基本准则。如果您对 Git 和 GitHub 不熟悉，我建议您参考另外两本更详细的教程，它们将一步一步地指导您：
 
 
-- 中级（GitHub 桌面）** ：
+- **中级（GitHub 桌面）**：
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
-- 初学者（网络界面）** ：
+- **初学者（网络界面）**：
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 
@@ -31,30 +31,30 @@ https://planb.network/tutorials/contribution/content/write-tutorials-github-web-
 用于编辑 Markdown 文件 ：
 
 
-- 黑曜石**（免费，非开源）
-- 标记文本** （免费、开源）
-- Zettlr** （免费，开源）
-- Typora**（付费软件，~15 欧元，非开源）
+- **黑曜石**（免费，非开源）
+- **标记文本** （免费、开源）
+- **Zettlr** （免费，开源）
+- **Typora**（付费软件，~15 欧元，非开源）
 
 用于 Git ：
 
 
-- Git**（免费、开源）
-- GitHub 桌面**（免费、开源）
-- Sourcetree** （免费，非开源）
+- **Git**（免费、开源）
+- GitHub 桌面**（免费、开源）**
+- **Sourcetree** （免费，非开源）
 
 用于编辑 YAML 文件 ：
 
 
-- Visual Studio Code**（免费，开源）
-- Sublime Text**（免费但有限制，非开源）
+- **Visual Studio Code**（免费，开源）
+- **Sublime Text**（免费但有限制，非开源）
 
 创建图表和视觉效果
 
 
-- Canva**（免费，有付费选项，非开源）
-- Inkscape**（免费，开源）
-- Penpot**（免费、开源）
+- **Canva**（免费，有付费选项，非开源）
+- **Inkscape**（免费，开源）
+- **Penpot**（免费、开源）
 
 ## 工作流程
 
@@ -281,7 +281,7 @@ git push origin tuto-green-wallet-loic
 ## 内容创建标准
 
 
-- 平台支持的格式** ：
+- **平台支持的格式**：
     - 经典 Markdown：列表、链接、图片、引号、粗体、斜体等。
     - LaTeX（仅限块，非内联）：以 `$$` 分隔。
     - 内联代码：带有单个回车键的语法。
@@ -292,13 +292,13 @@ print("Hello, Bitcoin!")
 ```
 
 
-- 插图和图表** ：
+- **插图和图表**：
     - 所有图片必须为 WebP 格式。如有需要，请使用此免费工具进行转换：[ImagesConverter](https://github.com/LoicPandul/ImagesConverter).
     - 用 2 或 3 个数字为视觉效果命名（如 `001.webp`、`002.webp`）。
     - 对于手机或硬件钱包教程，请使用模型。
     - 仅使用自制或免版税的视觉效果。
     - 确保它们具有相关性和高质量。
-- 图形章程** ：
+- **图形章程**：
     - 字体：[IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans).
     - 颜色计划 ₿ 网络 ：
         - 橙色：`#FF5C00

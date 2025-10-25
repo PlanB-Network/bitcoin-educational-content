@@ -1,5 +1,5 @@
 ---
-name: 初級作業系統
+name: Elementary OS
 description: Windows 和 MacOS 的理想替代品
 ---
 
@@ -19,31 +19,31 @@ https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be
 
 
 
-- 簡單易用** ：Elementary OS 的圖形 Interface 介於 MacOs 和 Windows 之間。這種熟悉感讓它即使對於沒有經驗的使用者也很容易上手。
+- **簡單易用**：Elementary OS 的圖形 Interface 介於 MacOs 和 Windows 之間。這種熟悉感讓它即使對於沒有經驗的使用者也很容易上手。
 
 
 
 
 
-- 安全性**：與大多數 Linux 發行版本一樣，Elementary OS 也受益於高度的安全性。定期更新、權限管理和不存在常見病毒使其成為一個可靠的系統。
+- **安全性**：與大多數 Linux 發行版本一樣，Elementary OS 也受益於高度的安全性。定期更新、權限管理和不存在常見病毒使其成為一個可靠的系統。
 
 
 
 
 
-- 速度**：Elementary OS 是一個輕量級的發行版。它需要的資源很少，因此速度很快，適合配置不高的電腦使用。
+- **速度**：Elementary OS 是一個輕量級的發行版。它需要的資源很少，因此速度很快，適合配置不高的電腦使用。
 
 
 
 
 
-- 免費** ：本系統完全免費。不過，當您下載時，您可以捐款支持開發人員。
+- **免費**：本系統完全免費。不過，當您下載時，您可以捐款支持開發人員。
 
 
 
 
 
-- 活躍的社區** ：Elementary OS 周邊的社群是多樣且回應迅速的。如果您遇到困難，您可以輕鬆地在論壇或社交網路中找到幫助。
+- **活躍的社區**：Elementary OS 周邊的社群是多樣且回應迅速的。如果您遇到困難，您可以輕鬆地在論壇或社交網路中找到幫助。
 
 
 
@@ -61,7 +61,7 @@ https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be
 
 
 - 至少 12 GB 的 **USB 鑰匙**
-- RAM** 記憶體至少 4 GB
+- **RAM** 記憶體至少 4 GB
 - 20 GB** 或以上的 **Hard 磁碟，讓您使用更舒適
 
 
@@ -194,7 +194,7 @@ Elementary OS 可讓您在安裝前先測試系統。此模式可讓您探索 In
 
 
 
-有一個選項允許您加密磁碟，以**您的資料安全。您需要設定強大的密碼才能啟動此保護功能。不過，這是可選的。
+有一個選項允許您加密磁碟，以**保護**您的資料安全。您需要設定強大的密碼才能啟動此保護功能。不過，這是可選的。
 
 
 

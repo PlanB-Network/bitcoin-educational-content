@@ -57,7 +57,7 @@ Denna typ av rabatt är mer effektiv för fysiska butiker, särskilt för produk
 ##### Ett exempel
 
 
-Alla europeiska länder omfattas av en konsumtionsskatt som kallas Value-Added Tax på engelska, [VAT](https://en.wikipedia.org/wiki/Value-added_tax) enligt följande. Denna skatt uppfanns i Frankrike 1954 och hade redan 1970 börjat spridas i hela den ursprungliga Europeiska gemenskapen. År 2020 hade den spridit sig till större delen av världen.
+Alla europeiska länder är föremål för en konsumtionsskatt, som på engelska kallas "Value-added Tax", hädanefter [VAT](https://en.wikipedia.org/wiki/Value-added_tax). Denna skatt uppfanns i Frankrike 1954, och 1970 hade den redan börjat spridas i den ursprungliga Europeiska gemenskapen; år 2020 hade den spridit sig till en stor del av världen.
 
 
 I det här exemplet antar vi att vi befinner oss i Europa, i ett land där momssatsen är 20 % för alla typer av varor. Vi befinner oss i en skoaffär, och låt oss säga att ett par läderskor kostar 120 dollar om de betalas med ett betalkort.
@@ -126,7 +126,7 @@ Metoden för implementering lämnas till handlaren, men här är kortfattat någ
 ### BTC-karta
 
 
-I vilket fall som helst är det alltid en bra praxis att se till att ditt företag, om det har en fysisk plats, är närvarande och uppdaterat på [BTC Map] (https://btcmap.org/map). De flesta Bitcoin-användare känner till det här verktyget, och nästan alla som har spenderat Bitcoin i fysiska butiker har kontrollerat minst en gång för att se vilka platser som accepterar dem. Om du vill lära dig hur du lägger till din butik på BTC Map eller vill ha mer information, titta på den här handledningen:
+I vilket fall som helst är det alltid en god praxis att se till att ditt företag, om det har en fysisk plats, är närvarande och uppdaterat på [BTC Map](https://btcmap.org/map). De flesta bitcoinanvändare är bekanta med detta verktyg, och nästan alla som har spenderat bitcoin i fysiska butiker har åtminstone en gång kontrollerat vilka platser som accepterar dem. Om du vill lära dig hur du lägger till din butik på BTC Map eller vill ha mer information, se denna handledning:
 
 
 https://planb.network/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-f62658f343c6

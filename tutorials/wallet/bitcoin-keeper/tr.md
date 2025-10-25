@@ -1,5 +1,5 @@
 ---
-name: Bitcoin Keeper - Çoklu Anahtar Güvenliği
+name: Bitcoin Keeper
 description: Bitcoin Keeper Uygulaması - uzun vadeli tasarruflar için hem Hot cüzdanları hem de Cold saklama kasaları oluşturmanızı sağlayan bir mobil uygulama
 ---
 

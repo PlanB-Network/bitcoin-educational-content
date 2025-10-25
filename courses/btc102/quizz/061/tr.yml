@@ -1,9 +1,9 @@
 question: Miras mektubunun neden kağıt üzerine mürekkeple yazılması tavsiye edilir?
-answer: Güvenliği ihlal edilmiş dijital belgelerle ilişkili risklerden kaçınmak için
+answer: Güvenliği tehlikeye girmiş dijital belge riskinden kaçınmak için
 wrong_answers:
   - Baskı maliyetlerini azaltmak için
   - Yasal olarak tanınan bir imza almak için
   - Belgenin yasal değerini artırmak için
 explanation: |
-  El yazısıyla yazılmış bir mektup siber saldırılara karşı daha az savunmasızdır ve talimatların gizliliğini sağlar.
+  El yazısıyla yazılmış bir mektuba siber saldırı yapılamaz ve talimatlar gizliliğini korur.
 reviewed: false

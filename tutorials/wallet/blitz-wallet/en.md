@@ -70,15 +70,15 @@ One of the special features of Blitz Wallet is that it supports different networ
 
 
 
-- Lightning Network** : One of the Bitcoin overlays that lets you perform microtransactions instantly.
+- **Lightning Network**: One of the Bitcoin overlays that lets you perform microtransactions instantly.
 
 
 
-- Bitcoin Mainnet** : The main chain of the Bitcoin protocol, suitable for large-value transactions.
+- **Bitcoin Mainnet**: The main chain of the Bitcoin protocol, suitable for large-value transactions.
 
 
 
-- Liquid Network**: A parallel chain to Bitcoin Mainnet developed by BlockStream that uses Liquid Bitcoins to carry out fast, confidential transactions.
+- **Liquid Network**: A parallel chain to Bitcoin Mainnet developed by BlockStream that uses Liquid Bitcoins to carry out fast, confidential transactions.
 
 
 https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
@@ -126,21 +126,21 @@ In addition to bitcoin transfer operations, Blitz Wallet offers you a store wher
 
 
 
-- Access AI services**: Use generative artificial intelligence models such as: Claude 3-5 sonnet, gpt-4o, gpt-4o-mini gemini-flash-1.5 and pay directly in bitcoins.
+- **Access AI services**: Use generative artificial intelligence models such as: Claude 3-5 sonnet, gpt-4o, gpt-4o-mini gemini-flash-1.5 and pay directly in bitcoins.
 
 
 ![ia-credits](assets/fr/06.webp)
 
 
 
-- Send text messages anywhere in the world**: In the Blitz store, you have access to a GSM service that lets you send text messages anonymously anywhere in the world, with direct billing in Bitcoin.
+- **Send text messages anywhere in the world**: In the Blitz store, you have access to a GSM service that lets you send text messages anonymously anywhere in the world, with direct billing in Bitcoin.
 
 
 ![sms-credit](assets/fr/07.webp)
 
 
 
-- Surf in total confidentiality**: Pay for a WireGuard VPN (Virtual Private Network) subscription in the Wallet Blitz store with your bitcoins.
+- **Surf in total confidentiality**: Pay for a WireGuard VPN (Virtual Private Network) subscription in the Wallet Blitz store with your bitcoins.
 
 
 ![wireguard](assets/fr/08.webp)
@@ -186,7 +186,7 @@ By activating Lightning mode, once the main condition has been met (balance of 5
 
 
 
-- Accept Bitcoin in your shop** :
+- **Accept Bitcoin in your shop**:
 
 
 The integration of Bitcoin payments in shops is still in the experimental phase with Blitz Wallet. We recommend that you use it sparingly.
@@ -202,4 +202,3 @@ If this tutorial helped you get to grips with Blitz, we're sure you'll enjoy the
 
 
 https://planb.network/tutorials/wallet/mobile/muun-111b56b0-4872-4130-ad2e-e58f8363451d
-

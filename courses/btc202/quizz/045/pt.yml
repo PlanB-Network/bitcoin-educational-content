@@ -1,0 +1,9 @@
+question: Que etapas devem ser concluídas antes que o UmbrelOS possa ser instalado?
+answer: Criar uma chave USB de arranque com a imagem
+wrong_answers:
+  - Compilação do código-fonte do Bitcoin core
+  - Formatação do Blockchain
+  - Criar uma conta em umbrel.com
+explanation: |
+  A instalação começa com a preparação de uma chave USB de arranque com o UmbrelOS através do Balena Etcher.
+reviewed: true

@@ -5,10 +5,10 @@ description: Een Telegram-bot om vertrouwelijk Bitcoin te kopen
 ![image](assets/cover.webp)
 
 
-deze handleiding is geschreven door_ [Bitcoin Campus] (https://linktr.ee/bitcoincampus_)
+_Deze handleiding is geschreven door_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
 
-# Inleiding
+## Inleiding
 
 
 De BitcoinVoucherBot is een tool waarmee Bitcoins in Exchange voor euro's kunnen worden gekocht.
@@ -47,7 +47,7 @@ In de Telegram-chat bereiden we een bestelling voor, met een bankoverschrijving 
 Activering is een eenvoudige eenmalige handeling. Zoek vanuit Telegram naar _@BitcoinVoucherBot_ en zodra je in de chat van de Bot komt, valt onderaan een grote _Start/Start_ knop op. De handeling zorgt ervoor dat de Bot reageert, die een menu presenteert met de belangrijkste commando's die beschikbaar zijn. Ook verschijnen de eerste welkomstboodschappen, die we aandachtig moeten lezen.
 
 
-**Waarschuwing**: er zijn verschillende oplichters die zich voordoen als de originele VoucherBot. Als u niet zeker bent over het zoeken via Telegram, ga dan naar de BitcoinVoucherBot link van de [officiële website] (https://www.bitcoinvoucherbot.com/)
+**Let op**: er zijn meerdere oplichters die zich voordoen als de originele VoucherBot. Als je niet zeker bent van de zoekopdracht via Telegram, gebruik de BitcoinVoucherBot-link vanaf de [officiële site](https://www.bitcoinvoucherbot.com/)
 
 
 ![image](assets/it/01.webp)
@@ -75,10 +75,10 @@ De belangrijkste activiteiten zijn:
 - _/support_: als het nodig is, verschijnen er contacten om problemen aan het ondersteuningsteam te melden.
 
 
-# Bitcoin inkoopprocedure
+## Procedure voor het kopen van Bitcoin
 
 
-## Ordervoorbereiding
+### Voorbereiding van de bestelling
 
 
 Klik op _/aankopen_ in het opdrachtmenu
@@ -141,7 +141,7 @@ Als alles correct is, ga dan verder door op _Proceed_ te klikken.
 ![image](assets/it/10.webp)
 
 
-## Betaling
+### Betaling
 
 
 Na enkele ogenblikken, die nodig zijn om de gegevens te verwerken, antwoordt VoucherBot met een bericht met alle gegevens die nodig zijn om de bestelling af te ronden. Afhankelijk van wat uw bank vereist, is de relevante informatie:
@@ -179,7 +179,7 @@ Let op:
 
 
 ---
-## Verlossing
+### Inlossing
 
 
 Zodra de betaling succesvol is, stuurt Bitcoin VoucherBot de voucher direct naar de chat. De bliksemvoucher heeft de vorm van een QR-code, afgedrukt op een oranje achtergrond.
@@ -201,7 +201,7 @@ Daar staan alle gegevens die nodig zijn om het te verzilveren:
 Je kunt de voucher verzilveren door de QR-code in te kaderen met de scanfunctie van een compatibele Wallet Lightning Network, of via LNURL, ook te zien onder de QR-code.
 
 
-Voor deze tutorial gebruikten we Wallet Of Satoshi, met de scanfunctie geactiveerd door de _Send_ toets
+Voor deze tutorial gebruikten we Wallet Of Satoshi, met de scanfunctie die wordt geactiveerd door de knop _Send_.
 
 
 ![image](assets/it/32.webp)
@@ -213,13 +213,13 @@ Omlijst de QR-code in de chat met de camera van de mobiele telefoon geactiveerd 
 ![image](assets/it/34.webp)
 
 
-Alvorens verder te gaan, Wallet Of Satoshi van een verificatiescherm met het bedrag, dat precies overeenkomt met het bedrag op de voucher en, als beschrijving, BitcoinVoucherBot. Om de voucher te verzilveren, klik je gewoon op _Ontvangen_
+Voordat u verdergaat, toont Wallet Of Satoshi een verificatiescherm dat het bedrag bevat, dat exact overeenkomt met het bedrag dat op de voucher staat vermeld, en als beschrijving, BitcoinVoucherBot. Om de voucher te innen, hoeft u alleen op _Receive_ te klikken.
 
 
 ![image](assets/it/35.webp)
 
 
-Wallet Of Satoshi processen voor een paar momenten
+Wallet Of Satoshi verwerkt enkele ogenblikken.
 
 
 ![image](assets/it/36.webp)
@@ -228,7 +228,7 @@ Wallet Of Satoshi processen voor een paar momenten
 en ten slotte wordt de inning gerapporteerd en onmiddellijk beschikbaar in de Wallet balans.
 
 
-**Wallet van Satoshi is een custodial app: onmiddellijk na het verzilveren van de voucher is het raadzaam om Sats te verplaatsen naar een Wallet non-custodial.**
+**Wallet of Satoshi is een bewaar-app: direct na het inwisselen van de voucher is het aan te raden de sats naar een non-custodial wallet te verplaatsen.**
 
 
 ![image](assets/it/37.webp)

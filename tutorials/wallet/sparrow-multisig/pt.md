@@ -1,5 +1,5 @@
 ---
-name: Pardal Wallet - Multisig
+name: Sparrow Wallet - Multisig
 description: Criar uma carteira com várias assinaturas no Sparrow
 ---
 ![cover](assets/cover.webp)

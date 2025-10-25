@@ -233,8 +233,8 @@ To carry out a transfer, you'll need to manipulate a local Bitcoin wallet to man
 In most cases, interaction between the participants in a contract (e.g. Alice and Bob) takes place via the generation of an invoice. If Alice wants Bob to execute something (a token transfer, a reissue, an action in a DAO, etc.), Alice creates an invoice detailing her instructions to Bob. So we have :
 
 
-- Alice** (the issuer of the invoice) ;
-- Bob** (who receives and executes the invoice).
+- **Alice** (the issuer of the invoice) ;
+- **Bob** (who receives and executes the invoice).
 
 Unlike other ecosystems, an RGB invoice is not limited to the notion of payment. It can embed any request linked to the contract: revoke a key, vote, create an engraving (*engraving*) on an NFT, etc. The corresponding operation can be described in the contract interface. The corresponding operation can be described in the contract interface.
 

@@ -1,0 +1,9 @@
+question: Které řešení uzlu v krabici je dnes lídrem na trhu?
+answer: Deštník
+wrong_answers:
+  - Start9
+  - Nodl
+  - RoninDojo
+explanation: |
+  Umbrel je díky snadné instalaci a bohatému obchodu s aplikacemi nejoblíbenějším řešením typu node-in-a-box.
+reviewed: true

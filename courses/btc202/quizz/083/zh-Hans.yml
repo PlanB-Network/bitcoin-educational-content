@@ -1,0 +1,9 @@
+question: 哪个设置会强制 Bitcoin core 只能通过 Tor 网络连接？
+answer: onlynet=onion
+wrong_answers:
+  - listenonion=1
+  - toronly=1
+  - net=tor
+explanation: |
+  onlynet=onion 选项会限制 Tor 网络的所有外向连接，而 listenonion=1 只允许你监听 Tor 的传入连接。
+reviewed: true

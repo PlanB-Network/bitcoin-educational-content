@@ -1,0 +1,9 @@
+question: Hva er spesielt med en SPV-node?
+answer: Den beholder bare blokktoppene
+wrong_answers:
+  - Den beholder hele Blockchain siden Genesis-blokken
+  - Den lagrer bare de nyeste blokkene
+  - Den beholder bare UTXO-settet, ikke Blockchain
+explanation: |
+  En SPV-node verifiserer transaksjoner via blokkoverskrifter og Merkle-bevis, uten å lagre alle dataene.
+reviewed: true

@@ -1,5 +1,5 @@
 ---
-name: 克拉肯
+name: Kraken
 description: 如何在 Kraken 上買賣比特幣？
 ---
 ![cover](assets/cover.webp)

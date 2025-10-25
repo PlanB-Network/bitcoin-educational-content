@@ -1,5 +1,5 @@
 ---
-name: 麻雀 Wallet - Multisig
+name: Sparrow Wallet - Multisig
 description: 在 Sparrow 上创建多重签名组合
 ---
 ![cover](assets/cover.webp)

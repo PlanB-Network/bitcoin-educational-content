@@ -145,7 +145,7 @@ Na Trezoru, izaberite ukupan broj deonica koje želite da konfigurišete. Najče
 
 
 
-*Za korisnike Safe 5, iako će ekran prikazati "*Tap to continue*", zapravo ćete morati prevući nagore da biste potvrdili
+*Za korisnike Safe 5, iako će ekran prikazati "Tap to continue", zapravo ćete morati prevući nagore da biste potvrdili*
 
 
 
@@ -173,7 +173,7 @@ Na vrhu ekrana možete videti koju akciju trenutno gledate.
 
 
 
-naravno, nikada ne smete deliti ove reči na Internetu, kao što to radim u ovom vodiču. Ovaj primer Wallet će biti korišćen samo na Testnet i biće obrisan na kraju vodiča.**_
+naravno, nikada ne smete deliti ove reči na Internetu, kao što to radim u ovom vodiču. Ovaj primer Wallet će biti korišćen samo na Testnet i biće obrisan na kraju vodiča.
 
 
 

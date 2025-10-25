@@ -87,8 +87,8 @@ Kada vaš nalog bude verifikovan, pristupićete platformi gde će vam biti ponu�
 
 
 
-- Kraken**: Pojednostavljena Interface ponuda sa osnovnom funkcionalnošću.
-- Kraken Pro**: Napredni Interface sa dodatnim funkcijama, posebno za trgovanje.
+- **Kraken**: Pojednostavljena Interface ponuda sa osnovnom funkcionalnošću.
+- **Kraken Pro**: Napredni Interface sa dodatnim funkcijama, posebno za trgovanje.
 
 
 Ako je vaš cilj isključivo kupovina i prodaja Bitcoin, odlučite se za pojednostavljeni Interface. Uvek ćete imati opciju prelaska na napredni Interface kasnije ako bude potrebno.
@@ -233,9 +233,9 @@ Za ove transakcije, možete birati između različitih tipova naloga: *Market*, 
 
 
 
-- Tržište*: Omogućava trenutnu kupovinu po trenutnoj tržišnoj ceni;
-- Limit*: Omogućava vam da navedete kupovnu cenu, i nalog će biti izvršen samo ako tržišna cena dostigne ovaj iznos;
-- Stop-Loss*: Automatski prodaje kada cena dostigne određeni prag.
+- **Tržište**: Omogućava trenutnu kupovinu po trenutnoj tržišnoj ceni;
+- **Limit**: Omogućava vam da navedete kupovnu cenu, i nalog će biti izvršen samo ako tržišna cena dostigne ovaj iznos;
+- **Stop-Loss**: Automatski prodaje kada cena dostigne određeni prag.
 
 
 ## 7 - Upravljanje transakcijama i računovodstvo

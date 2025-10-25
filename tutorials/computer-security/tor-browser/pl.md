@@ -1,5 +1,5 @@
 ---
-name: Przeglądarka Tor
+name: Tor Browser
 description: Jak korzystać z przeglądarki Tor?
 ---
 ![cover](assets/cover.webp)

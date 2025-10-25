@@ -5,5 +5,5 @@ wrong_answers:
   - Pour éviter d'ouvrir de nouveaux canaux
   - Pour limiter l'utilisation de la blockchain Bitcoin
 explanation: |
-  Un routeur vise à router le maximum de paiements pour percevoir des frais, ce qui nécessite une bonne répartition de liquidité de part et d'autre des canaux pour assurer la capacité de routage.
-reviewed: false
+  Un routeur vise à relayer le maximum de paiements pour percevoir des frais, ce qui nécessite une bonne répartition de liquidité de part et d'autre des canaux pour assurer la capacité de routage.
+reviewed: true 

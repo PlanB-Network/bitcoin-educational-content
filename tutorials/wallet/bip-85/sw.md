@@ -91,9 +91,9 @@ BIP-85 hukuruhusu kuunda jalada nyingi za Bitcoin kutoka kwa kifungu kimoja cha 
 
 
 
-- Hali**: Unatumia "Hot Wallet" Wallet (iliyosakinishwa kwenye kifaa kilichounganishwa kwenye Intaneti), kwa shughuli za kila siku.
-- Suluhisho BIP-85**: Unaunda maneno ya upili ya seed yaliyowekwa kwa kwingineko hii.
-- Manufaa zaidi ya BIP-32**: Huhitaji kuleta kifungu cha msingi cha seed kwenye simu yako, hivyo basi kupunguza hatari ya kudukuliwa. Ni maneno ya pili ya seed pekee ndiyo yameathiriwa, kulinda pochi zako zingine. Ukiwa na BIP-32, unahitaji kutumia kifungu kikuu cha seed na njia ya kupita, ikionyesha pesa zako zote.
+- **Hali**: Unatumia "Hot Wallet" Wallet (iliyosakinishwa kwenye kifaa kilichounganishwa kwenye Intaneti), kwa shughuli za kila siku.
+- **Suluhisho BIP-85**: Unaunda maneno ya upili ya seed yaliyowekwa kwa kwingineko hii.
+- Manufaa zaidi ya **BIP-32**: Huhitaji kuleta kifungu cha msingi cha seed kwenye simu yako, hivyo basi kupunguza hatari ya kudukuliwa. Ni maneno ya pili ya seed pekee ndiyo yameathiriwa, kulinda pochi zako zingine. Ukiwa na BIP-32, unahitaji kutumia kifungu kikuu cha seed na njia ya kupita, ikionyesha pesa zako zote.
 
 
 
@@ -103,9 +103,9 @@ BIP-85 hukuruhusu kuunda jalada nyingi za Bitcoin kutoka kwa kifungu kimoja cha 
 
 
 
-- Hali**: Umeweka Bitcoin Wallet kwa mtu wa karibu nawe (k.m. mama yako), huku ukiweza kuirejesha akiipoteza.
-- Suluhisho BIP-85**: Unaunda sentensi ya upili ya seed iliyojitolea na kushiriki hii pekee.
-- Manufaa zaidi ya BIP-32**: Ukiwa na BIP-32, kuunda akaunti kwa ajili ya mpendwa kunahitaji ama kushiriki kifungu chako kikuu cha seed, kuhatarisha pesa zako zote na kutatiza usimamizi wa mpendwa wako (kusimamia njia za matawi), au kuunda kifungu kipya cha seed ili kuhifadhi pamoja na kifungu chako kikuu cha seed.
+- **Hali**: Umeweka Bitcoin Wallet kwa mtu wa karibu nawe (k.m. mama yako), huku ukiweza kuirejesha akiipoteza.
+- **Suluhisho BIP-85**: Unaunda sentensi ya upili ya seed iliyojitolea na kushiriki hii pekee.
+- Manufaa zaidi ya **BIP-32**: Ukiwa na BIP-32, kuunda akaunti kwa ajili ya mpendwa kunahitaji ama kushiriki kifungu chako kikuu cha seed, kuhatarisha pesa zako zote na kutatiza usimamizi wa mpendwa wako (kusimamia njia za matawi), au kuunda kifungu kipya cha seed ili kuhifadhi pamoja na kifungu chako kikuu cha seed.
 
 
 
@@ -115,9 +115,9 @@ BIP-85 hukuruhusu kuunda jalada nyingi za Bitcoin kutoka kwa kifungu kimoja cha 
 
 
 
-- Hali**: Unatenganisha bitcoins zako kwa madhumuni tofauti (k.m. akiba ya muda mrefu, fedha zisizo za KYC).
-- Suluhisho BIP-85**: Unaunda misemo ya upili ya seed iliyowekwa kwa kila lengo.
-- Manufaa zaidi ya BIP-32**: Kwa BIP-32, akaunti zote zinatumia maneno yale yale ya seed, ambayo yanatatiza usimamizi katika portfolio za wahusika wengine kwa kuhitaji njia za utokaji kama vile `m/44'/0'/0'` zidhibitiwe. Kwa kuongeza, haiwezekani kugawa akaunti tofauti kwa kila kifaa (k.m. "akiba kwenye Coldcard", "kila siku kwenye simu", "likizo kwenye Trezor"). BIP-85 hukabidhi maneno ya upili ya seed kwa kila lengo, ambayo ni rahisi kutambua na kuleta kivyake kwenye kila kifaa.
+- **Hali**: Unatenganisha bitcoins zako kwa madhumuni tofauti (k.m. akiba ya muda mrefu, fedha zisizo za KYC).
+- **Suluhisho BIP-85**: Unaunda misemo ya upili ya seed iliyowekwa kwa kila lengo.
+- Manufaa zaidi ya **BIP-32**: Kwa BIP-32, akaunti zote zinatumia maneno yale yale ya seed, ambayo yanatatiza usimamizi katika portfolio za wahusika wengine kwa kuhitaji njia za utokaji kama vile `m/44'/0'/0'` zidhibitiwe. Kwa kuongeza, haiwezekani kugawa akaunti tofauti kwa kila kifaa (k.m. "akiba kwenye Coldcard", "kila siku kwenye simu", "likizo kwenye Trezor"). BIP-85 hukabidhi maneno ya upili ya seed kwa kila lengo, ambayo ni rahisi kutambua na kuleta kivyake kwenye kila kifaa.
 
 
 
@@ -127,9 +127,9 @@ BIP-85 hukuruhusu kuunda jalada nyingi za Bitcoin kutoka kwa kifungu kimoja cha 
 
 
 
-- Hali**: Unahitaji kwingineko ya muda kwa ajili ya ununuzi wa mara moja au kuhifadhi usiri (k.m.: kuchanganya fedha, mwingiliano na Exchange KYC, n.k.).
-- Suluhisho la BIP-85**: Unaunda sentensi ya sekondari ya seed, tumia kwa shughuli, kisha uiharibu ikiwa ni lazima, ukijua kwamba inaweza kuzaliwa upya.
-- Manufaa zaidi ya BIP-32**: Ukiwa na BIP-32, akaunti ya muda inategemea sentensi kuu ya seed, kufichua pesa zako zote ikiwa itaathiriwa.
+- **Hali**: Unahitaji kwingineko ya muda kwa ajili ya ununuzi wa mara moja au kuhifadhi usiri (k.m.: kuchanganya fedha, mwingiliano na Exchange KYC, n.k.).
+- **Suluhisho la BIP-85**: Unaunda sentensi ya sekondari ya seed, tumia kwa shughuli, kisha uiharibu ikiwa ni lazima, ukijua kwamba inaweza kuzaliwa upya.
+- Manufaa zaidi ya **BIP-32**: Ukiwa na BIP-32, akaunti ya muda inategemea sentensi kuu ya seed, kufichua pesa zako zote ikiwa itaathiriwa.
 
 
 
@@ -141,7 +141,7 @@ BIP-85 hukuruhusu kuunda jalada nyingi za Bitcoin kutoka kwa kifungu kimoja cha 
 
 
 
-- Maunzi** (ya hiari)
+- **Maunzi** (ya hiari)
  - Coldcard Mk4 au Q1
  - Kadi ya MicroSD
 
@@ -158,7 +158,7 @@ BIP-85 hukuruhusu kuunda jalada nyingi za Bitcoin kutoka kwa kifungu kimoja cha 
 
 
 
-- Programu inayolingana**
+- Programu inayolingana
  - Sparrow wallet (kompyuta, kwa usimamizi wa saa pekee au wa hali ya juu)
  - Nunchuck (simu ya rununu, kwa saini nyingi)
  - BlueWallet (simu ya rununu)
@@ -168,7 +168,7 @@ BIP-85 hukuruhusu kuunda jalada nyingi za Bitcoin kutoka kwa kifungu kimoja cha 
 
 
 
-- 3.4 Usanidi wa Coldcard**
+- 3.4 **Usanidi wa Coldcard**
  - Anzisha sentensi ya seed ya maneno 24 kwenye Coldcard.
  - Hiari: Ongeza passphrase ili kupata ufikiaji salama wa matawi ya BIP-85.
  - Washa chaguo muhimu: NFC (ya kusafirisha nje), zima USB kwenye betri (usalama).
@@ -197,7 +197,7 @@ Washa Coldcard yako, weka PIN yako.
 
 
 
-- 1. Ikiwa umetumia passphrase kwa seed yako kuu:**
+- 1. Ikiwa umetumia passphrase kwa seed yako kuu:
  - Kutoka kwa Skrini ya kwanza, nenda kwa `passphrase`.
     - Chagua `Ongeza Neno` na uweke nenosiri lako.
     - Bonyeza `Tuma`.
@@ -207,7 +207,7 @@ Washa Coldcard yako, weka PIN yako.
 
 
 
-- 2. Nenda kwenye menyu ya BIP-85**
+- 2. Nenda kwenye menyu ya **BIP-85**
  - Kutoka kwa Skrini ya kwanza, nenda kwa `Advanced > Pata seed B85`
  - Soma onyo na uthibitishe.
 
@@ -246,7 +246,7 @@ Chagua umbizo la maneno ya seed: maneno 12, 18 au 24. Angalia idadi ya maneno ya
 
 
 
-- 5. Kumbuka au safirisha sentensi ya pili ya seed**
+- 5. Kumbuka au safirisha sentensi ya pili ya **seed**
 
 
 ColdCard sasa inaonyesha sentensi mpya ya upili ya seed. Unaweza:

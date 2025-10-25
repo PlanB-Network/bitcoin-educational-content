@@ -137,7 +137,7 @@ https://planb.network/tutorials/computer-security/data/integrity-authenticity-21
 
 Ledger 會使用隨機數字產生器建立您的 Mnemonic 詞組。請確定在此操作過程中沒有人觀察您。將 Ledger 提供的短語寫在您選擇的實體媒體上。根據您的安全策略，您可以考慮製作幾份完整的短語實體複本 (但重要的是，請勿分割)。保持字詞的編號和順序是很重要的。
 
-*** 很明顯，您絕對不應該在網路上分享這些文字，這與我在本教學中所做的相反。本範例 Wallet 只會在 Testnet 上使用，並會在教學結束後刪除。
+**很明顯，您絕對不應該在網路上分享這些文字，這與我在本教學中所做的相反。本範例 Wallet 只會在 Testnet 上使用，並會在教學結束後刪除。**
 
 
 ![NANO S PLUS LEDGER](assets/notext/11.webp)

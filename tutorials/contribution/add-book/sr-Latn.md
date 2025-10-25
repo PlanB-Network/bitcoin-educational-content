@@ -70,12 +70,12 @@ tags:
 Evo detalja za popunjavanje svakog polja:
 
 
-- `autor`**: Indikujte ime autora knjige.
-- `nivo`**: Naznačite potreban nivo da biste mogli dobro čitati i razumeti knjigu. Izaberite nivo među sledećim:
+- `autor`: **Indikujte ime autora knjige.**
+- `nivo`: Naznačite potreban nivo da biste mogli dobro čitati i razumeti knjigu. Izaberite nivo među sledećim:
  - `početnik`
  - `srednji`
 - `napredni` - `ekspert`
-- `tags`**: Dodajte dve ili tri oznake povezane sa vašom knjigom. Na primer:
+- `tags`: Dodajte dve ili tri oznake povezane sa vašom knjigom. Na primer:
     - `Bitcoin`
     - `istorija`
     - `tehnologija`
@@ -247,9 +247,9 @@ contributors:
 Evo detalja za popunjavanje svakog polja:
 
 
-- `title`**: Naznačite naziv knjige u navodnicima.
-- `publication_year`**: Naznačite godinu kada je knjiga objavljena.
-- `cover`**: Naznačite naziv datoteke koja odgovara naslovnoj slici, u skladu sa jezikom YAML datoteke koju trenutno uređujete. Na primer, ako uređujete `en.yml` datoteku i prethodno ste dodali naslovnu sliku na engleskom jeziku pod nazivom `cover_en.webp`, jednostavno navedite `cover_en.webp` u ovom polju.
+- **`title`**: Naznačite naziv knjige u navodnicima.
+- `publication_year`: Naznačite godinu kada je knjiga objavljena.
+- `cover`: Naznačite naziv datoteke koja odgovara naslovnoj slici, u skladu sa jezikom YAML datoteke koju trenutno uređujete. Na primer, ako uređujete `en.yml` datoteku i prethodno ste dodali naslovnu sliku na engleskom jeziku pod nazivom `cover_en.webp`, jednostavno navedite `cover_en.webp` u ovom polju.
 - `description`**: Dodajte kratak pasus koji opisuje knjigu. Opis mora biti na istom jeziku kao što je navedeno u naslovu YAML datoteke.
 - `contributors`**: Dodajte svoj ID saradnika ako ga imate.
 

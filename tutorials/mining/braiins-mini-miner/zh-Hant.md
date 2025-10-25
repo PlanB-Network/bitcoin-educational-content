@@ -1,12 +1,12 @@
 ---
-name: 迷你 Miner Braiins
+name: Braiins Mini Miner
 description: 在家輕鬆製作 Mining。
 ---
 ![cover](assets/cover.webp)
 
 
 
-### 簡介
+## 簡介
 
 
 
@@ -18,7 +18,7 @@ Mini Miner Braiins BMM 100 是 Mining pool Braiins 創造的產品。此裝置�
 
 
 
-### BMM 100 概覽
+## BMM 100 概覽
 
 
 
@@ -46,7 +46,7 @@ Mini Miner Braiins BMM 100 是 Mining pool Braiins 創造的產品。此裝置�
 
 
 
-### 連接 Mini Miner
+## 連接 Mini Miner
 
 
 
@@ -54,7 +54,7 @@ Mini Miner Braiins BMM 100 是 Mining pool Braiins 創造的產品。此裝置�
 
 
 
-### 組態
+## 組態
 
 
 
@@ -74,7 +74,7 @@ Mini Miner Braiins BMM 100 是 Mining pool Braiins 創造的產品。此裝置�
 
 
 
-### 一般設定
+## 一般設定
 
 
 
@@ -110,7 +110,7 @@ Mini Miner Braiins BMM 100 是 Mining pool Braiins 創造的產品。此裝置�
 
 
 
-### 連接至 Mining pool
+## 連接至 Mining pool
 
 
 
@@ -142,7 +142,7 @@ https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a
 
 https://planb.network/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-#### Braiins 游泳池
+### Braiins 游泳池
 
 
 
@@ -236,7 +236,7 @@ https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a
 
 
 
-#### 公共游泳池
+### 公共游泳池
 
 
 

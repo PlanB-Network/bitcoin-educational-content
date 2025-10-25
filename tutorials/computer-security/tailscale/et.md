@@ -72,7 +72,7 @@ See arhitektuur sõltub aga võrgu koordineerimise osas Tailscale Incist. Selle 
 
 
 
-**Tailscale'i sisemise toimimise, sealhulgas juhtimistasandi haldamise, NAT-i ületamise ja DERP-redelite üksikasjaliku selgituse saamiseks soovitame lugeda suurepärase artikli [How Tailscale Works] (https://tailscale.com/blog/how-tailscale-works) ametlikus blogis. Selles artiklis selgitatakse põhjalikult tehnilisi kontseptsioone, mis teevad Tailscale'i nii võimsaks.
+**Tailscale'i sisemise toimimise, sealhulgas juhtimistasandi haldamise, NAT-i ületamise ja DERP-redelite üksikasjaliku selgituse saamiseks soovitame lugeda suurepärase artikli** [How Tailscale Works](https://tailscale.com/blog/how-tailscale-works) **ametlikus blogis. Selles artiklis selgitatakse põhjalikult tehnilisi kontseptsioone, mis teevad Tailscale'i nii võimsaks.**
 
 
 
@@ -139,7 +139,7 @@ Kui olete oma konto loonud, saate Tailscale'i oma seadmetele paigaldada:
 
 
 
-- Windowsis ja macOSis:** Lihtsalt laadige graafiline rakendus alla Tailscale'i ametlikult veebisaidilt ja installige see (.msi-fail Windowsis, .dmg-fail Macis). Pärast installimist käivitab rakendus graafilise Interface, mis võimaldab teil (brauseri kaudu) ühendada oma Tailscale'i kontoga, et masinat autentida.
+- Windowsis ja macOSis: Lihtsalt laadige graafiline rakendus alla Tailscale'i ametlikult veebisaidilt ja installige see (.msi-fail Windowsis, .dmg-fail Macis). Pärast installimist käivitab rakendus graafilise Interface, mis võimaldab teil (brauseri kaudu) ühendada oma Tailscale'i kontoga, et masinat autentida.
 
 
 
@@ -159,7 +159,7 @@ Kui olete oma konto loonud, saate Tailscale'i oma seadmetele paigaldada:
 
 
 
-- Linuxis (Debian, Ubuntu jne):** Teil on mitu võimalust. Kõige lihtsam meetod on käivitada ametlik paigaldusskript: näiteks Debian/Ubuntu:
+- **Linuxis (Debian, Ubuntu jne):** Teil on mitu võimalust. Kõige lihtsam meetod on käivitada ametlik paigaldusskript: näiteks Debian/Ubuntu:
 
 
 
@@ -175,13 +175,13 @@ See skript lisab ametliku Tailscale'i repositooriumi ja installib paketi. Võite
 
 
 
-- ARM-põhistel süsteemidel (Raspberry Pi jne):** Me kasutame üldiselt Linuxi, seega sama lähenemine nagu eespool (skript või pakett). Pange tähele, et Tailscale toetab ARM32/ARM64 arhitektuuri ilma probleemideta. Paljud kasutajad installivad Tailscale'i Raspberry Pi OS-i kaudu apt või kergete distributsioonide (DietPi jne) abil, et pääseda oma Pi-le igal pool ligi.
+- **ARM-põhistel süsteemidel (Raspberry Pi jne):** Me kasutame üldiselt Linuxi, seega sama lähenemine nagu eespool (skript või pakett). Pange tähele, et Tailscale toetab ARM32/ARM64 arhitektuuri ilma probleemideta. Paljud kasutajad installivad Tailscale'i Raspberry Pi OS-i kaudu apt või kergete distributsioonide (DietPi jne) abil, et pääseda oma Pi-le igal pool ligi.
 
 
 
 
 
-- IOS ja Android:** Tailscale pakub **ametlikke** mobiilirakendusi. Lihtsalt installige *Tailscale* [App Store](https://apps.apple.com/us/app/tailscale/id1470499037?ls=1) (iOS) või [Play Store](https://play.google.com/store/apps/details?id=com.tailscale.ipn) (Android).
+- **IOS ja Android:** Tailscale pakub **ametlikke** mobiilirakendusi. Lihtsalt installige *Tailscale* [App Store](https://apps.apple.com/us/app/tailscale/id1470499037?ls=1) (iOS) või [Play Store](https://play.google.com/store/apps/details?id=com.tailscale.ipn) (Android).
 
 
 
@@ -261,13 +261,13 @@ Veebihalduskonsool võimaldab teil vaadata ja hallata kõiki ühendatud seadmeid
 
 
 
-- Interface Web (halduskonsool)**: see veebikonsool, millele pääseb ligi aadressil [https://login.tailscale.com](https://login.tailscale.com), on teie Tailscale'i võrgu keskne armatuurlaud. Selles on loetletud kõik seadmed (*Masinad*), nende online/offline staatus, nende Tailscale'i IP-aadressid ja palju muud. Siin saate **haldada seadmeid** (ümber nimetada, võtmeid aeguda, marsruute lubada, sõlme keelata), **haldada kasutajaid** (organisatsioonilises kontekstis) ja määratleda turvanõudeid (ACL). Siin saate ka konfigureerida globaalseid valikuid, nagu MagicDNS, sildid või auth-klahvid (generate-eelsed auth-klahvid seadmete automaatseks lisamiseks). Interface veeb on väga mugav ülevaate saamiseks ja muudatuste kohaldamiseks, mida levitatakse koordineerimisserveri kaudu kõigile sõlmpunktidele. *Näide:* **allvõrgu marsruudi** või **väljumissõlme** aktiveerimine toimub ühe klõpsuga konsoolis, kui asjaomane sõlme on end selliseks kuulutanud.
+- **Interface Web (halduskonsool)**: see veebikonsool, millele pääseb ligi aadressil [https://login.tailscale.com](https://login.tailscale.com), on teie Tailscale'i võrgu keskne armatuurlaud. Selles on loetletud kõik seadmed (*Masinad*), nende online/offline staatus, nende Tailscale'i IP-aadressid ja palju muud. Siin saate **haldada seadmeid** (ümber nimetada, võtmeid aeguda, marsruute lubada, sõlme keelata), **haldada kasutajaid** (organisatsioonilises kontekstis) ja määratleda turvanõudeid (ACL). Siin saate ka konfigureerida globaalseid valikuid, nagu MagicDNS, sildid või auth-klahvid (generate-eelsed auth-klahvid seadmete automaatseks lisamiseks). Interface veeb on väga mugav ülevaate saamiseks ja muudatuste kohaldamiseks, mida levitatakse koordineerimisserveri kau
 
 
 
 
 
-- Interface käsurea (CLI):** Käsk `tailscale` on CLI-s saadaval igas seadmes, kuhu Tailscale on paigaldatud. See CLI võimaldab teil teha kõike lokaalselt: ühendada (`tailscale up`), kontrollida olekut (`tailscale status`, et näha, millised eakaaslased on ühendatud), siluda (`tailscale ping <ip>`) ja nii edasi. Mõned funktsioonid on isegi **eksklusiivsed CLI jaoks** või on arenenumad, näiteks:
+- **Interface käsurea (CLI):** Käsk `tailscale` on CLI-s saadaval igas seadmes, kuhu Tailscale on paigaldatud. See CLI võimaldab teil teha kõike lokaalselt: ühendada (`tailscale up`), kontrollida olekut (`tailscale status`, et näha, millised eakaaslased on ühendatud), siluda (`tailscale ping <ip>`) ja nii edasi. Mõned funktsioonid on isegi **eksklusiivsed CLI jaoks** või on arenenumad, näiteks:
 
 
 
@@ -305,7 +305,7 @@ Umbreli ja Tailscale'i koos kasutamine on eriti huvitav kasutusjuhtum, kuna Umbr
 
 
 
-- Tailscale'i paigaldamine Umbrelile:** Umbrelil on App Store'is ametlik Tailscale'i rakendus. Installeerimine ei saaks olla lihtsam:
+- **Tailscale'i paigaldamine Umbrelile:** Umbrelil on App Store'is ametlik Tailscale'i rakendus. Installeerimine ei saaks olla lihtsam:
 
 
 
@@ -379,11 +379,11 @@ Juurdepääs on märkimisväärselt lihtne: selle asemel, et kasutada `umbrel.lo
 
 
 
-- Interface peamine vihmavarju**: Juurdepääs oma Umbreli armatuurlauale, lihtsalt sisestades brauserisse `http://100.x.y.z`
-- Bitcoin sõlme**: Bitcoin sõlme haldamine ilma viivituseta, sünkroniseerimise ja statistika vaatamine
-- Välgussõlm**: Kasutage ThunderHubi, RTLi või teisi Lightningi haldusliideseid, mis reageerivad kohe
-- Mempool**: Vaadake Bitcoin tehinguid ja Mempool ilma Tori viivitusteta
-- noStrudel**: Juurdepääs oma Nostr-teenustele, mida majutab Umbrel
+- **Interface peamine vihmavarju**: Juurdepääs oma Umbreli armatuurlauale, lihtsalt sisestades brauserisse `http://100.x.y.z`
+- **Bitcoin sõlme**: Bitcoin sõlme haldamine ilma viivituseta, sünkroniseerimise ja statistika vaatamine
+- **Välgussõlm**: Kasutage ThunderHubi, RTLi või teisi Lightningi haldusliideseid, mis reageerivad kohe
+- **Mempool**: Vaadake Bitcoin tehinguid ja Mempool ilma Tori viivitusteta
+- **noStrudel**: Juurdepääs oma Nostr-teenustele, mida majutab Umbrel
 
 
 
@@ -397,7 +397,7 @@ Tailscale võimaldab ka teistesse seadmetesse paigaldatud Bitcoin ja Lightning r
 
 
 
-- Sparrow wallet (Bitcoin)**: See väline Wallet Bitcoin saab Tailscale IP Address abil otse ühendada oma Umbreli Electrumi serveriga:
+- **Sparrow wallet (Bitcoin)**: See väline Wallet Bitcoin saab Tailscale IP Address abil otse ühendada oma Umbreli Electrumi serveriga:
 
 
 
@@ -424,7 +424,7 @@ https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7
 
 
 
-- Zeus (välk)**: See Wallet mobiilne välk saab ühendada oma välgussõlme Umbrelil. Selle asemel, et konfigureerida lõpp-punkti `.onion', määrake lihtsalt oma Umbreli Tailscale IP ja Lightning API port. Võrreldes Toriga on ühendus kohene.
+- **Zeus (välk)**: See Wallet mobiilne välk saab ühendada oma välgussõlme Umbrelil. Selle asemel, et konfigureerida lõpp-punkti `.onion', määrake lihtsalt oma Umbreli Tailscale IP ja Lightning API port. Võrreldes Toriga on ühendus kohene.
 
 
 
@@ -483,7 +483,7 @@ Side on krüpteeritud (WireGuard) lisaks mis tahes krüpteerimisele, mida teie t
 
 ---
 
-Selle osa lõpetuseks: Tailscale'i integreerimine Umbrelisse võtab vaid paar klõpsu ja **parandab oluliselt teie isehostitava sõlme ligipääsetavust**. Saate Umbreli ja selle teenuseid hallata kõikjalt, turvaliselt ja tõhusalt, nagu oleksite kodus. See on eriti kasulik lahendus reaalajas töötavate rakenduste (Lightning) jaoks, mis kannatavad Tor'i latentsuse all, või üldisemalt iga isehosteri jaoks, kes otsib lihtsat privaatset ühendust. Kõik see ilma ühegi pordi** paljastamiseta teie kastis ja ilma keerulise võrgukonfigureerimiseta.
+Selle osa lõpetuseks: Tailscale'i integreerimine Umbrelisse võtab vaid paar klõpsu ja **parandab oluliselt teie isehostitava sõlme ligipääsetavust**. Saate Umbreli ja selle teenuseid hallata kõikjalt, turvaliselt ja tõhusalt, nagu oleksite kodus. See on eriti kasulik lahendus reaalajas töötavate rakenduste (Lightning) jaoks, mis kannatavad Tor'i latentsuse all, või üldisemalt iga isehosteri jaoks, kes otsib lihtsat privaatset ühendust. Kõik see ilma ühegi **pordi paljastamiseta** teie kastis ja ilma keerulise võrgukonfigureerimiseta.
 
 
 
@@ -507,7 +507,7 @@ Selle osa lõpetuseks: Tailscale'i integreerimine Umbrelisse võtab vaid paar kl
 
 
 
-**Device Sharing võimaldab teil kutsuda kedagi konkreetsele masinale juurdepääsu, andmata talle juurdepääsu kogu teie võrgule.
+**Device Sharing võimaldab teil kutsuda kedagi konkreetsele masinale juurdepääsu, andmata talle juurdepääsu kogu teie võrgule.**
 
 
 
@@ -531,7 +531,7 @@ Selle osa lõpetuseks: Tailscale'i integreerimine Umbrelisse võtab vaid paar kl
 
 
 
-** Otsese konkurendina töötab ZeroTier Layer 2 (Ethernet), võimaldades ringhäälingut/multisaadet, samas kui Tailscale töötab Layer 3 (IP). ZeroTier pakub suuremat võrgu paindlikkust, samas kui Tailscale eelistab lihtsat kasutust.
+**Otsese konkurendina töötab ZeroTier Layer 2 (Ethernet), võimaldades ringhäälingut/multisaadet, samas kui Tailscale töötab Layer 3 (IP). ZeroTier pakub suuremat võrgu paindlikkust, samas kui Tailscale eelistab lihtsat kasutust.**
 
 
 
@@ -557,8 +557,8 @@ Kokkuvõtteks võib öelda, et Tailscale on kaasaegne, lihtsusele orienteeritud 
 
 
 
-- Lihtsus ja jõudlus** - Kiire paigaldus kõigil platvormidel ilma keerulise võrgukonfiguratsioonita. Liiklus järgib kõige otsesemat teed teie masinate vahel (P2P võrgusilm), kasutades WireGuard-protokolli jõudlust ja ilma keskse serverita, mis piiraks läbilaskevõimet.
-- Turvalisus ja paindlikkus** - otsast lõpuni krüpteerimine, vähendatud rünnakupind ja täiustatud funktsioonid (ACL, SSO/MFA autentimine). Töötab isegi NATide taga või liikvel olles, alamvõrgu marsruuterid ja väljumissõlmed, et kohandada võrk vastavalt teie vajadustele.
+- **Lihtsus ja jõudlus** - Kiire paigaldus kõigil platvormidel ilma keerulise võrgukonfiguratsioonita. Liiklus järgib kõige otsesemat teed teie masinate vahel (P2P võrgusilm), kasutades WireGuard-protokolli jõudlust ja ilma keskse serverita, mis piiraks läbilaskevõimet.
+- **Turvalisus ja paindlikkus** - otsast lõpuni krüpteerimine, vähendatud rünnakupind ja täiustatud funktsioonid (ACL, SSO/MFA autentimine). Töötab isegi NATide taga või liikvel olles, alamvõrgu marsruuterid ja väljumissõlmed, et kohandada võrk vastavalt teie vajadustele.
 
 
 
@@ -568,16 +568,16 @@ Kokkuvõtteks võib öelda, et Tailscale on kaasaegne, lihtsusele orienteeritud 
 
 
 
-- Väline sõltuvus** - Teenus tugineb oma standardversioonis Tailscale Inc. infrastruktuurile. Seda sõltuvust saab vältida Headscale'i kaudu (isehostitav alternatiiv).
-- Muud piirangud** - Osaliselt suletud lähtekood, tasuta versiooni piirangud teatud edasijõudnud kasutusaladel, Layer 2 (broadcast/multicast) toetuse puudumine ja vajadus internetiühenduse loomiseks.
+- **Väline sõltuvus** - Teenus tugineb oma standardversioonis Tailscale Inc. infrastruktuurile. Seda sõltuvust saab vältida Headscale'i kaudu (isehostitav alternatiiv).
+- **Muud piirangud** - Osaliselt suletud lähtekood, tasuta versiooni piirangud teatud edasijõudnud kasutusaladel, Layer 2 (broadcast/multicast) toetuse puudumine ja vajadus internetiühenduse loomiseks.
 
 
 
-**Tailscale sobib ideaalselt üksikutele isehosteritele ja väikestele meeskondadele, arendajatele, kes vajavad juurdepääsu hajutatud ressurssidele, VPN-i algajatele ja mobiilsetele kasutajatele. Täielikku kontrolli vajavate ettevõtete jaoks võivad olla eelistatumad teised lahendused, näiteks Headscale või WireGuard otse.
+**Tailscale sobib ideaalselt üksikutele isehosteritele ja väikestele meeskondadele, arendajatele, kes vajavad juurdepääsu hajutatud ressurssidele, VPN-i algajatele ja mobiilsetele kasutajatele. Täielikku kontrolli vajavate ettevõtete jaoks võivad olla eelistatumad teised lahendused, näiteks Headscale või WireGuard otse.**
 
 
 
-**Esita Headscale täielikku isehostimist, API- ja DevOps-integratsiooni (Terraform) või alternatiive nagu Innernet (sarnane, kuid täielikult isehostitav) ja Netmaker.
+**Esita Headscale täielikku isehostimist, API- ja DevOps-integratsiooni (Terraform) või alternatiive nagu Innernet (sarnane, kuid täielikult isehostitav) ja Netmaker.**
 
 
 
@@ -595,9 +595,9 @@ Tailscale on tänu oma lihtsusele ja tõhususele hädavajalik vahend isehostingu
 
 
 
-- Tailscale Dokumentatsioonikeskus**: [docs.tailscale.com](https://docs.tailscale.com) - Täielik ingliskeelne dokumentatsioon, paigaldusjuhendid, õpetused ja tehnilised viited.
-- Kuidas Tailscale töötab**: [How Tailscale Works](https://tailscale.com/blog/how-tailscale-works) - Üksikasjalik artikkel, mis selgitab Tailscale'i sisemist toimimist.
-- Muudatused**: [tailscale.com/changelog](https://tailscale.com/changelog) - Uuenduste ja uute funktsioonide jälgimine.
+- **Tailscale Dokumentatsioonikeskus**: [docs.tailscale.com](https://docs.tailscale.com) - Täielik ingliskeelne dokumentatsioon, paigaldusjuhendid, õpetused ja tehnilised viited.
+- **Kuidas Tailscale töötab**: [How Tailscale Works](https://tailscale.com/blog/how-tailscale-works) - Üksikasjalik artikkel, mis selgitab Tailscale'i sisemist toimimist.
+- **Muudatused**: [tailscale.com/changelog](https://tailscale.com/changelog) - Uuenduste ja uute funktsioonide jälgimine.
 
 
 
@@ -607,9 +607,9 @@ Tailscale on tänu oma lihtsusele ja tõhususele hädavajalik vahend isehostingu
 
 
 
-- Kodulabori** õpetused: [tailscale.com/kb/1310/homelab](https://tailscale.com/kb/1310/homelab) - Konkreetsed juhendid isemajutamiseks.
-- Väljumissõlme konfigureerimine**: [tailscale.com/kb/1103/exit-nodes](https://tailscale.com/kb/1103/exit-nodes) - Üksikasjalik juhend Exit Node'i konfigureerimiseks.
-- Kasutage Taildrop**: [tailscale.com/kb/1106/taildrop](https://tailscale.com/kb/1106/taildrop) - Failide edastamine Tailscale'i seadmete vahel.
+- **Kodulabori** õpetused: [tailscale.com/kb/1310/homelab](https://tailscale.com/kb/1310/homelab) - Konkreetsed juhendid isemajutamiseks.
+- **Väljumissõlme konfigureerimine**: [tailscale.com/kb/1103/exit-nodes](https://tailscale.com/kb/1103/exit-nodes) - Üksikasjalik juhend Exit Node'i konfigureerimiseks.
+- Kasutage **Taildrop**: [tailscale.com/kb/1106/taildrop](https://tailscale.com/kb/1106/taildrop) - Failide edastamine Tailscale'i seadmete vahel.
 
 
 
@@ -619,7 +619,7 @@ Tailscale on tänu oma lihtsusele ja tõhususele hädavajalik vahend isehostingu
 
 
 
-- Tailscale vs. muud lahendused**: [tailscale.com/compare](https://tailscale.com/compare) - üksikasjalikud võrdlused teiste VPN- ja võrgulahendustega (ZeroTier, OpenVPN jne).
+- **Tailscale vs. muud lahendused**: [tailscale.com/compare](https://tailscale.com/compare) - üksikasjalikud võrdlused teiste VPN- ja võrgulahendustega (ZeroTier, OpenVPN jne).
 
 
 
@@ -629,9 +629,9 @@ Tailscale on tänu oma lihtsusele ja tõhususele hädavajalik vahend isehostingu
 
 
 
-- Reddit**: [r/Tailscale](https://www.reddit.com/r/tailscale/) - arutelud, küsimused ja tagasiside.
-- GitHub**: [github.com/tailscale/tailscale](https://github.com/tailscale/tailscale) - kliendi lähtekood, kus saab jälgida arengut ja teatada probleemidest.
-- Arutelu**: [discord.gg/tailscale](https://discord.gg/tailscale) - kasutajate ja arendajate kogukond.
+- **Reddit**: [r/Tailscale](https://www.reddit.com/r/tailscale/) - arutelud, küsimused ja tagasiside.
+- **GitHub**: [github.com/tailscale/tailscale](https://github.com/tailscale/tailscale) - kliendi lähtekood, kus saab jälgida arengut ja teatada probleemidest.
+- **Arutelu**: [discord.gg/tailscale](https://discord.gg/tailscale) - kasutajate ja arendajate kogukond.
 
 
 

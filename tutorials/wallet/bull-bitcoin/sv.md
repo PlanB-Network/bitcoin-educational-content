@@ -29,9 +29,9 @@ Wallet svarar på en stor utmaning: Bitcoin-nätverksavgifter är olämpliga fö
 
 
 
-- Bitcoin-nätverk (onchain)**: Idealisk för medel- till långtidslagring av UTXO:er och transaktioner med stora värden, där avgifterna proportionellt sett är försumbara.
-- Liquid Network**: Utformad för snabba (~2 minuter), mer konfidentiella (dolda belopp) och billiga transaktioner, perfekt för att samla små belopp eller skydda din integritet.
-- Lightning**-nätverk: Optimerat för omedelbara betalningar till låg kostnad, lämpligt för dagliga transaktioner med små till medelstora värden.
+- **Bitcoin-nätverk (onchain)**: Idealisk för medel- till långtidslagring av UTXO:er och transaktioner med stora värden, där avgifterna proportionellt sett är försumbara.
+- **Liquid Network**: Utformad för snabba (~2 minuter), mer konfidentiella (dolda belopp) och billiga transaktioner, perfekt för att samla små belopp eller skydda din integritet.
+- **Lightning-nätverk**: Optimerat för omedelbara betalningar till låg kostnad, lämpligt för dagliga transaktioner med små till medelstora värden.
 
 
 
@@ -70,10 +70,10 @@ Innan du börjar använda **Bull Bitcoin Mobile** ska du se till att du har föl
 
 
 
-- Kompatibel smartphone**: En **iOS** (iPhone eller iPad) eller **Android** enhet
+- **Kompatibel smartphone**: En **iOS** (iPhone eller iPad) eller **Android** enhet
 - Internetanslutning
-- Säkra backup-media**: Skriv ner din **återställningsfras** (12 ord) på papper eller metall och förvara den på en säker plats.
-- Grundläggande kunskaper**: En minimiförståelse för Bitcoin-koncept (adresser, transaktioner, avgifter) är användbar, även om denna handledning förklarar varje steg för nybörjare.
+- **Säkra backup-media**: Skriv ner din **återställningsfras** (12 ord) på papper eller metall och förvara den på en säker plats.
+- **Grundläggande kunskaper**: En minimiförståelse för Bitcoin-koncept (adresser, transaktioner, avgifter) är användbar, även om denna handledning förklarar varje steg för nybörjare.
 
 
 
@@ -83,10 +83,10 @@ Innan du börjar använda **Bull Bitcoin Mobile** ska du se till att du har föl
 
 
 
-- Ladda ner ansökan** :
- - [Google Play Store] (https://play.google.com/store/apps/details?id=com.bullbitcoin.mobile&pcampaignid=web_share)** Ladda ner från applikationsbutiken för Android-enheter
- - [GitHub] (https://github.com/SatoshiPortal/bullbitcoin-mobile/releases) Ladda ner APK för Android-enheter direkt**
- - [iOS] (https://testflight.apple.com/join/FJbE4JPN)** Ladda ner via TestFlight för Apple-enheter
+- Ladda ner **ansökan**:
+- [Google Play Store](https://play.google.com/store/apps/details?id=com.bullbitcoin.mobile&pcampaignid=web_share) **Ladda ner från applikationsbutiken för Android-enheter**
+- [GitHub] (https://github.com/SatoshiPortal/bullbitcoin-mobile/releases) **Ladda ner APK för Android-enheter direkt**
+- [iOS](https://testflight.apple.com/join/FJbE4JPN) **Ladda ner via TestFlight för Apple-enheter**
  - Kontrollera utvecklarens namn (Bull Bitcoin) för att undvika bedrägliga applikationer.
  - Se till att den nedladdade versionen motsvarar den senaste stabila versionen som anges på GitHub.
  - Bull Bitcoin Mobile är **öppen källkod**. För att se koden: [BullBitcoin GitHub](https://github.com/orgs/SatoshiPortal/projects/49)
@@ -113,8 +113,8 @@ Programmet använder en unik återställningsfras på 12 ord för båda portföl
 
 
 
- - säkra Bitcoin' Wallet**: För transaktioner i Bitcoin-nätverket (onchain)
- - omedelbara betalningar" Wallet**: För omedelbara transaktioner på Liquid- och Lightning-nätverk
+- **säkra Bitcoin Wallet**: För transaktioner i Bitcoin-nätverket (onchain)
+- **omedelbara betalningar Wallet**: För omedelbara transaktioner på Liquid- och Lightning-nätverk
 
 
 
@@ -249,7 +249,7 @@ På startskärmen kan du :
 
 
 
-- Exempel på en automatiskt genererad URI** :
+- Exempel på en automatiskt genererad **URI**:
 
 
 
@@ -261,7 +261,7 @@ bitcoin:bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq?amount=2.1e-7&message=Exemp
 
 
 
-- Användning**: Kopiera URI:n för att dela den med avsändaren, eller låt honom skanna QR-koden.
+- **Användning**: Kopiera URI:n för att dela den med avsändaren, eller låt honom skanna QR-koden.
 
 
 
@@ -297,7 +297,7 @@ bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq
 
 
 
-- Användning**: Kopiera Address för att dela den med avsändaren, eller låt honom skanna QR-koden.
+- **Användning**: Kopiera Address för att dela den med avsändaren, eller låt honom skanna QR-koden.
 
 
 
@@ -308,7 +308,7 @@ bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq
 
 
 - Varför använda en ny Address för varje transaktion? Detta **skyddar din integritet** genom att förhindra att flera betalningar kopplas till samma Address och begränsar möjligheterna till spårning på Blockchain.
- - Som standard genererar Bull Bitcoin automatiskt en oanvänd Address.**
+- Som standard genererar Bull Bitcoin automatiskt en oanvänd Address.
  - Du kan tvinga fram skapandet av en ny Address genom att klicka på **"New Address"** längst ned på skärmen.
  - Alla dina adresser är länkade till din seed-fras: oavsett hur många adresser du använder kommer din portfölj att visa ett enda saldo och kan automatiskt konsolidera medel när en leverans görs.
 
@@ -316,7 +316,7 @@ bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq
 
 
 
-- Tips: Använd alltid den nya Address** som tillhandahålls av Bull Bitcoin, såvida du inte har ett specifikt behov (t.ex. en offentlig Address för att ta emot donationer).
+- Tips: Använd alltid den nya **Address** som tillhandahålls av Bull Bitcoin, såvida du inte har ett specifikt behov (t.ex. en offentlig Address för att ta emot donationer).
 
 
 
@@ -412,29 +412,29 @@ På startskärmen kan du :
 
 
 
-- Mekanism**: Bull Bitcoin Wallet är en Wallet som gör det möjligt att göra och ta emot betalningar via Lightning. Medel som tas emot via Lightning lagras i **Liquid**-nätverket (i Wallet Instant Payments) tack vare en automatisk swap via **Boltz**. Detta ger dig möjlighet att interagera med Lightning utan att behöva hantera likviditetskanaler, samtidigt som du förblir i självförvar.
+- **Mekanism**: Bull Bitcoin Wallet är en Wallet som gör det möjligt att göra och ta emot betalningar via Lightning. Medel som tas emot via Lightning lagras i **Liquid**-nätverket (i Wallet Instant Payments) tack vare en automatisk swap via **Boltz**. Detta ger dig möjlighet att interagera med Lightning utan att behöva hantera likviditetskanaler, samtidigt som du förblir i självförvar.
 
 
 
 
 
-- Gränser:**
- - Ett minimibelopp** på 100 satoshis (fr.o.m. 19/07/2025) när du generate Invoice.
- - Du betalar kostnaderna**, som dras av från det belopp som avsändaren skickar, till skillnad från mottagande med Wallet Lightning native, där endast avsändaren betalar överföringskostnaderna utöver det skickade beloppet. Per 2025-07-19 dras 47 Sats av från det skickade beloppet.
+- **Gränser:**
+- Ett **minimibelopp** på 100 satoshis (fr.o.m. 19/07/2025) när du generate Invoice.
+- Du betalar kostnaderna, som dras av från det belopp som avsändaren skickar, till skillnad från mottagande med **Wallet Lightning native**, där endast avsändaren betalar överföringskostnaderna utöver det skickade beloppet. Per 2025-07-19 dras 47 Sats av från det skickade beloppet.
 
 
 
 
 
-- Förmåner** :
- - Självförvaltande**: Dina pengar förblir under din kontroll, lagrade på Liquid Network.
- - Inga höga avgifter på kedjan**: Lagring på Liquid undviker kostsamma insättningar på kedjan för att öppna din Lightning-kanal eller lägga till likviditet. Dessa åtgärder kan utföras senare, när det belopp som ackumulerats på Liquid motiverar avgifterna.
+- **Förmåger**:
+- **Självförvaltande**: Dina pengar förblir under din kontroll, lagrade på Liquid Network.
+- **Inga höga avgifter på kedjan**: Lagring på Liquid undviker kostsamma insättningar på kedjan för att öppna din Lightning-kanal eller lägga till likviditet. Dessa åtgärder kan utföras senare, när det belopp som ackumulerats på Liquid motiverar avgifterna.
 
 
 
 
 
-- Tips:** Om avsändaren har Wallet Bull Bitcoin, använd Liquid Network direkt för att undvika bytesavgifter
+- **Tips:** Om avsändaren har Wallet Bull Bitcoin, använd Liquid Network direkt för att undvika bytesavgifter
 
 
 
@@ -456,13 +456,13 @@ På startskärmen kan du :
 
 
 
-- Giltighetstid Invoice:** Blixten Invoice är giltig i **12 timmar**. Efter denna tid upphör den att gälla och kan inte längre betalas. En ny Invoice måste genereras.
+- **Giltighetstid Invoice:** Blixten Invoice är giltig i **12 timmar**. Efter denna tid upphör den att gälla och kan inte längre betalas. En ny Invoice måste genereras.
 
 
 
 
 
-- Användning**: Kopiera Invoice för att dela den med avsändaren, eller låt honom skanna QR-koden.
+- **Användning**: Kopiera Invoice för att dela den med avsändaren, eller låt honom skanna QR-koden.
 
 
 
@@ -563,27 +563,27 @@ Därefter kan du justera parametrarna:
 
 
 
-- Avgifter**: Du kan välja :
-  - Antingen beräknas transaktionshastigheten** för din transaktion och de tillhörande avgifterna
-  - Antingen avgifterna**, i Absolut avgifter (totala avgifter i satoshis) eller Relativa avgifter (avgifter per byte), och hastigheten på din transaktion kommer att uppskattas
+- **Avgifter**: Du kan välja :
+- Antingen beräknas **transaktionshastigheten** för din transaktion och de tillhörande avgifterna
+- Antingen **avgifterna**, i Absolut avgifter (totala avgifter i satoshis) eller Relativa avgifter (avgifter per byte), och hastigheten på din transaktion kommer att uppskattas
 
 
 
 
 
-- Avancerade inställningar** :
+- **Avancerade inställningar**:
 
 
 
 
 
- - Replace-by-fee (RBF)** : Denna funktion är aktiverad som standard och påskyndar transaktionen genom att en högre avgift betalas (se bilaga 4 för mer information).
+- **Replace-by-fee (RBF)**: Denna funktion är aktiverad som standard och påskyndar transaktionen genom att en högre avgift betalas (se bilaga 4 för mer information).
 
 
 
 
 
- - Manuellt val av UTXO**: Om dina medel förvaras på flera olika Wallet-adresser kan du välja från vilka adresser du vill skicka medlen. Varför bör du göra detta? Med den ökande användningen av Bitcoin stiger överföringsavgifterna. Att skicka från flera adresser med små belopp är dyrare än att skicka från en enda Address, men om du gör det nu undviker du att behöva göra det senare, när avgifterna kommer att vara ännu högre. Detta kallas **konsolidering av UTXO.**
+- Manuellt val av **UTXO**: Om dina medel förvaras på flera olika Wallet-adresser kan du välja från vilka adresser du vill skicka medlen. Varför bör du göra detta? Med den ökande användningen av Bitcoin stiger överföringsavgifterna. Att skicka från flera adresser med små belopp är dyrare än att skicka från en enda Address, men om du gör det nu undviker du att behöva göra det senare, när avgifterna kommer att vara ännu högre. Detta kallas **konsolidering av UTXO**.
 
 
 
@@ -593,7 +593,7 @@ Därefter kan du justera parametrarna:
 
 
 
-- Sändning med PayJoin**: Om funktionen har aktiverats av den mottagare som angav URI:n, t.ex. :
+- **Sändning med PayJoin**: Om funktionen har aktiverats av den mottagare som angav URI:n, t.ex. :
 
 
 
@@ -679,7 +679,7 @@ Ta dig tid att kontrollera alla parametrar, särskilt mängden och destinationen
 
 
 
-- Avgifter**: Proportionell mot transaktionens komplexitet, i allmänhet 0,1 sat/vB, dvs. 20-40 satoshis för en enkel transaktion (33 Sats per 22/07/2025).
+- **Avgifter**: Proportionell mot transaktionens komplexitet, i allmänhet 0,1 sat/vB, dvs. 20-40 satoshis för en enkel transaktion (33 Sats per 22/07/2025).
 
 
 
@@ -750,29 +750,29 @@ Obs: beloppet måste vara större än 21 Sats den 23/07/2025
 
 
 
-- Mekanism**: Medel dras från **Instant Payments Wallet** (Liquid) och omvandlas via en **Liquid → Lightning**-swap med **Boltz**.
+- **Mekanism**: Medel dras från **Instant Payments Wallet** (Liquid) och omvandlas via en **Liquid → Lightning**-swap med **Boltz**.
 
 
 
 
 
-- Gränser:**
- - Ett minimibelopp** högre än en Wallet Lightning native (se ovan)
- - Kostnader** plus Liquid → Lightning swap via Boltz
+- **Gränser:**
+- Ett **minimibelopp** högre än en Wallet Lightning native (se ovan)
+- **Kostnader** plus Liquid → Lightning swap via Boltz
 
 
 
 
 
-- Förmåner** :
- - Självförvaltande**: Dina pengar förblir under din kontroll, lagras på Liquid Network och kan överföras via Lightning om så krävs
- - Inga höga avgifter på kedjan**: Lagring på Liquid har sparat dig kostsamma onchain-insättningar för att öppna din Lightning-kanal eller lägga till likviditet. Dessa operationer kan utföras senare, när det belopp som ackumulerats på Liquid motiverar avgifterna.
+- **Förmåger**:
+- **Självförvaltande**: Dina pengar förblir under din kontroll, lagras på Liquid Network och kan överföras via Lightning om så krävs
+- **Inga höga avgifter på kedjan**: Lagring på Liquid har sparat dig kostsamma onchain-insättningar för att öppna din Lightning-kanal eller lägga till likviditet. Dessa operationer kan utföras senare, när det belopp som ackumulerats på Liquid motiverar avgifterna.
 
 
 
 
 
-- Tips:** Om mottagaren har Wallet Bull Bitcoin, använd Liquid Network direkt för att undvika byteskostnader
+- **Tips:** Om mottagaren har Wallet Bull Bitcoin, använd Liquid Network direkt för att undvika byteskostnader
 
 
 
@@ -803,7 +803,7 @@ Ta dig tid att kontrollera alla parametrar, särskilt mängden och destinationen
 
 
 
-- Via startskärmen** :
+- Via **startskärmen**:
  - Klicka på **Secure Bitcoin Wallet** för att se **onchain**-transaktioner, eller på **Instant Payments Wallet** för **Liquid**- och **Lightning**-transaktioner.
  - Historiken visas direkt under portföljens totalvärde, filtrerad enligt den typ av Wallet som valts.
 
@@ -815,7 +815,7 @@ Ta dig tid att kontrollera alla parametrar, särskilt mängden och destinationen
 
 
 
-- Via den särskilda sidan** :
+- Via den särskilda sidan:
  - På startskärmen klickar du på **historiesymbolen** (klocksymbol eller liknande).
  - Öppna en sida som listar alla transaktioner, med filter efter typ av åtgärd: **Send**, **Receive**, **Swap**, **PayJoin**, **Sell**, **Buy** (Obs: Sell och Buy är under utveckling och är inte tillgängliga för närvarande, 20 juli 2025).
 
@@ -864,57 +864,57 @@ Sidan "Settings" kan nås direkt från startsidan för Bull Bitcoin-applikatione
 
 
 
-- Wallet Säkerhetskopiering**: Visar portföljens återställningsfras för säker säkerhetskopiering. Se avsnitt 3. om skapande av portföljer för bästa praxis för hantering och lagring av återställningsfrasen.
+- **Wallet Säkerhetskopiering**: Visar portföljens återställningsfras för säker säkerhetskopiering. Se avsnitt 3. om skapande av portföljer för bästa praxis för hantering och lagring av återställningsfrasen.
 
 
 
 
 
-- Wallet Detaljer** :
- - Pubnyckel**: Publik nyckel associerad med Wallet, används för att generate Bitcoin mottagningsadresser.
- - Avledningssökväg**: Härledningsväg som används för att generate Wallet adresser från den privata nyckeln.
+- **Wallet Detaljer**:
+- **Pubnyckel**: Publik nyckel associerad med Wallet, används för att generate Bitcoin mottagningsadresser.
+- **Avledningssökväg**: Härledningsväg som används för att generate Wallet adresser från den privata nyckeln.
 
 
 
 
 
-- Electrum-server (Bitcoin-nod)**: Skapa en anslutning till en anpassad Bitcoin-nod för transaktioner i kedjan.
+- **Electrum-server (Bitcoin-nod)**: Skapa en anslutning till en anpassad Bitcoin-nod för transaktioner i kedjan.
 
 
 
 
 
-- PIN-kod**: Aktivera och/eller ändra säkerhetskoden för att skydda åtkomsten till applikationen och Wallet-funktionerna.
+- **PIN-kod**: Aktivera och/eller ändra säkerhetskoden för att skydda åtkomsten till applikationen och Wallet-funktionerna.
 
 
 
 
 
-- Valuta**: Välj om du vill visa belopp i BTC eller Sats, och standardvalutan för fiat (dollar, euro etc.).
+- **Valuta**: Välj om du vill visa belopp i BTC eller Sats, och standardvalutan för fiat (dollar, euro etc.).
 
 
 
 
 
-- Inställningar för automatisk swap**: Med funktionen _Auto Swap_ kan du automatisera överföringen av din BTC från **Instant Payments Wallet (Liquid)** till din **Bitcoin On-Chain** Wallet, så snart beloppet når en tröskel som du anser vara tillräckligt hög för att motivera transaktionsavgiften.
+- **Inställningar för automatisk swap**: Med funktionen _Auto Swap_ kan du automatisera överföringen av din BTC från **Instant Payments Wallet (Liquid)** till din **Bitcoin On-Chain** Wallet, så snart beloppet når en tröskel som du anser vara tillräckligt hög för att motivera transaktionsavgiften.
 
 
 
 
 
-- Loggar**: Visningsbara aktivitetsloggar som kan delas med teknisk support för att underlätta felsökning.
+- **Loggar**: Visningsbara aktivitetsloggar som kan delas med teknisk support för att underlätta felsökning.
 
 
 
 
 
-- Telegramåtkomst för support** : Direktlänk till den officiella Telegram-kanalen för användarhjälp.
+- **Telegramåtkomst för support**: Direktlänk till den officiella Telegram-kanalen för användarhjälp.
 
 
 
 
 
-- Github-åtkomst** : Länk till [Bull Bitcoin Github repository] (https://github.com/SatoshiPortal) för att visa öppen källkod eller rapportera problem.
+- **Github-åtkomst**: Länk till [Bull Bitcoin Github repository](https://github.com/SatoshiPortal) för att visa öppen källkod eller rapportera problem.
 
 
 
@@ -956,8 +956,8 @@ Sidan "Settings" kan nås direkt från startsidan för Bull Bitcoin-applikatione
 
 
 
-- Mottagning** (Address Supply): PayJoin är aktiverad som standard.
-- Skicka** : Wallet upptäcker automatiskt en PayJoin URI och konfigurerar transaktionen i enlighet med detta, t.ex:
+- **Mottagning** (Address Supply): PayJoin är aktiverad som standard.
+- **Skicka**: Wallet upptäcker automatiskt en PayJoin URI och konfigurerar transaktionen i enlighet med detta, t.ex:
 
 
 
@@ -973,8 +973,8 @@ bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPA
 
 
 
-- Förbättrad sekretess**: PayJoin ogiltigförklarar antagandet att alla poster i en transaktion tillhör en enda enhet. Med PayJoin kommer inmatningar från både avsändare och mottagare, vilket bryter detta antagande.
-- Maskering av belopp** : Det faktiska utväxlade beloppet visas inte direkt i utdata. Det beräknas som skillnaden mellan mottagarens inkommande och utgående UTXO, vilket gör analysen missvisande.
+- **Förbättrad sekretess**: PayJoin ogiltigförklarar antagandet att alla poster i en transaktion tillhör en enda enhet. Med PayJoin kommer inmatningar från både avsändare och mottagare, vilket bryter detta antagande.
+- **Maskering av belopp**: Det faktiska utväxlade beloppet visas inte direkt i utdata. Det beräknas som skillnaden mellan mottagarens inkommande och utgående UTXO, vilket gör analysen missvisande.
 
 
 
@@ -1038,7 +1038,7 @@ Följ dessa rekommendationer för att använda **Bull Bitcoin Mobile** på ett s
 
 
 
-- Säkra din återställningsfras** :
+- **Säkra din återställningsfras**:
  - Självstudier: [Save your Mnemonic phrase](https://planb.network/fr/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270)
  - Cours [La phrase mnémonique](https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/8f9340c1-e6dc-5557-a2f2-26c9669987d5)
 
@@ -1046,7 +1046,7 @@ Följ dessa rekommendationer för att använda **Bull Bitcoin Mobile** på ett s
 
 
 
-- Använd säker autentisering** :
+- **Använd säker autentisering**:
  - Aktivera en **stark PIN-kod** eller **biometrisk autentisering** (fingeravtryck eller ansiktsigenkänning) för att skydda åtkomsten till programmet.
  - Dela aldrig med dig av din PIN-kod eller biometriska data.
 
@@ -1054,7 +1054,7 @@ Följ dessa rekommendationer för att använda **Bull Bitcoin Mobile** på ett s
 
 
 
-- Skydda din integritet** :
+- **Skydda din integritet**:
  - generate en ny Address för varje onchain eller Liquid-mottagning för att begränsa spårning på Blockchain.
  - Använd PayJoin när det är tillgängligt för att öka sekretessen avseende det belopp som skickas vidare i kedjan
  - För maximal sekretess, anslut din Wallet till din egen Bitcoin-nod via en Electrum-server istället för att använda den offentliga noden
@@ -1063,23 +1063,23 @@ Följ dessa rekommendationer för att använda **Bull Bitcoin Mobile** på ett s
 
 
 
-- Välj det nätverk som passar bäst för dina behov** :
- - Onchain**: Företrädesvis för långvarig förvaring eller transaktioner med stora värden (avgifter försumbara i förhållande till beloppet).
- - Liquid**: Används för snabba, billiga överföringar med ökad sekretess.
- - Blixten**: Välj omedelbara överföringar till låg kostnad för små belopp. Om ni är två Wallet Bull Bitcoin användare, välj Liquid för att undvika Lightning <> Liquid swapavgifter via Boltz.
+- **Välj det nätverk som passar bäst för dina behov**:
+- **Onchain**: Företrädesvis för långvarig förvaring eller transaktioner med stora värden (avgifter försumbara i förhållande till beloppet).
+- **Liquid**: Används för snabba, billiga överföringar med ökad sekretess.
+- **Blixten**: Välj omedelbara överföringar till låg kostnad för små belopp. Om ni är två Wallet Bull Bitcoin användare, välj Liquid för att undvika Lightning <> Liquid swapavgifter via Boltz.
 
 
 
 
 
-- Kontrollera alltid leveransadresser** :
+- **Kontrollera alltid leveransadresser**:
  - Innan du skickar pengar, kontrollera Address noggrant. Pengar som skickas till fel Address är förlorade för alltid. Använd kopiera/klistra in eller QR-kodskanning, kopiera/ändra aldrig en Address för hand.
 
 
 
 
 
-- Optimera kostnaderna** :
+- **Optimera kostnaderna**:
  - För transaktioner i kedjan ska du välja lämpliga avgifter (långsam, medelhög, snabb) beroende på hur brådskande ärendet är och hur mycket nätverket är överbelastat.
  - Använd Liquid eller Lightning för små mängder.
  - Aktivera Replace-by-fee (RBF) (se bilaga 4) för kedjeförsändelser om du förväntar dig ett behov av att påskynda bekräftelsen.
@@ -1099,12 +1099,12 @@ Följ dessa rekommendationer för att använda **Bull Bitcoin Mobile** på ett s
 
 
 
-- Officiella länkar och support:**
- - [staff@bitcoinsupport.com](mailto:staff@bitcoinsupport.com)**, support@bullbitcoin.com : e-post för support
- - [Bull Bitcoin officiella webbplats](https://bullbitcoin.com/) :** Information om Bull Bitcoin tjänster, skapande av konto, tillgång till applikationen
- - [GitHub Bull Bitcoin Mobile] (https://github.com/SatoshiPortal/bullbitcoin-mobile) :** Se kod, utveckling och färdplan, bidra till utvecklingen av...
- - [Konto X - Twitter Bull Bitcoin](https://x.com/BullBitcoin_)**
- - Telegram**-grupp för Wallet mobile: gruppchatt med support, se sidan "Inställningar".
+- **Officiella länkar och support:**
+- [staff@bitcoinsupport.com](mailto:staff@bitcoinsupport.com), **support@bullbitcoin.com** : e-post för support
+- [Bull Bitcoin officiella webbplats](https://bullbitcoin.com/): **Information om Bull Bitcoin tjänster, skapande av konto, tillgång till applikationen**
+- [GitHub Bull Bitcoin Mobile](https://github.com/SatoshiPortal/bullbitcoin-mobile): **Se kod, utveckling och färdplan, bidra till utvecklingen av...**
+- [Konto X - Twitter Bull Bitcoin](https://x.com/BullBitcoin_)
+- **Telegram-grupp** för Wallet mobile: gruppchatt med support, se sidan "Inställningar".
 
 
 
@@ -1119,7 +1119,7 @@ Följ dessa rekommendationer för att använda **Bull Bitcoin Mobile** på ett s
 
 
 
-- Utbildning och handledning:** **[Plan ₿ Network](https://planb.network/)** :
+- **Utbildning och handledning:** **[Plan ₿ Network](https://planb.network/)** :
  - Säkra din återställningsfras
 
 
@@ -1133,8 +1133,8 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Liquid Network** :
- - [Ordlista] (https://planb.network/resources/glossary/liquid-network)**
+- **Liquid Network** :
+- [Ordlista](https://planb.network/resources/glossary/liquid-network)
 
 
 
@@ -1145,8 +1145,8 @@ https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
-- Lightning Network** :
- - [Ordlista] (https://planb.network/resources/glossary/lightning-network)**
+- **Lightning Network**:
+- [Ordlista](https://planb.network/resources/glossary/lightning-network)
 
 
 
@@ -1184,31 +1184,31 @@ Bull Bitcoin utmärker sig för sina Commitment till Cypherpunk-principer och Bi
 
 
 
-- Exklusivt fokus på Bitcoin** : Plattformen är trogen visionen om en decentraliserad, censurresistent valuta.
+- **Exklusivt fokus på Bitcoin**: Plattformen är trogen visionen om en decentraliserad, censurresistent valuta.
 
 
 
 
 
-- Icke-förvaltare** : Användare behåller full kontroll över sina Bitcoins genom att skicka medel till sina egna portföljer.
+- **Icke-förvaltare**: Användare behåller full kontroll över sina Bitcoins genom att skicka medel till sina egna portföljer.
 
 
 
 
 
-- Konfidentialitet**: Minimerad insamling av personuppgifter, med KYC-fria köpalternativ för transaktioner under 999 USD. Uppgifterna skyddas i enlighet med gällande regler (FINTRAC i Kanada, AMF i Frankrike).
+- **Konfidentialitet**: Minimerad insamling av personuppgifter, med KYC-fria köpalternativ för transaktioner under 999 USD. Uppgifterna skyddas i enlighet med gällande regler (FINTRAC i Kanada, AMF i Frankrike).
 
 
 
 
 
-- Öppenhet**: Inga dolda avgifter, kostnaderna ingår i spreaden (skillnaden mellan köp- och försäljningspris).
+- **Öppenhet**: Inga dolda avgifter, kostnaderna ingår i spreaden (skillnaden mellan köp- och försäljningspris).
 
 
 
 
 
-- Finansiell suveränitet**: Bull Bitcoin främjar oberoende från traditionella banksystem och centraliserade institutioner.
+- **Finansiell suveränitet**: Bull Bitcoin främjar oberoende från traditionella banksystem och centraliserade institutioner.
 
 
 
@@ -1218,19 +1218,19 @@ Bull Bitcoin utmärker sig för sina Commitment till Cypherpunk-principer och Bi
 
 
 
-- Fiat-insättning** : Användare kan fylla på sitt Bull Bitcoin-konto med fiatvaluta (CAD, EUR, etc.) via banköverföring eller kontant-/betalkort på utvalda kanadensiska postkontor.
+- **Fiat-insättning**: Användare kan fylla på sitt Bull Bitcoin-konto med fiatvaluta (CAD, EUR, etc.) via banköverföring eller kontant-/betalkort på utvalda kanadensiska postkontor.
 
 
 
 
 
-- Köp av Bitcoin** : Användare kan köpa Bitcoin som skickas direkt till deras portfölj utan depå, vilket garanterar total kontroll över sina medel.
+- **Köp av Bitcoin**: Användare kan köpa Bitcoin som skickas direkt till deras portfölj utan depå, vilket garanterar total kontroll över sina medel.
 
 
 
 
 
-- Schemalagt köp av Bitcoin**: Bull Bitcoin erbjuder en automatiserad återkommande köptjänst (DCA - Dollar Cost Averaging) med jämna mellanrum, med utnyttjande av ditt tillgängliga saldo, med direkt överföring av Bitcoins till en användarkontrollerad Wallet, vilket minskar effekten av prisvolatilitet.
+- **Schemalagt köp av Bitcoin**: Bull Bitcoin erbjuder en automatiserad återkommande köptjänst (DCA - Dollar Cost Averaging) med jämna mellanrum, med utnyttjande av ditt tillgängliga saldo, med direkt överföring av Bitcoins till en användarkontrollerad Wallet, vilket minskar effekten av prisvolatilitet.
 
 
 
@@ -1241,37 +1241,37 @@ Observera att ett alternativ som kallas "AutoBuy" låter dig konvertera dina fia
 
 
 
-- Köp Bitcoin till ett fast pris 'Limit Order'**: Låter dig köpa Bitcoin till ett pris som anges i förväg av användaren, vilket automatiskt verkställs när Bull Bitcoin-indexpriset når eller faller under den inställda gränsen.
+- **Köp Bitcoin till ett fast pris 'Limit Order'**: Låter dig köpa Bitcoin till ett pris som anges i förväg av användaren, vilket automatiskt verkställs när Bull Bitcoin-indexpriset når eller faller under den inställda gränsen.
 
 
 
 
 
-- Försäljning av Bitcoin**: Användare kan sälja sina Bitcoins och få pengarna i fiatvaluta direkt till sitt bankkonto via bank- eller SEPA-överföring.
+- **Försäljning av Bitcoin**: Användare kan sälja sina Bitcoins och få pengarna i fiatvaluta direkt till sitt bankkonto via bank- eller SEPA-överföring.
 
 
 
 
 
-- Betalningar från tredje part**: Bull Bitcoin gör det möjligt för användare att skicka fiat-pengar till bankkonton från sina Bitcoins, helt transparent för mottagaren.
+- **Betalningar från tredje part**: Bull Bitcoin gör det möjligt för användare att skicka fiat-pengar till bankkonton från sina Bitcoins, helt transparent för mottagaren.
 
 
 
 
 
-- Bull Bitcoin Prime**: Bull Bitcoin Prime är en premiumtjänst för förmögna kunder och företagskunder som erbjuder skräddarsydda lösningar och premiumsupport. Detta inkluderar tillgång till reducerade avgifter, en dedikerad kontoansvarig och skräddarsydda företagstjänster. Denna tjänst riktar sig till institutioner, professionella handlare och företagskunder som söker djupgående expertis och prioriterad behandling.
+- **Bull Bitcoin Prime**: Bull Bitcoin Prime är en premiumtjänst för förmögna kunder och företagskunder som erbjuder skräddarsydda lösningar och premiumsupport. Detta inkluderar tillgång till reducerade avgifter, en dedikerad kontoansvarig och skräddarsydda företagstjänster. Denna tjänst riktar sig till institutioner, professionella handlare och företagskunder som söker djupgående expertis och prioriterad behandling.
 
 
 
 
 
-- Mobil Wallet**: Bull Bitcoin erbjuder en öppen källkod, självförvaltande mobil Wallet, tillgänglig på Android och iOS, som stöder onchain-, Liquid- och Lightning Network-transaktioner.
+- **Mobil Wallet**: Bull Bitcoin erbjuder en öppen källkod, självförvaltande mobil Wallet, tillgänglig på Android och iOS, som stöder onchain-, Liquid- och Lightning Network-transaktioner.
 
 
 
 
 
-- Pedagogiskt stöd**: Gratis guider och personlig coachning för att hjälpa användare att skapa, säkra och hantera sina Bitcoin-portföljer, vilket stärker den finansiella självständigheten.
+- **Pedagogiskt stöd**: Gratis guider och personlig coachning för att hjälpa användare att skapa, säkra och hantera sina Bitcoin-portföljer, vilket stärker den finansiella självständigheten.
 
 
 
@@ -1281,10 +1281,10 @@ Observera att ett alternativ som kallas "AutoBuy" låter dig konvertera dina fia
 
 
 
-- Reglerande**: Bull Bitcoin är registrerad hos FINTRAC (Kanada) och AMF (Frankrike) och uppfyller kraven för KYC/AML.
+- **Reglerande**: Bull Bitcoin är registrerad hos FINTRAC (Kanada) och AMF (Frankrike) och uppfyller kraven för KYC/AML.
 
 
 
 
 
-- Säkerhet**: Användning av säkra portföljer och rekommendationer för offline-lagring. Personuppgifter lagras på Bulls Bitcoin-infrastruktur, som är 100% självhanterande och inte förlitar sig på någon tredje part.
+- **Säkerhet**: Användning av säkra portföljer och rekommendationer för offline-lagring. Personuppgifter lagras på Bulls Bitcoin-infrastruktur, som är 100% självhanterande och inte förlitar sig på någon tredje part.

@@ -233,8 +233,8 @@ Chcete-li provést převod, musíte manipulovat s místní peněženkou Bitcoin,
 Ve většině případů probíhá interakce mezi účastníky smlouvy (např. Alicí a Bobem) prostřednictvím vystavení faktury. Pokud Alice chce, aby Bob něco provedl (převod tokenu, reissue, akci v DAO atd.), Alice vytvoří fakturu s podrobnými instrukcemi pro Boba. Máme tedy :
 
 
-- Alice** (vystavitel faktury) ;
-- Bob** (který přijímá a provádí fakturaci).
+- **Alice** (vystavitel faktury) ;
+- **Bob** (který přijímá a provádí fakturaci).
 
 Na rozdíl od jiných ekosystémů není faktura RGB omezena na pojem platby. Může obsahovat jakýkoli požadavek spojený se smlouvou: odvolání klíče, hlasování, vytvoření rytiny (*rytiny*) na NFT atd. Příslušnou operaci lze popsat v rozhraní smlouvy. Odpovídající operaci lze popsat v rozhraní smlouvy.
 

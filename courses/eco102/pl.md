@@ -82,22 +82,24 @@ Gotowy, by odkryć, jak idee Frédérica Bastiata są aktualne do dziś? Dołąc
 
 <chapterId>7f21b617-9810-5484-ad1c-befc61432126</chapterId>
 
+:::video id=0f388c57-8767-49a7-942c-01af703598b3:::
+
 
 Ten kurs jest wprowadzeniem do Frédérica Bastiata, nierozpoznanego geniusza i latarni morskiej naszych czasów. W tym krótkim wprowadzeniu postaram się pomóc ci odkryć, kim był Frédéric Bastiat i jakie są główne tematy, które omówimy podczas tej serii.
 
-![image](assets/en/001.webp)
+![image](assets/pl/001.webp)
 
 
 Rzeczywiście, Frédéric Bastiat, który urodził się w 1801 roku i żył w pierwszej połowie XIX wieku, przez pewien czas pozostawał ważnym autorem. A potem stopniowo zniknął i dziś nikt o nim nie słyszy, nikt nie wie, kim jest. A jednak, paradoksalnie, autor ten został przetłumaczony na wiele języków, w tym włoski, rosyjski, hiszpański i angielski.
 
 
-![image](assets/en/002.webp)
+![image](assets/pl/002.webp)
 
 
 Okazuje się, że po II wojnie światowej jedna z jego książek została opublikowana w Stanach Zjednoczonych. Stała się ona bardzo znana, do tego stopnia, że sam Ronald Reagan powiedział, że jest to jego ulubiona książka, a ta mała książka nazywa się "Prawo" Bastiat jest więc jednym z dwóch najbardziej znanych francuskich autorów w Stanach Zjednoczonych, drugim jest dobrze znany we Francji Alexis de Tocqueville.
 
 
-![image](assets/en/003.webp)
+![image](assets/pl/003.webp)
 
 (Rynek w Mugron w Landes, miasto Bastiat)_
 
@@ -105,19 +107,19 @@ Okazuje się, że po II wojnie światowej jedna z jego książek została opubli
 Tak więc, nierozpoznany geniusz, ale także światło dla naszych czasów. Rzeczywiście, Frédéric Bastiat, który urodził się w Bayonne, najpierw mieszkał przez część swojego życia w Landes, gdzie zarządzał odziedziczoną posiadłością rolną i ostatecznie prowadził życie jako przedsiębiorca. A potem, bardzo wcześnie, zainteresował się ekonomią, podróżował do Anglii, spotkał Richarda Cobdena, który był liderem ruchu wolnego handlu. Bastiat był zafascynowany tym ruchem, był przekonany, że wolny handel jest rozwiązaniem dla Francji i postanowił spróbować rozpowszechnić swoje pomysły we Francji. Napisał artykuły, które odniosły duży sukces i przeniósł się do Paryża, aby prowadzić gazetę o nazwie Journal des économistes.
 
 
-![image](assets/en/004.webp)
+![image](assets/pl/004.webp)
 
 
 Był także filozofem i myślicielem o społeczeństwie, porządku społecznym, sprawiedliwości, prawie, myślicielem o prawach. Pod tym względem możemy powiedzieć, że Bastiat jest światłem dla naszych czasów. I na tym chciałbym zakończyć. Jest kimś, kto próbował zrozumieć działanie rynku politycznego. Oczywiście jest również obrońcą gospodarki rynkowej, dla którego ostatecznie gospodarka rynkowa jest najlepszym sposobem na tworzenie bogactwa. Ale poza tym, i to jest miejsce, w którym jest nierozpoznany, rozumiał mechanizmy rynku politycznego.
 
 
-![image](assets/en/005.webp)
+![image](assets/pl/005.webp)
 
 
 Kiedy został wybrany na deputowanego, było to w czasach Drugiej Republiki i od tego momentu to ludzie tworzyli prawa. W tym czasie Bastiat był świadkiem swego rodzaju inflacji praw we wszystkich kierunkach, w tym tworzenia usług publicznych, praw socjalnych, podatków itp.
 
 
-![image](assets/en/006.webp)
+![image](assets/pl/006.webp)
 
 ---
 
@@ -143,11 +145,13 @@ W tym kursie będziemy wspólnie podróżować przez myśl Frédérica Bastiata,
 
 <chapterId>e9d92b63-83dd-552c-84e1-dd535608c109</chapterId>
 
+:::video id=29e42254-63d4-4a23-94a7-284e70f20515:::
+
 
 W 1844 roku Frédéric Bastiat odbył podróż służbową do Hiszpanii. Po pobycie w Madrycie, Sewilli, Kadyksie i Lizbonie zdecydował się wyruszyć do Southampton i odwiedzić Anglię. W Londynie miał okazję uczestniczyć w spotkaniach Anti-Corn Law League, której pracę śledził z daleka. Poznał głównych przywódców tego stowarzyszenia, w tym Richarda Cobdena, który stał się jego przyjacielem.
 
 
-![image](assets/en/007.webp)
+![image](assets/pl/007.webp)
 
 
 To właśnie tam bieg jego życia radykalnie się zmienił. Sam wspomina, że jego powołanie jako ekonomisty zostało rozstrzygnięte w tym momencie. Po powrocie do Francji miał tylko jeden pomysł: uświadomić Francję o liberalnym ruchu mieszającym się w Anglii.
@@ -158,13 +162,13 @@ Frédéric Bastiat urodził się w Bayonne 30 czerwca 1801 roku. Osierocony w wi
 W 1825 r. odziedziczył majątek rolny po swoim dziadku, którym zarządzał jako "dżentelmen-rolnik". To właśnie wtedy zetknął się na własnej skórze z problemami wynikającymi z braku jasnej definicji praw własności. Postanowił zostać sędzią pokoju w swoim mieście Mugron, w sercu Landes, handlowym i żeglugowym skrzyżowaniu portów Bordeaux i Bayonne. Później został wybrany na członka Rady Generalnej Landów.
 
 
-![image](assets/en/008.webp)
+![image](assets/pl/008.webp)
 
 
 Szybko rozwinął pasję do ekonomii politycznej i studiował prace Adama Smitha, Jeana-Baptiste'a Saya, Destutta de Tracy, Charlesa Dunoyera i Charlesa Comte'a. Czytał angielskie gazety i to właśnie tam dowiedział się o istnieniu angielskiej ligi wolnego handlu.
 
 
-![image](assets/en/009.webp)
+![image](assets/pl/009.webp)
 
 (Say, Cobden, Smith, Chevalier, Dunoyer, Destutt de Tracy)_
 
@@ -172,7 +176,7 @@ Szybko rozwinął pasję do ekonomii politycznej i studiował prace Adama Smitha
 Po powrocie z Anglii napisał artykuł zatytułowany "On the Influence of English and French Tariffs on the Future of the Two Peoples", który wysłał do Journal des Économistes w Paryżu. Artykuł ukazał się w numerze z października 1844 r. i odniósł pełny sukces. Wszyscy podziwiali jego mocną i wnikliwą argumentację, jego trzeźwy i elegancki styl.
 
 
-![image](assets/en/010.webp)
+![image](assets/pl/010.webp)
 
 
 Następnie Journal des Économistes poprosił go o więcej artykułów, a kilku członków Towarzystwa Ekonomii Politycznej, w szczególności Horace Say, syn Jean-Baptiste Say, i Michel Chevalier, znany profesor, pogratulowali mu, zachęcając go do kontynuowania z nimi pracy nad rozpowszechnianiem prawd ekonomicznych. Był to początek nowego życia w Paryżu.
@@ -181,14 +185,14 @@ Następnie Journal des Économistes poprosił go o więcej artykułów, a kilku 
 Po raz pierwszy opublikował pierwszą serię Sofizmatów ekonomicznych, w których z odwagą i ironią atakował protekcjonistów. W Paryżu rozpoczął nawet kurs ekonomii politycznej w prywatnym pokoju, w którym chętnie uczestniczyła elita studencka.
 
 
-![image](assets/en/011.webp)
+![image](assets/pl/011.webp)
 
 
 W następnym roku założył "Stowarzyszenie na rzecz Wolnego Handlu" we Francji i rzucił się w wir walki z protekcjonizmem we Francji. Zebrał fundusze, stworzył cotygodniowy przegląd i wygłaszał wykłady w całym kraju.
 
 Pierwsze spotkanie odbyło się w Bordeaux 23 lutego 1846 r., podczas którego utworzono Bordeaux Association for Free Trade. Wkrótce ruch rozprzestrzenił się na całą Francję. W Paryżu, wśród członków Towarzystwa Ekonomistów powstał początkowy trzon, do którego dołączyli deputowani, przemysłowcy i handlowcy. Znaczące grupy powstały również w Marsylii, Lyonie i Hawrze.
 
-![image](assets/en/005.webp)
+![image](assets/pl/012.webp)
 
 
 Rewolucja lutowa 1848 r. obaliła monarchię Ludwika Filipa, znaną jako monarchia lipcowa (1830-1848), i zapoczątkowała II Republikę. Bastiat został wówczas wybrany na członka Zgromadzenia Ustawodawczego jako deputowany Landes. Wraz z Alexisem de Tocqueville'em zasiadał w centrolewicy, między monarchistami a socjalistami. Starał się tam bronić indywidualnych wolności, takich jak swobody obywatelskie, i sprzeciwiał się wszelkim restrykcyjnym politykom, niezależnie od tego, czy pochodziły one z prawicy, czy z lewicy. Został wybrany na wiceprzewodniczącego Komisji Finansów i nieustannie starał się przypominać swoim kolegom posłom o tej prostej prawdzie, o której często zapomina się w parlamentach:
@@ -199,13 +203,13 @@ Rewolucja lutowa 1848 r. obaliła monarchię Ludwika Filipa, znaną jako monarch
 Prawie wszystkie jego książki i eseje zostały napisane w ciągu ostatnich sześciu lat jego życia, od 1844 do 1850 roku. W 1850 roku Bastiat napisał dwa ze swoich najbardziej znanych dzieł: The Law i serię pamfletów zatytułowanych What is Seen and What is Not Seen. Prawo zostało przetłumaczone na wiele języków obcych, w tym angielski, niemiecki, hiszpański, rosyjski i włoski.
 
 
-![image](assets/en/012.webp)
+![image](assets/pl/013.webp)
 
 
 Zmarł w Rzymie w 1850 roku na gruźlicę. Został pochowany w kościele Saint Louis des Français w Rzymie.
 
 
-![image](assets/en/013.webp)
+![image](assets/pl/014.webp)
 
 
 # Wpływy
@@ -219,11 +223,13 @@ Zmarł w Rzymie w 1850 roku na gruźlicę. Został pochowany w kościele Saint L
 
 <chapterId>bcc7a12a-6cc4-5061-85e3-0e31fb1f0a49</chapterId>
 
+:::video id=db69aa73-75a9-44af-a77b-eceb3bc185f3:::
+
 
 W dziedzinie ekonomii Bastiat zawsze uznawał swój dług wobec Adama Smitha i Jeana-Baptiste'a Saya. W wieku 26 lat napisał do jednego ze swoich przyjaciół: "Nigdy nie czytałem na te tematy, ale te cztery dzieła, Smith, Say, Destutt i Cenzor"
 
 
-![image](assets/en/014.webp)
+![image](assets/pl/015.webp)
 
 (Jean-Baptiste Say i Adam Smith)_
 
@@ -231,7 +237,7 @@ W dziedzinie ekonomii Bastiat zawsze uznawał swój dług wobec Adama Smitha i J
 Ekonomia polityczna w rozumieniu Adama Smitha i J.-B. Say'a, zawiera się w jednym słowie: wolność. Wolność handlu, wolność jednostki, wolny handel i wolna inicjatywa. Wolny handel był najpierw broniony przez fizjokratów, takich jak François Quesnay i Vincent de Gournay, a następnie przez Adama Smitha, który zsyntetyzował ich pomysły z własnymi obserwacjami. Wreszcie, pod koniec XVIII wieku, Jean-Baptiste Say wyjaśnił i poprawił niektóre punkty doktryny swojego mistrza Adama Smitha w swoim mistrzowskim Traktacie o ekonomii politycznej.
 
 
-![image](assets/en/015.webp)
+![image](assets/pl/016.webp)
 
 (Say, Destutt de Tracy, Quesnay, de Gournay)_
 
@@ -239,7 +245,7 @@ Ekonomia polityczna w rozumieniu Adama Smitha i J.-B. Say'a, zawiera się w jedn
 Adam Smith był zainteresowany dobrobytem nie jako celem samym w sobie, ale jako środkiem do moralnego wyniesienia jednostek. Dla niego bogactwo narodów składa się z bogactwa jednostek. Według Adama Smitha, jeśli chcesz, by naród był zamożny, pozwól jednostkom działać swobodnie. A rynek działa, ponieważ pozwala każdemu wyrazić swoje preferencje i realizować swoje interesy.
 
 
-![image](assets/en/016.webp)
+![image](assets/pl/017.webp)
 
 
 Wielką nowością współczesnych ekonomistów u zarania XVIII wieku jest to, że interesują się każdą jednostką z chęcią przywrócenia jej zdolności do działania, jednocześnie zastanawiając się, jak powstrzymać namiętności i konflikty. Człowiek naturalnie chce poprawić los swój i swoich bliskich poprzez Exchange dóbr i usług.
@@ -250,7 +256,7 @@ Adam Smith pokazuje, że można służyć własnym interesom tylko poprzez słu�
 
 > Daj mi to, czego potrzebuję, a będziesz miał ode mnie to, czego sam potrzebujesz. (...) To nie od życzliwości rzeźnika, piwowara czy piekarza oczekujemy naszego obiadu, ale od ich dbałości o własny interes.
 
-![image](assets/en/017.webp)
+![image](assets/pl/018.webp)
 
 ---
 
@@ -263,7 +269,7 @@ Adam Smith pokazuje, że można służyć własnym interesom tylko poprzez słu�
 Exchange to gra o sumie dodatniej. Co jeden zyskuje, drugi również zyskuje. Różni się zatem od redystrybucji politycznej, w której zawsze jest zwycięzca i przegrany. Jeśli weźmiemy pod uwagę szkołę angielską, dla Smitha, Ricardo, a przed nimi Locke'a, wartość jest powiązana z pracą. Dla Marksa jest tak samo.
 
 
-![image](assets/en/018.webp)
+![image](assets/pl/019.webp)
 
 (Marks, Ricardo, Smith, Locke)_
 
@@ -276,7 +282,7 @@ Ale Bastiat również zniuansował Say w tym punkcie. Nie chodzi o użytecznoś�
 Gospodarka podlega kilku prostym prawom wynikającym z ludzkiego zachowania. Jedno z nich, zwane "prawem Saya", brzmi następująco: "Produkty i usługi są wymieniane na produkty i usługi" Jego idea polega na tym, że narody i jednostki odnoszą korzyści ze wzrostu poziomu produkcji, ponieważ oferuje on zwiększone możliwości wzajemnie korzystnej wymiany.
 
 
-![image](assets/en/019.webp)
+![image](assets/pl/020.webp)
 
 ---
 
@@ -298,7 +304,7 @@ Ale od Jeana-Baptiste'a Saya, Frédéric Bastiat odziedziczył również kluczow
 Producenci uciekają się do perswazji, negocjacji i Contract, podczas gdy grabieżcy uciekają się do siły i oszustwa. Do prawa należy zatem stłumienie grabieży i zabezpieczenie zarówno pracy, jak i własności. Jak stwierdził już Adam Smith, zapewnienie bezpieczeństwa obywatelom jest główną misją władzy publicznej i to właśnie ona legitymizuje nakładanie podatków.
 
 
-![image](assets/en/020.webp)
+![image](assets/pl/021.webp)
 
 
 ## Antoine Destutt de Tracy
@@ -306,43 +312,44 @@ Producenci uciekają się do perswazji, negocjacji i Contract, podczas gdy grabi
 
 <chapterId>ddf64e9f-2ce0-5651-8eb8-bae578eb0b9b</chapterId>
 
+:::video id=727e10b7-9255-4f63-8b57-be59d2501f23:::
+
 
 Jest to mało znane, ale Destutt de Tracy miał decydujący wpływ na przyszłego prezydenta Stanów Zjednoczonych, Thomasa Jeffersona, gdy ten był ambasadorem w Paryżu w latach osiemdziesiątych XVIII wieku.
 
 
 > Dla każdego człowieka pierwszym krajem jest jego ojczyzna, a drugim Francja" & "Tyrania jest wtedy, gdy ludzie boją się swojego rządu; wolność jest wtedy, gdy rząd boi się ludzi.
 >
-
 > Thomas Jefferson
 
-![image](assets/en/021.webp)
+![image](assets/pl/022.webp)
 
 
 Rzeczywiście, jego Traktat o ekonomii politycznej potępiał protekcjonizm i ekspansję napoleońską. Z tego powodu Bonaparte zakazał jego publikacji we Francji. Został on jednak przetłumaczony na język angielski i opublikowany w Stanach Zjednoczonych przez samego Jeffersona. Uczynił on ten tekst pierwszym podręcznikiem ekonomii politycznej na Uniwersytecie Wirginii, który właśnie założył w Charlottesville. Traktat został opublikowany we Francji dopiero w 1819 roku!
 
 
-![image](assets/en/022.webp)
+![image](assets/pl/023.webp)
 
 
 Destutt de Tracy, filozof i ekonomista, był liderem tak zwanej szkoły "ideologów", do której należeli tacy ludzie jak Cabanis, Condorcet, Constant, Daunou, Say i Germaine de Staël. Są oni spadkobiercami fizjokratów i bezpośrednimi uczniami Turgota.
 
 
-![image](assets/en/023.webp)
+![image](assets/pl/024.webp)
 
 
-![image](assets/en/024.webp)
+![image](assets/pl/025.webp)
 
 
 Przez ideologię Tracy rozumiał po prostu naukę zajmującą się badaniem idei, ich pochodzenia, ich praw, ich związku z językiem, czyli, mówiąc bardziej współcześnie, epistemologię. Termin "ideologia" nie miał pejoratywnej konotacji, którą Marks nadałby mu później, aby zdyskredytować ekonomistów "leseferyzmu". Czasopismo ruchu ideologów nosiło nazwę La Décade philosophique et littéraire.
 
 
-![image](assets/en/025.webp)
+![image](assets/pl/026.webp)
 
 
 Zdominował on okres rewolucji i był kierowany przez Jeana-Baptiste'a Saya. Destutt de Tracy został wybrany członkiem Akademii Francuskiej w 1808 roku i Akademii Nauk Moralnych i Politycznych w 1832 roku. Jego córka poślubiła Georges'a Washingtona de La Fayette (syna pierwszego amerykańskiego prezydenta) w 1802 roku, co pokazuje bliskość, jaka nadal istniała między Francją a młodą Ameryką w tym czasie.
 
 
-![image](assets/en/026.webp)
+![image](assets/pl/027.webp)
 
 Celem jego Traktatu o ekonomii politycznej jest "zbadanie najlepszego sposobu wykorzystania wszystkich naszych zdolności fizycznych i intelektualnych w celu zaspokojenia naszych różnych potrzeb" Jego ideą jest to, że handel jest źródłem wszelkiego ludzkiego dobra; jest cywilizującą, racjonalizującą i pacyfikującą siłą świata. Wielka maksyma ekonomii politycznej została przez niego sformułowana w następujący sposób: "handel jest całością społeczeństwa, tak jak praca jest całością bogactwa" Rzeczywiście, postrzega on społeczeństwo jako "ciągłą serię wymian, w których obaj kontrahenci zawsze zyskują" Dlatego rynek jest przeciwieństwem drapieżnictwa. Wzbogaca jednych, nie zubażając innych. Jak zostanie powiedziane później, nie jest to "gra o sumie zerowej", ale gra o sumie dodatniej.
 
@@ -350,13 +357,13 @@ Celem jego Traktatu o ekonomii politycznej jest "zbadanie najlepszego sposobu wy
 Nasz autor nie posuwa się do definiowania ekonomii politycznej jako nauki o wymianie. Ale to samo rozumowanie zostanie podjęte i przeprowadzone przez Bastiata. Sprzedaż jest Exchange przedmiotów, wynajem jest Exchange usług, a pożyczanie jest jedynie odroczonym Exchange. Ekonomia polityczna staje się więc dla Bastiata "teorią Exchange"
 
 
-![image](assets/en/027.webp)
+![image](assets/pl/028.webp)
 
 
 Według Destutt de Tracy własność z konieczności wynika z naszej natury, z naszej zdolności do pożądania. Gdyby człowiek niczego nie pragnął, nie miałby ani praw, ani obowiązków. Aby zaspokoić swoje potrzeby i wypełnić obowiązki, człowiek musi użyć środków, które nabywa dzięki swojej pracy. Formą organizacji społecznej, która odpowiada temu celowi, jest własność prywatna. Dlatego jedynym celem rządu jest ochrona własności i umożliwienie pokojowego Exchange.
 
 
-![image](assets/en/028.webp)
+![image](assets/pl/029.webp)
 
 
 Dla niego najlepsze podatki to te najbardziej umiarkowane i chciałby, aby wydatki państwa były jak najbardziej ograniczone. Potępia grabież bogactwa społeczeństwa przez rząd w formie długu publicznego, podatków, monopoli bankowych i wydatków. Po raz kolejny, prawo powinno służyć jedynie ochronie wolności; nigdy nie powinno grabić.
@@ -375,17 +382,19 @@ Podsumowując, ideolodzy mieli głęboką intuicję, a mianowicie, że produkcja
 
 <chapterId>80bc5c4e-ac07-52c8-9dd7-e224ac291bda</chapterId>
 
+:::video id=6f8e4713-5b9e-49bb-85b1-e9e8a44cd75e:::
+
 
 Historia wszystkich cywilizacji jest historią walki między klasami grabieżczymi a klasami produkcyjnymi. Takie jest credo dwóch autorów, których będziemy omawiać. Są oni twórcami liberalnej teorii walki klas, która zainspirowała zarówno Fryderyka Bastiata, jak i Karola Marksa, choć ten ostatni ją zniekształcił.
 
 
-![image](assets/en/029.webp)
+![image](assets/pl/030.webp)
 
 
 Dla Comte'a i Dunoyera grabież, oznaczająca wszelkie formy przemocy stosowanej w społeczeństwie przez silnych wobec słabych, jest wielkim kluczem do zrozumienia ludzkiej historii. Jest źródłem wszystkich zjawisk wyzysku jednej klasy przez drugą.
 
 
-![image](assets/en/030.webp)
+![image](assets/pl/031.webp)
 
 
 Jeśli Frédéric Bastiat zawdzięcza swoją edukację ekonomiczną Smithowi, Destuttowi de Tracy i Sayowi, to swoją edukację polityczną zawdzięcza liderom czasopisma Le Censeur, Charlesowi Comte'owi i Charlesowi Dunoyerowi.
@@ -394,10 +403,9 @@ Jeśli Frédéric Bastiat zawdzięcza swoją edukację ekonomiczną Smithowi, De
 Przegląd ten (1814-1819), przemianowany po Stu Dniach na Le Censeur européen, rozpowszechniał liberalne idee, które zatriumfowały w 1830 r. wraz z powstaniem Trzech Chwalebnych Dni i dojściem do władzy księcia Orleanu Ludwika Filipa I.
 
 
-![image](assets/en/031.webp)
+![image](assets/pl/032.webp)
 
 
-![image](assets/en/032.webp)
 
 
 Charles Comte, kuzyn Auguste'a Comte'a i zięć Saya, jest założycielem przeglądu. Wkrótce dołączył do niego Charles Dunoyer, prawnik taki jak on sam, a następnie młody historyk Augustin Thierry, były sekretarz Saint-Simona. Ich motto na pierwszej stronie każdego wydania przeglądu brzmiało "Pokój i wolność".
@@ -406,7 +414,7 @@ Charles Comte, kuzyn Auguste'a Comte'a i zięć Saya, jest założycielem przegl
 Jaki jest cel tego przeglądu? Tytuł mówi sam za siebie: cenzurować rząd. Walka z arbitralnością władzy poprzez oświecanie opinii publicznej, obrona wolności prasy.
 
 
-![image](assets/en/033.webp)
+![image](assets/pl/033.webp)
 
 (Benjamin Constant)_
 
@@ -419,7 +427,7 @@ Przyjmują oni od Benjamina Constanta rozróżnienie między starożytnymi i now
 
 > Dunoyer
 
-![image](assets/en/034.webp)
+![image](assets/pl/034.webp)
 
 
 Ta nowa teoria społeczna zawiera jedną z Elements, która stanie się kamieniem węgielnym naukowego socjalizmu Marksa i Engelsa: walkę klas. Ale z czego składa się liberalna teoria walki klas i czym różni się od marksizmu?
@@ -431,7 +439,7 @@ Zaczyna się od jednostki, która działa, aby zaspokoić swoje potrzeby i pragn
 W tej kwestii jednostki stoją przed dwiema podstawowymi alternatywami: mogą grabić bogactwo wytworzone przez innych lub pracować, aby samemu je wytworzyć. W każdym społeczeństwie można wyraźnie odróżnić tych, którzy żyją z grabieży, od tych, którzy żyją z produkcji. W czasach ancien régime'u szlachta bezpośrednio atakowała najbardziej pracowitych, aby żyć z nowej formy daniny: podatków. Po pazernej szlachcie nastały hordy biurokratów, nie mniej pazernych.
 
 
-![image](assets/en/035.webp)
+![image](assets/pl/035.webp)
 
 
 Podczas gdy dla Marksa antagonizm klasowy jest umiejscowiony w samej działalności produkcyjnej, między pracownikami a pracodawcami, dla Comte'a i Dunoyera skonfliktowane klasy to z jednej strony producenci społeczeństwa, którzy płacą podatki (w tym kapitaliści, robotnicy, chłopi, uczeni itp.), A z drugiej strony nieproducenci, którzy żyją z czynszów finansowanych z podatków, "klasa próżniacza i pożerająca" (biurokraci, urzędnicy, politycy, beneficjenci dotacji lub ochrony).
@@ -440,7 +448,7 @@ Podczas gdy dla Marksa antagonizm klasowy jest umiejscowiony w samej działalno�
 W przeciwieństwie do Marksa, autorzy Censeur Européen nie opowiadają się za wojną klasową. Zamiast tego prowadzą kampanię na rzecz pokoju społecznego. A to, według nich, można osiągnąć jedynie poprzez odpolitycznienie społeczeństwa. W tym celu ważne jest, aby najpierw zmniejszyć prestiż i korzyści płynące z urzędów publicznych. Następnie ważne jest, aby dać producentom wpływ na ciało polityczne.
 
 
-![image](assets/en/036.webp)
+![image](assets/pl/036.webp)
 
 Wreszcie, jedynym sposobem na uwolnienie świata od wyzysku jednej klasy przez drugą jest zniszczenie samego mechanizmu, który umożliwia ten wyzysk: władzy państwa w zakresie dystrybucji i kontroli własności oraz alokacji związanych z nią korzyści ("pozycji").
 
@@ -453,11 +461,13 @@ Ich pomysły, głęboko innowacyjne, na zawsze naznaczyły Frédérica Bastiata,
 
 <chapterId>7181435c-5eae-56e4-8e55-02a24273fdd6</chapterId>
 
+:::video id=633e542a-7217-4e63-bb6f-4a716fde3023:::
+
 
 Jest rok 1838, w Manchesterze, niewielka liczba ludzi, mało znanych do tego czasu, zbiera się, aby znaleźć sposób na obalenie monopolu właścicieli ziemskich pszenicy za pomocą środków prawnych i osiągnąć, jak później opowie Bastiat,
 
 
-![image](assets/en/037.webp)
+![image](assets/pl/037.webp)
 
 
 > Bez rozlewu krwi, wyłącznie dzięki sile opinii, rewolucja równie głęboka, a może nawet głębsza niż ta, którą nasi ojcowie przeprowadzili w 1789 roku.
@@ -465,13 +475,13 @@ Jest rok 1838, w Manchesterze, niewielka liczba ludzi, mało znanych do tego cza
 Z tego spotkania wyłoniła się Liga przeciwko ustawom kukurydzianym lub zbożowym, jak nazwał je Bastiat. Ale bardzo szybko cel ten stał się celem całkowitego i jednostronnego zniesienia protekcjonizmu.
 
 
-![image](assets/en/038.webp)
+![image](assets/pl/038.webp)
 
 
 Ta ekonomiczna bitwa o wolny handel zajęła całą Anglię do 1846 roku. We Francji, poza niewielką liczbą wtajemniczonych, istnienie tego ogromnego ruchu było całkowicie nieznane. Frédéric Bastiat dowiedział się o istnieniu Ligi w 1843 r. dzięki lekturze angielskiej gazety, którą przypadkowo zaprenumerował. Zachwycony, przetłumaczył przemówienia Cobdena, Foxa i Brighta. Następnie korespondował z Cobdenem, a w końcu, w 1845 roku, udał się do Londynu, aby wziąć udział w gigantycznych spotkaniach Ligi.
 
 
-![image](assets/en/039.webp)
+![image](assets/pl/039.webp)
 
 
 To właśnie ta kampania agitacyjna na rzecz wolnego handlu, w całym królestwie, z dziesiątkami tysięcy członków, rozpaliła pióro Bastiata i radykalnie i ostatecznie zmieniła bieg jego życia.
@@ -480,7 +490,7 @@ To właśnie ta kampania agitacyjna na rzecz wolnego handlu, w całym królestwi
 Ligę można porównać do podróżującego uniwersytetu, kształcącego ekonomicznie tych, którzy uczestniczyli w jej spotkaniach w całym kraju - zwykłych ludzi, przemysłowców, hodowców i rolników, których Liga wzięła pod swoje skrzydła i których interesy uciskały ustawy zbożowe. Richard Cobden był duszą ruchu i wybitnym agitatorem.
 
 
-![image](assets/en/040.webp)
+![image](assets/pl/040.webp)
 
 
 Fascynujący i potężny mówca, miał niesamowity dar do wymyślania uderzających i zwięzłych zwrotów, dalekich od abstrakcyjnych dyskursów ekonomistów.
@@ -488,13 +498,12 @@ Fascynujący i potężny mówca, miał niesamowity dar do wymyślania uderzając
 
 > Czym jest monopol chlebowy? wykrzyknął. To niedobór chleba. Zdziwiłbyś się, gdybyś dowiedział się, że ustawodawstwo tego kraju w tej kwestii nie ma innego celu, jak tylko doprowadzenie do jak największego niedoboru chleba. A jednak nie jest to nic innego. Ustawodawstwo może osiągnąć swój cel tylko poprzez niedobór.
 
-![image](assets/en/041.webp)
+![image](assets/pl/041.webp)
 
 
 W 1845 r. Bastiat opublikował w Paryżu swoją książkę Cobden and the League wraz z tłumaczeniami i komentarzami. Książkę otwiera wprowadzenie na temat sytuacji gospodarczej Anglii, historii powstania i rozwoju Ligi. Od 1815 r. protekcjonizm w Anglii był bardzo rozwinięty. Istniały w szczególności prawa ograniczające import zboża, które miały bardzo poważne konsekwencje dla ludzi. W rzeczywistości pszenica była niezbędna do produkcji chleba, który był wówczas ważnym towarem. Co więcej, system ten faworyzował arystokrację, czyli dużych właścicieli ziemskich, którzy czerpali z niego czynsze.
 
 
-![image](assets/en/042.webp)
 
 
 > To, co współistnieje w Anglii, pisał Bastiat, to niewielka liczba grabieżców i duża liczba plądrowanych, i nie trzeba być wielkim ekonomistą, aby stwierdzić bogactwo tych pierwszych i nędzę tych drugich.
@@ -510,7 +519,7 @@ Celem Ligi było zmobilizowanie opinii publicznej do wywarcia nacisku na parlame
 - Promowanie pokoju między narodami
 
 
-![image](assets/en/043.webp)
+![image](assets/pl/042.webp)
 
 (Jeremy Bentham)_
 
@@ -522,13 +531,13 @@ W wyborach w 1841 r. pięciu członków Ligi, w tym Cobden, zostało wybranych d
 
 Co ciekawe, Bastiat przywłaszczył sobie część ich metody; przyswoił sobie ich język i przetransponował go do francuskiego kontekstu. Książka o Cobdenie i Lidze szybko stała się sukcesem, a Bastiat dokonał sensacyjnego wejścia do świata ekonomistów. Założył w Bordeaux stowarzyszenie na rzecz wolnego handlu, a następnie przeniósł je do Paryża. Zaproponowano mu kierowanie Journal des Économistes. Ruch narodził się i trwał do 1848 roku.
 
-![image](assets/en/044.webp)
+![image](assets/pl/043.webp)
 
 
 Dopiero po śmierci Bastiata, w 1866 r., Napoleon III podpisał traktat o wolnym handlu z Anglią, co było swego rodzaju pośmiertnym zwycięstwem człowieka, który poświęcił tej wielkiej idei ostatnie sześć lat swojego krótkiego życia.
 
 
-![image](assets/en/045.webp)
+![image](assets/pl/044.webp)
 
 (Michel Chevalier)_
 
@@ -547,6 +556,8 @@ Kwestia wolnego handlu jest nadal aktualna. Podręczniki geografii w szkołach t
 
 <chapterId>c3926110-e0b2-503c-96d9-5d3a6a661484</chapterId>
 
+:::video id=499239ae-df43-489e-8d1f-bf3ea01e4e6b:::
+
 
 Frédéric Bastiat, który wypowiedział się w latach czterdziestych XIX wieku, jest spadkobiercą pokolenia oświeceniowych filozofów, którzy walczyli z cenzurą i o wolność debaty. Montesquieu, Diderot, Voltaire, Condorcet, ale także Rousseau.
 
@@ -554,7 +565,7 @@ Frédéric Bastiat, który wypowiedział się w latach czterdziestych XIX wieku,
 Dla nich idea była prosta: im więcej idei można wyrazić, tym bardziej postępuje prawda i tym łatwiej obalić błędy. Nauka zawsze rozwija się w ten sposób.
 
 
-![image](assets/en/046.webp)
+![image](assets/pl/045.webp)
 
 (Montesquieu, Diderot, Voltaire, Condorcet, Rousseau)_
 
@@ -565,12 +576,12 @@ Wręcz przeciwnie, niewielu zrozumiało, że to, co było prawdą w przypadku id
 Bastiat rzeczywiście uważa Rousseau za prawdziwego prekursora socjalizmu i kolektywizmu. W książce autora The Social Contract znajduje się zdanie, które dość dobrze podsumowuje jego filozofię: "zaczynamy stawać się ludźmi dopiero po byciu obywatelami"
 
 
-![image](assets/en/047.webp)
+![image](assets/pl/046.webp)
 
 
 Początkowo człowiek jest tylko burżujem. Ale burżuj jest kalkulatorem; chce natychmiastowej przyjemności, jest zniewolony przez swoje zmysły, pragnienia, partykularne interesy. Krótko mówiąc, nie jest racjonalny, a zatem nie jest wolny. Potrzebuje edukacji, by zrozumieć, że jego prawdziwym interesem jest interes ogólny. To dlatego Rousseau napisał w Contract:
 
-![image](assets/en/048.webp)
+![image](assets/pl/047.webp)
 
 ---
 
@@ -585,7 +596,7 @@ Zgodnie z tą doktryną, człowiek ma w sobie dwie wole: wolę, która dąży do
 Według Rousseau całkowicie uzasadnione jest zatem zmuszanie ludzi w imię celu, do którego sami by dążyli, gdyby byli bardziej oświeceni, ale do którego nie dążą, ponieważ są ślepi, nieświadomi lub zepsuci. Społeczeństwo zostało założone, aby zmusić ich do robienia tego, czego powinni spontanicznie pragnąć, gdyby byli oświeceni. Czyniąc to, nie czynimy im przemocy, ponieważ prowadzimy ich do bycia "wolnymi", to znaczy do dokonywania właściwych wyborów, wyborów zgodnych z ich prawdziwym ja.
 
 
-![image](assets/en/049.webp)
+![image](assets/pl/048.webp)
 
 
 Przekonany, że dobre społeczeństwo jest wytworem prawa, Rousseau przyznaje nieograniczoną władzę prawodawcy. To do niego należy przekształcenie jednostek w spełnionych ludzi, w obywateli.
@@ -595,7 +606,7 @@ Ale to również od prawa zależy istnienie własności. Według Rousseau własn
 
 > Pierwsza osoba, która po ogrodzeniu kawałka ziemi powiedziała: To jest moje, i znalazł ludzi na tyle prostych, by mu uwierzyli, był prawdziwym założycielem społeczeństwa obywatelskiego. Ileż zbrodni, wojen, morderstw, ileż nieszczęść i horroru oszczędziłby ludzkości ten, kto wbijając paliki lub zasypując rów, zawołałby do swoich współbraci: "Strzeżcie się słuchać tego oszusta; jesteście zgubieni, jeśli zapomnicie, że owoce należą do wszystkich, a ziemia do nikogo!"
 
-![image](assets/en/050.webp)
+![image](assets/pl/049.webp)
 
 
 Dlatego własność naturalna jest źródłem zła. I Marks, wielki czytelnik Rousseau, pamiętałby o tym. Jak walczyć z tym złem? Poprzez społeczny Contract, odpowiada Rousseau. Rzeczywiście, dobre społeczeństwo to takie, które wynika z Contract, który przewiduje alienację jednostki ze wszystkimi jej prawami na rzecz społeczności. Od tego momentu to do społeczności należy przyznanie praw jednostce za pośrednictwem prawa.
@@ -604,7 +615,7 @@ Dlatego własność naturalna jest źródłem zła. I Marks, wielki czytelnik Ro
 W przeciwieństwie do Rousseau, Frédéric Bastiat twierdzi, że "człowiek rodzi się właścicielem własności" Dla niego własność jest konieczną konsekwencją natury człowieka, jego konstytucji. Pisze, że "człowiek rodzi się właścicielem własności, ponieważ rodzi się z potrzebami, których zaspokojenie jest niezbędne do życia, z organami i zdolnościami, których ćwiczenie jest niezbędne do zaspokojenia tych potrzeb". Ale zdolności są tylko przedłużeniem osoby, a własność jest tylko przedłużeniem zdolności. Innymi słowy, to wykorzystanie naszych zdolności w pracy legitymizuje własność.
 
 
-![image](assets/en/051.webp)
+![image](assets/pl/050.webp)
 
 
 Według Bastiata społeczeństwo, ludzie i własność istnieją przed prawem, a jego słynne zdanie brzmi: "To nie dlatego, że istnieją prawa, istnieją własności, ale dlatego, że istnieją własności, istnieją prawa". Dlatego prawo musi być negatywne: musi zapobiegać ingerencji w ludzi i ich dobra. Własność jest _raison d'être_ prawa, a nie odwrotnie.
@@ -615,10 +626,12 @@ Według Bastiata społeczeństwo, ludzie i własność istnieją przed prawem, a
 
 <chapterId>87d9a8c9-2352-5cb2-8b93-678118a8145c</chapterId>
 
+:::video id=4b24a6e8-969f-4058-a409-8942913fca4b:::
+
 24 lutego 1848 roku, po trzech dniach zamieszek w Paryżu, król Ludwik Filip I abdykował. Oznaczało to narodziny Drugiej Republiki.
 
 
-![image](assets/en/052.webp)
+![image](assets/pl/051.webp)
 
 
 Bastiat był w Paryżu, będąc świadkiem wydarzeń z pierwszej ręki. Później napisał:
@@ -629,7 +642,7 @@ Bastiat był w Paryżu, będąc świadkiem wydarzeń z pierwszej ręki. Późnie
 Ten fragment jest zaskakujący. Co ma z tym wspólnego starożytność grecka i rzymska?
 
 
-![image](assets/en/053.webp)
+![image](assets/pl/052.webp)
 
 
 Bastiat odnosi się do Republiki Platona i jego teorii króla-filozofa, ale także do Sparty, którą tak podziwiał Rousseau, do Imperium Rzymskiego, za którym tak nostalgicznie tęsknił Napoleon. Niestety, według Bastiata, te greckie i rzymskie idee opierają się na fałszywej przesłance: idei wszechmocy prawodawcy, absolutnej suwerenności prawa.
@@ -638,7 +651,7 @@ Bastiat odnosi się do Republiki Platona i jego teorii króla-filozofa, ale tak�
 Wystarczy otworzyć niemal dowolną książkę na temat filozofii, polityki lub historii, aby znaleźć zakorzenioną w naszej kulturze ideę, że ludzkość jest bezwładną materią otrzymującą życie, organizację, moralność i dobrobyt od władzy politycznej. Pozostawiona sama sobie, ludzkość dążyłaby do anarchii i przed katastrofą uratowałaby ją jedynie tajemnicza i wszechmocna ręka Prawodawcy. Bastiat twierdzi jednak, że idea ta była długo dojrzewana i przygotowywana przez wieki klasycznej edukacji.
 
 
-![image](assets/en/054.webp)
+![image](assets/pl/053.webp)
 
 
 Po pierwsze, jak twierdzi, Rzymianie uważali własność za fakt czysto konwencjonalny, za sztuczny twór prawa pisanego. Dlaczego? Po prostu, wyjaśnia Bastiat, ponieważ żyli z niewolnictwa i grabieży. Dla nich wszelka własność była owocem grabieży. Dlatego nie mogli wprowadzić do prawodawstwa idei, że podstawą legalnej własności jest praca, bez niszczenia fundamentów ich społeczeństwa.
@@ -651,7 +664,7 @@ Rzeczywiście mieli empiryczną definicję własności, "jus utendi et abutendi"
 Rzeczywiście, Rousseau podziela tę powszechną ideę prawną oparcia własności na prawie. Rousseau przypisuje prawu, a w konsekwencji ludziom, absolutną władzę nad jednostkami i własnością. I w tej koncepcji, która stanowi samą ideę republiki od czasów Rewolucji Francuskiej, prawodawca musi zorganizować społeczeństwo, jak architekt społeczny, jak mechanik, który wymyśla maszynę z bezwładnej materii lub jak garncarz, który kształtuje glinę. W ten sposób prawodawca umieszcza się poza ludzkością, ponad nią, aby zorganizować ją według własnego uznania, zgodnie z planami wymyślonymi przez jego świetlistą inteligencję.
 
 
-![image](assets/en/055.webp)
+![image](assets/pl/054.webp)
 
 
 Wręcz przeciwnie, dla Bastiata prawo własności jest wcześniejsze od prawa. Nazywa to zasadą ekonomistów, w przeciwieństwie do zasady prawników. Podczas gdy "zasada prawników praktycznie zawiera niewolnictwo, mówi Bastiat, zasada ekonomistów zawiera wolność.
@@ -663,7 +676,7 @@ Czym zatem jest wolność? Jest to własność, prawo do korzystania z owoców w
 Smutno jest myśleć, że nasza filozofia społeczna i polityczna utknęła na idei, że rozwiązanie wszystkich naszych problemów musi pochodzić z góry, od prawa, od państwa. Jest to jednak wytłumaczalne. Te idee są wpajane młodzieży każdego dnia w szkołach i na uniwersytetach, poprzez monopol edukacji.
 
 
-![image](assets/en/056.webp)
+![image](assets/pl/055.webp)
 
 przykładem takiego monopolisty może być instytucja rządowa
 
@@ -676,8 +689,10 @@ Jednak, jak przypomina nam Bastiat, monopol wyklucza postęp.
 
 <chapterId>ce6cb8a8-7dc9-5ef7-939d-9a559b4d2c74</chapterId>
 
+:::video id=4ef9f07f-aeb1-4626-b9ee-91060fd75803:::
 
-![image](assets/en/057.webp)
+
+![image](assets/pl/056.webp)
 
 (Richard Cobden)_
 
@@ -688,7 +703,7 @@ Jak już widzieliśmy, to przede wszystkim walka Cobdena przeciwko protekcjonizm
 Protekcjonizm jest w rzeczywistości formą nacjonalizmu gospodarczego. Jego celem jest wyeliminowanie zagranicznej konkurencji przy jednoczesnym udawaniu "obrony interesów narodowych" Następnie próbują nakłonić władze publiczne do zaakceptowania zestawu czysto demagogicznych nieprawd, przedstawianych jako cnotliwe: obrona miejsc pracy, konkurencyjność itp. Oczywiście wybrani urzędnicy ulegają presji producentów, ponieważ jest to dla nich doskonała okazja do skonsolidowania swojej klienteli i rozszerzenia swojej władzy.
 
 
-![image](assets/en/058.webp)
+![image](assets/pl/057.webp)
 
 _przykład reklamy promocyjnej blendera wyprodukowanego we Francji_
 
@@ -709,13 +724,12 @@ Wyobraźmy sobie angielski nóż, który sprzedaje się w naszym kraju za 2 euro
 Jeśli zakażemy angielskiego produktu, konsument zapłaci o jedną jednostkę więcej za swój nóż. Protekcjonizm skutkuje więc zyskiem dla krajowego przemysłu i dwiema stratami, jedną dla innego przemysłu (tego produkującego ołówki), a drugą dla konsumenta. Wręcz przeciwnie, wolny handel daje dwóch szczęśliwych zwycięzców.
 
 
-![image](assets/en/059.webp)
 
 
 Protekcjonizm jest również formą walki klasowej. Według Bastiata jest to system oparty na egoizmie i chciwości producentów. Aby zwiększyć swoje wynagrodzenie, rolnicy lub przemysłowcy żądają podatków, aby zamknąć rynek dla zagranicznych produktów, zmuszając tym samym konsumentów do płacenia więcej za ich produkty.
 
 
-![image](assets/en/060.webp)
+![image](assets/pl/058.webp)
 
 
 Bastiat zdecydowanie opowiada się po stronie konsumentów. Przeciwstawiając się interesom klasowym, stawia interes ogólny, który jest interesem konsumenta, czyli interesem wszystkich. Państwo powinno zawsze działać z punktu widzenia konsumenta.
@@ -724,7 +738,7 @@ Bastiat zdecydowanie opowiada się po stronie konsumentów. Przeciwstawiając si
 Wraz z rewolucją lutową 1848 r. i jej barykadami pojawił się wróg groźniejszy niż protekcjonizm, z którym łączy go wiele podobieństw: socjalizm.
 
 
-![image](assets/en/061.webp)
+![image](assets/pl/059.webp)
 
 
 Co to jest? To ruch polityczny, który domaga się prawnej organizacji pracy, nacjonalizacji przemysłu i banków oraz redystrybucji bogactwa poprzez opodatkowanie. Bastiat poświęcił teraz całą swoją energię, talent i pisma przeciwko tej nowej doktrynie, która mogła prowadzić jedynie do wykładniczego wzrostu władzy i wiecznej walki klasowej. Dlatego od pierwszych dni rewolucji współtworzył krótkotrwałą gazetę o nazwie "La République Française", która szybko stała się znana jako czasopismo kontrrewolucyjne. Był to czas, kiedy pisał swoje pamflety na temat własności, państwa, grabieży i prawa.
@@ -741,7 +755,7 @@ Co to jest? To ruch polityczny, który domaga się prawnej organizacji pracy, na
 - 2° Naród zachwycił się ideą, że braterstwo i solidarność można wprowadzić do prawa. Oznacza to, że zażądał, aby państwo bezpośrednio tworzyło szczęście dla swoich obywateli. Tutaj Bastiat widzi początki państwa opiekuńczego.
 
 
-![image](assets/en/062.webp)
+![image](assets/pl/060.webp)
 
 
 Później nadal analizował jego przewrotne skutki. Oto jeden z przykładów, przytoczony w liście do Cobdena:
@@ -753,7 +767,7 @@ Później nadal analizował jego przewrotne skutki. Oto jeden z przykładów, pr
 - 3° Bastiat dodaje, że jego zdaniem protekcjonizm był pierwszym przejawem tego zaburzenia. Kapitaliści zaczęli od prośby o interwencję prawa, aby zwiększyć swój udział w bogactwie. Nieuchronnie robotnicy chcieli zrobić to samo.
 
 
-![image](assets/en/063.webp)
+![image](assets/pl/061.webp)
 
 ---
 
@@ -772,48 +786,48 @@ Podsumowując, protekcjoniści i socjaliści mają wspólny punkt, według Basti
 
 <chapterId>96902abd-6915-5b25-a187-a4790162b86c</chapterId>
 
+:::video id=6ede1de0-b034-4c48-845d-a2c415de6af2:::
+
 
 Pierre-Joseph Proudhon jest jednym z głównych przedstawicieli francuskiego socjalizmu w połowie XIX wieku. Jest on szczególnie znany ze stwierdzenia: "Własność jest kradzieżą" w "What is Property?" z 1840 roku.
 
 
-![image](assets/en/064.webp)
+![image](assets/pl/062.webp)
 
-![image](assets/en/065.webp)
 
 
 W twierdzeniu tym jest coś logicznie absurdalnego. Gdyby bowiem nie istniała legalnie nabyta własność, logicznie rzecz biorąc, nie mógłby istnieć czyn taki jak kradzież. Dlatego też Proudhon wyjaśni później, że za kradzież uważa faktyczną dystrybucję własności, a nie samą własność, którą opisuje jako rewolucyjną siłę leżącą u podstaw anarchistycznego społeczeństwa.
 
 
-![image](assets/en/066.webp)
+![image](assets/pl/063.webp)
 
 
 Proudhon jest jednak indywidualistycznym anarchistą. Nie postrzega proletariatu ani państwa jako prawowitych źródeł władzy. Ostro krytykuje komunizm i opowiada się za mutualizmem pracowniczym, formą zorganizowanej solidarności spółdzielczej, która opierałaby się na dobrowolnym łączeniu zasobów w celu wzajemnej pomocy. Jest to mniej znane, ale Bastiat wcale nie sprzeciwiał się tej idei co do zasady. Po prostu obawiał się, że państwo przekształci ją w de facto monopolistyczną usługę publiczną. Historia dowiodła, że miał rację.
 
 
-![image](assets/en/067.webp)
 
 
 Z drugiej strony dobrze wiadomo, że w "Nędzy filozofii" Marks gwałtownie zaatakował Proudhona i jego socjalizm, który nazwał "utopijnym", na rzecz tak zwanego socjalizmu "naukowego".
 
 
-![image](assets/en/068.webp)
+![image](assets/pl/064.webp)
 
 W czerwcu 1848 r. Proudhon został wybrany do Zgromadzenia Narodowego, obok Bastiata. Byli znajomymi i darzyli się wzajemnym szacunkiem. Jednak w 1849 r., w głośnej kontrowersji, Bastiat wymienił z nim czternaście listów na łamach La Voix du Peuple. W tym energicznym Exchange wyjaśnił swoje stanowisko w kwestiach monetarnych i bankowych. Spór sprowadzał się do następującej alternatywy: wolny kredyt czy wolność kredytu?
 
 
-![image](assets/en/069.webp)
+![image](assets/pl/065.webp)
 
 
 Proudhon postrzegał odsetki od kapitału jako pierwotną przyczynę pauperyzmu i nierówności warunków. Opowiadał się za nieograniczoną kreacją pieniądza przez bank państwowy (Bank Exchange lub Bank Ludowy) i widział w "wolnym kredycie" rozwiązanie problemu społecznego. Z drugiej strony Bastiat był zwolennikiem wolności banków, co oznaczało regulację obiegu pieniężnego poprzez swobodę dostępu do zawodu, połączoną z niezbędną odpowiedzialnością za własne fundusze i wolnością konkurencji.
 
 
-![image](assets/en/070.webp)
+![image](assets/pl/066.webp)
 
 
 Bastiat obalił swojego przeciwnika w kilku etapach. Po pierwsze, przeanalizował przewrotne skutki darmowego kredytu i kreacji pieniądza. Taki system może jedynie zachęcać banki i podmioty prywatne do najbardziej ryzykownych i lekkomyślnych działań, ponieważ wiedzą, że są one pokrywane przez państwo, czyli przez pieniądze podatników: "Poważną sprawą jest postawienie wszystkich ludzi w sytuacji, w której mówią: Spróbujmy szczęścia z cudzą własnością; jeśli mi się uda, tym lepiej dla mnie; jeśli mi się nie uda, szkoda dla innych" To trafne stwierdzenie, ponieważ może odnosić się do naszej epoki.
 
 
-![image](assets/en/071.webp)
+![image](assets/pl/067.webp)
 
 
 Polityka niskich stóp procentowych praktykowana przez banki centralne jest sposobem na sztuczną kreację pieniądza. A kolejne kryzysy systemu finansowego w ciągu ostatniego stulecia, wraz z zadłużeniem państw, są jej bezpośrednimi konsekwencjami.
@@ -822,13 +836,13 @@ Polityka niskich stóp procentowych praktykowana przez banki centralne jest spos
 Następnie Bastiat pokazuje, że możliwa jest poprawa siły nabywczej klas pracujących, ale za pomocą innych środków, bardziej sprawiedliwych i skutecznych. Dla niego redukcja stóp procentowych jest również celem liberalnej polityki. Ale osiąga się to poprzez wyzwolenie i akumulację kapitału, a nie poprzez zniesienie odsetek, czyli darmowego kredytu.
 
 
-![image](assets/en/072.webp)
+![image](assets/pl/068.webp)
 
 
 Rzeczywiście, według Bastiata, postęp ludzkości zbiega się z powstawaniem kapitału. W swojej broszurze zatytułowanej Kapitał i czynsz Bastiat pokazuje nam to na przykładzie Robinsona Crusoe na jego wyspie.
 
 
-![image](assets/en/073.webp)
+![image](assets/pl/069.webp)
 
 Bez zgromadzonego kapitału lub materiałów Robinson byłby skazany na śmierć. Następnie wyjaśnia, że kapitał wzbogaca pracownika na dwa sposoby:
 
@@ -857,11 +871,13 @@ Podsumowując, zarówno Proudhon, jak i Bastiat dostrzegali znaczenie akumulacji
 
 <chapterId>25fb02a9-5d68-5c58-bd0f-d4b8e1fd91f9</chapterId>
 
+:::video id=aff28a5b-3cf4-414b-9a6a-b70ffb1bf20c:::
+
 
 W tym rozdziale przedstawię zupełnie nową, rewolucyjną technologię. Pewien badacz opracował parę bionicznych okularów z ultramocną minikamerą wbudowaną z przodu. Technologia ta pozwala dostrzec szczegóły niemożliwe do zobaczenia gołym okiem. W ramionach znajduje się elektroniczny chip, który przesyła obrazy bezpośrednio do chmury za pośrednictwem mojego smartfona.
 
 
-![image](assets/en/074.webp)
+![image](assets/pl/070.webp)
 
 
 Wynalazcą pierwszego prototypu tych okularów był Frédéric Bastiat w 1850 roku w słynnej broszurze: _Ce qu'on voit et ce qu'on ne voit pas_. Są to okulary ekonomisty. Pozwalają mierzyć konsekwencje decyzji podejmowanych przez władze dla naszego życia. Są to okulary, które "pozwalają nam zobaczyć to, czego nie widzimy": zniszczenia spowodowane przez politykę klientelistyczną i fałszywe teorie ekonomiczne. Często nie widzimy ich ofiar ani beneficjentów, krótko mówiąc, ich rzeczywistych skutków w przeciwieństwie do twierdzeń zawartych w oficjalnych przemówieniach, co Bastiat nazywa "sofizmatami ekonomicznymi"
@@ -888,7 +904,7 @@ Ale to, czego nie widać, to to, co właściciel kupiłby za te pieniądze, ale 
 W związku z tym nie będzie większej "stymulacji" gospodarki po wybiciu okna niż bez niego. Jednak w pierwszym przypadku wystąpi strata netto: wartość okna.
 
 
-![image](assets/en/075.webp)
+![image](assets/pl/071.webp)
 
 Pierwszą lekcją, której należy się nauczyć, jest to, że "dobra" decyzja lub "dobra" polityka to taka, która kosztuje społeczeństwo mniej niż inna alokacja zasobów. Skuteczność polityki powinna być oceniana nie tylko na podstawie jej efektów, ale także na podstawie alternatyw, które mogłyby się pojawić. Jest to koncepcja "kosztu alternatywnego", droga Bastiatowi.
 
@@ -905,7 +921,7 @@ Istnieją jednak inne sposoby na pobudzenie gospodarki. Jeśli państwo angażuj
 Wreszcie, prawie sto lat przed Keynesem, możemy powiedzieć, że Bastiat obalił keynesowskie sofizmaty, które twierdzą, że zadłużenie państwa stymuluje gospodarkę, a wydatki publiczne powodują wzrost.
 
 
-![image](assets/en/076.webp)
+![image](assets/pl/072.webp)
 
 
 Wielką lekcją płynącą z tej serii tekstów jest to, że interwencja państwa ma przewrotne skutki, których nie widać. Tylko dobry ekonomista jest w stanie je przewidzieć. Polityka jest tym, co widzimy. Gospodarka jest tym, czego nie widzimy.
@@ -916,21 +932,22 @@ Wielką lekcją płynącą z tej serii tekstów jest to, że interwencja państw
 
 <chapterId>f4e759ed-1cb2-55c7-885e-0a60244758a4</chapterId>
 
+:::video id=b1856cde-9156-4a16-99fa-a0e45edcc905:::
+
 
 W 1840 r. Izba Deputowanych przegłosowała ustawę zwiększającą podatki importowe w celu ochrony francuskiego przemysłu. Jest to słynny patriotyzm gospodarczy, z którym spotykamy się do dziś.
 
 
-![image](assets/en/077.webp)
+![image](assets/pl/073.webp)
 
 _powyżej: Marine Le Pen, francuska polityk_
 
-![image](assets/en/078.webp)
 
 
 Bastiat skomponował wówczas satyryczny tekst, który później stał się jednym z jego najsłynniejszych dzieł: "Petycja producentów świec". Ilustruje on, w jaki sposób pewne dobrze zorganizowane grupy nacisku producentów uzyskują nienależne przywileje od państwa, ze szkodą dla obywateli. Jednocześnie pokazuje absurdalną i destrukcyjną naturę protekcjonistycznego prawodawstwa.
 
 
-![image](assets/en/079.webp)
+![image](assets/pl/074.webp)
 
 ---
 
@@ -950,7 +967,7 @@ Kim więc jest ten nieuczciwy zagraniczny konkurent? To nikt inny jak słońce. 
 Innymi słowy, producenci świec próbują wykazać szkodliwy wpływ "zagranicznego konkurenta" (słońca) na gospodarkę Francji. Słońce nie tylko może dostarczyć ten sam "produkt" co świece, ale robi to za darmo. Dwieście lat później historia ta pozostaje niezwykle aktualna. Weźmy pod uwagę taksówkarzy, którzy domagają się zakazania VTC i Ubera. Pomyśl o księgarniach, które chcą zakazać Amazon.
 
 
-![image](assets/en/080.webp)
+![image](assets/pl/075.webp)
 
 
 Prawdziwym przeciwnikiem Bastiata w tej fikcji jest polityczny i wyborczy protekcjonizm, który opiera się wyłącznie na chciwości producentów i naiwności konsumentów. Bastiat ujawnia zmowę między ówczesnymi złymi kapitalistami a państwem. Zamiast wprowadzać innowacje i dostosowywać się do rynku, zły kapitalista jest tym, który stara się uzyskać przewagę polityczną poprzez protekcjonizm. To zawsze skutkuje spolszczeniem dla konsumenta, czyli niesprawiedliwością.
@@ -970,7 +987,7 @@ Protekcjonizm opiera się również na ukrytym sylogizmie, który okazuje się b
 Zilustrujmy ten absurd kilkoma krótkimi historiami opowiedzianymi przez Bastiata. W rozdziale III drugiej serii Sofizmatów ekonomicznych wyobraża sobie stolarza, który pisze do ministra petycję z prośbą o protekcjonistyczne ustawodawstwo. Stolarz formułuje swoją prośbę następująco: Panie Ministrze, niech Pan ustanowi prawo, zgodnie z którym "nikt nie będzie mógł używać niczego poza belkami i legarami wyprodukowanymi z tępych siekier" Innymi słowy, należy ustanowić prawo zakazujące używania ostrych siekier we Francji. Tak więc tam, gdzie normalnie zadaje się 100 ciosów siekierą, trzeba będzie zadać 300. Stolarze będą bardzo poszukiwani, a przez to lepiej opłacani.
 
 
-![image](assets/en/081.webp)
+![image](assets/pl/076.webp)
 
 
 W rozdziale XVI znajduje się kolejny bardzo ironiczny tekst zatytułowany: Prawa i lewa ręka. Po przeprowadzeniu śledztwa królewski wysłannik sporządza raport, w którym proponuje królowi odcięcie lub przynajmniej związanie wszystkich prawych rąk robotników. W ten sposób, kontynuuje, praca i w konsekwencji bogactwo wzrosną. Produkcja stanie się znacznie trudniejsza, co będzie wymagało masowego zatrudniania dodatkowej siły roboczej i wzrostu płac. Pauperyzm zniknie z kraju.
@@ -984,7 +1001,6 @@ To pomieszanie środków i celów można znaleźć w sloganie "pieniądze to bog
 Jest to aksjomat, który rządzi polityką pieniężną większości państw. Rzeczywiście, sztuczny wzrost ilości pieniądza pozwala bankom pożyczać pieniądze osobom fizycznym i państwom na łatwą spłatę ich zadłużenia, to jest "to, co widzimy". Ale "to, czego nie widzimy", to fakt, że ta kreacja pieniądza, nieoparta na żadnym realnym tworzeniu bogactwa, doprowadzi do inflacji i ruiny oszczędzających.
 
 
-![image](assets/en/082.webp)
 
 
 Prawdziwe bogactwo, według Bastiata, jest zatem zbiorem użytecznych rzeczy, które produkujemy poprzez pracę, aby zaspokoić nasze potrzeby. Pieniądze są zatem jedynie powszechnie używanym środkiem Exchange, odgrywają jedynie rolę pośrednika.
@@ -995,10 +1011,12 @@ Prawdziwe bogactwo, według Bastiata, jest zatem zbiorem użytecznych rzeczy, kt
 
 <chapterId>551fc499-2119-5a52-9114-412d29434c22</chapterId>
 
+:::video id=a5fe6417-cd81-4c72-a7c7-59aabf9e1547:::
+
 
 > Kiedy bogaci tracą na wadze, biedni umierają.
 
-![image](assets/en/083.webp)
+![image](assets/pl/077.webp)
 
 
 Ten cytat, przypisywany Lao-Tzu, opisuje nieuniknioną konsekwencję systemu podatkowego, którego celem jest uderzenie w bogatych mocniej niż w innych.
@@ -1023,7 +1041,6 @@ Ekonomia opisuje dobry lub zły wpływ decyzji politycznych na nasze życie. Jed
 
 > F.Bastiat
 
-![image](assets/en/084.webp)
 
 Od samego początku obala on wciąż dominujący argument, że wydatki publiczne finansowane z podatków tworzą miejsca pracy. W rzeczywistości podatki nic nie tworzą, ponieważ to, co jest wydawane przez państwo, nie jest już wydawane przez podatników.
 
@@ -1031,7 +1048,6 @@ Od samego początku obala on wciąż dominujący argument, że wydatki publiczne
 Co więcej, państwo jest bardziej rozrzutne niż jednostki. W istocie, przypomina nam, państwo nie jest właścicielem niczego; nie wytwarza bogactwa. Wydatki publiczne są często źródłem marnotrawstwa, ponieważ ogromne sumy skonfiskowane jednostkom wymykają się odpowiedzialności ich właścicieli i są wydawane w ich zastępstwie przez biurokratów, podlegających grupom nacisku.
 
 
-![image](assets/en/085.webp)
 
 
 Oczywiście, jako zapłata za równoważną usługę publiczną otrzymaną w Exchange, opodatkowanie jest całkowicie do obrony. Ale we Francji państwo przypisało podatkom kilka ról.
@@ -1043,7 +1059,6 @@ Początkowo miały one pokrywać wspólne wydatki. Następnie podatkom przypisan
 Wreszcie, podatkom przypisano rolę społeczną. Stały się one narzędziem sprawiedliwości społecznej. Dlatego podatki nie powinny uderzać w każdego w ten sam sposób. Podatki muszą być redystrybucyjne, od tych "którzy mają więcej" do tych "którzy mają mniej"
 
 
-![image](assets/en/086.webp)
 
 
 Problem polega na tym, że podatki, jako takie, podlegają arbitralności rządzących. Faworyzują lub nie pewne kategorie społeczne w zależności od tego, czy władza oczekuje od nich głosów, czy nie. Co więcej, progresywne stawki niewiele wnoszą do skarbu państwa. Pozwalają jednak większości wywłaszczyć mniejszość i w naturalny sposób stają się konfiskatą.
@@ -1052,7 +1067,7 @@ Problem polega na tym, że podatki, jako takie, podlegają arbitralności rządz
 Dlatego Bastiat już wcześniej zrozumiał krzywą Laffera. Arthur Laffer to amerykański ekonomista znany ze swojej słynnej "krzywej" (elipsy), opublikowanej w 1974 r., która pokazuje, że zysk z podatków rośnie wraz z obniżaniem stawki podatkowej. Jest to teoria malejącego zwrotu z nadmiernego opodatkowania.
 
 
-![image](assets/en/087.webp)
+![image](assets/pl/078.webp)
 
 ---
 
@@ -1065,7 +1080,7 @@ Dlatego Bastiat już wcześniej zrozumiał krzywą Laffera. Arthur Laffer to ame
 Politycy naiwnie zakładają, że istnieje automatyczny i stały związek między stawkami podatkowymi a przychodami podatkowymi. Sądzą, że mogą podwoić wpływy podatkowe poprzez podwojenie stawki podatkowej. Według Laffera takie podejście pomija fakt, że podatnicy mogą zmienić swoje zachowanie w odpowiedzi na nowe zachęty.
 
 
-![image](assets/en/088.webp)
+![image](assets/pl/079.webp)
 
 
 Krzywa Laffera pokazuje, że rząd nie uzyskuje żadnych przychodów, gdy stawki podatkowe wynoszą 100%. I odwrotnie, każda obniżka podatków służy stymulowaniu aktywności gospodarczej, a tym samym przychodów państwa. Rzeczywiście, obniżenie krańcowych stawek podatkowych stymuluje inwestycje, pracę, kreatywność, a tym samym promuje wzrost gospodarczy. Wystarczająca obniżka może wytworzyć wystarczający bodziec gospodarczy, aby zwiększyć dochody publiczne poprzez znaczne poszerzenie bazy podatkowej.
@@ -1074,7 +1089,7 @@ Krzywa Laffera pokazuje, że rząd nie uzyskuje żadnych przychodów, gdy stawki
 Bastiat mógłby dodać, że równie dużą wagę należy przywiązywać do ograniczania wydatków państwa, co do obniżania podatków. Niemniej jednak, jak trafnie ujęła to Margaret Thatcher, uczennica Frédérica Bastiata:
 
 
-![image](assets/en/089.webp)
+![image](assets/pl/080.webp)
 
 
 > Celem nie jest uczynienie bogatych biednymi, ale uczynienie biednych bogatymi.
@@ -1087,11 +1102,13 @@ Powiedziała to, zwracając się do socjalistów.
 
 <chapterId>c518e449-f638-553c-9a49-15da48023d41</chapterId>
 
+:::video id=e2037025-a4db-4980-91e7-a04da99514de:::
+
 
 Wiele osób zna "Tartuffe'a albo oszusta", komedię Moliera, w której przebiegły wielbiciel próbuje uwieść Elmirę i oszukać jej męża Orgona. Jak uchronić się przed oszustwami takiego hipokryty, który udaje, że czyni dobro, a jednocześnie spiskuje przeciwko nam?
 
 
-![image](assets/en/090.webp)
+![image](assets/pl/081.webp)
 
 
 Bastiat zauważa, że istnieją dwa sposoby, aby położyć kres tego rodzaju oszustwom: poprawić Tartuffe'a lub oświecić Orgona. Oczywiście Tartuffe'owie zawsze będą istnieć, ale ich moc szkodzenia byłaby znacznie mniejsza, gdyby Orgony słuchały ich rzadziej.
@@ -1103,7 +1120,7 @@ Słabość ludzkiego rozumu leży u podstaw nadużywania wolności. Jest to gł�
 Istnieją jednak dwa uzupełniające się sposoby oświecenia osądu obywateli, jak Bastiat przedstawia w rozdziale drugiej serii Sofizmatów ekonomicznych zatytułowanym "Dwie moralności".
 
 
-![image](assets/en/091.webp)
+![image](assets/pl/082.webp)
 
 
 
@@ -1122,7 +1139,7 @@ W rzeczywistości są to dwie doskonale uzupełniające się ramy moralne.
 Krótko mówiąc, uczy cnoty, bezinteresownego działania. Ta moralność, mówi Bastiat, będzie wiecznie najpiękniejsza i najbardziej wzruszająca, ponieważ pokazuje, co jest najlepsze w człowieku.
 
 
-![image](assets/en/092.webp)
+![image](assets/pl/083.webp)
 
 
 2. Druga pomaga potępiać i zwalczać zło poprzez wiedzę o jego skutkach, jest to moralność ekonomiczna. Odnosi się do intelektu, a nie serca, mając na celu oświecenie ofiary o negatywnych skutkach danego zachowania. Wzmacnia lekcje płynące z doświadczenia. Dąży do szerzenia zdrowego rozsądku, wiedzy i nieufności wśród uciskanych mas, czyniąc ucisk trudniejszym.
@@ -1131,7 +1148,7 @@ Krótko mówiąc, uczy cnoty, bezinteresownego działania. Ta moralność, mówi
 Ta moralność ekonomiczna dąży do tego samego rezultatu, co moralność religijna, ale zaczyna od skutków ludzkich działań. Uczy nas reagować na niesprawiedliwe lub szkodliwe działania i bronić tych, które są sprawiedliwe lub pożyteczne.
 
 
-![image](assets/en/093.webp)
+![image](assets/pl/084.webp)
 
 
 Bastiat podkreśla tutaj rolę nauki, a w szczególności nauk ekonomicznych. Chociaż różni się od tradycyjnej moralności, jej rola jest jednak niezbędna do zwalczania spolszczenia we wszystkich jego formach. Moralność atakuje występek w jego intencji, kształci wolę. Z drugiej strony nauka atakuje występek poprzez zrozumienie jego skutków, ułatwiając w ten sposób triumf cnoty.
@@ -1146,7 +1163,6 @@ Ekonomia polityczna ma zatem oczywistą praktyczną użyteczność. Ujawnia ukry
 Ponownie, byłoby mniej Tartuffów, gdyby było mniej Orgonów, którzy by ich słuchali. Oto, co Bastiat ma do powiedzenia na ten temat:
 
 
-![image](assets/en/094.webp)
 
 
 > Niech zatem moralność religijna dotknie serc Tartuffów, jeśli może. Zadaniem ekonomii politycznej jest oświecenie ich głupców. Które z tych dwóch podejść działa najskuteczniej na rzecz postępu społecznego? Czy trzeba to powiedzieć? Wierzę, że to drugie. Obawiam się, że ludzkość nie uniknie konieczności nauczenia się najpierw moralności defensywnej.
@@ -1168,6 +1184,8 @@ Jedno jest pewne, to nie polityka może zmienić bieg rzeczy i udoskonalić czł
 
 <chapterId>895ccd1d-7b52-5a8b-8b2c-6ec0056cf632</chapterId>
 
+:::video id=ed6dc15c-b5e9-465c-9966-16c6737c0a68:::
+
 
 Czy harmonijne społeczeństwo może obejść się bez spisanych praw, zasad i środków represji? Jeśli ludzie będą wolni, czy nie będziemy świadkami nieporządku, anarchii, dezorganizacji? Jak uniknąć tworzenia zwykłego zestawienia jednostek działających poza jakimkolwiek koncertem, jeśli nie poprzez prawa i scentralizowaną organizację polityczną?
 
@@ -1175,7 +1193,7 @@ Czy harmonijne społeczeństwo może obejść się bez spisanych praw, zasad i �
 Jest to argument często przywoływany przez tych, którzy domagają się regulacji rynku lub samego społeczeństwa zdolnego do koordynowania jednostek w spójną i harmonijną całość.
 
 
-![image](assets/en/095.webp)
+![image](assets/pl/085.webp)
 
 
 Nie jest to pogląd Bastiata. Według niego mechanizm społeczny, podobnie jak mechanizm niebiański lub mechanizm ludzkiego ciała, podlega ogólnym prawom. Innymi słowy, jest to już harmonijnie zorganizowana całość. A motorem tej organizacji jest wolny rynek.
@@ -1207,7 +1225,7 @@ Bastiat opisuje rynek jako zdecentralizowane i niewidzialne narzędzie współpr
 Bastiat konkluduje, że uderzająca jest ogromna dysproporcja między korzyściami, jakie ten człowiek czerpie ze społeczeństwa, a tymi, które zapewniłby sobie, gdyby był ograniczony do własnych zasobów. W ciągu jednego dnia konsumuje on dobra, których sam nie byłby w stanie wyprodukować.
 
 
-![image](assets/en/096.webp)
+![image](assets/pl/086.webp)
 
 
 W 1958 r. amerykański pisarz Leonard Read (Foundation for Economic Education) opublikował w magazynie The Freeman krótki esej napisany w stylu Bastiata, który stał się bardzo znany: "I, Pencil". Tekst ten jest metaforą tego, czym jest wolny rynek. Zaczyna się następująco:
@@ -1215,24 +1233,25 @@ W 1958 r. amerykański pisarz Leonard Read (Foundation for Economic Education) o
 
 > Jestem ołówkiem, zwykłym drewnianym ołówkiem znanym wszystkim chłopcom i dziewczętom oraz dorosłym, którzy potrafią czytać i pisać. Jest to jeden z najprostszych przedmiotów w ludzkiej cywilizacji. A jednak ani jedna osoba na tej ziemi nie wie, jak mnie wyprodukować.
 
-![image](assets/en/097.webp)
+![image](assets/pl/087.webp)
 
 Powraca do idei Bastiata o niewidzialnej współpracy między milionami jednostek, które nie znają się nawzajem, prowadzącej do zbudowania czegoś tak przyziemnego jak ołówek. Nikt nie wie, jak samemu zrobić ołówek. Jednak miliony ludzi nieświadomie uczestniczą w tworzeniu tego prostego ołówka, wymieniając się i koordynując swoją wiedzę i umiejętności w ramach systemu cenowego, bez żadnej nadrzędnej władzy dyktującej ich postępowanie. Ta historia pokazuje, że wolne jednostki działające w swoim uzasadnionym interesie działają na korzyść społeczeństwa bardziej niż jakakolwiek planowana i scentralizowana strategia gospodarcza.
 
 
 Milton Friedman, laureat Nagrody Nobla w dziedzinie ekonomii w 1976 roku, również powrócił do tej historii z ołówkiem, aby wyjaśnić opinii publicznej, jak działa gospodarka rynkowa.
 
+:::video id=db48376a-64c9-48b8-a8fb-2640c9b5bf73:::
 
 W jednym z odcinków swojego serialu telewizyjnego Free to Choose analizuje różne składniki czegoś tak przyziemnego i prostego jak ołówek i podkreśla cud spontanicznego porządku, generowanego przez tysiące interakcji gospodarczych na całym świecie. Ludzie, którzy się nie znają, którzy nie podzielają tej samej religii lub zwyczajów, wciąż potrafią skoordynować, aby wyprodukować ten przedmiot. Dochodzi do wniosku, że wolny rynek jest niezbędny do zapewnienia nie tylko dobrobytu, ale także harmonii i pokoju.
 
 
-![image](assets/en/098.webp)
+![image](assets/pl/088.webp)
 
 
 Friedrich Hayek w swoim eseju "Wykorzystanie wiedzy w społeczeństwie" z 1945 roku wyjaśnił już, dlaczego gospodarka rynkowa i decentralizacja decyzji są niezbędne dla dobrobytu. Według Hayeka, żaden centralny planista czy biurokrata nigdy nie posiadałby wystarczającej wiedzy, by skutecznie kierować całością działań gospodarczych. Tylko system cen na wolnym rynku pozwala milionom niezależnych podmiotów samodzielnie decydować o tym, jak efektywnie alokować zasoby.
 
 
-![image](assets/en/099.webp)
+![image](assets/pl/089.webp)
 
 
 Planowanie gospodarcze, które twierdzi, że radzi sobie lepiej niż rynek, prowadzi nie tylko do złej alokacji zasobów, ale także do hegemonii jednej klasy nad drugą. Dlatego socjalizm jest nie tylko intelektualnym błędem, ale także błędem, który ostatecznie generuje ogromną niesprawiedliwość.
@@ -1243,13 +1262,15 @@ Planowanie gospodarcze, które twierdzi, że radzi sobie lepiej niż rynek, prow
 
 <chapterId>78baa7ef-2c80-5fc7-8881-c1be4662b96f</chapterId>
 
+:::video id=a7e94133-d79a-47cf-b098-d1b15741235e:::
+
 
 W liście do Alphonse'a de Lamartine'a z 1845 r. Bastiat napisał, że cała jego filozofia zawarta jest w jednej zasadzie:
 
 
 > Wolność jest najlepszą formą organizacji społecznej.
 
-![image](assets/en/100.webp)
+![image](assets/pl/090.webp)
 
 Dodaje jednak pewien warunek:
 
@@ -1268,7 +1289,7 @@ Dlatego też odpowiedzialność stanowi w pewnym sensie pozytywny aspekt wolnoś
 Indywidualna odpowiedzialność jest zarówno głównym wektorem kreatywności, jak i zachętą do ostrożności i przezorności.
 
 
-![image](assets/en/101.webp)
+![image](assets/pl/091.webp)
 
 
 Kiedy ktoś wydaje własne pieniądze, uważa, by nie zadłużyć się za bardzo, sprawdza jakość produktów, wiarygodność dostawców, ryzykując, że zostanie srogo ukarany. Taka jest siła odpowiedzialności, która w połączeniu z wolnością jest prawdziwym motorem postępu społecznego.
@@ -1282,7 +1303,7 @@ Ale skąd bierze się zjawisko nieodpowiedzialności lub desponsibilizacji? Fré
 Rzeczywiście, etatyzm nieustannie ogranicza prywatną inicjatywę i wolny wybór ludzi. Robi za nich to, co sami mogliby zrobić lepiej. W ten sposób pozbawia jednostki konsekwencji ich czynów. Niszczy odpowiedzialność.
 
 
-![image](assets/en/102.webp)
+![image](assets/pl/092.webp)
 
 
 Według Bastiata, przerost praw i nadmierna interwencja państwa skutkują walką o władzę, splądrowaniem, przywilejami, monopolami, wojnami, krótko mówiąc, wszystkim, co utrudnia postęp cywilizacyjny.
@@ -1293,7 +1314,7 @@ Ryzyko nadmiernego faworyzowania ścieżki prawa lub biurokratycznej kontroli po
 Zilustrujmy tę kwestię kilkoma ważnymi bieżącymi tematami. Pierwszy przykład to kryzys z 2008 roku.
 
 
-![image](assets/en/103.webp)
+![image](assets/pl/093.webp)
 
 (Alan Greenspan, prezes FED, amerykańskiego banku centralnego, w latach 1987-2006)_
 
@@ -1301,7 +1322,6 @@ Zilustrujmy tę kwestię kilkoma ważnymi bieżącymi tematami. Pierwszy przykł
 Przez lata liderzy polityki monetarnej tłumaczyli, że jeśli zyski są prywatyzowane, gdy wszystko idzie dobrze, straty będą uwspólniane w przypadku bankructwa (bailouty, plany ratunkowe, manipulacje stopami procentowymi, drukowanie pieniędzy itp.) W ten sposób stworzyli pokusę nadużycia, ułatwili podejmowanie nieuzasadnionego ryzyka i zachęcili świat finansów do nieodpowiedzialnych zachowań. W ten sposób doprowadziły finanse do kryzysu, którego doświadczyliśmy.
 
 
-![image](assets/en/104.webp)
 
 
 Zjawisko to będzie się powtarzać w nieskończoność, dopóki banki pozostaną pod dominacją władz centralnych, które mają je chronić, odbierając im wszelką autonomię decyzji i działania.
@@ -1310,7 +1330,7 @@ Zjawisko to będzie się powtarzać w nieskończoność, dopóki banki pozostan�
 Inny przykład: usługi publiczne
 
 
-![image](assets/en/105.webp)
+![image](assets/pl/094.webp)
 
 
 Każda usługa publiczna narzuca preferencje biurokratycznej elity, ze szkodą dla indywidualnego wolnego wyboru. Według Bastiata prowadzi to do dwóch konsekwencji: Obywatel "przestaje sprawować wolną kontrolę nad własnymi satysfakcjami, a nie mając już odpowiedzialności, naturalnie przestaje mieć inteligencję" Powód jest prosty: każde spisane prawo jest przymusowe i jest takie samo dla wszystkich, nie bierze pod uwagę konkretnych sytuacji, potrzeb i preferencji obywateli.
@@ -1319,13 +1339,13 @@ Każda usługa publiczna narzuca preferencje biurokratycznej elity, ze szkodą d
 Wreszcie, usługi publiczne są przyczyną bezruchu. Rzeczywiście, kiedy usługi prywatne stają się publiczne, wymykają się konkurencji. W konsekwencji, mówi Bastiat, cytuję: "urzędnik jest pozbawiony tego bodźca, który popycha ku postępowi"
 
 
-![image](assets/en/106.webp)
+![image](assets/pl/095.webp)
 
 
 Kiedy obserwujemy publiczną służbę edukacji narodowej, rozumiemy, co Bastiat ma na myśli. Zwalnia on zdecydowaną większość rodziców z ciężaru edukacji ich dzieci, redukując szkołę do przedszkola. Nie zachęca nauczycieli do innowacji i podejmowania ryzyka, ponieważ w takim systemie są oni jedynie wykonawcami programu zaprojektowanego bez nich, przez biurokratów. Wreszcie, ignoruje rzeczywistość szczególnych potrzeb każdej osoby.
 
 
-![image](assets/en/107.webp)
+![image](assets/pl/096.webp)
 
 W innym kursie przekonamy się, że według Bastiata jedyne legalne służby publiczne państwa są trojakie: wojsko, policja i sądownictwo. Podsumowując kwestię odpowiedzialności, problem z interwencją państwa polega na tym, że ci, którzy podejmują decyzje, nie są tymi, którzy ponoszą ich konsekwencje.
 
@@ -1336,6 +1356,8 @@ Innymi słowy, kolektywne wybory nie są odpowiedzialnymi wyborami, ponieważ z 
 
 
 <chapterId>0c078806-6c58-53f9-a720-5fb62386e56b</chapterId>
+
+:::video id=0b2bc259-52c5-46c9-a904-254746d6972f:::
 
 
 W poprzednim kursie zobaczyliśmy, dlaczego wolność i odpowiedzialność są kluczem do problemu społecznego. Teraz zagłębimy się w ten punkt, pokazując, w jaki sposób Frédéric Bastiat postrzega zło, które dotyka społeczeństwa i jego rozwiązanie.
@@ -1353,7 +1375,7 @@ Zło jest nie tylko ostateczną rzeczywistością, ale ma również do odegrania
 Aby odpowiedzieć na te pytania, Bastiat przystąpi do analizy ludzkiego działania. To rzeczywiście może prowadzić zarówno do dobra, jak i zła.
 
 
-![image](assets/en/108.webp)
+![image](assets/pl/097.webp)
 
 
 Zło po pierwsze wynika z naszej niedoskonałości. Wolny wybór oznacza ryzyko dokonania złego wyboru, mówi Bastiat. Rzeczywiście, możemy zostać oszukani na wiele sposobów, nawet w kwestii naszych własnych potrzeb i interesów. Człowiek jest omylny, ma skłonność do popełniania błędów w rozumieniu gry praw ekonomicznych lub do odwracania ich uwagi od celu.
@@ -1369,7 +1391,7 @@ Jeśli zło wynika z ludzkiej słabości, a nie z samej wolności czy wolnego ha
 Dzięki tej naturalnej sankcji człowiek uczy się, odkrywa, koryguje siebie, czyni postępy i doskonali się. Innymi słowy, odpowiedzialność jest zasadą doskonałości i postępu, jak widzieliśmy w poprzednim kursie.
 
 
-![image](assets/en/109.webp)
+![image](assets/pl/098.webp)
 
 
 Jeśli człowiek ponosi konsekwencje, dobre lub złe, swoich decyzji, będzie miał tendencję do doskonalenia się poprzez uczenie się z doświadczenia. Dlatego indywidualna odpowiedzialność, która według Bastiata jest wielkim wychowawcą narodów, podstawową zasadą wszelkich regulacji zachowań i społeczeństw, musi mieć możliwość działania.
@@ -1381,7 +1403,7 @@ Zło rodzi cierpienie, a cierpienie pozwala nam zrozumieć błąd, sprowadza nas
 To właśnie dlatego, że człowiek ryzykuje popełnienie błędu lub niewłaściwe działanie i poniesienie konsekwencji, jest on zachęcany do bycia odpowiedzialnym. Wówczas będzie starał się przewidywać zagrożenia, które mogą go spotkać, aby się chronić.
 
 
-![image](assets/en/110.webp)
+![image](assets/pl/099.webp)
 
 ---
 
@@ -1395,13 +1417,13 @@ Jest więc jasne, że Bastiat nie jest ślepy. Nie zaprzecza istnieniu zła. Cz�
 Twierdzi on po prostu, że jeśli źródłem zła jest brak wolności, to lekarstwem na nie jest sama wolność, a dokładniej pełne i całkowite korzystanie z osobistej odpowiedzialności.
 
 
-![image](assets/en/111.webp)
+![image](assets/pl/100.webp)
 
 
 Ale jeśli niewłaściwe wykorzystanie wolności jest źródłem naszych nieszczęść, to jej właściwe wykorzystanie jest lekarstwem, to znaczy pełnym i całkowitym wykonywaniem osobistej odpowiedzialności, opartej na prawie własności. Regulacja społeczna przechodzi zatem przez odpowiedzialność, a nie przez interwencję państwa we wszystkich obszarach, co jest jednym z największych źródeł spolszczenia, a tym samym zła.
 
 
-![image](assets/en/112.webp)
+![image](assets/pl/101.webp)
 
 W przeciwieństwie do Rousseau, który dąży do wyeliminowania zła poprzez instytucje zbiorowe, Frédéric Bastiat broni możliwości zła i błędu, bez których nie ma wolności ani indywidualnej odpowiedzialności. Bo tylko ona pozwala, poprzez proces odkrywania, na postęp i redukcję zła społecznego.
 
@@ -1413,20 +1435,20 @@ Należy wyjaśnić, że rozwój postępu poprzez odpowiedzialność nie jest byn
 
 <chapterId>fa2172e9-22fa-5c01-a3c8-1e8316c064a4</chapterId>
 
+:::video id=28c7b1d0-e32f-48dc-95ee-8459667b42ab:::
 
-![image](assets/en/113.webp)
+
 
 
 Frédéric Bastiat, w swoim słynnym pamflecie "Prawo", potępia wypaczenie prawa, które polega na legalizacji, pod nazwą "solidarności", tego, co w rzeczywistości należy nazwać grabieżą. Rzeczywiście, istnieje sprzeczność w chęci narzucenia braterstwa poprzez prawo, co dziś nazwalibyśmy "sprawiedliwością społeczną" lub solidarnością.
 
 
-![image](assets/en/114.webp)
 
 
 Moralność jest bowiem definiowana jako dobrowolne zachowanie. Kiedy jednostka jest zmuszana do oddania czegoś, czego nie chce, zawsze pada ofiarą kradzieży.
 
 
-![image](assets/en/115.webp)
+![image](assets/pl/102.webp)
 
 
 W istocie, gdy darowizna staje się obowiązkowa na mocy prawa, nie jest już postawą moralną. Moralna postawa dawania zostaje zastąpiona roszczeniem "do praw", które są roszczeniami do pracy innych. Fałszywa solidarność jest wezwaniem do życia kosztem innych.
@@ -1443,7 +1465,7 @@ I jeszcze raz:
 > Rządy zawsze podejmują tylko takie działania, które są usankcjonowane siłą. Dopuszczalne jest zmuszanie kogoś do bycia sprawiedliwym, ale nie do bycia dobroczynnym. Prawo, gdy usiłuje dokonać siłą tego, co moralność osiąga poprzez perswazję, dalekie jest od wzniesienia się do sfery dobroczynności, spada do domeny grabieży.
 > Ta perwersja prawa ma jednak swoją nazwę - jest nią socjalizm, czyli ideologia przymusowej redystrybucji bogactwa przez państwo. Socjalizm, według Bastiata, charakteryzuje się ideologią legalnej grabieży. Ale przebiegłość tej ideologii polega na tym, że maskuje ona swoją przemoc pod nadużyciem języka: wezwaniem do solidarności lub braterstwa.
 
-![image](assets/en/116.webp)
+![image](assets/pl/103.webp)
 
 ---
 
@@ -1457,13 +1479,13 @@ I jeszcze raz:
 Jednak według Bastiata istnieje alternatywa dla obowiązkowej solidarności państwowej: "społeczeństwo wzajemnej pomocy", wzajemna i spontaniczna pomoc ludzi między sobą dzięki towarzystwom wzajemnej pomocy. Bastiat przewidział jednak, że państwo w końcu przejmie te towarzystwa, aby uczynić je wyjątkowym i scentralizowanym organem, zachęcając do wydatków i marnotrawstwa.
 
 
-![image](assets/en/117.webp)
+![image](assets/pl/104.webp)
 
 
 W broszurze zatytułowanej "Sprawiedliwość i braterstwo" Bastiat analizuje również ideę uproszczonego i sprawiedliwego systemu podatkowego w celu finansowania potrzeb zbiorowych (policja, wymiar sprawiedliwości, armia): dochody i zyski podlegałyby jednej i proporcjonalnej stawce podatkowej. Jest to rozwiązanie znane dziś jako "podatek liniowy".
 
 
-![image](assets/en/118.webp)
+![image](assets/pl/105.webp)
 
 ---
 
@@ -1481,7 +1503,6 @@ Rzeczywiście, solidarność wewnątrzrodzinna, solidarność lokalna lub zorgan
 Często modne jest ubolewanie nad "egoizmem", który zapanowałby w liberalnych społeczeństwach. Jest jednak dokładnie odwrotnie. Kiedy społeczeństwo jest obciążone podatkami, a jednostki nie są już właścicielami swojej własności, nie są zachęcane do dawania, ale raczej do zamykania się w sobie.
 
 
-![image](assets/en/119.webp)
 
 
 W rzeczywistości wolne społeczeństwo obywatelskie nie opiera się na egoizmie: gospodarka rynkowa działa na zasadzie służby bliźniemu i wzajemności. Można służyć własnemu interesowi tylko poprzez służenie interesowi drugiej osoby, oferując jej odpowiednik, który prowadzi do wzajemnie korzystnego Exchange. Innymi słowy, to dobrowolne Exchange tworzy prawdziwą solidarność.
@@ -1506,6 +1527,8 @@ Prawo może zmusić człowieka do bycia sprawiedliwym, ale nie może zmusić go 
 
 <chapterId>a48a0616-2105-5520-8312-e21a0b6489c7</chapterId>
 
+:::video id=823bbc82-dfe6-4ed4-bb36-e5557dc5341a:::
+
 
 Przez własność nie powinniśmy tutaj rozumieć ziemi. Oznacza ona "prawo pracownika do wartości, którą stworzył dzięki swojej pracy" Precyzuje Bastiat:
 
@@ -1526,7 +1549,7 @@ Rozumiane w tym sensie, prawo własności jest jednym z tych praw, które nie wy
 Jego misją jest obrona człowieka i jego własności.
 
 
-![image](assets/en/120.webp)
+![image](assets/pl/106.webp)
 
 (François Quesnay, przywódca fizjokratów)_
 
@@ -1539,13 +1562,13 @@ Prawo "nie jest stworzone". Nie jest wymyślone na podstawie idealnej wizji tego
 Jednostki mają prawa naturalne, które istnieją przed prawem: Własność, Wolność, Osobowość. Rolą prawa powinno być zachowanie tych naturalnych praw jednostki. W związku z tym państwo musi być ograniczone. Dziś powiedzielibyśmy, że Bastiat jest zwolennikiem państwa minimalnego.
 
 
-![image](assets/en/121.webp)
+![image](assets/pl/107.webp)
 
 
 W systemie Rousseau, który omówiliśmy w poprzednim kursie, misją prawodawcy jest organizowanie, modyfikowanie, a nawet znoszenie własności, jeśli uzna się to za stosowne. Dla Rousseau własność nie jest naturalna, ale konwencjonalna, podobnie jak samo społeczeństwo. Idea ta wywodzi się z prawa rzymskiego, z którym Rousseau był głęboko zaznajomiony.
 
 
-![image](assets/en/122.webp)
+![image](assets/pl/108.webp)
 
 
 Robespierre z kolei głosi zasadę, że "Własność jest prawem każdego obywatela do korzystania i dysponowania częścią dóbr zagwarantowanych mu przez prawo"
@@ -1557,7 +1580,6 @@ Dla Rousseau własność nie jest wcześniejsza od prawa; jest jedynie konwencj�
 Na przykład: prawo do pracy lub prawo do mieszkania.
 
 
-![image](assets/en/123.webp)
 
 
 Abym mógł nabyć coś za darmo, ktoś musi zapłacić w moim imieniu. A jeśli to państwo płaci, ponieważ nie wytwarza bogactwa, może to zrobić tylko poprzez zabranie komuś domu lub jego ekwiwalentu, aby mi go dać.
@@ -1569,14 +1591,9 @@ Pomysł, że prawo własności jest wytworem prawa, prowadzi zatem, według Bast
 W systemie naturalnej wolności istnieje prawo naturalne, niezależne od kaprysów prawodawców. Jest ono ważne dla wszystkich ludzi i poprzedza każde społeczeństwo. Obowiązkiem rządu jest zapewnienie praw naturalnych każdej jednostce. Sprawiedliwe społeczeństwo to takie, w którym prawa własności są w pełni szanowane, co oznacza ochronę przed jakąkolwiek ingerencją ze strony innych.
 
 
-![image](assets/en/120.webp)
+![image](assets/pl/109.webp)
 
 W tym miejscu Bastiat nawiązuje do spuścizny fizjokratów, a także do tradycji filozofii prawa Cycerona i Arystotelesa. Prawo nie tworzy praw. Jego misją jest ich obrona, a tym samym obrona własności, zarówno własności samego siebie, integralności osoby, jak i własności owoców swojej pracy.
-
-
-![image](assets/en/124.webp)
-
-_(Cyceron)_
 
 
 ## Legalna grabież: Wypaczenie prawa
@@ -1584,11 +1601,13 @@ _(Cyceron)_
 
 <chapterId>b4122847-e477-578e-ba34-d35844ac4715</chapterId>
 
+:::video id=24b1ca72-c52a-4ff3-b6db-01e3807c5d8e:::
+
 
 Główną ideą Bastiata w "Prawie", jego słynnym pamflecie z 1850 roku, jest pokazanie, dlaczego i w jaki sposób prawo stało się grabieżą, czyli źródłem przywilejów, czynszów sytuacyjnych i arbitralności podatkowej.
 
 
-![image](assets/en/125.webp)
+![image](assets/pl/110.webp)
 
 
 Jaka jest prawdziwa natura prawa?
@@ -1603,7 +1622,7 @@ Instytucjonalny system naturalnej wolności to taki, w którym społeczeństwo, 
 > To nie dlatego, że istnieją prawa, istnieją właściwości, ale dlatego, że istnieją właściwości, istnieją prawa.
 > Własność i prawo
 
-![image](assets/en/126.webp)
+![image](assets/pl/111.webp)
 
 
 Każdy człowiek ma prawo bronić swojego życia i korzystać ze swoich zdolności. Prawo jest zbiorową organizacją tej uzasadnionej obrony. Prawo broni sprawiedliwości. Nie pozytywnej sprawiedliwości, która organizowałaby braterstwo i solidarność, ale negatywnej sprawiedliwości, która ogranicza się do zapobiegania uzurpowaniu sobie praw przez jedną osobę.
@@ -1615,15 +1634,12 @@ Jednakże, gdy prawo przestaje być negatywne i staje się pozytywne, poczucie n
 Fałszywa filantropia, twierdzi Bastiat, jest jedną z głównych przyczyn wypaczenia prawa. Niektórzy ludzie uważają się za lepszych od reszty ludzkości i zdolnych do dokonywania lepszych wyborów niż inni.
 
 
-![image](assets/en/127.webp)
+![image](assets/pl/112.webp)
 
 Wiedzą lepiej, co jest dobre dla innych i narzucają swoją koncepcję dobra wszystkim; to są filantropi. Stworzyli oni fałszywe prawa, które dziś nazywane są prawami socjalnymi. Prawa socjalne to nic innego jak prawa do pracy innych, prawa do dysponowania swoją własnością, owocami swojej pracy: prawo do mieszkania, prawo do zdrowia, do edukacji, do pracy, do płacy minimalnej itp.
 
 
 Czym jest grabież? Bastiat mówi nam, że jest to dokładne przeciwieństwo własności. Plądrowanie pochodzi od łacińskiego _spoliare_, co oznacza rozbierać. Widzieliśmy, że człowiek może żyć tylko poprzez przywłaszczanie sobie rzeczy, poprzez stosowanie swoich zdolności do rzeczy, czyli poprzez pracę. Niestety, może on również przywłaszczyć sobie produkt zdolności swojego bliźniego, czyli go ograbić.
-
-
-![image](assets/en/128.webp)
 
 
 Cała misja prawa polega na zapobieganiu tej pozaprawnej grabieży, czyli na obronie własności i wolności, dwóch nierozłącznych rzeczy.
@@ -1632,13 +1648,13 @@ Cała misja prawa polega na zapobieganiu tej pozaprawnej grabieży, czyli na obr
 Gdy tylko zasadniczo przyznaje się, że prawo może zostać odwrócone od swojej prawdziwej misji, że może naruszać własność zamiast ją gwarantować, koniecznie następuje walka klasowa, albo w celu obrony przed grabieżą, albo w celu zorganizowania jej również na swoją korzyść.
 
 
-![image](assets/en/129.webp)
+![image](assets/pl/113.webp)
 
 
 Zamiast bronić praw naturalnych, prawo przekształca się w ochronę korporacyjnych i kategorycznych interesów. Grabież jest organizowana przez prawo, z korzyścią dla klas, które ją tworzą i ich przyjaciół lub klientów. Bastiat antycypuje w ten sposób dwudziestowieczną szkołę wyboru publicznego, dla której prawo jest wynikiem "rynku politycznego", na którym grupy jednostek starają się zaspokoić swoje interesy kosztem innych.
 
 
-![image](assets/en/130.webp)
+![image](assets/pl/114.webp)
 
 
 Dla niego celem prawa musi być po prostu "położenie kresu wszelkim grabieżom" Jeśli państwo nie interweniuje w życie prywatne, jednostki są faktycznie właścicielami i są odpowiedzialne za swoje życie. Same decydują o swoim szczęściu. Ponoszą dobre lub złe konsekwencje swoich działań.
@@ -1652,7 +1668,7 @@ Są pewni, że ich prawa naturalne są gwarantowane i nietykalne. Bezpieczne pra
 Bastiat napisał powyższe zdanie w The Law, jakiś czas przed śmiercią.
 
 
-![image](assets/en/131.webp)
+![image](assets/pl/115.webp)
 
 
 Sto lat po śmierci Frédérica Bastiata, grabież prawna jest wyraźnie widoczna w Powszechnej Deklaracji Praw Człowieka z 1948 r., zwłaszcza w jej artykułach 22 ("każdy ma prawo do zabezpieczenia społecznego"), 23 ("każdy ma prawo do pracy"), 24 ("każdy ma prawo do wypoczynku i czasu wolnego"), 25 ("każdy ma prawo do stopy życiowej zapewniającej zdrowie i dobrobyt"), 26 ("każdy ma prawo do nauki").
@@ -1663,6 +1679,8 @@ Sto lat po śmierci Frédérica Bastiata, grabież prawna jest wyraźnie widoczn
 
 <chapterId>52258229-7c7c-592b-aa27-203b03aa41c9</chapterId>
 
+:::video id=43c0db1d-1063-45d7-bce3-4d9d18382a2d:::
+
 
 W 1848 r. Bastiat był deputowanym. Został mianowany wiceprzewodniczącym komisji finansowej. Był zatem szczególnie dobrze przygotowany do odpowiedzi na pytanie: czym jest państwo? Zwracamy się do państwa, aby zapewnić sobie dobrobyt. Bastiat przypomina nam jednak, że państwo nie może dać obywatelom niczego, czego wcześniej im nie odebrało.
 
@@ -1670,28 +1688,27 @@ W 1848 r. Bastiat był deputowanym. Został mianowany wiceprzewodniczącym komis
 Bastiat zaczyna od obalenia powszechnie akceptowanego równania: to państwo utrzymuje naród. Państwo nie może jednak utrzymywać obywateli, ponieważ nie wytwarza bogactwa, a jedynie je przenosi i redystrybuuje. Wręcz przeciwnie, to obywatele utrzymują państwo poprzez tworzenie bogactwa.
 
 
-![image](assets/en/132.webp)
+![image](assets/pl/116.webp)
 
 
 Co więcej, państwo samo w sobie nie istnieje; są tylko ludzie, którzy tworzą państwo, którzy rządzą, administrują, którzy żyją z państwa bezpośrednio lub pośrednio. Dlatego ludzie, którzy zarządzają państwem, są jak inni; starają się zaspokoić swoje osobiste interesy.
 
 
-![image](assets/en/133.webp)
+![image](assets/pl/117.webp)
 
 
 A ponieważ działania państwa mają charakter czysto redystrybucyjny, podlega ono presji grup interesu. Rzeczywiście, niektóre grupy interesu zrozumiały, że łatwiej jest zarabiać pieniądze poprzez zaangażowanie polityczne niż poprzez produktywne zachowania. Starają się kraść pieniądze innych pod przykrywką państwa, osłabiając zdolność produkcyjną rynku poprzez mnożenie przepisów, podatków i biurokratycznych ograniczeń.
 
 
-![image](assets/en/134.webp)
+![image](assets/pl/118.webp)
 
 
 Innymi słowy, państwo realizuje jedynie cele klientelistyczne, a pojęcie interesu ogólnego jest pozbawione znaczenia. Każdy zysk uzyskany przez niektórych odbywa się kosztem innych: nie jest to gra o sumie zerowej, ale o sumie ujemnej.
 
 Bastiat antycypuje w ten sposób, ze stuletnim wyprzedzeniem, analizy funkcjonowania rynku politycznego, które pojawią się pod koniec lat 50. wraz z tak zwaną szkołą Public Choice Jamesa Buchanana, laureata Nagrody Nobla w dziedzinie ekonomii, i jego kolegi Gordona Tullocka.
 
-![image](assets/en/135.webp)
+![image](assets/pl/119.webp)
 
-![image](assets/en/136.webp)
 
 
 Co więcej, Bastiat twierdzi, że państwo nie ma żadnych praw, które nie istniałyby wcześniej w jednostce. Dlaczego państwo ma prawo zagwarantować, nawet siłą, własność każdej jednostki? Po prostu dlatego, że to prawo istnieje wcześniej w jednostce. Nie można odmówić jednostkom prawa do samoobrony, prawa do użycia siły, jeśli jest to konieczne do odparcia ataków na ich osoby, zdolności i własność. To naturalne prawo do samoobrony, które przysługuje wszystkim obywatelom, może przybrać formę zbiorową i legitymizować wspólną siłę.
@@ -1703,13 +1720,13 @@ W związku z tym, aby wiedzieć, czy państwu słusznie przysługuje prawo, nale
 Dlatego też państwo nie może w żadnym wypadku naruszać praw naturalnych, a wręcz przeciwnie, musi je gwarantować.
 
 
-![image](assets/en/137.webp)
+![image](assets/pl/120.webp)
 
 
 Zapewnia bezpieczeństwo, zarówno wewnętrzne, jak i zewnętrzne, oraz sprawiedliwość. Może być silne i skuteczne w swojej dziedzinie. Ale prawo nie może wykraczać poza tę bardzo ścisłą rolę, ponieważ wtedy staje się narzędziem grabieży od jednych na rzecz innych. Kiedy prawo jest wypaczone, działa jako narzędzie niesprawiedliwości. Wypaczenie prawa zawsze prowadzi do grabieży, jak widzieliśmy w poprzednim kursie. Jest to natychmiastowe, automatyczne, nieuniknione i pewne. Wykraczanie prawa poza jego domenę może jedynie naruszać prawa naturalne. Społeczeństwo obywatelskie zostaje wówczas pozbawione swojej władzy (naturalnych instytucji, umów, wymiany, stowarzyszeń) na rzecz zarządzania państwowego, czyli technokratycznego i biurokratycznego.
 
 
-![image](assets/en/107.webp)
+![image](assets/pl/121.webp)
 
 
 W rezultacie, według Bastiata, jedynymi uzasadnionymi służbami publicznymi państwa są trzy: wojsko, policja i sądownictwo. Innymi słowy, państwo musi zapewnić wewnętrzną i zewnętrzną ochronę jednostek, ich wolności i własności. Jest zatem normalne, że każdy przyczynia się do tej ochrony. Jednak poza tymi uzasadnionymi funkcjami, każdy inny wkład w inną usługę świadczoną przez państwo podlega kontroli. Poza tym kręgiem, pisze Bastiat:
@@ -1730,13 +1747,14 @@ Podsumowując, gdy rząd wykracza poza swoją misję obrony ludzi i własności,
 Napisał Frédéric Bastiat w krótkim pamflecie zatytułowanym Państwo.
 
 
-![image](assets/en/138.webp)
 
 
 ## Dziedzictwo Frédérica Bastiata
 
 
 <chapterId>2a2a181a-e477-5be1-ba1f-af59490c364e</chapterId>
+
+:::video id=de892e2c-14a5-45cc-848f-ec934eaba615:::
 
 
 Wpływ Bastiata zaczął spadać pod koniec XIX wieku, wraz z rozwojem socjalizmu, a zwłaszcza marksizmu, na uniwersytetach i w instytutach badawczych, finansowanych z pieniędzy publicznych.
@@ -1748,11 +1766,11 @@ W XX wieku wiedza i popularność Bastiata zniknęły. Nie wspominano już o nim
 Osiadłszy w Nowym Jorku w 1943 r., Mises zorganizował seminaria, które przyciągnęły niezwykłe umysły: George'a Stiglera, Miltona Friedmana, obu przyszłych laureatów Nagrody Nobla, oraz Murraya Rothbarda, wówczas studenta Columbii. To właśnie podczas tych seminariów po raz pierwszy mówił o Bastiacie jako o jednym z głównych źródeł klasycznego liberalizmu. Zaprezentował swoim słuchaczom pamflety Bastiata, The Law i The State, które nie zostały jeszcze przetłumaczone na język angielski. W 1953 r. jeden z uczestników seminarium, Leonard Read, przetłumaczył "Prawo" Bastiata na język angielski i podjął się zadania dystrybucji książki w całym kraju za pośrednictwem swojej fundacji: Foundation for Economic Education.
 
 
-![image](assets/en/139.webp)
+![image](assets/pl/122.webp)
 
 Ale tym, który również spopularyzował tezy Frédérica Bastiata, był ekonomiczny felietonista New York Timesa, Henry Hazlitt, w niewielkiej książce pt: "Ekonomia w jednej lekcji", opublikowanej w 1946 roku. Wyraźnie czerpiąc z idei Bastiata, stara się on wykazać, że problem z etatystycznymi rozwiązaniami ekonomicznymi polega na tym, że nie biorą one pod uwagę ich katastrofalnych długoterminowych konsekwencji.
 
-![image](assets/en/140.webp)
+![image](assets/pl/123.webp)
 
 
 Hazlitt rozpoczyna swoją książkę od opowiedzenia historii Bastiata o wybitym oknie. Podsumowuje tę historię prostą i wyjątkową lekcją:
@@ -1768,7 +1786,7 @@ Bastiat był jednym z ulubionych ekonomistów Ronalda Reagana, na długo zanim z
 
 Lekcja, której Reagan nauczył swoich pracowników, podążając za Bastiatem, jest taka, że nie ma większego mitu niż ten o stymulowaniu wzrostu i zatrudnienia poprzez wydatki publiczne.
 
-![image](assets/en/141.webp)
+![image](assets/pl/124.webp)
 
 
 To właśnie John Maynard Keynes zasugerował, że wydatki publiczne zwiększają produkcję ze względu na mnożnik: jeśli rząd zbuduje most, pracownicy tego mostu będą mogli kupić chleb, a następnie piekarz będzie mógł kupić buty i tak dalej. Jeśli przemysł prywatny podupada, można temu zaradzić poprzez duże prace. Jeśli istnieje bezrobocie, państwo może stworzyć publiczne miejsca pracy.
@@ -1776,13 +1794,12 @@ To właśnie John Maynard Keynes zasugerował, że wydatki publiczne zwiększaj�
 
 Ale jak trafnie wykazał Bastiat, interwencja państwa ma przewrotne skutki, których nie widać. Tylko dobry ekonomista jest w stanie je przewidzieć. Weźmy przykład: Iluzją jest wierzyć, że rząd może "tworzyć miejsca pracy", ponieważ na każde stworzone publiczne miejsce pracy, niszczy jedno miejsce pracy na rynku. Rzeczywiście, publiczne miejsca pracy są opłacane z podatków. Publiczne miejsca pracy nie są tworzone; są postrzegane. Każdy grosz wydany przez państwo musi być koniecznie uzyskany z grosza podatku lub długu.
 
-![image](assets/en/142.webp)
+![image](assets/pl/125.webp)
 
 
 Jeśli spojrzymy na sprawy z tej perspektywy, wyjaśnił Reagan pracownikom GE, tak zwane cuda wydatków państwowych ukazują się w zupełnie innym świetle. Ponieważ podatki zniechęcają do produkcji, a bogactwo stworzone przez wydatki publiczne nie może w pełni zrekompensować tych, których narodziny uniemożliwiły podatki nałożone na pokrycie tych wydatków.
 
 
-![image](assets/en/138.webp)
 
 Zasadniczo Reagan przejął od Bastiata kilka kluczowych Elements liberalnej wizji społeczeństwa i człowieka: prymat społeczeństwa obywatelskiego nad państwem, wartość wyboru i indywidualnej odpowiedzialności, znaczenie przedsiębiorcy w tworzeniu bogactwa, znaczenie elastycznych i minimalnych ram prawnych, które pozwalają na zaufanie i poszanowanie umów, podstawowe prawo, że bogactwo musi zostać stworzone, zanim będzie można je rozdzielić, chęć dania każdemu szansy na konkurencyjnych rynkach..
 

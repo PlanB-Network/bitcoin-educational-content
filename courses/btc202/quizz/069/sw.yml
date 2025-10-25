@@ -1,0 +1,9 @@
+question: Je, ni hatari gani kuu inayoletwa na mlundikano wa Dust kwenye Kompyuta yako ndogo?
+answer: Usindikaji wa processor
+wrong_answers:
+  - Ufutaji wa block ya Blockchain
+  - Uharibifu wa diski
+  - Kupunguza uwezo wa RAM
+explanation: |
+  Dust huzuia uingizaji hewa, husababisha overheating, na kusababisha throttling, kupunguza ufanisi wa processor.
+reviewed: true

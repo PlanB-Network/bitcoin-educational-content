@@ -1,5 +1,5 @@
 ---
-name: Kompanija Bitcoin
+name: The Bitcoin Company
 description: Kako mogu kupiti robu i usluge u BTC sa kompanijom Bitcoin?
 ---
 ![cover](assets/cover.webp)

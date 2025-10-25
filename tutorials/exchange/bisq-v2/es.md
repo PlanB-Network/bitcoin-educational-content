@@ -14,7 +14,7 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 Bisq 2 es la nueva versión del popular intercambio descentralizado Bisq, lanzado en 2024. A diferencia de su predecesor, Bisq 2 ha sido desarrollado para soportar múltiples protocolos de intercambio, ofreciendo a los usuarios una mayor flexibilidad.
 
-**Principales novedades
+**Principales novedades**
 
 
 - Soporte para múltiples redes de privacidad (Tor, I2P)
@@ -327,37 +327,37 @@ Para mejorar su reputación en Bisq como vendedor, realice transacciones con reg
 ### Ventajas de Bisq 2
 
 
-- Máxima confidencialidad**: Sin KYC, uso de Tor
-- Descentralización**: Sin servidor central
-- Seguridad**: Código abierto, sin custodia
-- Interfaz intuitiva**: más sencilla que Bisq 1
-- Flexibilidad**: Múltiples protocolos de intercambio
+- **Máxima confidencialidad**: Sin KYC, uso de Tor
+- **Descentralización**: Sin servidor central
+- **Seguridad**: Código abierto, sin custodia
+- **Interfaz intuitiva**: más sencilla que Bisq 1
+- **Flexibilidad**: Múltiples protocolos de intercambio
 
 ### Desventajas de Bisq 2
 
 
-- Liquidez limitada** (por el momento) :
+- **Liquidez limitada** (por el momento) :
  - Nuevo protocolo en fase inicial
  - Pocas ofertas de venta disponibles
  - Tiempos de espera potencialmente largos para encontrar un comprador
-- Límites de negociación**: Máximo de 600 USD por transacción (con Bisq easy)
-- Sólo para ordenadores de sobremesa**: Sin aplicación móvil
+- **Límites de negociación**: Máximo de 600 USD por transacción (con Bisq easy)
+- **Sólo para ordenadores de sobremesa**: Sin aplicación móvil
 
 ## Protocolos futuros
 
 Aunque Bisq Easy es actualmente el único protocolo disponible, se están desarrollando otros protocolos para Bisq 2 :
 
 
-- Bisq Lightning**: Protocolo de intercambio basado en un sistema de custodia que utiliza criptografía de cómputo multipartito en la red Lightning.
-- Bisq MuSig**: Migración del protocolo principal de Bisq 1 a Bisq 2, utilizando un multisig 2 contra 2 con depósitos de seguridad.
-- Intercambios BSQ**: Swaps atómicos instantáneos entre BSQ y BTC.
-- Liquid Swaps**: Intercambio de activos en la red Liquid (USDT, BTC-L) mediante swaps atómicos.
-- Intercambios de Monero**: Intercambios atómicos entre Bitcoin y Monero.
-- MuSig líquido**: Versión del protocolo multisig que utiliza L-BTC para reducir costes y aumentar la confidencialidad.
-- Intercambios submarinos**: Intercambios entre Bitcoin en la red Lightning y Bitcoin on-chain.
-- Intercambios de stablecoin**: Intercambios atómicos entre stablecoins Bitcoin y USD.
-- Opciones Multisig**: Creación de opciones de compra y venta P2P con bloqueo de BTC en una transacción multisig en cadena.
-- Contratos abiertos multisig**: Permite la creación de contratos condicionales personalizados mediante un sistema multisig 2 contra 3 con arbitraje.
+- **Bisq Lightning**: Protocolo de intercambio basado en un sistema de custodia que utiliza criptografía de cómputo multipartito en la red Lightning.
+- **Bisq MuSig**: Migración del protocolo principal de Bisq 1 a Bisq 2, utilizando un multisig 2 contra 2 con depósitos de seguridad.
+- **Intercambios BSQ**: Swaps atómicos instantáneos entre BSQ y BTC.
+- **Liquid Swaps**: Intercambio de activos en la red Liquid (USDT, BTC-L) mediante swaps atómicos.
+- **Intercambios de Monero**: Intercambios atómicos entre Bitcoin y Monero.
+- **MuSig líquido**: Versión del protocolo multisig que utiliza L-BTC para reducir costes y aumentar la confidencialidad.
+- **Intercambios submarinos**: Intercambios entre Bitcoin en la red Lightning y Bitcoin on-chain.
+- **Intercambios de stablecoin**: Intercambios atómicos entre stablecoins Bitcoin y USD.
+- **Opciones Multisig**: Creación de opciones de compra y venta P2P con bloqueo de BTC en una transacción multisig en cadena.
+- **Contratos abiertos multisig**: Permite la creación de contratos condicionales personalizados mediante un sistema multisig 2 contra 3 con arbitraje.
 
 Estos protocolos están actualmente en desarrollo y se integrarán progresivamente en Bisq 2, ofreciendo mayor flexibilidad a los usuarios en función de sus necesidades específicas.
 

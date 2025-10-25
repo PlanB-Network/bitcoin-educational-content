@@ -1,5 +1,5 @@
 ---
-name: Xe Avalon Nano 3S
+name: Canaan Avalon Nano 3S
 description: Cấu hình ASIC Avalon của bạn để khai thác đơn lẻ hoặc nhóm Miner
 ---
 

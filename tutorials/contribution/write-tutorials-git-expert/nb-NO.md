@@ -18,11 +18,11 @@ Du har allerede:
 I denne veiledningen for erfarne Git-brukere vil vi kort oppsummere de viktigste trinnene og de viktigste retningslinjene for å tilby en ny Plan ₿ Nettverksveiledning. Hvis du ikke er kjent med Git og GitHub, anbefaler jeg at du i stedet følger en av disse to andre mer detaljerte veiledningene som tar deg steg for steg:
 
 
-- Mellomnivå (GitHub Desktop)**:
+- **Mellomnivå (GitHub Desktop)**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
-- Nybegynnere (webgrensesnitt)**:
+- **Nybegynnere (webgrensesnitt)**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 
@@ -31,30 +31,30 @@ https://planb.network/tutorials/contribution/content/write-tutorials-github-web-
 For redigering av Markdown-filer:
 
 
-- Obsidian** (gratis, ikke åpen kildekode)
-- Mark Text** (gratis, åpen kildekode)
-- Zettlr** (gratis, åpen kildekode)
-- Typora** (betalingsprogramvare, ~€15, ikke åpen kildekode)
+- **Obsidian** (gratis, ikke åpen kildekode)
+- **Mark Text** (gratis, åpen kildekode)
+- **Zettlr** (gratis, åpen kildekode)
+- **Typora** (betalingsprogramvare, ~€15, ikke åpen kildekode)
 
 For Git:
 
 
-- Git** (gratis, åpen kildekode)
-- GitHub Desktop** (gratis, åpen kildekode)
-- Sourcetree** (gratis, ikke åpen kildekode)
+- **Git** (gratis, åpen kildekode)
+- **GitHub Desktop** (gratis, åpen kildekode)
+- **Sourcetree** (gratis, ikke åpen kildekode)
 
 For redigering av YAML-filer:
 
 
-- Visual Studio Code** (gratis, åpen kildekode)
-- Sublime Text** (gratis med begrensninger, ikke åpen kildekode)
+- **Visual Studio Code** (gratis, åpen kildekode)
+- **Sublime Text** (gratis med begrensninger, ikke åpen kildekode)
 
 For å lage diagrammer og visualiseringer:
 
 
-- Canva** (gratis med betalte alternativer, ikke åpen kildekode)
-- Inkscape** (gratis, åpen kildekode)
-- Penpot** (gratis, åpen kildekode)
+- **Canva** (gratis med betalte alternativer, ikke åpen kildekode)
+- **Inkscape** (gratis, åpen kildekode)
+- **Penpot** (gratis, åpen kildekode)
 
 ## Arbeidsflyt
 
@@ -281,7 +281,7 @@ git push origin tuto-green-wallet-loic
 ## Standarder for innholdsproduksjon
 
 
-- Formatering støttes på plattformen**:
+- **Formatering støttes på plattformen**:
     - Klassisk Markdown: lister, lenker, bilder, anførselstegn, fet skrift, kursiv osv.
     - LaTeX (kun blokk, ikke inline): avgrenset av `$$`.
     - Innebygd kode: Syntaks med en enkelt backtick.
@@ -292,13 +292,13 @@ print("Hello, Bitcoin!")
 ```
 
 
-- Illustrasjoner og diagrammer**:
+- **Illustrasjoner og diagrammer**:
     - Alle bilder må være i WebP-format. Bruk dette gratisverktøyet for å konvertere dem om nødvendig: [ImagesConverter] (https://github.com/LoicPandul/ImagesConverter).
     - Navngi bilder med 2 eller 3 siffer (f.eks. `001.webp`, `002.webp`).
     - Bruk mock-ups for opplæring i mobil- eller maskinvarelommebøker.
     - Bruk kun egenproduserte eller royaltyfrie bilder.
     - Sørg for at de er relevante og av høy kvalitet.
-- Grafisk charter**:
+- **Grafisk charter**:
     - Skrifttype: [IBM Plex Sans] (https://fonts.google.com/specimen/IBM+Plex+Sans).
     - Farger Plan ₿ Nettverk:
         - Oransje: `#FF5C00`

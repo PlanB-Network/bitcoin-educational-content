@@ -1,5 +1,5 @@
 ---
-name: Trezor Modello Uno
+name: Trezor Model One
 description: Impostazione e utilizzo del Hardware Wallet Model One
 ---
 ![cover](assets/cover.webp)
@@ -201,7 +201,7 @@ Il Model One creerà la frase Mnemonic utilizzando il suo generatore di numeri c
 
 
 
-***Ovviamente, non dovete mai condividere queste parole su Internet, come faccio io in questo tutorial. Questo esempio di Wallet sarà usato solo sul Testnet e sarà cancellato alla fine del tutorial
+**Ovviamente, non dovete mai condividere queste parole su Internet, come faccio io in questo tutorial. Questo esempio di Wallet sarà usato solo sul Testnet e sarà cancellato alla fine del tutorial**
 
 
 

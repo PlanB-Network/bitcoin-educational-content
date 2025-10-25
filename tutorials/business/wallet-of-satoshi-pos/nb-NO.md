@@ -1,5 +1,5 @@
 ---
-name: Wallet av Satoshi - Utsalgssted
+name: Wallet of Satoshi - POS
 description: Innfør Bitcoin via Lightning Network i virksomheten din.
 ---
 

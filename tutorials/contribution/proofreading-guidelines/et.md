@@ -234,22 +234,29 @@ Kontrollige kindlasti originaalkeele faili (sageli EN või FR), et näha, kus ne
 
 ![REVIEW](assets/en/11.webp)
 
-
-
 ## Viktoriini korrektuur
 
 
-Kas teadsite, et saate ka iga kursuse viktoriiniküsimusi parandada? Näiteks kui soovite IT-õppeaine BTC101 viktoriiniküsimusi korrektuurida, võite avada spetsiaalse haru ja järgida seda teed: "kursused" -> "BTC101" -> "viktoriin". Sealt leiate kõik igale küsimusele pühendatud kaustad koos sellega seotud _yml_-vormingus keelefailiga.
+Kas teadsite, et saate ka viktoriiniküsimusi igas kursuses parandada? Näiteks kui soovite IT-õppeaine BTC101 viktoriiniküsimusi korrektuurida, võite avada spetsiaalse haru ja järgida seda teed: "kursused" -> "BTC101" -> "viktoriin". Sealt leiate kõik igale küsimusele pühendatud kaustad koos sellega seotud _yml_-vormingus keelefailiga.
 
 
 Veenduge veel kord, et olete spetsiaalselt selleks otstarbeks avatud filiaalis ja teavitage alati koordinaatorit.
 
 
-Pärast küsimuse läbivaatamist veenduge, et te muudaksite "läbivaadatud" staatuse "vale" asemel "tõeseks", nagu on näidatud alloleval pildil.
-
+Oluline on seda tüüpi _yml_-faili korrektuuris meeles pidada, et vältida koolonite ``:`` lisamist teksti sees. Tegelikult kasutatakse koolonit **ainult** selleks, et eraldada võtmeväärtuspaare nagu "wrong_answers" ülejäänud võtmeväärtustest. Näite näete alloleval pildil:
 
 
 ![REVIEW](assets/en/12.webp)
+
+
+Pärast küsimuse läbivaatamist veenduge, et te muudaksite "läbivaadatud" staatuse "vale" asemel "tõeseks", nagu on näidatud alloleval pildil. Veenduge, et need staatussõnad oleksid inglise keeles, olenemata sellest, mis keeles te töötate!
+
+
+
+![REVIEW](assets/en/13.webp)
+
+
+Kui staatuse rida "reviewed:true" puudub, siis veenduge, et **lisate selle viktoriini lõppu**.
 
 
 ## Sõnastiku korrektuur
@@ -258,7 +265,35 @@ Pärast küsimuse läbivaatamist veenduge, et te muudaksite "läbivaadatud" staa
 Nii nagu viktoriinide puhul, saate ka sõnastiku korrektuuri teha. Esialgne sõnastik on kirjutatud prantsuse keeles, seega leiate sealt selliseid lauseid nagu: "Prantsuse keeles võib seda väljendit tõlkida..."
 
 
-Sellisel juhul kohandage see lause oma sihtkeelele või inglise keelele.
+Sellisel juhul kohandage lause sihtkeelele või inglise keelele. Näiteks võiksite kirjutada "Inglise keeles on see väljend...".
+
+Kui pealkiri on jäetud inglise keelde, võite kohandada lause oma keelele: "Suahiili keeles on see väljend..."
+
+
+Lisaks kirjutage pealkirjad kindlasti suurtähtedega.
+
+
+![REVIEW](assets/en/14.webp)
+
+
+## Teie PR-i pealkiri ja kirjeldus
+
+
+Kui sa saadad oma PR-i, oleks hämmastav, kui sa nimetaksid selle sellisel kujul: [KORREKTUUR] SISU NIMI - KEEL:
+
+
+```
+[PROOFREADING] BTC101 - ENGLISH
+```
+
+
+Peale selle võite **PR** kommentaaride lahtrisse kirjutada "sulgeb" + selle teema number, mille koordinaator saatis teile, kui alustasite korrektuuritööd, mille ees on ``#``.
+
+Näiteks kui sa just saatsid PR-i koos cyp201 + viktoriinide korrektuuriga, võid kirjutada "sulgeb [#2934](https://github.com/PlanB-Network/Bitcoin-educational-content/issues/2934)".
+
+
+Nii on PR ja probleem omavahel seotud ja kes iganes loeb avalikku Githubi repositooriumi, saab hõlpsasti teavet leida.
+
 
 
 ## Muud parimad tavad
@@ -269,37 +304,49 @@ Sellisel juhul kohandage see lause oma sihtkeelele või inglise keelele.
 
 
 
-![REVIEW](assets/en/13.webp)
+![REVIEW](assets/en/15.webp)
 
 
 
 Kui kasutate funktsiooni "Asenda kõik", on oluline kontrollida tulemusi kaks korda, et veenduda, et ka linke ei ole muudetud. Näiteks kui soovite muuta sõna "Bitcoin" sõnaks "Bitkoin" (mis võib mõnes keeles olla vajalik), saate funktsiooni "replace all" abil tõhusalt uuendada kõiki tekstis olevaid juhtumeid. Kuid pidage meeles, et see tööriist muudab ka kõiki seda sõna sisaldavaid linke, mis võib põhjustada ümbersuunamisprobleeme.
 
 
-Alljärgnevas näites kasutas korrektor ülaltoodud funktsiooni, et asendada "Satoshi" sõnaga "Satoshi(Sats)", ning muutis ka lingi, mis sisaldab seda sõna ise. Selle tulemusena muutus link kehtetuks.
+Allpool toodud näites kasutas korrektor ülaltoodud funktsiooni, et asendada "Satoshi" sõnaga "Satoshi(Sats)", ning muutis ka lingi, mis sisaldab seda sõna ise. Selle tulemusena muutus link kehtetuks.
 
 
 Kontrollige alati kahekordselt kõiki tekstis olevaid hüperlinke, et veenduda, et need on õiged.
 
 
 
-![REVIEW](assets/en/14.webp)
+![REVIEW](assets/en/16.webp)
 
 
 
 
-- Kui autor lisab teemale järgneva lingi, mis viitab Plan ₿ Network kursusele või õpetusele (**ei** sulgudes), loob veebisait automaatselt "kaardi", mis näitab seotud pisipilti. Sellest tulenevalt veenduge alati, et **teksti ja lingi enda** vahel on tühik, vastasel juhul võib veebisaidil ilmneda järgmine viga.
+- Kui autor lisab teemale järgneva lingi, mis viitab Plan ₿ Network kursusele või õpetusele (**ei** sulgudes), loob veebisait automaatselt "kaardi", mis näitab seotud pisipilti. Sellest tulenevalt veenduge alati, et **lisate teksti ja lingi enda vahele uue rea**, vastasel juhul võib veebisaidil ilmneda järgmine viga.
 
 
 
-![REVIEW](assets/en/15.webp)
+![REVIEW](assets/en/17.webp)
 
 
+Sama juhtub ka "pildikoodidega", nagu see ``[IMAGE](asset/fr/001.webp)``: veenduge, et lisate alati uue rea pildikoodi ja teksti vahele. Näide allpool:
 
 
+```
+WRONG CONFIGURATION:
+- to start translating, click on the button `Translate`: ![language](assets/08.webp)
+To save, click on `save`!
 
-- Lõpetuseks, teine parim tava, mida tuleks rakendada, kui olete oma korrektuuriülesande lõpetanud ja PR-i saatnud, on minna tagasi algsesse, koordinaatori poolt avatud küsimusse ja kommenteerida seda sõnadega "Korrektuur on tehtud". **Vältige, et lisate sinna ka oma PR-linki**.
 
+RIGHT CONFIGURATION:
+
+- to start translating, click on the button `Translate`:
+
+![language](assets/08.webp)
+
+To save, click on `save`!
+```
 
 
 ## Kokkuvõte
@@ -309,6 +356,9 @@ Kokkuvõtteks võib öelda, et kui olete teadlik tavalistest korrektuurivigadest
 
 
 Pidage alati meeles, et algaja võib neid kursusi ja õpetusi lugeda, seega on meie kohustus tagada, et nad saaksid sellest täielikult aru. Korrektorina oled sa õpetaja!
+
+
+Nüüd olete valmis alustama kursuste, õppematerjalide, viktoriinide ja sõnastiku sõnade korrektuuriga. Jääge kursis, et alustada ka piltide ja videote transkriptsioonide kontrollimist ;)
 
 
 Aitäh, et lugesid selle õpetuse läbi, ja nautige oma korrektuuri teekonda!

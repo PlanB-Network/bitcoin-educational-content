@@ -205,7 +205,7 @@ Hapa chini unaweza kupata mifano michache ya masuala ya umbizo la kuzingatia, un
 
 
 
-- Zingatia uakifishaji wa ajabu kama `\*\*\`, au ``**`` ambao unaweza kuwakilisha uwasilishaji mbaya wa ishara nzito. Katika picha hapa chini, unaweza kuona kwamba nyota ziko tu upande wa kulia wa neno, ambalo linaonekana kuwa la ajabu.
+- Zingatia uakifishaji wa ajabu kama `**`, au `**` ambao unaweza kuwakilisha uwasilishaji mbaya wa ishara nzito. Katika picha hapa chini, unaweza kuona kwamba nyota ziko tu upande wa kulia wa neno, ambalo linaonekana kuwa la ajabu.
 
 
 
@@ -234,8 +234,6 @@ Hakikisha kuwa umeangalia faili ya lugha asili (mara nyingi EN au FR) ili kuona 
 
 ![REVIEW](assets/en/11.webp)
 
-
-
 ## Usahihishaji wa maswali
 
 
@@ -245,11 +243,20 @@ Je, unajua kuwa unaweza pia kusahihisha maswali ya chemsha bongo katika kila koz
 Kwa mara nyingine tena, hakikisha uko katika tawi lililojitolea ambalo unafungua mahsusi kwa madhumuni haya, na kila wakati mjulishe mratibu.
 
 
-Baada ya kukagua swali, hakikisha kuwa umebadilisha hali ya "iliyokaguliwa" kutoka "uongo" hadi "kweli," kama inavyoonekana kwenye picha hapa chini.
-
+Jambo muhimu kukumbuka wakati wa kusahihisha aina hii ya faili ya _yml_ ni kuepuka kuongeza koloni ``:`` ndani ya maandishi. Kwa kweli, koloni ni **pekee** inayotumika kutenganisha jozi za thamani-msingi kama "majibu_ya_mabaya" kwa zingine. Unaweza kuona mfano kwenye picha hapa chini:
 
 
 ![REVIEW](assets/en/12.webp)
+
+
+Baada ya kukagua swali, hakikisha kuwa umebadilisha hali ya "iliyokaguliwa" kutoka "uongo" hadi "kweli," kama inavyoonyeshwa kwenye picha hapa chini. Hakikisha kuwa umeweka maneno haya ya hali katika Kiingereza, bila kujali ni lugha gani unafanyia kazi!
+
+
+
+![REVIEW](assets/en/13.webp)
+
+
+Ikiwa mstari wa hali "imekaguliwa: kweli" haipo, hakikisha **uiongeze mwishoni mwa chemsha bongo**.
 
 
 ## Usahihishaji wa faharasa
@@ -258,7 +265,35 @@ Baada ya kukagua swali, hakikisha kuwa umebadilisha hali ya "iliyokaguliwa" kuto
 Kama vile maswali, unaweza pia kusahihisha faharasa. Faharasa asili iliandikwa kwa Kifaransa, kwa hivyo utapata sentensi kama: "Kwa Kifaransa, usemi huu unaweza kutafsiriwa katika..."
 
 
-Katika hali kama hizi, tafadhali badilisha sentensi hii kwa lugha yako lengwa, au Kiingereza.
+Katika hali kama hizi, tafadhali badilisha sentensi kwa lugha yako lengwa au Kiingereza. Kwa mfano, unaweza kuandika "Kwa Kiingereza, usemi huu ...".
+
+Ikiwa kichwa kitaachwa kwa Kiingereza, unaweza kurekebisha sentensi kwa lugha yako: "Kwa Kiswahili, usemi huu..."
+
+
+Zaidi ya hayo, hakikisha umeandika mada katika HERUFI KUBWA.
+
+
+![REVIEW](assets/en/14.webp)
+
+
+## Kichwa na maelezo yako PR
+
+
+Unapotuma PR yako, itashangaza ikiwa utaipa jina ukitumia umbizo hili: [PROOFREADING] JINA LA MAUDHUI - LUGHA:
+
+
+```
+[PROOFREADING] BTC101 - ENGLISH
+```
+
+
+Kando na hilo, katika **sehemu ya maoni ya PR**, unaweza kuandika "kufunga" + nambari ya suala ambalo mratibu alikutumia ulipoanza kazi ya kusahihisha, ikitanguliwa na ``#``.
+
+Kwa mfano, ikiwa umetuma PR iliyo na usahihishaji wa maswali ya cyp201 +, unaweza kuandika "kufunga [#2934](https://github.com/PlanB-Network/Bitcoin-educational-content/issues/2934)".
+
+
+Kwa njia hii, PR na suala zitaunganishwa, na yeyote anayesoma hazina ya umma ya Github anaweza kupata taarifa kwa urahisi.
+
 
 
 ## Mazoea mengine bora
@@ -269,7 +304,7 @@ Katika hali kama hizi, tafadhali badilisha sentensi hii kwa lugha yako lengwa, a
 
 
 
-![REVIEW](assets/en/13.webp)
+![REVIEW](assets/en/15.webp)
 
 
 
@@ -283,23 +318,35 @@ Kila mara angalia viungo vyote kwenye maandishi, ili kuhakikisha kuwa ni sahihi.
 
 
 
-![REVIEW](assets/en/14.webp)
+![REVIEW](assets/en/16.webp)
 
 
 
 
-- Kufuatia mada, ikiwa mwandishi ataweka kiungo kinachorejelea kozi ya Plan ₿ Network au mafunzo (**si** ndani ya mabano), tovuti itaunda kiotomatiki "kadi" inayoonyesha kijipicha kinachohusiana. Kwa hivyo, kila wakati hakikisha kuwa **una nafasi kati ya maandishi na kiungo chenyewe**, vinginevyo unaweza kuona hitilafu ifuatayo kwenye tovuti.
+- Kufuatia mada, ikiwa mwandishi ataweka kiungo kinachorejelea kozi ya Plan ₿ Network au mafunzo (**si** ndani ya mabano), tovuti itaunda kiotomatiki "kadi" inayoonyesha kijipicha husika. Kwa hivyo, kila wakati hakikisha kuwa **unaongeza mstari mpya kati ya maandishi na kiungo chenyewe**, vinginevyo unaweza kuona hitilafu ifuatayo kwenye tovuti.
 
 
 
-![REVIEW](assets/en/15.webp)
+![REVIEW](assets/en/17.webp)
 
 
+Vile vile hufanyika kwa "misimbo ya picha" kama hii ``[IMAGE](asset/fr/001.webp)``: hakikisha kila wakati unaongeza laini mpya kati ya msimbo wa picha na maandishi. Mfano hapa chini:
 
 
+```
+WRONG CONFIGURATION:
+- to start translating, click on the button `Translate`: ![language](assets/08.webp)
+To save, click on `save`!
 
-- Hatimaye, mbinu nyingine bora ya kutumia unapomaliza kazi yako ya kusahihisha na kutuma PR ni kurudi kwenye toleo asili lililofunguliwa na mratibu, na kutoa maoni kwa "Usahihishaji umekamilika". **Hakikisha pia umeweka kiungo chako cha PR huko pia**.
 
+RIGHT CONFIGURATION:
+
+- to start translating, click on the button `Translate`:
+
+![language](assets/08.webp)
+
+To save, click on `save`!
+```
 
 
 ## Hitimisho
@@ -309,6 +356,9 @@ Kwa muhtasari, kufahamu makosa ya wasahihishaji wa kawaida kunaweza kukusaidia k
 
 
 Kumbuka kila wakati kuwa anayeanza anaweza kusoma kozi na mafunzo haya, kwa hivyo ni jukumu letu kuhakikisha kuwa anaelewa kikamilifu. Kama msahihishaji, wewe ni mwalimu!
+
+
+Sasa uko tayari kuanza kozi za kusahihisha, mafunzo, maswali na maneno ya faharasa. Endelea kufuatilia pia kuanza kuangalia picha na nakala za video;)
 
 
 Asante kwa kusoma somo hili, na ufurahie safari yako ya kusahihisha!

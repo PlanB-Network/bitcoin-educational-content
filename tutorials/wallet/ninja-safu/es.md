@@ -24,19 +24,19 @@ El enfoque SAFU Ninja ofrece varias ventajas:
 
 
 
-- Confidencialidad**: No estás comprando un producto identificado como destinado a la copia de seguridad de criptomonedas. Los componentes son estándar (arandelas, tornillos, caja metálica), disponibles en ferreterías, lo que reduce el riesgo de focalización en caso de fuga de datos de un vendedor especializado.
+- **Confidencialidad**: No estás comprando un producto identificado como destinado a la copia de seguridad de criptomonedas. Los componentes son estándar (arandelas, tornillos, caja metálica), disponibles en ferreterías, lo que reduce el riesgo de focalización en caso de fuga de datos de un vendedor especializado.
 
 
 
 
 
-- Asequibilidad** : Esta solución cuesta entre **15 y 140 EUR**, dependiendo de las herramientas que ya tengas.
+- **Asequibilidad**: Esta solución cuesta entre **15 y 140 EUR**, dependiendo de las herramientas que ya tengas.
 
 
 
 
 
-- Fiabilidad**: Probado desde 2020, el método ha sido probado por expertos en seguridad como [Jameson Lopp](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/), que lo han sometido a rigurosas pruebas de estrés (calor extremo, corrosión, presión mecánica).
+- **Fiabilidad**: Probado desde 2020, el método ha sido probado por expertos en seguridad como [Jameson Lopp](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/), que lo han sometido a rigurosas pruebas de estrés (calor extremo, corrosión, presión mecánica).
 
 
 
@@ -59,17 +59,17 @@ Para crear una copia de seguridad Ninja SAFU, necesitarás los siguientes compon
 
 
 
-- Arandelas de acero inoxidable (se recomienda M8)** :
- - Material**: Acero inoxidable (por ejemplo, 304 o V4A para una mayor resistencia a la corrosión)
-    - Tamaño**: M8 (diámetro interior 8 mm, diámetro exterior ~24 mm). Las arandelas M6 son demasiado pequeñas y difíciles de grabar.
-    - Cantidad**: 12 ó 24 arandelas para una sentencia seed estándar, más arandelas opcionales (véase el apartado 3.4) y unas diez para pruebas o errores.
+- **Arandelas de acero inoxidable (se recomienda M8)**:
+- **Material**: Acero inoxidable (por ejemplo, 304 o V4A para una mayor resistencia a la corrosión)
+- **Tamaño**: M8 (diámetro interior 8 mm, diámetro exterior ~24 mm). Las arandelas M6 son demasiado pequeñas y difíciles de grabar.
+- **Cantidad**: 12 ó 24 arandelas para una sentencia seed estándar, más arandelas opcionales (véase el apartado 3.4) y unas diez para pruebas o errores.
 
 
 
 
 
-- Acero inoxidable Bolt y tuerca (M8)** :
- - Especificaciones**: Bolt De 2,5 a 5 cm de longitud, según el número y el grosor de las arandelas, diámetro de 8 mm. Una tuerca de mariposa facilita la apertura sin herramientas, pero también puede utilizarse una tuerca simple.
+- **Acero inoxidable Bolt y tuerca (M8)**:
+- **Especificaciones**: Bolt De 2,5 a 5 cm de longitud, según el número y el grosor de las arandelas, diámetro de 8 mm. Una tuerca de mariposa facilita la apertura sin herramientas, pero también puede utilizarse una tuerca simple.
 
 
 
@@ -79,8 +79,8 @@ Para crear una copia de seguridad Ninja SAFU, necesitarás los siguientes compon
 
 
 
-- Juego de punzones para letras y números (3 mm o 6 mm)** :
-    - Especificaciones**: los caracteres de 6 mm de altura facilitan la legibilidad y pueden ser preferibles si parte de la letra está degradada. Elija un juego resistente para un uso repetido.
+- **Juego de punzones para letras y números (3 mm o 6 mm)**:
+- **Especificaciones**: los caracteres de 6 mm de altura facilitan la legibilidad y pueden ser preferibles si parte de la letra está degradada. Elija un juego resistente para un uso repetido.
 
 
 
@@ -90,14 +90,14 @@ Para crear una copia de seguridad Ninja SAFU, necesitarás los siguientes compon
 
 
 
-- Martillo o mazo** :
+- **Martillo o mazo**:
     - Es preferible utilizar un mazo para obtener una fuerza de estampación suficiente y precisa
 
 
 
 
 
-- Yunque o superficie resistente** :
+- **Yunque o superficie resistente**:
  - Una superficie gruesa Hard (por ejemplo, un yunque de 1 kg o un adoquín de 10 cm) para absorber los impactos.
 
 
@@ -112,7 +112,7 @@ Si no quiere invertir en un juego de punzones, también puede grabar sus arandel
 
 
 
-- Dispositivo de estampación**: Sujeta la arandela y guía el punzón, lo que permite un estampado preciso y limpio, una mejor orientación y un espaciado uniforme de las letras
+- **Dispositivo de estampación**: Sujeta la arandela y guía el punzón, lo que permite un estampado preciso y limpio, una mejor orientación y un espaciado uniforme de las letras
 
 
 
@@ -122,7 +122,7 @@ Si no quiere invertir en un juego de punzones, también puede grabar sus arandel
 
 
 
-- Dispositivos de cierre**: Bolsa sellada o cinta selladora
+- **Dispositivos de cierre**: Bolsa sellada o cinta selladora
 
 
 
@@ -132,7 +132,7 @@ Si no quiere invertir en un juego de punzones, también puede grabar sus arandel
 
 
 
-- Recipiente herméticamente cerrado**: Para guardar el bloque de arandelas
+- **Recipiente herméticamente cerrado**: Para guardar el bloque de arandelas
 
 
 
@@ -145,8 +145,8 @@ Si no quiere invertir en un juego de punzones, también puede grabar sus arandel
 
 
 
-- Se recomienda el uso de guantes** y **gafas de seguridad**.
-- Llave de tubo** en la que deslizar el punzón, de forma que se sujete el punzón con la llave de tubo y no con los dedos.
+- Se recomienda el uso de **guantes** y **gafas de seguridad**.
+- **Llave de tubo** en la que deslizar el punzón, de forma que se sujete el punzón con la llave de tubo y no con los dedos.
 
 
 
@@ -156,13 +156,13 @@ Si no quiere invertir en un juego de punzones, también puede grabar sus arandel
 
 
 
-- Cantidad para una copia de seguridad de 24 palabras**: 24 arandelas (mínimo), 1 Bolt, 1 tuerca de mariposa, 1 juego de punzones, 1 martillo/martillo, 1 yunque/soporte.
+- **Cantidad para una copia de seguridad de 24 palabras**: 24 arandelas (mínimo), 1 Bolt, 1 tuerca de mariposa, 1 juego de punzones, 1 martillo/martillo, 1 yunque/soporte.
 
 
 
 
 
-- Coste total** :
+- **Coste total**:
  - Arandelas y tornillos/tuercas: ~ 15 EUR
  - Juego de punzones: ~ 45 EUR
  - Funda protectora: ~ 55 EUR
@@ -254,7 +254,7 @@ Si no quiere invertir en un juego de punzones, también puede grabar sus arandel
 
 
     - A partir de su nueva copia de seguridad, intente recuperar su cartera
-- Sellado de la copia de seguridad** (opcional y recomendado) :
+- **Sellado de la copia de seguridad** (opcional y recomendado):
  - En tiras precintadas o en bolsas precintadas.
  - Si utiliza una bolsa, anote su número de identificación único, para poder comprobar que se trata de la bolsa correcta y no de un señuelo que sustituye a la original.
 
@@ -269,7 +269,7 @@ Si no quiere invertir en un juego de punzones, también puede grabar sus arandel
 
 
 
-Guarde su copia de seguridad en un **lugar discreto**, fuera de la vista y accesible para comprobaciones periódicas. Elige un almacenamiento ignífugo y estanco**, en casa o en un lugar bajo tu **control exclusivo**.
+Guarde su copia de seguridad en un **lugar discreto**, fuera de la vista y accesible para comprobaciones periódicas. Elige un almacenamiento **ignífugo y estanco**, en casa o en un lugar bajo tu **control exclusivo**.
 
 
 
@@ -313,7 +313,7 @@ Aunque esté bien almacenada, la copia de seguridad debe ser **revisada con regu
 
 
 
-*MANTENTE A SALVO
+**MANTENTE A SALVO**
 
 
 ![image](assets/fr/08.webp)
@@ -379,16 +379,16 @@ Según Jameson Lopp:
 
 
 
-- Arandelas** para
+- **Arandelas** para
  - [Titán](https://pleb.style/fr-fr/products/disques-de-seed-supplementaires-titan-Wallet)
-- Arandelas + tuerca + estuche protector** (para arandelas)
+- **Arandelas + tuerca + estuche protector** (para arandelas)
  - [Titán](https://pleb.style/fr-fr/products/titan-Wallet-premium-acier-steel-Wallet-backup?variant=50022696419664)
  - [TerraSteel](https://pleb.style/fr-fr/products/terrasteel-Wallet-plebstyle-acier-backup)
 - Juego de punzones
  - [PlebStyle](https://pleb.style/fr/products/schlagstempelset-a-z-0-9-3mm)
-- Base de la tipificación**
+- **Base de la tipificación**
  - [PlebStyle](https://pleb.style/fr/products/schlagunterlage-10cm-x-10cm-x-1-5cm)
-- Dispositivo de roscado** (guía)
+- **Dispositivo de roscado** (guía)
  - [TerraSteel](https://pleb.style/fr-fr/products/zubehor-einschlag-vorrichtung?_pos=1&_sid=2767fd66f&_ss=r)
 - Dispositivo de sellado
  - [Bolsa sellada](https://pleb.style/fr/products/zubehor-5x-sicherheitstasche-tamper-evident)

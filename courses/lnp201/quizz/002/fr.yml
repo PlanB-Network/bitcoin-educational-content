@@ -6,4 +6,4 @@ wrong_answers:
   - 140 000 satoshis
 explanation: |
   Après avoir envoyé 40 000 satoshis, le solde d'Alice dans le canal est de 60 000 satoshis.
-reviewed: false
+reviewed: true

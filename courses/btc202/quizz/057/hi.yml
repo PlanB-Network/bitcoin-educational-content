@@ -1,0 +1,9 @@
+question: कौन सा Sparrow wallet सर्वर विकल्प RPC कनेक्शन से मेल खाता है?
+answer: जीडब्ल्यू-2
+wrong_answers:
+  - सार्वजनिक सर्वर
+  - निजी इलेक्ट्रम
+  - रिमोट एपीआई
+explanation: |
+  Sparrow में, Bitcoin core विकल्प RPC के माध्यम से नोड से सीधे कनेक्शन के अनुरूप है।
+reviewed: true

@@ -36,7 +36,6 @@ Am Ende des Kurses sollten Sie in der Lage sein, eigene Programme in JavaScript 
 <chapterId>ba05a290-1782-5268-87c9-62fd09590e05</chapterId>
 
 
-In diesem Abschnitt werden wir unseren Rechner so einrichten, dass wir unser erstes JavaScript-Programm schreiben und ausführen können.
 
 
 Ein JavaScript-Programm ist lediglich eine Sammlung von (einer oder mehreren) Textdateien, die Befehle enthalten, die von einer JavaScript-Laufzeitumgebung ausgeführt werden sollen.
@@ -51,16 +50,16 @@ Die darin enthaltenen Befehle sind in der Programmiersprache JavaScript geschrie
 Eine JavaScript-Laufzeitumgebung ist ein spezielles Programm, das diese Dateien ausführt.
 
 
-![](assets/en/1.webp)
+![](assets/en/001.webp)
 
 
-### NodeJS-Installation
+### Die NodeJS-Laufzeitumgebung
 
 
 Die am weitesten verbreitete JavaScript-Laufzeitumgebung ist NodeJS.
 
 
-Sie können es installieren, indem Sie die [offizielle Anleitung](https://nodejs.org/en/download) befolgen.
+Ihre IDE enthält es möglicherweise bereits, oder Sie müssen es von der [offiziellen Website](https://nodejs.org/en/download) herunterladen.
 
 
 Auf der Download-Seite finden Sie Anleitungen für alle drei gängigen Betriebssysteme: Windows, Linux und MacOS. Es wird vorausgesetzt, dass Sie wissen, wie man ein Terminal in Ihrem Betriebssystem öffnet.
@@ -72,25 +71,19 @@ Da NodeJS für alle drei Betriebssysteme verfügbar ist, können die von Ihnen g
 Das bedeutet, dass Sie zum Beispiel ein einfaches Videospiel in JavaScript auf Ihrem Windows-PC schreiben und es an Ihren Freund weitergeben können, damit er es auf seinem Mac ausführt.
 
 
-![](assets/en/2.webp)
+![](assets/en/002.webp)
 
 
-### Textbearbeitung
 
 
-Das Tolle am Programmieren ist, dass man Code mit jedem beliebigen Texteditor schreiben kann, sogar mit dem Standard-Notepad des Betriebssystems.
 
 
-Es gibt jedoch einige Texteditoren, die auf das Schreiben von Code spezialisiert sind. Einige sind kostenlos erhältlich, für andere müssen Sie eine Lizenz erwerben.
 
 
-Die Wahl des Code-Editors ist ein riesiges Thema, das den Rahmen dieses Kurses sprengen würde, daher werden wir hier nicht darauf eingehen. Wenn Sie nicht wissen, welchen Sie verwenden sollen, ist der am häufigsten verwendete freie Editor [VSCode] (https://code.visualstudio.com/).
 
 
-Sein Interface ist ein wenig aufgebläht, aber es hat alles, was Sie brauchen: einen Datei-Editor, einen Datei-Explorer (um die Dateien und Unterverzeichnisse in dem Verzeichnis zu visualisieren, in dem Sie arbeiten) und ein Terminal, um Ihren Code auszuführen. Es unterstützt auch eine Menge von Plugins, und es kommt mit JavaScript-Syntax-Highlighting standardmäßig.
 
 
-Wenn Sie ein wenig mehr Cypherpunk-y sein wollen, können Sie stattdessen [VSCodium](https://vscodium.com/) verwenden.
 
 
 ### Erstes Programm (Hallo Welt)
@@ -102,7 +95,7 @@ Wenn man eine Programmiersprache lernt, besteht das erste Programm, das man schr
 Erstellen Sie ein Verzeichnis mit dem Namen `my_js_code/` und darin eine Datei mit dem Namen `main.js` (diese Namen sind frei wählbar).
 
 
-Öffnen Sie das Verzeichnis mit VSCode.
+Öffnen Sie das Verzeichnis mit Ihrem Code-Editor.
 
 
 Schreiben Sie diesen Code in Ihre Datei:
@@ -687,7 +680,7 @@ Sie können Boolesche Begriffe mit logischen Operatoren kombinieren:
 - `!` bedeutet "nicht", es wird vor einem booleschen Wert angewandt und kehrt diesen um: wenn der boolesche Wert "wahr" ist, wird "falsch" zurückgegeben und umgekehrt.
 
 
-![](assets/en/3.webp)
+![](assets/en/003.webp)
 
 
 Beispiele:
@@ -737,9 +730,9 @@ In diesem Abschnitt werden wir drei weitere Typen behandeln, die in JavaScript-P
 
 
 
-- Arrays**: Folgen von Werten
-- undefined**: ein spezieller Wert, der bedeutet "es wurde nichts zugewiesen"
-- null**: ein weiterer spezieller Wert, der "absichtlich leer" bedeutet
+- **Arrays**: Folgen von Werten
+- **undefined**: ein spezieller Wert, der bedeutet "es wurde nichts zugewiesen"
+- **null**: ein weiterer spezieller Wert, der "absichtlich leer" bedeutet
 
 
 ### Arrays und Indexzugriff
@@ -2302,7 +2295,7 @@ console.log(`${this.brand} car is ready to drive!`)
 Die Klasse "Car" **erbt** jetzt alles von "Vehicle". Sie erhält die Eigenschaft "Brand", und wir haben die Methode "Start()" durch unsere eigene Version ersetzt.
 
 
-![](assets/en/4.webp)
+![](assets/en/004.webp)
 
 
 Probieren wir es aus:
@@ -2356,7 +2349,7 @@ myCar.start()
 ```
 
 
-![](assets/en/5.webp)
+![](assets/en/005.webp)
 
 
 
@@ -4197,7 +4190,7 @@ Here is the doubled array: [ 2, 4, 6 ]
 ```
 
 
-**Was passiert hier?*
+**Was passiert hier?**
 
 
 1. Wir übergeben `input` als Liste von Zahlen, die wir verdoppeln wollen.
@@ -5055,7 +5048,7 @@ Diese sind nützlich, wenn Sie eine Variable mit ihrem eigenen Wert aktualisiere
 ### Umstrukturierung
 
 
-*mit der *Destrukturierung** können Sie auf einfache Weise Werte aus Arrays oder Objekten entnehmen und in Variablen speichern.
+*Mit der **Destrukturierung** können Sie auf einfache Weise Werte aus Arrays oder Objekten entnehmen und in Variablen speichern.*
 
 
 #### Arrays
@@ -5235,7 +5228,7 @@ JavaScript ist eine interpretierte Sprache, im Gegensatz zu kompilierten Sprache
 Der in einer kompilierten Sprache geschriebene Code wird in eine Binärdatei umgewandelt, und die Binärdatei wird direkt an die CPU des Computers weitergeleitet.
 
 
-![](assets/en/6.webp)
+![](assets/en/006.webp)
 
 
 Interpretensprachen hingegen sind in der Regel benutzerfreundlicher und orientieren sich eher an der menschlichen Denkweise ("high level") als an der Arbeitsweise von Maschinen ("low level"); daher verfügen sie in der Regel über eine virtuelle Maschine, die ihren Code ausführt.
@@ -5268,7 +5261,7 @@ Warum ist das ein Problem?
 Da Browser Code ausführen, der aus Millionen verschiedener Quellen im Internet stammt, können sie leicht zu Malware werden, weshalb sie vom Rest des Betriebssystems getrennt sind.
 
 
-![](assets/en/7.webp)
+![](assets/en/007.webp)
 
 
 JavaScript konnte nicht auf das Dateisystem und andere lokale Ressourcen auf Ihrem Computer zugreifen (zumindest nicht so einfach wie andere Sprachen), so dass dies eine erhebliche Einschränkung für die Art der Anwendungen darstellte, die Sie damit erstellen konnten.
@@ -5277,7 +5270,7 @@ JavaScript konnte nicht auf das Dateisystem und andere lokale Ressourcen auf Ihr
 Im Jahr 2009 veröffentlichte Ryan Dahl NodeJS, eine Laufzeitumgebung, mit der Sie die V8-Engine außerhalb des Browsers direkt auf dem nativen Betriebssystem Ihres Computers verwenden können. Außerdem bietet sie viele Funktionen, die für das Schreiben von serverseitigen und Befehlszeilenprogrammen nützlich sind. So können Sie mit NodeJS beispielsweise einen Webserver erstellen, Dateien lesen und schreiben oder Tools zur Automatisierung von Aufgaben erstellen.
 
 
-![](assets/en/8.webp)
+![](assets/en/008.webp)
 
 
 In diesem Kurs haben wir uns bisher mit den JavaScript-Funktionen beschäftigt, die sowohl im Browser als auch in NodeJS vorhanden sind. Mit diesen Funktionen konnten wir Daten definieren und sie auf abstrakte Weise manipulieren. In den nächsten Lektionen werden wir uns mit den NodeJS-spezifischen Funktionen befassen, die uns die Interaktion mit dem Betriebssystem ermöglichen.
@@ -6438,10 +6431,10 @@ NodeJS hat vier Haupttypen von Streams:
 
 
 
-- Lesbar**: Datenströme, aus denen Sie Daten lesen können (wie beim Lesen einer Datei)
-- Writable**: Streams, in die Sie Daten schreiben können (wie in eine Datei)
-- Duplex**: Ströme, die sowohl lesbar als auch beschreibbar sind
-- Transform**: wie Duplex-Streams, aber sie können die Daten während des Flusses verändern (transformieren)
+- **Lesbar**: Datenströme, aus denen Sie Daten lesen können (wie beim Lesen einer Datei)
+- **Writable**: Streams, in die Sie Daten schreiben können (wie in eine Datei)
+- **Duplex**: Ströme, die sowohl lesbar als auch beschreibbar sind
+- **Transform**: wie Duplex-Streams, aber sie können die Daten während des Flusses verändern (transformieren)
 
 
 ### Lesbare Ströme

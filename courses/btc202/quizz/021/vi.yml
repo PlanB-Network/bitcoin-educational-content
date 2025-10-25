@@ -1,0 +1,9 @@
+question: Yếu tố nào quyết định mức độ ảnh hưởng của một nút lên các quy tắc đồng thuận?
+answer: Trọng lượng kinh tế của nó
+wrong_answers:
+  - Số lượng kết nối đi của nó
+  - Thâm niên trong mạng lưới
+  - Không có gì, vì mỗi nút có một phiếu bầu
+explanation: |
+  Ảnh hưởng đến các quy tắc đồng thuận phụ thuộc vào hoạt động kinh tế được nút hỗ trợ chứ không phải số lượng của nút đó.
+reviewed: true

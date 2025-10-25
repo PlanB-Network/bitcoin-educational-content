@@ -1,0 +1,9 @@
+question: Šta je finalizam?
+answer: Preokretanje uzroka i posledice radi razumevanja nečega.
+wrong_answers:
+  - Politička teorija.
+  - Recept za kuvanje.
+  - Princip psihonalize.
+explanation: |
+  Finalizam je inverzija uzroka i posledice kako bi se nešto razumelo. To je objašnjavanje fenomena njegovom navodnom svrhom, a ne stvarnim uzrocima, što Spinoza kritikuje kao iluziju.
+reviewed: false

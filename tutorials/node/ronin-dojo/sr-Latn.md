@@ -3,7 +3,7 @@ name: RoninDojo
 
 description: Instaliranje i korišćenje vašeg RoninDojo Bitcoin čvora.
 ---
-***UPOZORENJE:** Nakon hapšenja osnivača Samourai Wallet i zaplene njihovih servera 24. aprila, određene funkcije RoninDojo-a, kao što je Whirlpool, više nisu operativne. Međutim, moguće je da bi ovi alati mogli biti ponovo uspostavljeni ili pokrenuti na drugačiji način u narednim nedeljama. Takođe, pošto je RoninDojo kod bio hostovan na Samourai-ovom GitLab-u, koji je takođe zaplenjen, trenutno nije moguće preuzeti kod na daljinu. Timovi RoninDojo-a verovatno rade na ponovnom objavljivanju koda.*
+***UPOZORENJE:** Nakon hapšenja osnivača Samourai novčanika i zaplene njihovih servera 24. aprila, određene funkcije RoninDojo-a, kao što je Whirlpool, više nisu operativne. Međutim, moguće je da bi ovi alati mogli biti ponovo uspostavljeni ili pokrenuti na drugačiji način u narednim nedeljama. Takođe, pošto je RoninDojo kod bio hostovan na Samourai-ovom GitLab-u, koji je takođe zaplenjen, nije moguće preuzeti kod sa interneta. Timovi RoninDojo-a verovatno rade na ponovnom objavljivanju koda.*
 
 
 _Pažljivo pratimo razvoj ovog slučaja kao i razvoj povezanih alata. Budite sigurni da ćemo ažurirati ovaj vodič čim nove informacije budu dostupne._
@@ -18,7 +18,8 @@ https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4
 
 ---
 
-Pokretanje i korišćenje sopstvenog čvora je ključno za istinsko učešće u Bitcoin mreži. Iako pokretanje Bitcoin čvora ne donosi nikakve finansijske koristi korisniku, omogućava im da sačuvaju svoju privatnost, deluju nezavisno i imaju kontrolu nad svojim poverenjem u mrežu.
+Pokretanje i korišćenje sopstvenog čvora je ključno za istinsko učešće u Bitcoin mreži.Iako vođenje Bitcoin čvora ne donosi korisniku finansijsku korist, ali sa druge strane omogućava da sačuva svoju privatnost, deluje nezavisno i ima kontrolu nad poverenjem u mrežu.
+
 
 
 U ovom članku, detaljno ćemo razmotriti RoninDojo, odlično rešenje za pokretanje sopstvenog Bitcoin čvora.
@@ -44,7 +45,7 @@ Ako niste upoznati sa načinom rada Bitcoin čvora i njegovom ulogom, preporuču
 ## Šta je RoninDojo?
 
 
-Dojo je pun Bitcoin čvor server razvijen od strane Samourai Wallet tima. Možete ga slobodno instalirati na bilo koji uređaj.
+Dojo je potpuni Bitcoin čvor server razvijen od strane Samourai Wallet tima. Možete ga slobodno instalirati na bilo koji uređaj.
 
 
 RoninDojo je asistent za instalaciju i alat za administraciju Dojo-a i raznih drugih alata. RoninDojo preuzima originalnu implementaciju Dojo-a i dodaje mnoge druge alate, dok istovremeno olakšava instalaciju i upravljanje.
@@ -59,9 +60,9 @@ Kod za RoninDojo je otvorenog koda, tako da je moguće instalirati ovo rešenje 
 RoninDojo je Dojo, tako da omogućava laku integraciju Whirlpool CLI u vaš Bitcoin čvor kako biste imali najbolje moguće CoinJoin iskustvo. Sa Whirlpool CLI, ne samo da možete dozvoliti vašim bitcoinima da se remixuju 24/7 bez potrebe da držite vaš lični računar uključenim, već možete i značajno poboljšati vašu privatnost.
 
 
-RoninDojo integriše mnoge druge alate koji se oslanjaju na vaš Dojo, kao što je Boltzmann kalkulator, koji određuje nivo privatnosti transakcije, Electrum server za povezivanje vaših različitih Bitcoin novčanika sa vašim čvorom, ili Mempool server za privatno praćenje vaših transakcija.
+RoninDojo integriše mnoge druge alate koji se oslanjaju na vaš Dojo, kao što je Boltzmann kalkulator, koji određuje nivo privatnosti transakcije, Electrum server za povezivanje vaših različitih Bitcoin novčanika sa vašim čvorom, ili [Mempool](https://planb.network/resources/glossary/mempool) server za privatno praćenje vaših transakcija.
 
-U poređenju sa drugim rešenjem za node kao što je Umbrel, koje sam vam predstavio u ovom članku, RoninDojo je duboko fokusiran na "on chain" rešenja i alate koji optimizuju privatnost korisnika. Stoga, RoninDojo ne dozvoljava interakciju sa Lightning Network.
+U poređenju sa drugim rešenjem za node kao što je Umbrel, koje sam vam predstavio u ovom članku, RoninDojo je duboko fokusiran na "on chain" rešenja i alate koji optimizuju privatnost korisnika. Stoga, RoninDojo ne dozvoljava interakciju sa Lightning mrežom.
 
 RoninDojo nudi manje alata u poređenju sa Umbrelom, ali nekoliko osnovnih funkcija za Bitkoinere prisutnih na Roninu su izuzetno stabilne.
 
@@ -69,7 +70,7 @@ RoninDojo nudi manje alata u poređenju sa Umbrelom, ali nekoliko osnovnih funkc
 Dakle, ako vam nisu potrebne sve funkcije Umbrel servera i želite samo jednostavan i stabilan čvor sa nekoliko osnovnih alata kao što su Whirlpool ili Mempool, onda je RoninDojo verovatno dobro rešenje za vas.
 
 
-Po mom mišljenju, razvojni fokus Umbrela je snažno usmeren na Lightning Network i svestrane alate. I dalje je Bitcoin čvor, ali cilj je da postane multitasking mini-server. Nasuprot tome, razvojni fokus RoninDojo-a je više usklađen sa timovima u Samourai Wallet i fokusira se na osnovne alate za Bitcoinere, omogućavajući potpunu nezavisnost i optimizovano upravljanje privatnošću na Bitcoin.
+Po mom mišljenju, razvojni fokus Umbrela je snažno usmeren na Lightning mrežu i svestrane alate. I dalje je Bitcoin čvor, ali cilj je da postane multitasking mini-server. Nasuprot tome, razvojni fokus RoninDojo-a je više usklađen sa timovima u Samourai Wallet-u i fokusira se na osnovne alate za bitkojnere, omogućavajući potpunu nezavisnost i optimizovano upravljanje privatnošću na Bitcoin-u.
 
 
 Imajte na umu da je postavljanje RoninDojo čvora nešto složenije od Umbrel čvora.
@@ -151,7 +152,7 @@ Kada je operacija završena, možete umetnuti bootabilnu micro SD karticu u Rasp
 RoninOS je operativni sistem vašeg RoninDojo čvora. To je modifikovana verzija Manjaro-a, Linux distribucije. Nakon pokretanja vašeg uređaja i čekanja nekoliko minuta, možete započeti njegovu konfiguraciju.
 
 
-Da biste se povezali na daljinu, potrebno je da pronađete IP Address vaše RoninDojo mašine. Da biste to uradili, možete, na primer, da se povežete na administrativni panel vašeg internet rutera, ili možete preuzeti softver kao što je https://angryip.org/ da skenirate vašu lokalnu mrežu i pronađete IP mašine.
+Da biste se povezali na daljinu, potrebno je da pronađete IP adresu vaše RoninDojo mašine. Da biste to uradili, možete, na primer, da se povežete na administrativni panel vašeg internet rutera, ili možete preuzeti softver kao što je https://angryip.org/ da skenirate vašu lokalnu mrežu i pronađete IP adresu mašine.
 
 
 Kada pronađete IP, možete preuzeti kontrolu nad vašom mašinom sa drugog računara povezanog na istu lokalnu mrežu koristeći SSH.
@@ -202,7 +203,7 @@ Zatim, izaberite ime hosta.
 ![Manjaro Hostname Configuration](assets/8.webp)
 
 
-Konačno, proverite informacije o konfiguraciji Manjaro-a i potvrdite.
+Konačno, proverite informacije o Manjaro konfiguraciji i potvrdite.
 
 
 ![Verification of ManjaroOS Configuration Information](assets/9.webp)
@@ -246,7 +247,7 @@ Preuzimanje će biti brzo. U terminalu ćete videti ovo:
 ![Cloning RoninDojo](assets/11.webp)
 
 
-Sačekajte da se preuzimanje završi, zatim instalirajte i pristupite RoninDojo korisniku Interface koristeći sledeću komandu:
+Sačekajte da se preuzimanje završi, zatim instalirajte i pristupite RoninDojo korisničkom interfejsu koristeći sledeću komandu:
 
 ```
 ~/RoninDojo/ronin
@@ -259,7 +260,7 @@ Bićete zamoljeni da unesete svoju korisničku lozinku:
 ![Bitcoin Node Password Verification](assets/12.webp)
 
 
-Ova komanda je potrebna samo prvi put kada pristupate svom RoninDojo. Nakon toga, da biste pristupili RoninCLI putem SSH, jednostavno ćete morati uneti komandu [SSH username@192.168.?.?] zamenjujući "username" sa vašim korisničkim imenom i unoseći IP Address vašeg čvora. Bićete upitani za vašu korisničku lozinku.
+Ova komanda je potrebna samo prvi put kada pristupate svom RoninDojo. Nakon toga, da biste pristupili RoninCLI putem SSH, jednostavno ćete morati uneti komandu [SSH username@192.168.?.?] zamenjujući "username" sa vašim korisničkim imenom i unoseći IP adresu vašeg čvora. Bićete upitani za vašu korisničku lozinku.
 
 
 Sledeće, videćete ovu veličanstvenu animaciju:
@@ -268,7 +269,7 @@ Sledeće, videćete ovu veličanstvenu animaciju:
 ![RoninCLI launch animation](assets/13.webp)
 
 
-Zatim ćete konačno stići na RoninDojo CLI korisnik Interface.
+Zatim ćete konačno stići na RoninDojo CLI korisnički interfejs.
 
 
 ### Korak 4: Instalirajte RoninDojo.
@@ -286,7 +287,7 @@ Zatim idite na meni "System Setup & Install".
 ![RoninCLI navigation menu to RoninDojo system installation](assets/15.webp)
 
 
-Konačno, proverite "System Setup" i "Install RoninDojo" koristeći razmaknicu, zatim izaberite "Accept" da započnete instalaciju.
+Konačno, proverite "System Setup" i "Install RoninDojo" koristeći razmak, zatim izaberite "Accept" da započnete instalaciju.
 
 
 ![RoninDojo installation confirmation](assets/16.webp)
@@ -319,14 +320,14 @@ Zatim će se vaš čvor ponovo pokrenuti. Ponovo se povežite sa RoninCLI za sle
 Kada je instalacija završena, vaš čvor će početi preuzimanje Bitcoin Proof-of-Work lanca. Ovo se naziva Početno Preuzimanje Blokova (IBD). Obično traje između 2 i 14 dana u zavisnosti od vaše internet konekcije i uređaja.
 
 
-Možete pratiti napredak preuzimanja lanca pristupanjem RoninUI web Interface.
+Možete pratiti napredak preuzimanja lanca pristupanjem RoninUI web interfejsu.
 
 
-Da biste mu pristupili sa lokalne mreže, upišite sledeće u Address traku vašeg pregledača:
+Da biste mu pristupili sa lokalne mreže, upišite sledeće u adresnu traku vašeg pregledača:
 
 
 
-- Ili direktno unesite IP Address vaše mašine (192.168.?.?)
+- Ili direktno unesite IP adresu vaše mašine (192.168.?.?)
 - Ili unesite: ronindojo.local
 
 
@@ -362,16 +363,16 @@ Kada se ažuriranje i ponovno pokretanje završe, ponovo se povežite sa svojim 
 Nakon što ponovo preuzmete RoninUI, pokušajte se povezati sa RoninUI putem vašeg pregledača.
 
 
-**Savjet:** Ako slučajno izađete iz RoninCLI i nađete se na Manjaro terminalu, jednostavno unesite komandu "ronin" da biste se direktno vratili na glavni meni RoninCLI.
+**Savet:** Ako slučajno izađete iz RoninCLI i nađete se na Manjaro terminalu, jednostavno unesite komandu "ronin" da biste se direktno vratili na glavni meni RoninCLI.
 
 
 ### Prijava na veb
 
 
-Možete se prijaviti na RoninUI web Interface sa bilo koje mreže koristeći Tor. Da biste to uradili, preuzmite Tor Address vašeg RoninUI sa RoninCLI: **Credentials > Ronin UI**
+Možete se prijaviti na RoninUI web interfejs sa bilo koje mreže koristeći Tor. Da biste to uradili, preuzmite Tor adresu vašeg RoninUI sa RoninCLI: **Credentials > Ronin UI**
 
 
-Preuzmi Tor Address koji završava sa .onion i zatim se prijavi na Ronin UI unosom ovog Address u svoj Tor pretraživač. Pazi da ne otkriješ svoje različite akreditive, jer su to osetljive informacije.
+Preuzmi Tor adresu koji završava sa .onion i zatim se prijavi na Ronin UI unosom ove adrese u svoj Tor pretraživač. Pazi da ne otkriješ svoje različite akreditive, jer su to osetljive informacije.
 
 
 ![RoninUI web login interface](assets/20.webp)
@@ -383,10 +384,10 @@ Kada se prijavite, bićete upitani za vašu korisničku lozinku. To je ista lozi
 ![RoninUI web interface management panel](assets/21.webp)
 
 
-Možemo videti napredak IBD-a (Initial Block Download) ovde. Budite strpljivi, preuzimate sve transakcije napravljene na Bitcoin od 3. januara 2009.
+Možemo videti napredak IBD-a (Initial Block Download) ovde. Budite strpljivi, preuzimate sve transakcije napravljene na Bitcoin-u od 3. januara 2009.
 
 
-Nakon preuzimanja celog Blockchain, indeksator će kompaktovati bazu podataka. Ova operacija traje oko 12 sati. Takođe možete pratiti njen napredak pod "Indexer" na RoninUI.
+Nakon preuzimanja celog Blockchain-a, indeksator će kompaktovati bazu podataka. Ova operacija traje oko 12 sati. Takođe možete pratiti njen napredak pod "Indexer" na RoninUI.
 
 
 Vaš RoninDojo čvor će biti potpuno funkcionalan nakon ovoga:
@@ -395,7 +396,7 @@ Vaš RoninDojo čvor će biti potpuno funkcionalan nakon ovoga:
 ![Indexer synchronized at 100% functional node](assets/22.webp)
 
 
-Ako želite promeniti korisničku lozinku u jaču, to možete učiniti sada iz kartice "Settings". Na RoninDojo nema dodatne sigurnosti Layer, pa preporučujem da odaberete zaista jaku lozinku i vodite računa o njenoj rezervnoj kopiji.
+Ako želite promeniti korisničku lozinku u jaču, to možete učiniti sada iz kartice "Settings". Na RoninDojo-u ne postoji dodatni sloj bezbednosti, zato preporučujem da izaberete zaista jaku lozinku i vodite računa o njenoj rezervnoj kopiji.
 
 
 ## Kako koristiti RoninDojo?
@@ -404,38 +405,38 @@ Ako želite promeniti korisničku lozinku u jaču, to možete učiniti sada iz k
 Kada se lanac preuzme i kompaktira, možete početi uživati u uslugama koje nudi vaš novi RoninDojo čvor. Hajde da vidimo kako ih koristiti.
 
 
-### Povezivanje Wallet softvera sa electrs.
+### Povezivanje softverskog novčanika sa electrs.
 
 
-Prva korisnost vašeg novoinstaliranog i sinhronizovanog čvora biće emitovanje vaših transakcija na Bitcoin mrežu. Stoga ćete verovatno želeti da povežete vaš različiti Wallet upravljački softver sa njim.
+Prva korisnost vašeg novoinstaliranog i sinhronizovanog čvora biće emitovanje vaših transakcija na Bitcoin mrežu. Zato ćete verovatno želeti da povežete različite softvere za upravljanje novčanikom sa njim.
 
 
-Možete to uraditi koristeći Electrum Rust Server (electrs). Aplikacija je obično unapred instalirana na vašem RoninDojo čvoru. Ako nije, možete je ručno instalirati sa RoninCLI Interface.
+Možete to uraditi koristeći Electrum Rust Server (electrs). Aplikacija je obično unapred instalirana na vašem RoninDojo čvoru. Ako nije, možete je ručno instalirati sa RoninCLI.
 
 
 Jednostavno idite na: **Applications > Manage Applications > Install Electrum Server**
 
 
-Da biste dobili Tor Address vašeg Electrum Servera, iz RoninCLI menija idite na:
+Da biste dobili Tor adresu vašeg Electrum Servera, iz RoninCLI menija idite na:
 
-**Kredencijali > Electrs**
-
-
-Samo treba da unesete .onion link u vaš Wallet softver. Na primer, u Sparrow Wallet, idite na karticu:
-
-**Datoteka > Postavke > Server**
+**Credentials > Electrs**
 
 
-U tipu servera izaberite `Private Electrum`, zatim unesite Tor Address vašeg Electrum Servera u odgovarajuće polje. Na kraju, kliknite na "Test Connection" da testirate i sačuvate vašu konekciju.
+Samo treba da unesete .onion link u vaš softver novčanika. Na primer, u Sparrow novčaniku, idite na karticu:
+
+**File > Preferences > Server**
+
+
+U tipu servera izaberite `Private Electrum`, zatim unesite Tor adresu vašeg Electrum Servera u odgovarajuće polje. Na kraju, kliknite na "Test Connection" da testirate i sačuvate vašu konekciju.
 
 
 ![Sparrow Wallet connection interface to an electrs](assets/23.webp)
 
 
-### Povezivanje Wallet softvera sa Samourai Dojo.
+### Povezivanje softvera novčanika sa Samourai Dojo.
 
 
-Umesto korišćenja Electrs, možete takođe koristiti Samourai Dojo za povezivanje vašeg kompatibilnog Software Wallet sa vašim RoninDojo čvorom. Na primer, Samourai Wallet nudi ovu opciju.
+Umesto korišćenja Electrs, možete takođe koristiti Samourai Dojo za povezivanje vašeg kompatibilnog softverskog novčanika sa vašim RoninDojo čvorom. Na primer, Samourai novčanik nudi ovu opciju.
 
 
 Da biste to uradili, jednostavno skenirajte QR kod za povezivanje vašeg Dojo-a. Da biste mu pristupili iz RoninUI, kliknite na karticu "Dashboard", a zatim na dugme "Manage" u okviru vašeg Dojo-a. Tada ćete moći da vidite QR kodove za povezivanje vašeg Dojo-a i BTC-RPC Explorer-a. Da biste ih prikazali, kliknite na "Display values".
@@ -444,27 +445,27 @@ Da biste to uradili, jednostavno skenirajte QR kod za povezivanje vašeg Dojo-a.
 ![Retrieving the connection QR code to Dojo](assets/24.webp)
 
 
-Da biste povezali svoj Samourai Wallet sa svojim Dojo-om, potrebno je da skenirate ovaj QR kod tokom instalacije aplikacije:
+Da biste povezali svoj Samourai novčanik sa svojim Dojo-om, potrebno je da skenirate ovaj QR kod tokom instalacije aplikacije:
 
 
 ![Connecting to Dojo from the Samourai Wallet application](assets/25.webp)
 
 
-### Korišćenje sopstvenog Mempool Explorer.
+### Korišćenje sopstvenog Mempool Explorer-a.
 
 
-Osnovni alat za Bitcoinere, explorer vam omogućava da proverite razne informacije o lancu Bitcoin. Sa Mempool, na primer, možete u realnom vremenu proveriti naknade koje primenjuju drugi korisnici kako biste u skladu s tim prilagodili svoje. Takođe možete proveriti status potvrde jedne od vaših transakcija ili videti stanje Address.
+Osnovni alat za Bitcoinere, explorer vam omogućava da proverite razne informacije o Bitcoin lancu. Sa Mempool, na primer, možete u realnom vremenu proveriti naknade koje primenjuju drugi korisnici kako biste u skladu s tim prilagodili svoje. Takođe možete proveriti status potvrde jedne od vaših transakcija ili videti stanje adrese.
 
 
 Ovi alati za istraživanje mogu vas izložiti rizicima po privatnost i zahtevaju da verujete bazi podataka treće strane. Kada koristite ovaj onlajn alat bez prolaska kroz sopstveni čvor:
 
 
 
-- Rizikujete curenje informacija o vašem Wallet.
+- Rizikujete curenje informacija o vašem novčaniku.
 
 
 
-- Verujete menadžeru vebsajta za lanac Proof-of-Work koji hostuju.
+- Verujete menadžeru vebsajta za Proof-of-Work lanac koji hostuju.
 
 
 Da biste izbegli ove rizike, možete koristiti sopstvenu Mempool instancu na svom čvoru putem Tor mreže. Sa ovim rešenjem, ne samo da čuvate svoju privatnost prilikom korišćenja usluge, već više ne morate da verujete provajderu jer pretražujete sopstvenu bazu podataka.
@@ -473,19 +474,19 @@ Da biste izbegli ove rizike, možete koristiti sopstvenu Mempool instancu na svo
 Da biste to uradili, počnite instaliranjem Mempool Space Visualizer iz RoninCLI:
 
 
-**Aplikacije > Upravljanje aplikacijama > Instaliraj Mempool Space Visualizer**
+**Applications > Manage Applications > Install Mempool Space Visualizer**
 
 
-Jednom instaliran, preuzmite link do vašeg Mempool. Tor Address će vam omogućiti pristup sa bilo koje mreže. Slično tome, preuzimamo ovaj link putem RoninCLI:
+Jednom instaliran, preuzmite link do vašeg Mempool-a. Tor adresa će vam omogućiti pristup sa bilo koje mreže. Slično tome, preuzimamo ovaj link putem RoninCLI:
 
 
-**Poverljivi podaci > Mempool**
+**Credentials > Mempool**
 
 
 ![Retrieve Tor Mempool address](assets/26.webp)
 
 
-Jednostavno unesite svoj Mempool Tor Address u Tor pretraživač da biste uživali u svojoj Mempool instanci, zasnovanoj na vašim podacima. Preporučujem da dodate ovaj Tor Address u svoje omiljene za brži pristup. Takođe možete kreirati prečicu na vašoj radnoj površini.
+Jednostavno unesite svoj Mempool Tor adresu u Tor pretraživač da biste uživali u svojoj Mempool instanci, zasnovanoj na vašim podacima. Preporučujem da dodate ovu Tor adresu u svoje omiljene za brži pristup. Takođe možete kreirati prečicu na vašoj radnoj površini.
 
 
 ![Mempool Space interface](assets/27.webp)
@@ -494,21 +495,21 @@ Jednostavno unesite svoj Mempool Tor Address u Tor pretraživač da biste uživa
 Ako još uvek nemate Tor pregledač, možete ga preuzeti ovde: https://www.torproject.org/download/
 
 
-Takođe možete pristupiti sa svog pametnog telefona instaliranjem Tor Browser-a i unosom istog Address. Sa bilo kog mesta, možete pregledati stanje Bitcoin lanca koristeći svoj čvor.
+Takođe možete pristupiti sa svog pametnog telefona instaliranjem Tor Browser-a i unosom iste adrese. Sa bilo kog mesta, možete pregledati stanje Bitcoin lanca koristeći svoj čvor.
 
 
 ### Korišćenje Whirlpool CLI.
 
 
-Vaš RoninDojo čvor takođe uključuje WhirlpoolCLI, daljinski komandni Interface za automatizaciju Whirlpool mešanja.
+Vaš RoninDojo čvor takođe uključuje WhirlpoolCLI – komandno-linijski interfejs koji omogućava automatizaciju Whirlpool mešanja sa drugog uređaja.
 
 
-Kada izvodite CoinJoin sa implementacijom Whirlpool, aplikacija koju koristite mora ostati otvorena kako bi se izvršili miksevi i remiksevi. Ovaj proces može biti zamoran za korisnike koji žele imati visoke anon setove, jer uređaj koji hostuje aplikaciju sa Whirlpool mora stalno ostati uključen. U praktičnom smislu, to znači da ako želite uključiti svoje UTXO-e u 24/7 remikseve, moraćete držati svoj lični računar ili telefon stalno uključen sa otvorenom aplikacijom.
+Kada izvodite CoinJoin sa Whirlpool implementacijom, aplikacija koju koristite mora ostati otvorena kako bi se izvršili miksevi i remiksevi. Ovaj proces može biti zamoran za korisnike koji žele imati visoke anon setove, jer uređaj koji hostuje aplikaciju sa Whirlpool-om mora stalno ostati uključen. U praktičnom smislu, to znači da ako želite uključiti svoje UTXO-e u 24/7 remikseve, moraćete držati svoj lični računar ili telefon stalno uključen sa otvorenom aplikacijom.
 
 
 Jedno rešenje za ovo ograničenje je korišćenje WhirlpoolCLI na mašini koja je namenjena da bude stalno uključena, kao što je Bitcoin čvor. Na ovaj način, naši UTXO-ovi mogu biti remixovani 24/7 bez potrebe da držimo drugu mašinu osim našeg Bitcoin čvora uključenom.
 
-WhirlpoolCLI se koristi sa WhirlpoolGUI, grafičkim Interface koji se instalira na lični računar za jednostavno upravljanje Coinjoins. Detaljno ću objasniti kako postaviti Whirlpool CLI sa sopstvenim dojom u ovom članku: [link](https://www.pandul.fr/post/comprendre-et-utiliser-le-CoinJoin-sur-Bitcoin#:~:text=dans%20cette%20partie.-,Tutoriel%20%3A%20Whirpool%20CLI%20sur%20Dojo%20et%20Whirlpool%20GUI.,-Si%20vous%20souhaitez).
+WhirlpoolCLI se koristi sa WhirlpoolGUI, grafičkim interfejsom koji se instalira na lični računar za jednostavno upravljanje Coinjoins. Detaljno ću objasniti kako postaviti Whirlpool CLI sa sopstvenim dojom u ovom članku: [link](https://www.pandul.fr/post/comprendre-et-utiliser-le-CoinJoin-sur-Bitcoin#:~:text=dans%20cette%20partie.-,Tutoriel%20%3A%20Whirpool%20CLI%20sur%20Dojo%20et%20Whirlpool%20GUI.,-Si%20vous%20souhaitez).
 
 
 Da biste saznali više o CoinJoin uopšte, sve objašnjavam u ovom članku: [link](https://www.pandul.fr/post/comprendre-et-utiliser-le-CoinJoin-sur-Bitcoin).
@@ -536,7 +537,7 @@ Terminal će prikazati:
 **wst#/tmp>**
 
 
-Da biste izašli iz ovog Interface i vratili se u RoninCLI meni, jednostavno unesite komandu:
+Da biste izašli iz ovog interfejsa i vratili se u RoninCLI meni, jednostavno unesite komandu:
 
 ```
 quit
@@ -598,13 +599,13 @@ score TXID
 ![Printing the prospective and retrospective scores of the given TXID](assets/31.webp)
 
 
-WST će zatim prikazati retrospektivni skor (metrike usmerene unazad) praćen prospektivnim skorom (metrike usmerene unapred). Pored skorova Anon Setova, WST vam takođe pruža stopu difuzije vašeg izlaza u bazenu na osnovu anon seta.
+WST će zatim prikazati retrospektivni skor (metrike usmerene unazad) praćen prospektivnim skorom (metrike usmerene unapred). Pored Anon Set skorova, WST vam takođe pruža stopu difuzije vašeg izlaza u bazenu na osnovu anon seta.
 
 
 Imajte na umu da se očekivani rezultat vašeg UTXO izračunava na osnovu txid vaše početne mešavine, a ne vaše poslednje mešavine. Suprotno tome, retrospektivni rezultat UTXO se izračunava na osnovu txid poslednjeg ciklusa.
 
 
-Još jednom, ako ne razumete ove pojmove Anon Sets, preporučujem da pročitate ovaj deo mog članka o CoinJoin gde sve objašnjavam detaljno sa dijagramima: [https://www.pandul.fr/post/comprendre-et-utiliser-le-CoinJoin-sur-Bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment](https://www.pandul.fr/post/comprendre-et-utiliser-le-CoinJoin-sur-Bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment)
+Još jednom, ako ne razumete ove pojmove Anon Sets, preporučujem da pročitate ovaj deo mog članka o CoinJoin-u gde sve objašnjavam detaljno sa dijagramima: [https://www.pandul.fr/post/comprendre-et-utiliser-le-CoinJoin-sur-Bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment](https://www.pandul.fr/post/comprendre-et-utiliser-le-CoinJoin-sur-Bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment)
 
 
 ### Korišćenje Boltzmann kalkulatora.
@@ -854,9 +855,9 @@ Da biste saznali više o Boltzmann kalkulatoru, preporučujem čitanje ovih čla
 ### Povezivanje Bisq-a.
 
 
-Bisq je peer-to-peer Exchange platforma koja vam omogućava kupovinu i prodaju bitcoina. Koristi se sa desktop softverom koji radi na Toru i omogućava vam da Exchange bitcoine bez potrebe da otkrijete svoj identitet.
+Bisq je peer-to-peer platforma za razmenu koja vam omogućava kupovinu i prodaju bitcoina. Koristi se sa desktop softverom koji radi na Toru i omogućava vam da razmenite bitcoine bez potrebe da otkrijete svoj identitet.
 
-Bisq osigurava peer-to-peer razmene putem 2/2 sistema sa više potpisa. Možete koristiti ovaj softver sa svojim RoninDojo čvorom kako biste optimizovali privatnost svojih razmena i verovali podacima sa Blockchain vašeg čvora.
+Bisq osigurava peer-to-peer razmene putem 2/2 sistema sa više potpisa. Možete koristiti ovaj softver sa svojim RoninDojo čvorom kako biste optimizovali privatnost svojih razmena i verovali Blockchain podacima sa vašeg čvora.
 
 
 Da biste preuzeli Bisq softver, idite na njihovu zvaničnu veb stranicu: https://bisq.network/
@@ -867,23 +868,23 @@ Da biste započeli sa softverom, preporučujem da pročitate ovu stranicu: https
 
 Da biste preuzeli vezu za povezivanje sa vašeg RoninDojo, potrebno je da se povežete sa RoninCLI putem SSH. Zatim idite na meni:
 
-**Aplikacije > Upravljanje aplikacijama**
+**Applications > Manage Applications**
 
 
-Unesite svoju lozinku, zatim označite polje razmaknicom:
+Unesite svoju lozinku, zatim označite polje razmakom:
 
-**[ ] Omogući Bisq vezu**
-
-
-Potvrdite svoj izbor. Neka se vaš čvor instalira, a zatim preuzmite Tor V3 Address sa:
-
-**Poverljivi podaci > bitcoind**
+**[ ] Enable Bisq Connection**
 
 
-Kopiraj Address ispod "Bitcoin daemon".
+Potvrdite svoj izbor. Neka se vaš čvor instalira, a zatim preuzmite Tor V3 adresu sa:
+
+**Credentials > Bitcoind**
 
 
-Takođe možete preuzeti svoj bitcoind Tor V3 Address iz RoninUI Interface jednostavnim klikom na "Manage" u okviru "Bitcoin Core" na "Dashboard":
+Kopiraj adresu ispod "Bitcoin daemon".
+
+
+Takođe možete preuzeti svoj bitcoind Tor V3 adresu iz RoninUI interfejsa jednostavnim klikom na "Manage" u okviru "Bitcoin Core" na "Dashboard":
 
 
 ![Retrieve TorV3 Bitcoin Daemon address on RoninUI](assets/38.webp)
@@ -891,13 +892,13 @@ Takođe možete preuzeti svoj bitcoind Tor V3 Address iz RoninUI Interface jedno
 
 Da povežete svoj čvor iz Bisq-a, idite na meni:
 
-**Postavke > Mrežne informacije**
+**Settings > Network Info**
 
 
 ![Access the node connection interface from the Bisq software](assets/39.webp)
 
 
-Kliknite na balon "Use custom Bitcoin Core nodes". Zatim unesite vaš Bitcoin TorV3 Address u predviđeno polje, sa ".onion" ali bez "http://".
+Kliknite na balon "Use custom Bitcoin Core nodes". Zatim unesite vaš Bitcoin TorV3 adresu u predviđeno polje, sa ".onion" ali bez "http://".
 
 
 ![Box to enter the TorV3 address of your node in the Bisq software](assets/40.webp)
@@ -912,15 +913,15 @@ Ponovo pokrenite Bisq softver. Vaš čvor je sada povezan sa vašim Bisq.
 Vaš RoninDojo čvor takođe uključuje i druge osnovne funkcije. Imate mogućnost skeniranja specifičnih informacija kako biste osigurali da se one uzmu u obzir.
 
 
-Na primer, ponekad je moguće da vaš Wallet povezan sa vašim RoninDojo ne pronađe bitkoine koji vam pripadaju. Stanje je 0 iako ste sigurni da imate Bitcoin u ovom Wallet. Postoji mnogo mogućih uzroka koje treba razmotriti, uključujući grešku u putanjama derivacije, a među njima je takođe moguće da vaš čvor ne posmatra vaše adrese.
+Na primer, ponekad je moguće da vaš novčanik povezan sa vašim RoninDojo ne pronađe bitkoine koji vam pripadaju. Stanje je 0 iako ste sigurni da imate Bitcoin u ovom novčaniku. Postoji mnogo mogućih uzroka koje treba razmotriti, uključujući grešku u putanjama derivacije, a među njima je takođe moguće da vaš čvor ne posmatra vaše adrese.
 
 
 Da biste to popravili, možete proveriti da vaš čvor prati vaš xpub pomoću "xpub alata". Da biste mu pristupili iz RoninUI, idite na meni:
 
-**Održavanje > XPUB Alat**
+**Maintenance > XPUB Tool**
 
 
-Unesite problematični xpub i kliknite "Proveri" da biste verifikovali ove informacije.
+Unesite problematični xpub i kliknite "Check" da biste verifikovali ove informacije.
 
 
 ![XPUB Tool from RoninUI](assets/41.webp)
@@ -932,7 +933,7 @@ Ako vaš xpub prati čvor, videćete da se ovo pojavljuje:
 ![XPUB Tool result showing successful analysis](assets/42.webp)
 
 
-Proverite da su sve transakcije ispravno prikazane. Takođe, proverite da li tip derivacije odgovara onom na vašem Wallet. Ovde možemo videti da čvor interpretira ovaj xpub kao BIP44 derivaciju. Ako ovaj tip derivacije ne odgovara onom na vašem Wallet, kliknite na dugme "Retype", zatim izaberite BIP44/BIP49/BIP84 prema vašem izboru:
+Proverite da su sve transakcije ispravno prikazane. Takođe, proverite da li tip derivacije odgovara onom na vašem novćaniku. Ovde možemo videti da čvor interpretira ovaj xpub kao BIP44 derivaciju. Ako ovaj tip derivacije ne odgovara onom na vašem novčaniku, kliknite na dugme "Retype", zatim izaberite BIP44/BIP49/BIP84 prema vašem izboru:
 
 
 ![Change the derivation type of the studied xpub from RoninUI](assets/43.webp)
@@ -949,7 +950,7 @@ Takođe možete koristiti druge alate za održavanje:
 
 
 - Alat za transakcije: Omogućava vam da posmatrate detalje određene transakcije.
-- Address Alat: Omogućava vam da proverite da li određeni Address prati vaš Dojo.
+- Alat za adrese: Omogućava vam da proverite da li određenu adresu prati vaš Dojo.
 - Ponovno skeniraj blokove: Prisiljava vaš čvor da ponovo skenira odabrani raspon blokova.
 
 
@@ -965,7 +966,7 @@ Takođe ćete pronaći alat "Push Tx" na RoninUI. Omogućava vam da emitujete po
 Videli smo kako instalirati i započeti sa ovim divnim alatom koji je RoninDojo. To je odličan izbor za pokretanje sopstvenog Bitcoin čvora. To je stabilno rešenje koje integriše i održava ažuriranim sve esencijalne alate za Bitkoinera.
 
 
-Ako vas korišćenje terminala ne plaši i ako vam nisu potrebni alati povezani sa Lightning Network, onda bi vam RoninDojo mogao biti privlačan.
+Ako vas korišćenje terminala ne plaši i ako vam nisu potrebni alati povezani sa Lightning mrežom, onda bi vam RoninDojo mogao biti privlačan.
 
 
 Ako možete, razmislite o doniranju programerima koji besplatno proizvode ovaj open-source softver za vas: https://donate.ronindojo.io/
@@ -978,7 +979,7 @@ Da biste saznali više o RoninDojo-u, preporučujem da pogledate linkove u mojim
 
 
 
-- Razumevanje i korišćenje CoinJoin na Bitcoin.
+- Razumevanje i korišćenje CoinJoin-a na Bitcoin-u.
 - Hash funkcije - izvod iz e-knjige Bitcoin Démocratisé 1.
 - Sve što treba da znate o Bitcoin passphrase.
 

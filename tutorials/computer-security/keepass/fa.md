@@ -1,5 +1,5 @@
 ---
-name: کی‌پس
+name: KeePass
 description: چگونه یک مدیر رمز عبور محلی راه‌اندازی کنیم؟
 ---
 ![cover](assets/cover.webp)

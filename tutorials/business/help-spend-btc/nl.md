@@ -57,7 +57,7 @@ Dit type korting is effectiever voor fysieke winkels, vooral voor producten die 
 ##### Een voorbeeld
 
 
-In alle Europese landen geldt een verbruiksbelasting die in het Engels Value-Added Tax wordt genoemd, [BTW](https://en.wikipedia.org/wiki/Value-added_tax). Deze belasting werd in 1954 in Frankrijk uitgevonden en begon zich in 1970 al te verspreiden binnen de oorspronkelijke Europese Gemeenschap. Tegen 2020 was ze verspreid over het grootste deel van de wereld.
+Alle Europese landen zijn onderworpen aan een verbruiksbelasting, in het Engels "Value-added Tax" genoemd, hierna [VAT](https://en.wikipedia.org/wiki/Value-added_tax). Deze belasting werd in 1954 in Frankrijk uitgevonden, in 1970 was ze al begonnen zich te verspreiden in de oorspronkelijke Europese Gemeenschap; in 2020 had ze zich al verspreid naar een groot deel van de wereld.
 
 
 Laten we voor dit voorbeeld aannemen dat we in Europa zijn, in een land waar het btw-tarief 20% is voor elke categorie goederen. We zijn in een schoenenwinkel en laten we zeggen dat een paar leren schoenen $120 kost als er met een pinpas wordt betaald.
@@ -126,7 +126,7 @@ De implementatiemethode wordt overgelaten aan de verkoper, maar in het kort volg
 ### BTC Kaart
 
 
-In elk geval is het altijd een goede gewoonte om ervoor te zorgen dat jouw bedrijf, als het een fysieke locatie heeft, aanwezig en up-to-date is op [BTC Map] (https://btcmap.org/map). De meeste Bitcoin gebruikers zijn bekend met deze tool, en bijna iedereen die Bitcoin heeft uitgegeven in fysieke winkels, heeft minstens één keer gecontroleerd welke plaatsen ze accepteren. Als je wilt leren hoe je jouw winkel toevoegt aan BTC Map of als je meer informatie wilt, bekijk dan deze tutorial:
+Hoe dan ook, het is altijd een goede gewoonte om ervoor te zorgen dat uw bedrijf, als het een fysieke locatie heeft, aanwezig en up-to-date is op [BTC Map](https://btcmap.org/map). De meeste bitcoin-gebruikers zijn bekend met dit hulpmiddel, en bijna iedereen die bitcoin in fysieke winkels heeft uitgegeven, heeft ten minste één keer gecontroleerd welke plaatsen ze accepteren. Als u wilt leren hoe u uw winkel kunt toevoegen aan BTC Map of meer informatie wilt, bekijk dan deze handleiding:
 
 
 https://planb.network/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-f62658f343c6

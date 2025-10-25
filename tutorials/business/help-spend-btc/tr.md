@@ -57,7 +57,7 @@ Bu indirim türü fiziksel mağazalar için, özellikle de yüksek vergilere tab
 ##### Bir Örnek
 
 
-Tüm Avrupa ülkeleri aşağıdaki gibi İngilizce Katma Değer Vergisi, [VAT](https://en.wikipedia.org/wiki/Value-added_tax) olarak adlandırılan bir tüketim vergisine tabidir. Bu vergi 1954 yılında Fransa'da icat edilmiş ve 1970 yılına gelindiğinde orijinal Avrupa Topluluğu genelinde yayılmaya başlamıştır. 2020 yılına gelindiğinde ise dünyanın büyük bir kısmına yayılmıştı.
+Tüm Avrupa ülkeleri, İngilizce'de "Value-added Tax" olarak adlandırılan bir tüketim vergisine tabidir, bundan sonra [VAT](https://en.wikipedia.org/wiki/Value-added_tax). Bu vergi 1954 yılında Fransa'da icat edilmiştir, 1970'te ilk Avrupa Topluluğu'nda yayılmaya başlamıştı; 2020 yılına gelindiğinde dünyanın büyük bir bölümüne yayılmıştı.
 
 
 Bu örnek için, Avrupa'da, herhangi bir mal kategorisi için KDV oranının %20 olduğu bir ülkede olduğumuzu varsayalım. Bir ayakkabı mağazasındayız ve diyelim ki bir çift deri ayakkabı banka kartıyla ödendiğinde 120 dolar tutuyor.
@@ -126,7 +126,7 @@ Uygulama yöntemi satıcıya bırakılmıştır, ancak kısaca, burada bazı mev
 ### BTC Haritası
 
 
-Her durumda, işletmenizin fiziksel bir konumu varsa, [BTC Map] (https://btcmap.org/map) üzerinde mevcut ve güncel olduğundan emin olmak her zaman iyi bir uygulamadır. Çoğu Bitcoin kullanıcısı bu araca aşinadır ve Bitcoin'yi fiziksel mağazalarda harcayanların neredeyse tamamı, hangi yerlerin kabul ettiğini görmek için en az bir kez kontrol etmiştir. Mağazanızı BTC Map'e nasıl ekleyeceğinizi öğrenmek veya daha fazla bilgi almak istiyorsanız, bu eğitimi izleyin:
+Her durumda, işletmenizin, fiziksel bir konumu varsa, [BTC Map](https://btcmap.org/map)'te mevcut ve güncel olduğundan emin olmak her zaman iyi bir uygulamadır. Çoğu bitcoin kullanıcısı bu araca aşinadır ve bitcoin'i fiziksel mağazalarda harcayanların neredeyse hepsi en az bir kez hangi yerlerin kabul ettiğini kontrol etmiştir. Mağazanızı BTC Map'e nasıl ekleyeceğinizi öğrenmek veya daha fazla bilgi almak istiyorsanız, bu öğreticiyi izleyin:
 
 
 https://planb.network/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-f62658f343c6

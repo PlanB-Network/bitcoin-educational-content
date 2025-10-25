@@ -1,5 +1,5 @@
 ---
-name: BTC-Karte
+name: BTC Map
 description: Finden Sie Orte, an denen Sie Ihr Sats ausgeben können
 ---
 ![cover](assets/cover.webp)

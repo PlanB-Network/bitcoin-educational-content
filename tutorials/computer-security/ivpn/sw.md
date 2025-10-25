@@ -1,5 +1,5 @@
 ---
-name: IPP
+name: IVPN
 description: Kuanzisha VPN iliyolipiwa na bitcoins
 ---
 ![cover](assets/cover.webp)

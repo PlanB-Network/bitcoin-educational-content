@@ -1,5 +1,5 @@
 ---
-name: Krux - Sig Moja na Multi
+name: Krux
 description: kusanidi kifaa cha kusaini maunzi cha Krux DIY Bitcoin, kuangaza firmware yake, na kuitumia kwa pochi za sig moja na Multisig.
 ---
 
@@ -12,11 +12,11 @@ description: kusanidi kifaa cha kusaini maunzi cha Krux DIY Bitcoin, kuangaza fi
 Katika somo hili la video utajifunza:
 
 
-- Inapakua na kuangaza firmware ya Krux
-- Inazalisha ufunguo mpya wa faragha na kuusafirisha kupitia msimbo wa QR
-- Inaoanishwa na Blue Wallet kwenye simu kwa matumizi ya sig moja
+- kupakua na kuangaza firmware ya Krux
+- kuzalisha ufunguo mpya wa faragha na kuusafirisha kupitia msimbo wa QR
+- kuoanisha na Blue Wallet kwenye simu kwa matumizi ya sig moja
 - Kuweka Multisig Wallet na Sparrow wallet
-- Inachunguza vipengele vya ziada vya kifaa cha kusaini Krux
+- kuchunguza vipengele vya ziada vya kifaa cha kusaini Krux
 
 
 ![video](https://youtu.be/WiwmpO1k2zA)

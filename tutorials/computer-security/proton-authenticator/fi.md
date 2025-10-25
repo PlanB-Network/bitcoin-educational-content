@@ -32,37 +32,37 @@ Proton Authenticator tarjoaa seuraavat keskeiset ominaisuudet:
 
 
 
-- TOTP**-koodien luominen 2FA-tileillesi, yhteensopiva useimpien Google Authenticatoria, Authyta jne. käyttävien sivustojen kanssa.
+- **TOTP-koodien** luominen 2FA-tileillesi, yhteensopiva useimpien Google Authenticatoria, Authyta jne. käyttävien sivustojen kanssa.
 
 
 
 
 
-- Valinnainen salattu pilvivarmistus**: voit yhdistää sovelluksen Proton-tiliisi, jolloin voit varmuuskopioida ja synkronoida koodisi päästä päähän -salauksella. Jos kadotat laitteesi, voit yksinkertaisesti liittää uuden laitteen uudelleen ja palauttaa kaikki koodisi.
+- **Valinnainen salattu pilvivarmistus**: voit yhdistää sovelluksen Proton-tiliisi, jolloin voit varmuuskopioida ja synkronoida koodisi päästä päähän -salauksella. Jos kadotat laitteesi, voit yksinkertaisesti liittää uuden laitteen uudelleen ja palauttaa kaikki koodisi.
 
 
 
 
 
-- Synkronointi useilla laitteilla**: kirjautumalla Protoniin sovelluksessa 2FA-koodisi synkronoituvat automaattisesti useiden laitteiden välillä päästä päähän -salauksen avulla. IOS:ssä vaihtoehtona on synkronointi iCloudin kautta.
+- **Synkronointi useilla laitteilla**: kirjautumalla Protoniin sovelluksessa 2FA-koodisi synkronoituvat automaattisesti useiden laitteiden välillä päästä päähän -salauksen avulla. IOS:ssä vaihtoehtona on synkronointi iCloudin kautta.
 
 
 
 
 
-- Paikallinen lukitus salasanalla tai biometriikalla**: sovellus tarjoaa PIN-koodin ja/tai sormenjälki- tai kasvotunnuksen lukituksen. Vaikka joku pääsisi fyysisesti käsiksi lukitsemattomaan puhelimeesi, hän ei pysty avaamaan Proton Authenticatoria.
+- **Paikallinen lukitus salasanalla tai biometriikalla**: sovellus tarjoaa PIN-koodin ja/tai sormenjälki- tai kasvotunnuksen lukituksen. Vaikka joku pääsisi fyysisesti käsiksi lukitsemattomaan puhelimeesi, hän ei pysty avaamaan Proton Authenticatoria.
 
 
 
 
 
-- Ei tiedonkeruuta tai seurantalaitteita**: Proton on sitoutunut siihen, ettei sovelluksen kautta kerätä henkilötietoja. Piilomainontaa tai käyttäytymisanalyysiä ei ole.
+- **Ei tiedonkeruuta tai seurantalaitteita**: Proton on sitoutunut siihen, ettei sovelluksen kautta kerätä henkilötietoja. Piilomainontaa tai käyttäytymisanalyysiä ei ole.
 
 
 
 
 
-- Helppo tuonti/vienti**: Yksi Proton Authenticatorin vahvuuksista on sen ohjatun tuonnin ohjattu toiminto olemassa olevia tilejä varten, joka on yhteensopiva muiden sovellusten kanssa (Google Authenticator, Authy, Aegis jne.). Voit myös tarvittaessa viedä koodit tiedostoon.
+- **Helppo tuonti/vienti**: Yksi Proton Authenticatorin vahvuuksista on sen ohjatun tuonnin ohjattu toiminto olemassa olevia tilejä varten, joka on yhteensopiva muiden sovellusten kanssa (Google Authenticator, Authy, Aegis jne.). Voit myös tarvittaessa viedä koodit tiedostoon.
 
 
 
@@ -560,10 +560,10 @@ Proton Authenticator on yksi kattavimmista ja turvallisimmista saatavilla olevis
 
 
 
-- Virallinen verkkosivusto**: [proton.me/authenticator](https://proton.me/authenticator) - Tuotteen esittely ja lataukset
-- Lataa sivu**: [proton.me/fi/authenticator/download](https://proton.me/fr/authenticator/download) - Linkit kaikille käyttöjärjestelmille
-- Protonituki**: [proton.me/support/two-factor-authentication-2fa](https://proton.me/support/two-factor-authentication-2fa) - Virallinen 2FA-aktivointiopas
-- Protonin blogi**: [proton.me/blog/authenticator-app](https://proton.me/blog/authenticator-app) - Ilmoitus ja yksityiskohtaiset ominaisuudet
+- **Virallinen verkkosivusto**: [proton.me/authenticator](https://proton.me/authenticator) - Tuotteen esittely ja lataukset
+- **Lataa sivu**: [proton.me/fi/authenticator/download](https://proton.me/fr/authenticator/download) - Linkit kaikille käyttöjärjestelmille
+- **Protonituki**: [proton.me/support/two-factor-authentication-2fa](https://proton.me/support/two-factor-authentication-2fa) - Virallinen 2FA-aktivointiopas
+- **Protonin blogi**: [proton.me/blog/authenticator-app](https://proton.me/blog/authenticator-app) - Ilmoitus ja yksityiskohtaiset ominaisuudet
 
 
 
@@ -572,8 +572,8 @@ Proton Authenticator on yksi kattavimmista ja turvallisimmista saatavilla olevis
 
 
 
-- GitHub Proton Authenticator** : [github.com/ProtonMail/proton-authenticator](https://github.com/ProtonMail/proton-authenticator) - Avoimen lähdekoodin koodi
-- Turvatarkastukset**: [proton.me/community/security-audits](https://proton.me/community/security-audits) - Riippumattomat tarkastusraportit
+- **GitHub Proton Authenticator**: [github.com/ProtonMail/proton-authenticator](https://github.com/ProtonMail/proton-authenticator) - Avoimen lähdekoodin koodi
+- **Turvatarkastukset**: [proton.me/community/security-audits](https://proton.me/community/security-audits) - Riippumattomat tarkastusraportit
 
 
 
@@ -595,9 +595,9 @@ Testaa asetukset konfiguroinnin jälkeen:
 
 
 
-- Reddit r/Proton** : [reddit.com/r/ProtonMail](https://reddit.com/r/ProtonMail) - Virallinen Proton-yhteisö
-- Yksityisyyden suojaa koskevat oppaat Foorumi** : [discuss.privacyguides.net](https://discuss.privacyguides.net) - Tekniset keskustelut yksityisyyden suojaan liittyvistä kysymyksistä
-- Reddit r/privacy**: [reddit.com/r/privacy](https://reddit.com/r/privacy) - Yleisiä vinkkejä yksityisyyden suojaan
+- Reddit r/Proton: [reddit.com/r/ProtonMail](https://reddit.com/r/ProtonMail) - Virallinen Proton-yhteisö
+- Yksityisyyden suojaa koskevat oppaat **Foorumi**: [discuss.privacyguides.net](https://discuss.privacyguides.net) - Tekniset keskustelut yksityisyyden suojaan liittyvistä kysymyksistä
+- **Reddit r/privacy**: [reddit.com/r/privacy](https://reddit.com/r/privacy) - Yleisiä vinkkejä yksityisyyden suojaan
 
 
 

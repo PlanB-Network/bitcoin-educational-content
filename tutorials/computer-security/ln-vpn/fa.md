@@ -1,7 +1,7 @@
 ---
 name: LN VPN
 
-description: VPN خود را تنظیم کنید
+description: پیکربندی LN VPN با Lightning برای یک VPN ناشناس و سفارشی
 ---
 
 ![image](assets/cover.webp)

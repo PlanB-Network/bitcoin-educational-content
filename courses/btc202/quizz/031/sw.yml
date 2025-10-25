@@ -1,0 +1,9 @@
+question: Ni usambazaji gani unaofaa zaidi kwa Raspberry Pi, kwani ni nyepesi sana?
+answer: RaspiBlitz
+wrong_answers:
+  - Mwavuli
+  - MyNode
+  - Anza9
+explanation: |
+  RaspiBlitz imeboreshwa kwa ajili ya Raspberry Pi na inasalia kuwa nyepesi, tofauti na Umbrel, ambayo imekuwa nzito sana kwa mashine hizi.
+reviewed: true

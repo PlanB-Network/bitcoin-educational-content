@@ -1,5 +1,5 @@
 ---
-name: Hifadhi ya Protoni
+name: Proton Drive
 description: Utekelezaji wa Hifadhi Nakala
 ---
 ![cover](assets/cover.webp)
@@ -11,7 +11,7 @@ Siku hizi, ni muhimu kuanzisha mkakati wa kuhakikisha ufikivu, usalama, na chele
 Ili kuzuia maswala haya, ninashauri kudumisha nakala nyingi za faili zako kwenye media tofauti. Mbinu inayotumika sana katika kompyuta ni mkakati wa chelezo wa "3-2-1", ambao huhakikisha ulinzi wa faili zako:
 
 
-- 3** nakala za faili zako;
+- 3 **nakala za faili zako**;
 - Imehifadhiwa kwenye angalau **2** aina tofauti za midia;
 - Na angalau nakala **1** iliyohifadhiwa nje ya tovuti.
 

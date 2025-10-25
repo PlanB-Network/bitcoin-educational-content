@@ -1,5 +1,5 @@
 ---
-name: टॉक्स
+name: Tox
 description: विकेन्द्रीकृत टॉक्स प्रोटोकॉल पर बिचौलियों के बिना बातचीत शुरू करें
 ---
 ![cover](assets/cover.webp)

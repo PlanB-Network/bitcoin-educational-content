@@ -279,7 +279,7 @@ Safe 5 utworzy frazę Mnemonic przy użyciu generatora liczb losowych. Upewnij s
 
 
 
-***Oczywiście nigdy nie wolno udostępniać tych słów w Internecie, tak jak robię to w tym samouczku. Ten przykład Wallet będzie używany tylko na Testnet i zostanie usunięty po zakończeniu samouczka
+**Oczywiście nigdy nie wolno udostępniać tych słów w Internecie, tak jak robię to w tym samouczku. Ten przykład Wallet będzie używany tylko na Testnet i zostanie usunięty po zakończeniu samouczka**
 
 
 

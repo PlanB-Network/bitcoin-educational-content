@@ -1,5 +1,5 @@
 ---
-name: Sentinel Watch-Only
+name: Sentinel
 description: Mis on Watch-Only rahakott ja kuidas seda kasutada?
 ---
 ![kaas](assets/cover.webp)

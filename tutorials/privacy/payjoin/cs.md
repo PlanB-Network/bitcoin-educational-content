@@ -4,13 +4,9 @@ description: Co je Payjoin na Bitcoinu?
 ---
 ![Náhled Payjoin - steganografie](assets/cover.webp)
 
-***POZOR:** V důsledku zatčení zakladatelů Samourai Wallet a zabavení jejich serverů dne 24. dubna, Payjoins Stowaway na Samourai Wallet nyní fungují pouze při ruční výměně PSBT mezi zúčastněnými stranami, za předpokladu, že oba uživatelé jsou připojeni k vlastnímu Dojo. Co se týče Sparrow, Payjoins přes BIP78 stále fungují. Je však možné, že tyto nástroje budou v nadcházejících týdnech znovu spuštěny. Mezitím si můžete přečíst tento článek, abyste pochopili teoretické fungování payjoins.*
 
-_Sledujeme vývoj této kauzy stejně jako vývoj s tím spojených nástrojů. Ujistěte se, že tento tutoriál aktualizujeme, jakmile budou k dispozici nové informace._
 
-_Tento tutoriál je poskytován pouze pro vzdělávací a informační účely. Nepodporujeme ani nevyzýváme k používání těchto nástrojů pro kriminální účely. Je zodpovědností každého uživatele dodržovat zákony ve své jurisdikci._
 
----
 ## Porozumění transakcím Payjoin na Bitcoinu
 
 Payjoin je specifická struktura Bitcoinové transakce, která zvyšuje soukromí uživatele během platby spoluprací s příjemcem platby.
@@ -41,10 +37,10 @@ Při pohledu na tuto transakci na blockchainu by vnější pozorovatel, který s
 ![Nesprávná interpretace transakce Payjoin zvenčí](assets/en/3.webp)
 Tato interpretace je samozřejmě nesprávná, protože, jak již víte, dva vstupní UTXO nepatří téže osobě. Navíc skutečná hodnota platby není `19,000 sats`, ale spíše `4,000 sats`. Analýza vnějšího pozorovatele je tedy směrována k nesprávnému závěru, čímž je zajištěno zachování důvěrnosti zúčastněných stran.![diagram transakce Payjoin](assets/en/1.webp)
 Pokud si přejete analyzovat skutečnou transakci Payjoin, zde je jedna, kterou jsem provedl na testnetu: [8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c](https://mempool.space/fr/testnet/tx/8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c)
-[**-> Objevte náš tutoriál, jak provést Payjoin s peněženkou Samourai**](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)  
-[**-> Objevte náš tutoriál, jak provést Payjoin s peněženkou Sparrow**](https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62)
 
-**Externí zdroje:**
-- https://docs.samourai.io/en/spend-tools#stowaway;
+
 - https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt;
 - https://github.com/bitcoin/bips/blob/master/bip-0078.mediawiki.
+- https://payjoin.org/
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+

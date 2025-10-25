@@ -118,7 +118,7 @@ Enne Qubes OS-i paigaldamist on oluline veenduda, et teie riistvara vastab miini
 
 - **Protsessor**: 64-bitine protsessor, mis ühildub riistvaralise virtualiseerimisega (Intel VT-x või AMD-V).
 - RAM: vajalik on vähemalt 8 GB, kuid soovitame mitme qubi samaaegseks kasutamiseks 16 GB või rohkem RAMi.
-- Salvestusruum**: vähemalt 36 GB, ideaalis 128 GB SSD-plaadil, et saavutada optimaalne jõudlus.
+- **Salvestusruum**: vähemalt 36 GB, ideaalis 128 GB SSD-plaadil, et saavutada optimaalne jõudlus.
 
 
 

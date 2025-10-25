@@ -2,7 +2,7 @@
 name: Blixt Wallet
 description: Miten aloittaa tehokkaan LN-solmun käyttö matkapuhelimessa?
 ---
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 
 Tämä opas on omistettu kaikille niille uusille käyttäjille, jotka haluavat aloittaa Bitcoin Lightning Network:n (LN) käytön ILMAISENA AVOIMENA LÄHDEOHJELMANA, TÄYDELLISESTI EI-PAKOLLISESTI.

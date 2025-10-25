@@ -64,10 +64,10 @@ Menüüribal leiate järgmised võrgud:
 
 
 
-- Mainnet** : Peamine Bitcoin võrk, kus toimuvad tegelikud Bitcoin tehingud.
-- Signet**: Testvõrk, mis kasutab plokkide valideerimiseks digitaalallkirju, ilma et see nõuaks põhivõrgu poolt nõutavaid ressursse.
-- Testnet 3**: Bitcoin protokolli riskivaba katse- ja arendusvõrk.
-- Testnet 4** : Testnet 3 uus versioon toob suurema stabiilsuse ja uued konsensusreeglid testkeskkonda.
+- **Mainnet**: Peamine Bitcoin võrk, kus toimuvad tegelikud Bitcoin tehingud.
+- **Signet**: Testvõrk, mis kasutab plokkide valideerimiseks digitaalallkirju, ilma et see nõuaks põhivõrgu poolt nõutavaid ressursse.
+- **Testnet 3**: Bitcoin protokolli riskivaba katse- ja arendusvõrk.
+- **Testnet 4**: Testnet 3 uus versioon toob suurema stabiilsuse ja uued konsensusreeglid testkeskkonda.
 
 
 
@@ -142,9 +142,9 @@ Tehingu üksikasjade lehel leiate üldist teavet oma tehingu kohta:
 
 
 
-- Staatus**: Kinnitatud, kui see on lisatud plokki, kinnitamata, kui see ootab Mempool-s.
-- Tehingutasud**.
-- Eeldatav saabumisaeg (ETA)** :  Ligikaudne aeg, mis kulub teie tehingu blokki lisamiseks. See arvutatakse vastavalt suhtarvule, mis moodustab selle tehinguga seotud tasud.
+- **Staatus**: Kinnitatud, kui see on lisatud plokki, kinnitamata, kui see ootab Mempool-s.
+- **Tehingutasud**.
+- **Eeldatav saabumisaeg (ETA)**: Ligikaudne aeg, mis kulub teie tehingu blokki lisamiseks. See arvutatakse vastavalt suhtarvule, mis moodustab selle tehinguga seotud tasud.
 
 
 
@@ -192,7 +192,7 @@ Bitcoin ökosüsteemis on kaevurite poolt tehingu valideerimise aspekt lahutamat
 
 
 
-- RBF** - asendamine tasu alusel: Meetod, mis võimaldab teil kulutada samu kirjeid, mis madala tasuga tehing, kuid seekord suurendades tehingutasu, et kiirendada valideerimist. Teie uus tehing valideeritakse kiiremini ja lisatakse blokki, tühistades madala tasuga tehingu.
+- **RBF** - asendamine tasu alusel: Meetod, mis võimaldab teil kulutada samu kirjeid, mis madala tasuga tehing, kuid seekord suurendades tehingutasu, et kiirendada valideerimist. Teie uus tehing valideeritakse kiiremini ja lisatakse blokki, tühistades madala tasuga tehingu.
 
 
 
@@ -204,7 +204,7 @@ https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-837
 
 
 
-- CPFP** - Child pay for parent: RBF-st inspireeritud lähenemine, kuid vastuvõtja poolel. Kui tehing, milles te olete vastuvõtja, blokeeritakse Mempool-s, on teil võimalus kulutada selle tehingu väljundid (UTXO), hoolimata sellest, et seda ei ole veel kinnitatud, eraldades sellele uuele tehingule rohkem tasusid, nii et keskmised tasud - tehingu, milles te olete vastuvõtja, ja algatatud tehingu - julgustavad kaevandajaid lisama mõlemad tehingud plokki.
+- **CPFP** - Child pay for parent: RBF-st inspireeritud lähenemine, kuid vastuvõtja poolel. Kui tehing, milles te olete vastuvõtja, blokeeritakse Mempool-s, on teil võimalus kulutada selle tehingu väljundid (UTXO), hoolimata sellest, et seda ei ole veel kinnitatud, eraldades sellele uuele tehingule rohkem tasusid, nii et keskmised tasud - tehingu, milles te olete vastuvõtja, ja algatatud tehingu - julgustavad kaevandajaid lisama mõlemad tehingud plokki.
 
 
 

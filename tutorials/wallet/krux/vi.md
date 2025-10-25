@@ -1,5 +1,5 @@
 ---
-name: Krux - Chữ ký đơn và đa
+name: Krux
 description: thiết lập thiết bị ký phần cứng Krux DIY Bitcoin, nạp chương trình cơ sở và sử dụng cho cả ví chữ ký đơn và ví Multisig.
 ---
 

@@ -1,0 +1,9 @@
+question: Ni toleo gani la Bitcoin core lilianzisha modeli ya Ultraprune?
+answer: 0.8.0
+wrong_answers:
+  - 0.3.0
+  - 0.6.0
+  - 0.10.0
+explanation: |
+  Tangu toleo la 0.8.0, Bitcoin core haitumii tena index ya kimataifa, lakini inadumisha moja kwa moja seti ya UTXO shukrani kwa Ultraprune.
+reviewed: true

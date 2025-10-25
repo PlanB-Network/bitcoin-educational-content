@@ -107,9 +107,9 @@ Je hebt verschillende opties:
 
 
 
-- Google Play Store**: Zoek naar "Ente Auth" voor klassieke installatie
-- F-Droid**: Beschikbaar uit de Android open-source applicatiecatalogus, met de garantie van geverifieerde constructie en zonder merkgebonden inhoud
-- Handmatige installatie** : APK-bestanden kunnen worden gedownload van de [GitHub-pagina van het project] (https://github.com/ente-io/auth/releases) met geïntegreerde melding van nieuwe versies
+- **Google Play Store**: Zoek naar "Ente Auth" voor klassieke installatie
+- **F-Droid**: Beschikbaar uit de Android open-source applicatiecatalogus, met de garantie van geverifieerde constructie en zonder merkgebonden inhoud
+- **Handmatige installatie**: APK-bestanden kunnen worden gedownload van de [GitHub-pagina van het project](https://github.com/ente-io/auth/releases) met geïntegreerde melding van nieuwe versies
 
 
 
@@ -129,9 +129,9 @@ Ente Auth biedt native desktop applicaties. Bezoek [ente.io/download](https://en
 
 
 
-- Windows**: Er wordt een EXE-installatieprogramma meegeleverd
-- macOS**: DMG-schijfimage slepen en neerzetten in Toepassingen
-- Linux** : Verschillende formaten beschikbaar (AppImage portable, .deb voor Debian/Ubuntu, .rpm voor Fedora/Red Hat)
+- **Windows**: Er wordt een EXE-installatieprogramma meegeleverd
+- **macOS**: DMG-schijfimage slepen en neerzetten in Toepassingen
+- **Linux**: Verschillende formaten beschikbaar (AppImage portable, .deb voor Debian/Ubuntu, .rpm voor Fedora/Red Hat)
 
 
 
@@ -196,9 +196,9 @@ Ik raad sterk aan om lokale beveiliging met een code of biometrie in te schakele
 
 
 
-- Biometrische ontgrendeling**: Face ID, vingerafdruk afhankelijk van de mogelijkheden van je apparaat
-- Toepassingsspecifieke pincode/wachtwoord**
-- Vertraging bij automatisch vergrendelen**: bijv. "Onmiddellijk" of na 30 seconden inactiviteit
+- **Biometrische ontgrendeling**: Face ID, vingerafdruk afhankelijk van de mogelijkheden van je apparaat
+- Toepassingsspecifieke pincode/wachtwoord
+- **Vertraging bij automatisch vergrendelen**: bijv. "Onmiddellijk" of na 30 seconden inactiviteit
 
 
 
@@ -294,7 +294,7 @@ Je kunt de naam van de service en je login aanpassen zodat het gemakkelijker te 
 
 
 
-**Back-up codes**: Bull Bitcoin voorziet u van herstelcodes. **Bewaar ze op een veilige plaats, los van uw authenticator.
+**Back-up codes**: Bull Bitcoin voorziet u van herstelcodes. **Bewaar ze op een veilige plaats, los van uw authenticator.**
 
 
 
@@ -431,10 +431,10 @@ Algemene instellingen zijn onder andere :
 
 
 
-- Taal**: Interface meertalig
-- Beeldscherm**: Grote pictogrammen, compacte modus
-- Privacy**: Verberg codes, snel zoeken
-- Telemetrie**: Foutrapportage (kan worden uitgeschakeld)
+- **Taal**: Interface meertalig
+- **Beeldscherm**: Grote pictogrammen, compacte modus
+- **Privacy**: Verberg codes, snel zoeken
+- **Telemetrie**: Foutrapportage (kan worden uitgeschakeld)
 
 
 
@@ -498,7 +498,7 @@ Ente Auth is gebaseerd op robuuste end-to-end versleuteling met een zero-knowled
 
 
 
-**Nul-kennis architectuur: Ente heeft geen fysieke toegang tot uw gegevens. Zelfs metagegevens (servicenamen, tags, notities) worden aan de clientzijde versleuteld voordat ze worden verzonden. Deze aanpak zorgt ervoor dat, in het geval van een aanval op uw servers of een verzoek van de overheid, Ente alleen gecodeerde gegevens kan vrijgeven die niet kunnen worden gelezen zonder uw wachtwoord.
+**Nul-kennis architectuur:** Ente heeft geen fysieke toegang tot uw gegevens. Zelfs metagegevens (servicenamen, tags, notities) worden aan de clientzijde versleuteld voordat ze worden verzonden. Deze aanpak zorgt ervoor dat, in het geval van een aanval op uw servers of een verzoek van de overheid, Ente alleen gecodeerde gegevens kan vrijgeven die niet kunnen worden gelezen zonder uw wachtwoord.
 
 
 
@@ -516,9 +516,9 @@ Aangezien de code [open source](https://github.com/ente-io/auth) is, kan de geme
 
 
 
-- Cure53** (Duitsland): Controle van applicatie- en cryptografische beveiliging
-- Symbolic Software** (Frankrijk): Gespecialiseerde cryptografische expertise
-- Fallible** (India): Penetratietests en kwetsbaarheidsanalyse
+- **Cure53** (Duitsland): Controle van applicatie- en cryptografische beveiliging
+- **Symbolic Software** (Frankrijk): Gespecialiseerde cryptografische expertise
+- **Fallible** (India): Penetratietests en kwetsbaarheidsanalyse
 
 
 
@@ -600,37 +600,37 @@ Voor teams die gevoelige accounts beheren, vergemakkelijkt Ente Auth de samenwer
 
 
 
-- Bewaar je noodcodes**: Bewaar de herstelcodes die door elke service worden geleverd uit de buurt van je telefoon.
+- **Bewaar je noodcodes**: Bewaar de herstelcodes die door elke service worden geleverd uit de buurt van je telefoon.
 
 
 
 
 
-- Gebruik een sterk hoofdwachtwoord**: Je Ente Auth masterwachtwoord moet uniek en robuust zijn, omdat het al je codes beschermt.
+- **Gebruik een sterk hoofdwachtwoord**: Je Ente Auth masterwachtwoord moet uniek en robuust zijn, omdat het al je codes beschermt.
 
 
 
 
 
-- Activeer lokale beveiliging**: PIN of biometrie configureren om ongeoorloofde fysieke toegang te voorkomen.
+- **Activeer lokale beveiliging**: PIN of biometrie configureren om ongeoorloofde fysieke toegang te voorkomen.
 
 
 
 
 
-- Niet te veel aanpassen**: Vermijd geavanceerde aanpassingen die de synchronisatie in gevaar kunnen brengen.
+- **Niet te veel aanpassen**: Vermijd geavanceerde aanpassingen die de synchronisatie in gevaar kunnen brengen.
 
 
 
 
 
-- Houd de applicatie up-to-date**: Updates corrigeren beveiligingslekken en verbeteren de functionaliteit.
+- **Houd de applicatie up-to-date**: Updates corrigeren beveiligingslekken en verbeteren de functionaliteit.
 
 
 
 
 
-- Test herstel**: Controleer af en toe of je je codes kunt herstellen op een ander apparaat.
+- **Test herstel**: Controleer af en toe of je je codes kunt herstellen op een ander apparaat.
 
 
 
@@ -659,9 +659,9 @@ Of je nu een individu bent die zijn persoonlijke accounts wil beveiligen, of een
 
 
 
-- Officiële website**: [ente.io/auth](https://ente.io/auth)
-- Helpcentrum**: [help.ente.io/auth] (https://help.ente.io/auth)
-- Technische blog**: [ente.io/blog](https://ente.io/blog)
+- **Officiële website**: [ente.io/auth](https://ente.io/auth)
+- **Helpcentrum**: [help.ente.io/auth](https://help.ente.io/auth)
+- **Technische blog**: [ente.io/blog](https://ente.io/blog)
 
 
 
@@ -670,8 +670,8 @@ Of je nu een individu bent die zijn persoonlijke accounts wil beveiligen, of een
 
 
 
-- GitHub**: [github.com/ente-io/auth] (https://github.com/ente-io/auth)
-- Cryptografie-audit**: [ente.io/blog/cryptografie-audit](https://ente.io/blog/cryptography-audit)
+- **GitHub**: [github.com/ente-io/auth](https://github.com/ente-io/auth)
+- **Cryptografie-audit**: [ente.io/blog/cryptografie-audit](https://ente.io/blog/cryptography-audit)
 
 
 
@@ -680,5 +680,5 @@ Of je nu een individu bent die zijn persoonlijke accounts wil beveiligen, of een
 
 
 
-- Discord**: [discord.gg/z2YVKkycX3](https://discord.gg/z2YVKkycX3)
-- Reddit**: [r/enteio](https://reddit.com/r/enteio)
+- **Discord**: [discord.gg/z2YVKkycX3](https://discord.gg/z2YVKkycX3)
+- **Reddit**: [r/enteio](https://reddit.com/r/enteio)

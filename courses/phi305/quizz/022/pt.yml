@@ -1,0 +1,9 @@
+question: O conceito de "animais-máquina" é atribuído a?
+answer: Descartes.
+wrong_answers:
+  - Spinoza.
+  - Galileu.
+  - Einstein.
+explanation: |
+  O conceito de animais-máquina é atribuído a Descartes. De acordo com esta teoria, os animais são autómatos complexos sem alma nem consciência, funcionando apenas segundo princípios mecânicos.
+reviewed: false

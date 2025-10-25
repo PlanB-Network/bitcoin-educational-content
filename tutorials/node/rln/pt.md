@@ -1,5 +1,5 @@
 ---
-name: Nó de relâmpago RGB
+name: RGB Lightning Node
 description: Como é que lanço um nó Lightning compatível com RGB com RLN?
 ---
 ![cover](assets/cover.webp)
@@ -67,17 +67,17 @@ No final deste comando, um executável `rgb-lightning-node` estará disponível 
 Para funcionar, o daemon `rgb-lightning-node` precisa da presença e configuração do :
 
 
-- Um nó `bitcoind`**
+- Um nó `bitcoind`
 
 Cada instância RLN precisará se comunicar com `bitcoind` para transmitir e monitorar suas transações on-chain. Autenticação (login/password) e URL (host/porta) terão de ser fornecidos ao daemon.
 
 
-- Um indexador** (Electrum ou Esplora)
+- Um **indexador** (Electrum ou Esplora)
 
 O daemon deve ser capaz de listar e explorar transacções na cadeia, em particular para encontrar o UTXO no qual um ativo foi ancorado. Terá de especificar o URL do seu servidor Electrum ou Esplora.
 
 
-- Um proxy RGB**
+- Um proxy **RGB**
 
 O servidor proxy é um componente (opcional, mas altamente recomendado) para simplificar a troca de *consignações* RGB entre pares Lightning. Mais uma vez, um URL deve ser especificado.
 

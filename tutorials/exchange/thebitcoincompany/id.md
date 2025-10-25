@@ -1,5 +1,5 @@
 ---
-name: Perusahaan Bitcoin
+name: The Bitcoin Company
 description: Bagaimana cara membeli barang dan jasa dalam BTC dengan The Bitcoin Company?
 ---
 ![cover](assets/cover.webp)

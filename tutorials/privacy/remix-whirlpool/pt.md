@@ -51,10 +51,11 @@ Ele exibe uma pontuação retrospectiva de `34.593` e uma pontuação prospectiv
 
 Espero que esta resposta tenha esclarecido um pouco o modelo Whirlpool. Se você quiser saber mais sobre como os coinjoins funcionam no Bitcoin, recomendo a leitura do meu artigo abrangente sobre esse tópico: 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 
 **Recursos externos:**
 - Samourai Wallet Whirlpool
 - https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923
 - https://estudiobitcoin.com/como-instalar-y-utilizar-whirlpool-stats-tools-wst-para-los-calculos-de-los-sets-de-anonimato-de-las-transacciones-coinjoins/
 - https://medium.com/samourai-wallet/diving-head-first-into-whirlpool-anonymity-sets-4156a54b0bc7.
+

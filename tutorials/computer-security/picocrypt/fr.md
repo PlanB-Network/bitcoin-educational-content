@@ -52,8 +52,8 @@ Source : [Github.com](https://github.com/Picocrypt/Picocrypt)
 
 Picocrypt est **très léger** puisqu'il pèse seulement **3 Mo** et il n'a pas besoin d'être installé : c'est une **application portable** qui présente l'avantage de ne pas demander les droits administrateur ! Pour autant, il ne néglige pas la sécurité puisqu'il s'appuie sur des **algorithmes robustes et fiables** :
 
-* Algorithme de chiffrement **XChaCha20**
-* Fonction de dérivation de clé **Argon2**
+**Algorithme de chiffrement XChaCha20**
+**Fonction de dérivation de clé** Argon2
 
 Au-delà des avantages qui viennent d'être cités, ce qui plait énormément, c'est **sa facilité d'utilisation** !
 
@@ -89,9 +89,9 @@ Pour accéder à nos données, nous devons les déchiffrer à l'aide de Picocryp
 
 Avant de parler du déchiffrement des données, voici des informations sur quelques-unes des options disponibles :
 
-* **Paranoid mode** ou **Mode paranoïaque** : utiliser le niveau de sécurité le plus élevé proposé par Picocrypt. L'outil va utiliser plusieurs algorithmes de chiffrement en cascade (XChaCha20 et Serpent) et HMAC-SHA3 à la place de BLAKE2b pour l'authentification des données.
+**Paranoid mode** ou **Mode paranoïaque** : utiliser le niveau de sécurité le plus élevé proposé par Picocrypt. L'outil va utiliser plusieurs algorithmes de chiffrement en cascade (XChaCha20 et Serpent) et HMAC-SHA3 à la place de BLAKE2b pour l'authentification des données.
 * **Reed-Solomon** : implémenter des codes de correction d'erreur *Reed-Solomon* pour faciliter la correction d'erreurs sur des données corrompues. Ceci permet de supporter un niveau de corruption d'environ 3% de votre fichier.
-* **Split into chunks** ou **diviser en plusieurs parties** : si vous chiffrez un fichier volumineux, vous pouvez demander à Picocrypt de le découper en plusieurs parties. Ceci pourra faciliter le transfert du fichier.
+**Split into chunks** ou **diviser en plusieurs parties** : si vous chiffrez un fichier volumineux, vous pouvez demander à Picocrypt de le découper en plusieurs parties. Ceci pourra faciliter le transfert du fichier.
 * **Compress Files** ou **Compresser les fichiers** : compresser les fichiers pour réduire la taille des fichiers chiffrés.
 * **Deleted files** ou **Fichiers supprimés** : supprimer les fichiers sources afin de garder uniquement la version chiffrée
 

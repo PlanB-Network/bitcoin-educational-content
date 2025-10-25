@@ -1,5 +1,5 @@
 ---
-name: Krux - Single og Multi Sig
+name: Krux
 description: konfigurere Krux DIY Bitcoin-maskinvaresigneringsenheten, flashe fastvaren og bruke den til både enkeltsignering og Multisig-lommebøker.
 ---
 

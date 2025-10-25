@@ -107,9 +107,9 @@ Du har flera alternativ:
 
 
 
-- Google Play Store**: Sök efter "Ente Auth" för klassisk installation
-- F-Droid**: Tillgänglig från Androids applikationskatalog med öppen källkod, med en garanti för verifierad konstruktion och inget proprietärt innehåll
-- Manuell installation** : APK-filer kan laddas ner från [projektets GitHub-sida] (https://github.com/ente-io/auth/releases) med integrerad avisering av nya versioner
+- **Google Play Store**: Sök efter "Ente Auth" för klassisk installation
+- **F-Droid**: Tillgänglig från Androids applikationskatalog med öppen källkod, med en garanti för verifierad konstruktion och inget proprietärt innehåll
+- **Manuell installation**: APK-filer kan laddas ner från [projektets GitHub-sida](https://github.com/ente-io/auth/releases) med integrerad avisering av nya versioner
 
 
 
@@ -129,13 +129,13 @@ Ente Auth erbjuder inbyggda skrivbordsapplikationer. Besök [ente.io/download](h
 
 
 
-- Windows**: Ett EXE-installationsprogram medföljer
-- macOS**: Dra och släpp DMG-diskavbildningar i program
-- Linux** : Flera format tillgängliga (AppImage portabel, .deb för Debian/Ubuntu, .rpm för Fedora/Red Hat)
+- **Windows**: Ett EXE-installationsprogram medföljer
+- **macOS**: Dra och släpp DMG-diskavbildningar i program
+- **Linux**: Flera format tillgängliga (AppImage portabel, .deb för Debian/Ubuntu, .rpm för Fedora/Red Hat)
 
 
 
-**Denna handledning är baserad på Ente Auth v4.4.4 och senare. Tidigare versioner kan ha mindre Interface-skillnader.
+**Denna handledning är baserad på Ente Auth v4.4.4 och senare. Tidigare versioner kan ha mindre Interface-skillnader.**
 
 
 
@@ -196,9 +196,9 @@ Jag rekommenderar starkt att du aktiverar lokalt skydd med kod eller biometri. G
 
 
 
-- Biometrisk upplåsning**: Face ID, fingeravtryck beroende på din enhets funktioner
-- Applikationsspecifik PIN/lösenord**
-- Fördröjning av autolåsning**: t.ex. "Omedelbart" eller efter 30 sekunders inaktivitet
+- **Biometrisk upplåsning**: Face ID, fingeravtryck beroende på din enhets funktioner
+- **Applikationsspecifik PIN/lösenord**
+- **Fördröjning av autolåsning**: t.ex. "Omedelbart" eller efter 30 sekunders inaktivitet
 
 
 
@@ -294,7 +294,7 @@ Du kan anpassa namnet på tjänsten och din inloggning för att göra det lätta
 
 
 
-**Backup-koder**: Bull Bitcoin kommer att förse dig med återställningskoder. **Spara dem på en säker plats, separat från din autentiserare.
+**Backup-koder**: Bull Bitcoin kommer att förse dig med återställningskoder. **Spara dem på en säker plats, separat från din autentiserare.**
 
 
 
@@ -431,10 +431,10 @@ Allmänna inställningar inkluderar :
 
 
 
-- Språk**: Interface flerspråkig
-- Display**: Stora ikoner, kompakt läge
-- Sekretess**: Dölj koder, snabb sökning
-- Telemetri**: Felrapportering (kan avaktiveras)
+- **Språk**: Interface flerspråkig
+- **Display**: Stora ikoner, kompakt läge
+- **Sekretess**: Dölj koder, snabb sökning
+- **Telemetri**: Felrapportering (kan avaktiveras)
 
 
 
@@ -498,7 +498,7 @@ Ente Auth bygger på robust end-to-end-kryptering med zero-knowledge-arkitektur.
 
 
 
-**Zero-knowledge-arkitektur: Ente kan inte fysiskt komma åt dina data. Även metadata (tjänstenamn, taggar, anteckningar) krypteras på klientsidan före överföring. Detta tillvägagångssätt säkerställer att Ente, i händelse av en attack mot dina servrar eller en myndighetsförfrågan, endast kan avslöja krypterade data som inte kan läsas utan ditt lösenord.
+**Zero-knowledge-arkitektur:** Ente kan inte fysiskt komma åt dina data. Även metadata (tjänstenamn, taggar, anteckningar) krypteras på klientsidan före överföring. Detta tillvägagångssätt säkerställer att Ente, i händelse av en attack mot dina servrar eller en myndighetsförfrågan, endast kan avslöja krypterade data som inte kan läsas utan ditt lösenord.
 
 
 
@@ -516,9 +516,9 @@ Eftersom koden är [öppen källkod] (https://github.com/ente-io/auth) kan samh�
 
 
 
-- Cure53** (Tyskland): Granskning av applikations- och kryptografisäkerhet
-- Symbolic Software** (Frankrike): Specialiserad kryptografisk expertis
-- Fallible** (Indien): Penetrationstestning och sårbarhetsanalys
+- **Cure53** (Tyskland): Granskning av applikations- och kryptografisäkerhet
+- **Symbolic Software** (Frankrike): Specialiserad kryptografisk expertis
+- **Fallible** (Indien): Penetrationstestning och sårbarhetsanalys
 
 
 
@@ -600,37 +600,37 @@ För team som hanterar känsliga konton underlättar Ente Auth samarbetet samtid
 
 
 
-- Spara dina nödkoder**: Förvara de återställningskoder som tillhandahålls av varje tjänst borta från din telefon.
+- **Spara dina nödkoder**: Förvara de återställningskoder som tillhandahålls av varje tjänst borta från din telefon.
 
 
 
 
 
-- Använd ett starkt huvudlösenord**: Ditt huvudlösenord för Ente Auth måste vara unikt och robust, eftersom det skyddar alla dina koder.
+- **Använd ett starkt huvudlösenord**: Ditt huvudlösenord för Ente Auth måste vara unikt och robust, eftersom det skyddar alla dina koder.
 
 
 
 
 
-- Aktivera lokalt skydd**: Konfigurera PIN-kod eller biometri för att förhindra obehörig fysisk åtkomst.
+- **Aktivera lokalt skydd**: Konfigurera PIN-kod eller biometri för att förhindra obehörig fysisk åtkomst.
 
 
 
 
 
-- Anpassa inte för mycket**: Undvik avancerade modifieringar som kan äventyra synkroniseringen.
+- **Anpassa inte för mycket**: Undvik avancerade modifieringar som kan äventyra synkroniseringen.
 
 
 
 
 
-- Håll programmet uppdaterat**: Uppdateringar korrigerar säkerhetsbrister och förbättrar funktionaliteten.
+- **Håll programmet uppdaterat**: Uppdateringar korrigerar säkerhetsbrister och förbättrar funktionaliteten.
 
 
 
 
 
-- Testa återställning**: Kontrollera ibland att du kan återställa dina koder på en annan enhet.
+- **Testa återställning**: Kontrollera ibland att du kan återställa dina koder på en annan enhet.
 
 
 
@@ -659,9 +659,9 @@ Oavsett om du är en privatperson som vill säkra dina personliga konton eller e
 
 
 
-- Officiell webbplats**: [ente.io/auth](https://ente.io/auth)
-- Hjälpcenter**: [help.ente.io/auth] (https://help.ente.io/auth)
-- Teknisk blogg**: [ente.io/blog](https://ente.io/blog)
+- **Officiell webbplats**: [ente.io/auth](https://ente.io/auth)
+- **Hjälpcenter**: [help.ente.io/auth](https://help.ente.io/auth)
+- **Teknisk blogg**: [ente.io/blog](https://ente.io/blog)
 
 
 
@@ -670,8 +670,8 @@ Oavsett om du är en privatperson som vill säkra dina personliga konton eller e
 
 
 
-- GitHub**: [github.com/ente-io/auth](https://github.com/ente-io/auth)
-- Kryptografi-revision**: [ente.io/blog/cryptography-audit](https://ente.io/blog/cryptography-audit)
+- **GitHub**: [github.com/ente-io/auth](https://github.com/ente-io/auth)
+- **Kryptografi-revision**: [ente.io/blog/cryptography-audit](https://ente.io/blog/cryptography-audit)
 
 
 
@@ -680,5 +680,5 @@ Oavsett om du är en privatperson som vill säkra dina personliga konton eller e
 
 
 
-- Discord**: [discord.gg/z2YVKkycX3] (https://discord.gg/z2YVKkycX3)
-- Reddit**: [r/enteio](https://reddit.com/r/enteio)
+- **Discord**: [discord.gg/z2YVKkycX3](https://discord.gg/z2YVKkycX3)
+- **Reddit**: [r/enteio](https://reddit.com/r/enteio)

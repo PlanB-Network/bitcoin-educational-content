@@ -1,5 +1,5 @@
 ---
-name: BIP39 Passphrase Ledger
+name: BIP-39 Passphrase Ledger
 description: Cách thêm mật khẩu vào ví Ledger của bạn?
 ---
 ![cover](assets/cover.webp)

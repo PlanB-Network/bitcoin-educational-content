@@ -1,0 +1,9 @@
+question: Apa alternatif utama implementasi Bitcoin core?
+answer: Bitcoin Knots
+wrong_answers:
+  - Bitcoin Uang Tunai
+  - BTCD
+  - Bcoin
+explanation: |
+  Bitcoin Knots, yang dikembangkan oleh Luke Dashjr, adalah Fork dari Core, menawarkan opsi tambahan dan visi yang lebih konservatif.
+reviewed: true

@@ -1,7 +1,9 @@
 ---
 name: Nakamochi
-description: Node Running Made Easy - Como configurar e usar o Nakamochi Bitcoin e o Lightning node.
+description: Execução de nó facilitada - Como configurar e usar o nó Nakamochi Bitcoin e Lightning.
 ---
+![image](assets/cover.webp)
+
 Executar o seu próprio nó completo Bitcoin e Lightning já não precisa de ser uma tarefa complexa limitada a especialistas técnicos. Tradicionalmente, a criação e gestão de nós exigia um conhecimento profundo de criptografia, redes e desenvolvimento de software. A Nakamochi muda isso ao tornar os nós acessíveis a todos, independentemente da formação técnica.
 
 Com a Nakamochi, qualquer pessoa pode configurar e operar um nó a partir de casa, permitindo total privacidade e independência financeira. Operar um nó completo não só protege suas próprias transações, mas também contribui para a força da rede Bitcoin. Uma rede Bitcoin descentralizada e resiliente depende de uma ampla distribuição de nós para garantir sua segurança e independência.
@@ -36,27 +38,29 @@ O seu nó Nakamochi é gerido através de uma aplicação móvel, [BitBanana (An
 
 ![image](assets/en/01.webp)
 
-_Ligue-se à corrente e escreva a sua frase-semente de 24 palavras_
+_Conecte à energia e anote sua frase-semente de 24 palavras_
 
 ![image](assets/en/02.webp)
 
-_Espere até que a cadeia de blocos esteja a par_
+_Aguarde até que o blockchain tenha se atualizado_
 
 ![image](assets/en/03.webp)
 
-_Configurar nova carteira no separador Relâmpago_
+_Configure uma nova carteira na guia Lightning_
 
 ![image](assets/en/04.webp)
 
-_Scan QR Code with Node Management App_
+_Escaneie o código QR com o aplicativo de gerenciamento de nós_
 
 ![image](assets/en/05.webp)
 
-_Para maior segurança, definir um código PIN_
+_Para maior segurança, defina um código PIN_
 
-**Nota:** _Permite que o teu nó Nakamochi sincronize com a blockchain. Este processo pode demorar algum tempo, dependendo da tua ligação à Internet
+**Nota:** _Permita que o seu nó Nakamochi sincronize com a blockchain. Este processo pode levar algum tempo, dependendo da sua conexão com a internet._
 
 ## Sobre a Lightning Network
+
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 A Bitcoin Lightning Network revoluciona as transacções de Bitcoin, tornando-as mais rápidas, mais baratas e mais eficientes. É perfeita para o uso diário, permitindo pagamentos quase instantâneos com taxas mínimas, ideal para microtransações como comprar um café ou lidar com pequenas compras frequentes.
 
@@ -120,4 +124,4 @@ Geralmente, recomendamos que deixe os canais abertos para reduzir os custos e au
 
 
 - [Sobre Nakamochi](https://nakamochi.io/)
-- [Subscrever a newsletter da Nakamochi] (https://90c7addc.sibforms.com/serve/MUIFAHG7H5YBPpm-kZ8G6TuS-nmL4uaq85rlpBfI__S79tZ5jheIJfF3kJYudycgs_6_RUdDBkt8Sd7OyNL_JDTTJvOb36ifF6vcQoabBXKp4cbefzh1DYqnok_jItexICcQL13ucd2aS581ngqy7jr0Q1H3HhxV3z2eWKE5-Z-YMasj-MMotQeDvdorMCSi0XgCWDqs8rEMQC7E)
+- [Assine a newsletter da Nakamochi](https://90c7addc.sibforms.com/serve/MUIFAHG7H5YBPpm-kZ8G6TuS-nmL4uaq85rlpBfI__S79tZ5jheIJfF3kJYudycgs_6_RUdDBkt8Sd7OyNL_JDTTJvOb36ifF6vcQoabBXKp4cbefzh1DYqnok_jItexICcQL13ucd2aS581ngqy7jr0Q1H3HhxV3z2eWKE5-Z-YMasj-MMotQeDvdorMCSi0XgCWDqs8rEMQC7E)

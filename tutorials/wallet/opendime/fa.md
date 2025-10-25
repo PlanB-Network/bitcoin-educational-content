@@ -1,5 +1,5 @@
 ---
-name: اوپندایم
+name: OPENDIME
 description: تنظیم OEPNDIME خود را انجام دهید
 ---
 

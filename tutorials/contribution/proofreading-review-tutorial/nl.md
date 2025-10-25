@@ -11,7 +11,7 @@ description: Hoe kun je meewerken aan het proeflezen/beoordelen van educatieve i
 Als je inhoud voor Plan ₿ Network wilt proeflezen of beoordelen, word dan lid van [onze Telegram-groep] (https://t.me/PlanBNetwork_ContentBuilder) die speciaal bedoeld is voor bijdragen. Introduceer jezelf kort, specificeer dan de inhoud die je wilt nakijken en de taal. Maak je correcties op een werkende branch en dien een PR in zodra je review klaar is.
 
 
-Als je het gedeelte hierboven niet begreep, maak je dan geen zorgen - deze tutorial is voor jou!
+Als je het gedeelte hierboven niet begreep, maak je dan geen zorgen - deze handleiding is voor jou!
 
 
 ---
@@ -19,7 +19,7 @@ Als je het gedeelte hierboven niet begreep, maak je dan geen zorgen - deze tutor
 ## Wat is Plan ₿ Network?
 
 
-Plan ₿ Network is een platform om te leren over Bitcoin door middel van talrijke cursussen en tutorials voor iedereen. Momenteel is al onze inhoud open-source, gehost op een GitHub repository en open voor bijdragen voor herziening en het maken van inhoud.
+Plan ₿ Network is een platform om te leren over Bitcoin door middel van talrijke cursussen en handleidingen voor iedereen. Momenteel is al onze inhoud open-source, gehost op een GitHub repository en open voor bijdragen voor herziening en het maken van inhoud.
 
 
 Plan ₿ Network wil het openbare plein van de Bitcoin cyberspace worden, en Bitcoin gemeenschappen wereldwijd verbinden en aanmoedigen.
@@ -28,13 +28,13 @@ Plan ₿ Network wil het openbare plein van de Bitcoin cyberspace worden, en Bit
 ## Waarom bijdragen?
 
 
-Plan ₿ Network is fundamenteel meertalig, omdat het ons doel is om Bitcoin bronnen toegankelijk te maken voor iedereen wereldwijd. Wij geloven dat taal geen barrière mag zijn voor soeverein geld.
+Plan ₿ Network is fundamenteel meertalig, omdat het ons doel is om Bitcoin bronnen wereldwijd toegankelijk te maken voor iedereen. Wij geloven dat taal geen barrière mag zijn voor soeverein geld.
 
 
-Om dit te bereiken, gebruiken we een Mens x AI-benadering. Via ons [programma] (https://github.com/Asi0Flammeus/LLM-Translator) kunnen we onze inhoud automatisch in veel talen vertalen. We hebben echter een vloeiende spreker nodig om de inhoud te beoordelen om er zeker van te zijn dat deze begrijpelijk is en geen ongepaste termen bevat.
+Om dit te bereiken, gebruiken we een mens & AI-benadering. Via ons [programma] (https://github.com/Asi0Flammeus/LLM-Translator) kunnen we onze inhoud automatisch vertalen in veel talen. We hebben echter een vloeiende spreker nodig om de inhoud te beoordelen om er zeker van te zijn dat deze begrijpelijk is en geen ongepaste termen bevat.
 
 
-Als je mee wilt bouwen aan dit educatieve project om Bitcoin onderwijs in jouw gemeenschap te promoten, kun je beginnen met het beoordelen van een cursus of tutorial.
+Als je mee wilt bouwen aan dit educatieve project om Bitcoin onderwijs in jouw gemeenschap te promoten, kun je beginnen met het beoordelen van een cursus of handleiding.
 
 
 Omdat we het *Value4Value* model koesteren, zullen we bovendien bijdragen aan beoordelingen belonen. De beloning is gebaseerd op de lengte van de inhoud, de taalkundige nauwkeurigheid van onze automatische vertaling en de moeilijkheidsgraad van de inhoud.
@@ -46,7 +46,7 @@ Omdat we het *Value4Value* model koesteren, zullen we bovendien bijdragen aan be
 Je hoeft geen GitHub expert te zijn om inhoud te reviewen. Hoewel het altijd beter is om te begrijpen wat je doet (en waarom), kun je gewoon de onderstaande instructies volgen om bij te dragen.
 
 
-Maar als je niet bekend bent met Git en GitHub en meer wilt leren, kun je ons inleidende artikel over deze tools bekijken:
+Als je echter niet bekend bent met Git en GitHub en meer wilt leren, kun je ons inleidende artikel over deze tools bekijken:
 
 
 https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
@@ -55,7 +55,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 
 
-- Maak een account aan op [GitHub](https://github.com/) om te beginnen met bijdragen. Als je begeleiding wilt bij het maken van je GitHub account, ga dan naar de tutorial die hierboven genoemd wordt.
+- Maak een account aan op [GitHub](https://github.com/) om te beginnen met bijdragen. Als je begeleiding wilt bij het maken van je GitHub account, ga dan naar de handleiding die hierboven vermeld werd.
 
 
 
@@ -73,43 +73,43 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 
 
-- Stel jezelf kort voor en specificeer de inhoud waaraan je wilt bijdragen en de taal in een bericht aan het kanaal "Algemeen".
+- Stel jezelf kort voor en specificeer de inhoud waaraan je wilt bijdragen en de taal in een bericht in het "General" kanaal.
 - Een teamlid zal dan een issue aanmaken op GitHub voor jouw toekomstige bijdrage. Daar vind je alle informatie die je nodig hebt om je review te starten.
 
 
 ![REVIEW](assets/fr/02.webp)
 
 
-## 3. De inhoud bekijken en bewerken via GitHub's Interface
+## 3. De inhoud bekijken en bewerken via de GitHub interface
 
 
 
-- De uitgave bevat een beschrijving (cf. \) met links naar de originele inhoud en het bestand om te bekijken.
-- Als je de herziening op je wilt nemen, laat dan een opmerking achter bij het probleem (vgl. ***) om aan te geven dat je eraan werkt. Dit voorkomt dubbel werk.
-- Klik op de link naast het te bekijken bestand (vgl. ***) om de inhoud te openen.
+- De issue bevat een beschrijving (zie \*A*\) met links naar de originele inhoud en het bestand om te beoordelen.
+- Als je de herziening op je wilt nemen, laat dan een opmerking achter bij het issue (zie \*B*\) om aan te geven dat je eraan werkt (working on it). Dit voorkomt dubbel werk.
+- Klik op de link naast het te beoordelen bestand (zie \*C*\) om de inhoud te openen.
 
 
 ![REVIEW](assets/fr/03.webp)
 
 
 
-- Je kunt nu de GitHub Interface van het bestand bekijken.
-- In het linkerpaneel kun je navigeren door je filiaal (cf. \A) en bestanden (cf. \B).
-- Klik op het potloodpictogram om te beginnen met nakijken (vgl. *).
+- Je kunt nu de GitHub interface van het te beoordelen bekijken.
+- In het linkerpaneel kun je navigeren door je branch (zie \*A*\) en bestanden (zie \*B*\).
+- Klik op het potloodpictogram om te beginnen met beoordelen (zie \*C*\).
 
 
 ![REVIEW](assets/fr/04.webp)
 
 
 
-- Als dit je eerste bijdrage is, zal GitHub je vragen om Fork van de broncode repository. Klik gewoon op de knop.
+- Als dit je eerste bijdrage is, zal GitHub je vragen om de broncode repository af te splitsen. Klik gewoon op de knop "Fork this repository".
 
 
 ![REVIEW](assets/fr/05.webp)
 
 
 
-- Je komt dan in de Bewerker Interface (zie \A), waar je het bestandspad en de bijbehorende tak kunt zien (zie \B) en kunt wisselen tussen bewerkings- en voorbeeldmodi (zie \C).
+- Je komt dan in de Bewerker Interface (zie \*A*\), waar je het bestandspad en de bijbehorende branch kunt zien (zie \*B*\) en kunt wisselen tussen bewerk- en voorbeeldmodus (zie \*C*\).
 
 
 ![REVIEW](assets/fr/06.webp)
@@ -124,30 +124,30 @@ NB. Het is aan te raden om in het codevenster te reviewen, waarbij de originele 
 
 - Je kunt beginnen met het beoordelen en corrigeren van de inhoud als dat nodig is.
 - Als je je sessie wilt pauzeren, kun je je wijzigingen vastleggen, zelfs als de review nog niet klaar is. Het is alsof je je voortgang opslaat op GitHub.
-- Klik op de knop "Wijzigingen vastleggen...".
+- Klik op de knop "Commit changes..." (Wijzigingen vastleggen...).
 
 
 ![REVIEW](assets/fr/07.webp)
 
 
 
-- Voeg een beschrijvend bericht toe voor je wijzigingen (zie *).
-- Voeg meer context toe in de beschrijving als dat nodig is (vgl.)
-- Klik op de knop "Wijzigingen voorstellen" (cf. \).
+- Voeg een beschrijvend bericht toe voor je wijzigingen (zie \*A*\).
+- Voeg meer context toe in de beschrijving als dat nodig is (zie \*B*\)
+- Klik op de knop "Propose changes" (Wijzigingen voorstellen) (zie \*C*\).
 
 
 ![REVIEW](assets/fr/08.webp)
 
 
 
-- Als dit niet je eerste bijdrage is, zal GitHub je vragen om een nieuwe branch aan te maken. Je moet nooit direct committen op de hoofd `dev` branch. Als je al commits hebt gedaan op een bestaande werkende branch, selecteer dan die branch. Kies anders de "Maak een nieuwe branch" optie om een nieuwe aan te maken.
+- Als dit niet je eerste bijdrage is, zal GitHub je vragen om een nieuwe branch aan te maken. Je mag nooit direct committen op de hoofd `dev` branch. Als je al commits hebt gedaan op een bestaande werkende branch, selecteer dan die branch. Kies anders de optie "Create a new branch" (Maak een nieuwe branch) om een nieuwe aan te maken.
 
 
 ![REVIEW](assets/fr/13.webp)
 
 
 
-- Je komt dan op een pagina met een overzicht van al je wijzigingen. Door er doorheen te scrollen kun je de precieze wijzigingen zien: verwijderde items verschijnen in het rood, terwijl toegevoegde items in Green verschijnen.
+- Je komt dan op een pagina met een overzicht van al je wijzigingen. Door er doorheen te scrollen kun je de precieze wijzigingen zien: verwijderde items verschijnen in het rood, terwijl toegevoegde items in het groen verschijnen.
 
 
 ![REVIEW](assets/fr/09.webp)
@@ -155,26 +155,26 @@ NB. Het is aan te raden om in het codevenster te reviewen, waarbij de originele 
 
 
 - Als je nog niet klaar bent met je beoordeling en je wilt later verder werken, dan kun je gewoon afsluiten.
-- Zolang je je wijzigingen hebt gecommit, worden ze opgeslagen op je GitHub Fork.
-- Om je werk te hervatten, ga je naar je Fork van de Plan ₿ Network inhoudsrepository via je GitHub profiel.
+- Zolang je je wijzigingen hebt gecommit, worden ze opgeslagen op je GitHub fork.
+- Om je werk te hervatten, ga je naar je fork van de Plan ₿ Network inhoudsrepository via je GitHub profiel.
 
 
 ![REVIEW](assets/fr/14.webp)
 
 
 
-- Selecteer de tak met je voortgang (vgl. \A\), zoek je inhoudsbestand (vgl. \B\) en klik op het potlood-icoon om verder te gaan met de beoordeling.
+- Selecteer de branch met je voortgang (zie \*A*\), zoek je inhoudsbestand (zie \*B*\) en klik op het potlood-icoon om verder te gaan met de beoordeling.
 
 
 ![REVIEW](assets/fr/15.webp)
 
 
 
-## 5. Maak een PR aan met de speciale tak
+## 5. Maak een PR aan met de specifieke branch
 
 
 
-- Als alles er goed uitziet en je bent klaar met je wijzigingen, klik dan op de Green "Create Pull Request" knop.
+- Als alles er goed uitziet en je bent klaar met je wijzigingen, klik dan op de groen knop "Create Pull Request".
 
 
 ![REVIEW](assets/fr/10.webp)
@@ -182,8 +182,8 @@ NB. Het is aan te raden om in het codevenster te reviewen, waarbij de originele 
 
 
 - Je komt dan op de PR pagina. Een Pull Request is een verzoek om wijzigingen die gemaakt zijn op een branch van een remote repository in te dienen ter beoordeling en mogelijk samen te voegen in de hoofdbranch.
-- Voeg een titel en een korte beschrijving toe aan je PR. De titel moet overeenkomen met de uitgave waar je aan werkt. Als de titel van de uitgave bijvoorbeeld `[VERTALING] Cursus CYP201 - FR` is, gebruik dan dezelfde titel voor je PR (vgl. 🬁). Vermeld in de beschrijving het bijbehorende probleem met behulp van het nummer, voorafgegaan door "Sluit". Hiermee wordt het probleem automatisch gesloten zodra het PR is samengevoegd (vgl. \B****).
-- Als alles er goed uitziet, klik dan op de Green "Create Pull Request" knop (vgl. pull request).
+- Voeg een titel en een korte beschrijving toe aan je PR. De titel moet overeenkomen met de issue waar je aan werkt. Als de titel van de issue bijvoorbeeld `[TRANSLATION] Course CYP201 - FR` is, gebruik dan dezelfde titel voor je PR (zie \*A*\). Vermeld in de beschrijving het bijbehorende issue nummer, voorafgegaan door "Closes". Hiermee wordt het issue automatisch gesloten zodra het PR is samengevoegd (zie \*B*\).
+- Als alles er goed uitziet, klik dan op de groene knop "Create pull request" (zie \*C*\).
 
 
 ![REVIEW](assets/fr/11.webp)
@@ -192,7 +192,7 @@ NB. Het is aan te raden om in het codevenster te reviewen, waarbij de originele 
 ## 6. Regels voor het bewerken van inhoud
 
 
-Als je meer wilt weten over de richtlijnen die je moet gebruiken bij het proeflezen op Plan ₿ Network in termen van taal- of formaatregels, raadpleeg dan de tutorial "bijdrage proeflezen-richtlijnen" in deze sectie!
+Als je meer wilt weten over de richtlijnen die je moet gebruiken bij het proeflezen op Plan ₿ Network voor wat betreft taal- of formaatregels, raadpleeg dan de handleiding "bijdrage proeflezen-richtlijnen" in deze sectie!
 
 
 ## 7. Wachten op beoordeling
@@ -206,8 +206,8 @@ Als je meer wilt weten over de richtlijnen die je moet gebruiken bij het proefle
 
 
 
-- Hartelijk dank voor uw bijdrage! Na goedkeuring neemt een Plan ₿ Network teamlid contact met je op om je beloning op te sturen. \**Betalingen vinden uitsluitend plaats via Lightning Network.
-- Als je opnieuw wilt beginnen, ga dan terug naar stap 2 en stuur een nieuw bericht in de Telegram groep om verder te gaan met bijdragen aan andere inhoud. Zorg ervoor dat je je Fork synchroniseert voordat je een nieuwe werkende tak aanmaakt. Om dit te doen, ga je naar de startpagina van je Fork, selecteer je de hoofdsectie met de naam `dev` (vgl. \A**), klik dan op de knop "Synchroniseer Fork" (vgl. \B**). Als er updates beschikbaar zijn voor je Fork, zal er een "Update tak" knop verschijnen. Klik hierop om de update uit te voeren.
+- Hartelijk dank voor uw bijdrage! Na goedkeuring neemt een Plan ₿ Network teamlid contact met je op om je beloning op te sturen. **Betalingen vinden uitsluitend plaats via Lightning Network.**
+- Als je opnieuw wilt beginnen, ga dan terug naar stap 2 en stuur een nieuw bericht in de Telegram groep om verder te gaan met bijdragen aan andere inhoud. Zorg ervoor dat je je fork synchroniseert voordat je een nieuwe werkende branch aanmaakt. Om dit te doen, ga je naar de startpagina van je fork, selecteer je de hoofdsectie met de naam `dev` (zie \*A*\), klik dan op de knop "Sync fork" (zie \*B*\). Als er updates beschikbaar zijn voor je fork, zal er een "Update fork" knop verschijnen. Klik hierop om de update uit te voeren.
 
 
 ![REVIEW](assets/fr/16.webp)

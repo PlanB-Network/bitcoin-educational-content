@@ -1,0 +1,9 @@
+question: Welke distributie is het meest geschikt voor de Raspberry Pi, omdat deze bijzonder licht is?
+answer: RaspiBlitz
+wrong_answers:
+  - Paraplu
+  - MijnNode
+  - Start9
+explanation: |
+  RaspiBlitz is geoptimaliseerd voor de Raspberry Pi en blijft licht, in tegenstelling tot Umbrel, dat te zwaar is geworden voor deze machines.
+reviewed: true

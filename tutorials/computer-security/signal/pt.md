@@ -1,5 +1,5 @@
 ---
-name: Sinal
+name: Signal
 description: Exprimir-se livremente
 ---
 ![cover](assets/cover.webp)

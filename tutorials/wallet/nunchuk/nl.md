@@ -91,14 +91,14 @@ In het venster dat verschijnt, vind je velden om "in te vullen": kies de knop _B
 ![image](assets/en/07.webp)
 
 
-**N.B. de schermafbeelding is van een Windows PC, dezelfde praktijk kan gebruikt worden voor elk besturingssysteem op je computer, je hoeft alleen Sparrow wallet geïnstalleerd te hebben. En geverifieerd!
+**N.B.** de schermafbeelding is van een Windows PC, dezelfde praktijk kan gebruikt worden voor elk besturingssysteem op je computer, je hoeft alleen Sparrow wallet geïnstalleerd te hebben. En geverifieerd!
 
 
 
 Je kunt de Sparrow wallet gids vinden om deze Software Wallet te downloaden
 
 
-https://planb.network/en/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Vervolgens kun je het `.apk` bestand van je computer overbrengen naar je telefoon
 

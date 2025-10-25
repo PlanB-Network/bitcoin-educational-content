@@ -112,7 +112,7 @@ Kliknite na "*Setup Jade*".
 ![JADE-PLUS-SPARROW](assets/fr/06.webp)
 
 
-Odaberite "Advanced Setup*".
+Odaberite "Advanced Setup".
 
 
 ![Image](assets/fr/07.webp)
@@ -130,7 +130,7 @@ Kliknite na dugme "*Continue*" da biste prikazali vašu novu frazu za oporavak.
 ![Image](assets/fr/09.webp)
 
 
-Vaš Jade Plus prikazuje vašu 12-rečnu Mnemonic frazu. **Ovaj Mnemonic vam daje potpuni, neograničeni pristup svim vašim bitcoinima. Svako ko poseduje ovu frazu može ukrasti vaša sredstva, čak i bez fizičkog pristupa vašem Jade Plus uređaju. 12-rečna fraza vraća pristup vašim bitcoinima u slučaju gubitka, krađe ili oštećenja vašeg Jade uređaja. Stoga je veoma važno da je pažljivo sačuvate i skladištite na sigurnom mestu.
+Vaš Jade Plus prikazuje vašu 12-rečnu Mnemonic frazu. **Ovaj Mnemonic vam daje potpuni, neograničeni pristup svim vašim bitcoinima. Svako ko poseduje ovu frazu može ukrasti vaša sredstva, čak i bez fizičkog pristupa vašem Jade Plus uređaju.** 12-rečna fraza vraća pristup vašim bitcoinima u slučaju gubitka, krađe ili oštećenja vašeg Jade uređaja. Stoga je veoma važno da je pažljivo sačuvate i skladištite na sigurnom mestu.
 
 
 Možete ga napisati na kartonu koji je priložen u kutiji, ili za dodatnu sigurnost, preporučujem graviranje na bazi od nerđajućeg čelika kako biste ga zaštitili od požara, poplave ili urušavanja.
@@ -144,7 +144,7 @@ Za više informacija o pravilnom načinu čuvanja i upravljanja vašom Mnemonic 
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-naravno, nikada ne smete deliti ove reči na Internetu, kao što to radim u ovom uputstvu. Ovaj uzorak Wallet će biti korišćen samo na Testnet i biće obrisan na kraju uputstva.**_
+naravno, nikada ne smete deliti ove reči na Internetu, kao što to radim u ovom uputstvu. Ovaj uzorak Wallet će biti korišćen samo na Testnet i biće obrisan na kraju uputstva.
 
 
 Kliknite na strelicu na desnoj strani ekrana da prikažete sledeće reči.

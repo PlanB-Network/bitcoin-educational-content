@@ -201,7 +201,7 @@ Model One luo Mnemonic-lauseesi satunnaislukugeneraattorin avulla. Varmista, ett
 
 
 
-***Ei näitä sanoja saa tietenkään koskaan jakaa internetissä, kuten minä teen tässä ohjeessa. Tätä esimerkkiä Wallet käytetään vain Testnet:ssä, ja se poistetaan ohjeen lopussa
+**Ei näitä sanoja saa tietenkään koskaan jakaa internetissä, kuten minä teen tässä ohjeessa. Tätä esimerkkiä Wallet käytetään vain Testnet:ssä, ja se poistetaan ohjeen lopussa**
 
 
 
@@ -353,7 +353,7 @@ Napsauta "*Scan*"-painiketta. Model One -mallisi pitäisi tulla näkyviin.
 
 
 
-Kun yhdistät Model One -mallin tietokoneeseen, jossa Sparrow Wallet on avoinna, sinua pyydetään syöttämään passphrase BIP39 Sparrowiin. Tätä kehittynyttä vaihtoehtoa käsitellään tulevassa opetusohjelmassa. Toistaiseksi voit yksinkertaisesti valita "*Toggle passphrase Off*" (passphrase pois päältä*) estääksesi Trezoria pyytämästä passphrase:n syöttämistä aina käynnistyksen yhteydessä.
+Kun yhdistät Model One -mallin tietokoneeseen, jossa Sparrow Wallet on avoinna, sinua pyydetään syöttämään passphrase BIP39 Sparrowiin. Tätä kehittynyttä vaihtoehtoa käsitellään tulevassa opetusohjelmassa. Toistaiseksi voit yksinkertaisesti valita **Toggle passphrase Off** (passphrase pois päältä) estääksesi Trezoria pyytämästä passphrase:n syöttämistä aina käynnistyksen yhteydessä.
 
 
 

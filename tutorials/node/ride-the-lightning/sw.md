@@ -1,5 +1,5 @@
 ---
-name: Panda Umeme (RTL)
+name: Ride The Lightning (RTL)
 description: Tumia Ride The Lightning (RTL) kudhibiti eneo lako la Umeme
 ---
 ![cover](assets/cover.webp)

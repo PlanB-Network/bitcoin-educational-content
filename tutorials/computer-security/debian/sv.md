@@ -17,11 +17,11 @@ Debian är en fri GNU/Linux-distribution som är känd för sin robusthet och ti
 
 
 
-- Fri och öppen**: Debian är helt öppen källkod, vilket garanterar transparens och inga licensavgifter.
-- Stabilitet och säkerhet**: varje release genomgår en grundlig testprocess, vilket gör Debian till en av de mest pålitliga och säkra distributionerna på marknaden.
-- Aktivt community**: ett stort community och omfattande dokumentation finns tillgängliga för att stödja dig när du behöver det.
-- Lätt och skalbar**: du kan installera Debian på maskiner med blygsamma resurser och samtidigt bibehålla bra prestanda.
-- Omfattande programvarukatalog**: över 50 000 officiella paket finns tillgängliga via arkiven.
+- **Fri och öppen**: Debian är helt öppen källkod, vilket garanterar transparens och inga licensavgifter.
+- **Stabilitet och säkerhet**: varje release genomgår en grundlig testprocess, vilket gör Debian till en av de mest pålitliga och säkra distributionerna på marknaden.
+- **Aktivt community**: ett stort community och omfattande dokumentation finns tillgängliga för att stödja dig när du behöver det.
+- **Lätt och skalbar**: du kan installera Debian på maskiner med blygsamma resurser och samtidigt bibehålla bra prestanda.
+- **Omfattande programvarukatalog**: över 50 000 officiella paket finns tillgängliga via arkiven.
 
 
 
@@ -35,12 +35,12 @@ Debian erbjuder flera skrivbordsmiljöer för att passa dina behov:
 
 
 
-- GNOME**: modern, intuitiv Interface, perfekt för nybörjare. Den erbjuder en smidig, lättanvänd grafisk meny för åtkomst till applikationer.
-- XFCE**: lätt och snabb, perfekt för mindre kraftfulla maskiner.
-- KDE Plasma**: mycket anpassningsbar, med ett Windows-liknande utseende.
-- Cinnamon**: enkel, elegant Interface, inspirerad av Windows.
-- LXDE / LXQt**: ultralätt, lämplig för äldre datorer.
-- MATE**: enkelt och klassiskt, nära det gamla GNOME.
+- **GNOME**: modern, intuitiv Interface, perfekt för nybörjare. Den erbjuder en smidig, lättanvänd grafisk meny för åtkomst till applikationer.
+- **XFCE**: lätt och snabb, perfekt för mindre kraftfulla maskiner.
+- **KDE Plasma**: mycket anpassningsbar, med ett Windows-liknande utseende.
+- **Cinnamon**: enkel, elegant Interface, inspirerad av Windows.
+- **LXDE / LXQt**: ultralätt, lämplig för äldre datorer.
+- **MATE**: enkelt och klassiskt, nära det gamla GNOME.
 
 
 
@@ -61,9 +61,9 @@ Innan du påbörjar installationen ska du se till att du har följande utrustnin
 
 
 
-- USB-nyckel**: minst 8 GB för att lagra den startbara ISO-bilden.
-- Slumpmässigt åtkomstminne (RAM)**: 4 GB för smidig installation och drift.
-- Diskutrymme**: minst 15 GB ledigt utrymme för systemet och uppdateringar.
+- **USB-nyckel**: minst 8 GB för att lagra den startbara ISO-bilden.
+- **Slumpmässigt åtkomstminne (RAM)**: 4 GB för smidig installation och drift.
+- **Diskutrymme**: minst 15 GB ledigt utrymme för systemet och uppdateringar.
 
 
 
@@ -77,9 +77,9 @@ Valet av Debian-image beror på din processorarkitektur:
 
 
 
-- AMD64**: ladda ner "live hybrid"-utgåvan från [download]-listan (https://debian.obspm.fr/debian-cd/12.11.0-live/amd64/iso-hybrid/).
-- ARM64**: hämta DVD-avbildningen från den officiella [Debian]-webbplatsen (https://debian.obspm.fr/debian-cd/12.11.0/arm64/iso-dvd/).
-- Andra arkitekturer**: hitta den ISO som motsvarar din arkitektur [här](https://debian.obspm.fr/debian-cd/12.11.0/).
+- **AMD64**: ladda ner "live hybrid"-utgåvan från [download]-listan (https://debian.obspm.fr/debian-cd/12.11.0-live/amd64/iso-hybrid/).
+- **ARM64**: hämta DVD-avbildningen från den officiella [Debian]-webbplatsen (https://debian.obspm.fr/debian-cd/12.11.0/arm64/iso-dvd/).
+- **Andra arkitekturer**: hitta den ISO som motsvarar din arkitektur [här](https://debian.obspm.fr/debian-cd/12.11.0/).
 
 
 
@@ -96,7 +96,7 @@ När du har hämtat rätt ISO-bild fortsätter du med att skapa ditt installatio
 
 
 
-- Ladda ner Balena Etcher** från den [officiella webbplatsen] (https://etcher.balena.io/), hämta sedan binärfilen för ditt system och installera den.
+- Ladda ner **Balena Etcher** från den [officiella webbplatsen](https://etcher.balena.io/), hämta sedan binärfilen för ditt system och installera den.
 
 
 
@@ -106,9 +106,9 @@ När du har hämtat rätt ISO-bild fortsätter du med att skapa ditt installatio
 
 
 
-- Starta Etcher**: öppna programvaran och välj den tidigare nedladdade Debian ISO-imagen.
-- Välj USB-nyckel**: ange din nyckel (8 GB+) som mål.
-- Starta flash**: klicka på **Flash!** och vänta tills processen är klar.
+- **Starta Etcher**: öppna programvaran och välj den tidigare nedladdade Debian ISO-imagen.
+- **Välj USB-nyckel**: ange din nyckel (8 GB+) som mål.
+- Starta flash: klicka på **Flash!** och vänta tills processen är klar.
 
 
 
@@ -133,10 +133,10 @@ För att starta installationen från ditt USB-minne:
 
 
 
-- Stäng av** datorn helt och hållet.
-- Starta om** och gå sedan till BIOS/UEFI genom att omedelbart trycka på `ESC`, `F2`, `F11` (eller den dedikerade tangenten beroende på ditt varumärke).
+- **Stäng av** datorn helt och hållet.
+- **Starta om** och gå sedan till BIOS/UEFI genom att omedelbart trycka på `ESC`, `F2`, `F11` (eller den dedikerade tangenten beroende på ditt varumärke).
 - I startmenyn **väljer du din USB-nyckel** som startenhet.
-- Bekräfta** med Enter-tangenten för att starta Debian-imagen: detta tar dig till installationsprogrammets välkomstskärm.
+- **Bekräfta** med Enter-tangenten för att starta Debian-imagen: detta tar dig till installationsprogrammets välkomstskärm.
 
 
 
@@ -157,9 +157,9 @@ När du startar från USB-minnet erbjuder Debians välkomstskärm flera alternat
 
 
 
-- Live System**: Startar Debian utan att installera det, perfekt för att testa miljön.
-- Start Installer**: startar installationen direkt på Hard-disken.
-- Advanced Install Options**: ger dig tillgång till anpassade installationslägen.
+- **Live System**: Startar Debian utan att installera det, perfekt för att testa miljön.
+- **Start Installer**: startar installationen direkt på Hard-disken.
+- **Advanced Install Options**: ger dig tillgång till anpassade installationslägen.
 
 
 
@@ -173,7 +173,7 @@ Om du vill utforska Debian i live-läge väljer du **Live System** och bekräfta
 
 
 
-- Val av språk** (tillval)
+- **Val av språk** (tillval)
 
 
 
@@ -187,7 +187,7 @@ Välj huvudspråket för Debian-systemet i listan och klicka sedan på OK.
 
 
 
-- Tidszon** (GMT)
+- **Tidszon** (GMT)
 
 
 
@@ -219,8 +219,8 @@ Välj språk och layout för tangentbordet. Använd det inbyggda testfältet fö
 
 
 
-- Erase disk**: om du har en särskild partition kommer detta alternativ att radera allt dess innehåll.
-- Manuell partitionering**: välj det här alternativet för att skapa, ändra storlek på eller ta bort partitioner efter behov.
+- **Erase disk**: om du har en särskild partition kommer detta alternativ att radera allt dess innehåll.
+- **Manuell partitionering**: välj det här alternativet för att skapa, ändra storlek på eller ta bort partitioner efter behov.
 
 
 
@@ -244,7 +244,7 @@ Ange ditt fullständiga namn, kontonamn och ett starkt lösenord för att säker
 
 
 
-- Sammanfattning av parametrarna**
+- **Sammanfattning av parametrarna**
 
 
 
@@ -272,7 +272,7 @@ Klicka på **Install** för att börja kopiera filer och konfigurera systemet, v
 
 
 
-- Starta om**
+- Starta om
 
 
 

@@ -9,35 +9,35 @@ description: Bruk Ride The Lightning (RTL) til å administrere Lightning-noden d
 
 
 
-**Ride The Lightning (RTL)** er en komplett Interface-nettapplikasjon for administrasjon av en Lightning Network-node. Denne selvbetjente webapplikasjonen tilbyr en Lightning**-"cockpit" som er tilgjengelig fra nettleseren din. RTL fungerer med alle større Lightning-implementeringer (LND, Core Lightning/CLN og Eclair) og gir deg full kontroll over noden og kanalene dine. RTL er gratis og har åpen kildekode (MIT-lisens) og er integrert som standard i mange nøkkelferdige nodeløsninger (RaspiBlitz, MyNode, Umbrel osv.).
+**Ride The Lightning (RTL)** er en komplett Interface-nettapplikasjon for administrasjon av en Lightning Network-node. Denne selvbetjente webapplikasjonen tilbyr en Lightning-**"cockpit"** som er tilgjengelig fra nettleseren din. RTL fungerer med alle større Lightning-implementeringer (LND, Core Lightning/CLN og Eclair) og gir deg full kontroll over noden og kanalene dine. RTL er gratis og har åpen kildekode (MIT-lisens) og er integrert som standard i mange nøkkelferdige nodeløsninger (RaspiBlitz, MyNode, Umbrel osv.).
 
 
 
-**Uten en grafisk Interface kan Lightning-noder kun administreres via brukervennlige CLI-kommandoer. RTL forenkler disse operasjonene med en ergonomisk Interface. Her er de **viktigste bruksområdene**:
-
-
-
-
-
-- Se kanalene og noden** - Dashbordet viser On-Chain-saldo, Lightning-likviditet (lokal/fjern), synkroniseringsstatus, nodealias og mer. Du kan se kanallisten, kapasitet, lokal/fjerndistribusjon og status. RTL tilbyr kontekstsensitive dashbord for å analysere aktivitet fra ulike vinkler.
+**Uten en grafisk Interface kan Lightning-noder kun administreres via brukervennlige CLI-kommandoer. RTL forenkler disse operasjonene med en ergonomisk Interface. Her er de viktigste bruksområdene:**
 
 
 
 
 
-- Lynrask kanaladministrasjon** - åpne/lukk kanaler med noen få klikk. Med RTL kan du koble deg til en motpart og åpne en kanal uten en kommando. Du kan justere rutingavgifter, se saldoscore eller starte en sirkulær rebalansering for å rebalansere midler mellom kanaler.
+- Se kanalene og noden - Dashbordet viser On-Chain-saldo, Lightning-likviditet (lokal/fjern), synkroniseringsstatus, nodealias og mer. Du kan se kanallisten, kapasitet, lokal/fjerndistribusjon og status. RTL tilbyr kontekstsensitive dashbord for å analysere aktivitet fra ulike vinkler.
 
 
 
 
 
-- Spor og utfør betalinger** - RTL håndterer Lightning-transaksjoner: send betalinger via fakturaer, generate-fakturaer for mottak, spor transaksjoner (betalinger, ruting) med detaljert historikk. Interface analyserer også ruting for å se hvilke betalinger som går gjennom noden din.
+- **Lynrask kanaladministrasjon** - åpne/lukk kanaler med noen få klikk. Med RTL kan du koble deg til en motpart og åpne en kanal uten en kommando. Du kan justere rutingavgifter, se saldoscore eller starte en sirkulær rebalansering for å rebalansere midler mellom kanaler.
 
 
 
 
 
-- Wallet On-Chain-administrasjon og sikkerhetskopiering** - On-Chain-fanen lar deg generate-adresser og sende transaksjoner. RTL gjør det enkelt å lagre kanaler ved å eksportere SCB-filen for LND, med automatisk oppdatering for hver kanalendring.
+- **Spor og utfør betalinger** - RTL håndterer Lightning-transaksjoner: send betalinger via fakturaer, generate-fakturaer for mottak, spor transaksjoner (betalinger, ruting) med detaljert historikk. Interface analyserer også ruting for å se hvilke betalinger som går gjennom noden din.
+
+
+
+
+
+- **Wallet On-Chain-administrasjon og sikkerhetskopiering** - On-Chain-fanen lar deg generate-adresser og sende transaksjoner. RTL gjør det enkelt å lagre kanaler ved å eksportere SCB-filen for LND, med automatisk oppdatering for hver kanalendring.
 
 
 
@@ -142,9 +142,9 @@ Denne kommandoen installerer de nødvendige NPM-pakkene (ignorerer utviklingsavh
 
 
 
-   - UI-passord**: Velg et sikkert passord og skriv det inn i `multiPass` (i stedet for standard `"passord"`).
-   - Port**: standard `3000`. Du kan endre den hvis denne porten allerede er opptatt på maskinen din.
-   - Node**: I delen `nodes[0]` justerer du parametrene for noden din:
+- **UI-passord**: Velg et sikkert passord og skriv det inn i `multiPass` (i stedet for standard `"passord"`).
+- **Port**: standard `3000`. Du kan endre den hvis denne porten allerede er opptatt på maskinen din.
+- **Node**: I delen `nodes[0]` justerer du parametrene for noden din:
      - `lnNode`: et beskrivende navn for noden (f.eks. `"LND Node Maison"`).
      - lnImplementation`: `"LND"` (eller `"CLN"`/`"ECL"` etter behov).
      - Under `autentisering`:
@@ -270,8 +270,8 @@ Hvis du bruker [Umbrel] (https://getumbrel.com), er RTL-installasjonen mye enkle
 
 
 
-- Ride The Lightning** (for LND): for bruk med Umbrels standard Lightning-node (LND).
-- Ride The Lightning (Core Lightning)**: brukes bare hvis du har installert *Core Lightning*-applikasjonen på Umbrel og ønsker å administrere denne noden med RTL.
+- **Ride The Lightning** (for LND): for bruk med Umbrels standard Lightning-node (LND).
+- **Ride The Lightning (Core Lightning)**: brukes bare hvis du har installert *Core Lightning*-applikasjonen på Umbrel og ønsker å administrere denne noden med RTL.
 
 
 
@@ -639,9 +639,9 @@ Utsett aldri RTL direkte på Internett. Gi preferanse til :
 
 
 
-- VPN** (f.eks. Tailscale) for privat, kryptert tilgang
-- Tor** for sikker, anonym tilgang
-- Omvendt proxy HTTPS** (Nginx/Caddy) bare hvis du vet hvordan du konfigurerer den
+- **VPN** (f.eks. Tailscale) for privat, kryptert tilgang
+- **Tor** for sikker, anonym tilgang
+- Omvendt proxy **HTTPS** (Nginx/Caddy) bare hvis du vet hvordan du konfigurerer den
 
 
 
@@ -653,11 +653,11 @@ https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7
 
 
 
-- Beskytt tilgangen din**: Del aldri admin.macaroon eller RTL-passordet ditt. Begrens tillatelser på sensitive filer.
-- Regelmessig sikkerhetskopiering**: Eksporter kanalens sikkerhetskopifil (SCB) etter hver endring, og lagre den utenfor noden.
-- Oppdateringer**: Hold RTL, noden din og Umbrel oppdatert med de nyeste sikkerhetsoppdateringene.
-- Konfidensialitet**: anonymiser logger og skjermbilder før du deler dem. Del aldri saldoer eller peer-lister offentlig.
-- Enkel tilgang**: RTL er ikke flerbruker. Ikke del administratortilgang. For skrivebeskyttet tilgang, bruk en dedikert macaroon om nødvendig.
+- **Beskytt tilgangen din**: Del aldri admin.macaroon eller RTL-passordet ditt. Begrens tillatelser på sensitive filer.
+- **Regelmessig sikkerhetskopiering**: Eksporter kanalens sikkerhetskopifil (SCB) etter hver endring, og lagre den utenfor noden.
+- **Oppdateringer**: Hold RTL, noden din og Umbrel oppdatert med de nyeste sikkerhetsoppdateringene.
+- **Konfidensialitet**: anonymiser logger og skjermbilder før du deler dem. Del aldri saldoer eller peer-lister offentlig.
+- **Enkel tilgang**: RTL er ikke flerbruker. Ikke del administratortilgang. For skrivebeskyttet tilgang, bruk en dedikert macaroon om nødvendig.
 
 
 
@@ -684,10 +684,10 @@ For å finne ut mer :
 
 - Offisielt nettsted for RTL: https://www.ridethelightning.info/
 - GitHub RTL: https://github.com/Ride-The-Lightning/RTL
-- Reddit r/lightningnetwork**: [r/lightningnetwork](https://www.reddit.com/r/lightningnetwork) - Tekniske diskusjoner, prosjektannonseringer, tilbakemeldinger og utdanningsressurser
-- Umbrel Community Forum**: [community.getumbrel.com] (https://community.getumbrel.com) - Offisielt forum med egen Bitcoin/Lightning-seksjon, guider og løsninger på vanlige problemer
-- Lightning Network-utviklere**: [github.com/lightning] (https://github.com/lightning) - Offisielt GitHub-depot for å følge utviklingen og bidra med kildekode
-- Stack Exchange Bitcoin** : [Bitcoin.stackexchange.com](https://Bitcoin.stackexchange.com) - Tekniske spørsmål og svar med utviklere og avanserte brukere
+- **Reddit r/lightningnetwork**: [r/lightningnetwork](https://www.reddit.com/r/lightningnetwork) - Tekniske diskusjoner, prosjektannonseringer, tilbakemeldinger og utdanningsressurser
+- **Umbrel Community Forum**: [community.getumbrel.com](https://community.getumbrel.com) - Offisielt forum med egen Bitcoin/Lightning-seksjon, guider og løsninger på vanlige problemer
+- **Lightning Network-utviklere**: [github.com/lightning](https://github.com/lightning) - Offisielt GitHub-depot for å følge utviklingen og bidra med kildekode
+- Stack Exchange **Bitcoin**: [Bitcoin.stackexchange.com](https://Bitcoin.stackexchange.com) - Tekniske spørsmål og svar med utviklere og avanserte brukere
 
 
 

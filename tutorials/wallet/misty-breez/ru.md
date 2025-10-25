@@ -1,5 +1,5 @@
 ---
-name: Мисти Бриз
+name: Misty Breez
 description: Бескозырка "Молния Wallet".
 ---
 

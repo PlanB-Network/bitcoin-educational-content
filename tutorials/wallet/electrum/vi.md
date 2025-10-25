@@ -1,16 +1,16 @@
 ---
 name: Electrum
 
-description: Hướng dẫn toàn diện về Electrum, từ cơ bản đến nâng cao
+description: Hướng dẫn đầy đủ về Electrum, từ người mới đến chuyên gia
 ---
 
 ![cover](assets/cover.webp)
 
-Mô tả về Electrum
+Dưới đây là một vài nguồn mô tả cho Electrum:
 
-https://twitter.com/ElectrumWallet
-https://electrum.org/
-https://electrum.readthedocs.io/
+- [X](https://twitter.com/ElectrumWallet)
+- [Electrum website](https://electrum.org/)
+- [Electrum documentation](https://electrum.readthedocs.io/)
 
 > "Phải nói là, khi tìm thấy hướng dẫn này tôi đã rất ngạc nhiên. Xin chúc mừng Arman the Parman về điều này. Thật đáng tiếc nếu không đăng tải nó ở đây và dịch ra càng nhiều ngôn ngữ càng tốt. Thực vậy, hãy tip cho anh chàng đó." Rogzy
 

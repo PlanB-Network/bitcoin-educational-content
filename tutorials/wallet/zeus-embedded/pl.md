@@ -13,7 +13,7 @@ Ale aplikacja zawiera również "wbudowany węzeł".
 
 
 
-**To właśnie ten aspekt aplikacji będziemy badać w tym samouczku. Pozwala to każdemu na posiadanie własnego węzła Lightning na urządzeniach mobilnych, bez potrzeby posiadania dedykowanego serwera, w taki sam sposób, w jaki ACINQ oferuje swój niesamowity Wallet Lightning Phoenix.
+**To właśnie ten aspekt aplikacji będziemy badać w tym samouczku.** Pozwala to każdemu na posiadanie własnego węzła Lightning na urządzeniach mobilnych, bez potrzeby posiadania dedykowanego serwera, w taki sam sposób, w jaki ACINQ oferuje swój niesamowity Wallet Lightning Phoenix.
 
 
 
@@ -248,7 +248,7 @@ Na następnym ekranie zostaniesz poproszony o otwarcie kanału we współpracy z
 W tym samouczku wybierzemy tę opcję dla uproszczenia, ale całkowicie możliwe jest otwieranie kanałów z dowolnym węzłem w sieci.
 
 
-Możliwe jest nawet otwarcie kilku kanałów w jednej transakcji poprzez wybranie opcji "OPEN ADDITIONAL CHANNEL". *Ale zajmiemy się tym w "zaawansowanej" wersji samouczka **Zeus Embedded****.
+Możliwe jest nawet otwarcie kilku kanałów w jednej transakcji poprzez wybranie opcji "OPEN ADDITIONAL CHANNEL". *Ale zajmiemy się tym w "zaawansowanej" wersji samouczka* **Zeus Embedded**.
 
 
 

@@ -1,5 +1,5 @@
 ---
-name: SimpleX Chatt
+name: SimpleX Chat
 description: Den första brevlådan utan användar-ID
 ---
 ![cover](assets/cover.webp)

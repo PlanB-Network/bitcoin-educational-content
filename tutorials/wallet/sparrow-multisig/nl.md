@@ -1,5 +1,5 @@
 ---
-name: Sparrow wallet - Multisig
+name: Sparrow Wallet - Multisig
 description: Creëer een Wallet met meerdere handtekeningen op Sparrow
 ---
 ![cover](assets/cover.webp)

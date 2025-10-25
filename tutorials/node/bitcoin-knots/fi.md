@@ -1,5 +1,5 @@
 ---
-name: Bitcoin Solmut
+name: Bitcoin Knots
 description: Miten käynnistän solmun vaihtoehtoisella Bitcoin Knots -asiakasohjelmalla?
 ---
 ![cover](assets/cover.webp)
@@ -19,8 +19,8 @@ Saatavilla on kuitenkin myös vaihtoehtoisia ohjelmistoja. Nämä eivät ole Alt
 On kaksi tärkeintä syytä käyttää vaihtoehtoista asiakasta, kuten Knotsia, Coren sijasta:
 
 
-- Tekninen**: Nämä asiakkaat tarjoavat usein erilaisia vaihtoehtoja Core:lle, erityisesti Mempool:n hallinnan osalta, sillä ne määrittelevät, mitkä transaktiot solmusi hyväksyy ja lähettää.
-- Politiikka**: Jotkut haluavat käyttää vaihtoehtoisia asiakkaita, kuten Knotsia, muista kuin teknisistä syistä, erityisesti tukeakseen vaihtoehtoa Core-ohjelmalle ja vähentääkseen siten sen monopolia. Jos Core joskus vaarantuisi, olisi hyödyllistä, että olisi paitsi vankkoja, hyvin ylläpidettyjä vaihtoehtoisia asiakkaita, myös tietoa siitä, miten niitä käytetään. Toiset käyttävät Knotsia protestitarkoituksessa, koska he ovat menettäneet luottamuksensa Coren kehittäjiin tai paheksuvat enemmistöasiakkaan hallintoa.
+- **Tekninen**: Nämä asiakkaat tarjoavat usein erilaisia vaihtoehtoja Core:lle, erityisesti Mempool:n hallinnan osalta, sillä ne määrittelevät, mitkä transaktiot solmusi hyväksyy ja lähettää.
+- **Politiikka**: Jotkut haluavat käyttää vaihtoehtoisia asiakkaita, kuten Knotsia, muista kuin teknisistä syistä, erityisesti tukeakseen vaihtoehtoa Core-ohjelmalle ja vähentääkseen siten sen monopolia. Jos Core joskus vaarantuisi, olisi hyödyllistä, että olisi paitsi vankkoja, hyvin ylläpidettyjä vaihtoehtoisia asiakkaita, myös tietoa siitä, miten niitä käytetään. Toiset käyttävät Knotsia protestitarkoituksessa, koska he ovat menettäneet luottamuksensa Coren kehittäjiin tai paheksuvat enemmistöasiakkaan hallintoa.
 
 ## Miten asennan Bitcoin-solmut?
 

@@ -13,10 +13,10 @@ Arch Linux is a distribution renowned for its robustness, performance and adapta
 
 
 
-- Free and open source**: Like most Linux distributions, Arch Linux is totally free. There are no license fees, making it an excellent choice for students, freelancers or enthusiasts.
-- KISS** philosophy: Arch is designed to be simple, light and efficient. It provides only the essentials, allowing you to build your environment à la carte.
-- Pacman** package manager: Pacman is a fast, reliable and well-designed package manager. It enables efficient installation and updating of software, and manages dependencies with precision.
-- Comprehensive documentation and an active community**: the [Arch Wiki](https://wiki.archlinux.org) is probably one of the best technical documentations in the Linux world. It's a gold mine for understanding what you're doing. The community, mostly made up of experienced profiles, is very active and can help you if you get stuck, provided you've done a bit of research beforehand.
+- **Free and open source**: Like most Linux distributions, Arch Linux is totally free. There are no license fees, making it an excellent choice for students, freelancers or enthusiasts.
+- **KISS** philosophy: Arch is designed to be simple, light and efficient. It provides only the essentials, allowing you to build your environment à la carte.
+- **Pacman** package manager: Pacman is a fast, reliable and well-designed package manager. It enables efficient installation and updating of software, and manages dependencies with precision.
+- **Comprehensive documentation and an active community**: the [Arch Wiki](https://wiki.archlinux.org) is probably one of the best technical documentations in the Linux world. It's a gold mine for understanding what you're doing. The community, mostly made up of experienced profiles, is very active and can help you if you get stuck, provided you've done a bit of research beforehand.
 
 
 ## Installation and configuration
@@ -30,7 +30,7 @@ Materials required:
 
 
 - A USB key of at least **8 GB**
-- 2 GB** RAM minimum
+- **2 GB** RAM minimum
 - A computer with at least 20 GB of free disk space
 
 
@@ -196,7 +196,7 @@ Choose **GPT** if you are in UEFI, **DOS** if you are in BIOS.
 #### Scores to create
 
 
-- In UEFI** mode
+- In **UEFI** mode
 
 
 | Point de montage sur le système installé | Partition                 | Type de partition       | Taille suggérée |
@@ -223,7 +223,7 @@ Select **Write**, type **yes**, then **Quit**.
 
 
 
-- UEFI**:
+- **UEFI**:
 
 
 ```shell
@@ -235,7 +235,7 @@ mkfs.ext4 /dev/sda3
 
 
 
-- BIOS**:
+- **BIOS**:
 
 
 ```shell

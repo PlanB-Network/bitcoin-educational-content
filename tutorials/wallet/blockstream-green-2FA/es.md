@@ -60,7 +60,7 @@ Los usuarios de Android también pueden instalar la aplicación a través del ar
 
 ![GREEN 2FA MULTISIG](assets/fr/04.webp)
 
-Inicie la aplicación y marque la casilla "Acepto las condiciones...*".
+Inicie la aplicación y marque la casilla "Acepto las condiciones...".
 
 ![GREEN 2FA MULTISIG](assets/fr/05.webp)
 
@@ -271,4 +271,3 @@ Si este tutorial te ha resultado útil, te agradecería que dejaras un pulgar ve
 También te recomiendo que consultes este otro completo tutorial sobre la aplicación móvil Blockstream Green para configurar un monedero Liquid :
 
 https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
-

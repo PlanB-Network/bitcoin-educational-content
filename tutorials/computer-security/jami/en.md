@@ -43,11 +43,11 @@ Today, Jami is available on many systems. It's renowned for its performance, flu
 
 
 
-- It's open-source and totally free**, so you can use it at no cost.
-- Complete with useful features**: this software lets you take advantage of numerous options, thanks to the ability to add plugins easily from the store. It's even possible to create your own extensions for features more suited to your needs.
-- Easy to use and Interface intuitive**: despite the many features Jami has to offer, it's still very easy to get to grips with.
-- Strong security**: Jami incorporates an advanced encryption algorithm that guarantees the security of your communications while respecting your privacy.
-- Highly accessible and fast**: it offers easy communication even when bandwidth is limited, for enhanced user-friendliness.
+- It's **open-source and totally free**, so you can use it at no cost.
+- **Complete with useful features**: this software lets you take advantage of numerous options, thanks to the ability to add plugins easily from the store. It's even possible to create your own extensions for features more suited to your needs.
+- **Easy to use and Interface intuitive**: despite the many features Jami has to offer, it's still very easy to get to grips with.
+- **Strong security**: Jami incorporates an advanced encryption algorithm that guarantees the security of your communications while respecting your privacy.
+- **Highly accessible and fast**: it offers easy communication even when bandwidth is limited, for enhanced user-friendliness.
 
 
 ## How do I install Jami?
@@ -262,9 +262,9 @@ Jami also offers **advanced features** for users wishing to go further in config
 
 
 
-- Create a rendezvous point**: This feature lets you create a **rendezvous point** for your communications, useful for organizing secure sessions or exchanges between several users.
-- Connect to a Jami server**: You can connect Jami to a **Jami server**, which can improve the performance or availability of communications, especially in professional environments.
-- Set up a SIP account**: You can set up a **SIP account** (Session Initiation Protocol), enabling you to integrate Jami with existing telephone systems or make telephone calls.
+- **Create a rendezvous point**: This feature lets you create a **rendezvous point** for your communications, useful for organizing secure sessions or exchanges between several users.
+- **Connect to a Jami server**: You can connect Jami to a **Jami server**, which can improve the performance or availability of communications, especially in professional environments.
+- **Set up a SIP account**: You can set up a **SIP account** (Session Initiation Protocol), enabling you to integrate Jami with existing telephone systems or make telephone calls.
 
 
 ![0_21](assets/fr/21.webp)

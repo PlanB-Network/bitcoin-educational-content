@@ -1,0 +1,9 @@
+question: Kwa nini Wallet moja haizingatiwi mshiriki wa mtandao wa Bitcoin?
+answer: Kwa sababu haidhibitishi shughuli au vizuizi
+wrong_answers:
+  - Kwa sababu haiwezi generate funguo za faragha
+  - Kwa sababu haiwezi kuunda anwani za Bitcoin
+  - Kwa sababu haidhibitishi mauzo au anwani
+explanation: |
+  Wallet haidhibitishi moja kwa moja vitalu na shughuli; inasimamia funguo tu na inategemea nodi kwa zingine.
+reviewed: true

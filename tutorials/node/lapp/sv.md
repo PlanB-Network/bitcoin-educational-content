@@ -1,9 +1,11 @@
 ---
-name: LAPP Bitcoin
-description: Handledning för att utveckla din första LApp
+name: Lightning App
+description: Handledning för att utveckla din första Lightning-app (LAPP)
 ---
 
-Lär dig att koda din första blixtapp
+![cover](assets/cover.webp)
+
+## Lär dig koda din första lightning-app
 
 
 Krav som ställs:
@@ -27,6 +29,8 @@ För att bygga vår Lightning-app kommer vi att använda följande tekniker:
 - Express för vår webbserver
 - Pug-mallar + bootstrap för vår frontend
 
+
+https://planb.network/courses/bbf08a64-84ca-11f0-9d7a-c3c481a45799
 
 ## Operativsystem
 

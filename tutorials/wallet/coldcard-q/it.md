@@ -37,7 +37,7 @@ In termini di hardware, la COLDCARD Q è dotata di tutte le caratteristiche nece
 - Due Secure Elements di due produttori diversi per una maggiore sicurezza;
 - La capacità di comunicare tramite NFC.
 
-A mio parere, la COLDCARD Q presenta solo due inconvenienti. In primo luogo, a causa delle sue numerose funzioni, è piuttosto ingombrante, misurando quasi 13 cm di lunghezza e 8 cm di larghezza, ovvero quasi le dimensioni di un piccolo smartphone. È anche piuttosto spesso a causa del vano batteria. Se siete alla ricerca di un portafoglio hardware più piccolo e più mobile, l'MK4, molto più compatto, potrebbe essere un'opzione migliore. Il secondo svantaggio è ovviamente il costo del dispositivo, che sul sito ufficiale ha un prezzo di 239,99 dollari**, ovvero 72 dollari in più rispetto all'MK4, il che mette il Q in diretta concorrenza con portafogli hardware di qualità superiore come il Ledger Flex o il Passport di Foundation.
+A mio parere, la COLDCARD Q presenta solo due inconvenienti. In primo luogo, a causa delle sue numerose funzioni, è piuttosto ingombrante, misurando quasi 13 cm di lunghezza e 8 cm di larghezza, ovvero quasi le dimensioni di un piccolo smartphone. È anche piuttosto spesso a causa del vano batteria. Se siete alla ricerca di un portafoglio hardware più piccolo e più mobile, l'MK4, molto più compatto, potrebbe essere un'opzione migliore. Il secondo svantaggio è ovviamente il costo del dispositivo, che sul sito ufficiale ha un prezzo di **239,99 dollari**, ovvero 72 dollari in più rispetto all'MK4, il che mette il Q in diretta concorrenza con portafogli hardware di qualità superiore come il Ledger Flex o il Passport di Foundation.
 
 ![CCQ](assets/fr/001.webp)
 

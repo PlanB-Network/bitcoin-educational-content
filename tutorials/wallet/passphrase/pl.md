@@ -1,5 +1,5 @@
 ---
-name: passphrase BIP39
+name: BIP-39 Passphrase
 description: Zrozumienie sposobu działania passphrase
 ---
 ![cover](assets/cover.webp)
@@ -20,7 +20,7 @@ W tym miejscu pojawia się passphrase. Jest to opcjonalne hasło, które można 
 ![PASSPHRASE BIP39](assets/notext/02.webp)
 
 
-Należy uważać, aby nie pomylić passphrase z kodem PIN Hardware Wallet lub hasłem używanym do odblokowania dostępu do Wallet na komputerze. W przeciwieństwie do wszystkich Elements, passphrase odgrywa rolę w tworzeniu kluczy Wallet. **Oznacza to, że bez niego nigdy nie będziesz w stanie odzyskać swoich bitcoinów
+Należy uważać, aby nie pomylić passphrase z kodem PIN Hardware Wallet lub hasłem używanym do odblokowania dostępu do Wallet na komputerze. W przeciwieństwie do wszystkich Elements, passphrase odgrywa rolę w tworzeniu kluczy Wallet. **Oznacza to, że bez niego nigdy nie będziesz w stanie odzyskać swoich bitcoinów.**
 
 passphrase działa w tandemie z frazą Mnemonic, zmieniając seed, z którego generowane są klucze. Tak więc, nawet jeśli ktoś uzyska 12- lub 24-wyrazową frazę, bez passphrase nie będzie mógł uzyskać dostępu do środków. **Użycie passphrase zasadniczo tworzy nowy Wallet z odrębnymi kluczami. Modyfikacja (nawet niewielka) passphrase spowoduje, że generate będzie innym Wallet.**
 
@@ -63,3 +63,10 @@ https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866
 Na urządzeniu Trezor (Safe 3, Safe 5 lub Model One):
 
 https://planb.network/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
+Na SeedSignerze:
+https://planb.academy/tutorials/wallet/backup/seedsigner-passphrase-7a61f64d-aa03-4bcf-8308-00c89a74cffe
+Na SeedSignerze z Seedkeeperem:
+https://planb.academy/tutorials/wallet/backup/seedkeeper-seedsigner-45cca4c4-1f22-46bb-87ae-9cddb68aa579
+
+
+

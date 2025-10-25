@@ -1,5 +1,5 @@
 ---
-name: बिट्रेफिल
+name: Bitrefill
 description: बिटरिफिल का उपयोग करके बीटीसी के साथ सामान और सेवाएं कैसे खरीदें?
 ---
 ![cover](assets/cover.webp)

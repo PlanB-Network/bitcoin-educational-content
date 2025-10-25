@@ -182,10 +182,10 @@ BitSpenda aracılığıyla [Bitcoin Dua] (https://www.bitcoindua.org/), Afrika'd
 
 
 
-- Gizlilik**: Platformda bir hesap oluşturmanız gerekmez, kimliğinizi doğrulamanız gerekmez ve herhangi bir kişisel bilgi vermeniz gerekmez.
-- Özgürlük**: BitSpenda'yı herhangi bir ülkeden Gana, Nijerya ve Kenya'ya işlem yapmak için kullanabilirsiniz.
-- Hız**: Lightning ödemelerine güvenmek, BitSpenda'nın işlem sürelerini azaltmasını ve işlemleri anlık hale getirmesini sağladı.
-- Şeffaflık**: BitSpenda'da gerçekleştirdiğiniz tüm işlemler, bu işlemlerin ilerleyişini izlemenizi ve takip etmenizi sağlayan benzersiz tanımlayıcılarla ilişkilendirilir. Bu tanımlayıcıları [X'teki uygulama desteği] (https://x.com/bitspenda) ile iletişime geçmek için de kullanabilirsiniz.
+- **Gizlilik**: Platformda bir hesap oluşturmanız gerekmez, kimliğinizi doğrulamanız gerekmez ve herhangi bir kişisel bilgi vermeniz gerekmez.
+- **Özgürlük**: BitSpenda'yı herhangi bir ülkeden Gana, Nijerya ve Kenya'ya işlem yapmak için kullanabilirsiniz.
+- **Hız**: Lightning ödemelerine güvenmek, BitSpenda'nın işlem sürelerini azaltmasını ve işlemleri anlık hale getirmesini sağladı.
+- **Şeffaflık**: BitSpenda'da gerçekleştirdiğiniz tüm işlemler, bu işlemlerin ilerleyişini izlemenizi ve takip etmenizi sağlayan benzersiz tanımlayıcılarla ilişkilendirilir. Bu tanımlayıcıları [X'teki uygulama desteği] (https://x.com/bitspenda) ile iletişime geçmek için de kullanabilirsiniz.
 
 
 

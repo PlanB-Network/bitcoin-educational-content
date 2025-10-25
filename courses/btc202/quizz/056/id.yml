@@ -1,0 +1,9 @@
+question: Apa cara termudah untuk menghubungkan Wallet seluler ke Electrs melalui Umbrel?
+answer: Pindai kode QR Tor
+wrong_answers:
+  - Unduh file cookie
+  - Impor kunci pribadi
+  - Salin file Wallet.dat
+explanation: |
+  Umbrel memungkinkan Anda untuk secara langsung memindai kode QR Tor yang disediakan oleh Electrs untuk mengonfigurasi koneksi seluler Anda.
+reviewed: true

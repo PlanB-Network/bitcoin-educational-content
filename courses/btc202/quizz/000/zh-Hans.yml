@@ -1,0 +1,9 @@
+question: Satoshi Nakamoto 于 2008 年发表的白皮书的标题是什么？
+answer: Bitcoin 点对点电子现金系统
+wrong_answers:
+  - Bitcoin 分散式数字黄金系统
+  - Bitcoin 货币的未来
+  - Bitcoin 基于 Blockchain 的支付网络
+explanation: |
+  Satoshi 中本聪的白皮书《Bitcoin 点对点电子现金系统》发表于 2008 年。
+reviewed: true

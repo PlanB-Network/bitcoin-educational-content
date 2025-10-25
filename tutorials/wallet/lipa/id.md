@@ -52,10 +52,10 @@ Setelah Anda memilih opsi, aplikasi akan meminta Anda untuk mengaktifkan pemberi
 Aplikasi ini kemudian menyajikan fungsi utamanya melalui serangkaian layar pengantar:
 
 
-- Tanda terima pembayaran yang mulus**: Pengguna dapat menerima pembayaran Bitcoin bahkan ketika aplikasi ditutup, menjamin keandalan dan kenyamanan.
-- Alamat Lightning non-kustodian**: Lipa sekarang mendukung alamat Lightning non-kustodian, meningkatkan privasi dan keamanan dengan memberikan kontrol penuh kepada pengguna atas bitcoin mereka.
-- Kontrol atas data analitik**: Dengan mengutamakan transparansi dan kerahasiaan, pengguna dapat melihat jenis data yang dikumpulkan dan memilih preferensi berbagi.
-- Kirim melalui nomor telepon**: Tidak perlu alamat yang rumit - cukup pilih kontak, masukkan jumlahnya, dan kirimkan bitcoin langsung ke nomor telepon mereka.
+- **Tanda terima pembayaran yang mulus**: Pengguna dapat menerima pembayaran Bitcoin bahkan ketika aplikasi ditutup, menjamin keandalan dan kenyamanan.
+- **Alamat Lightning non-kustodian**: Lipa sekarang mendukung alamat Lightning non-kustodian, meningkatkan privasi dan keamanan dengan memberikan kontrol penuh kepada pengguna atas bitcoin mereka.
+- **Kontrol atas data analitik**: Dengan mengutamakan transparansi dan kerahasiaan, pengguna dapat melihat jenis data yang dikumpulkan dan memilih preferensi berbagi.
+- **Kirim melalui nomor telepon**: Tidak perlu alamat yang rumit - cukup pilih kontak, masukkan jumlahnya, dan kirimkan bitcoin langsung ke nomor telepon mereka.
 
 Aplikasi ini juga mendapat manfaat dari peningkatan berkelanjutan dalam hal stabilitas, keamanan dan keandalan, untuk menjamin pengalaman pengguna yang optimal.
 
@@ -66,10 +66,10 @@ Antarmuka Lipa diatur di sekitar 4 tab utama yang dapat diakses melalui bilah na
 ![Navigation principale](assets/fr/02.webp)
 
 
-- Beranda**: Menampilkan saldo dan riwayat transaksi Anda saat ini
-- Pemindai**: Memungkinkan Anda memindai kode QR untuk melakukan pembayaran
-- Peta**: Menampilkan peta interaktif bisnis yang menerima Bitcoin di wilayah Anda
-- Pengaturan**: Akses ke pengaturan aplikasi, pencadangan, dan preferensi
+- **Beranda**: Menampilkan saldo dan riwayat transaksi Anda saat ini
+- **Pemindai**: Memungkinkan Anda memindai kode QR untuk melakukan pembayaran
+- **Peta**: Menampilkan peta interaktif bisnis yang menerima Bitcoin di wilayah Anda
+- **Pengaturan**: Akses ke pengaturan aplikasi, pencadangan, dan preferensi
 
 Menu tambahan dapat diakses dengan menarik layar beranda ke bawah:
 

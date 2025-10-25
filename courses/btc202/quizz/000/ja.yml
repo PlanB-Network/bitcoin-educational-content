@@ -1,0 +1,9 @@
+question: 2008年に発表されたSatoshiナカモトの白書のタイトルは？
+answer: Bitcoin ピアツーピアの電子キャッシュシステム
+wrong_answers:
+  - Bitcoin 分散型デジタル・ゴールド・システム
+  - Bitcoin マネーの未来
+  - Bitcoin Blockchainベースの決済ネットワーク
+explanation: |
+  Satoshi ナカモトの白書「Bitcoin ピアツーピアの電子キャッシュシステム」は2008年に出版された。
+reviewed: true

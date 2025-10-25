@@ -103,9 +103,9 @@ Breez erbjuder dig tre alternativ:
 
 
 
-- Ta emot genom blixtnedslag eller ID** Invoice: generate en Invoice och få betalt.
-- Ta emot via en Bitcoin Address**: Ta emot bitcoins med transaktioner på Bitcoin:s huvudnätverk.
-- Köp Bitcoin**: Breez innehåller ett sätt att erhålla Bitcoin direkt från fiat-valutor.
+- Ta emot genom blixtnedslag eller **ID Invoice**: generate en Invoice och få betalt.
+- **Ta emot via en Bitcoin Address**: Ta emot bitcoins med transaktioner på Bitcoin:s huvudnätverk.
+- **Köp Bitcoin**: Breez innehåller ett sätt att erhålla Bitcoin direkt från fiat-valutor.
 
 
 
@@ -139,9 +139,9 @@ Breez erbjuder dig tre alternativ för att skicka bitcoins.
 
 
 
-- Klistra in Invoice eller användar-ID**: Betala en blixt Invoice.
-- Anslut för att betala**: Skapa en session och bjud in din mottagare att gå med i sessionen för att skicka bitcoins till dem.
-- Skicka till BTC Address**: Transagera på Bitcoin:s huvudnätverk.
+- Klistra in Invoice eller användar-ID: Betala en blixt **Invoice**.
+- **Anslut för att betala**: Skapa en session och bjud in din mottagare att gå med i sessionen för att skicka bitcoins till dem.
+- Skicka till **BTC Address**: Transagera på Bitcoin:s huvudnätverk.
 
 
 
@@ -169,7 +169,7 @@ Du hittar användbara tjänster direkt i applikationen.
 
 
 
-- Lyssna på podcasts**: Breez är en podcast 2.0-spelare som låter dig stödja de kreatörer du älskar med Bitcoin-donationer.
+- **Lyssna på podcasts**: Breez är en podcast 2.0-spelare som låter dig stödja de kreatörer du älskar med Bitcoin-donationer.
 
 
 I menyn väljer du **Podcasts** och sedan kan du hitta, upptäcka och lyssna på dina favoritinnehållsskapare.
@@ -186,7 +186,7 @@ Stöd arbetet för de innehållsskapare du älskar genom att göra donationer.
 
 
 
-- Ett försäljningsställe**: Breez anpassar sig perfekt till ditt företag, så att du kan köra en försäljningsställe inom applikationen. Du kan hantera din butiks inventering, ta emot betalning från dina kunder och generate utskrivbara fakturor för varje köp som görs. Dessutom kan du hitta dina lokala valutor i de många valutor som stöds av Breez.
+- **Ett försäljningsställe**: Breez anpassar sig perfekt till ditt företag, så att du kan köra en försäljningsställe inom applikationen. Du kan hantera din butiks inventering, ta emot betalning från dina kunder och generate utskrivbara fakturor för varje köp som görs. Dessutom kan du hitta dina lokala valutor i de många valutor som stöds av Breez.
 
 
 
@@ -210,7 +210,7 @@ När din inventering är klar kan du enkelt Invoice dina kunder för dessa produ
 
 
 
-- Få tillgång till tjänster från tredje part**: Breez integrerar tjänster från tredje part som gör att du kan vidta fler åtgärder utan att behöva lämna Wallet. Dessa inkluderar Bitrefill, LN Markets, Wavlake, Fold, Fixed Float, The Bitcoin Company, Azteco, Boltz, Geyser, Lightsats, SMS Sats, LN.PIZZA, LNCAL.
+- Få tillgång till tjänster från tredje part: Breez integrerar tjänster från tredje part som gör att du kan vidta fler åtgärder utan att behöva lämna Wallet. Dessa inkluderar Bitrefill, LN Markets, Wavlake, Fold, Fixed Float, The Bitcoin Company, Azteco, Boltz, Geyser, Lightsats, SMS Sats, LN.PIZZA, LNCAL.
 
 
 ![apps](assets/fr/16.webp)

@@ -1,5 +1,5 @@
 ---
-name: 密码器
+name: Cryptomator
 description: 在云中加密你的文件
 ---
 ![cover](assets/cover.webp)
@@ -10,7 +10,7 @@ ___
 
 
 
-*本教程基于 Florian BURNEL 在 [IT-Connect](https://www.it-connect.fr/) 上发表的原创内容。授权许可 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)。原文可能有改动。
+*本教程基于 Florian BURNEL 在 [IT-Connect](https://www.it-connect.fr/) 上发表的原创内容。授权许可 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)。原文可能有改动。*
 
 
 
@@ -38,7 +38,7 @@ ___
 
 
 
-Cryptomator 是其他应用程序的替代品，特别是另一篇文章中介绍的 Picocrypt，它看起来不同，但使用起来同样简单。Cryptomator 也是**开放源码**，符合 RGPD 标准，并将使用 AES-256 位加密算法**加密数据。相比之下，Picocrypt 依靠的是速度更快的 XChaCha20 算法（也是 256 位）。
+Cryptomator 是其他应用程序的替代品，特别是另一篇文章中介绍的 Picocrypt，它看起来不同，但使用起来同样简单。Cryptomator 也是**开放源码**，符合 RGPD 标准，并将使用 AES-256 位加密算法**加密数据**。相比之下，Picocrypt 依靠的是速度更快的 XChaCha20 算法（也是 256 位）。
 
 
 
@@ -170,7 +170,7 @@ Cryptomator 应用程序适用于**Windows**（exe / msi）、**Linux**、**macO
 
 
 
-在 OneDrive 端，我们无法直接浏览 Cryptomator 保管库。我们看不到数据（既看不到文件名，也看不到内容）。这意味着您不需要通过常用的 OneDrive 快捷方式向 Cryptomator 保管库添加数据。 **您必须使用 Cryptomator 的虚拟驱动器添加数据。
+在 OneDrive 端，我们无法直接浏览 Cryptomator 保管库。我们看不到数据（既看不到文件名，也看不到内容）。这意味着您不需要通过常用的 OneDrive 快捷方式向 Cryptomator 保管库添加数据。**您必须使用 Cryptomator 的虚拟驱动器添加数据。**
 
 
 

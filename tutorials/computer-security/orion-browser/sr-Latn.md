@@ -60,11 +60,11 @@ Njegova jedinstvena karakteristika? Orion je **jedini WebKit** pregledač koji n
 
 
 
-- Ograničena dostupnost**: Trenutno rezervisano za macOS i iOS/iPadOS. Verzija za Linux dostiže razvojne prekretnice (Prekretnica 2 u 2025. godini), ali javna verzija nije dostupna. Windows i Android nisu u razvoju zbog nedostatka resursa.
-- Zatvoreni izvorni kod**: Iako su neki delovi otvorenog koda, Orion ostaje pretežno vlasnički, što je tačka debate u zajednici za privatnost.
-- Eksperimentalna proširenja**: Podrška za proširenja je i dalje u beta fazi, sa čestim nekompatibilnostima. Proširenja mogu uticati na performanse, a neka uopšte ne rade.
-- WebKit bezbednost**: Za razliku od Chromium-a, WebKit ne nudi tako robusnu izolaciju procesa po sajtu, što može predstavljati bezbednosne rizike u određenim scenarijima.
-- Blokiranje testova**: Orion namerno loše prolazi u testovima online oglašavanja (26-35%), jer Kagi smatra da su ovi testovi "fundamentalno pogrešni". Stvarna efikasnost u svakodnevnoj upotrebi je daleko superiornija.
+- **Ograničena dostupnost**: Trenutno rezervisano za macOS i iOS/iPadOS. Verzija za Linux dostiže razvojne prekretnice (Prekretnica 2 u 2025. godini), ali javna verzija nije dostupna. Windows i Android nisu u razvoju zbog nedostatka resursa.
+- **Zatvoreni izvorni kod**: Iako su neki delovi otvorenog koda, Orion ostaje pretežno vlasnički, što je tačka debate u zajednici za privatnost.
+- **Eksperimentalna proširenja**: Podrška za proširenja je i dalje u beta fazi, sa čestim nekompatibilnostima. Proširenja mogu uticati na performanse, a neka uopšte ne rade.
+- **WebKit bezbednost**: Za razliku od Chromium-a, WebKit ne nudi tako robusnu izolaciju procesa po sajtu, što može predstavljati bezbednosne rizike u određenim scenarijima.
+- **Blokiranje testova**: Orion namerno loše prolazi u testovima online oglašavanja (26-35%), jer Kagi smatra da su ovi testovi "fundamentalno pogrešni". Stvarna efikasnost u svakodnevnoj upotrebi je daleko superiornija.
 
 
 
@@ -134,7 +134,7 @@ Prilikom prvog pokretanja, Orion vas vodi kroz nekoliko koraka:
 
 
 
-**1. Ekran dobrodošlice
+**1. Ekran dobrodošlice**
 
 
 ![Écran de bienvenue d'Orion](assets/fr/04.webp)
@@ -156,8 +156,8 @@ Prilikom prvog pokretanja, Orion vas vodi kroz nekoliko koraka:
 
 
 
-- Uvoz podataka**: Lako prenesite favorite i lozinke iz Safarija, Chrome-a ili Firefoxa
-- ICloud sinhronizacija**: Aktivirajte da pronađete svoje favorite i kartice na svim vašim Apple uređajima
+- **Uvoz podataka**: Lako prenesite favorite i lozinke iz Safarija, Chrome-a ili Firefoxa
+- **iCloud sinhronizacija**: Aktivirajte da pronađete svoje favorite i kartice na svim vašim Apple uređajima
 
 
 
@@ -171,7 +171,7 @@ Prilikom prvog pokretanja, Orion vas vodi kroz nekoliko koraka:
 
 
 
-**4. Interface dobrodošlica i osnovni alati
+**4. Interface dobrodošlica i osnovni alati**
 
 
 
@@ -188,9 +188,9 @@ Kada je konfiguracija završena, otkrićete Orionov pojednostavljeni Interface s
 
 
 
-- Štit 🛡️**: Prikazuje Izveštaj o privatnosti sa brojem stavki blokiranih na trenutnoj stranici
-- Četkica 🖌️**: Prilagodite prikaz stranice (tema, font, uklonite ometajući Elements)
-- Gear ⚙️**: Konfiguriši parametre specifične za veb-sajt (dozvole, blokiranje, itd.)
+- **Štit 🛡️**: Prikazuje Izveštaj o privatnosti sa brojem stavki blokiranih na trenutnoj stranici
+- **Četkica 🖌️**: Prilagodite prikaz stranice (tema, font, uklonite ometajući Elements)
+- **Gear ⚙️**: Konfiguriši parametre specifične za veb-sajt (dozvole, blokiranje, itd.)
 
 
 
@@ -251,8 +251,8 @@ Pristupite preferencama putem **Orion → Preferences** (ili ⌘,):
 
 
 
-- Podrazumevani pretraživač**: Izaberite **DuckDuckGo**, **Startpage** ili **Kagi** za optimalnu privatnost (izbegavajte Google/Bing)
-- Preporuke pretrage**: Onemogućite ih kako biste sprečili da pritisci tastera budu poslati serverima pretraživača
+- **Podrazumevani pretraživač**: Izaberite **DuckDuckGo**, **Startpage** ili **Kagi** za optimalnu privatnost (izbegavajte Google/Bing)
+- **Preporuke pretrage**: Onemogućite ih kako biste sprečili da pritisci tastera budu poslati serverima pretraživača
 
 
 
@@ -272,9 +272,9 @@ Pristupite preferencama putem **Orion → Preferences** (ili ⌘,):
 
 
 
-- EasyList**: 119k+ pravila za blokiranje oglasa
-- EasyPrivacy**: Zaštita protiv praćenja
-- Upravljaj listama filtera**: Dodaj dodatne liste (Hagezi preporučeno)
+- **EasyList**: 119k+ pravila za blokiranje oglasa
+- **EasyPrivacy**: Zaštita protiv praćenja
+- **Upravljaj listama filtera**: Dodaj dodatne liste (Hagezi preporučeno)
 
 
 
@@ -283,9 +283,9 @@ Pristupite preferencama putem **Orion → Preferences** (ili ⌘,):
 
 
 
-- Ukloni pratioce iz URL-ova**: "Samo za privatno pretraživanje" čisti kopirane linkove
-- Delite izveštaje o padu**: "Nakon traženja odobrenja" poštuje vaš pristanak
-- Prilagođeni korisnički agent**: Može se modifikovati da zaobiđe određene blokade
+- **Ukloni pratioce iz URL-ova**: "Samo za privatno pretraživanje" čisti kopirane linkove
+- Delite izveštaje o padu: "Nakon traženja odobrenja" poštuje vaš pristanak
+- **Prilagođeni korisnički agent**: Može se modifikovati da zaobiđe određene blokade
 
 
 
@@ -312,10 +312,10 @@ Pristupite preferencama putem **Orion → Preferences** (ili ⌘,):
 
 
 
-- Režim kompatibilnosti**: Rešava probleme sa prikazom obustavljanjem ekstenzija
-- Blokatori sadržaja**: Deaktivirajte blokiranje za određeni sajt ako je potrebno
-- JavaScript/Kolačići**: Granularna kontrola po sajtu
-- Dozvole**: Kamera, mikrofon, lokacija pojedinačno konfigurisane
+- **Režim kompatibilnosti**: Rešava probleme sa prikazom obustavljanjem ekstenzija
+- **Blokatori sadržaja**: Deaktivirajte blokiranje za određeni sajt ako je potrebno
+- **JavaScript/Kolačići**: Granularna kontrola po sajtu
+- **Dozvole**: Kamera, mikrofon, lokacija pojedinačno konfigurisane
 
 
 
@@ -355,9 +355,9 @@ Orion prirodno podržava ekstenzije za Chrome i Firefox. Instalirajte ih direktn
 
 
 
-- uBlock Origin**: Dodaje granularnu kontrolu nad ugrađenim blokatorom
-- Bitwarden**: Menadžer lozinki otvorenog koda
-- ClearURLs**: Briše parametre za praćenje u URL-ovima
+- **uBlock Origin**: Dodaje granularnu kontrolu nad ugrađenim blokatorom
+- **Bitwarden**: Menadžer lozinki otvorenog koda
+- **ClearURLs**: Briše parametre za praćenje u URL-ovima
 
 
 
@@ -366,9 +366,9 @@ Orion prirodno podržava ekstenzije za Chrome i Firefox. Instalirajte ih direktn
 
 
 
-- LocalCDN**: Služi zajedničke biblioteke lokalno
-- Cookie AutoDelete**: Automatski briše kolačiće nakon zatvaranja kartica
-- NoScript**: Totalna kontrola nad izvršavanjem JavaScript-a (napredni korisnici)
+- **LocalCDN**: Služi zajedničke biblioteke lokalno
+- **Cookie AutoDelete**: Automatski briše kolačiće nakon zatvaranja kartica
+- **NoScript**: Totalna kontrola nad izvršavanjem JavaScript-a (napredni korisnici)
 
 
 
@@ -426,8 +426,8 @@ Orionova **četkica** je jedinstvena funkcija koja vam omogućava prilagođavanj
 
 
 
-- Veličina fonta**: Podesite čitljivost pomoću dugmadi A- i A+
-- Stil fonta**: Promeni porodicu fonta (podrazumevana ili prilagođena)
+- **Veličina fonta**: Podesite čitljivost pomoću dugmadi A- i A+
+- **Stil fonta**: Promeni porodicu fonta (podrazumevana ili prilagođena)
 
 
 
@@ -436,8 +436,8 @@ Orionova **četkica** je jedinstvena funkcija koja vam omogućava prilagođavanj
 
 
 
-- Onemogući lepljive zaglavlja**: Uklanja zaglavlja koja ostaju zalepljena na vrhu prilikom skrolovanja
-- Izbriši Elements**: Trajno ukloni dosadne Elements (reklame, iskačuće prozore, banere sa kolačićima)
+- **Onemogući lepljive zaglavlja**: Uklanja zaglavlja koja ostaju zalepljena na vrhu prilikom skrolovanja
+- **Izbriši Elements**: Trajno ukloni dosadne Elements (reklame, iskačuće prozore, banere sa kolačićima)
   - Kliknite na "+ Izbriši" zatim odaberite stavku koju želite sakriti
   - Veoma korisno za sajtove sa upornim reklamama ili vizuelnim praćenjem Elements
 
@@ -452,10 +452,10 @@ Orionova **četkica** je jedinstvena funkcija koja vam omogućava prilagođavanj
 
 
 
-- Vertikalne kartice**: Aktivirajte putem trake menija (funkcija Kartice sa strane)
-- Kompaktne kartice**: U Podešavanjima → Kartice → Raspored "Kompaktno" za uštedu prostora
-- Grupe kartica**: Organizujte svoje sesije po temama
-- Više profila**: Kreirajte odvojene identitete putem trake menija (funkcija Profili) sa potpuno izolovanim podacima
+- **Vertikalne kartice**: Aktivirajte putem trake menija (funkcija Kartice sa strane)
+- **Kompaktne kartice**: U Podešavanjima → Kartice → Raspored "Kompaktno" za uštedu prostora
+- **Grupe kartica**: Organizujte svoje sesije po temama
+- **Više profila**: Kreirajte odvojene identitete putem trake menija (funkcija Profili) sa potpuno izolovanim podacima
 
 
 
@@ -468,13 +468,13 @@ Orionova **četkica** je jedinstvena funkcija koja vam omogućava prilagođavanj
 
 
 
-- Izmeni Tekst na Stranici**: privremeno izmeni bilo koji tekst (Izmeni meni)
-- Dozvoli Kopiranje i Lepljenje**: Zaobilazi ograničenja kopiranja (Meni za uređivanje)
-- Kopiraj Čistu Vezu**: Desni klik na vezu da ukloniš parametre praćenja
-- Fokus Mod**: navigacija bez ometanja, preko celog ekrana
-- Picture-in-Picture**: Gledajte video zapise u plutajućem prozoru
-- Otvorite u Internet arhivi**: Direktan pristup arhiviranim verzijama
-- Izveštaj o privatnosti**: Kliknite na štit 🛡️ da vidite stavke blokirane od strane stranice
+- **Izmeni Tekst na Stranici**: privremeno izmeni bilo koji tekst (Izmeni meni)
+- **Dozvoli Kopiranje i Lepljenje**: Zaobilazi ograničenja kopiranja (Meni za uređivanje)
+- **Kopiraj Čistu Vezu**: Desni klik na vezu da ukloniš parametre praćenja
+- **Fokus Mod**: navigacija bez ometanja, preko celog ekrana
+- **Picture-in-Picture**: Gledajte video zapise u plutajućem prozoru
+- Otvorite u Internet arhivi: Direktan pristup arhiviranim verzijama
+- **Izveštaj o privatnosti**: Kliknite na štit 🛡️ da vidite stavke blokirane od strane stranice
 
 
 
@@ -507,14 +507,14 @@ Da bi Orion ostao brz i privatan:
 
 
 
-- Ekstenzije**: Ograničiti na strogi minimum (može smanjiti performanse)
-- Režim niske potrošnje**: Aktivirajte za duge sesije (moguća ušteda od 90%)
-- Izveštaj o privatnosti**: Kliknite na štit 🛡️ da biste videli blokade u realnom vremenu
-- Vizuelno prilagođavanje**: Koristite 🖌️ četkicu da prilagodite prikaz i uklonite ometajući Elements
-- Kopiraj Čistu Vezu**: Desni klik za kopiranje veza bez pratilaca
-- Odvojeni profili**: Koristite posvećene profile za razdvajanje svojih aktivnosti
-- Postavke veb-sajta**: Kliknite na zupčanik ⚙️ da prilagodite dozvole po sajtu
-- Redovno čišćenje**: Očistite keš putem Orion → Očisti podatke pretraživanja
+- **Ekstenzije**: Ograničiti na strogi minimum (može smanjiti performanse)
+- **Režim niske potrošnje**: Aktivirajte za duge sesije (moguća ušteda od 90%)
+- **Izveštaj o privatnosti**: Kliknite na štit 🛡️ da biste videli blokade u realnom vremenu
+- **Vizuelno prilagođavanje**: Koristite 🖌️ četkicu da prilagodite prikaz i uklonite ometajuće elemente
+- **Kopiraj Čistu Vezu**: Desni klik za kopiranje veza bez pratilaca
+- **Odvojeni profili**: Koristite posvećene profile za razdvajanje svojih aktivnosti
+- **Postavke veb-sajta**: Kliknite na zupčanik ⚙️ da prilagodite dozvole po sajtu
+- **Redovno čišćenje**: Očistite keš putem Orion → Očisti podatke pretraživanja
 
 
 
@@ -605,9 +605,9 @@ Da bi Orion ostao brz i privatan:
 
 
 
-- Automatska ažuriranja**: Orion se automatski ažurira na macOS putem Sparkle
-- Praćenje ranjivosti**: Redovno proveravajte beleške o izdanju za sigurnosne zakrpe
-- Prijavljivanje grešaka**: Koristite [orionfeedback.org](https://orionfeedback.org) za prijavljivanje problema
+- **Automatska ažuriranja**: Orion se automatski ažurira na macOS putem Sparkle
+- **Praćenje ranjivosti**: Redovno proveravajte beleške o izdanju za sigurnosne zakrpe
+- **Prijavljivanje grešaka**: Koristite [orionfeedback.org](https://orionfeedback.org) za prijavljivanje problema
 
 
 
@@ -641,12 +641,12 @@ Zapamtite: zaštita vaše privatnosti ne zavisi samo od vašeg pregledača. Komb
 
 
 
-- Zvanična veb stranica**: [kagi.com/orion](https://kagi.com/orion/)
-- Full FAQ**: [browser.kagi.com/faq](https://browser.kagi.com/faq)
-- Zajednički forum**: [community.kagi.com](https://community.kagi.com)
-- Praćenje grešaka**: [orionfeedback.org](https://orionfeedback.org)
-- GitHub Orion**: [github.com/OrionBrowser](https://github.com/OrionBrowser) - Komponente otvorenog koda
-- Blog Kagi**: [blog.kagi.com](https://blog.kagi.com) - Vesti i ažuriranja
+- **Zvanična veb stranica**: [kagi.com/orion](https://kagi.com/orion/)
+- **Full FAQ**: [browser.kagi.com/faq](https://browser.kagi.com/faq)
+- **Zajednički forum**: [community.kagi.com](https://community.kagi.com)
+- **Praćenje grešaka**: [orionfeedback.org](https://orionfeedback.org)
+- **GitHub Orion**: [github.com/OrionBrowser](https://github.com/OrionBrowser) - Komponente otvorenog koda
+- **Blog Kagi**: [blog.kagi.com](https://blog.kagi.com) - Vesti i ažuriranja
 
 
 

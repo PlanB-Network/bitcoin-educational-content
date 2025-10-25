@@ -1,0 +1,9 @@
+question: 존 마토니스가 운영하는 디지털 화폐(2010년 3월의 Bitcoin 포함)를 다루는 블로그의 이름은 무엇인가요?
+answer: 화폐의 미래
+wrong_answers:
+  - 고전 경제학
+  - 현금으로 돌아가기
+  - 나카모토 연구소
+explanation: |
+  Satoshi와 이메일을 주고받은 후, 2010년 3월 13일에 [Bitcoin에 대한 첫 번째 기사](https: //themonetaryfuture.blogspot.com/2010/03/Bitcoin-peer-to-peer-전자 현금.html)를 게시했습니다.
+reviewed: true

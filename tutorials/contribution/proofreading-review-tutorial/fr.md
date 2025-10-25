@@ -64,9 +64,9 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 ![REVIEW](assets/fr/03.webp)
 
-* Vous pouvez maintenant voir l'interface GitHub du fichier à réviser.
+*Vous pouvez maintenant voir l'interface GitHub du fichier à réviser.*
 * Le panneau de gauche vous permet de naviguer à travers votre branche (cf. \**A\**) et les fichiers (cf. \**B\**).
-* Cliquez sur l'icône du stylo pour commencer la révision (cf. \**C\**).
+*Cliquez sur l'icône du stylo pour commencer la révision (cf. **C**).*
 
 ![REVIEW](assets/fr/04.webp)
 
@@ -83,13 +83,13 @@ NB. Il est recommandé d’effectuer la révision dans la fenêtre de code, avec
 ## 4. Commit les modifications
 
 * Vous pouvez commencer à relire le contenu et le corriger si besoin.
-* Lorsque vous souhaitez arrêter votre session de révision, vous pouvez commit vos modifications, même si la révision n'est pas terminée. C'est un peu comme si vous sauvegardiez vos modifications sur GitHub.
+*Lorsque vous souhaitez arrêter votre session de révision, vous pouvez commit vos modifications, même si la révision n'est pas terminée. C'est un peu comme si vous sauvegardiez vos modifications sur GitHub.*
 * Cliquez sur le bouton "Commit Changes...".
 
 ![REVIEW](assets/fr/07.webp)
 
 * Ajoutez un message descriptif sur votre changement (cf. \**A\**).
-* Ajoutez plus le contexte dans la description si nécessaire (cf. \**B\**).
+*Ajoutez plus le contexte dans la description si nécessaire (cf. **B**).*
 * Cliquez sur le bouton "Propose changes" (cf. \**C\**).
 
 ![REVIEW](assets/fr/08.webp)
@@ -138,4 +138,3 @@ Pour en savoir plus sur les directives à suivre lors de la relecture sur le Pla
 ![REVIEW](assets/fr/16.webp)
 
 * Si vous avez des remarques, des questions ou des commentaires sur ce projet, vous pouvez envoyer un DM [sur le groupe Telegram des contributeurs](https://t.me/PlanBNetwork_ContentBuilder).
-

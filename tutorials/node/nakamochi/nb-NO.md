@@ -1,7 +1,9 @@
 ---
 name: Nakamochi
-description: Node Running Made Easy - Hvordan sette opp og bruke Nakamochi Bitcoin og Lightning node.
+description: Nodekjøring gjort enkelt - Hvordan konfigurere og bruke Nakamochi Bitcoin- og Lightning-noden.
 ---
+![image](assets/cover.webp)
+
 Å drive din egen Bitcoin- og Lightning-node trenger ikke lenger å være en kompleks oppgave som er begrenset til tekniske eksperter. Tradisjonelt har det å sette opp og administrere noder krevd inngående kunnskap om kryptografi, nettverk og programvareutvikling. Nakamochi endrer dette ved å gjøre noder tilgjengelige for alle, uavhengig av teknisk bakgrunn.
 
 Med Nakamochi kan hvem som helst sette opp og drive en node hjemmefra, noe som gir fullt personvern og økonomisk uavhengighet. Ved å drive en full node sikrer du ikke bare dine egne transaksjoner, men bidrar også til Bitcoin-nettverkets styrke. Et desentralisert og robust Bitcoin-nettverk er avhengig av en bred distribusjon av noder for å sikre sikkerhet og uavhengighet.
@@ -36,27 +38,29 @@ Nakamochi-noden din administreres via en mobilapp, [BitBanana (Android)] (https:
 
 ![image](assets/en/01.webp)
 
-_Connect to power and write down your 24-word seed phrase__
+_Koble til strøm og skriv ned din 24-ords frøsetning_
 
 ![image](assets/en/02.webp)
 
-_Vent til blokkjeden har tatt oss igjen_ _Vent til blokkjeden har tatt oss igjen
+_Vent til blokkjeden har tatt igjen_
 
 ![image](assets/en/03.webp)
 
-_Sett opp en ny lommebok i Lightning Tab_
+_Sett opp ny lommebok i Lightning-fanen_
 
 ![image](assets/en/04.webp)
 
-_Skann QR-kode med Node Management App_
+_Skann QR-kode med Node Management-appen_
 
 ![image](assets/en/05.webp)
 
-_For ekstra sikkerhet, angi en PIN-kode_
+_For ekstra sikkerhet, sett en PIN-kode_
 
-**Merk:** _Gjør det mulig for Nakamochi-noden din å synkronisere med blokkjeden. Denne prosessen kan ta litt tid avhengig av internettforbindelsen din
+**Merk:** _La Nakamochi-noden din synkronisere med blokkjeden. Denne prosessen kan ta litt tid, avhengig av din internettforbindelse._
 
 ## Om Lightning Network
+
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Bitcoin Lightning Network revolusjonerer Bitcoin-transaksjoner ved å gjøre dem raskere, billigere og mer effektive. Det er perfekt for hverdagsbruk, og muliggjør nesten øyeblikkelige betalinger med minimale avgifter, noe som er ideelt for mikrotransaksjoner som å kjøpe en kaffe eller håndtere hyppige småkjøp.
 

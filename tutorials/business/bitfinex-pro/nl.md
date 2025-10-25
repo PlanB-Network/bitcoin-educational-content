@@ -116,11 +116,11 @@ Eenmaal ingelogd zie je bovenaan de Interface een navigatiebalk met: "*Trading*"
 
 
 
-- Handel**: "*klassieke*" markt waar je orders kunt plaatsen om cryptocurrencies (inclusief Bitcoin) te kopen en verkopen;
-- OTC**: Over-The-Counter dienst voor het rechtstreeks verhandelen van grote volumes met een andere speler, buiten de openbare orderboeken om;
-- Financiering**: Ruimte gewijd aan kredietverlening en marginfinanciering;
-- Derivaten**: Sectie voor derivaten (futures, etc.), bedoeld voor ervaren handelaren;
-- P2P**: Hiermee kun je crypto's van andere gebruikers kopen of verkopen op peer-to-peer basis.
+- **Handel**: "*klassieke*" markt waar je orders kunt plaatsen om cryptocurrencies (inclusief Bitcoin) te kopen en verkopen;
+- **OTC**: Over-The-Counter dienst voor het rechtstreeks verhandelen van grote volumes met een andere speler, buiten de openbare orderboeken om;
+- **Financiering**: Ruimte gewijd aan kredietverlening en marginfinanciering;
+- **Derivaten**: Sectie voor derivaten (futures, etc.), bedoeld voor ervaren handelaren;
+- **P2P**: Hiermee kun je crypto's van andere gebruikers kopen of verkopen op peer-to-peer basis.
 
 
 Voor standaardgebruik (bitcoins kopen/verkopen, stortingen/opnames en geldbeheer) zul je voornamelijk de tab "*Trading*" gebruiken, evenals de secties "*Wallet*", "*Deposit*" en "*Withdraw*".

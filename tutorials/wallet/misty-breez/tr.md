@@ -161,7 +161,7 @@ Misty Breez Wallet'inizde bir ödeme aldığınızda, göndericiniz size Boltz (
 
 
 
-Bakiye** menüsündeki Interface'ye tıklayın, Yıldırım Invoice'ü ödemek için **Gönder** seçeneğine tıklayın.
+**Bakiye** menüsündeki Interface'ye tıklayın, Yıldırım Invoice'ü ödemek için **Gönder** seçeneğine tıklayın.
 
 
 Lightning Invoice'i, alıcınızın Lightning Address'ünü takın veya ödemenizi yapmak için Invoice'in üzerindeki QR kodunu tarayın.

@@ -1,0 +1,9 @@
+question: Ni kizuizi gani kikuu cha mawasiliano ya Tor na nodi yako?
+answer: Upole
+wrong_answers:
+  - Ukosefu wa usimbaji fiche
+  - Barua taka
+  - Kutowezekana kwa kutumia RPC
+explanation: |
+  Miunganisho ya Tor ni salama, lakini polepole kuliko njia mbadala kama vile VPN.
+reviewed: true

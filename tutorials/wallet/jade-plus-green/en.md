@@ -94,7 +94,7 @@ Click on the "*Continue*" button to display your new recovery phrase.
 
 ![JADE-PLUS-GREEN](assets/fr/09.webp)
 
-Your Jade Plus displays your 12-word mnemonic phrase. **This mnemonic gives you full, unrestricted access to all your bitcoins. Anyone in possession of this phrase can steal your funds, even without physical access to your Jade Plus. The 12-word phrase restores access to your bitcoins in the event of loss, theft or breakage of your Jade. It is therefore very important to save it carefully and store it in a secure location.
+Your Jade Plus displays your 12-word mnemonic phrase. **This mnemonic gives you full, unrestricted access to all your bitcoins. Anyone in possession of this phrase can steal your funds, even without physical access to your Jade Plus. The 12-word phrase restores access to your bitcoins in the event of loss, theft or breakage of your Jade. It is therefore very important to save it carefully and store it in a secure location.**
 
 You can write it on the cardboard supplied in the box, or for added security, I recommend engraving it on a stainless steel base to protect it from fire, flood or collapse.
 
@@ -104,7 +104,7 @@ For more information on the proper way to save and manage your mnemonic phrase, 
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-***Obviously, you must never share these words on the Internet, as I do in this tutorial. This sample wallet will be used only on Testnet and will be deleted at the end of the tutorial
+**Obviously, you must never share these words on the Internet, as I do in this tutorial. This sample wallet will be used only on Testnet and will be deleted at the end of the tutorial**
 
 Click on the arrow on the right of the screen to display the following words.
 
@@ -293,6 +293,5 @@ Congratulations, you now know how to set up and use the Jade Plus with the Block
 To take things a step further, I recommend this tutorial on the Jade Plus, where we configure it with Sparrow Wallet software in QR mode. You'll also learn how to use the advanced settings of your hardware wallet:
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
-
 
 

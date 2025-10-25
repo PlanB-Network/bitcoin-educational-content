@@ -36,10 +36,10 @@ Firefoxin valitseminen on kuitenkin vasta ensimmäinen askel. Oletusarvoisesti j
 
 
 
-- Vapaa ja avoin lähdekoodi** (Gecko-moottori): tarkastettava, läpinäkyvä koodi
-- Voittoa tavoittelematon organisaatio**: Mozilla Foundation, yleishyödyllinen tehtävä
-- Sisäänrakennettu natiivisuojaus**: Enhanced Tracking Protection (ETP), Total Cookie Protection (TCP), State Partitioning, HTTPS-only mode, DNS over HTTPS (DoH)
-- Kehittynyt mukauttaminen**: Toisin kuin Chrome, Firefox antaa sinun muokata käyttäytymistään perusteellisesti
+- **Vapaa ja avoin lähdekoodi** (Gecko-moottori): tarkastettava, läpinäkyvä koodi
+- **Voittoa tavoittelematon organisaatio**: Mozilla Foundation, yleishyödyllinen tehtävä
+- **Sisäänrakennettu natiivisuojaus**: Enhanced Tracking Protection (ETP), Total Cookie Protection (TCP), State Partitioning, HTTPS-only mode, DNS over HTTPS (DoH)
+- **Kehittynyt mukauttaminen**: Toisin kuin Chrome, Firefox antaa sinun muokata käyttäytymistään perusteellisesti
 
 
 
@@ -49,9 +49,9 @@ Firefoxin valitseminen on kuitenkin vasta ensimmäinen askel. Oletusarvoisesti j
 
 
 
-- Ei yleispätevää reseptiä**: mitä enemmän muokkaat, sitä suurempi riski on erottua (sormenjälki). Tavoitteena on olla paremmin suojattu erottumatta joukosta.
-- Vaiheittainen edistyminen**: Muuta asetusta, testaa tavallisia sivustoja ja jatka sitten. Kaikkea ei tarvitse muuttaa kerralla.
-- Henkilökohtainen tasapaino**: Löydä SINUN kompromissi yksityisyyden ja helppokäyttöisyyden välillä.
+- Ei yleispätevää reseptiä: mitä enemmän muokkaat, sitä suurempi riski on erottua (sormenjälki). Tavoitteena on olla paremmin suojattu erottumatta joukosta.
+- **Vaiheittainen edistyminen**: Muuta asetusta, testaa tavallisia sivustoja ja jatka sitten. Kaikkea ei tarvitse muuttaa kerralla.
+- **Henkilökohtainen tasapaino**: Löydä SINUN kompromissi yksityisyyden ja helppokäyttöisyyden välillä.
 
 
 
@@ -69,9 +69,9 @@ Firefoxin valitseminen on kuitenkin vasta ensimmäinen askel. Oletusarvoisesti j
 
 
 
-- Windows**: lataa `.exe`-asennusohjelma, kaksoisnapsauta sitä ja seuraa ohjatun asennuksen ohjeita
-- macOS**: lataa `.dmg`-tiedosto, avaa se ja vedä Firefox Sovellukset-kansioon
-- Linux**: useita vaihtoehtoja - paketti `.deb`/`.rpm`, Flatpak (Flathub), Snap tai paketinhallinta (apt, dnf, pacman). Suositaan Mozillan virallisia lähteitä.
+- **Windows**: lataa `.exe`-asennusohjelma, kaksoisnapsauta sitä ja seuraa ohjatun asennuksen ohjeita
+- **macOS**: lataa `.dmg`-tiedosto, avaa se ja vedä Firefox Sovellukset-kansioon
+- **Linux**: useita vaihtoehtoja - paketti `.deb`/`.rpm`, Flatpak (Flathub), Snap tai paketinhallinta (apt, dnf, pacman). Suositaan Mozillan virallisia lähteitä.
 
 
 
@@ -106,9 +106,9 @@ Firefoxin valitseminen on kuitenkin vasta ensimmäinen askel. Oletusarvoisesti j
 
 
 
-- Kohteen eristäminen (Fission)**: asteittaisessa käyttöönotossa. Tämä ominaisuus ajaa jokaisen sivuston erillisessä prosessissa, jotta yksi haitallinen välilehti ei pääse käsiksi toisen sivuston tietoihin. Tarkista sen tila osoitteesta `about:support` (etsi hakusanalla "Fission"). Jos se ei ole käytössä, voit aktivoida sen manuaalisesti kohdassa `about:config` komennolla `fission.autostart = true`.
-- Total Cookie Protection (TCP)**: oletusarvoisesti aktiivinen. Evästeet ja muu tallennus rajoitetaan ensimmäisen osapuolen sivustolle (yksi "purkki" sivustoa kohti), mikä neutralisoi sivuston rajat ylittävän seurannan. Tilapäisiä poikkeuksia tehdään tarvittaessa Storage Access API:n kautta (integroidut kirjautumispainikkeet).
-- Bounce/Redirect Tracking Protection**: Firefox havaitsee ja puhdistaa automaattisesti evästeet, jotka ovat jääneet jäljityssivustojen (linkit, jotka ohjaavat sinut uudelleen jäljittäjän kautta ennen määränpäätä) taakse, ja vähentää näin tätä jäljityskanavaa ilman, että sinun tarvitsee tehdä mitään.
+- **Kohteen eristäminen (Fission)**: asteittaisessa käyttöönotossa. Tämä ominaisuus ajaa jokaisen sivuston erillisessä prosessissa, jotta yksi haitallinen välilehti ei pääse käsiksi toisen sivuston tietoihin. Tarkista sen tila osoitteesta `about:support` (etsi hakusanalla "Fission"). Jos se ei ole käytössä, voit aktivoida sen manuaalisesti kohdassa `about:config` komennolla `fission.autostart = true`.
+- **Total Cookie Protection (TCP)**: oletusarvoisesti aktiivinen. Evästeet ja muu tallennus rajoitetaan ensimmäisen osapuolen sivustolle (yksi "purkki" sivustoa kohti), mikä neutralisoi sivuston rajat ylittävän seurannan. Tilapäisiä poikkeuksia tehdään tarvittaessa Storage Access API:n kautta (integroidut kirjautumispainikkeet).
+- **Bounce/Redirect Tracking Protection**: Firefox havaitsee ja puhdistaa automaattisesti evästeet, jotka ovat jääneet jäljityssivustojen (linkit, jotka ohjaavat sinut uudelleen jäljittäjän kautta ennen määränpäätä) taakse, ja vähentää näin tätä jäljityskanavaa ilman, että sinun tarvitsee tehdä mitään.
 
 
 
@@ -146,13 +146,13 @@ Tässä ovat ETP:n eri suojaustasot:
 
 
 
-- Standard** (tasapainotettu, maksimaalinen yhteensopivuus)
+- **Standard** (tasapainotettu, maksimaalinen yhteensopivuus)
   - Estää: sosiaaliset seurantalaitteet, sivustojen väliset evästeet (kaikki ikkunat), sisällön seuranta yksityisessä selauksessa, kryptovaluutan louhijat, sormenjälkitunnistimet.
   - Sisältää **Total Cookie Protection** (TCP): yksi purkki sivustoa kohti.
-- Tiukka** (suositellaan luottamuksellisuuden vuoksi)
+- **Tiukka** (suositellaan luottamuksellisuuden vuoksi)
   - Estää myös seurantasisällön kaikissa ikkunoissa + tunnetut ja epäillyt sormenjäljet.
   - Saattaa rikkoa joitakin sivustoja; käytä 🛡️ -suojaa paikallisen poikkeuksen saamiseksi.
-- Mukautettu** (edistynyt)
+- **Mukautettu** (edistynyt)
   - Hienosäätö: evästeet, sisällön seuranta, alaikäiset, sormenjäljet (tunnetut/epäillyt).
 
 
@@ -161,7 +161,7 @@ Tässä ovat ETP:n eri suojaustasot:
 
 
 
-**Cookies ja sivuston tiedot
+**Cookies ja sivuston tiedot**
 
 
 
@@ -176,9 +176,9 @@ Tässä ovat ETP:n eri suojaustasot:
 
 
 - Ota **automaattitäyttö** (henkilötunnukset, osoitteet, kortit) pois käytöstä. Käytä sen sijaan salasanahallintaohjelmaa.
-- Haku**: poista käytöstä **"Näytä hakuehdotukset "**.
-- Address-palkki**: leikkaa **"Sponsoroidut ehdotukset "** ja **"Kontekstiehdotukset "**.
-- Etusivu**: poista **Tasku** ja **sponsoroitu sisältö** käytöstä.
+- **Haku**: poista käytöstä **"Näytä hakuehdotukset"**.
+- **Address-palkki**: leikkaa **"Sponsoroidut ehdotukset"** ja **"Kontekstiehdotukset"**.
+- **Etusivu**: poista **Tasku** ja **sponsoroitu sisältö** käytöstä.
 
 
 
@@ -198,14 +198,14 @@ Tässä ovat ETP:n eri suojaustasot:
 
 
 
-**Telemetria ja mainonnan mittaus
+**Telemetria ja mainonnan mittaus**
 
 
 
 
 - Kohdassa "Data collection by Firefox" **poista kaikki valinnat**.
 - Poista käytöstä **"Yksityisyyden suojaa edistävät mainostoimenpiteet "** (PPA).
-- Turvallinen selaus**: pidä se käytössä (suositellaan). Firefox tarkistaa sivustot uhkaluetteloiden perusteella hashed-kyselyjen ja paikallisten tarkistusten avulla, mikä suojaa phishingiltä ja haittaohjelmilta ja vaikuttaa vain vähän yksityisyyteen.
+- **Turvallinen selaus**: pidä se käytössä (suositellaan). Firefox tarkistaa sivustot uhkaluetteloiden perusteella hashed-kyselyjen ja paikallisten tarkistusten avulla, mikä suojaa phishingiltä ja haittaohjelmilta ja vaikuttaa vain vähän yksityisyyteen.
 
 
 
@@ -218,7 +218,7 @@ Tässä ovat ETP:n eri suojaustasot:
 
 
 
-**Hakukone
+**Hakukone**
 
 
 
@@ -245,10 +245,10 @@ Tässä ovat ETP:n eri suojaustasot:
 
 
 
-- uBlock Origin**: estää mainokset ja nykyisen seurannan, kevyt.
-- Privacy Badger**: oppii estämään, mikä sinua seuraa; lähettää Do Not Track / GPC.
-- ClearURLs** (valinnainen): Pidä se, jos näet edelleen "likaisia" URL-osoitteita (utm, fbclid).
-- Firefoxin usean tilin säiliöt**: **eristää evästeet/istunnot ja tallennuksen säiliökohtaisesti; rinnakkainen monitili; vähemmän cross-site-seurantaa**. Virallinen laajennus: `https://addons.mozilla.org/fr/firefox/addon/multi-account-containers/`.
+- **uBlock Origin**: estää mainokset ja nykyisen seurannan, kevyt.
+- **Privacy Badger**: oppii estämään, mikä sinua seuraa; lähettää Do Not Track / GPC.
+- **ClearURLs** (valinnainen): Pidä se, jos näet edelleen "likaisia" URL-osoitteita (utm, fbclid).
+- **Firefoxin usean tilin säiliöt**: **eristää evästeet/istunnot ja tallennuksen säiliökohtaisesti; rinnakkainen monitili; vähemmän cross-site-seurantaa**. Virallinen laajennus: `https://addons.mozilla.org/fr/firefox/addon/multi-account-containers/`.
 
 
 
@@ -261,7 +261,7 @@ Tässä ovat ETP:n eri suojaustasot:
 
 
 
-- Käytä erityistä salasanahallintaohjelmaa** (Bitwarden, KeePassXC). **Vältä** salasanojen tallentamista selaimeen. ** Ota 2FA** käyttöön aina kun mahdollista.
+- Käytä erityistä **salasanahallintaohjelmaa** (Bitwarden, KeePassXC). **Vältä** salasanojen tallentamista selaimeen. **Ota 2FA** käyttöön aina kun mahdollista.
 
 
 
@@ -278,11 +278,11 @@ Tavoite: toimintojen lokerointi ja verkkovuodon vähentäminen.
 
 
 
-- Oletustila**: Automaattisesti aktivoitu joillakin alueilla (USA, Kanada, Venäjä, Ukraina). Muualla vaaditaan manuaalinen aktivointi.
+- **Oletustila**: Automaattisesti aktivoitu joillakin alueilla (USA, Kanada, Venäjä, Ukraina). Muualla vaaditaan manuaalinen aktivointi.
 - Kokoonpano**: Asetukset → Yleiset → Verkkoasetukset → **Verkkoasetukset → **Valmis DoH** → **Cloudflare** tai **Quad9** → **Maksimaalinen suojaus**.
-- Suurin suojaus = vain TRR** (ei palautusta järjestelmän DNS:ään). Jos yrityksen/hotellin verkko estää, vaihda takaisin **Standardiin** tai poista DoH käytöstä.
-- Redundanssi**: DoH voi olla tarpeeton, jos käytät jo luotettavaa VPN:ää, jolla on oma suojattu DNS.
-- Tarkistustesti**: `https://www.dnsleaktest.com/` pitäisi näyttää vain valitun DoH-palveluntarjoajan.
+- Suurin suojaus = vain **TRR** (ei palautusta järjestelmän DNS:ään). Jos yrityksen/hotellin verkko estää, vaihda takaisin **Standardiin** tai poista DoH käytöstä.
+- **Redundanssi**: DoH voi olla tarpeeton, jos käytät jo luotettavaa VPN:ää, jolla on oma suojattu DNS.
+- **Tarkistustesti**: `https://www.dnsleaktest.com/` pitäisi näyttää vain valitun DoH-palveluntarjoajan.
 
 
 
@@ -290,20 +290,20 @@ Tavoite: toimintojen lokerointi ja verkkovuodon vähentäminen.
 
 
 
-**Konttien ja profiilien avulla tapahtuva lokerointi
+**Konttien ja profiilien avulla tapahtuva lokerointi**
 
 
 
 
-- Usean tilin säiliöt**: luo tiloja (Henkilökohtainen, Työ, Talous, Sosiaaliset verkostot, Ostokset, Kertakäyttö). Määritä **"Avaa aina tässä säiliössä "** toistuvia sivustoja varten. Virallinen laajennus: `https://addons.mozilla.org/fr/firefox/addon/multi-account-containers/`.
+- **Usean tilin säiliöt**: luo tiloja (Henkilökohtainen, Työ, Talous, Sosiaaliset verkostot, Ostokset, Kertakäyttö). Määritä **"Avaa aina tässä säiliössä"** toistuvia sivustoja varten. Virallinen laajennus: `https://addons.mozilla.org/fr/firefox/addon/multi-account-containers/`.
 - Miksi käyttää niitä?
-  - Evästeiden, istuntojen ja tallennuksen vahva eristäminen** tilakohtaisesti.
-  - Vähemmän cross-site-seurantaa**: rajoitetaan jättiläiset (Facebook, Google).
-  - Samanaikaiset useat tilit** samassa palvelussa.
-  - Vähemmän CSRF/XSS**-riskiä segmentoitujen identiteettien välillä.
+- **Evästeiden, istuntojen ja tallennuksen vahva eristäminen** tilakohtaisesti.
+- Vähemmän cross-site-seurantaa: rajoitetaan jättiläiset (Facebook, Google).
+- Samanaikaiset useat tilit samassa palvelussa.
+- Vähemmän CSRF/XSS-riskiä segmentoitujen identiteettien välillä.
   - Vinkki: ainakin omat säiliöt sosiaalisille verkostoille/Google, työ ja talous.
-- Facebook Container** (valinnainen): yksinkertaistettu versio FB/Instagramille.
-- Erilliset profiilit**: `about:profiles` kautta (pääprofiili, minimaalinen "erittäin turvallinen" profiili, testiprofiili). Tietojen ja laajennusten täydellinen lokerointi.
+- **Facebook Container** (valinnainen): yksinkertaistettu versio FB/Instagramille.
+- **Erilliset profiilit**: `about:profiles` kautta (pääprofiili, minimaalinen "erittäin turvallinen" profiili, testiprofiili). Tietojen ja laajennusten täydellinen lokerointi.
 
 
 
@@ -312,8 +312,8 @@ Tavoite: toimintojen lokerointi ja verkkovuodon vähentäminen.
 
 
 
-- Cookie AutoDelete**: poistaa sivuston evästeet heti, kun välilehti suljetaan (hyödyllinen, jos Firefox on auki pitkään).
-- LocalCDN**: palvelee nykyisiä kirjastoja paikallisesti (vähentää Google/Microsoft-pyyntöjä). Osittainen yhteensopivuus.
+- **Cookie AutoDelete**: poistaa sivuston evästeet heti, kun välilehti suljetaan (hyödyllinen, jos Firefox on auki pitkään).
+- **LocalCDN**: palvelee nykyisiä kirjastoja paikallisesti (vähentää Google/Microsoft-pyyntöjä). Osittainen yhteensopivuus.
 
 
 
@@ -322,7 +322,7 @@ Tavoite: toimintojen lokerointi ja verkkovuodon vähentäminen.
 
 
 
-- Firefox Android + uBlock Origin**: samanlainen suojaus liikkeellä.
+- **Firefox Android + uBlock Origin**: samanlainen suojaus liikkeellä.
 
 
 
@@ -450,7 +450,7 @@ Kultainen sääntö: jos jokin menee rikki, palaa edelliseen muutokseen.
 - Mitä se muuttaa (esimerkkejä): telemetrian katkaisu, evästeet/cache/referrer/HTTPS-vahvistus, **RFP** + letterboxing, **WebRTC pois käytöstä**, DoH/TLS-säädöt, chatty API:t rajoitettu.
 - Milloin sitä kannattaa käyttää: jos haluat Firefoxin kovetetun 10 minuutissa ja hyväksyä muutamia poikkeuksia (DRM/streaming, Web visio, SSO/maksaminen).
 - Edut: nopea, johdonmukainen, **päivitetty** (ESR-suuntautunut), erittäin hyvin **dokumentoitu** (wiki + kommentit), **muuttettavissa** ohitusten avulla.
-- Rajoitukset: yhteensopivuus (jotkin verkkosovellukset), mukavuus (UTC, ikkunakoot) ja muistutus: **(ei verkon anonymiteettiä).
+- Rajoitukset: yhteensopivuus (jotkin verkkosovellukset), mukavuus (UTC, ikkunakoot) ja muistutus: **(ei verkon anonymiteettiä)**.
 
 
 
@@ -542,11 +542,11 @@ Parhaat käytännöt
 
 
 
-- Päivitykset**: Firefox ja laajennukset ajan tasalla.
-- Pidennykset**: kohtuullisia ja luotettavia; varo "epäilyttäviä" lunastuksia.
-- Lataukset**: varovaisuus; testaa arkaluonteiset tiedostot VirusTotalissa.
-- Salasanat**: ***2FA** käytössä; vältä tallentamista selaimeen.
-- Hygienia**: rajoita Google/Facebook kontteihin; sulje/avoita säännöllisesti "nollataksesi" kontekstin.
+- **Päivitykset**: Firefox ja laajennukset ajan tasalla.
+- **Pidennykset**: kohtuullisia ja luotettavia; varo "epäilyttäviä" lunastuksia.
+- **Lataukset**: varovaisuus; testaa arkaluonteiset tiedostot VirusTotalissa.
+- **Salasanat**: ***2FA*** käytössä; vältä tallentamista selaimeen.
+- **Hygienia**: rajoita Google/Facebook kontteihin; sulje/avoita säännöllisesti "nollataksesi" kontekstin.
 
 
 
@@ -559,7 +559,7 @@ Parhaat käytännöt
 - Karkaistu selain ≠ verkon anonymiteetti: ilman **VPN**:ää IP-osoitteesi pysyy näkyvissä, ja jopa sen kanssa korrelaatio on edelleen mahdollista.
 - Liiallinen muokkaaminen voi tehdä sinusta **yksilöllisen**. **RFP** standardoi; satunnaistamisvälineet (esim. Chameleon) voivat... erottaa sinut muista. Testaa, vertaa, säädä.
 - Vaihtoehdot/täydennykset:
- - Tor Browser: verkon anonymiteetti Torin kautta; hitaampi. Katso täydellinen asennus- ja konfigurointioppaamme**:
+- Tor Browser: verkon anonymiteetti Torin kautta; hitaampi. Katso täydellinen asennus- ja konfigurointioppaamme:
 
 
 
@@ -567,7 +567,7 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 
 
- - Mullvad Browser: mullvad: "Tor ilman Toria", yhdistettävissä VPN:n kanssa; standardoitu jalanjälki. Lue, miten se asennetaan omassa opetusohjelmassamme**:
+- Mullvad Browser: mullvad: "Tor ilman Toria", yhdistettävissä VPN:n kanssa; standardoitu jalanjälki. Lue, miten se asennetaan omassa **opetusohjelmassamme**:
 
 
 
@@ -591,7 +591,7 @@ Kun noudatat tätä vaiheittaista opasta, olet tehnyt Firefoxista todellisen suo
 
 
 
-** Muista: luottamuksellisuus ei ole koskaan itsestäänselvyys. Testaa suojauksesi säännöllisesti, päivitä asetukset ja älä epäröi mukauttaa asetuksia tottumustesi muuttuessa. Anonymiteettisi verkossa riippuu yhtä paljon työkaluistasi kuin käytännöistäsi.
+**Muista: luottamuksellisuus ei ole koskaan itsestäänselvyys. Testaa suojauksesi säännöllisesti, päivitä asetukset ja älä epäröi mukauttaa asetuksia tottumustesi muuttuessa. Anonymiteettisi verkossa riippuu yhtä paljon työkaluistasi kuin käytännöistäsi.**
 
 
 
@@ -604,7 +604,7 @@ Kun noudatat tätä vaiheittaista opasta, olet tehnyt Firefoxista todellisen suo
 
 
 
-- SCU 202 - Henkilökohtaisen digitaalisen tietoturvan parantaminen: Lisätietoja tässä opetuksessa käsitellyistä digitaalisen turvallisuuden käsitteistä**
+- SCU 202 - Henkilökohtaisen digitaalisen tietoturvan parantaminen: Lisätietoja tässä opetuksessa käsitellyistä digitaalisen turvallisuuden käsitteistä
 
 
 
@@ -637,8 +637,8 @@ https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 
 - [PrivacyGuides - Työpöytäselaimet](https://www.privacyguides.org/en/desktop-browsers/): Selainsuositukset ja -vertailut
-- Reddit**: r/firefox, r/privacy palautetta ja tukea varten
-- PrivacyGuides-foorumi**: syvälliset tekniset keskustelut
+- **Reddit**: r/firefox, r/privacy palautetta ja tukea varten
+- **PrivacyGuides-foorumi**: syvälliset tekniset keskustelut
 
 
 

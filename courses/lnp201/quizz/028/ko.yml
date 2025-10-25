@@ -1,0 +1,9 @@
+question: 채널 폐쇄 중에 Alice의 부정 행위 시도를 감지하면 Bob은 어떻게 할 수 있나요?
+answer: 해지 키를 사용하여 모든 자금을 복구합니다
+wrong_answers:
+  - Alice의 Commitment Transaction 취소
+  - 다시 열 수 있는 옵션 없이 채널을 영구적으로 닫습니다
+  - 사용 가능한 자금의 절반만 청구
+explanation: |
+  부정 행위가 발생하면 Bob는 취소 키를 사용하여 채널의 모든 자금을 회수할 수 있으므로 Alice의 시도에 대해 처벌할 수 있습니다.
+reviewed: true

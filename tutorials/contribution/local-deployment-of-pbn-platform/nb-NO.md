@@ -110,7 +110,7 @@ Når containerne er i gang, får du tilgang til frontend på:
 
 Merk: Appen lastes automatisk inn på nytt hvis du endrer kildefiler.
 
-**7. Sett opp databasen din Schema
+**7. Sett opp databasen din Schema**
 
 Ved første kjøring må du kjøre DB-migreringene.
 

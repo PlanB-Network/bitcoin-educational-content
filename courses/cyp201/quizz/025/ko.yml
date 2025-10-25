@@ -1,0 +1,9 @@
+question: 여러 개의 공개키를 하나로 결합할 수 있는 슈노르의 속성은 무엇인가요?
+answer: 키 집계
+wrong_answers:
+  - 배치 확인
+  - 가단성
+  - 서명 압축
+explanation: |
+  슈노르에서는 여러 개의 공개 키를 하나의 키로 통합할 수 있습니다.
+reviewed: false

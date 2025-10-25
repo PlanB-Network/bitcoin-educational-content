@@ -1,5 +1,5 @@
 ---
-name: شروع9
+name: Start9
 description: راه‌اندازی نود Start 9 خود را انجام دهید
 ---
 

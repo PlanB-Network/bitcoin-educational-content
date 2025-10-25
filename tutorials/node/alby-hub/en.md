@@ -296,7 +296,7 @@ Go back to the Alby Go application, scan the QR code or paste the secret.
 
 ![ALBY HUB](assets/fr/50.webp)
 
-Click on "Finish*".
+Click on "Finish".
 
 ![ALBY HUB](assets/fr/51.webp)
 

@@ -1,0 +1,9 @@
+question: 2008년 10월 31일 Bitcoin의 설계에서 누락된 요소는 무엇인가요?
+answer: 한정된 단위 수
+wrong_answers:
+  - Proof of Work
+  - 간소화된 결제 인증
+  - Blockchain
+explanation: |
+  초기 통화 정책은 백서의 첫 번째 버전과 레이 딜린저와 함께한 Satoshi의 [거래소](https: //www.metzdowd.com/pipermail/cryptography/2008-November/014831.html)에 명시된 대로 일정한 발행량(X BTC/블록)에 해당합니다.
+reviewed: true

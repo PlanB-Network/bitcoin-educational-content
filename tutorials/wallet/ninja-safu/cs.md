@@ -24,19 +24,19 @@ Přístup Ninja SAFU nabízí několik výhod:
 
 
 
-- Důvěrnost**: Nekupujete produkt, který je označen jako určený pro zálohování kryptoměn. Komponenty jsou standardní (podložky, šrouby, kovová krabička), dostupné v obchodech s hardwarem, což snižuje riziko zaměření v případě úniku dat od specializovaného dodavatele.
+- **Důvěrnost**: Nekupujete produkt, který je označen jako určený pro zálohování kryptoměn. Komponenty jsou standardní (podložky, šrouby, kovová krabička), dostupné v obchodech s hardwarem, což snižuje riziko zaměření v případě úniku dat od specializovaného dodavatele.
 
 
 
 
 
-- Cenová dostupnost** : Toto řešení stojí od **15 do 140 EUR** v závislosti na nástrojích, které již máte.
+- **Cenová dostupnost**: Toto řešení stojí od **15 do 140 EUR** v závislosti na nástrojích, které již máte.
 
 
 
 
 
-- Spolehlivost**: [Jameson Lopp](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/), kteří ji podrobili náročným zátěžovým testům (extrémní teplo, koroze, mechanický tlak).
+- **Spolehlivost**: [Jameson Lopp](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/), kteří ji podrobili náročným zátěžovým testům (extrémní teplo, koroze, mechanický tlak).
 
 
 
@@ -59,17 +59,17 @@ K vytvoření zálohy Ninja SAFU budete potřebovat následující komponenty, k
 
 
 
-- Podložky z nerezové oceli (doporučujeme M8)** :
- - Materiál**: 304 nebo V4A pro zvýšenou odolnost proti korozi)
-    - Velikost**: M8 (vnitřní průměr 8 mm, vnější průměr ~24 mm). Podložky M6 jsou příliš malé a obtížně se gravírují.
-    - Množství**: 12 nebo 24 podložek pro standardní větu seed, plus volitelné podložky (viz bod 3.4) a přibližně deset podložek pro testy nebo chyby.
+- **Podložky z nerezové oceli (doporučujeme M8)**:
+- **Materiál**: 304 nebo V4A pro zvýšenou odolnost proti korozi
+- **Velikost**: M8 (vnitřní průměr 8 mm, vnější průměr ~24 mm). Podložky M6 jsou příliš malé a obtížně se gravírují.
+- **Množství**: 12 nebo 24 podložek pro standardní větu seed, plus volitelné podložky (viz bod 3.4) a přibližně deset podložek pro testy nebo chyby.
 
 
 
 
 
-- Nerezová ocel Bolt a matice (M8)** :
- - Specifikace**: Bolt 2,5 až 5 cm dlouhé, v závislosti na počtu a tloušťce podložek, průměr 8 mm. Křídlová matice usnadňuje otevírání bez použití nářadí, ale lze použít i jednoduchou matici.
+- **Nerezová ocel Bolt a matice (M8)** :
+- **Specifikace**: Bolt 2,5 až 5 cm dlouhé, v závislosti na počtu a tloušťce podložek, průměr 8 mm. Křídlová matice usnadňuje otevírání bez použití nářadí, ale lze použít i jednoduchou matici.
 
 
 
@@ -79,8 +79,8 @@ K vytvoření zálohy Ninja SAFU budete potřebovat následující komponenty, k
 
 
 
-- Sada děrovaček na písmena a číslice (3 mm nebo 6 mm)** :
-    - Specifikace**: v případě, že je část nápisu znehodnocena, je vhodnější použít znaky o výšce 6 mm, které usnadňují čitelnost. Vyberte si robustní sadu pro opakované použití.
+- **Sada děrovaček na písmena a číslice (3 mm nebo 6 mm)**:
+- **Specifikace**: v případě, že je část nápisu znehodnocena, je vhodnější použít znaky o výšce 6 mm, které usnadňují čitelnost. Vyberte si robustní sadu pro opakované použití.
 
 
 
@@ -90,14 +90,14 @@ K vytvoření zálohy Ninja SAFU budete potřebovat následující komponenty, k
 
 
 
-- Kladivo nebo bourací kladivo** :
+- **Kladivo nebo bourací kladivo**:
     - Pro dostatečnou a přesnou razicí sílu je vhodnější kladivo
 
 
 
 
 
-- Kovadlina nebo pevný povrch** :
+- **Kovadlina nebo pevný povrch**:
  - Silný povrch Hard (např. 1 kg kovadlina nebo 10 cm dlažební kostka), který tlumí nárazy.
 
 
@@ -112,7 +112,7 @@ Pokud nechcete investovat do sady razidel, můžete si podložky vyrýt také po
 
 
 
-- Razicí zařízení**: Udržuje podložku a vede razidlo, což umožňuje přesné a čisté razítkování, lepší orientaci a rovnoměrné rozmístění písmen
+- **Razicí zařízení**: Udržuje podložku a vede razidlo, což umožňuje přesné a čisté razítkování, lepší orientaci a rovnoměrné rozmístění písmen
 
 
 
@@ -122,7 +122,7 @@ Pokud nechcete investovat do sady razidel, můžete si podložky vyrýt také po
 
 
 
-- Těsnicí zařízení**: Těsnicí sáček nebo těsnicí pásek
+- **Těsnicí zařízení**: Těsnicí sáček nebo těsnicí pásek
 
 
 
@@ -132,7 +132,7 @@ Pokud nechcete investovat do sady razidel, můžete si podložky vyrýt také po
 
 
 
-- Hermeticky uzavřená nádoba**: Pro uložení bloku podložek
+- **Hermeticky uzavřená nádoba**: Pro uložení bloku podložek
 
 
 
@@ -145,8 +145,8 @@ Pokud nechcete investovat do sady razidel, můžete si podložky vyrýt také po
 
 
 
-- Doporučujeme rukavice** a **ochranné brýle**.
-- Trubkový klíč**, do kterého zasunete děrovačku tak, abyste ji drželi trubkovým klíčem, a ne prsty.
+- Doporučujeme **rukavice** a **ochranné brýle**.
+- **Trubkový klíč**, do kterého zasunete děrovačku tak, abyste ji drželi trubkovým klíčem, a ne prsty.
 
 
 
@@ -156,13 +156,13 @@ Pokud nechcete investovat do sady razidel, můžete si podložky vyrýt také po
 
 
 
-- Množství pro zálohu 24 slov**: 1 křídlová matice, 1 sada razidel, 1 kladivo/masseta, 1 kovadlina/podpěra.
+- **Množství pro zálohu 24 slov**: 1 křídlová matice, 1 sada razidel, 1 kladivo/masseta, 1 kovadlina/podpěra.
 
 
 
 
 
-- Celkové náklady** :
+- **Celkové náklady**:
  - Podložky a šrouby/matice: ~ 15 EUR
  - Děrovací sada: ~ 45 EUR
  - Ochranné pouzdro: ~ 55 EUR
@@ -254,7 +254,7 @@ Pokud nechcete investovat do sady razidel, můžete si podložky vyrýt také po
 
 
     - Z nové zálohy se pokuste obnovit své portfolio
-- Zapečetění zálohy** (volitelné a doporučené) :
+- **Zapečetění zálohy** (volitelné a doporučené):
  - V uzavíratelných proužcích nebo v uzavřených sáčcích.
  - Pokud používáte pouzdro, poznamenejte si jeho jedinečné identifikační číslo, abyste mohli zkontrolovat, zda se jedná o správné pouzdro, a ne o návnadu nahrazující originál.
 
@@ -269,7 +269,7 @@ Pokud nechcete investovat do sady razidel, můžete si podložky vyrýt také po
 
 
 
-Zálohu uložte na **diskrétním místě**, které není na očích a je přístupné pro pravidelnou kontrolu. Vyberte si ohnivzdorné a vodotěsné úložiště**, doma nebo na místě pod vaší **výhradní kontrolou**.
+Zálohu uložte na **diskrétním místě**, které není na očích a je přístupné pro pravidelnou kontrolu. Vyberte si **ohnivzdorné a vodotěsné úložiště**, doma nebo na místě pod vaší **výhradní kontrolou**.
 
 
 
@@ -313,7 +313,7 @@ I když je záloha dobře uložena, je třeba ji pravidelně **kontrolovat**:
 
 
 
-*ZŮSTAŇTE V BEZPEČÍ!
+**ZŮSTAŇTE V BEZPEČÍ!**
 
 
 ![image](assets/fr/08.webp)
@@ -379,21 +379,21 @@ Podle Jamesona Loppa:
 
 
 
-- Podložky** pro
+- **Podložky** pro
  - [Titan](https://pleb.style/fr-fr/products/disques-de-seed-supplementaires-titan-Wallet)
-- Podložky + matice + ochranné pouzdro** (pro podložky)
+- **Podložky + matice + ochranné pouzdro** (pro podložky)
  - [Titan](https://pleb.style/fr-fr/products/titan-Wallet-premium-acier-steel-Wallet-backup?variant=50022696419664)
  - [TerraSteel](https://pleb.style/fr-fr/products/terrasteel-Wallet-plebstyle-acier-backup)
 - Děrovací sada
  - [PlebStyle](https://pleb.style/fr/products/schlagstempelset-a-z-0-9-3mm)
-- Základ pro typování**
+- **Základ pro typování**
  - [PlebStyle](https://pleb.style/fr/products/schlagunterlage-10cm-x-10cm-x-1-5cm)
-- Klepací zařízení** (vodítko)
+- **Klepací zařízení** (vodítko)
  - [TerraSteel](https://pleb.style/fr-fr/products/zubehor-einschlag-vorrichtung?_pos=1&_sid=2767fd66f&_ss=r)
 - Těsnicí zařízení
  - [Zapečetěné pouzdro](https://pleb.style/fr/products/zubehor-5x-sicherheitstasche-tamper-evident)
  - [Těsnicí pásky](https://pleb.style/fr/products/zubehor-5x-siegel-streifen-fur-dein-seed-backup)
-- Kompletní** sada
+- **Kompletní** sada
  - [Titan](https://pleb.style/fr-fr/products/titan-Wallet-diy-kit-premium-seed-backup-steelwallet-plebstyle?pr_prod_strat=e5_desc&pr_rec_id=aa9f36359&pr_rec_pid=8728733155664&pr_ref_pid=8730877788496&pr_seq=uniform)
  - [TerraSteel](https://pleb.style/fr-fr/products/kopie-von-terrasteel-Wallet-starter-kit)
 

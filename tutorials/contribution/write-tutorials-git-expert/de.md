@@ -18,11 +18,11 @@ Sie haben bereits:
 In diesem Tutorial für erfahrene Git-Benutzer fassen wir kurz die wichtigsten Schritte und Richtlinien für das Anbieten eines neuen Plan ₿ Network Tutorials zusammen. Wenn Sie mit Git und GitHub nicht vertraut sind, empfehle ich Ihnen, stattdessen eines dieser beiden anderen, detaillierteren Tutorials zu besuchen, die Sie Schritt für Schritt führen:
 
 
-- Fortgeschrittene (GitHub Desktop)**:
+- **Fortgeschrittene (GitHub Desktop)**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
-- Anfänger (Webschnittstelle)**:
+- **Anfänger (Webschnittstelle)**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 
@@ -31,30 +31,30 @@ https://planb.network/tutorials/contribution/content/write-tutorials-github-web-
 Zur Bearbeitung von Markdown-Dateien:
 
 
-- Obsidian** (kostenlos, nicht quelloffen)
-- Mark Text** (kostenlos, Open-Source)
-- Zettlr** (kostenlos, Open-Source)
-- Typora** (Payware, ~€15, nicht Open-Source)
+- **Obsidian** (kostenlos, nicht quelloffen)
+- **Mark Text** (kostenlos, Open-Source)
+- **Zettlr** (kostenlos, Open-Source)
+- **Typora** (Payware, ~€15, nicht Open-Source)
 
 Für Git:
 
 
-- Git** (kostenlos, Open-Source)
-- GitHub Desktop** (kostenlos, Open-Source)
-- Sourcetree** (kostenlos, nicht Open-Source)
+- **Git** (kostenlos, Open-Source)
+- **GitHub Desktop** (kostenlos, Open-Source)
+- **Sourcetree** (kostenlos, nicht Open-Source)
 
 Zur Bearbeitung von YAML-Dateien:
 
 
-- Visual Studio Code** (kostenlos, Open-Source)
-- Sublime Text** (kostenlos mit Einschränkungen, nicht Open-Source)
+- **Visual Studio Code** (kostenlos, Open-Source)
+- **Sublime Text** (kostenlos mit Einschränkungen, nicht Open-Source)
 
 Erstellen von Diagrammen und visuellen Darstellungen:
 
 
-- Canva** (kostenlos mit kostenpflichtigen Optionen, nicht Open-Source)
-- Inkscape** (Kostenlos, Open-Source)
-- Penpot** (kostenlos, Open-Source)
+- **Canva** (kostenlos mit kostenpflichtigen Optionen, nicht Open-Source)
+- **Inkscape** (Kostenlos, Open-Source)
+- **Penpot** (kostenlos, Open-Source)
 
 ## Arbeitsabläufe
 
@@ -281,7 +281,7 @@ git push origin tuto-green-wallet-loic
 ## Standards für die Erstellung von Inhalten
 
 
-- Von der Plattform unterstützte Formatierung**:
+- **Von der Plattform unterstützte Formatierung**:
     - Klassisches Markdown: Listen, Links, Bilder, Zitate, Fett- und Kursivdruck usw.
     - LaTeX (nur Block, nicht Inline): abgegrenzt durch `$$`.
     - Inline-Code: Syntax mit einem einzigen Backtick.
@@ -292,13 +292,13 @@ print("Hello, Bitcoin!")
 ```
 
 
-- Illustrationen und Diagramme**:
+- **Illustrationen und Diagramme**:
     - Alle Bilder müssen im WebP-Format vorliegen. Verwenden Sie dieses kostenlose Tool, um sie bei Bedarf zu konvertieren: [ImagesConverter](https://github.com/LoicPandul/ImagesConverter).
     - Benennen Sie Bildmaterial mit 2 oder 3 Ziffern (z. B. "001.webp", "002.webp").
     - Verwenden Sie für Tutorials zu mobilen oder Hardware-Geldbörsen Modelle.
     - Verwenden Sie nur selbst erstelltes oder lizenzfreies Bildmaterial.
     - Stellen Sie sicher, dass sie relevant und von hoher Qualität sind.
-- Grafische Charta**:
+- **Grafische Charta**:
     - Schriftart: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans).
     - Farben Plan ₿ Netzwerk:
         - Orange: "#FF5C00"

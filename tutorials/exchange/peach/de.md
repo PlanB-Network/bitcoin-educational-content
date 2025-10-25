@@ -1,5 +1,5 @@
 ---
-name: Pfirsich
+name: Peach
 description: Vollständiger Leitfaden zur Verwendung von Peach und zum P2P-Tausch von Bitcoins
 ---
 ![cover](assets/cover.webp)
@@ -18,7 +18,7 @@ Peach ist eine P2P-Austauschplattform, die es Nutzern ermöglicht, Bitcoins ohne
 
 ### 2. Datenschutz und Datenerfassung
 
-**Welche Informationen werden von Peach gesammelt?
+**Welche Informationen werden von Peach gesammelt?**
 
 Peach ist bestrebt, ein absolutes Minimum an Daten über seine Nutzer zu speichern. Hier finden Sie einen Überblick über die Daten, die auf den Servern von Peach gespeichert sind:
 
@@ -36,7 +36,7 @@ Zur Erinnerung: Ein Hash ist ein unkenntlich gemachter Datensatz, ähnlich wie b
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
-**Wer kann meine Zahlungsdaten einsehen?
+**Wer kann meine Zahlungsdaten einsehen?**
 
 
 - Nur Ihr Vertragspartner kann Ihre Zahlungsdaten einsehen
@@ -68,17 +68,17 @@ Die Peach-Anwendung ist in vier Hauptbildschirme unterteilt, die über die unter
 ![Navigation dans l'application](assets/fr/02.webp)
 
 
-- Startseite** : Der Hauptbildschirm für den Kauf und Verkauf von Bitcoins. Hier können Sie neue Transaktionen erstellen und auf verfügbare Angebote zugreifen.
-- Geldbörse**: Ihre integrierte Bitcoin-Brieftasche, mit der Sie :
+- **Startseite**: Der Hauptbildschirm für den Kauf und Verkauf von Bitcoins. Hier können Sie neue Transaktionen erstellen und auf verfügbare Angebote zugreifen.
+- **Geldbörse**: Ihre integrierte Bitcoin-Brieftasche, mit der Sie :
  - Prüfen Sie Ihr Guthaben
  - Bitcoins erhalten
  - Bitcoins senden
  - Ihre Transaktionshistorie einsehen
-- Gewerke** : Ihr Handelsverwaltungszentrum, wo Sie finden :
+- **Gewerke**: Ihr Handelsverwaltungszentrum, wo Sie finden:
  - Ihre aktuellen Transaktionen
  - Eine vollständige Historie Ihrer Börsengeschäfte
  - Der Status jeder Transaktion
-- Einstellungen** : Ihr Konto-Konfigurationszentrum für :
+- **Einstellungen**: Ihr Konto-Konfigurationszentrum für :
  - Verwalten Sie Ihre Zahlungsmittel
  - Konfigurieren Sie Ihre Backups
  - Anpassen Ihrer Einstellungen
@@ -90,7 +90,7 @@ Die Peach-Anwendung ist in vier Hauptbildschirme unterteilt, die über die unter
 
 Zugang zu den Zahlungsmethoden über die Registerkarte Einstellungen (Abbildung 8)
 
-**Online-Zahlungen
+**Online-Zahlungen**
 
 ![Configuration des paiements en ligne](assets/fr/04.webp)
 
@@ -149,7 +149,7 @@ Länderspezifische Zahlungssysteme :
 
 ### 4. Wie Sie Ihr Portfolio sichern können
 
-**Verstehen Sie Ihr Peach-Konto
+**Verstehen Sie Ihr Peach-Konto**
 
 Bei einem Peach-Konto handelt es sich nicht um ein herkömmliches Konto mit Login und Passwort. Es ist eine Datei, die lokal auf Ihrem Telefon gespeichert ist. Das bedeutet, dass Peach Ihre Daten nicht speichern oder Ihre Identität kennen muss: Sie haben die Kontrolle. Diese Datei enthält alle Ihre Daten, von Ihren Bitcoin-Wallet-Schlüsseln bis zu Ihren Zahlungsdaten.
 
@@ -269,16 +269,16 @@ Um optimale Sicherheit zu gewährleisten, empfehlen wir Ihnen, beide Arten von S
 ### Vorteile von Pfirsich
 
 
-- Keine KYC erforderlich**: Bewahrt die Vertraulichkeit der Nutzer.
-- Kein Zugang zu Bankdaten**: Peach hat keinen Zugriff auf Ihre Bankdaten oder Ihre Identität.
-- Intuitive Schnittstelle**: Einfach zu bedienen für fortgeschrittene Benutzer.
-- Offener Quellcode** : Der Quellcode ist öffentlich und von der Gemeinschaft überprüfbar.
+- **Keine KYC erforderlich**: Bewahrt die Vertraulichkeit der Nutzer.
+- **Kein Zugang zu Bankdaten**: Peach hat keinen Zugriff auf Ihre Bankdaten oder Ihre Identität.
+- **Intuitive Schnittstelle**: Einfach zu bedienen für fortgeschrittene Benutzer.
+- **Offener Quellcode**: Der Quellcode ist öffentlich und von der Gemeinschaft überprüfbar.
 
 ### Nachteile von Pfirsichen
 
 
-- Begrenzte Liquidität**: Geringeres Handelsvolumen als bei etablierteren Plattformen.
-- Regulatorisches Risiko** : Die Anwendung wird von einem Schweizer Unternehmen verwaltet. Sie unterliegt daher den Schweizer Vorschriften, die sich weiterentwickeln und die Anwendung möglicherweise zensieren könnten.
+- **Begrenzte Liquidität**: Geringeres Handelsvolumen als bei etablierteren Plattformen.
+- **Regulatorisches Risiko**: Die Anwendung wird von einem Schweizer Unternehmen verwaltet. Sie unterliegt daher den Schweizer Vorschriften, die sich weiterentwickeln und die Anwendung möglicherweise zensieren könnten.
 
 ## Nützliche Ressourcen
 

@@ -1,5 +1,5 @@
 ---
-name: Elektrum OP_RETURN
+name: Electrum OP_RETURN
 description: Registrieren Sie eine Nachricht über den Blockchain Bitcoin mit Electrum
 ---
 
@@ -150,8 +150,8 @@ Wählen Sie die Nachricht, die Sie eingeben möchten (z. B. "Danke Satoshi"). Hi
 
 
 
-- einen schönen Ausdruck unserer Menschlichkeit hinterlassen,*
-- vermeiden Sie die Eingabe von Inhalten, die Sie möglicherweise bereuen*
+- einen schönen Ausdruck unserer Menschlichkeit hinterlassen,
+- vermeiden Sie die Eingabe von Inhalten, die Sie möglicherweise bereuen
 
 
 
@@ -208,9 +208,9 @@ die sich zusammensetzt aus :
 
 
 
-- Ziel Address**: Ein gültiger Bitcoin Address. Ici, `bc1q879cv4p5q6s9537orange3zss33d3turzad8`. Dies kann Ihr eigener Address sein, wenn Sie die überwiesenen Mittel an sich selbst zurückgeben möchten;
-- Überwiesener Betrag**: der Betrag der Transaktion, hier `0.00001` BTC. **Bitte beachten**: Da die in Electrum verwendete Einheit BTC ist, muss der im Transaktionsskript angegebene Betrag auch in BTC und nicht in Sats ausgedrückt werden;
-- Skript OP_RETURN**: Die in hexadezimale Werte umgewandelte Nachricht mit vorangestelltem Script(`OP_RETURN <Messsage>), 0`. Hier, `5468616e6b73205361746f736869` für die Nachricht in Hexadezimal.
+- **Ziel Address**: Ein gültiger Bitcoin Address. Ici, `bc1q879cv4p5q6s9537orange3zss33d3turzad8`. Dies kann Ihr eigener Address sein, wenn Sie die überwiesenen Mittel an sich selbst zurückgeben möchten;
+- **Überwiesener Betrag**: der Betrag der Transaktion, hier `0.00001` BTC. **Bitte beachten**: Da die in Electrum verwendete Einheit BTC ist, muss der im Transaktionsskript angegebene Betrag auch in BTC und nicht in Sats ausgedrückt werden;
+- **Skript OP_RETURN**: Die in hexadezimale Werte umgewandelte Nachricht mit vorangestelltem Script(`OP_RETURN <Messsage>), 0`. Hier, `5468616e6b73205361746f736869` für die Nachricht in Hexadezimal.
 
 
 

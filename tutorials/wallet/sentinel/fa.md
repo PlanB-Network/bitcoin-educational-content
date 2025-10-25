@@ -1,5 +1,5 @@
 ---
-name: سنتینل فقط-مشاهده
+name: Sentinel
 description: Watch-only wallet چیست و چگونه از آن استفاده کنیم؟
 ---
 

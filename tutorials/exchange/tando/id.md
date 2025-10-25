@@ -81,7 +81,7 @@ https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e
 
 
 
-- Pindai untuk Membayar** :
+- **Pindai untuk Membayar** :
 
 
 
@@ -95,7 +95,7 @@ Pindai untuk membayar adalah salah satu opsi pembayaran otomatis dari aplikasi i
 
 
 
-- Mengirim uang ke Kenya** :
+- **Mengirim uang ke Kenya** :
 
 
 
@@ -121,7 +121,7 @@ Bayar tagihan dari Lightning Wallet Anda dan Tando akan mengonversinya ke dalam 
 
 
 
-- Bayar tagihan Anda** :
+- **Bayar tagihan Anda** :
 
 
 
@@ -135,7 +135,7 @@ Masukkan nomor Invoice yang ingin Anda bayar, lalu lanjutkan dengan membayar Lig
 
 
 
-- Membeli barang** :
+- **Membeli barang** :
 
 
 

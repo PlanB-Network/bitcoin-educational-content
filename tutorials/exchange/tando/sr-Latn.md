@@ -81,7 +81,7 @@ https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e
 
 
 
-- Skeniraj za plaćanje** :
+- **Skeniraj za plaćanje**:
 
 
 
@@ -95,7 +95,7 @@ Skeniraj za plaćanje je jedna od automatskih opcija plaćanja u aplikaciji. Ske
 
 
 
-- Slanje novca u Keniju** :
+- **Slanje novca u Keniju**:
 
 
 
@@ -121,7 +121,7 @@ Platite račun sa vašeg Lightning Wallet i Tando će ga konvertovati u kenijske
 
 
 
-- Platite svoje račune** :
+- **Platite svoje račune** :
 
 
 
@@ -135,7 +135,7 @@ Unesite broj Invoice koji želite da platite, a zatim nastavite sa plaćanjem po
 
 
 
-- Kupovina robe** :
+- **Kupovina robe**:
 
 
 

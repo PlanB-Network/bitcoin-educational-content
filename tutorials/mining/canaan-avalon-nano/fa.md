@@ -1,5 +1,5 @@
 ---
-name: کنعان آوالون نانو 3S
+name: Canaan Avalon Nano 3S
 description: پیکربندی ASIC Avalon برای استخراج انفرادی یا Miner pooling
 ---
 

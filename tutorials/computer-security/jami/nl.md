@@ -50,11 +50,11 @@ Tegenwoordig is Jami beschikbaar op veel systemen. Het staat bekend om zijn pres
 
 
 
-- Het is open-source en helemaal gratis**, dus je kunt het gratis gebruiken.
-- Compleet met handige functies**: met deze software kun je profiteren van talloze opties, dankzij de mogelijkheid om eenvoudig plugins toe te voegen vanuit de winkel. Het is zelfs mogelijk om je eigen extensies te maken voor functies die beter aansluiten bij jouw behoeften.
-- Gebruiksvriendelijk en Interface intuïtief**: ondanks de vele functies die Jami te bieden heeft, is het nog steeds heel eenvoudig om ermee aan de slag te gaan.
-- Sterke beveiliging**: Jami bevat een geavanceerd encryptie-algoritme dat de veiligheid van uw communicatie garandeert met respect voor uw privacy.
-- Zeer toegankelijk en snel**: het biedt gemakkelijke communicatie, zelfs wanneer de bandbreedte beperkt is, voor meer gebruiksvriendelijkheid.
+- Het is open-source en helemaal **gratis**, dus je kunt het gratis gebruiken.
+- **Compleet met handige functies**: met deze software kun je profiteren van talloze opties, dankzij de mogelijkheid om eenvoudig plugins toe te voegen vanuit de winkel. Het is zelfs mogelijk om je eigen extensies te maken voor functies die beter aansluiten bij jouw behoeften.
+- **Gebruiksvriendelijk en intuïtieve interface**: ondanks de vele functies die Jami te bieden heeft, is het nog steeds heel eenvoudig om ermee aan de slag te gaan.
+- **Sterke beveiliging**: Jami bevat een geavanceerd encryptie-algoritme dat de veiligheid van uw communicatie garandeert met respect voor uw privacy.
+- **Zeer toegankelijk en snel**: het biedt gemakkelijke communicatie, zelfs wanneer de bandbreedte beperkt is, voor meer gebruiksvriendelijkheid.
 
 
 
@@ -338,9 +338,9 @@ Jami biedt ook **uitgebreide functies** voor gebruikers die verder willen gaan i
 
 
 
-- Maak een rendez-vous punt**: Met deze functie kun je een **rendez-vous punt** maken voor je communicatie, handig voor het organiseren van beveiligde sessies of uitwisselingen tussen verschillende gebruikers.
-- Verbinden met een Jami server**: U kunt Jami verbinden met een **Jami server**, wat de prestaties of beschikbaarheid van communicatie kan verbeteren, vooral in professionele omgevingen.
-- Een SIP-account** aanmaken: U kunt een **SIP account** (Session Initiation Protocol) aanmaken, zodat u Jami kunt integreren met bestaande telefoonsystemen of telefoongesprekken kunt voeren.
+- Maak een **rendez-vous punt**: Met deze functie kun je een **rendez-vous punt** maken voor je communicatie, handig voor het organiseren van beveiligde sessies of uitwisselingen tussen verschillende gebruikers.
+- **Verbinden met een Jami server**: U kunt Jami verbinden met een **Jami server**, wat de prestaties of beschikbaarheid van communicatie kan verbeteren, vooral in professionele omgevingen.
+- Een **SIP-account** aanmaken: U kunt een **SIP account** (Session Initiation Protocol) aanmaken, zodat u Jami kunt integreren met bestaande telefoonsystemen of telefoongesprekken kunt voeren.
 
 
 

@@ -1,5 +1,5 @@
 ---
-name: Varblane Wallet
+name: Sparrow Wallet
 description: Sparrow Wallet paigaldamine, konfigureerimine ja kasutamine
 ---
 ![cover](assets/cover.webp)

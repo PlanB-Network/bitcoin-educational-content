@@ -1,5 +1,5 @@
 ---
-name: 鳳凰城
+name: Phoenix
 description: 安裝和使用 Phoenix Wallet
 ---
 ![cover](assets/cover.webp)

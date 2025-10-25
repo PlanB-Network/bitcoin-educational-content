@@ -1,0 +1,9 @@
+question: Byla Spinozova rodina?
+answer: Židé.
+wrong_answers:
+  - Katolický.
+  - Protestantské.
+  - Ateista.
+explanation: |
+  Spinozova rodina byla židovská. Jeho rodiče byli portugalští Židé, kteří uprchli před inkvizicí a usadili se v Amsterdamu, kde žila početná sefardská židovská komunita.
+reviewed: false

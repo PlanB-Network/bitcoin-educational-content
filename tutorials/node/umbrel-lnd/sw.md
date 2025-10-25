@@ -1,5 +1,5 @@
 ---
-name: Mwavuli LND
+name: Umbrel LND
 description: Mafunzo ya kina juu ya kusakinisha na kusanidi Lightning Network Daemon (LND) kwenye Umbrel
 ---
 ![cover](assets/cover.webp)
@@ -496,7 +496,7 @@ Nodi yako ya Mwavuli ya Umeme inahitaji aina mbili za chelezo:
 
 - Ina maelezo ya kituo cha Umeme
 - Huwasha kufungwa kwa kituo kwa lazima katika tukio la kuacha kufanya kazi
-- Muhimu:** Kamwe usihifadhi faili ya `channel.db` mwenyewe (hatari ya adhabu)
+- **Muhimu:** Kamwe usihifadhi faili ya `channel.db` mwenyewe (hatari ya adhabu)
 
 
 
@@ -621,7 +621,7 @@ https://planb.network/tutorials/node/lightning-network/watch-tower-26937006-dfe5
 
 
 - **Masasisho ya programu:** Sasisha Umbrel na LND (marekebisho ya usalama)
-- Ulinzi wa maunzi:** Tumia mfumo thabiti (Raspberry Pi na SSD, mini-PC) na UPS
+- **Ulinzi wa maunzi:** Tumia mfumo thabiti (Raspberry Pi na SSD, mini-PC) na UPS
 - **Usalama wa mtandao:** Weka usanidi chaguo-msingi wa Tor, badilisha nenosiri la msimamizi wa Umbrel (chaguo-msingi: "moneyprintergobrrr")
 - **Usimbaji fiche:** Washa usimbaji fiche wa diski ikiwezekana
 

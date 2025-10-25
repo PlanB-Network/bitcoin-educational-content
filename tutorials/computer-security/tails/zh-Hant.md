@@ -1,5 +1,5 @@
 ---
-name: 尾巴
+name: Tails
 
 description: 在 USB 鑰匙上安裝 Tails
 ---
@@ -117,8 +117,8 @@ Tails 從不寫入 Hard 磁碟機，只使用電腦的 RAM 來運作。當 Tails
 
 
 
-- Linux:** https://tails.boum.org/install/linux/index.fr.html#install
-- macOS:** https://tails.boum.org/install/mac/index.fr.html#etcher 和 https://tails.boum.org/install/mac/index.fr.html#install
+- **Linux:** https://tails.boum.org/install/linux/index.fr.html#install
+- **macOS:** https://tails.boum.org/install/mac/index.fr.html#etcher 和 https://tails.boum.org/install/mac/index.fr.html#install
 
 
 在 USB key 上安裝 Tails 這一步驟是整份指南中最困難的，尤其是如果您從未執行過這一步驟。最重要的一點是在官方部分選擇適合您作業系統的正確步驟：Linux 或 macOS。
@@ -142,7 +142,7 @@ Tails 從不寫入 Hard 磁碟機，只使用電腦的 RAM 來運作。當 Tails
 是時候使用您的新 USB 隨身碟啟動您的電腦了。將它插入其中一個 USB 連接埠，然後重新啟動！
 
 
-**注意💡：大多數電腦不會自動從 Tails USB 隨身碟開機，但您可以按下開機功能表鍵，以顯示可能從哪些裝置開機的清單。
+**注意💡：大多數電腦不會自動從 Tails USB 隨身碟開機，但您可以按下開機功能表鍵，以顯示可能從哪些裝置開機的清單。**
 
 
 若要確定您應該按下哪個按鍵，才能確保開機功能表允許您選擇 USB 隨身碟，而不是您常用的 Hard 磁碟機，以下是一份按製造商列出的非完整清單：

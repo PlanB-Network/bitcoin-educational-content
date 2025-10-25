@@ -17,11 +17,11 @@ Debian, sağlamlığı ve güvenilirliği ile tanınan ücretsiz bir GNU/Linux d
 
 
 
-- Ücretsiz ve açık**: Debian tamamen açık kaynaklıdır, şeffaflığı garanti eder ve lisans ücreti yoktur.
-- Kararlılık ve güvenlik**: Her sürüm kapsamlı bir test sürecinden geçerek Debian'ı piyasadaki en güvenilir ve güvenli dağıtımlardan biri haline getirir.
-- Aktif topluluk**: geniş bir topluluk ve kapsamlı dokümantasyon, ihtiyacınız olduğunda sizi desteklemek için hazırdır.
-- Hafif ve ölçeklenebilir**: Debian'ı mütevazı kaynaklara sahip makinelere kurarken iyi bir performans elde edebilirsiniz.
-- Kapsamlı yazılım kataloğu**: 50.000'den fazla resmi paket, depolar aracılığıyla kullanılabilir.
+- **Ücretsiz ve açık**: Debian tamamen açık kaynaklıdır, şeffaflığı garanti eder ve lisans ücreti yoktur.
+- **Kararlılık ve güvenlik**: Her sürüm kapsamlı bir test sürecinden geçerek Debian'ı piyasadaki en güvenilir ve güvenli dağıtımlardan biri haline getirir.
+- **Aktif topluluk**: geniş bir topluluk ve kapsamlı dokümantasyon, ihtiyacınız olduğunda sizi desteklemek için hazırdır.
+- **Hafif ve ölçeklenebilir**: Debian'ı mütevazı kaynaklara sahip makinelere kurarken iyi bir performans elde edebilirsiniz.
+- **Kapsamlı yazılım kataloğu**: 50.000'den fazla resmi paket, depolar aracılığıyla kullanılabilir.
 
 
 
@@ -35,12 +35,12 @@ Debian, ihtiyaçlarınıza uygun çeşitli masaüstü ortamları sunar:
 
 
 
-- GNOME**: modern, sezgisel Interface, yeni başlayanlar için ideal. Uygulamalara erişim için akıcı, kullanımı kolay bir grafik menü sunar.
-- XFCE**: hafif ve hızlı, daha az güçlü makineler için mükemmel.
-- KDE Plasma**: Windows benzeri bir görünüme sahip, son derece özelleştirilebilir.
-- Cinnamon**: Windows'tan esinlenen basit, zarif Interface.
-- LXDE / LXQt**: ultra hafif, eski bilgisayarlar için uygun.
-- MATE**: basit ve klasik, eski GNOME'a yakın.
+- **GNOME**: modern, sezgisel Interface, yeni başlayanlar için ideal. Uygulamalara erişim için akıcı, kullanımı kolay bir grafik menü sunar.
+- **XFCE**: hafif ve hızlı, daha az güçlü makineler için mükemmel.
+- **KDE Plasma**: Windows benzeri bir görünüme sahip, son derece özelleştirilebilir.
+- **Cinnamon**: Windows'tan esinlenen basit, zarif Interface.
+- **LXDE / LXQt**: ultra hafif, eski bilgisayarlar için uygun.
+- **MATE**: basit ve klasik, eski GNOME'a yakın.
 
 
 
@@ -61,9 +61,9 @@ Kuruluma başlamadan önce lütfen aşağıdaki ekipmana sahip olduğunuzdan emi
 
 
 
-- USB anahtarı**: önyüklenebilir ISO görüntüsünü tutmak için minimum 8 GB.
-- Rastgele Erişim Belleği (RAM)**: sorunsuz kurulum ve çalışma için 4 GB.
-- Disk alanı**: sistem ve güncellemeler için en az 15 GB boş alan.
+- **USB anahtarı**: önyüklenebilir ISO görüntüsünü tutmak için minimum 8 GB.
+- **Rastgele Erişim Belleği (RAM)**: sorunsuz kurulum ve çalışma için 4 GB.
+- **Disk alanı**: sistem ve güncellemeler için en az 15 GB boş alan.
 
 
 
@@ -77,9 +77,9 @@ Debian görüntüsünün seçimi işlemci mimarinize bağlıdır:
 
 
 
-- AMD64**: [download] listesinden "live hybrid" sürümünü indirin (https://debian.obspm.fr/debian-cd/12.11.0-live/amd64/iso-hybrid/).
-- ARM64**: DVD görüntüsünü resmi [Debian] web sitesinden (https://debian.obspm.fr/debian-cd/12.11.0/arm64/iso-dvd/) edinin.
-- Diğer mimariler**: mimarinize karşılık gelen ISO'yu bulun [burada](https://debian.obspm.fr/debian-cd/12.11.0/).
+- **AMD64**: [download] listesinden "live hybrid" sürümünü indirin (https://debian.obspm.fr/debian-cd/12.11.0-live/amd64/iso-hybrid/).
+- **ARM64**: DVD görüntüsünü resmi [Debian] web sitesinden (https://debian.obspm.fr/debian-cd/12.11.0/arm64/iso-dvd/) edinin.
+- **Diğer mimariler**: mimarinize karşılık gelen ISO'yu bulun [burada](https://debian.obspm.fr/debian-cd/12.11.0/).
 
 
 
@@ -96,7 +96,7 @@ Uygun ISO görüntüsünü indirdikten sonra, kurulum medyanızı oluşturmaya d
 
 
 
-- Balena Etcher'ı** [resmi web sitesinden] (https://etcher.balena.io/) indirin, ardından sisteminiz için ikili dosyayı alın ve kurun.
+- **Balena Etcher'ı** [resmi web sitesinden](https://etcher.balena.io/) indirin, ardından sisteminiz için ikili dosyayı alın ve kurun.
 
 
 
@@ -106,9 +106,9 @@ Uygun ISO görüntüsünü indirdikten sonra, kurulum medyanızı oluşturmaya d
 
 
 
-- Etcher'ı** başlatın: yazılımı açın ve önceden indirilmiş Debian ISO görüntüsünü seçin.
-- USB anahtarını seçin**: hedef olarak anahtarınızı (8 GB+) belirtin.
-- Flash'ı başlat**: **Flash!** üzerine tıklayın ve işlem tamamlanana kadar bekleyin.
+- **Etcher'ı** başlatın: yazılımı açın ve önceden indirilmiş Debian ISO görüntüsünü seçin.
+- **USB anahtarını seçin**: hedef olarak anahtarınızı (8 GB+) belirtin.
+- **Flash'ı başlat**: **Flash!** üzerine tıklayın ve işlem tamamlanana kadar bekleyin.
 
 
 
@@ -133,10 +133,10 @@ Yüklemeyi USB anahtarınızdan başlatmak için:
 
 
 
-- Bilgisayarı tamamen kapatın**.
-- Yeniden başlatın** ardından hemen `ESC`, `F2`, `F11` (veya markanıza bağlı olarak özel tuş) tuşlarına basarak BIOS/UEFI'ye erişin.
+- **Bilgisayarı tamamen kapatın**.
+- **Yeniden başlatın** ardından hemen `ESC`, `F2`, `F11` (veya markanıza bağlı olarak özel tuş) tuşlarına basarak BIOS/UEFI'ye erişin.
 - Önyükleme menüsünde, önyükleme aygıtı olarak **USB anahtarınızı** seçin.
-- Debian imajını başlatmak için Enter tuşu ile onaylayın**: bu sizi yükleyicinin karşılama ekranına götürecektir.
+- **Debian imajını başlatmak için Enter tuşu ile onaylayın**: bu sizi yükleyicinin karşılama ekranına götürecektir.
 
 
 
@@ -157,9 +157,9 @@ USB bellekten önyükleme yaparken, Debian karşılama ekranı çeşitli seçene
 
 
 
-- Canlı Sistem**: Debian'ı kurmadan başlatır, ortamı test etmek için idealdir.
-- Yükleyiciyi Başlat**: yüklemeyi doğrudan Hard diskinde başlatır.
-- Gelişmiş Kurulum Seçenekleri**: özelleştirilmiş kurulum modlarına erişmenizi sağlar.
+- **Canlı Sistem**: Debian'ı kurmadan başlatır, ortamı test etmek için idealdir.
+- **Yükleyiciyi Başlat**: yüklemeyi doğrudan Hard diskinde başlatır.
+- **Gelişmiş Kurulum Seçenekleri**: özelleştirilmiş kurulum modlarına erişmenizi sağlar.
 
 
 
@@ -173,7 +173,7 @@ Debian'ı canlı modda keşfetmek için **Canlı Sistem** seçeneğini seçin ve
 
 
 
-- Dil seçimi** (isteğe bağlı)
+- **Dil seçimi** (isteğe bağlı)
 
 
 
@@ -187,7 +187,7 @@ Listeden Debian sisteminizin ana dilini seçin ve ardından Tamam'a tıklayın.
 
 
 
-- Saat dilimi** (GMT)
+- **Saat dilimi** (GMT)
 
 
 
@@ -219,8 +219,8 @@ Klavye dilinizi ve düzeninizi seçin. Her tuşun beklenen karakteri üretip ür
 
 
 
-- Diski sil**: özel bir bölümünüz varsa, bu seçenek tüm içeriğini silecektir.
-- Manuel bölümleme**: bölümleri gerektiği gibi oluşturmak, yeniden boyutlandırmak veya silmek için bu seçeneği seçin.
+- **Diski sil**: özel bir bölümünüz varsa, bu seçenek tüm içeriğini silecektir.
+- **Manuel bölümleme**: bölümleri gerektiği gibi oluşturmak, yeniden boyutlandırmak veya silmek için bu seçeneği seçin.
 
 
 
@@ -244,7 +244,7 @@ Oturumunuzun güvenli olduğundan emin olmak için tam adınızı, hesap adını
 
 
 
-- Parametre özeti**
+- **Parametre özeti**
 
 
 
@@ -272,7 +272,7 @@ Dosyaları kopyalamaya ve sistemi yapılandırmaya başlamak için **Yükle** se
 
 
 
-- Yeniden başlat**
+- **Yeniden başlat**
 
 
 
@@ -360,7 +360,7 @@ Debian'da varsayılan web tarayıcısı **Firefox**'tur. Başka bir tarayıcı t
 
 
 
-LibreOffice** paketi Debian'da varsayılan olarak yüklüdür.
+LibreOffice paketi Debian'da varsayılan olarak yüklüdür.
 
 
 
@@ -431,7 +431,7 @@ https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b
 Debian sisteminiz artık kurulu ve günlük işleriniz için kullanıma hazır.
 
 
-GNOME** masaüstü ortamı sayesinde, hem yeni başlayanlar hem de ileri düzey kullanıcılar için ideal olan kullanıcı dostu bir grafik Interface aracılığıyla çok çeşitli uygulamalara erişebilirsiniz.
+**GNOME** masaüstü ortamı sayesinde, hem yeni başlayanlar hem de ileri düzey kullanıcılar için ideal olan kullanıcı dostu bir grafik interface aracılığıyla çok çeşitli uygulamalara erişebilirsiniz.
 
 
 

@@ -7,7 +7,7 @@ description: Instaliranje i pokretanje Lightning Network Daemon na Linuxu
 
 
 
-Lightning Network je drugi Layer od Bitcoin, omogućavajući mu da preuzme dimenzije munje, zahvaljujući posebno brzini i niskoj ceni transakcija koje nudi.
+Lightning mreža je drugi sloj Bitcoina koji mu omogućava da dobije „munjevite“ dimenzije, zahvaljujući posebno brzini i niskim troškovima transakcija koje pruža.
 
 
 
@@ -19,7 +19,7 @@ U ovom vodiču, instaliraćemo Lightning Network Daemon implementaciju na naš L
 
 
 
-Lightning Network Daemon je kompletna Go implementacija Lightning Network. Kreirala ga je Lightning Labs i omogućava vam da pokrenete punu instancu Lightning čvora na vašem računaru.
+Lightning Network Daemon je kompletna Go implementacija Lightning mreže. Kreirala ga je Lightning Labs i omogućava vam da pokrenete punu instancu Lightning čvora na vašem računaru.
 
 
 Drugim rečima, sa ovom implementacijom, možete :
@@ -28,8 +28,8 @@ Drugim rečima, sa ovom implementacijom, možete :
 
 
 
-- Interaktujte sa Lightning Network**: Možete koristiti komandne linije za kreiranje Lightning portfolija, upravljanje kanalima plaćanja i rutama, i još mnogo toga, direktno iz vašeg terminala na mašini.
-- Povezivanje udaljenog Bitcoin čvora ili vaše sopstvene Bitcoin Core instance**: LND vam omogućava da povežete Bitcoin instancu i koristite je kao vaš backend. Da biste koristili ovu implementaciju, nije potrebno da pokrećete Bitcoin Core instancu na vašem računaru.
+- **Interaktujte sa Lightning Network**: Možete koristiti komandne linije za kreiranje Lightning portfolija, upravljanje kanalima plaćanja i rutama, i još mnogo toga, direktno iz vašeg terminala na mašini.
+- **Povezivanje udaljenog Bitcoin čvora ili vaše sopstvene Bitcoin Core instance**: LND vam omogućava da povežete Bitcoin instancu i koristite je kao vaš backend. Da biste koristili ovu implementaciju, nije potrebno da pokrećete Bitcoin Core instancu na vašem računaru.
 
 
 
@@ -43,7 +43,7 @@ Lightning je Bitcoin sloj koji optimizuje proces prenosa i smanjuje troškove tr
 
 
 
-Rotiranjem vašeg Lightning čvora, stičete suverenitet i autonomiju. Vi kontrolišete svoja sredstva, zato imajte na umu:
+Pokretanjem sopstvenog Lightning čvora stičete suverenitet i autonomiju. Vi upravljate svojim sredstvima, zato imajte na umu:
 
 
 
@@ -57,10 +57,10 @@ U tom smislu, pokretanje Lightning čvora povećava sigurnost i integritet vaši
 
 
 
-- Totalna kontrola**: Upravljajte sopstvenim kanalima plaćanja, postanite sopstvena banka i budite gospodar svojih sredstava.
-- Poverljivost**: Obavljajte transakcije bez oslanjanja na treće strane za zaštitu vaše privatnosti.
-- Učenje i autonomija**: Zahvaljujući `lncli` komandama, možete bolje razumeti osnovne procese Lightning-a primenjujući se iz vašeg terminala.
-- Decentralizacija**: Igrajte aktivnu ulogu u jačanju i decentralizaciji Bitcoin / Lightning Network.
+- **Totalna kontrola**: Upravljajte sopstvenim kanalima plaćanja, postanite sopstvena banka i budite gospodar svojih sredstava.
+- **Poverljivost**: Obavljajte transakcije bez oslanjanja na treće strane kako biste zaštitili svoju privatnost.
+- **Učenje i autonomija**: Zahvaljujući `lncli` komandama, možete bolje razumeti osnovne procese Lightning mreže tako što ćete ih primenjivati direktno iz terminala.
+- **Decentralizacija**: Igrajte aktivnu ulogu u jačanju i decentralizaciji Bitcoin / Lightning mreže.
 
 
 
@@ -83,7 +83,7 @@ Kako je LND napisan u Go-u, potrebno je da imate GoLang okruženje i neophodne z
 
 
 
-- Hardverski zahtevi:**
+- **Hardverski zahtevi:**
 
 
 Za glatko, besprekorno iskustvo, vaša mašina će morati imati neophodan kapacitet za pokretanje vašeg LND Lightning čvora.
@@ -99,16 +99,16 @@ Trebaće vam :
 2. **Višejezgarni procesor (četvorojezgarni ili više)** za efikasno upravljanje radnjama vašeg čvora,
 
 
-3. **Najmanje 5GB prostora na disku** za pruned node režim i 1TB za pokretanje Bitcoin Core (opciono ako se koristi udaljeni čvor)
+3. **Najmanje 5GB prostora na disku** za režim pruned node-a i 1TB za pokretanje Bitcoin Core (opciono ako se koristi udaljeni čvor)
 
 
 
 
 
-- Instalirajte korisne zavisnosti:**
+- **Instalirajte korisne zavisnosti:**
 
 
-Komanda ispod će vam omogućiti da instalirate na vašem računaru alate potrebne za pokretanje LND. Između ostalog, potrebno je instalirati `Git`, alat za verzionisanje, i `make`, koji može izvršiti i izgraditi LND implementaciju iz izvornog koda.
+Komanda ispod će vam omogućiti da instalirate na vašem računaru alate potrebne za pokretanje LND. Između ostalog, potrebno je instalirati `Git`, alat za verzionisanje, i `make`, koji može izvršavati i kompajlirati LND implementaciju iz izvornog koda.
 
 
 
@@ -124,11 +124,11 @@ sudo apt install -y build-essential git make
 
 
 
-- Instalirajte GoLang na vaš Linux računar**
+- **Instalirajte GoLang na vašem Linux računar**
 
 
 
-Od datuma ovog vodiča, LND zahteva verziju 1.23.6 Go*** za instalaciju.
+Od datuma ovog vodiča, LND zahteva verziju ***1.23.6 Go*** za instalaciju.
 
 
 
@@ -136,13 +136,13 @@ Ako ste već imali instaliranu prethodnu verziju, uklonite je za novu instalacij
 
 
 ```bash
-# Suppression d'une ancienne version de Go
+# Uklanjanje stare verzije Go-a
 sudo rm -rf /usr/local/go
 
-# Installation de la version 1.23.6 de Go
+# Instalacija verzije 1.23.6 jezika Go
 wget https://golang.org/dl/go1.23.6.linux-amd64.tar.gz
 
-# Decompression du package
+# Raspakivanje paketa
 
 sudo tar -C /usr/local -xzf go1.23.6.linux-amd64.tar.gz
 
@@ -156,7 +156,7 @@ sudo tar -C /usr/local -xzf go1.23.6.linux-amd64.tar.gz
 
 
 
-- Konfiguracija okruženja za Go**
+- **Konfiguracija okruženja za Go**
 
 
 U vašem `~/.bashrc` fajlu, inicijalizujte sledeće promenljive okruženja kako biste dodali Go na vaš Linux sistem.
@@ -164,12 +164,12 @@ U vašem `~/.bashrc` fajlu, inicijalizujte sledeće promenljive okruženja kako 
 
 
 ```bash
-# Configuration de l'environnement Go
+# Podešavanje Go okruženja
 export GOROOT=/usr/local/go
 export GOPATH=~/gocode
 export PATH=$PATH:$GOROOT/bin
 
-# Appliquer les modifications
+# Primeni izmene
 
 source ~/.bashrc
 ```
@@ -178,7 +178,7 @@ source ~/.bashrc
 
 
 
-- Provera instalacije** (na francuskom)
+- **Provera instalacije** (na francuskom)
 
 
 ```bash
@@ -205,7 +205,7 @@ git clone https://github.com/lightningnetwork/lnd.git
 ![clone-lnd](assets/fr/04.webp)
 
 
-### Izgradi i instaliraj
+### Kompajliranje i instalacija
 
 
 
@@ -214,10 +214,10 @@ Alat `make`, prethodno instaliran, omogućiće vam da napravite izvršni fajl iz
 
 
 ```bash
-# Acceder au repertoire clonné
+# Pristupiti kloniranom direktorijumu
 cd lnd
 
-# construire LND
+# Kompajlirati (izgraditi) LND
 make
 ```
 
@@ -228,7 +228,7 @@ Instalirajte LND na vašu mašinu
 
 
 ```bash
-# installer LND
+# instalirajte LND
 make install
 ```
 
@@ -239,19 +239,19 @@ make install
 
 
 
-- Provera vaše instalacije** (na francuskom)
+- **Provera vaše instalacije** (na francuskom)
 
 
 
-Da biste bili sigurni da je sve prošlo glatko, pokretanje ove komande trebalo bi da vam da verziju LND koju trenutno koristite.
+Da biste bili sigurni da je sve prošlo glatko, pokretanjem ove komande trebalo bi da vam da verziju LND koju trenutno koristite.
 
 
 
 ```bash
-# Version de LND
+# LND verzija
 lnd --version
 
-# Version  de LNCLI
+# LNCLI verzija
 lncli --version
 ```
 
@@ -272,24 +272,24 @@ make clean && make && make install
 ```
 
 
-⚠️ **VAŽNO**: Ažuriranja LND mogu zahtevati novije verzije Go-a, zato obavezno ažurirajte svoj sistem kako biste izbegli probleme sa zavisnostima tokom instalacije.
+⚠️ **VAŽNO**: Ažuriranja LND-a mogu zahtevati novije verzije Go-a, zato obavezno ažurirajte svoj sistem kako biste izbegli probleme sa zavisnostima tokom instalacije.
 
 
-### Konfigurisanje Lightning Network Daemon
+### Konfigurisanje Lightning Network Daemon-a
 
 
 
-Konfiguracija čvora Lightning LND je slična onoj kod Bitcoin, i vrši se u konfiguracionoj datoteci koja sadrži sve parametre vašeg čvora. Da biste to uradili, na root-u vaše mašine možete kreirati skriveni folder `.LND` i zatim kreirati vašu konfiguracionu datoteku `LND.conf` u ovom folderu.
+Konfiguracija čvora Lightning LND je slična onoj kod Bitcoin-a, i vrši se u konfiguracionoj datoteci koja sadrži sve parametre vašeg čvora. Da biste to uradili, na root-u vaše mašine možete kreirati skriveni folder `.LND` i zatim kreirati vašu konfiguracionu datoteku `LND.conf` u ovom folderu.
 
 
 
 ```bash
-# Création du ficher
+# Kreiranje foldera
 mkdir -p ~/.lnd
 
 cd ~/.lnd
 
-# Fichier de configuration
+# Konfiguracioni fajl
 touch lnd.conf
 ```
 
@@ -311,8 +311,8 @@ bitcoin.mainnet=1
 bitcoin.node=bitcoind
 
 [Bitcoind]
-bitcoind.rpcuser=<UTILISATEUR_BITCOIN>
-bitcoind.rpcpassword=<MOT_DE_PASSE_BITCOIN>
+bitcoind.rpcuser=<BITCOIN_KORISNIK>
+bitcoind.rpcpassword=<BITCOIN_LOZINKA>
 bitcoind.zmqpubrawblock=tcp://127.0.0.1:28332
 bitcoind.zmqpubrawtx=tcp://127.0.0.1:28333
 
@@ -324,7 +324,7 @@ bitcoind.zmqpubrawtx=tcp://127.0.0.1:28333
 
 
 
-Važno je da razumete minimalnu konfiguraciju koju trebate za ispravnu i potpunu instalaciju vašeg LND čvora.
+Važno je da razumete minimalnu konfiguraciju koju trebate imati za ispravnu i potpunu instalaciju vašeg LND čvora.
 
 
 
@@ -334,59 +334,58 @@ Na osnovu sadržaja datoteke `~/.LND/LND.conf`, ovde su detalji polja:
 
 
 
-- noseedbackup**: Omogućava vam da izaberete da li želite da LND automatski pravi rezervne kopije vaših portfolija. Postavljanje ove osobine na `0` omogućava vam da ručno sačuvate informacije za vraćanje na lično izabranoj sigurnoj lokaciji.
+- **noseedbackup**: Omogućava vam da izaberete da li želite da LND automatski pravi rezervne kopije vaših novčanika. Podešavanjem ove opcije na `0` dozvoljavate da ručno sačuvate informacije za vraćanje na lično odabranoj sigurnoj lokaciji.
 
 
 
 
 
-- debuglevel**: Omogućava vam da definišete nivo detalja grešaka i logova u slučaju da dođe do grešaka tokom izvođenja akcije.
+- **debuglevel**: Omogućava vam da definišete nivo detalja grešaka i logova u slučaju da dođe do grešaka tokom izvođenja akcije.
 
 
 
 
 
-- Bitcoin.active**: Instruira LND da radi kao čvor Bitcoin i da interaguje sa mrežom Bitcoin.
+- **Bitcoin.active**: Instruira LND da radi kao Bitcoin čvor i da komunicira sa Bitcoin mrežom.
 
 
 
 
 
-- Bitcoin.Mainnet**: Specificira LND da se poveže na glavnu mrežu Bitcoin (Mainnet), možete postaviti vrednosti `bitcoind.signet` i `bitcoind.regtest` za Bitcoin Signet i Bitcoin Regtest mreže respektivno.
+- **Bitcoin.Mainnet**: Specificira LND da se poveže na glavnu mrežu Bitcoin (Mainnet), možete postaviti vrednosti `bitcoind.signet` i `bitcoind.regtest` za Bitcoin Signet i Bitcoin Regtest mreže respektivno.
 
 
 
 
 
-- Bitcoin.node**: Specifikuje tip Bitcoin čvora na koji bi LND trebalo da se poveže.
+- **Bitcoin.node**: Specifikuje tip Bitcoin čvora na koji bi LND trebalo da se poveže.
 
 
 
 
 
-- Bitcoin.rpcuser** i **Bitcoin.rpcpassword** : Predstavljaju.
-
-
-odnosno prijave (korisnik, lozinka) za povezivanje na vaš Bitcoin čvor
+- **Bitcoin.rpcuser** i **Bitcoin.rpcpassword** : Predstavljaju, redom, prijave (korisničko ime, lozinka) za povezivanje na vaš Bitcoin čvor.
 
 
 
 
 
-- bitcoind.zmqpubrawblock** i **bitcoind.zmqpubrawtx**: respektivno definišu ZeroMQ krajnje tačke za primanje obaveštenja o novim blokovima i transakcijama na Bitcoin mreži.
+- **bitcoind.zmqpubrawblock** i **bitcoind.zmqpubrawtx**: Redom definišu ZeroMQ end pointe za primanje obaveštenja o novim blokovima i transakcijama na Bitcoin mreži.
 
 
 
 
-## Provera vaše instalacije sa LND
+
+
+## Provera vaše instalacije sa LND-om
 
 
 
-Verovatno ćete želeti da se uverite da je proces bio uspešan i da se sinhronizujete sa Lightning Network kako biste održali informacije o čvoru ažurnim.
+Verovatno ćete želeti da se uverite da je proces bio uspešan i da se sinhronizujete sa Lightning mrežom kako biste održali informacije o čvoru ažurnim.
 
 
 
-Da biste započeli implementaciju LND i dobili informacije o vašem čvoru, jednostavno upišite komandu :
+Da biste započeli LND implementaciju i dobili informacije o vašem čvoru, jednostavno upišite komandu :
 
 
 ```bash
@@ -397,7 +396,7 @@ lnd getinfo
 ![lnd-getinfo](assets/fr/07.webp)
 
 
-## Izvođenje radnji na LND
+## Izvršavanje radnji na LND-u
 
 
 
@@ -408,18 +407,18 @@ Evo osnovnih komandi da biste započeli.
 
 
 
-### Kreiraj portfolio
+### Kreiraj novčanik
 
 
-Vaš Lightning portfolio je prvi korak u bilo kojoj akciji za upravljanje vašim sredstvima.
-
-
-
-⚠️ **VAŽNO**: Pažljivo zabeležite vašu 24-rečnu **seed frazu**. Biće vam potrebna za povratak sredstava u slučaju problema.
+Vaš Lightning novčanik je prvi korak u bilo kojoj akciji za upravljanje vašim sredstvima.
 
 
 
-Takođe sačuvaj svoju Wallet lozinku kako bi mogao da je otključaš sa `lncli unlock` komandom kada ponovo pokreneš svoj LND čvor.
+⚠️ **VAŽNO**: Pažljivo zabeležite vašu **seed frazu** od 24 reči. Biće vam potrebna za povratak sredstava u slučaju problema.
+
+
+
+Takođe sačuvaj svoju lozinku novčanika kako bi mogli da ga otključate sa `lncli unlock` komandom kada ponovo pokreneš svoj LND čvor.
 
 
 
@@ -475,7 +474,7 @@ lncli listpeers
 
 
 
-Kanal za Lightning omogućava vam da imate **direktnu, par-po-par vezu sa drugim čvorom na Lightning Network**. U ovom kanalu možete slobodno Exchange Satošija do kapaciteta kanala.
+Lightning kanal omogućava vam da imate **direktnu, direktnu vezu sa drugim čvorom na Lightning mreži**. U ovom kanalu možete slobodno razmenjivati satošija do kapaciteta kanala.
 
 
 
@@ -487,14 +486,14 @@ Povezivanje sa drugim Lightning čvorovima je osnovna akcija ako želite aktivno
 
 
 
-Da biste se povezali sa peer-om (Lightning čvorom), biće vam potrebna tri podatka:
+Da biste se povezali sa peer-om (drugim Lightning čvorom), biće vam potrebna tri podatka:
 
 
 
 
-- Javni ključ čvora**: Ovo je jedinstveni identifikator čvora u Bitcoin mreži;
-- IP** : IP mašine na kojoj je čvor instaliran;
-- PORT** :  Port otvoren na mašini koji omogućava komunikaciju sa ovim čvorom.
+- **Javni ključ čvora**: Ovo je jedinstveni identifikator čvora u Bitcoin mreži;
+- **IP** : IP mašine na kojoj je čvor instaliran;
+- **PORT** :  Port otvoren na mašini koji omogućava komunikaciju sa ovim čvorom.
 
 
 
@@ -503,10 +502,10 @@ Možete pronaći čvorove za povezivanje na [amboss](https://amboss.space/), pla
 
 
 ```bash
-# Se connecter à un noeud
+# Povezivanje sa čvorom
 lncli connect <ID_PUBKEY>@<IP>:<PORT>
 
-# Un exemple  : Connexion au noeud de Wallet of Satoshi
+# Primer: Povezivanje na čvor Wallet of Satoshi
 lncli connect 035e4ff418fc8b5554c5d9eea66396c227bd429a3251c8cbc711002ba215bfc226@170.75.163.209:9735
 ```
 
@@ -519,25 +518,25 @@ Pobrinite se da se povežete na **pouzdane čvorove** kako biste očuvali integr
 
 
 
-- Geografska diverzifikacija**: Povežite se sa čvorovima u različitim regionima.
+- **Geografska diverzifikacija**: Povežite se sa čvorovima u različitim regionima.
 
 
 
 
 
-- Reputacija**: Izaberite čvorove sa dobrom dostupnošću.
+- **Reputacija**: Izaberite čvorove sa dobrom dostupnošću.
 
 
 
 
 
-- Kapacitet**: Izaberite čvorove sa dobrom likvidnošću.
+- **Kapacitet**: Izaberite čvorove sa dobrom likvidnošću.
 
 
 
 
 
-- Optužbe**: Proverite troškove usmeravanja.
+- **Naknade**: Proverite naknade za usmeravanja (rutiranje).
 
 
 ### Otvori kanal plaćanja
@@ -548,15 +547,15 @@ Da biste otvorili kanal plaćanja, uverite se da ste **povezani** sa čvorom par
 
 
 ```bash
-lncli openchannel --node_key=<ID_PUBKEY> --local_amt=<AMOUNT_SATOSHIS>
+lncli openchannel --node_key=<ID_PUBKEY> --local_amt=<IZNOS_SATOSHIJA>
 ```
 
 
-### Kreiraj Lightning Invoice
+### Kreiraj Lightning fakturu
 
 
 
-Lightning Invoice predstavlja niz karaktera koji izražavaju vašu želju da primite satoshije u vaš Lightning Wallet.
+Lightning faktura predstavlja niz karaktera koji izražavaju vašu želju da primite satoshije u vaš Lightning novčanik.
 
 
 Kreiranje Lightning faktura sa sopstvenim čvorom omogućava vam da zaštitite svoje podatke (geografske i lične) i daje vam 100% autonomiju nad upravljanjem vašim sredstvima.
@@ -564,14 +563,14 @@ Kreiranje Lightning faktura sa sopstvenim čvorom omogućava vam da zaštitite s
 
 
 ```bash
-# Générer une facture de 1000 sats
+# Generiši fakturu na 1000 satošija
 
 lncli addinvoice --amt=1000 --memo="Facture de 1000 sats"
 ```
 
 
 
-### Plaćanje Lightning Invoice
+### Plaćanje Lightning fakture
 
 
 
@@ -590,21 +589,21 @@ Postoje dva načina da zatvorite aktivni kanal na vašem trenutnom čvoru.
 
 
 
-- Kooperativno zatvaranje**: Ovo signalizira želju vašeg čvora da se povuče iz platnog kanala, osiguravajući da su tekući zadaci završeni i da su podaci sačuvani kako bi se izbegao gubitak sredstava.
+- **Kooperativno zatvaranje**: Ovo signalizira želju vašeg čvora da se povuče iz platnog kanala, osiguravajući da su tekući zadaci završeni i da su podaci sačuvani kako bi se izbegao gubitak sredstava.
 
 
 ```
-lncli closechannel <ID_CANAL>
+lncli closechannel <ID_KANALA>
 ```
 
 
 
 
-- Prisilno zatvaranje**: ⚠️ Treba ga izbegavati ako je moguće, ova akcija prekida tekuće procese u vašem kanalu plaćanja i povećava rizik od gubitka sredstava.
+- **Prisilno zatvaranje**: ⚠️ Treba ga izbegavati ako je moguće, ova akcija prekida tekuće procese u vašem kanalu plaćanja i povećava rizik od gubitka sredstava.
 
 
 ```
-lncli closechannel --force <ID_CANAL>
+lncli closechannel --force <ID_KANALA>
 ```
 
 
@@ -634,13 +633,13 @@ Možete vratiti svoja sredstva pomoću komande ispod tako što ćete navesti put
 
 
 ```
-lncli restorechanbackup <CHEMIN_DU_FICHIER>
+lncli restorechanbackup <Putanja_do_fajla>
 ```
 
 
 
 
-- Uverite se da ste sačuvali reči za obnavljanje i lozinku za Lightning Wallet.
+- Uverite se da ste sačuvali reči za obnavljanje i lozinku za Lightning novčanik.
 - Ažurirajte svoj sistem redovno.
 
 
@@ -653,14 +652,14 @@ lncli restorechanbackup <CHEMIN_DU_FICHIER>
 
 
 
-- bitcoind greška povezivanja** : Proverite vaše RPC podatke za prijavu
-- Sinhronizacija blokirana** : Proverite vašu internet konekciju
-- Greška dozvole**: Proverite prava foldera `~/.LND`
+- **bitcoind greška povezivanja** : Proverite vaše RPC podatke za prijavu
+- **Sinhronizacija blokirana** : Proverite vašu internet konekciju
+- **Greška dozvole**: Proverite prava foldera `~/.LND`
 
 
 
 
-Dakle, došli ste do kraja ovog vodiča. Ako želite da saznate više o Lightning-u, nudimo ovaj uvodni kurs kako bismo vam pružili bolje razumevanje koncepata i praksi iza Lightning Network.
+Dakle, došli ste do kraja ovog vodiča. Ako želite da saznate više o Lightning-u, nudimo ovaj uvodni kurs kako bismo vam pružili bolje razumevanje koncepata i praksi iza Lightning mreže.
 
 
 

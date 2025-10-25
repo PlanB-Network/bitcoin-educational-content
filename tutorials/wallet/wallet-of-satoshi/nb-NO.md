@@ -1,5 +1,5 @@
 ---
-name: Wallet av Satoshi
+name: Wallet of Satoshi
 description: Den enkleste Wallet for å komme i gang
 ---
 ![cover](assets/cover.webp)
@@ -38,7 +38,7 @@ Gå til Play Store og last ned WoS
 ![image](assets/it/01.webp)
 
 
-**WoS lastes bare ned fra offisielle butikker. Hvis enhetens operativsystem er programmert, må operativsystemet selv verifisere WoS før det kan åpnes. Etter verifiseringsfasen velger du _Åpne_.
+**WoS lastes bare ned fra offisielle butikker. Hvis enhetens operativsystem er programmert, må operativsystemet selv verifisere WoS før det kan åpnes. Etter verifiseringsfasen velger du** _Åpne_.
 
 
 ![image](assets/it/02.webp)
@@ -79,8 +79,8 @@ Wallet av Satoshi har sendt en melding til den angitte e-postinnboksen.
 I postkassen finner vi to ord, som vi må skrive inn, omskrive dem, på plassen som tilbys av appen.
 
 
-- ikke aktiver oversetteren: ordene er og må forbli på engelsk**
-- skriv om de to ordene og ta hensyn til store og små bokstaver**
+- ikke aktiver oversetteren: ordene er og må forbli på engelsk
+- skriv om de to ordene og ta hensyn til store og små bokstaver
 
 
 ![image](assets/it/10.webp)

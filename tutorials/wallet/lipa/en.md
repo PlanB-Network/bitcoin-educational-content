@@ -52,10 +52,10 @@ Once you've chosen your option, the application prompts you to enable notificati
 The application then presents its main functions through a series of introductory screens:
 
 
-- Seamless payment receipt**: Users can receive Bitcoin payments even when the application is closed, guaranteeing reliability and convenience.
-- Non-custodial Lightning addresses**: Lipa now supports non-custodial Lightning addresses, enhancing privacy and security by giving users full control over their bitcoins.
-- Control over analytical data** : With transparency and confidentiality paramount, users can view the types of data collected and choose their sharing preferences.
-- Send via phone number**: No need for complex addresses - simply select a contact, enter the amount, and send bitcoins directly to their phone number.
+- **Seamless payment receipt**: Users can receive Bitcoin payments even when the application is closed, guaranteeing reliability and convenience.
+- **Non-custodial Lightning addresses**: Lipa now supports non-custodial Lightning addresses, enhancing privacy and security by giving users full control over their bitcoins.
+- **Control over analytical data**: With transparency and confidentiality paramount, users can view the types of data collected and choose their sharing preferences.
+- **Send via phone number**: No need for complex addresses - simply select a contact, enter the amount, and send bitcoins directly to their phone number.
 
 The application also benefits from continuous improvements in terms of stability, security and reliability, to guarantee an optimal user experience.
 
@@ -66,10 +66,10 @@ Lipa's interface is organized around 4 main tabs accessible via the navigation b
 ![Navigation principale](assets/fr/02.webp)
 
 
-- Home**: Displays your current balance and transaction history
-- Scanner**: Allows you to scan QR codes to make payments
-- Map**: Displays an interactive map of Bitcoin-accepting businesses in your area
-- Settings**: Access to application settings, backup and preferences
+- **Home**: Displays your current balance and transaction history
+- **Scanner**: Allows you to scan QR codes to make payments
+- **Map**: Displays an interactive map of Bitcoin-accepting businesses in your area
+- **Settings**: Access to application settings, backup and preferences
 
 An additional menu can be accessed by pulling down the home screen:
 

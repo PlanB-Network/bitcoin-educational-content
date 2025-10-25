@@ -52,10 +52,10 @@ Una vez elegida la opción, la aplicación te pedirá que actives las notificaci
 A continuación, la aplicación presenta sus principales funciones a través de una serie de pantallas introductorias:
 
 
-- Recepción de pagos sin problemas**: Los usuarios pueden recibir pagos Bitcoin incluso cuando la aplicación está cerrada, garantizando fiabilidad y comodidad.
-- Direcciones Lightning no custodiadas**: Lipa ahora admite direcciones Lightning no custodiadas, lo que mejora la privacidad y la seguridad al ofrecer a los usuarios un control total sobre sus bitcoins.
-- Control de los datos analíticos** : Para que la transparencia y la confidencialidad sean primordiales, los usuarios pueden ver los tipos de datos recopilados y elegir sus preferencias de compartición.
-- Enviar a través del número de teléfono**: Sin necesidad de direcciones complejas: simplemente selecciona un contacto, introduce la cantidad y envía bitcoins directamente a su número de teléfono.
+- **Recepción de pagos sin problemas**: Los usuarios pueden recibir pagos Bitcoin incluso cuando la aplicación está cerrada, garantizando fiabilidad y comodidad.
+- **Direcciones Lightning no custodiadas**: Lipa ahora admite direcciones Lightning no custodiadas, lo que mejora la privacidad y la seguridad al ofrecer a los usuarios un control total sobre sus bitcoins.
+- **Control de los datos analíticos**: Para que la transparencia y la confidencialidad sean primordiales, los usuarios pueden ver los tipos de datos recopilados y elegir sus preferencias de compartición.
+- **Enviar a través del número de teléfono**: Sin necesidad de direcciones complejas: simplemente selecciona un contacto, introduce la cantidad y envía bitcoins directamente a su número de teléfono.
 
 La aplicación también se beneficia de mejoras continuas en términos de estabilidad, seguridad y fiabilidad, para garantizar una experiencia de usuario óptima.
 
@@ -66,10 +66,10 @@ La interfaz de Lipa se organiza en torno a 4 pestañas principales accesibles a 
 ![Navigation principale](assets/fr/02.webp)
 
 
-- Inicio**: Muestra el saldo actual y el historial de transacciones
-- Escáner**: Permite escanear códigos QR para realizar pagos
-- Mapa**: Muestra un mapa interactivo de los negocios que aceptan Bitcoin en tu zona
-- Ajustes**: Acceso a los ajustes de la aplicación, copia de seguridad y preferencias
+- **Inicio**: Muestra el saldo actual y el historial de transacciones
+- **Escáner**: Permite escanear códigos QR para realizar pagos
+- **Mapa**: Muestra un mapa interactivo de los negocios que aceptan Bitcoin en tu zona
+- **Ajustes**: Acceso a los ajustes de la aplicación, copia de seguridad y preferencias
 
 Se puede acceder a un menú adicional tirando hacia abajo de la pantalla de inicio:
 

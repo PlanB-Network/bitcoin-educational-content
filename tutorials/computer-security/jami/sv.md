@@ -50,11 +50,11 @@ Idag finns Jami tillgängligt på många system. Det är känt för sin prestand
 
 
 
-- Det är öppen källkod och helt gratis**, så du kan använda det utan kostnad.
-- Komplett med användbara funktioner**: Med den här programvaran kan du dra nytta av många alternativ tack vare möjligheten att enkelt lägga till plugins från butiken. Det är även möjligt att skapa egna tillägg för funktioner som är mer anpassade till dina behov.
-- Lätt att använda och Interface intuitivt**: trots de många funktioner som Jami har att erbjuda är det fortfarande mycket enkelt att komma igång.
-- Stark säkerhet**: Jami innehåller en avancerad krypteringsalgoritm som garanterar säkerheten för din kommunikation samtidigt som den respekterar din integritet.
-- Mycket lättillgänglig och snabb**: den erbjuder enkel kommunikation även när bandbredden är begränsad, vilket ger ökad användarvänlighet.
+- Det är öppen källkod och helt gratis, så du kan använda det utan kostnad.
+- **Komplett med användbara funktioner**: Med den här programvaran kan du dra nytta av många alternativ tack vare möjligheten att enkelt lägga till plugins från butiken. Det är även möjligt att skapa egna tillägg för funktioner som är mer anpassade till dina behov.
+- **Lätt att använda och Interface intuitivt**: trots de många funktioner som Jami har att erbjuda är det fortfarande mycket enkelt att komma igång.
+- **Stark säkerhet**: Jami innehåller en avancerad krypteringsalgoritm som garanterar säkerheten för din kommunikation samtidigt som den respekterar din integritet.
+- **Mycket lättillgänglig och snabb**: den erbjuder enkel kommunikation även när bandbredden är begränsad, vilket ger ökad användarvänlighet.
 
 
 
@@ -338,9 +338,9 @@ Jami erbjuder också **avancerade funktioner** för användare som vill gå län
 
 
 
-- Skapa en rendezvouspunkt**: Med den här funktionen kan du skapa en **mötesplats** för din kommunikation, vilket är användbart för att organisera säkra sessioner eller utbyten mellan flera användare.
-- Anslut till en Jami-server**: Du kan ansluta Jami till en **Jami-server**, vilket kan förbättra prestandan eller tillgängligheten för kommunikation, särskilt i professionella miljöer.
-- Skapa ett SIP-konto**: Du kan skapa ett **SIP-konto** (Session Initiation Protocol), vilket gör att du kan integrera Jami med befintliga telefonsystem eller ringa telefonsamtal.
+- Skapa en **rendezvouspunkt**: Med den här funktionen kan du skapa en **mötesplats** för din kommunikation, vilket är användbart för att organisera säkra sessioner eller utbyten mellan flera användare.
+- **Anslut till en Jami-server**: Du kan ansluta Jami till en **Jami-server**, vilket kan förbättra prestandan eller tillgängligheten för kommunikation, särskilt i professionella miljöer.
+- **Skapa ett SIP-konto**: Du kan skapa ett **SIP-konto** (Session Initiation Protocol), vilket gör att du kan integrera Jami med befintliga telefonsystem eller ringa telefonsamtal.
 
 
 

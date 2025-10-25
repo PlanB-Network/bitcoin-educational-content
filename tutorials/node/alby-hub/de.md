@@ -20,7 +20,7 @@ Alby Hub ist ein äußerst anpassungsfähiges Werkzeug. Es kann sowohl die Bedü
 Je nach Bedarf ist der Alby Hub in 4 Konfigurationen erhältlich:
 
 
-- Alby Hub Cloud :**
+- **Alby Hub Cloud:**
 
 Ideal für Anfänger ist diese erste Option die Alby-Cloud-Option. Sie ermöglicht es Ihnen, einen Hub direkt auf einem von Alby verwalteten Server bereitzustellen, der über Ihre Alby Hub-Oberfläche zugänglich ist. Obwohl Alby den Server verwaltet, behalten Sie die Souveränität über Ihre Gelder, da Ihre Schlüssel mit einem nur Ihnen bekannten Passwort verschlüsselt werden. Allerdings müssen Ihre Schlüssel im RAM entschlüsselt bleiben, damit der Knoten funktioniert, was sie theoretisch einem Risiko aussetzt, wenn jemand physischen Zugriff auf den Server hat. Es ist ein interessanter Kompromiss für Anfänger, aber es ist wichtig, sich der Risiken bewusst zu sein.
 
@@ -29,7 +29,7 @@ Der große Vorteil dieser Option ist, dass Sie einen Lightning-Knoten rund um di
 Alby Cloud ist ein kostenpflichtiger Dienst [Überprüfen Sie ihre Preise](https://albyhub.com/#pricing) für weitere Details. Die Gebühr wird automatisch aus Ihrer Wallet über eine von Alby ausgestellte Lightning-Rechnung abgezogen. Dies geschieht über eine NWC-Verbindung, die Ihren Knoten so konfiguriert, dass Alby-Rechnungen im Zusammenhang mit Ihrem Abonnement automatisch bezahlt werden.
 
 
-- Alby Hub mit einem bestehenden Knotenpunkt :**
+- Alby Hub mit einem bestehenden Knotenpunkt:
 
 Wenn Sie bereits einen Knoten haben, der z.B. auf Umbrel oder Start9 gehostet wird, kann Alby Hub als erweiterte Verwaltungsschnittstelle verwendet werden, genau wie ThunderHub oder RTL.
 
@@ -300,7 +300,7 @@ Gehen Sie zurück zur Anwendung Alby Go, scannen Sie den QR-Code oder fügen Sie
 
 ![ALBY HUB](assets/fr/50.webp)
 
-Klicken Sie auf "Fertigstellen*".
+Klicken Sie auf "Fertigstellen".
 
 ![ALBY HUB](assets/fr/51.webp)
 

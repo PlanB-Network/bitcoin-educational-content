@@ -1,11 +1,11 @@
 ---
-name: 波爾茲曼計算機
+name: Boltzmann Calculator
 description: 瞭解熵的概念以及如何使用 Boltzmann
 ---
 ![cover](assets/cover.webp)
 
 
-***繼 Samourai Wallet 的創始人於 4 月 24 日被捕並其伺服器被查封之後，KYCP.org 網站目前無法存取。寄存 Python Boltzmann Calculator 程式碼的 Gitlab 也被查封。目前已無法下載此工具。不過，在未來幾週內，有可能會有其他人重新發表程式碼。在此期間，您仍可利用本教學瞭解 Boltzmann 計算機的運作。此工具提供的指標適用於任何 Bitcoin 交易，也可以手動計算。我將在本教程中提供所有必要的計算方法。如果您已經在您的機器上下載了 Python 工具，或者您使用的是 RoninDojo，您可以繼續使用該工具，並像往常一樣跟隨本教程，它仍然有效。
+**繼 Samourai Wallet 的創始人於 4 月 24 日被捕並其伺服器被查封之後，KYCP.org 網站目前無法存取。寄存 Python Boltzmann Calculator 程式碼的 Gitlab 也被查封。目前已無法下載此工具。不過，在未來幾週內，有可能會有其他人重新發表程式碼。在此期間，您仍可利用本教學瞭解 Boltzmann 計算機的運作。此工具提供的指標適用於任何 Bitcoin 交易，也可以手動計算。我將在本教程中提供所有必要的計算方法。如果您已經在您的機器上下載了 Python 工具，或者您使用的是 RoninDojo，您可以繼續使用該工具，並像往常一樣跟隨本教程，它仍然有效。**
 
 
 我們正密切注意此案例的發展，以及相關工具的發展。請放心，我們會在有新資訊時更新本教學。

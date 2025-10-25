@@ -1,5 +1,5 @@
 ---
-name: COLDCARD Q - Avançado
+name: COLDCARD Q - Especialista
 description: Utilizar as opções avançadas do COLDCARD Q
 ---
 ![cover](assets/cover.webp)
@@ -28,7 +28,7 @@ Nos COLDCARDs, tem duas opções para gerir a sua frase-chave:
 
 1. **Entrada clássica:** Introduz a frase-chave manualmente sempre que utiliza a carteira de hardware, tal como faz com outras carteiras de hardware. COLDCARD Q simplifica esta tarefa com o seu teclado completo.
 
-2. **Pode optar por encriptar a sua frase-chave e guardá-la num cartão microSD. Neste caso, terá de inserir o microSD no COLDCARD Q sempre que o utilizar. Note que este microSD só funcionará no seu COLDCARD Q e não é uma cópia de segurança. Por isso, é muito importante que guarde também uma cópia da sua frase-chave num suporte físico, como papel ou metal.
+2. **Pode optar por encriptar a sua frase-chave e guardá-la num cartão microSD. Neste caso, terá de inserir o microSD no COLDCARD Q sempre que o utilizar. Note que este microSD só funcionará no seu COLDCARD Q e não é uma cópia de segurança. Por isso, é muito importante que guarde também uma cópia da sua frase-chave num suporte físico, como papel ou metal.**
 
 Para definir a sua frase-chave BIP39, aceda ao menu "*Frase-chave*".
 

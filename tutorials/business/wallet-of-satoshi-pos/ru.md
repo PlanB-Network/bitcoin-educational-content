@@ -1,5 +1,5 @@
 ---
-name: Wallet из Satoshi - торговая точка
+name: Wallet of Satoshi - POS
 description: Внедрите Bitcoin через Lightning Network в свой бизнес.
 ---
 

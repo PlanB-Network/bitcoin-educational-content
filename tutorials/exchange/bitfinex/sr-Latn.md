@@ -77,10 +77,10 @@ Bitfinex primenjuje proces verifikacije (KYC) koji je u skladu sa važećim prop
 
 
 
-- Basic* je režim samo za prikaz, koji vam omogućava da koristite platformu bez izvođenja bilo kakvih operacija;
-- Basic Plus* pruža pristup osnovnim funkcijama, uključujući transakcije na spot tržištu i odabrane opcije depozita i povlačenja;
-- Intermediate* otključava napredne usluge kao što su trgovanje na marži, zajmovi, P2P i OTC transakcije, i nudi smanjene rokove za depozite;
-- Full* vam omogućava pristup međunarodnim bankovnim transferima i svim funkcijama platforme.
+- **Basic** je režim samo za prikaz, koji vam omogućava da koristite platformu bez izvođenja bilo kakvih operacija;
+- **Basic Plus** pruža pristup osnovnim funkcijama, uključujući transakcije na spot tržištu i odabrane opcije depozita i povlačenja;
+- **Intermediate** otključava napredne usluge kao što su trgovanje na marži, zajmovi, P2P i OTC transakcije, i nudi smanjene rokove za depozite;
+- **Full** vam omogućava pristup međunarodnim bankovnim transferima i svim funkcijama platforme.
 
 
 Za svaki nivo, potrebna su dodatna dokumenta za verifikaciju. Za većinu korisnika, *Basic Plus* ili *Intermediate* nalozi su uglavnom dovoljni.
@@ -115,11 +115,11 @@ Kada se prijavite, videćete navigacionu traku na vrhu Interface sa: "*Trading*"
 
 
 
-- Trading**: "*klasično*" tržište gde možete postavljati naloge za kupovinu i prodaju kriptovaluta (uključujući Bitcoin) ;
-- OTC**: Over-The-Counter usluga za trgovanje velikim količinama direktno sa drugim igračem, van javnih knjiga naloga;
-- Finansiranje**: Oblast posvećena pozajmljivanju i maržinskom finansiranju;
-- Derivatives**: Sekcija za derivate (fjučersi, itd.), namenjena iskusnim trgovcima;
-- P2P**: Omogućava vam kupovinu ili prodaju kriptovaluta od drugih korisnika na peer-to-peer osnovi.
+- **Trading**: "*klasično*" tržište gde možete postavljati naloge za kupovinu i prodaju kriptovaluta (uključujući Bitcoin) ;
+- **OTC**: Over-The-Counter usluga za trgovanje velikim količinama direktno sa drugim igračem, van javnih knjiga naloga;
+- **Finansiranje**: Oblast posvećena pozajmljivanju i maržinskom finansiranju;
+- **Derivatives**: Sekcija za derivate (fjučersi, itd.), namenjena iskusnim trgovcima;
+- **P2P**: Omogućava vam kupovinu ili prodaju kriptovaluta od drugih korisnika na peer-to-peer osnovi.
 
 
 Za standardnu upotrebu (kupovina/prodaja bitkoina i depoziti/isplate), uglavnom ćete koristiti karticu "*Trading*", kao i sekcije "*Wallet*", "*Deposit*" i "*Withdraw*".

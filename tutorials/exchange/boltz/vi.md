@@ -25,10 +25,10 @@ Tuy nhiên, vẫn còn một vấn đề lớn giữa các lớp giao thức Bit
 
 
 
-- on chain**: Chuỗi chính của Bitcoin, nơi các giao dịch được xác nhận trung bình cứ sau 10 phút, phí giao dịch thường cao, không nhất thiết đáp ứng được nhu cầu của người dùng;
-- Lightning Network**: Lớp phủ Bitcoin cho phép thanh toán tức thời với mức phí thấp, cho phép sử dụng Bitcoin cho các khoản thanh toán hàng ngày;
-- Liquid Network**: lớp phủ cho Bitcoin do Blockstream tạo ra, cho phép sử dụng nhanh Confidential Transactions và các công cụ tài chính khác dựa trên Bitcoin;
-- RootStock**: Giải pháp phát triển hợp đồng thông minh dựa trên giao thức Bitcoin.
+- **on chain**: Chuỗi chính của Bitcoin, nơi các giao dịch được xác nhận trung bình cứ sau 10 phút, phí giao dịch thường cao, không nhất thiết đáp ứng được nhu cầu của người dùng;
+- **Lightning Network**: Lớp phủ Bitcoin cho phép thanh toán tức thời với mức phí thấp, cho phép sử dụng Bitcoin cho các khoản thanh toán hàng ngày;
+- **Liquid Network**: lớp phủ cho Bitcoin do Blockstream tạo ra, cho phép sử dụng nhanh Confidential Transactions và các công cụ tài chính khác dựa trên Bitcoin;
+- **RootStock**: Giải pháp phát triển hợp đồng thông minh dựa trên giao thức Bitcoin.
 
 
 

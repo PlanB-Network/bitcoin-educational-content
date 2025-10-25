@@ -279,7 +279,7 @@ Aplikace Safe 5 vytvoří frázi Mnemonic pomocí generátoru náhodných číse
 
 
 
-***Samozřejmě nesmíte tato slova nikdy sdílet na internetu, jak to dělám v tomto návodu. Tento příklad Wallet bude použit pouze na Testnet a na konci tutoriálu bude odstraněn
+**Samozřejmě nesmíte tato slova nikdy sdílet na internetu, jak to dělám v tomto návodu. Tento příklad Wallet bude použit pouze na Testnet a na konci tutoriálu bude odstraněn**
 
 
 

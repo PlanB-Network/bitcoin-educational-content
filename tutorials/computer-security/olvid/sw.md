@@ -170,7 +170,7 @@ Unaweza pia kuchunguza mipangilio mingine inayopatikana ili kubinafsisha program
 
 
 
-Ili uweze kutuma ujumbe, lazima kwanza uongeze anwani. Kutoka kwa ukurasa wa nyumbani, bofya kitufe cha bluu "**".
+Ili uweze kutuma ujumbe, lazima kwanza uongeze anwani. Kutoka kwa ukurasa wa nyumbani, bofya kitufe cha bluu **"**".
 
 
 

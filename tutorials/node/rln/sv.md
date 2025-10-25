@@ -1,5 +1,5 @@
 ---
-name: RGB Blixtnod
+name: RGB Lightning Node
 description: Hur startar jag en RGB-kompatibel Lightning-nod med RLN?
 ---
 ![cover](assets/cover.webp)
@@ -96,7 +96,7 @@ För att fungera behöver `RGB-lightning-node` daemon närvaro och konfiguration
 
 
 
-- En `bitcoind`** nod
+- En **bitcoind** nod
 
 
 Varje RLN-instans kommer att behöva kommunicera med `bitcoind` för att sända och övervaka sina On-Chain-transaktioner. Autentisering (inloggning/lösenord) och URL (host/port) måste tillhandahållas till daemon.
@@ -104,7 +104,7 @@ Varje RLN-instans kommer att behöva kommunicera med `bitcoind` för att sända 
 
 
 
-- En indexerare** (Electrum eller Esplora)
+- En **indexerare** (Electrum eller Esplora)
 
 
 daemon måste kunna lista och utforska On-Chain-transaktioner, i synnerhet för att hitta den UTXO som en tillgång har förankrats på. Du måste ange webbadressen till din Electrum-server eller Esplora.
@@ -112,7 +112,7 @@ daemon måste kunna lista och utforska On-Chain-transaktioner, i synnerhet för 
 
 
 
-- En proxy RGB**
+- En proxy **RGB**
 
 
 Proxyservern är en komponent (valfri, men rekommenderas starkt) för att förenkla Exchange av RGB *sändningar* mellan Lightning-peers. Återigen måste en URL anges.

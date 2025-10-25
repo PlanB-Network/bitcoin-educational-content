@@ -1,0 +1,9 @@
+question: Šta je Bitcoin čvor?
+answer: Računar koji pokreće softver koji implementira Bitcoin protokol
+wrong_answers:
+  - Hardware Wallet implementirajući Bitcoin mrežu
+  - Miner proizvodi nove blokove za Bitcoin
+  - Centralni server koji upravlja Bitcoin mrežom i potvrdom transakcija
+explanation: |
+  Bitcoin čvor je računar na kojem se pokreće softver, kao što je Bitcoin core, koji implementira protokol i učestvuje u Bitcoin mreži.
+reviewed: true

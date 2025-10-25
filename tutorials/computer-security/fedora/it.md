@@ -40,25 +40,25 @@ Tra la moltitudine di distribuzioni Linux disponibili, Fedora si distingue in pa
 
 
 
-- Modularità**: Compatibile con diverse architetture di processore, Fedora può essere installato sulla maggior parte dei computer, anche quelli meno potenti, adattandosi perfettamente alle vostre esigenze.
+- **Modularità**: Compatibile con diverse architetture di processore, Fedora può essere installato sulla maggior parte dei computer, anche quelli meno potenti, adattandosi perfettamente alle vostre esigenze.
 
 
 
 
 
-- Un Interface semplice e intuitivo**: Fedora combina un moderno Interface grafico con un potente Interface a riga di comando, rendendolo facile da usare per tutti i profili.
+- Un **Interface semplice e intuitivo**: Fedora combina un moderno Interface grafico con un potente Interface a riga di comando, rendendolo facile da usare per tutti i profili.
 
 
 
 
 
-- Stabilità del kernel**: Basata su Red Hat, Fedora è rinomata per l'affidabilità dei suoi aggiornamenti, in particolare quelli del kernel, che vengono eseguiti senza grossi bug grazie ai contributi gratuiti di un'ampia comunità.
+- **Stabilità del kernel**: Basata su Red Hat, Fedora è rinomata per l'affidabilità dei suoi aggiornamenti, in particolare quelli del kernel, che vengono eseguiti senza grossi bug grazie ai contributi gratuiti di un'ampia comunità.
 
 
 
 
 
-- Installazione facile e veloce**: con un'immagine di soli 3 GB, l'installazione è facile e veloce, anche su macchine con risorse limitate.
+- **Installazione facile e veloce**: con un'immagine di soli 3 GB, l'installazione è facile e veloce, anche su macchine con risorse limitate.
 
 
 
@@ -72,19 +72,19 @@ A seconda del profilo e dell'utilizzo, Fedora offre edizioni adatte alle vostre 
 
 
 
-- Fedora Workstation**: Ideale per l'uso personale e/o professionale sui vostri computer, questa edizione è installata con utility generiche come browser, una suite per ufficio (editor di testo) e software di riproduzione multimediale.
+- **Fedora Workstation**: Ideale per l'uso personale e/o professionale sui vostri computer, questa edizione è installata con utility generiche come browser, una suite per ufficio (editor di testo) e software di riproduzione multimediale.
 
 
 
 
 
-- Fedora Server**: Questa edizione è dedicata alla gestione dei server. Fedora Server include una serie di strumenti che aiutano a distribuire e gestire i server sulla propria scala.
+- **Fedora Server**: Questa edizione è dedicata alla gestione dei server. Fedora Server include una serie di strumenti che aiutano a distribuire e gestire i server sulla propria scala.
 
 
 
 
 
-- Fedora CoreOS**: Volete eseguire e distribuire facilmente applicazioni cloud? Fedora CoreOS è l'edizione che offre gli strumenti per creare e gestire immagini con Docker e Kubernet, ad esempio.
+- **Fedora CoreOS**: Volete eseguire e distribuire facilmente applicazioni cloud? Fedora CoreOS è l'edizione che offre gli strumenti per creare e gestire immagini con Docker e Kubernet, ad esempio.
 
 
 
@@ -103,7 +103,7 @@ L'installazione di Fedora Workstation richiede la seguente configurazione hardwa
 
 - Una chiave USB di almeno **8 GB** per avviare il sistema operativo.
 - Almeno **40 GB di spazio libero** sul disco Hard del computer.
-- 4 GB di RAM** per un'esperienza fluida.
+- 4 GB di RAM per un'esperienza fluida.
 
 
 
@@ -156,7 +156,7 @@ Accendere il computer, quindi accedere al BIOS durante l'avvio premendo il tasto
 
 
 
-Nelle opzioni di avvio, selezionare la chiave USB come dispositivo di avvio primario. Confermando questa scelta, il computer si riavvierà e lancerà automaticamente il programma di installazione di Fedora** presente sulla chiave USB.
+Nelle opzioni di avvio, selezionare la chiave USB come dispositivo di avvio primario. Confermando questa scelta, il computer si riavvierà e lancerà automaticamente il programma di installazione di **Fedora** presente sulla chiave USB.
 
 
 
@@ -169,7 +169,7 @@ In questa fase sono disponibili le seguenti opzioni:
 
 
 
-- Test media**: Questa opzione consente di verificare l'integrità della chiavetta USB e di assicurarsi che siano presenti tutte le dipendenze necessarie per una corretta installazione. Si tratta di una fase facoltativa, ma consigliata se si hanno dubbi sulla chiavetta USB.
+- **Test media**: Questa opzione consente di verificare l'integrità della chiavetta USB e di assicurarsi che siano presenti tutte le dipendenze necessarie per una corretta installazione. Si tratta di una fase facoltativa, ma consigliata se si hanno dubbi sulla chiavetta USB.
 
 
 
@@ -183,7 +183,7 @@ In questa fase sono disponibili le seguenti opzioni:
 
 
 
-- Avvia Fedora**: Avvia Fedora in modalità "live", senza installazione.
+- **Avvia Fedora**: Avvia Fedora in modalità "live", senza installazione.
 
 
 
@@ -368,9 +368,9 @@ Fedora include di default la suite per ufficio **LibreOffice**, che offre divers
 
 
 
-- Writer** per l'elaborazione di testi.
-- Calc** per i fogli di calcolo.
-- Impress** per creare presentazioni.
+- **Writer** per l'elaborazione di testi.
+- **Calc** per i fogli di calcolo.
+- **Impress** per creare presentazioni.
 
 
 ## Installazione delle applicazioni

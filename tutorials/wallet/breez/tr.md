@@ -103,9 +103,9 @@ Breez size üç seçenek sunar:
 
 
 
-- Yıldırım veya ID** Invoice ile alın: generate bir Invoice ve ödeme alın.
-- Bir Bitcoin Address** aracılığıyla alın: Bitcoin ana ağındaki işlemlerle bitcoin alın.
-- Bitcoin** satın alın: Breez, Bitcoin'i doğrudan fiat para birimlerinden elde etmenin bir yolunu içerir.
+- Yıldırım veya **ID Invoice** ile alın: generate bir Invoice ve ödeme alın.
+- Bir **Bitcoin Address** aracılığıyla alın: Bitcoin ana ağındaki işlemlerle bitcoin alın.
+- **Bitcoin** satın alın: Breez, Bitcoin'i doğrudan fiat para birimlerinden elde etmenin bir yolunu içerir.
 
 
 
@@ -139,9 +139,9 @@ Breez, bitcoin göndermek için size üç seçenek sunar.
 
 
 
-- Invoice veya kullanıcı kimliğini** yapıştırın: Yıldırım Invoice ödeyin.
-- Ödeme yapmak için bağlanın**: Bir oturum oluşturun ve alıcınızı bitcoin göndermek için oturuma katılmaya davet edin.
-- BTC Address**'ya gönderin: Bitcoin ana ağında işlem yapın.
+- **Invoice veya kullanıcı kimliğini** yapıştırın: Yıldırım Invoice ödeyin.
+- **Ödeme yapmak için bağlanın**: Bir oturum oluşturun ve alıcınızı bitcoin göndermek için oturuma katılmaya davet edin.
+- **BTC Address**'ya gönderin: Bitcoin ana ağında işlem yapın.
 
 
 
@@ -169,7 +169,7 @@ Yararlı hizmetleri doğrudan uygulama içinde bulabilirsiniz.
 
 
 
-- Podcast dinleyin**: Breez, sevdiğiniz içerik oluşturucuları Bitcoin bağışlarıyla desteklemenizi sağlayan bir podcast 2.0 oynatıcısıdır.
+- **Podcast dinleyin**: Breez, sevdiğiniz içerik oluşturucuları Bitcoin bağışlarıyla desteklemenizi sağlayan bir podcast 2.0 oynatıcısıdır.
 
 
 Menüden **Podcast'leri** seçin, ardından favori içerik oluşturucularınızı bulun, keşfedin ve dinleyin.
@@ -186,7 +186,7 @@ Bağış yaparak sevdiğiniz içerik oluşturucuların çalışmalarını destek
 
 
 
-- Bir Satış Noktası**: Breez, işletmenize mükemmel bir şekilde uyum sağlayarak uygulama içinde bir satış noktası çalıştırmanıza olanak tanır. Mağazanızın envanterini yönetebilir, müşterilerinizden ödeme alabilir ve yapılan her satın alma işlemi için generate yazdırılabilir faturalar alabilirsiniz. Dahası, yerel para birimlerinizi Breez tarafından desteklenen çok sayıda para biriminde bulabilirsiniz.
+- **Bir Satış Noktası**: Breez, işletmenize mükemmel bir şekilde uyum sağlayarak uygulama içinde bir satış noktası çalıştırmanıza olanak tanır. Mağazanızın envanterini yönetebilir, müşterilerinizden ödeme alabilir ve yapılan her satın alma işlemi için generate yazdırılabilir faturalar alabilirsiniz. Dahası, yerel para birimlerinizi Breez tarafından desteklenen çok sayıda para biriminde bulabilirsiniz.
 
 
 
@@ -196,7 +196,7 @@ Para birimlerinizi **Tercihler > Fiat Para Birimleri** menüsünden özelleştir
 ![custom-fiat](assets/fr/13.webp)
 
 
-Satış Noktası (POS)** menüsünde, mağazanızda sattığınız ürünleri yapılandırabilirsiniz.
+**Satış Noktası (POS)** menüsünde, mağazanızda sattığınız ürünleri yapılandırabilirsiniz.
 
 
 ![products](assets/fr/14.webp)
@@ -210,7 +210,7 @@ Envanteriniz tamamlandığında, müşterilerinizi bu ürünler için kolayca In
 
 
 
-- Üçüncü taraf hizmetlerine erişin**: Breez, Wallet'dan ayrılmak zorunda kalmadan daha fazla işlem yapmanıza olanak tanıyan üçüncü taraf hizmetlerini entegre eder. Bunlar arasında Bitrefill, LN Markets, Wavlake, Fold, Fixed Float, The Bitcoin Company, Azteco, Boltz, Geyser, Lightsats, SMS Sats, LN.PIZZA, LNCAL bulunur.
+- **Üçüncü taraf hizmetlerine erişin**: Breez, Wallet'dan ayrılmak zorunda kalmadan daha fazla işlem yapmanıza olanak tanıyan üçüncü taraf hizmetlerini entegre eder. Bunlar arasında Bitrefill, LN Markets, Wavlake, Fold, Fixed Float, The Bitcoin Company, Azteco, Boltz, Geyser, Lightsats, SMS Sats, LN.PIZZA, LNCAL bulunur.
 
 
 ![apps](assets/fr/16.webp)

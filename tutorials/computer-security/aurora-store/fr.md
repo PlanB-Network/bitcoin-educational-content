@@ -75,4 +75,5 @@ Aurora Store intègre Exodus, une solution qui analyse et détecte les traqueurs
 
 Plus qu'un magasin d'applications, Aurora Store se positionne comme une solution open source qui vous permet de prendre le contrôle de l'utilisation de vos données. Il vous apporte l'information utile sur vos applications et vous permet de protéger votre vie numérique de la collecte abusive. Pour renforcer votre confidentialité, découvrez notre cursus sur la sécurité des données numériques : mettez en place un environnement numérique personnel, sécurisé et fiable.
 
-https://planb.network/courses/ameliorer-sa-securite-numerique-personnelle-4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+

@@ -1,9 +1,9 @@
-question: İşlemlerin On-Chain izlenebilirliğini korumak için hangi yöntem kullanılıyor?
+question: İşlemlerin On-Chain (blok zincir üzerinde) izlenebilirliğini korumak için hangi yöntem kullanılıyor?
 answer: CoinJoin ve PayJoin tekniklerinin kullanılması
 wrong_answers:
-  - Aynı alıcı Address'ün yeniden kullanılması
+  - Aynı alıcı Address'in yeniden kullanılması
   - UTXO'ların sık sık konsolidasyonu
-  - Bir saklama kuruluşuna yatırma Wallet
+  - Bir kripto pazar yerinin saklama cüzdanına (custodial wallet) yatırma ile
 explanation: |
   Coinjoins ve payjoins, On-Chain etkinliğinin gizliliğini artırmaya yardımcı olur.
 reviewed: false

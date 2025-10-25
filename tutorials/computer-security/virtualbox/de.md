@@ -59,7 +59,7 @@ Um VirtualBox für die Installation auf einem Windows-Rechner herunterzuladen, g
 
 
 
-Die Installation von VirtualBox** ist ganz einfach und für alle Windows-Versionen gleich. Starten Sie zunächst die ausführbare VirtualBox-Datei, die Sie gerade heruntergeladen haben, und klicken Sie dann auf "**Weiter**".
+Die Installation von **VirtualBox** ist ganz einfach und für alle Windows-Versionen gleich. Starten Sie zunächst die ausführbare VirtualBox-Datei, die Sie gerade heruntergeladen haben, und klicken Sie dann auf "**Weiter**".
 
 
 
@@ -73,9 +73,9 @@ Diese Installation ist anpassbar, aber ich empfehle Ihnen, alle Funktionen zu in
 
 
 
-- VirtualBox USB-Unterstützung**, damit VirtualBox USB-Geräte unterstützen kann
-- VirtualBox Bridged Network** zur Integration der Netzwerkunterstützung im "Bridge"-Modus (die virtuelle Maschine kann sich direkt mit Ihrem lokalen Netzwerk verbinden)
-- VirtualBox Host-Only Network** zur Integration der Netzwerkunterstützung im "Host-Only"-Modus (die virtuelle Maschine kann in diesem Modus nur mit Ihrem physischen Windows 11-Host und anderen virtuellen Maschinen kommunizieren)
+- **VirtualBox USB-Unterstützung**, damit VirtualBox USB-Geräte unterstützen kann
+- **VirtualBox Bridged Network** zur Integration der Netzwerkunterstützung im "Bridge"-Modus (die virtuelle Maschine kann sich direkt mit Ihrem lokalen Netzwerk verbinden)
+- **VirtualBox Host-Only Network** zur Integration der Netzwerkunterstützung im "Host-Only"-Modus (die virtuelle Maschine kann in diesem Modus nur mit Ihrem physischen Windows 11-Host und anderen virtuellen Maschinen kommunizieren)
 
 
 
@@ -127,7 +127,7 @@ Auf der offiziellen VirtualBox-Website (siehe vorheriger Link) können Sie ein o
 
 
 
-Klicken Sie auf "**Erweiterungen**" auf der linken Seite (1), dann auf die Schaltfläche "**+**" auf der rechten Seite (2), um das soeben heruntergeladene VirtualBox**-Erweiterungspaket zu **laden** (3).
+Klicken Sie auf "**Erweiterungen**" auf der linken Seite (1), dann auf die Schaltfläche "**+**" auf der rechten Seite (2), um das soeben heruntergeladene VirtualBox-Erweiterungspaket zu **laden** (3).
 
 
 
@@ -165,10 +165,10 @@ Um eine neue virtuelle Maschine in VirtualBox zu erstellen, klicken Sie einfach 
 
 
 
-- Einstellungen**: allgemeine VirtualBox-Konfiguration (Standard-VM-Ordner, Update-Verwaltung, Sprache, NAT-Netzwerke, Erweiterungen usw.)
-- Import**: Importieren einer virtuellen Anwendung im OVF-Format
-- Export**: Exportieren Sie eine vorhandene virtuelle Maschine im OVF-Format, um eine virtuelle Appliance zu erstellen
-- Hinzufügen**: Hinzufügen einer vorhandenen virtuellen Maschine zu Ihrem VirtualBox-Inventar, im Standard-VirtualBox-Format (.vbox) oder im XML-Format
+- **Einstellungen**: allgemeine VirtualBox-Konfiguration (Standard-VM-Ordner, Update-Verwaltung, Sprache, NAT-Netzwerke, Erweiterungen usw.)
+- **Import**: Importieren einer virtuellen Anwendung im OVF-Format
+- **Export**: Exportieren Sie eine vorhandene virtuelle Maschine im OVF-Format, um eine virtuelle Appliance zu erstellen
+- **Hinzufügen**: Hinzufügen einer vorhandenen virtuellen Maschine zu Ihrem VirtualBox-Inventar, im Standard-VirtualBox-Format (.vbox) oder im XML-Format
 
 
 
@@ -184,16 +184,16 @@ Auf der linken Seite bietet der Bereich "**Tools**" Zugang zu **erweiterten Funk
 
 
 
-**Zur Erinnerung: VirtualBox unterstützt eine Vielzahl von Betriebssystemen, darunter Windows, Linux und BSD. In diesem Beispiel werde ich eine virtuelle Maschine für Windows 11 erstellen. Es müssen mehrere Felder ausgefüllt werden:
+**Zur Erinnerung: VirtualBox unterstützt eine Vielzahl von Betriebssystemen, darunter Windows, Linux und BSD. In diesem Beispiel werde ich eine virtuelle Maschine für Windows 11 erstellen. Es müssen mehrere Felder ausgefüllt werden:**
 
 
 
 
 
-- Name**: Name der virtuellen Maschine (dies ist der Name, der in VirtualBox angezeigt wird)
-- Maschinenordner**: Speicherort der virtuellen Maschine, wobei ein Unterordner mit dem Namen der VM an diesem Ort erstellt wird
-- Typ**: der Typ des Betriebssystems, je nachdem, welches Betriebssystem Sie installieren möchten
-- Version**: die Version des Systems, das Sie installieren möchten, in diesem Fall Windows 11, also "**Windows11_64**"
+- **Name**: Name der virtuellen Maschine (dies ist der Name, der in VirtualBox angezeigt wird)
+- **Maschinenordner**: Speicherort der virtuellen Maschine, wobei ein Unterordner mit dem Namen der VM an diesem Ort erstellt wird
+- **Typ**: der Typ des Betriebssystems, je nachdem, welches Betriebssystem Sie installieren möchten
+- **Version**: die Version des Systems, das Sie installieren möchten, in diesem Fall Windows 11, also "**Windows11_64**"
 
 
 
@@ -205,7 +205,7 @@ Klicken Sie auf "**Weiter**", um fortzufahren.
 
 
 
-Je nach dem Betriebssystem, das Sie im vorherigen Schritt ausgewählt haben, gibt **VirtualBox Empfehlungen zu den Ressourcen, die der virtuellen Maschine zugewiesen werden sollen**. Hier geht es um den Arbeitsspeicher, den Sie der VM zuweisen möchten. Nehmen wir 4 GB an, da dies für Windows 11 empfohlen wird, aber wenn Sie nicht genügend Ressourcen haben, können Sie stattdessen 2 GB angeben. **Fortfahren
+Je nach dem Betriebssystem, das Sie im vorherigen Schritt ausgewählt haben, gibt **VirtualBox Empfehlungen zu den Ressourcen, die der virtuellen Maschine zugewiesen werden sollen**. Hier geht es um den Arbeitsspeicher, den Sie der VM zuweisen möchten. Nehmen wir 4 GB an, da dies für Windows 11 empfohlen wird, aber wenn Sie nicht genügend Ressourcen haben, können Sie stattdessen 2 GB angeben. **Fortfahren**.
 
 
 
@@ -231,9 +231,9 @@ VirtualBox unterstützt drei verschiedene Formate für virtuelle Hard-Festplatte
 
 
 
-- VDI**, das offizielle VirtualBox-Format
-- VHD**, das offizielle Hyper-V-Format, obwohl das neue VHDX-Format heutzutage immer häufiger verwendet wird
-- VMDX** ist das offizielle VMware-Format sowohl für VMware Workstation als auch für VMware ESXi
+- **VDI**, das offizielle VirtualBox-Format
+- **VHD**, das offizielle Hyper-V-Format, obwohl das neue VHDX-Format heutzutage immer häufiger verwendet wird
+- **VMDX** ist das offizielle VMware-Format sowohl für VMware Workstation als auch für VMware ESXi
 
 
 
@@ -273,7 +273,7 @@ Zu diesem Zeitpunkt befindet sich die VM in unserem Inventar, sie ist konfigurie
 
 
 
-Um Windows 11 oder ein anderes System zu installieren, benötigen wir Installationsquellen. In den meisten Fällen verwenden wir zur Installation eines Betriebssystems ein Disk-Image im ISO-Format. **Es ist notwendig, das ISO-Image von Windows 11 in das virtuelle DVD-Laufwerk unserer VM zu laden
+Um Windows 11 oder ein anderes System zu installieren, benötigen wir Installationsquellen. In den meisten Fällen verwenden wir zur Installation eines Betriebssystems ein Disk-Image im ISO-Format. **Es ist notwendig, das ISO-Image von Windows 11 in das virtuelle DVD-Laufwerk unserer VM zu laden.**
 
 
 
@@ -333,7 +333,7 @@ In meinem Fall hat die virtuelle Maschine 2 virtuelle Prozessoren:
 
 
 
-**Zögern Sie nicht, sich auch die anderen Abschnitte des Konfigurationsmenüs anzuschauen.
+**Zögern Sie nicht, sich auch die anderen Abschnitte des Konfigurationsmenüs anzuschauen.**
 
 
 
@@ -390,10 +390,10 @@ Auf unserem physischen Windows 11-Host, auf dem VirtualBox installiert ist, kön
 
 
 
-- Die VBOX**-Datei (im XML-Format), die der VM-Konfiguration entspricht (RAM, CPU, usw.)
-- Die Datei VBOX-PREV** ist eine Sicherungskopie der vorherigen Konfiguration
-- Die VDI**-Datei entspricht der virtuellen Hard-Platte im dynamischen Modus und ist daher derzeit nur 13 GB groß, während ihre maximale Größe 64 GB beträgt
-- Die NVRAM**-Datei enthält den BIOS-Status der virtuellen Maschine, der dem nichtflüchtigen Speicher einer physischen Maschine entspricht
+- Die **VBOX-Datei** (im XML-Format), die der VM-Konfiguration entspricht (RAM, CPU, usw.)
+- Die Datei **VBOX-PREV** ist eine Sicherungskopie der vorherigen Konfiguration
+- Die **VDI-Datei** entspricht der virtuellen Hard-Platte im dynamischen Modus und ist daher derzeit nur 13 GB groß, während ihre maximale Größe 64 GB beträgt
+- Die **NVRAM-Datei** enthält den BIOS-Status der virtuellen Maschine, der dem nichtflüchtigen Speicher einer physischen Maschine entspricht
 
 
 

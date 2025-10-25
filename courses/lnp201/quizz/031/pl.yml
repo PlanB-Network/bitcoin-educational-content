@@ -1,9 +1,9 @@
-question: Co ogranicza kwotę płatności pośredniej na Lightning Network?
-answer: Najmniejsza płynność dostępna w kanale wybranej ścieżki
+question: Co ogranicza kwotę płatności pośredniej w sieci Lightning?
+answer: Najmniejsza płynność dostępna w kanale na wybranej ścieżce
 wrong_answers:
   - Liczba zaangażowanych węzłów pośredniczących
-  - Całkowita pojemność Lightning Network
+  - Całkowita pojemność sieci Lightning
   - Opłaty za routing ustalone przez każdy węzeł
 explanation: |
-  Maksymalna kwota, jaką może przekazać płatność pośrednia, zależy od najniższej płynności dostępnej w wykorzystywanych kanałach, ponieważ każdy kanał musi dostosować środki po każdej stronie.
+  Maksymalna kwota, jaką można przekazać płatnością pośrednia, zależy od najniższej płynności dostępnej w wykorzystywanych kanałach, ponieważ każdy kanał musi dostosować środki po każdej stronie.
 reviewed: false

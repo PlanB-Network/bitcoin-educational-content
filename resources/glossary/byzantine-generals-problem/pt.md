@@ -17,4 +17,4 @@ Além disso, um general só pode comunicar com outro através de mensagens trans
 
 Aplicando o dilema ao contexto da cadeia de blocos Bitcoin, cada general representa um nó na rede, necessitando de chegar a um consenso sobre o estado do sistema. Por outras palavras, a maioria dos participantes numa rede distribuída deve concordar e executar a mesma ação para evitar uma falha total. A única forma de chegar a um consenso neste tipo de sistema distribuído é ter pelo menos 2/3 dos nós da rede fiáveis e honestos. Por conseguinte, se a maioria da rede decidir agir de forma maliciosa, o sistema fica vulnerável.
 
-> ► *Este dilema é por vezes também designado por "O problema da transmissão fiável"
+> ► *Este dilema é por vezes também designado por "O problema da transmissão fiável"*

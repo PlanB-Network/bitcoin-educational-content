@@ -1,0 +1,9 @@
+question: Nani anadhani kwamba mwanadamu anaweza kuvuruga Maumbile badala ya kufanyiwa hayo?
+answer: Descartes.
+wrong_answers:
+  - Spinoza.
+  - Einstein.
+  - Mtakatifu Augustin.
+explanation: |
+  Descartes aliamini kuwa mwanadamu anaweza kuvuruga Maumbile badala ya kuyapitia. Maono haya ya uwili yanashindanisha mwanadamu dhidi ya asili, na inapendekeza kwamba tunaweza kupanda juu ya sheria za asili kupitia mapenzi yetu.
+reviewed: false

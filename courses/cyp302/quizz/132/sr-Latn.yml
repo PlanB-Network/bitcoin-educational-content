@@ -1,9 +1,9 @@
-question: U Bitcoin transakciji, koja tehnologija se obično koristi za dokazivanje Ownership sredstava otključavanjem skripte?
+question: U Bitcoin transakciji, koja tehnologija se obično koristi za dokazivanje vlasništva nad sredstvima otključavanjem skripte?
 answer: Digitalni potpisi
 wrong_answers:
   - Digitalni sertifikati
   - Simetrično šifrovanje
   - Kodovi za autentifikaciju poruka (MAC)
 explanation: |
-  Digitalni potpisi u Bitcoin dokazuju posedovanje sredstava potpisivanjem transakcija privatnim ključem kako bi se otključao skript koji obezbeđuje UTXO.
-reviewed: false
+  Digitalni potpisi u Bitcoin-u dokazuju posedovanje sredstava potpisivanjem transakcija privatnim ključem kako bi se otključao skript koji obezbeđuje UTXO.
+reviewed: true

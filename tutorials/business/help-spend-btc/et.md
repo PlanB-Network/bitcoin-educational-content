@@ -57,7 +57,7 @@ Seda tüüpi allahindlus on tõhusam füüsiliste kaupluste puhul, eriti toodete
 ##### Näide
 
 
-Kõikides Euroopa riikides kehtib tarbimismaks, mida nimetatakse inglise keeles käibemaksuks [VAT] (https://en.wikipedia.org/wiki/Value-added_tax), mis on järgmine. See maks leiutati Prantsusmaal 1954. aastal ja 1970. aastaks oli see juba hakanud levima kogu algses Euroopa Ühenduses. Aastaks 2020 oli see levinud enamikus maailma piirkondades.
+Kõik Euroopa riigid on allutatud tarbimismaksule, mida inglise keeles nimetatakse "Value-added Tax", edaspidi [VAT](https://en.wikipedia.org/wiki/Value-added_tax). See maks leiutati Prantsusmaal 1954. aastal, 1970. aastaks oli see juba hakanud levima algses Euroopa Ühenduses; 2020. aastaks oli see juba levinud suurele osale maailmast.
 
 
 Oletame, et asume Euroopas, riigis, kus käibemaksumäär on 20% mis tahes kaubakategooria puhul. Oleme kingapoes ja oletame, et paar nahkjalatseid maksab 120 dollarit, kui maksta deebetkaardiga.
@@ -126,7 +126,7 @@ Rakendusmeetod on jäetud kaupmehe otsustada, kuid lühidalt on siin mõned olem
 ### BTC kaart
 
 
-Igal juhul on alati hea tava tagada, et teie ettevõte, kui tal on füüsiline asukoht, oleks [BTC Map](https://btcmap.org/map) kohal ja ajakohane. Enamik Bitcoin kasutajaid on selle vahendiga tuttav ja peaaegu kõik, kes on füüsilistes kauplustes Bitcoin kulutanud, on vähemalt korra kontrollinud, millised kohad neid aktsepteerivad. Kui soovite õppida, kuidas lisada oma pood BTC Map'ile või soovite lisateavet, vaadake seda õpetust:
+Igal juhul on alati hea tava veenduda, et teie ettevõte, kui sellel on füüsiline asukoht, oleks esindatud ja ajakohane [BTC Map](https://btcmap.org/map)-is. Enamik bitcoini kasutajaid on selle tööriistaga tuttavad ja peaaegu kõik, kes on kulutanud bitcoini füüsilistes poodides, on vähemalt korra kontrollinud, millised kohad seda aktsepteerivad. Kui soovite teada saada, kuidas oma poodi BTC Mapi lisada või rohkem teavet saada, vaadake seda õpetust:
 
 
 https://planb.network/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-f62658f343c6

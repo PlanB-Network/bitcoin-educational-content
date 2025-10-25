@@ -11,7 +11,7 @@ Nuförtiden är det viktigt att implementera en strategi för att säkerställa 
 För att förhindra dessa problem råder jag dig att göra flera säkerhetskopior av dina filer på olika medier. En vanlig strategi inom databehandling är säkerhetskopieringsstrategin "3-2-1", som säkerställer att dina filer skyddas:
 
 
-- 3** kopior av dina filer;
+- 3 **kopior** av dina filer;
 - Sparas på minst **2** olika typer av media;
 - Med minst **1** kopia som förvaras utanför webbplatsen.
 

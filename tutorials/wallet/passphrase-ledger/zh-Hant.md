@@ -1,5 +1,5 @@
 ---
-name: passphrase BIP39 Ledger
+name: BIP-39 Passphrase Ledger
 description: 如何將 passphrase 加到您的 Ledger Wallet 上？
 ---
 ![cover](assets/cover.webp)

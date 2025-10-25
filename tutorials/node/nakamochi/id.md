@@ -1,7 +1,9 @@
 ---
 name: Nakamochi
-description: Menjalankan Node Menjadi Mudah - Cara mengatur dan menggunakan Nakamochi Bitcoin dan Lightning node.
+description: Menjalankan Node Jadi Mudah - Cara mengonfigurasi dan menggunakan node Nakamochi Bitcoin dan Lightning.
 ---
+![image](assets/cover.webp)
+
 Menjalankan node penuh Bitcoin dan Lightning Anda sendiri tidak perlu lagi menjadi tugas yang rumit dan hanya dapat dilakukan oleh para ahli teknis. Secara tradisional, menyiapkan dan mengelola node membutuhkan pengetahuan yang mendalam mengenai kriptografi, jaringan, dan pengembangan perangkat lunak. Nakamochi mengubah hal tersebut dengan membuat node dapat diakses oleh semua orang, terlepas dari latar belakang teknisnya.
 
 Dengan Nakamochi, siapa pun dapat mengatur dan mengoperasikan sebuah node dari rumah, sehingga memungkinkan privasi penuh dan kemandirian finansial. Menjalankan sebuah node penuh tidak hanya mengamankan transaksi Anda sendiri, tetapi juga berkontribusi pada kekuatan jaringan Bitcoin. Jaringan Bitcoin yang terdesentralisasi dan tangguh bergantung pada distribusi node yang luas untuk memastikan keamanan dan kemandiriannya.
@@ -36,27 +38,29 @@ Node Nakamochi Anda dikelola melalui aplikasi seluler, [BitBanana (Android)] (ht
 
 ![image](assets/en/01.webp)
 
-hubungkan ke daya dan tuliskan frasa benih 24 kata Anda_
+_Hubungkan ke listrik dan tulis frasa benih 24 kata Anda_
 
 ![image](assets/en/02.webp)
 
-tunggu sampai Blockchain berhasil mengejar ketertinggalannya
+_Tunggu sampai Blockchain menyusul_
 
 ![image](assets/en/03.webp)
 
-mengatur dompet baru di Tab Lightning_
+_Siapkan dompet baru di Tab Lightning_
 
 ![image](assets/en/04.webp)
 
-pindai Kode QR dengan Aplikasi Manajemen Node_
+_Pindai Kode QR dengan Aplikasi Manajemen Node_
 
 ![image](assets/en/05.webp)
 
-untuk keamanan tambahan, tetapkan kode PIN_
+_Untuk keamanan tambahan, atur kode PIN_
 
-**Catatan:** _Izinkan node Nakamochi Anda untuk melakukan sinkronisasi dengan blockchain. Proses ini mungkin membutuhkan waktu, tergantung pada koneksi internet Anda._
+**Catatan:** _Izinkan node Nakamochi Anda untuk sinkron dengan blockchain. Proses ini mungkin memerlukan waktu tergantung pada koneksi internet Anda._
 
 ## Tentang Jaringan Lightning
+
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Bitcoin Lightning Network merevolusi transaksi Bitcoin dengan membuatnya lebih cepat, lebih murah, dan lebih efisien. Ini sempurna untuk penggunaan sehari-hari, memungkinkan pembayaran hampir instan dengan biaya minimal, ideal untuk transaksi mikro seperti membeli kopi atau menangani pembelian kecil yang sering dilakukan.
 

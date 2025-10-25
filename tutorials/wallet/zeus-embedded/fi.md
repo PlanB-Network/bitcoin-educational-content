@@ -13,7 +13,7 @@ Sovelluksessa on kuitenkin myös "Sulautettu solmu".
 
 
 
-**Tässä opetusohjelmassa tutustumme juuri tähän sovelluksen osa-alueeseen. Näin kenellä tahansa voi olla oma salamasolmunsa matkapuhelimessa ilman erillistä palvelinta, samalla tavalla kuin ACINQ tarjoaa uskomatonta Wallet-salamaa Phoenix.
+**Tässä opetusohjelmassa tutustumme juuri tähän sovelluksen osa-alueeseen. Näin kenellä tahansa voi olla oma salamasolmunsa matkapuhelimessa ilman erillistä palvelinta, samalla tavalla kuin ACINQ tarjoaa uskomatonta Wallet-salamaa Phoenix.**
 
 
 
@@ -248,7 +248,7 @@ Seuraavassa näytössä sinua pyydetään avaamaan kanava yhteistyössä **"Olym
 Tässä oppaassa valitsemme tämän vaihtoehdon yksinkertaisuuden vuoksi, mutta on täysin mahdollista avata kanavia mihin tahansa verkon solmuun.
 
 
-On jopa mahdollista avata useita kanavia yhdellä tapahtumalla valitsemalla "OPEN ADDITIONAL CHANNEL". *Mutta tarkastelemme tätä **Zeus Embedded**** -oppikirjan "edistyneemmissä" versioissa.
+On jopa mahdollista avata useita kanavia yhdellä tapahtumalla valitsemalla "OPEN ADDITIONAL CHANNEL". *Mutta tarkastelemme tätä* **Zeus Embedded** *-oppikirjan "edistyneemmissä" versioissa.*
 
 
 

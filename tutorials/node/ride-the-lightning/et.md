@@ -9,35 +9,35 @@ description: Kasutage Ride The Lightning (RTL), et hallata oma Lightning-sõlme
 
 
 
-**Ride The Lightning (RTL)** on täielik Interface veebirakendus Lightning Network sõlme haldamiseks. See isehostitav veebirakendus pakub Lightning** "kokpit'i", millele on juurdepääs teie brauserist. RTL töötab kõigi peamiste Lightning-rakendustega (LND, Core Lightning/CLN ja Eclair) ning annab teile täieliku kontrolli oma sõlme ja kanalite üle. RTL on avatud lähtekoodiga (MIT-litsents) ja tasuta ning on vaikimisi integreeritud paljudesse sõlmede valmislahendustesse (RaspiBlitz, MyNode, Umbrel jne).
+**Ride The Lightning (RTL)** on täielik Interface veebirakendus Lightning Network sõlme haldamiseks. See isehostitav veebirakendus pakub Lightning **"kokpit'i"**, millele on juurdepääs teie brauserist. RTL töötab kõigi peamiste Lightning-rakendustega (LND, Core Lightning/CLN ja Eclair) ning annab teile täieliku kontrolli oma sõlme ja kanalite üle. RTL on avatud lähtekoodiga (MIT-litsents) ja tasuta ning on vaikimisi integreeritud paljudesse sõlmede valmislahendustesse (RaspiBlitz, MyNode, Umbrel jne).
 
 
 
-**Graafilise Interface puudumisel saab Lightning-sõlmi hallata ainult kasutajasõbralike CLI käskude abil. RTL lihtsustab neid toiminguid ergonoomilise Interface abil. Siin on **peamised rakendused**:
-
-
-
-
-
-- Vaadake oma kanaleid ja sõlme** - armatuurlaual kuvatakse On-Chain saldo, Lightning likviidsus (kohalik/kaugjuhtimine), sünkroonimisolek, sõlme alias ja muud. Saate vaadata oma kanalite nimekirja, mahtu, kohalikku/kaugjaotust ja staatust. RTL pakub kontekstitundlikke armatuurlaudu, et analüüsida tegevust eri vaatenurkadest.
+**Graafilise Interface puudumisel saab Lightning-sõlmi hallata ainult kasutajasõbralike CLI käskude abil. RTL lihtsustab neid toiminguid ergonoomilise Interface abil. Siin on peamised rakendused:**
 
 
 
 
 
-- Kanalite välkjuhtimine** - avage/sulgege kanalid paari klõpsuga. RTL võimaldab teil luua ühenduse partneriga ja avada kanali ilma käsuta. Saate reguleerida marsruutimistasusid, vaadata saldoskoori või algatada ümmarguse tasakaalustamise, et tasakaalustada vahendeid kanalite vahel.
+- Vaadake oma kanaleid ja sõlme - armatuurlaual kuvatakse On-Chain saldo, Lightning likviidsus (kohalik/kaugjuhtimine), sünkroonimisolek, sõlme alias ja muud. Saate vaadata oma kanalite nimekirja, mahtu, kohalikku/kaugjaotust ja staatust. RTL pakub kontekstitundlikke armatuurlaudu, et analüüsida tegevust eri vaatenurkadest.
 
 
 
 
 
-- Jälgi ja tee makseid** - RTL haldab Lightning-tehinguid: saadab makseid arvete kaudu, generate arvete vastuvõtmiseks, jälgib tehinguid (maksed, marsruutimine) koos üksikasjaliku ajalooga. Interface analüüsib ka marsruutimist, et näha, millised maksed läbivad teie sõlme.
+- **Kanalite välkjuhtimine** - avage/sulgege kanalid paari klõpsuga. RTL võimaldab teil luua ühenduse partneriga ja avada kanali ilma käsuta. Saate reguleerida marsruutimistasusid, vaadata saldoskoori või algatada ümmarguse tasakaalustamise, et tasakaalustada vahendeid kanalite vahel.
 
 
 
 
 
-- Wallet On-Chain haldamine ja varundamine** - On-Chain vahekaart võimaldab teil generate-aadresside ja tehingute saatmist. RTL teeb kanalite salvestamise lihtsaks, eksportides LND jaoks SCB-faili, mille automaatne uuendamine toimub iga kanali muutmise korral.
+- **Jälgi ja tee makseid** - RTL haldab Lightning-tehinguid: saadab makseid arvete kaudu, genereerib arveid vastuvõtmiseks, jälgib tehinguid (maksed, marsruutimine) koos üksikasjaliku ajalooga. Interface analüüsib ka marsruutimist, et näha, millised maksed läbivad teie sõlme.
+
+
+
+
+
+- **Wallet On-Chain haldamine ja varundamine** - On-Chain vahekaart võimaldab teil generate-aadresside ja tehingute saatmist. RTL teeb kanalite salvestamise lihtsaks, eksportides LND jaoks SCB-faili, mille automaatne uuendamine toimub iga kanali muutmise korral.
 
 
 
@@ -142,9 +142,9 @@ See käsk installeerib vajalikud NPM-i paketid (ignoreerides arendussõltuvusi).
 
 
 
-   - UI parool**: valige turvaline parool ja sisestage see `multiPass`i (vaikimisi `"parooli" asemel).
-   - Port**: vaikimisi 3000. Saate seda muuta, kui see port on teie masinas juba hõivatud.
-   - Node**: kohandage oma sõlme parameetrid jaotises `nodes[0]`:
+- **UI parool**: valige turvaline parool ja sisestage see `multiPass`i (vaikimisi `"parooli"` asemel).
+- **Port**: vaikimisi 3000. Saate seda muuta, kui see port on teie masinas juba hõivatud.
+- **Node**: kohandage oma sõlme parameetrid jaotises `nodes[0]`:
      - `lnNode`: kirjeldav nimi teie sõlme jaoks (nt `"LND Node Maison"`).
      - lnImplementation`: `"LND"` (või `"CLN"`/`"ECL"` vastavalt vajadusele).
      - Punktis "Autentimine":
@@ -270,8 +270,8 @@ Kui kasutate [Umbrel](https://getumbrel.com), on RTL-i paigaldamine palju lihtsa
 
 
 
-- Ride The Lightning** (LND jaoks): kasutamiseks koos Umbreli vaikimisi välgussõlmega (LND).
-- Ride The Lightning (Core Lightning)**: kasutage seda ainult siis, kui olete paigaldanud Umbrelile rakenduse *Core Lightning* ja soovite seda sõlme hallata RTL-i abil.
+- **Ride The Lightning** (LND jaoks): kasutamiseks koos Umbreli vaikimisi välgussõlmega (LND).
+- **Ride The Lightning (Core Lightning)**: kasutage seda ainult siis, kui olete paigaldanud Umbrelile rakenduse *Core Lightning* ja soovite seda sõlme hallata RTL-i abil.
 
 
 
@@ -639,9 +639,9 @@ Oma sõlme jälgimiseks saate eksportida RTL-andmeid (logid, CSV) ja vaadata nei
 
 
 
-- VPN** (nt Tailscale) privaatse, krüpteeritud juurdepääsu jaoks
-- Tor** turvalise, anonüümse juurdepääsu jaoks
-- Reverse proxy HTTPS** (Nginx/Caddy) ainult siis, kui te teate, kuidas seda konfigureerida
+- **VPN** (nt Tailscale) privaatse, krüpteeritud juurdepääsu jaoks
+- **Tor** turvalise, anonüümse juurdepääsu jaoks
+- Reverse proxy **HTTPS** (Nginx/Caddy) ainult siis, kui te teate, kuidas seda konfigureerida
 
 
 
@@ -653,11 +653,11 @@ https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7
 
 
 
-- Kaitske oma juurdepääsu**: ärge kunagi jagage admin.macaroon või oma RTL parooli. Piirake tundlike failide õigusi.
-- Regulaarsed varukoopiad**: eksportige kanali varukoopiate fail (SCB) pärast iga muudatust ja salvestage see väljaspool sõlme.
-- Uuendused**: hoiab RTLi, teie sõlme ja Umbreli viimaste turvaparandustega ajakohasena.
-- Konfidentsiaalsus**: anonüümne logid ja ekraanipildid enne nende jagamist. Ärge kunagi jagage oma saldosid või võrdsete isikute nimekirju avalikult.
-- Ühekordne juurdepääs**: RTL ei ole mitme kasutajaga. Ärge jagage administraatori juurdepääsu. Ainult lugemiseks kasutage vajaduse korral spetsiaalset makarooni.
+- **Kaitske oma juurdepääsu**: ärge kunagi jagage admin.macaroon või oma RTL parooli. Piirake tundlike failide õigusi.
+- **Regulaarsed varukoopiad**: eksportige kanali varukoopiate fail (SCB) pärast iga muudatust ja salvestage see väljaspool sõlme.
+- **Uuendused**: hoiab RTLi, teie sõlme ja Umbreli viimaste turvaparandustega ajakohasena.
+- **Konfidentsiaalsus**: anonüümne logid ja ekraanipildid enne nende jagamist. Ärge kunagi jagage oma saldosid või võrdsete isikute nimekirju avalikult.
+- **Ühekordne juurdepääs**: RTL ei ole mitme kasutajaga. Ärge jagage administraatori juurdepääsu. Ainult lugemiseks kasutage vajaduse korral spetsiaalset makarooni.
 
 
 
@@ -684,10 +684,10 @@ Et rohkem teada saada :
 
 - RTLi ametlik veebileht: https://www.ridethelightning.info/
 - GitHub RTL: https://github.com/Ride-The-Lightning/RTL
-- Reddit r/lightningnetwork**: [r/lightningnetwork](https://www.reddit.com/r/lightningnetwork) - Tehnilised arutelud, projektiteated, tagasiside ja õppevahendid
-- Umbrel Community Forum**: [community.getumbrel.com](https://community.getumbrel.com) - Ametlik foorum, kus on spetsiaalne Bitcoin/Lightning sektsioon, juhendid ja lahendused tavalistele probleemidele
-- Lightning Network arendajad**: [github.com/lightning](https://github.com/lightning) - ametlik GitHubi repositoorium, kus saab jälgida arendustegevust ja panustada lähtekoodi
-- Stack Exchange Bitcoin** : [Bitcoin.stackexchange.com](https://Bitcoin.stackexchange.com) - Tehnilised küsimused ja vastused arendajatele ja edasijõudnutele
+- **Reddit r/lightningnetwork**: [r/lightningnetwork](https://www.reddit.com/r/lightningnetwork) - Tehnilised arutelud, projektiteated, tagasiside ja õppevahendid
+- **Umbrel Community Forum**: [community.getumbrel.com](https://community.getumbrel.com) - Ametlik foorum, kus on spetsiaalne Bitcoin/Lightning sektsioon, juhendid ja lahendused tavalistele probleemidele
+- **Lightning Network arendajad**: [github.com/lightning](https://github.com/lightning) - ametlik GitHubi repositoorium, kus saab jälgida arendustegevust ja panustada lähtekoodi
+- **Stack Exchange Bitcoin**: [Bitcoin.stackexchange.com](https://Bitcoin.stackexchange.com) - Tehnilised küsimused ja vastused arendajatele ja edasijõudnutele
 
 
 

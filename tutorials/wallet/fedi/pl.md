@@ -33,7 +33,7 @@ Fedi Wallet to portfel Bitcoin, który oferuje nowe podejście do zapisywania s�
 
 
 
-- Powiernicy**: Decydujesz się powierzyć swoje zaufanie zewnętrznemu podmiotowi, twórcy portfela, który będzie przechowywał dla Ciebie słowa odzyskiwania dla Twojego portfela. Użytkownik nie ma dostępu ani możliwości wyeksportowania swojego portfela Bitcoin.
+- **Powiernicy**: Decydujesz się powierzyć swoje zaufanie zewnętrznemu podmiotowi, twórcy portfela, który będzie przechowywał dla Ciebie słowa odzyskiwania dla Twojego portfela. Użytkownik nie ma dostępu ani możliwości wyeksportowania swojego portfela Bitcoin.
 
 
 
@@ -43,7 +43,7 @@ https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c
 
 
 
-- Samodzielne usuwanie** : Aplikacja zapewnia dostęp do słów odzyskiwania natychmiast po utworzeniu Wallet. Możesz więc swobodnie eksportować swoje bitcoiny do Wallet, który najbardziej Ci odpowiada.
+- **Samodzielne usuwanie**: Aplikacja zapewnia dostęp do słów odzyskiwania natychmiast po utworzeniu Wallet. Możesz więc swobodnie eksportować swoje bitcoiny do Wallet, który najbardziej Ci odpowiada.
 
 
 
@@ -103,7 +103,7 @@ W menu **Federacje** przewiń w dół do federacji, a następnie kliknij **Szcze
 
 
 
-- Odbieranie bitcoinów na Fedi**: Na stronie głównej wybierz federację, której chcesz używać do odbierania bitcoinów, a następnie kliknij przycisk **Odbierz**, aby utworzyć Lightning Invoice z kwotą do odebrania.
+- **Odbieranie bitcoinów na Fedi**: Na stronie głównej wybierz federację, której chcesz używać do odbierania bitcoinów, a następnie kliknij przycisk **Odbierz**, aby utworzyć Lightning Invoice z kwotą do odebrania.
 
 
 
@@ -113,7 +113,7 @@ W menu **Federacje** przewiń w dół do federacji, a następnie kliknij **Szcze
 
 
 
-- Wysyłanie bitcoinów**: Na stronie głównej kliknij przycisk **Wyślij**, aby wysłać bitcoiny do Lightning Address, zapłacić Invoice lub dokonać płatności offline.
+- **Wysyłanie bitcoinów**: Na stronie głównej kliknij przycisk **Wyślij**, aby wysłać bitcoiny do Lightning Address, zapłacić Invoice lub dokonać płatności offline.
 
 
 
@@ -232,4 +232,3 @@ Właśnie odbyłeś wycieczkę po Fedi Wallet, jesteś teraz w stanie wykorzysta
 
 
 https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
-

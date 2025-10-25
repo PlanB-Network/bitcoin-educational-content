@@ -1,0 +1,8 @@
+question: What happens during the unwinding process when a panic occurs in Rust?
+answer: Rust walks back through the call stack to provide a detailed stack trace
+wrong_answers:
+  - Rust immediately terminates the program without any cleanup or information
+  - Rust converts the panic into a recoverable Result type automatically
+  - Rust restarts the failed operation from the beginning of the function
+explanation: |
+  When a panic occurs in Rust, the unwinding process walks back through the call stack to provide a detailed stack trace showing exactly where the panic occurred. This helps developers identify the source of problems during debugging. The other options are incorrect: Rust doesn't terminate immediately without cleanup (that only happens when unwinding is disabled), panics cannot be automatically converted to Result types, and Rust doesn't restart failed operations.

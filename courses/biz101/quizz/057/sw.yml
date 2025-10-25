@@ -1,4 +1,4 @@
-question: Kwa nini ni muhimu kufuatilia thamani ya fiat wakati wa kila shughuli ya Bitcoin?
+question: Kwa nini ni muhimu kufuatilia thamani ya fiat wakati wa kila muamala wa Bitcoin?
 answer: Ili kuhakikisha uwekaji hesabu sahihi na kufuata kodi
 wrong_answers:
   - Ili kuongeza kiotomati usawa wa Wallet
@@ -6,4 +6,4 @@ wrong_answers:
   - Ili kupunguza ada za ununuzi zilizowekwa na mtandao
 explanation: |
   Kufuatilia thamani ya fiat husaidia biashara kudhibiti uwekaji hesabu kwa bei zinazobadilika-badilika za Bitcoin.
-reviewed: false
+reviewed: true

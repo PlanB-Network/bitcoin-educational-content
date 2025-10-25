@@ -116,11 +116,11 @@ Po zalogowaniu, w górnej części Interface pojawi się pasek nawigacyjny zawie
 
 
 
-- Handel**: "*klasyczny*" rynek, na którym można składać zlecenia kupna i sprzedaży kryptowalut (w tym Bitcoin);
-- OTC**: Over-The-Counter - usługa handlu dużymi wolumenami bezpośrednio z innym graczem, poza publicznymi księgami zleceń;
-- Finansowanie**: Obszar poświęcony finansowaniu pożyczek i depozytów zabezpieczających;
-- Instrumenty pochodne**: Sekcja dotycząca instrumentów pochodnych (kontrakty futures itp.), przeznaczona dla doświadczonych traderów;
-- P2P**: Umożliwia kupowanie lub sprzedawanie kryptowalut od innych użytkowników na zasadzie peer-to-peer.
+- **Handel**: "*klasyczny*" rynek, na którym można składać zlecenia kupna i sprzedaży kryptowalut (w tym Bitcoin);
+- **OTC**: Over-The-Counter - usługa handlu dużymi wolumenami bezpośrednio z innym graczem, poza publicznymi księgami zleceń;
+- **Finansowanie**: Obszar poświęcony finansowaniu pożyczek i depozytów zabezpieczających;
+- **Instrumenty pochodne**: Sekcja dotycząca instrumentów pochodnych (kontrakty futures itp.), przeznaczona dla doświadczonych traderów;
+- **P2P**: Umożliwia kupowanie lub sprzedawanie kryptowalut od innych użytkowników na zasadzie peer-to-peer.
 
 
 Do standardowego użytku (kupno/sprzedaż bitcoinów, wpłaty/wypłaty i zarządzanie gotówką) będziesz głównie korzystać z zakładki "*Trading*", a także sekcji "*Wallet*", "*Deposit*" i "*Withdraw*".

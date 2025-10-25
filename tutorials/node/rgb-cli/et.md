@@ -233,8 +233,8 @@ See loob kausta kogu varanduse üksikasjadega.
 Enamasti toimub lepingus osalejate (nt Alice ja Bob) vaheline suhtlus arve koostamise kaudu. Kui Alice soovib, et Bob täidaks midagi (sümboolika ülekandmine, uuesti väljastamine, tegevus DAOs jne), loob Alice arve, milles kirjeldatakse üksikasjalikult tema juhiseid Bobile. Seega on meil :
 
 
-- Alice** (arve väljastaja) ;
-- Bob** (kes võtab arve vastu ja täidab selle).
+- **Alice** (arve väljastaja) ;
+- **Bob** (kes võtab arve vastu ja täidab selle).
 
 Erinevalt teistest ökosüsteemidest ei ole RGB-arve piiratud makse mõistega. Sellesse võib sisse põimida mis tahes lepinguga seotud taotluse: võtme tühistamine, hääletamine, NFT-le graveeringu (*graveeringu*) loomine jne. Vastavat toimingut saab kirjeldada lepingu liideses. Vastavat toimingut saab kirjeldada lepingu liideses.
 

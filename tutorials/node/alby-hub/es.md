@@ -299,7 +299,7 @@ Vuelve a la aplicación Alby Go, escanea el código QR o pega el código único.
 
 ![ALBY HUB](assets/fr/50.webp)
 
-Haz clic en "Finalizar*".
+Haz clic en "Finalizar".
 
 ![ALBY HUB](assets/fr/51.webp)
 

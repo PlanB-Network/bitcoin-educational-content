@@ -1,5 +1,5 @@
 ---
-name: Ledger फ्लेक्स
+name: Ledger Flex
 description: Ledger फ्लेक्स को सेट अप करना और उपयोग करना
 ---
 ![cover](assets/cover.webp)

@@ -1,0 +1,9 @@
+question: Utekelezaji mkuu mbadala wa Bitcoin core ni upi?
+answer: Bitcoin Knots
+wrong_answers:
+  - Pesa ya Bitcoin
+  - BTCD
+  - Bcoin
+explanation: |
+  Bitcoin Knots, iliyotengenezwa na Luke Dashjr, ni Fork ya Core, inatoa chaguzi za ziada na maono ya kihafidhina zaidi.
+reviewed: true

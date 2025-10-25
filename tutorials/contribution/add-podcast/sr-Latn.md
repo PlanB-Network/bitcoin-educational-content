@@ -80,13 +80,13 @@ Evo detalja koje treba uneti za svako polje:
 
 
 
-- `name`**: Naznačite ime vašeg podkasta.
+- **`name`**: Naznačite ime vašeg podkasta.
 - `host`**: Navedite imena ili pseudonime govornika ili voditelja podkasta. Svako ime treba biti odvojeno zarezom.
-- `language`**: Označite kod jezika koji se govori u vašem podcastu. Na primer, za engleski, navedite `en`, za italijanski `it`...
+- `language`: Označite kod jezika koji se govori u vašem podcastu. Na primer, za engleski, navedite `en`, za italijanski `it`...
 
 
 
-- `linkovi`**: Pružite linkove ka vašem sadržaju. Imate dve opcije:
+- **`linkovi`**: Pružite linkove ka vašem sadržaju. Imate dve opcije:
  - `podcast`: link ka vašem podcastu,
  - `twitter`: link ka Twitter profilu podkasta ili organizacije koja ga proizvodi,
  - `website`: link ka vebsajtu podkasta ili organizacije koja ga proizvodi.
@@ -97,7 +97,7 @@ Evo detalja koje treba uneti za svako polje:
 
 
 
-- `oznake`**: Dodajte dve oznake povezane sa vašim podkastom. Primeri:
+- **`oznake`**: Dodajte dve oznake povezane sa vašim podkastom. Primeri:
     - `Bitcoin`
     - `tehnologija`
     - `ekonomija`

@@ -1,0 +1,9 @@
+question: Je, kazi kuu ya Bitcoin Wallet ni nini?
+answer: Kuhifadhi na kudhibiti funguo za kibinafsi
+wrong_answers:
+  - Hifadhi na udhibiti Blockchain kamili
+  - Angalia uhalali wa kuzuia
+  - Relay shughuli za mtandao
+explanation: |
+  Bitcoin Wallet inasimamia funguo za kibinafsi zinazowezesha bitcoins kutumika, lakini haifanyi kazi za node.
+reviewed: true

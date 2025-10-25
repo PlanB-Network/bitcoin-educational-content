@@ -73,7 +73,7 @@ Par défaut, la Monnaie Minibits est activée au démarrage de l'application. Ce
 
 La sauvegarde est sans doute l'étape la plus critique de tout le processus d'installation. Pour accéder aux options de sauvegarde, naviguez vers `Settings`-> `Backup` Ici vous trouverez deux options essentielles :
 
-1. votre phrase seed, qui contient 12 mots, vous permet de récupérer votre solde d'argent en cas de perte de votre appareil. Cette phrase seed est votre clé principale pour tous les ecashs de toutes les monnaies que vous avez ajoutées. Notez-la sur un support physique (papier ou métal) et conservez-la en lieu sûr à plusieurs endroits. Ne stockez jamais votre phrase seed sur un support numérique où elle pourrait être compromise. Consultez ce [tutoriel] (https://planb.network/en/tutorials/Wallet/backup/backup-Mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270) pour connaître les meilleures pratiques en matière de protection de votre Wallet.
+1. votre phrase seed, qui contient 12 mots, vous permet de récupérer votre solde d'argent en cas de perte de votre appareil. Cette phrase seed est votre clé principale pour tous les ecashs de toutes les monnaies que vous avez ajoutées. Notez-la sur un support physique (papier ou métal) et conservez-la en lieu sûr à plusieurs endroits. Ne stockez jamais votre phrase seed sur un support numérique où elle pourrait être compromise. Consultez ce [tutoriel] (https://planb.network/en/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270) pour connaître les meilleures pratiques en matière de protection de votre Wallet.
 
 2. `Wallet backup` qui contient une longue chaîne de sauvegarde.
 

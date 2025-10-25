@@ -50,11 +50,11 @@ Dnes je Jami k dispozici v mnoha systémech. Je známý svým výkonem, plynulos
 
 
 
-- Je to open-source a zcela zdarma**, takže jej můžete používat bezplatně.
-- Kompletní užitečné funkce**: tento software umožňuje využívat řadu možností díky možnosti snadného přidávání zásuvných modulů z obchodu. Dokonce je možné vytvářet vlastní rozšíření pro funkce, které více vyhovují vašim potřebám.
-- Snadné používání a intuitivní ovládání**: navzdory mnoha funkcím, které Jami nabízí, je velmi snadné se s ním seznámit.
-- Silné zabezpečení**: Jami využívá pokročilý šifrovací algoritmus, který zaručuje bezpečnost vaší komunikace a zároveň respektuje vaše soukromí.
-- Vysoce dostupný a rychlý**: nabízí snadnou komunikaci i při omezené šířce pásma, což zvyšuje uživatelskou přívětivost.
+- Je to open-source a zcela **zdarma**, takže jej můžete používat bezplatně.
+- **Kompletní užitečné funkce**: tento software umožňuje využívat řadu možností díky možnosti snadného přidávání zásuvných modulů z obchodu. Dokonce je možné vytvářet vlastní rozšíření pro funkce, které více vyhovují vašim potřebám.
+- **Snadné používání a intuitivní ovládání**: navzdory mnoha funkcím, které Jami nabízí, je velmi snadné se s ním seznámit.
+- **Silné zabezpečení**: Jami využívá pokročilý šifrovací algoritmus, který zaručuje bezpečnost vaší komunikace a zároveň respektuje vaše soukromí.
+- **Vysoce dostupný a rychlý**: nabízí snadnou komunikaci i při omezené šířce pásma, což zvyšuje uživatelskou přívětivost.
 
 
 
@@ -338,9 +338,9 @@ Jami nabízí také **pokročilé funkce** pro uživatele, kteří chtějí jít
 
 
 
-- Vytvoření místa setkání**: Tato funkce umožňuje vytvořit **bod setkání** pro vaši komunikaci, což je užitečné pro organizování zabezpečených relací nebo výměn mezi několika uživateli.
-- Připojení k serveru Jami**: Jami můžete připojit k serveru **Jami**, což může zlepšit výkon nebo dostupnost komunikace, zejména v profesionálním prostředí.
-- Nastavení účtu SIP**: Můžete si zřídit účet **SIP** (Session Initiation Protocol), který vám umožní integrovat Jami se stávajícími telefonními systémy nebo uskutečňovat telefonní hovory.
+- **Vytvoření místa setkání**: Tato funkce umožňuje vytvořit **bod setkání** pro vaši komunikaci, což je užitečné pro organizování zabezpečených relací nebo výměn mezi několika uživateli.
+- **Připojení k serveru Jami**: Jami můžete připojit k serveru **Jami**, což může zlepšit výkon nebo dostupnost komunikace, zejména v profesionálním prostředí.
+- **Nastavení účtu SIP**: Můžete si zřídit účet **SIP** (Session Initiation Protocol), který vám umožní integrovat Jami se stávajícími telefonními systémy nebo uskutečňovat telefonní hovory.
 
 
 

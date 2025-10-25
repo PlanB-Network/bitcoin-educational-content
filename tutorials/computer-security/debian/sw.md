@@ -17,11 +17,11 @@ Debian ni usambazaji wa bure wa GNU/Linux, unaojulikana kwa uimara na kutegemewa
 
 
 
-- Bure na wazi**: Debian ni chanzo wazi kabisa, kinachohakikisha uwazi na hakuna ada za leseni.
-- Uthabiti na usalama**: kila toleo hupitia mchakato wa majaribio ya kina, na kufanya Debian kuwa mojawapo ya usambazaji wa kuaminika na salama kwenye soko.
-- Jumuiya inayotumika**: jumuiya kubwa na hati nyingi zinapatikana ili kukusaidia wakati wowote unapozihitaji.
-- Nyepesi na inayoweza kubadilika**: unaweza kusakinisha Debian kwenye mashine zilizo na rasilimali za kawaida huku ukidumisha utendakazi mzuri.
-- Katalogi pana ya programu**: zaidi ya vifurushi rasmi 50,000 vinapatikana kupitia hazina.
+- **Bure na wazi**: Debian ni chanzo wazi kabisa, kinachohakikisha uwazi na hakuna ada za leseni.
+- **Uthabiti na usalama**: kila toleo hupitia mchakato wa majaribio ya kina, na kufanya Debian kuwa mojawapo ya usambazaji wa kuaminika na salama kwenye soko.
+- **Jumuiya inayotumika**: jumuiya kubwa na hati nyingi zinapatikana ili kukusaidia wakati wowote unapozihitaji.
+- **Nyepesi na inayoweza kubadilika**: unaweza kusakinisha Debian kwenye mashine zilizo na rasilimali za kawaida huku ukidumisha utendakazi mzuri.
+- **Katalogi pana ya programu**: zaidi ya vifurushi rasmi 50,000 vinapatikana kupitia hazina.
 
 
 
@@ -35,12 +35,12 @@ Debian hutoa mazingira kadhaa ya eneo-kazi kutosheleza mahitaji yako:
 
 
 
-- GNOME**: ya kisasa, angavu Interface, bora kwa wanaoanza. Inatoa menyu ya picha, ambayo ni rahisi kutumia kwa kupata programu.
-- XFCE**: nyepesi na ya haraka, kamili kwa mashine zenye nguvu kidogo.
-- KDE Plasma**: inaweza kubinafsishwa sana, na mwonekano unaofanana na Windows.
-- Mdalasini**: rahisi, kifahari Interface, iliyoongozwa na Windows.
-- LXDE / LXQt**: mwanga mwingi, unaofaa kwa kompyuta za zamani.
-- MATE**: rahisi na ya kisasa, karibu na GNOME ya zamani.
+- **GNOME**: ya kisasa, angavu Interface, bora kwa wanaoanza. Inatoa menyu ya picha, ambayo ni rahisi kutumia kwa kupata programu.
+- **XFCE**: nyepesi na ya haraka, kamili kwa mashine zenye nguvu kidogo.
+- **KDE Plasma**: inaweza kubinafsishwa sana, na mwonekano unaofanana na Windows.
+- **Mdalasini**: rahisi, kifahari Interface, iliyoongozwa na Windows.
+- **LXDE / LXQt**: mwanga mwingi, unaofaa kwa kompyuta za zamani.
+- **MATE**: rahisi na ya kisasa, karibu na GNOME ya zamani.
 
 
 
@@ -61,9 +61,9 @@ Kabla ya kuanza usakinishaji, tafadhali hakikisha kuwa una vifaa vifuatavyo:
 
 
 
-- Kitufe cha USB**: Kima cha chini cha GB 8 ili kushikilia picha ya ISO inayoweza kuwashwa.
-- Kumbukumbu ya Ufikiaji Nasibu (RAM)**: GB 4 kwa usakinishaji na uendeshaji laini.
-- Nafasi ya diski**: angalau GB 15 ya nafasi ya bure kwa mfumo na masasisho.
+- **Kitufe cha USB**: Kima cha chini cha GB 8 ili kushikilia picha ya ISO inayoweza kuwashwa.
+- **Kumbukumbu ya Ufikiaji Nasibu (RAM)**: GB 4 kwa usakinishaji na uendeshaji laini.
+- **Nafasi ya diski**: angalau GB 15 ya nafasi ya bure kwa mfumo na masasisho.
 
 
 
@@ -77,9 +77,9 @@ Chaguo la picha ya Debian inategemea usanifu wa processor yako:
 
 
 
-- AMD64**: pakua toleo la "mseto wa moja kwa moja" kutoka kwa orodha [ya kupakua] (https://debian.obspm.fr/debian-cd/12.11.0-live/amd64/iso-hybrid/).
-- ARM64**: pata picha ya DVD kutoka kwa tovuti rasmi ya [Debian] (https://debian.obspm.fr/debian-cd/12.11.0/arm64/iso-dvd/).
-- Usanifu mwingine**: pata ISO inayolingana na usanifu wako [hapa](https://debian.obspm.fr/debian-cd/12.11.0/).
+- **AMD64**: pakua toleo la "mseto wa moja kwa moja" kutoka kwa orodha [ya kupakua] (https://debian.obspm.fr/debian-cd/12.11.0-live/amd64/iso-hybrid/).
+- **ARM64**: pata picha ya DVD kutoka kwa tovuti rasmi ya [Debian](https://debian.obspm.fr/debian-cd/12.11.0/arm64/iso-dvd/).
+- **Usanifu mwingine**: pata ISO inayolingana na usanifu wako [hapa](https://debian.obspm.fr/debian-cd/12.11.0/).
 
 
 
@@ -96,7 +96,7 @@ Mara tu unapopakua picha inayofaa ya ISO, endelea kuunda media yako ya usakinish
 
 
 
-- Pakua Balena Etcher** kutoka [tovuti rasmi](https://etcher.balena.io/), kisha upate jozi ya mfumo wako na uisakinishe.
+- **Pakua Balena Etcher** kutoka [tovuti rasmi](https://etcher.balena.io/), kisha upate jozi ya mfumo wako na uisakinishe.
 
 
 
@@ -106,9 +106,9 @@ Mara tu unapopakua picha inayofaa ya ISO, endelea kuunda media yako ya usakinish
 
 
 
-- Zindua Etcher**: fungua programu na uchague picha ya Debian ISO iliyopakuliwa hapo awali.
-- Chagua kitufe cha USB**: bainisha ufunguo wako (GB 8+) kama lengo.
-- Anzisha mweko**: bofya kwenye **Mweko!** na usubiri hadi mchakato ukamilike.
+- **Zindua Etcher**: fungua programu na uchague picha ya Debian ISO iliyopakuliwa hapo awali.
+- Chagua kitufe cha **USB**: bainisha ufunguo wako (GB 8+) kama lengo.
+- **Anzisha mweko**: bofya kwenye **Mweko!** na usubiri hadi mchakato ukamilike.
 
 
 
@@ -133,10 +133,10 @@ Ili kuzindua usakinishaji kutoka kwa ufunguo wako wa USB:
 
 
 
-- Zima ** kompyuta kabisa.
-- Washa upya** kisha ufikie BIOS/UEFI kwa kubofya mara moja `ESC`, `F2`, `F11` (au ufunguo maalum kulingana na chapa yako).
+- Zima **kompyuta kabisa**.
+- Washa upya kisha ufikie BIOS/UEFI kwa kubofya mara moja `ESC`, `F2`, `F11` (au ufunguo maalum kulingana na chapa yako).
 - Katika menyu ya kuwasha, **chagua ufunguo wako wa USB** kama kifaa cha kuwasha.
-- Thibitisha** kwa kitufe cha Ingiza ili kuanza kwenye picha ya Debian: hii itakupeleka kwenye skrini ya kukaribisha ya kisakinishi.
+- **Thibitisha** kwa kitufe cha Ingiza ili kuanza kwenye picha ya Debian: hii itakupeleka kwenye skrini ya kukaribisha ya kisakinishi.
 
 
 
@@ -157,9 +157,9 @@ Wakati wa kuwasha kutoka kwa fimbo ya USB, skrini ya kukaribisha ya Debian hutoa
 
 
 
-- Mfumo wa Moja kwa Moja**: huzindua Debian bila kuisakinisha, bora kwa kujaribu mazingira.
-- Anza Kisakinishi**: huanza usakinishaji moja kwa moja kwenye diski ya Hard.
-- Chaguo za Kina za Usakinishaji**: hukupa ufikiaji wa modi zilizobinafsishwa za usakinishaji.
+- **Mfumo wa Moja kwa Moja**: huzindua Debian bila kuisakinisha, bora kwa kujaribu mazingira.
+- **Anza Kisakinishi**: huanza usakinishaji moja kwa moja kwenye diski ya Hard.
+- **Chaguo za Kina za Usakinishaji**: hukupa ufikiaji wa modi zilizobinafsishwa za usakinishaji.
 
 
 
@@ -173,7 +173,7 @@ Ili kugundua Debian katika hali ya moja kwa moja, chagua **Mfumo wa Moja kwa Moj
 
 
 
-- Uchaguzi wa lugha** (si lazima)
+- **Uchaguzi wa lugha** (si lazima)
 
 
 
@@ -187,7 +187,7 @@ Chagua lugha kuu ya mfumo wako wa Debian kutoka kwenye orodha, kisha ubofye Sawa
 
 
 
-- Saa za eneo** (GMT)
+- **Saa za eneo** (GMT)
 
 
 
@@ -219,8 +219,8 @@ Chagua lugha na mpangilio wa kibodi yako. Tumia sehemu ya majaribio iliyojengewa
 
 
 
-- Futa diski**: ikiwa una kizigeu kilichojitolea, chaguo hili litafuta yaliyomo yake yote.
-- Kugawanya mwenyewe**: chagua chaguo hili ili kuunda, kubadilisha ukubwa au kufuta sehemu kama inavyohitajika.
+- **Futa diski**: ikiwa una kizigeu kilichojitolea, chaguo hili litafuta yaliyomo yake yote.
+- **Kugawanya mwenyewe**: chagua chaguo hili ili kuunda, kubadilisha ukubwa au kufuta sehemu kama inavyohitajika.
 
 
 
@@ -244,7 +244,7 @@ Weka jina lako kamili, jina la akaunti na nenosiri thabiti ili kuhakikisha kipin
 
 
 
-- Muhtasari wa kigezo**
+- **Muhtasari wa kigezo**
 
 
 
@@ -272,7 +272,7 @@ Bofya kwenye **Sakinisha** ili kuanza kunakili faili na kusanidi mfumo, kisha su
 
 
 
-- Anzisha upya**
+- **Anzisha upya**
 
 
 

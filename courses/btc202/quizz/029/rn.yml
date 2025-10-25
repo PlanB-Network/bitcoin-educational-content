@@ -1,0 +1,9 @@
+question: Ni igiki nyamukuru kiranga Full node?
+answer: Irakura kuri interineti kandi ikayemeza Blockchain yose.
+wrong_answers:
+  - Igumya gusa imitwe y'amabuye
+  - Ifuta amabuye ya kera inyuma yo kugenzura
+  - Bivana n'iyindi node kugira ngo wemeze amafaranga
+explanation: |
+  Full node igumya Blockchain yose kandi yemeza buri bubiko n’ibikorwa vy’ubudandaji vyigenga.
+reviewed: true

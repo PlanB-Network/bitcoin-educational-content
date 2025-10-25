@@ -1,0 +1,9 @@
+question: スピノザにとって神とは？
+answer: 自然だ。
+wrong_answers:
+  - 意思を持った存在。
+  - 時計職人。
+  - フィクションだ。
+explanation: |
+  スピノザにとって、神とは自然である（Deus sive Natura）。神は超越的で人格的な存在ではなく、唯一無二の無限の実体であり、存在するすべてのものはその一態様あるいは顕現である。
+reviewed: false

@@ -9,35 +9,35 @@ description: Käytä Ride The Lightning (RTL) -palvelua Lightning-solmun hallint
 
 
 
-**Ride The Lightning (RTL)** on täydellinen Interface-verkkosovellus Lightning Network-solmun hallintaan. Tämä itse ylläpidettävä verkkosovellus tarjoaa Lightning**-"ohjaamon", johon pääsee selaimella. RTL toimii kaikkien tärkeimpien Lightning-toteutusten kanssa (LND, Core Lightning/CLN ja Eclair) ja antaa sinulle täydellisen hallinnan solmusi ja kanaviesi yli. Avoimen lähdekoodin (MIT-lisenssi) ja maksuttomana RTL on oletusarvoisesti integroitu moniin avaimet käteen -noodiratkaisuihin (RaspiBlitz, MyNode, Umbrel jne.).
+**Ride The Lightning (RTL)** on täydellinen Interface-verkkosovellus Lightning Network-solmun hallintaan. Tämä itse ylläpidettävä verkkosovellus tarjoaa Lightning-"ohjaamon", johon pääsee selaimella. RTL toimii kaikkien tärkeimpien Lightning-toteutusten kanssa (LND, Core Lightning/CLN ja Eclair) ja antaa sinulle täydellisen hallinnan solmusi ja kanaviesi yli. Avoimen lähdekoodin (MIT-lisenssi) ja maksuttomana RTL on oletusarvoisesti integroitu moniin avaimet käteen -noodiratkaisuihin (RaspiBlitz, MyNode, Umbrel jne.).
 
 
 
-** Ilman graafista Interface:a Lightning-solmuja voidaan hallita vain käyttäjäystävällisillä CLI-komennoilla. RTL yksinkertaistaa näitä toimintoja ergonomisella Interface:lla. Tässä ovat **pääsovellukset**:
-
-
-
-
-
-- Kanavien ja solmun tarkastelu** - Kojelaudalla näytetään On-Chain-saldo, Lightning-likviditeetti (paikallinen/etä), synkronoinnin tila, solmun alias ja paljon muuta. Voit tarkastella kanavaluetteloa, kapasiteettia, paikallista/etäjakelua ja tilaa. RTL tarjoaa kontekstisidonnaisia kojelautoja, joilla voit analysoida toimintaa eri näkökulmista.
+**Ilman graafista Interface:a Lightning-solmuja voidaan hallita vain käyttäjäystävällisillä CLI-komennoilla. RTL yksinkertaistaa näitä toimintoja ergonomisella Interface:lla. Tässä ovat pääsovellukset:**
 
 
 
 
 
-- Salamakanavien hallinta** - Avaa/sulje kanavia muutamalla napsautuksella. RTL:n avulla voit muodostaa yhteyden vertaisverkkoon ja avata kanavan ilman komentoa. Voit säätää reitityspalkkioita, tarkastella saldopisteitä tai käynnistää ympäripyöreän tasapainotuksen varojen tasapainottamiseksi kanavien välillä.
+- **Kanavien ja solmun tarkastelu** - Kojelaudalla näytetään On-Chain-saldo, Lightning-likviditeetti (paikallinen/etä), synkronoinnin tila, solmun alias ja paljon muuta. Voit tarkastella kanavaluetteloa, kapasiteettia, paikallista/etäjakelua ja tilaa. RTL tarjoaa kontekstisidonnaisia kojelautoja, joilla voit analysoida toimintaa eri näkökulmista.
 
 
 
 
 
-- Seuraa ja tee maksuja** - RTL hallinnoi Lightning-tapahtumia: lähetä maksuja laskujen kautta, vastaanota generate-laskuja, seuraa tapahtumia (maksut, reititys) yksityiskohtaisella historiatiedolla. Interface analysoi myös reitityksen, jotta näet, mitkä maksut kulkevat solmusi kautta.
+- **Salamakanavien hallinta** - Avaa/sulje kanavia muutamalla napsautuksella. RTL:n avulla voit muodostaa yhteyden vertaisverkkoon ja avata kanavan ilman komentoa. Voit säätää reitityspalkkioita, tarkastella saldopisteitä tai käynnistää ympäripyöreän tasapainotuksen varojen tasapainottamiseksi kanavien välillä.
 
 
 
 
 
-- Wallet On-Chain:n hallinta ja varmuuskopiointi** - On-Chain-välilehdellä voit generate-osoitteita ja lähettää tapahtumia. RTL helpottaa kanavien tallentamista viemällä LND:n SCB-tiedoston, joka päivittyy automaattisesti jokaisen kanavamuutoksen yhteydessä.
+- **Seuraa ja tee maksuja** - RTL hallinnoi Lightning-tapahtumia: lähetä maksuja laskujen kautta, vastaanota generate-laskuja, seuraa tapahtumia (maksut, reititys) yksityiskohtaisella historiatiedolla. Interface analysoi myös reitityksen, jotta näet, mitkä maksut kulkevat solmusi kautta.
+
+
+
+
+
+- **Wallet On-Chain: hallinta ja varmuuskopiointi** - On-Chain-välilehdellä voit generate-osoitteita ja lähettää tapahtumia. RTL helpottaa kanavien tallentamista viemällä LND:n SCB-tiedoston, joka päivittyy automaattisesti jokaisen kanavamuutoksen yhteydessä.
 
 
 
@@ -142,9 +142,9 @@ Tämä komento asentaa tarvittavat NPM-paketit (ei huomioi kehitysriippuvuuksia)
 
 
 
-   - UI-salasana**: valitse turvallinen salasana ja kirjoita se `multiPass`-kenttään (oletusarvoisen `"salasanan"` sijaan).
-   - Portti**: oletusarvo `3000`. Voit muuttaa sitä, jos tämä portti on jo varattu koneellasi.
-   - Solmu**: Säädä solmun parametrit kohdassa `solmut[0]`:
+- **UI-salasana**: valitse turvallinen salasana ja kirjoita se `multiPass`-kenttään (oletusarvoisen `"salasanan"` sijaan).
+- **Portti**: oletusarvo `3000`. Voit muuttaa sitä, jos tämä portti on jo varattu koneellasi.
+- **Solmu**: Säädä solmun parametrit kohdassa `solmut[0]`:
      - `lnNode`: kuvaava nimi solmulle (esim. `"LND Node Maison"`).
      - lnImplementation`: `"LND"` (tai `"CLN"`/`"ECL"` tapauksen mukaan).
      - Kohdassa `autentikointi`:
@@ -270,8 +270,8 @@ Jos käytät [Umbrelia](https://getumbrel.com), RTL-asennus on paljon yksinkerta
 
 
 
-- Ride The Lightning** (LND:lle): käytettäväksi Umbrelin oletusarvoisen Lightning-solmun (LND) kanssa.
-- Ride The Lightning (Core Lightning)**: Käytä vain, jos olet asentanut *Core Lightning* -sovelluksen Umbreliin ja haluat hallita tätä solmua RTL:llä.
+- **Ride The Lightning** (LND:lle): käytettäväksi Umbrelin oletusarvoisen Lightning-solmun (LND) kanssa.
+- **Ride The Lightning (Core Lightning)**: Käytä vain, jos olet asentanut *Core Lightning* -sovelluksen Umbreliin ja haluat hallita tätä solmua RTL:llä.
 
 
 
@@ -639,9 +639,9 @@ Voit seurata solmua viemällä RTL-tietoja (lokitiedot, CSV) ja tarkastelemalla 
 
 
 
-- VPN** (esim. Tailscale) yksityistä, salattua yhteyttä varten
-- Tor** turvalliseen, anonyymiin käyttöön
-- Käänteinen välityspalvelin HTTPS** (Nginx/Caddy) vain, jos osaat määrittää sen
+- **VPN** (esim. Tailscale) yksityistä, salattua yhteyttä varten
+- **Tor** turvalliseen, anonyymiin käyttöön
+- Käänteinen välityspalvelin **HTTPS** (Nginx/Caddy) vain, jos osaat määrittää sen
 
 
 
@@ -653,11 +653,11 @@ https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7
 
 
 
-- Suojaa käyttöoikeutesi**: älä koskaan jaa admin.macaroon tai RTL-salasanaasi. Rajoita arkaluonteisten tiedostojen käyttöoikeuksia.
-- Säännölliset varmuuskopiot**: vie kanavan varmuuskopiotiedosto (SCB) jokaisen muutoksen jälkeen ja säilytä se solmun ulkopuolella.
-- Päivitykset**: Pidä RTL, solmusi ja Umbrel ajan tasalla uusimpien tietoturvakorjausten kanssa.
-- Luottamuksellisuus**: anonymisoi lokit ja kuvakaappaukset ennen niiden jakamista. Älä koskaan jaa saldoja tai vertaislistoja julkisesti.
-- Yksittäinen pääsy**: RTL ei ole monikäyttäjäkäyttöinen. Älä jaa ylläpitäjän käyttöoikeuksia. Jos haluat vain lukuoikeudet, käytä tarvittaessa omaa makaroonia.
+- **Suojaa käyttöoikeutesi**: älä koskaan jaa admin.macaroon tai RTL-salasanaasi. Rajoita arkaluonteisten tiedostojen käyttöoikeuksia.
+- **Säännölliset varmuuskopiot**: vie kanavan varmuuskopiotiedosto (SCB) jokaisen muutoksen jälkeen ja säilytä se solmun ulkopuolella.
+- **Päivitykset**: Pidä RTL, solmusi ja Umbrel ajan tasalla uusimpien tietoturvakorjausten kanssa.
+- **Luottamuksellisuus**: anonymisoi lokit ja kuvakaappaukset ennen niiden jakamista. Älä koskaan jaa saldoja tai vertaislistoja julkisesti.
+- **Yksittäinen pääsy**: RTL ei ole monikäyttäjäkäyttöinen. Älä jaa ylläpitäjän käyttöoikeuksia. Jos haluat vain lukuoikeudet, käytä tarvittaessa omaa makaroonia.
 
 
 
@@ -684,10 +684,10 @@ Lisätietoja :
 
 - RTL:n virallinen verkkosivusto: https://www.ridethelightning.info/
 - GitHub RTL: https://github.com/Ride-The-Lightning/RTL
-- Reddit r/lightningnetwork**: [r/lightningnetwork](https://www.reddit.com/r/lightningnetwork) - Tekniset keskustelut, projekti-ilmoitukset, palaute ja koulutusresurssit
-- Umbrel-yhteisöfoorumi**: [community.getumbrel.com](https://community.getumbrel.com) - Virallinen foorumi, jossa on oma Bitcoin/Lightning-osio, oppaita ja ratkaisuja yleisimpiin ongelmiin
-- Lightning Network Kehittäjät**: [github.com/lightning](https://github.com/lightning) - Virallinen GitHub-tietovarasto kehityksen seuraamista ja lähdekoodin tuottamista varten
-- Pino Exchange Bitcoin** : [Bitcoin.stackexchange.com](https://Bitcoin.stackexchange.com) - Tekniset kysymykset ja vastaukset kehittäjien ja edistyneiden käyttäjien kanssa
+- **Reddit r/lightningnetwork**: [r/lightningnetwork](https://www.reddit.com/r/lightningnetwork) - Tekniset keskustelut, projekti-ilmoitukset, palaute ja koulutusresurssit
+- **Umbrel-yhteisöfoorumi**: [community.getumbrel.com](https://community.getumbrel.com) - Virallinen foorumi, jossa on oma Bitcoin/Lightning-osio, oppaita ja ratkaisuja yleisimpiin ongelmiin
+- **Lightning Network Kehittäjät**: [github.com/lightning](https://github.com/lightning) - Virallinen GitHub-tietovarasto kehityksen seuraamista ja lähdekoodin tuottamista varten
+- Pino Exchange **Bitcoin**: [Bitcoin.stackexchange.com](https://Bitcoin.stackexchange.com) - Tekniset kysymykset ja vastaukset kehittäjien ja edistyneiden käyttäjien kanssa
 
 
 

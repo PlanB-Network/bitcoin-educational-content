@@ -103,7 +103,7 @@ Unapowasha chaguo hili kwenye akaunti yako ya barua ya Proton, msimbo wa QR utaw
 
 ![AUTHY 2FA](assets/notext/15.webp)
 
-Kwenye Authy, bofya kitufe cha "+*".
+Kwenye Authy, bofya kitufe cha "+".
 
 ![AUTHY 2FA](assets/notext/16.webp)
 

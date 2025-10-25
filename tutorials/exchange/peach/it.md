@@ -1,5 +1,5 @@
 ---
-name: Pesca
+name: Peach
 description: Guida completa all'utilizzo di Peach e allo scambio di bitcoin P2P
 ---
 ![cover](assets/cover.webp)
@@ -18,7 +18,7 @@ Peach è una piattaforma di scambio P2P che consente agli utenti di acquistare e
 
 ### 2. Privacy e raccolta dati
 
-**Quali informazioni raccoglie Peach?
+**Quali informazioni raccoglie Peach?**
 
 Peach si impegna a memorizzare il minimo indispensabile di dati sui propri utenti. Ecco una panoramica dei dati memorizzati sui suoi server:
 
@@ -36,7 +36,7 @@ Come promemoria, un hash è un dato reso irriconoscibile, simile alla crittograf
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
-**Chi può vedere i miei dati di pagamento?
+**Chi può vedere i miei dati di pagamento?**
 
 
 - Solo la controparte può vedere i dettagli del pagamento
@@ -68,17 +68,17 @@ L'applicazione Peach è organizzata in quattro schermate principali accessibili 
 ![Navigation dans l'application](assets/fr/02.webp)
 
 
-- Home** : La schermata principale per l'acquisto e la vendita di bitcoin. Qui è possibile creare nuove transazioni e accedere alle offerte disponibili.
-- Portafoglio**: Il vostro portafoglio bitcoin integrato che vi permette di :
+- **Home**: La schermata principale per l'acquisto e la vendita di bitcoin. Qui è possibile creare nuove transazioni e accedere alle offerte disponibili.
+- **Portafoglio**: Il vostro portafoglio bitcoin integrato che vi permette di :
  - Controllare il saldo
  - Ricevere bitcoin
  - Inviare bitcoin
  - Visualizzare la cronologia delle transazioni
-- Commerci** : Il vostro centro di gestione del commercio dove troverete :
+- **Commerci** : Il vostro centro di gestione del commercio dove troverete :
  - Le vostre transazioni correnti
  - Una storia completa dei vostri scambi
  - Lo stato di ogni transazione
-- Impostazioni** : L'hub di configurazione dell'account per :
+- **Impostazioni**: L'hub di configurazione dell'account per :
  - Gestire i metodi di pagamento
  - Configurare i backup
  - Personalizzare le preferenze
@@ -90,7 +90,7 @@ L'applicazione Peach è organizzata in quattro schermate principali accessibili 
 
 Accedete ai metodi di pagamento tramite la scheda Impostazioni (immagine 8)
 
-**Pagamenti online
+**Pagamenti online**
 
 ![Configuration des paiements en ligne](assets/fr/04.webp)
 
@@ -149,7 +149,7 @@ Sistemi di pagamento specifici per ogni paese :
 
 ### 4. Come proteggere il vostro portafoglio
 
-**Comprendere il proprio conto Peach
+**Comprendere il proprio conto Peach**
 
 Un account Peach non è un account tradizionale con login e password. È un file memorizzato localmente sul vostro telefono, il che significa che Peach non ha bisogno di memorizzare i vostri dati o di conoscere la vostra identità: siete voi a controllarlo. Questo file contiene tutti i vostri dati, dalle chiavi del vostro portafoglio bitcoin ai dettagli dei vostri pagamenti.
 
@@ -269,16 +269,16 @@ Per una sicurezza ottimale, si consiglia di eseguire entrambi i tipi di backup.
 ### Benefici della pesca
 
 
-- Non è richiesto il KYC**: Preserva la riservatezza dell'utente.
-- Nessun accesso ai dati bancari**: Peach non ha accesso alle vostre coordinate bancarie o alla vostra identità.
-- Interfaccia intuitiva**: Facile da usare per gli utenti intermedi.
-- Open Source** : Il codice sorgente è pubblico e verificabile dalla comunità.
+- **Non è richiesto il KYC**: Preserva la riservatezza dell'utente.
+- **Nessun accesso ai dati bancari**: Peach non ha accesso alle vostre coordinate bancarie o alla vostra identità.
+- **Interfaccia intuitiva**: Facile da usare per gli utenti intermedi.
+- **Open Source**: Il codice sorgente è pubblico e verificabile dalla comunità.
 
 ### Svantaggi della pesca
 
 
-- Liquidità limitata**: Volume di trading inferiore rispetto alle piattaforme più consolidate.
-- Rischio normativo** : L'applicazione è gestita da una società svizzera. È quindi soggetta alle normative svizzere, che potrebbero evolvere e potenzialmente censurare l'applicazione.
+- **Liquidità limitata**: Volume di trading inferiore rispetto alle piattaforme più consolidate.
+- **Rischio normativo**: L'applicazione è gestita da una società svizzera. È quindi soggetta alle normative svizzere, che potrebbero evolvere e potenzialmente censurare l'applicazione.
 
 ## Risorse utili
 

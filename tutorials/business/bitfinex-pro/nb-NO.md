@@ -80,11 +80,11 @@ Når søknaden din er fullført og sendt inn, kan det ta flere dager før plattf
 Når du er logget inn, vil du se en navigasjonslinje øverst i grensesnittet med: "*Trading*", "*Derivatives*", "*Funding*", "*OTC*", "*P2P*", "*Wallet*", osv. Bitfinex tilbyr et bredt spekter av funksjoner, inkludert:
 
 
-- Handel**: "*klassisk*" marked der du kan legge inn ordre om å kjøpe og selge kryptovalutaer (inkludert bitcoin);
-- OTC**: Over-The-Counter-tjeneste for handel med store volumer direkte med en annen aktør, utenfor de offentlige ordrebøkene;
-- Finansiering**: Område dedikert til utlån og marginfinansiering;
-- Derivater**: Seksjon for derivater (futures osv.), beregnet på erfarne tradere;
-- P2P**: Lar deg kjøpe eller selge kryptoer fra andre brukere på peer-to-peer-basis.
+- **Handel**: "*klassisk*" marked der du kan legge inn ordre om å kjøpe og selge kryptovalutaer (inkludert bitcoin);
+- **OTC**: Over-The-Counter-tjeneste for handel med store volumer direkte med en annen aktør, utenfor de offentlige ordrebøkene;
+- **Finansiering**: Område dedikert til utlån og marginfinansiering;
+- **Derivater**: Seksjon for derivater (futures osv.), beregnet på erfarne tradere;
+- **P2P**: Lar deg kjøpe eller selge kryptoer fra andre brukere på peer-to-peer-basis.
 
 For standard bruk (kjøp/salg av bitcoins, innskudd/uttak og kontanthåndtering) vil du hovedsakelig bruke "*Trading*"-fanen, samt seksjonene "*Wallet*", "*Deposit*" og "*Withdraw*".
 

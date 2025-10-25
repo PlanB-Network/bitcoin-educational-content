@@ -43,7 +43,7 @@ Dom0'ın etrafında, her biri çok özel bir rol oynayan farklı küp türleri d
 
 
 
-- AppVM** günlük uygulamaları çalıştırmak için kullanılır: böylece kullanıcı profesyonel e-postalarını web'de gezinme veya bankacılık faaliyetlerinden ayırabilir ve her ortam diğerlerinden tamamen bağımsız kalır.
+- **AppVM** günlük uygulamaları çalıştırmak için kullanılır: böylece kullanıcı profesyonel e-postalarını web'de gezinme veya bankacılık faaliyetlerinden ayırabilir ve her ortam diğerlerinden tamamen bağımsız kalır.
 
 
 
@@ -59,7 +59,7 @@ Qubes OS ayrıca **sistem hizmetleri** konusunda uzmanlaşmış sanal makineleri
 
 
 
-- NetVM** doğrudan **ağ cihazlarını** yönetir ve İnternet bağlantısını sağlar. Genellikle **trafiği** filtrelemek ve diğer küplerin maruziyetini sınırlamak için müdahale eden **FirewallVM'lerle** ilişkilendirilirler.
+- **NetVM** doğrudan **ağ cihazlarını** yönetir ve İnternet bağlantısını sağlar. Genellikle **trafiği** filtrelemek ve diğer küplerin maruziyetini sınırlamak için müdahale eden **FirewallVM'lerle** ilişkilendirilirler.
 
 
 
@@ -116,9 +116,9 @@ Qubes OS'yi kurmadan önce, sistem qubes'i izole etmek için sanallaştırmaya d
 
 
 
-- İşlemci**: Donanım sanallaştırma (Intel VT-x veya AMD-V) ile uyumlu 64 bit işlemci.
+- **İşlemci**: Donanım sanallaştırma (Intel VT-x veya AMD-V) ile uyumlu 64 bit işlemci.
 - RAM: en az 8 GB gereklidir, ancak aynı anda birkaç qubes çalıştırmak için 16 GB veya daha fazla RAM öneririz.
-- Depolama alanı**: en az 36 GB, optimum performans için ideal olarak bir SSD üzerinde 128 GB.
+- **Depolama alanı**: en az 36 GB, optimum performans için ideal olarak bir SSD üzerinde 128 GB.
 
 
 
@@ -187,7 +187,7 @@ Bu aşamada, makinenizde kurulumu başlatmadan önce bir dizi Elements yapıland
 
 
 
-Klavye** seçeneğine tıklayın, ardından bilgisayarınız için **uygun düzeni** seçin. Seçiminizi yaptıktan sonra, bir sonraki adıma geçmek için **Sonlandırıldı** seçeneğine tıklayın.
+**Klavye** seçeneğine tıklayın, ardından bilgisayarınız için **uygun düzeni** seçin. Seçiminizi yaptıktan sonra, bir sonraki adıma geçmek için **Sonlandırıldı** seçeneğine tıklayın.
 
 
 
@@ -248,7 +248,7 @@ Bu ayarlar yapıldıktan sonra, işlemi başlatmak için **Kurulumu başlat** se
 
 
 
-Kurulumun bitmesini** bekleyin, ardından kurulumu tamamlamak ve Qubes OS'yi başlatmak için **sistemi yeniden başlat** seçeneğine tıklayın.
+Kurulumun bitmesini bekleyin, ardından kurulumu tamamlamak ve Qubes OS'yi başlatmak için **sistemi yeniden başlat** seçeneğine tıklayın.
 
 
 
@@ -275,7 +275,7 @@ Ardından, yüklemek istediğiniz **TemplateVM**'i seçerek başlayın. Yaygın 
 
 
 
-Ana yapılandırma** bölümünde, **sys-net**, **sys-firewall** ve **default DisposableVM** gibi temel sistem küplerini otomatik olarak oluşturmayı seçebilirsiniz. Tehlike durumunda cihaz ve ağ maruziyetini sınırlamak için **sys-firewall ve sys-usb disposable** yapma seçeneğini etkinleştirmeniz önerilir. Ayrıca, faaliyetlerinizi güven düzeylerine göre düzenlemek için **personal**, **work**, **untrusted** ve **vault** gibi varsayılan **AppVM'ler** oluşturabilirsiniz.
+**Ana yapılandırma** bölümünde, **sys-net**, **sys-firewall** ve **default DisposableVM** gibi temel sistem küplerini otomatik olarak oluşturmayı seçebilirsiniz. Tehlike durumunda cihaz ve ağ maruziyetini sınırlamak için **sys-firewall ve sys-usb disposable** yapma seçeneğini etkinleştirmeniz önerilir. Ayrıca, faaliyetlerinizi güven düzeylerine göre düzenlemek için **personal**, **work**, **untrusted** ve **vault** gibi varsayılan **AppVM'ler** oluşturabilirsiniz.
 
 
 

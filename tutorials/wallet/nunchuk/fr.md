@@ -1,30 +1,30 @@
 ---
 name: Nunchuk
-description: Wallet mobile suitable for all
+description: Portefeuille mobile adapté à tous
 ---
 ![cover](assets/cover.webp)
 
 
 
-## A powerful Wallet
+## Un portefeuille puissant
 
 
-Nunchuk arrived in late 2020 with a clear philosophy: to make multi-signature a standard. It was therefore designed to perform very advanced functions, with the valuable choice of building the design directly on Bitcoin Core, the reference software for the Bitcoin ecosystem.
-
-
-
-After more than 4 years of development and use, it is ready to be tried at scale. If you are a beginner and unfamiliar with Nunchuk, this guide will help you take your first steps and discover this software, whose advanced functions you will be able to learn about after you get past the first impact. The tutorial itself is dedicated to intermediate users who possess the necessary skills to follow all the steps, but it can be an inspiration for everyone to find out how to increase skills. We will start with the mobile version, and this pointing out is necessary, since Nunchuk has the software to run on computers as well.
+Nunchuk est apparu fin 2020 avec une philosophie claire : faire de la multi-signature un standard. Il a donc été conçu pour exécuter des fonctions très avancées, avec le choix pertinent de bâtir sa conception directement sur Bitcoin Core, le logiciel de référence de l’écosystème Bitcoin.
 
 
 
-## Download
-
-
-The first step is definitely deciding where to download the app. Go to the [official site](https://nunchuk.io/) where you can find some documentation (not much but it's a start), the feature presentation as well as, toward the end of the page, all the download links.
+Après plus de 4 ans de développement et d’utilisation, il est prêt à être testé à grande échelle. Si vous êtes débutant et que vous ne connaissez pas Nunchuk, ce guide vous aidera à faire vos premiers pas et à découvrir ce logiciel, dont vous pourrez ensuite approfondir les fonctions avancées après avoir surmonté la première impression. Le tutoriel lui-même s’adresse aux utilisateurs intermédiaires disposant des compétences nécessaires pour suivre toutes les étapes, mais il peut aussi être une source d’inspiration pour quiconque souhaite développer ses connaissances. Nous commencerons avec la version mobile, et cette précision est nécessaire puisque Nunchuk dispose également d’un logiciel pour ordinateurs.
 
 
 
-📌 For this tutorial I decided to show you how to download Software Wallet from the Github repository and how to verify the release before installing it on your cell phone. **The following procedure can only be done from your computer**, so I recommend you do all these steps from your desktop or laptop and - after all the verifications - transfer the `.apk` file to your cell phone.
+## Téléchargement
+
+
+La première étape consiste évidemment à choisir où télécharger l’application. Rendez-vous sur le [site officiel](https://nunchuk.io/) où vous trouverez un peu de documentation (peu, mais c’est un début), une présentation des fonctionnalités ainsi que, tout en bas de la page, tous les liens de téléchargement.
+
+
+
+📌 Pour ce tutoriel, j’ai choisi de vous montrer comment télécharger le portefeuille logiciel depuis le dépôt Github et comment vérifier la publication avant de l’installer sur votre téléphone. **La procédure suivante ne peut être réalisée que depuis un ordinateur**, je vous recommande donc d’effectuer toutes ces étapes sur votre poste fixe ou portable et – après toutes les vérifications – de transférer le fichier `.apk` sur votre téléphone.
 
 
 
@@ -32,15 +32,15 @@ The first step is definitely deciding where to download the app. Go to the [offi
 
 
 
-If your skills are not very advanced, you may decide to download the `.apk` from the official stores and skip directly to the configuration part of this tutorial. If, on the other hand, you want to take the leap, keep following step by step.
+Si vos compétences ne sont pas très avancées, vous pouvez choisir de télécharger le `.apk` depuis les magasins officiels et passer directement à la partie configuration de ce tutoriel. En revanche, si vous souhaitez franchir un cap, suivez la procédure pas à pas.
 
 
 
-So from your desktop computer click _Visit our open source repository_
+Depuis votre ordinateur de bureau, cliquez sur _Visit our open source repository_
 
 
 
-The link will take you to Nunchuk's Github page, where you will find a number of repos. We will focus on the _nunchuk-android_ one
+Le lien vous dirigera vers la page Github de Nunchuk, où vous trouverez plusieurs dépôts. Nous nous concentrerons sur le dépôt _nunchuk-android_
 
 
 
@@ -48,7 +48,7 @@ The link will take you to Nunchuk's Github page, where you will find a number of
 
 
 
-On the next screen, locate to the right the section on _Releases_ and choose _Latest_
+Sur l’écran suivant, repérez à droite la section _Releases_ et choisissez _Latest_
 
 
 
@@ -56,7 +56,7 @@ On the next screen, locate to the right the section on _Releases_ and choose _La
 
 
 
-Under _Assets_, download the release (in this example 1.67.apk), along with the SHA256SUMS file and SHA256SUMS.asc.
+Dans la section _Assets_, téléchargez la version publiée (dans cet exemple 1.67.apk), ainsi que les fichiers SHA256SUMS et SHA256SUMS.asc.
 
 
 
@@ -64,7 +64,7 @@ Under _Assets_, download the release (in this example 1.67.apk), along with the 
 
 
 
-To find the developer's GPG key, go back to the _Releases_ section of the repository and look for 1.9.53 (or earlier) which carry the link to obtain and download the _GPG Key_
+Pour trouver la clé GPG du développeur, retournez dans la section _Releases_ du dépôt et cherchez la version 1.9.53 (ou antérieure) qui contient le lien pour obtenir et télécharger la _clé GPG_
 
 
 
@@ -72,11 +72,11 @@ To find the developer's GPG key, go back to the _Releases_ section of the reposi
 
 
 
-We will proceed with verification through a handy tool offered by Sparrow wallet, which has a dedicated window for this purpose and supports PGP signatures and SHA256 Manifests.
+Nous allons procéder à la vérification grâce à un outil pratique proposé par le portefeuille Sparrow, qui dispose d’une fenêtre dédiée à cet effet et qui prend en charge les signatures PGP ainsi que les manifestes SHA256.
 
 
 
-Then launch Sparrow and from the _Tools_ menu choose _Verify Download_.
+Lancez donc Sparrow et, depuis le menu _Tools_, choisissez _Verify Download_.
 
 
 
@@ -84,23 +84,25 @@ Then launch Sparrow and from the _Tools_ menu choose _Verify Download_.
 
 
 
-In the window that pops up, you will find fields to "fill in": choose the _Browse_ button on the right and select, for each field, the corresponding files you have just downloaded from Github. When you have completed all the steps, the window will look as follows, with Green checkmarks and Hash confirmation of the manifest.
+Dans la fenêtre qui s’ouvre, vous trouverez des champs à « remplir » : cliquez sur le bouton _Browse_ à droite et sélectionnez, pour chaque champ, les fichiers correspondants que vous venez de télécharger depuis Github. Lorsque vous aurez complété toutes les étapes, la fenêtre se présentera comme suit, avec des coches vertes et la confirmation du hachage du manifeste.
 
 
 
 ![image](assets/en/07.webp)
 
 
-**N.B. the screenshot is from a Windows PC, the same practice can be used for any operating system on your computer, just have Sparrow wallet installed. And verified!**
+
+**N.B. La capture d’écran provient d’un PC sous Windows, mais la même pratique peut être appliquée sur tout système d’exploitation, à condition d’avoir installé – et vérifié – le portefeuille Sparrow.**
 
 
 
-You can find the guide to Sparrow wallet to download this Software Wallet
+Vous trouverez le guide de Sparrow wallet pour télécharger ce portefeuille logiciel :  
+
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 
-https://planb.network/en/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
-You can then transfer the `.apk` file from your computer to your phone
+Vous pouvez ensuite transférer le fichier `.apk` de votre ordinateur vers votre téléphone
 
 
 
@@ -108,7 +110,7 @@ You can then transfer the `.apk` file from your computer to your phone
 
 
 
-and install Nunchuk
+et installer Nunchuk
 
 
 
@@ -116,7 +118,7 @@ and install Nunchuk
 
 
 
-Before launching Nunchuk on your phone, open Orbot and put the newcomer in the list of apps to be routed under Tor.
+Avant de lancer Nunchuk sur votre téléphone, ouvrez Orbot et ajoutez la nouvelle application à la liste de celles qui doivent être routées sous Tor.
 
 
 
@@ -124,7 +126,7 @@ Before launching Nunchuk on your phone, open Orbot and put the newcomer in the l
 
 
 
-Now run Nunchuk. For project features-which are not the subject of this tutorial-Nunchuk, once opened, will invite you to log in via an email or Google profile. Until you plan to take advantage of Nunchuk Inc's advanced plans, **avoid logging in** and proceed by choosing the _Continue as guest_ option.
+Lancez maintenant Nunchuk. En raison des caractéristiques du projet – qui ne sont pas l’objet de ce tutoriel –, Nunchuk, une fois ouvert, vous invitera à vous connecter via une adresse e-mail ou un profil Google. Tant que vous n’avez pas prévu de profiter des offres avancées de Nunchuk Inc., **évitez de vous connecter** et continuez en choisissant l’option _Continue as guest_.
 
 
 
@@ -132,14 +134,14 @@ Now run Nunchuk. For project features-which are not the subject of this tutorial
 
 
 
-## Settings
+## Paramètres
 
 
-Nunchuk presents itself with a _Home_ window of presentation, where it is easy to understand its operating philosophy and which we will elaborate on in a moment.
+Nunchuk se présente avec une fenêtre _Home_ de présentation, qui permet de comprendre facilement sa philosophie de fonctionnement et que nous détaillerons dans un instant.
 
 
 
-At the bottom you can find the menus, and as the first step, choose _Profile_ to access the settings.
+En bas, vous trouverez les menus et, comme première étape, choisissez _Profile_ pour accéder aux paramètres.
 
 
 
@@ -147,7 +149,7 @@ At the bottom you can find the menus, and as the first step, choose _Profile_ to
 
 
 
-Then choose _Display settings_, continuing to ignore the invitation to create an account.
+Sélectionnez ensuite _Display settings_, en continuant d’ignorer l’invitation à créer un compte.
 
 
 
@@ -155,7 +157,7 @@ Then choose _Display settings_, continuing to ignore the invitation to create an
 
 
 
-In the screen below you can check if Wallet is online and you can connect your server, paying close attention to the instructions at the link that is offered by clicking on _this guide_.
+Dans l’écran ci-dessous, vous pouvez vérifier si le portefeuille est en ligne et connecter votre serveur, en prêtant une attention particulière aux instructions fournies dans le lien accessible en cliquant sur _this guide_.
 
 
 
@@ -163,7 +165,7 @@ In the screen below you can check if Wallet is online and you can connect your s
 
 
 
-Save the settings with the _Save network settings_ command, return to the _Profile_ menu and select _Security settings_.
+Enregistrez les paramètres avec la commande _Save network settings_, retournez dans le menu _Profile_ et sélectionnez _Security settings_.
 
 
 
@@ -171,7 +173,7 @@ Save the settings with the _Save network settings_ command, return to the _Profi
 
 
 
-From this menu you set how to defend the opening of the app. To prevent unwanted access you can protect Nunchuk with the phone's biometric, and/or add a security PIN.
+Depuis ce menu, vous définissez le mode de protection de l’ouverture de l’application. Pour éviter tout accès indésirable, vous pouvez sécuriser Nunchuk avec la biométrie de votre téléphone et/ou ajouter un code PIN de sécurité.
 
 
 
@@ -179,7 +181,7 @@ From this menu you set how to defend the opening of the app. To prevent unwanted
 
 
 
-Also take a look at the _About_ menu, which you will always find in the _Profile_ window
+Pensez aussi à consulter le menu _About_, que vous trouverez toujours dans la fenêtre _Profile_
 
 
 
@@ -187,7 +189,7 @@ Also take a look at the _About_ menu, which you will always find in the _Profile
 
 
 
-which will allow you to check the version of the app, or to contact the developers if needed.
+il vous permettra de vérifier la version de l’application ou de contacter les développeurs en cas de besoin.
 
 
 
@@ -195,18 +197,18 @@ which will allow you to check the version of the app, or to contact the develope
 
 
 
-## Key Generation and Wallet
+## Génération de clés et Portefeuille
 
 
-As is easy to guess from Nunchuk's philosophy, the software is intended as a useful tool for managing multi-signature Wallets. To perform this function, Nunchuk allows the creation of Wallet by separating them from the keys needed to arrange digital signatures.
-
-
-
-In fact, the ideal operation of Nunchuk involves the creation of Wallets that can be watch-only, dependent on keys that can be "Colds."
+Comme il est facile de le deviner à partir de la philosophie de Nunchuk, le logiciel se veut un outil utile pour la gestion de portefeuilles multi-signatures. Pour remplir cette fonction, Nunchuk permet la création de portefeuilles en les séparant des clés nécessaires à la réalisation des signatures numériques.
 
 
 
-In the previous screens you may have noticed that there is a menu at the bottom called _Keys_. If you've just downloaded Nunchuk, in both _Home_ and _Keys_ you'll see a big button inviting you to add a key, _Add Key_.
+En effet, le fonctionnement idéal de Nunchuk implique la création de portefeuilles pouvant être en mode _watch-only_, dépendant de clés pouvant être « froides ».
+
+
+
+Dans les écrans précédents, vous avez peut-être remarqué qu’il existe un menu en bas appelé _Keys_. Si vous venez de télécharger Nunchuk, dans _Home_ comme dans _Keys_, vous verrez un grand bouton vous invitant à ajouter une clé, _Add Key_.
 
 
 
@@ -217,15 +219,15 @@ In the previous screens you may have noticed that there is a menu at the bottom 
 
 
 
-**This is just how Nunchuk works:** first you generate/import the keys and then you create the Wallet, configuring it to choose which keys will authorize the unlocking of the funds stored on it.
+**C’est ainsi que fonctionne Nunchuk :** vous générez/importez d’abord les clés, puis vous créez le portefeuille en le configurant pour choisir quelles clés autoriseront le déverrouillage des fonds qui y sont stockés.
 
 
 
-Even in the case of Wallet singlesig, you create the key first and only then the Wallet. And that is exactly what we will do now, starting with a Wallet singlesig to break the ice and discover the functions of Nunchuk.
+Même dans le cas d’un portefeuille _singlesig_, vous créez d’abord la clé, puis seulement ensuite le portefeuille. Et c’est exactement ce que nous allons faire maintenant, en commençant par un portefeuille _singlesig_ afin de briser la glace et découvrir les fonctions de Nunchuk.
 
 
 
-Click _Add Key_
+Cliquez sur _Add Key_
 
 
 
@@ -233,7 +235,7 @@ Click _Add Key_
 
 
 
-Nunchuk shows a number of supported signature devices but, to start, choose _Software_.
+Nunchuk affiche un certain nombre de dispositifs de signature pris en charge mais, pour commencer, choisissez _Software_.
 
 
 
@@ -241,7 +243,7 @@ Nunchuk shows a number of supported signature devices but, to start, choose _Sof
 
 
 
-Nunchuk will generate a Mnemonic that will be stored on the device. You then need to write down the sequence of words for the backup, creating the best environmental conditions and making sure you have the time to do it well and quietly. The software shows the Mnemonic only once, whether you choose to show it now or later, so choose _Create and backup now_.
+Nunchuk va générer une phrase mnémonique qui sera stockée sur l’appareil. Vous devez alors noter la séquence de mots pour la sauvegarde, en vous assurant de créer les meilleures conditions possibles et de disposer du temps nécessaire pour le faire calmement. Le logiciel n’affiche la phrase mnémonique qu’une seule fois, que vous choisissiez de l’afficher maintenant ou plus tard, d’où l’intérêt de sélectionner _Create and backup now_.
 
 
 
@@ -249,7 +251,7 @@ Nunchuk will generate a Mnemonic that will be stored on the device. You then nee
 
 
 
-Nunchuk generates 24-word Mnemonic sentences, which appear immediately on the next screen
+Nunchuk génère des phrases mnémoniques de 24 mots, qui apparaissent immédiatement sur l’écran suivant
 
 
 
@@ -257,10 +259,11 @@ Nunchuk generates 24-word Mnemonic sentences, which appear immediately on the ne
 
 
 
-and then proceeded to do a quick check, asking you to select the correct word, from 3 choices, corresponding to the number in the Mnemonic sequence.
+puis effectue une vérification rapide en vous demandant de sélectionner le mot correct, parmi 3 choix, correspondant au numéro dans la séquence mnémonique.
 
 
-If you have written the Mnemonic correctly, the _Continue_ button becomes operational. Press it to move on.
+
+Si vous avez correctement recopié la phrase mnémonique, le bouton _Continue_ devient actif. Appuyez dessus pour poursuivre.
 
 
 
@@ -268,7 +271,7 @@ If you have written the Mnemonic correctly, the _Continue_ button becomes operat
 
 
 
-Name your key and press _Continue_.
+Nommez votre clé et appuyez sur _Continue_.
 
 
 
@@ -276,7 +279,7 @@ Name your key and press _Continue_.
 
 
 
-At the end of these steps, you will be asked whether to add a [passphrase](https://planb.network/en/resources/glossary/passphrase-bip39) to your Mnemonic phrase. If you do not have the necessary awareness of how to use passphrase, arrange for its backup, or how it works, I recommend that you choose _I don't need a passphrase_.
+À la fin de ces étapes, il vous sera demandé si vous souhaitez ajouter une [passphrase](https://planb.network/en/resources/glossary/passphrase-bip39) à votre phrase mnémonique. Si vous n’avez pas la pleine maîtrise de l’usage d’une passphrase, de son mode de sauvegarde ou de son fonctionnement, je vous recommande de choisir _I don't need a passphrase_.
 
 
 
@@ -284,19 +287,18 @@ At the end of these steps, you will be asked whether to add a [passphrase](https
 
 
 
-The key is finally created and is shown to you in the menu:
+La clé est enfin créée et vous est présentée dans le menu :
 
 
 
-
-- With _Key Spec_ the master fingerprint is indicated
-- You have settings, the three dots at the top right, where you can delete the key or sign a message
-- Next to the name of the key you will find a nib icon, clicking on which you can edit the name of the Key, for example to keep your keys in order in the future.
-- As a last command, you can check the health status of the key: by pressing _Run health check_ you can have the app check if a key is compromised.
-
+- Avec _Key Spec_, l’empreinte maîtresse est indiquée  
+- Vous disposez de paramètres, accessibles par les trois points en haut à droite, où vous pouvez supprimer la clé ou signer un message  
+- À côté du nom de la clé, vous trouverez une icône de stylo vous permettant de modifier ce nom, par exemple pour organiser vos clés à l’avenir  
+- Enfin, vous pouvez vérifier l’état de la clé : en appuyant sur _Run health check_, l’application teste si une clé est compromise.
 
 
-When you are good, click _Done_
+
+Quand tout est en ordre, cliquez sur _Done_
 
 
 
@@ -304,7 +306,7 @@ When you are good, click _Done_
 
 
 
-In the _Keys_ menu you will see your first key appear.
+Dans le menu _Keys_, vous verrez apparaître votre première clé.
 
 
 
@@ -312,7 +314,7 @@ In the _Keys_ menu you will see your first key appear.
 
 
 
-By going to the _Home_ menu, the option to create Wallet appears. Click _Create new wallet_.
+En allant dans le menu _Home_, l’option de création d’un portefeuille apparaît. Cliquez sur _Create new wallet_.
 
 
 
@@ -320,14 +322,14 @@ By going to the _Home_ menu, the option to create Wallet appears. Click _Create 
 
 
 
-Nunchuk shows you a number of possibilities that have to do, for the most part, with services the company offers that are not the subject of this tutorial.
+Nunchuk vous présente plusieurs possibilités, en lien pour la plupart avec des services proposés par l’entreprise, qui ne sont pas l’objet de ce tutoriel.
 
 
 
-In this guide we will create a _Hot Wallet and a _Custom wallet_ by detailing the details.
+Dans ce guide, nous allons créer un _Hot Wallet_ et un _Custom wallet_ en détaillant les étapes.  
 
 
-Let's start with _Custom wallet_.
+Commençons par le _Custom wallet_.
 
 
 
@@ -335,7 +337,7 @@ Let's start with _Custom wallet_.
 
 
 
-In a simple way, the app will ask you to name this new Wallet and choose the script for the addresses. For the tutorial I chose to leave the default setting, _Native segwit_. When you are finished, choose _Continue_
+L’application vous demandera simplement de donner un nom à ce nouveau portefeuille et de choisir le script pour les adresses. Pour ce tutoriel, j’ai choisi de conserver le paramètre par défaut, _Native Segwit_. Lorsque vous avez terminé, cliquez sur _Continue_
 
 
 
@@ -343,7 +345,7 @@ In a simple way, the app will ask you to name this new Wallet and choose the scr
 
 
 
-The configuration of Wallet goes on to ask you to set with which key the funds of this Wallet will be unlocked. Should there be multiple keys, you will be shown a list from which to choose. We for the moment have created only one, so we choose to put a check mark on that one. In the lower right corner you can see how Nunchuk will ask you to set up your future Wallet multi-signatures, increasing the number of _Required keys_.
+La configuration du portefeuille vous demande ensuite de définir avec quelle clé les fonds de ce portefeuille seront déverrouillés. Si plusieurs clés existent, une liste vous sera proposée pour choisir. Pour le moment, nous n’avons créé qu’une seule clé : cochez celle-ci. En bas à droite, vous pouvez constater que Nunchuk prépare déjà la configuration des futurs portefeuilles multi-signatures, en augmentant le nombre de _Required keys_.
 
 
 
@@ -351,23 +353,22 @@ The configuration of Wallet goes on to ask you to set with which key the funds o
 
 
 
-Since we are creating a singlesig, we leave `1` and click _Continue_.
+Comme nous créons un _singlesig_, nous laissons `1` et cliquons sur _Continue_.
 
 
 
-Last, a verification screen appears, where you can check the features of Wallet:
+Enfin, un écran de vérification apparaît, vous permettant de contrôler les caractéristiques du portefeuille :
 
 
 
-
-- the name
-- the `1/1 Multisig` tage, which is how Nunchuk names the Wallet singlesig
-- the script type, `Native SegWit`
-- the `Keys` key, with its fingerprint and derivation path
-
+- le nom  
+- le tag `1/1 Multisig`, qui est la manière dont Nunchuk désigne un portefeuille _singlesig_  
+- le type de script, `Native SegWit`  
+- la clé `Keys`, avec son empreinte et son chemin de dérivation  
 
 
-When you are satisfied, press _Create wallet_
+
+Lorsque tout est correct, appuyez sur _Create wallet_
 
 
 
@@ -375,7 +376,7 @@ When you are satisfied, press _Create wallet_
 
 
 
-Wallet has been created and you can download the [.BSMS](https://github.com/Bitcoin/bips/blob/master/bip-0129.mediawiki) file as a backup. To return to the main menu click the arrow in the upper left corner.
+Le portefeuille est créé et vous pouvez télécharger le fichier [.BSMS](https://github.com/Bitcoin/bips/blob/master/bip-0129.mediawiki) comme sauvegarde. Pour revenir au menu principal, cliquez sur la flèche en haut à gauche.
 
 
 
@@ -383,7 +384,7 @@ Wallet has been created and you can download the [.BSMS](https://github.com/Bitc
 
 
 
-You are in _Home_, where you are shown the newly created Wallet reporting the balance and status of the connection. By clicking in the blue space, you can access the main functions of Wallet.
+Vous êtes dans _Home_, où le portefeuille nouvellement créé s’affiche avec son solde et l’état de la connexion. En cliquant sur l’espace bleu, vous accédez aux principales fonctions du portefeuille.
 
 
 
@@ -391,18 +392,16 @@ You are in _Home_, where you are shown the newly created Wallet reporting the ba
 
 
 
-
-
-- The lens icon in the upper right-hand corner allows you to do a transaction search;
-- `View Wallet config` gives access to the configuration menu, where you can edit the name of the Wallet and enable advanced options, top right (of which you can't get screenshots). Here you can export the Wallet configuration, labels, replace keys, change the [gap limit](https://planb.network/en/resources/glossary/gap-limit) and more.
-
-
-
-## Transactions with Nunchuk
+- L’icône de loupe, en haut à droite, permet d’effectuer une recherche de transaction ;  
+- `View Wallet config` donne accès au menu de configuration, où vous pouvez modifier le nom du portefeuille et activer des options avancées, en haut à droite (dont il n’existe pas de captures d’écran). Ici, vous pouvez exporter la configuration du portefeuille, les étiquettes, remplacer des clés, modifier le [gap limit](https://planb.network/en/resources/glossary/gap-limit), et plus encore.  
 
 
 
-Awards _Receive_
+## Transactions avec Nunchuk
+
+
+
+Choisissez _Receive_
 
 
 
@@ -410,7 +409,7 @@ Awards _Receive_
 
 
 
-The app is programmed to show the QR Code of the Address or copy/share the scriptPubKey to receive onchain funds.
+L’application est conçue pour afficher le QR Code de l’adresse ou pour copier/partager le scriptPubKey afin de recevoir des fonds onchain.
 
 
 
@@ -418,7 +417,7 @@ The app is programmed to show the QR Code of the Address or copy/share the scrip
 
 
 
-We had a UTXO arrive on this first Address,
+Nous avons reçu un UTXO sur cette première adresse,
 
 
 
@@ -426,7 +425,7 @@ We had a UTXO arrive on this first Address,
 
 
 
-but we still click _Receive_ to receive another one.
+mais nous cliquons encore sur _Receive_ pour en recevoir un autre.
 
 
 
@@ -434,15 +433,15 @@ but we still click _Receive_ to receive another one.
 
 
 
-The purpose is for you to find out that Nunchuk reports this new Address to you as an _Unused address_ but also shows you that you have _Used addresses_ and the count thereof.
+L’objectif est de vous montrer que Nunchuk vous indique cette nouvelle adresse comme une _Unused address_ mais vous signale également que vous avez des _Used addresses_ ainsi que leur nombre.
 
 
 
-### Spending transaction with coin control
+### Dépense avec coin control
 
 
 
-When this second UTXO has also arrived, go back to the Wallet main screen to check the status of the two incoming transactions and, most importantly, click on the _View coins_ option
+Lorsque ce second UTXO est également arrivé, retournez sur l’écran principal du portefeuille pour vérifier l’état des deux transactions entrantes et, surtout, cliquez sur l’option _View coins_
 
 
 
@@ -450,7 +449,7 @@ When this second UTXO has also arrived, go back to the Wallet main screen to che
 
 
 
-where you will be shown individual UTXOs. Here you can choose to view one in particular by clicking the little arrow next to the amount
+où s’affichent vos UTXOs individuellement. Vous pouvez en examiner un en particulier en cliquant sur la petite flèche à côté du montant
 
 
 
@@ -458,7 +457,7 @@ where you will be shown individual UTXOs. Here you can choose to view one in par
 
 
 
-and check when it arrived, the description, block UTXO so that it is not spent and more.
+et vérifier la date de réception, la description, bloquer l’UTXO afin qu’il ne soit pas dépensé, et plus encore.
 
 
 
@@ -466,11 +465,11 @@ and check when it arrived, the description, block UTXO so that it is not spent a
 
 
 
-But if you go back to the _Coins_ menu by clicking the arrow in the upper right corner, you can turn on "Coin Control" to spend your UTXOs in a more controlled way.
+Mais si vous revenez dans le menu _Coins_ en cliquant sur la flèche en haut à droite, vous pouvez activer le _Coin Control_ pour dépenser vos UTXOs de manière plus maîtrisée.
 
 
 
-In the following example, I chose to select UTXO of 21,000 Sats and then click the symbol in the lower left corner.
+Dans l’exemple suivant, j’ai choisi de sélectionner un UTXO de 21 000 sats, puis de cliquer sur le symbole en bas à gauche.
 
 
 
@@ -478,7 +477,7 @@ In the following example, I chose to select UTXO of 21,000 Sats and then click t
 
 
 
-Nunchuk automatically opens the _New transaction_ window to spend this UTXO. In the spending transaction, first, you must set the amount manually or by selecting _Send all selected_ to send all the coin control balance, without generating remainders. Once the amount is set, choose _Continue_
+Nunchuk ouvre automatiquement la fenêtre _New transaction_ pour dépenser cet UTXO. Dans la transaction de dépense, vous devez d’abord définir le montant manuellement, ou sélectionner _Send all selected_ pour envoyer l’intégralité du solde issu du coin control, sans générer de reste. Une fois le montant défini, choisissez _Continue_
 
 
 
@@ -486,29 +485,27 @@ Nunchuk automatically opens the _New transaction_ window to spend this UTXO. In 
 
 
 
-Now Nunchuk shows where to paste the Address to which to transfer these funds, detail a description, and finalize the transaction.
+Nunchuk vous montre ensuite où coller l’adresse à laquelle transférer les fonds, vous permet d’ajouter une description, puis de finaliser la transaction.
 
 
 
 ![image](assets/en/47.webp)
 
 
-
-Choosing _Create transaction_ delegates automatic fee and transaction management to the app. I recommend choosing _Custom transaction_ for more control.
-
-
-
-In this new screen it is important to select
+Choisir _Create transaction_ délègue la gestion automatique des frais et de la transaction à l’application. Je recommande de choisir _Custom transaction_ pour garder davantage de contrôle.
 
 
 
-
-- _Subtract fee from send amount_, to prevent fees from being paid by another UTXO present in Wallet, spending it and generating a remainder (which is an avoidable loss of privacy);
-- and then set the fees manually after checking on the explorer.
+Dans ce nouvel écran, il est important de sélectionner :
 
 
 
-Having done all these steps, click on _Continue_
+- _Subtract fee from send amount_, afin d’éviter que les frais soient prélevés sur un autre UTXO présent dans le portefeuille, ce qui le dépenserait et générerait un reste (perte de confidentialité évitable) ;  
+- puis définir les frais manuellement après vérification sur un explorateur.
+
+
+
+Une fois ces étapes réalisées, cliquez sur _Continue_
 
 
 
@@ -516,7 +513,7 @@ Having done all these steps, click on _Continue_
 
 
 
-The next screen is the complete summary of the transaction. If everything is okay, confirm by selecting _Confirm and create transaction_.
+L’écran suivant présente le récapitulatif complet de la transaction. Si tout est correct, confirmez en sélectionnant _Confirm and create transaction_.
 
 
 
@@ -524,7 +521,7 @@ The next screen is the complete summary of the transaction. If everything is oka
 
 
 
-With _Pending signatures_ Nunchuk alerts you that the transactionp is waiting for your signature to approve the expenditure, which you affix by clicking _Sign_.
+Avec _Pending signatures_, Nunchuk vous avertit que la transaction attend votre signature pour autoriser la dépense, signature que vous apposez en cliquant sur _Sign_.
 
 
 
@@ -532,7 +529,7 @@ With _Pending signatures_ Nunchuk alerts you that the transactionp is waiting fo
 
 
 
-The _Broadcast_ command appears at the bottom to propagate the finalized and signed transaction.
+La commande _Broadcast_ apparaît en bas pour propager la transaction finalisée et signée.
 
 
 
@@ -540,11 +537,11 @@ The _Broadcast_ command appears at the bottom to propagate the finalized and sig
 
 
 
-### Spending transaction from menu _Send_
+### Dépense depuis le menu _Send_
 
 
 
-While on the main page of Wallet we see the transaction going out and waiting for confirmation, we use the _Send_ menu to simulate a daily expense.
+Alors que sur la page principale du portefeuille nous voyons la transaction sortante en attente de confirmation, utilisons le menu _Send_ pour simuler une dépense quotidienne.
 
 
 
@@ -552,11 +549,11 @@ While on the main page of Wallet we see the transaction going out and waiting fo
 
 
 
-Clicking _Send_, in fact, brings up the screen for sending the transaction, which is the same as the one just seen but without going through coin control.
+Cliquer sur _Send_ fait apparaître l’écran d’envoi de transaction, identique à celui que nous venons de voir mais sans passer par le coin control.
 
 
 
-Also in this second example I decided to select _Custom transaction_ and send the entire amount, but I could have set it manually. Once you have decided on the amount to send press _Continue_.
+Dans ce second exemple également, j’ai choisi _Custom transaction_ et d’envoyer la totalité du montant, mais j’aurais pu le définir manuellement. Une fois le montant choisi, appuyez sur _Continue_.
 
 
 
@@ -564,7 +561,7 @@ Also in this second example I decided to select _Custom transaction_ and send th
 
 
 
-Then always make a case whether the fees are subtracted from the UTXO in question (in this example the choice is forced, because there is only one), manually adjust the fees according to the situation at the time in Mempool, and press _Continue_.
+Vérifiez ensuite si les frais sont bien soustraits de l’UTXO en question (dans cet exemple, le choix est forcé car il n’y en a qu’un), ajustez manuellement les frais selon la situation du mempool, puis appuyez sur _Continue_.
 
 
 
@@ -572,7 +569,7 @@ Then always make a case whether the fees are subtracted from the UTXO in questio
 
 
 
-If the summary screen is satisfactory, choose _Confirm and create transaction_.
+Si l’écran de résumé est satisfaisant, choisissez _Confirm and create transaction_.
 
 
 
@@ -580,7 +577,7 @@ If the summary screen is satisfactory, choose _Confirm and create transaction_.
 
 
 
-Sign the transaction with _Sign_
+Signez la transaction avec _Sign_
 
 
 
@@ -588,7 +585,7 @@ Sign the transaction with _Sign_
 
 
 
-and propagate it to the network.
+et diffusez-la sur le réseau.
 
 
 
@@ -596,23 +593,21 @@ and propagate it to the network.
 
 
 
-Wallet is at this point with the balance at zero and the history being updated.
+Le portefeuille se retrouve alors avec un solde à zéro et l’historique en cours de mise à jour.
 
 
 
 ![image](assets/en/58.webp)
 
-
-
-## Creation of a "Hot Wallet"
-
-
-
-Last and not to leave out anything from the initial stages of Nunchuk mobile, let's see how this creates what the app calls "Hot Wallet."
+## Création d’un « Hot Wallet »
 
 
 
-In the _Home_ menu of Nunchuk, where the list of Wallets appears, click the `+` in the upper right corner.
+Enfin, afin de ne rien omettre des étapes initiales de Nunchuk mobile, voyons comment l’application crée ce qu’elle appelle un « Hot Wallet ».
+
+
+
+Dans le menu _Home_ de Nunchuk, où apparaît la liste des portefeuilles, cliquez sur le `+` en haut à droite.
 
 
 
@@ -620,7 +615,7 @@ In the _Home_ menu of Nunchuk, where the list of Wallets appears, click the `+` 
 
 
 
-Choose _Hot wallet_ from the options
+Choisissez _Hot wallet_ parmi les options
 
 
 
@@ -628,7 +623,7 @@ Choose _Hot wallet_ from the options
 
 
 
-Nunchuk dispenses some advice on handling Hot Wallets on the presentation page, where you will select _Continue_ to proceed.
+Nunchuk dispense quelques conseils concernant l’utilisation des Hot Wallets sur la page de présentation. Sélectionnez _Continue_ pour poursuivre.
 
 
 
@@ -636,7 +631,7 @@ Nunchuk dispenses some advice on handling Hot Wallets on the presentation page, 
 
 
 
-After a few moments the Wallet is created and appears in the list in brownish color. This is the color with which Nunchuk alerts you that you have not yet backed up Wallet.
+Après quelques instants, le portefeuille est créé et apparaît dans la liste avec une couleur brunâtre. C’est la couleur utilisée par Nunchuk pour vous avertir que vous n’avez pas encore sauvegardé le portefeuille.
 
 
 
@@ -644,7 +639,7 @@ After a few moments the Wallet is created and appears in the list in brownish co
 
 
 
-Click on the name of the Wallet, to access its configurations, and you may notice an invitation to back up the Mnemonic phrase immediately.
+Cliquez sur le nom du portefeuille pour accéder à ses configurations : vous remarquerez une invitation à sauvegarder immédiatement la phrase mnémonique.
 
 
 
@@ -652,7 +647,7 @@ Click on the name of the Wallet, to access its configurations, and you may notic
 
 
 
-The procedure is the same as we have seen before, so we won't stand over it again. Once it's done, Nunchuk will take you to the relevant key page, which you can edit as the one you created with the _Custom_ procedure.
+La procédure est la même que celle déjà vue précédemment, nous ne reviendrons donc pas dessus. Une fois la sauvegarde effectuée, Nunchuk vous amène à la page de la clé correspondante, que vous pouvez modifier comme celle que vous aviez créée via la procédure _Custom_.
 
 
 
@@ -660,7 +655,7 @@ The procedure is the same as we have seen before, so we won't stand over it agai
 
 
 
-Also try _Run health check_
+Essayez également _Run health check_
 
 
 
@@ -668,7 +663,7 @@ Also try _Run health check_
 
 
 
-or to see how to display all your Wallets in the _Home_ of the app.
+ou encore affichez tous vos portefeuilles dans le _Home_ de l’application.
 
 
 
@@ -676,15 +671,15 @@ or to see how to display all your Wallets in the _Home_ of the app.
 
 
 
-## To keep in mind to continue independently
+## À garder à l’esprit pour continuer de façon autonome
 
 
-Just as there is an order for creation, that is, first generating the keys and then the Wallet, you will need to maintain the reverse order for deleting these items from your app.
-
-
-
-If you have a need to delete one of the keys, you should first have the foresight to delete Wallet, or Wallets, which employ one of the signature keys for transactions: first you delete Wallets and only then the keys. If you do not follow this order, you will find yourself unable to remove the key.
+De la même manière qu’il existe un ordre pour la création — d’abord générer les clés, puis créer le portefeuille —, il faut respecter l’ordre inverse lors de la suppression de ces éléments dans l’application.
 
 
 
-Now that you know how to get started with Nunchuk, you can continue to study this app and discover its secrets. In this tutorial we have only taken the first steps, but there are more sophisticated applications and advanced needs that this Software Wallet can help you meet.
+Si vous devez supprimer l’une des clés, il est indispensable d’avoir au préalable supprimé le ou les portefeuilles qui utilisent cette clé de signature pour des transactions : d’abord supprimer les portefeuilles, ensuite seulement les clés. Si vous ne respectez pas cet ordre, vous ne pourrez pas retirer la clé.
+
+
+
+Maintenant que vous savez comment débuter avec Nunchuk, vous pouvez continuer à explorer cette application et en découvrir les subtilités. Dans ce tutoriel, nous n’avons fait que les premiers pas, mais ce portefeuille logiciel peut répondre à des besoins plus avancés et à des usages plus sophistiqués.

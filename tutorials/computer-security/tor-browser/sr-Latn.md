@@ -1,5 +1,5 @@
 ---
-name: Tor Pregledač
+name: Tor Browser
 description: Kako koristiti Tor pregledač?
 ---
 ![cover](assets/cover.webp)

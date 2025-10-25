@@ -1,5 +1,5 @@
 ---
-name: 電子琴 OP_RETURN
+name: Electrum OP_RETURN
 description: 使用 Electrum 註冊 Blockchain Bitcoin 的訊息
 ---
 
@@ -150,8 +150,8 @@ https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-
 
 
 
-- 留下我們人性的美麗表現，*
-- 避免輸入您可能會後悔的內容*
+- 留下我們人性的美麗表現，
+- 避免輸入您可能會後悔的內容
 
 
 
@@ -208,9 +208,9 @@ script(OP_RETURN 5468616e6b73205361746f736869), 0
 
 
 
-- 目的地 Address**：有效的 Bitcoin Address。Ici, `bc1q879cv4p5q6s9537orange3zss33d3turzad8`.這可以是您自己的 Address，如果您希望將轉帳的資金退回給自己；
-- Amount transferred**: 交易金額，這裡是 `0.00001` BTC。 **請注意**：由於 Electrum 使用的單位是 BTC，交易腳本中顯示的金額也必須以 BTC 表示，而不是 Sats ；
-- 腳本 OP_RETURN**：訊息轉換為十六進位，前面加上 script(`OP_RETURN <messsage>), 0`。這裡的 `5468616e6b73205361746f736869` 代表訊息的十六進位。
+- 目的地 **Address**：有效的 Bitcoin Address。Ici, `bc1q879cv4p5q6s9537orange3zss33d3turzad8`。這可以是您自己的 Address，如果您希望將轉帳的資金退回給自己；
+- **Amount transferred**: 交易金額，這裡是 `0.00001` BTC。**請注意**：由於 Electrum 使用的單位是 BTC，交易腳本中顯示的金額也必須以 BTC 表示，而不是 Sats；
+- 腳本 **OP_RETURN**：訊息轉換為十六進位，前面加上 script(`OP_RETURN <messsage>), 0`。這裡的 `5468616e6b73205361746f736869` 代表訊息的十六進位。
 
 
 

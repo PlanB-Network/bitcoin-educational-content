@@ -8,18 +8,18 @@ Acroniem voor "Bitcoin Improvement Proposal." Een Bitcoin Improvement Proposal (
 BIP's worden ingedeeld in drie hoofdcategorieën:
 
 
-- Standards Track BIP's*: Hebben betrekking op wijzigingen die direct van invloed zijn op Bitcoin implementaties, zoals transactie- en blokvalidatieregels;
-- Informatieve GIP's*: Geven informatie of aanbevelingen zonder directe wijzigingen aan het protocol voor te stellen;
-- Verwerk BIP's*: Beschrijf veranderingen in de procedures rondom Bitcoin, zoals bestuursprocessen.
+- Standards Track BIP's: Hebben betrekking op wijzigingen die direct van invloed zijn op Bitcoin implementaties, zoals transactie- en blokvalidatieregels;
+- **Informatieve GIP's**: Geven informatie of aanbevelingen zonder directe wijzigingen aan het protocol voor te stellen;
+- Verwerk **BIP's**: Beschrijf veranderingen in de procedures rondom Bitcoin, zoals bestuursprocessen.
 
 
 Standards Track en Informational BIP's worden ook ingedeeld bij "Layer":
 
 
-- Consensus Layer*: BIP's in deze Layer hebben betrekking op de consensusregels van Bitcoin, zoals wijzigingen aan de blok- of transactievalidatieregels. Deze voorstellen kunnen Soft forks (achterwaarts compatibele wijzigingen) of Hard forks (niet achterwaarts compatibele wijzigingen) zijn. De BIP's voor SegWit en Taproot behoren bijvoorbeeld tot deze categorie;
-- Peer-diensten*: Deze Layer betreft de werking van het Bitcoin knooppuntennetwerk, dat wil zeggen, hoe knooppunten elkaar vinden en met elkaar communiceren op het Internet.
-- API/RPC*: De BIP's van deze Layer betreffen de Application Programming Interfaces (API) en Remote Procedure Calls (RPC) waarmee Bitcoin software kan communiceren met knooppunten;
-- Toepassingen Layer*: Deze Layer heeft betrekking op toepassingen die bovenop Bitcoin zijn gebouwd. De BIP's in deze categorie hebben meestal betrekking op wijzigingen op het niveau van Bitcoin Wallet standaarden.
+- **Consensus Layer**: BIP's in deze Layer hebben betrekking op de consensusregels van Bitcoin, zoals wijzigingen aan de blok- of transactievalidatieregels. Deze voorstellen kunnen Soft forks (achterwaarts compatibele wijzigingen) of Hard forks (niet achterwaarts compatibele wijzigingen) zijn. De BIP's voor SegWit en Taproot behoren bijvoorbeeld tot deze categorie;
+- **Peer-diensten**: Deze Layer betreft de werking van het Bitcoin knooppuntennetwerk, dat wil zeggen, hoe knooppunten elkaar vinden en met elkaar communiceren op het Internet.
+- **API/RPC**: De BIP's van deze Layer betreffen de Application Programming Interfaces (API) en Remote Procedure Calls (RPC) waarmee Bitcoin software kan communiceren met knooppunten;
+- **Toepassingen Layer**: Deze Layer heeft betrekking op toepassingen die bovenop Bitcoin zijn gebouwd. De BIP's in deze categorie hebben meestal betrekking op wijzigingen op het niveau van Bitcoin Wallet standaarden.
 
 
 Het proces van het indienen van een BIP begint met het bedenken en bespreken van het idee op de *Bitcoin-dev* mailinglijst. Als het idee veelbelovend is, stelt de auteur een BIP op volgens een specifiek formaat en dient het in via een Pull Request op de Core GitHub repository. De redactie bekijkt dit voorstel om te controleren of het aan alle criteria voldoet. De BIP moet technisch haalbaar zijn, nuttig zijn voor het protocol, voldoen aan de vereiste opmaak, en in overeenstemming zijn met de Bitcoin filosofie. Als de BIP aan deze voorwaarden voldoet, wordt hij officieel opgenomen in de GitHub repository van BIPs. Het krijgt dan een nummer toegewezen. Dit nummer wordt over het algemeen bepaald door de redacteur, vaak Luke Dashjr, en wordt logisch toegekend: BIP's die vergelijkbare onderwerpen behandelen krijgen vaak opeenvolgende nummers.

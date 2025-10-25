@@ -1,0 +1,9 @@
+question: Lamarck kimdir?
+answer: Darwin'den önce yaşamış bir Fransız doğa bilimci.
+wrong_answers:
+  - Hollandalı bir filozof.
+  - Spinoza'nın bir öğrencisi.
+  - Klasik bir ressam.
+explanation: |
+  Jean-Baptiste de Lamarck (1744-1829), Darwin'den önce bir evrim teorisi öne süren Fransız bir doğa bilimciydi. Onun transformizm teorisi, edinilmiş özelliklerin kalıtımını da içeriyordu.
+reviewed: false

@@ -1,5 +1,5 @@
 ---
-name: Blu Wallet
+name: Blue Wallet
 
 description: Bitcoin Portafoglio radicalmente semplice e potente
 ---
@@ -152,7 +152,7 @@ Quando si aggiunge il Bitcoin Address del primo destinatario, nelle opzioni, far
 
 
 
-- Gonfiare le commissioni**: Avete effettuato una transazione che richiede molto tempo per essere confermata? Abilitando l'inflazione delle commissioni, è possibile aggiungere ulteriori commissioni alla transazione in sospeso per accelerarne la conferma.
+- **Gonfiare le commissioni**: Avete effettuato una transazione che richiede molto tempo per essere confermata? Abilitando l'inflazione delle commissioni, è possibile aggiungere ulteriori commissioni alla transazione in sospeso per accelerarne la conferma.
 
 
 
@@ -248,7 +248,7 @@ Ricevere bitcoin in un Wallet multi-firma è lo stesso processo che si svolge in
 
 
 
-- Inviare bitcoin** :
+- Inviare **bitcoin**:
 
 
 
@@ -274,7 +274,7 @@ Il secondo firmatario della Wallet, se è anch'egli un utente, può firmare la t
 
 
 
-- Andate oltre con il portafoglio multi-firma**:
+- Andate oltre con il **portafoglio multi-firma**:
 
 
 

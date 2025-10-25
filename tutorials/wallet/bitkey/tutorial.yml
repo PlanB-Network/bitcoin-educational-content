@@ -2,6 +2,8 @@ id: 02110256-e1b7-40f6-b292-e816375e2618
 
 project_id: 057cc891-0163-47eb-acf1-1f1d755b730e
 
+professor_id: 6516474c-c190-41f2-b2ab-3d452ce7bdf0
+
 tags:
   - hardware
   - wallets
@@ -131,3 +133,18 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 0.13
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.13
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.13
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.14

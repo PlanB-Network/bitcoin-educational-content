@@ -1,5 +1,5 @@
 ---
-name: Ombrello
+name: Umbrel
 description: Scoprire e installare Umbrel - Il vostro nodo Bitcoin e il vostro server domestico
 ---
 
@@ -21,10 +21,10 @@ Un nodo Bitcoin è un computer che partecipa alla rete Bitcoin eseguendo il soft
 
 
 
-- Archiviazione Blockchain**: Mantiene una copia completa e aggiornata del Blockchain Bitcoin
-- Verifica delle transazioni**: convalida ogni transazione e blocco in base alle regole del protocollo
-- Diffusione delle informazioni**: Condivide le nuove transazioni e i blocchi con gli altri nodi
-- Creazione del consenso**: Contribuisce all'applicazione delle regole della rete
+- **Archiviazione Blockchain**: Mantiene una copia completa e aggiornata del Blockchain Bitcoin
+- **Verifica delle transazioni**: convalida ogni transazione e blocco in base alle regole del protocollo
+- **Diffusione delle informazioni**: Condivide le nuove transazioni e i blocchi con gli altri nodi
+- **Creazione del consenso**: Contribuisce all'applicazione delle regole della rete
 
 
 
@@ -34,11 +34,11 @@ Gestire il proprio nodo Bitcoin è un passo fondamentale verso la sovranità fin
 
 
 
-- Riservatezza**: Condividete le vostre transazioni senza rivelare le vostre informazioni a terzi
-- Resistenza alla censura**: Nessuno può impedirvi di usare il Bitcoin
-- Verifica indipendente**: Non è necessario fidarsi dei nodi altrui per verificare le transazioni
-- Creazione del consenso**: Contribuire all'applicazione delle regole della rete Bitcoin
-- Supporto alla rete**: Diventare un partecipante attivo nella distribuzione e nel decentramento della rete
+- **Riservatezza**: Condividete le vostre transazioni senza rivelare le vostre informazioni a terzi
+- **Resistenza alla censura**: Nessuno può impedirvi di usare il Bitcoin
+- **Verifica indipendente**: Non è necessario fidarsi dei nodi altrui per verificare le transazioni
+- **Creazione del consenso**: Contribuire all'applicazione delle regole della rete Bitcoin
+- **Supporto alla rete**: Diventare un partecipante attivo nella distribuzione e nel decentramento della rete
 
 
 
@@ -144,7 +144,7 @@ UmbrelOS è la versione gratuita e open source del sistema operativo Umbrel. Que
 
 
 
-**Limitazioni
+**Limitazioni**
 
 
 
@@ -225,7 +225,7 @@ Per questa installazione è necessario :
 
 
 
-**Installazione di *Balena Etcher
+**Installazione di *Balena Etcher***
 
 
 
@@ -268,7 +268,7 @@ Per questa installazione è necessario :
 
 
 
-**Installazione della scheda microSD
+**Installazione della scheda microSD**
 
 
 
@@ -295,7 +295,7 @@ Per questa installazione è necessario :
 
 
 
-**Accensione
+**Accensione**
 
 
 
@@ -365,7 +365,7 @@ Una volta che Umbrel è stato avviato ed è accessibile tramite il browser, segu
 
 
 
-**Conferma dell'account
+**Conferma dell'account**
 
 
 
@@ -581,7 +581,7 @@ Con questa applicazione è possibile monitorare in modo efficiente le transazion
 
 
 
-**Collegamento locale
+**Collegamento locale**
 
 
 
@@ -613,7 +613,7 @@ Con questa applicazione è possibile monitorare in modo efficiente le transazion
 
 
 
-**Accesso ai parametri
+**Accesso ai parametri**
 
 
 
@@ -628,7 +628,7 @@ Con questa applicazione è possibile monitorare in modo efficiente le transazion
 
 
 
-**Scelta del tipo di connessione
+**Scelta del tipo di connessione**
 
 
 
@@ -666,7 +666,7 @@ Sparrow offre tre modalità di connessione:
 
 
 
-**Configurazione degli eletti
+**Configurazione degli eletti**
 
 
 
@@ -678,7 +678,7 @@ In entrambi i casi, lasciare deselezionate le opzioni "Usa SSL" e "Usa proxy".
 
 
 
-**Collegamento locale
+**Collegamento locale**
 
 
 Host: umbrel.local

@@ -35,7 +35,7 @@ Bofya kwenye "*Ingia*" kwenye sehemu ya juu ya kulia ya dirisha.
 
 ![BITREFILL](assets/notext/03.webp)
 
-Bonyeza "* Unda akaunti*".
+Bonyeza "*Unda akaunti*".
 
 ![BITREFILL](assets/notext/04.webp)
 
@@ -43,7 +43,7 @@ Weka barua pepe Address. Iwapo ungependa kuhifadhi jina la akaunti yako, hakikis
 
 ![BITREFILL](assets/notext/05.webp)
 
-Ikiwa ungependa kujifunza jinsi ya kuunda kisanduku salama cha barua pepe kwa urahisi na jinsi ya kudhibiti manenosiri yako, ninapendekeza uangalie mafunzo haya 2 mengine:
+Ikiwa ungependa kujifunza jinsi ya kuunda kisanduku salama cha barua pepe kwa urahisi na jinsi ya kudhibiti maneno ya siri yako, ninapendekeza uangalie mafunzo haya 2 mengine:
 
 
 https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
@@ -70,7 +70,7 @@ Pia nakushauri uunde 2FA ili kulinda akaunti yako. Ili kufanya hivyo, bofya wasi
 
 ![BITREFILL](assets/notext/10.webp)
 
-Bofya kwenye menyu ya "* Mipangilio".
+Bofya kwenye menyu ya "*Mipangilio*".
 
 ![BITREFILL](assets/notext/11.webp)
 

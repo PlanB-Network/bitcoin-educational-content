@@ -50,11 +50,11 @@ Atualmente, o Jami está disponível em muitos sistemas. É conhecido pelo seu d
 
 
 
-- É de código aberto e totalmente gratuito**, pelo que pode utilizá-lo sem qualquer custo.
-- Completo com funcionalidades úteis**: este software permite-lhe tirar partido de inúmeras opções, graças à possibilidade de adicionar facilmente plug-ins a partir da loja. É mesmo possível criar as suas próprias extensões para obter funcionalidades mais adaptadas às suas necessidades.
-- Fácil de utilizar e intuitivo**: apesar das muitas funcionalidades que o Jami tem para oferecer, continua a ser muito fácil de manusear.
-- Segurança forte**: O Jami incorpora um algoritmo de encriptação avançado que garante a segurança das suas comunicações, respeitando a sua privacidade.
-- Altamente acessível e rápido**: oferece uma comunicação fácil, mesmo quando a largura de banda é limitada, para uma maior facilidade de utilização.
+- É de código aberto e totalmente **gratuito**, pelo que pode utilizá-lo sem qualquer custo.
+- **Completo com funcionalidades úteis**: este software permite-lhe tirar partido de inúmeras opções, graças à possibilidade de adicionar facilmente plug-ins a partir da loja. É mesmo possível criar as suas próprias extensões para obter funcionalidades mais adaptadas às suas necessidades.
+- **Fácil de utilizar e intuitivo**: apesar das muitas funcionalidades que o Jami tem para oferecer, continua a ser muito fácil de manusear.
+- **Segurança forte**: O Jami incorpora um algoritmo de encriptação avançado que garante a segurança das suas comunicações, respeitando a sua privacidade.
+- **Altamente acessível e rápido**: oferece uma comunicação fácil, mesmo quando a largura de banda é limitada, para uma maior facilidade de utilização.
 
 
 
@@ -338,9 +338,9 @@ O Jami também oferece **caraterísticas avançadas** para os utilizadores que p
 
 
 
-- Criar um ponto de encontro**: Esta função permite-lhe criar um **ponto de encontro** para as suas comunicações, útil para organizar sessões seguras ou intercâmbios entre vários utilizadores.
-- Ligar a um servidor Jami**: Pode ligar o Jami a um **servidor Jami**, o que pode melhorar o desempenho ou a disponibilidade das comunicações, especialmente em ambientes profissionais.
-- Criar uma conta SIP**: Pode configurar uma **conta SIP** (Session Initiation Protocol), que lhe permite integrar o Jami nos sistemas telefónicos existentes ou fazer chamadas telefónicas.
+- **Criar um ponto de encontro**: Esta função permite-lhe criar um **ponto de encontro** para as suas comunicações, útil para organizar sessões seguras ou intercâmbios entre vários utilizadores.
+- Ligar a um servidor Jami: Pode ligar o Jami a um **servidor Jami**, o que pode melhorar o desempenho ou a disponibilidade das comunicações, especialmente em ambientes profissionais.
+- Criar uma conta SIP: Pode configurar uma **conta SIP** (Session Initiation Protocol), que lhe permite integrar o Jami nos sistemas telefónicos existentes ou fazer chamadas telefónicas.
 
 
 

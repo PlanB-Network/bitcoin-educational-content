@@ -1,5 +1,5 @@
 ---
-name: Tor-browser
+name: Tor Browser
 description: Hoe gebruik je de Tor Browser?
 ---
 ![cover](assets/cover.webp)

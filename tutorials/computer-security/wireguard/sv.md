@@ -101,9 +101,9 @@ I termer av IP-adresser ger detta:
 
 
 
-- Hemnätverk**: 192.168.1.0/24
-- Företagsnätverk**: 192.168.100.0/24
-- WireGuard tunnel nätverk**: 192.168.110.0/24
+- **Hemnätverk**: 192.168.1.0/24
+- **Företagsnätverk**: 192.168.100.0/24
+- **WireGuard tunnel nätverk**: 192.168.110.0/24
 
 
 + IP Address för Peer 1 (Windows) i tunneln: 192.168.110.2/24
@@ -117,7 +117,7 @@ Det är allt som finns att säga! Låt oss komma igång med konfigurationen!
 
 
 
-**Anmärkning: som standard arbetar WireGuard i UDP-läge på **port 51820**.
+**Anmärkning: som standard arbetar WireGuard i UDP-läge på port 51820.**
 
 
 
@@ -219,10 +219,10 @@ Avsnittet `[Interface]` används för att deklarera serverdelen. Här är lite i
 
 
 
-- Address**: IP Address för Interface WireGuard inom VPN-tunneln (annat subnät än fjärr-LAN:et)
-- SaveConfig**: konfigurationen lagras (och skyddas) så länge Interface är aktiv
-- LyssnaPort**: WireGuards lyssningsport. I det här fallet är 51820 standardporten, men du är välkommen att anpassa den
-- PrivateKey**: värdet på vår servers privata nyckel (*wg-private.key*)
+- **Address**: IP Address för Interface WireGuard inom VPN-tunneln (annat subnät än fjärr-LAN:et)
+- **SaveConfig**: konfigurationen lagras (och skyddas) så länge Interface är aktiv
+- **LyssnaPort**: WireGuards lyssningsport. I det här fallet är 51820 standardporten, men du är välkommen att anpassa den
+- **PrivateKey**: värdet på vår servers privata nyckel (*wg-private.key*)
 
 
 
@@ -372,7 +372,7 @@ Lägg till dessa rader i slutet av filen för att **aktivera IP-maskerad på Int
 
 ```
 # NAT - IP masquerade
-*nat
+*nat*
 :POSTROUTING ACCEPT [0:0]
 -A POSTROUTING -o ens192 -j MASQUERADE
 
@@ -475,7 +475,7 @@ Börja med att öppna programvaran för att skapa en ny tunnel. Detta gör du ge
 
 
 
-Ett konfigurationsfönster öppnas. Varje gång en ny tunnelkonfiguration skapas genererar WireGuard ett privat/offentligt nyckelpar som är specifikt för denna konfiguration. **I den här konfigurationen måste vi ange "peer", dvs. fjärrservern:
+Ett konfigurationsfönster öppnas. Varje gång en ny tunnelkonfiguration skapas genererar WireGuard ett privat/offentligt nyckelpar som är specifikt för denna konfiguration. **I den här konfigurationen måste vi ange "peer", dvs. fjärrservern:**
 
 
 
@@ -523,15 +523,15 @@ I bilder:
 
 
 
-**Några förklaringar om [Peer]-blocket:
+**Några förklaringar om [Peer]-blocket:**
 
 
 
 
 
-- PublicKey**: detta är den publika nyckeln för WireGuard Debian 11-servern (du kan få fram dess värde med kommandot "*sudo wg*")
-- AllowedIPs**: detta är de IP-adresser/undernät som är tillgängliga via detta WireGuard VPN-nätverk, i detta fall det undernät som är specifikt för mitt WireGuard VPN (*192.168.110.0/24*) och mitt fjärr-LAN (*192.168.100.0/24*)
-- Endpoint**: detta är IP Address för Debian 11-värden, eftersom detta är vår WireGuard-anslutningspunkt (du måste ange den offentliga IP Address)
+- **PublicKey**: detta är den publika nyckeln för WireGuard Debian 11-servern (du kan få fram dess värde med kommandot "*sudo wg*")
+- **AllowedIPs**: detta är de IP-adresser/undernät som är tillgängliga via detta WireGuard VPN-nätverk, i detta fall det undernät som är specifikt för mitt WireGuard VPN (*192.168.110.0/24*) och mitt fjärr-LAN (*192.168.100.0/24*)
+- **Endpoint**: detta är IP Address för Debian 11-värden, eftersom detta är vår WireGuard-anslutningspunkt (du måste ange den offentliga IP Address)
 
 
 
@@ -625,7 +625,7 @@ sudo chmod 600 /etc/wireguard/ -R
 
 
 
-Nu när konfigurationen är klar kan vi initiera den från Windows PC. För att göra detta, i "**WireGuard**" -klienten, klicka på "**Activate**" -knappen: anslutningen kommer ** att ändras från "Off" till "On"**, men det betyder inte att den kommer att fungera. Allt beror på om din konfiguration är korrekt eller inte. **När anslutningen är upprättad kommunicerar våra två maskiner via Interface WireGuard som konfigurerats på vardera sidan!
+Nu när konfigurationen är klar kan vi initiera den från Windows PC. För att göra detta, i "**WireGuard**" -klienten, klicka på "**Activate**" -knappen: anslutningen kommer **att ändras från "Off" till "On"**, men det betyder inte att den kommer att fungera. Allt beror på om din konfiguration är korrekt eller inte. **När anslutningen är upprättad kommunicerar våra två maskiner via Interface WireGuard som konfigurerats på vardera sidan!**
 
 
 
@@ -663,7 +663,7 @@ Från min fjärrdator kan jag pinga IP Address för min Interface WireGuard på 
 
 
 
-Från min fjärr-PC ansluten till min WireGuard VPN kunde jag komma åt en filserver och överföra en fil via [SMB] (https://www.it-connect.fr/le-protocole-smb-pour-les-debutants/), för att se överföringshastigheten. ** Med WireGuard maxar jag till cirka 45 Mb/s, vilket är bra eftersom jag är på WiFi
+Från min fjärr-PC ansluten till min WireGuard VPN kunde jag komma åt en filserver och överföra en fil via [SMB](https://www.it-connect.fr/le-protocole-smb-pour-les-debutants/), för att se överföringshastigheten. **Med WireGuard maxar jag till cirka 45 Mb/s, vilket är bra eftersom jag är på WiFi.**
 
 
 
@@ -752,7 +752,7 @@ AllowedIPs = 0.0.0.0/0
 
 
 
-Du kan se att detta även aktiverar alternativet "**Kill switch*".
+Du kan se att detta även aktiverar alternativet "**Kill switch**".
 
 
 
@@ -783,4 +783,4 @@ Ytterligare dokumentation:
 
 
 
-**Ditt WireGuard VPN är igång och fungerar! Vi gratulerar dig!
+**Ditt WireGuard VPN är igång och fungerar! Vi gratulerar dig!**

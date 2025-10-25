@@ -1,5 +1,5 @@
 ---
-name: Krux - Einzelne und mehrere Sig
+name: Krux
 description: das Krux DIY Bitcoin Hardware-Signiergerät einzurichten, seine Firmware zu flashen und es sowohl für Single-Sig- als auch für Multisig-Geldbörsen zu verwenden.
 ---
 

@@ -306,7 +306,7 @@ Under fanen "*Filtre*" kan du administrere filtre for e-postene du mottar.
 
 
 
-Under fanen "Videresending og automatisk svar*" kan du administrere videresending og automatisk svar for e-postene dine.
+Under fanen "Videresending og automatisk svar" kan du administrere videresending og automatisk svar for e-postene dine.
 
 
 

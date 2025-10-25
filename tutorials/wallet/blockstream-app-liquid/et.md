@@ -26,8 +26,8 @@ description: Kuidas konfigureerida Blockstream App ja kasutada Liquid Network
 
 
 
-- Algajad**: Kasutajad, kes soovivad hallata oma bitcoine intuitiivse mobiilirakenduse abil, integreerides Liquid Network.
-- Vahepealsed kasutajad**: Inimesed, kes soovivad mõista onchaini funktsioone ja privaatsusvõimalusi, nagu Tor või SPV.
+- **Algajad**: Kasutajad, kes soovivad hallata oma bitcoine intuitiivse mobiilirakenduse abil, integreerides Liquid Network.
+- **Vahepealsed kasutajad**: Inimesed, kes soovivad mõista onchaini funktsioone ja privaatsusvõimalusi, nagu Tor või SPV.
 
 
 
@@ -50,19 +50,19 @@ Sidechain on sõltumatu Blockchain, mis töötab paralleelselt Bitcoin-ga, kasut
 
 
 
-- (1) Peg-in**: Bitimündid (BTC) on lukustatud Liquid föderatsiooni poolt Blockchain peavõimele. Vastutasuks väljastatakse Blockchain Liquid Liquid-le samaväärne kogus Liquid-Bitcoine (L-BTC), mis tagab pariteedi kahe ahela vahel, ja saadetakse kasutajale.
+- (1) **Peg-in**: Bitimündid (BTC) on lukustatud Liquid föderatsiooni poolt Blockchain peavõimele. Vastutasuks väljastatakse Blockchain Liquid Liquid-le samaväärne kogus Liquid-Bitcoine (L-BTC), mis tagab pariteedi kahe ahela vahel, ja saadetakse kasutajale.
 
 
 
 
 
-- (2) Sõltumatud tehingud** : Tehingud võivad toimuda samaaegselt ja sõltumatult peamisel Blockchain (BTC) ja Sidechain Liquid (L-BTC), sõltuvalt kasutaja vajadustest.
+- (2) **Sõltumatud tehingud**: Tehingud võivad toimuda samaaegselt ja sõltumatult peamisel Blockchain (BTC) ja Sidechain Liquid (L-BTC), sõltuvalt kasutaja vajadustest.
 
 
 
 
 
-- (3) Peg-out**: Kasutaja saadab Liquid-Bitcoins (L-BTC) tagasi Liquid föderatsioonile. Seejärel vabastab föderatsioon samaväärse koguse bitcoin'e (BTC) peamisel Blockchain-l ja kannab need kasutajale üle.
+- (3) **Peg-out**: Kasutaja saadab Liquid-Bitcoins (L-BTC) tagasi Liquid föderatsioonile. Seejärel vabastab föderatsioon samaväärse koguse bitcoin'e (BTC) peamisel Blockchain-l ja kannab need kasutajale üle.
 
 
 
@@ -80,15 +80,15 @@ Liquid tugineb usaldusväärsete osalejate **liidule** (börsid, tunnustatud Bit
 
 
 
-- Kiirus**: Liquid tehingud kinnitatakse umbes **1 minutiga**, võrreldes 10 minutiga või enamaga onchaini tehingute puhul, tänu plokkidele, mis luuakse iga minuti tagant valideerijate föderatsiooni poolt.
-- Täiustatud konfidentsiaalsus**: Liquid kasutab **Confidential Transactions**, mis varjab ülekantud vara summa ja liigi, muutes tehingud privaatsemaks (kuigi aadressid jäävad nähtavaks).
-- Madalad tasud** : Liquid tehingud on üldiselt odavamad, mistõttu on need ideaalsed sagedaste ülekannete või väikeste summade puhul.
-- Mitu vara**: Lisaks L-BTC-dele toetab Liquid ka muude digitaalsete varade, näiteks stabiilseid münte või žetoneid, emiteerimist konkreetsetes rakendustes kasutamiseks.
-- Kasutusjuhud**: Liquid sobib eriti hästi platvormideüleseks vahetuseks, kiireks maksmiseks või rakenduste jaoks, mis nõuavad arukaid lepinguid, jäädes samal ajal seotud Bitcoin turvalisusega.
+- **Kiirus**: Liquid tehingud kinnitatakse umbes **1 minutiga**, võrreldes 10 minutiga või enamaga onchaini tehingute puhul, tänu plokkidele, mis luuakse iga minuti tagant valideerijate föderatsiooni poolt.
+- **Täiustatud konfidentsiaalsus**: Liquid kasutab **Confidential Transactions**, mis varjab ülekantud vara summa ja liigi, muutes tehingud privaatsemaks (kuigi aadressid jäävad nähtavaks).
+- **Madalad tasud**: Liquid tehingud on üldiselt odavamad, mistõttu on need ideaalsed sagedaste ülekannete või väikeste summade puhul.
+- **Mitu vara**: Lisaks L-BTC-dele toetab Liquid ka muude digitaalsete varade, näiteks stabiilseid münte või žetoneid, emiteerimist konkreetsetes rakendustes kasutamiseks.
+- **Kasutusjuhud**: Liquid sobib eriti hästi platvormideüleseks vahetuseks, kiireks maksmiseks või rakenduste jaoks, mis nõuavad arukaid lepinguid, jäädes samal ajal seotud Bitcoin turvalisusega.
 
 
 
-** Märkus: See õpetus keskendub Liquid kasutamisele Blockstream Appi kaudu. Liquid Network põhjalikumaks tundmaõppimiseks leiate lisast ressursse.
+**Märkus: See õpetus keskendub Liquid kasutamisele Blockstream Appi kaudu. Liquid Network põhjalikumaks tundmaõppimiseks leiate lisast ressursse.**
 
 
 
@@ -98,14 +98,14 @@ Liquid tugineb usaldusväärsete osalejate **liidule** (börsid, tunnustatud Bit
 
 
 
-- Hot Wallet**, **Software Wallet**, **Wallet mobile**, **Software Wallet**: kõik nimetused nutitelefoni, arvutisse või mis tahes internetti ühendatud seadmesse paigaldatud rakendusele, mis võimaldab hallata ja kaitsta Bitcoin Wallet privaatvõtmeid.
+- **Hot Wallet**, **Software Wallet**, **Wallet mobile**, **Software Wallet**: kõik nimetused nutitelefoni, arvutisse või mis tahes internetti ühendatud seadmesse paigaldatud rakendusele, mis võimaldab hallata ja kaitsta Bitcoin Wallet privaatvõtmeid.
 - Erinevalt **hardvaralistest rahakottidest**, mida tuntakse ka **Cold rahakottidena**, mis isoleerivad võtmed võrguühenduseta, töötavad tarkvaralised rahakotid ühendatud keskkonnas, mis muudab need küberrünnakute suhtes haavatavamaks.
 
 
 
 
 
-- Soovitatav kasutusviis** :
+- **Soovitatav kasutusviis**:
     - Sobib ideaalselt mõõduka koguse Bitcoin haldamiseks, eriti igapäevaste tehingute puhul.
     - Sobib algajatele või piiratud varadega kasutajatele, kellele Hardware Wallet võib tunduda üleliigne.
 
@@ -113,7 +113,7 @@ Liquid tugineb usaldusväärsete osalejate **liidule** (börsid, tunnustatud Bit
 
 
 
-- Piirangud**: Vähem turvaline suurte rahaliste vahendite või pikaajaliste säästude säilitamiseks. Sellisel juhul valige Hardware Wallet.
+- **Piirangud**: Vähem turvaline suurte rahaliste vahendite või pikaajaliste säästude säilitamiseks. Sellisel juhul valige Hardware Wallet.
 
 
 
@@ -124,16 +124,16 @@ Liquid tugineb usaldusväärsete osalejate **liidule** (börsid, tunnustatud Bit
 
 
 
-- Blockstream App** on mobiil- (iOS, Android) ja lauaarvutirakendus Bitcoin rahakottide ja varade haldamiseks Liquid Network-s. Omandas [Blockstream] (https://blockstream.com/) 2016. aastal, varem kandis nime *Green Address* ja seejärel *Blockstream Green*.
-- Peamised omadused** :
-    - Onchain** tehingud Blockchain Bitcoin.
+- **Blockstream App** on mobiil- (iOS, Android) ja lauaarvutirakendus Bitcoin rahakottide ja varade haldamiseks Liquid Network-s. Omandas [Blockstream](https://blockstream.com/) 2016. aastal, varem kandis nime *Green Address* ja seejärel *Blockstream Green*.
+- **Peamised omadused**:
+- **Onchain** tehingud Blockchain Bitcoin.
     - Tehingud **Liquid** võrgus (Sidechain kiireks ja konfidentsiaalseks teabevahetuseks).
-    - Ainult vaatlusportfellid** fondide jälgimiseks ilma juurdepääsuta võtmetele.
+- Ainult **vaatlusportfellid** fondide jälgimiseks ilma juurdepääsuta võtmetele.
     - Privaatsusvõimalused: ühendus **Tori** kaudu, ühendus **isikliku sõlme** kaudu Electrumi kaudu või **SPV** verifitseerimine, et vähendada sõltuvust kolmandate osapoolte sõlmedest.
     - Funktsioonid **Replace-by-fee (RBF)** kinnitamata tehingute kiirendamiseks.
-- Ühilduvus**: **Blockstream Jade**.
-- Interface**: Intuitiivne algajatele, täiustatud võimalustega ekspertidele.
-- Märkus**: Käesolev juhend keskendub ahelate kasutamisele. Teised lisades olevad õpetused käsitlevad Onchaini, Watch-Only ja töölauaversiooni.
+- **Ühilduvus**: **Blockstream Jade**.
+- **Interface**: Intuitiivne algajatele, täiustatud võimalustega ekspertidele.
+- **Märkus**: Käesolev juhend keskendub ahelate kasutamisele. Teised lisades olevad õpetused käsitlevad Onchaini, Watch-Only ja töölauaversiooni.
 
 
 
@@ -148,12 +148,12 @@ Liquid tugineb usaldusväärsete osalejate **liidule** (börsid, tunnustatud Bit
 
 
 
-- Androidi jaoks** :
+- **Androidi jaoks**:
     - Lae [Blockstream App](https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet) Google Play Store'ist alla.
     - Alternatiiv: [Blockstream'i ametlikul GitHubil](https://github.com/Blockstream/green_android) saadaval oleva APK-faili kaudu.
-- IOS-i jaoks** :
+- **IOS-i jaoks**:
     - Lae [Blockstream App](https://apps.apple.com/us/app/Green-Bitcoin-Wallet/id1402243590) App Store'ist alla.
-- Märkus**: Kindlasti lae alla ametlikest allikatest, et vältida võltsitud rakendusi.
+- **Märkus**: Kindlasti lae alla ametlikest allikatest, et vältida võltsitud rakendusi.
 
 
 
@@ -163,7 +163,7 @@ Liquid tugineb usaldusväärsete osalejate **liidule** (börsid, tunnustatud Bit
 
 
 
-- Avakuva**: Esmakordsel avamisel kuvab rakendus ekraani ilma konfigureeritud Wallet-ta. Loodud või imporditud portfellid ilmuvad siia hiljem.
+- **Avakuva**: Esmakordsel avamisel kuvab rakendus ekraani ilma konfigureeritud Wallet-ta. Loodud või imporditud portfellid ilmuvad siia hiljem.
 
 
 
@@ -173,7 +173,7 @@ Liquid tugineb usaldusväärsete osalejate **liidule** (börsid, tunnustatud Bit
 
 
 
-- Kohandage seadeid**: Klõpsake nupule "Rakenduse seaded", kohandage allpool olevaid valikuid, klõpsake nupule "Salvesta", taaskäivitage rakendus ja looge oma portfell.
+- **Kohandage seadeid**: Klõpsake nupule "Rakenduse seaded", kohandage allpool olevaid valikuid, klõpsake nupule "Salvesta", taaskäivitage rakendus ja looge oma portfell.
 
 
 
@@ -187,8 +187,8 @@ Liquid tugineb usaldusväärsete osalejate **liidule** (börsid, tunnustatud Bit
 
 
 
-- Funktsioon**: Lülitab ekraanipildid välja, peidab rakenduste eelvaateid ülesannete halduris ja lukustab juurdepääsu, kui telefon on lukustatud.
-- Miks?** : Kaitseb teie andmeid volitamata füüsilise juurdepääsu või ekraani hõivava pahavara eest.
+- **Funktsioon**: Lülitab ekraanipildid välja, peidab rakenduste eelvaateid ülesannete halduris ja lukustab juurdepääsu, kui telefon on lukustatud.
+- **Miks?**: Kaitseb teie andmeid volitamata füüsilise juurdepääsu või ekraani hõivava pahavara eest.
 
 
 
@@ -198,10 +198,10 @@ Liquid tugineb usaldusväärsete osalejate **liidule** (börsid, tunnustatud Bit
 
 
 
-- Funktsioon**: Marsruudi võrguliiklus **Tor** kaudu, mis on anonüümne võrk, mis krüpteerib teie ühendused.
-- Miks?**: Ideaalne, kui te ei usalda oma võrku (näiteks avalik Wi-Fi).
-- Puudus**: Võib aeglustada rakendust krüpteerimise tõttu.
-- Soovitus**: Aktiveerige Tor, kui konfidentsiaalsus on prioriteet, kuid testige ühenduse kiirust.
+- **Funktsioon**: Marsruudi võrguliiklus **Tor** kaudu, mis on anonüümne võrk, mis krüpteerib teie ühendused.
+- **Miks?**: Ideaalne, kui te ei usalda oma võrku (näiteks avalik Wi-Fi).
+- **Puudus**: Võib aeglustada rakendust krüpteerimise tõttu.
+- **Soovitus**: Aktiveerige Tor, kui konfidentsiaalsus on prioriteet, kuid testige ühenduse kiirust.
 
 
 
@@ -211,10 +211,10 @@ Liquid tugineb usaldusväärsete osalejate **liidule** (börsid, tunnustatud Bit
 
 
 
-- Funktsioon**: Ühendab rakenduse teie enda **täieliku Bitcoin sõlme** kaudu **Electrumi serveri**.
-- Miks?**: Annab täieliku kontrolli Blockchain andmete üle, kõrvaldades sõltuvuse Blockstream serveritest.
-- Eeltingimus**: Konfigureeritud Bitcoin-sõlm.
-- Soovitus**: Edasijõudnud kasutajad, kes soovivad maksimaalset suveräänsust.
+- **Funktsioon**: Ühendab rakenduse teie enda **täieliku Bitcoin sõlme** kaudu **Electrumi serveri**.
+- **Miks?**: Annab täieliku kontrolli Blockchain andmete üle, kõrvaldades sõltuvuse Blockstream serveritest.
+- **Eeltingimus**: Konfigureeritud Bitcoin-sõlm.
+- **Soovitus**: Edasijõudnud kasutajad, kes soovivad maksimaalset suveräänsust.
 
 
 
@@ -224,10 +224,10 @@ Liquid tugineb usaldusväärsete osalejate **liidule** (börsid, tunnustatud Bit
 
 
 
-- Funktsioon**: Kasutab **Ühendatud makse kontrollimine (SPV)**, et kontrollida otse teatud Blockchain andmeid ilma kogu ahelat alla laadimata.
-- Miks?**: Vähendab sõltuvust Blockstream'i vaikimisi sõlmedest, jäädes samal ajal mobiilsete seadmete jaoks kergekaaluliseks.
-- Puudus**: Vähem turvaline kui Full node, kuna see tugineb teatud teabe saamiseks kolmandatest osapooltest sõlmedele.
-- Soovitus**: Aktiveerige SPV, kui te ei saa kasutada isiklikku sõlme, kuid eelistate optimaalse turvalisuse tagamiseks Full node.
+- **Funktsioon**: Kasutab **Ühendatud makse kontrollimine (SPV)**, et kontrollida otse teatud Blockchain andmeid ilma kogu ahelat alla laadimata.
+- **Miks?**: Vähendab sõltuvust Blockstream'i vaikimisi sõlmedest, jäädes samal ajal mobiilsete seadmete jaoks kergekaaluliseks.
+- **Puudus**: Vähem turvaline kui Full node, kuna see tugineb teatud teabe saamiseks kolmandatest osapooltest sõlmedele.
+- **Soovitus**: Aktiveerige SPV, kui te ei saa kasutada isiklikku sõlme, kuid eelistate optimaalse turvalisuse tagamiseks Full node.
 
 
 
@@ -243,7 +243,7 @@ Liquid tugineb usaldusväärsete osalejate **liidule** (börsid, tunnustatud Bit
 
 
 
-- Ettevaatust**: Seadke oma portfell üles privaatses keskkonnas, ilma kaamerate või vaatlejateta.
+- **Ettevaatust**: Seadke oma portfell üles privaatses keskkonnas, ilma kaamerate või vaatlejateta.
 - Avakuval klõpsake nuppu "Get Started" :
 
 
@@ -434,7 +434,7 @@ Alternatiivselt Exchange oma bitcoins onchain või kaudu Lightning Network L-BTC
 
 
 
-- Valikud** :
+- **Valikud**:
  - (1) Klõpsake nooltele, et valida teine uus Address, mis on seotud selle seed lausega.
     - (2) Võite valida Address ka juba kasutatud/näidatud aadresside hulgast, klõpsates kolmel punktil üleval paremal ja seejärel "List of Addresses" (aadresside nimekiri)
     - (3) Konkreetse summa taotlemiseks klõpsake paremal üleval olevatel kolmel punktil, valige "Request amount" ja sisestage soovitud summa. QR uuendatakse ja Address asendatakse Bitcoin makse URIga.
@@ -448,7 +448,7 @@ Alternatiivselt Exchange oma bitcoins onchain või kaudu Lightning Network L-BTC
 
 
 - Jagage Address/URI, klõpsates "**Jagamine**", kopeerides teksti või skaneerides QR-koodi.
-- Kontrollimine**: Kontrollige Address, mida jagatakse vastuvõtjaga, nii palju kui võimalik, et vältida vigu või rünnakuid (nt pahavara, mis muudab lõikelaua).
+- **Kontrollimine**: Kontrollige Address, mida jagatakse vastuvõtjaga, nii palju kui võimalik, et vältida vigu või rünnakuid (nt pahavara, mis muudab lõikelaua).
 
 
 
@@ -468,7 +468,7 @@ Alternatiivselt Exchange oma bitcoins onchain või kaudu Lightning Network L-BTC
 
 
 
-- Sisestage andmed** :
+- Sisestage andmed:
     - (1) Sisestage saaja **Address**, kleepides selle peale või skaneerides QR-koodi.
     - (2) Kontrollige varasid ja kontot, millelt raha saadetakse.
     - (3) Märkige **summa**, mis tuleb saata. Saate valida ühiku: L-BTC, L-satoshis, USD, ...
@@ -481,7 +481,7 @@ Alternatiivselt Exchange oma bitcoins onchain või kaudu Lightning Network L-BTC
 
 
 
-- Kontrolli** :
+- **Kontrolli**:
     - Kontrollige Address, summat ja tasusid kokkuvõtte ekraanil.
     - Address viga võib kaasa tuua vahendite pöördumatu kaotuse. Ettevaatust pahavara, mis muudab lõikelaua.
 
@@ -493,8 +493,8 @@ Alternatiivselt Exchange oma bitcoins onchain või kaudu Lightning Network L-BTC
 
 
 
-- Kinnitus**: Tehingu allkirjastamiseks ja levitamiseks libistage nuppu "Saada".
-- Järelmeetmed**: Wallet vahekaardil "Transact" kuvatakse tehing kui "Unconfirmed", seejärel "Confirmed", seejärel "Completed":
+- **Kinnitus**: Tehingu allkirjastamiseks ja levitamiseks libistage nuppu "Saada".
+- **Järelmeetmed**: Wallet vahekaardil "Transact" kuvatakse tehing kui "Unconfirmed", seejärel "Confirmed", seejärel "Completed":
 
 
 
@@ -547,7 +547,7 @@ https://planb.network/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-
 
 
 
-- Kindlustage oma taastumisfraas** :
+- **Kindlustage oma taastumisfraas** :
  - Tutorial: Mnemonic lause salvestamine
 
 
@@ -559,7 +559,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Kasutage turvalist autentimist** :
+- Kasutage turvalist autentimist:
  - Aktiveerige **tugev PIN-kood** või **biomeetriline autentimine** (sõrmejälg või näotuvastus), et kaitsta juurdepääsu rakendusele.
  - Ärge kunagi jagage oma PIN-koodi või biomeetrilisi andmeid.
 
@@ -567,7 +567,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Kaitske oma privaatsust** :
+- **Kaitske oma privaatsust**:
  - generate uus Address iga vastuvõtuahela jaoks või Liquid, et piirata jälgimist Blockchain-l.
  - Aktiveerige funktsioonid "Täiustatud privaatsus", "Tor" ja "SPV".
  - Maksimaalse konfidentsiaalsuse tagamiseks ühendage oma Wallet oma Bitcoin-sõlme Electrumi serveri kaudu, selle asemel et kasutada avalikku sõlme
@@ -576,23 +576,23 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Valige oma vajadustele kõige paremini sobiv võrk** :
- - Onchain**: Eelistatud pikaajalise hoidmise või suure väärtusega tehingute puhul (tasud on summa suhtes tähtsusetud).
- - Liquid**: Kasutage kiireks ja odavaks ülekandeks koos täiustatud konfidentsiaalsusega.
- - Välk**: Valige väikeste summade puhul kiire ja soodne ülekanne.
+- Valige oma vajadustele kõige paremini sobiv **võrk**:
+- **Onchain**: Eelistatud pikaajalise hoidmise või suure väärtusega tehingute puhul (tasud on summa suhtes tähtsusetud).
+- **Liquid**: Kasutage kiireks ja odavaks ülekandeks koos täiustatud konfidentsiaalsusega.
+- **Välk**: Valige väikeste summade puhul kiire ja soodne ülekanne.
 
 
 
 
 
-- Kontrollige alati tarneaadresse** :
+- **Kontrollige alati tarneaadresse**:
  - Enne raha saatmist kontrollige Address hoolikalt. Vale Address-le saadetud raha on igaveseks kadunud. Kasutage kopeerimist/liitmist või QR-koodi skaneerimist, ärge kunagi kopeerige/muutke Address käsitsi.
 
 
 
 
 
-- Optimeerida kulusid** :
+- **Optimeerida kulusid**:
  - Valige ahelas toimuvate tehingute puhul sobivad tasud (aeglane, keskmine, kiire) vastavalt kiireloomulisusele ja võrgu ülekoormusele.
  - Kasutage Liquid või Lightning väikestes kogustes.
 
@@ -611,16 +611,16 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Ametlikud lingid:**
- - [Ametlik veebileht](https://blockstream.com/)**
- - [mobiilirakenduse tugi](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/)** : dokumentatsioon ja vestlus
- - [GitHub](https://github.com/Blockstream/green_android)**
+- **Ametlikud lingid:**
+- [Ametlik veebileht](https://blockstream.com/)
+- [mobiilirakenduse tugi](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/): dokumentatsioon ja vestlus
+- [GitHub](https://github.com/Blockstream/green_android)
 
 
 
 
 
-- Plokkide uurijad :**
+- Plokkide uurijad:
  - on chain : **[Mempool.space](https://Mempool.space/)**
  - Liquid : **[Blockstream Info](https://blockstream.info/Liquid)**
  - Välk: **[1ML (Lightning Network)](https://1ml.com/)**
@@ -629,7 +629,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Õppe- ja juhendmaterjalid:** **[Plan ₿ Network](https://planb.network/)** :
+- **Õppe- ja juhendmaterjalid:** **[Plan ₿ Network](https://planb.network/)** :
  - Teie taastumislause kindlustamine
 
 
@@ -641,8 +641,8 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Liquid Network** :
- - [Sõnastik](https://planb.network/fr/resources/glossary/liquid-network)**
+- **Liquid Network** :
+- [Sõnastik](https://planb.network/fr/resources/glossary/liquid-network)
 
 
 
@@ -652,8 +652,8 @@ https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
-- Lightning Network** :
- - [Sõnastik](https://planb.network/fr/resources/glossary/lightning-network)**
+- **Lightning Network**:
+- [Sõnastik](https://planb.network/fr/resources/glossary/lightning-network)
 
 
 

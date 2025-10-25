@@ -196,13 +196,13 @@ Menu ustawień Aegis grupuje kilka ważnych sekcji:
 
 
 
-- Wygląd**: Dostosuj motyw (jasny, ciemny, AMOLED), język i inne ustawienia wizualne
-- Zachowanie**: Konfiguruje zachowanie aplikacji podczas interakcji z listą wpisów
-- Pakiety ikon**: zarządzanie i importowanie pakietów ikon w celu dostosowania wyglądu i działania kont
-- Bezpieczeństwo**: Ustawienia szyfrowania, odblokowywania biometrycznego, automatycznego blokowania i innych parametrów bezpieczeństwa
-- Kopie zapasowe**: Konfiguracja automatycznego tworzenia kopii zapasowych w wybranej lokalizacji
-- Import i eksport**: Importuj kopie zapasowe z innych aplikacji uwierzytelniających i ręcznie eksportuj swój skarbiec Aegis
-- Dziennik audytu**: Szczegółowy dziennik wszystkich istotnych zdarzeń w aplikacji
+- **Wygląd**: Dostosuj motyw (jasny, ciemny, AMOLED), język i inne ustawienia wizualne
+- **Zachowanie**: Konfiguruje zachowanie aplikacji podczas interakcji z listą wpisów
+- **Pakiety ikon**: zarządzanie i importowanie pakietów ikon w celu dostosowania wyglądu i działania kont
+- **Bezpieczeństwo**: Ustawienia szyfrowania, odblokowywania biometrycznego, automatycznego blokowania i innych parametrów bezpieczeństwa
+- **Kopie zapasowe**: Konfiguracja automatycznego tworzenia kopii zapasowych w wybranej lokalizacji
+- **Import i eksport**: Importuj kopie zapasowe z innych aplikacji uwierzytelniających i ręcznie eksportuj swój skarbiec Aegis
+- **Dziennik audytu**: Szczegółowy dziennik wszystkich istotnych zdarzeń w aplikacji
 
 
 
@@ -228,9 +228,9 @@ W głównym oknie Aegis Interface naciśnij przycisk **+** w prawym dolnym rogu,
 
 
 
-- Skanowanie kodu QR**: Bezpośrednie skanowanie kodu QR wyświetlanego przez usługę internetową
-- Skanuj obraz**: Skanowanie kodu QR z obrazu zapisanego na urządzeniu
-- Wprowadź ręcznie**: Wprowadź informacje o koncie 2FA ręcznie
+- **Skanowanie kodu QR**: Bezpośrednie skanowanie kodu QR wyświetlanego przez usługę internetową
+- **Skanuj obraz**: Skanowanie kodu QR z obrazu zapisanego na urządzeniu
+- **Wprowadź ręcznie**: Wprowadź informacje o koncie 2FA ręcznie
 
 
 
@@ -252,8 +252,8 @@ Weźmy konkretny przykład aktywacji 2FA na Bitwarden, aby zilustrować ten proc
 
 
 
-- Logowanie i dostęp do ustawień**: Zaloguj się na swoje konto Bitwarden i przejdź do ustawień, zakładka "Bezpieczeństwo"
-- Sekcja dostawców**: Przejdź do sekcji "Dostawcy" i kliknij "Zarządzaj" w sekcji "Aplikacja Authenticator"
+- **Logowanie i dostęp do ustawień**: Zaloguj się na swoje konto Bitwarden i przejdź do ustawień, zakładka "Bezpieczeństwo"
+- **Sekcja dostawców**: Przejdź do sekcji "Dostawcy" i kliknij "Zarządzaj" w sekcji "Aplikacja Authenticator"
 
 
 
@@ -267,10 +267,10 @@ Weźmy konkretny przykład aktywacji 2FA na Bitwarden, aby zilustrować ten proc
 
 
 
-- Zeskanuj kod QR**: Otworzy się wyskakujące okienko z kodem QR i tajnym kluczem
-- W Aegis**: Użyj opcji "Skanuj kod QR", aby automatycznie przechwytywać informacje
-- Weryfikacja**: Wprowadź 6-cyfrowy kod wygenerowany przez Aegis w polu "Kod weryfikacyjny"
-- Aktywacja**: Kliknij "Włącz", aby sfinalizować aktywację
+- **Zeskanuj kod QR**: Otworzy się wyskakujące okienko z kodem QR i tajnym kluczem
+- **W Aegis**: Użyj opcji "Skanuj kod QR", aby automatycznie przechwytywać informacje
+- **Weryfikacja**: Wprowadź 6-cyfrowy kod wygenerowany przez Aegis w polu "Kod weryfikacyjny"
+- **Aktywacja**: Kliknij "Włącz", aby sfinalizować aktywację
 
 
 
@@ -292,12 +292,12 @@ Jeśli wolisz lub nie możesz zeskanować kodu QR, użyj opcji "Wprowadź ręczn
 
 
 
-- Nazwa** : Nazwa usługi (np. Bitwarden, GitHub...)
-- Emitent** : Emitent (często identyczny z nazwą)
-- Grupa**: Opcjonalnie, aby uporządkować konta według kategorii
-- Uwaga** : Osobiste uwagi dotyczące tego konta
-- Secret** : Tajny klucz dostarczony przez usługę (domyślnie zamaskowany)
-- Zaawansowane**: Zaawansowane parametry (algorytm, okres, liczba cyfr)
+- **Nazwa**: Nazwa usługi (np. Bitwarden, GitHub...)
+- **Emitent**: Emitent (często identyczny z nazwą)
+- **Grupa**: Opcjonalnie, aby uporządkować konta według kategorii
+- **Uwaga**: Osobiste uwagi dotyczące tego konta
+- **Secret**: Tajny klucz dostarczony przez usługę (domyślnie zamaskowany)
+- **Zaawansowane**: Zaawansowane parametry (algorytm, okres, liczba cyfr)
 
 
 
@@ -323,10 +323,10 @@ Po dodaniu kilku kont docenisz narzędzia organizacyjne Aegis:
 
 
 
-- Sortowanie niestandardowe:** Domyślnie konta są wyświetlane w kolejności alfabetycznej, ale można zmienić kolejność ręcznie
-- Grupy i kategorie:** Utwórz grupy, aby oddzielić konta osobiste od kont firmowych lub pogrupuj je według rodzaju usługi (bankowość, poczta e-mail, sieci społecznościowe itp.)
-- Niestandardowe ikony:** Aegis próbuje automatycznie przypisać odpowiednią ikonę, jeśli jest dostępna, w przeciwnym razie można wybrać jedną z wielu ogólnych ikon lub zaimportować obraz
-- Szybkie wyszukiwanie:** Pasek wyszukiwania u góry pozwala wpisać kilka liter, aby natychmiast odfiltrować pasujące wpisy
+- **Sortowanie niestandardowe:** Domyślnie konta są wyświetlane w kolejności alfabetycznej, ale można zmienić kolejność ręcznie
+- **Grupy i kategorie:** Utwórz grupy, aby oddzielić konta osobiste od kont firmowych lub pogrupuj je według rodzaju usługi (bankowość, poczta e-mail, sieci społecznościowe itp.)
+- **Niestandardowe ikony:** Aegis próbuje automatycznie przypisać odpowiednią ikonę, jeśli jest dostępna, w przeciwnym razie można wybrać jedną z wielu ogólnych ikon lub zaimportować obraz
+- **Szybkie wyszukiwanie:** Pasek wyszukiwania u góry pozwala wpisać kilka liter, aby natychmiast odfiltrować pasujące wpisy
 
 
 
@@ -423,15 +423,15 @@ Aegis oferuje kilka strategii tworzenia kopii zapasowych, aby zaspokoić różne
 
 
 
-- Zachowaj kilka wersji kopii zapasowych**, aby zapobiec uszkodzeniu
-- Regularnie testuj** swoje kopie zapasowe, próbując je przywrócić
-- Kody odzyskiwania dostarczone przez serwis należy przechowywać osobno**
-- Hasło główne** jest nadal wymagane nawet w przypadku kopii zapasowych w chmurze
-- Zabezpiecz swoje hasło główne**: używaj unikalnego, silnego hasła przechowywanego w menedżerze haseł
-- Aktualizuj swoją aplikację** za pomocą najnowszych poprawek zabezpieczeń
-- Aktywuj automatyczną blokadę** w ustawieniach, aby zabezpieczyć dostęp do aplikacji
-- Wyłącz zrzuty ekranu** (opcja domyślna), aby zapobiec przechwytywaniu kodów
-- Oszczędne korzystanie z danych biometrycznych**: preferowanie haseł dla krytycznych dostępów
+- Zachowaj kilka wersji kopii zapasowych, aby zapobiec uszkodzeniu
+- Regularnie testuj **swoje kopie zapasowe**, próbując je przywrócić
+- Kody odzyskiwania dostarczone przez serwis należy przechowywać osobno
+- **Hasło główne** jest nadal wymagane nawet w przypadku kopii zapasowych w chmurze
+- **Zabezpiecz swoje hasło główne**: używaj unikalnego, silnego hasła przechowywanego w menedżerze haseł
+- **Aktualizuj swoją aplikację** za pomocą najnowszych poprawek zabezpieczeń
+- Aktywuj **automatyczną blokadę** w ustawieniach, aby zabezpieczyć dostęp do aplikacji
+- Wyłącz **zrzuty ekranu** (opcja domyślna), aby zapobiec przechwytywaniu kodów
+- **Oszczędne korzystanie z danych biometrycznych**: preferowanie haseł dla krytycznych dostępów
 
 
 
@@ -534,9 +534,9 @@ Bezpieczeństwo Twoich kont online nie musi zależeć od dobrej woli firm komerc
 
 
 
-- Oficjalna strona internetowa**: [getaegis.app](https://getaegis.app/) - Prezentacja i pobieranie aplikacji
-- Kod źródłowy**: [github.com/beemdevelopment/Aegis](https://github.com/beemdevelopment/Aegis) - Oficjalne repozytorium GitHub
-- F-Droid** : [f-droid.org/packages/com.beemdevelopment.aegis](https://f-droid.org/packages/com.beemdevelopment.aegis/) - Instalacja przez darmowy sklep
+- **Oficjalna strona internetowa**: [getaegis.app](https://getaegis.app/) - Prezentacja i pobieranie aplikacji
+- **Kod źródłowy**: [github.com/beemdevelopment/Aegis](https://github.com/beemdevelopment/Aegis) - Oficjalne repozytorium GitHub
+- **F-Droid**: [f-droid.org/packages/com.beemdevelopment.aegis](https://f-droid.org/packages/com.beemdevelopment.aegis/) - Instalacja przez darmowy sklep
 
 
 
@@ -545,6 +545,6 @@ Bezpieczeństwo Twoich kont online nie musi zależeć od dobrej woli firm komerc
 
 
 
-- Dokumentacja Vault**: [Vault design](https://github.com/beemdevelopment/Aegis/blob/master/docs/vault.md) - Opis techniczny szyfrowania i bezpiecznej architektury
-- Oficjalne FAQ**: [getaegis.app/#faq](https://getaegis.app/#faq) - Odpowiedzi na najczęściej zadawane pytania
-- Wiki projektu**: [github.com/beemdevelopment/Aegis/wiki](https://github.com/beemdevelopment/Aegis/wiki) - Pełna dokumentacja użytkownika
+- **Dokumentacja Vault**: [Vault design](https://github.com/beemdevelopment/Aegis/blob/master/docs/vault.md) - Opis techniczny szyfrowania i bezpiecznej architektury
+- **Oficjalne FAQ**: [getaegis.app/#faq](https://getaegis.app/#faq) - Odpowiedzi na najczęściej zadawane pytania
+- **Wiki projektu**: [github.com/beemdevelopment/Aegis/wiki](https://github.com/beemdevelopment/Aegis/wiki) - Pełna dokumentacja użytkownika

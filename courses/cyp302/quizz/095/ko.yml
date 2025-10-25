@@ -1,0 +1,9 @@
+question: MAC을 통해 Alice은 어떻게 Bob이 보낸 메시지인지 확인할 수 있나요?
+answer: 생성된 태그가 Bob에서 전송한 태그와 일치하는지 확인합니다
+wrong_answers:
+  - 메시지를 해독하여 읽을 수 있는지 확인합니다
+  - 메시지의 크기와 태그의 크기를 비교하여
+  - 발신자의 IP Address 확인을 통해
+explanation: |
+  Alice는 공유 비밀 키를 사용하여 수신된 메시지의 태그를 generate에 전송합니다. 이 태그가 Bob이 보낸 태그와 일치하면 메시지가 진본이고 온전하다는 것을 알 수 있습니다.
+reviewed: false

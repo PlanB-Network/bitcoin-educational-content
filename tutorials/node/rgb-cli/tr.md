@@ -318,8 +318,8 @@ Bir transfer gerçekleştirmek için, `Tapret` veya `Opret` taahhütlerini yöne
 
 
 
-- Alice** (Invoice'in ihraççısı) ;
-- Bob** (Invoice'u alan ve uygulayan kişi).
+- **Alice** (Invoice'in ihraççısı) ;
+- **Bob** (Invoice'u alan ve uygulayan kişi).
 
 
 Diğer ekosistemlerin aksine, bir RGB Invoice ödeme kavramıyla sınırlı değildir. Contract ile bağlantılı herhangi bir talebi içerebilir: bir anahtarı iptal etme, oylama, bir NFT üzerinde gravür (*gravür*) oluşturma vb. İlgili işlem Contract Interface'de tanımlanabilir. İlgili işlem Contract Interface'de açıklanabilir.

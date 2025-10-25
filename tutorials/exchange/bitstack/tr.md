@@ -8,7 +8,7 @@ description: Bitstack uygulamasında bitcoin satın alma ve satma
 Bitstack, AMF tarafından PSAN olarak düzenlenen bir Fransız Bitcoin yatırım platformudur. Bitcoin'ın kolay alım satımı için Android ve iOS'ta kullanılabilen bir uygulama sunmaktadır.
 
 
-Bitstack'i diğerlerinden ayıran şey, kullanıcının banka hesabını senkronize ederek günlük harcamalar sırasında borçlandırılan tutar ile bir sonraki yüksek euro arasındaki farkı doğrudan bitcoin'e dönüştüren otomatik yuvarlama sistemidir. Bu yöntem, *Dolar Maliyet Ortalaması* (DCA) uygulamasını kolaylaştırarak kademeli ve acısız bir satoshis birikimi sağlar. Bu orijinal özelliğe ek olarak, platform ayrıca otomatik yatırımların yanı sıra spot alım ve satım ile klasik bir DCA sistemi de sunmaktadır.
+Bitstack’i diğerlerinden ayıran şey, kullanıcının banka hesabını senkronize ederek günlük harcamalar sırasında çekilen tutar ile bir üst euro arasındaki farkı doğrudan bitcoine dönüştüren otomatik yuvarlama sistemidir. Bu yöntem, *Dollar Cost Averaging* (DCA) stratejisinin uygulanmasını kolaylaştırarak, satoshilerin kademeli ve acısız bir şekilde birikmesini sağlar. Bu özgün özelliğin yanı sıra platform, otomatik yatırımlarla klasik bir DCA sistemi ile tek seferlik alım ve satımlar da sunmaktadır.
 
 
 ![Image](assets/fr/01.webp)
@@ -160,7 +160,7 @@ Giriş bölümünde de belirtildiği gibi, Bitstack Bitcoin'ya yatırım yapmak 
 - Harcamalarda otomatik yuvarlama kullanımı.
 
 
-### Nakit ile satın alma
+### Tek seferlik satın alma yapmak
 
 
 Piyasa fiyatından tek seferlik bitcoin satın almak için "*Satın Al*" seçeneğine tıklamanız yeterlidir.
@@ -184,7 +184,7 @@ Piyasa fiyatından tek seferlik bitcoin satın almak için "*Satın Al*" seçene
 ### DCA kurulumu
 
 
-Dolar Maliyet Ortalaması* (DCA), Bitcoin biriktirmek için cazip bir yatırım stratejisidir ve aynı zamanda volatilite ile ilişkili riskleri azaltır. Fiyattan bağımsız olarak düzenli olarak sabit bir miktar satın alarak, satın alma maliyetinizi düzeltebilir ve düşünmeden karar vermekten kaçınabilirsiniz. DCA, bir fırsatı kaçırma korkusu veya fiyat düşüşü durumunda panik gibi davranışsal önyargıları azaltmaya yardımcı olur ve böylece Bitcoin birikimlerinizi sakin ve disiplinli bir şekilde yönetmenizi sağlar.
+Dolar Maliyet Ortalaması (DCA), Bitcoin biriktirmek için cazip bir yatırım stratejisidir ve aynı zamanda volatilite ile ilişkili riskleri azaltır. Fiyattan bağımsız olarak düzenli olarak sabit bir miktar satın alarak, satın alma maliyetinizi düzeltebilir ve düşünmeden karar vermekten kaçınabilirsiniz. DCA, bir fırsatı kaçırma korkusu veya fiyat düşüşü durumunda panik gibi davranışsal önyargıları azaltmaya yardımcı olur ve böylece Bitcoin birikimlerinizi sakin ve disiplinli bir şekilde yönetmenizi sağlar.
 
 
 Bitstack'te yinelenen bir satın alma (DCA) ayarlamak için, ana sayfadaki "*Tasarruflar*" bölümüne gidin ve "*Yinelenen*" seçeneğini seçin. Ardından "*Devam*" tuşuna basın.

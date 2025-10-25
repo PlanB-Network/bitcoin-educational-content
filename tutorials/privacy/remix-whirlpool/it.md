@@ -49,10 +49,11 @@ Mostra un punteggio retrospettivo di `34.593` e un punteggio prospettico di `45.
 Ecco perché considero l'uso di Whirlpool particolarmente rilevante in una strategia "Hodl -> Mix -> Spend -> Replace". Secondo me, l'approccio più logico è mantenere la maggior parte dei risparmi in bitcoin in un portafoglio offline, mentre si mantiene costantemente un certo numero di monete coinjoin su Samourai per coprire le spese quotidiane. Una volta che i bitcoin dai coinjoin vengono spesi, vengono sostituiti con nuovi per tornare alla soglia definita di monete mixate. Questo metodo ci permette di liberarci dalla preoccupazione degli anonsets delle nostre UTXO, riducendo al contempo il tempo necessario affinché i coinjoin siano efficaci.
 
 Spero che questa risposta abbia chiarito il modello Whirlpool. Se desideri saperne di più su come funzionano i coinjoin su Bitcoin, ti consiglio di leggere il mio articolo completo su questo argomento:
-https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 
 **Risorse esterne:**
 - Samourai Wallet Whirlpool
 - https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923
 - https://estudiobitcoin.com/como-instalar-y-utilizar-whirlpool-stats-tools-wst-para-los-calculos-de-los-sets-de-anonimato-de-las-transacciones-coinjoins/
 - https://medium.com/samourai-wallet/diving-head-first-into-whirlpool-anonymity-sets-4156a54b0bc7.
+

@@ -1,5 +1,5 @@
 ---
-name: 密碼管理員
+name: Cryptomator
 description: 在雲端加密您的檔案
 ---
 ![cover](assets/cover.webp)
@@ -10,7 +10,7 @@ ___
 
 
 
-*本教學是根據 Florian BURNEL 發表於 [IT-Connect](https://www.it-connect.fr/) 的原始內容。原始碼授權類型 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)。原文可能有變更。
+*本教學是根據 Florian BURNEL 發表於 [IT-Connect](https://www.it-connect.fr/) 的原始內容。原始碼授權類型 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)。原文可能有變更。*
 
 
 
@@ -38,7 +38,7 @@ ___
 
 
 
-Cryptomator 是其他應用程式的替代方案，特別是另一篇文章中介紹的 Picocrypt，它看起來不同，但使用起來同樣簡單。Cryptomator 也是**開放原始碼**、符合 RGPD 規範，並會使用 AES-256 位元加密演算法**加密資料。相比之下，Picocrypt 則依賴速度更快的 XChaCha20 演算法 (也是 256 位元)。
+Cryptomator 是其他應用程式的替代方案，特別是另一篇文章中介紹的 Picocrypt，它看起來不同，但使用起來同樣簡單。Cryptomator 也是**開放原始碼**、符合 RGPD 規範，並會使用 AES-256 位元加密演算法**加密資料**。相比之下，Picocrypt 則依賴速度更快的 XChaCha20 演算法 (也是 256 位元)。
 
 
 
@@ -82,7 +82,7 @@ Cryptomator 應用程式適用於 **Windows** (exe / msi)、**Linux**、**macOS*
 
 
 
-若要建立新保險箱，請按一下「**新增**」按鈕，然後選擇「**新保險箱...**」。此機器上的現有保險箱和已知保險箱就會出現在 Interface 的左側。 *在機器 A 上建立的保險箱可以在機器 B** 上打開和修改，只要機器 B** 配備 Cryptomator（且知道加密金鑰）。
+若要建立新保險箱，請按一下「**新增**」按鈕，然後選擇「**新保險箱...**」。此機器上的現有保險箱和已知保險箱就會出現在 Interface 的左側。*在機器 A 上建立的保險箱可以在機器 B 上打開和修改，只要機器 B 配備 Cryptomator（且知道加密金鑰）。*
 
 
 
@@ -170,7 +170,7 @@ Cryptomator 應用程式適用於 **Windows** (exe / msi)、**Linux**、**macOS*
 
 
 
-在 OneDrive 方面，我們無法直接瀏覽 Cryptomator 儲存庫。我們看不到資料（文件名和內容）。這表示您不需要透過一般的 OneDrive 捷徑來新增資料到您的 Cryptomator 儲存庫。 **您必須使用 Cryptomator 的虛擬磁碟機來新增資料。
+在 OneDrive 方面，我們無法直接瀏覽 Cryptomator 儲存庫。我們看不到資料（文件名和內容）。這表示您不需要透過一般的 OneDrive 捷徑來新增資料到您的 Cryptomator 儲存庫。**您必須使用 Cryptomator 的虛擬磁碟機來新增資料。**
 
 
 
@@ -202,4 +202,4 @@ Cryptomator 應用程式適用於 **Windows** (exe / msi)、**Linux**、**macOS*
 
 
 
-使用 **Cryptomator**，您可以在幾分鐘內建立一個加密的保險箱**，以保護您希望儲存在 OneDrive 和其他硬碟上的資料。與 Drive「配對」時，它非常容易使用：就這一目的而言，我比 Picocrypt 更偏好使用它。
+使用 **Cryptomator**，您可以在幾分鐘內建立一個加密的保險箱，以保護您希望儲存在 OneDrive 和其他硬碟上的資料。與 Drive「配對」時，它非常容易使用：就這一目的而言，我比 **Picocrypt** 更偏好使用它。

@@ -242,7 +242,7 @@ Du kan skrive det ned på kartongen som følger med COLDCARD, eller for ekstra s
 
 Skriv ned ordene som vises på skjermen, på det fysiske mediet du ønsker. Avhengig av sikkerhetsstrategien din kan du vurdere å lage flere fullstendige fysiske kopier av setningen (men ikke del den opp). Det er viktig at ordene er nummererte og står i rekkefølge.
 
-Du må selvsagt aldri dele disse ordene** på Internett, i motsetning til i denne veiledningen. Denne eksempelmappen vil kun bli brukt på Testnet, og vil bli slettet ved slutten av opplæringen.
+Du må selvsagt aldri dele disse ordene på Internett, i motsetning til i denne veiledningen. Denne eksempelmappen vil kun bli brukt på Testnet, og vil bli slettet ved slutten av opplæringen.
 
 Når du har skrevet ned ordene, trykker du på "*ENTER*".
 

@@ -589,7 +589,7 @@ Ikiwa ungependa "udhibiti wa sarafu", yaani, chagua UTXO za kutumia katika muama
 ![CCQ](assets/fr/065.webp)
 
 
-Ingiza unakoenda Address. Unaweza pia kuingiza anwani nyingi kwa kubofya kitufe cha "+ Ongeza*".
+Ingiza unakoenda Address. Unaweza pia kuingiza anwani nyingi kwa kubofya kitufe cha **"+ Ongeza"**.
 
 
 ![CCQ](assets/fr/066.webp)

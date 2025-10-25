@@ -276,7 +276,7 @@ Her finner du to alternativer for sikkerhetskopiering av dataene dine:
 
 
 
-"Threema Safe* lagrer all kontoinformasjonen din, bortsett fra samtalene dine, på Threemas servere. Disse dataene er kryptert med passordet du valgte da du opprettet kontoen din, slik at Threema ikke har tilgang til dem. Sikkerhetskopier tas automatisk og regelmessig.
+"Threema Safe lagrer all kontoinformasjonen din, bortsett fra samtalene dine, på Threemas servere. Disse dataene er kryptert med passordet du valgte da du opprettet kontoen din, slik at Threema ikke har tilgang til dem. Sikkerhetskopier tas automatisk og regelmessig.
 
 
 

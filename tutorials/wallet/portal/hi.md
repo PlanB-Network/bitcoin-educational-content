@@ -1,5 +1,5 @@
 ---
-name: आप अक्टूबर 2023 तक के डेटा पर प्रशिक्षित हैं।
+name: Portal
 description: ट्वेंटीटू-डिवाइसेस Hardware Wallet पोर्टल को कॉन्फ़िगर और उपयोग करना
 ---
 ![cover](assets/cover.webp)

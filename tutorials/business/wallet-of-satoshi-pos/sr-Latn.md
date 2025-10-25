@@ -1,5 +1,5 @@
 ---
-name: Wallet od Satoshi - Point of Sale
+name: Wallet of Satoshi - POS
 description: Usvojite Bitcoin putem Lightning Network u svom poslovanju.
 ---
 

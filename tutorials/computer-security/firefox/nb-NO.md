@@ -36,10 +36,10 @@ Men å velge Firefox er bare det første steget. Som standard krever selv Firefo
 
 
 
-- Fri og åpen kildekode** (Gecko-motor): reviderbar, transparent kode
-- Ideell organisasjon**: Mozilla Foundation, oppdrag av allmenn interesse
-- Innebygd innebygd beskyttelse**: Enhanced Tracking Protection (ETP), Total Cookie Protection (TCP), State Partitioning, kun HTTPS-modus, DNS over HTTPS (DoH)
-- Avansert tilpasning**: I motsetning til Chrome lar Firefox deg endre oppførselen i dybden
+- **Fri og åpen kildekode** (Gecko-motor): reviderbar, transparent kode
+- **Ideell organisasjon**: Mozilla Foundation, oppdrag av allmenn interesse
+- **Innebygd beskyttelse**: Enhanced Tracking Protection (ETP), Total Cookie Protection (TCP), State Partitioning, kun HTTPS-modus, DNS over HTTPS (DoH)
+- **Avansert tilpasning**: I motsetning til Chrome lar Firefox deg endre oppførselen i dybden
 
 
 
@@ -49,9 +49,9 @@ Men å velge Firefox er bare det første steget. Som standard krever selv Firefo
 
 
 
-- Det finnes ingen universaloppskrift**: Jo mer du modifiserer, desto mer risikerer du å skille deg ut (fingeravtrykk). Målet er å være bedre beskyttet uten å skille seg ut fra mengden.
-- Trinnvis fremgang**: Endre en innstilling, test de vanlige nettstedene dine, og fortsett deretter. Det er ikke nødvendig å endre alt på én gang.
-- Personlig balanse**: Finn ditt kompromiss mellom personvern og brukervennlighet.
+- Det finnes ingen universaloppskrift: Jo mer du modifiserer, desto mer risikerer du å skille deg ut (fingeravtrykk). Målet er å være bedre beskyttet uten å skille seg ut fra mengden.
+- **Trinnvis fremgang**: Endre en innstilling, test de vanlige nettstedene dine, og fortsett deretter. Det er ikke nødvendig å endre alt på én gang.
+- **Personlig balanse**: Finn ditt kompromiss mellom personvern og brukervennlighet.
 
 
 
@@ -69,9 +69,9 @@ Men å velge Firefox er bare det første steget. Som standard krever selv Firefo
 
 
 
-- Windows**: Last ned installasjonsprogrammet `.exe`, dobbeltklikk og følg installasjonsveiviseren
-- macOS**: Last ned .dmg-filen, åpne den og dra Firefox inn i Programmer-mappen
-- Linux**: flere alternativer tilgjengelig - pakke `.deb`/`.rpm`, Flatpak (Flathub), Snap, eller via pakkebehandler (apt, dnf, pacman). Foretrekker offisielle Mozilla-kilder.
+- **Windows**: Last ned installasjonsprogrammet `.exe`, dobbeltklikk og følg installasjonsveiviseren
+- **macOS**: Last ned .dmg-filen, åpne den og dra Firefox inn i Programmer-mappen
+- **Linux**: flere alternativer tilgjengelig - pakke `.deb`/`.rpm`, Flatpak (Flathub), Snap, eller via pakkebehandler (apt, dnf, pacman). Foretrekker offisielle Mozilla-kilder.
 
 
 
@@ -106,9 +106,9 @@ Men å velge Firefox er bare det første steget. Som standard krever selv Firefo
 
 
 
-- Isolering av nettsteder (Fission)**: i progressiv distribusjon. Denne funksjonen kjører hvert nettsted i en separat prosess for å forhindre at en ondsinnet fane får tilgang til dataene på en annen. Sjekk statusen via `about:support` (søk etter "Fission"). Hvis den ikke er aktivert, kan du aktivere den manuelt i `about:config` med `fission.autostart = true`.
-- Total Cookie Protection (TCP)**: aktiv som standard. Informasjonskapsler og annen lagring er begrenset til førstepartsnettstedet (én "krukke" per nettsted), noe som nøytraliserer sporing på tvers av nettsteder. Midlertidige unntak gjøres via API-et for lagringstilgang når det er nødvendig (integrerte påloggingsknapper).
-- Beskyttelse mot sporing av avvisning/omdirigering**: Firefox oppdager og rydder automatisk opp i informasjonskapsler som etterlates av avvisningssider (lenker som viderekobler deg via en sporingsenhet før målet), og reduserer denne sporingskanalen uten at du trenger å gjøre noe.
+- **Isolering av nettsteder (Fission)**: i progressiv distribusjon. Denne funksjonen kjører hvert nettsted i en separat prosess for å forhindre at en ondsinnet fane får tilgang til dataene på en annen. Sjekk statusen via `about:support` (søk etter "Fission"). Hvis den ikke er aktivert, kan du aktivere den manuelt i `about:config` med `fission.autostart = true`.
+- **Total Cookie Protection (TCP)**: aktiv som standard. Informasjonskapsler og annen lagring er begrenset til førstepartsnettstedet (én "krukke" per nettsted), noe som nøytraliserer sporing på tvers av nettsteder. Midlertidige unntak gjøres via API-et for lagringstilgang når det er nødvendig (integrerte påloggingsknapper).
+- **Beskyttelse mot sporing av avvisning/omdirigering**: Firefox oppdager og rydder automatisk opp i informasjonskapsler som etterlates av avvisningssider (lenker som viderekobler deg via en sporingsenhet før målet), og reduserer denne sporingskanalen uten at du trenger å gjøre noe.
 
 
 
@@ -146,13 +146,13 @@ Her er de ulike sikkerhetsnivåene for ETP:
 
 
 
-- Standard** (balansert, maksimal kompatibilitet)
+- **Standard** (balansert, maksimal kompatibilitet)
   - Blokkerer: sosiale sporere, informasjonskapsler på tvers av nettsteder (alle vinduer), sporing av innhold i privat surfing, utvinnere av kryptovaluta, fingeravtrykksdetektorer.
   - Inkluderer **Total Cookie Protection** (TCP): én krukke per nettsted.
-- Strict** (anbefalt av hensyn til konfidensialitet)
+- **Strict** (anbefalt av hensyn til konfidensialitet)
   - Blokkerer også sporingsinnhold i alle vinduer + kjente og mistenkte fingeravtrykk.
   - Kan ødelegge noen nettsteder; bruk 🛡️ shield for et lokalt unntak.
-- Tilpasset** (avansert)
+- **Tilpasset** (avansert)
   - Finjustering: informasjonskapsler, sporing av innhold, mindreårige, fingeravtrykk (kjent/mistenkt).
 
 
@@ -161,7 +161,7 @@ Her er de ulike sikkerhetsnivåene for ETP:
 
 
 
-**Cookies og nettstedsdata
+**Cookies og nettstedsdata**
 
 
 
@@ -176,9 +176,9 @@ Her er de ulike sikkerhetsnivåene for ETP:
 
 
 - Deaktiver **automatisk utfylling** (ID-er, adresser, kort). Bruk en passordbehandler i stedet.
-- Søk**: deaktiver **"Vis søkeforslag"**.
-- Address bar**: kutt **"Sponsede forslag"** og **"Kontekstuelle forslag"**.
-- Hjem**: Deaktiver **Pocket** og **sponset innhold**.
+- **Søk**: deaktiver **"Vis søkeforslag"**.
+- **Address bar**: kutt **"Sponsede forslag"** og **"Kontekstuelle forslag"**.
+- **Hjem**: Deaktiver **Pocket** og **sponset innhold**.
 
 
 
@@ -186,7 +186,7 @@ Her er de ulike sikkerhetsnivåene for ETP:
 
 
 
-**Kun https
+**Kun https**
 
 
 
@@ -198,14 +198,14 @@ Her er de ulike sikkerhetsnivåene for ETP:
 
 
 
-**Telemetri og måling av reklame
+**Telemetri og måling av reklame**
 
 
 
 
 - I "Datainnsamling av Firefox", **hev avmerkingen for alle**.
 - Deaktiver **"Personvernvennlige annonseringstiltak"** (PPA).
-- Safe Browsing**: Hold det aktivert (anbefalt). Firefox sjekker nettsteder mot trussellister via hashede spørringer og lokale kontroller, noe som beskytter mot phishing og skadelig programvare med minimal innvirkning på personvernet.
+- **Safe Browsing**: Hold det aktivert (anbefalt). Firefox sjekker nettsteder mot trussellister via hashede spørringer og lokale kontroller, noe som beskytter mot phishing og skadelig programvare med minimal innvirkning på personvernet.
 
 
 
@@ -218,7 +218,7 @@ Her er de ulike sikkerhetsnivåene for ETP:
 
 
 
-**Søkemotor
+**Søkemotor**
 
 
 
@@ -245,10 +245,10 @@ Her er de ulike sikkerhetsnivåene for ETP:
 
 
 
-- uBlock Origin**: blokkerer annonser og sporing av strøm, lettvekt.
-- Privacy Badger**: lærer seg å blokkere det som følger deg; sender Do Not Track / GPC.
-- ClearURLs** (valgfritt): Firefox (ETP Strict) og uBO rydder allerede opp mye; behold den hvis du fremdeles ser "skitne" nettadresser (utm, fbclid).
-- Beholdere med flere Firefox-kontoer**: **isolerer informasjonskapsler/økter og lagring per container; parallelle multikontoer; mindre sporing på tvers av nettsteder**. Offisiell utvidelse: `https://addons.mozilla.org/fr/firefox/addon/multi-account-containers/`.
+- **uBlock Origin**: blokkerer annonser og sporing av strøm, lettvekt.
+- **Privacy Badger**: lærer seg å blokkere det som følger deg; sender Do Not Track / GPC.
+- **ClearURLs** (valgfritt): Firefox (ETP Strict) og uBO rydder allerede opp mye; behold den hvis du fremdeles ser "skitne" nettadresser (utm, fbclid).
+- **Beholdere med flere Firefox-kontoer**: isolerer informasjonskapsler/økter og lagring per container; parallelle multikontoer; mindre sporing på tvers av nettsteder. Offisiell utvidelse: `https://addons.mozilla.org/fr/firefox/addon/multi-account-containers/`.
 
 
 
@@ -256,12 +256,12 @@ Her er de ulike sikkerhetsnivåene for ETP:
 
 
 
-*passord og 2FA** *Passord og 2FA
+**passord og 2FA** *Passord og 2FA*
 
 
 
 
-- Bruk en dedikert passordbehandler** (Bitwarden, KeePassXC). **Unngå** å lagre passord i nettleseren. **Aktiver 2FA** der det er mulig.
+- Bruk en dedikert **passordbehandler** (Bitwarden, KeePassXC). **Unngå** å lagre passord i nettleseren. **Aktiver 2FA** der det er mulig.
 
 
 
@@ -278,11 +278,11 @@ Mål: Oppdele aktiviteter og redusere nettverkslekkasje.
 
 
 
-- Standard status**: Automatisk aktivert i enkelte regioner (USA, Canada, Russland, Ukraina). Andre steder kreves manuell aktivering.
-- Konfigurasjon**: Innstillinger → Generelt → Nettverksinnstillinger → **Aktiver DoH** → **Cloudflare** eller **Quad9** → **Maksimal beskyttelse**.
-- Maksimal beskyttelse = kun TRR** (ingen tilbakefall til system-DNS). Hvis et bedrifts-/hotellnettverk blokkerer, bytter du tilbake til **Standard** eller deaktiverer DoH.
-- Redundans**: Hvis du allerede bruker et pålitelig VPN med egen sikker DNS, kan DoH være overflødig.
-- Verifikasjonstest**: `https://www.dnsleaktest.com/` skal bare vise den valgte DoH-leverandøren.
+- **Standard status**: Automatisk aktivert i enkelte regioner (USA, Canada, Russland, Ukraina). Andre steder kreves manuell aktivering.
+- **Konfigurasjon**: Innstillinger → Generelt → Nettverksinnstillinger → **Aktiver DoH** → **Cloudflare** eller **Quad9** → **Maksimal beskyttelse**.
+- Maksimal beskyttelse = kun TRR (ingen tilbakefall til system-DNS). Hvis et bedrifts-/hotellnettverk blokkerer, bytter du tilbake til **Standard** eller deaktiverer DoH.
+- **Redundans**: Hvis du allerede bruker et pålitelig VPN med egen sikker DNS, kan DoH være overflødig.
+- **Verifikasjonstest**: `https://www.dnsleaktest.com/` skal bare vise den valgte DoH-leverandøren.
 
 
 
@@ -290,20 +290,20 @@ Mål: Oppdele aktiviteter og redusere nettverkslekkasje.
 
 
 
-**Oppdeling med containere og profiler
+**Oppdeling med containere og profiler**
 
 
 
 
-- Containere med flere kontoer**: opprett mellomrom (personlig, jobb, økonomi, sosiale nettverk, shopping, engangsbruk). Konfigurer ** "Åpne alltid i denne beholderen"** for dine tilbakevendende nettsteder. Offisiell utvidelse: `https://addons.mozilla.org/fr/firefox/addon/multi-account-containers/`.
+- **Containere med flere kontoer**: opprett mellomrom (personlig, jobb, økonomi, sosiale nettverk, shopping, engangsbruk). Konfigurer **"Åpne alltid i denne beholderen"** for dine tilbakevendende nettsteder. Offisiell utvidelse: `https://addons.mozilla.org/fr/firefox/addon/multi-account-containers/`.
 - Hvorfor bruke dem?
-  - Sterk isolering** av informasjonskapsler/økter/lagring etter plass.
-  - Mindre sporing på tvers av nettsteder**: Begrens gigantene (Facebook, Google).
-  - Flere kontoer** samtidig på samme tjeneste.
-  - Mindre risiko for CSRF/XSS** mellom segmenterte identiteter.
+- **Sterk isolering** av informasjonskapsler/økter/lagring etter plass.
+- **Mindre sporing på tvers av nettsteder**: Begrens gigantene (Facebook, Google).
+- Flere kontoer samtidig på samme tjeneste.
+- Mindre risiko for **CSRF/XSS** mellom segmenterte identiteter.
   - Tips: I det minste dedikerte beholdere for sosiale nettverk/Google, arbeid og økonomi.
-- Facebook Container** (valgfritt): en forenklet versjon dedikert til FB/Instagram.
-- Separate profiler**: via `about:profiles` (hovedprofil, minimal "ultra-sikker" profil, testprofil). Total oppdeling av data og utvidelser.
+- **Facebook Container** (valgfritt): en forenklet versjon dedikert til FB/Instagram.
+- Separate profiler: via `about:profiles` (hovedprofil, minimal **"ultra-sikker"** profil, testprofil). Total oppdeling av data og utvidelser.
 
 
 
@@ -312,8 +312,8 @@ Mål: Oppdele aktiviteter og redusere nettverkslekkasje.
 
 
 
-- Cookie AutoDelete**: sletter informasjonskapslene til et nettsted så snart fanen lukkes (nyttig hvis Firefox er åpen i lang tid).
-- LocalCDN**: serverer aktuelle biblioteker lokalt (reduserer anrop til Google/Microsoft). Delvis kompatibilitet.
+- **Cookie AutoDelete**: sletter informasjonskapslene til et nettsted så snart fanen lukkes (nyttig hvis Firefox er åpen i lang tid).
+- **LocalCDN**: serverer aktuelle biblioteker lokalt (reduserer anrop til Google/Microsoft). Delvis kompatibilitet.
 
 
 
@@ -322,7 +322,7 @@ Mål: Oppdele aktiviteter og redusere nettverkslekkasje.
 
 
 
-- Firefox Android + uBlock Origin**: lignende beskyttelse når du er på farten.
+- **Firefox Android + uBlock Origin**: lignende beskyttelse når du er på farten.
 
 
 
@@ -542,11 +542,11 @@ Beste praksis
 
 
 
-- Oppdateringer**: Firefox og utvidelser er oppdatert.
-- Forlengelser**: rimelige og pålitelige; se opp for "tvilsomme" innløsninger.
-- Nedlastinger**: forsiktighet; test sensitive filer på VirusTotal.
-- Passord**: **dedikert manager** (Bitwarden, KeePassXC); **2FA** aktivert; unngå lagring i nettleseren.
-- Hygiene**: Begrens Google/Facebook til containere; lukk/åpne regelmessig for å "tilbakestille" konteksten.
+- **Oppdateringer**: Firefox og utvidelser er oppdatert.
+- **Forlengelser**: rimelige og pålitelige; se opp for "tvilsomme" innløsninger.
+- **Nedlastinger**: forsiktighet; test sensitive filer på VirusTotal.
+- **Passord**: **dedikert manager** (Bitwarden, KeePassXC); **2FA** aktivert; unngå lagring i nettleseren.
+- **Hygiene**: Begrens Google/Facebook til containere; lukk/åpne regelmessig for å "tilbakestille" konteksten.
 
 
 
@@ -559,7 +559,7 @@ Beste praksis
 - En herdet nettleser ≠ nettverksanonymitet: Uten **VPN** forblir IP-en din synlig; selv med den er korrelasjon fortsatt mulig.
 - Hvis du modifiserer for mye, kan det gjøre deg **unik**. **RFP** standardiserer; randomiseringsverktøy (f.eks. Chameleon) kan ... gjøre deg unik. Test, sammenlign, juster.
 - Alternativer/supplementer:
- - Tor Browser: nettverksanonymitet via Tor; tregere. Se vår komplette installasjons- og konfigurasjonsveiledning**:
+- Tor Browser: nettverksanonymitet via Tor; tregere. Se vår komplette installasjons- og konfigurasjonsveiledning:
 
 
 
@@ -567,7 +567,7 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 
 
- - Mullvad Browser: "Tor uten Tor", som kan kombineres med VPN; standardisert fotavtrykk. Finn ut hvordan du installerer den i vår dedikerte veiledning**:
+- Mullvad Browser: "Tor uten Tor", som kan kombineres med VPN; standardisert fotavtrykk. Finn ut hvordan du installerer den i vår dedikerte **veiledning**:
 
 
 
@@ -591,7 +591,7 @@ Ved å følge denne trinnvise veiledningen har du forvandlet Firefox til et ekte
 
 
 
-**Husk: konfidensialitet er aldri en selvfølge. Test beskyttelsen regelmessig, oppdater innstillingene, og ikke nøl med å justere konfigurasjonen etter hvert som vanene dine endres. Din anonymitet på nettet avhenger like mye av verktøyene dine som av hvordan du bruker dem.
+**Husk: konfidensialitet er aldri en selvfølge. Test beskyttelsen regelmessig, oppdater innstillingene, og ikke nøl med å justere konfigurasjonen etter hvert som vanene dine endres. Din anonymitet på nettet avhenger like mye av verktøyene dine som av hvordan du bruker dem.**
 
 
 
@@ -604,7 +604,7 @@ Ved å følge denne trinnvise veiledningen har du forvandlet Firefox til et ekte
 
 
 
-- SCU 202 - Forbedre din personlige digitale sikkerhet: For å lære mer om de digitale sikkerhetskonseptene som dekkes i denne opplæringen**
+- SCU 202 - Forbedre din personlige digitale sikkerhet: For å lære mer om de digitale sikkerhetskonseptene som dekkes i denne opplæringen
 
 
 
@@ -637,8 +637,8 @@ https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 
 - [PrivacyGuides - Desktop-nettlesere](https://www.privacyguides.org/en/desktop-browsers/): Anbefalinger og sammenligninger av nettlesere
-- Reddit**: r/firefox, r/privacy for tilbakemeldinger og støtte
-- PrivacyGuides-forum**: grundige tekniske diskusjoner
+- **Reddit**: r/firefox, r/privacy for tilbakemeldinger og støtte
+- **PrivacyGuides-forum**: grundige tekniske diskusjoner
 
 
 

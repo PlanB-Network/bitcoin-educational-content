@@ -1,5 +1,5 @@
 ---
-name: Bitcoin Keeper - mitme võtme turvalisus
+name: Bitcoin Keeper
 description: Bitcoin Keeper App - mobiilirakendus, mis võimaldab teil luua nii Hot rahakotte kui ka Cold hoidlaid pikaajalise säästmise eesmärgil
 ---
 

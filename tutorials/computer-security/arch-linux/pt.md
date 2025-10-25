@@ -17,10 +17,10 @@ O Arch Linux é uma distribuição conhecida pela sua robustez, desempenho e ada
 
 
 
-- Livre e de código aberto**: Como a maioria das distribuições Linux, o Arch Linux é totalmente gratuito. Não há taxas de licença, o que o torna uma excelente escolha para estudantes, freelancers ou entusiastas.
-- Filosofia KISS**: O Arch foi concebido para ser simples, leve e eficiente. Fornece apenas o essencial, permitindo-lhe construir o seu ambiente à la carte.
-- Pacman** gestor de pacotes: O Pacman é um gestor de pacotes rápido, fiável e bem concebido. Permite a instalação e atualização eficientes de software e gere as dependências com precisão.
-- Documentação abrangente e uma comunidade ativa**: o [Arch Wiki](https://wiki.archlinux.org) é provavelmente uma das melhores documentações técnicas no mundo Linux. É uma mina de ouro para compreender o que se está a fazer. A comunidade, maioritariamente composta por perfis experientes, é muito ativa e pode ajudá-lo se tiver dificuldades, desde que tenha feito alguma pesquisa prévia.
+- **Livre e de código aberto**: Como a maioria das distribuições Linux, o Arch Linux é totalmente gratuito. Não há taxas de licença, o que o torna uma excelente escolha para estudantes, freelancers ou entusiastas.
+- **Filosofia KISS**: O Arch foi concebido para ser simples, leve e eficiente. Fornece apenas o essencial, permitindo-lhe construir o seu ambiente à la carte.
+- **Pacman** gestor de pacotes: O Pacman é um gestor de pacotes rápido, fiável e bem concebido. Permite a instalação e atualização eficientes de software e gere as dependências com precisão.
+- **Documentação abrangente e uma comunidade ativa**: o [Arch Wiki](https://wiki.archlinux.org) é provavelmente uma das melhores documentações técnicas no mundo Linux. É uma mina de ouro para compreender o que se está a fazer. A comunidade, maioritariamente composta por perfis experientes, é muito ativa e pode ajudá-lo se tiver dificuldades, desde que tenha feito alguma pesquisa prévia.
 
 
 
@@ -39,7 +39,7 @@ Materiais necessários:
 
 
 - Uma chave USB de pelo menos **8 GB**
-- 2 GB** de RAM no mínimo
+- **2 GB** de RAM no mínimo
 - Um computador com pelo menos 20 GB de espaço livre em disco
 
 
@@ -261,7 +261,7 @@ Escolha **GPT** se estiver na UEFI, **DOS** se estiver na BIOS.
 
 
 
-- No modo UEFI**
+- No modo **UEFI**
 
 
 
@@ -294,7 +294,7 @@ Selecione **Escrever**, escreva **sim** e, em seguida, **Quir**.
 
 
 
-- UEFI**:
+- **UEFI**:
 
 
 
@@ -309,7 +309,7 @@ mkfs.ext4 /dev/sda3
 
 
 
-- BIOS**:
+- **BIOS**:
 
 
 

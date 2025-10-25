@@ -1,0 +1,9 @@
+question: Kto wymyślił koncepcję uproszczonej weryfikacji płatności (SPV)?
+answer: Satoshi Nakamoto
+wrong_answers:
+  - Hal Finney
+  - Adam Back
+  - Pieter Wuille
+explanation: |
+  SPV zostało przedstawione w części 8 białej księgi Satoshi Nakamoto.
+reviewed: true

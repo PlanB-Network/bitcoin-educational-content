@@ -26,7 +26,7 @@ Katika somo hili, ninapendekeza kugundua moja ya suluhisho hizi: Satochip.
 ## Utangulizi wa Satochip
 
 
-Satochip ni Hardware Wallet katika mfumo wa kadi yenye chipu iliyoidhinishwa ya *EAL6+*, ambayo ni kiwango cha juu sana cha usalama (*NXP JCOP*). Imetolewa na kampuni ya Ubelgiji.
+Satochip ni Hardware Wallet katika mfumo wa kadi yenye chip iliyoidhinishwa ya *EAL6+*, ambayo ni kiwango cha juu sana cha usalama (*NXP JCOP*). Imetolewa na kampuni ya Ubelgiji.
 
 
 ![SATOCHIP](assets/notext/01.webp)
@@ -49,7 +49,7 @@ Kampuni ya Satochip pia inatoa bidhaa nyingine 2. Kuna Satodime, ambayo ni kadi 
 Satochip inapatikana kwa kuuzwa [kwenye tovuti rasmi](https://satochip.io/product/satochip/). Ili kuinunua katika duka halisi, unaweza pia kupata [orodha ya wauzaji walioidhinishwa](https://satochip.io/resellers/) kwenye tovuti ya Satochip.
 
 
-Ili kuingiliana na programu yako ya usimamizi ya Wallet, Satochip inatoa uwezekano mbili: kupitia mawasiliano ya NFC au kupitia kisoma kadi mahiri. Kwa chaguo la NFC, hakikisha kuwa mashine yako inaoana na teknolojia hii au upate kisomaji cha NFC cha nje. Satochip inafanya kazi kwa mzunguko wa kawaida wa 13.56 MHz. Vinginevyo, unaweza pia kununua msomaji wa kadi smart. Unaweza kupata moja kwenye tovuti ya Satochip au mahali pengine.
+Ili kuingiliana na programu yako ya usimamizi ya Wallet, Satochip inatoa uwezekano mbili: kupitia mawasiliano ya NFC au kupitia kisoma kadi mahiri. Kwa chaguo la NFC, hakikisha kuwa mashine yako inaoana na teknolojia hii au upate kisomaji cha NFC cha nje. Satochip inafanya kazi kwa mzunguko wa kawaida wa 13.56 MHz. Vinginevyo, unaweza pia kununua kisoma kadi mahiri. Unaweza kupata moja kwenye tovuti ya Satochip au mahali pengine.
 
 
 ![SATOCHIP](assets/notext/02.webp)
@@ -80,7 +80,7 @@ Ingiza Satochip yako kwenye kisoma kadi mahiri au uiweke kwenye kisomaji cha NFC
 ![SATOCHIP](assets/notext/06.webp)
 
 
-Fungua Sparrow Wallet na uhakikishe kuwa umeunganishwa vizuri kwenye nodi ya Bitcoin. Ili kufanya hivyo, angalia tiki chini kulia: inapaswa kuwa njano ikiwa umeunganishwa kwenye nodi ya umma, Green kwa uunganisho wa Bitcoin Core, au bluu kwa Electrum.
+Fungua Sparrow Wallet na uhakikishe kuwa umeunganishwa vizuri kwenye node ya Bitcoin. Ili kufanya hivyo, angalia tiki chini kulia: inapaswa kuwa njano ikiwa umeunganishwa kwenye node ya umma, Green kwa uunganisho wa Bitcoin Core, au bluu kwa Electrum.
 
 
 ![SATOCHIP](assets/notext/07.webp)
@@ -92,7 +92,7 @@ Kwenye Sparrow Wallet, bofya kichupo cha "*Faili*".
 ![SATOCHIP](assets/notext/08.webp)
 
 
-Kisha kwenye menyu ya "*Mpya Wallet*".
+Kisha kwenye menyu ya "*Wallet Mpya*".
 
 
 ![SATOCHIP](assets/notext/09.webp)
@@ -104,7 +104,7 @@ Chagua jina la Wallet yako kisha ubofye "*Unda Wallet*".
 ![SATOCHIP](assets/notext/10.webp)
 
 
-Bofya kwenye kitufe cha "*Imeunganishwa Hardware Wallet*".
+Bofya kwenye kitufe cha "*Imeunganisha Hardware Wallet*".
 
 
 ![SATOCHIP](assets/notext/11.webp)
@@ -140,7 +140,7 @@ Kumbuka nenosiri tena, kisha ubofye kitufe cha "*Anzisha*".
 ![SATOCHIP](assets/notext/15.webp)
 
 
-Kisha unafika kwenye dirisha kwa ajili ya kuzalisha maneno yako ya Mnemonic. Bofya kwenye kitufe cha "*generate Mpya*".
+Kisha unafika kwenye dirisha kwa ajili ya kuzalisha maneno yako ya Mnemonic. Bofya kwenye kitufe cha "*generate new*".
 
 
 ![SATOCHIP](assets/notext/16.webp)
@@ -234,7 +234,7 @@ Ikiwa unataka kufanya udhibiti wa sarafu, yaani, chagua hasa UTXO za kutumia kat
 ![SATOCHIP](assets/notext/29.webp)
 
 
-Ingiza unakoenda Address. Unaweza pia kuingiza anwani nyingi kwa kubofya kitufe cha "+ Ongeza*".
+Ingiza unakoenda Address. Unaweza pia kuingiza anwani nyingi kwa kubofya kitufe cha **"+ Ongeza"**.
 
 
 ![SATOCHIP](assets/notext/30.webp)
@@ -294,7 +294,7 @@ Muamala wako sasa umetiwa saini. Bofya kwenye "*Tamasha la Muamala*" ili kuitang
 ![SATOCHIP](assets/notext/39.webp)
 
 
-Unaweza kuipata kwenye kichupo cha "*Shughuli*" cha Sparrow Wallet.
+Unaweza kuipata kwenye kichupo cha "*muamala*" cha Sparrow Wallet.
 
 
 ![SATOCHIP](assets/notext/40.webp)

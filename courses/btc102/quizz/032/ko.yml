@@ -1,0 +1,9 @@
+question: 이중 지출에 대한 저항을 보장하는 RGB 메커니즘은 무엇인가요?
+answer: Single-Use Seal
+wrong_answers:
+  - 다용도 Seal
+  - 이중 서명
+  - 지분 증명
+explanation: |
+  Single-Use Seal은 UTXO가 한 번만 사용될 수 있다는 점을 활용하여 RGB 스마트 컨트랙트 내에서 이중 지출에 대한 저항을 보장합니다.
+reviewed: false

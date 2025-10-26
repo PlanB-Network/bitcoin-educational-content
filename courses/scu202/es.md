@@ -3586,7 +3586,7 @@ sudo apt update && sudo apt upgrade -y
 
 
 
-Si prefieres utilizar un Interface gráfico, en Ubuntu existe la herramienta *Software Updater* que te permite gestionar las actualizaciones fácilmente sin pasar por el terminal.
+Si prefieres utilizar una interfaz gráfica, en Ubuntu existe la herramienta *Software Updater* que te permite gestionar las actualizaciones fácilmente sin pasar por el terminal.
 
 
 
@@ -3621,7 +3621,7 @@ sudo pacman -Syu
 
 
 
-Apple centraliza las actualizaciones de su sistema en los ajustes de Interface. Para comprobar la disponibilidad:
+Apple centraliza las actualizaciones de su sistema en los ajustes de interfaz. Para comprobar la disponibilidad:
 
 
 
@@ -3742,9 +3742,9 @@ sudo apt update \
 
 
 
-- sudo apt full-upgrade` actualiza todos los paquetes instalados, incluyendo aquellos que requieren añadir o eliminar dependencias. y` le permite responder automáticamente "sí" a cualquier confirmación que le pida el gestor de paquetes;
+- `sudo apt full-upgrade` actualiza todos los paquetes instalados, incluyendo aquellos que requieren añadir o eliminar dependencias y le permite responder automáticamente "sí" a cualquier confirmación que le pida el gestor de paquetes;
 - `sudo apt autoremove -y`: elimina dependencias innecesarias ;
-- sudo apt autoclean`: limpia la caché de paquetes obsoletos.
+- `sudo apt autoclean`: limpia la caché de paquetes obsoletos.
 
 
 
@@ -3757,7 +3757,8 @@ Si tiene software distribuido como paquetes Flatpak o Snap, algunos se actualiza
 
 
 ```bash
-flatpak update sudo snap refresh
+flatpak update
+sudo snap refresh
 ```
 
 
@@ -3964,7 +3965,7 @@ macOS es famoso por su seguridad, gracias sobre todo a sus políticas de firmas 
 
 
 
-- KnockKnock*: escanea todos los Elements configurados para ejecutarse al inicio (agentes, demonios, módulos del kernel...) e identifica aquellos que son potencialmente sospechosos, no firmados o desconocidos. Permite identificar rápidamente la persistencia de malware en el sistema.
+- KnockKnock*: escanea todos los procesos configurados para ejecutarse al inicio (agentes, demonios, módulos del kernel...) e identifica aquellos que son potencialmente sospechosos, no firmados o desconocidos. Permite identificar rápidamente la persistencia de malware en el sistema.
 
 
 

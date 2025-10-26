@@ -4411,7 +4411,7 @@ Hacer copias de seguridad periódicas de los datos personales o de la empresa es
 
 
 
-- Ataque informático: algunos programas maliciosos, sobre todo los ransomware, cifran tus archivos localmente y piden un rescate en Exchange por la clave de descifrado. Sin una copia de seguridad independiente, estás a su merced.
+- Ataque informático: algunos programas maliciosos, sobre todo los ransomware, cifran tus archivos localmente y piden un rescate a cambio de la clave de descifrado. Sin una copia de seguridad independiente, estás a su merced.
 
 
 
@@ -4558,7 +4558,7 @@ En Linux, la solución estándar es LUKS (*Linux Unified Key Setup*). LUKS es un
 
 https://planb.network/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
 
-Si deseas encriptar un disco externo o una memoria USB, también puedes hacerlo desde la línea de comandos o a través del Interface gráfico. El disco tendrá que formatearse, por lo que todos los datos existentes se perderán si no se hace antes una copia de seguridad.
+Si deseas encriptar un disco externo o una memoria USB, también puedes hacerlo desde la línea de comandos o a través del interfaz gráfico. El disco tendrá que formatearse, por lo que todos los datos existentes se perderán si no se hace antes una copia de seguridad.
 
 
 
@@ -4708,7 +4708,7 @@ Si lo desea, también puede automatizar esta secuencia utilizando scripts Python
 
 
 
-La otra solución es utilizar el software GNOME Disks con su Interface gráfico, que suele ser más sencillo que utilizar el terminal. Normalmente, esta utilidad ya está preinstalada en Ubuntu. Si no es el caso, puedes instalarla manualmente con el siguiente comando:
+La otra solución es utilizar el software GNOME Disks con su interfaz gráfica, que suele ser más sencillo que utilizar el terminal. Normalmente, esta utilidad ya está preinstalada en Ubuntu. Si no es el caso, puedes instalarla manualmente con el siguiente comando:
 
 
 
@@ -4869,7 +4869,7 @@ La elección de la contraseña también es muy importante: debe ser larga, compl
 
 ### Cifrado selectivo de archivos
 
-En algunos casos, no es necesario ni práctico cifrar todo un disco Hard o un soporte externo. En esos casos, puedes optar por el cifrado selectivo, que consiste en proteger sólo determinados archivos o directorios que contienen datos confidenciales.
+En algunos casos, no es necesario ni práctico cifrar todo un disco duro o un soporte externo. En esos casos, puedes optar por el cifrado selectivo, que consiste en proteger sólo determinados archivos o directorios que contienen datos confidenciales.
 
 Uno de los métodos más conocidos para cifrar archivos es utilizar GPG. Esta herramienta se basa en la criptografía asimétrica: tienes un par de claves, una pública, que puedes distribuir libremente a tus corresponsales, y otra privada, que debe permanecer estrictamente secreta. Los archivos se cifran con la clave pública del destinatario, pero sólo pueden descifrarse con su clave privada.
 

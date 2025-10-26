@@ -9,39 +9,39 @@ Sparrow Wallet adalah perangkat lunak manajemen portofolio Bitcoin yang dikemban
 Ada dua cara untuk menggunakan Sparrow:
 
 
-- Seperti Hot Wallet, di mana kunci pribadi Anda disimpan di PC Anda.
-- Sebagai manajer Cold Wallet, dimana kunci pribadi disimpan pada Hardware Wallet. Dalam mode ini, Sparrow hanya memanipulasi informasi Wallet publik, melacak dana, menghasilkan alamat, dan membuat transaksi, tetapi tanda tangan Hardware Wallet diperlukan untuk membuat transaksi ini valid. Oleh karena itu, Sparrow dapat menggantikan aplikasi seperti Ledger Live atau Trezor Suite.
+- Seperti hot wallet, di mana private key kamu disimpan di komputer kamu.
+- Sebagai pengelola cold wallet, di mana private key disimpan di hardware wallet. Dalam mode ini, Sparrow hanya mengelola informasi publik dari wallet, melacak saldo, membuat alamat, dan menyiapkan transaksi. Namun, tanda tangan dari hardware wallet tetap dibutuhkan agar transaksi tersebut valid. Karena itu, Sparrow bisa menggantikan aplikasi seperti Ledger Live atau Trezor Suite.
 
-Sparrow mendukung dompet dengan tanda tangan tunggal dan multi tanda tangan, dan memungkinkan manajemen yang lancar untuk beberapa dompet. Sebagai contoh, Anda dapat secara bersamaan mengontrol satu Wallet yang terhubung ke Ledger, satu lagi ke Trezor, dan juga memiliki Hot Wallet.
+Sparrow mendukung wallet dengan single-signature maupun multisignature, dan memungkinkan kamu mengelola beberapa wallet sekaligus dengan mudah. Misalnya, kamu bisa mengontrol satu wallet yang terhubung ke Ledger, satu lagi ke Trezor, dan juga punya hot wallet di saat yang sama.
 
-Perangkat lunak ini juga menawarkan fitur kontrol koin yang canggih, memungkinkan Anda untuk memilih dengan tepat UTXO mana yang akan digunakan dalam transaksi Anda untuk mengoptimalkan kerahasiaan Anda.
+Software ini juga menawarkan fitur coin control yang canggih, memungkinkan kamu memilih dengan tepat UTXO mana yang mau dipakai dalam transaksi untuk mengoptimalkan privasi kamu.
 
-Dalam hal koneksi, Sparrow memungkinkan Anda terhubung ke node Bitcoin Anda sendiri, baik dari jarak jauh melalui Server Electrum, atau dengan Bitcoin Core. Anda juga dapat menggunakan node publik jika Anda belum memiliki node sendiri. Sambungan jarak jauh dibuat melalui Tor.
+Untuk koneksi, Sparrow memungkinkan kamu terhubung ke node Bitcoin milikmu sendiri, baik dari jarak jauh lewat server Electrum maupun langsung dengan Bitcoin Core. Kamu juga bisa pakai node publik kalau belum punya node sendiri. Koneksi jarak jauh dilakukan lewat Tor.
 
 ## Pasang Sparrow Wallet
 
-Buka [halaman unduhan resmi Sparrow Wallet] (https://sparrowwallet.com/download/) dan pilih versi perangkat lunak yang sesuai dengan sistem operasi Anda.
+Buka [halaman unduhan resmi Sparrow Wallet] (https://sparrowwallet.com/download/) dan pilih versi perangkat lunak yang sesuai dengan sistem operasi kamu.
 
 ![Image](assets/fr/01.webp)
 
-Penting untuk memeriksa integritas dan keaslian perangkat lunak sebelum menginstalnya. Jika Anda tidak tahu cara melakukannya, Anda bisa menemukan tutorial lengkapnya di sini:
+Penting untuk memeriksa integritas dan keaslian software sebelum menginstalnya. Kalau kamu belum tahu caranya, kamu bisa menemukan tutorial lengkapnya di sini:
 
 https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
-Setelah Sparrow terinstal, Anda bisa melewatkan layar penjelasan awal dan langsung menuju ke layar manajemen koneksi.
+Setelah Sparrow terinstal, kamu bisa melewatkan layar penjelasan awal dan langsung menuju ke layar manajemen koneksi.
 
 ![Image](assets/fr/02.webp)
 
 ## Menghubungkan ke jaringan Bitcoin
 
-Untuk berinteraksi dengan jaringan Bitcoin dan menyiarkan transaksi Anda, Sparrow harus terhubung ke node Bitcoin. Ada tiga cara utama untuk membuat koneksi ini:
+Untuk berinteraksi dengan jaringan Bitcoin dan menyiarkan transaksi kamu, Sparrow harus terhubung ke node Bitcoin. Ada tiga cara utama untuk membuat koneksi ini:
 
 
-- 🟡 Menggunakan simpul publik, yaitu menyambung ke simpul pihak ketiga yang mengizinkan koneksi tersebut. Jika Anda tidak memiliki node Bitcoin Anda sendiri, opsi ini memungkinkan Anda untuk memulai Sparrow dengan cepat. Akan tetapi, node yang Anda sambungkan akan melihat semua transaksi Anda, yang dapat membahayakan kerahasiaan Anda. Memiliki kontrol atas kunci Anda sangat penting, tetapi memiliki node Anda sendiri bahkan lebih baik. Jadi, gunakan opsi ini hanya jika Anda baru memulai, dengan tetap menyadari risiko privasi Anda.
-- 🟢 Menghubungkan ke node Bitcoin Core. Jika Anda memiliki node Bitcoin Core Anda sendiri, Anda dapat menyambungkannya ke Sparrow Wallet, baik secara lokal jika Bitcoin Core diinstal pada mesin yang sama, atau dari jarak jauh.
-- 🔵 Koneksi melalui server Electrum. Jika node Bitcoin Anda dilengkapi dengan Electrs, seperti halnya dengan solusi node-in-a-box seperti Umbrel atau Start9, Anda dapat menyambungkannya dari jarak jauh dari Sparrow.
+- 🟡 Menggunakan node publik, yaitu terhubung ke node milik pihak ketiga yang membuka koneksi untuk umum. Kalau kamu belum punya node Bitcoin sendiri, opsi ini memungkinkan kamu untuk mulai menggunakan Sparrow dengan cepat. Tapi, node yang kamu sambungkan akan bisa melihat semua transaksi kamu, yang bisa mengurangi privasi kamu. Mengontrol private key itu penting, tapi punya node sendiri jauh lebih baik. Jadi, pakai opsi ini hanya saat kamu baru mulai, sambil tetap sadar akan risiko privasinya.
+- 🟢 Menghubungkan ke node Bitcoin Core. Kalau kamu punya node Bitcoin Core sendiri, kamu bisa menyambungkannya ke Sparrow Wallet, baik secara lokal kalau Bitcoin Core terpasang di komputer yang sama, atau dari jarak jauh.
+- 🔵 Koneksi melalui server Electrum. Jika node Bitcoin Anda dilengkapi dengan Electrs, seperti halnya dengan solusi node-in-a-box seperti Umbrel atau Start9, kamu bisa menyambungkannya dari jarak jauh dari Sparrow.
 
-**Lebih baik menggunakan koneksi melalui Electrs atau Bitcoin Core pada node Anda sendiri untuk mengurangi kebutuhan untuk mempercayai pihak ketiga dan mengoptimalkan kerahasiaan Anda**
+**Lebih baik menggunakan koneksi melalui Electrs atau Bitcoin Core pada node milikmu sendiri untuk mengurangi kebutuhan untuk mempercayai pihak ketiga dan mengoptimalkan kerahasiaan Anda**
 
 ### Terhubung ke simpul publik 🟡
 
@@ -49,7 +49,7 @@ Menghubungkan ke node publik sangat sederhana. Klik pada tab "*Public Server*".
 
 ![Image](assets/fr/03.webp)
 
-Pilih simpul dari daftar tarik-turun.
+Pilih node dari daftar tarik-turun.
 
 ![Image](assets/fr/04.webp)
 
@@ -57,15 +57,15 @@ Kemudian klik "*Test Connection*".
 
 ![Image](assets/fr/05.webp)
 
-Setelah terhubung, Sparrow Wallet akan menampilkan tanda centang kuning di sudut kanan bawah Interface untuk mengindikasikan bahwa Anda terhubung ke simpul publik.
+Setelah terhubung, Sparrow Wallet akan menampilkan tanda centang kuning di pojok kanan bawah antarmuka untuk menunjukkan bahwa kamu terhubung ke node publik.
 
 ![Image](assets/fr/06.webp)
 
 ### Menghubungkan ke Bitcoin Core 🟢
 
-Metode kedua untuk menyambung ke node Bitcoin adalah dengan menghubungkan Sparrow ke Bitcoin Core. Jika Bitcoin Core diinstal pada mesin yang sama, autentikasi akan dilakukan melalui file cookie. Jika Bitcoin Core berada di mesin jarak jauh, Anda harus menggunakan kata sandi yang ditetapkan dalam file `Bitcoin.conf`.
+Metode kedua untuk terhubung ke node Bitcoin adalah dengan menghubungkan Sparrow ke Bitcoin Core. Kalau Bitcoin Core terpasang di komputer yang sama, proses autentikasi akan dilakukan lewat file cookie. Tapi kalau Bitcoin Core ada di komputer lain, kamu perlu menggunakan password yang sudah ditetapkan di file `bitcoin.conf`.
 
-Harap diperhatikan bahwa jika Anda menggunakan Bitcoin Core node yang dipangkas, Anda tidak akan dapat memulihkan Wallet yang berisi transaksi sebelum blok yang disimpan secara lokal. Akan tetapi, untuk Wallet baru yang dibuat di Sparrow, hal ini tidak akan menjadi masalah: transaksi baru Anda akan terlihat, bahkan dengan node yang dipangkas.
+Perlu diingat, kalau kamu memakai node Bitcoin Core yang dipangkas (pruned), kamu nggak akan bisa memulihkan wallet yang punya transaksi sebelum blok-blok yang tersimpan secara lokal. Tapi untuk wallet baru yang dibuat langsung di Sparrow, hal ini nggak jadi masalah, karena transaksi barumu tetap akan terlihat, bahkan dengan pruned node.
 
 Untuk mengonfigurasi node Bitcoin Core, Anda dapat membaca salah satu tutorial berikut, tergantung pada sistem operasi Anda:
 
@@ -79,21 +79,21 @@ Pada Sparrow, buka tab "*Bitcoin Core*".
 
 **Dengan Bitcoin Core lokal:**
 
-Jika Bitcoin Core terinstal di komputer Anda, cari file `Bitcoin.conf` di antara file perangkat lunak. Jika file ini tidak ada, Anda dapat membuatnya. Buka file tersebut dengan editor teks dan masukkan baris berikut:
+Jika Bitcoin Core terinstal di komputer kamu, cari file `Bitcoin.conf` di antara file perangkat lunak. Kalau file ini tidak ada, kamu bisa membuatnya. Buka file tersebut dengan editor teks dan masukkan baris berikut:
 
 ```ini
 server=1
 ```
 
-Kemudian simpan perubahan Anda.
+Kemudian simpan perubahan bisa.
 
-Anda juga dapat melakukan ini melalui grafik Bitcoin-QT's Interface dengan menavigasi ke "*Settings*" > "*Options...*" dan mengaktifkan opsi "*Enable RPC server*".
+Kamu juga bisa  melakukan ini melalui grafik Bitcoin-QT's Interface dengan menavigasi ke "*Settings*" > "*Options...*" dan mengaktifkan opsi "*Enable RPC server*".
 
 Jangan lupa untuk memulai ulang perangkat lunak setelah melakukan perubahan ini.
 
 ![Image](assets/fr/08.webp)
 
-Kemudian kembali ke Sparrow Wallet dan masukkan jalur ke file cookie Anda, biasanya terletak di folder yang sama dengan `Bitcoin.conf`, tergantung pada sistem operasi Anda:
+Kemudian kembali ke Sparrow Wallet dan masukkan jalur ke file cookie, biasanya terletak di folder yang sama dengan `Bitcoin.conf`, tergantung pada sistem operasi kamu:
 
 | **macOS** | ~/Perpustakaan/Dukungan Aplikasi/Bitcoin |
 
@@ -109,19 +109,19 @@ Biarkan parameter lain sebagai default, URL `127.0.0.1` dan port `8332`, lalu kl
 
 ![Image](assets/fr/10.webp)
 
-Sambungan telah dibuat. Tanda centang Green akan muncul di sudut kanan bawah untuk menunjukkan bahwa Anda terhubung ke node Bitcoin Core.
+Sambungan telah dibuat. Tanda centang Green akan muncul di sudut kanan bawah untuk menunjukkan bahwa kamu terhubung ke node Bitcoin Core.
 
 ![Image](assets/fr/11.webp)
 
 *dengan remote Bitcoin Core: ** Dengan remote Bitcoin Core:**
 
-Jika Bitcoin Core diinstal pada mesin lain yang terhubung ke jaringan yang sama, pertama-tama cari file `Bitcoin.conf` di antara file perangkat lunak. Jika file ini belum ada, Anda dapat membuatnya. Buka file ini dengan editor teks dan tambahkan baris berikut:
+Jika Bitcoin Core diinstal pada mesin lain yang terhubung ke jaringan yang sama, pertama-tama cari file `Bitcoin.conf` di antara file perangkat lunak. Jika file ini belum ada, kamu dapat membuatnya. Buka file ini dengan editor teks dan tambahkan baris berikut:
 
 ```ini
 server=1
 ```
 
-Setelah mengedit file, pastikan Anda menyimpannya dalam folder yang sesuai untuk sistem operasi Anda:
+Setelah mengedit file, pastikan kamu menyimpannya dalam folder yang sesuai untuk sistem operasi Anda:
 
 | **macOS** | ~/Perpustakaan/Dukungan Aplikasi/Bitcoin |
 
@@ -131,13 +131,13 @@ Setelah mengedit file, pastikan Anda menyimpannya dalam folder yang sesuai untuk
 
 | **Linux** | ~/.Bitcoin |
 
-Operasi ini juga dapat dilakukan melalui Bitcoin-QT Interface grafis Interface. Buka menu "*Settings*", kemudian "*Options...*", dan aktifkan opsi "*Enable RPC server*" dengan mencentang kotak yang sesuai. Jika file `Bitcoin.conf` tidak ada, Anda dapat membuatnya langsung dari Interface ini dengan mengklik "*Open Configuration File*".
+Operasi ini juga dapat dilakukan melalui Bitcoin-QT Interface grafis Interface. Buka menu "*Settings*", kemudian "*Options...*", dan aktifkan opsi "*Enable RPC server*" dengan mencentang kotak yang sesuai. Jika file `Bitcoin.conf` tidak ada, kamu bisa membuatnya langsung dari Interface ini dengan mengklik "*Open Configuration File*".
 
 ![Image](assets/fr/12.webp)
 
-Temukan IP Address dari mesin yang menghosting Bitcoin Core di jaringan lokal Anda. Untuk melakukan ini, Anda dapat menggunakan alat seperti [Angry IP Scanner] (https://angryip.org/). Mari kita asumsikan, untuk kepentingan argumen, bahwa IP Address dari node Anda adalah `192.168.1.18`.
+Temukan IP Address dari mesin yang menghosting Bitcoin Core di jaringan lokal. Untuk melakukan ini, kamu bisa menggunakan alat seperti [Angry IP Scanner] (https://angryip.org/). Mari kita asumsikan, untuk kepentingan argumen, bahwa IP Address dari node adalah `192.168.1.18`.
 
-Dalam berkas `Bitcoin.conf`, tambahkan baris berikut, atur `rpcbind=192.168.1.18` untuk mencocokkan IP Address node Anda.
+Dalam berkas `Bitcoin.conf`, tambahkan baris berikut, atur `rpcbind=192.168.1.18` untuk mencocokkan IP Address node kamu.
 
 ```ini
 [main]
@@ -160,7 +160,7 @@ rpcpassword=my_password
 
 Setelah memodifikasi dan menyimpan file, mulai ulang perangkat lunak Bitcoin-QT.
 
-Sekarang Anda dapat kembali ke Sparrow Wallet. Buka tab "*User / Pass*". Masukkan nama pengguna dan kata sandi yang Anda konfigurasikan dalam file `Bitcoin.conf`. Biarkan parameter lainnya sebagai default, yaitu URL `127.0.0.1` dan port `8332`. Kemudian klik "*Test Connection*".
+Sekarang kamu bisa kembali ke Sparrow Wallet. Buka tab "*User / Pass*". Masukkan nama pengguna dan kata sandi yang kamu konfigurasikan dalam file `Bitcoin.conf`. Biarkan parameter lainnya sebagai default, yaitu URL `127.0.0.1` dan port `8332`. Kemudian klik "*Test Connection*".
 
 ![Image](assets/fr/15.webp)
 
@@ -170,9 +170,9 @@ Sambungan telah dibuat. Tanda centang Green akan muncul di sudut kanan bawah unt
 
 ### Menghubungkan ke server Electrum 🔵
 
-Opsi terakhir untuk menyambung adalah dengan menggunakan server Electrum jarak jauh. Metode ini memungkinkan Anda terhubung ke node Anda melalui Tor dari perangkat lain, dan memanfaatkan pengindeks untuk menelusuri portofolio Anda di Sparrow dengan lebih cepat. Metode ini sangat cocok jika Anda memiliki solusi node-in-a-box seperti Umbrel atau Start9, yang memungkinkan Anda untuk menginstal Electrs dengan satu klik.
+Opsi terakhir untuk menyambung adalah dengan menggunakan server Electrum jarak jauh. Metode ini memungkinkan kamu terhubung ke node milikmu melalui Tor dari perangkat lain, dan memanfaatkan pengindeks untuk menelusuri portofolio kamu di Sparrow dengan lebih cepat. Metode ini sangat cocok jika Anda memiliki solusi node-in-a-box seperti Umbrel atau Start9, yang memungkinkan kamu untuk menginstal Electrs dengan satu klik.
 
-Untuk melakukan ini, dapatkan Tor `.onion' Address dari server Electrum Anda. Dengan Umbrel, misalnya, Anda akan menemukannya di aplikasi Electrs.
+Untuk melakukan ini, dapatkan Tor `.onion' Address dari server Electrum milikmu. Dengan Umbrel, misalnya, kamu akan menemukannya di aplikasi Electrs.
 
 ![Image](assets/fr/17.webp)
 
@@ -180,27 +180,27 @@ Pada Sparrow Wallet, akses tab "*Private Electrum*".
 
 ![Image](assets/fr/18.webp)
 
-Masukkan Tor Address Anda di tempat yang disediakan. Pengaturan lainnya bisa tetap default. Kemudian klik "*Test Connection*".
+Masukkan Tor Address kamu di tempat yang disediakan. Pengaturan lainnya bisa tetap default. Kemudian klik "*Test Connection*".
 
 ![Image](assets/fr/19.webp)
 
-Koneksi telah dikonfirmasi. Jika Anda menutup jendela ini, tanda centang biru akan muncul di sudut kanan bawah, yang menunjukkan bahwa Anda terhubung ke server Electrum.
+Koneksi telah dikonfirmasi. Kalau kamu menutup jendela ini, tanda centang biru akan muncul di sudut kanan bawah, yang menunjukkan bahwa kamu terhubung ke server Electrum.
 
 ![Image](assets/fr/20.webp)
 
 ## Buat portofolio yang hangat
 
-Setelah Sparrow Wallet dikonfigurasikan untuk berkomunikasi dengan jaringan Bitcoin, Anda siap untuk membuat Wallet pertama Anda. Bagian ini memandu Anda untuk membuat Hot Wallet, yaitu Wallet yang kunci pribadinya disimpan di komputer Anda. Karena komputer anda merupakan mesin yang kompleks dan terhubung ke Internet, maka komputer anda memiliki permukaan serangan yang sangat besar. Oleh karena itu, Hot Wallet sebaiknya hanya digunakan untuk menyimpan bitcoin dalam jumlah yang terbatas. Untuk menyimpan jumlah yang lebih besar, pilihlah Wallet yang aman dengan Hardware Wallet. Jika ini yang Anda cari, Anda dapat langsung melanjutkan ke bagian selanjutnya.
+Setelah Sparrow Wallet dikonfigurasi untuk terhubung ke jaringan Bitcoin, kamu siap membuat wallet pertamamu. Di bagian ini, kamu akan belajar cara membuat hot wallet, yaitu wallet yang private key-nya disimpan di komputer kamu. Karena komputer adalah perangkat yang kompleks dan terhubung ke internet, permukaan serangannya sangat besar. Karena itu, hot wallet sebaiknya hanya dipakai untuk menyimpan bitcoin dalam jumlah kecil. Untuk jumlah yang lebih besar, pilih wallet yang lebih aman dengan hardware wallet. Kalau itu yang kamu butuhkan, kamu bisa langsung lanjut ke bagian berikutnya.
 
 Untuk membuat Hot Wallet, dari layar beranda Sparrow Wallet, klik tab "*File*" dan kemudian "*New Wallet*".
 
 ![Image](assets/fr/21.webp)
 
-Masukkan nama untuk portofolio Anda dan klik "*Buat Wallet*".
+Masukkan nama untuk portofolio kamu dan klik "*Buat Wallet*".
 
 ![Image](assets/fr/22.webp)
 
-Di bagian atas Interface, Anda dapat memilih apakah akan membuat portofolio "*Single Signature*" atau "*Multi Signature*". Tepat di bawahnya, pilih jenis skrip untuk mengunci UTXO Anda. Saya sarankan Anda menggunakan standar terbaru: "*Taproot (P2TR)*".
+Di bagian atas Interface, kamu bisa memilih apakah akan membuat portofolio "*Single Signature*" atau "*Multi Signature*". Tepat di bawahnya, pilih jenis skrip untuk mengunci UTXO kamu. Aku sarankan kamu menggunakan standar terbaru: "*Taproot (P2TR)*".
 
 ![Image](assets/fr/23.webp)
 
@@ -208,37 +208,37 @@ Kemudian klik "*Software Wallet Baru atau Impor*".
 
 ![Image](assets/fr/24.webp)
 
-Pilih standar BIP39, karena standar ini didukung oleh hampir semua perangkat lunak portofolio Bitcoin. Selanjutnya, pilih panjang frasa pemulihan Anda. Saat ini, frasa 12 kata sudah cukup, karena keduanya menawarkan keamanan yang serupa, tetapi frasa 12 kata lebih sederhana untuk disimpan.
+Pilih standar BIP39, karena standar ini didukung oleh hampir semua perangkat lunak portofolio Bitcoin. Selanjutnya, pilih panjang frasa pemulihan kamu. Saat ini, frasa 12 kata sudah cukup, karena keduanya menawarkan keamanan yang serupa, tetapi frasa 12 kata lebih sederhana untuk disimpan.
 
 ![Image](assets/fr/25.webp)
 
-Klik tombol "*generate New*" untuk meng-generate frasa Wallet Anda. Frasa ini memberikan akses penuh dan tidak terbatas ke semua bitcoin Anda. Siapa pun yang memiliki frasa ini dapat mencuri dana Anda, bahkan tanpa akses fisik ke komputer Anda.
+Klik tombol “*Generate New*” untuk membuat seedphrase wallet kamu. Seedphrase ini memberi akses penuh dan tak terbatas ke semua bitcoin milikmu. Siapa pun yang punya seedphrase ini bisa mencuri danamu, bahkan tanpa menyentuh komputermu.
 
-Frasa 12 kata ini mengembalikan akses ke bitcoin Anda jika terjadi kehilangan, pencurian, atau kerusakan pada komputer Anda. Oleh karena itu, sangat penting untuk menyimpannya dengan hati-hati dan menyimpannya di tempat yang aman.
+Seedphrase berisi 12 kata ini bisa memulihkan akses ke bitcoin kamu jika komputer hilang, dicuri, atau rusak. Karena itu, sangat penting untuk menyimpannya dengan hati-hati dan menaruhnya di tempat yang aman.
 
-Anda bisa menuliskannya di atas kertas atau, untuk keamanan tambahan, mengukirnya di atas baja tahan karat untuk melindunginya dari api, banjir atau keruntuhan. Pilihan media untuk Mnemonic Anda akan tergantung pada strategi keamanan Anda, tetapi jika Anda menggunakan Sparrow sebagai Wallet yang berisi uang hangat dalam jumlah sedang, kertas sudah cukup.
+Kamu bisa menuliskannya di atas kertas, atau kalau mau keamanan ekstra, ukir di pelat baja tahan karat supaya tahan terhadap api, banjir, atau keruntuhan. Pilihan medianya tergantung pada strategi keamanan kamu, tapi kalau Sparrow kamu dipakai sebagai hot wallet dengan jumlah dana sedang, kertas sudah cukup.
 
-Untuk informasi lebih lanjut mengenai cara yang tepat untuk menyimpan dan mengelola frasa Mnemonic Anda, saya sangat merekomendasikan untuk mengikuti tutorial lainnya, khususnya jika Anda seorang pemula:
+Untuk info lebih lanjut tentang cara yang benar menyimpan dan mengelola seedphrase, aku sangat menyarankan kamu mengikuti tutorial lain kami, terutama kalau kamu masih pemula:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ![Image](assets/fr/26.webp)
 
-**Jelas, Anda tidak boleh membagikan kata-kata ini di Internet, seperti yang saya lakukan dalam tutorial ini. Contoh Wallet ini hanya akan digunakan pada Testnet dan akan dihapus pada akhir tutorial.**
+**Jelas, kamu dilarang membagikan kata-kata ini di Internet, seperti yang aku lakukan dalam tutorial ini. Contoh Wallet ini hanya akan digunakan pada Testnet dan akan dihapus pada akhir tutorial.**
 
-Anda juga dapat memilih untuk menambahkan passphrase BIP39 dengan mengklik kotak "*Use passphrase*". Peringatan: menggunakan passphrase bisa sangat berguna, tetapi jika Anda tidak memahami cara kerjanya, ini bisa sangat berisiko. Itulah mengapa saya sangat menyarankan Anda untuk membaca artikel teori singkat tentang subjek ini:
+Kamu juga bisa menambahkan passphrase BIP39 dengan mengklik kotak “Use passphrase”. Peringatan: penggunaan passphrase bisa sangat berguna, tapi kalau kamu belum benar-benar paham cara kerjanya, ini bisa sangat berisiko. Karena itu, aku sangat menyarankan kamu membaca artikel teori singkat tentang topik ini:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
-Setelah Anda menyimpan Mnemonic dan passphrase Anda ke media fisik, klik "*Konfirmasi Pencadangan*".
+Setelah kamu menyimpan Mnemonic dan passphrase ke media fisik, klik "*Konfirmasi Pencadangan*".
 
 ![Image](assets/fr/27.webp)
 
-Masukkan kembali 12 kata Anda untuk mengonfirmasi bahwa kata tersebut telah disimpan dengan benar, lalu klik "*Buat Toko Kunci*".
+Masukkan kembali 12 kata kamu untuk mengonfirmasi bahwa kata tersebut telah disimpan dengan benar, lalu klik "*Buat Toko Kunci*".
 
 ![Image](assets/fr/28.webp)
 
-Kemudian klik "*Import Keystore*" untuk mengimpor kunci portofolio Anda dari frasa Mnemonic.
+Kemudian klik "*Import Keystore*" untuk mengimpor kunci portofolio Anda dari seedphrase.
 
 ![Image](assets/fr/29.webp)
 
@@ -246,51 +246,51 @@ Klik "*Apply*" untuk menyelesaikan pembuatan portofolio.
 
 ![Image](assets/fr/30.webp)
 
-Tetapkan kata sandi yang kuat untuk mengamankan akses ke portofolio Sparrow Anda. Sebaiknya simpan kata sandi ini di dalam pengelola kata sandi, agar Anda tidak lupa. Perhatikan bahwa kata sandi ini tidak berperan dalam penurunan kunci Anda. Kata sandi ini hanya digunakan untuk mengakses Wallet Anda melalui Sparrow Wallet. Jadi, bahkan tanpa kata sandi ini, frasa Mnemonic Anda sudah cukup untuk mengakses bitcoin Anda dari aplikasi yang kompatibel dengan BIP39.
+Buat password yang kuat untuk mengamankan akses ke wallet kamu di Sparrow. Sebaiknya simpan password ini di pengelola kata sandi supaya kamu nggak lupa. Perlu diingat, password ini tidak berperan dalam penurunan key-mu. Password ini hanya digunakan untuk membuka wallet kamu di Sparrow Wallet. Jadi, bahkan tanpa password ini, seedphrase kamu sudah cukup untuk mengakses bitcoin dari aplikasi lain yang kompatibel dengan BIP39.
 
 ![Image](assets/fr/31.webp)
 
-Hot Wallet Anda sekarang sudah dibuat. Anda bisa langsung ke bagian *Menerima Bitcoin* pada tutorial ini jika Anda tidak berencana menggunakan Hardware Wallet dengan Sparrow.
+Hot Wallet kamu sekarang sudah dibuat. Kamu bisa langsung ke bagian *Menerima Bitcoin* pada tutorial ini jika kamu tidak berencana menggunakan Hardware Wallet dengan Sparrow.
 
 ## Mengelola portofolio Cold
 
-Cara kedua untuk menggunakan Sparrow Wallet adalah dengan mengaturnya sebagai manajer portofolio dengan Hardware Wallet. Dalam konfigurasi ini, private key dari Bitcoin Wallet anda tetap berada secara eksklusif pada Hardware Wallet, sedangkan Sparrow hanya mengakses informasi publik. Pendekatan ini menawarkan tingkat keamanan yang lebih tinggi dibandingkan dengan dompet Hot yang telah dibahas di atas, karena private key disimpan pada perangkat khusus, seringkali dengan sebuah chip yang aman, yang tidak terhubung ke Internet dan oleh karena itu memberikan permukaan serangan yang lebih kecil dibandingkan dengan komputer biasa.
+Cara kedua untuk menggunakan Sparrow Wallet adalah mengaturnya sebagai pengelola portofolio yang terhubung ke hardware wallet. Dalam konfigurasi ini, private key wallet Bitcoin kamu tersimpan secara eksklusif di hardware wallet, sementara Sparrow hanya mengakses informasi publik. Pendekatan ini memberi tingkat keamanan lebih tinggi dibandingkan hot wallet, karena private key disimpan di perangkat khusus, seringkali dengan chip yang aman, yang tidak terhubung ke internet sehingga permukaan serangannya jauh lebih kecil daripada komputer biasa.
 
-Ada dua cara utama untuk menghubungkan Hardware Wallet Anda ke Sparrow:
+Ada dua cara utama untuk menghubungkan Hardware Wallet kamu ke Sparrow:
 
 
 - Dengan kabel, biasanya digunakan dengan model entry-level seperti Trezor Safe 3 atau Ledger Nano S Plus;
 - Dalam mode Air-Gap, yaitu tanpa koneksi kabel langsung, melalui kartu MicroSD atau kode QR Exchange.
 
-Sparrow mendukung semua metode komunikasi ini dan kompatibel dengan sebagian besar dompet perangkat keras yang ada di pasaran.
+Sparrow mendukung semua metode komunikasi ini dan kompatibel dengan hampir semua hardware wallet yang ada di pasaran.
 
-Untuk tutorial ini, saya akan menggunakan Ledger Nano S dengan kabel, tetapi prosedurnya serupa dalam mode Air-Gap. Anda akan menemukan detail khusus untuk Hardware Wallet Anda dalam tutorial khusus pada Plan ₿ Network.
+Dalam tutorial ini, aku akan menggunakan Ledger Nano S dengan koneksi kabel, tapi langkah-langkahnya hampir sama kalau kamu memakai mode air-gapped. Kamu bisa menemukan panduan khusus untuk hardware wallet milikmu di tutorial terpisah di Plan ₿ Network.
 
-Sebelum memulai, pastikan Wallet sudah dikonfigurasikan pada Hardware Wallet Anda. Jika Anda menggunakan koneksi kabel, sambungkan ke komputer melalui kabel.
+Sebelum mulai, pastikan wallet sudah dikonfigurasi di hardware wallet kamu. Kalau kamu memakai koneksi kabel, sambungkan perangkatmu ke komputer terlebih dahulu.
 
 Untuk mengimpor apa yang disebut "*Keystore*" (informasi publik yang diperlukan untuk mengelola portofolio) ke dalam Sparrow Wallet, klik pada tab "*File*", kemudian "*New Wallet*".
 
 ![Image](assets/fr/32.webp)
 
-Beri nama portofolio Anda dan klik "*Buat Wallet*". Saya menyarankan Anda untuk memasukkan nama Hardware Wallet Anda untuk mengidentifikasinya dengan mudah nanti.
+Beri nama portofolio kamu dan klik "*Buat Wallet*". Aku menyarankanmu untuk memasukkan nama Hardware Wallet kamu untuk mengidentifikasinya dengan mudah nanti.
 
 ![Image](assets/fr/33.webp)
 
 Pada bagian atas Interface, pilih antara portofolio "*Single Signature*" atau "*Multi Signature*". Untuk contoh kita, kita akan mengonfigurasi portofolio tanda tangan tunggal.
 
-Tepat di bawah, pilih jenis skrip untuk mengunci UTXO Anda. Jika Hardware Wallet Anda mendukungnya, saya sarankan Anda memilih "*Taproot (P2TR)*".
+Tepat di bawah, pilih jenis skrip untuk mengunci UTXO kamu. Jika Hardware Wallet kamu mendukungnya, aku sarankan kamu memilih "*Taproot (P2TR)*".
 
 ![Image](assets/fr/34.webp)
 
-Selanjutnya, prosedurnya berbeda menurut metode koneksi Anda. Jika Anda menggunakan metode Celah Udara, pilih "*Airgapped Hardware Wallet*". Kemudian ikuti petunjuk khusus untuk perangkat Anda.
+Selanjutnya, prosedurnya berbeda menurut metode koneksi kamu. Kalau kamu menggunakan metode Celah Udara, pilih "*Airgapped Hardware Wallet*". Kemudian ikuti petunjuk khusus untuk perangkat kamu.
 
 ![Image](assets/fr/35.webp)
 
-Jika Anda menggunakan koneksi kabel, seperti dalam kasus saya, pilih "*Connected Hardware Wallet*".
+Kalau kamu menggunakan koneksi kabel, seperti dalam kasus saya, pilih "*Connected Hardware Wallet*".
 
 ![Image](assets/fr/36.webp)
 
-Klik "*Scan*" untuk meminta Sparrow mendeteksi perangkat Anda. Pastikan perangkat sudah dicolokkan dan tidak terkunci. Untuk beberapa model, seperti Ledger, Anda harus membuka aplikasi "*Bitcoin*" untuk mengaktifkan pendeteksian.
+Klik "*Scan*" untuk meminta Sparrow mendeteksi perangkat kamu. Pastikan perangkat sudah dicolokkan dan tidak terkunci. Untuk beberapa model, seperti Ledger, kamu harus membuka aplikasi "*Bitcoin*" untuk mengaktifkan pendeteksian.
 
 ![Image](assets/fr/37.webp)
 
@@ -302,59 +302,59 @@ Klik "*Apply*" untuk menyelesaikan pembuatan portofolio.
 
 ![Image](assets/fr/39.webp)
 
-Tetapkan kata sandi yang kuat untuk mengamankan akses ke Sparrow Wallet Anda. Kata sandi ini akan melindungi kunci publik, alamat, dan riwayat transaksi Anda. Kami sarankan anda menyimpannya dalam sebuah pengelola kata sandi. Perhatikan bahwa kata sandi ini tidak berperan dalam penurunan kunci Anda. Bahkan tanpa kata sandi ini, Anda dapat memulihkan akses ke bitcoin Anda dengan Mnemonic melalui perangkat lunak yang kompatibel dengan BIP39.
+Buat password yang kuat untuk mengamankan akses ke Sparrow Wallet kamu. Password ini akan melindungi public key, alamat, dan riwayat transaksimu. Disarankan untuk menyimpannya di pengelola kata sandi agar tidak lupa. Perlu diingat, password ini tidak berperan dalam penurunan key-mu. Bahkan tanpa password ini, kamu tetap bisa memulihkan akses ke bitcoin dengan seedphrase melalui software yang kompatibel dengan BIP39.
 
 ![Image](assets/fr/40.webp)
 
-Portofolio manajemen Anda sekarang dikonfigurasikan di Sparrow.
+Portofolio manajemen kamu sekarang dikonfigurasikan di Sparrow.
 
 ![Image](assets/fr/41.webp)
 
 ## Menerima bitcoin
 
-Setelah Wallet Anda diatur di Sparrow, Anda bisa menerima bitcoin. Cukup akses menu "*Terima*".
+Setelah Wallet kamu diatur di Sparrow, kamu bisa menerima bitcoin. Cukup akses menu "*Terima*".
 
 ![Image](assets/fr/42.webp)
 
-Sparrow akan menampilkan Address pertama yang tidak terpakai dalam Wallet Anda. Anda bisa menambahkan "*Label*" ke Address ini untuk mengingatkan Anda tentang asal usul satoshi ini di kemudian hari.
+Sparrow akan menampilkan Address pertama yang tidak terpakai dalam Wallet. Anda bisa menambahkan "*Label*" ke Address ini untuk mengingatkan Anda tentang asal usul satoshi ini di kemudian hari.
 
 ![Image](assets/fr/43.webp)
 
-Jika Anda menggunakan Hot Wallet, Address yang ditampilkan dapat langsung digunakan, baik dengan menyalinnya atau dengan memindai kode QR terkait.
+Kalau kamu menggunakan hot wallet, address yang ditampilkan bisa langsung dipakai, baik dengan menyalinnya maupun memindai kode QR-nya.
 
-Jika Anda menggunakan Hardware Wallet, sangat penting untuk memeriksa Address pada layar perangkat sebelum menggunakannya. Untuk perangkat berkabel, hubungkan dan buka kunci Hardware Wallet Anda, kemudian di Sparrow, klik "*Display Address*". Pastikan Address yang ditampilkan pada Hardware Wallet Anda sesuai dengan yang ditampilkan pada Sparrow.
+Kalau kamu menggunakan hardware wallet, sangat penting untuk memverifikasi address di layar perangkat sebelum digunakan. Untuk perangkat berkabel, sambungkan dan buka kunci hardware wallet kamu, lalu di Sparrow klik “Display Address”. Pastikan address yang muncul di layar hardware wallet sama persis dengan yang ditampilkan di Sparrow.
 
 ![Image](assets/fr/44.webp)
 
 Untuk pengguna Hardware Wallet Air-Gap, verifikasi Address bervariasi menurut model perangkat. Lihat tutorial khusus Plan ₿ Network untuk mendapatkan instruksi yang tepat.
 
-Setelah transaksi disiarkan oleh pembayar, Anda akan melihatnya muncul di tab "*Transaksi*". Anda dapat mengkliknya untuk detail lebih lanjut, seperti txid.
+Setelah transaksi disiarkan oleh pembayar, kamu akan melihatnya muncul di tab "*Transaksi*". Kamu dapat mengkliknya untuk detail lebih lanjut, seperti txid.
 
 ![Image](assets/fr/45.webp)
 
-Pada tab "*Alamat*", Anda akan menemukan daftar semua alamat kotak masuk Anda. Anda dapat melihat apakah alamat-alamat tersebut telah digunakan dan apakah label telah ditambahkan. *Alamat "*Terima*" adalah alamat yang ditampilkan Sparrow ketika Anda mengklik "*Terima*" dan ditujukan untuk pembayaran yang masuk. Alamat "*Change*" digunakan untuk Exchange dalam transaksi Anda, yaitu untuk mengembalikan bagian yang tidak terpakai dari UTXO Anda yang masuk.
+Di tab “*Alamat*”, kamu akan menemukan daftar semua address penerimaan milikmu. Kamu bisa melihat apakah address-address itu sudah pernah digunakan dan apakah label sudah ditambahkan. Address “*Terima*” adalah address yang ditampilkan Sparrow saat kamu mengklik “*Terima*” dan digunakan untuk menerima pembayaran masuk. Sementara address “*Change*” dipakai dalam transaksi sebagai tempat kembalian dari UTXO kamu yang tidak terpakai.
 
 ![Image](assets/fr/46.webp)
 
-Tab "*UTXOs*" menunjukkan kepada Anda semua UTXO Anda, yaitu fragmen Bitcoin yang Anda pegang. Anda dapat melihat jumlah setiap UTXO dan label yang terkait.
+Tab “*UTXOs*” menampilkan semua UTXO milikmu, yaitu potongan Bitcoin yang kamu punya. Kamu bisa melihat jumlah tiap UTXO beserta label yang terpasang padanya.
 
 ![Image](assets/fr/47.webp)
 
 ## Kirim bitcoin
 
-Sekarang setelah Anda memiliki beberapa satoshi di Wallet Anda, Anda juga memiliki opsi untuk mengirim beberapa. Meskipun ada beberapa cara untuk melakukan ini, saya sarankan Anda menggunakan menu "*UTXOs*" untuk kontrol yang lebih tepat terhadap koin yang Anda belanjakan (*kontrol koin*), daripada langsung ke menu "*Kirim*" (meskipun menu yang terakhir ini mungkin sudah cukup untuk Anda jika Anda seorang pemula).
+Sekarang setelah kamu punya beberapa satoshi di wallet kamu, kamu juga bisa mengirim sebagian darinya. Meskipun ada beberapa cara untuk melakukannya, aku menyarankan kamu menggunakan menu “*UTXOs*” agar bisa mengontrol dengan lebih presisi koin mana yang ingin kamu belanjakan (*coin control*), daripada langsung lewat menu “*Kirim*”. Tapi kalau kamu masih pemula, menu “*Kirim*” juga sudah cukup mudah digunakan.
 
 ![Image](assets/fr/48.webp)
 
-Pilih UTXO yang ingin Anda gunakan sebagai input untuk transaksi ini, lalu klik "*Kirim Terpilih*". Pendekatan ini memungkinkan Anda untuk memilih sumber yang paling tepat di antara UTXO Anda, sesuai dengan pengeluaran Anda dan label yang diterapkan saat diterima, untuk mengoptimalkan kerahasiaan pembayaran Anda. Pastikan jumlah UTXO yang dipilih lebih besar dari jumlah yang ingin Anda kirim.
+Pilih UTXO yang ingin kamu gunakan sebagai input untuk transaksi ini, lalu klik “Kirim Terpilih”. Cara ini memungkinkan kamu memilih sumber koin yang paling sesuai dari daftar UTXO milikmu, berdasarkan kebutuhan pengeluaran dan label yang sudah kamu buat saat menerimanya, sehingga bisa mengoptimalkan privasi pembayaranmu. Pastikan jumlah UTXO yang kamu pilih lebih besar dari jumlah yang ingin kamu kirim.
 
 ![Image](assets/fr/49.webp)
 
-Masukkan Address penerima di kolom "*Bayar ke*". Anda juga dapat memindai Address dengan webcam dengan mengklik ikon kamera. Tombol "*+Tambah*" memungkinkan Anda membayar ke beberapa alamat dalam satu transaksi.
+Masukkan Address penerima di kolom "*Bayar ke*". Kamu juga dapat memindai Address dengan webcam dengan mengklik ikon kamera. Tombol "*+Tambah*" memungkinkanmu membayar ke beberapa alamat dalam satu transaksi.
 
 ![Image](assets/fr/50.webp)
 
-Tambahkan label pada transaksi Anda untuk mengingatkan Anda tentang tujuannya. Label ini juga akan dikaitkan dengan Exchange Anda nantinya.
+Tambahkan label pada transaksimu untuk membantumu mengingat tujuannya. Label ini juga akan otomatis dikaitkan dengan address kembalianmu nanti.
 
 ![Image](assets/fr/51.webp)
 
@@ -362,30 +362,30 @@ Masukkan jumlah yang akan dikirim ke Address ini.
 
 ![Image](assets/fr/52.webp)
 
-Sesuaikan tingkat biaya sesuai dengan kondisi pasar saat ini. Anda dapat melakukannya dengan memasukkan nilai biaya absolut atau dengan menyesuaikan tarif biaya dengan penggeser.
+Sesuaikan tingkat biaya sesuai dengan kondisi pasar saat ini. Kamu dapat melakukannya dengan memasukkan nilai biaya absolut atau dengan menyesuaikan tarif biaya dengan penggeser.
 
 ![Image](assets/fr/53.webp)
 
-Pada bagian bawah Interface, Anda dapat memilih antara "*Efficiency*" dan "*Privacy*". Dalam kasus saya, opsi "*Privacy*" tidak tersedia, karena saya hanya memiliki satu UTXO dalam portofolio ini. "*Efficiency*" berhubungan dengan transaksi klasik, sedangkan "*Privacy*" adalah transaksi tipe Stonewall, struktur transaksi yang memperkuat kerahasiaan Anda dengan mensimulasikan mini-CoinJoin, yang membuat analisis rantai menjadi lebih kompleks.
+Di bagian bawah antarmuka, kamu bisa memilih antara “Efficiency” dan “Privacy”. Dalam contoh ini, opsi “Privacy” tidak tersedia karena aku hanya punya satu UTXO di wallet ini. “Efficiency” digunakan untuk transaksi biasa, sedangkan “Privacy” adalah jenis transaksi Stonewall, struktur transaksi yang meningkatkan privasimu dengan meniru mini-CoinJoin, sehingga membuat *chain analysis* jadi lebih sulit.
 
 ![Image](assets/fr/54.webp)
 
-Sparrow menampilkan diagram ringkasan yang menunjukkan input, output, dan biaya transaksi Anda (perhatikan bahwa biaya sebenarnya bukanlah output, berlawanan dengan apa yang ditunjukkan oleh diagram ini). Jika Anda puas dengan semuanya, klik "*Buat Transaksi*".
+Sparrow menampilkan diagram ringkasan yang menunjukkan input, output, dan biaya transaksi kamu (perhatikan bahwa biaya sebenarnya bukanlah output, berlawanan dengan apa yang ditunjukkan oleh diagram ini). Kalau kamu puas dengan semuanya, klik "*Buat Transaksi*".
 
 ![Image](assets/fr/55.webp)
 
-Anda akan dibawa ke halaman yang merinci Elements dari transaksi Anda. Periksa apakah semua informasi sudah benar, lalu klik "*Finalisasi Transaksi untuk Penandatanganan*".
+Kamu akan dibawa ke halaman yang merinci Elements dari transaksi kamu. Periksa apakah semua informasi sudah benar, lalu klik "*Finalisasi Transaksi untuk Penandatanganan*".
 
 ![Image](assets/fr/56.webp)
 
-Sangat penting untuk mempertahankan Sighash default. Untuk memahami alasannya, lihatlah kursus pelatihan ini, di mana saya menjelaskan semua yang perlu Anda ketahui tentang Sighash:
+Sangat penting untuk mempertahankan Sighash default. Untuk memahami alasannya, lihatlah kursus pelatihan ini, di mana saya menjelaskan semua yang perlu kamu ketahui tentang Sighash:
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 Pada layar berikutnya, opsi bervariasi menurut tipe Wallet yang Anda gunakan:
 
 
-- Untuk Hardware Wallet Air-Gap, klik "*Show QR*" untuk menampilkan PSBT yang dapat Anda tandatangani dengan perangkat Anda, lalu muat PSBT yang telah ditandatangani ke dalam Sparrow menggunakan "*Scan QR*". Opsi "*Save Transaction*" bekerja dengan cara yang sama, tetapi dengan penukaran pada microSD;
+- Untuk Hardware Wallet Air-Gap, klik "*Show QR*" untuk menampilkan PSBT yang dapat kamu tandatangani dengan perangkat kamu, lalu muat PSBT yang telah ditandatangani ke dalam Sparrow menggunakan "*Scan QR*". Opsi "*Save Transaction*" bekerja dengan cara yang sama, tetapi dengan penukaran pada microSD;
 - Untuk Hot Wallet, cukup klik "*Sign*" dan masukkan kata sandi Wallet untuk menandatangani;
 - Untuk Hardware Wallet berkabel, klik juga "*Sign*" untuk mengirim transaksi yang belum ditandatangani ke perangkat Anda.
 
@@ -397,67 +397,67 @@ Setelah transaksi ditandatangani, transaksi tersebut akan muncul kembali di Spar
 
 ![Image](assets/fr/58.webp)
 
-Transaksi Anda sekarang disiarkan dan menunggu konfirmasi.
+Sekarang transaksi kamu disiarkan dan menunggu konfirmasi.
 
 ![Image](assets/fr/59.webp)
 
 ## Mengelola dan mengonfigurasi portofolio di Sparrow
 
-Pada tab "*Settings*", Anda akan menemukan informasi rinci mengenai portofolio Anda, misalnya, :
+Pada tab "*Settings*", kamu akan menemukan informasi rinci mengenai portofolio milikmu, misalnya, :
 
 
 - Jenis portofolio (single-sig atau multi-sig);
 - Jenis skrip yang digunakan ;
-- Nama yang sudah Anda tetapkan ke portofolio ;
+- Nama yang sudah kamu tetapkan ke portofolio ;
 - Jejak kunci utama;
 - Jalur pintas ;
 - Kunci publik akun yang diperpanjang.
 
 ![Image](assets/fr/60.webp)
 
-Tombol "*Export*" memungkinkan Anda untuk mengekspor informasi portofolio Anda sehingga Anda dapat menggunakannya di perangkat lunak lain sambil mempertahankan informasi yang telah diatur di Sparrow.
+Tombol "*Export*" memungkinkan kamu untuk mengekspor informasi portofolio kamu sehingga kamu dapat menggunakannya di perangkat lunak lain sambil mempertahankan informasi yang telah diatur di Sparrow.
 
-Tombol "*Tambah Akun*" memungkinkan Anda menambahkan akun tambahan ke portofolio Anda. Sebuah akun berhubungan dengan seperangkat alamat kotak masuk yang terpisah. Fitur ini dapat berguna, misalnya, jika Anda ingin memisahkan akun pribadi dan akun bisnis, dengan satu frasa Mnemonic.
+Tombol "*Tambah Akun*" memungkinkan kamu menambahkan akun tambahan ke portofolio kamu. Sebuah akun berhubungan dengan seperangkat alamat kotak masuk yang terpisah. Fitur ini dapat berguna, misalnya, jika kamu ingin memisahkan akun pribadi dan akun bisnis, dengan satu frasa Mnemonic.
 
 Tombol "*Advanced*" memberikan akses ke pengaturan lanjutan, seperti menyesuaikan pencarian Address Sparrow dan mengubah kata sandi portofolio.
 
 ![Image](assets/fr/61.webp)
 
-Ketika Anda menutup Sparrow Wallet, Wallet Anda akan terkunci secara otomatis. Saat berikutnya Anda membuka perangkat lunak, sebuah jendela akan meminta Anda untuk membuka kunci Wallet dengan kata sandinya.
+Ketika kamu menutup Sparrow Wallet, Wallet kamu akan terkunci secara otomatis. Saat berikutnya kamu membuka perangkat lunak, sebuah jendela akan meminta kamu untuk membuka kunci Wallet dengan kata sandinya.
 
 ![Image](assets/fr/62.webp)
 
-Jika jendela ini tidak terbuka, atau jika Anda ingin membuka portofolio lain di Sparrow, klik tab "*File*" dan pilih "*Open Wallet*".
+Jika jendela ini tidak terbuka, atau kalau kamu ingin membuka portofolio lain di Sparrow, klik tab "*File*" dan pilih "*Open Wallet*".
 
 ![Image](assets/fr/63.webp)
 
-Ini akan membuka File Manager Anda ke folder tempat Sparrow menyimpan dompet Anda. Cukup pilih Wallet yang ingin Anda buka dan masukkan kata sandi untuk membukanya.
+Ini akan membuka File Manager Anda ke folder tempat Sparrow menyimpan dompet kamu. Cukup pilih Wallet yang ingin kamu buka dan masukkan kata sandi untuk membukanya.
 
 ![Image](assets/fr/64.webp)
 
-Pada menu "*File*" di bawah "*Settings*", Anda akan menemukan parameter koneksi jaringan Bitcoin yang telah dieksplorasi pada bagian sebelumnya. Anda juga dapat menyesuaikan berbagai parameter seperti unit yang digunakan, mata uang fiat untuk konversi, dan sumber informasi.
+Pada menu "*File*" di bawah "*Settings*", kamu akan menemukan parameter koneksi jaringan Bitcoin yang telah dieksplorasi pada bagian sebelumnya. Kamu juga bisa menyesuaikan berbagai parameter seperti unit yang digunakan, mata uang fiat untuk konversi, dan sumber informasi.
 
 ![Image](assets/fr/65.webp)
 
-Tab "*Lihat*" menawarkan opsi kustomisasi dan akses ke beberapa perintah yang berguna, seperti "*Refresh Wallet*", yang menyegarkan pencarian transaksi untuk portofolio Anda.
+Tab "*Lihat*" menawarkan opsi kustomisasi dan akses ke beberapa perintah yang berguna, seperti "*Refresh Wallet*", yang menyegarkan pencarian transaksi untuk portofolio kamu.
 
 ![Image](assets/fr/66.webp)
 
 Tab "*Tools*" mengelompokkan beberapa alat bantu canggih, termasuk :
 
 
-- "*Tanda Tangan/Verifikasi Pesan*" memungkinkan Anda untuk membuktikan kepemilikan Address yang diterima atau memverifikasi tanda tangan.
+- "*Tanda Tangan/Verifikasi Pesan*" memungkinkan kamu untuk membuktikan kepemilikan Address yang diterima atau memverifikasi tanda tangan.
 - "*Kirim Ke Banyak*" menawarkan Interface yang disederhanakan untuk melakukan transaksi ke beberapa alamat penerima sekaligus, yang nyaman untuk pengeluaran batch.
-- "*Sweep Private Key*" memungkinkan Anda untuk mengambil bitcoin yang diamankan dengan private key sederhana dan mentransfernya ke Sparrow Wallet Anda. Ini bisa sangat berguna bagi mereka yang memiliki bitcoin yang berasal dari awal tahun 2010, sebelum era dompet HD.
-- "Verifikasi Unduhan" memverifikasi integritas dan keaslian perangkat lunak yang diunduh sebelum menginstalnya pada perangkat Anda.
-- "*Restart In*" memungkinkan Anda untuk beralih ke dompet Anda di jaringan Testnet atau Signet. Ini dapat berguna jika Anda ingin mengakses jaringan uji coba dengan koin yang tidak memiliki nilai.
+- "*Sweep Private Key*" memungkinkan kamu untuk mengambil bitcoin yang diamankan dengan private key sederhana dan mentransfernya ke Sparrow Wallet kamu. Ini bisa sangat berguna bagi mereka yang memiliki bitcoin yang berasal dari awal tahun 2010, sebelum era dompet HD.
+- "Verifikasi Unduhan" memverifikasi integritas dan keaslian perangkat lunak yang diunduh sebelum menginstalnya pada perangkat kamu.
+- "*Restart In*" memungkinkan Anda untuk beralih ke dompet Anda di jaringan Testnet atau Signet. Ini dapat berguna kalau kamu ingin mengakses jaringan uji coba dengan koin yang tidak memiliki nilai.
 
 ![Image](assets/fr/67.webp)
 
-Sekarang Anda sudah mengetahui semua tentang perangkat lunak Sparrow Wallet, alat yang sangat baik untuk mengelola portofolio Bitcoin Anda setiap hari.
+Sekarang kamu sudah tahu semua tentang Sparrow Wallet, alat yang luar biasa untuk mengelola portofolio Bitcoin kamu sehari-hari.
 
-Jika Anda merasa tutorial ini bermanfaat, saya akan sangat berterima kasih jika Anda memberikan jempol Green di bawah ini. Jangan ragu untuk membagikannya di jejaring sosial Anda. Terima kasih banyak!
+Kalau kamu merasa tutorial ini bermanfaat, aku akan sangat berterima kasih kalau kamu mau memberikan jempol hijau di bawah ini. Jangan ragu untuk membagikannya di media sosial kamu. Terima kasih banyak!
 
-Saya juga merekomendasikan tutorial lain yang menjelaskan cara mengonfigurasi Hardware Wallet COLDCARD Q dengan Sparrow Wallet:
+Aku juga merekomendasikan kamu tutorial lain yang menjelaskan cara mengonfigurasi Hardware Wallet COLDCARD Q dengan Sparrow Wallet:
 
 https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3

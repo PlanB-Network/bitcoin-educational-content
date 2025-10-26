@@ -4208,12 +4208,12 @@ El proceso de verificación de la firma es idéntico en Windows, macOS y Linux. 
 
 
 ```bash
-gpg --import [key_path]
+gpg --import [ruta_de_la_clave]
 ```
 
 
 
-Sustituya `[ruta_clave]` por la ubicación del archivo de clave pública del desarrollador.
+Sustituya `[ruta_de_la_clave]` por la ubicación del archivo de clave pública del desarrollador.
 
 
 
@@ -4226,7 +4226,7 @@ Compruebe la firma con el siguiente comando:
 
 
 ```bash
-gpg --verify [file.asc]
+gpg --verify [archivo.asc]
 ```
 
 
@@ -4268,7 +4268,7 @@ En Windows, abra un terminal y ejecute el siguiente comando:
 
 
 ```bash
-CertUtil -hashfile [file_path] SHA256 | findstr /v "hash"
+CertUtil -hashfile [ruta_archivo] SHA256 | findstr /v "hash"
 ```
 
 
@@ -4310,7 +4310,7 @@ Basta con ejecutar este comando en macOS:
 
 
 ```bash
-shasum --check [file_name] --ignore-missing
+shasum --check [nombre_archivo] --ignore-missing
 ```
 
 
@@ -4340,7 +4340,7 @@ En Linux, el comando es similar:
 
 
 ```bash
-sha256sum --check [file_name] --ignore-missing
+sha256sum --check [nombre_archivo] --ignore-missing
 ```
 
 

@@ -6,7 +6,7 @@ description: Panduan Pengaturan Specter
 
 ![cover](assets/cover.webp)
 
-Untuk informasi lebih lanjut, Anda dapat menemukan seluruh dokumentasi mereka di situs web mereka [di sini](https://docs.specter.solutions/desktop/)
+Untuk informasi lebih lanjut, kamu bisa menemukan seluruh dokumentasi mereka di situs web mereka [di sini](https://docs.specter.solutions/desktop/)
 
 ## Video Tutorial
 

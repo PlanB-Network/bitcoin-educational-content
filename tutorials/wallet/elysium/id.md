@@ -6,47 +6,47 @@ description: Pengaturan dan cara menggunakan Dompet Elysium
 
 Elysium Wallet adalah dompet perangkat lunak non-kustodian pertama dari perusahaan rintisan Swiss, Elysium Labs.
 
-Berkat sistem manajemen kunci yang inovatif, Anda dapat mengakses aset digital Anda menggunakan elemen-elemen yang merupakan bagian dari kehidupan sehari-hari: nama pengguna, kunci sandi, kata sandi, atau kode sandi. Benar: Anda tidak perlu lagi menggunakan Seed Phrase untuk mendapatkan kembali akses ke aset digital Anda. Penyederhanaan ini dapat mempercepat penyebaran Bitcoin ke seluruh dunia.
+Berkat sistem manajemen kunci yang inovatif, kamu bisa mengakses aset digitalmu lewat elemen yang sudah jadi bagian dari kehidupan sehari-hari: nama pengguna, kunci sandi, kata sandi, atau kode sandi. Benar, kamu nggak perlu lagi pakai seedphrase untuk mendapatkan kembali akses ke aset digitalmu. Penyederhanaan ini bisa mempercepat adopsi Bitcoin ke seluruh dunia.
 
 ## Bagaimana cara membuka akun?
 
-Unduh Aplikasi Elysium Wallet dari Apple Store atau Google Play, lalu buka aplikasi Elysium Wallet yang telah Anda unduh di perangkat Anda. Ketuk "Buat dompet baru", pada saat itu akan muncul layar syarat dan ketentuan penggunaan. Untuk menerima dan melanjutkan pembuatan akun Anda, ketuk "Mulai Pengaturan", lalu masukkan nama pengguna Anda; harap dicatat bahwa gambar profil dapat disesuaikan: pilih salah satu dari opsi yang disediakan, dengan mengambil foto atau mengunggah gambar dari perangkat Anda. Setelah memilih, ketuk "Lanjutkan".
+Unduh aplikasi Elysium Wallet dari Apple Store atau Google Play, lalu buka aplikasi Elysium Wallet yang sudah kamu pasang di perangkatmu. Ketuk “Buat dompet baru”. Setelah itu akan muncul layar berisi syarat dan ketentuan penggunaan. Untuk menyetujui dan melanjutkan pembuatan akunmu, ketuk “Mulai Pengaturan”, lalu masukkan nama pengguna. Perlu dicatat, gambar profil bisa disesuaikan: kamu bisa pilih dari opsi yang tersedia, ambil foto baru, atau unggah gambar dari perangkatmu. Setelah memilih, ketuk “Lanjutkan”.
 
 ![image](assets/en/02.webp)
 
-Elysium menonjol karena algoritma multi-faktornya yang inovatif, yang menggabungkan Passkey, PassCode, dan PassWord. PassKeys wajib dimiliki. Kunci ini memungkinkan Anda untuk mengautentikasi dengan cepat dan aman menggunakan fitur keamanan bawaan perangkat Anda, seperti ID Wajah atau pemindaian sidik jari. Ini adalah lapisan perlindungan utama Anda, yang memastikan akses yang cepat dan aman.
+Elysium menonjol berkat algoritma multi-faktornya yang inovatif, yang menggabungkan Passkey, Passcode, dan Password. Passkey bersifat wajib. Kunci ini memungkinkan kamu melakukan autentikasi dengan cepat dan aman lewat fitur keamanan bawaan perangkatmu, seperti Face ID atau pemindai sidik jari. Ini adalah lapisan perlindungan utamamu, yang memastikan akses tetap cepat dan aman.
 
 ![image](assets/en/03.webp)
 
-Pilih tingkat kedua Anda: PassCode atau PassWord; selanjutnya, Anda harus memilih tingkat keamanan kedua:
+Pilih tingkat kedua: PassCode atau PassWord; selanjutnya, kamu harus memilih tingkat keamanan kedua:
 
 
 - PassCode: kode 6 digit yang mudah diingat. Sempurna untuk menambahkan lapisan perlindungan ekstra.
 - Kata Sandi: Buat kata sandi yang kuat, minimal 8 karakter, untuk menambah keamanan.
 
-Anda harus menggunakan Passkey bersama dengan PassCode atau PassWord.
+Kamu harus menggunakan Passkey bersama dengan PassCode atau PassWord.
 
 ![image](assets/en/04.webp)
 
-**Catatan:** Untuk mengatur akun Anda, Anda memerlukan setidaknya 2 faktor, salah satunya harus berupa Passkey.
+**Catatan:** Untuk mengatur akun kamu, Anda memerlukan setidaknya 2 faktor, salah satunya harus berupa Passkey.
 
-Untuk lebih meningkatkan keamanan, Anda dapat menambahkan lapisan perlindungan ketiga (Passkey + PassCode + PassWord).
+Untuk lebih meningkatkan keamanan, kamu dapat menambahkan lapisan perlindungan ketiga (Passkey + PassCode + PassWord).
 
 Kombinasi lapisan untuk keamanan maksimum
 
-Anda akan selalu menggunakan Passkey sebagai faktor utama. Untuk lapisan kedua, pilih PassCode atau PassWord.
+Kamu akan selalu menggunakan Passkey sebagai faktor utama. Untuk lapisan kedua, pilih PassCode atau PassWord.
 
-Jika Anda telah memilih PassCode sebagai faktor kedua, Anda bisa menambahkan PassWord sebagai lapisan ketiga atau sebaliknya. Pendekatan yang fleksibel ini memastikan bahwa aset Anda terlindungi sesuai dengan preferensi Anda.
+Jika kamu telah memilih PassCode sebagai faktor kedua, kamu bisa menambahkan PassWord sebagai lapisan ketiga atau sebaliknya. Pendekatan yang fleksibel ini memastikan bahwa aset kamu terlindungi sesuai dengan preferensimu.
 
-Anda dapat menambahkan faktor keamanan ketiga selama tahap penyiapan (lihat gambar) atau setelahnya dengan membuka Pengaturan > Tingkatkan keamanan.
+Kamu dapat menambahkan faktor keamanan ketiga selama tahap penyiapan (lihat gambar) atau setelahnya dengan membuka Pengaturan > Tingkatkan keamanan.
 
 ![image](assets/en/05.webp)
 
-Namun demikian, jika Anda melupakan salah satu faktor, harap diperhatikan:
+Namun demikian, jika kamu melupakan salah satu faktor, harap diperhatikan:
 
-Jika Anda sudah menyiapkan ketiga faktor tersebut, Anda selalu dapat mengubah atau mengatur ulang dari pengaturan.
+Kalau kamu sudah menyiapkan ketiga faktor tersebut, kamu selalu dapat mengubah atau mengatur ulang dari pengaturan.
 
-Sayangnya, jika Anda hanya menyiapkan dua faktor dan lupa satu faktor, tidak ada opsi pemulihan.
+Sayangnya, kalau kamu hanya menyiapkan dua faktor dan lupa satu faktor, tidak ada opsi pemulihan.
 
 Kami sangat menyarankan untuk menyiapkan ketiga faktor tersebut dari awal untuk keamanan dan fleksibilitas maksimum.
 
@@ -56,15 +56,15 @@ Buka aplikasi Elysium dan masuk ke menu utama, lalu Ketuk 'Terima'.
 
 ![image](assets/en/06.webp)
 
-Sekarang, pilih rantai yang Anda inginkan untuk menerima pembayaran (Bitcoin atau Polygon) dan Anda cukup membagikan kode QR dompet Elysium Anda kepada orang yang perlu membayar Anda, mereka akan mengurus sisanya.
+Sekarang, pilih rantai yang kamu inginkan untuk menerima pembayaran (Bitcoin atau Polygon) dan kamu cukup membagikan kode QR dompet Elysium kamu kepada orang yang perlu membayar, mereka akan mengurus sisanya.
 
 ## Bagaimana Cara Menerima Transaksi di Jaringan Lightning?
 
-**Langkah 1:** Dengan mengetuk "Minta Pembayaran", Anda meminta pembayaran Bitcoin melalui Lightning Network.
+**Langkah 1:** Dengan mengetuk "Minta Pembayaran", kamu meminta pembayaran Bitcoin melalui Lightning Network.
 
 ![image](assets/en/07.webp)
 
-**Langkah 2:** Masukkan jumlah yang ingin Anda minta, pilih mata uang yang ingin Anda terima, dan tambahkan deskripsi jika perlu.
+**Langkah 2:** Masukkan jumlah yang ingin kamu minta, pilih mata uang yang ingin kamu terima, dan tambahkan deskripsi jika perlu.
 
 ![image](assets/en/08.webp)
 
@@ -76,7 +76,7 @@ Sekarang, pilih rantai yang Anda inginkan untuk menerima pembayaran (Bitcoin ata
 
 ![image](assets/en/09.webp)
 
-**Langkah 2:** Pindai kode QR penerima dari Dompet Elysium mereka untuk secara otomatis menyimpan kontak mereka ke buku alamat Anda. Atau, salin alamat mereka secara manual dan tempelkan ke kolom penerima. Setelah memilih penerima atau menambahkannya ke buku alamat Anda, ketuk "Kirim Pembayaran".
+**Langkah 2:** Pindai kode QR penerima dari Dompet Elysium mereka untuk secara otomatis menyimpan kontak mereka ke buku alamat Anda. Atau, salin alamat mereka secara manual dan tempelkan ke kolom penerima. Setelah memilih penerima atau menambahkannya ke buku alamat kamu, ketuk "Kirim Pembayaran".
 
 ![image](assets/en/10.webp)
 
@@ -84,13 +84,13 @@ Sudah memiliki kontak? Pilih langsung dari buku alamat.
 
 ![image](assets/en/11.webp)
 
-**Langkah 3:** Masukkan jumlah yang ingin Anda kirim dan pilih aset yang ingin Anda transfer.
+**Langkah 3:** Masukkan jumlah yang ingin kamu kirim dan pilih aset yang ingin kamu transfer.
 
-Untuk transaksi BTC, Anda bisa memilih kecepatan jaringan dan biaya yang Anda inginkan (seperti yang ditunjukkan pada gambar ketiga)
+Untuk transaksi BTC, kamu bisa memilih kecepatan jaringan dan biaya yang kamu inginkan (seperti yang ditunjukkan pada gambar ketiga)
 
 ![image](assets/en/12.webp)
 
-Transaksi Anda telah dikirimkan! Anda dapat dengan mudah memeriksa saldo dan status transaksi Elysium Wallet Anda yang telah diperbarui.
+Transaksi kamu telah dikirimkan! Kamu dapat dengan mudah memeriksa saldo dan status transaksi Elysium Wallet kamu yang telah diperbarui.
 
 ## Bagaimana cara mengirim transaksi di Lightning Network?
 
@@ -110,7 +110,7 @@ Buka menu utama dan ketuk "Hub". Pilih Pengaturan dan ketuk "Ekstrak kunci priba
 
 ![image](assets/en/14.webp)
 
-Masuk dengan kunci sandi dan masukkan kata sandi dan/atau kode sandi Anda. Frasa benih akan ditampilkan dalam format 24 kata.
+Masuk dengan kunci sandi dan masukkan kata sandi dan/atau kode sandi kamu. Seedphrase akan ditampilkan dalam format 24 kata.
 
 ![image](assets/en/15.webp)
 
@@ -120,7 +120,7 @@ Jangan bagikan dengan siapa pun!
 
 Butuh bantuan dengan Elysium Wallet? Kami siap membantu!
 
-Unduh Aplikasi, dan berikut ini cara Anda dapat menghubungi tim dukungan pelanggan kami secara langsung dari aplikasi:
+Unduh Aplikasi, dan berikut ini cara kamu dapat menghubungi tim dukungan pelanggan kami secara langsung dari aplikasi:
 
 1. Pergi ke Hub
 

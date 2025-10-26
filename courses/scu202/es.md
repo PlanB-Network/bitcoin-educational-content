@@ -5146,18 +5146,18 @@ Hemos llegado al final de esta sección sobre la seguridad de tu ordenador. En l
 
 
 
-## Breve historia de los navegantes
+## Breve historia de los navegadores
 
 
 <chapterId>ac6d2c23-5883-4564-b6a9-bc109b47f92c</chapterId>
 
 
 
-El navegador web es el programa informático que permite acceder a los sitios y contenidos disponibles en la *World Wide Web*. Su función es interpretar los lenguajes utilizados para crear páginas web, especialmente HTML, CSS y JavaScript, con el fin de mostrar el contenido del sitio de forma legible e interactiva. Actúa como Interface entre el usuario y los servidores web, enviando peticiones y recibiendo respuestas a través del protocolo HTTP o HTTPS.
+El navegador web es el programa informático que permite acceder a los sitios y contenidos disponibles en la *World Wide Web*. Su función es interpretar los lenguajes utilizados para crear páginas web, especialmente HTML, CSS y JavaScript, con el fin de mostrar el contenido del sitio de forma legible e interactiva. Actúa como interfaz entre el usuario y los servidores web, enviando peticiones y recibiendo respuestas a través del protocolo HTTP o HTTPS.
 
 
 
-Pero hoy en día, el navegador se ha convertido en mucho más que una simple pieza de software: a menudo es el Interface principal en informática, especialmente para los usuarios principiantes. Por eso a veces se considera un "sistema operativo secundario" dentro del sistema operativo propiamente dicho (que estudiamos en la primera sección de SCU202). De hecho, muchas tareas que antes se realizaban mediante software local especializado ahora se realizan directamente en línea a través del navegador: entretenimiento, trabajo ofimático (tratamiento de textos, hojas de cálculo, presentaciones), gestión del correo electrónico, mensajería, almacenamiento de archivos y trabajo colaborativo.
+Pero hoy en día, el navegador se ha convertido en mucho más que una simple pieza de software: a menudo es la interfaz principal en informática, especialmente para los usuarios principiantes. Por eso a veces se considera un "sistema operativo secundario" dentro del sistema operativo propiamente dicho (que estudiamos en la primera sección de SCU202). De hecho, muchas tareas que antes se realizaban mediante software local especializado ahora se realizan directamente en línea a través del navegador: entretenimiento, trabajo ofimático (tratamiento de textos, hojas de cálculo, presentaciones), gestión del correo electrónico, mensajería, almacenamiento de archivos y trabajo colaborativo.
 
 
 
@@ -5181,7 +5181,7 @@ La historia de los navegadores web comienza con el nacimiento de la *World Wide 
 
 
 
-En 1992 aparecieron otros navegadores experimentales. Uno de los más notables fue Erwise, desarrollado por cuatro estudiantes finlandeses para el sistema X Window basado en Unix. Fue el primer navegador con un Interface gráfico para este tipo de entorno. A pesar de sus méritos técnicos, sufrió una falta de financiación y no se mantuvo después de su primera versión. Otros proyectos, como ViolaWWW, también aparecieron durante este periodo.
+En 1992 aparecieron otros navegadores experimentales. Uno de los más notables fue Erwise, desarrollado por cuatro estudiantes finlandeses para el sistema X Window basado en Unix. Fue el primer navegador con un interfaz gráfica para este tipo de entorno. A pesar de sus méritos técnicos, sufrió una falta de financiación y no se mantuvo después de su primera versión. Otros proyectos, como ViolaWWW, también aparecieron durante este periodo.
 
 
 
@@ -5189,7 +5189,7 @@ En 1992 aparecieron otros navegadores experimentales. Uno de los más notables f
 
 
 
-en 1992 también se creó Lynx, el navegador web más antiguo que aún se mantiene y utiliza en la actualidad. Fue desarrollado por un equipo de estudiantes de la Universidad de Kansas.
+En 1992 también se creó Lynx, el navegador web más antiguo que aún se mantiene y utiliza en la actualidad. Fue desarrollado por un equipo de estudiantes de la Universidad de Kansas.
 
 
 
@@ -5341,7 +5341,7 @@ Respaldado por la marca Google y una campaña de marketing muy eficaz, Chrome ga
 
 
 
-En 2013, Google anunció un importante cambio estratégico: Fork WebKit para crear un nuevo motor de renderizado independiente, denominado Blink. Esto Fork se explica por diferencias técnicas y organizativas con Apple, sobre todo en torno a la arquitectura del motor y la integración de funciones experimentales. Blink se convirtió en el motor exclusivo de Chrome a partir de la versión 28, y posteriormente fue adoptado por muchos otros navegadores: Opera (que abandonó Presto en 2013), Vivaldi, Brave, Microsoft Edge (desde 2020) y otros.
+En 2013, Google anunció un importante cambio estratégico: Fork WebKit para crear un nuevo motor de renderizado independiente, denominado Blink. Este Fork se explica por diferencias técnicas y organizativas con Apple, sobre todo en torno a la arquitectura del motor y la integración de funciones experimentales. Blink se convirtió en el motor exclusivo de Chrome a partir de la versión 28, y posteriormente fue adoptado por muchos otros navegadores: Opera (que abandonó Presto en 2013), Vivaldi, Brave, Microsoft Edge (desde 2020) y otros.
 
 
 
@@ -5357,7 +5357,7 @@ Chrome ha redefinido profundamente las normas de rendimiento, seguridad y ergono
 
 
 
-El motor de renderizado es el componente central de un navegador web. Su función principal es interpretar los archivos recibidos de un servidor (HTML, CSS, JavaScript, imágenes, fuentes...) para generate convertirlos en un Interface gráfico interactivo. El motor de renderizado es como un intérprete entre los lenguajes web y tu pantalla, traduciendo líneas de código en una página visualmente coherente, interactiva y funcional.
+El motor de renderizado es el componente central de un navegador web. Su función principal es interpretar los archivos recibidos de un servidor (HTML, CSS, JavaScript, imágenes, fuentes...) para convertirlos en una interfaz gráfica interactiva. El motor de renderizado es como un intérprete entre los lenguajes web y tu pantalla, traduciendo líneas de código en una página visualmente coherente, interactiva y funcional.
 
 
 
@@ -5439,7 +5439,7 @@ Desarrollado por el proyecto KDE para su navegador Konqueror, KHTML es un motor 
 
 
 
-WebKit es un Fork de KHTML lanzado por Apple para desarrollar su propio navegador: Safari. Primero se optimizó para el rendimiento y la integración con macOS, y luego fue utilizado por Google Chrome cuando se lanzó en 2008. WebKit se basa en dos subcomponentes:
+WebKit es un _fork_ de KHTML lanzado por Apple para desarrollar su propio navegador: Safari. Primero se optimizó para el rendimiento y la integración con macOS, y luego fue utilizado por Google Chrome cuando se lanzó en 2008. WebKit se basa en dos subcomponentes:
 
 
 
@@ -5461,7 +5461,7 @@ WebKit destaca por su velocidad y su reducido tamaño. En iOS, Apple ha impuesto
 
 
 
-Blink es una Fork de WebKit iniciada por Google para equipar Chrome (y Chromium), luego adoptada rápidamente por Opera, Brave, Vivaldi, e incluso Microsoft Edge desde 2020. Blink introduce una gobernanza más flexible que la de Apple, lo que permite a Google experimentar rápidamente con nuevas API web.
+Blink es un _fork_ de WebKit iniciado por Google para equipar Chrome (y Chromium), luego adoptada rápidamente por Opera, Brave, Vivaldi, e incluso Microsoft Edge desde 2020. Blink introduce una gobernanza más flexible que la de Apple, lo que permite a Google experimentar rápidamente con nuevas API web.
 
 
 
@@ -5517,7 +5517,7 @@ Además, la creciente dependencia de un único motor plantea un riesgo sistémic
 
 
 
-En la actualidad, Mozilla sigue desempeñando un papel esencial en la defensa de una web abierta, respetuosa con la privacidad y de libre acceso. Firefox sigue siendo uno de los pocos navegadores importantes que no se basa en Chromium, y ofrece innovaciones independientes. Pero su supervivencia depende de su capacidad para mantener una base de usuarios suficiente y una financiación sostenible.
+En la actualidad, Mozilla sigue desempeñando un papel esencial en la defensa de una web abierta, respetuosa con la privacidad y de libre acceso. Firefox sigue siendo uno de los pocos navegadores importantes que no se basa en Chromium y ofrece innovaciones independientes. Pero su supervivencia depende de su capacidad para mantener una base de usuarios suficiente y una financiación sostenible.
 
 
 

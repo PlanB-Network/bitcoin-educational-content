@@ -8,11 +8,11 @@ description: Panduan Pengaturan untuk Specter DIY
 
 Spesifikasi:
 
-- Papan Pengembang
-- STM Discovery board (STM32F469I)
-- Pemindai Kode QR
+- Papan pengembang
+- STM discovery board (STM32F469I)
+- Pemindai kode QR
 - Pemindai Barcode Waveshare
-- Casing yang Dapat Dicetak 3D
+- Casing yang dapat dicetak 3D
 - Casing minimalis yang dirancang oleh Seedsigner
 
 ![tampilan perangkat](assets/2.webp)

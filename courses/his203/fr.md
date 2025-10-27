@@ -40,6 +40,20 @@ L'élément marquant est probablement l'âge des principaux promoteurs de Bitcoi
 
 ### Plan du cours
 
+Ce cours est divisé en quatre parties, qui s'intéressent respectivement à la construction économique de Bitcoin durant la grande bulle de 2011 (4 chapitres), à son développement technique (3 chapitres) et aux excès qui découlent de son aspect libre et incensurable (4 chapitres). Au total, il comprend 11 chapitres qu'on liste ci-dessous (la période principalement concernée est donnée entre parenthèses) :
+
+- Silk Road, l'Amazon de la drogue (janvier–novembre 2011)
+- La reprise de Mt. Gox (mars–août 2011)
+- Bitcoin et l'activisme politique (mars–novembre 2011)
+- Le premier marché baissier (juin 2011–avril 2012)
+- L'amélioration de l'utilisation de Bitcoin (mars 2011–novembre 2011)
+- L'essor des coopératives de minage (février 2011–septembre 2012)
+- La bataille pour Pay to Script Hash (août 2011–avril 2012)
+- L'apparition des cryptomonnaies alternatives (avril 2011–août 2012)
+- Le commerce, licite et illicite (janvier–septembre 2012)
+- La monnaie du vice : jeu d'argent et travail du sexe (août 2011–août 2012)
+- La monnaie du crime : piratages et arnaques (mars–septembre 2012)
+
 ### Précisions
 
 La lecture du premier cours sur l'histoire de Bitcoin (intitulée *L'histoire de la création de Bitcoin*) est un prérequis si vous ne connaissez pas du tout le sujet.
@@ -219,7 +233,7 @@ L'émergence de Silk Road a été un élément essentiel du développement de Bi
 
 Ainsi, un peu plus d'un an après la vente des pizzas de Laszlo, Silk Road est devenu l'incarnation du commerce exercé avec Bitcoin. Toutefois, cette utilisation était dans le même temps concurrencée par un autre type d'activité : la spéculation. Et celle-ci battait son plein sur la principale plateforme dédiée : Mt. Gox.
 
-## La reprise de Mt. Gox (mars–août 2011)
+## La reprise de Mt. Gox
 
 La période allant du début de l'année 2011 à la fin de l'année 2013 est caractérisée par le développement de l'activité de change entre le bitcoin et les monnaies classiques, comme le dollar et l'euro. Ce type de services jouait en effet un rôle essentiel dans l'économie de Bitcoin, cette dernière étant trop petite pour fonctionner de manière fermée. Les mineurs avaient besoin de vendre leurs récompenses pour payer leurs factures d'électricité. Les commerçants (dont notamment les vendeurs de Silk Road) devaient récupérer des dollars pour rembourser leurs fournisseurs, et leurs clients, qui ne disposaient généralement pas de bitcoin, avaient besoin de s'en procurer préalablement. Il y avait aussi une forte demande spéculative, venant des gens qui considéraient la cryptomonnaie comme un investissement.
 
@@ -417,7 +431,7 @@ Mt. Gox constituait ainsi le point central de l'économie de Bitcoin. À l'image
 
 Toutefois, cette croissance fulgurante cachait une grande fragilité. La plateforme Mt. Gox a subi plusieurs piratages durant cette période, ce qui fait qu'elle a accumulé les pertes au fil des mois : plus d'une centaine de milliers de bitcoins manquaient à l'appel à la fin de l'été. Cela présageait une chute abrupte. Mais Mt. Gox allait d'abord devenir une plateforme énorme en l'espace de deux ans et demi.
 
-## Bitcoin et l'activisme politique (mars–novembre 2011)
+## Bitcoin et l'activisme politique
 
 Bitcoin est un objet éminemment politique en ce qu'il est un outil de libération et qu'il permet de faire des choses hors du cadre légal. C'est pourquoi il a tout naturellement attiré les individus motivés idéologiquement, qui ont souvent été ses partisans les plus passionnés. Son essor intervient de plus dans une période de grand scepticisme et de colère vis-à-vis du système bancaire, suite à la crise financière de 2008.
 
@@ -547,13 +561,11 @@ Le politique constitue un élément essentiel de l'essor de Bitcoin entre 2011 e
 
 Pourtant, cet aspect idéologique était en opposition avec une force autrement plus attractive : celle de l'intérêt financier. Une tension s'est ainsi construite au cours de ces années entre les deux aspects. Mais avant cela, il fallait construire les outils permettant aux acteurs financiers de venir s'investir dans l'écosystème...
 
-## L'éclatement de la grande bulle de 2011 (août 2011–juin 2012)
+## Le premier marché baissier
 
-En juin 2011, l'engouement spéculatif de juin a été stoppé net par le piratage de Mt. Gox et par sa mise hors ligne pendant des jours. Le fiasco lié à la fermeture de MyBitcoin à la fin du mois de juillet a finalement provoqué le dégonflement de la bulle. Dans les jours qui ont suivi le prix a baissé en flèche jusqu'à 6 $, et a fini par tomber à 2 $ en novembre.
+En juin 2011, l'engouement spéculatif a été stoppé net par le piratage de Mt. Gox et par sa mise hors ligne pendant des jours. Le fiasco lié à la fermeture de MyBitcoin à la fin du mois de juillet a finalement déclenché le dégonflement de la bulle et conduit au premier réel marché baissier du bitcoin. Dans les jours qui ont suivi, le prix est descendu en flèche jusqu'à 6 $. Il a fini par tomber à 2 $ en novembre.
 
-Cet éclatement de la « grande bulle de 2011 » (original: "the Great Bubble of 2011") a bien évidemment attiré l'attention de la presse, qui s'est empressée de déclarer que Bitcoin était mort. Mais il a également été propice à la construction économique. La période de stagnation du prix a permis de développer des projets qui ont porté leurs fruits par la suite.
-
-Parmi ces projets, on retrouve la plateforme de trading sur marge Bitcoinica, les bourses indépendantes GLBSE et MPEx, le service d'achat BitInstant et le site de poker en ligne Seals with Clubs.
+Cet éclatement de la « grande bulle de 2011 » (original: "the Great Bubble of 2011") a bien évidemment attiré l'attention de la presse, qui s'est empressée de déclarer que Bitcoin n'était pas viable. Mais il a également été propice à la construction économique. La période de stagnation du prix a permis de développer des projets qui ont porté leurs fruits par la suite. Parmi ces projets, on retrouve la plateforme de trading sur marge Bitcoinica, les bourses indépendantes GLBSE et MPEx et le service d'achat BitInstant.
 
 ### Le traitement médiatique
 
@@ -697,7 +709,7 @@ Cette construction s'est accompagnée en parallèle d'une amélioration de l'uti
 
 # Le développement technique
 
-## L'amélioration de l'utilisation (mars 2011–nov. 2011)
+## L'amélioration de l'utilisation de Bitcoin
 
 La période du Far West de la finance a été propice à l'amélioration de l'utilisation par le développement des portefeuilles légers et des diverses manières de conserver des bitcoins. Lorsque Satoshi s'est mis en retrait en décembre 2010, les nouveaux arrivants n'avaient le choix qu'entre le logiciel principal (l'implémentation complète conservant l'intégralité de la chaine de blocs et relayant les nouvelles transactions et les nouveaux blocs) et les applications dépositaires comme MyBitcoin. Mais à partir de l'année 2011, des solutions alternatives sont apparues.
 
@@ -938,7 +950,7 @@ La période 2011–2012 a été faste pour les diverses solutions pour utiliser 
 
 La période a également été marquée par le développement des portefeuilles déterministes, reposant sur la dérivation des clés à partir d'une donnée unique appelée la graine. Le modèle a été amélioré et standardisé dans le BIP 32 au début de l'année 2012, pour ajouter une hiérarchie dans cette dérivation. Mais le mouvement ne s'est pas arrêté là, car d'autres propositions ont été publiées par la suite. Le BIP 39, publié en septembre 2013, a standardisé l'usage de la phrase mnémotechnique, inspiré de ce que faisait Electrum. Les BIP 43 et 44, ébauchés en avril 2014, ont standardisé la structure des portefeuilles conservant de multiples cryptomonnaies et de multiples comptes. Ces propositions ont été réalisées par Marek Palatinus (Slush) et Pavol Rusnak (Stick), qui travaillaient sur la fabrication du premier portefeuille matériel, le Bitcoin Trezor.
 
-Dans le prochain chapitre, nous continuerons à traiter la question du développement logiciel, en évoquant l'évolution du logiciel principal. Nous nous concentrerons sur le conflit autour de Pay to Script Hash, une fonctionnalité qui a été ajoutée au protocole en avril 2012.
+\[À REVOIR (ajouter chapitre minage)\] Dans le prochain chapitre, nous continuerons à traiter la question du développement logiciel, en évoquant l'évolution du logiciel principal. Nous nous concentrerons sur le conflit autour de Pay to Script Hash, une fonctionnalité qui a été ajoutée au protocole en avril 2012.
 
 + MultiBit ? https://bitcointalk.org/index.php?topic=43616.msg520542#msg520542
 
@@ -1072,7 +1084,7 @@ L'organisation du minage a donc considérablement évolué au cours des années 
 
 Évidemment, l'évolution du minage n'a pas concerné que l'organisation des hacheurs ; elle a aussi été celle du matériel lui-même. Si le passage du processeur central (CPU) au processeur graphique (GPU) avait déjà été une fracture, il ne faisait que préfigurer l'apparition des circuits intégrés spécialisés, ou ASIC, qui ferait faire un nouveau bond de géant à la puissance de calcul du réseau.
 
-Cette évolution finale, [prévue](https://www.metzdowd.com/pipermail/cryptography/2008-November/014815.html) par Satoshi Nakamoto de longue date, a été progressivement développée grâce aux circuits logiques programmables (FPGA), qui permettaient d'optimiser virtuellement le matériel pour la fonction de hachage de Bitcoin. Le premier algorithme ouvert pour FGPA a été [publié](https://bitcointalk.org/index.php?topic=9047.msg130885#msg130885) en mai 2011. Les ASIC ont appliqué les optimisations des FGPA aux puces elles-mêmes. La première prévente d'ASIC, réalisée par la société étasunienne Butterfly Labs, a [eu lieu](https://web.archive.org/web/20120619090952/http://news.yahoo.com/butterfly-labs-announces-next-generation-asic-lineup-054626776.html) en juin 2012. Enfin, le premier ASIC fonctionnel, l'Avalon ASIC, a été [distribué](https://bitcointalk.org/index.php?topic=137534.msg1465887#msg1465887) au grand public en janvier 2013.
+Cette évolution finale, [prévue](https://www.metzdowd.com/pipermail/cryptography/2008-November/014815.html) par Satoshi Nakamoto de longue date, a été progressivement développée grâce aux circuits logiques programmables (FPGA), qui permettaient d'optimiser virtuellement le matériel pour la fonction de hachage de Bitcoin. Le premier algorithme ouvert pour FPGA a été [publié](https://bitcointalk.org/index.php?topic=9047.msg130885#msg130885) en mai 2011. Les ASIC ont appliqué les optimisations des FPGA aux puces elles-mêmes. La première prévente d'ASIC, réalisée par la société étasunienne Butterfly Labs, a [eu lieu](https://web.archive.org/web/20120619090952/http://news.yahoo.com/butterfly-labs-announces-next-generation-asic-lineup-054626776.html) en juin 2012. Enfin, le premier ASIC fonctionnel, l'Avalon ASIC, a été [distribué](https://bitcointalk.org/index.php?topic=137534.msg1465887#msg1465887) au grand public en janvier 2013.
 
 Cependant, cette histoire mérite qu'on s'y attarde un peu plus, ce qui sera fait au sein de notre prochain cours consacré à l'essor de Bitcoin. Revenons à présent à la fin de l'année 2011, pour nous intéresser à la grande controverse qui a marqué le développement du protocole à l'époque : la bataille pour Pay to Script Hash.
 
@@ -1232,7 +1244,7 @@ Quelques jours plus tard, Gavin [expliquera](https://bitcointalk.org/index.php?t
 
 ### Le signalement des mineurs
 
-Un autre problème concerne l'activation de Pay to Script Hash en tant que telle. Pour que la mise à niveau soit rétrocompatible, il faut qu'une majorité du taux de hachage l'applique. Mais, à mesure que la fin du mois de janvier s'approche, les espoirs activer Pay to Script Hash s'amenuisent.
+Un autre problème concerne l'activation de Pay to Script Hash en tant que telle. Pour que la mise à niveau soit rétrocompatible, il faut qu'une majorité du taux de hachage l'applique. Mais, à mesure que la fin du mois de janvier s'approche, les espoirs d'activer Pay to Script Hash s'amenuisent.
 
 À l'époque, la puissance de calcul se répartit entre une [cinquantaine](https://en.bitcoin.it/w/index.php?title=Comparison_of_mining_pools&oldid=21595) de coopératives de minage, mais trois d'entre elles sortent du lot : DeepBit, BTC Guild et BitcoinCZ Mining (la coopérative de Slush). DeepBit est la coopérative dominante. Au début de l'année 2012, elle possède à elle seule environ 30 % de la puissance de calcul du réseau. Les deux autres naviguent quant à elles autour de 10–15 %.
 
@@ -1442,8 +1454,6 @@ L'année 2012 est également florissante pour Silk Road, la place de marché du 
 
 https://bitcoinmagazine.com/markets/the-next-year-in-bitcoin-what-2013-has-in-store-1357247984
 
-
-
 ### La vision de Silk Road
 
 Après son premier succès de l'été 2011, la plateforme Silk Road est devenue rentable et continue de se développer. La communauté grandit, notamment grâce au forum accessible via Tor, qui permet aux vendeurs de faire leur promotion, de partager leurs expériences et de se donner des conseils. Ross peut aussi s'exprimer librement, et développer la vision à long terme de la plateforme. Au début de l'année 2012, alors que Silk Road est enfin sur la bonne voie, les messages de Ross deviennent de plus en plus emphatiques.
@@ -1647,7 +1657,7 @@ Leur stand se situe sur la partie du terrain [appelée](https://web.archive.org/
 
 ![Visite en vidéo de l'Agora Valley au PorcFest 2012, réalisée par Johnson Rice](https://www.youtube.com/watch?v=HTiEmGvXyTw)
 
-Visite en vidéo de l'*Agora Valley* au PorcFest 2012, réalisée par Johnson Rice
+*Visite en vidéo de l'*Agora Valley* au PorcFest 2012, réalisée par Johnson Rice*
 
 En particulier, un certain George Mandrik, libertarien d'origine grecque, [propose](https://twitter.com/Mandrik/status/1488885417151807489) à la vente des gyros (sandwichs grecs proches du döner kebab) et des baklavas (desserts orientaux traditionnels), ainsi que des pancakes paléos cuits à l'huile de coco. Il réalise beaucoup de ventes grâce à une carte de dépôt de BitPay, ce qui [attire](https://bitcointalk.org/index.php?topic=89714.msg987946#msg987946) l'attention de Tony Gallippi. Mandrik sera rapidement embauché par BitInstant pour gérer le service client.
 
@@ -1661,7 +1671,7 @@ Si l'activité économique a été largement dominée par le trafic de drogue su
 
 Toutefois, ils nous reste à traiter un aspect du Far West : le jeu d'argent, les arnaques et les piratages, qui ont été au plus haut en 2012.
 
-## La monnaie du vice : le jeu d'argent et le travail du sexe
+## La monnaie du vice : jeu d'argent et travail du sexe
 
 Bitcoin est une monnaie ne nécessitant pas d'autorisation. C'est pourquoi elle a nécessairement été utilisée pour le vice, qui peut être moralement réprouvé, voire légalement interdit. Il y a évidemment la consommation de drogue, dont nous avons déjà parlé dans un chapitre précédent. Mais il y a aussi le jeu d'argent et le travail du sexe.
 
@@ -1759,7 +1769,7 @@ Bitcoin a ainsi été une monnaie du vice. Outre le trafic de drogue, il s'est r
 
 Mais cette nouvelle forme de monnaie n'était pas seulement adaptée au vice : elle était également la monnaie idéale pour le crime sur Internet. On a ainsi vu un certain nombre de piratages et de vols en tous genres se produire en 2012. C'est le sujet du prochain chapitre.
 
-## La monnaie du crime : les piratages et les arnaques
+## La monnaie du crime : piratages et arnaques
 
 En 2012, un certain nombre de piratage et de fermetures scandaleuses ont eu lieu. À tel point qu'une « liste des principaux vols, piratages, escroqueries et pertes liés à Bitcoin » (original: "List of Major Bitcoin Heists, Thefts, Hacks, Scams, and Losses") a été [créée](https://bitcointalk.org/index.php?topic=83794.msg923918#msg923918) sur le forum à la fin du mois de mai. Comme son nom l'indique, elle recensait les évènements majeurs qui interviennent. La liste est devenue si grande qu'une nouvelle version à jour a été [publiée](https://bitcointalk.org/index.php?topic=576337.msg6289796#msg6289796) en 2014.
 

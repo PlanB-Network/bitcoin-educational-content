@@ -9,22 +9,13 @@ description: Mengkonfigurasi dan menggunakan Hardware Wallet Safe 3
 *Kredit gambar: [Trezor.io](https://trezor.io/)*
 
 
-
 Trezor Safe 3 adalah Hardware Wallet yang dirancang oleh SatoshiLabs dan dibuat pada tahun 2023. Ini adalah model yang sangat ringkas dan ringan (14 gram) yang dirancang untuk pengguna pemula dan menengah. Ini adalah penerus Model One yang terkenal, dengan tambahan yang signifikan, dengan tetap mempertahankan pendekatan sumber terbuka merek yang membedakannya dari pesaing utamanya, Ledger. Safe 3 dibanderol dengan harga €79. Oleh karena itu, Safe 3 diposisikan di segmen Hardware Wallet kelas menengah, bersaing langsung dengan Ledger Nano S Plus.
-
-
 
 Safe 3 tidak memiliki baterai dan beroperasi secara eksklusif melalui koneksi USB-C, yang digunakan untuk daya dan komunikasi. Dilengkapi dengan layar OLED monokrom 0,96 inci dan dua tombol fisik.
 
-
-
 ![Image](assets/fr/01.webp)
 
-
-
 Safe 3 menawarkan semua fitur penting yang diharapkan dari sebuah Hardware Wallet yang baik, termasuk integrasi yang sangat baik dari passphrase BIP39. Namun, belum mendukung Miniscript.
-
-
 
 Model ini khususnya cocok untuk pemula, dan bahkan mungkin Hardware Wallet yang saya rekomendasikan kepada pengguna baru. Kamera ini juga cocok untuk pengguna tingkat menengah. Di sisi lain, ini mungkin tidak memenuhi semua harapan pengguna tingkat lanjut yang mencari fitur yang lebih spesifik, yang tersedia pada perangkat seperti Coldcard. Namun demikian, jika Anda tidak memerlukan opsi tingkat lanjut ini, Trezor Safe 3 mungkin merupakan pilihan yang sangat baik.
 

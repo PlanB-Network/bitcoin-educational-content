@@ -942,7 +942,7 @@ Dans le prochain chapitre, nous continuerons à traiter la question du développ
 
 + MultiBit ? https://bitcointalk.org/index.php?topic=43616.msg520542#msg520542
 
-## La poursuite de la ruée vers l'or numérique
+## L'essor des coopératives de minage
 
 Le Far West se caractérise aussi par le ruée vers l'or : la découverte d'or en Californie en 1848 avait engendré une grande migration d'aventuriers espérant faire fortune. Bitcoin ayant été associé au métal précieux dès l'origine, il est naturel qu'un tel phénomène se soit développé. C'est ainsi que l'activité du minage de bitcoins a attiré des individus passionnés qui ont, par leur intérêt pécuniaire, contribué à la rendre plus efficace au cours du temps.
 
@@ -1010,7 +1010,7 @@ Deux semaines plus tard, ces prières sont remarquées par un membre de la commu
 
 Toutefois, Luke tient compte de cette remarque et permet aux mineurs de [demander](https://web.archive.org/web/20111001015612/http://eligius.st/wiki/index.php/FAQ#What_messages_are_included_in_payout_coinbases.3F) à inclure leurs propres messages, sous réserve de son accord. Plusieurs inscriptions humoristiques sont ainsi ajoutées, dont notamment un [rickroll](https://mempool.space/block/00000000000005b71bc4c0cf24a6f00e04980c627e9409266983bd37acbe14d3). Luke abandonne la pratique au début du mois de septembre.
 
-### La centralisation du minage
+### La centralisation de l'activité minière
 
 Le regroupement en coopératives pose un problème de centralisation, car la construction des blocs est déléguée à un opérateur, qui se charge de choisir les paramètres et de sélectionner les transactions à confirmer. De plus, les plus grosses coopératives sont ainsi favorisées au détriment des plus petites, car la variance s'applique également aux groupes de mineurs, qui ont besoin d'être suffisamment importants pour ne pas en subir les effets. La centralisation du minage qui résulte de cette situation inquiète naturellement les membres de la communauté, qui la considèrent comme une menace vis-à-vis du bon fonctionnement de Bitcoin.
 
@@ -1028,7 +1028,7 @@ Et c'est ce qui se produit au début du mois de juillet, lorsque la part du taux
 
 La domination de Deepbit culmine lors de l'été, avec une part de puissance de calcul mesurée [atteignant](https://organofcorti.blogspot.com/2014/06/166-fifty-percent-club.html) 52,86 % le 5 août, et se maintient tout le reste de l'année. C'est ce qui amène la signature de la transaction de récompense, initiée par Eligius en juin, à se répandre à partir du mois de novembre. Ainsi, les coopératives BitMinter, BTC Guild et EclipseMC adoptent la pratique en novembre, et sont rejointes par des regroupements plus petits comme NMCBit ou Ozcoin. La coopérative de Slush [commence](https://mempool.space/block/000000000000032fb1005bc5de7ae276d2a91481619b7c4beb53e1ed63f71501) à le faire en janvier en signant ses blocs `/slush/`). La signature des transactions de récompense [deviendra majoritaire](https://organofcorti.blogspot.com/2013/11/162-short-post-on-mapping-historical.html) en septembre 2012. Deepbit [refusera](https://bitcointalk.org/index.php?topic=118245.msg1270292#msg1270292) cependant de le faire.
 
-### La coopérative décentralisée P2Pool
+### P2Pool, la coopérative décentralisée
 
 Un moyen de lutter contre la centralisation induite par la généralisation du minage en coopératives est le service décentralisé P2Pool. Ce dernier est [créé](https://bitcointalk.org/index.php?topic=61131.msg231927#msg231927) le 17 juin 2011 par Forrest Voight, un jeune développeur floridien de 18 ans, qui utilise le pseudonyme ForrestV et qui fréquente beaucoup IRC [depuis mars](https://buildingbitcoin.org/bitcoin-dev/log-2011-03-09.html). Il présente P2Pool comme une « coopérative décentralisée, résistante aux attaques par déni de service et protégée contre le *pool hopping* » (original: "Decentralized, DoS-resistant, Hop-Proof pool").
 
@@ -1066,45 +1066,15 @@ Cette publication fait réagir la communauté technique, comme [Luke-Jr](https:/
 
 Au fil des mois, Stratum s'impose comme le protocole utilisé par la plupart des coopératives, à commencer par BitcoinCZ Mining et BTC Guild. Le taux de hachage utilisant Stratum représente [24 %](https://web.archive.org/web/20121022072300/https://mining.bitcoin.cz/stats/) en octobre, [45 %](https://web.archive.org/web/20121125081858/https://mining.bitcoin.cz/stats/) en novembre, et atteint [74 %](https://web.archive.org/web/20121225110316/https://mining.bitcoin.cz/stats/) en décembre ! La fonction `getwork` sera progressivement [abandonnée](https://bitcointalk.org/index.php?topic=1976.msg1524107#msg1524107) au cours de l'année 2013.
 
-### Ouverture : l'apparition du minage par FPGA
+### Le minage par FPGA et par ASIC
 
-Évidemment, l'évolution du minage ne concerne pas que l'organisation des hacheurs ; elle est aussi celle du matériel lui-même
+L'organisation du minage a donc considérablement évolué au cours des années 2011–2012, en étant gérée par des coopératives plutôt que par des mineurs en solitaire. On a assisté à un véritable essor des coopératives, celles-ci étant très diverses tant par leur philosophie que par leur méthode de rémunération (proportionnelle, PPS, etc.) Ce changement a cependant provoqué une centralisation de l'activité minière, qui motivé la création du modèle de coopérative décentralisée P2Pool en juillet 2011. La communication au sein des coopératives a aussi connu une amélioration, qui s'est conclue par l'apparition du protocole léger Stratum en septembre 2012.
 
-On a aussi assisté au développement des circuits logiques programmables (FPGA), préfigurant l'apparition des premiers circuits intégrés spécialisés (ASIC), qui prendraient le relai à partir de 2013.
+Évidemment, l'évolution du minage n'a pas concerné que l'organisation des hacheurs ; elle a aussi été celle du matériel lui-même. Si le passage du processeur central (CPU) au processeur graphique (GPU) avait déjà été une fracture, il ne faisait que préfigurer l'apparition des circuits intégrés spécialisés, ou ASIC, qui ferait faire un nouveau bond de géant à la puissance de calcul du réseau.
 
-Enfin, l'évolution est matérielle.
+Cette évolution finale, [prévue](https://www.metzdowd.com/pipermail/cryptography/2008-November/014815.html) par Satoshi Nakamoto de longue date, a été progressivement développée grâce aux circuits logiques programmables (FPGA), qui permettaient d'optimiser virtuellement le matériel pour la fonction de hachage de Bitcoin. Le premier algorithme ouvert pour FGPA a été [publié](https://bitcointalk.org/index.php?topic=9047.msg130885#msg130885) en mai 2011. Les ASIC ont appliqué les optimisations des FGPA aux puces elles-mêmes. La première prévente d'ASIC, réalisée par la société étasunienne Butterfly Labs, a [eu lieu](https://web.archive.org/web/20120619090952/http://news.yahoo.com/butterfly-labs-announces-next-generation-asic-lineup-054626776.html) en juin 2012. Enfin, le premier ASIC fonctionnel, l'Avalon ASIC, a été [distribué](https://bitcointalk.org/index.php?topic=137534.msg1465887#msg1465887) au grand public en janvier 2013.
 
-Obtenir du bitcoin avec du matériel. L'expertise d'un individu permet de surperformer.
-
-Un FPGA est une forme de circuit logique programmable : field-programmable gate array (réseau de portes programmables *in situ* en français)
-
-Le 20 mai 2011, le premier FPGA (field-programmable gate array) consacré au minage est apparu. Celui-ci permettait un rendement meilleur que les cartes graphiques.
-
-20 mai 2011 Minage par FPGA en source ouverte
-
-fpgaminer "Official Open Source FPGA Bitcoin Miner (Just Released!)" [20/5/2011](https://bitcointalk.org/index.php?topic=9047.msg130885#msg130885) [archive](https://web.archive.org/web/20111128063531/https://bitcointalk.org/index.php?topic=9047.0) https://en.bitcoin.it/wiki/Open_Source_FPGA_Bitcoin_Miner
-
-Le 20 mai 2011, le premier algorithme ouvert pour FPGA est publié
-
-![Carte de développement FPGA Altera DE2-115, sortie en 2010](assets/en/terasic-altera-de2-115-fpga-development-board-2010.webp)
-
-*Carte de développement FPGA Altera DE2-115, sortie en 2010 (source : [Terasic](https://www.terasic.com.tw/cgi-bin/page/archive.pl?CategoryNo=139&No=502))*
-
-"Custom FPGA Board for Sale!" [18/08/2011](https://bitcointalk.org/index.php?topic=37904.msg465501#msg465501)
-
-"X6500 Custom FPGA Miner" [29/08/2011](https://bitcointalk.org/index.php?topic=40058.msg488292#msg488292)
-
-"BTCMiner - Open Source Bitcoin Miner for ZTEX FPGA Boards" [29/8/2011](https://bitcointalk.org/index.php?topic=40047.0)
-
-Elden Tyrell, "Spartan6-LX150 board for $250 -- gauging interest for mid-Oct ship date" [24/9/2011](https://bitcointalk.org/index.php?topic=45532.msg543312#msg543312)
-
-BFGMiner, Luke-Jr, [26/4/2012](https://bitcointalk.org/index.php?topic=78192.msg870396#msg870396), https://web.archive.org/web/20130409154534/http://bfgminer.org/
-
-La spécialisation du minage s'accroit encore plus avec le développement des FPGA et des premiers modèles d'ASIC.
-
-ASIC, Butterfly Labs, Avalon
-
-Professionnalisation du minage
+Cependant, cette histoire mérite qu'on s'y attarde un peu plus, ce qui sera fait au sein de notre prochain cours consacré à l'essor de Bitcoin. Revenons à présent à la fin de l'année 2011, pour nous intéresser à la grande controverse qui a marqué le développement du protocole à l'époque : la bataille pour Pay to Script Hash.
 
 ## La bataille pour Pay to Script Hash
 

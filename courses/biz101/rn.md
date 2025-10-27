@@ -313,26 +313,26 @@ Bitcoin irazigama neza agaciro kubera ububiko bwayo budashobora guhindurwa ngo b
 Bitcoin irahungabanya kuko idutera intege zo kwiga ivyiyumviro vyo mu biharuro, mu vy’ubuhinga bwo gukingira amakuru, mu vy’ubutunzi no mu vya kahise tutarigeze twigishwa. Naho kenshi umuntu abona ko ari ikintu gikomeye, mu vy’ukuri ni ubuhinga bushasha umuntu ashobora kuronka biciye mu gukora no mu kugerageza.
 
 
-Bitcoin iradutera intege zo gusubira kwihweza kamere y’amahera ubwayo. Woba woshobora gusigura amahera ico ari co vy’ukuri? Umukozi canke rwiyemezamirimo ahembwa yoshobora kumara amasaha 50.000 gushika ku 100.000 y’ubuzima bwiwe aronka amahera, yamara ni bangahe **batanga mbere n’amasaha 100 kugira ngo barushirize kuyatahura** no kuyazigama? Bitcoin iraturemesha kwibaza imvo nyamukuru zituma dukenera amahera be n’ukuntu tubona ivy’igihe. Amahera yoba ari ayo kwishimira ubwo nyene canke ni ayo kwihangana igihe kirekire? Iyo tugira ikintu gishimira kiduha uburenganzira bwo gutevya ivyo tugura, ni amahitamwo ayahe twogira? Ni ibiyago ibihe twokwipfuza kugirana natwe ubwacu mu myaka 20 canke 30 ikurikira?
+Bitcoin iratuma  dusubiramwo kwihweza neza kamere ka faranga. Woba woshobora gusigura amahera ico ari co vy’ukuri? Umukozi ahembwa ku kwezi  canke uwikorera ivyiwe arashobora kumara amasaha 50.000 gushika ku 100.000 y’ubuzima bwiwe akorera  amahera, yamara ni bangahe **baheba  amasaha agera kwi 100 bariko biyumvira amahera ingene akora** ukuntu bayazigama? Bitcoin iduhamagarira  kwibaza imvo nyamukuru zituma dukenera amahera be n’ukuntu  tuyabona mugihe ca none no muri kazoza . Amahera yoba ari ikintu ciza cagaciro co kwishimira mwakokanya nyene  canke ni ayo kwihanganira  igihe kirekire? Iyo uzigamye ubutunzi bwawe ikiringo kanaka amahera(bitcoin) yawe araoduza agaciro uko imisi igenda iraza  bisigura ko umuntu azoba atomboye  murikazoza , ni amahitamwo ayahe twogira? Ni ibiyago ibihe twokwipfuza kugirana natwe ubwacu mu myaka 20 canke 30 ikurikira?
 
 
-**IKARITA Y'AKANDAMUKA Bitcoin**
+**IKARITA ndaga ya bitcoin**
 
 
 - **Imyaka:** Imyaka 15 (3 Munyonyo 2009)
-- Agaciro ka Exchange ku musi: **amadolari 10 miliyaridi** (> CAC40)
+- Agaciro ka amahera azunguruka ku musi: **amadolari 10 miliyaridi** (> CAC40)
 - **Isoko ry'ubutunzi:** Amadolari 1.8 triliyoni (> Meta, Visa, Ifeza ; < Pome, Google, Inzahabu)
 - **Abakoresha:** ~100 gushika kuri 200 miliyoni (1-2% vy'abantu bo kw'isi)
-- **Uguhinduka:** Mu vy'imbere nta n'imwe (1 Bitcoin = 1 Bitcoin), ni hejuru cane hanze (mu guhindura amafaranga)
+- **Uhindagurika ryibiciro:** Mu vy'imbere nta n'imwe (1 Bitcoin = 1 Bitcoin), ni hejuru cane hanze (mu guhindura amafaranga)
 - **Ivyo ikora:** Igurisha rya mbere ku madolari 0.0009; ubu ni amadolari 100.000 (x100 miliyoni)
-- **Ububoneka bw'urubuga (igihe co gukora):** 100% kuva muri 2013
-- **Bamenyeshejwe ko bapfuye canke ko banegurwa:** Rimwe mu kwezi
+- **Ukuboneka k'urubuga (igihe co gukora):** 100% kuva muri 2013
+- **kumenyesha ko bitcoin yapfuye canke kuyinegura:** Rimwe mu kwezi
 
 
 **Igitangaza c'Ugufashanya kw'Abantu:**
 
 
-- **inkomoko yuguruye**
+- **inkomoko yugururiye kuri bose**
 - **Ikigo gitegekanijwe n'amategeko:** Ntaco
 - **Umuyobozi mukuru:** Nta n'umwe
 - **Ishoramari ry'umutungo kamere:** Nta n'umwe

@@ -25,53 +25,452 @@ Selon moi, cette configuration présente plusieurs avantages par rapport aux har
 - Vous bénéficiez d’un élément sécurisé certifié.
 - La configuration peut être réalisée intégralement en DIY, sans recours à du matériel explicitement destiné à une utilisation de Bitcoin, ce qui peut permettre une forme de déni plausible et de résistance à certaines menaces externes (y compris, selon le pays, des pressions étatiques). Cela constitue aussi une solution intéressante si l’accès aux hardware wallets commerciaux est restreint ou impossible dans votre région.
 
-## 1. Installer le firmware
+
+## 1. Matériel nécessaire
+
+Pour réaliser ce setup, vous aurez besoin des éléments suivants :  
+- Le matériel habituel nécessaire à un SeedSigner classique :
+	- un Raspberry Pi Zero avec broches GPIO,
+	- un écran Waveshare 1.3",
+	- une caméra compatible,
+	- une carte microSD.
+
+01
+
+- Le kit d’extension pour SeedSigner, disponible [sur la boutique officielle de Satochip](https://satochip.io/product/seedsigner-extension-kit/), qui permet de lire et d’écrire sur une smartcard directement depuis votre SeedSigner. Une autre option consiste à utiliser [un lecteur de carte à puce externe](https://satochip.io/product/chip-card-reader/), pouvant être connecté par câble à un port Micro-USB du Raspberry Pi. Toutefois, je n'ai pas testé cette solution de mon côté ;
+- [Un Satochip](https://satochip.io/product/satochip/), ou à défaut une [smartcard vierge](https://satochip.io/product/card-for-diy-project/) sur laquelle vous installerez l’applet du Satochip (le kit d’extension vendu par Satochip inclut déjà une smartcard vierge). Le kit d'extension proposé par Satochip prend également en charge le format [SIM JavaCard](https://satochip.io/product/blank-sim-javacard-for-diy-project/). Vous pouvez donc opter pour ce format si vous le préférez.
+
+02
+
+Pour plus de détails sur le matériel requis pour assembler un SeedSigner, je vous invite à consulter la partie 1 de cet autre tutoriel :
+
+https://planb.academy/tutorials/wallet/hardware/seedsigner-2b274bff-6fc8-407a-92d7-f6ec4d1fadfb
+
+## 2. Installer le firmware
+
+Pour utiliser votre SeedSigner avec un Satochip, il est nécessaire d’installer un firmware alternatif, différent de celui du SeedSigner original, afin d’avoir la prise en charge de la lecture des cartes à puce. Pour cela, [je vous recommande d’utiliser le fork de "*3rdIteration*"](https://github.com/3rdIteration/seedsigner). Téléchargez [la dernière version de l’image](https://github.com/3rdIteration/seedsigner/releases) (`.zip`) correspondant au modèle de Raspberry Pi que vous utilisez.
+
+03
+
+Si vous ne l'avez pas encore, téléchargez le logiciel [Balena Etcher](https://etcher.balena.io/), puis procédez comme suit :
+- Insérez la carte microSD dans votre ordinateur ;
+- Lancez Etcher ;
+- Sélectionnez le fichier `.zip` que vous venez de télécharger ;
+- Choisissez la carte microSD comme cible ;
+- Cliquez sur `Flash!`.
+
+04
+
+Patientez jusqu’à la fin du processus : votre microSD est désormais prête à l’emploi. Vous pouvez à présent passer à l’assemblage de votre appareil.
+
+Pour plus de détails concernant l’installation du firmware et la vérification du logiciel (étape que je vous recommande vivement de faire), consultez le tutoriel suivant :
+
+https://planb.academy/tutorials/wallet/hardware/seedsigner-2b274bff-6fc8-407a-92d7-f6ec4d1fadfb
+
+## 3. Assembler le lecteur de smartcard
+
+Commencez par installer la caméra sur le Raspberry Pi Zero en l’insérant délicatement dans la broche prévue à cet effet, puis verrouillez-la avec la languette noire. Placez ensuite le Pi au fond du boîtier en veillant à bien aligner les ports avec les ouvertures correspondantes.
+
+05
+
+Fixez ensuite le lecteur de carte à puce sur les broches GPIO du Raspberry Pi Zero.
+
+06
+
+Glissez le cache en plastique sur le lecteur de carte à puce jusqu’à ce qu’il soit correctement positionné.
+
+07
+
+Ajoutez ensuite l’écran sur les broches GPIO de l’extension.
+
+08
+
+Insérez enfin la carte microSD contenant le firmware dans le port latéral du Raspberry Pi Zero.
+
+09
+
+Vous pouvez désormais brancher votre SeedSigner soit via le port Micro-USB du Raspberry Pi Zero, soit via le port USB-C de l’extension. Les deux options fonctionnent. Attendez quelques secondes le temps du démarrage, puis vous devriez voir apparaître l’écran d’accueil.
+
+10
+
+Pour plus de détails sur le paramétrage initial de votre SeedSigner, je vous recommande de consulter la partie 4 du tutoriel suivant :
+
+https://planb.academy/tutorials/wallet/hardware/seedsigner-2b274bff-6fc8-407a-92d7-f6ec4d1fadfb
 
 
+## 4. Flasher une smartcard avec l’applet Satochip (optionnel)
+
+Si vous possédez déjà un Satochip, vous pouvez passer cette étape et aller directement à l’étape 4. Dans cette section, nous allons voir comment installer l’applet du Satochip sur une smartcard vierge (méthode DIY). L'applet, c'est simplement un petit programme exécuté sur la carte à puce qui va nous permettre de gérer des fonctions spécifiques.
+
+Pour commencer, ouvrez le menu `Tools > Smartcard Tools` sur votre SeedSigner.
+
+11
+
+Sélectionnez ensuite `DIY Tools > Install Applet`.
+
+12
+
+Insérez votre smartcard dans le lecteur du SeedSigner, puce orientée vers le bas, puis choisissez l’applet `Satochip`.
+
+13
+
+Patientez pendant l’installation : le processus peut durer quelques dizaines de secondes.
+
+14
+
+Une fois l’applet installée avec succès, vous pouvez passer à l’étape 4.
+
+15
 
 
+## 5. Création et sauvegarde de la seed
 
-## 2. Assembler le lecteur de smartcard
+### 5.1. Générer la seed
 
+À présent que tout votre matériel est prêt et que les logiciels fonctionnent correctement, vous pouvez procéder à la création de votre portefeuille Bitcoin. Pour cela, branchez votre SeedSigner, puis générez votre seed comme avec un SeedSigner classique, soit par un lancer de dés, soit en prenant une photo :
+- Accédez au menu `Tools > Camera / Dice Rolls` ;
+- Suivez ensuite le processus de génération de l’entropie selon la méthode choisie ;
+- Sauvegardez enfin la seed sur un support physique et vérifiez soigneusement cette sauvegarde.
 
+16
 
+Si vous souhaitez consulter le détail de cette procédure, je vous invite à suivre la partie 5 de ce tutoriel :
 
-## 3. Flasher une smartcard avec l’applet Satochip (optionnel)
+https://planb.academy/tutorials/wallet/hardware/seedsigner-2b274bff-6fc8-407a-92d7-f6ec4d1fadfb
 
+### 5.2. Sauvegarder la seed sur un Seedkeeper
 
+Une fois la seed générée, c’est le seul moment où elle réside dans la mémoire vive du SeedSigner. Dans mon cas, je souhaite la sauvegarder sur un [Seedkeeper](https://satochip.io/product/seedkeeper/), un autre produit de Satochip conçu pour stocker des secrets. J’utiliserai ce dispositif comme solution de dernier recours, en cas de perte de mon Satochip.
 
+La stratégie de sauvegarde choisie ici dépend de vos préférences, mais il est impératif de disposer d’au moins une copie de votre phrase mnémonique, que ce soit sur un support physique (papier ou métal) ou, comme ici, dans un Seedkeeper. Vous pouvez également multiplier les sauvegardes selon vos besoins. Pour plus d'informations sur les stratégies de sauvegarde de portefeuille, je vous suggère de lire ce tutoriel :
 
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-## 4. Création et sauvegarde de la seed
+Pour sauvegarder votre seed sur un Seedkeeper, rendez-vous directement dans le menu `Backup Seed`.
 
+17
 
+Insérez ensuite votre Seedkeeper dans le lecteur de carte à puce, puis sélectionnez `To SeedKeeper`.
 
+18
 
-## 5. Importer le wallet dans Sparrow
+Entrez votre code PIN pour le déverrouiller.
 
+19
 
+Choisissez un `Label` afin d’identifier facilement vos différents secrets enregistrés sur le Seedkeeper. Vous pouvez, par exemple, conserver simplement l’empreinte du portefeuille ou indiquer explicitement `Seed`. Le choix dépend de votre préférence et de vos risques.
 
-## 6. Recevoir et envoyer des bitcoins
+20
 
+Si votre stratégie de sauvegarde repose uniquement sur ce Seedkeeper, je vous recommande vivement d’effectuer un test de récupération à vide dès maintenant, puis de comparer les empreintes pour vérifier que la sauvegarde est bien fonctionnelle.
 
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
-## 7. Explorer les adresses de réception
+Concernant le choix du code PIN du Seedkeeper, il doit être aussi long et aléatoire que possible, afin de prévenir toute tentative de brute force en cas de compromission physique de la carte. Veillez également à conserver une copie de secours de ce code PIN, stockée à un endroit distinct du Seedkeeper. Sans ce code PIN, il vous sera impossible d’accéder à la phrase mnémonique stockée dans le Seedkeeper, et vos bitcoins seraient alors définitivement perdus.
 
+### 5.3. Sauvegarder la seed sur le Satochip
 
+Maintenant que votre portefeuille a été généré, sauvegardé et vérifié, nous allons le transférer sur le Satochip. Pour cela, veillez à ce que la seed soit bien chargée dans la mémoire vive du SeedSigner. Rendez-vous ensuite dans le menu `Tools > Smartcard Tools > Satochip Functions`.
 
+21
+
+Insérez votre Satochip dans le lecteur de carte à puce, puis sélectionnez `Initialise with Seed`.
+
+22
+
+Le dispositif vous demande d’indiquer le code PIN du Satochip ; comme la carte est neuve et non initialisée, aucun PIN n’existe encore. Saisissez donc un code quelconque pour passer cette étape (elle n’est pas bloquante).
+
+23
+
+Le SeedSigner détecte que votre Satochip n’a pas été initialisé. Cliquez sur `I Understand` pour confirmer.
+
+24
+
+Vous pourrez alors définir le code PIN du Satochip, entre 4 et 16 caractères. Pour renforcer la sécurité de votre portefeuille, privilégiez un code long et aléatoire : c’est la seule protection contre les accès physiques à votre phrase mnémonique.
+
+Pensez à sauvegarder ce code PIN dès sa création, soit dans un gestionnaire de mots de passe sécurisé, soit sur un support physique, selon votre stratégie personnelle. Dans ce dernier cas, veillez à ne jamais stocker le support contenant le PIN au même endroit que votre Satochip, sans quoi la protection deviendrait inutile. Il est important de disposer d’une copie de secours : **sans ce code PIN, vous ne pourrez plus accéder à votre seed, et vos bitcoins seraient définitivement perdus**.
+
+25
+
+Le SeedSigner vous demande ensuite quelle seed importer dans le Satochip. Sélectionnez celle dont l’empreinte correspond au portefeuille que vous venez tout juste de créer.
+
+26
+
+Votre seed est désormais importée dans le Satochip.
+
+27
+
+Vous pouvez à présent éteindre votre SeedSigner.
+
+## 6. Importer le wallet dans Sparrow
+
+Maintenant que votre portefeuille est fonctionnel, nous allons importer ses informations publiques (le "keystore") dans Sparrow Wallet ou dans un autre logiciel de gestion de portefeuille. Ce logiciel servira à créer, diffuser et suivre vos transactions. En revanche, il ne pourra pas les signer, car seules le Satochip (et vos éventuelles sauvegardes) détiennent les clés privées nécessaires à cette opération.
+
+### 6.1 Préparation du SeedSigner et du Satochip
+
+Insérez la carte microSD contenant le système d’exploitation, puis allumez votre SeedSigner. Pour l’instant, celui-ci ne peut rien faire, car il ne connaît pas encore votre seed. Il faut donc commencer par insérer le Satochip dans le lecteur de carte à puce, puisque c’est lui qui détient cette seed.
+
+Depuis l’écran d’accueil, accédez au menu `Tools > Smartcard Tools > Satochip Functions`.
+
+28
+
+Cliquez ensuite sur `Export Xpub`.
+
+29
+
+Choisissez le type de portefeuille. Dans notre cas, il s’agit d’un portefeuille simple : sélectionnez donc `Single Sig`.
+
+30
+
+Vient ensuite le choix du standard de script. Choisissez le plus récent : `Native SegWit`.
+
+31
+
+Enfin, sélectionnez le `Coordinator`, c’est-à-dire le logiciel de gestion de portefeuille que vous souhaitez utiliser. Ici, nous utiliserons Sparrow Wallet.
+
+32
+
+Un message d’avertissement s’affiche : c’est tout à fait normal. La clé publique étendue (`xpub`) permet de visualiser l’ensemble des adresses dérivées de votre seed (sur le premier compte). Elle ne donne toutefois aucun accès à vos fonds : sa divulgation compromettrait votre vie privée, mais pas la sécurité de vos bitcoins. En d’autres termes, elle permet d’observer vos soldes, mais pas de les dépenser.
+
+Cliquez sur `I Understand`.
+
+33
+
+Saisissez ensuite le code PIN de votre Satochip pour le déverrouiller. Il s’agit du code que vous aviez défini et sauvegardé à l’étape 5.
+
+34
+
+Cliquez enfin sur `Export Xpub` si les informations affichées vous conviennent.
+
+35
+
+Le SeedSigner génère alors votre xpub sous la forme d’un QR code dynamique, contenant toutes les données nécessaires à la gestion de votre portefeuille dans Sparrow Wallet. Vous pouvez ajuster la luminosité de l’écran à l’aide du joystick afin de faciliter le scan du QR code.
+
+### 6.2 Importer un nouveau portefeuille dans Sparrow Wallet
+
+Assurez-vous que le logiciel Sparrow Wallet est installé sur votre ordinateur. Si vous ne savez pas comment le télécharger, vérifier son authenticité et l’installer correctement, consultez notre tutoriel complet à ce sujet :
+
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+
+Sur votre ordinateur, ouvrez Sparrow Wallet, puis dans la barre de menu, cliquez sur `File → Import Wallet`.
+
+36
+
+Faites défiler la liste jusqu’à l’option `SeedSigner`, puis sélectionnez `Scan...`. Votre webcam s’activera : scannez alors le QR code dynamique affiché sur l’écran de votre SeedSigner.
+
+37
+
+Attribuez un nom à votre portefeuille, puis cliquez sur `Create Wallet`. Sparrow vous demandera ensuite de définir un mot de passe pour verrouiller l’accès local à ce portefeuille. Choisissez un mot de passe fort : il protège vos données dans Sparrow (clés publiques, adresses, labels et historique des transactions). Ce mot de passe n’est toutefois pas nécessaire pour restaurer le portefeuille dans le futur : seule votre phrase mnémonique (et éventuellement votre passphrase) le sera.
+
+Je vous recommande de sauvegarder ce mot de passe dans un gestionnaire de mots de passe, afin d’éviter de le perdre.
+
+38
+
+Votre keystore a été importé avec succès.
+
+39
+
+Vérifiez maintenant que la `Master fingerprint` affichée dans Sparrow Wallet correspond bien à celle relevée précédemment sur votre SeedSigner.
+
+Le SeedSigner vous demandera ensuite de scanner une adresse de réception aléatoire depuis votre portefeuille Sparrow afin de confirmer la validité de l’importation.
+
+40
+
+Votre Satochip (via le SeedSigner) et Sparrow Wallet sont désormais connectés de manière sécurisée. Sparrow sert d’interface de gestion complète, tandis que le Satochip demeure le seul appareil capable de signer vos transactions. Vous êtes à présent prêt à recevoir et à envoyer des bitcoins dans une configuration totalement air-gapped.
+
+41
+
+## 7. Recevoir et envoyer des bitcoins
+
+Votre Satochip et Sparrow Wallet sont désormais configurés pour fonctionner ensemble. Dans cette section, nous allons détailler pas à pas comment recevoir puis envoyer des bitcoins dans ce mode d'utilisation.
+
+### 7.1 Recevoir des bitcoins
+
+#### 7.1.1 Génération d’une adresse de réception
+
+Sur votre ordinateur, ouvrez Sparrow Wallet et déverrouillez votre portefeuille `Satochip-SeedSigner` à l’aide de votre mot de passe. Vérifiez que le logiciel est bien connecté à un serveur (indicateur en bas à droite). Puis, dans la barre latérale, cliquez sur `Receive`.
+
+42
+
+Une nouvelle adresse Bitcoin apparaît. Vous y trouverez :
+* L’adresse au format texte (commençant par `bc1q…` si vous utilisez P2WPKH, comme dans cet exemple) ;
+* Le QR code associé ;
+* Un champ `Label`, utile pour la traçabilité de vos transactions.
+
+Je vous recommande fortement d’ajouter un label à chaque réception de bitcoins dans votre portefeuille. Cela vous aidera à identifier facilement la provenance de chaque UTXO et à mieux gérer votre confidentialité. Pour aller plus loin sur ce sujet important, consultez la formation dédiée sur Plan ₿ Academy :
+
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+
+Pour ajouter un label, saisissez simplement un nom dans le champ `Label`, puis validez.
+
+Par exemple :
+
+```txt
+Label : Sale of the Raspberry Pi Zero
+```
+
+Votre adresse est désormais associée à ce label dans toutes les sections de Sparrow.
+
+43
+
+#### 7.1.2 Vérification de l’adresse sur le SeedSigner
+
+Avant de communiquer votre adresse de réception au payeur, il est important de vérifier qu’elle appartient bien à votre seed. Cette étape garantit que votre Satochip pourra ensuite signer les transactions associées à cette adresse. Elle prévient également les attaques potentielles où Sparrow afficherait une adresse frauduleuse. Gardez à l’esprit que Sparrow s’exécute sur un environnement non sécurisé (votre ordinateur), dont la surface d’attaque est bien plus importante que celle de votre Satochip, qui est totalement isolé. C’est pourquoi vous ne devez jamais faire confiance aveuglément aux adresses affichées dans Sparrow avant de les vérifier sur votre hardware wallet.
+
+Dans Sparrow, cliquez sur le QR code de l’adresse pour l’agrandir : il s’affichera alors en plein écran.
+
+44
+
+Sur votre SeedSigner, insérez le Satochip dans le lecteur, puis depuis le menu principal, sélectionnez `Scan`. Scannez le QR code affiché sur votre ordinateur, puis choisissez `Use Satochip card`.
+
+45
+
+Confirmez ensuite le type de script utilisé (ici, `Native SegWit`), saisissez le code PIN du Satochip pour le déverrouiller, puis validez les informations relatives à la `xpub`.
+
+46
+
+Si l’adresse scannée correspond bien à celle dérivée de votre seed, le SeedSigner affichera le message : `Address Verified`.
+
+47
+
+Vous pouvez alors être certain que l’adresse appartient bien à votre portefeuille.
+
+#### 7.1.3 Réception des fonds
+
+Vous pouvez désormais transmettre cette adresse sous forme de texte ou via son QR code à la personne ou au service qui doit vous envoyer des sats. Une fois la transaction diffusée sur le réseau, elle s’affichera dans l’onglet `Transactions` de Sparrow Wallet.
+
+48
+
+### 7.2 Envoyer des bitcoins
+
+L’envoi de bitcoins avec la configuration Satochip-SeedSigner s’effectue en 3 étapes :
+- La création de la transaction dans Sparrow ;
+- La signature de cette transaction sur le Satochip, via le SeedSigner ;
+- Enfin, la diffusion de la transaction sur le réseau depuis Sparrow.
+
+Tous les échanges entre les deux appareils se déroulent exclusivement par le biais de QR codes.
+
+#### 7.2.1 Créer la transaction dans Sparrow
+
+Dans Sparrow Wallet, vous pouvez créer une transaction en cliquant sur l’onglet `Send` dans la barre latérale gauche. Cependant, je préfère utiliser l’onglet `UTXOs`, qui permet de pratiquer le *Coin Control*. Cette méthode offre un contrôle précis sur les UTXOs dépensés, afin de limiter les informations révélées lors de vos transactions.
+
+Dans l’onglet `UTXOs`, sélectionnez les pièces que vous souhaitez dépenser, puis cliquez sur `Send Selected`.
+
+49
+
+Remplissez ensuite les champs de la transaction :
+- Dans `Pay to`, collez l’adresse du destinataire ou scannez son QR code à l’aide de l’icône d’appareil photo ;
+- Dans `Label`, ajoutez une étiquette pour tracer cette dépense ;
+- Dans `Amount`, indiquez le montant à envoyer ;
+- Choisissez enfin le taux de frais selon les conditions actuelles du réseau (vous pouvez consulter les estimations sur [mempool.space](https://mempool.space/)).
+
+Une fois tous les champs complétés, relisez attentivement les informations, puis cliquez sur `Create Transaction >>`.
+
+50
+
+Vérifiez une dernière fois les détails de la transaction pour vous assurer de leur exactitude, puis cliquez sur `Finalize Transaction for Signing`.
+
+51
+
+La transaction est désormais prête, mais elle n’a pas encore été signée. Pour afficher la [PSBT (*Partially Signed Bitcoin Transaction*)](https://planb.academy/en/resources/glossary/psbt) sous forme de QR code, cliquez sur `Show QR`.
+
+52
+
+#### 7.2.2 Signer la transaction avec le Satochip
+
+Allumez votre SeedSigner et insérez votre Satochip comme d'habitude. Depuis l’écran d’accueil, sélectionnez `Scan`, puis scannez le QR code affiché sur Sparrow.
+
+53
+
+Choisissez l’option `Use Satochip card`.
+
+54
+
+Saisissez votre code PIN pour déverrouiller la smartcard.
+
+55
+
+Le SeedSigner détecte qu’il s’agit d’une PSBT et affiche un résumé de la transaction :
+   * Le montant envoyé,
+   * Les adresses de destination,
+   * Les frais de transaction associés.
+
+Cliquez sur `Review Details` et examinez minutieusement toutes les informations directement sur l’écran du SeedSigner. Les points les plus importants à vérifier sont les montants envoyés, les adresses de destination et le montant des frais de transaction.
+
+56
+
+Si tout est conforme, sélectionnez `Approve PSBT` pour signer la transaction à l’aide du Satochip.
+
+57
+
+Une fois la signature terminée, le SeedSigner génère un nouveau QR code contenant la transaction signée, prêt à être scanné par Sparrow.
+
+#### 7.2.3 Diffuser la transaction depuis Sparrow
+
+La transaction étant désormais signée et valide, il reste à la diffuser sur le réseau Bitcoin afin qu’un mineur puisse l’inclure dans un bloc. Dans Sparrow, cliquez sur `Scan QR`.
+
+58
+
+Présentez à la webcam le QR code affiché sur votre SeedSigner (celui contenant la transaction signée). Sparrow affichera alors l’ensemble des détails de la transaction. Vérifiez une dernière fois l’exactitude de toutes les informations, puis cliquez sur `Broadcast Transaction` pour la diffuser sur le réseau Bitcoin.
+
+59
+
+Votre transaction est maintenant transmise au réseau. Vous pouvez suivre ses confirmations dans l’onglet `Transactions` de Sparrow Wallet.
+
+60
 
 ## 8. Récupérer son portefeuille
 
+Comme nous l’avons vu dans les sections précédentes, selon votre stratégie de sécurisation, il existe plusieurs manières de sauvegarder votre phrase de récupération en complément de votre Satochip :
+- En utilisant un *SeedQR* classique avec le SeedSigner ;
+- En notant la phrase mnémonique sur un support physique ;
+- Ou encore en la stockant sur un Seedkeeper, comme expliqué dans la partie 5.2.
+
+Dans tous les cas, 2 situations principales peuvent se présenter et nécessitent une intervention de votre part : la perte du Satochip ou la perte du SeedSigner. Examinons ensemble comment réagir dans chacun de ces scénarios.
 
 ### 8.1. Récupérer son portefeuille avec le Satochip
 
+Si vous avez toujours votre Satochip mais que votre SeedSigner est cassé ou perdu, la situation est assez simple à gérer, puisque votre portefeuille est toujours présent dans le Satochip.
 
+La meilleure option consiste à recommander les composants nécessaires et reconstruire un nouveau SeedSigner à partir de zéro. Comme il s’agit d’un appareil "stateless", peu importe que vous utilisiez le même ou un autre SeedSigner : dès lors que vous pouvez y insérer votre Satochip, tout fonctionnera normalement.
 
+Si vous ne souhaitez pas en reconstruire un, vous pouvez également utiliser votre Satochip de manière classique, c’est-à-dire directement depuis votre ordinateur, sans passer par le SeedSigner. Cette méthode fonctionne parfaitement, mais elle réduit considérablement la sécurité de votre portefeuille Bitcoin : vous perdez l’isolation "air-gapped" et devez désormais signer à l’aveugle, puisque le SeedSigner jouait le rôle d’écran de confiance. Cela peut néanmoins constituer une solution temporaire en cas d’urgence ou d’impossibilité de reconstruire un SeedSigner.
+
+Pour procéder ainsi, munissez-vous d’un lecteur de carte à puce ou NFC en USB. Ouvrez ensuite dans Sparrow le portefeuille que vous souhaitez restaurer, puis rendez-vous dans l’onglet `Settings` et cliquez sur `Replace`.
+
+61
+
+Insérez votre Satochip dans le lecteur de carte à puce connecté à l’ordinateur, puis cliquez sur `Import` à côté de `Satochip`.
+
+62
+
+Saisissez enfin le code PIN de votre smartcard pour la déverrouiller. Vous pourrez alors accéder à votre portefeuille, créer des transactions et les signer directement à l’aide du Satochip branché.
 
 ### 8.2. Récupérer son portefeuille avec le SeedSigner
 
+L’autre cas de figure, plus délicat à gérer, est celui où vous perdez l’accès à votre Satochip contenant la seed : qu’il soit cassé, perdu, volé, ou que vous ayez oublié son code PIN. Si votre Satochip a été volé ou égaré, il est fortement recommandé, une fois l’accès à vos fonds rétabli, de transférer immédiatement vos bitcoins vers un tout nouveau portefeuille, généré avec une seed différente. Cela garantit qu’un éventuel attaquant ne puisse jamais accéder à vos sats.
 
+Pour retrouver l’accès à votre portefeuille et déplacer vos fonds, il vous suffit de charger votre seed dans le SeedSigner. Selon le support de sauvegarde que vous avez utilisé, plusieurs options s’offrent à vous :
 
+- Entrer manuellement votre phrase mnémonique en vous rendant dans le menu `Seeds > Enter 12-word seed`.
 
+63
 
+- Scanner votre *SeedQR* en cliquant sur le bouton `Scan` depuis la page d’accueil.
 
+64
+
+- Ou bien charger votre seed depuis un Seedkeeper, via le menu `Seeds > From SeedKeeper` (c’est la méthode que j’utilise dans ce tutoriel). Il vous faudra simplement saisir le code PIN du Seedkeeper et sélectionner le secret à utiliser comme seed sur le SeedSigner.
+
+65
+
+Une fois la seed chargée dans le SeedSigner, quelle que soit la méthode, vous pourrez signer une ou plusieurs transactions de balayage afin de déplacer vos bitcoins vers un nouveau portefeuille non compromis. Pour savoir comment effectuer cette opération, consultez la partie 7.2 du tutoriel suivant :
+
+https://planb.academy/tutorials/wallet/hardware/seedsigner-2b274bff-6fc8-407a-92d7-f6ec4d1fadfb
+
+Vous savez désormais comment utiliser le Satochip pour gérer votre portefeuille Bitcoin de manière sécurisée en combinaison avec le SeedSigner.
+
+Si ce setup vous a convaincu, n’hésitez pas à soutenir les projets qui le rendent possible :  
+- En achetant votre matériel directement [sur le site de Satochip](https://satochip.io/shop/) ;
+- En effectuant [un don au projet SeedSigner](https://seedsigner.com/donate/) ;
+- En vous abonnant à [la chaîne YouTube de Crypto Guide](https://www.youtube.com/@CryptoGuide/), tenue par la personne qui maintient le dépôt GitHub hébergeant le firmware modifié que nous avons utilisé dans ce tutoriel.

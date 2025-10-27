@@ -1,12 +1,12 @@
 ---
 name: Wasabi Wallet
 
-description: pelajari cara mengembalikan privasi Anda
+description: Pelajari Cara Mengembalikan Privasi Anda
 ---
 
 ![wasabi](assets/cover.webp)
 
-Dompet Bitcoin yang berfokus pada privasi, non-custodial, open-source untuk Desktop
+Dompet Bitcoin yang berfokus pada privasi, non-custodial, dan open-source untuk Desktop
 https://www.wasabiwallet.io/
 
 Panduan dalam pembuatan

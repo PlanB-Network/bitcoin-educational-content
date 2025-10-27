@@ -456,7 +456,7 @@ Vient ensuite le choix du standard de script. Le plus récent et le plus économ
 
 ![Image](assets/fr/050.webp)
 
-Un message d’avertissement apparaîtra. C’est normal : cette clé publique étendue (`xpub`) permet de visualiser toutes les adresses dérivées de votre seed (sur le premier compte). Elle ne permet pas de dépenser vos fonds, mais elle révèle la structure de votre portefeuille. Si jamais elle fuite, c'est un problème pour votre vie privée, mais pour la sécurité de vos bitcoins : elle permet de les voir, mais pas de les dépenser.
+Un message d’avertissement apparaîtra. C’est normal : cette clé publique étendue (`xpub`) permet de visualiser toutes les adresses dérivées de votre seed (sur le premier compte). Elle ne permet pas de dépenser vos fonds, mais elle révèle la structure de votre portefeuille. Si jamais elle fuite, c'est un problème pour votre vie privée, mais pas pour la sécurité de vos bitcoins : elle permet de les voir, mais pas de les dépenser.
 
 Cliquez sur `I Understand`, puis sur `Export Xpub` si les informations affichées vous conviennent.
 

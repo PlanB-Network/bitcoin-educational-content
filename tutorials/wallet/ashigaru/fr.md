@@ -30,7 +30,7 @@ Ashigaru est disponible en version mobile via son application, que nous allons e
 
 Je vous propose que, dans ce tutoriel, nous découvrions ensemble l’utilisation de base d’Ashigaru : installation, connexion au Dojo, sauvegarde, réception et envoi de bitcoins. Les outils avancés seront présentés dans d’autres tutoriels dédiés.
 
-## 1. Prérequis
+## 1. Prérequis pour Ashigaru
 
 L’application nécessite quelques prérequis pour fonctionner correctement. Tout d’abord, il ne s’agit pas d’une application disponible sur les boutiques classiques comme le Google Play Store ou l’App Store. Elle s’installe manuellement sur votre téléphone uniquement à partir de son fichier `.apk`, téléchargeable via le réseau Tor. Par conséquent, si vous utilisez un iPhone, cette méthode ne fonctionnera pas : il vous faut impérativement un appareil Android.
 
@@ -97,7 +97,7 @@ Pour installer l’application, ouvrez le gestionnaire de fichiers de votre tél
 
 Ashigaru est désormais installé sur votre téléphone.
 
-## 3. Initialisation et création du portefeuille Bitcoin
+## 3. Initialiser l'app et créer un portefeuille Bitcoin
 
 Lors du premier lancement de l’application, sélectionnez `MAINNET`.
 
@@ -111,7 +111,7 @@ Nous allons maintenant créer un nouveau portefeuille Bitcoin. Appuyez sur le bo
 
 14
 
-### 3.1. Création d'un wallet
+### 3.1. Créer un portefeuille Bitcoin
 
 Ashigaru fonctionne obligatoirement avec une passphrase BIP39. Choisissez votre passphrase et saisissez-la dans les champs correspondants. Elle doit être aussi longue et aléatoire que possible afin de résister à une attaque par brute force.
 
@@ -147,7 +147,7 @@ Ashigaru vous demande ensuite de confirmer une nouvelle fois votre passphrase. P
 
 18
 
-### 3.2. Connexion d'un Dojo
+### 3.2. Connecter un Dojo
 
 Vient ensuite l’étape de connexion à votre Dojo. Comme expliqué en introduction, Ashigaru doit être relié à un Dojo pour pouvoir interagir avec le réseau Bitcoin.
 
@@ -171,7 +171,7 @@ Avant d’aller plus loin, je vous recommande de réaliser un test de récupéra
 
 https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
-## 4. Paramétrage d'Ashigaru
+## 4. Paramétrer l'application Ashigaru
 
 
 

@@ -202,6 +202,10 @@ Votre seed est désormais importée dans le Satochip.
 
 Vous pouvez à présent éteindre votre SeedSigner.
 
+Si vous souhaitez utiliser une passphrase BIP39 pour renforcer la sécurité de votre portefeuille, vous pouvez consulter la partie 6 de ce tutoriel :
+
+https://planb.academy/tutorials/wallet/hardware/seedkeeper-seedsigner-45cca4c4-1f22-46bb-87ae-9cddb68aa579
+
 ## 6. Importer le wallet dans Sparrow
 
 Maintenant que votre portefeuille est fonctionnel, nous allons importer ses informations publiques (le "keystore") dans Sparrow Wallet ou dans un autre logiciel de gestion de portefeuille. Ce logiciel servira à créer, diffuser et suivre vos transactions. En revanche, il ne pourra pas les signer, car seules le Satochip (et vos éventuelles sauvegardes) détiennent les clés privées nécessaires à cette opération.

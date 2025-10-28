@@ -1,13 +1,11 @@
 ---
-name: Itifaki ya RGB, kutoka kwa nadharia hadi mazoezi
+name: Uprogramu wa RGB
 goal: Pata ujuzi unaohitajika kuelewa na kutumia RGB
-objectives: 
-
-  - Kuelewa dhana za kimsingi za itifaki ya RGB
-  - Bidii kanuni za ahadi za Client-side Validation na Bitcoin
-  - Jifunze jinsi ya kuunda, kudhibiti na kuhamisha mikataba ya RGB
-  - Jinsi ya kuendesha nodi ya lightening inayoendana na RGB
-
+objectives:
+- Kuelewa dhana za kimsingi za itifaki ya RGB
+- Bidii kanuni za ahadi za Client-side Validation na Bitcoin
+- Jifunze jinsi ya kuunda, kudhibiti na kuhamisha mikataba ya RGB
+- Jinsi ya kuendesha nodi ya lightening inayoendana na RGB
 ---
 # Kugundua itifaki ya RGB
 

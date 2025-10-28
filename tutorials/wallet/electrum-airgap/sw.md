@@ -10,17 +10,17 @@ description: Hatua ya kwanza kuelekea usalama, cold wallet na Electrum
 
 
 
-Katika somo hili nitaeleza jinsi ya kutengeneza kifaa chako cha kwanza cha kutia sahihi kwenye airgap, kitenganishwe kwenye Mtandao, hata bila kuwa na Hardware Wallet maalum. Unachohitaji ni kuwa na kompyuta mbili zinazopatikana:
+Katika somo hili nitaeleza jinsi ya kutengeneza kifaa chako cha kwanza cha kusaini kwenye airgap, kikitengwa na mtandao, hata bila kuwa na Hardware Wallet maalum. Unachohitaji ni kuwa na kompyuta mbili zinazopatikana:
 
 
 
 
-- kifaa cha zamani cha kuzuiwa milele kuunganisha kwenye mtandao;
-- kompyuta yako ya matumizi ya kila siku.
+- kifaa cha zamani cha kilichokatishwa kabisa kutoka kwenye mtandao;
+- kompyuta unayotumia kila siku.
 
 
 
-Usanidi huu unaruhusu kiwango kikubwa cha usalama kuliko `Hot Wallet` ya kawaida: kompyuta ya zamani--bila muunganisho wa mtandao--ndio mlinzi wa funguo zako za faragha, ambazo hazijafichuliwa kamwe kwenye Mtandao, lakini huhifadhiwa nje ya mtandao ("airgap" au "Cold").
+Usanidi huu unaruhusu kiwango kikubwa cha usalama kuliko `Hot Wallet` ya kawaida: kompyuta ya zamani--bila muunganisho wa mtandao--ndio mlinzi wa funguo zako za faragha, ambazo hazijafichuliwa kamwe kwenye mtandao, lakini huhifadhiwa nje ya mtandao ("airgap" au "Cold").
 
 
 
@@ -32,11 +32,11 @@ Badala yake, utaweka maonyesho ya Wallet ("kutazama tu") kwenye kompyuta yako ya
 
 
 
-Kwa kutekeleza hatua katika mwongozo huu, tutasakinisha Software Wallet Electrum mbili kwenye kompyuta mbili tofauti na hatimaye kuunda Pochi mbili zilizo na vitufe tofauti: Wallet airgap itatumia safu nzima ya Wallet HD, huku onyesho la Wallet litatolewa kwa ufunguo mkuu wa umma.
+Kwa kutekeleza hatua katika mwongozo huu, tutasakinisha Software Wallet Electrum mbili kwenye kompyuta mbili tofauti na hatimaye kuunda Wallet mbili zilizo na vitufe tofauti: Wallet airgap itatumia safu nzima ya Wallet HD, huku onyesho la Wallet litatolewa kwa ufunguo mkuu wa umma.
 
 
 
-Pochi hizi mbili zitakuwa, kwa njia zote, tofauti sana kutoka kwa kila mmoja. Kitu pekee ambacho watakuwa nacho kwa pamoja, kama tutakavyoona, ni anwani:
+Wallet hizi mbili zitakuwa, kwa njia zote, tofauti sana kutoka kwa kila mmoja. Kitu pekee ambacho watakuwa nacho kwa pamoja, kama tutakavyoona, ni anwani:
 
 
 
@@ -64,7 +64,7 @@ Operesheni ya usanidi wa "Seva Moja" ni muhimu tu kwa Wallet iliyowekwa kwenye k
 
 
 
-Shughuli zifuatazo zinahusisha kufanya mazoezi kwenye kompyuta mbili tofauti (na Pochi), kwa urahisi na kuzingatia-nilichagua kuweka nafasi ya anga ya Wallet yenye mandhari nyepesi, huku onyesho la Wallet lina mandhari meusi.
+Shughuli zifuatazo zinahusisha kufanya mazoezi kwenye kompyuta mbili tofauti (na Wallet), kwa urahisi na kuzingatia-nilichagua kuweka nafasi ya anga ya Wallet yenye mandhari nyepesi, huku onyesho la Wallet lina mandhari meusi.
 
 
 
@@ -92,7 +92,7 @@ Chagua _Wallet ya kawaida_.
 
 
 
-Na kisha chagua _Unda mbegu mpya_ ili kuwa na programu ya generate the Mnemonic.
+Na kisha chagua _Create new seed_ ili kuwa na programu ya generate the Mnemonic.
 
 
 
@@ -156,7 +156,7 @@ Kumbuka kwamba unachukua data hii kutoka kwa kompyuta ambayo haijaunganishwa, kw
 
 
 
-Sasa unaweza kuhamia kwenye kompyuta iliyounganishwa kwenye Mtandao, ili kuzindua Electrum na kuunda Wallet mpya.
+Sasa unaweza kuhamia kwenye kompyuta iliyounganishwa kwenye mtandao, ili kuzindua Electrum na kuunda Wallet mpya.
 
 
 
@@ -228,7 +228,7 @@ Kama tulivyojifunza mwanzoni mwa mwongozo huu, Wallet airgap na onyesho lake la 
 
 
 
-Ikiwa tunatazama Pochi mbili kwa upande, kwa kuibua tunagundua kuwa kwenye nafasi ya hewa ya Wallet kuna alama ya "seed", wakati kwenye saa-pekee haipo. Hata maelezo haya yatakusaidia kukumbuka kuwa onyesho la Wallet Wallet haina funguo za kibinafsi.
+Ikiwa tunatazama Wallet mbili kwa upande, kwa kuibua tunagundua kuwa kwenye nafasi ya hewa ya Wallet kuna alama ya "seed", wakati kwenye saa-pekee haipo. Hata maelezo haya yatakusaidia kukumbuka kuwa onyesho la Wallet Wallet haina funguo za kibinafsi.
 
 
 
@@ -236,7 +236,7 @@ Ikiwa tunatazama Pochi mbili kwa upande, kwa kuibua tunagundua kuwa kwenye nafas
 
 
 
-Ili kufanya ukaguzi sahihi wa kwanza, hata hivyo, chagua katika pochi zote menyu ya `Anwani`: kwa kuwa zinashiriki anwani sawa, orodha ya anwani inapaswa kufanana kwa zote mbili.
+Ili kufanya ukaguzi sahihi wa kwanza, hata hivyo, chagua katika Wallet zote menyu ya `Anwani`: kwa kuwa zinashiriki anwani sawa, orodha ya anwani inapaswa kufanana kwa zote mbili.
 
 
 
@@ -244,15 +244,15 @@ Ili kufanya ukaguzi sahihi wa kwanza, hata hivyo, chagua katika pochi zote menyu
 
 
 
-⚠️ **ANGALIZO**: **hakuwezi kuwa na msingi wa kati; anwani lazima ziwe sawa. Ikiwa ni tofauti, ni muhimu kufuta kazi yote iliyofanywa hadi sasa na kuanza tena **.
+âš ï¸ **ANGALIZO**: **hakuwezi kuwa na msingi wa kati; anwani lazima ziwe sawa. Ikiwa ni tofauti, ni muhimu kufuta kazi yote iliyofanywa hadi sasa na kuanza tena **.
 
 
 
-Sasa unaweza kuendelea kufanya ukaguzi mbili tofauti. Kwanza, jaribu kufuta Pochi mbili na kuzirejesha kutoka mwanzo, kila moja kwenye kompyuta inayofaa. Iwapo utaendelea kufanya uthibitishaji huu, taratibu za kuonyesha Wallet ni sawa na zile zilizoelezwa hapo juu.
+Sasa unaweza kuendelea kufanya ukaguzi mbili tofauti. Kwanza, jaribu kufuta Wallet mbili na kuzirejesha kutoka mwanzo, kila moja kwenye kompyuta inayofaa. Iwapo utaendelea kufanya uthibitishaji huu, taratibu za kuonyesha Wallet ni sawa na zile zilizoelezwa hapo juu.
 
 
 
-Kwa Wallet airgap, hata hivyo, kwenye skrini ya `keystore` itabidi uchague _tayari nina mbegu_ na uweke maneno kwa kuyanakili kutoka kwenye nakala yako ya karatasi.
+Kwa Wallet airgap, hata hivyo, kwenye skrini ya `keystore` itabidi uchague _tayari nina Seed_ na uweke maneno kwa kuyanakili kutoka kwenye nakala yako ya karatasi.
 
 
 
@@ -276,7 +276,7 @@ Hatua zilizoelezwa hapo chini zinaweza, kwa mtazamo wa kwanza, kuonekana kuwa ng
 
 
 
-Ili kupokea pesa, lazima utumie onyesho la Wallet lililo kwenye kompyuta yako iliyounganishwa kwenye Mtandao. Kutoka kwenye menyu ya `Pokea` bofya _Unda ombi_ ili kuwa na Electrum generate ya kwanza inayopatikana ya Address na uitumie kututumia Satss chache.
+Ili kupokea pesa, lazima utumie onyesho la Wallet lililo kwenye kompyuta yako iliyounganishwa kwenye mtandao. Kutoka kwenye menyu ya `Pokea` bofya _Unda ombi_ ili kuwa na Electrum generate ya kwanza inayopatikana ya Address na uitumie kututumia Satss chache.
 
 
 
@@ -296,8 +296,8 @@ Baada ya shughuli hiyo kuenezwa unaweza kuona kuwa-kama ilivyo kawaida- inaoneka
 
 
 
-Baada ya muamala wako kupokea uthibitisho fulani, unaweza kuandaa gharama na hivyo kujaribu utaratibu wa kutia sahihi kutoka kwa Wallet nje ya mtandao. Kisha tayarisha muamala kwenye saa pekee na ubonyeze _Preview_ ili kuikagua
 
+Baada ya muamala wako kupokea uthibitisho fulani, unaweza kuandaa gharama na hivyo kujaribu utaratibu wa kutia sahihi kutoka kwa Wallet nje ya mtandao. Kisha tayarisha muamala kwenye saa pekee na ubonyeze _Preview_ ili kuikagua
 
 
 ![image](assets/en/22.webp)
@@ -378,7 +378,7 @@ Kwa kuwa sasa muamala umetiwa saini, kumbuka kuwa Wallet yako iko kwenye mashine
 
 
 
-Unachohitaji kufanya sasa ni kurudia utendakazi wa kusafirisha muamala uliotiwa saini kwenye kijiti cha usb, ili uweze kuiingiza kwenye kompyuta iliyounganishwa kwenye Mtandao na kuieneza.
+Unachohitaji kufanya sasa ni kurudia utendakazi wa kusafirisha muamala uliotiwa saini kwenye kijiti cha usb, ili uweze kuiingiza kwenye kompyuta iliyounganishwa kwenye mtandao na kuieneza.
 
 
 
@@ -433,7 +433,7 @@ Majaribio yako sasa yamekamilika. Ikiwa ulifuata mwongozo na kupata matokeo sawa
 Vitu pekee ambavyo utalazimika kuzingatia kwa karibu ni viwili:
 
 
-1) **kamwe usitumie airgap ya Wallet kwa anwani za kupokea za generate**. Kwa kuwa iko nje ya mtandao, itakupa Address ya kwanza kila wakati, ambayo inalingana na ile uliyotumia kufanya muamala wa majaribio;
+1) **kamwe usitumie airgap ya Wallet kwa Address za kupokea za generate**. Kwa kuwa iko nje ya mtandao, itakupa Address ya kwanza kila wakati, ambayo inalingana na ile uliyotumia kufanya muamala wa majaribio;
 
 
 

@@ -88,7 +88,7 @@ This step-by-step tutorial explains how to use Machankura, first on a basic phon
 ## Smartphone-free operation (via USSD)
 
 
-### Create your portfolio
+### Create your wallet
 
 
 For your first connection :
@@ -103,12 +103,12 @@ The system will ask you to create a 5-digit PIN code
 
 - Choose a secure PIN code (5 digits).
 - Confirm your PIN code.
-- Your Bitcoin portfolio is created instantly.
+- Your Bitcoin wallet is created instantly.
 
 
 This Bitcoin wallet is associated with your telephone number. The carefully chosen PIN code will encrypt your wallet and will also be used to confirm all your future transactions on Machankura.
 
-Once your portfolio has been created, you will access the main menu with the following options:
+Once your wallet has been created, you will access the main menu with the following options:
 
 
 1. Send bitcoins
@@ -173,7 +173,7 @@ However, you can choose a custom user name to replace the number (e.g. `Satoshi@
 Anyone with your Lightning address can send you bitcoins without knowing your phone number.
 
 
-#### Reloading your Machankura portfolio
+#### Reloading your Machankura wallet
 
 
 In addition to receiving bitcoins from another Lightning wallet, you can replenish your Machankura wallet with **Azteco** and **1Voucher** from the **Flash Group**.
@@ -275,7 +275,7 @@ There are two main reasons for this. The first step is to make the solution more
 The second, which is a logical extension of the first, is to be an inclusive and local solution, using an application that is widely used by Africans in their daily exchanges: WhatsApp.
 
 
-### Create your portfolio
+### Create your wallet
 
 
 To get started, you need to write a message to Machankura's WhatsApp bot (a simple "Hi" is more than enough). His WhatsApp number is [+27 73 762 5720](https://wa.me/+27737625720).
@@ -414,7 +414,7 @@ After entering the amount in this unit of account, the system takes care of conv
 ![wallet](assets/fr/17.webp)
 
 
-Note that you can also obtain your On-Chain address on the web page linked to your portfolio.
+Note that you can also obtain your On-Chain address on the web page linked to your wallet.
 
 
 ![wallet](assets/fr/18.webp)
@@ -439,7 +439,7 @@ https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-370
 ### Balance check
 
 
-You can view your Machankura portfolio balance by selecting option 3, which corresponds to the "Balance and history" option.
+You can view your Machankura wallet balance by selecting option 3, which corresponds to the "Balance and history" option.
 
 
 ![wallet](assets/fr/22.webp)

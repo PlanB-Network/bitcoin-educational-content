@@ -4943,18 +4943,18 @@ Aby wyświetlić wszystkie metadane zawarte w pliku, użyj następującego polec
 
 
 ```bash
-exiftool name.jpg
+exiftool name.webp
 ```
 
 
 
-Zastąp `name.jpg` prawdziwą nazwą pliku. Upewnij się również, że znajdujesz się w katalogu zawierającym ten obraz. Na przykład, jeśli mam zdjęcie posągu Satoshi Nakamoto w katalogu `/Downloads`, mogę wyświetlić jego metadane, uruchamiając następujące polecenie:
+Zastąp `name.webp` prawdziwą nazwą pliku. Upewnij się również, że znajdujesz się w katalogu zawierającym ten obraz. Na przykład, jeśli mam zdjęcie posągu Satoshi Nakamoto w katalogu `/Downloads`, mogę wyświetlić jego metadane, uruchamiając następujące polecenie:
 
 
 
 ```bash
 cd Downloads
-exiftool Satoshi-Nakamoto-Lugano.jpeg
+exiftool Satoshi-Nakamoto-Lugano.webp
 ```
 
 
@@ -4991,7 +4991,7 @@ Aby usunąć wszystkie niepotrzebne metadane z pliku, użyj polecenia:
 
 
 ```bash
-exiftool -all= name.jpg
+exiftool -all= name.webp
 ```
 
 
@@ -5013,7 +5013,7 @@ Jeśli nie chcesz zachować oryginału, możesz go usunąć za pomocą polecenia
 
 
 ```bash
-exiftool -all= -overwrite_original name.jpg
+exiftool -all= -overwrite_original name.webp
 ```
 
 
@@ -5037,12 +5037,12 @@ Jeśli masz kilka plików do przetworzenia w tym samym katalogu, możesz użyć 
 
 
 ```bash
-exiftool -all= *.jpeg
+exiftool -all= *.webp
 ```
 
 
 
-Usuwa metadane wszystkich plików JPEG w bieżącym katalogu. Rozszerzenie można dostosować do własnych potrzeb (`*.png`, `*.pdf`...).
+Usuwa metadane wszystkich plików JPEG w bieżącym katalogu. Rozszerzenie można dostosować do własnych potrzeb (`*.webp`, `*.pdf`...).
 
 
 

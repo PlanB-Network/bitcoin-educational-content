@@ -138,7 +138,7 @@ Bu düzenlemenin avantajı, kablolamanın basitliği ve herhangi bir merkezi eki
 
 
 
-![Image](assets/fr/001.webp)
+![Image](assets/tr/001.webp)
 
 
 
@@ -152,7 +152,7 @@ Bu hiyerarşik düzen, sorumlulukların net bir şekilde bölünmesi ve bölüml
 
 
 
-![Image](assets/fr/002.webp)
+![Image](assets/tr/002.webp)
 
 
 
@@ -166,7 +166,7 @@ Bus topolojisinin ana avantajı, basitleştirilmiş kablolama sayesinde düşük
 
 
 
-![Image](assets/fr/003.webp)
+![Image](assets/tr/003.webp)
 
 
 
@@ -180,7 +180,7 @@ Bu düzen yönetim ve bakımı kolaylaştırır: bir çevresel cihaz arızalanı
 
 
 
-![Image](assets/fr/004.webp)
+![Image](assets/tr/004.webp)
 
 
 
@@ -197,7 +197,7 @@ Buradaki değiş tokuş, kurulacak bağlantı sayısının terminal sayısıyla 
 
 
 
-![Image](assets/fr/005.webp)
+![Image](assets/tr/005.webp)
 
 
 
@@ -263,7 +263,7 @@ TCP/IP modelinin dört katmanı şunlardır:
 
 
 
-![Image](assets/fr/006.webp)
+![Image](assets/tr/006.webp)
 
 
 
@@ -390,7 +390,7 @@ Bir datagram, geçmesi gereken bir ağ segmentinin MTU'sunu aştığında, yönl
 
 
 
-![Image](assets/fr/008.webp)
+![Image](assets/tr/007.webp)
 
 
 
@@ -431,7 +431,7 @@ Bir mesaj gönderildiğinde, TCP/IP yığınının dört katmanından geçer. He
 
 
 
-![Image](assets/fr/009.webp)
+![Image](assets/tr/008.webp)
 
 
 
@@ -442,7 +442,7 @@ Varışta işlem tersine döner: alıcı makine çerçeveyi Ağ Erişimi Layer'd
 
 
 
-![Image](assets/fr/010.webp)
+![Image](assets/tr/009.webp)
 
 
 
@@ -456,7 +456,7 @@ Her bir Layer'deki verilerin dönüşümü şu şekilde özetlenebilir:
 
 
 
-![Image](assets/fr/011.webp)
+![Image](assets/tr/010.webp)
 
 
 
@@ -507,7 +507,7 @@ Kullanılabilir adreslerin sayısı sınıflar arasında büyük farklılıklar 
 
 
 
-![Image](assets/fr/013.webp)
+![Image](assets/tr/011.webp)
 
 
 
@@ -585,7 +585,7 @@ Her biri 60 ana bilgisayara kadar 4 alt ağ istiyoruz.
 
 
 
-![Image](assets/fr/016.webp)
+![Image](assets/tr/012.webp)
 
 
 
@@ -680,7 +680,7 @@ TCP bağlantı yönelimli bir protokoldür, yani istemci ve sunucu arasında aç
 
 
 
-![Image](assets/fr/018.webp)
+![Image](assets/tr/013.webp)
 
 
 
@@ -688,7 +688,7 @@ Güvenilirliği artırmak için TCP bir zamanlayıcı kullanır: bir segment gö
 
 
 
-![Image](assets/fr/019.webp)
+![Image](assets/tr/014.webp)
 
 
 
@@ -711,7 +711,7 @@ Exchange sıra senkronizasyonu, iki kişinin iletişim kurmak için birbirini se
 
 
 
-![Image](assets/fr/020.webp)
+![Image](assets/tr/015.webp)
 
 
 
@@ -734,7 +734,7 @@ Pratik anlamda, kayan pencere, her bir segment onaylanmadan gönderici ve alıc�
 
 
 
-![Image](assets/fr/021.webp)
+![Image](assets/tr/016.webp)
 
 
 
@@ -751,7 +751,7 @@ IP'nin esnek yönlendirmesi ile TCP'nin sıkı kontrolünü birleştiren bu hass
 
 
 
-![Image](assets/fr/022.webp)
+![Image](assets/tr/017.webp)
 
 
 
@@ -791,7 +791,7 @@ Bu alışverişlerde iki temel husus geçerlidir:
 
 
 
-![Image](assets/fr/023.webp)
+![Image](assets/tr/018.webp)
 
 
 
@@ -800,7 +800,7 @@ Bu alışverişlerde iki temel husus geçerlidir:
 
 
 
-![Image](assets/fr/024.webp)
+![Image](assets/tr/019.webp)
 
 
 
@@ -836,7 +836,7 @@ TCP/IP modeli, yatay yönü (dağıtık uygulamalar arasındaki iletişim) dikey
 
 
 
-![Image](assets/fr/026.webp)
+![Image](assets/tr/020.webp)
 
 
 
@@ -896,7 +896,7 @@ IP adresleri iki ana şekilde atanabilir:
 
 
 
-![Image](assets/fr/027.webp)
+![Image](assets/tr/021.webp)
 
 
 
@@ -1183,7 +1183,7 @@ MAC Address ve IP Address'un tamamen farklı, ancak birbirini tamamlayan iki tan
 - MAC Address'in görsel örneği:
 
 
-![Image](assets/fr/032.webp)
+![Image](assets/tr/022.webp)
 
 
 
@@ -1191,7 +1191,7 @@ MAC Address ve IP Address'un tamamen farklı, ancak birbirini tamamlayan iki tan
 - Bir IP Address'nin görsel örneği:
 
 
-![Image](assets/fr/027.webp)
+![Image](assets/tr/023.webp)
 
 
 
@@ -1258,7 +1258,7 @@ IPv4 kıtlığını ele almanın yanı sıra NAT, dahili ve genel ağlar arasın
 
 
 
-![Image](assets/fr/035.webp)
+![Image](assets/tr/024.webp)
 
 
 
@@ -1331,7 +1331,7 @@ bunun pratikte nasıl işlediğini göstermek için aşağıdaki örneği ele al
 
 
 
-![Image](assets/fr/037.webp)
+![Image](assets/tr/025.webp)
 
 
 
@@ -1500,7 +1500,7 @@ Profesyonel ortamlarda amaç, hizmet sürekliliğini garanti etmek ve/veya bant 
 
 
 
-![Image](assets/fr/039.webp)
+![Image](assets/tr/026.webp)
 
 
 
@@ -1954,7 +1954,7 @@ Otomatik yapılandırma için çeşitli yöntemler mevcuttur:
 İşte bir MAC Address'nın EUI-64'e nasıl dönüştürüleceğine dair bir örnek:
 
 
-![Image](assets/fr/045.webp)
+![Image](assets/tr/027.webp)
 
 
 
@@ -2092,7 +2092,7 @@ IPv6 tarafından tanımlanan farklı uzantı başlıklarına genel bir bakış.
 Bu başlık, eğer varsa, her zaman temel başlıktan hemen sonra yer alır. Genellikle yalnızca hedef düğüm tarafından işlenen diğer başlıkların aksine, paketin yolu boyunca her yönlendirici tarafından işlenmesi gereken bilgileri içerir. Tipik kullanımları arasında genel parametrelerin bildirilmesi veya paket ağda ilerlerken belirli işlem adımlarının talep edilmesi yer alır.
 
 
-![Image](assets/fr/047.webp)
+![Image](assets/tr/028.webp)
 
 
 #### Yönlendirme başlığı
@@ -2117,7 +2117,7 @@ Bu köklendirme başlığının ilk dört alanı şunlardır:
 "Kalan Segmentler" alanı kalan segmentlerin toplam sayısı ile başlar ve her atlamada bir azalır.
 
 
-![Image](assets/fr/048.webp)
+![Image](assets/tr/029.webp)
 
 
 #### Parçalama başlığı
@@ -2134,7 +2134,7 @@ Parçalama başlığı aşağıdaki alanları içerir:
 - **M bayrağı**: daha fazla parçanın takip edip etmediğini gösterir.
 
 
-![Image](assets/fr/049.webp)
+![Image](assets/tr/030.webp)
 
 
 #### Kimlik doğrulama başlığı (AH)
@@ -2146,7 +2146,7 @@ Bu başlık, hem gönderenin gerçekliğini hem de verilerin bütünlüğünü d
 Hileli bir değişiklik girişimi durumunda, kimlik doğrulama kodu artık eşleşmez ve datagram reddedilebilir. Bu mekanizma aynı zamanda yetkisiz çoğaltmaları tespit ederek tekrar saldırılarına karşı da koruma sağlar.
 
 
-![Image](assets/fr/050.webp)
+![Image](assets/tr/031.webp)
 
 
 #### Hedef Seçenekleri Üstbilgisi
@@ -2158,7 +2158,7 @@ Bu başlık yalnızca datagramın son alıcısı için tasarlanmıştır. Ara y�
 Başlangıçta protokolde böyle bir seçenek tanımlanmamıştı. Ancak, bu başlık IPv6 tasarlanırken, gelecekteki uzantıların genel paket yapısını değiştirmeden eklenmesine izin vermek için tanıtıldı. Örneğin null seçeneği, yalnızca bellek hizalama amacıyla başlığı 8 baytın katları şeklinde doldurmak için kullanılır.
 
 
-![Image](assets/fr/051.webp)
+![Image](assets/tr/032.webp)
 
 
 IPv6 paket tasarımı, minimal bir temel başlık ile modüler uzantı başlıkları arasında net bir ayrım üzerine inşa edilmiştir. Bu mimari hem standart işlem performansını hem de protokolü geliştirmek ve güvenlik, karmaşık yönlendirme veya hizmet kalitesi mekanizmalarını entegre etmek için gereken esnekliği sağlarken gelecekteki altyapılarla uyumluluğu da korur.
@@ -2504,7 +2504,7 @@ Wireshark, Linux ve Windows dahil olmak üzere birçok işletim sisteminde kulla
 
 
 
-![Image](assets/fr/052.webp)
+![Image](assets/tr/033.webp)
 
 
 
@@ -2555,7 +2555,7 @@ Bu komut, CentOS veya RHEL tabanlı sistemlerde yaygın bir adlandırma kuralı 
 
 
 
-![Image](assets/fr/053.webp)
+![Image](assets/tr/034.webp)
 
 
 
@@ -3107,7 +3107,7 @@ Bu durumda, `192.168.0.0` ila `192.168.0.255` aralığındaki tüm ana bilgisaya
 
 
 
-![Image](assets/fr/055.webp)
+![Image](assets/tr/035.webp)
 
 
 

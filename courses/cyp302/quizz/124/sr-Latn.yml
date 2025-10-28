@@ -6,4 +6,4 @@ wrong_answers:
   - Sprečava ponovnu upotrebu ključeva za ponovljene transakcije
 explanation: |
   Razmena ključeva lično je skupa i neefikasna, posebno u velikom obimu, jer usporava transakcije i nameće značajne logističke troškove za svakog novog klijenta.
-reviewed: false
+reviewed: true

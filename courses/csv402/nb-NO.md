@@ -1,13 +1,11 @@
 ---
-name: RGB-protokollen, fra teori til praksis
+name: RGB-programmering
 goal: Tilegne seg ferdighetene som trengs for å forstå og bruke RGB
-objectives: 
-
-  - Forstå de grunnleggende konseptene i RGB-protokollen
-  - Beherske prinsippene for validering på klientsiden og Bitcoin-forpliktelser
-  - Lær hvordan du oppretter, administrerer og overfører RGB-kontrakter
-  - Slik bruker du en RGB-kompatibel Lightning-node
-
+objectives:
+- Forstå de grunnleggende konseptene i RGB-protokollen
+- Beherske prinsippene for validering på klientsiden og Bitcoin-forpliktelser
+- Lær hvordan du oppretter, administrerer og overfører RGB-kontrakter
+- Slik bruker du en RGB-kompatibel Lightning-node
 ---
 # Oppdage RGB-protokollen
 

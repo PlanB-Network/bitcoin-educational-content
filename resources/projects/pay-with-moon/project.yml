@@ -1,0 +1,25 @@
+id: c6c5e20e-7243-4d53-8f6b-e65e24f4a6ed
+name: Moon
+links :
+  website: https://paywithmoon.com/
+  twitter: https://x.com/paywithmoon
+
+category: exchange
+
+contributor_names:
+  - heyolaniran
+
+tags:
+  - adoption
+  - guides
+
+# Proofreading metadata
+original_language: en
+
+proofreading:
+  - language: en
+    last_contribution_date: 2025-10-21
+    urgency: 1
+    contributor_names:
+      - heyolaniran
+    reward: 0

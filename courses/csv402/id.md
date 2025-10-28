@@ -1,13 +1,11 @@
 ---
-name: Protokol RGB, dari teori ke praktik
+name: Pemrograman RGB
 goal: Memperoleh keterampilan yang diperlukan untuk memahami dan menggunakan RGB
-objectives: 
-
-  - Memahami konsep dasar protokol RGB
-  - Menguasai prinsip-prinsip validasi sisi klien dan komitmen Bitcoin
-  - Pelajari cara membuat, mengelola, dan mentransfer kontrak RGB
-  - Cara mengoperasikan simpul Lightning yang kompatibel dengan RGB
-
+objectives:
+- Memahami konsep dasar protokol RGB
+- Menguasai prinsip-prinsip validasi sisi klien dan komitmen Bitcoin
+- Pelajari cara membuat, mengelola, dan mentransfer kontrak RGB
+- Cara mengoperasikan simpul Lightning yang kompatibel dengan RGB
 ---
 # Menemukan protokol RGB
 

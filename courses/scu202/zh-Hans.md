@@ -4943,18 +4943,18 @@ sudo apt install libimage-exiftool-perl
 
 
 ```bash
-exiftool name.jpg
+exiftool name.webp
 ```
 
 
 
-将 `name.jpg` 替换为文件的真实名称。同时确保你的位置在包含该图片的目录中。例如，如果我在 `/Downloads` 目录中有一张 Satoshi 中本聪雕像的照片，我可以通过运行以下命令来显示其元数据：
+将 `name.webp` 替换为文件的真实名称。同时确保你的位置在包含该图片的目录中。例如，如果我在 `/Downloads` 目录中有一张 Satoshi 中本聪雕像的照片，我可以通过运行以下命令来显示其元数据：
 
 
 
 ```bash
 cd Downloads
-exiftool Satoshi-Nakamoto-Lugano.jpeg
+exiftool Satoshi-Nakamoto-Lugano.webp
 ```
 
 
@@ -4991,7 +4991,7 @@ exiftool Satoshi-Nakamoto-Lugano.jpeg
 
 
 ```bash
-exiftool -all= name.jpg
+exiftool -all= name.webp
 ```
 
 
@@ -5013,7 +5013,7 @@ exiftool -all= name.jpg
 
 
 ```bash
-exiftool -all= -overwrite_original name.jpg
+exiftool -all= -overwrite_original name.webp
 ```
 
 
@@ -5037,12 +5037,12 @@ exiftool -all= -overwrite_original name.jpg
 
 
 ```bash
-exiftool -all= *.jpeg
+exiftool -all= *.webp
 ```
 
 
 
-删除当前目录下所有 JPEG 文件的元数据。您可以根据需要调整扩展名（`*.png`、`*.pdf`......）。
+删除当前目录下所有 JPEG 文件的元数据。您可以根据需要调整扩展名（`*.webp`、`*.pdf`......）。
 
 
 

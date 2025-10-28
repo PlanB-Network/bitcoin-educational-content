@@ -6,7 +6,7 @@ description: 집에서 쉽게 Mining 만들기.
 
 
 
-### 소개
+## 소개
 
 
 
@@ -18,7 +18,7 @@ description: 집에서 쉽게 Mining 만들기.
 
 
 
-### BMM 100 개요
+## BMM 100 개요
 
 
 
@@ -46,7 +46,7 @@ description: 집에서 쉽게 Mining 만들기.
 
 
 
-### 미니 Miner 연결하기
+## 미니 Miner 연결하기
 
 
 
@@ -54,7 +54,7 @@ description: 집에서 쉽게 Mining 만들기.
 
 
 
-### 구성
+## 구성
 
 
 
@@ -74,7 +74,7 @@ description: 집에서 쉽게 Mining 만들기.
 
 
 
-### 일반 설정
+## 일반 설정
 
 
 
@@ -110,7 +110,7 @@ description: 집에서 쉽게 Mining 만들기.
 
 
 
-### Mining pool에 연결
+## Mining pool에 연결
 
 
 
@@ -142,7 +142,7 @@ https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a
 
 https://planb.network/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-#### 브라인즈 풀
+### 브라인즈 풀
 
 
 
@@ -236,7 +236,7 @@ https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a
 
 
 
-#### 공용 풀
+### 공용 풀
 
 
 

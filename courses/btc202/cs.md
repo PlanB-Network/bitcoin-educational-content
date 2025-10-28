@@ -21,7 +21,7 @@ Pravděpodobně znáte pořekadlo "Ne vaše klíče, ne vaše mince", které nab
 
 
 
-BTC 202 je přístupný kurz, který vás naučí spřádat vlastní uzel Bitcoin, i když nejste technický expert. Začneme tím, že si definujeme, co je to uzel Bitcoin, k čemu slouží a proč je naprosto nezbytné, abyste si ho sami upředli. Poté vás krok za krokem provedu výběrem hardwaru, instalací potřebného softwaru, připojením uzlu Wallet a provedením prvních možných optimalizací, které vás posunou dále.
+BTC 202 je přístupné školení navržené tak, aby vás naučilo, jak provozovat vlastní uzel Bitcoin, i když nejste technický expert. Začneme definováním, co je uzel Bitcoin, k čemu slouží a proč je naprosto zásadní provozovat ho sám. Poté vás krok za krokem provedu výběrem hardwaru, instalací potřebného softwaru, připojením vašeho peněženkového softwaru a prvními možnými optimalizacemi pro další pokrok.
 
 
 
@@ -410,7 +410,7 @@ Jinými slovy, přibližně 9 z 10 veřejných uzlů používá Bitcoin core. Zb
 
 
 
-Bitcoin core je napsán v jazyce C++. Je to také projekt s otevřeným zdrojovým kódem, o který se stará komunita vývojářů, kteří pracují jako dobrovolníci nebo jsou placeni různými subjekty (často společnostmi v ekosystému, které mají na vývoji jádra zájem). [Kód je umístěn na serveru GitHub](https://github.com/Bitcoin/Bitcoin) a vývoj probíhá podle přísného:
+Bitcoin Core je software napsaný v jazyce C++. Je to také open source projekt, který je udržován komunitou vývojářů, dobrovolníků nebo placených různými subjekty (často společnostmi z ekosystému, které mají zájem na tom, aby vývoj Core probíhal příznivě). [Kód je hostován na GitHubu](https://github.com/bitcoin/bitcoin) a vývoj se řídí přísným modelem:
 
 
 
@@ -448,7 +448,7 @@ Můžeme také zmínit:
 
 - Libbitcoin**: modulární knihovna C++, kterou vyvinul Amir Taaki a udržuje Eric Voskuil;
 - Bcoin**: implementace v jazyce JavaScript, která již není aktivně udržována;
-- BTCD/btcsuit**e: implementace v jazyce Go.
+- **BTCD/btcsuite** : implementace v jazyce Go.
 
 
 
@@ -481,7 +481,7 @@ Jak si řekneme později v tomto kurzu, jsou to uzly, které podle své ekonomic
 
 
 
-## Proč si zamotávat vlastní uzel?
+## Proč provozovat vlastní uzel?
 
 
 <chapterId>39c0cd19-67f9-4c64-bfb3-dbd6eec0bf42</chapterId>
@@ -492,7 +492,7 @@ Všeobecně panuje přesvědčení, že provozování uzlu Bitcoin je čistě al
 
 
 
-Jak jsme zdůraznili v předchozích kapitolách, spřádání uzlu nepřináší žádný přímý finanční zisk. Mohlo by se tedy zdát, že na tom není žádný osobní zájem. Přesto provozování vlastního uzlu přináší mnoho individuálních výhod. Abych vás o tom přesvědčil, uvedu v této kapitole všechny důvody, jak technické, tak strategické, proč byste si měli nainstalovat a používat vlastní uzel Bitcoin.
+Jak jsme již zdůraznili v předchozích kapitolách, provozování uzlu nepřináší přímý finanční zisk. Mohlo by se tedy zdát, že nemá smysl to dělat. Přesto provozování vlastního uzlu přináší mnoho individuálních výhod. Abych vás o tom přesvědčil, představím v této kapitole všechny důvody, technické i strategické, které by vás měly motivovat k instalaci a používání vlastního Bitcoin uzlu.
 
 
 
@@ -576,7 +576,7 @@ Instalace zařízení Full node není triviální. Zahrnuje instalaci softwaru, 
 
 
 
-Získání těchto znalostí posílí vaši důvěru v nástroj a může snížit riziko chyby nebo vystavení podvodům. Spřádání vlastního uzlu je také formou učení.
+Získání těchto znalostí posiluje vaši důvěru v nástroj a může snížit riziko chyb nebo vystavení podvodům. Provozovat vlastní uzel znamená také učit se.
 
 
 
@@ -692,7 +692,7 @@ Nezáleží tedy na počtu uzlů, ale na významu hospodářské činnosti, kter
 
 
 
-> Ne váš uzel, ne vaše pravidla.
+> Není to tvůj uzel, nejsou to tvoje pravidla.
 
 
 ## Různé typy uzlů Bitcoin
@@ -706,7 +706,7 @@ Uzel Bitcoin je tedy počítač s implementací protokolu Bitcoin. Za touto spol
 
 
 
-### Kompletní uzel
+### Úplný uzel
 
 
 
@@ -730,7 +730,7 @@ V závislosti na svých potřebách můžete do systému Full node přidat index
 
 
 
-### Uzel pruned
+### Ořezaný uzel
 
 
 
@@ -849,7 +849,7 @@ Jedná se o nejsugestivnější a nejpružnější přístup: přesně víte, co
 
 
 
-#### Bitcoin core (zákazník s nadpoloviční většinou)
+#### Bitcoin Core (převládající klient)
 
 
 
@@ -869,7 +869,7 @@ https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d
 
 https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-#### Bitcoin Knots (hlavní alternativní zákazník)
+#### Bitcoin Knots (hlavní alternativní klient)
 
 
 
@@ -2590,7 +2590,7 @@ Klienti Nostr ***noStrudel*** nebo ***Snort*** jsou také k dispozici na Umbrel.
 
 
 
-A konečně je tu aplikace ***Nostr Wallet Connect*** na platformě Umbrel, která umožňuje nativní platby Lightning v aplikaci Nostr. Konkrétně můžete propojit svůj budoucí uzel Lightning se zákazníky Nostr a posílat mikroplatby, tzv *zaps*, za odměnu za obsah nebo monetizovanou interakci, aniž byste museli procházet službou třetí strany. Tyto platby jsou odesílány přímo z vašeho osobního uzlu prostřednictvím vašich kanálů.
+Nakonec je zde aplikace ***Nostr Wallet Connect*** na Umbrelu, která umožňuje provádět nativní Lightning platby v rámci Nostr. Konkrétně můžete propojit svůj budoucí Lightning uzel s klienty Nostr, abyste mohli odesílat mikropožadavky zvané „*zaps*“ za účelem odměňování obsahu nebo interakce způsobem s finančním zázemím, aniž byste museli používat službu třetí strany. Tyto platby odcházejí přímo z vašeho osobního uzlu prostřednictvím vašich kanálů.
 
 
 
@@ -2652,7 +2652,7 @@ https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-82
 
 
 
-## Údržba deštníkového uzlu
+## Údržba svého uzlu Umbrel
 
 
 <chapterId>06d77d09-bf24-4555-b2ba-c08bbda477c7</chapterId>
@@ -2929,7 +2929,7 @@ Pokud váš uzel naslouchá na otevřeném portu (ve výchozím nastavení 8333)
 
 
 
-## Anatomie uzlu Bitcoin
+## Anatomie vašeho Bitcoinového uzlu
 
 
 <chapterId>b420bd9d-7e2a-4984-bc70-2b732a94c8ce</chapterId>
@@ -2941,7 +2941,7 @@ Po dokončení počáteční synchronizace uzel lokálně uloží několik dopl�
 
 
 
-- gW-402 **bloky** uložené na disku,
+- **bloky** blockchainu uložené na disku,
 - sada **UTXO** vedená v databázi klíč-hodnota,
 - a **Mempool** se ukládá do paměti RAM a pravidelně se serializuje.
 
@@ -3093,7 +3093,7 @@ Mempool je místní soubor platných transakcí, které byly přijaty, ale ješt
 
 
 - velikost přidělená Mempool pomocí parametru `maxmempool`: uzel s větším Mempool bude schopen pojmout více transakcí než uzel s menším Mempool (pokud se tento nevyprázdní);
-- pravidla gW-433: jsou podmnožinou pravidel přenosu uzlu a definují vlastnosti, které musí nepotvrzená transakce splňovat, aby byla přijata v Mempool;
+- pravidla mempoolu: tvoří podmnožinu pravidel přeposílání uzlu a určují vlastnosti, které musí nespotvrzená transakce splňovat, aby byla přijata do mempoolu;
 - pronikání transakcí: v důsledku různých faktorů může být daná transakce distribuována do jedné části sítě, ale do jiné ještě nedorazila.
 
 
@@ -3135,10 +3135,10 @@ Na správném fungování se podílí několik dalších souborů na stejné úr
 - Když je uzel vypnutý, soubor `anchors.dat` uloží adresy odchozích partnerů, abyste se s nimi mohli při příštím spuštění znovu rychle spojit.
 - `banlist.json` obsahuje lokální zákazy, o kterých rozhodl operátor nebo uzel (opakované neplatné chování), aby se uzlu zabránilo v opětovném připojení nebo přijímání připojení od těchto konkrétních peerů.
 - v souboru `fee_estimates.dat` jsou uloženy statistiky pozorovaných potvrzení v časovém horizontu, které odhadce poplatků používá k navrhování sazeb poplatků v souladu s cíli zpoždění zvolenými při vytváření transakce.
-- gW-446.conf` obsahuje konfigurační parametry uzlu. Zde můžete upravit pravidla přenosu. Více se o tom dozvíte v další kapitole.
+- `bitcoin.conf` obsahuje konfigurační parametry vašeho uzlu. Právě v tomto souboru lze mimo jiné upravit pravidla přeposílání. Více o tom budu hovořit v následující kapitole;
 - `settings.json` obsahuje další parametry souboru `Bitcoin.conf`.
 - `debug.log` je diagnostický textový protokol, který lze použít k pochopení činnosti uzlu v případě chyby.
-- gW-448.pid` ukládá identifikátor procesu za běhu, což umožňuje jiným aplikacím nebo skriptům snadno identifikovat bitcoind (*Bitcoin daemon*) a v případě potřeby s ním komunikovat. Vytváří se při spuštění uzlu a odstraňuje se při vypnutí.
+- `bitcoind.pid` zaznamenává identifikátor procesu během běhu, což umožňuje jiným aplikacím nebo skriptům snadno identifikovat Bitcoind (*Bitcoin Daemon*) a v případě potřeby s ním komunikovat. Je vytvořen při spuštění uzlu a odstraněn při jeho vypnutí;
 - `ip_asn.map` je mapovací tabulka IP → ASN (samostatný systém) používaná pro bucketing a diverzifikaci peerů (volba `-asmap`).
 - `onion_v3_private_key` ukládá soukromý klíč služby Tor v3, když je povolena volba `-listenonion`, aby bylo možné udržet stabilní cibuli Address mezi restarty.
 - `i2p_private_key` ukládá soukromý klíč I2P, pokud je použito `-i2psam=`, k navázání odchozích a případně i příchozích spojení na I2P.
@@ -3154,9 +3154,9 @@ Jak jsme viděli v prvních částech tohoto kurzu BTC 202, Bitcoin core je jak 
 
 
 
-- `wallets/` je výchozí adresář, který hostí jeden nebo více adresářů;
+- `wallets/` je výchozí adresář, který obsahuje jednu nebo více peněženek;
 - `wallets/<název>/Wallet.dat` je databáze SQLite Wallet (klíče, deskriptory, metadata transakcí atd.);
-- wallets/<name>/Wallet.dat-journal` je protokol SQLite rollback.
+- `wallets/<name>/wallet.dat-journal` je rollbackový žurnál SQLite.
 
 
 
@@ -3335,10 +3335,10 @@ Na úrovni sítě máme také:
 
 
 - `addnode`: přidá přátelského partnera ke kontaktu navíc k obvyklému zjišťování (lze zadat několikrát).
-- connect`: striktně omezuje připojení na poskytnutý server Address (lze zadat několikrát). Jádro se nepřipojí k žádnému jinému uzlu.
+- `connect`: přísně omezuje připojení na zadanou adresu (lze zadat vícekrát). Core se nepřipojí k žádnému jinému uzlu;
 - `seednode`: slouží pouze k vyplnění knihy-Address při připojení k uzlu, poté se odpojí.
 - `maxconnections`: definuje globální strop pro příchozí + odchozí spojení. Ve výchozím nastavení je tento parametr nastaven na 125, což znamená, že váš uzel nikdy nepřijme více než 125 spojení.
-- maxuploadtarget`: omezuje nahrávání na šířku pásma v klouzavém 24hodinovém okně. Tento limit neobětuje šíření zásadních nedávných Elements.
+- `maxuploadtarget` : omezuje nahrávání, aby se omezila šířka pásma v klouzavém 24hodinovém okně. Tento limit neobětuje šíření nezbytných nedávných prvků;
 - `onlynet`: omezuje odchozí připojení pouze na vybrané sítě (`ipv4`, `ipv6`, `onion`, `i2p`, `cjdns`). Pokud například chcete, aby se váš uzel připojoval k síti Bitcoin pouze přes Tor, můžete povolit parametr `onlynet=onion` a zakázat příchozí připojení (nebo povolit připojení také pouze přes Tor).
 - `dnsseed`: povoluje nebo zakazuje _DNS seed_ vyžádat si peery, když je váš místní fond Address nízký (výchozí: `1`, pokud `-connect` nebo `-maxconnections=0`).
 - `forcednsseed`: vynucuje vyžádání _DNS seed_ při spuštění, i když již máte adresy na skladě (výchozí: `0`).
@@ -3362,7 +3362,7 @@ Chcete-li plně podporovat Tor, musíte Bitcoin core přinutit používat pouze 
 - `torcontrol=127.0.0.1:9051`,
 - `proxyrandomize=1`,
 - `listen=1`,
-- bind=127.0.0.1`,
+- `bind=127.0.0.1`,
 - `upnp=0`,
 - `natpmp=0`.
 
@@ -3418,7 +3418,7 @@ Zde jsou uvedeny základní parametry, které můžete upravit v souboru `Bitcoi
 
 
 
-- bloky=1`: Zakáže přijímání a opakované zasílání nepotvrzených transakcí přijatých od partnerů (pokud nejsou udělena zvláštní oprávnění). Uzel nyní odesílá a inzeruje pouze bloky. Transakce vytvořené lokálně lze stále vysílat (pro použití uzlu se softwarem Wallet). To výrazně snižuje nároky na šířku pásma a paměť RAM, i když za cenu menší užitečnosti pro relay a naprosté neznalosti Mempool.
+- `blocksonly=1` : Deaktivuje přijímání a přeposílání nepotvrzených transakcí přijatých od peerů (s výjimkou zvláštních oprávnění). Uzluje stahuje a oznamuje pouze bloky. Lokálně vytvořené transakce mohou být stále vysílány (pro použití vašeho uzlu s peněženkovými programy). To výrazně snižuje šířku pásma a potřebu paměti RAM za cenu nižší užitečnosti pro přeposílání a úplné neznalosti mempoolu.
 
 
 
@@ -3448,7 +3448,7 @@ Zde jsou uvedena pokročilá nastavení pro Mempool a zásady přenosu. Pokud js
 
 
 
-- datacarrier=1`: Umožňuje předávání a (v případě Mining přes uzel) zahrnutí transakcí nesoucích nefinanční data prostřednictvím výstupu `OP_RETURN` (výchozí: `1`). Deaktivace tohoto parametru mírně zmenšuje plochu pro spam nefinančních dat za cenu snížené kompatibility s některými způsoby použití. Ve všech případech je nutné akceptovat vytěžené `OP_RETURN`.
+- `datacarrier=1` : Povolit přeposílání a (v případě těžby přes uzel) zahrnutí transakcí nesoucích nefinanční data prostřednictvím výstupu `OP_RETURN` (výchozí: `1`). Deaktivace tohoto parametru mírně snižuje riziko spamu nefinančními daty za cenu nižší kompatibility s některými použitími. Ve všech případech musíte přijímat vytěžené `OP_RETURN`.
 
 
 
@@ -3490,13 +3490,13 @@ Zde jsou uvedena pokročilá nastavení pro Mempool a zásady přenosu. Pokud js
 
 
 
-- peerbloomfilters=1`: (výchozí: `0`). Upozornění: Tím se zvýší zatížení zdrojů.
+- `peerbloomfilters=1` : Aktivuje podporu Bloom filtrů (BIP37) pro poskytování filtrovaných bloků/transakcí lehkým klientům (výchozí: `0`). Pozor, zvyšuje to zátěž vašich zdrojů.
 
 
 
 
 
-- peerblockfilters=1`: (*Neutrino*) kompaktní filtry pro peery (výchozí: `0`).
+- `peerblockfilters=1` : Poskytuje kompaktní filtry BIP157 (*Neutrino*) peerům (výchozí: `0`).
 
 
 
@@ -3520,7 +3520,7 @@ Způsob správy peněženek můžete také upravit v souboru `Bitcoin.conf`. Pok
 
 
 
-- addresstype=<legacy|P2SH-SegWit|bech32|bech32m>`: Definuje formát adres generovaných Wallet pro příjem.
+- `addresstype=<legacy|p2sh-segwit|bech32|bech32m>` : Určuje formát adres generovaných peněženkou pro příjem.
 
 
 
@@ -3568,7 +3568,7 @@ Způsob správy peněženek můžete také upravit v souboru `Bitcoin.conf`. Pok
 
 
 
-- fallbackfee=<amt>`: (BTC/kvB) použitá v případě, že estimátoru dojdou data (výchozí: `0,00`). Nastavení na 0 zcela vypne fallback.
+- `fallbackfee=<amt>` : Záložní poplatek (BTC/kvB) použitý, pokud odhadce nemá dostatek dat (výchozí: `0.00`). Nastavení na 0 zcela vypne záložní poplatek.
 
 
 
@@ -3660,7 +3660,7 @@ Konfigurační soubor také umožňuje upravit parametry týkající se vašeho 
 
 
 
-- txindex=1`: Vytváří a udržuje globální index potvrzených transakcí. Nezbytné pro některé dotazy (`getrawtransaction` non-Wallet) a pro účely průzkumu, ale výrazně zvyšuje diskovou stopu. Nekompatibilní s režimem pruned.
+- `txindex=1` : Vytváří a udržuje globální index potvrzených transakcí. Nezbytné pro některé dotazy (`getrawtransaction` mimo peněženku) a pro účely průzkumu, ale výrazně zvyšuje využití disku. Nekompatibilní s ořezaným režimem.
 
 
 

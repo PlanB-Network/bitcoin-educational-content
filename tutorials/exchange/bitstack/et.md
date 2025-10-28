@@ -6,7 +6,7 @@ description: Osta ja müüa bitcoine Bitstacki rakenduses
 
 Bitstack on Prantsuse Bitcoini investeerimisplatvorm, mida reguleerib AMF PSAN. See pakub rakendust, mis on saadaval Androidis ja iOSis, et bitcoinide ostmine ja müümine oleks lihtne.
 
-Bitstacki eristab automaatne ümardamissüsteem, mis sünkroonib kasutaja pangakontot, et konverteerida igapäevaste kulutuste käigus debiteeritud summa ja järgmise kõrgema euro vahe otse bitcoinideks. See meetod hõlbustab *Dollar Cost Averaging* (DCA) rakendamist, võimaldades satoshide järkjärgulist ja valutut kogumist. Lisaks sellele originaalsele funktsioonile pakub platvorm ka klassikalist DCA-süsteemi koos automaatse investeerimisega, samuti koha ostu ja müügiga.
+Bitstacki eristab selle automaatne ümardamissüsteem, mis sünkroonib kasutaja pangakonto, et teisendada igapäevaste kulutuste ja järgmise täiseuro vahelise erinevuse otse bitcoini. See meetod hõlbustab *Dollar Cost Averaging* (DCA) rakendamist, võimaldades satoshide järkjärgulist ja valutut kogumist. Lisaks sellele originaalsele funktsioonile pakub platvorm ka klassikalist DCA-süsteemi automaatsete investeeringute ning ühekordsete ostude ja müükidega.
 
 ![Image](assets/fr/01.webp)
 
@@ -110,7 +110,7 @@ Nagu sissejuhatuses mainitud, pakub Bitstack 3 meetodit Bitcoini investeerimisek
 - Korduvate ostude konfigureerimine (RPC) ;
 - Kulude automaatse ümardamise kasutamine.
 
-### Ostmine sularahas
+### Teha ühekordne ost
 
 Bitcoinide ühekordse ostu tegemiseks turuhinnaga, klõpsake lihtsalt nupule "*Ostan*".
 

@@ -82,22 +82,24 @@ Spremni da otkrijete kako ideje Frédérica Bastiata i dalje odjekuju danas? Pri
 
 <chapterId>7f21b617-9810-5484-ad1c-befc61432126</chapterId>
 
+:::video id=0f388c57-8767-49a7-942c-01af703598b3:::
+
 
 Ovaj kurs je uvod u Frédérica Bastiata, nepriznatog genija i svetionika našeg vremena. U ovom kratkom uvodu, pokušaću da vam pomognem da otkrijete ko je bio Frédéric Bastiat i koje su glavne teme koje ćemo pokriti tokom ove serije.
 
-![image](assets/en/001.webp)
+![image](assets/sr-Latn/001.webp)
 
 
 Zaista, Frédéric Bastiat, koji je rođen 1801. godine i živeo tokom prve polovine 19. veka, ostao je neko vreme važan autor. A onda je, postepeno, nestao i danas niko ne čuje za njega, niko ne zna ko je on. Ipak, paradoksalno, ovaj autor je preveden na mnoge jezike, uključujući italijanski, ruski, španski i engleski.
 
 
-![image](assets/en/002.webp)
+![image](assets/sr-Latn/002.webp)
 
 
 Ispostavilo se da je nakon Drugog svetskog rata jedna od njegovih knjiga objavljena u Sjedinjenim Američkim Državama. Postala je veoma poznata, do te mere da je sam Ronald Reagan rekao da mu je to omiljena knjiga, a ta mala knjiga se zove "Zakon." Bastiat je tako jedan od dva najpoznatija francuska autora u Sjedinjenim Državama, a drugi je takođe dobro poznat u Francuskoj, Alexis de Tocqueville.
 
 
-![image](assets/en/003.webp)
+![image](assets/sr-Latn/003.webp)
 
 _(Tržnica u Mugronu u Landesu, rodnom mestu Bastiata)_
 
@@ -105,19 +107,19 @@ _(Tržnica u Mugronu u Landesu, rodnom mestu Bastiata)_
 Dakle, nepriznati genije, ali i svetionik za naše vreme. Zaista, Frédéric Bastiat, koji je rođen u Bajoni, prvo je deo svog života proveo u Landu gde je upravljao poljoprivrednim imanjem koje je nasledio i vodio je život kao preduzetnik. Zatim se, vrlo rano, zainteresovao za ekonomiju, putovao je u Englesku, upoznao Ričarda Kobdena koji je bio vođa pokreta za slobodnu trgovinu. Bastiat je bio fasciniran ovim pokretom, bio je uveren da je slobodna trgovina rešenje za Francusku i odlučio je da pokuša da širi svoje ideje u Francuskoj. Pisao je članke koji su bili veoma uspešni i preselio se u Pariz da vodi novine koje su se tada zvale Journal des économistes.
 
 
-![image](assets/en/004.webp)
+![image](assets/sr-Latn/004.webp)
 
 
 Bio je takođe filozof i mislilac o društvu, društvenom poretku, pravdi, zakonu, mislilac o pravima. I u tom smislu, možemo reći da je Bastiat svetionik za naše vreme. I želeo bih da zaključim s tim. On je neko ko je pokušao da razume funkcionisanje političkog tržišta. Naravno, on je takođe branilac tržišne ekonomije, za koju je smatrao da je najbolji način za stvaranje bogatstva. Ali pored toga, i tu je neprepoznat, razumeo je mehanizme političkog tržišta.
 
 
-![image](assets/en/005.webp)
+![image](assets/sr-Latn/005.webp)
 
 
 Kada je izabran za poslanika, to je bilo tokom Druge Republike, i od tog trenutka nadalje, narod je bio taj koji je donosio zakone. U to vreme, Bastiat je bio svedok svojevrsne inflacije zakona u svim pravcima, uključujući stvaranje javnih službi, socijalnih prava, poreza, itd.
 
 
-![image](assets/en/006.webp)
+![image](assets/sr-Latn/006.webp)
 
 ---
 
@@ -142,11 +144,13 @@ Na ovom kursu, zajedno ćemo putovati kroz misli Frédérica Bastiata, počevši
 
 <chapterId>e9d92b63-83dd-552c-84e1-dd535608c109</chapterId>
 
+:::video id=29e42254-63d4-4a23-94a7-284e70f20515:::
+
 
 Godine 1844, Frédéric Bastiat je otišao na poslovno putovanje u Španiju. Nakon boravka u Madridu, Sevilji, Kadizu i Lisabonu, odlučio je da se ukrca za Sautempton i poseti Englesku. U Londonu je imao priliku da prisustvuje sastancima Lige protiv zakona o žitu, čiji je rad pratio iz daljine. Upoznao je glavne lidere ovog Udruženja, uključujući Ričarda Kobdena, koji će postati njegov prijatelj.
 
 
-![image](assets/en/007.webp)
+![image](assets/sr-Latn/007.webp)
 
 
 Tamo se njegov život radikalno promenio. Sam je ispričao da je njegova vokacija kao ekonomiste bila odlučena u tom trenutku. Po povratku u Francusku, imao je samo jednu ideju na umu: da učini Francusku svesnom liberalnog pokreta koji se budi u Engleskoj.
@@ -157,13 +161,13 @@ Frédéric Bastiat je rođen u Bajoni 30. juna 1801. Ostao je siroče sa 9 godin
 Godine 1825. nasledio je poljoprivredno imanje od svog dede, koje je upravljao kao "džentlmen-farmer", kako je sam rekao. Tada se prvi put susreo sa problemima izazvanim nedostatkom jasne definicije vlasničkih prava. Odlučio je da postane mirovni sudija u svom gradu Mugronu, u srcu Landesa, komercijalne i rečne raskrsnice između luka Bordo i Bajon. Kasnije je izabran za člana Generalnog saveta Landesa.
 
 
-![image](assets/en/008.webp)
+![image](assets/sr-Latn/008.webp)
 
 
 Brzo je razvio strast prema političkoj ekonomiji i proučavao dela Adam-a Smit-a, Jean-Baptist-a Say-a, Destutt-a de Tracy-ja, Charles-a Dunoyer-a i Charles-a Comte-a. Čitao je engleske novine i tamo je saznao za postojanje engleske lige za slobodnu trgovinu.
 
 
-![image](assets/en/009.webp)
+![image](assets/sr-Latn/009.webp)
 
 _(Recimo, Cobden, Smith, Chevalier, Dunoyer, Destutt de Tracy)_
 
@@ -171,7 +175,7 @@ _(Recimo, Cobden, Smith, Chevalier, Dunoyer, Destutt de Tracy)_
 Po povratku iz Engleske, napisao je članak pod naslovom: "O uticaju engleskih i francuskih tarifa na budućnost dva naroda," koji je poslao časopisu Journal des Économistes u Parizu. Članak se pojavio u oktobarskom izdanju 1844. godine i bio je potpuni uspeh. Svi su se divili njegovoj snažnoj i oštroumnoj argumentaciji, kao i njegovom trezvenom i elegantnom stilu.
 
 
-![image](assets/en/010.webp)
+![image](assets/sr-Latn/010.webp)
 
 
 Journal des Économistes ga je zatim zamolio za još članaka, a nekoliko članova Društva za političku ekonomiju, posebno Horace Say, sin Jean-Baptiste Say-a, i Michel Chevalier, poznati profesor, čestitali su mu, ohrabrujući ga da nastavi s njima u radu na širenju ekonomskih istina. Ovo je označilo početak novog života u Parizu.
@@ -180,14 +184,14 @@ Journal des Économistes ga je zatim zamolio za još članaka, a nekoliko člano
 Prvo je objavio početnu seriju Ekonomskih sofizama, u kojoj je napao protekcioniste sa smelošću i ironijom. U Parizu je čak započeo kurs političke ekonomije u privatnoj sobi, koji je sa velikim interesovanjem pohađala studentska elita.
 
 
-![image](assets/en/011.webp)
+![image](assets/sr-Latn/011.webp)
 
 
 Naredne godine osnovao je "Udruženje za slobodnu trgovinu" u Francuskoj i uključio se u borbu protiv protekcionizma u Francuskoj. Prikupljao je sredstva, kreirao nedeljni pregled i držao predavanja širom zemlje.
 
 Prvi sastanak održan je u Bordou 23. februara 1846. godine, tokom kojeg je osnovana Bordoška asocijacija za slobodnu trgovinu. Ubrzo se pokret proširio širom Francuske. U Parizu je formirano početno jezgro među članovima Društva ekonomista, kojem su se pridružili poslanici, industrijalci i trgovci. Značajne grupe su se takođe formirale u Marselju, Lionu i Le Avru.
 
-![image](assets/en/005.webp)
+![image](assets/sr-Latn/012.webp)
 
 
 Februarska revolucija 1848. zbacila je monarhiju  Louis-Philippe, poznatu kao Julska monarhija (1830-1848), i donela Drugu Republiku. Bastija je tada izabran za člana zakonodavne skupštine kao poslanik za Landes. Sedeo je u centru-levo, sa Alexis-om de Tocqueville-om, između monarhista i socijalista. Tamo se trudio da brani individualne slobode kao što su građanske slobode i protivio se svim restriktivnim politikama, bilo da dolaze s desna ili s leva. Izabran je za potpredsednika Finansijskog odbora i neprestano se trudio da podseti svoje kolege poslanike na ovu jednostavnu istinu, često zaboravljenu u parlamentima:
@@ -198,13 +202,13 @@ Februarska revolucija 1848. zbacila je monarhiju  Louis-Philippe, poznatu kao Ju
 Gotovo sve njegove knjige i eseji napisani su tokom poslednjih šest godina njegovog života, od 1844. do 1850. godine. Godine 1850. Bastija je napisao dva svoja najpoznatija dela: "Zakon"(The Law) i seriju pamfleta pod nazivom "Šta se vidi i šta se ne vidi"(What is Seen and What is Not Seen). "Zakon" je preveden na mnoge strane jezike, uključujući engleski, nemački, španski, ruski i italijanski.
 
 
-![image](assets/en/012.webp)
+![image](assets/sr-Latn/013.webp)
 
 
 Umro je u Rimu 1850. godine, od tuberkuloze. Sahranjen je u crkvi Saint Louis des Français u Rimu.
 
 
-![image](assets/en/013.webp)
+![image](assets/sr-Latn/014.webp)
 
 
 # Uticaji
@@ -218,11 +222,13 @@ Umro je u Rimu 1850. godine, od tuberkuloze. Sahranjen je u crkvi Saint Louis de
 
 <chapterId>bcc7a12a-6cc4-5061-85e3-0e31fb1f0a49</chapterId>
 
+:::video id=db69aa73-75a9-44af-a77b-eceb3bc185f3:::
+
 
 U ekonomiji, Bastiat je uvek priznavao svoj dug Adam-u Smith-u i Jean-Baptiste-u Say-u. Sa 26 godina, napisao je jednom od svojih prijatelja, "Nikada nisam čitao o ovim temama osim ova četiri dela, Smith, Say, Destutt i Censor."
 
 
-![image](assets/en/014.webp)
+![image](assets/sr-Latn/015.webp)
 
 _(Jean-Baptiste Say i Adam Smith)_
 
@@ -230,7 +236,7 @@ _(Jean-Baptiste Say i Adam Smith)_
 Politička ekonomija, kako su je zamislili Adam Smith i J.-B. Say, sažeta je u jednoj reči: sloboda. Sloboda trgovine, individualna sloboda, slobodna trgovina i slobodna inicijativa. Slobodnu trgovinu su prvi branili fiziokrati, kao što su François Quesnay i Vincent de Gournay, a zatim Adam Smith koji je sintetizovao njihove ideje sa svojim sopstvenim zapažanjima. Na kraju, krajem 18. veka, Jean-Baptiste Say je razjasnio i ispravio neke tačke doktrine svog učitelja Adam-a Smith-a u svom majstorskom delu "Traktat o političkoj ekonomiji"(Treatise on Political Economy).
 
 
-![image](assets/en/015.webp)
+![image](assets/sr-Latn/016.webp)
 
 _(Recimo, Destutt de Tracy, Quesnay, de Gournay)_
 
@@ -238,7 +244,7 @@ _(Recimo, Destutt de Tracy, Quesnay, de Gournay)_
 Adam Smith je bio zainteresovan za prosperitet, ne kao cilj sam po sebi, već kao sredstvo za moralno uzdizanje pojedinaca. Za njega, bogatstvo nacija sastoji se od bogatstva pojedinaca. Ako želite prosperitetnu naciju, kaže Adam Smith, pustite pojedince da deluju slobodno. I tržište funkcioniše jer omogućava svima da izraze svoje preferencije i slede svoje interese.
 
 
-![image](assets/en/016.webp)
+![image](assets/sr-Latn/017.webp)
 
 
 Velika novina modernih ekonomista na početku 18. veka je da su zainteresovani za svakog pojedinca sa voljom da obnove njegovu sposobnost delovanja, dok razmišljaju o tome kako obuzdati strasti i sukobe. Čovek prirodno želi da poboljša svoj položaj i položaj svojih voljenih kroz razmenu dobara i usluga.
@@ -249,7 +255,7 @@ Ono što Adam Smith pokazuje jeste da se sopstveni interes može zadovoljiti sam
 
 > Dajte mi ono što mi treba, i dobićete od mene ono što vama treba. (...) Ne očekujemo našu večeru iz dobrote mesara, pivara ili pekara, već iz njihove brige za sopstveni interes.
 
-![image](assets/en/017.webp)
+![image](assets/sr-Latn/018.webp)
 
 ---
 
@@ -262,7 +268,7 @@ Ono što Adam Smith pokazuje jeste da se sopstveni interes može zadovoljiti sam
 Razmena je igra sa pozitivnim ishodom. Ono što jedan dobije, dobija i drugi. Tako se razlikuje od političke redistribucije gde uvek postoji pobednik i gubitnik. Ako uzmemo u obzir englesku školu, za Smith-a, za Ricardo-a i za Locke-a pre njih, vrednost je povezana sa radom. Za Marksa, to je isto.
 
 
-![image](assets/en/018.webp)
+![image](assets/sr-Latn/019.webp)
 
 _(Marx, Ricardo, Smith, Locke)_
 
@@ -275,7 +281,7 @@ Ali Bastiat je takođe nijansirao Say-a po ovom pitanju. Nije reč o korisnosti 
 Ekonomija se pokorava brojnim jednostavnim zakonima izvedenim iz ljudskog ponašanja. Jedan od njih, nazvan "Say-ev zakon", glasi: "Proizvodi i usluge se razmenjuju za proizvode i usluge." Njegova ideja je da nacije i pojedinci imaju koristi od povećanja nivoa proizvodnje jer to nudi povećane mogućnosti za uzajamno korisne razmene.
 
 
-![image](assets/en/019.webp)
+![image](assets/sr-Latn/020.webp)
 
 ---
 
@@ -297,7 +303,7 @@ Ali od Jean-Baptiste Say-a, Frédéric Bastiat takođe nasleđuje ključni konce
 Proizvođači pribegavaju ubeđivanju, pregovorima i ugovoru, dok pljačkaši pribegavaju sili i prevari. Stoga je na zakonu da suzbije pljačku i obezbedi rad kao i imovinu. Kao što je Adam Smith već naveo, obezbeđivanje bezbednosti građana je glavna misija javne vlasti, i to je ono što opravdava naplatu poreza.
 
 
-![image](assets/en/020.webp)
+![image](assets/sr-Latn/021.webp)
 
 
 ## Antoine Destutt de Tracy
@@ -305,43 +311,44 @@ Proizvođači pribegavaju ubeđivanju, pregovorima i ugovoru, dok pljačkaši pr
 
 <chapterId>ddf64e9f-2ce0-5651-8eb8-bae578eb0b9b</chapterId>
 
+:::video id=727e10b7-9255-4f63-8b57-be59d2501f23:::
+
 
 Malo je poznato, ali Destutt de Tracy je imao odlučujući uticaj na budućeg predsednika Sjedinjenih Američkih Država, Thomas-a Jefferson-a, dok je bio ambasador u Parizu 1780-ih.
 
 
 > "Za svakog čoveka, njegova prva zemlja je njegova domovina, a druga je Francuska" & "Tiranija je kada se narod boji svoje vlade; sloboda je kada se vlada boji naroda."
 >
-
 > Thomas Jefferson
 
-![image](assets/en/021.webp)
+![image](assets/sr-Latn/022.webp)
 
 
 Zaista, njegov Traktat o političkoj ekonomiji osudio je protekcionizam i Napoleonovu ekspanziju. Stoga ga je Bonaparte zabranio za objavljivanje u Francuskoj. Međutim, preveden je na engleski i objavljen u Sjedinjenim Državama od strane Džefersona lično. On je ovaj tekst učinio prvim udžbenikom političke ekonomije na Univerzitetu u Virdžiniji, koji je upravo osnovao u Šarlotsvilu. Traktat je u Francuskoj objavljen tek 1819. godine!
 
 
-![image](assets/en/022.webp)
+![image](assets/sr-Latn/023.webp)
 
 
 Destutt de Tracy, filozof i ekonomista, bio je vođa takozvane škole "Ideologa", koja je uključivala ljude poput Cabanis-a, Condorcet-a, Constant-a, Daunou-a, Say-a i Germaine de Staël-a. Oni su naslednici fiziokrata i direktni učenici Turgot-a.
 
 
-![image](assets/en/023.webp)
+![image](assets/sr-Latn/024.webp)
 
 
-![image](assets/en/024.webp)
+![image](assets/sr-Latn/025.webp)
 
 
 Pod ideologijom, Tracy je jednostavno mislio na nauku koja se bavi proučavanjem ideja, njihovim poreklom, njihovim zakonima, njihovim odnosom sa jezikom, to jest, u savremenijim terminima, epistemologijom. Termin "ideologija" nije imao pežorativnu konotaciju koju će mu kasnije dati Marks kako bi diskreditovao ekonomiste "laissez-faire". Časopis ideološkog pokreta zvao se La Décade philosophique et littéraire.
 
 
-![image](assets/en/025.webp)
+![image](assets/sr-Latn/026.webp)
 
 
 Dominirao je revolucionarnim periodom i njime je upravljao Jean-Baptiste Say. Destutt de Tracy je izabran za člana Francuske akademije 1808. godine i Akademije moralnih i političkih nauka 1832. godine. Njegova ćerka se udala za Georges Washington-a de La Fayettea (sina prvog američkog predsednika) 1802. godine, što pokazuje blisku povezanost koja je tada još uvek postojala između Francuske i mlade Amerike.
 
 
-![image](assets/en/026.webp)
+![image](assets/sr-Latn/027.webp)
 
 Svrha njegovog Traktata o političkoj ekonomiji je da "ispita najbolji način da se uposle sve naše fizičke i intelektualne sposobnosti kako bismo zadovoljili naše različite potrebe." Njegova ideja je da je trgovina izvor svih ljudskih dobara; ona je civilizirajuća, racionalizirajuća i umirujuća sila sveta. Velika maksima političke ekonomije koju je on formulisao glasi: "trgovina je celokupno društvo, baš kao što je rad celokupno bogatstvo." Zaista, on vidi društvo kao "kontinuirani niz razmena u kojima oba ugovarača uvek dobijaju." Stoga, tržište je suprotnost predatorstvu. Ono obogaćuje neke bez osiromašivanja drugih. Kako će kasnije biti rečeno, to nije "igra sa nultim ishodom," već igra sa pozitivnim ishodom.
 
@@ -349,13 +356,13 @@ Svrha njegovog Traktata o političkoj ekonomiji je da "ispita najbolji način da
 Naš autor ne ide toliko daleko da definiše političku ekonomiju kao nauku o razmenama. Ali ovo isto razmišljanje će preuzeti i sprovesti Bastiat. Prodaja je razmena objekata, iznajmljivanje je razmena usluga, a pozajmljivanje je samo odložena razmena. Politička ekonomija tako postaje za Bastiat-a "teorija razmene."
 
 
-![image](assets/en/027.webp)
+![image](assets/sr-Latn/028.webp)
 
 
 Prema Destutt de Tracy-ju, vlasništvo nužno proizlazi iz naše prirode, iz naše sposobnosti i želje. Ako čovek ništa ne želi, ne bi imao ni prava ni dužnosti. Da bi zadovoljio svoje potrebe i ispunio svoje dužnosti, čovek mora koristiti sredstva koja stiče svojim radom. A oblik društvene organizacije koji odgovara ovom cilju je privatno vlasništvo. Zato je jedini cilj vlade zaštita vlasništva i omogućavanje mirne razmene.
 
 
-![image](assets/en/028.webp)
+![image](assets/sr-Latn/029.webp)
 
 
 Za njega, najbolji porezi su oni najumereniji, i želi da državni rashodi budu što je moguće ograničeniji. On osuđuje pljačku društvenog bogatstva od strane vlade u obliku javnog duga, poreza, bankarskih monopola i rashoda. Još jednom, zakon bi trebalo da služi samo za zaštitu slobode; nikada ne bi trebalo da pljačka.
@@ -374,17 +381,19 @@ Zaključno, ideolozi su imali duboku intuiciju, naime da su proizvodnja i razmen
 
 <chapterId>80bc5c4e-ac07-52c8-9dd7-e224ac291bda</chapterId>
 
+:::video id=6f8e4713-5b9e-49bb-85b1-e9e8a44cd75e:::
+
 
 Istorija svih civilizacija je priča o borbi između pljačkaških klasa i produktivnih klasa. Ovo je verovanje dvojice autora o kojima ćemo diskutovati. Oni su tvorci liberalne teorije klasne borbe koja je inspirisala Frédéric-a Bastiat-a jednako kao i Karl-a Marx-a, iako je potonji izobličio ovu teoriju.
 
 
-![image](assets/en/029.webp)
+![image](assets/sr-Latn/030.webp)
 
 
 Za Comte-a i Dunoyer-a, pljačka, što znači svi oblici nasilja koje u društvu sprovode jaki nad slabima, je ključ za razumevanje ljudske istorije. Ona je u osnovi svih fenomena eksploatacije jedne klase od strane druge.
 
 
-![image](assets/en/030.webp)
+![image](assets/sr-Latn/031.webp)
 
 
 Ako Frédéric Bastiat duguje svoje ekonomsko obrazovanje Smith-u, Destutt-u de Tracy-ju i Say-u, svoje političko obrazovanje duguje vođama časopisa Le Censeur, Charles-u Comte-u i Charles-u Dunoyer-u. 
@@ -393,7 +402,7 @@ Ako Frédéric Bastiat duguje svoje ekonomsko obrazovanje Smith-u, Destutt-u de 
 Ovaj časopis (1814-1819), preimenovan u Le Censeur européen nakon Sto dana (the Hundred Days), širio je liberalne ideje koje su trijumfovale 1830. godine sa ustankom Tri slavna dana (Three Glorious Days) i dolaskom na vlast vojvode od Orleana, Louis-Philippe I.
 
 
-![image](assets/en/031.webp)
+![image](assets/sr-Latn/032.webp)
 
 
 
@@ -404,7 +413,7 @@ Charles Comte, rođak Auguste-a Comte-a i zet Say-a, osnivač je recenzije. Ubrz
 Koji je cilj časopisa? Naslov govori sam za sebe: cenzurisati vladu. Boriti se protiv samovolje vlasti prosvetljavanjem javnog mnjenja, braniti slobodu štampe.
 
 
-![image](assets/en/033.webp)
+![image](assets/sr-Latn/033.webp)
 
 _(Benjamin Constant)_
 
@@ -417,7 +426,7 @@ Oni usvajaju od Benjamin-a Constant-a razliku između Starog i Modernog, karakte
 
 > Dunoyer
 
-![image](assets/en/034.webp)
+![image](assets/sr-Latn/034.webp)
 
 
 Ova nova društvena teorija sadrži jedan od elemenata koji će postati kamen temeljac naučnog socijalizma Marx-a i Engels-a: klasna borba. Ali od čega se sastoji liberalna teorija klasne borbe i po čemu se razlikuje od marksizma?
@@ -429,7 +438,7 @@ Počinje od pojedinca koji deluje kako bi zadovoljio svoje potrebe i želje. Od 
 Na ovoj tački, pojedinci se suočavaju sa dve osnovne alternative: mogu pljačkati bogatstvo koje su proizveli drugi, ili mogu raditi na proizvodnji bogatstva sami. U bilo kojem društvu, može se jasno razlikovati one koji žive od pljačke od onih koji žive od proizvodnje. Pod starim režimom, plemstvo je direktno napadalo najvrednije kako bi živelo od novog oblika danka: poreza. Pohlepno plemstvo nasledile su horde birokrata, ništa manje pohlepne.
 
 
-![image](assets/en/035.webp)
+![image](assets/sr-Latn/035.webp)
 
 
 Dok je za Marxa- klasni antagonizam smešten unutar same proizvodne aktivnosti, između zaposlenih i poslodavaca, za Comte-a i Dunoyer-a, sukobljene klase su, s jedne strane, proizvođači društva, koji plaćaju poreze (uključujući kapitaliste, radnike, seljake, naučnike, itd.) i s druge strane, neproizvođači, koji žive od renti finansiranih porezima, "besposlena i proždrljiva klasa" (birokrate, zvaničnici, političari, korisnici subvencija ili zaštita).
@@ -438,7 +447,7 @@ Dok je za Marxa- klasni antagonizam smešten unutar same proizvodne aktivnosti, 
 Zatim, za razliku od Marx-a, autori Censeur Européen ne zalažu se za klasni rat. Umesto toga, oni se zalažu za socijalni mir. A to, prema njima, može biti postignuto samo depolitizacijom društva. U tu svrhu, važno je prvo smanjiti prestiž i beneficije javnih funkcija. Zatim je važno dati uticaj u političkom telu proizvođačima.
 
 
-![image](assets/en/036.webp)
+![image](assets/sr-Latn/036.webp)
 
 Konačno, jedini način da se svet oslobodi eksploatacije jedne klase od strane druge jeste uništavanje samog mehanizma koji ovu eksploataciju čini mogućom: moć države da distribuira i kontroliše imovinu i raspodelu beneficija povezanih s njom (tzv. "pozicije").
 
@@ -451,11 +460,13 @@ Njihove ideje, duboko inovativne, zauvek će obeležiti Frédéric-a Bastiat-a, 
 
 <chapterId>7181435c-5eae-56e4-8e55-02a24273fdd6</chapterId>
 
+:::video id=633e542a-7217-4e63-bb6f-4a716fde3023:::
+
 
 Godine 1838., u Mančesteru, mali broj muškaraca, do tada malo poznatih, okuplja se kako bi pronašli način da legalnim sredstvima sruše monopol vlasnika zemljišta za uzgoj pšenice i postignu, kako će Bastiat kasnije ispričati,
 
 
-![image](assets/en/037.webp)
+![image](assets/sr-Latn/037.webp)
 
 
 > Bez krvoprolića, samo snagom mišljenja, revoluciju tako duboku, možda i dublju od one koju su naši očevi sproveli 1789. godine.
@@ -463,13 +474,13 @@ Godine 1838., u Mančesteru, mali broj muškaraca, do tada malo poznatih, okuplj
 Sa ovog sastanka će proizaći Liga protiv zakona o kukuruzu, ili zakona o žitaricama, kako bi ih Bastiat nazvao. Ali vrlo brzo, ovaj cilj bi postao cilj potpune i jednostrane abolicije protekcionizma.
 
 
-![image](assets/en/038.webp)
+![image](assets/sr-Latn/038.webp)
 
 
 Ova ekonomska borba za slobodnu trgovinu okupirala bi celu Englesku do 1846. godine. U Francuskoj, van malog broja upućenih, postojanje ovog velikog pokreta bilo je potpuno nepoznato. Frédéric Bastiat je saznao za postojanje Lige 1843. godine čitajući engleske novine na koje se slučajno pretplatio. Oduševljen, preveo je govore Cobden-a, Fox-a i Bright-a. Zatim je dopisivao sa Cobden-om i konačno, 1845. godine, otišao u London da prisustvuje gigantskim sastancima Lige.
 
 
-![image](assets/en/039.webp)
+![image](assets/sr-Latn/039.webp)
 
 
 To je bila kampanja agitacije za slobodnu trgovinu, širom kraljevstva, sa desetinama hiljada članova, koja je zapalila Bastiat-ovo pero i radikalno i definitivno promenila tok njegovog života.
@@ -478,7 +489,7 @@ To je bila kampanja agitacije za slobodnu trgovinu, širom kraljevstva, sa deset
 Liga se može uporediti sa putujućim univerzitetom, ekonomski obrazujući one koji su prisustvovali njenim sastancima širom zemlje—obične ljude, industrijalce, uzgajivače i farmere, sve one koje je Liga uzela pod svoje okrilje i čije interese su zakoni o žitaricama ugnjetavali. Ričard Kobden je bio duša pokreta i izvanredan agitator.
 
 
-![image](assets/en/040.webp)
+![image](assets/sr-Latn/040.webp)
 
 
 Fascinantan i zastrašujuć govornik, imao je izvanredan dar za izmišljanje upečatljivih i sažetih fraza, daleko od apstraktnih diskursa ekonomista.
@@ -486,7 +497,7 @@ Fascinantan i zastrašujuć govornik, imao je izvanredan dar za izmišljanje upe
 
 > Šta je monopol na hleb? uzviknuo je. To je nestašica hleba. Iznenađeni ste kada saznate da zakonodavstvo ove zemlje, po ovom pitanju, nema drugu svrhu osim da proizvede što veću moguću nestašicu hleba. A ipak, to nije ništa drugo. Zakonodavstvo može postići svoj cilj samo kroz nestašicu.
 
-![image](assets/en/041.webp)
+![image](assets/sr-Latn/041.webp)
 
 
 Godine 1845., Bastiat je objavio u Parizu svoju knjigu Cobden i Liga (Cobden and the League), sa svojim prevodima praćenim komentarima. Knjiga počinje uvodom o ekonomskoj situaciji u Engleskoj, o istoriji porekla i napretka Lige. Od 1815. godine, protekcionizam je bio veoma razvijen u Engleskoj. Postojali su, posebno, zakoni koji su ograničavali uvoz žitarica, što je imalo veoma teške posledice po narod. Naime, pšenica je bila neophodna za pravljenje hleba, osnovne životne namirnice u to vreme. Štaviše, ovaj sistem je pogodovao aristokratiji, odnosno velikim zemljoposednicima, koji su od toga ostvarivali prihode.
@@ -507,7 +518,7 @@ Cilj Lige bio je da mobiliše javno mnjenje kako bi izvršili pritisak na parlam
 - Promovisanja mira među narodima
 
 
-![image](assets/en/043.webp)
+![image](assets/sr-Latn/042.webp)
 
 _(Jeremy Bentham)_
 
@@ -519,13 +530,13 @@ Na izborima 1841. godine, pet članova lige, uključujući Cobden-a, izabrano je
 
 Zanimljivo je da je Bastiat prisvojio deo njihove metode; asimilovao je njihov jezik i preneo ga u francuski kontekst. Knjiga o Cobden-u i Ligi brzo je postala uspeh, a Bastiat je napravio senzacionalan ulazak u svet ekonomista. Osnovao je udruženje u Bordou u korist slobodne trgovine, a zatim ga preselio u Pariz. Ponuđeno mu je vođstvo Journal des Économistes. Pokret je rođen i nastavio se do 1848. godine.
 
-![image](assets/en/044.webp)
+![image](assets/sr-Latn/043.webp)
 
 
 Tek nakon Bastiatove smrti, 1866. godine, Napoleon III je potpisao Sporazum o slobodnoj trgovini sa Engleskom, što je bila neka vrsta posthumne pobede za čoveka koji je poslednjih šest godina svog kratkog života posvetio ovoj velikoj ideji.
 
 
-![image](assets/en/045.webp)
+![image](assets/sr-Latn/044.webp)
 
 _(Michel Chevalier)_
 
@@ -544,6 +555,8 @@ Pitanje slobodne trgovine aktuelno je i danas. Geografski udžbenici u školama 
 
 <chapterId>c3926110-e0b2-503c-96d9-5d3a6a661484</chapterId>
 
+:::video id=499239ae-df43-489e-8d1f-bf3ea01e4e6b:::
+
 
 Frédéric Bastiat, koji se izražavao 1840-ih, naslednik je generacije prosvetiteljskih filozofa koji su se borili protiv cenzure i za slobodu debate. Pomislite na Montesquieu-a, Diderot-a, Voltaire-a, Condorcet-a, ali i Rousseau-a.
 
@@ -551,7 +564,7 @@ Frédéric Bastiat, koji se izražavao 1840-ih, naslednik je generacije prosveti
 Za njih je ideja bila jednostavna: što više ideja bude izraženo, to istina više napreduje i greške se lakše pobijaju. Nauka uvek napreduje na ovaj način.
 
 
-![image](assets/en/046.webp)
+![image](assets/sr-Latn/045.webp)
 
 _(Montesquieu, Diderot, Voltaire, Condorcet, Rousseau)_
 
@@ -562,12 +575,12 @@ Naprotiv, malo ko je razumeo da ono što je važilo za ideje, važilo je i za ro
 Bastiat zaista smatra da je Rousseau-a pravi preteča socijalizma i kolektivizma. U autoru Društvenog ugovora, postoji fraza koja prilično dobro sažima njegovu filozofiju: "tek počinjemo da postajemo ljudi nakon što postanemo građani."
 
 
-![image](assets/en/047.webp)
+![image](assets/sr-Latn/046.webp)
 
 
 U početku, čovek je samo buržuj. Ali buržuj je kalkulator; on želi samo trenutno zadovoljstvo, on je rob svojih čula, svojih želja, svog posebnog interesa. Ukratko, on nije racionalan, stoga nije slobodan. Potrebno mu je obrazovanje, da razume da je njegov pravi interes opšti interes. Zato je Rousseau napisao u Društvenom ugovoru:
 
-![image](assets/en/048.webp)
+![image](assets/sr-Latn/047.webp)
 
 ---
 
@@ -582,7 +595,7 @@ Prema ovoj doktrini, čovek ima dve volje u sebi: volju koja teži ka ličnom in
 Stoga je sasvim legitimno, prema Rousseauu, prisiliti ljude u ime cilja koji bi oni sami, da su bili prosvetljeniji, sledili, ali koji ne slede jer su slepi, neuki ili korumpirani. Društvo je osnovano da ih prisili da rade ono što bi spontano želeli da rade ako bi bili prosvetljeni. I time im se ne čini nasilje, jer ih se vodi ka tome da budu "slobodni," odnosno da donose ispravne odluke, odluke koje su u skladu s njihovim pravim ja.
 
 
-![image](assets/en/049.webp)
+![image](assets/sr-Latn/048.webp)
 
 
 Uveren da je dobro društvo tvorevina zakona, Rousseau tako daje neograničenu moć zakonodavcu. Na njemu je da transformiše pojedince u ostvarene ljude, u građane.
@@ -592,7 +605,7 @@ Ali, takođe je na zakonu da učini da imovina postoji. Prema Rousseauu, imovina
 
 > Prva osoba koja je, ogradivši komad zemlje, rekla: Ovo je moje, i našla ljude dovoljno prostodušne da joj poveruju, bila je pravi osnivač građanskog društva. Koliko bi zločina, ratova, ubistava, koliko bi bede i užasa bilo pošteđeno ljudskom rodu od strane onoga koji bi, podignuvši ulog ili izaći iz jarka, povikao svojim bližnjima: "Čuvajte se da slušate ovog prevaranta; izgubljeni ste ako zaboravite da plodovi pripadaju svima, a zemlja nikome!"
 
-![image](assets/en/050.webp)
+![image](assets/sr-Latn/049.webp)
 
 
 Dakle, prirodna svojina je izvor zla. I Marx, veliki čitalac Rousseau-a, bi se toga setio. Kako se boriti protiv ovog zla? Kroz društveni ugovor, odgovara Rousseau. Zaista, dobro društvo je ono koje proizilazi iz ugovora koji propisuje otuđenje pojedinca sa svim njegovim pravima zajednici. Od tada, na zajednici je da dodeljuje prava pojedincu putem zakona.
@@ -601,7 +614,7 @@ Dakle, prirodna svojina je izvor zla. I Marx, veliki čitalac Rousseau-a, bi se 
 Suprotno od Rousseau-ovog mišljenja, Frédéric Bastiat kaže da je "čovek rođen kao vlasnik imovine." Za njega imovina je neophodna posledica prirode čoveka, njegove konstitucije. On piše da je "čovek rođen kao vlasnik imovine, jer je rođen sa potrebama čije je zadovoljenje neophodno za život, sa organima i sposobnostima čije je korišćenje neophodno za zadovoljenje tih potreba". Ali sposobnosti su samo produžetak osobe, a imovina je samo produžetak sposobnosti. Drugim rečima, korišćenje naših sposobnosti u radu je ono što legitimizuje imovinu.
 
 
-![image](assets/en/051.webp)
+![image](assets/sr-Latn/050.webp)
 
 
 Prema Bastiat-u, društvo, ljudi i imovina postoje pre zakona, i on ima ovu poznatu frazu: "Nije zbog toga što postoje zakoni da postoji imovina, već zbog toga što postoji imovina da postoje zakoni". Zato zakon mora biti negativan: mora sprečiti zadiranje u ljude i njihovu imovinu. Imovina je _raison d'être_ zakona, a ne obrnuto.
@@ -612,10 +625,12 @@ Prema Bastiat-u, društvo, ljudi i imovina postoje pre zakona, i on ima ovu pozn
 
 <chapterId>87d9a8c9-2352-5cb2-8b93-678118a8145c</chapterId>
 
+:::video id=4b24a6e8-969f-4058-a409-8942913fca4b:::
+
 Dana 24. februara 1848., nakon trodnevnih nereda u Parizu, kralj Louis-Philippe I abdicirao je sa vlasti. Ovo je označilo rođenje Druge Republike.
 
 
-![image](assets/en/052.webp)
+![image](assets/sr-Latn/051.webp)
 
 
 Bastiat je bio u Parizu, svedočio je događajima iz prve ruke. Kasnije je napisao:
@@ -626,7 +641,7 @@ Bastiat je bio u Parizu, svedočio je događajima iz prve ruke. Kasnije je napis
 Ovaj odlomak je iznenađujući. Kakve veze imaju grčka i rimska antika s tim?
 
 
-![image](assets/en/053.webp)
+![image](assets/sr-Latn/052.webp)
 
 
 Bastiat se poziva na Platonovu Republiku i njegovu teoriju filozofa-kralja, ali i na Spartu, koju je Rousseau toliko obožavao, kao i na Rimsko carstvo, za kojim je Napoleon bio toliko nostalgičan. Nažalost, prema Bastiat-u, ove grčke i rimske ideje zasnovane su na lažnoj pretpostavci: ideji o svemoći zakonodavca, o apsolutnoj suverenosti zakona.
@@ -635,7 +650,7 @@ Bastiat se poziva na Platonovu Republiku i njegovu teoriju filozofa-kralja, ali 
 Dovoljno je nasumično otvoriti gotovo bilo koju knjigu o filozofiji, politici ili istoriji da bi se pronašla ova ideja, ukorenjena u našoj kulturi, da je čovečanstvo inertna materija koja prima život, organizaciju, moralnost i prosperitet od političke moći. Prepušteno samo sebi, čovečanstvo bi težilo anarhiji i bilo bi spašeno od ove katastrofe samo misterioznom i svemoćnom rukom Zakonodavca. Međutim, kaže Bastiat, ova ideja je dugo sazrevala i pripremana kroz vekove klasičnog obrazovanja.
 
 
-![image](assets/en/054.webp)
+![image](assets/sr-Latn/053.webp)
 
 
 Prvo, kaže on, Rimljani su smatrali vlasništvo isključivo konvencionalnom činjenicom, kao veštačkom tvorevinom pisanog zakona. Zašto? Jednostavno, objašnjava Bastiat, zato što su živeli od ropstva i pljačke. Za njih je sva imovina bila plod otimačine. Stoga nisu mogli uvesti u zakonodavstvo ideju da je osnova legitimnog vlasništva rad, a da ne unište temelje svog društva.
@@ -648,7 +663,7 @@ Zaista su imali empirijsku definiciju svojine, "jus utendi et abutendi" (pravo k
 Zaista, Rousseau deli ovu zajedničku pravnu ideju o zasnivanju vlasništva na zakonu. Rousseau pripisuje zakonu, a samim tim i narodu, apsolutnu moć nad pojedincima i imovinom. I u ovoj koncepciji, koja čini samu ideju republike još od Francuske revolucije, zakonodavac mora organizovati društvo, poput socijalnog arhitekte, poput mehaničara koji izmišlja mašinu od inertne materije, ili poput grnčara koji oblikuje glinu. Zakonodavac se tako postavlja izvan čovečanstva, iznad njega, da ga uređuje po svojoj volji, prema planovima koje je osmislila njegova blistava inteligencija.
 
 
-![image](assets/en/055.webp)
+![image](assets/sr-Latn/054.webp)
 
 
 Naprotiv, za Bastiat-a, pravo svojine je pre zakona. To je ono što on naziva principom ekonomista, za razliku od principa pravnika. Dok "princip pravnika" praktično sadrži ropstvo, kaže Bastiat, princip ekonomista sadrži slobodu.
@@ -660,7 +675,7 @@ Naprotiv, za Bastiat-a, pravo svojine je pre zakona. To je ono što on naziva pr
 Tužno je misliti da je naša socijalna i politička filozofija ostala zaglavljena na ideji da rešenje svih naših problema mora doći odozgo, iz zakona, od države. Ali ovo je objašnjivo. Ove ideje se svakodnevno usađuju mladima u školama i univerzitetima, kroz monopol obrazovanja.
 
 
-![image](assets/en/056.webp)
+![image](assets/sr-Latn/055.webp)
 
 _primer takvog monopolističkog agenta mogla bi biti državna institucija_
 
@@ -673,8 +688,10 @@ Međutim, kako nas Bastiat podseća, monopol isključuje napredak.
 
 <chapterId>ce6cb8a8-7dc9-5ef7-939d-9a559b4d2c74</chapterId>
 
+:::video id=4ef9f07f-aeb1-4626-b9ee-91060fd75803:::
 
-![image](assets/en/057.webp)
+
+![image](assets/sr-Latn/056.webp)
 
 _(Richard Cobden)_
 
@@ -685,7 +702,7 @@ Kao što smo već videli, upravo je Cobden-ova borba protiv protekcionizma sa en
 Protecionizam je, u stvarnosti, oblik ekonomskog nacionalizma. Cilj mu je eliminisanje strane konkurencije dok se pretvara da "brani nacionalne interese." Zatim pokušavaju da navedu javne vlasti da prihvate skup čisto demagoških neistina, predstavljenih kao vrlina: odbrana radnih mesta, konkurentnost, itd. Naravno, izabrani zvaničnici popuštaju pod pritiskom proizvođača, jer je to za njih zlatna prilika da učvrste svoju klijentelu i prošire svoju moć.
 
 
-![image](assets/en/058.webp)
+![image](assets/sr-Latn/057.webp)
 
 _primer promotivne reklame za blender proizveden u Francuskoj_
 
@@ -711,7 +728,7 @@ Ako zabranimo engleski proizvod, potrošač će platiti jednu jedinicu više za 
 Protecionizam je takođe oblik klasne borbe. Prema Bastiat-u, to je sistem zasnovan na sebičnosti i pohlepi proizvođača. Da bi povećali svoje prihode, poljoprivrednici ili industrijalci zahtevaju poreze kako bi zatvorili tržište za strane proizvode, prisiljavajući tako potrošače da plaćaju više za njihove proizvode.
 
 
-![image](assets/en/060.webp)
+![image](assets/sr-Latn/058.webp)
 
 
 Bastiat čvrsto staje na stranu potrošača. Protiv klasnog interesa, on postavlja opšti interes, koji je interes potrošača, odnosno interes svih. Država bi uvek trebalo da se pozicionira sa stanovišta potrošača kada deluje.
@@ -720,7 +737,7 @@ Bastiat čvrsto staje na stranu potrošača. Protiv klasnog interesa, on postavl
 Sa revolucijom u februaru 1848. godine i njenim barikadama, pojaviće se strašniji neprijatelj od protekcionizma, onaj s kojim deli mnoge sličnosti: socijalizam.
 
 
-![image](assets/en/061.webp)
+![image](assets/sr-Latn/059.webp)
 
 
 Šta je to? To je politički pokret koji zahteva organizaciju rada zakonom, nacionalizaciju industrija i banaka, i preraspodelu bogatstva putem oporezivanja. Bastiat bi sada posvetio svu svoju energiju, talenat i pisanje protiv ove nove doktrine, koja bi mogla samo dovesti do eksponencijalnog rasta moći i večite klasne borbe. Tako je, od prvih dana revolucije, doprinosio kratkotrajnom listu pod nazivom "La République Française," koji je brzo postao poznat kao kontrarevolucionarni časopis. To je bilo vreme kada je pisao svoje pamflete o svojini, državi, pljački i zakonu.
@@ -737,7 +754,7 @@ Dana 27. juna 1848., dan nakon krvave nove pobune u Parizu, u opširnom pismu Ri
 - 2° Nacija je postala očarana idejom da se bratstvo i solidarnost mogu uvesti u zakon. To jest, zahtevala je da država direktno stvori sreću za svoje građane. Ovde Bastiat vidi početke države blagostanja.
 
 
-![image](assets/en/062.webp)
+![image](assets/sr-Latn/060.webp)
 
 
 I nastavio bi da analizira njegove štetne posledice i nakon toga. Evo jednog primera, navedenog u pismu Cobden-u:
@@ -749,7 +766,7 @@ I nastavio bi da analizira njegove štetne posledice i nakon toga. Evo jednog pr
 - 3° Bastiat dodaje da je, po njegovom mišljenju, protekcionizam bila prva manifestacija ovog poremećaja. Kapitalisti su počeli tražiti intervenciju zakona kako bi povećali svoj deo bogatstva. Neizbežno, radnici su želeli da učine isto.
 
 
-![image](assets/en/063.webp)
+![image](assets/sr-Latn/061.webp)
 
 ---
 
@@ -768,18 +785,20 @@ Zaključno, protekcionisti i socijalisti dele zajedničku tačku, prema Bastiat-
 
 <chapterId>96902abd-6915-5b25-a187-a4790162b86c</chapterId>
 
+:::video id=6ede1de0-b034-4c48-845d-a2c415de6af2:::
+
 
 Pierre-Joseph Proudhon je jedan od glavnih predstavnika francuskog socijalizma sredinom 19. veka. Posebno je poznat po izjavi: "Svojina je krađa" u "Šta je svojina?"(What is Property?) iz 1840. godine.
 
 
-![image](assets/en/064.webp)
+![image](assets/sr-Latn/062.webp)
 
 
 
 Postoji nešto logički apsurdno u ovoj tvrdnji. Jer ako ne bi bilo legitimno stečene imovine, logično ne bi moglo postojati delo kao što je krađa. Zato bi Proudhon kasnije pojasnio da je stvarna raspodela imovine ono što on smatra krađom, a ne sama imovina, koju opisuje kao revolucionarnu silu koja je osnovna za anarhističko društvo.
 
 
-![image](assets/en/066.webp)
+![image](assets/sr-Latn/063.webp)
 
 
 Ali Proudhon je individualistički anarhista. On ne vidi proletarijat, niti državu, kao legitimne izvore moći. Oštro kritikuje komunizam i zalaže se za radnički mutualizam, oblik strukturirane kooperativne solidarnosti, koji bi se oslanjao na dobrovoljno udruživanje resursa za međusobnu pomoć. Manje je poznato, ali Bastiat uopšte nije bio protiv ove ideje u principu. On je jednostavno strahovao da bi država to pretvorila u de facto monopolističku javnu službu. Istorija bi ga opravdala.
@@ -790,24 +809,24 @@ Ali Proudhon je individualistički anarhista. On ne vidi proletarijat, niti drž
 S druge strane, dobro je poznato da bi u "Bedu filozofije"(The Poverty of Philosophy) Marx žestoko napao Proudhon-a i njegov socijalizam, koji je nazvao "utopijskim", u korist takozvanog "naučnog" socijalizma.
 
 
-![image](assets/en/068.webp)
+![image](assets/sr-Latn/064.webp)
 
 U junu 1848. godine, Proudhon je izabran u Nacionalnu skupštinu, zajedno sa Bastiat-om. Bili su poznanici i međusobno su se visoko cenili. Međutim, 1849. godine, u snažnoj polemici, Bastiat je razmenio četrnaest pisama sa njim u kolumnama "La Voix du Peuple". U ovoj žustroj razmeni, razjasnio je svoj stav o monetarnim i bankarskim pitanjima. Spor se sveo na sledeću alternativu: slobodan kredit ili sloboda kredita?
 
 
-![image](assets/en/069.webp)
+![image](assets/sr-Latn/065.webp)
 
 
 Proudhon je video kamatu na kapital kao početni uzrok siromaštva i nejednakosti uslova. Zalagao se za neograničeno stvaranje novca od strane državne banke (Berzanska Banka ili Narodna Banka), i video je u "slobodnom kreditu" rešenje za socijalni problem. S druge strane, Bastiat je bio zagovornik slobode banaka, što znači regulisanje monetarne cirkulacije kroz slobodan pristup profesiji, u kombinaciji sa neophodnom odgovornošću za sopstvena sredstva, i slobodom konkurencije.
 
 
-![image](assets/en/070.webp)
+![image](assets/sr-Latn/066.webp)
 
 
 Bastiat je opovrgao svog protivnika u nekoliko faza. Prvo je analizirao izopačene efekte slobodnog kredita i stvaranja novca. Takav sistem mogao bi samo podstaći najrizičnije i najnepromišljenije akcije banaka i privatnih aktera jer znaju da su pokriveni od strane države, odnosno novcem poreskih obveznika: "Ozbiljna je stvar staviti sve ljude u situaciju gde kažu: Pokušajmo sreću sa tuđom imovinom; ako uspem, tim bolje za mene; ako ne uspem, šteta za druge." Proročanska izjava jer bi se mogla primeniti na naše doba.
 
 
-![image](assets/en/071.webp)
+![image](assets/sr-Latn/067.webp)
 
 
 Politika niskih kamatnih stopa koju praktikuju centralne banke je način da se veštački stvori novac. A uzastopne krize finansijskog sistema tokom poslednjeg veka, sa zaduživanjem država, su njene direktne posledice.
@@ -816,13 +835,13 @@ Politika niskih kamatnih stopa koju praktikuju centralne banke je način da se v
 Zatim Bastiat pokazuje da je moguće poboljšati kupovnu moć radničke klase, ali na druge načine, pravednije i efikasnije. Za njega je smanjenje kamatnih stopa takođe cilj liberalne politike. Ali to se postiže oslobađanjem i akumulacijom kapitala, a ne ukidanjem kamata, odnosno besplatnim kreditom.
 
 
-![image](assets/en/072.webp)
+![image](assets/sr-Latn/068.webp)
 
 
 Zaista, prema Bastiat-u, napredak čovečanstva poklapa se sa formiranjem kapitala. U svom pamfletu pod nazivom Kapital i renta, Bastiat nam to objašnjava sa Robinzon Krusoom na njegovom ostrvu.
 
 
-![image](assets/en/073.webp)
+![image](assets/sr-Latn/069.webp)
 
 Bez akumuliranog kapitala ili materijala, Robinson bi bio osuđen na smrt. On zatim objašnjava da kapital obogaćuje radnika na dva načina:
 
@@ -851,11 +870,13 @@ U zaključku, i Proudhon i Bastiat su prepoznali važnost akumulacije kapitala i
 
 <chapterId>25fb02a9-5d68-5c58-bd0f-d4b8e1fd91f9</chapterId>
 
+:::video id=aff28a5b-3cf4-414b-9a6a-b70ffb1bf20c:::
+
 
 U ovom poglavlju ću otkriti potpuno novu tehnologiju, revolucionarnu tehnologiju. Istraživač je razvio par bioničkih naočara sa ultra-snažnom mini-kamerom ugrađenom u prednji deo. Ova tehnologija omogućava viđenje detalja nemogućih za videti golim okom. U ručkama se nalazi elektronski čip koji prenosi slike direktno na oblak putem mog pametnog telefona.
 
 
-![image](assets/en/074.webp)
+![image](assets/sr-Latn/070.webp)
 
 
 Pronalažac prvog prototipa ovih naočara bio je Frédéric Bastiat 1850. godine u čuvenom pamfletu: _Ce qu’on voit et ce qu’on ne voit pas_. Ove naočare su naočare ekonomiste. One omogućavaju merenje posledica odluka koje vlasti donose na naše živote. To su naočare koje "omogućavaju da vidimo ono što ne vidimo": uništenje izazvano klijentelističkim politikama i lažnim ekonomskim teorijama. Često ne vidimo njihove žrtve, niti njihove korisnike, ukratko, njihove stvarne efekte nasuprot tvrdnjama iznetim u zvaničnim govorima, ono što Bastiat naziva "Ekonomski Sofizmi."
@@ -882,7 +903,7 @@ Ali ono što se ne vidi je šta bi vlasnik kupio tim novcem, ali čega sada mora
 Dakle, neće biti više "stimulacije" ekonomije razbijanjem prozora nego bez toga. Međutim, u prvom slučaju će biti neto gubitak: vrednost prozora.
 
 
-![image](assets/en/075.webp)
+![image](assets/sr-Latn/071.webp)
 
 Prva lekcija koju treba naučiti je da je "dobra" odluka ili "dobra" politika ona koja društvo košta manje nego što bi koštala neka druga raspodela resursa. Efikasnost politike treba oceniti ne samo na osnovu njenih efekata već i na osnovu alternativa koje su mogle da se dogode. Ovo je koncept "troška propuštene prilike," drag Bastiat-u.
 
@@ -899,7 +920,7 @@ Ali postoje i drugi načini za podsticanje ekonomije. Ako država pokrene velike
 Konačno, skoro vek pre Keynes-a, možemo reći da je Bastiat opovrgao kejnzijanske sofizme koji tvrde da zaduženost države podstiče ekonomiju i da javna potrošnja proizvodi rast.
 
 
-![image](assets/en/076.webp)
+![image](assets/sr-Latn/072.webp)
 
 
 Velika lekcija iz ove serije tekstova je da državna intervencija ima izopačene efekte koji nisu vidljivi. Samo dobar ekonomista je sposoban da ih predvidi. Politika je ono što vidimo. Ekonomija je ono što ne vidimo.
@@ -910,11 +931,13 @@ Velika lekcija iz ove serije tekstova je da državna intervencija ima izopačene
 
 <chapterId>f4e759ed-1cb2-55c7-885e-0a60244758a4</chapterId>
 
+:::video id=b1856cde-9156-4a16-99fa-a0e45edcc905:::
+
 
 Godine 1840, Zastupnički dom je izglasao zakon o povećanju uvoznih poreza kako bi zaštitio francusku industriju. Ovo je čuveni ekonomski patriotizam, sa kojim se i danas susrećemo.
 
 
-![image](assets/en/077.webp)
+![image](assets/sr-Latn/073.webp)
 
 _iznad: Marine Le Pen, francuska političarka_
 
@@ -923,7 +946,7 @@ _iznad: Marine Le Pen, francuska političarka_
 Bastiat je zatim sastavio satirični tekst koji je kasnije postao jedno od njegovih najpoznatijih dela: "peticija proizvođača sveća"(the petition of the candle makers). Ilustruje kako određene dobro organizovane interesne grupe proizvođača dobijaju nezaslužene privilegije od države, na štetu građana. Istovremeno, pokazuje apsurdnu i destruktivnu prirodu protekcionističkog zakonodavstva.
 
 
-![image](assets/en/079.webp)
+![image](assets/sr-Latn/074.webp)
 
 ---
 
@@ -943,7 +966,7 @@ Dakle, ko je taj nepravedni strani konkurent? To nije niko drugi do sunce. Proiz
 Drugim rečima, proizvođači sveća pokušavaju da pokažu štetne efekte "stranog konkurenta" (sunca) na ekonomiju Francuske. Jer sunce ne samo da može da pruži isti "proizvod" kao sveće, već to čini besplatno. Dvesta godina kasnije, ova priča ostaje neverovatno relevantna. Razmislite o taksistima koji traže zakon za zabranu VTC-a i Ubera. Pomislite na knjižare koje žele da zabrane Amazon.
 
 
-![image](assets/en/080.webp)
+![image](assets/sr-Latn/075.webp)
 
 
 Bastiat-ov pravi protivnik u ovoj fikciji je politički i izborni protekcionizam, koji se oslanja isključivo na pohlepu proizvođača i naivnost potrošača. On razotkriva dosluh između lošeg kapitaliste tog vremena i države. Umesto da inovira i prilagođava se tržištu, loš kapitalista je onaj koji nastoji da stekne političku prednost kroz protekcionizam. Ovo uvek rezultira pljačkom potrošača, odnosno nepravdom.
@@ -963,7 +986,7 @@ Proteksionizam se takođe zasniva na skrivenom silogizmu koji se ispostavlja kao
 Ilustrujmo ovu apsurdnost sa nekoliko kratkih priča koje priča Bastiat. U Poglavlju III druge serije Ekonomskih sofizama, on zamišlja stolara koji piše ministru peticiju tražeći protekcionističko zakonodavstvo. Stolar ovako formuliše svoj zahtev: Gospodine Ministre, donesite zakon koji propisuje da "Niko neće moći koristiti ništa osim greda i nosača proizvedenih tupim sekirama." Drugim rečima, donesite zakon koji zabranjuje upotrebu oštrih sekira u Francuskoj. Tako će, gde se inače daje 100 udaraca sekirom, biti potrebno dati 300. Stolari će biti veoma traženi i stoga bolje plaćeni.
 
 
-![image](assets/en/081.webp)
+![image](assets/sr-Latn/076.webp)
 
 
 U Poglavlju XVI nalazi se još jedan veoma ironičan tekst pod naslovom: Desna ruka i reva ruka (The Right Hand and the Left Hand). Nakon istrage, kraljevski izaslanik sastavlja izveštaj u kojem predlaže kralju da odseče, ili barem veže, sve desne ruke radnika. Tako će, nastavlja on, rad i posledično bogatstvo porasti. Proizvodnja će postati mnogo teža, što će zahtevati masovno zapošljavanje dodatne radne snage i povećanje plata. Siromaštvo će nestati iz zemlje.
@@ -987,10 +1010,12 @@ Pravo bogatstvo, prema Bastiat-u, je dakle skup korisnih stvari koje proizvodimo
 
 <chapterId>551fc499-2119-5a52-9114-412d29434c22</chapterId>
 
+:::video id=a5fe6417-cd81-4c72-a7c7-59aabf9e1547:::
+
 
 > Kad bogati izgube na težini, siromašni umiru.
 
-![image](assets/en/083.webp)
+![image](assets/sr-Latn/077.webp)
 
 
 Ovaj citat, koji se pripisuje Lao-Tzu-u, opisuje neizbežnu posledicu poreskog sistema koji ima za cilj da bogate pogodi jače od drugih.
@@ -1041,7 +1066,7 @@ Problem je što su porezi, kako su zamišljeni, podložni samovolji onih na vlas
 Zato je Bastiat već razumeo Lafferovu krivu. Arthur Laffer je američki ekonomista poznat po svojoj čuvenoj "krivi" (elipsi), objavljenoj 1974. godine, koja pokazuje da prihod od poreza raste sa smanjenjem poreske stope. Ovo je teorija opadajućeg prinosa prekomernog oporezivanja.
 
 
-![image](assets/en/087.webp)
+![image](assets/sr-Latn/078.webp)
 
 ---
 
@@ -1054,7 +1079,7 @@ Zato je Bastiat već razumeo Lafferovu krivu. Arthur Laffer je američki ekonomi
 Političari naivno pretpostavljaju da postoji automatska i fiksna veza između poreskih stopa i poreskih prihoda. Oni misle da mogu udvostručiti poreske prihode udvostručavanjem poreske stope. Prema Laffer-u, takav pristup zanemaruje činjenicu da poreski obveznici mogu promeniti svoje ponašanje kao odgovor na nove podsticaje.
 
 
-![image](assets/en/088.webp)
+![image](assets/sr-Latn/079.webp)
 
 
 Lafferova kriva pokazuje da vlada ne prikuplja prihode kada su poreske stope na 100%. Suprotno tome, svako smanjenje poreza služi za stimulisanje ekonomske aktivnosti i time državnih prihoda. Zaista, smanjenje marginalnih poreskih stopa podstiče investicije, rad, kreativnost i time promoviše ekonomski rast. Dovoljno smanjenje moglo bi proizvesti dovoljno ekonomskog stimulansa da poveća javne prihode značajnim proširenjem poreske osnovice.
@@ -1063,7 +1088,7 @@ Lafferova kriva pokazuje da vlada ne prikuplja prihode kada su poreske stope na 
 Bastiat bi mogao dodati da bi se jednaka važnost trebala pridavati smanjenju državnih rashoda kao i smanjenju poreza. Ipak, kako je Margaret Thatcher, učenica Frédérica Bastiat-a, tako prikladno rekla:
 
 
-![image](assets/en/089.webp)
+![image](assets/sr-Latn/080.webp)
 
 
 > Cilj nije učiniti bogate siromašnima, već učiniti siromašne bogatima.
@@ -1076,11 +1101,13 @@ I rekla je to dok se obraćala socijalistima.
 
 <chapterId>c518e449-f638-553c-9a49-15da48023d41</chapterId>
 
+:::video id=e2037025-a4db-4980-91e7-a04da99514de:::
+
 
 Mnogi ljudi znaju za "Tartifa ili varalicu" (Tartuffe or the Impostor), komediju Molijera u kojoj lukavi pobožnjak pokušava da zavede Elmire i prevari njenog muža Orgon-a. Kako se može zaštititi od obmana takvog licemera koji se pretvara da vam čini dobro dok kuje zavere protiv vas?
 
 
-![image](assets/en/090.webp)
+![image](assets/sr-Latn/081.webp)
 
 
 Bastiat primećuje da postoje dva načina da se stane na kraj ovoj vrsti obmane: ispraviti Tartuffe-a ili prosvetliti Orgon-a. Naravno, uvek će biti Tartuffe-a, ali njihova moć da nanesu štetu bila bi znatno smanjena kada bi bilo manje Orgon-a koji ih slušaju.
@@ -1092,7 +1119,7 @@ Slabost ljudskog razuma je u korenu zloupotrebe slobode. To je glavna ograničen
 Međutim, postoje dva komplementarna načina da se prosvetli sud građana, kako Bastiat ističe u poglavlju druge serije Ekonomskih sofizama pod nazivom "Dve moralnosti" (The Two Moralities).
 
 
-![image](assets/en/091.webp)
+![image](assets/sr-Latn/082.webp)
 
 
 
@@ -1111,7 +1138,7 @@ Zapravo, ovo su dva savršeno komplementarna moralna okvira.
 Ukratko, on uči vrlini, nesebičnom činu. Ova moralnost, kaže Bastiat, biće večno najlepša i najdirljivija, jer pokazuje ono što je najbolje u čoveku.
 
 
-![image](assets/en/092.webp)
+![image](assets/sr-Latn/083.webp)
 
 
 2. Druga pomaže da se zlo osudi i suzbije kroz poznavanje njegovih posledica, to je ekonomski moral. Obraća se intelektu, a ne srcu, s ciljem da prosvetli žrtvu o negativnim efektima nekog ponašanja. On pojačava lekcije iskustva. Nastoji da širi zdrav razum, znanje i nepoverenje među potlačenim masama, čineći ugnjetavanje težim.
@@ -1120,7 +1147,7 @@ Ukratko, on uči vrlini, nesebičnom činu. Ova moralnost, kaže Bastiat, biće 
 Ova ekonomska moralnost teži istom cilju kao i religijska moralnost, ali polazeći od efekata ljudskih dela. Ona nas uči da reagujemo protiv nepravednih ili štetnih dela i da branimo ona koja su pravedna ili korisna.
 
 
-![image](assets/en/093.webp)
+![image](assets/sr-Latn/084.webp)
 
 
 Bastiat ovde ističe ulogu nauke, a posebno ekonomske nauke. Iako se razlikuje od tradicionalne moralnosti, njena uloga je ipak neophodna za borbu protiv eksploatacije u svim njenim oblicima. Moralnost napada porok u njegovoj nameri, ona obrazuje volju. S druge strane, nauka napada porok razumevanjem njegovih efekata, čime se olakšava trijumf vrline.
@@ -1156,6 +1183,8 @@ Jedna stvar je sigurna, nije politika ta koja može promeniti tok stvari i usavr
 
 <chapterId>895ccd1d-7b52-5a8b-8b2c-6ec0056cf632</chapterId>
 
+:::video id=ed6dc15c-b5e9-465c-9966-16c6737c0a68:::
+
 
 Može li harmonično društvo funkcionisati bez pisanih zakona, pravila, represivnih mera? Ako se ljudima ostavi sloboda, zar nećemo svedočiti neredu, anarhiji, dezorganizaciji? Kako izbeći stvaranje puke jukstapozicije pojedinaca koji deluju van svakog dogovora, ako ne kroz zakone i centralizovanu političku organizaciju?
 
@@ -1163,7 +1192,7 @@ Može li harmonično društvo funkcionisati bez pisanih zakona, pravila, represi
 Ovo je argument koji često koriste oni koji zahtevaju regulaciju tržišta ili društvo koje je samo sposobno da koordinira pojedince u koherentnu i harmoničnu celinu.
 
 
-![image](assets/en/095.webp)
+![image](assets/sr-Latn/085.webp)
 
 
 Ovo nije Bastiat-ovo mišljenje. Prema njemu, društveni mehanizam, poput nebeskog mehanizma ili mehanizma ljudskog tela, pokorava se opštim zakonima. Drugim rečima, to je već harmonično organizovana celina. A motor ove organizacije je slobodno tržište.
@@ -1195,7 +1224,7 @@ Bastiat opisuje tržište kao decentralizovani i nevidljivi alat saradnje. Kroz 
 Ono što je upečatljivo, zaključuje Bastiat, jeste ogromna nesrazmera koja postoji između koristi koje ovaj čovek crpi iz društva i onih koje bi sebi obezbedio kada bi bio sveden na sopstvene resurse. U jednom danu, on konzumira dobra koja ne bi mogao sam da proizvede.
 
 
-![image](assets/en/096.webp)
+![image](assets/sr-Latn/086.webp)
 
 
 Godine 1958., američki pisac Leonard Read (Fondacija za ekonomsko obrazovanje) objavio je kratak esej u časopisu "The Freeman", napisan u maniru Bastiat-a, koji je postao veoma poznat: "Ja, olovka" (I, Pencil). Ovaj tekst je metafora za ono što je slobodno tržište. Počinje ovako:
@@ -1203,24 +1232,25 @@ Godine 1958., američki pisac Leonard Read (Fondacija za ekonomsko obrazovanje) 
 
 > Ja sam grafitna olovka, obična drvena olovka poznata svim dečacima, devojčicama i odraslima koji znaju da čitaju i pišu. To je jedan od najjednostavnijih predmeta u ljudskoj civilizaciji. Ipak, nijedna osoba na ovoj zemlji ne zna kako da me proizvede.
 
-![image](assets/en/097.webp)
+![image](assets/sr-Latn/087.webp)
 
 Ovaj tekst ponovo razmatra Bastiat-ovu ideju o nevidljivoj saradnji među milionima pojedinaca koji se međusobno ne poznaju, što dovodi do izgradnje nečega tako svakodnevnog kao što je olovka. Niko ne zna kako da sam napravi olovku. Ipak, milioni ljudi nesvesno učestvuju u stvaranju ove jednostavne olovke, razmenjujući i koordinirajući svoja znanja i veštine unutar sistema cena bez ikakvog nadređenog autoriteta koji diktira njihovo ponašanje. Ova priča pokazuje da slobodni pojedinci koji rade u potrazi za svojim legitimnim interesom deluju više u korist društva nego bilo koja planirana i centralizovana ekonomska strategija.
 
 
 Dobitnik Nobelove nagrade za ekonomiju 1976. godine, Milton Friedman, takođe je ponovo ispričao ovu priču o olovci kako bi objasnio široj javnosti kako funkcioniše tržišna ekonomija.
 
+:::video id=db48376a-64c9-48b8-a8fb-2640c9b5bf73:::
 
 U jednoj epizodi svoje televizijske serije "Free to Choose", on analizira različite komponente nečega tako svakodnevnog i jednostavnog kao što je olovka i ističe čudo spontanog reda, generisanog hiljadama ekonomskih interakcija širom sveta. Ljudi koji se ne poznaju, koji ne dele istu religiju ili običaje, ipak uspevaju da se usklade kako bi proizveli ovaj predmet. Zaključuje da je slobodno tržište ključno za obezbeđivanje ne samo prosperiteta već i harmonije i mira.
 
 
-![image](assets/en/098.webp)
+![image](assets/sr-Latn/088.webp)
 
 
 Friedrich Hayek, u svom eseju "Upotreba znanja u društvu" (The Use of Knowledge in Society) iz 1945. godine, već je objasnio zašto su tržišna ekonomija i decentralizacija odluka ključne za prosperitet. Prema Hayek-u, nijedan centralni planer ili birokrata nikada ne bi mogao imati dovoljno znanja da uspešno usmerava celokupne ekonomske akcije. Samo cenovni sistem u slobodnom tržištu omogućava milionima nezavisnih aktera da sami odluče kako efikasno raspodeliti resurse.
 
 
-![image](assets/en/099.webp)
+![image](assets/sr-Latn/089.webp)
 
 
 Ekonomsko planiranje, koje tvrdi da je bolje od tržišta, ne vodi samo lošoj raspodeli resursa već i hegemoniji jedne klase nad drugom. Zato socijalizam nije samo intelektualna greška već greška koja na kraju stvara ogromnu nepravdu.
@@ -1231,13 +1261,15 @@ Ekonomsko planiranje, koje tvrdi da je bolje od tržišta, ne vodi samo lošoj r
 
 <chapterId>78baa7ef-2c80-5fc7-8881-c1be4662b96f</chapterId>
 
+:::video id=a7e94133-d79a-47cf-b098-d1b15741235e:::
+
 
 U pismu Alphonse-u de Lamartine-u 1845. godine, Bastiat je napisao da je cela njegova filozofija sadržana u jednom principu:
 
 
 > Sloboda je najbolji oblik društvene organizacije.
 
-![image](assets/en/100.webp)
+![image](assets/sr-Latn/090.webp)
 
 Međutim, dodaje jedan uslov:
 
@@ -1256,7 +1288,7 @@ Stoga, odgovornost predstavlja, na neki način, pozitivan aspekt slobode: u meri
 Individualna odgovornost je i glavni vektor kreativnosti i podsticaj za oprez i predviđanje.
 
 
-![image](assets/en/101.webp)
+![image](assets/sr-Latn/091.webp)
 
 
 Kada neko troši svoj novac, pazi da se previše ne zaduži, da proveri kvalitet proizvoda, pouzdanost dobavljača, uz rizik da bude ozbiljno kažnjen. Takva je moć odgovornosti, udružena sa slobodom, ona je pravi pokretač društvenog napretka.
@@ -1270,7 +1302,7 @@ Ali odakle dolazi fenomen neodgovornosti ili desponsibilizacije? Frédéric Bast
 Zaista, statizam kontinuirano smanjuje privatnu inicijativu i slobodan izbor ljudi. Radi za njih ono što bi oni sami mogli učiniti i bolje. Tako oduzima pojedincima posledice njihovih dela. Uništava odgovornost.
 
 
-![image](assets/en/102.webp)
+![image](assets/sr-Latn/092.webp)
 
 
 Prema Bastijat-u, hipertrofija zakona i prekomerna intervencija države imaju za posledicu stvaranje borbe za moć, pljačke, privilegije, monopole, ratove, ukratko, sve što ometa napredak civilizacije.
@@ -1281,7 +1313,7 @@ Rizik preteranog favorizovanja puta zakona ili birokratske kontrole je taj što 
 Hajde da ilustrujemo ovaj problem sa nekoliko glavnih aktuelnih tema. Prvi primer, kriza iz 2008. godine.
 
 
-![image](assets/en/103.webp)
+![image](assets/sr-Latn/093.webp)
 
 _(Alan Greenspan, predsednik FED-a, američke centralne banke, od 1987. do 2006.)_
 
@@ -1297,7 +1329,7 @@ A fenomen će se ponavljati beskonačno sve dok banke ostanu pod dominacijom cen
 Još jedan primer: javne usluge
 
 
-![image](assets/en/105.webp)
+![image](assets/sr-Latn/094.webp)
 
 
 Svaka javna služba nameće preferencije birokratske elite, na štetu individualnog slobodnog izbora. To vodi do dve posledice prema Bastiat-u: Građanin "prestaje da vrši slobodnu kontrolu nad svojim zadovoljstvima, i, više nemajući odgovornost, prirodno prestaje da ima inteligenciju." Razlog je jednostavan: svaki pisani zakon je prinudan i isti je za sve, ne uzima u obzir posebne situacije, potrebe i preferencije građana.
@@ -1306,13 +1338,13 @@ Svaka javna služba nameće preferencije birokratske elite, na štetu individual
 Konačno, javna služba je uzrok nepokretnosti. Zaista, kada privatne usluge postanu javne, one izbegavaju konkurenciju. Shodno tome, kaže Bastiat, citiram: "službenik je lišen tog podstreka koji gura ka napretku."
 
 
-![image](assets/en/106.webp)
+![image](assets/sr-Latn/095.webp)
 
 
 Kada posmatramo javnu službu nacionalnog obrazovanja, razumemo šta Bastiat misli. Ona oslobađa veliku većinu roditelja tereta obrazovanja njihove dece, svodeći školu na vrtić. Ne podstiče nastavnike da inoviraju i preuzimaju rizike jer su u takvom sistemu oni samo izvršioci programa koji je dizajniran bez njih, od strane birokrata. Na kraju, ignoriše stvarnost posebnih potreba svakog pojedinca.
 
 
-![image](assets/en/107.webp)
+![image](assets/sr-Latn/096.webp)
 
 Videćemo u drugom kursu, prema Bastiat-u, da su jedine legitimne javne službe države  trostruke: vojska, policija i pravosuđe. Ali da zaključimo o odgovornosti, problem sa državnom intervencijom je što oni koji donose odluke nisu oni koji trpe posledice.
 
@@ -1323,6 +1355,8 @@ Drugim rečima, kolektivni izbori nisu odgovorni izbori jer, s jedne strane, ne 
 
 
 <chapterId>0c078806-6c58-53f9-a720-5fb62386e56b</chapterId>
+
+:::video id=0b2bc259-52c5-46c9-a904-254746d6972f:::
 
 
 U prethodnom kursu smo videli zašto su sloboda i odgovornost ključni društvenog problema. Sada ćemo se dublje upustiti u ovu tačku pokazujući kako Frédéric Bastiat vidi zla koja pogađaju društva i njihovo rešenje.
@@ -1340,7 +1374,7 @@ Zlo nije samo definitivna stvarnost već ima i ulogu u istoriji i ljudskom delov
 Da bi odgovorio na ova pitanja, Bastiat će pristupiti analizi ljudske akcije. Ovo, zaista, može dovesti i do dobra i do zla.
 
 
-![image](assets/en/108.webp)
+![image](assets/sr-Latn/097.webp)
 
 
 Zlo prvo proizilazi iz naše nesavršenosti. Slobodno birati znači rizikovati da napravimo loš izbor, kaže Bastiat. Zaista, možemo biti prevareni na mnogo načina, čak i u vezi sa sopstvenim potrebama i interesima. Čovek je podložan greškama, sklon je greškama u razumevanju igre ekonomskih zakona ili njihovom skretanju sa cilja.
@@ -1356,7 +1390,7 @@ Ako zlo proizlazi iz ljudske slabosti, a ne iz same slobode, niti iz slobodne tr
 Kroz ovu prirodnu sankciju, čovek uči, otkriva, ispravlja se, napreduje i poboljšava. Drugim rečima, odgovornost je princip usavršavanja i napretka kao što smo videli u prethodnom kursu.
 
 
-![image](assets/en/109.webp)
+![image](assets/sr-Latn/098.webp)
 
 
 Ako čovek snosi posledice, dobre ili loše, svojih odluka, težiće da se poboljša učenjem iz iskustva. Stoga, individualna odgovornost, koja je prema Bastiat-u veliki učitelj naroda, osnovni princip svih regulacija ponašanja i društava, mora biti dozvoljena da deluje.
@@ -1368,7 +1402,7 @@ Zlo stvara patnju, a patnja nam pomaže da shvatimo grešku ili zabludu, vraća 
 To je zato što čovek rizikuje da napravi greške ili postupi pogrešno i pretrpi posledice, što ga podstiče da bude odgovoran. Tada će se truditi da predvidi opasnosti koje bi ga mogle zadesiti kako bi se zaštitio.
 
 
-![image](assets/en/110.webp)
+![image](assets/sr-Latn/099.webp)
 
 ---
 
@@ -1382,13 +1416,13 @@ Dakle, jasno je da Bastiat nije slep. On ne poriče postojanje zla. Čovek je sl
 On jednostavno tvrdi da, ako izvor zla leži u odsustvu slobode, lek je u samoj slobodi, a posebno u potpunom i celokupnom ostvarivanju lične odgovornosti.
 
 
-![image](assets/en/111.webp)
+![image](assets/sr-Latn/100.webp)
 
 
 Ali ako je zloupotreba slobode na izvoru naših nevolja, njena pravilna upotreba je lek, to jest, potpuno i celovito ostvarivanje lične odgovornosti, zasnovano na pravu vlasništva. Društvena regulacija, dakle, prolazi kroz odgovornost, a ne kroz intervenciju države u svim oblastima, što je jedan od velikih izvora pljačke, a time i zla.
 
 
-![image](assets/en/112.webp)
+![image](assets/sr-Latn/101.webp)
 
 Suprotno Rousseau-u, koji nastoji da iskoreni zlo kroz kolektivne institucije, Frédéric Bastiat brani mogućnost zla i greške, bez kojih nema slobode niti individualne odgovornosti. Jer upravo to omogućava, kroz proces otkrivanja, napredak i smanjenje društvenih zala.
 
@@ -1399,6 +1433,8 @@ Mora se pojasniti da ovaj razvoj napretka kroz odgovornost ni u kom slučaju nij
 
 
 <chapterId>fa2172e9-22fa-5c01-a3c8-1e8316c064a4</chapterId>
+
+:::video id=28c7b1d0-e32f-48dc-95ee-8459667b42ab:::
 
 
 
@@ -1411,7 +1447,7 @@ Frédéric Bastiat, u svom čuvenom pamfletu "Zakon" (The Law), osuđuje izopač
 Moralnost se definiše kao dobrovoljno ponašanje. Kada je pojedinac prisiljen da da nešto što ne želi da da, uvek je žrtva krađe.
 
 
-![image](assets/en/115.webp)
+![image](assets/sr-Latn/102.webp)
 
 
 Zaista, kada je donacija zakonom obavezna, ona više nije moralni stav. Moralni stav davanja zamenjuje se zahtevom "za pravima," koja su zahtevi prema radu drugih. Lažna solidarnost je poziv da se živi na račun drugih.
@@ -1428,7 +1464,7 @@ I opet:
 > Vlade samo sprovode akciju koja je uvek sankcionisana silom. Sada, dozvoljeno je prisiliti nekoga da bude pravedan, ali ne i da bude milosrdan. Zakon, kada pokušava silom postići ono što moral postiže ubeđivanjem, umesto da se uzdigne u sferu Milosrđa, pada u domen Pljačke.
 > Ipak, ovo izopačenje zakona ima ime, to je socijalizam, odnosno ideologija prisilne preraspodele bogatstva od strane države. Socijalizam, prema Bastiat-u, karakteriše ideologija legalne pljačke. Ali lukavstvo ove ideologije je u tome što prikriva svoje nasilje zloupotrebom jezika: pozivom na solidarnost ili bratstvo.
 
-![image](assets/en/116.webp)
+![image](assets/sr-Latn/103.webp)
 
 ---
 
@@ -1442,13 +1478,13 @@ GUISY
 Međutim, prema Bastiat-u, postoji alternativa obaveznoj državnoj solidarnosti: "društvo uzajamne pomoći", međusobna i spontana pomoć ljudi među sobom zahvaljujući društvima uzajamne pomoći. Ali je takođe predvideo da će država na kraju preuzeti ove uzajamne organizacije kako bi ih pretvorila u jedinstveno i centralizovano telo, podstičući trošenje i rasipanje.
 
 
-![image](assets/en/117.webp)
+![image](assets/sr-Latn/104.webp)
 
 
 U pamfletu pod nazivom "Pravda i Bratstvo" (Justice and Fraternity), Bastiat takođe istražuje ideju pojednostavljenog i pravednog poreskog sistema za finansiranje kolektivnih potreba (policija, pravosuđe, vojska): prihodi i profiti bi bili podložni jedinstvenoj i proporcionalnoj poreskoj stopi. Ovo je danas poznato kao "Ravni Porez" (Flat Tax).
 
 
-![image](assets/en/118.webp)
+![image](assets/sr-Latn/105.webp)
 
 ---
 
@@ -1490,6 +1526,8 @@ Zakon može primorati čoveka da bude pravedan, ali ga ne može naterati da bude
 
 <chapterId>a48a0616-2105-5520-8312-e21a0b6489c7</chapterId>
 
+:::video id=823bbc82-dfe6-4ed4-bb36-e5557dc5341a:::
+
 
 Pod imovinom, ovde ne treba svrstati zemlju. To znači "pravo radnika na vrednost koju je stvorio svojim radom." Bastiat precizira:
 
@@ -1510,7 +1548,7 @@ Shvaćeno u ovom smislu, pravo na vlasništvo je među onim pravima koja ne proi
 Njegova misija je da brani osobu i njenu imovinu.
 
 
-![image](assets/en/120.webp)
+![image](assets/sr-Latn/106.webp)
 
 _(François Quesnay, vođa fiziokrata)_
 
@@ -1523,13 +1561,13 @@ Pravo "nije stvoreno". Nije izmišljeno iz idealne vizije o tome kakvi bi zakoni
 Pojedinci imaju prirodna prava koja prethode zakonu: Vlasništvo, Sloboda, Ličnost. Uloga Zakona treba da bude očuvanje ovih prirodnih prava pojedinca. Shodno tome, država mora biti ograničena. Danas bismo rekli da je Bastiat zagovornik minimalne države.
 
 
-![image](assets/en/121.webp)
+![image](assets/sr-Latn/107.webp)
 
 
 U Rousseau-ovom sistemu, o kom smo govorili na prethodnom kursu, misija zakonodavca je da organizuje, modifikuje, čak i ukine vlasništvo ako se to smatra prikladnim. Za Rousseau-a, vlasništvo nije prirodno već konvencionalno, baš kao i društvo samo. Ova ideja potiče iz rimskog prava, sa kojim je Rousseau bio duboko upoznat.
 
 
-![image](assets/en/122.webp)
+![image](assets/sr-Latn/108.webp)
 
 
 Robespierre, zauzvrat, postavlja princip da je "Svojina pravo svakog građanina da uživa i raspolaže delom dobara koja su mu zagarantovana zakonom."
@@ -1552,13 +1590,9 @@ Ova ideja da je pravo na imovinu tvorevina zakona, prema Bastiat-u, vodi ka otva
 U sistemu prirodne slobode, postoji prirodni zakon, nezavisan od hirova zakonodavaca. On važi za sve ljude i prethodi bilo kojem društvu. Dužnost vlade je da osigura prirodna prava svakog pojedinca. Pravedno društvo je ono u kojem su prava vlasništva u potpunosti poštovana, što znači zaštićena od bilo kakvog uplitanja drugih.
 
 
-![image](assets/en/120.webp)
+![image](assets/sr-Latn/109.webp)
 
 Ovde se Bastiat svrstava uz nasleđe fiziokrata, a šire gledano, sa tradicijom filozofije prava Cicerona i Aristotela. Zakon ne stvara prava. Njegova misija je da ih brani i tako brani imovinu, kako imovinu samog sebe, integritet osobe, tako i imovinu plodova nečijeg rada.
-
-
-
-_(Cicero)_
 
 
 ## Pravno pljačkanje: Izopačenost zakona
@@ -1566,11 +1600,13 @@ _(Cicero)_
 
 <chapterId>b4122847-e477-578e-ba34-d35844ac4715</chapterId>
 
+:::video id=24b1ca72-c52a-4ff3-b6db-01e3807c5d8e:::
+
 
 Glavna ideja Bastiat-a u "Zakonu" (The Law), njegovom poznatom pamfletu iz 1850. godine, jeste da pokaže zašto i kako je zakon postao sredstvo pljačke, to jest, izvor privilegija, situacionih renti i fiskalne proizvoljnosti.
 
 
-![image](assets/en/125.webp)
+![image](assets/sr-Latn/110.webp)
 
 
 Koja je prava priroda zakona?
@@ -1585,7 +1621,7 @@ Institucionalni sistem prirodne slobode je onaj za koji društvo, pojedinci i sv
 > Nije zato što postoje zakoni da postoji imovina, već zato što postoji imovina da postoje zakoni.
 > Imovina i zakon
 
-![image](assets/en/126.webp)
+![image](assets/sr-Latn/111.webp)
 
 
 Svaki čovek ima pravo da brani svoj život i da koristi svoje sposobnosti. A zakon je kolektivna organizacija ove legitimne odbrane. Zakon brani pravdu. Ne pozitivnu pravdu koja bi organizovala bratstvo i solidarnost, već negativnu pravdu koja se ograničava na sprečavanje da prava jedne osobe uzurpiraju prava druge.
@@ -1597,15 +1633,12 @@ Međutim, kada zakon prestane da bude negativan i postane pozitivan, osećaj nej
 Lažna filantropija, kaže Bastiat, jedan je od glavnih uzroka izopačenja zakona. Neki ljudi sebe smatraju iznad ostatka čovečanstva i sposobnim da donose bolje odluke od drugih.
 
 
-![image](assets/en/127.webp)
+![image](assets/sr-Latn/112.webp)
 
 Oni bolje znaju šta je dobro za druge i nametnuće svoju predstavu o dobru svima; to su filantropi. Oni su stvorili lažna prava koja se danas nazivaju socijalnim pravima. Socijalna prava nisu ništa drugo do prava nad radom drugih, prava da se raspolaže tuđom imovinom, plodom tuđeg rada: pravo na stanovanje, pravo na zdravlje, na obrazovanje, na rad, na minimalnu zaradu, itd.
 
 
 Šta je pljačka? To je tačno suprotno od svojine, kaže nam Bastiat. Pljačkati dolazi od latinskog _spoliare_, što znači ogoliti. Videli smo da čovek može živeti samo prisvajanjem stvari, primenom svojih sposobnosti na stvari, to jest, radom. Nažalost, on takođe može prisvojiti proizvod sposobnosti svog bližnjeg, to jest, opljačkati ga.
-
-
-![image](assets/en/128.webp)
 
 
 Cela misija zakona je da spreči ovu vanzakonsku pljačku, to jest, da brani imovinu i slobodu, dve nerazdvojive stvari.
@@ -1614,13 +1647,13 @@ Cela misija zakona je da spreči ovu vanzakonsku pljačku, to jest, da brani imo
 Čim se u principu prizna da zakon može biti skrenut sa svoje prave misije, da može kršiti pravo svojine umesto da ga garantuje, nužno sledi klasna borba, bilo da se brani od pljačke ili da se ona organizuje i u svoju korist.
 
 
-![image](assets/en/129.webp)
+![image](assets/sr-Latn/113.webp)
 
 
 Umesto da brani prirodna prava, zakon se transformiše u zaštitu korporativnih i kategorijalnih interesa. Pljačka je organizovana zakonom, u korist klasa koje ga donose i njihovih prijatelja ili klijenata. Bastiat tako predviđa školu javnog izbora u 20. veku za koju je zakon rezultat "političkog tržišta" putem kojeg grupe pojedinaca nastoje da zadovolje svoje interese na račun drugih.
 
 
-![image](assets/en/130.webp)
+![image](assets/sr-Latn/114.webp)
 
 
 Za njega, svrha Zakona mora jednostavno biti da "okonča sve pljačke." Ako se država ne meša u privatni život, pojedinci su efektivni vlasnici i odgovorni za svoje živote. Oni sami stvaraju svoju sreću. Snose dobre ili loše posledice svojih dela.
@@ -1634,7 +1667,7 @@ Oni su sigurni da su njihova prirodna prava zagarantovana i nedodirljiva. Sigurn
 Bastiat je napisao gornju rečenicu u Zakonu, neko vreme pre nego što je umro.
 
 
-![image](assets/en/131.webp)
+![image](assets/sr-Latn/115.webp)
 
 
 Vek nakon smrti Frédéric-a Bastiat-a, pravno pljačkanje je jasno vidljivo u Univerzalnoj deklaraciji o ljudskim pravima iz 1948. godine, posebno u njenim članovima 22 ("svako ima pravo na socijalnu sigurnost"), 23 ("svako ima pravo na rad"), 24 ("svako ima pravo na odmor i slobodno vreme"), 25 ("svako ima pravo na životni standard adekvatan za zdravlje i blagostanje"), 26 ("svako ima pravo na obrazovanje").
@@ -1645,6 +1678,8 @@ Vek nakon smrti Frédéric-a Bastiat-a, pravno pljačkanje je jasno vidljivo u U
 
 <chapterId>52258229-7c7c-592b-aa27-203b03aa41c9</chapterId>
 
+:::video id=43c0db1d-1063-45d7-bce3-4d9d18382a2d:::
+
 
 Godine 1848., Bastiat je bio poslanik. Imenovan je za potpredsednika finansijske komisije. Bio je, dakle, posebno dobro pozicioniran da odgovori na ovo pitanje: šta je država? Obraćamo se državi kako bismo osigurali svoju dobrobit. Ali Bastiat nas podseća da država ne može dati građanima ništa što im prethodno nije uzela.
 
@@ -1652,26 +1687,26 @@ Godine 1848., Bastiat je bio poslanik. Imenovan je za potpredsednika finansijske
 Bastiat počinje preokretanjem opšteprihvaćene jednačine: država je ta koja održava naciju. Međutim, država ne može održavati građane, jer ne proizvodi bogatstvo; ona ga samo premešta, preraspodeljuje. Naprotiv, građani su ti koji održavaju državu kroz stvaranje bogatstva.
 
 
-![image](assets/en/132.webp)
+![image](assets/sr-Latn/116.webp)
 
 
 Štaviše, država sama po sebi ne postoji; postoje samo ljudi koji čine državu, koji vladaju, upravljaju, koji žive od države direktno ili indirektno. Dakle, ljudi koji upravljaju državom su kao i drugi; oni nastoje da zadovolje svoje lične interese.
 
 
-![image](assets/en/133.webp)
+![image](assets/sr-Latn/117.webp)
 
 
 A pošto je delovanje države isključivo redistributivno, podložno je pritisku grupa sa posebnim interesima. Zaista, određene interesne grupe su shvatile da je lakše zarađivati novac kroz političko angažovanje nego kroz produktivno ponašanje. One nastoje da ukradu novac drugih pod okriljem države, potkopavajući proizvodne kapacitete tržišta kroz umnožavanje zakona, poreza i birokratskih ograničenja.
 
 
-![image](assets/en/134.webp)
+![image](assets/sr-Latn/118.webp)
 
 
 Drugim rečima, država sledi samo klijentelističke ciljeve, a pojam opšteg interesa je lišen značenja. Svaka dobit koju neki ostvare ide na štetu drugih: to nije igra sa nultim rezultatom, već igra sa negativnim rezultatom.
 
 Bastiat tako anticipira, vek unapred, analize funkcionisanja političkog tržišta koje će se pojaviti krajem 1950-ih sa takozvanom školom Javnog izbora Džejmsa Bjukena, dobitnika Nobelove nagrade za ekonomiju, i njegovog kolege Gordon-a Tullock-a.
 
-![image](assets/en/135.webp)
+![image](assets/sr-Latn/119.webp)
 
 
 
@@ -1684,13 +1719,13 @@ Dakle, da bi se znalo da li je država legitimno  ovlašćena za neko pravo, tre
 Zato država ni u kom slučaju ne može narušiti prirodna prava; naprotiv, mora ih garantovati.
 
 
-![image](assets/en/137.webp)
+![image](assets/sr-Latn/120.webp)
 
 
 Ona osigurava bezbednost, kako unutrašnju tako i spoljašnju, i pravdu. Može biti jaka i efikasna u svojoj oblasti. Ali zakon ne može izaći iz ove veoma stroge uloge jer tada postaje instrument pljačke nekih u korist drugih. Kada je zakon izopačen, deluje kao instrument nepravde. Izopačenje zakona uvek vodi ka pljački, kao što smo videli u prethodnom kursu. To je trenutno, automatsko, neizbežno i sigurno. Izvođenje zakona izvan njegove oblasti može samo narušiti prirodna prava. Građansko društvo je tada lišeno svoje moći (prirodne institucije, ugovori, razmene, udruženja) u korist državnog upravljanja, to jest, tehnokratskog i birokratskog.
 
 
-![image](assets/en/107.webp)
+![image](assets/sr-Latn/121.webp)
 
 
 Kao rezultat toga, jedine legitimne javne službe države prema Bastiat-u su tri: vojska, policija i pravosuđe. Drugim rečima, država mora osigurati unutrašnju i spoljašnju zaštitu pojedinaca, njihovu slobodu i njihovu imovinu. Stoga je normalno da svi doprinesu ovoj zaštiti. Međutim, izvan ovih legitimnih funkcija, svaki drugi doprinos nekoj drugoj usluzi koju pruža država podložan je preispitivanju. Izvan ovog kruga, Bastiat piše:
@@ -1718,6 +1753,8 @@ Napisao Frédéric Bastiat u kratkom pamfletu pod nazivom "Država".
 
 <chapterId>2a2a181a-e477-5be1-ba1f-af59490c364e</chapterId>
 
+:::video id=de892e2c-14a5-45cc-848f-ec934eaba615:::
+
 
 Uticaj Bastiat-a počeo je da opada krajem 19. veka, sa porastom socijalizma i posebno marksizma unutar univerziteta i istraživačkih instituta, finansiranih javnim novcem.
 
@@ -1728,11 +1765,11 @@ Sa 20. vekom, znanje i popularnost Bastiat-a su nestali. Više se nije pominjao 
 Nastanjen u Njujorku 1943. godine, Mises je organizovao seminare koji su privukli izuzetne umove: George Stigler-a, Milton Friedman-a, oba buduća dobitnika Nobelove nagrade, i Murray Rothbard-a, tada studenta na Kolumbiji. Tokom ovih seminara, prvi put je govorio o Bastiat-u kao jednom od glavnih referenci klasičnog liberalizma. Predstavio je svojim slušaocima Bastiat-ove pamflete, Zakon i Država (The Law, and The State), koji još nisu bili prevedeni na engleski. Godine 1953., jedan od učesnika seminara, Leonard Read, preveo bi Bastiat-ov "Zakon" (The Law) na engleski i preuzeo zadatak distribucije knjige širom zemlje preko svoje fondacije: Fondacija za ekonomsko obrazovanje.
 
 
-![image](assets/en/139.webp)
+![image](assets/sr-Latn/122.webp)
 
 Ali onaj koji bi takođe popularizovao teze Frédéric-a Bastiat-a bio je ekonomski kolumnista za New York Times, Henry Hazlitt, u maloj knjizi pod nazivom: "Ekonomija u jednoj lekciji" (Economics in One Lesson), objavljenoj 1946. godine. Izričito se oslanjajući na Bastiat-ove ideje, on ima za cilj da pokaže da je problem sa državnim ekonomskim rešenjima njihova nesposobnost da uzmu u obzir njihove katastrofalne dugoročne posledice.
 
-![image](assets/en/140.webp)
+![image](assets/sr-Latn/123.webp)
 
 
 Hazlitt započinje svoju knjigu prepričavanjem Bastiat-ove priče o razbijenom prozoru. On rezimira priču u jednostavnu i jedinstvenu lekciju:
@@ -1748,7 +1785,7 @@ Bastiat je bio jedan od omiljenih ekonomista Ronald-a Reagan-a, mnogo pre nego �
 
 Lekcija koju je Reagan naučio svoje zaposlene, prateći Bastijata, jeste da ne postoji veći mit od onog o stimulisanju rasta i zapošljavanja putem javne potrošnje.
 
-![image](assets/en/141.webp)
+![image](assets/sr-Latn/124.webp)
 
 
 Posebno je John Maynard KeyneS sugerisao da javna potrošnja povećava proizvodnju zahvaljujući multiplikatoru: ako vlada izgradi most, radnici tog mosta će moći da kupe hleb, zatim pekar može da kupi cipele, i tako dalje. Ako je privatna industrija u padu, to se može rešiti velikim radovima. Ako postoji nezaposlenost, država može stvoriti javne poslove.
@@ -1756,7 +1793,7 @@ Posebno je John Maynard KeyneS sugerisao da javna potrošnja povećava proizvodn
 
 Ali kao što je Bastiat prikladno pokazao, državna intervencija ima perverzne efekte koji nisu vidljivi. Samo dobar ekonomista je sposoban da ih predvidi. Uzmimo primer: Iluzija je verovati da vlada može "stvoriti radna mesta" jer za svako javno radno mesto koje se stvori, uništava se jedno radno mesto na tržištu. Naime, javna radna mesta se plaćaju porezima. Javna radna mesta nisu stvorena; ona su percipirana. Svaki peni koji država potroši mora nužno biti dobijen kroz peni poreza ili duga.
 
-![image](assets/en/142.webp)
+![image](assets/sr-Latn/125.webp)
 
 
 Ako posmatramo stvari iz ovog ugla, objasnio je Reagan zaposlenima u GE, takozvana čuda državne potrošnje izgledaju potpuno drugačije. Jer porezi obeshrabruju proizvodnju, a bogatstvo stvoreno javnom potrošnjom ne može u potpunosti nadoknaditi ono koje je sprečeno da se rodi zbog poreza uvedenih za plaćanje ovih troškova.

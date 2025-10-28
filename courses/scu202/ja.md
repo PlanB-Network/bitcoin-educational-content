@@ -4943,18 +4943,18 @@ sudo apt install libimage-exiftool-perl
 
 
 ```bash
-exiftool name.jpg
+exiftool name.webp
 ```
 
 
 
-name.jpg`を実際のファイル名に置き換えてください。また、この画像を含むディレクトリに配置されていることを確認してください。例えば、`/Downloads`ディレクトリにSatoshiナカモト像の写真がある場合、以下のコマンドを実行することでメタデータを表示することができる：
+name.webp`を実際のファイル名に置き換えてください。また、この画像を含むディレクトリに配置されていることを確認してください。例えば、`/Downloads`ディレクトリにSatoshiナカモト像の写真がある場合、以下のコマンドを実行することでメタデータを表示することができる：
 
 
 
 ```bash
 cd Downloads
-exiftool Satoshi-Nakamoto-Lugano.jpeg
+exiftool Satoshi-Nakamoto-Lugano.webp
 ```
 
 
@@ -4991,7 +4991,7 @@ exiftool Satoshi-Nakamoto-Lugano.jpeg
 
 
 ```bash
-exiftool -all= name.jpg
+exiftool -all= name.webp
 ```
 
 
@@ -5013,7 +5013,7 @@ exiftool -all= name.jpg
 
 
 ```bash
-exiftool -all= -overwrite_original name.jpg
+exiftool -all= -overwrite_original name.webp
 ```
 
 
@@ -5037,12 +5037,12 @@ exiftool -all= -overwrite_original name.jpg
 
 
 ```bash
-exiftool -all= *.jpeg
+exiftool -all= *.webp
 ```
 
 
 
-これはカレントディレクトリにあるすべてのJPEGファイルのメタデータを削除する。拡張子は必要に応じて変更できます（`*.png`, `*.pdf`...）。
+これはカレントディレクトリにあるすべてのJPEGファイルのメタデータを削除する。拡張子は必要に応じて変更できます（`*.webp`, `*.pdf`...）。
 
 
 

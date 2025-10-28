@@ -1,0 +1,25 @@
+id: e0bea861-cc5e-4e84-8b61-f0e3b8c41a9a
+start_date: 2025-11-24 00:30:00
+end_date: 2025-11-24 09:00:00
+timezone: Asia/Tokyo
+address_city_country: Tokyo, Japan
+address_line_2: Tokyo Station Hotel, Chiyoda City.
+name: Bitcoin Japan 2025
+type: conference
+description: |
+  "Japan’s only conference fully dedicated to Bitcoin. Join global leaders and bold thinkers for a deep dive into Bitcoin through the
+  lens of Japan’s economy, culture, and society. From finance and policy to
+  adoption, we’ll tackle big questions and spark new ideas for Bitcoin’s
+  future. Whether you’re a business leader, investor, or newcomer, you’ll leave with
+  practical strategies and actionable insights.
+  All sessions include AI-powered real-time translation for dynamic discussions
+  in any language."
+language:
+  - ja
+  - en
+links:
+  website: https://btc-jpn.com/en
+tags:
+  - market-trends
+  - investment
+  - adoption

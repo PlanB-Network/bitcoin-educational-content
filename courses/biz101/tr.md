@@ -1,31 +1,20 @@
 ---
 name: İşletmeler için Bitcoin
 goal: Şirketinizi Bitcoin'e dahil etmek için ödeme ve hazine temellerini öğrenin
-objectives: 
-
-  - Gelişmekte olan bir para birimi ve bir iş aracı olarak Bitcoin
-  - Bir işletmenin Bitcoin'ü neden ve nasıl hazinede tutabileceğini veya ödemeler için kullanabileceğini anlamak
-  - Uygulamada Bitcoin ödemesinin nasıl kabul edileceğine dair somut bir fikre sahip olun
-  - Mali ve muhasebe gereksinimlerini yönetmek için hazırlıklı olun
-
+objectives:
+- Bitcoin'i gelişmekte olan bir para birimi ve iş aracı olarak keşfedin
+- Bir işletmenin neden ve nasıl hazinede bitcoin tutabileceğini veya ödemeler için kullanabileceğini anlayın
+- Pratikte Bitcoin ödemesini nasıl kabul edeceğiniz konusunda somut bir fikre sahip olun
+- Mali ve muhasebe gerekliliklerini yönetmeye hazır olun
 ---
+# Şirketinizin Bitcoin ağındaki yolculuğunu başlatın
 
-# Şirketinizin Bitcoin ağındaki yolculuğuna başlayın
+Bitcoin ve Lightning Network'ün pratik yeteneklerini keşfedin ve tıpkı internet gibi, iş operasyonlarınızı nasıl dönüştürebileceklerini araştırın. Hazine yönetiminden hızlı, ekonomik ve ölçeklenebilir ödemelere kadar Bitcoin, işletmeler için geniş bir kullanım senaryosu yelpazesi sunar.
 
+Bu kurs boyunca, Bitcoin'i küresel, evrensel ve internet-tabanlı bir parasal ağ olarak nasıl anlayacağınızı öğreneceksiniz. Benzersiz temel özellikleriyle Bitcoin, geleneksel para birimine göre önemli iyileştirmeler sunar. Sermaye depolama ve ödeme sistemleri gibi klasik finansal kullanım senaryoları için Bitcoin'den neden ve nasıl yararlanacağınızı keşfedeceksiniz. Ek olarak, bu kurs Bitcoin edinme ve tutmayı, ilgili muhasebe ve mali gereklilikleri ve basit veya büyük ölçekli Bitcoin ödeme çözümlerinin uygulanmasını kapsayacaktır.
 
-Bitcoin ve Lightning Network'nın pratik yeteneklerini keşfedin ve tıpkı internet gibi, iş operasyonlarınızı nasıl **dönüştürebileceklerini** keşfedin. Dijital sermayeden hızlı, ekonomik ve ölçeklenebilir ödemelere kadar Bitcoin, işletmeler için geniş bir **kullanım alanı** sunuyor.
-
-
-Bu kılavuz boyunca, Bitcoin'i küresel, evrensel ve internete özgü bir para ağı olarak nasıl anlayacağınızı öğreneceksiniz. Benzersiz temel özellikleriyle **Bitcoin, geleneksel para birimi ağlarına göre önemli iyileştirmeler sağlar**. Sermaye depolama ve ödeme sistemleri gibi klasik finansal kullanım durumları için Bitcoin'den neden ve nasıl yararlanacağınızı keşfedeceksiniz. Ayrıca bu kılavuz, ilgili muhasebe ve mali gereklilikler de dahil olmak üzere Bitcoin'in edinilmesi ve elde tutulmasının yanı sıra basit veya büyük ölçekli Bitcoin ödeme çözümlerinin uygulanmasını da kapsayacaktır.
-
-
-İster **küçük bir işletme ister büyük bir şirket** olun, Bitcoin'u günlük operasyonlarınıza entegre etmek şirketinizi daha **dirençli, üretken ve rekabetçi** hale getirebilir. Her internet tabanlı şirket Bitcoin odaklı bir şirket haline gelecektir ve bu eğitim sizin hazırlıklı olmanızı sağlar. İlk bölümler Bitcoin'un işleyişinin temellerini özetler, böylece yeni başlayan biri olsanız bile ilerlemek için gereken temel bilgileri edinirsiniz. Satoshi'un icadının temellerini öğrenmek, BIZ101'e dalmadan önce veya sonra her zaman iyi bir fikirdir.
-
-
+İster küçük bir işletme ister büyük bir şirket olun, Bitcoin'i günlük operasyonlarınıza entegre etmek şirketinizi daha dayanıklı, üretken ve rekabetçi hale getirebilir. İnternet tabanlı her şirket Bitcoin odaklı bir şirket haline gelecek ve bu kurs hazırlıklı olmanızı sağlar.
 +++
-
-
-
 # Giriş
 
 <partId>326cf945-5d3f-4d86-8c3e-4d1c35959799</partId>

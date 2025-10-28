@@ -21,7 +21,7 @@ Je bent waarschijnlijk bekend met het adagium "Niet je sleutels, niet je munten"
 
 
 
-BTC 202 is een toegankelijke cursus die is ontworpen om je te leren je eigen Bitcoin knoop te spinnen, zelfs als je geen technisch expert bent. We beginnen met te definiëren wat een Bitcoin knoop is, waar hij voor dient en waarom het absoluut essentieel is om er zelf een te draaien. Daarna begeleid ik je stap voor stap bij het kiezen van je hardware, het installeren van de benodigde software, het aansluiten van je Wallet en het maken van de eerste mogelijke optimalisaties om verder te komen.
+BTC 202 is een toegankelijke opleiding die is ontworpen om je te leren je eigen Bitcoin-node te draaien, zelfs als je geen technische expert bent. We beginnen met te definiëren wat een Bitcoin-node is, waar het voor dient en waarom het absoluut essentieel is om er zelf een te draaien. Vervolgens begeleid ik je stap voor stap bij het kiezen van je hardware, het installeren van de benodigde software, het verbinden van je walletsoftware en de eerste mogelijke optimalisaties om verder te gaan.
 
 
 
@@ -481,7 +481,7 @@ Zoals we later in deze cursus zullen bespreken, zijn het de knooppunten, op basi
 
 
 
-## Waarom je eigen knoop doorhakken?
+## Waarom je eigen node draaien?
 
 
 <chapterId>39c0cd19-67f9-4c64-bfb3-dbd6eec0bf42</chapterId>
@@ -492,7 +492,7 @@ Er heerst een wijdverspreid geloof dat het runnen van een Bitcoin node een zuive
 
 
 
-Zoals we in de vorige hoofdstukken al aangaven, is er geen direct financieel voordeel verbonden aan het leggen van een knoop. Je zou daarom kunnen denken dat er geen persoonlijk belang bij is. Toch brengt het runnen van je eigen knoop veel individuele voordelen met zich mee. Om je hiervan te overtuigen, ga ik in dit hoofdstuk alle redenen presenteren, zowel technische als strategische, waarom je je eigen Bitcoin node zou moeten installeren en gebruiken.
+Zoals we in de voorgaande hoofdstukken hebben benadrukt, levert het draaien van een node geen directe financiële winst op. Men zou dus kunnen denken dat er geen persoonlijk voordeel aan verbonden is. Toch biedt het draaien van een eigen node veel individuele voordelen. Om je hiervan te overtuigen, zal ik in dit hoofdstuk alle technische en strategische redenen uiteenzetten die je zouden moeten aanmoedigen om je eigen Bitcoin-node te installeren en te gebruiken.
 
 
 
@@ -576,7 +576,7 @@ Het installeren van een Full node is geen sinecure. Het omvat het installeren va
 
 
 
-Het verwerven van deze kennis versterkt je vertrouwen in het gereedschap en kan het risico op fouten of blootstelling aan oplichterij verminderen. Je eigen knoop leggen is ook een vorm van leren.
+Het verwerven van deze kennis versterkt je vertrouwen in het hulpmiddel en kan het risico op fouten of blootstelling aan oplichting verminderen. Je eigen node draaien betekent ook leren.
 
 
 
@@ -692,7 +692,7 @@ Het gaat dus niet om het aantal knooppunten, maar om het belang van de economisc
 
 
 
-> Niet jouw knoop, niet jouw regels.
+> Niet jouw node, niet jouw regels.
 
 
 ## De verschillende typen Bitcoin knooppunten
@@ -706,7 +706,7 @@ Een Bitcoin knooppunt is dus een machine waarop een implementatie van het Bitcoi
 
 
 
-### De volledige knoop
+### De volledige node
 
 
 
@@ -730,7 +730,7 @@ Afhankelijk van je behoeften kun je een indexer toevoegen aan je Full node. Bitc
 
 
 
-### De pruned knoop
+### De afgeslankte node
 
 
 
@@ -754,7 +754,7 @@ Kortom, Wallet traceren werkt probleemloos op een pruned knooppunt als je een ni
 
 
 
-### De lichte knoop / SPV
+### De lichte node / SPV
 
 
 
@@ -849,7 +849,7 @@ Dit is de meest soevereine en flexibele aanpak: je weet precies wat er draait, w
 
 
 
-#### Bitcoin core (klant met ultrameerderheid)
+#### Bitcoin Core (overheersende client)
 
 
 
@@ -869,7 +869,7 @@ https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d
 
 https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-#### Bitcoin Knots (belangrijkste alternatieve klant)
+#### Bitcoin Knots (belangrijkste alternatieve client)
 
 
 
@@ -2590,7 +2590,7 @@ Nostr clients ***noStrudel*** of ***Snort*** zijn ook beschikbaar op Umbrel. Dan
 
 
 
-Tot slot is er de ***Nostr Wallet Connect*** app op Umbrel, die native Lightning-betalingen in Nostr mogelijk maakt. Concreet kun je je toekomstige Lightning-knooppunt koppelen aan je Nostr-klanten om microbetalingen, "*zaps*" genoemd, te versturen om inhoud te belonen of op een gemonetariseerde manier te interageren, zonder dat je daarvoor een dienst van derden hoeft te gebruiken. Deze betalingen worden rechtstreeks vanaf uw persoonlijke knooppunt via uw kanalen verzonden.
+Ten slotte is er de applicatie ***Nostr Wallet Connect*** op Umbrel, waarmee je native Lightning-betalingen binnen Nostr kunt uitvoeren. Concreet kun je je toekomstige Lightning-node koppelen aan je Nostr-clients om microbetalingen te versturen, genaamd "*zaps*", om content te belonen of op een gemonetariseerde manier te interageren, zonder via een externe dienst te gaan. Deze betalingen vertrekken rechtstreeks vanuit je persoonlijke node via je kanalen.
 
 
 
@@ -2652,7 +2652,7 @@ https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-82
 
 
 
-## Uw parapluknoop onderhouden
+## Je Umbrel-node onderhouden
 
 
 <chapterId>06d77d09-bf24-4555-b2ba-c08bbda477c7</chapterId>
@@ -2929,7 +2929,7 @@ Als je knooppunt luistert op een open poort (standaard 8333), dan accepteert het
 
 
 
-## Anatomie van uw Bitcoin knoop
+## Anatomie van je Bitcoin-node
 
 
 <chapterId>b420bd9d-7e2a-4984-bc70-2b732a94c8ce</chapterId>
@@ -3138,7 +3138,7 @@ Verschillende andere bestanden op hetzelfde niveau als `blocks/`, `chainstate/`,
 - gW-446.conf` bevat de configuratieparameters van je knooppunt. Hier kun je de relaisregels aanpassen. Ik vertel je hier meer over in het volgende hoofdstuk.
 - `settings.json` bevat aanvullende parameters voor `Bitcoin.conf`.
 - `debug.log` is het diagnostische tekstlogboek, dat kan worden gebruikt om de activiteit van een knooppunt te begrijpen in het geval van een bug.
-- gW-448.pid` slaat de identificatiecode van het proces tijdens runtime op, zodat andere toepassingen of scripts bitcoind (*Bitcoin daemon*) gemakkelijk kunnen identificeren en ermee kunnen communiceren indien nodig. Het wordt aangemaakt bij het opstarten van het knooppunt en verwijderd bij het afsluiten.
+- `bitcoind.pid` registreert de proces-ID tijdens de uitvoering, waardoor andere applicaties of scripts Bitcoind (*Bitcoin Daemon*) eenvoudig kunnen identificeren en ermee kunnen communiceren indien nodig. Het wordt aangemaakt bij het starten van de node en verwijderd bij het afsluiten;
 - `ip_asn.map` is een IP → ASN mapping tabel (standalone systeem) gebruikt voor bucketing en peer diversificatie (`-asmap` optie).
 - `onion_v3_private_key` slaat de private sleutel van de Tor v3 dienst op wanneer de `-listenonion` optie is ingeschakeld, om een stabiele onion Address te behouden tussen reboots.
 - `i2p_private_key` slaat de privé-sleutel van I2P op wanneer `-i2psam=` wordt gebruikt, om uitgaande en mogelijk inkomende verbindingen op I2P te maken.
@@ -3156,7 +3156,7 @@ Zoals we zagen in de eerste delen van deze BTC 202-cursus, is Bitcoin core zowel
 
 - `wallets/` is de standaardmap die een of meer;
 - `wallets/<name>/Wallet.dat` is de SQLite database van de Wallet (sleutels, descriptors, transactie metadata, etc.);
-- wallets/<name>/Wallet.dat-journal` is het SQLite rollback logboek.
+- `wallets/<name>/wallet.dat-journal` is het SQLite-rollbacklogboek.
 
 
 
@@ -3335,10 +3335,10 @@ Op netwerkniveau hebben we ook:
 
 
 - `addnode`: voegt een vriendelijke peer toe om contact mee op te nemen naast de gebruikelijke ontdekking (kan meerdere keren gespecificeerd worden).
-- connect`: beperkt verbindingen strikt tot het Address knooppunt (kan meerdere keren gespecificeerd worden). Core maakt geen verbinding met andere knooppunten.
+- `connect`: beperkt verbindingen strikt tot het opgegeven adres (kan meerdere keren worden gespecificeerd). Core zal geen verbinding maken met andere nodes;
 - `seednode`: wordt alleen gebruikt om het boek-Address in te vullen als er verbinding wordt gemaakt met een knooppunt en daarna de verbinding wordt verbroken.
 - `maxconnections`: bepaalt het globale plafond voor inkomende + uitgaande verbindingen. Standaard is deze parameter ingesteld op 125, wat betekent dat je knooppunt nooit meer dan 125 verbindingen zal accepteren.
-- maxuploadtarget`: begrenst uploads om bandbreedte te beperken over een glijdend venster van 24 uur. Deze limiet gaat niet ten koste van de verspreiding van essentiële recente Elements.
+- `maxuploadtarget` : beperkt de upload om de bandbreedte te beperken over een rollend venster van 24 uur. Deze limiet gaat niet ten koste van de verspreiding van essentiële recente elementen;
 - `onlynet`: beperkt uitgaande verbindingen tot alleen geselecteerde netwerken (`ipv4`, `ipv6`, `onion`, `i2p`, `cjdns`). Als je bijvoorbeeld wilt dat je node alleen via Tor verbinding maakt met het Bitcoin netwerk, dan kun je de `onlynet=onion` parameter inschakelen en inkomende verbindingen uitschakelen (of ook alleen verbindingen via Tor toestaan).
 - `dnsseed`: staat toe of weigert _DNS seeds_ om peers aan te vragen wanneer je lokale Address pool laag is (standaard: `1`, tenzij `-connect` of `-maxconnections=0`).
 - `forcednsseed`: verplicht _DNS seeds_ aan te vragen bij het opstarten, zelfs als je al adressen op voorraad hebt (standaard: `0`).
@@ -3362,7 +3362,7 @@ Om volledig Tor-enabled te zijn, moet je Bitcoin core dwingen om alleen dit netw
 - `torcontrol=127.0.0.1:9051`,
 - `proxyrandomize=1`,
 - `luisteren=1`,
-- bind=127.0.0.1`,
+- `bind=127.0.0.1`,
 - `upnp=0`,
 - `natpmp=0`.
 
@@ -3418,7 +3418,7 @@ Hier zijn de basisparameters die je kunt wijzigen in je `Bitcoin.conf` met betre
 
 
 
-- blocksonly=1`: Hiermee wordt het accepteren en opnieuw verzenden van onbevestigde transacties van peers uitgeschakeld (tenzij speciale toestemmingen zijn verleend). Het knooppunt uploadt en adverteert nu alleen blokken. Lokaal aangemaakte transacties kunnen nog steeds worden uitgezonden (om je knooppunt met je Wallet software te gebruiken). Dit vermindert de bandbreedte en RAM vereisten enorm, zij het ten koste van verminderde bruikbaarheid voor het relais en totale onbekendheid met de Mempool.
+- `blocksonly=1` : Schakelt de acceptatie en doorsturing van onbevestigde transacties van peers uit (behalve met speciale toestemming). De node downloadt en kondigt alleen blokken aan. Lokaal gemaakte transacties kunnen nog steeds worden uitgezonden (om je node met je walletsoftware te gebruiken). Dit vermindert de bandbreedte en het RAM-gebruik aanzienlijk, maar verlaagt de bruikbaarheid voor relay en elimineert kennis van de mempool volledig.
 
 
 
@@ -3448,7 +3448,7 @@ Hier zijn de geavanceerde instellingen voor Mempool en relay policy. Als u een b
 
 
 
-- datacarrier=1`: Maakt het mogelijk om transacties met niet-financiële gegevens door te sturen en (indien Mining via knooppunt) op te nemen via een `OP_RETURN` uitgang (standaard: `1`). Het deactiveren van deze parameter verkleint de oppervlakte voor niet-financiële data spam enigszins, ten koste van verminderde compatibiliteit met bepaalde toepassingen. In alle gevallen moet je gedolven `OP_RETURN` accepteren.
+- `datacarrier=1` : Staat het doorgeven en (bij mining via de node) opnemen van transacties met niet-financiële gegevens toe via een `OP_RETURN`-output (standaard: `1`). Het uitschakelen van deze parameter vermindert enigszins de kans op spam van niet-financiële gegevens, maar verlaagt de compatibiliteit met bepaalde toepassingen. In alle gevallen moet je geminde `OP_RETURN` accepteren.
 
 
 
@@ -3490,13 +3490,13 @@ Hier zijn de geavanceerde instellingen voor Mempool en relay policy. Als u een b
 
 
 
-- peerbloomfilters=1`: Schakel ondersteuning in voor Bloom filters (BIP37) om gefilterde blokken/transacties te serveren aan thin clients (standaard: `0`). Waarschuwing: dit verhoogt de belasting van uw bronnen.
+- `peerbloomfilters=1` : Schakelt ondersteuning in voor Bloom-filters (BIP37) om gefilterde blokken/transacties te leveren aan lichte clients (standaard: `0`). Let op, dit verhoogt de belasting van je systeembronnen.
 
 
 
 
 
-- peerblockfilters=1`: Geeft BIP157 (*Neutrino*) compacte filters aan peers (standaard: `0`).
+- `peerblockfilters=1` : Biedt compacte BIP157 (*Neutrino*) filters aan peers (standaard: `0`).
 
 
 
@@ -3520,7 +3520,7 @@ Je kunt ook de manier waarop je wallets beheerd worden aanpassen in het `Bitcoin
 
 
 
-- addresstype=<legacy|P2SH-SegWit|bech32|bech32m>`: Definieert het formaat van Wallet gegenereerde adressen voor ontvangst.
+- `addresstype=<legacy|p2sh-segwit|bech32|bech32m>` : Bepaalt het formaat van de adressen die door de wallet worden gegenereerd voor ontvangst.
 
 
 
@@ -3568,7 +3568,7 @@ Je kunt ook de manier waarop je wallets beheerd worden aanpassen in het `Bitcoin
 
 
 
-- fallbackfee=<amt>`: Terugvalsnelheid (BTC/kvB) die wordt gebruikt als de schatter geen gegevens meer heeft (standaard: `0,00`). Als dit op 0 wordt gezet, wordt fallback volledig uitgeschakeld.
+- `fallbackfee=<amt>` : Noodtarief (BTC/kvB) dat wordt gebruikt als de schatter onvoldoende gegevens heeft (standaard: `0.00`). Instellen op 0 schakelt de noodfunctie volledig uit.
 
 
 
@@ -3660,7 +3660,7 @@ Met het configuratiebestand kun je ook de parameters voor je machine aanpassen. 
 
 
 
-- txindex=1`: Bouwt en onderhoudt een globale index van bevestigde transacties. Essentieel voor bepaalde queries (`getrawtransaction` niet-Wallet) en voor verkenningsdoeleinden, maar vergroot de schijfruimte aanzienlijk. Niet compatibel met pruned modus.
+- `txindex=1` : Bouwt en onderhoudt een globale index van bevestigde transacties. Essentieel voor bepaalde verzoeken (`getrawtransaction` buiten de wallet) en voor onderzoeksdoeleinden, maar verhoogt het schijfgebruik aanzienlijk. Niet compatibel met de gesnoeide modus.
 
 
 

@@ -1,13 +1,11 @@
 ---
-name: RGB 協定，從理論到實踐
+name: RGB編程
 goal: 獲得瞭解和使用 RGB 所需的技能
-objectives: 
-
-  - 瞭解 RGB 通訊協定的基本概念
-  - 掌握 Client-side Validation 和 Bitcoin 承諾的原則
-  - 學習如何建立、管理和轉移 RGB 合約
-  - 如何操作與 RGB 相容的 Lightning 節點
-
+objectives:
+- 瞭解 RGB 通訊協定的基本概念
+- 掌握 Client-side Validation 和 Bitcoin 承諾的原則
+- 學習如何建立、管理和轉移 RGB 合約
+- 如何操作與 RGB 相容的 Lightning 節點
 ---
 # 發現 RGB 通訊協定
 

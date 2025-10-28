@@ -38,6 +38,8 @@ Följ med oss för att förändra din användning av Bitcoin och bli en informer
 
 <chapterId>08ba1933-f393-4fb5-8279-777d874caedb</chapterId>
 
+:::video id=687fe126-56db-4fe2-aaac-e481bbb5d838:::
+
 
 Välkommen till BTC204-kursen!
 
@@ -127,6 +129,8 @@ Vi kommer också att titta på integritet på nivån för nätverket av noder oc
 
 <chapterId>8d6b50c5-bf74-44f4-922b-25204991cb75</chapterId>
 
+:::video id=60e8f3fa-9607-47ae-ac4f-5aa747d9b6d4:::
+
 
 
 Bitcoin är först och främst en valuta, men vet du faktiskt hur BTC representeras på protokollet?
@@ -197,6 +201,8 @@ Det totala saldot i din portfölj skulle vara 17 BTC.
 
 
 <chapterId>29d3aaab-de2e-4746-ab40-c9748898850c</chapterId>
+
+:::video id=c79d651d-ff4a-4a75-bc2b-a48a00c17326:::
 
 
 
@@ -323,6 +329,8 @@ För det andra, som nämnts i de tidigare avsnitten, är Bitcoin-mynt i huvudsak
 
 <chapterId>769d8963-3ed5-4094-b21d-9203c7d9e465</chapterId>
 
+:::video id=f83d8e7a-ff4d-4c05-a8ff-0e601c49a508:::
+
 
 
 ### Pengar: äkthet, integritet och dubbla utgifter
@@ -427,6 +435,8 @@ Men eftersom Bitcoin-transaktioner offentliggörs är det fortfarande möjligt a
 
 
 <chapterId>7d198ba6-4af2-4f24-86cb-3c79cb25627e</chapterId>
+
+:::video id=3d27ea95-599b-44cc-a24c-a628c2e6a64a:::
 
 
 
@@ -541,6 +551,8 @@ Vilka de är får vi se i de kommande kapitlen, men det är redan nu intressant 
 
 
 <chapterId>d365a101-2d37-46a5-bfb9-3c51e37bf96b</chapterId>
+
+:::video id=4bd4c9d4-7997-487c-8760-98c74ae1589e:::
 
 
 
@@ -733,6 +745,8 @@ Tack vare dessa transaktionsmönster kan vi redan tolka en viss mängd informati
 
 <chapterId>c54b5abe-872f-40f4-a0d0-c59faff228ba</chapterId>
 
+:::video id=bbc145cc-5232-41e4-a7f8-1af4e422635a:::
+
 
 
 En intern heuristik är en specifik egenskap som vi identifierar i själva transaktionen, utan att behöva undersöka dess omgivning, och som gör det möjligt för oss att dra slutsatser. Till skillnad från mönster, som fokuserar på transaktionens övergripande struktur på en hög nivå, baseras interna heuristiker på den uppsättning data som kan extraheras. Detta inkluderar:
@@ -892,6 +906,8 @@ Source : [Mempool.space](https://Mempool.space/tx/b79d8f8e4756d34bbb26c659ab8831
 
 
 <chapterId>4a170e3b-200d-431a-8285-18a23ff617ba</chapterId>
+
+:::video id=f83c94a1-4f60-4dc7-855d-aa6710064575:::
 
 
 
@@ -1481,6 +1497,8 @@ ___
 
 <chapterId>f3e97645-3df3-41bc-a4ed-d2c740113d96</chapterId>
 
+:::video id=5392183e-e317-499f-9757-b69e9d7cda11:::
+
 
 
 Efter att ha studerat de tekniker som kan bryta din sekretess på Bitcoin, kommer vi i denna tredje del nu att titta på de bästa metoderna för att skydda dig själv. Syftet med denna del är inte att utforska metoder för att förbättra sekretessen, ett ämne som kommer att behandlas senare, utan snarare att förstå hur man interagerar korrekt med Bitcoin för att behålla den sekretess som den naturligt erbjuder, utan att ta till ytterligare tekniker.
@@ -1653,6 +1671,8 @@ Om du behöver en statisk identifierare för att ta emot betalningar, t.ex. dona
 
 <chapterId>fbdb07cd-c025-48f2-97b0-bd1bc21c68a8</chapterId>
 
+:::video id=4c411c97-ebb2-483d-b4fa-03109cf5d5d7:::
+
 
 
 Som vi upptäckte i avsnittet om stränganalys finns det en mängd olika heuristiker och mönster som kan användas för att härleda information om en transaktion. Som användare är det viktigt att vara medveten om dessa tekniker för att bättre kunna skydda sig mot dem.
@@ -1810,6 +1830,8 @@ https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45
 
 <chapterId>cec6b9d9-0eed-4f85-bc4e-1e9aa59ca605</chapterId>
 
+:::video id=ecf888fe-906f-4293-91b5-1e5ae7b2fde1:::
+
 
 
 KYC står för "Know Your Customer" (känn din kund). Det är ett regelverk som tillämpas av vissa företag som är verksamma inom Bitcoin-sektorn. Syftet med detta förfarande är att verifiera och registrera kundernas identitet, med det uttalade målet att bekämpa penningtvätt och finansiering av terrorism.
@@ -1960,6 +1982,8 @@ Sammanfattningsvis, när bitcoins byts mot andra tillgångar, vare sig det är e
 
 
 <chapterId>756598af-95aa-4c77-ac48-243c7ad89530</chapterId>
+
+:::video id=9fd3d90f-32f4-48a2-a740-3597249551db:::
 
 
 
@@ -2138,6 +2162,8 @@ En annan metod är att arbeta i Exchange för bitcoins. Denna förvärvsmetod ka
 
 <chapterId>d0486c8f-332d-402b-ae2e-949416752b9c</chapterId>
 
+:::video id=9e5841a2-4ff5-460e-a161-0e0af57f95d8:::
+
 
 
 En av de mest komplicerade aspekterna av att driva en portfölj med egen förvaring är konsolidering. Bör du konsolidera? Vad är poängen? Vilken storlek på UTXO bör respekteras? Vilka är kompromisserna när det gäller sekretess? Det är vad vi ska titta på i det här avsnittet.
@@ -2259,6 +2285,8 @@ Glöm i vilket fall inte att en konsolidering oundvikligen innebär en förlust 
 
 <chapterId>b5216965-7d13-4ea1-9b7c-e292966a487b</chapterId>
 
+:::video id=5fc4ce39-6a0b-419a-baa9-f6da75427987:::
+
 
 
 Låt oss ta en titt på några andra bästa metoder för att optimera din integritet på Bitcoin.
@@ -2340,6 +2368,8 @@ Förutom alla dessa goda metoder som ska antas dagligen finns det ännu mer effe
 
 
 <chapterId>0862bc6b-1c48-4aa4-b76d-4f547b469008</chapterId>
+
+:::video id=37f23334-4b52-43db-8d82-bd84310af86c:::
 
 
 
@@ -2490,6 +2520,8 @@ Dagens användare föredrar därför CoinJoin, eftersom det gör att de kan beh�
 
 
 <chapterId>326c9654-b359-4906-b23d-d6518dd5dc3e</chapterId>
+
+:::video id=7df91435-f60b-4d80-89a8-79717a14ebd3:::
 
 
 
@@ -2666,6 +2698,8 @@ För närvarande är Whirlpool den enda CoinJoin-implementeringen som strikt til
 
 <chapterId>e37ed073-9498-4e4f-820b-30951e829596</chapterId>
 
+:::video id=36021102-82f3-4e86-80a9-168e3431ce7b:::
+
 
 
 *År 2024 bevittnar vi stora förändringar i de verktyg som är tillgängliga för användare som vill göra coinjoins på Bitcoin. Vi befinner oss för närvarande vid en vändpunkt och CoinJoin-marknaden genomgår en stor omstrukturering. Detta kapitel kommer säkert att uppdateras över tiden.*
@@ -2785,6 +2819,8 @@ Som du säkert har förstått vid det här laget föredrar jag definitivt Whirlp
 
 
 <chapterId>bdbd7109-e36d-4b4f-a3c6-928df4e9bfda</chapterId>
+
+:::video id=e40f1195-d028-44d3-be24-d76427f9d24b:::
 
 
 
@@ -3116,6 +3152,8 @@ https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e56680
 
 <chapterId>be1093dc-1a74-40e5-9545-2b97a7d7d431</chapterId>
 
+:::video id=03d8581a-3454-4225-9068-a6434840cbcb:::
+
 
 
 Efter att ha studerat hur coinjoins fungerar och vilka problem som är förknippade med effektiv mixning, ska vi nu ta reda på hur man mäter deras effektivitet. Hur kan vi avgöra om en coinjoining-process har varit effektiv och vilken grad av anonymitet en del har fått? Det är vad vi ska ta reda på i det här kapitlet med anonymitetsuppsättningar eller "anonsets".
@@ -3226,6 +3264,8 @@ Som vi har sett i detta kapitel kan anonsets endast beräknas om det finns en vi
 
 
 <chapterId>e4fe289d-618b-49a2-84c9-68c562e708b4</chapterId>
+
+:::video id=5118b15a-a58f-4529-8a91-4e9f6a093fce:::
 
 
 
@@ -3548,6 +3588,8 @@ https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6
 
 <chapterId>c1e90b95-f709-4574-837b-2ec26b11286f</chapterId>
 
+:::video id=5496cb59-006e-40b8-971f-af6d98868527:::
+
 
 
 CoinJoin är för närvarande den mest effektiva metoden för att införa osäkerhet i spårningen av delar i en kedjeanalys. Som vi har sett i tidigare kapitel måste in- och utmatningar vara så homogena som möjligt för att få en högpresterande mix. Dessutom är det viktigt att delar integreras i en så stor grupp som möjligt för att maximera anonsets. Så för att coinjoins ska vara effektiva måste de involvera ett stort antal enhetliga delar. Denna mångfald av krav innebär att CoinJoin-transaktioner har en mycket rigid struktur: beloppen fastställs i förväg och alla deltagare måste följa dem för att garantera processens enhetlighet. Dessutom kräver coinjoins synkronisering mellan alla deltagare och koordinatorn under transaktionens konstruktion.
@@ -3679,6 +3721,8 @@ https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c71
 
 
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
+
+:::video id=1f33e8f1-e41d-4480-a388-e283ef51cc17:::
 
 
 
@@ -3861,6 +3905,8 @@ https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14
 
 <chapterId>db9a20ac-a149-443d-884b-ea6c03f28499</chapterId>
 
+:::video id=3c9ce9e5-4081-4c36-98f9-9fc3779c0337:::
+
 
 
 Användningen av Bitcoin-transaktionsstrukturer som ger tvetydighet till kedjeanalys, såsom CoinJoin, är särskilt fördelaktig för integritetsskydd. Men som vi diskuterade i kapitlet om payjoins är CoinJoin-transaktioner naturligt identifierbara i kedjan. Kom ihåg analogin vi drog mellan kryptering och coinjoins: när en fil är krypterad kan en tredje part som upptäcker den krypterade filen inte komma åt dess innehåll, men kan tydligt identifiera att filen har ändrats för att dölja dess innehåll. Samma sak gäller för CoinJoin: när en analytiker undersöker en CoinJoin-transaktion, även om han eller hon inte kan upprätta direkta länkar mellan inmatningar och utmatningar (och vice versa), kan han eller hon ändå känna igen att den observerade transaktionen är en CoinJoin.
@@ -3969,6 +4015,8 @@ https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a94
 
 
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
+
+:::video id=374f79ce-fc61-4528-8b69-b5ca7c7eaa6f:::
 
 
 
@@ -4155,6 +4203,8 @@ Hittills har vi främst studerat sekretessmetoder på transaktionsnivå. I näst
 
 <chapterId>04a2467b-db84-4076-a9ff-919be5135106</chapterId>
 
+:::video id=8428b212-de79-48a5-b984-ed7936861c2f:::
+
 
 
 I del 4 diskuterade vi vikten av att använda en komplett nod för att skydda sekretessen för dina transaktioner. Det är dock viktigt att förstå att din nod i sig kan utsättas för attacker som försöker få fram information om dina aktiviteter. I det här kapitlet tittar vi därför på de olika åtgärder du kan vidta för att skydda din integritet, inte på transaktionsnivå eller Bitcoin-flöden, utan på nätverksnivå.
@@ -4269,6 +4319,8 @@ Efter att ha utforskat de olika metoderna för sekretess på nätverksnivå vill
 
 
 <chapterId>ad88e076-a04b-4aec-b3b2-7b4760175504</chapterId>
+
+:::video id=b0e9acc2-b50f-4caa-a1d7-cf8624b8e727:::
 
 
 
@@ -5447,6 +5499,8 @@ https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95
 
 
 <chapterId>2871d594-414e-4598-a830-91c9eb84dfb8</chapterId>
+
+:::video id=85b2780e-864e-4f64-b843-f272277181e6:::
 
 
 

@@ -8,7 +8,7 @@ description: Kupujte i prodajte bitkoine na aplikaciji Bitstack
 Bitstack je francuska Bitcoin investiciona platforma, regulisana PSAN od strane AMF-a. Nudi aplikaciju dostupnu na Android i iOS za jednostavnu kupovinu i prodaju Bitcoin.
 
 
-Ono što izdvaja Bitstack je njegov automatski sistem zaokruživanja, koji sinhronizuje korisnički bankovni račun kako bi razliku između iznosa terećenog tokom dnevne potrošnje i sledećeg višeg evra direktno pretvorio u bitkoine. Ova metoda olakšava primenu *Dollar Cost Averaging* (DCA), omogućavajući postepeno, bezbolno akumuliranje satoshija. Pored ove originalne funkcije, platforma takođe nudi klasičan DCA sistem sa automatskim investicijama, kao i kupovinu i prodaju na licu mesta.
+Ono što razlikuje Bitstack jeste njegov sistem automatskog zaokruživanja, koji sinhronizuje korisnički bankovni račun kako bi razliku između iznosa zaduženog pri svakodnevnim troškovima i sledećeg eura pretvorio direktno u bitkoine. Ova metoda olakšava primenu *Dollar Cost Averaging* (DCA), omogućavajući postepeno i bezbolno akumuliranje satoshija. Pored ove originalne funkcije, platforma nudi i klasičan DCA sistem sa automatskim ulaganjima, kao i jednokratne kupovine i prodaje.
 
 
 ![Image](assets/fr/01.webp)
@@ -160,7 +160,7 @@ Kao što je pomenuto u uvodu, Bitstack nudi 3 metode za investiranje u Bitcoin:
 - Korišćenje automatskog zaokruživanja na troškovima.
 
 
-### Kupovina gotovinom
+### Napraviti jednokratnu kupovinu
 
 
 Da biste izvršili jednokratnu kupovinu bitkoina po tržišnoj ceni, jednostavno kliknite na "*Buy*".

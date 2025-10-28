@@ -1,5 +1,5 @@
 ---
-name: Alias Bóveda
+name: Alias Vault
 description: Potente herramienta para gestionar contraseñas, autenticación de dos factores y alias (con servidor de correo electrónico integrado) - ¡También autoalojado!
 ---
 

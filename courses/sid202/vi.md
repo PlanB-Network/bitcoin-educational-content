@@ -1,5 +1,5 @@
 ---
-name: Xây dựng với Elements và mạng Liquid
+name: Xây dựng với Elements và Liquid Network
 goal: Học cách sử dụng và phát triển với nền tảng công nghệ blockchain mã nguồn mở Elements và các tính năng chính của nó
 objectives: 
 

@@ -3,7 +3,7 @@ name: Bitaxe
 description: Kuinka asentaa BitAxe?
 ---
 ![video](https://youtu.be/tvLSK8v0MK8)
-### Johdanto
+## Johdanto
 
 BitAxe on Skotin luoma avoimen lähdekoodin projekti, joka on [saatavilla GitHubissa](https://github.com/skot/bitaxe) ja mahdollistaa kustannustehokkaan louhintaeksperimentoinnin.
 
@@ -20,7 +20,7 @@ BitAxesta on useita versioita, joissa on erilaisia piirejä ja suorituskykyjä:
 
 Tässä oppaassa käytämme BitAxe Ultra 204 -mallia, jossa on BM1366-piiri, käytössä Antminer S19XP:ssä. Tämä yksikkö on jo koottu ja ohjelmoitu myyjän toimesta.
 
-### [Jälleenmyyjien lista on saatavilla tällä sivulla](https://bitaxe.org/legit.html)
+[Jälleenmyyjien luettelo on saatavilla tällä sivulla](https://bitaxe.org/legit.html)
 
 ![signup](assets/2.webp)
 
@@ -28,7 +28,7 @@ Yleensä virtalähde myydään sen mukana. Jos ei, sinun on hankittava virtaläh
 
 ![signup](assets/1.webp)
 
-### Konfigurointi
+## Asetukset
 Kun kytket BitAxesi ensimmäisen kerran, se yrittää automaattisesti yhdistää Wi-Fi-verkkoon. Viiden yrityksen jälkeen se näyttää oman Wi-Fi-verkkonsa nimen, jotta voit yhdistää siihen ja konfiguroida sen.
 Tähän voit käyttää mitä tahansa tietokonetta tai älypuhelinta. Siirry Wi-Fi-asetuksiisi, etsi uusia verkkoja, ja näet Wi-Fi-verkon nimeltä Bitaxe_XXXX. Tässä tapauksessa se on `Bitaxe_A859`. Yhdistä tähän Wi-Fi-verkkoon, ja ikkuna avautuu automaattisesti.
 
@@ -56,7 +56,7 @@ Seuraavaksi `User`-kenttään syötetään tunnisteesi ja sitten `Password`, yle
 
 Kun olet syöttänyt kaikki asetukset oikein, napsauta alhaalla olevaa `Save`-painiketta, ja käynnistä BitAxesi uudelleen yksinkertaisesti irrottamalla se ja kytke se takaisin.
 Jos olet syöttänyt tietosi oikein, laitteen pitäisi nopeasti yhdistää Wi-Fiisi, sitten louhintapooliin, ja alkaa näyttää tietoja pienellä näytöllään. Sen ilmestyminen louhintapoolin hallintapaneeliin saattaa kestää muutaman minuutin.
-### Hallintapaneeli ja Näyttö
+## Hallintapaneeli ja näyttö
 
 Näytöllä vierii kolme erilaista näkymää. Kolmannella sivulla näet `IP`-tiedot, jotka ovat IP-osoite, jonka avulla voit yhdistää hallintapaneeliin. Tässä tapauksessa osoite on `192.168.1.19`.
 

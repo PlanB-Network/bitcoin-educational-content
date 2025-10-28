@@ -6,4 +6,4 @@ wrong_answers:
   - Ne omogućava autentifikaciju pošiljaoca u trenutku sesije.
 explanation: |
   Šema autentifikovanog šifrovanja ne štiti od napada kao što su ponavljanje, preuređivanje i refleksija bez dodatka indikatora kao što su identifikatori i redni brojevi.
-reviewed: false
+reviewed: true

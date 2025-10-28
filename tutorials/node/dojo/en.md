@@ -17,7 +17,7 @@ Dojo is an open-source program designed to act as a backend server for certain p
 ![Image](assets/fr/01.webp)
 
 
-In practical terms, Dojo acts as a gateway between your wallet and the Bitcoin network. Without Dojo, a lightweight mobile wallet would have to query third-party servers to obtain the status of your UTXOs and your history, or to broadcast your transactions. This implies dependency and leakage of sensitive data to a third-party server (addresses used, amounts, payment frequency, etc.). With Dojo, you host this server yourself, directly connected to your own Bitcoin node. In this way, all your portfolio requests pass through an infrastructure that you control, without intermediaries, reinforcing your confidentiality and sovereignty.
+In practical terms, Dojo acts as a gateway between your wallet and the Bitcoin network. Without Dojo, a lightweight mobile wallet would have to query third-party servers to obtain the status of your UTXOs and your history, or to broadcast your transactions. This implies dependency and leakage of sensitive data to a third-party server (addresses used, amounts, payment frequency, etc.). With Dojo, you host this server yourself, directly connected to your own Bitcoin node. In this way, all your wallet requests pass through an infrastructure that you control, without intermediaries, reinforcing your confidentiality and sovereignty.
 
 
 ## Requirements for setting up a Dojo
@@ -482,7 +482,7 @@ rm -r samourai-dojo-1.27.0 && rm samourai-dojo-1.27.0.zip && rm samourai-dojo-1.
 ## 5. Dojo configuration
 
 
-Dojo is a backend server that brings together several services to interact with your portfolio and manage your Bitcoin node. Its configuration can be complex, but the project offers a simplified method that automatically installs and configures the following components:
+Dojo is a backend server that brings together several services to interact with your wallet and manage your Bitcoin node. Its configuration can be complex, but the project offers a simplified method that automatically installs and configures the following components:
 
 
 - Dojo (main API)

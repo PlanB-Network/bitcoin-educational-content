@@ -4943,18 +4943,18 @@ Gói này cài đặt `exiftool`, sau đó bạn có thể sử dụng trực ti
 
 
 ```bash
-exiftool name.jpg
+exiftool name.webp
 ```
 
 
 
-Thay thế `name.jpg` bằng tên thật của tệp. Đồng thời, hãy đảm bảo bạn đang ở trong thư mục chứa hình ảnh này. Ví dụ: nếu tôi có ảnh bức tượng Nakamoto Satoshi trong thư mục `/Downloads`, tôi có thể hiển thị siêu dữ liệu của nó bằng cách chạy lệnh sau:
+Thay thế `name.webp` bằng tên thật của tệp. Đồng thời, hãy đảm bảo bạn đang ở trong thư mục chứa hình ảnh này. Ví dụ: nếu tôi có ảnh bức tượng Nakamoto Satoshi trong thư mục `/Downloads`, tôi có thể hiển thị siêu dữ liệu của nó bằng cách chạy lệnh sau:
 
 
 
 ```bash
 cd Downloads
-exiftool Satoshi-Nakamoto-Lugano.jpeg
+exiftool Satoshi-Nakamoto-Lugano.webp
 ```
 
 
@@ -4991,7 +4991,7 @@ Sau đó, bạn sẽ thấy một danh sách dài các thuộc tính, có thể 
 
 
 ```bash
-exiftool -all= name.jpg
+exiftool -all= name.webp
 ```
 
 
@@ -5013,7 +5013,7 @@ Nếu bạn không muốn giữ lại bản gốc, bạn có thể xóa nó bằ
 
 
 ```bash
-exiftool -all= -overwrite_original name.jpg
+exiftool -all= -overwrite_original name.webp
 ```
 
 
@@ -5037,12 +5037,12 @@ Nếu bạn có nhiều tệp để xử lý trong cùng một thư mục, bạn
 
 
 ```bash
-exiftool -all= *.jpeg
+exiftool -all= *.webp
 ```
 
 
 
-Thao tác này sẽ xóa siêu dữ liệu của tất cả các tệp JPEG trong thư mục hiện tại. Bạn có thể điều chỉnh phần mở rộng cho phù hợp với nhu cầu của mình (`*.png`, `*.pdf`...).
+Thao tác này sẽ xóa siêu dữ liệu của tất cả các tệp JPEG trong thư mục hiện tại. Bạn có thể điều chỉnh phần mở rộng cho phù hợp với nhu cầu của mình (`*.webp`, `*.pdf`...).
 
 
 

@@ -6,7 +6,7 @@ description: Kjøp og selg bitcoins på Bitstack-applikasjonen
 
 Bitstack er en fransk bitcoin-investeringsplattform, regulert PSAN av AMF. Den tilbyr en app som er tilgjengelig på Android og iOS for enkelt kjøp og salg av bitcoin.
 
-Det som skiller Bitstack fra andre er det automatiske avrundingssystemet, som synkroniserer brukerens bankkonto for å konvertere differansen mellom beløpet som debiteres under daglige utgifter og den neste høyere euroen, direkte til bitcoins. Denne metoden letter anvendelsen av *Dollar Cost Averaging * (DCA), noe som muliggjør en gradvis, smertefri akkumulering av satoshis. I tillegg til denne originale funksjonen tilbyr plattformen også et klassisk DCA-system med automatiske investeringer, samt spotkjøp og -salg.
+Det som skiller Bitstack, er dets automatiske avrundingssystem, som synkroniserer brukerens bankkonto for å konvertere forskjellen mellom beløpet trukket ved daglige utgifter og det neste hele eurobeløpet direkte til bitcoin. Denne metoden gjør det enklere å bruke *Dollar Cost Averaging* (DCA) ved å tillate en gradvis og smertefri akkumulering av satoshier. I tillegg til denne originale funksjonen tilbyr plattformen også et klassisk DCA-system med automatiske investeringer samt engangskjøp og -salg.
 
 ![Image](assets/fr/01.webp)
 
@@ -110,7 +110,7 @@ Som nevnt i innledningen, tilbyr Bitstack tre metoder for å investere i Bitcoin
 - Konfigurasjon av gjentatte kjøp (RPC) ;
 - Bruk av automatisk avrunding på utgifter.
 
-### Kjøpe med kontanter
+### Gjør et engangskjøp
 
 For å foreta et engangskjøp av bitcoins til markedspris, klikker du bare på "*Buy*".
 

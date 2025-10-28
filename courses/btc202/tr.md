@@ -21,7 +21,7 @@ Bitcoinlerinizi kendinizin muhafaza etmesini teşvik eden "Anahtarlarınız yoks
 
 
 
-BTC 202, teknik bir uzman olmasanız bile size kendi Bitcoin düğümünüzü nasıl atacağınızı öğretmek için tasarlanmış erişilebilir bir kurstur. Bitcoin düğümünün ne olduğunu, ne işe yaradığını ve kendi düğümünüzü atmanın neden kesinlikle gerekli olduğunu tanımlayarak başlayacağız. Daha sonra donanımınızı seçme, gerekli yazılımı yükleme, Wallet'unuzu bağlama ve daha ileri götürmek için ilk olası optimizasyonları yapma konusunda size adım adım rehberlik edeceğim.
+BTC 202, teknik bir uzman olmasanız bile kendi Bitcoin düğümünüzü çalıştırmayı öğrenmeniz için tasarlanmış erişilebilir bir eğitimdir. Öncelikle bir Bitcoin düğümünün ne olduğunu, ne işe yaradığını ve neden kendi başınıza bir tane çalıştırmanın kesinlikle gerekli olduğunu tanımlayarak başlayacağız. Ardından, donanımınızı seçme, gerekli yazılımları yükleme, cüzdan yazılımınızı bağlama ve daha ileri gitmek için ilk olası optimizasyonları yapma konusunda sizi adım adım yönlendireceğim.
 
 
 
@@ -410,7 +410,7 @@ Başka bir deyişle, 10 genel düğümden yaklaşık 9'u Bitcoin core çalışt�
 
 
 
-Bitcoin core C++ dilinde yazılmıştır. Ayrıca, gönüllü olan veya çeşitli kuruluşlar tarafından (genellikle ekosistemde Core'un geliştirilmesinde menfaati olan şirketler tarafından) ödeme yapılan bir geliştirici topluluğu tarafından sürdürülen açık kaynaklı bir projedir. [Kod GitHub'da barındırılmaktadır] (https://github.com/Bitcoin/Bitcoin) ve geliştirme titiz bir şekilde takip edilmektedir:
+Bitcoin Core, C++ ile yazılmış bir yazılımdır. Ayrıca, gönüllü veya çeşitli kuruluşlar tarafından finanse edilen geliştirici topluluğu tarafından sürdürülen açık kaynaklı bir projedir (çoğu zaman Core geliştirmesinin olumlu ilerlemesini isteyen ekosistem şirketleri tarafından). [Kod GitHub’da barındırılmaktadır](https://github.com/bitcoin/bitcoin) ve geliştirme katı bir modele uyar:
 
 
 
@@ -448,7 +448,7 @@ Ayrıca şunu da belirtebiliriz:
 
 - Libbitcoin**: Amir Taaki tarafından geliştirilen ve Eric Voskuil tarafından bakımı yapılan modüler bir C++ kütüphanesi;
 - Bcoin**: artık aktif olarak bakımı yapılmayan bir JavaScript uygulaması;
-- BTCD/btcsuit**e: Go'da bir uygulama.
+- **BTCD/btcsuite** : Go dilinde bir uygulama.
 
 
 
@@ -481,7 +481,7 @@ Bu dersin ilerleyen bölümlerinde tartışacağımız üzere, protokolün kural
 
 
 
-## Neden kendi düğümünü kendin atıyorsun?
+## Neden kendi düğümünüzü çalıştırmalısınız?
 
 
 <chapterId>39c0cd19-67f9-4c64-bfb3-dbd6eec0bf42</chapterId>
@@ -492,7 +492,7 @@ Bir Bitcoin düğümünü işletmenin, kişisel kazanç olmaksızın, yalnızca 
 
 
 
-Gerçekten de, önceki bölümlerde de belirttiğimiz gibi, düğüm atmanın doğrudan maddi bir getirisi yoktur. Bu nedenle bunu yapmakta kişisel bir çıkar olmadığı düşünülebilir. Yine de kendi düğümünüzü işletmek birçok bireysel fayda sağlar. Sizi bu konuda ikna etmek için bu bölümde neden kendi Bitcoin düğümünüzü kurmanız ve kullanmanız gerektiğine dair hem teknik hem de stratejik tüm nedenleri sunacağım.
+Önceki bölümlerde vurguladığımız gibi, bir düğüm çalıştırmak doğrudan finansal bir kazanç sağlamaz. Bu nedenle, bunu yapmanın kişisel bir çıkarı olmadığı düşünülebilir. Ancak, kendi düğümünüzü işletmek birçok bireysel avantaj sağlar. Bunu size göstermek için, bu bölümde hem teknik hem de stratejik tüm nedenleri açıklayacağım; bunlar, kendi Bitcoin düğümünüzü kurup kullanmanız için sizi teşvik etmelidir.
 
 
 
@@ -576,7 +576,7 @@ Full node'nin kurulumu önemsiz bir işlem değildir. Yazılım yüklemeyi, teme
 
 
 
-Bu bilgiyi edinmek alete olan güveninizi güçlendirir ve hata yapma veya dolandırıcılığa maruz kalma riskini azaltabilir. Kendi düğümünüzü atmak da bir öğrenme biçimidir.
+Bu bilgiyi edinmek, araca olan güveninizi güçlendirir ve hatalar veya dolandırıcılıklara maruz kalma riskini azaltabilir. Kendi düğümünüzü çalıştırmak aynı zamanda öğrenmektir.
 
 
 
@@ -692,7 +692,7 @@ Dolayısıyla önemli olan düğüm sayısı değil, destekledikleri ekonomik fa
 
 
 
-> Senin düğümün değil, senin kuralların değil.
+> Senin düğümün değilse, senin kuralların da değildir.
 
 
 ## Farklı Bitcoin düğüm tipleri
@@ -730,7 +730,7 @@ Pratikte, bir Full node, blok dosyaları için birkaç yüz gigabayt, komut dosy
 
 
 
-### pruned düğümü
+### Budanmış düğüm
 
 
 
@@ -849,7 +849,7 @@ Bu en egemen ve esnek yaklaşımdır: tam olarak neyin çalıştığını, veril
 
 
 
-#### Bitcoin core (ultra çoğunluklu müşteri)
+#### Bitcoin Core (ağırlıklı istemci)
 
 
 
@@ -869,7 +869,7 @@ https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d
 
 https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-#### Bitcoin Knots (ana alternatif müşteri)
+#### Bitcoin Knots (ana alternatif istemci)
 
 
 
@@ -2590,7 +2590,7 @@ Nostr istemcileri ***noStrudel*** veya ***Snort*** da Umbrel'de mevcuttur. Bu uy
 
 
 
-Son olarak, Umbrel'de Nostr'da yerel Lightning ödemelerini mümkün kılan ***Nostr Wallet Connect*** uygulaması var. Somut olarak, üçüncü taraf bir hizmetten geçmeye gerek kalmadan, içeriği ödüllendirmek veya paraya dönüştürülmüş bir şekilde etkileşimde bulunmak için "*zaps*" adı verilen mikro ödemeler göndermek üzere gelecekteki Lightning düğümünüzü Nostr müşterilerinize bağlayabilirsiniz. Bu ödemeler, kanallarınız aracılığıyla doğrudan kişisel düğümünüzden gönderilir.
+Son olarak, Umbrel'de yer alan ***Nostr Wallet Connect*** uygulaması, Nostr içinde yerel Lightning ödemeleri yapılmasına olanak tanır. Somut olarak, gelecekteki Lightning düğümünüzü Nostr istemcilerinize bağlayarak, içerikleri ödüllendirmek veya para kazanılan bir şekilde etkileşimde bulunmak için "*zaps*" adı verilen mikro ödemeler gönderebilirsiniz. Bu ödemeler, üçüncü taraf bir hizmetten geçmeden, doğrudan kişisel düğümünüzden kanallarınız aracılığıyla gönderilir.
 
 
 
@@ -2652,7 +2652,7 @@ https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-82
 
 
 
-## Şemsiye düğümünüzün bakımı
+## Umbrel düğümünüzü bakımda tutma
 
 
 <chapterId>06d77d09-bf24-4555-b2ba-c08bbda477c7</chapterId>
@@ -2941,7 +2941,7 @@ Düğümünüz ilk senkronizasyonunu tamamladığında, blokları ve işlemleri 
 
 
 
-- gW-402 **bloklar** disk üzerinde depolanır,
+- diskte depolanan blokzincirin **blokları**,
 - bir anahtar-değer veritabanında tutulan **UTXO seti**,
 - ve **Mempool** RAM'de saklanır ve periyodik olarak serileştirilir.
 
@@ -3093,7 +3093,7 @@ Mempool, alınmış ancak henüz onaylanmamış geçerli işlemlerin yerel küme
 
 
 - gW-614'e `maxmempool` parametresi aracılığıyla tahsis edilen boyut: daha büyük bir Mempool'e sahip bir düğüm, daha küçük bir Mempool'e sahip bir düğümden daha fazla işlem tutabilecektir (ikincisi boşalmadığı sürece);
-- gW-433 kuralları: bunlar düğümün aktarım kurallarının bir alt kümesidir ve onaylanmamış bir işlemin Mempool'te kabul edilmesi için karşılaması gereken özellikleri tanımlar;
+- mempool kuralları: bunlar düğümün aktarım kurallarının bir alt kümesini oluşturur ve onaylanmamış bir işlemin mempool’a kabul edilmesi için karşılaması gereken özellikleri tanımlar;
 - işlem süzülmesi: çeşitli faktörler nedeniyle, belirli bir işlem ağın bir kısmına dağıtılmış, ancak henüz başka bir kısmına ulaşmamış olabilir.
 
 
@@ -3135,10 +3135,10 @@ Block/`, `chainstate/` ve `indexes/` ile aynı seviyedeki diğer bazı dosyalar 
 - Düğüm kapatıldığında, `anchors.dat` giden eşlerin adreslerini kaydeder, böylece bir dahaki sefere başlattığınızda onlarla tekrar hızlı bir şekilde iletişim kurmayı deneyebilirsiniz.
 - `banlist.json`, düğümün bu belirli eşlerden yeniden bağlanmasını veya bağlantı kabul etmesini önlemek için operatör veya düğüm tarafından karar verilen yerel yasakları (tekrarlanan geçersiz davranış) içerir.
 - fee_estimates.dat`, bir işlem oluşturulurken seçilen gecikme hedefleriyle tutarlı ücret oranları önermek için ücret tahmincisi tarafından kullanılan, gözlemlenen onaylara ilişkin zaman ufku istatistiklerini depolar.
-- gW-446.conf` düğümünüzün yapılandırma parametrelerini içerir. Burası röle kurallarını ayarlayabileceğiniz yerdir. Bir sonraki bölümde bu konu hakkında daha fazla bilgi vereceğim.
+- `bitcoin.conf`, düğümünüzün yapılandırma parametrelerini içerir. Özellikle bu dosyada aktarım kuralları ayarlanabilir. Bunu bir sonraki bölümde daha ayrıntılı olarak açıklayacağım;
 - `settings.json`, `Bitcoin.conf` için ek parametreler içerir.
 - debug.log`, bir hata durumunda düğüm etkinliğini anlamak için kullanılabilecek tanılama metin günlüğüdür.
-- gW-448.pid` çalışma zamanında süreç tanımlayıcısını saklar ve diğer uygulamaların veya komut dosyalarının bitcoind'i (*Bitcoin daemon*) kolayca tanımlamasına ve gerekirse onunla etkileşime girmesine olanak tanır. Düğüm başlangıcında oluşturulur ve kapatıldığında silinir.
+- `bitcoind.pid`, çalıştırma sırasında işlem kimliğini kaydeder ve diğer uygulamaların veya komut dosyalarının Bitcoind’i (*Bitcoin Daemon*) kolayca tanımlamasına ve gerekirse onunla etkileşime girmesine olanak tanır. Düğüm başlatıldığında oluşturulur ve kapatıldığında silinir;
 - ip_asn.map`, kova oluşturma ve eş çeşitlendirme (`-asmap` seçeneği) için kullanılan bir IP → ASN eşleme tablosudur (bağımsız sistem).
 - onion_v3_private_key`, `-listenonion` seçeneği etkinleştirildiğinde, yeniden başlatmalar arasında sabit bir onion Address tutmak için Tor v3 hizmetinin özel anahtarını saklar.
 - i2p_private_key`, I2P üzerinde giden ve muhtemelen gelen bağlantılar yapmak için `-i2psam=` kullanıldığında I2P özel anahtarını saklar.
@@ -3154,9 +3154,9 @@ Bu BTC 202 kursunun ilk bölümlerinde gördüğümüz gibi, Bitcoin core hem Bi
 
 
 
-- wallets/` bir veya daha fazlasını barındıran varsayılan dizindir;
+- `wallets/` bir veya daha fazla cüzdanı barındıran varsayılan dizindir;
 - `wallets/<name>/Wallet.dat` Wallet'in SQLite veritabanıdır (anahtarlar, tanımlayıcılar, işlem meta verileri, vb.);
-- wallets/<name>/Wallet.dat-journal` SQLite geri alma günlüğüdür.
+- `wallets/<name>/wallet.dat-journal`, SQLite geri alma günlüğüdür.
 
 
 
@@ -3335,10 +3335,10 @@ Ağ düzeyinde, ayrıca
 
 
 - addnode`: olağan keşfe ek olarak iletişim kurulacak dost bir eş ekler (birkaç kez belirtilebilir).
-- connect`: bağlantıları sağlanan Address ile sıkı bir şekilde kısıtlar (birkaç kez belirtilebilir). Çekirdek başka hiçbir düğüme bağlanmayacaktır.
+- `connect`: bağlantıları verilen adrese kesin olarak sınırlar (birden çok kez belirtilebilir). Core başka hiçbir düğüme bağlanmayacaktır;
 - `seednode`: yalnızca bir düğüme bağlanırken Address kitabını doldurmak için kullanılır, ardından bağlantıyı keser.
 - `maxconnections`: gelen + giden bağlantılar için global tavanı tanımlar. Varsayılan olarak, bu parametre 125 olarak ayarlanmıştır, yani düğümünüz asla 125'ten fazla bağlantı kabul etmeyecektir.
-- maxuploadtarget`: 24 saatlik kayan bir pencere boyunca bant genişliğini sınırlamak için yüklemeleri sınırlar. Bu sınır, temel son Elements'in yayılmasını feda etmez.
+- `maxuploadtarget` : bant genişliğini sınırlamak için yüklemeyi 24 saatlik kayan bir zaman aralığında sınırlar. Bu sınır, gerekli yeni öğelerin yayılmasını engellemez;
 - onlynet`: giden bağlantıları yalnızca seçilen ağlarla sınırlar (`ipv4`, `ipv6`, `onion`, `i2p`, `cjdns`). Örneğin, düğümünüzün Bitcoin ağına yalnızca Tor üzerinden bağlanmasını istiyorsanız, `onlynet=onion` parametresini etkinleştirebilir ve gelen bağlantıları devre dışı bırakabilirsiniz (veya yalnızca Tor üzerinden bağlantılara da izin verebilirsiniz).
 - `dnsseed`: yerel Address havuzunuz düşük olduğunda _DNS tohumlarının_ eşler talep etmesine izin verir veya vermez (varsayılan: `-connect` veya `-maxconnections=0` olmadığı sürece `1`).
 - forcednsseed`: stokta zaten adresleriniz olsa bile _DNS tohumlarının_ başlangıçta istenmesini zorlar (öntanımlı: `0`).
@@ -3362,7 +3362,7 @@ Tor'u tam olarak etkinleştirmek için, Bitcoin core'yı yalnızca bu ağı kull
 - `torcontrol=127.0.0.1:9051`,
 - `proxyrandomize=1`,
 - `listen=1`,
-- bind=127.0.0.1`,
+- `bind=127.0.0.1`,
 - `upnp=0`,
 - `natpmp=0`.
 
@@ -3418,7 +3418,7 @@ Mempool'nizin yönetimi ve onaylanmamış işlemlerin aktarılmasıyla ilgili `B
 
 
 
-- blocksonly=1`: Eşlerden alınan onaylanmamış işlemlerin kabulünü ve yeniden iletimini devre dışı bırakır (özel izinler verilmediği sürece). Düğüm artık sadece blokları yükler ve ilan eder. Yerel olarak oluşturulan işlemler hala yayınlanabilir (düğümünüzü Wallet yazılımınızla kullanmak için). Bu, aktarıcı için daha az kullanışlılık ve Mempool'e tamamen yabancılık pahasına da olsa bant genişliği ve RAM gereksinimlerini büyük ölçüde azaltır.
+- `blocksonly=1` : Eşlerden alınan onaylanmamış işlemlerin kabulünü ve yeniden iletimini devre dışı bırakır (özel izinler hariç). Düğüm yalnızca blokları indirir ve duyurur. Yerel olarak oluşturulan işlemler hâlâ yayınlanabilir (düğümünüzü cüzdan yazılımınızla kullanmak için). Bu, bant genişliği ve RAM gereksinimlerini önemli ölçüde azaltır, ancak aktarım için kullanılabilirliği azaltır ve mempool hakkında hiçbir bilgi bırakmaz.
 
 
 
@@ -3448,7 +3448,7 @@ Bir hatırlatma olarak, RBF, göndericinin onaylamayı hızlandırmak için bir 
 
 
 
-- datacarrier=1`: Bir `OP_RETURN` çıkışı üzerinden finansal olmayan veri taşıyan işlemlerin aktarılmasına ve (düğüm üzerinden Mining ise) dahil edilmesine izin verir (varsayılan: `1`). Bu parametrenin devre dışı bırakılması, belirli kullanımlarla uyumluluğun azalması pahasına, finansal olmayan veri spam'i için yüzey alanını biraz azaltır. Her durumda, mayınlı `OP_RETURN` yı kabul etmelisiniz.
+- `datacarrier=1` : Düğüm üzerinden madencilik yapılıyorsa, finansal olmayan veriler içeren işlemlerin `OP_RETURN` çıktısı aracılığıyla aktarımına ve dahil edilmesine izin verir (varsayılan: `1`). Bu parametrenin devre dışı bırakılması, finansal olmayan veri spam yüzeyini biraz azaltır ancak bazı kullanım durumlarıyla uyumluluğu düşürür. Her durumda, çıkarılan `OP_RETURN`ları kabul etmeniz gerekir.
 
 
 
@@ -3490,13 +3490,13 @@ Bir hatırlatma olarak, RBF, göndericinin onaylamayı hızlandırmak için bir 
 
 
 
-- peerbloomfilters=1`: Filtrelenmiş blokları/işlemleri ince istemcilere sunmak için Bloom filtreleri (BIP37) desteğini etkinleştirin (varsayılan: `0`). Uyarı: Bu, kaynaklarınız üzerindeki yükü artırır.
+- `peerbloomfilters=1` : Hafif istemcilere filtrelenmiş bloklar/işlemler sunmak için Bloom filtreleri (BIP37) desteğini etkinleştirir (varsayılan: `0`). Dikkat, bu kaynaklarınız üzerindeki yükü artırır.
 
 
 
 
 
-- peerblockfilters=1`: BIP157 (*Neutrino*) kompakt filtrelerini eşlere sunar (varsayılan: `0`).
+- `peerblockfilters=1` : Eşlere kompakt BIP157 (*Neutrino*) filtreleri sunar (varsayılan: `0`).
 
 
 
@@ -3520,7 +3520,7 @@ Cüzdanlarınızın yönetilme şeklini `Bitcoin.conf` dosyasından da ayarlayab
 
 
 
-- addresstype=<legacy|P2SH-SegWit|bech32|bech32m>`: Alım için Wallet tarafından oluşturulan adreslerin biçimini tanımlar.
+- `addresstype=<legacy|p2sh-segwit|bech32|bech32m>` : Cüzdan tarafından alım için oluşturulan adreslerin biçimini tanımlar.
 
 
 
@@ -3568,7 +3568,7 @@ Cüzdanlarınızın yönetilme şeklini `Bitcoin.conf` dosyasından da ayarlayab
 
 
 
-- fallbackfee=<amt>`: Tahmin edicinin verisi biterse kullanılan geri dönüş oranı (BTC/kvB) (varsayılan: `0,00`). 0 olarak ayarlamak geri dönüşü tamamen devre dışı bırakır.
+- `fallbackfee=<amt>` : Tahmin aracının verisi eksikse kullanılan yedek ücret oranı (BTC/kvB) (varsayılan: `0.00`). 0 olarak ayarlamak yedeği tamamen devre dışı bırakır.
 
 
 
@@ -3660,7 +3660,7 @@ Yapılandırma dosyası, makinenizle ilgili parametreleri ayarlamanıza da olana
 
 
 
-- txindex=1`: Onaylanmış işlemlerin küresel bir dizinini oluşturur ve korur. Belirli sorgular (`getrawtransaction` non-Wallet) ve keşif amaçları için gereklidir, ancak disk ayak izini önemli ölçüde artırır. pruned modu ile uyumsuzdur.
+- `txindex=1` : Onaylanmış işlemlerin küresel dizinini oluşturur ve korur. Bazı sorgular (`getrawtransaction` cüzdan dışında) ve keşif amaçları için gereklidir, ancak disk kullanımını önemli ölçüde artırır. Budanmış mod ile uyumlu değildir.
 
 
 

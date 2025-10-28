@@ -1,11 +1,11 @@
 ---
-name: Bitcoin Rahakottide Sisemine Tööpõhimõte
+name: Bitcoin rahakoti arhitektuur
 goal: Sukelduda krüptograafilistesse põhimõtetesse, mis toetavad Bitcoin rahakotte.
 objectives:
-  - Määratleda teoreetilised mõisted, mis on vajalikud Bitcoinis kasutatavate krüptograafiliste algoritmide mõistmiseks.
-  - Täielikult mõista deterministliku ja hierarhilise rahakoti ehitust.
-  - Teada, kuidas tuvastada ja vähendada rahakoti haldamisega seotud riske.
-  - Mõista hash-funktsioonide, krüptograafiliste võtmete ja digitaalallkirjade põhimõtteid.
+- Määratleda teoreetilised mõisted, mis on vajalikud Bitcoinis kasutatavate krüptograafiliste algoritmide mõistmiseks.
+- Täielikult mõista deterministliku ja hierarhilise rahakoti ehitust.
+- Teada, kuidas tuvastada ja vähendada rahakoti haldamisega seotud riske.
+- Mõista hash-funktsioonide, krüptograafiliste võtmete ja digitaalallkirjade põhimõtteid.
 ---
 
 # Teekond Bitcoin Rahakottide Südamesse
@@ -27,6 +27,8 @@ Selge pedagoogiaga, üle 60 selgitava diagrammi ja konkreetsete näidetega, või
 ## Kursuse Sissejuhatus
 
 <chapterId>fb4e8857-ea35-5a8a-ae8a-5300234e0104</chapterId>
+
+:::video id=8028e727-cd5d-4593-a946-a89bfa26f617:::
 
 Tere tulemast CYP201 kursusele, kus me uurime põhjalikult HD Bitcoin rahakottide toimimist. See kursus on mõeldud kõigile, kes soovivad mõista Bitcoin'i kasutamise tehnilisi aluseid, olgu nad juhuslikud kasutajad, valgustatud entusiastid või tulevased eksperdid.
 
@@ -87,6 +89,8 @@ See tabel pakub teile tõlke peamistest ingliskeelsetest terminitest, mida kasut
 ## Hash-funktsioonide tutvustus
 
 <chapterId>dba011f5-1805-5a48-ac2b-4bd637c93703</chapterId>
+
+:::video id=f36528c9-9ab0-4037-a413-b16c204d5cc8:::
 
 Esimest tüüpi krüptograafilised algoritmid, mida Bitcoinis kasutatakse, hõlmavad hash-funktsioone. Need mängivad olulist rolli protokolli erinevatel tasanditel, aga ka Bitcoin'i rahakottides. Vaatame koos, mis on hash-funktsioon ja milleks seda Bitcoinis kasutatakse.
 
@@ -195,6 +199,9 @@ Nüüd teate hashimisfunktsioonide olulisi põhitõdesid edasiseks. Järgmises p
 ## SHA256 sisemine toimimine
 
 <chapterId>905eb320-f15b-5fb6-8d2d-5bb447337deb</chapterId>
+
+:::video id=2e4a42df-4b49-47ff-b6bc-9bcaa53bc82f:::
+
 Oleme varem näinud, et räsifunktsioonidel on olulised omadused, mis õigustavad nende kasutamist Bitcoinis. Vaatame nüüd nende räsifunktsioonide sisemisi mehhanisme, mis annavad neile need omadused, ja selleks pakun ma lahti võtta SHA256 toimimise.
 SHA256 ja SHA512 funktsioonid kuuluvad samasse SHA2 perekonda. Nende mehhanism põhineb spetsiifilisel konstruktsioonil, mida nimetatakse **Merkle-Damgårdi konstruktsiooniks**. RIPEMD160 kasutab samuti seda tüüpi konstruktsiooni.
 
@@ -548,6 +555,8 @@ Nüüd, kui oleme üksikasjalikult vaadelnud räsifunktsioonide toimimist, eriti
 
 <chapterId>cc668121-7789-5e99-bf5e-1ba085f4f5f2</chapterId>
 
+:::video id=a5cf4eb3-e53f-4bff-aee4-de0ca6aab3b6:::
+
 Bitcoinis rakendustasandil kasutatakse räsifunktsioonide kõrval krüptograafilisi tuletusalgoritme, et genereerida turvalisi andmeid algsetest sisenditest. Kuigi need algoritmid toetuvad räsifunktsioonidele, teenivad nad erinevaid eesmärke, eriti autentimise ja võtmegeneratsiooni osas. Need algoritmid säilitavad mõningaid räsifunktsioonide omadusi, nagu pöördumatuse, võltsimiskindluse ja kokkupõrkekindluse.
 
 Bitcoin rahakottides kasutatakse peamiselt kahte tuletusalgoritmi:
@@ -633,6 +642,8 @@ Sel peatükis oleme uurinud HMAC-SHA512 ja PBKDF2 funktsioone, mis kasutavad rä
 
 <chapterId>c9dd9672-6da1-57f8-9871-8b28994d4c1a</chapterId>
 
+:::video id=6d307c93-8c79-42e2-ac95-cfcb2a58889f:::
+
 Teine krüptograafiline meetod, mida Bitcoinis kasutatakse, hõlmab digitaalse allkirja algoritme. Vaatleme, mida see endast kujutab ja kuidas see töötab.
 
 ### Bitcoinid, UTXOd ja Kulutamistingimused
@@ -715,6 +726,9 @@ https://planb.network/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 ## Avaliku võtme arvutamine privaatvõtmest
 
 <chapterId>fcb2bd58-5dda-5ecf-bb8f-ad1a0561ab4a</chapterId>
+
+:::video id=2fddfb16-5ae3-41da-92f8-ef5d09789804:::
+
 Nagu varem nähtud, põhinevad Bitcoini digitaalsed allkirja algoritmid privaat- ja avalike võtmete paaril, mis on matemaatiliselt seotud. Vaatame koos, mis see matemaatiline seos on ja kuidas neid genereeritakse.
 
 ### Privaatvõti
@@ -827,6 +841,8 @@ Muidugi, selles lihtsustatud näites, kus $k = 4$, oleks võimalik leida $k$ kat
 ## Allkirjastamine Privaatvõtmega
 
 <chapterId>bb07826f-826e-5905-b307-3d82001fb778</chapterId>
+
+:::video id=fe3acbf4-a9d4-4c7d-82cc-79de24bf8aec:::
 
 Nüüd, kui te teate, kuidas tuletada avalik võti privaatvõtmest, võite juba bitcoine vastu võtta, kasutades seda võtmepaari kulutamise tingimusena. Kuid kuidas neid kulutada? Bitcoinide kulutamiseks peate avama oma UTXO külge kinnitatud _scriptPubKey_, et tõestada, et olete selle legitiimne omanik. Selleks peate tootma allkirja $s$, mis vastab _scriptPubKey_-s olevale avalikule võtmele $K$, kasutades privaatvõtit $k$, mida algselt kasutati $K$ arvutamiseks. Digitaalne allkiri on seega vaieldamatu tõend, et olete privaatvõtme omanik, mis on seotud väidetava avaliku võtmega.
 
@@ -1045,6 +1061,8 @@ Tegelikult me ei tea, miks Satoshi seda ei valinud, kuid tõenäoline hüpotees 
 
 <chapterId>231c41a2-aff2-4655-9048-47b6d2d83d64</chapterId>
 
+:::video id=43dfce6d-c51a-44c1-b565-95b4430da069:::
+
 Nagu eelmistes peatükkides oleme näinud, kasutatakse digitaalseid allkirju sageli sisendi skripti avamiseks. Allkirjastamisprotsessis on vajalik kaasata allkirjastatud andmed arvutusse, mida meie näidetes tähistatakse sõnumiga $m$. Kord allkirjastatud, ei saa neid andmeid muuta ilma allkirja kehtetuks muutmata. Tõepoolest, olgu tegemist ECDSA või Schnorriga, peab allkirja kontrollija oma arvutusse kaasama sama sõnumi $m$. Kui see erineb algsest sõnumist $m$, mida allkirjastaja kasutas, on tulemus vale ja allkirja peetakse kehtetuks. Öeldakse, et allkiri katab teatud andmed ja kaitseb neid omamoodi volitamata muudatuste eest.
 
 ### Mis on sighash lipp?
@@ -1109,6 +1127,8 @@ Järgmises osas pakun avastada, kuidas töötab teie Bitcoin rahakoti aluseks ol
 
 <chapterId>9d9acd5d-a0e5-5dfd-b544-f043fae8840f</chapterId>
 
+:::video id=024fb46f-aece-414f-818b-4762e77953b9:::
+
 Nüüd, kui oleme uurinud räsifunktsioonide ja digitaalsete allkirjade toimimist, saame uurida, kuidas Bitcoini rahakotid toimivad. Eesmärk on ette kujutada, kuidas Bitcoini rahakott on üles ehitatud, kuidas see on jaotatud ja milliseid erinevaid teabeosi see kasutab. Rahakoti mehhanismide mõistmine võimaldab teil parandada oma Bitcoini kasutamist turvalisuse ja privaatsuse osas.
 
 Enne tehnilistesse üksikasjadesse sukeldumist on oluline selgitada, mida mõeldakse "Bitcoini rahakoti" all ja mõista selle kasulikkust.
@@ -1150,6 +1170,9 @@ Järgnevates peatükkides uurime HD rahakottide sisemist tööd, sealhulgas võt
 ## Entroopia ja Juhuarv
 
 <chapterId>b43c715d-affb-56d8-a697-ad5bc2fffd63</chapterId>
+
+:::video id=4b6c3bd5-2d5c-42ff-8f47-141bd20569bd:::
+
 Kaasaegsed HD rahakotid (deterministlikud ja hierarhilised) tuginevad ühele algsele informatsioonitükile, mida nimetatakse "entroopiaks", et deterministlikult genereerida kogu rahakoti võtmete komplekt. See entroopia on pseudojuhuarv, mille kaose tase osaliselt määrab rahakoti turvalisuse.
 
 ### Entroopia Definitsioon
@@ -1176,6 +1199,9 @@ Järgmises peatükis näeme, kuidas me liigume juhuarvust 12 või 24 sõna mnemo
 ## Mnemooniline Fraas
 
 <chapterId>8f9340c1-e6dc-5557-a2f2-26c9669987d5</chapterId>
+
+:::video id=6218472e-b965-484f-b56b-e363f65d2827:::
+
 Mnemooniline fraas, mida nimetatakse ka "seemnefraasiks", "taastefraasiks", "salafraasiks" või "24-sõnaliseks fraasiks", on tavaliselt 12 või 24 sõnast koosnev jada, mis on genereeritud entroopiast. Seda kasutatakse HD rahakoti kõikide võtmete deterministlikuks tuletamiseks. See tähendab, et sellest fraasist on võimalik deterministlikult genereerida ja taasluua kõik Bitcoin rahakoti privaatsed ja avalikud võtmed ning seeläbi pääseda ligi sellega kaitstud vahenditele. Mnemoonilise fraasi eesmärk on pakkuda bitcoini varundamise ja taastamise vahendit, mis on nii turvaline kui ka lihtne kasutada. See viidi standarditesse sisse 2013. aastal BIP39-ga.
 Avastame koos, kuidas minna entroopiast mnemoonilise fraasini.
 
@@ -1271,6 +1297,8 @@ Enne kui jätkame rahakoti tuletamist sellest mnemoonilisest fraasist, tutvustan
 ## Paroolilause
 <chapterId>6a51b397-f3b5-5084-b151-cef94bc9b93f</chapterId>
 
+:::video id=59f8a63e-56af-4937-a1d1-3314b3934048:::
+
 Nagu me just nägime, genereeritakse HD rahakotid tavaliselt 12 või 24 sõnast koosnevast mnemoonilisest fraasist. See fraas on väga oluline, kuna see võimaldab taastada kõik rahakoti võtmed juhul, kui selle füüsiline seade (näiteks riistvaraline rahakott) kaob. Siiski kujutab see endast ühtset rikkepunkti, sest kui see on kompromiteeritud, võib ründaja varastada kõik bitcoinid. Siin tulebki mängu BIP39 paroolilause.
 
 ### Mis on BIP39 paroolilause?
@@ -1303,6 +1331,8 @@ Järgmises jaotises avastame, kuidas neid kahte teie rahakoti aluseks olevat ele
 
 ## Seemne ja Peavõtme Loomine
 <chapterId>63093760-2010-5691-8d0e-9a04732ae557</chapterId>
+
+:::video id=60e3ade6-501b-4e1e-a85e-59257ef12900:::
 
 Kui mnemooniline fraas ja valikuline salafraas on genereeritud, võib alata Bitcoin HD rahakoti tuletamise protsess. Mnemooniline fraas teisendatakse esmalt seemneks, mis on kõigi rahakoti võtmete aluseks.
 
@@ -1380,6 +1410,8 @@ Enne HD rahakoti tuletamise jätkamist järgmiste elementidega soovin ma järgmi
 
 ## Laiendatud Võtmed
 <chapterId>8dcffce1-31bd-5e0b-965b-735f5f9e4602</chapterId>
+
+:::video id=bbca9cca-62a0-4b4e-93d5-3757dc100123:::
 
 Laiendatud võti on lihtsalt võtme (olgu see siis privaatne või avalik) ja selle seotud ahelakoodi ühendus. See ahelakood on lastevõtmete tuletamiseks hädavajalik, sest ilma selleta on võimatu tuletada lastevõtmeid vanemvõtmest, kuid me uurime seda protsessi täpsemalt järgmises peatükis. Need laiendatud võtmed võimaldavad seega koondada kõik vajaliku teabe lastevõtmete tuletamiseks, lihtsustades seeläbi konto haldamist HD rahakotis.
 
@@ -1496,6 +1528,8 @@ Sel peatükis avastasime, et on olemas kahte tüüpi alamvõtmeid. Samuti õppis
 ## Alamvõtmepaaride Tuletamine
 
 <chapterId>61c0807c-845b-5076-ad06-7f395b36adfd</chapterId>
+
+:::video id=80387fa0-bee8-4aac-9eac-93e90e55a1cb:::
 
 Bitcoin HD rahakottide alamvõtmepaaride tuletamine toetub hierarhilisele struktuurile, mis võimaldab genereerida suure hulga võtmeid, samal ajal korraldades neid paare erinevatesse rühmadesse harude kaudu. Iga vanemapaarist tuletatud alampaari saab kasutada otse _scriptPubKey_'s, et lukustada bitcoine, või kui lähtepunkti rohkemate alamvõtmete genereerimiseks, ja nii edasi, luues võtmete puu.
 
@@ -1715,6 +1749,8 @@ Kokkuvõtteks, seni olete õppinud looma HD rahakoti põhielemente: mnemoonilist
 
 <chapterId>34e1bbda-67de-5493-b268-1fded8d67689</chapterId>
 
+:::video id=9fff62bf-9203-46f1-bb4d-4f5a9d5875f8:::
+
 HD rahakottide hierarhiline struktuur Bitcoinis võimaldab võtmepaaride organiseerimist mitmel viisil. Idee on tuletada peamisest privaatvõtmest ja peamisest ahelakoodist mitu sügavuse taset. Iga lisatud tase vastab lapse võtmepaari tuletamisele vanema võtmepaarist.
 
 Aja jooksul on erinevad BIP-id (_Bitcoin Improvement Proposals_) tutvustanud standardeid nende tuletamisteede jaoks, eesmärgiga standardiseerida nende kasutust erinevas tarkvaras. Seega selles peatükis avastame iga HD rahakottide tuletamistaseme tähendust, vastavalt nendele standarditele.
@@ -1807,6 +1843,9 @@ Järgmises peatükis avastame, mis on "_väljundskripti kirjeldajad_" (output sc
 ## Väljundskripti kirjeldajad
 
 <chapterId>e4f1c2d3-9b8a-4d3e-8f2a-7b6c5d4e3f2a</chapterId>
+
+:::video id=ce9d2c33-6a9d-451e-a2b4-41ef81cbfd71:::
+
 Teile on sageli öeldud, et mnemooniline fraas üksi on piisav, et taastada juurdepääs rahakotile. Tegelikkuses on asjad natuke keerulisemad. Eelmises peatükis vaatasime HD rahakoti tuletusstruktuuri ja võisite märgata, et see protsess on üsna keeruline. Tuletusteed ütlevad tarkvarale, millist suunda järgida kasutaja võtmete tuletamiseks. Kuid Bitcoin'i rahakoti taastamisel, kui neid teid ei teata, ei piisa ainult mnemoonilisest fraasist. See võimaldab saada peavõtme ja peamise ahelakoodi, kuid siis on vajalik teada indekseid, et jõuda lastevõtmeteni.
 
 Teoreetiliselt oleks vajalik salvestada mitte ainult meie rahakoti mnemooniline fraas, vaid ka kontodele, mida kasutame, viivad teed. Praktikas on sageli võimalik lastevõtmetele juurdepääs taastada ilma selle teabeta, eeldusel, et on järgitud standardeid. Testides iga standardit ükshaaval, on üldiselt võimalik bitcoine'idele juurdepääs taastada. Siiski ei ole see garanteeritud ja eriti keeruline algajatele. Lisaks, skriptitüüpide mitmekesistumise ja keerukamate konfiguratsioonide ilmnemisega võib see teave muutuda raskesti ekstrapoleeritavaks, muutes selle andmed privaatseks teabeks ja raskesti taastatavaks jõuga. Seetõttu on hiljuti tutvustatud uuendust, mis hakkab olema integreeritud teie lemmik rahakott tarkvarasse: _väljundskripti kirjeldajad_.
@@ -1851,6 +1890,8 @@ Nüüd teate kõike HD rahakoti toimimisest Bitcoinis ja võtmepaaride tuletamis
 ## Vastuvõtu Aadressid
 
 <chapterId>ca80a89d-f8da-4e09-8c35-43179b65bced</chapterId>
+
+:::video id=4113aebf-c850-4ebc-90a8-a3b599de4453:::
 
 Vastuvõtu aadressid on teabe killud, mis on sisestatud _scriptPubKey_'sse, et lukustada äsja loodud UTXOsid. Lihtsalt öeldes on aadress mõeldud bitcoinide vastuvõtmiseks. Uurime nende toimimist seoses sellega, mida oleme eelmistes peatükkides õppinud.
 
@@ -1970,6 +2011,8 @@ Nüüd, kui oleme teooria läbi käinud, liigume praktika juurde! Järgmises pea
 ## Aadressi Tuletamine
 
 <chapterId>3ebdc750-4135-4881-b07e-08965941b93e</chapterId>
+
+:::video id=1517c0fd-d31b-426b-b99e-e4eb19635415:::
 
 Uurime koos, kuidas genereerida vastuvõtu aadress võtmepaarist, mis asub näiteks HD rahakoti sügavusel 5. Seda aadressi saab seejärel kasutada rahakotitarkvaras UTXO lukustamiseks.
 

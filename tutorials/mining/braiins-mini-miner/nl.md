@@ -6,7 +6,7 @@ description: Gemakkelijk thuis Mining maken.
 
 
 
-### Inleiding
+## Inleiding
 
 
 
@@ -18,7 +18,7 @@ Je kunt ook veel meer belangrijke informatie vinden door de volledige handleidin
 
 
 
-### Overzicht van BMM 100
+## Overzicht van BMM 100
 
 
 
@@ -46,7 +46,7 @@ aan de achterkant hebben we: het gat voor de voeding, ruimte voor een SD-kaart (
 
 
 
-### De Mini Miner aansluiten
+## De Mini Miner aansluiten
 
 
 
@@ -54,7 +54,7 @@ Je moet het apparaat via ethernet met het internet verbinden, merk op dat dit me
 
 
 
-### Configuratie
+## Configuratie
 
 
 
@@ -74,7 +74,7 @@ Om in te loggen moet je `root` als gebruikersnaam opgeven, terwijl je het wachtw
 
 
 
-### Algemene instellingen
+## Algemene instellingen
 
 
 
@@ -110,7 +110,7 @@ Als je de wijzigingen hebt aangebracht, klik je op `Wijzigingen opslaan` en zie 
 
 
 
-### Aansluiting op Mining pool
+## Aansluiting op Mining pool
 
 
 
@@ -142,7 +142,7 @@ De tweede optie is om ons te verbinden met een Mining pool die in solo mina, zoa
 
 https://planb.network/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-#### Braiins zwembad
+### Braiins zwembad
 
 
 
@@ -236,7 +236,7 @@ als je teruggaat naar het dashboard, zou je beweging moeten zien in de grafiek e
 
 
 
-#### Openbaar zwembad
+### Openbaar zwembad
 
 
 

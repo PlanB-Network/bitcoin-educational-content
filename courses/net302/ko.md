@@ -138,7 +138,7 @@ ___
 
 
 
-![Image](assets/fr/001.webp)
+![Image](assets/ko/001.webp)
 
 
 
@@ -152,7 +152,7 @@ ___
 
 
 
-![Image](assets/fr/002.webp)
+![Image](assets/ko/002.webp)
 
 
 
@@ -166,7 +166,7 @@ ___
 
 
 
-![Image](assets/fr/003.webp)
+![Image](assets/ko/003.webp)
 
 
 
@@ -180,7 +180,7 @@ ___
 
 
 
-![Image](assets/fr/004.webp)
+![Image](assets/ko/004.webp)
 
 
 
@@ -197,7 +197,7 @@ ___
 
 
 
-![Image](assets/fr/005.webp)
+![Image](assets/ko/005.webp)
 
 
 
@@ -263,7 +263,7 @@ TCP/IP 모델의 네 가지 계층은 다음과 같습니다:
 
 
 
-![Image](assets/fr/006.webp)
+![Image](assets/ko/006.webp)
 
 
 
@@ -390,7 +390,7 @@ IP 데이터그램이 전송 용량이 데이터그램 자체보다 작은 네�
 
 
 
-![Image](assets/fr/008.webp)
+![Image](assets/ko/007.webp)
 
 
 
@@ -431,7 +431,7 @@ IP 데이터그램이 전송 용량이 데이터그램 자체보다 작은 네�
 
 
 
-![Image](assets/fr/009.webp)
+![Image](assets/ko/008.webp)
 
 
 
@@ -442,7 +442,7 @@ IP 데이터그램이 전송 용량이 데이터그램 자체보다 작은 네�
 
 
 
-![Image](assets/fr/010.webp)
+![Image](assets/ko/009.webp)
 
 
 
@@ -456,7 +456,7 @@ IP 데이터그램이 전송 용량이 데이터그램 자체보다 작은 네�
 
 
 
-![Image](assets/fr/011.webp)
+![Image](assets/ko/010.webp)
 
 
 
@@ -507,7 +507,7 @@ IP Address은 두 부분으로 구성되어 있습니다:
 
 
 
-![Image](assets/fr/013.webp)
+![Image](assets/ko/011.webp)
 
 
 
@@ -585,7 +585,7 @@ Address 사용을 최적화하고 복잡한 네트워크를 설계하려면 **�
 
 
 
-![Image](assets/fr/016.webp)
+![Image](assets/ko/012.webp)
 
 
 
@@ -680,7 +680,7 @@ TCP는 연결 지향 프로토콜로, 클라이언트와 서버 간에 명시적
 
 
 
-![Image](assets/fr/018.webp)
+![Image](assets/ko/013.webp)
 
 
 
@@ -688,7 +688,7 @@ TCP는 연결 지향 프로토콜로, 클라이언트와 서버 간에 명시적
 
 
 
-![Image](assets/fr/019.webp)
+![Image](assets/ko/014.webp)
 
 
 
@@ -711,7 +711,7 @@ TCP는 중복을 감지하고 처리할 수 있습니다. 재전송된 세그먼
 
 
 
-![Image](assets/fr/020.webp)
+![Image](assets/ko/015.webp)
 
 
 
@@ -734,7 +734,7 @@ TCP는 중복을 감지하고 처리할 수 있습니다. 재전송된 세그먼
 
 
 
-![Image](assets/fr/021.webp)
+![Image](assets/ko/016.webp)
 
 
 
@@ -751,7 +751,7 @@ IP의 유연한 라우팅과 TCP의 엄격한 제어를 결합한 이러한 정�
 
 
 
-![Image](assets/fr/022.webp)
+![Image](assets/ko/017.webp)
 
 
 
@@ -791,7 +791,7 @@ TCP와 UDP의 이러한 상호 보완성 덕분에 최신 네트워크는 애플
 
 
 
-![Image](assets/fr/023.webp)
+![Image](assets/ko/018.webp)
 
 
 
@@ -800,7 +800,7 @@ TCP와 UDP의 이러한 상호 보완성 덕분에 최신 네트워크는 애플
 
 
 
-![Image](assets/fr/024.webp)
+![Image](assets/ko/019.webp)
 
 
 
@@ -836,7 +836,7 @@ TCP와 UDP의 이러한 상호 보완성 덕분에 최신 네트워크는 애플
 
 
 
-![Image](assets/fr/026.webp)
+![Image](assets/ko/020.webp)
 
 
 
@@ -896,7 +896,7 @@ IP 주소는 크게 두 가지 방법으로 할당할 수 있습니다:
 
 
 
-![Image](assets/fr/027.webp)
+![Image](assets/ko/021.webp)
 
 
 
@@ -1183,7 +1183,7 @@ MAC Address과 IP Address은 완전히 다른 식별자이지만 서로 밀접�
 - MAC Address의 시각적 예시:
 
 
-![Image](assets/fr/032.webp)
+![Image](assets/ko/022.webp)
 
 
 
@@ -1191,7 +1191,7 @@ MAC Address과 IP Address은 완전히 다른 식별자이지만 서로 밀접�
 - IP Address의 시각적 예시:
 
 
-![Image](assets/fr/027.webp)
+![Image](assets/ko/023.webp)
 
 
 
@@ -1258,7 +1258,7 @@ NAT는 IPv4 부족 문제를 해결하는 것 외에도 내부 네트워크와 �
 
 
 
-![Image](assets/fr/035.webp)
+![Image](assets/ko/024.webp)
 
 
 
@@ -1331,7 +1331,7 @@ NAT는 대부분의 일반적인 용도(웹 브라우징, 이메일, 파일 전�
 
 
 
-![Image](assets/fr/037.webp)
+![Image](assets/ko/025.webp)
 
 
 
@@ -1500,7 +1500,7 @@ ONBOOT=yes
 
 
 
-![Image](assets/fr/039.webp)
+![Image](assets/ko/026.webp)
 
 
 
@@ -1954,7 +1954,7 @@ IPv4와 달리 _브로드캐스트_ 개념이 없으며, 호스트 부분의 "�
 다음은 MAC Address을 EUI-64로 변환하는 방법의 예입니다:
 
 
-![Image](assets/fr/045.webp)
+![Image](assets/ko/027.webp)
 
 
 
@@ -2092,7 +2092,7 @@ IPv6 패킷 형식은 더 간단하고 확장성이 뛰어나다는 점에서 IP
 이 헤더가 있는 경우 항상 기본 헤더 바로 뒤에 배치됩니다. 일반적으로 대상 노드에서만 처리되는 대부분의 다른 헤더와 달리 패킷 경로를 따라 모든 라우터에서 처리해야 하는 정보가 포함되어 있습니다. 일반적인 용도로는 패킷이 네트워크를 통과할 때 글로벌 파라미터에 신호를 보내거나 특정 처리 단계를 요청하는 것이 있습니다.
 
 
-![Image](assets/fr/047.webp)
+![Image](assets/ko/028.webp)
 
 
 #### 라우팅 헤더
@@ -2117,7 +2117,7 @@ IPv6 패킷 형식은 더 간단하고 확장성이 뛰어나다는 점에서 IP
 '남은 세그먼트 수' 필드는 남은 세그먼트의 총 수로 시작하여 각 홉마다 하나씩 줄어듭니다.
 
 
-![Image](assets/fr/048.webp)
+![Image](assets/ko/029.webp)
 
 
 #### 조각화 헤더
@@ -2134,7 +2134,7 @@ IPv6 패킷 형식은 더 간단하고 확장성이 뛰어나다는 점에서 IP
 - **M 플래그**: 더 많은 조각이 뒤따르는지 여부를 나타냅니다.
 
 
-![Image](assets/fr/049.webp)
+![Image](assets/ko/030.webp)
 
 
 #### 인증 헤더(AH)
@@ -2146,7 +2146,7 @@ IPv6 패킷 형식은 더 간단하고 확장성이 뛰어나다는 점에서 IP
 부정 수정 시도가 발생하면 인증 코드가 더 이상 일치하지 않으며 데이터그램이 거부될 수 있습니다. 이 메커니즘은 또한 무단 복제를 감지하여 리플레이 공격으로부터 보호합니다.
 
 
-![Image](assets/fr/050.webp)
+![Image](assets/ko/031.webp)
 
 
 #### 대상 옵션 헤더
@@ -2158,7 +2158,7 @@ IPv6 패킷 형식은 더 간단하고 확장성이 뛰어나다는 점에서 IP
 처음에는 프로토콜에 이러한 옵션이 정의되어 있지 않았습니다. 그러나 이 헤더는 전체 패킷 구조를 수정하지 않고도 향후 확장을 추가할 수 있도록 IPv6가 설계될 때 도입되었습니다. 예를 들어 null 옵션은 메모리 정렬을 위해 헤더를 8바이트의 배수까지만 패딩하는 데 사용됩니다.
 
 
-![Image](assets/fr/051.webp)
+![Image](assets/ko/032.webp)
 
 
 IPv6 패킷 설계는 최소한의 기본 헤더와 모듈식 확장 헤더를 명확하게 분리하여 구축되었습니다. 이 아키텍처는 표준 처리 성능과 프로토콜을 발전시키고 보안, 복잡한 라우팅 또는 서비스 품질 메커니즘을 통합하는 데 필요한 유연성을 모두 보장하는 동시에 향후 인프라와의 호환성을 유지합니다.
@@ -2504,7 +2504,7 @@ Wireshark는 Linux 및 Windows를 포함한 많은 운영 체제에서 사용할
 
 
 
-![Image](assets/fr/052.webp)
+![Image](assets/ko/033.webp)
 
 
 
@@ -2555,7 +2555,7 @@ ethtool enp0s3
 
 
 
-![Image](assets/fr/053.webp)
+![Image](assets/ko/034.webp)
 
 
 
@@ -3107,7 +3107,7 @@ nmap 192.168.0.0/24
 
 
 
-![Image](assets/fr/055.webp)
+![Image](assets/ko/035.webp)
 
 
 

@@ -96,7 +96,7 @@ Kada finansijska institucija poseduje bankarsku licencu, to u suštini znači da
 Po kupovini kuće, vi dajete instrukcije svom bankaru da prebaci novac na račun prodavca. Ako je račun prodavca u drugoj banci, vaš bankar obaveštava odgovarajućeg bankara u drugoj instituciji kako bi se osiguralo da je račun prodavca pravilno kreditiran, dok se vaš račun zadužuje za odgovarajući iznos.
 
 
-![image](assets/en/01.webp)
+![image](assets/sr-Latn/001.webp)
 
 
 Slika 1: Kreiranje novca kao knjigovodstvenog unosa
@@ -123,7 +123,7 @@ Ova dilema dovela je do nastanka modernih centralnih banaka. U 19. veku u Engles
 Pored održavanja finansijske stabilnosti, centralne banke su odgovorne za postavljanje ključnih kamatnih stopa. Ove stope određuju cenu po kojoj licencirane banke mogu pozajmljivati sredstva od centralne banke, suštinski definišući cenu likvidnosti za finansijske institucije koje igraju ključnu ulogu u kreditiranju u našim ekonomijama. Dakle, ove stope služe kao referentna tačka za ceo finansijski sistem. Kao pojedinac, kamatne stope koje plaćate na svoju hipoteku mogu se razložiti na referentnu kamatnustopu i maržu banke.
 
 
-![image](assets/en/02.webp)
+![image](assets/sr-Latn/002.webp)
 
 
 Slika 2: Bankrotstvo Lehman Brothers (15/09/2008)
@@ -135,7 +135,7 @@ Tokom velike finansijske krize 2008. godine, Lehman Brothers, velika investicion
 Iako su ove mere sprečile talas bankrota, malo su učinile da ublaže kasniji ekonomski pad. Milioni su izgubili poslove i domove, potrošnja potrošača je naglo opala, preduzeća su propala, a banke su pretrpele značajne gubitke. Uprkos istorijski niskim kamatnim stopama, malo ko je bio spreman da pozajmljuje, što je rezultiralo začaranim krugom gde se početno smanjenje potrošnje i investicija samo pojačavalo. Kao posledica toga, centralni bankari su preduzeli dodatne korake implementacijom programa Kvantitativnog Popuštanja (QE-Quantitative Easing). Ovi programi su uključivali kupovinu državnih obveznica i hipotekarnih hartija od vrednosti od strane komercijalnih banaka sa rezervama centralne banke.
 
 
-![image](assets/en/03.webp)
+![image](assets/sr-Latn/003.webp)
 
 
 Slika3 : Kamatne stope u glavnim ekonomijama / Izvor: ECB
@@ -150,7 +150,7 @@ Suprotno mnogim očekivanjima, QE programi nisu značajno oživeli ekonomski ras
 Ipak, iz ovog događaja se može izvući jedan važan ekonomski princip: kada se stvara novi novac, on u početku koristi onima koji su najbliži izvoru novca, na štetu onih koji su dalje. Ovaj ekonomski uvid datira iz 18. veka kada ga je Ričard Kantilon izložio u svom "Eseju o prirodi trgovine uopšte." Sada se kolokvijalno naziva "Kantilonov efekat".
 
 
-![image](assets/en/04.webp)
+![image](assets/sr-Latn/004.webp)
 
 
 Slika4: Kantilonov Efekat u Kratkim Crtama / Izvor: River Financial
@@ -162,7 +162,7 @@ U ovom slučaju, bankari, rukovodioci banaka, vlasnici akcija i obveznica, razvi
 U suštini, sistem je iskrivljen. Banke su inherentno nestabilne, ali njihov neuspeh može ugroziti celu ekonomiju. Ovaj moralni hazard podstiče izvršne direktore banaka da preuzimaju prekomerne rizike kako bi maksimizirali prihod svoje banke, znajući da će ih centralna banka na kraju spasiti, prebacujući trošak na poreske obveznike. U takvim scenarijima, centralni bankari stvaraju uslove za masivan transfer kupovne moći od vrednih pojedinaca i štediša ka vlasnicima imovine i onima povezanim sa finansijskim sistemom, čime se proces stvaranja bogatstva odvaja od akumulacije bogatstva.
 
 
-![image](assets/en/05.webp)
+![image](assets/sr-Latn/005.webp)
 
 
 Slika 5: Distribucija bogatstva u Kini + Evropi + SAD / Izvor: OECD
@@ -177,7 +177,7 @@ Tokom produženih perioda politike nulte kamatne stope (ZIRP-Zero Interest Rate 
 Još jedna nenamerna posledica ZIRP-a je da podstiče vlade da se upuste u obimno trošenje. Pošto vlade nemaju troškove zaduživanja i mogu se osloniti na centralne banke da otkupe njihove obveznice kroz QE programe, imaju prirodni podsticaj da troše što je više moguće, posebno u demokratskim kontekstima gde trošenje može doneti glasove. Ova tendencija često zanemaruje dugoročne posledice takve fiskalne rasipnosti, što dovodi do značajnog povećanja nivoa javnog duga u razvijenim ekonomijama od Globalne finansijske krize (GFC-Global Financial Crisis).
 
 
-![image](assets/en/06.webp)
+![image](assets/sr-Latn/006.webp)
 
 
 Slika 6: Javni i privatni dug kao % BDP-a (Svet, ponderisano prema BDP-u po zemlji) / Izvor MMF
@@ -234,7 +234,7 @@ Takva pitanja su zaokupljala ekonomiste i filozofe vekovima i dobila su brojne r
 Nakon što je teorija fiziokrata o vrednosti zemlje, koja je tvrdila da sva vrednost dolazi od zemlje, bila opovrgnuta teorijom vrednosti rada klasičnih ekonomista, koja je postavljala da vrednost dobra potiče od količine rada uloženog u njegovu proizvodnju, došao je red na marginalnu teoriju vrednosti da zameni poslednju. U 1870-im, nakon Marksa, poslednjeg od klasičnih ekonomista, tri nove škole ekonomske misli pojavile su se gotovo istovremeno oko marginalne teorije vrednosti: Lozanska škola sa Léonom Walrasom, moderna ili neoklasična škola sa Williamom Stanleyjem Jevonsom, i Austrijska škola sa Carlom Mengerom. Ova revolucija u teoriji vrednosti predstavljala je značajnu obnovu ekonomske misli.
 
 
-![image](assets/en/07.webp)
+![image](assets/sr-Latn/007.webp)
 
 
 Sleva na desno: William Stanley Jevons, Carl Menger, Léon Walras
@@ -249,7 +249,7 @@ Uobičajeno je predstaviti marginalizam ovih triju škola kao sličan. Zaista, W
 ### Subjektivna Vrednost
 
 
-![image](assets/en/08.webp)
+![image](assets/sr-Latn/008.webp)
 
 
 Austrijski ekonomista opovrgava shvatanje sledbenika Adama Smita i napušta ideju da vrednost dobra dolazi iz količine rada utrošenog u njegovu proizvodnju, u korist shvatanja da njegovu vrednost određuje pojedinac, koji u svakom kontekstu vrši mentalni čin vrednovanja u vezi sa određenom količinom dobra ili usluge. Ovaj intelektualni skok koji je napravio Menger osporava objektivnost vrednosti: za njega, vrednost nije objektivno svojstvo dobara; ona je samo rezultat odnosa koji pojedinac ima prema toj stvari: "vrednost ne postoji izvan ljudske svesti."
@@ -285,7 +285,7 @@ Ova subjektivna koncepcija vrednosti, shvaćena kao psihološki odnos koji pojed
 ### Podela rada
 
 
-![image](assets/en/09.webp)
+![image](assets/sr-Latn/009.webp)
 
 
 Poseta fabrici eksera, Léonard Defrance (18. vek)
@@ -380,7 +380,7 @@ Ova igra ilustruje problem koji se često sreće u stvarnom životu: u odsustvu 
 ### Novac za rešavanje problema koordinacije
 
 
-![image](assets/en/10.webp)
+![image](assets/sr-Latn/010.webp)
 
 
 Ovaj problem ima manji uticaj u malim zajednicama (npr. porodica, krug prijatelja) jer, u takvim slučajevima, svi se međusobno poznaju direktno, što omogućava da se zapamte doprinosi svakog pojedinca. Pod pretpostavkom da napuštanje zajednice (dezertiranje) nosi određeni trošak, sistem reputacije zasnovan na memoriji pojedinačnih agenata obično je dovoljan da se izbegnu zamke koje postavlja dilema zatvorenika.
@@ -410,7 +410,7 @@ U predcivilizacijskim vremenima, ove tehnologije nisu postojale. Tako su naši p
 ### Dvostruka podudarnost želja i mogućnosti prodaje
 
 
-![image](assets/en/11.webp)
+![image](assets/sr-Latn/011.webp)
 
 
 Novac se može smatrati rešenjem koje su naši preci otkrili kako bi rešili problem koji ekonomisti nazivaju "dvostruka podudarnost želja". Ovaj problem ima tri dimenzije: prostornu, vremensku i međuljudsku.
@@ -479,7 +479,7 @@ Ova subjektivna procena vrednosti budućih dobara u poređenju sa sadašnjim dob
 Ovaj koncept relativne vrednosti budućih dobara u odnosu na sadašnja dobra je u osnovi fenomena kamate. Zaista, u ekonomiji sa nemanipulisanim tržištima kapitala, referentne kamatne stope (koje se smatraju bez rizika od neizvršenja obaveza) određuju se na preseku ponude i potražnje kapitala. Stoga, ove stope predstavljaju stanje vremenskih preferencija za celu ekonomiju: povećanje kamatne stope rezultat je relativnog povećanja potražnje za kapitalom u poređenju sa ponudom, što ukazuje na veće vremenske preferencije. Suprotno tome, smanjenje kamatnih stopa nastaje zbog povećanja štednje, što je povećanje ponude kapitala, što ukazuje na smanjenje vremenskih preferencija.
 
 
-![image](assets/en/12.webp)
+![image](assets/sr-Latn/012.webp)
 
 
 U ekonomiji gde centralna banka ne manipuliše kamatnim stopama, obično posmatramo krivu prinosa koja raste: što je duži rok dospeća duga, to je viša kamatna stopa. Suprotna situacija ne može da se dogodi jer bi to značilo da je budućnost izvesnija od sadašnjosti, što je logički nemoguće.
@@ -491,7 +491,7 @@ Koncept vremenske preferencije i način na koji izražavamo sopstvenu vremensku 
 ### Teorija kapitala
 
 
-![image](assets/en/13.webp)
+![image](assets/sr-Latn/013.webp)
 
 
 Na početku ovog kursa, videli smo da su, za Karla Mengera, dobra smatrana ekonomskim dobrima (vrednovana) samo zato što služe kao sredstva za ciljeve koje pojedinci biraju i vrednuju. Prema ovom gledištu, cela ekonomska analiza se vrti oko potrošnje jer je ona u krajnjoj liniji motivacioni cilj iza sve ekonomske aktivnosti. Dakle, za Mengera, početna tačka ekonomske analize su potrošačka dobra, ili finalna dobra, jer predstavljaju krajnji cilj ekonomske aktivnosti. Sva ostala dobra u ekonomiji, koja možemo nazvati "srednja dobra," imaju vrednost samo zato što omogućavaju pojedincima da dobiju ova potrošačka dobra: to su dobra koja se koriste u proizvodnji drugih dobara.
@@ -515,7 +515,7 @@ Zbog sekvencijalne prirode ljudskih akcija, ovi međuvremenski izbori uvek imaju
 Da bismo ilustrovali ovu tačku, hajde da se vratimo na primer koji je dao Böhm-Bawerk, u svom delu "Kapital i kamata":
 
 
-![image](assets/en/14.webp)
+![image](assets/sr-Latn/014.webp)
 
 
 Eugen von Böhm-Bawerk (1851-1914)
@@ -524,7 +524,7 @@ Eugen von Böhm-Bawerk (1851-1914)
 ### Robinson Crusoe i obilazni put proizvodnje:
 
 
-![image](assets/en/15.webp)
+![image](assets/sr-Latn/015.webp)
 
 
 Robinson Crusoe iskrcava zalihe sa olupine, John Alexander Gilfillan (1793-1864)
@@ -560,7 +560,7 @@ Sada, kao što je nagovešteno u prvom poglavlju, centralne banke manipulišu ka
 Ovo je savršeno ilustrovano grafikonom ispod: dugoročne stope su niže od kratkoročnih. Prvo, ovo apsolutno nema smisla, jer bi to značilo da je budućnost sigurnija od sadašnjosti. Drugo, to zahteva istragu o posledicama za alokaciju kapitala: ako su svi podstaknuti da se ponašaju kao da je štednja obilna, dok štediša nema jer nisu nagrađeni za štednju, kakve posledice bi to moglo imati za ekonomiju?
 
 
-![image](assets/en/16.webp)
+![image](assets/sr-Latn/016.webp)
 
 
 Ovo ćemo saznati u sledećem poglavlju posvećenom Austrijskoj teoriji poslovnog ciklusa!
@@ -605,7 +605,7 @@ Da bismo što jasnije opisali ovaj fenomen vremenske nekoordinacije i njegove po
 Da bismo olakšali naše objašnjenje, vratićemo se Mengerovoj klasifikaciji dobara i predstaviti proizvodnu strukturu na dijagramu koji se sastoji od proizvoljnog broja faza:
 
 
-![image](assets/en/17.webp)
+![image](assets/sr-Latn/017.webp)
 
 
 Na gornjem dijagramu, početni resursi prolaze kroz različite faze proizvodnje, prolazeći transformacije koje ih približavaju stanju finalnih potrošačkih dobara (kroz interakciju sa originalnim faktorima proizvodnje: vreme, zemlja, rad). Visina desne strane trougla shematski predstavlja BDP jer označava zbir svih potrošačkih dobara prodatih u jednom periodu. Razmak između svake trake odgovara dodatoj vrednosti (u monetarnim terminima) generisanoj svakom fazom procesa. Ova razlika se takođe može posmatrati kao prihod povezan sa svakom fazom (prihodi - troškovi).
@@ -617,7 +617,7 @@ Ako, na agregatnom nivou, ekonomski agenti povećaju svoju štednju, količina k
 Zatim ćemo dobiti proširenu proizvodnu strukturu, promenu koja se može kvalitativno predstaviti sledećim dijagramom:
 
 
-![image](assets/en/18.webp)
+![image](assets/sr-Latn/018.webp)
 
 
 Ovde je monetarna vrednost tražene robe široke potrošnje opala, oslobađajući resurse za stvaranje dodatne faze proizvodnje. U ovom scenariju gde je smanjenje kamatnih stopa posledica smanjenja potrošnje, tj. povećane štednje, površina trougla, koja predstavlja količinu novca u opticaju, ostaje nepromenjena. Transformacija strukture proizvodnje (produžavanje) jednostavno je rezultat prenosa kupovne moći iz jednog dela strukture u drugi.
@@ -641,7 +641,7 @@ Sa nižim kamatnim stopama, preduzetnici mogu pozajmiti više resursa i tako stv
 Imajte na umu da je ovo potpuno logična posledica kreditne ekspanzije. U meri u kojoj banke proizvode fiducijarna sredstva odobravanjem kredita, prirodno bi trebalo očekivati povećanje ukupne kupovne moći.
 
 
-![image](assets/en/19.webp)
+![image](assets/sr-Latn/019.webp)
 
 
 Kako kredit ulazi u ekonomiju kroz zajmove preduzetnicima, trebalo bi da primetimo povećanje profita u proizvodnim sektorima udaljenim od potrošnje, i smanjenje relativnih profita u sektorima bližim potrošnji. Ova veća profitabilnost zatim podržava realokaciju kapitala ka ovim novim, kapitalno intenzivnijim fazama (brodogradnja, automobilska industrija, građevinarstvo, napredne tehnologije, itd.), i smanjenje investicija u sektorima bližim potrošnji.
@@ -665,7 +665,7 @@ TTakvo prilagođavanje se može posmatrati kao period tokom kojeg se nameću ned
 Nažalost, ovaj depresivni mehanizam često prekidaju politička moć i centralne banke koje nastoje da “podstaknu” ekonomiju kroz deficitarnu potrošnju i laku monetarnu politiku.
 
 
-![image](assets/en/20.webp)
+![image](assets/sr-Latn/020.webp)
 
 
 I za monetariste i za kejnzijance, uzrok depresije je nedovoljna agregatna tražnja, pa ni jedni ni drugi ne obraćaju pažnju na evoluciju relativnih cena, što je, kao što smo videli, srž problema. Stoga veruju da će podsticanje kreditne ekspanzije (snižavanjem kamatnih stopa) i korišćenje kapaciteta državnog deficita za povećanje tražnje pokrenuti oporavak. Na kratke staze, takve mere mogu izgledati kao da proizvode željene efekte: deficit podržava potrošnju, dok smanjenje kamatnih stopa dovodi do viših cena imovine, što zauzvrat podstiče vlasnike imovine da povećaju svoju potrošnju. Međutim, takav podsticaj na kraju slabi, dok strukturni problem ostaje, ili se čak pogoršava jer se pogrešna alokacija kapitala nastavlja zahvaljujući veštački niskim kamatnim stopama.
@@ -724,7 +724,7 @@ Svojim člankom, Mises je uveo novu dimenziju u debatu. Ostavivši po strani uto
 ### Objašnjenje nemogućnosti ekonomske kalkulacije
 
 
-![image](assets/en/21.webp)
+![image](assets/sr-Latn/021.webp)
 
 
 Većina zabluda o Mises-ovim argumentima proizlazi iz pogrešnog shvatanja uloga koje igraju menadžerske i preduzetničke klase u kapitalističkoj ekonomiji. Mises nikada nije odbacio sposobnost menadžera da osmisle efikasne planove proizvodnje unutar svojih operacija. Umesto toga, naglašavao je značaj preduzetnika i akcionara, koji, kao vlasnici sredstava za proizvodnju, raspoređuju kapital kroz različite industrije, čime formiraju cene koje služe kao ulazi u ekonomske kalkulacije menadžera.
@@ -751,7 +751,7 @@ Ovaj proces je ključan jer potvrđuje ili opovrgava efikasnost različitih akti
 Iz ove perspektive, centralno planirana ekonomija će neizbežno iskusiti pogrešnu alokaciju kapitala. U kratkom do srednjem roku, takve pogrešne alokacije mogu proći neprimećeno jer ne postoje tržišne cene ili bankroti koji bi ih otkrili. Međutim, zbog odsustva povratnih informacija (cena) i mehanizama preraspodele (bankrota), greške će se akumulirati dok rasipništvo ne postane očigledno kroz značajan pad životnog standarda.
 
 
-![image](assets/en/22.webp)
+![image](assets/sr-Latn/022.webp)
 
 
 ### Austrijska perspektiva i neuspesi drugih ekonomskih škola 
@@ -766,7 +766,7 @@ Uprkos ovom impresivnom predviđanju i brojnim empirijskim demonstracijama nemog
 ### Austrijska teorija privrednog ciklusa kao specifičan slučaj nemogućnosti ekonomskog obračuna pod socijalizmom
 
 
-![image](assets/en/23.webp)
+![image](assets/sr-Latn/023.webp)
 
 
 U prethodnom poglavlju, objasnili smo dinamiku prekomernog ulaganja i pogrešne alokacije kapitala koja proizlazi iz manipulacije kamatnim stopama od strane centralnih banaka. U suštini, ono što smo objasnili može se posmatrati kao specifičan slučaj nemogućnosti ekonomske kalkulacije pod socijalizmom, primenjen na tržište novca. Kada su cene fiksirane izvan njihovih tržišnih vrednosti, preduzetnici i alokatori kapitala su podstaknuti da se upuste u investicije koje ne mogu biti održive na duži rok zbog nedostatka štednje. Mešanjem u sistem cena, centralni planeri (u ovom slučaju, centralni bankari) stvaraju nekoordinaciju između ekonomskih agenata. U ovom slučaju, međuvremenska nekoordinacija podrazumeva prekomerno ulaganje u investiciona dobra višeg reda i nedovoljno ulaganje u investiciona dobra nižeg reda, što predstavlja specifičnu manifestaciju pogrešne alokacije kapitala kroz industrije.

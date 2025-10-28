@@ -21,7 +21,7 @@ Có lẽ bạn đã quen thuộc với câu châm ngôn "Not your key, not your 
 
 
 
-BTC 202 là một khóa học dễ tiếp cận, được thiết kế để hướng dẫn bạn cách tự làm nút thắt Bitcoin, ngay cả khi bạn không phải là chuyên gia kỹ thuật. Chúng ta sẽ bắt đầu bằng cách định nghĩa nút thắt Bitcoin là gì, công dụng của nó, và tại sao việc tự làm một nút thắt Bitcoin lại vô cùng cần thiết. Sau đó, tôi sẽ hướng dẫn bạn từng bước lựa chọn phần cứng, cài đặt phần mềm cần thiết, kết nối Wallet và thực hiện những tối ưu hóa đầu tiên để nâng cao hơn nữa.
+BTC 202 là một khóa học dễ tiếp cận được thiết kế để dạy bạn cách vận hành nút Bitcoin của riêng mình, ngay cả khi bạn không phải là chuyên gia kỹ thuật. Chúng ta sẽ bắt đầu bằng cách định nghĩa nút Bitcoin là gì, nó có chức năng gì và tại sao việc tự mình vận hành nó lại vô cùng quan trọng. Sau đó, tôi sẽ hướng dẫn bạn từng bước trong việc chọn phần cứng, cài đặt phần mềm cần thiết, kết nối phần mềm ví và thực hiện những tối ưu hóa ban đầu để tiến xa hơn.
 
 
 
@@ -410,7 +410,7 @@ Nói cách khác, khoảng 9/10 nút công khai đang chạy Bitcoin core. Phầ
 
 
 
-Bitcoin core được viết bằng C++. Đây cũng là một dự án nguồn mở được duy trì bởi một cộng đồng các nhà phát triển tình nguyện hoặc được trả lương bởi nhiều tổ chức khác nhau (thường là các công ty trong hệ sinh thái có lợi ích liên quan đến việc phát triển Core). [Mã được lưu trữ trên GitHub](https://github.com/Bitcoin/Bitcoin), và quá trình phát triển tuân theo một quy trình nghiêm ngặt:
+Bitcoin Core là phần mềm được viết bằng C++. Đây cũng là một dự án mã nguồn mở được duy trì bởi cộng đồng các nhà phát triển — tình nguyện viên hoặc được tài trợ bởi các tổ chức khác nhau (thường là các công ty trong hệ sinh thái có lợi ích trong việc phát triển Core một cách thuận lợi). [Mã nguồn được lưu trữ trên GitHub](https://github.com/bitcoin/bitcoin), và quá trình phát triển tuân theo một mô hình nghiêm ngặt:
 
 
 
@@ -448,7 +448,7 @@ Chúng ta cũng có thể đề cập đến:
 
 - Libbitcoin**: một thư viện C++ dạng mô-đun được phát triển bởi Amir Taaki và được bảo trì bởi Eric Voskuil;
 - Bcoin**: một triển khai JavaScript, hiện không còn được duy trì tích cực;
-- BTCD/btcsuit**e: một triển khai trong Go.
+- **BTCD/btcsuite** : một bản triển khai bằng Go.
 
 
 
@@ -481,7 +481,7 @@ Như chúng ta sẽ thảo luận sau trong khóa học này, chính các nút, 
 
 
 
-## Tại sao phải tự vặn nút thắt của mình?
+## Tại sao nên vận hành nút của riêng bạn?
 
 
 <chapterId>39c0cd19-67f9-4c64-bfb3-dbd6eec0bf42</chapterId>
@@ -492,7 +492,7 @@ Có một niềm tin rộng rãi rằng việc vận hành một nút Bitcoin l�
 
 
 
-Thật vậy, như chúng tôi đã chỉ ra trong các chương trước, việc dệt nút không mang lại lợi ích tài chính trực tiếp nào. Do đó, người ta có thể nghĩ rằng việc này không liên quan gì đến lợi ích cá nhân. Tuy nhiên, việc vận hành nút riêng mang lại nhiều lợi ích cá nhân. Để thuyết phục bạn về điều này, trong chương này, tôi sẽ trình bày tất cả các lý do, cả về mặt kỹ thuật lẫn chiến lược, tại sao bạn nên cài đặt và sử dụng nút Bitcoin của riêng mình.
+Như chúng ta đã nhấn mạnh trong các chương trước, việc vận hành một nút không mang lại lợi ích tài chính trực tiếp. Do đó, có thể nghĩ rằng không có lợi ích cá nhân nào khi làm như vậy. Tuy nhiên, việc vận hành nút của riêng mình mang lại nhiều lợi ích cá nhân. Để thuyết phục bạn, trong chương này tôi sẽ trình bày tất cả các lý do, cả kỹ thuật lẫn chiến lược, nên khuyến khích bạn cài đặt và sử dụng nút Bitcoin của riêng mình.
 
 
 
@@ -576,7 +576,7 @@ Việc cài đặt Full node không phải là một thao tác đơn giản. Nó
 
 
 
-Việc có được kiến thức này sẽ củng cố niềm tin của bạn vào công cụ và có thể giảm thiểu nguy cơ mắc lỗi hoặc bị lừa đảo. Tự mình thắt nút cũng là một hình thức học tập.
+Việc có được kiến thức này giúp củng cố niềm tin của bạn vào công cụ và có thể giảm nguy cơ mắc lỗi hoặc bị lừa đảo. Vận hành nút của riêng mình cũng là một quá trình học hỏi.
 
 
 
@@ -692,7 +692,7 @@ Vậy nên, điều quan trọng không phải là số lượng nút, mà là t
 
 
 
-> Không phải nút thắt của bạn, không phải quy tắc của bạn.
+> Không phải nút của bạn, không phải quy tắc của bạn.
 
 
 ## Các loại nút Bitcoin khác nhau
@@ -706,7 +706,7 @@ Do đó, một nút Bitcoin là một máy chạy một phiên bản triển kha
 
 
 
-### Nút thắt hoàn chỉnh
+### Nút đầy đủ
 
 
 
@@ -730,7 +730,7 @@ Tùy thuộc vào nhu cầu, bạn có thể thêm một bộ lập chỉ mục 
 
 
 
-### Nút thắt pruned
+### Nút được cắt tỉa
 
 
 
@@ -754,7 +754,7 @@ Tóm lại, việc theo dõi Wallet hoạt động trơn tru trên một nút pr
 
 
 
-### Nút thắt nhẹ / SPV
+### Nút nhẹ / SPV
 
 
 
@@ -849,7 +849,7 @@ Cài đặt một triển khai thô nghĩa là sử dụng trực tiếp phần 
 
 
 
-#### Bitcoin core (khách hàng cực kỳ đa số)
+#### Bitcoin Core (khách hàng chiếm đa số tuyệt đối)
 
 
 
@@ -2590,7 +2590,7 @@ Các ứng dụng khách Nostr ***noStrudel*** hoặc ***Snort*** cũng có sẵ
 
 
 
-Cuối cùng, còn có ứng dụng ***Nostr Wallet Connect*** trên Umbrel, cho phép thanh toán Lightning gốc trong Nostr. Cụ thể, bạn có thể liên kết nút Lightning tương lai của mình với khách hàng Nostr để gửi các khoản thanh toán nhỏ, được gọi là "*zaps*", để thưởng cho nội dung hoặc tương tác theo hình thức kiếm tiền, mà không cần thông qua dịch vụ của bên thứ ba. Các khoản thanh toán này được gửi trực tiếp từ nút cá nhân của bạn thông qua các kênh của bạn.
+Cuối cùng, có ứng dụng ***Nostr Wallet Connect*** trên Umbrel, cho phép thực hiện các khoản thanh toán Lightning gốc trong Nostr. Cụ thể, bạn có thể liên kết nút Lightning trong tương lai của mình với các ứng dụng khách Nostr để gửi các khoản thanh toán nhỏ, gọi là “*zaps*”, nhằm thưởng cho nội dung hoặc tương tác theo cách kiếm tiền, mà không cần qua dịch vụ bên thứ ba. Các khoản thanh toán này được gửi trực tiếp từ nút cá nhân của bạn qua các kênh của bạn.
 
 
 
@@ -2652,7 +2652,7 @@ https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-82
 
 
 
-## Duy trì nút thắt ô của bạn
+## Bảo trì nút Umbrel của bạn
 
 
 <chapterId>06d77d09-bf24-4555-b2ba-c08bbda477c7</chapterId>
@@ -2929,7 +2929,7 @@ Nếu nút của bạn đang lắng nghe trên một cổng mở (mặc định 
 
 
 
-## Cấu tạo nút thắt Bitcoin của bạn
+## Cấu trúc của nút Bitcoin của bạn
 
 
 <chapterId>b420bd9d-7e2a-4984-bc70-2b732a94c8ce</chapterId>
@@ -2941,7 +2941,7 @@ Khi nút của bạn hoàn tất quá trình đồng bộ hóa ban đầu, nó s
 
 
 
-- gW-402 **khối** được lưu trữ trên đĩa,
+- các **khối** của blockchain được lưu trữ trên đĩa,
 - bộ **UTXO** được duy trì trong cơ sở dữ liệu khóa-giá trị,
 - và **Mempool** được lưu trữ trong RAM và được tuần tự hóa theo định kỳ.
 
@@ -3093,7 +3093,7 @@ Mempool là tập hợp cục bộ các giao dịch hợp lệ đã được nh�
 
 
 - kích thước được phân bổ cho Mempool thông qua tham số `maxmempool`: một nút có Mempool lớn hơn sẽ có thể chứa nhiều giao dịch hơn một nút có Mempool nhỏ hơn (trừ khi nút sau bị trống);
-- Quy tắc gW-433: đây là một tập hợp con các quy tắc chuyển tiếp của nút và xác định các đặc điểm mà một giao dịch chưa xác nhận phải đáp ứng để được chấp nhận trong Mempool;
+- các quy tắc của mempool: chúng tạo thành một tập hợp con của các quy tắc chuyển tiếp của nút và xác định các đặc điểm mà một giao dịch chưa được xác nhận phải đáp ứng để được chấp nhận vào mempool;
 - sự thẩm thấu giao dịch: do nhiều yếu tố khác nhau, một giao dịch nhất định có thể đã được phân phối đến một phần của mạng nhưng chưa đến được phần khác.
 
 
@@ -3135,10 +3135,10 @@ Một số tệp khác ở cùng cấp độ như `blocks/`, `chainstate/` và `
 - Khi nút bị tắt, `anchors.dat` sẽ lưu địa chỉ của các đối tác gửi đi để bạn có thể thử liên hệ lại với họ một cách nhanh chóng vào lần khởi động tiếp theo.
 - `banlist.json` chứa các lệnh cấm cục bộ do người vận hành hoặc nút quyết định (hành vi không hợp lệ lặp lại) nhằm ngăn nút kết nối lại hoặc chấp nhận kết nối từ các đối tác cụ thể này.
 - `fee_estimates.dat` lưu trữ số liệu thống kê về mốc thời gian đối với các xác nhận được quan sát, được bộ ước tính phí sử dụng để đề xuất mức phí phù hợp với mục tiêu độ trễ đã chọn khi tạo giao dịch.
-- gW-446.conf` chứa các tham số cấu hình của nút. Đây là nơi bạn có thể điều chỉnh các quy tắc chuyển tiếp. Tôi sẽ nói thêm về điều này trong chương tiếp theo.
+- `bitcoin.conf` chứa các tham số cấu hình của nút của bạn. Chính trong tệp này, các quy tắc chuyển tiếp có thể được điều chỉnh. Tôi sẽ trình bày chi tiết hơn trong chương tiếp theo;
 - `settings.json` chứa các tham số bổ sung cho `Bitcoin.conf`.
 - `debug.log` là nhật ký văn bản chẩn đoán, có thể được sử dụng để hiểu hoạt động của nút trong trường hợp xảy ra lỗi.
-- gW-448.pid` lưu trữ mã định danh quy trình khi chạy, cho phép các ứng dụng hoặc tập lệnh khác dễ dàng nhận dạng bitcoind (*Bitcoin daemon*) và tương tác với nó nếu cần. Mã này được tạo khi khởi động nút và bị xóa khi tắt máy.
+- `bitcoind.pid` ghi lại mã định danh tiến trình trong quá trình thực thi, cho phép các ứng dụng hoặc tập lệnh khác dễ dàng xác định Bitcoind (*Bitcoin Daemon*) và tương tác với nó khi cần thiết. Nó được tạo khi nút khởi động và bị xóa khi tắt;
 - `ip_asn.map` là bảng ánh xạ IP → ASN (hệ thống độc lập) được sử dụng để phân nhóm và đa dạng hóa ngang hàng (tùy chọn `-asmap`).
 - `onion_v3_private_key` lưu trữ khóa riêng của dịch vụ Tor v3 khi tùy chọn `-listenonion` được bật, nhằm duy trì onion Address ổn định giữa các lần khởi động lại.
 - `i2p_private_key` lưu trữ khóa riêng tư I2P khi `-i2psam=` được sử dụng để tạo kết nối đi và có thể là kết nối đến trên I2P.
@@ -3154,9 +3154,9 @@ Như chúng ta đã thấy trong các phần đầu của khóa học BTC 202 n�
 
 
 
-- `wallets/` là thư mục mặc định lưu trữ một hoặc nhiều;
+- `wallets/` là thư mục mặc định lưu trữ một hoặc nhiều ví;
 - `wallets/<name>/Wallet.dat` là cơ sở dữ liệu SQLite của Wallet (khóa, mô tả, siêu dữ liệu giao dịch, v.v.);
-- wallets/<name>/Wallet.dat-journal` là nhật ký khôi phục SQLite.
+- `wallets/<name>/wallet.dat-journal` là nhật ký hoàn tác của SQLite.
 
 
 
@@ -3335,10 +3335,10 @@ Nếu bạn không muốn mở cổng trên bộ định tuyến nhưng vẫn ch
 
 
 - `addnode`: thêm một đối tác thân thiện để liên hệ ngoài chức năng khám phá thông thường (có thể chỉ định nhiều lần).
-- connect`: hạn chế nghiêm ngặt các kết nối đến Address được cung cấp (có thể được chỉ định nhiều lần). Core sẽ không kết nối với bất kỳ nút nào khác.
+- `connect`: giới hạn nghiêm ngặt các kết nối đến địa chỉ được cung cấp (có thể được chỉ định nhiều lần). Core sẽ không kết nối với bất kỳ nút nào khác;
 - `seednode`: chỉ được sử dụng để điền vào book-Address khi kết nối với một nút, sau đó ngắt kết nối.
 - `maxconnections`: xác định giới hạn toàn cục cho các kết nối đến và đi. Theo mặc định, tham số này được đặt thành 125, nghĩa là nút của bạn sẽ không bao giờ chấp nhận quá 125 kết nối.
-- maxuploadtarget`: giới hạn tải lên để giới hạn băng thông trong khung thời gian 24 giờ. Giới hạn này không làm ảnh hưởng đến việc truyền tải Elements thiết yếu gần đây.
+- `maxuploadtarget` : giới hạn tải lên để hạn chế băng thông trong khoảng thời gian trượt 24 giờ. Giới hạn này không làm ảnh hưởng đến việc lan truyền các phần tử gần đây cần thiết;
 - `onlynet`: giới hạn kết nối đi chỉ với các mạng được chọn (`ipv4`, `ipv6`, `onion`, `i2p`, `cjdns`). Ví dụ: nếu bạn muốn nút của mình chỉ kết nối với mạng Bitcoin qua Tor, bạn có thể bật tham số `onlynet=onion` và tắt kết nối đến (hoặc chỉ cho phép kết nối qua Tor).
 - `dnsseed`: cho phép hoặc không cho phép _DNS seeds_ yêu cầu các đối tác khi nhóm Address cục bộ của bạn sắp hết (mặc định: `1`, trừ khi `-connect` hoặc `-maxconnections=0`).
 - `forcednsseed`: buộc _hạt giống DNS_ phải được yêu cầu khi khởi động, ngay cả khi bạn đã có địa chỉ trong kho (mặc định: `0`).
@@ -3362,7 +3362,7 @@ Theo mặc định, nút của bạn giao tiếp qua clearnet, Tor và I2P. Đi�
 - `torcontrol=127.0.0.1:9051`,
 - `proxyrandomize=1`,
 - `nghe=1`,
-- liên kết=127.0.0.1`,
+- `bind=127.0.0.1`,
 - `upnp=0`,
 - `natpmp=0`.
 
@@ -3418,7 +3418,7 @@ Sau đây là các tham số cơ bản bạn có thể sửa đổi trên `Bitco
 
 
 
-- blocksonly=1`: Vô hiệu hóa việc chấp nhận và truyền lại các giao dịch chưa được xác nhận nhận được từ các peer (trừ khi được cấp quyền đặc biệt). Giờ đây, node chỉ tải lên và quảng bá các khối. Các giao dịch được tạo cục bộ vẫn có thể được phát sóng (để sử dụng node của bạn với phần mềm Wallet). Điều này giúp giảm đáng kể yêu cầu về băng thông và RAM, mặc dù phải trả giá bằng việc giảm tính hữu dụng của relay và hoàn toàn không quen thuộc với Mempool.
+- `blocksonly=1` : Tắt việc chấp nhận và chuyển tiếp các giao dịch chưa được xác nhận nhận từ các nút ngang hàng (trừ các quyền đặc biệt). Nút chỉ tải xuống và thông báo các khối. Các giao dịch được tạo cục bộ vẫn có thể được phát sóng (để sử dụng nút của bạn với phần mềm ví của bạn). Điều này làm giảm đáng kể băng thông và yêu cầu RAM, nhưng làm giảm tính hữu ích cho việc chuyển tiếp và khiến nút hoàn toàn không biết về mempool.
 
 
 
@@ -3448,7 +3448,7 @@ Sau đây là các cài đặt nâng cao cho Mempool và chính sách rơle. N�
 
 
 
-- datacarrier=1`: Cho phép chuyển tiếp và (nếu Mining thông qua nút) bao gồm các giao dịch mang dữ liệu phi tài chính thông qua đầu ra `OP_RETURN` (mặc định: `1`). Việc hủy kích hoạt tham số này sẽ làm giảm nhẹ diện tích bề mặt cho dữ liệu spam phi tài chính, đồng thời làm giảm khả năng tương thích với một số mục đích sử dụng nhất định. Trong mọi trường hợp, bạn phải chấp nhận `OP_RETURN` đã được khai thác.
+- `datacarrier=1` : Cho phép chuyển tiếp và (nếu khai thác qua nút) bao gồm các giao dịch mang dữ liệu phi tài chính thông qua đầu ra `OP_RETURN` (mặc định: `1`). Vô hiệu hóa tham số này giúp giảm nhẹ nguy cơ spam dữ liệu phi tài chính, nhưng giảm khả năng tương thích với một số trường hợp sử dụng. Trong mọi trường hợp, bạn phải chấp nhận các `OP_RETURN` đã được khai thác.
 
 
 
@@ -3490,13 +3490,13 @@ Sau đây là các cài đặt nâng cao cho Mempool và chính sách rơle. N�
 
 
 
-- peerbloomfilters=1`: Bật hỗ trợ cho bộ lọc Bloom (BIP37) để phục vụ các khối/giao dịch đã lọc cho máy khách mỏng (mặc định: `0`). Cảnh báo: điều này làm tăng tải cho tài nguyên của bạn.
+- `peerbloomfilters=1` : Bật hỗ trợ bộ lọc Bloom (BIP37) để cung cấp các khối/giao dịch đã được lọc cho các máy khách nhẹ (mặc định: `0`). Lưu ý, điều này làm tăng tải trên tài nguyên của bạn.
 
 
 
 
 
-- peerblockfilters=1`: Cung cấp bộ lọc nhỏ gọn BIP157 (*Neutrino*) cho các đối tác (mặc định: `0`).
+- `peerblockfilters=1` : Cung cấp các bộ lọc gọn nhẹ BIP157 (*Neutrino*) cho các nút ngang hàng (mặc định: `0`).
 
 
 
@@ -3520,7 +3520,7 @@ Bạn cũng có thể điều chỉnh cách quản lý ví của mình trong t�
 
 
 
-- addresstype=<legacy|P2SH-SegWit|bech32|bech32m>`: Xác định định dạng của các địa chỉ do Wallet tạo ra để tiếp nhận.
+- `addresstype=<legacy|p2sh-segwit|bech32|bech32m>` : Xác định định dạng của các địa chỉ được ví tạo ra để nhận tiền.
 
 
 
@@ -3568,7 +3568,7 @@ Bạn cũng có thể điều chỉnh cách quản lý ví của mình trong t�
 
 
 
-- fallbackfee=<amt>`: Tỷ lệ dự phòng (BTC/kvB) được sử dụng nếu bộ ước tính hết dữ liệu (mặc định: `0,00`). Đặt thành 0 sẽ vô hiệu hóa hoàn toàn tính năng dự phòng.
+- `fallbackfee=<amt>` : Mức phí dự phòng (BTC/kvB) được sử dụng nếu bộ ước tính thiếu dữ liệu (mặc định: `0.00`). Đặt giá trị này thành 0 sẽ tắt hoàn toàn chế độ dự phòng.
 
 
 
@@ -3660,7 +3660,7 @@ Tệp cấu hình cũng cho phép bạn điều chỉnh các thông số liên q
 
 
 
-- txindex=1`: Xây dựng và duy trì một chỉ mục toàn cầu cho các giao dịch đã xác nhận. Cần thiết cho một số truy vấn nhất định (`getrawtransaction` không phải Wallet) và cho mục đích khám phá, nhưng làm tăng đáng kể dung lượng ổ đĩa. Không tương thích với chế độ pruned.
+- `txindex=1` : Xây dựng và duy trì chỉ mục toàn cầu của các giao dịch đã được xác nhận. Cần thiết cho một số truy vấn (`getrawtransaction` ngoài ví) và cho mục đích khám phá, nhưng làm tăng đáng kể mức sử dụng ổ đĩa. Không tương thích với chế độ cắt tỉa.
 
 
 

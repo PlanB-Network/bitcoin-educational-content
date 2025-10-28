@@ -138,7 +138,7 @@ ___
 
 
 
-![Image](assets/fr/001.webp)
+![Image](assets/fa/001.webp)
 
 
 
@@ -152,7 +152,7 @@ ___
 
 
 
-![Image](assets/fr/002.webp)
+![Image](assets/fa/002.webp)
 
 
 
@@ -166,7 +166,7 @@ ___
 
 
 
-![Image](assets/fr/003.webp)
+![Image](assets/fa/003.webp)
 
 
 
@@ -180,7 +180,7 @@ ___
 
 
 
-![Image](assets/fr/004.webp)
+![Image](assets/fa/004.webp)
 
 
 
@@ -197,7 +197,7 @@ ___
 
 
 
-![Image](assets/fr/005.webp)
+![Image](assets/fa/005.webp)
 
 
 
@@ -263,7 +263,7 @@ ___
 
 
 
-![Image](assets/fr/006.webp)
+![Image](assets/fa/006.webp)
 
 
 
@@ -390,7 +390,7 @@ https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea
 
 
 
-![Image](assets/fr/008.webp)
+![Image](assets/fa/007.webp)
 
 
 
@@ -431,7 +431,7 @@ https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea
 
 
 
-![Image](assets/fr/009.webp)
+![Image](assets/fa/008.webp)
 
 
 
@@ -442,7 +442,7 @@ https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea
 
 
 
-![Image](assets/fr/010.webp)
+![Image](assets/fa/009.webp)
 
 
 
@@ -456,7 +456,7 @@ https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea
 
 
 
-![Image](assets/fr/011.webp)
+![Image](assets/fa/010.webp)
 
 
 
@@ -507,7 +507,7 @@ https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea
 
 
 
-![Image](assets/fr/013.webp)
+![Image](assets/fa/011.webp)
 
 
 
@@ -585,7 +585,7 @@ https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea
 
 
 
-![Image](assets/fr/016.webp)
+![Image](assets/fa/012.webp)
 
 
 
@@ -680,7 +680,7 @@ TCP یک پروتکل مبتنی بر اتصال است، به این معنی �
 
 
 
-![Image](assets/fr/018.webp)
+![Image](assets/fa/013.webp)
 
 
 
@@ -688,7 +688,7 @@ TCP یک پروتکل مبتنی بر اتصال است، به این معنی �
 
 
 
-![Image](assets/fr/019.webp)
+![Image](assets/fa/014.webp)
 
 
 
@@ -711,7 +711,7 @@ TCP قادر به شناسایی و مدیریت تکراری‌ها است. ا�
 
 
 
-![Image](assets/fr/020.webp)
+![Image](assets/fa/015.webp)
 
 
 
@@ -734,7 +734,7 @@ TCP قادر به شناسایی و مدیریت تکراری‌ها است. ا�
 
 
 
-![Image](assets/fr/021.webp)
+![Image](assets/fa/016.webp)
 
 
 
@@ -751,7 +751,7 @@ TCP قادر به شناسایی و مدیریت تکراری‌ها است. ا�
 
 
 
-![Image](assets/fr/022.webp)
+![Image](assets/fa/017.webp)
 
 
 
@@ -791,7 +791,7 @@ UDP بر اساس اصلی کاملاً متفاوت از TCP عمل می‌کن
 
 
 
-![Image](assets/fr/023.webp)
+![Image](assets/fa/018.webp)
 
 
 
@@ -800,7 +800,7 @@ UDP بر اساس اصلی کاملاً متفاوت از TCP عمل می‌کن
 
 
 
-![Image](assets/fr/024.webp)
+![Image](assets/fa/019.webp)
 
 
 
@@ -836,7 +836,7 @@ UDP بر اساس اصلی کاملاً متفاوت از TCP عمل می‌کن
 
 
 
-![Image](assets/fr/026.webp)
+![Image](assets/fa/020.webp)
 
 
 
@@ -896,7 +896,7 @@ UDP بر اساس اصلی کاملاً متفاوت از TCP عمل می‌کن
 
 
 
-![Image](assets/fr/027.webp)
+![Image](assets/fa/021.webp)
 
 
 
@@ -1183,7 +1183,7 @@ IP Address            MAC Address                Type
 - مثال بصری از MAC Address:
 
 
-![Image](assets/fr/032.webp)
+![Image](assets/fa/022.webp)
 
 
 
@@ -1191,7 +1191,7 @@ IP Address            MAC Address                Type
 - مثال بصری از یک IP Address:
 
 
-![Image](assets/fr/027.webp)
+![Image](assets/fa/023.webp)
 
 
 
@@ -1258,7 +1258,7 @@ IP Address            MAC Address                Type
 
 
 
-![Image](assets/fr/035.webp)
+![Image](assets/fa/024.webp)
 
 
 
@@ -1331,7 +1331,7 @@ _برای نشان دادن اینکه این در عمل چگونه کار می
 
 
 
-![Image](assets/fr/037.webp)
+![Image](assets/fa/025.webp)
 
 
 
@@ -1500,7 +1500,7 @@ ONBOOT=yes
 
 
 
-![Image](assets/fr/039.webp)
+![Image](assets/fa/026.webp)
 
 
 
@@ -1954,7 +1954,7 @@ IPv6 با طیف گسترده‌ای از دسته‌بندی‌های Address �
 در اینجا مثالی از نحوه تبدیل یک MAC Address به EUI-64 آورده شده است:
 
 
-![Image](assets/fr/045.webp)
+![Image](assets/fa/027.webp)
 
 
 
@@ -2092,7 +2092,7 @@ IPv6 با طیف گسترده‌ای از دسته‌بندی‌های Address �
 این هدر، در صورت وجود، همیشه بلافاصله بعد از هدر پایه قرار می‌گیرد. این شامل اطلاعاتی است که باید توسط هر روتر در طول مسیر بسته پردازش شود، برخلاف اکثر هدرهای دیگر که معمولاً فقط توسط گره مقصد پردازش می‌شوند. استفاده‌های معمول شامل علامت‌گذاری پارامترهای جهانی یا درخواست مراحل پردازش خاص به هنگام عبور بسته از طریق شبکه است.
 
 
-![Image](assets/fr/047.webp)
+![Image](assets/fa/028.webp)
 
 
 #### سربرگ مسیریابی
@@ -2117,7 +2117,7 @@ IPv6 با طیف گسترده‌ای از دسته‌بندی‌های Address �
 فیلد "Segments Left" با تعداد کل بخش‌های باقی‌مانده شروع می‌شود و در هر پرش یک واحد کاهش می‌یابد.
 
 
-![Image](assets/fr/048.webp)
+![Image](assets/fa/029.webp)
 
 
 #### هدر تکه‌تکه شدن
@@ -2134,7 +2134,7 @@ IPv6 با طیف گسترده‌ای از دسته‌بندی‌های Address �
 - پرچم **M**: نشان می‌دهد که آیا قطعات بیشتری دنبال می‌شوند.
 
 
-![Image](assets/fr/049.webp)
+![Image](assets/fa/030.webp)
 
 
 #### سرآیند احراز هویت (AH)
@@ -2146,7 +2146,7 @@ IPv6 با طیف گسترده‌ای از دسته‌بندی‌های Address �
 در صورت تلاش برای تغییر تقلبی، کد احراز هویت دیگر مطابقت نخواهد داشت و دیتاگرام ممکن است رد شود. این مکانیزم همچنین با شناسایی تکثیرهای غیرمجاز از حملات بازپخش محافظت می‌کند.
 
 
-![Image](assets/fr/050.webp)
+![Image](assets/fa/031.webp)
 
 
 #### گزینه‌های مقصد Header
@@ -2158,7 +2158,7 @@ IPv6 با طیف گسترده‌ای از دسته‌بندی‌های Address �
 در ابتدا، چنین گزینه‌ای در پروتکل تعریف نشده بود. با این حال، این هدر زمانی که IPv6 طراحی شد معرفی گردید تا امکان افزودن توسعه‌های آینده بدون تغییر ساختار کلی بسته فراهم شود. به عنوان مثال، گزینه null فقط برای پر کردن هدر به مضربی از ۸ بایت به منظور هم‌ترازی حافظه استفاده می‌شود.
 
 
-![Image](assets/fr/051.webp)
+![Image](assets/fa/032.webp)
 
 
 طراحی بسته IPv6 بر اساس جداسازی واضح بین یک سرآیند پایه حداقلی و سرآیندهای توسعه ماژولار ساخته شده است. این معماری هم عملکرد پردازش استاندارد و هم انعطاف‌پذیری لازم برای توسعه پروتکل و ادغام امنیت، مسیریابی پیچیده یا مکانیزم‌های کیفیت خدمات را تضمین می‌کند، در حالی که سازگاری با زیرساخت‌های آینده را حفظ می‌کند.
@@ -2504,7 +2504,7 @@ tcpdump -w fichier.cap -i eth0 -s 0 -n port 80 and host 192.168.25.24
 
 
 
-![Image](assets/fr/052.webp)
+![Image](assets/fa/033.webp)
 
 
 
@@ -2555,7 +2555,7 @@ ethtool enp0s3
 
 
 
-![Image](assets/fr/053.webp)
+![Image](assets/fa/034.webp)
 
 
 
@@ -3107,7 +3107,7 @@ nmap 192.168.0.0/24
 
 
 
-![Image](assets/fr/055.webp)
+![Image](assets/fa/035.webp)
 
 
 

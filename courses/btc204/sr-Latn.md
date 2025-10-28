@@ -38,6 +38,8 @@ Pridružite nam se kako biste unapredili svoje koršćenje Bitcoin-a i postali i
 
 <chapterId>08ba1933-f393-4fb5-8279-777d874caedb</chapterId>
 
+:::video id=687fe126-56db-4fe2-aaac-e481bbb5d838:::
+
 
 Dobrodošli na kurs BTC204!
 
@@ -127,6 +129,8 @@ Spremni da istražimo kompleksnosti privatnosti na Bitcoin-u? Hajde da krenemo!
 
 <chapterId>8d6b50c5-bf74-44f4-922b-25204991cb75</chapterId>
 
+:::video id=60e8f3fa-9607-47ae-ac4f-5aa747d9b6d4:::
+
 
 
 Bitcoin je pre svega valuta, ali da li zaista znate kako su BTC predstavljeni unutar protokola?
@@ -197,6 +201,8 @@ Ukupni saldo na vašem novčaniku bi bio `17 BTC`.
 
 
 <chapterId>29d3aaab-de2e-4746-ab40-c9748898850c</chapterId>
+
+:::video id=c79d651d-ff4a-4a75-bc2b-a48a00c17326:::
 
 
 
@@ -323,6 +329,8 @@ Drugo, kao što je pomenuto u prethodnim odeljcima, Bitcoin novčići su u sušt
 
 <chapterId>769d8963-3ed5-4094-b21d-9203c7d9e465</chapterId>
 
+:::video id=f83d8e7a-ff4d-4c05-a8ff-0e601c49a508:::
+
 
 
 ### Novac: autentičnost, integritet i dvostruka potrošnja
@@ -427,6 +435,8 @@ Ali pošto su Bitcoin transakcije javne, i dalje je moguće uspostaviti veze izm
 
 
 <chapterId>7d198ba6-4af2-4f24-86cb-3c79cb25627e</chapterId>
+
+:::video id=3d27ea95-599b-44cc-a24c-a628c2e6a64a:::
 
 
 
@@ -541,6 +551,8 @@ Videćemo šta su oni u narednim poglavljima, ali već je zanimljivo primetiti d
 
 
 <chapterId>d365a101-2d37-46a5-bfb9-3c51e37bf96b</chapterId>
+
+:::video id=4bd4c9d4-7997-487c-8760-98c74ae1589e:::
 
 
 
@@ -733,6 +745,8 @@ Zahvaljujući ovim obrascima transakcija, već možemo interpretirati određenu 
 
 <chapterId>c54b5abe-872f-40f4-a0d0-c59faff228ba</chapterId>
 
+:::video id=bbc145cc-5232-41e4-a7f8-1af4e422635a:::
+
 
 
 Interna heuristika je specifična karakteristika koju identifikujemo unutar same transakcije, bez potrebe da ispitujemo njeno okruženje, i koja nam omogućava da donosimo zaključke. Za razliku od obrazaca, koji se fokusiraju na celokupnu strukturu transakcije na visokom nivou, interne heuristike se zasnivaju na skupu izdvojivih podataka. Ovo uključuje:
@@ -892,6 +906,8 @@ Izvor: [Mempool.space](https://Mempool.space/tx/b79d8f8e4756d34bbb26c659ab88314c
 
 
 <chapterId>4a170e3b-200d-431a-8285-18a23ff617ba</chapterId>
+
+:::video id=f83c94a1-4f60-4dc7-855d-aa6710064575:::
 
 
 
@@ -1481,6 +1497,8 @@ ___
 
 <chapterId>f3e97645-3df3-41bc-a4ed-d2c740113d96</chapterId>
 
+:::video id=5392183e-e317-499f-9757-b69e9d7cda11:::
+
 
 
 Nakon što smo proučili tehnike koje mogu narušiti vašu privatnost na Bitcoin-u, u ovom trećem delu ćemo sada pogledati najbolje prakse koje treba usvojiti kako biste se zaštitili. Cilj ovog dela nije istraživanje metoda za poboljšanje privatnosti, tema koja će biti obrađena kasnije, već razumevanje kako pravilno komunicirati sa Bitcoin-om kako biste zadržali poverljivost koju prirodno nudi, bez pribegavanja dodatnim tehnikama.
@@ -1652,6 +1670,8 @@ Ako vam je potreban statički identifikator za primanje uplata, kao što su dona
 
 <chapterId>fbdb07cd-c025-48f2-97b0-bd1bc21c68a8</chapterId>
 
+:::video id=4c411c97-ebb2-483d-b4fa-03109cf5d5d7:::
+
 
 
 Kao što smo otkrili u odeljku o analizi stringova, postoji mnoštvo heuristika i obrazaca koji se mogu koristiti za izvođenje informacija o transakciji. Kao korisnik, važno je biti svestan ovih tehnika kako biste se bolje zaštitili od njih.
@@ -1809,6 +1829,8 @@ https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45
 
 <chapterId>cec6b9d9-0eed-4f85-bc4e-1e9aa59ca605</chapterId>
 
+:::video id=ecf888fe-906f-4293-91b5-1e5ae7b2fde1:::
+
 
 
 KYC označava "upoznajte svog kupca (eng. Know Your Customer)". To je regulatorna procedura koju sprovode određene kompanije koje posluju u Bitcoin sektoru. Cilj ove procedure je verifikacija i registracija identiteta njihovih klijenata, sa ciljem borbe protiv pranja novca i finansiranja terorizma.
@@ -1959,6 +1981,8 @@ U zaključku, kada se bitkoini razmenjuju za druga sredstva, bilo da je to kupov
 
 
 <chapterId>756598af-95aa-4c77-ac48-243c7ad89530</chapterId>
+
+:::video id=9fd3d90f-32f4-48a2-a740-3597249551db:::
 
 
 
@@ -2136,6 +2160,8 @@ Drugi metod je da radite u zamenu za bitkoine. Ovaj metod sticanja može biti za
 
 <chapterId>d0486c8f-332d-402b-ae2e-949416752b9c</chapterId>
 
+:::video id=9e5841a2-4ff5-460e-a161-0e0af57f95d8:::
+
 
 
 Jedan od najsloženijih aspekata vođenja portfolija sa samostalnim čuvanjem je konsolidacija. Da li treba da konsolidujete? Koja je svrha? Koju veličinu UTXO treba poštovati? Koji su kompromisi u pogledu poverljivosti? To je ono što ćemo razmotriti u ovom delu.
@@ -2256,6 +2282,8 @@ U svakom slučaju, ne zaboravite da svaka konsolidacija neizbežno podrazumeva g
 
 <chapterId>b5216965-7d13-4ea1-9b7c-e292966a487b</chapterId>
 
+:::video id=5fc4ce39-6a0b-419a-baa9-f6da75427987:::
+
 
 
 Hajde da pogledamo nekoliko drugih najboljih praksi za optimizaciju vaše privatnosti na Bitcoin-u.
@@ -2337,6 +2365,8 @@ Pored svih ovih dobrih praksi koje treba primenjivati svakodnevno, postoje i jo�
 
 
 <chapterId>0862bc6b-1c48-4aa4-b76d-4f547b469008</chapterId>
+
+:::video id=37f23334-4b52-43db-8d82-bd84310af86c:::
 
 
 
@@ -2487,6 +2517,8 @@ Današnji korisnici stoga preferiraju CoinJoin, jer im omogućava da zadrže pot
 
 
 <chapterId>326c9654-b359-4906-b23d-d6518dd5dc3e</chapterId>
+
+:::video id=7df91435-f60b-4d80-89a8-79717a14ebd3:::
 
 
 
@@ -2663,6 +2695,8 @@ Trenutno je Whirlpool jedina implementacija CoinJoin-a koja rigorozno primenjuje
 
 <chapterId>e37ed073-9498-4e4f-820b-30951e829596</chapterId>
 
+:::video id=36021102-82f3-4e86-80a9-168e3431ce7b:::
+
 
 
 *U 2024. godini, svedočimo velikim promenama u alatima dostupnim korisnicima koji žele da prave coinjoin-ove na Bitcoin-u. Trenutno smo na prekretnici, a tržište CoinJoin-a prolazi kroz veliko restruktuiranje. Ovo poglavlje će sigurno biti ažurirano tokom vremena*
@@ -2783,6 +2817,8 @@ Kao što ste do sada već shvatili, moj izbor je definitivno Whirlpool model na 
 
 
 <chapterId>bdbd7109-e36d-4b4f-a3c6-928df4e9bfda</chapterId>
+
+:::video id=e40f1195-d028-44d3-be24-d76427f9d24b:::
 
 
 
@@ -3115,6 +3151,8 @@ https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e56680
 
 <chapterId>be1093dc-1a74-40e5-9545-2b97a7d7d431</chapterId>
 
+:::video id=03d8581a-3454-4225-9068-a6434840cbcb:::
+
 
 
 Proučivši kako coinjoin-ovi funkcionišu i probleme koji su uključeni u efikasno mešanje, sada ćemo saznati kako meriti njihovu efikasnost. Kako možemo odrediti da li je coinjoining proces bio efikasan i koji stepen anonimnosti je UTXO deo stekao? To je ono što ćemo saznati u ovom poglavlju sa skupovima anonimnosti ili ["anonsetovima"](https://planb.network/resources/glossary/anonsets-anonymity-sets).
@@ -3225,6 +3263,8 @@ Kao što smo videli u ovom poglavlju, anonseti se mogu izračunati samo ako post
 
 
 <chapterId>e4fe289d-618b-49a2-84c9-68c562e708b4</chapterId>
+
+:::video id=5118b15a-a58f-4529-8a91-4e9f6a093fce:::
 
 
 
@@ -3547,6 +3587,8 @@ https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6
 
 <chapterId>c1e90b95-f709-4574-837b-2ec26b11286f</chapterId>
 
+:::video id=5496cb59-006e-40b8-971f-af6d98868527:::
+
 
 
 CoinJoin je trenutno najefikasnija metoda za uvođenje nesigurnosti u praćenje UTXO delova u analizi lanca. Kao što smo videli u prethodnim poglavljima, da bi se dobila mešavina visokih performansi, ulazi i izlazi moraju biti što homogeniji. Pored toga, važno je da delovi budu integrisani u što veću grupu kako bi se maksimizirala anonimnost. Dakle, da bi coinjoini bili efikasni, moraju uključivati veliki broj uniformnih delova. Ovo mnoštvo zahteva znači da CoinJoin transakcije imaju veoma rigidnu strukturu: iznosi su unapred fiksirani, i svi učesnici moraju ih se pridržavati kako bi se garantovala uniformnost procesa. Pored toga, coinjoini zahtevaju sinhronizaciju između svih učesnika i koordinatora tokom konstrukcije transakcije.
@@ -3681,6 +3723,8 @@ https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c71
 
 
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
+
+:::video id=1f33e8f1-e41d-4480-a388-e283ef51cc17:::
 
 
 
@@ -3863,6 +3907,8 @@ https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14
 
 <chapterId>db9a20ac-a149-443d-884b-ea6c03f28499</chapterId>
 
+:::video id=3c9ce9e5-4081-4c36-98f9-9fc3779c0337:::
+
 
 
 Korišćenje struktura Bitcoin transakcija koje dodaju nejasnoću analizi lanca, kao što je CoinJoin, posebno je korisno za zaštitu privatnosti. Međutim, kao što smo diskutovali u poglavlju o payjoin-ovima, CoinJoin transakcije su prirodno prepoznatljive na lancu. Setite se analogije koju smo povukli između enkripcije i coinjoin-ova: kada je fajl enkriptovan, treća strana koja otkrije enkriptovani fajl ne može pristupiti njegovom sadržaju, ali može jasno identifikovati da je fajl modifikovan kako bi sakrio svoj sadržaj. Isto važi i za CoinJoin: kada analitičar ispituje CoinJoin transakciju, iako ne može uspostaviti direktne veze između ulaza i izlaza (i obrnuto), ipak može prepoznati da je posmatrana transakcija CoinJoin.
@@ -3971,6 +4017,8 @@ https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a94
 
 
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
+
+:::video id=374f79ce-fc61-4528-8b69-b5ca7c7eaa6f:::
 
 
 
@@ -4157,6 +4205,8 @@ Do sada smo uglavnom proučavali metode poverljivosti na nivou samih transakcija
 
 <chapterId>04a2467b-db84-4076-a9ff-919be5135106</chapterId>
 
+:::video id=8428b212-de79-48a5-b984-ed7936861c2f:::
+
 
 
 U Delu 4, razgovarali smo o važnosti korišćenja kompletnog čvora za zaštitu poverljivosti vaših transakcija. Međutim, važno je razumeti da i vaš čvor može biti podložan napadima koji pokušavaju da izvuku informacije o vašim aktivnostima. Stoga ćemo u ovom poglavlju razmotriti različite mere koje možete preduzeti za zaštitu vaše privatnosti, ne na nivou samih transakcija ili Bitcoin tokova, već na nivou mreže.
@@ -4273,6 +4323,8 @@ Nakon što smo istražili različite metode poverljivosti na mrežnom nivou, u n
 
 
 <chapterId>ad88e076-a04b-4aec-b3b2-7b4760175504</chapterId>
+
+:::video id=b0e9acc2-b50f-4caa-a1d7-cf8624b8e727:::
 
 
 
@@ -5447,6 +5499,8 @@ https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95
 
 
 <chapterId>2871d594-414e-4598-a830-91c9eb84dfb8</chapterId>
+
+:::video id=85b2780e-864e-4f64-b843-f272277181e6:::
 
 
 

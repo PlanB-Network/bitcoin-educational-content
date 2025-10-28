@@ -147,7 +147,7 @@ In het **Kanalen** gedeelte zie je de lijst met open kanalen en de verbindingen 
 
 - Inkomend tarief**: Het bedrag dat het knooppunt je in rekening brengt voor elk miljoen Satoshi dat het ontvangt, afhankelijk van het gekozen kanaal.
 - De verhouding (deeltjes per miljoen)** : die staat voor het aantal Satoshi per miljoen eenheden dat het knooppunt je in rekening brengt als je besluit een betaling te doen via een van zijn kanalen. Stel dat je besluit een betaling van `10_000 Sats` te doen via een kanaal waarvan de ppm-verhouding `500 Sats` is, dan moet je de knoop `10_000 * 500 / 1_000_000` satoshis betalen, wat overeenkomt met `5 Sats`.
-- Het [HTLC](https://planb.network/resources/glossary/HTLC) maximum** : Het maximale bedrag dat dit knooppunt toestaat om door te sturen via een van deze kanalen.
+- Het [HTLC](https://planb.network/resources/glossary/htlc) maximum** : Het maximale bedrag dat dit knooppunt toestaat om door te sturen via een van deze kanalen.
 
 
 

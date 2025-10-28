@@ -28,6 +28,8 @@ Bergabunglah dengan kami untuk mengubah penggunaan Bitcoin Anda dan menjadi peng
 
 <chapterId>08ba1933-f393-4fb5-8279-777d874caedb</chapterId>
 
+:::video id=687fe126-56db-4fe2-aaac-e481bbb5d838:::
+
 Selamat datang di kursus BTC204!
 
 Di dunia di mana kerahasiaan transaksi keuangan secara bertahap menjadi sebuah kemewahan, memahami dan menguasai prinsip-prinsip perlindungan privasi saat menggunakan Bitcoin sangatlah penting. Kursus pelatihan ini memberikan Anda semua kunci, baik secara teoritis maupun praktis, untuk mencapai hal ini secara mandiri.
@@ -87,6 +89,8 @@ Siap menjelajahi seluk-beluk privasi di Bitcoin? Ayo mulai!
 
 <chapterId>8d6b50c5-bf74-44f4-922b-25204991cb75</chapterId>
 
+:::video id=60e8f3fa-9607-47ae-ac4f-5aa747d9b6d4:::
+
 
 Bitcoin adalah mata uang, tetapi apakah Anda benar-benar tahu bagaimana BTC direpresentasikan dalam protokol?
 
@@ -136,6 +140,8 @@ Total saldo portofolio Anda adalah `17 BTC`.
 ## Struktur transaksi Bitcoin
 
 <chapterId>29d3aaab-de2e-4746-ab40-c9748898850c</chapterId>
+
+:::video id=c79d651d-ff4a-4a75-bc2b-a48a00c17326:::
 
 
 ### Input dan output transaksi
@@ -223,6 +229,8 @@ Kedua, seperti yang telah disebutkan di bagian sebelumnya, koin Bitcoin pada das
 
 <chapterId>769d8963-3ed5-4094-b21d-9203c7d9e465</chapterId>
 
+:::video id=f83d8e7a-ff4d-4c05-a8ff-0e601c49a508:::
+
 
 ### Uang: keaslian, integritas, dan pengeluaran ganda
 
@@ -293,6 +301,8 @@ Namun karena transaksi Bitcoin bersifat publik, maka masih memungkinkan untuk me
 ## Apa itu analisis rantai Bitcoin?
 
 <chapterId>7d198ba6-4af2-4f24-86cb-3c79cb25627e</chapterId>
+
+:::video id=3d27ea95-599b-44cc-a24c-a628c2e6a64a:::
 
 
 ### Definisi dan pengoperasian
@@ -373,6 +383,8 @@ Kita akan melihat apa saja yang akan dibahas pada bab-bab selanjutnya, tetapi su
 ## Pola transaksi
 
 <chapterId>d365a101-2d37-46a5-bfb9-3c51e37bf96b</chapterId>
+
+:::video id=4bd4c9d4-7997-487c-8760-98c74ae1589e:::
 
 
 Pola transaksi adalah sebuah model atau struktur keseluruhan dari sebuah transaksi, yang dapat ditemukan di blockchain, dan yang kemungkinan interpretasinya dapat diketahui. Ketika mempelajari pola, kita fokus pada satu transaksi dan menganalisanya pada tingkat yang tinggi.
@@ -505,6 +517,8 @@ Berkat pola-pola transaksi ini, kita sudah dapat menginterpretasikan sejumlah in
 
 <chapterId>c54b5abe-872f-40f4-a0d0-c59faff228ba</chapterId>
 
+:::video id=bbc145cc-5232-41e4-a7f8-1af4e422635a:::
+
 
 Heuristik internal adalah karakteristik spesifik yang kita identifikasi di dalam transaksi itu sendiri, tanpa perlu memeriksa lingkungannya, dan yang memungkinkan kita untuk membuat kesimpulan. Tidak seperti pola, yang berfokus pada keseluruhan struktur transaksi pada tingkat yang tinggi, heuristik internal didasarkan pada sekumpulan data yang dapat diekstrak. Ini termasuk:
 
@@ -614,6 +628,8 @@ Source : [Mempool.space](https://mempool.space/tx/b79d8f8e4756d34bbb26c659ab8831
 ## Heuristik eksternal
 
 <chapterId>4a170e3b-200d-431a-8285-18a23ff617ba</chapterId>
+
+:::video id=f83c94a1-4f60-4dc7-855d-aa6710064575:::
 
 
 Studi heuristik eksternal berarti menganalisis kesamaan, pola, dan karakteristik dari elemen-elemen tertentu yang tidak spesifik untuk transaksi itu sendiri. Dengan kata lain, jika sebelumnya kita membatasi diri untuk mengeksploitasi elemen-elemen intrinsik dari transaksi dengan heuristik internal, sekarang kita memperluas bidang analisis kita dengan menyertakan lingkungan transaksi, berkat heuristik eksternal.
@@ -1034,6 +1050,8 @@ ___
 
 <chapterId>f3e97645-3df3-41bc-a4ed-d2c740113d96</chapterId>
 
+:::video id=5392183e-e317-499f-9757-b69e9d7cda11:::
+
 
 Setelah mempelajari teknik-teknik yang dapat membobol kerahasiaan Anda di Bitcoin, di bagian ketiga ini, kita akan membahas praktik-praktik terbaik yang dapat Anda terapkan untuk melindungi diri Anda sendiri. Tujuan dari bagian ini bukanlah untuk mengeksplorasi metode-metode untuk meningkatkan kerahasiaan, sebuah topik yang akan dibahas nanti, tetapi lebih kepada memahami cara berinteraksi dengan Bitcoin secara benar untuk mempertahankan kerahasiaan yang secara alamiah ditawarkannya, tanpa harus menggunakan teknik-teknik tambahan.
 
@@ -1170,6 +1188,8 @@ Jika Anda membutuhkan pengenal statis untuk menerima pembayaran, seperti donasi,
 
 <chapterId>fbdb07cd-c025-48f2-97b0-bd1bc21c68a8</chapterId>
 
+:::video id=4c411c97-ebb2-483d-b4fa-03109cf5d5d7:::
+
 
 Seperti yang telah kita temukan di bagian analisis string, ada banyak heuristik dan pola yang dapat digunakan untuk menyimpulkan informasi tentang suatu transaksi. Sebagai pengguna, penting untuk mengetahui teknik-teknik ini untuk melindungi diri Anda dengan lebih baik.
 
@@ -1277,6 +1297,8 @@ https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45
 
 <chapterId>cec6b9d9-0eed-4f85-bc4e-1e9aa59ca605</chapterId>
 
+:::video id=ecf888fe-906f-4293-91b5-1e5ae7b2fde1:::
+
 
 KYC adalah singkatan dari "Kenali Pelanggan Anda". Ini adalah prosedur regulasi yang diterapkan oleh perusahaan-perusahaan tertentu yang beroperasi di sektor Bitcoin. Tujuan dari prosedur ini adalah untuk memverifikasi dan mendaftarkan identitas pelanggan mereka, dengan tujuan untuk memerangi pencucian uang dan pendanaan terorisme.
 
@@ -1377,6 +1399,8 @@ Kesimpulannya, ketika bitcoin ditukarkan dengan aset lain, baik itu pembelian de
 ## Metode penjualan dan akuisisi
 
 <chapterId>756598af-95aa-4c77-ac48-243c7ad89530</chapterId>
+
+:::video id=9fd3d90f-32f4-48a2-a740-3597249551db:::
 
 
 Setelah membaca bab sebelumnya, Anda mungkin bertanya-tanya bagaimana cara membeli atau menjual bitcoin tanpa harus menjalani prosedur verifikasi identitas, untuk menghindari risiko yang terkait dengan KYC. Ada beberapa cara untuk memperdagangkan bitcoin.
@@ -1501,6 +1525,8 @@ Metode lainnya adalah bekerja dengan imbalan bitcoin. Metode akuisisi ini bisa j
 
 <chapterId>d0486c8f-332d-402b-ae2e-949416752b9c</chapterId>
 
+:::video id=9e5841a2-4ff5-460e-a161-0e0af57f95d8:::
+
 
 Salah satu aspek paling rumit dalam menjalankan portofolio penyimpanan mandiri adalah konsolidasi. Haruskah Anda melakukan konsolidasi? Apa gunanya? Berapa ukuran UTXO yang harus dihormati? Apa saja kompromi dalam hal kerahasiaan? Itulah yang akan kita bahas di bagian ini.
 
@@ -1585,6 +1611,8 @@ Bagaimanapun, jangan lupa bahwa konsolidasi apa pun pasti akan menyebabkan hilan
 
 <chapterId>b5216965-7d13-4ea1-9b7c-e292966a487b</chapterId>
 
+:::video id=5fc4ce39-6a0b-419a-baa9-f6da75427987:::
+
 
 Mari kita lihat beberapa praktik terbaik lainnya untuk mengoptimalkan privasi Anda di Bitcoin.
 
@@ -1640,6 +1668,8 @@ Selain semua praktik yang baik untuk diterapkan setiap hari, ada metode yang leb
 ## Apa yang dimaksud dengan transaksi coinjoin?
 
 <chapterId>0862bc6b-1c48-4aa4-b76d-4f547b469008</chapterId>
+
+:::video id=37f23334-4b52-43db-8d82-bd84310af86c:::
 
 
 Setelah mempelajari dasar-dasar perlindungan privasi, sekarang kita akan melihat teknik-teknik yang lebih canggih yang bertujuan untuk secara aktif mempertahankan kerahasiaan Anda, khususnya dengan membuka riwayat bitcoin Anda. Di bagian selanjutnya, kita akan melihat sejumlah teknik kecil, tetapi pertama-tama, saya ingin memberi tahu Anda tentang coinjoin.
@@ -1738,6 +1768,8 @@ Oleh karena itu, para pengguna saat ini lebih memilih coinjoin, karena memungkin
 ## Zerolink dan coinjoins chaumian
 
 <chapterId>326c9654-b359-4906-b23d-d6518dd5dc3e</chapterId>
+
+:::video id=7df91435-f60b-4d80-89a8-79717a14ebd3:::
 
 
 Privasi yang disediakan oleh coinjoin diperoleh dari ukuran grup tempat bagian kita disembunyikan. Ini berarti menemukan sebanyak mungkin peserta. Sangat mungkin untuk membuat coinjoin secara manual, dengan pengguna yang kita temukan sendiri, tetapi ini adalah proses yang rumit, dan tidak akan memberi Anda banyak keuntungan.
@@ -1854,6 +1886,8 @@ Saat ini, Whirlpool merupakan satu-satunya implementasi coinjoin yang menerapkan
 
 <chapterId>e37ed073-9498-4e4f-820b-30951e829596</chapterId>
 
+:::video id=36021102-82f3-4e86-80a9-168e3431ce7b:::
+
 
 *Pada tahun 2024, kita akan menyaksikan perubahan besar pada alat yang tersedia untuk pengguna yang ingin membuat coinjoin di Bitcoin. Saat ini kita sedang berada di titik balik, dan pasar coinjoin sedang mengalami restrukturisasi besar-besaran. Bab ini pasti akan diperbarui seiring berjalannya waktu.*
 
@@ -1934,6 +1968,8 @@ Seperti yang sudah Anda ketahui sekarang, preferensi saya adalah model Whirlpool
 ## Cara kerja Whirlpool
 
 <chapterId>bdbd7109-e36d-4b4f-a3c6-928df4e9bfda</chapterId>
+
+:::video id=e40f1195-d028-44d3-be24-d76427f9d24b:::
 
 
 Yang membedakan Whirlpool dengan metode coinjoin lainnya adalah penggunaan transaksi "_ZeroLink_", yang memastikan bahwa tidak ada hubungan teknis yang mungkin terjadi antara semua input dan output. Perpaduan sempurna ini dicapai melalui struktur di mana setiap peserta memberikan jumlah input yang sama (dengan pengecualian biaya penambangan), menghasilkan output dengan jumlah yang sama persis.
@@ -2168,6 +2204,8 @@ https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e56680
 
 <chapterId>be1093dc-1a74-40e5-9545-2b97a7d7d431</chapterId>
 
+:::video id=03d8581a-3454-4225-9068-a6434840cbcb:::
+
 
 Setelah mempelajari cara kerja coinjoining dan masalah yang terlibat dalam pencampuran yang efektif, sekarang kita akan mengetahui cara mengukur efektivitasnya. Bagaimana kita dapat menentukan apakah proses penggabungan bersama sudah efektif, dan tingkat anonimitas apa yang diperoleh suatu bagian? Itulah yang akan kita cari tahu dalam bab ini dengan set anonimitas atau "anonset".
 
@@ -2242,6 +2280,8 @@ Seperti yang telah kita lihat pada bab ini, anonset hanya dapat dihitung jika ad
 ## Entropi
 
 <chapterId>e4fe289d-618b-49a2-84c9-68c562e708b4</chapterId>
+
+:::video id=5118b15a-a58f-4529-8a91-4e9f6a093fce:::
 
 
 Seperti yang telah kita lihat pada bagian ini mengenai coinjoin, homogenitas UTXO dalam input dan output memainkan peran penting dalam meningkatkan kerahasiaan transaksi Bitcoin. Parameter ini menciptakan penyangkalan yang masuk akal dalam menghadapi analisis blockchain. Beberapa metode dapat digunakan untuk mengukur homogenitas ini, tetapi salah satu yang paling efektif, menurut pendapat saya, adalah penggunaan indikator yang disediakan oleh alat *Boltzmann*, yang dikembangkan oleh tim OXT dan Dompet Samourai, dan khususnya entropi transaksi. Inilah yang akan kita bahas secara rinci dalam bab ini.
@@ -2504,6 +2544,8 @@ https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6
 
 <chapterId>c1e90b95-f709-4574-837b-2ec26b11286f</chapterId>
 
+:::video id=5496cb59-006e-40b8-971f-af6d98868527:::
+
 
 Coinjoin saat ini merupakan metode yang paling efektif untuk memasukkan ketidakpastian ke dalam penelusuran komponen dalam analisis rantai. Seperti yang telah kita lihat pada bab-bab sebelumnya, untuk mendapatkan campuran berkinerja tinggi, input dan output harus sehomogen mungkin. Selain itu, penting agar bagian-bagian diintegrasikan ke dalam kelompok sebesar mungkin untuk memaksimalkan anonset. Jadi, agar coinjoin menjadi efektif, mereka harus melibatkan sejumlah besar bagian yang seragam. Banyaknya persyaratan ini berarti bahwa transaksi coinjoin memiliki struktur yang sangat kaku: jumlahnya ditentukan sebelumnya, dan semua peserta harus mematuhinya untuk menjamin keseragaman proses. Selain itu, coinjoin membutuhkan sinkronisasi antara semua peserta dan koordinator selama konstruksi transaksi.
 
@@ -2593,6 +2635,8 @@ https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c71
 ## Pembayaran dengan koin mini
 
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
+
+:::video id=1f33e8f1-e41d-4480-a388-e283ef51cc17:::
 
 
 Ketika Anda ingin melakukan transaksi pembayaran dengan tetap menjaga tingkat kerahasiaan tertentu, payjoin adalah pilihan yang baik. Tetapi seperti yang baru saja kita lihat, payjoin membutuhkan keterlibatan penerima. Jadi, apa yang Anda lakukan jika penerima menolak untuk berpartisipasi dalam payjoin, atau jika Anda lebih memilih untuk tidak melibatkan mereka? Salah satu alternatifnya adalah dengan menggunakan transaksi Stonewall atau Stonewall x2. Mari kita lihat lebih dekat kedua jenis transaksi ini.
@@ -2717,6 +2761,8 @@ https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14
 
 <chapterId>db9a20ac-a149-443d-884b-ea6c03f28499</chapterId>
 
+:::video id=3c9ce9e5-4081-4c36-98f9-9fc3779c0337:::
+
 
 Penggunaan struktur transaksi Bitcoin yang menambahkan ambiguitas pada analisis rantai, seperti coinjoin, sangat bermanfaat untuk perlindungan privasi. Akan tetapi, seperti yang telah kita bahas pada bab mengenai payjoin, transaksi coinjoin secara alami dapat diidentifikasi pada rantai. Ingat analogi yang kita buat antara enkripsi dan coinjoin: ketika sebuah file dienkripsi, pihak ketiga yang menemukan file yang dienkripsi tidak dapat mengakses isinya, akan tetapi dapat dengan jelas mengidentifikasi bahwa file tersebut telah dimodifikasi untuk menyembunyikan isinya. Hal yang sama berlaku untuk coinjoin: ketika seorang analis memeriksa sebuah transaksi coinjoin, walaupun dia tidak dapat membuat hubungan langsung antara input dan output (dan sebaliknya), dia tetap dapat mengenali bahwa transaksi yang diamati adalah sebuah coinjoin.
 
@@ -2789,6 +2835,8 @@ https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a94
 ## Pengalihan kepemilikan secara rahasia
 
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
+
+:::video id=374f79ce-fc61-4528-8b69-b5ca7c7eaa6f:::
 
 
 Teknik kerahasiaan Bitcoin lainnya adalah transfer kepemilikan secara rahasia. Metode ini bertujuan untuk memindahkan kepemilikan Bitcoin dari satu orang ke orang lain, dan sebaliknya, tanpa transaksi secara eksplisit terlihat di blockchain. Mari kita lihat berbagai teknik yang tersedia, beserta kelebihan dan kekurangannya.
@@ -2912,6 +2960,8 @@ Sampai saat ini, kita telah mempelajari metode kerahasiaan pada tingkat transaks
 
 <chapterId>04a2467b-db84-4076-a9ff-919be5135106</chapterId>
 
+:::video id=8428b212-de79-48a5-b984-ed7936861c2f:::
+
 
 Pada Bagian 4, kita telah membahas pentingnya menggunakan sebuah node yang lengkap untuk melindungi kerahasiaan transaksi Anda. Akan tetapi, penting untuk memahami bahwa node Anda sendiri dapat menjadi sasaran serangan yang berusaha mengekstrak informasi mengenai aktivitas Anda. Oleh karena itu, pada bab ini, kita akan melihat berbagai langkah yang dapat Anda lakukan untuk melindungi privasi Anda, bukan pada tingkat transaksi itu sendiri atau aliran bitcoin, tetapi pada tingkat jaringan.
 
@@ -2988,6 +3038,8 @@ Setelah menjelajahi berbagai metode kerahasiaan pada tingkat jaringan, dalam beb
 ## BIP47 dan kode pembayaran yang dapat digunakan kembali
 
 <chapterId>ad88e076-a04b-4aec-b3b2-7b4760175504</chapterId>
+
+:::video id=b0e9acc2-b50f-4caa-a1d7-cf8624b8e727:::
 
 
 Seperti yang telah kita lihat pada bagian 3, penggunaan ulang alamat merupakan sebuah hambatan serius untuk kerahasiaan pengguna pada protokol Bitcoin. Untuk mengurangi risiko ini, sangat disarankan untuk membuat alamat penerima kosong untuk setiap pembayaran baru yang diterima di dompet. Walaupun pembuatan alamat baru saat ini telah disederhanakan dengan penggunaan perangkat lunak modern dan dompet hirarkis deterministik, praktik ini mungkin terlihat berlawanan dengan intuisi.
@@ -3814,6 +3866,8 @@ https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95
 ## Pembayaran Senyap
 
 <chapterId>2871d594-414e-4598-a830-91c9eb84dfb8</chapterId>
+
+:::video id=85b2780e-864e-4f64-b843-f272277181e6:::
 
 
 BIP47 telah dikritik secara luas karena ketidakefisienan onchain-nya. Seperti yang telah dijelaskan pada bab sebelumnya, ia membutuhkan transaksi notifikasi yang harus dilakukan untuk setiap penerima baru. Kendala ini menjadi tidak berarti jika kita berencana untuk membuat saluran pembayaran yang berkelanjutan dengan penerima ini. Memang, satu transaksi notifikasi membuka jalan untuk pembayaran BIP47 berikutnya dalam jumlah yang hampir tak terbatas.

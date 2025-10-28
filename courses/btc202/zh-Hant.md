@@ -21,7 +21,7 @@ objectives:
 
 
 
-BTC 202 是一門通俗易懂的課程，旨在教您如何編織自己的 Bitcoin 結，即使您不是技術專家也沒問題。我們首先會定義什麼是 Bitcoin 結、它有什麼用途，以及為什麼自己編織一個 Bitcoin 結是絕對必要的。接下來，我將逐步引導您選擇硬體、安裝必要的軟體、連接您的 Wallet，並進行第一次可能的優化，讓您的 Bitcoin 更進一步。
+BTC 202 是一門易於學習的課程，旨在教您如何運行自己的比特幣節點，即使您不是技術專家。我們將首先定義什麼是比特幣節點、它的作用，以及為什麼自行運行節點是絕對必要的。接著，我將一步步指導您選擇硬體、安裝所需軟體、連接錢包軟體，並進行初步優化以進一步提升。
 
 
 
@@ -410,7 +410,7 @@ Bitcoin core 是 Bitcoin 協定的參考軟體。它源自 Satoshi Nakamoto 在 
 
 
 
-Bitcoin core 以 C++ 寫成。它也是一個開放原始碼專案，由志願或由不同單位（通常是由生態系統中對 Core 的開發有既得利益的公司）付費的開發人員社群維護。[Code is hosted on GitHub](https://github.com/Bitcoin/Bitcoin), and development follows a rigorous：
+Bitcoin Core 是一款以 C++ 撰寫的軟體。它同時也是一個由開發者社群維護的開源專案——這些開發者有些是志願者，有些則由不同實體資助（通常是希望 Core 開發順利進行的生態系統公司）。[程式碼託管於 GitHub](https://github.com/bitcoin/bitcoin)，開發遵循嚴謹的模式：
 
 
 
@@ -448,7 +448,7 @@ Bitcoin core 的開發遵循任人唯才的邏輯：鼓勵新的貢獻者在自�
 
 - Libbitcoin**: 由 Amir Taaki 開發、Eric Voskuil 維護的模組化 C++ 函式庫；
 - Bcoin**: JavaScript 實作，已不再積極維護；
-- BTCD/btcsuit**e: Go 中的實作。
+- **BTCD/btcsuite** ：以 Go 實作的版本。
 
 
 
@@ -481,7 +481,7 @@ Bitcoin core 的開發遵循任人唯才的邏輯：鼓勵新的貢獻者在自�
 
 
 
-## 為什麼要自己打結？
+## 為什麼要運行自己的節點？
 
 
 <chapterId>39c0cd19-67f9-4c64-bfb3-dbd6eec0bf42</chapterId>
@@ -492,7 +492,7 @@ Bitcoin core 的開發遵循任人唯才的邏輯：鼓勵新的貢獻者在自�
 
 
 
-事實上，正如我們在前幾章所指出的，打結並沒有直接的經濟利益。因此，人們可能會認為這樣做沒有任何個人利益。然而，經營自己的結點卻能帶來許多個人利益。為了讓您相信這一點，我將在本章中提出所有的理由，包括技術上和策略上的理由，為何您應該安裝並使用自己的 Bitcoin 節點。
+正如我們在前幾章中強調的那樣，運行節點並不會帶來直接的經濟收益。因此，有人可能認為這樣做沒有個人利益。然而，運行自己的節點帶來許多個人優勢。為了說服您，本章將介紹所有技術性與策略性的理由，這些理由應促使您安裝並使用自己的比特幣節點。
 
 
 
@@ -576,7 +576,7 @@ Bitcoin 之類的分散式系統的特點在於在所有參與其運作的人之
 
 
 
-掌握這些知識可以增強您對工具的信心，並可以降低出錯或受騙的風險。自己打結也是一種學習方式。
+獲取這些知識能增強您對工具的信心，並可減少出錯或遭遇詐騙的風險。運行自己的節點也是一種學習。
 
 
 
@@ -692,7 +692,7 @@ Bitcoin 之類的分散式系統的特點在於在所有參與其運作的人之
 
 
 
-> 不是你的結，不是你的規則。
+> 不是你的節點，就不是你的規則。
 
 
 ## 不同類型的 Bitcoin 節點
@@ -706,7 +706,7 @@ Bitcoin 之類的分散式系統的特點在於在所有參與其運作的人之
 
 
 
-### 完整的結
+### 完整節點
 
 
 
@@ -730,7 +730,7 @@ Full node 不需要信任任何人，因為它驗證並知識系統中的所有�
 
 
 
-### pruned 結
+### 修剪節點
 
 
 
@@ -754,7 +754,7 @@ pruned 節點會以 Full node 的方式驗證所有東西，從 Genesis 區塊�
 
 
 
-### 光結 / SPV
+### 輕節點 / SPV
 
 
 
@@ -849,7 +849,7 @@ Nakamoto, S. (2008)。 *Bitcoin：點對點電子現金系統*。https://Bitcoin
 
 
 
-#### Bitcoin core (超大多數客戶)
+#### Bitcoin Core（佔絕對多數的客戶端）
 
 
 
@@ -869,7 +869,7 @@ https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d
 
 https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-#### Bitcoin Knots (主要替代客戶)
+#### Bitcoin Knots（主要替代客戶端）
 
 
 
@@ -2590,7 +2590,7 @@ Nostr 客戶端 ***noStrudel*** 或 ***Snort*** 也可在 Umbrel 上使用。有
 
 
 
-最後，還有 Umbrel 上的 ***Nostr Wallet Connect*** 應用程式，可在 Nostr 中實現原生 Lightning 付款。具體來說，您可以將您未來的 Lightning 節點連結至您的 Nostr 客戶，發送稱為 "*zaps*"的微型付款，以獎勵內容或以貨幣化的方式進行互動，而無需透過第三方服務。這些付款會直接從您的個人節點透過您的管道傳送。
+最後，Umbrel 上的 ***Nostr Wallet Connect*** 應用程式可讓您在 Nostr 中進行原生的閃電支付。具體而言，您可以將未來的閃電節點連接到您的 Nostr 用戶端，以發送稱為「*zaps*」的微支付，用於獎勵內容或以貨幣化方式互動，而無需經過第三方服務。這些付款會直接從您的個人節點透過您的通道發出。
 
 
 
@@ -2652,7 +2652,7 @@ https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-82
 
 
 
-## 維護您的 Umbrel 結
+## 維護您的 Umbrel 節點
 
 
 <chapterId>06d77d09-bf24-4555-b2ba-c08bbda477c7</chapterId>
@@ -2929,7 +2929,7 @@ assumevalid」參數是基於過去的參考區塊，其 Hash 已整合到每個
 
 
 
-## 剖析您的 Bitcoin 結
+## 您的比特幣節點結構
 
 
 <chapterId>b420bd9d-7e2a-4984-bc70-2b732a94c8ce</chapterId>
@@ -2941,7 +2941,7 @@ assumevalid」參數是基於過去的參考區塊，其 Hash 已整合到每個
 
 
 
-- gW-402 ** 區塊**儲存在磁碟上、
+- 儲存在磁碟上的區塊鏈**區塊**,
 - **UTXO 集**維護在鍵值資料庫中、
 - 和 **Mempool** 儲存在 RAM 中，並定期序列化。
 
@@ -3093,7 +3093,7 @@ Mempool 是已收到但尚未確認的本地有效交易集。提醒一下，「
 
 
 - 透過 `maxmempool` 參數分配給 Mempool 的大小：擁有較大 Mempool 的節點將能夠比擁有較小 Mempool 的節點容納更多的交易 (除非後者變空)；
-- gW-433 規則：這些規則是節點中繼規則的子集，定義了未確認交易必須符合的特性，才能在 Mempool 中被接受；
+- mempool 規則：它們構成節點轉送規則的子集，並定義未確認交易必須符合的特徵，才能被接受進入 mempool；
 - 交易滲透：由於各種因素，特定的交易可能已分佈到網路的一部分，但尚未到達另一部分。
 
 
@@ -3135,10 +3135,10 @@ Mempool 的大小受到 `Bitcoin.conf` 檔案中的 `maxmempool` 參數限制 (�
 - 關閉節點時，`anchors.dat` 會儲存外寄對等體的位址，以便您下次啟動時可以嘗試快速地再次與他們聯絡。
 - `banlist.json` 包含由操作員或節點 (重複無效的行為) 決定的本地封禁，以防止節點重新連線或接受來自這些特定對等點的連線。
 - `fee_estimates.dat` 儲存觀察到的確認的時間範圍統計資料，費用估算器使用這些資料來提出與建立交易時選擇的延遲目標一致的費用比率。
-- gW-446.conf` 包含您節點的設定參數。您可以在這裡調整中繼規則。我會在下一章告訴您更多關於這方面的資訊。
+- `bitcoin.conf` 包含您的節點設定參數。特別是在此檔案中可以調整轉送規則。我會在下一章更詳細地說明；
 - `settings.json` 包含 `Bitcoin.conf` 的附加參數。
 - `debug.log` 是診斷文字日誌，在發生 bug 時可用來瞭解節點活動。
-- gW-448.pid` 會在執行時儲存進程識別碼，讓其他應用程式或指令碼可以輕鬆識別 bitcoind (*Bitcoin daemon*)，並在必要時與之互動。它會在節點啟動時建立，並在關機時刪除。
+- `bitcoind.pid` 在執行期間記錄程序識別碼，使其他應用程式或指令碼能夠輕鬆識別 Bitcoind（*Bitcoin Daemon*），並在需要時與其互動。它在節點啟動時建立，在停止時刪除；
 - `ip_asn.map` 是 IP → ASN 對應表 (獨立系統)，用於分桶和對等分散 (`-asmap`選項)。
 - 當 `-listenonion` 選項啟用時，`onion_v3_private_key`會儲存 Tor v3 服務的私密金鑰，以便在重新開機之間保持穩定的洋蔥 Address。
 - 當使用 `-i2psam=` 時，`i2p_private_key` 會儲存 I2P 私密金鑰，以便在 I2P 上建立傳出和可能傳入的連線。
@@ -3154,9 +3154,9 @@ Mempool 的大小受到 `Bitcoin.conf` 檔案中的 `maxmempool` 參數限制 (�
 
 
 
-- `wallets/` 是存放一個或多個的預設目錄；
+- `wallets/` 是預設目錄，用於存放一個或多個錢包；
 - `wallets/<name>/Wallet.dat`是 Wallet 的 SQLite 資料庫（金鑰、描述符、交易元資料等）；
-- wallets/<name>/Wallet.dat-journal` 是 SQLite 回滾日誌。
+- `wallets/<name>/wallet.dat-journal` 是 SQLite 回滾日誌。
 
 
 
@@ -3335,10 +3335,10 @@ Full node 透過接受傳入的連線，為網路增加更多的價值。listen=
 
 
 - `addnode`: 除了一般的發現之外，還會新增一個友好的對等端點來聯絡 (可以指定數次)。
-- connect`：嚴格限制連線至所提供的 Address（可多次指定）。Core 將不會連線到任何其他節點。
+- `connect`：嚴格限制連線至提供的位址（可多次指定）。Core 不會連接到任何其他節點；
 - `seednode`: 僅用於連線到節點時填入書本-Address，然後斷開連線。
 - `maxconnections`: 定義傳入 + 傳出連線的全局上限。預設情況下，此參數設定為 125，表示您的節點永遠不會接受超過 125 個連線。
-- maxuploadtarget`: 設定上傳上限，以限制 24 小時滑動視窗的頻寬。此上限不會犧牲基本的最近 Elements 的傳播。
+- `maxuploadtarget` ：限制上傳以在24小時滾動視窗內控制頻寬。此限制不會影響必要的最新元素傳播；
 - `onlynet`：僅限制出站連線至選定的網路 (`ipv4`、`ipv6`、`onion`、`i2p`、`cjdns`)。例如，如果您希望您的節點只透過 Tor 連線到 Bitcoin 網路，您可以啟用 `onlynet=onion` 參數，並禁止傳入連線 (或也只允許透過 Tor 連線)。
 - `dnsseed`: 允許或禁止 _DNS 種子_ 在您的本機 Address pool 不足時要求對等體 (預設值：`1`，除非 `-connect` 或 `-maxconnections=0`).
 - `forcednsseed`: 強制在啟動時請求 _DNS 種子_，即使您已有網址 (預設值: `0`)。
@@ -3362,7 +3362,7 @@ Full node 透過接受傳入的連線，為網路增加更多的價值。listen=
 - `torcontrol=127.0.0.1:9051`,
 - proxyrandomize=1`、
 - `listen=1`、
-- bind=127.0.0.1`、
+- `bind=127.0.0.1`,
 - `upnp=0`、
 - natpmp=0`。
 
@@ -3418,7 +3418,7 @@ Full node 透過接受傳入的連線，為網路增加更多的價值。listen=
 
 
 
-- blocksonly=1`：停用接受和重新傳送從對等點收到的未確認交易 (除非授予特殊權限)。節點現在只上傳和公告區塊。本機建立的交易仍可廣播 (以使用您的節點與您的 Wallet 軟體)。這大大降低了頻寬和 RAM 的需求，儘管代價是降低了中繼的實用性，以及完全不熟悉 Mempool。
+- `blocksonly=1` ：停用接受和轉發從節點接收的未確認交易（特殊許可除外）。節點僅下載並宣告區塊。本地建立的交易仍可廣播（用於將節點與錢包軟體結合使用）。這大大降低了頻寬和RAM需求，但也減少了中繼的實用性，並使節點對記憶體池完全不了解。
 
 
 
@@ -3448,7 +3448,7 @@ Full node 透過接受傳入的連線，為網路增加更多的價值。listen=
 
 
 
-- datacarrier=1`：允許透過 `OP_RETURN` 輸出中繼和（如果 Mining 透過節點）包含載有非財務資料的交易（預設：`1`）。停用此參數可稍微減少非財務資料垃圾郵件的表面面積，但代價是降低與某些用途的相容性。在任何情況下，您都必須接受已挖掘的 `OP_RETURN`。
+- `datacarrier=1` ：允許中繼並（若透過節點挖礦）透過 `OP_RETURN` 輸出包含非金融資料的交易（預設值：`1`）。停用此參數可略微減少非金融資料垃圾訊息的範圍，但會降低與某些用途的相容性。無論如何，您必須接受已挖出的 `OP_RETURN`。
 
 
 
@@ -3490,13 +3490,13 @@ Full node 透過接受傳入的連線，為網路增加更多的價值。listen=
 
 
 
-- peerbloomfilters=1`：啟用對 Bloom 過濾器 (BIP37) 的支援，將過濾過的區塊/交易提供給瘦客戶端 (預設值：`0`)。警告：這會增加您的資源負載。
+- `peerbloomfilters=1` ：啟用 Bloom 篩選器（BIP37）支援，為輕量用戶端提供已篩選的區塊/交易（預設值：`0`）。注意，這會增加系統資源的負載。
 
 
 
 
 
-- peerblockfilters=1`：將 BIP157 (*Neutrino*) 精簡過濾器提供給對等（預設值：`0`）。
+- `peerblockfilters=1` ：向節點提供緊湊型 BIP157（*Neutrino*）過濾器（預設值：`0`）。
 
 
 
@@ -3520,7 +3520,7 @@ Full node 透過接受傳入的連線，為網路增加更多的價值。listen=
 
 
 
-- addresstype=<legacy|P2SH-SegWit|bech32|bech32m>`：定義接收 Wallet 產生的位址格式。
+- `addresstype=<legacy|p2sh-segwit|bech32|bech32m>` ：定義錢包為接收而產生的地址格式。
 
 
 
@@ -3568,7 +3568,7 @@ Full node 透過接受傳入的連線，為網路增加更多的價值。listen=
 
 
 
-- fallbackfee=<amt>`：當估計器耗盡資料時使用的回退費率 (BTC/kvB)（預設：`0.00`）。將其設定為 0 會完全停用回退。
+- `fallbackfee=<amt>` ：當估算器缺少資料時使用的備用費率（BTC/kvB）（預設值：`0.00`）。將其設為0會完全停用備用機制。
 
 
 
@@ -3660,7 +3660,7 @@ Full node 透過接受傳入的連線，為網路增加更多的價值。listen=
 
 
 
-- txindex=1`：建立並維護已確認交易的全局索引。對於某些查詢 (`getrawtransaction`非 Wallet) 和探索目的而言是必要的，但會大幅增加磁碟佔用空間。與 pruned 模式不相容。
+- `txindex=1` ：建立並維護已確認交易的全域索引。對於某些查詢（錢包外的 `getrawtransaction`）及探索用途是必要的，但會顯著增加磁碟使用量。與修剪模式不相容。
 
 
 

@@ -32,7 +32,7 @@ Once installed, you can create a new wallet and save the 12 recovery words, or i
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-With Blue Wallet you can create separate, dedicated Bitcoin portfolios. For example, you can have one wallet for your savings and another for your daily expenses, all in the same application.
+With Blue Wallet you can create separate, dedicated Bitcoin wallets. For example, you can have one wallet for your savings and another for your daily expenses, all in the same application.
 
 
 ![home](assets/fr/02.webp)
@@ -41,13 +41,13 @@ With Blue Wallet you can create separate, dedicated Bitcoin portfolios. For exam
 ## Portfolio types
 
 
-In Blue Wallet, you'll find two native Bitcoin portfolio types.
+In Blue Wallet, you'll find two native Bitcoin wallet types.
 
 
-### Bitcoin portfolio
+### Bitcoin wallet
 
 
-If you're used to other Bitcoin portfolios like Phoenix or Aqua, you won't be at all out of step on Interface with Blue Wallet's Bitcoin portfolio.
+If you're used to other Bitcoin wallets like Phoenix or Aqua, you won't be at all out of step on Interface with Blue Wallet's Bitcoin wallet.
 
 
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
@@ -58,7 +58,7 @@ https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe389
 Blue Wallet's Bitcoin wallet represents the standard wallet in the Bitcoin ecosystem. You can spend bitcoins as long as you are in possession of the recovery words that will provide a valid signature on the network to authenticate that you own the bitcoins.
 
 
-To create a Bitcoin portfolio, click on the **Add now** button, insert the name of your portfolio and choose the Bitcoin type.
+To create a Bitcoin wallet, click on the **Add now** button, insert the name of your wallet and choose the Bitcoin type.
 
 
 ![bitcoin-wallet](assets/fr/03.webp)
@@ -127,10 +127,10 @@ You can remove one or all recipients by clicking on **Remove Recipient** and **R
 The Multisig (multi-signature) wallet represents a wallet created from the grouping of a certain number (minimum 2) of Bitcoin wallets. In this type of wallet, depending on the configuration and method chosen, spending bitcoins becomes a collective and cooperative action.
 
 
-In Blue Wallet, you can create multi-signature portfolios for your association, your family, your company. Throughout this section, we'll explore every aspect of this special type of portfolio.
+In Blue Wallet, you can create multi-signature wallets for your association, your family, your company. Throughout this section, we'll explore every aspect of this special type of wallet.
 
 
-Add a new portfolio and select type **Multisig Vault** to create a multi-signature portfolio.
+Add a new wallet and select type **Multisig Vault** to create a multi-signature wallet.
 
 
 ![multisig-vault](assets/fr/10.webp)
@@ -139,7 +139,7 @@ Add a new portfolio and select type **Multisig Vault** to create a multi-signatu
 Define the m-de-n configuration in your multi-signature organization by clicking on **Vault Settings**.
 
 
-⚠️ In an m-of-n configuration, **m** represents the minimum number of signatures required to approve a transaction and **n** the number of portfolios in your organization.
+⚠️ In an m-of-n configuration, **m** represents the minimum number of signatures required to approve a transaction and **n** the number of wallets in your organization.
 
 
 Be sure to define a minimum number of signatures (m) for the majority of your organization. For example, a 2-of-3 multi-signature configuration requires two wallets in your organization to sign the transaction before it can be carried out.
@@ -168,7 +168,7 @@ Keep to best practice by selecting the P2WSH format.
 ❗ **[P2WSH](https://planb.network/resources/glossary/p2wsh) or Pay to Witness Script Hash** is a locking method that locks your transaction's outgoing bitcoins (Outputs) to the Hash of a custom script that Blue Wallet sets up. The main advantage of this type of locking is that it reduces transaction data size and implicitly allows you to pay lower transaction fees.
 
 
-Create or import each of the **n** portfolios in your configuration. In our tutorial, we'll be using a 2-of-3 multi-signature configuration. Be sure to save the recovery words for each portfolio individually.
+Create or import each of the **n** wallets in your configuration. In our tutorial, we'll be using a 2-of-3 multi-signature configuration. Be sure to save the recovery words for each wallet individually.
 
 
 ![vault-keys](assets/fr/12.webp)
@@ -191,7 +191,7 @@ Receiving bitcoins in a multi-signature wallet is the same process as when you a
 By managing a multi-signature wallet, spending bitcoins becomes a compound action, whether with other people or a second wallet of your own. The single signature of your wallet is no longer sufficient. This adds a layer of security to your bitcoins, because a malicious individual will not be able to spend those bitcoins when he comes into possession of just one of your private keys.
 
 
-Like the standard Bitcoin portfolio of Blue Wallet, you can define multiple recipients in the **Add recipients** option.
+Like the standard Bitcoin wallet of Blue Wallet, you can define multiple recipients in the **Add recipients** option.
 
 
 When validating your transaction, you'll need a second signature to approve the spending of the bitcoins. Remember, we're in a 2-de-3 multi-signature configuration.
@@ -204,13 +204,13 @@ The second wallet signatory, if he or she is also a user, can sign the transacti
 
 
 
-- Go further with the **Multi signature** portfolio:
+- Go further with the **Multi signature** wallet:
 
 
 On the Interface of your multi-signature wallet, click on the **Manage keys** button.
 
 
-By forgetting one of the recovery words of one of the signatory portfolios (**Forget this seed...**), you notify Blue Wallet to delete the backup of these words from its memory. You will therefore have made an external backup.
+By forgetting one of the recovery words of one of the signatory wallets (**Forget this seed...**), you notify Blue Wallet to delete the backup of these words from its memory. You will therefore have made an external backup.
 
 
 ![revoke-key](assets/fr/14.webp)
@@ -225,7 +225,7 @@ By performing this action, you keep only the public key associated with these re
 ## More options with Blue Wallet
 
 
-### Improving portfolio access security
+### Improving wallet access security
 
 
 In Settings, the **Security** option lets you define the use of a fingerprint to carry out a transaction, export or delete your wallet. This authenticates the person using your smartphone.

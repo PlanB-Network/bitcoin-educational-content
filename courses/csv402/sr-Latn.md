@@ -1,14 +1,11 @@
 ---
-name: RGB protokol, od teorije do prakse
+name: RGB programiranje
 goal: Steknite veštine potrebne za razumevanje i korišćenje RGB
-objectives: 
-
-  - Razumeti osnovne koncepte RGB protokola
-  - Savladajte principe obaveza Client-side Validation i Bitcoin
-  - Naučite kako kreirati, upravljati i prenositi RGB ugovore
-  - Kako upravljati Lightning čvorom kompatibilnim sa RGB
-
-
+objectives:
+- Razumeti osnovne koncepte RGB protokola
+- Savladajte principe obaveza Client-side Validation i Bitcoin
+- Naučite kako kreirati, upravljati i prenositi RGB ugovore
+- Kako upravljati Lightning čvorom kompatibilnim sa RGB
 ---
 # Otkriće RGB protokola
 

@@ -6,7 +6,7 @@ description: Kaufen und verkaufen Sie Bitcoins mit der Bitstack-Anwendung
 
 Bitstack ist eine französische Bitcoin-Anlageplattform, die von der AMF als PSAN reguliert wird. Sie bietet eine für Android und iOS verfügbare App für den einfachen Kauf und Verkauf von Bitcoin.
 
-Das Besondere an Bitstack ist sein automatisches Rundungssystem, das das Bankkonto des Nutzers synchronisiert, um die Differenz zwischen dem bei den täglichen Ausgaben abgebuchten Betrag und dem nächsthöheren Euro direkt in Bitcoins umzurechnen. Diese Methode erleichtert die Anwendung des *Dollar Cost Averaging* (DCA) und ermöglicht eine allmähliche und schmerzlose Anhäufung von Satoshis. Zusätzlich zu dieser originellen Funktion bietet die Plattform auch ein klassisches DCA-System mit automatischen Investitionen sowie Spot-Kauf und -Verkauf.
+Was Bitstack auszeichnet, ist sein automatisches Aufrundungssystem, das das Bankkonto des Nutzers synchronisiert, um die Differenz zwischen dem bei täglichen Ausgaben abgebuchten Betrag und dem nächsthöheren Euro direkt in Bitcoin umzuwandeln. Diese Methode erleichtert die Anwendung des *Dollar Cost Averaging* (DCA), indem sie eine schrittweise und schmerzfreie Ansammlung von Satoshis ermöglicht. Neben dieser originellen Funktion bietet die Plattform auch ein klassisches DCA-System mit automatischen Investitionen sowie einmaligen Käufen und Verkäufen an.
 
 ![Image](assets/fr/01.webp)
 
@@ -110,7 +110,7 @@ Wie in der Einleitung erwähnt, bietet Bitstack 3 Methoden für die Investition 
 - Konfiguration wiederkehrender Käufe (RPC) ;
 - Die Verwendung der automatischen Rundung von Ausgaben.
 
-### Einkaufen mit Bargeld
+### Einen einmaligen Kauf tätigen
 
 Um einen einmaligen Kauf von Bitcoins zum Marktpreis zu tätigen, klicken Sie einfach auf "*Kaufen*".
 

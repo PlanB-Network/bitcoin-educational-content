@@ -1,22 +1,19 @@
 ---
 name: Bitcoin kwa Biashara
 goal: Jifunze malipo na misingi ya hazina ili uingie kwenye kampuni yako kwenye Bitcoin
-objectives: 
-
-  - Bitcoin kama sarafu inayoibuka na zana ya biashara
-  - Elewa kwa nini na jinsi biashara inaweza kushikilia Bitcoin katika hazina au kuitumia kwa malipo
-  - Kuwa na wazo halisi jinsi ya kukubali malipo ya Bitcoin kwa vitendo
-  - Kuwa tayari kwa ajili ya kusimamia mahitaji ya fedha na uhasibu
-
+objectives:
+- Gundua Bitcoin kama sarafu inayochipuka na zana ya biashara
+- Elewa kwa nini na jinsi biashara inaweza kushikilia bitcoin katika hazina au kuitumia kwa malipo
+- Kuwa na wazo halisi la jinsi ya kukubali malipo ya Bitcoin kwa vitendo
+- Kuwa tayari kusimamia mahitaji ya kodi na uhasibu
 ---
 # Anzisha safari ya kampuni yako kwenye mtandao wa Bitcoin
 
-Gundua uwezo wa kiutendaji wa Bitcoin na Lightning Network, na uchunguze jinsi, kama vile mtandao, wanavyoweza **kubadilisha shughuli za biashara yako**. Kuanzia mtaji wa kidijitali hadi malipo ya haraka, ya kiuchumi na yanayoweza kuongezeka, Bitcoin inatoa wigo mkubwa wa **kesi za utumiaji kwa biashara**.
+Gundua uwezo wa vitendo wa Bitcoin na Lightning Network, na chunguza jinsi, kama vile mtandao wa intaneti, wanaweza kubadilisha shughuli za biashara yako. Kutoka kwa hazina hadi malipo ya haraka, ya kiuchumi, na yanayoweza kupanuliwa, Bitcoin inatoa wigo mpana wa matumizi kwa biashara.
 
-Katika mwongozo huu wote, utajifunza jinsi ya kuelewa Bitcoin kama mtandao wa fedha wa kimataifa, wa kimataifa na wa asili wa mtandao. Kwa sifa zake za kipekee za kimsingi, **Bitcoin hutoa maboresho makubwa dhidi ya mitandao ya kawaida ya sarafu**. Utagundua ni kwa nini na jinsi ya kutumia Bitcoin kwa matumizi ya kawaida ya kifedha kama vile uhifadhi wa mtaji na mifumo ya malipo. Zaidi ya hayo, mwongozo huu utashughulikia kupata na kushikilia Bitcoin, ikijumuisha mahitaji yanayohusiana ya uhasibu na fedha, pamoja na kutekeleza masuluhisho rahisi au makubwa ya malipo ya Bitcoin.
+Katika kozi hii, utajifunza jinsi ya kuelewa Bitcoin kama mtandao wa fedha wa kimataifa, wa ulimwengu wote, na wa asili ya intaneti. Kwa sifa zake za msingi za kipekee, Bitcoin inatoa maboresho makubwa juu ya sarafu za jadi. Utagundua kwa nini na jinsi ya kutumia Bitcoin kwa matumizi ya kifedha ya kawaida kama vile uhifadhi wa mtaji na mifumo ya malipo. Zaidi ya hayo, kozi hii itashughulikia upatikanaji na kushikilia Bitcoin, ikiwa ni pamoja na mahitaji ya uhasibu na kodi yanayohusiana, pamoja na utekelezaji wa suluhisho rahisi au za kiwango kikubwa za malipo ya Bitcoin.
 
-Iwe wewe ni **biashara ndogo au shirika kubwa**, kuunganisha Bitcoin katika shughuli zako za kila siku kunaweza kuifanya kampuni yako **istahimilivu, yenye tija na shindani** zaidi. Kila kampuni inayotumia mtandao itakuwa kampuni inayolenga Bitcoin, na kozi hii inahakikisha kuwa umejitayarisha. Sehemu za mwanzo zinarejelea misingi ya uendeshaji wa Bitcoin, kwa hivyo hata kama wewe ni mwanzilishi, utapata ujuzi wa kimsingi unaohitajika ili kuendelea. Kujifunza misingi ya uvumbuzi wa Satoshi daima ni wazo zuri, iwe kabla au baada ya kupiga mbizi kwenye BIZ101.
-
+Iwe wewe ni biashara ndogo au shirika kubwa, kuunganisha Bitcoin katika shughuli zako za kila siku kunaweza kufanya kampuni yako iwe imara zaidi, yenye tija zaidi, na yenye ushindani zaidi. Kila kampuni inayotegemea intaneti itakuwa kampuni inayolenga Bitcoin, na kozi hii inahakikisha kuwa uko tayari.
 +++
 # Utangulizi
 

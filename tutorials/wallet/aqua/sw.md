@@ -1,17 +1,17 @@
 ---
 name: Aqua
-description: Bitcoin, Umeme na Liquid katika Wallet moja
+description: Bitcoin, Lightning na Liquid katika Wallet moja
 ---
 ![cover](assets/cover.webp)
 
 
-Aqua ni programu ya rununu ambayo hurahisisha kuunda Hot Wallet kwa Bitcoin na Liquid, na pia inatoa uwezekano wa kutumia Umeme bila ugumu wa kudhibiti nodi, shukrani kwa ubadilishaji jumuishi. Pia huwezesha sarafu za sarafu za USDT kusimamiwa kwenye mitandao mbalimbali.
+Aqua ni programu ya rununu ambayo hurahisisha kuunda Hot Wallet kwa Bitcoin na Liquid, na pia inatoa uwezekano wa kutumia Lightning bila ugumu wa kudhibiti node, shukrani kwa ubadilishaji jumuishi. Pia huwezesha USDT na sarafu-fiche nyingine kusimamiwa kwenye mitandao mbalimbali.
 
 
 Iliyoundwa na kampuni ya JAN3 chini ya uelekezi wa Samson Mow, programu ya Aqua awali iliundwa mahususi kwa mahitaji ya watumiaji katika Amerika ya Kusini, ingawa inafaa kwa mtumiaji yeyote duniani kote. Inavutia sana kwa wanaoanza na wale wanaotumia Bitcoin kila siku kwa malipo yao.
 
 
-Katika somo hili, tutajua jinsi ya kutumia vipengele vingi vya Aqua. Lakini kabla hatujafanya hivyo, hebu tuchukue muda kuelewa Sidechain ni nini kwenye Bitcoin na jinsi Liquid inavyofanya kazi, ili tuweze kufahamu kikamilifu thamani ya Aqua.
+Katika somo hili, tutajua jinsi ya kutumia Elements nyingi za Aqua. Lakini kabla hatujafanya hivyo, hebu tuchukue muda kuelewa Sidechain ni nini kwenye Bitcoin na jinsi Liquid inavyofanya kazi, ili tuweze kufahamu kikamilifu thamani ya Aqua.
 
 
 ![AQUA](assets/fr/01.webp)
@@ -20,25 +20,24 @@ Katika somo hili, tutajua jinsi ya kutumia vipengele vingi vya Aqua. Lakini kabl
 ## Sidechain ni nini?
 
 
-Itifaki ya Bitcoin ina mapungufu ya kiufundi ya kimakusudi ambayo husaidia kudumisha ugatuaji wa mtandao na kuhakikisha usalama unasambazwa kati ya watumiaji wote. Hata hivyo, vikwazo hivi wakati mwingine vinaweza kuwakatisha tamaa watumiaji, hasa wakati wa msongamano kutokana na kiasi kikubwa cha miamala ya wakati mmoja. Mjadala juu ya kuongezeka kwa Bitcoin kwa muda mrefu umegawanya jumuiya, hasa wakati wa Vita vya Blocksize. Tangu kipindi hiki, inatambulika kwa mapana ndani ya jumuiya ya Bitcoin kwamba upunguzaji lazima uhakikishwe na suluhu za off-chain, kwenye mifumo ya pili ya Layer. Suluhu hizi ni pamoja na minyororo ya kando, ambayo bado haijulikani na inatumika kidogo ikilinganishwa na mifumo mingine kama vile Lightning Network.
+Protocol ya Bitcoin ina mapungufu ya kiufundi ya kimakusudi ambayo husaidia kudumisha ugatuaji wa mtandao na kuhakikisha usalama unasambazwa kati ya watumiaji wote. Hata hivyo, vikwazo hivi wakati mwingine vinaweza kuwakatisha tamaa watumiaji, hasa wakati wa msongamano kutokana na kiasi kikubwa cha miamala ya wakati mmoja. Mjadala juu ya kuongezeka kwa Bitcoin kwa muda mrefu umegawanya jumuiya, hasa wakati wa Vita vya Blocksize. Tangu kipindi hiki, inatambulika kwa mapana ndani ya jumuiya ya Bitcoin kwamba upunguzaji lazima uhakikishwe na suluhu za off-chain, kwenye mifumo ya pili ya Layer. Suluhu hizi ni pamoja na sidechain, ambayo bado haijulikani na inatumika kidogo ikilinganishwa na mifumo mingine kama vile Lightning Network.
 
 
 Sidechain ni Blockchain inayojitegemea inayofanya kazi sambamba na Bitcoin Blockchain kuu. Inatumia Bitcoin kama kitengo cha akaunti, kutokana na utaratibu unaoitwa "*two-njia peg*". Mfumo huu hufanya iwezekanavyo kufungia bitcoins kwenye mlolongo kuu ili kuzalisha thamani yao kwenye Sidechain, ambapo huzunguka kwa namna ya ishara zinazoungwa mkono na bitcoins za awali. Tokeni hizi kawaida huhifadhi usawa wa thamani na bitcoins zimefungwa kwenye mnyororo mkuu, na mchakato unaweza kubadilishwa ili kurejesha fedha kwenye Bitcoin.
 
 
-Madhumuni ya minyororo ya pembeni ni kutoa utendaji wa ziada au maboresho ya kiufundi, kama vile miamala ya haraka, ada za chini au usaidizi wa mikataba mahiri. Ubunifu huu hauwezi kila wakati kutekelezwa moja kwa moja kwenye Bitcoin Blockchain bila kuathiri ugatuaji au usalama wake. Kwa hivyo, minyororo ya pembeni hufanya iwezekane kujaribu na kutafuta suluhu mpya huku ikihifadhi uadilifu wa Bitcoin. Hata hivyo, itifaki hizi mara nyingi huhitaji maafikiano, hasa katika suala la ugatuaji na usalama, kulingana na mtindo wa utawala na utaratibu wa makubaliano uliochaguliwa.
+Madhumuni ya Sidechain ni kutoa utendaji wa ziada au maboresho ya kiufundi, kama vile miamala ya haraka, ada za chini au usaidizi wa smart contracts. Ubunifu huu hauwezi kila wakati kutekelezwa moja kwa moja kwenye Bitcoin Blockchain bila kuathiri ugatuaji au usalama wake. Kwa hivyo, Sidechain hufanya iwezekane kujaribu na kutafuta suluhu mpya huku ikihifadhi uadilifu wa Bitcoin. Hata hivyo, itifaki hizi mara nyingi huhitaji maafikiano, hasa katika suala la ugatuaji na usalama, kulingana na mtindo wa utawala na utaratibu wa makubaliano uliochaguliwa.
 
 
 ## Liquid ni nini?
 
 
-Liquid ni wekeleo lililoshirikishwa la Sidechain kwa Bitcoin, lililotengenezwa na Blockstream ili kuboresha kasi ya muamala, usiri na utendakazi. Inatumia utaratibu wa kuunganisha nchi mbili ulioanzishwa kwenye shirikisho ili kufunga bitcoins kwenye mnyororo mkuu na kuunda Liquid-bitcoins (L-BTC) kwa malipo, tokeni zinazozunguka kwenye Liquid huku zikisaidiwa na bitcoins asili.
+Liquid ni federated Sidechain kwa Bitcoin, lililotengenezwa na Blockstream ili kuboresha kasi ya muamala, faragha na utendakazi. Inatumia utaratibu wa kuunganisha nchi mbili ulioanzishwa kwenye shirikisho ili kufunga bitcoins kwenye main chain na kuunda Liquid-bitcoins (L-BTC) kwa malipo, tokens zinazozunguka kwenye Liquid huku zikisaidiwa na bitcoins asili..
 
 
 ![AQUA](assets/fr/02.webp)
 
-
-Liquid Network inategemea shirikisho la washiriki, linaloundwa na vyombo vinavyotambulika kutoka kwa mfumo ikolojia wa Bitcoin, ambao huidhinisha vizuizi na kudhibiti upigaji kura baina ya nchi. Mbali na L-BTC, Liquid pia huwezesha utoaji wa mali nyingine za kidijitali, kama vile USDT stablecoin na fedha nyinginezo za siri.
+Liquid Network inategemea federation ya washiriki, ambayo inaundwa na vyombo vinavyotambulika kutoka kwenye mfumo ikolojia wa Bitcoin, ambavyo vinasaini blocks na kudhibiti upigaji kura kati ya wanachama. Mbali na L-BTC, Liquid pia huwezesha utoaji wa USDT stablecoin na sarafu-fiche nyingine.
 
 
 ![AQUA](assets/fr/03.webp)
@@ -125,7 +124,7 @@ Sasa kwa kuwa Wallet yako imesanidiwa, uko tayari kupokea Sats yako ya kwanza! B
 ![AQUA](assets/fr/12.webp)
 
 
-Unaweza kuchagua kupokea bitcoins onchain, kwenye Liquid, au kupitia Umeme.
+Unaweza kuchagua kupokea bitcoins onchain, kwenye Liquid, au kupitia Lightning.
 
 
 ![AQUA](assets/fr/13.webp)
@@ -155,20 +154,18 @@ Kisha bonyeza "*generate Invoice*".
 ![AQUA](assets/fr/17.webp)
 
 
-Aqua itaunda Invoice ili kupokea pesa kutoka kwa Umeme Wallet. Tafadhali kumbuka kuwa, tofauti na chaguzi za onchain na Liquid, pesa zilizopokelewa kupitia Umeme zitabadilishwa kiotomatiki hadi L-BTC kwenye Liquid kwa kutumia zana ya Boltz, kwani Aqua sio nodi ya Umeme. Utaratibu huu hukuruhusu kupokea na kutuma pesa kupitia Umeme, lakini bila kuhifadhi bitcoins zako kwenye Umeme.
+Aqua itaunda Invoice ili kupokea pesa kutoka kwa Lightning Wallet. Tafadhali kumbuka kuwa, tofauti na chaguzi za onchain na Liquid, pesa zilizopokelewa kupitia Lightning zitabadilishwa kiotomatiki hadi L-BTC kwenye Liquid kwa kutumia zana ya Boltz, kwani Aqua sio node ya Lightning. Utaratibu huu hukuruhusu kupokea na kutuma pesa kupitia Lightning, lakini bila kuhifadhi bitcoins zako kwenye Lightning.
 
 
 ![AQUA](assets/fr/18.webp)
 
 
-Binafsi, nitaanza kwa kutuma bitcoins kupitia Umeme kwa Aqua. Baada ya shughuli kukamilika na Invoice iliyotolewa, tunapokea uthibitisho.
-
+Binafsi, nitaanza kwa kutuma bitcoins kupitia Lightning kwa Aqua. Baada ya muamala kukamilika na Invoice iliyotolewa, tunapokea uthibitisho.
 
 ![AQUA](assets/fr/19.webp)
 
 
-Ili kufuata maendeleo ya ubadilishanaji, rudi kwenye ukurasa wako wa nyumbani wa Wallet na ubofye akaunti ya "*L2 Bitcoin*", ambayo huorodhesha miamala ya Umeme (kupitia kubadilishana) na Liquid.
-
+Ili kufuata maendeleo ya ubadilishanaji, rudi kwenye ukurasa wako wa nyumbani wa Wallet na ubofye akaunti ya "*L2 Bitcoin*", ambayo huorodhesha miamala ya Lightning (kupitia exchange) na Liquid.
 
 ![AQUA](assets/fr/20.webp)
 
@@ -182,7 +179,7 @@ Hapa unaweza kuona muamala wako na salio lako la L-BTC.
 ## Bitcoin kubadilishana na Aqua
 
 
-Kwa kuwa sasa una vipengee katika Aqua Wallet yako, unaweza kuzibadilisha moja kwa moja kutoka kwa programu, ama kuzihamisha hadi Bitcoin Blockchain kuu, au kwa Liquid. Unaweza pia kubadilisha bitcoins zako kuwa USDT stablecoin (au zingine). Ili kufanya hivyo, nenda kwenye menyu ya "*Soko*".
+Kwa kuwa sasa una vipengee katika Aqua Wallet yako, unaweza kuzibadilisha moja kwa moja kutoka kwa programu, ama kuzihamisha hadi Bitcoin Blockchain kuu, au kwa Liquid. Unaweza pia kuexchange bitcoins zako kuwa USDT stablecoin (au zingine). Ili kufanya hivyo, nenda kwenye menyu ya "*Soko*".
 
 
 ![AQUA](assets/fr/22.webp)
@@ -224,7 +221,7 @@ Hakikisha kuwa umefurahishwa na mipangilio ya kubadilishana, kisha uthibitishe k
 ![AQUA](assets/fr/28.webp)
 
 
-Ubadilishanaji wako sasa umethibitishwa.
+exchange yako sasa imethibitishwa.
 
 
 ![AQUA](assets/fr/29.webp)
@@ -251,7 +248,7 @@ Chagua kipengee unachotaka kutuma au chagua mtandao ili kutekeleza muamala. Kwa 
 ![AQUA](assets/fr/32.webp)
 
 
-Ifuatayo, ingiza habari inayohitajika kutuma malipo: kwa bitcoins za onchain au Liquid, utahitaji kuingiza Address inayopokea; kwa Umeme, Invoice inahitajika. Unaweza kubandika maelezo haya moja kwa moja kwenye sehemu uliyopewa, au tumia aikoni ya msimbo wa QR kufungua kamera yako na kuchanganua Address au Invoice. Kisha bonyeza "*Endelea*".
+Ifuatayo, ingiza habari inayohitajika kutuma malipo: kwa bitcoins za onchain au Liquid, utahitaji kuingiza Address inayopokea; kwa Lightning, Invoice inahitajika. Unaweza kubandika maelezo haya moja kwa moja kwenye sehemu uliyopewa, au tumia aikoni ya msimbo wa QR kufungua kamera yako na kuchanganua Address au Invoice. Kisha bonyeza "*Endelea*".
 
 
 ![AQUA](assets/fr/33.webp)

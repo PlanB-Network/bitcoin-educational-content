@@ -1,11 +1,11 @@
 ---
-name: Le protocole RGB, de la théorie à la pratique
+name: Programmation RGB
 goal: Acquérir les compétences nécessaires pour comprendre et utiliser RGB
 objectives:
-  - Comprendre les concepts fondamentaux du protocole RGB
-  - Maîtriser les principes de la validation côté client et des engagements sur Bitcoin
-  - Apprendre à créer, gérer et transférer des contrats RGB
-  - Savoir opérer un noeud Lightning compatible avec RGB
+- Comprendre les concepts fondamentaux du protocole RGB
+- Maîtriser les principes de la validation côté client et des engagements sur Bitcoin
+- Apprendre à créer, gérer et transférer des contrats RGB
+- Savoir opérer un noeud Lightning compatible avec RGB
 ---
 
 # À la découverte du protocole RGB

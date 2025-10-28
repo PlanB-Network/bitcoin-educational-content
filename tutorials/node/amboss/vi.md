@@ -147,7 +147,7 @@ Trong phần **Kênh**, bạn sẽ thấy danh sách các kênh đang mở và k
 
 - Tỷ lệ đầu vào**: Số tiền mà nút sẽ tính phí cho bạn cho mỗi triệu Satoshi mà nó nhận được, tùy thuộc vào kênh được chọn.
 - Tỷ lệ (phần triệu)**: biểu thị số Satoshi trên một triệu đơn vị mà nút sẽ tính phí khi bạn quyết định thanh toán qua một trong các kênh của nó. Giả sử bạn quyết định thanh toán `10_000 Sats` qua một kênh có tỷ lệ ppm là `500 Sats`, bạn sẽ phải trả cho nút `10_000 * 500 / 1_000_000` satoshi, tương đương với `5 Sats`.
-- [HTLC](https://planb.network/resources/glossary/HTLC) tối đa**: Số lượng tối đa mà nút này cho phép bạn chuyển qua một trong các kênh này.
+- [HTLC](https://planb.network/resources/glossary/htlc) tối đa**: Số lượng tối đa mà nút này cho phép bạn chuyển qua một trong các kênh này.
 
 
 

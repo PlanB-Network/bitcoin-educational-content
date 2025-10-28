@@ -1,0 +1,25 @@
+id: 2b6aeed9-058e-47e5-ac9a-371ac4497cb8
+
+project_id: 50b37aab-a064-4d56-8ae6-3678bda2efeb
+
+tags:
+  - hardware
+  - wallets
+  - guides
+
+category: hardware
+
+level: beginner
+
+professor_id: bb9c6872-75a6-4987-ab72-0fd6e03b5e8d
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-10-05
+    urgency: 1
+    contributor_names:
+      - man-orangepeel
+    reward: 0

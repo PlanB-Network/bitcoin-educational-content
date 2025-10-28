@@ -147,7 +147,7 @@ Nella sezione **Canali**, viene visualizzato l'elenco dei canali aperti e le con
 
 - Rapporto in entrata**: L'importo che il nodo addebiterà per ogni milione di Satoshi che riceve, a seconda del canale scelto.
 - Il rapporto (parti per milione)** : rappresenta il numero di Satoshi per milione di unità che il nodo addebiterà all'utente quando decide di effettuare un pagamento tramite uno dei suoi canali. Supponiamo che decidiate di effettuare un pagamento di `10_000 Sats` attraverso un canale il cui rapporto ppm è `500 Sats`, dovrete pagare al nodo `10_000 * 500 / 1_000_000` satoshi, equivalenti a `5 Sats`.
-- Il [HTLC](https://planb.network/resources/glossary/HTLC) massimo** : L'importo massimo che questo nodo consente di transitare attraverso uno di questi canali.
+- Il [HTLC](https://planb.network/resources/glossary/htlc) massimo** : L'importo massimo che questo nodo consente di transitare attraverso uno di questi canali.
 
 
 

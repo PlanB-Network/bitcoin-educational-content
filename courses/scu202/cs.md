@@ -4943,18 +4943,18 @@ Chcete-li zobrazit všechna metadata obsažená v souboru, použijte následují
 
 
 ```bash
-exiftool name.jpg
+exiftool name.webp
 ```
 
 
 
-Nahraďte `jméno.jpg` skutečným názvem souboru. Také se ujistěte, že jste umístěni v adresáři obsahujícím tento obrázek. Pokud mám například fotografii sochy Satoshi Nakamoto v adresáři `/Downloads`, mohu zobrazit její metadata spuštěním následujícího příkazu:
+Nahraďte `jméno.webp` skutečným názvem souboru. Také se ujistěte, že jste umístěni v adresáři obsahujícím tento obrázek. Pokud mám například fotografii sochy Satoshi Nakamoto v adresáři `/Downloads`, mohu zobrazit její metadata spuštěním následujícího příkazu:
 
 
 
 ```bash
 cd Downloads
-exiftool Satoshi-Nakamoto-Lugano.jpeg
+exiftool Satoshi-Nakamoto-Lugano.webp
 ```
 
 
@@ -4991,7 +4991,7 @@ Chcete-li ze souboru odstranit všechna nepotřebná metadata, použijte příka
 
 
 ```bash
-exiftool -all= name.jpg
+exiftool -all= name.webp
 ```
 
 
@@ -5013,7 +5013,7 @@ Pokud nechcete původní soubor zachovat, můžete jej odstranit příkazem:
 
 
 ```bash
-exiftool -all= -overwrite_original name.jpg
+exiftool -all= -overwrite_original name.webp
 ```
 
 
@@ -5037,12 +5037,12 @@ Pokud máte ve stejném adresáři několik souborů ke zpracování, můžete p
 
 
 ```bash
-exiftool -all= *.jpeg
+exiftool -all= *.webp
 ```
 
 
 
-Tím se odstraní metadata všech souborů JPEG v aktuálním adresáři. Příponu můžete upravit podle svých potřeb (`*.png`, `*.pdf`...).
+Tím se odstraní metadata všech souborů JPEG v aktuálním adresáři. Příponu můžete upravit podle svých potřeb (`*.webp`, `*.pdf`...).
 
 
 

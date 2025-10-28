@@ -8,7 +8,7 @@ description: Gugura no kugurisha amafaranga y'ibiceri ku rubuga rwa Bitstack
 Bitstack ni urubuga rw’ishoramari rw’Abafaransa Bitcoin, rugenzurwa na PSAN na AMF. Itanga app iboneka kuri Android na iOS kugira ngo umuntu ashobore kugura no kugurisha Bitcoin mu buryo bworoshe.
 
 
-Igitandukanya Bitstack ni uburyo bwayo bwo guzunguruka, buhuza konti ya banki y’uwukoresha kugira ngo ihindure itandukaniro hagati y’amahera yashizwe mu gihe c’ugukoresha amahera ku musi n’iyi euro ikurikira, ataco ihinduye mu bitcoins. Ubwo buryo buratuma umuntu ashobora gukoresha *Dollar Cost Averaging* (DCA), bikaba bituma umuntu ashobora kwirundanira buhoro buhoro amasatoshi ata kubabara. Uretse iki kintu c’intango, iyo nzira iratanga kandi ubuhinga bwa kera bwa DCA bufise amafaranga yikora, hamwe n’ugugura no kugurisha aho hantu.
+Ikintu gitandukanya Bitstack ni sisitemu yayo yo gukomatanya mu buryo bwikora, ikahuza konti ya banki y’umukoresha kugira ihindure itandukaniro riri hagati y’amafaranga yakoreshejwe mu mafaranga y’iminsi yose n’euro ikurikiyeho ako kanya ibe bitcoin. Ubu buryo butuma gukoresha *Dollar Cost Averaging* (DCA) byoroha, kuko butuma umuntu akusanya satoshi gahoro gahoro atababaye. Usibye iyi mikorere idasanzwe, uru rubuga rutanga kandi sisitemu isanzwe ya DCA ifite ishoramari rikora ryikora hamwe n’ibikorwa byo kugura no kugurisha rimwe na rimwe.
 
 
 ![Image](assets/fr/01.webp)
@@ -160,7 +160,7 @@ Nk’uko vyavuzwe mu ntangamarara, Bitstack itanga uburyo 3 bwo gushiramwo amahe
 - Ikoreshwa ry’uguzunguruka kwihuta ku mahera akoreshwa.
 
 
-### Gugura n'amahera
+### Gukora igura rimwe gusa
 
 
 Kugira ngo ugure rimwe gusa ama bitcoins kugiciro c'isoko, kanda gusa kuri "*Gura*".

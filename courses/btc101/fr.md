@@ -13,7 +13,7 @@ objectives:
 
 Dans ce cours, nous expliquerons les bases de Bitcoin en 25 chapitres, afin que vous puissiez comprendre cette technologie d'une manière simple et efficace. Le cours explore les bases de l'industrie dans son ensemble, y compris des sujets tels que le minage, les portefeuilles, les plateformes d'achat/vente, et plus encore. Du matériel pédagogique supplémentaire sera disponible tout au long du parcours, et nous vous invitons également à consulter les "21 affiches" dans la section des ressources une fois que vous aurez terminé ce cours.
 
-Vous n'avez besoin d'aucune connaissance spécifique pour commencer. En effet, le contenu suivant est accessible aux étudiants de tous niveaux, et il faut compter environ 15 heures pour le terminer.
+Aucune connaissance préalable n’est requise pour débuter ce cours. BTC 101 a été conçu pour être accessible à tous, quel que soit votre niveau d’expérience.
 
 +++
 
@@ -584,7 +584,7 @@ Bien entendu, les portefeuilles Bitcoin diffèrent selon les cas d'utilisation e
 
 ### La sécurité doit être adaptée
 
-Le montant que l'on est prêt à laisser sur un niveau de sécurité spécifique dépend de chaque individu. Pour certains, laisser 1 BTC sur un hot wallet est raisonnable, alors que pour d'autres, c'est le contraire. Dans tous les cas, lorsque vous souhaitez sécuriser un petit montant, nous vous conseillons de ne pas trop dépenser pour la sécurité en achetant un portefeuille physique. Par ailleurs, gardez à l'esprit que compliquer à l'excès la sécurité et l'accessibilité de vos bitcoins peut s'avérer préjudiciable, surtout si vous malmenez les sauvegardes de vos portefeuilles.
+Le montant que l'on est prêt à laisser sur un niveau de sécurité spécifique dépend de chaque individu. Pour certains, laisser 1 BTC sur un hot wallet est raisonnable, alors que pour d'autres, c'est le contraire. Dans tous les cas, lorsque vous souhaitez sécuriser un petit montant, nous vous conseillons de ne pas trop dépenser pour la sécurité en achetant un portefeuille physique. De plus, gardez à l’esprit que rendre la sécurité et l’accessibilité de vos bitcoins trop compliquées peut être préjudiciable, surtout si vous gérez mal les sauvegardes de vos portefeuilles.
 
 En conclusion, la propriété directe de ses bitcoins est un élément essentiel pour assurer sa souveraineté financière. Il est recommandé d'utiliser un portefeuille mobile pour les dépenses quotidiennes et un portefeuille physique hors ligne, ou "froid", pour stocker des montants plus importants. Les entreprises, quant à elles, devraient envisager d'utiliser des systèmes de multi-signature, ou "multisig", pour une sécurité accrue et partagée. Il est également essentiel d'éviter les services de garde, qui peuvent reproduire certaines vulnérabilités du système financier traditionnel.
 
@@ -608,7 +608,7 @@ Lorsque vous créez un portefeuille, le logiciel crée généralement votre clé
 
 - Couvrir toutes les caméras.
 - Ne prenez pas de photo de la liste de mots.
-- Ne le saisissez pas sur un ordinateur ou un téléphone.
+- Ne la saisissez pas sur un ordinateur ou un téléphone.
 - Ne l'enregistrez pas comme contact et ne vous l'envoyez pas par SMS.
 - Ne laissez jamais vos mots sans surveillance sur votre bureau.
 - Ne cachez jamais votre liste de mots dans un endroit inhabituel.
@@ -1201,7 +1201,6 @@ Il est essentiel de reconnaître que le KYC est un sujet de discussion important
 
 ### Solutions non-KYC
 
-:::video id=c0962e15-72fd-4072-b2e0-587e89ba1e61:::
 
 En outre, il existe plusieurs [places de marché](https://planb.network/tutorials/exchange) où l'on peut acheter et vendre des bitcoins dans le cadre d'un échange de pair à pair. D'une manière générale, vous pouvez prendre en compte les éléments suivants :
 
@@ -1215,9 +1214,15 @@ En outre, il existe plusieurs [places de marché](https://planb.network/tutorial
 
 Enfin, il est important de noter que les obligations fiscales peuvent varier en fonction de la juridiction. Nous vous encourageons donc vivement à consulter les réglementations en vigueur dans votre pays avant d'entreprendre toute action susceptible de vous exposer à un risque.
 
+Si vous souhaitez approfondir vos connaissances sur les stratégies d’achat, d’utilisation et de sécurisation de vos bitcoins, je vous recommande vivement de suivre le cours **BTC 102** à la suite de celui-ci. Vous y découvrirez notamment des recommandations d’outils adaptés à votre profil, à vos besoins et à vos objectifs personnels :
+
+https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+
 ## Hyper-bitcoinisation
 
 <chapterId>b7275d31-3b60-5fb7-b9f5-030097010553</chapterId>
+
+:::video id=c0962e15-72fd-4072-b2e0-587e89ba1e61:::
 
 ### La course effrénée ne fait que commencer !
 
@@ -1386,11 +1391,11 @@ Le Bitcoin est important et ne doit pas être considéré comme un simple jeu de
 
 Comme nous l'avons vu dans le chapitre précédent, le protocole Bitcoin est neutre vis-à-vis de tous ses utilisateurs. Grâce aux règles de consensus et à la cryptographie, nous pouvons enregistrer de manière immuable les transactions dans un grand livre public mondial, garantissant des transferts de valeur monétaire sans tiers de confiance. L'infrastructure de la deuxième couche (et bientôt de la troisième, avec le RGB) est utilisée pour l'évolutivité du réseau et le développement de nouvelles fonctionnalités.
 
-Le bitcoin possède toutes les caractéristiques nécessaires pour être une monnaie efficace et saine : divisible, instantanément transportable, incensurable, coûts de vérification négligeables, et avec une politique monétaire déjà fixée à 21 millions d'unités pour les siècles à venir. Le bitcoin est pseudonyme et peut être échangé partout dans le monde sans l'autorisation d'aucune entité. Il suffit de détenir ses propres clés privées et de se souvenir de l'adage "Pas tes clés, pas tes bitcoins".
+Le Bitcoin possède toutes les caractéristiques nécessaires pour être une monnaie efficace et saine : divisible, instantanément transportable, incensurable, coûts de vérification négligeables, et avec une politique monétaire déjà fixée à 21 millions d'unités pour les siècles à venir. Le Bitcoin est pseudonyme et peut être échangé partout dans le monde sans l'autorisation d'aucune entité. Il suffit de détenir ses propres clés privées et de se souvenir de l'adage "Pas tes clés, pas tes bitcoins".
 
 Il est adopté par divers groupes de personnes, des cryptographes aux libertaires, en passant par les entreprises traditionnelles et même des pays entiers. Cependant, Bitcoin s'adresse à tout le monde et, à mesure que le nombre d'utilisateurs augmente, le nombre de nœuds Bitcoin qui servent de gardiens de l'historique des transactions, garantissant ainsi sa décentralisation, augmente lui aussi.
 
-Le Bitcoin ne peut plus être arrêté ni censuré. Il s'agit d'une révolution pacifique qui modifie le système monétaire et permet l'inclusion financière. Les utilisateurs peuvent obtenir des bitcoins en les acceptant pour leurs échanges ou en les achetant par l'intermédiaire de plateformes réglementées ou non. Ils peuvent stocker des fonds dans leurs portefeuilles, leurs applications mobiles ou leurs appareils physiques, sans avoir besoin d'intermédiaires de confiance. Le Bitcoin prône la transparence, la liberté et la responsabilité individuelle : comme le dit le proverbe, "ne faites pas confiance, vérifiez".
+Le Bitcoin ne peut plus être arrêté ni censuré. Il s'agit d'une révolution pacifique qui modifie le système monétaire et permet l'inclusion financière. Les utilisateurs peuvent obtenir des Bitcoins en les acceptant pour leurs échanges ou en les achetant par l'intermédiaire de plateformes réglementées ou non. Ils peuvent stocker des fonds dans leurs portefeuilles, leurs applications mobiles ou leurs appareils physiques, sans avoir besoin d'intermédiaires de confiance. Le Bitcoin prône la transparence, la liberté et la responsabilité individuelle : comme le dit le proverbe, "ne faites pas confiance, vérifiez".
 
 Satoshi a créé le Bitcoin en 2008 pour proposer un changement du système financier, à travers le changement de la monnaie, parce qu'il savait que l'accès à l'argent facile et "magique" mène facilement à la corruption. Le Bitcoin est donc une alternative pour construire un nouveau système monétaire neutre, car il permet de s'émanciper du système bancaire. Finalement, c'est un phénomène social qui nous encourage à participer à une révolution pacifique.
 

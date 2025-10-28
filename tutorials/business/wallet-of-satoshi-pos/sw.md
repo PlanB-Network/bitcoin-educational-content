@@ -14,7 +14,7 @@ Kuchanganya uwezo wa Lightning Network na utumiaji mzuri ili kukubali Bitcoin ka
 
 
 
-Ndani ya mfumo ikolojia wa Bitcoin, Wallet ya Satoshi inapendekezwa Wallet ili kuanza na malipo ya Radi. Licha ya ukweli kwamba huna umiliki kamili wa bitcoins zako (kujitunza), Wallet ya Satoshi inatoa uzoefu mzuri wa kuanza na Bitcoin kwa kiasi kidogo kwa kutumia Lightning Network Layer. Ikiwa hii ndiyo matumizi yako ya kwanza na Wallet hii, tunapendekeza mafunzo yetu ya Kuanza.
+Ndani ya mfumo ikolojia wa Bitcoin, Wallet ya Satoshi inapendekezwa Wallet ili kuanza na malipo ya Lightning. Licha ya ukweli kwamba huna umiliki kamili wa bitcoins zako (kujitunza), Wallet ya Satoshi inatoa uzoefu mzuri wa kuanza na Bitcoin kwa kiasi kidogo kwa kutumia Lightning Network Layer. Ikiwa hii ndiyo matumizi yako ya kwanza na Wallet hii, tunapendekeza mafunzo yetu ya Kuanza.
 
 
 
@@ -73,7 +73,7 @@ Ili kupanga vyema eneo lako la mauzo, unaweza kusanidi bidhaa ulizo nazo kwenye 
 
 
 
-Unaweza kuchagua bidhaa nyingi kwa generate a Lightning Invoice ili mteja wako alipe. Kwa kuchanganya chaguo za Kibodi na Bidhaa, unaweza kuunda Invoice isiyo imefumwa kwa bidhaa ndani na nje ya orodha yako.
+Unaweza kuchagua bidhaa nyingi kwa kuzalisha  Lightning Invoice ili mteja wako alipe. Kwa kuchanganya chaguo za Kibodi na Bidhaa, unaweza kuunda Invoice isiyo imefumwa kwa bidhaa ndani na nje ya orodha yako.
 
 
 
@@ -81,7 +81,7 @@ Unaweza kuchagua bidhaa nyingi kwa generate a Lightning Invoice ili mteja wako a
 
 
 
-Bofya kitufe cha **Chaji** ili generate a Lightning Invoice inayohusishwa na ununuzi wa mteja wako. Mteja wako ataweza kulipa bili yake papo hapo kutoka kwa Lightning Wallet yake au kwa kadi yake ya Bolt kupitia NFC.
+Bofya kitufe cha **charge** ili kuzalisha  Lightning Invoice inayohusishwa na ununuzi wa mteja wako. Mteja wako ataweza kulipa bili yake papo hapo kutoka kwa Lightning Wallet yake au kwa kadi yake ya Bolt kupitia NFC.
 
 
 
@@ -105,7 +105,7 @@ Kuwa na uzoefu usio na mshono na sehemu ya mauzo pia inamaanisha kupata usanidi 
 
 
 
-Katika menyu ya Wallet ya Satoshi, chagua sarafu yako ya ndani kutoka kwenye orodha ya sarafu zinazotumika, ili kusanidi bidhaa zako katika vitengo vya sarafu unavyovifahamu.
+Katika menyu ya Wallet of Satoshi, chagua sarafu yako ya ndani kutoka kwenye orodha ya sarafu zinazotumika, ili kusanidi bidhaa zako katika vitengo vya sarafu unavyovifahamu.
 
 
 
@@ -162,7 +162,7 @@ Wafanyikazi wako basi wanastahiki kupokea malipo ya Bitcoin kwenye duka lako. Wa
 
 
 
-Kila mtumiaji wa Wallet ya programu ya Satoshi POS ana historia ya malipo ya kibinafsi ya ankara za Lightning ambazo wameunda kwenye programu.
+Kila mtumiaji wa Wallet ya programu ya Satoshi POS ana historia ya malipo ya kibinafsi ya invoices za Lightning ambazo wameunda kwenye programu.
 
 
 

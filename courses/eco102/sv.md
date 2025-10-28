@@ -82,22 +82,24 @@ Som avslutning på kursen kommer vi att fördjupa oss i Bastiats huvudverk "*The
 
 <chapterId>7f21b617-9810-5484-ad1c-befc61432126</chapterId>
 
+:::video id=0f388c57-8767-49a7-942c-01af703598b3:::
+
 
 Den här kursen är en introduktion till Frédéric Bastiat, ett okänt geni och en ledstjärna för vår tid. I denna korta introduktion ska jag försöka hjälpa dig att upptäcka vem Frédéric Bastiat var och vilka de viktigaste teman är som vi kommer att ta upp under denna serie.
 
-![image](assets/en/001.webp)
+![image](assets/sv/001.webp)
 
 
 Frédéric Bastiat, som föddes 1801 och levde under 1800-talets första hälft, förblev faktiskt under en tid en viktig författare. Sedan försvann han gradvis och i dag är det ingen som hör talas om honom, ingen som vet vem han är. Ändå har denne författare paradoxalt nog översatts till många språk, bland annat italienska, ryska, spanska och engelska.
 
 
-![image](assets/en/002.webp)
+![image](assets/sv/002.webp)
 
 
 Det visade sig att en av hans böcker gavs ut i USA efter andra världskriget. Den blev mycket berömd, till den grad att Ronald Reagan själv sa att det var hans favoritbok, och denna lilla bok heter "The Law" Bastiat är alltså en av de två mest kända franska författarna i USA, den andre är också välkänd i Frankrike, Alexis de Tocqueville.
 
 
-![image](assets/en/003.webp)
+![image](assets/sv/003.webp)
 
 _(Marknadsplats i Mugron i Landes, staden Bastiat)_ _(Marknadsplats i Mugron i Landes, staden Bastiat)_
 
@@ -105,19 +107,19 @@ _(Marknadsplats i Mugron i Landes, staden Bastiat)_ _(Marknadsplats i Mugron i L
 Ett okänt geni alltså, men också ett ljus för vår tid. Frédéric Bastiat, som föddes i Bayonne, levde först en del av sitt liv i Landes där han förvaltade en jordbruksfastighet som han hade ärvt och han levde ett liv som entreprenör. Han blev tidigt intresserad av ekonomi, reste till England och träffade Richard Cobden som var en av ledarna för frihandelsrörelsen. Bastiat fascinerades av denna rörelse, han var övertygad om att frihandel var en lösning för Frankrike och han bestämde sig därefter för att försöka sprida sina idéer i Frankrike. Han skrev artiklar som var mycket framgångsrika och han flyttade till Paris för att driva en tidning som vid den tiden kallades Journal des économistes.
 
 
-![image](assets/en/004.webp)
+![image](assets/sv/004.webp)
 
 
 Han var också en filosof och en tänkare om samhället, social ordning, rättvisa, lag, en tänkare om rättigheter. Och i det avseendet kan vi säga att Bastiat är ett ljus för vår tid. Och jag skulle vilja avsluta med det. Han är en person som försökte förstå hur den politiska marknaden fungerar. Naturligtvis är han också en försvarare av marknadsekonomin, för vilken marknadsekonomin i slutändan är det bästa sättet att skapa välstånd. Men förutom det, och det är här han inte är erkänd, förstod han mekanismerna på den politiska marknaden.
 
 
-![image](assets/en/005.webp)
+![image](assets/sv/005.webp)
 
 
 När han valdes till deputerad var det under den andra republiken, och från och med då var det folket som stiftade lagarna. Vid den tiden bevittnade Bastiat en sorts inflation av lagar i alla riktningar, inklusive skapandet av offentliga tjänster, sociala rättigheter, skatter osv.
 
 
-![image](assets/en/006.webp)
+![image](assets/sv/006.webp)
 
 
 ---
@@ -143,11 +145,13 @@ I den här kursen kommer vi tillsammans att resa genom Frédéric Bastiats tanka
 
 <chapterId>e9d92b63-83dd-552c-84e1-dd535608c109</chapterId>
 
+:::video id=29e42254-63d4-4a23-94a7-284e70f20515:::
+
 
 År 1844 gjorde Frédéric Bastiat en affärsresa till Spanien. Efter att ha vistats i Madrid, Sevilla, Cadiz och Lissabon bestämde han sig för att åka till Southampton och besöka England. I London fick han tillfälle att delta i möten med Anti-Corn Law League, vars arbete han hade följt på avstånd. Han träffade de främsta ledarna för denna förening, däribland Richard Cobden, som skulle komma att bli hans vän.
 
 
-![image](assets/en/007.webp)
+![image](assets/sv/007.webp)
 
 
 Det var där som hans liv skulle komma att förändras radikalt. Han berättar själv att hans kallelse som ekonom avgjordes i det ögonblicket. När han återvände till Frankrike hade han bara en tanke: att göra Frankrike medvetet om den liberala rörelsen som rörde sig i England.
@@ -158,13 +162,13 @@ Frédéric Bastiat föddes i Bayonne den 30 juni 1801. Han blev föräldralös v
 År 1825 ärvde han en jordbruksfastighet av sin farfar, som han skötte som en "gentleman-farmer", som han själv uttryckte det. Det var då han på nära håll fick uppleva de problem som orsakades av avsaknaden av en tydlig definition av äganderätten. Han bestämde sig för att bli fredsdomare i sin stad Mugron, i hjärtat av Landes, en kommersiell och fluvial korsväg mellan hamnarna i Bordeaux och Bayonne. Senare valdes han in som ledamot i Landes allmänna råd.
 
 
-![image](assets/en/008.webp)
+![image](assets/sv/008.webp)
 
 
 Han utvecklade snabbt en passion för politisk ekonomi och studerade verk av Adam Smith, Jean-Baptiste Say, Destutt de Tracy, Charles Dunoyer och Charles Comte. Han läste engelska tidningar och det var där han fick höra talas om att det fanns en engelsk liga för frihandel.
 
 
-![image](assets/en/009.webp)
+![image](assets/sv/009.webp)
 
 _(Say, Cobden, Smith, Chevalier, Dunoyer, Destutt de Tracy)_ _(Say, Cobden, Smith, Chevalier, Dunoyer, Destutt de Tracy)_
 
@@ -172,7 +176,7 @@ _(Say, Cobden, Smith, Chevalier, Dunoyer, Destutt de Tracy)_ _(Say, Cobden, Smit
 När han återvände från England skrev han en artikel med titeln "On the Influence of English and French Tariffs on the Future of the Two Peoples", som han skickade till Journal des Économistes i Paris. Artikeln publicerades i oktobernumret 1844 och blev en fullständig succé. Alla beundrade hans kraftfulla och skarpsinniga argumentation, hans nyktra och eleganta stil.
 
 
-![image](assets/en/010.webp)
+![image](assets/sv/010.webp)
 
 
 Journal des Économistes bad honom sedan om fler artiklar, och flera medlemmar i Political Economy Society, bland andra Horace Say, son till Jean-Baptiste Say, och Michel Chevalier, en känd professor, gratulerade honom och uppmuntrade honom att fortsätta med dem i arbetet med att sprida ekonomiska sanningar. Detta markerade början på ett nytt liv i Paris.
@@ -181,14 +185,14 @@ Journal des Économistes bad honom sedan om fler artiklar, och flera medlemmar i
 Han publicerade först den första serien av Economic Sophisms, där han med djärvhet och ironi angrep protektionister. I Paris startade han till och med en kurs i politisk ekonomi i ett privat rum, som ivrigt besöktes av studenteliten.
 
 
-![image](assets/en/011.webp)
+![image](assets/sv/011.webp)
 
 
 Året därpå grundade han "Association for Free Trade" i Frankrike och kastade sig in i kampen mot protektionismen i Frankrike. Han samlade in pengar, skapade en veckotidning och höll föreläsningar över hela landet.
 
 Det första mötet ägde rum i Bordeaux den 23 februari 1846, då Bordeaux Association for Free Trade bildades. Snart spred sig rörelsen över hela Frankrike. I Paris bildades en första kärna bland medlemmarna i Society of Economists, till vilken deputerade, industrialister och handlare anslöt sig. Betydande grupper bildades också i Marseille, Lyon och Le Havre.
 
-![image](assets/en/005.webp)
+![image](assets/sv/012.webp)
 
 
 Februarirevolutionen 1848 störtade Louis-Philippes monarki, den s.k. julimonarkin (1830-1848), och ledde till att den andra republiken infördes. Bastiat valdes sedan till ledamot av den lagstiftande församlingen som deputerad för Landes. Han placerade sig i mitten-vänster, tillsammans med Alexis de Tocqueville, mellan monarkisterna och socialisterna. Där strävade han efter att försvara individuella friheter såsom medborgerliga friheter och motsatte sig all restriktiv politik, oavsett om den kom från höger eller vänster. Han valdes till vice ordförande i finansutskottet och försökte ständigt påminna sina kolleger i parlamentet om denna enkla sanning, som ofta glöms bort i parlamenten:
@@ -199,13 +203,13 @@ Februarirevolutionen 1848 störtade Louis-Philippes monarki, den s.k. julimonark
 Nästan alla hans böcker och essäer skrevs under de sista sex åren av hans liv, från 1844 till 1850. År 1850 skrev Bastiat två av sina mest kända verk: The Law och en serie pamfletter med titeln What is Seen and What is Not Seen. The Law har översatts till många utländska språk, bland annat engelska, tyska, spanska, ryska och italienska.
 
 
-![image](assets/en/012.webp)
+![image](assets/sv/013.webp)
 
 
 Han avled i Rom 1850 i tuberkulos. Han är begravd i Saint Louis des Français-kyrkan i Rom.
 
 
-![image](assets/en/013.webp)
+![image](assets/sv/014.webp)
 
 
 # Påverkan
@@ -219,11 +223,13 @@ Han avled i Rom 1850 i tuberkulos. Han är begravd i Saint Louis des Français-k
 
 <chapterId>bcc7a12a-6cc4-5061-85e3-0e31fb1f0a49</chapterId>
 
+:::video id=db69aa73-75a9-44af-a77b-eceb3bc185f3:::
+
 
 Inom nationalekonomin erkände Bastiat alltid sin skuld till Adam Smith och Jean-Baptiste Say. Vid 26 års ålder skrev han till en av sina vänner: "Jag har aldrig läst något annat om dessa ämnen än dessa fyra verk: Smith, Say, Destutt och Censorn."
 
 
-![image](assets/en/014.webp)
+![image](assets/sv/015.webp)
 
 _(Jean-Baptiste Say och Adam Smith)_ _(Jean-Baptiste Say och Adam Smith)_
 
@@ -231,7 +237,7 @@ _(Jean-Baptiste Say och Adam Smith)_ _(Jean-Baptiste Say och Adam Smith)_
 Politisk ekonomi, så som den utformades av Adam Smith och J.-B. Say, sammanfattas i ett enda ord: frihet. Handelsfrihet, individuell frihet, frihandel och fritt initiativ. Frihandel försvarades först av fysiokraterna, som François Quesnay och Vincent de Gournay, och sedan av Adam Smith som sammanfattade deras idéer med sina egna observationer. I slutet av 1700-talet förtydligade och korrigerade slutligen Jean-Baptiste Say vissa punkter i sin mästare Adam Smiths doktrin i sin mästerliga Treatise on Political Economy.
 
 
-![image](assets/en/015.webp)
+![image](assets/sv/016.webp)
 
 _(Say, Destutt de Tracy, Quesnay, de Gournay)_ _
 
@@ -239,7 +245,7 @@ _(Say, Destutt de Tracy, Quesnay, de Gournay)_ _
 Adam Smith var intresserad av välstånd, inte som ett mål i sig utan som ett medel för att höja individernas moral. För honom består nationernas rikedom av individernas rikedom. Om man vill ha en välmående nation, säger Adam Smith, måste man låta individerna agera fritt. Och marknaden fungerar eftersom den tillåter alla att uttrycka sina preferenser och driva sina intressen.
 
 
-![image](assets/en/016.webp)
+![image](assets/sv/017.webp)
 
 
 Den stora nyheten för moderna ekonomer i början av 1700-talet är att de är intresserade av varje individ med viljan att återställa sin handlingsförmåga samtidigt som de funderar på hur man kan tygla passioner och konflikter. Människan vill naturligtvis förbättra sin egen och sina nära och käras situation genom Exchange av varor och tjänster.
@@ -250,7 +256,7 @@ Vad Adam Smith visar är att man bara kan tjäna sitt eget intresse genom att tj
 
 > Ge mig vad jag behöver, så får ni av mig vad ni själva behöver. (...) Det är inte på grund av slaktarens, bryggarens eller bagarens välvilja som vi förväntar oss vår middag, utan på grund av deras hänsyn till sina egna intressen.
 
-![image](assets/en/017.webp)
+![image](assets/sv/018.webp)
 
 
 ---
@@ -264,7 +270,7 @@ Vad Adam Smith visar är att man bara kan tjäna sitt eget intresse genom att tj
 Exchange är ett positivt-summespel. Det som den ena vinner, vinner också den andra. Det skiljer sig därmed från politisk omfördelning där det alltid finns en vinnare och en förlorare. Om vi ser till den engelska skolan, så är värde för Smith, Ricardo och Locke kopplat till arbete. För Marx är det likadant.
 
 
-![image](assets/en/018.webp)
+![image](assets/sv/019.webp)
 
 _(Marx, Ricardo, Smith, Locke)_ _(Marx, Ricardo, Smith, Locke)_
 
@@ -277,7 +283,7 @@ Men Bastiat nyanserade också Say på denna punkt. Det handlar inte om nyttan so
 Ekonomin lyder under ett antal enkla lagar som härrör från mänskligt beteende. En av dem, kallad "Says lag", lyder som följer: "Produkter och tjänster byts ut mot produkter och tjänster." Tanken är att nationer och individer gynnas av en ökad produktionsnivå eftersom det ger ökade möjligheter till ömsesidigt fördelaktiga utbyten.
 
 
-![image](assets/en/019.webp)
+![image](assets/sv/020.webp)
 
 
 Produkter köps faktiskt bara i väntan på de tjänster som köparen förväntar sig: Jag köper en skiva för den musik jag kommer att lyssna på, jag köper en biobiljett för den film jag kommer att se. Och i en Exchange beslutar varje part eftersom den bedömer att den kan få fler tjänster från det som den förvärvar än det som den ger upp. I det här sammanhanget är pengar bara en förmedlande vara, de kompenserar för en tjänst och öppnar upp för andra tjänster.
@@ -294,7 +300,7 @@ Men från Jean-Baptiste Say ärver Frédéric Bastiat också ett nyckelbegrepp, 
 Producenter använder sig av övertalning, förhandling och Contract, medan plundrare använder sig av våld och bedrägeri. Det är därför upp till lagen att stävja plundring och säkra såväl arbete som egendom. Som Adam Smith redan hade konstaterat är det den offentliga maktens främsta uppgift att garantera medborgarnas säkerhet, och det är detta som legitimerar skatteuttaget.
 
 
-![image](assets/en/020.webp)
+![image](assets/sv/021.webp)
 
 
 ## Antoine Destutt de Tracy
@@ -302,43 +308,44 @@ Producenter använder sig av övertalning, förhandling och Contract, medan plun
 
 <chapterId>ddf64e9f-2ce0-5651-8eb8-bae578eb0b9b</chapterId>
 
+:::video id=727e10b7-9255-4f63-8b57-be59d2501f23:::
+
 
 Det är föga känt, men Destutt de Tracy hade ett avgörande inflytande på USA:s blivande president Thomas Jefferson när denne var ambassadör i Paris på 1780-talet.
 
 
 > För varje människa är hans första land hans hemland, och det andra är Frankrike" & "Tyranni är när folket fruktar sin regering; frihet är när regeringen fruktar folket.
 >
-
 > Thomas Jefferson
 
-![image](assets/en/021.webp)
+![image](assets/sv/022.webp)
 
 
 I hans Treatise on Political Economy fördömdes protektionism och Napoleons expansion. Den förbjöds därför att publiceras i Frankrike av Bonaparte. Den översattes dock till engelska och gavs ut i USA av Jefferson själv. Han gjorde denna text till den första läroboken i politisk ekonomi vid University of Virginia, som han just hade grundat i Charlottesville. Treatise publicerades inte i Frankrike förrän 1819!
 
 
-![image](assets/en/022.webp)
+![image](assets/sv/023.webp)
 
 
 Destutt de Tracy, filosof och ekonom, var ledare för den s.k. ideologskolan, som omfattade personer som Cabanis, Condorcet, Constant, Daunou, Say och Germaine de Staël. De är fysiokraternas arvtagare och Turgots direkta lärjungar.
 
 
-![image](assets/en/023.webp)
+![image](assets/sv/024.webp)
 
 
-![image](assets/en/024.webp)
+![image](assets/sv/025.webp)
 
 
 Med ideologi menade Tracy helt enkelt den vetenskap som behandlar studiet av idéer, deras ursprung, deras lagar, deras förhållande till språket, det vill säga, i mer moderna termer, epistemologi. Termen "ideologi" hade inte den pejorativa innebörd som Marx senare skulle ge den för att misskreditera ekonomerna inom "laissez-faire". Ideologirörelsens tidskrift hette La Décade philosophique et littéraire.
 
 
-![image](assets/en/025.webp)
+![image](assets/sv/026.webp)
 
 
 Den dominerade under den revolutionära perioden och leddes av Jean-Baptiste Say. Destutt de Tracy invaldes 1808 som ledamot av Franska Akademien och 1832 som ledamot av Akademien för moraliska och politiska vetenskaper. Hans dotter gifte sig 1802 med Georges Washington de La Fayette (son till den förste amerikanske presidenten), vilket visar på den närhet som fortfarande fanns mellan Frankrike och det unga Amerika vid denna tid.
 
 
-![image](assets/en/026.webp)
+![image](assets/sv/027.webp)
 
 Syftet med hans avhandling om politisk ekonomi är att "undersöka det bästa sättet att använda alla våra fysiska och intellektuella förmågor för att tillfredsställa våra olika behov" Hans tanke är att handeln är källan till allt gott för människan; den är den civiliserande, rationaliserande och pacificerande kraften i världen. Den politiska ekonomins stora maxim formuleras av honom på följande sätt: "Handeln är hela samhället, precis som arbetet är hela rikedomen." Han ser samhället som "en kontinuerlig serie av utbyten där båda parterna alltid tjänar på det" Därför är marknaden motsatsen till rovdrift. Den berikar vissa utan att göra andra fattigare. Som det kommer att sägas senare är det inte ett "nollsummespel", utan ett plussummespel.
 
@@ -346,13 +353,13 @@ Syftet med hans avhandling om politisk ekonomi är att "undersöka det bästa s�
 Vår författare går inte så långt som att definiera politisk ekonomi som vetenskapen om utbyten. Men samma resonemang kommer att tas upp och fullföljas av Bastiat. Försäljning är en Exchange av objekt, uthyrning är en Exchange av tjänster och utlåning är bara en uppskjuten Exchange. Politisk ekonomi blir därmed för Bastiat "teorin om Exchange"
 
 
-![image](assets/en/027.webp)
+![image](assets/sv/028.webp)
 
 
 Enligt Destutt de Tracy härrör äganderätten med nödvändighet från vår natur, från vår förmåga att önska. Om människan inte ville ha något skulle hon varken ha rättigheter eller skyldigheter. För att tillgodose sina behov och fullgöra sina skyldigheter måste människan använda medel som hon förvärvar genom sitt arbete. Och den form av social organisation som överensstämmer med detta syfte är privat egendom. Det är därför som statens enda syfte är att skydda egendom och att tillåta fredlig Exchange.
 
 
-![image](assets/en/028.webp)
+![image](assets/sv/029.webp)
 
 
 För honom är de bästa skatterna de mest måttliga, och han önskar att statens utgifter ska vara så begränsade som möjligt. Han fördömer statens plundring av samhällets rikedomar i form av statsskuld, skatter, bankmonopol och utgifter. Än en gång, lagen ska bara tjäna till att skydda friheten; den ska aldrig plundra.
@@ -371,17 +378,19 @@ Sammanfattningsvis hade ideologerna en djupgående intuition, nämligen att prod
 
 <chapterId>80bc5c4e-ac07-52c8-9dd7-e224ac291bda</chapterId>
 
+:::video id=6f8e4713-5b9e-49bb-85b1-e9e8a44cd75e:::
+
 
 Alla civilisationers historia är berättelsen om kampen mellan de plundrande klasserna och de produktiva klasserna. Detta är den trosbekännelse som de två författare vi nu ska diskutera har. De är upphovsmän till en liberal teori om klasskampen som inspirerade Frédéric Bastiat lika mycket som Karl Marx, även om den senare förvrängde den.
 
 
-![image](assets/en/029.webp)
+![image](assets/sv/030.webp)
 
 
 För Comte och Dunoyer är plundring, dvs. alla former av våld som utövas i samhället av de starka mot de svaga, den stora nyckeln till förståelsen av mänsklighetens historia. Det är ursprunget till alla fenomen där en klass exploateras av en annan.
 
 
-![image](assets/en/030.webp)
+![image](assets/sv/031.webp)
 
 
 Om Frédéric Bastiat har Smith, Destutt de Tracy och Say att tacka för sin ekonomiska skolning, så har han ledarna för tidskriften Le Censeur, Charles Comte och Charles Dunoyer, att tacka för sin politiska skolning.
@@ -390,7 +399,7 @@ Om Frédéric Bastiat har Smith, Destutt de Tracy och Say att tacka för sin eko
 Denna tidskrift (1814-1819), som efter de hundra dagarna döptes om till Le Censeur européen, spred de liberala idéer som segrade 1830 i och med upproret under de tre ärorika dagarna och hertigen av Orléans, Louis-Philippe I:s maktövertagande.
 
 
-![image](assets/en/031.webp)
+![image](assets/sv/032.webp)
 
 
 
@@ -401,7 +410,7 @@ Charles Comte, kusin till Auguste Comte och svärson till Say, är grundaren av 
 Vad är målet med granskningen? Titeln talar för sig själv: att censurera regeringen. Att bekämpa maktens godtycke genom att upplysa den allmänna opinionen, att försvara pressfriheten.
 
 
-![image](assets/en/033.webp)
+![image](assets/sv/033.webp)
 
 _(Benjamin Constant) _
 
@@ -414,7 +423,7 @@ De övertar Benjamin Constants distinktion mellan de gamla och de moderna, som k
 
 > Dunoyer
 
-![image](assets/en/034.webp)
+![image](assets/sv/034.webp)
 
 
 Denna nya samhällsteori innehåller en av de Elements som skulle komma att bli hörnstenen i Marx och Engels vetenskapliga socialism: klasskampen. Men vad består den liberala teorin om klasskampen av och hur skiljer den sig från marxismen?
@@ -426,7 +435,7 @@ Det börjar med individen som agerar för att tillgodose sina behov och önsknin
 På denna punkt står individer inför två grundläggande alternativ: de kan plundra den rikedom som andra producerar, eller så kan de arbeta för att själva producera rikedom. I alla samhällen kan man tydligt urskilja dem som lever av plundring från dem som lever av produktion. Under Ancien Régime gick adeln till direkt angrepp mot de mest arbetsamma för att leva på en ny form av tribut: skatt. Den rovgiriga adeln efterträddes av horder av byråkrater, som inte var mindre rovgiriga.
 
 
-![image](assets/en/035.webp)
+![image](assets/sv/035.webp)
 
 
 Medan klassmotsättningarna för Marx ligger inom själva den produktiva verksamheten, mellan arbetstagare och arbetsgivare, är de motstridiga klasserna för Comte och Dunoyer å ena sidan samhällets producenter, som betalar skatt (inklusive kapitalister, arbetare, bönder, akademiker etc.) och å andra sidan icke-producenterna, som lever på hyror som finansieras av skatter, "den sysslolösa och slukande klassen" (byråkrater, tjänstemän, politiker, mottagare av subventioner eller skydd).
@@ -435,7 +444,7 @@ Medan klassmotsättningarna för Marx ligger inom själva den produktiva verksam
 Till skillnad från Marx förespråkar författarna till Censeur Européen inte klasskrig. Istället kämpar de för social fred. Och detta kan enligt dem endast uppnås genom avpolitisering av samhället. För detta ändamål är det viktigt att först minska prestigen och fördelarna med offentliga ämbeten. Därefter är det viktigt att ge producenterna inflytande i den politiska församlingen.
 
 
-![image](assets/en/036.webp)
+![image](assets/sv/036.webp)
 
 Slutligen är det enda sättet att befria världen från exploatering av en klass av en annan att förstöra själva mekanismen som gör denna exploatering möjlig: statens makt att fördela och kontrollera egendom och fördelningen av förmåner relaterade till den ("positionerna").
 
@@ -448,11 +457,13 @@ Deras idéer, som var djupt innovativa, skulle för alltid prägla Frédéric Ba
 
 <chapterId>7181435c-5eae-56e4-8e55-02a24273fdd6</chapterId>
 
+:::video id=633e542a-7217-4e63-bb6f-4a716fde3023:::
+
 
 Året är 1838, i Manchester samlas ett litet antal män, som dittills varit föga kända, för att hitta ett sätt att med lagliga medel störta vetegodsägarnas monopol och för att åstadkomma det som Bastiat senare skulle berätta,
 
 
-![image](assets/en/037.webp)
+![image](assets/sv/037.webp)
 
 
 > Utan blodsutgjutelse, enbart genom opinionens makt, en revolution lika djup, kanske djupare än den som våra fäder genomförde 1789.
@@ -460,13 +471,13 @@ Deras idéer, som var djupt innovativa, skulle för alltid prägla Frédéric Ba
 Från detta möte skulle League against the corn laws, eller spannmålslagarna som Bastiat skulle kalla dem, uppstå. Men mycket snabbt skulle detta mål bli ett totalt och ensidigt avskaffande av protektionismen.
 
 
-![image](assets/en/038.webp)
+![image](assets/sv/038.webp)
 
 
 Denna ekonomiska kamp för frihandel skulle uppta hela England fram till 1846. I Frankrike var denna stora rörelse helt okänd, förutom för ett litet antal invigda. Det var genom att läsa en engelsk tidning, som han av en slump hade prenumererat på, som Frédéric Bastiat 1843 fick kännedom om ligans existens. Han blev entusiastisk och översatte Cobdens, Fox' och Brights tal. Sedan korresponderade han med Cobden och 1845 åkte han till London för att delta i förbundets gigantiska möten.
 
 
-![image](assets/en/039.webp)
+![image](assets/sv/039.webp)
 
 
 Det var denna agitationskampanj för frihandel, i hela riket, med tiotusentals medlemmar, som satte eld på Bastiats penna och radikalt och definitivt förändrade hans liv.
@@ -475,7 +486,7 @@ Det var denna agitationskampanj för frihandel, i hela riket, med tiotusentals m
 Förbundet kan liknas vid ett resande universitet, som ekonomiskt utbildade dem som deltog i dess möten över hela landet - vanligt folk, industriidkare, odlare och bönder, som förbundet hade tagit under sina vingar och vars intressen spannmålslagarna förtryckte. Richard Cobden var rörelsens själ och en enastående agitator.
 
 
-![image](assets/en/040.webp)
+![image](assets/sv/040.webp)
 
 
 Han var en fascinerande och formidabel talare som hade en fantastisk förmåga att hitta på slående och koncisa formuleringar, långt ifrån ekonomernas abstrakta tal.
@@ -483,7 +494,7 @@ Han var en fascinerande och formidabel talare som hade en fantastisk förmåga a
 
 > Vad är brödmonopolet? utropade han. Det är bristen på bröd. Du blir förvånad när du får veta att lagstiftningen i det här landet, i den här frågan, inte har något annat syfte än att skapa största möjliga brist på bröd. Och ändå är den inget annat. Lagstiftningen kan bara uppnå sitt mål genom knapphet.
 
-![image](assets/en/041.webp)
+![image](assets/sv/041.webp)
 
 
 År 1845 publicerade Bastiat i Paris sin bok Cobden and the League, med sina översättningar åtföljda av kommentarer. Boken inleds med en introduktion om den ekonomiska situationen i England, om historien om förbundets ursprung och utveckling. Sedan 1815 var protektionismen mycket utvecklad i England. Det fanns i synnerhet lagar som begränsade spannmålsimporten som hade mycket hårda konsekvenser för folket. Vete var nämligen nödvändigt för att baka bröd, vilket var en livsviktig vara vid den tiden. Dessutom gynnade detta system aristokratin, det vill säga de stora markägarna, som drog in hyror från det.
@@ -504,7 +515,7 @@ Förbundets mål var att mobilisera den allmänna opinionen för att pressa parl
 - Främja fred mellan nationer
 
 
-![image](assets/en/043.webp)
+![image](assets/sv/042.webp)
 
 _(Jeremy Bentham)_ _(Jeremy Bentham)_
 
@@ -516,13 +527,13 @@ I valet 1841 valdes fem medlemmar av ligan, däribland Cobden, in i parlamentet.
 
 Det intressanta är att Bastiat tillägnade sig en del av deras metod; han tog till sig deras språk och överförde det till en fransk kontext. Boken om Cobden och ligan blev snabbt en succé, och Bastiat gjorde ett sensationellt inträde i ekonomernas värld. Han grundade en förening i Bordeaux för frihandel och flyttade den sedan till Paris. Han erbjöds att bli ledare för Journal des Économistes. Rörelsen var född, och den fortsatte fram till 1848.
 
-![image](assets/en/044.webp)
+![image](assets/sv/043.webp)
 
 
 Det var först efter Bastiats död, 1866, som Napoleon III undertecknade ett frihandelsavtal med England, ett slags postum seger för den man som hade ägnat de sista sex åren av sitt korta liv åt denna stora idé.
 
 
-![image](assets/en/045.webp)
+![image](assets/sv/044.webp)
 
 _(Michel Chevalier)_ _(Michel Chevalier)_
 
@@ -541,6 +552,8 @@ Frågan om frihandel är fortfarande aktuell. I skolornas geografiböcker hävda
 
 <chapterId>c3926110-e0b2-503c-96d9-5d3a6a661484</chapterId>
 
+:::video id=499239ae-df43-489e-8d1f-bf3ea01e4e6b:::
+
 
 Frédéric Bastiat, som uttryckte sig på 1840-talet, är arvtagare till en generation upplysningsfilosofer som kämpade mot censur och för friheten att debattera. Tänk på Montesquieu, Diderot, Voltaire, Condorcet, men också Rousseau.
 
@@ -548,7 +561,7 @@ Frédéric Bastiat, som uttryckte sig på 1840-talet, är arvtagare till en gene
 För dem var tanken enkel: ju fler idéer som får komma till uttryck, desto mer utvecklas sanningen och desto lättare blir det att motbevisa felaktigheter. Vetenskapen utvecklas alltid på detta sätt.
 
 
-![image](assets/en/046.webp)
+![image](assets/sv/045.webp)
 
 _(Montesquieu, Diderot, Voltaire, Condorcet, Rousseau)_ _(Montesquieu, Diderot, Voltaire, Condorcet, Rousseau)_
 
@@ -559,13 +572,13 @@ Tvärtom är det få som har förstått att det som gäller för idéer också g
 Bastiat anser verkligen att Rousseau är den verkliga föregångaren till socialism och kollektivism. I författarens The Social Contract finns en fras som ganska väl sammanfattar hans filosofi: "Vi börjar bli människor först efter att ha varit medborgare."
 
 
-![image](assets/en/047.webp)
+![image](assets/sv/046.webp)
 
 
 Till en början är människan bara en borgare. Men borgaren är en kalkylator; han vill ha sin omedelbara njutning, han är förslavad av sina sinnen, av sina begär, av sitt särintresse. Kort sagt, han är inte rationell, därför är han inte fri. Han behöver utbildas, för att förstå att hans sanna intresse är det allmänna intresset. Det är därför Rousseau skrev i The Social Contract:
 
 
-![image](assets/en/048.webp)
+![image](assets/sv/047.webp)
 
 
 ---
@@ -581,7 +594,7 @@ Enligt denna doktrin har människan två viljor inom sig: en vilja som tenderar 
 Det är därför helt legitimt, enligt Rousseau, att tvinga människor i namn av ett mål som de själva, om de hade varit mer upplysta, skulle ha strävat efter, men som de inte strävar efter eftersom de är blinda, okunniga eller korrumperade. Samhället grundas för att tvinga dem att göra det som de spontant skulle önska om de var upplysta. Och genom att göra detta gör man inte våld på dem eftersom man leder dem till att bli "fria", det vill säga att göra de rätta valen, val som är i linje med deras sanna jag.
 
 
-![image](assets/en/049.webp)
+![image](assets/sv/048.webp)
 
 
 Rousseau är övertygad om att det goda samhället är en skapelse av lagen och ger därför lagstiftaren obegränsad makt. Det är upp till honom att förvandla individer till fulländade män, till medborgare.
@@ -591,7 +604,7 @@ Men det är också upp till lagen att få egendom att existera. Enligt Rousseau 
 
 > Den första person som, efter att ha inhägnat en bit mark, sa: Det här är mitt, och fann människor som var enkla nog att tro honom, var den sanna grundaren av det civila samhället. Hur många brott, krig, mord, hur mycket elände och fasa skulle inte ha besparats mänskligheten av den som, när han drog upp pålarna eller fyllde igen diket, hade ropat till sina medmänniskor: "Akta er för att lyssna på denne bedragare; ni är förlorade om ni glömmer att frukterna tillhör alla och jorden tillhör ingen!"
 
-![image](assets/en/050.webp)
+![image](assets/sv/049.webp)
 
 
 Därför är naturlig egendom källan till ondska. Och Marx, som var en stor läsare av Rousseau, skulle komma ihåg detta. Hur kan man bekämpa denna ondska? Genom den sociala Contract, svarar Rousseau. Det goda samhället är faktiskt ett samhälle som är resultatet av en Contract som föreskriver att individen med alla sina rättigheter ska alieneras till samhället. Från och med då är det upp till samhället att ge individen rättigheter genom lagen.
@@ -600,7 +613,7 @@ Därför är naturlig egendom källan till ondska. Och Marx, som var en stor lä
 I motsats till Rousseau säger Frédéric Bastiat att "människan föds som ägare av egendom" För honom är egendom en nödvändig konsekvens av människans natur, av hennes konstitution. Han skriver att "människan föds som fastighetsägare eftersom hon föds med behov vars tillfredsställelse är oumbärlig för livet, med organ och förmågor vars utövande är oumbärligt för att tillfredsställa dessa behov". Men förmågorna är bara en förlängning av personen, och egendom är bara en förlängning av förmågorna. Med andra ord är det användningen av våra förmågor i arbetet som legitimerar äganderätten.
 
 
-![image](assets/en/051.webp)
+![image](assets/sv/050.webp)
 
 
 Enligt Bastiat existerar samhälle, människor och egendomar före lagar, och han har en berömd fras: "Det är inte för att det finns lagar som det finns egendomar, utan för att det finns egendomar som det finns lagar". Det är därför som lagen måste vara negativ: den måste förhindra intrång på människor och deras egendomar. Egendom är lagens _raison d'être_ och inte tvärtom.
@@ -611,10 +624,12 @@ Enligt Bastiat existerar samhälle, människor och egendomar före lagar, och ha
 
 <chapterId>87d9a8c9-2352-5cb2-8b93-678118a8145c</chapterId>
 
+:::video id=4b24a6e8-969f-4058-a409-8942913fca4b:::
+
 Den 24 februari 1848, efter tre dagars upplopp i Paris, abdikerade kung Louis-Philippe I från sin makt. Detta markerade födelsen av den andra republiken.
 
 
-![image](assets/en/052.webp)
+![image](assets/sv/051.webp)
 
 
 Bastiat befann sig i Paris och bevittnade händelserna på nära håll. Senare skulle han skriva:
@@ -625,7 +640,7 @@ Bastiat befann sig i Paris och bevittnade händelserna på nära håll. Senare s
 Denna passage är överraskande. Vad har den grekiska och romerska antiken med saken att göra?
 
 
-![image](assets/en/053.webp)
+![image](assets/sv/052.webp)
 
 
 Bastiat hänvisar till Platons Republik och hans teori om filosofkungen, men också till Sparta, som Rousseau beundrade så mycket, och till det romerska imperiet, som Napoleon var så nostalgisk över. Tyvärr bygger dessa grekiska och romerska idéer enligt Bastiat på en falsk premiss: idén om lagstiftarens allsmäktighet, om lagens absoluta suveränitet.
@@ -634,7 +649,7 @@ Bastiat hänvisar till Platons Republik och hans teori om filosofkungen, men ock
 Det räcker med att slumpmässigt öppna nästan vilken bok som helst om filosofi, politik eller historia för att hitta denna idé, som är rotad i vår kultur, att mänskligheten är en trög materia som får liv, organisation, moral och välstånd från den politiska makten. Lämnad åt sig själv skulle mänskligheten tendera mot anarki och endast räddas från denna katastrof av lagstiftarens mystiska och allsmäktiga hand. Men, säger Bastiat, denna idé har sedan länge mognat och förberetts av århundraden av klassisk utbildning.
 
 
-![image](assets/en/054.webp)
+![image](assets/sv/053.webp)
 
 
 För det första, säger han, betraktade romarna egendom som ett rent konventionellt faktum, som en artificiell skapelse av skriven lag. Och varför? Helt enkelt, förklarar Bastiat, för att de levde av slaveri och plundring. För dem var all egendom frukten av plundring. Därför kunde de inte i lagstiftningen införa tanken att grunden för legitim egendom var arbete utan att förstöra grunden för sitt samhälle.
@@ -647,7 +662,7 @@ De hade visserligen en empirisk definition av egendom, "jus utendi et abutendi" 
 Rousseau delar faktiskt denna vanliga juridiska idé om att basera egendom på lagen. Rousseau tillskriver lagen, och följaktligen folket, absolut makt över individer och egendomar. Och enligt denna uppfattning, som utgör själva idén med republiken sedan den franska revolutionen, måste lagstiftaren organisera samhället, som en samhällsarkitekt, som en mekaniker som uppfinner en maskin av inert materia, eller som en krukmakare som formar lera. Lagstiftaren placerar sig alltså utanför mänskligheten, ovanför den, för att ordna den efter behag, enligt de planer som hans lysande intelligens har tänkt ut.
 
 
-![image](assets/en/055.webp)
+![image](assets/sv/054.webp)
 
 
 För Bastiat är äganderätten tvärtom överordnad lagen. Detta är vad han kallar ekonomernas princip, i motsats till juristernas princip. Medan "juristernas princip praktiskt taget innehåller slaveri", säger Bastiat, innehåller ekonomernas princip frihet.
@@ -659,7 +674,7 @@ Vad är då frihet? Det är egendom, rätten att njuta frukterna av sitt arbete,
 Det är sorgligt att tänka på att vår sociala och politiska filosofi har fastnat i tanken att lösningen på alla våra problem måste komma uppifrån, från lagen, från staten. Men detta är förklarligt. Dessa idéer inpräntas varje dag i ungdomarna i skolor och universitet, genom utbildningsmonopolet.
 
 
-![image](assets/en/056.webp)
+![image](assets/sv/055.webp)
 
 _Ett exempel på en sådan monopolistisk aktör kan vara en statlig institution_
 
@@ -672,8 +687,10 @@ Men, som Bastiat påminner oss om, monopol utesluter framsteg.
 
 <chapterId>ce6cb8a8-7dc9-5ef7-939d-9a559b4d2c74</chapterId>
 
+:::video id=4ef9f07f-aeb1-4626-b9ee-91060fd75803:::
 
-![image](assets/en/057.webp)
+
+![image](assets/sv/056.webp)
 
 _(Richard Cobden)_ _(Richard Cobden)
 
@@ -684,7 +701,7 @@ Som vi redan har sett var det först och främst Cobdens kamp mot protektionism 
 Protektionism är i själva verket en form av ekonomisk nationalism. Den syftar till att eliminera utländsk konkurrens samtidigt som man låtsas "försvara nationella intressen" Sedan försöker man få de offentliga myndigheterna att acceptera en rad rent demagogiska osanningar, som framställs som goda: försvar av arbetstillfällen, konkurrenskraft osv. Naturligtvis ger de folkvalda efter för producenternas påtryckningar, eftersom det för dem är ett gyllene tillfälle att konsolidera sin kundkrets och utöka sin makt.
 
 
-![image](assets/en/058.webp)
+![image](assets/sv/057.webp)
 
 _Ett exempel på reklam för en mixer som tillverkas i Frankrike_
 
@@ -711,7 +728,7 @@ Om vi förbjuder den engelska produkten kommer konsumenten att få betala en enh
 Protektionism är också en form av klasskamp. Enligt Bastiat är det ett system som bygger på producenternas själviskhet och girighet. För att öka sin ersättning kräver jordbrukare eller industrialister skatter för att stänga marknaden för utländska produkter, vilket tvingar konsumenterna att betala mer för deras produkter.
 
 
-![image](assets/en/060.webp)
+![image](assets/sv/058.webp)
 
 
 Bastiat tar bestämt konsumenternas parti. Mot klassintresset ställer han det allmänna intresset, som är konsumentens intresse, det vill säga allas intresse. Det är alltid ur konsumentens synvinkel som staten ska positionera sig när den agerar.
@@ -720,7 +737,7 @@ Bastiat tar bestämt konsumenternas parti. Mot klassintresset ställer han det a
 I och med februarirevolutionen 1848 och dess barrikader skulle en mer fruktansvärd fiende än protektionismen dyka upp, en fiende som den delar många likheter med: socialismen.
 
 
-![image](assets/en/061.webp)
+![image](assets/sv/059.webp)
 
 
 Vad är det för något? Det är en politisk rörelse som kräver att arbetet organiseras genom lag, att industrier och banker nationaliseras och att rikedomar omfördelas genom beskattning. Bastiat skulle nu ägna all sin energi, talang och sina skrifter åt att bekämpa denna nya doktrin, som bara kunde leda till exponentiell makttillväxt och evig klasskamp. Redan under revolutionens första dagar medverkade han därför i en kortlivad tidning vid namn "La République Française", som snabbt blev känd som en kontrarevolutionär tidskrift. Det var vid denna tid han skrev sina pamfletter om egendom, staten, plundring och lagen.
@@ -737,7 +754,7 @@ Den 27 juni 1848, dagen efter ett nytt blodigt uppror i Paris, uppehöll han sig
 - 2° Nationen blev förälskad i tanken att broderskap och solidaritet kunde införas i lagen. Det vill säga, den krävde att staten direkt skulle skapa lycka för sina medborgare. Här ser Bastiat början till välfärdsstaten.
 
 
-![image](assets/en/062.webp)
+![image](assets/sv/060.webp)
 
 
 Och han skulle fortsätta att analysera dess perversa effekter därefter. Här är ett exempel, citerat i brevet till Cobden:
@@ -749,7 +766,7 @@ Och han skulle fortsätta att analysera dess perversa effekter därefter. Här �
 - 3° Bastiat tillägger att enligt hans uppfattning var protektionismen den första manifestationen av denna störning. Kapitalisterna började med att be om lagens ingripande för att öka sin andel av rikedomen. Oundvikligen ville arbetarna göra detsamma.
 
 
-![image](assets/en/063.webp)
+![image](assets/sv/061.webp)
 
 
 ---
@@ -769,18 +786,20 @@ Sammanfattningsvis har protektionister och socialister en gemensam punkt, enligt
 
 <chapterId>96902abd-6915-5b25-a187-a4790162b86c</chapterId>
 
+:::video id=6ede1de0-b034-4c48-845d-a2c415de6af2:::
+
 
 Pierre-Joseph Proudhon är en av de främsta företrädarna för den franska socialismen i mitten av 1800-talet. Han är särskilt känd för detta uttalande: "Ägande är stöld" i "Vad är ägande?" 1840.
 
 
-![image](assets/en/064.webp)
+![image](assets/sv/062.webp)
 
 
 
 Det finns något logiskt absurt i detta påstående. För om det inte fanns någon legitimt förvärvad egendom, skulle det logiskt sett inte kunna finnas en handling som stöld. Det är därför Proudhon senare skulle förtydliga att det är den faktiska fördelningen av egendom han betraktar som stöld, inte egendomen i sig, som han beskriver som en revolutionär kraft som är grundläggande för det anarkistiska samhället.
 
 
-![image](assets/en/066.webp)
+![image](assets/sv/063.webp)
 
 
 Men Proudhon är en individualistisk anarkist. Han ser varken proletariatet eller staten som legitima källor till makt. Han kritiserar kommunismen hårt och förespråkar arbetarmutualism, en form av strukturerad kooperativ solidaritet, som bygger på frivillig sammanslagning av resurser för ömsesidig hjälp. Det är mindre känt men Bastiat var inte alls emot denna idé i princip. Han fruktade helt enkelt att staten skulle förvandla den till en de facto monopolistisk public service. Historien skulle visa att han hade rätt.
@@ -791,24 +810,24 @@ Men Proudhon är en individualistisk anarkist. Han ser varken proletariatet elle
 Å andra sidan är det välkänt att Marx i "Filosofins fattigdom" gick till våldsamt angrepp mot Proudhon och hans socialism, som han kallade "utopisk", till förmån för en så kallad "vetenskaplig" socialism.
 
 
-![image](assets/en/068.webp)
+![image](assets/sv/064.webp)
 
 I juni 1848 valdes Proudhon in i nationalförsamlingen tillsammans med Bastiat. De var bekanta med varandra och hade stor respekt för varandra. Men 1849 utväxlade Bastiat fjorton brev med Proudhon i spalterna i La Voix du Peuple, vilket blev en rungande kontrovers. I denna kraftfulla Exchange klargjorde han sin inställning till penning- och bankfrågor. Tvisten kokade ner till följande alternativ: fri kredit eller kreditfrihet?
 
 
-![image](assets/en/069.webp)
+![image](assets/sv/065.webp)
 
 
 Proudhon såg kapitalräntan som den ursprungliga orsaken till pauperism och ojämlika förhållanden. Han förespråkade obegränsat penningskapande genom en statlig bank (Exchange-banken eller folkbanken) och såg i den "fria krediten" lösningen på det sociala problemet. Å andra sidan var Bastiat en förespråkare för bankfrihet, vilket innebar att penningcirkulationen skulle regleras genom fri tillgång till yrket, kombinerat med ett nödvändigt ansvar för de egna medlen och fri konkurrens.
 
 
-![image](assets/en/070.webp)
+![image](assets/sv/066.webp)
 
 
 Bastiat motbevisade sin motståndare i flera steg. Först analyserade han de perversa effekterna av fri kreditgivning och penningskapande. Ett sådant system kan bara uppmuntra banker och privata aktörer till de mest riskfyllda och hänsynslösa handlingar eftersom de vet att de täcks av staten, det vill säga av skattebetalarnas pengar: "Det är en allvarlig sak att försätta alla människor i en situation där de säger: Låt oss pröva vår lycka med någon annans egendom; om jag lyckas, så mycket bättre för mig; om jag misslyckas, så synd för andra." Ett framsynt uttalande som kan tillämpas på vår tid.
 
 
-![image](assets/en/071.webp)
+![image](assets/sv/067.webp)
 
 
 Centralbankernas lågräntepolitik är ett sätt att på konstgjord väg skapa pengar. Och de successiva kriserna i det finansiella systemet under det senaste århundradet, med staternas skuldsättning, är dess direkta konsekvenser.
@@ -817,13 +836,13 @@ Centralbankernas lågräntepolitik är ett sätt att på konstgjord väg skapa p
 Sedan visar Bastiat att det är möjligt att förbättra arbetarklassens köpkraft, men med andra medel, mer rättvisa och mer effektiva. För honom är sänkta räntor också målet för en liberal politik. Men det är genom frigörande och ackumulering av kapital som detta uppnås, inte genom avskaffande av ränta, det vill säga fri kredit.
 
 
-![image](assets/en/072.webp)
+![image](assets/sv/068.webp)
 
 
 Enligt Bastiat sammanfaller mänsklighetens framsteg i själva verket med kapitalbildningen. I sin pamflett Capital and Rent får Bastiat oss att förstå detta med Robinson Crusoe på sin ö.
 
 
-![image](assets/en/073.webp)
+![image](assets/sv/069.webp)
 
 Utan ackumulerat kapital eller material skulle Robinson vara dömd till döden. Han förklarar sedan att kapital berikar arbetaren på två sätt:
 
@@ -852,11 +871,13 @@ Sammanfattningsvis kan sägas att både Proudhon och Bastiat insåg vikten av ka
 
 <chapterId>25fb02a9-5d68-5c58-bd0f-d4b8e1fd91f9</chapterId>
 
+:::video id=aff28a5b-3cf4-414b-9a6a-b70ffb1bf20c:::
+
 
 I det här kapitlet ska jag avslöja en helt ny teknik, en revolutionerande teknik. En forskare har utvecklat ett par bioniska glasögon med en ultrakraftfull minikamera inbäddad i framsidan. Denna teknik gör det möjligt att se detaljer som är omöjliga att se med blotta ögat. I armarna finns ett elektroniskt chip som överför bilder direkt till molnet via min smartphone.
 
 
-![image](assets/en/074.webp)
+![image](assets/sv/070.webp)
 
 
 Uppfinnaren av den första prototypen av dessa glasögon var Frédéric Bastiat år 1850 i en berömd pamflett: _Ce qu'on voit et ce qu'on ne voit pas_. Dessa glasögon är ekonomens glasögon. De gör det möjligt att mäta konsekvenserna för våra liv av de beslut som fattas av myndigheterna. Det är de glasögon som "låter oss se det vi inte ser": den förstörelse som orsakas av klientelistisk politik och falska ekonomiska teorier. Ofta ser vi varken offren eller förmånstagarna, kort sagt de verkliga effekterna i motsats till de påståenden som görs i officiella tal, det som Bastiat kallar "ekonomiska sofismer"
@@ -883,7 +904,7 @@ Men vad man inte ser är vad ägaren skulle ha köpt för de pengarna, men som h
 Det blir alltså inte mer "stimulans" av ekonomin om fönstret krossas än om det inte gör det. I det första fallet har det dock skett en nettoförlust: värdet på fönstret.
 
 
-![image](assets/en/075.webp)
+![image](assets/sv/071.webp)
 
 Den första lärdomen är att ett "bra" beslut eller en "bra" politik är ett beslut som kostar samhället mindre än vad en annan fördelning av resurserna skulle ha kostat. En politiks effektivitet bör inte bara bedömas utifrån dess effekter utan också utifrån de alternativ som kunde ha förekommit. Det är detta som är Bastiats kära begrepp "alternativkostnad".
 
@@ -900,7 +921,7 @@ Men det finns andra sätt att stimulera ekonomin. Om staten engagerar sig i stor
 Slutligen, nästan ett sekel före Keynes, kan vi säga att Bastiat vederlade de keynesianska sofismerna som hävdar att statlig skuldsättning stimulerar ekonomin och att offentliga utgifter skapar tillväxt.
 
 
-![image](assets/en/076.webp)
+![image](assets/sv/072.webp)
 
 
 Den stora lärdomen av denna serie texter är att statliga ingripanden har perversa effekter som man inte ser. Bara en duktig ekonom kan förutse dem. Politik är vad vi ser. Ekonomin är det vi inte ser.
@@ -911,11 +932,13 @@ Den stora lärdomen av denna serie texter är att statliga ingripanden har perve
 
 <chapterId>f4e759ed-1cb2-55c7-885e-0a60244758a4</chapterId>
 
+:::video id=b1856cde-9156-4a16-99fa-a0e45edcc905:::
+
 
 År 1840 röstade deputeradekammaren för en lag om höjda importskatter för att skydda den franska industrin. Detta är den berömda ekonomiska patriotismen, som vi fortfarande möter idag.
 
 
-![image](assets/en/077.webp)
+![image](assets/sv/073.webp)
 
 _överst: Marine Le Pen, en fransk politikeran_
 
@@ -924,7 +947,7 @@ _överst: Marine Le Pen, en fransk politikeran_
 Bastiat skrev då en satirisk text som senare blev ett av hans mest kända verk: "Ljusmakarnas petition". Den illustrerar hur vissa välorganiserade intressegrupper av producenter erhåller otillbörliga privilegier från staten, till nackdel för medborgarna. Samtidigt visar den hur absurd och destruktiv den protektionistiska lagstiftningen är.
 
 
-![image](assets/en/079.webp)
+![image](assets/sv/074.webp)
 
 
 ---
@@ -944,7 +967,7 @@ Så vem är den här orättvisa utländska konkurrenten? Det är ingen annan än
 Med andra ord försöker ljustillverkarna påvisa de skadliga effekterna av en "utländsk konkurrent" (solen) på Frankrikes ekonomi. Solen kan nämligen inte bara tillhandahålla samma "produkt" som ljusen, den gör det dessutom gratis. Tvåhundra år senare är den här historien fortfarande oerhört relevant. Tänk på taxichaufförerna som vill att lagen ska förbjuda VTC och Uber. Tänk på bokhandlarna som vill förbjuda Amazon.
 
 
-![image](assets/en/080.webp)
+![image](assets/sv/075.webp)
 
 
 Bastiats verkliga motståndare i denna fiktion är den politiska och valtekniska protektionismen, som enbart förlitar sig på producenternas girighet och konsumenternas naivitet. Han avslöjar samförståndet mellan den tidens dåliga kapitalist och staten. I stället för att förnya sig och anpassa sig till marknaden är den dåliga kapitalisten den som försöker skaffa sig politiska fördelar genom protektionism. Detta resulterar alltid i plundring för konsumenten, det vill säga en orättvisa.
@@ -964,7 +987,7 @@ Protektionism bygger också på en dold syllogism som visar sig vara en felsägn
 Låt oss illustrera denna absurditet med några korta historier berättade av Bastiat. I kapitel III i den andra serien av Ekonomiska sofismer föreställer han sig en snickare som skriver en petition till ministern och ber om protektionistisk lagstiftning. Snickaren formulerar sin begäran på följande sätt: Herr minister, stifta en lag som föreskriver att "Ingen kommer att kunna använda annat än balkar och bjälkar som tillverkats av trubbiga yxor" Med andra ord, stifta en lag som förbjuder användning av vassa yxor i Frankrike. Där man normalt ger 100 yxhugg kommer det alltså att vara nödvändigt att ge 300. Snickare kommer att vara mycket efterfrågade och därför bättre betalda.
 
 
-![image](assets/en/081.webp)
+![image](assets/sv/076.webp)
 
 
 I kapitel XVI finns en annan mycket ironisk text med titeln: Den högra handen och den vänstra handen. Efter en utredning skriver ett kungligt sändebud en rapport där han föreslår att kungen ska hugga av, eller åtminstone binda, alla arbetares högra händer. På så sätt, fortsätter han, kommer arbetet och följaktligen rikedomen att öka. Produktionen kommer att bli mycket svårare, vilket kommer att kräva en massiv anställning av ytterligare arbetskraft och en höjning av lönerna. Pauperismen kommer att försvinna från landet.
@@ -988,10 +1011,12 @@ Sann rikedom, enligt Bastiat, är därför den uppsättning användbara saker so
 
 <chapterId>551fc499-2119-5a52-9114-412d29434c22</chapterId>
 
+:::video id=a5fe6417-cd81-4c72-a7c7-59aabf9e1547:::
+
 
 > När de rika går ner i vikt dör de fattiga.
 
-![image](assets/en/083.webp)
+![image](assets/sv/077.webp)
 
 
 Detta citat, som tillskrivs Lao-Tzu, beskriver den oundvikliga konsekvensen av ett skattesystem som syftar till att slå hårdare mot de rika än mot andra.
@@ -1042,7 +1067,7 @@ Problemet är att skatter, så som de är utformade, är föremål för makthava
 Det är därför Bastiat redan hade förstått Lafferkurvan. Arthur Laffer är en amerikansk ekonom som är känd för sin berömda "kurva" (en ellips), publicerad 1974, som visar att avkastningen från skatter ökar med en sänkning av skattesatsen. Detta är teorin om den minskande avkastningen av överdriven beskattning.
 
 
-![image](assets/en/087.webp)
+![image](assets/sv/078.webp)
 
 
 > För mycket skatt dödar skatten.
@@ -1053,7 +1078,7 @@ Det är därför Bastiat redan hade förstått Lafferkurvan. Arthur Laffer är e
 Politikerna utgår naivt från att det finns ett automatiskt och fast samband mellan skattesatser och skatteintäkter. De tror att de kan fördubbla skatteintäkterna genom att fördubbla skattesatsen. Enligt Laffer bortser man då från att skattebetalarna kan ändra sitt beteende till följd av nya incitament.
 
 
-![image](assets/en/088.webp)
+![image](assets/sv/079.webp)
 
 
 Lafferkurvan visar att staten inte får in några intäkter när skattesatserna är 100%. Omvänt gäller att varje skattesänkning stimulerar den ekonomiska aktiviteten och därmed statens intäkter. En sänkning av marginalskatterna stimulerar investeringar, arbete och kreativitet och främjar därmed den ekonomiska tillväxten. En tillräcklig sänkning kan ge tillräckligt med ekonomisk stimulans för att öka de offentliga intäkterna genom att skattebasen breddas avsevärt.
@@ -1062,7 +1087,7 @@ Lafferkurvan visar att staten inte får in några intäkter när skattesatserna 
 Bastiat skulle kunna tillägga att lika stor vikt bör läggas vid att minska de statliga utgifterna som vid att sänka skatterna. Icke desto mindre, som Margaret Thatcher, en lärjunge till Frédéric Bastiat, så träffande uttryckte det:
 
 
-![image](assets/en/089.webp)
+![image](assets/sv/080.webp)
 
 
 > Målet är inte att göra de rika fattiga, utan att göra de fattiga rika.
@@ -1075,11 +1100,13 @@ Och hon sa detta samtidigt som hon vände sig till socialister.
 
 <chapterId>c518e449-f638-553c-9a49-15da48023d41</chapterId>
 
+:::video id=e2037025-a4db-4980-91e7-a04da99514de:::
+
 
 Många känner till "Tartuffe eller bedragaren", komedin av Molière där en slug troende försöker förföra Elmire och lura hennes man Orgon. Hur kan man skydda sig mot bedrägerierna från en sådan hycklare som låtsas göra dig gott medan han konspirerar mot dig?
 
 
-![image](assets/en/090.webp)
+![image](assets/sv/081.webp)
 
 
 Bastiat konstaterar att det finns två sätt att sätta stopp för den här typen av bedrägerier: att rätta Tartuffe eller att upplysa Orgon. Det kommer naturligtvis alltid att finnas Tartuffe, men deras förmåga att skada skulle vara mycket mindre om det fanns färre Orgoner som lyssnade på dem.
@@ -1091,7 +1118,7 @@ Det mänskliga förnuftets svaghet är roten till missbruket av frihet. Det är 
 Det finns dock två kompletterande sätt att upplysa medborgarnas omdöme, vilket Bastiat beskriver i ett kapitel i den andra serien av ekonomiska sofismer med titeln "De två moraliteterna".
 
 
-![image](assets/en/091.webp)
+![image](assets/sv/082.webp)
 
 
 
@@ -1110,7 +1137,7 @@ I själva verket är detta två helt kompletterande moraliska ramverk.
 Kort sagt, den lär ut dygden, den osjälviska handlingen. Denna moral, säger Bastiat, kommer för evigt att vara den vackraste och mest rörande, eftersom den visar vad som är bäst i människan.
 
 
-![image](assets/en/092.webp)
+![image](assets/sv/083.webp)
 
 
 2. Den andra hjälper till att fördöma och bekämpa ondska genom kunskap om dess effekter, det är den ekonomiska moralen. Den vänder sig till intellektet och inte till hjärtat och syftar till att upplysa offret om de negativa effekterna av ett beteende. Den förstärker erfarenhetens lärdomar. Den strävar efter att sprida sunt förnuft, kunskap och misstro till de förtryckta massorna, vilket gör förtrycket svårare.
@@ -1119,7 +1146,7 @@ Kort sagt, den lär ut dygden, den osjälviska handlingen. Denna moral, säger B
 Den ekonomiska moralen strävar efter samma resultat som den religiösa moralen, men utgår från effekterna av mänskliga handlingar. Den lär oss att reagera mot orättvisa eller skadliga handlingar och att försvara de som är rättvisa eller nyttiga.
 
 
-![image](assets/en/093.webp)
+![image](assets/sv/084.webp)
 
 
 Bastiat lyfter här fram vetenskapens roll, och i synnerhet den ekonomiska vetenskapens. Även om den skiljer sig från den traditionella moralen är dess roll ändå nödvändig för att bekämpa alla former av plundring. Moralen angriper lasten i sin avsikt, den uppfostrar viljan. Vetenskapen å andra sidan angriper lasten genom att förstå dess effekter, och underlättar därmed dygdens triumf.
@@ -1155,6 +1182,8 @@ En sak är säker, det är inte politiken som kan ändra sakernas gång och gör
 
 <chapterId>895ccd1d-7b52-5a8b-8b2c-6ec0056cf632</chapterId>
 
+:::video id=ed6dc15c-b5e9-465c-9966-16c6737c0a68:::
+
 
 Kan ett harmoniskt samhälle klara sig utan skrivna lagar, regler och repressiva åtgärder? Om människorna lämnas fria, kommer vi då inte att bevittna oordning, anarki, desorganisation? Hur undviker man att skapa en ren juxtaposition av individer som agerar utanför varje samråd, om inte genom lagar och en centraliserad politisk organisation?
 
@@ -1162,7 +1191,7 @@ Kan ett harmoniskt samhälle klara sig utan skrivna lagar, regler och repressiva
 Detta är det argument som ofta åberopas av dem som kräver att marknaden ska regleras eller att samhället ensamt ska kunna samordna individer till en sammanhängande och harmonisk helhet.
 
 
-![image](assets/en/095.webp)
+![image](assets/sv/085.webp)
 
 
 Detta är inte Bastiats uppfattning. Enligt honom lyder den sociala mekanismen, precis som den himmelska mekanismen eller människokroppens mekanism, under allmänna lagar. Med andra ord är den redan en harmoniskt organiserad helhet. Och motorn i denna organisation är den fria marknaden.
@@ -1194,7 +1223,7 @@ Bastiat beskriver marknaden som ett decentraliserat och osynligt verktyg för sa
 Det som är slående, menar Bastiat, är den enorma disproportion som finns mellan de fördelar som denna man får från samhället och de fördelar som han skulle ge sig själv om han var hänvisad till sina egna resurser. På en enda dag konsumerar han varor som han inte skulle kunna producera själv.
 
 
-![image](assets/en/096.webp)
+![image](assets/sv/086.webp)
 
 
 År 1958 publicerade den amerikanske författaren Leonard Read (Foundation for Economic Education) en kort essä i tidskriften The Freeman, skriven i Bastiats anda, som blev mycket känd: "I, Pencil". Denna text är en metafor för vad en fri marknad är. Den börjar så här:
@@ -1202,24 +1231,25 @@ Det som är slående, menar Bastiat, är den enorma disproportion som finns mell
 
 > Jag är en blyertspenna, en vanlig träpenna som alla pojkar och flickor och vuxna som kan läsa och skriva känner till. Det är ett av de enklaste föremålen i den mänskliga civilisationen. Ändå finns det inte en enda människa på jorden som vet hur man tillverkar mig.
 
-![image](assets/en/097.webp)
+![image](assets/sv/087.webp)
 
 Den återknyter till Bastiats idé om ett osynligt samarbete mellan miljontals individer som inte känner varandra och som leder till tillverkningen av något så vardagligt som en blyertspenna. Ingen vet hur man tillverkar en blyertspenna på egen hand. Ändå deltar miljontals människor omedvetet i skapandet av denna enkla penna genom att utbyta och samordna sina kunskaper och färdigheter inom ett prissystem utan att någon överordnad myndighet dikterar deras beteende. Den här historien visar att fria individer som arbetar för sina legitima intressen är till större nytta för samhället än någon planerad och centraliserad ekonomisk strategi.
 
 
 Nobelpristagaren i ekonomi 1976, Milton Friedman, återkom också till denna blyertshistoria för att förklara för allmänheten hur marknadsekonomin fungerar.
 
+:::video id=db48376a-64c9-48b8-a8fb-2640c9b5bf73:::
 
 I ett avsnitt av sin tv-serie Free to Choose analyserar han de olika komponenterna i något så vardagligt och enkelt som en penna och belyser den spontana ordningens mirakel, som genereras av tusentals ekonomiska interaktioner över hela världen. Människor som inte känner varandra, som inte delar samma religion eller seder, lyckas ändå samordna sig för att producera detta föremål. Han drar slutsatsen att den fria marknaden är nödvändig för att säkerställa inte bara välstånd utan också harmoni och fred.
 
 
-![image](assets/en/098.webp)
+![image](assets/sv/088.webp)
 
 
 Friedrich Hayek förklarade redan 1945 i sin essä "The Use of Knowledge in Society" varför marknadsekonomi och decentralisering av beslut är en förutsättning för välstånd. Enligt Hayek kan ingen central planerare eller byråkrat någonsin ha tillräcklig kunskap för att framgångsrikt styra alla ekonomiska åtgärder. Det är bara prissystemet på en fri marknad som gör det möjligt för miljontals oberoende aktörer att själva bestämma hur resurserna ska fördelas på ett effektivt sätt.
 
 
-![image](assets/en/099.webp)
+![image](assets/sv/089.webp)
 
 
 Ekonomisk planering, som gör anspråk på att vara bättre än marknaden, leder inte bara till en dålig fördelning av resurserna utan också till att en klass får hegemoni över en annan. Därför är socialismen inte bara ett intellektuellt misstag, utan ett misstag som i slutändan leder till oerhörda orättvisor.
@@ -1230,13 +1260,15 @@ Ekonomisk planering, som gör anspråk på att vara bättre än marknaden, leder
 
 <chapterId>78baa7ef-2c80-5fc7-8881-c1be4662b96f</chapterId>
 
+:::video id=a7e94133-d79a-47cf-b098-d1b15741235e:::
+
 
 I ett brev till Alphonse de Lamartine 1845 skrev Bastiat att hela hans filosofi ryms i en enda princip:
 
 
 > Frihet är den bästa formen av social organisation.
 
-![image](assets/en/100.webp)
+![image](assets/sv/090.webp)
 
 Han lägger dock till ett villkor:
 
@@ -1255,7 +1287,7 @@ Därför utgör ansvar på sätt och vis den positiva aspekten av frihet: i den 
 Det individuella ansvaret är både en viktig drivkraft för kreativitet och ett incitament till försiktighet och framförhållning.
 
 
-![image](assets/en/101.webp)
+![image](assets/sv/091.webp)
 
 
 När man spenderar sina egna pengar är man noga med att inte skuldsätta sig för mycket, att kontrollera produkternas kvalitet och leverantörernas tillförlitlighet, med risk för att bli hårt straffad. Sådan är ansvarets kraft, i kombination med frihet är det den verkliga motorn för sociala framsteg.
@@ -1269,7 +1301,7 @@ Men varifrån kommer fenomenet ansvarslöshet eller ansvarsbefrielse? Frédéric
 Statismen minskar faktiskt hela tiden det privata initiativet och människors fria val. Den gör åt dem vad de skulle kunna göra själva och bättre. På så sätt avskärmas individerna från konsekvenserna av sina handlingar. Den förstör ansvarstagandet.
 
 
-![image](assets/en/102.webp)
+![image](assets/sv/092.webp)
 
 
 Enligt Bastiat leder hypertrofieringen av lagar och statens överdrivna ingripande till maktkamp, plundring, privilegier, monopol, krig, kort sagt allt som hindrar civilisationens framsteg.
@@ -1280,7 +1312,7 @@ Risken med att i alltför hög grad gynna lagens väg eller byråkratisk kontrol
 Låt oss illustrera denna fråga med några viktiga aktuella ämnen. Det första exemplet är krisen 2008.
 
 
-![image](assets/en/103.webp)
+![image](assets/sv/093.webp)
 
 _(Alan Greenspan, ordförande i FED, den amerikanska centralbanken, från 1987 till 2006)_
 
@@ -1296,7 +1328,7 @@ Och fenomenet kommer att upprepas i all oändlighet så länge bankerna står un
 Ett annat exempel: offentliga tjänster
 
 
-![image](assets/en/105.webp)
+![image](assets/sv/094.webp)
 
 
 Varje public service-tjänst påtvingar en byråkratisk elit dess preferenser, på bekostnad av individens fria val. Detta leder till två konsekvenser enligt Bastiat: Medborgaren "slutar att utöva fri kontroll över sina egna tillfredsställelser, och eftersom han inte längre har ansvaret upphör han naturligtvis att ha intelligensen." Skälet är enkelt: varje skriven lag är tvingande och den är densamma för alla, den tar ingen hänsyn till medborgarnas särskilda situationer, behov och preferenser.
@@ -1305,13 +1337,13 @@ Varje public service-tjänst påtvingar en byråkratisk elit dess preferenser, p
 Slutligen är public service en orsak till orörlighet. När privata tjänster blir offentliga undgår de nämligen konkurrens. Följaktligen, säger Bastiat, och jag citerar: "Tjänstemannen saknar den stimulans som driver mot framsteg."
 
 
-![image](assets/en/106.webp)
+![image](assets/sv/095.webp)
 
 
 När vi observerar den nationella utbildningens allmännyttiga karaktär förstår vi vad Bastiat menar. Den stora majoriteten av föräldrar befrias från bördan att utbilda sina barn och skolan reduceras till ett dagis. Det uppmuntrar inte lärare att förnya sig och ta risker eftersom de i ett sådant system bara är utförare av ett program som utformats utan dem, av byråkrater. Slutligen ignorerar det verkligheten med de särskilda behov som varje individ har.
 
 
-![image](assets/en/107.webp)
+![image](assets/sv/096.webp)
 
 Vi kommer att se i en annan kurs att enligt Bastiat är de enda legitima offentliga tjänsterna i en stat trefaldiga: militären, polisen och rättsväsendet. Men för att avsluta med ansvarsfrågan: problemet med statliga ingripanden är att de som fattar besluten inte är de som får ta konsekvenserna av dem.
 
@@ -1322,6 +1354,8 @@ Kollektiva val är med andra ord inte ansvarsfulla val eftersom de å ena sidan 
 
 
 <chapterId>0c078806-6c58-53f9-a720-5fb62386e56b</chapterId>
+
+:::video id=0b2bc259-52c5-46c9-a904-254746d6972f:::
 
 
 I den förra kursen såg vi varför frihet och ansvar är nyckeln till det sociala problemet. Vi ska nu fördjupa oss i denna fråga genom att visa hur Frédéric Bastiat ser på samhällets ondska och hur den kan lösas.
@@ -1339,7 +1373,7 @@ Ondskan är inte bara en definitiv realitet utan den har också en roll att spel
 För att besvara dessa frågor kommer Bastiat att analysera människans handlingar. Detta kan i själva verket leda till både gott och ont.
 
 
-![image](assets/en/108.webp)
+![image](assets/sv/097.webp)
 
 
 Ondskan härstammar först från vår ofullkomlighet. Att välja fritt är att löpa risken att göra ett dåligt val, säger Bastiat. Vi kan faktiskt bli lurade på många sätt, till och med om våra egna behov och intressen. Människan är felbar, hon är benägen att missförstå de ekonomiska lagarnas spel eller att avleda dem från deras syfte.
@@ -1355,7 +1389,7 @@ Om ondskan härrör från mänsklig svaghet och inte från friheten i sig eller 
 Genom denna naturliga sanktion lär sig människan, upptäcker, korrigerar sig själv, gör framsteg och blir bättre. Med andra ord är ansvar en princip för perfektion och framsteg, vilket vi har sett i den föregående kursen.
 
 
-![image](assets/en/109.webp)
+![image](assets/sv/098.webp)
 
 
 Om en människa får bära konsekvenserna, goda eller dåliga, av sina beslut, kommer hon att tendera att förbättra sig genom att lära av sina erfarenheter. Därför måste det individuella ansvaret, som enligt Bastiat är den stora folkbildaren, den grundläggande principen för all reglering av beteenden och samhällen, tillåtas verka.
@@ -1367,7 +1401,7 @@ Ondskan skapar lidande, och lidandet får oss att förstå felet eller misstaget
 Det är för att människan riskerar att begå misstag eller handla fel och drabbas av konsekvenserna som hon uppmuntras till ansvarstagande. Han kommer då att sträva efter att förutse de faror som kan drabba honom för att skydda sig själv.
 
 
-![image](assets/en/110.webp)
+![image](assets/sv/099.webp)
 
 
 ---
@@ -1382,13 +1416,13 @@ Det är alltså tydligt att Bastiat är långt ifrån blind. Han förnekar inte 
 Han hävdar helt enkelt att om ondskans källa ligger i avsaknaden av frihet, så ligger lösningen i själva friheten, och mer specifikt i det fulla och hela utövandet av personligt ansvar.
 
 
-![image](assets/en/111.webp)
+![image](assets/sv/100.webp)
 
 
 Men om missbruket av friheten är orsaken till våra bekymmer, är dess rätta användning botemedlet, det vill säga det fulla och hela utövandet av personligt ansvar, baserat på äganderätten. Social reglering sker därför genom ansvar, inte genom att staten ingriper på alla områden, vilket är en av de stora källorna till plundring och därmed till ondska.
 
 
-![image](assets/en/112.webp)
+![image](assets/sv/101.webp)
 
 I motsats till Rousseau, som försöker utrota ondskan genom kollektiva institutioner, försvarar Frédéric Bastiat möjligheten till ondska och misstag, utan vilka det inte finns någon frihet eller något individuellt ansvar. Det är nämligen bara detta som gör det möjligt att genom en upptäcktsprocess göra framsteg och minska sociala missförhållanden.
 
@@ -1399,6 +1433,8 @@ Det måste klargöras att denna utveckling av framsteg genom ansvar inte på nå
 
 
 <chapterId>fa2172e9-22fa-5c01-a3c8-1e8316c064a4</chapterId>
+
+:::video id=28c7b1d0-e32f-48dc-95ee-8459667b42ab:::
 
 
 
@@ -1411,7 +1447,7 @@ Frédéric Bastiat fördömer i sin berömda pamflett "Lagen" den pervertering a
 Moral definieras nämligen som frivilligt beteende. När en individ tvingas att ge något som den inte vill ge är den alltid offer för stöld.
 
 
-![image](assets/en/115.webp)
+![image](assets/sv/102.webp)
 
 
 När en donation görs obligatorisk enligt lag är det inte längre en moralisk inställning. Den moraliska inställningen att ge ersätts av kravet på "rättigheter", som är krav på andras arbete. Falsk solidaritet är en uppmaning att leva på andras bekostnad.
@@ -1428,7 +1464,7 @@ Och igen:
 > Regeringar utövar bara en handling som är sanktionerad av Kraften. Nu är det tillåtet att tvinga någon att vara rättvis, men inte att tvinga dem att vara välgörande. Lagen, när den försöker göra med våld vad moralen uppnår genom övertalning, långt ifrån att stiga upp till välgörenhetens rike, faller in i plundringens domän.
 > Ändå har denna pervertering av lagen ett namn, det är socialism, det vill säga ideologin om påtvingad omfördelning av rikedom av staten. Socialismen kännetecknas enligt Bastiat av en ideologi som innebär laglig plundring. Men det listiga med denna ideologi är att den maskerar sitt våld under ett språkmissbruk: uppmaningen till solidaritet eller broderskap.
 
-![image](assets/en/116.webp)
+![image](assets/sv/103.webp)
 
 
 ---
@@ -1442,13 +1478,13 @@ Och igen:
 Enligt Bastiat finns det dock ett alternativ till den obligatoriska statliga solidariteten: "mutual aid society", det vill säga människors ömsesidiga och spontana hjälp till varandra tack vare ömsesidiga hjälporganisationer. Men han förutsåg också att staten så småningom skulle lägga beslag på dessa ömsesidiga bolag för att göra dem till ett unikt och centraliserat organ, vilket skulle uppmuntra till utgifter och slöseri.
 
 
-![image](assets/en/117.webp)
+![image](assets/sv/104.webp)
 
 
 I en pamflett med titeln "Justice and Fraternity" utforskar Bastiat också idén om ett förenklat och rättvist skattesystem för att finansiera kollektiva behov (polis, rättsväsende, armé): inkomster och vinster skulle omfattas av en enda och proportionell skattesats. Detta är vad som idag kallas "Flat Tax".
 
 
-![image](assets/en/118.webp)
+![image](assets/sv/105.webp)
 
 
 ---
@@ -1492,6 +1528,8 @@ Lagen kan tvinga en människa att vara rättvis, men den kan inte tvinga henne a
 
 <chapterId>a48a0616-2105-5520-8312-e21a0b6489c7</chapterId>
 
+:::video id=823bbc82-dfe6-4ed4-bb36-e5557dc5341a:::
+
 
 Med egendom bör vi inte förstå mark här. Det betyder "en arbetares rätt till det värde som han har skapat genom sitt arbete" Bastiat preciserar:
 
@@ -1512,7 +1550,7 @@ Förstått på detta sätt är äganderätten en av de rättigheter som inte hä
 Dess uppdrag är att försvara personen och dennes egendom.
 
 
-![image](assets/en/120.webp)
+![image](assets/sv/106.webp)
 
 _(François Quesnay, ledare för fysiokraterna)_ _(François Quesnay, ledare för fysiokraterna)_
 
@@ -1525,13 +1563,13 @@ Rätten "är inte skapad". Den uppfinns inte utifrån en idealisk vision om vad 
 Individer har naturliga rättigheter som föregår lagen: Egendom, frihet och personlighet. Lagens roll bör vara att bevara dessa naturliga rättigheter för individen. Följaktligen måste staten vara begränsad. Idag skulle vi säga att Bastiat är en förespråkare för den minimala staten.
 
 
-![image](assets/en/121.webp)
+![image](assets/sv/107.webp)
 
 
 I Rousseaus system, som vi diskuterade i en tidigare kurs, är lagstiftarens uppgift att organisera, modifiera och till och med avskaffa egendom om det anses lämpligt. För Rousseau är egendom inte naturlig utan konventionell, precis som samhället självt. Denna idé härstammar från den romerska rätten, som Rousseau var väl förtrogen med.
 
 
-![image](assets/en/122.webp)
+![image](assets/sv/108.webp)
 
 
 Robespierre i sin tur slår fast principen att "egendom är varje medborgares rätt att åtnjuta och förfoga över den del av varorna som lagen garanterar honom"
@@ -1554,13 +1592,9 @@ Tanken att äganderätten är en skapelse av lagen leder alltså enligt Bastiat 
 I systemet med naturlig frihet finns det en naturlag som är oberoende av lagstiftarnas nycker. Den gäller för alla människor och föregår alla samhällen. Och det är statens plikt att säkerställa varje individs naturliga rättigheter. Ett rättvist samhälle är ett samhälle där äganderätten respekteras fullt ut, vilket innebär att den skyddas mot all inblandning från andra.
 
 
-![image](assets/en/120.webp)
+![image](assets/sv/109.webp)
 
 Här ansluter sig Bastiat till arvet från fysiokraterna, och därutöver till Ciceros och Aristoteles rättsfilosofiska tradition. Lagen skapar inte rättigheter. Dess uppgift är att försvara dem och därmed att försvara egendom, både den egna egendomen, den personliga integriteten och egendomen till frukterna av det egna arbetet.
-
-
-
-_(Cicero)_
 
 
 ## Juridisk plundring: En förvrängning av lagen
@@ -1568,11 +1602,13 @@ _(Cicero)_
 
 <chapterId>b4122847-e477-578e-ba34-d35844ac4715</chapterId>
 
+:::video id=24b1ca72-c52a-4ff3-b6db-01e3807c5d8e:::
+
 
 Bastiats huvudtanke i "The Law", hans berömda pamflett från 1850, är att visa varför och hur lagen har blivit plundrande, det vill säga en källa till privilegier, situationsbaserade hyror och skattemässigt godtycke.
 
 
-![image](assets/en/125.webp)
+![image](assets/sv/110.webp)
 
 
 Vad är lagens sanna natur?
@@ -1587,7 +1623,7 @@ Den naturliga frihetens institutionella system är det system där samhälle, in
 > Det är inte för att det finns lagar som det finns egenskaper, utan för att det finns egenskaper som det finns lagar.
 > Fastigheter och juridik
 
-![image](assets/en/126.webp)
+![image](assets/sv/111.webp)
 
 
 Varje människa har rätt att försvara sitt liv och att använda sina förmågor. Och lagen är den kollektiva organisationen av detta legitima försvar. Lagen försvarar rättvisan. Inte en positiv rättvisa som skulle organisera broderskap och solidaritet, utan en negativ rättvisa som begränsar sig till att förhindra att en persons rättigheter tillskansar sig en annans.
@@ -1599,15 +1635,13 @@ Men när lagen upphör att vara negativ och blir positiv ökar känslan av ojäm
 Falsk filantropi, menar Bastiat, är en av de främsta orsakerna till att lagen förvanskas. Vissa människor anser sig stå över resten av mänskligheten och vara kapabla att göra bättre val än andra.
 
 
-![image](assets/en/127.webp)
+![image](assets/sv/112.webp)
 
 De vet bättre vad som är bra för andra och kommer att påtvinga alla sin uppfattning om vad som är bra; dessa är filantroperna. De har skapat falska rättigheter som i dag kallas sociala rättigheter. Sociala rättigheter är inget annat än rättigheter över andras arbete, rättigheter att förfoga över sin egendom, frukten av sitt arbete: rätten till bostad, rätten till hälsa, till utbildning, till arbete, till minimilön osv.
 
 
 Vad är plundring? Det är raka motsatsen till egendom, säger Bastiat. Att plundra kommer från latinets _spoliare_, som betyder strippa. Vi har sett att människan bara kan leva genom att tillägna sig saker, genom att använda sina förmågor på saker, det vill säga genom att arbeta. Tyvärr kan han också tillägna sig produkten av sina medmänniskors förmågor, det vill säga plundra dem.
 
-
-![image](assets/en/128.webp)
 
 
 Lagens hela uppgift är att förhindra denna utomrättsliga plundring, det vill säga att försvara egendom och frihet, två oskiljaktiga saker.
@@ -1616,13 +1650,13 @@ Lagens hela uppgift är att förhindra denna utomrättsliga plundring, det vill 
 Så snart det i princip erkänns att lagen kan avledas från sitt verkliga uppdrag, att den kan kränka egendomar istället för att garantera dem, följer det nödvändigtvis en klasskamp, antingen för att försvara sig mot plundring eller för att organisera den också till ens fördel.
 
 
-![image](assets/en/129.webp)
+![image](assets/sv/113.webp)
 
 
 Istället för att försvara naturliga rättigheter förvandlas lagen till ett skydd för företags- och kategoriska intressen. Plundring organiseras av lagen, till förmån för de klasser som skapar den och deras vänner eller klienter. Bastiat föregriper därmed 1900-talets "public choice"-skola, för vilken lagen är resultatet av en "politisk marknad" där grupper av individer försöker tillgodose sina intressen på andras bekostnad.
 
 
-![image](assets/en/130.webp)
+![image](assets/sv/114.webp)
 
 
 För honom måste syftet med lagen helt enkelt vara att "sätta stopp för alla plundringar" Om staten inte ingriper i privatlivet är individerna i praktiken ägare och ansvariga för sina liv. De skapar sin egen lycka. De bär de goda eller dåliga konsekvenserna av sina handlingar.
@@ -1636,7 +1670,7 @@ De är övertygade om att deras naturliga rättigheter är garanterade och oanta
 Bastiat skrev ovanstående mening i The Law, en tid innan han dog.
 
 
-![image](assets/en/131.webp)
+![image](assets/sv/115.webp)
 
 
 Ett sekel efter Frédéric Bastiats död är den juridiska plundringen tydlig i den allmänna förklaringen om de mänskliga rättigheterna från 1948, särskilt i artiklarna 22 ("var och en har rätt till social trygghet"), 23 ("var och en har rätt till arbete"), 24 ("var och en har rätt till vila och fritid"), 25 ("var och en har rätt till en levnadsstandard som är tillräcklig för hälsa och välbefinnande"), 26 ("var och en har rätt till utbildning").
@@ -1647,6 +1681,8 @@ Ett sekel efter Frédéric Bastiats död är den juridiska plundringen tydlig i 
 
 <chapterId>52258229-7c7c-592b-aa27-203b03aa41c9</chapterId>
 
+:::video id=43c0db1d-1063-45d7-bce3-4d9d18382a2d:::
+
 
 År 1848 var Bastiat deputerad. Han utsågs till vice ordförande i finanskommissionen. Han var därför särskilt väl lämpad att svara på frågan: Vad är staten? Vi vänder oss till staten för att säkerställa vårt välbefinnande. Men Bastiat påminner oss om att staten inte kan ge medborgarna något som den inte först har tagit från dem.
 
@@ -1654,26 +1690,26 @@ Ett sekel efter Frédéric Bastiats död är den juridiska plundringen tydlig i 
 Bastiat börjar med att vända upp och ned på en allmänt accepterad ekvation: det är staten som upprätthåller nationen. Staten kan dock inte försörja medborgarna eftersom den inte producerar rikedom, utan bara flyttar runt den och omfördelar den. Tvärtom är det medborgarna som upprätthåller staten genom att skapa välstånd.
 
 
-![image](assets/en/132.webp)
+![image](assets/sv/116.webp)
 
 
 Staten i sig existerar inte heller, det finns bara människor som utgör staten, som styr, administrerar, som lever av staten direkt eller indirekt. Därför är de män som administrerar staten som andra; de försöker tillfredsställa sina personliga intressen.
 
 
-![image](assets/en/133.webp)
+![image](assets/sv/117.webp)
 
 
 Och eftersom statens agerande är rent omfördelande är den föremål för påtryckningar från särskilda intressegrupper. Vissa intressegrupper har faktiskt förstått att det är lättare att tjäna pengar genom politiskt engagemang än genom produktiva beteenden. De försöker stjäla andras pengar under statens täckmantel och undergräver marknadens produktionskapacitet genom att multiplicera lagar, skatter och byråkratiska begränsningar.
 
 
-![image](assets/en/134.webp)
+![image](assets/sv/118.webp)
 
 
 Med andra ord strävar staten endast efter klientelistiska mål och begreppet allmänintresse saknar betydelse. Varje vinst som uppnås av vissa sker på bekostnad av andra: det är inte ett nollsummespel utan ett negativt summespel.
 
 Bastiat föregriper därmed, ett sekel i förväg, de analyser av den politiska marknadens funktionssätt som skulle komma att växa fram i slutet av 1950-talet med den s.k. Public Choice-skolan av James Buchanan, Nobelpristagare i ekonomi, och hans kollega Gordon Tullock.
 
-![image](assets/en/135.webp)
+![image](assets/sv/119.webp)
 
 
 
@@ -1686,13 +1722,13 @@ För att veta om staten är legitimt tilldelad en rättighet måste man därför
 Därför kan staten under inga omständigheter kränka de naturliga rättigheterna, utan måste tvärtom garantera dem.
 
 
-![image](assets/en/137.webp)
+![image](assets/sv/120.webp)
 
 
 Den garanterar säkerhet, både internt och externt, och rättvisa. Den kan vara stark och effektiv inom sitt område. Men lagen kan inte gå utanför denna mycket strikta roll eftersom den då blir ett instrument för plundring från vissa till förmån för andra. När lagen förvrängs fungerar den som ett instrument för orättvisa. Förvrängningen av lagen leder alltid till plundring, som vi har sett i den föregående kursen. Det är omedelbart, automatiskt, oundvikligt och säkert. Att ta lagen ur dess domän kan bara inkräkta på naturliga rättigheter. Det civila samhället berövas då sin makt (naturliga institutioner, kontrakt, utbyten, föreningar) till förmån för statlig förvaltning, det vill säga teknokratisk och byråkratisk.
 
 
-![image](assets/en/107.webp)
+![image](assets/sv/121.webp)
 
 
 Därför finns det enligt Bastiat endast tre legitima offentliga tjänster i en stat: militären, polisen och rättsväsendet. Med andra ord måste staten säkerställa det inre och yttre skyddet av individer, deras frihet och deras egendom. Det är därför normalt att alla bidrar till detta skydd. Utöver dessa legitima funktioner är dock alla andra bidrag till en annan tjänst som staten tillhandahåller föremål för granskning. Utanför denna cirkel, skriver Bastiat:
@@ -1720,6 +1756,8 @@ Skrev Frédéric Bastiat i en kort pamflett med titeln Staten.
 
 <chapterId>2a2a181a-e477-5be1-ba1f-af59490c364e</chapterId>
 
+:::video id=de892e2c-14a5-45cc-848f-ec934eaba615:::
+
 
 Bastiats inflytande började minska mot slutet av 1800-talet i takt med att socialismen och i synnerhet marxismen växte fram inom universitet och forskningsinstitut, finansierade med offentliga medel.
 
@@ -1730,11 +1768,11 @@ Med 1900-talet försvann kunskapen om och populariteten för Bastiat. Han nämnd
 Mises bosatte sig i New York 1943 och organiserade seminarier som lockade till sig anmärkningsvärda personer: George Stigler, Milton Friedman, båda framtida Nobelpristagare, och Murray Rothbard, som då studerade vid Columbia. Det var under dessa seminarier som han för första gången talade om Bastiat som en av de viktigaste referenserna till den klassiska liberalismen. Han presenterade för sina åhörare Bastiats pamfletter The Law och The State, som ännu inte översatts till engelska. År 1953 skulle en av seminariedeltagarna, Leonard Read, låta översätta "The Law" av Bastiat till engelska och ta på sig uppgiften att distribuera boken över hela landet genom sin stiftelse: Foundation for Economic Education.
 
 
-![image](assets/en/139.webp)
+![image](assets/sv/122.webp)
 
 Men den som också skulle popularisera Frédéric Bastiats teser var en ekonomisk kolumnist för New York Times, Henry Hazlitt, i en liten bok med namnet: "Economics in One Lesson", som publicerades 1946. Hazlitt använder sig uttryckligen av Bastiats idéer och försöker visa att problemet med statsekonomiska lösningar är att man inte tar hänsyn till de katastrofala långsiktiga konsekvenserna av dem.
 
-![image](assets/en/140.webp)
+![image](assets/sv/123.webp)
 
 
 Hazlitt inleder sin bok med att återge Bastiats berättelse om det krossade fönstret. Han sammanfattar historien i en enkel och entydig lärdom:
@@ -1750,7 +1788,7 @@ Bastiat var en av Ronald Reagans favoritekonomer, långt innan han blev vald til
 
 Den läxa som Reagan lärde sina anställda, i Bastiats efterföljd, är att det inte finns någon större myt än den om att stimulera tillväxt och sysselsättning genom offentliga utgifter.
 
-![image](assets/en/141.webp)
+![image](assets/sv/124.webp)
 
 
 Det var framför allt John Maynard Keynes som föreslog att offentliga utgifter ökade produktionen på grund av en multiplikator: om regeringen bygger en bro kommer arbetarna på bron att kunna köpa bröd, sedan kan bagaren köpa skor och så vidare. Om den privata industrin är på nedgång kan den åtgärdas genom stora arbeten. Om det råder arbetslöshet kan staten skapa offentliga jobb.
@@ -1758,7 +1796,7 @@ Det var framför allt John Maynard Keynes som föreslog att offentliga utgifter 
 
 Men som Bastiat så träffande visade har statliga ingripanden perversa effekter som inte syns. Endast en duktig ekonom kan förutse dem. Låt oss ta ett exempel: Det är en illusion att tro att staten kan "skapa jobb" eftersom det för varje offentligt jobb som skapas försvinner ett jobb på marknaden. Faktum är att offentliga jobb betalas med skatter. Offentliga jobb skapas inte, de uppfattas. Varje krona som staten spenderar måste med nödvändighet erhållas genom en krona i skatt eller skuld.
 
-![image](assets/en/142.webp)
+![image](assets/sv/125.webp)
 
 
 Om vi ser på saker och ting ur denna vinkel, förklarade Reagan för GE:s anställda, framstår de så kallade miraklen med statliga utgifter i ett helt annat ljus. Eftersom skatter avskräcker från produktion, och den rikedom som skapas genom offentliga utgifter inte fullt ut kan kompensera för dem som hindrades från att födas av de skatter som togs ut för att betala för dessa utgifter.

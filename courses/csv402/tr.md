@@ -1,14 +1,11 @@
 ---
-name: Teoriden pratiğe RGB protokolü
+name: RGB programlama
 goal: RGB'i anlamak ve kullanmak için gereken becerileri edinme
-objectives: 
-
-  - RGB protokolünün temel kavramlarını anlamak
-  - Client-side Validation ve Bitcoin taahhütlerinin ilkelerine hakim olun
-  - RGB sözleşmelerinin nasıl oluşturulacağını, yönetileceğini ve aktarılacağını öğrenin
-  - RGB uyumlu bir Lightning düğümü nasıl çalıştırılır
-
-
+objectives:
+- RGB protokolünün temel kavramlarını anlamak
+- Client-side Validation ve Bitcoin taahhütlerinin ilkelerine hakim olun
+- RGB sözleşmelerinin nasıl oluşturulacağını, yönetileceğini ve aktarılacağını öğrenin
+- RGB uyumlu bir Lightning düğümü nasıl çalıştırılır
 ---
 # RGB protokolünü keşfetme
 

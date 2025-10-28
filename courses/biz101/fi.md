@@ -1,22 +1,19 @@
 ---
 name: Bitcoin yrityksille
 goal: Opi maksamisen ja kassanhallinnan perusteet, jotta voit ottaa yrityksesi käyttöön bitcoinin
-objectives: 
-
-  - Bitcoin kehittyvänä valuuttana ja liiketoimintavälineenä
-  - Ymmärtää, miksi ja miten yritys voi pitää bitcoinia kassassaan tai käyttää sitä maksuihin
-  - Sinulla on konkreettinen ajatus siitä, miten bitcoin-maksu voidaan hyväksyä käytännössä
-  - Valmistautuminen vero- ja kirjanpitovaatimusten hallintaan
-
+objectives:
+- Tutustu Bitcoiniin nousevana valuuttana ja liiketoiminnan työkaluna
+- Ymmärrä, miksi ja miten yritys voi pitää bitcoinia kassassaan tai käyttää sitä maksuihin
+- Hanki konkreettinen käsitys siitä, miten Bitcoin-maksuja vastaanotetaan käytännössä
+- Valmistaudu hallitsemaan vero- ja kirjanpitovaatimuksia
 ---
-# Käynnistä yrityksesi matka Bitcoin-verkossa
+# Käynnistä yrityksesi matka Bitcoin-verkostossa
 
-Tutustu Bitcoinin ja Lightning Networkin käytännön ominaisuuksiin ja tutki, miten ne voivat internetin tavoin **muuttaa liiketoimintasi**. Digitaalisesta pääomasta nopeisiin, taloudellisiin ja skaalautuviin maksuihin Bitcoin tarjoaa laajan valikoiman **käyttökohteita yrityksille**.
+Tutustu Bitcoinin ja Lightning Networkin käytännön mahdollisuuksiin ja selvitä, kuinka ne voivat, aivan kuten internet, muuttaa liiketoimintasi. Kassasta nopeisiin, taloudellisiin ja skaalautuviin maksuihin, Bitcoin tarjoaa laajan kirjon käyttötapauksia yrityksille.
 
-Tässä oppaassa opit ymmärtämään Bitcoinia globaalina, universaalina ja internetissä toimivana rahaverkkona. Ainutlaatuisten perusominaisuuksiensa ansiosta **Bitcoin tarjoaa merkittäviä parannuksia verrattuna perinteisiin rahaverkkoihin**. Saat selville, miksi ja miten Bitcoinia voidaan hyödyntää klassisissa rahoituskäyttötilanteissa, kuten pääoman varastoinnissa ja maksujärjestelmissä. Lisäksi tässä oppaassa käsitellään Bitcoinin hankkimista ja hallussapitoa, mukaan lukien siihen liittyvät kirjanpito- ja verovaatimukset, sekä yksinkertaisten tai laajamittaisten Bitcoin-maksuratkaisujen toteuttamista.
+Tämän kurssin aikana opit ymmärtämään Bitcoinin globaalina, universaalina ja internet-natiivina rahallisena verkostona. Ainutlaatuisilla perusominaisuuksillaan Bitcoin tarjoaa merkittäviä parannuksia perinteisiin valuuttoihin verrattuna. Tulet löytämään, miksi ja miten hyödyntää Bitcoinia klassisissa rahoituskäyttötapauksissa, kuten pääoman säilytyksessä ja maksujärjestelmissä. Lisäksi tämä kurssi käsittelee Bitcoinin hankkimista ja hallussapitoa, mukaan lukien siihen liittyvät kirjanpito- ja verovaatimukset, sekä yksinkertaisten tai laajamittaisten Bitcoin-maksuratkaisujen toteuttamista.
 
-Olitpa sitten **pieni yritys tai suuryritys**, Bitcoinin integroiminen päivittäisiin toimintoihin voi tehdä yrityksestäsi **kestävämmän, tuottavamman ja kilpailukykyisemmän**. Jokaisesta internet-pohjaisesta yrityksestä tulee Bitcoin-pohjainen yritys, ja tämä kurssi varmistaa, että olet valmistautunut. Alkuosissa kerrataan Bitcoinin toiminnan perusteet, joten vaikka olisitkin aloittelija, saat perustiedot, joita tarvitset edetäksesi. Satoshin keksinnön perusteiden opettelu on aina hyvä idea, joko ennen BIZ101:een sukeltamista tai sen jälkeen.
-
+Olipa kyseessä pieni yritys tai suuri yritys, Bitcoinin integrointi päivittäisiin toimintoihisi voi tehdä yrityksestäsi kestävämmän, tuottavamman ja kilpailukykyisemmän. Jokainen internetpohjainen yritys tulee olemaan Bitcoin-suuntautunut yritys, ja tämä kurssi varmistaa, että olet valmis.
 +++
 # Johdanto
 

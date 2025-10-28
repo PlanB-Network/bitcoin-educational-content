@@ -147,7 +147,7 @@ https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-8405
 
 - 接收比率**：节点每收到一百万 Satoshi 将向您收取的费用，具体取决于所选的频道。
 - 比率（百万分率）**：表示当您决定通过节点的某个通道付款时，节点将向您收取的每百万单位的 Satoshi 数量。假设您决定通过一个 ppm 比率为 `500 Sats` 的通道支付 `10_000 Sats`，那么您需要向节点支付 `10_000 * 500 / 1_000_000` 个卫星，相当于 `5 Sats`。
-- HTLC](https://planb.network/resources/glossary/HTLC) 最大值** ：该节点允许您通过其中一个通道转运的最大数量。
+- HTLC](https://planb.network/resources/glossary/htlc) 最大值** ：该节点允许您通过其中一个通道转运的最大数量。
 
 
 

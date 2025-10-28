@@ -157,7 +157,7 @@ If you don't want to invest in a set of punches, you can also engrave your washe
 
     - Engrave the redundant word on the other side of the puck
     - Engrave a wallet identifier on an additional washer
-    - Engrave the derivation path of the account you are using on an additional washer. You can find this information in the settings of your portfolio software. For example, for a standard Taproot portfolio, the default derivation path will be: `m / 86' / 0' / 0' /`
+    - Engrave the derivation path of the account you are using on an additional washer. You can find this information in the settings of your wallet software. For example, for a standard Taproot wallet, the default derivation path will be: `m / 86' / 0' / 0' /`
     - Burn in the PIN code to unlock your Hardware Wallet, or the anti-phishing words if you're using a COLDCARD.
 
 5. **Do NOT burn passphrase :**
@@ -181,7 +181,7 @@ If you don't want to invest in a set of punches, you can also engrave your washe
 8. **Test backup** :
 
 
-    - From your new backup, try to recover your portfolio
+    - From your new backup, try to recover your wallet
 - **Sealing the backup** (optional and recommended):
  - By sealing strips, or in sealed pouches.
  - If you use a pouch, make a note of its unique identification number, so that you can check that it's the right pouch and not a decoy replacing the original.
@@ -247,7 +247,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
-### A.3 How Bitcoin portfolios work
+### A.3 How Bitcoin wallets work
 
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f

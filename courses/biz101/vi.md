@@ -1,22 +1,19 @@
 ---
 name: Bitcoin dành cho doanh nghiệp
 goal: Tìm hiểu những điều cơ bản về thanh toán và quỹ dự phòng công ty để ứng dụng bitcoin trong tài chính doanh nghiệp
-objectives: 
-
-  - Bitcoin như một loại tiền tệ mới nổi và một công cụ quản lý tài chính doanh nghiệp
-  - Hiểu lý do và cách thức một doanh nghiệp có thể nắm giữ bitcoin trong quỹ dự phòng hoặc sử dụng nó để thanh toán
-  - Nắm được ý tưởng cụ thể về cách chấp nhận thanh toán trong thực tế bằng bitcoin
-  - Chuẩn bị cho việc quản lý để đảm bảo tuân thủ các yêu cầu về tài chính và kế toán
-
+objectives:
+- Khám phá Bitcoin như một loại tiền tệ mới nổi và công cụ kinh doanh
+- Hiểu tại sao và làm thế nào một doanh nghiệp có thể giữ bitcoin trong kho bạc hoặc sử dụng nó để thanh toán
+- Có ý tưởng cụ thể về cách chấp nhận thanh toán Bitcoin trong thực tế
+- Chuẩn bị sẵn sàng để quản lý các yêu cầu về thuế và kế toán
 ---
-# Khởi động hành trình vào mạng lưới bitcoin cho doanh nghiệp của bạn
+# Khởi động hành trình của công ty bạn trên mạng lưới Bitcoin
 
-Khám phá khả năng thực tế của mạng Bitcoin và Lightning, và tìm hiểu cách chúng có thể **chuyển đổi hoạt động kinh doanh của bạn** giống như internet. Bitcoin cung cấp một loạt **các ứng dụng rộng rãi cho doanh nghiệp** từ khả năng số hóa nguồn vốn đến việc mở rộng phương thức thanh toán một cách nhanh chóng với chi phí giao dịch thấp.
+Khám phá các khả năng thực tế của Bitcoin và Lightning Network, và tìm hiểu cách chúng, giống như internet, có thể chuyển đổi hoạt động kinh doanh của bạn. Từ quản lý ngân quỹ đến các khoản thanh toán nhanh chóng, tiết kiệm và có khả năng mở rộng, Bitcoin cung cấp một loạt các trường hợp sử dụng rộng lớn cho doanh nghiệp.
 
-Trong khóa hướng dẫn này, bạn sẽ hiểu Bitcoin là một mạng lưới thanh toán internet phủ rộng khắp toàn cầu. Với các đặc điểm cơ bản độc đáo, **Bitcoin có những cải tiến đáng kể so với các mạng lưới thanh toán truyền thống**. Bạn sẽ thấy lý do và học cách tận dụng Bitcoin thay thế cho các trường hợp sử dụng truyền thống trong tài chính doanh nghiệp như lưu trữ vốn và hệ thống thanh toán. Ngoài ra, khóa này sẽ đề cập đến cách thức mua và lưu giữ Bitcoin đảm bảo các yêu cầu về chuẩn mực kế toán tài chính liên quan, cũng như việc triển khai các giải pháp đơn giản và giải pháp phù hợp quy mô lớn cho việc thanh toán Bitcoin.
+Trong suốt khóa học này, bạn sẽ học cách hiểu Bitcoin như một mạng lưới tiền tệ toàn cầu, phổ quát và bản địa trên internet. Với các đặc điểm cơ bản độc đáo của mình, Bitcoin mang lại những cải tiến đáng kể so với tiền tệ truyền thống. Bạn sẽ khám phá lý do và cách tận dụng Bitcoin cho các trường hợp sử dụng tài chính cổ điển như lưu trữ vốn và hệ thống thanh toán. Ngoài ra, khóa học này sẽ đề cập đến việc mua và nắm giữ Bitcoin, bao gồm các yêu cầu kế toán và thuế liên quan, cũng như triển khai các giải pháp thanh toán Bitcoin đơn giản hoặc quy mô lớn.
 
-Cho dù bạn là **doanh nghiệp nhỏ hay tập đoàn lớn**, việc tích hợp Bitcoin vào hoạt động kinh doanh hàng ngày có thể giúp công ty của bạn **tăng năng suất, khả năng chống chịu và cạnh tranh hơn**. Mọi hoạt động thương mại trên Internet đều có thể sẽ trở thành kinh doanh định hướng theo Bitcoin và khóa học này đảm bảo bạn được trang bị các kiến thức cần thiết. Phần đầu sẽ tóm tắt lại những điều cơ bản về hoạt động của Bitcoin, vì vậy ngay cả khi bạn là người mới bắt đầu, bạn vẫn sẽ có được kiến thức nền tảng cần thiết để tiếp tục và hoàn thành khóa học. Tìm hiểu những cơ bản về phát minh của Satoshi luôn có ích, cho dù đó là trước hay sau khi học BIZ101.
-
+Dù bạn là doanh nghiệp nhỏ hay tập đoàn lớn, việc tích hợp Bitcoin vào hoạt động hàng ngày của bạn có thể làm cho công ty của bạn trở nên kiên cường hơn, năng suất hơn và cạnh tranh hơn. Mọi công ty dựa trên internet sẽ trở thành công ty định hướng Bitcoin, và khóa học này đảm bảo bạn đã sẵn sàng.
 +++
 # Giới thiệu
 

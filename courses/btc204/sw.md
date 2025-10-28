@@ -28,6 +28,8 @@ Jiunge nasi ili kubadilisha matumizi yako ya Bitcoin na uwe mtumiaji aliyearifiw
 
 <chapterId>08ba1933-f393-4fb5-8279-777d874caedb</chapterId>
 
+:::video id=687fe126-56db-4fe2-aaac-e481bbb5d838:::
+
 Katika ulimwengu ambapo usiri wa miamala ya kifedha unazidi kuwa anasa, kuelewa na kusimamia kanuni za ulinzi wa faragha unapotumia Bitcoin ni muhimu. Kozi hii ya mafunzo hukupa funguo zote, za kinadharia na za vitendo, ili kufanikisha hili kwa uhuru.
 
 Leo, kwenye Bitcoin, makampuni yana utaalam katika uchambuzi wa Blockchain. Biashara yao kuu inahusisha kujipenyeza katika nyanja yako ya faragha, ili kuhatarisha faragha ya miamala yako. Kwa kweli, hakuna kitu kama "haki ya faragha" katika Bitcoin. Kwa hivyo ni juu yako, mtumiaji, kudai haki zako za kiasili na kulinda faragha ya miamala yako, kwa sababu hakuna mtu mwingine atakufanyia hilo.
@@ -84,6 +86,8 @@ Pia tutaangalia faragha katika kiwango cha mtandao wa nodi na usambazaji wa shug
 
 <chapterId>8d6b50c5-bf74-44f4-922b-25204991cb75</chapterId>
 
+:::video id=60e8f3fa-9607-47ae-ac4f-5aa747d9b6d4:::
+
 Bitcoin ni sarafu ya kwanza kabisa, lakini je, unajua jinsi BTC inawakilishwa kwenye itifaki?
 
 ### UTXO kwenye Bitcoin: ni nini?
@@ -132,6 +136,8 @@ Salio la jumla lako kwingineko litakuwa `17 BTC`.
 ## Muundo wa shughuli za Bitcoin
 
 <chapterId>29d3aaab-de2e-4746-ab40-c9748898850c</chapterId>
+
+:::video id=c79d651d-ff4a-4a75-bc2b-a48a00c17326:::
 
 ### Ingizo la shughuli na matokeo
 
@@ -219,6 +225,8 @@ Pili, kama ilivyotajwa katika sehemu zilizopita, sarafu za Bitcoin kimsingi ni m
 
 <chapterId>769d8963-3ed5-4094-b21d-9203c7d9e465</chapterId>
 
+:::video id=f83d8e7a-ff4d-4c05-a8ff-0e601c49a508:::
+
 ### Pesa: uhalisi, uadilifu, na matumizi maradufu
 
 Moja ya kazi za pesa ni kutatua shida ya bahati mbaya mara mbili ya mahitaji. Katika mfumo unaozingatia ubadilishanaji wa mali, ukamilishaji wa exchange hauhitaji tu kupata mtu binafsi anayetoa kitu kizuri kinacholingana na hitaji langu, bali pia kumpa kitu cha thamani sawa kinachokidhi hitaji lake mwenyewe. Kuweka usawa huu ni jambo gumu.
@@ -287,6 +295,8 @@ Lakini kwa kuwa miamala ya Bitcoin inafanywa kwa umma, bado inawezekana kuanzish
 ## Chain analysis ya Bitcoin ni nini?
 
 <chapterId>7d198ba6-4af2-4f24-86cb-3c79cb25627e</chapterId>
+
+:::video id=3d27ea95-599b-44cc-a24c-a628c2e6a64a:::
 
 ### Ufafanuzi na uendeshaji
 
@@ -362,6 +372,8 @@ Tutaona ni nini katika sura zinazofuata, lakini tayari inafurahisha kutambua kwa
 ## Mitindo ya muamala
 
 <chapterId>d365a101-2d37-46a5-bfb9-3c51e37bf96b</chapterId>
+
+:::video id=4bd4c9d4-7997-487c-8760-98c74ae1589e:::
 
 Mchoro wa muamala ni muundo wa jumla au muundo wa shughuli ya kawaida, ambao unaweza kupatikana kwenye blockchain, na ambao uwezekano wa tafsiri yake unajulikana. Wakati wa kusoma mifumo, tunazingatia shughuli moja na kuichambua kwa kiwango cha juu.
 
@@ -494,6 +506,8 @@ Shukrani kwa mifumo hii ya miamala, tayari tunaweza kutafsiri kiasi fulani cha m
 
 <chapterId>c54b5abe-872f-40f4-a0d0-c59faff228ba</chapterId>
 
+:::video id=bbc145cc-5232-41e4-a7f8-1af4e422635a:::
+
 heuristics (Mbinu ya ndani ya kubashiri) ni sifa mahususi tunayobaini ndani ya muamala (transaction) wenyewe, bila kuhitaji kuchunguza mazingira yake ya nje, na ambayo hutuwezesha kufanya makisio. Tofauti na mifumo (patterns), ambayo huzingatia miundo ya jumla ya miamala kwa kiwango cha juu, mbinu ya ndani ya kubashiri hutegemea seti ya data inayoweza kutolewa moja kwa moja. Hii inajumuisha:
 
 
@@ -602,6 +616,8 @@ Chanzo : [Mempool.space](https://Mempool.space/tx/b79d8f8e4756d34bbb26c659ab8831
 ## Mbinu za Nje za Kubashiri (External heuristics)
 
 <chapterId>4a170e3b-200d-431a-8285-18a23ff617ba</chapterId>
+
+:::video id=f83c94a1-4f60-4dc7-855d-aa6710064575:::
 
 Utafiti wa heuristics za nje unamaanisha kuchanganua mfanano, ruwaza na sifa za vipengele fulani ambavyo si mahususi kwa muamala wenyewe. Kwa maneno mengine, ingawa hapo awali tulijiwekea kikomo kwa kutumia vipengele asilia vya muamala na heuristics za ndani, sasa tunapanua uwanja wetu wa uchanganuzi ili kujumuisha mazingira ya muamala huo, shukrani kwa heuristics za nje.
 
@@ -1025,6 +1041,8 @@ wallet ya Samourai) ;
 
 <chapterId>f3e97645-3df3-41bc-a4ed-d2c740113d96</chapterId>
 
+:::video id=5392183e-e317-499f-9757-b69e9d7cda11:::
+
 Baada ya kujifunza mbinu zinazoweza kuvunja usiri wako kwenye Bitcoin, katika sehemu hii ya tatu tutaangazia mbinu bora za kufuata ili kujilinda. Lengo la sehemu hii si kuchunguza mbinu za kuboresha usiri—mada ambayo itashughulikiwa baadaye—bali kuelewa jinsi ya kuingiliana kwa usahihi na Bitcoin ili kudumisha kiwango cha usiri ambacho mfumo huu tayari hutoa kiasili, bila kuhitaji mbinu za ziada.
 
 Ni wazi, ili kuanza sehemu hii ya tatu, tutazungumza kuhusu utumiaji tena wa address. Jambo hili ni tishio kuu kwa usiri wa mtumiaji. Sura hii kwa hakika ndiyo muhimu zaidi ya kozi nzima.
@@ -1161,6 +1179,8 @@ Iwapo unahitaji kitambulisho tuli ili kupokea malipo, kama vile michango, si vye
 
 <chapterId>fbdb07cd-c025-48f2-97b0-bd1bc21c68a8</chapterId>
 
+:::video id=4c411c97-ebb2-483d-b4fa-03109cf5d5d7:::
+
 Kama tulivyogundua katika sehemu ya uchanganuzi wa mifuatano, kuna idadi kubwa ya mawazo na mifumo ambayo inaweza kutumika kupata maelezo kuhusu shughuli. Kama mtumiaji, ni muhimu kufahamu mbinu hizi ili kujilinda vyema dhidi yao.
 
 Hii inahusisha usimamizi mkali wa Wallet yako katika kujilinda, ambayo ina maana ya kujua asili ya UTXO zako, pamoja na kuchagua kwa makini ni UTXO gani utumie unapofanya malipo. Usimamizi huu wa ufanisi wa wallet unategemea vipengele viwili muhimu vya Wallet nzuri za Bitcoin: kuweka alama na udhibiti wa sarafu.
@@ -1267,6 +1287,8 @@ https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45
 
 <chapterId>cec6b9d9-0eed-4f85-bc4e-1e9aa59ca605</chapterId>
 
+:::video id=ecf888fe-906f-4293-91b5-1e5ae7b2fde1:::
+
 **KYC inasimamia *"Know Your Client"***. Ni utaratibu wa udhibiti unaotekelezwa na baadhi ya kampuni zinazofanya kazi katika sekta ya Bitcoin. Madhumuni ya utaratibu huu ni kuhakiki na kusajili utambulisho wa wateja wao, kwa lengo mahsusi la kupambana na utoroshaji wa pesa pamoja na ufadhili wa ugaidi.
 
 Katika hali halisi, KYC inahusisha ukusanyaji wa data mbalimbali za kibinafsi kutoka kwa mteja, ambazo zinaweza kutofautiana kulingana na mamlaka, lakini kwa ujumla hujumuisha kitambulisho, picha na uthibitisho wa address. Taarifa hii kisha kuthibitishwa na kuhifadhiwa kwa matumizi ya baadaye.
@@ -1366,6 +1388,8 @@ Kwa kumalizia, wakati bitcoins zinapobadilishwa kuwa mali nyingine—iwe ni unun
 ## Njia za Uuzaji na Ununuzi
 
 <chapterId>756598af-95aa-4c77-ac48-243c7ad89530</chapterId>
+
+:::video id=9fd3d90f-32f4-48a2-a740-3597249551db:::
 
 Baada ya kusoma sura iliyotangulia, huenda unajiuliza jinsi unavyoweza kununua au kuuza Bitcoin bila kulazimika kupitia utaratibu wa uthibitishaji wa utambulisho, ili kuepuka hatari zinazohusiana na KYC. Kuna njia kadhaa za kufanya biashara ya Bitcoin.
 
@@ -1482,6 +1506,8 @@ Njia nyingine ni kufanya kazi katika exchange ya bitcoins. Njia hii ya kupata in
 
 <chapterId>d0486c8f-332d-402b-ae2e-949416752b9c</chapterId>
 
+:::video id=9e5841a2-4ff5-460e-a161-0e0af57f95d8:::
+
 Moja ya mambo magumu zaidi katika kusimamia pochi ya kujihifadhi ni mchakato wa kuunganisha (consolidation). Je, unapaswa kuunganisha? Kuna umuhimu gani? Ni ukubwa gani wa UTXO unaopaswa kuzingatiwa? Ni maelewano gani yanayohitajika katika suala la faragha? Hayo ndiyo tutakayochunguza katika sehemu hii.
 
 ### Consolidation ni nini?
@@ -1564,6 +1590,8 @@ Kwa vyovyote vile, usisahau kwamba ujumuishaji wowote bila shaka unahusisha upot
 
 <chapterId>b5216965-7d13-4ea1-9b7c-e292966a487b</chapterId>
 
+:::video id=5fc4ce39-6a0b-419a-baa9-f6da75427987:::
+
 Hebu tuangalie mbinu zingine chache bora za kuboresha faragha yako kwenye Bitcoin.
 
 ### Fundo kamili
@@ -1618,6 +1646,8 @@ Mbali na mazoea haya yote mazuri ya kupitishwa kila siku, kuna njia bora zaidi z
 ## Muamala wa Coinjoin ni nini?
 
 <chapterId>0862bc6b-1c48-4aa4-b76d-4f547b469008</chapterId>
+
+:::video id=37f23334-4b52-43db-8d82-bd84310af86c:::
 
 Baada ya kujifunza misingi ya ulinzi wa faragha, sasa tutaangalia mbinu za kisasa zaidi zinazolenga kutetea usiri wako kikamilifu, hasa kwa kutenganisha historia yako ya Bitcoin. Katika sehemu inayofuata, tutaangalia mbinu nyingi ndogo, lakini kwanza, ningependa kukuambia kuhusu SCoinjoin (arafu ya kujiunga).
 
@@ -1714,6 +1744,8 @@ Kwa hivyo, watumiaji wa leo wanapendelea Kuunga sarafu, kwani inawaruhusu kudumi
 ## Zerolink na chaumian zinaungana
 
 <chapterId>326c9654-b359-4906-b23d-d6518dd5dc3e</chapterId>
+
+:::video id=7df91435-f60b-4d80-89a8-79717a14ebd3:::
 
 Faragha iliyotolewa na kuunga sarafu hupatikana kwa ukubwa wa kikundi ambamo kipande chetu kimefichwa. Hii inamaanisha kupata washiriki wengi iwezekanavyo. Inawezekana kabisa kuunda kuunga sarafu kwa mikono, na watumiaji tumejipata wenyewe, lakini huu ni mchakato mgumu, na hautakushindia makosa yoyote makubwa.
 
@@ -1831,6 +1863,8 @@ Kwa sasa, Whirlpool ndiyo utekelezaji pekee wa CoinJoin unaotumia kwa ukali itif
 
 <chapterId>e37ed073-9498-4e4f-820b-30951e829596</chapterId>
 
+:::video id=36021102-82f3-4e86-80a9-168e3431ce7b:::
+
 Mnamo mwaka wa 2024, tunashuhudia mabadiliko makubwa katika zana zinazopatikana kwa watumiaji wanaotaka kufanya mchanganyiko kwenye Bitcoin. Kwa sasa tuko katika hatua ya mabadiliko, na soko la CoinJoin linafanyiwa marekebisho makubwa. Sura hii hakika itasasishwa baada ya muda.
 
 
@@ -1909,6 +1943,8 @@ Kama vile utakuwa umekusanya kufikia sasa, upendeleo wangu ni dhahiri kwa mfano 
 ## Jinsi Whirlpool inavyofanya kazi
 
 <chapterId>bdbd7109-e36d-4b4f-a3c6-928df4e9bfda</chapterId>
+
+:::video id=e40f1195-d028-44d3-be24-d76427f9d24b:::
 
 Kinachotenganisha Whirlpool na mbinu zingine za kuunga sarafu ni matumizi ya miamala ya "_ZeroLink_", ambayo inahakikisha kwamba hakuna kiunga cha kiufundi kinachowezekana kati ya pembejeo na matokeo yote. Mchanganyiko huu kamili hupatikana kupitia muundo ambao kila mshiriki huchangia kiasi sawa cha ingizo (isipokuwa ada za mining (uchimbaji)), na kutoa matokeo ya viwango sawa kabisa.
 
@@ -2132,6 +2168,8 @@ https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e56680
 
 <chapterId>be1093dc-1a74-40e5-9545-2b97a7d7d431</chapterId>
 
+:::video id=03d8581a-3454-4225-9068-a6434840cbcb:::
+
 Baada ya kusoma jinsi kuunga sarafu hufanya kazi na maswala yanayohusika katika uchanganyaji mzuri, sasa tutajua jinsi ya kupima ufanisi wao. Tunawezaje kujua ikiwa mchakato wa kuunganisha umekuwa na matokeo, na ni kiwango gani cha kutokujulikana ambacho sehemu fulani imepata? Hiyo ndiyo tutakayopata katika sura hii yenye seti za kutokujulikana au "anonsets".
 
 ### Kikumbusho cha manufaa ya Kuunga sarafu
@@ -2204,6 +2242,8 @@ Kama tulivyoona katika sura hii, anonsets zinaweza kuhesabiwa tu ikiwa kuna homo
 ## Entropy
 
 <chapterId>e4fe289d-618b-49a2-84c9-68c562e708b4</chapterId>
+
+:::video id=5118b15a-a58f-4529-8a91-4e9f6a093fce:::
 
 Kama tulivyoona katika sehemu hii ya kuunga sarafu, usawa (homogeneity) wa UTXOs katika pembejeo na pato unachangia kwa kiasi kikubwa kuboresha usiri wa muamala wa Bitcoin. Kigezo hiki hujenga ukataa unaowezekana mbele ya uchambuzi wa Blockchain. Ingawa kuna mbinu kadhaa za kupima usawa huu, mojawapo ya zenye ufanisi zaidi ni matumizi ya viashiria vinavyotolewa na chombo cha *Boltzmann*, kilichotengenezwa na timu za OXT na Pochi la Samourai, hasa entropy ya muamala. Hilo ndilo tutakalochambua kwa kina katika sura hii.
 
@@ -2463,6 +2503,8 @@ Kwa kuwa sasa tumeangazia sainjoins kwa kina, tutaangalia mbinu zingine za farag
 
 <chapterId>c1e90b95-f709-4574-837b-2ec26b11286f</chapterId>
 
+:::video id=5496cb59-006e-40b8-971f-af6d98868527:::
+
 Kuunga sarafu kwa sasa ndiyo njia mwafaka zaidi ya kutambulisha kutokuwa na uhakika katika ufuatiliaji wa sehemu katika uchanganuzi wa mnyororo. Kama tulivyoona katika sura zilizopita, ili kupata mchanganyiko wa utendaji wa juu, pembejeo na matokeo lazima yawe sawa iwezekanavyo. Kwa kuongeza, ni muhimu kwamba sehemu ziunganishwe katika kundi kubwa iwezekanavyo ili kuongeza anonsets. Kwa hivyo, ili kuunga sarafu ziwe na ufanisi, lazima zihusishe idadi kubwa ya sehemu za sare. Wingi huu wa mahitaji unamaanisha kuwa miamala ya Kuunga sarafu ina muundo mgumu sana: kiasi hupangwa mapema, na washiriki wote lazima wazingatie ili kuhakikisha usawa wa mchakato. Kwa kuongeza, kuunga sarafu zinahitaji maingiliano kati ya washiriki wote na mratibu wakati wa ujenzi wa muamala.
 
 Mahitaji haya hufanya Kuunga sarafu isifae kwa malipo ya moja kwa moja. Kwa mfano, ikiwa una sarafu ya 1M Sats kwenye bwawa la Kuunga sarafu, kuitumia moja kwa moja kama malipo itakuwa ngumu. Itahitaji kusawazisha na washiriki wengine na mratibu ili kuunda muamala shirikishi kwa usahihi wakati unahitaji kufanya malipo, na kiasi cha ununuzi kitalazimika kuendana haswa na thamani ya sarafu yako, ambayo kwa hakika haiwezekani. Kwa hivyo, muamala wa Kuunga sarafu kwa asili yake ni muamala wa kufagia shirikishi, yaani, kwa kawaida huwa ni wamiliki wale wale wa pembejeo tunazopata katika matokeo.
@@ -2550,6 +2592,8 @@ https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c71
 ## Malipo ya mini-CoinJoin
 
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
+
+:::video id=1f33e8f1-e41d-4480-a388-e283ef51cc17:::
 
 Unapotaka kutekeleza muamala wa malipo huku ukidumisha usiri wa kiwango fulani, PayJoin ni chaguo nzuri. Lakini kama tulivyoona, PayJoin unahitaji ushiriki wa mpokeaji. Kwa hivyo, unafanya nini ikiwa mpokeaji anakataa kushiriki katika PayJoin, au ikiwa unapendelea tu kutowahusisha? Njia moja mbadala ni kutumia muamala wa Stonewall au Stonewallx2. Hebu tuangalie kwa karibu aina hizi mbili za miamala.
 
@@ -2669,6 +2713,8 @@ https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14
 
 <chapterId>db9a20ac-a149-443d-884b-ea6c03f28499</chapterId>
 
+:::video id=3c9ce9e5-4081-4c36-98f9-9fc3779c0337:::
+
 Utumiaji wa miundo ya miamala ya Bitcoin ambayo huongeza utata katika uchanganuzi wa mfululizo, kama vile kuunga sarafu, ni ya manufaa hasa kwa ulinzi wa faragha. Hata hivyo, kama tulivyojadili katika sura ya viungio vya malipo, miamala ya kuunga sarafu inaweza kutambulika kwa kawaida kwenye mnyororo. Kumbuka mlinganisho tuliochora kati ya usimbaji fiche na kuunga sarafu: faili inaposimbwa kwa njia fiche, mtu wa tatu ambaye anagundua faili iliyosimbwa hawezi kufikia yaliyomo, lakini anaweza kutambua kwa uwazi kuwa faili imerekebishwa ili kuficha yaliyomo. Vile vile hutumika kwa kuunga sarafu: wakati mchambuzi anachunguza muamala ya kuunga sarafu, ingawa hawezi kuanzisha viungo vya moja kwa moja kati ya pembejeo na matokeo (na kinyume chake), hata hivyo anaweza kutambua kwamba shughuli iliyozingatiwa ni Kuunga sarafu.
 
 Kulingana na jinsi unavyokusudia kutumia sehemu yako baada ya mizunguko ya kuunganisha sarafu, ukweli kwamba umepitia mchakato huu unaweza kuwa tatizo. Kwa mfano, ikiwa unapanga kuuza sarafu zako kwenye jukwaa lililodhibitiwa la ubadilishanaji, lakini zimepitia hivi karibuni mchakato wa kuunganisha sarafu, zana za uchambuzi wa mnyororo zinazotumiwa na jukwaa hilo zinaweza kugundua jambo hilo. Huenda jukwaa likakataa kukubali UTXO yako iliyounganishwa, au hata likadai utoe maelezo ya ziada, huku ukikabiliwa na hatari ya akaunti yako kusimamishwa au fedha zako kufungiwa. Katika baadhi ya hali, mfumo unaweza pia kuripoti tabia yako kwa mamlaka za serikali (hii ndiyo, kwa mfano, inayotakiwa na TRACFIN kwa PSAN nchini Ufaransa).
@@ -2738,6 +2784,8 @@ https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a94
 ## Uhamisho wa siri wa Ownership
 
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
+
+:::video id=374f79ce-fc61-4528-8b69-b5ca7c7eaa6f:::
 
 Mbinu nyingine ya usiri ya Bitcoin ni uhamisho wa siri wa Umiliki. Njia hii inalenga kuhamisha Umiliki wa bitcoins kutoka kwa mtu mmoja hadi mwingine, na kinyume chake, bila muamala huo kuonekana wazi kwenye Blockchain. Hebu tuangalie mbinu mbalimbali zilizopo, pamoja na faida na hasara zao.
 ### You're absolutely right — **"exchange"** is on your protected terms list, so it should remain untranslated.
@@ -2856,6 +2904,8 @@ Hadi sasa, tumechunguza mbinu za usiri hasa katika kiwango cha miamala yenyewe. 
 
 <chapterId>04a2467b-db84-4076-a9ff-919be5135106</chapterId>
 
+:::video id=8428b212-de79-48a5-b984-ed7936861c2f:::
+
 Katika Sehemu ya 4, tulijadili umuhimu wa kutumia node kamili ili kulinda usiri wa muamala zako. Hata hivyo, ni muhimu kuelewa kwamba node yako yenyewe inaweza kukabiliwa na mashambulizi ya kutaka kutoa maelezo kuhusu muamala zako. Katika sura hii, tutaangalia hatua mbalimbali unazoweza kuchukua ili kulinda faragha yako, si kwa kiwango cha miamala yenyewe au mtiririko wa Bitcoin, bali katika kiwango cha mtandao.
 
 ### Dandelion
@@ -2929,6 +2979,8 @@ Baada ya kuchunguza mbinu mbalimbali za usiri katika kiwango cha mtandao, katika
 ## BIP47 na misimbo ya malipo inayoweza kutumika tena
 
 <chapterId>ad88e076-a04b-4aec-b3b2-7b4760175504</chapterId>
+
+:::video id=b0e9acc2-b50f-4caa-a1d7-cf8624b8e727:::
 
 Kama tulivyoona katika Sehemu ya 3, kutumia tena Anwani (address) ni kikwazo kikubwa kwa usiri wa mtumiaji kwenye itifaki ya Bitcoin. Ili kupunguza hatari hizi, inashauriwa kuzalisha Anwani (address) mpya bila malipo kwa kila malipo jipya yanayopokelewa katika wallet. Ingawa kutengeneza Anwani (address) mpya sasa kumerahisishwa na matumizi ya programu za kisasa na wallets za kiwango cha juu, zoezi hili linaweza kuonekana kuwa lisilofaa.
 
@@ -3753,6 +3805,8 @@ https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95
 
 
 <chapterId>2871d594-414e-4598-a830-91c9eb84dfb8</chapterId>
+
+:::video id=85b2780e-864e-4f64-b843-f272277181e6:::
 
 BIP47 imekosolewa sana kwa uzembe wake wa onchain. Kama ilivyoelezwa katika sura iliyotangulia, inahitaji muamala wa arifa kufanywa kwa kila mpokeaji mpya. Kizuizi hiki kitapungua ikiwa tunapanga kuanzisha njia endelevu ya malipo na mpokeaji huyu. Hakika, muamala mmoja wa arifa hufungua njia kwa karibu idadi isiyo na kikomo ya malipo yanayofuata ya BIP47.
 

@@ -147,7 +147,7 @@ I avsnittet **Channels** ser du listan över öppna kanaler och nodens anslutnin
 
 - Inkommande förhållande**: Det belopp som noden debiterar dig för varje miljon Satoshi som den tar emot, beroende på vilken kanal som valts.
 - Förhållandet (parts per million)** : som representerar antalet Satoshi per miljon enheter som noden kommer att debitera dig när du bestämmer dig för att göra en betalning via en av dess kanaler. Låt oss säga att du bestämmer dig för att göra en betalning på `10_000 Sats` via en kanal vars ppm-kvot är `500 Sats`, du kommer att behöva betala noden `10_000 * 500 / 1_000_000` satoshis, motsvarande `5 Sats`.
-- Maximalt belopp för [HTLC](https://planb.network/resources/glossary/HTLC)** : Det maximala belopp som denna nod tillåter dig att transitera via en av dessa kanaler.
+- Maximalt belopp för [HTLC](https://planb.network/resources/glossary/htlc)** : Det maximala belopp som denna nod tillåter dig att transitera via en av dessa kanaler.
 
 
 

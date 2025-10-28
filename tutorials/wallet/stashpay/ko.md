@@ -168,4 +168,4 @@ StashPay를 사용하면 선택한 현지 통화를 기준으로 Exchange 사토
 
 
 
-https://planb.network/courses/obtenir-ses-premiers-bitcoins-f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f

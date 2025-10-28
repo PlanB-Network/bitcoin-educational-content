@@ -76,7 +76,7 @@ Tutaendelea na uthibitishaji kupitia zana inayofaa inayotolewa na Sparrow wallet
 
 
 
-Kisha uzindua Sparrow na kutoka kwa menyu ya _Tools_ chagua _Thibitisha Upakuaji_.
+Kisha zindua Sparrow na kutoka kwa menyu ya _Tools_ chagua _Thibitisha Upakuaji_.
 
 
 
@@ -98,7 +98,7 @@ Katika dirisha linalotokea, utapata sehemu za "kujaza": chagua kitufe cha _Vinja
 Unaweza kupata mwongozo wa Sparrow wallet ili kupakua Software Wallet hii
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.network/en/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Kisha unaweza kuhamisha faili ya `.apk` kutoka kwa kompyuta yako hadi kwa simu yako
 
@@ -124,7 +124,7 @@ Kabla ya kuzindua Nunchuk kwenye simu yako, fungua Orbot na uweke programu mpya 
 
 
 
-Sasa kukimbia Nunchuk. Kwa vipengele vya mradi-ambavyo si mada ya mafunzo haya-Nunchuk, pindi tu yatakapofunguliwa, itakukaribisha kuingia kupitia barua pepe au wasifu kwenye Google. Hadi utakapopanga kunufaika na mipango ya kina ya Nunchuk Inc, **epuka kuingia** na uendelee kwa kuchagua chaguo la _Endelea kama mgeni_.
+Sasa endesha Nunchuk. Kwa vipengele vya mradi—ambavyo si mada ya mafunzo haya—Nunchuk, pindi tu inapofunguliwa, itakukaribisha kuingia kupitia barua pepe au wasifu wa Google. Hadi utakapopanga kunufaika na mipango ya kina ya Nunchuk Inc, epuka kuingia na uendelee kwa kuchagua chaguo la Endelea kama mgeni.
 
 
 
@@ -171,7 +171,7 @@ Hifadhi mipangilio kwa amri ya _Hifadhi mipangilio ya mtandao_, rudi kwenye meny
 
 
 
-Kutoka kwenye orodha hii unaweka jinsi ya kutetea ufunguzi wa programu. Ili kuzuia ufikiaji usiohitajika unaweza kumlinda Nunchuk kwa kutumia kibayometriki cha simu, na/au kuongeza PIN ya usalama.
+Kutoka kwenye orodha hii unaweka jinsi ya kutetea ufunguzi wa programu. Ili kuzuia ufikiaji usiohitajika unaweza kumlinda Nunchuk kwa kutumia biometric ya simu, na/au kuongeza PIN ya usalama.
 
 
 
@@ -198,11 +198,11 @@ ambayo itakuruhusu kuangalia toleo la programu, au kuwasiliana na wasanidi ikiwa
 ## Kizazi muhimu na Wallet
 
 
-Kama ilivyo rahisi kukisia kutoka kwa falsafa ya Nunchuk, programu imekusudiwa kama zana muhimu ya kudhibiti Pochi zenye saini nyingi. Ili kutekeleza kazi hii, Nunchuk inaruhusu kuundwa kwa Wallet kwa kuwatenganisha kutoka kwa funguo zinazohitajika kupanga saini za digital.
+Kama ilivyo rahisi kukisia kutoka kwa falsafa ya Nunchuk, programu imekusudiwa kama zana muhimu ya kudhibiti Wallet zenye multiple sign. Ili kutekeleza kazi hii, Nunchuk inaruhusu kuundwa kwa Wallet kwa kuwatenganisha kutoka kwa funguo zinazohitajika kupanga saini za digital.
 
 
 
-Kwa kweli, operesheni bora ya Nunchuk inahusisha uundaji wa Pochi ambazo zinaweza kuwa za kuangalia tu, zinategemea funguo ambazo zinaweza kuwa "Baridi."
+Kwa kweli, operesheni bora ya Nunchuk inahusisha uundaji wa Wallets ambazo zinaweza kuwa za kuangalia tu, zinategemea funguo ambazo zinaweza kuwa "Baridi."
 
 
 
@@ -241,7 +241,7 @@ Nunchuk inaonyesha idadi ya vifaa vinavyotumika sahihi lakini, ili kuanza, chagu
 
 
 
-Nunchuk itakuwa generate Mnemonic ambayo itahifadhiwa kwenye kifaa. Kisha unahitaji kuandika mlolongo wa maneno kwa chelezo, kuunda hali bora ya mazingira na kuhakikisha kuwa una wakati wa kuifanya vizuri na kwa utulivu. Programu inaonyesha Mnemonic mara moja pekee, iwe utachagua kuionyesha sasa au baadaye, kwa hivyo chagua _Unda na uhifadhi nakala sasa_.
+Nunchuk itazalisha mnemonic ambayo itahifadhiwa kwenye kifaa. Kisha, unahitaji kuandika mlolongo wa maneno hayo kwa chelezo, kuhakikisha kuwa uko kwenye mazingira bora na una muda wa kutosha kufanya hivyo kwa usahihi na utulivu. Programu itaonyesha mnemonic mara moja tu, iwe utachagua kuionyesha sasa au baadaye, kwa hivyo chagua kwa makini._Unda na uhifadhi nakala sasa_.
 
 
 
@@ -324,7 +324,7 @@ Nunchuk hukuonyesha idadi ya uwezekano ambao unapaswa kufanya, kwa sehemu kubwa,
 
 
 
-Katika mwongozo huu tutaunda _Hot Wallet na _Pochi Maalum_ kwa kufafanua maelezo.
+Katika mwongozo huu tutaunda _Hot Wallet na __wallet Maalum_ kwa kufafanua maelezo.
 
 
 Wacha tuanze na _Custom wallet_.
@@ -398,7 +398,7 @@ Uko _Home_, ambapo unaonyeshwa Wallet iliyoundwa upya ikiripoti salio na hali ya
 
 
 
-## Shughuli na Nunchuk
+## Miamala na Nunchuk
 
 
 
@@ -434,11 +434,11 @@ lakini bado tunabofya _Pokea_ ili kupokea nyingine.
 
 
 
-Madhumuni ni kwako kujua kwamba Nunchuk anaripoti Address hii mpya kwako kama _Anwani Isiyotumiwa_ lakini pia inakuonyesha kuwa _Anwani zilizotumiwa_ na hesabu yake.
+Madhumuni ni kwako kujua kwamba Nunchuk anaripoti Address hii mpya kwako kama __Address Isiyotumiwa_ lakini pia inakuonyesha kuwa _Address zilizotumiwa_ na hesabu yake.
 
 
 
-### Utumiaji wa shughuli na udhibiti wa sarafu
+### Utumiaji wa miamala na udhibiti wa sarafu
 
 
 
@@ -628,7 +628,7 @@ Chagua _Hot wallet_ kutoka kwa chaguo
 
 
 
-Nunchuk anatoa ushauri fulani kuhusu kushughulikia Pochi za Hot kwenye ukurasa wa wasilisho, ambapo utachagua _Endelea_ ili kuendelea.
+Nunchuk anatoa ushauri fulani kuhusu kushughulikia Hot wallet  kwenye ukurasa wa wasilisho, ambapo utachagua _Endelea_ ili kuendelea.
 
 
 
@@ -683,8 +683,8 @@ Kama vile kuna agizo la kuunda, yaani, kwanza kuunda funguo na kisha Wallet, uta
 
 
 
-Ikiwa unahitaji kufuta moja ya funguo, unapaswa kwanza kuwa na mtazamo wa mbele wa kufuta Wallet, au Wallets, ambayo hutumia funguo moja ya sahihi kwa shughuli: kwanza unafuta Wallets na kisha tu funguo. Usipofuata agizo hili, utajikuta umeshindwa kuondoa ufunguo.
+Ikiwa unahitaji kufuta moja ya funguo, unapaswa kwanza kuwa na mtazamo wa awali wa kufuta wallet, au wallets, zinazotumia funguo hiyo kama mojawapo ya sahihi za miamala: anza kwa kufuta wallets, kisha tu ufute funguo. Usipofuata mpangilio huu, unaweza kujikuta umeshindwa kuondoa ufunguo.
 
 
 
-Kwa kuwa sasa unajua jinsi ya kuanza na Nunchuk, unaweza kuendelea kusoma programu hii na kugundua siri zake. Katika somo hili tumechukua hatua za kwanza pekee, lakini kuna programu za kisasa zaidi na mahitaji ya juu ambayo Software Wallet hii inaweza kukusaidia kutimiza.
+Kwa kuwa sasa unajua jinsi ya kuanza na Nunchuk, unaweza kuendelea kuchunguza programu hii na kugundua uwezo wake kamili. Katika somo hili tumechukua hatua za mwanzo pekee, lakini kuna matumizi ya kisasa zaidi na mahitaji ya juu ambayo software wallet hii inaweza kukusaidia kuyatimiza.

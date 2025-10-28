@@ -43,6 +43,8 @@ Théo; katkı
 
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
+:::video id=de7236a0-2985-41ef-86f7-3fa0b7f94531:::
+
 
 **Amaç: Güvenlik becerilerinizi geliştirin !**
 
@@ -80,7 +82,7 @@ Konuyla ilgili daha ileri düzey beceriler arıyorsanız, kaynaklarımız, eğit
 Başlangıç olarak, bir web tarayıcısı seçmenin önemini ve ilgili güvenlik etkilerini tartışacağız. Daha sonra, özellikle çerez yönetimi ile ilgili olarak tarayıcıların özelliklerini inceleyeceğiz. Ayrıca TOR gibi araçları kullanarak daha güvenli ve anonim bir tarama deneyiminin nasıl sağlanacağını göreceğiz. Daha sonra, verilerinizin korunmasını geliştirmek için VPN kullanımına odaklanacağız. Son olarak, WiFi bağlantılarının güvenli kullanımı için önerilerle bitireceğiz.
 
 
-![](assets/en/1.webp)
+![image](assets/tr/001.webp)
 
 
 **Bölüm 2: Bilgisayar kullanımı için en iyi uygulamalar**
@@ -93,7 +95,7 @@ Başlangıç olarak, bir web tarayıcısı seçmenin önemini ve ilgili güvenli
 
 Bu bölümde, bilgisayar güvenliğinin üç temel alanını ele alacağız. İlk olarak, Mac, PC ve Linux dahil olmak üzere farklı işletim sistemlerini inceleyeceğiz ve bunların belirli özelliklerini ve güçlü yönlerini vurgulayacağız. Daha sonra, bilgisayar korsanlığı girişimlerine karşı etkili bir şekilde korunmak ve cihazlarınızın güvenliğini artırmak için yöntemler keşfedeceğiz. Son olarak, herhangi bir kayıp veya fidye yazılımını (ransomware) önlemek için verilerinizi düzenli olarak korumanın ve yedeklemenin önemini vurgulayacağız.
 
-![](assets/en/2.webp)
+![image](assets/tr/002.webp)
 
 
 **Bölüm 3: Çözümlerin uygulanması**
@@ -110,7 +112,7 @@ Bu pratik üçüncü bölümde, somut çözümlerinizi uygulamaya geçeceğiz.
 
 İlk olarak, iletişiminiz için çok önemli olan ve bilgisayar korsanları tarafından sıklıkla hedef alınan e-posta gelen kutunuzu nasıl koruyacağınızı göreceğiz. Ardından, size bir parola yöneticisi tanıtacağız: parolalarınızı güvende tutarken, unutmanızı veya karıştırmanızı önlemek için pratik bir çözüm olacak. Son olarak, hesaplarınıza ekstra bir katman güvenlik ekleyen bir  önlem olan iki faktörlü kimlik doğrulamayı tartışacağız. Her şey net ve erişilebilir bir şekilde açıklanacaktır.
 
-![](assets/en/3.webp)
+![image](assets/tr/003.webp)
 
 
 Dijital güvenliğinizi güçlendirmeye ve verilerinizin kontrolünü geri almaya hazır mısınız? Hadi başlayalım!
@@ -126,6 +128,8 @@ Dijital güvenliğinizi güçlendirmeye ve verilerinizin kontrolünü geri almay
 
 <chapterId>3a935da9-fa6e-57eb-bf85-7b3ec35e6ee2</chapterId>
 
+:::video id=f1cead27-ed41-4ca2-afd2-b08a994d0119:::
+
 
 İnternette gezinirken, çevrimiçi güvenliğinizi korumak için yaygın hatalardan kaçınmak çok önemlidir. İşte bunlardan kaçınmak için bazı ipuçları:
 
@@ -137,14 +141,15 @@ Yazılımı genel siteler yerine yayıncının resmi web sitesinden indirmeniz �
 
 Örnek: Www.logicieltelechargement.fr/signal yerine www.signal.org/download kullanın.
 
-![](assets/notext/4.webp)
+![image](assets/tr/004.webp)
 
 
 Ayrıca, genellikle daha güvenli ve kötü amaçlı yazılımlardan arınmış oldukları için açık kaynaklı yazılımlara öncelik verilmesi tavsiye edilir. "Açık kaynaklı" yazılım, kodu kamuya açık ve herkesin erişimine açık olan bir yazılım türüdür. Bu yüzden, diğer şeylerin yanı sıra, verilerinizi çalmak için gizli bir erişim olmadığının doğrulanmasına olanak tanır.
 
 
 > Bonus: Açık kaynaklı yazılımlar genellikle ücretsizdir! Bu üniversite %100 açık kaynaklıdır, dolayısıyla kodumuzu GitHub'da da inceleyebilirsiniz.
-> ![](assets/notext/5.webp)
+
+![image](assets/tr/005.webp)
 
 ### Çerez yönetimi: Hatalar ve en iyi uygulamalar
 
@@ -161,7 +166,7 @@ Ayrıca, genellikle daha güvenli ve kötü amaçlı yazılımlardan arınmış 
 
 Her iki aile de benzer düzeyde güvenlik sunsa da, izleme özellikleri nedeniyle Google Chrome tarayıcısını kullanmaktan kaçınmanız önerilir. Chromium veya Brave gibi Chrome'un daha hafif alternatifleri tercih edilebilir. Brave özellikle yerleşik reklam engelleyicisi nedeniyle tavsiye edilir. Belirli web sitelerine erişmek için birden fazla tarayıcı kullanmak gerekebilir.
 
-![](assets/notext/6.webp)
+![image](assets/tr/006.webp)
 
 
 ### Daha güvenli ve anonim tarama için gizli tarama, TOR ve diğer alternatifler
@@ -175,7 +180,7 @@ Daha gelişmiş bir alternatif, kullanıcının IP Address'sini maskeleyerek ve 
 
 TOR, gazeteciler, özgürlük aktivistleri ve otoriter ülkelerdeki sansürü aşmak isteyen diğer kişiler tarafından yasal ve yaygın olarak kullanılan bir araçtır. Ancak, TOR'un ziyaret edilen siteleri veya bilgisayarın kendisini güvence altına almadığını anlamak önemlidir. Buna ek olarak, TOR kullanmak, veri hedefine ulaşmadan önce üç başka kişinin bilgisayarından geçtiği için internet bağlantısını yavaşlatabilir. TOR'un %100 anonimliği garanti etmek için kusursuz bir çözüm olmadığını ve yasadışı faaliyetler için kullanılmaması gerektiğini de unutmamak gerekir.
 
-![](assets/notext/7.webp)
+![image](assets/tr/007.webp)
 
 
 https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
@@ -184,6 +189,8 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 
 <chapterId>5aac83f4-a685-54b0-9759-d71bea7eeed2</chapterId>
+
+:::video id=737d30ac-43d8-4a69-afda-89b9d7e8c4e1:::
 
 
 ### VPN'ler
@@ -194,7 +201,7 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 VPN'ler internet üzerinden iletilen verileri şifreleyerek bağlantıyı daha güvenli hale getiren araçlardır. Profesyonel bağlamda, VPN'ler çalışanların uzak konumlardan şirketin dahili ağına güvenli bir şekilde erişmesini sağlar. Değiş tokuş edilen veriler şifrelenerek üçüncü tarafların müdahalesini çok daha zor hale getirir. Dahili bir ağa erişimi güvence altına almanın yanı sıra, VPN kullanmak bir kullanıcının internet bağlantısını şirketin dahili ağı üzerinden yönlendirmesine olanak tanıyarak bağlantısının şirketten geldiği izlenimini verebilir. Bu özellikle coğrafi olarak kısıtlanmış çevrimiçi hizmetlere erişim için faydalı olabilir.
 
-![](assets/en/8.webp)
+![image](assets/tr/008.webp)
 
 
 ### VPN Türleri
@@ -205,7 +212,7 @@ VPN'ler internet üzerinden iletilen verileri şifreleyerek bağlantıyı daha g
 
 Ancak, bir tüketici VPN'i kullanmak tam anonimliği garanti etmez. Birçok VPN sağlayıcısı kullanıcıları hakkında bilgi tutar, bu da anonimliklerini tehlikeye atabilir. VPN'ler çevrimiçi güvenliği artırmak için faydalı olsalar da evrensel bir çözüm değildirler. Coğrafi olarak sınırlı hizmetlere erişmek veya seyahat ederken güvenliği artırmak gibi belirli kullanımlar için etkilidirler, ancak tam güvenliği garanti etmezler. Bir VPN seçerken, popülerlikten ziyade güvenilirlik ve teknik uzmanlığa öncelik vermek çok önemlidir. En az kişisel bilgi toplayan VPN sağlayıcıları genellikle en güvenli olanlardır. IVPN ve Mullvad gibi hizmetler kişisel bilgi toplamaz ve hatta daha fazla gizlilik için Bitcoin ile ödeme yapılmasına izin verir.
 
-![](assets/notext/9.webp)
+![image](assets/tr/009.webp)
 
 Son olarak, bir VPN çevrimiçi reklamları engellemek için de kullanılabilir ve daha keyifli ve güvenli bir tarama deneyimi sağlar. Ancak, ihtiyaçlarınıza en uygun VPN'i bulmak için kapsamlı bir araştırma yapmak çok önemlidir. Evde internette gezinirken bile güvenliği artırmak için VPN kullanılması önerilir. Bu, çevrimiçi veri alışverişi için daha yüksek düzeyde koruma sağlamaya yardımcı olur. Son olarak, hedeflenen sitede olduğunuzu doğrulamak için URL'leri ve Address çubuğundaki küçük asma kilidi kontrol edebilir misiniz?
 
@@ -225,7 +232,7 @@ Avrupa Birliği'nde veri koruma, Genel Veri Koruma Yönetmeliği (GDPR) tarafın
 
 Çevrimiçi dolandırıcılıktan kaçınmak için, özellikle uzantıyı ve alan adını kontrol ederek gezindiğiniz sitenin kimliğini doğrulamak çok önemlidir. Ayrıca, kullanıcıları kandırmak için URL'lerde benzer harfler kullanan dolandırıcılara karşı uyanık olun.
 
-![](assets/en/10.webp)
+![image](assets/tr/010.webp)
 
 Özetle, VPN kullanımı hem işletmeler hem de bireysel kullanıcılar için çevrimiçi güvenliği büyük ölçüde artırabilir. Ayrıca, iyi tarama alışkanlıklarının uygulanması daha iyi dijital hijyene katkıda bulunabilir. Bu kursun bir sonraki bölümünde güncellemeler, antivirüs yazılımı ve parola yönetimi dahil olmak üzere bilgisayar güvenliğini ele alacağız.
 
@@ -240,6 +247,8 @@ Avrupa Birliği'nde veri koruma, Genel Veri Koruma Yönetmeliği (GDPR) tarafın
 
 
 <chapterId>16745632-b56b-5423-9873-ddf70fdf1efd</chapterId>
+
+:::video id=35892007-5ea5-4956-bf80-3363d69c96d5:::
 
 
 Bilgisayarlarımızın güvenliği günümüzün dijital dünyasında büyük bir endişe kaynağıdır. Bugün, üç kilit noktayı ele alacağız:
@@ -256,14 +265,14 @@ Bilgisayarlarımızın güvenliği günümüzün dijital dünyasında büyük bi
 
 Bilgisayar seçimiyle ilgili olarak, eski ve yeni bilgisayarlar arasında güvenlik açısından önemli bir fark yoktur. Ancak Windows, Linux ve Mac gibi işletim sistemleri arasında güvenlik farklılıkları mevcuttur.
 
-![](assets/notext/11.webp)
+![image](assets/tr/011.webp)
 
 Windows ile ilgili olarak, bir yönetici hesabının günlük olarak kullanılmaması, bunun yerine iki ayrı hesap oluşturulması önerilir: biri yönetici kullanımı ve diğeri günlük kullanım için. Windows, çok sayıda kullanıcıya sahip olması ve standart bir kullanıcıdan yöneticiye geçişin kolay olması nedeniyle genellikle kötü amaçlı yazılımlara karşı daha savunmasızdır. Öte yandan, Linux ve Mac'te tehditler daha az yaygındır.
 
 
 İşletim sistemi seçimi ihtiyaçlarınıza ve tercihlerinize göre yapılmalıdır. Linux sistemleri son yıllarda önemli ölçüde gelişti ve giderek daha kullanıcı dostu hale geldi. Ubuntu, kullanımı kolay grafiksel içyüzüyle yeni başlayanlar için ilginç bir alternatiftir. Windows'u kullanırken Linux'u denemek için bilgisayarınızı bölümlere ayırmak mümkündür, ancak bu karmaşık bir süreç olabilir. Linux ya da Ubuntu'yu test etmek için genellikle özel bir bilgisayar, sanal makine ya da USB anahtarı tercih edilir.
 
-![](assets/notext/12.webp)
+![image](assets/tr/012.webp)
 
 
 ### Yazılım Güncellemeleri
@@ -293,7 +302,7 @@ Bir anti-virüsün seçimi ve uygulanması önemlidir. Windows'taki yerleşik an
 
 Ücretli bir antivirüse yatırım yapmak isteyenler için Kaspersky gibi, bilinmeyen ve yeni ortaya çıkan tehditleri akıllıca analiz eden bir antivirüs seçmeleri önerilir. Antivirüs güncellemeleri yeni ortaya çıkan tehditlere karşı korunmak için çok önemlidir.
 
-![](assets/notext/13.webp)
+![image](assets/tr/013.webp)
 
 
 > Not: Linux ve Mac, kullanıcı hakları ayırma sistemleri sayesinde genellikle antivirüse ihtiyaç duymazlar.
@@ -311,6 +320,8 @@ Sonuç olarak, ihtiyaçlarınıza uygun bir işletim sistemi seçmeniz ve yükl�
 
 
 <chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>
+
+:::video id=c6a2c152-f1ae-492c-8993-304d64cdda45:::
 
 
 ### Bilgisayar korsanları nasıl saldırır?
@@ -343,7 +354,7 @@ Buradaki altın kural, gönderenin tam adının yanı sıra e-postanın kaynağ�
 
 Fidye yazılımı, kullanıcı verilerini şifreleyen ve şifresini çözmek için fidye talep eden kötü amaçlı bir yazılım türüdür. Bu tür saldırılar giderek yaygınlaşmaktadır ve hem şirketler hem de bireyler için çok sıkıntılı olabilir. Kendinizi korumak için, en hassas dosyaların yedeklerini oluşturmak zorunludur! Bu fidye yazılımını durdurmayacaktır, ancak onu görmezden gelmenizi sağlayacaktır.
 
-![](assets/notext/14.webp)
+![image](assets/tr/014.webp)
 
 Önemli verilerinizi düzenli olarak harici bir depolama cihazına veya güvenli bir çevrimiçi depolama hizmetine yedekleyin. Bu şekilde, bir siber saldırı veya donanım arızası durumunda, önemli bilgilerinizi kaybetmeden verilerinizi kurtarabilirsiniz.
 
@@ -383,6 +394,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 <chapterId>dfceea33-8712-5557-ace1-6ba5598d33d8</chapterId>
 
+:::video id=75cc914d-9c11-4d3f-86a7-6faf2077f00f:::
+
 
 ### Yeni bir e-posta hesabı açıyorum!
 
@@ -401,7 +414,7 @@ Hepimizin zaten bir e-posta hesabı olsa da, yeni bir başlangıç yapmak için 
 
 E-posta adreslerimizin doğru yönetimi, çevrimiçi erişimimizin güvenliğini sağlamak için çok önemlidir. Güvenli ve gizliliğe saygılı bir e-posta sağlayıcısı seçmek önemlidir. Örneğin, ProtonMail güvenli ve gizliliğe saygılı bir e-posta hizmetidir.
 
-![](assets/notext/15.webp)
+![image](assets/tr/015.webp)
 
 Bir e-posta sağlayıcısı seçerken ve bir şifre oluştururken, aynı şifreyi farklı çevrimiçi hizmetler için asla tekrar kullanmamak önemlidir. Düzenli olarak yeni e-posta adresleri oluşturmanız ve bunları çeşitli amaçlar için kullanmanız önerilir. Kritik hesaplar için güvenli bir e-posta hizmeti kullanılması tavsiye edilir. Bazı hizmetlerin parolaların uzunluğunu sınırladığını da belirtmek gerekir, bu nedenle bu sınırlamanın farkında olmak önemlidir. Sınırlı süreli hesaplar için kullanılabilecek geçici e-posta adresleri oluşturmaya yönelik hizmetler de mevcuttur.
 
@@ -414,7 +427,7 @@ Bilin diye söylüyorum, La Poste, Arobase, Wig ve Hotmail gibi eski e-posta sa�
 
 E-posta Address'inizin ele geçirilip geçirilmediğini kontrol etmek ve gelecekteki veri ihlallerine ilişkin bildirimleri almak için Have I Been Pwned web sitesini (https://haveibeenpwned.com/) kullanmalısınız. Bilgisayar korsanları, kimlik avı için e-posta göndermek veya ele geçirilmiş parolaları yeniden kullanmak için ele geçirilmiş bir veritabanından yararlanabilir.
 
-![](assets/notext/16.webp)
+![image](assets/tr/016.webp)
 
 Genel olarak, yeni ve daha güvenli bir e-posta adresi kullanmaya başlamak kötü bir uygulama değildir ve hatta sağlıklı bir şekilde yeni bir başlangıç yapmak isteniyorsa gereklidir.
 
@@ -427,6 +440,8 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 
 
 <chapterId>0b3c69b2-522c-56c8-9fb8-1562bd55930f</chapterId>
+
+:::video id=106b6f17-a5c1-4155-abdf-043ce469d45b:::
 
 
 ### Parola yöneticisi nedir?
@@ -448,7 +463,7 @@ Bir parola yöneticisi ile artık parolalarınızı unutmak veya bir yere yazmak
 
 - Dashlane: Aynı zamanda sezgisel bir içyüz ve kredi kartı bilgilerini izleme ve güvenli notlar gibi ek özelliklere sahip bir üçüncü taraf hizmetidir.
 
-![](assets/notext/17.webp)
+![image](assets/tr/017.webp)
 
 
 ### Daha fazla kontrol için kendi sunucunda barındırma:
@@ -461,7 +476,7 @@ Bir parola yöneticisi ile artık parolalarınızı unutmak veya bir yere yazmak
 
 - KeePass: Öncelikle kendi sunucusunda barındırma için tasarlanmış açık kaynaklı bir çözümdür. Verileriniz, varsayılan olarak kendi sunucunuzda  saklanır, ancak isterseniz farklı yöntemler kullanarak şifre veritabanını senkronize edebilirsiniz. KeePass, yeni başlayanlar için biraz daha az kullanıcı dostu olsa da, güvenliği ve esnekliği ile yaygın olarak tanınmaktadır.
 
-![](assets/notext/18.webp)
+![image](assets/tr/018.webp)
 
 (Not: Üçüncü taraf bir hizmet veya kendi kendine barındırılan bir hizmet arasında seçim yapmak, teknolojik rahatlık seviyenize ve rahatlığa karşı kontrole nasıl öncelik verdiğinize bağlıdır. Üçüncü taraf hizmetler genellikle çoğu kişi için daha kullanışlıdır, kendi kendine barındırma ise daha fazla teknik bilgi gerektirir ancak güvenlik açısından daha fazla kontrol ve gönül rahatlığı sunabilir)
 
@@ -497,6 +512,8 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 <chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>
 
+:::video id=10fede6f-c839-4455-b324-e887c502667e:::
+
 
 ### Neden 2FA (2 factor authentication) uygulamalısınız?
 
@@ -513,7 +530,7 @@ Bu ikinci adım şu şekilde olabilir:
 - Bilgisayarınıza taktığınız fiziksel bir güvenlik anahtarı.
 
 
-![](assets/notext/19.webp)
+![image](assets/tr/019.webp)
 
 
 2FA ile, bir bilgisayar korsanı şifrenizi ele geçirse bile, bu ikinci doğrulama faktörü olmadan hesabınıza erişemez. Bu, 2FA'yı çevrimiçi hesaplarınızı yetkisiz erişime karşı korumak için gerekli kılar.
@@ -679,6 +696,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 <chapterId>aad1ae27-4280-5b07-b9ab-118ae013951a</chapterId>
 
+:::video id=4c818b5c-ea5d-496a-8e82-bc5d96d91430:::
+
 
 ### Siber Güvenlik: Sonsuz Fırsatlarla Büyüyen Bir Alan
 
@@ -724,13 +743,15 @@ Tehditlerin sürekli gelişimi, haberlerin ve özel forumların düzenli olarak 
 
 Bu beceri ve araçlarda ustalaşarak, siber güvenlik dünyasında başarılı bir şekilde gezinmek için iyi bir donanıma sahip olacaksınız.
 
-![](assets/notext/20.webp)
+![image](assets/tr/020.webp)
 
 
 ## Renaud ile Röportaj
 
 
 <chapterId>7d83fd98-ce22-514e-b9e8-729fbf71ee6e</chapterId>
+
+:::video id=ec7014aa-5ebe-444c-80d1-7b14f1fe7bb8:::
 
 
 ### Verimli Parola Yönetimi ve Kimlik Doğrulama Güçlendirme: Akademik Bir Yaklaşım
@@ -744,7 +765,7 @@ Otomatik parola doldurma için tarayıcı uzantılarının kullanılması genell
 
 Parola yöneticileri genellikle iki faktörlü kimlik doğrulama gibi ek kimlik doğrulama faktörlerinin kullanılmasını teşvik eder. Optimum güvenlik için OTP'leri (Tek Kullanımlık Parolalar) mobil cihazınızda tutmanız tavsiye edilir. AndOTP, mobil cihazınızda tek seferlik şifre (OTP) kodları oluşturmak ve saklamak için açık kaynaklı bir çözüm sunar. Google Authenticator kimlik doğrulama kodu tohumlarının dışa aktarılmasına izin verirken, bir Google hesabındaki yedeklemeye olan güven sınırlı kalmaktadır. Bu nedenle, otonom OTP yönetimi için OTI ve AndoTP uygulamaları önerilir.
 
-![](assets/notext/21.webp)
+![image](assets/tr/021.webp)
 
 Dijital miras ve dijital yas meselesi, bir kişinin ölümünden sonra şifrelerin aktarılması için bir prosedürün uygulanmasının önemini vurgulamaktadır. Bir parola yöneticisi tüm dijital sırları tek bir yerde güvenli bir şekilde saklayarak bu geçişi kolaylaştırır. Parola yöneticisi ayrıca tüm açık hesapları tanımlamanıza ve bunların kapatılmasını veya aktarılmasını yönetmenize olanak tanır. Ana parolanın kağıda yazılması tavsiye edilir, ancak gizli ve güvenli bir yerde saklanmalıdır. Donanım sürücüsü şifrelenmişse ve bilgisayar kilitliyse, hırsızlık durumunda bile parolaya erişilemeyecektir.
 

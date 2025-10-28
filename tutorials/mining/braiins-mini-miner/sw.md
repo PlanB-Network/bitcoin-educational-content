@@ -6,7 +6,7 @@ description: Kutengeneza Mining kwa urahisi kutoka nyumbani.
 
 
 
-### Utangulizi
+## Utangulizi
 
 
 
@@ -18,7 +18,7 @@ Unaweza pia kupata taarifa muhimu zaidi kwa kuangalia mwongozo kamili moja kwa m
 
 
 
-### Maelezo ya jumla ya BMM 100
+## Maelezo ya jumla ya BMM 100
 
 
 
@@ -46,7 +46,7 @@ wakati upande wa nyuma tuna: shimo la nguvu, nafasi ya kadi ya SD (ambayo inawez
 
 
 
-### Inaunganisha Mini Miner
+## Inaunganisha Mini Miner
 
 
 
@@ -54,7 +54,7 @@ Utahitaji kuunganisha kifaa kwenye mtandao kupitia ethernet, kumbuka kuwa kwa to
 
 
 
-### Usanidi
+## Usanidi
 
 
 
@@ -74,7 +74,7 @@ Ili kuingia itabidi uingize `root` kama jina lako la mtumiaji, huku unaweza kuac
 
 
 
-### Mipangilio ya jumla
+## Mipangilio ya jumla
 
 
 
@@ -110,7 +110,7 @@ Mara tu umefanya mabadiliko, bofya kwenye `Hifadhi Mabadiliko` na utaona mabadil
 
 
 
-### Muunganisho wa Mining pool
+## Muunganisho wa Mining pool
 
 
 
@@ -142,7 +142,7 @@ Chaguo la pili ni kutuunganisha kwa Mining pool ambayo mina katika solo, kama Di
 
 https://planb.network/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-#### Bwawa la Wabongo
+### Bwawa la Wabongo
 
 
 
@@ -236,7 +236,7 @@ ukirudi kwenye dashibodi unapaswa kuanza kuona harakati kwenye grafu na kuona Ha
 
 
 
-#### Bwawa la Umma
+### Bwawa la Umma
 
 
 

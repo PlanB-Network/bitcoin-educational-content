@@ -138,7 +138,7 @@ Výhodou tohoto uspořádání je jednoduchost kabeláže a absence závislosti 
 
 
 
-![Image](assets/fr/001.webp)
+![Image](assets/cs/001.webp)
 
 
 
@@ -152,7 +152,7 @@ Toto hierarchické uspořádání se osvědčuje zejména u velkých sítí, kte
 
 
 
-![Image](assets/fr/002.webp)
+![Image](assets/cs/002.webp)
 
 
 
@@ -166,7 +166,7 @@ Hlavní výhodou sběrnicové topologie jsou nízké náklady na instalaci díky
 
 
 
-![Image](assets/fr/003.webp)
+![Image](assets/cs/003.webp)
 
 
 
@@ -180,7 +180,7 @@ Toto uspořádání usnadňuje správu a údržbu: pokud dojde k poruše jednoho
 
 
 
-![Image](assets/fr/004.webp)
+![Image](assets/cs/004.webp)
 
 
 
@@ -197,7 +197,7 @@ Kompromisem je, že s počtem terminálů rychle roste počet navazovaných spoj
 
 
 
-![Image](assets/fr/005.webp)
+![Image](assets/cs/005.webp)
 
 
 
@@ -263,7 +263,7 @@ Zásobník TCP/IP je často představován jako zásobník čtyř funkčních vr
 
 
 
-![Image](assets/fr/006.webp)
+![Image](assets/cs/006.webp)
 
 
 
@@ -390,7 +390,7 @@ Pokud datagram překročí MTU síťového segmentu, kterým musí projít, smě
 
 
 
-![Image](assets/fr/008.webp)
+![Image](assets/cs/007.webp)
 
 
 
@@ -431,7 +431,7 @@ Předávání se tedy řídí strukturovaným procesem:
 
 
 
-![Image](assets/fr/009.webp)
+![Image](assets/cs/008.webp)
 
 
 
@@ -442,7 +442,7 @@ Po příchodu je proces obrácený: přijímací stroj dostane rámec do zaříz
 
 
 
-![Image](assets/fr/010.webp)
+![Image](assets/cs/009.webp)
 
 
 
@@ -456,7 +456,7 @@ Transformaci dat u každého Layer lze shrnout takto:
 
 
 
-![Image](assets/fr/011.webp)
+![Image](assets/cs/010.webp)
 
 
 
@@ -507,7 +507,7 @@ Počet dostupných adres se v jednotlivých třídách značně liší: od velk�
 
 
 
-![Image](assets/fr/013.webp)
+![Image](assets/cs/011.webp)
 
 
 
@@ -585,7 +585,7 @@ Chceme 4 podsítě po 60 hostitelích.
 
 
 
-![Image](assets/fr/016.webp)
+![Image](assets/cs/012.webp)
 
 
 
@@ -680,7 +680,7 @@ Protokol TCP je protokol orientovaný na připojení, což znamená, že vytvá�
 
 
 
-![Image](assets/fr/018.webp)
+![Image](assets/cs/013.webp)
 
 
 
@@ -688,7 +688,7 @@ Pro zvýšení spolehlivosti používá protokol TCP časovač: po odeslání se
 
 
 
-![Image](assets/fr/019.webp)
+![Image](assets/cs/014.webp)
 
 
 
@@ -711,7 +711,7 @@ Synchronizace sekvence Exchange je založena na známém mechanismu **"*třístr
 
 
 
-![Image](assets/fr/020.webp)
+![Image](assets/cs/015.webp)
 
 
 
@@ -734,7 +734,7 @@ Z praktického hlediska definuje klouzavé okno rozsah sekvenčních čísel, kt
 
 
 
-![Image](assets/fr/021.webp)
+![Image](assets/cs/016.webp)
 
 
 
@@ -751,7 +751,7 @@ Toto přesné řízení, které kombinuje flexibilní směrování protokolu IP 
 
 
 
-![Image](assets/fr/022.webp)
+![Image](assets/cs/017.webp)
 
 
 
@@ -791,7 +791,7 @@ Tyto výměny se řídí dvěma klíčovými aspekty:
 
 
 
-![Image](assets/fr/023.webp)
+![Image](assets/cs/018.webp)
 
 
 
@@ -800,7 +800,7 @@ Tyto výměny se řídí dvěma klíčovými aspekty:
 
 
 
-![Image](assets/fr/024.webp)
+![Image](assets/cs/019.webp)
 
 
 
@@ -836,7 +836,7 @@ Kombinací horizontálního aspektu (komunikace mezi distribuovanými aplikacemi
 
 
 
-![Image](assets/fr/026.webp)
+![Image](assets/cs/020.webp)
 
 
 
@@ -896,7 +896,7 @@ příklad: Address 172.16.254.1_
 
 
 
-![Image](assets/fr/027.webp)
+![Image](assets/cs/021.webp)
 
 
 
@@ -1183,7 +1183,7 @@ Je důležité si uvědomit, že MAC Address a IP Address jsou dva zcela odlišn
 - Vizuální příklad MAC Address:
 
 
-![Image](assets/fr/032.webp)
+![Image](assets/cs/022.webp)
 
 
 
@@ -1191,7 +1191,7 @@ Je důležité si uvědomit, že MAC Address a IP Address jsou dva zcela odlišn
 - Vizuální příklad IP Address:
 
 
-![Image](assets/fr/027.webp)
+![Image](assets/cs/023.webp)
 
 
 
@@ -1258,7 +1258,7 @@ Kromě řešení nedostatku IPv4 posiluje NAT také bezpečnost tím, že vytvá
 
 
 
-![Image](assets/fr/035.webp)
+![Image](assets/cs/024.webp)
 
 
 
@@ -1331,7 +1331,7 @@ _Pro ilustraci, jak to funguje v praxi, uveďme následující příklad:_
 
 
 
-![Image](assets/fr/037.webp)
+![Image](assets/cs/025.webp)
 
 
 
@@ -1500,7 +1500,7 @@ V profesionálních prostředích je cílem zajistit kontinuitu služeb a/nebo a
 
 
 
-![Image](assets/fr/039.webp)
+![Image](assets/cs/026.webp)
 
 
 
@@ -1954,7 +1954,7 @@ Pro automatickou konfiguraci existuje několik metod:
 Zde je příklad transformace MAC Address na EUI-64:
 
 
-![Image](assets/fr/045.webp)
+![Image](assets/cs/027.webp)
 
 
 
@@ -2092,7 +2092,7 @@ Zde je přehled různých typů rozšiřujících hlaviček definovaných protok
 Toto záhlaví, pokud je přítomno, je vždy umístěno bezprostředně za základním záhlavím. Obsahuje informace, které musí zpracovat každý směrovač na cestě paketu, na rozdíl od většiny ostatních hlaviček, které obvykle zpracovává pouze cílový uzel. Typické použití zahrnuje signalizaci globálních parametrů nebo požadavek na konkrétní kroky zpracování při průchodu paketu sítí.
 
 
-![Image](assets/fr/047.webp)
+![Image](assets/cs/028.webp)
 
 
 #### Záhlaví směrování
@@ -2117,7 +2117,7 @@ První čtyři pole této kořenové hlavičky jsou:
 Pole "Zbývající segmenty" začíná celkovým počtem zbývajících segmentů a při každém skoku se snižuje o jedničku.
 
 
-![Image](assets/fr/048.webp)
+![Image](assets/cs/029.webp)
 
 
 #### Fragmentační hlavička
@@ -2134,7 +2134,7 @@ Fragmentační hlavička obsahuje následující pole:
 - **M flag**: označuje, zda následují další fragmenty.
 
 
-![Image](assets/fr/049.webp)
+![Image](assets/cs/030.webp)
 
 
 #### Ověřovací hlavička (AH)
@@ -2146,7 +2146,7 @@ Tato hlavička je určena k zabezpečení komunikace ověřením pravosti odesí
 V případě pokusu o podvodnou modifikaci již nebude ověřovací kód odpovídat a datagram může být odmítnut. Tento mechanismus také chrání před útoky typu replay tím, že detekuje neoprávněné duplikace.
 
 
-![Image](assets/fr/050.webp)
+![Image](assets/cs/031.webp)
 
 
 #### Záhlaví možností cíle
@@ -2158,7 +2158,7 @@ Tato hlavička je určena pouze konečnému příjemci datagramu. Může být po
 Původně taková možnost v protokolu definována nebyla. Tato hlavička však byla zavedena při návrhu protokolu IPv6, aby bylo možné v budoucnu přidávat rozšíření, aniž by se změnila celková struktura paketu. Například volba null se používá pouze k vyplnění záhlaví na násobek 8 bajtů pro účely zarovnání paměti.
 
 
-![Image](assets/fr/051.webp)
+![Image](assets/cs/032.webp)
 
 
 Návrh paketů IPv6 je založen na jasném oddělení minimální základní hlavičky a modulárních rozšiřujících hlaviček. Tato architektura zajišťuje jak standardní výkon zpracování, tak flexibilitu potřebnou pro vývoj protokolu a integraci zabezpečení, komplexního směrování nebo mechanismů kvality služby při zachování kompatibility s budoucími infrastrukturami.
@@ -2504,7 +2504,7 @@ Wireshark je k dispozici v mnoha operačních systémech včetně Linuxu a Windo
 
 
 
-![Image](assets/fr/052.webp)
+![Image](assets/cs/033.webp)
 
 
 
@@ -2555,7 +2555,7 @@ Tento příkaz vypíše podrobnou zprávu o `enp0s3` Interface, což je běžná
 
 
 
-![Image](assets/fr/053.webp)
+![Image](assets/cs/034.webp)
 
 
 
@@ -3107,7 +3107,7 @@ V tomto případě budou dotazováni všichni hostitelé v rozsahu `192.168.0.0`
 
 
 
-![Image](assets/fr/055.webp)
+![Image](assets/cs/035.webp)
 
 
 

@@ -2,8 +2,8 @@ question: What is the Halving in the context of Bitcoin?
 answer: A feature in Bitcoin's code that halves the mining reward every four years 
 wrong_answers:
   - A process of increasing the global adoption of Bitcoin
-  - A mechanism that prevents bitcoin's value from collapsing
-  - A term used to describe the event when bitcoin’s price skyrockets
+  - A mechanism that prevents Bitcoin's value from collapsing
+  - A term used to describe the event when Bitcoin’s price skyrockets
 explanation: |
   The halving is a feature in Bitcoin's code that slashes the mining 
   reward by half approximately every four years. This event impacts 

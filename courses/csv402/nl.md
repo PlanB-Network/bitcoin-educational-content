@@ -1,14 +1,11 @@
 ---
-name: Het RGB protocol, van theorie naar praktijk
+name: RGB-programmering
 goal: De vaardigheden verwerven die nodig zijn om RGB te begrijpen en te gebruiken
-objectives: 
-
-  - De fundamentele concepten van het RGB protocol begrijpen
-  - De principes van Client-side Validation en Bitcoin verplichtingen beheersen
-  - Leren hoe je RGB contracten aanmaakt, beheert en overdraagt
-  - Hoe een RGB-compatibel Lightning-knooppunt te bedienen
-
-
+objectives:
+- De fundamentele concepten van het RGB protocol begrijpen
+- De principes van Client-side Validation en Bitcoin verplichtingen beheersen
+- Leren hoe je RGB contracten aanmaakt, beheert en overdraagt
+- Hoe een RGB-compatibel Lightning-knooppunt te bedienen
 ---
 # Het RGB protocol ontdekken
 

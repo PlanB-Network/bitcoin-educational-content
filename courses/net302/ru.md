@@ -138,7 +138,7 @@ ___
 
 
 
-![Image](assets/fr/001.webp)
+![Image](assets/ru/001.webp)
 
 
 
@@ -152,7 +152,7 @@ ___
 
 
 
-![Image](assets/fr/002.webp)
+![Image](assets/ru/002.webp)
 
 
 
@@ -166,7 +166,7 @@ ___
 
 
 
-![Image](assets/fr/003.webp)
+![Image](assets/ru/003.webp)
 
 
 
@@ -180,7 +180,7 @@ ___
 
 
 
-![Image](assets/fr/004.webp)
+![Image](assets/ru/004.webp)
 
 
 
@@ -197,7 +197,7 @@ ___
 
 
 
-![Image](assets/fr/005.webp)
+![Image](assets/ru/005.webp)
 
 
 
@@ -263,7 +263,7 @@ ___
 
 
 
-![Image](assets/fr/006.webp)
+![Image](assets/ru/006.webp)
 
 
 
@@ -390,7 +390,7 @@ https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea
 
 
 
-![Image](assets/fr/008.webp)
+![Image](assets/ru/007.webp)
 
 
 
@@ -431,7 +431,7 @@ https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea
 
 
 
-![Image](assets/fr/009.webp)
+![Image](assets/ru/008.webp)
 
 
 
@@ -442,7 +442,7 @@ https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea
 
 
 
-![Image](assets/fr/010.webp)
+![Image](assets/ru/009.webp)
 
 
 
@@ -456,7 +456,7 @@ https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea
 
 
 
-![Image](assets/fr/011.webp)
+![Image](assets/ru/010.webp)
 
 
 
@@ -507,7 +507,7 @@ IP Address состоит из двух частей:
 
 
 
-![Image](assets/fr/013.webp)
+![Image](assets/ru/011.webp)
 
 
 
@@ -585,7 +585,7 @@ IP Address состоит из двух частей:
 
 
 
-![Image](assets/fr/016.webp)
+![Image](assets/ru/012.webp)
 
 
 
@@ -680,7 +680,7 @@ TCP - это протокол, ориентированный на соедин�
 
 
 
-![Image](assets/fr/018.webp)
+![Image](assets/ru/013.webp)
 
 
 
@@ -688,7 +688,7 @@ TCP - это протокол, ориентированный на соедин�
 
 
 
-![Image](assets/fr/019.webp)
+![Image](assets/ru/014.webp)
 
 
 
@@ -711,7 +711,7 @@ TCP способен обнаруживать и обрабатывать дуб
 
 
 
-![Image](assets/fr/020.webp)
+![Image](assets/ru/015.webp)
 
 
 
@@ -734,7 +734,7 @@ TCP способен обнаруживать и обрабатывать дуб
 
 
 
-![Image](assets/fr/021.webp)
+![Image](assets/ru/016.webp)
 
 
 
@@ -751,7 +751,7 @@ TCP способен обнаруживать и обрабатывать дуб
 
 
 
-![Image](assets/fr/022.webp)
+![Image](assets/ru/017.webp)
 
 
 
@@ -791,7 +791,7 @@ UDP работает по принципиально иному принципу
 
 
 
-![Image](assets/fr/023.webp)
+![Image](assets/ru/018.webp)
 
 
 
@@ -800,7 +800,7 @@ UDP работает по принципиально иному принципу
 
 
 
-![Image](assets/fr/024.webp)
+![Image](assets/ru/019.webp)
 
 
 
@@ -836,7 +836,7 @@ UDP работает по принципиально иному принципу
 
 
 
-![Image](assets/fr/026.webp)
+![Image](assets/ru/020.webp)
 
 
 
@@ -896,7 +896,7 @@ IP-адреса могут назначаться двумя основными 
 
 
 
-![Image](assets/fr/027.webp)
+![Image](assets/ru/021.webp)
 
 
 
@@ -1183,7 +1183,7 @@ IP Address            MAC Address                Type
 - Визуальный пример MAC Address:
 
 
-![Image](assets/fr/032.webp)
+![Image](assets/ru/022.webp)
 
 
 
@@ -1191,7 +1191,7 @@ IP Address            MAC Address                Type
 - Визуальный пример IP Address:
 
 
-![Image](assets/fr/027.webp)
+![Image](assets/ru/023.webp)
 
 
 
@@ -1258,7 +1258,7 @@ Network Address Translation_ (NAT) - это технология, разрабо
 
 
 
-![Image](assets/fr/035.webp)
+![Image](assets/ru/024.webp)
 
 
 
@@ -1331,7 +1331,7 @@ NAT может быть реализован различными способа
 
 
 
-![Image](assets/fr/037.webp)
+![Image](assets/ru/025.webp)
 
 
 
@@ -1500,7 +1500,7 @@ ONBOOT=yes
 
 
 
-![Image](assets/fr/039.webp)
+![Image](assets/ru/026.webp)
 
 
 
@@ -1954,7 +1954,7 @@ IPv6 отличается от своего предшественника ши�
 Вот пример того, как преобразовать MAC Address в EUI-64:
 
 
-![Image](assets/fr/045.webp)
+![Image](assets/ru/027.webp)
 
 
 
@@ -2092,7 +2092,7 @@ IANA выделяет каждому RIR блоки IPv6 разного разм
 Этот заголовок, если он присутствует, всегда располагается сразу после базового заголовка. Он содержит информацию, которая должна быть обработана каждым маршрутизатором на пути следования пакета, в отличие от большинства других заголовков, которые обычно обрабатываются только узлом назначения. Обычно он используется для передачи глобальных параметров или запроса определенных этапов обработки пакета по мере его прохождения по сети.
 
 
-![Image](assets/fr/047.webp)
+![Image](assets/ru/028.webp)
 
 
 #### Заголовок маршрутизации
@@ -2117,7 +2117,7 @@ IANA выделяет каждому RIR блоки IPv6 разного разм
 Поле "Segments Left" начинается с общего количества оставшихся сегментов и уменьшается на единицу при каждом переходе.
 
 
-![Image](assets/fr/048.webp)
+![Image](assets/ru/029.webp)
 
 
 #### Заголовок фрагментации
@@ -2134,7 +2134,7 @@ IANA выделяет каждому RIR блоки IPv6 разного разм
 - Флаг **M**: указывает, следуют ли за ним другие фрагменты.
 
 
-![Image](assets/fr/049.webp)
+![Image](assets/ru/030.webp)
 
 
 #### Заголовок аутентификации (AH)
@@ -2146,7 +2146,7 @@ IANA выделяет каждому RIR блоки IPv6 разного разм
 В случае попытки мошеннической модификации код аутентификации перестает совпадать, и дейтаграмма может быть отклонена. Этот механизм также защищает от атак повторного воспроизведения, обнаруживая несанкционированные дубликаты.
 
 
-![Image](assets/fr/050.webp)
+![Image](assets/ru/031.webp)
 
 
 #### Заголовок параметров назначения
@@ -2158,7 +2158,7 @@ IANA выделяет каждому RIR блоки IPv6 разного разм
 Изначально такая возможность в протоколе не была определена. Однако этот заголовок был введен при разработке IPv6, чтобы позволить добавлять будущие расширения без изменения общей структуры пакета. Опция null, например, используется только для того, чтобы выровнять заголовок до размера, кратного 8 байтам, для целей выравнивания памяти.
 
 
-![Image](assets/fr/051.webp)
+![Image](assets/ru/032.webp)
 
 
 Дизайн пакетов IPv6 построен на четком разделении минимального базового заголовка и модульных заголовков расширения. Такая архитектура обеспечивает как стандартную производительность обработки, так и гибкость, необходимую для развития протокола и интеграции безопасности, сложных механизмов маршрутизации или качества обслуживания, сохраняя при этом совместимость с будущими инфраструктурами.
@@ -2504,7 +2504,7 @@ Wireshark доступен для многих операционных сист
 
 
 
-![Image](assets/fr/052.webp)
+![Image](assets/ru/033.webp)
 
 
 
@@ -2555,7 +2555,7 @@ ethtool enp0s3
 
 
 
-![Image](assets/fr/053.webp)
+![Image](assets/ru/034.webp)
 
 
 
@@ -3107,7 +3107,7 @@ nmap 192.168.0.0/24
 
 
 
-![Image](assets/fr/055.webp)
+![Image](assets/ru/035.webp)
 
 
 

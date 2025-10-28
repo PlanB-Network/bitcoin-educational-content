@@ -1,11 +1,11 @@
 ---
-name: Il Funzionamento Interno dei Wallet Bitcoin
+name: Architettura del portafoglio Bitcoin
 goal: Esplorare i principi crittografici che si celano dietro i wallet Bitcoin.
 objectives:
-  - Definire le nozioni teoriche necessarie per comprendere gli algoritmi crittografici utilizzati in Bitcoin.
-  - Comprendere a fondo la costruzione di un wallet gerarchico-deterministico.
-  - Sapere come identificare e ridurre i rischi associati alla gestione di un wallet.
-  - Capire i principi delle funzioni hash, delle chiavi crittografiche e delle firme digitali.
+- Definire le nozioni teoriche necessarie per comprendere gli algoritmi crittografici utilizzati in Bitcoin.
+- Comprendere a fondo la costruzione di un wallet gerarchico-deterministico.
+- Sapere come identificare e ridurre i rischi associati alla gestione di un wallet.
+- Capire i principi delle funzioni hash, delle chiavi crittografiche e delle firme digitali.
 ---
 
 # Un Viaggio nel Cuore dei wallet Bitcoin
@@ -27,6 +27,8 @@ Con una chiara pedagogia, oltre 60 diagrammi esplicativi e esempi concreti, CYP2
 ## Introduzione al Corso
 
 <chapterId>fb4e8857-ea35-5a8a-ae8a-5300234e0104</chapterId>
+
+:::video id=8028e727-cd5d-4593-a946-a89bfa26f617:::
 
 Benvenuto al corso CYP201, dove esploreremo a fondo il funzionamento dei wallet gerarchico-deterministici. Questo corso è progettato per chiunque voglia comprendere le basi tecniche dell'uso di Bitcoin, sia che si tratti di utenti occasionali, appassionati illuminati o futuri esperti.
 
@@ -89,6 +91,8 @@ Questa tabella vi offre una traduzione dei principali termini inglesi utilizzati
 ## Introduzione alle Funzioni Hash
 
 <chapterId>dba011f5-1805-5a48-ac2b-4bd637c93703</chapterId>
+
+:::video id=f36528c9-9ab0-4037-a413-b16c204d5cc8:::
 
 Il primo tipo di algoritmi crittografici utilizzati in Bitcoin comprende le funzioni hash. Esse svolgono un ruolo essenziale a diversi livelli del protocollo e all'interno dei wallet. Scopriamo insieme cosa è una funzione hash, nonché come viene usata in Bitcoin.
 
@@ -200,6 +204,9 @@ Ora conosci le basi essenziali sulle funzioni di hashing per seguire la formazio
 ## Il Funzionamento Interno di SHA256
 
 <chapterId>905eb320-f15b-5fb6-8d2d-5bb447337deb</chapterId>
+
+:::video id=2e4a42df-4b49-47ff-b6bc-9bcaa53bc82f:::
+
 Abbiamo precedentemente visto che le funzioni di hashing possiedono importanti caratteristiche che giustificano il loro uso nel protocollo Bitcoin. Esaminiamo ora i meccanismi interni di queste funzioni, che conferiscono loro queste proprietà e, per farlo, propongo di dissezionare il funzionamento di SHA256.
 Le funzioni SHA256 e SHA512 appartengono alla stessa famiglia SHA2. Il loro meccanismo si basa su una costruzione specifica chiamata **Merkle-Damgård construction**. Anche RIPEMD160 utilizza questo stesso tipo di costruzione.
 
@@ -580,6 +587,8 @@ Ora che abbiamo esaminato in dettaglio il funzionamento delle funzioni hash, in 
 
 <chapterId>cc668121-7789-5e99-bf5e-1ba085f4f5f2</chapterId>
 
+:::video id=a5cf4eb3-e53f-4bff-aee4-de0ca6aab3b6:::
+
 A livello applicativo, oltre alle funzioni hash, nel protocollo Bitcoin vengono utilizzati algoritmi di derivazione crittografica per generare dati sicuri a partire da input iniziali. Sebbene questi algoritmi si basino sulle funzioni hash, servono a scopi diversi, specialmente in termini di autenticazione e generazione di chiavi. Gli algoritmi che vedremo, mantengono alcune delle caratteristiche delle funzioni hash, come l'irreversibilità, la resistenza alla manomissione e la resistenza alle collisioni.
 
 Nella generazione dei wallet Bitcoin vengono principalmente utilizzati 2 algoritmi di derivazione:
@@ -675,6 +684,8 @@ In questo capitolo, abbiamo esplorato le funzioni HMAC-SHA512 e PBKDF2, che util
 ## Firme Digitali e Curve Ellittiche
 
 <chapterId>c9dd9672-6da1-57f8-9871-8b28994d4c1a</chapterId>
+
+:::video id=6d307c93-8c79-42e2-ac95-cfcb2a58889f:::
 
 Il secondo processo crittografico utilizzato in Bitcoin coinvolge algoritmi di firma digitale. Esploriamo cosa comportano e come funzionano.
 
@@ -774,6 +785,9 @@ https://planb.network/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 ## Calcolo della Chiave Pubblica a partire dalla Chiave Privata
 
 <chapterId>fcb2bd58-5dda-5ecf-bb8f-ad1a0561ab4a</chapterId>
+
+:::video id=2fddfb16-5ae3-41da-92f8-ef5d09789804:::
+
 Come visto in precedenza, gli algoritmi di firma digitale del protocollo Bitcoin si basano su una coppia di chiavi, privata e pubblica, che sono matematicamente collegate. Esploriamo insieme quale sia questo legame matematico e come vengono generate.
 
 ### La Chiave Privata
@@ -907,6 +921,8 @@ Naturalmente, in questo esempio semplificato con $k = 4$, sarebbe possibile trov
 ## Firmare con la Chiave Privata
 
 <chapterId>bb07826f-826e-5905-b307-3d82001fb778</chapterId>
+
+:::video id=fe3acbf4-a9d4-4c7d-82cc-79de24bf8aec:::
 
 Ora che sai come derivare una chiave pubblica da una chiave privata, puoi già ricevere bitcoin utilizzando questa coppia di chiavi come condizione di spesa. Ma come spenderli? Per spendere bitcoin dovrai sbloccare lo _scriptPubKey_ associato al tuo UTXO, per dimostrare che sei effettivamente il legittimo proprietario. Per farlo devi produrre una firma $s$ che corrisponda alla chiave pubblica $K$ presente nello _scriptPubKey_ utilizzando la chiave privata $k$, la quale a sua volta è stata inizialmente utilizzata per calcolare $K$. La firma digitale è quindi la prova inconfutabile che sei in possesso della chiave privata associata alla chiave pubblica che esponi.
 
@@ -1128,6 +1144,8 @@ Non sappiamo realmente perché Satoshi non lo abbia scelto, ma un'ipotesi probab
 
 <chapterId>231c41a2-aff2-4655-9048-47b6d2d83d64</chapterId>
 
+:::video id=43dfce6d-c51a-44c1-b565-95b4430da069:::
+
 Come abbiamo visto nei capitoli precedenti, le firme digitali sono spesso utilizzate per sbloccare lo script di un input. Nel processo di firma è necessario includere nel calcolo i dati firmati, designati nei nostri esempi dal messaggio $m$. Questi dati, una volta firmati, non possono essere modificati senza invalidare la firma. Sia per ECDSA sia per Schnorr, infatti, chi si occupa della verifica della firma deve includere nel suo calcolo lo stesso messaggio $m$. Se differisce dal messaggio $m$ inizialmente utilizzato dal firmatario, il risultato sarà errato e la firma considerata non valida. Si dice quindi che una firma copre determinati dati e in un certo senso li protegge da modifiche non autorizzate.
 
 ### Cos'è un flag sighash?
@@ -1196,6 +1214,8 @@ Nella prossima parte propongo di scoprire come funziona la frase mnemonica alla 
 
 <chapterId>9d9acd5d-a0e5-5dfd-b544-f043fae8840f</chapterId>
 
+:::video id=024fb46f-aece-414f-818b-4762e77953b9:::
+
 Ora che abbiamo esplorato il funzionamento delle funzioni hash e delle firme digitali, possiamo studiare come funzionano i wallet Bitcoin. L'obiettivo sarà scoprire come è costruito un wallet Bitcoin, quali parti lo compongono e come sono usate sono le diverse parti di informazione che lo costituiscono. La comprensione di tali meccanismi ti permetterà di migliorare il tuo uso di Bitcoin in termini di sicurezza e privacy.
 
 Prima di immergerci nei dettagli tecnici, è essenziale chiarire cosa si intende per "wallet Bitcoin" e comprenderne la sua utilità.
@@ -1240,6 +1260,9 @@ Nei prossimi capitoli esploreremo il funzionamento interno dei wallet HD, inclus
 ## Entropia e Numeri Casuali
 
 <chapterId>b43c715d-affb-56d8-a697-ad5bc2fffd63</chapterId>
+
+:::video id=4b6c3bd5-2d5c-42ff-8f47-141bd20569bd:::
+
 I moderni wallet HD (gerarchico-deterministici) si affidano a un unico frammento iniziale di informazione chiamato "entropia", sfruttato per generare in modo deterministico l'intero set di chiavi del wallet. L'entropia è un numero pseudo-casuale il cui livello di imprevedibilità determina, in parte, la sicurezza del wallet.
 
 ### Definizione di Entropia
@@ -1266,6 +1289,9 @@ Nel prossimo capitolo, vedremo come si passa da un numero casuale a una frase mn
 ## La Frase Mnemonica
 
 <chapterId>8f9340c1-e6dc-5557-a2f2-26c9669987d5</chapterId>
+
+:::video id=6218472e-b965-484f-b56b-e363f65d2827:::
+
 La frase mnemonica, chiamata anche "seed phrase", "recovery phrase", "frase segreta" o "frase di 24 parole", è una sequenza solitamente composta da 12 o 24 parole generata a partire dall'entropia. Viene utilizzata per derivare deterministicamente tutte le chiavi di un wallet HD. Ciò significa che da questa frase è possibile generare e ricreare, deterministicamente, tutte le chiavi private e pubbliche del wallet Bitcoin e, di conseguenza, accedere ai fondi che sono protetti con esse. Lo scopo della frase mnemonica è fornire un metodo di backup e recupero dei bitcoin che sia al contempo sicuro e facile da usare. È stata introdotta nel 2013 con lo standard BIP39.
 
 Scopriamo insieme come passare dall'entropia a una frase mnemonica.
@@ -1371,6 +1397,8 @@ Prima di continuare con la derivazione del wallet dalla frase mnemonica, ti pres
 
 <chapterId>6a51b397-f3b5-5084-b151-cef94bc9b93f</chapterId>
 
+:::video id=59f8a63e-56af-4937-a1d1-3314b3934048:::
+
 Come abbiamo appena visto, i wallet HD sono generati da una frase mnemonica che tipicamente consiste di 12 o 24 parole. Questa frase è molto importante perché permette il ripristino di tutte le chiavi di un wallet in caso il dispositivo fisico (come un hardware wallet, ad esempio) venga perso. Bisogna però considerare che costituisce un unico punto di fallimento perché, se viene compromessa, un attaccante potrebbe rubare tutti i bitcoin. Qui entra in gioco la passphrase BIP39.
 
 ### Cos'è una passphrase BIP39?
@@ -1407,6 +1435,8 @@ Nella sezione seguente scopriremo come questi due elementi alla base del tuo wal
 ## Creazione del Seed e della Chiave Master
 
 <chapterId>63093760-2010-5691-8d0e-9a04732ae557</chapterId>
+
+:::video id=60e3ade6-501b-4e1e-a85e-59257ef12900:::
 
 Una volta generati la frase mnemonica e la passphrase opzionale, può iniziare il processo di derivazione di un wallet gerarchico-deterministico. La mnemonica viene prima convertita in un seed che costituisce la base di tutte le chiavi del wallet.
 
@@ -1482,6 +1512,8 @@ Prima di continuare con la derivazione del wallet HD con i seguenti elementi, de
 
 ## Chiavi Estese
 <chapterId>8dcffce1-31bd-5e0b-965b-735f5f9e4602</chapterId>
+
+:::video id=bbca9cca-62a0-4b4e-93d5-3757dc100123:::
 
 Una chiave estesa è semplicemente la concatenazione di una chiave (sia privata che pubblica) e la sua chain code. La chain code è essenziale per la derivazione delle chiavi figlie perché, senza di essa, è impossibile derivare chiavi figlie da una chiave genitore, ma scopriremo questo processo più precisamente nel prossimo capitolo. Le chiavi estese permettono quindi di aggregare tutte le informazioni necessarie per derivare chiavi figlie, semplificando così la gestione degli account all'interno di un wallet HD.
 
@@ -1602,6 +1634,8 @@ In questo capitolo, abbiamo scoperto che esistono due tipi differenti di chiavi 
 
 ## Derivazione delle Coppie di Chiavi Figlie
 <chapterId>61c0807c-845b-5076-ad06-7f395b36adfd</chapterId>
+
+:::video id=80387fa0-bee8-4aac-9eac-93e90e55a1cb:::
 
 La derivazione delle coppie di chiavi figlie nei wallet gerarchico-deterministici Bitcoin si basa su una struttura gerarchica, che consente di generare un gran numero di chiavi, organizzandole in diversi gruppi attraverso rami. Ogni coppia figlia derivata da una coppia genitore può essere utilizzata direttamente in uno _scriptPubKey_ per bloccare i bitcoin, o come punto di partenza per generare ulteriori chiavi figlie e così via, per creare un albero di chiavi.
 
@@ -1790,6 +1824,8 @@ Per riassumere finora hai imparato a creare gli elementi base del wallet HD: la 
 ## Struttura del wallet e Derivation Path
 <chapterId>34e1bbda-67de-5493-b268-1fded8d67689</chapterId>
 
+:::video id=9fff62bf-9203-46f1-bb4d-4f5a9d5875f8:::
+
 La struttura gerarchica dei wallet HD consente l'organizzazione delle coppie di chiavi in vari modi. L'idea è derivare, a partire dalla chiave privata master e dalla master chain code, diversi livelli di profondità (depth). Ogni livello aggiunto corrisponde alla derivazione di una coppia di chiavi figlie da una coppia di chiavi genitore.
 
 Nel tempo, diversi BIP hanno introdotto standard per questi percorsi di derivazione, con l'obiettivo di unificare il loro uso attraverso diversi software. In questo capitolo scopriremo il significato di ogni livello di derivazione nei wallet HD, secondo questi standard.
@@ -1882,6 +1918,9 @@ Nel prossimo capitolo scopriremo cosa sono i "_descriptor degli script di output
 
 ## Descriptor degli script di output
 <chapterId>e4f1c2d3-9b8a-4d3e-8f2a-7b6c5d4e3f2a</chapterId>
+
+:::video id=ce9d2c33-6a9d-451e-a2b4-41ef81cbfd71:::
+
 Spesso ci viene detto che la frase mnemonica da sola è sufficiente per recuperare l'accesso a un wallet. In realtà le cose sono un po' più complicate. Nel capitolo precedente abbiamo esaminato la struttura di derivazione del wallet gerarchico-deterministico e potreste aver notato che questo processo è piuttosto complesso. I derivation path indicano al software quale direzione seguire per derivare le chiavi dell'utente. Tuttavia, quando si ripristina un wallet Bitcoin, se non si conoscono questi percorsi la frase mnemonica da sola non è sufficiente. La mnemonica permette di ottenere la chiave master e la master chain code, ma è poi necessario conoscere gli indici usati per raggiungere le chiavi figlie.
 
 Teoricamente è necessario salvare non solo la frase mnemonica del nostro wallet, ma anche i percorsi che portano agli account usati. Poi nella pratica è spesso possibile ottenere di nuovo l'accesso alle chiavi figlie senza queste informazioni, a patto che siano stati seguiti gli standard. Testando ogni standard uno per uno, generalmente è possibile riavere l'accesso ai bitcoin. Tuttavia non è garantito ed è particolarmente complicato per i principianti. Si aggiunga poi che, con la diversificazione dei tipi di script e l'emergere di configurazioni più complesse, queste informazioni potrebbero diventare difficili da estrapolare, trasformando così questi dati in informazioni nascoste e difficili da recuperare solo con brute force. Ecco perché è stata recentemente introdotta un'innovazione, che sta iniziando ad essere integrata nel vostro software wallet preferito: i *descriptor degli script di output*.
@@ -1926,6 +1965,8 @@ Ora conosci tutto sul funzionamento del wallet gerarchico-deterministico Bitcoin
 
 ## Indirizzi di Ricezione
 <chapterId>ca80a89d-f8da-4e09-8c35-43179b65bced</chapterId>
+
+:::video id=4113aebf-c850-4ebc-90a8-a3b599de4453:::
 
 Gli indirizzi di ricezione sono informazioni incorporate in _scriptPubKey_ per bloccare gli UTXO appena creati. In parole semplici, un indirizzo serve a ricevere bitcoin. Scopriamo il loro funzionamento nell'ambito di quanto abbiamo studiato nei capitoli precedenti.
 
@@ -2049,6 +2090,8 @@ Ora che abbiamo coperto la teoria passiamo alla pratica! Nel capitolo seguente, 
 
 ## Derivazione dell'Indirizzo
 <chapterId>3ebdc750-4135-4881-b07e-08965941b93e</chapterId>
+
+:::video id=1517c0fd-d31b-426b-b99e-e4eb19635415:::
 
 Vediamo ora come generare un indirizzo di ricezione da una coppia di chiavi situate, ad esempio, alla profondità (depth) 5 di un wallet HD. Questo indirizzo, poi, potrà essere utilizzato in un software wallet per bloccare un UTXO.
 

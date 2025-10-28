@@ -21,7 +21,7 @@ Du er sikkert kjent med ordtaket "Ikke dine nøkler, ikke dine mynter", som oppf
 
 
 
-BTC 202 er et lett tilgjengelig kurs som er utviklet for å lære deg å spinne din egen Bitcoin-knute, selv om du ikke er en teknisk ekspert. Vi begynner med å definere hva en Bitcoin-knute er, hva den brukes til, og hvorfor det er helt avgjørende å spinne en selv. Deretter guider jeg deg trinn for trinn gjennom valg av maskinvare, installering av nødvendig programvare, tilkobling av Wallet og de første mulige optimaliseringene for å ta den videre.
+BTC 202 er et lett tilgjengelig kurs laget for å lære deg å kjøre din egen Bitcoin-node, selv om du ikke er en teknisk ekspert. Vi starter med å definere hva en Bitcoin-node er, hva den brukes til, og hvorfor det er helt essensielt å kjøre en selv. Deretter vil jeg veilede deg steg for steg i valg av maskinvare, installasjon av nødvendig programvare, tilkobling av lommebokprogramvaren og de første mulige optimaliseringene for å gå videre.
 
 
 
@@ -410,7 +410,7 @@ Med andre ord kjører rundt 9 av 10 offentlige noder Bitcoin core. Resten av net
 
 
 
-Bitcoin core er skrevet i C++. Det er også et åpen kildekode-prosjekt som vedlikeholdes av et fellesskap av utviklere som jobber frivillig eller blir betalt av ulike enheter (ofte av selskaper i økosystemet som har en egeninteresse i utviklingen av Core). [Koden ligger på GitHub] (https://github.com/Bitcoin/Bitcoin), og utviklingen følger en streng plan:
+Bitcoin Core er programvare skrevet i C++. Det er også et åpen kildekode-prosjekt som vedlikeholdes av et fellesskap av utviklere — enten frivillige eller finansiert av ulike enheter (ofte selskaper i økosystemet som har interesse av at Core-utviklingen går gunstig). [Koden er vertet på GitHub](https://github.com/bitcoin/bitcoin), og utviklingen følger en streng modell:
 
 
 
@@ -448,7 +448,7 @@ Vi kan også nevne:
 
 - Libbitcoin**: et modulært C++-bibliotek utviklet av Amir Taaki og vedlikeholdt av Eric Voskuil;
 - Bcoin**: en JavaScript-implementasjon som ikke lenger vedlikeholdes aktivt;
-- BTCD/btcsuit**e: en implementering i Go.
+- **BTCD/btcsuite** : en implementasjon i Go.
 
 
 
@@ -481,7 +481,7 @@ Som vi skal diskutere senere i dette kurset, er det nodene, i henhold til deres 
 
 
 
-## Hvorfor vri din egen knute?
+## Hvorfor kjøre din egen node?
 
 
 <chapterId>39c0cd19-67f9-4c64-bfb3-dbd6eec0bf42</chapterId>
@@ -492,7 +492,7 @@ Det er en utbredt oppfatning at det å drive en Bitcoin-node er en rent altruist
 
 
 
-Som vi har påpekt i de foregående kapitlene, er det ingen direkte økonomisk gevinst ved å spinne en knute. Man skulle derfor tro at det ikke er noen personlig interesse i å gjøre det. Likevel er det mange personlige fordeler ved å drive sin egen knute. For å overbevise deg om dette skal jeg i dette kapittelet presentere alle grunnene, både tekniske og strategiske, til hvorfor du bør installere og bruke din egen Bitcoin-node.
+Som vi har påpekt i de foregående kapitlene, gir det ingen direkte økonomisk gevinst å kjøre en node. Man kunne derfor tro at det ikke er noen personlig interesse i å gjøre det. Likevel gir det å drive sin egen node mange individuelle fordeler. For å overbevise deg om dette, vil jeg i dette kapittelet presentere alle de tekniske og strategiske grunnene som bør motivere deg til å installere og bruke din egen Bitcoin-node.
 
 
 
@@ -576,7 +576,7 @@ Installasjon av en Full node er ingen triviell operasjon. Det innebærer å inst
 
 
 
-Å tilegne seg denne kunnskapen styrker tilliten til verktøyet og kan redusere risikoen for å gjøre feil eller bli utsatt for svindel. Å spinne sin egen knute er også en form for læring.
+Å tilegne seg denne kunnskapen styrker tilliten din til verktøyet og kan redusere risikoen for feil eller svindel. Å kjøre sin egen node er også en læringsprosess.
 
 
 
@@ -692,7 +692,7 @@ Det er altså ikke antallet noder som betyr noe, men betydningen av den økonomi
 
 
 
-> Ikke din knute, ikke dine regler.
+> Ikke din node, ikke dine regler.
 
 
 ## De ulike typene Bitcoin-noder
@@ -706,7 +706,7 @@ En Bitcoin-node er derfor en maskin som kjører en implementering av Bitcoin-pro
 
 
 
-### Den komplette knuten
+### Den fullstendige noden
 
 
 
@@ -730,7 +730,7 @@ Avhengig av behovene dine kan du legge til en indekserer i Full node. Bitcoin co
 
 
 
-### pruned-knuten
+### Den beskårne noden
 
 
 
@@ -754,7 +754,7 @@ Kort sagt fungerer Wallet-sporing problemfritt på en pruned-node hvis du oppret
 
 
 
-### Den lette knuten / SPV
+### Den lette noden / SPV
 
 
 
@@ -849,7 +849,7 @@ Dette er den mest suverene og fleksible tilnærmingen: Du vet nøyaktig hva som 
 
 
 
-#### Bitcoin core (kunde med ultramajoritet)
+#### Bitcoin Core (dominerende klient)
 
 
 
@@ -869,7 +869,7 @@ https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d
 
 https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-#### Bitcoin Knots (hovedalternativ kunde)
+#### Bitcoin Knots (hovedalternativ klient)
 
 
 
@@ -2590,7 +2590,7 @@ Nostr-klientene ***noStrudel*** eller ***Snort*** er også tilgjengelige på Umb
 
 
 
-Til slutt er det ***Nostr Wallet Connect***-appen på Umbrel, som muliggjør innfødte Lightning-betalinger i Nostr. Konkret kan du koble din fremtidige Lightning-node til Nostr-kundene dine for å sende mikrobetalinger, kalt "*zaps*", for å belønne innhold eller samhandle på en inntektsgivende måte, uten å måtte gå gjennom en tredjeparts tjeneste. Disse betalingene sendes direkte fra din personlige node via dine kanaler.
+Til slutt finnes applikasjonen ***Nostr Wallet Connect*** på Umbrel, som gjør det mulig å foreta innfødte Lightning-betalinger i Nostr. Konkret kan du koble din fremtidige Lightning-node til dine Nostr-klienter for å sende mikrobetaIinger, kalt "*zaps*", for å belønne innhold eller samhandle på en monetarisert måte, uten å bruke en tredjepartstjeneste. Disse betalingene sendes direkte fra din personlige node via dine kanaler.
 
 
 
@@ -2652,7 +2652,7 @@ https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-82
 
 
 
-## Vedlikehold av Umbrel-knuten din
+## Vedlikeholde din Umbrel-node
 
 
 <chapterId>06d77d09-bf24-4555-b2ba-c08bbda477c7</chapterId>
@@ -2929,7 +2929,7 @@ Hvis noden din lytter på en åpen port (standard er 8333), godtar den innkommen
 
 
 
-## Bitcoin-knutens anatomi
+## Anatomi av din Bitcoin-node
 
 
 <chapterId>b420bd9d-7e2a-4984-bc70-2b732a94c8ce</chapterId>
@@ -2941,7 +2941,7 @@ Når noden har fullført den innledende synkroniseringen, lagrer den flere utfyl
 
 
 
-- gW-402 **blokker** lagret på disk,
+- **blokkene** i blokkjeden som er lagret på disken,
 - **UTXO-settet** som vedlikeholdes i en nøkkelverdidatabase,
 - og **Mempool** lagres i RAM og serialiseres med jevne mellomrom.
 
@@ -3093,7 +3093,7 @@ Mempool er det lokale settet med gyldige transaksjoner som er mottatt, men ennå
 
 
 - størrelsen som er allokert til Mempool via parameteren `maxmempool`: en node med en større Mempool vil kunne romme flere transaksjoner enn en node med en mindre Mempool (med mindre sistnevnte blir tom);
-- gW-433-regler: Disse er en delmengde av nodens reléregler og definerer egenskapene som en ubekreftet transaksjon må oppfylle for å bli akseptert i Mempool;
+- mempool-reglene: de utgjør et delsett av nodens videresendingsregler og definerer egenskapene en ubekreftet transaksjon må oppfylle for å bli akseptert i mempoolen;
 - transaksjonsperkolasjon: På grunn av ulike faktorer kan en gitt transaksjon ha blitt distribuert til én del av nettverket, men ennå ikke nådd en annen.
 
 
@@ -3135,10 +3135,10 @@ Flere andre filer på samme nivå som `blocks/`, `chainstate/` og `indexes/` bid
 - Når noden slås av, lagrer `anchors.dat` adressene til utgående peers, slik at du raskt kan prøve å kontakte dem igjen neste gang du starter opp.
 - `banlist.json` inneholder lokale forbud som er besluttet av operatøren eller av noden (gjentatt ugyldig oppførsel), for å hindre noden i å koble seg til eller godta tilkoblinger fra disse spesifikke motpartene.
 - `fee_estimates.dat` lagrer tidshorisontstatistikk over observerte bekreftelser, som brukes av gebyrestimatoren til å foreslå gebyrsatser som er i samsvar med forsinkelsesmålene som velges når en transaksjon opprettes.
-- gW-446.conf` inneholder nodens konfigurasjonsparametere. Det er her du kan justere reléreglene. Jeg skal fortelle deg mer om dette i neste kapittel.
+- `bitcoin.conf` inneholder konfigurasjonsparametrene for noden din. Det er i denne filen du kan justere videresendingsreglene. Jeg vil snakke mer om dette i neste kapittel;
 - `settings.json` inneholder flere parametere til `Bitcoin.conf`.
 - `debug.log` er den diagnostiske tekstloggen, som kan brukes til å forstå nodeaktiviteten hvis det oppstår en feil.
-- gW-448.pid` lagrer prosessidentifikatoren ved kjøring, slik at andre programmer eller skript enkelt kan identifisere bitcoind (*Bitcoin daemon*) og samhandle med den om nødvendig. Den opprettes ved oppstart av noden og slettes ved avslutning.
+- `bitcoind.pid` registrerer prosess-ID-en under kjøring, slik at andre applikasjoner eller skript enkelt kan identifisere Bitcoind (*Bitcoin Daemon*) og samhandle med det ved behov. Den opprettes når noden starter og slettes når den stopper;
 - `ip_asn.map` er en IP → ASN-tilordningstabell (frittstående system) som brukes til bucketing og peer-diversifisering (`-asmap`-alternativet).
 - `onion_v3_private_key` lagrer den private nøkkelen til Tor v3-tjenesten når alternativet `-listenonion` er aktivert, for å holde en stabil onion Address mellom omstarter.
 - `i2p_private_key` lagrer den private I2P-nøkkelen når `-i2psam=` brukes til å opprette utgående og eventuelt innkommende tilkoblinger på I2P.
@@ -3154,9 +3154,9 @@ Som vi så i de første delene av dette BTC 202-kurset, er Bitcoin core både Bi
 
 
 
-- `wallets/` er standardkatalogen som inneholder en eller flere;
+- `wallets/` er standardkatalogen som inneholder en eller flere lommebøker;
 - `wallets/<name>/Wallet.dat` er SQLite-databasen til Wallet (nøkler, deskriptorer, transaksjonsmetadata osv.);
-- wallets/<name>/Wallet.dat-journal` er SQLite-tilbakestillingsloggen.
+- `wallets/<name>/wallet.dat-journal` er SQLite-rollback-loggen.
 
 
 
@@ -3335,10 +3335,10 @@ På nettverksnivå har vi også
 
 
 - `addnode`: legger til en vennlig motpart å kontakte i tillegg til den vanlige oppdagelsen (kan spesifiseres flere ganger).
-- connect`: begrenser tilkoblinger strengt til den oppgitte Address (kan angis flere ganger). Kjernen vil ikke koble seg til noen annen node.
+- `connect`: begrenser tilkoblinger strengt til den angitte adressen (kan spesifiseres flere ganger). Core vil ikke koble seg til noen andre noder;
 - `seednode`: brukes bare til å fylle ut bok-Address når du kobler til en node, og kobler deretter fra.
 - `maxconnections`: definerer det globale taket for innkommende + utgående tilkoblinger. Som standard er denne parameteren satt til 125, noe som betyr at noden aldri vil akseptere mer enn 125 tilkoblinger.
-- maxuploadtarget`: begrenser opplastinger for å begrense båndbredden over et glidende 24-timers vindu. Dette taket går ikke på bekostning av spredningen av viktige, nylige Elements.
+- `maxuploadtarget` : begrenser opplasting for å redusere båndbredde over et rullerende 24-timersvindu. Denne grensen ofrer ikke spredningen av nødvendige nylige elementer;
 - `onlynet`: begrenser utgående tilkoblinger til kun utvalgte nettverk (`ipv4`, `ipv6`, `onion`, `i2p`, `cjdns`). Hvis du for eksempel vil at noden din bare skal koble seg til Bitcoin-nettverket via Tor, kan du aktivere parameteren `onlynet=onion` og deaktivere innkommende tilkoblinger (eller bare tillate tilkoblinger via Tor også).
 - `dnsseed`: Tillater eller forbyr _DNS seeds_ å be om motparter når den lokale Address-poolen er lav (standard: `1`, med mindre `-connect` eller `-maxconnections=0`).
 - `forcednsseed`: tvinger _DNS seeds_ til å bli forespurt ved oppstart, selv om du allerede har adresser på lager (standard: `0`).
@@ -3362,7 +3362,7 @@ For å være fullt Tor-aktivert må du tvinge Bitcoin core til å bruke bare det
 - `torcontrol=127.0.0.1:9051`,
 - `proxyrandomize=1`,
 - `listen=1`,
-- bind=127.0.0.1`,
+- `bind=127.0.0.1`,
 - `upnp=0`,
 - `natpmp=0`.
 
@@ -3418,7 +3418,7 @@ Her er de grunnleggende parameterne du kan endre i `Bitcoin.conf` når det gjeld
 
 
 
-- blocksonly=1`: Deaktiverer aksept og videresending av ubekreftede transaksjoner mottatt fra motparter (med mindre spesielle tillatelser er gitt). Noden laster nå bare opp og annonserer blokker. Transaksjoner som opprettes lokalt, kan fortsatt kringkastes (for å bruke noden med Wallet-programvaren). Dette reduserer båndbredde- og RAM-kravene betraktelig, selv om det går på bekostning av redusert nytteverdi for reléet og total uvitenhet om Mempool.
+- `blocksonly=1` : Deaktiverer mottak og videresending av ubekreftede transaksjoner mottatt fra jevnaldrende (bortsett fra spesielle tillatelser). Noden laster kun ned og kunngjør blokker. Lokalt opprettede transaksjoner kan fortsatt kringkastes (for å bruke noden med lommebokprogramvaren din). Dette reduserer båndbredde og RAM-behov betydelig, men på bekostning av redusert nytte for videresending og total uvitenhet om mempoolen.
 
 
 
@@ -3448,7 +3448,7 @@ Her er de avanserte innstillingene for Mempool og relépolicy. Hvis du er nybegy
 
 
 
-- datacarrier=1`: Tillater videresending og (hvis Mining via node) inkludering av transaksjoner som inneholder ikke-finansielle data via en `OP_RETURN`-utgang (standard: `1`). Deaktivering av denne parameteren reduserer overflaten for spam med ikke-finansielle data noe, på bekostning av redusert kompatibilitet med visse bruksområder. I alle tilfeller må du akseptere mined `OP_RETURN`.
+- `datacarrier=1` : Tillater videresending og (hvis gruvedrift via noden) inkludering av transaksjoner som bærer ikke-finansielle data gjennom en `OP_RETURN`-utgang (standard: `1`). Deaktivering av denne parameteren reduserer litt risikoen for ikke-finansiell dataspam på bekostning av lavere kompatibilitet med enkelte bruksområder. I alle tilfeller må du akseptere utvunnede `OP_RETURN`.
 
 
 
@@ -3490,13 +3490,13 @@ Her er de avanserte innstillingene for Mempool og relépolicy. Hvis du er nybegy
 
 
 
-- peerbloomfilters=1`: Aktiver støtte for Bloom-filtre (BIP37) for å servere filtrerte blokker/transaksjoner til tynne klienter (standard: `0`). Advarsel: Dette øker belastningen på ressursene dine.
+- `peerbloomfilters=1` : Aktiverer støtte for Bloom-filtre (BIP37) for å levere filtrerte blokker/transaksjoner til lette klienter (standard: `0`). Merk at dette øker belastningen på ressursene dine.
 
 
 
 
 
-- peerblockfilters=1`: Serverer BIP157 (*Neutrino*) kompakte filtre til motparter (standard: `0`).
+- `peerblockfilters=1` : Leverer kompakte BIP157 (*Neutrino*) filtre til jevnaldrende (standard: `0`).
 
 
 
@@ -3520,7 +3520,7 @@ Du kan også justere måten lommebøkene dine administreres på i filen `Bitcoin
 
 
 
-- addresstype=<legacy|P2SH-SegWit|bech32|bech32m>`: Definerer formatet på Wallet-genererte adresser for mottak.
+- `addresstype=<legacy|p2sh-segwit|bech32|bech32m>` : Definerer formatet på adressene som lommeboken genererer for mottak.
 
 
 
@@ -3568,7 +3568,7 @@ Du kan også justere måten lommebøkene dine administreres på i filen `Bitcoin
 
 
 
-- fallbackfee=<amt>`: Fallback-rate (BTC/kvB) som brukes hvis estimatoren går tom for data (standard: `0,00`). Hvis du setter den til 0, deaktiveres fallback helt.
+- `fallbackfee=<amt>` : Reservegebyr (BTC/kvB) som brukes hvis estimatoren mangler data (standard: `0.00`). Å sette den til 0 deaktiverer reservegebyret helt.
 
 
 
@@ -3660,7 +3660,7 @@ Konfigurasjonsfilen gir deg også mulighet til å justere parametrene for maskin
 
 
 
-- txindex=1`: Bygger og vedlikeholder en global indeks over bekreftede transaksjoner. Nødvendig for visse spørringer (`getrawtransaction`, ikke Wallet) og for utforskningsformål, men øker diskavtrykket betydelig. Inkompatibel med pruned-modus.
+- `txindex=1` : Bygger og vedlikeholder et globalt register over bekreftede transaksjoner. Nødvendig for visse forespørsler (`getrawtransaction` utenfor lommeboken) og for utforskningsformål, men øker diskforbruket betydelig. Ikke kompatibel med beskåret modus.
 
 
 

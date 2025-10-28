@@ -1,13 +1,11 @@
 ---
-name: RGB protokoll, teooriast praktikasse
+name: RGB programmeerimine
 goal: Omandada RGB mõistmiseks ja kasutamiseks vajalikud oskused
-objectives: 
-
-  - Mõista RGB-protokolli põhimõisteid
-  - Kliendipoolse valideerimise ja Bitcoini kohustuste põhimõtete tundmaõppimine
-  - Õppige, kuidas RGB lepinguid luua, hallata ja üle kanda
-  - Kuidas kasutada RGB-ühilduvat Lightning-sõlme
-
+objectives:
+- Mõista RGB-protokolli põhimõisteid
+- Kliendipoolse valideerimise ja Bitcoini kohustuste põhimõtete tundmaõppimine
+- Õppige, kuidas RGB lepinguid luua, hallata ja üle kanda
+- Kuidas kasutada RGB-ühilduvat Lightning-sõlme
 ---
 # RGB-protokolli avastamine
 

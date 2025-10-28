@@ -14,7 +14,7 @@ objectives:
 
 Katika kozi hii, tutaelezea misingi ya Bitcoin katika sura 25, ili uweze kuelewa teknolojia hii kwa njia rahisi na yenye ufanisi. Kozi hii inachunguza misingi ya sekta kwa ujumla, ikijumuisha mada kama vile uchimbaji, pochi, majukwaa ya kununua/kuuza na zaidi. Nyenzo za ziada za elimu zitapatikana katika safari yote, na pia tunakualika kuangalia "Mabango 21" katika sehemu ya nyenzo baada ya kumaliza kozi hii.
 
-Hauhitaji maarifa yoyote maalum ili kuanza. Kwa hakika, maudhui yafuatayo yanaweza kufikiwa na wanafunzi wa viwango vyote, na inapaswa kuchukua takriban saa 15 kumaliza.
+Hakuna ujuzi wa awali unaohitajika kuanza kozi hii. BTC 101 imeundwa ili iweze kufikiwa na kila mtu, bila kujali kiwango chako cha uzoefu.
 
 +++
 # Utangulizi
@@ -1202,6 +1202,10 @@ Kwa kuongeza, kuna [maeneo ya soko] (https://planb.network/tutorials/exchange) a
 ![image](assets/sw/076.webp)
 
 Hatimaye, ni muhimu kutambua kwamba majukumu ya kodi yanaweza kutofautiana kulingana na mamlaka, kwa hivyo tunakuhimiza sana kushauriana na kanuni za nchi yako kabla ya kuchukua hatua zozote ambazo zinaweza kukuweka hatarini.
+
+Ikiwa ungependa kuongeza ujuzi wako kuhusu mikakati ya kununua, kutumia na kulinda bitcoins zako, nakushauri sana ufuate kozi ya **BTC 102** baada ya hii. Humo utapata mapendekezo ya zana zinazofaa kwa wasifu wako, mahitaji yako na malengo yako binafsi:
+
+https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ## Hyper-bitcoinization
 

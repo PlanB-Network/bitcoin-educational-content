@@ -1,14 +1,11 @@
 ---
-name: RGB-protokollet, från teori till praktik
+name: RGB-programmering
 goal: Förvärva de färdigheter som krävs för att förstå och använda RGB
-objectives: 
-
-  - Förstå de grundläggande begreppen i RGB-protokollet
-  - Behärska principerna för Client-side Validation- och Bitcoin-åtaganden
-  - Lär dig hur du skapar, hanterar och överför RGB-kontrakt
-  - Hur man använder en RGB-kompatibel Lightning-nod
-
-
+objectives:
+- Förstå de grundläggande begreppen i RGB-protokollet
+- Behärska principerna för Client-side Validation- och Bitcoin-åtaganden
+- Lär dig hur du skapar, hanterar och överför RGB-kontrakt
+- Hur man använder en RGB-kompatibel Lightning-nod
 ---
 # Upptäcka RGB-protokollet
 

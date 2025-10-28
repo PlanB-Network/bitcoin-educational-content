@@ -72,6 +72,25 @@ Tot slot sluiten we de training af met een recapitulatie van de behandelde conce
 Klaar om de technische mechanismen van de Lightning Network te ontdekken? Laten we erin duiken!
 
 
+---
+
+*Hier zijn enkele termen die je in de cursusdiagrammen in het Engels zult tegenkomen, samen met hun vertaling om je te helpen ze beter te begrijpen in je eigen taal:*
+
+| Engels             | Vertaling - uitleg            |
+| ------------------ | ----------------------------- |
+| *timelock*         | Tijdslot                      |
+| *Revocation Key*   | Intrekkingssleutel            |
+| *invoice*          | Factuur / betalingsverzoek    |
+| *sig* (signature)  | Handtekening                  |
+| *secret*           | Geheim                        |
+| *amount*           | Bedrag                        |
+| *scan QR code*     | QR-code scannen               |
+| *Show QR code*     | QR-code tonen                 |
+| *Asks the invoice* | Vraagt de factuur aan         |
+| *Give the invoice* | Geeft de factuur              |
+| *Payment*          | Betaling                      |
+| *Preimage*         | Voorbeeld                     |
+
 # De grondbeginselen
 
 
@@ -100,7 +119,7 @@ Voordat we het "netwerk"-aspect gaan verkennen, is het belangrijk om het concept
 Met een betalingskanaal kunnen twee partijen, hier **Alice** en **Bob**, Exchange geld over de Lightning Network storten. Elke protagonist heeft een knooppunt, gesymboliseerd door een cirkel, en het kanaal tussen hen wordt weergegeven door een lijnstuk.
 
 
-![LNP201](assets/en/01.webp)
+![LNP201](assets/en/001.webp)
 
 
 In ons voorbeeld heeft Alice 100.000 satoshi's aan haar kant van het kanaal, en Bob heeft er 30.000, voor een totaal van 130.000 satoshi's, wat de **kanaalcapaciteit** vormt.
@@ -118,13 +137,13 @@ De **Satoshi** (of "sat") is een rekeneenheid op Bitcoin. Vergelijkbaar met een 
 Laten we terugkeren naar het betalingskanaal. Het sleutelbegrip hier is de "**kant van het kanaal**". Elke deelnemer heeft fondsen aan zijn kant van het kanaal: Alice 100.000 satoshis en Bob 30.000. Zoals we hebben gezien, vertegenwoordigt de som van deze fondsen de totale capaciteit van het kanaal, een getal dat wordt ingesteld wanneer het wordt geopend.
 
 
-![LNP201](assets/en/02.webp)
+![LNP201](assets/en/002.webp)
 
 
 Laten we een voorbeeld nemen van een Lightning-transactie. Als Alice 40.000 satoshis naar Bob wil sturen, is dit mogelijk omdat ze genoeg geld heeft (100.000 satoshis). Na deze transactie heeft Alice 60.000 satoshis aan haar kant en Bob 70.000.
 
 
-![LNP201](assets/en/03.webp)
+![LNP201](assets/en/003.webp)
 
 
 De **kanaalcapaciteit**, 130.000 satoshi, blijft constant. Wat verandert is de toewijzing van fondsen. Dit systeem staat niet toe meer geld te sturen dan iemand bezit. Als Bob bijvoorbeeld 80.000 satoshi's wil terugsturen naar Alice, kan dat niet, omdat hij maar 70.000 heeft.
@@ -133,7 +152,7 @@ De **kanaalcapaciteit**, 130.000 satoshi, blijft constant. Wat verandert is de t
 Een andere manier om je de toewijzing van fondsen voor te stellen is door je een **cursor** voor te stellen die aangeeft waar de fondsen zich binnen het kanaal bevinden. In het begin, met 100.000 satoshi's voor Alice en 30.000 voor Bob, staat de cursor meer aan de kant van Bob, omdat Alice veel meer geld heeft. Na de transactie van 40.000 satoshi's verschuift de cursor iets in de richting van Alice, die nu 60.000 satoshi's bezit.
 
 
-![LNP201](assets/en/04.webp)
+![LNP201](assets/en/004.webp)
 
 
 Deze voorstelling kan nuttig zijn om de balans van fondsen in een kanaal voor te stellen.
@@ -198,7 +217,7 @@ Op Bitcoin bestaat een transactie uit het versturen van geld van de ene Address 
 Het meest voorkomende script vereist een handtekening met de privé-sleutel geassocieerd met Address. Wanneer Alice een transactie ondertekent met haar private sleutel, **vrijgavet ze het script** dat de fondsen blokkeert, en ze kunnen dan worden overgedragen. De overdracht van fondsen omvat het toevoegen van een nieuw script aan deze fondsen, waarin staat dat om ze deze keer uit te geven, de handtekening met de privé-sleutel** van **Bob vereist is.
 
 
-![LNP201](assets/en/05.webp)
+![LNP201](assets/en/005.webp)
 
 
 ### UTXO's: Ongebruikte transactie-uitgangen
@@ -221,7 +240,7 @@ Hier is een voorbeeld van een transactie met 2 uitgangen:
 - Een UTXO van 0,0005 BTC voor Alice, vergrendeld door een script dat haar eigen handtekening vereist.
 
 
-![LNP201](assets/en/06.webp)
+![LNP201](assets/en/006.webp)
 
 
 ### Adressen met meerdere handtekeningen
@@ -230,13 +249,13 @@ Hier is een voorbeeld van een transactie met 2 uitgangen:
 Naast eenvoudige adressen gegenereerd uit een enkele publieke sleutel, is het mogelijk om **multi-handtekening adressen** te maken uit meerdere publieke sleutels. Een bijzonder interessant geval voor de Lightning Network is de **2/2 multi-handtekening Address**, gegenereerd uit twee publieke sleutels:
 
 
-![LNP201](assets/en/07.webp)
+![LNP201](assets/en/007.webp)
 
 
 Om de middelen uit te geven die vergrendeld zijn met deze 2/2-meervoudige handtekening Address, is het nodig om te ondertekenen met de twee privésleutels die geassocieerd zijn met de publieke sleutels.
 
 
-![LNP201](assets/en/08.webp)
+![LNP201](assets/en/008.webp)
 
 
 Dit type Address is precies de representatie op de Bitcoin Blockchain van betaalkanalen op de Lightning Network.
@@ -279,7 +298,7 @@ In dit hoofdstuk zullen we meer precies zien hoe je een betalingskanaal opent op
 Zoals we in het eerste hoofdstuk hebben gezien, kan een **betaalkanaal** op Lightning worden vergeleken met een "pijp" voor het uitwisselen van geld tussen twee deelnemers (**Alice** en **Bob** in onze voorbeelden). De capaciteit van dit kanaal komt overeen met de som van de beschikbare fondsen aan elke kant. In ons voorbeeld heeft Alice **100.000 satoshi** en Bob **30.000 satoshi**, wat een **totale capaciteit** geeft van **130.000 satoshi**.
 
 
-![LNP201](assets/en/09.webp)
+![LNP201](assets/en/009.webp)
 
 
 ### Informatieniveaus Exchange
@@ -294,7 +313,7 @@ Het is cruciaal om duidelijk onderscheid te maken tussen de verschillende niveau
 - **Bitcoin transacties (Bitcoin protocol)**: Dit zijn de onchain transacties, die we weergeven met oranje lijnen.
 
 
-![LNP201](assets/en/10.webp)
+![LNP201](assets/en/010.webp)
 
 
 Het is vermeldenswaard dat een Lightning-knooppunt via het P2P protocol kan communiceren zonder een kanaal te openen, maar voor Exchange fondsen is een kanaal nodig.
@@ -307,42 +326,42 @@ Het is vermeldenswaard dat een Lightning-knooppunt via het P2P protocol kan comm
 - **Bericht Exchange**: Alice wil een kanaal openen met Bob. Ze stuurt hem een bericht met het bedrag dat ze in het kanaal wil storten (130.000 Sats) en haar publieke sleutel. Bob antwoordt door zijn eigen publieke sleutel te delen.
 
 
-![LNP201](assets/en/11.webp)
+![LNP201](assets/en/011.webp)
 
 
 
 - Creatie van de **Address** met meerdere handtekeningen: Met deze twee openbare sleutels creëert Alice een **2/2-meervoudige handtekening Address**, wat betekent dat voor het geld dat later op deze Address wordt gestort, beide handtekeningen (Alice en Bob) nodig zijn om uitgegeven te worden.
 
 
-![LNP201](assets/en/12.webp)
+![LNP201](assets/en/012.webp)
 
 
 
 - **Stortingstransactie**: Alice bereidt een Bitcoin transactie voor om geld te storten op deze Address met meerdere handtekeningen. Ze kan bijvoorbeeld besluiten om **130.000 satoshis** naar deze Address met meerdere handtekeningen te sturen. Deze transactie is **opgebouwd, maar nog niet gepubliceerd** op Blockchain.
 
 
-![LNP201](assets/en/13.webp)
+![LNP201](assets/en/013.webp)
 
 
 
 - **Opnametransactie**: Voordat Alice de stortingstransactie publiceert, construeert ze een opnametransactie, zodat ze haar geld kan terugkrijgen in geval van een probleem met Bob. Zodra Alice namelijk de stortingstransactie publiceert, wordt haar Sats geblokkeerd op een 2/2 Address met meerdere handtekeningen, die zowel haar handtekening als die van Bob nodig heeft om te worden gedeblokkeerd. Alice beschermt zich tegen dit verliesrisico door de opnametransactie zo te construeren dat ze haar geld kan terugkrijgen.
 
 
-![LNP201](assets/en/14.webp)
+![LNP201](assets/en/014.webp)
 
 
 
 - **Bob's handtekening**: Alice stuurt de stortingstransactie naar Bob als bewijs en vraagt hem de opnametransactie te ondertekenen. Zodra Bob's handtekening is verkregen op de opnametransactie, is Alice ervan verzekerd dat ze haar geld op elk moment kan terugkrijgen, omdat alleen haar eigen handtekening nog nodig is om de multihashandtekening te ontgrendelen.
 
 
-![LNP201](assets/en/15.webp)
+![LNP201](assets/en/015.webp)
 
 
 
 - **Publicatie van de depottransactie**: Zodra de handtekening van Bob is verkregen, kan Alice de depottransactie publiceren op Bitcoin Blockchain, waardoor het Lightning-kanaal tussen de twee gebruikers officieel wordt geopend.
 
 
-![LNP201](assets/en/16.webp)
+![LNP201](assets/en/016.webp)
 
 
 ### Wanneer is het kanaal open?
@@ -381,7 +400,7 @@ In dit hoofdstuk ontdekken we de technische werking van een transactie binnen ee
 Zoals eerder gezien, begint een Lightning-kanaal met een **opening** via een Bitcoin transactie. Het kanaal kan op elk moment **gesloten** worden, ook via een Bitcoin transactie. Tussen deze twee momenten kan een bijna oneindig aantal transacties worden uitgevoerd binnen het kanaal, zonder door de Bitcoin Blockchain te gaan. Laten we eens kijken wat er gebeurt tijdens een transactie in het kanaal.
 
 
-![LNP201](assets/en/17.webp)
+![LNP201](assets/en/017.webp)
 
 
 ### De initiële toestand van het kanaal
@@ -390,7 +409,7 @@ Zoals eerder gezien, begint een Lightning-kanaal met een **opening** via een Bit
 Op het moment dat het kanaal werd geopend, stortte Alice **130.000 satoshis** op de meerstemmige Address van het kanaal. In de begintoestand zijn alle fondsen dus aan de kant van Alice. Voordat Alice het kanaal opende, liet ze Bob ook een **opnametransactie** ondertekenen, waardoor ze haar fondsen kon terugkrijgen als ze het kanaal wilde sluiten.
 
 
-![LNP201](assets/en/18.webp)
+![LNP201](assets/en/018.webp)
 
 
 ### Ongepubliceerde transacties: De Commitment-transacties
@@ -408,7 +427,7 @@ Laten we een voorbeeld nemen waarbij Alice 30.000 satoshis naar Bob stuurt:
 
 Om deze overdracht te valideren, creëren Alice en Bob een nieuwe **niet-gepubliceerde Bitcoin-transactie** die **100.000 satoshi's naar Alice** en **30.000 satoshi's naar Bob** zou sturen vanuit de Address met meerdere handtekeningen. Beide partijen stellen deze transactie onafhankelijk op, maar met dezelfde gegevens (bedragen en adressen). Zodra de transactie is samengesteld, ondertekenen beide partijen deze en wisselen hun handtekening uit met de andere partij. Hierdoor kunnen beide partijen de transactie op elk moment publiceren als dat nodig is om hun aandeel in het kanaal op de hoofd Bitcoin Blockchain terug te krijgen.
 
-![LNP201](assets/en/19.webp)
+![LNP201](assets/en/019.webp)
 
 
 ### Overdrachtsproces: De Invoice
@@ -420,7 +439,7 @@ Wanneer Bob geld wil ontvangen, stuurt hij Alice een **_invoice_** voor 30.000 s
 Elke Commitment Transaction vertegenwoordigt de nieuwe verdeling van fondsen in het kanaal na de overdracht. In dit voorbeeld heeft Bob na de transactie 30.000 satoshi en Alice 100.000 satoshi. Als een van de twee deelnemers zou besluiten om deze Commitment Transaction te publiceren op Blockchain, zou dit resulteren in het sluiten van het kanaal en zouden de fondsen worden verdeeld volgens deze laatste verdeling.
 
 
-![LNP201](assets/en/20.webp)
+![LNP201](assets/en/020.webp)
 
 
 ### Nieuwe staat na een tweede transactie
@@ -434,7 +453,7 @@ Laten we een ander voorbeeld nemen: na de eerste transactie, waarbij Alice 30.00
 - **Bob** heeft **20.000 satoshis**.
 
 
-![LNP201](assets/en/21.webp)
+![LNP201](assets/en/021.webp)
 
 
 Ook deze transactie wordt niet gepubliceerd op de Blockchain, maar kan op elk moment worden gepubliceerd als het kanaal gesloten is.
@@ -478,7 +497,7 @@ Laten we een eenvoudig voorbeeld nemen:
   - Bob: **70.000 satoshis**
 
 
-![LNP201](assets/en/22.webp)
+![LNP201](assets/en/022.webp)
 
 
 Op elk moment kunnen beide partijen de **laatste Commitment Transaction** publiceren om het kanaal te sluiten en hun geld terug te krijgen.
@@ -490,13 +509,13 @@ Op elk moment kunnen beide partijen de **laatste Commitment Transaction** public
 Er kan een probleem ontstaan als een van de partijen besluit om **cheat** te spelen door een oude Commitment Transaction te publiceren. Alice zou bijvoorbeeld een oudere Commitment Transaction kunnen publiceren, waarin ze **100.000 satoshi's** had, terwijl ze nu in werkelijkheid slechts **60.000** heeft. Hierdoor zou ze **40.000 satoshis** kunnen stelen van Bob.
 
 
-![LNP201](assets/en/23.webp)
+![LNP201](assets/en/023.webp)
 
 
 Erger nog, Alice kan de allereerste opname-transactie publiceren, die voordat het kanaal werd geopend, waar ze **130.000 satoshis** had, en zo de fondsen van het hele kanaal stelen.
 
 
-![LNP201](assets/en/24.webp)
+![LNP201](assets/en/024.webp)
 
 
 ### Oplossing: Intrekkingsleutel en tijdslot
@@ -512,7 +531,7 @@ Om dit soort valsspelen door Alice te voorkomen, zijn op de Lightning Network **
 Dankzij deze 2 gecombineerde mechanismen heeft Bob de tijd om Alice's poging om vals te spelen te detecteren en haar te straffen door zijn output terug te halen met de revocatiesleutel, wat voor Bob betekent dat alle fondsen van het kanaal worden teruggehaald. Onze nieuwe Commitment Transaction ziet er nu zo uit:
 
 
-![LNP201](assets/en/25.webp)
+![LNP201](assets/en/025.webp)
 
 
 Laten we samen de werking van dit mechanisme in detail bekijken.
@@ -536,7 +555,7 @@ Laten we een voorbeeld nemen om dit proces goed te begrijpen:
 - **Oorspronkelijke staat**: Alice heeft **100.000 satos**, Bob **30.000 satos**.
 
 
-![LNP201](assets/en/26.webp)
+![LNP201](assets/en/026.webp)
 
 
 
@@ -547,14 +566,14 @@ Laten we een voorbeeld nemen om dit proces goed te begrijpen:
    - Deze uitwisselingen stellen Alice in staat om **40.000 satoshis** naar Bob op Lightning te sturen via hun kanaal, en de nieuwe Commitment transacties weerspiegelen nu deze nieuwe verdeling van fondsen.
 
 
-![LNP201](assets/en/27.webp)
+![LNP201](assets/en/027.webp)
 
 
 
 - Als Alice probeert het oude Commitment Transaction te publiceren, waar ze nog **100.000 satoshis** bezat, kan Bob, die de revocatiesleutel heeft verkregen, het geld onmiddellijk terughalen met deze sleutel, terwijl Alice wordt geblokkeerd door het tijdslot.
 
 
-![LNP201](assets/en/28.webp)
+![LNP201](assets/en/028.webp)
 
 
 Zelfs als Bob er in dit geval geen economisch belang bij heeft om te proberen vals te spelen, als hij dat toch doet, profiteert Alice ook van symmetrische bescherming die haar dezelfde garanties biedt.
@@ -590,7 +609,7 @@ In dit hoofdstuk bespreken we het sluiten van een **kanaal** op de Lightning Net
 De **levenscyclus van een kanaal** begint met het **openen** ervan, via een Bitcoin transactie, vervolgens worden er Lightning-transacties binnen gedaan, en ten slotte, wanneer de partijen hun geld willen terugvorderen, wordt het kanaal **gesloten** via een tweede Bitcoin transactie. De tussenliggende transacties op Lightning worden weergegeven door niet-gepubliceerde **Commitment transacties**.
 
 
-![LNP201](assets/en/29.webp)
+![LNP201](assets/en/029.webp)
 
 
 ### De drie soorten kanaalafsluiting
@@ -613,7 +632,7 @@ Laten we een voorbeeld nemen:
 - Deze verdeling wordt weerspiegeld in **2 Commitment transacties** (één per gebruiker) die niet gepubliceerd worden, maar dat wel zouden kunnen worden in het geval van kanaalafsluiting.
 
 
-![LNP201](assets/en/30.webp)
+![LNP201](assets/en/030.webp)
 
 
 ### Het goede: de coöperatieve sluiting
@@ -627,7 +646,7 @@ In een **coöperatieve sluiting** komen Alice en Bob overeen om het kanaal te sl
 - Bob gaat akkoord en de twee partijen verrichten geen verdere transacties in het kanaal.
 
 
-![LNP201](assets/en/31.webp)
+![LNP201](assets/en/031.webp)
 
 
 
@@ -638,7 +657,7 @@ In een **coöperatieve sluiting** komen Alice en Bob overeen om het kanaal te sl
 Als Alice bijvoorbeeld **100.000 satoshi's** bezit en Bob **30.000 satoshi's**, dan zal de sluitingstransactie **100.000 satoshi's** naar Address van Alice sturen en **30.000 satoshi's** naar Address van Bob, zonder tijdsbeperkingen. Zodra deze transactie door beide partijen is ondertekend, wordt ze gepubliceerd door Alice. Zodra de transactie is bevestigd op Bitcoin Blockchain, wordt het Lightning-kanaal officieel gesloten.
 
 
-![LNP201](assets/en/32.webp)
+![LNP201](assets/en/032.webp)
 
 
 De **coöperatieve sluiting** heeft de voorkeur omdat het snel is (geen tijdslot) en de transactiekosten worden aangepast aan de huidige Bitcoin marktomstandigheden. Zo wordt voorkomen dat er te weinig wordt betaald, waardoor de transactie in de mempools zou kunnen worden geblokkeerd, of dat er onnodig te veel wordt betaald, wat leidt tot onnodig financieel verlies voor de deelnemers.
@@ -652,13 +671,13 @@ Wanneer Alice's knooppunt een bericht stuurt naar Bob's met de vraag om een coö
 In dit geval zal Alice gewoon de laatste Commitment Transaction publiceren, die de toestand van het kanaal weergeeft op het moment dat de laatste Lightning-transactie plaatsvond met de correcte verdeling van fondsen.
 
 
-![LNP201](assets/en/33.webp)
+![LNP201](assets/en/033.webp)
 
 
 Deze transactie bevat een **timelock** voor Alice's fondsen, waardoor de afsluiting langzamer verloopt.
 
 
-![LNP201](assets/en/34.webp)
+![LNP201](assets/en/034.webp)
 
 
 Ook kunnen de vergoedingen van de Commitment Transaction ongeschikt zijn op het moment van afsluiten, omdat ze werden vastgesteld toen de transactie werd aangemaakt, soms enkele maanden daarvoor. Over het algemeen schatten Lightning klanten de vergoedingen te hoog in om toekomstige problemen te voorkomen, maar dit kan leiden tot te hoge vergoedingen of juist te lage.
@@ -673,13 +692,13 @@ Samengevat is **gedwongen afsluiting** een laatste redmiddel als de peer niet me
 Tenslotte treedt een afsluiting met **cheating** op wanneer een van de partijen probeert een oude Commitment Transaction te publiceren, vaak wanneer ze meer geld bezat dan zou moeten. Alice kan bijvoorbeeld een oude transactie publiceren waarin ze **120.000 satoshi** bezat, terwijl ze nu eigenlijk maar **100.000** bezit.
 
 
-![LNP201](assets/en/35.webp)
+![LNP201](assets/en/035.webp)
 
 
 Bob, om dit bedrog te voorkomen, controleert Bitcoin Blockchain en haar Mempool om er zeker van te zijn dat Alice geen oude transactie publiceert. Als Bob een poging tot valsspelen ontdekt, kan hij de **herroepingssleutel** gebruiken om de fondsen van Alice terug te krijgen en haar straffen door de volledige fondsen van het kanaal af te pakken. Omdat Alice geblokkeerd is door het tijdslot op haar uitgang, heeft Bob de tijd om het zonder tijdslot aan zijn kant uit te geven om het hele bedrag terug te krijgen op een Address die hij bezit.
 
 
-![LNP201](assets/en/36.webp)
+![LNP201](assets/en/036.webp)
 
 
 Het is duidelijk dat valsspelen kan slagen als Bob niet handelt binnen de tijd die wordt opgelegd door het tijdslot op Alice's uitvoer. In dat geval wordt de uitvoer van Alice ontgrendeld, zodat ze die kan consumeren om een nieuwe uitvoer te maken naar een Address die ze controleert.
@@ -735,7 +754,7 @@ Stel je dat bijvoorbeeld voor:
 - **Suzie** heeft een kanaal met **Bob** waarin zij **250.000 satoshis** bezit en Bob geen satoshis heeft.
 
 
-![LNP201](assets/en/37.webp)
+![LNP201](assets/en/037.webp)
 
 
 Als Alice geld wil sturen naar Bob zonder een direct kanaal met hem te openen, zal ze via Suzie moeten gaan, en elk kanaal zal de liquiditeit aan beide kanten moeten aanpassen. **De verzonden satoshis blijven binnen hun respectievelijke kanalen**; ze "kruisen" de kanalen niet echt, maar de overdracht wordt gemaakt via een aanpassing van de interne liquiditeit in elk kanaal.
@@ -749,7 +768,7 @@ Stel dat Alice **50.000 satoshis** naar Bob wil sturen:
 - **Suzie** repliceert deze overdracht door 50.000 satoshis te sturen naar **Bob** in hun kanaal.
 
 
-![LNP201](assets/en/38.webp)
+![LNP201](assets/en/038.webp)
 
 
 Zo wordt de betaling naar Bob geleid via een beweging van liquiditeit in elk kanaal. Aan het einde van de operatie heeft Alice 50.000 Sats. Ze heeft inderdaad 50.000 Sats overgedragen, aangezien ze aanvankelijk 100.000 had. Bob, aan zijn kant, eindigt met nog eens 50.000 Sats. Voor Suzie (het tussenliggende knooppunt) is deze operatie neutraal: aanvankelijk had ze 30.000 Sats in haar kanaal met Alice en 250.000 Sats in haar kanaal met Bob, een totaal van 280.000 Sats. Na de operatie heeft ze 80.000 Sats in haar kanaal met Alice en 200.000 Sats in haar kanaal met Bob, wat dezelfde som is als aan het begin.
@@ -770,7 +789,7 @@ Laten we een theoretisch voorbeeld nemen van een ander netwerk met:
 - **150.000 satoshis** aan de kant van **Carol** en **100.000 satoshis** aan de kant van **Bob**.
 
 
-![LNP201](assets/en/39.webp)
+![LNP201](assets/en/039.webp)
 
 
 Het maximum dat Alice kan sturen naar Bob in deze configuratie is **90.000 satos**, omdat ze beperkt is door de kleinste liquiditeit die beschikbaar is in het kanaal van **Suzie naar Carol**. In de tegenovergestelde richting (van Bob naar Alice) is geen betaling mogelijk, omdat **Suzie's** kant in het kanaal met **Alice** geen satoshis bevat. Daarom is er **geen route** bruikbaar voor een transfer in deze richting.
@@ -784,13 +803,13 @@ Alice stuurt **40.000 satoshis** naar Bob via de kanalen:
 - Carol maakt uiteindelijk 40.000 satoshis over naar Bob.
 
 
-![LNP201](assets/en/40.webp)
+![LNP201](assets/en/040.webp)
 
 
 De verzonden **satoshis** in elk kanaal **blijven in het kanaal**, dus de satoshis die Carol naar Bob stuurt zijn niet dezelfde als die Alice naar Suzie stuurt. De overdracht vindt alleen plaats door de liquiditeit in elk kanaal aan te passen. Bovendien blijft de totale capaciteit van de kanalen onveranderd.
 
 
-![LNP201](assets/en/41.webp)
+![LNP201](assets/en/041.webp)
 
 
 Net als in het vorige voorbeeld heeft het bronknooppunt (Alice) na de transactie 40.000 satoshi minder. De tussenliggende knooppunten (Suzie en Carol) behouden hetzelfde totale bedrag, waardoor de transactie voor hen neutraal is. Ten slotte ontvangt het bestemmingsknooppunt (Bob) nog eens 40.000 satoshi.
@@ -821,7 +840,7 @@ Bijvoorbeeld, voor een kanaal tussen Alice en Suzie, zouden we kunnen hebben:
 - **Suzie**: basisvergoeding van 0,5 sat en 10 ppm voor variabele vergoedingen.
 
 
-![LNP201](assets/en/42.webp)
+![LNP201](assets/en/042.webp)
 
 
 Om beter te begrijpen hoe vergoedingen werken, bestuderen we dezelfde Lightning Network als eerder, maar nu met de volgende routeringsvergoedingen:
@@ -832,7 +851,7 @@ Om beter te begrijpen hoe vergoedingen werken, bestuderen we dezelfde Lightning 
 - Kanaal **Suzie - Carol**: basisvergoeding van 0 Satoshi en 200 ppm voor Suzie.
 - Carol - **Bob** Kanaal: basistarief van 1 Satoshi en 1 ppm voor Suzie 2.
 
-![LNP201](assets/en/43.webp)
+![LNP201](assets/en/043.webp)
 
 
 Voor dezelfde betaling van **40.000 satos** aan Bob zal Alice iets meer moeten sturen, omdat elk tussenliggend knooppunt zijn kosten zal aftrekken:
@@ -857,13 +876,13 @@ $$ f_{Suzie-Carol} = 0 + \frac{200 \times 40001.04}{10^6} = 0 + 8.0002 \approx 8
 De totale kosten voor deze betaling op dit pad zijn daarom **9,04 satoshis**. Alice moet dus **40.009,04 satoshis** sturen om Bob precies **40.000 satoshis** te laten ontvangen.
 
 
-![LNP201](assets/en/44.webp)
+![LNP201](assets/en/044.webp)
 
 
 De liquiditeit is daarom bijgewerkt:
 
 
-![LNP201](assets/en/45.webp)
+![LNP201](assets/en/045.webp)
 
 
 ### Uienroutering
@@ -913,13 +932,13 @@ Het probleem dat zich voordoet bij het routeren van betalingen is daarom het noo
 Alice wil 40.000 Sats naar Bob sturen, maar ze heeft geen direct kanaal met hem en wil er ook geen openen. Ze zoekt een route en besluit via Suzie's node te gaan.
 
 
-![LNP201](assets/en/46.webp)
+![LNP201](assets/en/046.webp)
 
 
 Als Alice naïef 40.000 satoshis naar Suzie stuurt in de hoop dat Suzie dit bedrag zal overmaken naar Bob, kan Suzie het geld voor zichzelf houden en niets overmaken naar Bob.
 
 
-![LNP201](assets/en/47.webp)
+![LNP201](assets/en/047.webp)
 
 Om deze situatie te vermijden, gebruiken we op Lightning HTLC's (Hashed Time-Locked Contracts), die de betaling aan het tussenliggende knooppunt voorwaardelijk maken, wat betekent dat Suzie aan bepaalde voorwaarden moet voldoen om toegang te krijgen tot de fondsen van Alice en ze over te maken naar Bob.
 
@@ -938,7 +957,7 @@ Een HTLC is een speciale Contract gebaseerd op twee principes:
 Dit is hoe dit proces werkt in ons voorbeeld met Alice, Suzie en Bob:
 
 
-![LNP201](assets/en/48.webp)
+![LNP201](assets/en/048.webp)
 
 
 **Het geheim maken**: Bob genereert een willekeurig geheim genoteerd als _s_ (het voorbeeld), en berekent zijn Hash genoteerd als _r_ met de Hash functie genoteerd als _h_. We hebben:
@@ -952,13 +971,13 @@ $$
 Het gebruik van een Hash functie maakt het onmogelijk om _s_ te vinden met alleen _h(s)_, maar als _s_ gegeven wordt, is het eenvoudig om te controleren of het overeenkomt met _h(s)_.
 
 
-![LNP201](assets/en/49.webp)
+![LNP201](assets/en/049.webp)
 
 
 **Het betalingsverzoek verzenden**: Bob stuurt een **Invoice** naar Alice en vraagt om een betaling. Deze Invoice bevat met name de Hash _r_.
 
 
-![LNP201](assets/en/50.webp)
+![LNP201](assets/en/050.webp)
 
 
 **Stuurt de voorwaardelijke betaling**: Alice stuurt een HTLC van 40.000 satoshis naar Suzie. De voorwaarde voor Suzie om dit geld te ontvangen is dat ze Alice voorziet van een geheim _s'_ dat voldoet aan de volgende vergelijking:
@@ -969,7 +988,7 @@ h(s') = r
 $$
 
 
-![LNP201](assets/en/51.webp)
+![LNP201](assets/en/051.webp)
 
 
 **Het overdragen van de HTLC aan de uiteindelijke ontvanger**: Suzie moet, om de 40.000 satoshi's van Alice te verkrijgen, een soortgelijke HTLC van 40.000 satoshi's overdragen aan Bob, die dezelfde voorwaarde heeft, namelijk dat hij Suzie moet voorzien van een geheim _s'_ dat voldoet aan de vergelijking:
@@ -980,13 +999,13 @@ h(s') = r
 $$
 
 
-![LNP201](assets/en/52.webp)
+![LNP201](assets/en/052.webp)
 
 
 **Validatie door de geheime _s_**: Bob geeft _s_ aan Suzie om de 40.000 satoshis te ontvangen die beloofd zijn in de HTLC. Met dit geheim kan Suzie dan Alice's HTLC ontgrendelen en de 40.000 satoshis van Alice verkrijgen. De betaling wordt dan correct doorgestuurd naar Bob.
 
 
-![LNP201](assets/en/53.webp)
+![LNP201](assets/en/053.webp)
 
 Dit proces voorkomt dat Suzie het geld van Alice houdt zonder de overdracht naar Bob te voltooien, omdat ze de betaling naar Bob moet sturen om het geheime _s_ te verkrijgen en zo Alice's HTLC te ontgrendelen. De operatie blijft hetzelfde, zelfs als de route meerdere tussenliggende knooppunten bevat: het is gewoon een kwestie van Suzie's stappen te herhalen voor elk tussenliggend knooppunt. Elk knooppunt wordt beschermd door de voorwaarden van de HTLC's, omdat het ontgrendelen van de laatste HTLC door de ontvanger automatisch het ontgrendelen van alle andere HTLC's in een cascade activeert.
 
@@ -997,19 +1016,19 @@ Dit proces voorkomt dat Suzie het geld van Alice houdt zonder de overdracht naar
 Als tijdens het betalingsproces een van de tussenliggende knooppunten of het ontvangende knooppunt stopt met reageren, vooral in het geval van een internet- of stroomstoring, dan kan de betaling niet worden voltooid, omdat het geheim dat nodig is om de HTLC's te ontgrendelen niet wordt verzonden. In ons voorbeeld met Alice, Suzie en Bob treedt dit probleem bijvoorbeeld op als Bob het geheim _s_ niet naar Suzie verzendt. In dit geval worden alle HTLC's stroomopwaarts van het pad geblokkeerd, en de fondsen die ze beveiligen ook.
 
 
-![LNP201](assets/en/54.webp)
+![LNP201](assets/en/054.webp)
 
 
 Om dit te voorkomen hebben HTLC's op Lightning een vervaldatum die het mogelijk maakt om de HTLC te verwijderen als deze na een bepaalde tijd niet is voltooid. De expiratie volgt een specifieke volgorde, omdat het eerst begint bij de HTLC die het dichtst bij de ontvanger is, en dan geleidelijk oploopt naar de uitgever van de transactie. In ons voorbeeld, als Bob nooit het geheim _s_ aan Suzie geeft, zou dit eerst de HTLC van Suzie naar Bob laten verlopen.
 
 
-![LNP201](assets/en/55.webp)
+![LNP201](assets/en/055.webp)
 
 
 Dan de HTLC van Alice naar Suzie.
 
 
-![LNP201](assets/en/56.webp)
+![LNP201](assets/en/056.webp)
 
 
 Als de volgorde van verval omgekeerd zou zijn, zou Alice haar betaling kunnen terugvorderen voordat Suzie zichzelf zou kunnen beschermen tegen mogelijk bedrog. Inderdaad, als Bob terugkomt om zijn HTLC op te eisen terwijl Alice de hare al verwijderd heeft, zou Suzie in het nadeel zijn. Deze cascade volgorde van HTLC verval zorgt er dus voor dat geen enkel tussenliggend knooppunt oneerlijke verliezen lijdt.
@@ -1020,19 +1039,19 @@ Als de volgorde van verval omgekeerd zou zijn, zou Alice haar betaling kunnen te
 
 Commitment-transacties vertegenwoordigen HTLC's op zo'n manier dat de voorwaarden die ze opleggen aan Lightning overgedragen kunnen worden naar Bitcoin in het geval van een gedwongen kanaalsluiting tijdens de levensduur van een HTLC. Ter herinnering, Commitment transacties vertegenwoordigen de huidige toestand van het kanaal tussen de twee gebruikers en maken een eenzijdige gedwongen sluiting mogelijk in geval van problemen. Bij elke nieuwe toestand van het kanaal worden 2 Commitment transacties aangemaakt: één voor elke partij. Laten we ons voorbeeld met Alice, Suzie en Bob nog eens bekijken, maar dan wat er gebeurt op kanaalniveau tussen Alice en Suzie als HTLC wordt aangemaakt.
 
-![LNP201](assets/en/57.webp)
+![LNP201](assets/en/057.webp)
 
 
 Voor het begin van de 40.000 Sats betaling tussen Alice en Bob, heeft Alice 100.000 Sats in haar kanaal met Suzie, terwijl Suzie er 30.000 heeft. Hun Commitment transacties zijn als volgt:
 
 
-![LNP201](assets/en/58.webp)
+![LNP201](assets/en/058.webp)
 
 
 Alice heeft zojuist Bob's Invoice ontvangen, die met name _r_ bevat, de Hash van het geheim. Ze kan dus een HTLC van 40.000 satoshis met Suzie construeren. Deze HTLC wordt weergegeven in de laatste Commitment transacties als een output genaamd "**_HTLC Out_**" aan Alice's kant, aangezien de fondsen uitgaand zijn, en "**_HTLC In_**" aan Suzie's kant, aangezien de fondsen inkomend zijn.
 
 
-![LNP201](assets/en/59.webp)
+![LNP201](assets/en/059.webp)
 
 
 Deze uitgangen van de HTLC hebben precies dezelfde voorwaarden, namelijk:
@@ -1050,7 +1069,7 @@ Bovendien, als het kanaal gesloten wordt terwijl er meerdere HTLC's in behandeli
 
 Als het kanaal niet gesloten is, dan worden na het verlopen of slagen van de Lightning-betaling nieuwe Commitment transacties aangemaakt om de nieuwe, nu stabiele, toestand van het kanaal weer te geven, dat wil zeggen, zonder lopende HTLC's. De uitgangen met betrekking tot de HTLC's kunnen daarom worden verwijderd uit de Commitment transacties.
 
-![LNP201](assets/en/60.webp)
+![LNP201](assets/en/060.webp)
 
 
 Tenslotte, in het geval van een coöperatieve kanaalsluiting terwijl een HTLC actief is, stoppen Alice en Suzie met het accepteren van nieuwe betalingen en wachten ze op de resolutie of afloop van de lopende HTLCs. Dit stelt hen in staat om een lichtere sluitingstransactie te publiceren, zonder de outputs gerelateerd aan de HTLC's, waardoor de kosten worden verlaagd en het wachten op een mogelijke tijdslot wordt vermeden.
@@ -1089,11 +1108,11 @@ In de vorige hoofdstukken hebben we gezien hoe je kanalen van andere knooppunten
 Zoals we hebben gezien, is het in Lightning het knooppunt dat de betaling verstuurt dat de volledige route naar de ontvanger moet berekenen, omdat we een "onion routing" systeem gebruiken. De tussenliggende knooppunten kennen noch het punt van herkomst noch de eindbestemming. Ze weten alleen waar de betaling vandaan komt en naar welk knooppunt ze het vervolgens moeten sturen. Dit betekent dat het verzendende knooppunt een dynamische lokale topologie van het netwerk moet bijhouden, met de bestaande Lightning-knooppunten en de kanalen tussen elk, rekening houdend met openingen, sluitingen en statusupdates.
 
 
-![LNP201](assets/en/61.webp)
+![LNP201](assets/en/061.webp)
 
 Zelfs met deze topologie van de Lightning Network is er essentiële informatie voor de routering die ontoegankelijk blijft voor het verzendende knooppunt, namelijk de exacte verdeling van de liquiditeit in de kanalen op elk gegeven moment. Elk kanaal toont namelijk alleen zijn **totale capaciteit**, maar de interne verdeling van de fondsen is alleen bekend bij de twee deelnemende knooppunten. Dit vormt een uitdaging voor efficiënte routering, aangezien het succes van de betaling met name afhangt van het feit of het bedrag lager is dan de laagste liquiditeit op de gekozen route. De liquiditeiten zijn echter niet allemaal zichtbaar voor het verzendende knooppunt.
 
-![LNP201](assets/en/62.webp)
+![LNP201](assets/en/062.webp)
 
 
 ### Netwerkkaart bijwerken
@@ -1119,7 +1138,7 @@ Lightning nodes monitoren ook de Bitcoin Blockchain om kanaalsluitende transacti
 Laten we een voorbeeld nemen van een kleine Lightning Network met 7 knooppunten: Alice, Bob, 1, 2, 3, 4 en 5. Stel dat Alice een betaling wil sturen naar Bob, maar via tussenliggende knooppunten moet gaan.
 
 
-![LNP201](assets/en/63.webp)
+![LNP201](assets/en/063.webp)
 
 
 Hier is de werkelijke verdeling van fondsen in deze kanalen:
@@ -1136,13 +1155,13 @@ Hier is de werkelijke verdeling van fondsen in deze kanalen:
 - Kanaal tussen 5 en **Bob**: 260.000 Sats aan kant 5, 100.000 aan kant Bob (totale capaciteit van 360.000 Sats).
 
 
-![LNP201](assets/en/64.webp)
+![LNP201](assets/en/064.webp)
 
 
 Om een betaling van 100.000 Sats te doen van Alice naar Bob, worden de routingopties beperkt door de beschikbare liquiditeit in elk kanaal. De optimale route voor Alice, gebaseerd op de bekende liquiditeitsverdelingen, zou de reeks `Alice → 1 → 2 → 4 → 5 → Bob` kunnen zijn:
 
 
-![LNP201](assets/en/65.webp)
+![LNP201](assets/en/065.webp)
 
 
 Maar omdat Alice de exacte verdeling van fondsen in elk kanaal niet kent, moet ze de optimale route waarschijnlijk schatten, rekening houdend met de volgende criteria:
@@ -1170,13 +1189,13 @@ Door deze criteria te analyseren, kan het verzendende knooppunt de meest waarsch
 Alice besluit haar eerste route te testen (`Alice → 1 → 2 → 5 → Bob`). Ze stuurt daarom een HTLC van 100.000 Sats naar knooppunt 1. Dit knooppunt controleert of het voldoende liquiditeit heeft bij knooppunt 2 en zet de transmissie voort. Dit knooppunt controleert of het voldoende liquiditeit heeft bij knooppunt 2 en gaat verder met de verzending. Knooppunt 2 ontvangt vervolgens de HTLC van knooppunt 1, maar realiseert zich dat het niet genoeg liquiditeit in zijn kanaal met knooppunt 5 heeft om een betaling van 100.000 Sats door te sturen. Het stuurt dan een foutbericht terug naar knooppunt 1, die het doorstuurt naar Alice. Deze route is mislukt.
 
 
-![LNP201](assets/en/66.webp)
+![LNP201](assets/en/066.webp)
 
 
 Alice probeert dan haar betaling te routeren via haar tweede route (`Alice → 1 → 2 → 4 → 5 → Bob`). Ze stuurt een HTLC van 100.000 Sats naar knooppunt 1, die het doorzendt naar knooppunt 2, vervolgens naar knooppunt 4, naar knooppunt 5 en tenslotte naar Bob. Dit keer is er voldoende liquiditeit en de route is goed. Deze keer is de liquiditeit voldoende en is de route functioneel. Elk knooppunt ontgrendelt zijn HTLC in cascade met behulp van het preimage van Bob (het geheim _s_), waardoor de betaling van Alice aan Bob succesvol kan worden afgerond.
 
 
-![LNP201](assets/en/67.webp)
+![LNP201](assets/en/067.webp)
 
 
 Het zoeken naar een route verloopt als volgt: het verzendende knooppunt begint met het identificeren van de best mogelijke routes en probeert vervolgens achtereenvolgens betalingen totdat een functionele route is gevonden.
@@ -1214,7 +1233,7 @@ In het volgende hoofdstuk zullen we specifiek de werking van facturen bestuderen
 In dit hoofdstuk gaan we dieper in op de werking van Lightning **facturen**, dat wil zeggen betalingsverzoeken die door het ontvangende knooppunt naar het verzendende knooppunt worden gestuurd. Het doel is om te begrijpen hoe je betalingen kunt uitvoeren en ontvangen op Lightning. We bespreken ook 2 alternatieven voor klassieke facturen: LNURL en Keysend.
 
 
-![LNP201](assets/en/68.webp)
+![LNP201](assets/en/068.webp)
 
 
 ### De structuur van Lightning-facturen
@@ -1334,7 +1353,7 @@ Bij een traditionele transactie, zoals een aankoop in een winkel, wordt de Invoi
 Voor bepaalde situaties, zoals het opnemen van bitcoins van een online dienst, is het traditionele proces te omslachtig. In zulke gevallen vereenvoudigt de **LNURL** opnameoplossing dit proces door een QR-code weer te geven die de Wallet van de ontvanger scant om automatisch de Invoice aan te maken. De dienst betaalt vervolgens de Invoice, en de gebruiker ziet gewoon een onmiddellijke opname.
 
 
-![LNP201](assets/en/69.webp)
+![LNP201](assets/en/069.webp)
 
 
 LNURL is een communicatieprotocol dat een reeks functionaliteiten specificeert die ontworpen zijn om interacties tussen Lightning nodes en clients en toepassingen van derden te vereenvoudigen. De LNURL terugtrekking, zoals we zojuist hebben gezien, is dus slechts een voorbeeld onder andere functionaliteiten.
@@ -1353,7 +1372,7 @@ Een ander interessant geval is het overmaken van geld zonder vooraf een Invoice 
 Eenvoudigheidshalve is het in dit protocol de verzender die het geheim genereert dat in de HTLC's wordt gebruikt, in plaats van de ontvanger. In de praktijk kan de verzender hierdoor een betaling doen zonder eerst contact te hebben gehad met de ontvanger.
 
 
-![LNP201](assets/en/70.webp)
+![LNP201](assets/en/070.webp)
 
 
 **Wat moet je meenemen uit dit hoofdstuk?**
@@ -1398,7 +1417,7 @@ Deze profielen liggen natuurlijk niet vast; een gebruiker kan wisselen tussen be
 Om het beter te begrijpen, nemen we het voorbeeld van een eenvoudig netwerk dat bestaat uit drie knooppunten: de koper (Alice), de router (Suzie) en de verkoper (Bob).
 
 
-![LNP201](assets/en/71.webp)
+![LNP201](assets/en/071.webp)
 
 
 Stel dat de koper 30.000 Sats naar de verkoper wil sturen en dat de betaling via het knooppunt van de router gaat. Elke partij moet dan een minimale hoeveelheid liquiditeit hebben in de richting van de betaling:
@@ -1410,7 +1429,7 @@ Stel dat de koper 30.000 Sats naar de verkoper wil sturen en dat de betaling via
 - De router moet 30.000 satoshis hebben aan de kant van de betaler in zijn kanaal, en ook 30.000 satoshis aan zijn kant in het kanaal met de verkoper, om de betaling te kunnen routeren.
 
 
-![LNP201](assets/en/72.webp)
+![LNP201](assets/en/072.webp)
 
 
 ### Strategieën voor liquiditeitsbeheer
@@ -1433,14 +1452,14 @@ Aan de andere kant is de taak voor de verkoper complexer. Om betalingen te kunne
 - **Driehoeksopening**: Er bestaan platformen voor knooppunten die samen kanalen willen openen, zodat elk kan profiteren van onmiddellijke inkomende en uitgaande liquiditeit. Bijvoorbeeld, [LightningNetwork+](https://lightningnetwork.plus/) biedt deze service. Als Alice, Bob en Suzie een kanaal willen openen met 100.000 Sats, kunnen ze op dit platform afspreken dat Alice een kanaal opent naar Bob, Bob naar Suzie en Suzie naar Alice. Op deze manier heeft ieder 100.000 Sats aan uitgaande liquiditeit en 100.000 Sats aan inkomende liquiditeit, terwijl ze slechts 100.000 Sats hebben opgesloten.
 
 
-![LNP201](assets/en/73.webp)
+![LNP201](assets/en/073.webp)
 
 
 
 - **Kanalen kopen**: Er bestaan ook diensten voor het huren van Lightning-kanalen om inkomende liquiditeit te verkrijgen, zoals [Bitrefill Thor](https://www.bitrefill.com/thor-lightning-network-channels/) of [Lightning Labs Pool](https://lightning.engineering/pool/). Alice kan bijvoorbeeld een kanaal van een miljoen satoshis naar haar node kopen om betalingen te ontvangen.
 
 
-![LNP201](assets/en/74.webp)
+![LNP201](assets/en/074.webp)
 
 
 Tot slot moeten routers, die als doel hebben het aantal verwerkte betalingen en de geïnde vergoedingen te maximaliseren:
@@ -1457,7 +1476,7 @@ Tot slot moeten routers, die als doel hebben het aantal verwerkte betalingen en 
 De [Loop Out](https://lightning.engineering/loop/) dienst, aangeboden door Lightning Labs, maakt het mogelijk om liquiditeit te verplaatsen naar de andere kant van het kanaal, terwijl de fondsen op de Bitcoin Blockchain worden teruggevorderd. Alice stuurt bijvoorbeeld 1 miljoen satoshi via Lightning naar een loop-node, die haar dat geld teruggeeft in On-Chain bitcoins. Dit brengt haar kanaal in balans met 1 miljoen satos aan elke kant, waardoor haar capaciteit om betalingen te ontvangen wordt geoptimaliseerd.
 
 
-![LNP201](assets/en/75.webp)
+![LNP201](assets/en/075.webp)
 
 
 Daarom maakt deze service inkomende liquiditeit mogelijk terwijl men zijn bitcoins On-Chain terugvordert, wat helpt om de immobilisatie van contant geld te beperken die nodig is om betalingen met Lightning te accepteren.
@@ -1507,16 +1526,16 @@ In de eerste hoofdstukken hebben we onderzocht hoe twee partijen, door het opene
 - **Kanaal openen**: Het aanmaken van het kanaal gebeurt via een Bitcoin transactie die de fondsen vergrendelt in een 2/2 Address met meerdere handtekeningen. Deze storting vertegenwoordigt het Lightning-kanaal op de Blockchain.
 
 
-![LNP201](assets/en/76.webp) 2. **Transactions in the Channel**: In this channel, it is then possible to carry out numerous transactions without having to publish them on the blockchain. Each Lightning transaction creates a new state of the channel reflected in a commitment transaction.
+![LNP201](assets/en/076.webp) 2. **Transactions in the Channel**: In this channel, it is then possible to carry out numerous transactions without having to publish them on the blockchain. Each Lightning transaction creates a new state of the channel reflected in a commitment transaction.
 
-![LNP201](assets/en/77.webp)
+![LNP201](assets/en/077.webp)
 
 
 
 - **Beveiligen en afsluiten**: Deelnemers committeren zich aan de nieuwe toestand van het kanaal door revocatiesleutels uit te wisselen om de fondsen te beveiligen en valsspelen te voorkomen. Beide partijen kunnen het kanaal gezamenlijk sluiten door een nieuwe transactie op de Bitcoin Blockchain, of als laatste redmiddel door een gedwongen sluiting. Deze laatste optie, hoewel minder efficiënt omdat het langer duurt en soms slecht geëvalueerd is in termen van vergoedingen, maakt het nog steeds mogelijk om fondsen terug te krijgen. In geval van valsspelen kan het slachtoffer de valsspeler straffen door alle fondsen van het kanaal op de Blockchain terug te vorderen.
 
 
-![LNP201](assets/en/78.webp)
+![LNP201](assets/en/078.webp)
 
 
 ### Het netwerk van kanalen
@@ -1529,21 +1548,21 @@ Na het bestuderen van geïsoleerde kanalen hebben we onze analyse uitgebreid naa
 - **Routing**: Als twee partijen niet rechtstreeks met elkaar verbonden zijn via een kanaal, kan het netwerk routeren via tussenliggende knooppunten. Betalingen gaan dan van het ene knooppunt naar het andere.
 
 
-![LNP201](assets/en/79.webp)
+![LNP201](assets/en/079.webp)
 
 
 
 - **HTLC's**: Betalingen die via tussenliggende knooppunten lopen, worden beveiligd door "_Hash Time-Locked Contracts_" (HTLC), die ervoor zorgen dat de fondsen worden vergrendeld totdat de betaling end-to-end is voltooid.
 
 
-![LNP201](assets/en/80.webp)
+![LNP201](assets/en/080.webp)
 
 
 
 - **Uienroutering**: Om de vertrouwelijkheid van de betaling te garanderen, verbergt onion routing de eindbestemming voor tussenliggende knooppunten. Het verzendende knooppunt moet daarom de volledige route berekenen, maar omdat het geen volledige informatie heeft over de liquiditeit van de kanalen, doorloopt het opeenvolgende pogingen om de betaling te routeren.
 
 
-![LNP201](assets/en/81.webp)
+![LNP201](assets/en/081.webp)
 
 
 ### Liquiditeitsbeheer
@@ -1560,19 +1579,19 @@ We hebben gezien dat liquiditeitsbeheer een uitdaging is voor Lightning om een s
 - **Liquiditeit verplaatsen**: Door betalingen naar andere kanalen te sturen, verschuift liquiditeit naar de andere kant.
 
 
-![LNP201](assets/en/82.webp)
+![LNP201](assets/en/082.webp)
 
 
 
 - Diensten zoals **Loop en Pool** gebruiken: Deze diensten maken herbalancering of het kopen van kanalen met liquiditeit aan de andere kant mogelijk.
 
-![LNP201](assets/en/83.webp)
+![LNP201](assets/en/083.webp)
 
 
 - **Gezamenlijke openingen**: Er zijn ook platforms beschikbaar voor het verbinden om driehoeksopeningen uit te voeren en om inkomende liquiditeit te hebben.
 
 
-![LNP201](assets/en/84.webp)
+![LNP201](assets/en/084.webp)
 
 
 # Laatste Sectie

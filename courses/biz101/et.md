@@ -1,22 +1,19 @@
 ---
 name: Bitcoin ettevõtetele
 goal: Õppige makse- ja riigikassa põhitõdesid, et võtta oma ettevõte bitcoini kasutusele
-objectives: 
-
-  - Bitcoin kui arenev valuuta ja ärivahend
-  - Mõista, miks ja kuidas ettevõte saab bitcoini hoida riigikassas või kasutada seda maksete tegemiseks
-  - Kas teil on konkreetne idee, kuidas bitcoini makseid praktikas vastu võtta?
-  - Olge valmis eelarve- ja raamatupidamisnõuete haldamiseks
-
+objectives:
+- Avastage Bitcoin kui tekkiv valuuta ja ärivahend
+- Mõistke, miks ja kuidas saab ettevõte hoida bitcoini kassas või kasutada seda maksete tegemiseks
+- Omage konkreetset ettekujutust, kuidas praktikas Bitcoini makseid vastu võtta
+- Olge valmis haldama maksu- ja raamatupidamisnõudeid
 ---
-# Alusta oma ettevõtte teekonda bitcoini võrgus
+# Alusta oma ettevõtte teekonda Bitcoin võrgustikus
 
-Avastage Bitcoini ja Lightning Networki praktilised võimalused ning uurige, kuidas need võivad sarnaselt internetiga **muutada teie äritegevust**. Alates digitaalsest kapitalist kuni kiirete, ökonoomsete ja skaleeritavate makseteni, pakub Bitcoin ettevõtjatele **kasutamisvõimalusi**.
+Avaста Bitcoini ja Lightning Network'i praktilised võimalused ning uuri, kuidas need võivad, sarnaselt internetiga, muuta teie ärioperatsioone. Alates kassast kuni kiire, ökonoomse ja skaleeritava makseteni pakub Bitcoin ettevõtetele laia valikut kasutusjuhtumeid.
 
-Selle juhendi kaudu saate teada, kuidas mõista Bitcoini kui globaalset, universaalset ja internetipõhist rahavõrku. Tänu oma ainulaadsetele põhiomadustele pakub **Bitcoin märkimisväärseid täiustusi võrreldes traditsiooniliste valuutavõrkudega**. Saate teada, miks ja kuidas kasutada Bitcoini klassikaliste finantskasutuse juhtumite, näiteks kapitali säilitamise ja maksesüsteemide puhul. Lisaks käsitletakse selles juhendis Bitcoini omandamist ja hoidmist, sealhulgas sellega seotud raamatupidamis- ja maksunõudeid, ning lihtsate või suuremahuliste Bitcoini makselahenduste rakendamist.
+Selle kursuse jooksul õpid mõistma Bitcoini kui globaalset, universaalset ja internetipõhist rahavõrgustikku. Oma ainulaadsete põhiomaduste poolest pakub Bitcoin märkimisväärseid parandusi võrreldes traditsiooniliste valuutadega. Avastada, miks ja kuidas kasutada Bitcoini klassikaliste finantsjuhtumite jaoks, nagu kapitali säilitamine ja maksesüsteemid. Lisaks käsitleb see kursus Bitcoini omandamist ja hoidmist, sealhulgas seotud raamatupidamis- ja fiskaalsenõudeid, samuti lihtsate või suure mahuga Bitcoin maksete lahenduste rakendamist.
 
-Olenemata sellest, kas olete **väikeettevõte või suurkorporatsioon**, võib Bitcoini integreerimine teie igapäevatöösse muuta teie ettevõtte **vastupidavamaks, tootlikumaks ja konkurentsivõimelisemaks**. Iga internetipõhine ettevõte muutub Bitcoinile orienteeritud ettevõtteks ja see kursus tagab, et olete selleks valmis. Esimesed lõigud kordavad Bitcoini toimimise põhialuseid, nii et isegi kui olete algaja, saate edasiminekuks vajalikud põhiteadmised. Satoshi leiutise põhitõdede õppimine on alati hea mõte, kas enne või pärast BIZ101-i sukeldumist.
-
+Olenemata sellest, kas olete väike ettevõte või suur korporatsioon, võib Bitcoini integreerimine teie igapäevastesse operatsioonidesse muuta teie ettevõtte vastupidavamaks, produktiivsemaks ja konkurentsivõimelisemaks. Iga internetipõhine ettevõte muutub Bitcoin-orienteeritud ettevõtteks ja see kursus tagab, et olete valmis.
 +++
 # Sissejuhatus
 

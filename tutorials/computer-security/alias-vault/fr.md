@@ -1,5 +1,5 @@
 ---
-name: Voûte alias
+name: Alias Vault
 description: Outil puissant pour gérer les mots de passe, l'authentification à deux facteurs et les alias (avec serveur de messagerie intégré) - Egalement auto-hébergé !
 ---
 

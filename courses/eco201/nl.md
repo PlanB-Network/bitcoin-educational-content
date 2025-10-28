@@ -96,7 +96,7 @@ Wanneer een financiële instelling een banklicentie heeft, betekent dit in wezen
 Bij de aankoop van het huis geef je je bankier de opdracht om geld over te maken naar de rekening van de verkoper. Als de rekening van de verkoper bij een andere bank is, informeert je bankier de overeenkomstige bankier bij de andere instelling om ervoor te zorgen dat de rekening van de verkoper dienovereenkomstig wordt gecrediteerd, terwijl jouw rekening met het overeenkomstige bedrag wordt gedebiteerd.
 
 
-![image](assets/en/01.webp)
+![image](assets/nl/001.webp)
 
 
 Figuur 1: Geldschepping als boekingen
@@ -123,7 +123,7 @@ Uit dit raadsel ontstonden de moderne centrale banken. In de 19e eeuw bedreigden
 Naast het handhaven van financiële stabiliteit zijn centrale banken verantwoordelijk voor het vaststellen van de belangrijkste beleidstarieven. Deze tarieven bepalen de kosten waartegen banken met een vergunning geld kunnen lenen van de centrale bank, en bepalen in wezen de kosten van liquiditeit voor de financiële instellingen die een cruciale rol spelen in de kredietverlening in onze economieën. Daarom dienen deze tarieven als benchmark voor het hele financiële systeem. Als individu kan de rente die je betaalt op je hypotheek worden opgesplitst in de beleidsrente en de marge van de bank.
 
 
-![image](assets/en/02.webp)
+![image](assets/nl/002.webp)
 
 
 Figuur2: Faillissement Lehman Brothers (15/09/2008)
@@ -135,7 +135,7 @@ Tijdens de grote financiële crisis van 2008 verklaarde Lehman Brothers, een gro
 Deze maatregelen voorkwamen een golf van faillissementen, maar brachten weinig verlichting in de daaropvolgende economische vertraging. Miljoenen verloren hun baan en huis, de consumentenbestedingen kelderden, bedrijven gingen failliet en banken leden grote verliezen. Ondanks de historisch lage rente waren maar weinigen bereid om te lenen, wat resulteerde in een vicieuze cirkel waarbij de aanvankelijke daling in bestedingen en investeringen zichzelf versterkte. Centrale bankiers namen daarom verdere stappen door Quantitative Easing (QE) programma's te implementeren. Deze programma's hielden in dat centrale banken staatsobligaties en door hypotheek gedekte waardepapieren opkochten van commerciële banken met reserves van de centrale bank.
 
 
-![image](assets/en/03.webp)
+![image](assets/nl/003.webp)
 
 
 Figuur3 : Rentevoeten in de belangrijkste economieën / Bron: ECB
@@ -150,7 +150,7 @@ In tegenstelling tot wat velen verwachtten, hebben de QE-programma's de economis
 Niettemin kan uit deze episode een essentieel economisch principe worden afgeleid: wanneer nieuw geld wordt gecreëerd, komt dit in eerste instantie ten goede aan degenen die het dichtst bij de bron van het geld staan, ten koste van degenen die verder weg staan. Dit economische inzicht dateert al uit de 18e eeuw, toen Richard Cantillon het beschreef in zijn "Essay on the Nature of Commerce in General" Het wordt nu in de volksmond het "Cantillon-effect" genoemd.
 
 
-![image](assets/en/04.webp)
+![image](assets/nl/004.webp)
 
 
 Figuur 4: Cantillon-effect in een notendop / Bron: River Financial
@@ -162,7 +162,7 @@ In dit geval ontvingen bankiers, bankdirecteuren, aandelen- en obligatiebezitter
 In wezen is het systeem scheef. Banken zijn inherent instabiel, maar toch kan hun falen de hele economie in gevaar brengen. Dit moreel risico stimuleert bankdirecteuren om buitensporige risico's te nemen om de inkomsten van hun bank te maximaliseren, wetende dat de centrale bank hen uiteindelijk zal redden en de kosten zal doorschuiven naar de belastingbetaler. In dergelijke scenario's creëren centrale bankiers de voorwaarden voor een massale overdracht van koopkracht van hardwerkende individuen en spaarders naar vermogensbezitters en degenen die verbonden zijn aan het financiële systeem, waardoor het proces van welvaartscreatie wordt losgekoppeld van welvaartsaccumulatie.
 
 
-![image](assets/en/05.webp)
+![image](assets/nl/005.webp)
 
 
 Figuur5: Vermogensverdeling in China + Europa + de VS / Bron: OESO
@@ -177,7 +177,7 @@ Tijdens lange periodes van een nulrentebeleid (ZIRP) hebben banken beperkte moge
 Een ander onbedoeld gevolg van ZIRP is dat het overheden aanmoedigt om veel uit te geven. Omdat overheden geen financieringskosten hebben en kunnen vertrouwen op centrale banken om hun obligaties op te kopen door middel van QE-programma's, hebben ze een natuurlijke prikkel om zoveel mogelijk uit te geven, vooral in democratische contexten waar uitgaven stemmen kunnen opleveren. Deze neiging gaat vaak voorbij aan de langetermijngevolgen van dergelijke budgettaire spilzucht, wat heeft geleid tot een aanzienlijke stijging van de overheidsschuld in de ontwikkelde economieën sinds de wereldwijde financiële crisis.
 
 
-![image](assets/en/06.webp)
+![image](assets/nl/006.webp)
 
 
 Figuur 6: Publieke en private schuld als % van het BBP (wereldwijd, gewogen naar BBP per land) / Bron IMF
@@ -234,7 +234,7 @@ Dergelijke vragen houden economen en filosofen al vele eeuwen bezig en hebben ta
 Nadat de landwaardetheorie van de fysiocraten, die stelden dat alle waarde afkomstig was van land, was weerlegd door de arbeidstheorie van de klassieke economen, die stelden dat de waarde van een goed voortkomt uit de hoeveelheid arbeid die in de productie ervan gaat zitten, was het de beurt aan de marginale waardetheorie om deze laatste te verdringen. Na Marx, de laatste van de klassieke economen, ontstonden in de jaren 1870 bijna gelijktijdig drie nieuwe economische stromingen rond een marginale waardetheorie: de school van Lausanne met Léon Walras, de moderne of neoklassieke school met William Stanley Jevons en de Oostenrijkse school met Carl Menger. Deze revolutie in de waardetheorie betekende een belangrijke vernieuwing in het economische denken.
 
 
-![image](assets/en/07.webp)
+![image](assets/nl/007.webp)
 
 
 Van links naar rechts: William Stanley Jevons, Carl Menger, Léon Walras
@@ -249,7 +249,7 @@ Het is gebruikelijk om het marginalisme van deze drie scholen als vergelijkbaar 
 ### Subjectieve waarde
 
 
-![image](assets/en/08.webp)
+![image](assets/nl/008.webp)
 
 
 De Oostenrijkse econoom verwerpt de opvatting van de opvolgers van Adam Smith en verlaat het idee dat de waarde van een goed voortkomt uit de hoeveelheid arbeid die in de productie ervan is gebruikt, ten gunste van de opvatting dat de waarde ervan wordt bepaald door het individu, dat in elke context een mentale waarderingshandeling verricht met betrekking tot een specifieke hoeveelheid van een goed of dienst. Deze intellectuele sprong van Menger stelt de objectiviteit van waarde ter discussie: voor hem is waarde geen objectieve eigenschap van goederen; het is slechts het resultaat van de relatie die het individu heeft met dat ding: "waarde bestaat niet buiten het menselijk bewustzijn."
@@ -285,7 +285,7 @@ Deze subjectieve opvatting van waarde, opgevat als een psychologische relatie di
 ### De arbeidsverdeling
 
 
-![image](assets/en/09.webp)
+![image](assets/nl/009.webp)
 
 
 Bezoek aan een nagelfabriek, Léonard Defrance (18e eeuw)
@@ -380,7 +380,7 @@ Dit spel illustreert een probleem dat vaak voorkomt in het echte leven: bij gebr
 ### Geld om coördinatieproblemen op te lossen
 
 
-![image](assets/en/10.webp)
+![image](assets/nl/010.webp)
 
 
 Dit probleem heeft minder impact in kleine gemeenschappen (bijv. familie, vriendenkringen) omdat in zulke gevallen iedereen elkaar direct kent, waardoor het mogelijk is om elkaars bijdragen te onthouden. Ervan uitgaande dat het verlaten van de gemeenschap (desertie) kosten met zich meebrengt, is een reputatiesysteem gebaseerd op het geheugen van individuele agenten meestal voldoende om de valkuilen van het prisoner's dilemma te vermijden.
@@ -410,7 +410,7 @@ In de tijd vóór de beschaving bestonden deze technologieën niet. Onze vooroud
 ### Dubbele coïncidentie van wensen en verkoopbaarheid
 
 
-![image](assets/en/11.webp)
+![image](assets/nl/011.webp)
 
 
 Geld kan gezien worden als de oplossing die onze voorouders ontdekten voor Address wat economen het probleem van de "dubbele samenloop van behoeften" noemen. Dit probleem heeft drie dimensies: ruimtelijk, temporeel en interpersoonlijk.
@@ -479,7 +479,7 @@ Deze subjectieve evaluatie van de waarde van toekomstige goederen in vergelijkin
 Dit concept van relatieve waardering van toekomstige goederen ten opzichte van huidige goederen ligt aan de basis van het fenomeen rente. In een economie met ongemanipuleerde kapitaalmarkten worden referentierentevoeten (die worden beschouwd als risicovrij van wanbetaling) immers bepaald op het snijpunt van kapitaal Supply en vraag. Daarom vertegenwoordigen deze rentetarieven de tijdsvoorkeuren voor de hele economie: een stijging van de rentevoet resulteert in een relatieve stijging van de vraag naar kapitaal ten opzichte van Supply, wat duidt op hogere tijdsvoorkeuren. Omgekeerd is een daling van de rentetarieven het gevolg van een stijging van de besparingen, wat een stijging is van de Supply van kapitaal, wat wijst op een daling van de tijdsvoorkeuren.
 
 
-![image](assets/en/12.webp)
+![image](assets/nl/012.webp)
 
 
 In een economie waar de rentetarieven niet gemanipuleerd worden door de centrale bank, zien we meestal een stijgende rentecurve: hoe langer de looptijd van de schuld, hoe hoger de rente. De omgekeerde situatie kan zich niet voordoen omdat dit zou betekenen dat de toekomst zekerder is dan het heden, wat een logische onmogelijkheid is.
@@ -491,7 +491,7 @@ Het concept van tijdvoorkeur en hoe we onze eigen tijdvoorkeur tot uitdrukking b
 ### Kapitaal Theorie
 
 
-![image](assets/en/13.webp)
+![image](assets/nl/013.webp)
 
 
 Aan het begin van deze cursus zagen we dat, voor Carl Menger, goederen alleen als economische goederen worden beschouwd (gewaardeerd) omdat ze dienen als middel om doelen te bereiken die door individuen worden gekozen en gewaardeerd. Volgens deze opvatting draait alle economische analyse om consumptie omdat dit uiteindelijk het motiverende doel is achter alle economische activiteit. Daarom zijn voor Menger consumptiegoederen, of eindgoederen, het uitgangspunt van economische analyse, omdat zij het uiteindelijke doel van economische activiteit vertegenwoordigen. Alle andere goederen in de economie, die we "intermediaire goederen" kunnen noemen, hebben alleen waarde omdat ze individuen in staat stellen deze consumptiegoederen te verkrijgen: het zijn goederen die worden gebruikt bij de productie van andere goederen.
@@ -515,7 +515,7 @@ Door de sequentiële aard van menselijk handelen hebben deze intertemporele keuz
 Laten we, om dit punt te illustreren, het voorbeeld van Böhm-Bawerk nog eens bekijken, in zijn werk "Kapitaal en rente":
 
 
-![image](assets/en/14.webp)
+![image](assets/nl/014.webp)
 
 
 Eugen von Böhm-Bawerk (1851-1914)
@@ -524,7 +524,7 @@ Eugen von Böhm-Bawerk (1851-1914)
 ### Robinson Crusoe en Productie Detour/Roundabout:
 
 
-![image](assets/en/15.webp)
+![image](assets/nl/015.webp)
 
 
 Robinson Crusoe Landing Stores van het wrak, John Alexander Gilfillan (1793-1864)
@@ -560,7 +560,7 @@ Zoals in het eerste hoofdstuk al werd gezegd, zijn rentetarieven decennialang ge
 Dit wordt perfect geïllustreerd door de onderstaande grafiek: de lange rente is lager dan de korte rente. Ten eerste is dit absoluut onlogisch, omdat het zou betekenen dat de toekomst zekerder is dan het heden. Ten tweede rechtvaardigt het een onderzoek naar de gevolgen voor de allocatie van kapitaal: als iedereen gestimuleerd wordt om te doen alsof er spaargeld in overvloed is, terwijl spaarders nergens te vinden zijn omdat ze niet beloond worden voor sparen, wat voor gevolgen kan dit dan hebben voor de economie?
 
 
-![image](assets/en/16.webp)
+![image](assets/nl/016.webp)
 
 
 Dit zullen we ontdekken in het volgende hoofdstuk over de Oostenrijkse theorie van de conjunctuurcyclus!
@@ -605,7 +605,7 @@ Om dit fenomeen van temporele miscoordinatie en de gevolgen ervan zo duidelijk m
 Om onze uitleg te vergemakkelijken, zullen we terugkeren naar Mengers classificatie van goederen en de productiestructuur weergeven in een diagram dat bestaat uit een willekeurig aantal stadia:
 
 
-![image](assets/en/17.webp)
+![image](assets/nl/017.webp)
 
 
 In het bovenstaande diagram doorlopen initiële middelen verschillende productiefasen, waarbij ze transformaties ondergaan die hen dichter bij de staat van uiteindelijke consumptiegoederen brengen (door interactie met oorspronkelijke productiefactoren: tijd, land, arbeid). De hoogte van de rechterkant van de driehoek stelt schematisch het BBP voor, aangezien het de som is van alle consumptiegoederen die in een periode zijn verkocht. Het verschil tussen elke staaf komt overeen met de toegevoegde waarde (in monetaire termen) die door elke fase van het proces wordt gegenereerd. Dit verschil kan ook worden gezien als het inkomen dat bij elke fase hoort (opbrengsten - kosten).
@@ -617,7 +617,7 @@ Als economische agenten op geaggregeerd niveau hun besparingen verhogen, zal de 
 We krijgen dan een uitgebreide productiestructuur, een verandering die kwalitatief kan worden weergegeven door het volgende diagram:
 
 
-![image](assets/en/18.webp)
+![image](assets/nl/018.webp)
 
 
 Hier is de monetaire waarde van de gevraagde consumptiegoederen gedaald, waardoor middelen vrijkomen voor het creëren van een extra productiefase. In dit scenario, waarin de daling van de rente een gevolg is van verminderde consumptie, d.w.z. toegenomen besparingen, blijft de oppervlakte van de driehoek, die de hoeveelheid geld in omloop weergeeft, ongewijzigd. De transformatie van de productiestructuur (verlenging) is simpelweg het gevolg van een overdracht van koopkracht van het ene deel van de structuur naar het andere.
@@ -641,7 +641,7 @@ Met lagere rentetarieven kunnen ondernemers meer middelen lenen en dus productie
 Merk op dat dit een volledig logisch gevolg is van de kredietexpansie. Voor zover banken fiduciaire media produceren door leningen te verstrekken, zou je natuurlijk moeten verwachten dat de totale koopkracht toeneemt.
 
 
-![image](assets/en/19.webp)
+![image](assets/nl/019.webp)
 
 
 Wanneer krediet de economie binnenkomt via leningen aan ondernemers, zouden we een stijging van de winsten in de productiesectoren die ver van consumptie afstaan moeten waarnemen, en een daling van de relatieve winsten in sectoren die dichter bij consumptie staan. Deze hogere winstgevendheid ondersteunt dan een herverdeling van kapitaal naar deze nieuwe, meer kapitaalintensieve stadia (scheepsbouw, auto-industrie, bouw, geavanceerde technologieën, enz.
@@ -665,7 +665,7 @@ Een dergelijke aanpassing kan worden gezien als een periode waarin onderconsumpt
 Helaas wordt dit depressieve mechanisme vaak onderbroken door politieke macht en centrale banken die de economie willen "stimuleren" door middel van tekorten en gemakkelijk monetair beleid.
 
 
-![image](assets/en/20.webp)
+![image](assets/nl/020.webp)
 
 
 Voor zowel monetaristen als keynesianen is onvoldoende geaggregeerde vraag de oorzaak van de depressie, dus geen van beiden besteedt aandacht aan de ontwikkeling van relatieve prijzen, die, zoals we hebben gezien, de kern van het probleem vormt. Ze geloven dus dat het stimuleren van kredietexpansie (het verlagen van de rentetarieven) en het gebruiken van de tekortcapaciteit van de staat om de vraag te stimuleren een herstel op gang zullen brengen. Op korte termijn lijken dergelijke maatregelen het gewenste effect te hebben: het tekort ondersteunt de bestedingen, terwijl de verlaging van de rente leidt tot hogere activaprijzen, die op hun beurt activahouders aanmoedigen om meer uit te geven. Maar uiteindelijk verdwijnt zo'n stimulans, terwijl het structurele probleem blijft bestaan of zelfs verergert doordat de misallocatie van kapitaal doorgaat dankzij de kunstmatig lage rente.
@@ -724,7 +724,7 @@ Met zijn artikel introduceerde Mises een nieuwe dimensie in het debat. Afgezien 
 ### De onmogelijkheid van economische berekening verklaren
 
 
-![image](assets/en/21.webp)
+![image](assets/nl/021.webp)
 
 
 De meeste misvattingen over de argumenten van Mises komen voort uit een verkeerd begrip van de rol die managers en ondernemers spelen in een kapitalistische economie. Mises heeft nooit het vermogen van managers verworpen om efficiënte productieplannen te bedenken binnen hun eigen bedrijfsvoering. In plaats daarvan benadrukte hij het belang van ondernemers en aandeelhouders die, als eigenaars van de productiemiddelen, kapitaal toewijzen aan verschillende industrieën en daarbij prijzen vormen die dienen als input in de economische berekeningen van managers.
@@ -751,7 +751,7 @@ Dit proces is cruciaal omdat het de efficiëntie van verschillende activiteiten 
 Vanuit dit perspectief zal een centraal geplande economie onvermijdelijk te maken krijgen met een verkeerde allocatie van kapitaal. Op de korte tot middellange termijn kunnen zulke misallocaties onopgemerkt blijven omdat er geen marktprijzen of faillissementen zijn om ze te onthullen. Door de afwezigheid van terugkoppeling (prijzen) en herverdelingsmechanismen (faillissementen) zullen fouten zich echter opstapelen totdat de verspilling duidelijk wordt door een aanzienlijke verslechtering van de levensomstandigheden.
 
 
-![image](assets/en/22.webp)
+![image](assets/nl/022.webp)
 
 
 ### Het Oostenrijkse perspectief en de tekortkomingen van andere economische scholen
@@ -766,7 +766,7 @@ Ondanks deze indrukwekkende voorspellingen en talloze empirische bewijzen van de
 ### De Oostenrijkse conjunctuurtheorie als specifiek geval van de onmogelijkheid van economisch rekenen onder het socialisme
 
 
-![image](assets/en/23.webp)
+![image](assets/nl/023.webp)
 
 
 In een vorig hoofdstuk hebben we de dynamiek van overinvestering en kapitaalmisallocatie als gevolg van rentemanipulatie door centrale banken toegelicht. In wezen kan wat we hebben uitgelegd worden gezien als een specifiek geval van de onmogelijkheid van economische berekening onder socialisme, toegepast op het domein van de geldmarkten. Wanneer prijzen buiten hun marktwaarde worden vastgesteld, worden ondernemers en kapitaaltoewijzers gestimuleerd om investeringen te doen die op de lange termijn niet kunnen worden volgehouden door een gebrek aan besparingen. Door in te grijpen in het prijssysteem creëren centrale planners (in dit geval centrale bankiers) een miscoordinatie tussen economische agenten. In dit geval leidt de intertemporele miscoordinatie tot overinvesteringen in investeringsgoederen van een hogere orde en onderinvesteringen in investeringsgoederen van een lagere orde, wat een specifieke manifestatie is van een verkeerde allocatie van kapitaal tussen sectoren.

@@ -1,0 +1,8 @@
+question: What type of systems can be built on top of Bitcoin's trustless base layer according to the security model described?
+answer: Both trustless and trusted systems can be built on top of it
+wrong_answers:
+  - Only trustless systems can be built on top of it
+  - Only trusted systems can be built on top of it
+  - No additional systems can be built on top of it
+explanation: |
+  Bitcoin's trustless base layer provides a foundation that allows for flexibility in building different types of systems on top. As Matt Corallo explained, while you cannot build trustless systems on top of trusted systems, you can build trusted systems (like custodial wallets) on top of trustless systems. This means Bitcoin's trustless foundation supports both trustless applications and trusted services, giving system designers the freedom to choose appropriate trade-offs without forcing those same trade-offs on everyone else using the base layer.

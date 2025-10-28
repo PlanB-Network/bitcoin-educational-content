@@ -211,8 +211,6 @@ Kalau kamu pilih untuk memasukkan jumlah biaya transaksi sendiri, Muun akan bawa
 Kembali ke halaman ikhtisar detail transaksi lalu tekan "*Send*". Voilà, transaksi kamu sudah terkirim ke jaringan Bitcoin! Setelah itu kamu akan diarahkan kembali ke halaman utama dompet, dan saldo akan langsung berkurang. Di bagian bawah layar ada ikon panah yang bisa kamu tekan untuk melihat riwayat transaksi. Transaksi terbaru yang barusan kamu lakukan akan langsung muncul di daftar paling atas.
 ![image](assets/40.webp)
 
-ChatGPT said:
-
 Tekan salah satu transaksi untuk melihat detailnya. Transaksimu akan terkonfirmasi setelah penambang menambahkan blok baru yang menyertakannya ke dalam rantai. Di bagian bawah layar, Muun menampilkan ID transaksi, yang bisa kamu gunakan untuk mengecek status transaksi lewat *block explorer.*
 
 ![image](assets/41.webp)

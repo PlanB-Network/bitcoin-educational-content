@@ -6,7 +6,7 @@ description: Gukora Mining mu buryo bworoshe uri i muhira.
 
 
 
-### Imenyekanisha
+## Imenyekanisha
 
 
 
@@ -18,7 +18,7 @@ Ushobora kandi kuronka amakuru ahambaye cane mu kuraba uburongozi bwose ataco uh
 
 
 
-### Incamake ya BMM 100
+## Incamake ya BMM 100
 
 
 
@@ -46,7 +46,7 @@ mu gihe ku ruhande rw’inyuma dufise: umwobo w’ububasha, umwanya wo gushiramw
 
 
 
-### Guhuza Mini Miner.
+## Guhuza Mini Miner.
 
 
 
@@ -54,7 +54,7 @@ Uzokenera gufatanya igikoresho na internet biciye kuri ethernet, menya ko n’iv
 
 
 
-### Gutunganya
+## Gutunganya
 
 
 
@@ -74,7 +74,7 @@ Kugira ngo winjire uzobwirizwa kwinjiza `root` nk'izina ryawe ry'ukoresha, mu gi
 
 
 
-### Amagenamiterere rusangi
+## Amagenamiterere rusangi
 
 
 
@@ -110,7 +110,7 @@ Umaze guhindura, kanda kuri `Bika ivyo wahinduye` uzobona ivyo wahinduye ku muga
 
 
 
-### Ihuzwa na Mining pool
+## Ihuzwa na Mining pool
 
 
 
@@ -142,7 +142,7 @@ Ihitamwo rya kabiri ni ukudufatanya na Mining pool iyo mina mu solo, nka Public 
 
 https://planb.network/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-#### Ikidengeri c'ubwonko
+### Ikidengeri c'ubwonko
 
 
 
@@ -236,7 +236,7 @@ iyo usubiye ku dashboard ushobora gutangura kubona movement ku graph ukabona Has
 
 
 
-#### Igidengeri ca bose
+### Igidengeri ca bose
 
 
 

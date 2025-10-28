@@ -34,7 +34,7 @@ python scripts/video_deployment_overview/generate_report.py
 
 ## Output
 
-The script generates `video_deployment_overview.html` in the same directory. Open it in your browser to view the interactive report.
+The script generates `video_deployment_overview.html` in the central `scripts/reports/` folder. Open it in your browser to view the interactive report.
 
 ## How it Works
 

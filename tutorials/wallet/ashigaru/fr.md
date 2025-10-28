@@ -173,30 +173,54 @@ https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a
 
 ## 4. Paramétrer l'application Ashigaru
 
+Pour accéder aux paramètres de l’application, cliquez sur l’image de votre *PayNym* située en haut à gauche, puis sélectionnez `Settings`.
+
+23
+
+Vous trouverez ici plusieurs options permettant d’adapter le fonctionnement d’Ashigaru à vos besoins. Cependant, je vous recommande vivement d’activer dès le départ 2 paramètres importants.
+
+Commencez par ouvrir le menu `Security > Stealth mode`, puis activez cette fonctionnalité si vous en avez besoin. Elle permet de masquer l’application Ashigaru derrière le nom, le logo et l’interface d’une application ordinaire installée sur votre téléphone. L’objectif est d’empêcher quiconque d’identifier Ashigaru en cas d’inspection physique de votre téléphone.
+
+24
+
+Chaque fausse application proposée dispose d’une méthode spécifique pour déverrouiller la véritable interface d’Ashigaru. Par exemple, si vous choisissez la calculatrice, l’application Ashigaru disparaît de votre écran d’accueil et est remplacée par une fausse calculatrice. Lorsque vous l’ouvrez, vous voyez une interface classique de calculatrice fonctionnelle, mais pour accéder à Ashigaru, il vous suffit de taper cinq fois rapidement sur le symbole `=`.
+
+Le second paramètre important à activer est le [**RBF** (*Replace-by-Fee*)](https://planb.academy/resources/glossary/rbf-replacebyfee). Cette option vous permettra d’augmenter les frais d’une transaction si elle reste bloquée dans les mempools à cause de frais trop faibles. Vous pouvez l’activer via le menu `Transactions > Spend using RBF`.
+
+25
+
+## 5. Recevoir des bitcoins sur Ashigaru
 
 
 
 
 
+## 6. Envoyer des bitcoins avec Ashigaru
 
 
 
 
 
+## 7. Récupérer son portefeuille Ashigaru
 
+La récupération d’un portefeuille Ashigaru diffère légèrement de celle d’un portefeuille Bitcoin classique, car l’application reprend les méthodes de Samourai Wallet. Si vous perdez l’accès à votre portefeuille (que ce soit à cause d’un oubli de PIN, d’une désinstallation, ou de la perte du téléphone) plusieurs solutions s’offrent à vous pour récupérer vos bitcoins.
 
+Si vous avez encore accès à votre téléphone, ou si vous aviez fait un backup de ce fichier, la méthode la plus simple consiste à utiliser le fichier de sauvegarde `ashigaru.txt`. Ce fichier contient toutes les informations nécessaires pour restaurer votre portefeuille sur une nouvelle instance d’Ashigaru (ou sur Sparrow Wallet), mais il est chiffré avec la passphrase que vous avez définie à l’étape 3.1 de ce tutoriel. Vous devez donc impérativement disposer à la fois du fichier `ashigaru.txt` et de votre passphrase pour utiliser cette méthode.
 
+Avec ces deux éléments, vous pouvez par exemple restaurer votre portefeuille sur Sparrow Wallet.
 
+000
 
+Si vous n’avez pas accès au fichier `ashigaru.txt`, vous pouvez tout de même retrouver l’accès à vos fonds en utilisant votre phrase mnémonique et votre passphrase, comme pour n’importe quel autre portefeuille Bitcoin. Je vous recommande d’effectuer cette restauration soit sur une nouvelle instance d’Ashigaru, soit directement sur Sparrow Wallet, afin de récupérer facilement les chemins de dérivation de Whirlpool si vous l’utilisiez. Sinon, vous pouvez aussi importer ces informations dans n’importe quel autre logiciel compatible BIP39 en saisissant manuellement les chemins de dérivation.
 
+Pour plus d’informations sur ce processus, je vous invite à consulter le tutoriel complet que j’ai rédigé sur la récupération d’un portefeuille Samourai Wallet. Puisqu’Ashigaru en est un fork, la procédure est identique :
 
+https://planb.academy/tutorials/wallet/backup/samourai-recover-23bb6221-ea3e-42e6-a5b7-e6dbef5073c3
 
+Comme vous avez pu le constater, quelle que soit la méthode de restauration utilisée, la passphrase est indispensable. Assurez-vous donc de la sauvegarder avec soin. Vous pouvez également en faire plusieurs copies en fonction de votre stratégie de sécurisation.
 
+## 8. Faire un don au projet Ashigaru
 
+Ashigaru est un projet open-source. Si vous souhaitez faire un don pour aider au développement de l'application, vous pouvez le faire dans l'applicaiton via PayNym.
 
-
-
-
-
-
-Ashigaru est un projet open-source. Si vous souhaitez faire un don pour aider au développement de l'application, vous pouvez le faire dans l'app PayNym.
+Pour ce faire, cliquez sur votre PayNym en haut à droite de l'interface

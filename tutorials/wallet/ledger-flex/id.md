@@ -241,8 +241,6 @@ Mulai sekarang, kamu tidak lagi memerlukan perangkat lunak Ledger Live untuk pen
 Buka Sparrow Wallet dan lewati halaman pengantar untuk mengakses layar utama. Periksa bahwa kalau benar-benar terhubung ke sebuah node dengan mengamati sakelar yang terletak di pojok kanan bawah layar.
 ![LEDGER FLEX](assets/notext/45.webp)
 
-ChatGPT said:
-
 Aku sangat menyarankan kamu untuk menggunakan node Bitcoin kamu sendiri. Dalam tutorial ini, aku menggunakan node publik (kuning) karena sedang berada di testnet, tapi untuk penggunaan normal, sebaiknya pilih Bitcoin Core lokal (hijau) atau server Electrum yang terhubung ke node pribadi jarak jauh (biru).
 
 Klik pada menu "*File*" kemudian "*New Wallet*".

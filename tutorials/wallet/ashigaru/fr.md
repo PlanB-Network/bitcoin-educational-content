@@ -48,6 +48,8 @@ Pour en savoir plus sur Dojo et apprendre à l’installer, je vous invite à su
 
 https://planb.network/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c6186ed23f
 
+Si vous n’avez vraiment pas la possibilité de faire tourner votre propre Dojo, vous pouvez trouver des personnes acceptant de partager gracieusement leur instance sur le site [dojobay.pw](https://www.dojobay.pw/mainnet/). Cela peut constituer une solution temporaire, mais à long terme, je vous recommande d’utiliser votre propre Dojo pour garantir votre souveraineté et votre confidentialité.
+
 ## 2. Vérifier et installer l'application Ashigaru
 
 ### 2.1. Télécharger l'application Ashigaru
@@ -97,10 +99,79 @@ Ashigaru est désormais installé sur votre téléphone.
 
 ## 3. Initialisation et création du portefeuille Bitcoin
 
+Lors du premier lancement de l’application, sélectionnez `MAINNET`.
 
+12
 
+Cliquez ensuite sur `Get Started`.
 
+13
 
+Nous allons maintenant créer un nouveau portefeuille Bitcoin. Appuyez sur le bouton `Create a new wallet`.
+
+14
+
+### 3.1. Création d'un wallet
+
+Ashigaru fonctionne obligatoirement avec une passphrase BIP39. Choisissez votre passphrase et saisissez-la dans les champs correspondants. Elle doit être aussi longue et aléatoire que possible afin de résister à une attaque par brute force.
+
+Effectuez immédiatement une sauvegarde physique de cette passphrase. C’est une étape très importante : en cas de perte de votre téléphone, **si vous n’avez plus cette passphrase, vous ne pourrez plus accéder à vos bitcoins** stockés avec votre portefeuille Ashigaru. Cette même passphrase sert également à chiffrer le fichier de récupération du portefeuille.
+
+Si vous ne savez pas ce qu’est une passphrase ou si vous ne comprenez pas parfaitement son fonctionnement, je vous recommande vivement de lire ce tutoriel complémentaire. C’est important, car la passphrase est un élément critique de votre sécurité : une mauvaise compréhension de son usage pourrait entraîner la perte définitive de vos fonds.
+
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
+Une fois votre passphrase saisie, cliquez sur `NEXT`.
+
+15
+
+Choisissez ensuite un code PIN. Ce code servira à déverrouiller votre portefeuille Ashigaru et protège ainsi contre tout accès physique non autorisé. Il n’intervient pas dans la dérivation cryptographique des clés de votre portefeuille. Cela signifie que, même sans connaître ce code PIN, toute personne possédant votre phrase mnémonique et votre passphrase pourra retrouver l’accès à vos bitcoins.
+
+Optez pour un code PIN long et aléatoire. Pensez à en conserver une copie de sauvegarde dans un lieu distinct de votre téléphone, afin d’éviter qu’ils ne soient compromis simultanément.
+
+16
+
+Une fois le code PIN créé, Ashigaru affiche la phrase mnémonique de votre portefeuille. Attention : cette phrase, combinée à votre passphrase, donne un accès complet à vos bitcoins. Toute personne qui la détient peut s’emparer de vos fonds, même sans avoir accès à votre téléphone. Cette suite de 12 mots permet de restaurer votre portefeuille en cas de perte, de vol ou de casse de votre téléphone. Il est donc important de la sauvegarder avec le plus grand soin sur un support physique (papier ou métal).
+
+Ne sauvegardez jamais cette phrase sous forme numérique, au risque d’exposer vos fonds à un vol. Selon votre stratégie de sécurité, vous pouvez créer plusieurs copies physiques, mais ne la divisez jamais. Conservez les mots dans leur ordre exact et veillez à ce qu’ils soient numérotés.
+
+Enfin, ne stockez jamais la phrase mnémonique et la passphrase au même endroit. Si les deux étaient compromis simultanément, un attaquant pourrait accéder à votre portefeuille.
+
+17
+
+Pour approfondir les bonnes pratiques de sécurisation de votre phrase mnémonique, je vous invite à consulter ce tutoriel complémentaire :
+
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
+Ashigaru vous demande ensuite de confirmer une nouvelle fois votre passphrase. Profitez-en pour vérifier que votre sauvegarde physique est exacte.
+
+18
+
+### 3.2. Connexion d'un Dojo
+
+Vient ensuite l’étape de connexion à votre Dojo. Comme expliqué en introduction, Ashigaru doit être relié à un Dojo pour pouvoir interagir avec le réseau Bitcoin.
+
+Connectez-vous au "Maintenance Tool" de votre Dojo et ouvrez le menu `PAIRING`.
+
+19
+
+Sur Ashigaru, appuyez sur le bouton `Scan QR`, puis scannez le QR code de connexion affiché par votre DMT. Cliquez ensuite sur `Continue` pour confirmer.
+
+20
+
+Entrez votre code PIN pour déverrouiller le portefeuille. Vous accéderez alors à la page de synchronisation. Il est normal d’y voir des erreurs liées à *PayNym* à ce stade, puisque le portefeuille est nouveau. Cliquez simplement sur `Continue`.
+
+21
+
+Vous arrivez ensuite sur la page d’accueil de votre portefeuille.
+
+22
+
+Avant d’aller plus loin, je vous recommande de réaliser un test de récupération tant que le portefeuille ne contient encore aucun bitcoin. Cela vous permettra de vérifier que vos sauvegardes papier fonctionnent correctement. Pour savoir comment procéder, suivez ce tutoriel :
+
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+
+## 4. Paramétrage d'Ashigaru
 
 
 

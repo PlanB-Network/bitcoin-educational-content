@@ -147,8 +147,6 @@ Pada bagian ini, secara default adalah LSP Olympus (https://0conf.lnolymp.us), t
 
 perlu diingat:_
 
-ChatGPT said:
-
 Ketika kamu membuka saluran dengan Olympus LSP menggunakan invoice LN yang dibungkus, kamu juga akan mendapatkan likuiditas masuk sebesar 100 ribu sats! Ini opsi yang sangat bagus kalau kamu ingin bisa menerima lebih banyak sats.
 
 Contohnya: kamu menyetor 400k sats untuk membuka saluran LSP, maka LSP akan membuka saluran berkapasitas 500k sats ke node Zeus kamu dan mendorong 400k sats yang kamu setorkan ke sisi kamu.

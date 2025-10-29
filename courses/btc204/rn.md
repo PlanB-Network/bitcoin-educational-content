@@ -1,6 +1,6 @@
 ---
 name: Ubuzima bwite kuri Bitcoin.
-goal: Gutahura no kumenya neza ingingo ngenderwako zo kurinda ubuzima bwite igihe ukoresha Bitcoin.
+goal: Gutahura no kumenya neza ingingo ngenderwako zo gukingira ubuzima bwite igihe ukoresha Bitcoin.
 objectives: 
 
 

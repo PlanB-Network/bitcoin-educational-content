@@ -364,4 +364,4 @@ And that's it, you now know how to use Lightning with your own node using the Al
 
 To understand in detail all the Lightning mechanisms that we have manipulated in this tutorial, I strongly advise you to discover our free training on the subject :
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

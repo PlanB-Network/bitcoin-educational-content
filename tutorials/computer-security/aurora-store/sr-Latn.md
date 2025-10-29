@@ -44,13 +44,13 @@ Aurora Store možete preuzeti i iz drugih prodavnica aplikacija kao što su F-Dr
 
 
 
-https://planb.network/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
+https://planb.academy/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
 
 Međutim, preporučujemo preuzimanje APK datoteke direktno sa zvanične veb stranice kako biste osigurali autentičnost i integritet Aurora Store-a.
 
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 APK (Android Package Kit) datoteka je format paketa koji koristi operativni sistem Android za distribuciju i instalaciju aplikacija. To je ekvivalent **.exe** datotekama na Windowsu ili **.dmg** datotekama na macOS-u.
 
@@ -155,4 +155,4 @@ Više od obične prodavnice aplikacija, Aurora Store je rešenje otvorenog koda 
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

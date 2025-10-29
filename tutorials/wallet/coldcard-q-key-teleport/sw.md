@@ -95,7 +95,7 @@ Msimbo wa QR unatolewa kwenye skrini. Kwa mara nyingine tena, utahitaji kuwasili
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 *Kwa sasa tunayo:*
 
@@ -145,7 +145,7 @@ Sasa unaombwa kuchagua asili ya siri zitakazotumwa kati ya 2 ColdCardQs (maelezo
 
 
 
-Hapa siri yetu itakuwa ujumbe mfupi kwa kuchagua **"Ujumbe wa Maandishi ya Haraka "**. Andika ujumbe wako (kwetu "PlanB Network rocks") kisha ubonyeze **"INGIA "**.
+Hapa siri yetu itakuwa ujumbe mfupi kwa kuchagua **"Ujumbe wa Maandishi ya Haraka "**. Andika ujumbe wako (kwetu "Plan ₿ Academy rocks") kisha ubonyeze **"INGIA "**.
 
 
 Kisha kifaa hutoa nenosiri jipya lisilo la kawaida linaloitwa **"Nenosiri la Teleport "** , katika mfano "NE XG BT SK".
@@ -190,7 +190,7 @@ Bonyeza kitufe cha **"QR "** ili kuchanganua msimbo wa QR unaowasilishwa na kifa
 
 
 
-Kisha data hutambulishwa na kufanywa ieleweke kwa kifaa kinachopokea. Ujumbe uliopokelewa kwa hakika ni "PlanB Network rocks". Ni hayo tu.
+Kisha data hutambulishwa na kufanywa ieleweke kwa kifaa kinachopokea. Ujumbe uliopokelewa kwa hakika ni "Plan ₿ Academy rocks". Ni hayo tu.
 
 
 

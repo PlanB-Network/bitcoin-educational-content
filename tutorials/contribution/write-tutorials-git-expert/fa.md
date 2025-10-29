@@ -1,6 +1,6 @@
 ---
 name: مشارکت - آموزش Git (پیشرفته)
-description: راهنمای کاربران پیشرفته برای ارائه یک آموزش در مورد Plan ₿ Network با Git
+description: راهنمای کاربران پیشرفته برای ارائه یک آموزش در مورد Plan ₿ Academy با Git
 ---
 ![cover](assets/cover.webp)
 
@@ -8,31 +8,31 @@ description: راهنمای کاربران پیشرفته برای ارائه ی
 قبل از دنبال کردن این آموزش در مورد اضافه کردن یک آموزش جدید، باید چند مرحله مقدماتی را تکمیل کرده باشید. اگر هنوز این کار را انجام نداده‌اید، لطفاً ابتدا به این آموزش مقدماتی نگاهی بیندازید و سپس به اینجا برگردید:
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+https://planb.academy/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
 شما قبلاً دارید:
 
 
 
 - یک موضوع برای آموزش خود انتخاب کنید؛
-- از طریق [گروه تلگرام](https://t.me/PlanBNetwork_ContentBuilder) یا paolo@planb.network با تیم Plan ₿ Network تماس گرفته شد؛
+- از طریق [گروه تلگرام](https://t.me/PlanBNetwork_ContentBuilder) یا paolo@planb.network با تیم Plan ₿ Academy تماس گرفته شد؛
 - ابزارهای مشارکت خود را انتخاب کنید.
 
 
-در این آموزش برای کاربران با تجربه Git، ما به طور خلاصه مراحل کلیدی و دستورالعمل‌های اساسی برای ارائه یک آموزش جدید Plan ₿ Network را خلاصه خواهیم کرد. اگر با Git و GitHub آشنا نیستید، توصیه می‌کنم به جای آن یکی از این ۲ آموزش مفصل‌تر را دنبال کنید که شما را مرحله به مرحله راهنمایی می‌کند:
+در این آموزش برای کاربران با تجربه Git، ما به طور خلاصه مراحل کلیدی و دستورالعمل‌های اساسی برای ارائه یک آموزش جدید Plan ₿ Academy را خلاصه خواهیم کرد. اگر با Git و GitHub آشنا نیستید، توصیه می‌کنم به جای آن یکی از این ۲ آموزش مفصل‌تر را دنبال کنید که شما را مرحله به مرحله راهنمایی می‌کند:
 
 
 
 - متوسط (GitHub Desktop):
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 
 - مبتدیان (وب Interface):
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 
 ## ابزارهای پیشنهادی
 
@@ -80,7 +80,7 @@ https://planb.network/tutorials/contribution/content/write-tutorials-github-web-
 
 
 
-- شما باید Fork خود را از [مخزن Plan ₿ Network در GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content) داشته باشید.
+- شما باید Fork خود را از [مخزن Plan ₿ Academy در GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content) داشته باشید.
 - شاخه اصلی (`dev`) از Fork خود را با مخزن منبع همگام‌سازی کنید.
 - کلون محلی خود را به‌روزرسانی کنید.
 
@@ -213,15 +213,15 @@ reward:
 
 
 
-- **project_id**: شناسه UUID شرکت یا سازمان پشت ابزار ارائه‌شده در آموزش [از لیست پروژه‌ها](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). به عنوان مثال، اگر در حال ایجاد یک آموزش درباره نرم‌افزار Green Wallet هستید، می‌توانید این `project_id` را در فایل زیر پیدا کنید: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. این اطلاعات به فایل YAML آموزش شما اضافه می‌شود زیرا Plan ₿ Network یک پایگاه داده از تمام شرکت‌ها و سازمان‌هایی که بر روی Bitcoin یا پروژه‌های مرتبط فعالیت می‌کنند، نگهداری می‌کند. با افزودن `project_id` موجودیت مر
+- **project_id**: شناسه UUID شرکت یا سازمان پشت ابزار ارائه‌شده در آموزش [از لیست پروژه‌ها](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). به عنوان مثال، اگر در حال ایجاد یک آموزش درباره نرم‌افزار Green Wallet هستید، می‌توانید این `project_id` را در فایل زیر پیدا کنید: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. این اطلاعات به فایل YAML آموزش شما اضافه می‌شود زیرا Plan ₿ Academy یک پایگاه داده از تمام شرکت‌ها و سازمان‌هایی که بر روی Bitcoin یا پروژه‌های مرتبط فعالیت می‌کنند، نگهداری می‌کند. با افزودن `project_id` موجودیت مر
 
 
 
-- **برچسب‌ها**: 2 یا 3 کلمه کلیدی مرتبط با محتوای آموزش، به‌طور انحصاری انتخاب شده [از لیست برچسب‌های Plan ₿ Network](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md)؛
+- **برچسب‌ها**: 2 یا 3 کلمه کلیدی مرتبط با محتوای آموزش، به‌طور انحصاری انتخاب شده [از لیست برچسب‌های Plan ₿ Academy](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md)؛
 
 
 
-- **دسته‌بندی**: زیرمجموعه‌ای که با محتوای آموزشی مطابقت دارد، بر اساس ساختار وب‌سایت Plan ₿ Network (برای مثال، برای کیف پول‌ها: `desktop`, `hardware`, `mobile`, `backup`);
+- **دسته‌بندی**: زیرمجموعه‌ای که با محتوای آموزشی مطابقت دارد، بر اساس ساختار وب‌سایت Plan ₿ Academy (برای مثال، برای کیف پول‌ها: `desktop`, `hardware`, `mobile`, `backup`);
 
 
 
@@ -252,7 +252,7 @@ reward:
 برای جزئیات بیشتر در مورد شناسه معلم خود، لطفاً به آموزش مربوطه مراجعه کنید:
 
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 ```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
@@ -382,7 +382,7 @@ print("Hello, Bitcoin!")
     - مطمئن شوید که آن‌ها مرتبط و با کیفیت بالا هستند.
 - **منشور گرافیکی**:
     - فونت: [روبیک](https://fonts.google.com/specimen/IBM+Plex+Sans).
-    - رنگ‌ها Plan ₿ Network:
+    - رنگ‌ها Plan ₿ Academy:
         - نارنجی: `#FF5C00`
         - سیاه: `#000000`
         - سفید: `#FFFFFF`

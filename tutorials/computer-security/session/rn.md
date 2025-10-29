@@ -145,7 +145,7 @@ Iryo jambo rikora mu buryo busa n’ubw’amajambo ya Mnemonic akoreshwa mu bipa
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 **Iyumvire**: Bitandukanye n'amajambo ya Mnemonic akoreshwa ku masakoshi ya Bitcoin, ku Session, **utegerezwa kubika ijambo ryose ryose**. Inyuguti 4 za mbere ntizihagije!
 
@@ -299,4 +299,4 @@ Ndababwira kandi iyi yindi nyigisho, aho nshira ahabona Threema, ubundi buryo bu
 
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74

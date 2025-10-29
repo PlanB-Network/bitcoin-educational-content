@@ -7,7 +7,7 @@ description: Comment créer son propre compte sur GitHub ?
 
 La mission de PlanB est de mettre à disposition des ressources éducatives de premier plan sur Bitcoin, et ce, dans un maximum de langues. L'intégralité des contenus publiés sur le site est open-source et est hébergée sur GitHub, ce qui offre la possibilité à quiconque de participer à l'enrichissement de la plateforme. Les contributions peuvent prendre diverses formes : correction et relecture des textes existants, traduction dans d'autres langues, mise à jour des informations ou encore création de nouveaux tutoriels encore absents de notre site.
 
-Si vous souhaitez contribuer à PlanB Network, vous devrez utiliser Git et GitHub. Si ces outils vous sont inconnus ou si leur fonctionnement vous semble obscur, pas de panique, cet article est fait pour vous ! Nous allons revoir ensemble les fondamentaux de Git et de GitHub, ainsi que le jargon technique associé, pour vous permettre par la suite de prendre en main ces outils efficacement.
+Si vous souhaitez contribuer à Plan ₿ Academy, vous devrez utiliser Git et GitHub. Si ces outils vous sont inconnus ou si leur fonctionnement vous semble obscur, pas de panique, cet article est fait pour vous ! Nous allons revoir ensemble les fondamentaux de Git et de GitHub, ainsi que le jargon technique associé, pour vous permettre par la suite de prendre en main ces outils efficacement.
 
 ## C'est quoi Git ?
 
@@ -19,7 +19,7 @@ Une des fonctionnalités clés de Git est la gestion des branches. Une branche e
 
 Une des particularités de Git est sa capacité à fonctionner de manière distribuée. Chaque développeur possède une copie complète du projet sur le disque dur de son propre ordinateur, ce qui permet de travailler hors ligne et de fusionner les changements plus tard, lorsqu'une connexion Internet est disponible. Cela réduit le risque de conflits et permet à plusieurs développeurs de travailler simultanément sur le même projet sans se marcher sur les pieds.
 
-Initialement, Git est donc principalement pensé pour les projets de développement logiciel. Cependant, il peut tout aussi bien servir à gérer des projets de rédaction de contenu. Plutôt que de collaborer sur du code, nous collaborons sur du texte. Et c'est justement cette méthode que PlanB Network a adoptée pour gérer ses contenus ! Git nous facilite la collaboration sur la rédaction de cours et de tutoriels, car il permet un suivi précis des modifications, une gestion efficace des versions et permet également la revue et l'amélioration du contenu par d'autres contributeurs. 
+Initialement, Git est donc principalement pensé pour les projets de développement logiciel. Cependant, il peut tout aussi bien servir à gérer des projets de rédaction de contenu. Plutôt que de collaborer sur du code, nous collaborons sur du texte. Et c'est justement cette méthode que Plan ₿ Academy a adoptée pour gérer ses contenus ! Git nous facilite la collaboration sur la rédaction de cours et de tutoriels, car il permet un suivi précis des modifications, une gestion efficace des versions et permet également la revue et l'amélioration du contenu par d'autres contributeurs. 
 
 ## C'est quoi GitHub ?
 
@@ -31,7 +31,7 @@ Imaginez que Git est comme une sorte de carnet de bord que chaque développeur u
 
 La différence fondamentale entre Git et GitHub réside donc dans leur fonction : Git est l'outil utilisé localement par chaque développeur pour gérer les versions de leur code, tandis que GitHub est la plateforme en ligne qui héberge ces versions et facilite la collaboration.
 
-GitHub est donc bien plus qu'un simple hébergeur de code. C'est une plateforme de collaboration qui permet aux développeurs de travailler ensemble efficacement. Et justement, PlanB Network utilise cette plateforme pour héberger à la fois tout le code qui permet de faire tourner le site web, mais également, et c'est ce qui nous intéresse, tous les contenus (tutoriels, formations, ressources...).
+GitHub est donc bien plus qu'un simple hébergeur de code. C'est une plateforme de collaboration qui permet aux développeurs de travailler ensemble efficacement. Et justement, Plan ₿ Academy utilise cette plateforme pour héberger à la fois tout le code qui permet de faire tourner le site web, mais également, et c'est ce qui nous intéresse, tous les contenus (tutoriels, formations, ressources...).
 
 ## Quelques termes techniques
 
@@ -65,7 +65,7 @@ Cette liste n'est évidemment pas exhaustive. Il existe de nombreux autres terme
 
 ## Comment créer un compte GitHub
 
-Si vous désirez apporter votre pierre à l'édifice PlanB Network, vous allez avoir besoin d'un compte sur GitHub. Dans ce tutoriel, nous vous expliquons comment procéder étape par étape pour créer votre propre compte, le paramétrer et le sécuriser comme il faut.
+Si vous désirez apporter votre pierre à l'édifice Plan ₿ Academy, vous allez avoir besoin d'un compte sur GitHub. Dans ce tutoriel, nous vous expliquons comment procéder étape par étape pour créer votre propre compte, le paramétrer et le sécuriser comme il faut.
 
 - Rendez-vous sur [https://github.com/signup](https://github.com/signup). 
 - Saisissez votre adresse email, puis cliquez sur le bouton vert `Continue` :

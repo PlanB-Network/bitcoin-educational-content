@@ -20,6 +20,38 @@ Nimwinovore ivyo mwavumbuye!
 
 +++
 
+# Intangamarara
+
+<partId>bd35d5be-323e-42e0-a0ba-10729f71c3bd</partId>
+
+## Isuzuma ry’amasomo
+
+<chapterId>ee9d6cdf-4c97-455b-8220-cf6dfc95cb8e</chapterId>
+
+Murakaza neza mu masomo PRO 202 _**Programming Bitcoin**_, urugendo rukomeye rukujyana uhereye ku mibare y’imibumbe igarukira ukagera ku kubaka no kohereza ibikorwa nyabyo kuri Testnet ya Bitcoin.
+
+Muri iri somo, uzagenda wubaka buhoro buhoro isomero rya Bitcoin muri Python, kandi uhabwe ubumenyi bw’ibanze mu bijyanye n’ubwirinzi, amasezerano, n’inyandiko za porogaramu bikenewe kugira ngo usobanukirwe neza umutekano n’imikorere y’imbere ya Bitcoin. Uburyo bwa PRO 202 ni ubwo mu bikorwa: buri gitekerezo gishyirwa mu bikorwa ako kanya muri za Jupyter notebooks, bigatuma inyigisho n’iyakorwa byuzuzanya.
+
+### Ibitekerezo by’ingenzi bya siyansi y’imibare kuri Bitcoin
+
+Iyi ngingo ya mbere ishyiraho urufatiro rwa ngombwa mu mibare. Uzoshira mu bikorwa imibare y’imirima y’ikiringo n’ivyerekeye inyandiko za elliptic (itegeko ry’ishirahamwe, guteranya, gukuba kabiri, gukuba n’umubare...) — ibisabwa vya ECDSA. Intego ni ebyiri: gusobanukirwa imiterere ya algebra ituma umukono wa kripito ushoboka kandi kubaka ibikoresho vyizewe vya Python vyo kubikoresha.
+
+Nyuma y’aho uzosobanura neza ibice bigize ECDSA: ukurema imfunguzo, imiterere y’utudomo, hashing, kurema umukono no kugenzura. Iki gice gihuza neza inyigisho n’ibikorwa, gishyira imbaraga ku bisobanuro vy’ishyirwa mu bikorwa no ku bukomezi bw’icicaro c’umutekano gishingiyeho.
+
+### Uko ibikorwa vy’imbere vya transakosiyo ya Bitcoin bikora
+
+Mu gice ca kabiri, uzosuzuma neza imiterere ya transakosiyo ya Bitcoin: UTXO, ibinjizwa/ibisohoka, urukurikirane, script, uburyo bwo kwandika n’ibindi. Uzandika kode yo gukora, gushiraho umukono no kugenzura transakosiyo, ubone neza ico hash ishimangira n’igituma.
+
+Hanyuma uzoshira mu bikorwa umukozi muto wa _Script_, usuzume amadosiye y’ingenzi ya opcode, kandi wemeze inzira zo gukoresha amafaranga. Intego ni ugufasha ushobora gusuzuma imyitwarire ya transakosiyo, kumenya aho isuzuma ryahushije no gutekereza ku mutekano w’amategeko yo gukoresha amafaranga.
+
+### Uko urusobe rwa Bitcoin rukora imbere
+
+Mu gice ca gatatu, uzoshira transakosiyo mu buryo bwagutse bw’igisata: imiterere y’umutumba, imitwe, urwego rw’uburemere hamwe n’imikorere ya Proof-of-Work. Uzokorana n’ubutumwa bwa porotokole, imitwe y’imitumba hamwe n’ibiti vya Merkle.
+
+Mu nyuma y’ivyo, uziga uburyo bwo guhanahana amakuru hagati y’utuzu twa peer-to-peer, kunonosora ubutumwa, hamwe no kumenyekanisha SegWit.
+
+Nk’uko biri muri buri somo rya Plan ₿ Academy, igice ca nyuma kirimwo isuzuma ryateguwe kugira ngo rikomeze ubumenyi bwawe. Witeguye kumenya uburyo Bitcoin ikora imbere no kwandika kode iyiyobora? Tureke dutangure!
+
 # Ivyiyumviro vy'ingenzi vy'imibare vya Bitcoin
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

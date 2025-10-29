@@ -38,7 +38,7 @@ Kui teil ei ole veel Lightning-sõlme, soovitame teil jälgida meie LND vihmavar
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
 ## Paigaldamine
 

@@ -110,7 +110,7 @@ Tiến hành thanh toán, sau đó nhập Lightning Address của bạn để x�
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 Thực hiện giao dịch trên Flash sẽ mất trung bình từ 5 đến 10 phút để bạn nhận được bitcoin trên Lightning Wallet của mình.
 
@@ -202,4 +202,4 @@ Nếu bạn thấy hướng dẫn này hữu ích trong việc làm quen với F
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1

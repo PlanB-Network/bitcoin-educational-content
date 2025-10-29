@@ -62,7 +62,7 @@ On the next page you will see a series of words. This is your unique and private
 
 To learn best practices for saving your mnemonic phrase, please consult this tutorial:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Tap `I understand. Show me my seed` and save these words in a secure place! Then tap `Verify seed` and after verification `Open Wallet`.
 
@@ -163,7 +163,7 @@ _Payjoin v2 is a privacy-preserving and fee-saving feature in Bitcoin that allow
 
 To lean more about PayJoin you can also visit the following tutorial. 
 
-https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
+https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
 To use PayJoin both parties require a PayJoin compatible wallet, and the recipient needs to have at least one coin or output in their wallet. To start please follow these steps:
 

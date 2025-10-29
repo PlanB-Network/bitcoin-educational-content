@@ -49,7 +49,7 @@ Katika somo hili, tutakupitisha katika kila mojawapo ya vipengele hivi ili kufan
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 ## Kuanza na Speed ​​Wallet
 
@@ -79,7 +79,7 @@ Kasi ya Wallet inahitaji uundaji wa akaunti ya mtumiaji. Unaweza kuunda moja kut
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ![download](assets/fr/01.webp)
 
@@ -89,7 +89,7 @@ Baada ya kufungua akaunti yako, tunapendekeza uweke mfumo wa uthibitishaji wa ai
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Ili kufanya hivyo, nenda kwenye mipangilio ya programu, kisha uamsha uthibitishaji wa mbili na uthibitishaji wa biometriska.
 
@@ -205,9 +205,9 @@ Chaguo za **Nunua** na **Badilisha** hukuwezesha bitcoins za Exchange kwa sarafu
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+https://planb.academy/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
 ![swap-btc](assets/fr/07.webp)
 
@@ -265,7 +265,7 @@ Tazama somo letu la jinsi ya kuanza kutumia Bitrefill hapa chini.
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 ## Pata zawadi
 
@@ -327,7 +327,7 @@ Katika chaguo la **Mipangilio** kwenye ukurasa wa **Wallet**, sehemu ya **Progra
 
 
 
-https://planb.network/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90e9-d37ad90ae770
+https://planb.academy/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90e9-d37ad90ae770
 
 ## Kasi ya Wallet si ya Simu ya Mkononi pekee!
 
@@ -401,4 +401,4 @@ Umefika mwisho wa mafunzo yetu ya Speed ​​​​Wallet. Iwapo ulipata mafunz
 
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04

@@ -1,0 +1,8 @@
+question: What is the most critical recovery challenge that users face when their funds are managed through Greenlight's cloud-based Lightning node architecture?
+answer: Users would need technical expertise to spin up independent Core Lightning nodes and restore channel states without Greenlight infrastructure
+wrong_answers:
+  - "Users lose access to their private keys which are stored exclusively on Blockstream's servers"
+  - "Channel states are encrypted using Greenlight's proprietary keys making fund recovery mathematically impossible"
+  - "Lightning channels automatically expire after 30 days without Greenlight's continuous maintenance services"
+explanation: |
+  The correct answer highlights the genuine technical complexity of fund recovery in Greenlight's architecture. While users retain their private keys, accessing funds without Greenlight requires running Core Lightning nodes and manually restoring channel states - a process beyond most users' capabilities. The wrong answers are incorrect because: users do control their private keys (not stored on servers), channel states use standard Lightning protocols (not proprietary encryption), and Lightning channels don't have automatic expiration timers tied to service providers.

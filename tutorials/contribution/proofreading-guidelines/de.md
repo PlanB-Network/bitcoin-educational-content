@@ -1,27 +1,27 @@
 ---
 name: Richtlinien für das Korrekturlesen
-description: Was sind die wichtigen Faktoren, die beim Korrekturlesen auf Plan ₿ Network beachtet werden müssen?
+description: Was sind die wichtigen Faktoren, die beim Korrekturlesen auf Plan ₿ Academy beachtet werden müssen?
 ---
 
 ![github](assets/cover.webp)
 
 
-Willkommen zu diesem Tutorial über die **Richtlinien für das Korrekturlesen von Inhalten auf Plan ₿ Network**. Wir freuen uns, dass Sie unsere Mission teilen, Bitcoin-Materialien in so viele Sprachen wie möglich zu übersetzen, um den Menschen zu helfen, ein Bewusstsein dafür zu entwickeln, wie es funktioniert und wie es in ihrem täglichen Leben genutzt werden kann.
+Willkommen zu diesem Tutorial über die **Richtlinien für das Korrekturlesen von Inhalten auf Plan ₿ Academy**. Wir freuen uns, dass Sie unsere Mission teilen, Bitcoin-Materialien in so viele Sprachen wie möglich zu übersetzen, um den Menschen zu helfen, ein Bewusstsein dafür zu entwickeln, wie es funktioniert und wie es in ihrem täglichen Leben genutzt werden kann.
 
 
-Zunächst einmal haben Sie durch Ihre Mitarbeit am Plan ₿ Network [public repository](https://github.com/PlanB-Network/Bitcoin-educational-content) die Möglichkeit, Tutorials zu schreiben, den vorhandenen Inhalt zu korrigieren oder sogar die Aufnahme einer neuen Sprache in die Plattform vorzuschlagen. Um mehr zu erfahren, treten Sie zunächst unserer [Telegram-Gruppe](https://t.me/PlanBNetwork_ContentBuilder) bei und stellen Sie sich und die Sprachen, die Sie sprechen, kurz vor.
+Zunächst einmal haben Sie durch Ihre Mitarbeit am Plan ₿ Academy [public repository](https://github.com/PlanB-Network/Bitcoin-educational-content) die Möglichkeit, Tutorials zu schreiben, den vorhandenen Inhalt zu korrigieren oder sogar die Aufnahme einer neuen Sprache in die Plattform vorzuschlagen. Um mehr zu erfahren, treten Sie zunächst unserer [Telegram-Gruppe](https://t.me/PlanBNetwork_ContentBuilder) bei und stellen Sie sich und die Sprachen, die Sie sprechen, kurz vor.
 
 
-Das vorliegende Tutorial ist denjenigen gewidmet, die Inhalte Korrektur lesen wollen. Die meisten von ihnen wissen nicht viel über [Github] (https://planb.network/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) oder die [Markdown-Sprache] (https://www.markdownguide.org/basic-syntax/), die wir innerhalb des Repositorys verwenden, daher ist es wichtig, einige Einblicke in die Schlüsselfaktoren dieser Aufgabe zu geben.
+Das vorliegende Tutorial ist denjenigen gewidmet, die Inhalte Korrektur lesen wollen. Die meisten von ihnen wissen nicht viel über [Github] (https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) oder die [Markdown-Sprache] (https://www.markdownguide.org/basic-syntax/), die wir innerhalb des Repositorys verwenden, daher ist es wichtig, einige Einblicke in die Schlüsselfaktoren dieser Aufgabe zu geben.
 
 
 Nachfolgend habe ich die häufigsten Probleme zusammengestellt, auf die Korrekturleser stoßen. Fühlen Sie sich frei, weitere Vorschläge zu machen, denn das kann anderen helfen, sich zu verbessern.
 
 
-Bevor Sie in die Einzelheiten eintauchen, sollten Sie zunächst dieses Tutorial über die praktischen Maßnahmen auf Github lesen, indem Sie das Plan ₿ Network-Repository forken, Änderungen committen und PRs senden:
+Bevor Sie in die Einzelheiten eintauchen, sollten Sie zunächst dieses Tutorial über die praktischen Maßnahmen auf Github lesen, indem Sie das Plan ₿ Academy-Repository forken, Änderungen committen und PRs senden:
 
 
-https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
+https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 
 ## Was ist Korrekturlesen?
@@ -38,13 +38,13 @@ Denken Sie immer daran, dass Übersetzung/Korrekturlesen BILDUNG ist!
 
 Unser gemeinsames Ziel ist es, so viele Menschen wie möglich über Bitcoin aufzuklären, daher ist es von grundlegender Bedeutung, dass das Material, das sie lesen, glatt und klar ist.
 
-In diesem Sinne sind alle, die an Plan ₿ Network mitarbeiten, Pädagogen!
+In diesem Sinne sind alle, die an Plan ₿ Academy mitarbeiten, Pädagogen!
 
 
-## Die ersten Schritte vor dem Korrekturlesen auf Plan ₿ Network
+## Die ersten Schritte vor dem Korrekturlesen auf Plan ₿ Academy
 
 
-Bevor Sie mit einer neuen Korrekturleseaufgabe beginnen, kündigen Sie sie in der [Telegram-Gruppe] (https://t.me/PlanBNetwork_ContentBuilder) an oder informieren Sie Ihren Plan ₿ Network-Koordinator, der eine spezielle [Ausgabe] (https://github.com/orgs/PlanB-Network/projects/3) eröffnet. Wenn Sie den Link zur Ausgabe erhalten, geben Sie einfach an, dass Sie mit dem Korrekturlesen des betreffenden Inhalts beginnen.
+Bevor Sie mit einer neuen Korrekturleseaufgabe beginnen, kündigen Sie sie in der [Telegram-Gruppe] (https://t.me/PlanBNetwork_ContentBuilder) an oder informieren Sie Ihren Plan ₿ Academy-Koordinator, der eine spezielle [Ausgabe] (https://github.com/orgs/Plan ₿ Academy/projects/3) eröffnet. Wenn Sie den Link zur Ausgabe erhalten, geben Sie einfach an, dass Sie mit dem Korrekturlesen des betreffenden Inhalts beginnen.
 
 
 Dieses System hilft dem Koordinator, den Fortschritt innerhalb des Repos zu verfolgen, und ermöglicht es, dass der Inhalt vom Korrekturleser "beansprucht" wird, um doppelte Arbeit durch jemand anderen zu verhindern.
@@ -60,7 +60,7 @@ Zuallererst sollten Sie **STETS daran denken, Ihr Projektarchiv auf dem "dev"-Zw
 
 
 
-Nach erfolgreicher Synchronisierung können Sie direkt auf den gewünschten Inhalt zugreifen und in einen neuen Zweig übertragen, wie in diesem [Tutorial] (https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017) gezeigt. Andernfalls können Sie eine neue Verzweigung öffnen, in der Sie arbeiten möchten, indem Sie auf "Verzweigungen" klicken, wie unten gezeigt.
+Nach erfolgreicher Synchronisierung können Sie direkt auf den gewünschten Inhalt zugreifen und in einen neuen Zweig übertragen, wie in diesem [Tutorial] (https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017) gezeigt. Andernfalls können Sie eine neue Verzweigung öffnen, in der Sie arbeiten möchten, indem Sie auf "Verzweigungen" klicken, wie unten gezeigt.
 
 
 
@@ -115,11 +115,11 @@ In diesem zweiten Fall sollten Sie **immer recherchieren, ob jemand anderes in I
 
 
 
-- Eine andere gute Lösung besteht darin, das DE ursprüngliche Wort/den ursprünglichen Satz beizubehalten und dann **einen Hyperlink** zu erstellen, der auf das [Glossar](https://planb.network/en/resources/glossary) auf planb.network weiterleitet. Dazu müssen Sie das Wort/die Phrase in eckige Klammern setzen und den Link in runde Klammern, wie im folgenden Beispiel zu sehen:
+- Eine andere gute Lösung besteht darin, das DE ursprüngliche Wort/den ursprünglichen Satz beizubehalten und dann **einen Hyperlink** zu erstellen, der auf das [Glossar](https://planb.academy/en/resources/glossary) auf planb.network weiterleitet. Dazu müssen Sie das Wort/die Phrase in eckige Klammern setzen und den Link in runde Klammern, wie im folgenden Beispiel zu sehen:
 
 
 ```
-[UTXO](https://planb.network/resources/glossary/utxo)
+[UTXO](https://planb.academy/resources/glossary/utxo)
 ```
 
 
@@ -131,14 +131,14 @@ Im Endergebnis (Bild unten) wird nicht der gesamte Link sichtbar sein, sondern d
 
 
 
-Bitte beachten Sie, dass der Glossar-Link, den Sie von der Website nehmen, den Sprachcode nach dem Wort "network" enthält (Beispiel: ``https://planb.network/en/resources/glossary/utxo``-> hier können Sie den Sprachcode "en" lesen). In diesem Fall **entfernen Sie den Sprachcode aus dem Link**, wie Sie im obigen Kasten sehen. Auf diese Weise bringt das System den Leser automatisch zu der von ihm gewünschten Sprache.
+Bitte beachten Sie, dass der Glossar-Link, den Sie von der Website nehmen, den Sprachcode nach dem Wort "network" enthält (Beispiel: ``https://planb.academy/en/resources/glossary/utxo``-> hier können Sie den Sprachcode "en" lesen). In diesem Fall **entfernen Sie den Sprachcode aus dem Link**, wie Sie im obigen Kasten sehen. Auf diese Weise bringt das System den Leser automatisch zu der von ihm gewünschten Sprache.
 
 
 Der Inhalt des Repositorys ist voll von Hyperlinks wie diesen hier. Da Sie nun wissen, was sie bedeuten, **sichern Sie sich ab, dass Sie keinen Link** löschen, der vom ursprünglichen Autor eingefügt wurde.
 
 
 
-- Eine weitere Sache, die mit der Wortwiedergabe zusammenhängt, ist die folgende. Wenn Sie "Plan ₿ Network" im Text finden, **belassen Sie es in dieser ursprünglichen Form**. Übersetzen Sie nicht das Wort "Plan" oder das Wort "Netzwerk". Verwenden Sie außerdem NICHT den Artikel "Der", wenn Sie Plan ₿ Network vorstellen: **betrachten Sie es als eine Marke**.
+- Eine weitere Sache, die mit der Wortwiedergabe zusammenhängt, ist die folgende. Wenn Sie "Plan ₿ Academy" im Text finden, **belassen Sie es in dieser ursprünglichen Form**. Übersetzen Sie nicht das Wort "Plan" oder das Wort "Netzwerk". Verwenden Sie außerdem NICHT den Artikel "Der", wenn Sie Plan ₿ Academy vorstellen: **betrachten Sie es als eine Marke**.
 
 
 
@@ -323,7 +323,7 @@ Im folgenden Beispiel hat der Korrektor die obige Funktion verwendet, um "Satosh
 
 
 
-- Wenn der Autor einen Link einfügt, der auf einen Plan ₿ Network-Kurs oder ein Lernprogramm verweist (**nicht** in Klammern), erstellt die Website automatisch eine "Karte" mit dem entsprechenden Miniaturbild. Achten Sie daher immer darauf, dass Sie **eine neue Zeile zwischen dem Text und dem Link selbst** einfügen, da sonst der folgende Fehler auf der Website auftreten kann.
+- Wenn der Autor einen Link einfügt, der auf einen Plan ₿ Academy-Kurs oder ein Lernprogramm verweist (**nicht** in Klammern), erstellt die Website automatisch eine "Karte" mit dem entsprechenden Miniaturbild. Achten Sie daher immer darauf, dass Sie **eine neue Zeile zwischen dem Text und dem Link selbst** einfügen, da sonst der folgende Fehler auf der Website auftreten kann.
 
 
 

@@ -322,7 +322,7 @@ Electrum cho phép bạn **nhận và gửi bitcoin** dễ dàng, đồng thời
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 ## Bảo mật hệ thống Manjaro của bạn
 
@@ -395,4 +395,4 @@ Manjaro kết hợp **tính ổn định, tốc độ và bảo mật**, đồng
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+https://planb.academy/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973

@@ -1,0 +1,8 @@
+question: What was the problematic approach Satoshi used when implementing a hard fork that Bitcoin developers would never use today?
+answer: Hiding the breaking change in a commit with a misleading description that gave no indication of consensus rule modifications
+wrong_answers:
+  - Implementing the hard fork without any public announcement or communication to the Bitcoin community beforehand
+  - Combining multiple hard forks into a single release without proper testing or community review processes
+  - Activating the hard fork immediately without providing users sufficient time to upgrade their node software
+explanation: |
+  According to Eric Lombrozo's analysis, Satoshi's problematic approach was disguising a consensus-breaking change in a commit with a misleading description that mentioned only 'reverted makefile.unix wx-config version 0.3.6' without any indication of the breaking changes. This practice of hiding critical consensus modifications in innocuous-looking commits would be considered unacceptable by today's standards, where transparency and clear communication about consensus changes are fundamental principles of Bitcoin development.

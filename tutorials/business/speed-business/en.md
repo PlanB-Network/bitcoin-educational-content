@@ -69,12 +69,12 @@ When you deactivate test mode, you must configure your withdrawal wallet.
 ![configure-wallet](assets/fr/04.webp)
 
 
-If you don't yet own a Bitcoin and/or Lightning wallet, we recommend you take a look at our [mobile wallets] tutorials(https://planb.network/tutorials/wallet).
+If you don't yet own a Bitcoin and/or Lightning wallet, we recommend you take a look at our [mobile wallets] tutorials(https://planb.academy/tutorials/wallet).
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 ⚠️ **IMPORTANT**: When configuring your wallet, choose the **BTC (On-Chain)** type when you receive large amounts, in the order of thousands of euros, to ensure reliable confirmation on Bitcoin, and the **LN Address** type when you wish to receive instant micro-payments in your business.
 
@@ -320,4 +320,4 @@ In the **Business Settings** section:
 You've got a good grasp of Speed, integrate Bitcoin into your business and develop your local circular economy based on Bitcoin. If you found this tutorial useful, we're sure you'll enjoy our Swiss Bitcoin Pay tutorial just as much.
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

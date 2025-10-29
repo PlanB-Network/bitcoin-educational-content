@@ -28,6 +28,8 @@ Tule mukaan muuttamaan Bitcoinin käyttöäsi ja tule tietoiseksi käyttäjäksi
 
 <chapterId>08ba1933-f393-4fb5-8279-777d874caedb</chapterId>
 
+:::video id=687fe126-56db-4fe2-aaac-e481bbb5d838:::
+
 Tervetuloa BTC204-kurssille!
 
 Maailmassa, jossa rahaliikenteen luottamuksellisuudesta on vähitellen tulossa ylellisyyttä, yksityisyyden suojan periaatteiden ymmärtäminen ja hallitseminen Bitcoinia käytettäessä on välttämätöntä. Tämä kurssi antaa sinulle kaikki avaimet, sekä teoreettiset että käytännölliset, jotta voit saavuttaa tämän itsenäisesti.
@@ -87,6 +89,8 @@ Valmiina tutkimaan Bitcoinin yksityisyyden monimutkaisuuksia? Lähdetään liikk
 
 <chapterId>8d6b50c5-bf74-44f4-922b-25204991cb75</chapterId>
 
+:::video id=60e8f3fa-9607-47ae-ac4f-5aa747d9b6d4:::
+
 
 Bitcoin on ennen kaikkea valuutta, mutta tiedätkö itse asiassa, miten BTC:t esitetään protokollassa?
 
@@ -136,6 +140,8 @@ Salkkusi kokonaissaldo olisi 17 BTC.
 ## Bitcoin-tapahtumien rakenne
 
 <chapterId>29d3aaab-de2e-4746-ab40-c9748898850c</chapterId>
+
+:::video id=c79d651d-ff4a-4a75-bc2b-a48a00c17326:::
 
 
 ### Tapahtuman tulot ja lähdöt
@@ -223,6 +229,8 @@ Toiseksi, kuten edellisissä kappaleissa mainittiin, Bitcoin-kolikot ovat pohjim
 
 <chapterId>769d8963-3ed5-4094-b21d-9203c7d9e465</chapterId>
 
+:::video id=f83d8e7a-ff4d-4c05-a8ff-0e601c49a508:::
+
 
 ### Raha: aitous, rehellisyys ja kaksinkertainen rahankäyttö
 
@@ -294,6 +302,8 @@ Koska Bitcoin-tapahtumat ovat kuitenkin julkisia, niiden välille on mahdollista
 
 <chapterId>7d198ba6-4af2-4f24-86cb-3c79cb25627e</chapterId>
 
+:::video id=3d27ea95-599b-44cc-a24c-a628c2e6a64a:::
+
 
 ### Määritelmä ja toiminta
 
@@ -339,9 +349,9 @@ Meidän on siis myös pystyttävä käsittelemään lohkoketjuanalyysia Bitcoini
 
 Mikä olisikaan parempi tapa torjua lohkoketjuanalyysia kuin tutustua siinä käytettyihin menetelmiin? Jos haluat tietää, miten voit parantaa yksityisyyttäsi Bitcoinissa, sinun on ymmärrettävä nämä menetelmät. Tämä antaa sinulle paremman käsityksen tekniikoista, kuten coinjoin tai payjoin (tekniikoita tarkastelemme kurssin loppuosissa), ja vähentää virheitä, joita saatat tehdä.
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
-https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
+https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
 Tässä voidaan tehdä analogia kryptografian ja salausanalyysin kanssa. Hyvä salakirjoittaja on ennen kaikkea hyvä salausanalyytikko. Uuden salausalgoritmin suunnittelemiseksi on tiedettävä, millaisia hyökkäyksiä se kohtaa, ja tutkittava myös, miksi aiemmat algoritmit on murrettu. Sama periaate pätee Bitcoinin yksityisyyteen. Lohkoketjun analyysimenetelmien ymmärtäminen on avain suojautumiseen niitä vastaan. Siksi olen sisällyttänyt tähän koulutukseen kokonaisen jakson lohkoketjuanalyysistä.
 
@@ -375,6 +385,8 @@ Näemme, mitä ne ovat seuraavissa luvuissa, mutta on jo nyt mielenkiintoista hu
 ## Tapahtumamallit
 
 <chapterId>d365a101-2d37-46a5-bfb9-3c51e37bf96b</chapterId>
+
+:::video id=4bd4c9d4-7997-487c-8760-98c74ae1589e:::
 
 
 Transaktiomalli on yksinkertaisesti tyypillisen transaktion yleinen malli tai rakenne, joka löytyy lohkoketjusta ja jonka todennäköinen tulkinta tunnetaan. Kun tutkimme malleja, keskitymme yksittäiseen transaktioon ja analysoimme sitä korkealla tasolla.
@@ -507,6 +519,8 @@ Näiden tapahtumamallien ansiosta voimme jo tulkita tietyn määrän tietoa tiet
 
 <chapterId>c54b5abe-872f-40f4-a0d0-c59faff228ba</chapterId>
 
+:::video id=bbc145cc-5232-41e4-a7f8-1af4e422635a:::
+
 
 Sisäinen heuristiikka on erityispiirre, jonka tunnistamme itse tapahtumasta ilman, että meidän tarvitsee tutkia sen ympäristöä, ja jonka avulla voimme tehdä johtopäätöksiä. Toisin kuin mallit, jotka keskittyvät tapahtuman yleiseen rakenteeseen korkealla tasolla, sisäiset heuristiikat perustuvat poimittavien tietojen joukkoon. Näitä ovat mm:
 
@@ -616,6 +630,8 @@ Source : [Mempool.space](https://mempool.space/tx/b79d8f8e4756d34bbb26c659ab8831
 ## Ulkoiset heuristiikat
 
 <chapterId>4a170e3b-200d-431a-8285-18a23ff617ba</chapterId>
+
+:::video id=f83c94a1-4f60-4dc7-855d-aa6710064575:::
 
 
 Ulkoisten heuristiikkojen tutkiminen tarkoittaa tiettyjen sellaisten elementtien samankaltaisuuksien, mallien ja ominaisuuksien analysointia, jotka eivät liity itse liiketoimintaan. Toisin sanoen, kun aiemmin rajoituimme hyödyntämään liiketoimelle ominaisia elementtejä sisäisten heuristiikkojen avulla, laajennamme nyt analyysikenttäämme sisällyttämällä siihen liiketoimen ympäristön ulkoisten heuristiikkojen avulla.
@@ -1036,6 +1052,8 @@ ___
 
 <chapterId>f3e97645-3df3-41bc-a4ed-d2c740113d96</chapterId>
 
+:::video id=5392183e-e317-499f-9757-b69e9d7cda11:::
+
 
 Tutkittuamme tekniikoita, jotka voivat murtaa luottamuksellisuutesi Bitcoinissa, tässä kolmannessa osassa tarkastelemme nyt parhaita käytäntöjä, joilla voit suojata itsesi. Tämän osan tavoitteena ei ole tutkia menetelmiä luottamuksellisuuden parantamiseksi, sillä tätä aihetta käsitellään myöhemmin, vaan pikemminkin ymmärtää, miten olla oikein vuorovaikutuksessa Bitcoinin kanssa, jotta sen luonnollisesti tarjoama luottamuksellisuus säilyy ilman lisätekniikoita.
 
@@ -1172,6 +1190,8 @@ Jos tarvitset staattisen tunnisteen maksujen, kuten lahjoitusten, vastaanottamis
 
 <chapterId>fbdb07cd-c025-48f2-97b0-bd1bc21c68a8</chapterId>
 
+:::video id=4c411c97-ebb2-483d-b4fa-03109cf5d5d7:::
+
 
 Kuten havaitsimme merkkijonoanalyysia käsittelevässä osassa, on olemassa lukuisia heuristiikkoja ja malleja, joiden avulla voidaan päätellä tietoja tapahtumasta. Käyttäjänä on tärkeää olla tietoinen näistä tekniikoista, jotta voit suojautua niiltä paremmin.
 
@@ -1273,11 +1293,13 @@ Kaikki nämä automaattiset UTXO-valintamenetelmät voivat vähentää tehokkaas
 
 Jos haluat tietää, miten merkitä UTXO:t, olemme tehneet kattavan ohjeen tärkeimmistä Bitcoin-lompakko-ohjelmistoista:
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 ## KYC ja avaintunnistus
 
 <chapterId>cec6b9d9-0eed-4f85-bc4e-1e9aa59ca605</chapterId>
+
+:::video id=ecf888fe-906f-4293-91b5-1e5ae7b2fde1:::
 
 
 KYC on lyhenne sanoista "Know Your Customer" (tunne asiakkaasi). Se on sääntelymenettely, jonka tietyt Bitcoin-alalla toimivat yritykset ovat ottaneet käyttöön. Menettelyn tarkoituksena on tarkistaa ja rekisteröidä asiakkaidensa henkilöllisyys, ja sen tavoitteena on torjua rahanpesua ja terrorismin rahoitusta.
@@ -1380,6 +1402,8 @@ Kun bitcoineja vaihdetaan muihin omaisuuseriin, olipa kyseessä sitten osto valt
 
 <chapterId>756598af-95aa-4c77-ac48-243c7ad89530</chapterId>
 
+:::video id=9fd3d90f-32f4-48a2-a740-3597249551db:::
+
 
 Edellisen luvun lukemisen jälkeen saatat miettiä, miten voit ostaa tai myydä bitcoineja ilman henkilöllisyyden todentamismenettelyä, jotta vältät KYC:hen liittyvät riskit. Bitcoin-kaupankäyntiin on useita tapoja.
 
@@ -1431,19 +1455,19 @@ Mitä tulee ratkaisuihin, olen itse aina käyttänyt [Bisq](https://bisq.network
 
 -> Katso Bisq-opas.
 
-https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+https://planb.academy/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 Yksinkertaisempi vaihtoehto on [Peach](https://peachbitcoin.com/), mobiilisovellus, joka yhdistää ostajat ja myyjät ja jossa on sisäänrakennettu konfliktinratkaisujärjestelmä. Prosessi on intuitiivisempi kuin Bisqin.
 
 -> Katso Peach-opas.
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
 Toinen online-vaihtoehto on [HodlHodl](https://hodlhodl.com/), vakiintunut alusta, joka tarjoaa hyvää likviditeettiä, vaikka en olekaan henkilökohtaisesti testannut sitä.
 
 -> Katso HodlHodl-opas.
 
-https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+https://planb.academy/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
 Lightning Network -pohjaisia ratkaisuja löydät [RoboSats](https://learn.robosats.com/) ja [LNP2PBot](https://lnp2pbot.com/). RoboSatsiin pääsee verkkosivuston kautta, ja se on suhteellisen helppokäyttöinen. LNP2PBot on epätyypillisempi, sillä se toimii Telegram-viestisovelluksen vaihtojärjestelmän kautta.
 
@@ -1451,9 +1475,9 @@ Lightning Network -pohjaisia ratkaisuja löydät [RoboSats](https://learn.robosa
 
 -> Katso LNP2PBot-opas.
 
-https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.academy/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
-https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+https://planb.academy/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
 
 ![BTC204](assets/fi/096.webp)
 
@@ -1463,7 +1487,7 @@ Riippuen siitä, missä maassa asut, voit käyttää säänneltyjä alustoja, jo
 
 -> Tutustu Relai-oppaaseemme.
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
 Kuten edellisessä luvussa todettiin, tämäntyyppiset alustat säästävät sinut KYC-menettelyihin liittyviltä riskeiltä, mutta ne aiheuttavat suuremman riskin avaintunnistuksen osalta. Bitcoinin luottamuksellisuuden kannalta nämä alustat tarjoavat siis paremman suojan kuin KYC:n sisältävät ostomenetelmät, mutta ne ovat edelleen vähemmän houkuttelevia kuin P2P-pörssit.
 
@@ -1487,7 +1511,7 @@ Paras tapa käyttää BTC:tä on tietenkin käyttää Bitcoinia tai Lightning Ne
 
 Useat alustat, jotka eivät vaadi KYC-menettelyjä, tarjoavat mahdollisuuden vaihtaa bitcoineja lahjakortteihin, joita voi käyttää suurimmissa vähittäiskauppiaissa. Näitä ovat [CoinsBee](https://www.coinsbee.com/), [The Bitcoin Company](https://thebitcoincompany.com/) ja [Bitrefill](https://www.bitrefill.com/). Nämä alustat helpottavat huomattavasti bitcoinien päivittäistä käyttöä ja antavat sinulle mahdollisuuden käyttää monenlaisia tuotteita ja palveluita ilman, että sinun tarvitsee vaihtaa niitä fiat-valuutaksi.
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 ![BTC204](assets/fi/098.webp)
 
@@ -1497,11 +1521,13 @@ Muita tapoja hankkia bitcoineja yksityisyyttäsi suojaten ovat tietenkin louhint
 
 Toinen tapa on työskennellä bitcoineja vastaan. Tämä hankintamenetelmä voi olla mielenkiintoinen, mutta vaadittava tunnistautumisaste vaihtelee huomattavasti olosuhteista riippuen.
 
-*Kirjoittaakseni tämän luvun käytin* [@pivi___](https://x.com/pivi___) *Plan ₿ Network -verkkopalvelussa antamaa BTC205-koulutusta (tällä hetkellä saatavilla vain ranskaksi)*
+*Kirjoittaakseni tämän luvun käytin* [@pivi___](https://x.com/pivi___) *Plan ₿ Academy -verkkopalvelussa antamaa BTC205-koulutusta (tällä hetkellä saatavilla vain ranskaksi)*
 
 ## Konsolidointi, UTXO:n johto ja CIOH
 
 <chapterId>d0486c8f-332d-402b-ae2e-949416752b9c</chapterId>
+
+:::video id=9e5841a2-4ff5-460e-a161-0e0af57f95d8:::
 
 
 Yksi monimutkaisimmista omaisuudenhoitosalkun hoitamiseen liittyvistä näkökohdista on konsolidointi. Pitäisikö sinun konsolidoida? Mitä järkeä siinä on? Minkä kokoista UTXO:ta pitäisi kunnioittaa? Millaisia kompromisseja luottamuksellisuuden suhteen tehdään? Tätä tarkastelemme tässä jaksossa.
@@ -1587,6 +1613,8 @@ Jos joudut yhdistelemään bitcoinejasi, suosi ensin samasta lähteestä peräis
 
 <chapterId>b5216965-7d13-4ea1-9b7c-e292966a487b</chapterId>
 
+:::video id=5fc4ce39-6a0b-419a-baa9-f6da75427987:::
+
 
 Katsotaanpa muutamia muita parhaita käytäntöjä, joilla voit optimoida yksityisyytesi Bitcoinissa.
 
@@ -1642,6 +1670,8 @@ Kaikkien näiden päivittäin noudatettavien hyvien käytäntöjen lisäksi on o
 ## Mikä on coinjoin-transaktio?
 
 <chapterId>0862bc6b-1c48-4aa4-b76d-4f547b469008</chapterId>
+
+:::video id=37f23334-4b52-43db-8d82-bd84310af86c:::
 
 
 Kun olemme perehtyneet yksityisyyden suojan perusteisiin, tarkastelemme nyt kehittyneempiä tekniikoita, joilla pyritään aktiivisesti puolustamaan luottamuksellisuuttasi, erityisesti eriyttämällä bitcoin-historiasi. Seuraavassa osassa tarkastelemme lukuisia pieniä tekniikoita, mutta ensin haluan kertoa sinulle coinjoinista.
@@ -1740,6 +1770,8 @@ Tämän päivän käyttäjät suosivat siksi kolikkoyhteyttä, koska sen ansiost
 ## Zerolink ja chaumian coinjoins -yhteenliittymät
 
 <chapterId>326c9654-b359-4906-b23d-d6518dd5dc3e</chapterId>
+
+:::video id=7df91435-f60b-4d80-89a8-79717a14ebd3:::
 
 
 Kolikkoliitoksen tarjoama yksityisyys riippuu sen ryhmän koosta, johon kappaleemme on piilotettu. Tämä tarkoittaa mahdollisimman monen osallistujan löytämistä. On täysin mahdollista luoda coinjoin manuaalisesti itse löytämiemme käyttäjien kanssa, mutta tämä on monimutkainen prosessi, eikä sillä voiteta suuria anonsetteja.
@@ -1856,6 +1888,8 @@ Whirlpool on tällä hetkellä ainoa coinjoin-toteutus, joka soveltaa tiukasti Z
 
 <chapterId>e37ed073-9498-4e4f-820b-30951e829596</chapterId>
 
+:::video id=36021102-82f3-4e86-80a9-168e3431ce7b:::
+
 
 *Vuonna 2024 olemme todistamassa suuria muutoksia niiden käyttäjien käyttettävissä olevissa työkaluissa, jotka haluavat tehdä kolikkoliitoksia Bitcoinissa. Olemme tällä hetkellä käännekohdassa, ja coinjoin-markkinat ovat suuressa rakennemuutoksessa. Tätä lukua päivitetään varmasti ajan myötä.*
 
@@ -1936,6 +1970,8 @@ Kuten olet varmasti jo ymmärtänyt, suosin ehdottomasti Whirlpool-mallia Bitcoi
 ## Miten Whirlpool toimii
 
 <chapterId>bdbd7109-e36d-4b4f-a3c6-928df4e9bfda</chapterId>
+
+:::video id=e40f1195-d028-44d3-be24-d76427f9d24b:::
 
 
 Whirlpool eroaa muista coinjoinmenetelmistä käyttämällä "_ZeroLink_"-tapahtumia, joilla varmistetaan, että kaikkien tulojen ja lähtöjen välillä ei ole minkäänlaista teknistä yhteyttä. Tämä täydellinen yhdistelmä saavutetaan rakenteella, jossa kukin osallistuja osallistuu panoksellaan identtiseen määrään (lukuun ottamatta louhintamaksuja), jolloin tuotokset ovat täysin samansuuruisia.
@@ -2162,13 +2198,15 @@ Seuraavassa luvussa selvitetään, mitä "anonsetit" ovat, miten nämä indikaat
 
 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
 
 
 ## Anonymiteettisarjat
 
 <chapterId>be1093dc-1a74-40e5-9545-2b97a7d7d431</chapterId>
+
+:::video id=03d8581a-3454-4225-9068-a6434840cbcb:::
 
 
 Kun olemme tutkineet, miten coinjoins toimii ja mitä asioita tehokkaaseen yhdistämiseen liittyy, selvitämme nyt, miten niiden tehokkuutta voidaan mitata. Miten voimme määrittää, onko coinjoining-prosessi ollut tehokasta ja kuinka anonyymiksi osa on muuttunut? Tämä selvitetään tässä luvussa anonymiteettijoukkojen eli "anonsettien" avulla.
@@ -2244,6 +2282,8 @@ Kuten olemme nähneet tässä luvussa, anonsetit voidaan laskea vain, jos coinjo
 ## Entropia
 
 <chapterId>e4fe289d-618b-49a2-84c9-68c562e708b4</chapterId>
+
+:::video id=5118b15a-a58f-4529-8a91-4e9f6a093fce:::
 
 
 Kuten olemme nähneet tässä kolikkoliitoksia käsittelevässä jaksossa, UTXO:iden homogeenisuudella syötteen ja tuotoksen osalta on tärkeä rooli Bitcoin-tapahtuman luottamuksellisuuden parantamisessa. Tämä parametri luo uskottavan kiistettävyyden lohkoketjuanalyysin edessä. Tätä homogeenisuutta voidaan mitata useilla menetelmillä, mutta yksi tehokkaimmista on mielestäni OXT- ja Samourai Wallet -tiimien kehittämän *Boltzmann*-työkalun tarjoamien indikaattoreiden ja erityisesti transaktion entropian käyttö. Tätä tarkastelemme yksityiskohtaisesti tässä luvussa.
@@ -2496,7 +2536,7 @@ Valitettavasti Samourain perustajien pidätyksen jälkeen nämä välineet eivä
 
 Nyt kun olemme käsitelleet coinjoineja yksityiskohtaisesti, tarkastelemme kurssimme viimeisessä osassa muita Bitcoinissa käytettävissä olevia yksityisyystekniikoita. Tarkastelemme payjoineja, erityisiä pseudo-coinjoin-transaktiotyyppejä, staattisia osoiteprotokollia sekä toimenpiteitä, joilla vahvistetaan luottamuksellisuutta ei itse transaktioiden vaan solmujen verkon tasolla.
 
-https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
+https://planb.academy/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
 
 # Muiden kehittyneiden luottamuksellisuustekniikoiden haasteiden ymmärtäminen
 
@@ -2505,6 +2545,8 @@ https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6
 ## Payjoin maksutapahtumat
 
 <chapterId>c1e90b95-f709-4574-837b-2ec26b11286f</chapterId>
+
+:::video id=5496cb59-006e-40b8-971f-af6d98868527:::
 
 
 Coinjoin on tällä hetkellä tehokkain menetelmä epävarmuuden lisäämiseksi osien jäljittämiseen ketjuanalyysissä. Kuten aiemmissa luvuissa on todettu, tehokkaan yhdistelmän aikaansaamiseksi panosten ja tuotosten on oltava mahdollisimman homogeenisia. Lisäksi on tärkeää, että osat integroidaan mahdollisimman suureksi ryhmäksi, jotta anonsetit voidaan maksimoida. Jotta yhteisliitokset olisivat tehokkaita, niissä on siis oltava mukana suuri määrä yhtenäisiä osia. Tämä vaatimusten moninaisuus tarkoittaa, että coinjoin-transaktioilla on hyvin jäykkä rakenne: määrät on vahvistettu etukäteen, ja kaikkien osallistujien on noudatettava niitä prosessin yhdenmukaisuuden takaamiseksi. Lisäksi coinjoinit edellyttävät synkronointia kaikkien osallistujien ja koordinaattorin välillä transaktion rakentamisen aikana.
@@ -2590,11 +2632,13 @@ Yksi ratkaisu olisi käyttää transaktiorakenteita, jotka tuovat ketjuanalyysii
 
 
 
-https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
+https://planb.academy/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
 
 ## Maksu minikolikkoyhteys
 
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
+
+:::video id=1f33e8f1-e41d-4480-a388-e283ef51cc17:::
 
 
 Kun haluat suorittaa maksutapahtuman säilyttäen tietynasteisen luottamuksellisuuden, payjoin on hyvä vaihtoehto. Mutta kuten juuri näimme, payjoin edellyttää vastaanottajan osallistumista. Mitä teet, jos vastaanottaja kieltäytyy osallistumasta payjoiniin tai jos et yksinkertaisesti halua ottaa häntä mukaan? Yksi vaihtoehto on käyttää Stonewall- tai Stonewall x2 -tapahtumaa. Tutustutaanpa tarkemmin näihin kahteen transaktiotyyppiin.
@@ -2711,13 +2755,15 @@ Tämäntyyppinen transaktio on mahdollista suorittaa myös manuaalisesti millä 
 
 Seuraavassa luvussa tarkastelemme toista salassapitotekniikkaa, joka on suhteellisen tuntematon, mutta joka on erittäin hyödyllinen täydentämään sitä, mitä olemme jo opiskelleet.
 
-https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
+https://planb.academy/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
 
-https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
+https://planb.academy/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
 
 ## Kimmokkeet
 
 <chapterId>db9a20ac-a149-443d-884b-ea6c03f28499</chapterId>
+
+:::video id=3c9ce9e5-4081-4c36-98f9-9fc3779c0337:::
 
 
 Yksityisyyden suojan kannalta on erityisen hyödyllistä käyttää Bitcoin-tapahtumarakenteita, jotka lisäävät ketjuanalyysin epäselvyyttä, kuten coinjoin. Kuten käsittelimme payjoineja koskevassa luvussa, coinjoin-transaktiot ovat kuitenkin luonnollisesti tunnistettavissa ketjussa. Muistakaa salaus- ja coinjoin-transaktioiden välinen analogia: kun tiedosto on salattu, kolmas osapuoli, joka löytää salatun tiedoston, ei pääse käsiksi sen sisältöön, mutta voi selvästi tunnistaa, että tiedostoa on muutettu sen sisällön salaamiseksi. Sama pätee coinjoiniin: kun analyytikko tutkii coinjoin-transaktiota, vaikka hän ei pysty osoittamaan suoria yhteyksiä syötteiden ja tuotosten välillä (ja päinvastoin), hän voi kuitenkin tunnistaa, että havaittu transaktio on coinjoin.
@@ -2786,11 +2832,13 @@ Ricocheting tarkoittaa yksinkertaisesti bitcoinien lähettämistä itsellesi. On
 
 Seuraavassa luvussa tarkastelemme erilaisia tekniikoita omistusoikeuden salaisiin siirtoihin. Nämä menetelmät eroavat radikaalisti tähän mennessä tarkastelemistamme menetelmistä sekä toiminnan että tulosten osalta.
 
-https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
+https://planb.academy/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
 
 ## Salaiset omistusoikeuden siirrot
 
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
+
+:::video id=374f79ce-fc61-4528-8b69-b5ca7c7eaa6f:::
 
 
 Toinen Bitcoinin luottamuksellisuustekniikoista on omistuksen salainen siirto. Tällä menetelmällä pyritään siirtämään bitcoinien omistusoikeus yhdeltä henkilöltä toiselle ja päinvastoin ilman, että transaktio näkyy selvästi lohkoketjussa. Katsotaanpa erilaisia käytettävissä olevia tekniikoita sekä niiden etuja ja haittoja.
@@ -2914,6 +2962,8 @@ Tähän mennessä olemme tutkineet luottamuksellisuusmenetelmiä lähinnä itse 
 
 <chapterId>04a2467b-db84-4076-a9ff-919be5135106</chapterId>
 
+:::video id=8428b212-de79-48a5-b984-ed7936861c2f:::
+
 
 Osassa 4 käsiteltiin, miten tärkeää on käyttää täydellistä solmua tapahtumien luottamuksellisuuden suojaamiseksi. On kuitenkin tärkeää ymmärtää, että solmupisteesi voi itse joutua hyökkäysten kohteeksi, joilla pyritään saamaan tietoja toiminnoistasi. Siksi tässä luvussa tarkastelemme erilaisia toimenpiteitä, joita voit toteuttaa yksityisyytesi suojaamiseksi, ei itse transaktioiden tai bitcoin-virtojen tasolla vaan verkon tasolla.
 
@@ -2991,6 +3041,8 @@ Tutustuttuasi erilaisiin verkkotason luottamuksellisuusmenetelmiin haluaisin seu
 
 <chapterId>ad88e076-a04b-4aec-b3b2-7b4760175504</chapterId>
 
+:::video id=b0e9acc2-b50f-4caa-a1d7-cf8624b8e727:::
+
 
 Kuten osassa 3 nähtiin, osoitteiden uudelleenkäyttö on vakava este käyttäjien luottamuksellisuudelle Bitcoin-protokollassa. Näiden riskien vähentämiseksi on erittäin suositeltavaa luoda tyhjä vastaanottoosoite jokaista uutta lompakkoon vastaanotettua maksua varten. Vaikka uuden osoitteen luominen on nykyään yksinkertaisempaa nykyaikaisten ohjelmistojen ja hierarkkisten determinististen lompakoiden ansiosta, tämä käytäntö voi vaikuttaa intuition vastaiselta.
 
@@ -3059,7 +3111,7 @@ Vaikka näillä roboteilla ei ole erityisiä teknisiä toimintoja BIP47:n puitte
 ---
 *Tämän luvun seuraavissa BIP47:ää käsittelevissä osioissa tarkastelemme yksityiskohtaisesti sen toimintaa ja kiinnitämme erityistä huomiota käytettyihin salausmenetelmiin. Näiden hieman teknisten selitysten ymmärtäminen edellyttää, että ymmärrät ensin HD-lompakoiden rakenteen, avainten johtamismenetelmät ja elliptisten käyrien kryptografian perusteet. Jos haluat syventyä näihin käsitteisiin syvällisemmin, Plan ₿ -verkossa on saatavilla toinenkin ilmainen kurssi :*
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 *Suosittelen silti seuraamaan niitä, koska BIP47:n teknisen toiminnan ymmärtäminen helpottaa huomattavasti muiden samankaltaisten ehdotusten ymmärtämistä, joita käsittelemme seuraavissa luvuissa*
 
@@ -3811,11 +3863,13 @@ Bob voi sitten korvata Liisalle maksun samalla tavalla kuin Alice lähetti häne
 
 *Suuret kiitokset [Fanis Michalakisille](https://x.com/FanisMichalakis) oikoluvusta ja asiantuntevista neuvoista tämän luvun kirjoittamiseen innoittaneen artikkelin osalta!*
 
-https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
+https://planb.academy/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
 
 ## Hiljaiset maksut
 
 <chapterId>2871d594-414e-4598-a830-91c9eb84dfb8</chapterId>
+
+:::video id=85b2780e-864e-4f64-b843-f272277181e6:::
 
 
 BIP47:ää on kritisoitu laajalti sen tehottomuudesta ketjussa. Kuten edellisessä luvussa selitettiin, se edellyttää ilmoitustapahtuman suorittamista jokaisen uuden vastaanottajan kohdalla. Tästä rajoituksesta tulee vähämerkityksinen, jos aiomme luoda kestävän maksukanavan tämän vastaanottajan kanssa. Yksi ilmoitustapahtuma tasoittaa tietä lähes äärettömälle määrälle myöhempiä BIP47-maksuja.

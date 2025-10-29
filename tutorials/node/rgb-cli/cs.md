@@ -14,7 +14,7 @@ Smlouva RGB je strukturována jako evoluční stavový stroj. Začíná Genesis,
 
 Chcete-li se dozvědět více o tom, jak protokol RGB funguje, doporučuji vám absolvovat toto komplexní školení:
 
-https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 
 Vnitřní logika RGB je založena na knihovnách Rust, které můžete jako vývojáři importovat do svých projektů a spravovat tak část *Ověřování na straně klienta*. Kromě toho tým LNP/BP pracuje na vazbách pro další jazyky, ale to ještě není dokončeno. Kromě toho další subjekty, jako například Bitfinex, vyvíjejí své vlastní integrační balíčky, ale o těch si povíme v jiném tutoriálu. Prozatím je oficiálním odkazem `rgb` CLI, i když zůstává relativně nedoladěný.
 
@@ -135,8 +135,8 @@ Zde je příklad souboru YAML, který je třeba vytvořit:
 interface: RGB20Fixed
 globals:
 spec:
-ticker: PBN
-name: Plan B Network
+ticker: Plan ₿ Academy
+name: Plan ₿ Academy
 details: "Pay attention: the asset has no value"
 precision: 2
 terms:
@@ -180,7 +180,7 @@ rgb contracts
 
 ![RGB-CLI](assets/fr/07.webp)
 
-Další příkaz pak zobrazí globální stavy (jméno, ticker, nabídka...) a seznam vlastněných stavů, tj. alokací (například 1 milion tokenů `PBN` definovaných v UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
+Další příkaz pak zobrazí globální stavy (jméno, ticker, nabídka...) a seznam vlastněných stavů, tj. alokací (například 1 milion tokenů `Plan ₿ Academy` definovaných v UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
 
 ```bash
 rgb state '<ContractId>'
@@ -309,4 +309,4 @@ Nyní víte, jak vystavit a převést smlouvu RGB. Pokud se vám tento návod zd
 
 Doporučuji také tento další tutoriál, ve kterém vysvětluji, jak spustit uzel Lightning kompatibilní s RGB a vyměňovat tokeny téměř okamžitě:
 
-https://planb.network/tutorials/node/others/rln-ffc02528-329b-4e16-bd83-873d0299feea
+https://planb.academy/tutorials/node/others/rln-ffc02528-329b-4e16-bd83-873d0299feea

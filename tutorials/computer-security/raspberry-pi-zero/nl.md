@@ -6,7 +6,7 @@ description: Hoe een minimale, geïsoleerde en goedkope computer te bouwen met e
 
 
 
-Als je al een tijdje op de pagina's van Plan ₿ Network bent, heb je al geleerd dat een van de meest bepleite beveiligingsinstellingen, bijna een must, **het beheer van fondsen door offline opslag van je privésleutels** is.
+Als je al een tijdje op de pagina's van Plan ₿ Academy bent, heb je al geleerd dat een van de meest bepleite beveiligingsinstellingen, bijna een must, **het beheer van fondsen door offline opslag van je privésleutels** is.
 
 
 
@@ -14,7 +14,7 @@ Als je het nog niet ontdekt hebt, vind je in deze tutorial links naar open sourc
 
 
 
-Om privésleutels offline te beheren, is er dus een apparaat nodig dat permanent is losgekoppeld van het netwerk, of het nu een [hardware wallet](https://planb.network/resources/glossary/hardware-wallet) is of een airgap-computer die aan deze specifieke functie is gewijd.
+Om privésleutels offline te beheren, is er dus een apparaat nodig dat permanent is losgekoppeld van het netwerk, of het nu een [hardware wallet](https://planb.academy/resources/glossary/hardware-wallet) is of een airgap-computer die aan deze specifieke functie is gewijd.
 
 
 
@@ -500,7 +500,7 @@ Van de Wallets die ik ken, is Electrum de enige die een 32-bits release biedt. W
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-airgap-62b5a4c6-a221-4d41-9a62-4618c53d8223
+https://planb.academy/tutorials/wallet/desktop/electrum-airgap-62b5a4c6-a221-4d41-9a62-4618c53d8223
 
 ## Conclusies
 

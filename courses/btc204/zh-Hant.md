@@ -38,6 +38,8 @@ objectives:
 
 <chapterId>08ba1933-f393-4fb5-8279-777d874caedb</chapterId>
 
+:::video id=687fe126-56db-4fe2-aaac-e481bbb5d838:::
+
 
 歡迎來到 BTC204 課程！
 
@@ -127,6 +129,8 @@ Bitcoin 讓您和平地脫離國家的枷鎖，讓您充分享受您的自然權
 
 <chapterId>8d6b50c5-bf74-44f4-922b-25204991cb75</chapterId>
 
+:::video id=60e8f3fa-9607-47ae-ac4f-5aa747d9b6d4:::
+
 
 
 Bitcoin 首先是一種貨幣，但您真的知道 BTC 在協定上的表示方式嗎？
@@ -197,6 +201,8 @@ UTXOs 是 Exchange 在 Bitcoin 上的工具。每次交易都會消耗作為輸�
 
 
 <chapterId>29d3aaab-de2e-4746-ab40-c9748898850c</chapterId>
+
+:::video id=c79d651d-ff4a-4a75-bc2b-a48a00c17326:::
 
 
 
@@ -323,6 +329,8 @@ Coinbase Transaction 的獨特之處在於，它是唯一一種能夠無中生�
 
 <chapterId>769d8963-3ed5-4094-b21d-9203c7d9e465</chapterId>
 
+:::video id=f83d8e7a-ff4d-4c05-a8ff-0e601c49a508:::
+
 
 
 ### 金錢：真實、誠信和雙重花費
@@ -428,6 +436,8 @@ Coinbase Transaction 的獨特之處在於，它是唯一一種能夠無中生�
 
 <chapterId>7d198ba6-4af2-4f24-86cb-3c79cb25627e</chapterId>
 
+:::video id=3d27ea95-599b-44cc-a24c-a628c2e6a64a:::
+
 
 
 ### 定義與操作
@@ -490,9 +500,9 @@ Blockchain 分析的目的之一是將 Bitcoin 上的各種活動集中在一起
 要反對 Blockchain 分析，還有什麼比了解其中使用的方法更好的方法呢？如果您想知道如何在 Bitcoin 上改善您的隱私，您就需要瞭解這些方法。這將讓您更能掌握 CoinJoin 或 PayJoin 等技術（我們將在課程的最後部分介紹這些技術），並減少您可能犯下的錯誤。
 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
-https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
+https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
 在這方面，我們可以用密碼學和密碼分析來做類比。一個好的密碼學家首先是一個好的密碼分析師。要設計出新的加密演算法，就必須知道它會面對哪些攻擊，同時也要研究之前的演算法為什麼會被破解。同樣的原則也適用於 Bitcoin 隱私權。了解 Blockchain 分析方法是防禦它們的關鍵。這就是為什麼我在本訓練課程中加入一整篇 on chain 分析的原因。
 
@@ -541,6 +551,8 @@ https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e
 
 
 <chapterId>d365a101-2d37-46a5-bfb9-3c51e37bf96b</chapterId>
+
+:::video id=4bd4c9d4-7997-487c-8760-98c74ae1589e:::
 
 
 
@@ -733,6 +745,8 @@ Source : [Mempool.space](https://Mempool.space/fr/tx/00601af905bede31086d9b1b79e
 
 <chapterId>c54b5abe-872f-40f4-a0d0-c59faff228ba</chapterId>
 
+:::video id=bbc145cc-5232-41e4-a7f8-1af4e422635a:::
+
 
 
 內部啟發式 (internal heuristic) 是我們在交易本身中找出的特定特徵，不需要檢視其環境，就能讓我們做出推論。模式著重於高層次的交易整體結構，而內部啟發式則不同，它是以可擷取的資料集為基礎。這包括
@@ -892,6 +906,8 @@ Source : [Mempool.space](https://Mempool.space/tx/b79d8f8e4756d34bbb26c659ab8831
 
 
 <chapterId>4a170e3b-200d-431a-8285-18a23ff617ba</chapterId>
+
+:::video id=f83c94a1-4f60-4dc7-855d-aa6710064575:::
 
 
 
@@ -1481,6 +1497,8 @@ ___
 
 <chapterId>f3e97645-3df3-41bc-a4ed-d2c740113d96</chapterId>
 
+:::video id=5392183e-e317-499f-9757-b69e9d7cda11:::
+
 
 
 在研究過可能破壞 Bitcoin 機密性的技術之後，我們將在第三部分探討保護自己的最佳做法。本部分的目的不是探討改善機密性的方法 (此主題稍後會討論)，而是瞭解如何正確地與 Bitcoin 互動，以保留其自然提供的機密性，而不需訴諸其他技術。
@@ -1653,6 +1671,8 @@ Address 重複使用在 Bitcoin 上確實是一種禍害。根據 OXT.me 網站�
 
 <chapterId>fbdb07cd-c025-48f2-97b0-bd1bc21c68a8</chapterId>
 
+:::video id=4c411c97-ebb2-483d-b4fa-03109cf5d5d7:::
+
 
 
 正如我們在字串分析一節中所發現的，有許多啟發和模式可用來推斷交易資訊。身為使用者，必須瞭解這些技術，才能更好地防範。
@@ -1803,12 +1823,14 @@ UTXO 選擇方法如 FIFO（*先入先出*）和 LIFO（*後入先出*）是最�
 如果您想瞭解如何標記您的 UTXO，我們已針對主要的 Bitcoin Wallet 軟體做了全面的教學：
 
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 ## KYC 和關鍵識別
 
 
 <chapterId>cec6b9d9-0eed-4f85-bc4e-1e9aa59ca605</chapterId>
+
+:::video id=ecf888fe-906f-4293-91b5-1e5ae7b2fde1:::
 
 
 
@@ -1961,6 +1983,8 @@ KYC 特指某些公司為了驗證和登記客戶身份而實施的監管程序�
 
 <chapterId>756598af-95aa-4c77-ac48-243c7ad89530</chapterId>
 
+:::video id=9fd3d90f-32f4-48a2-a740-3597249551db:::
+
 
 
 閱讀完上一章後，您可能會想知道，為了避免與 KYC 相關的風險，您該如何在無需進行身份驗證程序的情況下買入或賣出 Bitcoin。交易 Bitcoin 有幾種方式。
@@ -2038,7 +2062,7 @@ KYC 特指某些公司為了驗證和登記客戶身份而實施的監管程序�
 -> 請參閱我們的 Bisq 教學。
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+https://planb.academy/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 若要更簡單的選擇，您可以試試 [Peach](https://peachbitcoin.com/)，這是一個連接買家和賣家的行動應用程式，內建解決衝突的系統。過程比 Bisq 更直覺。
 
@@ -2046,7 +2070,7 @@ https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8e
 -> 請參閱我們的 Peach 教學。
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
 另一個線上選擇是 [HodlHodl](https://hodlhodl.com/)，這是一個完善的平台，提供良好的流動性，雖然我沒有親自測試過。
 
@@ -2054,7 +2078,7 @@ https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9
 -> 請參閱我們的 HodlHodl 教學。
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+https://planb.academy/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
 關於基於 Lightning Network 的解決方案，請嘗試 [RoboSats](https://learn.robosats.com/) 和 [LNP2PBot](https://lnp2pbot.com/)。RoboSats 可透過網站存取，使用相對簡單。LNP2PBot 則較為非典型，因為它是透過 Telegram 訊息應用程式上的 Exchange 系統運作。
 
@@ -2065,9 +2089,9 @@ https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f
 -> 請參閱我們的 LNP2PBot 教學。
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.academy/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
-https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+https://planb.academy/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
 
 ![BTC204](assets/zh-Hant/096.webp)
 
@@ -2081,7 +2105,7 @@ https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-
 -> 請參閱我們關於 Relai 的教學。
 
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
 正如我們在前一章所看到的，這類平台可讓您免於 KYC 程序所帶來的風險，但它們的鑰匙識別風險確實較高。因此，就 Bitcoin 的保密性而言，這些平台提供的保護比有 KYC 的購買方式更好，但它們的吸引力仍比不上 P2P 交易所。
 
@@ -2116,7 +2140,7 @@ https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d
 有幾個不需要 KYC 程序的平台提供將比特幣兌換成禮品卡的可能性，這些禮品卡可以在主要零售商處使用。這些平台包括 [CoinsBee](https://www.coinsbee.com/), [The Bitcoin Company](https://thebitcoincompany.com/) 和 [Bitrefill](https://www.bitrefill.com/)。這些平台讓比特幣的日常使用變得更加容易，讓您可以使用各種產品和服務，而無需將其轉換為法定貨幣。
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 ![BTC204](assets/zh-Hant/098.webp)
 
@@ -2130,13 +2154,15 @@ https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465
 另一種方法是在 Exchange 中進行比特幣的工作。這種獲取方法可能很有趣，但所需的識別程度因情況不同而有很大差異。
 
 
-*為了撰寫本章，我使用了* [@pivi___](https://x.com/pivi___) *所提供的 BTC205 訓練課程，內容是關於 Plan ₿ Network（目前只有法文版）。*
+*為了撰寫本章，我使用了* [@pivi___](https://x.com/pivi___) *所提供的 BTC205 訓練課程，內容是關於 Plan ₿ Academy（目前只有法文版）。*
 
 
 ## 整合、UTXO 管理和 CIOH
 
 
 <chapterId>d0486c8f-332d-402b-ae2e-949416752b9c</chapterId>
+
+:::video id=9e5841a2-4ff5-460e-a161-0e0af57f95d8:::
 
 
 
@@ -2259,6 +2285,8 @@ Blockchain 分析中最廣泛使用的啟發式之一是 CIOH（*共同輸入 Ow
 
 <chapterId>b5216965-7d13-4ea1-9b7c-e292966a487b</chapterId>
 
+:::video id=5fc4ce39-6a0b-419a-baa9-f6da75427987:::
+
 
 
 讓我們來看看其他幾個優化 Bitcoin 隱私權的最佳做法。
@@ -2340,6 +2368,8 @@ Blockchain 分析中最廣泛使用的啟發式之一是 CIOH（*共同輸入 Ow
 
 
 <chapterId>0862bc6b-1c48-4aa4-b76d-4f547b469008</chapterId>
+
+:::video id=37f23334-4b52-43db-8d82-bd84310af86c:::
 
 
 
@@ -2490,6 +2520,8 @@ Coinjoins 有時被描述為 "mixers"，一些比特幣玩家拒絕使用這個�
 
 
 <chapterId>326c9654-b359-4906-b23d-d6518dd5dc3e</chapterId>
+
+:::video id=7df91435-f60b-4d80-89a8-79717a14ebd3:::
 
 
 
@@ -2666,6 +2698,8 @@ Zerolink 採取的一項重要預防措施，是使用獨立的密碼金鑰集�
 
 <chapterId>e37ed073-9498-4e4f-820b-30951e829596</chapterId>
 
+:::video id=36021102-82f3-4e86-80a9-168e3431ce7b:::
+
 
 
 **2024 年，我們見證了希望在 Bitcoin 上進行硬幣接合的使用者所能使用的工具發生了重大變化。我們目前正處於轉捩點，CoinJoin 市場正經歷重大的重整。本章一定會隨著時間更新**
@@ -2785,6 +2819,8 @@ Whirlpool 實現了 ZeroLink 協定，可確保混合前和混合後的 UTXO 嚴
 
 
 <chapterId>bdbd7109-e36d-4b4f-a3c6-928df4e9bfda</chapterId>
+
+:::video id=e40f1195-d028-44d3-be24-d76427f9d24b:::
 
 
 
@@ -3107,7 +3143,7 @@ Tx0" 是 Whirlpool 混合過程的第一步。其目的是為 CoinJoin 準備和
 
 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
 
 
@@ -3115,6 +3151,8 @@ https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e56680
 
 
 <chapterId>be1093dc-1a74-40e5-9545-2b97a7d7d431</chapterId>
+
+:::video id=03d8581a-3454-4225-9068-a6434840cbcb:::
 
 
 
@@ -3226,6 +3264,8 @@ Anonsets 是用來評估特定 UTXO 機密程度的指標。更明確地說，�
 
 
 <chapterId>e4fe289d-618b-49a2-84c9-68c562e708b4</chapterId>
+
+:::video id=5118b15a-a58f-4529-8a91-4e9f6a093fce:::
 
 
 
@@ -3535,7 +3575,7 @@ $$
 現在我們已經詳細介紹了硬幣接合，在課程的最後一部分，我們將探討 Bitcoin 上的其他隱私技術。我們將探討 payjoins、特定的偽 CoinJoin 交易類型、靜態 Address 協定，以及不是在交易本身層級，而是在節點網路層級強化機密性的措施。
 
 
-https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
+https://planb.academy/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
 
 # 瞭解其他先進保密技術的挑戰
 
@@ -3547,6 +3587,8 @@ https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6
 
 
 <chapterId>c1e90b95-f709-4574-837b-2ec26b11286f</chapterId>
+
+:::video id=5496cb59-006e-40b8-971f-af6d98868527:::
 
 
 
@@ -3670,12 +3712,14 @@ PayJoin 的第二個目的是誤導外部觀察者，讓他們不知道實際支
 
 
 
-https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
+https://planb.academy/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
 
 ## 付款 mini-CoinJoin
 
 
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
+
+:::video id=1f33e8f1-e41d-4480-a388-e283ef51cc17:::
 
 
 
@@ -3849,14 +3893,16 @@ Stonewall 和 Stonewall x2 交易在 Samourai Wallet 應用程式和 Sparrow Wal
 在下一章中，我們將介紹另一種相對陌生的保密技術，但作為我們已學過的知識的補充，它非常有用。
 
 
-https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
+https://planb.academy/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
 
-https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
+https://planb.academy/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
 
 ## 跳彈
 
 
 <chapterId>db9a20ac-a149-443d-884b-ea6c03f28499</chapterId>
+
+:::video id=3c9ce9e5-4081-4c36-98f9-9fc3779c0337:::
 
 
 
@@ -3960,12 +4006,14 @@ Samurai 應用程式提供兩種跳彈變體：
 在下一章中，我們將探討秘密轉移 Ownership 的不同技術。這些方法與我們迄今為止所研究過的方法，無論在操作上或結果上都有很大的不同。
 
 
-https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
+https://planb.academy/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
 
 ## Ownership 的秘密轉移
 
 
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
+
+:::video id=374f79ce-fc61-4528-8b69-b5ca7c7eaa6f:::
 
 
 
@@ -4152,6 +4200,8 @@ Ownership 的秘密轉移，例如硬幣交換和原子交換，具有欺騙連�
 
 <chapterId>04a2467b-db84-4076-a9ff-919be5135106</chapterId>
 
+:::video id=8428b212-de79-48a5-b984-ed7936861c2f:::
+
 
 
 在第四部分中，我們討論了使用完整節點來保護您的交易機密性的重要性。然而，重要的是要了解您的節點本身也可能受到攻擊，試圖擷取您的活動資訊。因此，在本章中，我們將探討您可以採取的各種措施來保護您的隱私，這些措施不是在交易本身或 Bitcoin 流量層級，而是在網路層級。
@@ -4267,6 +4317,8 @@ Tor 不僅可以加密資料，還可以隱藏通訊的來源和目的地。透�
 
 <chapterId>ad88e076-a04b-4aec-b3b2-7b4760175504</chapterId>
 
+:::video id=b0e9acc2-b50f-4caa-a1d7-cf8624b8e727:::
+
 
 
 正如我們在第三部分所看到的，Address 重複使用會嚴重妨礙 Bitcoin 通訊協定上的使用者機密性。為了降低這些風險，強烈建議在 Wallet 收到每筆新付款時，都要 generate 產生一個空白的收款 Address。儘管現代軟體和分層確定式錢包的使用已簡化了生成新 Address 的過程，但這種做法看起來可能有違直覺。
@@ -4362,10 +4414,10 @@ PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4
 
 
 ---
-*在本章專門介紹 BIP47 的以下幾節中，我們將詳細介紹其工作原理，並特別強調所使用的加密方法。要完全掌握這些有點技術性的解釋，必須先瞭解 HD 錢包的結構、金鑰推演程序和橢圓曲線加密學的基本原理。如果您想深入瞭解這些概念，Plan ₿ Network 上還有另一個免費的訓練課程：*。
+*在本章專門介紹 BIP47 的以下幾節中，我們將詳細介紹其工作原理，並特別強調所使用的加密方法。要完全掌握這些有點技術性的解釋，必須先瞭解 HD 錢包的結構、金鑰推演程序和橢圓曲線加密學的基本原理。如果您想深入瞭解這些概念，Plan ₿ Academy 上還有另一個免費的訓練課程：*。
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 *我仍然建議您遵循這些建議，因為瞭解 BIP47 的技術運作，將使您更容易理解其他類似的提案，我們將在以下章節中討論這些提案*。
 
@@ -5438,12 +5490,14 @@ $$ K0 = k0 \cdot G $$
 *非常感謝 [Fanis Michalakis](https://x.com/FanisMichalakis)，感謝他對文章的校對和專家意見，啟發了本章的撰寫！*
 
 
-https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
+https://planb.academy/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
 
 ## 無聲付款
 
 
 <chapterId>2871d594-414e-4598-a830-91c9eb84dfb8</chapterId>
+
+:::video id=85b2780e-864e-4f64-b843-f272277181e6:::
 
 
 

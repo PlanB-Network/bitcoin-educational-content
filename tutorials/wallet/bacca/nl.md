@@ -137,11 +137,11 @@ Je hebt nu toegang tot de software Interface.
 Voordat u begint, als uw Ledger nieuw is, moet u ervoor zorgen dat u de pincode hebt ingesteld en de herstelzin hebt opgeslagen. Je hebt Ledger Live niet nodig voor deze eerste stappen. Sluit uw Ledger gewoon aan via de USB-kabel om hem van stroom te voorzien. Als je niet zeker weet hoe je verder moet gaan met deze twee stappen, kun je het begin van de handleiding voor jouw model raadplegen:
 
 
-https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
+https://planb.academy/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
 ## Bacca gebruiken
 
@@ -197,4 +197,4 @@ Als je deze tutorial nuttig vond, zou ik je dankbaar zijn als je hieronder een G
 Ik raad je ook aan deze tutorial over GnuPG te bekijken, die uitlegt hoe je de integriteit en authenticiteit van je software kunt controleren voordat je het installeert. Dit is een belangrijke praktijk, vooral wanneer je Wallet beheersoftware zoals Liana of Sparrow installeert:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc

@@ -104,7 +104,7 @@ Za ovaj vodič, pokazaću vam kako da koristite Trezor Safe 5 sa [Sparrow Wallet
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Trebaće vam i softver Trezor Suite da konfigurišete Safe 5, proverite njegovu autentičnost i instalirate firmware. Ovaj softver ćemo koristiti samo za to, a nakon toga će biti potreban samo za ažuriranja firmware-a. Za svakodnevno upravljanje Wallet, koristićemo isključivo Sparrow Wallet, jer je optimizovan za Bitcoin i lak za korišćenje, čak i za početnike (Sparrow podržava samo Bitcoin, ne altcoine).
 
@@ -122,7 +122,7 @@ Za oba ova programa, toplo preporučujem da proverite i njihovu autentičnost (s
 
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## Pokretanje Trezor Safe 5
 
@@ -220,7 +220,7 @@ Ako želite da saznate više o drugim opcijama bekapa dostupnim na Trezoru, uklj
 
 
 
-https://planb.network/tutorials/wallet/backup/trezor-shamir-backup-7f98b593-face-48fb-a643-0e811b87c94e
+https://planb.academy/tutorials/wallet/backup/trezor-shamir-backup-7f98b593-face-48fb-a643-0e811b87c94e
 
 
 ![Image](assets/fr/14.webp)
@@ -287,7 +287,7 @@ Za više informacija o pravilnom načinu čuvanja i upravljanja vašom Mnemonic 
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ![Image](assets/fr/19.webp)
 
@@ -401,7 +401,7 @@ Kada otvorite Sparrow Wallet, proverite da li je softver povezan sa Bitcoin čvo
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Kliknite na karticu "*File*", zatim na "*New Wallet*".
 
@@ -483,7 +483,7 @@ Da biste saznali više o tome kako izvršiti test oporavka, predlažem da pogled
 
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Kako mogu primiti bitkoine sa Trezor Safe 5?
 
@@ -641,6 +641,6 @@ Možete ga pronaći na kartici "*Transactions*" u Sparrow Wallet.
 
 
 
-https://planb.network/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
+https://planb.academy/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
 
 Ako ste našli ovaj vodič korisnim, bio bih zahvalan ako biste ostavili Green palac ispod. Slobodno podelite ovaj članak na vašim društvenim mrežama. Hvala vam puno!

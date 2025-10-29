@@ -1,5 +1,5 @@
 ---
-name: 使用元素和液体网络构建
+name: 通过 Elements 和 Liquid Network 进行构建
 goal: 学习使用 Elements 开源区块链平台及其主要功能并进行开发
 objectives: 
 

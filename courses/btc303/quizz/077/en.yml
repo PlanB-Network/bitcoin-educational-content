@@ -1,0 +1,8 @@
+question: What is the key distinction between 'disclosure' and 'publication' in the context of Bitcoin security vulnerability handling?
+answer: Disclosure is informing the vendor privately, while publication is making the vulnerability known to potential attackers publicly
+wrong_answers:
+  - Disclosure is for critical vulnerabilities, while publication is for non-critical vulnerabilities that are harder to exploit
+  - Disclosure involves notifying Bitcoin Core developers, while publication involves informing altcoin and other implementation teams
+  - Disclosure requires immediate action and patches, while publication allows for gradual fixes through normal development flow
+explanation: |
+  Gregory Maxwell emphasized this crucial distinction in the mailing list discussion. Disclosure refers to the responsible act of privately informing the software maintainers (the vendor) about a vulnerability so they can work on a fix. Publication, however, means making the vulnerability information publicly available, which effectively informs potential attackers about the exploit. This distinction is critical because while disclosure helps protect the system, premature publication can cause harm by enabling malicious actors to exploit the vulnerability before adequate defenses are in place.

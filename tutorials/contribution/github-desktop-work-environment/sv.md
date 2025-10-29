@@ -12,13 +12,13 @@ Om du vill bidra till PlanB-nätverket måste du använda GitHub för att föres
 
 
 - **Bidra direkt via GitHubs webb Interface**: Detta är den enklaste metoden. Om du är nybörjare eller om du bara planerar att göra några få mindre bidrag är det här alternativet förmodligen det bästa för dig;
-- Bidra lokalt med hjälp av **Git**: Den här metoden är mer lämplig om du planerar att göra regelbundna eller betydande bidrag till PlanB Network. Även om det kan verka komplicerat i början att konfigurera din lokala Git-miljö på din dator, är detta tillvägagångssätt effektivare i det långa loppet. Det möjliggör en mer flexibel hantering av ändringar. Om du är ny på detta, oroa dig inte, **vi förklarar hela processen med att ställa in din miljö i denna handledning** (lovar, du behöver inte skriva några kommandorader ^^).
+- Bidra lokalt med hjälp av **Git**: Den här metoden är mer lämplig om du planerar att göra regelbundna eller betydande bidrag till Plan ₿ Academy. Även om det kan verka komplicerat i början att konfigurera din lokala Git-miljö på din dator, är detta tillvägagångssätt effektivare i det långa loppet. Det möjliggör en mer flexibel hantering av ändringar. Om du är ny på detta, oroa dig inte, **vi förklarar hela processen med att ställa in din miljö i denna handledning** (lovar, du behöver inte skriva några kommandorader ^^).
 
 
 Om du inte har en aning om vad GitHub är, eller om du vill lära dig mer om de tekniska termerna relaterade till Git och GitHub, rekommenderar jag att du läser vår introduktionsartikel för att bekanta dig med dessa begrepp.
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -26,7 +26,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 - För att börja behöver du naturligtvis ett GitHub-konto. Om du redan har ett kan du logga in, annars kan du använda vår handledning för att skapa ett nytt.
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -61,7 +61,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ## Steg 2: Installera Obsidian
 
 
-Låt oss nu gå vidare till att installera skrivprogrammet. Här har du flera alternativ. Du kommer att behöva programvara som stöder redigering av Markdown-filer, eftersom PlanB Network använder detta format för textfiler i sitt arkiv.
+Låt oss nu gå vidare till att installera skrivprogrammet. Här har du flera alternativ. Du kommer att behöva programvara som stöder redigering av Markdown-filer, eftersom Plan ₿ Academy använder detta format för textfiler i sitt arkiv.
 
 
 Det finns en mängd program som är specialiserade på att redigera Markdown-filer, till exempel Typora, som är utformad speciellt för att skriva. Även om det inte är idealiskt är det också möjligt att välja en kodredigerare, som Visual Studio Code (VSC) eller Sublime Text. Som skribent föredrar jag dock att använda programvaran Obsidian. Låt oss tillsammans se hur man installerar och kommer igång med den.
@@ -73,14 +73,14 @@ Det finns en mängd program som är specialiserade på att redigera Markdown-fil
 - Du kommer att anlända till Obsidian-programvaran. För tillfället har du inga filer öppna: ![github-desktop](assets/9.webp)
 
 
-## Steg 3: Fork PlanB Network-arkivet
+## Steg 3: Fork Plan ₿ Academy-arkivet
 
 
 
-- Gå till datalagret för PlanB Network på följande Address: [https://github.com/PlanB-Network/Bitcoin-educational-content](https://github.com/PlanB-Network/Bitcoin-educational-content): ![github-desktop](tillgångar/10.webp)
+- Gå till datalagret för Plan ₿ Academy på följande Address: [https://github.com/PlanB-Network/Bitcoin-educational-content](https://github.com/PlanB-Network/Bitcoin-educational-content): ![github-desktop](tillgångar/10.webp)
 - Från denna sida, klicka på `Fork` knappen längst upp till höger i fönstret: ![github-desktop](assets/11.webp)
 - I skapandemenyn kan du lämna standardinställningarna. Se till att rutan `Kopiera endast dev-grenen` är markerad och klicka sedan på knappen `Create Fork`: ![github-desktop](assets/12.webp)
-- Du kommer då att komma till din egen Fork i PlanB Network-arkivet: ![github-desktop](assets/13.webp)
+- Du kommer då att komma till din egen Fork i Plan ₿ Academy-arkivet: ![github-desktop](assets/13.webp)
 
 Denna Fork utgör ett separat arkiv från det ursprungliga, även om det för närvarande innehåller samma data. Du kommer nu att arbeta med detta nya arkiv.
 
@@ -116,7 +116,7 @@ För att upprätthålla konsistensen mellan dessa två arkiv kommer det att vara
 ![github-desktop](assets/18.webp)
 
 
-- Efter kloning av förvaret erbjuder programvaran dig två alternativ. Du måste välja det första: `Att bidra till moderprojektet`. Detta val gör att du kan presentera ditt framtida arbete som ett bidrag till moderprojektet (`PlanB-Network/Bitcoin-educational-content`), och inte enbart som en modifiering av din personliga Fork (`[användarnamn]/Bitcoin-educational-content`). När du har valt alternativet klickar du på "Fortsätt":
+- Efter kloning av förvaret erbjuder programvaran dig två alternativ. Du måste välja det första: `Att bidra till moderprojektet`. Detta val gör att du kan presentera ditt framtida arbete som ett bidrag till moderprojektet (`Plan ₿ Academy/Bitcoin-educational-content`), och inte enbart som en modifiering av din personliga Fork (`[användarnamn]/Bitcoin-educational-content`). När du har valt alternativet klickar du på "Fortsätt":
 
 ![github-desktop](assets/19.webp)
 
@@ -125,10 +125,10 @@ För att upprätthålla konsistensen mellan dessa två arkiv kommer det att vara
 
 ![github-desktop](assets/20.webp)
 
-Vad vi har uppnått i det här skedet är skapandet av en lokal kopia av ditt arkiv, som finns på GitHub. Som en påminnelse är detta förvar en Fork av källförvaret för PlanB Network. Du kommer att kunna göra ändringar i denna lokala kopia, till exempel lägga till handledning, översättningar eller korrigeringar. När dessa ändringar har gjorts använder du kommandot **Push origin** för att skicka dina lokala ändringar till din Fork som finns på GitHub.
+Vad vi har uppnått i det här skedet är skapandet av en lokal kopia av ditt arkiv, som finns på GitHub. Som en påminnelse är detta förvar en Fork av källförvaret för Plan ₿ Academy. Du kommer att kunna göra ändringar i denna lokala kopia, till exempel lägga till handledning, översättningar eller korrigeringar. När dessa ändringar har gjorts använder du kommandot **Push origin** för att skicka dina lokala ändringar till din Fork som finns på GitHub.
 
 
-Du kan också hämta ändringar från Fork, t.ex. under en synkronisering med PlanB Network-arkivet. För detta använder du kommandot **Fetch origin** för att hämta ändringarna till din lokala kopia (din klon), och sedan kommandot **Pull origin** för att sammanfoga dem med ditt arbete. Detta gör att du kan hålla dig uppdaterad med den senaste utvecklingen av projektet samtidigt som du bidrar på ett effektivt sätt.
+Du kan också hämta ändringar från Fork, t.ex. under en synkronisering med Plan ₿ Academy-arkivet. För detta använder du kommandot **Fetch origin** för att hämta ändringarna till din lokala kopia (din klon), och sedan kommandot **Pull origin** för att sammanfoga dem med ditt arbete. Detta gör att du kan hålla dig uppdaterad med den senaste utvecklingen av projektet samtidigt som du bidrar på ett effektivt sätt.
 
 
 ![github-desktop](assets/21.webp)
@@ -148,7 +148,7 @@ Du kan också hämta ändringar från Fork, t.ex. under en synkronisering med Pl
 
 ![github-desktop](assets/24.webp)
 
--> Det är viktigt att du inte väljer mappen `Bitcoin-educational-content` när du skapar ett nytt valv i Obsidian. Välj istället den överordnade mappen, `GitHub`. Om du väljer mappen `Bitcoin-educational-content` kommer konfigurationsmappen `.obsidian`, som innehåller dina lokala Obsidian-inställningar, automatiskt att integreras i förvaret. Vi vill undvika detta, eftersom det inte är nödvändigt att överföra dina Obsidian-konfigurationer till PlanB Network-arkivet. Ett alternativ är att lägga till mappen `.obsidian` i filen `.gitignore`, men den här metoden skulle också ändra filen `.gitignore` i källförvaret, vilket inte är önskvärt.
+-> Det är viktigt att du inte väljer mappen `Bitcoin-educational-content` när du skapar ett nytt valv i Obsidian. Välj istället den överordnade mappen, `GitHub`. Om du väljer mappen `Bitcoin-educational-content` kommer konfigurationsmappen `.obsidian`, som innehåller dina lokala Obsidian-inställningar, automatiskt att integreras i förvaret. Vi vill undvika detta, eftersom det inte är nödvändigt att överföra dina Obsidian-konfigurationer till Plan ₿ Academy-arkivet. Ett alternativ är att lägga till mappen `.obsidian` i filen `.gitignore`, men den här metoden skulle också ändra filen `.gitignore` i källförvaret, vilket inte är önskvärt.
 
 
 
@@ -164,7 +164,7 @@ Du kan också hämta ändringar från Fork, t.ex. under en synkronisering med Pl
 ## Steg 6: Installera en kodredigerare
 
 
-De flesta av dina ändringar kommer att göras i filer i Markdown-format (`.md`). För att redigera dessa dokument kan du använda Obsidian, den programvara som vi diskuterade tidigare. PlanB Network använder dock andra filformat, och du kommer att behöva modifiera några av dem.
+De flesta av dina ändringar kommer att göras i filer i Markdown-format (`.md`). För att redigera dessa dokument kan du använda Obsidian, den programvara som vi diskuterade tidigare. Plan ₿ Academy använder dock andra filformat, och du kommer att behöva modifiera några av dem.
 
 
 När du t.ex. skapar en ny handledning måste du skapa en YAML-fil (`.yml`) för att ange taggarna för din handledning, dess titel och ditt lärar-ID. Obsidian erbjuder inte möjligheten att ändra den här typen av filer, så du behöver en kodredigerare.
@@ -175,9 +175,9 @@ För detta finns flera alternativ tillgängliga för dig. Även om datorns stand
 
 - Installera ett av dessa program och spara det för framtida ändringar. ![github-desktop](assets/26.webp)
 
-Gratulerar till ditt bidrag! Din arbetsmiljö är nu inställd för att bidra till PlanB Network. Du kan nu utforska våra andra specifika handledningar för varje typ av bidrag (översättning, korrekturläsning, skrivning.
+Gratulerar till ditt bidrag! Din arbetsmiljö är nu inställd för att bidra till Plan ₿ Academy. Du kan nu utforska våra andra specifika handledningar för varje typ av bidrag (översättning, korrekturläsning, skrivning.
 
 
-https://planb.network/tutorials/others
+https://planb.academy/tutorials/others
 
 ..).

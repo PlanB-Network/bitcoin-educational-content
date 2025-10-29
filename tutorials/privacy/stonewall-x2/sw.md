@@ -73,7 +73,7 @@ Kwa hivyo, mantiki inapaswa kuwa kama ifuatavyo wakati wa kutumia tools ya matum
 Iwapo ungependa kupata mshirika ambaye yuko tayari kukusaidia katika muamala wa Stonewall X2, unaweza pia kutembelea kikundi hiki cha Telegram (kisicho rasmi) kinachodumishwa na watumiaji wa Samourai ili kuunganisha watumaji na washirika: [Make Every Spend a CoinJoin](https://t.me/EverySpendACoinjoin).
 
 
-[**-> Pata maelezo zaidi kuhusu muamala za Stonewall**](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
+[**-> Pata maelezo zaidi kuhusu muamala za Stonewall**](https://planb.academy/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 
 ## Madhumuni ya muamala wa Stonewall x2 ni nini?

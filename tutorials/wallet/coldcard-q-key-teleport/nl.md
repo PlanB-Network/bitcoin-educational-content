@@ -95,7 +95,7 @@ Een QR code wordt gegenereerd op het scherm. Nogmaals, je moet deze QR code comm
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 *We hebben momenteel:*
 
@@ -145,7 +145,7 @@ U wordt nu gevraagd om de aard van de geheimen te kiezen die moeten worden verzo
 
 
 
-Hier zal ons geheim een kort bericht zijn door **"Snel tekstbericht"** te kiezen. Typ je bericht (voor ons "PlanB Network rocks") en druk vervolgens op **"ENTER"**.
+Hier zal ons geheim een kort bericht zijn door **"Snel tekstbericht"** te kiezen. Typ je bericht (voor ons "Plan ₿ Academy rocks") en druk vervolgens op **"ENTER"**.
 
 
 Het apparaat genereert dan een nieuw willekeurig wachtwoord genaamd **"Teleport Password"** , in het voorbeeld "NE XG BT SK".
@@ -190,7 +190,7 @@ Druk op de knop **"QR"** om de QR-code te scannen die door het verzendende appar
 
 
 
-De gegevens worden vervolgens gedecodeerd en begrijpelijk gemaakt voor het ontvangende apparaat. Het ontvangen bericht is inderdaad "PlanB Network rocks". Dat is alles.
+De gegevens worden vervolgens gedecodeerd en begrijpelijk gemaakt voor het ontvangende apparaat. Het ontvangen bericht is inderdaad "Plan ₿ Academy rocks". Dat is alles.
 
 
 

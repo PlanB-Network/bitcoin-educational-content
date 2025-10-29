@@ -322,7 +322,7 @@ Electrum, çoklu Wallet yönetimi ve passphrase koruması gibi gelişmiş özell
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 ## Manjaro sisteminizin güvenliğini sağlama
 
@@ -395,4 +395,4 @@ Manjaro **kararlılık, hız ve güvenliği** bir araya getirirken **tamamen üc
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+https://planb.academy/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973

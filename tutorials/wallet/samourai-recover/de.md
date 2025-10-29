@@ -29,10 +29,10 @@ Andererseits sind einige Werkzeuge entweder durch die Serverabschaltung betroffe
 Bezüglich der individuellen Ausgabewerkzeuge funktioniert alles normal, vorausgesetzt natürlich, dass Sie Ihr eigenes Dojo haben. Normale Stonewall-Transaktionen (und nicht Stonewall x2) funktionieren ohne Probleme.
 
 Kommentare auf Twitter haben hervorgehoben, dass die durch eine Stonewall-Transaktion gebotene Privatsphäre jetzt reduziert sein könnte. Der Mehrwert einer Stonewall-Transaktion liegt in der Tatsache, dass sie strukturell von einer Stonewall x2-Transaktion nicht zu unterscheiden ist. Wenn ein Analyst auf dieses spezifische Muster stößt, kann er nicht bestimmen, ob es sich um eine Standard-Stonewall mit einem einzelnen Benutzer oder eine Stonewall x2 mit zwei Benutzern handelt. Wie wir jedoch in den folgenden Absätzen sehen werden, ist die Durchführung von Stonewall x2-Transaktionen aufgrund der Nichtverfügbarkeit von Soroban komplexer geworden. Einige denken daher, dass ein Analyst jetzt annehmen könnte, dass jede Transaktion mit dieser Struktur eine normale Stonewall ist. Persönlich teile ich diese Annahme nicht. Obwohl Stonewall x2-Transaktionen möglicherweise weniger häufig sind (und ich denke, sie waren es bereits vor diesem Vorfall), kann die Tatsache, dass sie immer noch möglich sind, eine gesamte Analyse basierend auf der Annahme, dass sie es nicht sind, ungültig machen.
-**[-> Erfahren Sie mehr über Stonewall-Transaktionen.](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)**
+**[-> Erfahren Sie mehr über Stonewall-Transaktionen.](https://planb.academy/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)**
 Bezüglich Ricochet konnte ich nicht überprüfen, ob der Dienst noch betriebsbereit ist, da ich kein Dojo im Testnet besitze, und ich möchte es vermeiden, `100 000 Sats` an eine Wallet zu senden, die von den Behörden kontrolliert werden könnte. Wenn Sie kürzlich die Gelegenheit hatten, dieses Werkzeug zu testen, lade ich Sie ein, mich zu kontaktieren, damit wir diesen Artikel aktualisieren können.
 
-Wenn Sie Ricochet verwenden müssen, beachten Sie, dass Sie diese Operation immer manuell mit jeder Wallet-Software durchführen können. Um zu lernen, wie man die verschiedenen Sprünge richtig manuell durchführt, empfehle ich, diesen anderen Artikel zu konsultieren: [**RICOCHET**](https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589).
+Wenn Sie Ricochet verwenden müssen, beachten Sie, dass Sie diese Operation immer manuell mit jeder Wallet-Software durchführen können. Um zu lernen, wie man die verschiedenen Sprünge richtig manuell durchführt, empfehle ich, diesen anderen Artikel zu konsultieren: [**RICOCHET**](https://planb.academy/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589).
 
 Das JoinBot-Werkzeug ist nicht mehr betriebsbereit, da es vollständig von der Teilnahme einer von Samourai verwalteten Wallet abhängig war.
 
@@ -43,9 +43,9 @@ Bezüglich anderer Arten von kollaborativen Transaktionen, oft als "Cahoots" bez
 Nach mehreren Tests scheint es, dass Soroban nicht mehr funktioniert. Um diese kollaborativen Transaktionen durchzuführen, muss der Datenaustausch daher manuell erfolgen. Hier sind zwei Optionen für diesen Austausch:
 - Wenn Sie physisch nahe bei Ihrem Kollaborateur sind, können Sie die QR-Codes nacheinander scannen;
 - Wenn Sie von Ihrem Mitarbeiter entfernt sind, können Sie die PSBTs über einen externen Kommunikationskanal zur Anwendung austauschen. Seien Sie jedoch vorsichtig, da die Daten in diesen PSBTs in Bezug auf die Privatsphäre sensibel sind. Ich empfehle die Verwendung eines verschlüsselten Nachrichtendienstes, um die Vertraulichkeit des Austauschs zu gewährleisten.
-**[-> Erfahren Sie mehr über Stonewall x2 Transaktionen.](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)**
+**[-> Erfahren Sie mehr über Stonewall x2 Transaktionen.](https://planb.academy/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)**
 
-**[-> Erfahren Sie mehr über Stowaway Transaktionen.](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)**
+**[-> Erfahren Sie mehr über Stowaway Transaktionen.](https://planb.academy/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)**
 
 Was Whirlpool betrifft, so scheint das Protokoll nicht mehr zu funktionieren, selbst für Benutzer, die ihren eigenen Dojo haben. Ich habe in den letzten Tagen mein RoninDojo überwacht und einige grundlegende Manipulationen versucht, aber das Whirlpool CLI konnte seit der Serverabschaltung nicht mehr verbinden.
 
@@ -145,7 +145,7 @@ Wenn Sie eine andere Software als Sparrow verwenden, wie Electrum, um Ihre Samou
 - Premix: `m/84'/0'/2147483645'`
 - Postmix: `m/84'/0'/2147483646'`
 
-Sie haben jetzt Zugang zu Ihren Bitcoins auf Sparrow. Wenn Sie Hilfe bei der Verwendung von Sparrow Wallet benötigen, können Sie auch [unser spezielles Tutorial](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d) auschecken.
+Sie haben jetzt Zugang zu Ihren Bitcoins auf Sparrow. Wenn Sie Hilfe bei der Verwendung von Sparrow Wallet benötigen, können Sie auch [unser spezielles Tutorial](https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d) auschecken.
 
 Ich empfehle auch, die Labels, die Sie mit Ihren UTXOs auf Samourai verknüpft hatten, manuell zu importieren. Dies ermöglicht Ihnen später eine effektive Kontrolle über Ihre Coins auf Sparrow.
 
@@ -201,7 +201,7 @@ Wenn Sie eine andere Software wie Electrum verwenden, um Ihre Samourai-Wallet wi
 - Premix: `m/84'/0'/2147483645'`
 - Postmix: `m/84'/0'/2147483646'`
 
-Sie haben jetzt Zugang zu Ihren Bitcoins auf Sparrow. Wenn Sie Hilfe bei der Verwendung von Sparrow Wallet benötigen, können Sie auch [unser spezielles Tutorial](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d) konsultieren.
+Sie haben jetzt Zugang zu Ihren Bitcoins auf Sparrow. Wenn Sie Hilfe bei der Verwendung von Sparrow Wallet benötigen, können Sie auch [unser spezielles Tutorial](https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d) konsultieren.
 
 Ich empfehle auch, die Labels, die Sie mit Ihren UTXOs auf Samourai verknüpft hatten, manuell zu importieren. Dies ermöglicht Ihnen später eine effektive Kontrolle über Ihre Coins auf Sparrow.
 

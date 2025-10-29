@@ -47,7 +47,7 @@ Genda kuri [urubuga rwemewe rwa Bitcoin Knots](https://bitcoinknots.org/#gukurah
 Imbere yo gushiramwo iyo porogarama ku mashine yawe, turagusavye cane ko wosuzuma ko ari iyo ukuri be n’uko idakora neza. Niba utazi uko bigenda, raba iyi yindi nyigisho:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 Iyo porogarama imaze kugenzurwa, nuyishiremwo ukurikije intambwe zigaragara mu gice co gushiramwo.
 
 
@@ -173,7 +173,7 @@ Wallet yawe uyihe izina. Ushobora kandi kuyikingira na passphrase BIP39 ukanda k
 passphrase BIP39 ni ijambobanga ry'ubuhinga ushobora guhitamwo mu mwidegemvyo, ushizeko ijambobanga ryawe rya Mnemonic, kugira ngo wongere umutekano wa Wallet yawe. Imbere yo gutunganya iki gikoresho, turaguhanura cane gusoma ingingo ikurikira, isigura mu buryo burambuye ingene passphrase ikora mu vyiyumviro, n’ingene wokwirinda amakosa yoshobora gutuma utakaza amafaranga yawe ubudasiba:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 Niba warakoresheje uburyo bwa passphrase, nuhitemwo uburyo bukomeye maze ububike witonze ku kinyamakuru kimwe canke vyinshi bifise umutekano.
 
 
@@ -407,4 +407,4 @@ Niba wabonye iyi nyigisho ari ngirakamaro, noshima cane iyo usiga urukumu rwa Gr
 Ndababwira kandi iyi yindi nyigisho aho ndabasigurira ingene woshiraho urudodo rwawe rw'umuravyo:
 
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a

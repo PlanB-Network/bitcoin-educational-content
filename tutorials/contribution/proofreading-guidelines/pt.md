@@ -1,27 +1,27 @@
 ---
 name: Diretrizes de revisão
-description: Quais são os factores importantes a ter em conta na revisão de provas no Plan ₿ Network?
+description: Quais são os factores importantes a ter em conta na revisão de provas no Plan ₿ Academy?
 ---
 
 ![github](assets/cover.webp)
 
 
-Bem-vindo a este tutorial sobre as **diretrizes a seguir na revisão de conteúdos do Plan ₿ Network**. Estamos satisfeitos por partilhar a nossa missão de traduzir os materiais do Bitcoin no maior número de línguas possível, de modo a ajudar as pessoas a conhecerem o seu funcionamento e a forma como pode ser utilizado no seu dia a dia.
+Bem-vindo a este tutorial sobre as **diretrizes a seguir na revisão de conteúdos do Plan ₿ Academy**. Estamos satisfeitos por partilhar a nossa missão de traduzir os materiais do Bitcoin no maior número de línguas possível, de modo a ajudar as pessoas a conhecerem o seu funcionamento e a forma como pode ser utilizado no seu dia a dia.
 
 
-Antes de mais, contribuir para o [repositório público](https://github.com/PlanB-Network/Bitcoin-educational-content) do Plan ₿ Network dá-lhe a oportunidade de escrever tutoriais, rever o conteúdo existente ou até propor a adição de uma nova língua à plataforma. Para saberes mais, junta-te primeiro ao nosso [Grupo de Telegramas](https://t.me/PlanBNetwork_ContentBuilder) e escreve uma breve apresentação sobre ti e as línguas que sabes falar.
+Antes de mais, contribuir para o [repositório público](https://github.com/PlanB-Network/Bitcoin-educational-content) do Plan ₿ Academy dá-lhe a oportunidade de escrever tutoriais, rever o conteúdo existente ou até propor a adição de uma nova língua à plataforma. Para saberes mais, junta-te primeiro ao nosso [Grupo de Telegramas](https://t.me/PlanBNetwork_ContentBuilder) e escreve uma breve apresentação sobre ti e as línguas que sabes falar.
 
 
-O presente tutorial é dedicado aos colaboradores que pretendem rever conteúdos. A maioria deles não sabe muito sobre o [Github](https://planb.network/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) ou a [linguagem Markdown](https://www.markdownguide.org/basic-syntax/) que usamos dentro do repositório, por isso é importante partilhar algumas ideias sobre os principais factores envolvidos nesta tarefa.
+O presente tutorial é dedicado aos colaboradores que pretendem rever conteúdos. A maioria deles não sabe muito sobre o [Github](https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) ou a [linguagem Markdown](https://www.markdownguide.org/basic-syntax/) que usamos dentro do repositório, por isso é importante partilhar algumas ideias sobre os principais factores envolvidos nesta tarefa.
 
 
 Aqui em baixo, reuni os problemas mais comuns que os revisores encontram. Não hesite em sugerir mais, pois isso pode ajudar outros a melhorar.
 
 
-Antes de mergulhar nas especificidades, a primeira coisa a fazer é ler este tutorial sobre as acções práticas a seguir no Github, bifurcando o repositório Plan ₿ Network, submetendo alterações e enviando PRs:
+Antes de mergulhar nas especificidades, a primeira coisa a fazer é ler este tutorial sobre as acções práticas a seguir no Github, bifurcando o repositório Plan ₿ Academy, submetendo alterações e enviando PRs:
 
 
-https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
+https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 
 ## O que é a revisão de provas?
@@ -38,13 +38,13 @@ Lembre-se sempre que a tradução/revisão é EDUCAÇÃO!
 
 De facto, o nosso objetivo comum é educar o maior número possível de pessoas sobre o Bitcoin, pelo que é fundamental que o material que lêem seja suave e claro.
 
-Neste sentido, todos os colaboradores do Plan ₿ Network são educadores!
+Neste sentido, todos os colaboradores do Plan ₿ Academy são educadores!
 
 
-## Os primeiros passos antes da revisão de provas no Plan ₿ Network
+## Os primeiros passos antes da revisão de provas no Plan ₿ Academy
 
 
-Antes de iniciar uma nova tarefa de revisão, anuncie-a no [grupo de telegramas] (https://t.me/PlanBNetwork_ContentBuilder) ou informe o seu coordenador do Plan ₿ Network, que abrirá uma [issue] dedicada (https://github.com/orgs/PlanB-Network/projects/3). Quando receberes o link da edição, basta **comentar que estás a começar** a tarefa de revisão desse conteúdo.
+Antes de iniciar uma nova tarefa de revisão, anuncie-a no [grupo de telegramas] (https://t.me/PlanBNetwork_ContentBuilder) ou informe o seu coordenador do Plan ₿ Academy, que abrirá uma [issue] dedicada (https://github.com/orgs/Plan ₿ Academy/projects/3). Quando receberes o link da edição, basta **comentar que estás a começar** a tarefa de revisão desse conteúdo.
 
 
 Este sistema ajuda o coordenador a acompanhar o progresso dentro do repositório e permite que o conteúdo seja "reclamado" pelo revisor, evitando a duplicação de esforços por outra pessoa.
@@ -60,7 +60,7 @@ Antes de mais, **Lembre-se SEMPRE de SINCRONIZAR o seu repo, no ramo "dev "**. D
 
 
 
-Após a sincronização bem sucedida, pode aceder diretamente ao conteúdo de interesse e fazer o commit num novo ramo, como mostrado neste [tutorial] (https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). Caso contrário, pode abrir um novo ramo onde trabalhar, clicando em "Branches" (Ramos), como mostrado abaixo.
+Após a sincronização bem sucedida, pode aceder diretamente ao conteúdo de interesse e fazer o commit num novo ramo, como mostrado neste [tutorial] (https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). Caso contrário, pode abrir um novo ramo onde trabalhar, clicando em "Branches" (Ramos), como mostrado abaixo.
 
 
 
@@ -115,11 +115,11 @@ Neste segundo caso, **faz sempre alguma pesquisa para ver se alguém na tua comu
 
 
 
-- Outra boa solução é manter a palavra/frase original EN e depois **criar uma hiperligação** que redireccione para o [glossário](https://planb.network/en/resources/glossary) em planb.network. Para o fazer, tem de inserir a palavra/frase entre parênteses rectos e a hiperligação entre parênteses rectos, como pode ver no exemplo abaixo:
+- Outra boa solução é manter a palavra/frase original EN e depois **criar uma hiperligação** que redireccione para o [glossário](https://planb.academy/en/resources/glossary) em planb.network. Para o fazer, tem de inserir a palavra/frase entre parênteses rectos e a hiperligação entre parênteses rectos, como pode ver no exemplo abaixo:
 
 
 ```
-[UTXO](https://planb.network/resources/glossary/utxo)
+[UTXO](https://planb.academy/resources/glossary/utxo)
 ```
 
 
@@ -131,14 +131,14 @@ No resultado final (imagem abaixo), não visualizará a ligação completa e a p
 
 
 
-Tenha em atenção que a hiperligação para o glossário que irá retirar do sítio Web contém o código da língua a seguir à palavra "rede" (exemplo: ``https://planb.network/en/resources/glossary/utxo``-> aqui pode ler o código da língua "en"). Neste caso, **remove o código da língua da ligação**, como viu na caixa acima. Desta forma, o sistema levará automaticamente o leitor para a sua língua designada.
+Tenha em atenção que a hiperligação para o glossário que irá retirar do sítio Web contém o código da língua a seguir à palavra "rede" (exemplo: ``https://planb.academy/en/resources/glossary/utxo``-> aqui pode ler o código da língua "en"). Neste caso, **remove o código da língua da ligação**, como viu na caixa acima. Desta forma, o sistema levará automaticamente o leitor para a sua língua designada.
 
 
 O conteúdo do repositório está cheio de hiperligações como estas acima. Agora que sabe o que significam, **certifique-se de que não apaga nenhuma hiperligação** inserida pelo autor original.
 
 
 
-- Outro aspeto relacionado com a tradução de palavras é o seguinte. Se encontrar "Plan ₿ Network" no texto, **deixe-o na sua forma original**. Não traduza a palavra "plan" (plano) ou a palavra "network" (rede). Para além disso, NÃO utilize o artigo "The" quando apresentar o Plan ₿ Network: **considere-o como uma marca**.
+- Outro aspeto relacionado com a tradução de palavras é o seguinte. Se encontrar "Plan ₿ Academy" no texto, **deixe-o na sua forma original**. Não traduza a palavra "plan" (plano) ou a palavra "network" (rede). Para além disso, NÃO utilize o artigo "The" quando apresentar o Plan ₿ Academy: **considere-o como uma marca**.
 
 
 
@@ -323,7 +323,7 @@ Verifique sempre todas as hiperligações no texto, para se certificar de que es
 
 
 
-- No seguimento do tópico, se o autor inserir uma ligação que remeta para um curso ou tutorial Plan ₿ Network (**não** entre parênteses), o sítio Web criará automaticamente um "cartão" com a miniatura relacionada. Como consequência, certifique-se sempre de que **acrescenta uma nova linha entre o texto e a própria ligação**, caso contrário poderá ver o seguinte erro no sítio Web.
+- No seguimento do tópico, se o autor inserir uma ligação que remeta para um curso ou tutorial Plan ₿ Academy (**não** entre parênteses), o sítio Web criará automaticamente um "cartão" com a miniatura relacionada. Como consequência, certifique-se sempre de que **acrescenta uma nova linha entre o texto e a própria ligação**, caso contrário poderá ver o seguinte erro no sítio Web.
 
 
 

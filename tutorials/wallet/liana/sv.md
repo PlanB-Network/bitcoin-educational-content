@@ -43,7 +43,7 @@ Med denna funktion kan du ställa in olika konfigurationer, inklusive :
 
 
 
-- En successionsplan (eller arvsplan) som gör det möjligt för arvingar att återfå medel om användaren skulle avlida. För mer information om detta ämne rekommenderar vi att du läser [del 4](https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a209038) i BTC102-kursen.
+- En successionsplan (eller arvsplan) som gör det möjligt för arvingar att återfå medel om användaren skulle avlida. För mer information om detta ämne rekommenderar vi att du läser [del 4](https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a209038) i BTC102-kursen.
 - En förstärkt backup med återställningstid, vilket ger användaren möjlighet att använda sin Wallet utan att behöva behålla motsvarande hemliga fras och riskera att den blir stulen, till exempel vid ett inbrott.
 - Ett skyddsnät för personer som börjar med Bitcoin: de kommer att hantera sina egna Wallet, och deras "förmyndare" (till exempel en släkting) kommer att förbehålla sig rätten att återfå sina medel efter en viss period.
 - Ett flerpartssignaturprogram (*Multisig*) med reducerade krav över tiden för att klara av att en eller flera av deltagarna försvinner, t.ex. ett företags delägare.
@@ -69,13 +69,13 @@ I den här handledningen ska vi upprätta en successionsplan. Vi kommer att anv�
 - En Ledger Nano S Plus, för vardagliga utgifter;
 
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
 
 - En Blockstream Jade som används för att återkräva medel;
 
 
-https://planb.network/tutorials/wallet/hardware/jade-7d62bf0c-f460-4e68-9635-af9b731dabc3
+https://planb.academy/tutorials/wallet/hardware/jade-7d62bf0c-f460-4e68-9635-af9b731dabc3
 
 
 - Två lagringsmedia (USB-minnen) för att lagra Wallet-descriptorn;
@@ -95,7 +95,7 @@ Besök den officiella Wizardsardine-webbplatsen och ladda ner Liana på https://
 För att ta reda på hur du manuellt verifierar programvarans äkthet och integritet före installationen rekommenderar vi att du läser den här handledningen :
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Installera programvaran på din maskin och starta den. Välj alternativet "*Create a new Liana Wallet*" för att konfigurera din Wallet.
 
@@ -286,7 +286,7 @@ Du kan kontrollera utgångsstatus för dina medel genom att gå till fliken "*Co
 För att bättre förstå UTXO:s representationsmodell som används i Bitcoin kan du läsa den första delen av kursen om sekretess i Bitcoin skriven av Loïc Morel :
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ## Löpande utgifter
 
@@ -495,7 +495,7 @@ De skript som skapas av denna Wallet kommer att ha följande form:
 ```
 
 
-Eftersom säkerheten för din Bitcoin Wallet också beror på din förståelse för hur den fungerar, föreslår jag att du studerar mekanismerna för deterministiska och hierarkiska plånböcker på djupet genom att gå den här kostnadsfria kursen om Plan ₿ Network :
+Eftersom säkerheten för din Bitcoin Wallet också beror på din förståelse för hur den fungerar, föreslår jag att du studerar mekanismerna för deterministiska och hierarkiska plånböcker på djupet genom att gå den här kostnadsfria kursen om Plan ₿ Academy :
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f

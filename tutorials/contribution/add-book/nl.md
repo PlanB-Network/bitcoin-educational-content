@@ -1,6 +1,6 @@
 ---
-name: Een boek toevoegen aan PlanB Network
-description: Hoe voeg ik een nieuw boek toe aan PlanB Network?
+name: Een boek toevoegen aan Plan ₿ Academy
+description: Hoe voeg ik een nieuw boek toe aan Plan ₿ Academy?
 ---
 ![book](assets/cover.webp)
 
@@ -8,7 +8,7 @@ description: Hoe voeg ik een nieuw boek toe aan PlanB Network?
 De missie van PlanB is om eersteklas educatieve bronnen aan te bieden over Bitcoin in zoveel mogelijk talen. Alle inhoud die op de site wordt gepubliceerd is open-source en wordt gehost op GitHub, zodat iedereen kan bijdragen aan de verrijking van het platform.
 
 
-**Wil je een boek gerelateerd aan Bitcoin toevoegen op de PlanB Network site en de zichtbaarheid van je werk vergroten, maar weet je niet hoe? Dan is deze tutorial voor jou!**
+**Wil je een boek gerelateerd aan Bitcoin toevoegen op de Plan ₿ Academy site en de zichtbaarheid van je werk vergroten, maar weet je niet hoe? Dan is deze tutorial voor jou!**
 
 ![book](assets/01.webp)
 
@@ -16,7 +16,7 @@ De missie van PlanB is om eersteklas educatieve bronnen aan te bieden over Bitco
 - Eerst moet je een GitHub account hebben. Als je niet weet hoe je een account aanmaakt, hebben we een gedetailleerde tutorial gemaakt om je te begeleiden.
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -30,7 +30,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![book](assets/03.webp)
 
 
-- Als je nog nooit hebt bijgedragen aan de inhoud van PlanB Network, zul je een fork van de originele repository moeten maken. Een repository forken betekent dat je een kopie van die repository maakt op je eigen GitHub account, zodat je aan het project kunt werken zonder de originele repository te beïnvloeden. Klik op de knop `Fork this repository`:
+- Als je nog nooit hebt bijgedragen aan de inhoud van Plan ₿ Academy, zul je een fork van de originele repository moeten maken. Een repository forken betekent dat je een kopie van die repository maakt op je eigen GitHub account, zodat je aan het project kunt werken zonder de originele repository te beïnvloeden. Klik op de knop `Fork this repository`:
 
 ![book](assets/04.webp)
 
@@ -119,7 +119,7 @@ tags:
 ![book](assets/14.webp)
 
 
-- Selecteer je fork van de PlanB Network repository:
+- Selecteer je fork van de Plan ₿ Academy repository:
 ![book](assets/15.webp)
 
 
@@ -163,7 +163,7 @@ tags:
 ![book](assets/25.webp)
 
 
-- Er wordt een nieuwe pagina geopend. Sleep de omslagafbeelding van je boek naar het gebied. Deze afbeelding wordt weergegeven op de PlanB Network site:
+- Er wordt een nieuwe pagina geopend. Sleep de omslagafbeelding van je boek naar het gebied. Deze afbeelding wordt weergegeven op de Plan ₿ Academy site:
 ![book](assets/26.webp)
 
 
@@ -259,9 +259,9 @@ contributors:
 ![book](assets/43.webp)
 - Click on the `Create pull request` button:
 ![book](assets/44.webp)
-Congratulations! Your PR has been successfully created. An administrator will now review it and, if everything is in order, merge it into the main repository of the PlanB Network. You should see your book appear on the website a few days later.
+Congratulations! Your PR has been successfully created. An administrator will now review it and, if everything is in order, merge it into the main repository of the Plan ₿ Academy. You should see your book appear on the website a few days later.
 
-Be sure to follow the progress of your PR. An administrator may leave a comment asking for additional information. As long as your PR is not validated, you can view it in the `Pull requests` tab on the PlanB Network's GitHub repository:
+Be sure to follow the progress of your PR. An administrator may leave a comment asking for additional information. As long as your PR is not validated, you can view it in the `Pull requests` tab on the Plan ₿ Academy's GitHub repository:
 ![book](assets/45.webp)
 Thank you very much for your valuable contribution! :)
 ```

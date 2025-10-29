@@ -12,13 +12,13 @@ Jos haluat osallistua PlanB-verkkoon, sinun on käytettävä GitHubia ehdottaaks
 
 Jos sinulla ei ole aavistustakaan, mikä GitHub on, tai jos haluat oppia lisää Gitin ja GitHubin teknisistä termeistä, suosittelen, että luet johdantoartikkelimme tutustuaksesi näihin käsitteisiin.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
 - Aloittaaksesi tarvitset tietenkin GitHub-tilin. Jos sinulla on jo tili, voit kirjautua sisään, muussa tapauksessa voit käyttää opastustamme uuden tilin luomiseen.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -43,15 +43,15 @@ On olemassa lukuisia ohjelmistoja, jotka on erikoistunut Markdown-tiedostojen mu
 - Asenna Obsidian, käynnistä ohjelmisto, valitse kielesi ja klikkaa sitten `Quick Start`: ![github-desktop](assets/8.webp)
 - Saavut Obsidian-ohjelmistoon. Tällä hetkellä sinulla ei ole avoinna yhtään tiedostoa: ![github-desktop](assets/9.webp)
 
-## Vaihe 3: Forkkaa PlanB Network -repositorio
+## Vaihe 3: Forkkaa Plan ₿ Academy -repositorio
 
-- Siirry PlanB Network -datan repositorioon seuraavassa osoitteessa: [https://github.com/PlanB-Network/bitcoin-educational-content](https://github.com/PlanB-Network/bitcoin-educational-content): ![github-desktop](assets/10.webp)
+- Siirry Plan ₿ Academy -datan repositorioon seuraavassa osoitteessa: [https://github.com/PlanB-Network/bitcoin-educational-content](https://github.com/PlanB-Network/bitcoin-educational-content): ![github-desktop](assets/10.webp)
 - Tältä sivulta, klikkaa `Fork`-nappia ikkunan oikeassa yläkulmassa: ![github-desktop](assets/11.webp)
 - Luontimenussa voit jättää oletusasetukset. Varmista, että `Copy the dev branch only` -ruutu on valittu, ja klikkaa sitten `Create fork` -nappia: ![github-desktop](assets/12.webp)
-- Saavut sitten omaan forkkiisi PlanB Network -repositoriosta: ![github-desktop](assets/13.webp)
+- Saavut sitten omaan forkkiisi Plan ₿ Academy -repositoriosta: ![github-desktop](assets/13.webp)
 Tämä forkki muodostaa erillisen repositorion alkuperäisestä, vaikka se tällä hetkellä sisältääkin samat tiedot. Työskentelet nyt tässä uudessa repositoriossa.
 
-Olemme tavallaan tehneet kopion PlanB Network -lähderepositoriosta. Forkkisi (kopio) ja alkuperäinen repositorio kehittyvät nyt toisistaan riippumatta. Alkuperäisessä repositoriossa muut avustajat voivat lisätä uusia tietoja, kun taas sinä, omassa forkissasi, jatkat omilla muutoksillasi.
+Olemme tavallaan tehneet kopion Plan ₿ Academy -lähderepositoriosta. Forkkisi (kopio) ja alkuperäinen repositorio kehittyvät nyt toisistaan riippumatta. Alkuperäisessä repositoriossa muut avustajat voivat lisätä uusia tietoja, kun taas sinä, omassa forkissasi, jatkat omilla muutoksillasi.
 Näiden kahden repositorion johdonmukaisuuden ylläpitämiseksi on tarpeen synkronoida ne ajoittain, jotta ne saavat samat tiedot. Lähettääksesi muutoksesi lähderepositorioon, käytät niin kutsuttua **Pull Request** -toimintoa. Ja integroidaksesi muutoksia lähderepositoriosta forkkiisi, käytät GitHubin web-käyttöliittymässä saatavilla olevaa **Sync fork** -komentoa.
 ![github-desktop](assets/14.webp)
 
@@ -65,7 +65,7 @@ Näiden kahden repositorion johdonmukaisuuden ylläpitämiseksi on tarpeen synkr
 ![github-desktop](assets/17.webp)
 - Odota, kun GitHub Desktop kloonaa forkisi paikallisesti:
 ![github-desktop](assets/18.webp)
-- Kloonattuasi varaston, ohjelmisto tarjoaa sinulle kaksi vaihtoehtoa. Sinun tulee valita ensimmäinen: `Osallistu pääprojektiin`. Tämä valinta mahdollistaa tulevan työsi esittämisen panoksena pääprojektille (`PlanB-Network/bitcoin-educational-content`), eikä pelkästään henkilökohtaisen haarasi (`[käyttäjänimi]/bitcoin-educational-content`) muokkauksena. Kun vaihtoehto on valittu, klikkaa `Jatka`: ![github-desktop](assets/19.webp)
+- Kloonattuasi varaston, ohjelmisto tarjoaa sinulle kaksi vaihtoehtoa. Sinun tulee valita ensimmäinen: `Osallistu pääprojektiin`. Tämä valinta mahdollistaa tulevan työsi esittämisen panoksena pääprojektille (`Plan ₿ Academy/bitcoin-educational-content`), eikä pelkästään henkilökohtaisen haarasi (`[käyttäjänimi]/bitcoin-educational-content`) muokkauksena. Kun vaihtoehto on valittu, klikkaa `Jatka`: ![github-desktop](assets/19.webp)
 - GitHub Desktopisi on nyt oikein konfiguroitu. Nyt voit jättää ohjelmiston auki taustalle seurataksesi tekemiämme muutoksia.
 ![github-desktop](assets/20.webp)
 Mitä olemme saavuttaneet tässä vaiheessa, on paikallisen kopion luominen varastostasi, joka on isännöity GitHubissa. Muistutuksena, tämä varasto on haarautuma PlanB Networkin lähdevarastosta. Voit tehdä muutoksia tähän paikalliseen kopioon, kuten lisätä tutoriaaleja, käännöksiä tai korjauksia. Kun nämä muutokset on tehty, käytät **Push origin** -komentoa lähettääksesi paikalliset muutoksesi GitHubissa isännöityyn haarahasi.
@@ -89,7 +89,7 @@ Voit myös hakea muutoksia haarasta, esimerkiksi synkronoinnin aikana PlanB Netw
 - Älä unohda asettaa Obsidiania tummaan tilaan: "Valo houkuttelee ötököitä" ;)
 
 ## Vaihe 6: Asenna koodieditori
-Suurin osa muokkauksistasi kohdistuu Markdown-muotoisiin tiedostoihin (`.md`). Näiden asiakirjojen muokkaamiseen voit käyttää Obsidian-ohjelmistoa, josta keskustelimme aiemmin. PlanB Network käyttää kuitenkin myös muita tiedostomuotoja, ja sinun on muokattava joitakin niistä.
+Suurin osa muokkauksistasi kohdistuu Markdown-muotoisiin tiedostoihin (`.md`). Näiden asiakirjojen muokkaamiseen voit käyttää Obsidian-ohjelmistoa, josta keskustelimme aiemmin. Plan ₿ Academy käyttää kuitenkin myös muita tiedostomuotoja, ja sinun on muokattava joitakin niistä.
 
 Esimerkiksi uuden oppaan luomisen yhteydessä sinun on luotava YAML (`.yml`) tiedosto syöttääksesi oppaasi tagit, otsikon ja opettaja-ID:si. Obsidian ei tarjoa mahdollisuutta tällaisten tiedostojen muokkaamiseen, joten tarvitset koodieditorin.
 
@@ -97,6 +97,6 @@ Tähän on saatavilla useita vaihtoehtoja. Vaikka tietokoneesi vakionotepad-ohje
 - Asenna jompikumpi näistä ohjelmista ja pidä se sivussa tulevia muokkauksiasi varten. ![github-desktop](assets/26.webp)
 Onnittelut! Työympäristösi on nyt valmis osallistumaan PlanB Networkiin. Voit nyt tutustua muihin erityisoppaisiimme kunkin panostustyypin (kääntäminen, oikoluku, kirjoittaminen.
 
-https://planb.network/tutorials/others
+https://planb.academy/tutorials/others
 
 ..) osalta.

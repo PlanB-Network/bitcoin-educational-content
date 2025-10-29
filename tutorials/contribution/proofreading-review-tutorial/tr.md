@@ -1,6 +1,6 @@
 ---
 name: Düzeltme okuması veya içerik gözden geçirme
-description: Plan ₿ Network'daki eğitim içeriğinin düzeltme/inceleme sürecine nasıl katılabilirsiniz?
+description: Plan ₿ Academy'daki eğitim içeriğinin düzeltme/inceleme sürecine nasıl katılabilirsiniz?
 ---
 ![github](assets/cover.webp)
 
@@ -8,7 +8,7 @@ description: Plan ₿ Network'daki eğitim içeriğinin düzeltme/inceleme süre
 ## Özet olarak
 
 
-Plan ₿ Network için içerik düzeltmek veya gözden geçirmek istiyorsanız, katkılara adanmış [Telegram grubumuza] (https://t.me/PlanBNetwork_ContentBuilder) katılın. Kendinizi kısaca tanıtın, ardından gözden geçirmek istediğiniz içeriği ve dili belirtin. Düzeltmelerinizi bir çalışma dalı üzerinde yapın ve incelemeniz tamamlandığında bir PR gönderin.
+Plan ₿ Academy için içerik düzeltmek veya gözden geçirmek istiyorsanız, katkılara adanmış [Telegram grubumuza] (https://t.me/PlanBNetwork_ContentBuilder) katılın. Kendinizi kısaca tanıtın, ardından gözden geçirmek istediğiniz içeriği ve dili belirtin. Düzeltmelerinizi bir çalışma dalı üzerinde yapın ve incelemeniz tamamlandığında bir PR gönderin.
 
 
 Yukarıdaki kısmı anlamadıysanız endişelenmeyin - bu eğitim sizin için!
@@ -16,19 +16,19 @@ Yukarıdaki kısmı anlamadıysanız endişelenmeyin - bu eğitim sizin için!
 
 ---
 
-## Plan ₿ Network nedir?
+## Plan ₿ Academy nedir?
 
 
-Plan ₿ Network, herkes için çok sayıda kurs ve öğretici aracılığıyla Bitcoin hakkında bilgi edinmek için bir platformdur. Şu anda tüm içeriğimiz açık kaynaklıdır, bir GitHub deposunda barındırılmaktadır ve inceleme ve içerik oluşturma için katkılara açıktır.
+Plan ₿ Academy, herkes için çok sayıda kurs ve öğretici aracılığıyla Bitcoin hakkında bilgi edinmek için bir platformdur. Şu anda tüm içeriğimiz açık kaynaklıdır, bir GitHub deposunda barındırılmaktadır ve inceleme ve içerik oluşturma için katkılara açıktır.
 
 
-Plan ₿ Network, dünya çapındaki Bitcoin topluluklarını birbirine bağlayarak ve teşvik ederek Bitcoin siber alanının kamusal meydanı olmayı amaçlamaktadır.
+Plan ₿ Academy, dünya çapındaki Bitcoin topluluklarını birbirine bağlayarak ve teşvik ederek Bitcoin siber alanının kamusal meydanı olmayı amaçlamaktadır.
 
 
 ## Neden katkıda bulunuyorsunuz?
 
 
-Amacımız Bitcoin kaynaklarını dünya çapında herkes için erişilebilir kılmak olduğundan, Plan ₿ Network temelde çok dillidir. Dilin egemen paranın önünde bir engel olmaması gerektiğine inanıyoruz.
+Amacımız Bitcoin kaynaklarını dünya çapında herkes için erişilebilir kılmak olduğundan, Plan ₿ Academy temelde çok dillidir. Dilin egemen paranın önünde bir engel olmaması gerektiğine inanıyoruz.
 
 
 Bunu başarmak için İnsan x Yapay Zeka yaklaşımını kullanıyoruz. Programımız] (https://github.com/Asi0Flammeus/LLM-Translator) aracılığıyla içeriğimizi otomatik olarak birçok dile çevirebiliyoruz. Ancak, içeriğin anlaşılır olduğundan ve uygunsuz terimler içermediğinden emin olmak için akıcı bir konuşmacının gözden geçirmesine ihtiyacımız var.
@@ -49,7 +49,7 @@ Ayrıca, *Değer4Değer* modeline değer verdiğimiz için, inceleme katkıları
 Ancak Git ve GitHub'a aşina değilseniz ve daha fazla bilgi edinmek istiyorsanız, bu araçlarla ilgili tanıtım yazımıza göz atabilirsiniz:
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 ## 1. Bir hesap oluşturun
 
@@ -66,7 +66,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 
 
-- Telegram'da [PBN Content Builder grubuna] (https://t.me/PlanBNetwork_ContentBuilder) katılın.
+- Telegram'da [Plan ₿ Academy Content Builder grubuna] (https://t.me/PlanBNetwork_ContentBuilder) katılın.
 
 
 ![REVIEW](assets/fr/01.webp)
@@ -115,7 +115,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![REVIEW](assets/fr/06.webp)
 
 
-NB. Orijinal içerik ayrı bir pencerede görüntülenecek şekilde kod penceresinde inceleme yapmanız önerilir. Örneğin, metni Plan ₿ Network web sitesinde veya bir tarayıcı sekmesindeki GitHub önizlemesinde görüntüleyebilirsiniz. Hataları bulmak ve ilerledikçe kod görünümünde düzeltmeler yapmak için `ctrl + F` tuşlarını kullanın.
+NB. Orijinal içerik ayrı bir pencerede görüntülenecek şekilde kod penceresinde inceleme yapmanız önerilir. Örneğin, metni Plan ₿ Academy web sitesinde veya bir tarayıcı sekmesindeki GitHub önizlemesinde görüntüleyebilirsiniz. Hataları bulmak ve ilerledikçe kod görünümünde düzeltmeler yapmak için `ctrl + F` tuşlarını kullanın.
 
 
 ## 4. Değişiklikleri taahhüt edin
@@ -156,7 +156,7 @@ NB. Orijinal içerik ayrı bir pencerede görüntülenecek şekilde kod penceres
 
 - İncelemenizi tamamlamadıysanız ve çalışmanıza daha sonra devam etmek istiyorsanız, çıkabilirsiniz.
 - Değişikliklerinizi işlediğiniz sürece, bunlar GitHub Fork'nıza kaydedilir.
-- Çalışmanıza devam etmek için GitHub profiliniz üzerinden Fork içerik havuzunuzun Plan ₿ Network bölümüne gidin.
+- Çalışmanıza devam etmek için GitHub profiliniz üzerinden Fork içerik havuzunuzun Plan ₿ Academy bölümüne gidin.
 
 
 ![REVIEW](assets/fr/14.webp)
@@ -192,21 +192,21 @@ NB. Orijinal içerik ayrı bir pencerede görüntülenecek şekilde kod penceres
 ## 6. İçerik Düzenlerken Uyulması Gereken Kurallar
 
 
-Plan ₿ Network'de dil veya format kuralları açısından redaksiyon yaparken kullanılacak yönergeler hakkında daha fazla bilgi edinmek için lütfen aynı bölümdeki "katkı-proofreading-guidelines" eğitimine bakın!
+Plan ₿ Academy'de dil veya format kuralları açısından redaksiyon yaparken kullanılacak yönergeler hakkında daha fazla bilgi edinmek için lütfen aynı bölümdeki "katkı-proofreading-guidelines" eğitimine bakın!
 
 
 ## 7. İnceleme için bekleyin
 
 
 
-- Tebrikler, PR'niz gönderildi! İlerlemesini [Plan ₿ Network'nin GitHub deposu] (https://github.com/PlanB-Network/Bitcoin-educational-content/pulls) üzerindeki "Çekme istekleri" sekmesinden takip edebilirsiniz:
+- Tebrikler, PR'niz gönderildi! İlerlemesini [Plan ₿ Academy'nin GitHub deposu] (https://github.com/PlanB-Network/Bitcoin-educational-content/pulls) üzerindeki "Çekme istekleri" sekmesinden takip edebilirsiniz:
 
 
 ![REVIEW](assets/fr/12.webp)
 
 
 
-- Katkınız için çok teşekkür ederiz! Onaylandıktan sonra, bir Plan ₿ Network ekip üyesi ödülünüzü göndermek için sizinle iletişime geçecektir. \**Ödemeler yalnızca Lightning Network\** üzerinden yapılır.
+- Katkınız için çok teşekkür ederiz! Onaylandıktan sonra, bir Plan ₿ Academy ekip üyesi ödülünüzü göndermek için sizinle iletişime geçecektir. \**Ödemeler yalnızca Lightning Network\** üzerinden yapılır.
 - Yeniden başlamak isterseniz, 2. adıma dönün ve diğer içeriklere katkıda bulunmaya devam etmek için Telegram grubunda yeni bir mesaj gönderin. Yeni bir çalışma dalı oluşturmadan önce Fork'nızı senkronize ettiğinizden emin olun. Bunu yapmak için, Fork'nızın ana sayfasına gidin, `dev` adlı ana dalı seçin (bkz. \**A\**), ardından "Fork'yı Senkronize Et" düğmesine tıklayın (bkz. \**B\**). Fork'nız için güncellemeler mevcutsa, bir "Şubeyi güncelle" düğmesi görünecektir. Güncellemeyi gerçekleştirmek için buna tıklamanız yeterlidir.
 
 

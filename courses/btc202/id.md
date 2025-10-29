@@ -118,7 +118,7 @@ Kemudian kita akan meluangkan waktu untuk mengulas beberapa teori yang telah dib
 
 
 
-Seperti semua kursus Plan ₿ Network, di bagian akhir, Anda akan menemukan ujian akhir untuk menguji pengetahuan Anda tentang node Bitcoin.
+Seperti semua kursus Plan ₿ Academy, di bagian akhir, Anda akan menemukan ujian akhir untuk menguji pengetahuan Anda tentang node Bitcoin.
 
 
 
@@ -410,7 +410,7 @@ Dengan kata lain, sekitar 9 dari 10 node publik menjalankan Bitcoin core. Sisa j
 
 
 
-Bitcoin core ditulis dalam bahasa C++. Proyek ini juga merupakan proyek sumber terbuka yang dikelola oleh komunitas pengembang yang menjadi sukarelawan atau dibayar oleh berbagai entitas (sering kali oleh perusahaan dalam ekosistem yang memiliki kepentingan dalam pengembangan Core). [Kode dihosting di GitHub] (https://github.com/Bitcoin/Bitcoin), dan pengembangannya mengikuti standar yang ketat:
+Bitcoin Core adalah perangkat lunak yang ditulis dalam C++. Ini juga merupakan proyek sumber terbuka yang dikelola oleh komunitas pengembang — baik sukarelawan maupun yang didanai oleh berbagai entitas (sering kali perusahaan dalam ekosistem yang berkepentingan agar pengembangan Core berjalan dengan baik). [Kode di-host di GitHub](https://github.com/bitcoin/bitcoin), dan pengembangannya mengikuti model yang ketat:
 
 
 
@@ -448,7 +448,7 @@ Kami juga dapat menyebutkan:
 
 - Libbitcoin**: sebuah pustaka C++ modular yang dikembangkan oleh Amir Taaki dan dikelola oleh Eric Voskuil;
 - Bcoin**: implementasi JavaScript, tidak lagi dikelola secara aktif;
-- BTCD/btcsuit**e: sebuah implementasi di Go.
+- **BTCD/btcsuite** : sebuah implementasi dalam Go.
 
 
 
@@ -516,7 +516,7 @@ Dengan menggunakan node Anda sendiri, Anda menyiarkan transaksi Anda secara lang
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Transaksi yang tidak dapat disensor
 
@@ -865,9 +865,9 @@ Ini adalah pendekatan yang paling berdaulat dan fleksibel: Anda tahu persis apa 
 
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
 #### Bitcoin Knots (klien alternatif utama)
 
@@ -886,7 +886,7 @@ Ada 2 alasan yang memungkinkan untuk memilih Knot daripada Core:
 - Kebijakan**: Beberapa orang lebih suka menggunakan klien alternatif seperti Knot untuk alasan non-teknis, terutama untuk mendukung alternatif dari Core dan dengan demikian mengurangi monopoli Core. Jika Core pernah dikompromikan, akan sangat berguna untuk memiliki klien alternatif yang solid dan terawat dengan baik, tetapi juga untuk mengetahui cara menggunakannya secara efektif. Yang lain menggunakan Knot untuk tujuan protes, karena mereka telah kehilangan kepercayaan pada pengembang Core atau tidak menyetujui sebagian besar manajemen klien.
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
 Secara pribadi, saya sarankan Anda memilih Core, terutama untuk mendapatkan manfaat dari patch keamanan lebih cepat. Memang, beberapa kerentanan yang ditemukan di Knot diperbaiki dengan penundaan. Secara umum, proses pengembangan Core terstruktur dengan kuat dan didukung oleh sejumlah besar kontributor, sedangkan Knot dikelola oleh satu orang dan memiliki komunitas yang jauh lebih kecil. Di sisi lain, aturan relai cenderung kehilangan kegunaannya saat ini, terutama ketika diterapkan oleh sebagian kecil jaringan (sesuai dengan teori perkolasi).
 
@@ -942,7 +942,7 @@ Saya tidak akan membahas lebih detail di sini tentang cara kerjanya dan fitur-fi
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 ### Start9 (StartOS)
 
@@ -968,7 +968,7 @@ Singkatnya, jika Anda hanya membutuhkan aplikasi penting untuk Bitcoin, tanpa mi
 
 
 
-https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
+https://planb.academy/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
 
 ### MyNode
 
@@ -986,7 +986,7 @@ Dalam praktiknya, MyNode menyatukan semua blok bangunan dasar yang diperlukan un
 
 
 
-https://planb.network/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
+https://planb.academy/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
 
 ### RaspiBlitz
 
@@ -1004,7 +1004,7 @@ Jika Anda memiliki Raspberry Pi, ini adalah pilihan yang sangat baik, karena sis
 
 
 
-https://planb.network/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
+https://planb.academy/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
 
 ### RoninDojo
 
@@ -1026,7 +1026,7 @@ Proyek ini sebelumnya menawarkan mesin pra-konfigurasi yang disebut Tanto, tetap
 
 
 
-https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
+https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
 
 ### Nodl
 
@@ -1565,7 +1565,7 @@ Jika Anda memilih Raspberry Pi 5 (opsi yang tidak saya rekomendasikan, seperti y
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 Seperti yang telah disebutkan di bagian sebelumnya, saya memilih untuk menjalankan tutorial ini di sebuah PC kecil yang telah diperbaharui yang saya temukan dengan harga terjangkau: *Lenovo ThinkCentre M900 Tiny* yang dilengkapi dengan prosesor Intel Core i7 dan RAM 16 GB. Ini adalah konfigurasi yang sangat nyaman untuk menjalankan Umbrel, terutama untuk node Bitcoin. Namun, saya memilih konfigurasi ini karena saya ingin memasang node Lightning dan aplikasi lain yang lebih berat nantinya. Saya juga menambahkan SSD 2TB ke ThinkCentre saya untuk mempertahankan Blockchain secara penuh dan masih memiliki margin yang nyaman. Dengan konfigurasi ini, total biaya yang dikeluarkan adalah €270, sudah termasuk semua pengeluaran.
 
@@ -1822,7 +1822,7 @@ Untuk mengidentifikasi IP Address Umbrel Anda, ada beberapa metode, dari yang pa
 
 
 
-https://planb.network/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
+https://planb.academy/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
 
 
 
@@ -1864,9 +1864,9 @@ Pilih kata sandi yang kuat dan pastikan Anda menyimpan setidaknya satu cadangan 
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Setelah Anda memasukkan kata sandi, klik tombol "*Buat*".
 
@@ -1944,7 +1944,7 @@ Pertama dan terutama, saya sangat menyarankan untuk mengaktifkan autentikasi dua
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Untuk melakukan ini, klik pada kotak yang sesuai dalam pengaturan.
 
@@ -2435,7 +2435,7 @@ Seperti yang telah disebutkan sebelumnya, penjelajah dapat di-host secara online
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 Terlebih lagi, Penyedia Layanan Internet (ISP) Anda mungkin mengetahui bahwa Anda melihat transaksi tertentu melalui situs Block explorer. Hal ini juga menimbulkan pertanyaan tentang kepercayaan: Anda harus bergantung pada layanan online untuk memberikan Anda informasi yang akurat tentang transaksi Anda, tanpa dapat memverifikasi kebenarannya sendiri.
 
@@ -2472,7 +2472,7 @@ Untuk mempelajari lebih lanjut tentang cara menggunakan Mempool.Space explorer, 
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ### Simpul Petir
 
@@ -2492,15 +2492,15 @@ Umbrel menawarkan sejumlah aplikasi untuk membantu Anda menyiapkan dan menjalank
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
 Anda kemudian dapat mengelola node Anda dari Interface utama, atau, untuk fungsionalitas yang lebih besar dan opsi lanjutan, instal *Ride The Lightning* atau *ThunderHub*. Alat-alat ini akan memberi Anda sistem manajemen Interface berbasis web yang jauh lebih komprehensif untuk node Anda.
 
 
 
-https://planb.network/tutorials/node/lightning-network/ride-the-lightning-ca007688-0653-490c-8349-81d330d744b5
+https://planb.academy/tutorials/node/lightning-network/ride-the-lightning-ca007688-0653-490c-8349-81d330d744b5
 
-https://planb.network/tutorials/node/lightning-network/thunderhub-16909a39-2484-408e-a118-4e34e249bb9a
+https://planb.academy/tutorials/node/lightning-network/thunderhub-16909a39-2484-408e-a118-4e34e249bb9a
 
 ![Image](assets/fr/088.webp)
 
@@ -2564,7 +2564,7 @@ Untuk menginstal dan mengkonfigurasi Tailscale pada Umbrel Anda, lihat tutorial 
 
 
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 ### Nostr
 
@@ -2598,7 +2598,7 @@ Untuk mengetahui cara menggunakan semua aplikasi ini, saya sarankan Anda membaca
 
 
 
-https://planb.network/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b-17c2ea1e08fd
+https://planb.academy/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b-17c2ea1e08fd
 
 ### Server BTCPay
 
@@ -2626,7 +2626,7 @@ Jika Anda memiliki bisnis dan ingin menerima pembayaran Bitcoin secara langsung 
 
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 
 
@@ -2634,7 +2634,7 @@ https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 
 
-https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
+https://planb.academy/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 
 
 
@@ -2642,7 +2642,7 @@ https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 
 
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 
 # Konsep lanjutan dan praktik terbaik
@@ -2751,7 +2751,7 @@ Untuk memperdalam pengetahuan Anda tentang keamanan komputer secara umum, saya s
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 ### Diagnosis dan bantuan mandiri
 
@@ -2941,7 +2941,7 @@ Ketika node Anda telah menyelesaikan sinkronisasi awal, node akan menyimpan bebe
 
 
 
-- gW-402 **blok** yang disimpan pada disk,
+- **blok** blockchain yang disimpan di disk,
 - set **UTXO** yang disimpan dalam basis data nilai kunci,
 - dan **Mempool** disimpan dalam RAM dan diserialisasikan secara berkala.
 
@@ -3077,9 +3077,9 @@ Pertumbuhan set UTXO juga berasal dari struktur transaksi pembayaran sederhana p
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-Karena sebagian harus disimpan dalam RAM untuk memverifikasi transaksi dalam waktu yang wajar, set UTXO secara bertahap dapat membuat pengoperasian Full node menjadi terlalu mahal. Untuk mengatasi masalah ini, beberapa proposal sudah ada, terutama [Utreexo] (https://planb.network/resources/glossary/utreexo).
+Karena sebagian harus disimpan dalam RAM untuk memverifikasi transaksi dalam waktu yang wajar, set UTXO secara bertahap dapat membuat pengoperasian Full node menjadi terlalu mahal. Untuk mengatasi masalah ini, beberapa proposal sudah ada, terutama [Utreexo] (https://planb.academy/resources/glossary/utreexo).
 
 
 
@@ -3093,7 +3093,7 @@ Mempool adalah kumpulan lokal dari transaksi valid yang telah diterima tetapi be
 
 
 - ukuran yang dialokasikan ke Mempool melalui parameter `maxmempool`: node dengan Mempool yang lebih besar akan dapat menampung lebih banyak transaksi daripada node dengan Mempool yang lebih kecil (kecuali jika node yang terakhir menjadi kosong);
-- aturan gW-433: ini adalah bagian dari aturan relai node dan mendefinisikan karakteristik yang harus dipenuhi oleh transaksi yang belum dikonfirmasi agar dapat diterima di Mempool;
+- aturan mempool: merupakan subset dari aturan perantara node dan menentukan karakteristik yang harus dipenuhi oleh transaksi yang belum dikonfirmasi agar diterima ke dalam mempool;
 - perembesan transaksi: karena berbagai faktor, transaksi tertentu mungkin telah didistribusikan ke satu bagian jaringan, tetapi belum mencapai bagian lain.
 
 
@@ -3135,10 +3135,10 @@ Beberapa file lain pada tingkat yang sama dengan `blocks/`, `chainstate/`, dan `
 - Ketika node dimatikan, `anchors.dat` menyimpan alamat rekan-rekan yang keluar, sehingga Anda dapat mencoba menghubungi mereka lagi dengan cepat pada saat Anda memulai lagi.
 - `banlist.json` berisi larangan lokal yang diputuskan oleh operator atau oleh node (perilaku tidak valid yang berulang), untuk mencegah node menyambung kembali atau menerima koneksi dari rekan-rekan tertentu.
 - `fee_estimates.dat` menyimpan statistik horizon waktu pada konfirmasi yang diamati, yang digunakan oleh estimator biaya untuk mengusulkan tarif biaya yang konsisten dengan tujuan penundaan yang dipilih saat membuat transaksi.
-- gW-446.conf` berisi parameter konfigurasi node Anda. Di sinilah Anda dapat menyesuaikan aturan relai. Saya akan menjelaskan lebih lanjut tentang hal ini di bab berikutnya.
+- `bitcoin.conf` berisi parameter konfigurasi node Anda. Dalam file inilah aturan perantara dapat disesuaikan. Saya akan membahasnya lebih detail di bab berikutnya;
 - `settings.json` berisi parameter tambahan untuk `Bitcoin.conf`.
 - `debug.log` adalah log teks diagnostik, yang dapat digunakan untuk memahami aktivitas node jika terjadi bug.
-- gW-448.pid` menyimpan pengidentifikasi proses pada saat runtime, memungkinkan aplikasi atau skrip lain untuk dengan mudah mengidentifikasi bitcoind (* Bitcoin daemon *) dan berinteraksi dengannya jika perlu. Ini dibuat saat startup node dan dihapus saat dimatikan.
+- `bitcoind.pid` mencatat ID proses selama eksekusi, memungkinkan aplikasi atau skrip lain untuk dengan mudah mengidentifikasi Bitcoind (*Bitcoin Daemon*) dan berinteraksi dengannya jika diperlukan. File ini dibuat saat node dijalankan dan dihapus saat node berhenti;
 - `ip_asn.map` adalah tabel pemetaan IP → ASN (sistem mandiri) yang digunakan untuk bucketing dan diversifikasi peer (opsi `-asmap`).
 - `onion_v3_private_key` menyimpan kunci privat dari layanan Tor v3 ketika opsi `-listenonion` diaktifkan, untuk menjaga kestabilan onion Address di antara proses reboot.
 - `i2p_private_key` menyimpan kunci privat I2P ketika `-i2psam=` digunakan, untuk membuat koneksi keluar dan mungkin masuk pada I2P.
@@ -3154,9 +3154,9 @@ Seperti yang telah kita lihat di bagian pertama kursus BTC 202 ini, Bitcoin core
 
 
 
-- `dompet/` adalah direktori default yang menampung satu atau lebih;
+- `wallets/` adalah direktori default yang menampung satu atau lebih dompet;
 - `wallets/<name>/Wallet.dat` adalah basis data SQLite dari Wallet (kunci, deskriptor, metadata transaksi, dll.);
-- wallet/<name>/Wallet.dat-journal` adalah log rollback SQLite.
+- `wallets/<name>/wallet.dat-journal` adalah jurnal rollback SQLite.
 
 
 
@@ -3335,10 +3335,10 @@ Di tingkat jaringan, kami juga memiliki:
 
 
 - `addnode`: menambahkan teman sebaya ke kontak selain penemuan biasa (dapat ditentukan beberapa kali).
-- connect`: secara ketat membatasi koneksi ke Address yang disediakan (dapat ditentukan beberapa kali). Core tidak akan terhubung ke node lain.
+- `connect`: secara ketat membatasi koneksi ke alamat yang diberikan (dapat ditentukan beberapa kali). Core tidak akan terhubung ke node lain;
 - `seednode`: hanya digunakan untuk mengisi buku-Address saat menyambung ke node, kemudian memutuskan sambungan.
 - `maxconnections`: mendefinisikan batas atas global untuk koneksi masuk + keluar. Secara default, parameter ini disetel ke 125, yang berarti bahwa node Anda tidak akan pernah menerima lebih dari 125 koneksi.
-- maxuploadtarget`: membatasi unggahan untuk membatasi bandwidth selama 24 jam. Pembatasan ini tidak mengorbankan penyebaran Elements terbaru yang penting.
+- `maxuploadtarget` : membatasi unggahan untuk mengendalikan bandwidth dalam jangka waktu bergulir 24 jam. Batas ini tidak mengorbankan penyebaran elemen penting yang baru;
 - `onlynet`: membatasi koneksi keluar hanya pada jaringan tertentu (`ipv4`, `ipv6`, `onion`, `i2p`, `cjdns`). Sebagai contoh, jika Anda ingin node Anda terhubung ke jaringan Bitcoin hanya melalui Tor, Anda dapat mengaktifkan parameter `onlynet=onion` dan menonaktifkan koneksi yang masuk (atau hanya mengizinkan koneksi melalui Tor juga).
 - dnsseed`: mengizinkan atau melarang _DNS seeds_ untuk meminta peer ketika pool Address lokal Anda rendah (default: `1`, kecuali `-connect` atau `-maxconnections=0`).
 - `forcednsseed`: memaksa _DNS seeds_ untuk diminta pada saat startup, bahkan jika Anda sudah memiliki stok alamat (default: `0`).
@@ -3362,7 +3362,7 @@ Untuk sepenuhnya mendukung Tor, Anda perlu memaksa Bitcoin core untuk hanya meng
 - `torcontrol=127.0.0.1:9051`,
 - `proxyrandomize=1`,
 - `dengarkan=1`,
-- bind = 127.0.0.1`,
+- `bind=127.0.0.1`,
 - `upnp=0`,
 - `natpmp=0`.
 
@@ -3418,7 +3418,7 @@ Berikut ini adalah parameter dasar yang dapat Anda modifikasi pada `Bitcoin.conf
 
 
 
-- blocksonly=1`: Menonaktifkan penerimaan dan pengiriman ulang transaksi yang belum dikonfirmasi yang diterima dari rekan-rekan (kecuali jika izin khusus diberikan). Node sekarang hanya mengunggah dan mengiklankan blok. Transaksi yang dibuat secara lokal masih dapat disiarkan (untuk menggunakan node Anda dengan perangkat lunak Wallet). Hal ini sangat mengurangi kebutuhan bandwidth dan RAM, meskipun dengan biaya berkurangnya kegunaan relay dan ketidaktahuan total dengan Mempool.
+- `blocksonly=1` : Menonaktifkan penerimaan dan penerusan transaksi yang belum dikonfirmasi dari rekan (kecuali dengan izin khusus). Node hanya mengunduh dan mengumumkan blok. Transaksi yang dibuat secara lokal masih dapat disiarkan (untuk menggunakan node Anda dengan perangkat lunak dompet Anda). Ini sangat mengurangi penggunaan bandwidth dan kebutuhan RAM dengan mengorbankan kegunaan relay dan tanpa pengetahuan tentang mempool.
 
 
 
@@ -3448,7 +3448,7 @@ Berikut ini adalah pengaturan lanjutan untuk Mempool dan kebijakan relai. Jika A
 
 
 
-- datacarrier=1`: Memungkinkan pengiriman ulang dan (jika Mining melalui node) penyertaan transaksi yang membawa data non-keuangan melalui output `OP_RETURN` (default: `1`). Menonaktifkan parameter ini akan sedikit mengurangi area permukaan untuk spam data non-keuangan, dengan mengorbankan kompatibilitas yang lebih rendah dengan penggunaan tertentu. Dalam semua kasus, Anda harus menerima `OP_RETURN` yang ditambang.
+- `datacarrier=1` : Mengizinkan relay dan (jika menambang melalui node) penyertaan transaksi yang membawa data non-keuangan melalui output `OP_RETURN` (default: `1`). Menonaktifkan parameter ini sedikit mengurangi potensi spam data non-keuangan dengan mengorbankan kompatibilitas dengan beberapa penggunaan. Dalam semua kasus, Anda harus menerima `OP_RETURN` yang ditambang.
 
 
 
@@ -3490,13 +3490,13 @@ Berikut ini adalah pengaturan lanjutan untuk Mempool dan kebijakan relai. Jika A
 
 
 
-- peerbloomfilters=1`: Aktifkan dukungan untuk filter Bloom (BIP37) untuk menyajikan blok/transaksi yang telah difilter ke thin client (default: `0`). Peringatan: hal ini akan meningkatkan beban pada sumber daya Anda.
+- `peerbloomfilters=1` : Mengaktifkan dukungan untuk filter Bloom (BIP37) guna melayani blok/transaksi yang difilter ke klien ringan (default: `0`). Perhatian, ini meningkatkan beban pada sumber daya Anda.
 
 
 
 
 
-- peerblockfilters=1`: Menyajikan filter ringkas BIP157 (*Neutrino*) ke rekan-rekan (default: `0`).
+- `peerblockfilters=1` : Menyediakan filter kompak BIP157 (*Neutrino*) ke rekan (default: `0`).
 
 
 
@@ -3520,7 +3520,7 @@ Anda juga dapat mengatur cara pengelolaan wallet Anda dalam file `Bitcoin.conf`.
 
 
 
-- addresstype = <legacy|P2SH-SegWit|bech32|bech32m>`: Menentukan format alamat yang dihasilkan Wallet untuk penerimaan.
+- `addresstype=<legacy|p2sh-segwit|bech32|bech32m>` : Menentukan format alamat yang dihasilkan oleh dompet untuk penerimaan.
 
 
 
@@ -3568,7 +3568,7 @@ Anda juga dapat mengatur cara pengelolaan wallet Anda dalam file `Bitcoin.conf`.
 
 
 
-- fallbackfee=<amt>`: Tingkat fallback (BTC/kvB) yang digunakan jika estimator kehabisan data (default: `0.00`). Mengaturnya ke 0 akan menonaktifkan fallback sepenuhnya.
+- `fallbackfee=<amt>` : Tarif cadangan (BTC/kvB) yang digunakan jika estimator kekurangan data (default: `0.00`). Mengaturnya ke 0 akan menonaktifkan fallback sepenuhnya.
 
 
 
@@ -3660,7 +3660,7 @@ File konfigurasi juga memungkinkan Anda untuk menyesuaikan parameter yang terkai
 
 
 
-- txindex=1`: Membangun dan memelihara indeks global dari transaksi yang dikonfirmasi. Penting untuk kueri tertentu (`getrawtransaction` non-Wallet) dan untuk tujuan eksplorasi, tetapi secara signifikan meningkatkan jejak disk. Tidak kompatibel dengan mode pruned.
+- `txindex=1` : Membangun dan memelihara indeks global dari transaksi yang dikonfirmasi. Penting untuk beberapa permintaan (`getrawtransaction` di luar dompet) dan untuk keperluan eksplorasi, tetapi secara signifikan meningkatkan penggunaan disk. Tidak kompatibel dengan mode terpangkas.
 
 
 
@@ -3894,7 +3894,7 @@ Sekarang Anda dapat melanjutkan ke bagian akhir kursus, di mana Anda akan dapat 
 
 
 
-Anda sekarang memiliki beberapa opsi yang terbuka untuk Anda. Langkah logis berikutnya adalah menyiapkan node Lightning Anda sendiri, yang memungkinkan Anda untuk sepenuhnya mandiri untuk transaksi off-chain Anda. Ini akan menjadi subjek dari kursus yang akan datang, yang akan diterbitkan pada musim gugur 2025 di Plan ₿ Network.
+Anda sekarang memiliki beberapa opsi yang terbuka untuk Anda. Langkah logis berikutnya adalah menyiapkan node Lightning Anda sendiri, yang memungkinkan Anda untuk sepenuhnya mandiri untuk transaksi off-chain Anda. Ini akan menjadi subjek dari kursus yang akan datang, yang akan diterbitkan pada musim gugur 2025 di Plan ₿ Academy.
 
 
 
@@ -3902,7 +3902,7 @@ Sementara itu, saya mengundang Anda untuk mengikuti pelatihan BTC 204, yang akan
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 # Bagian akhir

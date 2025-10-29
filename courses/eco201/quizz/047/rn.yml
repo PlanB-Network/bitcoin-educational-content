@@ -1,12 +1,12 @@
-question: Ni kuki abahinga mu vy’ubutunzi n’abategura imigambi yo hagati kenshi badakunda abahinga mu vy’ubutunzi bo muri Otirishiya?
-answer: Abahinga mu vy’ubutunzi bo muri Otirishiya barashira ahabona ukuntu kazoza katamenyekana, ukuntu abantu bavuga ivy’ubutunzi bitari vyo, be n’ingaruka mbi ziterwa n’ugufasha mu vy’ubutunzi.
+question: Ni kuki abahinga mu vy’ubutunzi n’abategura imigambi kenshi badakunda abahinga mu vy’ubutunzi bo muri Otirishi?
+answer: Abahinga mu vy’ubutunzi bo muri Otirishi barashira ahabona ukuntu kazoza katamenyekana, ukuntu abantu bavuga ivy’ubutunzi bitari vyo, be n’ingaruka mbi ziterwa n’ugufasha k'ubutunzi.
 wrong_answers:
-  - Abahinga mu vy’ubutunzi bo muri Otirishiya barashigikira ubusosiyalisimu.
-  - Abahinga mu vy’ubutunzi bo muri Otirishiya ntibemera ububasha bw’isoko.
-  - Abahinga mu vy’ubutunzi bo muri Otirishiya ntibakoresha ivyerekanwa vy’imibare.
+  - Abahinga mu vy’ubutunzi bo muri Otirishi barashigikira ubusosiyalisimu.
+  - Abahinga mu vy’ubutunzi bo muri Otirishi ntibemera ububasha bw’isoko.
+  - Abahinga mu vy’ubutunzi bo muri Otirishi ntibakoresha ivyerekanwa n'ibiharuro.
 explanation: |
-  Abahinga mu vy’ubutunzi bo muri Otirishiya barashira ahabona ukuntu kazoza katamenyekana, ni ukuvuga ukutari kwo .
+  Abahinga mu vy’ubutunzi bo muri Otirishi  barashira ahabona ukuntu kazoza katamenyekana, ni ukuvuga ukutari kwo .
   y’ubuhanuzi bw’ubutunzi bushingiye ku rugero, n’ingaruka mbi z’ugufasha mu vy’ubutunzi,
-  ivyo bikaba biteye kubiri n’ivyo abahinga mu vy’ubutunzi n’abahinga bo hagati .
+  ivyo bikaba biteye kubiri n’ivyo abahinga mu vy’ubutunzi n’abahingai;
   abategura imigambi.
 reviewed: true

@@ -17,7 +17,7 @@ description: راه‌اندازی و استفاده از Bitcoin Keeper Wallet 
 
 برای مشاهده آموزش کامل Bitcoin Keeper Wallet، آموزش را اینجا ببینید:
 
-https://planb.network/tutorials/wallet/mobile/bitcoin-keeper-7f2a160b-10b6-4cc5-8820-514ee2eb1599
+https://planb.academy/tutorials/wallet/mobile/bitcoin-keeper-7f2a160b-10b6-4cc5-8820-514ee2eb1599
 
 اینجا سایر لینک‌های مرتبط را بررسی کنید:
 

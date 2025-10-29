@@ -1,0 +1,8 @@
+question: What does it mean when Bitcoin is described as a pseudonymous system rather than an anonymous system?
+answer: Users can be traced between their pseudonyms, but their real identities are not directly revealed
+wrong_answers:
+  - Users cannot be traced at all and their transactions are completely hidden from view
+  - Users must register their real names but can use fake addresses for transactions
+  - Users are completely anonymous with no way to connect any transactions together
+explanation: |
+  Bitcoin's pseudonymous nature means that while users operate under pseudonyms (addresses derived from public keys), their transactions can still be traced and linked between these pseudonyms on the blockchain. This differs from true anonymity, where transactions would leave no traceable connections at all. In Bitcoin, you can follow the flow of funds between addresses, but the real-world identity behind those addresses isn't directly revealed unless someone voluntarily discloses it or makes mistakes that leak their private information.

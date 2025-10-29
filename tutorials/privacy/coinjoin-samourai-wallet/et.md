@@ -299,7 +299,7 @@ Kui `Tx0` on kinnitatud, registreeritakse teie UTXOd automaatselt koordinaatorig
 
 ![samourai](assets/notext/34.webp)
 
-Kontrollides vahekaarti `Remixing`, mis vastab **Postmix** kontole, näete esialgsetest segamistest saadud UTXOsid. Need mündid jäävad valmis järgnevaks ümbersegamiseks, mis ei too kaasa lisatasusid. Soovitan konsulteerida selle teise artikliga, et saada rohkem teavet ümbersegamise protsessi ja coinjoin tsükli efektiivsuse kohta: [REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa).
+Kontrollides vahekaarti `Remixing`, mis vastab **Postmix** kontole, näete esialgsetest segamistest saadud UTXOsid. Need mündid jäävad valmis järgnevaks ümbersegamiseks, mis ei too kaasa lisatasusid. Soovitan konsulteerida selle teise artikliga, et saada rohkem teavet ümbersegamise protsessi ja coinjoin tsükli efektiivsuse kohta: [REMIX - WHIRLPOOL](https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa).
 
 ![samourai](assets/notext/35.webp)
 
@@ -336,7 +336,7 @@ Sisestage oma kulutustehingu jaoks vajalik teave, seejärel klõpsake sinisel `V
 
 ![samourai](assets/notext/43.webp)
 Järgmises etapis on teil võimalus muuta oma tehingu tasumäära. Samuti saate lubada Stonewall valiku, märkides vastava ruudu. Kui Stonewall valikut ei saa valida, tähendab see, et teie **Postmix** konto ei sisalda piisavalt suurt UTXO-d, et toetada seda konkreetset tehingustruktuuri.
-[-> Lugege lisaks Stonewall tehingute kohta.](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
+[-> Lugege lisaks Stonewall tehingute kohta.](https://planb.academy/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 Kui kõik on teie jaoks rahuldav, klõpsake rohelisel `SEND ... BTC` nupul.
 
@@ -368,7 +368,7 @@ Whirlpool sulgub automaatselt. Oodake, kuni Samourai on laadimise lõpetanud, se
 Veenduge, et teie SCODE on õigesti registreeritud, klõpsates veel kord kolmel väikesel punktil ja valides `SCODE (promo code) Whirlpool`. Kui kõik on korras, olete valmis alustama uut Whirlpool tsüklit teenustasude allahindlusega. On oluline märkida, et need SCODE-d on ajutised: need jäävad kehtima mõneks päevaks enne, kui muutuvad aegunuks.
 
 ## Kuidas teada meie coinjoin tsüklite kvaliteeti?
-Selleks, et coinjoin oleks tõeliselt efektiivne, on oluline, et see näitaks head ühtsust sisendite ja väljundite summade vahel. See ühtsus suurendab võimalike tõlgenduste arvu välise vaatleja silmis, suurendades seeläbi tehingu ümber olevat ebakindlust. Selle ebakindluse kvantifitseerimiseks, mida coinjoin tekitab, võib kasutada tehingu entroopia arvutamist. Nende näitajate süvauuringuks viitan teid õpetusele: [BOLTZMANNI KALKULAATOR](https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe). Whirlpooli mudelit tunnustatakse kui seda, mis toob coinjoinidele kõige rohkem homogeensust.
+Selleks, et coinjoin oleks tõeliselt efektiivne, on oluline, et see näitaks head ühtsust sisendite ja väljundite summade vahel. See ühtsus suurendab võimalike tõlgenduste arvu välise vaatleja silmis, suurendades seeläbi tehingu ümber olevat ebakindlust. Selle ebakindluse kvantifitseerimiseks, mida coinjoin tekitab, võib kasutada tehingu entroopia arvutamist. Nende näitajate süvauuringuks viitan teid õpetusele: [BOLTZMANNI KALKULAATOR](https://planb.academy/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe). Whirlpooli mudelit tunnustatakse kui seda, mis toob coinjoinidele kõige rohkem homogeensust.
 Järgnevalt hinnatakse mitme coinjoin tsükli sooritust lähtuvalt rühmade ulatusest, milles münt on peidetud. Nende rühmade suurus määratleb, mida nimetatakse anonüümseteks komplektideks. Anonüümseid komplekte on kahte tüüpi: esimene hindab saavutatud privaatsust tagasiulatuva analüüsi (olevikust minevikku) põhjal ja teine, tulevikku suunatud analüüsi (minevikust olevikku) põhjal. Nende kahe näitaja detailse selgituse saamiseks kutsun teid tutvuma õpetusega: WHIRLPOOL STATS TOOLS - ANONSETS.
 
 ## Kuidas hallata postmixi?

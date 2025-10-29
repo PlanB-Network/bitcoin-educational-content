@@ -1,0 +1,8 @@
+question: What happens during the compilation process when the Rust compiler encounters a macro invocation?
+answer: The compiler matches the input against defined patterns and replaces the macro call with generated code before type checking occurs
+wrong_answers:
+  - The compiler defers macro expansion until after type checking and optimization to ensure code validity
+  - The compiler stores the macro call as bytecode and expands it dynamically during runtime execution
+  - The compiler validates the macro syntax but leaves the actual expansion for the linker to handle
+explanation: |
+  Macros are expanded during compilation before type checking and optimization occur. When the compiler encounters a macro invocation, it immediately matches the input against the macro's defined patterns and replaces the entire macro call with the generated code. This expanded code then undergoes normal compilation processes including type checking. The other options are incorrect because macros operate at compile-time, not runtime, and expansion must happen before type checking since the generated code needs to be validated for correctness.

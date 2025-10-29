@@ -1,27 +1,27 @@
 ---
 name: Lignes directrices pour la relecture
-description: Quels sont les facteurs importants à prendre en compte lors de la relecture sur Plan ₿ Network ?
+description: Quels sont les facteurs importants à prendre en compte lors de la relecture sur Plan ₿ Academy ?
 ---
 
 ![github](assets/cover.webp)
 
 
-Bienvenue dans ce tutoriel sur les **règles à suivre lors de la relecture de contenu sur Plan ₿ Network**. Nous sommes heureux que vous partagiez notre mission de traduire les documents Bitcoin dans le plus grand nombre de langues possible, afin d'aider les gens à prendre conscience de son fonctionnement et de la façon dont il peut être utilisé dans leur vie quotidienne.
+Bienvenue dans ce tutoriel sur les **règles à suivre lors de la relecture de contenu sur Plan ₿ Academy**. Nous sommes heureux que vous partagiez notre mission de traduire les documents Bitcoin dans le plus grand nombre de langues possible, afin d'aider les gens à prendre conscience de son fonctionnement et de la façon dont il peut être utilisé dans leur vie quotidienne.
 
 
-Tout d'abord, contribuer au [dépôt public] (https://github.com/PlanB-Network/Bitcoin-educational-content) de Plan ₿ Network vous donne la possibilité d'écrire des tutoriels, de relire le contenu existant, ou même de proposer l'ajout d'une nouvelle langue à la plateforme. Pour en savoir plus, rejoignez d'abord notre [groupe Telegram](https://t.me/PlanBNetwork_ContentBuilder), et écrivez une brève présentation de vous et des langues que vous pouvez parler.
+Tout d'abord, contribuer au [dépôt public] (https://github.com/PlanB-Network/Bitcoin-educational-content) de Plan ₿ Academy vous donne la possibilité d'écrire des tutoriels, de relire le contenu existant, ou même de proposer l'ajout d'une nouvelle langue à la plateforme. Pour en savoir plus, rejoignez d'abord notre [groupe Telegram](https://t.me/PlanBNetwork_ContentBuilder), et écrivez une brève présentation de vous et des langues que vous pouvez parler.
 
 
-Ce tutoriel est dédié aux contributeurs qui souhaitent relire du contenu. La plupart d'entre eux ne connaissent pas grand-chose à [Github](https://planb.network/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) ou au [langage Markdown](https://www.markdownguide.org/basic-syntax/) que nous utilisons dans le dépôt, il est donc important de partager quelques idées sur les facteurs clés impliqués dans cette tâche.
+Ce tutoriel est dédié aux contributeurs qui souhaitent relire du contenu. La plupart d'entre eux ne connaissent pas grand-chose à [Github](https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) ou au [langage Markdown](https://www.markdownguide.org/basic-syntax/) que nous utilisons dans le dépôt, il est donc important de partager quelques idées sur les facteurs clés impliqués dans cette tâche.
 
 
 Ci-dessous, j'ai rassemblé les problèmes les plus courants rencontrés par les correcteurs. N'hésitez pas à en suggérer d'autres, car cela peut aider d'autres personnes à s'améliorer.
 
 
-Avant de plonger dans les détails, la première chose à faire est de lire ce tutoriel sur les actions pratiques à suivre sur Github, en forkant le dépôt Plan ₿ Network, en commettant des changements et en envoyant des PRs :
+Avant de plonger dans les détails, la première chose à faire est de lire ce tutoriel sur les actions pratiques à suivre sur Github, en forkant le dépôt Plan ₿ Academy, en commettant des changements et en envoyant des PRs :
 
 
-https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
+https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 
 ## Qu'est-ce que la relecture ?
@@ -38,13 +38,13 @@ N'oubliez jamais que la traduction/relecture est une ÉDUCATION !
 
 En fait, notre objectif commun est d'éduquer le plus grand nombre de personnes possible sur le Bitcoin, et il est donc fondamental que les documents qu'elles lisent soient clairs et faciles à comprendre.
 
-En ce sens, tous les contributeurs de Plan ₿ Network sont des éducateurs !
+En ce sens, tous les contributeurs de Plan ₿ Academy sont des éducateurs !
 
 
-## Les premières étapes de la relecture sur Plan ₿ Network
+## Les premières étapes de la relecture sur Plan ₿ Academy
 
 
-Avant de commencer une nouvelle tâche de relecture, annoncez-la dans le [groupe Telegram] (https://t.me/PlanBNetwork_ContentBuilder) ou informez votre coordinateur Plan ₿ Network, qui ouvrira un [numéro] dédié (https://github.com/orgs/PlanB-Network/projects/3). Lorsque vous recevrez le lien du numéro, il vous suffira de **commenter que vous commencez** la tâche de relecture de ce contenu.
+Avant de commencer une nouvelle tâche de relecture, annoncez-la dans le [groupe Telegram] (https://t.me/PlanBNetwork_ContentBuilder) ou informez votre coordinateur Plan ₿ Academy, qui ouvrira un [numéro] dédié (https://github.com/orgs/Plan ₿ Academy/projects/3). Lorsque vous recevrez le lien du numéro, il vous suffira de **commenter que vous commencez** la tâche de relecture de ce contenu.
 
 
 Ce système aide le coordinateur à suivre l'évolution de la situation dans le répertoire et permet au contenu d'être "revendiqué" par le relecteur, ce qui évite la duplication des efforts par quelqu'un d'autre.
@@ -60,7 +60,7 @@ Tout d'abord, **N'oubliez jamais de SYNCER votre repo, sur la branche "dev "**. 
 
 
 
-Une fois la synchronisation réussie, vous pouvez accéder directement au contenu qui vous intéresse et effectuer un commit sur une nouvelle branche, comme le montre ce [tutoriel] (https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). Sinon, vous pouvez ouvrir une nouvelle branche où travailler, en cliquant sur "Branches", comme indiqué ci-dessous.
+Une fois la synchronisation réussie, vous pouvez accéder directement au contenu qui vous intéresse et effectuer un commit sur une nouvelle branche, comme le montre ce [tutoriel] (https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). Sinon, vous pouvez ouvrir une nouvelle branche où travailler, en cliquant sur "Branches", comme indiqué ci-dessous.
 
 
 
@@ -115,11 +115,11 @@ Dans ce deuxième cas, **faites toujours des recherches pour voir si quelqu'un d
 
 
 
-- Une autre bonne solution consiste à conserver le mot/phrase original EN, puis **créer un lien hypertexte** qui redirige vers le [glossaire](https://planb.network/en/resources/glossary) sur planb.network. Pour ce faire, vous devez insérer le mot/phrase entre crochets, et le lien entre parenthèses rondes, comme vous pouvez le voir dans l'exemple ci-dessous :
+- Une autre bonne solution consiste à conserver le mot/phrase original EN, puis **créer un lien hypertexte** qui redirige vers le [glossaire](https://planb.academy/en/resources/glossary) sur planb.network. Pour ce faire, vous devez insérer le mot/phrase entre crochets, et le lien entre parenthèses rondes, comme vous pouvez le voir dans l'exemple ci-dessous :
 
 
 ```
-[UTXO](https://planb.network/resources/glossary/utxo)
+[UTXO](https://planb.academy/resources/glossary/utxo)
 ```
 
 
@@ -131,14 +131,14 @@ Dans le résultat final (image ci-dessous), vous ne visualiserez pas le lien ent
 
 
 
-Veuillez noter que le lien vers le glossaire que vous obtiendrez sur le site web contient le code de langue après le mot "réseau" (exemple : `https://planb.network/en/resources/glossary/utxo`-> ici vous pouvez lire le code de langue "en"). Dans ce cas, **supprimez le code de langue du lien**, comme vous l'avez vu dans l'encadré ci-dessus. De cette façon, le système amènera automatiquement le lecteur à la langue qu'il a choisie.
+Veuillez noter que le lien vers le glossaire que vous obtiendrez sur le site web contient le code de langue après le mot "réseau" (exemple : `https://planb.academy/en/resources/glossary/utxo`-> ici vous pouvez lire le code de langue "en"). Dans ce cas, **supprimez le code de langue du lien**, comme vous l'avez vu dans l'encadré ci-dessus. De cette façon, le système amènera automatiquement le lecteur à la langue qu'il a choisie.
 
 
 Le contenu du référentiel est truffé d'hyperliens comme ceux présentés ci-dessus. Maintenant que vous savez ce qu'ils signifient, **veillez à ne pas supprimer les liens** insérés par l'auteur original.
 
 
 
-- Une autre chose liée à la restitution des mots est la suivante. Si vous trouvez "Plan ₿ Network" dans le texte, **laissez-le dans sa forme originale**. Ne traduisez pas le mot "plan" ou le mot "réseau". En outre, n'utilisez PAS l'article "The" lorsque vous présentez Plan ₿ Network : **considérez-le comme une marque**.
+- Une autre chose liée à la restitution des mots est la suivante. Si vous trouvez "Plan ₿ Academy" dans le texte, **laissez-le dans sa forme originale**. Ne traduisez pas le mot "plan" ou le mot "réseau". En outre, n'utilisez PAS l'article "The" lorsque vous présentez Plan ₿ Academy : **considérez-le comme une marque**.
 
 
 
@@ -323,7 +323,7 @@ Vérifiez toujours tous les liens hypertextes dans le texte, afin de vous assure
 
 
 
-- Si l'auteur insère un lien renvoyant à un cours ou à un tutoriel Plan ₿ Network (**non** entre parenthèses), le site web créera automatiquement une "carte" affichant la vignette correspondante. Par conséquent, veillez toujours à **ajouter une nouvelle ligne entre le texte et le lien lui-même**, sinon vous risquez de voir apparaître l'erreur suivante sur le site web.
+- Si l'auteur insère un lien renvoyant à un cours ou à un tutoriel Plan ₿ Academy (**non** entre parenthèses), le site web créera automatiquement une "carte" affichant la vignette correspondante. Par conséquent, veillez toujours à **ajouter une nouvelle ligne entre le texte et le lien lui-même**, sinon vous risquez de voir apparaître l'erreur suivante sur le site web.
 
 
 

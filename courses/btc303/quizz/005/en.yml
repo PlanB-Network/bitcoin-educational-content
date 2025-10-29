@@ -1,0 +1,8 @@
+question: What does miner decentralization specifically refer to in Bitcoin?
+answer: The ordering of transactions is performed collectively by a dynamic set of miners rather than a single entity
+wrong_answers:
+  - The validation of blocks is distributed across multiple trusted authorities instead of one central server
+  - The mining rewards are equally distributed among all participants in the Bitcoin network
+  - The mining hardware is manufactured by different companies to prevent monopolization of equipment
+explanation: |
+  Miner decentralization specifically means that transaction ordering isn't controlled by any single entity or fixed group, but rather by a collective of miners who can freely join or leave. This is different from block validation (which relates to full node decentralization), reward distribution, or hardware manufacturing. The dynamic nature of the mining collective - where anyone can participate without permission - is what makes Bitcoin censorship-resistant and prevents any single party from controlling which transactions get included in blocks.

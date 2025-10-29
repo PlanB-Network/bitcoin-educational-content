@@ -1,18 +1,18 @@
-question: Ni isano irihe riri hagati y’uguhitamwo umwanya n’inyungu mu bukungu bufise amasoko y’itunga atakoreshwa nabi?
-answer: Ukwiyongera kw’inyungu kuva ku kwiyongera kw’abasaba umutungo ugereranije na Supply, bikaba vyerekana ko umuntu akunda igihe kinini. Ku rundi ruhande, ukugabanya inyungu biva ku kwiyongera kw’amahera azigamiwe, ari vyo kwiyongera kwa Supply y’umutungo kamere, bikaba vyerekana ko igihe umuntu akunda kigabanutse.
+question: Ni isano irihe riri hagati y’uguhitamwo umwanya n’inyungu mu butunzi bufise amasoko y’imitahe adakoreshwa?
+answer: Ukwiyongera kw’inyungu biva ku kwiyongera kw’abasaba imitahe ugereranije na n'ibihari vyo gutanga, bikaba vyerekana ko umuntu akunda igihe kinini. Ku rundi ruhande, ukugabanya inyungu biva ku kwiyongera kw’amahera aziganijwe, ari vyo kwiyongera kwa kw'ibitangwa vy’imitahe, bikaba vyerekana ko igihe umuntu akunda kigabanutse.
 wrong_answers:
-  - Ukwongerekana kw’inyungu vyerekana ko umuntu akunda igihe kigabanutse, mu gihe inyungu zigabanutse vyerekana ko umuntu akunda igihe kigabanutse.
-  - Igihe umuntu akunda n’inyungu birafitaniye isano ritari ryo.
-  - Igihe umuntu akunda n’inyungu nta sano ritandukanye bifitaniye.
+  - Ukwongerekana kw’inyungu vyerekana ko umuntu akunda igihe kigabanutse, mu gihe inyungu zigabanutse vyerekana ko umuntu akunda igihe ciyongeye.
+  - Igihe umuntu akunda n’inyungu ntaho bisa bisana.
+  - Igihe umuntu akunda n’inyungu nta sano na ritoya bifitaniye.
 explanation: |
-  Mu bukungu bufise amasoko y’itunga atakoreshwa, ivyerekeye
-  inyungu zigenwa ku mahuriro y’
-  umutungo Supply n’ivyo usaba. Ku bw’ivyo, ivyo bipimo bigereranya .
-  ivyerekeye igihe c’uguhitamwo ku bukungu bwose. An
-  Ukwongerekana kw'inyungu biva ku ncuti
-  ukwongerekana kw’abasaba umutungo ugereranyije na Supply,
+  Mu butunzi bufise amasoko y’imitahe adakoreshwa, ivyerekeye
+  inyungu zigenwa ku ihuririo y’
+  umutahe ivyo utanga n’ivyo usaba. Ku bw’ivyo, ivyo bipimo bigereranya .
+  ivyerekeye igihe c’uguhitamwo ku butunzi bwose.
+  Ukwongerekana kw'inyungu biva ku
+  ukwongerekana kw’abasaba umutahe ugereranyije n'ivyo ushobora gutanga,
   vyerekana igihe umuntu akunda cane. Ku ruhande rumwe, ukugabanya .
-  mu nyungu ziterwa n’ukwiyongera kw’amahera azigamiwe,
-  ni ukuvuga ukwongerekana kwa Supply y’umutungo kamere, vyerekana ko
+  mu nyungu ziterwa n’ukwiyongera kw’amahera aziganijwe,
+  ni ukuvuga ukwongerekana kw'ivyo batanga k’umutahe, vyerekana ko
   kugabanya igihe umuntu akunda.
 reviewed: true

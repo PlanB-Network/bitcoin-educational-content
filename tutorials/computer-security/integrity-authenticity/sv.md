@@ -234,4 +234,4 @@ Om du tyckte att den här handledningen var till hjälp skulle jag uppskatta tum
 Jag rekommenderar också att du kollar in den här andra handledningen om VeraCrypt, en programvara som låter dig kryptera och dekryptera lagringsenheter.
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5

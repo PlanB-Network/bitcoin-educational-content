@@ -9,7 +9,7 @@ description: The Linux distribution that gives you control over your digital lif
 Protecting personal information in the digital age is a top priority for every Internet user. Companies, organizations and even operating systems are useful sources of information for defining your profile and lifestyle. Choosing the right operating system is the first step in strengthening your online privacy. In this tutorial, we'll be taking a look at PureOS, a privacy-focused Linux distribution.
 
 
-https://planb.network/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
+https://planb.academy/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
 
 ## Getting started with PureOS
 
@@ -262,4 +262,4 @@ With native access to essential tools, robust package managers and a rich open-s
 Discover our course on strengthening your security and protecting your digital privacy.
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

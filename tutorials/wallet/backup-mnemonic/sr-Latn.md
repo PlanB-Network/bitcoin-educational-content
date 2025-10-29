@@ -124,12 +124,12 @@ Takođe možete obogatiti svoju rezervnu kopiju dodatnim informacijama vezanim z
 S druge strane, ako koristite passphrase, pobrinite se da ga ne zapišete na isti medij kao vašu Mnemonic frazu. Svrha passphrase je da zaštiti vaš Wallet u slučaju krađe. Da biste saznali više o tome kako koristiti passphrase, pogledajte ovaj dopunski vodič:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Kada sačuvate svoju Mnemonic frazu na fizičkom mediju, preporučuje se da izvršite test oporavka dok je vaš novokreirani Wallet još uvek prazan. Ovaj test se sastoji od zapisivanja uzorka informacija, namernog brisanja praznog Wallet, a zatim pokušaja da ga obnovite koristeći samo vašu fizičku rezervnu kopiju Mnemonic fraze. Ovo će vam omogućiti da proverite da li je vaša rezervna kopija kompletna i bez grešaka u unosu. Takođe vam omogućava da se upoznate sa procesom oporavka. Na ovaj način, ako budete morali da izvršite oporavak u budućnosti, bićete bolje pripremljeni i izbeći ćete stres prvog pokušaja u stvarnoj situaciji. Da biste saznali više o tome kako da sprovedete ovaj test, pogledajte ovaj drugi vodič :
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 Konačno, tu je pitanje broja rezervnih kopija. Ovaj izbor u potpunosti zavisi od vaše lične situacije. Ograničavanje broja kopija, na primer pisanjem vaše Mnemonic fraze samo jednom na jednom medijumu, smanjuje rizik od krađe, ali povećava rizik od gubitka. Suprotno tome, pravljenje više kopija smanjuje rizik od gubitka, ali povećava rizik od krađe. Dakle, na vama je da pronađete pravi balans za vaše potrebe i odredite broj kopija koji smatrate najprikladnijim.
 
@@ -170,9 +170,9 @@ Konačno, Mnemonic upravljanje frazama takođe postavlja pitanje nasleđivanja. 
 Da biste otišli korak dalje i dodatno ojačali svoju sigurnosnu strategiju, preporučujem da naučite tehnički rad vašeg Bitcoin Wallet. Razumevanjem kako različiti Elements međusobno deluju, kao i njihovog značaja i implikacija, moći ćete da precizno prilagodite svoju sigurnosnu strategiju sa punom svešću o uključenim rizicima. Konkretno, ako razumete na tehničkom nivou šta omogućava fraza Mnemonic, moći ćete da prilagodite način na koji je beležite, skladištite i upravljate njome tokom vremena.
 
 
-Zato vas pozivam da pohađate besplatni kurs obuke CYP201 koji nudi Plan ₿ Network. Ovaj kurs obuke detaljno objašnjava sve funkcije Bitcoin novčanika, omogućavajući vam da savladate tehničke aspekte neophodne za efikasno osiguranje vaših sredstava :
+Zato vas pozivam da pohađate besplatni kurs obuke CYP201 koji nudi Plan ₿ Academy. Ovaj kurs obuke detaljno objašnjava sve funkcije Bitcoin novčanika, omogućavajući vam da savladate tehničke aspekte neophodne za efikasno osiguranje vaših sredstava :
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 Ako ste našli ovaj vodič korisnim, bio bih zahvalan ako biste ostavili Green palac ispod. Slobodno podelite ovaj članak na svojim društvenim mrežama. Hvala vam puno!

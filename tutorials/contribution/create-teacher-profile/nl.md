@@ -1,14 +1,14 @@
 ---
-name: Professor Plan ₿ Network
-description: Hoe kan ik mijn docentenprofiel op Plan ₿ Network toevoegen of wijzigen?
+name: Professor Plan ₿ Academy
+description: Hoe kan ik mijn docentenprofiel op Plan ₿ Academy toevoegen of wijzigen?
 ---
 ![cover](assets/cover.webp)
 
 
-Als je van plan bent bij te dragen aan Plan ₿ Network door een nieuwe tutorial of cursus te schrijven, heb je een docentprofiel nodig. Met dit profiel ontvang je de juiste credits voor de inhoud die je bijdraagt aan het platform.
+Als je van plan bent bij te dragen aan Plan ₿ Academy door een nieuwe tutorial of cursus te schrijven, heb je een docentprofiel nodig. Met dit profiel ontvang je de juiste credits voor de inhoud die je bijdraagt aan het platform.
 
 
-Voor degenen die al betrokken zijn geweest bij het maken van educatieve inhoud op Plan ₿ Network, heb je waarschijnlijk al een docentenprofiel. Je kunt het vinden in de `/professors` map [op onze GitHub repository] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors). Als je profiel al bestaat, dan vind je je login in het `professor.yml` bestand.
+Voor degenen die al betrokken zijn geweest bij het maken van educatieve inhoud op Plan ₿ Academy, heb je waarschijnlijk al een docentenprofiel. Je kunt het vinden in de `/professors` map [op onze GitHub repository] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors). Als je profiel al bestaat, dan vind je je login in het `professor.yml` bestand.
 
 
 Om je profiel te wijzigen, ga je naar het gedeelte "Je docentenprofiel bewerken" aan het einde van deze tutorial.
@@ -17,13 +17,13 @@ Om je profiel te wijzigen, ga je naar het gedeelte "Je docentenprofiel bewerken"
 ## Voeg een nieuwe docent toe met onze software
 
 
-De makkelijkste manier om je docentenprofiel op Plan ₿ Network aan te maken is door onze geïntegreerde Python-tool te gebruiken. Dit is hoe het werkt.
+De makkelijkste manier om je docentenprofiel op Plan ₿ Academy aan te maken is door onze geïntegreerde Python-tool te gebruiken. Dit is hoe het werkt.
 
 
 ### 1 - Uw lokale omgeving configureren
 
 
-Je moet je eigen fork hebben van [Plan ₿ Network repository op GitHub] (https://github.com/PlanB-Network/Bitcoin-educational-content).
+Je moet je eigen fork hebben van [Plan ₿ Academy repository op GitHub] (https://github.com/PlanB-Network/Bitcoin-educational-content).
 
 
 Synchroniseer de hoofdbranch (`dev`) van je fork met het bronrepository.
@@ -87,7 +87,7 @@ python3 main.py
 ```
 
 
-Eenmaal op de startpagina, voer je het lokale pad naar je repositorykloon in, de taal waarin je schrijft en je GitHub ID. Als je dit profiel voor iemand anders aanmaakt en al een Professor's profiel hebt, voer dan je ID in het "*PBN Professor's ID*" veld in. Als je je eigen profiel aanmaakt, dan zul je nog geen Professor's ID hebben, omdat je bezig bent er een aan te maken, dus laat dit veld leeg.
+Eenmaal op de startpagina, voer je het lokale pad naar je repositorykloon in, de taal waarin je schrijft en je GitHub ID. Als je dit profiel voor iemand anders aanmaakt en al een Professor's profiel hebt, voer dan je ID in het "*Plan ₿ Academy Professor's ID*" veld in. Als je je eigen profiel aanmaakt, dan zul je nog geen Professor's ID hebben, omdat je bezig bent er een aan te maken, dus laat dit veld leeg.
 
 
 Klik dan op de knop "*New Professor*".
@@ -156,8 +156,8 @@ Als je het gebruik van Git onder de knie hebt, pas dan je leraarsprofiel aan doo
 Voor beginners raad ik aan om de wijziging direct via GitHub's web interface te doen. Zorg ervoor dat je een GitHub account hebt. Als je niet weet hoe je er een moet aanmaken, volg dan deze tutorial:
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
-Ga naar [de Plan ₿ Network GitHub repository gewijd aan gegevens] (https://github.com/PlanB-Network/Bitcoin-educational-content/graphs/contributors).
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+Ga naar [de Plan ₿ Academy GitHub repository gewijd aan gegevens] (https://github.com/PlanB-Network/Bitcoin-educational-content/graphs/contributors).
 
 
 ![Image](assets/fr/03.webp)
@@ -184,7 +184,7 @@ Klik op het potloodpictogram in het bestand dat je wilt wijzigen.
 ![Image](assets/fr/06.webp)
 
 
-Als je nog geen fork van het Plan ₿ Network repository hebt, zal GitHub voorstellen dat je er een aanmaakt. Klik op "*Fork this repository*".
+Als je nog geen fork van het Plan ₿ Academy repository hebt, zal GitHub voorstellen dat je er een aanmaakt. Klik op "*Fork this repository*".
 
 
 ![Image](assets/fr/07.webp)
@@ -205,13 +205,13 @@ Voer een bericht in waarin je je wijziging beschrijft en selecteer vervolgens "*
 Een samenvatting van je wijzigingen wordt weergegeven. Als je nog meer wijzigingen in je profiel wilt aanbrengen, kun je teruggaan naar de mappen en nog meer commits doen. Als je klaar bent, klik je op "*Create pull request*".
 
 
-Een Pull Request is een verzoek om wijzigingen van jouw branch te integreren in de hoofdbranch van de Plan ₿ Network repository, zodat wijzigingen bekeken en besproken kunnen worden voordat ze samengevoegd worden.
+Een Pull Request is een verzoek om wijzigingen van jouw branch te integreren in de hoofdbranch van de Plan ₿ Academy repository, zodat wijzigingen bekeken en besproken kunnen worden voordat ze samengevoegd worden.
 
 
 ![Image](assets/fr/10.webp)
 
 
-Zorg ervoor, bovenaan het scherm, dat je werk branch samengevoegd is met de `dev` branch van de Plan ₿ Network repository (dat is de hoofd branch).
+Zorg ervoor, bovenaan het scherm, dat je werk branch samengevoegd is met de `dev` branch van de Plan ₿ Academy repository (dat is de hoofd branch).
 
 
 Voer een titel in die kort de wijzigingen samenvat die je wilt samenvoegen met de bron repository. Voeg een korte opmerking toe die deze wijzigingen beschrijft en klik dan op de groene knop "*Create pull request*" om de pull request te bevestigen:
@@ -220,7 +220,7 @@ Voer een titel in die kort de wijzigingen samenvat die je wilt samenvoegen met d
 ![Image](assets/fr/11.webp)
 
 
-Je PR zal dan zichtbaar zijn op het tabblad "*Pull Request*" van de Plan ₿ Network repository. Je hoeft nu alleen nog maar te wachten tot een beheerder je wijziging samenvoegt.
+Je PR zal dan zichtbaar zijn op het tabblad "*Pull Request*" van de Plan ₿ Academy repository. Je hoeft nu alleen nog maar te wachten tot een beheerder je wijziging samenvoegt.
 
 
 ![Image](assets/fr/12.webp)

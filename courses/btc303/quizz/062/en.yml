@@ -1,0 +1,8 @@
+question: According to the open source definition, what is the required relationship between derived works and their licensing terms compared to the original software?
+answer: Derived works must be allowed to be distributed under the same terms as the license of the original software
+wrong_answers:
+  - Derived works must be distributed under more restrictive licensing terms than the original software
+  - Derived works must be released under a completely different license that is incompatible with the original
+  - Derived works can only be distributed under proprietary licenses that require payment of royalties
+explanation: |
+  The open source definition explicitly states that 'the license must allow modifications and derived works, and must allow them to be distributed under the same terms as the license of the original software.' This ensures that derivative works maintain the same freedoms as the original, preventing someone from taking open source code and making it proprietary. The other options violate this fundamental principle by either restricting freedom or changing licensing compatibility.

@@ -1,6 +1,6 @@
 ---
 name: Mchango - Mafunzo ya Git (ya juu)
-description: Mwongozo kwa watumiaji wa hali ya juu ili kutoa mafunzo kwenye Plan ₿ Network na Git
+description: Mwongozo kwa watumiaji wa hali ya juu ili kutoa mafunzo kwenye Plan ₿ Academy na Git
 ---
 ![cover](assets/cover.webp)
 
@@ -8,31 +8,31 @@ description: Mwongozo kwa watumiaji wa hali ya juu ili kutoa mafunzo kwenye Plan
 Kabla ya kufuata mafunzo haya juu ya kuongeza mafunzo mapya, unahitaji kuwa umekamilisha hatua chache za awali. Ikiwa bado hujafanya hivyo, tafadhali angalia mafunzo haya ya utangulizi kwanza, kisha urudi hapa:
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+https://planb.academy/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
 Tayari unayo:
 
 
 
 - Chagua mada ya mafunzo yako;
-- Iliwasiliana na timu ya Plan ₿ Network kupitia [Telegram group](https://t.me/PlanBNetwork_ContentBuilder) au paolo@planb.network ;
+- Iliwasiliana na timu ya Plan ₿ Academy kupitia [Telegram group](https://t.me/PlanBNetwork_ContentBuilder) au paolo@planb.network ;
 - Chagua zana zako za mchango.
 
 
-Katika mafunzo haya kwa watumiaji wenye uzoefu wa Git, tutafanya muhtasari wa hatua muhimu na miongozo muhimu ya kutoa mafunzo mapya ya Plan ₿ Network. Ikiwa hujui Git na GitHub, ninapendekeza ufuate mojawapo ya mafunzo haya mengine 2 ya kina ambayo yatakuchukua hatua kwa hatua:
+Katika mafunzo haya kwa watumiaji wenye uzoefu wa Git, tutafanya muhtasari wa hatua muhimu na miongozo muhimu ya kutoa mafunzo mapya ya Plan ₿ Academy. Ikiwa hujui Git na GitHub, ninapendekeza ufuate mojawapo ya mafunzo haya mengine 2 ya kina ambayo yatakuchukua hatua kwa hatua:
 
 
 
 - Kati (Desktop ya GitHub):
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 
 - Wanaoanza (mtandao Interface):
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 
 ## Zana zilizopendekezwa
 
@@ -80,7 +80,7 @@ Ili kuunda michoro na taswira:
 
 
 
-- Ni lazima uwe na Fork yako mwenyewe ya [Plan ₿ Network hazina kwenye GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content).
+- Ni lazima uwe na Fork yako mwenyewe ya [Plan ₿ Academy hazina kwenye GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content).
 - Sawazisha tawi kuu (`dev`) la Fork yako na hazina ya chanzo.
 - Sasisha mshirika wako wa karibu.
 
@@ -213,15 +213,15 @@ Hapa kuna sehemu zinazohitajika:
 
 
 
-- **project_id**: UUID ya kampuni au shirika nyuma ya zana iliyowasilishwa kwenye mafunzo [kutoka kwenye orodha ya mradi](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Kwa mfano, ikiwa unaunda mafunzo kuhusu programu ya Green Wallet, unaweza kupata `project_id` hii katika faili ifuatayo: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Maelezo haya yanaongezwa kwenye faili ya mafunzo yako ya YAML kwa sababu Plan ₿ Network ina hifadhidata ya makampuni na mashirika yote yanayofanya kazi kwenye Bitcoin au miradi inayohusiana. Kwa kuongeza `project_id` ya huluki iliyounganishwa kwenye mafunzo yako, unaunda kiungo kati ya Elements mbili;
+- **project_id**: UUID ya kampuni au shirika nyuma ya zana iliyowasilishwa kwenye mafunzo [kutoka kwenye orodha ya mradi](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Kwa mfano, ikiwa unaunda mafunzo kuhusu programu ya Green Wallet, unaweza kupata `project_id` hii katika faili ifuatayo: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Maelezo haya yanaongezwa kwenye faili ya mafunzo yako ya YAML kwa sababu Plan ₿ Academy ina hifadhidata ya makampuni na mashirika yote yanayofanya kazi kwenye Bitcoin au miradi inayohusiana. Kwa kuongeza `project_id` ya huluki iliyounganishwa kwenye mafunzo yako, unaunda kiungo kati ya Elements mbili;
 
 
 
-- **tags**: Maneno muhimu 2 au 3 yanayohusiana na maudhui ya mafunzo, yaliyochaguliwa pekee [kutoka kwa orodha ya lebo za Plan ₿ Network](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags**: Maneno muhimu 2 au 3 yanayohusiana na maudhui ya mafunzo, yaliyochaguliwa pekee [kutoka kwa orodha ya lebo za Plan ₿ Academy](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 
 
-- **kategoria**: Kitengo kidogo kinacholingana na maudhui ya mafunzo, kulingana na muundo wa tovuti ya Plan ₿ Network (kwa mfano, kwa pochi: `desktop`, `hardware`, `mobile`, `chelezo`);
+- **kategoria**: Kitengo kidogo kinacholingana na maudhui ya mafunzo, kulingana na muundo wa tovuti ya Plan ₿ Academy (kwa mfano, kwa pochi: `desktop`, `hardware`, `mobile`, `chelezo`);
 
 
 
@@ -252,7 +252,7 @@ Hapa kuna sehemu zinazohitajika:
 Kwa maelezo zaidi kuhusu kitambulisho chako cha mwalimu, tafadhali rejelea mafunzo yanayolingana:
 
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 ```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
@@ -382,7 +382,7 @@ print("Hello, Bitcoin!")
     - Hakikisha yanafaa na ya ubora wa juu.
 - **Hati ya picha**:
     - Fonti: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans).
-    - Rangi Plan ₿ Network:
+    - Rangi Plan ₿ Academy:
         - Chungwa: `#FF5C00`
         - Nyeusi: `#000000`
         - Nyeupe: `#FFFFFF`

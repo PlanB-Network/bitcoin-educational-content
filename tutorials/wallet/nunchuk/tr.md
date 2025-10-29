@@ -98,7 +98,7 @@ Açılan pencerede "doldurmanız" gereken alanlar bulacaksınız: sağdaki _Brow
 Bu Software Wallet'u indirmek için Sparrow wallet kılavuzunu bulabilirsiniz
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Daha sonra `.apk` dosyasını bilgisayarınızdan telefonunuza aktarabilirsiniz
 
@@ -276,7 +276,7 @@ Anahtarınıza bir isim verin ve _COPYontinue_ tuşuna basın.
 
 
 
-Bu adımların sonunda, Mnemonic ifadenize bir [passphrase](https://planb.network/en/resources/glossary/passphrase-bip39) ekleyip eklemeyeceğiniz sorulacaktır. passphrase'ü nasıl kullanacağınız, yedeklemesini nasıl ayarlayacağınız veya nasıl çalıştığı konusunda gerekli farkındalığa sahip değilseniz, _Bir parolaya ihtiyacım yok_ seçeneğini seçmenizi tavsiye ederim.
+Bu adımların sonunda, Mnemonic ifadenize bir [passphrase](https://planb.academy/en/resources/glossary/passphrase-bip39) ekleyip eklemeyeceğiniz sorulacaktır. passphrase'ü nasıl kullanacağınız, yedeklemesini nasıl ayarlayacağınız veya nasıl çalıştığı konusunda gerekli farkındalığa sahip değilseniz, _Bir parolaya ihtiyacım yok_ seçeneğini seçmenizi tavsiye ederim.
 
 
 
@@ -394,7 +394,7 @@ Yeni oluşturulan Wallet'in bakiye ve bağlantı durumunu bildirdiği _Home_ kon
 
 
 - Sağ üst köşedeki mercek simgesi bir işlem araması yapmanızı sağlar;
-- `View Wallet config`, Wallet'nın adını düzenleyebileceğiniz ve sağ üstteki gelişmiş seçenekleri etkinleştirebileceğiniz (ekran görüntüsü alamayacağınız) yapılandırma menüsüne erişim sağlar. Burada Wallet yapılandırmasını, etiketleri dışa aktarabilir, tuşları değiştirebilir, [boşluk sınırını] (https://planb.network/en/resources/glossary/gap-limit) ve daha fazlasını değiştirebilirsiniz.
+- `View Wallet config`, Wallet'nın adını düzenleyebileceğiniz ve sağ üstteki gelişmiş seçenekleri etkinleştirebileceğiniz (ekran görüntüsü alamayacağınız) yapılandırma menüsüne erişim sağlar. Burada Wallet yapılandırmasını, etiketleri dışa aktarabilir, tuşları değiştirebilir, [boşluk sınırını] (https://planb.academy/en/resources/glossary/gap-limit) ve daha fazlasını değiştirebilirsiniz.
 
 
 

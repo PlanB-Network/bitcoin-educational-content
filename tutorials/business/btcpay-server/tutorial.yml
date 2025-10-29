@@ -1,4 +1,4 @@
-id: 928eb01e-824b-4b57-a3e8-8727633beddc
+id: f2954eec-c7d7-4f89-ba99-12d62b90955d 
 
 project_id: c61cbdad-03bc-4178-9d8d-0b5b7c1141a0
 
@@ -7,9 +7,9 @@ tags:
   - guides
   - user-friendly
 
-category: point-of-sale
+category: business
 
-level: advanced
+level: beginner
 
 professor_id:  47064624-48d3-4099-a3c2-3269a6213c2e 
 
@@ -18,7 +18,7 @@ professor_id:  47064624-48d3-4099-a3c2-3269a6213c2e
 original_language: fr
 proofreading:
   - language: fr
-    last_contribution_date: 2025-10-13
+    last_contribution_date: 2025-10-28
     urgency: 1
     contributor_names:
       - bened45

@@ -1,6 +1,6 @@
 ---
-"name:": BTCPay Server
-"description:": Accepter des payements Bitcoin sans frais, et sans intermédiaire.
+name: BTCPay Server
+description: Accepter des paiements en BTC sans intermédiaire
 ---
 
 ![capture](assets/cover.webp)

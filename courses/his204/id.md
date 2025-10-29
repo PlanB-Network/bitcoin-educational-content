@@ -83,268 +83,185 @@ Peraturan-peraturan ini menentukan, misalnya, bagaimana seprai dan kain harus di
 Siapa pun yang ingin menjalankan suatu perdagangan harus terlebih dahulu menghabiskan beberapa tahun sebagai apprentice (magang), lalu sebagai journeyman (pekerja harian), sebelum mencoba mencapai status master dengan menghasilkan "masterpiece" dan membayar sejumlah besar kepada gilda / serikat. Oleh karena itu, persaingan dalam setiap perdagangan sangat dibatasi.
 
 
-(2) **Perdagangan Adalah Permainan Tanpa Hasil**. Dalam hal perdagangan, murid-murid Colbert memiliki prasangka yang sama dengan orang-orang barbar di zaman kuno. Menurut menteri Louis XIV, perdagangan adalah "perang abadi". Mengapa? Alasannya sederhana: bagi Colbert dan para penerusnya, setiap peningkatan kekayaan di satu negara berarti pemiskinan di negara lain. Dalam pandangan mereka, Inggris atau Belanda tidak dapat dibiarkan menjadi kaya, karena itu berarti mereka mencuri kemakmuran Prancis.
+(2) **Perdagangan Adalah Permainan Tanpa Hasil**. 
 
+Dalam hal perdagangan, murid-murid Colbert memiliki prasangka yang sama dengan orang-orang barbar di zaman kuno. Menurut menteri Louis XIV, perdagangan adalah "perang abadi". Mengapa? Alasannya sederhana: bagi Colbert dan penerusnya, setiap peningkatan kekayaan bagi satu negara berarti memiskinkan negara lain. Menurut pandangan mereka, Inggris atau Belanda tidak boleh dibiarkan menjadi kaya, karena itu berarti mereka mencuri kemakmuran Prancis.
 
 ![image](assets/id/005.webp)
 
-
-Oleh karena itu, produk-produk negara-negara ini harus dilarang atau dikenakan pajak yang tinggi, tanpa ragu-ragu, karena perdagangan adalah perang di mana kita hanya bisa mengharapkan kehancuran musuh-musuh kita.
-
+Oleh karena itu, produk-produk negara-negara ini harus dilarang atau dikenakan pajak yang sangat tinggi, tanpa keraguan, karena perdagangan adalah perang di mana kita hanya bisa mengharapkan kehancuran musuh kita.
 
 > "Prancis hanya dapat meningkatkan perdagangan mereka dengan menghancurkan Belanda".
-> *Colbert *
+> *Colbert*
 
-(3) **Ketika Negara Kekurangan Uang, Naikkan Pajak Lebih Banyak**. Colbert dan murid-muridnya tidak percaya bahwa kekayaan pembayar pajak adalah sumber daya yang terbatas. Dalam pandangan mereka, pengeluaran publik tidak akan pernah menjadi masalah, selama jumlah pajak yang terkumpul cukup. Dan jika rakyat memberontak, itu hanya karena para menteri telah melakukannya dengan buruk, karena, seperti yang dikatakan Colbert dengan sinis, "seni perpajakan adalah memetik angsa tanpa membuat mereka berteriak terlalu banyak".
+(3) **Ketika Negara Kekurangan Uang, Naikkan Pajak Lebih Banyak**.
 
+Colbert dan murid-muridnya jauh dari keyakinan bahwa kekayaan pembayar pajak adalah sumber daya yang terbatas. Menurut pandangan mereka, pengeluaran publik tidak pernah menjadi masalah, selama jumlah yang dikumpulkan mencukupi. Dan jika rakyat memberontak, itu hanya karena para menteri melakukannya dengan buruk, karena, seperti yang disindir Colbert secara sinis, "seni perpajakan terletak pada mencabut bulu angsa tanpa membuatnya terlalu banyak berteriak."
 
 ![image](assets/id/006.webp)
 
 
-(4) **Kekayaan adalah, di atas segalanya, emas dan perak**. Sebelum lahirnya ilmu ekonomi, banyak penulis mengikuti satu dogma dominan tentang sifat kekayaan, yang kemudian dikenal sebagai *mercantilisme*. Colbert dan para penerusnya melanjutkan jalan ini. Singkatnya, para merkantilis percaya bahwa tanda kemakmuran sebuah negara adalah akumulasi logam mulia, perak dan emas.
+(4) **Kekayaan adalah, di atas segalanya, emas dan perak**. 
 
+Sebelum lahirnya ilmu ekonomi, banyak penulis mengikuti satu dogma dominan tentang sifat kekayaan, yang kemudian dikenal sebagai _merkantilisme_. Colbert dan penerusnya melanjutkan jalur ini. Singkatnya, kaum merkantilis percaya bahwa tanda sejati kemakmuran suatu bangsa adalah akumulasi logam mulia, perak, dan emas.
 
 ![image](assets/id/007.webp)
 
-
-
-> "Hanya kelimpahan uang di dalam negara yang membuat perbedaan pada kebesaran dan kekuatannya".
+> "Hanya kelimpahan uang di dalam negara yang membuat perbedaan pada kebesaran dan kekuasaannya".
 > *Colbert *
 
-Konsekuensi dari ide ini adalah mendukung ekspor dengan segala cara, yang mendatangkan emas dan perak asing, dan membatasi impor seminimal mungkin, untuk menghindari pengiriman ke luar negeri.
-
+Konsekuensi dari ide ini adalah mendukung ekspor dengan segala cara, yang mendatangkan emas dan perak asing, dan membatasi impor seminimal mungkin, untuk menghindari pengiriman emas dan perak ke luar negeri.
 
 Ini adalah empat prinsip yang memandu pemerintah Prancis selama beberapa dekade, saat negara ini memasuki abad ke-18. Namun, prinsip-prinsip tersebut segera mendapat tantangan besar. Antara tahun 1690 dan 1710, beberapa penulis sangat terpukul dengan kondisi Prancis yang penuh bencana. Dalam mencari penyebabnya, mereka menyimpulkan bahwa maksim yang diwarisi dari Colbert adalah penyebabnya, dan menganggapnya sebagai argumen yang salah. Dengan demikian, mereka meletakkan dasar-dasar ilmu ekonomi.
 
 
 ## Vauban
 
-
 <chapterId>ee9c1e0e-96cc-5026-a5e2-963d68122786</chapterId>
-
 
 Saat ini, ketika tekanan pajak di negara kita terus meningkat dan mengancam untuk mencekik kekuatan ekonomi nasional, suara-suara yang mendukung perubahan pun bermunculan. Disadari atau tidak, seruan reformasi ini sering kali menggemakan karya para ekonom Prancis yang sejak abad ke-17 telah mengkritik sistem pajak negara ini sebagai sistem pajak yang kacau, lalim, dan berlebihan.
 
+Saat ini, seiring tekanan pajak di negara kita terus meningkat dan berpotensi mencekik kekuatan ekonomi nasional, suara-suara yang menyerukan perubahan semakin menguat. Disadari atau tidak, seruan untuk reformasi ini sering kali menggemakan karya para ekonom Prancis yang, sejak abad ke-17, telah mengkritik sistem perpajakan negara sebagai sesuatu yang kacau, lalim, dan berlebihan.
 
-Pembaharu pajak yang pertama, secara kronologis dan dalam hal jasa, adalah marsekal besar Sébastien Le Prestre Vauban, seorang pembangun benteng dan benteng yang terkenal.
-
+Reformis pajak pertama, secara kronologis maupun berdasarkan jasa, adalah marsekal besar Sébastien Le Prestre Vauban, yang terkenal sebagai pembangun kastil dan benteng pertahanan (citadels).
 
 ![image](assets/id/008.webp)
 
-
-
-
-
-Meskipun kita telah melupakannya, Vauban bukan hanya seorang militer; dia juga seorang ekonom. Dia menaruh perhatian pada nasib para petani, dia mengusulkan reformasi pajak yang berani pada tahun 1695 (Projet de capitation - "Proyek untuk Kapitasi") dan sekali lagi pada tahun 1707 (Projet d'une Dime Royale - "Persepuluhan Kerajaan"): untuk menggantikan sebagian besar pajak yang ada dengan pajak yang proporsional dengan pendapatan, pajak tetap sebelum waktunya.
-
+Meskipun beliau terlupakan, Vauban lebih dari sekadar tokoh militer; dia juga seorang ekonom. Ia menaruh perhatian pada nasib para petani dan mengusulkan reformasi pajak yang berani, yaitu Pajak Proporsional (flat tax sebelum masanya). Usulan tersebut diajukan pada tahun 1695 (Projet de capitation - "Proyek untuk Kapitasi") dan kembali pada tahun 1707 (Projet d'une Dime Royale - "Persepuluhan Kerajaan"): untuk mengganti sebagian besar pajak yang ada dengan pajak yang proporsional terhadap pendapatan.
 
 ![image](assets/id/009.webp)
 
-
-Vauban sampai pada ide-ide ini melalui rasa ingin tahu. Dia adalah seorang pengamat yang tajam, berusaha keras untuk mempelajari kehidupan sosial dan realitas ekonomi secara ketat, hampir secara ilmiah. Dia bersikeras pada kebutuhan untuk menghitung, melalui sensus.
-
+Vauban mencapai gagasan ini melalui keingintahuan. Ia adalah pengamat yang tajam, berusaha mempelajari kehidupan sosial dan realitas ekonomi secara ketat, bahkan hampir secara ilmiah. Ia sangat menekankan perlunya penghitungan melalui sensus.
 
 ![image](assets/id/010.webp)
 
+Jasa besar kedua Vauban adalah deskripsinya yang menyentuh dan jujur tentang penderitaan yang dialami oleh masyarakat bawah. Ia menulis: "Janganlah kita tertipu; jantung kerajaan telah hancur. Segalanya menderita, segalanya bertahan, segalanya merintih. Anda hanya perlu melihat dan memeriksa jantung provinsi, apa yang akan Anda temukan bahkan lebih buruk dari apa yang saya katakan."
 
-Jasa besarnya yang kedua adalah uraiannya yang menyentuh dan jujur tentang kesengsaraan yang dialami oleh rakyat. Ia menulis: "Janganlah kita tertipu; jantung kerajaan telah hancur. Semuanya menderita, semuanya menanggung, semuanya mengeluh. Anda hanya perlu melihat dan memeriksa jantung provinsi-provinsi, apa yang akan Anda temukan bahkan lebih buruk dari apa yang saya katakan". Jauh dari melebih-lebihkan, pengamatan Vauban yang suram merupakan cerminan akurat dari kehidupan awal abad ke-18. Alexis de Tocqueville sangat menyadari ide-ide ini, dan kemudian menggambarkan *Royal Tithe* karya Vauban sebagai "menakutkan", karena memang benar adanya.
-
+Jauh dari berlebihan, pengamatan suram Vauban adalah cerminan akurat dari kehidupan awal abad ke-18. Alexis de Tocqueville sangat menyadari ide-ide ini, dan kemudian akan menggambarkan _Royal Tithe_ (Persepuluhan Kerajaan) karya Vauban sebagai hal yang "mengerikan", karena itu benar adanya.
 
 ![image](assets/id/011.webp)
 
-
-Jasa besar Vauban lainnya sebagai seorang ekonom adalah mengusulkan reformasi pajak yang luas yang bertujuan untuk memberantas, atau setidaknya mengurangi intensitas kejahatan yang ia amati dan gambarkan. Dia benar dalam melakukan hal itu; ekonomi Prancis di bawah Ancien Régime dilumpuhkan oleh perpajakan, yang tidak setara, tidak stabil dan tidak terbaca.
-
-
+Jasa besar Vauban lainnya sebagai seorang ekonom adalah mengusulkan reformasi pajak yang luas, bertujuan untuk memberantas, atau setidaknya mengurangi intensitas keburukan yang ia amati dan gambarkan. Ia benar melakukan hal itu; ekonomi Prancis di bawah Ancien Régime (Rezim Lama) lumpuh karena sistem perpajakan yang tidak setara, tidak stabil, dan tidak jelas.
 
 Dalam berbagai tulisan politik dan ekonominya, ambisi utama Vauban adalah meringankan penderitaan yang ia sebut sebagai "masyarakat kelas bawah, yang dengan kerja kerasnya menopang dan mendukung kelas atas".
 
-
-
-
-
-
-
-Dia memahami bahwa pajak yang menindas dan tidak memberikan insentif telah membebani para petani, sebuah konsep yang dia ungkapkan dengan jelas, sesuatu yang masih dapat kita amati dengan sempurna di zaman kita:
-
+Dia memahami bahwa perpajakan yang menindas dan menghilangkan insentif telah membebani petani. Konsep ini ia ungkapkan dengan jelas, sesuatu yang masih dapat kita amati dengan sempurna di zaman kita:
 
 > "Petani membiarkan lahan kecil yang dimilikinya menjadi layu, menggarapnya hanya dengan setengah hati, karena takut jika lahan tersebut menghasilkan apa yang bisa dihasilkan dengan pupuk dan penanaman yang tepat, maka akan dikenai pajak yang lebih besar lagi".
 
-Vauban melihat kebenaran: perpajakan di bawah Ancien Régime tidak hanya tidak rasional tetapi juga sangat ketat. Sistem pajak yang tidak adil dalam pendistribusiannya inilah yang ingin ia atasi.
+Vauban melihat kebenaran: perpajakan di bawah Ancien Régime tidak hanya tidak rasional tetapi juga sangat ketat. Sistem pajak yang tidak adil dalam distribusinya inilah yang ia coba atasi.
 
-
-Solusi yang diusulkannya, yaitu pajak proporsional yang tetap untuk semua pendapatan, akan memungkinkan beban pajak dibagi secara adil di antara semua kelas sosial. Didasarkan pada teori Negara yang melihat otoritas publik sebagai sesuatu yang penting untuk melindungi hak-hak individu dan properti, reformasi pajak Vauban menuntut semua warga negara untuk berkontribusi secara proporsional sesuai dengan apa yang mereka hasilkan, misalnya, 10% dari pendapatan mereka
-
+Solusi yang ia usulkan, yaitu pajak proporsional yang datar (flat) atas semua pendapatan, akan memungkinkan beban pajak dibagi secara adil di antara semua kelas sosial. Berlandaskan pada teori Negara yang memandang otoritas publik diperlukan untuk melindungi hak dan properti individu, reformasi pajak Vauban menuntut agar semua warga negara berkontribusi secara ketat proporsional dengan apa yang mereka peroleh, misalnya, 10% dari pendapatan mereka.
 
 Dalam The Royal Tithe, satu-satunya karya ekonominya yang dicetak semasa hidupnya, Vauban menyatakan dengan jelas:
 
+> "Karena setiap orang dalam suatu Negara membutuhkan perlindungannya untuk bertahan hidup, adalah adil bahwa semua berkontribusi, sesuai dengan pendapatan mereka, untuk pemeliharaan dan pengeluarannya [...]. Tidak ada yang lebih tidak adil daripada membebaskan mereka yang paling mampu membayar, dan mengalihkan beban kepada mereka yang paling tidak mampu, yang ambruk di bawah beban; beban yang akan menjadi cukup ringan jika ditanggung secara proporsional oleh semua orang sesuai dengan kekuatan mereka sendiri. Oleh karena itu, setiap pembebasan dari perpajakan adalah kekacauan yang harus diperbaiki."
 
-> "Karena setiap orang dalam suatu Negara membutuhkan perlindungan untuk bertahan hidup, maka sudah selayaknya jika semua orang memberikan kontribusi, sesuai dengan pendapatannya, untuk pemeliharaan dan pengeluarannya [...]. Tidak ada yang lebih tidak adil daripada membebaskan mereka yang paling mampu membayar, dan mengalihkan beban kepada mereka yang paling tidak mampu, yang runtuh di bawah beban itu; beban yang akan menjadi sangat ringan jika ditanggung secara proporsional oleh semua orang sesuai dengan kekuatannya masing-masing. Oleh karena itu, setiap pembebasan pajak adalah sebuah kekacauan yang harus diperbaiki."
-
-Tak lama sebelum kematiannya, ide Vauban diadopsi oleh para menteri Louis XIV. Namun, Vauban telah menyerukan pajak proporsional untuk menggantikan semua, atau hampir semua, pajak yang ada. Alih-alih, seperti yang sering terjadi, pajaknya diterapkan, tetapi semua pajak lainnya tetap dipertahankan.
-
+Sesaat sebelum kematiannya, ide Vauban diadopsi oleh para menteri Louis XIV. Namun, Vauban telah menyerukan agar pajak proporsional tersebut menggantikan semua, atau hampir semua, pajak yang ada. Sebaliknya, seperti yang sering terjadi, pajaknya diimplementasikan, tetapi semua pajak yang lain juga tetap dipertahankan.
 
 ## Boisguilbert
 
-
 <chapterId>200149c6-b5fc-566e-ab0e-bafb1c3fed3c</chapterId>
 
-
-Hanya sedikit ekonom Prancis dari masa lalu yang menikmati pengakuan di tanah air mereka saat ini yang menyamai kontribusi mereka, dan Boisguilbert tidak terkecuali.
-
+Hanya sedikit ekonom Prancis dari masa lalu yang menikmati pengakuan di tanah air mereka hari ini setara dengan kontribusi mereka, dan Boisguilbert tidak terkecuali.
 
 ![image](assets/id/012.webp)
 
+Tidak dihargai oleh para pembaca di zamannya, dan jauh dari lingkaran kekuasaan karena sifatnya yang eksentrik dan semangatnya yang meluap-luap, Boisguilbert meninggalkan sedikit jejak pada abad ke-18. Namun, pada awal abad lalu, terjadi penemuan kembali karyanya secara perlahan.
 
-Tidak dihargai oleh para pembaca pada masanya, dijauhkan dari lingkaran kekuasaan karena sifatnya yang eksentrik dan hasratnya yang luar biasa, Boisguilbert hanya meninggalkan sedikit jejak pada abad ke-18. Namun, pada awal abad terakhir, karyanya mulai ditemukan kembali secara perlahan.
+Sayangnya, penemuan kembali ini justru mengarah pada semacam jalan buntu. Jasa Boisguilbert yang sebenarnya hilang karena ia ditampilkan sebagai pelopor berbagai teori dan pendahulu banyak pemikir. Ia disebut telah memahami konsep pengangguran terselubung yang kemudian dipertahankan oleh Keynes, mengantisipasi hukum Say, membuka jalan bagi teori keseimbangan umum Walras, dan bahkan mengisyaratkan analisis kelas Marxis. "Siapa atau apa yang tidak bisa didahului oleh Boisguilbert?" tanya seorang komentator pada akhirnya.
 
-
-Namun, penemuan kembali ini menunjukkan bahwa kita memasuki jalan buntu. Jasa Boisguilbert yang sebenarnya telah hilang dengan menampilkannya sebagai pelopor berbagai teori dan cikal bakal banyak pemikir. Dia dikatakan telah memahami konsep pengangguran yang kemudian dipertahankan oleh Keynes, mengantisipasi hukum Say, membuka jalan bagi teori keseimbangan umum Walras, dan bahkan meramalkan analisis kelas kaum Marxis. "Siapa atau apa yang tidak dapat menjadi pendahulu Boisguilbert?" seorang komentator pada akhirnya bertanya.
-
-
-
-(Pierre Le Pesant de) Boisguilbert lahir di Rouen pada tahun 1646. Dididik di Port-Royal di Paris, Boisguilbert memulai karier sastra yang kurang sukses sebelum mengambil berbagai peran, termasuk sebagai Letnan Jenderal Rouen. Pada masa inilah ia menulis beberapa buku untuk mendukung ide-idenya, di antaranya "Détail de la France" pada tahun 1695, yang ia terbitkan ulang pada tahun berikutnya dengan judul yang lebih eksplisit: [*Perancis yang Hancur di Bawah Pemerintahan Louis XIV, oleh Siapa dan Bagaimana Cara Mengembalikannya] (https://archive.org/details/bub_gb_0jUaWNbTJa8C/page/n23/mode/2up) *.
-
+Boisguilbert (nama lengkap: Pierre Le Pesant de Boisguilbert) lahir di Rouen pada tahun 1646. Setelah menempuh pendidikan di Port-Royal di Paris, Boisguilbert memulai karier sastra yang kurang sukses sebelum mengambil berbagai peran, termasuk Letnan Jenderal di Rouen. Selama masa inilah ia menulis beberapa buku untuk mengadvokasi idenya, di antaranya "Détail de la France" pada tahun 1695, yang ia terbitkan kembali tahun berikutnya dengan judul yang jauh lebih eksplisit: *[Prancis Hancur di Bawah Pemerintahan Louis XIV, oleh Siapa dan Bagaimana, serta Cara untuk Memulihkannya](https://archive.org/details/bub_gb_0jUaWNbTJa8C/page/n23/mode/2up)*.
 
 ![image](assets/id/013.webp)
 
-
-
-
-
 Dan inilah yang menjadi dasar dari buku-buku Boisguilbert: Kemiskinan Prancis dan penyebabnya.
-
 
 Kesengsaraan rakyat Prancis pada akhir abad ke-18 ini, Boisguilbert menggambarkannya secara rinci, seperti halnya Vauban. Dia menulis:
 
+> "Tanah yang tandus atau tidak digarap dengan baik, yang terlihat oleh semua orang, adalah mayat Prancis."
 
-> "Tanah yang tandus atau tidak ditanami dengan baik, yang dapat dilihat oleh semua orang, adalah mayat Prancis".
+Dia menggambarkan kebun anggur yang dicabut, petani yang meninggalkan ladang, dan kelaparan yang berulang.
 
-Dia menggambarkan kebun-kebun anggur yang tercabut, para petani yang meninggalkan ladang, dan kelaparan yang berulang.
+Boisguilbert menemukan dua penyebab utama kemalangan ini. Rakyat hidup dalam kemelaratan karena mereka dicegah mengonsumsi apa yang diperlukan, dan kehancuran konsumsi ini disebabkan oleh dua faktor:
 
+Pertama, rakyat tidak mampu lagi membeli kebutuhan pokok karena sistem perpajakan yang sewenang-wenang. Taille, pajak pribadi pada saat itu, dihitung secara membabi buta untuk setiap individu, naik atau turun tanpa alasan. Karena banyaknya hak istimewa (privileges), beban pajak jatuh pada petani miskin, yang akhirnya menjadi bangkrut. Untuk mengatasi hal ini, Boisguilbert merekomendasikan pajak proporsional pada semua pendapatan, sangat mirip dengan usulan Vauban.
 
-Boisguilbert menemukan dua penyebab utama dari kemalangan ini. Karena jika orang-orang hidup dalam kemelaratan, itu karena mereka dicegah untuk mengkonsumsi apa yang diperlukan, dan kehancuran konsumsi memiliki dua penyebab.
-
-
-Pertama, masyarakat tidak mampu lagi membeli kebutuhan pokok karena pajak yang sewenang-wenang. Taille, pajak pribadi pada masa itu, dihitung secara membabi buta untuk setiap individu, naik atau turun tanpa alasan. Karena banyaknya hak istimewa, beban tersebut jatuh pada petani miskin, yang mendapati diri mereka hancur. Untuk mengatasinya, Boisguilbert merekomendasikan pajak proporsional atas semua pendapatan, seperti usulan Vauban.
-
-
-Alasan kedua dari kesengsaraan Prancis adalah karena terlalu banyak rintangan yang menghalangi perdagangan barang secara bebas, terutama barang-barang pertanian. Ada bea cukai di perbatasan dan bahkan di dalam negeri, di antara berbagai wilayah, yang melumpuhkan semua perdagangan. Pembatasan-pembatasan ini mencegah terbentuknya harga keseimbangan dan membatasi peluang pasar. Akibatnya, para petani tidak dapat mencari nafkah dari hasil produksi mereka, karena mereka tidak dapat menjual dengan harga yang menguntungkan dan menderita akibat harga pertanian yang tidak menguntungkan, sebuah kekhawatiran yang masih sangat relevan hingga saat ini dan merupakan inti dari teori Boisguilbert. Dalam hal pembatasan perdagangan, Boisguilbert menganjurkan untuk membuka jalan, dengan kata lain, membangun perdagangan bebas.
-
+Alasan kedua kemiskinan Prancis adalah terlalu banyak hambatan yang mencegah perdagangan bebas barang, terutama hasil pertanian. Ada bea cukai di perbatasan dan bahkan di dalam negeri, antar wilayah, yang melumpuhkan semua perdagangan. Semua pembatasan ini mencegah terbentuknya harga keseimbangan dan membatasi peluang pasar. Akibatnya, petani tidak bisa hidup dari hasil produksi mereka karena mereka tidak dapat menjual dengan harga yang menguntungkan dan menderita akibat harga pertanian yang tidak memberikan keuntungan, kekhawatiran yang hingga kini masih relevan. Mengenai pembatasan perdagangan, Boisguilbert mengadvokasi membuka jalan, atau dengan kata lain, menetapkan perdagangan bebas.
 
 ![image](assets/id/014.webp)
 
+Dan kebebasan memang merupakan kesimpulan akhirnya. "Ini bukan masalah bertindak," katanya, "tetapi hanya berhenti bertindak seperti yang kita lakukan secara keras melawan alam, yang selalu cenderung menuju kebebasan dan kesempurnaan." Semuanya akan baik-baik saja, ia mengulang tanpa lelah, "selama kita membiarkan alam berjalan sebagaimana mestinya, yaitu, memberinya kebebasan, dan tidak ada yang ikut campur dalam perdagangan ini kecuali untuk menawarkan perlindungan kepada semua dan mencegah kekerasan."
 
-Dan kebebasan memang merupakan kesimpulan terakhirnya. "Ini bukan masalah bertindak", katanya, "tetapi hanya berhenti bertindak seperti yang kita lakukan dengan kejam terhadap alam, yang selalu cenderung ke arah kebebasan dan kesempurnaan". Semuanya akan baik-baik saja, ia mengulangi tanpa lelah, "selama kita membiarkan alam berjalan dengan sendirinya, yaitu memberikan kebebasannya, dan tidak ada yang mencampuri urusan ini kecuali untuk menawarkan perlindungan kepada semua dan mencegah kekerasan".
+Paragraf terakhir ini sangat penting. Boisguilbert adalah yang pertama menuntut secara jelas kebijakan ekonomi laissez-faire, menjadikannya credo-nya, dan membangun sistem nyata di sekitarnya. Menurutnya, ada tatanan alamiah yang tidak boleh dirusak oleh intervensi publik yang tidak tepat waktu. Negara, menurut pandangannya, tidak boleh bertindak dalam masalah ekonomi, melainkan membiarkan segala sesuatu bertindak secara alamiah. Jika tidak, itu akan menyebabkan penderitaan.
 
-
-Bagian terakhir ini sangat penting. Boisguilbert adalah orang pertama yang dengan jelas menuntut kebijakan ekonomi laissez-faire, menjadikannya sebagai kredo, dan membangun sistem nyata di sekitarnya. Menurutnya, ada tatanan alamiah dari segala sesuatu, dan tidak boleh dirusak, tidak boleh dihancurkan, oleh intervensi publik yang terlalu dini. Negara, dalam pandangannya, tidak boleh bertindak dalam masalah ekonomi, melainkan membiarkan segala sesuatunya berjalan secara alami. Jika tidak, hal itu akan menyebabkan kesengsaraan.
-
-
-Boisguilbert bahkan mengkritik "jiwa-jiwa yang baik", sebagaimana ia menyebut mereka, mereka yang bermaksud baik tetapi melakukan kerusakan besar. Mereka menginginkan roti murah untuk rakyat, tetapi dengan memaksa turunnya harga, mereka menghancurkan para petani, yang tidak dapat bertahan hidup dengan margin seperti itu. Para petani ini kemudian meninggalkan tanah mereka, dan jatuh lebih dalam ke dalam kemiskinan. Seperti yang kita semua tahu, 'neraka sering kali diaspal dengan niat baik'.
-
+Boisguilbert bahkan mengkritik "jiwa-jiwa baik", sebutannya, yaitu mereka yang berniat baik tetapi menyebabkan kerugian besar. Mereka ingin roti murah untuk rakyat, tetapi dengan memaksa harga turun, mereka merugikan petani yang tidak bisa bertahan hidup dengan margin sekecil itu. Para petani ini kemudian meninggalkan tanah mereka, tenggelam lebih dalam dalam kemiskinan. Seperti yang kita semua tahu, 'neraka sering kali diaspal dengan niat baik'.
 
 ## Cantillon
 
-
 <chapterId>bc206d41-6a64-5688-a489-40fcfa0e5397</chapterId>
 
-
-Penulis "Essay on the Nature of Trade in General" (ditulis sekitar tahun 1730, diterbitkan tahun 1755), Richard Cantillon dianggap sebagai salah satu pelopor ilmu ekonomi modern. Dalam bukunya History of Economic Thought, ekonom Murray Rothbard bahkan menyebut Cantillon sebagai pendiri ilmu ekonomi modern.
-
+Richard Cantillon, penulis "Essay on the Nature of Trade in General" (ditulis sekitar tahun 1730, diterbitkan tahun 1755), dianggap sebagai salah satu pelopor ilmu ekonomi modern. Dalam bukunya, History of Economic Thought, ekonom Murray Rothbard bahkan menyebut Cantillon sebagai pendiri ekonomi modern.
 
 ![image](assets/id/015.webp)
 
-
-Lahir di Irlandia, Richard Cantillon menetap di Paris saat masih muda dan memperoleh kewarganegaraan Prancis. Dia bekerja sebagai bankir dan menghasilkan banyak uang selama era John Law.
-
+Lahir di Irlandia, Richard Cantillon menetap di Paris saat muda dan memperoleh kewarganegaraan Prancis. Ia bekerja sebagai bankir dan meraup kekayaan besar selama era John Law.
 
 ![image](assets/id/016.webp)
 
+Pada kesempatan inilah ia mulai mempelajari teori ekonomi. Sekitar tahun 1730, Cantillon menyusun esainya yang berjudul "Essay on the Nature of Commerce in General".
 
-Pada kesempatan ini pula ia mulai mempelajari teori ekonomi. Sekitar tahun 1730, Cantillon menulis Essay on the Nature of Commerce in General.
+Buku ini dapat dilihat sebagai salah satu upaya pertama untuk menciptakan teori umum ekonomi. Cantillon secara cermat mengidentifikasi apa yang ia sebut "hukum-hukum umum ekonomi," yaitu hukum yang melekat pada sifat segala sesuatu, bukan pada fakta-fakta khusus negara tertentu. Pendekatan ini sangat revolusioner.
 
-
-
-
-
-Buku ini dapat dilihat sebagai salah satu upaya pertama dalam menciptakan teori umum ekonomi. Cantillon dengan hati-hati mengidentifikasi apa yang disebutnya "hukum umum ekonomi", yaitu hukum-hukum yang berlaku secara alamiah, dan bukan pada fakta-fakta khusus di negara tertentu. Pendekatan ini sangat revolusioner.
-
-
-Kita dapat meringkas manfaat besar dari Esai Cantillon dalam lima bidang: teori kekayaan, gagasan tentang wirausahawan, kritik terhadap mata uang yang tidak berharga, "Efek Cantillon", dan akhirnya pembelaan terhadap kebebasan.
-
+Jasa besar esai Cantillon dapat dirangkum dalam lima bidang utama: teori kekayaan, gagasan wirausahawan (entrepreneur), kritik terhadap mata uang yang tidak bernilai, "Efek Cantillon," dan terakhir, pembelaan terhadap kebebasan.
 
 Pertama, **teori kekayaan**.
 
-Tidak seperti pandangan merkantilis yang dominan pada saat itu, Cantillon mendasarkan analisisnya pada pengakuan bahwa kekayaan dibentuk oleh produk-produk yang sesuai untuk dinikmati oleh manusia. Kekayaan ini, menurutnya, berasal dari alam dan diproduksi melalui kerja keras manusia. Gagasannya tentang sifat kekayaan memiliki pengaruh yang kuat pada Beccaria dan Adam Smith, dan, melalui Smith, pada seluruh mazhab klasik Inggris.
-
+Berbeda dengan pandangan merkantilisme yang dominan saat itu, Cantillon mendasarkan analisisnya pada pengakuan bahwa kekayaan dibentuk oleh produk-produk yang tepat untuk kenikmatan manusia. Kekayaan ini, argumennya, berasal dari alam dan diproduksi melalui kerja manusia. Ide-idenya tentang sifat kekayaan memiliki pengaruh kuat pada Beccaria dan Adam Smith, dan, melalui Smith, pada seluruh mazhab pemikiran klasik Inggris.
 
 Kedua, **pengusaha**.
 
-Meskipun tidak mendefinisikannya dengan jelas, Cantillon memandang wirausahawan sebagai pemain utama dan sentral dalam kegiatan ekonomi. Bagi Cantillon, yang menjadi ciri khas wirausahawan adalah ia mengambil risiko dan bertindak dalam ketidakpastian. Ide-ide ini kemudian diperluas oleh Turgot dan, yang lebih penting lagi, oleh Say, untuk akhirnya mengakui tempat khusus wirausahawan dalam perekonomian, yang kali ini berlawanan dengan pernyataan mazhab Inggris.
-
+Meskipun ia tidak mendefinisikannya secara eksplisit, Cantillon memandang wirausahawan sebagai pemain utama dan sentral dalam kegiatan ekonomi. Bagi Cantillon, yang menjadi ciri khas wirausahawan adalah ia mengambil risiko dan bertindak dalam ketidakpastian. Gagasan-gagasan ini kemudian dikembangkan oleh Turgot dan, lebih signifikan, oleh Say, untuk akhirnya mengakui tempat istimewa wirausahawan dalam ekonomi, berlawanan dengan anggapan mazhab Inggris.
 
 Poin ketiga, **mata uang**.
 
-Sebagai reaksi dari pengalaman John Law, Cantillon menjelaskan apa yang terjadi atau harus terjadi ketika mata uang tidak memiliki nilai riil.
-
+Sebagai reaksi terhadap pengalaman John Law, Cantillon menjelaskan apa yang terjadi atau harus terjadi ketika mata uang tidak memiliki nilai riil.
 
 ![image](assets/id/017.webp)
 
+Dia melihat dua konsekuensi utama dari penggantian mata uang berbasis logam dengan mata uang tanpa nilai riil, seperti uang kertas. Konsekuensi pertama adalah apa yang ia sebut "penolakan populer" (popular rejection), yang berarti meningkatnya ketidakpercayaan terhadap uang yang tidak bernilai. Konsekuensi kedua adalah inflasi: melemahnya moneter membuat harga barang menjadi lebih mahal.
 
-Dia melihat dua konsekuensi utama dari penggantian mata uang tanpa nilai riil seperti uang kertas dengan uang logam. Konsekuensi pertama adalah apa yang ia sebut "penolakan populer", yang berarti meningkatnya ketidakpercayaan terhadap uang yang tidak berharga. Konsekuensi kedua adalah inflasi: pelemahan moneter membuat harga barang menjadi lebih mahal.
+Keempat, dalam analisisnya tentang inflasi, Cantillon melangkah lebih jauh dari para tokoh sezamannya. Setelah mengamati runtuhnya sistem Law, Cantillon menyadari bahwa inflasi moneter tidak memengaruhi semua orang secara setara. Sebaliknya, inflasi memperkaya sebagian orang sambil memiskinkan sebagian lainnya. Ia menyimpulkan bahwa inflasi memiliki efek redistributif: mereka yang pertama menerima uang yang baru diterbitkan mendapat manfaat dari peningkatan daya beli, sementara mereka yang menerimanya belakangan menjadi lebih miskin akibat penerbitan uang baru tersebut karena kenaikan tingkat inflasi.
 
+Kelima, meskipun memiliki beberapa sisa pemikiran merkantilis, perspektif keseluruhan Cantillon **sepenuhnya liberal**. Ia membela kepemilikan pribadi sebagai pilar fundamental peradaban, dengan alasan bahwa tidak ada masyarakat yang dapat berfungsi tanpa kepemilikan pribadi atas tanah dan produk hasil kerja. Ia juga melihat ketidaksetaraan materi di antara manusia sebagai hal yang alami dan sah. Menurut Cantillon, tidak ada yang salah dengan seorang pekerja yang efisien dan berani, atau seseorang yang sangat berbakat, mendapatkan penghasilan lebih banyak daripada orang yang tidak kompeten atau malas. Akhirnya, Cantillon percaya bahwa harga harus selalu ditentukan secara bebas, melalui permainan penawaran dan permintaan, tanpa campur tangan otoritas publik.
 
-Keempat, dalam analisisnya mengenai inflasi, Cantillon melangkah lebih jauh dari orang-orang sezamannya. Setelah mengamati keruntuhan sistem Law, Cantillon menyadari bahwa inflasi moneter tidak mempengaruhi semua orang secara merata. Sebaliknya, inflasi justru memperkaya sebagian orang dan memiskinkan sebagian lainnya. Dia menyimpulkan bahwa inflasi memiliki efek redistributif: mereka yang menerima uang yang baru diterbitkan pertama kali mendapatkan keuntungan dari peningkatan daya beli, sementara mereka yang menerimanya kemudian menjadi lebih miskin sebagai akibat dari uang baru yang diterbitkan karena kenaikan tingkat inflasi.
+Di antara kelima ide utama dalam Esainya, yang paling penting tidak diragukan lagi adalah ide yang kini menyandang namanya: **Cantillon Effect**.
 
-
-Kelima, terlepas dari beberapa sisa-sisa pemikiran merkantilis, perspektif Cantillon secara keseluruhan adalah **sepenuhnya liberal**. Dia membela kepemilikan pribadi sebagai pilar fundamental peradaban, dengan alasan bahwa tidak ada masyarakat yang dapat berfungsi tanpa Ownership tanah pribadi dan produk tenaga kerja. Dia juga melihat ketidaksetaraan material di antara orang-orang sebagai sesuatu yang alami dan sah. Menurut Cantillon, tidak ada yang salah dengan pekerja yang efisien dan berani, atau pekerja yang sangat berbakat yang mendapatkan penghasilan lebih banyak daripada seseorang yang tidak kompeten atau malas.  Akhirnya, Cantillon percaya bahwa harga harus selalu ditentukan secara bebas, oleh permainan Supply dan permintaan, tanpa intervensi dari otoritas publik.
-
-
-Di antara lima ide utama dalam Esainya, yang paling penting tidak diragukan lagi adalah ide yang sekarang menjadi namanya: **Cantillon Effect**.
-
-Dengan teori tentang dampak inflasi ini, Cantillon memberi kita jawaban atas sejumlah penyakit kontemporer. Teori ini membantu kita memahami konsekuensi dari kebijakan moneter yang ekspansif dan inflasioner baru-baru ini, yang telah memiskinkan kelas menengah dan dunia pedesaan, sementara memperkaya operator pasar keuangan dan Negara, lembaga-lembaganya, dan para pejabatnya, karena kedekatan mereka dengan sumber masalah baru: bank sentral dan bank-bank komersial.
-
-
+Dengan teori tentang dampak inflasi ini, Cantillon memberi kita jawaban untuk sejumlah penyakit kontemporer. Teori ini membantu kita memahami konsekuensi dari kebijakan moneter ekspansif dan inflasi baru-baru ini, yang telah memiskinkan kelas menengah dan dunia pedesaan, sementara memperkaya operator pasar keuangan dan Negara beserta lembaga-lembaganya dan para pejabatnya, karena kedekatan mereka dengan sumber penerbitan uang baru: bank sentral dan bank komersial.
 
 # Para Pembaharu dan Pemikir di Awal Abad ke-18
 
-
 <partId>1f7b50d4-ce93-5db3-8396-43c1fa5419ff</partId>
-
 
 ## Kepala Biara Saint-Pierre
 
-
 <chapterId>13478fe2-4c12-593c-a410-54c2cfb7ef7f</chapterId>
 
-
-Dari semua penulis yang kami pilih untuk dimasukkan ke dalam jajaran pemikir laissez-faire Prancis abad ke-18, Abbot of Saint-Pierre tidak diragukan lagi adalah yang paling terlewatkan.
-
+Dari semua penulis yang kita pilih untuk dimasukkan dalam jajaran pemikir laissez-faire Prancis abad ke-18, Kepala Biara Saint-Pierre tidak diragukan lagi adalah yang paling terabaikan.
 
 ![image](assets/id/018.webp)
 
-
-Sejujurnya, ini adalah sebagian dari kesalahannya sendiri. Dia menulis banyak sekali, tetapi gayanya Hard untuk dibaca dan penuh dengan pengulangan. Bahkan Jean-Jacques Rousseau mencoba meringkas karyanya: dia mulai melakukannya, tetapi segera meninggalkan tugas itu, karena dia menyadari bahwa itu di luar kemampuannya. Pada pertengahan abad ke-19, Gustave de Molinari menghormatinya dengan menerbitkan sebuah karya komprehensif tentangnya, di mana ia memberikan penghormatan kepada ahli perdamaian dan ekonom yang merupakan Kepala Biara Saint-Pierre. Namun hal ini tidak cukup untuk membuatnya terlupakan, karena ia masih tetap diingat sampai sekarang.
-
+Sejujurnya, ini sebagian disebabkan oleh kesalahannya sendiri. Ia banyak menulis, tetapi gayanya sulit dibaca dan penuh pengulangan. Bahkan Jean-Jacques Rousseau pernah mencoba meringkas karyanya, namun segera menghentikan tugas itu karena menyadari hal itu melampaui kemampuannya. Pada pertengahan abad ke-19, Gustave de Molinari menghormatinya dengan menerbitkan karya komprehensif tentangnya, di mana ia memberikan penghargaan kepada tokoh perdamaian dan ekonom yang merupakan Kepala Biara Saint-Pierre. Namun hal ini tidak cukup untuk membuatnya terlupakan, karena ia masih tetap diingat sampai sekarang.
 
 ![image](assets/id/019.webp)
 
-
-
-
-
-Kepala Biara Saint-Pierre menulis tentang ekonomi, tetapi lebih sebagai seorang pegiat perdamaian yang biasanya menarik. Dia adalah penulis Proyek Perdamaian Abadi, yang mendahului karya terkenal Emmanuel Kant.
-
+Kepala Biara Saint-Pierre menulis tentang ekonomi, tetapi ia justru lebih sering menarik perhatian sebagai pegiat perdamaian. Ia adalah penulis Project for Perpetual Peace (Proyek Perdamaian Abadi), yang mendahului karya terkenal Emmanuel Kant.
 
 ![image](assets/id/020.webp)
 
+Dalam karya ini, ia berargumen bahwa perang bersifat merusak, tidak hanya bagi mereka yang kalah, tetapi juga bagi para pemenang, dan bahkan bagi mereka yang tidak ikut serta, karena perdagangan mereka ikut terpengaruh.
 
-Dalam karya ini, ia berargumen bahwa perang itu merusak, tidak hanya bagi mereka yang kalah, tetapi juga bagi para pemenang, dan bahkan bagi mereka yang tidak ikut serta di dalamnya, karena perdagangan mereka terpengaruh.
-
-
-Untuk memerangi momok perang, ia merekomendasikan pembentukan semacam Liga Bangsa-Bangsa Eropa. Sebuah dewan Eropa akan dibentuk untuk menyelesaikan masalah masing-masing negara. Oleh karena itu, negara-negara akan menggunakan arbitrase untuk menghindari penggunaan senjata. Jika sebuah negara tidak cukup bijaksana untuk merangkul perdamaian, jika mereka mengancam negara-negara Eropa lainnya, Liga Bangsa-Bangsa Eropa akan memiliki sarana untuk merespons. Menghadapi peristiwa semacam itu, tentara Eropa akan dibentuk, dengan pasukan yang disediakan oleh berbagai negara.
-
+Untuk memerangi sumber perang, ia merekomendasikan pembentukan semacam Liga Bangsa-Bangsa Eropa (European League of Nations). Sebuah dewan Eropa akan dibentuk untuk menyelesaikan masalah setiap negara. Dengan demikian, negara-negara akan beralih ke arbitrase untuk menghindari penggunaan senjata. Jika suatu negara tidak cukup bijaksana untuk menerima perdamaian dan mengancam negara-negara Eropa lainnya, liga bangsa-bangsa Eropa akan memiliki cara untuk merespons. Dalam menghadapi peristiwa tersebut, tentara Eropa akan dibentuk, dengan pasukan yang disediakan oleh berbagai negara.
 
 Ada juga sebuah episode dalam kehidupan Kepala Biara Saint-Pierre yang dengan sempurna menggambarkan pola pikir kritis di balik gerakan laissez-faire Prancis. Ia bergabung dengan Académie Française pada tahun 1695, namun dikeluarkan pada tahun 1718 karena berani mengkritik pemerintahan Louis XIV. Dalam hal ini, ia sejajar dengan tokoh-tokoh seperti Vauban dan Boisguilbert, yang juga berani berbicara menentang misteri yang tersembunyi di balik kemegahan pemerintahan Raja Matahari.
 

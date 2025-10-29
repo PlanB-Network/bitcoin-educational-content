@@ -6,25 +6,23 @@ description: Accepter des paiements en BTC sans intermédiaire
 ![cover](assets/cover.webp)
 
 ![video](https://youtu.be/KqsM-n-e4aY)
- 
+
 Dans un monde de plus en plus numérique, de nouvelles initiatives et innovations émergent chaque jour. Il en est de même dans le domaine de la finance et du commerce. Les boutiques virtuelles, l’e-commerce et les paiements numériques foisonnent.  
 Les paiements en espèces s’effacent progressivement, à mesure que les paiements numériques deviennent monnaie courante.
 
 Cependant, il subsiste encore des obstacles tels que les **frais élevés** imposés par les intégrateurs de paiement, la **rétro-facturation**, le **blocage ou le gel des fonds**, ou encore les **interruptions de service** causées par une panne, pour ne citer que ceux-là.
 
-C’est face à ces contraintes que des solutions ont été élaborées afin de permettre aux commerçants de recevoir des paiements avec une **monnaie numérique, non censurable et sans tiers de confiance : le Bitcoin**.  
-Les premières méthodes de paiement via Bitcoin, comme BitPay, restaient toutefois centralisées. Dans le but de se rapprocher davantage de l’esprit qui sous-tend la création de Bitcoin, la **décentralisation**, **BTCPay Server** a été créé.
+C'est au regard de toutes ces contraintes, que des solutions ont été élaborées pour permettre aux commerçants de recevoir des paiements avec une monnaie numérique, non censurable et sans tiers de confiance : le bitcoin. Les premières méthodes de paiement via Bitcoin comme BitPay étaient toujours centralisées. Dans le but de se rapprocher le plus possible de l'esprit qui sous-tend la création de Bitcoin, **BTCPay Server** a été créé.
+
 ## **Qu’est-ce que BTCPay Server ?**
 
-Lancé par **Nicolas Dorier**, développeur Bitcoin, **BTCPay Server** est une solution open-source, entièrement autonome et gratuite, permettant d’accepter des paiements en Bitcoin.  
-Elle offre la possibilité à toute personne d’héberger elle-même son propre serveur, sans prestataire tiers.
+Lancé par Nicolas DORIER, **BTCPay Server** est une solution open-source entièrement autonome et gratuite qui permet d'accepter des paiements en bitcoins. Il permet à toute personne d'héberger librement lui-même le serveur sans un prestataire tiers. Il s'intègre facilement à des sites e-commerce (WooComerce, Shopify, etc.) ou peut être utilisé comme un terminal de point de vente (POS).
 
-BTCPay Server s’intègre facilement à des sites e-commerce (WooCommerce, Shopify, etc.) ou peut être utilisé comme un **terminal de point de vente (POS)**.
 ## **Spécificités de BTCPay Server**
 
-Les POS centralisés (SatoshiPay, Strike, etc.) sont pratiques, mais dépendent d’une entreprise tierce. Ils simplifient la vie, mais introduisent des **frais de commission** et un **risque de censure**.
+Les solutions de POS Bitcoin centralisées (comme *Open Node* par exemple) sont pratiques, mais dépendent d’une entreprise tierce puisqu’ils ne sont pas auto-hébergeables et, le plus souvent, ne sont pas open-source. Ils simplifient l’utilisation, mais introduisent des frais de commission et présentent davantage de risques qu’une solution comme BTCPay Server.
 
-BTCPay Server s’adresse aux **commerçants**, **associations**, **organisations à but non lucratif**, ou encore aux **développeurs** souhaitant obtenir un soutien direct de leur communauté.
+BTCPay Server s’adresse aux commerçants en ligne ou physiques, aux associations et organismes à but non lucratif désireux de recevoir des dons en bitcoins. Il constitue également une solution idéale pour les porteurs de projets ainsi que pour les développeurs souhaitant obtenir un soutien direct de leur communauté.
 
 Les spécificités de BTCPay Server résident dans :
 
@@ -69,15 +67,13 @@ Les frais liés aux transactions **on-chain** demeurent, mais ils peuvent être 
 
 ## **Installation et configuration de BTCPay Server**
 
-### **Choisir son mode d’installation**
+### **Choisir son mode d’hébergement**
 
-BTCPay Server peut être installé de plusieurs manières. Selon vos besoins et vos moyens, trois options principales s’offrent à vous :
+BTCPay Server peut être installé de différentes manières. Selon vos besoins et vos ressources, trois options principales s’offrent à vous :
 
-- **BTCPay Server hébergé par un tiers** : solution simple, mais souvent payante.
-
-- **BTCPay Server auto-hébergé sur un serveur cloud** (ex. [btcpayprovider](https://btcpayprovider.com/), [Bitcoin People](http://bitcoinpeople.it/), [LNPayments](https://www.lnpayments.org/)),  c’est la solution recommandée pour la plupart des commerçants débutants.
-
-- **BTCPay Server sur votre propre matériel (local)** : plus technique, mais totalement indépendant.
+- **BTCPay Server hébergé par un tiers** : vous utilisez une plateforme qui héberge le service pour vous. C’est simple, mais généralement payant.
+- **BTCPay Server auto-hébergé sur un serveur cloud** (par exemple via [btcpayprovider](https://btcpayprovider.com/), [Bitcoin People](http://bitcoinpeople.it/) ou tout autre fournisseur). C’est la solution recommandée pour la plupart des commerçants débutants.
+- **BTCPay Server installé sur votre propre matériel (en local)** : sur un ordinateur, un mini-PC ou un Umbrel. Cette méthode est plus technique, mais offre une indépendance totale.
 
 Pour un commerçant débutant, le **déploiement sur un serveur cloud** est le meilleur compromis entre autonomie, simplicité et sécurité, sans devoir gérer toute l’infrastructure technique.
 

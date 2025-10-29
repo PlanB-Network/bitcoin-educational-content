@@ -9,43 +9,33 @@ objectives:
 ---
 # Sebuah Perjalanan ke dalam Sejarah Ekonomi Kebebasan
 
-Kursus ini mengeksplorasi kelahiran ilmu ekonomi di Prancis abad ke-18 melalui sudut pandang laissez-faire. Anda akan menemukan bagaimana para pemikir menantang merkantilisme dengan berargumen bahwa Negara harus melindungi hak-hak pribadi, tetapi tidak pernah memanipulasi pasar melalui regulasi.
+Kursus ini mengeksplorasi lahirnya ilmu ekonomi di Prancis abad ke-18 melalui sudut pandang laissez-faire. Anda akan menemukan bagaimana para pemikir menentang merkantilisme dengan berargumen bahwa Negara harus melindungi hak-hak pribadi, tetapi tidak boleh memanipulasi pasar melalui regulasi.
 
-Anda akan mempelajari bagaimana para reformis visioner memperluas visi ini untuk menuntut perdagangan bebas dan sirkulasi barang tanpa batasan, meletakkan fondasi intelektual kapitalisme modern. Dengan mempelajari para ekonom perintis ini, Anda akan memahami prinsip-prinsip abadi yang membentuk ekonomi politik global dan terus mempengaruhi debat kebijakan saat ini. Bergabunglah sekarang untuk menguasai ide-ide yang membangun ekonomi modern.
+Anda akan mempelajari bagaimana para reformis visioner memperluas visi ini untuk menuntut perdagangan bebas dan sirkulasi barang tanpa batas, meletakkan dasar intelektual kapitalisme modern. Dengan mempelajari para ekonom pionir ini, Anda akan memahami prinsip-prinsip abadi yang membentuk ekonomi politik global dan terus memengaruhi debat kebijakan hingga hari ini. Bergabunglah sekarang untuk menguasai ide-ide yang membangun ekonomi modern.
 +++
 # Pendahuluan
 
 <partId>06d67531-19f1-4f8d-bf8f-77bbcc743672</partId>
 
-
 ## Gambaran umum kursus
 
 <chapterId>202db3c6-0320-494d-8057-adc6f6563048</chapterId>
 
-
 Selamat datang di HIS204!
 
-
-Mata kuliah ini dirancang untuk mengeksplorasi asal-usul konsep *laissez-faire* di Prancis - "biarkan saja" - yang berkembang pada abad ke-18 melalui tradisi intelektual yang kaya. Dengan menelusuri pemikiran para pemikir ekonomi Prancis awal, kita akan menemukan dasar-dasar ekonomi politik yang dibangun di atas kebebasan ekonomi, yang ditandai dengan ketidakpercayaan pada campur tangan negara dan kepercayaan pada tatanan alam yang mendukung pertumbuhan dan kemakmuran.
-
+Kursus ini dirancang untuk menjelajahi asal-usul dari konsep _laissez-faire_ — "biarkan terjadi" di Prancis — sebagaimana berkembang pada abad ke-18 melalui tradisi intelektual yang kaya. Dengan menelusuri pemikiran para pemikir ekonomi Prancis awal, kita akan mengungkap fondasi ekonomi politik yang dibangun di atas kebebasan ekonomi, ditandai oleh ketidakpercayaan terhadap campur tangan Negara dan keyakinan pada tatanan alamiah yang mendukung pertumbuhan dan kemakmuran.
 
 **Bagian 2: Para Pelopor**
 
-
-Pada bagian ini kita mulai dari pergantian abad ke-17 dan ke-18, masa yang dibentuk oleh kekuasaan monarki absolut yang berlebihan dan seruan pertama untuk cara yang lebih rasional dan adil dalam mengatur urusan publik. Melalui tokoh-tokoh seperti Vauban, Boisguilbert, dan Cantillon, kita akan menemukan kritik-kritik awal terhadap intervensionisme negara dan garis besar dari apa yang kemudian dikenal sebagai ekonomi politik liberal.
-
+Di bagian ini kita mulai pada pergantian abad ke-17 dan ke-18, masa yang dibentuk oleh kekuasaan monarki absolut yang berlebihan dan seruan pertama untuk cara yang lebih rasional dan adil dalam mengatur urusan publik. Melalui tokoh-tokoh Vauban, Boisguilbert, dan Cantillon, kita menemukan kritik awal terhadap intervensiisme negara dan garis besar pertama dari apa yang kelak menjadi ekonomi politik liberal.
 
 **Bagian 3: Para Pembaharu dan Pemikir pada Awal Abad ke-18**
 
-
-Bagian ini berfokus pada mereka yang, pada dekade pertama abad ke-18, berusaha mereformasi ekonomi Prancis berdasarkan prinsip-prinsip baru. Para pemikir seperti Kepala Biara Saint-Pierre, Marquis d'Argenson, dan Gournay (bersama para pengikutnya) menyerukan untuk menghilangkan hambatan korporatisme, meliberalisasi perdagangan, dan mendorong persaingan sebagai pendorong pembangunan. Usulan-usulan mereka yang sering kali berani merupakan pertanda dari gagasan-gagasan besar Fisiokratis.
-
+Bagian ini berfokus pada mereka yang pada dekade pertama abad ke-18, mencoba mereformasi ekonomi Prancis berdasarkan prinsip-prinsip baru. Para pemikir seperti Kepala Biara Saint-Pierre, Marquis d'Argenson, dan Gournay (bersama para pengikutnya) menyerukan pembongkaran hambatan korporatis, liberalisasi perdagangan, dan mendorong persaingan sebagai pendorong pembangunan. Proposal mereka yang sering kali berani mengisyaratkan ide-ide Fisiokratis yang hebat.
 
 **Bagian 4: Aliran Fisiokratis**
 
-
-Bagian ini mengeksplorasi salah satu momen terpenting dalam pemikiran ekonomi Prancis: mazhab Fisiokratis. Kita akan membahas asal-usul, dasar-dasar doktrin, dan pencapaian utamanya, dengan fokus pada tokoh-tokoh kunci seperti Quesnay dan Dupont de Nemours. Gagasan laissez-faire menjadi sistem yang koheren dalam mazhab ini, yang berakar pada gagasan tentang tatanan alamiah yang harus tunduk pada Negara untuk menjamin kemakmuran bagi semua orang.
-
+Bagian ini mengeksplorasi salah satu momen paling penting dalam pemikiran ekonomi Prancis: mazhab Fisiokratik. Kita akan menguji asal-usulnya, dasar-dasar doktrinal, dan pencapaian utamanya, berfokus pada tokoh-tokoh kunci seperti Quesnay dan Dupont de Nemours. Ide laissez-faire menjadi sistem yang koheren tepat di mazhab ini, berakar pada gagasan tatanan alamiah di mana Negara harus tunduk untuk menjamin kemakmuran bagi semua orang.
 
 **Bagian 5: Pencerahan dan Ekonomi Politik**
 
@@ -55,57 +45,42 @@ Terakhir, kita akan melihat bagaimana pemikiran ekonomi liberal menyebar dalam g
 
 Siap untuk menemukan kembali akar liberalisme ekonomi Prancis? Ayo pergi!
 
+Terakhir, kita akan melihat bagaimana pemikiran ekonomi liberal menyebar di dalam gerakan Pencerahan yang lebih luas. Tokoh-tokoh seperti Voltaire, Turgot, Condillac, dan Condorcet memperluas dan memperkaya tradisi laissez-faire, tulisan-tulisan mereka menciptakan jembatan bagi tradisi laissez-faire untuk melintasi periode revolusioner dan seterusnya, di mana ide-ide liberal menemukan resonansi baru.
+
+Siap untuk menemukan kembali akar Prancis dari liberalisme ekonomi? Mari kita mulai!
 
 # Para Pelopor
 
-
 <partId>91565b10-6010-53cb-a2f4-9c2306c7ef8c</partId>
-
 
 ## Latar Belakang Sejarah
 
-
 <chapterId>6a5fd101-6dfd-5d77-96c7-9e1aa4a19758</chapterId>
-
 
 Pada awal abad ke-18, Prancis berada dalam kondisi yang mengkhawatirkan. Penduduk pedesaan hampir tidak menghasilkan cukup uang untuk bertahan hidup dan dikenai pajak yang tinggi.
 
-
 ![image](assets/id/001.webp)
 
+Para pengrajin perkotaan, yang terkunci dalam serikat pekerja yang kaku, kesulitan untuk berinovasi atau bahkan saling mendukung. Sementara itu, negara-negara Eropa lainnya segera melampaui Prancis di setiap lini, mengungguli produk-produknya dalam persaingan. Kesuksesan komersial Inggris dan Belanda ada di benak setiap orang.
 
-
-Para pengrajin perkotaan, yang terkungkung dalam serikat pekerja yang kaku, kesulitan untuk berinovasi atau bahkan mendukung satu sama lain. Sementara itu, negara-negara Eropa lainnya segera melampaui Prancis di setiap lini, mengungguli produk-produknya. Keberhasilan komersial Inggris dan Belanda ada di benak semua orang.
-
-
-Namun, bagaimana kita dapat menemukan solusi untuk penyakit zaman itu? Pada saat itu, belum ada ilmu ekonomi dan oleh karena itu tidak ada obat khusus yang dapat diterapkan. Prinsip-prinsip kebijakan ekonomi masih diterapkan secara serampangan, bergeser antara fase-fase yang membatasi dan periode yang lebih liberal. Tentu saja, kita memiliki model, referensi sejarah untuk diikuti. Di antara mereka adalah *Sully*, menteri Henri IV, yang mengadvokasi pertanian dan mempromosikan kebebasan perdagangan yang lebih besar di Prancis.
-
+Namun, bagaimana kita bisa menemukan solusi untuk penyakit di era tersebut? Belum ada ilmu ekonomi, dan karenanya tidak ada obat khusus untuk diterapkan. Prinsip-prinsip kebijakan ekonomi masih diterapkan secara serampangan, bergeser antara fase restriktif dan periode yang lebih liberal. Tentu, ada model dan referensi historis untuk diikuti. Di antaranya adalah _Sully_, menteri Henri IV, yang mengadvokasi pertanian dan mempromosikan kebebasan perdagangan yang lebih besar di dalam Prancis.
 
 ![image](assets/id/002.webp)
 
-
-
-
-
-Namun kemudian muncul Colbert, menteri Louis XIV, yang terombang-ambing antara peraturan dan kebebasan, namun pada akhirnya menerapkan peraturan. Pada akhir abad ke-17, Colbert menggantikan Sully: para menteri kini menggunakan warisannya dan mencoba menerapkan apa yang mereka klaim sebagai prinsip-prinsipnya.
-
+Namun kemudian datanglah Colbert, menteri Louis XIV, yang bimbang antara regulasi dan kebebasan, namun pada akhirnya menegakkan regulasi. Menjelang akhir abad ke-17, Colbert mengambil alih posisi Sully: para menteri kini merujuk pada warisannya dan mencoba menerapkan apa yang mereka klaim sebagai prinsip-prinsipnya.
 
 ![image](assets/id/003.webp)
-
 
 Dalam benak para negarawan di akhir abad ke-17, maksim Colbert terdiri dari empat maksim.
 
 
-(1) **Industri Harus Diatur dan Terikat Dalam Serikat Pekerja**. Peraturan-peraturan ini menetapkan, misalnya, bagaimana seprai dan kain harus dibuat, ukuran dan beratnya.
+(1) **Industri Harus Diatur dan Terikat Dalam Serikat Pekerja**.
 
-Ada ratusan peraturan seperti itu, yang disusun dalam volume khusus untuk setiap jenis industri. Namun, di mata para pengikut Colbert, hal ini masih belum cukup: industri, menurut mereka, juga perlu diawasi oleh perusahaan.
-
+Peraturan-peraturan ini menentukan, misalnya, bagaimana seprai dan kain harus dibuat, ukuran dan beratnya. Ada ratusan aturan semacam itu, yang disusun dalam volume khusus untuk setiap jenis industri. Namun di mata para pengikut Colbert, ini masih belum cukup: mereka percaya industri juga perlu diawasi oleh korporasi.
 
 ![image](assets/id/004.webp)
 
-
-Siapa pun yang ingin mempraktikkan perdagangan harus terlebih dahulu menghabiskan beberapa tahun sebagai magang, kemudian sebagai pengembara, sebelum mencoba mencapai status master dengan menghasilkan "karya agung" dan membayar sejumlah besar uang kepada serikat. Oleh karena itu, persaingan di dalam setiap perdagangan sangat terbatas.
-
+Siapa pun yang ingin menjalankan suatu perdagangan harus terlebih dahulu menghabiskan beberapa tahun sebagai apprentice (magang), lalu sebagai journeyman (pekerja harian), sebelum mencoba mencapai status master dengan menghasilkan "masterpiece" dan membayar sejumlah besar kepada gilda / serikat. Oleh karena itu, persaingan dalam setiap perdagangan sangat dibatasi.
 
 
 (2) **Perdagangan Adalah Permainan Tanpa Hasil**. Dalam hal perdagangan, murid-murid Colbert memiliki prasangka yang sama dengan orang-orang barbar di zaman kuno. Menurut menteri Louis XIV, perdagangan adalah "perang abadi". Mengapa? Alasannya sederhana: bagi Colbert dan para penerusnya, setiap peningkatan kekayaan di satu negara berarti pemiskinan di negara lain. Dalam pandangan mereka, Inggris atau Belanda tidak dapat dibiarkan menjadi kaya, karena itu berarti mereka mencuri kemakmuran Prancis.

@@ -3,7 +3,9 @@ name: BTCPay Server
 description: Accepter des paiements en BTC sans intermédiaire
 ---
 
-![capture](assets/cover.webp)
+![cover](assets/cover.webp)
+
+![video](https://youtu.be/KqsM-n-e4aY)
  
 Dans un monde de plus en plus numérique, de nouvelles initiatives et innovations émergent chaque jour. Il en est de même dans le domaine de la finance et du commerce. Les boutiques virtuelles, l’e-commerce et les paiements numériques foisonnent.  
 Les paiements en espèces s’effacent progressivement, à mesure que les paiements numériques deviennent monnaie courante.

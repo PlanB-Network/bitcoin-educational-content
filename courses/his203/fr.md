@@ -243,7 +243,7 @@ La plateforme a joué un rôle central dans l'histoire de Bitcoin. Elle a été 
 
 ### Mark Karpelès, le geek
 
-Mark Karpelès est né en France en 1984. Fils unique, il est élevé par sa mère seule. Il s'intéresse rapidement pour les ordinateurs, les jeux vidéos et les mangas. Dans sa vingtaine, il est un geek [mal dans sa peau](https://web.archive.org/web/20140302234940/http://blog.magicaltux.net/2006/02/12/pensees-nocturnes/). En 2007, il apparait dans le documentaire *Suck my Geek*, consacré au mouvement geek français. En 2009, désireux de quitter la France où il ne s'est jamais réellement chez lui, il déménage au Japon [en juin 2009](https://web.archive.org/web/20090628035138/http://blog.magicaltux.net/2009/06/18/arrived-in-japan/) par attrait pour la culture locale. Là-bas, il fonde une société appelée Tibanne Co. Ltd. (comme son chat, Tibane), par le biais de laquelle il travaille en free-lance. Il gère notamment un service d'hébergement appelé [KalyHost](https://web.archive.org/web/20101231201212/https://www.kalyhost.com/).
+Mark Karpelès est né en France en 1984. Fils unique, il est élevé par sa mère seule. Il s'intéresse rapidement pour les ordinateurs, les jeux vidéos et les mangas. Dans sa vingtaine, il est un geek [mal dans sa peau](https://web.archive.org/web/20140302234940/http://blog.magicaltux.net/2006/02/12/pensees-nocturnes/). En 2007, il apparait dans le documentaire *Suck my Geek*, consacré au mouvement geek français. En 2009, désireux de quitter la France où il ne s'est jamais réellement senti chez lui, il déménage au Japon [en juin 2009](https://web.archive.org/web/20090628035138/http://blog.magicaltux.net/2009/06/18/arrived-in-japan/) par attrait pour la culture locale. Là-bas, il fonde une société appelée Tibanne Co. Ltd. (comme son chat, Tibane), par le biais de laquelle il travaille en freelance. Il gère notamment un service d'hébergement appelé [KalyHost](https://web.archive.org/web/20101231201212/https://www.kalyhost.com/).
 
 ![Mark Karpelès dans Suck My Geek en 2007](assets/en/mark-karpeles-suck-my-geek-2007.webp)
 
@@ -1530,9 +1530,9 @@ L'activité de BTCKing est repérée rapidement par BitInstant et son intermédi
 
 L'activité de BTCKing constitue une aubaine pour BitInstant, à tel point que Charlie lui accorde une remise sur les commissions au bout de quelques mois. En août et en septembre 2012, le chiffre d'affaires de BTCKing s'élève à 40 000 $ par semaine. La société BitInstant est donc intrinsèquement liée à Silk Road, tout comme toutes les plateformes de change de l'époque, dont la fameuse Mt. Gox.
 
-![Why Wait? chanson officielle de BitInstant interprétée par ZhouTonged](https://www.youtube.com/watch?v=VKEk7b2vfoQ)
+![Chanson officielle de BitInstant interprétée par ZhouTonged en avril 2012](https://www.youtube.com/watch?v=VKEk7b2vfoQ)
 
-*Why Wait?* : chanson officielle de BitInstant interprétée par ZhouTonged
+*Chanson officielle de BitInstant interprétée par ZhouTonged en avril 2012*
 
 ### Le change en argent liquide avec LocalBitcoins
 
@@ -1554,74 +1554,25 @@ Pendant l'été, les deux frères [intègrent](https://bitcointalk.org/index.php
 
 LocalBitcoins attire l'attention de la communauté, Jeremias participant à plusieurs conférences dont Assembly Summer 2012 et Bitcoin London 2012. En septembre, [il y a](https://web.archive.org/web/20120920110200/https://localbitcoins.com/statistics) des changeurs dans 74 pays différents, et plus de 300 villes. Le 14 juin 2013, un an après sa création, le site [comptera](https://bitcoinmagazine.com/culture/jeremias-kangas-bitcoin-cannot-be-shut-down-1371225649) environ 44 000 utilisateurs, et le volume d'échange journalier atteindra plusieurs dizaines de milliers de dollars !
 
-### Des outils pour le commerce
+### La croissance du commerce
 
-Silk Road et le change en espèces en sont pas les seules activités qui fleurissent durant cette année 2012. Il y a également le commerce au sens traditionnel qui commence à exister. Cependant, celui-ci a besoin d'outils en tous genres.
+Si le trafic sur Silk Road et le change en espèces fleurissent, c'est aussi le cas du commerce conventionnel. En 2012, des centaines de commerçants sont [référencés](https://web.archive.org/web/20120724114927/https://en.bitcoin.it/wiki/Trade) sur le wiki de Bitcoin. Même s'il existe certaines boutiques en dur (généralement des bars et des restaurants dans les grandes villes, comme l'iconique [Room77](https://www.youtube.com/watch?v=rzKdW-au110) à Berlin), la plupart des achats en bitcoins se font sur Internet.
 
-1. Répertoires
-2. Exemples de gros commerces
-2. Demande pour un processeur de paiement
-3. Exemples de projets de processeur de paiement
-4. URI
+On voit ainsi de grosses boutiques en ligne prospérer au cours de l'année. C'est le cas de Coinabul, un service de vente d'or et d'argent aux États-Unis, ouvert en octobre 2011 par Jay Shore et Jon Holmquist. En quelques mois, la plateforme attire de nombreux clients, [dépassant](https://bitcoinmagazine.com/business/coinabul-celebrates-six-months-of-gold-1335646624) les 6 000 bitcoins de volume mensuel en avril 2012 (30 000 $ à ce moment-là), et [totalisant](https://bitcoinmagazine.com/business/coinabul-celebrates-one-year-in-business-1350442160) un volume total de 120 000 bitcoins en octobre. On peut aussi citer Bitmit.net, [surnommé](https://www.coindesk.com/markets/2013/10/28/bitmit-is-still-the-ebay-of-bitcoin-despite-setbacks) l'« eBay du bitcoin », une place de marché permettant à des particuliers de mettre des objets en vente ou aux enchères, qui est [lancée](https://bitcointalk.org/index.php?topic=41592.msg506512#msg506512) en septembre 2011 par un Allemand se faisant appeler Tosaki. \[succès ?\]
 
-Ce type de commerce se développe à partir de 2011, où l'on commence à voir les premières initiatives apparaitre. Outre la page Trade...
+![Articles achetés en bitcoins par le groupe de chercheurs ayant réalisé l'étude « A Fistful of Bitcoin », prépubliée en août 2013](assets/en/items-bought-with-btc-20130821-meiklejohn-a-fistful-of-bitcoins.webp)
 
-Des outils sont également développés.
+*Articles achetés en bitcoins par le groupe de chercheurs ayant réalisé l'étude « A Fistful of Bitcoin », prépubliée en août 2013 (source : [Sarah Meiklejohn](https://cseweb.ucsd.edu/~smeiklejohn/files/imc13.pdf))*
 
-[Meiklejohn et al., "A Fistful of Bitcoins", oct. 2013](https://discovery.ucl.ac.uk/id/eprint/1490261/1/Meiklejohn%20et%20al%20A%20fistful%20of%20bitcoins.pdf) : ABU Games BTC Buy HealthRX Bitbrew BTC Gadgets JJ Games Bitdomain Casascius NZBs R Us Bitmit Coinabul Silk Road Bitpay CoinDL WalletBit Bit Usenet Etsy Yoku
+Ce développement du commerce rend nécessaire la standardisation du mode de paiement, afin que les portefeuilles puissent tous suivre le même protocole. L'utilisation d'un smartphone et la lecture d'un code QR grâce à l'appareil photo de celui-ci permet de payer sans souci. La question est de connaitre le standard permettant de payer, ce qui se fait par le biais d'un schéma d'URI qui permet de formaliser les demandes de paiement. Ces dernières se présentent par exemple sous la forme `bitcoin:175tWpb8K1S7NmH4Zx6rewF9WQrcZv245W?amount=20.3&label=Luke-Jr`, qui contient l'adresse du destinataire (175tWp...), le montant à payer (20,3 bitcoins) et la description de la transaction (Luke-Jr).
 
-2011 :
+L'utilisation de ce type de schéma a été [suggérée](https://bitcointalk.org/index.php?topic=55.msg377#msg377) dès février 2010, et [approuvée](https://bitcointalk.org/index.php?topic=55.msg481#msg481) par Satoshi Nakamoto lui-même. Un schéma standard a été [ébauché](https://en.bitcoin.it/w/index.php?title=BIP_0020&oldid=1649) par Nils Schneider en janvier 2011, et [complété](https://en.bitcoin.it/w/index.php?title=BIP_0020&oldid=1820) par Luke-Jr pour donner le BIP 20. Le tout est [repris](https://en.bitcoin.it/w/index.php?title=BIP_0021&oldid=23000) en janvier 2012 par Matt Corallo pour être finalisé au sein du BIP 21. Ce dernier standard est adopté par la communauté au cours de l'année, [notamment](https://bitcointalk.org/index.php?topic=88969.msg981026#msg981026) par le processeur de paiement BitPay en juin. Il est finalement [enregistré](https://www.iana.org/assignments/uri-schemes/prov/bitcoin) auprès de l'Internet Assigned Numbers Authority (IANA) en septembre 2012, par Dave Thaler, qui travaille alors en tant qu'architecte logiciel pour Microsoft Research.
 
-- OpenCart Bitcoin payment extension, [avr. 2011](https://bitcointalk.org/index.php?topic=5625.msg82684#msg82684)  ; 2010 : Mike Goguski, Bitcoin for WP e-Commerce https://github.com/mikegogulski/bitcoin-wp-e-commerce
-- Jeremy West (jeremy.west), Spend Bitcoins, [19 mai 2011](https://bitcointalk.org/index.php?topic=8864.msg128629#msg128629), cartes-cadeaux Amazon, Fishpond, New Egg https://bitcointalk.org/index.php?topic=24653.msg306101#msg306101 https://web.archive.org/web/20110603145425/https://spendbitcoins.com/
-- Chris Brunner de Trucoin (entreprise), BitcoinDeals.com, "over 1,000,000 items", juillet–août 2011 sur invitation (https://bitcointalk.org/index.php?topic=16701.msg217120#msg217120), [Bitcoin Show](https://www.youtube.com/watch?v=UjqJGkuTUpw) présence à la conférence fin août, [lancement](https://web.archive.org/web/20111222184030/http://www.bitcoindeals.com/) plus complet en décembre, [« maintenance »](https://web.archive.org/web/20120901131133/http://www.bitcoindeals.com/) en août 2012, [we "ran Bitcoindeals.com for a year"](https://99bitcoins.com/coinbrief/bitcoin/trucoin-chris-and-brent/) ; ["BitcoinDeals.com is launched!"](https://web.archive.org/web/20120201230557/http://www.trucoin.com/)
-- Bitmit.net, [sept. 2011](https://bitcointalk.org/index.php?topic=41592.msg506512#msg506512)
-
-
-"2012 has been an exciting year for Bitcoin. We have seen BitPay grow from near-irrelevance to processing transactions for over 2000 merchants around the world, Coinabul expand its gold-selling business from nothing in October 2011 to over 120,000 BTC of gold sold this year, entirely new Bitcoin-accepting businesses like Coindl and the Bitcoin Store open their doors, and hundreds more innovative services, of which there are unfortunately far too many to mention." [récapitulatif de Vitalik](https://bitcoinmagazine.com/markets/the-next-year-in-bitcoin-what-2013-has-in-store-1357247984)
-
-Bitcoin Businesses and Developers, Let's Get Started! June 21, 2011, 12:51:28 AM : https://bitcointalk.org/index.php?topic=20292.msg254010#msg254010
-
-
-Commerce : https://web.archive.org/web/20110525045712/https://en.bitcoin.it/wiki/Trade
-
-En septembre, des centaines de commerçants (en ligne) sont référencés sur le wiki : https://web.archive.org/web/20110919161327/https://en.bitcoin.it/wiki/Trade https://web.archive.org/web/20120106203422/https://en.bitcoin.it/wiki/Trade
-
-
-WeUseCoins : initiative lancée par Stefan Thomas (justmoon) en mars 2011, pour sa vidéo de présentation. Guide de minage : https://bitcointalk.org/index.php?topic=4938.msg72112#msg72112 https://web.archive.org/web/20110718193241/http://www.weusecoins.com/mining-guide.php ; "Getting Started" : https://bitcointalk.org/index.php?topic=29016.msg365385#msg365385 [05/2011](https://web.archive.org/web/20110325025457/http://www.weusecoins.com/getting-started.php) [07/2011](https://web.archive.org/web/20110718193241/http://www.weusecoins.com/mining-guide.php) ; Q&A : [forum déc. 2011](https://bitcointalk.org/index.php?topic=53924.msg642909#msg642909) [capture 01/2012](https://web.archive.org/web/20120107201808/http://www.weusecoins.com/questions.php) ; "Bitcoin for Merchants" : [23/9/2011](https://web.archive.org/web/20110923184030/http://www.weusecoins.com/merchant-tools.php) [07/01/2012](https://web.archive.org/web/20120107042342/http://www.weusecoins.com/merchant-tools.php)
-
-CoinCard (Cartes-cadeaux), Michael Hendricks, Feburary 25, 2011–apr. 2011 puis déc. 2011–sept. 2012 : https://en.bitcoin.it/wiki/CoinCard https://www.youtube.com/watch?v=n5uoEqb3VaQ
-
-- Coinabul, Jay Shore et Jon Holmquist, pièces et lingots d'or et d'argent : "Coinabul sells gold and silver for Bitcoin. Coinabul opened its doors on October 10th, 2011. Since then Coinabul has been heavily involved in the Bitcoin community. Coinabul has given away free posters, held Bitcoin-wide community events, and even held the occasional giveaway. (...) Coinabul was founded inside the United States and is dedicated to transparency and safety. Incorporated in Wyoming, with distribution centers in California, Coinabul ships both nationally, and internationally!" https://en.bitcoin.it/wiki/Coinabul https://web.archive.org/web/20120117180603/http://www.thebitcointrader.com/2011/12/interview-jay-from-coinabul.html https://bitcoinmagazine.com/business/coinabul-celebrates-six-months-of-gold-1335646624 https://bitcoinmagazine.com/business/coinabul-celebrates-one-year-in-business-1350442160
-
-- 12 décembre 2011 : Internet Archive accepte le bitcoin pour les dons https://blog.archive.org/2011/12/07/please-donate-to-the-internet-archive/#comment-79666 ; Critique de Mt. Gox, 19 déc. 2012 (Brewster Kahle, Internet Archive cofounder) : https://blog.archive.org/2012/12/19/i-donated-bitcoins-to-the-internet-archive/
-
-
-Quickco.in ?
-
-Bitcoin.com by TradeHill, sept. 2011 : https://web.archive.org/web/20110907014134/http://bitcoin.com/
-
-"State of TradeHill Bitcoin.com Announcement", [18/8/2011](https://web.archive.org/web/20110831095458/http://tradehillblog.com/2011/08/18/state-of-tradehill/), [BitcoinTalk](https://bitcointalk.org/index.php?topic=37883.0)
-
-Martti Malmi, "1000 BTC for getting a major business to accept Bitcoin" (oct. 2011) https://bitcointalk.org/index.php?topic=46646.msg555039#msg555039
-
-Le commerce se fait simplement. L'utilisation d'un smartphone et la lecture d'un code QR g^race à l'appariel photo de celui-ci permet de payer sans souci.
-
-Bitcoin URI scheme ? [proposé] dès février 2010 ; "URI Scheme" ([BIP 21](https://github.com/bitcoin/bips/blob/master/bip-0021.mediawiki)), 2012-01-29, Nils Schneider, Matt Corallo, variante de la proposition de Luke-Jr. `bitcoin:175tWpb8K1S7NmH4Zx6rewF9WQrcZv245W?amount=20.3&label=Luke-Jr`
-
-Satoshi :
-
-> « Ce serait pratique au moment de payer \[ou: pour les points de vente\]. La caisse enregistreuse affiche un code QR contenant une adresse bitcoin et un montant sur un écran, et l'acheteur le prend en photo avec son téléphone portable. »
->
-> original: "That would be nice at point-of-sale.  The cash register displays a QR-code encoding a bitcoin address and amount on a screen and you photo it with your mobile."
-
-BitPay intègre ce standard en juin 2012 : https://bitcointalk.org/index.php?topic=88969.msg981026#msg981026
-
-Enregistré auprès de l'Internet Assigned Numbers Authority (IANA) par Dave Thaler (architecte logiciel pour Microsoft Research) en septembre 2012 : https://www.iana.org/assignments/uri-schemes/prov/bitcoin
+Mais la croissance commerciale demande aussi un développement d'outils permettant de recevoir du bitcoin, de façon simple et claire. Des services pour les commerçants voient ainsi le jour dès 2011 à l'instar de [BitWillet](https://www.reddit.com/r/Bitcoin/comments/ibfxf/my_weekend_project_accept_bitcoin_on_your_website/) et de [Bitcoin.com](https://bitcointalk.org/index.php?topic=37883.msg465207#msg465207) (développé par la platefrome de change Tradehill). Mais le principal processeur de paiement qui va profiter de la période est BitPay.
 
 ### Le premier processeur de paiement : BitPay
 
-Le premier processeur de paiement appelé BitPay est créé par Stephen Pair et Tony Gallippi.
+BitPay est le premier processeur de paiement digne de ce nom pour accepter le bitcoin. Il est créé au cours de l'été 2011 par Stephen Pair et Tony Gallippi, deux Américains approchant de la quarantaine qui se sont rencontrés à l'université.
 
 Stephen Pair ([Steve](https://bitcointalk.org/index.php?action=profile;u=4399)). Diplômé en informatique de l'Institut de technologie de Géorgie en 1994, il a travaillé pour IBM en tant qu'ingénieur logiciel et responsable du développement. Passionné par la cryptographie, il s'est intéressé pour le modèle eCash de David Chaum dans les années 90, puis pour les Linden Dollars et Ripple. Il s'est enthousiasmé pour Bitcoin au début de l'année 2011. Il a [miné](https://bitcointalk.org/index.php?topic=4209.msg60980#msg60980) des bitcoins avec ses cartes graphiques avant de se rendre compte qu'il aurait été plus rentable de les acheter.
 
@@ -1669,11 +1620,13 @@ L'introduction du bitcoin au PorcFest est un franc succès. Josh Harvey (ben-abu
 
 Bitcoin entretiendra par la suite une relation fusionnelle avec la sphère libertarienne. BitPay [sponsorisera](https://bitcointalk.org/index.php?topic=100459.msg1096865#msg1096865) ainsi le Paul Festival, un festival de musique organisé en Floride en août (quelques jours avant la *Republican National Convention*), en hommage à Ron Paul qui a arrêté de financer sa campagne présidentielle en mai. Le PorcFest de 2013 [sera](https://bitcoinmagazine.com/industry-events/bitcoin-at-porcfest-part-1-a-social-experiment-1371713328) davantage consacré à Bitcoin.
 
-### Le développement du commerce conventionnel
+### La transition vers le commerce conventionnel
 
-Si l'activité économique a été largement dominée par le trafic de drogue sur Silk Road et par les opérations de change l'entourant, elle s'est progressivement diversifiée, pour inclure de plus en plus de commerçants conventionnels. À la fin de l'année 2012, on a vu clairement cette tendance émerger lorsque WordPress, le plus gros hébergeur de sites web du monde, a [commencé à accepter](https://bitcoinmagazine.com/culture/wordpress-accepts-bitcoin-1353043485) les paiements en bitcoins via BitPay. Bitcoin a tout d'un coup gagné en légitimité auprès du public. Cet évènement a ainsi ouvert la voie à acceptation plus large, ce qui a notamment fait [doubler](https://www.forbes.com/sites/jonmatonis/2013/01/07/largest-bitcoin-payment-processor-raises-510000-angel-round/) le nombre de commerçants de BitPay en quelques mois. En mars 2013, le volume échangé par le biais du processeur de paiement a même [surpassé](https://bitcoinmagazine.com/technical/bitpay-processes-5-million-in-march-eclipses-silk-road-1364929315) celui de Silk Road, notamment grâce à l'activité du Bitcoin Store, la boutique en ligne de Roger Ver [ouverte](https://bitcointalk.org/index.php?topic=122190.msg1314366#msg1314366) en novembre 2012, et d'Avalon, la société de fabrication d'ASIC lancée par un certain Yifu Guo.
+Si l'activité économique a été largement dominée par le trafic de drogue sur Silk Road et par les opérations de change l'entourant, elle s'est progressivement diversifiée, pour inclure de plus en plus de commerçants conventionnels. À la fin de l'année 2012, on a vu clairement cette tendance émerger lorsque WordPress, le plus gros hébergeur de sites web du monde, a [commencé à accepter](https://bitcoinmagazine.com/culture/wordpress-accepts-bitcoin-1353043485) les paiements en bitcoins via BitPay. Bitcoin a tout d'un coup gagné en légitimité auprès du public.
 
-Toutefois, ils nous reste à traiter un aspect du Far West : le jeu d'argent, les arnaques et les piratages, qui ont été au plus haut en 2012.
+Cet évènement a ainsi ouvert la voie à acceptation plus large, ce qui a notamment fait [doubler](https://www.forbes.com/sites/jonmatonis/2013/01/07/largest-bitcoin-payment-processor-raises-510000-angel-round/) le nombre de commerçants de BitPay en quelques mois. En mars 2013, le volume échangé par le biais du processeur de paiement a même [surpassé](https://bitcoinmagazine.com/technical/bitpay-processes-5-million-in-march-eclipses-silk-road-1364929315) celui de Silk Road, notamment grâce à l'activité du Bitcoin Store, la boutique en ligne de Roger Ver [ouverte](https://bitcointalk.org/index.php?topic=122190.msg1314366#msg1314366) en novembre 2012, et d'Avalon Labs, la société de fabrication d'ASIC lancée par un certain Yifu Guo.
+
+\[À REVOIR\] Toutefois, ils nous reste à traiter un aspect du Far West : le jeu d'argent, les arnaques et les piratages, qui ont été au plus haut en 2012.
 
 ## La monnaie du vice : jeu d'argent et travail du sexe
 

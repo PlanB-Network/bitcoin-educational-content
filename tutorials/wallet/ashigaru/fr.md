@@ -189,17 +189,58 @@ Le second paramètre important à activer est le [**RBF** (*Replace-by-Fee*)](ht
 
 25
 
+Conseil : Vous pouvez modifier l’unité d’affichage de votre portefeuille pour passer de `BTC` à `sat` en cliquant simplement sur le solde total affiché sur la page d’accueil.
+
 ## 5. Recevoir des bitcoins sur Ashigaru
 
+Maintenant que votre portefeuille est opérationnel, vous pouvez recevoir des sats. Pour cela, appuyez sur le bouton `+` situé en bas à droite de l’interface, puis sur le bouton vert `Receive`.
 
+26
 
+Ashigaru vous affiche alors la première adresse de réception non utilisée de votre portefeuille, afin d’éviter toute réutilisation d’adresse (la réutilisation d'adresse est une pratique très mauvaise pour votre confidentialité). Vous pouvez ensuite transmettre cette adresse à la personne ou au service qui doit vous envoyer des bitcoins.
 
+27
+
+Une fois la transaction diffusée sur le réseau, elle apparaîtra automatiquement sur la page d’accueil de l’application.
+
+28
 
 ## 6. Envoyer des bitcoins avec Ashigaru
 
+Maintenant que vous avez des bitcoins sur votre portefeuille Ashigaru, vous pouvez également en envoyer. Pour cela, appuyez sur le bouton `+` en bas à droite, puis sélectionnez le bouton rouge `Send`.
 
+29
 
+Choisissez ensuite le compte depuis lequel vous souhaitez effectuer la dépense. Pour l’instant, nous n’avons pas encore abordé le compte `Postmix`, réservé aux coinjoins que nous verrons dans un prochain tutoriel. Nous allons donc envoyer des fonds depuis le compte de dépôt principal.
 
+30
+
+Renseignez les informations de votre transaction : le montant à envoyer et l’adresse Bitcoin du destinataire.
+
+31
+
+En cliquant sur les trois petits points en haut à droite, puis sur `Show unspent outputs`, vous pouvez également choisir précisément les UTXOs que vous souhaitez dépenser, afin d’améliorer votre confidentialité.
+
+32
+
+Une fois tous les détails remplis, cliquez sur la flèche blanche située en bas de l’interface pour poursuivre.
+
+Vous arrivez ensuite sur une page récapitulative présentant tous les détails de votre transaction. Plusieurs éléments importants y sont affichés :
+- Dans le bloc `Destination`, vérifiez une dernière fois que l’adresse du destinataire et le montant envoyé sont corrects ;
+- Dans le bloc `Fees`, vous pouvez consulter le taux de frais automatiquement sélectionné par Ashigaru et, si besoin, le modifier en cliquant sur `MANAGE` ;
+- Le bloc `Transaction` indique le type de transaction que vous êtes sur le point d’effectuer. Ici, il s’agit d’une transaction simple, mais Ashigaru prend également en charge d’autres types de transactions optimisées pour la confidentialité, que nous aborderons en détail dans un prochain tutoriel ;
+- Le bloc rouge `Transaction Alert` signale si votre transaction présente des schémas reconnaissables par les outils d’analyse de chaîne, susceptibles de compromettre votre privacy. En cliquant dessus, vous pouvez consulter le détail. Par exemple, dans mon cas, Ashigaru m’indique que le montant envoyé est rond (`3000 sats`), ce qui permet de déduire quel output correspond à la dépense et lequel constitue le change. Pour en savoir plus sur ces heuristiques d’analyse de chaîne, je vous invite à suivre ma formation BTC 204 sur Plan ₿ Academy ;
+- Enfin, vous pouvez ajouter un label à votre transaction afin de conserver une trace de sa finalité.
+
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+
+Une fois que vous avez vérifié toutes les informations, utilisez la flèche verte pour procéder à l’envoi des bitcoins. Maintenez la pression sur la flèche, puis faites-la glisser vers la droite pour confirmer l'envoi.
+
+33
+
+Votre transaction a bien été diffusée sur le réseau Bitcoin.
+
+34
 
 ## 7. Récupérer son portefeuille Ashigaru
 
@@ -209,7 +250,7 @@ Si vous avez encore accès à votre téléphone, ou si vous aviez fait un backup
 
 Avec ces deux éléments, vous pouvez par exemple restaurer votre portefeuille sur Sparrow Wallet.
 
-000
+35
 
 Si vous n’avez pas accès au fichier `ashigaru.txt`, vous pouvez tout de même retrouver l’accès à vos fonds en utilisant votre phrase mnémonique et votre passphrase, comme pour n’importe quel autre portefeuille Bitcoin. Je vous recommande d’effectuer cette restauration soit sur une nouvelle instance d’Ashigaru, soit directement sur Sparrow Wallet, afin de récupérer facilement les chemins de dérivation de Whirlpool si vous l’utilisiez. Sinon, vous pouvez aussi importer ces informations dans n’importe quel autre logiciel compatible BIP39 en saisissant manuellement les chemins de dérivation.
 
@@ -221,6 +262,28 @@ Comme vous avez pu le constater, quelle que soit la méthode de restauration uti
 
 ## 8. Faire un don au projet Ashigaru
 
-Ashigaru est un projet open-source. Si vous souhaitez faire un don pour aider au développement de l'application, vous pouvez le faire dans l'applicaiton via PayNym.
+Ashigaru est un projet open-source. Si vous souhaitez soutenir son développement, vous pouvez effectuer un don directement depuis l’application via PayNym.
 
-Pour ce faire, cliquez sur votre PayNym en haut à droite de l'interface
+Pour cela, cliquez sur votre PayNym en haut à droite de l’interface, puis sélectionnez votre code de paiement commençant par `PM...`.
+
+36
+
+Appuyez ensuite sur le bouton `+` situé en bas à droite de l’écran.
+
+37
+
+Choisissez comme destinataire `Ashigaru Open Source Project`.
+
+38
+
+Cliquez sur le bouton `CONNECT` pour établir le canal de communication BIP47 (plus d'information sur ce protocole dans le tutoriel ci-dessous).
+
+https://planb.academy/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
+
+39
+
+Une fois la transaction de notification confirmée, vous pourrez envoyer vos dons au projet en cliquant sur la petite flèche blanche située en haut à droite de l’interface.
+
+40
+
+Vous savez désormais utiliser les fonctionnalités de base de l’application Ashigaru. Dans de futurs tutoriels, nous verrons comment tirer parti des transactions de dépense avancées, ainsi que de Whirlpool, l’implémentation de coinjoin héritée de Samourai Wallet.

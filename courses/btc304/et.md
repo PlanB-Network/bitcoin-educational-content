@@ -241,7 +241,7 @@ Bitcoin kohtumised võivad teenida mitmeid eesmärke:
 
 
 
-Paljusid neist võimalustest käsitleme üksikasjalikult käesoleva kursuse 6/8. osas pealkirjaga "[Projektide ja algatuste näited](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279).
+Paljusid neist võimalustest käsitleme üksikasjalikult käesoleva kursuse 6/8. osas pealkirjaga "[Projektide ja algatuste näited](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279).
 
 
 
@@ -353,7 +353,7 @@ Teie esimene üritus on tõenäoliselt kohtumine. Selle peamine eesmärk on tuua
 
 
 
-Kuid nagu me hiljem näeme [Projektide ja algatuste näited](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279), **kohtumine võib olla üles ehitatud mitmel viisil ja paljude eesmärkidega:**
+Kuid nagu me hiljem näeme [Projektide ja algatuste näited](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279), **kohtumine võib olla üles ehitatud mitmel viisil ja paljude eesmärkidega:**
 
 
 
@@ -866,7 +866,7 @@ Järgnevate õpetuste jaoks kasutasime algselt "Telegram+" APK-d, mis võimaldab
 Kui soovite luua koha, kus teie liikmed saavad üksteisega otse rääkida, üksteisele vastata jne, siis võiksite luua Telegrami grupi, mitte Telegrami kanali!
 
 
-Minge otse järgmisesse jaotisse pealkirjaga [Telegrami grupi loomine](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/d13714ce-8f08-53e9-bedd-b6a3aaac5dad).
+Minge otse järgmisesse jaotisse pealkirjaga [Telegrami grupi loomine](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/d13714ce-8f08-53e9-bedd-b6a3aaac5dad).
 
 
 
@@ -1232,7 +1232,7 @@ Twitterit on väga lihtne kasutada ja oma privaatsuse parandamiseks peate kohand
 1/ **Twitter @, mis määratleb teie identiteedi ja teeb teid kergesti leitavaks.** Kui teie kogukonna nimi on "Bitcoin [CITY]", on asjakohane valida "@Bitcoin[CITY]";
 
 
-2/ **logo ja bänner**, mille olete loonud oma kogukonna või kohtumise jaoks (vt jaotist [Logo, plakati ja bänneri loomine](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef));
+2/ **logo ja bänner**, mille olete loonud oma kogukonna või kohtumise jaoks (vt jaotist [Logo, plakati ja bänneri loomine](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef));
 
 
 3/ **kirjeldus**, mis võimaldab teil mõnesaja tähemärgiga jagada põhiteavet oma kogukonna kohta. Näiteks:
@@ -1547,7 +1547,7 @@ Teisel juhul võiks teine igakuine üritus olla pühendatud konkreetsele teemale
 
 
 
-Pidage meeles, et **see nõuab rohkem organiseerimist ja rohkem teie aega**. Õnneks leiate [selle kursuse 6/8. osast] (https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279) hulga taaskasutatavaid avatud lähtekoodiga ressursse, mis aitavad.
+Pidage meeles, et **see nõuab rohkem organiseerimist ja rohkem teie aega**. Õnneks leiate [selle kursuse 6/8. osast] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279) hulga taaskasutatavaid avatud lähtekoodiga ressursse, mis aitavad.
 
 
 Igal juhul sõltub kõik sellest, millise lühi-, keskpika ja pikaajalise tegevuskava te või teie kogukond endale seadsite.
@@ -1619,7 +1619,7 @@ Võtke ühendust sündmuse toimumiskohaga ja reserveerige see eeldatava osalejat
 
 
     - Jagage kuupäeva, kellaaega ja asukohta oma sotsiaalvõrgustikes ja muudes suhtluskanalites. Vajaduse korral lisage registreerimislink.
-    - Looge spetsiaalne visuaal (näiteks Canva plakat, vt osa 2/8 "[Bitcoin kogukonna identiteedi kujundamine](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/b48a18cc-afdf-5216-802c-32647b5cd8a3)").
+    - Looge spetsiaalne visuaal (näiteks Canva plakat, vt osa 2/8 "[Bitcoin kogukonna identiteedi kujundamine](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/b48a18cc-afdf-5216-802c-32647b5cd8a3)").
     - Maksimeerige nähtavust, pannes teate Telegrami ja Twitteri ning kasutades "@everyone" mainimist Discordis.
     - Postitage kuulutused 7-10 päeva enne ürituse toimumist, et osalejad saaksid ette planeerida.
 
@@ -1721,7 +1721,7 @@ Rooma ei ole ehitatud ühe päevaga ja teie kogukond samuti mitte. Hoogu Bitcoin
 Selleks on üks asi väga oluline: **hoidke osalejad kaasatuna**.
 
 
-See võib alata väikese rühma kirglikest bitcoin'idest, kelle eesmärk on regulaarselt kokku saada ja rääkida Bitcoin-st. Aja jooksul, sõltuvalt iga inimese kättesaadavusest ja huvidest, võite **jagada grupiga teatud korralduslikke ülesandeid** või kutsuda põhilisi **liikmeid võtma konkreetseid projekte**. Need võivad olla ainulaadsed teie kogukonnale, teie kohtumistele või teie linnale või isegi inspireeritud paljudest algatustest, mis on välja pakutud [käesoleva kursuse 6/8. osas](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279). **See mitte ainult ei soodusta Commitment teie tuumikliikmetelt, vaid aitab ka teie kogukonnal kasvada ja areneda**.
+See võib alata väikese rühma kirglikest bitcoin'idest, kelle eesmärk on regulaarselt kokku saada ja rääkida Bitcoin-st. Aja jooksul, sõltuvalt iga inimese kättesaadavusest ja huvidest, võite **jagada grupiga teatud korralduslikke ülesandeid** või kutsuda põhilisi **liikmeid võtma konkreetseid projekte**. Need võivad olla ainulaadsed teie kogukonnale, teie kohtumistele või teie linnale või isegi inspireeritud paljudest algatustest, mis on välja pakutud [käesoleva kursuse 6/8. osas](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279). **See mitte ainult ei soodusta Commitment teie tuumikliikmetelt, vaid aitab ka teie kogukonnal kasvada ja areneda**.
 
 
 Koosolekute edenedes ilmuvad uued näod: inimesed, kes ostsid BTC ja/või altcoine eelmistes tsüklites, tehnoloogiahuvilised, kes soovivad süvendada oma arusaamist, või täiesti algajad, kes on uudishimulikud selle tsenseerimata, detsentraliseeritud, läbipaistva ja õiglase maksesüsteemi suhtes, mis töötab ilma tingimuste ja usaldusväärsete kolmandate osapoolteta.
@@ -1820,7 +1820,7 @@ Lisaks tugevale hariduslikule väärtusele võimaldab selline lähenemisviis jag
 Allpool on esitatud 2023-2024. aasta prantsuse kohtumiste kulg. Iga teema kohta on saadaval avatud esitlus ja video, mis võivad anda teile ideid teemade kohta, mida võiksite oma ürituste puhul käsitleda.
 
 
-Täiendavad redigeeritavad materjalid leiate ka [Bitcoin Teaching Toolbox](https://planb.network/fr/resources/bet)!
+Täiendavad redigeeritavad materjalid leiate ka [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)!
 
 
 
@@ -2003,7 +2003,7 @@ Need flaierid võivad olla suunatud:
 Samuti võiksite kujundada oma kogukonnale või kokkusaamisele omase infolehe, milles esitlete oma tegevusi, eesmärke, sotsiaalmeedia linke, suhtluskanaleid ja eelseisvaid üritusi.
 
 
-Mitmed flaierid on juba **saadavaks avatud lähtekoodiga [Bitcoin Teaching Toolbox](https://planb.network/fr/resources/bet)** planB.network'is ja aja jooksul lisandub veel rohkem.
+Mitmed flaierid on juba **saadavaks avatud lähtekoodiga [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)** planB.network'is ja aja jooksul lisandub veel rohkem.
 
 
 Üks näide on [täielik infoleht] (https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin), milles on 21 põhjust Bitcoin kasutamiseks. Selle kujundus on samuti [avatud lähtekoodiga](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton), mida saate muuta, kohandada ja jagada. Lihtsalt ärge unustage, et viitaksite oma allikatele.
@@ -2222,7 +2222,7 @@ Populaarsed platvormid on järgmised:
 - [**peertube**](https://joinpeertube.org/fr_FR), võimaldab teil oma videoplatvormi hallata, kuigi selle seadistamine on keerulisem.
 
 
-Olenemata sellest, millise platvormi te valite, kujundage oma kanali atraktiivseks muutmiseks platvormipõhine visuaalne kujundus. Canva, mida mainiti [osa 2/8] (https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef), pakub kategooriat "YouTube'i pisipilt", kus on eelnevalt valmistatud ja kohandatavad kujundused.
+Olenemata sellest, millise platvormi te valite, kujundage oma kanali atraktiivseks muutmiseks platvormipõhine visuaalne kujundus. Canva, mida mainiti [osa 2/8] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef), pakub kategooriat "YouTube'i pisipilt", kus on eelnevalt valmistatud ja kohandatavad kujundused.
 
 
 
@@ -2857,7 +2857,7 @@ Et aidata oma kogukonnal veelgi kasvada, **selline jätkukursus COMMU302**<img w
 
 <img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430" />
 
-võidakse avaldada [planb.network](https://planb.network/) lähikuudel.
+võidakse avaldada [planb.network](https://planb.academy/) lähikuudel.
 
 
 Järgmisel istungil võiks uurida selliseid edasijõudnute teemasid nagu:

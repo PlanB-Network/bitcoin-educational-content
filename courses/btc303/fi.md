@@ -75,7 +75,7 @@ Bitcoin:n monimutkaisessa hallintomaailmassa liikkuminen vaatii muutakin kuin te
 Oletko valmis ottamaan seuraavan askeleen Bitcoin-matkallasi? Aloitetaan!
 
 
-***N.B.**: Jos törmäät kurssin aikana Bitcoin:een liittyviin tuntemattomiin termeihin, katso määritelmiä [sanastosta](https://planb.network/resources/glossary).*
+***N.B.**: Jos törmäät kurssin aikana Bitcoin:een liittyviin tuntemattomiin termeihin, katso määritelmiä [sanastosta](https://planb.academy/resources/glossary).*
 
 
 
@@ -154,7 +154,7 @@ Jos he onnistuvat, samat ongelmat tulevat todennäköisesti esiin uudelleen joss
 Mikään näistä vaihtoehdoista ei hyödytä käyttäjää.
 
 
-Sensuurin vastustaminen hajauttamisen avulla erottaa Bitcoin:n muista rahajärjestelmistä, mutta se ei ole helppoa toteuttaa *Double-spending-ongelman* vuoksi. Tämä on ongelma, joka liittyy sen varmistamiseen, ettei kukaan voi käyttää samaa kolikkoa kahteen kertaan, ongelma, jota monet pitivät mahdottomana ratkaista hajautetusti. Satoshi Nakamoto kirjoittaa [Bitcoin whitepaperissaan](https://planb.network/bitcoin.pdf) siitä, miten Double-spending-ongelma ratkaistaan:
+Sensuurin vastustaminen hajauttamisen avulla erottaa Bitcoin:n muista rahajärjestelmistä, mutta se ei ole helppoa toteuttaa *Double-spending-ongelman* vuoksi. Tämä on ongelma, joka liittyy sen varmistamiseen, ettei kukaan voi käyttää samaa kolikkoa kahteen kertaan, ongelma, jota monet pitivät mahdottomana ratkaista hajautetusti. Satoshi Nakamoto kirjoittaa [Bitcoin whitepaperissaan](https://planb.academy/bitcoin.pdf) siitä, miten Double-spending-ongelma ratkaistaan:
 
 
 > Tässä asiakirjassa ehdotamme ratkaisua Double-spending-ongelmaan käyttämällä Timestamp-palvelinta, joka on hajautettu vertaisverkkopalvelin generate-laskentatodisteena tapahtumien kronologisesta järjestyksestä.
@@ -652,7 +652,7 @@ Henkilötietojesi paljastumisen riskejä voi vähentää antamalla niitä alun p
 Artikkelissa ehdotetaan, että vältät KYC/AML-vaatimuksia sisältäviä pörssejä ja käytät sen sijaan yksityisiä tai hajautettuja pörssejä, kuten [bisq](https://bisq.network/).
 
 
-https://planb.network/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+https://planb.academy/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 Jos haluat lukea syvällisemmin vastatoimista, katso aiemmin mainittu [wikiartikkeli yksityisyydestä](https://en.Bitcoin.it/wiki/Privacy#Methods_for_improving_privacy_.28non-Blockchain.29), alkaen kohdasta "Methods for improving privacy (non-Blockchain)".
 

@@ -185,7 +185,7 @@ Voordat je deze e-mail gebruikt voor een aanmeldservice, kun je de functionalite
 
 
 
-https://planb.network/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
+https://planb.academy/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
 
 Om een alias te verwijderen die je als test hebt aangemaakt, hoef je alleen maar in te loggen op je `Home`, dan `Credentials` en te klikken op de identiteit die je wilt verwijderen. De _Delete_ opdracht verschijnt in de rechterbovenhoek zodat je verder kunt gaan.
 

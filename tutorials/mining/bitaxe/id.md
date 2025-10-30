@@ -46,7 +46,7 @@ Oleh karena itu, masukkan SSID Wi-Fi Anda, yaitu nama jaringan Anda, kata sandi,
 
 Seperti yang Anda lihat pada layar, Anda perlu menghapus bagian `stratum+tcp://` dan `:3333`, meninggalkan hanya `eu.stratum.braiins.com`. Kemudian, di kolom `Port`, masukkan 4 digit di akhir URL yang diberikan oleh pool, tetapi tanpa `:`. Di sini, oleh karena itu `3333`.
 
-Dalam tutorial ini, kami menggunakan mining pool Braiins, tetapi Anda bebas memilih yang lain. Anda dapat menemukan tutorial kami tentang mining pool [di situs web PlanB Network](https://planb.network/en/tutorials/mining).
+Dalam tutorial ini, kami menggunakan mining pool Braiins, tetapi Anda bebas memilih yang lain. Anda dapat menemukan tutorial kami tentang mining pool [di situs web Plan ₿ Academy](https://planb.academy/en/tutorials/mining).
 
 Selanjutnya, di `User`, masukkan identifikasi Anda kemudian `Password`, biasanya, itu adalah `"x"` atau `"Anything123"`.
 

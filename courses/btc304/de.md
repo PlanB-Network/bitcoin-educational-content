@@ -138,7 +138,7 @@ Bitcoin-Treffen können vielen Zwecken dienen:
 - Preview-Vorführungen von Dokumentarfilmen
 - Veranstaltung von Konferenzen oder Workshops zu bestimmten Themen
 
-Wir werden viele dieser Möglichkeiten in Teil 6/8 dieses Kurses mit dem Titel "[Beispiele für Projekte und Initiativen](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279)" im Detail behandeln.
+Wir werden viele dieser Möglichkeiten in Teil 6/8 dieses Kurses mit dem Titel "[Beispiele für Projekte und Initiativen](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279)" im Detail behandeln.
 
 Während es jeder Gemeinschaft freisteht, sich ihre eigenen Meinungen zu bilden, Projekte zu starten und auf ihre eigene Weise zu experimentieren, erweisen sich Treffen zunehmend als **wesentlich für die Entwicklung von Bitcoin und das Wachstum von Bitcoinern. Sie zu organisieren erfordert Zeit und Mühe**, weshalb dieser Kurs die kombinierte Erfahrung von [etwa sechzig Bitcoin-Gemeinschaften in Frankreich und Belgien](https://btcmap.org/communities/map#2/5.24949/0.20000) weitergibt, **um dir zu helfen, deine eigene Gemeinschaft und Treffen so reibungslos wie möglich aufzubauen und wachsen zu lassen**.
 
@@ -196,7 +196,7 @@ Aus diesem Grund ist es wichtig, **konkrete Ziele und Projekte festzulegen**.
 2 - Soll ich meiner Gemeinschaft eine **physische Dimension** geben? Wenn ja, welche Art von Veranstaltungen solltest du organisieren?
 
 Deine erste Veranstaltung wird wahrscheinlich ein Treffen sein. Sein Hauptzweck: Bitcoiner in deiner Gegend zusammenzubringen.
-Wie wir jedoch später in [Beispiele für Projekte und Initiativen](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279) sehen werden, kann **ein Treffen auf viele Arten und mit vielen Zielen aufgebaut werden:**
+Wie wir jedoch später in [Beispiele für Projekte und Initiativen](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279) sehen werden, kann **ein Treffen auf viele Arten und mit vielen Zielen aufgebaut werden:**
 
 - Kombinieren von Networking mit einer pädagogischen Präsentation über ein Bitcoin-Konzept;
 - Veranstaltung eine professionellen Demonstration von Bitcoin-Lösungen;
@@ -455,7 +455,7 @@ Für die folgenden Anleitungen haben wir ursprünglich die APK "Telegram+" verwe
 
 Wenn du einen Ort schaffen willst, an dem deine Mitglieder direkt miteinander sprechen, sich gegenseitig antworten können, usw., dann solltest du eine Telegram-Gruppe und keinen Telegram-Kanal erstellen!
 
-Gehe direkt zum nächsten Abschnitt mit dem Titel [Eine Telegram-Gruppe erstellen](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/d13714ce-8f08-53e9-bedd-b6a3aaac5dad).
+Gehe direkt zum nächsten Abschnitt mit dem Titel [Eine Telegram-Gruppe erstellen](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/d13714ce-8f08-53e9-bedd-b6a3aaac5dad).
 
 In der Tat ist **ein Telegram-Kanal eher ein einseitiges Sendetool für Administratoren**. Die Mitglieder können nicht frei chatten, sie können nur mit Emojis reagieren (oder Kommentare in separaten Threads hinterlassen, was die Gespräche fragmentiert).
 
@@ -672,7 +672,7 @@ Twitter ist sehr einfach zu bedienen, und um deine Privatsphäre zu verbessern, 
 
 1) **das @ Twitter**, das deine Identität definiert und dich leicht zu finden macht. Wenn der Name deiner Gemeinschaft "Bitcoin [STADT]" lautet, ist es angemessen, "@Bitcoin[STADT]" zu wählen;
 
-2) **das Logo und das Banner**, die du für deine Gemeinschaft oder dein Treffen erstellst hast (siehe Abschnitt [Erstellen eines Logos, Posters und Banners](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef));
+2) **das Logo und das Banner**, die du für deine Gemeinschaft oder dein Treffen erstellst hast (siehe Abschnitt [Erstellen eines Logos, Posters und Banners](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef));
 
 3) **die Beschreibung**, mit der du in wenigen hundert Zeichen die wichtigsten Informationen über deine Gemeinschaft mitteilen kannst. Zum Beispiel:
 
@@ -866,7 +866,7 @@ Im zweiten Fall könnte eine zweite monatliche Veranstaltung einem bestimmten Th
 
 ![image](assets/de/031.webp)
 
-Denke daran, dass **das mehr Organisation und mehr Zeit erfordert**. Zum Glück findest du in [Teil 6/8 dieses Kurses](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279) eine Reihe von wiederverwendbaren Open-Source-Ressourcen, die dir dabei helfen.
+Denke daran, dass **das mehr Organisation und mehr Zeit erfordert**. Zum Glück findest du in [Teil 6/8 dieses Kurses](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279) eine Reihe von wiederverwendbaren Open-Source-Ressourcen, die dir dabei helfen.
 
 In jedem Fall hängt alles von dem kurz-, mittel- und langfristigen Aktionsplan ab, den du bzw. deine Gemeinschaft für sich selbst aufgestellt haben.
 
@@ -914,7 +914,7 @@ Hier ist eine Checkliste, die dir bei der Vorbereitung hilft:
 2) **Ankündigung der Veranstaltung**:
    
     - Gebe das Datum, die Uhrzeit und den Ort in deinen sozialen Netzwerken und anderen Kommunikationskanälen bekannt. Füge bei Bedarf einen Link zur Anmeldung hinzu;
-    - Erstelle ein spezielles Bildmaterial (z. B. ein Canva-Poster, siehe Teil 2/8 "[Gestaltung einer Identität für Ihre Bitcoin-Gemeinschaft](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/b48a18cc-afdf-5216-802c-32647b5cd8a3)");
+    - Erstelle ein spezielles Bildmaterial (z. B. ein Canva-Poster, siehe Teil 2/8 "[Gestaltung einer Identität für Ihre Bitcoin-Gemeinschaft](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/b48a18cc-afdf-5216-802c-32647b5cd8a3)");
     - Maximiere die Sichtbarkeit, indem du die Ankündigung auf Telegram und Twitter pinnst und eine "@jeder"-Erwähnung auf Discord verwenden;
     - Veröffentliche die Ankündigungen 7 bis 10 Tage vor der Veranstaltung, damit die Teilnehmer im Voraus planen können;
 
@@ -977,7 +977,7 @@ Du hast dann ein paar Wochen Zeit, neue Ideen, Bilder oder Projekte zu entwickel
 Rom wurde nicht an einem Tag erbaut, und deine Gemeinschaft wird es auch nicht. Die Dynamik von Bitcoin entsteht durch regelmäßige Treffen und Veranstaltungen.
 Um dies zu erreichen, ist eines von entscheidender Bedeutung: **die Teilnehmer bei der Stange halten**.
 
-Es könnte mit einer kleinen Gruppe von leidenschaftlichen Bitcoinern beginnen, deren Ziel es ist, sich regelmäßig zu treffen und über Bitcoin zu sprechen. Im Laufe der Zeit kannst, je nach Verfügbarkeit und Interessen jedes Einzelnen, **bestimmte organisatorische Aufgaben mit der Gruppe teilen** oder Kernmitglieder einladen, **bestimmte Projekte zu übernehmen**. Diese können speziell auf deine Gemeinschaft, deine Treffen oder deine Stadt zugeschnitten sein oder sogar von den vielen Initiativen inspiriert werden, die in [Teil 6/8 dieses Kurses](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279) vorgeschlagen werden. **Dies fördert nicht nur das Commitment von deinen Kernmitgliedern, sondern hilft auch deiner Gemeinschaft zu wachsen und zu gedeihen**.
+Es könnte mit einer kleinen Gruppe von leidenschaftlichen Bitcoinern beginnen, deren Ziel es ist, sich regelmäßig zu treffen und über Bitcoin zu sprechen. Im Laufe der Zeit kannst, je nach Verfügbarkeit und Interessen jedes Einzelnen, **bestimmte organisatorische Aufgaben mit der Gruppe teilen** oder Kernmitglieder einladen, **bestimmte Projekte zu übernehmen**. Diese können speziell auf deine Gemeinschaft, deine Treffen oder deine Stadt zugeschnitten sein oder sogar von den vielen Initiativen inspiriert werden, die in [Teil 6/8 dieses Kurses](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279) vorgeschlagen werden. **Dies fördert nicht nur das Commitment von deinen Kernmitgliedern, sondern hilft auch deiner Gemeinschaft zu wachsen und zu gedeihen**.
 
 Im Laufe der Treffen werden neue Gesichter auftauchen: Leute, die in früheren Zyklen BTC und/oder Altcoins gekauft haben, Technik-Enthusiasten, die ihr Wissen vertiefen wollen, oder völlige Neulinge, die neugierig auf dieses unzensierbare, dezentrale, transparente und faire Zahlungssystem sind, das ohne Bedingungen und ohne vertrauenswürdige Dritte funktioniert.
 
@@ -1041,7 +1041,7 @@ Abgesehen von seinem hohen pädagogischen Wert ermöglicht dieser Ansatz die gem
 
 Nachstehend findest du den Ablauf der französischen Treffen 2023-2024. Zu jedem Thema sind eine Open-Source-Präsentation und ein Video verfügbar, die dir Ideen für Themen geben können, die du bei deinen eigenen Veranstaltungen behandeln könntest.
 
-Zusätzliche editierbare Materialien findest du auch in der [Bitcoin Teaching Toolbox](https://planb.network/fr/resources/bet)!
+Zusätzliche editierbare Materialien findest du auch in der [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)!
 
 | Month | Theme | Video | Bearbeitbare Datei |
 | -------- | -------- | -------- | --- |
@@ -1159,7 +1159,7 @@ Diese Flugblätter können gezielt eingesetzt werden:
 
 Du könntest auch einen Flyer speziell für deine Gemeinschaft oder dein Treff entwerfen, in dem du deine Aktivitäten, Ziele, Links zu sozialen Medien, Kommunikationskanäle und bevorstehende Veranstaltungen vorstellst.
 
-Mehrere Flugblätter sind bereits **als Open-Source in der [Bitcoin Teaching Toolbox](https://planb.network/fr/resources/bet)** auf planB.network verfügbar und weitere werden im Laufe der Zeit hinzugefügt.
+Mehrere Flugblätter sind bereits **als Open-Source in der [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)** auf planB.network verfügbar und weitere werden im Laufe der Zeit hinzugefügt.
 
 Ein Beispiel ist ein [vollständiges Flugblatt](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin) mit 21 Gründen für die Verwendung von Bitcoin. Das Design ist auch [als Open-Source-Datei](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) verfügbar, damit du es ändern, anpassen und weitergeben kannst. Denke einfach daran, deine Quellen anzugeben.
 
@@ -1292,7 +1292,7 @@ Beliebte Plattformen sind:
 - [**Odyssee**](https://odysee.com/), weniger populär, aber dezentralisiert durch Peer-to-Peer-Technologie.
 - [**peertube**](https://joinpeertube.org/de), ermöglicht es dir, deine eigene Videoplattform zu hosten, auch wenn die Einrichtung etwas komplizierter ist.
 
-Egal wofür du dich entscheidest, entwerfe plattformspezifisches Bildmaterial, um deinen Kanal ansprechend zu gestalten. Canva, erwähnt in [Teil 2/8](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef), bietet eine Kategorie "YouTube Thumbnail" mit vorgefertigten, anpassbaren Designs.
+Egal wofür du dich entscheidest, entwerfe plattformspezifisches Bildmaterial, um deinen Kanal ansprechend zu gestalten. Canva, erwähnt in [Teil 2/8](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef), bietet eine Kategorie "YouTube Thumbnail" mit vorgefertigten, anpassbaren Designs.
 
 ![image](assets/de/051.webp)
 
@@ -1701,7 +1701,7 @@ Die Vorteile sind zweifach:
 - **Offizielle Anerkennung**: Du kannst ein Verbandskonto eröffnen, Presse- und Medienaufmerksamkeit erhalten und sogar Zuschüsse beantragen.
 - **Strukturierte Organisation**: Du kannst klare Rollen definieren, was die Verwaltung deiner Gemeinschaft und die Durchführung von Projekten erleichtert.
 
-Damit deine Gemeinschaft weiter wachsen kann, wird vielleicht in den kommenden Monaten **ein Folgekurs zum Kurs COMMU302** auf [planb.network](https://planb.network/) veröffentlicht werden.
+Damit deine Gemeinschaft weiter wachsen kann, wird vielleicht in den kommenden Monaten **ein Folgekurs zum Kurs COMMU302** auf [planb.network](https://planb.academy/) veröffentlicht werden.
 
 Dieser nächste Kurs könnte sich mit fortgeschrittenen Themen befassen, wie z. B.:
 

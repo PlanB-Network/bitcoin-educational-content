@@ -71,7 +71,7 @@ Scan kode ya QR ukoresheje porogaramu yawe yo kwemeza, winjize kode y'imirongo 6
 Niba utamenyereye gukoresha porogaramu zo kwemeza 2FA, ndagusavye urabe iyi nyigisho ku porogaramu ya Authy:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Injira ijambobanga ryawe kugira ngo wemeze.
 
@@ -184,9 +184,9 @@ Niwinjize amahera wipfuza kugura. Uzokenera kandi guhitamwo ingene ushaka gukura
 Niba utamenyereye gukoresha ama wallet Bitcoin, Lightning canke Liquid, ndagusavye gufata inyigisho yacu yihariye:
 
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
-Ushobora kandi gutohoza [inyigisho zacu zitomoye ku bikoresho vyiza kuruta ibindi vyose vya Bitcoin](https://planb.network/inyigisho/wallet).
+Ushobora kandi gutohoza [inyigisho zacu zitomoye ku bikoresho vyiza kuruta ibindi vyose vya Bitcoin](https://planb.academy/inyigisho/wallet).
 
 
 Hanyuma wemeze ivyo uguze ukanda kuri "*Wemeze uguze*".
@@ -295,4 +295,4 @@ Ubu urazi kugura no kugurisha Bitcoin mu buryo bworoshe ukoresheje Bull Bitcoin.
 Ndagusavye kandi kuraba iyi yindi nyigisho yuzuye kugira ngo umenye ingene wokoresha neza ijambo ryawe rya Mnemonic:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270

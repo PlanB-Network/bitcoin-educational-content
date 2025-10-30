@@ -51,9 +51,9 @@ Elija una contraseña segura para acceder a su cuenta y haga clic en "*Continuar
 
 ![Image](assets/fr/06.webp)
 
-Para una gestión segura de las contraseñas en el día a día, el uso de un gestor de contraseñas es muy recomendable. En Plan ₿ Network, encontrarás varios tutoriales sobre las mejores soluciones existentes, como Bitwarden :
+Para una gestión segura de las contraseñas en el día a día, el uso de un gestor de contraseñas es muy recomendable. En Plan ₿ Academy, encontrarás varios tutoriales sobre las mejores soluciones existentes, como Bitwarden :
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 A continuación, se le pedirá que verifique su identidad (KYC). De acuerdo con la normativa francesa, se le pedirán sus datos personales y una prueba de identidad. Rellene las casillas con sus apellidos, nombre y fecha de nacimiento.
 
@@ -184,7 +184,7 @@ Determine la prioridad de la transacción. Para una retirada sin comisiones, eli
 
 ![Image](assets/fr/32.webp)
 
-Si no está familiarizado con el funcionamiento de una cartera de autocustodia, le ofrecemos tutoriales sobre la mayoría de las soluciones disponibles [en Plan ₿ Network en la sección "*Wallet*"](https://planb.network/tutorials/wallet).
+Si no está familiarizado con el funcionamiento de una cartera de autocustodia, le ofrecemos tutoriales sobre la mayoría de las soluciones disponibles [en Plan ₿ Academy en la sección "*Wallet*"](https://planb.academy/tutorials/wallet).
 
 ## Vender bitcoin
 

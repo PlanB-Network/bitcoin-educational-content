@@ -16,7 +16,7 @@ _Tento návod je poskytován pouze pro vzdělávací a informační účely. Nep
 
 V předchozím návodu jsme již vysvětlili postup instalace a používání RoninDojo v1. Během posledního roku však týmy RoninDojo spustily verzi 2 své implementace, což představovalo významný obrat v architektuře softwaru. Skutečně se odvrátili od distribuce Linux Manjaro ve prospěch Debianu. V důsledku toho již nenabízejí předkonfigurovaný obraz pro automatickou instalaci na Raspberry Pi. Existuje však stále metoda, jak pokračovat v ruční instalaci. Toho jsem využil pro svůj vlastní uzel a od té doby RoninDojo v2 na mém Raspberry Pi 4 funguje báječně. Proto nabízím nový návod, jak ručně nainstalovat RoninDojo v2 na Raspberry Pi.
 
-https://planb.network/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-95ec5dde72b0
+https://planb.academy/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-95ec5dde72b0
 
 
 
@@ -209,7 +209,7 @@ Po přechodu na domovskou stránku RoninUI budete vyzváni k zahájení nastaven
 
 ![lets start](assets/notext/25.webp)
 
-V této fázi vám RoninUI představí vaše heslo `root`. Je zásadní jej bezpečně uložit. Můžete si vybrat fyzickou zálohu, na papíře, nebo uložení v [správci hesel](https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f).
+V této fázi vám RoninUI představí vaše heslo `root`. Je zásadní jej bezpečně uložit. Můžete si vybrat fyzickou zálohu, na papíře, nebo uložení v [správci hesel](https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f).
 
 ![root password](assets/notext/26.webp)
 
@@ -328,7 +328,7 @@ Po provedení coinjoinů s Whirlpool je užitečné přesně zhodnotit dosaženo
 
 Pro prohloubení vašeho porozumění výpočetním mechanismům těchto anonymních setů doporučuji přečíst článek: REMIX - WHIRLPOOL, který detailně popisuje fungování těchto indexů.
 
-https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 
 

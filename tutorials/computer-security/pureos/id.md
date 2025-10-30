@@ -7,7 +7,7 @@ description: Distribusi Linux yang memberi Anda kendali atas kehidupan digital A
 
 Melindungi informasi pribadi di era digital adalah prioritas utama bagi setiap pengguna internet. Perusahaan, organisasi, dan bahkan sistem operasi adalah sumber informasi yang berguna untuk mendefinisikan profil dan gaya hidup Anda. Memilih sistem operasi yang tepat adalah langkah pertama dalam memperkuat privasi online Anda. Dalam tutorial ini, kita akan melihat PureOS, sebuah distribusi Linux yang berfokus pada privasi.
 
-https://planb.network/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
+https://planb.academy/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
 
 ## Memulai dengan PureOS
 
@@ -173,4 +173,4 @@ Dengan akses bawaan ke aplikasi-aplikasi penting, manajer paket yang tangguh, da
 
 Temukan kursus kami untuk memperkuat keamanan dan melindungi privasi digital Anda.
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

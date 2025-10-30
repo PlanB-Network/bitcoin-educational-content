@@ -183,7 +183,7 @@ De ontdekking van asymmetrische cryptografie motiveerde ook de creatie van eenri
 
 De fundamentele cryptografische Elements van Bitcoin komt voort uit dit onderzoek. Het ECDSA-handtekeningschema, dat de autorisatie van uitgaven voor een traditionele transactie mogelijk maakt, werd in 1992 gemaakt voor NIST. De SHA-256 Hash functie, die op meerdere plaatsen in het protocol wordt gebruikt, werd in 2001 gepubliceerd als onderdeel van de SHA-2 algoritmesuite die door de NSA openbaar werd gemaakt. Voor meer informatie over dit onderwerp, zie de cursus CYP201 gepresenteerd door Loïc Morel.
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 ### Blinde handtekeningen en elektronisch geld

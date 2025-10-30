@@ -46,7 +46,7 @@ Derfor, angi SSID-en til Wi-Fi, det vil si navnet på nettverket ditt, passordet
 
 Som du kan se på skjermen, må du fjerne `stratum+tcp://` og `:3333` delene, og bare la `eu.stratum.braiins.com` stå igjen. Deretter, i `Port` feltet, skriv inn de 4 sifrene på slutten av URL-en gitt av poolen, men uten `:`. Her er det altså `3333`.
 
-I denne opplæringen bruker vi Braiins miningpool, men du står fritt til å velge en annen. Du kan finne våre opplæringer om miningpooler [på PlanB Network-nettstedet](https://planb.network/en/tutorials/mining).
+I denne opplæringen bruker vi Braiins miningpool, men du står fritt til å velge en annen. Du kan finne våre opplæringer om miningpooler [på Plan ₿ Academy-nettstedet](https://planb.academy/en/tutorials/mining).
 
 Videre, i `User`, skriv inn din identifikator og deretter `Password`, vanligvis er det `"x"` eller `"Anything123"`.
 

@@ -42,7 +42,7 @@ Baada ya programu kusakinishwa, StashPay itakuundia Bitcoin Wallet mara ya kwanz
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Fikia mipangilio ya StashPay kwa kubofya aikoni ya "Mipangilio", kisha ubofye chaguo la **Unda chelezo**. Kisha uidhinishe onyesho la vifungu vya urejeshaji. Usinakili misemo yako ya urejeshi kwenye ubao kunakili ya simu yako, kwa kuwa inaweza kufikiwa na programu zingine za ulaghai zilizosakinishwa kwenye simu yako.
 
@@ -88,7 +88,7 @@ Utakuwa umegundua kuwa ili kupokea satoshi utalazimika kulipa ada ya mtandao. Ad
 
 
 
-https://planb.network/tutorials/wallet/mobile/misty-breez-738ced2a-0764-4d7f-a150-ec0ce84a9d25
+https://planb.academy/tutorials/wallet/mobile/misty-breez-738ced2a-0764-4d7f-a150-ec0ce84a9d25
 
 ### Tuma bitcoins ukitumia StashPay
 
@@ -106,7 +106,7 @@ Kwa vile StashPay ni Wallet kulingana na Breez Development Kit, inafaidika kutok
 
 
 
-https://planb.network/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
+https://planb.academy/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
 
 Walakini, Breez SDK inaweka kiwango cha chini ambacho unaweza kutuma bitcoins kwa Address kwenye mnyororo mkuu.
 
@@ -168,4 +168,4 @@ Unatakiwa kufahamu mfumo mdogo wa StashPay wa Bitcoin Wallet. Ikiwa umepata mafu
 
 
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f

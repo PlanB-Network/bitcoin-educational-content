@@ -179,7 +179,7 @@ Kozi ya SCU101 ilikuwa kozi ya utangulizi iliyoundwa ili kuanzisha msingi thabit
 
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 ### Salama kuvinjari mtandaoni
 
@@ -974,7 +974,7 @@ Mbinu hii inatokana na muundo wa *utoleo unaoendelea*, ambapo vifurushi husasish
 
 Arch Linux inalenga zaidi ya yote kwa watumiaji wa juu ambao wanataka udhibiti kamili juu ya mazingira yao, huku wakikubali utata fulani katika usakinishaji na matengenezo. Mahitaji haya ya kiufundi yamesababisha kuibuka kwa usambazaji kadhaa wa derivative unaolenga kuleta demokrasia ya matumizi yake.
 
-https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+https://planb.academy/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 Inayojulikana zaidi ni Manjaro, ambayo huhifadhi msingi wa kiufundi wa Arch huku ikitoa usakinishaji uliorahisishwa, mazingira ya eneo-kazi yaliyopangwa awali na mzunguko wa uchapishaji uliocheleweshwa kidogo ili kuleta utulivu wa masasisho.
 
@@ -1062,7 +1062,7 @@ Iliyoundwa na Canonical na kuzinduliwa mnamo 2004, Ubuntu ni moja ya usambazaji 
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
 
@@ -1074,7 +1074,7 @@ Ilizinduliwa mnamo 2006, Linux Mint ni usambazaji unaotokana na Ubuntu, iliyound
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.academy/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
 Mint inasimama kwa unyenyekevu wake, uwepo kwa chaguo-msingi wa kodeki za media titika na zana iliyoundwa vizuri ya kusasisha. Kwa upande mwingine, inategemea sana miundombinu ya Ubuntu, na kuifanya kutegemea chaguzi za kiufundi za Ubuntu (haswa katika kiwango cha kernel na hazina). Mint inafaa haswa kwa watumiaji wasio wa kiufundi, au wale wanaotaka mfumo ulio tayari kutumia ambao hauhitaji kujifunza sana.
 
@@ -1108,7 +1108,7 @@ Ufungaji ni laini, programu muhimu imesakinishwa awali, na toleo la "Lite" hukuw
 
 Ilizinduliwa mnamo 2011, OS ya msingi ni usambazaji unaotegemea Ubuntu ambao huzingatia zaidi muundo na uthabiti wa Interface. Mazingira yake ya eneo-kazi la Pantheon, yaliyochochewa na macOS, ni ya chini kabisa, ya kifahari na ya maji. Hata hivyo, mfumo unasalia kubinafsishwa kidogo kuliko ugawaji mwingine, na baadhi ya watumiaji wa hali ya juu wanaweza kuhisi wamewekewa mipaka na chaguo za Interface na muundo wake uliofungwa kimakusudi. Inafaa kwa watumiaji nyeti kwa uzuri wanaotafuta mfumo rahisi, unaoshikamana kwa matumizi ya kila siku.
 
-https://planb.network/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
+https://planb.academy/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
 
 
 
@@ -1151,7 +1151,7 @@ Fedora ni usambazaji unaoungwa mkono na Kofia Nyekundu, unaoelekezwa kwenye tekn
 ![Image](assets/fr/025.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
+https://planb.academy/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
 
 
 - **openSUSE** (Tumbleweed au Leap):
@@ -1179,7 +1179,7 @@ Debian inapatikana katika matawi kadhaa, ikijumuisha *Imara* (programu inayotege
 ![Image](assets/fr/027.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
+https://planb.academy/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
 
 
 - **Manjaro**:
@@ -1208,7 +1208,7 @@ Arch Linux ni usambazaji mdogo, unaoendelea kusasishwa, unaotolewa bila Interfac
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+https://planb.academy/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 #### Usambazaji maalum
 
@@ -1246,7 +1246,7 @@ Mikia ni usambazaji wa moja kwa moja unaozingatia Debian, unaozingatia faragha. 
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
+https://planb.academy/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
 → **Kumbuka:** Usambazaji wa moja kwa moja ni mfumo wa uendeshaji wa Linux ambao unaweza kutumika moja kwa moja kutoka kwa vijiti vya USB au CD, bila kusakinishwa kwenye diski ya Hard.
 
@@ -1300,7 +1300,7 @@ PureOS ni usambazaji unaotokana na Debian uliotengenezwa na Purism, bila malipo 
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
+https://planb.academy/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
 
 - **Raspberry Pi OS**:
 
@@ -1326,7 +1326,7 @@ Whonix inachanganya Debian na mtandao wa Tor katika usanifu wa VM mbili (lango +
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+https://planb.academy/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
 
 Panorama hii inakupa muhtasari wa mfumo wa sasa wa usambazaji wa Linux, kukuwezesha kuchagua usambazaji unaofaa zaidi kwa wasifu na malengo yako ya kiufundi.
 
@@ -1938,7 +1938,7 @@ Kwa habari zaidi juu ya kisakinishi cha Ubuntu, unaweza pia kushauriana na mafun
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 Baada ya usakinishaji kukamilika, ondoa kitufe cha USB unapoombwa, kisha uwashe upya. Ubuntu sasa itasakinishwa na tayari kutumika kwenye mashine yako.
 
@@ -2977,7 +2977,7 @@ sudo apt install thunderbird
 
 
 
-https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
+https://planb.academy/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 #### Chumba cha ofisi
 
 
@@ -3114,13 +3114,13 @@ Kando na zana hizi chache za kimsingi, ninapendekeza pia kwamba usakinishe zana 
 
 
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 Hatimaye, kuhitimisha sura hii, hapa kuna mazoea machache bora ya kufuata kila siku:
 
@@ -3212,9 +3212,9 @@ Nenosiri changamano ni lazima kuwa vigumu kukumbuka. Kwa hivyo ninapendekeza kut
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Hatimaye, badilisha nenosiri hili mara kwa mara—kila baada ya miezi 3 hadi 6—hasa ikiwa mashine yako inatumika katika mazingira ya pamoja au ya simu ya mkononi.
 
@@ -3314,13 +3314,13 @@ Hatimaye, mojawapo ya hatua muhimu zaidi unazoweza kuchukua ili kujilinda kutoka
 - Usambazaji wa Linux hausimbi diski kiotomatiki, isipokuwa chaguo hili limechaguliwa wakati wa usakinishaji. Unaweza kutumia LUKS kusimba diski
 
 
-https://planb.network/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
+https://planb.academy/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
 
 Katika hali zote, nenosiri la usimbuaji lazima liwe na nguvu, tofauti na nenosiri la mfumo, na kuhifadhiwa katika kidhibiti salama cha nenosiri. Ikiwa unatumia diski ya nje au ufunguo wa USB ulio na data nyeti, zingatia pia kuzisimba kwa njia fiche kibinafsi kwa zana kama vile VeraCrypt.
 
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 ### Kanuni ya upendeleo mdogo
 
@@ -3417,7 +3417,7 @@ Teknolojia hii inategemea hypervisor, programu ya programu ambayo inasimamia uun
 ![Image](assets/fr/206.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
+https://planb.academy/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
 
 Kwa upande wa usalama wa IT, moja ya faida kubwa za mashine za kawaida ni uwezo wao wa kugawanyika. VM haishiriki faili zake, michakato au ufikiaji wa mtandao na mfumo wa seva pangishi, isipokuwa ukisanidi kwa uwazi ubadilishanaji huu. Kwa hivyo ikiwa VM imeambukizwa na programu hasidi, au ukijaribu programu nyeti ndani yake, athari itasalia kwa mashine hiyo pepe: mfumo wako mkuu utasalia sawa, mradi vigezo vya kutengwa vinaheshimiwa (hakuna saraka zilizoshirikiwa, hakuna vifaa vya USB vilivyopitishwa kwa VM...).
 
@@ -3953,7 +3953,7 @@ Kwenye mashine ya Linux iliyotunzwa vizuri inayotumika kwa madhumuni ya kibinafs
 ![Image](assets/fr/218.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
+https://planb.academy/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
 
 #### Chini ya macOS
 
@@ -4061,11 +4061,11 @@ Mfumo huu unategemea kriptografia isiyolinganishwa na zana kama vile GnuPG (msta
 
 
 
-Ili kupata maelezo zaidi kuhusu kazi za kriptografia za Hash na sahihi za dijitali, ninakualika uchukue kozi ya bila malipo ya CYP 201 inayotolewa kwenye Plan ₿ Network:
+Ili kupata maelezo zaidi kuhusu kazi za kriptografia za Hash na sahihi za dijitali, ninakualika uchukue kozi ya bila malipo ya CYP 201 inayotolewa kwenye Plan ₿ Academy:
 
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### Thibitisha uadilifu na uhalisi wa programu
 
@@ -4469,7 +4469,7 @@ Kwa usanidi huu, Alice tayari inalindwa dhidi ya vitisho vingi vya kawaida. Hata
 
 
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Alice kwa hivyo inaheshimu sheria ya 3-2-1: ina nakala 3 za faili zake (kompyuta, ufunguo wa USB, wingu), zilizohifadhiwa kwenye angalau media 2 tofauti (diski ya ndani, ufunguo wa USB, seva ya mbali), na angalau nakala 1 ya tovuti (seva ya wingu).
 
@@ -4556,7 +4556,7 @@ Usimbaji fiche kamili ni kama kufuli: mradi tu nenosiri halijatolewa, data itaba
 Chini ya Linux, suluhu ya kawaida ni LUKS (*Linux Unified Key Setup*). LUKS ni mfumo wa usimamizi wa kiasi uliosimbwa kwa njia fiche uliojumuishwa katika usambazaji mwingi. Wakati mfumo umewekwa kwa mara ya kwanza, kwa ujumla utahamasishwa kusimba diski nzima ya kompyuta. Bila shaka, ninapendekeza sana kwamba uamsha chaguo hili. Usimbaji fiche ukishawashwa, mfumo utauliza nenosiri kwenye kila buti, hata kabla ya mfumo wa uendeshaji kupakia. Hii inahakikisha kwamba ufikiaji wa kimwili kwa diski hauwezi kuepuka usalama.
 
 
-https://planb.network/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
+https://planb.academy/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
 
 Ikiwa ungependa kusimba diski ya nje au fimbo ya USB kwa njia fiche, hii inaweza pia kufanywa kutoka kwa safu ya amri au kupitia kielelezo cha Interface. Diski itabidi iumbizwa, kwa hivyo data zote zilizopo zitapotea ikiwa hazijachelezwa kwanza.
 
@@ -4832,7 +4832,7 @@ Ili kupata maelezo zaidi kuhusu suluhisho hili, tafadhali soma mafunzo haya kami
 
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 
 
@@ -4877,7 +4877,7 @@ Itifaki hii ni nzuri kwa kubadilishana faili nyeti na wengine kwa usalama, bila 
 
 Njia mbadala bora ni Cryptomator. Programu hii ya chanzo wazi hukuruhusu kuunda salama: saraka maalum ambayo faili zote zilizowekwa zinasimbwa kiatomati. Sefu hii inaweza kusawazishwa na huduma za wingu kama vile Dropbox, Hifadhi ya Google au Nextcloud bila mtoa huduma kuwahi kufikia data ambayo haijasimbwa. Programu inapatikana kwenye mifumo yote ya uendeshaji, ikijumuisha Android na iOS, na haihitaji ujuzi maalum wa kiufundi kutumia.
 
-https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
+https://planb.academy/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 
 
@@ -4885,7 +4885,7 @@ https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253
 
 
 
-https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+https://planb.academy/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
 
 Hatimaye, inawezekana pia kutumia VeraCrypt katika modi ya kontena, ambayo huunda faili ambayo hufanya kazi kama kumbukumbu iliyosimbwa, inayoweza kuwekwa kama diski.
 
@@ -5580,9 +5580,9 @@ Kwa hivyo singependekeza kutumia Google Chrome, kibinafsi au kitaaluma (isipokuw
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 #### Jasiri
 
@@ -5742,7 +5742,7 @@ Firefox inasalia kuwa kigezo cha usalama na faragha, licha ya kuwa nyuma kidogo 
 
 
 
-https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
+https://planb.academy/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Kivinjari cha Tor
 
 
@@ -5751,7 +5751,7 @@ https://planb.network/tutorials/computer-security/communication/firefox-11814cec
 
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 Upande mbaya ni kupungua kwa utendakazi (kuchelewa kwa juu) na utangamano mdogo na tovuti fulani. Tor Browser ni bora kwa shughuli nyeti (uandishi wa habari, uanaharakati...), lakini haifai kwa matumizi ya kawaida ya kila siku.
 
@@ -5765,11 +5765,11 @@ Upande mbaya ni kupungua kwa utendakazi (kuchelewa kwa juu) na utangamano mdogo 
 
 [Mullvad Browser](https://mullvad.net/en/browser) ni matokeo ya ushirikiano kati ya Tor Foundation na Mullvad VPN. Inategemea kivinjari cha Tor, ambayo yenyewe imetokana na Firefox ESR. Kivinjari cha Mullvad kimeundwa ili kuongeza ufaragha wa mtumiaji. Kwa chaguo-msingi, inajumuisha ulinzi wa hali ya juu dhidi ya alama za vidole, vifuatiliaji na hati za wahusika wengine.
 
-https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
+https://planb.academy/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 Ina vipengele vingi vya usalama na faragha vinavyotolewa na Tor Browser, na tofauti moja: haielekezi trafiki kupitia mtandao wa Tor. Ili kuepuka uvujaji wa IP Address, unaweza kuitumia pamoja na VPN (bora, Mullvad VPN).
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 Kivinjari cha Mullvad ni suluhisho bora ikiwa unajali kuhusu faragha yako, iwe wewe ni mwanzilishi au mtumiaji wa hali ya juu.
 
@@ -5795,7 +5795,7 @@ Kwa chaguo-msingi, LibreWolf huwasha mipangilio ya hali ya juu ya usalama ya Fir
 
 
 
-https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+https://planb.academy/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
 
 #### Kivinjari cha Zen
 
@@ -5813,7 +5813,7 @@ Kwa mtazamo wa usalama na faragha, Zen inaangazia uzuiaji asilia wa wafuatiliaji
 
 Kivinjari cha Zen ni mbadala wa kuvutia ikiwa unatafuta mazingira ya kuvinjari ya Gecko ambayo ni ya bure, ya kibunifu, yasiyo na vitu vingi na yanayoheshimu faragha yako.
 
-https://planb.network/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
+https://planb.academy/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### Vivinjari vinavyotegemea WebKit
 
@@ -5855,7 +5855,7 @@ Orion imeundwa kikamilifu na timu ya Kagi (inayojulikana kwa injini yake ya utaf
 
 
 
-https://planb.network/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
+https://planb.academy/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
 ### Vivinjari bila kutoa injini
 
 
@@ -6035,9 +6035,9 @@ Kidhibiti cha nenosiri hutengeneza na kuhifadhi manenosiri thabiti kwa usalama, 
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Kutumia kidhibiti cha nenosiri kuna faida kadhaa: hurahisisha maisha yako ya kila siku kwa kuondoa hitaji la kukariri wingi wa nywila, na kupunguza udhaifu mkuu wa uthibitishaji: mtumiaji mwenyewe.
 
@@ -6047,13 +6047,13 @@ Linapokuja suala la uthibitishaji, matumizi ya kidhibiti nenosiri lazima yatimiz
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/trezor-u2f-fido2-41d2939e-69b9-4c2e-b836-a2b09de58051
+https://planb.academy/tutorials/computer-security/authentication/trezor-u2f-fido2-41d2939e-69b9-4c2e-b836-a2b09de58051
 
-https://planb.network/tutorials/computer-security/authentication/ledger-fido-u2f-59f8105b-a0cc-4aff-bc56-048a6a42d39f
+https://planb.academy/tutorials/computer-security/authentication/ledger-fido-u2f-59f8105b-a0cc-4aff-bc56-048a6a42d39f
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ### Kutumia VPN
 
@@ -6087,11 +6087,11 @@ VPN nzuri inapaswa kuwa na sera inayoeleweka ya kutokukata miti, kutoa teknoloji
 
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
+https://planb.academy/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
 
 VPN za hali ya juu zinapaswa kuepukwa. Licha ya utangazaji wao mkali, husalia kuwa huduma za kibiashara za serikali kuu, mara nyingi zinazoegemea katika maeneo yenye ulinzi mdogo, na mara chache huwa wazi kuhusu utendakazi wao halisi wa kiufundi.
 
@@ -6626,7 +6626,7 @@ GrapheneOS haijumuishi vipengele vya umiliki. Una uhuru wa kuongeza huduma za Go
 Graphene inatumika tu na Google Pixels za hivi majuzi (Pixel 6, 7, 8 na 9).
 
 
-https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.academy/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
 #### CalyxOS
 
@@ -6842,11 +6842,11 @@ Mitandao ya umma ya Wi-Fi, kama vile iliyo kwenye mikahawa, hoteli au usafiri wa
 Ili kujilinda, epuka tu kutumia mitandao hii ya umma, au tumia VPN, ambayo itaunda handaki iliyosimbwa kati ya kifaa chako na seva ya mbali. Mtaro huu unajumuisha data yako, na kuifanya kuwa vigumu sana kukatiza au kurekebisha.
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
+https://planb.academy/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
 
 Kuhusu mtandao wako wa nyumbani wa Wi-Fi, tutazungumzia hilo katika sehemu ya mwisho ya kozi ya SCU 202.
 
@@ -6921,7 +6921,7 @@ Kuhifadhi nakala mara kwa mara ya data yako ya simu mahiri ni muhimu sana kwa us
 Ili kufanikisha hili, unapaswa kutumia suluhu za ndani zilizosimbwa kwa njia fiche, kama vile diski ya nje au ufunguo wa USB uliosimbwa kwa njia fiche (k.m. na Veracrypt). Isipofanya hivyo, suluhu za wingu zinazojipangisha kama vile *Syncthing* au *Nextcloud* hukuruhusu kuhifadhi nakala ya data yako kwenye seva ya kibinafsi, huku ukiwa na udhibiti kamili wa ufikiaji na usiri. Tofauti na huduma za wingu za kibiashara (Hifadhi ya Google, iCloud...), suluhu hizi huzuia kwa kiasi kikubwa ufichuaji wa maelezo yako kwa wahusika wengine.
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 #### Kufuta kwa mbali
 
@@ -7019,7 +7019,7 @@ Walakini, Mawimbi ina hatua dhaifu linapokuja suala la kutokujulikana: programu 
 Kwa kifupi, Mawimbi ni suluhisho nzuri sana la ujumbe, lakini kwa bahati mbaya inahitaji muunganisho kutoka kwa nambari ya simu.
 
 
-https://planb.network/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
+https://planb.academy/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
 
 #### WhatsApp
 
@@ -7042,7 +7042,7 @@ Telegramu ni huduma maarufu sana ya ujumbe kwa shukrani kwa ergonomics na vipeng
 Telegramu kwa hivyo inaweza kufikia kitaalam maudhui ya mazungumzo mengi ambayo hayajalindwa waziwazi. Hata kama kampuni itachukua msimamo thabiti kuelekea mamlaka za serikali, Telegram si suluhisho mojawapo kwa ubadilishanaji nyeti au wa siri, isipokuwa utumie kwa uwazi "mabadilishano ya siri", ambayo hayatumiki sana kila siku.
 
 
-https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
+https://planb.academy/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
 #### Threema
 
@@ -7065,7 +7065,7 @@ Kipengele kingine muhimu cha Threema ni mtindo wake wa biashara: programu si ya 
 Nadhani suluhisho hili la ujumbe ni bora, lakini shida yake kuu ni kwamba nambari ya chanzo ya seva zake inabaki kuwa ya umiliki.
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
 
 #### SimpleX Chat
 
@@ -7088,7 +7088,7 @@ Anwani huongezwa kupitia viungo vya muda au anwani tuli (vitambulishi vya kudumu
 Kwa upande wa usalama na usiri, SimpleX inakwenda mbali zaidi kuliko mifumo mingi iliyopo ya utumaji ujumbe, ikipunguza metadata kwa kiwango cha chini zaidi na kuondoa utegemezi wowote kwenye saraka kuu au kitambulisho cha kipekee. Hata hivyo, usanifu huu unaweka idadi ya maelewano katika suala la urafiki wa mtumiaji: wakati mwingine ergonomics angavu, hitaji la mkondo kidogo wa kujifunza, na utegemezi wa upatikanaji wa seva za relay.
 
 
-https://planb.network/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
+https://planb.academy/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
 
 #### Kikao
 
@@ -7105,7 +7105,7 @@ Kitaalamu, Kipindi hutekelezea usimbaji fiche kutoka mwanzo hadi mwisho kwa ujum
 Kiteja cha Kipindi na seva ni chanzo huria. Programu inapatikana kwenye Android, iOS, Windows, macOS na Linux, ikiwa na chaguo la kusawazisha kati ya vifaa kupitia maneno ya Mnemonic sawa na yale yanayotumika katika pochi za Bitcoin. Kifungu hiki cha maneno humpa mtumiaji udhibiti wa kipekee wa data yake, lakini pia huweka jukumu kubwa katika suala la kuhifadhi nakala.
 
 
-https://planb.network/tutorials/computer-security/communication/session-b0e3193c-2129-4f1b-9013-c211210724c3
+https://planb.academy/tutorials/computer-security/communication/session-b0e3193c-2129-4f1b-9013-c211210724c3
 
 #### Keet
 
@@ -7125,7 +7125,7 @@ Kwa upande mwingine, ingawa baadhi ya vipengele (cryptography na mitandao) hucha
 Keet inapatikana kwenye Android, iOS, Windows, macOS na Linux, na inaweza kusawazishwa kati ya vifaa kwa kutumia maneno ya Mnemonic.
 
 
-https://planb.network/tutorials/computer-security/communication/keet-efdb759d-5e94-4bbf-b28c-5fa8669c809b
+https://planb.academy/tutorials/computer-security/communication/keet-efdb759d-5e94-4bbf-b28c-5fa8669c809b
 
 #### Olvid
 
@@ -7162,7 +7162,7 @@ Maombi yameidhinishwa na ANSSI (*Agence Nationale de la Sécurité des Systèmes
 Olvid inaendana na Android, iOS, Windows, macOS na Linux. Ergonomics yake inabaki rahisi na kupatikana. Programu pia ina mfumo wa chelezo uliosimbwa kwa njia fiche kwa funguo na anwani, ili uweze kurejesha akaunti kwenye kifaa kipya.
 
 
-https://planb.network/tutorials/computer-security/communication/olvid-05038dc1-62c0-4a47-be4e-3d23c6155bfd
+https://planb.academy/tutorials/computer-security/communication/olvid-05038dc1-62c0-4a47-be4e-3d23c6155bfd
 
 ### Maombi ya kuepusha kutuma ujumbe
 
@@ -7260,7 +7260,7 @@ Thunderbird Mobile ni toleo la rununu la mteja maarufu wa barua pepe huria iliyo
 
 
 
-https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
+https://planb.academy/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 - [Tuta](https://tuta.com/)
 
 
@@ -7502,7 +7502,7 @@ Bitwarden ni mojawapo ya wasimamizi wa kina wa nenosiri wa chanzo huria wanaopat
 Unaweza kutumia seva za Bitwarden, au uipangishe mwenyewe ikiwa unapenda kwa udhibiti kamili. Simu yake ya mkononi ya Interface ni safi na yenye majimaji mengi, ikiwa na muunganisho usio na mshono kwenye mfumo wa Android au iOS.
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 
 - [KeePassDX](https://www.keepassdx.com/)
@@ -7517,7 +7517,7 @@ KeePass ni kidhibiti cha nenosiri cha kihistoria kulingana na faili za ndani zil
 Pia kuna [KeePassium](https://keepassium.com/) ya iOS, programu iliyounganishwa vyema katika mfumo ikolojia wa Apple, inayooana na umbizo la KeePass na chanzo huria. Mbadala mwingine wa iOS kwa mteja wa KeePass ni Strongbox, lakini programu hii haijawa chanzo wazi kwa miaka kadhaa.
 
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 
 - [Proton Pass](https://proton.me/pass)
@@ -7548,7 +7548,7 @@ Walakini, sio VPN zote zinaundwa sawa. Huduma maarufu kama NordVPN au ExpressVPN
 Mullvad ni mojawapo ya VPN bora katika suala la ulinzi wa faragha. Haihitaji barua pepe au nenosiri: Akaunti yako imeunganishwa kwa nambari rahisi ya nasibu. Malipo yanaweza kufanywa kwa bitcoins au pesa taslimu. Kiteja cha simu ni chanzo huria, ni rahisi kutumia na chenye nguvu. Mullvad haiweki kumbukumbu, haifuatilii watumiaji wake, na huchapisha ukaguzi huru wa usalama mara kwa mara.
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 
 - [IVPN](https://www.ivpn.net/)
@@ -7557,7 +7557,7 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 IPP ni mbadala nyingine bora inayolenga faragha. Inatoa Interface rahisi na bora ya simu, hakuna mkusanyiko wa kumbukumbu, na inaruhusu usajili bila jina. Unaweza pia kulipa kwa bitcoins. Programu inajumuisha firewall inayozuia trafiki yote isiyo ya VPN, ambayo inaweza kuwa muhimu sana kwenye simu mahiri. Wateja ni chanzo wazi.
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
 
 - [Protoni VPN](https://protonvpn.com/)
@@ -7595,7 +7595,7 @@ Aegis ni programu ya kina ya chanzo-wazi. Inasimba hifadhidata yako ya 2FA kwa n
 Ente Auth ni suluhisho la kisasa, la chanzo huria, la mifumo mingi na chelezo zilizosimbwa kutoka mwisho hadi mwisho. Hukuwezesha kusawazisha misimbo yako ya 2FA kwa usalama kwenye simu ya mkononi, kompyuta ya mezani na wavuti. Unaweza pia kuitumia nje ya mtandao, bila kuhifadhi nakala ya wingu au kuunda akaunti.
 
 
-https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
+https://planb.academy/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 Ente Auth inatoa vipengele vingi vya ziada: Kupanga kwa lebo, aikoni zilizogeuzwa kukufaa kwa kila huduma, madokezo, vipendwa, utafutaji uliojumuishwa, kushiriki msimbo salama wa timu.
 
 
@@ -7609,13 +7609,13 @@ Ente Auth inatoa vipengele vingi vya ziada: Kupanga kwa lebo, aikoni zilizogeuzw
 Authy inatoa ulandanishi wa 2FA kwenye vifaa vingi, ambavyo vinaweza kusaidia, lakini programu si chanzo huria na inahitaji nambari ya simu kwa usajili. Kwa wanaoanza, hata hivyo, ni kamili zaidi kuliko Kithibitishaji cha Google, shukrani haswa kwa kazi yake ya kuhifadhi nakala ya wingu.
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
+https://planb.academy/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 Ikiwa ungependa kujua zaidi kuhusu wasimamizi wa nenosiri, uthibitishaji wa 2FA na VPNs, ninapendekeza usome sura zilizojitolea katika kozi ya SCU-101:
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 ### Hali ya hewa
 
@@ -8267,7 +8267,7 @@ Kama tulivyogundua katika sura iliyotangulia, kulinda mtandao wako wa nyumbani n
 Baada ya kukagua misingi ya kinadharia, sura hii itakuongoza kupitia hatua zilizo wazi, za vitendo na za ufanisi ili kuimarisha usalama wa mtandao wako wa karibu.
 
 
-*Tafadhali kumbuka: Taarifa iliyotolewa hapa ni ya jumla, kwani Plan ₿ Network inalenga hadhira ya kimataifa. Kulingana na hali ya eneo lako na Mtoa Huduma za Intaneti wako, mbinu fulani bora zaidi hazitatajwa hapa, au zinaweza kutumika kwa njia tofauti.*
+*Tafadhali kumbuka: Taarifa iliyotolewa hapa ni ya jumla, kwani Plan ₿ Academy inalenga hadhira ya kimataifa. Kulingana na hali ya eneo lako na Mtoa Huduma za Intaneti wako, mbinu fulani bora zaidi hazitatajwa hapa, au zinaweza kutumika kwa njia tofauti.*
 
 
 ### Kuchagua na kulinda vifaa vya mtandao wako
@@ -8305,9 +8305,9 @@ Ikiwa router yako haendelezwi tena lakini bado inafanya kazi kwa usahihi kwa upa
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 Mifumo hii huwezesha udhibiti bora wa sheria za ngome, miunganisho inayotoka na inayoingia, sehemu za mtandao (VLAN) na usimamizi wa DNS, lakini inalenga zaidi watumiaji wa hali ya juu.
 
@@ -8344,9 +8344,9 @@ Kwa hivyo ni muhimu kwamba ubadilishe vitambulisho vyako mara baada ya kusakinis
 Nenosiri hili lazima liwe refu (herufi 40), changamano (nambari, herufi ndogo, herufi kubwa na alama), ya kipekee (isitumike tena mahali pengine), na nasibu. Ninapendekeza kutumia kidhibiti cha nenosiri kwa generate na kuhifadhi vitambulisho hivi kwa usalama.
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Onyo: usichanganye nenosiri la utawala wa router (ambayo inalinda upatikanaji wa usanidi wake) na nenosiri la Wi-Fi (ambayo inakuwezesha kuunganisha kwenye mtandao wa wireless). Hizi ni Elements mbili tofauti, na zote zinahitaji kubadilishwa.
 
@@ -8384,7 +8384,7 @@ Hapo awali iliundwa ili kurahisisha kuunganisha vifaa kwenye Wi-Fi bila kuweka n
 Baadhi ya ruta hukuruhusu kuunganisha kwa utawala wao Interface kutoka nje, kupitia mtandao. Kipengele hiki huongeza bila sababu eneo la mashambulizi la kipanga njia chako. Zima kabisa, isipokuwa kama una hitaji maalum la usimamizi wa mbali. Hata hivyo, tumia VPN kila wakati.
 
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 
 - **Itifaki za kizamani au zisizo salama**:
@@ -8505,7 +8505,7 @@ Kwa maneno ya vitendo, usimbaji fiche wa DNS na ubadilishaji wa seva unaweza kut
 
 
 
-https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
+https://planb.academy/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - Katika kiwango cha mfumo wa uendeshaji: Baadhi ya mifumo ya uendeshaji huunganisha usaidizi wa DNS uliosimbwa kwa njia fiche (DoT au DoH), ambao hulinda maombi yote ya DNS yanayopitia mrundikano wa mtandao wa mfumo. Hii, hata hivyo, hailindi kompyuta au simu nzima: Programu zinaweza kukwepa mpangilio huu ikiwa zimesanidiwa kutumia kisuluhishi au itifaki tofauti ya DNS.
 
 
@@ -8520,7 +8520,7 @@ Pia, vipanga njia vya modemu vinavyotolewa na ISP haziauni vipengele hivi kila w
 Ili kuchukua hatua zaidi, unaweza pia kusanidi suluhisho la kichujio la DNS kama vile Pi-hole au AdGuard Home.
 
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
 Zana hizi hufanya kama seva ndogo ya DNS ndani ya mtandao wako, ikizuia maombi kwa vikoa vinavyojulikana kupangisha utangazaji, vifuatiliaji vya kivinjari, hadaa au tovuti hasidi. Zana hizi pia hukuruhusu kuunda orodha zako za kuzuia au kubinafsisha uchujaji kulingana na vifaa vilivyounganishwa.
 
@@ -8541,19 +8541,19 @@ Suluhisho kuu mbili kwa wateja wa kibinafsi ni:
 - WireGuard: Kisasa, haraka na nyepesi
 - OpenVPN: Kongwe, lakini imekomaa sana na inaweza kusanidiwa
 
-https://planb.network/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
+https://planb.academy/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
 
 Hapa kuna mafunzo kamili juu ya Tailscale, suluhisho la VPN ambalo ni rahisi kusanidi linalotumia WireGuard:
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 Unaweza kupangisha VPN hii moja kwa moja kwenye kipanga njia kinachooana, kwenye kompyuta ndogo (kama vile Raspberry Pi) au kwenye seva maalum nyumbani. Unaweza pia kusakinisha kama mteja moja kwa moja kwenye kifaa chochote.
 
 Lakini VPN sio tu kwa ufikiaji wa mbali. Unaweza pia kutumia mteja wa kawaida wa VPN kwenye vifaa vyako kusimba kwa njia fiche trafiki yako yote unayotuma, hata ukiwa mbali na nyumbani (Wi-Fi ya umma, hoteli, chuo kikuu, n.k.). Katika hali hii, kifaa chako huunganishwa na seva ya VPN ya mtu wa tatu (ya kibiashara au inayojisimamia), ambayo kisha hutuma miunganisho yako kwenye Mtandao. Hii huficha IP yako halisi ya Address kutoka kwa ISP, hulinda data yako dhidi ya upelelezi wa ndani na kuepuka aina fulani za udhibiti.
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
 Hatimaye, inawezekana pia kusanidi VPN moja kwa moja kwenye kipanga njia chako, kinachokuruhusu kulinda vifaa vyote nyumbani kwako bila kulazimika kusakinisha mteja wa VPN kwenye kila moja.
 
@@ -8563,17 +8563,17 @@ Baada ya mtandao wako kusanidiwa vizuri na kugawanywa, ni muhimu kwenda zaidi ya
 
 Hatua ya kwanza ni kuweka kumbukumbu za usalama kati. Kila kifaa kilichounganishwa kwenye mtandao hutengeneza kumbukumbu zilizo na taarifa kuhusu miunganisho, hitilafu au shughuli za kutiliwa shaka. Badala ya kushauriana na kumbukumbu hizi kibinafsi, ninapendekeza kuzituma kwa seva inayoweza kuzipanga, kuzipanga na kuzichanganua. Suluhisho kama vile Graylog au Elastic Stack (ELK) hukuruhusu kujumlisha kumbukumbu hizi kwenye Interface ya picha ambapo unaweza kutafuta matukio mahususi, kuunda arifa au kuibua shughuli za mtandao.
 
-https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
+https://planb.academy/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
 
 Kisha, chunguza mtandao wako wa karibu mara kwa mara, kwa mfano na Nmap. Hii itakupa muhtasari wa vifaa vyote kwenye mtandao wako, na bandari ambazo wamefungua. Ukitambua kifaa kisichojulikana au huduma isiyo ya kawaida, hii inaweza kuwa ishara ya shambulio.
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 Ili kwenda mbali zaidi, unaweza kusakinisha IDS (*Mfumo wa Kugundua Uvamizi*), au hata IPS (*Mfumo wa Kuzuia Kuingilia*). Zana hizi, kama vile Suricata au Snort, hufuatilia mtiririko wa mtandao kwa wakati halisi na kugundua saini za mashambulizi yanayojulikana (skana za bandari, sindano, miunganisho ya kutiliwa shaka n.k.). IDS inaonya, wakati IPS inaweza kuzuia vitendo fulani kiotomatiki.
 
 Hatimaye, ufuatiliaji wa matumizi ya bandwidth pia ni kiashiria kizuri cha shughuli isiyo ya kawaida. Ikiwa kifaa kinatumia data nyingi ghafla bila sababu dhahiri, hii inaweza kusaliti upakuaji usioidhinishwa, uvujaji wa data, au hata kifaa kilichoathiriwa. Zana kama vile ntopng au vnStat hukuwezesha kutazama mtiririko unaoingia na kutoka kwa kifaa.
 
-https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
+https://planb.academy/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
 
 ### Hifadhi nakala na uthabiti
 

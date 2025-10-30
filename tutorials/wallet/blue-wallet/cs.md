@@ -11,7 +11,7 @@ Začít používat Bitcoin se zdá být velkou výzvou pro lidi, kteří jsou sk
 
 
 
-V tomto tutoriálu se podíváme na Blue Wallet, jednoduchý, ale velmi efektivní Bitcoin Wallet, který vám umožní spravovat bitcoiny osobně a také vytvářet správcovská družstva založená na [Multisig](https://planb.network/resources/glossary/multisig) (nebojte se, ještě se k němu vrátíme).
+V tomto tutoriálu se podíváme na Blue Wallet, jednoduchý, ale velmi efektivní Bitcoin Wallet, který vám umožní spravovat bitcoiny osobně a také vytvářet správcovská družstva založená na [Multisig](https://planb.academy/resources/glossary/multisig) (nebojte se, ještě se k němu vrátíme).
 
 
 
@@ -39,7 +39,7 @@ Po instalaci můžete vytvořit nový soubor Wallet a uložit 12 slov pro obnove
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Pomocí modrého modulu Wallet můžete vytvořit samostatná specializovaná portfolia Bitcoin. Například můžete mít jedno Wallet pro úspory a druhé pro každodenní výdaje, a to vše ve stejné aplikaci.
 
@@ -65,10 +65,10 @@ Pokud jste zvyklí na jiná portfolia Bitcoin, jako je Phoenix nebo Aqua, nebude
 
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
 Modrý Wallet Bitcoin Wallet představuje standardní Wallet v ekosystému Bitcoin. Bitcoiny můžete utrácet, pokud vlastníte slova pro obnovu, která v síti zajistí platný podpis pro ověření, že bitcoiny vlastníte.
 
@@ -122,7 +122,7 @@ Pokud tedy chcete, aby byla vaše transakce rychle ověřena v Mempool a zahrnut
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ![feerate](assets/fr/06.webp)
 
@@ -220,7 +220,7 @@ Dodržujte osvědčené postupy výběrem formátu P2WSH.
 
 
 
-❗ **[P2WSH](https://planb.network/resources/glossary/p2wsh) neboli Pay to Witness Script Hash** je metoda uzamykání, která uzamkne odchozí bitcoiny (výstupy) vaší transakce na Hash vlastního skriptu, který nastaví Blue Wallet. Hlavní výhodou tohoto typu zamykání je, že snižuje velikost transakčních dat a implicitně umožňuje platit nižší transakční poplatky.
+❗ **[P2WSH](https://planb.academy/resources/glossary/p2wsh) neboli Pay to Witness Script Hash** je metoda uzamykání, která uzamkne odchozí bitcoiny (výstupy) vaší transakce na Hash vlastního skriptu, který nastaví Blue Wallet. Hlavní výhodou tohoto typu zamykání je, že snižuje velikost transakčních dat a implicitně umožňuje platit nižší transakční poplatky.
 
 
 
@@ -264,7 +264,7 @@ Při ověřování transakce budete potřebovat druhý podpis, který schválí 
 
 
 
-Druhý signatář Wallet, pokud je také uživatelem, může transakci podepsat, i když je mimo internet (bez Wi-Fi, bez mobilních dat), a to naskenováním QR kódu právě vytvořené [částečně podepsané transakce](https://planb.network/resources/glossary/psbt).
+Druhý signatář Wallet, pokud je také uživatelem, může transakci podepsat, i když je mimo internet (bez Wi-Fi, bez mobilních dat), a to naskenováním QR kódu právě vytvořené [částečně podepsané transakce](https://planb.academy/resources/glossary/psbt).
 
 
 
@@ -330,12 +330,12 @@ V nabídce Nastavení > **Nastavení blesku** můžete při spuštění uzlu Lig
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
-https://planb.network/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
+https://planb.academy/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
 
 Nyní jste dokončili prohlídku modrého Wallet a jste připraveni používat Bitcoin v celé jeho jednoduchosti a síle. Doporučujeme vám udělat další krok a zjistit, jak můžete ve svých obchodech přijímat platby Bitcoin díky síle Lightning.
 
 
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06

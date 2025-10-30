@@ -9,7 +9,7 @@ description: Explore and analyze Lightning Network
 Lightning Network is a layer of the Bitcoin protocol, which was primarily developed to promote the adoption of Bitcoin payments on a day-to-day basis by increasing the processing speed of each transaction. Based on the principle of decentralization, Lightning Network consists of nodes (computers running a Lightning implementation) communicating peer-to-peer, relaying data (payments and payment verification) to each other.
 
 
-https://planb.network/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
+https://planb.academy/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
 
 Just as on the main chain, it has become essential to enable users to know the information and status of the network, in order to facilitate connections between nodes and minimize the liquidity problem that generally arises in the network. Indeed, on Lightning Network, we recommend micro-payments of relatively smaller amounts than those for transactions on the Bitcoin main chain.
 
@@ -27,7 +27,7 @@ Like [Mempool Space](https://Mempool.space), which provides useful information o
 - Statistics on charges to relay nodes for your payments.
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 In this tutorial, we'll take you on a tour of this platform, which is an essential resource for Lightning Network users, those who want to connect their node to expand the network, etc.
 
@@ -45,7 +45,7 @@ One of the aims of the Amboss platform is to enable the various nodes in the net
 ![wallet](assets/fr/02.webp)
 
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
 On the home page, you'll also find nodes classified according to :
 
@@ -111,7 +111,7 @@ In the **Channels** section, you'll see the list of open channels and the node's
 
 - Incoming ratio**: The amount the node will charge you for every million Satoshi it receives, depending on the channel chosen.
 - The ratio (parts per million)** : which represents the number of Satoshi per million units that the node will charge you when you decide to make a payment via one of its channels. Let's say you decide to make a payment of `10_000 Sats` via a channel whose ppm ratio is `500 Sats`, you'll have to pay the node `10_000 * 500 / 1_000_000` satoshis, equivalent to `5 Sats`.
-- The [HTLC](https://planb.network/resources/glossary/htlc) maximum** : The maximum amount this node allows you to transit via one of these channels.
+- The [HTLC](https://planb.academy/resources/glossary/htlc) maximum** : The maximum amount this node allows you to transit via one of these channels.
 
 
 By consulting the table in this Interface, you can also find all this information on the node it is matched to.
@@ -229,4 +229,4 @@ Find out the current price of Bitcoin in your local currency (EUR / USD). On the
 You've now taken a complete tour of the platform's features and analysis tools. Please find below our article on the Bitcoin **Mempool.space** explorer.
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f

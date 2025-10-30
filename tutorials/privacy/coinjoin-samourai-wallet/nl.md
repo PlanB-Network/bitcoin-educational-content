@@ -239,7 +239,7 @@ Het overschot dat niet geïntegreerd kon worden in de pool, hier gelijk aan `40.
 
 Deze UTXO is gevaarlijk voor de privacy van de gebruiker, omdat het niet alleen nog steeds verbonden is met het verleden, en dus mogelijk met de identiteit van de eigenaar, maar bovendien staat genoteerd dat het toebehoort aan een gebruiker die een CoinJoin heeft uitgevoerd.
 
-Als deze UTXO samengevoegd wordt met gemengde uitgangen, zullen ze alle privacy verliezen die ze opgedaan hebben tijdens de CoinJoin cycli, met name vanwege de Common-Input-Ownership-Heuristic (CIOH). Als het samengevoegd wordt met andere doxische veranderingen, loopt de gebruiker het risico privacy te verliezen, omdat dit de verschillende inputs van de CoinJoin cycli met elkaar verbindt. Daarom moet er voorzichtig mee worden omgegaan. De manier om met deze giftige UTXO om te gaan wordt in het laatste deel van dit artikel beschreven, en toekomstige tutorials zullen dieper ingaan op deze methodes op PlanB Network.
+Als deze UTXO samengevoegd wordt met gemengde uitgangen, zullen ze alle privacy verliezen die ze opgedaan hebben tijdens de CoinJoin cycli, met name vanwege de Common-Input-Ownership-Heuristic (CIOH). Als het samengevoegd wordt met andere doxische veranderingen, loopt de gebruiker het risico privacy te verliezen, omdat dit de verschillende inputs van de CoinJoin cycli met elkaar verbindt. Daarom moet er voorzichtig mee worden omgegaan. De manier om met deze giftige UTXO om te gaan wordt in het laatste deel van dit artikel beschreven, en toekomstige tutorials zullen dieper ingaan op deze methodes op Plan ₿ Academy.
 
 
 **Stap 3: De eerste mix**
@@ -282,7 +282,7 @@ Deze methode heeft echter twee opmerkelijke nadelen:
 - Als je Whirlpool gebruikt met Samourai Wallet zonder je eigen Dojo aan te sluiten, dan zal je applicatie verbinding moeten maken met de server die onderhouden wordt door de Samourai teams, en geef je de `xpub` van je Wallet aan hen door. Deze anonieme stukjes informatie zijn nodig voor je applicatie om je transacties te vinden.
 
 
-De ideale oplossing om deze beperkingen te omzeilen is om je eigen Dojo te gebruiken, geassocieerd met een Whirlpool CLI instantie op je persoonlijke Bitcoin knooppunt. Op deze manier vermijd je het lekken van informatie en bereik je volledige onafhankelijkheid. Hoewel de hieronder gepresenteerde tutorial nuttig is voor bepaalde doelen of voor beginners, is het gebruik van je eigen Dojo aanbevolen om je CoinJoin sessie echt te optimaliseren. Een gedetailleerde handleiding voor het opzetten van deze configuratie is binnenkort beschikbaar op PlanB Network.
+De ideale oplossing om deze beperkingen te omzeilen is om je eigen Dojo te gebruiken, geassocieerd met een Whirlpool CLI instantie op je persoonlijke Bitcoin knooppunt. Op deze manier vermijd je het lekken van informatie en bereik je volledige onafhankelijkheid. Hoewel de hieronder gepresenteerde tutorial nuttig is voor bepaalde doelen of voor beginners, is het gebruik van je eigen Dojo aanbevolen om je CoinJoin sessie echt te optimaliseren. Een gedetailleerde handleiding voor het opzetten van deze configuratie is binnenkort beschikbaar op Plan ₿ Academy.
 
 
 ### Installatie van Samourai Wallet
@@ -487,7 +487,7 @@ Zodra de `Tx0` is bevestigd, worden je UTXO's automatisch geregistreerd bij de c
 ![samourai](assets/notext/34.webp)
 
 
-Door het tabblad `Remixing` te controleren, dat overeenkomt met de **Postmix** account, ziet u de UTXO's die het resultaat zijn van de eerste mixen. Deze munten blijven klaar voor latere remixen, die geen extra kosten met zich meebrengen. Ik raad aan dit andere artikel te raadplegen om meer te leren over het remixproces en de efficiëntie van een CoinJoin cyclus: [REMIX - Whirlpool](https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)
+Door het tabblad `Remixing` te controleren, dat overeenkomt met de **Postmix** account, ziet u de UTXO's die het resultaat zijn van de eerste mixen. Deze munten blijven klaar voor latere remixen, die geen extra kosten met zich meebrengen. Ik raad aan dit andere artikel te raadplegen om meer te leren over het remixproces en de efficiëntie van een CoinJoin cyclus: [REMIX - Whirlpool](https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)
 
 
 ![samourai](assets/notext/35.webp)
@@ -547,7 +547,7 @@ Voer de benodigde informatie voor je bestedingstransactie in en klik vervolgens 
 In de volgende stap heb je de mogelijkheid om het tarief te wijzigen dat aan je transactie is gekoppeld. U kunt ook de Stonewall-optie inschakelen door het betreffende vakje aan te vinken. Als de Stonewall-optie niet selecteerbaar is, betekent dit dat uw **Postmix**-account geen UTXO van voldoende grootte bevat om deze specifieke transactiestructuur te ondersteunen.
 
 
-[-> Meer informatie over Stonewall-transacties](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
+[-> Meer informatie over Stonewall-transacties](https://planb.academy/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 
 Als alles naar wens is, klik je op de Green `Verstuur ... BTC` knop.
@@ -599,7 +599,7 @@ Controleer of je SCODE correct is geregistreerd door nogmaals op de drie kleine 
 Wil een CoinJoin echt effectief zijn, dan is het essentieel dat deze een goede uniformiteit laat zien tussen de bedragen van inputs en outputs. Deze uniformiteit vergroot het aantal mogelijke interpretaties in de ogen van een externe waarnemer, waardoor de onzekerheid rond de transactie toeneemt. Om deze onzekerheid van een CoinJoin te kwantificeren, kan men de entropie van de transactie berekenen.
 
 
-Voor een diepgaande verkenning van deze indicatoren (het Whirlpool model wordt erkend als het model dat de meeste homogeniteit in coinjoins brengt), verwijs ik je naar de tutorial: [BOLTZMANN CALCULATOR](https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe)
+Voor een diepgaande verkenning van deze indicatoren (het Whirlpool model wordt erkend als het model dat de meeste homogeniteit in coinjoins brengt), verwijs ik je naar de tutorial: [BOLTZMANN CALCULATOR](https://planb.academy/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe)
 
 
 Vervolgens wordt de prestatie van verschillende CoinJoin cycli geëvalueerd op basis van de omvang van de groepen waarin een Coin verborgen zit. De grootte van deze groepen bepaalt wat de anonsets genoemd worden. Er zijn twee soorten anonsets: de eerste beoordeelt de verkregen privacy ten opzichte van een retrospectieve analyse (van het heden naar het verleden) en de tweede ten opzichte van een prospectieve analyse (van het verleden naar het heden). Voor een gedetailleerde uitleg van deze twee indicatoren nodig ik je uit om de tutorial te raadplegen: Whirlpool STATS TOOLS - ANONSETS
@@ -640,7 +640,7 @@ Vervolgens moet je voorzichtig zijn met het beheren van doxische verandering, de
 - Stuur ze naar de Lightning Network: Deze UTXO's naar de Lightning Network sturen om te profiteren van lagere transactiekosten is een optie die interessant kan zijn. Deze methode kan echter bepaalde informatie onthullen, afhankelijk van je gebruik van Lightning, en moet daarom met voorzichtigheid worden toegepast.
 
 
-Gedetailleerde tutorials over het implementeren van deze verschillende technieken worden binnenkort aangeboden op PlanB Network.
+Gedetailleerde tutorials over het implementeren van deze verschillende technieken worden binnenkort aangeboden op Plan ₿ Academy.
 
 
 **Toegevoegde bronnen:**

@@ -6,22 +6,22 @@ description: Plan ₿ Network에서 교정할 때 염두에 두어야 할 중요
 ![github](assets/cover.webp)
 
 
-Plan ₿ Network**의 콘텐츠를 교정할 때 따라야 할 **가이드라인**에 대한 이 튜토리얼에 오신 것을 환영합니다. Bitcoin 자료를 최대한 많은 언어로 번역하여 사람들이 어떻게 작동하고 일상 생활에서 어떻게 사용할 수 있는지 알 수 있도록 돕는다는 사명을 공유해 주셔서 기쁩니다.
+Plan ₿ Academy**의 콘텐츠를 교정할 때 따라야 할 **가이드라인**에 대한 이 튜토리얼에 오신 것을 환영합니다. Bitcoin 자료를 최대한 많은 언어로 번역하여 사람들이 어떻게 작동하고 일상 생활에서 어떻게 사용할 수 있는지 알 수 있도록 돕는다는 사명을 공유해 주셔서 기쁩니다.
 
 
-우선, Plan ₿ Network [공개 저장소](https://github.com/PlanB-Network/Bitcoin-educational-content)에 기여하면 튜토리얼을 작성하거나, 기존 콘텐츠를 교정하거나, 플랫폼에 새로운 언어 추가를 제안할 수 있는 기회를 얻을 수 있습니다. 더 자세히 알아보시려면 먼저 [텔레그램 그룹](https://t.me/PlanBNetwork_ContentBuilder)에 가입하여 자신과 사용 가능한 언어에 대한 간단한 소개를 작성해 주세요.
+우선, Plan ₿ Academy [공개 저장소](https://github.com/PlanB-Network/Bitcoin-educational-content)에 기여하면 튜토리얼을 작성하거나, 기존 콘텐츠를 교정하거나, 플랫폼에 새로운 언어 추가를 제안할 수 있는 기회를 얻을 수 있습니다. 더 자세히 알아보시려면 먼저 [텔레그램 그룹](https://t.me/PlanBNetwork_ContentBuilder)에 가입하여 자신과 사용 가능한 언어에 대한 간단한 소개를 작성해 주세요.
 
 
-이 튜토리얼은 콘텐츠 교정을 원하는 기여자를 위한 것입니다. 대부분은 [Github](https://planb.network/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)이나 리포지토리 내에서 사용하는 [Markdown 언어](https://www.markdownguide.org/basic-syntax/)에 대해 잘 모르기 때문에 이 작업과 관련된 핵심 요소에 대한 몇 가지 인사이트를 공유하는 것이 중요합니다.
+이 튜토리얼은 콘텐츠 교정을 원하는 기여자를 위한 것입니다. 대부분은 [Github](https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)이나 리포지토리 내에서 사용하는 [Markdown 언어](https://www.markdownguide.org/basic-syntax/)에 대해 잘 모르기 때문에 이 작업과 관련된 핵심 요소에 대한 몇 가지 인사이트를 공유하는 것이 중요합니다.
 
 
 아래에는 교정자가 겪는 가장 일반적인 문제가 정리되어 있습니다. 다른 사람들이 개선하는 데 도움이 될 수 있으니 자유롭게 더 많은 것을 제안해 주세요.
 
 
-자세한 내용을 살펴보기 전에 먼저 Github에서 Plan ₿ Network 리포지토리를 포크하고 변경 사항을 커밋하고 PR을 전송하는 등 실제 작업에 대한 이 튜토리얼을 읽어보세요:
+자세한 내용을 살펴보기 전에 먼저 Github에서 Plan ₿ Academy 리포지토리를 포크하고 변경 사항을 커밋하고 PR을 전송하는 등 실제 작업에 대한 이 튜토리얼을 읽어보세요:
 
 
-https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
+https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 
 ## 교정이란 무엇인가요?
@@ -44,7 +44,7 @@ https://planb.network/tutorials/contribution/content/proofreading-review-tutoria
 ## Plan ₿ Network에서 교정하기 전 첫 단계
 
 
-새로운 교정 작업을 시작하기 전에 [텔레그램 그룹](https://t.me/PlanBNetwork_ContentBuilder)에 공지하거나 Plan ₿ Network 코디네이터에게 알리면 전용 [이슈](https://github.com/orgs/PlanB-Network/projects/3)가 열립니다. 이슈 링크를 받으면 해당 콘텐츠의 교정 작업을 시작한다고 **댓글을 달기**만 하면 됩니다.
+새로운 교정 작업을 시작하기 전에 [텔레그램 그룹](https://t.me/PlanBNetwork_ContentBuilder)에 공지하거나 Plan ₿ Academy 코디네이터에게 알리면 전용 [이슈](https://github.com/orgs/Plan ₿ Academy/projects/3)가 열립니다. 이슈 링크를 받으면 해당 콘텐츠의 교정 작업을 시작한다고 **댓글을 달기**만 하면 됩니다.
 
 
 이 시스템은 코디네이터가 리포지토리 내부의 진행 상황을 추적하는 데 도움이 되며, 교정자가 콘텐츠를 '소유권'을 주장할 수 있어 다른 사람이 중복해서 작업하는 것을 방지합니다.
@@ -60,7 +60,7 @@ https://planb.network/tutorials/contribution/content/proofreading-review-tutoria
 
 
 
-동기화에 성공하면 이 [튜토리얼](https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017)에 표시된 대로 관심 있는 콘텐츠에 직접 액세스하여 새 브랜치에 커밋할 수 있습니다. 또는 아래와 같이 "브랜치"를 클릭하여 작업할 새 브랜치를 열 수 있습니다.
+동기화에 성공하면 이 [튜토리얼](https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017)에 표시된 대로 관심 있는 콘텐츠에 직접 액세스하여 새 브랜치에 커밋할 수 있습니다. 또는 아래와 같이 "브랜치"를 클릭하여 작업할 새 브랜치를 열 수 있습니다.
 
 
 
@@ -115,11 +115,11 @@ LLM 도구는 Lightning Network과 같이 Bitcoin와 관련된 일부 단어를 
 
 
 
-- 또 다른 좋은 해결책은 EN 원본 단어/구문을 그대로 유지한 다음 planb.network의 [용어집](https://planb.network/en/resources/glossary)으로 리디렉션되는 **하이퍼링크**를 만드는 것입니다. 이렇게 하려면 아래 예시에서 볼 수 있듯이 대괄호 안에 단어/구문을 삽입하고 둥근 괄호 안에 링크를 삽입해야 합니다:
+- 또 다른 좋은 해결책은 EN 원본 단어/구문을 그대로 유지한 다음 planb.network의 [용어집](https://planb.academy/en/resources/glossary)으로 리디렉션되는 **하이퍼링크**를 만드는 것입니다. 이렇게 하려면 아래 예시에서 볼 수 있듯이 대괄호 안에 단어/구문을 삽입하고 둥근 괄호 안에 링크를 삽입해야 합니다:
 
 
 ```
-[UTXO](https://planb.network/resources/glossary/utxo)
+[UTXO](https://planb.academy/resources/glossary/utxo)
 ```
 
 
@@ -131,14 +131,14 @@ LLM 도구는 Lightning Network과 같이 Bitcoin와 관련된 일부 단어를 
 
 
 
-웹사이트에서 가져오는 용어집 링크에는 '네트워크' 단어 뒤에 언어 코드가 포함되어 있습니다(예: ``https://planb.network/en/resources/glossary/utxo``-> 여기서는 언어 코드 'en'을 읽을 수 있습니다). 이 경우 위 상자에서 본 것처럼 **링크에서 언어 코드를 제거**하세요. 이렇게 하면 시스템이 자동으로 독자를 지정된 언어로 안내합니다.
+웹사이트에서 가져오는 용어집 링크에는 '네트워크' 단어 뒤에 언어 코드가 포함되어 있습니다(예: ``https://planb.academy/en/resources/glossary/utxo``-> 여기서는 언어 코드 'en'을 읽을 수 있습니다). 이 경우 위 상자에서 본 것처럼 **링크에서 언어 코드를 제거**하세요. 이렇게 하면 시스템이 자동으로 독자를 지정된 언어로 안내합니다.
 
 
 리포지토리의 콘텐츠에는 위와 같은 하이퍼링크가 가득합니다. 이제 그 의미를 알았으니 원저작자가 삽입한 링크**는 삭제하지 마세요.
 
 
 
-- 단어 렌더링과 관련된 또 다른 사항은 다음과 같습니다. 텍스트에서 "Plan ₿ Network"을 발견하면 **이 원어 그대로 두세요**. "계획"이라는 단어나 "네트워크"라는 단어는 번역하지 마세요. 또한, Plan ₿ Network을 소개할 때 "The"라는 관사를 사용하지 마세요: **브랜드로 간주하세요**.
+- 단어 렌더링과 관련된 또 다른 사항은 다음과 같습니다. 텍스트에서 "Plan ₿ Academy"을 발견하면 **이 원어 그대로 두세요**. "계획"이라는 단어나 "네트워크"라는 단어는 번역하지 마세요. 또한, Plan ₿ Network을 소개할 때 "The"라는 관사를 사용하지 마세요: **브랜드로 간주하세요**.
 
 
 
@@ -325,7 +325,7 @@ PR을 보낼 때 이 형식을 사용하여 이름을 지정하면 정말 멋질
 
 
 
-- 주제에 이어 작성자가 Plan ₿ Network 강좌 또는 튜토리얼을 참조하는 링크를 괄호 안에 삽입하면 웹사이트는 관련 썸네일을 보여주는 '카드'를 자동으로 생성합니다. 따라서 항상 텍스트와 링크 사이에 **새 줄을 추가**해야 하며, 그렇지 않으면 웹사이트에 다음과 같은 오류가 표시될 수 있습니다.
+- 주제에 이어 작성자가 Plan ₿ Academy 강좌 또는 튜토리얼을 참조하는 링크를 괄호 안에 삽입하면 웹사이트는 관련 썸네일을 보여주는 '카드'를 자동으로 생성합니다. 따라서 항상 텍스트와 링크 사이에 **새 줄을 추가**해야 하며, 그렇지 않으면 웹사이트에 다음과 같은 오류가 표시될 수 있습니다.
 
 
 

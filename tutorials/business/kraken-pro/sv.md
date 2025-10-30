@@ -14,7 +14,7 @@ I denna handledning kommer vi att täcka processen för att skapa ett Kraken-fö
 Om du är intresserad av att integrera Bitcoin i ditt företag rekommenderar jag också att du tar del av vår kompletta teoretiska utbildning i ämnet:
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## 1 - Skapa ett företagskonto för Kraken
 
@@ -115,7 +115,7 @@ I 2FA-alternativen kan du välja att använda en fysisk säkerhetsnyckel som en 
 För mer information om hur du använder den här typen av enhet, se vår dedikerade handledning:
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 Det andra alternativet är att använda en autentiseringsapplikation som Google Authenticator eller Authy. Dessa applikationer generate en dynamisk 6-siffrig kod som du måste ange varje gång du loggar in.
 
@@ -132,7 +132,7 @@ För att aktivera denna metod, skanna QR-koden med den applikation du väljer p�
 För mer information om autentiseringsapplikationer kan du också läsa denna handledning:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Därunder har du också tillgång till avancerade inställningar, inklusive möjligheten att ställa in flera olika 2FA. Kraken erbjuder avancerad säkerhetsdelegering via 2FA. Med den här funktionen kan du skapa olika 2FA-nivåer för olika åtgärder, till exempel inloggning, ordervalidering och fonduttag. Detta gör det möjligt att till exempel ge en revisor tillgång till vissa funktioner utan att tillåta honom eller henne att ta ut pengar. Här är alternativen:
 
@@ -320,4 +320,4 @@ Beroende på ditt företags mål och struktur kan användningen av Kraken varier
 För en mer djupgående titt på detta ämne rekommenderar jag denna omfattande utbildningskurs om att integrera Bitcoin i företag, som i detalj täcker att lägga till kassaflöde, acceptera Bitcoin-betalningar och redovisning:
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

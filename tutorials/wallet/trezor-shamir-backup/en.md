@@ -64,11 +64,11 @@ In this tutorial, we'll first look at how to set up a Multi-share when creating 
 If you need help with the initial setup of your device, we also have a detailed tutorial for each Trezor model:
 
 
-https://planb.network/tutorials/wallet/hardware/trezor-safe-5-4413308a-a1b5-4ba4-bc49-72ae661cc4e0
+https://planb.academy/tutorials/wallet/hardware/trezor-safe-5-4413308a-a1b5-4ba4-bc49-72ae661cc4e0
 
-https://planb.network/tutorials/wallet/hardware/trezor-safe-3-51d0d669-5d23-47c2-beb6-cc6fa0fb0ea0
+https://planb.academy/tutorials/wallet/hardware/trezor-safe-3-51d0d669-5d23-47c2-beb6-cc6fa0fb0ea0
 
-https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
+https://planb.academy/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 
 ### On a new wallet
 
@@ -106,7 +106,7 @@ Read the instructions carefully, confirm them, then click on "*Create Wallet bac
 For more information on the proper way to save and manage your mnemonic phrases, I highly recommend following this other tutorial, especially if you're a beginner:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 On the Trezor, select the total number of shares you wish to configure. The most common configurations are 2-de-3 and 3-de-5. For this example, I'll create a 2-de-3, so I'll select 3 shares. Each share will represent a 20-word mnemonic phrase.
 
@@ -207,7 +207,7 @@ Once you've created your Multi-share Backup, you'll need to decide what to do wi
 Congratulations, you're now up to speed on the use of Single-share and Multi-share Backups on Trezor hardware wallets. If you'd like to take your wallet security a step further, take a look at this tutorial on BIP39 passphrases:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 If you found this tutorial useful, I'd be grateful if you'd leave a green thumb below. Feel free to share this article on your social networks. Thank you very much!
 

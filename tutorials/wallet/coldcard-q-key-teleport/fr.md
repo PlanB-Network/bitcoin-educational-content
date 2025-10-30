@@ -51,7 +51,7 @@ Un QR code est généré à l'écran. Vous devrez, là encore, communiquer ce QR
 
 *Nous sommes en fait là en train d'initier un transfert de secrets via la méthode Diffie-Hellman, abordée dans le cours BTC204 que je vous mets en dessous.*
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 *Nous avons pour le moment:*
 - *généré une paire de clés éphémères (publique/privée respectivement Ka et ka avec Ka=G.ka, G étant le point générateur de ECDH), ainsi qu'un mot de passe à 8 chiffres*.
@@ -77,7 +77,7 @@ Il vous est maintenant demandé de choisir la nature des secrets à transmettre 
 
 ![CCQ-key-teleport](assets/fr/04.webp)
 
-Ici notre secret sera un message court en choisissant **"Quick Text Message"**. Tapez au clavier votre message (pour nous "PlanB Network rocks") puis pressez **"ENTER"**.
+Ici notre secret sera un message court en choisissant **"Quick Text Message"**. Tapez au clavier votre message (pour nous "Plan ₿ Academy rocks") puis pressez **"ENTER"**.
 L'appareil génère ensuite un nouveau mot de passe aléatoire appelé **"Teleport Password"** , dans l'exemple "NE XG BT SK".
 
 ![CCQ-key-teleport](assets/fr/05.webp)
@@ -100,7 +100,7 @@ Appuyez sur le bouton **"QR"** pour scanner le QR code présenté par l'appareil
 
 
 
-Les données sont ensuite déchiffrées et intelligibles pour l'appareil receveur. Le message reçu est bien "PlanB Network rocks". C'est terminé.
+Les données sont ensuite déchiffrées et intelligibles pour l'appareil receveur. Le message reçu est bien "Plan ₿ Academy rocks". C'est terminé.
 
 ![CCQ-key-teleport](assets/fr/08.webp)
 

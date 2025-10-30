@@ -9,7 +9,7 @@ description: Hoe maak je je eigen account op GitHub?
 De missie van Plan ₿ is om eersteklas educatieve bronnen over Bitcoin aan te bieden, beschikbaar in zoveel mogelijk talen. Alle inhoud die op de site wordt gepubliceerd is open-source en wordt gehost op GitHub, waardoor iedereen de kans krijgt om bij te dragen aan de verrijking van het platform. Bijdragen kunnen verschillende vormen aannemen: het corrigeren en proeflezen van bestaande teksten, vertalingen in andere talen, het bijwerken van informatie of het creëren van nieuwe tutorials die nog niet beschikbaar zijn op onze site.
 
 
-Als je wilt bijdragen aan Plan ₿ Network, zul je Git en GitHub moeten gebruiken, dus, als deze tools onbekend voor je zijn of als hun werking onduidelijk lijkt, geen paniek, dit artikel is voor jou! We zullen samen de basisprincipes van Git en GitHub doornemen, evenals het bijbehorende technische jargon, zodat je ze daarna effectief kunt gebruiken.
+Als je wilt bijdragen aan Plan ₿ Academy, zul je Git en GitHub moeten gebruiken, dus, als deze tools onbekend voor je zijn of als hun werking onduidelijk lijkt, geen paniek, dit artikel is voor jou! We zullen samen de basisprincipes van Git en GitHub doornemen, evenals het bijbehorende technische jargon, zodat je ze daarna effectief kunt gebruiken.
 
 
 ## Wat is Git?
@@ -27,7 +27,7 @@ Een van de belangrijkste functies van Git is branch management. Een branch is ee
 
 Een van de bijzonderheden van Git is de mogelijkheid om gedistribueerd te werken. Elke ontwikkelaar heeft een complete kopie van het project op de harde schijf van zijn eigen computer, waardoor ze offline kunnen werken en wijzigingen later kunnen samenvoegen als er een internetverbinding beschikbaar is. Dit vermindert het risico op conflicten en staat meerdere ontwikkelaars toe om tegelijkertijd aan hetzelfde project te werken zonder op elkaars tenen te trappen.
 
-Git is in eerste instantie vooral ontworpen voor softwareontwikkelingsprojecten. Het kan echter ook gebruikt worden om projecten voor het schrijven van inhoud te beheren. In plaats van samen te werken aan code, werken we samen aan tekst. En het is precies deze methode die Plan ₿ Network gebruikt om haar inhoud te beheren! Git vergemakkelijkt de samenwerking bij het schrijven van cursussen en tutorials, omdat het het nauwkeurig bijhouden van wijzigingen en efficiënt versiebeheer mogelijk maakt, evenals het beoordelen en verbeteren van inhoud door andere bijdragers.
+Git is in eerste instantie vooral ontworpen voor softwareontwikkelingsprojecten. Het kan echter ook gebruikt worden om projecten voor het schrijven van inhoud te beheren. In plaats van samen te werken aan code, werken we samen aan tekst. En het is precies deze methode die Plan ₿ Academy gebruikt om haar inhoud te beheren! Git vergemakkelijkt de samenwerking bij het schrijven van cursussen en tutorials, omdat het het nauwkeurig bijhouden van wijzigingen en efficiënt versiebeheer mogelijk maakt, evenals het beoordelen en verbeteren van inhoud door andere bijdragers.
 
 
 ## Wat is GitHub?
@@ -46,7 +46,7 @@ Stel je Git voor als een soort logboek dat elke ontwikkelaar op zijn eigen compu
 Het fundamentele verschil tussen Git en GitHub ligt in hun functie: Git is de tool die elke ontwikkelaar lokaal gebruikt om hun codeversies te beheren, terwijl GitHub het online platform is dat deze versies host en samenwerking vergemakkelijkt.
 
 
-GitHub is veel meer dan alleen een service voor het hosten van code. Het is een samenwerkingsplatform dat ontwikkelaars in staat stelt om efficiënt samen te werken. En inderdaad, Plan ₿ Network gebruikt dit platform niet alleen om alle code te hosten die de website aandrijft, maar ook, en dit is wat ons interesseert, alle inhoud (tutorials, training, bronnen...).
+GitHub is veel meer dan alleen een service voor het hosten van code. Het is een samenwerkingsplatform dat ontwikkelaars in staat stelt om efficiënt samen te werken. En inderdaad, Plan ₿ Academy gebruikt dit platform niet alleen om alle code te hosten die de website aandrijft, maar ook, en dit is wat ons interesseert, alle inhoud (tutorials, training, bronnen...).
 
 
 ## Enkele technische termen
@@ -106,7 +106,7 @@ Na het lezen van dit artikel is het mogelijk dat sommige aspecten van Git en Git
 ## Hoe een GitHub account aanmaken
 
 
-Als je wilt bijdragen aan het PlanB Network, heb je een GitHub account nodig. In deze tutorial zullen we je stap voor stap begeleiden bij het aanmaken, instellen en goed beveiligen van je eigen account.
+Als je wilt bijdragen aan het Plan ₿ Academy, heb je een GitHub account nodig. In deze tutorial zullen we je stap voor stap begeleiden bij het aanmaken, instellen en goed beveiligen van je eigen account.
 
 
 

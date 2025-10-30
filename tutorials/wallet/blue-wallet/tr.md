@@ -11,7 +11,7 @@ KİS-3'ü kullanmaya başlamak, kullanımının basitliği konusunda şüpheci o
 
 
 
-Bu eğitimde, bitcoinlerinizi kişisel olarak yönetmenize ve ayrıca [Multisig](https://planb.network/resources/glossary/multisig) tabanlı yönetim kooperatifleri oluşturmanıza olanak tanıyan basit ama oldukça etkili bir Bitcoin Wallet olan Blue Wallet'ya göz atacağız (endişelenmeyin, buna geri döneceğiz).
+Bu eğitimde, bitcoinlerinizi kişisel olarak yönetmenize ve ayrıca [Multisig](https://planb.academy/resources/glossary/multisig) tabanlı yönetim kooperatifleri oluşturmanıza olanak tanıyan basit ama oldukça etkili bir Bitcoin Wallet olan Blue Wallet'ya göz atacağız (endişelenmeyin, buna geri döneceğiz).
 
 
 
@@ -39,7 +39,7 @@ Kurulduktan sonra, yeni bir Wallet oluşturabilir ve 12 kurtarma kelimesini kayd
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Blue Wallet ile ayrı, özel Bitcoin portföyleri oluşturabilirsiniz. Örneğin, tasarruflarınız için bir Wallet ve günlük harcamalarınız için başka bir Wallet'e sahip olabilirsiniz, hepsi aynı uygulamada.
 
@@ -65,10 +65,10 @@ Phoenix veya Aqua gibi diğer Bitcoin portföylerine alışkınsanız, Blue Wall
 
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
 Blue Wallet'ün Bitcoin'ü Wallet, Bitcoin ekosistemindeki standart Wallet'ü temsil eder. Bitcoinlere sahip olduğunuzu doğrulamak için ağ üzerinde geçerli bir imza sağlayacak kurtarma sözcüklerine sahip olduğunuz sürece bitcoinleri harcayabilirsiniz.
 
@@ -122,7 +122,7 @@ Bu nedenle, işleminizin bir Mempool'da hızlı bir şekilde onaylandığını v
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ![feerate](assets/fr/06.webp)
 
@@ -220,7 +220,7 @@ P2WSH formatını seçerek en iyi uygulamaya uyun.
 
 
 
-❗ **[P2WSH](https://planb.network/resources/glossary/p2wsh) veya Pay to Witness Script Hash**, işleminizin giden bitcoinlerini (Çıktılar) Blue Hash'nin kurduğu özel bir betiğin Wallet'ine kilitleyen bir kilitleme yöntemidir. Bu tür kilitlemenin ana avantajı, işlem veri boyutunu azaltması ve dolaylı olarak daha düşük işlem ücretleri ödemenize izin vermesidir.
+❗ **[P2WSH](https://planb.academy/resources/glossary/p2wsh) veya Pay to Witness Script Hash**, işleminizin giden bitcoinlerini (Çıktılar) Blue Hash'nin kurduğu özel bir betiğin Wallet'ine kilitleyen bir kilitleme yöntemidir. Bu tür kilitlemenin ana avantajı, işlem veri boyutunu azaltması ve dolaylı olarak daha düşük işlem ücretleri ödemenize izin vermesidir.
 
 
 
@@ -264,7 +264,7 @@ Blue Wallet'ın standart Bitcoin portföyünde olduğu gibi, **Alıcı ekle** se
 
 
 
-İkinci Wallet imza sahibi de bir kullanıcıysa, İnternet dışında olsa bile (Wi-Fi yok, mobil veri yok) yeni oluşturduğunuz [kısmen imzalanmış işlemin] (https://planb.network/resources/glossary/psbt) QR kodunu tarayarak işlemi imzalayabilir.
+İkinci Wallet imza sahibi de bir kullanıcıysa, İnternet dışında olsa bile (Wi-Fi yok, mobil veri yok) yeni oluşturduğunuz [kısmen imzalanmış işlemin] (https://planb.academy/resources/glossary/psbt) QR kodunu tarayarak işlemi imzalayabilir.
 
 
 
@@ -330,12 +330,12 @@ Ayarlar > **Lightning Ayarları** bölümünde, bir Lightning Network Daemon (LN
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
-https://planb.network/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
+https://planb.academy/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
 
 Artık Mavi Wallet turunu tamamladınız ve Bitcoin'i tüm basitliği ve gücüyle kullanmaya hazırsınız. Bir sonraki adımı atmanızı ve Lightning'in gücü sayesinde mağazalarınızda Bitcoin ödemelerini nasıl kabul edebileceğinizi öğrenmenizi öneririz.
 
 
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06

@@ -11,7 +11,7 @@ O Lightning Network é um Layer do protocolo Bitcoin, que foi desenvolvido princ
 
 
 
-https://planb.network/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
+https://planb.academy/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
 
 Tal como na cadeia principal, tornou-se essencial permitir que os utilizadores conheçam as informações e o estado da rede, a fim de facilitar as ligações entre os nós e minimizar o problema de liquidez que geralmente surge na rede. Com efeito, no Lightning Network, recomendamos micropagamentos de montantes relativamente mais reduzidos do que os das transacções na cadeia principal do Bitcoin.
 
@@ -34,7 +34,7 @@ Tal como [Mempool Space] (https://Mempool.space), que fornece informações úte
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 Neste tutorial, vamos fazer uma visita guiada a esta plataforma, que é um recurso essencial para os utilizadores do Lightning Network, para aqueles que querem ligar o seu nó para expandir a rede, etc.
 
@@ -57,7 +57,7 @@ Um dos objectivos da plataforma Amboss é permitir que os vários nós da rede s
 
 
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
 Na página inicial, encontrará também nós classificados de acordo com :
 
@@ -147,7 +147,7 @@ Na secção **Channels**, verá a lista de canais abertos e as ligações do nó
 
 - Rácio de entrada**: O montante que o nó cobrará por cada milhão de Satoshi que receber, dependendo do canal escolhido.
 - O rácio (partes por milhão)** : que representa o número de Satoshi por milhão de unidades que o nó lhe cobrará quando decidir efetuar um pagamento através de um dos seus canais. Digamos que decide fazer um pagamento de `10_000 Sats` através de um canal cujo rácio de ppm é de `500 Sats`, terá de pagar ao nó `10_000 * 500 / 1_000_000` satoshis, equivalente a `5 Sats`.
-- O [HTLC](https://planb.network/resources/glossary/htlc) máximo** : O montante máximo que este nó lhe permite transitar através de um destes canais.
+- O [HTLC](https://planb.academy/resources/glossary/htlc) máximo** : O montante máximo que este nó lhe permite transitar através de um destes canais.
 
 
 
@@ -304,4 +304,4 @@ Já fez uma visita completa às funcionalidades e ferramentas de análise da pla
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f

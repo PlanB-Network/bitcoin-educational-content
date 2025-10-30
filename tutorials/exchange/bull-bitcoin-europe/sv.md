@@ -71,7 +71,7 @@ Skanna QR-koden med din autentiseringsapplikation, ange den 6-siffriga koden och
 Om du inte är bekant med att använda autentiseringsapplikationer för 2FA rekommenderar jag att du tittar på den här handledningen om Authy-applikationen:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Ange ditt lösenord för att bekräfta.
 
@@ -184,9 +184,9 @@ Ange det belopp som du vill köpa. Du måste också välja hur du vill ta ut din
 Om du inte är bekant med att använda Bitcoin-, Lightning- eller Liquid-plånböcker föreslår jag att du går vår dedikerade utbildningskurs:
 
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
-Du kan också utforska [våra detaljerade handledningar om de bästa Bitcoin-plånböckerna] (https://planb.network/tutorials/wallet).
+Du kan också utforska [våra detaljerade handledningar om de bästa Bitcoin-plånböckerna] (https://planb.academy/tutorials/wallet).
 
 
 Bekräfta sedan ditt köp genom att klicka på "*Bekräfta köp*".
@@ -295,4 +295,4 @@ Nu vet du hur du enkelt kan köpa och sälja Bitcoin med Bull Bitcoin. Om du tyc
 Jag rekommenderar också att du kollar in den här andra omfattande handledningen för att lära dig hur du hanterar din Mnemonic-fras på rätt sätt:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270

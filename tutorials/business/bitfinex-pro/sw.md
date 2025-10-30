@@ -17,7 +17,7 @@ Katika somo hili, tutashughulikia mchakato wa kuunda akaunti ya biashara kwenye 
 Ikiwa ungependa somo la kuunganisha Bitcoin kwenye biashara yako, ningependekeza pia ugundue kozi yetu kamili ya mafunzo ya kinadharia kuhusu mada hii:
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## 1 - Kuunda akaunti ya Bitfinex
 
@@ -37,12 +37,12 @@ Kamilisha maelezo yanayohitajika: weka barua pepe yako ya biashara Address na nc
 Kwa vidokezo vya kutumia na kulinda manenosiri thabiti na ya kipekee, ona pia mafunzo haya:
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Sasa tutasanidi 2FA ili kulinda akaunti. Tumia programu ya uthibitishaji kwenye simu yako mahiri, kama vile Kithibitishaji cha Google au Authy kwa mfano. Utapata mafunzo juu ya zana hii hapa:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Changanua msimbo wa QR na programu yako na uweke tarakimu 6 zilizotolewa.
 
@@ -234,7 +234,7 @@ Bitfinex pia inatoa chaguzi za kuweka na uondoaji kupitia Lightning Network, kuw
 Ikiwa ungependa Lightning Network, pia tuna kozi kamili ya mafunzo ili kukusaidia kuelewa jinsi inavyofanya kazi:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ## 6 - Kununua na kuuza bitcoins kwenye Bitfinex
 
@@ -352,4 +352,4 @@ Kulingana na malengo na muundo wa kampuni yako, matumizi ya Bitfinex yanaweza ku
 Kwa mtazamo wa kina zaidi wa mada hii, ninapendekeza kozi hii ya kina ya mafunzo kuhusu kuunganisha Bitcoin katika biashara, ambayo inashughulikia kwa kina kuongeza mtiririko wa pesa, kukubali malipo ya Bitcoin, na uhasibu:
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

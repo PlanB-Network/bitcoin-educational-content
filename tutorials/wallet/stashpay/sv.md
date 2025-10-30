@@ -42,7 +42,7 @@ När programmet har installerats kommer StashPay att skapa en initial Bitcoin Wa
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Gå till StashPay-inställningarna genom att klicka på ikonen "Inställningar" och sedan på alternativet ** Skapa säkerhetskopia**. Godkänn sedan visningen av återställningsfraser. Kopiera inte dina återställningsfraser till telefonens urklipp, eftersom de kan vara tillgängliga för andra bedrägliga applikationer som är installerade på din mobil.
 
@@ -88,7 +88,7 @@ Du har säkert märkt att du måste betala en nätverksavgift för att få satos
 
 
 
-https://planb.network/tutorials/wallet/mobile/misty-breez-738ced2a-0764-4d7f-a150-ec0ce84a9d25
+https://planb.academy/tutorials/wallet/mobile/misty-breez-738ced2a-0764-4d7f-a150-ec0ce84a9d25
 
 ### Skicka bitcoins med StashPay
 
@@ -106,7 +106,7 @@ Eftersom StashPay är en Wallet baserad på Breez Development Kit har den en int
 
 
 
-https://planb.network/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
+https://planb.academy/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
 
 Breez SDK inför dock ett minimibelopp som du kan skicka bitcoins till en Address på huvudkedjan.
 
@@ -168,4 +168,4 @@ Du har precis kommit igång med StashPays minimalistiska Bitcoin Wallet. Om du t
 
 
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f

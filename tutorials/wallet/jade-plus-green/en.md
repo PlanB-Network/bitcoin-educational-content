@@ -29,7 +29,7 @@ Jade Plus is compatible with most wallet management software. Here is a summary 
 
 In this tutorial, we'll set up and use the Jade Plus with Blockstream's Green Wallet mobile app via a Bluetooth connection. This setup is ideal for beginners. If you're looking for a more advanced approach, I recommend you take a look at this tutorial where we use the Jade Plus with Sparrow Wallet in QR codes mode:
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
 ## The Jade Plus safety model
 
@@ -102,7 +102,7 @@ You can write it on the cardboard supplied in the box, or for added security, I 
 
 For more information on the proper way to save and manage your mnemonic phrase, I highly recommend following this other tutorial, especially if you're a beginner:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 **Obviously, you must never share these words on the Internet, as I do in this tutorial. This sample wallet will be used only on Testnet and will be deleted at the end of the tutorial**
 
@@ -118,11 +118,11 @@ Once you've saved your phrase, Jade Plus asks you to confirm it. Select the corr
 
 In this tutorial, we'll use the Green Wallet application to manage the wallet hosted on the Jade Plus. This method is particularly suitable for beginners. If you'd like to manage your Bitcoin wallet in more detail, you can also use Sparrow Wallet, which we'll cover in a separate tutorial:
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
 For instructions on installing and setting up the Blockstream Green application, please see the first part of this other tutorial:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
 Once on the Blockstream Green application, click on the "*Configure a new wallet*" button.
 
@@ -200,7 +200,7 @@ Choose "*Standard*" if you wish to create a classic single-sig wallet.
 
 For more information on the "*2FA*" option, you can follow this other tutorial:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
+https://planb.academy/tutorials/wallet/mobile/blockstream-green-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
 
 Your account has been created.
 
@@ -226,7 +226,7 @@ Your Jade is unlocked via Blockstream's "virtual secure element" (see the first 
 
 Before you receive your first bitcoins in your wallet, **I strongly advise you to perform an empty recovery test**. Make a note of some reference information, such as your xpub or first receiving address, then delete your wallet on the Green app and on the Jade Plus while it's still empty (`Options -> Device -> Factory Reset`). Then try to restore your wallet using your paper backups of the mnemonic phrase. Check that the cookie information generated after the restore matches the one you originally wrote down. If it does, you can rest assured that your paper backups are reliable. To find out more about how to carry out a test recovery, please consult this other tutorial :
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Receive bitcoins
 
@@ -292,6 +292,6 @@ Congratulations, you now know how to set up and use the Jade Plus with the Block
 
 To take things a step further, I recommend this tutorial on the Jade Plus, where we configure it with Sparrow Wallet software in QR mode. You'll also learn how to use the advanced settings of your hardware wallet:
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
 

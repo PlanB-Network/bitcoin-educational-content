@@ -98,7 +98,7 @@ V okně, které se zobrazí, najdete pole, která je třeba "vyplnit": zvolte tl
 Ke stažení tohoto Software Wallet najdete průvodce Sparrow wallet
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Poté můžete soubor `.apk` přenést z počítače do telefonu
 
@@ -276,7 +276,7 @@ Pojmenujte svůj klíč a stiskněte _Continue_.
 
 
 
-Na konci těchto kroků budete dotázáni, zda chcete k frázi Mnemonic přidat [passphrase](https://planb.network/en/resources/glossary/passphrase-bip39). Pokud nemáte potřebné povědomí o tom, jak používat frázi passphrase, jak zařídit její zálohování nebo jak funguje, doporučuji zvolit možnost _Nepotřebuji frázi_.
+Na konci těchto kroků budete dotázáni, zda chcete k frázi Mnemonic přidat [passphrase](https://planb.academy/en/resources/glossary/passphrase-bip39). Pokud nemáte potřebné povědomí o tom, jak používat frázi passphrase, jak zařídit její zálohování nebo jak funguje, doporučuji zvolit možnost _Nepotřebuji frázi_.
 
 
 
@@ -394,7 +394,7 @@ Nacházíte se v okně _Home_, kde se vám zobrazí nově vytvořený účet Wal
 
 
 - Ikona objektivu v pravém horním rohu umožňuje vyhledat transakci;
-- `Zobrazit konfiguraci Wallet` umožňuje přístup do konfigurační nabídky, kde můžete upravit název Wallet a povolit pokročilé možnosti vpravo nahoře (z nichž nelze získat snímky obrazovky). Zde můžete exportovat konfiguraci Wallet, štítky, nahradit klávesy, změnit [mezera limit](https://planb.network/en/resources/glossary/gap-limit) a další.
+- `Zobrazit konfiguraci Wallet` umožňuje přístup do konfigurační nabídky, kde můžete upravit název Wallet a povolit pokročilé možnosti vpravo nahoře (z nichž nelze získat snímky obrazovky). Zde můžete exportovat konfiguraci Wallet, štítky, nahradit klávesy, změnit [mezera limit](https://planb.academy/en/resources/glossary/gap-limit) a další.
 
 
 

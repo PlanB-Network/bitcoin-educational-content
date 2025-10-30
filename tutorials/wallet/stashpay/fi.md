@@ -42,7 +42,7 @@ Kun sovellus on asennettu, StashPay luo sinulle alustavan Bitcoin Wallet:n, kun 
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Pääset StashPayn asetuksiin napsauttamalla "Asetukset"-kuvaketta ja napsauttamalla sitten **Luo varmuuskopio** -vaihtoehtoa. Hyväksy sitten palautuslauseiden näyttäminen. Älä kopioi palautuslauseita puhelimesi leikepöydälle, sillä ne voivat olla muiden matkapuhelimeesi asennettujen petollisten sovellusten käytettävissä.
 
@@ -88,7 +88,7 @@ Olet varmaan huomannut, että saadaksesi satosheja sinun on maksettava verkkomak
 
 
 
-https://planb.network/tutorials/wallet/mobile/misty-breez-738ced2a-0764-4d7f-a150-ec0ce84a9d25
+https://planb.academy/tutorials/wallet/mobile/misty-breez-738ced2a-0764-4d7f-a150-ec0ce84a9d25
 
 ### Lähetä bitcoineja StashPayn avulla
 
@@ -106,7 +106,7 @@ Koska StashPay on Breez Development Kitiin perustuva Wallet, sillä on mielenkii
 
 
 
-https://planb.network/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
+https://planb.academy/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
 
 Breez SDK asettaa kuitenkin vähimmäissumman, jolla voit lähettää bitcoineja pääketjun Address:lle.
 
@@ -168,4 +168,4 @@ StashPayn minimalistisen Bitcoin Wallet:n kanssa on juuri tullut toimeen. Jos l�
 
 
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f

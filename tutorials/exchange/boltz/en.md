@@ -41,7 +41,7 @@ Boltz uses atomic swaps. This technology enables bitcoins to be exchanged betwee
 In this way, you retain permanent self-custody of your bitcoins, and the exchange is not based on any trust in the counterparty: either the exchange succeeds or fails, but neither party can steal the other's funds.
 
 
-An atomic exchange works with smart contracts [HTLC](https://planb.network/resources/glossary/htlc) (*Hashed Timelock Contract*). In this type of contract, the amount is "locked" in a two-way channel and a time restriction is introduced, so that if the transaction is not completed within a certain time, the balance reverts to the depositor. This is the mechanism used by the Boltz platform.
+An atomic exchange works with smart contracts [HTLC](https://planb.academy/resources/glossary/htlc) (*Hashed Timelock Contract*). In this type of contract, the amount is "locked" in a two-way channel and a time restriction is introduced, so that if the transaction is not completed within a certain time, the balance reverts to the depositor. This is the mechanism used by the Boltz platform.
 
 
 ## Your first exchanges with Boltz
@@ -87,9 +87,9 @@ You can configure the base unit for your exchanges by choosing between the optio
 Once you've completed your basic configurations, insert the amount of your atomic exchange, then create a Lightning invoice for the equivalent amount, or simply insert your LNURL.
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
-https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
+https://planb.academy/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
 
 ![swap](assets/fr/07.webp)
 
@@ -115,9 +115,9 @@ Then click on the **Create atomic exchange** button and proceed with payment of 
 ![payment](assets/fr/10.webp)
 
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
 Once your payment has been made and confirmed, you will automatically receive the equivalent amount on your Lightning wallet.
 
@@ -143,6 +143,6 @@ Boltz offers you a high level of confidentiality thanks to its access via a `.on
 ![onion](assets/fr/13.webp)
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 By now you're familiar with Boltz, a unique exchange platform that enables interoperability between the different layers of the Bitcoin ecosystem.

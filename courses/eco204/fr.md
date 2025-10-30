@@ -983,7 +983,7 @@ L'essentiel à retenir est que pour sortir de l'hyperinflation, il existe plusie
 
 :::video id=796a8bde-4860-47fd-970e-48e49cfbd87d:::
 
-[Découvrir la collection scannée dans le *Bitcoin Educational Toolkit* (accessible également depuis la section *Ressources* de la plateforme Plan ₿ Network.](https://penpot.planb.network/#/view?page-id=c157057b-fd28-8042-8004-4f081b21defc&file-id=c157057b-fd28-8042-8004-4f081b21defb&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6475c2af5889&interactions-mode=show-on-click)
+[Découvrir la collection scannée dans le *Bitcoin Educational Toolkit* (accessible également depuis la section *Ressources* de la plateforme Plan ₿ Academy.](https://penpot.planb.network/#/view?page-id=c157057b-fd28-8042-8004-4f081b21defc&file-id=c157057b-fd28-8042-8004-4f081b21defb&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6475c2af5889&interactions-mode=show-on-click)
 
 ![image](assets/fr/068.webp)
 

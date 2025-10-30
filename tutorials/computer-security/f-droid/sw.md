@@ -100,7 +100,7 @@ Jua zaidi katika mafunzo yetu ya Thunderbird:
 
 
 
-https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
+https://planb.academy/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 
 F-Droid hukupa maelezo yote unayohitaji ili kuamua kama kutumia programu hulinda data yako na kuimarisha faragha yako. Changanua programu zote unazotaka kutumia, kisha ubofye kitufe cha **Sakinisha** ili kupakua na kusakinisha programu yako.
 
@@ -187,4 +187,4 @@ Iwapo ulifurahia mafunzo haya, pata maelezo zaidi kuhusu kozi yetu ya usalama wa
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

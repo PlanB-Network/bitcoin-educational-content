@@ -58,7 +58,7 @@ Prêt à plonger dans l’univers des réseaux informatiques ? Allons-y !
 
 **REMARQUE** : les descriptions sont celles d’un système GNU/Linux CentOS 7. Mais, les configurations réseau sont sensiblement les mêmes entre un système Debian et un système CentOS. Donc, on ne fera pas de différence. Lorsqu’il y en aura une, on la préfixera avec un logo spécifique.
 
-*N.B. : Si vous rencontrez des termes qui vous sont inconnus au cours de la formation, veuillez consulter [le glossaire](https://planb.network/resources/glossary) pour en trouver les définitions.*
+*N.B. : Si vous rencontrez des termes qui vous sont inconnus au cours de la formation, veuillez consulter [le glossaire](https://planb.academy/resources/glossary) pour en trouver les définitions.*
 
 
 # Les protocoles TCP/IP
@@ -175,11 +175,11 @@ Chaque couche de la pile TCP/IP apporte des services spécifiques, permettant de
 | Commutateur (switch)   | Adresse localement les interfaces, transmet localement via MAC                            | Accès au Réseau         |
 | Carte réseau (NIC)     | Encodage du signal, câblage, connecteurs, spécifications physiques                        | Accès au Réseau         |
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 ## Le protocole QoS IPv5
 <chapterId>570ded19-be61-4005-844e-9490570a6455</chapterId>
@@ -395,7 +395,7 @@ Pour faciliter la conversion et la compréhension, on utilise des tableaux de co
 sudo apt install ipcalc
 ```
 
-https://planb.network/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
+https://planb.academy/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
 
 ## Le protocole TCP
 <chapterId>860bf7d5-a502-4d10-a12c-9827f6c2d393</chapterId>
@@ -830,11 +830,11 @@ Grâce à cette configuration, le trafic sortant est routé et la traduction NAT
 
 Dans le chapitre suivant, nous aborderons en détail la configuration des adresses IP sous Linux, à travers des méthodes simples et avancées adaptées à différents contextes d’administration.
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 
 ## Comment configurer le réseau avec `ip` ?
@@ -2009,7 +2009,7 @@ Il est important de rappeler qu’interroger de manière répétée ou intensive
 
 Dans une démarche de surveillance ou de sécurisation d’un réseau local ou étendu, il est important de pouvoir identifier les équipements actifs et les services qu’ils exposent. C’est précisément ce que permet l’outil `nmap` (*Network Mapper*).
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 #### Présentation de `nmap`
 
@@ -2045,7 +2045,7 @@ Un administrateur peut s’appuyer sur `nmap` pour plusieurs tâches :
 - Vérification de la conformité : comparer les ports ouverts avec la politique de sécurité réseau ;
 - Prévention des failles : repérer des services non sécurisés ou obsolètes ouverts sur des machines critiques.
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 ### Outils d’interrogation des processus
 

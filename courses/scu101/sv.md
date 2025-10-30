@@ -61,7 +61,7 @@ Denna utbildning är ett samarbete mellan tre av våra professorer:
 
 - Renaud Lifchitz, expert på cybersäkerhet
 - Théo Pantamis, doktor i tillämpad matematik
-- Rogzy, medgrundare av Plan ₿ Network
+- Rogzy, medgrundare av Plan ₿ Academy
 
 
 Din digitala hygien är avgörande i en alltmer digitaliserad värld. Trots den ständiga ökningen av hackning och massövervakning är det inte för sent att ta det första steget och skydda sig själv.
@@ -183,7 +183,7 @@ TOR är ett lagligt verktyg som används flitigt av journalister, frihetsaktivis
 ![image](assets/sv/007.webp)
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ## VPN och internetanslutning
 
@@ -217,9 +217,9 @@ Att använda ett VPN för konsumenter garanterar dock inte fullständig anonymit
 Slutligen kan ett VPN också användas för att blockera onlineannonser, vilket ger en trevligare och säkrare surfupplevelse. Det är dock viktigt att göra grundliga efterforskningar för att hitta det VPN som bäst passar dina behov. Att använda ett VPN rekommenderas för att förbättra säkerheten, även när du surfar på internet hemma. Detta bidrar till att säkerställa en högre skyddsnivå för utbytta data online. Slutligen, kan du kontrollera webbadresserna och det lilla hänglåset i Address-fältet för att bekräfta att du är på den avsedda webbplatsen?
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 ### HTTPS och offentliga Wi-Fi-nätverk
 
@@ -379,9 +379,9 @@ NEJ, det är i allmänhet inte rekommenderat att betala hackare vid ransomware e
 Om du upptäcker ett virus på din dator ska du koppla bort den från internet, göra en fullständig antivirussökning och radera infekterade filer. Uppdatera sedan din programvara och ditt operativsystem och byt lösenord för att förhindra ytterligare intrång.
 
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # Implementering av lösningar.
 
@@ -434,7 +434,7 @@ Att börja använda en ny, säkrare e-post Address är i allmänhet inte en dål
 Bonus Bitcoin: Det kan vara lämpligt att skapa ett specifikt e-postmeddelande Address för våra Bitcoin-aktiviteter, till exempel att skapa Exchange-konton, för att verkligen separera dessa aktivitetsområden i våra liv.
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Lösenordshanterare
 
@@ -497,9 +497,9 @@ För att skapa ett starkt lösenord rekommenderas att du använder ett stort ant
 
 Slumpmässigt genererade lösenord erbjuder en högre säkerhetsnivå, även om de kan vara svårare att komma ihåg. Lösenordshanterare kan ta fram säkrare slumpmässiga lösenord. Genom att använda en lösenordshanterare behöver du inte memorera alla dina lösenord. Det är viktigt att du gradvis ersätter dina gamla lösenord med de som genereras av lösenordshanteraren, eftersom de är starkare och säkrare. Se till att huvudlösenordet för din lösenordshanterare också är starkt och säkert.
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Tvåfaktorsautentisering
 
@@ -565,9 +565,9 @@ Fortsätt lära dig och implementera gradvis bra metoder!
 Den gyllene regeln: Cybersäkerhet är ett rörligt mål som kommer att anpassa sig till din inlärningsresa!
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 # Praktisk del
 
@@ -584,7 +584,7 @@ https://planb.network/tutorials/computer-security/authentication/security-key-61
 Att skydda ditt e-postkonto är ett viktigt steg för att säkra dina onlineaktiviteter och skydda dina data. Denna handledning kommer att vägleda dig, steg för steg, i att skapa och konfigurera ett ProtonMail-konto, en leverantör som är känd för sin höga säkerhetsnivå som erbjuder end-to-end-kryptering av din kommunikation. Oavsett om du är en nybörjare eller en erfaren användare kommer de bästa metoderna som presenteras här att hjälpa dig att stärka säkerheten för din e-post samtidigt som du drar nytta av ProtonMails avancerade funktioner:
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Säkra med 2FA
 
@@ -595,12 +595,12 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 Tvåfaktorsautentisering (2FA) har blivit viktigt för att säkra dina onlinekonton. I den här handledningen lär du dig hur du ställer in och använder 2FA-appen Authy, som genererar dynamiska 6-siffriga koder för att skydda dina konton. Authy är mycket lätt att använda och synkroniseras mellan flera enheter. Upptäck hur du installerar och konfigurerar Authy och på så sätt stärker säkerheten för dina onlinekonton redan nu:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Ett annat alternativ är att använda en fysisk säkerhetsnyckel. Den här extra handledningen visar hur du konfigurerar och använder en säkerhetsnyckel som en andra autentiseringsfaktor:
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ## Skapa en lösenordshanterare
 
@@ -614,12 +614,12 @@ Lösenordshantering är en utmaning i den digitala tidsåldern. Vi har alla mån
 I den här handledningen får du lära dig hur du konfigurerar Bitwarden, en lösenordshanterare med öppen källkod, och hur du synkroniserar dina inloggningsuppgifter mellan alla dina enheter för att förenkla din dagliga användning:
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 För mer avancerade användare erbjuder jag också en handledning om en annan gratis programvara med öppen källkod som du kan använda lokalt för att hantera dina lösenord:
 
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Säkra dina konton
 
@@ -630,9 +630,9 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 I de här två handledningarna hjälper jag dig också att säkra dina onlinekonton och förklarar hur du gradvis kan använda säkrare metoder för att hantera dina lösenord dagligen.
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Byte av webbläsare & VPN
 
@@ -646,14 +646,14 @@ Att skydda din integritet online är också en viktig punkt för att garantera d
 Jag föreslår att du utforskar två pålitliga VPN-lösningar som accepterar Bitcoin-betalningar, nämligen IVPN och Mullvad. Dessa handledningar guidar dig hur du installerar, konfigurerar och använder Mullvad eller IVPN på alla dina enheter:
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 Du kan också lära dig att använda Tor Browser, en webbläsare som är särskilt utformad för att skydda din integritet på nätet:
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ## Uppsättning av back-up
 
@@ -664,12 +664,12 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 Att skydda dina filer är också en viktig punkt. Denna handledning visar hur du implementerar en effektiv säkerhetskopieringsstrategi med hjälp av Proton Drive. Upptäck hur du använder den här säkra molnlösningen för att tillämpa 3-2-1-metoden: tre kopior av dina data på två olika medier, med en kopia utanför webbplatsen. Detta säkerställer tillgängligheten och säkerheten för dina känsliga filer:
 
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Och för att säkra dina filer som lagras på flyttbara medier som en USB-enhet eller extern Hard-enhet, visar jag dig också hur du enkelt krypterar och dekrypterar dessa medier med VeraCrypt:
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # Gå vidare
 

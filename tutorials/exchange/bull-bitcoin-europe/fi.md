@@ -48,7 +48,7 @@ Skannaa QR-koodi todennussovelluksellasi, syötä 6-numeroinen koodi ja napsauta
 
 Jos et ole perehtynyt todennussovellusten käyttämiseen 2FA:ssa, suosittelen tutustumaan tähän Authy-sovellusta käsittelevään opetusohjelmaan:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Vahvista salasanasi syöttämällä se.
 
@@ -125,9 +125,9 @@ Kirjoita haluamasi määrä. Sinun on myös valittava, miten haluat nostaa satsi
 
 Jos et ole perehtynyt Bitcoin-, Lightning- tai Liquid-lompakoiden käyttöön, suosittelen, että osallistut erityiselle koulutuskurssillemme:
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
-Voit myös tutustua [yksityiskohtaisiin ohjeisiimme parhaista Bitcoin-lompakoista](https://planb.network/tutorials/wallet).
+Voit myös tutustua [yksityiskohtaisiin ohjeisiimme parhaista Bitcoin-lompakoista](https://planb.academy/tutorials/wallet).
 
 Vahvista sitten ostoksesi klikkaamalla "*Vahvista osto*".
 
@@ -200,4 +200,4 @@ Nyt tiedät, miten ostaa ja myydä Bitcoin helposti Bull Bitcoin. Jos löysit t�
 
 Suosittelen myös tutustumaan tähän muuhun kattavaan opetusohjelmaan, jotta opit, miten muistilauseen hallintaa hallitaan oikealla tavalla:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270

@@ -60,7 +60,7 @@ Završni deo vodiće drugi govornici koji će predstaviti konkretne aplikacije z
 Ovaj kurs obuke je prvobitno nastao iz dvonedeljnog naprednog razvojnog bootcampa u Viareggiu, Toskana, koji je organizovao [Fulgur'Ventures](https://fulgur.ventures/). Prva nedelja, fokusirana na Rust i SDK-ove, može se pronaći u ovom drugom kursu:
 
 
-https://planb.network/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
+https://planb.academy/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
 
 U ovom kursu, fokusiramo se na drugu nedelju bootcampa, koja se fokusira na RGB.
 
@@ -2580,7 +2580,7 @@ Lightning Network je decentralizovana mreža platnih kanala (ili _state channels
 Za više informacija o tome kako Lightning funkcioniše, preporučujem da pohađate ovaj drugi kurs:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 #### Multi Protocol Commitment - MPC
 
@@ -4213,8 +4213,8 @@ Evo primera YAML datoteka za kreiranje:
 interface: RGB20Fixed
 globals:
 spec:
-ticker: PBN
-name: Plan B Network
+ticker: Plan ₿ Academy
+name: Plan ₿ Academy
 details: "Pay attention: the asset has no value"
 precision: 2
 terms:
@@ -4270,7 +4270,7 @@ rgb contracts
 ![RGB-Bitcoin](assets/en/087.webp)
 
 
-Zatim, sledeća komanda prikazuje globalna stanja (ime, oznaka, Supply...) i listu Posedovanih Stanja, tj. alokacije (na primer, 1 milion `PBN` tokena definisanih u UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
+Zatim, sledeća komanda prikazuje globalna stanja (ime, oznaka, Supply...) i listu Posedovanih Stanja, tj. alokacije (na primer, 1 milion `Plan ₿ Academy` tokena definisanih u UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
 
 
 ```bash
@@ -4529,7 +4529,7 @@ U stvarnosti, Lightning Network omogućava da se plaćanja usmeravaju putem viš
 Rad RGB na Lightning-u mora se stoga razmatrati paralelno sa radom samog Lightning Network. Ako želite dublje istražiti ovu temu, toplo preporučujem da pogledate ovaj drugi sveobuhvatni kurs obuke:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ### RGB kodna mapa
 
@@ -5243,7 +5243,7 @@ Naravno, možete prilagoditi redosled. Da bismo potvrdili transakciju, mi iskopa
 ```
 
 
-Sada možemo kreirati RGB sredstvo. Komanda će zavisiti od tipa sredstva koje želite da kreirate i njegovih parametara. Ovde kreiram NIA (*Non Inflatable Asset*) token nazvan "PBN" sa Supply od 1000 jedinica. `precision` vam omogućava da definišete deljivost jedinica.
+Sada možemo kreirati RGB sredstvo. Komanda će zavisiti od tipa sredstva koje želite da kreirate i njegovih parametara. Ovde kreiram NIA (*Non Inflatable Asset*) token nazvan "Plan ₿ Academy" sa Supply od 1000 jedinica. `precision` vam omogućava da definišete deljivost jedinica.
 
 
 ```bash
@@ -5252,8 +5252,8 @@ curl -X POST -H "Content-Type: application/json" \
 "amounts": [
 1000
 ],
-"ticker": "PBN",
-"name": "Plan B Network",
+"ticker": "Plan ₿ Academy",
+"name": "Plan ₿ Academy",
 "precision": 0
 }' \
 http://localhost:3001/issueassetnia
@@ -5301,7 +5301,7 @@ Komanda vraća javni ključ mog čvora br. 2 :
 ![RGB-Bitcoin](assets/en/110.webp)
 
 
-Dalje, otvorićemo kanal specificiranjem relevantne imovine (`PBN`). Komanda `/openchannel` vam omogućava da definišete veličinu kanala u satoshijima i odlučite da uključite RGB imovinu. Zavisi od toga šta želite da kreirate, ali u mom slučaju, komanda je :
+Dalje, otvorićemo kanal specificiranjem relevantne imovine (`Plan ₿ Academy`). Komanda `/openchannel` vam omogućava da definišete veličinu kanala u satoshijima i odlučite da uključite RGB imovinu. Zavisi od toga šta želite da kreirate, ali u mom slučaju, komanda je :
 
 
 ```bash
@@ -5349,7 +5349,7 @@ Da bi se transakcija potvrdila, 6 blokova se rudari:
 ![RGB-Bitcoin](assets/en/112.webp)
 
 
-Lightning kanal je sada otvoren i takođe sadrži 500 `PBN` tokena na strani čvora n°1. Ako čvor n°2 želi da primi `PBN` tokene, mora generate i Invoice. Evo kako to uraditi:
+Lightning kanal je sada otvoren i takođe sadrži 500 `Plan ₿ Academy` tokena na strani čvora n°1. Ako čvor n°2 želi da primi `Plan ₿ Academy` tokene, mora generate i Invoice. Evo kako to uraditi:
 
 
 ```bash
@@ -5386,7 +5386,7 @@ lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87e
 ![RGB-Bitcoin](assets/en/113.webp)
 
 
-Sada ćemo platiti ovaj Invoice sa prvog čvora, koji drži potreban novac sa `PBN` tokenom:
+Sada ćemo platiti ovaj Invoice sa prvog čvora, koji drži potreban novac sa `Plan ₿ Academy` tokenom:
 
 
 ```bash

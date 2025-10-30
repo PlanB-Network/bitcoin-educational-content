@@ -8,7 +8,7 @@ description: Complete guide to using Bisq 2 and exchanging bitcoins P2P
 
 KYC-free peer-to-peer (P2P) exchanges are essential for preserving users' confidentiality and financial autonomy. They enable direct transactions between individuals without the need for identity verification, which is crucial for those who value privacy. For a more in-depth understanding of the theoretical concepts, take a look at the BTC204 course:
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### What is Bisq 2?
 
@@ -86,7 +86,7 @@ This guide focuses exclusively on "Bisq Easy", the only protocol currently avail
 - Download the Bisq 2 version corresponding to your operating system (scroll down the page)
 - Verify the authenticity of the downloaded file (strongly recommended). For a detailed guide to signature verification, see the following tutorial:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### 2. Installation according to your system
 

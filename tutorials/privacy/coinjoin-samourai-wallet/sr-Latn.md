@@ -239,7 +239,7 @@ Višak koji nije mogao biti integrisan u bazen, ovde ekvivalentan `40,000 Sats`,
 
 Ovaj UTXO je opasan za privatnost korisnika, jer ne samo da je još uvek povezan sa svojom prošlošću, i stoga moguće sa identitetom svog vlasnika, već je dodatno zabeleženo da pripada korisniku koji je izvršio CoinJoin.
 
-Ako se ovaj UTXO spoji sa mešovitim izlazima, izgubiće svu poverljivost stečenu tokom CoinJoin ciklusa, naročito zbog Common-Input-Ownership-Heuristic (CIOH). Ako se spoji sa drugim doxxic kusurima, korisnik rizikuje gubitak poverljivosti jer će to povezati različite ulaze CoinJoin ciklusa. Stoga se mora pažljivo rukovati. Način upravljanja ovim toksičnim UTXO biće detaljno opisan u poslednjem delu ovog članka, a budući tutorijali će pokriti ove metode detaljnije na PlanB Network.
+Ako se ovaj UTXO spoji sa mešovitim izlazima, izgubiće svu poverljivost stečenu tokom CoinJoin ciklusa, naročito zbog Common-Input-Ownership-Heuristic (CIOH). Ako se spoji sa drugim doxxic kusurima, korisnik rizikuje gubitak poverljivosti jer će to povezati različite ulaze CoinJoin ciklusa. Stoga se mora pažljivo rukovati. Način upravljanja ovim toksičnim UTXO biće detaljno opisan u poslednjem delu ovog članka, a budući tutorijali će pokriti ove metode detaljnije na Plan ₿ Academy.
 
 
 **Korak 3: Početno mešanje**
@@ -282,7 +282,7 @@ Međutim, ova metoda ima dva značajna nedostatka:
 - Ako koristite Whirlpool sa Samourai novčanikom bez brige o povezivanju sopstvenog Dojo-a, vaša aplikacija će morati da se poveže na server koji održavaju Samourai timovi, i otkrićete `xpub` vašeg novčanika njima. Ovi anonimni delovi informacija su neophodni da bi vaša aplikacija pronašla vaše transakcije.
 
 
-Idealno rešenje za prevazilaženje ovih ograničenja je da upravljate sopstvenim Dojo-om povezanim sa Whirlpool CLI instancom na vašem ličnom Bitcoin čvoru. Na ovaj način, izbeći ćete bilo kakvo curenje informacija i postići potpunu nezavisnost. Iako je tutorijal prikazan ispod koristan za određene ciljeve ili za početnike, da biste zaista optimizovali vašu CoinJoin sesiju, preporučuje se korišćenje sopstvenog Dojo-a. Detaljan vodič za postavljanje ove konfiguracije uskoro će biti dostupan na PlanB Network-u.
+Idealno rešenje za prevazilaženje ovih ograničenja je da upravljate sopstvenim Dojo-om povezanim sa Whirlpool CLI instancom na vašem ličnom Bitcoin čvoru. Na ovaj način, izbeći ćete bilo kakvo curenje informacija i postići potpunu nezavisnost. Iako je tutorijal prikazan ispod koristan za određene ciljeve ili za početnike, da biste zaista optimizovali vašu CoinJoin sesiju, preporučuje se korišćenje sopstvenog Dojo-a. Detaljan vodič za postavljanje ove konfiguracije uskoro će biti dostupan na Plan ₿ Academy-u.
 
 
 ### Instaliranje Samourai novčanika
@@ -487,7 +487,7 @@ Jednom kada `Tx0` bude potvrđena, vaši UTXO-ovi će biti automatski registrova
 ![samourai](assets/notext/34.webp)
 
 
-Proverom kartice `Remixing`, koja odgovara nalogu **Postmix**, primetićete UTXO-e koji su rezultat početnih mešanja. Ovi novčići će ostati spremni za naknadno remiksovanje, koje neće izazvati dodatne troškove. Preporučujem da pogledate ovaj drugi članak kako biste saznali više o procesu remiksovanja i efikasnosti CoinJoin ciklusa: [REMIX - Whirlpool](https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)
+Proverom kartice `Remixing`, koja odgovara nalogu **Postmix**, primetićete UTXO-e koji su rezultat početnih mešanja. Ovi novčići će ostati spremni za naknadno remiksovanje, koje neće izazvati dodatne troškove. Preporučujem da pogledate ovaj drugi članak kako biste saznali više o procesu remiksovanja i efikasnosti CoinJoin ciklusa: [REMIX - Whirlpool](https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)
 
 
 ![samourai](assets/notext/35.webp)
@@ -547,7 +547,7 @@ Unesite potrebne informacije za vašu transakciju troškova, zatim kliknite na p
 U sledećem koraku, imate opciju da izmenite stopu naknade povezanu sa vašom transakcijom. Takođe možete omogućiti opciju Stonewall označavanjem odgovarajućeg polja. Ako opcija Stonewall nije dostupna za izbor, to znači da vaš **Postmix** nalog ne sadrži UTXO dovoljne veličine da podrži ovu specifičnu strukturu transakcije.
 
 
-[-> Saznajte više o Stonewall transakcijama.](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
+[-> Saznajte više o Stonewall transakcijama.](https://planb.academy/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 
 Ako je sve po vašoj želji, kliknite na zeleno dugme `POŠALJI ... BTC`.
@@ -599,7 +599,7 @@ Uverite se da je vaš SCODE pravilno registrovan tako što ćete još jednom kli
 Da bi CoinJoin bio zaista efikasan, neophodno je da pokaže dobru uniformnost između količina ulaza i izlaza. Ova uniformnost pojačava broj mogućih interpretacija u očima spoljnog posmatrača, čime se povećava neizvesnost u vezi sa transakcijom. Da bi se kvantifikovala ova neizvesnost generisana od strane CoinJoin, može se pribegavati izračunavanju entropije transakcije.
 
 
-Za detaljnu analizu ovih indikatora (model Whirlpool je prepoznat kao onaj koji donosi najviše homogenosti u coinjoins), upućujem vas na tutorijal: [BOLTZMANN CALCULATOR](https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe)
+Za detaljnu analizu ovih indikatora (model Whirlpool je prepoznat kao onaj koji donosi najviše homogenosti u coinjoins), upućujem vas na tutorijal: [BOLTZMANN CALCULATOR](https://planb.academy/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe)
 
 
 Dalje se procenjuje performanse nekoliko CoinJoin ciklusa na osnovu obima grupa u kojima je novčić skriven. Veličina ovih grupa definiše ono što se naziva anonsetima. Postoje dve vrste anonseta: prvi procenjuje privatnost dobijenu protiv retrospektivne analize (od sadašnjosti ka prošlosti) i drugi, protiv prospektivne analize (od prošlosti ka sadašnjosti). Za detaljno objašnjenje ova dva indikatora, pozivam vas da pogledate tutorijal: Whirlpool STATS TOOLS - ANONSETS
@@ -640,7 +640,7 @@ Dalje, morate biti pažljivi u upravljanju doxxic kusurom, kusurom koje ne može
 - **Pošaljite ih na Lightning mrežu:** Prenošenje ovih UTXO-a na Lightning mrežu kako biste iskoristili smanjene naknade za transakcije može biti zanimljiva opcija. Međutim, ova metoda može otkriti određene informacije u zavisnosti od vaše upotrebe Lightning-a i stoga bi trebalo da se praktikuje sa oprezom.
 
 
-Detaljni tutorijali o implementaciji ovih različitih tehnika uskoro će biti dostupni na PlanB Network.
+Detaljni tutorijali o implementaciji ovih različitih tehnika uskoro će biti dostupni na Plan ₿ Academy.
 
 
 **Dodatni resursi:**

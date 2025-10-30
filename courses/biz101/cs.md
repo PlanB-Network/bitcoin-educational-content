@@ -32,7 +32,7 @@ Ať už zastupujete malý podnik nebo velkou korporaci, cílem tohoto kurzu je v
 
 Připraveni ponořit se do světa Bitcoinu pro podniky? Jdeme na to!
 
-**Pozn.**: Pokud během kurzu narazíte na neznámé termíny, obraťte se prosím na [slovníček](https://planb.network/resources/glossary) pro definice.
+**Pozn.**: Pokud během kurzu narazíte na neznámé termíny, obraťte se prosím na [slovníček](https://planb.academy/resources/glossary) pro definice.
 
 # Měna, platební systémy a Bitcoin
 
@@ -237,7 +237,7 @@ Bitcoin nás vyzývá, abychom přehodnotili povahu samotných peněz. Mohl byst
 
 Pro více informací o Bitcoinu, jeho historii, fungování a použití doporučuji sledovat tento další komplexní kurz:
 
-https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
+https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 ## Úvod do sítě Lightning
 
@@ -319,7 +319,7 @@ Síť Lightning Network je díky své rychlosti a konečnosti plateb ideální p
 
 Pro více informací o technickém fungování sítě Lightning Network doporučuji sledovat také tento další komplexní kurz:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 # Bitcoin v pokladně
 
@@ -439,11 +439,11 @@ Tito myslitelé formovali myšlenku, že státní zásahy narušují trhy a že 
 
 Další informace k tomuto tématu:
 
-https://planb.network/courses/d955dd28-b7c6-4ba2-a123-d932e21d148f
+https://planb.academy/courses/d955dd28-b7c6-4ba2-a123-d932e21d148f
 
-https://planb.network/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
+https://planb.academy/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
 
-https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
+https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
 ## Držení bitcoinů v pokladně
 
@@ -595,7 +595,7 @@ Vzhledem k tomu, že Bitcoin funguje jako prostředek směny, je možné si pře
 
 Jedná se o získávání odměn za provozování těžebních strojů. Pro nespecializované podniky je to stále relativně okrajová záležitost. Můžete se zapojit prostřednictvím zprostředkovatelů, kteří vám prodají nebo pronajmou výpočetní techniku, síť a údržbu. Pokud stroje vlastníte, můžete o nich účtovat jako o odepisovatelném majetku. Ve velkém měřítku budete muset pečlivě počítat návratnost investice, protože trh je vysoce konkurenční a vyžaduje dobré předvídání nákladů, zejména na elektřinu.
 
-Chcete-li se dozvědět více o metodách těžby, můžete [nahlédnout do sekce "těžba" v našich výukových materiálech](https://planb.network/tutorials/mining).
+Chcete-li se dozvědět více o metodách těžby, můžete [nahlédnout do sekce "těžba" v našich výukových materiálech](https://planb.academy/tutorials/mining).
 
 
 - **Nákup bitcoinu:**
@@ -604,11 +604,11 @@ Jedná se o zdaleka nejběžnější způsob, který se provádí buď prostřed
 
 Chcete-li se dozvědět, jak si otevřít firemní účet a používat ho k nákupu, prodeji a převodu bitcoinů, podívejte se na tyto dva návody určené speciálně pro firmy, které se týkají platforem Kraken a Bitfinex v jejich firemních verzích:
 
-https://planb.network/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
+https://planb.academy/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
 
-https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
+https://planb.academy/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
 
-Více informací o metodách získávání bitcoinů prostřednictvím burzy nebo peer-to-peer najdete [v sekci "burza" v našich návodech](https://planb.network/tutorials/exchange).
+Více informací o metodách získávání bitcoinů prostřednictvím burzy nebo peer-to-peer najdete [v sekci "burza" v našich návodech](https://planb.academy/tutorials/exchange).
 
 ![BIZ101](assets/cs/012.webp)
 
@@ -863,21 +863,21 @@ Podrobné návody na doporučené peněženky a základní nastavení najdete v 
 
 **Samostatné peněženky/uzly LN:**
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.academy/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-501d-439c-8691-d4a0d0de459b
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-501d-439c-8691-d4a0d0de459b
 
 **Peněženky LN:**
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
 ## Základní
 
@@ -909,15 +909,15 @@ Ačkoli profil Essential nevyžaduje vysoce sofistikované účetní systémy, j
 
 Nejvhodnějším hybridním řešením pro váš profil je pravděpodobně Swiss Bitcoin Pay:
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 Dalším snadno implementovatelným řešením, jehož nevýhodou je, že je 100% správcovské, je Open Node:
 
-https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 Pokud jste připraveni si zašpinit ruce a chcete mít proces plně pod kontrolou, je software BTCPay Server vynikající volbou. Hlavní nevýhodou BTCPay Serveru však je, že jeho nastavení a správa jsou časově náročné a vyžadují určitou úroveň technických znalostí, ale můžete se řídit našimi průvodci:
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 Jako doplněk k fyzickým prodejním místům můžete zvážit zřízení [Bitcoinize PoS](https://bitcoinize.com/).
 
@@ -955,7 +955,7 @@ Pokud jde o reálné příklady, vezměte si za příklad středně velký e-sho
 
 Chcete-li se hlouběji seznámit se specifiky implementace a praktickými konfiguracemi BTC Pay Serveru, podívejte se na následující kurz:
 
-https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
+https://planb.academy/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 
 ## Podnik
 
@@ -1206,7 +1206,7 @@ Většině malých firem však často postačí jednoduchý soubor `.csv` obsahu
 
 Pro ty, kteří si sami spravují své bitcoiny, je správa UTXO (*Unspent Transaction Outputs*) důležitým krokem. Správné označování UTXO pomáhá dohledat původ každého fragmentu BTC, odlišit transakce související s profesionální činností od transakcí na osobní výdaje a usnadnit dohledatelnost pro právní nebo daňové účely. Většina dobrého softwaru pro bitcoinové peněženky umožňuje importovat peněženku pomocí záložního souboru (nebo xpub, v závislosti na vašem nastavení) a označit UTXO na základě jejich původu nebo určení. Abychom vám pomohli, zde je kompletní návod věnovaný tomuto postupu:
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 A konečně, ať už jste malý obchodník, nebo zavedenější firma, je možné **uhradit fakturu v Bitcoinech**. Klíčem je transakci řádně zdokumentovat. Pokud platíte z vlastní peněženky, je ideální vygenerovat transakci s uvedením čísla faktury a účelu platby ve svých štítcích. Pokud dáváte přednost úhradě faktury prostřednictvím burzy, budete mít také možnost exportovat účtenku nebo historii transakcí, které zahrnete do svých účetních záznamů. Tato transparentnost zjednoduší sledování a vykazování všech vašich operací s BTC.
 

@@ -12,7 +12,7 @@ Selles õpetuses käsitleme Bitfinexis ärikonto loomise protsessi, bitcoinide o
 
 Kui olete huvitatud bitcoini integreerimisest oma ettevõttesse, siis soovitan ka meie täielikku teoreetilist koolituskursust sel teemal:
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## 1 - Bitfinexi konto loomine
 
@@ -26,11 +26,11 @@ Täitke nõutavad andmed: sisestage oma ettevõtte e-posti aadress ja teie ettev
 
 Näpunäiteid tugevate ja unikaalsete paroolide kasutamise ja kaitsmise kohta leiate ka sellest juhendmaterjalist:
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Nüüd konfigureerime 2FA, et kaitsta kontot. Kasutage oma nutitelefonis autentimisrakendust, näiteks Google Authenticator või Authy. Selle tööriista õpetuse leiad siit:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Skaneeri QR-kood oma rakendusega ja sisesta 6 ettenähtud numbrit.
 
@@ -160,7 +160,7 @@ Bitfinex pakub ka Lightning Networki kaudu sisse- ja väljamaksevõimalusi, mis 
 
 Kui olete Lightning Networkist huvitatud, on meil ka täielik koolituskursus, mis aitab teil mõista, kuidas see toimib:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ## 6 - Bitcoinide ostmine ja müümine Bitfinexis
 
@@ -241,4 +241,4 @@ Sõltuvalt teie ettevõtte eesmärkidest ja struktuurist võib Bitfinexi kasutam
 
 Sest põhjalikumalt vaadelda seda teemat, Soovitan seda põhjalikku koolituse integreerimise Bitcoin arvesse ettevõtete, mis hõlmab üksikasjalikult lisades rahavoogude, vastuvõtva Bitcoin maksete, ja raamatupidamine:
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

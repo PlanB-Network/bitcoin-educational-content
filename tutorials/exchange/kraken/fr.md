@@ -12,7 +12,7 @@ Au-delà de toutes ces fonctionnalités qui en tant que Bitcoiner ne nous intér
 
 Dans ce tutoriel, nous allons découvrir comment utiliser Kraken en tant que particulier. Si vous avez une entreprise et souhaitez opter pour la version Business, je vous invite à consulter cet autre tutoriel :
 
-https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
+https://planb.academy/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
 
 ## 1 - Création d’un compte sur Kraken
 
@@ -82,7 +82,7 @@ Deux options de 2FA vous sont alors proposées, soit "passkey" qui vous permettr
 
 - Si vous choisissez d'utilisez une application d'authentification sur votre smartphone, telle que Google Authenticator ou Authy par exemple, vous trouverez un tutoriel sur cet outil ici :
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
  Après avoir choisi la méthode qui vous convient le mieux, nous sommes enfin prêt à déposer de l'argent pour acheter nos premiers satoshis.
 
@@ -163,7 +163,7 @@ Pour rappel le réseau Lightning permet d'échanger du Bitcoin de manière insta
 
 Si le Lightning Network vous intéresse, nous avons également une formation complète pour comprendre son fonctionnement :
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ![KRAKEN](assets/fr/30.webp)
 

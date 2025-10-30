@@ -44,7 +44,7 @@ Nenda kwenye [tovuti rasmi ya Bitcoin Knots](https://bitcoinknots.org/#download)
 Kabla ya kusakinisha programu kwenye mashine yako, tunapendekeza sana uangalie uhalisi na uadilifu wake. Ikiwa hujui jinsi gani, angalia mafunzo haya mengine:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 Mara tu programu imethibitishwa, isakinishe kwa kufuata hatua zilizoonyeshwa kwenye paneli ya usakinishaji.
 
 
@@ -170,7 +170,7 @@ Ipe Wallet yako jina. Unaweza pia kuilinda kwa passphrase BIP39 kwa kubofya "*Si
 passphrase BIP39 ni nenosiri la hiari ambalo unaweza kuchagua kwa uhuru, pamoja na maneno yako ya Mnemonic, ili kuongeza usalama wa Wallet yako. Kabla ya kusanidi kipengele hiki, tunakushauri sana kusoma makala ifuatayo, ambayo inaelezea kwa undani jinsi passphrase inavyofanya kazi katika nadharia, na jinsi ya kuepuka makosa ambayo yanaweza kusababisha hasara ya kudumu ya bitcoins zako:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 Ikiwa umewezesha chaguo la passphrase, chagua moja imara na uihifadhi kwa uangalifu kwenye vyombo vya habari vya usalama moja au zaidi.
 
 
@@ -404,4 +404,4 @@ Ikiwa umepata mafunzo haya kuwa yenye manufaa, ningeshukuru sana ikiwa utaacha k
 Ninapendekeza pia mafunzo haya mengine ambayo ninaelezea jinsi ya kusanidi nodi yako ya Umeme:
 
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a

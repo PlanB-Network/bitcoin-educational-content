@@ -101,7 +101,7 @@ Qubes OS pia hutoa uwazi na udhibiti kamili wa mazingira yako ya kidijitali. Una
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+https://planb.academy/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
 
 Badala ya kutafuta kuunda mfumo usiopenyeka, Qubes OS huzingatia uthabiti: hujumuisha uharibifu katika tukio la maelewano, na kupunguza hatari kwa mfumo wote. Mbinu hii ya kisayansi hufanya Qubes OS kuwa chaguo linalopendelewa kwa watumiaji walio na mahitaji ya juu ya usalama, au wanaotaka kudumisha udhibiti wa juu zaidi wa maisha yao ya kidijitali.
 
@@ -126,7 +126,7 @@ Ili kusakinisha Qubes OS, pakua picha rasmi ya ISO kutoka kwa Qubes OS [tovuti r
 
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ![0_01](assets/fr/01.webp)
 
@@ -327,4 +327,4 @@ Iwe unahitaji kuvinjari wavuti kwa usalama, kulinda taarifa nyeti au kufanya kaz
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

@@ -42,7 +42,7 @@ Seperti saudaranya, Bitrefill, dan para pesaingnya (The Bitcoin Company, Coinsbe
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 Coincards menawarkan berbagai pilihan, mulai dari ritel hingga makanan cepat saji, platform streaming, game online, situs e-commerce, dan masih banyak lagi...
 
@@ -67,7 +67,7 @@ Ini adalah kesempatan untuk mengingatkan mereka yang ingin membayar kartu hadiah
 
 
 
-Pilihan tutorial tentang portofolio utama Lightning (Phoenix, Breez, BitKit, Zeus...) dapat ditemukan di sini: [Plan ₿ Network - Wallet](https://planb.network/tutorials/wallet)
+Pilihan tutorial tentang portofolio utama Lightning (Phoenix, Breez, BitKit, Zeus...) dapat ditemukan di sini: [Plan ₿ Academy - Wallet](https://planb.academy/tutorials/wallet)
 
 
 
@@ -75,7 +75,7 @@ Jika Anda ingin mempelajari lebih lanjut tentang cara kerja Lightning Network, t
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ## Bagaimana cara membeli kartu hadiah BTC di Coincards?
 
@@ -244,4 +244,4 @@ Jika Anda ingin membantu mempopulerkan Bitcoin dan mendorong pedagang independen
 
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

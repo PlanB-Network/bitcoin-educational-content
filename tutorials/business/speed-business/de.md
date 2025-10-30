@@ -94,13 +94,13 @@ Wenn Sie den Testmodus deaktivieren, müssen Sie Ihr Entnahmeportfolio konfiguri
 
 
 
-Wenn Sie noch keinen Bitcoin und/oder Lightning Wallet besitzen, empfehlen wir Ihnen, einen Blick auf unsere [mobile Geldbörsen] Tutorials zu werfen (https://planb.network/tutorials/wallet).
+Wenn Sie noch keinen Bitcoin und/oder Lightning Wallet besitzen, empfehlen wir Ihnen, einen Blick auf unsere [mobile Geldbörsen] Tutorials zu werfen (https://planb.academy/tutorials/wallet).
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 ⚠️ **WICHTIG**: Wählen Sie bei der Konfiguration Ihres Portfolios den Typ **BTC (On-Chain)**, wenn Sie große Beträge in der Größenordnung von Tausenden von Euro erhalten, um eine zuverlässige Bestätigung auf Bitcoin zu gewährleisten, und den Typ **LN Address**, wenn Sie in Ihrem Unternehmen sofortige Kleinstzahlungen erhalten möchten.
 
@@ -435,4 +435,4 @@ Sie haben ein gutes Verständnis für Geschwindigkeit, integrieren Bitcoin in Ih
 
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

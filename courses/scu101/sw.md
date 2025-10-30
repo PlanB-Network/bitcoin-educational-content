@@ -46,7 +46,7 @@ Mafunzo haya ni juhudi shirikishi za maprofesa wetu watatu:
 
 - Renaud Lifchitz, mtaalam wa usalama wa mtandao
 - Théo Pantamis, PhD katika hesabu iliyotumika
-- Rogzy, Mwenyekiti wa Plan ₿ Network
+- Rogzy, Mwenyekiti wa Plan ₿ Academy
 
 Usafi wako wa kidijitali ni muhimu katika ulimwengu unaozidi kuwa wa kidijitali. Licha ya kuongezeka kwa mara kwa mara kwa utapeli na ufuatiliaji wa watu wengi, sio kuchelewa sana kuchukua hatua ya kwanza na kujilinda.
 
@@ -136,7 +136,7 @@ TOR ni halali na inatumiwa na wanahabari, wanaharakati wa uhuru, na wengine wana
 
 ![image](assets/sw/007.webp)
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ## VPN na unganisho la mtandao
 
@@ -162,8 +162,8 @@ Hata hivyo, kutumia VPN ya mtumiaji hakuhakikishii kutokujulikana kabisa. Watoa 
 
 Hatimaye, VPN inaweza pia kutumika kuzuia matangazo ya mtandaoni, kutoa hali ya kuvinjari ya kufurahisha na salama zaidi. Hata hivyo, ni muhimu kufanya utafiti wako mwenyewe ili kupata VPN ambayo inafaa zaidi mahitaji yako maalum. Kutumia VPN kunapendekezwa ili kuimarisha usalama, hata wakati wa kuvinjari mtandao nyumbani. Hii husaidia kuhakikisha kiwango cha juu cha usalama kwa data iliyobadilishwa mtandaoni. Hatimaye, hakikisha kuwa umeangalia URL na kufuli ndogo kwenye upau wa Anwani ili kuthibitisha kuwa uko kwenye tovuti unayotarajia kutembelea.
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 ### HTTPS na mitandao ya umma ya Wi-Fi'
 
@@ -279,8 +279,8 @@ HAPANA, kwa ujumla haipendekezwi kuwalipa wavamizi katika kesi ya ransomware au 
 
 Ukigundua virusi kwenye kompyuta yako, iondoe kwenye mtandao, fanya uchunguzi kamili wa antivirus na ufute faili zilizoambukizwa. Kisha, sasisha programu yako na mfumo wa uendeshaji, na ubadilishe nenosiri lako ili kuzuia kuingiliwa zaidi.
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # Utekelezaji wa ufumbuzi.
 
@@ -320,7 +320,7 @@ Kwa ujumla, kuanza kutumia barua pepe mpya, iliyo salama zaidi ya Anwani sio maz
 
 Bonasi ya Bitcoin: Inashauriwa kuunda barua pepe maalum yenye Address kwa miamala yetu ya Bitcoin (kuunda akaunti za exchange) ili kutenganisha kwa kweli maeneo ya miamala katika maisha yetu.
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Kidhibiti cha Nenosiri
 
@@ -369,8 +369,8 @@ Ili kuunda nenosiri kali, inashauriwa kutumia idadi kubwa ya wahusika wa random,
 
 Nenosiri zinazozalishwa bila mpangilio hutoa kiwango cha juu cha usalama, ingawa zinaweza kuwa ngumu zaidi kukumbuka. Vidhibiti vya nenosiri vinaweza kuzalisha salama zaidi manenosiri nasibu. Kwa kutumia kidhibiti cha nenosiri, huhitaji kukariri manenosiri yako yote. Ni muhimu kubadilisha hatua kwa hatua nywila zako za zamani na zile zinazozalishwa na msimamizi, kwa kuwa zina nguvu na ndefu. Hakikisha kuwa nenosiri kuu la kidhibiti chako cha nenosiri pia ni thabiti na salama.
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Uthibitishaji wa Mambo Mbili
 
@@ -423,8 +423,8 @@ Endelea kujifunza na hatua kwa hatua tekeleza mazoea mazuri!
 
 Kanuni ya dhahabu: Usalama wa Mtandao ni lengo linalosonga ambalo litaendana na safari yako ya kujifunza!
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 # Sehemu ya Vitendo
 
@@ -436,7 +436,7 @@ https://planb.network/tutorials/computer-security/authentication/security-key-61
 
 Kulinda akaunti yako ya barua pepe ni hatua muhimu ya kulinda miamala yako ya mtandaoni na kuhifadhi data yako ya kibinafsi. Mafunzo haya yatakuongoza hatua kwa hatua katika kuunda na kusanidi akaunti ya ProtonMail, mtoa huduma anayejulikana kwa kiwango chake cha juu cha usalama, ambacho hutoa usimbaji fiche kuanzia mwanzo hadi mwisho wa mawasiliano yako. Iwe wewe ni mgeni au mtumiaji mwenye uzoefu, mbinu bora zilizowasilishwa hapa zitakusaidia kuimarisha usalama wa barua pepe yako, huku ukinufaika na vipengele vya kina vya ProtonMail:
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Kulinda katika 2FA
 
@@ -444,13 +444,13 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 
 Uthibitishaji wa vipengele viwili (2FA) umekuwa muhimu ili kupata akaunti zako za mtandaoni. Katika somo hili, utajifunza jinsi ya kusanidi na kutumia programu ya 2FA Authy, ambayo hutengeneza misimbo thabiti ya tarakimu 6 ili kulinda akaunti zako. Authy ni rahisi sana kutumia na inasawazisha kwenye vifaa vingi. Gundua jinsi ya kusakinisha na kusanidi Authy, na hivyo uimarishe usalama wa akaunti zako za mtandaoni hivi sasa:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Chaguo jingine ni kutumia security key.
 
 Mafunzo haya ya ziada yanakuonyesha jinsi ya kusanidi na kutumia security key kama kipengele cha pili cha uthibitishaji:
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ## Inaunda kidhibiti cha nenosiri
 
@@ -460,11 +460,11 @@ Kudhibiti nenosiri ni changamoto katika enzi ya kidijitali. Sote tuna akaunti ny
 
 Katika somo hili, jifunze jinsi ya kusanidi Bitwarden, kidhibiti cha nenosiri la programu huria, na jinsi ya kusawazisha kitambulisho chako kwenye vifaa vyako vyote ili kurahisisha matumizi yako ya kila siku:
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Kwa watumiaji wa hali ya juu zaidi, pia ninatoa mafunzo juu ya programu nyingine isiyolipishwa na huria ya kutumia ndani ya nchi kudhibiti manenosiri yako:
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Kulinda akaunti zako
 
@@ -472,8 +472,8 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 Katika mafunzo haya mawili, ninakuongoza pia katika kulinda akaunti zako za mtandaoni na kueleza jinsi ya kuchukua taratibu salama zaidi za kudhibiti manenosiri yako kila siku.
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Mpangilio wa chelezo
 
@@ -481,11 +481,11 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 Kulinda faili zako za kibinafsi pia ni hatua muhimu. Mafunzo haya yanakuonyesha jinsi ya kutekeleza mbinu bora ya kuhifadhi nakala kwa kutumia Proton Drive. Gundua jinsi ya kutumia suluhisho hili salama la wingu kutumia mbinu ya 3-2-1: nakala tatu za data yako kwenye midia mbili tofauti, na nakala moja nje ya tovuti. Hii inahakikisha ufikiaji na usalama wa faili zako nyeti:
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Na ili kulinda faili zako zilizohifadhiwa kwenye midia inayoweza kutolewa kama vile hifadhi ya USB au kiendeshi cha nje cha Hard, pia ninakuonyesha jinsi ya kusimba kwa urahisi na kusimbua midia hii kwa kutumia VeraCrypt:
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 ## Mabadiliko ya kivinjari na VPN
 
@@ -495,12 +495,12 @@ Kulinda faragha yako ya mtandaoni pia ni hatua muhimu ili kuhakikisha usalama wa
 
 Ninapendekeza kugundua suluhisho mbili za kuaminika za VPN ambazo zinalipwa katika Bitcoin, ambazo ni IPP na Mullvad. Mafunzo haya hukuongoza jinsi ya kusakinisha, kusanidi, na kutumia Mullvad au IPP kwenye vifaa vyako vyote:
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 Pia, jifunze jinsi ya kutumia Tor Browser, kivinjari kilichoundwa mahususi kulinda faragha yako mtandaoni:
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 # Nenda zaidi
 

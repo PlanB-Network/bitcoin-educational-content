@@ -19,7 +19,7 @@ Selles õpetuses tutvustan teile ühte sellist lahendust: **COLDCARD Q**.
 ---
 Kuna COLDCARD Q pakub hulgaliselt funktsioone, teen ettepaneku jagada selle kasutamine 2 õppematerjaliks. Selles esimeses õpetuses vaatleme seadme algkonfiguratsiooni ja põhifunktsioone. Seejärel vaatleme teises õpetuses, kuidas kasutada kõiki COLDCARDi täiustatud võimalusi.
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
 
 ---
 ## COLDCARD Q tutvustamine
@@ -81,7 +81,7 @@ Kui eelistate COLDCARDi toiteallikana kasutada ilma arvutiga ühendamata (õhuva
 
 Selle õpetuse jaoks on teil vaja ka Sparrow Wallet'i, et hallata oma Bitcoini rahakotti arvutis. Laadige [Sparrow Wallet] (https://sparrowwallet.com/download/) alla ametlikust veebisaidist. Soovitan tungivalt kontrollida nii selle autentsust (GnuPG abil) kui ka terviklikkust (hashi kaudu) enne paigaldamise jätkamist. Kui te ei tea, kuidas seda teha, järgige seda õpetust:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## PIN-koodi valik
 
@@ -161,7 +161,7 @@ Siinkohal soovitame tungivalt kontrollida allalaaditud püsivara terviklikkust j
 
 Kui te ei ole selle kontrollimise protsessiga tuttav, soovitan teil jälgida seda õpetust:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Võtke microSD-kaart ja kandke sellele püsivara fail (dokument faili `.dfu`). Sisestage microSD-kaart ühte COLDCARDi porti.
 
@@ -201,7 +201,7 @@ Sellest menüüst leiate mitmesuguseid kohandamisvõimalusi, näiteks ekraani he
 
 Järgmises õpetuses vaatame teisi täiustatud seadeid:
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
 
 ## Bitcoini rahakoti loomine
 
@@ -332,7 +332,7 @@ Enne esimeste bitcoinide saamist oma rahakotti, ** soovitan teil tungivalt teha 
 
 Kui soovite rohkem teada saada, kuidas teha taastamistesti, soovitan teil tutvuda selle teise õpetusega:
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Bitcoinide vastuvõtmine
 
@@ -384,7 +384,7 @@ Nüüd saate lisada "*Label*", et kirjeldada bitcoinide allikat, mida selle aadr
 
 Lisateabe saamiseks märgistamise kohta soovitan ka seda teist õpetust:
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Seejärel saate seda aadressi kasutada bitcoinide saamiseks.
 
@@ -484,4 +484,4 @@ Kui leidsid selle õpetuse kasulikuks, oleksin väga tänulik, kui jätaksid all
 
 Samuti soovitan vaadata seda teist õpetust, kus me arutame COLDCARD Q täiustatud võimalusi:
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0

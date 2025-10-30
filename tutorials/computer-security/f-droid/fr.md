@@ -50,7 +50,7 @@ En cliquant sur l'application, vous trouverez notamment :
 
 Découvrez plus en détails notre tutoriel sur Thunderbird :
 
-https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
+https://planb.academy/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 
 F-Droid, vous présente toutes les informations dont vous avez besoin pour décider si l'utilisation d'une application protège vos données et renforce votre confidentialité. Analysez donc toutes les applications que vous souhaitez utiliser puis cliquez sur le bouton **Installer** pour télécharger et installer votre application.
 Accordez le droit d'installation à F-Droid en activant l'option dans vos paramètres.
@@ -93,5 +93,5 @@ F-Droid compile sur leur propres serveurs, les applications en se basant sur le 
 
 Si vous avez apprécié ce tutoriel, découvrez notre cursus sur la sécurité informatique et la gestion des données :
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 

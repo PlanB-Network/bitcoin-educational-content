@@ -1,22 +1,22 @@
 ---
-name: Profesor Plan ₿ Network
-description: ¿Cómo añado o modifico mi perfil de profesor en Plan ₿ Network?
+name: Profesor Plan ₿ Academy
+description: ¿Cómo añado o modifico mi perfil de profesor en Plan ₿ Academy?
 ---
 ![cover](assets/cover.webp)
 
-Si piensas contribuir a Plan ₿ Network escribiendo un nuevo tutorial o curso, necesitarás un perfil de profesor. Este perfil te permitirá recibir los créditos correspondientes por los contenidos que aportes a la plataforma.
+Si piensas contribuir a Plan ₿ Academy escribiendo un nuevo tutorial o curso, necesitarás un perfil de profesor. Este perfil te permitirá recibir los créditos correspondientes por los contenidos que aportes a la plataforma.
 
-Para aquellos de ustedes que ya han participado en la creación de contenidos educativos en Plan ₿ Network, probablemente ya tienen un perfil de profesor. Puedes encontrarlo en la carpeta `/professors` [en nuestro repositorio de GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors). Si tu perfil ya existe, encuentra tu nombre de usuario en el archivo `professor.yml`.
+Para aquellos de ustedes que ya han participado en la creación de contenidos educativos en Plan ₿ Academy, probablemente ya tienen un perfil de profesor. Puedes encontrarlo en la carpeta `/professors` [en nuestro repositorio de GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors). Si tu perfil ya existe, encuentra tu nombre de usuario en el archivo `professor.yml`.
 
 Para realizar cambios en tu perfil, ve a la sección "Editar tu perfil de profesor" al final de este tutorial.
 
 ## Añadir un nuevo profesor con nuestro software
 
-La forma más sencilla de crear tu perfil de profesor en Plan ₿ Network es utilizar nuestra herramienta Python integrada. Así es como funciona.
+La forma más sencilla de crear tu perfil de profesor en Plan ₿ Academy es utilizar nuestra herramienta Python integrada. Así es como funciona.
 
 ### 1 - Configura tu entorno local
 
-Debes tener tu propio Fork del [repositorio Plan ₿ Network en GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content).
+Debes tener tu propio Fork del [repositorio Plan ₿ Academy en GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content).
 
 Sincroniza la rama principal (`dev`) de tu Fork con el repositorio fuente.
 
@@ -67,7 +67,7 @@ A continuación, inicia el software con el comando:
 python3 main.py
 ```
 
-Una vez en la página de inicio, introduce la ruta local al clon de tu repositorio, el idioma en el que estás escribiendo y tu ID de GitHub. Si estás creando este perfil para otra persona y ya tienes un perfil de Profesor, introduce tu ID en el campo "*PBN Professor's ID*". Si estás creando tu propio perfil, aún no tendrás un ID de Profesor, ya que estás en proceso de crear uno, así que deja este campo en blanco.
+Una vez en la página de inicio, introduce la ruta local al clon de tu repositorio, el idioma en el que estás escribiendo y tu ID de GitHub. Si estás creando este perfil para otra persona y ya tienes un perfil de Profesor, introduce tu ID en el campo "*Plan ₿ Academy Professor's ID*". Si estás creando tu propio perfil, aún no tendrás un ID de Profesor, ya que estás en proceso de crear uno, así que deja este campo en blanco.
 
 A continuación, haz clic en el botón "*Nuevo profesor*".
 
@@ -118,8 +118,8 @@ Si ya dominas el uso de Git, modifica tu perfil de profesor creando una nueva ra
 
 Para los principiantes, recomendamos hacer la modificación directamente a través de la interfaz web de GitHub. Asegúrate de tener una cuenta en GitHub. Si no sabes cómo crear una, sigue este tutorial:
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
-Ve a [el repositorio GitHub de Plan ₿ Network dedicado a los datos](https://github.com/PlanB-Network/Bitcoin-educational-content/graphs/contributors).
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+Ve a [el repositorio GitHub de Plan ₿ Academy dedicado a los datos](https://github.com/PlanB-Network/Bitcoin-educational-content/graphs/contributors).
 
 ![Image](assets/fr/03.webp)
 
@@ -137,7 +137,7 @@ Una vez sobre el archivo que deseas modificar, pulsa sobre el icono del lápiz.
 
 ![Image](assets/fr/06.webp)
 
-Si aún no tienes un Fork del repositorio Plan ₿ Network, GitHub te sugerirá que crees uno. Haz clic en "*Fork este repositorio*".
+Si aún no tienes un Fork del repositorio Plan ₿ Academy, GitHub te sugerirá que crees uno. Haz clic en "*Fork este repositorio*".
 
 ![Image](assets/fr/07.webp)
 
@@ -151,17 +151,17 @@ Introduce un mensaje que describa tu cambio y, a continuación, selecciona "*Pro
 
 Aparecerá un resumen de tus cambios. Si deseas realizar más cambios en tu perfil, puedes volver a las carpetas y realizar más commits. Cuando hayas terminado, haz clic en "*Crear pull request*".
 
-Una Pull Request es una solicitud hecha para integrar cambios de tu rama en la rama principal del repositorio Plan ₿ Network, permitiendo la revisión y discusión de los cambios antes de que sean fusionados.
+Una Pull Request es una solicitud hecha para integrar cambios de tu rama en la rama principal del repositorio Plan ₿ Academy, permitiendo la revisión y discusión de los cambios antes de que sean fusionados.
 
 ![Image](assets/fr/10.webp)
 
-Asegúrate, en la parte superior de la interfaz, de que tu rama de trabajo está fusionada con la rama `dev` del repositorio Plan ₿ Network (que es la rama principal).
+Asegúrate, en la parte superior de la interfaz, de que tu rama de trabajo está fusionada con la rama `dev` del repositorio Plan ₿ Academy (que es la rama principal).
 
 Introduce un título que resuma brevemente los cambios que deseas fusionar con el repositorio fuente. Añade un breve comentario que describa estos cambios y, a continuación, haz clic en el botón verde "*Crear pull request*" para confirmar la pull request:
 
 ![Image](assets/fr/11.webp)
 
-Tu PR será visible en la pestaña "*Pull Request*" del repositorio principal de Plan ₿ Network. Todo lo que tienes que hacer ahora es esperar a que un administrador fusione tu modificación.
+Tu PR será visible en la pestaña "*Pull Request*" del repositorio principal de Plan ₿ Academy. Todo lo que tienes que hacer ahora es esperar a que un administrador fusione tu modificación.
 
 ![Image](assets/fr/12.webp)
 

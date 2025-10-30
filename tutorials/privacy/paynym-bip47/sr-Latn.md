@@ -22,12 +22,12 @@ _Ovaj vodič je pružen isključivo u obrazovne i informativne svrhe. Ne podrža
 Jedno od najznačajnijih pitanja na Bitcoin protokolu je ponovna upotreba adrese. Transparentnost i distribucija mreže čine ovu praksu opasnom za privatnost korisnika. Da bi se izbegli problemi vezani za ovo, preporučuje se korišćenje nove prazne prijemne adrese za svaku novu dolaznu uplatu u novčanik, što može biti komplikovano postići u nekim slučajevima.
 
 
-Ovaj kompromis je star koliko i [White Paper](https://planb.network/resources/glossary/white-paper). Satoši nas je već upozorio na ovaj rizik u svom radu objavljenom krajem 2008:
+Ovaj kompromis je star koliko i [White Paper](https://planb.academy/resources/glossary/white-paper). Satoši nas je već upozorio na ovaj rizik u svom radu objavljenom krajem 2008:
 
 
 > Kao dodatna zaštita, novi par ključeva treba koristiti za svaku transakciju kako bi se sprečilo njihovo povezivanje sa zajedničkim vlasnikom.
 
-Postoji mnogo rešenja dostupnih za primanje više uplata bez ponovne upotrebe adrese. Svako od njih ima svoje kompromise i nedostatke. Među svim tim rešenjima, je i [BIP47](https://github.com/Bitcoin/bips/blob/master/bip-0047.mediawiki), predlog koji je razvio Justus Ranvier i objavio 2015. godine, koji omogućava generisanje [ponovo upotrebljivih kodova za plaćanje](https://planb.network/resources/glossary/reusable-payment-code). Njegov cilj je omogućiti više transakcija istoj osobi bez ponovne upotrebe adrese.
+Postoji mnogo rešenja dostupnih za primanje više uplata bez ponovne upotrebe adrese. Svako od njih ima svoje kompromise i nedostatke. Među svim tim rešenjima, je i [BIP47](https://github.com/Bitcoin/bips/blob/master/bip-0047.mediawiki), predlog koji je razvio Justus Ranvier i objavio 2015. godine, koji omogućava generisanje [ponovo upotrebljivih kodova za plaćanje](https://planb.academy/resources/glossary/reusable-payment-code). Njegov cilj je omogućiti više transakcija istoj osobi bez ponovne upotrebe adrese.
 
 
 U početku, ovaj predlog je naišao na prezir od strane dela zajednice i nikada nije dodat u Bitcoin Core. Međutim, neki softveri su ipak odlučili da ga implementiraju na svoj način. Na primer, Samourai novčanik je razvio sopstvenu implementaciju BIP47: PayNym. Danas je ova implementacija dostupna na Samourai novčaniku za pametne telefone, kao i na [Sparrow novčaniku](https://sparrowwallet.com/) za računare.
@@ -110,7 +110,7 @@ Potraga za privatnošću nije komfor ili fantazija Bitcoin maximalista. To je sp
 
 
 
-- Bob kupuje Bitcoin kroz [Dollar Cost Averaging (DCA)](https://planb.network/resources/glossary/dollar-cost-averaging-dca), što znači da stiče malu količinu Bitcoin-a u redovnim intervalima kako bi prosečno izračunao cenu ulaska. Bob sistematski šalje kupljena sredstva na istu prijemnu adresu. On kupuje 0.01 Bitcoin svake nedelje i šalje ga na ovu istu adresu. Nakon dve godine, Bob je akumulirao ceo Bitcoin na ovoj adresi.
+- Bob kupuje Bitcoin kroz [Dollar Cost Averaging (DCA)](https://planb.academy/resources/glossary/dollar-cost-averaging-dca), što znači da stiče malu količinu Bitcoin-a u redovnim intervalima kako bi prosečno izračunao cenu ulaska. Bob sistematski šalje kupljena sredstva na istu prijemnu adresu. On kupuje 0.01 Bitcoin svake nedelje i šalje ga na ovu istu adresu. Nakon dve godine, Bob je akumulirao ceo Bitcoin na ovoj adresi.
 - Pekar na uglu prihvata Bitcoin uplate. Uzbuđen što može da troši Bitcoin, Bob odlazi da kupi svoj baget u satoshijima. Da bi platio, koristi sredstva zaključana na svojoj adresi. Njegov pekar sada zna da on poseduje Bitcoin. Ova značajna suma mogla bi privući zavist, i Bob potencijalno rizikuje fizički napad u budućnosti.
 
 
@@ -154,7 +154,7 @@ Da bi se izvršila razmena, oba korisnika moraju imati Bitcoin novčanik sa BIP4
 Povezivanje kodova plaćanja dva korisnika generiše zajedničke tajne koje same po sebi generišu veliki broj jedinstvenih Bitcoin adresa za primanje (tačno 2^32). Dakle, u stvarnosti, plaćanje sa BIP47 nije poslato na kod plaćanja, već na potpuno normalne adrese, izvedene iz kodova plaćanja uključenih strana.
 
 
-Kod plaćanja deluje kao virtuelni identifikator, izveden iz seed-a novčanika. U strukturi derivacije HD novčanika, kod plaćanja se nalazi na dubini 3, na [nivou naloga novčanika](https://planb.network/resources/glossary/account).
+Kod plaćanja deluje kao virtuelni identifikator, izveden iz seed-a novčanika. U strukturi derivacije HD novčanika, kod plaćanja se nalazi na dubini 3, na [nivou naloga novčanika](https://planb.academy/resources/glossary/account).
 
 
 ![image](assets/3.webp)

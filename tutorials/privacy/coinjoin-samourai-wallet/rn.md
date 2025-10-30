@@ -602,7 +602,7 @@ Kugira ngo CoinJoin ibe ngirakamaro vy’ukuri, ni ngombwa ko yerekana uguhuza n
 Kugira ngo ukore ubushakashatsi bwimbitse kuri ivyo bimenyetso (ikigereranyo ca Whirlpool cemewe ko ari co kizana ubumwe bwinshi ku bice vy’amahera), ndagurungikira inyigisho: [BOLTZMANN . UMUBARURWA](https://umugambi.urubuga/inyigisho/ubuzima bwite/isesengura/ubushobozi bwo gutera imbere)
 
 
-Inyuma y’aho, ubushobozi bw’ingendo nyinshi za CoinJoin burasuzumwa hakurikijwe urugero rw’imigwi Coin yihishijemwo. Ubwinshi bw’iyo migwi ni bwo busobanura ico bita anonsets. Hari ubwoko bubiri bw’ibimenyetso bitamenyekana: ica mbere gisuzuma ubuzima bwite bwaronswe hakurikijwe isesengura ry’inyuma (kuva muri iki gihe gushika muri kahise) n’irya kabiri, hakurikijwe isesengura ry’imbere (kuva muri kahise gushika muri kahise). Kugira ngo ubone insobanuro y’ido n’ido y’ivyo bimenyetso bibiri, ndagutumiye ngo urabe inyigisho: [Whirlpool IBIKORESHO VY’IMIBARE - ANONSETS](https://planb.network/inyigisho/ubuzima bwite/isesengura/wst-anonsets-0354b793-c301-67575)
+Inyuma y’aho, ubushobozi bw’ingendo nyinshi za CoinJoin burasuzumwa hakurikijwe urugero rw’imigwi Coin yihishijemwo. Ubwinshi bw’iyo migwi ni bwo busobanura ico bita anonsets. Hari ubwoko bubiri bw’ibimenyetso bitamenyekana: ica mbere gisuzuma ubuzima bwite bwaronswe hakurikijwe isesengura ry’inyuma (kuva muri iki gihe gushika muri kahise) n’irya kabiri, hakurikijwe isesengura ry’imbere (kuva muri kahise gushika muri kahise). Kugira ngo ubone insobanuro y’ido n’ido y’ivyo bimenyetso bibiri, ndagutumiye ngo urabe inyigisho: [Whirlpool IBIKORESHO VY’IMIBARE - ANONSETS](https://planb.academy/inyigisho/ubuzima bwite/isesengura/wst-anonsets-0354b793-c301-67575)
 
 
 ## Ni gute wocungera postmix?
@@ -640,7 +640,7 @@ Igikurikira, utegerezwa kwiyubara mu gucunga ihinduka rya doxxic, ihinduka ritas
 - Birungike kuri Lightning Network:** Kwimurira izo UTXO kuri Lightning Network kugira ngo zironke inyungu mu kugabanya amafaranga y’ugucuruza ni uburyo bushobora gushimisha. Ariko rero, ubwo buryo burashobora guhishura amakuru amwamwe bivanye n’ingene ukoresha Lightning kandi rero ukwiye kubukoresha witonze.
 
 
-Ivyigwa vy’ido n’ido ku bijanye no gushirwa mu ngiro ubwo buhinga butandukanye bizotangwa vuba kuri PlanB Network.
+Ivyigwa vy’ido n’ido ku bijanye no gushirwa mu ngiro ubwo buhinga butandukanye bizotangwa vuba kuri Plan ₿ Academy.
 
 
 **Ibindi bikoresho:**

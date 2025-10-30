@@ -20,7 +20,7 @@ Meskipun kurang lengkap dari Nmap, **Angry IP Scanner** tetap menarik untuk anal
 
 Jika Anda ingin mendalami lebih lanjut, lihat tutorial tentang Nmap.
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 ## II. Memulai dengan Angry IP Scanner
 
@@ -89,4 +89,4 @@ Jika Anda ingin menggunakan **Nmap** dengan Interface grafis, Anda dapat menggun
 
 ![Image](assets/fr/015.webp)
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d

@@ -1,11 +1,11 @@
 ---
 name: Wavuti - kuongeza lugha mpya
-description: Unawezaje kuongeza lugha mpya kwa Plan ₿ Network?
+description: Unawezaje kuongeza lugha mpya kwa Plan ₿ Academy?
 ---
 ![cover](assets/cover.webp)
 
 
-Dhamira ya Plan ₿ Network ni kutoa nyenzo za elimu za daraja la kwanza kwenye Bitcoin na kuzitafsiri katika lugha nyingi iwezekanavyo. Mengi ya maudhui yaliyochapishwa kwenye tovuti ni chanzo huria na yamepangishwa kwenye GitHub, kuruhusu mtu yeyote kushiriki katika kuimarisha jukwaa. Michango inaweza kuchukua aina mbalimbali: kusasisha na kusahihisha maudhui yaliyopo, kusasisha maelezo, au kuunda mafunzo mapya ya kuongeza kwenye jukwaa.
+Dhamira ya Plan ₿ Academy ni kutoa nyenzo za elimu za daraja la kwanza kwenye Bitcoin na kuzitafsiri katika lugha nyingi iwezekanavyo. Mengi ya maudhui yaliyochapishwa kwenye tovuti ni chanzo huria na yamepangishwa kwenye GitHub, kuruhusu mtu yeyote kushiriki katika kuimarisha jukwaa. Michango inaweza kuchukua aina mbalimbali: kusasisha na kusahihisha maudhui yaliyopo, kusasisha maelezo, au kuunda mafunzo mapya ya kuongeza kwenye jukwaa.
 
 
 Tovuti yetu kwa sasa inatoa anuwai ya lugha, na tunaendelea kufanya kazi ili kuongeza zaidi. Ili kuboresha mchakato wa kutafsiri kwa upande wetu wa mbele, tunatumia zana ya Wavuti, ambayo hutusaidia kushirikiana na kudhibiti tafsiri kwa ufanisi. Ni zana ifaayo kwa mtumiaji.
@@ -14,7 +14,7 @@ Tovuti yetu kwa sasa inatoa anuwai ya lugha, na tunaendelea kufanya kazi ili kuo
 Ikiwa lugha yako ya asili bado haipatikani kwenye tovuti yetu na ungependa kuiongeza, somo hili ni kwa ajili yako!
 
 
-Kwanza, hakikisha kuwa umewasiliana na timu ya Plan ₿ Network kupitia [kundi letu la Telegramu](https://t.me/PlanBNetwork_ContentBuilder). Ikiwa huna Telegram, unaweza kutuma barua pepe kwa mari@planb.network. Hakikisha umeandika wasilisho dogo kuhusu wewe ni nani na lugha unazozungumza.
+Kwanza, hakikisha kuwa umewasiliana na timu ya Plan ₿ Academy kupitia [kundi letu la Telegramu](https://t.me/PlanBNetwork_ContentBuilder). Ikiwa huna Telegram, unaweza kutuma barua pepe kwa mari@planb.network. Hakikisha umeandika wasilisho dogo kuhusu wewe ni nani na lugha unazozungumza.
 
 
 ## Kuangalia kama Lugha inapatikana kwenye Wavuti
@@ -36,14 +36,14 @@ Ili kuangalia ikiwa lugha yako tayari ni miongoni mwa zile tunazofanyia kazi.
 Ikiwa lugha yako iko kwenye orodha hii, hauhitaji kuiongeza tena. Ili kuchangia kwa kusahihisha tovuti, gundua mafunzo yafuatayo:
 
 
-https://planb.network/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
+https://planb.academy/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 
 
 
 Ikiwa lugha yako haipo, fuata mafunzo hapa chini ili kuiongeza.
 
 
-## Kuongeza Lugha Mpya kwa Plan ₿ Network
+## Kuongeza Lugha Mpya kwa Plan ₿ Academy
 
 
 
@@ -81,9 +81,9 @@ Ikiwa lugha yako haipo, fuata mafunzo hapa chini ili kuiongeza.
 Ili kuongozwa katika mchakato wa kutafsiri, angalia mafunzo yetu maalum hapa chini:
 
 
-https://planb.network/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
+https://planb.academy/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 
-Hongera, umeanza mchakato wa kutafsiri tuli Elements kwenye tovuti ya Plan ₿ Network!
+Hongera, umeanza mchakato wa kutafsiri tuli Elements kwenye tovuti ya Plan ₿ Academy!
 
 Zinajumuisha mifuatano yote kwenye tovuti, isipokuwa maudhui ya elimu (kozi, mafunzo...) ambayo tunatumia mbinu nyingine ya nusu otomatiki (Tafsiri ya AI + kusahihisha wachangiaji).
 

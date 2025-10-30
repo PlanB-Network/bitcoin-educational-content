@@ -95,7 +95,7 @@ Coinkite 旗艦產品 ColdCardQ 所提供的 **Key Teleport** 功能是什麼？
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 *我們目前有：*
 
@@ -145,7 +145,7 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-在此，我們的秘訣是選擇 **「快速文字訊息 」**，以傳送一則短訊。輸入您的訊息 (對我們來說是 "PlanB Network rocks「)，然後按 **」ENTER "**。
+在此，我們的秘訣是選擇 **「快速文字訊息 」**，以傳送一則短訊。輸入您的訊息 (對我們來說是 "Plan ₿ Academy rocks「)，然後按 **」ENTER "**。
 
 
 然後，裝置會產生一個新的隨機密碼，稱為 **「Teleport密碼 」**，範例為 "NE XG BT SK"。
@@ -190,7 +190,7 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-然後，資料會被解密，並讓接收裝置明白。接收到的訊息確實是 "PlanB Network rocks"。僅此而已。
+然後，資料會被解密，並讓接收裝置明白。接收到的訊息確實是 "Plan ₿ Academy rocks"。僅此而已。
 
 
 

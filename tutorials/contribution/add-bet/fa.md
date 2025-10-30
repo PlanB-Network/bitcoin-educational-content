@@ -8,7 +8,7 @@ description: چگونه مواد آموزشی جدید را در شبکه PlanB 
 ماموریت PlanB ارائه منابع آموزشی پیشرو در مورد Bitcoin به بیشترین تعداد زبان ممکن است. تمام محتوای منتشر شده در سایت منبع‌باز است و در GitHub میزبانی می‌شود، که به هر کسی اجازه می‌دهد در غنی‌سازی این پلتفرم مشارکت کند.
 
 
-فراتر از آموزش‌ها و دوره‌های آموزشی، شبکه PlanB همچنین یک کتابخانه گسترده از محتوای آموزشی متنوع در مورد Bitcoin ارائه می‌دهد که برای همه قابل دسترسی است، [در بخش "BET" (_جعبه‌ابزار آموزشی بیت‌کوین_)](https://planb.network/resources/bet). این پایگاه داده شامل پوسترهای آموزشی، میم‌ها، پوسترهای تبلیغاتی طنز، نمودارهای فنی، لوگوها و ابزارهای دیگر برای کاربران است. هدف از این ابتکار، حمایت از افراد و جوامعی است که Bitcoin را در سراسر جهان آموزش می‌دهند، با ارائه منابع بصری لازم به آن‌ها.
+فراتر از آموزش‌ها و دوره‌های آموزشی، شبکه PlanB همچنین یک کتابخانه گسترده از محتوای آموزشی متنوع در مورد Bitcoin ارائه می‌دهد که برای همه قابل دسترسی است، [در بخش "BET" (_جعبه‌ابزار آموزشی بیت‌کوین_)](https://planb.academy/resources/bet). این پایگاه داده شامل پوسترهای آموزشی، میم‌ها، پوسترهای تبلیغاتی طنز، نمودارهای فنی، لوگوها و ابزارهای دیگر برای کاربران است. هدف از این ابتکار، حمایت از افراد و جوامعی است که Bitcoin را در سراسر جهان آموزش می‌دهند، با ارائه منابع بصری لازم به آن‌ها.
 
 
 آیا می‌خواهید در غنی‌سازی این پایگاه داده شرکت کنید، اما نمی‌دانید چگونه؟ این آموزش برای شماست!
@@ -22,7 +22,7 @@ description: چگونه مواد آموزشی جدید را در شبکه PlanB 
 - ابتدا، شما نیاز به یک حساب کاربری در GitHub دارید. اگر نمی‌دانید چگونه یک حساب کاربری ایجاد کنید، ما یک آموزش جامع برای راهنمایی شما تهیه کرده‌ایم.
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -82,7 +82,7 @@ contributors:
 - `project`: شناسه سازمان خود را در شبکه PlanB مشخص کنید. اگر هنوز شناسه "project" برای شرکت خود ندارید، می‌توانید با دنبال کردن این آموزش یکی ایجاد کنید.
 
 
-https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
+https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 اگر یکی ندارید، می‌توانید به سادگی از نام خود، نام مستعار، یا نام شرکت خود استفاده کنید بدون اینکه پروفایل سازنده ایجاد کرده باشید.
 
@@ -118,7 +118,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 
 
 ```yaml
-project: PlanB-Network
+project: Plan ₿ Academy
 type: Educational Content
 links:
 download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
@@ -135,7 +135,7 @@ view:
 ![event](assets/13.webp)
 - Click on your GitHub profile picture at the top right, then on `Your Repositories`:
 ![event](assets/14.webp)
-- Select your fork of the PlanB Network repository:
+- Select your fork of the Plan ₿ Academy repository:
 ![event](assets/15.webp)
 - You should see a notification at the top of the window with your new branch. It is probably called `patch-1`. Click on it:
 ![event](assets/16.webp)
@@ -152,7 +152,7 @@ view:
 - Leave the commit title as default, and make sure the `Commit directly to the patch-1 branch` box is checked, then click on `Commit changes`: ![event](assets/23.webp)
 - Return to the `assets` folder: ![event](assets/24.webp)
 - Click on the `Add file` button, then on `Upload files`: ![event](assets/25.webp)
-- A new page will open. Drag and drop a thumbnail that represents your content into the area. This image will be displayed on the PlanB Network site: ![event](assets/26.webp)
+- A new page will open. Drag and drop a thumbnail that represents your content into the area. This image will be displayed on the Plan ₿ Academy site: ![event](assets/26.webp)
 - It can be a preview, a logo, or an icon: ![event](assets/27.webp)
 - Once the image is uploaded, make sure the `Commit directly to the patch-1 branch` box is checked, then click on `Commit changes`: ![event](assets/28.webp)
 - Be careful, your image must be named `logo` and must be in `.webp` format. The full file name should therefore be: `logo.webp`: ![event](assets/29.webp)

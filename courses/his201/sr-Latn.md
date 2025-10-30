@@ -182,7 +182,7 @@ Otkrivanje asimetrične kriptografije takođe je motivisalo stvaranje jednousmer
 
 Osnovni kriptografski Elements od Bitcoin potiču iz ovog istraživanja. Šema potpisa ECDSA, koja omogućava autorizaciju trošenja tradicionalne transakcije, kreirana je 1992. godine za NIST. Funkcija SHA-256 Hash, korišćena na više mesta u protokolu, objavljena je 2001. godine kao deo SHA-2 algoritamskog paketa koji je NSA učinila javnim. Za više informacija o ovoj temi, možete se obratiti kursu CYP201 koji predstavlja Loïc Morel.
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 

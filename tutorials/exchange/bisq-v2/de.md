@@ -8,7 +8,7 @@ description: Vollständige Anleitung zur Verwendung von Bisq 2 und zum P2P-Tausc
 
 KYC-freie Peer-to-Peer-Börsen (P2P) sind für die Wahrung der Vertraulichkeit und der finanziellen Autonomie der Nutzer unerlässlich. Sie ermöglichen direkte Transaktionen zwischen Einzelpersonen, ohne dass eine Identitätsprüfung erforderlich ist, was für diejenigen, die Wert auf ihre Privatsphäre legen, entscheidend ist. Für ein tieferes Verständnis der theoretischen Konzepte schauen Sie sich den Kurs BTC204 an:
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Was ist Bisq 2?
 
@@ -86,7 +86,7 @@ Dieser Leitfaden konzentriert sich ausschließlich auf "Bisq Easy", das einzige 
 - Laden Sie die Ihrem Betriebssystem entsprechende Version von Bisq 2 herunter (scrollen Sie auf der Seite nach unten)
 - Überprüfen Sie die Authentizität der heruntergeladenen Datei (dringend empfohlen). Eine ausführliche Anleitung zur Überprüfung der Signatur finden Sie im folgenden Tutorial:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### 2. Installation entsprechend Ihrem System
 

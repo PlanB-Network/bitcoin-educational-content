@@ -774,19 +774,15 @@ Amir [est](https://bitcointalk.org/index.php?topic=1568.msg19443#msg19443) lui-m
 
 Le projet Spesmilo est cependant abandonné en novembre 2011, au profit d'un projet autrement plus ambitieux : Electrum.
 
-L'autre idée, plus commode, est de faire usage de la vérification de paiement simplifiée (SPV), qui consiste à vérifier que les transactions appartiennent à la chaine de blocs sans devoir télécharger l'intégralité des données. Le 11 mars 2011, quelques jours après la publication de BitCoinJ, un développeur berlinois du nom d'Andreas Schildbach (Goonie) [dévoile](https://bitcointalk.org/index.php?topic=4384.msg64142#msg64142) le prototype d'un portefeuille pour les téléphones utilisant Android, basé sur l'implémentation de Mike Hearn. Sobrement nommé *Bitcoin Wallet for Android*, celui-ci devient le premier modèle fonctionnel de portefeuille léger sur mobile.
-
-https://groups.google.com/g/bitcoinj/c/fqUw1AKsxWI/m/pl6rzUSmUH4J
-
 ![Andreas Schildbach à la conférence re:publica à Berlin en mai 2016](assets/en/andreas-schildbach-rpen-may-2016-twitter-holger-bleich.webp)
 
 *Andreas Schildbach à la conférence re:publica à Berlin en mai 2016 (source : Holger Bleich sur [Twitter](https://twitter.com/_robinhob/status/727167827132727300))*
 
+L'autre idée, plus commode, est de faire usage de la vérification de paiement simplifiée (SPV), qui consiste à vérifier que les transactions appartiennent à la chaine de blocs sans devoir télécharger l'intégralité des données. Le 11 mars 2011, quelques jours après la publication de BitCoinJ, un développeur berlinois du nom d'Andreas Schildbach (Goonie) [dévoile](https://bitcointalk.org/index.php?topic=4384.msg64142#msg64142) le prototype d'un portefeuille pour les téléphones utilisant Android, basé sur l'implémentation de Mike Hearn. Sobrement nommé *Bitcoin Wallet for Android*, celui-ci devient le premier modèle fonctionnel de portefeuille léger sur mobile.
+
 ![Interface du Bitcoin Wallet for Android en juillet 2011](assets/en/bitcoin-wallet-android-july-2011.webp)
 
 *Interface du Bitcoin Wallet for Android en juillet 2011 (source : Brandon Iles pour [Wired](https://web.archive.org/web/20110710020745/https://www.wired.com/gadgetlab/2011/07/bitcoin-android-app/))*
-
-Problème de la confidentialité. Téléchargement du bloc complet (ce qui était prévu par Satoshi à l'origine), mais problème de bande passante. Bloom filters (BIP 37, https://github.com/bitcoin/bips/blob/master/bip-0037.mediawiki), proposés par Mike Hearn et Matt Corallo pour atténuer le problème.
 
 ### Les portefeuilles déterministes
 
@@ -806,7 +802,7 @@ Gregory Maxwell a beaucoup d'idées sur les façons d'améliorer l'utilisation d
 
 Il envisage deux types de dérivation. L'une (type 1) est simple et génère les clés privées directement à partir de la graine. L'autre (type 2) est plus complexe, mais permet de dériver les adresses d'une clé publique maitresse obtenue depuis la graine, sans accéder à la graine en question. Cela permet d'avoir un logiciel de traitement de paiements qui puisse générer une adresse à chaque transaction, sans que les clés privées ne soient exposées.
 
-Plus tard, au début de l'année 2012, une tentative de standardisation [aura lieu](https://github.com/bitcoin/bips/commit/be1741786684bb3a9f828b2f190ad3a0269c7ec3) avec le BIP 32. Celui-ci décrit la structure générale des « portefeuilles déterministes hiérarchiques » (*Hierarchical Deterministic Wallets*, HD Wallets), où les dérivations
+Plus tard, au début de l'année 2012, une standardisation [aura lieu](https://en.bitcoin.it/w/index.php?title=BIP_0032&oldid=26198) avec le BIP 32. Celui-ci décrit la structure générale des « portefeuilles déterministes hiérarchiques » (*Hierarchical Deterministic Wallets*, HD Wallets), où les dérivations sont utilisées de manière méthodique pour dériver les clés et les adresses de la graine.
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 

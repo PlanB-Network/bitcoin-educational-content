@@ -251,16 +251,16 @@ Abatera kenshi bakoresha imbuga z’ibinyoma, amakonti yo ku mbuga ngurukanabume
 Imbere yo gufyonda ku nzira canke gukora ikintu ico ari co cose, wama usuzuma kabiri akaranga k’uwarungitse. Igihe ushidikanya, genda kuri uru rubuga n’amaboko aho gukoresha uruja n’uruza rwatanzwe. Ikiruta vyose, ntukigere usangira n’umuntu uwo ari we wese imfunguruzo zawe canke amajambo y’ibanga yawe.
 
 
-#### Bitcoin Amaforogo akomeye
+#### Bitcoin Amafork akomeye
 
 
-Mu myaka iheze, Bitcoin yarabonye *amaforogo* menshi ya akomeye, ivyo vyatumye habaho ubundi buryo bwo gukoresha amafaranga ya nyayo. Mu majambo yoroshe, *Hard Fork* ni ugucapura mu rubuga bijana ku nzira zibiri zitandukanye, zose zisangiye amateka amwe gushika ku gihe c’ugucapura. Ivyo bimenyetso bishika iyo igice c’umuryango w’abahinguzi canke ibidukikije vyagutse vya Bitcoin bishaka gushiramwo amahinduka akomeye mu masezerano y’intango ariko ntibishobora gushika ku masezerano yagutse. Aho guheba ivyiyumviro vyabo, bafata ingingo yo gutanguza ubundi bwoko bushasha bwa Bitcoin(ifise amategeko yahinduwe)bizigiye ko abakoresha n’abacukuzi bazohitamwo gukurikira Fork yabo aho gukurikira.
+Mu myaka iheze, Bitcoin yarabonye amafork akomeye (hard forks), ayo mahinduka yabonye ingaruka zo gutuma havuka ubundi buryo bwo gukoresha amafaranga ya nyayo. Mu majambo yoroshe, Hard Fork ni ugucapura mu rubuga bijana ku nzira zibiri zitandukanye, zose zisangiye amateka amwe gushika ku gihe co gucapura. Ivyo bimenyetso biboneka iyo igice c’umuryango c’abahindura porogarama canke abantu bafata imigambi ku bijanye na Bitcoin bashaka gushiramwo amahinduka akomeye mu masezerano y’intango ariko ntibishobora kuzana amahinduka ku masezerano yose. Aho guheba ivyiyumviro vyabo, bafata ingingo yo gutangura ubundi bwoko bushasha bwa Bitcoin (ifise amategeko yahinduwe), bizeye ko abakoresha n’abacukuzi bazohitamwo gukurikira Fork yabo aho gukurikira.
 
 
 ![BTC102-Bitcoin](assets/fr/007.webp)
 
 
-Si *amaforoko ya Hard* yose ari ay’ayibinyoma, kuko amwe akomoka ku kutumvikana mu vy’ubuhinga canke mu vy’ingengabitekerezo mu kibano. Ariko rero, abandi babitumwe n’ivy’ubudandaji canke mbere n’imvo z’ubuhemu. Ingero zizwi cane z’izo nkoko zikomeye ni **Amahera ya Bitcoin (BCH)** na **Iyerekwa rya Bitcoin Satoshi (BSV)**. Yatangujwe mu 2017 na 2018, hakurikijwe, ayo mafaranga atari yo akenshi avuga ko ari "amafaranga meza" y'umwimerere Bitcoin. Batera imbere inyungu zivugwa nk’amahera make yo gucuruza canke gucuruza vyihuta kubera ubunini bw’inkuta bwongerekana. Ariko rero, ayo mahinduka mu vy’ubuhinga azana n’uguhinduranya gukomeye mu bijanye n’umutekano, ukwegereza ubutegetsi abaturage, n’ugukomera; ibintu bishobora guhushanya ingingo ngenderwako z’ishimikiro za Bitcoin.
+Si *amaforok ya Hard* yose ari ay’ayibinyoma, kuko amwe akomoka ku kutumvikana mu vy’ubuhinga canke mu vy’ingengabitekerezo mu kibano. Ariko rero, abandi babitumwe n’ivy’ubudandaji canke mbere n’imvo z’ubuhemu. Ingero zizwi cane z’izo nkoko zikomeye ni **Amahera ya Bitcoin (BCH)** na **Iyerekwa rya Bitcoin Satoshi (BSV)**. Yatangujwe mu 2017 na 2018, hakurikijwe, ayo mafaranga atari yo akenshi avuga ko ari "amafaranga meza" y'umwimerere Bitcoin. Batera imbere inyungu zivugwa nk’amahera make yo gucuruza canke gucuruza vyihuta kubera ubunini bw’inkuta bwongerekana. Ariko rero, ayo mahinduka mu vy’ubuhinga azana n’uguhinduranya gukomeye mu bijanye n’umutekano, ukwegereza ubutegetsi abaturage, n’ugukomera; ibintu bishobora guhushanya ingingo ngenderwako z’ishimikiro za Bitcoin.
 
 
 Uretse itandukaniro ry’ubuhinga, ayo mafaranga atari yo akenshi akoresha urujijo kugira ngo akwegere abanyamitahe badafise amakuru akwiye. Bashobora gukoresha ubuhinga bwo kwamamaza bugenewe kuzimiza n’ibigirankana abashasha bizera ko bariko bagura Bitcoin (BTC) y’ukuri.
@@ -281,44 +281,44 @@ Uko amahera y'mahinguriro agenda aramamara cane, ubuhinga bwo guhanahana amakuru
 Abo bantu bagira ico bakoze akenshi bizera ubuhinga bugaragara kugira ngo bakwegere abaje bashahsa gutangura muri ino si ya bitcoin: berekana ingaruka zitangaje z’ivy’ubutunzi (akenshi zikaba ari iz’ibinyoma canke zidashobora gusuzumwa canke kugendurwa), bashira ahabona ubuzima bw’abo nk'abantu bafise amafaranga nk’ikimenyetse c’uko bamaze kuronka, kandi bagatera imbere intambara zo gushiramwo amahera “z’igitangaza”. Intumbero ni ugutuma FOMO — ubwoba bwo guhomba amahirwe — no gusunika ababumviriza mu ngingo zidasanzwe no mu gushiramwo amafaranga atabanje kwiyumvira.
 
 
-Ni vyiza gutahura ko impanuro nyinshi "z'ubuntu" zivuye kuri abo bantu zitazokwigera zigira ubuntu vy'ukuri. Inyuma y’ubugwaneza akenshi hariho ubuhinga buharuriwe bwo kuyobora abantu ku kugura ibintu biteye amakenga. Kandi naho abagira ico bakoze bamwebamwe boba ari abanyakuri, gusubiramwo ivyo bavuyemwo vyoba hafi bidashoboka; ukuroranirwa kwabo akenshi kuvana n’igihe kinaka, ubumenyi bwo mu mutima canke ibintu bidasanzwe udashobora gusa kuronka.
+Ni vyiza gutahura ko impanuro nyinshi "z'ubuntu" zivuye kuri abo bantu zitazokwigera zigira ukwizigirwa vy'ukuri. Inyuma y’ubugwaneza akenshi hariho ubuhinga buharuriwe bwo kuyobora abantu ku kugura ibintu biteye amakenga. Kandi naho abagira ico bakoze bamwebamwe boba ari abavugakuri, gusubiramwo ivyo bavuyemwo vyoba hafi bidashoboka; ukuroranirwa kwabo akenshi kuvana n’igihe kinaka, ubumenyi bwo mu mutima canke ibintu bidasanzwe udashobora gusa kuronka.
 
 
-Hari abagutumira kugira ngo winjire mu mirwi yigenga, yishurwa aho bavuga ko basangira ibimenyetso vy’ubudandaji vyihariye canke impanuro z’imbere mu gihugu zisezerana inyungu zihuta kandi ziyoroshe. Mu vy’ukuri, iyo migwi ahanini irahezagira abayitegura ubwabo. Akenshi bakoresha abayoboke babo nk’isoko y’amahera, ahanini bagakura ivy’ubutunzi kugira ngo bironke inyungu zabo bwite. Abanyamuryango kenshi baheza bagatakaza amahera, kuko badashobora gukora vyihuse nk’abanyamuryango b’imbere mu gihugu bategura ubudandaji (raba igice kivuga ku migambi ya Pump & Dump).
+Hari abaguhamagarira kugira ngo winjire mu mirwi yigenga, yishurwa aho bavuga ko basangira ibimenyetso vy’ubudandaji vyihariye canke impanuro z’imbere mu gihugu zibemerera inyungu zihuta kandi ziyoroshe. Mu vy’ukuri, iyo migwi ahanini irahezagira abayitegura ubwabo. Akenshi bakoresha abanywanyi babo nk’isoko y’amahera, ahanini bagakura ivy’ubutunzi kugira ngo bironke inyungu zabo bwite. Abanyamuryango kenshi baheza bagatakaza amahera, kuko badashobora gukora vyihuse nk’abanyamuryango b’imbere mu gihugu bategura ubudandaji (raba igice kivuga ku migambi ya Pump & Dump).
 
 
-Kubera ivyo bintu vy’ukuri, ng’ibi ingeso nziza twogira kugira ngo ntitugwe mu mitego y’abantu b’abanyabinyoma:
+Kubera ivyo bintu vy’ukuri, ng’ibi inyifato nziza twogira kugira ngo ntitugwe mu mitego y’abantu b’abababeshi:
 
 
 
 - Ube maso cane ku vyiyumviro vyose vyo kudandaza muri crypto.**
 
-Umuntu wo kwizigirwa kandi afise ubumenyi ntazokwigera akuhatira kugura amafaranga y’ivy’ubuhinga bwa none atagutera intege ngo ubanza gukora ubushakashatsi bwawe bwite.
+Umuntu wo kwizigirwa kandi afise ubumenyi ntazokwigera akuhatira kugura amafaranga y’ivy’ubuhinga bwa none atagutera intege ngo ubanza kuvyiga muburyo bwimbitse kuruhande rwawe bwite.
 
 
-- Amashure y'ubudandaji canke y'ishoramari yishurwa ntabwo yama ari ikimenyetso c'uburyo.**
+- Amashure y'ubudandaji canke y'igushora imitahe yishurwa ntabwo yama ari ikimenyetso c'uburyo.**
 
-Benshi muri ayo masomo bararemesha ingamba zishobora gutera akaga canke ziyoroshe cane; kenshi ayo makuru nyene ushobora kuyaronka kuri Internet ku buntu.
+Benshi muri ivyo vyirwa bararemesha intambara zishobora gutera akaga canke ziyoroshe cane; kenshi ayo makuru nyene ushobora kuyaronka kuri Internet ku buntu.
 
 
 - Nta kintu nk'ico co gukopa ubucuruzi bw'umuntu maze ukaronka ibisubizo bisa.**
 
-Ingamba yose yo gushiramwo amahera ivana n’ivyo umuntu abayemwo, igihe afise, ubumenyi afise, n’ibindi bintu bidashobora kwisubirwamwo neza na neza.
+Intambara zose zo gushiramwo amahera zivana n’ivyo umuntu abayemwo, igihe afise, ubumenyi afise, n’ibindi bintu bidashobora kwisubirwamwo neza na neza.
 
 
-- Cane cane urabe maso ku mpanuro zisa n’izibereye cane.**
+- Cane cane urabe maso ku mpanuro zisa n’aho ari nziza cane mugutahura kwawe.**
 
 Amasezerano atari yo canke inyungu zishimikijwe hafi y’igihe cose ni ibimenyetso vy’ugukoreshwa nabi. Ibuka: kuba umuntu avuze ikintu yizigiye ntibituma kiba ukuri.
 
 
-Imisi yose wibuke, umuntu wese uhura na we muri Bitcoin canke muri crypto ecosystem yagutse afise umurongo w’ibikorwa vyiwe bwite; yaba ivuzwe ataco ihinduye canke ihishijwe hagati y’imirongo. Nta kintu nk’ico c’amakuru atagira aho abogamiye gusa. Mbere n'iri shure, BTC102, rifise intumbero itomoye, *gutuma abantu barushiriza gutahura Bitcoin.*
+Imisi yose wibuke, umuntu wese uhura na we muri Bitcoin canke muri crypto ecosystem yagutse afise umurongo w’ibikorwa vyiwe bwite agenderako; yaba ivuzwe ataco ihinduye canke ihishijwe hagati y’imirongo. Nta kintu nk’ico c’amakuru atagira aho ashimikiye gusa. Mbere n'iki cirwa ca, BTC102, gifise intumbero itomoye, *gutuma abantu barushiriza gutahura Bitcoin.*
 
-Ni co gituma ari ngombwa ko uguma umenya imvo nyazo zituma ukoresha ikintu cose ukoresha. Kandi ntimwigere mwibagirwa iri tegeko ry’inzahabu rya internet:
+Ni co gituma ari ngombwa ko uguma umenya imvo nyakuri zituma ukoresha ikintu cose ukoresha. Kandi ntimwigere mwibagirwa iri tegeko ry’inzahabu rya internet:
 
-*Nimba igicuruzwa canke igikorwa kimeze nk'ikidasanzwe, hari amahirwe menshi ko ari wewe igicuruzwa.*
+*Nimba igicuruzwa canke igikorwa kimeze nkaho ar'ica gusa, hari amahirwe menshi ko ari wewe igicuruzwa.*
 
 
-Mu mpera, ikintu ciza co kwikingira ni inyigisho yawe bwite, ugukekeranya gufise akamaro, kandi ikiruta vyose, akamenyero ko kwisuzuma ukuri.
+Ariko ukamenya ko ingingo nziza yo kwikingira ni indero yawe bwite, ukugira amakenga gufise ikimazi, kandi ikiruta vyose, ukagira akamenyero ko gusuzuma ibikorwa vyawe kenshi.
 
 
 ### Uko wokwirinda ubusuma

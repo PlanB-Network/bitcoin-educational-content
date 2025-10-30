@@ -395,7 +395,7 @@ Berkat kolaborasi beberapa anggota kelompok Gournay, banyak penulis dapat menerb
 
 - [Noblesse commerçante](https://archive.org/details/lanoblessecommer00coye/page/n3/mode/2up) karya Coyer (5 edisi dalam 2 tahun)
 
-- [Remarks on the Advantages and Disadvantages of France and Great Britain](https://archive.org/details/bim_eighteenth-century_remarks-on-the-advantage_plumard-de-dangeul-loui_1754 karya Plumard de Dangeul (3 edisi pada tahun pertamanya)
+- [Remarks on the Advantages and Disadvantages of France and Great Britain](https://archive.org/details/bim_eighteenth-century_remarks-on-the-advantage_plumard-de-dangeul-loui_1754) karya Plumard de Dangeul (3 edisi pada tahun pertamanya)
   
 - [Memoir on the Trades](https://www.amazon.com/Memoire-sur-corps-metiers-French/dp/1978196903) karya Cliquot-Blervache dan Gournay (2 edisi pada tahun 1758)
 

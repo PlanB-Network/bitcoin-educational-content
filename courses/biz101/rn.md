@@ -369,15 +369,15 @@ Lightning Network ni **umurongo n'urubuga** rufasha mu kurungika no kwakira ama 
 ![BIZ101](assets/rn/005.webp)
 
 
-Ubwo buryo burarinda ubuteba n’ugusobanuka kw’ugukora igikorwa cose ataco uhinduye ku Blockchain nyamukuru ya Bitcoin, kwandika gusa amafaranga y’iherezo no kuguma afise umutekano wayo. Lightning Network ni Layer "iri hejuru" ya Bitcoin ariko iguma ifashe kuri yo.
+Ubwo buryo burarinda uguteba nukugorana mugutunganya irungika iryari ryoryose bitamanje guca umwanya wose kumuho  nyamukuru Blockchain wa Bitcoin, mukwandika gusa amafaranga yanyuma no kugumana umutekano wayo. Lightning Network ni agace  "kari hejuru" ya Bitcoin ariko kaguma gafashe kuri yo.
 
 
-**Ihuriro ry'ukwishyura kw'isi yose**
+**Umuhora  w'ukwishurirako kw'isi yose**
 
-Iryo tegeko rikora **urubuga** rw’amamashini aho imirongo ikora uburyo bwo kwishura kw’isi yose. Izo nzira zishobora gukoreshwa n’abantu canke n’ubudandaji ataco zitwaye, bikaba bituma iba urubuga rwuguruye rwose.
+Urwo rutonde rurema **urubuga** rw’amamashini aho akora imihora  ikora sisiteme yo kurihirako kw’isi yose. Izo nzira zishobora gukoreshwa n’abantu canke n’inganda  , bikaba bituma biba urubuga rwuguruye kuri bose.
 
 
-Lightning Network ishoboza agaciro k’aho nyene Exchange ku muvuduko w’umuco. Ni nk’umurongo wa email ukoreshwa ku kwishura: urubuga rwo kwishura rw’uruvyaro rukurikira. Ihindura cane uburyo "amahera" agenda, akayigira ku buntu kandi yihuta nk'ugutanga amakuru kuri internet.
+Lightning Network ituma ama  rungika nama rungikwa aba anyaruka  nku muvuduko w’umuco. Ni nk’umurongo wamarungika yubutumwa dukoresheje ubuhinga bwa none gusa ubukoresheje  mu kwishura amafaranga : ubwo buhinga ni urubuga rwo kwishura rw’uruvyaro rushasha. Ivyo bihindura cane uburyo "amahera" azunguruka mwisi, bigakora ku buntu kandi vyihuta nk'uguhanahana amakuru kuri internet.
 
 
 ![BIZ101](assets/rn/006.webp)

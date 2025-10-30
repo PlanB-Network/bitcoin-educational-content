@@ -12,7 +12,7 @@ objectives:
 
 Bienvenue dans le cours de Théo Mogenet ! Passionné d'économie, d'histoire, de littérature, de sciences politiques et de technologie, il a décidé de partager ses connaissances en économie autrichienne avec vous. Cette branche, moins connue en économie, repose sur la rationalité humaine et le comportement des acteurs libres. Moins axée sur les mathématiques, il s'agit avant tout de logique et d'étude sociale.
 
-Cette école de pensée a déjà plusieurs siècles d'existence et compte de nombreux auteurs, réflexions et économistes derrière elle. De grands noms de l'économie tels que Hayek, Rothbard, Mises, Bastiat ou Menger ont longtemps défendu ce mouvement. Contrairement au keynésianisme omniprésent de notre époque, l'école autrichienne replace l'individu au centre de l'équation avec une approche plus libérale, capitaliste et même anarchiste.
+Cette école de pensée a déjà plusieur s siècles d'existence et compte de nombreux auteurs, réflexions et économistes derrière elle. De grands noms de l'économie tels que Hayek, Rothbard, Mises, Bastiat ou Menger ont longtemps défendu ce mouvement. Contrairement au keynésianisme omniprésent de notre époque, l'école autrichienne replace l'individu au centre de l'équation avec une approche plus libérale, capitaliste et même anarchiste.
 
 +++
 

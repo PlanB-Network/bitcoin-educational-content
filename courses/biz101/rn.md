@@ -347,23 +347,23 @@ Kugira ngo umenye vyinshi ku bijanye na Bitcoin, amateka yayo, ingene ikora, n�
 
 https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
-## Intangamarara y’igitabu Lightning Network
+## Intangamarara y’umuhora Lightning Network
 
 <chapterId>c095c7ad-5469-4c7b-9510-b6c0b86244e7</chapterId>
 
 
-**UMURARO NI IKI?**
+**Lightning Network NI IKI?**
 
 
-Lightning Network ni **umurongo n'urubuga** bifasha mu gukorana na Bitcoin ata gukorana guke na Blockchain nyamukuru ya Bitcoin. Ehe ingene bigenda:
+Lightning Network ni **umurongo n'urubuga** rufasha mu kurungika no kwakira ama bitcoin butifashishije cane umuhora mukuru wa bitcoin bita blockchain. Ehe ingene bigenda:
 
 
 
-- **Itegeko rya mbere:** Amahera arafungwa (escrowed) kuri Blockchain nyamukuru kugira ngo habeho umurongo wo kwishura hagati y'abantu 2.
-- **Urubuga rwo kwishura:** Urubuga rw'imihora yo kwishura hagati y'abantu benshi rukora urusobe rw'ukwishura (uguca mu nzira n'uguhuza).
-- **Ibikorwa vya off-chain:** Ibikorwa bibera hagati y'abafatanyabikorwa ariko **ntibica bitangazwa** kuri Blockchain nyamukuru ya Bitcoin (**"off-chain"**).
-- Ivyiyumviro vya On-Chain: **Igiciro ca nyuma** c'ibikorwa vy'umurongo gusa ni co gisohoka kuri Bitcoin Blockchain nyamukuru (**"On-Chain"**), bikaba vyemeza ko ibikorwa vyinshi vishobora kubaho muri ico gihe. Ukwo gukoranya amahera menshi bigabanya uguhagarara kw'abantu, gutyo bikagabanya amahera ugereranije n'ugukora amahera menshi ya On-Chain.
-- Gufunga umurongo: Uwukoresha arashobora gufunga umurongo wiwe igihe cose maze agasubira gusaba Bitcoin yiwe mu gutangaza ivy'ubucuruzi bwa nyuma. Iryo ni ryo hame ry'uko amafaranga **"ashobora gusohoka"** igihe cose ariko **"atasohorwa"** gushika bikenewe. Ivyo gusohoka (ugufunga umuyoboro) bishobora kuba ivy'uruhande rumwe (bifatwa n'umwe mu bagize iyo mpande 2 igihe cose) canke bifatwa n'abantu bose (bigatuma amafaranga On-Chain agabanuka)
+- **integuro yibanze:** Amahera arafungwa (escrowed) kumuhora nyamukuru wa bitcoin wa blockchain kugira ngo habeho umuhora wo kwishurirako hagati y'impande zibiri.
+- **Urubuga rwo kwishurirako:** Urubuga rw'imihora yo kwishurirako hagati y'imice myishi rurema urubuga rwo kwishurirako ( urufatangane , ubuhuza).
+- **amarungika abera inyuma ya shene(umurongo) :** Ibikorwa bibera hagati y'imice ibiri ariko **ntibica bitangazwa ubwonyene** kuri Blockchain nyamukuru ya Bitcoin (**"off-chain"**).
+- Itungamywa kwi shene( umurongo): **Igiciro ca nyuma** c'ibikorwa  gusa ni co gisohoka kumuhora nyamukuru Blockchain wa bitcoin (**"On-Chain"**), bikaba bituma  ko ibikorwa vyinshi bishobora kuba muri ico gihe. Ukwo gukoranya amahera menshi bigabanya ukuzuza umuhora amahera arishwe mumice mice , gutyo bikagabanya amahera akatwa iyo habaye irungikwa ugereranije n'uko hoza haraca kumu hora amafaranga ari mumice mice .
+- infurwa ry'umurongo: Uwukoresha umuhora wa bitcoin arashobora gufunga umurongo wiwe igihe cose ashakiye maze agasubira gusaba ama Bitcoin yiwe mu gutangaza ivy'ivyirungika yiwe ya nyuma. Iryo ni ryo hame ry'uko amafaranga **"ashobora gusohoka"** igihe cose ariko **"atasohorwa"** gushika bikenewe. Ivyo gusohoka kwa amafaranga ya bitcoin (ugufungwa kwumuhora) bishobora kuba ivy'uruhande rumwe (bifatwa n'umwe mu bagize  izo mpande 2 ) canke bifatwa n'abantu bose (bigatuma amafaranga akatwa agabanuka)
 
 
 ![BIZ101](assets/rn/005.webp)

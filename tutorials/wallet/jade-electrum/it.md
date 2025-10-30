@@ -1,6 +1,6 @@
 ---
-name: Uso di Jade con Electrum Wallet
-description: Come usare il tuo Jade con Electrum (desktop)
+name: Jade, Jade Plus con Electrum
+description: Come usare il tuo Jade o Jade Plus con Electrum (desktop)
 ---
 
 ![cover](assets/cover.webp)

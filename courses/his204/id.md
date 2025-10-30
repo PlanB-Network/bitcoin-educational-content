@@ -261,265 +261,168 @@ Kepala Biara Saint-Pierre menulis tentang ekonomi, tetapi ia justru lebih sering
 
 Dalam karya ini, ia berargumen bahwa perang bersifat merusak, tidak hanya bagi mereka yang kalah, tetapi juga bagi para pemenang, dan bahkan bagi mereka yang tidak ikut serta, karena perdagangan mereka ikut terpengaruh.
 
-Untuk memerangi sumber perang, ia merekomendasikan pembentukan semacam Liga Bangsa-Bangsa Eropa (European League of Nations). Sebuah dewan Eropa akan dibentuk untuk menyelesaikan masalah setiap negara. Dengan demikian, negara-negara akan beralih ke arbitrase untuk menghindari penggunaan senjata. Jika suatu negara tidak cukup bijaksana untuk menerima perdamaian dan mengancam negara-negara Eropa lainnya, liga bangsa-bangsa Eropa akan memiliki cara untuk merespons. Dalam menghadapi peristiwa tersebut, tentara Eropa akan dibentuk, dengan pasukan yang disediakan oleh berbagai negara.
+Untuk memerangi momok perang, ia merekomendasikan pembentukan semacam Liga Bangsa-Bangsa Eropa (European League of Nations). Sebuah dewan Eropa akan dibentuk untuk menyelesaikan masalah setiap negara. Dengan demikian, negara-negara akan beralih ke arbitrase untuk menghindari penggunaan senjata. Jika suatu negara tidak cukup bijaksana untuk menerima perdamaian dan mengancam negara-negara Eropa lainnya, liga bangsa-bangsa Eropa akan memiliki cara untuk merespons. Dalam menghadapi peristiwa tersebut, tentara Eropa akan dibentuk, dengan pasukan yang disediakan oleh berbagai negara.
 
-Ada juga sebuah episode dalam kehidupan Kepala Biara Saint-Pierre yang dengan sempurna menggambarkan pola pikir kritis di balik gerakan laissez-faire Prancis. Ia bergabung dengan Académie Française pada tahun 1695, namun dikeluarkan pada tahun 1718 karena berani mengkritik pemerintahan Louis XIV. Dalam hal ini, ia sejajar dengan tokoh-tokoh seperti Vauban dan Boisguilbert, yang juga berani berbicara menentang misteri yang tersembunyi di balik kemegahan pemerintahan Raja Matahari.
-
+Ada juga sebuah episode dalam kehidupan Kepala Biara Saint-Pierre yang secara sempurna menggambarkan pola pikir kritis di balik gerakan laissez-faire Prancis. Ia bergabung dengan Académie Française pada tahun 1695, tetapi dikeluarkan pada tahun 1718 karena berani mengkritik pemerintahan Louis XIV. Dalam hal ini, ia sejalan dengan tokoh-tokoh seperti Vauban dan Boisguilbert, yang juga berani berbicara menentang kesengsaraan yang tersembunyi di balik kemegahan pemerintahan "Raja Matahari" (Sun King).
 
 ![image](assets/id/021.webp)
 
+Kepala Biara Saint-Pierre berpendapat bahwa pemerintahan Louis XIV, dengan istananya yang mewah dan obsesi terhadap penaklukan militer, bukanlah tanda dari seorang raja yang berbudi luhur. Ia menolak menerima bahwa Louis XIV layak mendapatkan gelar **"Louis Agung" (Louis the Great)**.
 
-Kepala Biara Saint-Pierre berpendapat bahwa pemerintahan Louis XIV, dengan istananya yang mewah dan obsesi terhadap penaklukan militer, bukanlah tanda seorang raja yang berbudi luhur. Dia menolak untuk menerima bahwa Louis XIV pantas mendapatkan gelar "**Louis yang Agung**".
-
-
-
-
-
-"Menghancurkan tetangga dan rakyat pada saat yang sama bukanlah sebuah kebesaran", katanya. Posisi ini sangat menyinggung Académie Française, yang telah lama disibukkan dengan mengagungkan raja dalam segala bentuk sastra. Akibatnya, mereka memilih dengan suara bulat untuk mengusirnya.
-
+"Menghancurkan tetangga dan rakyat sendiri pada saat yang sama bukanlah keagungan," katanya. Posisi ini sangat menyinggung Académie Française, yang selama ini disibukkan dengan memuliakan raja dalam setiap bentuk literatur yang memungkinkan. Akibatnya, sebagian besar mereka dengan suara bulat memilih untuk mengusirnya.
 
 ![image](assets/id/022.webp)
 
+Dalam hal pemikiran ekonomi, ia secara konsisten menerapkan prinsip utilitas (utility), sangat mirip dengan apa yang akan dilakukan Jeremy Bentham di kemudian hari, dan sering kali menawarkan wawasan yang masuk akal. Agar adil, ia masih dipengaruhi oleh ide-ide merkantilis, yang saat itu belum sepenuhnya ditinggalkan oleh siapa pun.
 
-Dalam hal pemikiran ekonomi, ia secara konsisten menerapkan prinsip utilitas, seperti yang dilakukan Jeremy Bentham di kemudian hari, dan sering kali menawarkan wawasan yang baik. Sejujurnya, ia masih dipengaruhi oleh ide-ide merkantilis, yang belum sepenuhnya ditinggalkan oleh siapa pun pada saat itu.
+Meskipun demikian, Kepala Biara Saint-Pierre membuat beberapa pengamatan akurat tentang ekonomi. Bahkan sebelum _Condillac_, yang sering dikreditkan dengan gagasan tersebut, ia menyatakan dengan jelas bahwa dalam setiap pertukaran, kedua belah pihak mendapatkan manfaat. Hal ini dapat ditemukan dalam karyanya tahun 1733, ["Project for Improving France's Trade"](https://www.institutcoppet.org/projet-pour-perfectionner-le-commerce-de-france/), di mana ia menulis:
 
-
-Namun, Kepala Biara Saint-Pierre membuat beberapa pengamatan yang akurat tentang ekonomi. Bahkan sebelum *Condillac*, yang sering dikreditkan dengan ide tersebut, dia menyatakan dengan jelas bahwa dalam Exchange, kedua belah pihak diuntungkan. Hal ini dapat ditemukan dalam ["Proyek untuk Meningkatkan Perdagangan Prancis"] (https://www.institutcoppet.org/projet-pour-perfectionner-le-commerce-de-france/) tahun 1733, di mana ia menulis:
-
-
-> "Ketika penjualan dilakukan di antara para pedagang, penjual mendapatkan keuntungan, begitu pula pembeli; karena jika tidak ada keuntungan yang nyata atau yang dirasakan oleh kedua belah pihak, penjual tidak akan menjual dengan harga sekian dan sekian, dan pembeli, di sisi lain, tidak akan membeli dengan harga sekian".
+> "Ketika penjualan dilakukan antara pedagang, penjual mendapatkan keuntungan, dan begitu juga pembeli; karena jika tidak ada manfaat nyata atau yang dirasakan di kedua sisi, baik penjual tidak akan menjual pada harga tertentu, maupun pembeli, pada bagiannya, tidak akan membeli pada harga tersebut."
 
 ![image](assets/id/023.webp)
 
-
-Dia juga menekankan, sebelum Vincent de Gournay melakukannya, nilai tenaga kerja dan pentingnya menjaganya agar tetap menarik. "Semua pekerjaan itu sulit", tulisnya. "Dan ketika seseorang melihat bahwa pekerjaannya tidak menghasilkan apa-apa, atau tidak cukup, dia akan menganggur dan tidak mau repot-repot melakukan usaha yang tidak perlu". Argumen ini kemudian digemakan oleh Marquis d'Argenson, Vincent de Gournay, dan kaum Fisiokrat ketika mereka mengkritik peraturan yang memberatkan dan sistem serikat pekerja. Mereka berpendapat bahwa pembatasan semacam itu membuat para pekerja patah semangat, menyebabkan kesulitan yang tidak perlu, dan pada akhirnya membuat kemalasan tampak lebih menarik daripada upaya produktif dalam kondisi seperti itu.
-
-
+Dia juga menekankan, sebelum Vincent de Gournay melakukannya, tentang nilai tenaga kerja dan pentingnya menjaganya tetap menarik. "Semua pekerjaan itu sulit," tulisnya. "Dan ketika seorang pria melihat bahwa pekerjaannya tidak memberinya imbalan apa pun, atau tidak cukup, ia menjadi malas dan tidak akan repot-repot melakukan upaya yang tidak perlu." Argumen ini kelak akan digaungkan oleh Marquis d'Argenson, Vincent de Gournay, dan kaum Fisiokrat saat mereka mengkritik regulasi yang membebani dan sistem serikat pekerja. Mereka berpendapat bahwa pembatasan tersebut membuat pekerja patah semangat, menyebabkan kesulitan yang tidak perlu, dan pada akhirnya membuat kemalasan tampak lebih menarik daripada upaya produktif di bawah kondisi seperti itu.
 
 ## Marquis d'Argenson
 
-
 <chapterId>e9960ab4-72ec-5afd-8e97-bf89c83b62bc</chapterId>
-
 
 Marquis d'Argenson adalah pendiri doktrin laissez-faire yang terlupakan.
 
-
 ![image](assets/id/024.webp)
 
+Karyanya ditemukan kembali oleh August Oncken, penulis buku tentang doktrin laissez-faire, laissez-passer, yang menyimpulkan bahwa d'Argenson memainkan peran utama dalam kelahiran gagasan ini.
 
-Hal ini ditemukan kembali oleh August Oncken, penulis buku tentang doktrin laissez-faire, laissez-passer, yang menyimpulkan bahwa d'Argenson memainkan peran utama dalam lahirnya ide ini.
+René-Louis Voyer, Marquis d'Argenson, lahir pada tahun 1694. Ia memulai karier politiknya sebagai penasihat parlemen, kemudian bertugas sebagai anggota Dewan Negara (Council of State).
 
-
-
-
-
-René-Louis Voyer, Marquis d'Argenson, lahir pada tahun 1694. Ia memulai karier politiknya sebagai penasihat parlemen, kemudian menjabat sebagai anggota Dewan Negara.
-
-
-Tiga puluh tahun sebelum Adam Smith, d'Argenson sudah membela manfaat dari pembagian kerja dan spesialisasi.
-
+Tiga puluh tahun sebelum Adam Smith, d'Argenson sudah merancang manfaat dari pembagian kerja (division of labor) dan spesialisasi.
 
 ![image](assets/id/025.webp)
 
-
-Dia sangat mengkritik peraturan yang, menurutnya, mencoba mengubah preferensi alami dari berbagai daerah. Sebagai contoh, ia bingung bahwa pemerintah ingin memproduksi kain dan beludru di Tours, sebuah kota yang miskin pada saat itu, untuk menyamai kualitas yang dibuat di Genoa yang makmur, yang terkenal dengan barang-barang mewahnya. Dia menyimpulkan:
-
+Dia sangat mengkritik regulasi yang, menurut pandangannya, berusaha mengubah preferensi alamiah dari berbagai wilayah. Sebagai contoh, ia bingung bahwa pemerintah ingin memproduksi kain dan beludru di Tours, sebuah kota miskin saat itu, agar menyamai kualitas yang dibuat di Genoa yang makmur, yang terkenal dengan barang-barang mewahnya. Ia menyimpulkan:
 
 > "Setiap tempat harus diizinkan untuk memilih pabriknya sendiri. Kebebasan! Kebebasan!"
 
-Dia juga mengakui prinsip utama Smith yang lain: gagasan bahwa keteraturan spontan muncul dari pengejaran kepentingan pribadi. Marquis d'Argenson percaya bahwa kepentingan pribadi yang mendesak adalah yang mendorong energi manusia. Dia menulis bahwa pengerjaan yang buruk dan penipuan akan mendiskreditkan produsen, sementara ketekunan dan niat baik akan membawa kemakmuran. Menurutnya, penilai terbaik untuk utilitas adalah individu, masyarakat luas, yang membeli barang dan peduli untuk membuat kesepakatan yang baik. "Setiap orang merasakan kepentingannya sendiri," katanya, "setiap orang mengambil tindakan yang menguntungkan baginya, dan dalam kesepakatan umum inilah kita menemukan kebenaran."
+Dia juga mengakui prinsip utama Smith lainnya: gagasan bahwa tatanan spontan muncul dari pengejaran kepentingan diri. Marquis d'Argenson percaya bahwa kepentingan pribadi yang mendesak adalah yang mendorong energi manusia. Ia menulis bahwa pengerjaan yang buruk dan penipuan akan mendiskreditkan produsen, sementara ketekunan dan niat baik akan membawa pada kemakmuran. Penilainn terbaik tentang kegunaan (utility), menurutnya, adalah individu, masyarakat luas, yang membeli barang dan peduli untuk membuat kesepakatan yang baik. "Setiap orang mengutamakan kepentingannya sendiri," katanya, "setiap orang mengambil tindakan yang menguntungkan baginya, dan di dalam persetujuan umum inilah cara kita menemukan kebenaran."
 
-
-
-Bahkan sebelum Adam Smith, ia telah memahami bahwa kepentingan pribadi mengarah pada kepentingan umum melalui pembangunan tatanan alamiah yang spontan.
-
+Bahkan sebelum Adam Smith, ia memahami bahwa kepentingan diri mengarah pada kepentingan umum melalui pembangunan tatanan alamiah yang spontan.
 
 ![image](assets/id/026.webp)
 
+Dia membandingkan masyarakat dengan sarang lebah di mana setiap serangga mengikuti nalurinya. "Dari tindakan mereka," katanya dengan tepat, "menghasilkan akumulasi besar untuk kebutuhan masyarakat kecil; tetapi ini tidak terjadi melalui perintah, atau oleh jenderal, yang mewajibkan setiap individu untuk mengikuti pandangan pemimpin mereka." Ini mungkin merupakan ungkapan yang mendekati dalam pemikiran ekonomi Prancis dengan konsep terkenal Adam Smith tentang "tangan tak terlihat" (invisible hand)
 
-Dia membandingkan masyarakat dengan sarang lebah di mana setiap serangga mengikuti nalurinya, "Dari tindakan mereka", katanya dengan tepat, "menghasilkan akumulasi yang besar untuk kebutuhan masyarakat kecil; tetapi hal ini tidak dihasilkan oleh perintah, atau oleh para jenderal, yang mewajibkan setiap individu untuk mengikuti pandangan pemimpin mereka". Ini mungkin merupakan ungkapan yang paling dekat dalam pemikiran ekonomi Prancis dengan konsep terkenal Adam Smith tentang "tangan tak terlihat".
+Marquis d'Argenson selalu marah dengan ide-ide para menteri di zamannya. Satu-satunya pertanyaan yang mereka ajukan adalah, "Haruskah kita mengatur dengan cara ini atau itu? Haruskah kita mengarahkan ekonomi ke sana atau ke sini?". D'Argenson menjawab: "Tidakkah seharusnya kita bertanya terlebih dahulu apakah pantas untuk mengarahkan semuanya itu, atau apakah segala sesuatunya harus dibiarkan berjalan dengan sendirinya?"
 
+Sejujurnya, ia heran mengapa orang begitu sulit memahami, atau lebih tepatnya, melihat, efek merugikan dari regulasi berlebihan pada ekonomi. Menurutnya, cukup dengan membuka mata. "Begitu banyak hal berjalan cukup baik hari ini," tulisnya dengan getir, "hanya karena mereka berhasil lolos dari jangkauan hukum." 
 
-Marquis d'Argenson selalu marah dengan ide-ide para menteri pada masanya. Satu-satunya pertanyaan yang mereka ajukan adalah, "Haruskah kita mengatur dengan cara ini atau itu? Haruskah kita mengarahkan ekonomi ke arah ini atau itu?". Yang dijawab oleh d'Argenson: "Bukankah kita harus bertanya terlebih dahulu apakah tepat untuk mengarahkan semua itu, atau apakah segala sesuatunya harus dibiarkan berjalan dengan sendirinya?"
-
-
-
-Sejujurnya, ia merasa heran bahwa orang-orang merasa sangat Hard untuk memahami, atau lebih tepatnya, untuk melihat, efek berbahaya dari segala jenis regulasi yang berlebihan terhadap perekonomian. Dalam pandangannya, cukup dengan membuka mata saja. "Begitu banyak hal yang berjalan dengan baik hari ini", tulisnya dengan getir, "hanya karena mereka berhasil lolos dari jangkauan hukum".
-
-Terkadang, ia putus asa karena ide-idenya tidak banyak dipahami.
-
+Terkadang, ia putus asa melihat betapa sedikitnya idenya dipahami.
 
 ![image](assets/id/027.webp)
 
+Oleh karena itu, idealisme kebijakan ekonomi yang ia bela bertentangan dengan tren zamannya. Idenya mendefinisikan peran Negara yang pada dasarnya minimal. "Semua yang dibutuhkan perdagangan hanyalah penghapusan hambatan. Perdagangan hanya meminta hakim yang baik, hukuman bagi monopoli, perlindungan yang sama untuk semua warga negara, mata uang yang stabil, serta jalan dan kanal." Ini adalah definisi untuk Negara minimal (minimal State), yang akan menjadi salah satu fondasi tradisi Prancis dalam ekonomi politik.
 
-Oleh karena itu, cita-cita kebijakan ekonomi yang dibelanya bertentangan dengan tren pada masanya. Cita-citanya mendefinisikan peran yang pada dasarnya negatif bagi Negara. "Yang dibutuhkan oleh perdagangan adalah penghapusan hambatan. Ia hanya meminta hakim yang baik, hukuman terhadap monopoli, perlindungan yang sama untuk semua warga negara, mata uang yang stabil, serta jalan dan kanal". Ini adalah definisi untuk Negara minimal, yang akan menjadi salah satu dasar dari tradisi Prancis dalam ekonomi politik.
+Visi tentang peran Negara dalam kegiatan ekonomi ini secara alami diilustrasikan dengan kajian terhadap dua isu utama yang menggerakkan para ekonom dan pemikir sosial di zamannya: regulasi industri dan perdagangan gandum.
 
+Regulasi industri, pertama-tama, membangkitkan semua kebenciannya, karena regulasi tersebut memberikan hak istimewa untuk sebagian orang dengan mengorbankan yang lain. "Penyebab sebenarnya dari kemerosotan pabrik=pabrik kita," tulisnya, "adalah perlindungan yang berlebihan yang diberikan kepada mereka. Dan ia mengekspresikan kritiknya terhadap semangat dirigis (dirigiste zeal - kontrol negara) para negarawan di zamannya dengan keyakinan yang sama kuat: 
 
-Visi tentang peran Negara dalam kegiatan ekonomi ini secara alami diilustrasikan oleh studi tentang dua masalah utama yang menggerakkan para ekonom dan pemikir sosial pada masanya: regulasi industri dan perdagangan gandum.
+> Menjalankan industri yang tidak sesuai dengan semestinya sama dengan menginginkan kehancurannya.
 
-
-Peraturan-peraturan tentang industri, pertama-tama, membangkitkan kebenciannya, karena peraturan-peraturan tersebut memberikan hak istimewa bagi sebagian orang dengan mengorbankan orang lain. "Penyebab sebenarnya dari kemunduran pabrik-pabrik kita", tulisnya, "adalah perlindungan yang berlebihan yang diberikan kepada mereka". Dan dengan kredo yang tidak kalah bersemangatnya, ia mengungkapkan kritiknya terhadap semangat dirigiste para negarawan pada masanya:
-
-
-
-> Menjalankan industri yang tidak sesuai dengan keinginannya sama saja dengan menginginkan kehancurannya.
-
-Mengenai pertanyaan tentang perdagangan subsisten, d'Argenson tidak memiliki jawaban lain selain kebebasan. Menurutnya, kekurangan gandum berasal dari monopoli dan tindakan pencegahan yang berlebihan yang dilakukan oleh pemerintah. Yang harus kita lakukan adalah membiarkannya, dan tidak akan pernah ada kekurangan gandum di negara yang pelabuhannya terbuka. Orang asing, yang tertarik seperti semua orang lain dengan iming-iming keuntungan, akan memberikan apa yang kami butuhkan dan mengambil surplus kami. "Biarlah", katanya, "semua akan baik-baik saja".
-
+Mengenai pertanyaan tentang perdagangan kebutuhan pokok (subsistence), d'Argenson tidak punya jawaban lain selain kebebasan. Menurutnya, kekurangan gandum datang dari monopoli dan tindakan pencegahan berlebihan yang diambil oleh pemerintah. Yang harus kita lakukan hanyalah membiarkannya, dan tidak akan pernah ada kekurangan gandum di negara di mana pelabuhan terbuka. Orang asing, yang tertarik seperti semua orang lain oleh godaan keuntungan, akan menyediakan apa yang kita butuhkan dan mengambil kelebihan kita. "Biarkan saja," katanya, "dan semuanya akan baik-baik saja."
 
 ## Vincent de Gournay
 
-
 <chapterId>e8ae40dc-7450-552f-9ddc-9e02936cf425</chapterId>
 
-
-Vincent de Gournay adalah salah satu perwakilan pertama laissez-faire di Prancis, dan salah satu pendukung paling awal di bidang administrasi publik dan kalangan intelektual. Oleh karena itu, ia layak mendapatkan pengakuan yang jauh lebih besar dalam sejarah pemikiran ekonomi daripada yang biasanya ia terima. Saya telah mencoba menyoroti kontribusinya dalam sebuah buku baru-baru ini.
-
+Vincent de Gournay adalah salah satu perwakilan awal laissez-faire di Prancis, dan salah satu pendukung awalnya di lingkaran administrasi publik dan intelektual. Karena alasan itu, ia layak mendapatkan pengakuan yang jauh lebih besar dalam sejarah pemikiran ekonomi daripada yang biasanya ia terima. Saya telah mencoba menyoroti kontribusinya dalam sebuah buku baru-baru ini.
 
 ![image](assets/id/028.webp)
 
+Terlahir dari keluarga pedagang, Gournay sendiri menjadi pedagang sukses, mengumpulkan kekayaan yang cukup besar sebelum mendapatkan posisi di pemerintahan Prancis. Di dalam Biro Perdagangan (Bureau of Commerce), ia adalah pendukung gigih untuk kebebasan kerja dan perdagangan bebas.
 
-Terlahir dari keluarga pedagang, Gournay menjadi pedagang yang sukses, mengumpulkan kekayaan yang cukup besar sebelum mendapatkan posisi di pemerintahan Prancis. Di dalam Biro Perdagangan, dia adalah pendukung kuat tenaga kerja bebas dan perdagangan bebas.
+Meskipun ia sangat terlibat dalam konteks para ekonom terkemuka pada masanya, Gournay hanya sedikit menulis atau, lebih tepatnya, sedikit yang diterbitkan. Ia terutama menulis surat-surat administratif dan memoar, yang sebagian besar tidak diterbitkan atau diterbitkan oleh penulis lain setelah diedit.
 
-
-Meskipun ia dimasukkan dengan baik dalam konteks para ekonom terkemuka pada masanya, Gournay hanya menulis sedikit atau, lebih tepatnya, hanya sedikit yang diterbitkan. Dia menulis sebagian besar surat-surat administratif dan memoar, baik yang tidak diterbitkan atau diterbitkan oleh penulis lain setelah diedit.
-
-
-Apa yang kami miliki meliputi:
-
+Karya-karya yang ada meliputi:
 
 1. (https://archive.org/details/traitessurlecomm0000chil) yang merupakan terjemahan dari sebuah buku karya ekonom Inggris, Josiah Child;
 
-
 ![image](assets/id/029.webp)
 
+3. "Observasi" yang termasuk dalam Examination of the Advantages and Disadvantages of the Prohibition of Printed Fabrics;
 
-2. "Pengamatan" termasuk dalam Pemeriksaan Keuntungan dan Kerugian dari Larangan Kain Cetak;
+5. "Pengamatan terhadap Perusahaan Hindia Timur", yang dilampirkan oleh Abbot Morellet pada Memoarnya tentang Current State of the East India Company (1769);
 
+7. Dan yang terpenting, berbagai memoar dari perannya sebagai Intendant of Commerce (Pengawas Perdagangan).
 
+Tulisan-tulisan ini menunjukkan pengaruh asing yang jelas dan adanya beberapa ide utama yang terstruktur. Pengaruh asing pada Gournay adalah pengakuan atas keunggulan Inggris dan Belanda. Gournay yakin bahwa kedua negara ini memahami ekonomi jauh lebih baik daripada Prancis, dan Prancis harus mengikuti contoh mereka. "Kedua negara ini adalah yang paling makmur," katanya, "dan mereka mengikuti sistem yang sama sekali berbeda dari kita. Kita melarang masuknya barang-barang asing, kita membatasi kegiatan ekonomi dalam regulasi yang kejam, sementara mereka bertindak sebaliknya. Jika mereka berbuat lebih baik," Gournay menyimpulkan, "itu karena Prancis dipandu oleh prinsip-prinsip yang keliru."
 
+Proposal reformasinya berpusat pada beberapa poin kunci:
 
+Pertama, ia percaya tenaga kerja perlu dilindungi dan didorong. Saat itu, pekerja Prancis diperlakukan seperti penjahat, terus-menerus diawasi, dan dihantui ketakutan karena tidak mematuhi salah satu dari ribuan regulasi. Gangguan yang berlebihan ini membuat orang enggan bekerja, mendorong mereka bermalas-malasan. Namun, Gournay berpendapat, "kerja adalah mulia dan satu-satunya cara untuk memperkaya suatu bangsa."
 
-3. "Pengamatan terhadap Perusahaan Hindia Timur", ditambahkan oleh Abbot Morellet ke dalam Memoarnya tentang Keadaan Perusahaan Hindia Timur saat ini (1769);
+Kedua, ia mengkritik sistem gilda yang membatasi produsen. Berpartisipasi dalam perdagangan membutuhkan waktu dan biaya, dan setiap pekerja baru harus mengikuti rutinitas yang ditetapkan oleh undang-undang gilda dengan cermat. Sistem seperti itu tidak memberikan ruang untuk keunggulan, inovasi, atau kemajuan.
 
+Ketiga, perdagangan di Prancis dibatasi oleh undang-undang restriktif. Menurut pandangan Gournay, konsumen akan sangat diuntungkan jika pelabuhan dapat bersaing secara bebas dan semua barang, seperti gandum dan kain cetak, diizinkan untuk diimpor tanpa pembatasan. Ia adalah salah satu yang pertama menunjukkan asal mula sebenarnya dari penyelundupan: penyelundupan ada semata-mata karena perdagangan yang bermanfaat dan berguna dilarang. Ia menambahkan pengamatan tajam: penyelundupan adalah profesi yang "bebas", tanpa regulasi, tanpa gilda, tanpa pajak yang bersifat perampasan. Namun, regulasi Negara yang berlebihanlah yang mendorong banyak pekerja jujur masuk ke dalam tindakan ilegal.
 
+Terakhir, Gournay mencatat bahwa suku bunga lebih rendah di Inggris dan Belanda, negara-negara yang lebih makmur daripada Prancis. Ia mengadvokasi suku bunga yang lebih rendah di Prancis juga, sehingga kegiatan ekonomi dapat dibiayai di sana dengan kondisi yang sama menguntungkannya dengan di tempat lain. Namun, Gournay tidak mencari metode legislatif yang memaksa; sebaliknya, ia menekankan perlunya melegalkan peminjaman uang, yang saat itu masih dikutuk oleh Gereja Katolik.
 
-
-
-4. Dan yang terpenting, berbagai memoar dari perannya sebagai Intendant of Commerce.
-
-
-Tulisan-tulisan ini menunjukkan pengaruh asing yang jelas dan adanya beberapa ide penataan besar. Pengaruh asing tersebut, menurut Gournay, adalah pengakuan atas keunggulan Inggris dan Belanda. Gournay yakin bahwa kedua negara ini memahami ekonomi jauh lebih baik daripada Prancis, dan bahwa Prancis harus mengikuti teladan mereka. "Kedua negara ini adalah yang paling makmur", katanya, "dan mereka mengikuti sistem yang sama sekali berbeda dari kita. Kami melarang masuknya barang-barang asing, kami membatasi aktivitas ekonomi dengan peraturan yang ketat, sementara mereka melakukan hal yang sebaliknya. Jika mereka melakukan yang lebih baik", Gournay menyimpulkan, "itu karena Prancis dipandu oleh prinsip-prinsip yang salah".
-
-
-Usulan reformasinya berpusat pada beberapa poin utama.
-
-
-Pertama, ia percaya bahwa tenaga kerja perlu dilindungi dan didorong. Pada saat itu, para pekerja Prancis diperlakukan seperti penjahat, selalu diawasi, dan selalu merasa takut karena tidak mematuhi salah satu dari ribuan peraturan yang ada. Gangguan yang berlebihan ini membuat orang enggan untuk bekerja, dan mendorong mereka untuk bermalas-malasan. Namun, Gournay berpendapat, "bekerja itu mulia dan satu-satunya cara untuk memperkaya bangsa".
-
-
-Kedua, ia mengkritik sistem gilda yang membatasi para produsen. Berpartisipasi dalam sebuah serikat pekerja memakan waktu dan biaya, dan setiap pekerja baru harus mengikuti rutinitas yang ditetapkan oleh undang-undang serikatnya dengan cermat. Sistem seperti itu tidak memberikan ruang untuk keunggulan, inovasi, atau kemajuan.
-
-
-Ketiga, perdagangan di Prancis dibatasi oleh undang-undang yang membatasi. Dalam pandangan Gournay, konsumen akan sangat diuntungkan jika pelabuhan dapat bersaing secara bebas dan semua barang, seperti biji-bijian dan kanvas cetak, diizinkan untuk diimpor tanpa batasan. Dia adalah salah satu orang pertama yang menunjukkan asal mula penyelundupan yang sebenarnya: penyelundupan terjadi semata-mata karena perdagangan yang bermanfaat dan berguna dilarang. Dia menambahkan pengamatan yang tajam: penyelundupan adalah profesi yang "bebas", tanpa peraturan, tanpa serikat pekerja, tanpa pajak yang menyita. Namun, peraturan negara yang terlalu ketatlah yang mendorong banyak pekerja jujur menjadi ilegal.
-
-
-Akhirnya, Gournay mencatat bahwa suku bunga lebih rendah di Inggris dan Belanda, negara-negara yang lebih makmur daripada Prancis. Dia menganjurkan suku bunga yang lebih rendah di Prancis juga, sehingga aktivitas ekonomi dapat dibiayai di sana dengan kondisi yang sama menguntungkannya dengan di tempat lain. Namun, Gournay tidak menggunakan metode legislatif yang bersifat memaksa; sebaliknya, ia menekankan perlunya melegalkan peminjaman uang, yang masih dikutuk oleh Gereja Katolik.
-
-
-Dalam semua hal ini, Gournay memainkan peran penting dalam perdebatan intelektual pada pertengahan abad ke-18. Pembelaannya terhadap kebebasan ekonomi mendahului kaum Fisiokrat selama satu dekade dan Adam Smith selama dua puluh tahun. Namun, pengaruhnya yang paling besar adalah pada Turgot. Gournay membawa Turgot muda di bawah sayapnya dan melatihnya dengan ide-idenya.
-
+Pada semua poin ini, Gournay memainkan peran kunci dalam debat intelektual pertengahan abad ke-18. Pembelaannya terhadap kebebasan ekonomi mendahului kaum Fisiokrat selama satu dekade dan Adam Smith selama dua puluh tahun. Namun pengaruhnya yang paling besar adalah pada Turgot. Gournay membimbing Turgot muda dan melatihnya dengan ide-idenya.
 
 ![image](assets/id/030.webp)
 
+Beberapa tahun kemudian, Turgot, yang kelak menjadi menteri di bawah Louis XVI, menulis Éloge (eulogi atau pujian) sebagai penghormatan kepada sahabatnya setelah kematiannya. Dan sebenarnya Turgot tidak pernah sepenuhnya merangkul Fisiokrasi François Quesnay, itu karena ia mempertahankan keterikatan yang tak terkalahkan pada guru pertamanya, Vincent de Gournay.
 
-Bertahun-tahun kemudian, Turgot, seorang calon menteri di bawah Louis XVI, menulis Éloge (pidato) untuk menghormati temannya setelah kematiannya. Dan jika Turgot tidak pernah sepenuhnya menganut Fisiokrasi François Quesnay, itu karena ia mempertahankan keterikatan yang tak terkalahkan dengan guru pertamanya, Vincent de Gournay.
-
-
-## Lingkaran Gournay
-
+## Kelompok Gournay
 
 <chapterId>b86ba6bd-8f3a-5d8f-b098-4d0413f00deb</chapterId>
 
-
-Ketika berbicara tentang masa-masa awal ilmu ekonomi, sejarah cenderung menyoroti mazhab pertama: kaum Fisiokrat, yang dipimpin oleh François Quesnay dan para muridnya. Namun, hampir satu dekade sebelum kemunculan mereka, ada kelompok lain yang kurang formal namun sama pentingnya yang berpusat di sekitar ekonom Vincent de Gournay.
-
+Dalam sejarah awal ilmu ekonomi, kecenderungan sejarah adalah menyoroti mazhab pemikiran pertama, yaitu Fisiokrat, yang dipimpin oleh François Quesnay dan murid-muridnya. Namun, hampir satu dekade sebelum kemunculan mereka, ada kelompok lain, yang kurang formal tetapi sama pentingnya, yang berpusat di sekitar ekonom Vincent de Gournay.
 
 ![image](assets/id/031.webp)
 
-
-Seperti yang telah kita lihat pada bagian sebelumnya, Gournay terpesona oleh contoh dari negara-negara asing seperti Inggris dan Belanda. Dia sangat mengagumi para ekonom mereka-tokoh-tokoh seperti Josiah Child, Johan de Witt, dan David Hume.
-
+Seperti yang kita lihat di bagian sebelumnya, Gournay terpesona oleh contoh dari negara-negara asing seperti Inggris dan Belanda. Ia juga sangat mengagumi para ekonom mereka—tokoh-tokoh seperti Josiah Child, Johan de Witt, dan David Hume.
 
 ![image](assets/id/032.webp)
 
+Kekaguman ini mendorongnya untuk menerjemahkan, dan menugaskan penerjemahan, untuk karya-karya ekonomi mereka.
 
-Kekaguman ini mendorongnya untuk menerjemahkan, dan menugaskan penerjemahan tulisan-tulisan ekonomi mereka.
+Kebetulan, posisinya di pemerintahan senior memungkinkan Gournay berhubungan dengan semua spesialis ekonomi yang dikenal di Prancis saat itu. Dengan cara ini, ia membentuk kelompok penerjemah yang sangat cakap. Ia secara pribadi menerjemahkan karya Child dan Culpeper. Abbot Le Blanc menerjemahkan Political Discourses milik David Hume. Véron de Forbonnais menerjemahkan karya ekonom Spanyol Geronymo de Uztariz. Turgot mengerjakan tulisan-tulisan Josiah Tucker, dan putra Montesquieu menerjemahkan karya Joshua Gee.
 
+Berkat kolaborasi beberapa anggota kelompok Gournay, banyak penulis dapat menerbitkan karya orisinal dengan nama mereka sendiri. Buku-buku ini, bersama dengan terjemahan-terjemahan tadi, meraih kesuksesan yang luar biasa. Beberapa contoh penting meliputi:
 
-Ternyata posisinya di pemerintahan senior memungkinkan Gournay untuk berhubungan dengan semua spesialis ekonomi yang dikenal di Prancis pada saat itu. Dengan cara ini, dia mengumpulkan sekelompok penerjemah yang sangat cakap. Dia secara pribadi menerjemahkan karya-karya Child dan Culpeper. Abbot Le Blanc menerjemahkan Wacana Politik David Hume. Véron de Forbonnais menerjemahkan karya ekonom Spanyol Geronymo de Uztariz. Turgot mengerjakan tulisan-tulisan Josiah Tucker, dan putra Montesquieu menerjemahkan Joshua Gee.
-
-
-Berkat kolaborasi dari beberapa anggota lingkaran Gournay, banyak penulis yang mampu menerbitkan karya orisinil dengan nama mereka sendiri. Buku-buku ini, bersama dengan terjemahannya, mencapai kesuksesan yang luar biasa. Beberapa contoh penting termasuk:
-
-
-
-- Esai Herbert tentang [Polisi Umum Biji-bijian] (https://archive.org/details/essaisurlapolice00herb/page/n7/mode/2up) (6 edisi dalam 4 tahun)
-
+- [Essay on the General Police of Grain](https://archive.org/details/essaisurlapolice00herb/page/n7/mode/2up) karya Herbert (6 edisi dalam 4 tahun)
 
 ![image](assets/id/033.webp)
 
+- [Noblesse commerçante](https://archive.org/details/lanoblessecommer00coye/page/n3/mode/2up) karya Coyer (5 edisi dalam 2 tahun)
 
+- [Remarks on the Advantages and Disadvantages of France and Great Britain](https://archive.org/details/bim_eighteenth-century_remarks-on-the-advantage_plumard-de-dangeul-loui_1754 karya Plumard de Dangeul (3 edisi pada tahun pertamanya)
+  
+- [Memoir on the Trades](https://www.amazon.com/Memoire-sur-corps-metiers-French/dp/1978196903) karya Cliquot-Blervache dan Gournay (2 edisi pada tahun 1758)
 
-- Coyer's [Noblesse commerçante] (https://archive.org/details/lanoblessecommer00coye/page/n3/mode/2up) (5 edisi dalam 2 tahun)
-
-
-
-
-
-
-- Plumard de Dangeul's [Remarks on the Advantages and Disadvantages of France and Great Britain] (https://archive.org/details/bim_eighteenth-century_remarks-on-the-advantage_plumard-de-dangeul-loui_1754) (3 edisi di tahun pertama)
-- Cliquot-Blervache dan Gournay's [Memoir on the Trades] (https://www.amazon.com/Memoire-sur-corps-metiers-French/dp/1978196903) (2 edisi pada tahun 1758)
-
-Kelompok ini juga memainkan peran penting dalam publikasi
-
-
-- [Esai tentang Sifat Perdagangan Secara Umum] (https://archive.org/details/essayonnatureofc0000cant) oleh Richard Cantillon.
-
+Kelompok ini juga memainkan peran penting dalam publikasi 
+- [Essay on the Nature of Trade in General](https://archive.org/details/essayonnatureofc0000cant) karya Richard Cantillon.
 
 ![image](assets/id/034.webp)
 
+Buku terakhir ini, yang ditulis sekitar tahun 1730, tetap berupa manuskrip setelah penulisnya meninggal. Gournay, dengan bantuan teman-teman ekonomnya, menerbitkannya pada tahun 1755. Menurut Abbot Morellet, seorang anggota kelompok tersebut, Gournay merekomendasikan buku itu kepada setiap ekonom yang ia kenal.
 
-Buku terakhir ini, yang ditulis sekitar tahun 1730, tetap dalam bentuk manuskrip setelah kematian penulisnya. Gournay, dengan bantuan teman-teman ekonomnya, menerbitkannya pada tahun 1755. Menurut Kepala Biara Morellet, salah satu anggota lingkaran, Gournay merekomendasikan buku ini kepada setiap ekonom yang ia kenal.
-
-
-Hasil intelektual dari lingkaran Gournay memiliki dampak besar pada sejarah gagasan. Dalam hal ini, mereka dapat dianggap sebagai pendiri ilmu ekonomi di Prancis. Christine Théré dari INED, yang telah mempelajari sejarah publikasi ekonomi, menemukan bahwa antara tahun 1750 dan 1759, tidak kurang dari **349** karya tentang ekonomi diterbitkan, dibandingkan dengan hanya **83** pada dekade sebelumnya (1740-1749). Revolusi pada tahun 1750-an ini sebagian besar disebabkan oleh lingkaran Gournay.
-
+Karya intelektual dari kelompok Gournay memiliki dampak besar pada sejarah ide. Dalam pengertian ini, mereka dapat dianggap sebagai pendiri ilmu ekonomi di Prancis. Christine Théré dari INED, yang telah mempelajari sejarah publikasi ekonomi, menemukan bahwa antara tahun 1750 dan 1759, tidak kurang dari **349** karya tentang ekonomi diterbitkan, dibandingkan dengan hanya **83** karya di seluruh dekade sebelumnya (1740–1749). Revolusi dalam dekade 1750-an ini sebagian besar disebabkan oleh kelompok Gournay.
 
 ![image](assets/id/035.webp)
 
-
-Untuk menyebarkan selera diskusi ekonomi di antara penduduk Prancis, Gournay dan teman-temannya bekerja untuk membuatnya dapat diakses melalui novel. Setelah *Memoir on the Trades*, yang mengkritik serikat pekerja, Gournay dan Cliquot-Blervache membantu Gabriel-François Coyer menulis sebuah novel satir pendek berjudul Chinki: [Kisah Cochinchinese yang Berlaku untuk Bangsa Lain] (https://www.institutcoppet.org/wp-content/uploads/2013/06/Coyer-Chinki-Histoire-cochinchinoise.pdf).
-
+Untuk menyebarkan minat terhadap diskusi ekonomi di kalangan penduduk Prancis, Gournay dan teman-temannya berupaya membuatnya mudah diakses melalui novel. Setelah _Memoir on the Trades_, yang mengkritik gilda, Gournay dan Cliquot-Blervache membantu Gabriel-François Coyer menulis novel satir singkat berjudul [Chinki: A Cochinchinese Tale Applicable to Other Nations](https://www.institutcoppet.org/wp-content/uploads/2013/06/Coyer-Chinki-Histoire-cochinchinoise.pdf).
 
 ![image](assets/id/036.webp)
 
+Cerita ini mengikuti karakter utama, Chinki, yang terpaksa meninggalkan tanahnya karena pajak yang berlebihan dan mencoba mencari pekerjaan pengrajin untuk anak-anaknya di kota. Tetapi semua perdagangan tertutup bagi mereka karena regulasi gilda yang sewenang-wenang. Dengan nada humor, cerita ini menggambarkan kekecewaannya yang semakin besar.
 
-Cerita ini mengikuti karakter utama, Chinki, yang dipaksa meninggalkan tanahnya karena pajak yang berlebihan dan mencoba mencari pekerjaan kerajinan untuk anak-anaknya di kota. Namun, semua perdagangan tertutup bagi mereka karena peraturan serikat yang kejam, sehingga cerita ini menggambarkan kekecewaannya yang terus bertambah melalui nada-nada humor.
+Oleh karena itu, kelompok Gournay berada di balik gelombang publikasi yang intens. Meskipun kontribusi besar ini telah dilupakan oleh sejarawan pemikir ekonomi, hal itu sangat jelas bagi orang-orang sezaman mereka. Kaum Fisiokrat, yang mengorganisir mazhab mereka pada tahun 1760-an, kemudian akan mempresentasikan kelompok Gournay sebagai pendahulu langsung mereka. Pada tahun 1767, ekonom Jacques Accarias de Serionne mengungkapkan hal ini dengan lebih jelas dalam penghormatannya. Ia menulis: "Sejumlah kecil orang Prancis, baik filsuf maupun warga negara, beberapa tahun yang lalu mulai meniru penulis Inggris. Mereka pertama-tama menerjemahkan model-model mereka dan segera melampaui mereka dalam banyak hal. Mereka membawa semua pesona dan kekayaan sastra ke dalam pengolahan subjek yang bermanfaat; mereka memicu dan menyebarkan minat terhadap ilmu pengetahuan yang paling penting bagi kemakmuran Negara."
 
-
-Oleh karena itu, lingkaran Gournay merupakan asal mula gelombang publikasi yang intens. Meskipun kontribusi besar ini telah dilupakan oleh para sejarawan pemikiran ekonomi, hal ini sangat jelas bagi orang-orang sezamannya. Kaum Fisiokrat, yang mengorganisir sekolah mereka pada tahun 1760-an, kemudian akan menampilkan kelompok Gournay sebagai pendahulu langsung mereka. Pada tahun 1767, ekonom Jacques Accarias de Serionne mengungkapkan hal ini dengan lebih jelas dalam pujiannya. Dia menulis: "Sejumlah kecil orang Prancis, baik filsuf maupun warga negara, mulai beberapa tahun yang lalu meniru para penulis Inggris. Mereka pertama kali menerjemahkan model mereka dan segera melampaui mereka dalam banyak hal. Mereka membawa semua pesona dan kekayaan sastra ke dalam pembahasan subjek-subjek yang berguna; mereka memicu dan menyebarkan selera akan ilmu pengetahuan yang paling penting bagi kemakmuran Negara".
-
-
-Dan memang, pada tahun 1750-an, pertanyaan-pertanyaan ekonomi menjadi hal yang populer. Voltaire terkenal mengatakan bahwa sekitar tahun 1750, orang Prancis berhenti menulis novel untuk mendiskusikan kebebasan perdagangan biji-bijian. Tren ini juga dicatat oleh Mercure de France, yang menulis dalam edisi tahun 1758, beberapa bulan sebelum kematian Gournay: "Ekonomi politik sekarang menjadi ilmu pengetahuan dalam mode. Buku-buku yang berhubungan dengan pertanian, populasi, industri, perdagangan, dan keuangan sekarang berada di tangan banyak orang yang, belum lama ini, hanya membaca novel secara dangkal". Tidak ada penghargaan yang lebih baik untuk Gournay dan karya-karya para ekonomnya.
-
+Dan memang, pada tahun 1750-an, isu-isu ekonomi menjadi populer. Voltaire terkenal berujar bahwa sekitar tahun 1750, orang Prancis berhenti membaca novel untuk mulai mendiskusikan kebebasan perdagangan gandum. Tren ini juga dicatat oleh Mercure de France, yang menulis dalam salah satu edisinya dari tahun 1758, beberapa bulan sebelum kematian Gournay: "Ekonomi politik kini menjadi ilmu yang sedang populer. Buku-buku yang membahas pertanian, populasi, industri, perdagangan, dan keuangan kini berada di tangan banyak orang yang, belum lama ini, hanya membaca novel secara sepintas." Sulit untuk memberikan penghormatan yang lebih baik kepada Gournay dan kerja kelompok ekonominya.
 
 ## Mirabeau
 
-
 <chapterId>2d2f802b-e3b6-556f-9025-a1b1dc4409ca</chapterId>
-
 
 Prancis telah mengenal dua orang terkenal bernama Mirabeau, seorang ayah dan anak, namun sang anaklah yang benar-benar membuat sejarah. Seorang tribune revolusioner dan salah satu tokoh sentral dalam peristiwa Revolusi Prancis, dia tetap terkenal.
 

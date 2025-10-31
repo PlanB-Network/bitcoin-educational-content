@@ -199,4 +199,4 @@ Hãy đảm bảo sử dụng mật khẩu mạnh để bảo vệ dữ liệu, 
 
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5

@@ -32,6 +32,8 @@ Ovaj kurs je, naravno, usredsređen na lik Satoshi Nakamota, čije ćete reči i
 
 <chapterId>85290407-1aa3-4cb4-890a-aed23441afb7</chapterId>
 
+:::video id=d1eddf56-279d-459a-9568-5674606f0fd1:::
+
 Dobrodošli na kurs HIS201!
 
 Ovaj kurs ima za cilj da vam ispriča priču o stvaranju Bitcoin na način na koji nikada ranije niste čitali. Često se zanemaruje, uprkos tome što je ispunjen fascinantnim detaljima. Pokušaćemo da ga opišemo u svoj njegovoj složenosti, od njegovog začetka od strane Satoshi Nakamota do njegovog ranog nestanka i predaje zajednici.
@@ -124,6 +126,8 @@ Spremni da istražimo neverovatnu sagu o stvaranju Bitcoin? Onda zaronimo zajedn
 
 <chapterId>e443d2ab-68ce-45c0-aec7-30b88d3acdc8</chapterId>
 
+:::video id=fe306046-2245-43a7-9144-6fbafda3205e:::
+
 
 Pre nego što se upustimo u stvarnu priču o stvaranju Bitcoin od strane Satoshi Nakamota, prikladno je diskutovati o onome što je prethodilo. Address ćemo temu u tri faze: prvo, predstavićemo koncept Chaumian digitalnog novca koji se obično naziva *eCash*; zatim ćemo govoriti o privatnim valutama zasnovanim na centralizovanim sistemima kao što je e-gold; na kraju, opisaćemo tehničke modele koji su zamišljeni pre implementacije robusnog distribuiranog sistema koji je Bitcoin.
 
@@ -178,7 +182,7 @@ Otkrivanje asimetrične kriptografije takođe je motivisalo stvaranje jednousmer
 
 Osnovni kriptografski Elements od Bitcoin potiču iz ovog istraživanja. Šema potpisa ECDSA, koja omogućava autorizaciju trošenja tradicionalne transakcije, kreirana je 1992. godine za NIST. Funkcija SHA-256 Hash, korišćena na više mesta u protokolu, objavljena je 2001. godine kao deo SHA-2 algoritamskog paketa koji je NSA učinila javnim. Za više informacija o ovoj temi, možete se obratiti kursu CYP201 koji predstavlja Loïc Morel.
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
@@ -300,6 +304,8 @@ Sa Bitcoin, Satoshi Nakamoto je stvorio robusnu i poverljivu digitalnu valutu, p
 
 <chapterId>43035fa3-2805-4331-a6fb-070931d749cf</chapterId>
 
+:::video id=0f75ff53-ebf6-481c-9d1c-863fabb19a6a:::
+
 
 U prethodnom poglavlju, istražili smo prvi oblik elektronskog novca koji je proizašao iz pojave Interneta i moderne kriptografije: eCash model Davida Chauma. Ovaj model je značajno uticao na Satoshi Nakamoto i bio je ključna prekretnica na putu koji je vodio ka Bitcoin. Međutim, priča o poreklu kriptovaluta ne završava se sa eCash-om; ona takođe uključuje eksperimente sa privatnim valutama koje su funkcionisale na Internetu, razvijene od kasnih 1990-ih.
 
@@ -415,6 +421,8 @@ Upravo zbog ove krhkosti centralizovanih sistema, zagovornici slobode – uklju�
 ## Decentralizovani modeli pre Nakamota
 
 <chapterId>a104f23c-e9c3-4457-a194-d87cc5f35f13</chapterId>
+
+:::video id=67e5f851-5ff6-4876-a74d-c5f8130b555c:::
 
 
 Bitcoin predstavlja decentralizovani model digitalne valute. Na taj način izbegava potrebu za pouzdanim trećim licem, koje bi predstavljalo jedinstvenu tačku kvara u sistemu. Kao što pokazuju primeri eCash-a, digitalnih zlatnih valuta i Liberty Reserve-a, centralizacija sistema koji namerava da bude alternativa postojećem sistemu neizbežno vodi ka njegovom zatvaranju, na ovaj ili onaj način.
@@ -624,6 +632,8 @@ Bitcoin tako predstavlja kulminaciju potrage za sajber valutom, valutom koja pos
 
 <chapterId>3d141918-e9c2-46e8-8c03-2bb4eb9b2150</chapterId>
 
+:::video id=825522d8-1ccc-4d14-80ac-e292a85a608a:::
+
 
 Nakon što smo saznali odakle potiče Bitcoin, sada ćemo se fokusirati na samu njegovu istoriju. Ovo je bila tema brojnih članaka, podcasta i video zapisa tokom godina, toliko da je gotovo postala neka vrsta osnivačkog mita. Kao što smo videli, Bitcoin je neodvojiv od konteksta u kojem je stvoren; isto važi i za događaje koji su se odigrali tokom njegovih ranih godina, a koji su oblikovali ono što je danas, sa svim svojim kvalitetima i manama.
 
@@ -812,6 +822,8 @@ Međutim, ovaj rad nije bio dovoljan, i bila je potrebna istrajnost od strane Sa
 ## Prezentacija svetu
 
 <chapterId>28be3515-d9da-4d91-b7ff-f8691d51c562</chapterId>
+
+:::video id=c9691569-f026-460d-a08d-98fa54f1ce25:::
 
 
 Nakon što smo ispitali kako je Bitcoin dizajniran i lansiran od strane Satoshi Nakamoto, fokusirajmo se na to kako je javno predstavljen. Nakon lansiranja početkom 2009. godine, mreža je bila operativna, ali je bilo malo generišućih čvorova (Satoshi je iskopao veliku većinu blokova) i aktivnost je bila praktično nepostojeća (32 stvarne transakcije su se dogodile tokom januara). Projekat je imao samo osnovni veb-sajt i SourceForge stranicu za preuzimanje softvera. Štaviše, komunikacija o Bitcoin bila je ograničena na Metzdowd Cryptography mejling listu, koju je pratilo, u najboljem slučaju, nekoliko stotina ljudi strastvenih prema kriptografiji.
@@ -1048,6 +1060,8 @@ U jesen 2009. činilo se da je Bitcoin spreman za rast. I upravo u to vreme se z
 
 <chapterId>6b3418a7-125e-4ea1-a03a-f36090fac8a4</chapterId>
 
+:::video id=2a31c9c2-bb14-4ed5-b906-7df373f81f98:::
+
 
 U prethodnim poglavljima, posmatrali smo kako je Satoshi Nakamoto implementirao svoju ideju i kako je komunicirao o tome da bi predstavio Bitcoin svetu. Međutim, nije sve zavisilo od njega: bilo je takođe neophodno da ljudi dodele vrednost jedinici obračuna. Pošto je ovo omogućilo nagrađivanje rudara kroz naknade za transakcije i nagrađivanje trgovaca kroz prirodnu deflaciju, takvo vrednovanje bilo je ključno za bezbednost sistema.
 
@@ -1220,6 +1234,8 @@ Međutim, ovo pitanje nikada nije mučilo Satoshi, koji je video pokretanje nove
 
 <chapterId>9cd228a4-58d3-46a3-9935-06098bafc954</chapterId>
 
+:::video id=18913713-2f1a-4555-ba5d-06ec6d532bcb:::
+
 
 U prethodnom delu, istražili smo kako je Bitcoin nastao, kako je predstavljen javnosti i kako je ekonomski pokrenut. U proleće 2010. godine, dok je trgovina bitcoinima tek počinjala da cveta, cilj Satoshi Nakamota i nekolicine ljudi koji su ga podržavali bio je da održe plamen živim. Srećom, drugi pojedinci su se pridružili naporu, posebno Miner Laszlo Hanyecz i programer Gavin Andresen, koji su se istakli svojim delovanjem.
 
@@ -1370,6 +1386,8 @@ Međutim, do kraja juna, aktivnost je ostala prilično skromna na mreži. Bilo j
 
 <chapterId>2eef715e-b018-445b-b360-1c6e1c1df462</chapterId>
 
+:::video id=c26f3696-4e33-4d38-9443-f237935f8b45:::
+
 
 Početkom leta 2010. godine, uprkos nekim ohrabrujućim početnim razvojnim događajima, Bitcoin je bio zasnovan na klimavim temeljima. Softver je imao malo programera osim Satoshi Nakamota. Majneri su bili amateri na svojim ličnim računarima. Postojalo je oko dvadeset usluga povezanih sa Bitcoin, a stvarne berze su bile podjednako retke. Međutim, stvari su se drastično promenile tokom druge polovine godine.
 
@@ -1476,6 +1494,8 @@ U mesecima koji su usledili, tehnička, ekonomska i Mining poboljšanja nastavil
 ## Prvi tehnički problemi
 
 <chapterId>30cc4fe4-22b0-429e-9874-029c9137c0aa</chapterId>
+
+:::video id=f3e98b49-c32e-451a-b7c1-224dc5b00cf5:::
 
 
 Kao što je pomenuto u poslednjem poglavlju, priliv korisnika sa Slashdot-a 11. jula 2010. godine izazvao je ogroman talas interesovanja za projekat Satoshi Nakamoto. Korišćenje mreže je eksplodiralo; stopa Exchange se povećala deseterostruko, kao i računska snaga posvećena sistemu. Tako je Bitcoin doživeo neviđeni rast tokom leta.
@@ -1597,6 +1617,8 @@ U mesecima koji su usledili, tehnička, ekonomska i Mining poboljšanja nastavil
 
 <chapterId>8e9899ca-e7a7-471b-8e69-847a56714d3b</chapterId>
 
+:::video id=665ac55c-cd61-4d07-a896-95248eec480d:::
+
 
 U prethodnom delu, proučavali smo efekat koji je objavljivanje Bitcoin prezentacije na Slashdot-u (slashdotting) imalo i kako su početne tehničke poteškoće bile rešene od strane Satoshi i njegovih pomoćnika. Do kraja leta, projekat je prebrodio oluju i bio spreman da primi sve veći broj ljudi. Jesen 2010. godine je tako označila period uspeha za Bitcoin.
 
@@ -1699,6 +1721,8 @@ Međutim, jesen nije bila uspešna samo za Mining. Takođe je bila uspeh za zaje
 ## Cvetanje ekosistema
 
 <chapterId>0404f877-8b5c-4c7f-81ab-a4e6d9b3da9c</chapterId>
+
+:::video id=2327cb5b-36a1-49f4-a9de-09b70d76b8c1:::
 
 
 U prethodnom poglavlju, istražili smo kako se Mining razvijao tokom druge polovine 2010. godine. Do jeseni, ovaj napredak je bio dobro uspostavljen. Međutim, Mining nije bio jedini aspekt Bitcoin koji je postigao uspeh: njegov ekosistem takođe.
@@ -1844,6 +1868,8 @@ Tokom jeseni 2010. godine, ekosistem oko Bitcoin značajno se razvio. Komunikaci
 ## Nestanak Satoshi
 
 <chapterId>f7735239-4887-468f-9f06-1b07d00b30d9</chapterId>
+
+:::video id=fd5b40ae-b6bc-484a-b86b-af9c772f0afa:::
 
 
 Videli smo kako je Bitcoin poleteo nakon objavljivanja teksta na Slashdot-u u julu 2010. U jesen, sa raznim napretcima u softveru, Mining, i ekonomiji, činilo se da je projekat konačno na pravom putu. Zato se ovaj period poklopio sa postepenim povlačenjem Satoshi Nakamoto-a.
@@ -2013,6 +2039,8 @@ Ovaj misteriozni aspekt koji okružuje tvorca Bitcoin dobro je sažeo Hal Finney
 ## Zajednica preuzima vođstvo
 
 <chapterId>16c5e6d6-2412-48c6-9687-6af92cf0d89a</chapterId>
+
+:::video id=b29c3ea3-c4ca-4feb-bb29-5dc064987406:::
 
 
 Nakon odlaska Satoshi Nakamota, postalo je neophodno nastaviti bez njega. Srećom, Bitcoin je bio otvoren projekat, kojem je svako mogao doprineti, tako da nestanak njegovog osnivača nije bio fatalan za njega. Kao što je developer Jeff Garzik napisao u julu 2010. (u vezi sa mogućnošću odsustva osnivača):

@@ -41,7 +41,7 @@ Resmi Sparrow wallet indirme sayfasına] (https://sparrowwallet.com/download/) g
 Yüklemeden önce yazılımın bütünlüğünü ve gerçekliğini kontrol etmek önemlidir. Bunu nasıl yapacağınızı bilmiyorsanız, burada tam bir öğretici bulacaksınız:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Sparrow kurulduktan sonra, ilk açıklayıcı ekranları atlayabilir ve doğrudan bağlantı yönetimi ekranına gidebilirsiniz.
 
@@ -110,9 +110,9 @@ Bir pruned Bitcoin core düğümü kullanırsanız, yerel olarak depolanan blokl
 Bir Bitcoin core düğümünü yapılandırmak için, işletim sisteminize bağlı olarak aşağıdaki eğitimlerden birine başvurabilirsiniz:
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
 Sparrow'de "*Bitcoin core*" sekmesine gidin.
 
@@ -317,7 +317,7 @@ Kağıda yazabilir veya daha fazla güvenlik için yangından, selden veya çök
 Mnemonic ifadenizi kaydetmenin ve yönetmenin doğru yolu hakkında daha fazla bilgi için, özellikle yeni başlayan biriyseniz, bu diğer öğreticiyi izlemenizi şiddetle tavsiye ederim:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ![Image](assets/fr/26.webp)
 
@@ -328,7 +328,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 "*passphrase* Kullan" kutusuna tıklayarak bir passphrase BIP39 eklemeyi de seçebilirsiniz. Uyarı: passphrase kullanmak çok faydalı olabilir, ancak nasıl çalıştığını anlamazsanız çok riskli olabilir. Bu yüzden konuyla ilgili bu kısa teorik makaleyi okumanızı şiddetle tavsiye ederim:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Mnemonic ve tüm passphrase'larınızı fiziksel bir ortama kaydettikten sonra "*Yedeklemeyi Onayla*" seçeneğine tıklayın.
 
@@ -381,7 +381,7 @@ Hardware Wallet'nizi Sparrow'e bağlamanın iki ana yolu vardır:
 Sparrow tüm bu iletişim yöntemlerini destekler ve piyasadaki çoğu donanım cüzdanı ile uyumludur.
 
 
-Bu eğitim için kablolu bir Ledger Nano S kullanacağım, ancak prosedür Hava Boşluğu modunda da benzerdir. Hardware Wallet'nize özgü ayrıntıları Plan ₿ Network'e özel eğitimde bulabilirsiniz.
+Bu eğitim için kablolu bir Ledger Nano S kullanacağım, ancak prosedür Hava Boşluğu modunda da benzerdir. Hardware Wallet'nize özgü ayrıntıları Plan ₿ Academy'e özel eğitimde bulabilirsiniz.
 
 
 Başlamadan önce, Wallet'nın Hardware Wallet'inizde zaten yapılandırılmış olduğundan emin olun. Kablolu bağlantı kullanıyorsanız, kabloyla bilgisayarınıza bağlayın.
@@ -474,7 +474,7 @@ Bir Hardware Wallet kullanıyorsanız, kullanmadan önce cihaz ekranında Addres
 ![Image](assets/fr/44.webp)
 
 
-Hardware Wallet Air-Gap kullanıcıları için Address doğrulaması cihaz modeline göre değişir. Kesin talimatlar için özel Plan ₿ Network eğitimine bakın.
+Hardware Wallet Air-Gap kullanıcıları için Address doğrulaması cihaz modeline göre değişir. Kesin talimatlar için özel Plan ₿ Academy eğitimine bakın.
 
 
 İşlem ödeyici tarafından yayınlandıktan sonra, "*İşlemler*" sekmesinde göründüğünü göreceksiniz. txid gibi daha fazla ayrıntı için üzerine tıklayabilirsiniz.
@@ -555,7 +555,7 @@ Bu sizi işleminizin Elements ayrıntılarını içeren bir sayfaya götürür. 
 Varsayılan Sighash'ı korumak önemlidir. Nedenini anlamak için, Sighash hakkında bilmeniz gereken her şeyi açıkladığım bu eğitim kursuna bir göz atın:
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 Bir sonraki ekranda, seçenekler kullandığınız Wallet türüne göre değişir:
 
@@ -671,4 +671,4 @@ Bu öğreticiyi faydalı bulduysanız, aşağıya bir Green başparmağı bırak
 Hardware Wallet COLDCARD Q'nun Sparrow wallet ile nasıl yapılandırılacağını açıkladığım bu diğer öğreticiyi de tavsiye ederim:
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3

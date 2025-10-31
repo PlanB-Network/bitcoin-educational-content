@@ -49,7 +49,7 @@ Each option has its advantages and disadvantages:
 For more information on choosing your equipment, I recommend you take this course:
 
 
-https://planb.network/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
+https://planb.academy/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 
 ### Recommended equipment
 
@@ -147,7 +147,7 @@ Then follow the classic Ubuntu installation process:
 For more details on the Ubuntu installation process, please see our dedicated tutorial :
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 ### 1.3. system update
 
@@ -333,7 +333,7 @@ sudo passwd dojo
 The system will then ask you to enter your chosen password, then confirm it a second time.
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ### 3.3. Authorize user to use Docker
 
@@ -833,7 +833,7 @@ In practice, this operation generally takes between **2 and 7 days**. During thi
 To deepen your knowledge of IBD and, more generally, of the operation and role of your Bitcoin node, I recommend you take a look at this course:
 
 
-https://planb.network/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
+https://planb.academy/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 
 
 ## 7. Synchronization monitoring

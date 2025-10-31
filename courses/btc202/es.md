@@ -118,7 +118,7 @@ A continuación, nos tomaremos el tiempo para revisar parte de la teoría tratad
 
 
 
-Como en todos los cursos de Plan ₿ Network, en la sección final encontrará un examen final que pondrá a prueba sus conocimientos sobre los nodos de Bitcoin.
+Como en todos los cursos de Plan ₿ Academy, en la sección final encontrará un examen final que pondrá a prueba sus conocimientos sobre los nodos de Bitcoin.
 
 
 
@@ -410,7 +410,7 @@ En otras palabras, aproximadamente 9 de cada 10 nodos públicos utilizan Bitcoin
 
 
 
-Bitcoin core está escrito en C++. También es un proyecto de código abierto mantenido por una comunidad de desarrolladores voluntarios o remunerados por diversas entidades (a menudo por empresas del ecosistema interesadas en el desarrollo de Core). [El código está alojado en GitHub](https://github.com/Bitcoin/Bitcoin), y el desarrollo sigue un riguroso:
+Bitcoin Core es un software escrito en C++. También es un proyecto de código abierto mantenido por una comunidad de desarrolladores voluntarios o remunerados por diversas entidades (a menudo empresas del ecosistema que tienen interés en que el desarrollo de Core avance favorablemente). [El código está alojado en GitHub](https://github.com/bitcoin/bitcoin), y el desarrollo sigue un modelo riguroso:
 
 
 
@@ -448,7 +448,7 @@ También podemos mencionar:
 
 - Libbitcoin**: una biblioteca modular en C++ desarrollada por Amir Taaki y mantenida por Eric Voskuil;
 - Bcoin**: una implementación de JavaScript, que ya no se mantiene activamente;
-- BTCD/btcsuit**e: una implementación en Go.
+- **BTCD/btcsuite** : una implementación en Go.
 
 
 
@@ -516,7 +516,7 @@ Al utilizar tu propio nodo, transmites tus transacciones directamente a la red, 
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Transacciones no censurables
 
@@ -865,9 +865,9 @@ Es el enfoque más soberano y flexible: sabes exactamente qué se está ejecutan
 
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
 #### Bitcoin Knots (cliente alternativo principal)
 
@@ -886,7 +886,7 @@ Hay 2 posibles razones para elegir Nudos en lugar de Núcleo:
 - Política**: Algunas personas prefieren utilizar clientes alternativos como Knots por razones no técnicas, en particular para apoyar una alternativa a Core y reducir así su monopolio. Si alguna vez Core se viera comprometido, sería útil no sólo disponer de clientes alternativos sólidos y bien mantenidos, sino también saber cómo utilizarlos eficazmente. Otros utilizan Nudos con fines de protesta, porque han perdido la confianza en los desarrolladores de Core o desaprueban la mayor parte de la gestión del cliente.
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
 Personalmente, le recomiendo que elija Core, principalmente para beneficiarse de los parches de seguridad más rápidamente. En efecto, algunas vulnerabilidades descubiertas en Knots se corrigen con retraso. De forma más general, el proceso de desarrollo de Core está sólidamente estructurado y cuenta con el apoyo de un gran número de colaboradores, mientras que Knots es mantenido por una sola persona y cuenta con una comunidad mucho más reducida. Por otra parte, las reglas de retransmisión tienden a perder su utilidad hoy en día, sobre todo cuando sólo las aplica una pequeña fracción de la red (según la teoría de la percolación).
 
@@ -942,7 +942,7 @@ No voy a entrar aquí en más detalles sobre su funcionamiento y sus caracterís
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 ### Start9 (StartOS)
 
@@ -968,7 +968,7 @@ En resumen, si usted simplemente necesita las aplicaciones esenciales para Bitco
 
 
 
-https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
+https://planb.academy/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
 
 ### MiNodo
 
@@ -986,7 +986,7 @@ En la práctica, MyNode reúne todos los elementos básicos necesarios para hace
 
 
 
-https://planb.network/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
+https://planb.academy/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
 
 ### RaspiBlitz
 
@@ -1004,7 +1004,7 @@ Si posees una Raspberry Pi, esta es una excelente opción, ya que sistemas más 
 
 
 
-https://planb.network/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
+https://planb.academy/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
 
 ### RoninDojo
 
@@ -1026,7 +1026,7 @@ El proyecto ofrecía anteriormente una máquina preconfigurada llamada Tanto, pe
 
 
 
-https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
+https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
 
 ### Nodl
 
@@ -1565,7 +1565,7 @@ Si has optado por una Raspberry Pi 5 (una opción que no recomiendo, como se men
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 Como mencioné en la sección anterior, elegí ejecutar este tutorial en un pequeño PC reacondicionado que encontré a buen precio: un *Lenovo ThinkCentre M900 Tiny* equipado con un procesador Intel Core i7 y 16 GB de RAM. Se trata de una configuración muy cómoda para ejecutar Umbrel, especialmente para un nodo Bitcoin. Sin embargo, he elegido esta configuración porque quiero instalar un nodo Lightning y otras aplicaciones más exigentes más adelante. También he añadido un SSD de 2 TB a mi ThinkCentre para conservar el Blockchain completo y seguir teniendo un margen cómodo. Con esta configuración, el coste total es de 270 euros, incluidos todos los gastos.
 
@@ -1822,7 +1822,7 @@ Para identificar su IP Address de Umbrel, existen varios métodos, desde el más
 
 
 
-https://planb.network/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
+https://planb.academy/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
 
 
 
@@ -1864,9 +1864,9 @@ Elija una contraseña segura y asegúrese de guardar al menos una copia de segur
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Una vez introducida la contraseña, haz clic en el botón "*Crear*".
 
@@ -1944,7 +1944,7 @@ En primer lugar, recomiendo encarecidamente activar la autenticación de dos fac
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Para ello, haga clic en la casilla correspondiente de la configuración.
 
@@ -2435,7 +2435,7 @@ Como ya se ha mencionado, un explorador puede estar alojado en línea en un siti
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 Es más, su proveedor de servicios de Internet (ISP) puede saber que usted está viendo una transacción concreta a través del sitio Block explorer. Esto también plantea una cuestión de confianza: debe confiar en que el servicio en línea le proporcione información exacta sobre sus transacciones, sin poder comprobar usted mismo su veracidad.
 
@@ -2472,7 +2472,7 @@ Para saber más sobre el uso del explorador Mempool.Space, le recomiendo este co
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ### Nodo Rayo
 
@@ -2492,15 +2492,15 @@ Umbrel ofrece una serie de aplicaciones para ayudarte a poner en marcha tu nodo 
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
 A continuación, puede administrar su nodo desde el Interface principal o, para una funcionalidad aún mayor y opciones avanzadas, instalar *Ride The Lightning* o *ThunderHub*. Estas herramientas le proporcionarán un sistema de gestión de Interface basado en web mucho más completo para su nodo.
 
 
 
-https://planb.network/tutorials/node/lightning-network/ride-the-lightning-ca007688-0653-490c-8349-81d330d744b5
+https://planb.academy/tutorials/node/lightning-network/ride-the-lightning-ca007688-0653-490c-8349-81d330d744b5
 
-https://planb.network/tutorials/node/lightning-network/thunderhub-16909a39-2484-408e-a118-4e34e249bb9a
+https://planb.academy/tutorials/node/lightning-network/thunderhub-16909a39-2484-408e-a118-4e34e249bb9a
 
 ![Image](assets/fr/088.webp)
 
@@ -2564,7 +2564,7 @@ Para instalar y configurar Tailscale en tu Umbrel, consulta este tutorial, secci
 
 
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 ### Nostr
 
@@ -2598,7 +2598,7 @@ Para saber cómo utilizar todas estas aplicaciones, te recomiendo que eches un v
 
 
 
-https://planb.network/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b-17c2ea1e08fd
+https://planb.academy/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b-17c2ea1e08fd
 
 ### Servidor BTCPay
 
@@ -2626,7 +2626,7 @@ Si tiene un negocio y desea aceptar pagos Bitcoin directamente a través de su n
 
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 
 
@@ -2634,7 +2634,7 @@ https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 
 
-https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
+https://planb.academy/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 
 
 
@@ -2642,7 +2642,7 @@ https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 
 
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 
 # Conceptos avanzados y mejores prácticas
@@ -2751,7 +2751,7 @@ Para profundizar tus conocimientos sobre seguridad informática en general, te r
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 ### Diagnóstico y autoayuda
 
@@ -2941,7 +2941,7 @@ Cuando el nodo ha completado su sincronización inicial, almacena localmente var
 
 
 
-- gW-402 **bloques** almacenados en disco,
+- los **bloques** de la cadena de bloques almacenados en el disco,
 - el **conjunto UTXO** mantenido en una base de datos clave-valor,
 - y el **Mempool** se almacena en RAM y se serializa periódicamente.
 
@@ -3077,9 +3077,9 @@ El crecimiento del conjunto UTXO también se debe a la estructura de las transac
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-Dado que una parte debe mantenerse en RAM para verificar las transacciones en un tiempo razonable, el conjunto UTXO puede hacer que el funcionamiento de una Full node sea gradualmente demasiado costoso. Para resolver este problema, ya existen algunas propuestas, en particular [Utreexo](https://planb.network/resources/glossary/utreexo).
+Dado que una parte debe mantenerse en RAM para verificar las transacciones en un tiempo razonable, el conjunto UTXO puede hacer que el funcionamiento de una Full node sea gradualmente demasiado costoso. Para resolver este problema, ya existen algunas propuestas, en particular [Utreexo](https://planb.academy/resources/glossary/utreexo).
 
 
 
@@ -3093,7 +3093,7 @@ La Mempool es el conjunto local de transacciones válidas que se han recibido pe
 
 
 - el tamaño asignado a la Mempool mediante el parámetro `maxmempool`: un nodo con una Mempool más grande podrá contener más transacciones que un nodo con una Mempool más pequeña (a menos que esta última quede vacía);
-- reglas gW-433: son un subconjunto de las reglas de retransmisión del nodo y definen las características que debe cumplir una transacción no confirmada para ser aceptada en Mempool;
+- las reglas del mempool: constituyen un subconjunto de las reglas de retransmisión del nodo y definen las características que una transacción no confirmada debe cumplir para ser aceptada en el mempool;
 - percolación de transacciones: debido a diversos factores, una transacción determinada puede haberse distribuido a una parte de la red, pero no haber llegado aún a otra.
 
 
@@ -3135,10 +3135,10 @@ Varios otros ficheros al mismo nivel que `blocks/`, `chainstate/`, y `indexes/` 
 - Cuando el nodo se apaga, `anchors.dat` guarda las direcciones de los pares salientes, para que puedas intentar contactar con ellos rápidamente la próxima vez que arranques.
 - `banlist.json` contiene prohibiciones locales decididas por el operador o por el nodo (comportamiento inválido repetido), para evitar que el nodo se vuelva a conectar o acepte conexiones de estos pares específicos.
 - el archivo `fee_estimates.dat` almacena estadísticas de horizonte temporal sobre las confirmaciones observadas, utilizadas por el estimador de tasas para proponer tasas coherentes con los objetivos de demora elegidos al crear una transacción.
-- gW-446.conf` contiene los parámetros de configuración de tu nodo. Aquí es donde puedes ajustar las reglas de retransmisión. Te contaré más sobre esto en el próximo capítulo.
+- `bitcoin.conf` contiene los parámetros de configuración de su nodo. Es en este archivo donde se pueden ajustar las reglas de retransmisión. Hablaré de ello con más detalle en el próximo capítulo;
 - `settings.json` contiene parámetros adicionales a `Bitcoin.conf`.
 - `debug.log` es el registro de texto de diagnóstico, que puede utilizarse para comprender la actividad del nodo en caso de fallo.
-- gW-448.pid` almacena el identificador del proceso en tiempo de ejecución, permitiendo a otras aplicaciones o scripts identificar fácilmente bitcoind (*Bitcoin daemon*) e interactuar con él si es necesario. Se crea al iniciar el nodo y se elimina al apagarlo.
+- `bitcoind.pid` registra el identificador del proceso durante la ejecución, lo que permite que otras aplicaciones o scripts identifiquen fácilmente a Bitcoind (*Bitcoin Daemon*) e interactúen con él si es necesario. Se crea al iniciar el nodo y se elimina al detenerlo;
 - `ip_asn.map` es una tabla de mapeo IP → ASN (sistema autónomo) utilizada para bucketing y diversificación de pares (opción `-asmap`).
 - `onion_v3_private_key` almacena la clave privada del servicio Tor v3 cuando la opción `-listenonion` está habilitada, para mantener una Address cebolla estable entre reinicios.
 - `i2p_private_key` almacena la clave privada de I2P cuando se utiliza `-i2psam=`, para realizar conexiones salientes y posiblemente entrantes en I2P.
@@ -3154,9 +3154,9 @@ Como vimos en las primeras partes de este curso BTC 202, Bitcoin core es a la ve
 
 
 
-- `wallets/` es el directorio por defecto que aloja uno o más;
+- `wallets/` es el directorio predeterminado que aloja una o varias carteras;
 - `wallets/<name>/Wallet.dat` es la base de datos SQLite de la Wallet (claves, descriptores, metadatos de transacciones, etc.);
-- wallets/<name>/Wallet.dat-journal` es el registro de retrocesos de SQLite.
+- `wallets/<name>/wallet.dat-journal` es el registro de reversión de SQLite.
 
 
 
@@ -3335,10 +3335,10 @@ A nivel de red, también tenemos:
 
 
 - `addnode`: añade un par amigo con el que contactar además del descubrimiento habitual (puede especificarse varias veces).
-- connect`: restringe estrictamente las conexiones al Address proporcionado (puede especificarse varias veces). El núcleo no se conectará a ningún otro nodo.
+- `connect`: restringe estrictamente las conexiones a la dirección proporcionada (puede especificarse varias veces). Core no se conectará a ningún otro nodo;
 - `seednode`: se utiliza sólo para rellenar el libro-Address cuando se conecta a un nodo y luego se desconecta.
 - `maxconnections`: define el límite global de conexiones entrantes + salientes. Por defecto, este parámetro se establece en 125, lo que significa que tu nodo nunca aceptará más de 125 conexiones.
-- maxuploadtarget`: limita las subidas para limitar el ancho de banda en una ventana móvil de 24 horas. Este tope no sacrifica la propagación de Elements recientes esenciales.
+- `maxuploadtarget` : limita la carga para restringir el ancho de banda en una ventana móvil de 24 horas. Este límite no sacrifica la propagación de elementos recientes esenciales;
 - `onlynet`: limita las conexiones salientes sólo a las redes seleccionadas (`ipv4`, `ipv6`, `onion`, `i2p`, `cjdns`). Por ejemplo, si quiere que su nodo se conecte a la red Bitcoin sólo a través de Tor, puede habilitar el parámetro `onlynet=onion` y deshabilitar las conexiones entrantes (o sólo permitir conexiones a través de Tor también).
 - `dnsseed`: permite o no permite que _DNS seeds_ solicite peers cuando el pool local de Address es bajo (por defecto: `1`, a menos que `-connect` o `-maxconnections=0`).
 - `forcednsseed`: obliga a solicitar _DNS seeds_ al inicio, incluso si ya tiene direcciones en stock (por defecto: `0`).
@@ -3362,7 +3362,7 @@ Para estar completamente habilitado para Tor, necesita forzar a Bitcoin core a u
 - `torcontrol=127.0.0.1:9051`,
 - `proxyrandomize=1`,
 - `listen=1`,
-- bind=127.0.0.1`,
+- `bind=127.0.0.1`,
 - `upnp=0`,
 - `natpmp=0`.
 
@@ -3418,7 +3418,7 @@ Estos son los parámetros básicos que puede modificar en su `Bitcoin.conf` rela
 
 
 
-- blocksonly=1`: Desactiva la aceptación y retransmisión de transacciones no confirmadas recibidas de pares (a menos que se concedan permisos especiales). El nodo ahora sólo sube y anuncia bloques. Las transacciones creadas localmente pueden seguir siendo retransmitidas (para utilizar su nodo con su software Wallet). Esto reduce enormemente los requisitos de ancho de banda y RAM, aunque a costa de una menor utilidad para el relé y un desconocimiento total de la Mempool.
+- `blocksonly=1` : Desactiva la aceptación y retransmisión de transacciones no confirmadas recibidas de pares (excepto permisos especiales). El nodo solo descarga y anuncia bloques. Las transacciones creadas localmente aún pueden difundirse (para usar su nodo con su software de billetera). Esto reduce considerablemente el ancho de banda y los requisitos de RAM, a costa de una menor utilidad para el reenvío y un desconocimiento total del mempool.
 
 
 
@@ -3448,7 +3448,7 @@ Aquí están los ajustes avanzados para Mempool y la política de retransmisión
 
 
 
-- datacarrier=1`: Permite la retransmisión y (si Mining a través de nodo) la inclusión de transacciones que transporten datos no financieros a través de una salida `OP_RETURN` (por defecto: `1`). La desactivación de este parámetro reduce ligeramente la superficie de spam de datos no financieros, a costa de una menor compatibilidad con determinados usos. En todos los casos, debe aceptar la salida `OP_RETURN`.
+- `datacarrier=1` : Permite el retransmisión y (si se mina a través del nodo) la inclusión de transacciones que contienen datos no financieros mediante una salida `OP_RETURN` (por defecto: `1`). Desactivar este parámetro reduce ligeramente la superficie de spam de datos no financieros a costa de una menor compatibilidad con ciertos usos. En todos los casos, deberá aceptar los `OP_RETURN` minados.
 
 
 
@@ -3490,13 +3490,13 @@ Aquí están los ajustes avanzados para Mempool y la política de retransmisión
 
 
 
-- peerbloomfilters=1`: Habilita el soporte de filtros Bloom (BIP37) para servir bloques/transacciones filtrados a clientes ligeros (por defecto: `0`). Advertencia: esto aumenta la carga de sus recursos.
+- `peerbloomfilters=1` : Activa la compatibilidad con los filtros Bloom (BIP37) para servir bloques/transacciones filtrados a los clientes ligeros (por defecto: `0`). Atención, esto aumenta la carga sobre sus recursos.
 
 
 
 
 
-- peerblockfilters=1`: Sirve filtros compactos BIP157 (*Neutrino*) a los pares (por defecto: `0`).
+- `peerblockfilters=1` : Sirve filtros compactos BIP157 (*Neutrino*) a los pares (por defecto: `0`).
 
 
 
@@ -3520,7 +3520,7 @@ También puede ajustar la forma en que se gestionan sus carteras en el archivo `
 
 
 
-- addresstype=<legacy|P2SH-SegWit|bech32|bech32m>`: Define el formato de las direcciones generadas por Wallet para la recepción.
+- `addresstype=<legacy|p2sh-segwit|bech32|bech32m>` : Define el formato de las direcciones generadas por la billetera para la recepción.
 
 
 
@@ -3568,7 +3568,7 @@ También puede ajustar la forma en que se gestionan sus carteras en el archivo `
 
 
 
-- fallbackfee=<amt>`: Tasa de fallback (BTC/kvB) utilizada si el estimador se queda sin datos (por defecto: `0.00`). Si se establece en 0, se desactiva por completo.
+- `fallbackfee=<amt>` : Tarifa de respaldo (BTC/kvB) utilizada si el estimador carece de datos (por defecto: `0.00`). Configurarla en 0 desactiva completamente el modo de respaldo.
 
 
 
@@ -3660,7 +3660,7 @@ El archivo de configuración también le permite ajustar los parámetros relacio
 
 
 
-- txindex=1`: Construye y mantiene un índice global de transacciones confirmadas. Esencial para ciertas consultas (`getrawtransaction` no-Wallet) y para propósitos de exploración, pero aumenta significativamente la huella de disco. Incompatible con el modo pruned.
+- `txindex=1` : Construye y mantiene un índice global de transacciones confirmadas. Es esencial para ciertas consultas (`getrawtransaction` fuera de la billetera) y para usos de exploración, pero aumenta considerablemente el uso del disco. Incompatible con el modo recortado.
 
 
 
@@ -3894,7 +3894,7 @@ Ahora puede pasar a la parte final del curso, donde podrá evaluar BTC 202 y, a 
 
 
 
-Ahora tienes varias opciones abiertas. El siguiente paso lógico es crear su propio nodo Lightning, lo que le permitirá ser totalmente independiente para sus transacciones off-chain. Este será el tema de un próximo curso, que se publicará este otoño de 2025 sobre Plan ₿ Network.
+Ahora tienes varias opciones abiertas. El siguiente paso lógico es crear su propio nodo Lightning, lo que le permitirá ser totalmente independiente para sus transacciones off-chain. Este será el tema de un próximo curso, que se publicará este otoño de 2025 sobre Plan ₿ Academy.
 
 
 
@@ -3902,7 +3902,7 @@ Mientras tanto, le invito a descubrir la formación BTC 204, que le permitirá c
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 # Parte final

@@ -131,7 +131,7 @@ C’est la fin de ce premier chapitre, où nous avons posé les bases du Lightni
 
 <chapterId>0cfb7e6b-96f0-508b-9210-90bc1e28649d</chapterId>
 
-:::video id=7e59a543-3872-40de-950b-c7540129af1a:::
+:::video id=75323eef-ea03-45ac-9a6e-46d73ca255de:::
 
 Ce chapitre est un peu particulier puisqu'il ne sera pas directement consacré à Lightning, mais à Bitcoin. En effet, le Lightning Network est une surcouche de Bitcoin. Il est donc essentiel de bien comprendre certains concepts fondamentaux de Bitcoin pour appréhender correctement le fonctionnement de Lightning par la suite dans les prochains chapitres. Dans ce chapitre, nous allons revoir les bases sur les adresses de réception Bitcoin, les UTXOs, ainsi que le fonctionnement des transactions Bitcoin.
 
@@ -197,7 +197,7 @@ Ce chapitre sur Bitcoin nous a permis de revoir quelques notions essentielles po
 
 <chapterId>96243eb0-f6b5-5b68-af1f-fffa0cc16bfe</chapterId>
 
-:::video id=ef007b00-ace0-4a9e-a993-515277d190d2:::
+:::video id=6098fee1-735e-4d8d-9f57-0faf5fef6d76:::
 
 Dans ce chapitre, nous allons voir plus précisément comment ouvrir un canal de paiement sur le Lightning Network et comprendre le lien entre cette opération et le système Bitcoin sous-jacent.
 
@@ -261,7 +261,7 @@ Dans le chapitre suivant, nous allons étudier le fonctionnement technique d'une
 
 <chapterId>7d3fd135-129d-5c5a-b306-d5f2f1e63340</chapterId>
 
-:::video id=683b2325-59bd-4369-8c5a-7609fbe33079:::
+:::video id=c17454f3-14c5-47a0-8c9c-42ee12932bd3:::
 
 Dans ce chapitre, nous allons découvrir le fonctionnement technique d'une transaction au sein d’un canal sur le Lightning Network, c'est-à-dire lorsque des fonds sont déplacés d'un côté à l'autre du canal.
 
@@ -321,7 +321,7 @@ Cependant, ce système présente une faille potentielle, que nous aborderons dan
 
 <chapterId>f2f61e5b-badb-5947-9a81-7aa530b44e59</chapterId>
 
-:::video id=98be54e8-eaa7-4c2d-b8a7-fbf1c2197488:::
+:::video id=1d850f23-eff1-4725-b284-ce12456a2c26:::
 
 Dans ce chapitre, nous allons approfondir le fonctionnement des transactions sur le Lightning Network en abordant les mécanismes de protection contre la tricherie, pour garantir que chaque partie respecte les règles au sein d’un canal.
 
@@ -402,7 +402,7 @@ Ce système de sécurité garantit que les participants respectent les règles d
 
 <chapterId>29a72223-2249-5400-96f0-3756b1629bc2</chapterId>
 
-:::video id=c7db75c9-65c1-4d08-8577-d14b891d13d8:::
+:::video id=4d8ad4e6-32ff-46d3-bd17-343929aa863b:::
 
 Dans ce chapitre, nous allons aborder la **fermeture d'un canal** sur le Lightning Network, qui se réalise au travers d’une transaction Bitcoin, tout comme l’ouverture d’un canal. Après avoir vu comment fonctionnent les transactions au sein d’un canal, il est maintenant temps de voir comment clôturer un canal et récupérer les fonds sur la blockchain Bitcoin.
 
@@ -491,7 +491,7 @@ Dans les prochains chapitres, nous allons découvrir le Lightning Network sous u
 
 <chapterId>45a7252c-fa4f-554b-b8bb-47449532918e</chapterId>
 
-:::video id=7207f612-a3e7-4a8c-b562-8501ea242be3:::
+:::video id=38419c23-5592-4573-b0a7-84824a5bfb77:::
 
 Dans ce chapitre, nous allons explorer comment les paiements sur le Lightning Network peuvent atteindre un destinataire même si celui-ci n'est pas directement connecté par un canal de paiement. Lightning est, en effet, un **réseau de canaux de paiement**, ce qui permet d'envoyer des fonds vers un nœud distant en passant par des canaux d'autres participants. Nous allons découvrir comment les paiements sont routés sur le réseau, comment la liquidité se déplace entre les canaux, et comment les frais de transaction sont calculés.
 
@@ -612,7 +612,7 @@ Dans ce chapitre, nous avons découvert le routage des paiements sur le Lightnin
 
 <chapterId>4369b85a-1365-55d8-99e1-509088210116</chapterId>
 
-:::video id=ffdc301f-bc2d-4d5a-b062-1f4058ee518d:::
+:::video id=6f204b92-55a5-4939-9440-7c5b96a297bf:::
 
 Dans ce chapitre, nous allons découvrir comment Lightning permet de faire transiter des paiements par des nœuds intermédiaires sans avoir besoin de leur faire confiance, grâce aux **HTLC** (_Hashed Time-Locked Contracts_). Ces contrats intelligents permettent de garantir que chaque nœud intermédiaire ne recevra les fonds de son canal que s'il envoie le paiement vers le destinataire final, sans quoi le paiement ne sera pas validé.
 
@@ -737,7 +737,7 @@ Dans le chapitre suivant, nous allons découvrir comment un nœud émetteur d'un
 
 <chapterId>7e2ae959-c2a1-512e-b5d6-8fd962e819da</chapterId>
 
-:::video id=ef1ba4bb-b9bd-4597-88f7-d030cd70539a:::
+:::video id=e5baa834-111d-46f5-a28b-3538bed2bbb0:::
 
 Dans les chapitres précédents, nous avons vu comment utiliser les canaux d’autres nœuds pour acheminer des paiements et atteindre un nœud sans être directement connecté avec celui-ci via un canal. Nous avons également abordé la manière de garantir la sécurité du transfert sans faire confiance aux nœuds intermédiaires. Dans ce chapitre, nous allons nous intéresser à la recherche de la meilleure route possible pour atteindre un nœud cible.
 
@@ -828,7 +828,7 @@ Dans le chapitre suivant, nous allons justement étudier plus précisément le f
 
 <chapterId>e34c7ecd-2327-52e3-b61e-c837d9e5e8b0</chapterId>
 
-:::video id=0ce032ff-1839-44e7-ba80-3bb5f1bbd047:::
+:::video id=309c3412-506e-4189-ad46-5e5088c55008:::
 
 Dans ce chapitre, nous allons étudier plus en détail le fonctionnement des **invoices** Lightning, c’est-à-dire des requêtes de paiement envoyées par le nœud destinataire au nœud émetteur. L’objectif est de comprendre comment payer et recevoir des paiements sur Lightning. Nous allons parler également de 2 alternatives aux invoices classiques : LNURL et Keysend.
 
@@ -942,7 +942,7 @@ Dans le chapitre suivant, nous allons voir comment un opérateur de nœud peut g
 
 <chapterId>cc76d0c4-d958-57f5-84bf-177e21393f48</chapterId>
 
-:::video id=bdc1578b-2c6c-482d-a9bc-7145710a7ebb:::
+:::video id=96096aef-e4ce-4c44-a022-57e27082232a:::
 
 Dans ce chapitre, nous allons découvrir les stratégies pour gérer efficacement sa liquidité sur le Lightning Network. La gestion de la liquidité varie selon le type d’utilisateur et le contexte. Nous allons voir les grands principes et les techniques existantes pour mieux comprendre comment optimiser cette gestion.
 
@@ -1015,7 +1015,7 @@ Dans le chapitre suivant, je vous propose de revoir les concepts les plus import
 
 <chapterId>a65a571c-561b-5e1c-87bf-494644653c22</chapterId>
 
-:::video id=f63e6237-bd66-4670-beca-14c2e573c826:::
+:::video id=5f4f4344-ef27-4765-8f09-8262e6833bde:::
 
 Dans ce dernier chapitre qui marque la fin de la formation LNP201, je vous propose de revenir sur les concepts importants que nous avons vus ensemble.
 

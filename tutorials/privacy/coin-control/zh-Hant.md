@@ -51,7 +51,7 @@ description: 認識 Coin Control，這是一個保護您在比特幣上隱私的
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 有了 Bitcoin，您累積並在之後花費的是以 Satoshi 計量的小型或大型帳戶單位，由「未花費交易輸出」代表，即 **UTXO**，也稱為「硬幣」。當您使用 UTXOs 創建交易時，它們會被完全銷毀，並在其位置創建其他 UTXOs。
 
@@ -568,7 +568,7 @@ Coin 控制對於選擇您的交易輸入是非常有效的做法。如果在買
 
 
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 我們之前談過「分隔殘餘物」。如果您想要鎖定餘額以便日後處理，並重新獲得隱私（在 Layer 2 上進行交換），您必須在每次收到餘額時小心地對其進行「標籤」。在目前看到的軟件錢包中，只有 Electrum 對 UTXO 餘額進行了圖像著色，使其一目了然。其他的，例如 Sparrow，會顯示個別 UTXO (`m/84'/0'/0'/1/11`)衍生路徑中的鏈。
 

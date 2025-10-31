@@ -66,7 +66,7 @@ Auf [Bitcoinmints.com](Bitcoinmints.com) findest du eine Liste aller Mints mit B
 
 Das Backup ist der wichtigste Schritt! Geh zu `Einstellungen` → `Backup`. Dort hast du zwei Optionen:
 
-1. `Deine Seed-Phrase`: 12 Wörter, mit denen du dein Ecash auf allen Mints wiederherstellen kannst. Schreib sie physisch auf (Papier/Metall) und lagere sie an mehreren sicheren Orten. Nie digital speichern! Schau dir [dieses Tutorial](https://planb.network/en/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270) an, um die besten Praktiken zu lernen.
+1. `Deine Seed-Phrase`: 12 Wörter, mit denen du dein Ecash auf allen Mints wiederherstellen kannst. Schreib sie physisch auf (Papier/Metall) und lagere sie an mehreren sicheren Orten. Nie digital speichern! Schau dir [dieses Tutorial](https://planb.academy/en/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270) an, um die besten Praktiken zu lernen.
 2. Das `Wallet-Backup`: welches aus einen langen Backup-String besteht.
 
 **Achtung**: Für die Wiederherstellung brauchst du immer noch deine Seed-Phrase – der Backup-String allein reicht nicht!

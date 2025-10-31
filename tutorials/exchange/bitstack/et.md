@@ -53,7 +53,7 @@ Valige tugev salasõna, et tagada juurdepääs oma kontole, seejärel klõpsake 
 
 Igapäevaseks turvaliseks paroolide haldamiseks on väga soovitatav kasutada paroolihaldurit. Plan ₿ Networkist leiate mitmeid õpetusi parimate olemasolevate lahenduste kohta, näiteks Bitwarden :
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Seejärel palutakse teil kontrollida oma isikut (KYC). Vastavalt Prantsusmaa eeskirjadele palutakse teil esitada oma isikuandmed ja isikut tõendavad dokumendid. Täitke lahtritesse oma perekonnanimi, eesnimi ja sünniaeg.
 
@@ -184,7 +184,7 @@ Tehingu prioriteedi määramine. Tasuta väljavõtmise puhul valige prioriteet "
 
 ![Image](assets/fr/32.webp)
 
-Kui te ei ole kursis, kuidas iseteenindusportfell töötab, siis pakume õpetusi enamiku kättesaadavate lahenduste kohta [Plan ₿ Network'is jaotises "*Wallet*"](https://planb.network/tutorials/wallet).
+Kui te ei ole kursis, kuidas iseteenindusportfell töötab, siis pakume õpetusi enamiku kättesaadavate lahenduste kohta [Plan ₿ Academy'is jaotises "*Wallet*"](https://planb.academy/tutorials/wallet).
 
 ## Bitcoini müük
 

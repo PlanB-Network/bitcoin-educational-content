@@ -1055,10 +1055,10 @@ Koristimo konačno polje celih brojeva modulo $p$ kako bismo osigurali tačnost 
 Matematika eliptičkih krivih nad konačnim poljima je analogna onoj nad poljem realnih brojeva, s prilagodbom da se sve operacije izvode modulo $p$. Da bismo pojednostavili objašnjenja, u narednim poglavljima ćemo nastaviti ilustrovati pojmove koristeći krivu definisanu nad realnim brojevima, imajući na umu da je u praksi kriva definisana nad konačnim poljem.
 
 
-Ako želite da saznate više o matematičkim osnovama moderne kriptografije, preporučujem da pogledate i ovaj drugi kurs na Plan ₿ Network:
+Ako želite da saznate više o matematičkim osnovama moderne kriptografije, preporučujem da pogledate i ovaj drugi kurs na Plan ₿ Academy:
 
 
-https://planb.network/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
+https://planb.academy/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 
 ## Izračunavanje javnog ključa iz privatnog ključa
 
@@ -1655,7 +1655,7 @@ Ako se ovaj sighash indikator integriše u Bitcoin, to će omogućiti upotrebu t
 Da biste produbili svoje znanje o Lightning Network, nakon kursa CYP201, toplo preporučujem kurs LNP201 od Fanisa Michalakisa, koji detaljno pokriva ovu temu:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 U narednom delu predlažem da otkrijemo kako funkcioniše bezbednosna fraza koja je osnova vašeg Bitcoin novčanika.
 
@@ -1706,10 +1706,10 @@ Ako neko želi da koristi više privatnih ključeva, bilo je potrebno napraviti 
 Ovo ograničenje proizlazi iz Bitcoin modela privatnosti. Ponovnim korišćenjem iste adrese, spoljnim posmatračima se olakšava praćenje Bitcoin transakcija. Zato se ponovna upotreba prijemne adrese snažno obeshrabruje. Međutim, da bismo imali više adresa i javno odvojili naše transakcije, neophodno je upravljati sa više privatnih ključeva. U slučaju JBOK novčanika, to podrazumeva kreiranje onoliko rezervnih kopija koliko ima novih parova ključeva, zadatak koji može brzo postati složen i težak za održavanje korisnicima.
 
 
-Da biste saznali više o modelu privatnosti Bitcoin-a i otkrili metode za zaštitu vaše privatnosti, takođe preporučujem da pratite moj BTC204 kurs na Plan ₿ Network:
+Da biste saznali više o modelu privatnosti Bitcoin-a i otkrili metode za zaštitu vaše privatnosti, takođe preporučujem da pratite moj BTC204 kurs na Plan ₿ Academy:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### HD Novčanici
 
@@ -1854,7 +1854,7 @@ Na primer, za entropiju od 256 bita, rezultat $\text{ENT} \Vert \text{CS}$ je 26
 ### Pretvaranje binarnog niza u bezbednosnu frazu
 
 
-Bit sekvenca $\text{ENT} \Vert \text{CS}$ se zatim deli na segmente od 11 bita. Svaki segment od 11 bita, kada se konvertuje u decimalni oblik, odgovara broju između 0 i 2047, koji označava poziciju reči [u listi od 2048 reči standardizovanih od strane BIP39](https://github.com/Planb-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
+Bit sekvenca $\text{ENT} \Vert \text{CS}$ se zatim deli na segmente od 11 bita. Svaki segment od 11 bita, kada se konvertuje u decimalni oblik, odgovara broju između 0 i 2047, koji označava poziciju reči [u listi od 2048 reči standardizovanih od strane BIP39](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
 
 ![CYP201](assets/en/042.webp)
@@ -1919,7 +1919,7 @@ Fraza od 12 reči, koja takođe nudi 128 bita sigurnosti, trenutno je dovoljna d
 Da biste išli dalje i konkretno naučili kako ručno generisati testnu bezbednosnu frazu, savetujem vam da otkrijete ovaj vodič:
 
 
-https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
+https://planb.academy/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
 
 Pre nego što nastavim sa izvođenjem novčanika iz ove bezbednosne fraze, u sledećem poglavlju ću vas upoznati sa BIP39 passphrase, jer igra ulogu u procesu izvođenja i nalazi se na istom nivou kao i bezbednosna fraza.
 

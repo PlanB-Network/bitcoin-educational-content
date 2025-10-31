@@ -44,7 +44,7 @@ La dernière section est animée par d'autres intervenants qui présentent des a
 
 Cette formation est initialement issue d'un bootcamp de développement avancé de deux semaines à Viareggio, en Toscane, organisé par [Fulgur'Ventures](https://fulgur.ventures/). La première semaine, centrée sur Rust et les SDK, peut être retrouvée dans cet autre cours :
 
-https://planb.network/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
+https://planb.academy/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
 
 Dans ce cours, nous nous concentrons sur la deuxième semaine du bootcamp, qui porte sur RGB.
 
@@ -1603,7 +1603,7 @@ Le Lightning Network est un réseau décentralisé de canaux de paiements (ou _s
 
 Pour plus d’informations sur le fonctionnement de Lightning, je vous conseille de suivre cette autre formation :
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 #### Multi Protocol Commitment - MPC
 
@@ -2715,8 +2715,8 @@ interface: RGB20Fixed
 
 globals:
   spec:
-    ticker: PBN
-    name: Plan B Network
+    ticker: Plan ₿ Academy
+    name: Plan ₿ Academy
     details: "Pay attention: the asset has no value"
     precision: 2
   terms:
@@ -2761,7 +2761,7 @@ rgb contracts
 
 ![RGB-Bitcoin](assets/en/087.webp)
 
- Puis, la commande suivante permet d'afficher les global states (le nom, le ticker, la supply...) et la liste des Owned States, c’est-à-dire les allocations (par exemple, 1 million de token `PBN` définis dans l'UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
+ Puis, la commande suivante permet d'afficher les global states (le nom, le ticker, la supply...) et la liste des Owned States, c’est-à-dire les allocations (par exemple, 1 million de token `Plan ₿ Academy` définis dans l'UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
 
 ```bash
 rgb state '<ContractId>'
@@ -2935,7 +2935,7 @@ Dans la réalité, le Lightning Network permet le routage de paiements via des c
 
 Le fonctionnement de RGB sur Lightning doit donc être considéré en parallèle avec celui du Lightning Network lui-même. Si vous désirez approfondir ce sujet, je vous recommande vivement de consulter cette autre formation complète :
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 ### Plan du code de RGB
@@ -3390,7 +3390,7 @@ Vous pouvez évidemment adapter la commande. Pour confirmer la transaction, on m
 ./regtest.sh mine 1
 ```
 
-On peut maintenant créer un asset RGB. La commande va dépendre du type d'asset que vous souhaitez créer et de ses paramètres. Ici je crée un token NIA (*Non Inflatable Asset*) nommé "PBN" avec une supply de 1000 unités. La `precision` permet de définir la divisibilité des unités.
+On peut maintenant créer un asset RGB. La commande va dépendre du type d'asset que vous souhaitez créer et de ses paramètres. Ici je crée un token NIA (*Non Inflatable Asset*) nommé "Plan ₿ Academy" avec une supply de 1000 unités. La `precision` permet de définir la divisibilité des unités.
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3398,8 +3398,8 @@ curl -X POST -H "Content-Type: application/json" \
         "amounts": [
           1000
         ],
-        "ticker": "PBN",
-        "name": "Plan B Network",
+        "ticker": "Plan ₿ Academy",
+        "name": "Plan ₿ Academy",
         "precision": 0
       }' \
   http://localhost:3001/issueassetnia
@@ -3435,7 +3435,7 @@ La commande me renvoie la clé publique de mon nœud n°2 :
 
 ![RGB-Bitcoin](assets/en/110.webp)
 
-Ensuite, nous allons ouvrir le canal en spécifiant l'asset concerné (`PBN`). La commande `/openchannel` vous permet de définir la taille du canal en satoshis et d'opter pour l'inclusion de l'asset RGB. Cela dépend de ce que vous souhaitez créer, mais dans mon cas, la commande est :
+Ensuite, nous allons ouvrir le canal en spécifiant l'asset concerné (`Plan ₿ Academy`). La commande `/openchannel` vous permet de définir la taille du canal en satoshis et d'opter pour l'inclusion de l'asset RGB. Cela dépend de ce que vous souhaitez créer, mais dans mon cas, la commande est :
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3473,7 +3473,7 @@ Pour confirmer la transaction, on mine 6 blocs :
 
 ![RGB-Bitcoin](assets/en/112.webp)
 
-Le canal Lightning est désormais ouvert et contient également 500 tokens `PBN` du côté du nœud n°1. Si le nœud n°2 souhaite recevoir des tokens `PBN`, il devra générer une invoice. Voici comment procéder :
+Le canal Lightning est désormais ouvert et contient également 500 tokens `Plan ₿ Academy` du côté du nœud n°1. Si le nœud n°2 souhaite recevoir des tokens `Plan ₿ Academy`, il devra générer une invoice. Voici comment procéder :
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3500,7 +3500,7 @@ lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87e
 
 ![RGB-Bitcoin](assets/en/113.webp)
 
-Nous allons maintenant payer cette invoice depuis le premier nœud, qui détient les liquidités nécessaires avec le token `PBN` :
+Nous allons maintenant payer cette invoice depuis le premier nœud, qui détient les liquidités nécessaires avec le token `Plan ₿ Academy` :
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \

@@ -64,7 +64,7 @@ Dojo یک برنامه متن‌باز است که به‌عنوان یک سرو
 
 
 
-https://planb.network/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
+https://planb.academy/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 
 ### تجهیزات پیشنهادی
 
@@ -192,7 +192,7 @@ https://planb.network/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 ### ۱.۳. به‌روزرسانی سیستم
 
@@ -428,7 +428,7 @@ sudo passwd dojo
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ### ۳.۳. مجوز دادن به کاربر برای استفاده از Docker
 
@@ -1068,7 +1068,7 @@ Ctrl + C
 
 
 
-https://planb.network/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
+https://planb.academy/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 
 
 ## ۷. نظارت بر همگام‌سازی

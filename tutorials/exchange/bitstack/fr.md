@@ -47,9 +47,9 @@ Choisissez un mot de passe fort pour sécuriser l'accès à votre compte, puis c
 
 ![Image](assets/fr/06.webp)
 
-Pour une gestion sécurisée de vos mots de passe au quotidien, l'utilisation d'un gestionnaire de mots de passe est vivement recommandée. Sur Plan ₿ Network, vous trouverez plusieurs tutoriels sur les meilleures solutions existantes, comme par exemple Bitwarden :
+Pour une gestion sécurisée de vos mots de passe au quotidien, l'utilisation d'un gestionnaire de mots de passe est vivement recommandée. Sur Plan ₿ Academy, vous trouverez plusieurs tutoriels sur les meilleures solutions existantes, comme par exemple Bitwarden :
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Ensuite, vous devrez procéder à la vérification d'identité (KYC). Conformément aux réglementations françaises, vous serez invité à fournir vos informations personnelles et une pièce d'identité. Complétez les cases avec votre nom, prénom et date de naissance.
 
@@ -178,7 +178,7 @@ Déterminez la priorité de la transaction. Pour un retrait sans frais, choisiss
 
 ![Image](assets/fr/32.webp)
 
-Si vous ne connaissez pas le fonctionnement d'un portefeuille en self-custody, nous proposons des tutoriels sur la plupart des solutions disponibles [sur Plan ₿ Network dans la section "*Wallet*"](https://planb.network/tutorials/wallet).
+Si vous ne connaissez pas le fonctionnement d'un portefeuille en self-custody, nous proposons des tutoriels sur la plupart des solutions disponibles [sur Plan ₿ Academy dans la section "*Wallet*"](https://planb.academy/tutorials/wallet).
 
 ## Vendre du bitcoin
 

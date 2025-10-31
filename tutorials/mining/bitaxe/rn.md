@@ -5,7 +5,7 @@ description: Ni gute woshiraho BitAxe?
 ![video](https://youtu.be/tvLSK8v0MK8)
 
 
-### Imenyekanisha
+## Intangamariro
 
 
 BitAxe ni umugambi w’inkomoko yuguruye waremwe na Skot kandi [uboneka kuri GitHub](https://github.com/skot/bitaxe) ushobora gutuma habaho igerageza rya Mining ritari ryiza.
@@ -27,7 +27,7 @@ Hariho verisiyo nyinshi za BitAxe, zifise ibice bitandukanye n’imikorere:
 Muri iyi nyigisho, tuzoba turiko turakoresha BitAxe Ultra 204 ifise igice c’umubiri citwa BM1366, gikoreshwa ku gikoresho citwa Antminer S19XP. Iyi iramaze gukoranirizwa hamwe no guca ibibatsi n’umucuruzi.
 
 
-### [Urutonde rw'abagurisha ruraboneka kuri iyi paji]
+[Urutonde rw’abacuruzi ruri kuri uru rupapuro](https://bitaxe.org/legit.html)
 
 
 ![signup](assets/2.webp)
@@ -39,7 +39,7 @@ Muri rusangi, ububasha Supply buragurishwa na yo. Niba atarivyo, uzokenera kugur
 ![signup](assets/1.webp)
 
 
-### Gutunganya
+## Igenamiterere
 
 Iyo ubanza gushiramwo BitAxe yawe, izogerageza kwifatanya n’urubuga rwa Wi-Fi ku buryo busanzwe. Inyuma y’ukugerageza gatanu, izokwerekana izina ry’urubuga rwayo rwa Wi-Fi kugira ngo ushobore kurufatanya na rwo no kurutunganya.
 
@@ -70,7 +70,7 @@ Rero, werekane SSID ya Wi-Fi, ni ukuvuga izina ry’urubuga rwawe, ijambo banga,
 Nk'uko ushobora kubibona ku rubuga, ukeneye gukuraho ibice `stratum+tcp://` na `:3333`, ugasigaza `eu.stratum.braiins.com` gusa. Hanyuma, mu mwanya wa `Port`, shiramwo imibare 4 ku mpera ya URL yatanzwe n'ikidengeri, ariko ata `:`. Aha rero, ni `3333`.
 
 
-Muri iyi nyigisho, turiko turakoresha Braiins Mining pool, ariko wewe urafise umwidegemvyo wo guhitamwo uwundi. Ushobora gusanga inyigisho zacu ku bidengeri vya Mining [ku rubuga rwa PlanB Network](https://planb.network/ru/inyigisho/mining).
+Muri iyi nyigisho, turiko turakoresha Braiins Mining pool, ariko wewe urafise umwidegemvyo wo guhitamwo uwundi. Ushobora gusanga inyigisho zacu ku bidengeri vya Mining [ku rubuga rwa Plan ₿ Academy](https://planb.academy/ru/inyigisho/mining).
 
 
 Ibikurikira, muri `Ukoresha`, shiramwo ikimenyetso cawe hanyuma `Ijambobanga`, kenshi, ni `"x"` canke `"Ikintu cose123"`.
@@ -86,7 +86,7 @@ Umaze kwinjiza neza ama settings yose, ukande kuri buto ya `Save` iri musi, hany
 
 Nimba winjije neza amakuru yawe, ico gikoresho gikwiye kwihuta kwifatanya na Wi-Fi yawe, hanyuma kigafatanya na Mining pool, maze kigatangura kugaragaza amakuru amwamwe ku gicapo caco gitoyi. Birashoboka ko bizofata iminota mikeyi kugira ngo iboneke ku rubaho rwa Mining pool.
 
-### Dashboard na igicapo
+## Dashboard n’ikirato
 
 
 Ivyerekanywe bitatu bitandukanye bizokurikirwa. Ku rupapuro rwa gatatu, uzobona amakuru ya `IP`, ariyo IP Address ishobora kugufasha kwifatanya na dashboard. Aha, Address ni `192.168.1.19`.

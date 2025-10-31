@@ -32,6 +32,8 @@ Kurs ten koncentruje się oczywiście na postaci Satoshiego Nakamoto, którego s
 
 <chapterId>85290407-1aa3-4cb4-890a-aed23441afb7</chapterId>
 
+:::video id=d1eddf56-279d-459a-9568-5674606f0fd1:::
+
 Witamy na kursie HIS201!
 
 Ten kurs ma na celu opowiedzenie historii powstania Bitcoina w sposób, jakiego nigdy wcześniej nie słyszałeś. Jest ona często pomijana, mimo że jest wypełniona fascynującymi szczegółami. Postaramy się opisać ją w całej jej złożoności, od stworzenia projektu przez Satoshiego Nakamoto do jego wczesnego zniknięcia z życia publicznego i przekazania projektu społeczności.
@@ -124,6 +126,8 @@ Gotowy na poznanie niesamowitej sagi o stworzeniu Bitcoina? Zacznijmy tę niezwy
 
 <chapterId>e443d2ab-68ce-45c0-aec7-30b88d3acdc8</chapterId>
 
+:::video id=fe306046-2245-43a7-9144-6fbafda3205e:::
+
 
 Zanim zagłębimy się we właściwą historię stworzenia Bitcoina przez Satoshiego Nakamoto, należy omówić to, co ją poprzedziło. Omówimy ten temat w trzech etapach: najpierw przedstawimy koncepcję cyfrowej gotówki Chaumian, powszechnie nazywanej *eCash*; następnie porozmawiamy o prywatnych walutach opartych na systemach scentralizowanych, takich jak e-gold; na koniec opiszemy modele techniczne, które wyobrażano sobie przed wdrożeniem solidnego systemu rozproszonego, jakim jest Bitcoin.
 
@@ -179,7 +183,7 @@ Odkrycie kryptografii asymetrycznej było również motywacją do stworzenia fun
 
 Podstawowe elementy kryptograficzne Bitcoina wywodzą się z tych badań. Schemat podpisu ECDSA, umożliwiający autoryzację wydatków tradycyjnej transakcji, został stworzony w 1992 roku dla NIST. Funkcja SHA-256 Hash, używana w wielu miejscach protokołu, została opublikowana w 2001 roku jako część pakietu algorytmów SHA-2 upublicznionego przez NSA. Więcej informacji na ten temat można znaleźć na kursie CYP201 prowadzonym przez Loïca Morel.
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 ### Protokół ślepych podpisów i gotówka elektroniczna
@@ -300,6 +304,8 @@ Dzięki Bitcoinowi Satoshi Nakamoto stworzył solidną i poufną walutę cyfrow�
 
 <chapterId>43035fa3-2805-4331-a6fb-070931d749cf</chapterId>
 
+:::video id=0f75ff53-ebf6-481c-9d1c-863fabb19a6a:::
+
 
 W poprzednim rozdziale zbadaliśmy pierwszą formę gotówki elektronicznej, która pojawiła się wraz z nadejściem Internetu i nowoczesnej kryptografii: Model eCash Davida Chauma. Model ten znacząco wpłynął na Satoshiego Nakamoto i był kluczowym kamieniem milowym na ścieżce, która doprowadziła do Bitcoina. Historia początków kryptowalut nie kończy się jednak na eCash; obejmuje ona również eksperymenty z prywatnymi walutami działającymi w Internecie rozwijane od późnych lat 90-tych.
 
@@ -415,6 +421,8 @@ To właśnie z powodu tej kruchości scentralizowanych systemów zwolennicy woln
 ## Modele zdecentralizowane przed Nakamoto
 
 <chapterId>a104f23c-e9c3-4457-a194-d87cc5f35f13</chapterId>
+
+:::video id=67e5f851-5ff6-4876-a74d-c5f8130b555c:::
 
 
 Bitcoin reprezentuje zdecentralizowany model waluty cyfrowej. W ten sposób unika potrzeby istnienia zaufanej strony trzeciej, która stanowiłaby pojedynczy punkt awarii w systemie. Jak pokazują przykłady eCash, cyfrowych walut złota i Liberty Reserve, centralizacja systemu, który ma być alternatywą dla istniejącego systemu, nieuchronnie prowadzi do jego zamknięcia, w taki czy inny sposób.
@@ -624,6 +632,8 @@ Bitcoin stanowi zatem kulminację poszukiwań cyberwaluty, waluty istniejącej c
 
 <chapterId>3d141918-e9c2-46e8-8c03-2bb4eb9b2150</chapterId>
 
+:::video id=825522d8-1ccc-4d14-80ac-e292a85a608a:::
+
 
 Po dowiedzeniu się, skąd pochodzi Bitcoin, skupimy się teraz na samej jego historii. Przez lata było to tematem wielu artykułów, podcastów i filmów, tak bardzo, że stało się niemal rodzajem mitu założycielskiego. Jak widzieliśmy, Bitcoin jest nierozerwalnie związany z kontekstem, w którym został stworzony; to samo dotyczy wydarzeń, które miały miejsce w jego wczesnych latach, które ukształtowały to, czym jest dzisiaj, z jego zaletami i wadami.
 
@@ -812,6 +822,8 @@ Jednak wysiłek włożony w samo stworzenie systemu nie był wystarczający i Sa
 ## Światowa prezentacja
 
 <chapterId>28be3515-d9da-4d91-b7ff-f8691d51c562</chapterId>
+
+:::video id=c9691569-f026-460d-a08d-98fa54f1ce25:::
 
 
 Po zbadaniu, w jaki sposób Bitcoin został zaprojektowany i uruchomiony przez Satoshiego Nakamoto, skupmy się na tym, jak został on publicznie zaprezentowany. Po uruchomieniu na początku 2009 r. sieć działała, ale było niewiele węzłów generujących (Satoshi wydobył zdecydowaną większość bloków), a aktywność w sieci była praktycznie zerowa (32 rzeczywiste transakcje miały miejsce w styczniu). Projekt posiadał jedynie podstawową stronę internetową i stronę SourceForge do pobierania oprogramowania. Co więcej, komunikacja na temat Bitcoina ograniczała się do listy mailingowej Metzdowd Cryptography, którą śledziło co najwyżej kilkaset osób pasjonujących się kryptografią.
@@ -1048,6 +1060,8 @@ Jesienią 2009 roku wydawało się, że Bitcoin jest gotowy do rozwinięcia skrz
 
 <chapterId>6b3418a7-125e-4ea1-a03a-f36090fac8a4</chapterId>
 
+:::video id=2a31c9c2-bb14-4ed5-b906-7df373f81f98:::
+
 
 W poprzednich rozdziałach zaobserwowaliśmy, w jaki sposób Satoshi Nakamoto wdrożył swój pomysł i jak zakomunikował go światu. Jednak nie wszystko zależało od niego: konieczne było również, aby ludzie przypisali wartość jego jednostce rozliczeniowej. Ponieważ pozwalało to na wynagradzanie górników opłatami transakcyjnymi i nagradzanie kupców poprzez naturalną deflację, zyskanie waluty na wartości było niezbędne dla bezpieczeństwa systemu.
 
@@ -1220,6 +1234,8 @@ Jednak to pytanie nigdy nie przeszkadzało Satoshiemu, który postrzegał ustano
 
 <chapterId>9cd228a4-58d3-46a3-9935-06098bafc954</chapterId>
 
+:::video id=18913713-2f1a-4555-ba5d-06ec6d532bcb:::
+
 
 W poprzedniej części zbadaliśmy, jak powstał Bitcoin, jak został przedstawiony opinii publicznej i jak został zainicjowany ekonomicznie. Wiosną 2010 r., gdy handel bitcoinami dopiero zaczynał rozkwitać, celem Satoshiego Nakamoto i kilku wspierających go osób było utrzymanie płomienia przy życiu. Na szczęście do wysiłków dołączyły inne osoby, w szczególności kopiący bloki Laszlo Hanyecz i deweloper Gavin Andresen, którzy wyróżnili się swoimi działaniami.
 
@@ -1370,6 +1386,8 @@ Jednak pod koniec czerwca aktywność w sieci pozostawała dość skromna. Pojaw
 
 <chapterId>2eef715e-b018-445b-b360-1c6e1c1df462</chapterId>
 
+:::video id=c26f3696-4e33-4d38-9443-f237935f8b45:::
+
 
 Na początku lata 2010 r., pomimo pewnych zachęcających początkowych osiągnięć, Bitcoin opierał się na chwiejnych podstawach. Oprogramowanie miało niewielu twórców poza Satoshim Nakamoto. Wydobywający byli amatorami działającymi na swoich komputerach osobistych. Istniało około dwudziestu usług związanych z Bitcoinem, a rzeczywiste wymiany były równie rzadkie. Wszystko miało się jednak drastycznie zmienić w drugiej połowie roku.
 
@@ -1476,6 +1494,8 @@ W kolejnych miesiącach, techniczne, ekonomiczne i wydobywcze ulepszenia nadal k
 ## Pierwsze kwestie techniczne
 
 <chapterId>30cc4fe4-22b0-429e-9874-029c9137c0aa</chapterId>
+
+:::video id=f3e98b49-c32e-451a-b7c1-224dc5b00cf5:::
 
 
 Jak wspomniano w ostatnim rozdziale, napływ użytkowników ze Slashdota 11 lipca 2010 r. spowodował ogromną falę zainteresowania projektem Satoshiego Nakamoto. Wykorzystanie sieci eksplodowało; wskaźnik wymiany wzrósł dziesięciokrotnie, podobnie jak moc obliczeniowa dedykowana systemowi. W ten sposób w okresie letnim Bitcoin doświadczył bezprecedensowego wzrostu.
@@ -1597,6 +1617,8 @@ W kolejnych miesiącach nadal pojawiały się ulepszenia techniczne, ekonomiczne
 
 <chapterId>8e9899ca-e7a7-471b-8e69-847a56714d3b</chapterId>
 
+:::video id=665ac55c-cd61-4d07-a896-95248eec480d:::
+
 
 W poprzedniej części przeanalizowaliśmy efekt, jaki miała publikacja prezentacji Bitcoina na Slashdot (slashdotting) oraz jak Satoshi i jego pomocnicy poradzili sobie z początkowymi problemami technicznymi. Pod koniec lata projekt przetrwał burzę i był gotowy na przyjęcie coraz większej liczby osób. Jesień 2010 roku oznaczała więc okres sukcesów Bitcoina.
 
@@ -1699,6 +1721,8 @@ Jednak jesień była sukcesem nie tylko dla wydobycia. Był to również sukces 
 ## Rozkwit ekosystemu
 
 <chapterId>0404f877-8b5c-4c7f-81ab-a4e6d9b3da9c</chapterId>
+
+:::video id=2327cb5b-36a1-49f4-a9de-09b70d76b8c1:::
 
 
 W poprzednim rozdziale zbadaliśmy, jak wydobycie rozwijało się w drugiej połowie 2010 roku. Jesienią ten postęp był już dobrze ugruntowany. Jednak wydobycie nie było jedynym aspektem Bitcoina, który odniósł sukces: jego ekosystem również.
@@ -1844,6 +1868,8 @@ Jesienią 2010 roku ekosystem otaczający Bitcoina znacznie się rozwinął. Pop
 ## Zniknięcie Satoshiego
 
 <chapterId>f7735239-4887-468f-9f06-1b07d00b30d9</chapterId>
+
+:::video id=fd5b40ae-b6bc-484a-b86b-af9c772f0afa:::
 
 
 Widzieliśmy, jak Bitcoin nabrał rozpędu po opublikowaniu tekstu na Slashdot w lipcu 2010 roku. Jesienią, wraz z różnymi postępami w oprogramowaniu, wydobyciu i ekonomii, wydawało się, że projekt jest wreszcie na dobrej drodze. Dlatego też okres ten zbiegł się ze stopniowym wycofywaniem się Satoshiego Nakamoto.
@@ -2013,6 +2039,8 @@ Ten tajemniczy aspekt otaczający twórcę Bitcoina został dobrze podsumowany p
 ## Społeczność przejmuje kontrolę
 
 <chapterId>16c5e6d6-2412-48c6-9687-6af92cf0d89a</chapterId>
+
+:::video id=b29c3ea3-c4ca-4feb-bb29-5dc064987406:::
 
 
 Po odejściu Satoshiego Nakamoto konieczne stało się kontynuowanie działalności bez niego. Na szczęście Bitcoin był otwartym projektem, do którego każdy mógł wnieść swój wkład, więc zniknięcie jego założyciela nie było dla niego zgubne. Jak napisał deweloper Jeff Garzik w lipcu 2010 r. (w odniesieniu do sytuacji nieobecności założyciela):

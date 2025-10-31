@@ -81,7 +81,7 @@ _Stel een pincode in voor extra veiligheid_
 ## Over de Lightning Network
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 De Bitcoin Lightning Network revolutioneert Bitcoin transacties door ze sneller, goedkoper en efficiënter te maken. Hij is perfect voor dagelijks gebruik en maakt bijna onmiddellijke betalingen met minimale kosten mogelijk, ideaal voor microtransacties zoals het kopen van een kopje koffie of het afhandelen van frequente kleine aankopen.
 

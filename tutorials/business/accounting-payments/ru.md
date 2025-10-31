@@ -28,7 +28,7 @@ description: Научитесь легко и быстро учитывать п
 Для простоты мы будем использовать в качестве примера Wallet из Satoshi. Выполните следующие шаги, чтобы установить и настроить его:
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 После выполнения этого руководства вы будете готовы принимать Bitcoin в качестве способа оплаты: просто откройте мобильное приложение и нажмите на кнопку "Получить", затем введите сумму (обычно в вашей местной валюте) generate и Invoice, которую должен оплатить пользователь.
 
@@ -59,7 +59,7 @@ https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e
 Более подробную информацию вы найдете в специальном руководстве по Wallet раздела Satoshi - Point of Sale:
 
 
-https://planb.network/tutorials/business/point-of-sale/wallet-of-satoshi-pos-efc9f266-cb21-49a8-94a8-5fe15a82eb07
+https://planb.academy/tutorials/business/point-of-sale/wallet-of-satoshi-pos-efc9f266-cb21-49a8-94a8-5fe15a82eb07
 
 ## Положение
 

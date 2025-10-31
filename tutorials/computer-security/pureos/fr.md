@@ -7,7 +7,7 @@ description: La distibution Linux qui vous donne le contrôle sur votre vie num�
 
 Protéger ses informations personnelles à l'ère du numérique est l'une des priorités pour tout internaute. Les entreprises, les organisations et même les systèmes d'exploitations sont des sources utiles d'informations pour définir votre profil et votre mode de vie. Choisir un bon système d'exploitation est la première étape pour renforcer la protection de sa vie privée sur internet. Dans ce tutoriel, nous découvrirons PureOS, une distribution Linux axée sur la protection de la vie privée.
 
-https://planb.network/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
+https://planb.academy/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
 
 ## Débuter avec PureOS
 
@@ -171,6 +171,6 @@ Grâce à un accès natif aux outils essentiels, à des gestionnaires de paquets
 
 Découvrez notre cours sur le renforcement de sa sécurité et la protection de sa vie privée numérique.
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 

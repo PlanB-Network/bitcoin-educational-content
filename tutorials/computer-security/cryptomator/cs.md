@@ -42,7 +42,7 @@ Cryptomator je alternativou k jiným aplikacím, zejména k Picocryptu, který b
 
 
 
-https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+https://planb.academy/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
 
 Aplikace Cryptomator je k dispozici pro systémy **Windows** (exe / msi), **Linux**, **macOS,** ale také **Android** a **iOS**. Mimochodem, všechny aplikace jsou zdarma, s výjimkou aplikace pro Android, za kterou je třeba zaplatit (14,99 eur).
 

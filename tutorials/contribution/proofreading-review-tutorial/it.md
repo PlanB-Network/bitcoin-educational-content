@@ -6,12 +6,12 @@ description: Come revisionare i contenuti di Plan ₿ Network?
 
 ## In sintesi
 
-Se vuoi aiutare facendo proofreading o correggendo i contenuti sul sito Plan ₿ Network, unisciti al [nostro gruppo Telegram](https://t.me/PlanBNetwork_ContentBuilder) dedicato alle collaborazioni. Presentati brevemente, poi specifica il contenuto che vorresti revisionare e la lingua. Apporta le tue correzioni su un 'branch' di lavoro e invia una PR una volta completata la revisione.
+Se vuoi aiutare facendo proofreading o correggendo i contenuti sul sito Plan ₿ Academy, unisciti al [nostro gruppo Telegram](https://t.me/PlanBNetwork_ContentBuilder) dedicato alle collaborazioni. Presentati brevemente, poi specifica il contenuto che vorresti revisionare e la lingua. Apporta le tue correzioni su un 'branch' di lavoro e invia una PR una volta completata la revisione.
 
 Se non hai capito quello che hai appena letto, non preoccuparti: questo tutorial è per te!
 
 ---
-## Che cos'è Plan ₿ Network?
+## Che cos'è Plan ₿ Academy?
 
 Plan ₿ Network è una piattaforma dedicata allo studio di Bitcoin attraverso numerosi corsi e tutorial per tutti. Attualmente, tutti i nostri contenuti sono open-source, e si trovano su un repository GitHub, aperto a collaborazioni esterne per la revisione e la creazione di contenuti.
 
@@ -19,7 +19,7 @@ Plan ₿ Network mira a diventare uno spazio pubblico nel cyberspazio Bitcoin, c
 
 ## Perché collaborare con Plan ₿ Network?
 
-Plan ₿ Network è fondamentalmente multilingue, poiché il nostro obiettivo è quello di rendere le risorse su Bitcoin accessibili a tutti, in tutto il mondo. Crediamo che la lingua non debba essere un ostacolo per l'utilizzo della moneta libera.
+Plan ₿ Academy è fondamentalmente multilingue, poiché il nostro obiettivo è quello di rendere le risorse su Bitcoin accessibili a tutti, in tutto il mondo. Crediamo che la lingua non debba essere un ostacolo per l'utilizzo della moneta libera.
 
 Per raggiungere questo obiettivo, utilizziamo un approccio che chiamiamo "Human x AI". Attraverso il nostro [programma](https://github.com/Asi0Flammeus/LLM-Translator), possiamo tradurre automaticamente i nostri contenuti in molte lingue. Tuttavia, abbiamo bisogno di una persona che parli correntemente la lingua target per verificare che il contenuto sia comprensibile e privo di termini inappropriati.
 
@@ -33,7 +33,7 @@ Non è necessario essere esperti di GitHub per revisionare i contenuti del repos
 
 Ad ogni modo, se non conosci Git (e GitHub) e vuoi saperne di più, puoi consultare il nostro tutorial introduttivo su questi strumenti:
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 ## 1. Crea un account
 
@@ -44,7 +44,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ## 2. Unisciti al gruppo Telegram
 
 
-- Unisciti al [gruppo PBN Content Builder](https://t.me/PlanBNetwork_ContentBuilder) su Telegram.
+- Unisciti al [gruppo Plan ₿ Academy Content Builder](https://t.me/PlanBNetwork_ContentBuilder) su Telegram.
 
 ![REVIEW](assets/fr/01.webp)
 
@@ -137,11 +137,11 @@ NB. Ti consiglio di effettuare la revisione nella finestra `code`, con il conten
 
 Per sapere di più sulle linee guida da seguire quando si fa proofreading, consulta questo tutorial:
 
-https://planb.network/tutorials/contribution/content/proofreading-guidelines-52348db0-8cd0-4658-9de4-0e8c25bea1a0
+https://planb.academy/tutorials/contribution/content/proofreading-guidelines-52348db0-8cd0-4658-9de4-0e8c25bea1a0
 
 ## 7. In attesa di revisione
 
-- Congratulazioni, la tua PR è stata inviata! puoi seguirne l'avanzamento nella sezione "Pull requests" del [repository GitHub di Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/pulls):
+- Congratulazioni, la tua PR è stata inviata! puoi seguirne l'avanzamento nella sezione "Pull requests" del [repository GitHub di Plan ₿ Academy](https://github.com/PlanB-Network/bitcoin-educational-content/pulls):
 
 ![REVIEW](assets/fr/12.webp)
 

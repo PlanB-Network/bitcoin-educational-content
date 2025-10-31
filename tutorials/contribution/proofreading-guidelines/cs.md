@@ -1,27 +1,27 @@
 ---
 name: Pokyny pro korektury
-description: Jaké důležité faktory je třeba mít na paměti při korektuře Plan ₿ Network?
+description: Jaké důležité faktory je třeba mít na paměti při korektuře Plan ₿ Academy?
 ---
 
 ![github](assets/cover.webp)
 
 
-Vítejte v tomto návodu o **pokynech, kterými je třeba se řídit při korekturách obsahu v systému Plan ₿ Network**. Jsme rádi, že sdílíte naše poslání překládat materiály Bitcoin do co největšího počtu jazyků, abychom lidem pomohli získat povědomí o tom, jak funguje a jak jej lze využít v každodenním životě.
+Vítejte v tomto návodu o **pokynech, kterými je třeba se řídit při korekturách obsahu v systému Plan ₿ Academy**. Jsme rádi, že sdílíte naše poslání překládat materiály Bitcoin do co největšího počtu jazyků, abychom lidem pomohli získat povědomí o tom, jak funguje a jak jej lze využít v každodenním životě.
 
 
-Přispívání do Plan ₿ Network [veřejné úložiště](https://github.com/PlanB-Network/Bitcoin-educational-content) vám především dává možnost psát výukové programy, opravovat stávající obsah nebo dokonce navrhnout přidání nového jazyka do platformy. Chcete-li se dozvědět více, připojte se nejprve k naší [Telegramové skupině](https://t.me/PlanBNetwork_ContentBuilder) a napište krátkou prezentaci o sobě a jazycích, které ovládáte.
+Přispívání do Plan ₿ Academy [veřejné úložiště](https://github.com/PlanB-Network/Bitcoin-educational-content) vám především dává možnost psát výukové programy, opravovat stávající obsah nebo dokonce navrhnout přidání nového jazyka do platformy. Chcete-li se dozvědět více, připojte se nejprve k naší [Telegramové skupině](https://t.me/PlanBNetwork_ContentBuilder) a napište krátkou prezentaci o sobě a jazycích, které ovládáte.
 
 
-Tento návod je určen přispěvatelům, kteří chtějí provádět korektury obsahu. Většina z nich toho o [Githubu](https://planb.network/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) ani o [jazyku Markdown](https://www.markdownguide.org/basic-syntax/), který v úložišti používáme, moc neví, a proto je důležité podělit se s nimi o několik informací o klíčových faktorech, které jsou s tímto úkolem spojeny.
+Tento návod je určen přispěvatelům, kteří chtějí provádět korektury obsahu. Většina z nich toho o [Githubu](https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) ani o [jazyku Markdown](https://www.markdownguide.org/basic-syntax/), který v úložišti používáme, moc neví, a proto je důležité podělit se s nimi o několik informací o klíčových faktorech, které jsou s tímto úkolem spojeny.
 
 
 Níže jsem shromáždil nejčastější problémy, se kterými se korektoři setkávají. Neváhejte navrhnout další, protože to může pomoci ostatním zlepšit se.
 
 
-Než se ponoříte do podrobností, přečtěte si nejprve tento návod o praktických postupech na Githubu: forkování repozitáře Plan ₿ Network, odevzdávání změn a odesílání PR:
+Než se ponoříte do podrobností, přečtěte si nejprve tento návod o praktických postupech na Githubu: forkování repozitáře Plan ₿ Academy, odevzdávání změn a odesílání PR:
 
 
-https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
+https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 
 ## Co je to korektura?
@@ -38,13 +38,13 @@ Vždy mějte na paměti, že překlad/korektura je VZDĚLÁVÁNÍ!
 
 Naším společným cílem je totiž vzdělávat co nejvíce lidí v oblasti Bitcoin, a proto je zásadní, aby materiály, které čtou, byly plynulé a srozumitelné.
 
-V tomto smyslu jsou všichni přispěvatelé na Plan ₿ Network pedagogové!
+V tomto smyslu jsou všichni přispěvatelé na Plan ₿ Academy pedagogové!
 
 
-## První kroky před korekturou na Plan ₿ Network
+## První kroky před korekturou na Plan ₿ Academy
 
 
-Před zahájením nového korektorského úkolu jej oznamte ve skupině [Telegram](https://t.me/PlanBNetwork_ContentBuilder) nebo informujte svého koordinátora Plan ₿ Network, který otevře zvláštní [issue](https://github.com/orgs/PlanB-Network/projects/3). Jakmile obdržíte odkaz na vydání, jednoduše **komentujte, že začínáte** s úkolem korektury daného obsahu.
+Před zahájením nového korektorského úkolu jej oznamte ve skupině [Telegram](https://t.me/PlanBNetwork_ContentBuilder) nebo informujte svého koordinátora Plan ₿ Academy, který otevře zvláštní [issue](https://github.com/orgs/Plan ₿ Academy/projects/3). Jakmile obdržíte odkaz na vydání, jednoduše **komentujte, že začínáte** s úkolem korektury daného obsahu.
 
 
 Tento systém pomáhá koordinátorovi sledovat průběh práce v repozitáři a umožňuje korektorovi "nárokovat" obsah, čímž se zabrání duplicitnímu úsilí někoho jiného.
@@ -60,7 +60,7 @@ Především **VŽDY nezapomeňte na SYNCHRONIZACI repozitáře ve větvi "dev "
 
 
 
-Po úspěšné synchronizaci můžete přímo přistupovat k obsahu, který vás zajímá, a odevzdat jej v nové větvi, jak ukazuje tento [tutoriál](https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). V opačném případě si můžete otevřít novou větev, ve které budete pracovat, kliknutím na "Branches" (Větve), jak je uvedeno níže.
+Po úspěšné synchronizaci můžete přímo přistupovat k obsahu, který vás zajímá, a odevzdat jej v nové větvi, jak ukazuje tento [tutoriál](https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). V opačném případě si můžete otevřít novou větev, ve které budete pracovat, kliknutím na "Branches" (Větve), jak je uvedeno níže.
 
 
 
@@ -115,11 +115,11 @@ V tomto druhém případě si **vždy vyhledejte, zda dané slovo** již nepřel
 
 
 
-- Dalším dobrým řešením je zachovat původní slovo/výraz a pak **vytvořit hypertextový odkaz**, který přesměruje na [glosář](https://planb.network/en/resources/glossary) na webu planb.network. K tomu je třeba vložit slovo/frázi do hranatých závorek a odkaz do kulatých závorek, jak vidíte v příkladu níže:
+- Dalším dobrým řešením je zachovat původní slovo/výraz a pak **vytvořit hypertextový odkaz**, který přesměruje na [glosář](https://planb.academy/en/resources/glossary) na webu planb.network. K tomu je třeba vložit slovo/frázi do hranatých závorek a odkaz do kulatých závorek, jak vidíte v příkladu níže:
 
 
 ```
-[UTXO](https://planb.network/resources/glossary/utxo)
+[UTXO](https://planb.academy/resources/glossary/utxo)
 ```
 
 
@@ -131,14 +131,14 @@ V konečném výsledku (obrázek níže) se nezobrazí celý odkaz a slovo se st
 
 
 
-Vezměte prosím na vědomí, že odkaz na glosář, který získáte z webové stránky, obsahuje za slovem "síť" kód jazyka (příklad: ``https://planb.network/en/resources/glossary/utxo``-> zde si můžete přečíst kód jazyka "cs"). V takovém případě **odstraňte jazykový kód z odkazu**, jak jste viděli v rámečku výše. Tímto způsobem systém čtenáře automaticky přenese do jím určeného jazyka.
+Vezměte prosím na vědomí, že odkaz na glosář, který získáte z webové stránky, obsahuje za slovem "síť" kód jazyka (příklad: ``https://planb.academy/en/resources/glossary/utxo``-> zde si můžete přečíst kód jazyka "cs"). V takovém případě **odstraňte jazykový kód z odkazu**, jak jste viděli v rámečku výše. Tímto způsobem systém čtenáře automaticky přenese do jím určeného jazyka.
 
 
 Obsah úložiště je plný hypertextových odkazů, jako jsou tyto výše uvedené. Nyní, když víte, co znamenají, **zajistěte, abyste neodstranili žádný odkaz** vložený původním autorem.
 
 
 
-- S vykreslováním slov souvisí také následující. Pokud v textu najdete slovo "Plan ₿ Network", **ponechte ho v tomto původním tvaru**. Nepřekládejte slovo "plan" ani slovo "network". Kromě toho při uvádění názvu Plan ₿ Network NEPOUŽÍVEJTE člen "The": **považujte ji za značku**.
+- S vykreslováním slov souvisí také následující. Pokud v textu najdete slovo "Plan ₿ Academy", **ponechte ho v tomto původním tvaru**. Nepřekládejte slovo "plan" ani slovo "network". Kromě toho při uvádění názvu Plan ₿ Academy NEPOUŽÍVEJTE člen "The": **považujte ji za značku**.
 
 
 
@@ -324,7 +324,7 @@ Vždy dvakrát zkontrolujte všechny hypertextové odkazy v textu a ujistěte se
 
 
 
-- V návaznosti na téma, pokud autor vloží odkaz odkazující na kurz nebo výukový program Plan ₿ Network (**ne** v závorce), webová stránka automaticky vytvoří "kartu" zobrazující související miniaturu. V důsledku toho vždy dbejte na to, abyste mezi text a samotný odkaz **vložili nový řádek**, jinak se na webu může objevit následující chyba.
+- V návaznosti na téma, pokud autor vloží odkaz odkazující na kurz nebo výukový program Plan ₿ Academy (**ne** v závorce), webová stránka automaticky vytvoří "kartu" zobrazující související miniaturu. V důsledku toho vždy dbejte na to, abyste mezi text a samotný odkaz **vložili nový řádek**, jinak se na webu může objevit následující chyba.
 
 
 

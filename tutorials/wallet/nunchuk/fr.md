@@ -98,7 +98,7 @@ Dans la fenêtre qui s’ouvre, vous trouverez des champs à « remplir » : cli
 
 Vous trouverez le guide de Sparrow wallet pour télécharger ce portefeuille logiciel :  
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 
 
@@ -279,7 +279,7 @@ Nommez votre clé et appuyez sur _Continue_.
 
 
 
-À la fin de ces étapes, il vous sera demandé si vous souhaitez ajouter une [passphrase](https://planb.network/en/resources/glossary/passphrase-bip39) à votre phrase mnémonique. Si vous n’avez pas la pleine maîtrise de l’usage d’une passphrase, de son mode de sauvegarde ou de son fonctionnement, je vous recommande de choisir _I don't need a passphrase_.
+À la fin de ces étapes, il vous sera demandé si vous souhaitez ajouter une [passphrase](https://planb.academy/en/resources/glossary/passphrase-bip39) à votre phrase mnémonique. Si vous n’avez pas la pleine maîtrise de l’usage d’une passphrase, de son mode de sauvegarde ou de son fonctionnement, je vous recommande de choisir _I don't need a passphrase_.
 
 
 
@@ -393,7 +393,7 @@ Vous êtes dans _Home_, où le portefeuille nouvellement créé s’affiche avec
 
 
 - L’icône de loupe, en haut à droite, permet d’effectuer une recherche de transaction ;  
-- `View Wallet config` donne accès au menu de configuration, où vous pouvez modifier le nom du portefeuille et activer des options avancées, en haut à droite (dont il n’existe pas de captures d’écran). Ici, vous pouvez exporter la configuration du portefeuille, les étiquettes, remplacer des clés, modifier le [gap limit](https://planb.network/en/resources/glossary/gap-limit), et plus encore.  
+- `View Wallet config` donne accès au menu de configuration, où vous pouvez modifier le nom du portefeuille et activer des options avancées, en haut à droite (dont il n’existe pas de captures d’écran). Ici, vous pouvez exporter la configuration du portefeuille, les étiquettes, remplacer des clés, modifier le [gap limit](https://planb.academy/en/resources/glossary/gap-limit), et plus encore.  
 
 
 

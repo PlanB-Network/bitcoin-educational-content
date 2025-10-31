@@ -12,7 +12,7 @@ _Bu eğitim_ [Bitcoin Kampüs](https://linktr.ee/bitcoincampus_) tarafından yaz
 
 Satoshi'nin Wallet'i bir Lightning Network Wallet'dir, gözetim altındadır ve kullanımı çok basittir.
 
-BTC105 - Finding Now] (https://planb.network/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5) kursunun amaçları doğrultusunda, Redeem Lightning Network kuponları için kullanılır.
+BTC105 - Finding Now] (https://planb.academy/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5) kursunun amaçları doğrultusunda, Redeem Lightning Network kuponları için kullanılır.
 
 
 **Her zaman hatırlayın**: anahtarlariniz deği̇l, bozuk paralariniz deği̇l

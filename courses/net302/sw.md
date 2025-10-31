@@ -89,7 +89,7 @@ Je, uko tayari kuzama katika ulimwengu wa mitandao ya kompyuta? Twende!
 **KUMBUKA**: Maelezo yanatokana na mfumo wa GNU/Linux CentOS 7. Walakini, usanidi wa mtandao kwa kiasi kikubwa ni sawa wakati wa kulinganisha Debian na mfumo wa CentOS. Kwa hivyo, hatutafanya tofauti yoyote. Wakati kuna moja, tutakiambisha kwa nembo mahususi.
 
 
-**N.B.**: Ukikutana na maneno yoyote usiyoyafahamu wakati wa kozi, tafadhali soma [faharasa](https://planb.network/resources/glossary) kwa ufafanuzi.
+**N.B.**: Ukikutana na maneno yoyote usiyoyafahamu wakati wa kozi, tafadhali soma [faharasa](https://planb.academy/resources/glossary) kwa ufafanuzi.
 
 
 
@@ -283,11 +283,11 @@ Kila Layer ya rundo la TCP/IP hutoa huduma mahususi, na kuifanya iwezekane kwa m
 | Switch   | Locally addresses interfaces and forwards traffic via MAC                            | Network Access         |
 | Network Interface Card (NIC)     | Signal encoding, cabling, connectors, physical specifications                        | Network Access         |
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 ## protocol ya IPv5 QoS
 
@@ -653,7 +653,7 @@ sudo apt install ipcalc
 ```
 
 
-https://planb.network/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
+https://planb.academy/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
 
 ## TCP Protocol 
 
@@ -1380,11 +1380,11 @@ Katika sura inayofuata, tutaangalia kwa undani usanidi wa IP Address chini ya Li
 
 
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 
 ## Je, ninawezaje kusanidi mtandao na `ip`?
@@ -3073,7 +3073,7 @@ Maswali yanayorudiwa au ya kina kwa seva za DNS za watu wengine bila ruhusa yana
 Unapofuatilia au kupata mtandao wa eneo au eneo pana, ni muhimu kutambua vifaa vinavyotumika na huduma zinazofichua. Hivi ndivyo zana ya `nmap` (*Network Mapper*) hufanya.
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 #### Tunakuletea `nmap`
 
@@ -3125,7 +3125,7 @@ Msimamizi anaweza kutegemea `nmap` kwa kazi kadhaa:
 - **Kinga ya hatari**: tambua huduma zisizo salama au zilizopitwa na wakati zinazoendeshwa kwenye mashine muhimu.
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 ### Mchakato wa zana za kuhoji
 

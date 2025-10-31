@@ -118,7 +118,7 @@ Toisen salaustekstin näet alla olevasta *Kuvasta 2*. [2] Tämän salakirjoitust
 
 *Kuva 1: Beale-salakirjoitus nro. 2*
 
-![Figure 1: Beale cipher no 2.](assets/Figure1-1.webp "Figure 1: Beale cipher no. 2")
+![Figure 1: Beale cipher no 2.](assets/en/001.webp "Figure 1: Beale cipher no. 2")
 
 Esimerkiksi toisen salaustekstin ensimmäinen numero on 115. Itsenäisyysjulistuksen 115. sana on "instituted", joten selvätekstin ensimmäinen kirjain on "i" Salakirjoitusteksti ei suoraan ilmoita sanaväliä ja isoja kirjaimia. Mutta kun olet purkanut ensimmäiset sanat, voit loogisesti päätellä, että selkotekstin ensimmäinen sana oli yksinkertaisesti "I" (Selkoteksti alkaa lauseella "I have deposited in the county of Bedford.")
 
@@ -281,7 +281,7 @@ Satunnaismuuttujan mahdolliset arvot ja niihin liittyvät todennäköisyydet voi
 
 *Kuva 1: Satunnaismuuttuja X*
 
-![Figure 1: Random variable X.](assets/Figure2-1.webp)
+![Figure 1: Random variable X.](assets/en/002.webp)
 
 *Kuvion 1* leveillä palkeilla ei tietenkään ole tarkoitus vihjata, että satunnaismuuttuja $X$ olisi itse asiassa jatkuva. Sen sijaan palkit on tehty leveiksi, jotta ne olisivat visuaalisesti miellyttävämpiä (pelkkä viiva suoraan ylöspäin on vähemmän intuitiivinen visualisointi).
 
@@ -319,7 +319,7 @@ Graafinen kuva $Y$:stä on esitetty *Kuvassa 2*.
 
 *Kuva 2: Satunnaismuuttuja Y*
 
-![Figure 2: Random variable Y.](assets/Figure2-2.webp "Figure 2: Random variable Y")
+![Figure 2: Random variable Y.](assets/en/003.webp "Figure 2: Random variable Y")
 
 Viimeisenä esimerkkinä tarkastellaan satunnaismuuttujaa Z. Sillä on tulosjoukko {1,3,7,11,12} ja seuraava todennäköisyysjakauma:
 
@@ -347,7 +347,7 @@ Voit nähdä sen kuvassa *Kuvassa 3*. Satunnaismuuttuja Z on Y:stä poiketen tas
 
 *Kuva 3: Satunnaismuuttuja Z*
 
-![Figure 3: Random variable Z.](assets/Figure2-3.webp "Figure 3: Random variable Z")
+![Figure 3: Random variable Z.](assets/en/004.webp "Figure 3: Random variable Z")
 
 ### Ehdollinen todennäköisyys
 
@@ -1005,11 +1005,11 @@ Bob salaa viestin $M$ ajanhetkellä $T_0$ avaimella $K$ tuottaakseen salaustekst
 
 *Kuva 1: Salassapito koko avaruudessa*
 
-![Figure 1: Secrecy across space](assets/Figure4-1.webp "Figure 1: Secrecy across space")
+![Figure 1: Secrecy across space](assets/en/005.webp "Figure 1: Secrecy across space")
 
 *Kuva 2: Salassapito ajassa*
 
-![Figure 2: Secrecy across time](assets/Figure4-2.webp "Figure 2: Secrecy across time")
+![Figure 2: Secrecy across time](assets/en/006.webp "Figure 2: Secrecy across time")
 
 ## Esimerkki: Siirtymäsalaus
 
@@ -1111,7 +1111,7 @@ Tyypillinen XOR-virtasalaus on kuvattu *Kuvassa 3*. Ensin otetaan yksityinen ava
 
 *Kuva 3: XOR-virtasalaus*
 
-![Figure 3: An XOR stream cipher](assets/Figure4-3.webp "Figure 3: An XOR stream cipher")
+![Figure 3: An XOR stream cipher](assets/en/007.webp "Figure 3: An XOR stream cipher")
 
 Muistutetaan, että salauskaavio on yleensä pikemminkin malli salaukselle, jossa käytetään samaa ydinalgoritmia, kuin tarkka määrittely. Vastaavasti virtasalaus on tyypillisesti salauksen malli, jossa voidaan käyttää eripituisia avaimia. Vaikka avaimen pituus voi vaikuttaa järjestelmän joihinkin pieniin yksityiskohtiin, se ei vaikuta sen keskeiseen muotoon.
 
@@ -1195,7 +1195,7 @@ Lohkosalausmenetelmän toiminta on kuvattu alla olevassa *Kuvassa 4*. Lohkosalak
 
 *Kuva 4: Lohkosalaus*
 
-![Figure 4: A block cipher](assets/Figure4-4.webp "Figure 4: A block cipher")
+![Figure 4: A block cipher](assets/en/008.webp "Figure 4: A block cipher")
 
 Lohkosalaus ei yksinään ole salausjärjestelmä. Lohkosalakirjoitusta voidaan kuitenkin käyttää eri **toimintatapojen** kanssa erilaisten salausjärjestelmien tuottamiseksi. Toimintatapa yksinkertaisesti lisää joitakin lisäoperaatioita lohkosalakirjoituksen ulkopuolelle.
 
@@ -1203,7 +1203,7 @@ Tämän havainnollistamiseksi oletetaan lohkosalaus (BC), joka vaatii 128-bittis
 
 *Kuva 5: Lohkosalausmenetelmä, jossa on EKP-tila*
 
-![Figure 5: A block cipher with ECB mode](assets/Figure4-5.webp "Figure 5: A block cipher with ECB mode")
+![Figure 5: A block cipher with ECB mode](assets/en/009.webp "Figure 5: A block cipher with ECB mode")
 
 Sähköisen koodikirjan salausprosessi lohkosalakirjoituksen avulla on seuraava. Katso, voitko jakaa selvätekstiviestin 128-bittisiin lohkoihin. Jos ei, lisää viestiin **padding**, jotta tulos voidaan jakaa tasan 128 bitin lohkokoolla. Tätä tietoa käytetään salausprosessissa.
 
@@ -1219,7 +1219,7 @@ Lohkosalakirjoitustila (**CBC-tila**) on luultavasti yleisin lohkosalakirjoituks
 
 *Kuva 6: Lohkosalaus CBC-tilassa*
 
-![Figure 6: A block cipher with CBC mode](assets/Figure4-6.webp "Figure 6: A block cipher with CBC mode")
+![Figure 6: A block cipher with CBC mode](assets/en/010.webp "Figure 6: A block cipher with CBC mode")
 
 Oletetaan, että lohkokoko on taas 128 bittiä. Aluksi sinun on siis jälleen varmistettava, että alkuperäiseen selvätekstiviestiin lisätään tarvittava pehmuste.
 
@@ -1235,7 +1235,7 @@ Käännetään lopuksi huomiomme **ulostulon palautetilaan** (**OFB-tila**). Tä
 
 *Kuva 7: Lohkosalaus OFB-tilassa*
 
-![Figure 7: A block cipher with OFB mode](assets/Figure4-7.webp "Figure 7: A block cipher with OFB mode")
+![Figure 7: A block cipher with OFB mode](assets/en/011.webp "Figure 7: A block cipher with OFB mode")
 
 OFB-tilassa voit myös valita alustusvektorin. Mutta tässä tapauksessa ensimmäisen lohkon osalta alustusvektori lisätään suoraan lohkosalausmenetelmään avaimesi kanssa. Tuloksena syntyvää 128-bittistä koodia käsitellään sitten avainvirtana. Tämä avainvirta muunnetaan XOR-menetelmällä selkotekstin kanssa lohkon salatekstin tuottamiseksi. Seuraavissa lohkoissa käytetään edellisen lohkon avainvirtaa syötteenä lohkosalakirjoitukseen ja toistetaan vaiheet.
 
@@ -1281,7 +1281,7 @@ Tämän keskustelun perusteella sinun pitäisi nyt ymmärtää *Luku 8*. Se anta
 
 *Kuva 8: Yleiskatsaus symmetrisiin salausmenetelmiin*
 
-![Figure 8: Overview of symmetric encryption schemes](assets/Figure4-8.webp "Figure 8: Overview of symmetric encryption schemes")
+![Figure 8: Overview of symmetric encryption schemes](assets/en/012.webp "Figure 8: Overview of symmetric encryption schemes")
 
 ## Viestin todennuskoodit
 
@@ -1305,7 +1305,7 @@ Prosessi on kuvattu *Kuvassa 9*. Käyttääkseen **MAC** (Message Authentication
 
 *Kuva 9: Yleiskatsaus symmetrisiin salausmenetelmiin*
 
-![Figure 9: Overview of symmetric encryption schemes](assets/Figure4-9.webp "Figure 9: Overview of symmetric encryption schemes")
+![Figure 9: Overview of symmetric encryption schemes](assets/en/013.webp "Figure 9: Overview of symmetric encryption schemes")
 
 Koska viestiä ei voida **väärentää**, hyökkääjä ei voi muuttaa viestiä $M$ millään tavalla eikä luoda omaa viestiä, jolla on kelvollinen tunniste. Näin on, vaikka hyökkääjä havaitsisi monien Bobin ja Alicen välisten, samaa yksityistä avainta käyttävien viestien tunnisteet. Hyökkääjä voi korkeintaan estää Alicea vastaanottamasta viestiä $M$ (ongelma, jota kryptografia ei voi ratkaista).
 
@@ -1337,7 +1337,7 @@ Alice tarkistaa nyt ensin, onko tunniste kelvollinen, kun otetaan huomioon salau
 
 *Kuva 10: Todennettu salausjärjestelmä*
 
-![Figure 10: An authenticated encryption scheme](assets/Figure4-10.webp "Figure 10: An authenticated encryption scheme")
+![Figure 10: An authenticated encryption scheme](assets/en/014.webp "Figure 10: An authenticated encryption scheme")
 
 Miten MACit luodaan? MAC-muistit voidaan luoda useilla eri menetelmillä, mutta yleinen ja tehokas tapa on luoda ne **kryptografisten hash-funktioiden** avulla.
 
@@ -1349,7 +1349,7 @@ HMAC:n luomiseen voidaan käyttää useita erilaisia hash-funktioita. Yleisimmin
 
 *Kuva 11: HMAC*
 
-![Figure 11: HMAC](assets/Figure4-11.webp "Figure 11: HMAC")
+![Figure 11: HMAC](assets/en/015.webp "Figure 11: HMAC")
 
 **Huomautukset:**
 
@@ -1387,7 +1387,7 @@ Tietoliikenneistunto alkaa siten, että Bob lähettää salatun tekstin $C_{0,B}
 
 *Kuva 12: Turvallinen viestintäistunto*
 
-![Figure 12: A secure communication session](assets/Figure4-12.webp "Figure 12: A secure communication sessesion")
+![Figure 12: A secure communication session](assets/en/016.webp "Figure 12: A secure communication sessesion")
 
 # RC4 ja AES
 
@@ -1524,7 +1524,7 @@ Kutsutaan avainta $K_0$. Rakenne edellä mainituilla parametreilla näyttää si
 
 *Kuva 1: AES-ECB 128-bittisellä avaimella*
 
-![Figure 1: AES-ECB with a 128-bit key](assets/Figure5-1.webp "Figure 1: AES-ECB with a 128-bit key")
+![Figure 1: AES-ECB with a 128-bit key](assets/en/017.webp "Figure 1: AES-ECB with a 128-bit key")
 
 Jokainen 128-bittinen tekstilohko käy läpi kymmenen kierrosta Rijndael-salausjärjestelmässä. Tämä edellyttää erillistä kierrosavainta jokaista kierrosta varten ($K_1$ - $K_{10}$). Nämä tuotetaan jokaista kierrosta varten alkuperäisestä 128-bittisestä avaimesta $K_0$ käyttäen **avainten laajentamisalgoritmia**. Jokaista salattavaa tekstilohkoa varten käytetään siis alkuperäistä avainta $K_0$ sekä kymmentä erillistä kierrosavainta. Huomaa, että näitä samoja 11 avainta käytetään jokaiseen 128-bittiseen salattavaan tekstilohkoon.
 
@@ -1800,7 +1800,7 @@ Jossain myöhemmässä vaiheessa Bob haluaa kirjoittaa viestin $M$ Alicelle. Kos
 
 *Kuva 1: Epäsymmetrinen salaus*
 
-![Figure 1: Asymmetric encryption](assets/Figure6-1.webp "Figure 1: Asymmetric encryption")
+![Figure 1: Asymmetric encryption](assets/en/018.webp "Figure 1: Asymmetric encryption")
 
 Jokainen Bobin ja Alicen viestintää kuunteleva vastustaja voi havaita $C$:n. Hän tietää myös $K_P$ ja salausalgoritmin $E(\cdot)$. Tärkeää on kuitenkin se, että hyökkääjä ei voi näiden tietojen avulla helposti purkaa salatekstiä $C$. Salakirjoituksen purkaminen edellyttää erityisesti $K_S$, jota hyökkääjällä ei ole.
 
@@ -1824,7 +1824,7 @@ Digitaalinen allekirjoitus on, kuten nimestä käy selvästi ilmi, kirjallinen a
 
 *Kuva 2: Epäsymmetrinen todennus*
 
-![Figure 2: Asymmetric authentication](assets/Figure6-2.webp "Figure 2: Asymmetric authentication")
+![Figure 2: Asymmetric authentication](assets/en/019.webp "Figure 2: Asymmetric authentication")
 
 Kuten epäsymmetrisen salauksen kohdalla, myös digitaalisten allekirjoitusten ja viestin todentamiskoodien välillä on mielenkiintoinen ero. Jälkimmäisessä tapauksessa todentamisalgoritmia voi käyttää vain toinen suojatun viestinnän osapuolista. Tämä johtuu siitä, että se edellyttää yksityistä avainta. Epäsymmetrisessä ympäristössä kuka tahansa voi kuitenkin todentaa Bobin tekemän digitaalisen allekirjoituksen $S$.
 

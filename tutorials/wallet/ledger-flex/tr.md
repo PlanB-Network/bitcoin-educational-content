@@ -262,7 +262,7 @@ passphrase, bitcoinlerinizin güvenliğini artırmak için çok güçlü bir ara
 passphrase, bitcoinlerinizin güvenliğini güçlendirmek için çok güçlü bir araçtır. Ancak, Wallet'inize erişiminizi kaybetmemek için uygulamadan önce nasıl çalıştığını anlamak çok önemlidir. Bu yüzden her şeyi özel bir eğitimde açıklıyorum:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+https://planb.academy/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 Son olarak, son ayarlar sayfası Ledger'unuzu sıfırlamanızı sağlar. Bu sıfırlama işlemine yalnızca bitcoinleri güvence altına alan herhangi bir anahtar içermediğinden eminseniz devam edin, çünkü fonlarınıza erişiminizi kalıcı olarak kaybedebilirsiniz.
 
@@ -473,7 +473,7 @@ Bu Address ile güvence altına alınacak bitcoinlerin kaynağını açıklamak 
 Etiketleme hakkında daha fazla bilgi için bu diğer eğitime de göz atmanızı tavsiye ederim:
 
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Daha sonra bu Address'i bitcoin almak için kullanabilirsiniz.
 

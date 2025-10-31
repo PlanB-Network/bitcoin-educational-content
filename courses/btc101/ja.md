@@ -83,7 +83,7 @@ BTC101 コースへようこそ！
 
 ビットコインの魅力的な世界に飛び込み、そのすべての仕組みを理解する準備はできましたか？さあ、始めましょう！
 
-**注記**: コース中に馴染みのない用語に出会った場合は、定義について[用語集](https://planb.network/resources/glossary)をご参照ください。
+**注記**: コース中に馴染みのない用語に出会った場合は、定義について[用語集](https://planb.academy/resources/glossary)をご参照ください。
 
 ## ビットコイン前史
 
@@ -141,7 +141,7 @@ BTC101 コースへようこそ！
 
 ビットコインの歴史をより詳しく知りたい方は、ビットコインの起源とゆっくりとした出現、そしてその歴史とコミュニティの始まりを発見する HIS 201 コースを強くお勧めします。このコースは完全に文書化され、ソースが提供され、もちろん多くの逸話があります：
 
-https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
+https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 # お金
 
@@ -261,7 +261,7 @@ https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 > 「政府の手を離れる前に、もう二度と良いお金を手にすることはないだろう。政府の手から暴力的に引き離すことができないのであれば、私たちにできることは、何かずる賢く回りくどい方法で、政府が止められないようなものを導入することだ。
 > このコースでは、ビットコインの出現を高く評価したであろう 19 世紀フランスの思想家、フレデリック・バスティアの生涯と思想をたどります：
 
-https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
+https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
 ## ハイパーインフレ
 
@@ -350,7 +350,7 @@ https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
 ハイパーインフレとは何か、そしてハイパーインフレが私たちの生活に与える実際の影響について学びます。このコースでは、ハイパーインフレのサイクルとは何か、そして私たちの生活に実際にどのような影響を及ぼすのかを学びます。また、これらのサイクルの類似点、そして最も重要なことですが、ハイパーインフレから身を守る方法を発見するでしょう。
 
-https://planb.network/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
+https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
 ## 2100 万ビットコイン
 
@@ -395,7 +395,7 @@ https://planb.network/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 | 19             | 3,990,000    | 0.000095367431640625 BTC  | 20,999,959.946 BTC                         |
 | 20             | 4,200,000    | 0.0000476837158203125 BTC | 20,999,979.973 BTC                         |
 
-マイニングの概念については、[マイナーの章](https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf)で詳しく説明する。
+マイニングの概念については、[マイナーの章](https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf)で詳しく説明する。
 
 ### デジタルの希少性を保証する
 
@@ -503,11 +503,11 @@ https://planb.network/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
 したがって、次のセクションで詳しく説明する優れたセキュリティ慣行に従えば、ビットコイン・ウォレットをハッキングされる確率は天文学的に低くなります。
 
-あなたのニーズと使い方に合ったウォレットを選択することに留意してください。様々なウォレットの管理とセキュリティに関する詳細なチュートリアルは、[本学のチュートリアルセクション](https://planb.network/tutorials/wallet)にあります。
+あなたのニーズと使い方に合ったウォレットを選択することに留意してください。様々なウォレットの管理とセキュリティに関する詳細なチュートリアルは、[本学のチュートリアルセクション](https://planb.academy/tutorials/wallet)にあります。
 
 ビットコイン・ウォレットの構築について、エントロピーからアドレスの受信まで、さらに詳しく学びたい場合は、このトピックに特化した CYP 201 コースをお勧めします：
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ## ビットコイン・ウォレットとセキュリティ
 
@@ -538,17 +538,17 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 例えば、Sparrow Wallet をホットウォレットとして使うことができる：
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 - レベル 2\*\*では、物理的なウォレットを使用し、12/24 ワードのリストを確保します。あなたの鍵はインターネットに接続されていないデバイスに保存されるため、しばしば「コールドウォレット」と呼ばれます。この場合、取引のたびにデバイスで署名する必要があるため、日常的に資金にアクセスしにくくなります。
 
 例えば、Ledger、Satochip、Tapsigner を使うことができる：
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
+https://planb.academy/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
 
-https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
+https://planb.academy/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
 
 ![image](assets/ja/031.webp)
 
@@ -556,7 +556,7 @@ https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4
 
 BIP39 パスフレーズの使用と機能についての詳細はこちら：
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ![image](assets/ja/032.webp)
 
@@ -582,7 +582,7 @@ https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14
 
 BTC102 コースがこのステップを指導しますので、ご注意ください。
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ### このステップは冗談ではない！
 
@@ -617,7 +617,7 @@ https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 自分のウォレットをセットアップし、最初のビットコインを手に入れる方法をステップ・バイ・ステップで学びたい場合は、この他のコースも受講することをお勧めします：
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ## 時の試練を乗り越える
 
@@ -629,7 +629,7 @@ https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 長期的にビットコインを保護する方法のひとつは、鋼鉄のような耐性のある素材にニーモニックフレーズを刻印し、水や火による損傷に強い鍵の物理的バックアップを作成することだ。
 
-ブロックミット」のように低価格のものもあれば、より専門的な装置が必要なものもあります。私たちのアカデミーの[チュートリアル](https://planb.network/en/tutorials/wallet)セクションで、このトピックについてさらに調べることができます。
+ブロックミット」のように低価格のものもあれば、より専門的な装置が必要なものもあります。私たちのアカデミーの[チュートリアル](https://planb.academy/en/tutorials/wallet)セクションで、このトピックについてさらに調べることができます。
 
 ![image](assets/ja/036.webp)
 
@@ -637,7 +637,7 @@ https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 あなたの死後、ビットコインが適切に管理されるようにするためには、この最初の実践と並行して、相続計画を作成することが重要なステップとなります。このプランでは、あなたの資産の性質、アクセス方法、それらを管理する信頼できる個人の連絡先などの概要を記した手紙を手書きします。また、たとえ公証人に直接ビットコインの管理を任せてはならないとしても、税務コンプライアンスを確保するために、公証人とビットコインの相続について話し合うことも重要です。
 
-ビットコインの相続プランについてさらに詳しくお知りになりたい場合は、パメラ・モーガンの著書[Cryptoasset Inheritance Plan](https://planb.network/resources/books/28)をお読みになるか、プラン作成のガイダンスを提供する BTC102 コースに参加されることをお勧めします。
+ビットコインの相続プランについてさらに詳しくお知りになりたい場合は、パメラ・モーガンの著書[Cryptoasset Inheritance Plan](https://planb.academy/resources/books/28)をお読みになるか、プラン作成のガイダンスを提供する BTC102 コースに参加されることをお勧めします。
 
 ![image](assets/ja/037.webp)
 
@@ -718,7 +718,7 @@ https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ある人にとっては、ビットコインは[菌糸体](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/)のような菌類のような存在と定義され、ある人にとっては[ブラックホール](https://dergigi.com/)と形容される。好むと好まざるとにかかわらず、ビットコインは 1 ブロック 10 分という一定のリズムで、新しい通貨システムの鼓動のように存在し続けている。
 
-サトシ・ナカモトの著作についてもっと知りたい方は、フィル・シャンパーニュ著『The Book of Satoshi』(https://planb.network/en/resources/books/98)やARTEのドキュメンタリー『Le mystaire Satoshi』を読むことをお勧めする。
+サトシ・ナカモトの著作についてもっと知りたい方は、フィル・シャンパーニュ著『The Book of Satoshi』(https://planb.academy/en/resources/books/98)やARTEのドキュメンタリー『Le mystaire Satoshi』を読むことをお勧めする。
 
 ![image](assets/ja/044.webp)
 
@@ -911,7 +911,7 @@ Bob が自分の取引をビットコインネットワークに送信し、マ�
 
 ビットコインマイニングの具体的なトピックを深く掘り下げたい場合は、MIN 201 コースをご参照ください。このコースでは、Proof-of-Work の仕組みや役割、マイニング業界の仕組みについて学びます。また、ASIC をヒーターに変換する方法も説明しますので、ご自宅を暖めながら最初のサトシを採掘することができます！
 
-https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
+https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 ## ビットコインとエコロジー
 
@@ -1236,17 +1236,17 @@ Here is the translation into Japanese:
 
 - シンプルなオンラインソリューションオープンノード
 
-https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 - アマチュアのためのソリューション：スイス・ビットコイン・ペイ
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - 大規模な組織や情熱的なビットコイナー向けのソリューション：BTCpay サーバー
 
 このトピックをさらに掘り下げるために、BIZ101トレーニングをお勧めします！ ビットコインを企業の財務に効果的に統合する方法、組織のプロファイルに応じてビットコインを支払い手段として受け入れる方法、関連する税務および会計要件を理解する方法を学びましょう：
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## ビットコインで貯蓄
 
@@ -1289,7 +1289,7 @@ BTC102 コースでは、最初のビットコインの確保と取得につい�
 
 **UTXO に注意**：UTXO を時々ウォレットに統合することを忘れないでください。この習慣は、ビットコインを効果的に管理し、取引中の不要な手数料を避けるために不可欠です。
 
-[UTXO](https://planb.network/resources/glossary/utxo#:~:text=utxo)（未使用トランザクション出力）は、まだ使われていないトランザクションの出力であり、新しいトランザクションの入力として使用されていないことを意味します。UTXOを統合することは、いくつかの小さなUTXOを1つの大きなUTXOにまとめることを意味し、トランザクションの「重さ」を減らし、結果として手数料を低く抑えることができます。
+[UTXO](https://planb.academy/resources/glossary/utxo#:~:text=utxo)（未使用トランザクション出力）は、まだ使われていないトランザクションの出力であり、新しいトランザクションの入力として使用されていないことを意味します。UTXOを統合することは、いくつかの小さなUTXOを1つの大きなUTXOにまとめることを意味し、トランザクションの「重さ」を減らし、結果として手数料を低く抑えることができます。
 
 - 自発的な購入
 
@@ -1303,7 +1303,7 @@ BTC102 コースでは、最初のビットコインの確保と取得につい�
 
 - DCA プラットフォーム
 
-上記で紹介したように、ビットコインを貯める一般的な方法として、定期的に少額を購入する「ドルコスト平均法（DCA）」がある。専用ページ](https://planb.network/tutorials/exchange)に掲載しているような、いくつかのプラットフォームがこのサービスを提供しています。DCAの設定が簡単なことに加え、ウォレットへの引き出しは通常自動で行われるため、常に資産を管理することができます。
+上記で紹介したように、ビットコインを貯める一般的な方法として、定期的に少額を購入する「ドルコスト平均法（DCA）」がある。専用ページ](https://planb.academy/tutorials/exchange)に掲載しているような、いくつかのプラットフォームがこのサービスを提供しています。DCAの設定が簡単なことに加え、ウォレットへの引き出しは通常自動で行われるため、常に資産を管理することができます。
 
 今日、ほとんどすべての DCA ソリューションが比較的効率的で、料金もほぼ同じである。
 
@@ -1331,7 +1331,7 @@ KYC はビットコイン業界において重要な話題であることを認�
 
 ### 非 KYC ソリューション
 
-さらに、ピアツーピア取引所でビットコインを売買できる[マーケットプレイス](https://planb.network/tutorials/exchange)もいくつかあります。一般的には、以下のようなものがあります：
+さらに、ピアツーピア取引所でビットコインを売買できる[マーケットプレイス](https://planb.academy/tutorials/exchange)もいくつかあります。一般的には、以下のようなものがあります：
 
 - ビットコイン ATM
 - 他のビットコイン愛好家との物理的な会合
@@ -1342,6 +1342,10 @@ KYC はビットコイン業界において重要な話題であることを認�
 ![image](assets/ja/076.webp)
 
 最後に、納税義務は司法管轄区域によって異なる場合があることに留意することが重要であるため、リスクを負う可能性のある行動を取る前に、各国の規制を参照することを強くお勧めする。
+
+ビットコインの購入、利用、およびセキュリティ戦略についての知識をさらに深めたい場合は、この講座に続いて **BTC 102** コースを受講することを強くお勧めします。そこでは、あなたのプロフィール、ニーズ、および個人的な目標に適したツールの推奨事項などを学ぶことができます:
+
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ## 超ビットコイン化
 
@@ -1363,7 +1367,7 @@ KYC はビットコイン業界において重要な話題であることを認�
 
 ![image](assets/ja/079.webp)
 
-ビットコインに関する知識を深めたいのであれば、今がチャンスです：多くの著者、思想家、エッセイストがビットコインに関する教育的コンテンツを作成しています。過去数年間、私たちは最も好奇心旺盛な皆さんに[リソースライブラリ](https://planb.network/resources)を提供するために、これらの作品をリストアップし、分類してきました。このセクションでは、最高のポッドキャスト、ウェブサイト、記事、チュートリアル、書籍、その他のコンテンツを見つけることができます。
+ビットコインに関する知識を深めたいのであれば、今がチャンスです：多くの著者、思想家、エッセイストがビットコインに関する教育的コンテンツを作成しています。過去数年間、私たちは最も好奇心旺盛な皆さんに[リソースライブラリ](https://planb.academy/resources)を提供するために、これらの作品をリストアップし、分類してきました。このセクションでは、最高のポッドキャスト、ウェブサイト、記事、チュートリアル、書籍、その他のコンテンツを見つけることができます。
 
 > 「インターネットは、政府の役割を減らす大きな力のひとつになると思います。今ひとつ欠けているが、やがて開発されるであろうものは、信頼性の高い電子マネーである。 - 1999 年のミルトン・フリードマンの予言
 
@@ -1413,7 +1417,7 @@ KYC はビットコイン業界において重要な話題であることを認�
 
 この紹介にとどまらず、ライトニング・ネットワークのすべての仕組みを理解したい場合は、ファニス・ミハラキスによるこのテーマに関する素晴らしいコースを受講することをお勧めする：
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ## ライトニング・ネットワークの使用例
 

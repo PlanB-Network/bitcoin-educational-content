@@ -11,7 +11,7 @@ Lightning Network on Bitcoin protokolli Layer, mis töötati välja eelkõige se
 
 
 
-https://planb.network/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
+https://planb.academy/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
 
 Nii nagu põhiketi puhul, on ka siin muutunud oluliseks võimaldada kasutajatel saada teavet ja teavet võrgu seisundi kohta, et hõlbustada sõlmedevahelisi ühendusi ja vähendada võrgus üldiselt tekkivat likviidsusprobleemi. Tõepoolest, Lightning Network-s soovitame Bitcoin põhiahelas tehtavatest tehingutest suhteliselt väiksemate summade mikromakseid.
 
@@ -34,7 +34,7 @@ Nagu [Mempool Space](https://Mempool.space), mis annab kasulikku teavet Bitcoin 
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 Selles õpetuses tutvustame teile seda platvormi, mis on oluline ressurss Lightning Network kasutajatele, neile, kes soovivad oma sõlme ühendada, et laiendada võrku jne.
 
@@ -57,7 +57,7 @@ Amboss platvormi üks eesmärk on võimaldada võrgu erinevatel sõlmpunktidel �
 
 
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
 Kodulehelt leiate ka sõlmed, mis on liigitatud vastavalt :
 
@@ -147,7 +147,7 @@ Jaotises **Kanalid** näete avatud kanalite nimekirja ja sõlme ühendusi teiste
 
 - Sissetuleku suhtarv**: Summa, mida sõlmpunkt nõuab teilt iga saadud miljoni Satoshi eest, sõltuvalt valitud kanalist.
 - Suhtarv (osad miljoni kohta)** : see näitab, mitu Satoshi miljoni ühiku kohta võtab sõlmpunkt teilt tasu, kui otsustate teha makse ühe oma kanali kaudu. Oletame, et te otsustate teha makse `10_000 Sats` kanali kaudu, mille ppm suhe on `500 Sats`, siis peate te maksma sõlmpunktile `10_000 * 500 / 1_000_000` satoshi, mis vastab `5 Sats`-le.
-- [HTLC](https://planb.network/resources/glossary/htlc) maksimum** : Maksimaalne summa, mida see sõlmpunkt lubab ühe kanali kaudu läbida.
+- [HTLC](https://planb.academy/resources/glossary/htlc) maksimum** : Maksimaalne summa, mida see sõlmpunkt lubab ühe kanali kaudu läbida.
 
 
 
@@ -304,4 +304,4 @@ Nüüd olete teinud täieliku ringkäigu platvormi funktsioonide ja analüüsiva
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f

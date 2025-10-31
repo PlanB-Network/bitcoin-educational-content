@@ -185,7 +185,7 @@ Před použitím této e-mailové schránky pro přihlašovací službu můžete
 
 
 
-https://planb.network/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
+https://planb.academy/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
 
 Chcete-li odstranit alias, který jste vytvořili jako test, stačí se přihlásit do složky `Home`, poté do složky `Credentials` a kliknout na identitu, kterou chcete odstranit. V pravém horním rohu se zobrazí příkaz _Delete_, který můžete použít.
 

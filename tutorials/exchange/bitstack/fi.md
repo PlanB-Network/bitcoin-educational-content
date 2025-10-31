@@ -51,9 +51,9 @@ Valitse vahva salasana, jolla varmistat tilisi käytön, ja napsauta sitten "*Ja
 
 ![Image](assets/fr/06.webp)
 
-Salasanojen turvalliseen päivittäiseen hallintaan suositellaan erittäin suositeltavaa salasanahallintaohjelman käyttöä. Plan ₿ Network -verkkopalvelusta löydät useita oppaita parhaista olemassa olevista ratkaisuista, kuten Bitwardenista :
+Salasanojen turvalliseen päivittäiseen hallintaan suositellaan erittäin suositeltavaa salasanahallintaohjelman käyttöä. Plan ₿ Academy -verkkopalvelusta löydät useita oppaita parhaista olemassa olevista ratkaisuista, kuten Bitwardenista :
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Tämän jälkeen sinua pyydetään vahvistamaan henkilöllisyytesi (KYC). Ranskan säännösten mukaisesti sinua pyydetään antamaan henkilötietosi ja todistamaan henkilöllisyytesi. Täytä ruutuihin sukunimesi, etunimesi ja syntymäaikasi.
 
@@ -184,7 +184,7 @@ Määritä tapahtuman prioriteetti. Jos haluat tehdä maksuttoman noston, valits
 
 ![Image](assets/fr/32.webp)
 
-Jos et tiedä, miten omaisuudenhoitosalkku toimii, tarjoamme opetusohjelmia useimmista saatavilla olevista ratkaisuista [Plan ₿ Networkin "*Lompakko*"-osiossa](https://planb.network/tutorials/wallet).
+Jos et tiedä, miten omaisuudenhoitosalkku toimii, tarjoamme opetusohjelmia useimmista saatavilla olevista ratkaisuista [Plan ₿ Networkin "*Lompakko*"-osiossa](https://planb.academy/tutorials/wallet).
 
 ## Bitcoinin myyminen
 

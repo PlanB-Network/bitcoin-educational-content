@@ -11,7 +11,7 @@ Lightning Network er en Layer av Bitcoin-protokollen, som først og fremst ble u
 
 
 
-https://planb.network/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
+https://planb.academy/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
 
 Akkurat som i hovedkjeden har det blitt viktig å gjøre det mulig for brukerne å kjenne til informasjonen og statusen i nettverket, for å gjøre det lettere å koble sammen noder og minimere likviditetsproblemet som vanligvis oppstår i nettverket. På Lightning Network anbefaler vi mikrobetalinger på relativt mindre beløp enn for transaksjoner på Bitcoin-hovedkjeden.
 
@@ -34,7 +34,7 @@ I likhet med [Mempool Space] (https://Mempool.space), som gir nyttig informasjon
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 I denne veiledningen tar vi deg med på en omvisning i denne plattformen, som er en viktig ressurs for Lightning Network-brukere, de som ønsker å koble til noden sin for å utvide nettverket osv.
 
@@ -57,7 +57,7 @@ Et av målene med Amboss-plattformen er å gjøre det mulig for de ulike nodene 
 
 
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
 På hjemmesiden finner du også noder som er klassifisert i henhold til :
 
@@ -147,7 +147,7 @@ I delen **Channels** ser du listen over åpne kanaler og nodens forbindelser til
 
 - Innkommende forhold**: Beløpet noden vil belaste deg for hver million Satoshi den mottar, avhengig av hvilken kanal som er valgt.
 - Forholdstallet (parts per million)** : som representerer antall Satoshi per million enheter som noden vil belaste deg når du bestemmer deg for å foreta en betaling via en av dens kanaler. La oss si at du bestemmer deg for å betale `10_000 Sats` via en kanal som har et ppm-forhold på `500 Sats`, da må du betale noden `10_000 * 500 / 1_000_000` satoshis, tilsvarende `5 Sats`.
-- Maksimum [HTLC](https://planb.network/resources/glossary/htlc)** : Det maksimale beløpet denne noden tillater deg å transittere via en av disse kanalene.
+- Maksimum [HTLC](https://planb.academy/resources/glossary/htlc)** : Det maksimale beløpet denne noden tillater deg å transittere via en av disse kanalene.
 
 
 
@@ -304,4 +304,4 @@ Du har nå fått en komplett omvisning i plattformens funksjoner og analyseverkt
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f

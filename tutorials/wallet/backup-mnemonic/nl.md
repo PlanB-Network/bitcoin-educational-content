@@ -124,12 +124,12 @@ U kunt uw back-up ook verrijken met extra informatie over uw Wallet ondersteunin
 Aan de andere kant, als je een passphrase gebruikt, zorg er dan voor dat je het niet op hetzelfde medium noteert als je Mnemonic zin. Het doel van de passphrase is om je Wallet te beschermen in geval van diefstal. Als je meer wilt weten over het gebruik van een passphrase, bekijk dan deze aanvullende tutorial:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Zodra u uw Mnemonic zinsdeel op fysieke media hebt opgeslagen, is het sterk aan te raden om een hersteltest uit te voeren terwijl uw nieuw aangemaakte Wallet nog leeg is. Deze test bestaat uit het opschrijven van een voorbeeld van informatie, het opzettelijk verwijderen van de lege Wallet en dan proberen het te herstellen met alleen je fysieke back-up van de Mnemonic frase. Zo kun je controleren of je back-up compleet is en geen invoerfouten bevat. Het stelt je ook in staat om vertrouwd te raken met het herstelproces. Op deze manier, als je in de toekomst moet herstellen, ben je beter voorbereid en vermijd je de stress van een eerste poging in een echte situatie. Om meer te weten te komen over hoe je deze test uitvoert, zie deze andere tutorial :
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 Tot slot is er nog de vraag over het aantal back-ups. Deze keuze hangt volledig af van je persoonlijke situatie. Het beperken van het aantal kopieën, bijvoorbeeld door je Mnemonic-zin maar één keer op een medium te schrijven, verkleint het risico op diefstal, maar vergroot het risico op verlies. Omgekeerd verkleint het maken van meerdere kopieën de kans op verlies, maar vergroot het de kans op diefstal. Het is dus aan u om de juiste balans te vinden voor uw behoeften en het aantal kopieën te bepalen dat u het meest geschikt vindt.
 
@@ -170,9 +170,9 @@ Tenslotte roept Mnemonic zinsbeheer ook de vraag op van overerving. Dit onderwer
 Om nog een stap verder te gaan en je beveiligingsstrategie verder te versterken, raad ik je aan de technische werking van je Bitcoin Wallet te leren kennen. Door te begrijpen hoe de verschillende Elements op elkaar inwerken, evenals hun belang en implicaties, zul je in staat zijn je beveiligingsstrategie te verfijnen met volledig bewustzijn van de risico's die ermee gepaard gaan. In het bijzonder, als je op technisch niveau begrijpt wat de Mnemonic zin mogelijk maakt, zul je in staat zijn om de manier waarop je het registreert, opslaat en beheert in de loop van de tijd aan te passen.
 
 
-Daarom nodig ik u uit om de gratis CYP201 training van Plan ₿ Network te volgen. Deze training legt in detail de werking van Bitcoin wallets uit, zodat u de technische aspecten onder de knie krijgt die essentieel zijn voor het effectief veiligstellen van uw fondsen:
+Daarom nodig ik u uit om de gratis CYP201 training van Plan ₿ Academy te volgen. Deze training legt in detail de werking van Bitcoin wallets uit, zodat u de technische aspecten onder de knie krijgt die essentieel zijn voor het effectief veiligstellen van uw fondsen:
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 Als je deze tutorial nuttig vond, zou ik je dankbaar zijn als je hieronder een Green duim achterlaat. Voel je vrij om dit artikel te delen op je sociale netwerken. Hartelijk dank!

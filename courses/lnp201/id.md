@@ -74,7 +74,7 @@ Siap untuk mengungkap mekanisme teknis di balik Lightning Network (Jaringan Ligh
 ## Memahami Lightning Network
 
 <chapterId>df6230ae-ff35-56ea-8651-8e65580730a8</chapterId>
-:::video id=ba99951f-81d2-418f-b5e7-4b8c9f8b8cc8:::
+:::video id=4315a277-12fe-4946-bb49-a807e60c09a7:::
 
 
 Lightning Network (Jaringan Lightning) adalah jaringan saluran pembayaran yang dibangun di atas protokol Bitcoin, agar memungkinkan transaksi yang cepat dan dengan biaya rendah. Jaringan ini memungkinkan pembuatan saluran pembayaran antar peserta, di mana transaksi dapat dilakukan hampir secara instan dan dengan biaya minimal, tanpa perlu mencatat setiap transaksi secara individu di blockchain. Dengan demikian, Lightning Network (Jaringan Lightning) berupaya untuk meningkatkan skalabilitas Bitcoin dan membuatnya dapat digunakan untuk pembayaran bernilai kecil.

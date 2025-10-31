@@ -25,6 +25,8 @@ objectives:
 
 <chapterId>85290407-1aa3-4cb4-890a-aed23441afb7</chapterId>
 
+:::video id=d1eddf56-279d-459a-9568-5674606f0fd1:::
+
 這門課旨在以您從未讀過的方式講述 Bitcoin 的創造歷史。雖然它充滿了引人入勝的細節，卻常常被忽略。我們將努力描述其所有複雜性，從中本聰的構思到他早期的消失以及社群的接管。
 
 ### 簡介
@@ -93,6 +95,8 @@ Bitcoin 的創造同樣發生在私人貨幣系統如 e-gold 和 Liberty Reserve
 
 <chapterId>e443d2ab-68ce-45c0-aec7-30b88d3acdc8</chapterId>
 
+:::video id=fe306046-2245-43a7-9144-6fbafda3205e:::
+
 在深入探討中本聰創造 Bitcoin 的實際故事之前，我們應該先討論一下之前的故事。我們將分三個階段討論這個主題：首先，我們將介紹通常稱為 *eCash* 的 Chaumian 數位現金概念；然後，我們將談論基於中央系統的私人貨幣，例如 e-gold；最後，我們將說明在實現 Bitcoin 這個強大的分散式系統之前所想像的技術模型。
 
 eCash 源自 David Chaum 的作品，他是一位美國電腦科學家和密碼學家，出生于 1955 年，被認為是匿名通訊領域的先驅和密碼龐克（cypherpunk）的先驅。他在 1980 年代對密碼學的發展貢獻良多。他同時發展了他的數位現金模型（稱為「Chaumian」），並在 1990 年代透過他的公司 DigiCash 嘗試實現。
@@ -131,7 +135,7 @@ Diffie 和 Hellman 的文章為許多創新鋪平了道路。其中之一是 [RS
 Bitcoin 的基本密碼學元素源於這些研究。允許授權花費傳統交易的 ECDSA 簽署方案是在 1992 年為 NIST 創造的。在協定中多處使用的 SHA-256 Hash 函式，於 2001 年發表，是 NSA 公開的 SHA-2 演算法套件的一部分。如需更多相關資訊，您可以參考 Loïc Morel 主講的課程 CYP201。
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 ### 盲簽名與電子現金
@@ -223,6 +227,8 @@ eCash 模式是一種數位貨幣概念，可讓客戶進行相對保密的付�
 
 <chapterId>43035fa3-2805-4331-a6fb-070931d749cf</chapterId>
 
+:::video id=0f75ff53-ebf6-481c-9d1c-863fabb19a6a:::
+
 在上一章中，我們探討了因網際網路和現代加密技術的出現而出現的第一種電子現金形式：David Chaum 的電子現金模型。這個模型對中本聰有著深遠的影響，並且是在通往 Bitcoin 的路上關鍵的里程碑。然而，加密貨幣的起源故事並不僅止於 ecash；它還包括在1990年代末期開展的私人貨幣在互聯網上進行的實驗。
 
 在本章中，我們將探討美國在私人貨幣領域所做的探索。我們將先討論 Liberty Dollar 的案例。接著，我們將檢視集中式系統，如 e-gold 和 Liberty Reserve。最後，我們將談到 PayPal，它的方法與此不同，但卻為基於受信任第三方的模型提供了一個具啟發性的例子。
@@ -307,6 +313,8 @@ PayPal 最初的願景是革命性的，符合 Peter Thiel 的自由主義願景
 ## 在中本聰之前的去中心化模型
 
 <chapterId>a104f23c-e9c3-4457-a194-d87cc5f35f13</chapterId>
+
+:::video id=67e5f851-5ff6-4876-a74d-c5f8130b555c:::
 
 Bitcoin 代表了數位貨幣的去中心化模式。藉此避免了對於需要信任的第三方的依賴，因為第三方在系統中會形成單一故障點。正如 eCash、數位黃金貨幣和 Liberty Reserve 的例子所顯示的，一個意圖成為現有系統替代品的集中化必然會以各種方式導致其關閉。
 
@@ -459,6 +467,8 @@ Bitcoin 因此成為了網路貨幣的代表，一種完全存在於網際網路
 
 <chapterId>3d141918-e9c2-46e8-8c03-2bb4eb9b2150</chapterId>
 
+:::video id=825522d8-1ccc-4d14-80ac-e292a85a608a:::
+
 在了解 Bitcoin 的由來之後，我們現在將專注於它的歷史本身。多年來，這已經成為無數文章、播客和影片的主題，以至於幾乎成為某種創始神話。正如我們所見，Bitcoin 與它的創建背景密不可分，它誕生初期發生的事件也塑造了現今的樣貌。
 
 Bitcoin 是由一名不知名、聲稱是日本人的中本聰所創立，他花時間謹慎地設計此系統，然後才向公眾公開。隨後，他竭盡所能地確保 Bitcoin 在最佳條件下推出，並在討論中被妥善呈現，以吸引更多人使用它。最終，創建者的努力不僅在於系統的設計，還在於其初期經濟啟動。
@@ -593,6 +603,8 @@ Dustin Trammell (來源：[Dustin Trammell 的部落格檔案](https://web.archi
 ## 向世界展示
 
 <chapterId>28be3515-d9da-4d91-b7ff-f8691d51c562</chapterId>
+
+:::video id=c9691569-f026-460d-a08d-98fa54f1ce25:::
 
 在檢視過 Bitcoin 是如何由中本聰設計與推出之後，讓我們重點看看它是如何公開展示的。Bitcoin 於 2009 年初推出後，網路開始運作，但節點很少 (中本聰挖出絕大多數的區塊)，活動幾乎不存在 (1 月份實際交易 32 次)。該專案只有一個基本的網站和一個供下載軟體的 SourceForge 頁面。此外，關於 Bitcoin 的溝通也僅限於 Metzdowd Cryptography 郵件論壇，最多只有幾百個熱衷於密碼學的人關注。
 
@@ -760,6 +772,8 @@ Bitcoin 的宣傳也經歷了幾個階段：首先，中本聰著重於線上支
 
 <chapterId>6b3418a7-125e-4ea1-a03a-f36090fac8a4</chapterId>
 
+:::video id=2a31c9c2-bb14-4ed5-b906-7df373f81f98:::
+
 在之前的章節中，我們觀察到中本聰如何實現他的想法，以及他如何傳達這個想法，將 Bitcoin 介紹給全世界。然而，並非一切都取決於他：還需要人們為 Bitcoin 賦予價值。由於這樣可以透過交易費用賺取礦工的報酬，並透過自然通縮獎勵商人，因此這種升值對於系統的安全性至關重要。
 
 然而，Bitcoin 價值的出現並非易事。為之前沒有經濟價值的對象賦予經濟意義，且完全是基於主觀原因。Hal Finney 在 2009 年 1 月 11 日寄送給 Cryptography 郵件論壇的 [email](https://www.metzdowd.com/pipermail/cryptography/2009-January/015004.html) 中做了很好的解釋，他寫道："Bitcoin 的價值在於它的經濟價值：
@@ -884,6 +898,8 @@ Bitcoin 價值的起源問題一直是許多人努力想要解釋的。這種價
 
 <chapterId>9cd228a4-58d3-46a3-9935-06098bafc954</chapterId>
 
+:::video id=18913713-2f1a-4555-ba5d-06ec6d532bcb:::
+
 在上一部分，我們探討了 Bitcoin 如何出現、如何介紹給大眾，以及如何在經濟上發起。2010 年春天，當 Bitcoin 的商業活動剛開始盛行時，中本聰及其支持者決心要讓這個火種持續燃燒。幸運的是，其他人也加入了行列，特別是 Miner Laszlo Hanyecz 和開發人員 Gavin Andresen，他們的行動尤其突出。
 
 在本章中，我們將探討利用顯示卡（GPU）進行挖礦的首次部署、中本聰累積的財富、首次使用 Bitcoin 購買實物、建立免費發放 Bitcoin 單位的「比特幣水龍頭（bitcoin faucet）」以及在 Slashdot 效應之前的軟體和網路的演變。
@@ -987,6 +1003,8 @@ Gavin 也參與了軟體開發，[實作](https://sourceforge.net/p/Bitcoin/code
 
 <chapterId>2eef715e-b018-445b-b360-1c6e1c1df462</chapterId>
 
+:::video id=c26f3696-4e33-4d38-9443-f237935f8b45:::
+
 在 2010 年夏季初期，儘管有一些令人鼓舞的初步發展，Bitcoin 仍然建立在不穩固的基礎上。除了中本聰之外，該軟體幾乎沒有其他開發者。挖礦者都是在個人電腦上進行的業餘活動。與 Bitcoin 相關的服務約有二十個，而實際的交易所則同樣稀少。然而，事情將在年下半年發生劇變。
 
 在本章中，我們將討論「Slashdot 效應」，也就是 2010 年 7 月 11 日在熱門網站 Slashdot 發表 Bitcoin 的介紹後，使用者突然大量湧入。我們將探討這篇文章如何成為中本聰最後的溝通方式，以及 Bitcoin 的普及化所帶來的直接影響。
@@ -1061,6 +1079,8 @@ Gavin 也參與了軟體開發，[實作](https://sourceforge.net/p/Bitcoin/code
 ## 首次技術問題
 
 <chapterId>30cc4fe4-22b0-429e-9874-029c9137c0aa</chapterId>
+
+:::video id=f3e98b49-c32e-451a-b7c1-224dc5b00cf5:::
 
 如上一章所述，2010 年 7 月 11 日來自 Slashdot 的大量使用者湧入，引起了人們對中本聰專案的巨大興趣。網路的使用呈爆炸性成長；幣價十倍上漲，算力也是如此。因此，Bitcoin 在夏天經歷了前所未有的成長。
 
@@ -1147,6 +1167,8 @@ Gavin 和中本聰也修正了幾個 bug。其中最主要的是 "1 RETURN bug"�
 
 <chapterId>8e9899ca-e7a7-471b-8e69-847a56714d3b</chapterId>
 
+:::video id=665ac55c-cd61-4d07-a896-95248eec480d:::
+
 在上一部分中，我們研究了 Bitcoin 的簡報在 Slashdot 上發表 (slashdotting) 所造成的影響，以及中本聰和他的助手如何處理初期的技術麻煩。到夏天結束時，專案已經度過了風浪，並準備好迎接越來越多的人。因此，2010 年秋天標誌著 Bitcoin 的成功時期。
 
 這段期間尤其是挖礦的黃金時代，隨著第一批 GPU 礦場和第一家合作公司的出現，挖礦有了顯著的進步。部署的資源越來越多，專用演算法的效能也不斷提升。正如當時的一位博客作者（化名 jimbobway）[寫道](https://web.archive.org/web/20100828094955/http://www.bitcoinblogger.com/2010/08/bitcoins-new-digital-gold-rush.html)，這多少有點像「數位淘金熱」，他指出「成千上萬的網際網路使用者」都在挖礦「希望發財」，其中許多人試圖「開發軟硬體工具以更有效率地開採 Bitcoin」，希望能成為富人。
@@ -1222,6 +1244,8 @@ Marek Palatinus (slush) 於 2013 年 5 月 11 日在布拉格舉行的 Z-DAY 會
 ## 生態系統的綻放
 
 <chapterId>0404f877-8b5c-4c7f-81ab-a4e6d9b3da9c</chapterId>
+
+:::video id=2327cb5b-36a1-49f4-a9de-09b70d76b8c1:::
 
 在前一章中，我們探討了 2010 下半年挖礦的發展。到了秋季，這一進展已經相當穩固。然而，挖礦並不是 Bitcoin 唯一成功的面向：其生態系統也獲得了成功。
 
@@ -1327,6 +1351,8 @@ EFF 花了一些時間才開始接受大眾捐款。經過協商後，社群說�
 ## 中本聰的消失
 
 <chapterId>f7735239-4887-468f-9f06-1b07d00b30d9</chapterId>
+
+:::video id=fd5b40ae-b6bc-484a-b86b-af9c772f0afa:::
 
 我們看到 Bitcoin 在 2010 年 7 月於 Slashdot 上發布文章後，是如何高速成長的。到了秋天，隨著軟體、挖礦以及經濟上的各種進展，大家覺得這個計畫終於走上了正軌。這也是為什麼這段時間正好是中本聰逐漸退出的時期。
 
@@ -1446,6 +1472,8 @@ Amir Taaki 於 2012 年 12 月在布拉迪斯拉發（資料來源：[Mitch Altm
 ## 社區接管
 
 <chapterId>16c5e6d6-2412-48c6-9687-6af92cf0d89a</chapterId>
+
+:::video id=b29c3ea3-c4ca-4feb-bb29-5dc064987406:::
 
 中本聰離開後，必須在沒有他的情況下繼續進行。幸運的是，Bitcoin 是一個開放式專案，任何人都可以貢獻心力，因此創辦人的失蹤對它來說並非致命的。正如開發人員 Jeff Garzik 在 2010 年 7 月所寫的（關於創始人不在的可能性）：
 

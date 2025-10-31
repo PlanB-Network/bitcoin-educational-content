@@ -90,7 +90,7 @@ Hiện tại, chúng ta đã qua giai đoạn cất cánh nhưng chỉ mới ở
 
 Bạn đã sẵn sàng để khám phá thế giới hấp dẫn của Bitcoin và hiểu tất cả các hoạt động bên trong của nó chưa? Hãy cùng đi nào!
 
-**Lưu ý**: Nếu bạn gặp phải các thuật ngữ không quen thuộc trong khóa học, vui lòng tham khảo [bảng thuật ngữ](https://planb.network/resources/glossary) để biết định nghĩa.
+**Lưu ý**: Nếu bạn gặp phải các thuật ngữ không quen thuộc trong khóa học, vui lòng tham khảo [bảng thuật ngữ](https://planb.academy/resources/glossary) để biết định nghĩa.
 
 ## Lịch sử của Bitcoin
 
@@ -157,7 +157,7 @@ Tuy nhiên, Bitcoin có phải là một loại tiền tệ "thực sự" không
 
 Nếu bạn muốn khám phá lịch sử Bitcoin sâu và chi tiết hơn, chúng tôi đặc biệt giới thiệu khóa học HIS 201, bạn sẽ khám phá gốc rễ lịch sử dẫn đến sự xuất hiện của Bitcoin, cũng như sự khởi đầu của cộng đồng một cách cạn kẽ. Khóa học này được ghi chép và trích dẫn đầy đủ, và tất nhiên sẽ xuất hiện nhiều giai thoại:
 
-https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
+https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 # Tiền
 
 <partId>e913df1a-4cbd-5380-ba67-ca2a0414f671</partId>
@@ -280,7 +280,7 @@ Chúng ta có thể kết thúc chương này bằng một trích dẫn từ  F.
 > "Tôi không tin chúng ta sẽ có một loại tiền có giá trị tốt trở lại, cho đến khi chúng ta lấy nó ra khỏi bàn tay của chính phủ. Nếu chúng ta không thể dùng vũ lực, thì có thể đưa ra thứ gì đó mà họ không thể ngăn cản một cách khôn khéo nào đó hoặc theo đường vòng."
 Để tìm hiểu thêm về những nhận định sai lệch về kinh tế và sự tự do, mời bạn khám phá khóa học ECO 102 của chúng tôi, khóa học này sẽ mô tả cuộc đời và tư tưởng của Frédéric Bastiat, một nhà tư tưởng người Pháp thế kỷ 19, người chắc chắn sẽ đánh giá cao sự xuất hiện của Bitcoin:
 
-https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
+https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 ## Siêu lạm phát
 
 <chapterId>b04c024c-54f3-50cb-997f-58721cfc74be</chapterId>
@@ -376,7 +376,7 @@ Trên thực tế và trong dài hạn, một loại tiền tệ phụ thuộc v
 
 Để đi sâu hơn vào chủ đề siêu lạm phát, bạn nên tham gia khóa học ECO 204 của David St-Onge, nơi bạn sẽ tìm hiểu về các chu kỳ siêu lạm phát và tác động thực sự của chúng đối với cuộc sống của chúng ta. Bạn cũng sẽ tìm hiểu những điểm tương đồng giữa các chu kỳ này và quan trọng nhất là qua đó học cách bảo vệ bản thân.
 
-https://planb.network/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
+https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 ## 21 triệu bitcoin
 
 <chapterId>f4a06d76-1963-56fd-93ff-dfa41489bcde</chapterId>
@@ -420,7 +420,7 @@ Sau khi hoàn thành nhiệm vụ này thành công, người khai thác (thợ 
 | 19             | 3,990,000    | 0.000095367431640625 BTC  | 20,999,959.946 BTC                         |
 | 20             | 4,200,000    | 0.0000476837158203125 BTC | 20,999,979.973 BTC                         |
 
-Chúng ta sẽ xem xét lại khái niệm khai thác chi tiết hơn trong [chương về khai thác](https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
+Chúng ta sẽ xem xét lại khái niệm khai thác chi tiết hơn trong [chương về khai thác](https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
 
 ### Đảm bảo sự khan hiếm kỹ thuật số
 
@@ -534,11 +534,11 @@ Nếu ai đó vô tình đoán được danh sách 12 hoặc 24 từ của chún
 
 Khả năng ví Bitcoin của bạn bị hack là cực kỳ thấp nếu bạn tuân thủ các biện pháp bảo mật tối ưu sẽ được trình bày chi tiết ở phần tiếp theo.
 
-Hãy nhớ chọn ví phù hợp với nhu cầu và mục đích sử dụng của bạn: hướng dẫn chi tiết về cách quản lý và bảo mật các loại ví khác nhau có trong [phần hướng dẫn của trường đại học của chúng tôi](https://planb.network/tutorials/wallet).
+Hãy nhớ chọn ví phù hợp với nhu cầu và mục đích sử dụng của bạn: hướng dẫn chi tiết về cách quản lý và bảo mật các loại ví khác nhau có trong [phần hướng dẫn của trường đại học của chúng tôi](https://planb.academy/tutorials/wallet).
 
 Nếu trong quá trình học của mình, bạn muốn tìm hiểu thêm về cách lập trình ví Bitcoin, từ entropy đến cách nhận địa chỉ, chúng tôi khuyên bạn nên tham gia khóa học CYP 201 chuyên về chủ đề này:
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 ## Ví Bitcoin và Bảo mật
 
 <chapterId>00c1afea-e54a-511f-bab3-2efc2fbfa6a1</chapterId>
@@ -571,15 +571,15 @@ Dưới đây là định nghĩa một số cấp độ bảo mật:
 
 Ví dụ, bạn có thể sử dụng Sparrow Wallet như một ví nóng:
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 - **Cấp độ 2**, bạn sử dụng ví vật lý và bạn đã bảo mật danh sách 12/24 từ của mình. Nó thường được gọi là "Ví lạnh" vì khóa của bạn được lưu trữ trên thiết bị không được kết nối với internet. Trong trường hợp này, bạn sẽ luôn cần phải ký mọi giao dịch bằng thiết bị của mình, điều này khiến tiền của bạn khó truy cập hơn hàng ngày.
 
 Ví dụ, bạn có thể sử dụng Ledger, Satochip hoặc Tapsigner:
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
-https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
-https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
+https://planb.academy/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
 ![image](assets/vi/031.webp)
 
 
@@ -587,7 +587,7 @@ https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4
 
 Để tìm hiểu thêm về cách sử dụng và chức năng của cụm mật khẩu BIP39:
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 ![image](assets/vi/032.webp)
 
 
@@ -613,7 +613,7 @@ Tính bảo mật của bitcoin của bạn có tầm quan trọng sống còn v
 
 Khóa học BTC102 sẽ hướng dẫn bạn thực hiện bước này.
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 ### Bước này không phải chuyện đùa!
 
 Khi bạn thiết lập ví, phần mềm thường tạo khóa riêng của bạn, thường được biểu thị bằng danh sách 12/24 từ (thường được gọi là "cụm từ hạt giống" hoặc "cụm từ mật khẩu"): những từ này cấu thành quyền truy cập vào tiền của bạn. Nếu khóa này bị tiết lộ cho bên thứ ba, bạn nên nghĩ là khoản tiền trong tài khoản đã bị xâm phạm. Do đó, khi thiết lập ví, điều cần thiết là phải tuân theo các quy tắc sau:
@@ -648,7 +648,7 @@ Cả ví 'lạnh' và 'nóng' đều sử dụng cùng phương pháp danh sách
 
 Nếu sau đó bạn muốn khám phá từng bước cách thiết lập ví của riêng mình và nhận được những bitcoin đầu tiên, chúng tôi cũng khuyên bạn nên tham gia các khóa học khác:
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 ## Vượt qua thử thách của thời gian
 
 <chapterId>f58cd446-c202-5eff-aab7-e61cc40e5c06</chapterId>
@@ -659,7 +659,7 @@ Cũng giống như bất kỳ hình thức tài sản khác, bitcoin của bạn
 
 Một phương pháp để bảo vệ bitcoin của bạn trong thời gian dài là khắc cụm từ mật khẩu lên vật liệu bền như thép, bằng cách tạo bản sao lưu vật lý cho chìa khóa của bạn có khả năng chống chịu được cả thiệt hại do nước và hỏa hoạn.
 
-Có nhiều giải pháp khác nhau: một số giải pháp có chi phí thấp, chẳng hạn như "Blockmit", trong khi một số giải pháp khác có thể yêu cầu thiết bị chuyên dụng hơn. Bạn có thể tìm hiểu thêm về chủ đề này trong phần [hướng dẫn](https://planb.network/en/tutorials/wallet) của học viện chúng tôi.
+Có nhiều giải pháp khác nhau: một số giải pháp có chi phí thấp, chẳng hạn như "Blockmit", trong khi một số giải pháp khác có thể yêu cầu thiết bị chuyên dụng hơn. Bạn có thể tìm hiểu thêm về chủ đề này trong phần [hướng dẫn](https://planb.academy/en/tutorials/wallet) của học viện chúng tôi.
 
 ![image](assets/vi/036.webp)
 
@@ -667,7 +667,7 @@ Có nhiều giải pháp khác nhau: một số giải pháp có chi phí thấp
 
 Bên cạnh phương pháp đầu tiên nêu trên, việc lập kế hoạch thừa kế là bước quan trọng để đảm bảo rằng bitcoin của bạn được quản lý và phân bổ đúng mong muống của bạn sau khi qua đời. Kế hoạch này bao gồm việc viết tay một lá thư nêu rõ bản chất tài sản của bạn, phương pháp tiếp cận và thông tin liên lạc của những cá nhân đáng tin cậy có trách nhiệm đối với chúng. Việc thảo luận về việc thừa kế bitcoin với luật sư cũng rất quan trọng để đảm bảo tuân thủ thuế và luật pháp, ngay cả khi người này không bao giờ được giao phó trực tiếp việc quản lý bitcoin của bạn.
 
-Nếu bạn muốn tìm hiểu sâu hơn về chủ đề kế hoạch thừa kế bitcoin của mình, chúng tôi khuyên bạn nên đọc cuốn sách [Kế hoạch thừa kế tài sản mã hóa](https://planb.network/resources/books/28) của Pamela Morgan hoặc đăng ký khóa học BTC102, nơi chúng tôi cung cấp hướng dẫn về cách lập kế hoạch.
+Nếu bạn muốn tìm hiểu sâu hơn về chủ đề kế hoạch thừa kế bitcoin của mình, chúng tôi khuyên bạn nên đọc cuốn sách [Kế hoạch thừa kế tài sản mã hóa](https://planb.academy/resources/books/28) của Pamela Morgan hoặc đăng ký khóa học BTC102, nơi chúng tôi cung cấp hướng dẫn về cách lập kế hoạch.
 
 ![image](assets/vi/037.webp)
 
@@ -750,7 +750,7 @@ Mặc dù Satoshi vắng mặt, Bitcoin vẫn tiếp tục được phát triể
 
 Đối với một số người, Bitcoin được định nghĩa là một loại nấm giống như một [hệ nấm sợi](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), trong khi người khác mô tả nó như một [hố đen](https://dergigi.com/). Dù bạn thích hay không thì Bitcoin vẫn tiếp tục tồn tại, với nhịp độ đều đặn liên tục 10 phút cho mỗi khối, giống như nhịp đập trái tim của một hệ thống tiền tệ mới.
 
-Để tìm hiểu thêm về các bài viết của Satoshi Nakamoto, chúng tôi khuyên bạn nên đọc ["The Book of Satoshi"](https://planb.network/en/resources/books/98) của Phil Champagne hoặc phim tài liệu "Le mystaire Satoshi" của ARTE.
+Để tìm hiểu thêm về các bài viết của Satoshi Nakamoto, chúng tôi khuyên bạn nên đọc ["The Book of Satoshi"](https://planb.academy/en/resources/books/98) của Phil Champagne hoặc phim tài liệu "Le mystaire Satoshi" của ARTE.
 
 ![image](assets/vi/044.webp)
 
@@ -945,7 +945,7 @@ Lý thuyết trò chơi áp dụng cho Bitcoin loại bỏ những thợ đào k
 
 Nếu bạn muốn tìm hiểu sâu hơn về chủ đề cụ thể về khai thác Bitcoin, bạn có thể tham khảo khóa học MIN 201 của chúng tôi. Bạn sẽ khám phá cách thức hoạt động và vai trò của việc minh chứng công việc Proof-of-Work, cũng như cơ chế của ngành khai thác. Chúng tôi cũng giải thích cách chuyển đổi ASIC thành lò sưởi, cho phép bạn khai thác những satoshi đầu tiên trong khi sưởi ấm ngôi nhà của mình!
 
-https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
+https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 ## Bitcoin và Sinh thái
 
 <chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>
@@ -1100,17 +1100,17 @@ Chúng tôi sẽ đề cập chi tiết về chủ đề này trong một khóa 
 
 - Giải pháp trực tuyến đơn giản: OpenNode
 
-https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 - Giải pháp cho các thương gia nghiệp dư: Swiss Bitcoin Pay
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - Giải pháp cho các công trình lớn hoặc những người đam mê bitcoin: Máy chủ BTCpay
 
 Để tìm hiểu sâu hơn về chủ đề này, chúng tôi khuyên bạn nên tham gia khóa học BIZ101 của chúng tôi! Tìm hiểu cách tích hợp hiệu quả bitcoin vào ngân quỹ công ty của bạn, chấp nhận bitcoin như một phương thức thanh toán theo hồ sơ của tổ chức và hiểu các yêu cầu về thuế và kế toán liên quan:
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 
 ## Tiết kiệm với Bitcoin
@@ -1127,7 +1127,7 @@ Bitcoin đã trở thành một tài sản tài chính thực thụ, chủ yếu
 - Hiệu suất trong quá khứ không phải là chỉ báo đáng tin cậy cho hiệu suất trong tương lai.
 - Liên hệ với cố vấn tài chính của bạn nếu cần.
 
-**Plan ₿ Network không cung cấp bất kỳ dịch vụ tư vấn đầu tư nào và không có nội dung nào được nêu ở đây được xem là như vậy**
+**Plan ₿ Academy không cung cấp bất kỳ dịch vụ tư vấn đầu tư nào và không có nội dung nào được nêu ở đây được xem là như vậy**
 
 ### Danh sách kiểm tra nhỏ trước khi quyết định
 
@@ -1158,9 +1158,9 @@ Chiến lược này liên quan đến việc mua định kỳ, nghĩa là mua m
 
 **Cẩn thận với UTXO**: Hãy nhớ hợp nhất UTXO trong ví của bạn theo thời gian. Thực hiện hành vi này rất cần thiết để quản lý bitcoin hiệu quả và tránh các khoản phí không cần thiết trong quá trình giao dịch.
 
-Một [UTXO]((https://planb.network/resources/glossary/utxo)) là một đầu ra của một giao dịch chưa được chi tiêu, có nghĩa là nó chưa được sử dụng làm đầu vào cho một giao dịch mới. Việc hợp nhất chúng có nghĩa là kết hợp nhiều UTXO nhỏ thành một UTXO lớn hơn, nhằm giảm "trọng lượng" của giao dịch và do đó trả phí thấp hơn.
+Một [UTXO]((https://planb.academy/resources/glossary/utxo)) là một đầu ra của một giao dịch chưa được chi tiêu, có nghĩa là nó chưa được sử dụng làm đầu vào cho một giao dịch mới. Việc hợp nhất chúng có nghĩa là kết hợp nhiều UTXO nhỏ thành một UTXO lớn hơn, nhằm giảm "trọng lượng" của giao dịch và do đó trả phí thấp hơn.
 
-[UTXO](https://planb.network/resources/glossary/utxo#:~:text=utxo) (Unspent Transaction Output) là một đầu ra của một giao dịch chưa được chi tiêu, có nghĩa là nó chưa được sử dụng làm đầu vào cho một giao dịch mới. Việc hợp nhất UTXO có nghĩa là kết hợp nhiều UTXO nhỏ thành một UTXO lớn hơn, nhằm giảm "trọng lượng" của giao dịch và do đó phải trả phí thấp hơn.
+[UTXO](https://planb.academy/resources/glossary/utxo#:~:text=utxo) (Unspent Transaction Output) là một đầu ra của một giao dịch chưa được chi tiêu, có nghĩa là nó chưa được sử dụng làm đầu vào cho một giao dịch mới. Việc hợp nhất UTXO có nghĩa là kết hợp nhiều UTXO nhỏ thành một UTXO lớn hơn, nhằm giảm "trọng lượng" của giao dịch và do đó phải trả phí thấp hơn.
 
 - Mua tự phát
 
@@ -1175,7 +1175,7 @@ Có một số cách để có được bitcoin, mỗi cách đều phải tuân
 
 - Sàn hỗ trợ mua nhỏ đều (DCA)
 
-Như đã giới thiệu ở trên, một phương pháp phổ biến để tích lũy bitcoin là mua nhỏ đều (DCA), bao gồm việc mua thường xuyên các khoản tiền nhỏ. Một số sàn cung cấp dịch vụ này, chẳng hạn như các sàn được liệt kê trên [trang chuyên đề](https://planb.network/tutorials/exchange) của chúng tôi. Ngoài tính đơn giản của việc thiết lập DCA, việc rút tiền vào ví của bạn thường là tự động, nghĩa là bạn sẽ luôn kiểm soát được tài sản của mình.
+Như đã giới thiệu ở trên, một phương pháp phổ biến để tích lũy bitcoin là mua nhỏ đều (DCA), bao gồm việc mua thường xuyên các khoản tiền nhỏ. Một số sàn cung cấp dịch vụ này, chẳng hạn như các sàn được liệt kê trên [trang chuyên đề](https://planb.academy/tutorials/exchange) của chúng tôi. Ngoài tính đơn giản của việc thiết lập DCA, việc rút tiền vào ví của bạn thường là tự động, nghĩa là bạn sẽ luôn kiểm soát được tài sản của mình.
 
 Ngày nay, hầu hết các giải pháp DCA đều tương đối hiệu quả và có mức phí gần như nhau, do đó, lựa chọn sẽ phụ thuộc nhiều hơn vào tính khả dụng tại quốc gia của bạn.
 
@@ -1204,7 +1204,7 @@ Sau khi mua, bạn nên rút ngay bitcoin khỏi các nền tảng trao đổi �
 
 ### Giải pháp không KYC
 
-Ngoài ra, có một số [thị trường](https://planb.network/tutorials/exchange) nơi mua và bán bitcoin ở một sàn giao dịch ngang hàng. Nhìn chung, bạn có thể cân nhắc những điều sau:
+Ngoài ra, có một số [thị trường](https://planb.academy/tutorials/exchange) nơi mua và bán bitcoin ở một sàn giao dịch ngang hàng. Nhìn chung, bạn có thể cân nhắc những điều sau:
 
 
 - Máy ATM Bitcoin
@@ -1216,6 +1216,10 @@ Ngoài ra, có một số [thị trường](https://planb.network/tutorials/exch
 ![image](assets/vi/076.webp)
 
 Cuối cùng, điều quan trọng cần lưu ý là nghĩa vụ thuế có thể khác nhau tùy theo khu vực pháp lý, vì vậy chúng tôi đặc biệt khuyến khích bạn tham khảo các quy định tại quốc gia của mình trước khi thực hiện bất kỳ hành động nào có thể gây rủi ro cho bạn.
+
+Nếu bạn muốn nâng cao kiến thức về các chiến lược mua, sử dụng và bảo mật bitcoin của mình, tôi thực sự khuyên bạn nên theo học khóa **BTC 102** sau khóa này. Ở đó, bạn sẽ khám phá ra, trong số những điều khác, các khuyến nghị về công cụ phù hợp với hồ sơ, nhu cầu và mục tiêu cá nhân của bạn:
+
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ## Siêu bitcoin hóa
 
@@ -1237,7 +1241,7 @@ Cuối cùng, chúng tôi mời bạn suy ngẫm về cuộc cách mạng tiền
 
 ![image](assets/vi/079.webp)
 
-Nếu bạn muốn mở rộng kiến thức về Bitcoin, đây là thời điểm thích hợp: rất nhiều tác giả, nhà tư tưởng và nhà viết tiểu luận đã tạo ra nội dung giáo dục về Bitcoin. Trong vài năm qua, chúng tôi đã liệt kê và phân loại các tác phẩm này để cung cấp [thư viện tài nguyên](https://planb.network/resources) cho những người tò mò nhất trong số các bạn. Trong phần đó, bạn sẽ tìm thấy các podcast, trang web, bài viết, hướng dẫn, sách và nội dung khác hay nhất.
+Nếu bạn muốn mở rộng kiến thức về Bitcoin, đây là thời điểm thích hợp: rất nhiều tác giả, nhà tư tưởng và nhà viết tiểu luận đã tạo ra nội dung giáo dục về Bitcoin. Trong vài năm qua, chúng tôi đã liệt kê và phân loại các tác phẩm này để cung cấp [thư viện tài nguyên](https://planb.academy/resources) cho những người tò mò nhất trong số các bạn. Trong phần đó, bạn sẽ tìm thấy các podcast, trang web, bài viết, hướng dẫn, sách và nội dung khác hay nhất.
 
 > "Tôi nghĩ rằng Internet sẽ là một trong những lực lượng chính làm giảm vai trò của chính phủ. Một điều còn thiếu, nhưng sẽ sớm được phát triển, là tiền điện tử đáng tin cậy - một phương pháp mà trên Internet, bạn có thể chuyển tiền từ A sang B mà A không biết B hoặc B không biết A." - Dự đoán của Milton Friedman năm 1999
 # Tương lai của Bitcoin: Mạng lưới Lightning
@@ -1286,7 +1290,7 @@ Tóm lại, mạng tia chớp (Lightning) là một giải pháp đầy hứa h�
 
 Nếu bạn muốn tìm hiểu sâu hơn về phần giới thiệu này và hiểu rõ hơn về cách thức hoạt động của mạng tia chớp (Lightning), chúng tôi khuyên bạn nên tham gia khóa học tuyệt vời này của Fanis Michalakis về chủ đề này:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 ## Các trường hợp sử dụng mạng Lightning
 
 <chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>

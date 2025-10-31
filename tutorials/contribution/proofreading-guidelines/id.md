@@ -1,27 +1,27 @@
 ---
 name: Pedoman Pengoreksian
-description: Apa saja faktor penting yang perlu diingat sewaktu mengoreksi pada Plan ₿ Network?
+description: Apa saja faktor penting yang perlu diingat sewaktu mengoreksi pada Plan ₿ Academy?
 ---
 
 ![github](assets/cover.webp)
 
 
-Selamat datang di tutorial tentang **panduan yang harus diikuti saat mengoreksi konten di Plan ₿ Network**. Kami senang Anda berbagi misi kami untuk menerjemahkan materi Bitcoin ke dalam sebanyak mungkin bahasa, untuk membantu orang mendapatkan kesadaran tentang cara kerjanya dan bagaimana hal itu dapat digunakan dalam kehidupan sehari-hari.
+Selamat datang di tutorial tentang **panduan yang harus diikuti saat mengoreksi konten di Plan ₿ Academy**. Kami senang Anda berbagi misi kami untuk menerjemahkan materi Bitcoin ke dalam sebanyak mungkin bahasa, untuk membantu orang mendapatkan kesadaran tentang cara kerjanya dan bagaimana hal itu dapat digunakan dalam kehidupan sehari-hari.
 
 
-Pertama-tama, berkontribusi pada [repositori publik] Plan ₿ Network (https://github.com/PlanB-Network/Bitcoin-educational-content) memberi Anda kesempatan untuk menulis tutorial, mengoreksi konten yang sudah ada, atau bahkan mengusulkan penambahan bahasa baru pada platform ini. Untuk mengetahui lebih lanjut, bergabunglah dengan [Grup Telegram] (https://t.me/PlanBNetwork_ContentBuilder) kami terlebih dahulu, dan tulislah presentasi singkat tentang Anda dan bahasa yang Anda kuasai.
+Pertama-tama, berkontribusi pada [repositori publik] Plan ₿ Academy (https://github.com/PlanB-Network/Bitcoin-educational-content) memberi Anda kesempatan untuk menulis tutorial, mengoreksi konten yang sudah ada, atau bahkan mengusulkan penambahan bahasa baru pada platform ini. Untuk mengetahui lebih lanjut, bergabunglah dengan [Grup Telegram] (https://t.me/PlanBNetwork_ContentBuilder) kami terlebih dahulu, dan tulislah presentasi singkat tentang Anda dan bahasa yang Anda kuasai.
 
 
-Tutorial ini didedikasikan untuk kontributor yang ingin mengoreksi konten. Kebanyakan dari mereka tidak tahu banyak tentang [Github](https://planb.network/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) atau [Bahasa penurunan harga](https://www.markdownguide.org/basic-syntax/) yang kami gunakan di dalam repositori, jadi penting untuk membagikan beberapa wawasan tentang faktor-faktor kunci yang terlibat dalam tugas ini.
+Tutorial ini didedikasikan untuk kontributor yang ingin mengoreksi konten. Kebanyakan dari mereka tidak tahu banyak tentang [Github](https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) atau [Bahasa penurunan harga](https://www.markdownguide.org/basic-syntax/) yang kami gunakan di dalam repositori, jadi penting untuk membagikan beberapa wawasan tentang faktor-faktor kunci yang terlibat dalam tugas ini.
 
 
 Di bawah ini, saya mengumpulkan masalah paling umum yang dihadapi oleh para korektor. Jangan ragu untuk memberikan saran, karena hal ini dapat membantu orang lain untuk memperbaiki diri.
 
 
-Sebelum membahas secara spesifik, hal pertama yang harus dilakukan adalah membaca tutorial ini tentang tindakan praktis yang harus dilakukan di Github, dengan melakukan forking pada repositori Plan ₿ Network, melakukan perubahan, dan mengirim PR:
+Sebelum membahas secara spesifik, hal pertama yang harus dilakukan adalah membaca tutorial ini tentang tindakan praktis yang harus dilakukan di Github, dengan melakukan forking pada repositori Plan ₿ Academy, melakukan perubahan, dan mengirim PR:
 
 
-https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
+https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 
 ## Apa yang dimaksud dengan proofreading?
@@ -38,13 +38,13 @@ Ingatlah selalu bahwa penerjemahan/pengoreksian adalah PENDIDIKAN!
 
 Faktanya, tujuan bersama kami adalah untuk mengedukasi sebanyak mungkin orang tentang Bitcoin, jadi sangat penting bahwa materi yang mereka baca lancar dan jelas.
 
-Dalam hal ini, semua kontributor di Plan ₿ Network adalah pendidik!
+Dalam hal ini, semua kontributor di Plan ₿ Academy adalah pendidik!
 
 
-## Langkah pertama sebelum mengoreksi pada Plan ₿ Network
+## Langkah pertama sebelum mengoreksi pada Plan ₿ Academy
 
 
-Sebelum memulai tugas penyuntingan baru, umumkanlah di [grup Telegram](https://t.me/PlanBNetwork_ContentBuilder) atau beritahukan koordinator Plan ₿ Network Anda, yang akan membuka [isu khusus](https://github.com/orgs/PlanB-Network/projects/3). Ketika Anda menerima tautan masalah, cukup beri komentar bahwa Anda memulai **tugas penyuntingan konten tersebut**.
+Sebelum memulai tugas penyuntingan baru, umumkanlah di [grup Telegram](https://t.me/PlanBNetwork_ContentBuilder) atau beritahukan koordinator Plan ₿ Academy Anda, yang akan membuka [isu khusus](https://github.com/orgs/Plan ₿ Academy/projects/3). Ketika Anda menerima tautan masalah, cukup beri komentar bahwa Anda memulai **tugas penyuntingan konten tersebut**.
 
 
 Sistem ini membantu koordinator melacak kemajuan di dalam repo, dan memungkinkan konten untuk "diklaim" oleh korektor, mencegah upaya duplikasi oleh orang lain.
@@ -60,7 +60,7 @@ Pertama-tama, **SELALU** ingat untuk menyinkronkan repo Anda, pada cabang "dev".
 
 
 
-Setelah berhasil menyinkronkan, Anda dapat langsung mengakses konten yang diinginkan dan melakukan komit di cabang baru, seperti yang ditunjukkan dalam [tutorial] ini (https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). Jika tidak, Anda dapat membuka cabang baru tempat bekerja, dengan mengklik "Cabang", seperti yang ditunjukkan di bawah ini.
+Setelah berhasil menyinkronkan, Anda dapat langsung mengakses konten yang diinginkan dan melakukan komit di cabang baru, seperti yang ditunjukkan dalam [tutorial] ini (https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). Jika tidak, Anda dapat membuka cabang baru tempat bekerja, dengan mengklik "Cabang", seperti yang ditunjukkan di bawah ini.
 
 
 
@@ -115,11 +115,11 @@ Dalam kasus kedua ini, **selalu lakukan penelitian untuk melihat apakah ada oran
 
 
 
-- Solusi lain yang baik adalah dengan mempertahankan kata/frasa asli EN, kemudian **buat hyperlink** yang mengarahkan ke [glosarium] (https://planb.network/en/resources/glossary) di planb.network. Untuk melakukan ini, Anda perlu memasukkan kata/frasa di dalam tanda kurung siku, dan tautan di dalam tanda kurung bulat, seperti yang dapat Anda lihat pada contoh di bawah ini:
+- Solusi lain yang baik adalah dengan mempertahankan kata/frasa asli EN, kemudian **buat hyperlink** yang mengarahkan ke [glosarium] (https://planb.academy/en/resources/glossary) di planb.network. Untuk melakukan ini, Anda perlu memasukkan kata/frasa di dalam tanda kurung siku, dan tautan di dalam tanda kurung bulat, seperti yang dapat Anda lihat pada contoh di bawah ini:
 
 
 ```
-[UTXO](https://planb.network/resources/glossary/utxo)
+[UTXO](https://planb.academy/resources/glossary/utxo)
 ```
 
 
@@ -131,14 +131,14 @@ Pada hasil akhir (gambar di bawah), Anda tidak akan memvisualisasikan seluruh ta
 
 
 
-Harap diperhatikan bahwa tautan glosarium yang akan Anda ambil dari situs web berisi kode bahasa setelah kata "jaringan" (contoh: ``https://planb.network/en/resources/glossary/utxo``-> di sini Anda dapat membaca kode bahasa "en"). Dalam kasus ini, **hapus kode bahasa dari tautan**, seperti yang Anda lihat pada kotak di atas. Dengan cara ini, sistem akan secara otomatis membawa pembaca ke bahasa yang ditentukan.
+Harap diperhatikan bahwa tautan glosarium yang akan Anda ambil dari situs web berisi kode bahasa setelah kata "jaringan" (contoh: ``https://planb.academy/en/resources/glossary/utxo``-> di sini Anda dapat membaca kode bahasa "en"). Dalam kasus ini, **hapus kode bahasa dari tautan**, seperti yang Anda lihat pada kotak di atas. Dengan cara ini, sistem akan secara otomatis membawa pembaca ke bahasa yang ditentukan.
 
 
 Konten di repositori penuh dengan hyperlink seperti di atas. Setelah Anda mengetahui apa maksudnya, **pastikan untuk tidak menghapus tautan apa pun** yang disisipkan oleh penulis aslinya.
 
 
 
-- Hal lain yang terkait dengan rendering kata adalah sebagai berikut. Jika Anda menemukan "Plan ₿ Network" dalam teks, **biarkan dalam bentuk aslinya**. Jangan menerjemahkan kata "rencana" atau kata "jaringan". Selain itu, JANGAN gunakan kata sandang "The" ketika memperkenalkan Plan ₿ Network: ** anggap saja sebagai sebuah merek**.
+- Hal lain yang terkait dengan rendering kata adalah sebagai berikut. Jika Anda menemukan "Plan ₿ Academy" dalam teks, **biarkan dalam bentuk aslinya**. Jangan menerjemahkan kata "rencana" atau kata "jaringan". Selain itu, JANGAN gunakan kata sandang "The" ketika memperkenalkan Plan ₿ Academy: ** anggap saja sebagai sebuah merek**.
 
 
 
@@ -323,7 +323,7 @@ Selalu periksa ulang semua hyperlink dalam teks, untuk memastikan bahwa semuanya
 
 
 
-- Mengikuti topik ini, jika penulis menyisipkan tautan yang merujuk ke kursus atau tutorial Plan ₿ Network (**bukan** di dalam tanda kurung), situs web secara otomatis akan membuat "kartu" yang menampilkan gambar mini yang terkait. Oleh karena itu, selalu pastikan bahwa Anda **menambahkan baris baru di antara teks dan tautan itu sendiri**, jika tidak, Anda mungkin akan melihat kesalahan berikut di situs web.
+- Mengikuti topik ini, jika penulis menyisipkan tautan yang merujuk ke kursus atau tutorial Plan ₿ Academy (**bukan** di dalam tanda kurung), situs web secara otomatis akan membuat "kartu" yang menampilkan gambar mini yang terkait. Oleh karena itu, selalu pastikan bahwa Anda **menambahkan baris baru di antara teks dan tautan itu sendiri**, jika tidak, Anda mungkin akan melihat kesalahan berikut di situs web.
 
 
 

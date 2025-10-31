@@ -33,6 +33,8 @@ Théo；貢獻
 
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
+:::video id=de7236a0-2985-41ef-86f7-3fa0b7f94531:::
+
 ### 目標：更新您的安全技能 ！
 
 歡迎大家參加這個專門針對數位安全的教育課程。本訓練旨在讓每個人都能接受，因此不需要事先瞭解電腦科學知識。我們的主要目標是提供您必要的知識和技能，讓您更安全、更隱私地遨遊數位世界。
@@ -93,6 +95,8 @@ Théo；貢獻
 
 <chapterId>3a935da9-fa6e-57eb-bf85-7b3ec35e6ee2</chapterId>
 
+:::video id=f1cead27-ed41-4ca2-afd2-b08a994d0119:::
+
 瀏覽網際網路時，必須避免某些常見錯誤，以維護您的線上安全。以下是一些避免這些錯誤的提示：
 
 ### 謹慎使用軟體下載：
@@ -133,11 +137,13 @@ TOR 是合法的，記者、自由活動人士和其他希望逃避專制國家�
 
 ![image](assets/zh-Hant/007.webp)
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ## VPN 和網際網路連線
 
 <chapterId>5aac83f4-a685-54b0-9759-d71bea7eeed2</chapterId>
+
+:::video id=737d30ac-43d8-4a69-afda-89b9d7e8c4e1:::
 
 ### VPN
 
@@ -157,8 +163,8 @@ VPN 有兩種主要類型：企業 VPN 和消費者 VPN，例如 NordVPN。企�
 
 最後，VPN 也可以用來阻擋線上廣告，提供更愉快、更安全的瀏覽體驗。然而，重要的是要自行研究，找到最適合您特定需求的 VPN。建議使用 VPN 以加強安全性，即使在家瀏覽網際網路時也是如此。這有助於確保線上交換資料的安全性更高。最後，請務必檢查網址和 Address 欄中的小掛鎖，以確認您正在您打算造訪的網站。
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 ### HTTPS 與公共 Wi-Fi 網路的
 
@@ -179,6 +185,8 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 ## 電腦使用
 
 <chapterId>16745632-b56b-5423-9873-ddf70fdf1efd</chapterId>
+
+:::video id=35892007-5ea5-4956-bf80-3363d69c96d5:::
 
 在現今的數位世界中，我們電腦的安全性是大家最關心的議題。今天，我們將 Address 三個重點：
 
@@ -232,6 +240,8 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 
 <chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>
 
+:::video id=c6a2c152-f1ae-492c-8993-304d64cdda45:::
+
 ### 駭客如何攻擊？
 
 為了好好保護自己，了解駭客如何嘗試滲透您的電腦是非常重要的。事實上，病毒通常不會神奇地出現，而是我們的行為所造成的後果，甚至是無意中造成的！
@@ -270,8 +280,8 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 
 如果您在電腦上偵測到病毒，請中斷電腦與網際網路的連線，執行完整的防毒掃描，並刪除受感染的檔案。然後更新您的軟體和作業系統，並變更密碼以防止進一步入侵。
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # 實施解決方案。
 
@@ -280,6 +290,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 ## 管理電子郵件帳戶
 
 <chapterId>dfceea33-8712-5557-ace1-6ba5598d33d8</chapterId>
+
+:::video id=75cc914d-9c11-4d3f-86a7-6faf2077f00f:::
 
 ### 設定新的電子郵件帳戶！
 
@@ -309,11 +321,13 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 Bonus Bitcoin：為我們的 Bitcoin 活動（建立 Exchange 帳戶）建立特定的電子郵件 Address 可能是明智之舉，這樣才能真正區分我們生活中的活動領域。
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## 密碼管理員
 
 <chapterId>0b3c69b2-522c-56c8-9fb8-1562bd55930f</chapterId>
+
+:::video id=106b6f17-a5c1-4155-abdf-043ce469d45b:::
 
 ### 什麼是密碼管理器？
 
@@ -356,13 +370,15 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 
 隨機產生的密碼提供較高層級的安全性，儘管它們可能較難記。密碼管理器可以 generate 更安全的隨機密碼。使用密碼管理器，您不需要記住所有密碼。重要的是要逐步用管理器生成的密碼取代舊密碼，因為舊密碼更強更長。請確保您密碼管理器的主密碼也是強大且安全的。
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## 雙因素驗證
 
 <chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>
+
+:::video id=10fede6f-c839-4455-b324-e887c502667e:::
 
 ### 為何實施 2FA
 
@@ -409,9 +425,9 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 金科玉律：網路安全是一個不斷移動的目標，它會適應您的學習旅程！
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 # 實用部分
 
@@ -423,7 +439,7 @@ https://planb.network/tutorials/computer-security/authentication/security-key-61
 
 保護您的電子郵件帳號是保障您的線上活動和個人資料安全的重要一步。本教程將逐步引導您建立和設定 ProtonMail 帳戶，ProtonMail 是一家以高度安全著稱的供應商，為您的通訊提供端對端加密。無論您是新手還是經驗豐富的用戶，這裡介紹的最佳做法將幫助您加強電子郵件的安全性，同時利用 ProtonMail 的先進功能：
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## 在 2FA 中確保安全
 
@@ -431,11 +447,11 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 
 雙因素驗證 (2FA) 已經成為保護線上帳戶安全的必要條件。在本教程中，您將學習如何設定和使用 2FA 應用程式 Authy，它會產生動態 6 位數碼以保護您的帳戶。Authy 非常易於使用，並可在多部裝置間同步。瞭解如何安裝和設定 Authy，從而立即加強您線上帳戶的安全性：
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 另一個選擇是使用實體安全金鑰。本附加教學會告訴您如何設定和使用安全金鑰作為第二個驗證因素：
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ## 建立密碼管理器
 
@@ -445,11 +461,11 @@ https://planb.network/tutorials/computer-security/authentication/security-key-61
 
 在本教程中，您將學習如何設定開放原始碼密碼管理器 Bitwarden，以及如何在所有裝置間同步憑證，以簡化日常使用：
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 對於較進階的使用者，我也提供另一個免費的開放原始碼軟體教學，可在本機使用來管理您的密碼：
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## 保護您的帳戶
 
@@ -457,9 +473,9 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 在這兩套教學中，我也會引導您保護線上帳號的安全，並解釋如何逐漸採用更安全的方式來管理您的日常密碼。
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## 變更瀏覽器和 VPN
 
@@ -469,13 +485,13 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 我建議發現兩個可靠的 VPN 解決方案，即 IVPN 和 Mullvad，這兩個方案在 Bitcoin 中是可以付費的。這些教學會引導您如何在所有裝置上安裝、設定和使用 Mullvad 或 IVPN：
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 此外，還可學習如何使用 Tor 瀏覽器，這是專為保護您的線上隱私而設計的瀏覽器：
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ## 備份設定
 
@@ -483,11 +499,11 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 保護您的個人檔案也是非常重要的一點。本教程將教您如何使用 Proton Drive 實施有效的備份策略。了解如何使用此安全雲端解決方案來應用 3-2-1 方法：在兩種不同媒體上備份三份資料，並在異地備份一份。這可確保您敏感檔案的可存取性與安全性：
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 為了確保儲存在 USB 磁碟機或外接式 Hard 磁碟機等抽取式媒體上的檔案安全，我也會教您如何使用 VeraCrypt 輕鬆加密和解密這些媒體：
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # 更進一步
 
@@ -496,6 +512,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 ## 如何在網路安全產業工作
 
 <chapterId>aad1ae27-4280-5b07-b9ab-118ae013951a</chapterId>
+
+:::video id=4c818b5c-ea5d-496a-8e82-bc5d96d91430:::
 
 ### 網路安全：機會無限的成長領域
 
@@ -535,6 +553,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 ## 專訪 Renaud
 
 <chapterId>7d83fd98-ce22-514e-b9e8-729fbf71ee6e</chapterId>
+
+:::video id=ec7014aa-5ebe-444c-80d1-7b14f1fe7bb8:::
 
 ### 高效的密碼管理與認證強化：學術方法
 

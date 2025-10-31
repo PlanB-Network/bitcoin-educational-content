@@ -54,7 +54,7 @@ Aby pobrać Electrum, zalecam wykonanie pierwszych kroków w tym samouczku:
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 Po pobraniu zawsze zweryfikuj wersję przed jej zainstalowaniem, a następnie przejdź do konfiguracji "One Server", jak znajdziesz w sekcji pomocy, w sekcji `Start with a Dummy Wallet`.
 

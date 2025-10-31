@@ -20,6 +20,38 @@ Miłego odkrywania!
 
 +++
 
+# Wprowadzenie
+
+<partId>bd35d5be-323e-42e0-a0ba-10729f71c3bd</partId>
+
+## Przegląd kursu
+
+<chapterId>ee9d6cdf-4c97-455b-8220-cf6dfc95cb8e</chapterId>
+
+Witamy na kursie PRO 202 _**Programming Bitcoin**_, intensywnej podróży, która prowadzi cię od arytmetyki ciał skończonych aż po tworzenie i nadawanie prawdziwych transakcji w sieci testowej Bitcoina.
+
+W tym kursie będziesz stopniowo budować bibliotekę Bitcoina w Pythonie, jednocześnie zdobywając podstawy kryptograficzne, protokołowe i programistyczne niezbędne do precyzyjnego zrozumienia bezpieczeństwa i wewnętrznego działania Bitcoina. Podejście PRO 202 jest całkowicie praktyczne: każda koncepcja jest natychmiast implementowana w notatnikach Jupyter, zapewniając wzajemne wzmocnienie teorii i kodu.
+
+### Podstawowe pojęcia matematyczne dla Bitcoina
+
+Ta pierwsza sekcja ustala niezbędne podstawy matematyczne. Zaimplementujesz arytmetykę ciał skończonych oraz operacje na krzywych eliptycznych (prawo grupy, dodawanie, podwajanie, mnożenie skalarne...) — warunki wstępne do ECDSA. Cel jest dwojaki: zrozumieć strukturę algebraiczną umożliwiającą podpisy kryptograficzne oraz zbudować niezawodne narzędzia w Pythonie do ich manipulacji.
+
+Następnie sformalizujesz komponenty ECDSA: generowanie kluczy, formatowanie punktów, haszowanie, tworzenie i weryfikację podpisów. Ta sekcja bezpośrednio łączy teorię z praktyką, podkreślając szczegóły implementacji oraz solidność podstawowego modelu bezpieczeństwa.
+
+### Wewnętrzne działanie transakcji Bitcoina
+
+W drugiej części przeanalizujesz strukturę transakcji Bitcoina: UTXO, wejścia/wyjścia, sekwencje, skrypty, kodowania i inne. Napiszesz kod do konstruowania, podpisywania i weryfikowania transakcji, uzyskując precyzyjne zrozumienie tego, co jest zobowiązane przez hash i dlaczego.
+
+Następnie zaimplementujesz minimalny wykonawca _Script_, przeanalizujesz kluczowe kody operacji i zweryfikujesz ścieżki wydatków. Celem jest umożliwienie ci audytu zachowania transakcji, diagnozowania błędów walidacji oraz rozumowania o bezpieczeństwie polityk wydatkowych.
+
+### Wewnętrzne działanie sieci Bitcoina
+
+W trzeciej części umieścisz transakcję w szerszym systemie: struktura bloku, nagłówki, trudność i mechanizm Proof-of-Work. Będziesz obsługiwać komunikaty protokołu, nagłówki bloków i drzewa Merkle’a.
+
+Na koniec przeanalizujesz komunikację między węzłami peer-to-peer, optymalizację wiadomości oraz wprowadzenie SegWit.
+
+Jak w każdym kursie na Plan ₿ Academy, ostatnia sekcja zawiera ocenę zaprojektowaną tak, aby utrwalić twoje zrozumienie. Gotowy odkryć wewnętrzne mechanizmy Bitcoina i napisać kod, który go napędza? Zaczynajmy!
+
 # Podstawowe pojęcia matematyczne dla Bitcoin
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

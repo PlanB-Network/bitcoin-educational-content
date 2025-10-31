@@ -1,35 +1,18 @@
 ---
 name: Laissez-faire-økonomiens opprinnelse
-goal: utforske grunnlaget for 1700-tallets franske liberale økonomiske tenkning, med fokus på laissez-faire-doktrinen, dens ledende tenkere og varige innflytelse.
-objectives: 
-
-
-  - Få en solid forståelse av nøkkelbegrepene bak fransk liberal økonomisk tenkning og hvordan de utviklet seg i løpet av 1700-tallet
-  - Forstå argumentene franske tenkere utviklet mot statlig intervensjonisme
-  - Vurdere virkningen av denne franske skoleretningen og dens rolle i utviklingen av den globale politiske økonomien
-  - Utvikle en kritisk forståelse av den historiske kontinuiteten mellom ulike tenkere og deres teorier
-
-
+goal: Utforsk grunnlaget for det liberale økonomiske tankegodset fra 1700-tallet, med fokus på laissez-faire-doktrinen, dens ledende tenkere og varige innflytelse.
+objectives:
+- Få en solid forståelse av nøkkelbegrepene bak liberal økonomisk tenkning og hvordan de utviklet seg i løpet av 1700-tallet
+- Forstå argumentene tenkere utviklet mot statlig intervensjonisme
+- Evaluere virkningen av laissez-faire-tenkning i utformingen av utviklingen av global politisk økonomi
+- Undersøke spenningen mellom teori og praksis i implementeringen av liberal økonomi
 ---
+# En reise inn i frihetens økonomiske historie
 
-# En reise i frihetens økonomiske historie
+Dette kurset utforsker fødselen av økonomisk vitenskap i Frankrike på 1700-tallet gjennom linsen av laissez-faire. Du vil oppdage hvordan tenkere utfordret merkantilismen ved å argumentere for at staten skulle beskytte private rettigheter, men aldri manipulere markeder gjennom reguleringer.
 
-
-
-På begynnelsen av 1700-tallet begynte en ny måte å tenke økonomi på å ta form i Frankrike. Den vokste frem som et svar på Ancien Régimes hardhendte kontroll og var sentrert rundt én kraftfull idé: *laissez-faire* - "la det skje".
-
-Uttrykket skal ha kommet fra en samtale mellom en kjøpmann og minister Colbert. Da ministeren spurte: "Hva kan myndighetene gjøre for å hjelpe din virksomhet?", svarte kjøpmannen: "Bare la oss gjøre det".
-
-
-Siden den gang har mange tenkere begynt å støtte denne ideen, og mener at statens rolle bør være begrenset. Den skulle beskytte individuelle rettigheter, men unngå å blande seg inn i økonomiske anliggender, av frykt for å forstyrre og ødelegge alt. For det første må den kreve inn skatter på en rettferdig og lik måte (Vauban, Boisguilbert). Deretter må den avstå fra å manipulere valutaen ved å devaluere dens verdi for å finansiere seg selv til en lav kostnad (Cantillon etter John Law-katastrofen; Dupont de Nemours før Assignats-katastrofen). Den må garantere friheten til å arbeide, avskaffe laugene og tyngende reguleringer av industri og handel, som hindrer økonomisk fremgang (ideer som støttes av d'Argenson, Gournay, fysiokratene og Turgot).
-
-
-
-Til slutt må staten tillate fri flyt av varer, noe som fikk noen til å tilføye uttrykket "laissez-passer" til laissez-faire, slik at forbrukerne kunne kjøpe til den beste prisen og fremme fred og brorskap mellom nasjonene (Quesnay og fysiokratene, Abbé de Saint-Pierre). Ved å forsvare dette laissez-faire-idealet la de franske økonomene på 1700-tallet grunnlaget for den økonomiske vitenskapen. Etter å ha dominert sin egen tid, har de fortsatt makt til å veilede vår.
-
-
+Du vil lære hvordan visjonære reformatorer utvidet denne visjonen til å kreve frihandel og ubegrenset sirkulasjon av varer, og la det intellektuelle grunnlaget for moderne kapitalisme. Ved å studere disse banebrytende økonomene vil du forstå de tidløse prinsippene som formet den globale politiske økonomien og fortsetter å påvirke politiske debatter i dag. Bli med nå for å mestre ideene som bygde den moderne økonomien.
 +++
-
 # Innledning
 
 <partId>06d67531-19f1-4f8d-bf8f-77bbcc743672</partId>
@@ -88,7 +71,7 @@ Er du klar til å gjenoppdage den økonomiske liberalismens franske røtter? Da 
 Ved inngangen til 1700-tallet var Frankrike i en bekymringsfull tilstand. Befolkningen på landsbygda produserte knapt nok til å overleve og ble hardt beskattet.
 
 
-![image](assets/fr/001.webp)
+![image](assets/nb-NO/001.webp)
 
 
 
@@ -98,16 +81,16 @@ Håndverkere i byene, innelåst i rigide laug, hadde vanskelig for å innovere e
 Men hvordan kunne vi finne en løsning på datidens sykdom? Det fantes ennå ingen økonomisk vitenskap og derfor heller ingen spesiell medisin å ta i bruk. Prinsippene for den økonomiske politikken ble fortsatt anvendt på måfå, og man vekslet mellom restriktive faser og mer liberale perioder. Vi har riktignok modeller, historiske referanser å følge. Blant dem var *Sully*, ministeren til Henri IV, som gikk i bresjen for landbruket og fremmet større handelsfrihet i Frankrike.
 
 
-![image](assets/fr/002.webp)
+![image](assets/nb-NO/002.webp)
 
 
-![image](assets/fr/003.webp)
+
 
 
 Men så kom Colbert, Ludvig 14.s minister, som vaklet mellom regulering og frihet, men som til slutt håndhevet reguleringen. Helt på slutten av 1600-tallet overtok Colbert for Sully: Ministrene påberopte seg nå arven etter ham og forsøkte å anvende det de hevdet var hans maksimer.
 
 
-![image](assets/fr/004.webp)
+![image](assets/nb-NO/003.webp)
 
 
 For statsmenn på slutten av 1600-tallet var Colberts maksimer fire.
@@ -118,7 +101,7 @@ For statsmenn på slutten av 1600-tallet var Colberts maksimer fire.
 Det fantes hundrevis av slike regler, samlet i egne bind for hver type industri. Men i Colberts tilhengeres øyne var dette likevel ikke tilstrekkelig: De mente at industrien også måtte overvåkes av korporasjoner.
 
 
-![image](assets/fr/005.webp)
+![image](assets/nb-NO/004.webp)
 
 
 Den som ønsket å utøve et fag, måtte først tilbringe flere år som lærling, deretter som svenn, før han eller hun kunne forsøke å oppnå status som mester ved å produsere et "mesterverk" og betale en betydelig sum til lauget. Konkurransen innen hvert fag var derfor strengt begrenset.
@@ -128,7 +111,7 @@ Den som ønsket å utøve et fag, måtte først tilbringe flere år som lærling
 (2) **Handel er et nullsumspill**. Når det gjelder handel, delte Colberts disipler de samme fordommene som antikkens barbariske folk. Ifølge Ludvig 14.s minister er handel "en evigvarende krig". Hvorfor er det slik? Årsaken er enkel: For Colbert og hans etterfølgere betydde enhver velstandsøkning for ett land en utarming av et annet. I deres øyne kunne ikke engelskmennene eller nederlenderne få lov til å bli rike, fordi det ville bety at de stjal Frankrikes velstand.
 
 
-![image](assets/fr/006.webp)
+![image](assets/nb-NO/005.webp)
 
 
 Derfor måtte disse landenes produkter forbys eller beskattes kraftig, uten skrupler, for handel er en krig der vi bare kan ønske oss fiendens undergang.
@@ -140,13 +123,13 @@ Derfor måtte disse landenes produkter forbys eller beskattes kraftig, uten skru
 (3) **Når staten mangler penger, øk skattene**. Colbert og hans disipler trodde langt fra at skattebetalernes formue var en begrenset ressurs. De mente at offentlige utgifter aldri kunne være et problem, så lenge det ble samlet inn nok. Og hvis folket gjorde opprør, var det bare fordi ministrene hadde gjort det på en dårlig måte, for, som Colbert kynisk bemerket, "kunsten å beskatte består i å plukke gjessene uten å få dem til å skrike for mye".
 
 
-![image](assets/fr/007.webp)
+![image](assets/nb-NO/006.webp)
 
 
 (4) **Rikdom er først og fremst gull og sølv**. Før den økonomiske vitenskapen ble født, var det mange forfattere som fulgte ett dominerende dogme om rikdommens natur, det som ble kjent som *merkantilismen*. Colbert og hans etterfølgere fortsatte i dette sporet. Kort fortalt mente merkantilistene at det sanne tegnet på en nasjons velstand var opphopningen av edle metaller, sølv og gull.
 
 
-![image](assets/fr/008.webp)
+![image](assets/nb-NO/007.webp)
 
 
 
@@ -171,28 +154,28 @@ I dag, når skattetrykket i landet vårt fortsetter å vokse og truer med å kve
 Den første av disse skattereformatorene, både kronologisk og fortjenestemessig, er den store marskalken Sébastien Le Prestre Vauban, den berømte byggmesteren av festninger og citadeller.
 
 
-![image](assets/fr/009.webp)
+![image](assets/nb-NO/008.webp)
 
 
-![image](assets/fr/010.webp)
+
 
 
 Selv om vi dessverre har glemt det, var Vauban mer enn en militær mann; han var også økonom. Han interesserte seg for bøndenes skjebne, og han foreslo dristige skattereformer i 1695 (Projet de capitation - "Prosjektet for en capitation") og igjen i 1707 (Projet d'une Dime Royale - "Den kongelige tiende"): å erstatte de fleste eksisterende skattene med en skatt proporsjonal med inntekten, en flat skatt før sin tid.
 
 
-![image](assets/fr/011.webp)
+![image](assets/nb-NO/009.webp)
 
 
 Vauban kom frem til disse ideene gjennom nysgjerrighet. Han var en ivrig observatør, og han forsøkte å studere samfunnslivet og den økonomiske virkeligheten strengt, nesten vitenskapelig. Han insisterte særlig på behovet for å telle, gjennom folketellinger.
 
 
-![image](assets/fr/012.webp)
+![image](assets/nb-NO/010.webp)
 
 
 Hans andre store fortjeneste var hans gripende og ærlige beskrivelse av massenes elendighet. Han skrev: "La oss ikke la oss bedras; rikets hjerte er ødelagt. Alt lider, alt holder ut, alt stønner. Det er bare å se og undersøke hjertet av provinsene, så vil dere finne noe som er enda verre enn det jeg sier". Vaubans dystre observasjoner var langt fra noen overdrivelse, men en nøyaktig gjenspeiling av livet på begynnelsen av 1700-tallet. Alexis de Tocqueville kjente godt til disse tankene, og han skulle senere beskrive Vaubans *Royal Tithe* som "skremmende", fordi den var sann.
 
 
-![image](assets/fr/013.webp)
+![image](assets/nb-NO/011.webp)
 
 
 Vaubans andre store fortjeneste som økonom var at han foreslo en omfattende skattereform som skulle utrydde, eller i det minste redusere intensiteten i det onde han observerte og beskrev. Det gjorde han rett i. Den franske økonomien under Ancien Régime var lammet av et skattesystem som var ulikt, ustabilt og uleselig.
@@ -203,7 +186,7 @@ I sine ulike politiske og økonomiske skrifter var Vaubans overordnede ambisjon 
 
 
 
-![image](assets/fr/014.webp)
+
 
 
 
@@ -235,7 +218,7 @@ Kort tid før sin død ble Vaubans idé vedtatt av Ludvig XIVs ministre. Vauban 
 Få franske økonomer fra fortiden nyter i dag en anerkjennelse i hjemlandet som står i stil med deres bidrag, og Boisguilbert er intet unntak.
 
 
-![image](assets/fr/015.webp)
+![image](assets/nb-NO/012.webp)
 
 
 Boisguilbert ble ikke verdsatt av sin samtids lesere, og på grunn av sin eksentriske natur og overveldende lidenskap ble han distansert fra maktens sirkler og satte få spor etter seg på 1700-tallet. Men i begynnelsen av forrige århundre har det skjedd en langsom gjenoppdagelse av hans verk.
@@ -248,10 +231,10 @@ Denne gjenoppdagelsen viser imidlertid at vi er på vei inn i en slags blindvei.
 (Pierre Le Pesant de) Boisguilbert ble født i Rouen i 1646. Han fikk sin utdannelse ved Port-Royal i Paris, og begynte en mislykket litterær karriere før han tok på seg ulike roller, blant annet som generalløytnant i Rouen. I denne perioden skrev han flere bøker for å argumentere for sine ideer, blant annet "Détail de la France" i 1695, som han utga på nytt året etter under en mye mer eksplisitt tittel: [*Frankrike ruinert under Ludvig XIV, av hvem og hvordan, med midlerne til å gjenopprette det] (https://archive.org/details/bub_gb_0jUaWNbTJa8C/page/n23/mode/2up)*.
 
 
-![image](assets/fr/016.webp)
+![image](assets/nb-NO/013.webp)
 
 
-![image](assets/fr/017.webp)
+
 
 
 Og det er dette som er grunnlaget for Boisguilberts bøker: Den franske fattigdommen og dens årsaker.
@@ -274,7 +257,7 @@ For det første hadde ikke folket lenger råd til å forbruke grunnleggende nød
 Den andre grunnen til Frankrikes elendighet var at det var for mange hindringer for den frie handelen med varer, særlig landbruksvarer. Det var toll ved grensene og til og med innad i landet, mellom ulike regioner, som lammet all handel. Disse restriksjonene hindret etableringen av en likevektspris og begrenset markedsmulighetene. Resultatet var at bøndene ikke kunne leve av produksjonen sin, fordi de ikke kunne selge lønnsomt og led under dårlige jordbrukspriser, et problem som fortsatt er høyst relevant i dag og som er kjernen i Boisguilberts teori. Når det gjaldt handelsrestriksjoner, tok Boisguilbert til orde for å rydde veiene, med andre ord å etablere frihandel.
 
 
-![image](assets/fr/018.webp)
+![image](assets/nb-NO/014.webp)
 
 
 Og frihet er faktisk hans endelige konklusjon. "Det er ikke et spørsmål om å handle", sier han, "men ganske enkelt om å slutte å handle slik vi så voldsomt gjør mot naturen, som alltid tenderer mot frihet og fullkommenhet". Alt vil bli bra, gjentar han utrettelig, "så lenge vi lar naturen gå sin gang, det vil si gir den sin frihet, og at ingen blander seg inn i denne handelen, bortsett fra for å gi beskyttelse til alle og for å forhindre vold".
@@ -295,19 +278,19 @@ Boisguilbert kritiserte til og med de "*gode sjeler*", som han kalte dem, de som
 Richard Cantillon er forfatter av "Essay on the Nature of Trade in General" (skrevet rundt 1730, publisert i 1755), og regnes som en av pionerene innen moderne økonomisk vitenskap. I sin History of Economic Thought omtaler økonomen Murray Rothbard til og med Cantillon som grunnleggeren av moderne økonomi.
 
 
-![image](assets/fr/019.webp)
+![image](assets/nb-NO/015.webp)
 
 
 Richard Cantillon ble født i Irland, men slo seg ned i Paris som ung og fikk fransk statsborgerskap. Han arbeidet som bankmann og tjente en formue under John Law-tiden.
 
 
-![image](assets/fr/020.webp)
+![image](assets/nb-NO/016.webp)
 
 
 Det var også ved denne anledningen at han begynte å studere økonomisk teori. Rundt 1730 skrev Cantillon sitt Essay om handelens natur i sin alminnelighet.
 
 
-![image](assets/fr/021.webp)
+
 
 
 Denne boken kan betraktes som et av de første forsøkene på å skape en generell økonomisk teori. Cantillon er nøye med å identifisere det han kaller "økonomiens generelle lover", de som ligger i tingenes natur, og ikke i de spesielle forholdene i det ene eller andre landet. Denne tilnærmingen var revolusjonerende.
@@ -331,7 +314,7 @@ Tredje punkt, **valuta**.
 Som en reaksjon på John Law-erfaringen forklarer Cantillon hva som skjer eller må skje når valutaen ikke har noen reell verdi.
 
 
-![image](assets/fr/022.webp)
+![image](assets/nb-NO/017.webp)
 
 
 Han ser to hovedkonsekvenser av å erstatte en valuta uten reell verdi, som papirpenger, med en metallisk valuta. Den første konsekvensen er det han kaller "folkelig avvisning", det vil si en økende mistillit til verdiløse penger. Den andre konsekvensen er inflasjon: Pengesvekkelsen gjør varer dyrere.
@@ -364,22 +347,22 @@ Med denne teorien om inflasjonens virkninger gir Cantillon oss svar på en rekke
 Av alle forfatterne vi har valgt å inkludere i panteonet av franske laissez-faire-tenkere fra 1700-tallet, er Abbot av Saint-Pierre utvilsomt den mest oversette.
 
 
-![image](assets/fr/023.webp)
+![image](assets/nb-NO/018.webp)
 
 
 For å være rettferdig, er det delvis hans egen feil. Han skrev mye, men stilen hans er Hard å lese og er full av gjentakelser. Selv Jean-Jacques Rousseau forsøkte å oppsummere verket hans: Han begynte å gjøre det, men ga snart opp oppgaven, da han innså at det var utenfor hans styrke. På midten av 1800-tallet hedret Gustave de Molinari ham ved å utgi et omfattende verk om ham, der han hyllet den pasifisten og økonomen som abbeden av Saint-Pierre var. Men dette var ikke nok til å bringe ham ut av glemselen, som han fortsatt befinner seg i den dag i dag.
 
 
-![image](assets/fr/024.webp)
+![image](assets/nb-NO/019.webp)
 
 
-![image](assets/fr/025.webp)
+
 
 
 Abbeden av Saint-Pierre skrev om økonomi, men det er snarere som pasifist han vanligvis er av interesse. Han er forfatter av et prosjekt for evig fred, som er eldre enn Emmanuel Kants velkjente prosjekt.
 
 
-![image](assets/fr/026.webp)
+![image](assets/nb-NO/020.webp)
 
 
 I dette verket argumenterte han for at krig er ødeleggende, ikke bare for dem som taper den, men også for vinnerne, og til og med for dem som ikke deltar i dem, siden deres handel blir påvirket.
@@ -391,19 +374,19 @@ For å bekjempe krigens svøpe anbefalte han opprettelsen av et slags europeisk 
 Det finnes også en episode i livet til abbeden av Saint-Pierre som på en perfekt måte illustrerer den kritiske tankegangen bak den franske laissez-faire-bevegelsen. Han ble medlem av Académie Française i 1695, men ble ekskludert i 1718 fordi han våget å kritisere Ludvig XIVs styre. Dermed stilte han seg på linje med skikkelser som Vauban og Boisguilbert, som også hadde våget å ta til orde mot de misforholdene som skjulte seg under solkongens praktfulle regjeringstid.
 
 
-![image](assets/fr/027.webp)
+![image](assets/nb-NO/021.webp)
 
 
 Abbeden av Saint-Pierre hevdet at Ludvig XIVs regjeringstid, med sitt luksuriøse hoff og sin besettelse av militære erobringer, ikke var kjennetegnet på en dydig konge. Han nektet å akseptere at Ludvig 14. fortjente tittelen "**Louis le Grand**".
 
 
-![image](assets/fr/028.webp)
+
 
 
 "Å ruinere sine naboer og sitt folk på samme tid er ikke storhet", sa han. Denne holdningen fornærmet Académie Française, som lenge hadde vært opptatt av å forherlige kongen i alle mulige litterære former. Resultatet ble at de nesten enstemmig stemte for å utvise ham.
 
 
-![image](assets/fr/029.webp)
+![image](assets/nb-NO/022.webp)
 
 
 Når det gjaldt økonomisk tenkning, anvendte han konsekvent nytteprinsippet, omtrent som Jeremy Bentham senere skulle gjøre, og kom ofte med gode innsikter. Riktignok var han fortsatt påvirket av merkantilistiske ideer, som ingen hadde kvittet seg helt med på den tiden.
@@ -414,7 +397,7 @@ Abbeden av Saint-Pierre gjorde likevel noen presise observasjoner om økonomien.
 
 > "Når et salg skjer mellom kjøpmenn, tjener selgeren og kjøperen på det; for hvis det ikke var en reell eller opplevd fordel på begge sider, ville verken selgeren selge til den og den prisen, eller kjøperen kjøpe til den og den prisen."
 
-![image](assets/fr/030.webp)
+![image](assets/nb-NO/023.webp)
 
 
 Han understreket også, før Vincent de Gournay gjorde det, verdien av arbeid og viktigheten av å holde det tiltalende. "Alt arbeid er vanskelig", skrev han. "Og når en mann ser at arbeidet hans ikke lønner seg, eller ikke lønner seg nok, blir han inaktiv og gidder ikke å anstrenge seg unødig". Dette argumentet skulle senere bli gjentatt av markis d'Argenson, Vincent de Gournay og fysiokratene, som kritiserte tyngende reguleringer og laugssystemer. De hevdet at slike restriksjoner tok motet fra arbeiderne, skapte unødvendige vanskeligheter og til slutt fikk lediggang til å virke mer tiltrekkende enn produktiv innsats under slike forhold.
@@ -430,13 +413,13 @@ Han understreket også, før Vincent de Gournay gjorde det, verdien av arbeid og
 Marquis d'Argenson er en glemt grunnlegger av laissez-faire-doktrinen.
 
 
-![image](assets/fr/031.webp)
+![image](assets/nb-NO/024.webp)
 
 
 Den ble gjenoppdaget av August Oncken, forfatter av en bok om laissez-faire, laissez-passer-doktrinen, som konkluderte med at d'Argenson spilte en viktig rolle i fødselen av denne ideen.
 
 
-![image](assets/fr/032.webp)
+
 
 
 René-Louis Voyer, marki d'Argenson, ble født i 1694. Han begynte sin politiske karriere som parlamentarisk rådgiver, og ble deretter medlem av statsrådet.
@@ -445,7 +428,7 @@ René-Louis Voyer, marki d'Argenson, ble født i 1694. Han begynte sin politiske
 Tretti år før Adam Smith forsvarte d'Argenson allerede fordelene ved arbeidsdeling og spesialisering.
 
 
-![image](assets/fr/033.webp)
+![image](assets/nb-NO/025.webp)
 
 
 Han kritiserte sterkt reguleringer som, slik han så det, forsøkte å endre de naturlige preferansene i ulike regioner. For eksempel var han forbløffet over at myndighetene ønsket å produsere stoffer og fløyel i Tours, en fattig by på den tiden, av samme kvalitet som i det velstående Genova, som var kjent for sine luksusvarer. Han konkluderte:
@@ -460,7 +443,7 @@ Han anerkjente også et annet av Smiths sentrale prinsipper, nemlig ideen om at 
 Allerede før Adam Smith forsto han at egeninteressen fører til allmenninteresse gjennom oppbyggingen av en spontan naturlig orden.
 
 
-![image](assets/fr/034.webp)
+![image](assets/nb-NO/026.webp)
 
 
 Han sammenlignet samfunnet med en bikube der hvert insekt følger sine instinkter. "Av deres handlinger", sa han presist, "fulgte en stor akkumulering for det lille samfunnets behov; men dette ble ikke frembrakt av ordrer eller av generaler, som tvang hver enkelt til å følge lederens synspunkter". Dette er kanskje det uttrykket i fransk økonomisk tenkning som kommer nærmest Adam Smiths berømte begrep om "den usynlige hånd".
@@ -475,7 +458,7 @@ Han var faktisk forundret over at folk syntes det var så vanskelig å forstå, 
 Noen ganger var han fortvilet over hvor lite hans ideer ble forstått.
 
 
-![image](assets/fr/035.webp)
+![image](assets/nb-NO/027.webp)
 
 
 Det økonomisk-politiske idealet han forsvarte, var derfor i strid med tidens trender. Hans ideal definerte en i hovedsak negativ rolle for staten. "Alt handelen trenger, er at hindringer fjernes. Den ber bare om gode dommere, straff av monopoler, lik beskyttelse for alle borgere, stabile valutaer og veier og kanaler". Dette var definisjonen på en minimalstat, som skulle bli en av grunnsteinene i den franske tradisjonen innen politisk økonomi.
@@ -502,7 +485,7 @@ På spørsmålet om handel med subsistensmidler hadde d'Argenson ikke noe annet 
 Vincent de Gournay var en av de første representantene for laissez-faire i Frankrike, og en av de tidligste talsmennene for denne retningen i offentlig forvaltning og i intellektuelle kretser. Av den grunn fortjener han langt mer anerkjennelse i den økonomiske tenkningens historie enn han vanligvis får. Jeg har forsøkt å fremheve hans bidrag i en nylig utgitt bok.
 
 
-![image](assets/fr/036.webp)
+![image](assets/nb-NO/028.webp)
 
 
 Gournay ble født inn i en kjøpmannsfamilie, og han ble selv en vellykket kjøpmann og opparbeidet seg en betydelig formue før han fikk en stilling i den franske administrasjonen. I handelsdepartementet var han en ivrig forkjemper for fri arbeidskraft og frihandel.
@@ -517,19 +500,19 @@ Det vi har, inkluderer..:
 1. (https://archive.org/details/traitessurlecomm0000chil) om en oversettelse av en bok av den engelske økonomen Josiah Child;
 
 
-![image](assets/fr/037.webp)
+![image](assets/nb-NO/029.webp)
 
 
 2. "Observasjoner" som inngår i undersøkelsen av fordeler og ulemper ved forbudet mot trykte stoffer;
 
 
-![image](assets/fr/038.webp)
+
 
 
 3. "Observasjoner om Ostindisk Kompagni", vedlagt av abbed Morellet til hans Memoirer om Ostindisk Kompagnis nåværende tilstand (1769);
 
 
-![image](assets/fr/039.webp)
+
 
 
 4. Og fremfor alt ulike memoarer fra hans rolle som handelsintendant.
@@ -556,7 +539,7 @@ Gournay bemerket til slutt at rentenivået var lavere i England og Nederland, la
 På alle disse punktene spilte Gournay en nøkkelrolle i de intellektuelle debattene på midten av 1700-tallet. Hans forsvar for økonomisk frihet kom et tiår før fysiokratene og tjue år før Adam Smith. Men hans mest varige innflytelse var på Turgot. Gournay tok den unge Turgot under sine vinger og lærte ham opp med sine ideer.
 
 
-![image](assets/fr/040.webp)
+![image](assets/nb-NO/030.webp)
 
 
 Mange år senere skrev Turgot, en fremtidig minister under Ludvig XVI, en Éloge (lovtale) til ære for sin venn etter hans død. Og når Turgot aldri helt omfavnet fysiokratiet til François Quesnay, var det fordi han bevarte en uovervinnelig tilknytning til sin første læremester, Vincent de Gournay.
@@ -571,13 +554,13 @@ Mange år senere skrev Turgot, en fremtidig minister under Ludvig XVI, en Éloge
 Når det gjelder den økonomiske vitenskapens barndom, har historien en tendens til å fremheve en første skoleretning: fysiokratene, ledet av François Quesnay og hans disipler. Men nesten ti år før deres fremvekst fantes det en annen, mindre formell, men like viktig gruppe, sentrert rundt økonomen Vincent de Gournay.
 
 
-![image](assets/fr/041.webp)
+![image](assets/nb-NO/031.webp)
 
 
 Som vi så i forrige del, var Gournay fascinert av utenlandske nasjoner som England og Holland. Han beundret like mye deres økonomer - personer som Josiah Child, Johan de Witt og David Hume.
 
 
-![image](assets/fr/042.webp)
+![image](assets/nb-NO/032.webp)
 
 
 Denne beundringen førte til at han oversatte, og ga i oppdrag å oversette, deres økonomiske skrifter.
@@ -593,14 +576,14 @@ Takket være samarbeidet med flere medlemmer av Gournays krets kunne mange forfa
 - Herberts essay om [kornets generelle politi] (https://archive.org/details/essaisurlapolice00herb/page/n7/mode/2up) (6 utgaver på 4 år)
 
 
-![image](assets/fr/043.webp)
+![image](assets/nb-NO/033.webp)
 
 
 
 - Coyers [Noblesse commerçante] (https://archive.org/details/lanoblessecommer00coye/page/n3/mode/2up) (5 utgaver på 2 år)
 
 
-![image](assets/fr/044.webp)
+
 
 
 
@@ -613,7 +596,7 @@ Gruppen spilte også en sentral rolle i utgivelsen av
 - [Essay om handelens natur i sin alminnelighet] (https://archive.org/details/essayonnatureofc0000cant) av Richard Cantillon.
 
 
-![image](assets/fr/045.webp)
+![image](assets/nb-NO/034.webp)
 
 
 Denne siste boken, skrevet rundt 1730, ble liggende i manuskript etter forfatterens død. Gournay utga den i 1755 med hjelp av sine økonomvenner. Ifølge abbed Morellet, et medlem av kretsen, anbefalte Gournay den til alle økonomer han kjente.
@@ -622,13 +605,13 @@ Denne siste boken, skrevet rundt 1730, ble liggende i manuskript etter forfatter
 Gournay-kretsens intellektuelle produksjon hadde stor innflytelse på idéhistorien. Slik sett kan de regnes som grunnleggerne av den økonomiske vitenskapen i Frankrike. Christine Théré ved INED, som har studert den økonomiske publikasjonshistorien, har funnet ut at det mellom 1750 og 1759 ble utgitt ikke mindre enn **349** verk om økonomi, sammenlignet med bare **83** i hele det foregående tiåret (1740-1749). Denne revolusjonen på 1750-tallet skyldes i stor grad Gournay-kretsen.
 
 
-![image](assets/fr/046.webp)
+![image](assets/nb-NO/035.webp)
 
 
 For å spre smaken for økonomiske diskusjoner i den franske befolkningen arbeidet Gournay og vennene hans for å gjøre dem tilgjengelige gjennom romaner. Etter *Memoir sur les Métiers*, som kritiserte laugene, hjalp Gournay og Cliquot-Blervache Gabriel-François Coyer med å skrive en kort satirisk roman kalt Chinki: [En cochinchinesisk fortelling som kan overføres til andre nasjoner] (https://www.institutcoppet.org/wp-content/uploads/2013/06/Coyer-Chinki-Histoire-cochinchinoise.pdf).
 
 
-![image](assets/fr/047.webp)
+![image](assets/nb-NO/036.webp)
 
 
 Historien følger hovedpersonen Chinki, som blir tvunget til å forlate landet sitt på grunn av for høye skatter, og som forsøker å finne håndverksarbeid til barna sine i byen. Men alle yrker er stengt for dem på grunn av voldelige laugsreguleringer, så historien skildrer hans voksende skuffelse gjennom humoristiske toner.
@@ -649,19 +632,19 @@ Og på 1750-tallet ble økonomiske spørsmål faktisk på moten. Voltaire bemerk
 Frankrike har kjent to berømte menn ved navn Mirabeau, en far og en sønn, men det var sønnen som virkelig skrev historie. Han var revolusjonær tribun og en av de sentrale personene i hendelsene under den franske revolusjonen, og han forble berømt.
 
 
-![image](assets/fr/048.webp)
+![image](assets/nb-NO/037.webp)
 
 
 Gjennom sitt talent og sin plass i fransk historie overskygget han sin far, økonomen og grunnpilaren i François Quesnays skole, som hadde vært dens første medlem allerede i 1758.
 
 
-![image](assets/fr/049.webp)
+![image](assets/nb-NO/038.webp)
 
 
 Marquis de Mirabeau hadde faktisk oppnådd enorm berømmelse allerede før han tok i bruk fysiokratiet, takket være en bok med tittelen "Menneskehetens venn. Avhandling om befolkningen [FR: L'ami des hommes, ou, Traité de la population] (https://archive.org/details/lamideshommesou00unkngoog). Selv om førsteutgaven kom ut i 1756, ble den først kjent rundt 1757, et år før han møtte Quesnay.
 
 
-![image](assets/fr/050.webp)
+
 
 
 Mer enn 20 opplag ble utgitt mellom 1757 og 1760, noe som trolig gjør den til historiens mest suksessrike økonomibok. Noen lesere trodde til og med at boken var skrevet av Montesquieu på grunn av dens skarpe resonnementer. Dauphin, far til kong Ludvig XVI, hevdet til og med at han hadde lært den utenat. En tid var det boken alle leste i Versailles.
@@ -675,13 +658,13 @@ I dag er det en bok som ikke lenger leses, men mange refererer fortsatt til den.
 I begynnelsen av sin karriere som økonom hentet Mirabeau inspirasjon fra Richard Cantillon. Han hadde eid et manuskript av Cantillons Essay on the Nature of Commerce in General i 15 år, og tålmodig analysert og kommentert det.
 
 
-![image](assets/fr/051.webp)
+![image](assets/nb-NO/039.webp)
 
 
 L'Ami des Hommes var opprinnelig tenkt som en enkel kommentar til Cantillons Essay. Men siden Mirabeau hadde et noe eklektisk sinn, det vil si ærlig talt litt gal, kom han raskt bort fra sin opprinnelige plan. Boken diskuterer ganske enkelt alle de økonomiske spørsmålene han kjente til, og beveger seg tidvis bort fra Cantillon. Det er en vanskelig bok å lese, med en bisarr plan og digresjoner i hvert kapittel. Mirabeau innrømmet selv at det var kaos, og at stilen hans var apokalyptisk.
 
 
-![image](assets/fr/052.webp)
+
 
 
 Til tross for kaoset er det noen ideer som er verdt å merke seg:
@@ -694,7 +677,7 @@ Til tross for kaoset er det noen ideer som er verdt å merke seg:
 - Til slutt forsvarer han handelsfriheten og nasjonenes brorskap i fred.
 
 
-![image](assets/fr/053.webp)
+![image](assets/nb-NO/040.webp)
 
 
 Det er Hard å stemple Mirabeaus synspunkter som enten liberale eller antiliberale. Han beveget seg ofte frem og tilbake, noen ganger uten å være klar over det, mellom det ene og det andre synet. Likevel var det ofte liberale ideer som dominerte det han skrev. En av hans mest berømte replikker var
@@ -705,7 +688,7 @@ Det er Hard å stemple Mirabeaus synspunkter som enten liberale eller antilibera
 Med sin største suksess bak seg ble Mirabeau kurtisert. François Quesnay, som nettopp hadde fattet interesse for økonomi, inviterte ham til sitt entresol i Versailles.
 
 
-![image](assets/fr/054.webp)
+![image](assets/nb-NO/041.webp)
 
 
 De debatterte heftig, og til slutt skjedde det som normalt aldri skjer i debatter: Mirabeau innrømmet blankt at han hadde tatt feil. Han sa seg enig i Quesnays ideer og sa seg klar til å spre dem.
@@ -714,13 +697,13 @@ De debatterte heftig, og til slutt skjedde det som normalt aldri skjer i debatte
 Sammen utgjorde de kjernen i det som skulle bli den fysiokratiske skolen, styrket av de faste rekruttene de hentet inn. Kort tid etter Mirabeaus omvendelse fikk Quesnay ham til å forsvare sine ideer om beskatning. Dette førte til ["Theory of Taxation"] (https://archive.org/details/thoriedelimpot00mira), som Mirabeau ble sendt til Vincennes-fengselet for noen dager og deretter forvist til Bignon.
 
 
-![image](assets/fr/055.webp)
+![image](assets/nb-NO/042.webp)
 
 
 Mirabeau spilte også en avgjørende rolle i rekrutteringen av nye medlemmer til Quesnays skole. Han overbeviste til og med den unge Dupont de Nemours.
 
 
-![image](assets/fr/056.webp)
+
 
 
 Det var også i Mirabeaus hus at fysiokratene møttes hver tirsdag. Personligheter som Turgot og Adam Smith ser ut til å ha deltatt på disse møtene en eller flere ganger.
@@ -738,13 +721,13 @@ Mirabeau forble en utrettelig skribent gjennom hele livet. Han forfattet en rekk
 François Quesnay er en av de mest kjente franske økonomene.
 
 
-![image](assets/fr/057.webp)
+![image](assets/nb-NO/043.webp)
 
 
 Hans navn dukker opp i alle lærebøker i økonomi og økonomisk idéhistorie. Det står at han skapte "Tableau Économique" for å fremstille økonomien skjematisk, at han var lederen for den fysiokratiske skolen, at han tok feil da han mente at bare jord er produktivt, og til slutt at Adam Smith kom for å rette opp i dette. Det er omtrent slik lærebøkene pleier å oppsummere François Quesnay.
 
 
-![image](assets/fr/058.webp)
+
 
 
 Det er synd å redusere ham til dette, for Quesnay var også den første økonomen som forsøkte å basere forsvaret for økonomisk frihet på vitenskapelige prinsipper. Han var en av sin tids mest lyttede og innflytelsesrike økonomer. Dessuten grunnla han fysiokratiet, en mye rikere doktrine enn den forenklede ideen om at bare naturen produserer rikdom, en forestilling som ofte blir feilaktig fremstilt.
@@ -762,7 +745,7 @@ I 1730, 36 år gammel, ble han berømt for sin motstand mot den utbredte praksis
 I 1740 ble han sekretær for Det kirurgiske akademi. I 1748, 54 år gammel, ble han livlege for madame de Pompadour og flyttet til Versailles.
 
 
-![image](assets/fr/059.webp)
+![image](assets/nb-NO/044.webp)
 
 
 Han sto madame de Pompadour svært nær. Quesnay sa til og med, da favorittens vanære ble kunngjort, at han ikke ville ønske å forbli lege i Versailles uten henne:
@@ -776,13 +759,13 @@ Deretter utga han flere medisinske bøker: Avhandling om suppurasjon (1749), Avh
 I en alder av 60 år begynte han å skrive om økonomi, etter å ha blitt introdusert for de økonomiske debattene som var på moten på den tiden. I 1755 skrev han artiklene "Bønder" og "Korn" til *Encyclopédie*.
 
 
-![image](assets/fr/060.webp)
+![image](assets/nb-NO/045.webp)
 
 
 De ble publisert i 1757. Samme år møtte han den berømte Mirabeau og klarte å omvende ham til sine økonomiske ideer - fysiokratiets kjerne var født. Quesnay skapte deretter Tableau Économique, som ble trykket på de kongelige trykkeriene, etter sigende i nærvær av kongen selv på Château de Versailles. Fra da av inviterte han jevnlig økonomer og filosofer til sin leilighet i Versailles, hvor de diskuterte fritt. Quesnay bidro også til Mirabeaus Theory of Taxation, som ble utgitt i 1759.
 
 
-![image](assets/fr/061.webp)
+
 
 
 Sensuren slo snart til. Mirabeau ble fengslet, og Quesnay fikk en reprimande. Etter dette innså Quesnay at han ikke kunne publisere åpent, og at han ville trenge disipler for å spre ideene sine.
@@ -799,13 +782,13 @@ Disiplene hans var likevel dypt hengivne og bidro sterkt til Quesnays popularite
 Takket være medarbeiderne hans fikk ideene hans en plattform: først gjennom aviser som *Journal of Agriculture* og *Ephémérides du Citoyen*.
 
 
-![image](assets/fr/062.webp)
+![image](assets/nb-NO/046.webp)
 
 
 Deretter gjennom bøker, ikke bare disiplenes, men også en viktig antologi utgitt i 1768 av Dupont de Nemours, med tittelen *Physiocracy*.
 
 
-![image](assets/fr/063.webp)
+
 
 
 Denne boken samlet Quesnays viktigste bidrag. Den beskriver det økonomiske idealet til fysiokratenes leder: en modell for landbruksøkonomi der loven garanterer alle retten til å eie eiendom og friheten til å drive handel.
@@ -829,10 +812,10 @@ Fysiokratiet var på moten i Frankrike, og til og med i hele Europa, i et knapt 
 Opprinnelsen ligger i utviklingen av økonomiske ideer på 1750-tallet. Flere forfattere bidro til å bygge bro mellom Boisguilbert og det som senere skulle bli kjent som fysiokratiet. Som tidligere omtalt sto Vincent de Gournay og hans krets av økonomer bak mange publikasjoner som introduserte franske lesere for utenlandsk økonomisk tenkning og bidro til å tenne deres lidenskap for økonomi. Grunnlaget for fysiokratiet var allerede til stede i bøker som "Détail de la France" av Boisguilbert og ["Essay on the Nature of Trade in General"] (https://archive.org/details/essaisurlanature0000cant) av Cantillon.
 
 
-![image](assets/fr/064.webp)
+![image](assets/nb-NO/047.webp)
 
 
-![image](assets/fr/065.webp)
+
 
 
 Laissez-faire-begrepet hadde flere forkjempere etter Boisguilbert, særlig Vincent de Gournay og markis d'Argenson.
@@ -844,24 +827,24 @@ Det som gjensto, var å gjøre disse ideene om til en sammenhengende, fullstendi
 I 1756 kunne historien om fysiokratiet begynne. François Quesnay, som på den tiden var kirurg og ble livlege for madame de Pompadour, inviterte Mirabeau til Versailles for å diskutere økonomiske ideer.
 
 
-![image](assets/fr/066.webp)
+![image](assets/nb-NO/048.webp)
 
 
 Etter samtalen var Mirabeau enig i Quesnays ideer. Fra da av skrev de sammen: Quesnay skapte *Tableau économique* (1758) for å illustrere rikdommens flyt i økonomien, og sammen publiserte de skattelæren (1759).
 
 
-![image](assets/fr/067.webp)
 
 
 
-![image](assets/fr/068.webp)
+
+
 
 
 Deres innsats ble ikke tatt godt imot. Ved hoffet var den rådende reaksjonen likegyldighet. Kongen anerkjente Quesnays hang til teori og kalte ham kjærlig "min tenker". Men bortsett fra dette komplimentet førte ikke arbeidet deres til noe resultat. Faktisk fornærmet skatteteorien de skatteadministratorene den kritiserte, så mye at de krevde og fikk Mirabeau fengslet. Madame de Pompadour fikk ham til slutt løslatt, men han fortsatte å leve i eksil på godset sitt i Bignon i noen uker.
 
 
 
-![image](assets/fr/069.webp)
+![image](assets/nb-NO/049.webp)
 
 
 Første halvdel av 1760-årene forløp dermed i relativ stillhet. På grunn av sin posisjon i Versailles ble Quesnay tvunget til å slutte å skrive, eller i det minste til ikke å publisere noe under eget navn. Mirabeau, som allerede var dømt en gang, var advart og vel vitende om at kongens yndling ikke kunne beskytte ham for alltid.
@@ -871,7 +854,7 @@ Første halvdel av 1760-årene forløp dermed i relativ stillhet. På grunn av s
 Etter denne korte stillheten begynte de to økonomene å rekruttere disipler: Dette var den eneste måten å popularisere ideene sine på. I 1765 var suksessen påfallende. Dupont de Nemours, Abeille, Mercier de la Rivière, Le Trosne og Baudeau sluttet seg raskt til deres rekker. De dannet en skole: De hadde sitt eget tidsskrift, *Les Éphémérides du Citoyen*, og møttes til og med hver tirsdag hjemme hos Mirabeau.
 
 
-![image](assets/fr/070.webp)
+![image](assets/nb-NO/050.webp)
 
 
 Mellom 1765 og 1775 sto den forente gruppen av fysiokrater på toppen av sin berømmelse. Den litterære og filosofiske verden hadde bare øyne for dem, og ideene deres fikk stor og rask spredning. Folk kalte dem "økonomene", eller, mer hånlig, "økonomenes sekt". Uansett tonefall var berømmelsen deres absolutt. I 1774, etter en reise til Metz, skrev M. de Vaublanc om sin forbauselse i sine memoarer: Alle rundt ham snakket økonomi og resonnerte som Quesnays disipler. "Det var på moten", noterte han. "Alle var økonomer".
@@ -880,7 +863,7 @@ Mellom 1765 og 1775 sto den forente gruppen av fysiokrater på toppen av sin ber
 I 1770 begynte imidlertid populariteten deres å avta. Gruppen opplevde sine første avhopp, og deres evne til å stå imot kritikk ble svekket. Og kritikerne var mange: Condillac, Mably, Voltaire, Galiani, Linguet, Graslin og til og med Adam Smith i Skottland utfordret deres synspunkter.
 
 
-![image](assets/fr/071.webp)
+![image](assets/nb-NO/051.webp)
 
 
 Avisen deres kom ikke lenger ut regelmessig. Dette markerte slutten på bevegelsens mest aktive periode.
@@ -899,7 +882,7 @@ Begrepet fysiokrati, som betyr "naturstyre", ble skapt av Dupont de Nemours og b
 
 
 
-![image](assets/fr/072.webp)
+![image](assets/nb-NO/052.webp)
 
 
 Dette er en obskur setning. Ingen av Quesnays studenter har gitt oss den egentlige betydningen. Likevel var deres tankesystem langt fra uklart. Faktisk var det bygget opp rundt noen få, klare prinsipper, som vi skal skissere her.
@@ -917,7 +900,7 @@ Det er imidlertid urettferdig å kritisere fysiokratene for å legge uforholdsme
 
 
 
-![image](assets/fr/073.webp)
+![image](assets/nb-NO/053.webp)
 
 
 Fysiokratenes idé er faktisk subtil. Ifølge dem er det forskjell på produksjon og gevinst. Industrimannen og kjøpmannen kan tjene penger, men det er bare bonden som virkelig produserer, fordi produksjon er å skape nyttig materiale, og ikke å tilføre nytte til allerede eksisterende materiale.
@@ -932,7 +915,7 @@ Vi bør også prøve å forstå hvorfor de avviste industri og håndverk som upr
 I dag sier vi at noen ikke er demokrater for å fornærme dem. Selv om historikerne tilgir fysiokratene deres strenge syn på produktiviteten i landbruket, tilgir de ikke deres motstand mot demokratiet, særlig ikke siden de levde under opplysningstidens høydepunkt. Fra midten av 1700-tallet og frem til like før revolusjonen ble fysiokratene sett på som fiender av fremskrittet.
 
 
-![image](assets/fr/074.webp)
+![image](assets/nb-NO/054.webp)
 
 
 Tocqueville insisterte på denne ideen:
@@ -943,7 +926,7 @@ Tocqueville insisterte på denne ideen:
 Fysiokratene var liberale i økonomi, men derfor ikke liberale i politiske spørsmål. Quesnay skriver i sine *maximer*: "La den suverene autoritet være unik og overlegen alle samfunnets individer og alle privatinteressers urettferdige foretak." Og senere, i samme maksime: "Systemet med maktfordeling i regjeringen er en fatal forestilling, som bare avslører splid blant de store og undertrykkelse av de små".
 
 
-![image](assets/fr/075.webp)
+![image](assets/nb-NO/055.webp)
 
 
 Tocqueville bemerket treffende at fysiokratene avviste demokratiet så snart de så dets former. De var skeptiske til demokratiet, som skulle bli en konstant i fransk politisk økonomi, fordi demokratiet langt fra er et perfekt system: Det kan potensielt åpne for undertrykkelse av minoriteter fra flertallets side, og det kan bli et redskap for usurpasjon, tyranni og plyndring.
@@ -955,7 +938,7 @@ Tocqueville bemerket treffende at fysiokratene avviste demokratiet så snart de 
 Fysiokratene mente at folk måtte eie og beholde resultatet av arbeidet sitt. De mente at eiendomsretten var selve fundamentet for et samfunn. De mente at staten hadde én hovedoppgave: å beskytte folks eiendom. Fra et økonomisk ståsted hevdet fysiokratene dessuten at eiendommens ukrenkelighet oppmuntrer til arbeid og innsats og er en forutsetning for økonomisk fremgang.
 
 
-![image](assets/fr/076.webp)
+![image](assets/nb-NO/056.webp)
 
 
 Quesnay uttrykte det enkelt:
@@ -973,7 +956,7 @@ I sine tidligere siterte *Maxims* skriver Quesnay
 > La det være full handelsfrihet, for den mest pålitelige, presise og fordelaktige reguleringen av både innenriks- og utenrikshandelen for nasjonen og staten ligger i full konkurransefrihet.
 
 
-![image](assets/fr/077.webp)
+![image](assets/nb-NO/057.webp)
 
 
 Fysiokratene hadde sett hvilken skade statlig innblanding hadde forårsaket, særlig i kornhandelen. Man må erkjenne, sier de, at myndighetene aldri vil være i stand til å styre handelen like godt som enkeltmennesker, fordi de ville måtte svare på alle behov og reagere på alle endringer i etterspørsel eller Supply. Alt dette ligger langt utenfor selv den klokeste regjering man kan tenke seg. Derfor er det nødvendig å la ting være og la dem flyte.
@@ -1007,7 +990,7 @@ Forsvaret av ideene deres, i bøker, pamfletter og i tidsskriftet *Les Éphémé
 I utlandet kom suksessen svært tidlig. I Tyskland fattet markgreven av Baden interesse for fysiokratiske ideer og opprettholdt en regelmessig korrespondanse med Mirabeau og Dupont de Nemours.
 
 
-![image](assets/fr/078.webp)
+![image](assets/nb-NO/058.webp)
 
 
 Han ga økonomen Johann August Schlettwein, en overbevist fysiokrat, i oppdrag å gjennomføre en skattereform og liberalisere kornhandelen. I april 1770 ble et første forsøk gjennomført i den lille landsbyen Dietlingen. Landsbyboerne så ut til å ha tatt imot tiltakene med begeistring, men de ansvarlige embetsmennene var ikke særlig positive, noe som forsinket den videre gjennomføringen.
@@ -1016,13 +999,13 @@ Han ga økonomen Johann August Schlettwein, en overbevist fysiokrat, i oppdrag �
 I Russland forberedte Katarina 2. en lovreform og ba Diderot om å sende henne en genial begavelse til å bistå henne.
 
 
-![image](assets/fr/079.webp)
+![image](assets/nb-NO/059.webp)
 
 
 Han ble imponert av å lese [*The Natural and Essential Order of Political Societies*] (https://archive.org/details/lordrenaturelete00mercuoft), utgitt i 1767, og sendte henne forfatteren, fysiokraten Mercier de la Rivière.
 
 
-![image](assets/fr/080.webp)
+
 
 
 
@@ -1035,33 +1018,33 @@ Også i Sverige, med Gustav III, og i Italia, med Leopold av Toscana, fant fysio
 I Frankrike hadde fysiokratene spektakulær suksess med utnevnelsen av Turgot til finansminister i 1774.
 
 
-![image](assets/fr/081.webp)
+![image](assets/nb-NO/060.webp)
 
 
 Turgot var klar over at deres berømmelse var i ferd med å avta, og han fremstilte seg aldri som en lojal disippel av fysiokratene, eller for den saks skyld som en encyklopedist, selv om han var det, og siden de var foraktet av geistligheten. Da Turgot kom til makten, utstedte han seks berømte forordninger som utgjorde begynnelsen på en praktisk anvendelse av fysiokratenes program: handelsfrihet, arbeidsfrihet og avskaffelse av monopoler.
 
 
 
-![image](assets/fr/082.webp)
+![image](assets/nb-NO/061.webp)
 
 
 Da den franske revolusjonen brøt ut, hadde fysiokratene fått færre tilhengere. Markien av Mirabeau døde 13. juli 1789 - noe av et symbol. Abeille hadde gått videre, men Dupont de Nemours forble trofast. Dupont de Nemours ble utnevnt til medlem av nasjonalforsamlingen, og han talte fysiokratiets sak og tok til orde for økonomiske reformer til fordel for eiendomsretten Ownership og frihandel.
 
 
-![image](assets/fr/083.webp)
+![image](assets/nb-NO/062.webp)
 
 
 Han kjempet også, uten hell, mot assignatene. Til tross for denne fiaskoen forble fysiokratisk tankegods svært til stede i den intellektuelle debatten og påvirket revolusjonens tidlige resultater. Som Joseph Rambaud sa, alt revolusjonen gjorde til fordel for friheter skyldtes fysiokratene.
 
 
-![image](assets/fr/084.webp)
+![image](assets/nb-NO/063.webp)
 
 
 
 Fysiokratene hadde også stor innflytelse på den økonomiske tenkningens historie. Adam Smith, som besøkte Frankrike og møtte mange av dem, ble dypt påvirket av deres arbeid. Han vurderte til og med å dedisere *The Wealth of Nations* til Quesnay.
 
 
-![image](assets/fr/085.webp)
+
 
 
 Dessverre døde Quesnay to år før Smiths bok ble utgitt, og Smith fjernet dedikasjonen. Selv om Smith ikke var enig i deres idé om at bare jordbruk var produktivt, tok han til seg mange av deres argumenter for frie markeder og videreførte dem i sitt eget arbeid.
@@ -1081,21 +1064,21 @@ I USA kjenner vi til selskapet DuPont, også kjent som "E.I. du Pont de Nemours 
 
 
 
-![image](assets/fr/086.webp)
+![image](assets/nb-NO/064.webp)
 
 
 I dag omsetter selskapet for over 35 000 milliarder dollar og sysselsetter nesten 65 000 mennesker over hele verden. Det viser seg at dette selskapet er nært knyttet til skjebnen til Samuel-Pierre Dupont de Nemours, en fransk økonom av den fysiokratiske skolen.
 
 
 
-![image](assets/fr/087.webp)
+
 
 
 Dupont de Nemours ble født i 1739, og henvendte seg til fysiokratene i en alder av 24 år. På den tiden var han fortsatt i ferd med å finne sin vei i livet. En dag kom han over en kort pamflett med tittelen The Wealth of the State. Han mente at de økonomiske ideene i pamfletten var nonsens, og skrev et kritisk svar kalt Reflections on the Wealth of the State, som ble publisert i 1763. Skriften ble godt mottatt, og leserne roste den og sa blant annet: "Du må være en disippel av Mirabeau!" Ironisk nok visste Dupont ikke engang hvem Mirabeau var.
 
 
 
-![image](assets/fr/088.webp)
+![image](assets/nb-NO/065.webp)
 
 
 Nysgjerrig begynte han å lese Mirabeaus verk, *Friend of the People* og *Theory of Taxation*. Han møtte Mirabeau og François Quesnay, og begynte på skolen deres.
@@ -1104,7 +1087,7 @@ I 1765 ble Dupont tilbudt stillingen som redaktør for *Journal de l'agriculture
 
 
 
-![image](assets/fr/089.webp)
+
 
 
 Det var to grunner til dette: Mirabeau og Quesnay måtte forholde seg tause, og Dupont ble sett på som deres kommende stjerne.
@@ -1116,7 +1099,7 @@ Medlemmer av den fysiokratiske skolen er enige om at Dupont de Nemours raskt ble
 Dupont de Nemours bevarte alltid sin høye aktelse for Quesnay.
 
 
-![image](assets/fr/090.webp)
+![image](assets/nb-NO/066.webp)
 
 
 Senere sa han: "Jeg var bare en gutt da Quesnay rakte ut armene mot meg - han gjorde meg til en mann." Det var Quesnay som gjorde ham til en viktig økonom på datidens litterære scene.
@@ -1124,20 +1107,20 @@ Senere sa han: "Jeg var bare en gutt da Quesnay rakte ut armene mot meg - han gj
 Etter *Journal de l'agriculture, du commerce et des finances* ble Dupont utnevnt til redaktør av *Les Éphémérides du Citoyen*, som ble fysiokratenes offisielle organ.
 
 
-![image](assets/fr/091.webp)
+
 
 
 Han gjorde denne tidsskriftsamlingen til et viktig senter for økonomisk teori, og støttet den selv under fysiokratenes tilbakegang ved personlig å skrive nesten alle de senere bindene. Det var for øvrig Dupont de Nemours som skapte begrepet "fysiokrati", avledet av to greske ord som betyr "naturstyre". Han brukte dette begrepet som tittel på en artikkelsamling av Quesnay som ble utgitt i 1768, og begrepet ble etter hvert etablert i historien. Det er kjent at fysiokratene innbyrdes kalte hverandre for "økonomer", og de ble fortsatt omtalt som det under revolusjonen.
 
 
 
-![image](assets/fr/092.webp)
+![image](assets/nb-NO/067.webp)
 
 
 Da Turgot en kort periode var Frankrikes finansminister, ble Dupont hans nære rådgiver, den eneste fysiokraten som hadde tilgang til ham, siden Turgot holdt avstand til de andre.
 
 
-![image](assets/fr/093.webp)
+
 
 
 Under revolusjonen ble han valgt inn fra fogderiet Nemours og havnet i nasjonalforsamlingen, der også en annen monsieur Dupont satt. Han ble da kalt Dupont de Nemours, ikke fordi han var adelsmann, men rett og slett for å skille de to fra hverandre. Navnet ble selvfølgelig stående.
@@ -1146,14 +1129,14 @@ Under revolusjonen ble han valgt inn fra fogderiet Nemours og havnet i nasjonalf
 Under revolusjonen i august 1792 grep han til våpen for å forsvare kongen mot folkemengden i Tuileries-palasset.
 
 
-![image](assets/fr/094.webp)
+![image](assets/nb-NO/068.webp)
 
 
 Kongen sa til ham: "Monsieur Dupont, vi finner Dem alltid der det er behov for Dem!" Etter på mirakuløst vis å ha unnsluppet terroren, dømt til giljotinen, men reddet av Robespierres fall, ble han drevet i eksil under Napoleon og fant lykken i USA, der en av sønnene hans, med farens hjelp, grunnla Dupont-selskapet.
 
 
 
-![image](assets/fr/095.webp)
+
 
 
 Til tross for dette begivenhetsrike livet, der han publiserte dusinvis av artikler, brosjyrer og bøker, er han relativt lite kjent den dag i dag. Kanskje var dette fordi han forble en trofast fysiokrat da doktrinen hadde gått av moten. Som Schumpeter skrev, forble Dupont de Nemours trofast mot fysiokratiet "gjennom en karriere der han hadde mange muligheter til å ta avstand fra det". Han var en mann av overbevisning.
@@ -1175,14 +1158,14 @@ På 1700-tallet i Frankrike vokste det frem en vitenskap om økonomi og den før
 
 
 
-![image](assets/fr/096.webp)
+![image](assets/nb-NO/069.webp)
 
 
 Opplysningsfilosofiens mest berømte verk er uten tvil *Encyclopédie* av Diderot og d'Alembert.
 
 
 
-![image](assets/fr/097.webp)
+
 
 
 De økonomiske artiklene ble naturlig nok skrevet av økonomer. Til de første bindene henvendte Diderot seg til Forbonnais, deretter til liberale økonomer: først François Quesnay (som bidro med artikler som "Grains", "Fermiers", "Hommes" - den siste upublisert), deretter Turgot (som skrev "Foires et marchés"). Disse skriftene er av stor betydning. I sine artikler la Quesnay grunnlaget for det som skulle bli den fysiokratiske doktrinen. Sammen med *Tableau économique* er dette hans mest berømte verk. Turgot, som fortsatt var ung på den tiden, utviklet ideen om laissez-faire i sin artikkel, der han kritiserte statens inngripen i markedsorganiseringen.
@@ -1191,7 +1174,7 @@ De økonomiske artiklene ble naturlig nok skrevet av økonomer. Til de første b
 I mange andre artikler i *Encyclopédie* forsvarer filosofene, særlig Diderot, frihetsidealet på alle områder: religion, politikk og økonomi.
 
 
-![image](assets/fr/098.webp)
+![image](assets/nb-NO/070.webp)
 
 
 Arbeidets frihet, særlig i opposisjon til laugsvesenet, var et tilbakevendende tema i ulike poster som Arts, Métier og Communauté.
@@ -1201,10 +1184,10 @@ Diderots vei i økonomisk teori er merkelig. I Encyclopédie var han en ivrig fo
 
 
 
-![image](assets/fr/099.webp)
+![image](assets/nb-NO/071.webp)
 
 
-![image](assets/fr/100.webp)
+
 
 
 Denne boken skulle bli det voldsomste angrepet som noensinne var blitt rettet mot fysiokratiske ideer, og ble et hardt slag for bevegelsen. Senere forsvarte Diderot Galiani mot abbed Morellet, en nær alliert av fysiokratene, i sin *Apologi over Galiani*. Noen år senere, under Turgots ministerium, ble Diderot sett applaudere innføringen av arbeidsfrihet gjennom avskaffelsen av laugene. Diderot, som var sønn av en håndverker, var på dette tidspunktet på linje med de liberale økonomene og skrev et flengende brev til Galiani, som hevdet at arbeidsfriheten ville ruinere fransk industri i løpet av tjue eller tretti år. I lys av den industrielle revolusjonen tyder historien på noe annet. Etter å ha vendt tilbake til de liberale økonomene, nøt Diderot ikke lenger deres tillit og forble isolert. Et meget talende øyeblikk er et brev han sendte til Dupont de Nemours i 1774, der han skriver
@@ -1212,13 +1195,13 @@ Denne boken skulle bli det voldsomste angrepet som noensinne var blitt rettet mo
 
 > "En gang hadde du vennskap til meg, nå har du ikke det lenger, fordi du har det så travelt at du ikke lenger har tid til å elske noen".
 
-![image](assets/fr/101.webp)
+![image](assets/nb-NO/072.webp)
 
 
 Voltaire fulgte en lignende vei, preget av mangel på konsekvens i sine økonomiske synspunkter. Han beundret Vincent de Gournay, korresponderte med økonomer (blant andre Dupont de Nemours og Turgot) og satte pris på fysiokratene - særlig for deres lovprisning av jordbruket. Han lovpriste dem i en *Diatribe til forfatteren av Ephémérides*. Senere kritiserte han imidlertid deres idé om en enhetlig landskatt i det satiriske verket *Mannen på førti kroner*, som også vakte betydelig oppsikt. I likhet med Diderot hyllet han Turgots virke, kalte det en gullalder og roste hans to store dekreter om arbeidsfrihet og frihandel.
 
 
-![image](assets/fr/102.webp)
+![image](assets/nb-NO/073.webp)
 
 
 Filosofenes forhold til økonomisk tenkning er til syvende og sist blandet. Til tross for at de både hyllet og kritiserte liberale økonomiske ideer, bidro de til å bringe disse ideene inn i den bredere intellektuelle diskursen i opplysningstiden. På denne måten bidro de, bevisst eller ubevisst, til å fremme laissez-faire-tanken helt frem til revolusjonen.
@@ -1234,22 +1217,22 @@ I en berømt passasje fra sin *History of Economic Thought* hyllet den amerikans
 
 
 
-![image](assets/fr/103.webp)
+
 
 
 og presenterte ham som 1700-tallets største økonom, sammen med Cantillon.
 
 
-![image](assets/fr/104.webp)
+![image](assets/nb-NO/074.webp)
 
 
 Hvordan ble Turgot så fremtredende? Det skyldtes en kombinasjon av tre nøkkelfaktorer. **For det første** hans prestisjefylte familiebakgrunn. Han kom fra en lang rekke kongelige administratorer, hvorav mange hadde høytstående regjeringsposisjoner. **For det andre** var han født og oppvokst i en gullalder. Turgot var 21 år da Montesquieu utga *L'Esprit des Lois*, og 24 år da første bind av *Encyclopédie* kom ut.
 
 
-![image](assets/fr/105.webp)
 
 
-![image](assets/fr/106.webp)
+
+
 
 
 Han var samtidig med fysiokratene, Voltaire, Diderot, d'Holbach, Adam Smith, Condorcet og andre. **For det tredje**, hans intellektuelle fortid. Mens han studerte ved Sorbonne, skrev han et brev om papirpenger i en alder av 22 år, holdt bemerkelsesverdige taler og komponerte som 24-åring en liste over 52 verk han skulle skrive.
@@ -1267,19 +1250,19 @@ I løpet av disse første årene ble han veiledet av Vincent de Gournay, som tok
 
 
 
-![image](assets/fr/107.webp)
+![image](assets/nb-NO/075.webp)
 
 
 I 1767, mens han var intendant, skrev han et kompendium i økonomi under tittelen *Reflections on the Formation and Distribution of Wealth*.
 
 
-![image](assets/fr/108.webp)
+
 
 
 Arbeidsdeling, forbrukersuverenitet, privat eiendomsrett, kapitalens rolle, så å si alle de store økonomiske temaene tas opp. Mange historikere, senest historikeren Anne-Claire Hoyng, har påpekt likhetene mellom dette verket av Turgot og Adam Smiths *The Wealth of Nations*, som kom ut ni år senere.
 
 
-![image](assets/fr/109.webp)
+![image](assets/nb-NO/076.webp)
 
 
 Turgot forsvarte kornhandelens frihet i brev til abbed Terray, som senere ble formidlet til kongen, men hvor halvparten nå er gått tapt. Han skrev blant annet
@@ -1290,7 +1273,7 @@ Turgot forsvarte kornhandelens frihet i brev til abbed Terray, som senere ble fo
 > Hvis det noen gang har vært en tid da den mest fullstendige, absolutte frihet, helt fri for enhver form for hindring, var nødvendig, tør jeg påstå at det er nå, og at det aldri har vært mindre passende å vurdere å utstede en forordning om kornhandel.
 
 
-![image](assets/fr/110.webp)
+
 
 
 I 1769 skrev Turgot artikkelen Verdi og penger til Abbot Morellets *Dictionnaire de Commerce*, som aldri ble publisert. Galiani hadde allerede notert at "mennesket er alle tings felles målestokk", og foregrep dermed den subjektive analysen som Turgot skulle utvikle tretti år senere i denne artikkelen, der han utdyper og beviser denne påstanden.
@@ -1300,7 +1283,7 @@ I 1770, lenge før Bentham, skrev Turgot et memorandum der han tok til orde for 
 
 
 
-![image](assets/fr/111.webp)
+![image](assets/nb-NO/077.webp)
 
 
 "Det er en feil å tro at renten på penger i handel skulle være fastsatt av fyrstenes lover", sier han, "Det er en løpende pris som regulerer seg selv, som for alle andre varer", Til forsvar for dette standpunktet tilbakeviser han motstanden fra Aristoteles og kirkefedrene.
@@ -1318,7 +1301,7 @@ Her finner vi en meget klar redegjørelse for laissez-faire-doktrinen, samt et f
 
 
 
-![image](assets/fr/112.webp)
+![image](assets/nb-NO/078.webp)
 
 
 ## Reformatoren Turgot
@@ -1331,7 +1314,7 @@ Som vi kort minnet om i forrige kapittel, var Turgot sønn av en fremtredende fa
 
 
 
-![image](assets/fr/113.webp)
+![image](assets/nb-NO/079.webp)
 
 
 Faren hadde vært provost for kjøpmennene i Paris og bestefaren intendant. Etter å ha utmerket seg i studiene, tok den yngste i Turgot-familien sikte på å nå minst de samme høydene. Han var først en tid maître des requêtes, det vil si bindeledd mellom intendantene og Versailles. Det var en prestisjefylt stilling, som han måtte ha aldersgrense for å få, men Turgot strebet etter mer. Da hans mentor, Gournay, døde, ble han ytterligere oppmuntret til å sikte høyere, og han ba om å bli utnevnt til intendant.
@@ -1346,7 +1329,7 @@ I Limousin var bøndene fattige og levde under prekære forhold, særlig når de
 
 
 
-![image](assets/fr/114.webp)
+![image](assets/nb-NO/080.webp)
 
 
 Fordi regionen var så fattig, var den ikke av interesse for ministrene. Dette ga Turgot frihet til å eksperimentere med reformer. I Limousin satte han i gang tre store prosjekter:
@@ -1358,7 +1341,7 @@ Fordi regionen var så fattig, var den ikke av interesse for ministrene. Dette g
 - Rekruttering av **militser**, bondehærer som ble mobilisert i krigstid.
 
 
-![image](assets/fr/115.webp)
+![image](assets/nb-NO/081.webp)
 
 
 Dette ble gjort ved loddtrekning, noe som førte til frykt og vold på grunn av rømninger. Turgot erstattet disse obligatoriske avgiftene med betalte frivillige.
@@ -1374,13 +1357,13 @@ Bare en måned senere ble Turgot imidlertid utnevnt til generalinspektør for fi
 Vi kjenner brevet der han skisserte sine prinsipper for Ludvig XVI: "Ingen konkurs. Ingen skatteøkninger. Ingen nye lån". Denne filosofien, som kritikere i dag kanskje vil kalle meningsløs "strenghet", skulle redde monarkiet.
 
 
-![image](assets/fr/116.webp)
+![image](assets/nb-NO/082.webp)
 
 
 Turgot utarbeidet seks kongelige forordninger for å reformere den franske økonomien.
 
 
-![image](assets/fr/117.webp)
+
 
 
 Det var første - og en av de aller siste - gangene en økonomisk ekspert fikk frihet til å reformere landets økonomi. Tre av Turgots forordninger skiller seg ut: én avskaffet tvangsarbeid (corvées), en annen oppløste handelslaugene (korporasjonene), og den tredje innførte frihandel med korn.
@@ -1391,12 +1374,12 @@ Da Turgot tiltrådte som minister, visste han at han ville møte motstand fra de
 
 > For noen forferdelige nyheter jeg har hørt! Hva skal det bli av oss? Jeg er sønderknust! Vi vil aldri komme oss etter å ha vært vitne til gullalderens fødsel og død! Dette tordenblikket har truffet både mitt sinn og mitt hjerte.
 
-![image](assets/fr/118.webp)
+![image](assets/nb-NO/083.webp)
 
 
 Siden den gang har mange hevdet at Frankrike er et land det er umulig å reformere. Turgots fiasko så ut til å bekrefte dette: Han var forberedt av et halvt århundre med liberal økonomisk tenkning, han hadde støtte fra opplysningsfilosofene, og kongen selv, med sin absolutte makt, støttet ham.
 
-![image](assets/fr/119.webp)
+
 
 
 Til slutt vant parlamentene og de privilegerte klassene. Kongen kunne bare beklage seg privat: "Jeg ser nå at det bare er monsieur Turgot og jeg som bryr oss om folket."
@@ -1411,7 +1394,7 @@ Til slutt vant parlamentene og de privilegerte klassene. Kongen kunne bare bekla
 Akkurat som merkantilismen, som er dens mest åpenbare praktiske manifestasjon, tok det lang tid før Montaignes sofisme forsvant.
 
 
-![image](assets/fr/120.webp)
+![image](assets/nb-NO/084.webp)
 
 
 Denne sofismen er ideen om at handel og Exchange er nullsumspill. Det den ene parten vinner i en transaksjon, taper nødvendigvis den andre parten. Tilhengerne hevder at dette gjelder både mellom individer og mellom nasjoner.
@@ -1420,7 +1403,7 @@ Denne sofismen er ideen om at handel og Exchange er nullsumspill. Det den ene pa
 Abbot av Condillac spilte en viktig rolle i å avlive denne falske forestillingen.
 
 
-![image](assets/fr/121.webp)
+
 
 
 "Definitivt" er kanskje en overdrivelse, for i den offentlige debatten dukker denne sofismen ofte opp igjen. Dette er kanskje grunnen til at Condillac fortsatt er en lite kjent økonom. Bortsett fra østerrikske økonomer er det få som har forstått betydningen av hans teori om Exchange, og ingen interesserer seg lenger for ham.
@@ -1429,7 +1412,7 @@ Abbot av Condillac spilte en viktig rolle i å avlive denne falske forestillinge
 For de fleste historikere av økonomisk tenkning er året 1776 preget av utgivelsen av *The Wealth of Nations*, som grunnla den økonomiske vitenskapen. De femten leksjonene vi nettopp har fullført, der vi har studert fransk økonomisk vitenskap før Adam Smith, er nok til å bevise at denne oppfatningen er feil. Samme år, i 1776, kom det dessuten ut en annen bok som kanskje fortjener mer ros fra historikerne enn Adam Smiths bok: Den er skrevet av Condillac og har den enkle tittelen [*Commerce and Government Considered in Their Mutual Relationship*] (https://archive.org/details/commercegovernme0000cond).
 
 
-![image](assets/fr/122.webp)
+![image](assets/nb-NO/085.webp)
 
 
 Hvis sofismen om Exchange som et nullsumspill vedvarer, er fysiokratene delvis skyld i det, mener Condillac, fordi de hevder at Exchange er et forhold preget av likhet. Ifølge Condillac er dette feil: Exchange er et ulikt forhold, der man alltid gir mindre for å få mer.
@@ -1448,7 +1431,7 @@ Condillac, derimot, skrev
 Opposisjonen er imidlertid i stor grad en ordmotsetning. Begge er enige om at når man bytter en franc mot en bok, er boken verdt en franc, eller prisen på boken er en franc.
 
 
-![image](assets/fr/123.webp)
+
 
 
 Forskjellen ligger i at Condillac hevder at siden vi Exchange en franc for boken, betyr det at for oss er verdien av boken høyere enn verdien av vår en-franc-mynt. Vi foretrekker boken fremfor mynten, og det er derfor vi lager Exchange.
@@ -1466,7 +1449,7 @@ For å oppsummere Condillacs teori kan tre påstander listes opp:
 Første påstand: Vi søker goder for deres nytteverdi. Dette virker åpenbart, men det er et sentralt prinsipp i økonomisk vitenskap at mennesker Exchange for å skaffe seg nytte, et poeng som Jean-Baptiste Say også utviklet perfekt.
 
 
-![image](assets/fr/124.webp)
+![image](assets/nb-NO/086.webp)
 
 
 Den andre påstanden er at verdi eksisterer forut for og motiverer utveksling. Den subjektive vurderingen hver enkelt person gjør av varer og tjenester innebærer at de samme varene og tjenestene har en verdi for dem, verdt mer eller mindre i henhold til nytten de ser ut til å gi. Hver enkelt person vurderer naturligvis varer og tjenester forskjellig fra hverandre, og verdien varierer fra person til person.
@@ -1491,7 +1474,7 @@ Condorcet er utvilsomt opplysningstidens mest økonomisk tenkende filosof.
 
 
 
-![image](assets/fr/125.webp)
+![image](assets/nb-NO/087.webp)
 
 
 I store deler av sin karriere viet han seg til fagområder som ikke hadde noe med økonomi å gjøre, og det med rette, ettersom talentene hans førte til store fremskritt i de vitenskapene han fokuserte mest på. Men rundt 1770 følte han seg tiltrukket av økonomiske spørsmål, kanskje fordi andre filosofer, særlig Voltaire og Diderot, ikke brydde seg om å bruke fritiden sin på dem, og også fordi han hadde blitt venn med Turgot.
@@ -1506,7 +1489,7 @@ Han var dermed forberedt på å forsvare friheten da hans venn Turgot ble utnevn
 
 
 
-![image](assets/fr/126.webp)
+![image](assets/nb-NO/088.webp)
 
 
 Condorcets karriere tok en ny vending da han gikk inn i den økonomiske debatten og utrettelig støttet de liberale reformene til den nye ministeren. Condorcet var tilhenger av konkurranse og fri handel, og han tok også til orde for å avskaffe corvées (tvangsarbeid), laug og rettferdig beskatning. Han ga offentlig uttrykk for disse overbevisningene når anledningen bød seg, og gjorde det med tydelig entusiasme; han skrev mye, og en gang erklærte han i sine skrifter "Tillat meg å snakke om handelsfriheten igjen; jeg liker å engasjere meg i dette emnet."
@@ -1518,7 +1501,7 @@ Mellom 1774 og 1776, under Turgots ministerium, holdt Condorcet en rekke innlegg
 I sine [*Letters on the Grain Trade*] (https://archive.org/details/bub_gb_hg8jFw-y6bwC) gjør Condorcet flere viktige poeng gjeldende.
 
 
-![image](assets/fr/127.webp)
+![image](assets/nb-NO/089.webp)
 
 
 For det første var de høye kornprisene på den tiden ikke et resultat av frihandel, men snarere av dårlige avlinger, og Condorcet demonstrerer dette tydelig. Deretter forklarer han hvorfor laissez-faire ikke bare er hensiktsmessig, men den eneste egnede politikken, til tross for populære fordommer. "Vi er så vant til at myndighetene griper inn i kornhandelen at det å ikke gjøre noe virker som noe ekstraordinært og nytt", skriver han. Senere legger han til: "Nesten alle, særlig de som innehar offentlige embeter, tror at ingenting skjer av seg selv, og at alt er tapt hvis myndighetene ikke griper inn i alt". Condorcet gjenoppliver dermed fysiokratenes og Turgots argumenter, og viser frihandelens overlegenhet over alle former for intervensjonisme.
@@ -1549,13 +1532,13 @@ Dupont de Nemours var den yngste disippelen til François Quesnay, som en gang s
 Dupont de Nemours skrev listen over klagepunkter for Nemours' fogderi.
 
 
-![image](assets/fr/128.webp)
+![image](assets/nb-NO/090.webp)
 
 
 Dette fascinerende dokumentet inneholdt alle de liberale økonomenes klager mot handelsrestriksjoner, monopoler og angrep på eiendom. Dupont de Nemours ble også valgt inn i nasjonalforsamlingen.
 
 
-![image](assets/fr/129.webp)
+
 
 Under revolusjonen ble han den liberale fornuftens stemme, og han stod fast mot den voksende bølgen av populisme og intervensjonistisk demagogi, som til slutt seiret.
 
@@ -1564,7 +1547,7 @@ Allerede i november 1789, da det var snakk om å gi Caisse d'Escompte monopol (n
 
 
 
-![image](assets/fr/130.webp)
+![image](assets/nb-NO/091.webp)
 
 
 "Det ville være bedre", sier han, "å overlate bankvirksomheten til frihandelens lover". Og han legger til:
@@ -1586,7 +1569,7 @@ Dupont de Nemours var sterkt imot dette og ga ut en pamflett med tittelen [*Effe
 
 
 
-![image](assets/fr/131.webp)
+![image](assets/nb-NO/092.webp)
 
 
 Han signerte pamfletten som "en folkets venn". Skriften vakte stor oppsikt, og forsamlingen ble spurt om hvem som hadde skrevet den. Dupont de Nemours reiste seg da og innrømmet at det var hans verk, og sa at han ikke skammet seg over å bruke tittelen "folkets venn" fordi det å kjempe mot assignatene virkelig var å tjene folket.
@@ -1595,7 +1578,7 @@ Nok en gang ble hans råd ignorert, og assignatene ble utstedt.
 
 
 
-![image](assets/fr/132.webp)
+![image](assets/nb-NO/093.webp)
 
 
 Vi kjenner alle til katastrofen som fulgte, den økonomiske ruinen og lidelsene for folket, som for manges vedkommende mistet alt da assignatene ble verdiløse og måtte brennes.
@@ -1627,40 +1610,40 @@ Boisguilbert hevder at velmenende sjeler som tror de kan fikse alt ved å involv
 
 
 
-![image](assets/fr/133.webp)
+![image](assets/nb-NO/094.webp)
 
 
 Cantillon insisterte på at penger aldri skulle manipuleres for politiske formål. Å la staten forvalte penger etter eget forgodtbefinnende er å bane vei for enorm finansiell og økonomisk uorden.
 
 
 
-![image](assets/fr/134.webp)
+
 
 
 Vincent de Gournay hevder at overdreven regulering av arbeidskraften motvirker arbeidernes og håndverkernes innsats, og presser dem mot latskap og inaktivitet. Det er takket være den frie konkurransen at økonomien kan vokse og en nasjon blomstre.
 
 
 
-![image](assets/fr/135.webp)
+
 
 
 Markis d'Argenson hevder at ingen regjering er i stand til å forutse og måle alt, og at man derfor må stole på den enkeltes egeninteresse.
 
 
 
-![image](assets/fr/136.webp)
+![image](assets/nb-NO/095.webp)
 
 
 Quesnay og fysiokratene hevder at privateiendommen er grunnlaget for menneskelige samfunn. Uten privat eiendom mister mennesket motivasjonen til å anstrenge seg, til å arbeide, siden det ikke kan nyte fruktene av sitt arbeid eller akkumulere noe.
 
 
-![image](assets/fr/137.webp)
+
 
 
 Condillac hevder at Exchange alltid er gjensidig fordelaktig og derfor alltid, uten unntak, bør være fri. Statens eneste oppgave må være å beskytte frihet og eiendom.
 
 
-![image](assets/fr/138.webp)
+
 
 
 Alle disse ideene skulle bli tatt opp av økonomene på 1800-tallet. Noen, som Jean-Baptiste Say, ga disse ideene et vitenskapelig uttrykk gjennom en stringent *Traktat om politisk økonomi*. Andre, derimot, ville forsøke å popularisere disse grunnleggende læresetningene ved å begi seg inn i eventyrenes, romanenes og de morsomme novellenes verden, slik Frédéric Bastiat så dyktig gjorde.

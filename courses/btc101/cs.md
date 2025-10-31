@@ -83,7 +83,7 @@ Důležité je pochopit tuto novou technologii v obecné rovině, takže doufám
 
 Připraveni ponořit se do fascinujícího světa Bitcoinu a pochopit všechny jeho mechanismy? Jdeme na to!
 
-**Pozn.**: Pokud během kurzu narazíte na neznámé termíny, obraťte se prosím na [slovníček](https://planb.network/resources/glossary) pro definice.
+**Pozn.**: Pokud během kurzu narazíte na neznámé termíny, obraťte se prosím na [slovníček](https://planb.academy/resources/glossary) pro definice.
 
 ## Prehistorie bitcoinu
 
@@ -141,7 +141,7 @@ Je však Bitcoin "skutečnou" měnou? Abychom to pochopili, musíme nejprve poro
 
 Pokud se chcete podrobněji seznámit s historií bitcoinu, doporučujeme vám náš kurz HIS 201, kde se dozvíte o původu a pomalém vzniku bitcoinu, stejně jako o počátcích jeho historie a komunity. Tento kurz je plně zdokumentovaný a podložený zdroji, samozřejmě s mnoha anekdotami:
 
-https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
+https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 # Peníze
 
@@ -261,7 +261,7 @@ Tuto kapitolu můžeme uzavřít citátem nositele Nobelovy ceny F. A. Hayeka z 
 > "Nevěřím, že bychom ještě někdy měli mít dobré peníze, než je vyjmeme z rukou vlády. Pokud je nemůžeme vzít z rukou vlády násilím, můžeme jen nějakým lstivým nebo oklikou zavést něco, co oni nemohou zastavit."
 > Chcete-li se dozvědět více o ekonomických omylech a svobodě, nabízíme vám náš kurz ECO 102, který se zabývá životem a myšlenkami Frédérica Bastiata, francouzského myslitele 19. století, který by jistě ocenil vznik Bitcoinu:
 
-https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
+https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
 ## Hyperinflace
 
@@ -350,7 +350,7 @@ Měna, která se spoléhá na důvěryhodnou třetí stranu, jako je finanční 
 
 Chcete-li proniknout hlouběji do tématu hyperinflace, doporučujeme kurz Davida St-Ongeho ECO 204, kde se dozvíte, co jsou to hyperinflační cykly a jaké jsou jejich reálné dopady na náš život. Zjistíte také, jaké jsou podobnosti mezi těmito cykly, a hlavně, jak se před nimi chránit.
 
-https://planb.network/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
+https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
 ## 21 milionů bitcoinů
 
@@ -395,7 +395,7 @@ Po úspěšném splnění tohoto úkolu jsou těžaři odměněni vydáním nov�
 | 19             | 3,990,000    | 0.000095367431640625 BTC  | 20,999,959.946 BTC                         |
 | 20             | 4,200,000    | 0.0000476837158203125 BTC | 20,999,979.973 BTC                         |
 
-Ke konceptu těžby se podrobněji vrátíme v kapitole [miner](https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
+Ke konceptu těžby se podrobněji vrátíme v kapitole [miner](https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
 
 ### Zajištění digitálního nedostatku
 
@@ -503,11 +503,11 @@ Co když někdo náhodou uhodne náš seznam 12 nebo 24 slov? Stručná odpově�
 
 Pravděpodobnost hacknutí vaší peněženky s bitcoiny je tedy astronomicky nízká, pokud dodržujete správné bezpečnostní postupy, které podrobně popíšeme v následující části.
 
-Nezapomeňte si vybrat správnou peněženku pro své potřeby a použití: podrobné návody na správu a zabezpečení různých peněženek jsou k dispozici v sekci [tutoriál naší univerzity](https://planb.network/tutorials/wallet).
+Nezapomeňte si vybrat správnou peněženku pro své potřeby a použití: podrobné návody na správu a zabezpečení různých peněženek jsou k dispozici v sekci [tutoriál naší univerzity](https://planb.academy/tutorials/wallet).
 
 Pokud se během své cesty králičí norou chcete dozvědět více o vytváření peněženky Bitcoin, od entropie až po přijímání adres, doporučujeme kurz CYP 201 věnovaný tomuto tématu:
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ## Bitcoinové peněženky a zabezpečení
 
@@ -538,17 +538,17 @@ Níže definujeme několik úrovní zabezpečení:
 
 Například peněženku Sparrow Wallet můžete používat jako horkou peněženku:
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 - Na úrovni 2\*\* používáte fyzickou peněženku a máte zajištěn seznam 12/24 slov. Často se označuje jako "studená peněženka", protože vaše klíče jsou uloženy v zařízení, které není připojeno k internetu. V tomto případě musíte každou transakci vždy podepisovat svým zařízením, což zhoršuje každodenní dostupnost vašich prostředků.
 
 Můžete například použít Ledger, Satochip nebo Tapsigner:
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
+https://planb.academy/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
 
-https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
+https://planb.academy/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
 
 ![image](assets/cs/031.webp)
 
@@ -556,7 +556,7 @@ https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4
 
 Další informace o používání a fungování hesla BIP39:
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ![image](assets/cs/032.webp)
 
@@ -582,7 +582,7 @@ Bezpečnost vašich bitcoinů má zásadní význam a jednoduchá chyba může m
 
 Upozorňujeme, že tímto krokem vás provede kurz BTC102.
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ### Tento krok není žádná legrace!
 
@@ -617,7 +617,7 @@ Studené i horké peněženky používají jako standard pro zálohování soukr
 
 Pokud se pak chcete krok za krokem dozvědět, jak si založit vlastní peněženku a získat své první bitcoiny, doporučujeme absolvovat i tento další kurz:
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ## Projít zkouškou času
 
@@ -629,7 +629,7 @@ Stejně jako jakýkoli jiný majetek musí být i vaše bitcoiny chráněny pře
 
 Jednou z metod dlouhodobého zabezpečení bitcoinů je vyrytí mnemotechnické fráze do odolného materiálu, jako je ocel, a vytvoření fyzické zálohy klíčů, která je odolná proti poškození vodou i ohněm.
 
-K dispozici jsou různá řešení: některá z nich jsou levná, jako například "Blockmit", zatímco jiná mohou vyžadovat specializovanější vybavení. Toto téma můžete dále prozkoumat v sekci [tutoriály](https://planb.network/en/tutorials/wallet) naší akademie.
+K dispozici jsou různá řešení: některá z nich jsou levná, jako například "Blockmit", zatímco jiná mohou vyžadovat specializovanější vybavení. Toto téma můžete dále prozkoumat v sekci [tutoriály](https://planb.academy/en/tutorials/wallet) naší akademie.
 
 ![image](assets/cs/036.webp)
 
@@ -637,7 +637,7 @@ K dispozici jsou různá řešení: některá z nich jsou levná, jako napříkl
 
 Vedle tohoto prvního postupu je vytvoření dědického plánu zásadním krokem k zajištění řádné správy vašich bitcoinů po vaší smrti. Tento plán spočívá v ručně psaném dopise, ve kterém uvedete povahu svých aktiv, způsoby přístupu k nim a kontaktní údaje důvěryhodných osob, které za ně mají odpovědnost. Důležité je také projednat dědictví bitcoinů s notářem, aby bylo zajištěno dodržování daňových předpisů, a to i v případě, že by této osobě neměla být správa vašich bitcoinů nikdy přímo svěřena.
 
-Pokud se chcete tématu dědického plánu pro své bitcoiny věnovat hlouběji, doporučujeme přečíst si knihu Pamely Morganové [Cryptoasset Inheritance Plan](https://planb.network/resources/books/28) nebo se přihlásit do kurzu BTC102, kde vám poskytneme návod na vytvoření plánu.
+Pokud se chcete tématu dědického plánu pro své bitcoiny věnovat hlouběji, doporučujeme přečíst si knihu Pamely Morganové [Cryptoasset Inheritance Plan](https://planb.academy/resources/books/28) nebo se přihlásit do kurzu BTC102, kde vám poskytneme návod na vytvoření plánu.
 
 ![image](assets/cs/037.webp)
 
@@ -718,7 +718,7 @@ V roce 2010, kdy Bitcoin začal přitahovat pozornost médií, se Satoshi rozhod
 
 Pro některé je Bitcoin definován jako houbová entita, jako [mycelium](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), zatímco jiní ho popisují jako [černou díru](https://dergigi.com/). Ať už ho milujete, nebo nenávidíte, Bitcoin nadále existuje, se svým stálým rytmem 10 minut na blok, jako tlukot srdce nového peněžního systému.
 
-Chcete-li se o Satoshi Nakamotovi dozvědět více, doporučujeme přečíst si ["The Book of Satoshi"](https://planb.network/en/resources/books/98) od Phila Champagneho nebo dokumentární film ARTE "Le mystaire Satoshi".
+Chcete-li se o Satoshi Nakamotovi dozvědět více, doporučujeme přečíst si ["The Book of Satoshi"](https://planb.academy/en/resources/books/98) od Phila Champagneho nebo dokumentární film ARTE "Le mystaire Satoshi".
 
 ![image](assets/cs/044.webp)
 
@@ -911,7 +911,7 @@ Teorie hry aplikovaná na Bitcoin eliminuje nepoctivé těžaře, kteří k tě�
 
 Pokud chcete proniknout hlouběji do konkrétního tématu těžby bitcoinů, můžete navštívit náš kurz MIN 201. Zjistíte, jak funguje a jakou roli hraje proof-of-work a jaká je mechanika těžebního průmyslu. Vysvětlíme vám také, jak přeměnit ASIC na topení, což vám umožní těžit první satoshi a zároveň vytápět váš domov!
 
-https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
+https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 ## Bitcoin a ekologie
 
@@ -1063,17 +1063,17 @@ Podrobně se tomuto tématu budeme věnovat v jiném kurzu, ale abychom to zjedn
 
 - Jednoduché online řešení: OpenNode
 
-https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 - Řešení pro amatérské obchodníky: Švýcarský Bitcoin Pay
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - Řešení pro velké struktury nebo vášnivé bitcoinery: BTCpay Server
 
 Pro lepší pochopení tohoto tématu vám doporučujeme naši formaci BIZ101! Objevte, jak efektivně integrovat bitcoin do firemní pokladny, přijímat bitcoin jako platební prostředek podle profilu vaší organizace a porozumět souvisejícím daňovým a účetním požadavkům:
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## Spoření s Bitcoinem
 
@@ -1088,7 +1088,7 @@ Bitcoin se stal významným finančním aktivem, a to především díky své om
 - Minulá výkonnost není spolehlivým ukazatelem budoucí výkonnosti.
 - V případě potřeby se obraťte na svého finančního poradce.
 
-**Plan ₿ Network neposkytuje žádné investiční poradenství a nic z toho, co je zde uvedeno, by za něj nemělo být považováno**
+**Plan ₿ Academy neposkytuje žádné investiční poradenství a nic z toho, co je zde uvedeno, by za něj nemělo být považováno**
 
 ### Mini kontrolní seznam předtím, než se do toho pustíte
 
@@ -1116,7 +1116,7 @@ Postupná strategie zahrnuje opakované nákupy, což znamená nákup malých mn
 
 **Pozor na UTXO**: Nezapomeňte čas od času konsolidovat své UTXO v peněženkách. Tento postup je nezbytný pro efektivní správu vašich bitcoinů a vyhnutí se zbytečným poplatkům při transakcích.
 
-[UTXO](https://planb.network/resources/glossary/utxo#:~:text=utxo) (Unspent Transaction Output) je výstup transakce, který dosud nebyl utracen, což znamená, že nebyl použit jako vstup pro novou transakci. Konsolidace UTXO znamená sloučení několika malých UTXO do jednoho většího, aby se snížila "hmotnost" transakce a tím se platily nižší poplatky.
+[UTXO](https://planb.academy/resources/glossary/utxo#:~:text=utxo) (Unspent Transaction Output) je výstup transakce, který dosud nebyl utracen, což znamená, že nebyl použit jako vstup pro novou transakci. Konsolidace UTXO znamená sloučení několika malých UTXO do jednoho většího, aby se snížila "hmotnost" transakce a tím se platily nižší poplatky.
 
 - Spontánní nákup
 
@@ -1130,7 +1130,7 @@ Bitcoiny lze získat několika způsoby, přičemž každý z nich podléhá vla
 
 - Platformy DCA
 
-Jak jsme uvedli výše, běžnou metodou hromadění bitcoinů je metoda DCA (Dollar Cost Averaging), která spočívá v pravidelném nákupu malých částek. Tuto službu nabízí několik platforem, například ty, které jsou uvedeny na naší [specializované stránce](https://planb.network/tutorials/exchange). Kromě jednoduchosti nastavení DCA jsou výběry do peněženky zpravidla automatické, což znamená, že budete mít svá aktiva vždy pod kontrolou.
+Jak jsme uvedli výše, běžnou metodou hromadění bitcoinů je metoda DCA (Dollar Cost Averaging), která spočívá v pravidelném nákupu malých částek. Tuto službu nabízí několik platforem, například ty, které jsou uvedeny na naší [specializované stránce](https://planb.academy/tutorials/exchange). Kromě jednoduchosti nastavení DCA jsou výběry do peněženky zpravidla automatické, což znamená, že budete mít svá aktiva vždy pod kontrolou.
 
 V současné době jsou téměř všechna řešení DCA poměrně efektivní a mají téměř podobné poplatky, takže výběr bude záviset spíše na dostupnosti ve vaší zemi.
 
@@ -1158,7 +1158,7 @@ Je nezbytné si uvědomit, že KYC je v odvětví bitcoinů významným tématem
 
 ### Řešení jiná než KYC
 
-Kromě toho existuje několik [tržišť](https://planb.network/tutorials/exchange), kde lze nakupovat a prodávat bitcoiny v rámci peer-to-peer výměny. Obecně můžete mau zvážit následující:
+Kromě toho existuje několik [tržišť](https://planb.academy/tutorials/exchange), kde lze nakupovat a prodávat bitcoiny v rámci peer-to-peer výměny. Obecně můžete mau zvážit následující:
 
 - Bankomaty Bitcoin
 - Fyzická setkání s dalšími bitcoinovými nadšenci
@@ -1169,6 +1169,10 @@ Kromě toho existuje několik [tržišť](https://planb.network/tutorials/exchan
 ![image](assets/cs/076.webp)
 
 V neposlední řadě je důležité upozornit, že daňové povinnosti se mohou lišit v závislosti na jurisdikci, a proto vám doporučujeme, abyste se před podniknutím jakýchkoli kroků, které by vás mohly ohrozit, seznámili s předpisy ve vaší zemi.
+
+Pokud si přejete prohloubit své znalosti o strategiích nákupu, používání a zabezpečení vašich bitcoinů, důrazně vám doporučuji absolvovat kurz **BTC 102** po tomto. Objevíte tam mimo jiné doporučení nástrojů přizpůsobených vašemu profilu, vašim potřebám a osobním cílům:
+
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ## Hyperbitcoinizace
 
@@ -1190,7 +1194,7 @@ Na závěr vás vyzýváme k zamyšlení nad touto novou měnovou revolucí. V s
 
 ![image](assets/cs/079.webp)
 
-Pokud si chcete rozšířit své znalosti o bitcoinu, je ten správný čas: řada autorů, myslitelů a esejistů vytvořila vzdělávací obsah o bitcoinu. Již několik let tato díla sepisujeme a kategorizujeme, abychom těm nejzvídavějším z vás nabídli [knihovnu zdrojů](https://planb.network/resources). V této sekci najdete nejlepší podcasty, webové stránky, články, výukové programy, knihy a další obsah.
+Pokud si chcete rozšířit své znalosti o bitcoinu, je ten správný čas: řada autorů, myslitelů a esejistů vytvořila vzdělávací obsah o bitcoinu. Již několik let tato díla sepisujeme a kategorizujeme, abychom těm nejzvídavějším z vás nabídli [knihovnu zdrojů](https://planb.academy/resources). V této sekci najdete nejlepší podcasty, webové stránky, články, výukové programy, knihy a další obsah.
 
 > "Myslím, že internet bude jednou z hlavních sil, které sníží roli vlády. Jediné, co zatím chybí, ale co bude brzy vyvinuto, je spolehlivá elektronická hotovost - metoda, pomocí níž lze na internetu převést finanční prostředky z A do B, aniž by A věděl o B nebo B o A." - Předpověď Miltona Friedmana z roku 1999
 
@@ -1240,7 +1244,7 @@ Lightning Network je slibný pokus o zavedení efektivního platebního systému
 
 Pokud chcete jít nad rámec tohoto úvodu a porozumět celému fungování sítě Lightning, doporučujeme absolvovat tento vynikající kurz od Fanise Michalakise:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ## Případy použití sítě Lightning
 

@@ -51,7 +51,7 @@ Kugira ngo umenye vyinshi ku buryo Lightning Network ikora, raba inyigisho yacu 
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ### Ubuhinga bwo gukora ubucuruzi
 
@@ -149,7 +149,7 @@ Raba inyigisho yacu ya Zeus kugira ngo umenye vyinshi ku bijanye n'iyi Wallet yu
 
 
 
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
 
 ### Imiterere y'urubuga
 

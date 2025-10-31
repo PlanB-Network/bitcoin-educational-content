@@ -1,147 +1,28 @@
 id: 928eb01e-824b-4b57-a3e8-8727633beddc
 
-professor_id: 2e1b5182-567e-453a-af29-36009340ff02
-
-level: advanced
-
-category: point-of-sale
 project_id: c61cbdad-03bc-4178-9d8d-0b5b7c1141a0
-original_language: en
-proofreading:
-  - language: cs
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.46
-  - language: de
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.37
-  - language: en
-    last_contribution_date: 2024-09-01
-    urgency: 1
-    contributor_names:
-      - Asi0Flammeus
-    reward: 0.18
-  - language: es
-    last_contribution_date: '2025-08-18'
-    urgency: 1
-    contributor_names:
-      - Salgraphics
-    reward: 0.18
-  - language: fi
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.46
-  - language: fr
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.37
-  - language: it
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.37
-  - language: ja
-    last_contribution_date: 2025-05-14
-    urgency: 1
-    contributor_names:
-      - yutaro21jp
-    reward: 0.32
-  - language: pt
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.37
-  - language: ru
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.46
-  - language: vi
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.64
-  - language: et
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.46
-  - language: id
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.55
-  - language: zh-Hans
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.55
-  - language: nb-NO
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.46
-  - language: hi
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.73
-  - language: pl
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.46
-  - language: sr-Latn
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.46
-  - language: sw
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.46
-  - language: zh-Hant
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.55
-  - language: fa
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.46
-  - language: sv
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.37
-  - language: nl
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.46
-  - language: tr
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.55
-  - language: ko
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.46
-  - language: rn
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.64
+
 tags:
   - software
   - guides
   - user-friendly
+
+category: point-of-sale
+
+level: advanced
+
+professor_id: 47064624-48d3-4099-a3c2-3269a6213c2e 
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-10-28
+    urgency: 1
+    contributor_names:
+      - bened45
+    reward: 0
+
+
+

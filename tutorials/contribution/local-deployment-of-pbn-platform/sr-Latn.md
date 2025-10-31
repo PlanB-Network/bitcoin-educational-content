@@ -1,6 +1,6 @@
 ---
-name: Vodič za lokalno pokretanje platforme Plan ₿ Network
-description: Kako možete pokrenuti Plan ₿ Network u lokalnom okruženju za testiranje mog doprinosa sadržaju ili lekture/pregleda obrazovnog sadržaja na Plan ₿ Network?
+name: Vodič za lokalno pokretanje platforme Plan ₿ Academy
+description: Kako možete pokrenuti Plan ₿ Academy u lokalnom okruženju za testiranje mog doprinosa sadržaju ili lekture/pregleda obrazovnog sadržaja na Plan ₿ Academy?
 ---
 ![github](assets/cover.webp)
 
@@ -8,7 +8,7 @@ description: Kako možete pokrenuti Plan ₿ Network u lokalnom okruženju za te
 ## Ukratko
 
 
-Ovaj vodič pruža detaljna uputstva za postavljanje Bitcoin Sistema za upravljanje učenjem sa Plan ₿ Network na vašem lokalnom računaru koristeći Docker, lažne ključeve i prilagođene konfiguracije repozitorijuma.
+Ovaj vodič pruža detaljna uputstva za postavljanje Bitcoin Sistema za upravljanje učenjem sa Plan ₿ Academy na vašem lokalnom računaru koristeći Docker, lažne ključeve i prilagođene konfiguracije repozitorijuma.
 
 
 Ako niste razumeli deo iznad, ne brinite—ovaj vodič je za vas!
@@ -147,7 +147,7 @@ Kada kontejneri budu pokrenuti, pristupite frontend-u na:
 \[<http://localhost:8181](http://localhost:8181)>
 
 
-![Plan ₿ Network Local](assets/en/1.webp)
+![Plan ₿ Academy Local](assets/en/1.webp)
 
 
 Napomena: aplikacija će se automatski ponovo učitati ako promenite bilo koje izvorne datoteke.
@@ -196,7 +196,7 @@ curl -X POST http://localhost:3000/api/github/sync
 ```
 
 
-![Plan ₿ Network Local](assets/en/2.webp)
+![Plan ₿ Academy Local](assets/en/2.webp)
 
 
 

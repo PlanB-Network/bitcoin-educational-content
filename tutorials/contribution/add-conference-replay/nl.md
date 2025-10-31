@@ -1,6 +1,6 @@
 ---
 name: Een conferentie replay toevoegen
-description: Hoe voeg ik een conferentie replay toe op PlanB Network?
+description: Hoe voeg ik een conferentie replay toe op Plan ₿ Academy?
 ---
 ![conference](assets/cover.webp)
 
@@ -8,13 +8,13 @@ description: Hoe voeg ik een conferentie replay toe op PlanB Network?
 De missie van PlanB is om eersteklas educatieve bronnen aan te bieden over Bitcoin in zoveel mogelijk talen. Alle inhoud die op de site wordt gepubliceerd is open-source en wordt gehost op GitHub, zodat iedereen kan bijdragen aan de verrijking van het platform.
 
 
-Wil je de replay van je Bitcoin conferentie toevoegen op de PlanB Network site en zichtbaarheid geven aan dit evenement, maar weet je niet hoe? Dan is deze tutorial voor jou!
+Wil je de replay van je Bitcoin conferentie toevoegen op de Plan ₿ Academy site en zichtbaarheid geven aan dit evenement, maar weet je niet hoe? Dan is deze tutorial voor jou!
 
 
 Als je echter een conferentie wilt toevoegen die in de toekomst zal plaatsvinden, raad ik je aan deze andere tutorial te lezen waarin we uitleggen hoe je een nieuw evenement toevoegt aan de site.
 
 
-https://planb.network/tutorials/contribution/resource/add-event-1d3df554-c2d8-4e93-853f-58f672c5e097
+https://planb.academy/tutorials/contribution/resource/add-event-1d3df554-c2d8-4e93-853f-58f672c5e097
 
 
 ![conference](assets/01.webp)
@@ -23,7 +23,7 @@ https://planb.network/tutorials/contribution/resource/add-event-1d3df554-c2d8-4e
 - Eerst moet je een account hebben op GitHub. Als je niet weet hoe je een account aanmaakt, hebben we een gedetailleerde tutorial gemaakt om je te begeleiden.
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -36,7 +36,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![conference](assets/03.webp)
 
 
-- Als je nog nooit hebt bijgedragen aan de inhoud van PlanB Network, zul je een fork van de originele repository moeten maken. Een repository forken betekent dat je een kopie van die repository maakt op je eigen GitHub account, waarmee je aan het project kunt werken zonder de originele repository te beïnvloeden. Klik op de kno `Fork this repository`:
+- Als je nog nooit hebt bijgedragen aan de inhoud van Plan ₿ Academy, zul je een fork van de originele repository moeten maken. Een repository forken betekent dat je een kopie van die repository maakt op je eigen GitHub account, waarmee je aan het project kunt werken zonder de originele repository te beïnvloeden. Klik op de kno `Fork this repository`:
 ![conference](assets/04.webp)
 
 
@@ -99,7 +99,7 @@ tags:
 Als je nog geen "*project*" identifier hebt voor je organisatie, kun je die toevoegen door deze andere tutorial te volgen.
 
 
-https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
+https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 
 
@@ -124,7 +124,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 ![conference](assets/14.webp)
 
 
-- Selecteer je fork van de PlanB Network repository:
+- Selecteer je fork van de Plan ₿ Academy repository:
 ![conference](assets/15.webp)
 
 
@@ -168,7 +168,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 ![conference](assets/25.webp)
 
 
-- Er wordt een nieuwe pagina geopend. Sleep een afbeelding die je conferentie voorstelt en die zal worden weergegeven op de PlanB Network site:
+- Er wordt een nieuwe pagina geopend. Sleep een afbeelding die je conferentie voorstelt en die zal worden weergegeven op de Plan ₿ Academy site:
 ![conference](assets/26.webp)
 
 - Het kan een logo, een miniatuur of zelfs een poster zijn:
@@ -269,7 +269,7 @@ Speaker: Satoshi Nakamoto
 ![conference](assets/37.webp)
 
 
-- Aan het begin van je document, in de "front matter", vul je het veld `name:` in met de naam van je conferentie en het jaar van de herhalingen. Schrijf in het `description:` veld een korte beschrijving van je evenement in de taal van het bestand. Bijvoorbeeld, voor een bestand met de naam `en.md`, moet de beschrijving in het Engels zijn. Het PlanB Network team zal je beschrijving vertalen met behulp van hun model.
+- Aan het begin van je document, in de "front matter", vul je het veld `name:` in met de naam van je conferentie en het jaar van de herhalingen. Schrijf in het `description:` veld een korte beschrijving van je evenement in de taal van het bestand. Bijvoorbeeld, voor een bestand met de naam `en.md`, moet de beschrijving in het Engels zijn. Het Plan ₿ Academy team zal je beschrijving vertalen met behulp van hun model.
 - Titels van het eerste niveau, gemarkeerd met een `#`, worden gebruikt om de conferentie per scène in te delen. Bijvoorbeeld, `# Main Stage` voor het hoofdpodium en `# Workshop Room` voor een podium gewijd aan workshops.
 
 
@@ -319,10 +319,10 @@ Speaker: Satoshi Nakamoto
 - Klik op de knop `Compare & pull request` (Create pull request):
 ![conference](assets/45.webp)
 
-Gefeliciteerd! Je PR is succesvol aangemaakt. Een beheerder zal het nu beoordelen en, als alles in orde is, samenvoegen in de hoofd repository van PlanB Network. Je zou de herhalingen van je conferentie een paar dagen later op de website moeten zien verschijnen.
+Gefeliciteerd! Je PR is succesvol aangemaakt. Een beheerder zal het nu beoordelen en, als alles in orde is, samenvoegen in de hoofd repository van Plan ₿ Academy. Je zou de herhalingen van je conferentie een paar dagen later op de website moeten zien verschijnen.
 
 
-Zorg ervoor dat je de voortgang van je PR volgt. Het is mogelijk dat een beheerder een opmerking achterlaat waarin om extra informatie wordt gevraagd. Zolang je PR niet gevalideerd is, kun je het bekijken onder de `Pull requests` tab op de GitHub repository van het PlanB Network:
+Zorg ervoor dat je de voortgang van je PR volgt. Het is mogelijk dat een beheerder een opmerking achterlaat waarin om extra informatie wordt gevraagd. Zolang je PR niet gevalideerd is, kun je het bekijken onder de `Pull requests` tab op de GitHub repository van het Plan ₿ Academy:
 ![conference](assets/46.webp)
 
 

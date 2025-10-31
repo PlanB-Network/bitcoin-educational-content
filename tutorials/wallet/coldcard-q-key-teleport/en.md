@@ -73,7 +73,7 @@ A QR code is generated on the screen. Once again, you'll need to communicate thi
 *What we're actually doing here is initiating a transfer of secrets via the Diffie-Hellman method, covered in the BTC204 course I've included below*
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 *We currently have:*
 
@@ -111,7 +111,7 @@ You are now asked to choose the nature of the secrets to be transmitted between 
 ![CCQ-key-teleport](assets/fr/04.webp)
 
 
-Here our secret will be a short message by choosing **"Quick Text Message "**. Type your message (for us "PlanB Network rocks") then press **"ENTER "**.
+Here our secret will be a short message by choosing **"Quick Text Message "**. Type your message (for us "Plan ₿ Academy rocks") then press **"ENTER "**.
 
 The device then generates a new random password called **"Teleport Password "** , in the example "NE XG BT SK".
 
@@ -145,7 +145,7 @@ Press the **"QR "** button to scan the QR code presented by the sending device t
 
 
 
-The data is then decrypted and made intelligible to the receiving device. The message received is indeed "PlanB Network rocks". That's all.
+The data is then decrypted and made intelligible to the receiving device. The message received is indeed "Plan ₿ Academy rocks". That's all.
 
 
 ![CCQ-key-teleport](assets/fr/08.webp)

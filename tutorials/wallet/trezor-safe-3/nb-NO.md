@@ -97,7 +97,7 @@ I denne veiledningen skal jeg vise deg hvordan du bruker Trezor Safe 3 med [Spar
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Du trenger også Trezor Suite-programvaren for å konfigurere Safe 3, sjekke ektheten og installere fastvaren. Vi kommer kun til å bruke denne programvaren til dette, og etterpå vil den kun være nødvendig for fastvareoppdateringer. For daglig administrasjon av Wallet bruker vi utelukkende Sparrow Wallet, ettersom den er optimalisert for Bitcoin og enkel å bruke, selv for nybegynnere (Sparrow støtter kun Bitcoin, ikke altcoins).
 
@@ -115,7 +115,7 @@ For begge disse programmene anbefaler jeg på det sterkeste at du sjekker både 
 
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## Starter Trezor Safe 3
 
@@ -213,7 +213,7 @@ Hvis du vil lære mer om de andre alternativene for sikkerhetskopiering som er t
 
 
 
-https://planb.network/tutorials/wallet/backup/trezor-shamir-backup-7f98b593-face-48fb-a643-0e811b87c94e
+https://planb.academy/tutorials/wallet/backup/trezor-shamir-backup-7f98b593-face-48fb-a643-0e811b87c94e
 
 ![Image](assets/fr/16.webp)
 
@@ -279,7 +279,7 @@ For mer informasjon om hvordan du lagrer og administrerer Mnemonic-frasen din, a
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ![Image](assets/fr/21.webp)
 
@@ -393,7 +393,7 @@ Når du har åpnet Sparrow Wallet, må du sørge for at programvaren er koblet t
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Klikk på fanen "*File*" og deretter på "*New Wallet*".
 
@@ -471,7 +471,7 @@ Hvis du vil lære mer om hvordan du utfører en gjenopprettingstest, anbefaler j
 
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Hvordan kan jeg motta bitcoins med Trezor Safe 3?
 
@@ -629,6 +629,6 @@ Gratulerer, du er nå oppdatert på grunnleggende bruk av Trezor Safe 3 med Spar
 
 
 
-https://planb.network/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
+https://planb.academy/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
 
 Hvis du fant denne opplæringen nyttig, ville jeg være takknemlig hvis du legger igjen en Green-tommel nedenfor. Del gjerne denne artikkelen på dine sosiale nettverk. Tusen takk skal du ha!

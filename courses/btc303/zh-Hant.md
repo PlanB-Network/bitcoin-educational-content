@@ -75,7 +75,7 @@ Bitcoin 不僅是一種加密貨幣，它還體現了一種關於去中心化、
 準備好在您的 Bitcoin 之旅中踏出下一步了嗎？讓我們開始吧
 
 
-**註**：如果您在課程中遇到任何與 Bitcoin 相關的陌生詞彙，請參閱 [詞彙表](https://planb.network/resources/glossary)以尋找定義。
+**註**：如果您在課程中遇到任何與 Bitcoin 相關的陌生詞彙，請參閱 [詞彙表](https://planb.academy/resources/glossary)以尋找定義。
 
 
 
@@ -112,7 +112,7 @@ Bitcoin 分權有兩個主要方面：Miner 分權和 Full node 分權。
 Miner 分散是指交易處理並非由任何中央實體執行或協調。Full node 去中心化是指區塊（即礦工輸出的資料）的驗證在網路邊緣進行，最終由使用者完成，而不是由少數可信賴的機構完成。
 
 
-![](assets/decentralization-banner.webp)
+![](assets/en/001.webp)
 
 
 ### Miner 分散化
@@ -154,7 +154,7 @@ David Chaum 於 1983 年提出數位現金的研究課題，在中央伺服器�
 這些選項對使用者都沒有好處。
 
 
-透過去中心化來抵抗審查是 Bitcoin 與其他貨幣系統的區別，但由於 *Double-spending 問題*，要完成這件事並不容易。這是確保沒有人可以花相同的錢幣兩次的問題，許多人認為這個問題不可能以分散的方式解決。Satoshi 中本在他的 [Bitcoin 白皮書](https://planb.network/bitcoin.pdf) 中寫到如何解決 Double-spending 問題：
+透過去中心化來抵抗審查是 Bitcoin 與其他貨幣系統的區別，但由於 *Double-spending 問題*，要完成這件事並不容易。這是確保沒有人可以花相同的錢幣兩次的問題，許多人認為這個問題不可能以分散的方式解決。Satoshi 中本在他的 [Bitcoin 白皮書](https://planb.academy/bitcoin.pdf) 中寫到如何解決 Double-spending 問題：
 
 
 > 在本文中，我們提出一個解決 Double-spending 問題的方案，使用點對點分散式 Timestamp 伺服器來 generate 計算交易的時間順序證明。
@@ -276,7 +276,7 @@ Bitcoin 透過分散化的方式運作，類似於自然界中許多物種的非
 她指出，許多系統，無論是自然系統或人工系統，都能且確實能在沒有領導者的情況下運作，而且這些系統是強大且有彈性的。每個人只與周遭的環境互動，但他們共同組成了巨大的東西。
 
 
-![](assets/fishschool.webp)
+![](assets/en/002.webp)
 
 *魚群沒有領袖*
 
@@ -302,7 +302,7 @@ Bitcoin 的分散性允許開發人員、使用者和礦工保持中立。任何
 
 
 
-![](assets/trustlessness-banner.webp)
+![](assets/en/003.webp)
 
 
 本章將剖析無信任的概念、從電腦科學的角度來看它的意義，以及為什麼 Bitcoin 必須是 Trustless 才能保有其價值主張。
@@ -453,7 +453,7 @@ Bitcoin 協定之所以是 Trustless，是因為它允許使用者在不信任�
 
 
 
-![](assets/privacy-banner.webp)
+![](assets/en/004.webp)
 
 
 本章講述如何不洩露您的私人財務資訊。本章將解釋在 Bitcoin 的情況下，隱私權代表什麼、為什麼它很重要，以及說 Bitcoin 是假名是什麼意思。它還探討了私人資料如何洩漏，包括 On-Chain 和 off-chain。
@@ -533,7 +533,7 @@ Satoshi 中本在他的 [Bitcoin 白皮書](https://Bitcoin.org/Bitcoin.pdf) 第
 本文總結了 Blockchain 隱私權的主要問題，即 Address 重複使用和 Address 聚類。前者可自行解釋，後者則是指能夠在某種程度上確定一組不同的位址屬於同一使用者。
 
 
-![](assets/address-reuse-clustering.webp)
+![](assets/en/005.webp)
 
 
 Blockchain 上典型的隱私泄漏問題
@@ -652,7 +652,7 @@ Bitcoin 上的層次可增加隱私性
 文章建議您避免使用需要 KYC/AML 的交易所，改以私人方式交易，或使用分散式交易所，如 [bisq](https://bisq.network/)。
 
 
-https://planb.network/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+https://planb.academy/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 若要深入閱讀有關對策，請參閱之前提到的 [wiki 關於隱私權的文章](https://en.Bitcoin.it/wiki/Privacy#Methods_for_improving_privacy_.28non-Blockchain.29)，從「改善隱私權的方法 (非 Blockchain)」開始。
 
@@ -673,7 +673,7 @@ https://planb.network/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522
 
 
 
-![](assets/finitesupply-banner.webp)
+![](assets/en/006.webp)
 
 
 本章將探討 Bitcoin Supply 的 2,100 萬 BTC 限額，或實際上有多少？我們會談談這個限制是如何執行的，以及如何驗證這個限制是否被遵守。此外，我們將窺探水晶球，並討論當 Block reward 從以補貼為基礎轉變為以收費為基礎時，將會出現的動態。
@@ -785,7 +785,7 @@ Bitcoin Supply 是否會增長超過 2,100 萬，我們今天還無法確定，�
 
 
 
-![](assets/upgrading-banner.webp)
+![](assets/en/007.webp)
 
 
 以安全的方式升級 Bitcoin 可能非常困難。有些變更需要數年時間才能推出。在本章中，我們將學習有關升級 Bitcoin 的常用詞彙，並探討其通訊協定歷史升級的一些範例，以及我們從中獲得的啟發。最後，我們會談談鏈分裂以及與其相關的風險和成本。
@@ -1025,7 +1025,7 @@ Bitcoin 隨著時間成長與演進。多年來，我們使用了不同的升級
 <chapterId>d4982f3d-4694-51cc-99be-28f54b03a2a2</chapterId>
 
 
-![](assets/adversarialthinking-banner.webp)
+![](assets/en/008.webp)
 
 
 本章將討論 * 敵對思維 *，這種思維著重於可能出錯的地方以及對手可能採取的行動。我們首先討論 Bitcoin 的安全假設和安全模型，接著解釋一般使用者如何透過逆向思考來改善自我主權和 Bitcoin 的 Full node 分散性。接著，我們將探討一些對 Bitcoin 的實際威脅，以及敵人的想法。最後，我們會談談*axiom of resistance*，這可以幫助您了解為什麼人們一開始就在研究 Bitcoin。
@@ -1099,7 +1099,7 @@ Wallet 竊取和拒絕服務攻擊：
 ### 簡單破壞領域
 
 
-![](assets/sabotage-manual.webp)
+![](assets/en/009.webp)
 
 
 摘錄自《簡單破壞實戰手冊
@@ -1150,7 +1150,7 @@ Eric Voskuil [在他的 Cryptoeconomics wiki 頁面上寫道](https://github.com
 
 
 
-![](assets/opensource-banner.webp)
+![](assets/en/010.webp)
 
 
 Bitcoin 是使用開放原始碼軟體建立的。在本章中，我們會分析這意味著什麼、軟體的維護如何運作，以及 Bitcoin 的開放原始碼軟體如何允許無權限的開發。我們涉獵了*選擇加密學*，這涉及到加密系統中庫的選擇和使用。本章包括一個關於 Bitcoin 審核程序的章節，接著是另一個關於 Bitcoin 開發人員獲得資金方式的章節。最後一節談到 Bitcoin 的開放原始碼文化從外面看起來非常怪異，以及為什麼這種被認為的怪異其實是健康的象徵。
@@ -1438,7 +1438,7 @@ Bitcoin Core 和其他大多數的 Bitcoin 軟體都是開放原始碼的，這�
 
 
 
-![](assets/scaling-banner.webp)
+![](assets/en/011.webp)
 
 
 
@@ -1585,7 +1585,7 @@ Bitcoin Core 和其他大多數的 Bitcoin 軟體都是開放原始碼的，這�
 至少可以說，透過內向擴充所獲得的改進令人印象深刻。為了讓您大致瞭解這些年來的改進，Jameson Lopp [已針對 Blockchain 同步執行基準測試](https://blog.lopp.net/Bitcoin-core-performance-evolution/)，比較許多不同版本的 Bitcoin Core，可以追溯到 0.8 版。
 
 
-![](assets/Bitcoin-Core-Sync-Performance-1.webp)
+![](assets/en/012.webp)
 
 
 不同版本 Bitcoin Core 的初始區塊下載效能。Y 軸上是同步的區塊高度，X 軸上是同步到該高度所花的時間。
@@ -1600,7 +1600,7 @@ Bitcoin Core 和其他大多數的 Bitcoin 軟體都是開放原始碼的，這�
 計算改進的一個好例子可以在 [libsecp256k1](https://github.com/Bitcoin-core/secp256k1) 函式庫中找到，該函式庫除其他功能外，還實現了制作和驗證數位簽名所需的加密基元。Pieter Wuille 是這個函式庫的貢獻者之一，他寫了一篇 [Twitter thread](https://twitter.com/pwuille/status/1450471673321381896) 來展示透過各種 pull request 所達到的效能改善。
 
 
-![](assets/libsecp256k1speedups.webp)
+![](assets/en/013.webp)
 
 
 隨著時間的推移，簽名驗證的效能，並在時間線上標示重要的拉取要求
@@ -1614,7 +1614,7 @@ Bitcoin Core 和其他大多數的 Bitcoin 軟體都是開放原始碼的，這�
 [Medium部落格文章](https://murchandamus.medium.com/2-of-3-Multisig-inputs-using-Pay-to-Taproot-d5faf2312ba3) 關於 Taproot 對於節省空間的貢獻，使用者 Murch 比較了 2-of-3 門檻簽章需要多少區塊空間，以各種方式使用 Taproot 以及完全不使用 Taproot。
 
 
-![](assets/murch-taproot.webp)
+![](assets/en/014.webp)
 
 
 不同支出類型、Taproot 和舊版本可節省空間。
@@ -1629,7 +1629,7 @@ Bitcoin Core 和其他大多數的 Bitcoin 軟體都是開放原始碼的，這�
 交易批次的概念是將多筆付款合併為一筆交易，而不是每筆付款做一筆交易。這樣可以為您節省很多費用，同時也可以減少區塊空間負載。
 
 
-![](assets/tx-batching.webp)
+![](assets/en/015.webp)
 
 
 交易批次將多筆付款結合為單一交易，以節省費用。
@@ -1638,7 +1638,7 @@ Bitcoin Core 和其他大多數的 Bitcoin 軟體都是開放原始碼的，這�
 輸出合併是指利用區塊空間需求低的時期，將多個輸出合併為單一輸出。這可以降低您日後的費用成本，因為您需要在區塊空間需求高漲時付款。
 
 
-![](assets/utxo-consolidation.webp)
+![](assets/en/016.webp)
 
 
 輸出整合：在費用低廉時，將您的硬幣融成一個大硬幣，以節省日後的費用。
@@ -1660,7 +1660,7 @@ Bitcoin Core 和其他大多數的 Bitcoin 軟體都是開放原始碼的，這�
 如下圖所示，分層通訊協定是由兩個或更多人同意一個放在 Blockchain 上的開始交易開始。
 
 
-![](assets/scaling-layer.webp)
+![](assets/en/017.webp)
 
 典型的 Layer 2 協定在 Bitcoin、Layer 1 之上。
 
@@ -1714,7 +1714,7 @@ Maxwell 寫上面這篇文章已經過了很多年，他的話仍然正確無誤
 
 
 
-![](assets/shtf-banner.webp)
+![](assets/en/018.webp)
 
 Bitcoin 是由人建立的。人們撰寫軟體，然後由人們執行此軟體。當安全漏洞或嚴重的錯誤被發現時 - 兩者真的有區別嗎？ - 它總是由有血有肉的人發現的。本章將探討當安全漏洞被發現時，人們會做什麼、應該做什麼、以及不該做什麼。第一節解釋了 「負責任的揭露」(*responsible disclosure*)一詞，指的是發現弱點的人如何負責任地行事，以幫助將弱點造成的損害降到最低。本章的其餘部分將帶您參觀這些年來發現的一些最嚴重的漏洞，以及開發人員、礦工和使用者是如何處理這些漏洞的。在 Bitcoin 的幼年時期，事情不像現在這麼嚴謹。
 
@@ -2059,7 +2059,7 @@ BIP 於 2015 年 7 月 4 日啟用。然而，雖然上述情況屬實，但 BIP
 這封電子郵件進一步詳述了問題是如何被發現的，以及更確切的原因。最後，他提交了一份事件時間表，我們將在此重播一些最重要的事件。如上圖所示，其中有些事件已經描述過了。
 
 
-![](assets/bip66-timeline-1.webp)
+![](assets/en/019.webp)
 
 
 圍繞 BIP66 的事件年表。黑色項目已於上文說明。
@@ -2097,7 +2097,7 @@ OpenSSL 發佈了其軟體的新版本，並附上修補程式，如果從一開
 之後，依照 Maxwell 的建議，BIP66 被建立為 BIP62 的子集，只指定嚴格的 DER 編碼。這個 BIP 在七月顯然被廣泛接受和部署，儘管由於 * 無驗證的 Mining*，發生了兩次具有諷刺意味的 Blockchain 分裂。這些分裂將在下一節中討論。
 
 
-![](assets/bip66-timeline-2.webp)
+![](assets/en/020.webp)
 
 
 從中得到的一個重要啟示是，BIP 應該或多或少是 *原子 *，也就是說，BIP 應該完整到足以提供有用的東西或解決特定的問題，但又小到足以讓使用者廣泛支持。在 BIP 中加入的東西越多，被接受的機會就越小。
@@ -2118,7 +2118,7 @@ OpenSSL 發佈了其軟體的新版本，並附上修補程式，如果從一開
 上述分裂發生於 2015-07-04 02:10 UTC，在區塊高度 [363730](https://Mempool.space/block/000000000000000006a320d752b46b532ec0f3f815c5dae467aff5715a6e579e) 之後。在挖出 6 個無效區塊後，此問題於當天 03:50 獲得解決。不幸的是，同樣的問題在第二天，也就是 2015-07-05 的 21:50 再次發生，但這次的無效分支只持續了 3 個區塊。
 
 
-![](assets/bip66-timeline-3.webp)
+![](assets/en/021.webp)
 
 導致 BIP66 發生的事件、其部署及後果是一個很好的案例研究，說明 Bitcoin 開發人員必須多麼謹慎。BIP66 的幾個主要啟示：
 

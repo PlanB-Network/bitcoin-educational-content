@@ -86,7 +86,7 @@ Poté podle pokynů potvrďte zálohování a připojte svůj účet pro vzdále
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ⚠️ **DŮLEŽITÉ**: Pro zvýšení bezpečnosti zařízení Breez Wallet můžete definovat kód PIN a nastavit jej tak, aby ověřoval oprávněnost přístupu k zařízení Wallet.
 

@@ -128,7 +128,7 @@ El descubrimiento de la criptografía asimétrica también motivó la creación 
 
 Los elementos criptográficos básicos de Bitcoin provienen de esta investigación. El esquema de firma ECDSA, que permite la autorización para gastar una transacción tradicional, fue creado en 1992 para NIST. La función hash SHA-256, utilizada en múltiples lugares del protocolo, se publicó en 2001 como parte del conjunto de algoritmos SHA-2 hecho público por la NSA. Para más información sobre este tema, puedes referirte al curso CYP201 presentado por Loïc Morel.
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### Firmas Ciegas y Dinero Electrónico
 

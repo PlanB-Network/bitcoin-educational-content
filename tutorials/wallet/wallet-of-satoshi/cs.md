@@ -12,7 +12,7 @@ _Tento návod napsal_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
 Wallet z Satoshi je Lightning Network Wallet, opatrovnický a velmi jednoduchý na použití.
 
-Pro účely kurzu [BTC105 - Finding Now](https://planb.network/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5) se používá pro poukázky Redeem Lightning Network.
+Pro účely kurzu [BTC105 - Finding Now](https://planb.academy/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5) se používá pro poukázky Redeem Lightning Network.
 
 
 **Vždy pamatujte**: _ne klíče, ne mince_

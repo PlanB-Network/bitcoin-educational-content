@@ -289,9 +289,9 @@ description: 發現 Co-Sign 功能並在您的 COLDCARD 上使用它
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
-https://planb.network/tutorials/wallet/desktop/sparrow-multisig-5860333b-6dd8-4aaa-8ab6-89ebc6276f1f
+https://planb.academy/tutorials/wallet/desktop/sparrow-multisig-5860333b-6dd8-4aaa-8ab6-89ebc6276f1f
 
 ### 1- 出口 Wallet Multisig 2-sur-3 至 Sparrow wallet
 
@@ -464,7 +464,7 @@ https://planb.network/tutorials/wallet/desktop/sparrow-multisig-5860333b-6dd8-4a
 
 
 
-https://planb.network/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
+https://planb.academy/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
 
 ### 1- 網路 2FA 與白名單地址
 
@@ -506,11 +506,11 @@ https://planb.network/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb
 
 
 
-https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
+https://planb.academy/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 
-https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
+https://planb.academy/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 
-https://planb.network/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
+https://planb.academy/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
 
 具體來說，在簽署交易之前，您需要將具備 NFC 功能、連線至網路的裝置靠近您的 Coldcard。這會自動帶您到一個coldcard.com網頁，在那裡您會被要求輸入您申請的六位數代碼。如果您輸入正確的代碼，網頁會顯示一個 QR 代碼讓您掃瞄 ColdCardQ，或是一個 8 位數的代碼讓您在 Mk4 上輸入，以授權您的裝置簽署。
 

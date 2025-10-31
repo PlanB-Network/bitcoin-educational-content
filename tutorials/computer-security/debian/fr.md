@@ -210,7 +210,7 @@ Si vous avez téléchargé un fichier `.deb` (paquet Debian), vous pouvez l’in
 sudo apt install ./name.deb
 ```
  
-https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
+https://planb.academy/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
  
 Votre système Debian est maintenant installé et prêt à être utilisé pour vos tâches quotidiennes.  
 Grâce à l’environnement de bureau **GNOME**, vous avez accès à de nombreuses applications accessibles via une interface graphique conviviale, idéale pour les débutants comme pour les utilisateurs avancés.
@@ -219,6 +219,6 @@ Sachez également qu’il est possible de changer d’environnement de bureau (p
  
 Pour approfondir vos connaissances sur Debian, et plus largement sur les distributions GNU/Linux, je vous recommande de consulter ce cours :
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 

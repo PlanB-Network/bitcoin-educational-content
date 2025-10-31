@@ -756,9 +756,9 @@ Nous utilisons un corps fini d'entiers modulo $p$ afin d'assurer la précision d
 
 Les mathématiques des courbes elliptiques sur les corps finis sont analogues à celles sur le corps des réels, avec l'adaptation que toutes les opérations sont effectuées modulo $p$. Pour simplifier les explications, nous continuerons dans les prochains chapitres à illustrer les concepts en utilisant une courbe définie sur les nombres réels, tout en gardant à l'esprit que, dans la pratique, la courbe est définie sur un corps fini.
 
-Si vous souhaitez en savoir plus sur les bases mathématiques de la cryptographie moderne, je vous conseille par la suite de consulter également cette autre formation sur Plan ₿ Network :
+Si vous souhaitez en savoir plus sur les bases mathématiques de la cryptographie moderne, je vous conseille par la suite de consulter également cette autre formation sur Plan ₿ Academy :
 
-https://planb.network/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
+https://planb.academy/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 
 ## Calculer la clé publique à partir de la clé privée
 
@@ -1171,7 +1171,7 @@ Si ce sighash flag est intégré à Bitcoin, il permettra l'utilisation de coven
 
 Pour approfondir vos connaissances sur le Lightning Network, après la formation CYP201, je vous recommande vivement la formation LNP201 de Fanis Michalakis, qui aborde le sujet en détail :
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Dans la prochaine partie, je vous propose de découvrir comment fonctionne la phrase mnémonique à la base de votre portefeuille Bitcoin.
 
@@ -1208,9 +1208,9 @@ Si l’on souhaitait utiliser plusieurs clés privées, il fallait alors effectu
 
 Cette contrainte découle du modèle de confidentialité de Bitcoin. En réutilisant une même adresse, on facilite le travail des observateurs externes qui peuvent alors retracer l’ensemble des transactions Bitcoin associées à cette adresse. C’est pourquoi la réutilisation d’une adresse de réception est fortement déconseillée. Or, pour disposer de plusieurs adresses et séparer publiquement nos transactions, il est nécessaire de gérer de multiples clés privées. Dans le cas des portefeuilles JBOK, nous rappelons que cela implique de créer autant de sauvegardes qu'il y a de nouvelles paires de clés, une tâche qui peut rapidement devenir complexe et difficile à maintenir pour les utilisateurs.
 
-Pour en savoir plus sur le modèle de confidentialité de Bitcoin et découvrir les méthodes pour protéger votre vie privée, je vous recommande également de suivre ma formation BTC204 sur Plan ₿ Network :
+Pour en savoir plus sur le modèle de confidentialité de Bitcoin et découvrir les méthodes pour protéger votre vie privée, je vous recommande également de suivre ma formation BTC204 sur Plan ₿ Academy :
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Les portefeuilles HD (_Hierarchical Deterministic_)
 
@@ -1315,7 +1315,7 @@ Par exemple, pour une entropie de 256 bits, le résultat $\text{ENT} \Vert \text
 
 ### Conversion de la séquence binaire en une phrase mnémonique
 
-La séquence de bits $\text{ENT} \Vert \text{CS}$ est ensuite découpée en segments de 11 bits. Chaque segment de 11 bits, une fois converti en décimal, correspond à un nombre compris entre 0 et 2047, qui désigne la position d’un mot [dans une liste de 2048 mots standardisée par le BIP39](https://github.com/Planb-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
+La séquence de bits $\text{ENT} \Vert \text{CS}$ est ensuite découpée en segments de 11 bits. Chaque segment de 11 bits, une fois converti en décimal, correspond à un nombre compris entre 0 et 2047, qui désigne la position d’un mot [dans une liste de 2048 mots standardisée par le BIP39](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
 ![CYP201](assets/en/042.webp)
 
@@ -1357,7 +1357,7 @@ Une phrase de 12 mots, qui offre également 128 bits de sécurité, est donc act
 
 Pour aller plus loin et découvrir concrètement comment générer manuellement une phrase mnémonique de test, je vous conseille de découvrir ce tutoriel :
 
-https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
+https://planb.academy/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
 
 Avant de poursuivre la dérivation du portefeuille à partir de cette phrase mnémonique, je vais vous présenter, dans le chapitre suivant, la passphrase BIP39, car celle-ci joue un rôle dans la dérivation, et elle se situe au même niveau que la phrase mnémonique.
 

@@ -665,7 +665,7 @@ Yapılandırmadan sonra kurulumunuzu test edin:
 
 
 
-### Plan ₿ Network üzerindeki alternatifler
+### Plan ₿ Academy üzerindeki alternatifler
 
 
 Maksimum koruma için diğer kılavuzlarımıza başvurun:
@@ -673,14 +673,14 @@ Maksimum koruma için diğer kılavuzlarımıza başvurun:
 
 
 
-- [Firefox sertleştirilmiş](https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f) - Gelişmiş çoklu platform yapılandırması
-- [Tor Browser](https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb) - Tam ağ anonimliği
-- [Mullvad Browser](https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e) - Maksimum parmak izi koruması
+- [Firefox sertleştirilmiş](https://planb.academy/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f) - Gelişmiş çoklu platform yapılandırması
+- [Tor Browser](https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb) - Tam ağ anonimliği
+- [Mullvad Browser](https://planb.academy/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e) - Maksimum parmak izi koruması
 
 
 
-Tarayıcıların tarihi ve işleyişinin yanı sıra günlük hayatınızdaki başlıca dijital nesneler hakkında daha fazla bilgi edinmek istiyorsanız, sizi Plan ₿ Network'de bulunan yeni ücretsiz eğitim kursumuz SCU 202'yi keşfetmeye davet ediyorum:
+Tarayıcıların tarihi ve işleyişinin yanı sıra günlük hayatınızdaki başlıca dijital nesneler hakkında daha fazla bilgi edinmek istiyorsanız, sizi Plan ₿ Academy'de bulunan yeni ücretsiz eğitim kursumuz SCU 202'yi keşfetmeye davet ediyorum:
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

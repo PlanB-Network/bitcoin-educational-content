@@ -134,13 +134,13 @@ Zde se musíme rozhodnout, který bazén použijeme. V tomto návodu vám ukáž
 
 
 
-https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
+https://planb.academy/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
 
 Druhou možností je připojit nás k Mining pool, který mina v sólo, jako je Public Pool, postupujte podle tohoto návodu:
 
 
 
-https://planb.network/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
 ### Bazén Braiins
 
@@ -150,7 +150,7 @@ Abychom se k tomuto fondu mohli připojit, musíme si vytvořit účet.Tento fon
 
 
 
-https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
+https://planb.academy/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
 
 Jakmile je to hotovo, jsme v přístrojové desce bazénu Braiins. Musíme poolu sdělit, že se chceme připojit k jednomu z našich těžařů, takže na levé straně obrazovky najdete několik položek. Musíme přejít na položku "workers"
 
@@ -168,7 +168,7 @@ a musíme kliknout na fialové tlačítko vpravo s nápisem "Připojit pracovní
 
 
 
-Zde se zobrazí okno s informacemi, které potřebujeme k připojení našeho mini Miner k bazénu. Zde můžeme provést jedinou změnu, a to zvolit Stratum V2. Co je to Stratum v2, se dozvíte z této položky ve [slovníku pojmů](https://planb.network/en/resources/glossary/stratum-v2).
+Zde se zobrazí okno s informacemi, které potřebujeme k připojení našeho mini Miner k bazénu. Zde můžeme provést jedinou změnu, a to zvolit Stratum V2. Co je to Stratum v2, se dozvíte z této položky ve [slovníku pojmů](https://planb.academy/en/resources/glossary/stratum-v2).
 
 
 

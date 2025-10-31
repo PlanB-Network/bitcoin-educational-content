@@ -5,7 +5,7 @@ description: Hoe kun je deelnemen aan de vertaling van de statische elementen op
 ![cover](assets/cover.webp)
 
 
-De missie van Plan ₿ Network is om eersteklas educatieve bronnen over Bitcoin aan te bieden en deze in zoveel mogelijk talen te vertalen. Veel van de inhoud die op de site wordt gepubliceerd is open-source en wordt gehost op GitHub, zodat iedereen kan deelnemen aan het verrijken van het platform. Bijdragen kunnen verschillende vormen aannemen: het corrigeren en proeflezen van bestaande inhoud, het bijwerken van informatie of het creëren van nieuwe tutorials om toe te voegen aan het platform.
+De missie van Plan ₿ Academy is om eersteklas educatieve bronnen over Bitcoin aan te bieden en deze in zoveel mogelijk talen te vertalen. Veel van de inhoud die op de site wordt gepubliceerd is open-source en wordt gehost op GitHub, zodat iedereen kan deelnemen aan het verrijken van het platform. Bijdragen kunnen verschillende vormen aannemen: het corrigeren en proeflezen van bestaande inhoud, het bijwerken van informatie of het creëren van nieuwe tutorials om toe te voegen aan het platform.
 
 
 In deze tutorial laten we je zien hoe je eenvoudig kunt bijdragen aan de vertaling van de statische elementen op onze website. De gegevens op het platform zijn verdeeld in twee hoofdcategorieën:
@@ -18,12 +18,12 @@ In deze tutorial laten we je zien hoe je eenvoudig kunt bijdragen aan de vertali
 Om de educatieve inhoud te vertalen, gebruiken we [kunstmatige intelligentie] (https://github.com/Asi0Flammeus/LLM-Translator). Om eventuele fouten in deze bestanden te corrigeren, nodigen we proeflezers uit om bij te dragen. Als je inhoud wilt proeflezen, raadpleeg dan de volgende handleiding:
 
 
-https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
+https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 Aan de andere kant, als je geïnteresseerd bent in het vertalen van de statische elementen van de website (met uitzondering van educatieve inhoud), ben je op de juiste plaats! Om de frontend effectief te vertalen, gebruiken we de tool Weblate, die heel eenvoudig te gebruiken is en de aanpak van de vertaling vergemakkelijkt.
 
 
-Als je een compleet nieuwe taal aan Plan ₿ Network wilt toevoegen, neem dan contact op met het Plan ₿ Network team via onze [Telegram groep] (https://t.me/PlanBNetwork_ContentBuilder). Als je geen telegram hebt, kun je een e-mail sturen naar mari@planb.network. Zorg ervoor dat je een kleine presentatie schrijft over wie je bent en welke talen je spreekt.
+Als je een compleet nieuwe taal aan Plan ₿ Academy wilt toevoegen, neem dan contact op met het Plan ₿ Academy team via onze [Telegram groep] (https://t.me/PlanBNetwork_ContentBuilder). Als je geen telegram hebt, kun je een e-mail sturen naar mari@planb.network. Zorg ervoor dat je een kleine presentatie schrijft over wie je bent en welke talen je spreekt.
 
 Onze teamleden zullen je specifieke instructies geven en de gerelateerde "issues" openen op Github om je werk te coördineren.
 
@@ -31,7 +31,7 @@ Onze teamleden zullen je specifieke instructies geven en de gerelateerde "issues
 Volg eerst deze specifieke tutorial om een nieuwe taal toe te voegen aan de Weblate.
 
 
-https://planb.network/tutorials/contribution/content/weblate-add-new-language-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
+https://planb.academy/tutorials/contribution/content/weblate-add-new-language-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
 
 Als je klaar bent om te beginnen met vertalen, kom dan terug naar deze tutorial en neem de volgende punten door.
 
@@ -40,7 +40,7 @@ Als je klaar bent om te beginnen met vertalen, kom dan terug naar deze tutorial 
 
 
 
-- Ga naar [de zelf gehoste Weblate van Plan ₿ Network](https://weblate.planb.network/):
+- Ga naar [de zelf gehoste Weblate van Plan ₿ Academy](https://weblate.planb.network/):
 
 ![weblate](assets/01.webp)
 
@@ -70,7 +70,7 @@ Als je klaar bent om te beginnen met vertalen, kom dan terug naar deze tutorial 
 ![weblate](assets/06.webp)
 
 
-- Je kunt nu teruggaan naar het Plan ₿ Network dashboard:
+- Je kunt nu teruggaan naar het Plan ₿ Academy dashboard:
 
 ![weblate](assets/07.webp)
 
@@ -159,7 +159,7 @@ Als je klaar bent om te beginnen met vertalen, kom dan terug naar deze tutorial 
 
 
 - Als je woorden vindt die tussen accolades "{" staan, hoef je ze niet te vertalen. Bijvoorbeeld, in "Uw account is aangemaakt, {{userName}}!", vertaal je de hele zin, maar behoud je "gebruikersnaam" in het Engels.
-- Als je "Plan ₿ Network" in een string tegenkomt, zorg er dan voor dat je het woord "netwerk" NIET vertaalt (beschouw Plan ₿ Network als een handelsmerk). Gebruik trouwens altijd de ₿ van Bitcoin!
+- Als je "Plan ₿ Academy" in een string tegenkomt, zorg er dan voor dat je het woord "netwerk" NIET vertaalt (beschouw Plan ₿ Academy als een handelsmerk). Gebruik trouwens altijd de ₿ van Bitcoin!
 - Als je het woord "netwerk" alleen tegenkomt, kun je het in plaats daarvan vertalen.
 - Vertaal "B-CERT" niet, want dat is een ander vast woord.
 - Als je strings tegenkomt die eindigen met een spatie, kun je die laten staan.
@@ -174,4 +174,4 @@ Als je klaar bent om te beginnen met vertalen, kom dan terug naar deze tutorial 
 ![weblate](assets/23.webp)
 
 
-Alvast bedankt voor je bijdrage aan de vertaling van Plan ₿ Network! Als je specifieke vragen of opmerkingen voor ons hebt, neem dan gerust contact met ons op via de [Telegram groep](https://t.me/PlanBNetwork_ContentBuilder).
+Alvast bedankt voor je bijdrage aan de vertaling van Plan ₿ Academy! Als je specifieke vragen of opmerkingen voor ons hebt, neem dan gerust contact met ons op via de [Telegram groep](https://t.me/PlanBNetwork_ContentBuilder).

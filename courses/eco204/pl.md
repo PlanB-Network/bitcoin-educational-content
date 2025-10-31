@@ -1429,7 +1429,7 @@ Kluczowym wnioskiem jest to, że istnieje kilka strategii przezwyciężenia hipe
 <chapterId>f3ffbb47-3aeb-54bd-80a9-adccb0f419e2</chapterId>
 
 
-[Odkryj zeskanowaną kolekcję w *Bitcoin Educational Toolkit* (dostępną również w sekcji *Resources* na platformie Plan ₿ Network)](https://penpot.planb.network/#/view?page-id=c157057b-fd28-8042-8004-4f081b21defc&file-id=c157057b-fd28-8042-8004-4f081b21defb&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6475c2af5889&interactions-mode=show-on-click)
+[Odkryj zeskanowaną kolekcję w *Bitcoin Educational Toolkit* (również dostępne w sekcji *Zasoby* na platformie Plan ₿ Academy.](https://penpot.planb.network/#/view?page-id=c157057b-fd28-8042-8004-4f081b21defc&file-id=c157057b-fd28-8042-8004-4f081b21defb&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6475c2af5889&interactions-mode=show-on-click)
 
 
 ![image](assets/pl/068.webp)

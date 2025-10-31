@@ -148,4 +148,4 @@ Bayangkan Anda menulis kepada pengguna kami `EBC5604D9386E594CCC32943A03F96A9668
 
 Jika Anda menikmati penemuan Tox dan dapat memahami bagaimana kegunaannya untuk memperkuat privasi Anda, silakan berikan "suka" pada tutorial ini. Kami juga merekomendasikan tutorial kami tentang Simple Login, sebuah aplikasi yang memungkinkan Anda menerima dan mengirim email secara anonim.
 
-https://planb.network/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
+https://planb.academy/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41

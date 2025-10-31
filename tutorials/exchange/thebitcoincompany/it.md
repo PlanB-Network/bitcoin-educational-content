@@ -40,7 +40,7 @@ In breve, "spendere" e "sostituire" sembrano essere la strada da seguire. Partec
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 Il messaggio non potrebbe essere più chiaro: "Spendi i tuoi Bitcoin ovunque".
 
@@ -117,9 +117,9 @@ Se siete della vecchia scuola e volete scoprire come creare facilmente una casel
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Per quanto ci riguarda, optiamo per "Accedi con Lightning".
 
@@ -154,7 +154,7 @@ Apriamo quindi il nostro Wallet Phoenix e scansioniamo il codice QR mostrato. Un
 
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 Immediatamente, si viene identificati tramite il proprio Wallet Lightning, che può essere Phoenix o un altro, naturalmente, dato che la maggior parte dei portafogli sul mercato supporta questa funzione.
 
@@ -291,4 +291,4 @@ Se volete contribuire alla diffusione del Bitcoin e incoraggiare un commerciante
 
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

@@ -134,13 +134,13 @@ Aha tuzobwirizwa gufata ingingo y’ikidengeri twokoresha. Muri iyi nyigisho nzo
 
 
 
-https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
+https://planb.academy/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
 
 Ihitamwo rya kabiri ni ukudufatanya na Mining pool iyo mina mu solo, nka Public Pool, ukurikize iyi nzira kugira ngo ubikore:
 
 
 
-https://planb.network/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
 ### Ikidengeri c'ubwonko
 
@@ -150,7 +150,7 @@ Kugira ngo twinjire muri iki kinogo dukeneye gukora konti. iki kigega na co nyen
 
 
 
-https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
+https://planb.academy/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
 
 Ivyo bimaze gushika tuba turi mu gicapo c’ibarabara ca Braiins. Ico dutegerezwa gukora n’ukubwira pool ko dushaka kwifatanya n’umwe mu Bacukuzi bacu, rero ku ruhande rw’ibubamfu rw’ibarabara uzosanga umubare w’ibintu vyinjiye. Turakeneye kuja ku "abakozi."
 
@@ -168,7 +168,7 @@ kandi dukeneye gukanda kuri buto y'umuyugubwe iri iburyo ivuga ngo "Huza abakozi
 
 
 
-Aha niho haje idirisha rifise amakuru dukeneye kugira ngo duhuze mini Miner yacu n’ikidengeri. Aha ihinduka rimwe gusa dushobora gukora ni uguhitamwo Stratum V2. Kugira umenye ico Stratum v2 ari co raba iyi nkuru iri muri [urutonde rw’amajambo](https://planb.network/ru/ibikoresho/urutonde rw’amajambo/urugero-v2).
+Aha niho haje idirisha rifise amakuru dukeneye kugira ngo duhuze mini Miner yacu n’ikidengeri. Aha ihinduka rimwe gusa dushobora gukora ni uguhitamwo Stratum V2. Kugira umenye ico Stratum v2 ari co raba iyi nkuru iri muri [urutonde rw’amajambo](https://planb.academy/ru/ibikoresho/urutonde rw’amajambo/urugero-v2).
 
 
 

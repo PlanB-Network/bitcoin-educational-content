@@ -85,11 +85,11 @@ Pokud potřebujete pomoci s počátečním nastavením zařízení, máme pro ka
 
 
 
-https://planb.network/tutorials/wallet/hardware/trezor-safe-5-4413308a-a1b5-4ba4-bc49-72ae661cc4e0
+https://planb.academy/tutorials/wallet/hardware/trezor-safe-5-4413308a-a1b5-4ba4-bc49-72ae661cc4e0
 
-https://planb.network/tutorials/wallet/hardware/trezor-safe-3-51d0d669-5d23-47c2-beb6-cc6fa0fb0ea0
+https://planb.academy/tutorials/wallet/hardware/trezor-safe-3-51d0d669-5d23-47c2-beb6-cc6fa0fb0ea0
 
-https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
+https://planb.academy/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 
 ### O novém portfoliu
 
@@ -139,7 +139,7 @@ Pro více informací o správném způsobu ukládání a správy frází Mnemoni
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 V zařízení Trezor vyberte celkový počet sdílených položek, které chcete nakonfigurovat. Nejběžnější konfigurace jsou 2-de-3 a 3-de-5. Pro tento příklad vytvořím 2-de-3, takže vyberu 3 sdílení. Každá sdílená složka bude představovat frázi Mnemonic o 20 slovech.
 
@@ -273,7 +273,7 @@ Gratulujeme, nyní jste se seznámili s používáním zálohování s jedním a
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Pokud vám tento návod přišel užitečný, budu vám vděčný, když mi níže zanecháte palec Green. Neváhejte tento článek sdílet na svých sociálních sítích. Děkuji vám mnohokrát!
 

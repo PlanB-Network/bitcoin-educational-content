@@ -71,7 +71,7 @@ Scan de QR-code met je verificatietoepassing, voer de 6-cijferige code in en kli
 Als je niet bekend bent met het gebruik van authenticatie applicaties voor de 2FA, raad ik je aan deze tutorial over de Authy applicatie te bekijken:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Voer je wachtwoord in om te bevestigen.
 
@@ -184,9 +184,9 @@ Voer het bedrag in dat je wilt kopen. Je moet ook kiezen hoe je je Sats wilt opn
 Als je niet bekend bent met het gebruik van Bitcoin, Lightning of Liquid wallets, raad ik je aan onze speciale training te volgen:
 
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
-Je kunt ook [onze gedetailleerde tutorials over de beste Bitcoin wallets] (https://planb.network/tutorials/wallet) verkennen.
+Je kunt ook [onze gedetailleerde tutorials over de beste Bitcoin wallets] (https://planb.academy/tutorials/wallet) verkennen.
 
 
 Bevestig dan je aankoop door op "*Koop bevestigen*" te klikken.
@@ -295,4 +295,4 @@ Nu weet je hoe je gemakkelijk Bitcoin kunt kopen en verkopen met Bull Bitcoin. A
 Ik raad je ook aan deze andere uitgebreide tutorial te bekijken om te leren hoe je je Mnemonic zin op de juiste manier kunt beheren:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270

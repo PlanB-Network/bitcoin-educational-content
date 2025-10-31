@@ -194,7 +194,7 @@ Først og fremst kan du lese vår guide til ProtonMail for mer informasjon:
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 Logg inn på ProtonMail-kontoen din og gå til sikkerhetsinnstillingene. Se etter alternativet "Tofaktorautentisering" og aktiver det.
 
@@ -495,7 +495,7 @@ Ideelt sett bør du bruke mer enn én sekundær faktor på kritiske kontoer. Ikk
 
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 Ha også trykte nødkoder tilgjengelig.
 
@@ -545,7 +545,7 @@ Du finner vår guide til Authy nedenfor:
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Proton Authenticator er en av de mest omfattende og sikre løsningene som finnes: åpen kildekode, kryptert synkronisering på flere enheter, ingen kommersiell oppfølging.
 

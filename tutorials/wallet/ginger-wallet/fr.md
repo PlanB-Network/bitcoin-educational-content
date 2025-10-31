@@ -20,7 +20,7 @@ Le coinjoin chaumien offre un haut niveau de sécurité, car les fonds demeurent
 
 Pour approfondir la notion de coinjoin, consultez le cours BTC 204 de Plan ₿ Academy :
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ## Installer Ginger Wallet 
 
@@ -57,7 +57,7 @@ Appuyez ensuite sur **Commencer**, puis sur **Nouveau** pour créer un nouveau p
 
 Passez ensuite à la sauvegarde et à la confirmation de votre seedphrase.
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ![screen](assets/fr/09.webp)
 
@@ -67,7 +67,7 @@ Pour plus de sécurité, Ginger Wallet vous donne la possibilité d'ajouter une 
 
 ![screen](assets/fr/11.webp)
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Cette passphrase une fois ajoutée, vous sera demandée à chaque fois que vous tenterez d'accéder à votre portefeuille.
 
@@ -180,7 +180,7 @@ Pour recevoir des bitcoins dans votre portefeuille sur Ginger Wallet :
 
 - Entrez le nom de la source à laquelle vous souhaitez associer l’adresse. C'est de l'étiquetage permettant de conserver la traçabilité de vos paiements. Cela n’a aucune incidence on-chain ; il s’agit simplement d’une information de traçabilité conservée localement dans votre application ;
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 ![screen](assets/fr/28.webp)
 
@@ -306,4 +306,4 @@ Si ce tutoriel vous a été utile, merci de me laisser un pouce vert ci-dessous.
 
 Je vous suggère également de consulter ce tutoriel sur comment utiliser l'application Liana sur ordinateur pour envoyer et recevoir des bitcoins, ainsi que de mettre en œuvre un plan de succession automatisé.
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04

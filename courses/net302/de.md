@@ -90,7 +90,7 @@ Sind Sie bereit, in die Welt der Computernetzwerke einzutauchen? Los geht's!
 **HINWEIS**: Die Beschreibungen basieren auf einem GNU/Linux CentOS 7 System. Die Netzwerkkonfigurationen sind jedoch weitgehend identisch, wenn man ein Debian- mit einem CentOS-System vergleicht. Wir werden also keine Unterscheidung machen. Wenn es einen gibt, werden wir ihn mit einem speziellen Logo versehen.
 
 
-**N.B.**: Wenn Sie während des Kurses auf unbekannte Begriffe stoßen, schlagen Sie bitte im [Glossar] (https://planb.network/resources/glossary) nach.
+**N.B.**: Wenn Sie während des Kurses auf unbekannte Begriffe stoßen, schlagen Sie bitte im [Glossar] (https://planb.academy/resources/glossary) nach.
 
 
 
@@ -283,11 +283,11 @@ Jeder Layer des TCP/IP-Stapels bietet spezifische Dienste, die es ermöglichen, 
 | Switch   | Locally addresses interfaces and forwards traffic via MAC                            | Network Access         |
 | Network Interface Card (NIC)     | Signal encoding, cabling, connectors, physical specifications                        | Network Access         |
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 ## IPv5 QoS-Protokoll
 
@@ -653,7 +653,7 @@ sudo apt install ipcalc
 ```
 
 
-https://planb.network/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
+https://planb.academy/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
 
 ## Das TCP-Protokoll
 
@@ -1379,11 +1379,11 @@ Im nächsten Kapitel werden wir uns ausführlich mit der IP Address-Konfiguratio
 
 
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 
 ## Wie konfiguriere ich das Netzwerk mit "ip"?
@@ -3068,7 +3068,7 @@ Wiederholte oder intensive Anfragen an DNS-Server von Drittanbietern ohne Genehm
 Bei der Überwachung oder Sicherung eines lokalen oder weitläufigen Netzwerks ist es wichtig, aktive Geräte und die von ihnen angebotenen Dienste zu identifizieren. Genau das leistet das Tool "nmap" (*Network Mapper*).
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 #### Einführung in `nmap`
 
@@ -3120,7 +3120,7 @@ Ein Administrator kann sich für verschiedene Aufgaben auf `nmap` verlassen:
 - **Schwachstellenvorbeugung**: Erkennen unsicherer oder veralteter Dienste, die auf kritischen Rechnern laufen.
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 ### Werkzeuge zur Prozessabfrage
 

@@ -11,15 +11,15 @@ Jos haluat osallistua Plan ₿ Networkin sisällön tarkistamiseen ja korjaamise
 Jos et ymmärtänyt yllä olevaa kohtaa, älä huoli - tämä ohje on sinua varten!
 
 ---
-## Mikä on Plan ₿ Network?
+## Mikä on Plan ₿ Academy?
 
-Plan ₿ Network on foorumi, jossa voi oppia Bitcoinista lukuisilla kursseilla ja opetusohjelmilla kaikille. Tällä hetkellä kaikki sisältömme on avointa lähdekoodia, sitä ylläpidetään GitHub-tietovarastossa ja se on avoinna tarkistuksille ja sisällön luomiselle.
+Plan ₿ Academy on foorumi, jossa voi oppia Bitcoinista lukuisilla kursseilla ja opetusohjelmilla kaikille. Tällä hetkellä kaikki sisältömme on avointa lähdekoodia, sitä ylläpidetään GitHub-tietovarastossa ja se on avoinna tarkistuksille ja sisällön luomiselle.
 
 Plan ₿ Networkin tavoitteena on tulla Bitcoin-verkkoavaruuden julkiseksi aukioksi, joka yhdistää ja kannustaa Bitcoin-yhteisöjä maailmanlaajuisesti.
 
 ## Miksi osallistua?
 
-Plan ₿ Network on pohjimmiltaan monikielinen, sillä tavoitteenamme on tuoda Bitcoin-resurssit kaikkien ulottuville maailmanlaajuisesti. Uskomme, että kieli ei saisi olla esteenä suvereenille rahalle.
+Plan ₿ Academy on pohjimmiltaan monikielinen, sillä tavoitteenamme on tuoda Bitcoin-resurssit kaikkien ulottuville maailmanlaajuisesti. Uskomme, että kieli ei saisi olla esteenä suvereenille rahalle.
 
 Tämän saavuttamiseksi käytämme Human x AI -lähestymistapaa. [Ohjelmamme] (https://github.com/Asi0Flammeus/LLM-Translator) avulla voimme kääntää sisällön automaattisesti monille kielille. Tarvitsemme kuitenkin sujuvan puhujan tarkistamaan sen, jotta voimme varmistaa, että sisältö on ymmärrettävää ja ettei siinä ole sopimattomia termejä.
 
@@ -33,20 +33,20 @@ Sinun ei tarvitse olla GitHub-asiantuntija arvioidaksesi sisältöä. Vaikka on 
 
 Jos Git ja GitHub eivät kuitenkaan ole sinulle tuttuja ja haluat oppia lisää, voit tutustua näitä työkaluja käsittelevään johdantoartikkeliin:
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 ## 1. Luo tili
 
 
 - Luo tili [GitHubissa](https://github.com/) aloittaaksesi osallistumisen. Jos haluat ohjeita GitHub-tilin luomiseen, meillä on myös yksityiskohtainen ohje:
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 - Tarvitset myös tilin viestisovellukseen [Telegram](https://telegram.org/).
 
 ## 2. Liity Telegram-ryhmään
 
 
-- Liity [PBN Content Builder -ryhmään](https://t.me/PlanBNetwork_ContentBuilder) Telegramissa.
+- Liity [Plan ₿ Academy Content Builder -ryhmään](https://t.me/PlanBNetwork_ContentBuilder) Telegramissa.
 
 ![REVIEW](assets/fr/01.webp)
 
@@ -82,7 +82,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 ![REVIEW](assets/fr/06.webp)
 
-HUOM. On suositeltavaa tarkistaa koodi-ikkunassa, jolloin alkuperäinen sisältö näkyy erillisessä ikkunassa. Voit tarkastella tekstiä esimerkiksi Plan ₿ Network -verkkosivustolla tai GitHubin esikatselussa selaimen välilehdellä. Käytä `ctrl + F` löytääksesi virheet ja tehdäksesi korjauksia koodinäkymässä työn edetessä.
+HUOM. On suositeltavaa tarkistaa koodi-ikkunassa, jolloin alkuperäinen sisältö näkyy erillisessä ikkunassa. Voit tarkastella tekstiä esimerkiksi Plan ₿ Academy -verkkosivustolla tai GitHubin esikatselussa selaimen välilehdellä. Käytä `ctrl + F` löytääksesi virheet ja tehdäksesi korjauksia koodinäkymässä työn edetessä.
 
 ## 4. Sitoumusmuutokset
 
@@ -113,7 +113,7 @@ HUOM. On suositeltavaa tarkistaa koodi-ikkunassa, jolloin alkuperäinen sisält�
 
 - Jos et ole saanut tarkistusta valmiiksi ja haluat jatkaa työtäsi myöhemmin, voit yksinkertaisesti poistua.
 - Kun olet tehnyt muutokset, ne tallentuvat GitHub-haarukkaan.
-- Jos haluat jatkaa työtäsi, siirry GitHub-profiilisi kautta Plan ₿ Network -sisältöarkiston haaraan.
+- Jos haluat jatkaa työtäsi, siirry GitHub-profiilisi kautta Plan ₿ Academy -sisältöarkiston haaraan.
 
 ![REVIEW](assets/fr/14.webp)
 
@@ -143,12 +143,12 @@ Lisätietoja Plan ₿ -verkon oikolukuohjeista kielen tai muotoilun sääntöjen
 ## 7. Odota arviointia
 
 
-- Onneksi olkoon, PR-työsi on toimitettu! Voit seurata sen edistymistä "Pull requests" -välilehdellä [Plan ₿ Network's GitHub repository](https://github.com/PlanB-Network/bitcoin-educational-content/pulls):
+- Onneksi olkoon, PR-työsi on toimitettu! Voit seurata sen edistymistä "Pull requests" -välilehdellä [Plan ₿ Academy's GitHub repository](https://github.com/PlanB-Network/bitcoin-educational-content/pulls):
 
 ![REVIEW](assets/fr/12.webp)
 
 
-- Kiitos paljon panoksestanne! Hyväksymisen jälkeen Plan ₿ Network -tiimin jäsen ottaa sinuun yhteyttä palkkiosi lähettämiseksi. \**Maksut suoritetaan yksinomaan Lightning Networkin kautta\**.
+- Kiitos paljon panoksestanne! Hyväksymisen jälkeen Plan ₿ Academy -tiimin jäsen ottaa sinuun yhteyttä palkkiosi lähettämiseksi. \**Maksut suoritetaan yksinomaan Lightning Networkin kautta\**.
 - Jos haluat aloittaa alusta, palaa vaiheeseen 2 ja lähetä uusi viesti Telegram-ryhmässä jatkaaksesi osallistumista muuhun sisältöön. Muista synkronoida haarasi ennen uuden työhaaran luomista. Tee tämä menemällä haarasi etusivulle, valitsemalla päähaara nimeltä `dev` (vrt. \**A\**) ja napsauttamalla sitten "Synkronoi haarasi" -painiketta (vrt. \**B\**). Jos haaraasi on saatavilla päivityksiä, "Päivitä haara" -painike tulee näkyviin. Napsauta sitä suorittaaksesi päivityksen.
 
 ![REVIEW](assets/fr/16.webp)

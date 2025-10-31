@@ -16,7 +16,7 @@ Nende kahe parooliturvalisuse põhimõtte (unikaaalsus ja robustsus) rakendamine
 
 Paroolihaldur genereerib ja hoiab turvaliselt tugevaid paroole, võimaldades teil pääseda ligi kõigile oma veebikontodele ilma, et peaksite neid ükshaaval meelde jätma. Teil on vaja meeles pidada ainult ühte parooli, peaparooli, mis annab teile juurdepääsu kõigile halduris salvestatud paroolidele. Paroolihalduri kasutamine suurendab teie veebiturvalisust, kuna see hoiab ära paroolide korduvkasutuse ja genereerib süsteemselt juhuslikke paroole. Kuid see lihtsustab ka teie igapäevast kontode kasutamist, keskendades juurdepääsu teie tundlikule teabele.
 Selles õpetuses uurime, kuidas seadistada ja kasutada paroolihaldurit, et suurendada oma veebiturvalisust. Tutvustan teile Bitwardeni ja teises õpetuses vaatame teist lahendust nimega KeePass.
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Hoiatus: Paroolihaldur on suurepärane paroolide hoidmiseks, kuid **te ei tohiks kunagi hoida selles oma Bitcoini rahakoti mnemoonilist fraasi!** Pea meeles, et mnemooniline fraas tuleks eksklusiivselt salvestada füüsilisel kujul, nagu paberil või metallil.
 
@@ -68,9 +68,9 @@ Eelkõige soovitan tungivalt seadistada kahefaktoriline autentimine (2FA), et om
 
 Kui te pole kindel, kuidas neid 2FA seadmeid seadistada ja kasutada, soovitan järgida neid kahte muud õpetust:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 Selleks minge menüüs "*Seaded*" vahekaardile "*Turvalisus*".
 ![BITWARDEN](assets/notext/14.webp)
@@ -100,7 +100,7 @@ Nüüd, kui teie paroolihaldur on seadistatud, võite alustada oma veebikontode 
 ![BITWARDEN](assets/notext/25.webp)
 Avanevas vormis alustage salvestatava üksuse olemuse määramisega. Sisselogimismandaatide salvestamiseks valige rippmenüüst valik "*Login*".
 ![BITWARDEN](assets/notext/26.webp)
-Väljale "*Name*" sisestage oma mandaatidele kirjeldav nimi. See teeb teie paroolide otsimise ja organiseerimise lihtsamaks, eriti kui teil on suur hulk. Näiteks, kui soovite salvestada oma mandaadid PlanB Network saidile, võite selle üksuse nimetada viisil, mis muudab selle tulevikus otsingutel kohe äratuntavaks.
+Väljale "*Name*" sisestage oma mandaatidele kirjeldav nimi. See teeb teie paroolide otsimise ja organiseerimise lihtsamaks, eriti kui teil on suur hulk. Näiteks, kui soovite salvestada oma mandaadid Plan ₿ Academy saidile, võite selle üksuse nimetada viisil, mis muudab selle tulevikus otsingutel kohe äratuntavaks.
 ![BITWARDEN](assets/notext/27.webp)
 Valik "*Folder*" võimaldab teie mandaate kaustadesse klassifitseerida. Praegu me pole veel ühtegi loonud, kuid ma näitan teile hiljem, kuidas seda teha.
 ![BITWARDEN](assets/notext/28.webp)
@@ -128,7 +128,7 @@ Seejärel klõpsake nupul "*Save*".
 ![BITWARDEN](assets/notext/40.webp)
 Teie kaust ilmub nüüd teie halduris.
 ![BITWARDEN](assets/notext/41.webp)
-Identifikaatorile saate kausta määrata selle loomisel, nagu me varem tegime, või olemasolevat identifikaatorit muutes. Näiteks klõpsates oma identifikaatoril PlanB Network, saan seejärel valida selle klassifitseerimise kausta "*Bitcoin*".
+Identifikaatorile saate kausta määrata selle loomisel, nagu me varem tegime, või olemasolevat identifikaatorit muutes. Näiteks klõpsates oma identifikaatoril Plan ₿ Academy, saan seejärel valida selle klassifitseerimise kausta "*Bitcoin*".
 ![BITWARDEN](assets/notext/42.webp)
 Nii saate oma paroolihalduri struktureerida, et leida oma identifikaatoreid lihtsamini. Saate neid organiseerida kaustadesse nagu isiklik, professionaalne, pangad, e-postid, sotsiaalvõrgustikud, tellimused, ostud, haldus, voogedastus, salvestus, reisimine, tervis jne.
 Kui eelistate kasutada ainult Bitwardeni veebiversiooni, on see täiesti võimalik. Soovitan siis lisada oma paroolihalduri brauseri lemmikutesse, et tagada lihtne juurdepääs ja vältida õngitsusriski. Siiski pakub Bitwarden ka täielikku klientide valikut, mis võimaldab teil oma haldurit erinevatel seadmetel kasutada ja selle igapäevast kasutamist lihtsustada. Nad pakuvad märkimisväärselt mobiilirakendust, brauserilaiendust ja lauaarvutitarkvara. Vaatame koos, kuidas neid seadistada.
@@ -172,11 +172,11 @@ Ja lõpuks sisestage oma autentimisrakenduse 6-kohaline kood.
 Olete nüüd ühendatud oma Bitwardeni halduriga brauserilaienduse kaudu.
 
 ![BITWARDEN](assets/notext/51.webp)
-Näiteks, kui ma lähen tagasi PlanB Network lehele ja proovin oma kontole sisse logida, näete, et brauserisse integreeritud Bitwarden laiendus tuvastab sisselogimisväljad ja pakub automaatselt mulle valida varem salvestatud identifikaatori.
+Näiteks, kui ma lähen tagasi Plan ₿ Academy lehele ja proovin oma kontole sisse logida, näete, et brauserisse integreeritud Bitwarden laiendus tuvastab sisselogimisväljad ja pakub automaatselt mulle valida varem salvestatud identifikaatori.
 ![BITWARDEN](assets/notext/52.webp)
 Kui ma valin selle identifikaatori, täidab Bitwarden minu eest sisselogimisväljad. Selle laienduse funktsioon võimaldab kiiret ühendust veebilehtedega, ilma et oleks vaja kopeerida-kleepida volitusi Bitwarden veebirakendusest või tarkvarast.
 ![BITWARDEN](assets/notext/53.webp)
-Laiendus on samuti disainitud uute kontode loomise tuvastamiseks. Näiteks, luues uue konto PlanB Network'is, pakub Bitwarden automaatselt uue identifikaatori salvestamist.
+Laiendus on samuti disainitud uute kontode loomise tuvastamiseks. Näiteks, luues uue konto Plan ₿ Academy'is, pakub Bitwarden automaatselt uue identifikaatori salvestamist.
 ![BITWARDEN](assets/notext/54.webp)
 Selle ettepaneku peale klõpsates avaneb laiendus. See võimaldab mul sisestada uue identifikaatori üksikasjad ja genereerida tugeva, unikaalse parooli.
 ![BITWARDEN](assets/notext/55.webp)

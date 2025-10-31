@@ -51,7 +51,7 @@ Per maggiori dettagli sul funzionamento del Lightning Network, consultate il nos
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ### Modello di business
 
@@ -149,7 +149,7 @@ Consultate il nostro tutorial su Zeus per saperne di più su questo Wallet compl
 
 
 
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
 
 ### Configurazione web
 

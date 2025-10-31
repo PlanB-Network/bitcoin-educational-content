@@ -11,7 +11,7 @@ Een BIP39 passphrase is een optioneel wachtwoord dat, in combinatie met uw Mnemo
 Voordat je aan deze tutorial begint, als je niet bekend bent met het concept van een passphrase, hoe het werkt en de implicaties voor je Bitcoin Wallet, raad ik je ten zeerste aan dit andere theoretische artikel te raadplegen, waarin ik alles uitleg:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ## Hoe werkt de passphrase op een Ledger?
 
@@ -41,14 +41,14 @@ In deze tutorial gebruik ik de Ledger Flex als voorbeeld. Als je echter een ande
 **Attentie:** Als je al bitcoins hebt ontvangen op je Ledger voordat je de passphrase activeerde, moet je ze overmaken via een Bitcoin transactie. De passphrase genereert een set nieuwe sleutels, en creëert zo een Wallet die volledig onafhankelijk is van je initiële Wallet. Als u de passphrase toevoegt, hebt u een nieuwe Wallet, die leeg is. Dit verwijdert echter niet uw eerste Wallet zonder passphrase. U hebt er nog steeds toegang toe, rechtstreeks via uw Ledger zonder de passphrase in te voeren, of via een andere software met behulp van uw 24-woorden zin.
 
 
-Voordat je met deze tutorial begint, moet je ervoor zorgen dat je je Ledger al geïnitialiseerd hebt en je Mnemonic frase al gegenereerd is. Als dit niet het geval is en je Ledger nieuw is, volg dan de specifieke tutorial voor jouw model die beschikbaar is op PlanB Network. Zodra deze stap is voltooid, kunt u terugkeren naar deze tutorial.
+Voordat je met deze tutorial begint, moet je ervoor zorgen dat je je Ledger al geïnitialiseerd hebt en je Mnemonic frase al gegenereerd is. Als dit niet het geval is en je Ledger nieuw is, volg dan de specifieke tutorial voor jouw model die beschikbaar is op Plan ₿ Academy. Zodra deze stap is voltooid, kunt u terugkeren naar deze tutorial.
 
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
+https://planb.academy/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
 
 ## Hoe installeer ik een tijdelijke passphrase met een Ledger?
 
@@ -274,4 +274,4 @@ Gefeliciteerd, je Bitcoin Wallet is nu beveiligd met een passphrase! Als je deze
 Ik raad je ook aan deze andere complete tutorial over het gebruik van de Ledger Flex te bekijken:
 
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a

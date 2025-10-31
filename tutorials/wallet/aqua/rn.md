@@ -111,7 +111,7 @@ Muri iyo nzira nyene, urashobora kandi guhindura ururimi rw’ikoreshwa n’amah
 Imbere y’uko uronka ama bitcoins yawe ya mbere muri Wallet yawe, **Ndaguhanura cane gukora ikigeragezo co gusubirana ubusa**. Ushire ahabona amakuru amwamwe y’ishingiro, nka xpub yawe canke ubanza kwakira Address, hanyuma usibe Wallet yawe kuri app ya Aqua igihe ikiri ubusa. Hanyuma ugerageze gusubiza Wallet yawe kuri Aqua ukoresheje impapuro zawe zo gusubiza inyuma. Suzuma ko amakuru y’ibifungurwa vyasohowe inyuma yo gusubizaho ahuye n’ayo wanditse mu ntango. Nivyashika, urashobora kwizigira yuko amakete yawe y’impapuro ari ay’ukwizigirwa. Kugira ngo umenye vyinshi ku buryo bwo gukora ikigeragezo co gukira, usabwe kuraba iyi yindi nyigisho:
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 Ntushobora kuyibona ku rubuga rwanje kuko ndiko nkoresha emulateur, ariko mu ma settings, uzosanga hariho uburyo bwo gufunga app ukoresheje ubuhinga bwo kwemeza ko ari umuntu. Ndagusavye cane gukoresha iki gikoresho c’umutekano kuko, ataco, umuntu wese afise uburenganzira bwo gukoresha telefone yawe ifunguye yoshobora kwiba amafaranga yawe y’ibiceri. Ushobora gukoresha Face ID kuri iOS canke urutoke rwawe kuri Android. Iyo ubwo buryo butashobotse mu gihe co kwemeza, urashobora gukoresha porogarama ukoresheje kode ya PIN ya telefone yawe.
 
@@ -284,4 +284,4 @@ Niwaba wabonye ko iyi nyigisho ari ngirakamaro, noshima cane iyo usiga urukumu r
 Ndagusavye kandi kuraba iyi yindi nyigisho yuzuye kuri Blockstream Green mobile app, ari yo yindi nzira iryoshe yo gushinga Liquid Wallet yawe :
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a

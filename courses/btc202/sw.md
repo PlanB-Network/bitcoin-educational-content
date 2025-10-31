@@ -118,7 +118,7 @@ Kisha tutachukua muda kukagua baadhi ya nadharia iliyoshughulikiwa mapema katika
 
 
 
-Kama ilivyo kwa kozi zote za Plan ₿ Network, katika sehemu ya mwisho, utapata mtihani wa mwisho ili kujaribu ujuzi wako wa nodi za Bitcoin.
+Kama ilivyo kwa kozi zote za Plan ₿ Academy, katika sehemu ya mwisho, utapata mtihani wa mwisho ili kujaribu ujuzi wako wa nodi za Bitcoin.
 
 
 
@@ -516,7 +516,7 @@ Kwa kutumia nodi yako mwenyewe, unatangaza miamala yako moja kwa moja kwa mtanda
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Shughuli zisizodhibitiwa
 
@@ -865,9 +865,9 @@ Hii ndiyo mbinu huru na inayoweza kunyumbulika zaidi: unajua hasa kinachoendelea
 
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
 #### Bitcoin Knots (mteja mbadala mkuu)
 
@@ -886,7 +886,7 @@ Kuna sababu 2 zinazowezekana za kuchagua Mafundo juu ya Msingi:
 - Sera**: Baadhi ya watu wanapendelea kutumia wateja mbadala kama vile Knots kwa sababu zisizo za kiufundi, hasa kusaidia njia mbadala ya Core na hivyo kupunguza ukiritimba wake. Ikiwa Core ingewahi kuathiriwa, itakuwa muhimu sio tu kuwa na wateja mbadala thabiti, wanaodumishwa vyema lakini pia kujua jinsi ya kuwatumia kwa ufanisi. Wengine hutumia Knots kwa madhumuni ya kupinga, kwa sababu wamepoteza imani na wasanidi wa Core au hawaidhinishi wengi wa usimamizi wa mteja.
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
 Binafsi, ninapendekeza uchague Msingi, haswa ili kufaidika na viraka vya usalama kwa haraka zaidi. Hakika, baadhi ya udhaifu uliogunduliwa katika Mafundo hurekebishwa kwa kuchelewa. Kwa ujumla zaidi, mchakato wa ukuzaji wa Core umeundwa kwa uthabiti na kuungwa mkono na idadi kubwa ya wachangiaji, ilhali Knots hudumishwa na mtu mmoja na ina jumuiya ndogo zaidi. Kwa upande mwingine, sheria za relay huwa zinapoteza umuhimu wake leo, haswa zinapotumiwa na sehemu ndogo tu ya mtandao (kulingana na nadharia ya upekuzi).
 
@@ -942,7 +942,7 @@ Sitaingia kwa undani zaidi hapa juu ya jinsi inavyofanya kazi na sifa zake maalu
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 ### Start9 (StartOS)
 
@@ -968,7 +968,7 @@ Kwa kifupi, ikiwa unahitaji tu programu muhimu za Bitcoin, bila kupendezwa hasa 
 
 
 
-https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
+https://planb.academy/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
 
 ### MyNode
 
@@ -986,7 +986,7 @@ Kwa mazoezi, MyNode huleta pamoja vizuizi vyote vya msingi vinavyohitajika ili k
 
 
 
-https://planb.network/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
+https://planb.academy/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
 
 ### RaspiBlitz
 
@@ -1004,7 +1004,7 @@ Ikiwa unamiliki Raspberry Pi, hili ni chaguo bora, kwani mifumo kamili zaidi kam
 
 
 
-https://planb.network/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
+https://planb.academy/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
 
 ### RoninDojo
 
@@ -1026,7 +1026,7 @@ Hapo awali mradi ulitoa mashine iliyosanidiwa awali inayoitwa Tanto, lakini hii 
 
 
 
-https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
+https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
 
 ### Nodl
 
@@ -1565,7 +1565,7 @@ Ikiwa umechagua Raspberry Pi 5 (chaguo ambalo sikupendekeza, kama ilivyotajwa ka
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 Kama ilivyotajwa katika sehemu iliyotangulia, nilichagua kuendesha mafunzo haya kwenye Kompyuta ndogo iliyorekebishwa ambayo nilipata kwa bei nzuri: *Lenovo ThinkCentre M900 Tiny* iliyo na kichakataji cha Intel Core i7 na RAM ya GB 16. Huu ni usanidi mzuri sana wa kuendesha Umbrel, haswa kwa nodi ya Bitcoin. Walakini, nilichagua usanidi huu kwa sababu ninataka kusakinisha nodi ya Umeme na programu zingine zinazohitajika zaidi baadaye. Pia nimeongeza SSD ya 2TB kwenye ThinkCentre yangu ili kuhifadhi Blockchain kamili na bado nina ukingo mzuri. Kwa usanidi huu, gharama ya jumla ni €270, pamoja na gharama zote.
 
@@ -1822,7 +1822,7 @@ Ili kutambua IP ya Umbrel Address yako, kuna njia kadhaa, kutoka rahisi hadi ya 
 
 
 
-https://planb.network/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
+https://planb.academy/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
 
 
 
@@ -1864,9 +1864,9 @@ Chagua nenosiri thabiti na uhakikishe kuwa unahifadhi angalau nakala moja (kidhi
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Mara tu unapoingiza nenosiri lako, bofya kitufe cha "*Unda*".
 
@@ -1944,7 +1944,7 @@ Kwanza kabisa, ninapendekeza sana kuwezesha uthibitishaji wa sababu mbili (2FA).
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Ili kufanya hivyo, bofya kwenye kisanduku sambamba katika mipangilio.
 
@@ -2435,7 +2435,7 @@ Kama ilivyoelezwa hapo awali, mgunduzi anaweza kupangishwa mtandaoni kwenye tovu
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 Zaidi ya hayo, Mtoa Huduma wako wa Mtandao (ISP) anaweza kujua kwamba unatazama muamala fulani kupitia tovuti ya Block explorer. Hili pia linazua swali la uaminifu: lazima utegemee huduma ya mtandaoni ili kukupa taarifa sahihi kuhusu miamala yako, bila kuwa na uwezo wa kuthibitisha ukweli wake wewe mwenyewe.
 
@@ -2472,7 +2472,7 @@ Ili kujifunza zaidi kuhusu kutumia Mempool.Space Explorer, ninapendekeza mafunzo
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ### Njia ya Umeme
 
@@ -2492,15 +2492,15 @@ Umbrel hutoa idadi ya maombi ili kukusaidia kupata nodi yako ya Umeme na kufanya
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
 Kisha unaweza kusimamia nodi yako kutoka kwa Interface kuu, au, kwa utendakazi mkubwa zaidi na chaguo za kina, sakinisha *Ride The Lightning* au *ThunderHub*. Zana hizi zitakupa mfumo mpana zaidi wa usimamizi wa Interface wa mtandao kwa nodi yako.
 
 
 
-https://planb.network/tutorials/node/lightning-network/ride-the-lightning-ca007688-0653-490c-8349-81d330d744b5
+https://planb.academy/tutorials/node/lightning-network/ride-the-lightning-ca007688-0653-490c-8349-81d330d744b5
 
-https://planb.network/tutorials/node/lightning-network/thunderhub-16909a39-2484-408e-a118-4e34e249bb9a
+https://planb.academy/tutorials/node/lightning-network/thunderhub-16909a39-2484-408e-a118-4e34e249bb9a
 
 ![Image](assets/fr/088.webp)
 
@@ -2564,7 +2564,7 @@ Ili kusakinisha na kusanidi Tailscale kwenye Mwavuli wako, angalia mafunzo haya,
 
 
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 ### Nostr
 
@@ -2598,7 +2598,7 @@ Ili kujua jinsi ya kutumia programu hizi zote, ninapendekeza uangalie mafunzo ha
 
 
 
-https://planb.network/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b-17c2ea1e08fd
+https://planb.academy/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b-17c2ea1e08fd
 
 ### Seva ya BTPay
 
@@ -2626,7 +2626,7 @@ Ikiwa unamiliki biashara na ungependa kukubali malipo ya Bitcoin moja kwa moja k
 
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 
 
@@ -2634,7 +2634,7 @@ https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 
 
-https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
+https://planb.academy/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 
 
 
@@ -2642,7 +2642,7 @@ https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 
 
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 
 # Dhana za hali ya juu na mazoea bora
@@ -2751,7 +2751,7 @@ Ili kuongeza ujuzi wako wa usalama wa kompyuta kwa ujumla, ninapendekeza sana ua
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 ### Utambuzi na kujisaidia
 
@@ -3077,9 +3077,9 @@ Ukuaji wa seti ya UTXO pia unatokana na muundo wa shughuli za malipo rahisi kwen
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-Kwa kuwa sehemu yake lazima iwekwe kwenye RAM ili kuthibitisha miamala kwa wakati unaofaa, seti ya UTXO inaweza hatua kwa hatua kufanya utendakazi wa Full node kuwa wa gharama kubwa sana. Ili kutatua tatizo hili, tayari kuna mapendekezo machache, hasa [Utreexo](https://planb.network/resources/glossary/utreexo).
+Kwa kuwa sehemu yake lazima iwekwe kwenye RAM ili kuthibitisha miamala kwa wakati unaofaa, seti ya UTXO inaweza hatua kwa hatua kufanya utendakazi wa Full node kuwa wa gharama kubwa sana. Ili kutatua tatizo hili, tayari kuna mapendekezo machache, hasa [Utreexo](https://planb.academy/resources/glossary/utreexo).
 
 
 
@@ -3894,7 +3894,7 @@ Sasa unaweza kuendelea hadi sehemu ya mwisho ya kozi, ambapo utaweza kutathmini 
 
 
 
-Sasa una chaguo kadhaa ambazo zimefunguliwa kwako. Hatua inayofuata ya kimantiki ni kusanidi nodi yako ya Umeme, kukuruhusu kujitegemea kikamilifu kwa shughuli zako za off-chain. Hili litakuwa somo la kozi ijayo, itakayochapishwa msimu huu wa vuli 2025 kwenye Plan ₿ Network.
+Sasa una chaguo kadhaa ambazo zimefunguliwa kwako. Hatua inayofuata ya kimantiki ni kusanidi nodi yako ya Umeme, kukuruhusu kujitegemea kikamilifu kwa shughuli zako za off-chain. Hili litakuwa somo la kozi ijayo, itakayochapishwa msimu huu wa vuli 2025 kwenye Plan ₿ Academy.
 
 
 
@@ -3902,7 +3902,7 @@ Wakati huo huo, ninakualika ugundue mafunzo ya BTC 204, ambayo yatakuwezesha kue
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 # Sehemu ya mwisho

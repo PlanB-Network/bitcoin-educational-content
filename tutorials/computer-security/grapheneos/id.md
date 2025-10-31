@@ -146,7 +146,7 @@ Selain aplikasi yang ditemukan di repositori default F-Droid, banyak proyek open
 
 Layar utama F-Droid
 
-https://planb.network/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
+https://planb.academy/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
 
 ### Aurora Store
 [Aurora Store](https://auroraoss.com/) adalah versi FOSS dari Google Play Store. Aurora memiliki tampilan dan nuansa yang sangat mirip dengan Play Store tradisional dan memungkinkan Anda untuk mengunduh dan memperbarui aplikasi apa pun yang biasanya Anda temukan melalui opsi Google.
@@ -167,7 +167,7 @@ Aurora juga memiliki beberapa potensi vektor serangan, karena "akun anonim" sebe
 
 Layar beranda Aurora Store
 
-https://planb.network/tutorials/computer-security/data/aurora-store-b3345da7-1ed1-407e-a9ae-a1c7f0ba9967
+https://planb.academy/tutorials/computer-security/data/aurora-store-b3345da7-1ed1-407e-a9ae-a1c7f0ba9967
 
 ### Unduhan APK
 
@@ -203,9 +203,9 @@ Untuk melindungi aktivitas online Anda dari penyedia layanan internet (ISP) yang
 
 Berikut dua opsi yang diakui yang memungkinkan Anda membayar layanan dengan Bitcoin tanpa memberikan informasi pribadi apa pun. Keduanya tersedia di F-Droid.
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 ### Pesan
 
@@ -222,15 +222,15 @@ Kebanyakan orang yang tidak tertarik pada ruang privasi kemungkinan besar menggu
 
 Kiri: Threema Kanan: Simplex
 
-https://planb.network/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
+https://planb.academy/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
 
-https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
+https://planb.academy/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
-https://planb.network/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3
+https://planb.academy/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3
 
-https://planb.network/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
+https://planb.academy/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
 
 ### Media
 - [Spotube](https://f-droid.org/packages/oss.krtirtho.spotube/) adalah aplikasi Spotify lintas platform yang tidak memerlukan akun Premium. Spotube tersedia melalui F-Droid.
@@ -306,13 +306,13 @@ Kanan: Proton Calendar
 Kiri: Proton Pass
 Kanan: Bitwarden
 
-https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
+https://planb.academy/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
+https://planb.academy/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
 
-https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
+https://planb.academy/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 ### Solusi Cloud
 
@@ -325,7 +325,7 @@ https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253
 
 Proton Drive
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 ## Kekurangan
 

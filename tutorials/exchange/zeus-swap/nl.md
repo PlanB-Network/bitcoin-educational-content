@@ -51,7 +51,7 @@ Voor meer informatie over hoe de Lightning Network werkt, kun je onze speciale c
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ### Bedrijfsmodel
 
@@ -149,7 +149,7 @@ Bekijk onze Zeus-handleiding voor meer informatie over deze complete Wallet :
 
 
 
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
 
 ### Webconfiguratie
 

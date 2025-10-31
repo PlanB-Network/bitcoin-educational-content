@@ -43,7 +43,7 @@ Viimase osa juhivad teised kõnelejad, kes tutvustavad konkreetseid RGB-põhisei
 ---
 See koolituskursus kasvas algselt välja kahenädalasest edasijõudnute arenduslaagrist Viareggios, Toscanas, mille korraldas [Fulgur'Ventures] (https://fulgur.ventures/). Esimene nädal, mis keskendus Rustile ja SDK-dele, on leitav sellest teisest kursusest:
 
-https://planb.network/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
+https://planb.academy/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
 
 Sellel kursusel keskendume stardilaagri teisele nädalale, mis keskendub RGB-le.
 
@@ -1820,7 +1820,7 @@ Lightning Network on Bitcoini detsentraliseeritud maksekanalite (või _state cha
 
 Lisateabe saamiseks selle kohta, kuidas Lightning töötab, soovitan teil läbida selle teise kursuse:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 #### Mitme protokolliga seotud kohustused - MPC
 
@@ -3029,8 +3029,8 @@ Siin on näide YAML-faili loomiseks:
 interface: RGB20Fixed
 globals:
 spec:
-ticker: PBN
-name: Plan B Network
+ticker: Plan ₿ Academy
+name: Plan ₿ Academy
 details: "Pay attention: the asset has no value"
 precision: 2
 terms:
@@ -3074,7 +3074,7 @@ rgb contracts
 
 ![RGB-Bitcoin](assets/en/087.webp)
 
-Seejärel kuvatakse järgmise käsuga globaalsed olekud (nimi, ticker, pakkumine...) ja nimekiri Owned States, st eraldised (näiteks 1 miljon `PBN` tokenit, mis on määratletud UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
+Seejärel kuvatakse järgmise käsuga globaalsed olekud (nimi, ticker, pakkumine...) ja nimekiri Owned States, st eraldised (näiteks 1 miljon `Plan ₿ Academy` tokenit, mis on määratletud UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
 
 ```bash
 rgb state '<ContractId>'
@@ -3257,7 +3257,7 @@ Tegelikkuses võimaldab Lightning Network makseid suunata mitme kanali kaudu, ka
 
 Seetõttu tuleb RGB toimimist Lightning'ile vaadelda paralleelselt Lightning-võrgu enda toimimisega. Kui soovite selles teemas sügavamalt süveneda, siis soovitan kindlasti vaadata seda teist põhjalikku koolituskursust:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ### RGB koodikaart
 
@@ -3754,7 +3754,7 @@ Loomulikult saate järjekorda kohandada. Tehingu kinnitamiseks kaevandame :
 ./regtest.sh mine 1
 ```
 
-Nüüd saame luua RGB vara. Käsk sõltub sellest, millist tüüpi vara soovite luua ja millised on selle parameetrid. Siinkohal loome NIA (*Non Inflatable Asset*) tokeni nimega "PBN", mille varu on 1000 ühikut. `precision` võimaldab teil määrata ühikute jagatavuse.
+Nüüd saame luua RGB vara. Käsk sõltub sellest, millist tüüpi vara soovite luua ja millised on selle parameetrid. Siinkohal loome NIA (*Non Inflatable Asset*) tokeni nimega "Plan ₿ Academy", mille varu on 1000 ühikut. `precision` võimaldab teil määrata ühikute jagatavuse.
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3762,8 +3762,8 @@ curl -X POST -H "Content-Type: application/json" \
 "amounts": [
 1000
 ],
-"ticker": "PBN",
-"name": "Plan B Network",
+"ticker": "Plan ₿ Academy",
+"name": "Plan ₿ Academy",
 "precision": 0
 }' \
 http://localhost:3001/issueassetnia
@@ -3799,7 +3799,7 @@ Käsk tagastab minu sõlme nr 2 avaliku võtme:
 
 ![RGB-Bitcoin](assets/en/110.webp)
 
-Järgmisena avame kanali, määrates vastava vara (`PBN`). Käsk `/openchannel` võimaldab määrata kanali suuruse satoshis ja valida, kas lisada RGB-vara. See sõltub sellest, mida soovite luua, kuid minu puhul on käsk :
+Järgmisena avame kanali, määrates vastava vara (`Plan ₿ Academy`). Käsk `/openchannel` võimaldab määrata kanali suuruse satoshis ja valida, kas lisada RGB-vara. See sõltub sellest, mida soovite luua, kuid minu puhul on käsk :
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3838,7 +3838,7 @@ Tehingu kinnitamiseks kaevandatakse 6 plokki:
 
 ![RGB-Bitcoin](assets/en/112.webp)
 
-Lightning-kanal on nüüd avatud ja sisaldab ka 500 "PBN"-märki sõlme nr 1 poolel. Kui sõlm nr 2 soovib saada PBN-märke, peab ta looma arve. Seda saab teha järgmiselt:
+Lightning-kanal on nüüd avatud ja sisaldab ka 500 "Plan ₿ Academy"-märki sõlme nr 1 poolel. Kui sõlm nr 2 soovib saada Plan ₿ Academy-märke, peab ta looma arve. Seda saab teha järgmiselt:
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3867,7 +3867,7 @@ lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87e
 
 ![RGB-Bitcoin](assets/en/113.webp)
 
-Nüüd maksame selle arve esimesest sõlmest, kus on vajalik raha "PBN" sümboliga:
+Nüüd maksame selle arve esimesest sõlmest, kus on vajalik raha "Plan ₿ Academy" sümboliga:
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \

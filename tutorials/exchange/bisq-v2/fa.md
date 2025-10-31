@@ -11,7 +11,7 @@ description: راهنمای کامل استفاده از Bisq 2 و تبادل ب
 مبادلات همتا به همتای بدون KYC (P2P) برای حفظ حریم خصوصی کاربران و استقلال مالی ضروری هستند. آن‌ها امکان انجام تراکنش‌های مستقیم بین افراد را بدون نیاز به تأیید هویت فراهم می‌کنند، که برای کسانی که به حریم خصوصی اهمیت می‌دهند بسیار مهم است. برای درک عمیق‌تر مفاهیم نظری، به دوره BTC204 نگاهی بیندازید:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Bisq 2 چیست؟
 
@@ -117,7 +117,7 @@ Bisq 2 نسخه جدیدی از Bisq Exchange غیرمتمرکز محبوب اس
 - اصالت فایل دانلود شده را تأیید کنید (توصیه اکید). برای راهنمایی دقیق در مورد تأیید امضا، به آموزش زیر مراجعه کنید:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### 2. نصب بر اساس سیستم شما
 

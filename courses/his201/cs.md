@@ -123,7 +123,7 @@ Zde je fotografie z roku 1977, kterou pořídil Chuck Painter pro Stanford News 
 Objev asymetrické kryptografie také motivoval vytvoření jednosměrných funkcí, které se vyznačují tím, že výpočet obrazu (směrem dopředu) je velmi snadný a získání pre-obrazu (směrem zpět) velmi obtížné. Konkrétně to vedlo k vývoji prvních kryptografických hashovacích funkcí, které transformují zprávu proměnné velikosti na pevně danou velikost. Mezi lety 1989 a 1991 bylo tak navrženo několik hashovacích algoritmů (MD2, MD4 a MD5) Ronaldem Rivestem pro MIT.
 Základní kryptografické prvky Bitcoinu vycházejí z tohoto výzkumu. Schéma podpisu ECDSA, které umožňuje autorizaci výdajů tradiční transakce, bylo vytvořeno v roce 1992 pro NIST. Hašovací funkce SHA-256, používaná na několika místech v protokolu, byla publikována v roce 2001 jako součást sady algoritmů SHA-2, kterou zveřejnila NSA. Pro více informací na toto téma se můžete odkázat na kurz [CYP201] prezentovaný Loïc Morel.
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### Slepotiskové podpisy a elektronické peníze
 

@@ -12,13 +12,13 @@ PlanBネットワークに貢献したい場合は、変更を提案するため
 
 GitHubが何であるか、またはGitとGitHubに関連する技術用語についてもっと学びたい場合は、これらの概念に慣れるための導入記事を読むことをお勧めします。
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
 - まず、GitHubアカウントが必要になります。すでにアカウントをお持ちの場合はログインできますし、そうでない場合は新しいアカウントを作成するためのチュートリアルを使用できます。
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -65,7 +65,7 @@ Markdownファイルを編集するために特化したソフトウェアは多
 ![github-desktop](assets/17.webp)
 - GitHub Desktopがローカルにフォークをクローンするのを待ちます:
 ![github-desktop](assets/18.webp)
-リポジトリをクローンした後、ソフトウェアは2つのオプションを提供します。最初のオプション「To contribute to the parent project」を選択する必要があります。この選択により、将来の作業を親プロジェクト（`PlanB-Network/bitcoin-educational-content`）への貢献として、個人のフォーク（`[username]/bitcoin-educational-content`）の修正としてではなく、提示することができます。オプションを選択したら、`Continue`をクリックしてください：![github-desktop](assets/19.webp)
+リポジトリをクローンした後、ソフトウェアは2つのオプションを提供します。最初のオプション「To contribute to the parent project」を選択する必要があります。この選択により、将来の作業を親プロジェクト（`Plan ₿ Academy/bitcoin-educational-content`）への貢献として、個人のフォーク（`[username]/bitcoin-educational-content`）の修正としてではなく、提示することができます。オプションを選択したら、`Continue`をクリックしてください：![github-desktop](assets/19.webp)
 - これで、GitHub Desktopは正しく設定されました。これからは、ソフトウェアをバックグラウンドで開いたままにして、私たちが行う変更を追跡できます。
 ![github-desktop](assets/20.webp)
 この段階で達成したことは、GitHub上にホストされているリポジトリのローカルコピーの作成です。念のために言いますが、このリポジトリはPlanB Networkのソースリポジトリのフォークです。このローカルコピーに対して、チュートリアルの追加、翻訳、修正などの変更を加えることができます。これらの変更が行われたら、**Push origin** コマンドを使用して、ローカルの変更をGitHubにホストされているフォークに送信します。
@@ -96,6 +96,6 @@ Markdownファイルを編集するために特化したソフトウェアは多
 - これらのソフトウェアプログラムのいずれかをインストールし、将来の修正のためにそれを取っておいてください。 ![github-desktop](assets/26.webp)
 おめでとうございます！あなたの作業環境は、PlanB Networkへの貢献のために設定されました。これで、各種の貢献（翻訳、校正、執筆など）に対する私たちの他の特定のチュートリアルを探索することができます。
 
-https://planb.network/tutorials/others
+https://planb.academy/tutorials/others
 
 

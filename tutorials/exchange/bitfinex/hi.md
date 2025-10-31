@@ -32,12 +32,12 @@ description: मैं बिटफिनेक्स का उपयोग क
 मजबूत, अद्वितीय पासवर्ड का उपयोग करने और उसे सुरक्षित रखने के सुझावों के लिए, यह ट्यूटोरियल भी देखें:
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 अब हम अकाउंट को सुरक्षित करने के लिए 2FA कॉन्फ़िगर करने जा रहे हैं। अपने स्मार्टफ़ोन पर किसी प्रमाणीकरण एप्लिकेशन का उपयोग करें, जैसे कि Google प्रमाणक या Authy उदाहरण के लिए। आपको इस टूल पर एक ट्यूटोरियल यहाँ मिलेगा:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 अपने ऐप से QR कोड को स्कैन करें और दिए गए 6 अंक दर्ज करें।
 
@@ -245,9 +245,9 @@ Bitcoin को वापस लेने के लिए, "*वापस ले
 यदि आप Lightning Network में रुचि रखते हैं, तो हमारे पास एक पूर्ण प्रशिक्षण पाठ्यक्रम भी है जो आपको यह समझने में मदद करेगा कि यह कैसे काम करता है:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-अपने पहले बिटकॉइन खरीदने के बाद, आपके पास उन्हें प्लेटफ़ॉर्म पर छोड़ने का विकल्प होता है, लेकिन मैं दृढ़ता से उन्हें स्व-संरक्षण में अपने स्वयं के Wallet में स्थानांतरित करने की सलाह देता हूं। यदि आप अभी तक नहीं जानते हैं कि Bitcoin Wallet का उपयोग कैसे किया जाता है, तो मैं आपको [Plan ₿ Network पर "Wallet" अनुभाग](https://planb.network/tutorials/wallet) का पता लगाने के लिए आमंत्रित करता हूं।
+अपने पहले बिटकॉइन खरीदने के बाद, आपके पास उन्हें प्लेटफ़ॉर्म पर छोड़ने का विकल्प होता है, लेकिन मैं दृढ़ता से उन्हें स्व-संरक्षण में अपने स्वयं के Wallet में स्थानांतरित करने की सलाह देता हूं। यदि आप अभी तक नहीं जानते हैं कि Bitcoin Wallet का उपयोग कैसे किया जाता है, तो मैं आपको [Plan ₿ Academy पर "Wallet" अनुभाग](https://planb.academy/tutorials/wallet) का पता लगाने के लिए आमंत्रित करता हूं।
 
 
 ## 6 - बिटफ़ाइनक्स पर बिटकॉइन खरीदना और बेचना

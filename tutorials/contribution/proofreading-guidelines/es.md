@@ -1,20 +1,20 @@
 ---
 name: Pautas de corrección
-description: ¿Cuáles son los factores importantes que hay que tener en cuenta al corregir en Plan ₿ Network?
+description: ¿Cuáles son los factores importantes que hay que tener en cuenta al corregir en Plan ₿ Academy?
 ---
 
 ![github](assets/cover.webp)
 
-Bienvenido a este tutorial sobre las **directrices a seguir al revisar contenidos en Plan ₿ Network**. Nos complace que compartas nuestra misión de traducir los materiales de Bitcoin al mayor número de idiomas posible, con el fin de ayudar a la gente a conocer mejor cómo funciona y cómo puede utilizarse en su vida cotidiana.
+Bienvenido a este tutorial sobre las **directrices a seguir al revisar contenidos en Plan ₿ Academy**. Nos complace que compartas nuestra misión de traducir los materiales de Bitcoin al mayor número de idiomas posible, con el fin de ayudar a la gente a conocer mejor cómo funciona y cómo puede utilizarse en su vida cotidiana.
 
-En primer lugar, contribuir al [repositorio público] de Plan ₿ Network (https://github.com/PlanB-Network/Bitcoin-educational-content) te da la oportunidad de escribir tutoriales, corregir el contenido existente o incluso proponer la adición de un nuevo idioma a la plataforma. Para saber más, únete primero a nuestro [grupo de Telegram](https://t.me/PlanBNetwork_ContentBuilder) y escribe una breve presentación sobre ti y los idiomas que puedes hablar.
+En primer lugar, contribuir al [repositorio público] de Plan ₿ Academy (https://github.com/PlanB-Network/Bitcoin-educational-content) te da la oportunidad de escribir tutoriales, corregir el contenido existente o incluso proponer la adición de un nuevo idioma a la plataforma. Para saber más, únete primero a nuestro [grupo de Telegram](https://t.me/PlanBNetwork_ContentBuilder) y escribe una breve presentación sobre ti y los idiomas que puedes hablar.
 
-El presente tutorial está dedicado a los colaboradores que desean corregir contenidos. La mayoría de ellos no saben mucho acerca de [Github](https://planb.network/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) o el [lenguaje Markdown](https://www.markdownguide.org/basic-syntax/) que utilizamos dentro del repositorio, por lo que es importante compartir algunas ideas sobre los factores clave que intervienen en esta tarea.
+El presente tutorial está dedicado a los colaboradores que desean corregir contenidos. La mayoría de ellos no saben mucho acerca de [Github](https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) o el [lenguaje Markdown](https://www.markdownguide.org/basic-syntax/) que utilizamos dentro del repositorio, por lo que es importante compartir algunas ideas sobre los factores clave que intervienen en esta tarea.
 
 A continuación, hemos reunido los problemas más comunes con los que se encuentran los correctores. Siéntete libre de sugerir más, ya que puede ayudar a otros a mejorar.
-Antes de entrar en materia, lo primero que hay que hacer es leer este tutorial sobre las acciones prácticas que hay que seguir en Github, bifurcando el repositorio Plan ₿ Network, confirmando cambios y enviando PR:
+Antes de entrar en materia, lo primero que hay que hacer es leer este tutorial sobre las acciones prácticas que hay que seguir en Github, bifurcando el repositorio Plan ₿ Academy, confirmando cambios y enviando PR:
 
-https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
+https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 ## ¿Qué es la corrección de contenido?
 
@@ -23,11 +23,11 @@ Cuando realices este tipo de tareas, es importante que sigas el sentido de la le
 
 Recuerda siempre que la traducción/revisión es EDUCACIÓN
 De hecho, nuestro objetivo común es educar al mayor número posible de personas sobre Bitcoin, por lo que es fundamental que el material que lean sea fluido y claro.
-En este sentido, todos los colaboradores de Plan ₿ Network son educadores
+En este sentido, todos los colaboradores de Plan ₿ Academy son educadores
 
-## Los primeros pasos antes de corregir en Plan ₿ Network
+## Los primeros pasos antes de corregir en Plan ₿ Academy
 
-Antes de empezar una nueva tarea de corrección, anúnciala en el [grupo de Telegram](https://t.me/PlanBNetwork_ContentBuilder) o informa a tu coordinador de Plan ₿ Network, quien abrirá un [issue] dedicada (https://github.com/orgs/PlanB-Network/projects/3). En el contexto de GitHub, un "issue" es una función que permite a los usuarios rastrear tareas, mejoras, errores o cualquier otra solicitud relacionada con un proyecto. Cuando recibas el enlace dei "issue", simplemente **comenta que vas a empezar** con la tarea de corrección de ese contenido.
+Antes de empezar una nueva tarea de corrección, anúnciala en el [grupo de Telegram](https://t.me/PlanBNetwork_ContentBuilder) o informa a tu coordinador de Plan ₿ Academy, quien abrirá un [issue] dedicada (https://github.com/orgs/Plan ₿ Academy/projects/3). En el contexto de GitHub, un "issue" es una función que permite a los usuarios rastrear tareas, mejoras, errores o cualquier otra solicitud relacionada con un proyecto. Cuando recibas el enlace dei "issue", simplemente **comenta que vas a empezar** con la tarea de corrección de ese contenido.
 
 Este sistema ayuda al coordinador a seguir el progreso dentro del repositorio, y permite que el contenido sea "reclamado" por el corrector, lo que evita la duplicación de esfuerzos por parte de otra persona.
 En la propia edición, encontrarás los enlaces que te redirigen al contenido a revisar. Puedes simplemente hacer clic en ellos, o, incluso mejor, puedes volver a tu propio repositorio y trabajar directamente desde allí. ¡Veamos cómo puedes hacerlo!
@@ -36,7 +36,7 @@ En primer lugar, **recuerda SIEMPRE SINCRONIZAR tu repo, en la rama "dev"**. De 
 
 ![REVIEW](assets/en/1.webp)
 
-Después de sincronizar con éxito, puedes acceder directamente al contenido de interés y confirmar en una nueva rama, como se muestra en este [tutorial](https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). De lo contrario, puedes abrir una nueva rama donde trabajar, haciendo clic en "Branches", como se muestra a continuación.
+Después de sincronizar con éxito, puedes acceder directamente al contenido de interés y confirmar en una nueva rama, como se muestra en este [tutorial](https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). De lo contrario, puedes abrir una nueva rama donde trabajar, haciendo clic en "Branches", como se muestra a continuación.
 
 ![REVIEW](assets/en/2.webp)
 
@@ -64,21 +64,21 @@ En este segundo caso, **investiga siempre para ver si alguien de tu comunidad Bi
 
 - En cualquier caso, nuestro consejo sería **insertar la palabra EN a pesar de todo**, añadiendo el significado correspondiente en el idioma de destino dentro de paréntesis, siguiendo el esquema EN (LANG), o viceversa. Ej. Address (indirizzo), o indirizzo (Address).
 
-- Otra buena solución es mantener la palabra/frase original y **crear un hipervínculo** que redirija al [glosario](https://planb.network/en/resources/glossary) en planb.network. Para ello, deberás insertar la palabra/frase entre corchetes y el enlace entre paréntesis, como se muestra en el siguiente ejemplo:
+- Otra buena solución es mantener la palabra/frase original y **crear un hipervínculo** que redirija al [glosario](https://planb.academy/en/resources/glossary) en planb.network. Para ello, deberás insertar la palabra/frase entre corchetes y el enlace entre paréntesis, como se muestra en el siguiente ejemplo:
 
 ```
-[UTXO](https://planb.network/resources/glossary/utxo)
+[UTXO](https://planb.academy/resources/glossary/utxo)
 ```
 
 En el resultado final (imagen inferior) no se visualizará el enlace completo, y la palabra pasará a ser clicable.
 
 ![REVIEW](assets/en/5.webp)
 
-Ten en cuenta que el enlace al glosario que tomará del sitio web contiene el código de idioma después de la palabra "network" (ejemplo: ``https://planb.network/en/resources/glossary/utxo``-> aquí puedes leer el código de idioma "en"). En este caso, **elimina el código de idioma del enlace**, como has visto en el cuadro anterior. De este modo, el sistema llevará automáticamente al lector a su idioma designado.
+Ten en cuenta que el enlace al glosario que tomará del sitio web contiene el código de idioma después de la palabra "network" (ejemplo: ``https://planb.academy/en/resources/glossary/utxo``-> aquí puedes leer el código de idioma "en"). En este caso, **elimina el código de idioma del enlace**, como has visto en el cuadro anterior. De este modo, el sistema llevará automáticamente al lector a su idioma designado.
 
 El contenido del repositorio está lleno de hipervínculos como estos de arriba. Ahora que sabes lo que significan, **asegúrate de no borrar ningún enlace** insertado por el autor original.
 
-- Otra cosa relacionada con la traducción de palabras es la siguiente. Si encuentras "Plan ₿ Network" en el texto, **déjalo en esta forma original**. No traduzca la palabra "plan" ni la palabra "network". Además, NO utilices el artículo "The" al presentar Plan ₿ Network: **considéralo como una marca**.
+- Otra cosa relacionada con la traducción de palabras es la siguiente. Si encuentras "Plan ₿ Academy" en el texto, **déjalo en esta forma original**. No traduzca la palabra "plan" ni la palabra "network". Además, NO utilices el artículo "The" al presentar Plan ₿ Academy: **considéralo como una marca**.
 
 - Lo mismo ocurre con "₿-CERT", "BIZ SCHOOL", "TECH SCHOOL", que también deben conservarse en su forma original.
 
@@ -155,7 +155,7 @@ Comprueba siempre todos los hipervínculos del texto para asegurarte de que son 
 
 ![REVIEW](assets/en/14.webp)
 
-- Siguiendo con el tema, si el autor inserta un enlace que haga referencia a un curso o tutorial de Plan ₿ Network (**no** entre paréntesis), el sitio web creará automáticamente una "tarjeta" mostrando la miniatura relacionada. En consecuencia, asegúrate siempre de que **hay un espacio entre el texto y el propio enlace**, de lo contrario podría aparecer el siguiente error en el sitio web.
+- Siguiendo con el tema, si el autor inserta un enlace que haga referencia a un curso o tutorial de Plan ₿ Academy (**no** entre paréntesis), el sitio web creará automáticamente una "tarjeta" mostrando la miniatura relacionada. En consecuencia, asegúrate siempre de que **hay un espacio entre el texto y el propio enlace**, de lo contrario podría aparecer el siguiente error en el sitio web.
 
 ![REVIEW](assets/en/15.webp)
 

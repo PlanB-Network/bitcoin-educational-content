@@ -293,7 +293,7 @@ Umbrel er en populær plattform for selvhosting (særlig brukt for Bitcoin/Light
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 Det er spesielt interessant å bruke Umbrel og Tailscale sammen, ettersom Umbrel integrerer en Tailscale-modul som er enkel å ta i bruk. Her kan du se hvordan Tailscale integreres med Umbrel og hva det gir:
 
@@ -419,7 +419,7 @@ Les vår komplette guide til konfigurering av Sparrow wallet med Bitcoin-noden:
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 
 
@@ -439,13 +439,13 @@ For å konfigurere Zeus med Lightning-noden din, se vår detaljerte veiledning:
 
 
 
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
 
 For å finne ut mer om Lightning Network og hvordan den fungerer på Umbrel, besøk:
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
 
 

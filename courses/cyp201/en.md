@@ -777,9 +777,9 @@ We use a finite field of integers modulo $p$ to ensure the accuracy of operation
 
 The mathematics of elliptic curves over finite fields are analogous to those over the field of real numbers, with the adaptation that all operations are performed modulo $p$. To simplify explanations, we will continue in the following chapters to illustrate concepts using a curve defined over real numbers, while keeping in mind that, in practice, the curve is defined over a finite field.
 
-If you wish to learn more about the mathematical foundations of modern cryptography, I also recommend consulting this other course on Plan ₿ Network:
+If you wish to learn more about the mathematical foundations of modern cryptography, I also recommend consulting this other course on Plan ₿ Academy:
 
-https://planb.network/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
+https://planb.academy/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 
 ## Calculating the Public Key from the Private Key
 
@@ -1201,7 +1201,7 @@ If this sighash flag is integrated into Bitcoin, it will enable the use of coven
 
 To deepen your knowledge of the Lightning Network, after the CYP201 course, I highly recommend the LNP201 course by Fanis Michalakis, which covers the topic in detail:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 In the next part, I propose to discover how the mnemonic phrase at the base of your Bitcoin wallet works.
 
@@ -1236,9 +1236,9 @@ If one wished to use multiple private keys, it was then necessary to make as man
 
 This constraint stems from Bitcoin's privacy model. By reusing the same address, it makes it easier for external observers to trace Bitcoin transactions. That's why reusing a receiving address is strongly discouraged. However, to have multiple addresses and publicly separate our transactions, it is necessary to manage multiple private keys. In the case of JBOK wallets, this implies creating as many backups as there are new pairs of keys, a task that can quickly become complex and difficult to maintain for users.
 
-To learn more about Bitcoin's privacy model and discover methods to protect your privacy, I also recommend following my BTC204 course on Plan ₿ Network:
+To learn more about Bitcoin's privacy model and discover methods to protect your privacy, I also recommend following my BTC204 course on Plan ₿ Academy:
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### HD Wallets
 
@@ -1343,7 +1343,7 @@ For example, for a 256-bit entropy, the result $\text{ENT} \Vert \text{CS}$ is 2
 
 ### Conversion of the Binary Sequence into a Mnemonic Phrase
 
-The bit sequence $\text{ENT} \Vert \text{CS}$ is then divided into segments of 11 bits. Each 11-bit segment, once converted to decimal, corresponds to a number between 0 and 2047, which designates the position of a word [in a list of 2048 words standardized by BIP39](https://github.com/Planb-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
+The bit sequence $\text{ENT} \Vert \text{CS}$ is then divided into segments of 11 bits. Each 11-bit segment, once converted to decimal, corresponds to a number between 0 and 2047, which designates the position of a word [in a list of 2048 words standardized by BIP39](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
 ![CYP201](assets/en/042.webp)
 
@@ -1388,7 +1388,7 @@ A 12-word phrase, which also offers 128 bits of security, is therefore currently
 
 To go further and learn concretely how to manually generate a test mnemonic phrase, I advise you to discover this tutorial:
 
-https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
+https://planb.academy/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
 
 Before continuing with the derivation of the wallet from this mnemonic phrase, I will introduce you, in the following chapter, to the BIP39 passphrase, as it plays a role in the derivation process, and it is at the same level as the mnemonic phrase.
 

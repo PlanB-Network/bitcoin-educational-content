@@ -90,7 +90,7 @@ description: सुरक्षित मेलबॉक्स सेट अप 
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ![proton](assets/notext/07.webp)
 
@@ -224,7 +224,7 @@ https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 "*भाषा और समय*" टैब में आप Interface की भाषा और समय क्षेत्र बदल सकते हैं।
 

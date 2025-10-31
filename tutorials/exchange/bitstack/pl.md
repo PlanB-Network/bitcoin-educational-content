@@ -73,10 +73,10 @@ Wybierz silne hasło, aby zabezpieczyć dostęp do swojego konta, a następnie k
 ![Image](assets/fr/06.webp)
 
 
-Do bezpiecznego zarządzania hasłami na co dzień zdecydowanie zaleca się korzystanie z menedżera haseł. Na Plan ₿ Network znajdziesz kilka poradników na temat najlepszych istniejących rozwiązań, takich jak Bitwarden :
+Do bezpiecznego zarządzania hasłami na co dzień zdecydowanie zaleca się korzystanie z menedżera haseł. Na Plan ₿ Academy znajdziesz kilka poradników na temat najlepszych istniejących rozwiązań, takich jak Bitwarden :
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Następnie zostaniesz poproszony o zweryfikowanie swojej tożsamości (KYC). Zgodnie z francuskimi przepisami zostaniesz poproszony o podanie swoich danych osobowych i dowodu tożsamości. Wypełnij pola z nazwiskiem, imieniem i datą urodzenia.
 
@@ -271,7 +271,7 @@ Określ priorytet transakcji. W przypadku wypłaty bez opłat wybierz priorytet 
 ![Image](assets/fr/32.webp)
 
 
-Jeśli nie jesteś zaznajomiony z działaniem Wallet, oferujemy samouczki dotyczące większości dostępnych rozwiązań [na Plan ₿ Network w sekcji "*Wallet*"] (https://planb.network/tutorials/wallet).
+Jeśli nie jesteś zaznajomiony z działaniem Wallet, oferujemy samouczki dotyczące większości dostępnych rozwiązań [na Plan ₿ Academy w sekcji "*Wallet*"] (https://planb.academy/tutorials/wallet).
 
 
 ## Sprzedaż Bitcoin

@@ -48,7 +48,7 @@ Bull Bitcoin гордится тем, что предоставляет проз
 
 Если вы не знакомы с использованием приложений для аутентификации 2FA, я рекомендую вам взглянуть на это руководство по приложению Authy:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Введите пароль для подтверждения.
 
@@ -125,9 +125,9 @@ https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-
 
 Если вы не знакомы с использованием кошельков Bitcoin, Lightning или Liquid, я предлагаю вам пройти наш специальный обучающий курс:
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
-Вы также можете изучить [наши подробные руководства по лучшим кошелькам Bitcoin](https://planb.network/tutorials/wallet).
+Вы также можете изучить [наши подробные руководства по лучшим кошелькам Bitcoin](https://planb.academy/tutorials/wallet).
 
 Затем подтвердите покупку, нажав на кнопку "*Подтвердить покупку*".
 
@@ -200,4 +200,4 @@ https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 Я также рекомендую вам ознакомиться с другим полным руководством, чтобы узнать, как правильно управлять мнемоническими фразами:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270

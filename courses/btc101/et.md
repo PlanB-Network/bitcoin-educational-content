@@ -85,7 +85,7 @@ Oluline on mõista seda uut tehnoloogiat üldiselt, nii et loodame, et teile mee
 
 Kas olete valmis sukelduma Bitcoini põnevasse maailma ja mõistma kõiki selle mehhanisme? Lähme!
 
-**Märkus**: Kui kursusel satute kokku tundmatute terminitega, palun vaadake [sõnastikust](https://planb.network/resources/glossary) definitsioonid.
+**Märkus**: Kui kursusel satute kokku tundmatute terminitega, palun vaadake [sõnastikust](https://planb.academy/resources/glossary) definitsioonid.
 
 ## Bitcoini eelajalugu
 
@@ -143,7 +143,7 @@ Kas Bitcoin on siiski "tõeline" valuuta? Selle mõistmiseks peame kõigepealt m
 
 Kui soovite Bitcoini ajalugu lähemalt uurida, siis soovitame tungivalt meie kursust HIS 201, kus saate teada Bitcoini päritolu ja aeglase tekkimise, samuti selle ajaloo ja kogukonna alguse. See kursus on täielikult dokumenteeritud ja varustatud allikatega, loomulikult koos paljude anekdootidega:
 
-https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
+https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 # Raha
 
@@ -263,7 +263,7 @@ Selle peatüki võib lõpetada Nobeli preemia laureaadi F. A. Hayeki 1984. aasta
 > "Ma ei usu, et meil peaks kunagi olema jälle hea raha, enne kui me selle asja valitsuse käest välja võtame. Kui me ei saa neid vägivaldselt valitsuse käest ära võtta, siis saame vaid mingi kavalal või ümbersuunatud viisil kehtestada midagi, mida nad ei saa peatada."
 > Et rohkem teada saada majanduslikest eksimustest ja vabadusest, kutsume teid üles avastama meie kursust ECO 102, mis käsitleb 19. sajandi prantsuse mõtleja Frédéric Bastiat' elu ja ideid, kes oleks kindlasti hinnanud Bitcoini tekkimist:
 
-https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
+https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
 ## Hüperinflatsioon
 
@@ -352,7 +352,7 @@ Valuuta, mis tugineb usaldusväärsele kolmandale osapoolele, nagu finantsasutus
 
 Hüperinflatsioonide teemasse süvenemiseks soovitame David St-Onge'i kursust ECO 204, kus saate teada, mis on hüperinflatsioonitsüklid ja nende tegelik mõju meie elule. Samuti avastate nende tsüklite sarnasused ja, mis kõige tähtsam, kuidas end nende eest kaitsta.
 
-https://planb.network/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
+https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
 ## 21 miljonit bitcoin'i
 
@@ -397,7 +397,7 @@ Pärast selle ülesande edukat täitmist saavad kaevandajad iga kümne minuti ta
 | 19             | 3,990,000    | 0.000095367431640625 BTC  | 20,999,959.946 BTC                         |
 | 20             | 4,200,000    | 0.0000476837158203125 BTC | 20,999,979.973 BTC                         |
 
-Me käsitleme kaevandamise mõistet üksikasjalikumalt [kaevandaja peatükis](https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
+Me käsitleme kaevandamise mõistet üksikasjalikumalt [kaevandaja peatükis](https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
 
 ### Digitaalse nappuse tagamine
 
@@ -505,11 +505,11 @@ Mis siis, kui keegi arvab kogemata ära meie 12 või 24 sõna nimekirja? Lühike
 
 Seega on teie Bitcoini rahakoti häkkimise tõenäosus astronoomiliselt väike, kui järgite häid turvatavasid, mida kirjeldame üksikasjalikult järgmises jaotises.
 
-Pidage meeles, et valige oma vajadustele ja kasutamisele sobiv rahakott: üksikasjalikud õpetused erinevate rahakottide haldamise ja turvamise kohta on saadaval [meie ülikooli õpetuste rubriigis](https://planb.network/tutorials/wallet).
+Pidage meeles, et valige oma vajadustele ja kasutamisele sobiv rahakott: üksikasjalikud õpetused erinevate rahakottide haldamise ja turvamise kohta on saadaval [meie ülikooli õpetuste rubriigis](https://planb.academy/tutorials/wallet).
 
 Kui soovite oma teekonna ajal rohkem teada saada Bitcoini rahakoti loomisest, alates entroopiast kuni aadresside vastuvõtmiseni, soovitame teile CYP 201 kursust, mis on pühendatud sellele teemale:
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ## Bitcoin rahakotid ja turvalisus
 
@@ -540,17 +540,17 @@ Järgnevalt määratleme mitu turvataset:
 
 Näiteks võite kasutada Sparrow rahakotti kuuma rahakotina:
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 - Tase 2\*\*, te kasutate füüsilist rahakotti ja olete kindlustanud oma nimekirja 12/24 sõnaga. Seda nimetatakse sageli "külmaks rahakotiks", sest teie võtmeid hoitakse seadmes, mis ei ole ühendatud internetti. Sellisel juhul peate alati iga tehingu oma seadmega allkirjastama, mis muudab teie raha igapäevaselt vähem kättesaadavaks.
 
 Näiteks võite kasutada Ledgerit, Satochipi või Tapsignerit:
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
+https://planb.academy/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
 
-https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
+https://planb.academy/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
 
 ![image](assets/et/031.webp)
 
@@ -558,7 +558,7 @@ https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4
 
 Et saada rohkem teavet BIP39 salasõna kasutamise ja toimimise kohta:
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ![image](assets/et/032.webp)
 
@@ -584,7 +584,7 @@ Teie bitcoinide turvalisus on äärmiselt oluline ja lihtsal veal võivad olla k
 
 Pange tähele, et kursus BTC102 juhendab teid selle sammu kaudu.
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ### See samm ei ole nali!
 
@@ -619,7 +619,7 @@ Nii "külmad" kui ka "kuumad" rahakotid kasutavad privaatvõtmete varundamisel s
 
 Kui soovid seejärel samm-sammult teada saada, kuidas luua oma rahakott ja saada oma esimesed bitcoinid, soovitame ka seda teist kursust:
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ## Aja testi läbimine
 
@@ -631,7 +631,7 @@ Nagu mis tahes liiki vara, tuleb ka teie bitcoinid kaitsta kadumise, varguse ja 
 
 Üks meetod oma bitcoinide pikaajaliseks kindlustamiseks on graveerida oma mnemo fraas vastupidavale materjalile, näiteks terasele, luues oma võtmetest füüsilise varukoopia, mis on vastupidav nii vee- kui ka tulekahjule.
 
-Saadaval on mitmesuguseid lahendusi: mõned neist on odavad, nagu näiteks "Blockmit", teised aga võivad nõuda erilisemaid seadmeid. Seda teemat saate lähemalt uurida meie akadeemia jaotises [õpetused](https://planb.network/en/tutorials/wallet).
+Saadaval on mitmesuguseid lahendusi: mõned neist on odavad, nagu näiteks "Blockmit", teised aga võivad nõuda erilisemaid seadmeid. Seda teemat saate lähemalt uurida meie akadeemia jaotises [õpetused](https://planb.academy/en/tutorials/wallet).
 
 ![image](assets/et/036.webp)
 
@@ -639,7 +639,7 @@ Saadaval on mitmesuguseid lahendusi: mõned neist on odavad, nagu näiteks "Bloc
 
 Selle esimese praktika kõrval on pärimisplaani koostamine oluline samm, et tagada teie bitcoinide nõuetekohane haldamine pärast teie surma. See plaan hõlmab käsitsi kirjutatud kirja, milles kirjeldate oma varade olemust, nende kasutusviise ja nende eest vastutavate usaldusisikute kontaktandmeid. Samuti on oluline arutada bitcoinide pärandamist notariga, et tagada maksukohustuse täitmine, isegi kui sellele isikule ei tohiks kunagi usaldada otseselt teie bitcoinide haldamist.
 
-Kui soovite oma bitcoinide pärimisplaani teemat põhjalikumalt uurida, soovitame lugeda Pamela Morgani raamatut [Cryptoasset Inheritance Plan] (https://planb.network/resources/books/28) või registreeruda kursusele BTC102, kus anname juhiseid plaani koostamiseks.
+Kui soovite oma bitcoinide pärimisplaani teemat põhjalikumalt uurida, soovitame lugeda Pamela Morgani raamatut [Cryptoasset Inheritance Plan] (https://planb.academy/resources/books/28) või registreeruda kursusele BTC102, kus anname juhiseid plaani koostamiseks.
 
 ![image](assets/et/037.webp)
 
@@ -720,7 +720,7 @@ Foorumist sai kiiresti Bitcoini kasutajate eelistatud arutelupaik, nii et selles
 
 Mõnede jaoks on Bitcoin määratletud kui seeneolend nagu [mütseel](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), samas kui teised kirjeldavad seda kui [musta auku](https://dergigi.com/). Armastage või vihkake seda, Bitcoin jätkab oma pideva rütmiga (10 minutit ploki kohta) nagu uue rahasüsteemi südamelöök.
 
-Satoshi Nakamoto kirjutistest rohkem teada saamiseks soovitame lugeda Phil Champagne'i ["The Book of Satoshi"](https://planb.network/en/resources/books/98) või ARTE dokumentaalfilmi "Le mystaire Satoshi".
+Satoshi Nakamoto kirjutistest rohkem teada saamiseks soovitame lugeda Phil Champagne'i ["The Book of Satoshi"](https://planb.academy/en/resources/books/98) või ARTE dokumentaalfilmi "Le mystaire Satoshi".
 
 ![image](assets/et/044.webp)
 
@@ -913,7 +913,7 @@ Bitcoini suhtes rakendatud mänguteooria välistab ebaausad kaevurid, kes kasuta
 
 Kui soovite süveneda Bitcoini kaevandamise teemasse, võite tutvuda meie MIN 201 kursusega. Sa avastad Proof-of-Worki toimimise ja rolli, samuti kaevandamise mehaanika. Samuti selgitame, kuidas muuta ASIC kütjaks, mis võimaldab teil kaevandada oma esimesed satoshid, samal ajal kui te kütate oma kodu!
 
-https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
+https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 ## Bitcoin ja ökoloogia
 
@@ -1064,17 +1064,17 @@ Me käsitleme seda teemat üksikasjalikult mõnel teisel kursusel, kuid et asi o
 
 - Lihtne veebipõhine lahendus: OpenNode
 
-https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 - Lahendus amatöörkaupmeestele: Šveitsi Bitcoin Pay
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - Lahendus suurtele struktuuridele või kirglikele bitcoin'ile: BTCpay Server
 
 Selle teema paremaks mõistmiseks soovitame meie koolitust BIZ101! Avastage, kuidas tõhusalt integreerida bitcoin oma ettevõtte rahandusse, aktsepteerida bitcoin maksevahendina vastavalt teie organisatsiooni profiilile ja mõista sellega seotud maksundus- ja raamatupidamisnõudeid:
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## Säästmine Bitcoiniga
 
@@ -1089,7 +1089,7 @@ Bitcoinist on saanud oluline finantsvara, peamiselt selle piiratud pakkumise ja 
 - Varasemad tulemused ei ole usaldusväärne näitaja tulevaste tulemuste kohta.
 - Vajaduse korral võtke ühendust oma finantsnõustajaga.
 
-**Plan ₿ Network ei anna investeerimisnõustamist ja midagi siin öeldut ei tohiks pidada selliseks**
+**Plan ₿ Academy ei anna investeerimisnõustamist ja midagi siin öeldut ei tohiks pidada selliseks**
 
 ### Mini kontrollnimekiri enne otsustamist
 
@@ -1117,7 +1117,7 @@ Järkjärguline strateegia hõlmab korduvaid oste, mis tähendab, et regulaarsel
 
 **Vältige UTXOsid**: Ärge unustage aeg-ajalt oma UTXO-d oma rahakotis konsolideerida. See tava on oluline oma bitcoinide tõhusaks haldamiseks ja tarbetute tasude vältimiseks tehingute ajal.
 
-[UTXO](https://planb.network/resources/glossary/utxo#:~:text=utxo) (Unspent Transaction Output) on tehingu väljund, mida ei ole veel kulutatud, mis tähendab, et seda ei ole kasutatud uue tehingu sisendina. UTXOde konsolideerimine tähendab mitme väikese UTXO ühendamist üheks suuremaks, et vähendada tehingu "kaalu" ja seega maksta madalamaid tasusid.
+[UTXO](https://planb.academy/resources/glossary/utxo#:~:text=utxo) (Unspent Transaction Output) on tehingu väljund, mida ei ole veel kulutatud, mis tähendab, et seda ei ole kasutatud uue tehingu sisendina. UTXOde konsolideerimine tähendab mitme väikese UTXO ühendamist üheks suuremaks, et vähendada tehingu "kaalu" ja seega maksta madalamaid tasusid.
 
 - Spontaanne ostmine
 
@@ -1131,7 +1131,7 @@ Bitcoine saab omandada mitmel viisil, millest igaühele kehtivad oma eeskirjad, 
 
 - DCA platvormid
 
-Nagu me eespool tutvustasime, on bitcoinide kogumise levinud meetodiks dollarikulude keskmistamine (DCA), mis hõlmab regulaarset väikeste koguste ostmist. Seda teenust pakuvad mitmed platvormid, näiteks need, mis on loetletud meie [spetsiaalsel leheküljel](https://planb.network/tutorials/exchange). Lisaks DCA seadistamise lihtsusele on väljavõtmised teie rahakotti üldiselt automaatsed, mis tähendab, et teil on alati kontroll oma varade üle.
+Nagu me eespool tutvustasime, on bitcoinide kogumise levinud meetodiks dollarikulude keskmistamine (DCA), mis hõlmab regulaarset väikeste koguste ostmist. Seda teenust pakuvad mitmed platvormid, näiteks need, mis on loetletud meie [spetsiaalsel leheküljel](https://planb.academy/tutorials/exchange). Lisaks DCA seadistamise lihtsusele on väljavõtmised teie rahakotti üldiselt automaatsed, mis tähendab, et teil on alati kontroll oma varade üle.
 
 Tänapäeval on peaaegu kõik DCA-lahendused suhteliselt tõhusad ja nende tasud on peaaegu sarnased, seega sõltub valik pigem kättesaadavusest teie riigis.
 
@@ -1159,7 +1159,7 @@ Oluline on tunnistada, et KYC on Bitcoini tööstuses oluline aruteluteema. Kuig
 
 ### Mitte-KYC lahendused
 
-Lisaks on olemas mitu [turuplatsi](https://planb.network/tutorials/exchange), kus saab bitcoine osta ja müüa peer-to-peer-vahetuses. Üldiselt peate mau kaaluma järgmist:
+Lisaks on olemas mitu [turuplatsi](https://planb.academy/tutorials/exchange), kus saab bitcoine osta ja müüa peer-to-peer-vahetuses. Üldiselt peate mau kaaluma järgmist:
 
 - Bitcoini sularahaautomaadid
 - Füüsilised kohtumised teiste bitcoini entusiastidega
@@ -1173,7 +1173,7 @@ Lõpuks on oluline märkida, et maksukohustused võivad sõltuvalt jurisdiktsioo
 
 Kui soovite süvendada oma teadmisi bitcoini ostmise, kasutamise ja turvamise strateegiate kohta, soovitan tungivalt läbida kursuse **BTC 102** pärast seda kursust. Seal avastate muu hulgas tööriistasoovitusi, mis sobivad teie profiili, vajaduste ja isiklike eesmärkidega:
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ## Hyper-bitcoinization
 
@@ -1195,7 +1195,7 @@ Lõpetuseks kutsume teid üles mõtlema selle uue rahapoliitilise revolutsiooni 
 
 ![image](assets/et/079.webp)
 
-Kui soovite laiendada oma teadmisi Bitcoini kohta, on nüüd õige aeg: paljud autorid, mõtlejad ja esseistid on loonud Bitcoini kohta haridusliku sisu. Viimase paari aasta jooksul oleme neid teoseid loetlenud ja kategoriseerinud, et pakkuda [ressursside raamatukogu](https://planb.network/resources) kõige uudishimulikumatele teie seas. Selles jaotises leiate parimad podcastid, veebisaidid, artiklid, õpetused, raamatud ja muu sisu.
+Kui soovite laiendada oma teadmisi Bitcoini kohta, on nüüd õige aeg: paljud autorid, mõtlejad ja esseistid on loonud Bitcoini kohta haridusliku sisu. Viimase paari aasta jooksul oleme neid teoseid loetlenud ja kategoriseerinud, et pakkuda [ressursside raamatukogu](https://planb.academy/resources) kõige uudishimulikumatele teie seas. Selles jaotises leiate parimad podcastid, veebisaidid, artiklid, õpetused, raamatud ja muu sisu.
 
 > "Ma arvan, et Internet saab olema üks peamisi jõudusid, mis vähendavad valitsuse rolli. Ainus asi, mis veel puudub, kuid mis peagi välja töötatakse, on usaldusväärne e-raha - meetod, mille abil saab Internetis raha A-st B-le üle kanda, ilma et A teaks B-d või B A-d." - Milton Friedmani ennustus 1999. aastal
 
@@ -1245,7 +1245,7 @@ Kokkuvõttes on Lightning Network paljutõotav katse luua tõhus maksesüsteem B
 
 Kui soovite minna sellest sissejuhatusest kaugemale ja mõista Lightning Networki kõiki toiminguid, soovitame võtta selle suurepärase kursuse, mille on koostanud Fanis Michalakis:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ## Lightning-võrgu kasutusjuhtumid
 

@@ -34,7 +34,7 @@ Chaque option présente des avantages et des inconvénients :
 
 Pour plus d'information sur le choix de votre matériel, je vous conseille de suivre cette formation :
 
-https://planb.network/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
+https://planb.academy/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 
 ### Matériel recommandé
 
@@ -102,7 +102,7 @@ Suivez ensuite le processus classique d’installation d’Ubuntu :
 
 Pour davantage de détails sur le processus d’installation d’Ubuntu, vous pouvez consulter notre tutoriel dédié :
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 ### 1.3. Mise à jour du système
 
@@ -238,7 +238,7 @@ sudo passwd dojo
 
 Le système vous demandera alors de saisir le mot de passe choisi, puis de le confirmer une seconde fois.
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ### 3.3. Autoriser l'utilisateur à utiliser Docker
 
@@ -598,7 +598,7 @@ En pratique, cette opération prend généralement entre **2 et 7 jours**. Penda
 
 Pour approfondir vos connaissances sur l’IBD et, plus largement, sur le fonctionnement ainsi que le rôle de votre nœud Bitcoin, je vous recommande de consulter ce cours :
 
-https://planb.network/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
+https://planb.academy/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 
 
 ## 7. Suivi de la synchronisation

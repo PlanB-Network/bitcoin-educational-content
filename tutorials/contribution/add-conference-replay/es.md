@@ -1,6 +1,6 @@
 ---
 name: Añadiendo la Repetición de una Conferencia
-description: ¿Cómo añadir la repetición de una conferencia en PlanB Network?
+description: ¿Cómo añadir la repetición de una conferencia en Plan ₿ Academy?
 ---
 ![conference](assets/cover.webp)
 
@@ -10,14 +10,14 @@ La misión de PlanB es proporcionar recursos educativos de primera categoría so
 
 Sin embargo, si quieres añadir una conferencia que tendrá lugar en el futuro, te aconsejamos que leas este otro tutorial en el que explicamos cómo añadir un nuevo evento al sitio.
 
-https://planb.network/tutorials/contribution/resource/add-event-1d3df554-c2d8-4e93-853f-58f672c5e097
+https://planb.academy/tutorials/contribution/resource/add-event-1d3df554-c2d8-4e93-853f-58f672c5e097
 
 
 ![conference](assets/01.webp)
 
 - Primero, necesitas tener una cuenta en GitHub. Si no sabes cómo crear una cuenta, hemos hecho un tutorial detallado para guiarte.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Ve al [repositorio de GitHub de PlanB dedicado a datos](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) en la sección `resources/conference/`:
@@ -85,7 +85,7 @@ tags:
 ![conference](assets/09.webp)
 
 Si aún no tienes un identificador de "*project*" para tu organización, puedes agregarlo siguiendo este otro tutorial.
-https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
+https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 - Una vez que hayas terminado de hacer cambios en este archivo, guárdalos haciendo clic en el botón `Commit changes...`:
   
@@ -107,7 +107,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
   
 ![conferencia](assets/14.webp)
 
-- Selecciona tu bifurcación del repositorio de PlanB Network:
+- Selecciona tu bifurcación del repositorio de Plan ₿ Academy:
   
 ![conferencia](assets/15.webp)
 
@@ -151,7 +151,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
   
 ![conferencia](assets/25.webp)
 
-- Se abrirá una nueva página. Arrastra y suelta una imagen que represente tu conferencia y que se mostrará en el sitio de PlanB Network:
+- Se abrirá una nueva página. Arrastra y suelta una imagen que represente tu conferencia y que se mostrará en el sitio de Plan ₿ Academy:
 
 ![conferencia](assets/26.webp)
 
@@ -250,7 +250,7 @@ Ponente: Satoshi Nakamoto
 
 ![conference](assets/37.webp)
 
-- Al principio de tu documento, en el "front matter", rellena el campo `name:` con el nombre de tu conferencia y el año de las repeticiones. En el campo `description:`, escribe una breve descripción de tu evento en el idioma del archivo. Por ejemplo, para un archivo llamado `es.md`, la descripción debe estar en español. El equipo de PlanB Network se encargará de traducir tu descripción utilizando su modelo.
+- Al principio de tu documento, en el "front matter", rellena el campo `name:` con el nombre de tu conferencia y el año de las repeticiones. En el campo `description:`, escribe una breve descripción de tu evento en el idioma del archivo. Por ejemplo, para un archivo llamado `es.md`, la descripción debe estar en español. El equipo de Plan ₿ Academy se encargará de traducir tu descripción utilizando su modelo.
 - Los títulos de primer nivel, marcados por un `#`, se utilizan para organizar la conferencia por escenas. Por ejemplo, `# Escenario Principal` para el escenario principal y `# Sala de Talleres` para un escenario dedicado a talleres.
 
 - Los títulos de segundo nivel, marcados por un doble `##`, se utilizan para separar los diferentes videos de repetición. Si las conferencias se filmaron continuamente durante medio día, indica, por ejemplo, `## Viernes por la mañana`. Si las conferencias se filmaron y transmitieron individualmente, nombra la conferencia directamente con un título de segundo nivel.
@@ -293,9 +293,9 @@ Ponente: Satoshi Nakamoto
   
 ![conferencia](assets/45.webp)
 
-¡Felicidades! Tu PR ha sido creado exitosamente. Un administrador lo revisará ahora y, si todo está en orden, lo fusionará en el repositorio principal de PlanB Network. Deberías ver las repeticiones de tu conferencia aparecer en el sitio web unos días después.
+¡Felicidades! Tu PR ha sido creado exitosamente. Un administrador lo revisará ahora y, si todo está en orden, lo fusionará en el repositorio principal de Plan ₿ Academy. Deberías ver las repeticiones de tu conferencia aparecer en el sitio web unos días después.
 
-Por favor, asegúrate de seguir el progreso de tu PR. Es posible que un administrador deje un comentario solicitando información adicional. Mientras tu PR no esté validado, puedes verlo bajo la pestaña `Pull requests` en el repositorio de GitHub de PlanB Network:
+Por favor, asegúrate de seguir el progreso de tu PR. Es posible que un administrador deje un comentario solicitando información adicional. Mientras tu PR no esté validado, puedes verlo bajo la pestaña `Pull requests` en el repositorio de GitHub de Plan ₿ Academy:
 
 ![conferencia](assets/46.webp)
 

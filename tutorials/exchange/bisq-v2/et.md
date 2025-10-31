@@ -8,7 +8,7 @@ description: Täielik juhend Bisq 2 kasutamise ja bitcoinide P2P vahetamise koht
 
 KYC-vabad peer-to-peer (P2P) börsid on kasutajate konfidentsiaalsuse ja finantsautonoomia säilitamiseks hädavajalikud. Need võimaldavad otsetehinguid üksikisikute vahel ilma isikusamasuse kontrollimise vajaduseta, mis on oluline nende jaoks, kes hindavad privaatsust. Teoreetiliste mõistete põhjalikumaks mõistmiseks vaadake kursust BTC204:
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Mis on Bisq 2?
 
@@ -86,7 +86,7 @@ Käesolev juhend keskendub ainult Bisq Easy'le, mis on praegu ainus olemasolev p
 - Laadige alla teie operatsioonisüsteemile vastav Bisq 2 versioon (kerige lehekülge allapoole)
 - Kontrollige allalaaditud faili autentsust (tungivalt soovitatav). Allkirjade kontrollimise üksikasjalik juhend on esitatud järgmises õpetuses:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### 2. Paigaldamine vastavalt teie süsteemile
 

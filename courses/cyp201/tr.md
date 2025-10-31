@@ -1055,10 +1055,10 @@ Eğri üzerindeki işlemlerin doğruluğunu sağlamak için sonlu bir tamsayıla
 Sonlu cisimler üzerindeki eliptik eğrilerin matematiği, tüm işlemlerin modulo $p$ ile yapılması uyarlamasıyla, reel sayılar cismi üzerindekilere benzerdir. Açıklamaları basitleştirmek için, ilerleyen bölümlerde kavramları reel sayılar üzerinde tanımlı bir eğri kullanarak göstermeye devam edeceğiz, ancak pratikte eğrinin sonlu bir cisim üzerinde tanımlı olduğunu aklımızda tutacağız.
 
 
-Modern kriptografinin matematiksel temelleri hakkında daha fazla bilgi edinmek isterseniz, Plan ₿ Network'daki bu diğer kursa da başvurmanızı tavsiye ederim:
+Modern kriptografinin matematiksel temelleri hakkında daha fazla bilgi edinmek isterseniz, Plan ₿ Academy'daki bu diğer kursa da başvurmanızı tavsiye ederim:
 
 
-https://planb.network/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
+https://planb.academy/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 
 ## Özel Anahtardan Açık Anahtarın Hesaplanması
 
@@ -1656,7 +1656,7 @@ Bu sighash bayrağı Bitcoin'a entegre edilirse, sözleşmelerin kullanılmasın
 Lightning Network hakkındaki bilgilerinizi derinleştirmek için CYP201 kursunun ardından Fanis Michalakis tarafından verilen ve konuyu ayrıntılı olarak ele alan LNP201 kursunu şiddetle tavsiye ederim:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Bir sonraki bölümde, Bitcoin Wallet'inizin temelindeki Mnemonic ifadesinin nasıl çalıştığını keşfetmeyi öneriyorum.
 
@@ -1707,10 +1707,10 @@ Birden fazla özel anahtar kullanılmak istenirse, Wallet'i barındıran cihazda
 Bu kısıtlama, Bitcoin'nin gizlilik modelinden kaynaklanmaktadır. Aynı Address'nın tekrar kullanılması, harici gözlemcilerin Bitcoin işlemlerini izlemesini kolaylaştırır. Bu nedenle, alıcı bir Address'nın yeniden kullanılması kesinlikle önerilmez. Bununla birlikte, birden fazla adrese sahip olmak ve işlemlerimizi kamuya açık bir şekilde ayırmak için birden fazla özel anahtarı yönetmek gerekir. JBOK cüzdanları söz konusu olduğunda, bu, yeni anahtar çiftleri kadar çok sayıda yedekleme oluşturmak anlamına gelir; bu, kullanıcılar için hızla karmaşık ve bakımı zor hale gelebilecek bir görevdir.
 
 
-Bitcoin'un gizlilik modeli hakkında daha fazla bilgi edinmek ve gizliliğinizi koruma yöntemlerini keşfetmek için Plan ₿ Network hakkındaki BTC204 kursumu da takip etmenizi öneririm:
+Bitcoin'un gizlilik modeli hakkında daha fazla bilgi edinmek ve gizliliğinizi koruma yöntemlerini keşfetmek için Plan ₿ Academy hakkındaki BTC204 kursumu da takip etmenizi öneririm:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### HD Cüzdanlar
 
@@ -1855,7 +1855,7 @@ $$
 ### İkili Dizinin Mnemonic İfadesine Dönüştürülmesi
 
 
-Bit dizisi $\text{ENT} \Vert \text{CS}$ daha sonra 11 bitlik segmentlere bölünür. Her 11 bitlik segment, ondalık sayıya dönüştürüldükten sonra, bir kelimenin [BIP39 tarafından standartlaştırılan 2048 kelimelik bir listede] konumunu belirleyen 0 ile 2047 arasında bir sayıya karşılık gelir (https://github.com/Planb-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
+Bit dizisi $\text{ENT} \Vert \text{CS}$ daha sonra 11 bitlik segmentlere bölünür. Her 11 bitlik segment, ondalık sayıya dönüştürüldükten sonra, bir kelimenin [BIP39 tarafından standartlaştırılan 2048 kelimelik bir listede] konumunu belirleyen 0 ile 2047 arasında bir sayıya karşılık gelir (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
 
 ![CYP201](assets/en/042.webp)
@@ -1920,7 +1920,7 @@ Bu nedenle, 128 bit güvenlik sunan 12 kelimelik bir ifade, bitcoinlerinizi herh
 Daha ileri gitmek ve bir test Mnemonic ifadesini manuel olarak nasıl generate yapacağınızı somut olarak öğrenmek için bu öğreticiyi keşfetmenizi tavsiye ederim:
 
 
-https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
+https://planb.academy/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
 
 Bu Mnemonic ifadesinden Wallet'un türetilmesine devam etmeden önce, bir sonraki bölümde, türetme sürecinde rol oynadığı ve Mnemonic ifadesiyle aynı seviyede olduğu için size BIP39 passphrase'yi tanıtacağım.
 

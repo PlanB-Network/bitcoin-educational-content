@@ -1,6 +1,6 @@
 ---
 name: Proje Ekleme
-description: PlanB Network'e yeni bir proje eklenmesi nasıl teklif edilir?
+description: Plan ₿ Academy'e yeni bir proje eklenmesi nasıl teklif edilir?
 ---
 ![project](assets/cover.webp)
 
@@ -8,7 +8,7 @@ description: PlanB Network'e yeni bir proje eklenmesi nasıl teklif edilir?
 PlanB'nin misyonu, Bitcoin konusunda mümkün olduğunca çok dilde üst düzey eğitim kaynakları sağlamaktır. Sitede yayınlanan tüm içerik açık kaynaklıdır ve GitHub'da barındırılmaktadır, bu da herkesin platformu zenginleştirmeye katılmasına olanak tanır.
 
 
-PlanB Network sitesine yeni bir Bitcoin "projesi" eklemek ve şirketinize veya yazılımınıza görünürlük kazandırmak istiyor ancak nasıl yapacağınızı bilmiyor musunuz? Bu eğitim tam size göre!
+Plan ₿ Academy sitesine yeni bir Bitcoin "projesi" eklemek ve şirketinize veya yazılımınıza görünürlük kazandırmak istiyor ancak nasıl yapacağınızı bilmiyor musunuz? Bu eğitim tam size göre!
 
 ![project](assets/01.webp)
 
@@ -16,7 +16,7 @@ PlanB Network sitesine yeni bir Bitcoin "projesi" eklemek ve şirketinize veya y
 - İlk olarak, bir GitHub hesabınızın olması gerekir. Nasıl hesap oluşturacağınızı bilmiyorsanız, size rehberlik edecek ayrıntılı bir eğitim hazırladık.
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -30,7 +30,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![project](assets/03.webp)
 
 
-- PlanB Network'ün içeriğine daha önce hiç katkıda bulunmadıysanız, orijinal deponun Fork'ünü oluşturmanız gerekecektir. Bir depoyu çatallamak, kendi GitHub hesabınızda o deponun bir kopyasını oluşturmak anlamına gelir ve bu da orijinal depoyu etkilemeden proje üzerinde çalışmanıza olanak tanır. Fork this repository` düğmesine tıklayın:
+- Plan ₿ Academy'ün içeriğine daha önce hiç katkıda bulunmadıysanız, orijinal deponun Fork'ünü oluşturmanız gerekecektir. Bir depoyu çatallamak, kendi GitHub hesabınızda o deponun bir kopyasını oluşturmak anlamına gelir ve bu da orijinal depoyu etkilemeden proje üzerinde çalışmanıza olanak tanır. Fork this repository` düğmesine tıklayın:
 
 ![project](assets/04.webp)
 
@@ -215,7 +215,7 @@ category: education
 ![project](assets/25.webp)
 
 
-- Yeni bir sayfa açılacaktır. Şirketinizin veya yazılımınızın bir görüntüsünü alana sürükleyip bırakın. Bu resim PlanB Network sitesinde görüntülenecektir:
+- Yeni bir sayfa açılacaktır. Şirketinizin veya yazılımınızın bir görüntüsünü alana sürükleyip bırakın. Bu resim Plan ₿ Academy sitesinde görüntülenecektir:
 
 ![project](assets/26.webp)
 
@@ -281,7 +281,7 @@ contributors:
 
 
 
-- Contributors` anahtarı için, eğer varsa PlanB Network'e katkıda bulunan tanımlayıcınızı ekleyebilirsiniz. Eğer yoksa, bu alanı boş bırakın.
+- Contributors` anahtarı için, eğer varsa Plan ₿ Academy'e katkıda bulunan tanımlayıcınızı ekleyebilirsiniz. Eğer yoksa, bu alanı boş bırakın.
 - Açıklama anahtarı için, şirketinizi veya yazılımınızı tanımlayan kısa bir paragraf eklemeniz yeterlidir. Açıklama, dosya adıyla aynı dilde olmalıdır. Bu açıklamayı sitede desteklenen tüm dillere çevirmeniz gerekmez, çünkü PlanB ekipleri bunu kendi modellerini kullanarak yapacaktır. Örneğin, dosyanız şu şekilde görünebilir:
 
 ```yaml
@@ -329,10 +329,10 @@ contributors:
 
 ![project](assets/44.webp)
 
-Tebrikler! Halkla İlişkileriniz başarıyla oluşturuldu. Şimdi bir yönetici bunu inceleyecek ve her şey yolundaysa PlanB Network'ün ana deposuna entegre edecektir. Proje profilinizin birkaç gün sonra web sitesinde göründüğünü göreceksiniz.
+Tebrikler! Halkla İlişkileriniz başarıyla oluşturuldu. Şimdi bir yönetici bunu inceleyecek ve her şey yolundaysa Plan ₿ Academy'ün ana deposuna entegre edecektir. Proje profilinizin birkaç gün sonra web sitesinde göründüğünü göreceksiniz.
 
 
-Halkla ilişkilerinizin ilerleyişini takip ettiğinizden emin olun. Bir yönetici ek bilgi isteyen bir yorum bırakabilir. PR'niz onaylanmadığı sürece, PlanB Network GitHub deposundaki `Pull requests` sekmesinde ona danışabilirsiniz:
+Halkla ilişkilerinizin ilerleyişini takip ettiğinizden emin olun. Bir yönetici ek bilgi isteyen bir yorum bırakabilir. PR'niz onaylanmadığı sürece, Plan ₿ Academy GitHub deposundaki `Pull requests` sekmesinde ona danışabilirsiniz:
 
 ![project](assets/45.webp)
 

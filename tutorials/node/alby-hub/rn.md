@@ -548,4 +548,4 @@ Kandi nivyo, ubu urazi gukoresha Lightning n’urudodo rwawe bwite ukoresheje ig
 Kugira ngo utahure mu buryo burambuye uburyo bwose bw’umuravyo twakoresheje muri iyi nyigisho, ndaguhanura cane ngo ubone inyigisho zacu z’ubuntu ku bijanye n’ico kibazo :
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

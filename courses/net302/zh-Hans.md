@@ -90,7 +90,7 @@ ___
 **注意**：说明基于 GNU/Linux CentOS 7 系统。然而，在比较 Debian 和 CentOS 系统时，网络配置基本相同。因此，我们不做任何区分。如果有区别，我们会用特定的标识作为前缀。
 
 
-**注**：如果您在学习过程中遇到任何不熟悉的术语，请查阅 [术语表](https://planb.network/resources/glossary) 了解其定义。
+**注**：如果您在学习过程中遇到任何不熟悉的术语，请查阅 [术语表](https://planb.academy/resources/glossary) 了解其定义。
 
 
 
@@ -283,11 +283,11 @@ TCP/IP 协议栈的每个 Layer 都提供特定服务，从而可以模块化方
 | Switch   | Locally addresses interfaces and forwards traffic via MAC                            | Network Access         |
 | Network Interface Card (NIC)     | Signal encoding, cabling, connectors, physical specifications                        | Network Access         |
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 ## IPv5 QoS 协议
 
@@ -653,7 +653,7 @@ sudo apt install ipcalc
 ```
 
 
-https://planb.network/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
+https://planb.academy/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
 
 ## TCP 协议
 
@@ -1379,11 +1379,11 @@ iptables -t nat -A POSTROUTING -o <WAN> -s 192.168.0.0/24 -j MASQUERADE
 
 
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 
 ## 如何使用 `ip` 配置网络？
@@ -3068,7 +3068,7 @@ host 192.6.23.4
 在监控或保护局域网或广域网时，识别活动设备及其提供的服务至关重要。这正是`nmap`（*网络映射器*）工具的作用。
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 #### 介绍 `nmap
 
@@ -3120,7 +3120,7 @@ nmap 192.168.0.0/24
 - **漏洞预防**：发现关键机器上运行的不安全或过时服务。
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 ### 流程查询工具
 

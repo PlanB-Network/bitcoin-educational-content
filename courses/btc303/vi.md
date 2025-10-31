@@ -114,7 +114,7 @@ Nếu họ thành công, những vấn đề tương tự rất có thể sẽ t
 Không có tùy chọn nào trong số này có lợi cho người dùng.
 
 
-Khả năng chống kiểm duyệt thông qua phi tập trung là điều khiến Bitcoin khác biệt với các hệ thống tiền tệ khác, nhưng đây không phải là điều dễ dàng thực hiện do *vấn đề Double-spending*. Đây là vấn đề đảm bảo không ai có thể chi tiêu cùng một đồng tiền hai lần, một vấn đề mà nhiều người nghĩ là không thể giải quyết theo cách phi tập trung. Satoshi Nakamoto viết trong [sách trắng Bitcoin](https://planb.network/bitcoin.pdf) của mình về cách giải quyết vấn đề Double-spending:
+Khả năng chống kiểm duyệt thông qua phi tập trung là điều khiến Bitcoin khác biệt với các hệ thống tiền tệ khác, nhưng đây không phải là điều dễ dàng thực hiện do *vấn đề Double-spending*. Đây là vấn đề đảm bảo không ai có thể chi tiêu cùng một đồng tiền hai lần, một vấn đề mà nhiều người nghĩ là không thể giải quyết theo cách phi tập trung. Satoshi Nakamoto viết trong [sách trắng Bitcoin](https://planb.academy/bitcoin.pdf) của mình về cách giải quyết vấn đề Double-spending:
 
 
 > Trong bài báo này, chúng tôi đề xuất một giải pháp cho vấn đề Double-spending bằng cách sử dụng máy chủ Timestamp phân tán ngang hàng để chứng minh tính toán thứ tự thời gian của các giao dịch trên generate.
@@ -612,7 +612,7 @@ Những cách trên đây là một số cách kỹ thuật để cải thiện 
 Bài viết khuyên bạn nên tránh sử dụng các sàn giao dịch yêu cầu KYC/AML và thay vào đó giao dịch riêng tư hoặc sử dụng các sàn giao dịch phi tập trung như [bisq](https://bisq.network/).
 
 
-https://planb.network/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+https://planb.academy/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 Để biết thêm thông tin chi tiết về các biện pháp đối phó, hãy tham khảo [bài viết wiki về quyền riêng tư](https://en.Bitcoin.it/wiki/Privacy#Methods_for_improving_privacy_.28non-Blockchain.29) đã đề cập trước đó, bắt đầu từ "Các phương pháp cải thiện quyền riêng tư (không phải Blockchain)".
 

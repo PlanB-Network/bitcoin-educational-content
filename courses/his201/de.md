@@ -120,7 +120,7 @@ Der Artikel von Diffie und Hellman ebnete den Weg für eine Vielzahl von Innovat
 Die Entdeckung der asymmetrischen Kryptografie motivierte auch die Schaffung von Einwegfunktionen, die dadurch gekennzeichnet sind, dass die Berechnung eines Bildes (Vorwärtsrichtung) sehr einfach und die Erlangung eines Urbildes (Rückwärtsrichtung) sehr schwierig ist. Insbesondere führte dies zur Entwicklung der ersten kryptografischen Hash-Funktionen, die eine Nachricht variabler Größe in einen Digest (Wert der Hash-Funktion) fester Größe umwandelten. Zwischen 1989 und 1991 wurden so mehrere Hash-Algorithmen (MD2, MD4 und MD5) von Ronald Rivest für das MIT entworfen.
 Die grundlegenden kryptografischen Elemente von Bitcoin stammen aus dieser Forschung. Das ECDSA-Signaturverfahren, das die Autorisierung der Ausgabe einer traditionellen Transaktion ermöglicht, wurde 1992 für das NIST erstellt. Die SHA-256-Hash-Funktion, die an mehreren Stellen im Protokoll verwendet wird, wurde 2001 als Teil des SHA-2-Algorithmus-Sets veröffentlicht, das von der NSA öffentlich gemacht wurde. Für weitere Informationen zu diesem Thema kannst du dich auf den Kurs CYP201 beziehen, der von Loïc Morel erstellt wird.
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### Blinde Signaturen und Elektronisches Bargeld
 

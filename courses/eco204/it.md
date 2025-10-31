@@ -1427,8 +1427,8 @@ La chiave di lettura è che esistono diverse strategie per superare l'iperinflaz
 
 <chapterId>f3ffbb47-3aeb-54bd-80a9-adccb0f419e2</chapterId>
 
+[Scopri la collezione digitalizzata nel *Bitcoin Educational Toolkit* (accessibile anche dalla sezione *Risorse* della piattaforma Plan ₿ Academy.](https://penpot.planb.network/#/view?page-id=c157057b-fd28-8042-8004-4f081b21defc&file-id=c157057b-fd28-8042-8004-4f081b21defb&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6475c2af5889&interactions-mode=show-on-click)
 
-[Scopri la collezione scansionata nel *Bitcoin Educational Toolkit* (accessibile anche dalla sezione *Resources* della piattaforma Plan ₿ Network.](https://penpot.planb.network/#/view?page-id=c157057b-fd28-8042-8004-4f081b21defc&file-id=c157057b-fd28-8042-8004-4f081b21defb&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6475c2af5889&interactions-mode=show-on-click)
 
 
 ![image](assets/it/068.webp)

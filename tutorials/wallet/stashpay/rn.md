@@ -42,7 +42,7 @@ Iyo porogaramu imaze gushirwamwo, StashPay izogukorera Bitcoin Wallet y’intang
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Ushobora gushika ku mirongo ya StashPay ukanda ku kimenyetso ca "Imirongo", hanyuma ukande ku **Rema ububiko**. Hanyuma wemerere kwerekana amajambo yo gusubizaho. Ntukope amajambo yawe yo gusubirana mu gicapo ca telefone yawe, kuko yoshobora gukoreshwa n’izindi porogarama z’ubuhendanyi zishizwe kuri telefone yawe ngendanwa.
 
@@ -88,7 +88,7 @@ Uzoba warabonye ko kugira uronke satoshis uzobwirizwa kwishura amahera y’urubu
 
 
 
-https://planb.network/tutorials/wallet/mobile/misty-breez-738ced2a-0764-4d7f-a150-ec0ce84a9d25
+https://planb.academy/tutorials/wallet/mobile/misty-breez-738ced2a-0764-4d7f-a150-ec0ce84a9d25
 
 ### Wohereze amafaranga make na StashPay
 
@@ -106,7 +106,7 @@ Nk’uko StashPay ari Wallet ishingiye ku Kit y’Iterambere ya Breez, ivyunguki
 
 
 
-https://planb.network/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
+https://planb.academy/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
 
 Ariko rero, Breez SDK itegekanya umubare mutoyi ushobora koherezako bitcoins ku Address ku ruzitiro rukuru.
 
@@ -168,4 +168,4 @@ Ushobora gufata neza Bitcoin Wallet ya StashPay. Niba wabonye iyi nyigisho ari n
 
 
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f

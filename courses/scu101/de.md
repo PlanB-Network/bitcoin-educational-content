@@ -42,7 +42,7 @@ Dieses Training ist eine Zusammenarbeit von drei unserer Professoren:
 
 - Renaud Lifchitz, Experte für Cybersicherheit
 - Théo Pantamis, Doktor der angewandten Mathematik
-- Rogzy, Mit-Gründer von Plan ₿ Network
+- Rogzy, Mit-Gründer von Plan ₿ Academy
 
 Deine digitale Hygiene ist in einer immer digitaleren Welt von entscheidender Bedeutung. Trotz einer ständig steigenden Anzahl von Hackerangriffen und Massenüberwachung ist es noch nicht zu spät, den ersten Schritt zu tun und dich zu schützen.
 In diesem Kurs geht es nicht darum, dich zu einem Experten, vollständig anonym oder gar unangreifbar zu machen, denn dies ist unmöglich. Stattdessen bieten wir dir einfache und für jeden zugängliche Lösungen an, um deine Online-Gewohnheiten zu verändern und deine digitale Souveränität zurückzugewinnen.
@@ -54,7 +54,7 @@ Wenn du fortgeschrittene Fähigkeiten zu diesem Thema erwerben möchtest, stehen
 - Kapitel 1 - Online-Surfen
 - Kapitel 2 - Sicheres Surfen im Internet
 
-Zum Einstieg werden wir über die Bedeutung der Auswahl deines Web-Browsers und deren Auswirkungen auf die Sicherheit sprechen. Anschließend werden wir uns mit einigen Besonderheiten von Browsern befassen, insbesondere in Bezug auf die Verwaltung von Cookies. Wir werden auch sehen, wie man durch Tools wie [TOR](https://planb.network/resources/glossary/tor-the-onion-router) sicherer und anonymer surfen kann. Danach werden wir uns auf die Verwendung von VPNs zum Schutz deiner Daten konzentrieren. Schließlich werden wir dir Empfehlungen zur sicheren Nutzung von WLAN-Verbindungen geben.
+Zum Einstieg werden wir über die Bedeutung der Auswahl deines Web-Browsers und deren Auswirkungen auf die Sicherheit sprechen. Anschließend werden wir uns mit einigen Besonderheiten von Browsern befassen, insbesondere in Bezug auf die Verwaltung von Cookies. Wir werden auch sehen, wie man durch Tools wie [TOR](https://planb.academy/resources/glossary/tor-the-onion-router) sicherer und anonymer surfen kann. Danach werden wir uns auf die Verwendung von VPNs zum Schutz deiner Daten konzentrieren. Schließlich werden wir dir Empfehlungen zur sicheren Nutzung von WLAN-Verbindungen geben.
 
 ![image](assets/de/001.webp)
 
@@ -113,16 +113,16 @@ Es gibt zwei große Browserfamilien: diejenigen, die auf Chrome basieren, und di
 Obwohl beide Familien ein ähnliches Sicherheitsniveau bieten, wird empfohlen, den Google Chrome-Browser aufgrund seiner Tracker zu vermeiden. Leichtere Alternativen zu Chrome wie Chromium oder Brave können vorteilhafter sein. Brave wird insbesondere aufgrund seines integrierten Werbeblockers empfohlen. Um auf bestimmte Websites zuzugreifen, kann es erforderlich sein, mehrere Browser zu verwenden.
 ![image](assets/de/006.webp)
 
-### Privates Surfen, [TOR](https://planb.network/resources/glossary/tor-the-onion-router) und weitere Alternativen für sicheres und anonymes Surfen
+### Privates Surfen, [TOR](https://planb.academy/resources/glossary/tor-the-onion-router) und weitere Alternativen für sicheres und anonymes Surfen
 
 Das Surfen im Privat-Modus verhindert zwar nicht, dass dein Internetdienstanbieter deine Aktivitäten verfolgt, hinterlässt jedoch keine lokalen Spuren auf deinem Computer. Cookies werden automatisch am Ende jeder Sitzung gelöscht, sodass alle Cookies akzeptiert werden können, ohne verfolgt zu werden. Das private Surfen kann beim Online-Einkauf nützlich sein, da Websites unsere Suchgewohnheiten verfolgen und die Preise entsprechend anpassen. Es ist jedoch wichtig zu beachten, dass das private Surfen für temporäre und spezifische Sitzungen empfohlen wird und nicht für die allgemeine Internetnutzung.
 
-Eine fortgeschrittenere Alternative ist das [TOR](https://planb.network/resources/glossary/tor-the-onion-router)-Netzwerk (The Onion Router), das Anonymität bietet, indem es die IP-Adresse des Benutzers maskiert und den Zugriff auf das Darknet ermöglicht. Der [TOR](https://planb.network/resources/glossary/tor-the-onion-router)-Browser ist ein speziell für die Nutzung des [TOR](https://planb.network/resources/glossary/tor-the-onion-router)-Netzwerks entwickelter Browser. Er ermöglicht den Besuch von herkömmlichen Websites sowie von .onion-Websites, die in der Regel von Einzelpersonen betrieben werden und illegal sein können.
+Eine fortgeschrittenere Alternative ist das [TOR](https://planb.academy/resources/glossary/tor-the-onion-router)-Netzwerk (The Onion Router), das Anonymität bietet, indem es die IP-Adresse des Benutzers maskiert und den Zugriff auf das Darknet ermöglicht. Der [TOR](https://planb.academy/resources/glossary/tor-the-onion-router)-Browser ist ein speziell für die Nutzung des [TOR](https://planb.academy/resources/glossary/tor-the-onion-router)-Netzwerks entwickelter Browser. Er ermöglicht den Besuch von herkömmlichen Websites sowie von .onion-Websites, die in der Regel von Einzelpersonen betrieben werden und illegal sein können.
 
-[TOR](https://planb.network/resources/glossary/tor-the-onion-router) ist legal und wird von Journalisten, Freiheitsaktivisten und anderen Personen verwendet, die der Zensur in autoritären Ländern entgehen möchten. Es ist jedoch wichtig zu verstehen, dass [TOR](https://planb.network/resources/glossary/tor-the-onion-router) nicht die besuchten Websites oder den Computer selbst absichert. Darüber hinaus kann die Verwendung von [TOR](https://planb.network/resources/glossary/tor-the-onion-router) die Internetverbindung verlangsamen, da die Daten über die Computer von drei weiteren Personen geleitet werden, bevor sie ihr Ziel erreichen. Es ist auch wichtig zu beachten, dass [TOR](https://planb.network/resources/glossary/tor-the-onion-router) keine hundertprozentige Lösung zur Gewährleistung der Anonymität darstellt und nicht für illegale Aktivitäten verwendet werden sollte.
+[TOR](https://planb.academy/resources/glossary/tor-the-onion-router) ist legal und wird von Journalisten, Freiheitsaktivisten und anderen Personen verwendet, die der Zensur in autoritären Ländern entgehen möchten. Es ist jedoch wichtig zu verstehen, dass [TOR](https://planb.academy/resources/glossary/tor-the-onion-router) nicht die besuchten Websites oder den Computer selbst absichert. Darüber hinaus kann die Verwendung von [TOR](https://planb.academy/resources/glossary/tor-the-onion-router) die Internetverbindung verlangsamen, da die Daten über die Computer von drei weiteren Personen geleitet werden, bevor sie ihr Ziel erreichen. Es ist auch wichtig zu beachten, dass [TOR](https://planb.academy/resources/glossary/tor-the-onion-router) keine hundertprozentige Lösung zur Gewährleistung der Anonymität darstellt und nicht für illegale Aktivitäten verwendet werden sollte.
 ![image](assets/de/007.webp)
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ## VPN und Internetverbindung
 
@@ -145,9 +145,9 @@ Die Verwendung eines Verbraucher-VPNs garantiert jedoch keine vollständige Anon
 ![image](assets/de/009.webp)
 Schließlich kann ein VPN auch verwendet werden, um Online-Werbung zu blockieren und so ein angenehmeres und sichereres Browsing-Erlebnis zu bieten. Es ist jedoch wichtig, eigene Recherchen anzustellen, um den VPN Anbieter zu finden, der am besten zu deinen spezifischen Bedürfnissen passt. Die Verwendung eines VPNs wird auch beim Surfen im Internet zu Hause empfohlen, um die Sicherheit zu stärken. Dies trägt dazu bei, ein höheres Sicherheitsniveau für den Online-Datenaustausch zu gewährleisten. Vergewissere dich abschließend, dass du die URLs und das kleine Vorhängeschlosssymbol in der Adressleiste überprüfst, um zu bestätigen, dass du dich auf der von dir beabsichtigten Website befindest.
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 ### HTTPS & öffentliche WLAN-Netzwerke
 
@@ -251,9 +251,9 @@ NEIN, es wird im Allgemeinen nicht empfohlen, Hacker bei Ransomware oder anderen
 
 Wenn du einen Virus auf deinem Computer entdeckest, trenne ihn vom Internet, führe eine vollständige Antiviren-Analyse durch und entferne infizierte Dateien. Aktualisiere dann deine Software und dein Betriebssystem und ändere deine Passwörter, um weiteres Eindringen zu vermeiden.
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # Umsetzung von Lösungen.
 
@@ -290,7 +290,7 @@ Es wird empfohlen, die Website "Have I Been Pwned" (Wurde ich gehackt) - https:/
 Im Allgemeinen ist es keine schlechte Idee und, wenn man einen Neuanfang machen möchte, sogar notwendig, eine neue, sicherere E-Mail-Adresse zu verwenden.
 Bonus Bitcoin: Es kann ratsam sein, eine spezielle E-Mail-Adresse für deine Bitcoin-Aktivitäten (Erstellung von Börsenkonten) zu erstellen, um diese Aktivitäten wirklich zu trennen.
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Passwort-Manager
 
@@ -338,9 +338,9 @@ Um ein starkes Passwort zu erstellen, wird empfohlen, eine große Anzahl zufäll
 
 Zufällig generierte Passwörter bieten ein höheres Maß an Sicherheit, können jedoch schwieriger zu merken sein. Passwort-Manager können sicherere zufällig generierte Passwörter erstellen. Durch die Verwendung eines Passwort-Managers musst du dir nicht alle deine Passwörter merken. Es ist wichtig, deine alten Passwörter nach und nach durch die vom Manager generierten Passwörter zu ersetzen, da sie stärker und länger sind. Stelle sicher, dass das Masterpasswort deines Passwort-Managers ebenfalls stark und sicher ist.
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Zwei-Faktor-Authentifizierung
 
@@ -391,9 +391,9 @@ Höre nie auf zu lernen und setze nach und nach die bewährte Praxis um!
 
 Goldene Regel: IT-Sicherheit ist ein sich ständig bewegendes Ziel, das sich an deinen Lernfortschritt anpasst!
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 # Praxis Abschnitt
 
@@ -405,7 +405,7 @@ https://planb.network/tutorials/computer-security/authentication/security-key-61
 
 Das Schützen deines E-Mail-Kontos ist ein wichtiger Schritt zur Sicherung deiner Online-Aktivitäten und zum Schutz deiner persönlichen Daten. Dieses Tutorial führt dich Schritt für Schritt durch die Erstellung und Konfiguration eines ProtonMail-Kontos, eines Anbieters, der für sein hohes Sicherheitsniveau bekannt ist und eine Ende-zu-Ende-Verschlüsselung deiner Kommunikation bietet. Ob du nun Anfänger oder erfahrener Nutzer bist, die hier vorgeschlagenen bewährten Methoden helfen dir, die Sicherheit deines E-Mail-Kontos zu erhöhen und gleichzeitig die erweiterten Funktionen von ProtonMail zu nutzen:
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Absicherung mit 2FA
 
@@ -413,11 +413,11 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 
 Die Zwei-Faktor-Authentifizierung (2FA) ist unerlässlich geworden, um deine Online-Konten zu sichern. In diesem Tutorial lernst du, wie du die 2FA-App Authy einrichtest und verwendest, die dynamische 6-stellige Codes generiert, um deine Konten zu schützen. Authy ist sehr einfach zu bedienen und synchronisiert sich auf mehreren Geräten. Erfahre, wie du Authy installierst und konfigurierst und erhöhe so die Sicherheit deiner Online-Konten jetzt:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Eine weitere Option ist die Verwendung eines physischen Sicherheitsschlüssels. Dieses zusätzliche Tutorial zeigt dir, wie du einen Sicherheitsschlüssel als zweiten Authentifizierungsfaktor einrichtest und verwendest:
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ## Erstellung eines Passwort-Managers
 
@@ -427,11 +427,11 @@ Das Passwortmanagement ist in der digitalen Ära eine Herausforderung. Wir alle 
 
 In diesem Tutorial erfährst du, wie du Bitwarden, einen Open-Source-Passwortmanager, einrichtest und wie du deine Anmeldedaten auf allen deinen Geräten synchronisierst, um die tägliche Nutzung zu vereinfachen:
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Für fortgeschrittene Benutzer biete ich auch ein Tutorial zu einer weiteren kostenlosen Open-Source-Software an, die du lokal zur Verwaltung deiner Passwörter verwenden kannst:
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Absicherung deiner Konten
 
@@ -439,9 +439,9 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 In diesen beiden Tutorials leite ich dich auch bei der Sicherung deiner Online-Konten an und erkläre dir, wie du schrittweise sicherere Praktiken für die tägliche Verwaltung deiner Passwörter übernehmen kannst.
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Browserwechsel & VPN
 
@@ -451,13 +451,13 @@ Der Schutz deiner Online-Privatsphäre ist ebenfalls ein wichtiger Punkt zur Gew
 
 Ich schlage vor, zwei zuverlässige VPN-Lösungen auzuprobieren, die mit Bitcoin zahlbar sind, nämlich IVPN und Mullvad. Diese Tutorials führen dich durch die Installation, Konfiguration und Nutzung von Mullvad oder IVPN auf all deinen Geräten:
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 Erfahre außerdem, wie du den Tor Browser verwendest, einen speziell entwickelten Browser zum Schutz deiner Online-Privatsphäre:
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ## Einrichtung eines Back-ups
 
@@ -465,11 +465,11 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 Das Schützen deiner persönlichen Dateien ist ebenfalls ein wesentlicher Punkt. Dieses Tutorial zeigt dir, wie du eine effektive Backup-Strategie mit Proton Drive einrichtest. Erfahre, wie du diese sichere Cloud-Lösung nutzt, um die 3-2-1-Methode anzuwenden: drei Kopien deiner Daten auf zwei verschiedenen Medien, von denen eine Kopie außerhalb deiner Wohnung ist. So gewährleistest du den Zugriff und die Sicherheit deiner sensiblen Dateien:
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Und um deine auf Wechseldatenträgern wie einem USB-Stick oder einer externen Festplatte gespeicherten Dateien zu sichern, zeige ich dir auch, wie du diese Medien einfach mit VeraCrypt verschlüsseln und entschlüsseln kannst:
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # Weiterführendes
 

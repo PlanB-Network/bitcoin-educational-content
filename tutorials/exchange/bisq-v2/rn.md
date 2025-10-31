@@ -11,7 +11,7 @@ description: Inyigisho yuzuye yo gukoresha Bisq 2 no guhindura amafaranga P2P.
 Uguhanahana amakuru hagati y’abantu (P2P) ata KYC ni ngombwa kugira ngo abakoresha bazigame ubuzima bwite n’ukwigenga mu vy’amahera. Bituma umuntu ashobora gukorana n’abandi ataco akeneye kugenzura akaranga kabo, ivyo bikaba ari ngirakamaro ku bantu baha agaciro ubuzima bwite. Kugira ngo utahure neza ivyiyumviro vy’inyigisho, raba inyigisho ya BTC204:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Bisq 2 ni iki?
 
@@ -117,7 +117,7 @@ Iyi nkuru yibanze cane kuri "Bisq Easy", ariyo protocole yonyene iriho ubu. Bisq
 - Suzuma ukuri kw’idosiye yakuwe kuri interineti (ni ngirakamaro cane). Kugira ngo ubone ubuyobozi burambuye bwo kugenzura umukono, raba inyigisho ikurikira:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### 2. Gushiramwo hakurikijwe sisitemu yawe
 

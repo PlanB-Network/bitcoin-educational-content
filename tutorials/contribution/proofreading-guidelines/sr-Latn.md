@@ -1,27 +1,27 @@
 ---
 name: Smernice za lekturu
-description: Koji su važni faktori koje treba imati na umu prilikom lekture na Plan ₿ Network?
+description: Koji su važni faktori koje treba imati na umu prilikom lekture na Plan ₿ Academy?
 ---
 
 ![github](assets/cover.webp)
 
 
-Dobrodošli u ovaj vodič o **smernicama koje treba pratiti prilikom lekture sadržaja na Plan ₿ Network**. Drago nam je što delite našu misiju da prevedemo materijale Bitcoin na što više jezika, kako bismo pomogli ljudima da steknu svest o tome kako funkcioniše i kako se može koristiti u njihovom svakodnevnom životu.
+Dobrodošli u ovaj vodič o **smernicama koje treba pratiti prilikom lekture sadržaja na Plan ₿ Academy**. Drago nam je što delite našu misiju da prevedemo materijale Bitcoin na što više jezika, kako bismo pomogli ljudima da steknu svest o tome kako funkcioniše i kako se može koristiti u njihovom svakodnevnom životu.
 
 
-Prvo i najvažnije, doprinos Plan ₿ Network [javnom repozitorijumu](https://github.com/PlanB-Network/Bitcoin-educational-content) daje vam priliku da pišete tutorijale, lektorirate postojeći sadržaj ili čak predložite dodavanje novog jezika na platformu. Da biste saznali više, pridružite se našoj [Telegram grupi](https://t.me/PlanBNetwork_ContentBuilder) prvo, i napišite kratku prezentaciju o sebi i jezicima koje govorite.
+Prvo i najvažnije, doprinos Plan ₿ Academy [javnom repozitorijumu](https://github.com/PlanB-Network/Bitcoin-educational-content) daje vam priliku da pišete tutorijale, lektorirate postojeći sadržaj ili čak predložite dodavanje novog jezika na platformu. Da biste saznali više, pridružite se našoj [Telegram grupi](https://t.me/PlanBNetwork_ContentBuilder) prvo, i napišite kratku prezentaciju o sebi i jezicima koje govorite.
 
 
-Ovaj vodič je posvećen saradnicima koji žele da lektorišu sadržaj. Većina njih ne zna mnogo o [Github-u](https://planb.network/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) ili o [Markdown jeziku](https://www.markdownguide.org/basic-syntax/) koji koristimo unutar repozitorijuma, pa je važno podeliti neka saznanja o ključnim faktorima uključenim u ovaj zadatak.
+Ovaj vodič je posvećen saradnicima koji žele da lektorišu sadržaj. Većina njih ne zna mnogo o [Github-u](https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) ili o [Markdown jeziku](https://www.markdownguide.org/basic-syntax/) koji koristimo unutar repozitorijuma, pa je važno podeliti neka saznanja o ključnim faktorima uključenim u ovaj zadatak.
 
 
 Ovde sam prikupio najčešće probleme sa kojima se lektori susreću. Slobodno predložite još, jer to može pomoći drugima da se poboljšaju.
 
 
-Pre nego što pređete na detalje, prva stvar koju treba da uradite je da pročitate ovaj vodič o praktičnim akcijama koje treba pratiti na Github-u, forkovanjem Plan ₿ Network repozitorijuma, pravljenjem izmena i slanjem PR-ova:
+Pre nego što pređete na detalje, prva stvar koju treba da uradite je da pročitate ovaj vodič o praktičnim akcijama koje treba pratiti na Github-u, forkovanjem Plan ₿ Academy repozitorijuma, pravljenjem izmena i slanjem PR-ova:
 
 
-https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
+https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 
 ## Šta je lektura?
@@ -38,13 +38,13 @@ Uvek zapamtite da je prevođenje/lektorisanje OBRAZOVANJE!
 
 Zapravo, naš zajednički cilj je da edukujemo što više ljudi o Bitcoin, tako da je od suštinskog značaja da materijal koji čitaju bude jasan i razumljiv.
 
-U tom smislu, svi saradnici na Plan ₿ Network su edukatori!
+U tom smislu, svi saradnici na Plan ₿ Academy su edukatori!
 
 
-## Prvi koraci pre lekture na Plan ₿ Network
+## Prvi koraci pre lekture na Plan ₿ Academy
 
 
-Pre nego što započnete novi zadatak lekture, najavite to u [Telegram grupi](https://t.me/PlanBNetwork_ContentBuilder) ili obavestite svog Plan ₿ Network koordinatora, koji će otvoriti posvećen [issue](https://github.com/orgs/PlanB-Network/projects/3). Kada dobijete link za issue, jednostavno **komentarišite da započinjete** sa zadatkom lekture tog sadržaja.
+Pre nego što započnete novi zadatak lekture, najavite to u [Telegram grupi](https://t.me/PlanBNetwork_ContentBuilder) ili obavestite svog Plan ₿ Academy koordinatora, koji će otvoriti posvećen [issue](https://github.com/orgs/Plan ₿ Academy/projects/3). Kada dobijete link za issue, jednostavno **komentarišite da započinjete** sa zadatkom lekture tog sadržaja.
 
 
 Ovaj sistem pomaže koordinatoru da prati napredak unutar repozitorijuma i omogućava da lektor "preuzme" sadržaj, sprečavajući dupliranje napora od strane nekog drugog.
@@ -60,7 +60,7 @@ Prvo i najvažnije, **UVEK zapamtite da SINHRONIZUJETE svoj repo, na "dev" grani
 
 
 
-Nakon uspešnog sinhronizovanja, možete direktno pristupiti sadržaju od interesa i izvršiti promene na novoj grani, kao što je prikazano u ovom [uputstvu](https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). U suprotnom, možete otvoriti novu granu na kojoj ćete raditi, klikom na "Branches", kao što je prikazano ispod.
+Nakon uspešnog sinhronizovanja, možete direktno pristupiti sadržaju od interesa i izvršiti promene na novoj grani, kao što je prikazano u ovom [uputstvu](https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). U suprotnom, možete otvoriti novu granu na kojoj ćete raditi, klikom na "Branches", kao što je prikazano ispod.
 
 
 
@@ -115,11 +115,11 @@ U ovom drugom slučaju, **uvek uradite istraživanje da vidite da li je neko dru
 
 
 
-- Još jedno dobro rešenje je da zadržite EN originalnu reč/frazu, zatim **kreirate hipervezu** koja preusmerava na [glossary](https://planb.network/en/resources/glossary) na planb.network. Da biste to uradili, potrebno je da umetnete reč/frazu unutar uglastih zagrada, a link unutar okruglih zagrada, kao što možete videti u primeru ispod:
+- Još jedno dobro rešenje je da zadržite EN originalnu reč/frazu, zatim **kreirate hipervezu** koja preusmerava na [glossary](https://planb.academy/en/resources/glossary) na planb.network. Da biste to uradili, potrebno je da umetnete reč/frazu unutar uglastih zagrada, a link unutar okruglih zagrada, kao što možete videti u primeru ispod:
 
 
 ```
-[UTXO](https://planb.network/resources/glossary/utxo)
+[UTXO](https://planb.academy/resources/glossary/utxo)
 ```
 
 
@@ -131,14 +131,14 @@ U konačnom rezultatu (slika ispod) nećete vizualizovati ceo link, a reč će p
 
 
 
-Please note that the glossary link you will take from the website contains the language code after the word "network" (example: ``https://planb.network/resources/glossary/utxo``-> here you can read the language code "en"). In this case, **remove the language code from the link**, like you saw in the box above. This way, the system will automatically take the reader to their designated language.
+Please note that the glossary link you will take from the website contains the language code after the word "network" (example: ``https://planb.academy/resources/glossary/utxo``-> here you can read the language code "en"). In this case, **remove the language code from the link**, like you saw in the box above. This way, the system will automatically take the reader to their designated language.
 
 
 Sadržaj u repozitorijumu je pun hiperveza kao što su ove iznad. Sada kada znate šta znače, **pazite da ne obrišete nijednu vezu** koju je umetnuo originalni autor.
 
 
 
-- Još jedna stvar vezana za prikazivanje reči je sledeća. Ako pronađete "Plan ₿ Network" u tekstu, **ostavite ga u ovom originalnom obliku**. Ne prevodite reč "plan" ili reč "network". Takođe, NE koristite član "The" kada predstavljate Plan ₿ Network: **smatrajte ga brendom**.
+- Još jedna stvar vezana za prikazivanje reči je sledeća. Ako pronađete "Plan ₿ Academy" u tekstu, **ostavite ga u ovom originalnom obliku**. Ne prevodite reč "plan" ili reč "network". Takođe, NE koristite član "The" kada predstavljate Plan ₿ Academy: **smatrajte ga brendom**.
 
 
 
@@ -323,7 +323,7 @@ Uvek dvaput proverite sve hiperveze u tekstu, kako biste bili sigurni da su tač
 
 
 
-- Prateći temu, ako autor umetne link koji se odnosi na Plan ₿ Network kurs ili tutorijal (**ne** unutar zagrada), vebsajt će automatski kreirati "kartu" koja prikazuje povezanu sličicu. Kao posledica toga, uvek se pobrinite da **dodate novi red između teksta i samog linka**, inače biste mogli videti sledeću grešku na vebsajtu.
+- Prateći temu, ako autor umetne link koji se odnosi na Plan ₿ Academy kurs ili tutorijal (**ne** unutar zagrada), vebsajt će automatski kreirati "kartu" koja prikazuje povezanu sličicu. Kao posledica toga, uvek se pobrinite da **dodate novi red između teksta i samog linka**, inače biste mogli videti sledeću grešku na vebsajtu.
 
 
 

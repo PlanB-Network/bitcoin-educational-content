@@ -937,7 +937,7 @@ IASB предлагает уникальную перспективу гипер
 
 <chapterId>f3ffbb47-3aeb-54bd-80a9-adccb0f419e2</chapterId>
 
-[Откройте для себя отсканированную коллекцию в *Bitcoin Educational Toolkit* (также доступно в разделе *Ресурсы* на платформе Plan ₿ Network.](https://penpot.planb.network/#/view?page-id=c157057b-fd28-8042-8004-4f081b21defc&file-id=c157057b-fd28-8042-8004-4f081b21defb&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6475c2af5889&interactions-mode=show-on-click)
+[Откройте для себя отсканированную коллекцию в *Bitcoin Educational Toolkit* (также доступно в разделе *Ресурсы* на платформе Plan ₿ Academy.](https://penpot.planb.network/#/view?page-id=c157057b-fd28-8042-8004-4f081b21defc&file-id=c157057b-fd28-8042-8004-4f081b21defb&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6475c2af5889&interactions-mode=show-on-click)
 
 ![изображение](assets/ru/068.webp)
 # Как мы сюда попали?

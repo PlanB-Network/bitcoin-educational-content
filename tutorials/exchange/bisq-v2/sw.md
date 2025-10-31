@@ -11,7 +11,7 @@ description: Mwongozo kamili wa kutumia Bisq 2 na kubadilishana bitcoins P2P
 Mabadilishano ya bure ya KYC-kwa-rika (P2P) ni muhimu kwa kuhifadhi usiri na uhuru wa kifedha wa watumiaji. Huwezesha miamala ya moja kwa moja kati ya watu binafsi bila hitaji la uthibitishaji wa utambulisho, ambao ni muhimu kwa wale wanaothamini ufaragha. Kwa ufahamu wa kina zaidi wa dhana za kinadharia, angalia kozi ya BTC204:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Bisq 2 ni nini?
 
@@ -117,7 +117,7 @@ Mwongozo huu unalenga pekee kwenye "Bisq Easy", itifaki pekee inayopatikana kwa 
 - Thibitisha uhalisi wa faili iliyopakuliwa (inapendekezwa sana). Kwa mwongozo wa kina wa uthibitishaji sahihi, angalia mafunzo yafuatayo:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### 2. Ufungaji kulingana na mfumo wako
 

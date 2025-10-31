@@ -21,7 +21,7 @@ For å bygge vår Lightning-app, vil vi bruke følgende teknologier:
 - Express for vår webserver
 - Pug-maler + bootstrap for vår frontend
 
-https://planb.network/courses/bbf08a64-84ca-11f0-9d7a-c3c481a45799
+https://planb.academy/courses/bbf08a64-84ca-11f0-9d7a-c3c481a45799
 
 ## Operativsystem
 

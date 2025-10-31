@@ -5,9 +5,9 @@ description: Come creare un account su GitHub?
 
 ![cover](assets/cover.webp)
 
-La missione di Plan ₿ Network è fornire risorse educative di primo livello su Bitcoin, disponibili in quante più lingue possibili. Tutti i contenuti pubblicati sul sito sono open-source e gestiti su GitHub, offrendo a chiunque l'opportunità di contribuire all'arricchimento della piattaforma. La collaborazione con Plan ₿ Network può prendere varie forme: puoi revisionare dei testi esistenti, fare proofreading in altre lingue, aggiornare le informazioni o creare nuovi tutorial non ancora disponibili sul nostro sito.
+La missione di Plan ₿ Academy è fornire risorse educative di primo livello su Bitcoin, disponibili in quante più lingue possibili. Tutti i contenuti pubblicati sul sito sono open-source e gestiti su GitHub, offrendo a chiunque l'opportunità di contribuire all'arricchimento della piattaforma. La collaborazione con Plan ₿ Academy può prendere varie forme: puoi revisionare dei testi esistenti, fare proofreading in altre lingue, aggiornare le informazioni o creare nuovi tutorial non ancora disponibili sul nostro sito.
 
-Se vuoi collaborare con Plan ₿ Network, dovrai utilizzare Git e GitHub. Se questi strumenti ti sono sconosciuti o se il loro funzionamento ti sembra oscuro, non preoccuparti, questo articolo è per te! Esamineremo insieme i fondamenti di Git e GitHub, così come il gergo tecnico associato, per permetterti di utilizzare efficacemente questi strumenti in seguito.
+Se vuoi collaborare con Plan ₿ Academy, dovrai utilizzare Git e GitHub. Se questi strumenti ti sono sconosciuti o se il loro funzionamento ti sembra oscuro, non preoccuparti, questo articolo è per te! Esamineremo insieme i fondamenti di Git e GitHub, così come il gergo tecnico associato, per permetterti di utilizzare efficacemente questi strumenti in seguito.
 
 ## Cos'è Git?
 
@@ -20,7 +20,7 @@ Alla base, Git permette agli sviluppatori di tracciare le modifiche apportate al
 Una delle caratteristiche chiave di Git è la gestione dei branch. Un branch è una sorta di linea parallela dove gli sviluppatori possono lavorare indipendentemente dal resto del progetto. Questo facilita enormemente l'aggiunta di nuove funzionalità o la correzione di bug senza toccare il codice principale. Una volta che le modifiche sono testate e validate, possono essere unite (tramite "merge") al branch principale.
 
 Una delle peculiarità di Git è la sua capacità di operare in modo distribuito. Ogni sviluppatore ha una copia completa del progetto sul proprio disco rigido del computer: ciò gli permette di lavorare offline e di unire le modifiche in seguito, quando si connette ad Internet. Questo riduce il rischio di conflitti e permette a più sviluppatori di lavorare contemporaneamente sullo stesso progetto senza creare sovrapposizioni.
-Inizialmente, Git era principalmente usato per gestire progetti di sviluppo software. Tuttavia, può essere utilizzato anche per gestire progetti in cui vengono scritti contenuti testuali. Invece di collaborare sul codice, collaboriamo quindi sulla stesura di un testo. Plan ₿ Network ha adottato precisamente questo metodo per gestire i suoi contenuti! 
+Inizialmente, Git era principalmente usato per gestire progetti di sviluppo software. Tuttavia, può essere utilizzato anche per gestire progetti in cui vengono scritti contenuti testuali. Invece di collaborare sul codice, collaboriamo quindi sulla stesura di un testo. Plan ₿ Academy ha adottato precisamente questo metodo per gestire i suoi contenuti! 
 Git facilita la collaborazione nella stesura di corsi e tutorial, poiché permette un tracciamento preciso delle modifiche e una gestione efficiente delle varie versioni. Inoltre, consente anche la revisione e il miglioramento dei contenuti da parte di altri contributor esterni.
 
 ## Cos'è GitHub?
@@ -33,7 +33,7 @@ Prima di tutto, è importante capire che GitHub è basato su Git (di cui abbiamo
 
 Immagina Git come una sorta di libro mastro che ogni sviluppatore utilizza sul proprio computer per registrare tutte le modifiche nel proprio progetto. GitHub, d'altra parte, è come una biblioteca pubblica dove tutti questi registri possono essere condivisi, confrontati e combinati.
 La differenza fondamentale tra Git e GitHub risiede nella loro funzione: Git è lo strumento utilizzato localmente da ogni sviluppatore per gestire le versioni del codice, mentre GitHub è la piattaforma online che ospita queste versioni e facilita la collaborazione tra diversi utenti.
-GitHub è molto più di un semplice servizio di hosting di codice. È una piattaforma di collaborazione che permette agli sviluppatori di lavorare insieme in modo efficiente. E infatti, Plan ₿ Network utilizza questa piattaforma per gestire non solo tutto il codice che alimenta il sito web, ma anche, ed è questo che ci interessa, tutti i contenuti (tutorial, corsi, risorse...).
+GitHub è molto più di un semplice servizio di hosting di codice. È una piattaforma di collaborazione che permette agli sviluppatori di lavorare insieme in modo efficiente. E infatti, Plan ₿ Academy utilizza questa piattaforma per gestire non solo tutto il codice che alimenta il sito web, ma anche, ed è questo che ci interessa, tutti i contenuti (tutorial, corsi, risorse...).
 
 ## Alcuni Termini Tecnici
 
@@ -67,7 +67,7 @@ Questa lista ovviamente non è esaustiva. Ci sono molti altri termini tecnici sp
 
 ## Come creare un account GitHub
 
-Se desideri collaborare con Plan ₿ Network, avrai bisogno di un account GitHub. In questo tutorial, ti guideremo passo dopo passo su come creare il tuo account, configurarlo e proteggerlo adeguatamente.
+Se desideri collaborare con Plan ₿ Academy, avrai bisogno di un account GitHub. In questo tutorial, ti guideremo passo dopo passo su come creare il tuo account, configurarlo e proteggerlo adeguatamente.
 
 - Vai su [https://github.com/signup](https://github.com/signup).
 

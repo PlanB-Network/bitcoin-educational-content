@@ -98,7 +98,7 @@ description: 22개 디바이스 Hardware Wallet 포털 구성 및 사용
 Mnemonic 문구를 저장하고 관리하는 올바른 방법에 대한 자세한 내용은 특히 초보자라면 이 다른 튜토리얼을 따르는 것이 좋습니다:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 물론 이 튜토리얼에서처럼 인터넷에서 이 단어를 절대 공유해서는 안 됩니다. 이 샘플 Wallet는 Testnet에서만 사용되며 튜토리얼이 끝나면 삭제됩니다**_
 
@@ -340,4 +340,4 @@ Wallet의 이름을 선택하고 "*계속*"을 클릭합니다.
 자세한 내용은 HD 지갑의 작동 방식에 대한 전체 교육 과정을 살펴보세요:
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f

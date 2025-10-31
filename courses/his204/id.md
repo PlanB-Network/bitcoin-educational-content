@@ -424,179 +424,113 @@ Dan memang, pada tahun 1750-an, isu-isu ekonomi menjadi populer. Voltaire terken
 
 <chapterId>2d2f802b-e3b6-556f-9025-a1b1dc4409ca</chapterId>
 
-Prancis telah mengenal dua orang terkenal bernama Mirabeau, seorang ayah dan anak, namun sang anaklah yang benar-benar membuat sejarah. Seorang tribune revolusioner dan salah satu tokoh sentral dalam peristiwa Revolusi Prancis, dia tetap terkenal.
-
+Prancis memiliki dua tokoh terkenal bernama Mirabeau, ayah dan anak, tetapi sang putra lah yang benar-benar tercatat dalam sejarah. Sebagai orator revolusioner dan salah satu tokoh sentral dalam Revolusi Prancis, namanya tetap abadi.
 
 ![image](assets/id/037.webp)
 
-
-Melalui bakatnya dan posisinya dalam sejarah Prancis, ia membayangi ayahnya, seorang ekonom dan pilar sekolah François Quesnay, yang telah menjadi anggota pertamanya sejak tahun 1758.
-
+Berkat bakat dan tempatnya dalam sejarah Prancis, ia membayangi ayahnya, seorang ekonom dan pilar utama mazhab François Quesnay, serta menjadi anggota pertama mazhab tersebut sejak tahun 1758.
 
 ![image](assets/id/038.webp)
 
+Sebenarnya, Marquis de Mirabeau telah mencapai ketenaran luar biasa bahkan sebelum ia menganut Fisiokrasi, berkat sebuah buku berjudul "Sahabat Umat Manusia. Risalah tentang Populasi" [FR: L'ami des hommes, ou, Traité de la population](https://archive.org/details/lamideshommesou00unkngoog). Meskipun edisi pertamanya diterbitkan pada tahun 1756, buku ini menjadi sangat terkenal sekitar tahun 1757, setahun sebelum pertemuannya dengan Quesnay.
 
-Marquis de Mirabeau, pada kenyataannya, telah mencapai ketenaran yang luar biasa bahkan sebelum dia mengadopsi Fisiokrasi berkat buku berjudul "Sahabat Umat Manusia. Risalah tentang Populasi [FR: L'ami des hommes, ou, Traité de la population] (https://archive.org/details/lamideshommesou00unkngoog). Meskipun edisi pertama diterbitkan pada tahun 1756, buku ini menjadi terkenal sekitar tahun 1757, setahun sebelum pertemuannya dengan Quesnay.
+Lebih dari 20 edisi diterbitkan antara tahun 1757 dan 1760, yang menjadikannya kemungkinan sebagai buku ekonomi paling sukses dalam sejarah. Beberapa pembaca bahkan mengira buku itu ditulis oleh Montesquieu karena penalaran tajamnya. Dauphin (Putra Mahkota), ayah dari Raja Louis XVI, bahkan mengaku telah menghafalnya. Untuk sementara waktu, buku itu menjadi bacaan wajib semua orang di Versailles.
 
+Saat ini, buku tersebut sudah tidak dibaca lagi, tetapi banyak orang masih merujuk padanya. Bahkan pada abad ke-19, Edmond Roussel mengatakan:
 
+> L'Ami des Hommes adalah salah satu buku yang dibicarakan semua orang, namun hampir tidak ada yang tahu isinya. Di setiap generasi, satu warga negara yang berani harus membacanya; sehingga orang lain tidak perlu melakukannya.
 
-
-
-Lebih dari 20 edisi diterbitkan antara tahun 1757 dan 1760, yang mungkin menjadikannya buku ekonomi paling sukses dalam sejarah. Beberapa pembaca bahkan mengira buku ini ditulis oleh Montesquieu karena penalarannya yang tajam. Sang Dauphin, ayahanda Raja Louis XVI, bahkan mengaku telah menghafalnya. Untuk sementara waktu, buku ini menjadi buku yang dibaca semua orang di Versailles.
-
-
-Saat ini, buku ini sudah tidak lagi dibaca, tetapi masih banyak yang merujuknya. Bahkan pada abad ke-19, kata Edmond Roussel:
-
-
-> L'Ami des Hommes adalah salah satu buku yang dibicarakan semua orang, namun hampir tidak ada yang mengetahuinya. Di setiap generasi, satu warga negara yang berani harus membacanya; sehingga orang lain tidak perlu membacanya.
-
-Pada awal karirnya sebagai ekonom, Mirabeau mendapatkan inspirasi dari Richard Cantillon. Dia telah memiliki manuskrip Cantillon's Essay on the Nature of Commerce in General selama 15 tahun dan dengan sabar menganalisis dan mengomentarinya.
-
+Pada awal kariernya sebagai ekonom, Mirabeau mendapat inspirasi dari Richard Cantillon. Ia telah memiliki manuskrip Essay on the Nature of Commerce in General karya Cantillon selama 15 tahun dan dengan sabar menganalisis serta mengomentarinya.
 
 ![image](assets/id/039.webp)
 
-
-L'Ami des Hommes pada awalnya disusun sebagai sebuah komentar sederhana atas Esai Cantillon. Namun karena Mirabeau memiliki pikiran yang agak eklektik, yang bisa dikatakan, sedikit gila, ia dengan cepat menyimpang dari rencana awalnya. Buku ini hanya membahas semua pertanyaan ekonomi yang ia ketahui, sesekali menjauh dari Cantillon. Ini adalah buku yang sulit untuk dibaca, dengan rencana yang aneh dan penyimpangan di setiap bab. Mirabeau sendiri mengakui bahwa itu adalah kekacauan dan gayanya apokaliptik.
-
-
-
-
+L'Ami des Hommes awalnya disusun sebagai komentar sederhana tentang Esai Cantillon. Namun karena Mirabeau memiliki pemikiran yang agak eklektik—yang bisa dikatakan, sedikit "gila"—ia dengan cepat menyimpang dari rencana awalnya. Buku itu membahas semua pertanyaan ekonomi yang ia ketahui, terkadang menjauh dari Cantillon. Ini adalah buku yang sulit dibaca, dengan rencana yang aneh dan penyimpangan di setiap bab. Mirabeau sendiri mengakui bahwa karyanya adalah kekacauan dan gayanya bersifat apokaliptik.
 
 Terlepas dari kekacauan yang terjadi, ada beberapa ide yang patut diperhatikan:
 
-
-
 - Mirabeau melawan prasangka merkantilis tentang sifat kekayaan.
 - Dia memuji pertanian dan mengkritik pengabaiannya.
-- Ia mengeluhkan kondisi masyarakat, terutama para petani.
+- Ia mengeluhkan kondisi rakyat, terutama para petani.
 - Terakhir, ia membela kebebasan perdagangan dan persaudaraan bangsa-bangsa dalam perdamaian.
-
 
 ![image](assets/id/040.webp)
 
+Sulit untuk melabeli pandangan Mirabeau sebagai liberal atau anti-liberal. Ia sering bergeser maju mundur, terkadang tanpa menyadarinya, antara satu visi dengan visi yang lain. Namun, ide-ide liberal sering mendominasi tulisannya. Salah satu kalimatnya yang paling terkenal adalah:
 
-Adalah Hard untuk melabeli pandangan Mirabeau sebagai liberal atau anti-liberal. Dia sering bolak-balik, terkadang tanpa disadari, antara satu visi dan visi lainnya. Namun, ide-ide liberal sering mendominasi tulisannya. Salah satu kalimatnya yang paling terkenal adalah:
-
-
-> Prinsip ekonomi politik yang benar dan satu-satunya adalah membiarkan segala sesuatu bebas.
-
-Dengan kesuksesan terbesarnya di belakangnya, Mirabeau dirayu. François Quesnay, yang baru saja menaruh minat pada bidang ekonomi, mengundangnya ke entresol di Versailles.
-
+> "Prinsip sejati dan satu-satunya dari ekonomi politik adalah membiarkan segalanya bebas."
+.
+Dengan kesuksesan terbesar di belakangnya, Mirabeau didekati. François Quesnay, yang baru saja menaruh minat pada ekonomi, mengundangnya ke entresol (lantai mezanin) di Versailles.
 
 ![image](assets/id/041.webp)
 
+Mereka berdebat dengan sengit dan akhirnya, sesuatu yang biasanya tidak pernah terjadi dalam perdebatan, terjadi: Mirabeau secara terang-terangan mengakui bahwa ia telah salah. Ia setuju dengan ide-ide Quesnay dan mengatakan ia siap menyebarkannya.
 
-Mereka berdebat dengan sengit dan akhirnya, sesuatu yang biasanya tidak pernah terjadi dalam perdebatan, terjadi: Mirabeau dengan tegas mengakui bahwa dia telah salah. Dia setuju dengan ide-ide Quesnay dan mengatakan bahwa dia siap untuk menyebarkannya.
-
-
-Bersama-sama, mereka membentuk inti dari apa yang akan menjadi sekolah Fisiokratis, diperkuat oleh para anggota yang mereka rekrut. Tak lama setelah Mirabeau bertobat, Quesnay meminta dia untuk mempertahankan ide-idenya tentang perpajakan. Hal ini menyebabkan ["Teori Perpajakan"] (https://archive.org/details/thoriedelimpot00mira), di mana Mirabeau dikirim selama beberapa hari ke penjara Vincennes dan kemudian diasingkan ke Bignon.
-
+Bersama-sama, mereka membentuk inti dari apa yang kemudian menjadi mazhab Fisiokratik, diperkuat oleh anggota baru yang mereka rekrut secara berkala. Tak lama setelah pertobatan Mirabeau, Quesnay merekrutnya untuk membela ide-idenya tentang perpajakan. Hal ini menghasilkan ["Theory of Taxation / Teori Perpajakan"](https://archive.org/details/thoriedelimpot00mira), yang menyebabkan Mirabeau dikirim selama beberapa hari ke penjara Vincennes dan kemudian diasingkan ke Bignon.
 
 ![image](assets/id/042.webp)
 
+Mirabeau juga memainkan peran penting dalam merekrut anggota baru untuk mazhab Quesnay. Ia bahkan meyakinkan Dupont de Nemours muda. Pertemuan kaum Fisiokrat juga diadakan di rumah Mirabeau setiap hari Selasa. Tokoh-tokoh seperti Turgot dan Adam Smith diketahui pernah menghadiri pertemuan-pertemuan ini satu atau beberapa kali.
 
-Mirabeau juga memainkan peran penting dalam merekrut anggota baru untuk sekolah Quesnay. Dia bahkan meyakinkan Dupont de Nemours yang masih muda.
-
-
-
-
-
-Di rumah Mirabeau inilah kaum Fisiokrat bertemu setiap hari Selasa. Tokoh-tokoh seperti Turgot dan Adam Smith tampaknya telah menghadiri pertemuan ini sekali atau beberapa kali.
-
-
-Sepanjang hidupnya, Mirabeau tetap menjadi penulis yang tak kenal lelah. Dia menulis banyak karya ekonomi yang membela doktrin Quesnay. Namun, menjelang akhir hayatnya, pengaruhnya memudar. Gaya penulisannya memburuk sampai-sampai saudaranya sendiri menulis surat kepadanya dan mengatakan bahwa ia tidak dapat lagi memahami prosa-prosanya. Ide-idenya, yang telah menjadi sepenuhnya liberal, berbenturan dengan reaksi sosialis atau proto-komunis dari para pemikir seperti Mably dan bahkan Rousseau. Dia berjuang untuk menemukan pembaca dan penerbit, dan meninggal tanpa diketahui pada tahun 1789, pada malam penyerbuan Bastille.
-
+Sepanjang hidupnya, Mirabeau tetap menjadi penulis yang tak kenal lelah. Ia menulis banyak karya ekonomi yang membela doktrin Quesnay. Namun, menjelang akhir hidupnya, pengaruhnya berkurang. Gaya penulisannya memburuk hingga saudaranya sendiri menulis surat kepadanya yang mengatakan ia tidak lagi dapat memahami prosa Mirabeau. Ide-idenya, yang telah menjadi sangat liberal, bertentangan dengan reaksi sosialis atau proto-komunis dari para pemikir seperti Mably dan bahkan Rousseau. Ia berjuang untuk menemukan pembaca dan penerbit, dan meninggal tanpa diketahui pada tahun 1789, menjelang badai penyerbuan Bastille.
 
 ## Quesnay
 
-
 <chapterId>7a35f20b-5ea0-544d-b290-bcd9c6f7f11a</chapterId>
-
 
 François Quesnay adalah salah satu ekonom Prancis yang paling terkenal.
 
-
 ![image](assets/id/043.webp)
 
+Namanya muncul di setiap buku teks tentang ekonomi dan sejarah pemikiran ekonomi. Disebutkan bahwa ia menciptakan "Tableau Économique" (Tabel Ekonomi) untuk merepresentasikan ekonomi secara skematis, bahwa ia adalah pemimpin mazhab Fisiokratik, dan bahwa ia keliru dalam meyakini hanya tanah yang produktif. Akhirnya, dikatakan bahwa Adam Smith datang untuk meluruskan hal tersebut. Kira-kira begitulah buku teks cenderung meringkas François Quesnay.
 
-Namanya muncul di setiap buku teks tentang ekonomi dan sejarah pemikiran ekonomi. Disebutkan bahwa ia menciptakan "Tableau Économique" untuk menggambarkan ekonomi secara skematis, bahwa ia adalah pemimpin mazhab Fisiokratis, dan bahwa ia keliru karena meyakini bahwa hanya tanah yang produktif, dan akhirnya, Adam Smith datang untuk meluruskannya. Kurang lebih, begitulah cara buku-buku teks meringkas François Quesnay.
+Mengecilkannya seperti ini adalah hal yang disayangkan, karena Quesnay juga merupakan ekonom pertama yang berusaha mendasarkan pembelaan kebebasan ekonomi pada prinsip-prinsip ilmiah. Ia adalah salah satu ekonom yang paling didengar dan berpengaruh pada masanya. Terlebih lagi, ia mendirikan Fisiokrasi, sebuah doktrin yang jauh lebih kaya daripada ide sederhana yang sering disalahpahami bahwa hanya alam yang menghasilkan kekayaan.
 
+Kita akan membahas Fisiokrasi lebih detail selama tiga bab berikutnya. Pertama, mari kita lihat lebih dekat sosok François Quesnay itu sendiri.
 
+Lahir pada tahun 1694 di Méré dari keluarga petani yang tidak mampu mengajari Quesnay membaca. Ia dilatih oleh seorang pria lokal dan akhirnya melanjutkan studi di College of Surgery (Sekolah Bedah) dan kemudian Faculty of Medicine (Fakultas Kedokteran). Pada usia 24 tahun, ia menjadi ahli bedah di Mantes.
 
+Ia meraih ketenaran pada tahun 1730, pada usia 36 tahun, karena menentang praktik umum pengeluaran darah (bloodletting), yang ia yakini didasarkan pada teori dan prasangka yang salah. Ia juga berani menantang sistem gilda, yang mendiktekan bahwa hanya ahli bedah yang dapat melakukan operasi dan hanya dokter yang dapat meresepkan obat. Hal ini sering memaksa orang miskin membayar dua kali dan mendatangkan dua orang, sebuah situasi yang dianggap menjijikkan oleh Quesnay.
 
-
-Mereduksi dirinya menjadi seperti ini adalah hal yang memalukan, karena Quesnay juga merupakan ekonom pertama yang mencoba mendasarkan pembelaan kebebasan ekonomi pada prinsip-prinsip ilmiah. Dia adalah salah satu ekonom yang paling banyak didengar dan berpengaruh pada masanya. Selain itu, ia mendirikan Fisiokrasi, sebuah doktrin yang jauh lebih kaya daripada gagasan sederhana bahwa hanya alam yang menghasilkan kekayaan, sebuah gagasan yang sering disalahartikan.
-
-
-Kita akan membahas Fisiokrasi secara lebih rinci dalam tiga bab berikutnya. Pertama, mari kita lihat lebih dekat François Quesnay sendiri.
-
-
-Lahir pada tahun 1694 di Méré dari sebuah keluarga petani yang tidak dapat mengajari Quesnay membaca. Dia dilatih oleh seorang pria lokal dan akhirnya melanjutkan pendidikannya di Sekolah Tinggi Bedah dan kemudian Fakultas Kedokteran. Pada usia 24 tahun, ia menjadi seorang ahli bedah di Mantes.
-
-
-Dia menjadi terkenal pada tahun 1730, pada usia 36 tahun, karena menentang praktik pertumpahan darah yang umum dilakukan, yang dia yakini didasarkan pada teori dan prasangka yang salah. Dia juga berani menentang sistem gilda, yang menyatakan bahwa hanya ahli bedah yang dapat melakukan operasi dan hanya dokter yang dapat meresepkan obat. Hal ini sering kali memaksa orang miskin untuk membayar dua kali dan membawa dua orang, situasi yang menurut Quesnay menjijikkan.
-
-
-Pada tahun 1740, ia menjadi sekretaris Akademi Bedah. Pada tahun 1748, di usia 54 tahun, ia menjadi dokter pribadi Madame de Pompadour dan pindah ke Versailles.
-
+Pada tahun 1740, ia menjadi sekretaris Akademi Bedah. Pada tahun 1748, pada usia 54 tahun, ia menjadi dokter pribadi Madame de Pompadour dan pindah ke Versailles.
 
 ![image](assets/id/044.webp)
 
+Dia sangat dekat dengan Madame de Pompadour. Quesnay bahkan berkata, pada saat kabar kejatuhan favorite (selir kesayangan Raja) itu diumumkan, bahwa ia tidak akan mau tetap menjadi dokter di Versailles tanpanya:
 
-Dia sangat dekat dengan Madame de Pompadour. Quesnay bahkan mengatakan, pada saat aib sang kekasih diumumkan, bahwa ia tidak ingin tetap menjadi dokter di Versailles tanpanya:
+"Saya terikat pada Madame de Pompadour dalam kemakmurannya; saya akan tetap terikat dalam kejatuhannya."
 
-"Saya melekat pada Madame de Pompadour dalam kemakmurannya; saya akan tetap demikian dalam aibnya".
+Kemudian ia menerbitkan beberapa buku medis: Makalah tentang Supurasi (1749), Makalah tentang Gangren (1749), dan Makalah tentang Demam Berkelanjutan (1753), yang semuanya dicetak ulang beberapa kali selama masa hidupnya.
 
-
-Kemudian ia menerbitkan beberapa buku medis: Risalah tentang Supurasi (1749), Risalah tentang Gangren (1749), dan Risalah tentang Demam Berkelanjutan (1753), yang semuanya dicetak ulang beberapa kali selama masa hidupnya.
-
-
-Pada usia 60 tahun, setelah diperkenalkan dengan perdebatan ekonomi yang sedang populer saat itu, ia mulai menulis tentang ekonomi. Pada tahun 1755, ia menulis artikel "Petani" dan "Biji-bijian" untuk *Encyclopédie*.
-
+Pada usia 60 tahun, setelah diperkenalkan dengan debat ekonomi yang sedang populer saat itu, ia mulai menulis tentang ekonomi. Pada tahun 1755, ia menulis artikel "Farmers" (Petani) dan "Grain" (Gandum) untuk _Encyclopédie_.
 
 ![image](assets/id/045.webp)
 
+Artikel tersebut diterbitkan pada tahun 1757. Pada tahun yang sama, ia bertemu Mirabeau yang terkenal dan berhasil mengubahnya menjadi pengikut ide-ide ekonominya—inti dari Fisiokrasi pun lahir. Quesnay kemudian menciptakan Tableau Économique, yang dicetak di percetakan kerajaan, kabarnya di hadapan Raja sendiri di Istana Versailles. Sejak saat itu, ia secara teratur menjamu para ekonom dan filsuf di apartemennya di Versailles, tempat mereka terlibat dalam diskusi bebas. Quesnay juga berkontribusi pada Theory of Taxation / Teori Perpajakan milik Mirabeau, yang diterbitkan pada tahun 1759.
 
-Buku ini diterbitkan pada tahun 1757. Pada tahun yang sama, ia bertemu dengan Mirabeau yang terkenal dan berhasil mengubahnya menjadi ide ekonominya-inti dari Fisiokrasi lahir. Quesnay kemudian menciptakan Tableau Économique, yang dicetak di percetakan kerajaan, yang kabarnya dihadiri oleh raja sendiri di Château de Versailles. Sejak saat itu, ia secara teratur menjadi tuan rumah bagi para ekonom dan filsuf di apartemennya di Versailles, di mana mereka berdiskusi dengan bebas. Quesnay juga berkontribusi pada Teori Perpajakan Mirabeau, yang diterbitkan pada tahun 1759.
+Tak lama kemudian, sensor menyerang. Mirabeau dipenjara, dan Quesnay ditegur. Setelah itu, Quesnay menyadari bahwa ia tidak dapat menerbitkan secara terbuka dan akan membutuhkan murid-murid untuk menyebarkan ide-idenya.
 
+Dia dengan cepat menemukan mereka: Baudeau, Dupont de Nemours, Le Trosne, Mercier de la Rivière, dan lain-lain. Merekalah orang-orang yang akan menyebarkan dan mempopulerkan pemikiran Quesnay. Namun, Quesnay, yang membutuhkan murid, tidak sepenuhnya puas dengan aspek sektarian dari kelompoknya. Hal ini terlihat dari surat-suratnya kepada Mirabeau, di mana ia mengatakan kepadanya:
 
+> "Berpikirlah sendiri. Saya menyadari bahwa konsep saya yang menyedihkan membuatmu malas. Sekarang giliran Anda untuk berpikir. Kamu tahu sebanyak yang saya tahu."
 
+Namun, murid-muridnya sangat setia dan berkontribusi besar pada popularitas Quesnay. Setelah kematiannya, Mirabeau menyampaikan pidato, dengan mengatakan, "Kami telah kehilangan ayah kami, karena kami berutang segalanya padanya." Sebenarnya, Quesnay lah yang berutang segalanya pada mereka, karena tanpa mereka, ia akan tetap terperangkap di Versailles, di mana pemikirannya, meskipun memiliki banyak hal untuk memikat atau mengkhawatirkan, hanya menarik sedikit orang.
 
-
-Penyensoran segera terjadi. Mirabeau dipenjara, dan Quesnay ditegur. Setelah itu, Quesnay menyadari bahwa ia tidak dapat mempublikasikan secara terbuka dan membutuhkan murid untuk menyebarkan ide-idenya.
-
-
-Dia dengan cepat menemukan mereka: Baudeau, Dupont de Nemours, Le Trosne, Mercier de la Rivière, dan lainnya. Mereka adalah orang-orang yang akan menyebarkan dan mempopulerkan pemikiran Quesnay. Namun, Quesnay, yang membutuhkan murid, tidak sepenuhnya puas dengan aspek sektarian kelompoknya. Saksikan surat-suratnya kepada Mirabeau, di mana ia mengatakan kepadanya:
-
-
-> "Pikirkan sendiri. Saya telah menyadari bahwa konsep saya yang menyedihkan membuat Anda malas. Sekarang giliran Anda untuk berpikir. Kamu tahu sebanyak yang aku tahu".
-
-Namun, murid-muridnya sangat berbakti dan berkontribusi besar terhadap popularitas Quesnay. Setelah kematiannya, Mirabeau memberikan pidato perpisahannya, dengan mengatakan, "Kami telah kehilangan ayah kami, karena kami berutang segalanya kepadanya". Sebenarnya, Quesnay-lah yang berhutang segalanya kepada mereka, karena tanpa mereka, dia akan tetap terjebak di Versailles, di mana pemikirannya, meskipun banyak yang merayu atau mengkhawatirkan, hanya sedikit yang tertarik.
-
-
-Berkat kerja keras para kolaboratornya, ide-idenya menemukan platform: pertama melalui surat kabar seperti *Journal of Agriculture* dan *Ephémérides du Citoyen*.
-
+Berkat kerja keras para kolaboratornya, ide-idenya menemukan platform: pertama melalui surat kabar seperti _Journal of Agriculture dan Ephémérides du Citoyen_.
 
 ![image](assets/id/046.webp)
 
 
 Kemudian melalui buku-buku, tidak hanya dari murid-muridnya tetapi juga sebuah antologi penting yang diterbitkan pada tahun 1768 oleh Dupont de Nemours, berjudul *Physiocracy*.
 
+Kemudian melalui buku-buku, tidak hanya karya murid-muridnya tetapi juga antologi penting yang diterbitkan pada tahun 1768 oleh Dupont de Nemours, berjudul _Physiocracy_.
 
-
-
-
-Buku ini mengumpulkan kontribusi utama Quesnay. Buku ini memaparkan cita-cita ekonomi dari pemimpin Fisiokrat: sebuah model ekonomi agrikultur di mana hukum menjamin setiap orang memiliki hak untuk memiliki properti dan kebebasan untuk berdagang.
-
+Buku ini mengumpulkan kontribusi utama Quesnay. Di dalamnya dipaparkan cita-cita ekonomi pemimpin Fisiokrat: model ekonomi pertanian di mana hukum menjamin hak setiap orang untuk memiliki properti dan kebebasan untuk berdagang.
 
 # Sekolah Fisiokratik
 
-
 <partId>27af82c1-ad82-5c3b-8ce9-c674b67bbf7c</partId>
 
-
 ## Sejarah Fisiokrat
-
 
 <chapterId>4236ff8b-b53a-59e7-92c0-f96f9afa1c00</chapterId>
 

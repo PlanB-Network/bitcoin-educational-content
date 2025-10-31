@@ -65,7 +65,7 @@ Hii huleta watumiaji wazoefu shauku ya kuchangia programu ambayo tayari wanatumi
 
 ### Kabla hatujaanza
 
-Kozi hii ina sehemu nyingi. Mengi yatafunzwa na mwalimu wako wa darasani, mazingira ya Onyesho ambayo unaweza kupata ufikiaji, server inayopangishwa kwako mwenyewe, na ikiwezekana jina la kikoa. Ukikamilisha kozi hii kwa kujitegemea, tafadhali fahamu kuwa mazingira yaliyo na alama ya DEMO hayatapatikana kwako.
+Kozi hii ina sehemu nyingi. Mengi yatafunzwa na mwalimu wako wa darasani, mazingira ya Onyesho ambayo unaweza kupata ufikiaji, server inayopangishwa kwako mwenyewe, na ikiwezekana Domain Name. Ukikamilisha kozi hii kwa kujitegemea, tafadhali fahamu kuwa mazingira yaliyo na alama ya DEMO hayatapatikana kwako.
 
 NB. Ukifuata kozi hii kulingana na darasa, majina ya server yanaweza kutofautiana kulingana na usanidi wa darasa lako. Vigezo katika majina ya Server vinaweza kuwa tofauti kwa sababu ya hii.
 
@@ -77,7 +77,7 @@ Kila sura ina malengo na tathmini ya maarifa. Katika kozi hii, tutashughulikia k
 
 Akiwa na Kozi ya BTCPay Server, mwanafunzi anaweza kuelewa kanuni za kimsingi, kiufundi na zisizo za kiufundi za Bitcoin. Mafunzo ya kina ya kutumia Bitcoin kupitia BTCPay Server yataruhusu wanafunzi kuendesha miundombinu yao ya Bitcoin.
 
-### Anwani muhimu za Wavuti au Fursa za Mawasiliano
+### Address muhimu za Wavuti au Fursa za Mawasiliano
 
 Wakfu wa BTCPay Server, ulioruhusu Alekos na Bas kuandika kozi hii, uko Tokyo, Japani. Msingi wa BTCPay Server unaweza kufikiwa kupitia tovuti iliyoorodheshwa;
 
@@ -137,7 +137,7 @@ Wateja hununua bidhaa kutoka kwa duka na Bitcoin.
 
 - Sanidi:
   - Angalia michoro/mfafanuzi katika Figjam iliyoambatishwa - [Mpango wa Shughuli](https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S9).
-  - Badilisha Benki na wanafunzi tisa ambao watachukua nafasi ya Kompyuta (node za Bitcoin/Wachimbaji) kwenye mtandao kuchukua nafasi ya Benki.
+  - Badilisha Benki na wanafunzi tisa ambao watachukua nafasi ya Kompyuta (node za Bitcoin/miners) kwenye mtandao kuchukua nafasi ya Benki.
 - Kila moja ya Kompyuta 9 ina rekodi kamili ya kihistoria ya miamala yote ya zamani iliyowahi kufanywa (hivyo mizani sahihi bila kughushi), pamoja na seti za sheria:
   - Thibitisha kuwa muamala umetiwa sahihi ipasavyo (thekeyfitsthelock)
   - Tangaza na upokee miamala halali kwa wenzako kwa mtandao, tupa zisizo sahihi (ikiwa ni pamoja na jaribio lolote la kutumia pesa sawa mara mbili)
@@ -145,15 +145,15 @@ Wateja hununua bidhaa kutoka kwa duka na Bitcoin.
   - Kiasi kinachofaa kitatuzwa ikiwa maudhui yatakuwa halali.
 - Igiza mlolongo wa matukio:
   - Mteja- anavinjari duka mtandaoni na kupata bidhaa kwa $25 anazotaka, na kumfahamisha Mfanyabiashara ambaye angependa kununua.
-  - Mfanyabiashara- anaomba malipo kwa kumtumia mteja Anwani ya ununuzi/Anwani kutoka kwa wallet lake.
-  - Mteja- hutengeneza muamala (kutuma BTC ya thamani ya $25 kwa Anwani iliyotolewa na Muuzaji) na kuitangaza kwa Mtandao wa Bitcoin.
+  - Mfanyabiashara- anaomba malipo kwa kumtumia mteja Address ya ununuzi/Address kutoka kwa wallet lake.
+  - Mteja- hutengeneza muamala (kutuma BTC ya thamani ya $25 kwa Address iliyotolewa na Muuzaji) na kuitangaza kwa Mtandao wa Bitcoin.
 - Kompyuta- pokea muamala na uthibitishe:
-  - Kuna angalau $25 ya BTC katika Anwani inayotumwa kutoka
+  - Kuna angalau $25 ya BTC katika Address inayotumwa kutoka
   - Muamala umetiwa sahihi ipasavyo ("kufunguliwa" na mteja)
   - Ikiwa sio kesi, basi shughuli hiyo haitaenezwa kupitia mtandao, na ikiwa ni hivyo, basi inaenea na inafanyika kwa kusubiri.
   - Wauzaji wanaweza kuangalia kama muamala unasubiri na unasubiriwa.
 - Kompyuta moja "inachaguliwa kwa nasibu" kupendekeza kukamilisha shughuli inayopendekezwa kwa kutangaza "block" iliyo nayo; ikiwa itaangalia, watapata tuzo ya BTC.
-  - SI LAZIMA/YA JUU - badala ya kuchagua Kompyuta kwa nasibu, iga Uchimbaji kwa kuweka kete za Kompyuta hadi matokeo yaliyoamuliwa mapema yatokee (k.m. ya kwanza kukunja sita sita imechaguliwa)
+  - SI LAZIMA/YA JUU - badala ya kuchagua Kompyuta kwa nasibu, iga mining kwa kuweka kete za Kompyuta hadi matokeo yaliyoamuliwa mapema yatokee (k.m. ya kwanza kukunja sita sita imechaguliwa)
   - Inaweza pia kucheza nini kitatokea ikiwa Kompyuta mbili zitashinda takriban wakati huo huo, na kusababisha mgawanyiko wa mnyororo.
   - Kompyuta hukagua uhalali, kusasisha/kuongeza rekodi kwenye daftari zao ikiwa sheria zitatimizwa, na kutangaza block kwa programu zingine.
   - Kompyuta iliyochaguliwa kwa nasibu hupokea zawadi kwa kupendekeza kizuizi halali.
@@ -161,7 +161,7 @@ Wateja hununua bidhaa kutoka kwa duka na Bitcoin.
 - Maoni:
   - Ona hakukuwa na haja ya uhusiano wa benki uliokuwepo hapo awali.
   - Hakuna mtu wa tatu anayehitajika kuwezesha; nafasi yake kuchukuliwa na kanuni/motisha.
-  - Hakuna mkusanyiko wa data na mtu yeyote nje ya  exchange wa moja kwa moja. Na ni lazima tu kiasi kinachohitajika kibadilishwe kati ya washiriki (k.m., usafirishaji wa Anwani).
+  - Hakuna mkusanyiko wa data na mtu yeyote nje ya  exchange wa moja kwa moja. Na ni lazima tu kiasi kinachohitajika kibadilishwe kati ya washiriki (k.m., usafirishaji wa Address).
   - Hakuna uaminifu unaohitajika kati ya watu (mbali na Mfanyabiashara anayetuma bidhaa), kama ununuzi wa pesa taslimu kwa njia nyingi.
   - Pesa hizo zinamilikiwa moja kwa moja na watu binafsi.
   - Bitcoin Leja inaonyeshwa kwa dola kwa unyenyekevu, lakini kwa kweli, ni BTC.
@@ -221,7 +221,7 @@ Unapokaribishwa kwenye mazingira ya Onyesho, unaombwa ‘Ingia’ au ‘Ufungue 
 
 ### Unda dirisha la Akaunti
 
-Kufungua akaunti kwenye BTCPay Server kunahitaji mifuatano halali ya Barua pepe ya Anwani; example@email.com itakuwa mfuatano halali wa Barua pepe.
+Kufungua akaunti kwenye BTCPay Server kunahitaji mifuatano halali ya Barua pepe ya Address; example@email.com itakuwa mfuatano halali wa Barua pepe.
 
 Nenosiri linahitaji kuwa na urefu wa angalau vibambo 8, likijumuisha herufi, nambari na vibambo. Baada ya kuweka nenosiri mara moja, itabidi uthibitishe nenosiri lililochapwa ili kuhakikisha kuwa ni sahihi kwa kile kilichoandikwa katika sehemu ya kwanza ya nenosiri.
 
@@ -239,13 +239,13 @@ Msimamizi wa Hali ya BTCPay Server pia anaweza kuunda akaunti kwa ajili ya BTCPa
 
 ![image](assets/en/003.webp)
 
-Kama msimamizi, utahitaji Barua pepe ya mtumiaji Anwani na kuweka nenosiri la kawaida. Inashauriwa kama Msimamizi kumjulisha mtumiaji kwamba anapaswa kubadilisha nenosiri hili kabla ya kutumia akaunti kwa sababu za usalama. Iwapo Msimamizi ASIWEKE Nenosiri na SMTP imewekwa kwenye server, mtumiaji atapokea barua pepe yenye kiungo cha mwaliko ili kuunda akaunti yake na kuweka nenosiri mwenyewe.
+Kama msimamizi, utahitaji Barua pepe ya mtumiaji Address na kuweka nenosiri la kawaida. Inashauriwa kama Msimamizi kumjulisha mtumiaji kwamba anapaswa kubadilisha nenosiri hili kabla ya kutumia akaunti kwa sababu za usalama. Iwapo Msimamizi ASIWEKE Nenosiri na SMTP imewekwa kwenye server, mtumiaji atapokea barua pepe yenye kiungo cha mwaliko ili kuunda akaunti yake na kuweka nenosiri mwenyewe.
 
 ### Mfano
 
-Unapofuata kozi na mwalimu, fuata kiungo ulichopewa na mwalimu na uunde akaunti yako kwenye mazingira ya Onyesho yaliyotolewa. Hakikisha barua pepe yako Anwani na nenosiri zimehifadhiwa kwa usalama; utahitaji kitambulisho hiki cha kuingia kwa malengo mengine ya onyesho katika kozi hii.
+Unapofuata kozi na mwalimu, fuata kiungo ulichopewa na mwalimu na uunde akaunti yako kwenye mazingira ya Onyesho yaliyotolewa. Hakikisha barua pepe yako Address na nenosiri zimehifadhiwa kwa usalama; utahitaji kitambulisho hiki cha kuingia kwa malengo mengine ya onyesho katika kozi hii.
 
-Huenda mwalimu wako amekusanya barua pepe ya Anwani mapema na kutuma kiungo cha mwaliko kabla ya zoezi hili. Ukielekezwa, angalia Barua pepe yako.
+Huenda mwalimu wako amekusanya barua pepe ya Address mapema na kutuma kiungo cha mwaliko kabla ya zoezi hili. Ukielekezwa, angalia Barua pepe yako.
 
 Unapochukua kozi bila mwalimu, fungua akaunti yako kwa kutumia mazingira ya onyesho la BTCPay Server; kwenda kwa
 
@@ -296,7 +296,7 @@ Baada ya kufungua akaunti ya mtumiaji, hapa ndipo pa kudhibiti maneno ya siri, 2
 
 ### Dhibiti Akaunti - Akaunti
 
-Sasisha akaunti yako kwa hiari ukitumia Barua pepe tofauti ya Anwani. Ili kuhakikisha barua pepe yako ya Anwani ni sahihi, BTCPay Server hukuruhusu kutuma barua pepe ya uthibitishaji. Bofya hifadhi ikiwa mtumiaji ataweka barua pepe mpya Anwani na kuthibitisha uthibitishaji ulifanya kazi. Jina la mtumiaji linasalia kuwa sawa na Barua pepe iliyotangulia.
+Sasisha akaunti yako kwa hiari ukitumia Barua pepe tofauti ya Address. Ili kuhakikisha barua pepe yako ya Address ni sahihi, BTCPay Server hukuruhusu kutuma barua pepe ya uthibitishaji. Bofya hifadhi ikiwa mtumiaji ataweka barua pepe mpya Address na kuthibitisha uthibitishaji ulifanya kazi. Jina la mtumiaji linasalia kuwa sawa na Barua pepe iliyotangulia.
 
 Mtumiaji anaweza kuamua kufuta akaunti yake yote. Hii inaweza kufanyika kwa kubofya kitufe cha kufuta kwenye kichupo cha Akaunti.
 
@@ -304,7 +304,7 @@ Mtumiaji anaweza kuamua kufuta akaunti yake yote. Hii inaweza kufanyika kwa kubo
 
 **!Kumbuka!**
 
-Baada ya kubadilisha Barua pepe, jina la mtumiaji la akaunti halitabadilika. Barua pepe iliyopewa hapo awali ya Anwani itasalia kuwa jina la Kuingia.
+Baada ya kubadilisha Barua pepe, jina la mtumiaji la akaunti halitabadilika. Barua pepe iliyopewa hapo awali ya Address itasalia kuwa jina la Kuingia.
 
 ### Dhibiti Akaunti - Nenosiri
 
@@ -427,24 +427,24 @@ Kizazi cha seed kinafanywa kulingana na kiwango cha sekta kinachojulikana kama m
 
 ![image](assets/en/016.webp)
 
-### Anwani
+### Address
 
-BTCPay Server iliyojengwa hadi kuzalisha Anwani mpya. Hii inapunguza tatizo la ufunguo wa umma au kutumia tena Anwani. Kutumia ufunguo sawa wa Umma hurahisisha sana kufuatilia historia yako yote ya malipo. Kufikiria funguo kama vocha za matumizi ya mara moja kunaweza kuboresha faragha yako kwa kiasi kikubwa. Pia tunatumia Anwani za Bitcoin, usichanganye hizi na funguo za Umma.
+BTCPay Server iliyojengwa hadi kuzalisha Address mpya. Hii inapunguza tatizo la ufunguo wa umma au kutumia tena Address. Kutumia ufunguo sawa wa Umma hurahisisha sana kufuatilia historia yako yote ya malipo. Kufikiria funguo kama vocha za matumizi ya mara moja kunaweza kuboresha faragha yako kwa kiasi kikubwa. Pia tunatumia Address za Bitcoin, usichanganye hizi na funguo za Umma.
 
-Anwani inatolewa kutoka kwa ufunguo wa Umma kupitia "algorithm ya hashing."  Wallet nyingi na miamala, hata hivyo, zitaonyesha Anwani badala ya funguo hizo za umma. Kwa ujumla, anwani ni fupi kuliko vitufe vya umma na kwa kawaida huanza na `1`, `3`, au `bc1`, ambapo funguo za umma huanza na `02`, `03`, au `04`.
+Address inatolewa kutoka kwa ufunguo wa Umma kupitia "algorithm ya hashing."  Wallet nyingi na miamala, hata hivyo, zitaonyesha Address badala ya funguo hizo za umma. Kwa ujumla, address ni fupi kuliko vitufe vya umma na kwa kawaida huanza na `1`, `3`, au `bc1`, ambapo funguo za umma huanza na `02`, `03`, au `04`.
 
 
-- Anwani zinazoanza na `1.....` bado ni anwani za kawaida sana. Kama ilivyotajwa katika sura Kuunda duka jipya, hizi ni anwani za urithi. Aina hii ya Anwani inakusudiwa kwa shughuli za P2PKH. P2Pkh hutumia usimbaji wa Base58, ambao hufanya Anwani kuwa nyeti kwa kesi. Muundo wake unategemea ufunguo wa umma wenye tarakimu 1 ya ziada kama kitambulisho.
-- Anwani zinazoanza na `bc1...` zinahamia polepole hadi kwenye anwani za kawaida. Hizi zinajulikana kama (asili) Anwani za SegWit. Hizi hutoa muundo bora wa ada kuliko Anwani zingine zilizotajwa. Anwani za Asili za SegWit hutumia usimbaji wa Bech32 na huruhusu herufi ndogo pekee.
-- Anwani zinazoanza na `3...` bado hutumiwa na mabadilishano ya anwani za amana. Anwani hizi zimetajwa katika sura Kuunda duka jipya, anwani za SegWit zilizofungwa au zilizowekwa kiota. Walakini, zinaweza pia kufanya kazi kama "Sahihi nyingi". Inapotumika kama Anwani ya SegWit, kuna akiba kwa ada za muamala tena, chini ya hiyo ya SegWit ya Asili. Anwani za P2SH hutumia usimbaji wa Base58. Hii inafanya iwe Nyeti, kama Anwani iliyopitwa na wakati.
-- Anwani zinazoanza na `2...` ni anwani za Testnet. Zinakusudiwa kupokea Testnet Bitcoin (tBTC). Hupaswi kamwe kuchanganya hili na kutuma Bitcoin kwa anwani hizi. Kwa madhumuni ya maendeleo, unaweza kuzalisha  Wallet ya Testnet. Kuna mabomba mengi mtandaoni ili kupata Testnet Bitcoin. Kamwe usinunue Testnet Bitcoin. Testnet Bitcoin inachimbwa. Hii inaweza kuwa sababu ya msanidi programu kutumia Regtest badala yake. Haya ni mazingira ya uwanja wa michezo kwa wasanidi programu, kukosa vipengee fulani vya mtandao.Hata hivyo, kwa madhumuni ya maendeleo, ni muhimu sana.
+- Address zinazoanza na `1.....` bado ni address za kawaida sana. Kama ilivyotajwa katika sura Kuunda duka jipya, hizi ni address za urithi. Aina hii ya Address inakusudiwa kwa shughuli za P2PKH. P2Pkh hutumia usimbaji wa Base58, ambao hufanya Address kuwa nyeti kwa kesi. Muundo wake unategemea ufunguo wa umma wenye tarakimu 1 ya ziada kama kitambulisho.
+- Address zinazoanza na `bc1...` zinahamia polepole hadi kwenye address za kawaida. Hizi zinajulikana kama (asili) Address za SegWit. Hizi hutoa muundo bora wa ada kuliko Address zingine zilizotajwa. Address za Asili za SegWit hutumia usimbaji wa Bech32 na huruhusu herufi ndogo pekee.
+- Address zinazoanza na `3...` bado hutumiwa na mabadilishano ya address za amana. Address hizi zimetajwa katika sura Kuunda duka jipya, address za SegWit zilizofungwa au zilizowekwa kiota. Walakini, zinaweza pia kufanya kazi kama "Sahihi nyingi". Inapotumika kama Address ya SegWit, kuna akiba kwa ada za muamala tena, chini ya hiyo ya SegWit ya Asili. Address za P2SH hutumia usimbaji wa Base58. Hii inafanya iwe Nyeti, kama Address iliyopitwa na wakati.
+- Address zinazoanza na `2...` ni address za Testnet. Zinakusudiwa kupokea Testnet Bitcoin (tBTC). Hupaswi kamwe kuchanganya hili na kutuma Bitcoin kwa address hizi. Kwa madhumuni ya maendeleo, unaweza kuzalisha  Wallet ya Testnet. Kuna mabomba mengi mtandaoni ili kupata Testnet Bitcoin. Kamwe usinunue Testnet Bitcoin. Testnet Bitcoin inachimbwa. Hii inaweza kuwa sababu ya msanidi programu kutumia Regtest badala yake. Haya ni mazingira ya uwanja wa michezo kwa wasanidi programu, kukosa vipengee fulani vya mtandao.Hata hivyo, kwa madhumuni ya maendeleo, ni muhimu sana.
 
 ### Funguo za Umma
 
-Vifunguo vya umma vinatumika kidogo katika mazoezi leo. Baada ya muda watumiaji wa Bitcoin wamekuwa wakizibadilisha na Anwani badala yake. Bado zipo na bado zinatumika mara kwa mara. Funguo za umma, kwa ujumla, ni mifuatano mirefu zaidi kuliko anwani. Kama tu na anwani, huanza na kitambulisho maalum.
+Vifunguo vya umma vinatumika kidogo katika mazoezi leo. Baada ya muda watumiaji wa Bitcoin wamekuwa wakizibadilisha na Address badala yake. Bado zipo na bado zinatumika mara kwa mara. Funguo za umma, kwa ujumla, ni mifuatano mirefu zaidi kuliko address. Kama tu na address, huanza na kitambulisho maalum.
 
 
-- Kwanza, `02...` na `03...` ni vitambulishi vya kawaida vya vitufe vya umma vilivyosimbwa katika umbizo la SEC. Hizi zinaweza kuchakatwa na kugeuzwa kuwa anwani za kupokea, kutumika kuunda anwani za sahihi nyingi, au kuthibitisha sahihi. Shughuli za mapema za Bitcoin zilitumia vitufe vya umma kama sehemu ya shughuli za P2PK.
+- Kwanza, `02...` na `03...` ni vitambulishi vya kawaida vya vitufe vya umma vilivyosimbwa katika umbizo la SEC. Hizi zinaweza kuchakatwa na kugeuzwa kuwa address za kupokea, kutumika kuunda address za sahihi nyingi, au kuthibitisha sahihi. Shughuli za mapema za Bitcoin zilitumia vitufe vya umma kama sehemu ya shughuli za P2PK.
 -  Wallet za HD, hata hivyo, hutumia muundo tofauti. `xpub...`, `ypub...` au `zpub...` huitwa funguo za umma zilizopanuliwa badala yake huitwa xpub. Vifunguo hivi hutumika kupata funguo nyingi za umma kwani ni sehemu ya  Wallet za HD . Kwa vile xpub yako inashikilia rekodi za historia yako yote, kumaanisha shughuli za awali na zijazo, usiwahi kushiriki hizi na watu wasioaminika.
 
 ### Muhtasari wa Ujuzi
@@ -452,11 +452,11 @@ Vifunguo vya umma vinatumika kidogo katika mazoezi leo. Baada ya muda watumiaji 
 Katika sehemu hii, umejifunza yafuatayo:
 
 
-- Tofauti kati ya anwani na aina za data muhimu za umma na manufaa ya kutumia anwani kupitia vitufe vya umma.
+- Tofauti kati ya address na aina za data muhimu za umma na manufaa ya kutumia address kupitia vitufe vya umma.
 
 ### Tathmini ya maarifa
 
-Eleza manufaa ya kutumia anwani mpya kwa kila muamala ikilinganishwa na kutumia tena Anwani au mbinu muhimu za umma
+Eleza manufaa ya kutumia address mpya kwa kila muamala ikilinganishwa na kutumia tena Address au mbinu muhimu za umma
 
 ## Kulinda funguo na Hardware Wallet
 
@@ -464,7 +464,7 @@ Eleza manufaa ya kutumia anwani mpya kwa kila muamala ikilinganishwa na kutumia 
 
 ### Kuhifadhi Funguo za Bitcoin
 
-Baada ya kuzalisha maneno ya seed, orodha ya maneno 12 - 24 yaliyotolewa katika kitabu hiki yanahitaji chelezo sahihi na usalama, kwani maneno haya ndiyo njia pekee ya kurejesha ufikiaji wa  Wallet. Muundo wa  wallet za HD na jinsi inavyotengeneza anwani kwa kuamua kwa kutumia hiyo seed, anwani zako zote ulizounda zitahifadhiwa nakala kwa kutumia orodha hii ya maneno ya Mnemonic yanayowakilisha seed yako au kishazi cha kurejesha akaunti.
+Baada ya kuzalisha maneno ya seed, orodha ya maneno 12 - 24 yaliyotolewa katika kitabu hiki yanahitaji chelezo sahihi na usalama, kwani maneno haya ndiyo njia pekee ya kurejesha ufikiaji wa  Wallet. Muundo wa  wallet za HD na jinsi inavyotengeneza address kwa kuamua kwa kutumia hiyo seed, address zako zote ulizounda zitahifadhiwa nakala kwa kutumia orodha hii ya maneno ya Mnemonic yanayowakilisha seed yako au kishazi cha kurejesha akaunti.
 
 Weka maneno yako ya kurejesha akaunti salama. Ikifikiwa na mtu, haswa kwa nia mbaya, anaweza kuhamisha pesa zako. Kuweka seed salama na salama lakini pia kukumbuka ni kuheshimiana. Kuna mbinu kadhaa za kuhifadhi funguo za faragha za Bitcoin, kila moja ikiwa na manufaa na hasara, ama katika usalama, faragha, urahisi, au njia halisi. Kutokana na umuhimu wa funguo za faragha, watumiaji wa Bitcoin huwa na tabia ya kuhifadhi na kuweka funguo hizi kwa usalama katika "kujitunza" kwa kutumia huduma za "utunzaji" kama vile benki. Kulingana na mtumiaji, anapaswa kutumia suluhisho la hifadhi ya Cold au Hot Wallet.
 
@@ -474,7 +474,7 @@ Kawaida, wallet za Bitcoin zinajumuishwa katika Hot Wallet au Cold Wallet. Biash
 
 ### Hot Wallet
 
-Hot wallet ndiyo njia rahisi zaidi ya kuingiliana na Bitcoin kupitia simu, wavuti au programu ya kompyuta ya mezani.  Wallet daima huunganishwa kwenye mtandao, na hivyo kuwawezesha watumiaji kutuma au kupokea Bitcoin. Huu, hata hivyo, pia ni udhaifu wake,  Wallet, kwa kuwa iko mtandaoni kila wakati, sasa iko katika hatari zaidi ya kushambuliwa na wadukuzi au programu hasidi kwenye kifaa chako. Katika BTCPay Server, wallet za Hot huhifadhi funguo za kibinafsi kwenye mfano. Mtu yeyote anayefikia duka lako la BTCPay Server anaweza kuiba pesa kutoka kwa Anwani hii ikiwa ni hasidi. Wakati BTCPay Server inaendeshwa katika mazingira yaliyopangishwa, unapaswa kuzingatia hili kila wakati katika wasifu wako wa usalama na ikiwezekana usitumie Hot-Wallet katika hali kama hiyo. Wakati BTCPay Server imesakinishwa kwenye maunzi unayomiliki, yanayolindwa na kuaminiwa na wewe, wasifu wa hatari hupungua sana, lakini hautoweka kamwe!
+Hot wallet ndiyo njia rahisi zaidi ya kuingiliana na Bitcoin kupitia simu, wavuti au programu ya kompyuta ya mezani.  Wallet daima huunganishwa kwenye mtandao, na hivyo kuwawezesha watumiaji kutuma au kupokea Bitcoin. Huu, hata hivyo, pia ni udhaifu wake,  Wallet, kwa kuwa iko mtandaoni kila wakati, sasa iko katika hatari zaidi ya kushambuliwa na wadukuzi au programu hasidi kwenye kifaa chako. Katika BTCPay Server, wallet za Hot huhifadhi funguo za kibinafsi kwenye mfano. Mtu yeyote anayefikia duka lako la BTCPay Server anaweza kuiba pesa kutoka kwa Address hii ikiwa ni hasidi. Wakati BTCPay Server inaendeshwa katika mazingira yaliyopangishwa, unapaswa kuzingatia hili kila wakati katika wasifu wako wa usalama na ikiwezekana usitumie Hot-Wallet katika hali kama hiyo. Wakati BTCPay Server imesakinishwa kwenye maunzi unayomiliki, yanayolindwa na kuaminiwa na wewe, wasifu wa hatari hupungua sana, lakini hautoweka kamwe!
 
 ### Cold Wallet
 
@@ -520,10 +520,10 @@ Wasimamizi wanaweza kuona miamala ya ndani na inayotoka ya  Wallet ya On-Chain i
 
 | Aina ya Muamala | Maelezo                                                     |
 | --------------- | ----------------------------------------------------------- |
-| Programu        | Malipo yalipokelewa kupitia ankara iliyotengenezwa na programu |
-| ankara          | Malipo yalipokelewa kupitia ankara                          |
-| payjoin         | Haijalipwa, kipima muda cha ankara bado halijamalizika      |
-| payjoin-exposed | UTXO ilifunuliwa kupitia pendekezo la payjoin la ankara     |
+| Programu        | Malipo yalipokelewa kupitia invoice iliyotengenezwa na programu |
+| invoice          | Malipo yalipokelewa kupitia invoice                          |
+| payjoin         | Haijalipwa, kipima muda cha invoice bado halijamalizika      |
+| payjoin-exposed | UTXO ilifunuliwa kupitia pendekezo la payjoin la invoice     |
 | ombi-la-malipo  | Malipo yalipokelewa kupitia ombi la malipo                  |
 | malipo-nje      | Malipo yalitumwa kupitia malipo-nje au marejesho            |
 
@@ -565,7 +565,7 @@ Ikiwa uliunda  Wallet mpya wakati wa kusanidi duka lako na kuiwasha kama Hot Wal
 
 ### RBF (Replace-by-fee)
 
-Replace-by-fee (RBF) ni kipengele cha itifaki cha Bitcoin kinachokuruhusu kubadilisha shughuli ya utangazaji ya awali (ukiwa bado haujathibitishwa). Hii inaruhusu kubadilisha bila mpangilio alama ya kidole ya muamala ya  Wallet au kuibadilisha kwa ada ya juu zaidi ili kusogeza muamala juu zaidi katika kipaumbele cha foleni ya uthibitishaji (Uchimbaji). Hili litachukua nafasi ya muamala wa awali kwani kiwango cha juu cha ada kitapewa kipaumbele, na mara tu itakapothibitishwa, kubatilisha kwa awali (hakuna matumizi mara mbili).
+Replace-by-fee (RBF) ni kipengele cha protocol cha Bitcoin kinachokuruhusu kubadilisha shughuli ya utangazaji ya awali (ukiwa bado haujathibitishwa). Hii inaruhusu kubadilisha bila mpangilio alama ya kidole ya muamala ya  Wallet au kuibadilisha kwa ada ya juu zaidi ili kusogeza muamala juu zaidi katika kipaumbele cha foleni ya uthibitishaji (mining). Hili litachukua nafasi ya muamala wa awali kwani kiwango cha juu cha ada kitapewa kipaumbele, na mara tu itakapothibitishwa, kubatilisha kwa awali (hakuna Double-spending).
 
 Bonyeza kitufe cha "Mipangilio ya Juu ili kutazama chaguzi za RBF;
 
@@ -586,9 +586,9 @@ BTCPay Server pia inasaidia BIP-329 kwa usimamizi wa alama. BIP-329 inaruhusu al
 
 ### Jinsi ya Kupokea
 
-Unapobofya kitufe cha kupokea katika BTCPay Server, hutengeneza Anwani ambayo haijatumika ambayo inaweza kutumika kupokea malipo. Wasimamizi wanaweza pia kuzalisha anwani mpya kwa kutengeneza "Anwani ya ununuzi" mpya.
+Unapobofya kitufe cha kupokea katika BTCPay Server, hutengeneza Address ambayo haijatumika ambayo inaweza kutumika kupokea malipo. Wasimamizi wanaweza pia kuzalisha address mpya kwa kutengeneza "Address ya ununuzi" mpya.
 
-BTCPay Server itauliza uzalishaji wa anwani ifuatayo kila wakati ili kuepuka kutumia tena Anwani. Baada ya kubofya "zalisho ijayo inapatikana kwa anwani ya BTC," BTCPay Server ilizalisha Anwani na QR mpya. Pia hukuruhusu kuweka alama moja kwa moja kwa Anwani ya usimamizi bora wa anwani zako.
+BTCPay Server itauliza uzalishaji wa address ifuatayo kila wakati ili kuepuka kutumia tena Address. Baada ya kubofya "zalisho ijayo inapatikana kwa address ya BTC," BTCPay Server ilizalisha Address na QR mpya. Pia hukuruhusu kuweka alama moja kwa moja kwa Address ya usimamizi bora wa address zako.
 
 ![image](assets/en/018.webp)
 
@@ -598,7 +598,7 @@ BTCPay Server itauliza uzalishaji wa anwani ifuatayo kila wakati ili kuepuka kut
 
 Kipengele cha Rescan kinategemea "Scantxoutset" ya Bitcoin Core 0.17.0 ili kuchanganua hali ya sasa ya Blockchain (inayoitwa UTXO Set) ili kupata sarafu za mpango wa utokaji uliosanidiwa. Uchanganuzi wa  Wallet hutatua masuala mawili ya watumiaji wa BTCPay Server.
 
-1. Tatizo la kikomo cha pengo -  Wallet nyingi za wahusika wengine ni  wallet nyepesi zinazoshiriki node kati ya watumiaji wengi.  Wallet nyepesi na zinazotegemewa na node Kamili hudhibiti kiasi (kawaida 20) cha anwani ambazo hufuata kwenye Blockchain ili kuzuia matatizo ya utendakazi. BTCPay Server inazalisha Anwani mpya kwa kila Anwani ya ununuzi. Kwa kuzingatia yaliyo hapo juu, baada ya BTCPay Server kutoa ankara 20 mfululizo ambazo hazijalipwa,  Wallet ya nje itaacha kuleta miamala, ikizingatiwa hakuna miamala mipya iliyofanyika.  Wallet yako ya nje haitazionyesha mara tu ankara zitakapolipwa tarehe 21, 22, n.k. Kwa upande mwingine, ndani, Server ya  Wallet ya BTCPay hufuatilia Anwani yoyote inayozalisha pamoja na kikomo kikubwa zaidi cha pengo. Haitegemei mtu wa tatu na inaweza kuonyesha usawa sahihi kila wakati.
+1. Tatizo la kikomo cha pengo -  Wallet nyingi za wahusika wengine ni  wallet nyepesi zinazoshiriki node kati ya watumiaji wengi.  Wallet nyepesi na zinazotegemewa na node Kamili hudhibiti kiasi (kawaida 20) cha address ambazo hufuata kwenye Blockchain ili kuzuia matatizo ya utendakazi. BTCPay Server inazalisha Address mpya kwa kila Address ya ununuzi. Kwa kuzingatia yaliyo hapo juu, baada ya BTCPay Server kutoa invoice 20 mfululizo ambazo hazijalipwa,  Wallet ya nje itaacha kuleta miamala, ikizingatiwa hakuna miamala mipya iliyofanyika.  Wallet yako ya nje haitazionyesha mara tu invoice zitakapolipwa tarehe 21, 22, n.k. Kwa upande mwingine, ndani, Server ya  Wallet ya BTCPay hufuatilia Address yoyote inayozalisha pamoja na kikomo kikubwa zaidi cha pengo. Haitegemei mtu wa tatu na inaweza kuonyesha usawa sahihi kila wakati.
 
 2. Suluhisho la kikomo cha pengo - Ikiwa [external/existing Wallet](https://docs.btcpayserver.org/WalletSetup/#use-an-existing-Wallet) inaruhusu usanidi wa kikomo cha pengo, urekebishaji rahisi ni kukiongeza. Walakini,  wallet nyingi haziruhusu hii.  Wallet zinazoruhusu usanidi wa kikomo cha pengo tunachojua ni Electrum, Wasabi, na Sparrow Wallet. Kwa bahati mbaya, unaweza kukutana na shida na  wallet zingine nyingi. Kwa hali bora ya utumiaji na faragha, zingatia kudondosha  wallet za nje na kutumia Mfumo wa ndani wa Server ya  Wallet ya BTCPay.
 
@@ -619,7 +619,7 @@ Mipangilio ya  Wallet ndani ya BTCPay Server inatoa muhtasari wazi na wa haraka 
 
 ![image](assets/en/020.webp)
 
-Mipangilio ya  Wallet ndani ya BTCPay Server inatoa muhtasari wazi na wa haraka wa mipangilio ya jumla ya  wallet yako. Mipangilio hii yote hujazwa mapema ikiwa  Wallet iliundwa kwa BTCPay Server. Mipangilio ya  Wallet ya BTCPay Server huanza na hali ya  Wallet. Je, ni Watch-pekee au Hot Wallet? Kulingana na aina ya  Wallet, vitendo vinaweza kutofautiana kutoka kwa kuchanganua tena  Wallet kwa miamala iliyokosekana, Kupogoa miamala ya zamani kutoka kwa historia, kusajili  Wallet kwa viungo vya malipo, au kubadilisha na kufuta  Wallet ya sasa iliyoambatishwa kwenye duka. Katika mpangilio wa  wallet ya BTCPay Server, wasimamizi wanaweza kuweka alama ya  Wallet kwa usimamizi bora wa  Wallet. Hapa Msimamizi pia ataweza kuona Mpango wa Utoaji, ufunguo wa akaunti (xpub), Alama ya Kidole, na Njia kuu. Malipo katika mipangilio ya  Wallet yana mipangilio mikuu 2 pekee. Malipo ni batili ikiwa muamala utashindwa kuthibitisha katika (dakika zilizowekwa) baada ya kuisha kwa muda wa Anwani ya ununuzi. Zingatia Anwani ya ununuzi iliyothibitishwa wakati shughuli ya malipo ina kiasi cha X cha uthibitishaji. Wasimamizi wanaweza pia kuweka ugeuzi ili kuonyesha ada zinazopendekezwa kwenye malipo au kuweka lengo la uthibitishaji wa kibinafsi katika idadi ya vitalu.
+Mipangilio ya  Wallet ndani ya BTCPay Server inatoa muhtasari wazi na wa haraka wa mipangilio ya jumla ya  wallet yako. Mipangilio hii yote hujazwa mapema ikiwa  Wallet iliundwa kwa BTCPay Server. Mipangilio ya  Wallet ya BTCPay Server huanza na hali ya  Wallet. Je, ni Watch-pekee au Hot Wallet? Kulingana na aina ya  Wallet, vitendo vinaweza kutofautiana kutoka kwa kuchanganua tena  Wallet kwa miamala iliyokosekana, Kupogoa miamala ya zamani kutoka kwa historia, kusajili  Wallet kwa viungo vya malipo, au kubadilisha na kufuta  Wallet ya sasa iliyoambatishwa kwenye duka. Katika mpangilio wa  wallet ya BTCPay Server, wasimamizi wanaweza kuweka alama ya  Wallet kwa usimamizi bora wa  Wallet. Hapa Msimamizi pia ataweza kuona Mpango wa Utoaji, ufunguo wa akaunti (xpub), Alama ya Kidole, na Njia kuu. Malipo katika mipangilio ya  Wallet yana mipangilio mikuu 2 pekee. Malipo ni batili ikiwa muamala utashindwa kuthibitisha katika (dakika zilizowekwa) baada ya kuisha kwa muda wa Address ya ununuzi. Zingatia Address ya ununuzi iliyothibitishwa wakati shughuli ya malipo ina kiasi cha X cha uthibitishaji. Wasimamizi wanaweza pia kuweka ugeuzi ili kuonyesha ada zinazopendekezwa kwenye malipo au kuweka lengo la uthibitishaji wa kibinafsi katika idadi ya vitalu.
 
 ![image](assets/en/021.webp)
 
@@ -649,7 +649,7 @@ Baada ya kubofya "Weka  Wallet", mchawi utaendelea kwa kuomba jinsi unavyotaka k
 
 **!Kumbuka!**
 
-Ukisomea kozi hii katika chumba cha darasa, mfano wa sasa na mbegu tuliounda ni kwa madhumuni ya kielimu pekee. Kamwe kusiwe na kiasi chochote kikubwa isipokuwa kinachohitajika wakati wote wa mazoezi kwenye anwani hizi.
+Ukisomea kozi hii katika chumba cha darasa, mfano wa sasa na mbegu tuliounda ni kwa madhumuni ya kielimu pekee. Kamwe kusiwe na kiasi chochote kikubwa isipokuwa kinachohitajika wakati wote wa mazoezi kwenye address hizi.
 
 (1) Endelea na kichawi cha “ Wallet jipya” kwa kubofya kitufe cha "Unda  Wallet jipya".
 
@@ -661,23 +661,23 @@ Ukisomea kozi hii katika chumba cha darasa, mfano wa sasa na mbegu tuliounda ni 
 
 ![image](assets/en/026.webp)
 
-(3) Kuendeleza mchawi mpya wa Wallet, sasa uko kwenye sehemu ya Unda BTC Watch-only wallet. Hapa tunapata kuweka Server ya  Wallet "Anwani" BTCPay hukuruhusu kuchagua aina unayopendelea ya Anwani; kama ilivyoandikwa kwa kozi hii, bado inashauriwa kutumia anwani za bech32. Jifunze zaidi kwa undani kuhusu anwani katika sura ya kwanza ya sehemu hii.
+(3) Kuendeleza mchawi mpya wa Wallet, sasa uko kwenye sehemu ya Unda BTC Watch-only wallet. Hapa tunapata kuweka Server ya  Wallet "Address" BTCPay hukuruhusu kuchagua aina unayopendelea ya Address; kama ilivyoandikwa kwa kozi hii, bado inashauriwa kutumia address za bech32. Jifunze zaidi kwa undani kuhusu address katika sura ya kwanza ya sehemu hii.
 
 
 - SegWit (bech32)
-  - SegWit asili ni anwani zinazoanza na `bc1q`.
+  - SegWit asili ni address zinazoanza na `bc1q`.
   - Mfano: `bc1qXXXXXXXXXXXXXXXXXXXXXXXXXXXX`
 - Urithi
-  - Anwani za urithi ni anwani zinazoanza na nambari `1`.
+  - Address za urithi ni address zinazoanza na nambari `1`.
   - Mfano: `15e15hXXXXXXXXXXXXXXXXXXXXXXX`
 - Taproot (Kwa watumiaji wa hali ya juu)
-  - Anwani za Taproot huanza na `bc1p`.
+  - Address za Taproot huanza na `bc1p`.
   - Mfano: `bc1pXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX`
 - SegWit imefungwa
-  - SegWit iliyofungwa ni anwani zinazoanza na `3`.
+  - SegWit iliyofungwa ni address zinazoanza na `3`.
   - Mfano: `37BBXXXXXXXXXXXXXXXXXXXXX`
 
-Chagua SegWit (inapendekezwa) kama aina unayopendelea ya  Wallet ya Anwani.
+Chagua SegWit (inapendekezwa) kama aina unayopendelea ya  Wallet ya Address.
 
 ![image](assets/en/027.webp)
 
@@ -685,7 +685,7 @@ Chagua SegWit (inapendekezwa) kama aina unayopendelea ya  Wallet ya Anwani.
 
 ![image](assets/en/028.webp)
 
-(5) Baada ya kuweka aina ya Anwani ya  Wallet na ikiwezekana kuweka chaguo mahiri, bofya Unda, na BTCPay Server ita zalisha  Wallet lako jipya. Kumbuka kwamba hii ni hatua ya mwisho kabla ya kuzalisha maneno yako ya mbegu. Hakikisha unafanya hivi katika mazingira ambayo mtu hawezi kuiba maneno ya mbegu kwa kuangalia skrini yako.
+(5) Baada ya kuweka aina ya Address ya  Wallet na ikiwezekana kuweka chaguo mahiri, bofya Unda, na BTCPay Server ita zalisha  Wallet lako jipya. Kumbuka kwamba hii ni hatua ya mwisho kabla ya kuzalisha maneno yako ya mbegu. Hakikisha unafanya hivi katika mazingira ambayo mtu hawezi kuiba maneno ya mbegu kwa kuangalia skrini yako.
 
 ![image](assets/en/029.webp)
 
@@ -836,9 +836,9 @@ Wamiliki wa maduka wanaweza kuweka vigezo vifuatavyo ili kuboresha hali ya Light
 
 
 - Onyesha kiasi cha malipo ya lightning katika Satoshi.
-- Ongeza vidokezo vya kurukaruka kwa chaneli za kibinafsi kwenye anwani za ununuzi za Lightning .
+- Ongeza vidokezo vya kurukaruka kwa chaneli za kibinafsi kwenye address za ununuzi za Lightning .
 - Unganisha On-Chain na misimbo ya malipo ya Lightning URL/QR unapolipa.
-- Weka kiolezo cha maelezo ya ankara za lightning.
+- Weka kiolezo cha maelezo ya invoice za lightning.
 
 #### LNURL
 
@@ -942,7 +942,7 @@ Ndani ya mwonekano mkuu wa dashibodi ya BTCPay Server kuna vigae kadhaa vya kawa
 - Mizani ya Lightning (ikiwa Lightning umewashwa kwenye duka)
 - Huduma za Lightning (ikiwa Lightning umewashwa kwenye duka)
 - Shughuli za hivi majuzi.
-- Ankara za Hivi Punde
+- Invoice za Hivi Punde
 - Mkusanyiko wa Fedha unaotumika sasa
 - Hifadhi utendaji / bidhaa zinazouzwa sana.
 
@@ -980,9 +980,9 @@ Kigae cha miamala ya hivi majuzi kitaonyesha miamala ya hivi majuzi zaidi ya duk
 
 ![image](assets/en/045.webp)
 
-### Ankara za hivi majuzi
+### Invoice za hivi majuzi
 
-Kigae cha ankara za hivi majuzi kinaonyesha ankara 6 za hivi punde zilizotolewa na Server yako ya BTCPay, ikijumuisha Hali na kiasi cha Anwani ya ununuzi. Kigae pia kina kitufe cha "Angalia yote" ili kufikia muhtasari kamili wa Anwani ya ununuzi kwa urahisi.
+Kigae cha invoice za hivi majuzi kinaonyesha invoice 6 za hivi punde zilizotolewa na Server yako ya BTCPay, ikijumuisha Hali na kiasi cha Address ya ununuzi. Kigae pia kina kitufe cha "Angalia yote" ili kufikia muhtasari kamili wa Address ya ununuzi kwa urahisi.
 
 ![image](assets/en/046.webp)
 
@@ -992,7 +992,7 @@ BTCPay Server inapoleta seti ya programu-jalizi au programu za kawaida, pointi y
 
 ![image](assets/en/047.webp)
 
-Angalia tofauti kidogo kati ya Sehemu ya Uuzaji na kigae cha Crowdfund. Msimamizi huona bidhaa kuu zinazouzwa kwenye kigae cha Sehemu ya Mauzo. Katika kigae cha Crowdfund, hii inakuwa Faida Bora. Vigae vyote viwili vina vitufe vya haraka vya kudhibiti programu husika na kuangalia ankara za hivi majuzi zilizoundwa na bidhaa kuu au manufaa makuu.
+Angalia tofauti kidogo kati ya Sehemu ya Uuzaji na kigae cha Crowdfund. Msimamizi huona bidhaa kuu zinazouzwa kwenye kigae cha Sehemu ya Mauzo. Katika kigae cha Crowdfund, hii inakuwa Faida Bora. Vigae vyote viwili vina vitufe vya haraka vya kudhibiti programu husika na kuangalia invoice za hivi majuzi zilizoundwa na bidhaa kuu au manufaa makuu.
 
 ![image](assets/en/048.webp)
 
@@ -1038,38 +1038,38 @@ Katika kichupo cha Mipangilio ya Jumla, wamiliki wa duka huweka chaguomsingi za 
 
 #### Kuweka chapa
 
-Kwa vile BTCPay Server ni FOSS, mwenye duka anaweza kuweka chapa maalum ili kuendana na duka lake. Weka rangi ya chapa, uhifadhi nembo za chapa yako, na uongeze CSS maalum kwa kurasa zinazowakabili wateja au umma (Ankara, Maombi ya Malipo, Vuta malipo)
+Kwa vile BTCPay Server ni FOSS, mwenye duka anaweza kuweka chapa maalum ili kuendana na duka lake. Weka rangi ya chapa, uhifadhi nembo za chapa yako, na uongeze CSS maalum kwa kurasa zinazowakabili wateja au umma (Invoice, Maombi ya Malipo, Vuta malipo)
 
 #### Malipo
 
 Katika mipangilio ya malipo, wamiliki wa duka wanaweza kuweka sarafu chaguo-msingi ya duka lao (iwe katika Bitcoin au katika sarafu yoyote ya pesa za serikali).
 
-#### Ruhusu mtu yeyote kuunda ankara
+#### Ruhusu mtu yeyote kuunda invoice
 
-Mipangilio hii inakusudiwa wasanidi au wajenzi juu ya BTCPay Server. Mipangilio hii ikiwa imewashwa kwenye duka lako, huwezesha ulimwengu wa nje kuunda ankara kwenye mfano wako wa BTCPay Server.
+Mipangilio hii inakusudiwa wasanidi au wajenzi juu ya BTCPay Server. Mipangilio hii ikiwa imewashwa kwenye duka lako, huwezesha ulimwengu wa nje kuunda invoice kwenye mfano wako wa BTCPay Server.
 
-#### Ongeza Ada ya ziada (ada ya mtandao) kwenye ankara
+#### Ongeza Ada ya ziada (ada ya mtandao) kwenye invoice
 
-Kipengele ndani ya BTCPay cha kuwalinda wafanyabiashara dhidi ya mashambulizi ya Vumbi au wateja ili kuendesha gharama ya juu katika ada baadaye wakati mfanyabiashara anahitaji kuhamisha Bitcoin nyingi mara moja. Kwa mfano, mteja aliunda anwani ya ununuzi kwa $ 20 na kulipa sehemu, kulipa 1$ mara 20 hadi anwani ya ununuzi ilipolipwa kikamilifu. Mfanyabiashara sasa ana muamala mkubwa zaidi, na hivyo kuongeza gharama ya Uchimbaji iwapo mfanyabiashara ataamua kuhamisha fedha hizo baadaye. Kwa chaguo msingi, BTCPay hutumia gharama ya ziada ya mtandao kwa jumla ya kiasi cha Anwani ya ununuzi ili kulipia gharama hiyo kwa mfanyabiashara wakati anwani ya ununuzi inalipwa katika miamala nyingi. BTCPay inatoa chaguo kadhaa ili kubinafsisha kipengele hiki cha ulinzi. Unaweza kutuma ada ya mtandao:
+Kipengele ndani ya BTCPay cha kuwalinda wafanyabiashara dhidi ya mashambulizi ya Vumbi au wateja ili kuendesha gharama ya juu katika ada baadaye wakati mfanyabiashara anahitaji kuhamisha Bitcoin nyingi mara moja. Kwa mfano, mteja aliunda address ya ununuzi kwa $ 20 na kulipa sehemu, kulipa 1$ mara 20 hadi address ya ununuzi ilipolipwa kikamilifu. Mfanyabiashara sasa ana muamala mkubwa zaidi, na hivyo kuongeza gharama ya mining iwapo mfanyabiashara ataamua kuhamisha fedha hizo baadaye. Kwa chaguo msingi, BTCPay hutumia gharama ya ziada ya mtandao kwa jumla ya kiasi cha Address ya ununuzi ili kulipia gharama hiyo kwa mfanyabiashara wakati address ya ununuzi inalipwa katika miamala nyingi. BTCPay inatoa chaguo kadhaa ili kubinafsisha kipengele hiki cha ulinzi. Unaweza kutuma ada ya mtandao:
 
 
-- Ikiwa tu mteja atafanya malipo zaidi ya moja kwa Anwani ya ununuzi (Katika mfano ulio hapo juu, ikiwa mteja aliunda anwani ya ununuzi kwa 20\$ na kulipa 1\$, jumla ya anwani ya ununuzi inayodaiwa sasa ni 19\$ + na ada ya mtandao. Ada ya mtandao itatumika baada ya malipo ya kwanza)
+- Ikiwa tu mteja atafanya malipo zaidi ya moja kwa Address ya ununuzi (Katika mfano ulio hapo juu, ikiwa mteja aliunda address ya ununuzi kwa 20\$ na kulipa 1\$, jumla ya address ya ununuzi inayodaiwa sasa ni 19\$ + na ada ya mtandao. Ada ya mtandao itatumika baada ya malipo ya kwanza)
 - Kwa kila malipo (pamoja na malipo ya kwanza, katika mfano wetu, jumla itakuwa 20\$ + ada ya mtandao mara moja, hata kwenye malipo ya kwanza)
 - Kamwe usiongeze ada ya mtandao (huzima kabisa ada ya mtandao)
 
 Ingawa inalinda dhidi ya miamala ya Vumbi, inaweza pia kuakisi biashara vibaya ikiwa haitawasilishwa ipasavyo. Wateja wanaweza kuwa na maswali ya ziada na kufikiria kuwa unawatoza kupita kiasi.
 
-#### Anwani ya ununuzi inaisha ikiwa kiasi kamili hakijalipwa baada ya hapo?
+#### Address ya ununuzi inaisha ikiwa kiasi kamili hakijalipwa baada ya hapo?
 
-Kipima muda cha anwani ya ununuzi kimewekwa kuwa dakika 15 kwa chaguo-msingi. Kipima muda ni utaratibu wa ulinzi dhidi ya tete kwa vile hufunga kiasi cha Bitcoin kulingana na Bitcoin hadi viwango vya pesa za serikali. Ikiwa mteja halipi Anwani ya ununuzi ndani ya muda uliobainishwa, Anwani ya ununuzi inachukuliwa kuwa imeisha muda wake. Anwani ya ununuzi inachukuliwa kuwa "imelipiwa" mara tu shughuli hiyo inapoonekana kwenye Blockchain (0-uthibitisho) lakini inachukuliwa kuwa "kamili" inapofikia idadi ya uthibitisho aliofafanuliwa na mfanyabiashara (kawaida, 1-6). Kipima muda kinaweza kubinafsishwa kwa dakika.
+Kipima muda cha address ya ununuzi kimewekwa kuwa dakika 15 kwa chaguo-msingi. Kipima muda ni utaratibu wa ulinzi dhidi ya tete kwa vile hufunga kiasi cha Bitcoin kulingana na Bitcoin hadi viwango vya pesa za serikali. Ikiwa mteja halipi Address ya ununuzi ndani ya muda uliobainishwa, Address ya ununuzi inachukuliwa kuwa imeisha muda wake. Address ya ununuzi inachukuliwa kuwa "imelipiwa" mara tu shughuli hiyo inapoonekana kwenye Blockchain (0-uthibitisho) lakini inachukuliwa kuwa "kamili" inapofikia idadi ya uthibitisho aliofafanuliwa na mfanyabiashara (kawaida, 1-6). Kipima muda kinaweza kubinafsishwa kwa dakika.
 
-#### Fikiria Anwani ya ununuzi iliyolipwa hata kama kiasi kilicholipwa ni X% chini ya ilivyotarajiwa?
+#### Fikiria Address ya ununuzi iliyolipwa hata kama kiasi kilicholipwa ni X% chini ya ilivyotarajiwa?
 
-Wakati mteja anatumia  wallet la kubadilishana kulipa moja kwa moja kwa Anwani ya ununuzi, Ubadilishanaji unachukua ada ndogo. Hii ina maana kwamba Anwani ya ununuzi kama hiyo haizingatiwi kukamilika kikamilifu. Anwani ya ununuzi inapata hali ya "kulipwa kwa sehemu". Unaweza kuweka kiwango cha asilimia hapa ikiwa mfanyabiashara anataka kukubali ankara ambazo hazilipiwi kidogo.
+Wakati mteja anatumia  wallet la kubadilishana kulipa moja kwa moja kwa Address ya ununuzi, Ubadilishanaji unachukua ada ndogo. Hii ina maana kwamba Address ya ununuzi kama hiyo haizingatiwi kukamilika kikamilifu. Address ya ununuzi inapata hali ya "kulipwa kwa sehemu". Unaweza kuweka kiwango cha asilimia hapa ikiwa mfanyabiashara anataka kukubali invoice ambazo hazilipiwi kidogo.
 
 ### Viwango
 
-Katika BTCPay Server, Anwani ya ununuzi inapozalishwa, daima inahitaji Bitcoin iliyosasishwa na sahihi zaidi ili kukidhi bei. Wakati wa kuunda duka jipya katika BTCPay Server, wasimamizi huombwa kuweka chanzo cha bei wanachopendelea; baada ya duka kusanidiwa, wamiliki wa duka wanaweza kubadilisha chanzo chao cha bei kila wakati kwenye kichupo hiki.
+Katika BTCPay Server, Address ya ununuzi inapozalishwa, daima inahitaji Bitcoin iliyosasishwa na sahihi zaidi ili kukidhi bei. Wakati wa kuunda duka jipya katika BTCPay Server, wasimamizi huombwa kuweka chanzo cha bei wanachopendelea; baada ya duka kusanidiwa, wamiliki wa duka wanaweza kubadilisha chanzo chao cha bei kila wakati kwenye kichupo hiki.
 
 #### Uandishi wa sheria ya kiwango cha juu
 
@@ -1081,9 +1081,9 @@ Mahali pa majaribio ya haraka kwa jozi za sarafu unazopendelea. Hii pia inajumui
 
 ### Muonekano wa Malipo
 
-Kichupo cha Muonekano wa Malipo huanza na mipangilio mahususi ya Anwani ya ununuzi na njia za chaguo msingi ya kulipa na huwasha njia mahususi za kulipa mahitaji yaliyowekwa yanapofikiwa.
+Kichupo cha Muonekano wa Malipo huanza na mipangilio mahususi ya Address ya ununuzi na njia za chaguo msingi ya kulipa na huwasha njia mahususi za kulipa mahitaji yaliyowekwa yanapofikiwa.
 
-#### Mipangilio ya Anwani ya ununuzi
+#### Mipangilio ya Address ya ununuzi
 
 Njia chaguomsingi za malipo. BTCPay Server katika usanidi wa kawaida ina chaguo tatu.
 
@@ -1102,7 +1102,7 @@ Kufikia toleo la 1.7 la BTCPay Server, iliyoanzishwa kwa Checkout ya kiolesura k
 
 ![image](assets/en/050.webp)
 
-Wakati mteja anaingiliana na duka na kuzalisha Anwani ya ununuzi, kuna muda wa kuisha kwa Anwani ya ununuzi. Kwa chaguo-msingi BTCPay Server huweka hii kuwa dakika 5, na Msimamizi anaweza kuweka hii kwa chochote anachoona kinafaa. Ukurasa wa malipo unaweza kubinafsishwa zaidi kwa kuangalia vigezo vifuatavyo:
+Wakati mteja anaingiliana na duka na kuzalisha Address ya ununuzi, kuna muda wa kuisha kwa Address ya ununuzi. Kwa chaguo-msingi BTCPay Server huweka hii kuwa dakika 5, na Msimamizi anaweza kuweka hii kwa chochote anachoona kinafaa. Ukurasa wa malipo unaweza kubinafsishwa zaidi kwa kuangalia vigezo vifuatavyo:
 
 
 - Sherehekea malipo kwa kuonyesha confetti
@@ -1122,7 +1122,7 @@ Bofya kwenye menyu Kunjuzi na wamiliki wa Duka wanaweza kuweka kichwa Maalum cha
 
 ![image](assets/en/053.webp)
 
-Ili kuhakikisha mteja anajua njia yake ya kulipa, mmiliki wa duka anaweza kuweka malipo yake kwa njia dhahiri ili kuwataka watumiaji kuchagua njia yao ya kulipa wanayopendelea. Anwani ya ununuzi inapolipwa, BTCPay Server humruhusu mteja kurudi kwenye duka la wavuti. Wamiliki wa maduka wanaweza kuweka uelekezaji huu kwingine baada ya mteja kulipa kiotomatiki.
+Ili kuhakikisha mteja anajua njia yake ya kulipa, mmiliki wa duka anaweza kuweka malipo yake kwa njia dhahiri ili kuwataka watumiaji kuchagua njia yao ya kulipa wanayopendelea. Address ya ununuzi inapolipwa, BTCPay Server humruhusu mteja kurudi kwenye duka la wavuti. Wamiliki wa maduka wanaweza kuweka uelekezaji huu kwingine baada ya mteja kulipa kiotomatiki.
 
 ![image](assets/en/054.webp)
 
@@ -1165,19 +1165,19 @@ Huenda mmiliki wa duka asipate majukumu ya kawaida ya mtumiaji muhimu vya kutosh
 - Dhibiti malipo yako ya kuvuta.
 - Unda malipo ya kuvuta.
   - Unda malipo ya kuvuta yasiyoidhinishwa.
-- Rekebisha ankara.
-  - Tazama ankara.
-  - Unda Anwani ya ununuzi.
-  - Unda ankara kutoka kwa node za lightning zinazohusiana na maduka yako.
+- Rekebisha invoice.
+  - Tazama invoice.
+  - Unda Address ya ununuzi.
+  - Unda invoice kutoka kwa node za lightning zinazohusiana na maduka yako.
 - Tazama maduka yako.
-  - Tazama ankara.
+  - Tazama invoice.
   - Tazama maombi yako ya malipo.
   - Badilisha vijiti vya wavuti vya duka.
 - Rekebisha maombi yako ya malipo.
   - Tazama maombi yako ya malipo.
 - Tumia node za lightning zinazohusiana na maduka yako.
-  - Tazama ankara za lightning zinazohusishwa na maduka yako.
-  - Unda ankara kutoka kwa node za lightning zinazohusiana na maduka yako.
+  - Tazama invoice za lightning zinazohusishwa na maduka yako.
+  - Unda invoice kutoka kwa node za lightning zinazohusiana na maduka yako.
 - Weka pesa kwenye akaunti za  Exchange zilizounganishwa na maduka yako.
 - Toa pesa kutoka kwa akaunti za  Exchange hadi kwenye duka lako.
 - Pesa za biashara kwenye akaunti za duka lako za  exchange.
@@ -1202,7 +1202,7 @@ Webhooks hazikusudiwi kuendana na API ya BTCpay. Kuna IPN mbili tofauti (katika 
 - Webbookp
 - Arifa
 
-Tumia URL ya Arifa tu unapounda ankara kupitia BTCpay api.
+Tumia URL ya Arifa tu unapounda invoice kupitia BTCpay api.
 
 ### Wachakataji wa Malipo
 
@@ -1241,22 +1241,22 @@ BTCPay Server imerahisisha kujaza maelezo haya kwa kutumia Chaguo la "Jaza Harak
 - Ofisi365
 - SendGrid
 
-Kwa kutumia chaguo la kujaza haraka, BTCPay Server itajaza mapema sehemu za server na mlango wa SMTP; sasa, mmiliki wa duka anahitaji tu kujaza kitambulisho chake katika Anwani ya Barua pepe, Ingia (ambayo kwa kawaida ni sawa na Anwani ya barua pepe yako), na nenosiri lako. Chaguo la kina linalotolewa na BTCPay Server katika mipangilio ya barua pepe ni Kuzima ukaguzi wa usalama wa Cheti cha TLS; kwa chaguo-msingi, hii imewezeshwa.
+Kwa kutumia chaguo la kujaza haraka, BTCPay Server itajaza mapema sehemu za server na mlango wa SMTP; sasa, mmiliki wa duka anahitaji tu kujaza kitambulisho chake katika Address ya Barua pepe, Ingia (ambayo kwa kawaida ni sawa na Address ya barua pepe yako), na nenosiri lako. Chaguo la kina linalotolewa na BTCPay Server katika mipangilio ya barua pepe ni Kuzima ukaguzi wa usalama wa Cheti cha TLS; kwa chaguo-msingi, hii imewezeshwa.
 
 ![image](assets/en/067.webp)
 
-Kwa sheria za Barua pepe, mmiliki wa duka anaweza kuweka matukio maalum ili kuanzisha barua pepe kwa anwani mahususi za barua pepe.
+Kwa sheria za Barua pepe, mmiliki wa duka anaweza kuweka matukio maalum ili kuanzisha barua pepe kwa address mahususi za barua pepe.
 
 
-- Anwani ya ununuzi Imeundwa
-- Anwani ya ununuzi Imepokea Malipo
-- Uchakataji wa Anwani ya ununuzi
-- Muda wa Anwani ya ununuzi Umekwisha
-- Anwani ya ununuzi Imewekwa
-- Anwani ya ununuzi ni Batili
-- Malipo ya Anwani ya ununuzi Yamekamilika
+- Address ya ununuzi Imeundwa
+- Address ya ununuzi Imepokea Malipo
+- Uchakataji wa Address ya ununuzi
+- Muda wa Address ya ununuzi Umekwisha
+- Address ya ununuzi Imewekwa
+- Address ya ununuzi ni Batili
+- Malipo ya Address ya ununuzi Yamekamilika
 
-Ikiwa mteja ametoa Barua pepe ya Anwani, vichochezi hivi vinaweza pia kutuma maelezo kwa mteja. Wamiliki wa duka wanaweza kujaza mapema laini ya Mada ili kuweka wazi kwa nini Barua pepe hii ilitokea na ni kisababishi gani kiliisababisha.
+Ikiwa mteja ametoa Barua pepe ya Address, vichochezi hivi vinaweza pia kutuma maelezo kwa mteja. Wamiliki wa duka wanaweza kujaza mapema laini ya Mada ili kuweka wazi kwa nini Barua pepe hii ilitokea na ni kisababishi gani kiliisababisha.
 
 ![image](assets/en/068.webp)
 
@@ -1268,7 +1268,7 @@ Wakati wa kuunda fomu mpya, BTCPay Server itafungua dirisha jipya kuomba maelezo
 
 ![image](assets/en/069.webp)
 
-Baada ya mmiliki wa duka kuipa fomu jina, unaweza pia kugeuza swichi ya "Ruhusu fomu itumike kwa umma" hadi KUWASHA, na itakuwa Kijani. Ili fomu itumike katika kila sehemu inayowakabili wateja. Kwa mfano, ikiwa mmiliki wa duka ataunda Anwani ya ununuzi 1 tofauti si kupitia Sehemu yake ya Uuzaji, bado anaweza kutaka kukusanya maelezo kutoka kwa mteja; kugeuza huku kuwa ON huruhusu habari hiyo kukusanywa.
+Baada ya mmiliki wa duka kuipa fomu jina, unaweza pia kugeuza swichi ya "Ruhusu fomu itumike kwa umma" hadi KUWASHA, na itakuwa Kijani. Ili fomu itumike katika kila sehemu inayowakabili wateja. Kwa mfano, ikiwa mmiliki wa duka ataunda Address ya ununuzi 1 tofauti si kupitia Sehemu yake ya Uuzaji, bado anaweza kutaka kukusanya maelezo kutoka kwa mteja; kugeuza huku kuwa ON huruhusu habari hiyo kukusanywa.
 
 ![image](assets/en/070.webp)
 
@@ -1293,7 +1293,7 @@ Kila aina inakuja na vigezo vyake vya kujaza. Mmiliki wa duka anaweza kuiweka kw
 
 #### Fomu maalum za hali ya juu
 
-BTCPay Server pia hukuruhusu kuunda Fomu kwa nambari. JSON, haswa. Badala ya kuangalia kihariri, wamiliki wa duka wanaweza kubofya kitufe cha CODE karibu kabisa na kihariri na kuingia katika msimbo wa Fomu zao. Katika ufafanuzi wa uga, ni sehemu zifuatazo pekee ndizo zinazoweza kuwekwa; thamani za sehemu zimehifadhiwa katika metadata ya Anwani ya ununuzi:
+BTCPay Server pia hukuruhusu kuunda Fomu kwa nambari. JSON, haswa. Badala ya kuangalia kihariri, wamiliki wa duka wanaweza kubofya kitufe cha CODE karibu kabisa na kihariri na kuingia katika msimbo wa Fomu zao. Katika ufafanuzi wa uga, ni sehemu zifuatazo pekee ndizo zinazoweza kuwekwa; thamani za sehemu zimehifadhiwa katika metadata ya Address ya ununuzi:
 
 | Sehemu                | Maelezo                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -1303,26 +1303,26 @@ BTCPay Server pia hukuruhusu kuunda Fomu kwa nambari. JSON, haswa. Badala ya kua
 | .fields.options.text  | Maandishi yanayoonekana kwa chaguo hili                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | .fields.options.value | Thamani ya sehemu ikiwa chaguo hili limechaguliwa                                                                                                                                                                                                                                                                                                                                                                                                            |
 | .fields.type=fieldset | Tengeneza fieldset ya HTML kuzunguka .fields.fields za watoto (angalia chini)                                                                                                                                                                                                                                                                                                                                                                                |
-| .fields.name          | Jina la mali ya JSON ya sehemu kama itakavyoonekana katika metadata ya ankara                                                                                                                                                                                                                                                                                                                                                                                |
+| .fields.name          | Jina la mali ya JSON ya sehemu kama itakavyoonekana katika metadata ya invoice                                                                                                                                                                                                                                                                                                                                                                                |
 | .fields.value         | Thamani ya kawaida ya sehemu                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | .fields.required      | ikiwa ni kweli, sehemu itahitajika                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | .fields.label         | Lebo ya sehemu                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | .fields.helpText      | Maandishi ya ziada kutoa maelezo kwa sehemu.                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| .fields.fields        | Unaweza kupanga sehemu zako katika mfumo wa ngazi, kuruhusu sehemu za watoto kuwekwa ndani ya metadata ya ankara. Muundo huu unaweza kukusaidia kupanga na kusimamia vyema taarifa zilizokusanywa, kuifanya iwe rahisi kufikia na kufasiri. Kwa mfano, ikiwa una fomu inayokusanya taarifa za wateja, unaweza kuweka sehemu kwenye kundi chini ya sehemu ya mzazi inayoitwa mteja. Ndani ya sehemu hii ya mzazi, unaweza kuwa na sehemu za watoto kama vile jina, Barua pepe, na anwani. |
+| .fields.fields        | Unaweza kupanga sehemu zako katika mfumo wa ngazi, kuruhusu sehemu za watoto kuwekwa ndani ya metadata ya invoice. Muundo huu unaweza kukusaidia kupanga na kusimamia vyema taarifa zilizokusanywa, kuifanya iwe rahisi kufikia na kufasiri. Kwa mfano, ikiwa una fomu inayokusanya taarifa za wateja, unaweza kuweka sehemu kwenye kundi chini ya sehemu ya mzazi inayoitwa mteja. Ndani ya sehemu hii ya mzazi, unaweza kuwa na sehemu za watoto kama vile jina, Barua pepe, na address. |
 
-Jina la sehemu hiyo linawakilisha jina la sifa ya JSON ambalo huhifadhi thamani iliyotolewa na mtumiaji katika metadata ya Anwani ya ununuzi. Majina mengine yanayojulikana yanaweza kufasiriwa na kurekebisha mipangilio ya Anwani ya ununuzi.
+Jina la sehemu hiyo linawakilisha jina la sifa ya JSON ambalo huhifadhi thamani iliyotolewa na mtumiaji katika metadata ya Address ya ununuzi. Majina mengine yanayojulikana yanaweza kufasiriwa na kurekebisha mipangilio ya Address ya ununuzi.
 
 | Jina la Sehemu    | Maelezo                |
 | ----------------- | ---------------------- |
-| invoice_amount    | Kiasi cha ankara       |
-| invoice_currency  | Sarafu ya ankara       |
+| invoice_amount    | Kiasi cha invoice       |
+| invoice_currency  | Sarafu ya invoice       |
 
-Unaweza kujaza mapema sehemu za Anwani ya ununuzi kiotomatiki kwa kuongeza mifuatano ya hoja kwenye URL ya fomu, kama vile "?wako_uwanja=thamani".
+Unaweza kujaza mapema sehemu za Address ya ununuzi kiotomatiki kwa kuongeza mifuatano ya hoja kwenye URL ya fomu, kama vile "?wako_uwanja=thamani".
 
 Hapa kuna baadhi ya matukio ya matumizi ya kipengele hiki:
 
 
-- Kusaidia ingizo la mtumiaji: Jaza mapema sehemu na taarifa za mteja zinazojulikana ili iwe rahisi kwao kujaza fomu. Kwa mfano, ikiwa tayari unajua barua pepe ya mteja na anwani, unaweza kujaza sehemu ya barua pepe mapema ili kuokoa muda.
+- Kusaidia ingizo la mtumiaji: Jaza mapema sehemu na taarifa za mteja zinazojulikana ili iwe rahisi kwao kujaza fomu. Kwa mfano, ikiwa tayari unajua barua pepe ya mteja na address, unaweza kujaza sehemu ya barua pepe mapema ili kuokoa muda.
 - Kubinafsisha: Weka mapendeleo ya fomu kulingana na mapendeleo ya mteja au sehemu. Kwa mfano, ikiwa una viwango tofauti vya wateja, unaweza kujaza fomu mapema na data husika, kama vile kiwango chao cha uanachama au matoleo mahususi.
 - Ufuatiliaji: Fuatilia chanzo cha kutembelewa na wateja kwa kutumia sehemu zilizofichwa na thamani zilizojazwa awali. Kwa mfano, unaweza kuunda viungo vilivyo na thamani za utm_media zilizojazwa awali kwa kila kituo cha uuzaji (k.m., Twitter, Facebook, Barua pepe). Hii hukusaidia kuchanganua ufanisi wa juhudi zako za uuzaji.
 - Jaribio la A/B: Jaza mapema sehemu zenye thamani tofauti ili kujaribu matoleo tofauti ya fomu, kukuwezesha kuboresha hali ya utumiaji na viwango vya ubadilishaji.
@@ -1334,7 +1334,7 @@ Katika sehemu hii, umejifunza yafuatayo:
 
 - Mpangilio na utendakazi wa vichupo katika Mipangilio ya Duka
 - Chaguzi nyingi za kurekebisha ushughulikiaji wa viwango vya msingi vya  Exchange, malipo kiasi, malipo kidogo ya chini, na zaidi.
-- Geuza kukufaa mwonekano wa malipo, ikiwa ni pamoja na msururu mkuu unaotegemea bei dhidi ya kuwasha lightning kwenye ankara.
+- Geuza kukufaa mwonekano wa malipo, ikiwa ni pamoja na msururu mkuu unaotegemea bei dhidi ya kuwasha lightning kwenye invoice.
 - Dhibiti viwango vya ufikiaji wa duka na ruhusa katika majukumu yote.
 - Sanidi barua pepe otomatiki na vichochezi vyake
 - Unda fomu maalum za kukusanya maelezo ya ziada ya wateja wakati wa kulipa.
@@ -1347,7 +1347,7 @@ Kuna tofauti gani kati ya Mipangilio ya Duka na Mipangilio ya Server?
 
 #### KA Dhahania
 
-Eleza baadhi ya chaguo unazoweza kuchagua katika Muonekano wa Malipo > Mipangilio ya Anwani za ununuzi, na kwa nini.
+Eleza baadhi ya chaguo unazoweza kuchagua katika Muonekano wa Malipo > Mipangilio ya Address za ununuzi, na kwa nini.
 
 ## BTCPay Server - Mipangilio ya server
 
@@ -1376,19 +1376,19 @@ Seti ya ruhusa ya majukumu maalum ya server nzima;
 - Dhibiti malipo yako ya kuvuta.
 - Unda malipo ya kuvuta.
   - Unda malipo ya kuvuta yasiyoidhinishwa.
-- Rekebisha ankara.
-  - Tazama ankara.
-  - Unda Anwani ya ununuzi.
-  - Unda ankara kutoka kwa node za lightning zinazohusiana na maduka yako.
+- Rekebisha invoice.
+  - Tazama invoice.
+  - Unda Address ya ununuzi.
+  - Unda invoice kutoka kwa node za lightning zinazohusiana na maduka yako.
 - Tazama maduka yako.
-  - Tazama ankara.
+  - Tazama invoice.
   - Tazama maombi yako ya malipo.
   - Badilisha vijiti vya wavuti vya duka.
 - Rekebisha maombi yako ya malipo.
   - Tazama maombi yako ya malipo.
 - Tumia node za lightning zinazohusiana na maduka yako.
-  - Tazama ankara za lightning zinazohusishwa na maduka yako.
-  - Unda ankara kutoka kwa node za lightning zinazohusiana na maduka yako.
+  - Tazama invoice za lightning zinazohusishwa na maduka yako.
+  - Unda invoice kutoka kwa node za lightning zinazohusiana na maduka yako.
 - Weka pesa kwenye akaunti za  Exchange zilizounganishwa na maduka yako.
 - Toa pesa kutoka kwa akaunti za  Exchange hadi kwenye duka lako.
 - Pesa za biashara kwenye akaunti za duka lako za  Exchange.
@@ -1476,7 +1476,7 @@ Utekelezaji wa kawaida wa BTCPay Server utaweza kufikiwa kupitia kikoa kilichowe
 
 #### Zuia wagunduzi
 
-BTCPay Server, kama kawaida, inakuja na Mempool.space kama Block explorer yake kwa miamala. Wakati BTCPay Server inapotengeneza Anwani ya ununuzi mpya, na kuna muamala unaohusishwa nao, mmiliki wa duka anaweza kubofya ili kufungua muamala; BTCPay Server itaelekeza kiwango kuelekea Mempool.space kama Block explorer; Msimamizi wa server anaweza kubadilisha hii kwa upendeleo wake.
+BTCPay Server, kama kawaida, inakuja na Mempool.space kama Block explorer yake kwa miamala. Wakati BTCPay Server inapotengeneza Address ya ununuzi mpya, na kuna muamala unaohusishwa nao, mmiliki wa duka anaweza kubofya ili kufungua muamala; BTCPay Server itaelekeza kiwango kuelekea Mempool.space kama Block explorer; Msimamizi wa server anaweza kubadilisha hii kwa upendeleo wake.
 
 ![image](assets/en/082.webp)
 
@@ -1499,7 +1499,7 @@ Wasimamizi wa server wanaweza kufungua maelezo zaidi ili kuona;
 - Matumizi ya SSL
 - Macaroon
 - AdminMacaroon
-- AnwaniyaununuziMacaroon
+- AddressyaununuziMacaroon
 - SomaMacaroon tu
 - GRPC SSL Cipher suite (GRPC_SSL_CIPHER_SUITES)
 
@@ -1511,7 +1511,7 @@ BTCPay inafichua huduma ya LND ya REST kwa matumizi ya nje; utapata habari za uu
 - REST Uri
 - Macaroon
 - AdminMacaroon
-- AnwaniyaununuziMacaroon
+- AddressyaununuziMacaroon
 - SomaMacaroon tu
 
 #### LND Mbegu chelezo
@@ -1526,11 +1526,11 @@ Endesha lightning ni zana ya usimamizi ya lightning node iliyojengwa kama progra
 
 #### node kamili P2P
 
-Wasimamizi wa server wanaweza kutaka kuunganisha node yao ya Bitcoin kwenye simu ya mkononi ya  Wallet. Ukurasa huu unaonyesha maelezo ya kuunganisha kwa mbali kwa node Kamili yako kupitia itifaki ya P2P. Tunapoandika kitabu hiki, BTCPay Server imeorodhesha kuzuia mkondo kijani na  wallet ya Wasabi kuwa  wallet zinazotumika. BTCPay Server inatoa msimbo wa QR ili uunganishwe, uchanganue na uitumie katika  Wallet inayooana.
+Wasimamizi wa server wanaweza kutaka kuunganisha node yao ya Bitcoin kwenye simu ya mkononi ya  Wallet. Ukurasa huu unaonyesha maelezo ya kuunganisha kwa mbali kwa node Kamili yako kupitia protocol ya P2P. Tunapoandika kitabu hiki, BTCPay Server imeorodhesha kuzuia mkondo kijani na  wallet ya Wasabi kuwa  wallet zinazotumika. BTCPay Server inatoa msimbo wa QR ili uunganishwe, uchanganue na uitumie katika  Wallet inayooana.
 
 #### node kamili RPC
 
-Ukurasa huu unaonyesha maelezo ya kuunganisha kwa mbali kwa node kamili yako kupitia itifaki ya RPC.
+Ukurasa huu unaonyesha maelezo ya kuunganisha kwa mbali kwa node kamili yako kupitia protocol ya RPC.
 
 #### SSH
 
@@ -1538,7 +1538,7 @@ SSH inatumika kwa madhumuni ya matengenezo. BTCPay Server inaonyesha amri ya awa
 
 #### DNS Inayobadilika
 
-DNS Inayobadilika hukuruhusu kuwa na jina thabiti la DNS linaloelekeza kwenye Server yako, hata kama Anwani ya IP yako inabadilika mara kwa mara. Hii inapendekezwa ikiwa unapangisha BTCPay Server nyumbani na ungependa kuwa na kikoa cha wavu wazi  ili kufikia Server yako.
+DNS Inayobadilika hukuruhusu kuwa na jina thabiti la DNS linaloelekeza kwenye Server yako, hata kama Address ya IP yako inabadilika mara kwa mara. Hii inapendekezwa ikiwa unapangisha BTCPay Server nyumbani na ungependa kuwa na kikoa cha wavu wazi  ili kufikia Server yako.
 
 Kumbuka kwamba unahitaji kusanidi vyema usakinishaji wako wa NAT na BTCPay Server ili kupata cheti cha HTTPS.
 
@@ -1558,13 +1558,13 @@ Wasimamizi wa server wanaweza kubadilisha chapa ya BTCPay Server kwa kuweka chap
 
 ### Matengenezo
 
-Kama msimamizi wa server, watumiaji wako wanatarajia utunze Server vizuri. Ndani ya kichupo cha Matengenezo cha BTCPay Server, msimamizi anaweza kufanya matengenezo muhimu. Weka jina la kikoa kwa mfano wa BTCPay Server, Anzisha upya au safisha Server. Labda muhimu zaidi, endesha sasisho.
+Kama msimamizi wa server, watumiaji wako wanatarajia utunze Server vizuri. Ndani ya kichupo cha Matengenezo cha BTCPay Server, msimamizi anaweza kufanya matengenezo muhimu. Weka Domain Name kwa mfano wa BTCPay Server, Anzisha upya au safisha Server. Labda muhimu zaidi, endesha sasisho.
 
 BTCPay Server ni mradi wa Chanzo wazi na husasishwa mara kwa mara. Kila toleo jipya linatangazwa na Arifa za Server yako ya BTCPay au kwenye Vituo rasmi vya BTCPay Server inayowasiliana nayo.
 
 ![image](assets/en/086.webp)
 
-#### Jina la kikoa
+#### Domain Name
 
 Baada ya BTCPay Server kusanidiwa, msimamizi anaweza kutaka kubadilisha kutoka kwa Kikoa chake asili. Ndani ya kichupo cha Matengenezo, msimamizi anaweza kubadilisha Kikoa. Baada ya kubofya thibitisha na kusanidi rekodi zinazofaa za DNS kwenye Kikoa, BTCPay Server inasasisha na kuwasha upya ili kurudi kwenye Kikoa kipya.
 
@@ -1767,95 +1767,95 @@ Eleza baadhi ya vitendo ambavyo msimamizi anaweza kufanya mara kwa mara katika k
 
 <chapterId>e2b71ff9-3f4f-5e71-9771-8e03fbbef00f</chapterId>
 
-Anwani ya ununuzi ni hati ambayo muuzaji hutoa kwa mnunuzi ili kukusanya malipo.
+Address ya ununuzi ni hati ambayo muuzaji hutoa kwa mnunuzi ili kukusanya malipo.
 
-Katika BTCPay Server, Anwani ya ununuzi inawakilisha hati ambayo lazima ilipwe ndani ya muda uliobainishwa kwa kiwango kisichobadilika cha  Exchange. Muda wa kutumia ankara umeisha kwa sababu hufunga kiwango cha  Exchange ndani ya muda uliowekwa ili kumlinda mpokeaji kutokana na kushuka kwa bei.
+Katika BTCPay Server, Address ya ununuzi inawakilisha hati ambayo lazima ilipwe ndani ya muda uliobainishwa kwa kiwango kisichobadilika cha  Exchange. Muda wa kutumia invoice umeisha kwa sababu hufunga kiwango cha  Exchange ndani ya muda uliowekwa ili kumlinda mpokeaji kutokana na kushuka kwa bei.
 
-Msingi wa BTCPay Server ni uwezo wa kufanya kazi kama mfumo wa usimamizi wa Anwani ya ununuzi ya Bitcoin. Anwani ya ununuzi ni zana muhimu ya kufuatilia na kudhibiti malipo yaliyopokelewa.
+Msingi wa BTCPay Server ni uwezo wa kufanya kazi kama mfumo wa usimamizi wa Address ya ununuzi ya Bitcoin. Address ya ununuzi ni zana muhimu ya kufuatilia na kudhibiti malipo yaliyopokelewa.
 
-Isipokuwa utumie [Wallet] iliyojengewa ndani (https://docs.btcpayserver.org/Wallet/) kupokea malipo wewe mwenyewe, malipo yote ndani ya duka yataonyeshwa kwenye ukurasa wa Ankara. Ukurasa huu kwa ujumla hupanga malipo kwa tarehe na ni sehemu kuu ya usimamizi wa Anwani ya ununuzi na utatuzi wa malipo.
+Isipokuwa utumie [Wallet] iliyojengewa ndani (https://docs.btcpayserver.org/Wallet/) kupokea malipo wewe mwenyewe, malipo yote ndani ya duka yataonyeshwa kwenye ukurasa wa invoice. Ukurasa huu kwa ujumla hupanga malipo kwa tarehe na ni sehemu kuu ya usimamizi wa Address ya ununuzi na utatuzi wa malipo.
 
 ![image](assets/en/093.webp)
 
 ### Mkuu
 
-#### Hali za Anwani za ununuzi
+#### Hali za Address za ununuzi
 
-Jedwali lililo hapa chini linaorodhesha na kufafanua hali za kawaida za Anwani za ununuzi katika BTCPay na kupendekeza vitendo vya kawaida. Vitendo ni mapendekezo tu. Ni juu ya watumiaji kufafanua njia bora zaidi ya matumizi ya kesi na biashara zao.
+Jedwali lililo hapa chini linaorodhesha na kufafanua hali za kawaida za Address za ununuzi katika BTCPay na kupendekeza vitendo vya kawaida. Vitendo ni mapendekezo tu. Ni juu ya watumiaji kufafanua njia bora zaidi ya matumizi ya kesi na biashara zao.
 
-| Hali ya Ankara             | Maelezo                                                                                                                                | Hatua                                                                                                                      |
+| Hali ya invoice             | Maelezo                                                                                                                                | Hatua                                                                                                                      |
 | -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| Mpya                       | Haijalipwa, kipima muda cha ankara bado halijamalizika                                                                                 | Hakuna                                                                                                                     |
-| Mpya (lilipiwaKiasi)       | Imelipwa, sio kwa kamili, kipima muda cha ankara bado halijamalizika                                                                   | Hakuna                                                                                                                     |
-| Imeisha muda               | Haijalipwa, kipima muda cha ankara kimemalizika                                                                                        | Hakuna                                                                                                                     |
-| Imeisha muda (lilipiwaKiasi) \*\* | Imelipwa, sio kwa kiasi kamili, na imeisha muda                                                                                   | Wasiliana na mnunuzi ili kupanga marejesho au umuombe alipe deni lake. Kwa hiari, weka ankara kama imesuluhishwa au batili |
-| Imeisha muda (lilipiwaKuchelewa) | Imelipwa, kwa kiasi kamili, baada ya kipima muda cha ankara kumalizika                                                              | Wasiliana na mnunuzi ili kupanga marejesho au shughulikia agizo ikiwa uthibitisho wa kuchelewa unakubalika                 |
-| Imesuluhishwa (lilipiwaZaidi) | Imelipwa zaidi ya kiasi cha ankara, imesuluhishwa, imepokea idadi ya kutosha ya uthibitisho                                          | Wasiliana na mnunuzi ili kupanga marejesho kwa kiasi cha ziada, au kwa hiari subiri mnunuzi awasiliane nawe                |
+| Mpya                       | Haijalipwa, kipima muda cha invoice bado halijamalizika                                                                                 | Hakuna                                                                                                                     |
+| Mpya (lilipiwaKiasi)       | Imelipwa, sio kwa kamili, kipima muda cha invoice bado halijamalizika                                                                   | Hakuna                                                                                                                     |
+| Imeisha muda               | Haijalipwa, kipima muda cha invoice kimemalizika                                                                                        | Hakuna                                                                                                                     |
+| Imeisha muda (lilipiwaKiasi) \*\* | Imelipwa, sio kwa kiasi kamili, na imeisha muda                                                                                   | Wasiliana na mnunuzi ili kupanga marejesho au umuombe alipe deni lake. Kwa hiari, weka invoice kama imesuluhishwa au batili |
+| Imeisha muda (lilipiwaKuchelewa) | Imelipwa, kwa kiasi kamili, baada ya kipima muda cha invoice kumalizika                                                              | Wasiliana na mnunuzi ili kupanga marejesho au shughulikia agizo ikiwa uthibitisho wa kuchelewa unakubalika                 |
+| Imesuluhishwa (lilipiwaZaidi) | Imelipwa zaidi ya kiasi cha invoice, imesuluhishwa, imepokea idadi ya kutosha ya uthibitisho                                          | Wasiliana na mnunuzi ili kupanga marejesho kwa kiasi cha ziada, au kwa hiari subiri mnunuzi awasiliane nawe                |
 | Inachakatwa                | Imelipwa kikamilifu, lakini haijapokea idadi ya kutosha ya uthibitisho iliyoainishwa katika mipangilio ya duka                         | Wasiliana na mnunuzi ili kupanga marejesho kwa kiasi cha ziada, au kwa hiari subiri mnunuzi awasiliane nawe                |
-| Inachakatwa (lilipiwaZaidi) | Imelipwa zaidi ya kiasi cha ankara, haijapokea idadi ya kutosha ya uthibitisho                                                         | Subiri isuluhishwe kisha wasiliana na mnunuzi ili kupanga marejesho kwa kiasi cha ziada, au kwa hiari subiri mnunuzi awasiliane nawe |
+| Inachakatwa (lilipiwaZaidi) | Imelipwa zaidi ya kiasi cha invoice, haijapokea idadi ya kutosha ya uthibitisho                                                         | Subiri isuluhishwe kisha wasiliana na mnunuzi ili kupanga marejesho kwa kiasi cha ziada, au kwa hiari subiri mnunuzi awasiliane nawe |
 | Imesuluhishwa              | Imelipwa, kikamilifu, imepokea idadi ya kutosha ya uthibitisho katika duka                                                             | Timiza agizo                                                                                                               |
 | Imesuluhishwa (imewekwa)   | Hali ilibadilishwa kimwili kuwa imesuluhishwa kutoka hali ya kuchakatwa au batili                                                      | Msimamizi wa duka ameweka malipo kama yamewekwa                                                                            |
 | Batili                   | Imelipwa, lakini imeshindwa kupokea idadi ya kutosha ya uthibitisho katika muda uliowekwa katika mipangilio ya duka                    | Angalia muamala kwenye kichunguzi cha blockchain, ikiwa imepokea uthibitisho wa kutosha, weka kama imesuluhishwa          |
 | Batili (imewekwa)          | Hali ilibadilishwa kimwili kuwa batili kutoka hali ya kusuluhishwa au kuisha muda                                                      | Msimamizi wa duka ameweka malipo kama batili                                                                               |
-| Batili (lilipiwaZaidi)     | Imelipwa zaidi ya kiasi cha ankara, lakini imeshindwa kupokea idadi ya kutosha ya uthibitisho katika muda uliowekwa katika mipangilio ya duka | Angalia muamala kwenye kichunguzi cha blockchain, ikiwa imepokea uthibitisho wa kutosha, weka kama imesuluhishwa          |
+| Batili (lilipiwaZaidi)     | Imelipwa zaidi ya kiasi cha invoice, lakini imeshindwa kupokea idadi ya kutosha ya uthibitisho katika muda uliowekwa katika mipangilio ya duka | Angalia muamala kwenye kichunguzi cha blockchain, ikiwa imepokea uthibitisho wa kutosha, weka kama imesuluhishwa          |
 
-#### Maelezo ya Anwani ya ununuzi
+#### Maelezo ya Address ya ununuzi
 
-Ukurasa wa maelezo wa Anwani ya ununuzi una taarifa zote zinazohusiana na Anwani za ununuzi.
+Ukurasa wa maelezo wa Address ya ununuzi una taarifa zote zinazohusiana na Address za ununuzi.
 
-Maelezo ya Anwani ya ununuzi huundwa kiotomatiki kulingana na hadhi ya Anwani ya ununuzi, kiwango cha  Exchange, n.k. Maelezo ya bidhaa huundwa kiotomatiki ikiwa Anwani ya ununuzi iliundwa ikiwa na maelezo ya bidhaa, kama vile katika programu ya Sehemu ya Uuzaji.
+Maelezo ya Address ya ununuzi huundwa kiotomatiki kulingana na hadhi ya Address ya ununuzi, kiwango cha  Exchange, n.k. Maelezo ya bidhaa huundwa kiotomatiki ikiwa Address ya ununuzi iliundwa ikiwa na maelezo ya bidhaa, kama vile katika programu ya Sehemu ya Uuzaji.
 
-#### Anwani ya ununuzi kuchuja
+#### Address ya ununuzi kuchuja
 
-Ankara zinaweza kuchujwa kupitia vichujio vya haraka vilivyo karibu na kitufe cha kutafuta au vichujio vya kina, ambavyo vinaweza kubadilishwa kwa kubofya kiungo cha (Msaada) kilicho juu. Watumiaji wanaweza kuchuja ankara kulingana na duka, kitambulisho cha agizo, kitambulisho cha bidhaa, hali au tarehe.
+Invoice zinaweza kuchujwa kupitia vichujio vya haraka vilivyo karibu na kitufe cha kutafuta au vichujio vya kina, ambavyo vinaweza kubadilishwa kwa kubofya kiungo cha (Msaada) kilicho juu. Watumiaji wanaweza kuchuja invoice kulingana na duka, kitambulisho cha agizo, kitambulisho cha bidhaa, hali au tarehe.
 
-#### Usafirishaji wa Anwani ya ununuzi
+#### Usafirishaji wa Address ya ununuzi
 
-Ankara za BTCPay Server zinaweza kusafirishwa katika umbizo la CSV au JSON. Kwa habari zaidi kuhusu usafirishaji wa Anwani ya ununuzi na uhasibu.
+Invoice za BTCPay Server zinaweza kusafirishwa katika umbizo la CSV au JSON. Kwa habari zaidi kuhusu usafirishaji wa Address ya ununuzi na uhasibu.
 
-#### Kurejesha fedha kwa Anwani ya ununuzi
+#### Kurejesha fedha kwa Address ya ununuzi
 
-Ikiwa, kwa sababu yoyote, ungependa kurejesha pesa, unaweza kuunda kwa urahisi kurejesha kutoka kwa mtazamo wa Anwani ya ununuzi.
+Ikiwa, kwa sababu yoyote, ungependa kurejesha pesa, unaweza kuunda kwa urahisi kurejesha kutoka kwa mtazamo wa Address ya ununuzi.
 
-#### Kuhifadhi ankara
+#### Kuhifadhi invoice
 
-Kutokana na kipengele cha kutotumia tena Anwani cha BTCPay Server, ni kawaida kuona ankara nyingi ambazo muda wake wa matumizi umekwisha kwenye ukurasa wa duka lako la Anwani ya ununuzi. Ili kuzificha kutoka kwa mwonekano wako, zichague kwenye orodha na uziweke alama kuwa zimehifadhiwa kwenye kumbukumbu. Ankara ambazo zimetiwa alama kuwa zimehifadhiwa hazifutwa. Malipo kwa Anwani ya ununuzi iliyohifadhiwa bado yatatambuliwa na Server yako ya BTCPay (hali ya kulipwaLate). Unaweza kutazama ankara zilizohifadhiwa kwenye kumbukumbu wakati wowote kwa kuchagua ankara zilizowekwa kwenye kumbukumbu kutoka kwenye menyu kunjuzi ya kichujio cha utafutaji.
+Kutokana na kipengele cha kutotumia tena Address cha BTCPay Server, ni kawaida kuona invoice nyingi ambazo muda wake wa matumizi umekwisha kwenye ukurasa wa duka lako la Address ya ununuzi. Ili kuzificha kutoka kwa mwonekano wako, zichague kwenye orodha na uziweke alama kuwa zimehifadhiwa kwenye kumbukumbu. Invoice ambazo zimetiwa alama kuwa zimehifadhiwa hazifutwa. Malipo kwa Address ya ununuzi iliyohifadhiwa bado yatatambuliwa na Server yako ya BTCPay (hali ya kulipwaLate). Unaweza kutazama invoice zilizohifadhiwa kwenye kumbukumbu wakati wowote kwa kuchagua invoice zilizowekwa kwenye kumbukumbu kutoka kwenye menyu kunjuzi ya kichujio cha utafutaji.
 
 #### Sarafu Chaguomsingi
 
 Sarafu chaguo-msingi ya hifadhi, hii iliwekwa kwenye mchawi wa uundaji duka
 
-#### Ruhusu mtu yeyote kuunda Anwani ya ununuzi
+#### Ruhusu mtu yeyote kuunda Address ya ununuzi
 
-Unapaswa kuwezesha chaguo hili ikiwa unataka kuruhusu ulimwengu wa nje kuunda ankara katika duka lako. Chaguo hili ni muhimu tu ikiwa unatumia kitufe cha malipo au ikiwa unatoa ankara kupitia API au tovuti ya HTML ya watu wengine. Programu ya PoS imeidhinishwa mapema na haihitaji kuwezeshwa kwa mgeni nasibu kufungua duka lako la POS na kuunda Anwani ya ununuzi.
+Unapaswa kuwezesha chaguo hili ikiwa unataka kuruhusu ulimwengu wa nje kuunda invoice katika duka lako. Chaguo hili ni muhimu tu ikiwa unatumia kitufe cha malipo au ikiwa unatoa invoice kupitia API au tovuti ya HTML ya watu wengine. Programu ya PoS imeidhinishwa mapema na haihitaji kuwezeshwa kwa mgeni nasibu kufungua duka lako la POS na kuunda Address ya ununuzi.
 
-#### Ongeza ada ya Ziada (ada ya mtandao) kwa Anwani ya ununuzi
+#### Ongeza ada ya Ziada (ada ya mtandao) kwa Address ya ununuzi
 
 
-- Ikiwa tu mteja atafanya malipo zaidi ya moja kwa Anwani ya ununuzi
+- Ikiwa tu mteja atafanya malipo zaidi ya moja kwa Address ya ununuzi
 - Kwa kila malipo
 - Usiwahi kuongeza ada ya mtandao
 
-#### Muda wa Anwani ya ununuzi utaisha ikiwa kiasi kamili hakijalipwa baada ya .. Dakika.
+#### Muda wa Address ya ununuzi utaisha ikiwa kiasi kamili hakijalipwa baada ya .. Dakika.
 
-Kipima muda cha Anwani ya ununuzi kimewekwa kuwa dakika 15 kwa chaguo-msingi. Kipima muda ni utaratibu wa ulinzi dhidi ya tete kwa kuwa hufunga kiasi cha fedha za siri kulingana na cryptocurrency hadi viwango vya pesa za serikali. Ikiwa mteja halipi anwani ya ununuzi ndani ya muda uliobainishwa, Anwani ya ununuzi inachukuliwa kuwa imeisha muda wake. Anwani ya ununuzi inachukuliwa kuwa "imelipiwa" punde tu shughuli hiyo inapoonekana kwenye Blockchain (o-uthibitisho) lakini inachukuliwa kuwa "kamili" inapofikia idadi ya uthibitisho aliofafanua mfanyabiashara (kawaida, 1-6). Kipima muda kinaweza kubinafsishwa.
+Kipima muda cha Address ya ununuzi kimewekwa kuwa dakika 15 kwa chaguo-msingi. Kipima muda ni utaratibu wa ulinzi dhidi ya tete kwa kuwa hufunga kiasi cha fedha za siri kulingana na cryptocurrency hadi viwango vya pesa za serikali. Ikiwa mteja halipi address ya ununuzi ndani ya muda uliobainishwa, Address ya ununuzi inachukuliwa kuwa imeisha muda wake. Address ya ununuzi inachukuliwa kuwa "imelipiwa" punde tu shughuli hiyo inapoonekana kwenye Blockchain (o-uthibitisho) lakini inachukuliwa kuwa "kamili" inapofikia idadi ya uthibitisho aliofafanua mfanyabiashara (kawaida, 1-6). Kipima muda kinaweza kubinafsishwa.
 
-#### Zingatia Anwani ya ununuzi iliyolipwa hata kama kiasi kilicholipwa ni ..% chini ya ilivyotarajiwa.
+#### Zingatia Address ya ununuzi iliyolipwa hata kama kiasi kilicholipwa ni ..% chini ya ilivyotarajiwa.
 
-Katika hali ambapo mteja anatumia  Wallet la  exchange kulipa moja kwa moja kwa Anwani ya ununuzi,  Exchange unachukua kiasi kidogo cha ada. Hii inamaanisha kuwa anwani ya ununuzi kama hiyo haizingatiwi kukamilika kikamilifu. anwani ya ununuzi inapata hali ya "kulipwa kiasi." Ikiwa mfanyabiashara anataka kukubali ankara ambazo hazilipiwi kidogo, unaweza kuweka kiwango cha asilimia hapa
+Katika hali ambapo mteja anatumia  Wallet la  exchange kulipa moja kwa moja kwa Address ya ununuzi,  Exchange unachukua kiasi kidogo cha ada. Hii inamaanisha kuwa address ya ununuzi kama hiyo haizingatiwi kukamilika kikamilifu. address ya ununuzi inapata hali ya "kulipwa kiasi." Ikiwa mfanyabiashara anataka kukubali invoice ambazo hazilipiwi kidogo, unaweza kuweka kiwango cha asilimia hapa
 
 ### Maombi
 
-Maombi ya Malipo ni kipengele kinachoruhusu wamiliki wa maduka ya BTCPay kuunda ankara za muda mrefu. Fedha hulipwa kwa ombi la malipo kwa kutumia kiwango cha  Exchange wakati wa malipo. Hii inaruhusu watumiaji kufanya malipo kwa urahisi wao bila kujadiliana au kuthibitisha viwango vya  Exchange na mwenye duka wakati wa malipo.
+Maombi ya Malipo ni kipengele kinachoruhusu wamiliki wa maduka ya BTCPay kuunda invoice za muda mrefu. Fedha hulipwa kwa ombi la malipo kwa kutumia kiwango cha  Exchange wakati wa malipo. Hii inaruhusu watumiaji kufanya malipo kwa urahisi wao bila kujadiliana au kuthibitisha viwango vya  Exchange na mwenye duka wakati wa malipo.
 
-Watumiaji wanaweza kulipa maombi kwa sehemu ya malipo. Ombi la malipo litaendelea kuwa halali hadi lilipwe yote au ikiwa mmiliki wa duka atahitaji muda wa mwisho wa matumizi. Anwani hazitumiwi tena. Anwani mpya inazalishwa kila wakati mtumiaji anapobofya lipa ili kuunda Anwani ya ununuzi kwa ombi la malipo.
+Watumiaji wanaweza kulipa maombi kwa sehemu ya malipo. Ombi la malipo litaendelea kuwa halali hadi lilipwe yote au ikiwa mmiliki wa duka atahitaji muda wa mwisho wa matumizi. Address hazitumiwi tena. Address mpya inazalishwa kila wakati mtumiaji anapobofya lipa ili kuunda Address ya ununuzi kwa ombi la malipo.
 
-Wamiliki wa maduka wanaweza kuchapisha maombi ya malipo (au kuhamisha data ya anwani ya ununuzi) kwa ajili ya kuhifadhi rekodi na uhasibu. BTCPay huweka alama kiotomatiki ankara kama Maombi ya Malipo katika orodha ya duka lako anwani ya ununuzi.
+Wamiliki wa maduka wanaweza kuchapisha maombi ya malipo (au kuhamisha data ya address ya ununuzi) kwa ajili ya kuhifadhi rekodi na uhasibu. BTCPay huweka alama kiotomatiki invoice kama Maombi ya Malipo katika orodha ya duka lako address ya ununuzi.
 
 #### Binafsisha Maombi Yako ya Malipo
 
 
-- Kiasi cha anwani ya ununuzi - Weka Kiasi Kilichoombwa cha Malipo
+- Kiasi cha address ya ununuzi - Weka Kiasi Kilichoombwa cha Malipo
 - Dhehebu - Onyesha Kiasi Ulichoomba katika pesa za serikali au Cryptocurrency
 - Kiasi cha Malipo - Ruhusu malipo mara moja tu au malipo ya sehemu
 - Muda wa Kuisha - Ruhusu malipo hadi tarehe au bila kuisha
@@ -1872,7 +1872,7 @@ Katika menyu ya kushoto, nenda kwa Ombi la Malipo na ubofye "Unda Ombi la Malipo
 
 Toa Jina la Ombi, Kiasi, Madhehebu ya Kuonyesha, Duka Linalohusishwa, Muda wa Kuisha na Maelezo (Si lazima)
 
-Teua chaguo Ruhusu mpokeaji atengeneze ankara katika madhehebu yake ikiwa ungependa kuruhusu malipo kiasi.
+Teua chaguo Ruhusu mpokeaji atengeneze invoice katika madhehebu yake ikiwa ungependa kuruhusu malipo kiasi.
 
 Bofya Hifadhi & Tazama ili ukague ombi lako la malipo.
 
@@ -1917,7 +1917,7 @@ color: white;
 
 ### Vuta malipo
 
-Kijadi, mpokeaji hushiriki Anwani ya Bitcoin yake kufanya malipo ya Bitcoin, na mtumaji baadaye hutuma pesa kwa Anwani hii. Mfumo kama huo unaitwa malipo ya kusukumiwa, kwani mtumaji huanzisha malipo huku mpokeaji asipatikane, hivyo basi kusukuma malipo kwa mpokeaji.
+Kijadi, mpokeaji hushiriki Address ya Bitcoin yake kufanya malipo ya Bitcoin, na mtumaji baadaye hutuma pesa kwa Address hii. Mfumo kama huo unaitwa malipo ya kusukumiwa, kwani mtumaji huanzisha malipo huku mpokeaji asipatikane, hivyo basi kusukuma malipo kwa mpokeaji.
 
 Hata hivyo, vipi kuhusu kubadili jukumu hilo?
 
@@ -1937,7 +1937,7 @@ Utendaji wa malipo unahusishwa na [Vuta Malipo](https://docs.btcpayserver.org/Pu
 
 #### Mfano 1: Rudisha pesa
 
-Wacha tuanze na mfano wa kurejesha pesa. Mteja amenunua bidhaa kwenye duka lako lakini inasikitisha kwamba lazima akurudishe. Wanataka kurejeshewa pesa. Ndani ya BTCPay, unaweza kuunda [Refund](https://docs.btcpayserver.org/Refund/) na kumpa mteja kiungo cha kudai pesa zake. Wakati wowote mteja atakapotoa Anwani yake na kudai pesa, itaonyeshwa kwenye Malipo.
+Wacha tuanze na mfano wa kurejesha pesa. Mteja amenunua bidhaa kwenye duka lako lakini inasikitisha kwamba lazima akurudishe. Wanataka kurejeshewa pesa. Ndani ya BTCPay, unaweza kuunda [Refund](https://docs.btcpayserver.org/Refund/) na kumpa mteja kiungo cha kudai pesa zake. Wakati wowote mteja atakapotoa Address yake na kudai pesa, itaonyeshwa kwenye Malipo.
 
 Hadhi ya kwanza iliyonayo ni Inangoja Idhini. Makarani wa duka wanaweza kuangalia ikiwa wengi wanasubiri, na baada ya kufanya uteuzi, unatumia kitufe cha Vitendo.
 
@@ -1948,7 +1948,7 @@ Chaguzi kwenye kitufe cha kitendo
 - Idhinisha na utume malipo uliyochagua
 - Ghairi malipo uliyochagua
 
-Hatua inayofuata ni Kuidhinisha na kutuma malipo uliyochagua kwani tunataka kumrejeshea mteja pesa. Angalia Anwani ya Mteja, inaonyesha kiasi na ikiwa tunataka ada zipunguzwe kutoka kwa kurejesha pesa au la. Ukishafanya ukaguzi, kusaini tu muamala ndio kunasalia.
+Hatua inayofuata ni Kuidhinisha na kutuma malipo uliyochagua kwani tunataka kumrejeshea mteja pesa. Angalia Address ya Mteja, inaonyesha kiasi na ikiwa tunataka ada zipunguzwe kutoka kwa kurejesha pesa au la. Ukishafanya ukaguzi, kusaini tu muamala ndio kunasalia.
 
 Mteja sasa anasasishwa kwenye ukurasa wa Madai. Anaweza kufuata muamala kwa vile amepewa kiungo cha Block explorer na muamala wake. Mara tu muamala umethibitishwa, na hali itabadilika kuwa Imekamilika.
 
@@ -1958,7 +1958,7 @@ Sasa hebu tuingie kwenye malipo ya Mshahara, kwani hii inaendeshwa kutoka ndani 
 
 Nenda kwenye kichupo cha Vuta Malipo kwenye server yako ya BTCPay. Katika sehemu ya juu kulia, bofya Kitufe cha Unda Vuta Malipo.
 
-Sasa tuko katika uundaji wa Malipo, ipe jina na kiasi unachotaka kwa sarafu inayotaka, jaza Maelezo, ili mfanyakazi ajue inahusu nini. Sehemu inayofuata ni sawa na kurejesha pesa. Mfanyakazi anajaza Lengwa la Anwani na kiasi anachotaka kudai kutoka kwa Malipo haya. Anaweza kuamua kufanya madai 2 tofauti, kwa anwani tofauti, au hata kudai kwa sehemu juu ya lightning.
+Sasa tuko katika uundaji wa Malipo, ipe jina na kiasi unachotaka kwa sarafu inayotaka, jaza Maelezo, ili mfanyakazi ajue inahusu nini. Sehemu inayofuata ni sawa na kurejesha pesa. Mfanyakazi anajaza Lengwa la Address na kiasi anachotaka kudai kutoka kwa Malipo haya. Anaweza kuamua kufanya madai 2 tofauti, kwa address tofauti, au hata kudai kwa sehemu juu ya lightning.
 
 Iwapo kuna Malipo mengi yanayosubiri, unaweza kuyaunganisha ili yatiwe saini na kutuma. Baada ya kutiwa sahihi, malipo huhamishiwa kwenye kichupo Inaendelea na uonyeshe Muamala. Inapokubaliwa na mtandao, malipo huhamishiwa kwenye kichupo Kimekamilika. Kichupo kilichokamilika ni kwa madhumuni ya kihistoria tu. Inashikilia Malipo yaliyochakatwa na muamala ambayo ni yake
 
@@ -2000,15 +2000,15 @@ Kwa kuwa API yetu inafichua uwezo kamili wa malipo ya kawaida, mtumaji anaweza k
 Katika sehemu hii, umejifunza yafuatayo:
 
 
-- Uelewa wa kina wa hali ya Anwani ya ununuzi ya BTCPay Server pamoja na hatua zinazoweza kufanywa kwao.
-- Geuza kukufaa na udhibiti mifumo ya muda mrefu ya Anwani ya ununuzi inayojulikana kama Maombi.
+- Uelewa wa kina wa hali ya Address ya ununuzi ya BTCPay Server pamoja na hatua zinazoweza kufanywa kwao.
+- Geuza kukufaa na udhibiti mifumo ya muda mrefu ya Address ya ununuzi inayojulikana kama Maombi.
 - Uwezekano wa ziada wa malipo unaonyumbulika ulifunguliwa kwa kipengele cha kipekee cha Kuvuta Malipo cha BTCPay Server, hasa jinsi ya kushughulikia marejesho ya pesa na malipo ya mishahara.
 
 ### Tathmini ya maarifa
 
 #### Uhakiki wa Dhana ya KA
 
-Je! ni baadhi ya tofauti gani kati ya ankara na maombi ya malipo, na inaweza kuwa sababu gani nzuri ya kutumia ya pili?
+Je! ni baadhi ya tofauti gani kati ya invoice na maombi ya malipo, na inaweza kuwa sababu gani nzuri ya kutumia ya pili?
 
 #### Uhakiki wa Dhana ya KA
 
@@ -2058,7 +2058,7 @@ BTCPay Server ina uwezo wa kuonyesha Sehemu yake ya Uuzaji kwa njia nyingi.
 - Orodha ya bidhaa na gari.
   - Mwonekano wa duka ambapo wateja wanaweza kununua bidhaa nyingi kwa wakati mmoja na kupata muhtasari wa rukwama ya ununuzi upande wa kulia wa skrini yao.
 - Kitufe pekee
-  - Hakuna orodha ya bidhaa, kibodi tu cha ankara ya moja kwa moja.
+  - Hakuna orodha ya bidhaa, kibodi tu cha invoice ya moja kwa moja.
 - Onyesho la kuchapisha (Orodha ya bidhaa zinazoweza kuchapishwa na QR)
   - Ikiwa huwezi kuonyesha orodha yako ya bidhaa kidijitali kila wakati, unahitaji suluhisho la "nje ya mtandao" kwa bidhaa; BTCPay Server ina onyesho la kuchapisha ili kufanya kazi kama duka la Nje ya Mtandao.
 
@@ -2126,7 +2126,7 @@ Kama mmiliki wa duka, unaweza kutaka kumpa mteja punguzo maalum wakati wa kulipa
 
 #### Malipo Maalum
 
-Chaguo la Malipo Maalum linapowashwa, mteja ataweka bei yake aliyoweka sawa na au zaidi ya Anwani ya ununuzi asilia inayozalishwa na duka.
+Chaguo la Malipo Maalum linapowashwa, mteja ataweka bei yake aliyoweka sawa na au zaidi ya Address ya ununuzi asilia inayozalishwa na duka.
 
 #### Chaguzi za Ziada
 
@@ -2212,7 +2212,7 @@ Wamiliki wa maduka wanaweza kuchagua jinsi ya kuonyesha Manufaa, jinsi yanavyopa
 
 ##### Tabia ya Crowdfund
 
-Kiwango cha Crowdfund huhesabu tu ankara zilizoundwa na Crowdfund kuelekea lengo. Hata hivyo, kunaweza kuwa na matukio ambapo mmiliki wa Duka anataka ankara zote zinazotengenezwa katika duka hili zihesabiwe kuelekea kwenye mkusanyo wa pesa.
+Kiwango cha Crowdfund huhesabu tu invoice zilizoundwa na Crowdfund kuelekea lengo. Hata hivyo, kunaweza kuwa na matukio ambapo mmiliki wa Duka anataka invoice zote zinazotengenezwa katika duka hili zihesabiwe kuelekea kwenye mkusanyo wa pesa.
 
 #### Chaguzi za Ziada za kubinafsisha
 
@@ -2302,7 +2302,7 @@ Mteja atakapokamilisha ununuzi, ataelekezwa kwenye kiungo hiki ikiwa kimewekwa n
 
 #### Chaguo za Kitufe cha Malipo ya Juu
 
-Bainisha vigezo vya ziada vya mfuatano wa hoja ambavyo vinapaswa kuongezwa kwenye ukurasa wa kulipa mara tu Anwani ya ununuzi inapoundwa. Kwa mfano, `lang=da-DK` ingepakia ukurasa wa kulipa katika Kidenmaki kwa chaguo-msingi.
+Bainisha vigezo vya ziada vya mfuatano wa hoja ambavyo vinapaswa kuongezwa kwenye ukurasa wa kulipa mara tu Address ya ununuzi inapoundwa. Kwa mfano, `lang=da-DK` ingepakia ukurasa wa kulipa katika Kidenmaki kwa chaguo-msingi.
 
 #### Tumia Programu kama Mwisho
 
@@ -2330,7 +2330,7 @@ Mteja atakapokamilisha ununuzi, ataelekezwa kwenye kiungo hiki ikiwa kimewekwa n
 
 #### Chaguo za Kitufe cha Malipo ya Juu
 
-Bainisha vigezo vya ziada vya mfuatano wa hoja ambavyo vinapaswa kuongezwa kwenye ukurasa wa kulipa mara tu Anwani ya ununuzi inapoundwa. Kwa mfano, `lang=da-DK` ingepakia ukurasa wa kulipa katika Kidenmaki kwa chaguo-msingi.
+Bainisha vigezo vya ziada vya mfuatano wa hoja ambavyo vinapaswa kuongezwa kwenye ukurasa wa kulipa mara tu Address ya ununuzi inapoundwa. Kwa mfano, `lang=da-DK` ingepakia ukurasa wa kulipa katika Kidenmaki kwa chaguo-msingi.
 
 #### Tumia Programu kama Mwisho
 
@@ -2417,7 +2417,7 @@ Rudi kwenye ukurasa na Kizinduzi, jaza sehemu kwa ufunguo wako wa API na Kitambu
 
 ![image](assets/en/115.webp)
 
-Katika hatua inayofuata, unaweza kutoa jina la kikoa. Ikiwa tayari unamiliki kikoa na ungependa kutumia hii kwa BTCPay Server, hakikisha pia umeongeza rekodi ya DNS (Inayoitwa rekodi ya `A`) kwenye kikoa chako. Ikiwa humiliki kikoa, tumia kikoa kilichotolewa na LunaNode badala yake (unaweza kubadilisha hii baadaye katika mipangilio ya BTCPay Server) na ubofye Endelea.
+Katika hatua inayofuata, unaweza kutoa Domain Name. Ikiwa tayari unamiliki kikoa na ungependa kutumia hii kwa BTCPay Server, hakikisha pia umeongeza rekodi ya DNS (Inayoitwa rekodi ya `A`) kwenye kikoa chako. Ikiwa humiliki kikoa, tumia kikoa kilichotolewa na LunaNode badala yake (unaweza kubadilisha hii baadaye katika mipangilio ya BTCPay Server) na ubofye Endelea.
 
 Soma zaidi kuhusu kuweka au kubadilisha rekodi ya DNS kwa BTCPay Server; https://docs.btcpayserver.org/FAQ/Deployment/#how-to-change-your-btcpay-server-domain-name
 

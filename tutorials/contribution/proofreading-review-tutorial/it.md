@@ -1,6 +1,6 @@
 ---
 name: Proofreading o revisione di contenuti
-description: Come correggere i contenuti di Plan ₿ Network?
+description: Come revisionare i contenuti di Plan ₿ Network?
 ---
 ![github](assets/cover.webp)
 
@@ -25,7 +25,7 @@ Per raggiungere questo obiettivo, utilizziamo un approccio che chiamiamo "Human 
 
 Se vuoi contribuire a costruire questo progetto educativo per promuovere l'educazione su Bitcoin nella tua community, puoi iniziare revisionando un corso o un tutorial.
 
-Inoltre, poiché abbiamo a cuore il modello *Value4Value*, avremo cura di inviare un "reward" a coloro che contribuiscono. La ricompensa si baserà sulla lunghezza del testo, sull'accuratezza linguistica della nostra auto-traduzione e sulla difficoltà del contenuto.
+Inoltre, poiché abbiamo a cuore il modello *Value4Value*, avremo cura di inviare un "reward" a coloro che contribuiscono. La ricompensa si baserà sulla lunghezza del testo, sull'accuratezza linguistica della nostra traduzione automatica e sulla difficoltà del contenuto.
 
 ## Devo sapere come funziona GitHub?
 
@@ -49,8 +49,8 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![REVIEW](assets/fr/01.webp)
 
 
-- Presentati brevemente, specifica il contenuto che vuoi revisionare e in che lingua mandando un messaggio nella sezione "General".
-- Un coordinatore creerà quindi una 'issue' su GitHub dedicata al tuo futuro lavoro di revisore di bozze, dove troverai tutte le informazioni necessarie per iniziare.
+- Presentati brevemente, specifica il contenuto che vuoi revisionare e la lingua di riferimento, mandando un messaggio nella sezione "General".
+- Un coordinatore creerà quindi una 'issue' su GitHub dedicata al lavoro che ti verrà assegnato: lì troverai tutte le informazioni necessarie per iniziare.
 
 ![REVIEW](assets/fr/02.webp)
 
@@ -58,7 +58,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 
 - La 'issue' contiene una descrizione (cfr. **A**) con i link al contenuto originale e al file da revisionare.
-- Se vuoi occuparti del proofreading, lascia un commento sulla 'issue' (cfr. **B**) per indicare che te ne occuperai. In questo modo si evita che altre persone prendano in carico la stesso compito.
+- Se vuoi occuparti del proofreading, lascia un commento sulla 'issue' (cfr. **B**) per indicare che te ne occuperai. In questo modo si evita che altre persone prendano in carico lo stesso compito.
 - Clicca sul link accanto al file da cambiare (cfr. **C**) per accedere al contenuto.
 
 ![REVIEW](assets/fr/03.webp)
@@ -80,7 +80,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 ![REVIEW](assets/fr/06.webp)
 
-NB. Ti consiglio di effettuare la revisione nella finestra `code`, con il contenuto originale visualizzato in una finestra separata. Ad esempio, puoi visualizzare il testo sul sito web Plan ₿ Network o nell'anteprima GitHub in una scheda del browser. Puoi anche utilizzare `ctrl + F` per individuare gli errori comuni e apportare correzioni multiple nella visualizzazione `code`.
+NB. Ti consiglio di effettuare la revisione nella finestra `code`, con il contenuto originale visualizzato in una finestra separata. Ad esempio, puoi visualizzare il testo sul sito web planb.academy o nell'anteprima GitHub in una scheda del browser. Puoi anche utilizzare `ctrl + F` per individuare gli errori comuni e apportare correzioni multiple nella visualizzazione `code`.
 
 ## 4. Conferma le modifiche
 
@@ -99,12 +99,12 @@ NB. Ti consiglio di effettuare la revisione nella finestra `code`, con il conten
 ![REVIEW](assets/fr/08.webp)
 
 
-- Se questo **non** è il tuo primo contributo, GitHub ti chiederà di creare un nuovo branch. Non devi **mai** salvare un commit (salvataggio) direttamente sul branch principale `dev`. Se hai gia effettuato dei commit su un branch di lavoro esistente, seleziona proprio quello. Altrimenti, scegli l'opzione "Create a new branch" per crearne uno nuovo.
+- Se questo **non** è il tuo primo contributo, GitHub ti chiederà di creare un nuovo branch. Non devi **mai** salvare un commit direttamente sul branch principale `dev`. Se hai gia effettuato dei commit su un branch di lavoro esistente, seleziona proprio quello. Altrimenti, scegli l'opzione "Create a new branch" per crearne uno nuovo.
 
 ![REVIEW](assets/fr/13.webp)
 
 
-- Accederai poi ad una pagina che riassume tutte le modifiche apportate. Scorrendo giù, potrai vedere con maggiore dettaglio ciò che hai cambiato: le voci eliminate appaiono in rosso, mentre quelle aggiunte in verde.
+- Accederai poi ad una pagina che riassume tutte le modifiche apportate. Scorrendo giù, potrai vedere con maggiore dettaglio ciò che hai cambiato: le voci eliminate appaiono in rosso, mentre quelle aggiunte saranno visualizzate in verde.
 
 ![REVIEW](assets/fr/09.webp)
 
@@ -127,19 +127,19 @@ NB. Ti consiglio di effettuare la revisione nella finestra `code`, con il conten
 ![REVIEW](assets/fr/10.webp)
 
 
-- A questo punto, accedi alla pagina per creare la PR: una Pull Request è una richiesta di integrazione di modifiche effettuate su un branch remoto, su un repository di un progetto. Tramite la PR, questi cambiamenti vengono revisionati ed eventualmente approvati dagli admin del progetto principale.
-- Aggiungi un titolo e una breve descrizione alla tua PR. Il primo deve corrispondere alla issue su cui si sta lavorando. Ad esempio, se il titolo della issue è `[TRANSLATION] Course CYP201 - FR`, usa lo stesso titolo per la tua PR (cfr. **A**). Nella descrizione, inserisci il numero della `issue` associata, preceduto da "Closes #". In questo modo, la issue verrà chiusa automaticamente una volta che la PR sarà accettata e integrata (cfr. **B**).
+- A questo punto, accedi alla pagina per creare la PR: una Pull Request è una richiesta di integrazione delle modifiche effettuate su un branch remoto, all'interno di un repository di un progetto. Tramite la PR, questi cambiamenti vengono revisionati ed eventualmente approvati dagli admin del progetto principale.
+- Aggiungi un titolo e una breve descrizione alla tua PR. Il primo deve corrispondere alla issue su cui si sta lavorando. Ad esempio, se il titolo della issue è `[PROOFREADING] Course CYP201 - FR`, usa lo stesso titolo per la tua PR (cfr. **A**). Nella descrizione, inserisci il numero della `issue` associata, preceduto da "Closes #". In questo modo, la issue verrà chiusa automaticamente una volta che la PR sarà accettata e integrata (cfr. **B**).
 - Se tutto ti sembra a posto, clicca sul pulsante verde "Create Pull Request" (cfr. **C**).
 
 ![REVIEW](assets/fr/11.webp)
 
-6. Regole da seguire durante il proofreading dei contenuti
+## 6. Regole da seguire durante il proofreading dei contenuti
 
-Per saperne di più sulle linee guida che riguardano il proofreading dei contenuti, consulta questo tutorial:
+Per sapere di più sulle linee guida da seguire quando si fa proofreading, consulta questo tutorial:
 
 https://planb.network/tutorials/contribution/content/proofreading-guidelines-52348db0-8cd0-4658-9de4-0e8c25bea1a0
 
-7. In attesa di revisione
+## 7. In attesa di revisione
 
 - Congratulazioni, la tua PR è stata inviata! puoi seguirne l'avanzamento nella sezione "Pull requests" del [repository GitHub di Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/pulls):
 
@@ -147,10 +147,10 @@ https://planb.network/tutorials/contribution/content/proofreading-guidelines-523
 
 
 - Grazie mille per il tuo aiuto! Dopo l'approvazione, un coordinatore del repo di Plan ₿ Network ti contatterà per inviati la tua ricompensa. \**I pagamenti vengono effettuati esclusivamente tramite la rete Lightning\**.
-- Se vuoi fare una nuova revisione di bozze, torna al punto 2 e invia un nuovo messaggio nel gruppo Telegram. In questo modo potrai iniziare a lavorare su un altro contenuto. Assicurati di sincronizzare il tuo fork prima di creare un nuovo branch di lavoro. Per farlo, vai nella homepage del tuo fork, seleziona il branch principale chiamato `dev` (cfr. **A**), quindi clicca sul pulsante "Sync fork" (cfr. **B**). Se sono disponibili aggiornamenti per il tuo fork, apparirà un pulsante "Update branch". Ti basterà cliccarlo per eseguire l'aggiornamento.
+- Se vuoi effettuare una nuova revisione, torna al punto 2 e invia un nuovo messaggio sul gruppo Telegram. In questo modo, potrai iniziare a lavorare su un altro contenuto. Assicurati di sincronizzare il tuo fork prima di creare un nuovo branch di lavoro. Per farlo, vai nella homepage del tuo fork, seleziona il branch principale chiamato `dev` (cfr. **A**), quindi clicca sul pulsante "Sync fork" (cfr. **B**). Se sono disponibili aggiornamenti per il tuo fork, apparirà un pulsante "Update branch". Ti basterà cliccarlo per eseguire l'aggiornamento.
 
 ![REVIEW](assets/fr/16.webp)
 
 
-- Se hai osservazioni, domande o commenti su questo progetto, sentiti libero di inviare un DM [al gruppo Telegram dei collaboratori](https://t.me/PlanBNetwork_ContentBuilder).
+- Se hai osservazioni, domande o commenti su questo progetto, sentiti libero di inviare un DM [al gruppo Telegram dei contributors](https://t.me/PlanBNetwork_ContentBuilder).
 

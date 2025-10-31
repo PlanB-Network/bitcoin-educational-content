@@ -1065,7 +1065,7 @@ Kipima muda cha address ya ununuzi kimewekwa kuwa dakika 15 kwa chaguo-msingi. K
 
 #### Fikiria Address ya ununuzi iliyolipwa hata kama kiasi kilicholipwa ni X% chini ya ilivyotarajiwa?
 
-Wakati mteja anatumia  wallet la kubadilishana kulipa moja kwa moja kwa Address ya ununuzi, Ubadilishanaji unachukua ada ndogo. Hii ina maana kwamba Address ya ununuzi kama hiyo haizingatiwi kukamilika kikamilifu. Address ya ununuzi inapata hali ya "kulipwa kwa sehemu". Unaweza kuweka kiwango cha asilimia hapa ikiwa mfanyabiashara anataka kukubali invoice ambazo hazilipiwi kidogo.
+Wakati mteja anatumia  wallet la kubadilishana kulipa moja kwa moja kwa Address ya ununuzi, Exchange inachukua ada ndogo. Hii ina maana kwamba Address ya ununuzi kama hiyo haizingatiwi kukamilika kikamilifu. Address ya ununuzi inapata hali ya "kulipwa kwa sehemu". Unaweza kuweka kiwango cha asilimia hapa ikiwa mfanyabiashara anataka kukubali invoice ambazo hazilipiwi kidogo.
 
 ### Viwango
 
@@ -1160,7 +1160,7 @@ Huenda mmiliki wa duka asipate majukumu ya kawaida ya mtumiaji muhimu vya kutosh
 
 
 - Rekebisha maduka yako.
-- Dhibiti akaunti za Ubadilishanaji zilizounganishwa na maduka yako.
+- Dhibiti akaunti za Exchange zilizounganishwa na maduka yako.
   - Tazama akaunti za  exchange zilizounganishwa kwenye maduka yako.
 - Dhibiti malipo yako ya kuvuta.
 - Unda malipo ya kuvuta.

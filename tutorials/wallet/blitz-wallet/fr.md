@@ -12,7 +12,7 @@ Blitz Wallet est un portefeuille Bitcoin self-custody (d'auto détention) dont l
 
 [Blitz Wallet](https://blitz-wallet.com/) est un portefeuille mobile disponible sur Android (Play Store) et iOS (App Store).
 
-⚠️**IMPORTANT** : Télécharger un portefeuille Bitcoin sur une plateforme officielle est importante pour vérifier l'authenticité de l'application et par extension, renforcer la sécurité de vos fonds.
+⚠️**IMPORTANT** : Télécharger un portefeuille Bitcoin sur une plateforme officielle est important pour vérifier l'authenticité de l'application et par extension, renforcer la sécurité de vos fonds.
 
 Dans ce tutoriel, nous nous baserons sur la version Android de Blitz Wallet mais tous les processus qui seront présentés ci-dessous sont également valable sur iOS.
 
@@ -29,7 +29,7 @@ https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 Pas vos clés, pas vos bitcoins.
 
 
-Créez ensuite une code PIN pour authentifier l'accès à votre portefeuille.
+Créez ensuite un code PIN pour authentifier l'accès à votre portefeuille.
 
 ![setup-wallet](assets/fr/02.webp)
 
@@ -83,7 +83,7 @@ Le montant minimal pour effectuer un envoi de bitcoin dans Blitz Wallet est actu
 
 En dehors des opérations de transferts de bitcoins, Blitz Wallet vous met à disposition un magasin dans lequel vous pouvez utiliser vos bitcoins pour payer des services numériques.
 
-- **Accédez à des services IA**: Utilisez les modèles d'intelligence artificielle générative telles que : Claude 3-5 sonnet, gpt-4o, gpt-4o-mini gemini-flash-1.5 et payez directement en bitcoins.
+- **Accédez à des services IA**: Utilisez les modèles d'intelligence artificielle générative telles que : Claude 3-5 sonnet, gpt-4o, gpt-4o-mini, gemini-flash-1.5 et payez directement en bitcoins.
 
 ![ia-credits](assets/fr/06.webp)
 

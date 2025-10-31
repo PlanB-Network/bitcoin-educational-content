@@ -317,7 +317,7 @@ Dans le prochain chapitre, nous approfondirons le concept de préférence tempor
 
 ### Préférence Temporelle
 
-Nous avons conclu le dernier chapitre en expliquant comment les agents économiques utilisent le bien le plus vendable, c'est-à-dire l'argent, pour lutter contre l'incertitude future. Nous avons également expliqué que la nature séquentielle des phénomènes temporels nous amène à lutter contre l'incertitude progressivement : seulement lorsque nous savons que notre subsistance sera assurée pour la semaine prochaine, pouvons-nous nous concentrer sur des objectifs plus éloignés dans le futur.
+Nous avons conclu le dernier chapitre en expliquant comment les agents économiques utilisent le bien le plus vendable, c'est-à-dire l'argent, pour lutter contre l'incertitude future. Nous avons également expliqué que la nature séquentielle des phénomènes temporels nous amène à lutter contre l'incertitude progressivement : seulement lorsque nous savons que notre subsistance sera assurée pour la semaine prochaine, nous pouvons nous concentrer sur des objectifs plus éloignés dans le futur.
 
 Ou, pour le dire autrement : en tant qu'être humain, nous déprécions la valeur des biens futurs.
 
@@ -371,7 +371,7 @@ En agissant de cette manière, Robinson emprunte un détour de production : au l
 
 ### Conclusion
 
-En d'autres termes, dans l'économie d'une seule personne de Robinson Crusoé, l'épargne par le sacrifice de la satisfaction présente est ce qui accumule le capital qui augmente la productivité. Dans ce contexte, l'épargne, c'est-à-dire le report de la satisfaction présente, est le prix à payer pour une satisfaction future accrue. Cela signifie que, dans ce contexte, l'épargne est la condition préalable et nécessaire à tout développement économique.
+En d'autres termes, dans l'économie d'une seule personne de Robinson Crusoé, l'épargne par le sacrifice de la satisfaction présente est ce qui permet l'accumulation de capital qui augmente la productivité. Dans ce contexte, l'épargne, c'est-à-dire le report de la satisfaction présente, est le prix à payer pour une satisfaction future accrue. Cela signifie que, dans ce contexte, l'épargne est la condition préalable et nécessaire à tout développement économique.
 
 C'est un concept tentant, bien que simple : toute extension de la structure de production nécessite des économies préalables (car les biens nécessaires à une telle production ne tombent pas du ciel), et donc, plus nous épargnons, plus nous pourrons accumuler de capital, ce qui se traduira à son tour par des gains de productivité générant plus de biens. Ainsi, les économistes autrichiens considèrent que la réduction des préférences temporelles est le point de départ d'un cercle vertueux d'épargne -> plus de biens capitaux -> plus de productivité -> plus de biens = niveau de vie plus élevé -> préférence temporelle plus faible.
 

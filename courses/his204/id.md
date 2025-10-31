@@ -643,45 +643,29 @@ Penentang keras perbudakan, kaum Fisiokrat juga adalah pecinta damai yang hebat.
 
 <chapterId>5b911105-796a-5e2e-a501-c7a364fc758e</chapterId>
 
-Seperti yang kita lihat di bab pertama dari tiga bab yang membahas tentang kaum Fisiokrat, para pengikut Quesnay sangat populer di Prancis selama sekitar satu dekade. Antusiasme terhadap ide-ide mereka terbentuk pada masanya dan terus berlanjut hingga akhir abad ini. Di sini, kita akan melihat beberapa pencapaian mereka dan pengaruh yang mereka berikan kepada para penerus mereka di bidang pemikiran ekonomi.
+Seperti yang kita lihat dalam bab pertama dari tiga bab yang dikhususkan untuk Kaum Fisiokrat, para pengikut Quesnay sangat populer di Prancis selama kurang lebih satu dekade. Antusiasme terhadap ide-ide mereka terwujud baik pada masa mereka dan berlanjut hingga akhir abad ini. Di sini, kita akan melihat beberapa pencapaian mereka dan pengaruh yang mereka berikan pada penerus mereka di bidang pemikiran ekonomi.
 
+Pencapaian terbesar mereka, mengikuti kelompok Gournay, adalah mempopulerkan ide-ide ekonomi. Pepatah Voltaire yang terkenal sangat terkenal: sekitar tahun 1750, bangsa ini, yang sudah kenyang dengan puisi dan novel, mulai berpikir tentang gandum. Kaum Fisiokrat mengambil bagian dalam gerakan ini, menerbitkan ratusan artikel, pamflet, dan buku tentang kebebasan perdagangan gandum. Momentum kuat yang diberikan oleh kaum Fisiokrat terhadap diskusi ekonomi juga terlihat dari banyaknya karya dan pamflet ekonomi yang diterbitkan di Prancis dari tahun 1760 hingga 1775. Sebagai bukti lebih lanjut dari penyebaran ide-ide ekonomi di Prancis, kita dapat mengingat kembali pernyataan M. de Vaublanc, yang dikutip dalam kuliah sebelumnya, yang mengatakan di Metz pada tahun 1774 bahwa orang-orang tidak membicarakan apa pun kecuali ekonomi. "Itu adalah trend", katanya. "Semua orang adalah seorang ekonom".
 
-Pencapaian terbesar mereka, mengikuti kelompok Gournay, adalah mempopulerkan ide-ide ekonomi. Pepatah Voltaire yang terkenal sangat terkenal: sekitar tahun 1750, bangsa ini, yang sudah kenyang dengan puisi dan novel, mulai berpikir tentang biji-bijian. Kaum Fisiokrat mengambil bagian dalam gerakan ini, menerbitkan ratusan artikel, pamflet, dan buku tentang kebebasan perdagangan biji-bijian. Momentum kuat yang diberikan oleh kaum Fisiokrat terhadap diskusi ekonomi juga terlihat dari banyaknya karya dan pamflet ekonomi yang diterbitkan di Prancis dari tahun 1760 hingga 1775. Sebagai bukti lebih lanjut dari penyebaran ide-ide ekonomi di Prancis, kita dapat mengingat kembali pernyataan M. de Vaublanc, yang dikutip dalam kuliah sebelumnya, yang mengatakan di Metz pada tahun 1774 bahwa orang-orang tidak membicarakan apa pun kecuali ekonomi. "Itu adalah mode", katanya. "Semua orang adalah seorang ekonom".
-
-
-Pembelaan terhadap ide-ide mereka, dalam buku-buku, pamflet, dan dalam jurnal mereka *Les Éphémérides du Citoyen*, dengan cepat berdampak pada kebijakan ekonomi Prancis. Pada tahun 1763, sebuah dekrit memberikan kebebasan dalam perdagangan biji-bijian, yang sangat dituntut oleh Quesnay dan Mirabeau. Dalam beberapa kesempatan, pihak berwenang juga melonggarkan peraturan yang mengatur serikat pekerja untuk menjamin kebebasan yang lebih besar untuk bekerja.
-
+Pembelaan terhadap ide-ide mereka, dalam buku, pamflet, dan di jurnal mereka _Les Éphémérides du Citoyen_, dengan cepat memiliki dampak dalam kebijakan ekonomi Prancis. Pada tahun 1763, sebuah dekret memberikan kebebasan perdagangan gandum, yang telah dituntut keras oleh Quesnay dan Mirabeau. Pada beberapa kesempatan, pihak berwenang juga melonggarkan regulasi yang mengatur gilda perdagangan untuk menjamin kebebasan yang lebih besar untuk bekerja.
 
 Di luar negeri, kesuksesan datang sangat awal. Di Jerman, Margrave dari Baden menaruh minat pada ide-ide fisiokratis dan mempertahankan korespondensi rutin dengan Mirabeau dan Dupont de Nemours.
 
-
 ![image](assets/id/058.webp)
 
+Ia menugaskan ekonom Johann August Schlettwein, seorang fisiokrat yang meyakinkan, untuk menerapkan reformasi pajak dan meliberalisasi perdagangan gandum. Pada bulan April 1770, percobaan pertama berlangsung di desa kecil Dietlingen. Penduduk desa tampaknya menyambut langkah-langkah itu dengan antusias, tetapi para pejabat yang bertugas tidak terlalu mendukung, yang menunda implementasi yang lebih luas.
 
-Ia menugaskan ekonom Johann August Schlettwein, seorang fisiokrat yang yakin, untuk mengimplementasikan reformasi pajak dan meliberalisasi perdagangan biji-bijian. Pada bulan April 1770, uji coba pertama dilakukan di desa kecil Dietlingen. Para penduduk desa tampaknya menyambut dengan antusias, tetapi para pejabat yang bertanggung jawab tidak terlalu mendukung, sehingga menunda implementasi yang lebih luas.
-
-
-Di Rusia, Catherine II sedang mempersiapkan reformasi legislatif dan meminta Diderot untuk mengirimkan seorang pemikir brilian untuk membantunya.
-
+Di Rusia, Catherine II sedang mempersiapkan reformasi legislatif dan meminta Diderot untuk mengiriminya seorang pemikir brilian untuk membantunya.
 
 ![image](assets/id/059.webp)
 
+Terkesan dengan pembacaan [The Natural and Essential Order of Political Societies](https://archive.org/details/lordrenaturelete00mercuoft), yang diterbitkan pada tahun 1767, Diderot mengirim penulisnya, sang fisiokrat Mercier de la Rivière, kepadanya.
 
-Terkesan oleh bacaan [*Tatanan Alamiah dan Esensial Masyarakat Politik*] (https://archive.org/details/lordrenaturelete00mercuoft), yang diterbitkan pada tahun 1767, ia mengiriminya penulisnya, seorang fisiokrat Mercier de la Rivière.
+Meskipun ia meninggalkan Prancis dengan dirayakan, namun penyambutannya di Saint Petersburg berlangsung dingin (terlepas dari iklimnya), dan Permaisuri kecewa dengannya.
 
+Di Swedia, dengan Gustav III, dan di Italia, dengan Leopold dari Tuscany, Kaum Fisiokrat juga menemukan pengikut yang siap mempraktikkan ide-ide mereka.
 
-
-
-
-
-Meskipun ia meninggalkan Prancis dengan penuh perayaan, namun penyambutannya di Saint Petersburg berlangsung dingin (selain iklim), dan Permaisuri merasa kecewa padanya.
-
-
-Di Swedia, dengan Gustav III, dan di Italia, dengan Leopold dari Tuscany, kaum Fisiokrat juga menemukan pengikut yang siap untuk mempraktikkan ide-ide mereka.
-
-
-Di Prancis, kaum Fisiokrat menikmati kesuksesan spektakuler dengan penunjukan Turgot sebagai Pengawas Keuangan pada tahun 1774.
-
+Di Prancis, Kaum Fisiokrat menikmati kesuksesan spektakuler dengan penunjukan Turgot sebagai Pengawas Jenderal Keuangan (Controller-General of Finances) pada tahun 1774.
 
 ![image](assets/id/060.webp)
 

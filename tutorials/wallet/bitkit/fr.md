@@ -101,7 +101,7 @@ Lancez BitKit, acceptez les conditions d'utilisation et appuyez sur Continuer.
 Appuyez sur Démarrer pour lancer le processus d'intégration.
 
 
-Ignorez la restauration de la Wallet pour l'instant ; nous allons créer une nouvelle Wallet.
+Ignorez la restauration du Wallet pour l'instant ; nous allons créer un nouveau Wallet.
 
 
 ### 3. Sauvegarde de votre Wallet seed
@@ -119,7 +119,7 @@ Notez les douze mots sur papier et conservez-les hors ligne dans un endroit sûr
 Confirmez les mots lorsque cela vous est demandé, puis appuyez sur Enregistrer.
 
 
-Avertissement : Si vous perdez le seed, vous perdez vos pièces. Il n'y a pas de bouton de réinitialisation.
+Avertissement : Si vous perdez la seed, vous perdez vos pièces. Il n'y a pas de bouton de réinitialisation.
 
 
 ### 4. Comptes d'épargne et comptes de dépenses
@@ -149,10 +149,10 @@ Vous pouvez passer de l'un à l'autre à l'aide de l'onglet situé en haut de l'
 Sélectionnez les économies.
 
 
-Tapez sur Recevoir pour generate une nouvelle Bitcoin Address.
+Tapez sur Recevoir pour générer une nouvelle adresse Bitcoin.
 
 
-Partagez le code QR ou copiez le Address à l'expéditeur.
+Partagez le code QR ou copiez l'addresse à l'expéditeur.
 
 
 Les fonds apparaîtront après une confirmation. Des confettis célébreront l'arrivée.
@@ -170,17 +170,17 @@ Saisissez un montant (par exemple, 10 000 Sats) et appuyez sur Continuer.
 BitKit évaluera les frais d'ouverture d'un canal (exigence de liquidité).
 
 
-Tapez sur Continuer jusqu'à generate a Éclair Invoice.
+Tapez sur Continuer jusqu'à générer une facture Lightning.
 
 
-Laissez l'expéditeur scanner ou coller le Invoice. Les fonds sont versés en quelques secondes.
+Laissez l'expéditeur scanner ou coller la facture. Les fonds sont versés en quelques secondes.
 
 
 
 ### 7. Envoyer un paiement éclair
 
 
-Appuyez sur l'icône Numériser, numérisez un Lightning Invoice ou collez-le.
+Appuyez sur l'icône Numériser, numérisez une Lightning Invoice ou collez-la.
 
 
 Saisissez le montant si nécessaire, puis appuyez sur Continuer.

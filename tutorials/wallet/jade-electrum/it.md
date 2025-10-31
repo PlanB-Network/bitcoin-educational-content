@@ -1,5 +1,5 @@
 ---
-name: Jade, Jade Plus con Electrum
+name: Jade con Electrum
 description: Come usare il tuo Jade o Jade Plus con Electrum (desktop)
 ---
 

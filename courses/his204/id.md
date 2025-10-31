@@ -432,7 +432,7 @@ Berkat bakat dan tempatnya dalam sejarah Prancis, ia membayangi ayahnya, seorang
 
 ![image](assets/id/038.webp)
 
-Sebenarnya, Marquis de Mirabeau telah mencapai ketenaran luar biasa bahkan sebelum ia menganut Fisiokrasi, berkat sebuah buku berjudul "Sahabat Umat Manusia. Risalah tentang Populasi" [FR: L'ami des hommes, ou, Traité de la population](https://archive.org/details/lamideshommesou00unkngoog). Meskipun edisi pertamanya diterbitkan pada tahun 1756, buku ini menjadi sangat terkenal sekitar tahun 1757, setahun sebelum pertemuannya dengan Quesnay.
+Sebenarnya, Marquis de Mirabeau telah mencapai ketenaran luar biasa bahkan sebelum ia menganut Fisiokrasi, berkat sebuah buku berjudul "Sahabat Umat Manusia. Makalah tentang Populasi" [FR: L'ami des hommes, ou, Traité de la population](https://archive.org/details/lamideshommesou00unkngoog). Meskipun edisi pertamanya diterbitkan pada tahun 1756, buku ini menjadi sangat terkenal sekitar tahun 1757, setahun sebelum pertemuannya dengan Quesnay.
 
 Lebih dari 20 edisi diterbitkan antara tahun 1757 dan 1760, yang menjadikannya kemungkinan sebagai buku ekonomi paling sukses dalam sejarah. Beberapa pembaca bahkan mengira buku itu ditulis oleh Montesquieu karena penalaran tajamnya. Dauphin (Putra Mahkota), ayah dari Raja Louis XVI, bahkan mengaku telah menghafalnya. Untuk sementara waktu, buku itu menjadi bacaan wajib semua orang di Versailles.
 
@@ -534,178 +534,114 @@ Buku ini mengumpulkan kontribusi utama Quesnay. Di dalamnya dipaparkan cita-cita
 
 <chapterId>4236ff8b-b53a-59e7-92c0-f96f9afa1c00</chapterId>
 
+Fisiokrasi menjadi populer di Prancis, bahkan di seluruh Eropa, hanya selama kurang lebih satu dekade. Setelah periode perkembangan yang panjang, doktrin ini mulai menonjol pada pertengahan tahun 1760-an. Saat Turgot berkuasa pada tahun 1776, gerakan ini telah kehilangan popularitasnya, dan menteri tersebut menyembunyikan dukungannya terhadap mazhab Quesnay.
 
-Fisiokrasi menjadi mode di Prancis, dan bahkan di seluruh Eropa, selama hampir satu dekade. Setelah periode perkembangan yang panjang, gerakan ini menjadi terkenal pada pertengahan tahun 1760-an. Pada saat Turgot berkuasa pada tahun 1776, gerakan ini telah kehilangan popularitasnya, dan sang menteri menyembunyikan dukungannya terhadap sekolah Quesnay.
-
-
-Asal-usulnya terletak pada evolusi ide-ide ekonomi selama tahun 1750-an. Beberapa penulis membantu menjembatani kesenjangan antara Boisguilbert dan apa yang kemudian dikenal sebagai Fisiokrasi. Seperti yang telah dibahas sebelumnya, Vincent de Gournay dan lingkaran ekonomnya berada di balik banyak publikasi yang memperkenalkan pembaca Prancis pada pemikiran ekonomi asing dan membantu menyalakan gairah mereka terhadap ekonomi. Dasar-dasar Fisiokrasi sudah ada dalam buku-buku seperti "Détail de la France" oleh Boisguilbert dan ["Essay on the Nature of Trade in General"] (https://archive.org/details/essaisurlanature0000cant) oleh Cantillon.
-
+Asal-usul Fisiokrasi terletak pada evolusi ide-ide ekonomi selama tahun 1750-an. Beberapa penulis membantu menjembatani kesenjangan antara Boisguilbert dan apa yang kemudian dikenal sebagai Fisiokrasi. Seperti yang telah dibahas sebelumnya, Vincent de Gournay dan kelompok ekonomnya berada di balik banyak publikasi yang memperkenalkan pembaca Prancis pada pemikiran ekonomi asing dan membantu memicu minat mereka terhadap ilmu ekonomi. Fondasi Fisiokrasi sudah ada dalam buku-buku seperti "Détail de la France" karya Boisguilbert dan ["Essay on the Nature of Trade in General"](https://archive.org/details/essaisurlanature0000cant) karya Cantillon.
 
 ![image](assets/id/047.webp)
 
+Konsep laissez-faire telah memiliki beberapa pendukung sejak Boisguilbert, terutama Vincent de Gournay dan Marquis d'Argenson.
 
+Yang tersisa adalah mengubah kumpulan ide ini menjadi doktrin yang koheren dan lengkap, dan Marquis de Mirabeau adalah yang pertama mencoba. Terinspirasi oleh Esai Cantillon, ia mulai menulis makalah komprehensif tentang masalah ekonomi berjudul "L'Ami des Hommes", yang sangat sukses.
 
-
-
-Konsep laissez-faire memiliki beberapa pendukung sejak Boisguilbert, terutama Vincent de Gournay dan Marquis d'Argenson.
-
-
-Yang tersisa adalah mengubah kumpulan ide ini menjadi sebuah doktrin yang koheren dan lengkap, dan Marquis de Mirabeau adalah orang pertama yang mencobanya. Terinspirasi oleh Esai Cantillon, ia mulai menulis risalah komprehensif tentang masalah ekonomi berjudul "L'Ami des Hommes", yang sangat sukses.
-
-
-Dengan demikian, pada tahun 1756, kisah Fisiokrasi dapat dimulai. François Quesnay, yang saat itu adalah seorang ahli bedah yang menjadi dokter pribadi Madame de Pompadour, mengundang Mirabeau ke Versailles untuk mendiskusikan ide-ide ekonomi.
-
+Dengan demikian, pada tahun 1756, kisah Fisiokrasi dapat dimulai. François Quesnay, yang saat itu adalah seorang ahli bedah yang beralih menjadi dokter pribadi Madame de Pompadour, mengundang Mirabeau ke Versailles untuk mendiskusikan ide-ide ekonomi.
 
 ![image](assets/id/048.webp)
 
+Di akhir percakapan mereka, Mirabeau setuju dengan ide-ide Quesnay. Sejak saat itu, mereka pun mulai menulis: Quesnay menciptakan _Tableau Économique_ (1758) untuk mengilustrasikan aliran kekayaan dalam ekonomi, dan bersama-sama mereka menerbitkan Theory of Taxation / Teori Perpajakan (1759).
 
-Pada akhir percakapan mereka, Mirabeau setuju dengan ide Quesnay. Sejak saat itu, mereka menulis: Quesnay menciptakan *Tableau économique* (1758) untuk mengilustrasikan aliran kekayaan dalam perekonomian, dan bersama-sama mereka menerbitkan Teori Perpajakan (1759).
-
-
-
-
-
-
-
-
-
-Upaya mereka tidak disambut dengan baik. Di istana, reaksi yang muncul adalah ketidakpedulian. Raja mengakui kecenderungan Quesnay terhadap teori dan dengan penuh kasih sayang memanggilnya "pemikir saya". Namun, terlepas dari pujian tersebut, pekerjaan mereka tidak membuahkan hasil. Bahkan, Teori Perpajakan mereka menyinggung para administrator pajak yang dikritiknya, sehingga mereka menuntut dan mengamankan pemenjaraan Mirabeau. Madame de Pompadour akhirnya membebaskannya, namun ia tetap tinggal di pengasingan di tanah miliknya di Bignon selama beberapa minggu.
-
-
+Upaya mereka tidak disambut baik. Di istana, reaksi yang berlaku adalah ketidakpedulian. Raja mengakui kecenderungan Quesnay terhadap teori dan dengan penuh kasih memanggilnya "pikiran saya" (mon penseur). Namun terlepas dari pujian itu, karya mereka tidak membuahkan hasil apa pun. Faktanya, Theory of Taxation / Teori Perpajakan mereka menyinggung administrator pajak yang dikritiknya, sedemikian rupa sehingga mereka menuntut dan berhasil memenjarakan Mirabeau. Madame de Pompadour akhirnya membebaskannya, tetapi ia tetap diasingkan di perkebunannya di Bignon selama beberapa minggu.
 
 ![image](assets/id/049.webp)
 
+Paruh pertama tahun 1760-an berlalu relatif dalam keheningan . Karena posisinya di Versailles, Quesnay terpaksa berhenti menulis, atau setidaknya tidak menerbitkan apa pun atas namanya sendiri. Mirabeau, yang sudah dihukum sekali, telah diperingatkan dan sangat sadar bahwa selir Raja tidak dapat melindunginya selamanya.
 
-Paruh pertama tahun 1760-an berlalu dalam keheningan yang relatif. Karena posisinya di Versailles, Quesnay terpaksa berhenti menulis, atau setidaknya tidak menerbitkan apa pun atas namanya sendiri. Mirabeau, yang telah dikutuk sekali, telah diperingatkan dan sangat menyadari bahwa kesayangan raja tidak dapat melindunginya selamanya.
-
-
-
-Setelah keheningan singkat ini, kedua ekonom ini mulai merekrut murid: ini adalah satu-satunya cara untuk mempopulerkan ide-ide mereka. Pada tahun 1765, keberhasilan mereka sangat mencolok. Dupont de Nemours, Abeille, Mercier de la Rivière, Le Trosne, dan Baudeau dengan cepat bergabung dengan barisan mereka. Mereka membentuk sebuah sekolah: mereka memiliki jurnal mereka sendiri, *Les Éphémérides du Citoyen*, dan bahkan bertemu setiap hari Selasa di rumah Mirabeau.
-
+Setelah keheningan singkat ini, kedua ekonom tersebut mulai merekrut murid: ini adalah satu-satunya cara untuk mempopulerkan ide-ide mereka. Pada tahun 1765, kesuksesan mereka sangat mencolok. Dupont de Nemours, Abeille, Mercier de la Rivière, Le Trosne, dan Baudeau dengan cepat bergabung dalam barisan mereka. Mereka membentuk sebuah mazhab: mereka memiliki jurnal sendiri, Les Éphémérides du Citoyen, dan bahkan bertemu setiap hari Selasa di rumah Mirabeau.
 
 ![image](assets/id/050.webp)
 
+Antara tahun 1765 dan 1775, kelompok Fisiokrat yang bersatu berada di puncak ketenaran mereka. Dunia sastra dan filosofis hanya tertuju pada mereka, memungkinkan ide-ide mereka menyebar secara luas dan cepat. Orang-orang menyebut mereka "para ekonom," atau, lebih tepatnya, "sekte para ekonom." Terlepas dari nadanya, ketenaran mereka benar-benar mutlak. Pada tahun 1774, setelah perjalanan ke Metz, M. de Vaublanc menulis keheranannya dalam memoarnya: semua orang di sekitarnya membicarakan ekonomi dan bernalar seperti murid-murid Quesnay. "Itu sedang trend," catatnya. "Setiap orang adalah seorang ekonom."
 
-Antara tahun 1765 dan 1775, kelompok Fisiokrat yang bersatu berada di puncak ketenaran mereka. Dunia sastra dan filsafat hanya melirik mereka, sehingga ide-ide mereka menyebar secara luas dan cepat. Orang-orang menyebut mereka "para ekonom", atau, lebih tepatnya, "sekte ekonom". Terlepas dari nada yang digunakan, ketenaran mereka adalah mutlak. Pada tahun 1774, setelah melakukan perjalanan ke Metz, M. de Vaublanc menulis keheranannya dalam memoarnya: semua orang di sekelilingnya berbicara tentang ekonomi dan penalaran seperti para murid Quesnay. "Itu sangat modis", katanya. "Semua orang adalah seorang ekonom".
-
-
-Namun, pada tahun 1770, popularitas mereka mulai berkurang. Kelompok ini mengalami pembelotan pertamanya, dan kemampuan mereka untuk bertahan dari kritik melemah. Dan para pengkritiknya pun banyak, Condillac, Mably, Voltaire, Galiani, Linguet, Graslin, dan bahkan Adam Smith di Skotlandia, semuanya menentang pandangan mereka.
-
+Namun, pada tahun 1770, popularitas mereka mulai berkurang. Kelompok itu mengalami pembelotan pertamanya, dan kemampuan mereka untuk menahan kritik melemah. Dan para pengkritiknya pun banyak, seperti Condillac, Mably, Voltaire, Galiani, Linguet, Graslin, dan bahkan Adam Smith di Skotlandia, semuanya menantang pandangan mereka.
 
 ![image](assets/id/051.webp)
 
-
 Surat kabar mereka tidak lagi terbit secara teratur. Hal ini menandai berakhirnya periode paling aktif dari gerakan ini.
 
-
-Fisiokrasi akan terus memberikan pengaruh hingga Revolusi. Di Prancis, pertama-tama melalui Turgot, yang lebih merupakan rekan seperjalanan daripada murid, serta melalui perwakilannya Dupont de Nemours, yang kehidupan dan karyanya akan kita pelajari nanti. Tetapi juga di seluruh Eropa, di mana doktrin fisiokratis diterima dengan antusias. Di Jerman, melalui Margrave dari Baden, dan di Italia, melalui Leopold dari Tuscany, teori-teori fisiokratis bahkan mengilhami reformasi ekonomi yang mendukung kepemilikan pribadi dan kebebasan.
-
-
+Fisiokrasi terus memberikan pengaruh hingga Revolusi. Di Prancis, pertama melalui Turgot, yang lebih merupakan teman seperjalanan daripada murid, serta melalui perwakilannya Dupont de Nemours, yang kehidupan dan karyanya akan kita pelajari nanti. Tetapi juga di seluruh Eropa, di mana doktrin fisiokratik diterima dengan antusias. Di Jerman, melalui Margrave of Baden, dan di Italia, melalui Leopold dari Tuscany, teori-teori fisiokratik bahkan menginspirasi reformasi ekonomi yang mendukung properti pribadi dan kebebasan.
 
 ## Dasar-dasar doktrin Fisiokrat
 
-
 <chapterId>4dbe5436-0578-57c2-b054-03ed00aa091a</chapterId>
 
-Istilah Fisiokrasi, yang berarti "pemerintahan secara alamiah", diciptakan oleh Dupont de Nemours dan digunakan sebagai judul untuk *Physiocracy*, kumpulan artikel oleh Quesnay yang diterbitkan pada tahun 1768.
+Istilah Fisiokrasi, yang berarti "pemerintahan secara alamiah," diciptakan oleh Dupont de Nemours dan digunakan sebagai judul untuk _Physiocracy_, kumpulan artikel oleh Quesnay yang diterbitkan pada tahun 1768.
 
-
+Teks asli menyatakan frasa ini tidak jelas dan tidak ada murid Quesnay yang memberikan makna sebenarnya. Meskipun demikian, sistem pemikiran mereka jauh dari tidak jelas dan dibangun di atas beberapa prinsip yang sangat jelas, yang akan kami uraikan di sini.
 
 ![image](assets/id/052.webp)
 
-
-Ini adalah frasa yang tidak jelas. Tidak ada murid Quesnay yang memberi tahu kami arti sebenarnya. Namun demikian, sistem pemikiran mereka jauh dari tidak jelas. Bahkan, sistem ini dibangun di atas beberapa prinsip yang sangat jelas, yang akan kami uraikan di sini.
-
-
-
 ### Prinsip pertama: hanya pertanian yang produktif
 
+Gagasan pertama inilah yang paling menarik perhatian sejarawan. Saat ini, di buku teks atau kursus ekonomi, Fisiokrat didefinisikan demikian: mereka diyakini secara naif percaya bahwa hanya pertanian yang produktif. Atas dasar itu, doktrin mereka sering diabaikan sebagai tidak relevan, dan analisis dengan cepat beralih ke Adam Smith.
 
-
-Gagasan pertama ini adalah gagasan yang menarik perhatian para sejarawan. Saat ini, dalam buku-buku teks atau kursus ekonomi, begitulah cara kaum Fisiokrat diringkas. Mereka dikatakan secara naif percaya bahwa hanya pertanian yang produktif. Atas dasar itu, doktrin mereka dianggap tidak relevan, dan analisis dengan cepat beralih ke Adam Smith.
-
-
-Namun, tidak adil untuk mengkritik kaum Fisiokrat karena menempatkan kepentingan yang tidak proporsional pada pertanian, karena pada pertengahan abad ke-18, pertanian mempekerjakan 90% populasi dan membentuk fondasi ekonomi Prancis.
-
-
+Namun, tidak adil mengkritik Fisiokrat karena terlalu mementingkan pertanian, mengingat pada pertengahan abad ke-18, pertanian mempekerjakan 90% populasi dan membentuk fondasi ekonomi Prancis.
 
 ![image](assets/id/053.webp)
 
+Gagasan kaum Fisiokrat sebenarnya halus. Menurut mereka, ada perbedaan antara produksi dan keuntungan (gain). Industrialis dan pedagang mungkin mendapatkan keuntungan, tetapi hanya petani yang benar-benar memproduksi, karena produksi adalah penciptaan materi yang berguna, dan bukan sekadar penambahan utilitas pada materi yang sudah ada sebelumnya.
 
-Ide kaum Fisiokrat sebenarnya tidak kentara. Menurut mereka, ada perbedaan antara produksi dan keuntungan. Industrialis dan pedagang dapat memperoleh keuntungan, tetapi hanya petani yang benar-benar berproduksi, karena produksi adalah penciptaan materi yang berguna, bukan penambahan kegunaan pada materi yang sudah ada.
-
-
-Kita juga harus mencoba memahami mengapa mereka menolak industri dan kerajinan tangan sebagai sesuatu yang tidak produktif. Pada saat itu, perdagangan ini terkunci dalam sistem serikat pekerja, yang melarang inovasi, investasi, dan kemajuan.
-
+Kita juga harus mencoba memahami mengapa mereka menolak industri dan kerajinan sebagai tidak produktif. Pada saat itu, perdagangan ini terkunci dalam sistem gilda, yang melarang inovasi, investasi, dan kemajuan.
 
 ### Prinsip kedua: despotisme hukum dan bukan demokrasi
 
-
-Saat ini, untuk menghina seseorang, kita mengatakan bahwa dia bukan seorang demokrat. Meskipun para sejarawan memaklumi pandangan ketat kaum Fisiokrat tentang produktivitas pertanian, mereka tidak memaafkan penentangan mereka terhadap demokrasi, terutama karena mereka hidup pada masa puncak ide-ide Pencerahan. Dari pertengahan abad ke-18 hingga sebelum Revolusi, kaum Fisiokrat dipandang sebagai musuh kemajuan.
-
+Saat ini, untuk menghina seseorang, kita mengatakan ia bukan seorang demokrat. Sementara sejarawan memaafkan pandangan Fisiokrat yang ketat tentang produktivitas pertanian, mereka tidak memaafkan penolakan mereka terhadap demokrasi, terutama karena mereka hidup selama puncak ide-ide Pencerahan. Dari pertengahan abad ke-18 hingga sebelum Revolusi, Kaum Fisiokrat dipandang sebagai musuh kemajuan.
 
 ![image](assets/id/054.webp)
 
+Tocqueville menekankan gagasan ini:
 
-Tocqueville bersikeras dengan ide ini:
+> Kaum Fisiokrat memang sangat mendukung perdagangan barang secara bebas, laissez-faire atau laissez-passer dalam perdagangan dan industri; tetapi untuk kebebasan politik yang sebenarnya, mereka tidak mempertimbangkannya, dan bahkan ketika ide-ide semacam itu kebetulan melintas di benak mereka, pada awalnya mereka menolaknya.
 
-
-> Kaum Fisiokrat memang sangat mendukung perdagangan barang secara bebas, laissez-faire atau laissez-passer dalam perdagangan dan industri; tetapi untuk kebebasan politik yang tepat, mereka tidak mempertimbangkannya, dan bahkan ketika ide-ide semacam itu terlintas dalam benak mereka, mereka pada awalnya menolaknya.
-
-Liberal dalam bidang ekonomi, namun kaum Fisiokrat tidak liberal dalam hal politik. Quesnay menulis dalam *maksim*-nya: "Biarkan otoritas yang berdaulat menjadi unik dan lebih unggul dari semua individu dalam masyarakat dan dari semua usaha yang tidak adil dari kepentingan pribadi." Dan kemudian, dalam pepatah yang sama: "Sistem checks and balances dalam pemerintahan adalah gagasan yang fatal, yang hanya mengungkapkan perselisihan di antara orang-orang besar dan penindasan terhadap orang-orang kecil".
-
+Liberal dalam ekonomi, kaum Fisiokrat karenanya tidak liberal dalam masalah politik. Quesnay menulis dalam _pepatah_-nya: "Biarkan otoritas kedaulatan menjadi unik dan lebih unggul daripada semua individu masyarakat dan daripada semua upaya tidak adil dari kepentingan pribadi." Dan kemudian, dalam pepatah yang sama: "Sistem kontrol dan keseimbangan (checks and balances) dalam pemerintahan adalah gagasan fatal, yang hanya mengungkapkan perselisihan di antara kaum bangsawan dan penindasan terhadap kaum kecil."
 
 ![image](assets/id/055.webp)
 
-
-Tocqueville dengan tepat mencatat bahwa kaum Fisiokrat menolak demokrasi segera setelah mereka melihat bentuknya. Mereka skeptis terhadap demokrasi, yang akan menjadi konstanta dalam ekonomi politik Prancis, karena demokrasi bukanlah sistem yang sempurna: demokrasi berpotensi memungkinkan penindasan terhadap minoritas oleh mayoritas, dan dapat menjadi alat perampasan, tirani, dan perampasan.
-
+Tocqueville dengan tepat mencatat bahwa kaum Fisiokrat menolak demokrasi segera setelah mereka melihat bentuknya. Mereka skeptis terhadap demokrasi, yang akan menjadi pedoman dalam ekonomi politik Prancis, karena demokrasi bukanlah sistem yang sempurna: demokrasi berpotensi memungkinkan penindasan terhadap minoritas oleh mayoritas, dan dapat menjadi alat perampasan, tirani, dan perampasan.
 
 ### Prinsip ketiga: penghormatan mutlak terhadap hak milik pribadi
 
 
 Kaum Fisiokrat percaya bahwa orang perlu memiliki dan menyimpan hasil kerja mereka. Dalam pandangan mereka, hak milik adalah fondasi utama dari sebuah masyarakat. Mereka berpikir bahwa Negara memiliki satu tugas utama: melindungi hak milik masyarakat. Lebih jauh lagi, dari sudut pandang ekonomi, kaum Fisiokrat menyatakan bahwa hak milik yang tidak dapat diganggu gugat mendorong kerja dan usaha dan merupakan syarat untuk kemajuan ekonomi.
 
+Kaum Fisiokrat percaya bahwa orang perlu memiliki dan mempertahankan hasil kerja mereka. Dalam pandangan mereka, hak milik adalah fondasi masyarakat itu sendiri. Mereka berpikir Negara memiliki satu tugas utama: melindungi properti rakyat. Lebih jauh lagi, ketidaklanggaran properti mendorong kerja dan upaya serta merupakan syarat untuk kemajuan ekonomi.
 
 ![image](assets/id/056.webp)
 
 
 Quesnay menjelaskannya secara sederhana:
 
-
-> Hendaklah Ownership tanah dan kekayaan bergerak terjamin bagi mereka yang menjadi pemiliknya yang sah, karena keamanan harta benda adalah fondasi penting dari tatanan ekonomi dan keamanan masyarakat; kepastian kepemilikan permanenlah yang mendorong tenaga kerja dan penggunaan kekayaan dalam meningkatkan dan mengolah tanah, serta dalam perusahaan komersial dan industri.
-
+> "Biarkan kepemilikan tanah dan kekayaan bergerak terjamin bagi mereka yang merupakan pemilik sahnya, karena keamanan properti adalah fondasi penting dari tatanan ekonomi dan keamanan masyarakat; kepastian kepemilikan permanen itulah yang mendorong pekerja dan penggunaan kekayaan dalam memperbaiki dan mengolah tanah, serta dalam usaha komersial dan industri."
 
 ### Prinsip keempat: kebebasan mutlak untuk berdagang
 
+Dalam _Maxims_ yang telah dikutip sebelumnya, Quesnay menyatakan:
 
-Dalam *Maxims* yang telah dikutip sebelumnya, Quesnay menyatakan:
-
-
-> Hendaknya ada kebebasan penuh dalam perdagangan, karena peraturan yang paling dapat diandalkan, tepat, dan bermanfaat bagi perdagangan dalam dan luar negeri bagi bangsa dan Negara terletak pada kebebasan penuh dalam persaingan.
-
+> "Biarkan ada kebebasan penuh dalam perdagangan, karena regulasi perdagangan domestik dan asing yang paling andal, tepat, dan bermanfaat bagi bangsa dan Negara terletak pada kebebasan persaingan yang penuh."
 
 ![image](assets/id/057.webp)
 
+Kaum Fisiokrat telah melihat kerusakan yang disebabkan oleh campur tangan pemerintah, terutama dalam perdagangan gandum. Mereka mengakui bahwa pemerintah tidak akan pernah bisa mengelola perdagangan sebaik yang dilakukan individu, karena pemerintah harus merespons setiap kebutuhan dan bereaksi terhadap setiap perubahan permintaan atau Supply. Semua ini jauh di luar kemampuan pemerintah yang paling bijaksana sekalipun.Oleh karena itu, perlu untuk membiarkan segala sesuatu terjadi dan mengalir (laissez-faire).
 
-Kaum Fisiokrat telah melihat kerusakan yang disebabkan oleh campur tangan pemerintah, terutama dalam perdagangan biji-bijian. Mereka mengatakan bahwa pemerintah tidak akan pernah bisa mengelola perdagangan sebaik yang dilakukan oleh individu, karena pemerintah harus merespons setiap kebutuhan dan bereaksi terhadap setiap perubahan permintaan atau Supply. Semua ini jauh di luar kemampuan pemerintah yang paling bijaksana sekalipun. Oleh karena itu, penting untuk membiarkan segala sesuatunya terjadi dan membiarkannya mengalir.
-
-
-Karena sifatnya yang menguntungkan, perdagangan haruslah sepenuhnya bebas dan sempurna. Salah satu anggota mereka, Le Trosne, bahkan menulis sebuah pamflet berjudul [*Kebebasan Perdagangan Biji-bijian: Selalu Bermanfaat, Tidak Pernah Merugikan*] (https://www.institutcoppet.org/liberte-commerce-grains-toujours-utile-jamais-nuisible/).
-
+Agar bermanfaat secara alamiah, perdagangan haruslah sepenuhnya bebas dan sempurna. Salah satu anggota mereka, Le Trosne, bahkan menulis sebuah pamflet berjudul [*Kebebasan Perdagangan gandum: Selalu Bermanfaat, Tidak Pernah Merugikan / The Freedom of the Grain Trade: Always Useful, Never Harmful*](https://www.institutcoppet.org/liberte-commerce-grains-toujours-utile-jamais-nuisible/).
 
 ### Prinsip kelima: Semua manusia adalah saudara
 
-
-Sebagai penentang keras perbudakan, kaum Fisiokrat juga merupakan pecinta damai yang hebat. "Kebijakan luar negeri kami adalah perdamaian", kata Mirabeau. Pada tahun 1790, di Majelis Konstituante, Dupont de Nemours melanjutkan sikap pasifis ini ketika dia mengusulkan RUU yang melarang perang ofensif.
-
+Penentang keras perbudakan, kaum Fisiokrat juga adalah pecinta damai yang hebat. "Kebijakan luar negeri kami disebut perdamaian," kata Mirabeau singkat. Pada tahun 1790, di Majelis Konstituante, Dupont de Nemours melanjutkan sikap cinta damai ini ketika ia mengusulkan rancangan undang-undang yang melarang perang ofensif.
 
 
 ## Pencapaian dan pengaruh Fisiokrat
 
-
 <chapterId>5b911105-796a-5e2e-a501-c7a364fc758e</chapterId>
-
 
 Seperti yang kita lihat di bab pertama dari tiga bab yang membahas tentang kaum Fisiokrat, para pengikut Quesnay sangat populer di Prancis selama sekitar satu dekade. Antusiasme terhadap ide-ide mereka terbentuk pada masanya dan terus berlanjut hingga akhir abad ini. Di sini, kita akan melihat beberapa pencapaian mereka dan pengaruh yang mereka berikan kepada para penerus mereka di bidang pemikiran ekonomi.
 

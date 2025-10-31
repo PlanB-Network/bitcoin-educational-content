@@ -10,13 +10,13 @@ objectives:
 ---
 # Bitcoin na BTCPay Server
 
-Hii ni kozi ya utangulizi kuhusu BTCPay Server Operator iliyoandikwa na Alekos na Bas, ambayo ilichukuliwa katika Mpango wa ₿ Muundo wa Kozi na melontwist na asi0.
+Hii ni kozi ya utangulizi kuhusu BTCPay Server Operator iliyoandikwa na Alekos na Bas, ambayo ilichukuliwa katika Plan ₿ Network Muundo wa Kozi na melontwist na asi0.
 
 HADITHI ISIYOKAMALISHWA
 
 "Huu Ni Uongo, Imani Yangu Kwako Imevunjika, Nitakufanya Uwe kizamani".
 
-Imetolewa na BTCPay Msingi Wa Server
+Imetolewa na Msingi Wa BTCPay Server
 
 +++
 # Utangulizi
@@ -156,7 +156,7 @@ Wateja hununua bidhaa kutoka kwa duka na Bitcoin.
   - SI LAZIMA/YA JUU - badala ya kuchagua Kompyuta kwa nasibu, iga mining kwa kuweka kete za Kompyuta hadi matokeo yaliyoamuliwa mapema yatokee (k.m. ya kwanza kukunja sita sita imechaguliwa)
   - Inaweza pia kucheza nini kitatokea ikiwa Kompyuta mbili zitashinda takriban wakati huo huo, na kusababisha mgawanyiko wa mnyororo.
   - Kompyuta hukagua uhalali, kusasisha/kuongeza rekodi kwenye daftari zao ikiwa sheria zitatimizwa, na kutangaza block kwa programu zingine.
-  - Kompyuta iliyochaguliwa kwa nasibu hupokea zawadi kwa kupendekeza kizuizi halali.
+  - Kompyuta iliyochaguliwa kwa nasibu hupokea zawadi kwa kupendekeza block halali.
   - Shughuli ya ukaguzi wa mfanyabiashara ilikamilishwa; hivyo, fedha zilipokelewa, na bidhaa ilitumwa kwa mteja.
 - Maoni:
   - Ona hakukuwa na haja ya uhusiano wa benki uliokuwepo hapo awali.
@@ -165,13 +165,13 @@ Wateja hununua bidhaa kutoka kwa duka na Bitcoin.
   - Hakuna uaminifu unaohitajika kati ya watu (mbali na Mfanyabiashara anayetuma bidhaa), kama ununuzi wa pesa taslimu kwa njia nyingi.
   - Pesa hizo zinamilikiwa moja kwa moja na watu binafsi.
   - Bitcoin Leja inaonyeshwa kwa dola kwa unyenyekevu, lakini kwa kweli, ni BTC.
-  - Tunaiga muamala mmoja unaotangazwa, lakini kwa kweli, miamala mingi inasubiriwa kwenye mtandao, na vizuizi vinajumuisha maelfu ya miamala kwa wakati mmoja. node pia angalia hakuna shughuli za kutumia mara mbili zinazosubiri (ningetupa zote isipokuwa moja ikiwa ingekuwa hivyo).
+  - Tunaiga muamala mmoja unaotangazwa, lakini kwa kweli, miamala mingi inasubiriwa kwenye mtandao, na Blocks zinajumuisha maelfu ya miamala kwa wakati mmoja. node pia angalia hakuna shughuli za kutumia mara mbili zinazosubiri (ningetupa zote isipokuwa moja ikiwa ingekuwa hivyo).
 - Matukio ya kudanganya:
   - Je, ikiwa mteja hakuwa na $ 25 BTC?
     - Hawangeweza kuunda shughuli kwa sababu ya "kufungua" na "Umiliki" ni kitu kimoja, na shughuli za ukaguzi wa kompyuta zimetiwa sahihi vizuri; vinginevyo, wanaikataa
   - Je, ikiwa kompyuta iliyochaguliwa kwa nasibu itajaribu "kubadilisha Leja"?
-    - Kizuizi kitakataliwa, kwa kuwa kila kompyuta nyingine ina historia kamili na ingeona mabadiliko, ikikiuka moja ya sheria zao.
-    - Kompyuta isiyo ya kawaida haingeweza kupata thawabu, na hakuna miamala kutoka kwa kizuizi chao ambayo ingekamilishwa.
+    - Block kitakataliwa, kwa kuwa kila kompyuta nyingine ina historia kamili na ingeona mabadiliko, ikikiuka moja ya sheria zao.
+    - Kompyuta isiyo ya kawaida haingeweza kupata thawabu, na hakuna miamala kutoka kwa block yao ambayo ingekamilishwa.
 
 ## Tathmini ya maarifa
 
@@ -189,7 +189,7 @@ Bainisha maneno muhimu yafuatayo yaliyoletwa katika sehemu iliyotangulia:
 - node
 - Mempool
 - Lengo la Ugumu
-- Zuia
+- block
 
 **Jadili maana ya baadhi ya istilahi za ziada kama kikundi:**
 
@@ -1208,7 +1208,7 @@ Tumia URL ya Arifa tu unapounda invoice kupitia BTCpay api.
 
 Wachakataji malipo hufanya kazi pamoja na dhana ya Malipo katika BTCPay Server. Kijumlishi cha malipo ili kubandika miamala mingi na kuituma mara moja. Akiwa na vichakataji vya malipo, mmiliki wa duka anaweza kuweka malipo yaliyopangwa kiotomatiki. BTCPay Server hutoa mbinu mbili za malipo ya kiotomatiki, On-Chain na off-chain (LN).
 
-Mmiliki wa duka anaweza kubofya na kusanidi vichakataji vyote viwili kando. Mmiliki wa duka anaweza kutaka tu kuendesha kichakataji cha On-Chain mara moja kila saa X, ilhali off-chain inaweza kwenda kila dakika chache. Kwa On-Chain, unaweza pia kuweka lengo ambalo kizuizi kinapaswa kujumuishwa. Kwa chaguo-msingi, hii imewekwa kuwa 1 (au kizuizi kinachofuata kinapatikana). Kumbuka kuwa kuweka kichakataji cha malipo cha off-chain kuna kipima muda na hakuna lengo la kuzuia. Malipo ya Lightning Network ni ya papo hapo.
+Mmiliki wa duka anaweza kubofya na kusanidi vichakataji vyote viwili kando. Mmiliki wa duka anaweza kutaka tu kuendesha kichakataji cha On-Chain mara moja kila saa X, ilhali off-chain inaweza kwenda kila dakika chache. Kwa On-Chain, unaweza pia kuweka lengo ambalo block inapaswa kujumuishwa. Kwa chaguo-msingi, hii imewekwa kuwa 1 (au block inayofuata kinapatikana). Kumbuka kuwa kuweka kichakataji cha malipo cha off-chain kuna kipima muda na hakuna lengo la kuzuia. Malipo ya Lightning Network ni ya papo hapo.
 
 ![image](assets/en/063.webp)
 

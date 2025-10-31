@@ -261,7 +261,7 @@ Ce jeu illustre un problème fréquemment rencontré dans la vie réelle : en l'
 
 ![image](assets/fr/010.webp)
 
-Ce problème a moins d'impact dans les petites communautés (par exemple, la famille, les cercles d'amis) car, dans ces cas, tout le monde se connaît directement, ce qui permet de se souvenir des contributions de chacun. En supposant que quitter la communauté (la désertion) entraîne un coût, un système de réputation basé sur la mémoire des agents individuels est généralement suffisant pour éviter les pièges posés par le dilemme du prisonnier.
+Ce problème a moins d'impact dans les petites communautés (comme la famille et les cercles d'amis) car, dans ces cas, tout le monde se connaît directement, ce qui permet de se souvenir des contributions de chacun. En supposant que quitter la communauté (la désertion) entraîne un coût, un système de réputation basé sur la mémoire des agents individuels est généralement suffisant pour éviter les pièges posés par le dilemme du prisonnier.
 
 Cependant, lorsqu'il s'agit de communautés plus importantes qui bénéficient considérablement de la division du travail, les problèmes de coordination réapparaissent. Cela est dû à deux raisons principales :
 
@@ -273,7 +273,7 @@ Même s'il était possible d'établir un taux d'échange satisfaisant pour chaqu
 
 De plus, puisque ces échanges ne se produisent pas instantanément mais sont espacés dans le temps, l'évaluation des contributions dans le temps complique davantage l'évaluation relative des contributions. En plus d'évaluer le ratio d'échange entre deux biens présents, il devient nécessaire d'évaluer la valeur d'une contribution passée par rapport à un homologue futur.
 
-Aujourd'hui, malgré l'impraticabilité d'un tel système, nous pourrions utiliser l'écriture ou le stockage de données numériques pour se souvenir de toutes ces informations et établir un système de crédit (suivre les contributions passées, y compris le taux d'échange de ces contributions, revient essentiellement à mettre en place un système de crédit).
+Aujourd'hui, malgré l'impraticabilité d'un tel système, nous pourrions utiliser l'écriture ou le stockage de données numériques pour se souvenir de toutes ces informations et établir un système de crédit (suivre les contributions passées, y compris leur taux d'échange, revient essentiellement à mettre en place un système de crédit).
 
 À l'époque pré-civilisation, ces technologies n'existaient pas. Ainsi, nos ancêtres ont dû trouver d'autres solutions pour profiter des avantages de la division du travail sans s'exposer aux conséquences négatives du dilemme du prisonnier. La solution à ce problème d'échange direct était l'échange indirect facilité par l'argent.
 

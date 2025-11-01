@@ -421,9 +421,7 @@ En parallèle, la plateforme polonaise Bitomat rencontre un problème majeur. Le
 
 Pour éviter de flouer ses clients, l'administrateur propose de vendre la plateforme pour 17 000 BTC. Cela intéresse Mark Karpelès, qui pourrait alors bénéficier du marché polonais. Le 11 août, Mt. Gox [annonce](https://web.archive.org/web/20120426023056/http://support.mtgox.com/entries/20357051-mt-gox-the-world-s-largest-bitcoin-exchange-to-acquire-bitomat-pl-compensate-loss-of-bitcoins) racheter Bitomat, afin de « rétablir la confiance dans l'économie de bitcoin » (original: "to restore confidence in the bitcoin economy"). Mais cela a pour conséquence de rajouter 17 000 BTC au passif de Mt. Gox.
 
-À cela s'ajoutera une mauvaise manipulation en octobre 2011, témoignant de l'amateurisme de Mark...
-
-- October 2011 Mt. Gox Loss, 2609.36304319 BTC: https://bitcointalk.org/index.php?topic=83794.msg923918#post_toc_27
+À ces pertes, s'ajoute une mauvaise manipulation en octobre 2011 : environ 2 609 bitcoins (soit plus de 8 000 $) [sont envoyés](https://bitcointalk.org/index.php?topic=50206.msg598125#msg598125) à une adresse invalide, ce qui les rend indépensables. Cette erreur de programmation [révèle](https://www.righto.com/2014/03/the-programming-error-that-cost-mt-gox.html) l'imprudence générale de Mark Karpelès, qui préfigure le destin tragique de la plateforme de change.
 
 ### Une croissance fragile
 

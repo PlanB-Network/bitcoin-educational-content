@@ -56,11 +56,11 @@ Ce cours est divisé en quatre parties, qui s'intéressent respectivement à la 
 
 ### Précisions
 
-La lecture du premier cours sur l'histoire de Bitcoin (intitulée *L'histoire de la création de Bitcoin*) est un prérequis si vous ne connaissez pas du tout le sujet.
+La lecture du premier cours sur l'histoire de Bitcoin (intitulée *L'histoire de la création de Bitcoin*) est un prérequis si vous ne connaissez pas du tout le sujet. Vous pouvez cliquer sur le lien suivant pour le suivre :
 
 https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
-Toutes les dates et les heures sont données selon le fuseau horaire UTC (correspondant au méridien de Greenwich) et peuvent ainsi différer des dates américaines. La plupart des citations proviennent de l'anglais américain et ont été traduites pour l'occasion, sauf indication contraire.
+Toutes les dates et les heures sont données selon le fuseau horaire UTC (correspondant au méridien de Greenwich) et les dates peuvent ainsi différer des dates américaines. La plupart des citations proviennent de l'anglais américain et ont été traduites pour l'occasion, sauf indication contraire.
 
 En plus des sources directes archivées sur Internet, nous nous basons sur les ouvrages de référence suivants :
 
@@ -68,16 +68,13 @@ En plus des sources directes archivées sur Internet, nous nous basons sur les o
 - [*Pay the Devil in Bitcoin: The Creation of a Cryptocurrency and How Half a Billion Dollars of It Vanished from Japan*](https://www.goodreads.com/book/show/36238082-pay-the-devil-in-bitcoin) de Jake Adelstein et Nathalie Stucky, publié en 2017, en version électronique uniquement ; traduction française : [*J'ai vendu mon âme en bitcoins*](https://www.editions-marchialy.fr/livre/j-ai-vendu-mon-ame-en-bitcoins/), publiée en 2019 ;
 - [*American Kingpin: The Epic Hunt for the Criminal Mastermind behind the Silk Road Drugs Empire*](https://www.amazon.fr/American-Kingpin-Criminal-Mastermind-Behind/dp/1591848148/) de Nick Bilton, publié en 2017.
 
-Articles :
+Nous nous sommes également inspiré des films documentaires couvrant cette partie de l'histoire de Bitcoin, à savoir :
 
-- Les articles de Vitalik Buterin, pour [Bitcoin Weekly](https://web.archive.org/web/20111101152804/http://bitcoinweekly.com/articles) et [Bitcoin Magazine](https://bitcoinmagazine.com/authors/vitalik-buterin)
+- [*The Bitcoin Phenomenon*](https://www.youtube.com/watch?v=6pWblf8COH4), réalisé par Bhu Srinivasan et diffusé le 12 avril 2014 ;
+- [*The Rise and Rise of Bitcoin*](https://www.youtube.com/watch?v=A06qdTpOYcg), réalisé par Nicholas Mross, qui est sorti le 10 octobre 2014 ;
+- [*Deep Web*](https://www.youtube.com/watch?v=L7emWKAMEvI), réalisé par Alex Winter, pour une diffusion le 31 mai 2015.
 
-Documentaires :
-
-- [*The Bitcoin Phenomenon*](https://www.youtube.com/watch?v=6pWblf8COH4), réalisé par Bhu Srinivasan, 12 avril 2014
-- [*The Rise and Rise of Bitcoin*](https://www.youtube.com/watch?v=A06qdTpOYcg), réalisé par Nicholas Mross, 10 octobre 2014
-- [*Deep Web*](https://www.youtube.com/watch?v=L7emWKAMEvI), réalisé par Alex Winter, 31 mai 2015
-- [*Banking on Bitcoin*](https://www.youtube.com/watch?v=8rsxIW02W0g), réalisé par Christopher Cannucciari, 2016
+Enfin, les articles de Vitalik Buterin, écrits pour [Bitcoin Weekly](https://web.archive.org/web/20111101152804/http://bitcoinweekly.com/articles) et [Bitcoin Magazine](https://bitcoinmagazine.com/authors/vitalik-buterin), nous ont été très utiles pour comprendre les évènements qui ont marqué la période.
 
 # La grande bulle de 2011
 

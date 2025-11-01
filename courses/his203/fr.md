@@ -1432,13 +1432,7 @@ Cette première vague des cryptomonnaies alternatives a posé les bases pour ce 
 
 La première moitié de l'année 2012 a été assez plate du point de vue de la spéculation. Néanmoins, elle a constitué une période de construction pour l'activité économique réelle. Bitcoin est en effet un moyen de paiement : le but affiché dans le livre blanc est de résoudre le problème des paiements en ligne. Et c'est dans ce sens que la communauté d'alors a essayé de pousser Bitcoin.
 
-L'échange de biens et de services contre des bitcoins, c'est-à-dire ce qu'on nomme généralement le *commerce* et qui peut être pratiqué de manière plus ou moins illicite ou clandestine. D'un côté, le trafic s'est développé grâce à l'activité florissante de Silk Road, la place de marché surnommée « l'Amazon de la drogue », qui représentait une grande proportion des transactions réalisées sur la chaine de Bitcoin. De l'autre côté, un effort considérable a été mis en place pour favoriser les affaires moins controversées, notamment grâce à l'apparition du processeur de paiement BitPay.
-
-C'est pourquoi un effort considérable est réalisé entre 2011 et 2012 pour améliorer les façons d'accepter le dollar.
-
-L'année 2012 est également florissante pour Silk Road, la place de marché du dark web. Silk Road représente le gros de l'activité économique de l'année.
-
-https://bitcoinmagazine.com/markets/the-next-year-in-bitcoin-what-2013-has-in-store-1357247984
+L'échange de biens et de services contre des bitcoins, c'est-à-dire ce qu'on nomme généralement le *commerce* et qui peut être pratiqué de manière plus ou moins illicite ou clandestine. D'un côté, le trafic s'est développé grâce à l'activité florissante de Silk Road, la place de marché surnommée « l'Amazon de la drogue », qui représentait une grande proportion des transactions réalisées sur la chaine de Bitcoin. De l'autre côté, un effort considérable a été fait pour mettre en avant les affaires plus largement acceptées, notamment grâce à l'apparition du processeur de paiement BitPay.
 
 ### La vision de Silk Road
 

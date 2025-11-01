@@ -777,6 +777,8 @@ L'autre idée, plus commode, est de faire usage de la vérification de paiement 
 
 *Interface du Bitcoin Wallet for Android en juillet 2011 (source : Brandon Iles pour [Wired](https://web.archive.org/web/20110710020745/https://www.wired.com/gadgetlab/2011/07/bitcoin-android-app/))*
 
+Un autre portefeuille basé sur BitCoinJ, disponible sur ordinateur, est MultiBit, qui est [créé](https://bitcointalk.org/index.php?topic=43616.msg520542#msg520542) en septembre 2011 par le développeur britannique Jim Burton. Il a pour particularité de proposer la gestion de comptes multiples au sein de l'interface.
+
 ### Les portefeuilles déterministes
 
 Les portefeuilles déterministes (*deterministic wallets*) sont des portefeuilles qui intègrent la dérivation des clés : au lieu d'être générées individuellement de manière aléatoire comme cela est fait dans le logiciel principal, les clés privées sont dérivées de manière déterministe d'une information (appelée la graine) grâce à des fonctions cryptographiques. La connaissance de cette information permet à l'utilisateur de récupérer l'intégralité de ses fonds, ce qui simplifie grandement la sauvegarde du portefeuille. Il n'y a plus besoin d'enregistrer encore et encore le fichier `wallet.dat` !
@@ -934,8 +936,6 @@ La période 2011–2012 a été faste pour les diverses solutions pour utiliser 
 La période a également été marquée par le développement des portefeuilles déterministes, reposant sur la dérivation des clés à partir d'une donnée unique appelée la graine. Le modèle a été amélioré et standardisé dans le BIP 32 au début de l'année 2012, pour ajouter une hiérarchie dans cette dérivation. Mais le mouvement ne s'est pas arrêté là, car d'autres propositions ont été publiées par la suite. Le BIP 39, publié en septembre 2013, a standardisé l'usage de la phrase mnémotechnique, inspiré de ce que faisait Electrum. Les BIP 43 et 44, ébauchés en avril 2014, ont standardisé la structure des portefeuilles conservant de multiples cryptomonnaies et de multiples comptes. Ces propositions ont été réalisées par Marek Palatinus (Slush) et Pavol Rusnak (Stick), qui travaillaient sur la fabrication du premier portefeuille matériel, le Bitcoin Trezor.
 
 \[À REVOIR (ajouter chapitre minage)\] Dans le prochain chapitre, nous continuerons à traiter la question du développement logiciel, en évoquant l'évolution du logiciel principal. Nous nous concentrerons sur le conflit autour de Pay to Script Hash, une fonctionnalité qui a été ajoutée au protocole en avril 2012.
-
-+ MultiBit ? https://bitcointalk.org/index.php?topic=43616.msg520542#msg520542
 
 ## L'essor des coopératives de minage
 

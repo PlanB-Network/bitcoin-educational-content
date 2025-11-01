@@ -669,455 +669,262 @@ Di Prancis, Kaum Fisiokrat menikmati kesuksesan spektakuler dengan penunjukan Tu
 
 ![image](assets/id/060.webp)
 
-
-Sadar akan kemerosotan ketenaran mereka, Turgot tidak pernah menampilkan dirinya sebagai murid setia kaum Fisiokrat, atau dalam hal ini, sebagai seorang ensiklopedis, meskipun ia adalah seorang ensiklopedis, dan karena mereka dibenci oleh para anggota Clergy. Setelah berkuasa, Turgot mengeluarkan enam dekrit terkenal yang merupakan awal dari penerapan praktis program Fisiokratik: kebebasan berdagang, kebebasan bekerja, dan berakhirnya monopoli.
-
-
+Sadar akan penurunan ketenaran mereka, Turgot tidak pernah menampilkan dirinya sebagai murid setia Kaum Fisiokrat, atau, dalam hal ini, sebagai seorang ensiklopedis, meskipun ia adalah salah satunya, karena mereka dibenci oleh anggota Klerus. Setelah berkuasa, Turgot mengeluarkan enam dekret terkenal yang merupakan awal dari penerapan praktis program Fisiokratik: kebebasan perdagangan, kebebasan kerja, dan berakhirnya monopoli.
 
 ![image](assets/id/061.webp)
 
-
-Pada saat Revolusi Prancis, kaum Fisiokrat memiliki lebih sedikit pengikut. Marquis dari Mirabeau meninggal pada 13 Juli 1789-sebuah simbol. Abeille telah pindah, tetapi Dupont de Nemours tetap setia. Diangkat menjadi anggota Majelis, Dupont de Nemours membawa suara Fisiokrasi dan menyerukan reformasi ekonomi yang mendukung properti Ownership dan perdagangan bebas.
-
+Menjelang Revolusi Prancis, Kaum Fisiokrat memiliki lebih sedikit pengikut. Marquis de Mirabeau meninggal pada 13 Juli 1789—sebuah simbol yang cukup jelas. Abeille telah beralih, tetapi Dupont de Nemours tetap setia. Ditunjuk untuk Majelis, Dupont de Nemours membawa suara Fisiokrasi dan menyerukan reformasi ekonomi yang mendukung kepemilikan properti dan perdagangan bebas.
 
 ![image](assets/id/062.webp)
 
-
-Dia juga berjuang, namun tidak berhasil, melawan para assignat. Terlepas dari kegagalan ini, pemikiran Fisiokrat tetap hadir dalam perdebatan intelektual dan memengaruhi pencapaian awal Revolusi. Seperti yang dikatakan Joseph Rambaud, semua yang dilakukan Revolusi demi kebebasan adalah berkat kaum Fisiokrat.
-
+Dia juga berjuang, namun tidak berhasil, melawan assignats (uang kertas Revolusioner). Terlepas dari kegagalan ini, pemikiran Fisiokratik tetap hadir dalam debat intelektual dan memengaruhi pencapaian awal Revolusi. Seperti yang dikatakan Joseph Rambaud, segala sesuatu yang dilakukan Revolusi demi kebebasan adalah berkat Kaum Fisiokrat.
 
 ![image](assets/id/063.webp)
 
+Kaum Fisiokrat juga memiliki pengaruh besar pada sejarah pemikiran ekonomi. Adam Smith, yang mengunjungi Prancis dan bertemu banyak dari mereka, sangat dipengaruhi oleh karya mereka. Ia bahkan mempertimbangkan untuk mendedikasikan _The Wealth of Nations_ kepada Quesnay.
 
-
-Kaum Fisiokrat juga memiliki pengaruh besar dalam sejarah pemikiran ekonomi. Adam Smith, yang mengunjungi Prancis dan bertemu dengan banyak dari mereka, sangat terpengaruh oleh karya mereka. Dia bahkan mempertimbangkan untuk mendedikasikan *The Wealth of Nations* untuk Quesnay.
-
-
-
-
-
-Sayangnya, Quesnay meninggal dua tahun sebelum buku Smith diterbitkan, dan Smith menghapus dedikasinya. Meskipun Smith tidak setuju dengan gagasan mereka bahwa hanya pertanian yang produktif, ia merangkul banyak argumen mereka untuk pasar bebas dan meneruskannya dalam karyanya sendiri.
-
-
+Sayangnya, Quesnay meninggal dua tahun sebelum buku Smith diterbitkan, dan Smith menghapus dedikasi tersebut. Meskipun Smith tidak setuju dengan ide mereka bahwa hanya pertanian yang produktif, ia merangkul banyak argumen mereka untuk pasar bebas dan membawanya lebih jauh dalam karyanya sendiri.
 
 ## Dupont de Nemours
 
-
 <chapterId>6d585e0f-93b8-5b0a-a0a8-7f6e4a5bc68e</chapterId>
 
-
-
-
-
-Di Amerika Serikat, kita mengenal perusahaan DuPont, yang juga dikenal sebagai "E.I. du Pont de Nemours and Company", sebuah perusahaan multinasional di bidang kimia dan biologi.
-
-
+Di Amerika Serikat, kita akrab dengan perusahaan DuPont, juga dikenal sebagai "E.I. du Pont de Nemours and Company," sebuah perusahaan multinasional di bidang kimia dan biologi.
 
 ![image](assets/id/064.webp)
 
+Saat ini, perusahaan tersebut memiliki penjualan lebih dari $35 miliar dan mempekerjakan hampir 65.000 orang di seluruh dunia. Ternyata, perusahaan ini terkait erat dengan nasib Samuel-Pierre Dupont de Nemours, seorang ekonom Prancis dari mazhab Fisiokrasi.
 
-Saat ini, perusahaan ini memiliki penjualan lebih dari $35.000 miliar dan mempekerjakan hampir 65.000 orang di seluruh dunia. Ternyata perusahaan ini terkait erat dengan takdir Samuel-Pierre Dupont de Nemours, seorang ekonom Prancis dari mazhab Fisiokratis.
-
-
-
-
-
-
-Lahir pada tahun 1739, Dupont de Nemours bergabung dengan Fisiokrat pada usia 24 tahun. Pada saat itu, ia masih mencari jalan hidupnya. Suatu hari, dia menemukan pamflet pendek berjudul Kekayaan Negara. Dia menemukan bahwa ide-ide ekonominya tidak masuk akal dan menulis tanggapan kritis yang disebut Reflections on the Wealth of the State, yang diterbitkan pada tahun 1763. Tulisan tersebut diterima dengan baik, dan para pembaca memujinya, dengan mengatakan hal-hal seperti, "Anda pasti murid Mirabeau!" Ironisnya, Dupont bahkan tidak tahu siapa Mirabeau.
-
-
+Lahir pada tahun 1739, Dupont de Nemours mendekati kaum Fisiokrat pada usia 24 tahun. Saat itu, ia masih mencari jalan hidupnya. Suatu hari, ia menemukan pamflet singkat berjudul The Wealth of the State. Ia menganggap ide-ide ekonominya omong kosong dan menulis tanggapan kritis yang disebut Reflections on the Wealth of the State, yang diterbitkan pada tahun 1763. Tulisan itu diterima dengan baik, dan para pembaca memujinya, mengatakan hal-hal seperti, "Anda pasti murid Mirabeau!" Ironisnya, Dupont bahkan tidak tahu siapa Mirabeau.
 
 ![image](assets/id/065.webp)
 
+Karena penasaran, ia mulai membaca karya Mirabeau, _Friend of the People dan Theory of Taxation_. Ia bertemu Mirabeau dan François Quesnay, kemudian bergabung dengan mazhab mereka. 
 
-Karena penasaran, ia mulai membaca karya Mirabeau, *Friend of the People* dan *Theory of Taxation*. Ia bertemu dengan Mirabeau dan François Quesnay, lalu bergabung dengan sekolah mereka.
+Pada tahun 1765, Dupont ditawari posisi editor _Journal de l'agriculture, du commerce et des finances_, majalah terkemuka pada masanya di bidang pemikiran ekonomi.
 
-Pada tahun 1765, Dupont ditawari posisi sebagai editor *Journal de l'agriculture, du commerce et des finances*, sebuah jurnal terkemuka pada masanya di bidang pemikiran ekonomi.
+Ada dua alasan untuk ini: Mirabeau dan Quesnay harus tetap bungkam (karena pernah ditindak otoritas), dan Dupont dipandang sebagai bintang yang sedang naik daun.
 
-
-
-
-
-
-Ada dua alasan untuk ini: Mirabeau dan Quesnay harus tetap diam, dan Dupont dipandang sebagai bintang baru mereka.
-
-
-Para anggota mazhab Fisiokratis setuju bahwa Dupont de Nemours dengan cepat menjadi favorit Quesnay. Quesnay pernah berkata, "Jagalah anak muda ini, dia akan menjadi orang yang akan berbicara ketika kita mati". Salah satu rekan sesama Fisiokrat, Abeille, bahkan menjadi cemburu dengan perhatian yang diterima Dupont dan menjauhkan diri dari sekolah Quesnay.
-
+Anggota mazhab Fisiokratik sepakat bahwa Dupont de Nemours dengan cepat menjadi kesayangan Quesnay. Quesnay pernah berkata, "Jaga pemuda ini, dia yang akan berbicara ketika kita mati." Seorang rekan Fisiokrat, Abeille, bahkan menjadi cemburu atas perhatian yang diterima Dupont dan menjauhkan diri dari mazhab Quesnay.
 
 Dupont de Nemours selalu mempertahankan rasa hormatnya yang tinggi terhadap Quesnay.
-
-
+ 
 ![image](assets/id/066.webp)
 
+Dia kemudian berkata, "Saya hanyalah seorang anak laki-laki ketika Quesnay mengulurkan tangannya kepada saya—ia menjadikan saya seorang pria." Quesnay-lah yang menjadikannya ekonom utama di kancah sastra saat itu. 
 
-Dia kemudian berkata, "Saya hanya seorang anak laki-laki ketika Quesnay mengulurkan tangannya kepada saya - dia membuat saya menjadi seorang pria." Quesnay-lah yang membuatnya menjadi seorang ekonom besar dalam kancah sastra saat itu.
+Setelah _Journal de l'agriculture, du commerce et des finances_, Dupont diangkat menjadi editor _Les Éphémérides du Citoyen_, yang menjadi anggota resmi Kaum Fisiokrat.
 
-Setelah *Journal de l'agriculture, du commerce et des finances*, Dupont ditunjuk sebagai editor *Les Éphémérides du Citoyen*, yang menjadi organ resmi kaum Fisiokrat.
-
-
-
-
-
-Dia menjadikan koleksi berkala ini sebagai pusat utama teori ekonomi, mendukungnya bahkan selama kemunduran kaum Fisiokrat dengan menulis secara pribadi hampir semua jilid berikutnya. Selain itu, Dupont de Nemours-lah yang menciptakan istilah "fisiokrasi", yang berasal dari dua kata dalam bahasa Yunani yang berarti "pemerintahan alam". Dia menggunakan istilah ini untuk memberi judul kumpulan artikel Quesnay yang diterbitkan pada tahun 1768, dan istilah ini akhirnya menjadi mapan dalam sejarah. Diketahui bahwa di antara mereka sendiri, kaum Fisiokrat menyebut satu sama lain sebagai "ekonom", dan mereka masih disebut demikian selama Revolusi.
-
-
+Ia menjadikan koleksi majalah ini sebagai pusat utama teori ekonomi, mendukungnya bahkan selama kemunduran Kaum Fisiokrat dengan secara pribadi menulis hampir semua volume berikutnya. Dupont de Nemours juga yang menciptakan istilah "fisiokrasi", yang berasal dari dua kata Yunani yang berarti "pemerintahan alam." Ia menggunakan istilah ini untuk memberi judul pada kumpulan artikel Quesnay yang diterbitkan pada tahun 1768, dan istilah itu akhirnya menjadi dasar dalam sejarah. Diketahui bahwa di antara mereka sendiri, Kaum Fisiokrat menyebut satu sama lain "ekonom," dan mereka masih disebut demikian selama Revolusi.
 
 ![image](assets/id/067.webp)
 
+Ketika Turgot sempat menjabat sebagai menteri keuangan Prancis, Dupont menjadi penasihat dekatnya, satu-satunya Fisiokrat yang memiliki akses kepadanya, karena Turgot menjaga jarak dari yang lain.
 
-Ketika Turgot secara singkat menjabat sebagai menteri keuangan Prancis, Dupont menjadi penasihat dekatnya, satu-satunya Fisiokrat yang memiliki akses kepadanya, karena Turgot menjaga jarak dengan yang lain.
+Pada saat Revolusi, ia terpilih dari bailiwick (wilayah pemilihan) Nemours dan mendapati dirinya berada di Majelis, di mana seorang Tuan Dupont lainnya juga duduk. Ia kemudian dipanggil Dupont de Nemours, bukan karena ia seorang bangsawan, tetapi hanya untuk membedakan keduanya. Nama itu, tentu saja, tetap melekat.
 
-
-
-
-
-Pada saat Revolusi, ia terpilih dari bailiwick Nemours dan mendapati dirinya berada di Majelis, di mana Monsieur Dupont yang lain juga duduk. Dia kemudian dipanggil Dupont de Nemours, bukan karena dia seorang bangsawan, tetapi hanya untuk membedakan keduanya. Namanya, tentu saja, tetap sama.
-
-
-Selama Revolusi, pada bulan Agustus 1792, ia mengangkat senjata untuk membela Raja di Istana Tuileries melawan kerumunan massa.
-
+Selama Revolusi, pada Agustus 1792, ia mengangkat senjata untuk membela Raja di Istana Tuileries melawan kerumunan massa.
 
 ![image](assets/id/068.webp)
 
+Raja berkata kepadanya: "Monsieur Dupont, kami selalu menemukan Anda di tempat Anda dibutuhkan!" Setelah secara ajaib lolos dari Terror (Periode Teror), divonis dan menunggu gilotin tetapi diselamatkan oleh jatuhnya Robespierre, ia didorong ke pengasingan di bawah Napoleon dan menemukan kebahagiaan di Amerika Serikat, di mana salah satu putranya mendirikan, dengan bantuan ayahnya, perusahaan Dupont yang kita kenal sekarang.
 
-Sang Raja berkata kepadanya: "Monsieur Dupont, kami selalu menemukan Anda di mana pun Anda dibutuhkan!" Setelah secara ajaib lolos dari Teror, dihukum dan menunggu hukuman pancung tetapi diselamatkan oleh kejatuhan Robespierre, dia didorong ke pengasingan di bawah Napoleon dan menemukan kebahagiaan di Amerika Serikat, di mana salah satu putranya mendirikan perusahaan Dupont, dengan bantuan ayahnya.
-
-
-
-
-
-
-Terlepas dari kehidupannya yang penuh peristiwa ini, di mana ia menerbitkan lusinan artikel, brosur, dan buku, ia tetap tidak banyak dikenal hingga hari ini. Mungkin ini karena dia tetap menjadi seorang Fisiokrat yang setia ketika doktrin tersebut sudah ketinggalan zaman. Memang, seperti yang ditulis Schumpeter, Dupont de Nemours tetap setia pada Fisiokrasi "sepanjang kariernya di mana ia memiliki banyak kesempatan untuk meninggalkannya". Dia adalah orang yang teguh pendirian.
-
+Meskipun hidupnya penuh peristiwa, di mana ia menerbitkan lusinan artikel, brosur, dan buku, ia tetap relatif kurang dikenal hingga hari ini. Mungkin ini karena ia tetap menjadi Fisiokrat yang teguh ketika doktrin tersebut telah kehilangan popularitas. Memang, seperti yang ditulis Schumpeter, Dupont de Nemours tetap setia pada Fisiokrasi "sepanjang karier di mana ia memiliki banyak kesempatan untuk melepaskannya." Ia adalah orang yang berpegang teguh pada keyakinan.
 
 # Pencerahan dan Ekonomi Politik
 
-
 <partId>d1c885ad-7cb1-5f81-816c-be312719d9f8</partId>
-
 
 ## Voltaire dan para filsuf
 
-
 <chapterId>16bcf7bf-dad4-5113-8c64-2800f04ff07b</chapterId>
 
-
-Abad ke-18 di Prancis menyaksikan kemunculan ekonomi sebagai ilmu pengetahuan dan mazhab pemikiran ekonomi pertama: Fisiokrasi. Adam Smith belajar ekonomi selama periode ini, dan para ekonom Prancis diakui secara global sebagai pemimpin. Namun, abad ini lebih dikenang sebagai abad filsafat daripada abad ekonomi. Meskipun gerakan Fisiokratis selaras, dalam ambisinya, dengan filosofi Pencerahan, sikap para filsuf-terutama Diderot dan Voltaire-perlu dicermati. Kita akan melihat bahwa para pemikir Pencerahan secara signifikan berkontribusi dalam menyebarkan ide laissez-faire di Prancis.
-
-
+Abad ke-18 di Prancis menyaksikan kemunculan ilmu ekonomi sebagai sebuah pengetahuan dan mazhab pemikiran ekonomi pertama: Fisiokrasi. Adam Smith menimba ilmu ekonomi selama periode ini, dan para ekonom Prancis diakui secara global sebagai pemimpin. Namun, abad ini lebih dikenang sebagai abad filosofi daripada ekonomi. Meskipun gerakan Fisiokratik selaras, dalam ambisinya, dengan filosofi Pencerahan, sikap para philosophes—terutama Diderot dan Voltaire—layak dicermati. Kita akan melihat bahwa para pemikir Pencerahan secara signifikan berkontribusi dalam menyebarkan gagasan laissez-faire di Prancis.
 
 ![image](assets/id/069.webp)
 
+Pencapaian paling terkenal dari filosofi Pencerahan tidak diragukan lagi adalah Encyclopédie oleh Diderot dan d'Alembert.
 
-Pencapaian paling terkenal dari filosofi Pencerahan tidak diragukan lagi adalah *Encyclopédie* karya Diderot dan d'Alembert.
+Secara alami, artikel-artikel ekonomi ditulis oleh para ekonom. Untuk volume-volume awal, Diderot beralih ke Forbonnais, kemudian merekrut ekonom liberal: pertama François Quesnay (yang menyumbangkan artikel seperti "Grains" (Gandum), "Fermiers" (Petani), "Hommes" (Manusia)—yang terakhir tidak diterbitkan), kemudian Turgot (yang menulis "Foires et marchés" (Pekan Raya dan Pasar)). Tulisan-tulisan ini memiliki arti penting. Dalam artikelnya, Quesnay meletakkan dasar untuk apa yang kemudian menjadi doktrin Fisiokratik. Bersama dengan _Tableau économique_-nya, ini tetap menjadi karyanya yang paling terkenal. Turgot, yang masih muda saat itu, mengembangkan ide laissez-faire dalam artikelnya, mengkritik intervensi negara dalam organisasi pasar.
 
-
-
-
-
-
-Tentu saja, artikel-artikel ekonomi ditulis oleh para ekonom. Untuk volume-volume awal, Diderot berpaling kepada Forbonnais, kemudian meminta bantuan para ekonom liberal: pertama François Quesnay (yang menyumbangkan artikel-artikel seperti "Grains", "Fermiers", "Hommes" - artikel terakhir tidak dipublikasikan), kemudian Turgot (yang menulis "Foires et marchés"). Tulisan-tulisan ini sangat penting. Dalam artikel-artikelnya, Quesnay meletakkan dasar bagi apa yang kemudian menjadi doktrin Fisiokratis. Bersama dengan *Tableau économique*, tulisan-tulisan ini tetap menjadi karyanya yang paling terkenal. Turgot, yang masih muda pada saat itu, mengembangkan ide laissez-faire dalam artikelnya, mengkritik intervensi negara dalam organisasi pasar.
-
-
-Dalam banyak artikel lain di *Encyclopédie*, para filsuf, terutama Diderot, membela cita-cita kebebasan di semua bidang: agama, politik, dan ekonomi.
-
+Di banyak artikel lain di _Encyclopédie_, para philosophes, terutama Diderot, membela cita-cita kebebasan di semua bidang: agama, politik, dan ekonomi.
 
 ![image](assets/id/070.webp)
 
+Kebebasan bekerja, terutama dalam penentangan terhadap sistem gilda, adalah tema yang berulang dalam berbagai entri seperti Arts, Métier, dan Communauté.
 
-Kebebasan bekerja, terutama dalam menentang sistem gilda, merupakan tema yang berulang dalam berbagai entri seperti Arts, Métier, dan Communauté.
-
-
-Jalan Diderot dalam teori ekonomi adalah jalan yang aneh. Dalam Encyclopédie, dia adalah pendukung setia kebebasan ekonomi dan merupakan orang yang mencari kolaborasi dengan para ekonom liberal, seperti yang dikonfirmasi oleh sebuah surat yang menguraikan artikel yang mungkin ditulis oleh Turgot untuknya. Pada tahun-tahun awal Fisiokrasi, ia adalah pendukung dan promotor sekolah Quesnay. Pada tahun 1769 dan 1770, ia menulis untuk *Les Ephémérides du Citoyen*, yang membuat teman-temannya yang anti-filsuf liberal, seperti Melchior Grimm, sangat kecewa; namun, ia segera menjauhkan diri dari kelompok tersebut. Terpesona oleh kecerdasan Kepala Biara Galiani yang bersemangat, ia membantunya menerbitkan bukunya tentang perdagangan biji-bijian dalam bahasa Prancis, tepat ketika Galiani akan kembali ke Italia.
-
-
+Jalur Diderot dalam teori ekonomi adalah hal yang menarik. Dalam Encyclopédie, ia adalah pendukung teguh kebebasan ekonomi dan ia yang mencari kolaborasi dari ekonom liberal, sebagaimana dikonfirmasi oleh surat yang menguraikan artikel yang mungkin ditulis Turgot untuknya. Pada tahun-tahun awal Fisiokrasi, ia adalah pendukung sekaligus promotor mazhab Quesnay. Pada tahun 1769 dan 1770, ia menulis untuk _Les Ephémérides du Citoyen_, yang sangat mengecewakan teman-teman filsuf anti-liberalnya, seperti Melchior Grimm; namun, ia segera menjauhkan diri dari kelompok tersebut. Terpesona oleh kecerdasan Abbot Galiani yang bersemangat, ia membantunya menerbitkan bukunya tentang perdagangan gandum dalam bahasa Prancis, tepat saat Galiani akan kembali ke Italia.
 
 ![image](assets/id/071.webp)
 
+Buku ini akan menjadi serangan paling sengit yang pernah dilancarkan terhadap ide-ide Fisiokratik, memberikan pukulan besar bagi gerakan tersebut. Kemudian, Diderot membela Galiani melawan Abbot Morellet, sekutu dekat Kaum Fisiokrat, dalam _Apology of Galiani_-nya. Beberapa tahun kemudian, selama masa kementerian Turgot, Diderot terlihat memuji pembentukan kebebasan bekerja melalui penghapusan gilda. Pada titik ini, Diderot, putra seorang pengrajin, mendapati dirinya setuju dengan ekonom liberal dan menulis surat pedas kepada Galiani, yang mengklaim bahwa kebebasan bekerja akan merusak industri Prancis dalam waktu dua puluh atau tiga puluh tahun. Mengingat Revolusi Industri, sejarah menunjukkan sebaliknya. Setelah kembali ke sisi ekonom liberal, Diderot tidak lagi mendapatkan kepercayaan mereka dan tetap terisolasi. Momen yang sangat jelas adalah surat yang ia kirimkan kepada Dupont de Nemours pada tahun 1774, di mana ia menulis:
 
-
-
-
-Buku ini akan menjadi serangan paling sengit yang pernah dilakukan terhadap ide-ide Fisiokrat, memberikan pukulan besar bagi gerakan tersebut. Kemudian, Diderot membela Galiani terhadap Abbot Morellet, sekutu dekat kaum Fisiokrat, dalam *Apologi Galiani*. Beberapa tahun kemudian, selama masa pelayanan Turgot, Diderot terlihat memuji pembentukan kebebasan tenaga kerja melalui penghapusan serikat pekerja. Pada titik ini, Diderot, seorang anak pengrajin, mendapati dirinya setuju dengan para ekonom liberal dan menulis surat pedas kepada Galiani, yang menyatakan bahwa kebebasan tenaga kerja akan menghancurkan industri Prancis dalam waktu dua puluh atau tiga puluh tahun. Sehubungan dengan Revolusi Industri, sejarah menunjukkan hal yang sebaliknya. Setelah kembali ke sisi para ekonom liberal, Diderot tidak lagi mendapatkan kepercayaan dari mereka dan tetap terisolasi. Momen yang sangat penting adalah sebuah surat yang ia kirimkan kepada Dupont de Nemours pada tahun 1774, di mana ia menulis:
-
-
-> "Kamu pernah memiliki persahabatan denganku; sekarang tidak lagi, karena kamu terlalu sibuk sehingga kamu tidak lagi punya waktu untuk mencintai siapa pun".
+> "Anda pernah memiliki persahabatan untuk saya; sekarang Anda tidak lagi memilikinya, karena Anda begitu sibuk sehingga Anda tidak lagi punya waktu untuk mencintai siapa pun."
 
 ![image](assets/id/072.webp)
 
-
-Voltaire mengikuti jalan yang sama, ditandai dengan kurangnya konsistensi dalam pandangan ekonominya. Dia mengagumi Vincent de Gournay, berkorespondensi dengan para ekonom (termasuk Dupont de Nemours dan Turgot), dan menghargai kaum Fisiokrat-terutama karena pujian mereka terhadap pertanian. Dia memuji mereka dalam *Diatribe to the Author of the Ephémérides*. Namun, ia kemudian mengkritik ide mereka tentang pajak tanah tunggal dalam karya satirnya *The Man of Forty Crowns*, yang juga menimbulkan kontroversi yang signifikan. Akhirnya, seperti Diderot, ia merayakan pelayanan Turgot, menyebutnya sebagai masa keemasan dan memuji dua dekritnya yang hebat tentang kebebasan tenaga kerja dan perdagangan bebas.
-
+Voltaire mengikuti jalur yang serupa, ditandai dengan kurangnya konsistensi dalam pandangan ekonominya. Ia mengagumi Vincent de Gournay, berkorespondensi dengan para ekonom (termasuk Dupont de Nemours dan Turgot), dan menghargai Kaum Fisiokrat—terutama karena pujian mereka terhadap pertanian. Ia memuji mereka dalam _Diatribe to the Author of the Ephémérides_. Namun, ia kemudian mengkritik ide mereka tentang pajak tunggal atas tanah dalam karya satirnya _The Man of Forty Crowns_, yang juga menimbulkan kontroversi signifikan. Akhirnya, seperti Diderot, ia merayakan kementerian Turgot, menyebutnya sebagai zaman keemasan dan memuji dua dekret besarnya tentang kebebasan bekerja dan perdagangan bebas.
 
 ![image](assets/id/073.webp)
 
-
-Pada akhirnya, hubungan para filsuf dengan pemikiran ekonomi adalah campuran. Terlepas dari pujian dan kritik mereka terhadap ide-ide ekonomi liberal, mereka berperan dalam membawa ide-ide ini ke dalam wacana intelektual yang lebih luas pada masa Pencerahan. Dengan cara ini, entah disengaja atau tidak, mereka membantu memajukan gagasan laissez-faire hingga Revolusi.
-
+Pada akhirnya, hubungan para filsuf dengan pemikiran ekonomi adalah hal yang campur aduk. Meskipun mereka memuji dan mengkritik ide-ide ekonomi liberal, mereka memainkan peran dalam membawa ide-ide ini ke dalam wacana intelektual yang lebih luas pada masa Pencerahan. Dengan cara ini, baik disengaja maupun tidak, mereka membantu memajukan gagasan laissez-faire hingga Revolusi.
 
 ## Turgot, Sang Ahli Teori
 
-
 <chapterId>a8cd8185-8351-556b-8011-3a0c313e8a9d</chapterId>
 
-
-Dalam sebuah bagian terkenal dari *History of Economic Thought*, ekonom Amerika Serikat, Murray Rothbard, memuji apa yang disebutnya sebagai "kecemerlangan" Turgot.
-
-
-
-
-
-
-menempatkannya sebagai ekonom terbesar abad ke-18, bersama dengan Cantillon.
-
+Dalam bagian terkenal dari _History of Economic Thought_, ekonom Amerika Murray Rothbard memuji apa yang ia sebut sebagai "kecemerlangan" Turgot, menempatkannya sebagai ekonom terbesar abad ke-18, bersama dengan Cantillon.
 
 ![image](assets/id/074.webp)
 
 
 Bagaimana Turgot bisa menjadi begitu terkenal? Hal ini disebabkan oleh kombinasi dari tiga faktor utama. **Pertama, latar belakang keluarganya yang bergengsi. Ia berasal dari garis keturunan panjang administrator kerajaan, yang banyak di antaranya memegang jabatan tinggi di pemerintahan. **Kedua, masa keemasan di mana ia lahir dan dibesarkan. Turgot berusia 21 tahun ketika Montesquieu menerbitkan *L'Esprit des Lois*, dan 24 tahun ketika volume pertama *Encyclopédie* muncul.
 
+Bagaimana Turgot bisa mencapai popularitas seperti itu? Hal ini disebabkan pada kombinasi dari tiga faktor utama:
 
+**Pertama, latar belakang keluarga yang bergengsi.** Ia berasal dari keturunan pejabat kerajaan, banyak di antaranya memegang jabatan tinggi di pemerintahan. **Kedua, zaman keemasan saat kelahiran dan pertumbuhannya.** Turgot berusia 21 tahun ketika Montesquieu menerbitkan _L'Esprit des Lois_, dan 24 tahun ketika volume pertama _Encyclopédie_ muncul. 
 
+Ia adalah orang sezaman dengan Kaum Fisiokrat, Voltaire, Diderot, d'Holbach, Adam Smith, Condorcet, dan lain-lain. **Ketiga, kecerdasan intelektual.** Saat masih menjadi mahasiswa di Sorbonne, ia menulis surat tentang uang kertas pada usia 22 tahun, menyampaikan pidato-pidato yang luar biasa, dan pada usia 24 tahun menyusun daftar 52 karya yang ingin ia tulis.
 
+Meskipun usianya masih muda, Turgot berkontribusi pada _Encyclopédie_, menulis artikel tentang topik seperti "Etimologi," "Keberadaan," "Perluasan," "Pekan Raya", dan "Yayasan." Hanya satu artikel yang secara langsung menyentuh ekonomi—artikelnya tentang "Pekan Raya," yang merinci asal-usul pekan raya dan pasar serta mengkritik campur tangan negara yang semakin meningkat yang mengganggu dan melumpuhkannya.
 
+Selama tahun-tahun awal ini, ia dibimbing oleh Vincent de Gournay, yang membawanya di bawah sayapnya dan menjalin persahabatan yang erat dengannya. Setelah kematian Gournay pada tahun 1759, Turgot menulis sebuah pidato yang berisi ringkasan luar biasa tentang doktrin laissez-faire. Ia secara khusus menulis:
 
-
-
-Dia adalah seorang kontemporer dari kaum Fisiokrat, Voltaire, Diderot, d'Holbach, Adam Smith, Condorcet, dan lainnya. **Ketiga, kecerdasan intelektualnya.** Saat menjadi mahasiswa di Sorbonne, ia menulis surat di atas uang kertas pada usia 22 tahun, menyampaikan pidato yang luar biasa, dan pada usia 24 tahun telah menyusun daftar 52 karya yang harus ditulis.
-
-
-
-Meskipun masih muda, Turgot berkontribusi pada *Encyclopédie*, menulis artikel tentang topik-topik seperti "Etimologi", "Keberadaan", "Perluasan", "Pameran", dan "Yayasan". Hanya satu artikel yang menyentuh langsung pada ekonomi - tulisannya tentang "Pameran", yang merinci asal-usul pameran dan pasar serta mengkritik campur tangan negara yang semakin besar yang mengganggu dan melumpuhkannya.
-
-
-
-Selama tahun-tahun awal ini, ia dibimbing oleh Vincent de Gournay, yang membawanya di bawah sayapnya dan menjalin persahabatan yang erat dengannya. Setelah kematian Gournay pada tahun 1759, Turgot menulis sebuah pidato yang berisi ringkasan yang luar biasa tentang doktrin laissez-faire. Dia secara khusus menulis:
-
-
-"Dari setiap perspektif di mana perdagangan mungkin menyangkut Negara, kepentingan individu yang diserahkan kepada dirinya sendiri akan selalu lebih pasti menghasilkan kebaikan umum daripada operasi pemerintah, yang selalu cacat dan harus dipandu oleh teori yang tidak jelas dan tidak pasti".
-
-
+"Dari setiap perspektif di mana perdagangan mungkin menyangkut Negara, kepentingan individu yang dibiarkan sendiri akan selalu lebih pasti menghasilkan kebaikan umum daripada operasi pemerintah, yang selalu cacat dan pasti dipandu oleh teori yang samar dan tidak pasti."
 
 ![image](assets/id/075.webp)
 
+Pada tahun 1767, saat menjabat sebagai intendant (pengawas regional), ia menyusun ringkasan ekonomi dengan judul _Reflections on the Formation and Distribution of Wealth_.
 
-Pada tahun 1767, ketika menjadi seorang intendan, ia menyusun sebuah ringkasan ekonomi dengan judul *Refleksi tentang Pembentukan dan Distribusi Kekayaan*.
-
-
-
-
-
-Pembagian kerja, kedaulatan konsumen, kepemilikan pribadi, peran modal, hampir semua tema ekonomi utama dibahas. Banyak sejarawan, yang terbaru adalah sejarawan Anne-Claire Hoyng, telah menunjukkan kesamaan antara karya Turgot ini dengan *The Wealth of Nations* karya Adam Smith, yang diterbitkan sembilan tahun kemudian.
-
+Pembagian kerja, kedaulatan konsumen (consumer sovereignty), properti pribadi, peran modal, hampir semua tema ekonomi utama dibahas. Banyak sejarawan, yang paling baru adalah Anne-Claire Hoyng, telah menunjukkan kesamaan antara karya Turgot ini dan _The Wealth of Nations_ karya Adam Smith, yang diterbitkan sembilan tahun kemudian.
 
 ![image](assets/id/076.webp)
 
+Turgot membela kebebasan perdagangan gandum dalam surat-surat kepada Abbot Terray, yang kemudian dikomunikasikan kepada Raja, tetapi setengahnya kini hilang. Ia menulis:
 
-Turgot membela kebebasan perdagangan biji-bijian dalam surat-suratnya kepada Kepala Biara, yang kemudian disampaikan kepada Raja, tetapi setengahnya kini hilang. Dia menulis:
-
-
-
-> Pak, jika ada sesuatu yang mendesak, itu bukan untuk memaksakan pembatasan baru pada yang paling penting dari semua perdagangan, tetapi untuk menghapus yang, sayangnya, telah diizinkan untuk tetap ada.
-> Jika pernah ada saat ketika kebebasan penuh, paling mutlak, benar-benar bebas dari segala jenis hambatan, diperlukan, saya berani mengatakan bahwa sekaranglah saatnya, dan tidak pernah ada waktu yang lebih tepat untuk mempertimbangkan mengeluarkan peraturan tentang perdagangan biji-bijian.
+> Tuan, jika ada sesuatu yang mendesak, itu bukanlah untuk memaksakan pembatasan baru pada hal penting dari semua perdagangan, tetapi untuk menghapus pembatasan, sayangnya, telah diizinkan untuk tetap ada.
+> Jika ada masa ketika kebebasan paling penuh, paling absolut, sepenuhnya bebas dari segala jenis rintangan, itu diperlukan, saya berani mengatakan itu adalah sekarang, dan bahwa tidak pernah ada waktu yang lebih tepat untuk mempertimbangkan mengeluarkan regulasi tentang perdagangan gandum.
 
 
-
-
-
-Pada tahun 1769, Turgot menulis artikel Value and Money untuk *Dictionnaire de Commerce* karya Abbot Morellet, yang pada akhirnya tidak pernah diterbitkan. Galiani telah mencatat bahwa "manusia adalah ukuran umum untuk semua hal", mengantisipasi analisis subjektif yang akan dikembangkan Turgot tiga puluh tahun kemudian dalam artikel ini, di mana ia memperluas dan membuktikan proposisi ini.
-
+Pada tahun 1769, Turgot menulis artikel Value and Money untuk _Dictionnaire de Commerce_ milik Abbot Morellet, yang pada akhirnya tidak pernah diterbitkan. Galiani sebelumnya telah mencatat bahwa "manusia adalah ukuran umum dari segala sesuatu," mengantisipasi analisis subjektif yang akan dikembangkan dan dibuktikan oleh Turgot tiga puluh tahun kemudian dalam artikel ini, di mana ia memperluas dan membuktikan proposisi ini..
 
 Pada tahun 1770, jauh sebelum Bentham, Turgot menulis sebuah memorandum yang menganjurkan kebebasan suku bunga dan riba.
 
-
-
 ![image](assets/id/077.webp)
 
-
-"Adalah suatu kesalahan untuk percaya bahwa bunga uang dalam perdagangan harus ditetapkan oleh hukum para pangeran", katanya, "Ini adalah harga saat ini yang mengatur dirinya sendiri, seperti halnya semua barang lainnya", Untuk mempertahankan posisi ini, dia membantah penentangan Aristoteles dan para Bapa Gereja.
-
+"Adalah suatu kesalahan untuk percaya bahwa bunga atas uang dalam perdagangan harus ditetapkan oleh hukum para pangeran," katanya, "Itu adalah harga saat ini yang mengatur dirinya sendiri, seperti halnya semua barang lainnya." Dalam mempertahankan posisi ini, ia menyanggah penentangan Aristoteles dan Bapa Gereja.
 
 Ringkasan yang luar biasa dari doktrin laissez-faire Turgot dapat ditemukan dalam surat tahun 1773 yang terlupakan kepada Kepala Biara Terray tentang penandaan besi:
 
+Ringkasan yang luar biasa tentang doktrin laissez-faire Turgot dapat ditemukan dalam surat yang terlupakan tahun 1773 kepada Abbot Terray tentang penandaan besi:
 
+> Apa yang harus dilakukan politik adalah mengalah pada jalannya alam dan pada jalannya perdagangan, yang tidak kalah perlu dan tidak kalah penting daripada jalannya alam itu sendiri, tanpa mencoba mengarahkannya; karena untuk mengarahkannya tanpa mengganggunya dan tanpa merugikan diri sendiri, seseorang perlu mampu mengikuti semua variasi dalam kebutuhan, kepentingan, dan industri manusia; seseorang perlu mengetahuinya dalam tingkat detail yang secara fisik tidak mungkin diperoleh, dan di mana bahkan pemerintah yang paling terampil, aktif, dan teliti pun akan selalu berisiko salah, setidaknya separuhnya.
 
-> Apa yang harus dilakukan oleh politik adalah menyerah pada jalannya alam dan jalannya perdagangan, yang tidak kurang penting dan tidak kurang menarik daripada jalannya alam itu sendiri, tanpa berusaha mengarahkannya; karena untuk mengarahkannya tanpa mengganggunya dan tanpa merugikan diri sendiri, seseorang harus dapat mengikuti semua variasi dalam kebutuhan, minat, dan industri manusia; seseorang harus mengetahuinya dalam tingkat detail yang secara fisik tidak mungkin diperoleh, dan di mana bahkan pemerintah yang paling terampil, aktif, dan teliti pun akan selalu mengambil risiko salah, setidaknya setengahnya.
-
-Di sini kita menemukan pernyataan yang sangat jelas tentang doktrin laissez-faire, serta pertanda analisis Friedrich Hayek tentang kepura-puraan pengetahuan-yaitu ketidakmungkinan bagi negara untuk sepenuhnya memahami kekuatan ekonomi untuk mengendalikannya.
-
-
-
-
+Di sini kita menemukan pernyataan yang sangat jelas tentang doktrin laissez-faire, serta bayangan analisis Friedrich Hayek tentang kepura-puraan pengetahuan (pretense of knowledge)—yaitu, ketidakmungkinan bagi Negara untuk sepenuhnya memahami kekuatan ekonomi demi mengendalikannya.
 
 ![image](assets/id/078.webp)
 
-
 ## Turgot, Sang Pembaharu
-
 
 <chapterId>9177429f-1679-51c4-bfd2-dd036d24a1cc</chapterId>
 
-
-Seperti yang kita ingat secara singkat di bab sebelumnya, Turgot adalah putra dari keluarga terkemuka yang memiliki reputasi baik di jajaran atas pegawai negeri Prancis.
-
-
+Seperti yang kita ingat secara singkat di bab sebelumnya, Turgot adalah putra dari keluarga terkemuka yang memiliki reputasi baik dalam jajaran atas pegawai negeri sipil Prancis.
 
 ![image](assets/id/079.webp)
 
+Ayahnya pernah menjadi bendahara pedagang Paris (provost of the merchants of Paris) dan kakeknya seorang intendant (pengawas regional). Setelah unggul dalam studinya, anggota termuda keluarga Turgot bertekad untuk mencapai setidaknya peringkat yang sama. Ia pertama kali menjabat untuk sementara waktu sebagai maître des requêtes, yang berarti ia adalah penghubung antara para intendant dan Versailles. Itu adalah posisi bergengsi, yang untuknya ia harus mendapatkan dispensasi usia khusus, tetapi Turgot berambisi lebih. Kematian mentornya, Gournay, lebih jauh mendorongnya untuk meraih cita-cita lebih tinggi, dan ia meminta penunjukan sebagai intendant.
 
-Ayahnya adalah seorang provost dari para pedagang di Paris dan kakeknya adalah seorang intendan. Setelah berprestasi dalam studinya, anak bungsu dari keluarga Turgot ini bertujuan untuk mencapai setidaknya ketinggian yang sama. Dia pertama kali menjabat sebagai maître des requêtes, yang berarti dia adalah penghubung antara intendant dan Versailles. Itu adalah posisi bergengsi, di mana ia harus mendapatkan pengecualian usia khusus, tetapi Turgot bercita-cita untuk lebih. Kematian mentornya, Gournay, semakin mendorongnya untuk meraih cita-cita yang lebih tinggi, dan ia meminta diangkat sebagai intendant.
+Pada tahun 1759, ia pertama kali melamar jabatan wali kota Grenoble, tetapi ditolak. Ia kemudian ditawari jabatan bendahara pedagang di Lyon, yang ia tolak. Ia meminta intendancy Brittany, tetapi itu juga ditolak. Akhirnya, pada tahun 1761, ia ditawari intendancy Limousin dan, dengan enggan, ia menerimanya. Ia menulis kepada Voltaire: "Saya mendapat kemalangan menjadi seorang intendant," mungkin maksudnya: Saya mendapat kemalangan menjadi intendant di Limousin.
 
-
-
-Pada tahun 1759, ia pertama kali melamar untuk menjadi wali kota Grenoble, tetapi ditolak. Dia kemudian ditawari jabatan provost para pedagang di Lyon, yang dia tolak. Dia meminta jabatan di Brittany, tetapi juga ditolak. Akhirnya, pada tahun 1761, ia ditawari jabatan di Limousin dan, dengan enggan, ia menerimanya. Dia menulis surat kepada Voltaire: "Saya mengalami ketidakberuntungan menjadi seorang intendant", mungkin maksudnya: Saya mengalami nasib sial menjadi intendant di Limousin.
-
-
-
-Di Limousin, para petani miskin dan hidup dalam kondisi yang tidak menentu, terutama dalam hal perumahan dan makanan. Tingkat pendidikan secara umum sangat rendah. Beberapa jalan yang ada berada dalam kondisi rusak parah.
-
-
+Di Limousin, para petani miskin dan hidup dalam kondisi genting, terutama terkait perumahan dan makanan. Tingkat pendidikan secara umum sangat rendah. Beberapa jalan yang ada berada dalam keadaan yang rusak parah.
 
 ![image](assets/id/080.webp)
 
+Karena wilayah tersebut begitu miskin, wilayah itu tidak menarik bagi para menteri. Hal ini memberi Turgot kebebasan untuk bereksperimen dengan reformasi. Di Limousin, ia mengejar tiga proyek utama:
 
-Karena wilayah ini sangat miskin, wilayah ini tidak menarik bagi para menteri. Hal ini memberi Turgot kebebasan untuk bereksperimen dengan reformasi. Di Limousin, ia menjalankan tiga proyek besar:
-
-
-
-- Redistribusi **taille**, pajak pribadi (Turgot bertujuan untuk memperkenalkan objektivitas sebanyak mungkin dalam penilaiannya).
-- **Corvée**, suatu bentuk pajak yang dibayarkan dalam bentuk tenaga kerja, di mana para petani dipaksa untuk bekerja dalam pembangunan jalan. Saat berkeliling wilayah tersebut, Turgot segera menyadari buruknya kondisi jalan. Dia mengganti corvée dengan pajak moneter.
-- Perekrutan **milisi**, tentara petani yang dimobilisasi selama masa perang.
-
+- Redistribusi **taille** (pajak perorangan): Turgot bertujuan untuk memperkenalkan objektivitas sebanyak mungkin dalam penilaiannya.
+- **Corvée** (kerja paksa): Bentuk pajak yang dibayar dalam bentuk tenaga kerja, di mana petani dipaksa bekerja pada pembangunan jalan. Setelah berkeliling wilayah, Turgot dengan cepat menyadari kondisi jalan yang buruk. Ia mengganti corvée dengan pajak moneter.
+- Perekrutan **milisi** : tentara petani yang dimobilisasi selama masa perang. 
 
 ![image](assets/id/081.webp)
 
+Hal ini dilakukan dengan cara undian, yang menyebabkan ketakutan dan kekerasan karena adanya pelarian; Turgot mengganti wajib militer ini dengan sukarelawan yang dibayar.
 
-Hal ini dilakukan dengan cara mengundi, yang menyebabkan ketakutan dan kekerasan karena adanya pelarian; Turgot mengganti pungutan wajib ini dengan sukarelawan yang dibayar.
+Reformasi ini tidak dapat disangkal berhasil. Pada bulan Juli 1774, Turgot diangkat menjadi menteri. Karena kurangnya pengalaman, Raja pertama kali menempatkannya di Kementerian Angkatan Laut. Penunjukan itu membuat banyak orang geli. Turgot sendiri mengakui, "Saya tidak tahu apa-apa tentang Angkatan Laut," dan Voltaire berkomentar, "Saya rasa Turgot bukan seorang pelaut seperti dari saya."
 
-
-Reformasi ini tidak dapat disangkal berhasil, dan pada bulan Juli 1774, Turgot diangkat menjadi menteri. Karena kurangnya pengalaman, Raja pertama-tama menempatkannya di Kementerian Angkatan Laut. Penunjukan ini membuat banyak orang terhibur. Turgot sendiri mengakui, "Saya tidak tahu apa-apa tentang Angkatan Laut", dan Voltaire berkomentar, "Saya rasa Turgot bukan seorang pelaut seperti saya".
-
-
-
-Namun, hanya sebulan kemudian, Turgot ditunjuk sebagai Pengawas Jenderal Keuangan, yang secara efektif menjadi menteri ekonomi dan keuangan Prancis.
-
+Namun, hanya sebulan kemudian, Turgot diangkat sebagai Pengawas Jenderal Keuangan (Controller-General of Finances), secara efektif menjadi menteri ekonomi dan keuangan Prancis.
 
 Kita tahu surat di mana dia menguraikan prinsip-prinsipnya kepada Louis XVI: "Tidak ada kebangkrutan. Tidak ada kenaikan pajak. Tidak ada pinjaman baru". Filosofi ini, yang oleh para kritikus saat ini mungkin dianggap sebagai "kekakuan" yang tidak ada gunanya, dimaksudkan untuk menyelamatkan kerajaan.
 
-
 ![image](assets/id/082.webp)
-
 
 Turgot menyiapkan enam dekrit kerajaan untuk mereformasi ekonomi Prancis.
 
+Itu adalah kali pertama—dan salah satu yang terakhir—seorang ahli ekonomi diberikan kebebasan untuk mereformasi ekonomi negaranya. Tiga dari dekret Turgot yang menonjol adalah: pertama menghapuskan kerja paksa (corvées), yang lain membubarkan gilda perdagangan (corporations), dan yang ketiga menetapkan perdagangan bebas gandum.
 
+Saat memasuki kementerian, Turgot tahu ia akan menghadapi perlawanan dari kelas-kelas istimewa. "Saya akan ditakuti, bahkan dibenci, oleh sebagian besar istana dan oleh semua yang mencari keuntungan," katanya kepada Raja. Kaum istimewa segera bersatu melawannya dan menyebabkan pemecatannya dari jabatan Pengawas Jenderal Keuangan. Voltaire, yang sepenuhnya mendukung reformasi Turgot, menulis dalam korespondensinya:
 
-
-
-Ini adalah kali pertama-dan salah satu yang terakhir-seorang ahli ekonomi diberikan kebebasan untuk mereformasi ekonomi negaranya. Tiga dekrit Turgot yang paling menonjol adalah: pertama, menghapuskan kerja paksa (corvées), kedua, membubarkan serikat dagang (korporasi), dan ketiga, menetapkan perdagangan bebas untuk biji-bijian.
-
-
-Ketika memasuki pelayanan, Turgot tahu bahwa ia akan menghadapi perlawanan dari kelas-kelas istimewa. "Saya akan ditakuti, bahkan dibenci, oleh sebagian besar kalangan istana dan semua orang yang mencari keuntungan," katanya kepada Raja. Orang-orang yang memiliki hak istimewa segera bersatu untuk melawannya dan membuatnya dipecat dari jabatannya sebagai Pengawas Keuangan. Voltaire, yang sepenuhnya mendukung reformasi Turgot, menulis dalam korespondensinya:
-
-
-> Ah! Kabar buruk yang kudengar! Apa yang akan terjadi pada kita? Saya hancur! Kita tidak akan pernah pulih dari menyaksikan kelahiran dan kematian zaman keemasan! Petir ini telah menyambar pikiran dan hati saya.
+> Ah! Berita mengerikan apa yang saya dengar! Apa yang akan terjadi pada kita? Saya hancur! Kita tidak akan pernah pulih dari menyaksikan kelahiran dan kematian zaman keemasan! Sambaran petir ini telah menyerang pikiran dan hati saya.
 
 ![image](assets/id/083.webp)
 
+Sejak saat itu, banyak yang berpendapat bahwa Prancis adalah negara yang mustahil untuk direformasi. Kegagalan Turgot tampaknya membenarkannya: Ia telah dipersiapkan oleh setengah abad pemikiran ekonomi liberal; ia mendapat dukungan dari filsuf Pencerahan; dan Raja sendiri, dengan kekuasaan absolut, mendukungnya.
 
-Sejak saat itu, banyak yang berpendapat bahwa Prancis adalah negara yang mustahil untuk direformasi. Kegagalan Turgot seakan menegaskan hal itu: Dia telah dipersiapkan oleh pemikiran ekonomi liberal selama setengah abad; dia mendapat dukungan dari para filsuf Pencerahan; dan Raja sendiri, dengan kekuasaan absolut, mendukungnya.
-
-
-
-
-Pada akhirnya, para bangsawan dan kelas-kelas istimewa menang. Yang bisa dilakukan Raja hanyalah meratapi diri sendiri: "Saya melihat sekarang bahwa hanya Monsieur Turgot dan saya yang peduli dengan rakyat."
-
+Pada akhirnya, parlemen dan kelas istimewa menang. Yang bisa dilakukan Raja hanyalah meratap secara pribadi: "Saya lihat sekarang bahwa hanya Monsieur Turgot dan saya yang peduli pada rakyat."
 
 ## Condillac
 
-
 <chapterId>0ba8dbb5-dcd5-5981-bf85-6c185e0bf192</chapterId>
 
-
-Sama seperti merkantilisme, yang merupakan manifestasi praktisnya yang paling jelas, sofisme Montaigne membutuhkan waktu lama untuk menghilang.
-
+Sama seperti Merkantilisme, yang merupakan manifestasi praktisnya yang paling jelas, sofisme Montaigne (Montaigne’s sophism) membutuhkan waktu lama untuk menghilang.
 
 ![image](assets/id/084.webp)
 
+Sofisme itu adalah gagasan bahwa perdagangan dan pertukaran adalah permainan zero-sum (total-nol). Apa pun yang diperoleh satu pihak dalam suatu transaksi niscaya hilang oleh pihak lain. Para pendukungnya berargumen bahwa ini berlaku baik antara individu maupun antara negara.
 
-Kecanggihan itu adalah gagasan bahwa perdagangan dan Exchange adalah permainan zero-sum. Apa pun yang diperoleh satu pihak dalam sebuah transaksi pasti akan hilang oleh pihak lain. Para pendukungnya berpendapat bahwa hal ini berlaku baik di antara individu maupun antar negara.
+Abbot of Condillac memainkan peran utama dalam membongkar secara definitif gagasan palsu ini.
 
+"Secara definitif" mungkin berlebihan, karena dalam debat publik, sofisme ini sering muncul kembali. Mungkin inilah sebabnya, Condillac tetap menjadi ekonom yang kurang dikenal. Terlepas dari ekonom Austria, hanya sedikit yang memahami pentingnya teori pertukarannya, dan tidak ada yang lagi tertarik padanya.
 
-Kepala Biara Condillac memainkan peran utama dalam membongkar ide yang salah ini.
-
-
-
-
-
-"Secara definitif" mungkin berlebihan, karena dalam debat publik, sofisme ini sering muncul kembali. Mungkin inilah alasan mengapa Condillac tetap menjadi ekonom yang kurang dikenal. Selain para ekonom Austria, hanya sedikit yang memahami pentingnya teori Exchange-nya, tidak ada yang menaruh minat padanya.
-
-
-Bagi sebagian besar sejarawan pemikiran ekonomi, tahun 1776 ditandai dengan penerbitan *The Wealth of Nations*, yang mendirikan ilmu ekonomi. Lima belas pelajaran yang baru saja kita selesaikan, di mana kita telah mempelajari ilmu ekonomi Prancis sebelum Adam Smith, sudah cukup untuk membuktikan kesalahan konsepsi ini. Pada tahun yang sama, 1776, sebuah buku lain yang mungkin lebih layak mendapat pujian dari para sejarawan daripada buku Adam Smith, yaitu buku yang ditulis oleh Condillac dan berjudul [*Commerce and Government Considered in Their Mutual Relationship* (https://archive.org/details/commercegovernme0000cond).
-
+Bagi sebagian besar sejarawan pemikiran ekonomi, tahun 1776 ditandai dengan publikasi _The Wealth of Nations_, yang mendirikan ilmu ekonomi. Lima belas pelajaran yang baru saja kita selesaikan, di mana kita telah mempelajari ilmu ekonomi Prancis sebelum Adam Smith, sudah cukup untuk membuktikan kesalahan konsepsi ini. Selain itu, pada tahun yang sama 1776, buku lain mungkin pantas mendapat pujian lebih dari sejarawan daripada buku Adam Smith: buku itu ditulis oleh Condillac dan berjudul sederhana [_Commerce and Government Considered in Their Mutual Relationship_}(https://archive.org/details/commercegovernme0000cond). 
 
 ![image](assets/id/085.webp)
 
+Bagi Condillac, jika pertukaran sofisme yang dilihat sebagai permainan zero-sum bertahan, kaum Fisiokrat sebagian patut disalahkan, karena mereka mempertahankan bahwa pertukaran adalah hubungan kesetaraan. Menurut Condillac, ini salah: pertukaran adalah hubungan yang tidak setara (unequal relationship), di mana seseorang selalu memberi lebih sedikit untuk mendapatkan lebih banyak.
 
-Bagi Condroac, jika sofisme Exchange yang dilihat sebagai permainan zero-sum tetap ada, kaum Fisiokratlah yang harus disalahkan, karena mereka berpendapat bahwa Exchange adalah sebuah hubungan kesetaraan. Menurut Condillac, hal ini salah: Exchange adalah hubungan yang tidak setara, di mana seseorang selalu memberikan lebih sedikit untuk mendapatkan lebih banyak.
+Antara ide-ide Kaum Fisiokrat dan ide-ide Condillac, tidak ada oposisi yang lebih sempurna yang bisa diimpikan. Ekonom Fisiokrat Le Trosne menulis:
 
-
-Antara gagasan kaum Fisiokrat dan gagasan Condillac, seseorang tidak dapat memimpikan oposisi yang lebih sempurna. Ekonom Fisiokrat, Le Trosne, menulis:
-
-
-> Exchange pada dasarnya adalah Contract dengan kesetaraan, terbuat dari nilai yang sama untuk nilai yang sama.
+> Pertukaran pada dasarnya adalah kontrak kesetaraan, dibuat dari nilai yang sama untuk nilai yang sama.
 
 Condillac, di sisi lain, menulis:
 
+> Setiap pihak dalam kontrak selalu memberikan sesuatu yang bernilai lebih rendah untuk mendapatkan sesuatu yang bernilai lebih tinggi.
 
-> Setiap pihak dalam Contract selalu memberikan sesuatu yang bernilai lebih rendah untuk mendapatkan sesuatu yang bernilai lebih tinggi.
+Namun, pertentangannya sebagian besar adalah masalah kata-kata. Keduanya setuju bahwa ketika seseorang menukar satu franc dengan sebuah buku, buku itu bernilai satu franc, atau harga buku itu adalah satu franc.
 
-Namun, pertentangannya sebagian besar adalah kata-kata. Keduanya setuju bahwa ketika seseorang menukar satu franc dengan sebuah buku, buku tersebut bernilai satu franc, atau harga buku tersebut adalah satu franc.
+Perbedaannya terletak pada fakta bahwa Condillac menegaskan bahwa karena kita menukar satu franc dengan buku, itu berarti bahwa bagi kita, nilai buku lebih tinggi daripada koin satu franc kita. Kita lebih memilih buku daripada koin, dan itulah mengapa kita melakukan pertukaran.
 
+Teori Condillac pada dasarnya tidak bertentangan dengan Kaum Fisiokrat, tetapi mereka tidak berbicara dalam bahasa yang sama. Le Trosne berbicara tentang harga (price) sementara Condillac berbicara tentang nilai (value), dan sebaliknya.
 
-
-
-
-Perbedaannya terletak pada fakta bahwa Condillac menegaskan bahwa karena kami Exchange satu franc untuk sebuah buku, maka bagi kami, nilai buku lebih tinggi daripada nilai koin satu franc. Kami lebih memilih buku daripada koin, dan itulah mengapa kami membuat Exchange.
-
-
-Teori Condillac pada dasarnya tidak bertentangan dengan teori kaum Fisiokrat, tetapi mereka tidak berbicara dalam bahasa yang sama. Le Trosne berbicara tentang harga, sementara Condillac berbicara tentang nilai, dan sebaliknya.
-
-
-Di mana Condillac benar adalah bahwa jika harga sama antara dua barang yang dipertukarkan, nilainya tidak sama, jika tidak, tidak ada Exchange yang akan terjadi.
-
+Di mana Condillac benar adalah bahwa jika harga sama antara kedua barang yang dipertukarkan, nilai tidak sama—jika tidak, tidak ada pertukaran yang akan terjadi.
 
 Untuk meringkas teori Condillac, ada tiga proposisi yang bisa dicantumkan:
 
-
-Proposisi pertama: kita mencari barang karena kegunaannya. Hal ini tampak jelas, tetapi ini adalah prinsip utama ilmu ekonomi bahwa manusia mencari barang untuk mendapatkan utilitas, sebuah poin yang juga dikembangkan dengan sempurna oleh Jean-Baptiste Say.
-
+Proposisi pertama: Kita mencari barang karena utilitasnya (utility). Ini tampaknya jelas, tetapi ini adalah prinsip prinsip ilmu ekonomi bahwa manusia bertukar untuk memperoleh kegunaannya, sebuah poin yang juga dikembangkan dengan sempurna oleh Jean-Baptiste Say.
 
 ![image](assets/id/086.webp)
 
+Proposisi kedua: Nilai mendahului dan memotivasi pertukaran. Penilaian subjektif yang dibuat setiap orang tentang barang dan jasa menyiratkan bahwa barang dan jasa yang sama ini memiliki nilai bagi mereka, bernilai lebih atau kurang sesuai dengan utilitas yang tampaknya mereka berikan. Tentu saja, setiap individu menilai secara berbeda dari yang lain, dan nilai bervariasi pada setiap orang.
 
-Proposisi kedua: nilai sudah ada sebelumnya dan memotivasi pertukaran. Penilaian subjektif yang dibuat setiap orang tentang barang dan jasa menyiratkan bahwa barang dan jasa yang sama memiliki nilai bagi mereka, bernilai lebih atau kurang sesuai dengan utilitas yang tampaknya mereka berikan. Secara alami, setiap individu menilai secara berbeda dari yang lain, dan nilai bervariasi dari satu orang ke orang lain.
+Terakhir, Harga adalah konsekuensi dari proses pertukaran. Produk tidak dipertukarkan pada nilai yang saya berikan kepada mereka karena kondisi pertukaran juga bergantung pada nilai subjektif yang diberikan oleh penjual pada produk tersebut. Hubungan antara pembeli dan penjual, atau antara apresiasi subjektif pembeli dan apresiasi subjektif penjual, menetapkan suatu harga.
 
+Ide-ide Condillac ini fundamental. Ide-ide ini memungkinkan kita untuk memahami mengapa setiap pertukaran selalu saling menguntungkan (mutually beneficial).
 
-Terakhir, proposisi ketiga: harga adalah konsekuensi dari proses Exchange. Produk tidak akan menjadi Exchange pada nilai yang saya berikan kepada mereka karena kondisi Exchange juga bergantung pada nilai subjektif yang diatribusikan oleh penjual kepada produk tersebut. Hubungan antara pembeli dan penjual, atau antara apresiasi subjektif pembeli dan apresiasi subjektif penjual, menentukan harga.
-
-
-Ide-ide Condillac ini sangat mendasar. Mereka memungkinkan kita untuk memahami mengapa setiap Exchange selalu saling menguntungkan.
-
-
-Oleh karena itu, mereka sepenuhnya menghancurkan kritik terhadap perdagangan bebas, karena proteksionisme hanya muncul sebagai mekanisme yang mencegah populasi untuk saling menguntungkan satu sama lain. Laissez-faire juga merupakan kesimpulan dari karya Condillac. Biarkan orang melakukan apa yang mereka inginkan, karena jika kekuasaan publik melindungi kebebasan dan properti, manusia akan selalu memperkaya satu sama lain dengan saling bertukar.
-
+Oleh karena itu, ide-ide ini sepenuhnya menghancurkan kritik terhadap perdagangan bebas, karena proteksionisme hanya terlihat sebagai mekanisme yang mencegah populasi saling menguntungkan satu sama lain. Laissez-faire juga merupakan kesimpulan dari karya Condillac. Biarkan orang melakukan apa yang mereka inginkan, karena jika kekuatan publik melindungi kebebasan dan properti, manusia akan selalu saling memperkaya dengan bertukar bersama.
 
 ## Condorcet
 
-
 <chapterId>99e4aba6-da7f-5041-b02f-337158381515</chapterId>
-
 
 Condorcet tidak diragukan lagi adalah filsuf yang paling berpikiran ekonomis pada masa Pencerahan.
 
@@ -1297,98 +1104,55 @@ Condillac menegaskan bahwa Exchange selalu saling menguntungkan dan oleh karena 
 
 Semua ide ini akan diambil oleh para ekonom di abad ke-19. Beberapa, seperti Jean-Baptiste Say, akan memberikan ide-ide ini ekspresi ilmiah melalui *Treatise on Political Economy* yang ketat. Sebaliknya, yang lain berusaha mempopulerkan maksim-maksim fundamental ini dengan menjelajah ke dunia dongeng, novel, dan cerita pendek yang lucu, seperti yang dilakukan oleh Frédéric Bastiat dengan terampil.
 
-
 ## Biografi
-
 
 <chapterId>17cf2865-e53c-5f3b-a5c2-a43560efaf01</chapterId>
 
-
 **DAFTAR PUSTAKA SELEKTIF**
 
-
-Di bawah ini, Anda akan menemukan pilihan lebih dari tiga puluh tulisan:
-
+Di bawah ini, Anda akan menemukan pilihan lebih dari 30 tulisan:
 
 1. Pierre Clément, Histoire de Colbert et de son administration, Paris, 1874
-
 2. Vauban, Projet d'une dîme royale, 1707; cetak ulang Institut Coppet, 2014; Anne Blanchard, Vauban, Fayard, 1996
-
 3.	Boisguilbert, Détail de la France, 1695; diterbitkan ulang oleh Institut Coppet, 2014
-
 4. Félix Cadet, Pierre de Boisguilbert: pendahulu para ekonom, Institut Coppet, 2014
-
 5. Pierre de Boisguilbert ou la naissance de l'économique politique, Paris, INED, 1966
-
 6. Richard Cantillon, Essai sur la nature du commerce en général, 1755; dicetak ulang oleh Institut Coppet, 2015
-
 7. Antoin Murphy, Richard Cantillon, bankir dan ekonom, Oxford, 1986
-
 8. Gustave de Molinari, Kepala Biara Saint-Pierre, Paris, 1859
-
 9. Kepala Biara Saint-Pierre, Abrégé du projet de paix perpétuelle, Rotterdam, 1729
-
 10. Kepala Biara Saint-Pierre, "Projet pour perfectionner le commerce de la France", dalam Les rêves d'un homme de bien, Paris, 1775, hlm.199
-
 11. André Alem, Le marquis d'Argenson et l'économique politique au début du XVIIIe siècle, Institut Coppet, 2015
-
 12. Journal et mémoires du marquis d'Argenson, edisi Rathery, 9 jilid, Paris, 1859-1867
-
 13. Benoît Malbranque, Vincent de Gournay: ekonomi politik laissez-faire, Institut Coppet, 2016
-
 14. Vincent de Gournay, Remarques sur la traduction de Josiah Child, L'Harmattan, 2008
-
 15. Christine Théré & Loïc Charles (eds.), Le cercle de Gournay, INED, 2005
-
 16. Antoin Murphy, "Le développement des idées économiques en France (1750-1756)", Revue d'histoire moderne et contemporaine, tome XXXIII, Oktober-Desember 1986
-
 17. Henri Ripert, Le marquis de Mirabeau: ses théories politiques et économiques, Paris, 1901
-
 18. Lucien Brocard, Les doctrines économiques et sociales du marquis de Mirabeau dalam L'Ami des Hommes, Paris, 1902
-
 19. Humbert de Montlaur, Mirabeau, l'Ami des Hommes, Perrin, 1992
-
 20. Yves Guyot, François Quesnay et la Physiocratie, Institut Coppet, 2014
-
 21. François Quesnay, Œuvres économiques complètes et autres textes, 2 vols, INED, 2005
-
 22. Georges Weulersse, Le mouvement physiocratique en France (de 1756 à 1770), 2 vols, Paris, 1910
-
 23. Georges Weulersse, La Physiocratie à la fin du règne de Louis XV (1770-1774), P.U.F., 1959
-
 24. Georges Weulersse, La Physiocratie sous les ministères de Turgot et de Necker (1774-1781), P.U.F., 1950
-
 25. Georges Weulersse, La physiocratie à l'aube de la révolution (1781-1792), EHESS, 1985
-
 26. P. Jolly, Du Pont de Nemours, soldat de la liberté, Paris, P.U.F., 1956
-
 27. Tulisan-tulisan ekonomi Voltaire, Institut Coppet, 2013
-
 28. Gustave Schelle (ed.), Œuvres de Turgot et documents le concernant, Paris, 1913-1924
-
 29. Benoît Malbranque, Le libéralisme à l'essai : Turgot intendant du Limousin (1761-1774), Institut Coppet, 2015
-
 30. Pierre Foncin, Essai sur le ministère de Turgot, Paris, 1877
-
 31. Auguste Lebeau, Condillac économiste, Paris, 1903
-
 32. Condillac, Le commerce et le gouvernement considérés relativement l'un avec l'autre, 1776
-
 33. Condorcet, Mélanges d'économi politique, dalam Eugène Daire (ed.), Mélanges d'économi politique, Paris, 1847
-
 34. P. Jolly, Du Pont de Nemours, soldat de la liberté, Paris, P.U.F., 1956
-
 35. Eli Heckscher, Mercantilism, 2 jilid. London: Allen and Unwin. 1935
-
 
 # Bagian akhir
 
-
 <partId>385bffab-aea1-5bcd-9569-62b3f30665b7</partId>
 
-
 ## Ulasan & Peringkat
-
 
 <chapterId>a1e689d9-abd0-5dcb-ba56-a8d355d0a84f</chapterId>
 
@@ -1396,15 +1160,12 @@ Di bawah ini, Anda akan menemukan pilihan lebih dari tiga puluh tulisan:
 
 ## Ujian akhir
 
-
 <chapterId>bdb7fd98-33e7-11f0-9fe6-b785c859ffc5</chapterId>
 
 <isCourseExam>true</isCourseExam>
 
 ## Kesimpulan
 
-
 <chapterId>3b366ff6-03c8-5f6a-b4c0-ba8186e65d7e</chapterId>
-
 
 <isCourseConclusion>true</isCourseConclusion>

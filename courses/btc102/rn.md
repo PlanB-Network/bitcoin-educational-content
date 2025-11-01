@@ -416,29 +416,29 @@ Ubu buryo buratanga ubukomezi bwinshi kandi bufasha kumenya neza ko amakuru yawe
 ### Umuti w'inzozi mbi z'umwidondoro
 
 
-Imwe mu mpamvu nini zituma abantu bafatwa n’abantu ni ugukoresha amajambo y’ibanga agoyagoya. Umubare munini w’abakoresha baracariko barasubira gukoresha ijambobanga rimwe ku makonti menshi, canke bagahitamwo ibintu bitandukanye vyoroshe gutekereza ku bintu. Abacungezi b’amajambo banga ni umuti mwiza w’ico kibazo.
+Imve mu mvo nyinshi zituma abantu binjirirwa ni ugukoresha amajambo kabanga(password) agoyagoya. igitigiri kinini c'abanywanyi baracakoresha ijambo kabanga rimwe kuma conti menshi, canke bagahitamwo gukoresha ibintu(indome ibiharuro canke utumenyetso) vyoroshe kwiyumvira canke gutora. Abatunganya amajambo y'ibanga bafise inyishu nziza kuri ico kibazo.
 
 
-Umucungerezi w'ijambobanga araguha:
+Umucungerezi w'ijambobanga aragufasha:
 
 
-- Bika amajambobanga yawe yose neza** mu nzu y'ibanga
-- generate amajambobanga maremare, agoranye, kandi yihariye** yihuta kuri konti yose
-- Koresha ijambobanga rimwe gusa**,kugira ngo ushikire vyose ata nkomanzi
+-**Bika amajambobanga yawe yose mumutekano** mu bubiko bukomeye bukoresha ubuhinga bwo kunyegeza(encrypted vault)
+-**Bakuronsa amajambobanga maremare, asize ubwenge, kandi yikinege** baguhitishamwo kuri buri conti.
+-**Koresha ijambobanga rimwe gusa**,kugira ngo ushikire vyose ata nkomanzi kandi mumutekano
 
 
-Ufise umucungerezi w'ijambobanga, ntuzokwigera usubira gukanda "Ijambobanga ryibagiwe" canke wizigire amakuru y'ibanga agoyagoya, yasubiwemwo. Kandi, benshi mu bacungezi b’ijambobanga barakorana neza n’ibikoresho vyawe vyose (desktop, telefone, tablet) mbere n’amafishi yo kwinjira, bituma kwinjira ata nkomanzi kandi bikora neza.
+Ufise uwucungera ijambobanga, ntuzokwigera usubira gukanda "Ijambobanga ryibagiwe" canke wizigire amakuru y'ibanga agoyagoya, yasubiwemwo. Kandi, benshi mu bacungezi b’ijambobanga barakorana neza n’ibikoresho vyawe vyose (desktop, telefone, tablet) mbere n’amafishi yo kwinjira, bituma kwinjira ata nkomanzi kandi bikora neza.
 
 
 ![BTC102-Bitcoin](assets/fr/011.webp)
 
 
-Hariho abacungezi benshi b’ijambobanga hanze, ariko ndashobora gutanga inama y’uburyo bubiri bukomeye bivanye n’ivyo ukeneye. Niba uriko urarondera ikintu coroshe gukoresha gikorana neza n'ibikoresho vyinshi, Bitwarden ni ihitamwo ryiza cane:
+Hariho abacungezi benshi b’ijambobanga hanze, ariko ndashobora gutanga uburyo bubiri bukomeye bivanye n’ivyo ukeneye. Niba uriko urarondera ikintu coroshe gukoresha gikorana neza n'ibikoresho vyinshi, Bitwarden uguhitamwo kwiza cane:
 
 
 https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-Niba ushaka kubika vyose mu karere ku gikoresho cawe bwite, KeePass ni uburyo bwiza cane:
+Niba ushaka kubika vyose mu bubiko bwawe bwo kunyabwonko yawe, KeePass ni uburyo bwiza cane wohitamwo:
 
 
 https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
@@ -446,13 +446,13 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 ### 2FA: uburinzi bubiri
 
 
-Muri Bitcoin, uri banki yawe bwite. Ivyo bisigura ko nawe uri umugwi wawe w’umutekano. Naho woba ufise ijambobanga rikomeye, nta kintu nk’ico co gutera ingorane-ni co gituma gukoresha ukwemeza ibintu bibiri (2FA) ari ngombwa.
+Muri Bitcoin, uri banki yawe bwite. Ivyo bisigura ko ari wewe nyene ufise igikorwa co kwikingira. Naho woba ufise ijambobanga rikomeye, ntanarimwe utaba ufise amahirwe yo kwinjirirwa ni co gituma gukoresha ukwimenyekanisha mu buryo bibiri (2FA) ari vyiza cane.
 
 
 ![BTC102-Bitcoin](assets/fr/014.webp)
 
 
-2FA yongerako Layer ya kabiri y’uburinzi mu gusaba kode y’igihe kimwe ishingiye ku gihe (kenshi imibare 6) ivugwa na porogaramu nka Google Authenticator canke Authy. Rero naho umuntu yoshobora kuronka ijambo banga ryawe, ntashobora kwinjira muri konti yawe ata n’umwe afise uburenganzira bwo kwinjira muri telefone yawe.
+2FA yongerako urukuta rwa kabiri rw'uburinzi mu gusaba kode imara igihe gito(kenshi ibiharuro 6) ivugwa na porogaramu nka Google Authenticator canke Authy. Rero naho umuntu yoshobora kuronka ijambo banga ryawe, ntashobora kwinjira muri konti yawe ata n’umwe afise uburenganzira bwo kwinjira muri telefone yawe.
 
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
@@ -460,18 +460,18 @@ https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-
 ![BTC102-Bitcoin](assets/fr/009.webp)
 
 
-Iyo ushoboje 2FA, urabe ko ubika urufunguzo rwo gusubizaho porogarama yawe ahantu hatagira inkomanzi. Ivyo bizotuma usubirana ama code yawe iyo utakaje canke uhinduye telefone yawe. Naho 2FA ishingiye kuri SMS canke kuri email ari nziza kuruta ubusa, nta mutekano ufise. Igitero co guhindura SIM, aho umuntu afata ububasha ku inomero yawe ya telefone, gishobora guca mu nzira y’ubwo bwoko bw’uburinzi bitagoranye.
+Iyo ushoboje 2FA, urabe ko ubika urufunguzo rwo gusubizaho porogarama yawe ahantu hari umutekano. Ivyo bizotuma usubirana ama code yawe iyo utakaje canke uhinduye telefone yawe. Naho 2FA ishingiye kuri SMS canke kuri email ari nziza kurusha, nta mutekano ufise. Ikibazo co guhindura SIM, aho umuntu agize ububasha kuri numero ya telephone yawe, vyoshobora gutuma arenga kubwo buhinga bwo kwikingira.
 
 
 ![BTC102-Bitcoin](assets/fr/010.webp)
 
 
-Ku bashaka gutera intambwe imbere mu bijanye n’umutekano, imfunguruzo z’umubiri nka YubiKey zitanga uburinzi burengeye ubw’ibindi.
+Ku bipfuza gukomeza cane akamaro k'umutekano, imfunguruzo ushobora gukorako(physical keys) nka YubiKey zitanga umutekano ukomeye cane kurusha.
 
 
 https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
-### Gukingira ubuzima bwite bwawe
+### Gukingira ubuzima bwawe bw'ibanga
 
 
 Ubuzima bwite n’umutekano wo kuri Internet birafitaniye isano cane: uko usiga amakuru menshi umuntu ashobora kuyaronka ata nkomanzi, ni ko urushiriza kugira amahirwe yo gufatwa.

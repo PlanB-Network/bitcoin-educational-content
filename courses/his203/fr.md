@@ -379,11 +379,9 @@ Le krach éclair n'est cependant pas le seul évènement dramatique qui se produ
 
 ### Les conséquences des piratages
 
-Le résultat est catastrophique pour Mark...
+Le résultat est catastrophique pour Mark et pour Mt. Gox... La plateforme de change est fermée pendant un temps, ce qui supprime l'accès au marché le plus liquide de l'écosystème. L'enthousiasme spéculatif se calme par conséquent, et le prix commence à baisser. Le 5 juillet, un bitcoin ne s'échange plus que pour 13 $.
 
-La conséquence des piratages est de mettre fin à l'enthousiasme spéculatif. La plateforme Mt. Gox est fermée pendant un temps ce qui gèle la plus grande place de marché de l'écosystème. Le 5 juillet, le prix n'est plus que de 13 $.
-
-Ces piratages atteignent l'image de Bitcoin auprès du grand public. Même si un piratage individuel n'est pas représentatif du reste du réseau et même si Mt. Gox n'est qu'un service de change fonctionnant avec la cryptomonnaie, le commun des mortels a tendance à assimiler Bitcoin dans son ensemble à ces choses. Le 20 juin, Tim Worstall [écrit](https://www.forbes.com/sites/timworstall/2011/06/20/so-thats-the-end-of-bitcoin-then/) un article pour Forbes dans lequel il annonce « la fin de l'expérience Bitcoin » (original: "the end of the Bitcoin experiment"), ce qui en fait l'un des premiers « avis de décès de Bitcoin » (original: "Bitcoin obituaries") publiés par la presse (qui seront [recensés](https://web.archive.org/web/20150106024100/http://bitcoinobituaries.com/) sur le site web de Jordan Tuwiner à partir de 2014). Il écrit :
+Les piratages atteignent l'image de Bitcoin auprès du grand public. Bien qu'un piratage individuel ne soit pas représentatif du reste du réseau et même si Mt. Gox n'est qu'un service de change fonctionnant avec la cryptomonnaie, le commun des mortels a tendance à assimiler Bitcoin dans son ensemble à ces choses. Le 20 juin, Tim Worstall [écrit](https://www.forbes.com/sites/timworstall/2011/06/20/so-thats-the-end-of-bitcoin-then/) un article pour Forbes dans lequel il annonce « la fin de l'expérience Bitcoin » (original: "the end of the Bitcoin experiment"), ce qui en fait l'un des premiers « avis de décès de Bitcoin » (original: "Bitcoin obituaries") publiés par la presse (qui seront [recensés](https://web.archive.org/web/20150106024100/http://bitcoinobituaries.com/) sur le site web de Jordan Tuwiner à partir de 2014). Il écrit :
 
 > « Les bitcoins ne sont pas sécurisés, comme le montrent à la fois le vol récent et le problème des mots de passe. Ils ne sont pas liquides, ni ne forment une réserve de valeur comme en témoigne l'effondrement du prix, et s'ils ne sont rien de tout cela, ils ne seront pas non plus un bon moyen d'échange, car qui voudrait les accepter ? »
 >

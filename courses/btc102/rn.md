@@ -361,59 +361,59 @@ Niba ushaka kuja kure cane, inyigisho ya Plan ₿ Network SEC101 itanga urutonde
 
 https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
-### Igituma umutekano wo kuri Internet uhambaye
+### Igituma umutekano wo kuri Interineti ari kirumara
 
 
-Bitcoin iguha ububasha bwo gufata amahera yawe directement(ata mabanki), ata bahuza. Ariko ubwo bwoko bw’ubusegaba bw’ivy’ubutunzi buzana n’inshingano zikomeye: iyo BTC yawe yibwe kubera ukubura umutekano, nta buryo bwo guhindura iyo nzira. Udakunze banki za kera, nta n’imwe ifasha, nta n’ikirego c’ubuhendanyi, kandi nta n’ubwishingizi bwo kugukiza.
+Bitcoin iguha ubushobozi bwo gufata amafaranga yawe yose muminwe(ata mabanki), ata bahuza. Ariko ubwo bwoko bw’ubwigenge bw’ivy’ubutunzi buzana n’amabanga akomeye: iyo BTC yawe yibwe kubera ukubura umutekano, nta buryo nabumwe buhari bwo gusubira inyuma ngo uyigarukane. Urumva bitandukanye n'aya ma banki tumenyereye, nta nakimwe kigufasha kuyagarura, ntanaho woshobora gushinga urubanza iyo wibwe nta n’ubwishingizi bwo kugukiza.
 
 
-Hejuru y’ivyo, agaciro k’amahera ka Bitcoin gatuma iba intumbero y’agaciro kanini. Hacker ashobora guhungabanya Wallet yawe ashobora guca yimurira amahera yawe kuri Address bagenzura(nta bibazo bibazwa, nta buryo bwo kuyagarura).
+None kandi, inyungu z’ukuri z’Ibinii Bitcoin ziratuma uba icari c’abantu binkozi zikibi: umu hacker yokwiba BTC zawe ashobora kuzimurira ako kanya ku konti yiwe ya Bitcoin, ata buryo na bumwe bwo kuzigarura. Muri ivyo bihe, isuku nziza yo kuri interinete si ikintu co kwitega gusa: ni umurongo wa mbere wo kurinda ko ivyakozwe hamwe n’amafaranga yawe bitava mu maboko yawe.
 
 
-### Mudasobwa isukuye kandi iri ku gihe
+### Inyabwonko isukuye kandi iri ku gihe
 
 
-Kimwe mu bintu umuntu yirengagiza cane mu bijanye n’umutekano wawe ni ugutuma ubuhinga bwawe bwo gukoresha n’ubuhinga bwawe buguma bugezweho. Ivyiyumviro vyinshi bishasha birashiramwo utunenge tuzwi twoshobora gukoreshwa n’abatera. Naho abantu bamwebamwe birinda guhindura ibintu bishasha batinya ingorane z’ubushobozi, ingorane nyayo iri mu gukoresha porogarama za kera abasuma bamaze kumenya gusenyura.
+Kimwe mu bintu vyirengagizwa cane mu bijanye n’umutekano wawe wo kuri internet ni ugushira kugihe iminsi yose ubuhinga ukoresha. Ivyiyumviro vyinshi bishasha birakuramwo utunenge tumenyewe nkudushobora gukoreshwa ninkozi zikibi. Naho bamwe bamwe birinda gushira munyabwonko zabo ibintu bishasha mugutinya ko inyabwonko zabo bica zikora bukebuke, ingorane nyayo iri mu gukoresha porogarama za kera canke ubuhinga bwa kera abasuma baza baramaze kumenyera no kumenya utunenge twazo baba bazi ahari inzira yoroshe yo kukwiba.
 
 
-Ni vyiza cane kandi gukoresha antivirus yizewe. Kuri Windows, Windows Defender yubatswemwo muri rusangi irahagije ku bakoresha benshi. Niba ushaka ibindi bikoresho canke amahoro yo mu mutima, amahitamwo y’ubudandaji nka Kaspersky na yo araboneka. Ku macOS, iterabwoba rya malware ni ryinshi cane mu mateka **ariko ntabwo rihari** rero biracari vyiza kuguma wiyubara.
+Ni vyiza cane kandi gukoresha antivirus yizewe. Kuri Windows, Windows Defender yubatswemwo muri rusangi irikwije ku bakoresha benshi. Niba ushaka ibindi bikoresho canke amahoro yo mu mutima, amahitamwo antivirus idandazwa nka Kaspersky kandi araboneka. Ku macOS, iterabwoba rya malware ni ryinshi cane mu mateka **ariko riguma ryoshoboka** rero nivyiza cane kwama wiyubara ukikingira.
 
 
 ![BTC102-Bitcoin](assets/fr/012.webp)
 
 
-Uretse guhindura sisitemu no gukingira virusi, urabe maso cane mu gukura porogarama ku mbuga zidasanzwe canke ku mbuga zitwa "universal". Iyo ukeneye igikoresho canke porogaramu, wama ugenda ugororotse ku nzira yemewe;Ivyo bigabanya cane ingorane zo gushiramwo porogarama mbi yiyoberanije nk'iporogarama yemewe.
+Hejuru y'ivyo guhindura sisitemu no gukingira virusi, urabe maso cane mu gukura porogarama ukoresha ku mbuga zidasanzwe canke ku mbuga zitwa "universal". Iyo ukeneye igikoresho canke porogaramu, wama ugenda ugororotse ku nzira yemewe, Ivyo bigabanya cane ingorane zo gushiramwo porogarama mbi yiyoberanije nk'iporogarama yemewe.
 
-Ikindi kintu c’ubwenge ni ugusuzuma ko porogarama iyo ari yo yose ari iyo ukuri be n’uko idakora neza imbere y’uko uyishira ku mashine yawe. Niba utazi neza uko wobikora, ntuhagarike umutima dufise inyigisho yihariye izogufasha guca muri iyo nzira:
+Ikindi kintu c’ubwenge ni ugusuzuma ko porogarama iyo ari yo yose ari iyo ukuri be n’uko ikora neza imbere y’uko uyishira mu nyabwonko yawe. Niba utazi neza uko wobikora, ntugire ikibazo dufise inyigisho ubwayo izogufasha kumenya ivyo vyose:
 
 
 https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
-Ubwa nyuma, nukore ububiko bw’amakuru yawe ahambaye. Igikoresho co hanze ca Hard canke SSD ni uburyo bukomeye bwo kubika kopi y’amadosiye yawe mu gihe yoba yananiwe bukwi na bukwi, akayitera, canke akayikuraho mu mpanuka. Uzokwishimira mu nyuma.
+Ubwa nyuma, uze urabika kenshi(iminsi yose) amakuru yawe. ububiko bwo hanze canke SSD(external hard drive or SSD) ni uburyo bukomeye bwo kubika kopi y’amadosiye yawe mu gihe yoba agize ikibazo vyihuse(ihuye na virus), canke agahura nimpanuka yo gufudika. Uzokwishimira mu nyuma.
 
 
-Niba ukunda inyishu z’igicu, wiyumvire gukoresha ubuhinga butekanye nka Proton Drive. Raba neza ko uburyo bwose uhisemwo bubaha ubuzima bwite bwawe kandi bugatanga uburyo bukomeye bwo gukingira.
+Niba ukunda inyishu z’igicu(cloud), urashobora kwiyumvira gukoresha ubuhinga bw/umutekano nka Proton Drive. Raba neza gusa ko ubuhinga bwose uhisemwo gukoresha bwubahiriza ubuzima bwawe bw'ibanga, kandi bukaguha umutekano ukwiye.
 
 
 https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
-Ingamba zo gusubiza inyuma ziremeshwa cane ni "itegeko rya 3-2-1". Igenewe gukingira amakuru yawe gutakaza mu mpanuka, ibitero vyo kuri Internet canke mbere n’ivyago vy’ivyaduka.
+"Itegeko rya 3-2-1". ni ubuhinga uhamagariwra gukoresha mugushingura, Igenewe gukingira amakuru yawe ukuyatakaza mu buryo bw'impanuka, ibitero vyo kuri Interinete canke mbere n’ivyago n’ivyaduka.
 
-Iciyumviro ni coroshe:
-
-
-- Bika **nibura kopi 3** z'amakuru yawe ahambaye,
-- Bibike ku **nibura ubwoko 2 butandukanye bw'ibinyamakuru** (nk'akarorero, umuduga wo hanze Hard n'ububiko bwo mu gicu),
-- Kandi urabe neza ko **1 muri izo kopi zibitswe hanze y'aho uri**(itandukanye n'aho uri).
+Iciyumviro kiroroshe:
 
 
-Ubu buryo buratanga ukwihangana gukomeye kandi bufasha kumenya neza ko amakuru yawe agumaho naho hari ikintu cogenda nabi cane.
+- Bika **nibura kopi 3** z'amakuru yawe ngirakamaro kuruta ayandi,
+- Bibike ku **nibura ubwoko 2 butandukanye bw'ibikoresho bibika amakuru** (nk'akarorero, ububiko bwo hanze(external hard drive) n'ububiko bwo mu gicu(cloud)),
+- Kandi urabe neza ko **1 muri izo kopi zibitswe hanze y'urubuga uriko**(itandukanye n'urwo rubuga uriko).
+
+
+Ubu buryo buratanga ubukomezi bwinshi kandi bufasha kumenya neza ko amakuru yawe agumaho naho hari ikintu kibi coshika.
 
 
 ![BTC102-Bitcoin](assets/fr/013.webp)
 
 
-### Umuti w'inzozi mbi z'indangamuntu
+### Umuti w'inzozi mbi z'umwidondoro
 
 
 Imwe mu mpamvu nini zituma abantu bafatwa n’abantu ni ugukoresha amajambo y’ibanga agoyagoya. Umubare munini w’abakoresha baracariko barasubira gukoresha ijambobanga rimwe ku makonti menshi, canke bagahitamwo ibintu bitandukanye vyoroshe gutekereza ku bintu. Abacungezi b’amajambo banga ni umuti mwiza w’ico kibazo.

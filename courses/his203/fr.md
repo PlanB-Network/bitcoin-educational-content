@@ -975,9 +975,11 @@ Le 15 juin, une coopérative du nom de Mineco.in est [lancée](https://bitcointa
 
 Toujours en juin (le 13), un certain Josh Zerlan (Inaba) ouvre la coopérative EclipseMC, qui a le mérite d'expérimenter en [intégrant](https://bitcointalk.org/index.php?topic=16385.msg364399#msg364399), à partir de la mi-juillet, la méthode géométrique, [décrite](https://bitcointalk.org/index.php?topic=4787.msg69890#msg69890) par le mathématicien israélien Meni Rosenfeld. Le principe est d'utiliser un score (pour faire rester les hacheurs) et de faire décroître la récompense par part de façon géométrique. En septembre, EclipseMC [adopte](https://bitcointalk.org/index.php?topic=16385.msg528287#msg528287) la « méthode double géométrique », conçue une nouvelle fois par Meni Rosenfeld, qui [constitue](https://bitcointalk.org/index.php?topic=39497.msg481864#msg481864) un système hybride entre le modèle PPLNS et la méthode géométrique. Ce système complexe sera également [adopté](https://bitcointalk.org/index.php?topic=14085.msg667220#msg667220) en décembre par Ozcoin, un service de minage groupé australien [lancé](https://bitcointalk.org/index.php?topic=14085.msg193967#msg193967) le 9 juin par un certain Graeme Tee (Graet).
 
-- BitMinter.com, DrHaribo, logiciel de minage *et* coopérative, [Cayman 25/6/2011](https://bitcointalk.org/index.php?topic=22432.msg281686#msg281686) et [BitMinter 8/7/2011](https://bitcointalk.org/index.php?topic=27062.msg340712#msg340712), https://web.archive.org/web/20201223061728/http://s1143.photobucket.com/albums/n629/DrHaribo/Cayman.png, Prop. puis PPLNS ([24/9/2011](https://bitcointalk.org/index.php?topic=27062.msg542688#msg542688))
+D'autres coopératives sauront tirer leur épingle du jeu. On peut citer le groupe minier américain BitMinter, [lancé](https://bitcointalk.org/index.php?topic=22432.msg281686#msg281686) en juin, qui a la particularité de proposer aussi un logiciel de minage. On peut mentionner également la coopérative russe 50BTC.com, [créée](https://bitcointalk.org/index.php?topic=54673.msg651025#msg651025) en décembre, qui fournira un outil de surveillance d'activité pour les mineurs appelé Mining Explorer.
 
-- 50BTC.com, Russie, PPS, 3 % de frais, [15/12/2011](https://bitcointalk.org/index.php?topic=54673.msg651025#msg651025), PPS principalement ; devient une grosse coopérative en 2012 (10–15 % en septembre 2012) ; exit scam fin 2013 : https://bitcointalk.org/index.php?topic=359277.0
+![L'outil Mining Explorer en mai 2012](assets/en/mining-explorer-50btc-may-2012.webp)
+
+*L'outil Mining Explorer en mai 2012 (source : [archive](https://web.archive.org/web/20120609002559/http://miningexplorer.org/) de Miningexplorer.org)*
 
 ### Eligius, la coopérative de Luke-Jr
 

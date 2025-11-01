@@ -324,21 +324,21 @@ Ariko ukamenya ko ingingo nziza yo kwikingira ni indero yawe bwite, ukugira amak
 ### Uko wokwirinda ubusuma
 
 
-**Kugira ngo ugume utekanye kuri internet, cane cane mw'isi ya crypto, uzirikane izi ngingo ngenderwako z'ingenzi:**
+**Kugira ngo ugire umutekano kuri internet, cane cane mw'isi ya crypto, uzirikane izi ngingo ngenderwako zingirakamaro:**
 
 
 
-- Ntukigere wizigira ataco ubona: "*Ntukizere, suzuma*" ;
-- Gukekeranya ku bijanye n’inyungu zizemewe canke zidasanzwe;
-- Ntukigere usangira n’umuntu uwo ari we wese imfunguruzo zawe z’ibanga;
+- Ntuze wigere wizigira atacemeza ubona: "*Ntukizere, suzuma*" ;
+- Gukekeranya ku bijanye n’inyungu zemewe canke ziri hejuru cane;
+- Ntukigere usangira n’umuntu numwe imfunguruzo zawe z’ibanga;
 - Nturungike Bitcoin (canke crypto iyo ari yo yose) ku ma aderesi atazwi;
-- Nimba ushidikanya, nuhagarike. Subira inyuma wiyumvire imbere y’uko ugira ico ukoze. FOMO ni umwansi wawe mubi cane;
+- Nimba ukekeranya, nturungike. Rindira wiyumvire ufate umwanya imbere y’uko ugira ico ukoze. FOMO ni umwansi wawe mubi cane;
 - Irinde imigwi y’ubudandaji canke imiryango y’ubudandaji yishurwa itanga amasezerano atari yo;
 - Ivyinshi mu bihembo canke amatora "y'ubuntu" yo kuri internet ni ubuhendanyi canke ni ubuhendanyi bukomeye;
-- Uzokwama uronka vyinshi mu gihe kirekire mu kwiga kuruta mu gukina urusimbi.
+- Uzokwama wungka vyinshi mu gihe kirekire mu kwiga kuruta mu gukina.
 
 
-Kwikingira ubusuma ni intambwe ya mbere ihambaye cane mu kurinda itunga ryawe; ariko ntibihagije. Kubungabunga isuku rikomeye ry’ubuhinga bwa none ni ikintu gihambaye nk’uko nyene. Ni co gituma, mu kigabane gikurikira, tuzoca irya n’ino ingene wokomeza umutekano wawe wo kuri internet n’ingene wokora neza kugira ngo wikingire mw’isi y’ubuhinga bwa none.
+Kwikingira ubusuma ni intambwe ya mbere ihambaye cane mu kurinda itunga ryawe; ariko ntibikwiye. Kubungabunga isuku rikomeye ry’ubuhinga bwa none ni ikintu gihambaye nk’uko nyene. Ni co gituma, mu kigabane gikurikira, tuzoca irya n’ino ingene wokomeza umutekano wawe wo kuri internet n’ingene wokora neza kugira ngo wikingire mw’isi y’ubuhinga bwa none.
 
 
 ## Umutekano wo kuri interineti
@@ -350,13 +350,13 @@ Kwikingira ubusuma ni intambwe ya mbere ihambaye cane mu kurinda itunga ryawe; a
 :::id ya videwo=2a1b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d::
 
 
-Ukimara gutangura kwinjira muri Bitcoin, uzoca ubona ningoga ko umutekano w’ishimikiro wo kuri interineti atari uguhitamwo—ni ngombwa. Ubuhendanyi n’ubuhendanyi ni isonga gusa ry’uruzitiro. Gutakaza amakuru mu mpanuka, porogarama mbi, n’amajambo y’ibanga bishobora gutuma umuntu agira ingorane nyinshi cane cane iyo uriko uracungera imfunguruzo zawe bwite.
+Ukimara kwinjira mw'isi ya Bitcoin, uzoca ubona ubwonyene ko ikibazo c'umutekano wo kuri interineti atari uguhitamwo ni ngombwa. Ububeshi canke ubupfungakiwani sivyo vyonyene bihanganye. Gutakaza amakuru mu mpanuka bitakuvuyeko, porogarama mbi zigamije gutera ikibazo , kwibwa amajambo y’ibanga bishobora gutuma umuntu agira ingorane nyinshi.
 
 
-Iki gice kigutwara mu ntambwe zimwe zimwe zoroshe kandi zikora kugira ngo ushire hejuru isuku ryawe ry’ubuhinga bwa none no kwikingira mu kirere.
+Iki gice kikwigisha intambwe zimwe zimwe zoroshe kandi zikora kugira ngo ushire hejuru isuku ryawe ry’ubuhinga bwa none no kwikingira.
 
 
-Niba ushaka kuja kure cane, inyigisho ya Plan ₿ Network SEC101 itanga urutonde rw’ingene ingamba zo gucungera umutekano wo kuri interineti zagenewe cane cane abakoresha Bitcoin.
+Niba ushaka kuja kure cane, inyigisho ya Plan ₿ Network SEC101 itanga urutonde rw’ingene intambara zo gucungera umutekano wo kuri interineti zagenewe cane cane abakoresha Bitcoin.
 
 
 https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47

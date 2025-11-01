@@ -16,28 +16,29 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 32.43
+    reward: 32.72
   - language: de
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - CozyCaravan
-    reward: 12.17
+    reward: 12.28
   - language: en
-    last_contribution_date:
+    last_contribution_date: 2025-10-31
     urgency: 1
     contributor_names:
-    reward: 24.35
+      - 2raj2raj
+    reward: 12.28
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 24.35
+    reward: 24.57
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 32.43
+    reward: 32.72
   - language: fr
     last_contribution_date: 2025-08-18
     urgency: 1
@@ -59,102 +60,103 @@ proofreading:
     urgency: 1
     contributor_names:
       - yutaro21jp
-    reward: 24.3
+    reward: 24.52
   - language: pt
     last_contribution_date: 2023-12-24
     urgency: 1
     contributor_names:
-    reward: 24.35
+    reward: 24.57
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 32.43
+    reward: 32.72
   - language: vi
     last_contribution_date: 2024-11-16
     urgency: 1
     contributor_names:
       - Henry-Da0
-    reward: 24.3
+    reward: 24.52
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 32.43
+    reward: 32.72
   - language: id
     last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
       - cindafelicia
-    reward: 20.26
+    reward: 20.44
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 40.52
+    reward: 40.88
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 32.43
+    reward: 32.72
   - language: pl
-    last_contribution_date:
+    last_contribution_date: 2025-10-31
     urgency: 1
     contributor_names:
-    reward: 32.43
+      - MisinhaP
+    reward: 16.36
   - language: hi
     last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
       - e-manuel7
-    reward: 28.34
+    reward: 28.59
   - language: sr-Latn
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - Sanja22B
-    reward: 16.22
+    reward: 16.36
   - language: sw
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 32.43
+    reward: 32.72
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 40.52
+    reward: 40.88
   - language: fa
     last_contribution_date: 2025-05-24
     urgency: 1
     contributor_names:
       - Arshia-r-m
-    reward: 16.22
+    reward: 16.36
   - language: sv
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 24.35
+    reward: 24.57
   - language: nl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 32.43
+    reward: 32.72
   - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 40.52
+    reward: 40.88
   - language: ko
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 32.43
+    reward: 40.88
   - language: rn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 48.6
+    reward: 49.03
 tags:
   - lightning
   - layers

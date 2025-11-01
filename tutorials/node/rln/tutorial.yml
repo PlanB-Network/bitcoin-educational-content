@@ -17,135 +17,135 @@ proofreading:
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 3.03
+    reward: 3.05
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 8.06
+    reward: 8.1
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.07
+    reward: 6.1
   - language: en
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.07
+    reward: 6.1
   - language: es
     last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
       - Salgraphics
-    reward: 3.03
+    reward: 3.05
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 8.06
+    reward: 8.1
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 8.06
+    reward: 8.1
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 10.04
+    reward: 10.1
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.07
+    reward: 6.1
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 12.03
+    reward: 12.1
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 8.06
+    reward: 8.1
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.07
+    reward: 6.1
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 8.06
+    reward: 8.1
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 12.03
+    reward: 12.1
   - language: zh-Hans
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - MilankovicProtocol
-    reward: 5.02
+    reward: 5.05
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 14.02
+    reward: 14.1
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 8.06
+    reward: 8.1
   - language: sr-Latn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 8.06
+    reward: 8.1
   - language: sw
     last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
       - monyangi10
-    reward: 4.03
+    reward: 4.05
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 10.04
+    reward: 10.1
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 8.06
+    reward: 8.1
   - language: sv
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.07
+    reward: 6.1
   - language: nl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 8.06
+    reward: 8.1
   - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 10.04
+    reward: 10.1
   - language: ko
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 8.06
+    reward: 10.1
   - language: rn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 12.03
+    reward: 12.1
 tags:
   - lightning
   - node

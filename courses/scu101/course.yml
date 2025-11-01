@@ -19,22 +19,23 @@ proofreading:
     contributor_names:
     reward: 9.45
   - language: de
-    last_contribution_date:
+    last_contribution_date: 2025-10-31
     urgency: 1
     contributor_names:
-    reward: 7.11
+      - maggo83
+    reward: 3.55
   - language: en
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - 2raj2raj
-    reward: 3.56
+    reward: 3.55
   - language: es
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - lutxoitalico
-    reward: 3.56
+    reward: 3.55
   - language: fi
     last_contribution_date: 2024-04-02
     urgency: 1
@@ -46,7 +47,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - Asi0Flammeus
-    reward: 3.56
+    reward: 3.55
   - language: it
     last_contribution_date: '2025-08-18'
     urgency: 1
@@ -91,7 +92,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 11.79
+    reward: 11.78
   - language: nb-NO
     last_contribution_date: 2025-08-18
     urgency: 1
@@ -104,10 +105,11 @@ proofreading:
     contributor_names:
     reward: 9.45
   - language: hi
-    last_contribution_date:
+    last_contribution_date: 2025-10-31
     urgency: 1
     contributor_names:
-    reward: 16.46
+      - amolutxo
+    reward: 8.23
   - language: sr-Latn
     last_contribution_date:
     urgency: 1
@@ -124,7 +126,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 11.79
+    reward: 11.78
   - language: fa
     last_contribution_date:
     urgency: 1
@@ -142,15 +144,17 @@ proofreading:
       - rogerbracket
     reward: 4.72
   - language: tr
-    last_contribution_date:
+    last_contribution_date: 2025-10-31
     urgency: 1
     contributor_names:
-    reward: 11.79
+      - H5RV
+    reward: 5.89
   - language: ko
-    last_contribution_date:
+    last_contribution_date: 2025-10-31
     urgency: 1
     contributor_names:
-    reward: 9.45
+      - 4xvgal
+    reward: 5.89
   - language: rn
     last_contribution_date:
     urgency: 1

@@ -54,6 +54,12 @@ Tieni presente che, per completare l’iscrizione alla piattaforma P2P (Peer-To-
 Ora possiamo aprire la piattaforma P2P (Peer-To-Peer) per procedere all’iscrizione.
 Puoi accedere da PC desktop o browser su smartphone, tramite il bot Telegram BitcoinVoucherBot oppure tramite link .onion, per garantire un livello di privacy ancora maggiore.
 
+se scegli di utilizzare il link Tor .Onion ti consilgio anche "Tor Browser". Se ancora non lo conosci puoi approfondire a questo link: 
+
+https://planb.academy/it/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+
+Ora scegli come vuoi raggiungere la piattaforma.
+
 - [BitcoinVoucherBot](https://t.me/BitcoinVoucherBot?start=55360009) (Telegram)
 - [Pc Desktop / Browser Smartphone](https://p2p.bitcoinvoucher.bot/?ref=55360009)
 - [Tor .Onion](http://umembxtpokml6fkogemcfnpyt3qqvyw6u3hnvwinevo3gvoe6j7vfyad.onion/?ref=55360009)
@@ -64,7 +70,11 @@ premi su “Get Starter”(“inizia subito”)
 
 ![image](assets/it/03.webp)
 
-Nella schermata successiva devi scegliere una password e inserirla (riquadro A), per poi ripeterla (riquadro B). Ti raccomando di salvare subito questa password su un supporto di backup, che può essere su un dispositivo digitale sicuro come per esempio [Bitwarden](https://planb.academy/it/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9) o un documento cartaceo.
+Nella schermata successiva devi scegliere una password e inserirla (riquadro A), per poi ripeterla (riquadro B). Ti raccomando di salvare subito questa password su un supporto di backup, che può essere su un dispositivo digitale sicuro come per esempio "Bitwarden":
+
+https://planb.academy/it/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
+o un documento cartaceo.
 
 Spunta la casella di verifica dove dichiari di non essere un robot (riquadro C).
 

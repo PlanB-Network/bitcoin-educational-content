@@ -926,36 +926,23 @@ Oleh karena itu, ide-ide ini sepenuhnya menghancurkan kritik terhadap perdaganga
 
 <chapterId>99e4aba6-da7f-5041-b02f-337158381515</chapterId>
 
-Condorcet tidak diragukan lagi adalah filsuf yang paling berpikiran ekonomis pada masa Pencerahan.
-
-
+Condorcet tidak diragukan lagi adalah filsuf yang paling berorientasi pada ekonomi pada masa Pencerahan.
 
 ![image](assets/id/087.webp)
 
+Untuk sebagian besar kariernya, ia mengabdikan dirinya pada bidang-bidang yang sama sekali tidak berhubungan dengan ekonomi, dan memang demikian, karena bakatnya menghasilkan kemajuan besar dalam ilmu-ilmu yang paling ia fokuskan. Tetapi sekitar tahun 1770, ia merasa tertarik pada pertanyaan-pertanyaan ekonomi, mungkin karena filsuf lain, terutama Voltaire dan Diderot, tidak mau repot-repot mendedikasikan waktu senggang mereka untuk hal tersebut, dan juga karena ia telah berteman dengan Turgot.
 
-Untuk sebagian besar karirnya, ia mengabdikan dirinya pada bidang yang sama sekali tidak berhubungan dengan ekonomi, dan memang demikian, karena bakatnya menghasilkan kemajuan besar dalam ilmu pengetahuan yang paling ia fokuskan. Namun sekitar tahun 1770, ia merasa tertarik pada pertanyaan-pertanyaan ekonomi, mungkin karena para filsuf lain, terutama Voltaire dan Diderot, tidak mau repot-repot mendedikasikan waktu senggang mereka untuk hal tersebut, dan juga karena ia berteman dengan Turgot.
+Condorcet secara bertahap merangkul ide-ide laissez-faire dan kebebasan, pada awalnya di bidang-bidang yang tidak terkait dengan ekonomi politik. Dalam _Letter of a Theologian_, ia secara filosofis mencemooh agama Katolik dan menyatakan keinginannya untuk melihat kebebasan berkeyakinan yang tulus, termasuk kebebasan untuk tidak percaya. Dalam kampanyenya untuk toleransi dan melawan fanatisme agama, Condorcet berjuang untuk rehabilitasi Chevalier de la Barre dan untuk pengadilan ulang D'Etallonde, yang telah dijatuhi hukuman mati karena mematahkan salib.
 
-
-
-Condorcet secara bertahap merangkul ide-ide laissez-faire dan kebebasan, awalnya di bidang-bidang yang tidak terkait dengan ekonomi politik. Dalam *Letter of a Theologian*, ia secara filosofis mengejek agama Katolik dan mengungkapkan keinginannya untuk melihat kebebasan berkeyakinan yang sejati, termasuk kebebasan untuk tidak percaya. Dalam perang salibnya untuk toleransi dan melawan fanatisme agama, Condorcet memperjuangkan rehabilitasi Chevalier de la Barre dan pengadilan ulang D'Etallonde, yang telah dijatuhi hukuman mati karena mematahkan salib.
-
-
-
-Oleh karena itu, ia siap untuk membela kebebasan ketika temannya, Turgot, naik ke posisi Pengawas Keuangan.
-
-
+Oleh karena itu, Ia siap untuk membela kebebasan ketika temannya Turgot naik ke posisi Pengawas Jenderal Keuangan (Controller-General of Finances).
 
 ![image](assets/id/088.webp)
 
+Sejak saat itu, karier Condorcet berubah ketika saat ia memasuki debat ekonomi, tanpa lelah mendukung reformasi liberal dari menteri baru. Mendukung persaingan dan kebebasan perdagangan, Condorcet juga menyerukan penghapusan corvée (kerja paksa), gilda, dan pajak yang adil. Ia menyuarakan keyakinan ini secara publik setiap ada kesempatan, melakukannya dengan antusiasme yang jelas; ia menulis secara ekstensif dan pernah menyatakan dalam tulisannya: "Izinkan saya berbicara lagi tentang kebebasan perdagangan; saya senang terlibat dengan subjek ini."
 
-Sejak saat itu, karier Condorcet berubah ketika ia memasuki perdebatan ekonomi, tanpa lelah mendukung reformasi liberal dari menteri yang baru. Mendukung kompetisi dan kebebasan berdagang, Condorcet juga menyerukan penghapusan corvées (kerja paksa), serikat pekerja, dan perpajakan yang adil. Dia menyuarakan keyakinan-keyakinan ini di depan umum setiap kali ada kesempatan, dengan antusiasme yang tinggi; dia menulis secara ekstensif dan pernah menyatakan dalam tulisannya: "Izinkan saya untuk berbicara lagi tentang kebebasan berdagang; saya senang terlibat dengan subjek ini."
+Antara tahun 1774 dan 1776, selama masa kementerian Turgot, Condorcet membuat banyak intervensi, yang semuanya ditandai dengan komitmennya pada laissez-faire. Karya-karyanya meliputi _Letters from a Farmer of Picardy to Mr. Necker_, yang membela perdagangan bebas; _Monopolies and Monopolists_, yang menganjurkan persaingan bebas; _Reflections on Corvées_, yang menyerukan penghapusan mereka; dan _Reflections on the Grain Trade_, yang sekali lagi memuji perdagangan bebas dan mengkritik buku Necker tentang subjek yang sama.
 
-
-Antara tahun 1774 dan 1776, selama masa jabatan Turgot, Condorcet melakukan banyak intervensi, yang semuanya ditandai dengan Commitment-nya terhadap laissez-faire. Karya-karyanya termasuk *Surat dari Petani Picardy kepada Tuan Necker*, yang membela perdagangan bebas; *Monopoli dan Monopoli*, yang menganjurkan persaingan bebas; *Refleksi tentang Corvées*, yang menyerukan penghapusannya; dan *Refleksi tentang Perdagangan Biji-bijian*, yang lagi-lagi memuji perdagangan bebas dan mengkritik buku Necker tentang subjek yang sama.
-
-
-Dalam tulisannya [*Letters on the Grain Trade*] (https://archive.org/details/bub_gb_hg8jFw-y6bwC), Condorcet membuat beberapa poin penting.
-
+Dalam tulisannya [*Letters on the Grain Trade*](https://archive.org/details/bub_gb_hg8jFw-y6bwC), Condorcet membuat beberapa poin penting.
 
 ![image](assets/id/089.webp)
 

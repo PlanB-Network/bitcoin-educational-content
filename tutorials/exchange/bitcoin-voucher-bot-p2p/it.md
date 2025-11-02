@@ -64,10 +64,12 @@ premi su “Get Starter”(“inizia subito”)
 
 ![image](assets/it/03.webp)
 
-Nella schermata successiva devi scegliere una password e inserirla (riquadro A), per poi ripeterla (riquadro B). Ti raccomando di salvare subito questa password su un supporto di backup, che può essere su un dispositivo digitale sicuro come per esempio Bitwarden o un documento cartaceo.
+Nella schermata successiva devi scegliere una password e inserirla (riquadro A), per poi ripeterla (riquadro B). Ti raccomando di salvare subito questa password su un supporto di backup, che può essere su un dispositivo digitale sicuro come per esempio [Bitwarden](https://planb.academy/it/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9) o un documento cartaceo.
 
 Spunta la casella di verifica dove dichiari di non essere un robot (riquadro C).
 
 Nota bene! Non abilitare la crittografia RSA a meno che tu non sappia esattamente cos’è e come funziona. In questa fase non è necessario fare nulla.
 
 Clicca su “Generate Avatar” ( Genera Avatar”) (riquadro D).
+
+![image](assets/it/04.webp)

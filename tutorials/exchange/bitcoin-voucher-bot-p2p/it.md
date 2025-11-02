@@ -106,7 +106,9 @@ Clicca su “i’ve saved my credentials, continue” (“ho salvato le mie cred
 
 ![image](assets/it/07.webp)
 
-Ti trovi ora nel cuore della piattaforma, dove puoi visualizzare tutti i match di compravendita con i relativi dettagli:
+Ti trovi ora nel cuore della piattaforma, dove puoi visualizzare tutti i match di compravendita con i relativi dettagli.
+
+Per una visualizzazione piu chiara, qui sotto vedrai le immagini inerenti al sito web da computer desktop.
 
 - “Amount” (“Ammontare”): indica quanti sats l’utente sta vendendo se il match è di tipo “Sell” (Vendi), oppure quanti Bitcoin è disposto ad acquistare se il match è di tipo “Buy” (Compra).
 - “BTC Price with Margin” (“Prezzo BTC con margine”): mostra il prezzo rispetto al valore di mercato.

@@ -73,3 +73,25 @@ Nota bene! Non abilitare la crittografia RSA a meno che tu non sappia esattament
 Clicca su “Generate Avatar” ( Genera Avatar”) (riquadro D).
 
 ![image](assets/it/04.webp)
+
+Ora devi pagare i 1000 sats per completre l'iscrizione. 
+
+1. Partendo dall’alto, vedi innanzitutto il tuo “Avatar ID”, generato casualmente e estremamente importante.
+Salvalo con cura, proprio come ti ho consigliato di fare con la password.
+
+2. Devi quindi inserire il tuo “Lightning Address” nel campo sottostante. Questo ti permetterà di ricevere i pagamenti se acquisti Bitcoin, oppure di ottenere i rimborsi. Se stai usando Wallet Of Satoshi potrai copiare il tuo Address cliccando su ricevi.
+
+3. Spunta la casella di verifica dove dichiari di non essere un robot.
+
+4. Effettua il pagamento di 1000 sats per ottenere l’accesso alla tua area riservata. Se non puoi inquadrarlo, cliccaci sopra con il mouse (su PC) o toccalo con il dito (su smartphone Browser/Telegram) per copiare l’indirizzo che devi incollare su Wallet of Satoshi e completare il pagamento della fattura.
+
+![image](assets/it/05.webp)
+Questo e' il tuo LNURL Address.
+![image](assets/it/06.webp)
+
+Complimenti! Hai creato il tuo Avatar in modo definitivo e qui puoi visualizzare il riepilogo.
+Ancora una volta ti raccomando di salvare con cura sia il tuo Avatar che la password, come ti ho già suggerito in precedenza.
+
+Clicca su “i’ve saved my credentials, continue” (“ho salvato le mie credenziali, continua)
+
+![image](assets/it/07.webp)

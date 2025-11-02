@@ -95,3 +95,14 @@ Ancora una volta ti raccomando di salvare con cura sia il tuo Avatar che la pass
 Clicca su “i’ve saved my credentials, continue” (“ho salvato le mie credenziali, continua)
 
 ![image](assets/it/07.webp)
+
+Ti trovi ora nel cuore della piattaforma, dove puoi visualizzare tutti i match di compravendita con i relativi dettagli:
+
+- “Amount” (“Ammontare”): indica quanti sats l’utente sta vendendo se il match è di tipo “Sell” (Vendi), oppure quanti Bitcoin è disposto ad acquistare se il match è di tipo “Buy” (Compra).
+- “BTC Price with Margin” (“Prezzo BTC con margine”): mostra il prezzo rispetto al valore di mercato.
+- Con un segno meno (-) ottieni uno sconto sul prezzo di mercato.
+- Con un segno più (+) viene applicato un premio sul prezzo di mercato.
+- “Status” (“Stato”): indica lo stato del match. Nella schermata di esempio tutti i match risultano “Open” (“Aperti”).
+- “Expiration” (“Scadenza”): mostra quanto tempo resta prima che il match scada e venga cancellato se non è stato scelto da nessuno.
+
+    

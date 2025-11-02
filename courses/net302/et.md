@@ -90,7 +90,7 @@ Kas olete valmis sukelduma arvutivõrkude maailma? Läheme!
 **MÄRKUS**: Kirjeldused põhinevad GNU/Linux CentOS 7 süsteemil. Siiski on võrgukonfiguratsioonid suures osas samad, kui võrrelda Debiani ja CentOS süsteemi. Seega ei tee me mingit vahet. Kui see on olemas, siis lisame sellele konkreetse logo.
 
 
-**N.B.**: Kui kursuse käigus satute mõne tundmatu terminiga kokku, vaadake [sõnastikust] (https://planb.network/resources/glossary), et leida mõisted.
+**N.B.**: Kui kursuse käigus satute mõne tundmatu terminiga kokku, vaadake [sõnastikust] (https://planb.academy/resources/glossary), et leida mõisted.
 
 
 
@@ -283,11 +283,11 @@ Iga TCP/IP virna Layer pakub konkreetseid teenuseid, võimaldades Address erinev
 | Switch   | Locally addresses interfaces and forwards traffic via MAC                            | Network Access         |
 | Network Interface Card (NIC)     | Signal encoding, cabling, connectors, physical specifications                        | Network Access         |
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 ## IPv5 QoS protokoll
 
@@ -653,7 +653,7 @@ sudo apt install ipcalc
 ```
 
 
-https://planb.network/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
+https://planb.academy/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
 
 ## TCP protokoll
 
@@ -1379,11 +1379,11 @@ Järgmises peatükis vaatleme üksikasjalikult IP Address konfigureerimist Linux
 
 
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 
 ## Kuidas konfigureerida võrku koos `ip`ga?
@@ -3068,7 +3068,7 @@ Korduvaid või intensiivseid päringuid kolmandate osapoolte DNS-serveritele ilm
 Kohaliku või laivõrgu jälgimisel või kaitsmisel on oluline tuvastada aktiivsed seadmed ja nende poolt pakutavad teenused. Just seda teeb tööriist `nmap` (*Network Mapper*).
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 #### Tutvustame `nmap`
 
@@ -3120,7 +3120,7 @@ Administraator saab kasutada `nmap`i mitmete ülesannete täitmiseks:
 - **Haavatavuste ennetamine**: kriitilistes masinates töötavate ebaturvaliste või aegunud teenuste tuvastamine.
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 ### Protsessi küsitlusvahendid
 

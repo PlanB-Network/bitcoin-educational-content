@@ -11,7 +11,7 @@ description: Kompletny przewodnik po korzystaniu z Bisq 2 i wymianie bitcoinów 
 Pozbawione KYC giełdy peer-to-peer (P2P) mają zasadnicze znaczenie dla zachowania poufności i autonomii finansowej użytkowników. Umożliwiają one bezpośrednie transakcje między osobami fizycznymi bez konieczności weryfikacji tożsamości, co ma kluczowe znaczenie dla tych, którzy cenią sobie prywatność. Aby uzyskać bardziej dogłębne zrozumienie koncepcji teoretycznych, zapoznaj się z kursem BTC204:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Czym jest Bisq 2?
 
@@ -117,7 +117,7 @@ Niniejszy przewodnik skupia się wyłącznie na "Bisq Easy", jedynym obecnie dos
 - Zweryfikuj autentyczność pobranego pliku (zdecydowanie zalecane). Szczegółowy przewodnik po weryfikacji podpisu znajduje się w poniższym samouczku:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### 2. Instalacja zgodnie z posiadanym systemem
 

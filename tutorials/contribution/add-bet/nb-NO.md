@@ -1,27 +1,27 @@
 ---
 name: Legge til Utdanningsverktøy
-description: Hvordan legge til nye utdanningsmaterialer på PlanB Network?
+description: Hvordan legge til nye utdanningsmaterialer på Plan ₿ Academy?
 ---
 ![event](assets/cover.webp)
 
 PlanBs oppdrag er å tilby ledende utdanningsressurser om Bitcoin, på så mange språk som mulig. Alt innhold publisert på nettstedet er åpen kildekode og hostet på GitHub, noe som lar hvem som helst delta i å berike plattformen.
 
-Utover veiledninger og opplæring, tilbyr PlanB Network også et stort bibliotek av variert utdanningsinnhold om Bitcoin, tilgjengelig for alle, [i "BET" (_Bitcoin Educational Toolkit_) seksjonen](https://planb.network/resources/bet). Denne databasen inkluderer utdanningsplakater, memes, humoristiske propaganda plakater, tekniske diagrammer, logoer og andre verktøy for brukere. Målet med dette initiativet er å støtte enkeltpersoner og samfunn som underviser i Bitcoin rundt om i verden ved å gi dem de nødvendige visuelle ressursene.
+Utover veiledninger og opplæring, tilbyr Plan ₿ Academy også et stort bibliotek av variert utdanningsinnhold om Bitcoin, tilgjengelig for alle, [i "BET" (_Bitcoin Educational Toolkit_) seksjonen](https://planb.academy/resources/bet). Denne databasen inkluderer utdanningsplakater, memes, humoristiske propaganda plakater, tekniske diagrammer, logoer og andre verktøy for brukere. Målet med dette initiativet er å støtte enkeltpersoner og samfunn som underviser i Bitcoin rundt om i verden ved å gi dem de nødvendige visuelle ressursene.
 
 Vil du delta i å berike denne databasen, men vet ikke hvordan? Denne veiledningen er for deg!
 
-*Det er avgjørende at alt innhold integrert på nettstedet er fri for rettigheter eller respekterer lisensen til kildefilen. Også, alle visuelle publisert på PlanB Network er gjort tilgjengelig under [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) lisensen.*
+*Det er avgjørende at alt innhold integrert på nettstedet er fri for rettigheter eller respekterer lisensen til kildefilen. Også, alle visuelle publisert på Plan ₿ Academy er gjort tilgjengelig under [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) lisensen.*
 ![event](assets/01.webp)
 - Først må du ha en konto på GitHub. Hvis du ikke vet hvordan du oppretter en konto, har vi laget en detaljert veiledning for å veilede deg.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Gå til [GitHub-repositoriet til PlanB dedikert til data](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/bet) i `resources/bet/` seksjonen:
 ![event](assets/02.webp)
 - Klikk øverst til høyre på `Add file` knappen, deretter på `Create new file`:
 ![event](assets/03.webp)
-- Hvis du aldri har bidratt til innholdet på PlanB Network før, må du opprette din egen fork av det originale repositoriet. Å forke et repositorium betyr å lage en kopi av det repositoriet på din egen GitHub-konto, noe som lar deg jobbe på prosjektet uten å påvirke det originale repositoriet. Klikk på `Fork this repository` knappen:
+- Hvis du aldri har bidratt til innholdet på Plan ₿ Academy før, må du opprette din egen fork av det originale repositoriet. Å forke et repositorium betyr å lage en kopi av det repositoriet på din egen GitHub-konto, noe som lar deg jobbe på prosjektet uten å påvirke det originale repositoriet. Klikk på `Fork this repository` knappen:
 ![event](assets/04.webp)
 - Du vil da komme til GitHub-redigeringssiden:
 ![event](assets/05.webp)
@@ -48,8 +48,8 @@ contributors:
 
 Her er detaljene du må fylle ut for hvert felt:
 ```yaml
-project: Indiker din organisasjons identifikator på PlanB Network. Hvis du ikke allerede har en "project" identifikator for ditt firma, kan du opprette en ved å følge denne veiledningen.
-https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
+project: Indiker din organisasjons identifikator på Plan ₿ Academy. Hvis du ikke allerede har en "project" identifikator for ditt firma, kan du opprette en ved å følge denne veiledningen.
+https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 Hvis du ikke har en, kan du enkelt bruke ditt navn, ditt pseudonym, eller navnet på din bedrift uten å ha opprettet en project-profil.
 
@@ -92,7 +92,7 @@ links:
 ![event](assets/13.webp)
 - Klikk på ditt GitHub profilbilde øverst til høyre, deretter på `Your Repositories`:
 ![event](assets/14.webp)
-- Velg din fork av PlanB Network repositoriet:
+- Velg din fork av Plan ₿ Academy repositoriet:
 ![event](assets/15.webp)
 - Du burde se en notifikasjon på toppen av vinduet med din nye branch. Den er sannsynligvis kalt `patch-1`. Klikk på den:
 ![event](assets/16.webp)
@@ -109,7 +109,7 @@ links:
 - Klikk på `Commit changes...`-knappen: ![event](assets/22.webp)- La commit-tittelen stå som standard, og sørg for at `Commit directly to the patch-1 branch`-boksen er merket av, deretter klikker du på `Commit changes`: ![event](assets/23.webp)
 - Gå tilbake til `assets`-mappen: ![event](assets/24.webp)
 - Klikk på `Add file`-knappen, deretter på `Upload files`: ![event](assets/25.webp)
-- En ny side vil åpne seg. Dra og slipp et miniatyrbilde som representerer innholdet ditt inn i området. Dette bildet vil bli vist på PlanB Network-siden: ![event](assets/26.webp)
+- En ny side vil åpne seg. Dra og slipp et miniatyrbilde som representerer innholdet ditt inn i området. Dette bildet vil bli vist på Plan ₿ Academy-siden: ![event](assets/26.webp)
 - Det kan være en forhåndsvisning, en logo, eller et ikon: ![event](assets/27.webp)
 - Når bildet er lastet opp, sørg for at `Commit directly to the patch-1 branch`-boksen er merket av, deretter klikker du på `Commit changes`: ![event](assets/28.webp)
 - Vær forsiktig, bildet ditt må være navngitt `logo` og må være i `.webp`-format. Det fullstendige filnavnet skal derfor være: `logo.webp`: ![event](assets/29.webp)
@@ -176,7 +176,7 @@ https://github.com/tutorial-pandul/sovereign-university-data/blob/patch-1/resour
 https://github.com/DiscoverBitcoin/sovereign-university-data/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
 ```
 
-Det vi gjør her er å forutse den fremtidige lenken til filen din, en gang ditt forslag har blitt slått sammen med kildearkivet til PlanB Network.
+Det vi gjør her er å forutse den fremtidige lenken til filen din, en gang ditt forslag har blitt slått sammen med kildearkivet til Plan ₿ Academy.
 - Gå tilbake til din `bet.yml`-fil og klikk på blyantikonet: ![event](assets/47.webp)
 - Legg til lenken din der:
 ![event](assets/48.webp)
@@ -197,8 +197,8 @@ Det vi gjør her er å forutse den fremtidige lenken til filen din, en gang ditt
 ![event](assets/54.webp)
 - Klikk på `Create pull request`-knappen:
 ![event](assets/55.webp)
-Gratulerer! Din PR har blitt vellykket opprettet. En administrator vil nå gjennomgå den og, hvis alt er i orden, slå den sammen med hovedarkivet til PlanB Network. Du bør se din BET dukke opp på nettsiden noen dager senere.
+Gratulerer! Din PR har blitt vellykket opprettet. En administrator vil nå gjennomgå den og, hvis alt er i orden, slå den sammen med hovedarkivet til Plan ₿ Academy. Du bør se din BET dukke opp på nettsiden noen dager senere.
 
-Sørg for å følge med på fremgangen til din PR. En administrator kan legge igjen en kommentar som ber om ytterligere informasjon. Så lenge din PR ikke er validert, kan du konsultere den i Pull requests-fanen på PlanB Network GitHub-arkivet:
+Sørg for å følge med på fremgangen til din PR. En administrator kan legge igjen en kommentar som ber om ytterligere informasjon. Så lenge din PR ikke er validert, kan du konsultere den i Pull requests-fanen på Plan ₿ Academy GitHub-arkivet:
 ![event](assets/56.webp)
 Tusen takk for ditt verdifulle bidrag! :)

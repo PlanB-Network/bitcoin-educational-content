@@ -183,7 +183,7 @@ Kuvumbura ubuhinga bwo gukingira amakuru ataco buvuze (asymétrique cryptography
 
 Igishushanyo c’ishimikiro c’ibanga Elements ca Bitcoin kiva muri ubwo bushakashatsi. Igishushanyo c’umukono wa ECDSA, cemerera uruhusha rwo gukoresha amahera y’ubudandaji bwa kera, cashinzwe mu 1992 ku bwa NIST. Igikorwa kijanye n’ubuhinga bwa SHA-256 Hash, gikoreshwa ahantu henshi muri iyo porotokole, carasohowe mu 2001 nk’igice c’ubuhinga bwa SHA-2 bwashizwe ahabona na NSA. Ushaka kumenya vyinshi kuri iyo nkuru, raba inyigisho CYP201 yashikirijwe na Loïc Morel.
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 ### Imikono y'impumyi n'amahera y'ubuhinga bwa none

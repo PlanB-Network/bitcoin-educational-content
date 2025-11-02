@@ -86,7 +86,7 @@ Kemudian ikuti petunjuk untuk mengonfirmasi pencadangan Anda dan menghubungkan a
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ⚠️ **PENTING**: Untuk menambahkan keamanan Layer ekstra pada Breez Wallet Anda, Anda dapat menentukan kode PIN dan mengaturnya untuk mengautentikasi bahwa akses ke Wallet telah diotorisasi.
 

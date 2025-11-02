@@ -64,7 +64,7 @@ Ready to dive into the world of computer networks? Let's go!
 
 **NOTE**: The descriptions are based on a GNU/Linux CentOS 7 system. However, network configurations are largely the same when comparing a Debian to a CentOS system. So, we won't make any distinction. When there is one, we'll prefix it with a specific logo.
 
-**N.B.**: If you come across any unfamiliar terms during the course, please consult [the glossary](https://planb.network/resources/glossary) for definitions.
+**N.B.**: If you come across any unfamiliar terms during the course, please consult [the glossary](https://planb.academy/resources/glossary) for definitions.
 
 
 # TCP/IP protocols
@@ -201,11 +201,11 @@ Each layer of the TCP/IP stack provides specific services, making it possible to
 | Switch   | Locally addresses interfaces and forwards traffic via MAC                            | Network Access         |
 | Network Interface Card (NIC)     | Signal encoding, cabling, connectors, physical specifications                        | Network Access         |
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 ## IPv5 QoS protocol
 
@@ -467,7 +467,7 @@ For example, the subnet **1.0.0.0** with the subnet mask **255.255.0.0** once am
 sudo apt install ipcalc
 ```
 
-https://planb.network/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
+https://planb.academy/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
 
 ## The TCP protocol
 
@@ -977,11 +977,11 @@ With this configuration, outgoing traffic is routed and NAT translation is appli
 In the next chapter, we'll look in detail at IP address configuration under Linux, covering both simple and advanced methods suited to different administration contexts.
 
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 
 ## How do I configure the network with `ip`?
@@ -2174,7 +2174,7 @@ Repeated or intensive queries to third-party DNS servers without permission may 
 
 When monitoring or securing a local or wide area network, it's crucial to identify active devices and the services they expose. This is exactly what the `nmap` (*Network Mapper*) tool does.
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 #### Introducing `nmap`
 
@@ -2211,7 +2211,7 @@ An administrator can rely on `nmap` for several tasks:
 - **Compliance check**: compare open ports against the organization's security policy;
 - **Vulnerability prevention**: spot insecure or outdated services running on critical machines.
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 ### Process interrogation tools
 

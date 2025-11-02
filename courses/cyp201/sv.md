@@ -1055,10 +1055,10 @@ Vi använder ett ändligt fält av heltal modulo $p$ för att säkerställa nogg
 Matematiken för elliptiska kurvor över ändliga fält är analog med den över fältet av reella tal, med den anpassningen att alla operationer utförs modulo $p$. För att förenkla förklaringarna fortsätter vi i följande kapitel att illustrera begreppen med hjälp av en kurva definierad över reella tal, samtidigt som vi kommer ihåg att kurvan i praktiken är definierad över ett ändligt fält.
 
 
-Om du vill lära dig mer om de matematiska grunderna för modern kryptografi rekommenderar jag också att du läser den här andra kursen på Plan ₿ Network:
+Om du vill lära dig mer om de matematiska grunderna för modern kryptografi rekommenderar jag också att du läser den här andra kursen på Plan ₿ Academy:
 
 
-https://planb.network/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
+https://planb.academy/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 
 ## Beräkning av den publika nyckeln från den privata nyckeln
 
@@ -1656,7 +1656,7 @@ Om denna sighash-flagga integreras i Bitcoin kommer det att möjliggöra använd
 För att fördjupa dina kunskaper om Lightning Network efter CYP201-kursen rekommenderar jag starkt LNP201-kursen av Fanis Michalakis, som behandlar ämnet i detalj:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 I nästa del föreslår jag att du upptäcker hur Mnemonic-frasen vid basen av din Bitcoin Wallet fungerar.
 
@@ -1707,10 +1707,10 @@ Om man ville använda flera privata nycklar var det då nödvändigt att göra s
 Denna begränsning härrör från Bitcoin:s sekretessmodell. Genom att återanvända samma Address blir det lättare för externa observatörer att spåra Bitcoin-transaktioner. Det är därför som återanvändning av en mottagande Address starkt avråds. För att ha flera adresser och offentligt separera våra transaktioner är det dock nödvändigt att hantera flera privata nycklar. När det gäller JBOK-plånböcker innebär detta att man skapar lika många säkerhetskopior som det finns nya nyckelpar, en uppgift som snabbt kan bli komplex och svår att underhålla för användarna.
 
 
-För att lära dig mer om Bitcoin:s integritetsmodell och upptäcka metoder för att skydda din integritet rekommenderar jag också att du följer min BTC204-kurs om Plan ₿ Network:
+För att lära dig mer om Bitcoin:s integritetsmodell och upptäcka metoder för att skydda din integritet rekommenderar jag också att du följer min BTC204-kurs om Plan ₿ Academy:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### HD plånböcker
 
@@ -1855,7 +1855,7 @@ Till exempel, för en 256-bitars entropi är resultatet $\text{ENT} \Vert \text{
 ### Omvandling av den binära sekvensen till en Mnemonic-fras
 
 
-Bitsekvensen $\text{ENT} \Vert \text{CS}$ är sedan uppdelad i segment om 11 bitar. Varje 11-bitarssegment motsvarar, efter omvandling till decimal, ett tal mellan 0 och 2047, vilket anger positionen för ett ord [i en lista med 2048 ord som standardiserats av BIP39] (https://github.com/Planb-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
+Bitsekvensen $\text{ENT} \Vert \text{CS}$ är sedan uppdelad i segment om 11 bitar. Varje 11-bitarssegment motsvarar, efter omvandling till decimal, ett tal mellan 0 och 2047, vilket anger positionen för ett ord [i en lista med 2048 ord som standardiserats av BIP39] (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
 
 ![CYP201](assets/en/042.webp)
@@ -1920,7 +1920,7 @@ En 12-ordsfras, som också erbjuder 128 bitars säkerhet, är därför för när
 För att gå vidare och lära dig konkret hur du manuellt generate en test Mnemonic fras, rekommenderar jag att du upptäcker den här handledningen:
 
 
-https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
+https://planb.academy/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
 
 Innan vi fortsätter med härledningen av Wallet från denna Mnemonic-fras kommer jag i följande kapitel att presentera BIP39 passphrase för dig, eftersom den spelar en roll i härledningsprocessen och befinner sig på samma nivå som Mnemonic-frasen.
 

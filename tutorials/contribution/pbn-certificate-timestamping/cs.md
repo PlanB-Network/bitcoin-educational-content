@@ -1,17 +1,17 @@
 ---
-name: Časové razítko diplomů Plan ₿ Network
+name: Časové razítko diplomů Plan ₿ Academy
 description: Porozumění tomu, jak síť Plan ₿ vydává ověřitelný důkaz pro váš certifikát a diplomy
 ---
 
 ![cover](assets/cover.webp)
 
-Pokud toto čtete, je velká pravděpodobnost, že jste obdrželi buď Bitcoinový certifikát nebo diplom o absolvování některého z kurzů na Plan ₿ Network, takže gratulujeme k tomuto úspěchu!
+Pokud toto čtete, je velká pravděpodobnost, že jste obdrželi buď Bitcoinový certifikát nebo diplom o absolvování některého z kurzů na Plan ₿ Academy, takže gratulujeme k tomuto úspěchu!
 
-V tomto tutoriálu se podíváme na to, jak Plan ₿ Network vydává ověřitelné důkazy pro váš Bitcoinový certifikát nebo jakýkoliv Diplom o dokončení kurzu. V druhé části se pak podíváme na to, jak ověřit pravost těchto důkazů.
+V tomto tutoriálu se podíváme na to, jak Plan ₿ Academy vydává ověřitelné důkazy pro váš Bitcoinový certifikát nebo jakýkoliv Diplom o dokončení kurzu. V druhé části se pak podíváme na to, jak ověřit pravost těchto důkazů.
 
-# Mechanismus důkazů Plan ₿ Network
+# Mechanismus důkazů Plan ₿ Academy
 
-Na Plan ₿ Network vám nabízíme certifikáty a diplomy, které jsou kryptograficky podepsány námi a časově razítkovány na Timechain (tj. Bitcoinovém blockchainu). Abychom toho dosáhli, museli jsme vytvořit mechanismus důkazů, který se opírá o 2 kryptografické operace:
+Na Plan ₿ Academy vám nabízíme certifikáty a diplomy, které jsou kryptograficky podepsány námi a časově razítkovány na Timechain (tj. Bitcoinovém blockchainu). Abychom toho dosáhli, museli jsme vytvořit mechanismus důkazů, který se opírá o 2 kryptografické operace:
 
 1. GPG-podpis na textovém souboru, který shrnuje vaše úspěchy
 2. Časové razítko tohoto podepsaného souboru prostřednictvím [opentimestamps](https://opentimestamps.org/).
@@ -21,11 +21,11 @@ Věříme, že tento jednoduchý mechanismus důkazů nám umožňuje vydávat c
 
 ![image](./assets/proof-mechanism.webp)
 
-Vezměte na vědomí, že díky tomuto mechanismu důkazů jakýkoliv pokus o změnu i nejmenšího detailu vašeho certifikátu nebo diplomu vytvoří zcela odlišný sha256 hash podepsaného souboru, což by okamžitě odhalilo manipulaci, protože podpis a časové razítko by již nebyly platné. Navíc, pokud by se někdo pokusil zlomyslně padělat nějaké certifikáty nebo diplomy jménem Plan ₿ Network, jednoduché ověření podpisu by odhalilo podvod.
+Vezměte na vědomí, že díky tomuto mechanismu důkazů jakýkoliv pokus o změnu i nejmenšího detailu vašeho certifikátu nebo diplomu vytvoří zcela odlišný sha256 hash podepsaného souboru, což by okamžitě odhalilo manipulaci, protože podpis a časové razítko by již nebyly platné. Navíc, pokud by se někdo pokusil zlomyslně padělat nějaké certifikáty nebo diplomy jménem Plan ₿ Academy, jednoduché ověření podpisu by odhalilo podvod.
 
 ## Jak funguje GPG-podpis?
 
-GPG podpis je získán s použitím open-source softwaru nazvaného GNU Private Guard. Tento software umožňuje komukoli snadno vytvářet soukromé klíče, podepisovat a ověřovat podpisy a také šifrovat a dešifrovat soubory. Pro účely tohoto tutoriálu vězte, že Plan ₿ Network používá GPG k vytvoření svého soukromého/veřejného klíče a k podepisování jakéhokoli Bitcoinového certifikátu nebo Diplomu o dokončení kurzu.
+GPG podpis je získán s použitím open-source softwaru nazvaného GNU Private Guard. Tento software umožňuje komukoli snadno vytvářet soukromé klíče, podepisovat a ověřovat podpisy a také šifrovat a dešifrovat soubory. Pro účely tohoto tutoriálu vězte, že Plan ₿ Academy používá GPG k vytvoření svého soukromého/veřejného klíče a k podepisování jakéhokoli Bitcoinového certifikátu nebo Diplomu o dokončení kurzu.
 
 Na druhou stranu, pokud někdo chce ověřit pravost podepsaného souboru, může použít GPG k importu veřejného klíče vydavatele a ověřit. V druhé části tutoriálu se podíváme, jak to udělat s terminálem.
 
@@ -37,11 +37,11 @@ Kdokoli může použít OpenTimestamps k časovému razítkování souboru a zí
 OpenTimestamps je schopen nabídnout tuto službu zdarma díky velmi efektivnímu způsobu ukládání takového důkazu v Bitcoin Blockchainu. Používá sha256 hash souboru jako jedinečný identifikátor vašeho souboru a vytváří merkle strom s dalšími hashemi odeslaných souborů od jiných uživatelů a zakotví pouze hash struktury Merkle Tree v OpReturn transakci.
 Jakmile je tato transakce v nějakém bloku, kdokoli s původním souborem a souborem `.ots` k němu přiřazeným může ověřit pravost časového razítka. V druhé části tutoriálu uvidíme, jak ověřit váš Bitcoinový certifikát nebo jakýkoli diplom o dokončení kurzu pomocí terminálu a grafického rozhraní prostřednictvím webové stránky OpenTimestamps.
 
-# Jak ověřit certifikát nebo diplom Plan ₿ Network
+# Jak ověřit certifikát nebo diplom Plan ₿ Academy
 
 ## Krok 1. Stáhněte si svůj certifikát nebo diplom
 
-Přihlaste se do svého osobního PBN dashboardu.
+Přihlaste se do svého osobního Plan ₿ Academy dashboardu.
 
 ![image](./assets/login.webp)
 
@@ -63,16 +63,16 @@ Rozbalte obsah kliknutím pravým tlačítkem na soubor `.zip` a výběrem "Rozb
 
 Nejprve otevřete terminál ve složce, kde jsou soubory (kliknutím pravým tlačítkem na okno složky a klikněte na "Otevřít v terminálu"). Poté postupujte podle následujících pokynů
 
-1. Importujte veřejný PGP klíč Plan ₿ Network pomocí následujícího příkazu:
+1. Importujte veřejný PGP klíč Plan ₿ Academy pomocí následujícího příkazu:
 
 ```bash
-curl -s https://raw.githubusercontent.com/Asi0Flammeus/pgp-public-keys/master/planb-network-pk.asc | gpg --import
+curl -s https://raw.githubusercontent.com/Asi0Flammeus/pgp-public-keys/master/Plan ₿ Academy-pk.asc | gpg --import
 ```
 
 Pokud jste klíč PGP úspěšně importovali, měli byste vidět zprávu podobnou této
 
 ```
-gpg: key 8F12D0C63B1A606E: veřejný klíč "PlanB Network (used for PBN platform) <admin@planb.network>" importován
+gpg: key 8F12D0C63B1A606E: veřejný klíč "Plan ₿ Academy (used for Plan ₿ Academy platform) <admin@planb.network>" importován
 gpg: Celkem zpracováno: 1
 gpg:               importováno: 1
 ```
@@ -87,7 +87,7 @@ gpg --verify certificate.txt
 
 Tento příkaz by vám měl ukázat podrobnosti o podpisu, včetně:
 
-- Kdo to podepsal (Plan ₿ Network)
+- Kdo to podepsal (Plan ₿ Academy)
 - Kdy to bylo podepsáno
 - Zda je podpis platný
 
@@ -97,7 +97,7 @@ Toto je příklad výsledku:
 gpg: Podpis proveden pon 11 nov 2024, 00:39:04 CET
 gpg:                použitý RSA klíč 5720CD577E7894C98DBD580E8F12D0C63B1A606E
 gpg:                vydavatel "admin@planb.network"
-gpg: Dobrý podpis od "PlanB Network (used for PBN platform) <admin@planb.network>" [neznámý]
+gpg: Dobrý podpis od "Plan ₿ Academy (used for Plan ₿ Academy platform) <admin@planb.network>" [neznámý]
 ```
 
 Pokud vidíte zprávu jako "ŠPATNÝ podpis", to znamená, že soubor byl pozměněn.
@@ -143,7 +143,7 @@ Tento příkaz:
 
 Vězte, že ověření je úspěšné, pokud jsou zobrazeny **obě** následující zprávy:
 
-1. GPG podpis je ohlášen jako **"Dobrý podpis od Plan ₿ Network"**
+1. GPG podpis je ohlášen jako **"Dobrý podpis od Plan ₿ Academy"**
 2. Ověření OpenTimestamps ukazuje specifické časové razítko Bitcoinového bloku a hlásí **"Úspěch! Bitcoinový blok [výška bloku] potvrzuje, že data existovala ke dni [časové razítko]"**
 
-Nyní, když víte, jak Plan ₿ Network vydává ověřitelný důkaz pro jakýkoliv Bitcoinový certifikát a diplom o dokončení kurzu, můžete snadno ověřit jeho integritu.
+Nyní, když víte, jak Plan ₿ Academy vydává ověřitelný důkaz pro jakýkoliv Bitcoinový certifikát a diplom o dokončení kurzu, můžete snadno ověřit jeho integritu.

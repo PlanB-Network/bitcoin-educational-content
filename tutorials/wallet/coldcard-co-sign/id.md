@@ -289,9 +289,9 @@ Jika perlu, bacalah tutorial di bawah ini untuk membiasakan diri Anda dengan per
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
-https://planb.network/tutorials/wallet/desktop/sparrow-multisig-5860333b-6dd8-4aaa-8ab6-89ebc6276f1f
+https://planb.academy/tutorials/wallet/desktop/sparrow-multisig-5860333b-6dd8-4aaa-8ab6-89ebc6276f1f
 
 ### 1- Ekspor Wallet Multisig 2-sur-3 ke Sparrow wallet
 
@@ -464,7 +464,7 @@ Tidak ada masalah kali ini, tidak ada pesan peringatan yang muncul, dan ketika k
 
 
 
-https://planb.network/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
+https://planb.academy/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
 
 ### 1- Alamat Web 2FA & Daftar Putih
 
@@ -506,11 +506,11 @@ Fitur ini memungkinkan Anda menggunakan aplikasi yang sesuai dengan TOTP RFC-623
 
 
 
-https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
+https://planb.academy/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 
-https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
+https://planb.academy/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 
-https://planb.network/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
+https://planb.academy/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
 
 Secara konkretnya, sebelum menandatangani transaksi, Anda harus mendekatkan perangkat yang terhubung dengan NFC dan terhubung dengan internet ke Coldcard. Secara otomatis, Anda akan diarahkan ke halaman web coldcard.com, di mana Anda akan diminta untuk memasukkan kode 6 digit untuk aplikasi Anda. Jika Anda memasukkan kode yang benar, halaman web akan menampilkan kode QR untuk memindai ColdCardQ, atau kode 8 digit untuk dimasukkan ke Mk4 Anda, untuk mengotorisasi perangkat Anda agar dapat ditandatangani.
 

@@ -134,13 +134,13 @@ Hier müssen wir entscheiden, welchen Pool wir verwenden wollen. In diesem Tutor
 
 
 
-https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
+https://planb.academy/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
 
 Die zweite Möglichkeit besteht darin, uns mit einem Mining pool zu verbinden, der im Alleingang mina, wie Public Pool, folgen Sie diesem Leitfaden zu tun:
 
 
 
-https://planb.network/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
 ### Braiins Pool
 
@@ -150,7 +150,7 @@ Um sich mit diesem Pool zu verbinden, müssen wir ein Konto erstellen. Dieser Po
 
 
 
-https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
+https://planb.academy/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
 
 Sobald dies geschehen ist, befinden wir uns im Dashboard des Braiins-Pools. Wir müssen dem Pool mitteilen, dass wir eine Verbindung mit einem unserer Miner herstellen wollen, daher finden Sie auf der linken Seite des Bildschirms eine Reihe von Einträgen. Wir müssen auf "Arbeiter" gehen
 
@@ -168,7 +168,7 @@ und wir müssen auf die violette Schaltfläche auf der rechten Seite klicken, au
 
 
 
-Hier erscheint das Fenster mit den Informationen, die wir benötigen, um unseren Mini-Miner an den Pool anzuschließen. Die einzige Änderung, die wir hier vornehmen können, ist die Auswahl von Stratum V2. Um herauszufinden, was Stratum v2 ist, lesen Sie diesen Eintrag im [Glossar] (https://planb.network/en/resources/glossary/stratum-v2).
+Hier erscheint das Fenster mit den Informationen, die wir benötigen, um unseren Mini-Miner an den Pool anzuschließen. Die einzige Änderung, die wir hier vornehmen können, ist die Auswahl von Stratum V2. Um herauszufinden, was Stratum v2 ist, lesen Sie diesen Eintrag im [Glossar] (https://planb.academy/en/resources/glossary/stratum-v2).
 
 
 

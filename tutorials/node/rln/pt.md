@@ -31,7 +31,7 @@ Um contrato RGB está estruturado como uma máquina de estado evolutiva. Começa
 
 Para saber mais sobre o funcionamento do protocolo RGB, recomendo que faça este curso de formação abrangente:
 
-https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 
 ## Instalação de nó Lightning compatível com RGB
 
@@ -219,7 +219,7 @@ Pode, evidentemente, adaptar a encomenda. Para confirmar a transação, extraím
 ./regtest.sh mine 1
 ```
 
-Agora, podemos criar um ativo RGB. O comando dependerá do tipo de ativo que pretende criar e dos respectivos parâmetros. Aqui estou a criar um token NIA (*Non Inflatable Asset*) chamado "PBN" com um fornecimento de 1000 unidades. O parâmetro `precision` permite-lhe definir a divisibilidade das unidades.
+Agora, podemos criar um ativo RGB. O comando dependerá do tipo de ativo que pretende criar e dos respectivos parâmetros. Aqui estou a criar um token NIA (*Non Inflatable Asset*) chamado "Plan ₿ Academy" com um fornecimento de 1000 unidades. O parâmetro `precision` permite-lhe definir a divisibilidade das unidades.
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -227,8 +227,8 @@ curl -X POST -H "Content-Type: application/json" \
 "amounts": [
 1000
 ],
-"ticker": "PBN",
-"name": "Plan B Network",
+"ticker": "Plan ₿ Academy",
+"name": "Plan ₿ Academy",
 "precision": 0
 }' \
 http://localhost:3001/issueassetnia
@@ -264,7 +264,7 @@ O comando devolve a chave pública do meu nó n.º 2:
 
 ![RLN](assets/fr/13.webp)
 
-Em seguida, abriremos o canal especificando o ativo relevante (`PBN`). O comando `/openchannel` permite-lhe definir o tamanho do canal em satoshis e optar por incluir o ativo RGB. Depende do que se pretende criar, mas no meu caso, o comando é :
+Em seguida, abriremos o canal especificando o ativo relevante (`Plan ₿ Academy`). O comando `/openchannel` permite-lhe definir o tamanho do canal em satoshis e optar por incluir o ativo RGB. Depende do que se pretende criar, mas no meu caso, o comando é :
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -303,7 +303,7 @@ Para confirmar a transação, são extraídos 6 blocos:
 
 ![RLN](assets/fr/15.webp)
 
-O canal Lightning está agora aberto e também contém 500 tokens `PBN` do lado do nó nº 1. Se o nó nº 2 desejar receber tokens `PBN`, deve gerar uma fatura. Veja como fazer isso:
+O canal Lightning está agora aberto e também contém 500 tokens `Plan ₿ Academy` do lado do nó nº 1. Se o nó nº 2 desejar receber tokens `Plan ₿ Academy`, deve gerar uma fatura. Veja como fazer isso:
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -332,7 +332,7 @@ lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87e
 
 ![RLN](assets/fr/16.webp)
 
-Vamos agora pagar esta fatura a partir do primeiro nó, que detém o dinheiro necessário com o token `PBN`:
+Vamos agora pagar esta fatura a partir do primeiro nó, que detém o dinheiro necessário com o token `Plan ₿ Academy`:
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -372,4 +372,4 @@ Se achou este tutorial útil, ficarei muito grato se colocar um polegar verde ab
 
 Recomendo também este outro tutorial em que explico como utilizar a ferramenta RGB CLI desenvolvida pela associação LNP/BP para criar um contrato RGB:
 
-https://planb.network/tutorials/node/others/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4
+https://planb.academy/tutorials/node/others/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4

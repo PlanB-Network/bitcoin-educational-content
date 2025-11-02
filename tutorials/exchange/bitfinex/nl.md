@@ -32,12 +32,12 @@ Vul de vereiste informatie in: voer uw e-mailadres Address en land van verblijf 
 Voor tips over het gebruik en de beveiliging van sterke, unieke wachtwoorden, zie ook deze tutorial :
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 We gaan nu de 2FA configureren om het account te beveiligen. Gebruik een authenticatietoepassing op je smartphone, zoals Google Authenticator of Authy. Je vindt een tutorial over deze tool hier :
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Scan de QR-code met je app en voer de 6 cijfers in.
 
@@ -245,9 +245,9 @@ Bitfinex biedt ook stortings- en opnamemogelijkheden via de Lightning Network, w
 Als je geïnteresseerd bent in de Lightning Network, hebben we ook een complete training om je te helpen begrijpen hoe het werkt:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-Nadat je je eerste bitcoins hebt gekocht, heb je natuurlijk de optie om ze op het platform te laten, maar ik raad sterk aan om ze over te zetten naar je eigen Wallet in zelfbewaarneming. Als je nog niet weet hoe je een Bitcoin Wallet moet gebruiken, nodig ik je uit om [de "Wallet" sectie op Plan ₿ Network] te verkennen (https://planb.network/tutorials/wallet).
+Nadat je je eerste bitcoins hebt gekocht, heb je natuurlijk de optie om ze op het platform te laten, maar ik raad sterk aan om ze over te zetten naar je eigen Wallet in zelfbewaarneming. Als je nog niet weet hoe je een Bitcoin Wallet moet gebruiken, nodig ik je uit om [de "Wallet" sectie op Plan ₿ Academy] te verkennen (https://planb.academy/tutorials/wallet).
 
 
 ## 6 - Bitcoins kopen en verkopen op Bitfinex

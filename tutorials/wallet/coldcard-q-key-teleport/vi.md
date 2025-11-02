@@ -95,7 +95,7 @@ Một mã QR sẽ được tạo trên màn hình. Một lần nữa, bạn cầ
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 *Chúng tôi hiện có:*
 
@@ -145,7 +145,7 @@ Bây giờ bạn được yêu cầu chọn bản chất của bí mật sẽ đ
 
 
 
-Bí mật của chúng ta sẽ là một tin nhắn ngắn bằng cách chọn **"Tin nhắn văn bản nhanh"**. Nhập tin nhắn của bạn (đối với chúng tôi là "PlanB Network tuyệt vời") rồi nhấn **"ENTER"**.
+Bí mật của chúng ta sẽ là một tin nhắn ngắn bằng cách chọn **"Tin nhắn văn bản nhanh"**. Nhập tin nhắn của bạn (đối với chúng tôi là "Plan ₿ Academy tuyệt vời") rồi nhấn **"ENTER"**.
 
 
 Sau đó, thiết bị sẽ tạo ra một mật khẩu ngẫu nhiên mới có tên là **"Mật khẩu dịch chuyển tức thời"**, trong ví dụ là "NE XG BT SK".
@@ -190,7 +190,7 @@ Nhấn nút **"QR"** để quét mã QR do thiết bị gửi hiển thị thôn
 
 
 
-Sau đó, dữ liệu được giải mã và thiết bị nhận có thể hiểu được. Thông điệp nhận được thực sự là "PlanB Network thật tuyệt vời". Chỉ vậy thôi.
+Sau đó, dữ liệu được giải mã và thiết bị nhận có thể hiểu được. Thông điệp nhận được thực sự là "Plan ₿ Academy thật tuyệt vời". Chỉ vậy thôi.
 
 
 

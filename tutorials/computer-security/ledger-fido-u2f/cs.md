@@ -180,4 +180,4 @@ Doporučuji také tento další tutoriál, ve kterém se podíváme na jiné ře
 
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e

@@ -77,7 +77,7 @@ Kuri iyi nyigisho, uzokenera porogaramu 2: Ledger Live kugira ngo utangure Ledge
 
 Ku bijanye n’izo porogarama zibiri, ndagusavye cane gusuzuma ko ari iz’ukuri (na GnuPG) n’ubutungane bwazo (biciye kuri Hash) imbere y’uko uzishira ku mashine yawe. Niba utazi neza uko wobikora, ushobora gukurikira iyi nyigisho:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## Ni gute wotangura Nano ya Ledger?
 
@@ -228,7 +228,7 @@ passphrase ntikwiye gutera urujijo n’ibara rya PIN. Irafise uruhara mu gukurah
 passphrase ni igikoresho gikomeye cane co kwongereza umutekano w’amahera yawe ya bitcoins. Ariko rero, birahambaye cane ko utahura ingene ikora imbere y’uko uyishira mu ngiro, kugira ngo ntutakaze uburenganzira bwo gukoresha Wallet yawe. Ni co gituma ndaguhanura ngo urabe iyi yindi nyigisho yihariye nimba wipfuza gushinga passphrase kuri Ledger yawe:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+https://planb.academy/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 "*PIN lock*" menu ishobora kugufasha gutunganya no gukoresha ugufunga kwihuta kwa Ledger yawe inyuma y'igihe kinaka udakora.
 
@@ -371,7 +371,7 @@ Imbere yo kwakira ama bitcoins yawe ya mbere muri Wallet yawe, **Ndaguhanura can
 Kugira ngo umenye vyinshi ku bijanye n’ingene wokora ikibazo co gukira, ndaguhanura ngo urabe iyi yindi nyigisho:
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Ni gute woronka amafaranga y’ibiceri ukoresheje Ledger Nano?
 
@@ -416,7 +416,7 @@ Ushobora kwongerako "*Label*" kugira ngo udondore inkomoko y'ama bitcoins azokin
 Kugira ngo umenye vyinshi ku bijanye no gushirako amazina, ndaguhanura kandi ngo urabe iyi yindi nyigisho:
 
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Ushobora rero gukoresha iyi Address kugira ngo ubone amafaranga y’ibiceri.
 
@@ -518,4 +518,4 @@ Niwaba wabonye ko iyi nyigisho ari ngirakamaro, noshima iyo ushobora gusiga uruk
 Ndagusavye kandi kuraba iyi nyigisho yuzuye ku Ledger Flex:
 
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a

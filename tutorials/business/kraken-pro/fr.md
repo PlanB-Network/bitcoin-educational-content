@@ -10,7 +10,7 @@ Dans ce tutoriel, nous allons découvrir le processus de création d’un compte
 
 Si ce sujet de l'intégration du bitcoin à votre entreprise vous intéresse, je vous conseille également de découvrir notre formation théorique complète sur ce sujet :
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## 1 - Création d’un compte entreprise sur Kraken
 
@@ -76,7 +76,7 @@ Dans les options de 2FA, vous pouvez choisir d'utiliser une clé de sécurité p
 
 Pour plus d'informations sur l'utilisation de ce type de dispositif, consultez notre tutoriel dédié :
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 L'autre option consiste à utiliser une application d'authentification telle que Google Authenticator ou Authy. Ces applications génèrent un code dynamique à 6 chiffres que vous devrez saisir à chaque connexion.
 
@@ -88,7 +88,7 @@ Pour activer cette méthode, scannez le code QR avec l'application de votre choi
 
 Pour plus d'informations sur les applications d'authentification, vous pouvez également consulter ce tutoriel :
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 En dessous, vous avez également accès aux paramètres avancés, avec notamment la possibilité de paramétrer plusieurs 2FA différents. Kraken propose une fonctionnalité avancée de délégation de la sécurité via le 2FA. Cette fonctionnalité permet de créer différents niveaux de 2FA pour diverses actions, telles que la connexion, la validation des ordres et le retrait de fonds. Cela permet, par exemple, de donner accès à certaines fonctionnalités à un comptable sans lui permettre de retirer des fonds. Voici les options :
 - La **clé maître** agit comme un mécanisme de récupération, à utiliser si vous ne pouvez pas accéder à votre méthode habituelle de 2FA pour vous connecter ;
@@ -207,5 +207,5 @@ En fonction des objectifs et de la structure de votre entreprise, l'utilisation 
 
 Pour approfondir ce sujet, je vous recommande de consulter cette formation complète sur l'intégration du bitcoin aux entreprises, qui couvre dans le détail l'ajout en trésorerie, l'acceptation des paiements en bitcoins, et la comptabilité :
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 

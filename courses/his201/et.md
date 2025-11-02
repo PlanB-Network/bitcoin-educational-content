@@ -128,7 +128,7 @@ Diffie ja Hellmani artikkel sillutas tee paljudele innovatsioonidele. Üks neist
 Asümmeetrilise krüptograafia avastamine motiveeris ka ühesuunaliste funktsioonide loomist, mida iseloomustab kujutise (edasisuunal) arvutamine väga lihtsaks ja eelkujutise (tagasisuunal) saamine väga raskeks. Eelkõige viis see esimeste krüptograafiliste räsifunktsioonide arendamiseni, mis muutsid muutuva suurusega sõnumi fikseeritud suurusega kokkuvõtteks. Aastatel 1989 kuni 1991 kujundas Ronald Rivest MIT jaoks mitu räsialgoritmi (MD2, MD4 ja MD5).
 Bitcoini põhilised krüptograafilised elemendid pärinevad sellest uurimusest. ECDSA allkirjastamise skeem, mis võimaldab traditsioonilise tehingu kulutamise autoriseerimist, loodi 1992. aastal NISTi jaoks. SHA-256 räsifunktsioon, mida kasutatakse protokollis mitmes kohas, avaldati 2001. aastal osana SHA-2 algoritmide komplektist, mille tegi avalikuks NSA. Lisateavet selle teema kohta leiate kursuselt CYP201 mida esitleb Loïc Morel.
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### Pimedad Allkirjad ja Elektrooniline Sularaha
 

@@ -21,7 +21,7 @@ Pour construire notre application Lightning, nous utiliserons les technologies s
 - Express pour notre serveur web
 - Modèles Pug + bootstrap pour notre frontend
 
-https://planb.network/courses/bbf08a64-84ca-11f0-9d7a-c3c481a45799
+https://planb.academy/courses/bbf08a64-84ca-11f0-9d7a-c3c481a45799
 
 ## Système d'exploitation
 

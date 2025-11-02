@@ -42,7 +42,7 @@ StashPay - это проект с открытым исходным кодом, 
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Зайдите в настройки StashPay, нажав на иконку "Настройки", затем нажмите на опцию **Создать резервную копию**. Затем разрешите отображение фраз восстановления. Не копируйте фразы восстановления в буфер обмена телефона, так как они могут быть доступны другим мошенническим приложениям, установленным на вашем мобильном.
 
@@ -88,7 +88,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 
-https://planb.network/tutorials/wallet/mobile/misty-breez-738ced2a-0764-4d7f-a150-ec0ce84a9d25
+https://planb.academy/tutorials/wallet/mobile/misty-breez-738ced2a-0764-4d7f-a150-ec0ce84a9d25
 
 ### Отправляйте биткойны с помощью StashPay
 
@@ -106,7 +106,7 @@ https://planb.network/tutorials/wallet/mobile/misty-breez-738ced2a-0764-4d7f-a15
 
 
 
-https://planb.network/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
+https://planb.academy/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
 
 Однако Breez SDK устанавливает минимальную сумму, при которой вы можете отправить биткоины в Address на основной цепи.
 
@@ -168,4 +168,4 @@ StashPay позволяет вам обменивать Exchange сатоши н
 
 
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f

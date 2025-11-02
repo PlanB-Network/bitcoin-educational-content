@@ -18,7 +18,7 @@ Ndani ya mfumo ikolojia wa Bitcoin, Wallet ya Satoshi inapendekezwa Wallet ili k
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 Ili kuwezesha kupitishwa kwa Bitcoin katika jumuiya kote ulimwenguni, Wallet ya Satoshi pia imeanzisha Maeneo ya Uuzaji ili kuwahimiza watumiaji kupata matumizi yaliyothibitishwa katika jumuiya yao: kununua na kuuza bidhaa na huduma kwa Bitcoin.
 
@@ -174,16 +174,16 @@ Sasa una zana ya kukubali Bitcoin katika biashara yako kwa dakika chache tu. Iki
 
 
 
-https://planb.network/tutorials/business/point-of-sale/breez-pos-76d6bf36-f4b5-422e-8579-edf149021525
+https://planb.academy/tutorials/business/point-of-sale/breez-pos-76d6bf36-f4b5-422e-8579-edf149021525
 
 Na ikiwa unatafuta PoS kamili inayofaa kwa biashara ndogo na za kati, pia ninapendekeza Uswisi Bitcoin Pay:
 
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 Hatimaye, pata kozi yetu kamili ya mafunzo ili kujifunza misingi ya malipo ya Bitcoin na mtiririko wa pesa kwa biashara:
 
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

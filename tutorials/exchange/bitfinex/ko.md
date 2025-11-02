@@ -32,12 +32,12 @@ description: 비트파이넥스는 어떻게 사용하나요?
 강력하고 고유한 비밀번호를 사용하고 보호하는 방법에 대한 팁은 이 튜토리얼을 참조하세요:
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 이제 계정 보안을 위해 2단계 인증을 구성하겠습니다. 스마트폰의 인증 애플리케이션(예: Google Authenticator 또는 Authy)을 사용합니다. 이 도구에 대한 튜토리얼은 여기에서 찾을 수 있습니다:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 앱으로 QR 코드를 스캔하고 제공된 6자리 숫자를 입력합니다.
 
@@ -245,9 +245,9 @@ Bitcoin을 출금하려면 "*출금*" 하위 메뉴로 이동하세요.
 Lightning Network에 관심이 있으신 분들을 위해 작동 원리를 이해하는 데 도움이 되는 교육 과정도 준비되어 있습니다:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-첫 비트코인을 구매하신 후에는 플랫폼에 그대로 두셔도 되지만, 본인 소유의 Wallet로 옮기셔서 직접 보관하실 것을 강력히 추천합니다. 아직 Bitcoin Wallet 사용법을 모르신다면 [Plan ₿ Network의 "Wallet" 섹션](https://planb.network/tutorials/wallet)을 참조하시기 바랍니다.
+첫 비트코인을 구매하신 후에는 플랫폼에 그대로 두셔도 되지만, 본인 소유의 Wallet로 옮기셔서 직접 보관하실 것을 강력히 추천합니다. 아직 Bitcoin Wallet 사용법을 모르신다면 [Plan ₿ Network의 "Wallet" 섹션](https://planb.academy/tutorials/wallet)을 참조하시기 바랍니다.
 
 
 ## 6 - 비트파이넥스에서 비트코인 구매 및 판매

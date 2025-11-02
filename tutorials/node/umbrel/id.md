@@ -708,7 +708,7 @@ Sambungan Tor diperlukan jika Anda ingin mengakses node Anda di luar jaringan lo
 Untuk informasi lebih lanjut mengenai perangkat lunak Sparrow Wallet, kami memiliki tutorial yang komprehensif:
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 ## Kesimpulan
 
 

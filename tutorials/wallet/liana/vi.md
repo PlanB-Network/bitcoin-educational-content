@@ -27,7 +27,7 @@ The diagram below illustrates the operation of a portfolio with two spending pat
 This operation allows you to set up various configurations, including :
 
 
-- A succession (or inheritance) plan, enabling heirs to recover funds in the event of the user's death. For more information on this subject, we recommend reading [part 4](https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a209038) of the BTC102 course.
+- A succession (or inheritance) plan, enabling heirs to recover funds in the event of the user's death. For more information on this subject, we recommend reading [part 4](https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a209038) of the BTC102 course.
 - A reinforced backup with a recovery time, giving the user the possibility of using his wallet without having to keep the corresponding secret phrase and risk having it stolen, during a burglary for example.
 - A safety net for people starting out with Bitcoin: they will manage their own wallet, and their "guardian" (a relative, for example) will reserve the right to recover their funds after a given period.
 - A multi-party signature scheme (*multisig*) with reduced requirements over time, to cope with the disappearance of one or more of the participants, such as a company's partners.
@@ -45,11 +45,11 @@ In this tutorial, we'll set up a succession plan. We'll be using :
 
 - A Ledger Nano S Plus, for everyday expenses;
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
 - A Blockstream Jade, used to recover funds;
 
-https://planb.network/tutorials/wallet/hardware/jade-7d62bf0c-f460-4e68-9635-af9b731dabc3
+https://planb.academy/tutorials/wallet/hardware/jade-7d62bf0c-f460-4e68-9635-af9b731dabc3
 
 - Two storage media (USB sticks) to store the portfolio descriptor;
 - A letter of succession, containing instructions for recovering the funds;
@@ -63,7 +63,7 @@ Visit the official Wizardsardine website and download Liana at https://wizardsar
 
 To find out how to manually verify the authenticity and integrity of software before installation, we recommend you consult this tutorial :
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Install the software on your machine and launch it. Choose the "*Create a new Liana wallet*" option to configure your wallet.
 
@@ -193,7 +193,7 @@ You can check the expiry status of your funds by going to the "*Coins*" tab. Thi
 
 To better understand the UTXO representation model used in Bitcoin, you can consult the first part of the course on confidentiality in Bitcoin written by Loïc Morel :
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ## Current expenditure
 
@@ -338,6 +338,6 @@ The scripts created by this portfolio will take the following form:
 <primary_key> CHECKSIG IFDUP NOTIF DUP HASH160 <recovery_key_hash> EQUALVERIFY CHECKSIGVERIFY <locktime> CHECKSEQUENCEVERIFY ENDIF
 ```
 
-Since the security of your Bitcoin wallet also depends on your understanding of how it works, I suggest you study the mechanisms of deterministic and hierarchical wallets in depth by taking this free training course on Plan ₿ Network :
+Since the security of your Bitcoin wallet also depends on your understanding of how it works, I suggest you study the mechanisms of deterministic and hierarchical wallets in depth by taking this free training course on Plan ₿ Academy :
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f

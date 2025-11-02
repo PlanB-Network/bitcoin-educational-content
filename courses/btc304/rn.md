@@ -866,7 +866,7 @@ Ku nyigisho zikurikira, mu ntango twakoresheje "Telegram+" APK, ishobora gutuma 
 Niba ushaka gukora ahantu abagize umuryango wawe bashobora kuvugana ataco baciyeko, bagasubizanya, n’ibindi, rero woshobora gukora groupe ya Telegram, atari umurongo wa Telegram!
 
 
-Genda rero mu gice gikurikira, citwa [Rema umugwi wa Telegaramu](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/d13714ce-8f08-53e9-bedd-b6a3aaac5dad).
+Genda rero mu gice gikurikira, citwa [Rema umugwi wa Telegaramu](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/d13714ce-8f08-53e9-bedd-b6a3aaac5dad).
 
 
 
@@ -1547,7 +1547,7 @@ Mu gihe ca kabiri, ikintu ca kabiri co mu kwezi coshobora gushikirizwa insiguro 
 
 
 
-Zirikana ko **ivyo bisaba gutegura cane no gukoresha umwanya wawe mwinshi**. Ku bw’amahirwe, mu [gice ca 6/8 c’iri shure](https://planb.network/amashure/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a77 ibikoresho vy’inkomoko yuguruye kugira ngo bifashe.
+Zirikana ko **ivyo bisaba gutegura cane no gukoresha umwanya wawe mwinshi**. Ku bw’amahirwe, mu [gice ca 6/8 c’iri shure](https://planb.academy/amashure/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a77 ibikoresho vy’inkomoko yuguruye kugira ngo bifashe.
 
 
 Uko biri kwose, vyose bivana n’umugambi w’ibikorwa w’igihe gito, hagati n’igihe kirekire mwebwe canke umuryango wanyu mwishizeho.
@@ -1820,7 +1820,7 @@ Uretse agaciro gakomeye k’inyigisho, iyo nzira ituma bishoboka gusangira inyan
 Aha hepfo hariho ingene amateraniro y’igifaransa azogenda mu mwaka w’2023-2024. Ku nsanganyamatsiko yose, hariho ikiganiro gifunguye be n’amasanamu, ivyo bishobora kuguha ivyiyumviro vy’ingingo woshobora gushikiriza mu birori vyawe bwite.
 
 
-Ibindi bikoresho bishobora guhindurwa birashobora kandi kuronswa muri [Igikoresho co kwigisha Bitcoin](https://planb.network/fr/resources/bet)!
+Ibindi bikoresho bishobora guhindurwa birashobora kandi kuronswa muri [Igikoresho co kwigisha Bitcoin](https://planb.academy/fr/resources/bet)!
 
 
 
@@ -2003,7 +2003,7 @@ Izo mpapuro zishobora gushikirizwa:
 Woshobora kandi guhingura urupapuro rwo gutanga amakuru rwerekeye ikibano cawe canke aho muzohurira, rwerekana ibikorwa vyawe, intumbero zawe, amahuza ku mbuga ngurukanabumenyi, uburyo bwo guhanahana amakuru, n’ibintu bizoshika.
 
 
-Ivyandiko vyinshi birasanzwe **biboneka nk’ibifungurwa mu [Bitcoin Igikoresho co Kwigisha](https://planb.network/fr/resources/bet)** kuri planB.network kandi ibindi bizokwongerezako uko igihe kigenda kirarenga.
+Ivyandiko vyinshi birasanzwe **biboneka nk’ibifungurwa mu [Bitcoin Igikoresho co Kwigisha](https://planb.academy/fr/resources/bet)** kuri planB.network kandi ibindi bizokwongerezako uko igihe kigenda kirarenga.
 
 
 Akarorero kamwe ni [igitabu c'inkomoko yuzuye] (https://profedustream.substack.com/p/21-raisons-utitiliser-Bitcoin) gifise imvo 21 zo gukoresha Bitcoin. Igishushanyo caco na co nyene [kiraboneka mu buryo bufunguye] guhindura no gusangira. Ibuka gusa gutanga amasoko yawe.
@@ -2222,7 +2222,7 @@ Imbuga zizwi cane zirimwo:
 - [**peertube**](https://joinpeertube.org/fr_FR), bigufasha kwakira urubuga rwawe rw'amasanamu, naho nyene bitoroshe gushinga.
 
 
-Uko uhisemwo kwose, nushireho amashusho yihariye kugira ngo umurongo wawe ukwegere. Canva, ivugwa muri [igice ca 2/8](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e792 n’imigero yakozwe imbere y’igihe, ishobora guhindurwa.
+Uko uhisemwo kwose, nushireho amashusho yihariye kugira ngo umurongo wawe ukwegere. Canva, ivugwa muri [igice ca 2/8](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e792 n’imigero yakozwe imbere y’igihe, ishobora guhindurwa.
 
 
 

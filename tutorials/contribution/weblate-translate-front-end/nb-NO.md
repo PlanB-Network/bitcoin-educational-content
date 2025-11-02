@@ -4,7 +4,7 @@ description: Hvordan kan du delta i oversettelsen av de statiske elementene på 
 ---
 ![cover](assets/cover.webp)
 
-Plan ₿ Network har som mål å tilby førsteklasses utdanningsressurser om Bitcoin og oversette dem til så mange språk som mulig. Mye av innholdet som publiseres på nettstedet er åpen kildekode og ligger på GitHub, slik at alle kan delta i å berike plattformen. Bidrag kan ta ulike former: korrigering og korrekturlesing av eksisterende innhold, oppdatering av informasjon eller oppretting av nye veiledninger som kan legges til på plattformen.
+Plan ₿ Academy har som mål å tilby førsteklasses utdanningsressurser om Bitcoin og oversette dem til så mange språk som mulig. Mye av innholdet som publiseres på nettstedet er åpen kildekode og ligger på GitHub, slik at alle kan delta i å berike plattformen. Bidrag kan ta ulike former: korrigering og korrekturlesing av eksisterende innhold, oppdatering av informasjon eller oppretting av nye veiledninger som kan legges til på plattformen.
 
 I denne veiledningen viser vi deg hvordan du enkelt kan bidra til oversettelsen av de statiske elementene på nettstedet vårt. Dataene på plattformen er delt inn i to hovedkategorier:
 
@@ -14,22 +14,22 @@ I denne veiledningen viser vi deg hvordan du enkelt kan bidra til oversettelsen 
 
 For å oversette det pedagogiske innholdet bruker vi [kunstig intelligens] (https://github.com/Asi0Flammeus/LLM-Translator). For å rette opp eventuelle feil i disse filene inviterer vi korrekturlesere til å bidra. Hvis du ønsker å korrekturlese noe av innholdet, kan du se følgende veiledning:
 
-https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
+https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 Hvis du derimot er interessert i å oversette de statiske elementene på nettstedet (unntatt pedagogisk innhold), har du kommet til rett sted! For å oversette frontend på en effektiv måte bruker vi Weblate-verktøyet, som er veldig enkelt å bruke og gjør det lettere å oversette.
 
-Hvis du ønsker å legge til et helt nytt språk i Plan ₿ Network, må du kontakte Plan ₿ Network-teamet via vår [Telegram-gruppe] (https://t.me/PlanBNetwork_ContentBuilder). Hvis du ikke har telegram, kan du sende en e-post til mari@planb.network. Husk å skrive en liten presentasjon om hvem du er og hvilke språk du snakker.
+Hvis du ønsker å legge til et helt nytt språk i Plan ₿ Academy, må du kontakte Plan ₿ Academy-teamet via vår [Telegram-gruppe] (https://t.me/PlanBNetwork_ContentBuilder). Hvis du ikke har telegram, kan du sende en e-post til mari@planb.network. Husk å skrive en liten presentasjon om hvem du er og hvilke språk du snakker.
 
 Teammedlemmene våre vil gi deg spesifikke instruksjoner og åpne relaterte "issues" på Github for å koordinere arbeidet ditt.
 
 Før du følger denne spesifikke veiledningen for å legge til et nytt språk i Weblate.
 
-https://planb.network/tutorials/contribution/content/weblate-add-new-language-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
+https://planb.academy/tutorials/contribution/content/weblate-add-new-language-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
 Når du er klar til å begynne å oversette, kan du gå tilbake til denne veiledningen og gå gjennom følgende punkter.
 
 ## Registrer deg på Weblate
 
 
-- Gå til [den selvbetjente Weblate of Plan ₿ Network] (https://weblate.planb.network/):
+- Gå til [den selvbetjente Weblate of Plan ₿ Academy] (https://weblate.planb.network/):
 
 ![weblate](assets/01.webp)
 
@@ -59,7 +59,7 @@ Når du er klar til å begynne å oversette, kan du gå tilbake til denne veiled
 ![weblate](assets/06.webp)
 
 
-- Du kan nå gå tilbake til Plan ₿ Network-dashbordet:
+- Du kan nå gå tilbake til Plan ₿ Academy-dashbordet:
 
 ![weblate](assets/07.webp)
 
@@ -144,7 +144,7 @@ Når du er klar til å begynne å oversette, kan du gå tilbake til denne veiled
 
 
 - Når du finner ord som er satt inn i krøllparenteser "{", trenger du ikke å oversette dem. I for eksempel "Your account has been created, {{userName}}!" oversetter du hele setningen, men beholder "brukernavn" på engelsk.
-- Når du finner "Plan ₿ Network" i en streng, må du sørge for å IKKE oversette ordet "nettverk" (betrakt Plan ₿ Network som et varemerke). Bruk dessuten alltid Bitcoins ₿!
+- Når du finner "Plan ₿ Academy" i en streng, må du sørge for å IKKE oversette ordet "nettverk" (betrakt Plan ₿ Academy som et varemerke). Bruk dessuten alltid Bitcoins ₿!
 - Hvis du finner ordet "nettverk" alene, kan du oversette det i stedet.
 - Ikke oversett "B-CERT", da det er et annet fast ord.
 - Hvis du finner strenger som slutter med et mellomrom, kan du la det stå.
@@ -157,5 +157,5 @@ Når du er klar til å begynne å oversette, kan du gå tilbake til denne veiled
 
 ![weblate](assets/23.webp)
 
-På forhånd takk for ditt bidrag til oversettelsen av Plan ₿ Network! Hvis du har spesifikke spørsmål eller kommentarer til oss, er du velkommen til å kontakte oss via [Telegram-gruppen] (https://t.me/PlanBNetwork_ContentBuilder).
+På forhånd takk for ditt bidrag til oversettelsen av Plan ₿ Academy! Hvis du har spesifikke spørsmål eller kommentarer til oss, er du velkommen til å kontakte oss via [Telegram-gruppen] (https://t.me/PlanBNetwork_ContentBuilder).
 

@@ -42,7 +42,7 @@ ThunderHub 可輕鬆與 **Umbrel**、**Voltage**、**RaspiBlitz** 及 **MyNode**
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
 ## 安裝
 

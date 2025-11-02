@@ -241,7 +241,7 @@ Mikutano ya Bitcoin inaweza kutumika kwa madhumuni mengi:
 
 
 
-Tutaangazia mengi ya uwezekano huu kwa undani katika sehemu ya 6/8 ya kozi hii, yenye kichwa "[Mifano ya miradi na mipango](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279).
+Tutaangazia mengi ya uwezekano huu kwa undani katika sehemu ya 6/8 ya kozi hii, yenye kichwa "[Mifano ya miradi na mipango](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279).
 
 
 
@@ -353,7 +353,7 @@ Tukio lako la kwanza linaweza kuwa mkutano. Kusudi lake kuu: kuleta pamoja bitco
 
 
 
-Hata hivyo, kama tutakavyoona baadaye katika [Mifano ya miradi na mipango](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab96-97 mingi), **mengi yaweza kufikiwa-ab96-97 njia, zenye malengo mengi:**
+Hata hivyo, kama tutakavyoona baadaye katika [Mifano ya miradi na mipango](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab96-97 mingi), **mengi yaweza kufikiwa-ab96-97 njia, zenye malengo mengi:**
 
 
 
@@ -866,7 +866,7 @@ Kwa mafunzo yaliyo hapa chini, awali tulitumia APK ya "Telegram+", ambayo inaruh
 Ikiwa ungependa kuunda mahali ambapo wanachama wako wanaweza kuzungumza moja kwa moja, kujibu kila mmoja, nk, basi unaweza kutaka kuunda kikundi cha Telegram, na si chaneli ya Telegram!
 
 
-Nenda moja kwa moja kwenye sehemu inayofuata, yenye mada [Unda kikundi cha Telegramu](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/d13714ce-8f08-53e9-bedd-b6a3aaac5).
+Nenda moja kwa moja kwenye sehemu inayofuata, yenye mada [Unda kikundi cha Telegramu](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/d13714ce-8f08-53e9-bedd-b6a3aaac5).
 
 
 
@@ -1232,7 +1232,7 @@ Twitter ni rahisi sana kutumia, na ili kuboresha faragha yako, utahitaji kurekeb
 1/ **the @ Twitter**, ambayo inafafanua utambulisho wako na kukufanya uwe rahisi kupata. Ikiwa jina la jumuiya yako ni "Bitcoin [CITY]", inafaa kuchagua "@Bitcoin[CITY]";
 
 
-2/ **nembo na bango** uliyounda kwa ajili ya jumuiya yako au mkutano (angalia sehemu ya [Unda nembo, bango na bango](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef));
+2/ **nembo na bango** uliyounda kwa ajili ya jumuiya yako au mkutano (angalia sehemu ya [Unda nembo, bango na bango](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef));
 
 
 3/ **maelezo**, ambayo hukuruhusu kushiriki taarifa muhimu kuhusu jumuiya yako katika vibambo mia chache. Kwa mfano:
@@ -1547,7 +1547,7 @@ Katika kesi ya pili, tukio la pili la kila mwezi linaweza kuwekwa kwa mada maalu
 
 
 
-Kumbuka kwamba **hii inahitaji mpangilio zaidi na wakati wako zaidi**. Kwa bahati nzuri, katika [sehemu ya 6/8 ya kozi hii](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a97a5769 rasilimali zinazoweza kutumika) msaada.
+Kumbuka kwamba **hii inahitaji mpangilio zaidi na wakati wako zaidi**. Kwa bahati nzuri, katika [sehemu ya 6/8 ya kozi hii](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a97a5769 rasilimali zinazoweza kutumika) msaada.
 
 
 Kwa vyovyote vile, yote inategemea mpango wa utekelezaji wa muda mfupi, wa kati na mrefu ambao wewe, au jumuiya yako, mmejiwekea.
@@ -1619,7 +1619,7 @@ Wasiliana na mahali ambapo utaandaa tukio na uihifadhi kwa makadirio ya idadi ya
 
 
     - Shiriki tarehe, saa na eneo kwenye mitandao yako ya kijamii na njia zingine za mawasiliano. Jumuisha kiungo cha usajili ikiwa inahitajika.
-    - Unda taswira maalum (bango la Canva kwa mfano, angalia sehemu ya 2/8 "[Kuunda kitambulisho cha Bitcoin yako jumuiya](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/b48a18cc-afdf-5216-802c-32647b5cd8a3)").
+    - Unda taswira maalum (bango la Canva kwa mfano, angalia sehemu ya 2/8 "[Kuunda kitambulisho cha Bitcoin yako jumuiya](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/b48a18cc-afdf-5216-802c-32647b5cd8a3)").
     - Ongeza mwonekano zaidi kwa kubandika tangazo kwenye Telegram na Twitter, na kutumia "@kila mtu" kutaja kwenye Discord.
     - Chapisha matangazo siku 7 hadi 10 kabla ya tukio ili waliohudhuria wapange mapema.
 
@@ -1721,7 +1721,7 @@ Roma haikujengwa kwa siku moja, na pia jumuiya yako haitakuwa. Kasi ya Bitcoin i
 Ili hilo litokee, jambo moja ni muhimu: **kuwafanya washiriki washirikishwe**.
 
 
-Inaweza kuanza na kikundi kidogo cha bitcoiners wenye shauku, ambao lengo lao ni kukusanyika mara kwa mara na kuzungumza kuhusu Bitcoin. Baada ya muda, kulingana na upatikanaji na maslahi ya kila mtu, unaweza **kushiriki kazi fulani za shirika na kikundi**, au kualika **wanachama wa msingi kuchukua miradi maalum**. Hizi zinaweza kuwa za kipekee kwa jumuiya yako, mikutano yako au jiji lako au hata kuhamasishwa na mipango mingi iliyopendekezwa katika [sehemu ya 6/8 ya hii. kozi](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279). **Hii sio tu inakuza Commitment kutoka kwa wanachama wako wakuu bali pia husaidia jumuiya yako kukua na kustawi.**.
+Inaweza kuanza na kikundi kidogo cha bitcoiners wenye shauku, ambao lengo lao ni kukusanyika mara kwa mara na kuzungumza kuhusu Bitcoin. Baada ya muda, kulingana na upatikanaji na maslahi ya kila mtu, unaweza **kushiriki kazi fulani za shirika na kikundi**, au kualika **wanachama wa msingi kuchukua miradi maalum**. Hizi zinaweza kuwa za kipekee kwa jumuiya yako, mikutano yako au jiji lako au hata kuhamasishwa na mipango mingi iliyopendekezwa katika [sehemu ya 6/8 ya hii. kozi](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279). **Hii sio tu inakuza Commitment kutoka kwa wanachama wako wakuu bali pia husaidia jumuiya yako kukua na kustawi.**.
 
 
 Mikutano yako ikiendelea, nyuso mpya zitaonekana: watu walionunua BTC na/au altcoyins katika mizunguko ya awali, wapenda teknolojia wanaotaka kuongeza uelewa wao, au wanaoanza kutaka kujua kuhusu mfumo huu wa malipo usiopimwa, uliogatuliwa, wa uwazi na wa haki ambao hufanya kazi bila masharti na bila washirika wengine wanaoaminika.
@@ -1820,7 +1820,7 @@ Zaidi ya thamani yake kubwa ya kielimu, mbinu hii inafanya uwezekano wa kushirik
 Ifuatayo ni muendelezo wa mkutano wa Ufaransa wa 2023-2024. Kwa kila mandhari, wasilisho la chanzo huria na video zinapatikana, ambazo zinaweza kukupa mawazo ya mada unayoweza kushughulikia kwa matukio yako mwenyewe.
 
 
-Nyenzo za ziada zinazoweza kuhaririwa pia zinaweza kupatikana katika [Bitcoin Teaching Toolbox](https://planb.network/fr/resources/bet)!
+Nyenzo za ziada zinazoweza kuhaririwa pia zinaweza kupatikana katika [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)!
 
 
 
@@ -2003,7 +2003,7 @@ Vipeperushi hivi vinaweza kulengwa kuelekea:
 Unaweza pia kubuni kipeperushi maalum kwa jumuiya yako au mkutano, ukiwasilisha shughuli zako, malengo, viungo vya mitandao ya kijamii, njia za mawasiliano na matukio yajayo.
 
 
-Vipeperushi kadhaa tayari **vinapatikana kama chanzo huria katika [Bitcoin Toolbox](https://planb.network/fr/resources/bet)** kwenye planB.network na vingine vitaongezwa baada ya muda.
+Vipeperushi kadhaa tayari **vinapatikana kama chanzo huria katika [Bitcoin Toolbox](https://planb.academy/fr/resources/bet)** kwenye planB.network na vingine vitaongezwa baada ya muda.
 
 
 Mfano mmoja ni [kipeperushi kamili cha chanzo](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin) chenye sababu 21 za kutumia Bitcoin. Muundo wake pia [unapatikana katika chanzo huria](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium_campaign=designshare&utm_medium_link ili ushiriki na kurekebisha&utm_medium=link2. Kumbuka tu kuweka vyanzo vyako.
@@ -2222,7 +2222,7 @@ Majukwaa maarufu ni pamoja na:
 - [**peertube**](https://joinpeertube.org/fr_FR), hukuruhusu kupangisha jukwaa lako la video, ingawa ni ngumu zaidi kusanidi.
 
 
-Chochote unachochagua, tengeneza taswira mahususi za jukwaa ili kufanya kituo chako kivutie. Canva, iliyotajwa katika [sehemu ya 2/8](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef ya toleo maalum la YouTube, toleo maalum la YouTube) miundo.
+Chochote unachochagua, tengeneza taswira mahususi za jukwaa ili kufanya kituo chako kivutie. Canva, iliyotajwa katika [sehemu ya 2/8](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef ya toleo maalum la YouTube, toleo maalum la YouTube) miundo.
 
 
 
@@ -2857,7 +2857,7 @@ Ili kusaidia jumuiya yako kukua zaidi, **ufuatiliaji wa kozi ya COMMU302** <img 
 
 <img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430" />
 
-inaweza kutolewa kwenye [planb.network](https://planb.network/) katika miezi ijayo.
+inaweza kutolewa kwenye [planb.network](https://planb.academy/) katika miezi ijayo.
 
 
 Kipindi hiki kijacho kinaweza kuchunguza mada za juu kama vile:

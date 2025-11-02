@@ -135,7 +135,7 @@ Diffie 和 Hellman 的文章為許多創新鋪平了道路。其中之一是 [RS
 Bitcoin 的基本密碼學元素源於這些研究。允許授權花費傳統交易的 ECDSA 簽署方案是在 1992 年為 NIST 創造的。在協定中多處使用的 SHA-256 Hash 函式，於 2001 年發表，是 NSA 公開的 SHA-2 演算法套件的一部分。如需更多相關資訊，您可以參考 Loïc Morel 主講的課程 CYP201。
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 ### 盲簽名與電子現金

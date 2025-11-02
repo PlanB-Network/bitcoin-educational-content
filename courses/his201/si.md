@@ -129,7 +129,7 @@ The discovery of asymmetric cryptography also motivated the creation of one-way 
 
 The basic cryptographic elements of Bitcoin stem from this research. The ECDSA signature scheme, allowing the authorization of spending a traditional transaction, was created in 1992 for NIST. The SHA-256 hash function, used in multiple places in the protocol, was published in 2001 as part of the SHA-2 algorithm suite made public by the NSA. For more information on this topic, refer to the course CYP201 written by Loïc Morel.
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### Blind Signatures and Electronic Cash
 

@@ -27,9 +27,7 @@ pear run pear://k9cawqdsan3bkobkigesuyfeqjcasi49ikjaru5cipap835t7nwy
 
 ---
 
-## 1. Installer Pears 
-
-### 1.1. Qu’est-ce que Pears ?
+## 1. Qu’est-ce que Pears ?
 
 Pears est à la fois un environnement d’exécution, un outil de développement et une plateforme de déploiement pour des applications pair-à-pair. Cet outil open-source permet de construire, partager et exécuter des logiciels sans serveur et sans infrastructure, directement entre utilisateurs. Concrètement, cela signifie qu’au lieu d’héberger une application sur un serveur central, chaque utilisateur devient un nœud du réseau : il partage une partie de l’application et des données avec d’autres pairs. L’ensemble du système forme un réseau distribué où chaque instance coopère pour maintenir le service accessible.
 
@@ -49,16 +47,16 @@ Pears est développé par Holepunch, une entreprise fondée par Mathias Buus et 
 https://planb.academy/tutorials/computer-security/communication/keet-efdb759d-5e94-4bbf-b28c-5fa8669c809b
 
 *Ce tutoriel d'installation de Pears est divisé en plusieurs sections selon votre système d’exploitation. Rendez-vous directement à celle qui correspond à votre environnement pour suivre les instructions adaptées :*
-- **Linux (Debian)** → Partie **1.2.**
-- **Windows** → Partie **1.3.**
-- **macOS** → Partie **1.4.**
+- **Linux (Debian)** → Partie **2**
+- **Windows** → Partie **3**
+- **macOS** → Partie **4**
 
 
-### 1.2. Comment installer Pears sur Linux (Debian) ?
+## 2. Comment installer Pears sur Linux (Debian) ?
 
 L’installation de Pears sur un Debian est relativement simple, mais nécessite quelques prérequis que nous allons détailler dans cette section.
 
-#### 1.2.1. Mettre à jour le système
+### 2.1. Mettre à jour le système
 
 Avant toute chose, il est important de s’assurer que votre système est à jour.
 
@@ -68,7 +66,7 @@ sudo apt update && sudo apt upgrade -y
 
 ![Image](assets/fr/02.webp)
 
-#### 1.2.2. Installer les dépendances
+### 2.2. Installer les dépendances
 
 Pears repose sur certaines bibliothèques système, notamment `libatomic1`, utilisée par le moteur d’exécution JavaScript Bare. Installez-la avec la commande suivante :
 
@@ -78,7 +76,7 @@ sudo apt install -y libatomic1 curl git
 
 ![Image](assets/fr/03.webp)
 
-#### 1.2.3. Installer Node.js et npm via NVM
+### 2.3. Installer Node.js et npm via NVM
 
 Pears est distribué via *npm*, le gestionnaire de paquets *Node.js*. Même si Pears ne dépend pas directement de *Node.js* pour fonctionner, celui-ci est nécessaire à l’installation. La méthode recommandée pour installer *Node.js* sur Linux est *NVM* (*Node Version Manager*), qui permet de gérer plusieurs versions de Node en parallèle.
 
@@ -121,7 +119,7 @@ npm -v
 
 ![Image](assets/fr/08.webp)
 
-#### 1.2.4. Installer Pears avec npm
+### 2.4. Installer Pears avec npm
 
 Une fois *npm* disponible, vous pouvez installer Pears CLI globalement sur votre système. Cela vous permettra d’exécuter la commande `pear` depuis n’importe quel répertoire.
 
@@ -131,7 +129,7 @@ npm install -g pear
 
 ![Image](assets/fr/09.webp)
 
-#### 1.2.5. Initialiser Pears
+### 2.5. Initialiser Pears
 
 Après l’installation, lancez simplement la commande suivante dans votre terminal :
 
@@ -153,7 +151,7 @@ pear
 
 Si tout est correctement installé, l’aide de Pears s’affichera avec la liste des commandes disponibles.
 
-#### 1.2.6. Tester Pears avec Keet
+### 2.6. Tester Pears avec Keet
 
 Pour vérifier que Pears est pleinement opérationnel, vous pouvez lancer une application P2P déjà disponible sur le réseau, comme Keet, le logiciel de messagerie et visioconférence open-source de Holepunch.
 
@@ -167,13 +165,13 @@ Cette commande charge l’application Keet directement depuis le réseau Pears, 
 
 Votre système Linux est désormais prêt à exécuter et héberger des applications pair-à-pair avec Pears.
 
-### 1.3. Comment installer Pears sur Windows ?
+## 3. Comment installer Pears sur Windows ?
 
 L’installation de Pears sur Windows est tout aussi simple que sur Linux, mais nécessite quelques outils spécifiques.
 
-*Si vous utilisez Linux et avez déjà installé Pears, vous pouvez passer directement à l'**étape 2**.*
+*Si vous utilisez Linux et avez déjà installé Pears, vous pouvez passer directement à l'**étape 5**.*
 
-#### 1.3.1. Ouvrir PowerShell en mode administrateur
+### 3.1. Ouvrir PowerShell en mode administrateur
 
 Avant toute chose, lancez PowerShell avec les droits administrateur :
 - Cliquez sur le menu Démarrer ;
@@ -183,7 +181,7 @@ Avant toute chose, lancez PowerShell avec les droits administrateur :
 
 ![Image](assets/fr/15.webp)
 
-#### 1.3.2. Télécharger NVS
+### 3.2. Télécharger NVS
 
 Pears s’installe via *npm*, le gestionnaire de paquets de *Node.js*. Sur Windows, la méthode recommandée par Holepunch consiste à utiliser *NVS* (*Node Version Switcher*), plus stable que *NVM* sur ce système.
 
@@ -195,7 +193,7 @@ winget install jasongin.nvs
 
 ![Image](assets/fr/16.webp)
 
-#### 1.3.3. Installer Node.js
+### 3.3. Installer Node.js
 
 Après l’installation, redémarrez PowerShell, puis saisissez la commande suivante :
 
@@ -211,7 +209,7 @@ Vous devriez voir apparaître la liste des versions de *Node.js* disponibles. S�
 
 ![Image](assets/fr/18.webp)
 
-#### 1.3.4. Vérifier les installations
+### 3.4. Vérifier les installations
 
 Assurez-vous que *Node.js* et *npm* sont accessibles :
 
@@ -224,7 +222,7 @@ Les deux commandes doivent renvoyer un numéro de version.
 
 ![Image](assets/fr/19.webp)
 
-#### 1.3.5. Installer Pears avec npm
+### 3.5. Installer Pears avec npm
 
 Une fois *Node.js* et *npm* disponibles, installez **Pears CLI** globalement sur votre système :
 
@@ -236,7 +234,7 @@ Cela installera le binaire `pear` dans votre répertoire *npm* global.
 
 ![Image](assets/fr/20.webp)
 
-#### 1.3.6. Vérifier et initialiser Pears
+### 3.6. Vérifier et initialiser Pears
 
 Une fois l’installation terminée, exécutez :
 
@@ -250,7 +248,7 @@ Lors du premier lancement, Pears téléchargera automatiquement les composants n
 
 Si tout s’est bien déroulé, vous devriez voir apparaître l’aide du CLI Pears avec la liste des sous-commandes disponibles (run, seed, info...).
 
-#### 1.3.7. Tester Pears avec Keet
+### 3.7. Tester Pears avec Keet
 
 Pour vérifier que Pears est pleinement opérationnel, vous pouvez lancer une application P2P déjà disponible sur le réseau, comme Keet, le logiciel de messagerie et visioconférence open-source de Holepunch.
 
@@ -264,13 +262,13 @@ Cette commande charge l’application Keet directement depuis le réseau Pears, 
 
 Votre système Windows est désormais prêt à exécuter et héberger des applications pair-à-pair avec Pears.
 
-### 1.4. Comment installer Pears sur macOS ?
+## 4. Comment installer Pears sur macOS ?
 
 L’installation de Pears sur macOS est similaire à celle sous Linux, mais elle requiert quelques ajustements propres à l’environnement Apple. Découvrons ces étapes ensemble.
 
-*Si vous utilisez Linux ou Windows et avez déjà installé Pears, vous pouvez passer directement à l'**étape 2**.*
+*Si vous utilisez Linux ou Windows et avez déjà installé Pears, vous pouvez passer directement à l'**étape 5**.*
 
-#### 1.4.1. Vérifier les prérequis système
+### 4.1. Vérifier les prérequis système
 
 Avant l'installation, assurez-vous que *Xcode Command Line Tools* est présent sur votre système. Ce paquet fournit les outils de compilation nécessaires pour _Node.js_ et ses dépendances.
 
@@ -282,7 +280,7 @@ xcode-select --install
 
 Si les outils sont déjà installés sur votre système, macOS vous en informera.
 
-#### 1.4.2. Installer NVM
+### 4.2. Installer NVM
 
 Pears est distribué via *npm*, le gestionnaire de paquets *Node.js*. Même si Pears ne dépend pas directement de *Node.js* pour fonctionner, celui-ci est nécessaire à l’installation. La méthode recommandée pour installer *Node.js* sur macOS est *NVM* (*Node Version Manager*), qui permet de gérer plusieurs versions de Node en parallèle.
 
@@ -310,7 +308,7 @@ nvm --version
 
 Le terminal doit vous renvoyer la version de *NVM* installée sur votre système.
 
-#### 1.4.3. Installer Node.js et npm
+### 4.3. Installer Node.js et npm
 
 Installez ensuite une version stable de *Node.js* (par exemple la LTS actuelle) :
 
@@ -327,7 +325,7 @@ npm -v
 
 Les deux commandes doivent retourner un numéro de version.
 
-#### 1.4.4. Installer Pears avec npm
+### 4.4. Installer Pears avec npm
 
 Une fois *npm* disponible, vous pouvez installer Pears CLI globalement sur votre système. Cela vous permettra d’exécuter la commande `pear` depuis n’importe quel répertoire.
 
@@ -335,7 +333,7 @@ Une fois *npm* disponible, vous pouvez installer Pears CLI globalement sur votre
 npm install -g pear
 ```
 
-#### 1.4.5. Initialiser Pears
+### 4.5. Initialiser Pears
 
 Après l’installation, lancez simplement la commande suivante dans votre terminal :
 
@@ -353,7 +351,7 @@ pear
 
 Si tout est correctement installé, l’aide de Pears s’affichera avec la liste des commandes disponibles.
 
-#### 1.4.6. Tester Pears avec Keet
+### 4.6. Tester Pears avec Keet
 
 Pour vérifier que Pears est pleinement opérationnel, vous pouvez lancer une application P2P déjà disponible sur le réseau, comme Keet, le logiciel de messagerie et visioconférence open-source de Holepunch.
 
@@ -365,7 +363,7 @@ Cette commande charge l’application Keet directement depuis le réseau Pears, 
 
 Votre système macOS est désormais prêt à exécuter et héberger des applications pair-à-pair avec Pears.
 
-## 2. Comment utiliser Plan ₿ Academy sur Pears ?
+## 5. Comment utiliser Plan ₿ Academy sur Pears ?
 
 Une fois Pears installé et fonctionnel, vous pouvez directement exécuter la plateforme **Plan ₿ Academy** via le réseau P2P. Il suffit d’exécuter la commande suivante dans votre terminal (c'est la même commande pour Linux, Windows et macOS) :
 
@@ -379,7 +377,7 @@ Une fois le chargement terminé, Plan ₿ Academy s’ouvrira dans votre environ
 
 ![Image](assets/fr/14.webp)
 
-## 3. Comment seed Plan ₿ Academy sur Pears ?
+## 6. Comment seed Plan ₿ Academy sur Pears ?
 
 Dans le réseau Pears, "*seed*" une application signifie la redistribuer à d'autres pairs depuis votre propre machine. Concrètement, lorsque vous seedez Plan ₿ Academy, votre ordinateur devient à son tour une source de données permettant à d'autres utilisateurs de télécharger l'application sans dépendre d'un serveur central.
 

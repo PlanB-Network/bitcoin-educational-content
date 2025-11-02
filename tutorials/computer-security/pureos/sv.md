@@ -11,7 +11,7 @@ Att skydda sin personliga information i den digitala tidsåldern är högsta pri
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
+https://planb.academy/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
 
 ## Komma igång med PureOS
 
@@ -353,4 +353,4 @@ Upptäck vår kurs om hur du stärker din säkerhet och skyddar din digitala int
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

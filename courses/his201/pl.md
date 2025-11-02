@@ -183,7 +183,7 @@ Odkrycie kryptografii asymetrycznej było również motywacją do stworzenia fun
 
 Podstawowe elementy kryptograficzne Bitcoina wywodzą się z tych badań. Schemat podpisu ECDSA, umożliwiający autoryzację wydatków tradycyjnej transakcji, został stworzony w 1992 roku dla NIST. Funkcja SHA-256 Hash, używana w wielu miejscach protokołu, została opublikowana w 2001 roku jako część pakietu algorytmów SHA-2 upublicznionego przez NSA. Więcej informacji na ten temat można znaleźć na kursie CYP201 prowadzonym przez Loïca Morel.
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 ### Protokół ślepych podpisów i gotówka elektroniczna

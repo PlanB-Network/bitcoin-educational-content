@@ -183,7 +183,7 @@ Upptäckten av asymmetrisk kryptografi motiverade också skapandet av envägsfun
 
 De grundläggande kryptografiska Elements i Bitcoin härrör från denna forskning. ECDSA-signaturschemat, som gör det möjligt att auktorisera utgifter för en traditionell transaktion, skapades 1992 för NIST. Funktionen SHA-256 Hash, som används på flera ställen i protokollet, publicerades 2001 som en del av algoritmsviten SHA-2 som offentliggjordes av NSA. För mer information om detta ämne, se kursen CYP201 som ges av Loïc Morel.
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 ### Blinda signaturer och elektroniska kontanter

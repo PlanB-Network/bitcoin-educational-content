@@ -33,7 +33,7 @@ Iwe unawakilisha biashara ndogo au shirika kubwa, kozi hii inalenga kukupa maari
 
 Je, uko tayari kuingia katika ulimwengu wa Bitcoin kwa biashara? Twende!
 
-**Kumbuka**: Ikiwa utakutana na maneno yasiyojulikana wakati wa kozi, tafadhali angalia [kamusi](https://planb.network/resources/glossary) kwa ufafanuzi.
+**Kumbuka**: Ikiwa utakutana na maneno yasiyojulikana wakati wa kozi, tafadhali angalia [kamusi](https://planb.academy/resources/glossary) kwa ufafanuzi.
 
 # Sarafu, mifumo ya malipo, na Bitcoin
 
@@ -238,7 +238,7 @@ Bitcoin inatupa changamoto ya kufikiria upya asili ya pesa yenyewe. Unaweza kuel
 
 Kwa habari zaidi juu ya Bitcoin, historia yake, jinsi inavyofanya kazi, na matumizi yake, ninapendekeza pia kufuata kozi hii nyingine ya kina:
 
-https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
+https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 ## Utangulizi wa Lightning Network
 
 <chapterId>c095c7ad-5469-4c7b-9510-b6c0b86244e7</chapterId>
@@ -319,7 +319,7 @@ Lightning Network ni bora kwa malipo ya Bitcoin katika maduka ya kimwili au ya m
 
 Kwa habari zaidi juu ya utendakazi wa kiufundi wa Lightning Network, ninapendekeza pia kufuata kozi hii nyingine ya kina:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 # Bitcoin katika hazina
 
 <partId>bf45c1e8-af97-4b6b-af42-2866f493b14d</partId>
@@ -436,9 +436,9 @@ Wanafikra hawa walianzisha wazo kwamba uingiliaji kati wa serikali hupotosha sok
 
 Kwa habari zaidi juu ya mada hii:
 
-https://planb.network/courses/d955dd28-b7c6-4ba2-a123-d932e21d148f
-https://planb.network/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
-https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
+https://planb.academy/courses/d955dd28-b7c6-4ba2-a123-d932e21d148f
+https://planb.academy/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
+https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
 ## Kushikilia Bitcoin kwenye hazina
 
@@ -591,7 +591,7 @@ Kwa kuwa Bitcoin hufanya kazi kama njia ya Exchange, inawezekana kuwazia uchumi 
 
 Hii inahusisha kupata zawadi kutokana na uendeshaji wa mashine za Mining. Kwa biashara zisizo maalum, hii inasalia kuwa ndogo. Unaweza kushiriki kupitia waamuzi ambao watakuuzia au kukukodisha komputa, mtandao na matengenezo. Ikiwa unamiliki mashine, unaweza kuzihesabu kama mali zinazoweza kupunguzwa thamani. Kwa kiwango kikubwa, utahitaji kuhesabu kwa uangalifu mapato ya uwekezaji kwa sababu soko lina ushindani mkubwa na linahitaji matarajio mazuri ya gharama, hasa umeme.
 
-Ili kupata maelezo zaidi kuhusu mbinu za Mining, unaweza [kupata sehemu ya "Mining" katika mafunzo yetu](https://planb.network/tutorials/mining).
+Ili kupata maelezo zaidi kuhusu mbinu za Mining, unaweza [kupata sehemu ya "Mining" katika mafunzo yetu](https://planb.academy/tutorials/mining).
 
 - **Kununua Bitcoin:**
 
@@ -599,9 +599,9 @@ Hii ndiyo njia iliyozoeleka zaidi, inayofanywa kupitia ubadilishanaji kati ya we
 
 Ili kujifunza jinsi ya kufungua akaunti ya biashara na kuitumia kununua, kuuza na kuhamisha bitcoins, unaweza kuangalia mafunzo haya mawili yaliyoundwa mahsusi kwa ajili ya biashara, yanayofunika majukwaa ya Kraken na Bitfinex katika matoleo yao ya ushirika:
 
-https://planb.network/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
-https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
-Ili kupata maelezo zaidi kuhusu mbinu za kupata bitcoins kupitia Exchange au peer-to-peer, unaweza [kupata sehemu ya "Exchange" katika mafunzo yetu](https://planb.network/tutorials/exchange).
+https://planb.academy/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
+https://planb.academy/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
+Ili kupata maelezo zaidi kuhusu mbinu za kupata bitcoins kupitia Exchange au peer-to-peer, unaweza [kupata sehemu ya "Exchange" katika mafunzo yetu](https://planb.academy/tutorials/exchange).
 
 ![BIZ101](assets/sw/012.webp)
 
@@ -849,21 +849,21 @@ Kwa mafunzo ya kina kuhusu pochi zinazopendekezwa na usanidi msingi, tafadhali s
 
 **Pochi/nodi za kujilinda za LN:**
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.academy/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-501d-439c-8691-d4a0d0de459b
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-501d-439c-8691-d4a0d0de459b
 
 **Pochi za LN za uhifadhi:**
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
 ## Muhimu
 
@@ -895,13 +895,13 @@ Ingawa wasifu Muhimu hauhitaji mifumo ya kisasa ya uhasibu, bado ni busara kudum
 
 Suluhisho la mseto linalofaa zaidi kwa wasifu wako huenda ni Uswisi Bitcoin Pay:
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 Suluhisho lingine rahisi kutekeleza, lakini kwa shida ya kuwa chini ya 100%, ni Njia ya Open:
 
-https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 Ikiwa uko tayari kuchafua mikono yako na unataka udhibiti kamili juu ya mchakato, programu ya Seva ya BTPay ni chaguo bora. Walakini, shida kuu ya Seva ya BTCPay ni kwamba usanidi na usimamizi wake unatumia wakati na unahitaji kiwango fulani cha utaalam wa kiufundi, lakini unaweza kufuata miongozo yetu:
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 Hatimaye, kama kijalizo cha sehemu halisi za mauzo, unaweza kufikiria kusanidi [Bitcoinize PoS](https://bitcoinize.com/).
 
 ## Mtaalamu
@@ -938,7 +938,7 @@ Inapokuja kwa mifano ya ulimwengu halisi, zingatia duka la ukubwa wa kati la bia
 
 Ili kutafakari kwa kina vipengele vya utekelezaji na kuchunguza usanidi unaotekelezwa wa Seva ya Malipo ya BTC, rejelea kozi ifuatayo:
 
-https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
+https://planb.academy/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 ## Biashara
 
 <chapterId>80fb2659-81ca-4a11-b492-72c7ae5774f9</chapterId>
@@ -1184,7 +1184,7 @@ Hata hivyo, faili rahisi ya `.csv` iliyo na historia ya muamala mara nyingi inat
 
 Kwa wale wanaojilinda wenyewe Bitcoin yao, kudhibiti UTXOs (*unspent cryptocurrency*) ni hatua muhimu. Uwekaji lebo sahihi wa UTXO husaidia kufuatilia asili ya kila kipande cha BTC, kutofautisha miamala inayohusiana na shughuli za kitaaluma na ile ya gharama za kibinafsi, na kuwezesha ufuatiliaji kwa madhumcuni ya kisheria au ya kodi. Programu nzuri zaidi ya Bitcoin Wallet hukuruhusu kuagiza Wallet yako ukitumia faili yako ya chelezo (au xpub yako, kulingana na usanidi wako) na uweke lebo UTXO kulingana na asili au lengwa. Ili kukusaidia, hapa kuna mafunzo kamili yaliyowekwa kwa mazoezi haya:
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 Hatimaye, kama wewe ni mfanyabiashara mdogo au biashara iliyoanzishwa zaidi, inawezekana **kutatua ankara katika Bitcoin**. Jambo kuu ni kuandika vizuri shughuli. Ikiwa unalipa kutoka kwa ulinzi wa kibinafsi wa Wallet, ni vyema kwa kuzalisha muamala unaobainisha nambari ya Iankara na madhumuni ya malipo katika lebo zako. Iwapo ungependa kusuluhisha Ankara kupitia Exchange, utakuwa pia na chaguo la kuhamisha risiti au historia ya muamala ili kujumuisha katika rekodi zako za uhasibu. Uwazi huu utarahisisha ufuatiliaji na kuripoti shughuli zako zote za BTC.
 
 

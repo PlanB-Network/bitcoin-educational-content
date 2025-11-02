@@ -90,7 +90,7 @@ ___
 **NOTE**：説明はGNU/Linux CentOS 7システムに基づいている。しかし、DebianとCentOSのシステムを比較した場合、ネットワーク構成はほとんど同じです。ですから、区別はしません。区別がある場合は、その前に特定のロゴを付けます。
 
 
-**N.B.**：コース中に聞き慣れない用語が出てきた場合は、[用語集](https://planb.network/resources/glossary)で定義を確認してください。
+**N.B.**：コース中に聞き慣れない用語が出てきた場合は、[用語集](https://planb.academy/resources/glossary)で定義を確認してください。
 
 
 
@@ -283,11 +283,11 @@ TCP/IPスタックの各Layerは特定のサービスを提供するため、Add
 | Switch   | Locally addresses interfaces and forwards traffic via MAC                            | Network Access         |
 | Network Interface Card (NIC)     | Signal encoding, cabling, connectors, physical specifications                        | Network Access         |
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 ## IPv5 QoSプロトコル
 
@@ -653,7 +653,7 @@ sudo apt install ipcalc
 ```
 
 
-https://planb.network/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
+https://planb.academy/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
 
 ## TCPプロトコル
 
@@ -1379,11 +1379,11 @@ iptables -t nat -A POSTROUTING -o <WAN> -s 192.168.0.0/24 -j MASQUERADE
 
 
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 
 ## ip`でネットワークを設定するには？
@@ -3068,7 +3068,7 @@ host`は、特にコマンドラインスクリプトで使用すると、素早
 ローカルネットワークやワイドエリアネットワークを監視したり保護したりする場合、アクティブなデバイスとそれらが公開するサービスを特定することが極めて重要である。これはまさに `nmap` (*Network Mapper*) ツールが行うことである。
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 #### nmap`の紹介
 
@@ -3120,7 +3120,7 @@ nmap 192.168.0.0/24
 - **脆弱性の予防**：重要なマシン上で実行されている安全でない、または古いサービスを発見する。
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 ### プロセス質問ツール
 

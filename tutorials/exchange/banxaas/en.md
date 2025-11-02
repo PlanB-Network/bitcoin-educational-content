@@ -21,13 +21,13 @@ Banxaas comes from the Senegalese dialect (Wolof) meaning a branch. Ideologicall
 - Banxaas is a non-custodial platform: you don't need to create an account or own a wallet on the platform. You remain in control of your money, and your anonymity is strengthened.
 
 
-https://planb.network/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90e9-d37ad90ae770
+https://planb.academy/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90e9-d37ad90ae770
 
 
 - Transparent accounting: Banxaas advocates transparency while reinforcing the anonymity of financial transactions.
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ### Trading for the first time with Banxaas
 
@@ -67,9 +67,9 @@ Banxaas covers the entire Senegalese territory with two major mobile operators. 
 When you initiate a conversion from CFA francs to Bitcoin, you'll add your Lightning address or an invoice without amount created from your Lightning wallet in the destination field.
 
 
-https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
+https://planb.academy/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
 
-https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
+https://planb.academy/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
 
 Banxaas lets you check the accuracy of your Bitcoin reception address by clicking on the **Validate destination** button.
 
@@ -140,4 +140,4 @@ You've now got the hang of the Banxaas platform to exchange your bitcoins and po
 Also check out our tutorial on Peach, a peer-to-peer exchange platform that also lets you buy and sell bitcoins without compromising your confidentiality.
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874

@@ -20,7 +20,7 @@ _Mafunzo haya yametolewa kwa madhumuni ya elimu na habari pekee. Hatuidhinishi a
 
 Katika somo lililopita, tulikuwa tayari tumeelezea utaratibu wa kusakinisha na kutumia RoninDojo v1. Hata hivyo, zaidi ya mwaka jana, timu za RoninDojo zimezindua toleo la 2 la utekelezaji wao, ambalo liliashiria mabadiliko makubwa katika usanifu wa programu. Hakika, walihama kutoka kwa usambazaji wa Linux Manjaro kwa niaba ya Debian. Kwa hivyo, hawatoi tena picha iliyosanidiwa mapema kwa usakinishaji wa kiotomatiki kwenye Raspberry Pi. Lakini bado kuna njia ya kuendelea na ufungaji wa mwongozo. Hili ndilo nililotumia kwa nodi yangu mwenyewe, na tangu wakati huo, RoninDojo v2 imekuwa ikifanya kazi kwa ajabu kwenye Raspberry Pi 4 yangu. Kwa hiyo ninatoa mafunzo mapya kuhusu namna ya kusakinisha RoninDojo v2 kwa Raspberry Pi.
 
-https://planb.network/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-95ec5dde72b0
+https://planb.academy/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-95ec5dde72b0
 
 ## Jedwali la Yaliyomo:
 
@@ -333,7 +333,7 @@ Mara moja kwenye ukurasa wa nyumbani wa RoninUI, utaulizwa kuanza usanidi. Ili k
 ![lets start](assets/notext/25.webp)
 
 
-Katika hatua hii, RoninUI inakuletea nenosiri lako la `root`. Ni muhimu kuiweka salama. Unaweza kuchagua kupata nakala halisi, kwenye karatasi, au kuihifadhi katika [kidhibiti nenosiri](https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-155).
+Katika hatua hii, RoninUI inakuletea nenosiri lako la `root`. Ni muhimu kuiweka salama. Unaweza kuchagua kupata nakala halisi, kwenye karatasi, au kuihifadhi katika [kidhibiti nenosiri](https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-155).
 
 
 ![root password](assets/notext/26.webp)
@@ -543,7 +543,7 @@ Baada ya kutekeleza sanjari na Whirlpool, ni muhimu kutathmini kwa usahihi kiwan
 Ili kuimarisha uelewa wako na taratibu za hesabu za anonsets hizi, napendekeza kusoma makala: REMIX - Whirlpool, ambayo inaelezea utendaji wa fahirisi hizi.
 
 
-https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 
 

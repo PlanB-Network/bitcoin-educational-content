@@ -293,7 +293,7 @@ Umbrel è una popolare piattaforma di self-hosting (utilizzata in particolare pe
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 L'utilizzo congiunto di Umbrel e Tailscale è un caso d'uso particolarmente interessante, poiché Umbrel integra in modo nativo un modulo Tailscale facile da implementare. Ecco come Tailscale si integra con Umbrel e quali sono i suoi vantaggi:
 
@@ -419,7 +419,7 @@ Leggete la nostra guida completa alla configurazione del Sparrow wallet con il v
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 
 
@@ -439,13 +439,13 @@ Per configurare Zeus con il vostro nodo Lightning, consultate il nostro tutorial
 
 
 
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
 
 Per saperne di più sul Lightning Network e su come funziona su Umbrel, visitate:
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
 
 

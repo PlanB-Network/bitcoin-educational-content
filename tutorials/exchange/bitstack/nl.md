@@ -73,10 +73,10 @@ Kies een sterk wachtwoord om de toegang tot je account te beveiligen en klik ver
 ![Image](assets/fr/06.webp)
 
 
-Voor veilig wachtwoordbeheer op dagelijkse basis wordt het gebruik van een wachtwoordmanager sterk aanbevolen. Op Plan ₿ Network vind je verschillende tutorials over de beste bestaande oplossingen, zoals Bitwarden:
+Voor veilig wachtwoordbeheer op dagelijkse basis wordt het gebruik van een wachtwoordmanager sterk aanbevolen. Op Plan ₿ Academy vind je verschillende tutorials over de beste bestaande oplossingen, zoals Bitwarden:
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Vervolgens wordt u gevraagd om uw identiteit te verifiëren (KYC). In overeenstemming met de Franse regelgeving wordt u gevraagd om uw persoonlijke gegevens en identiteitsbewijs te verstrekken. Vul in de vakjes uw achternaam, voornaam en geboortedatum in.
 
@@ -271,7 +271,7 @@ Bepaal de prioriteit van de transactie. Voor een opname zonder kosten kies je "*
 ![Image](assets/fr/32.webp)
 
 
-Als je niet weet hoe een Wallet met zelfbevestiging werkt, bieden we tutorials over de meeste beschikbare oplossingen [op Plan ₿ Network in de "*Wallet*" sectie] (https://planb.network/tutorials/wallet).
+Als je niet weet hoe een Wallet met zelfbevestiging werkt, bieden we tutorials over de meeste beschikbare oplossingen [op Plan ₿ Academy in de "*Wallet*" sectie] (https://planb.academy/tutorials/wallet).
 
 
 ## Bitcoin verkopen

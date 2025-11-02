@@ -37,7 +37,7 @@ Jade Plus är kompatibelt med de flesta programvaror för Wallet-hantering. Här
 I denna handledning kommer vi att konfigurera och använda Jade Plus med Blockstreams mobilapp Green Wallet via en Bluetooth-anslutning. Den här installationen är idealisk för nybörjare. Om du letar efter ett mer avancerat tillvägagångssätt rekommenderar jag att du tar en titt på den här handledningen där vi använder Jade Plus med Sparrow wallet i QR-kodläge:
 
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
 ## Säkerhetsmodellen Jade Plus
 
@@ -142,7 +142,7 @@ Du kan skriva den på kartongen som medföljer i lådan, eller för extra säker
 För mer information om det rätta sättet att spara och hantera din Mnemonic-fras rekommenderar jag starkt att du följer den här andra handledningen, särskilt om du är nybörjare:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 **Du får naturligtvis aldrig dela med dig av dessa ord på Internet, vilket jag gör i den här handledningen. Detta prov Wallet kommer endast att användas på Testnet och kommer att raderas i slutet av handledningen**
 
@@ -165,12 +165,12 @@ När du har sparat din fras ber Jade Plus dig att bekräfta den. Välj rätt ord
 I den här handledningen använder vi applikationen Green Wallet för att hantera Wallet som finns på Jade Plus. Den här metoden är särskilt lämplig för nybörjare. Om du vill hantera din Bitcoin Wallet mer i detalj kan du också använda Sparrow wallet, som vi kommer att behandla i en separat handledning:
 
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
 För instruktioner om hur du installerar och konfigurerar Blockstream Green-programmet, se första delen av denna andra handledning:
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
 När du är i applikationen Blockstream Green klickar du på knappen "*Konfigurera en ny Wallet*".
 
@@ -286,7 +286,7 @@ Välj "*Standard*" om du vill skapa en klassisk Wallet med en enda signering.
 För mer information om alternativet "*2FA*" kan du följa denna andra handledning:
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
+https://planb.academy/tutorials/wallet/mobile/blockstream-green-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
 
 Ditt konto har skapats.
 
@@ -324,7 +324,7 @@ Din Jade låses upp via Blockstreams "virtuella säkra element" (se första avsn
 Innan du får dina första bitcoins i din Wallet, ** rekommenderar jag starkt att du utför ett tomt återställningstest**. Anteckna viss referensinformation, till exempel din xpub eller första mottagande Address, radera sedan din Wallet i Green-appen och på Jade Plus medan den fortfarande är tom (`Optioner -> Enhet -> Fabriksåterställning`). Försök sedan återställa din Wallet med hjälp av dina pappersbackuper av Mnemonic frasen. Kontrollera att cookieinformationen som genereras efter återställningen matchar den som du ursprungligen skrev ner. Om den gör det kan du vara säker på att dina pappersbackuper är tillförlitliga. Om du vill veta mer om hur du utför en teståterställning kan du läsa den här andra handledningen :
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Ta emot bitcoins
 
@@ -422,5 +422,5 @@ Grattis, du vet nu hur du ställer in och använder Jade Plus med Blockstream Gr
 För att ta saker ett steg längre rekommenderar jag denna handledning om Jade Plus, där vi konfigurerar den med Sparrow wallet-programvaran i QR-läge. Du får också lära dig hur du använder de avancerade inställningarna för din Hardware Wallet:
 
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 

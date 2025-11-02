@@ -134,13 +134,13 @@ và mục đầu tiên chỉ là `Pools`.
 
 
 
-https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
+https://planb.academy/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
 
 Lựa chọn thứ hai là kết nối chúng ta với Mining pool có thể sử dụng solo, như Public Pool, hãy làm theo hướng dẫn sau để thực hiện:
 
 
 
-https://planb.network/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
 ### Bể não
 
@@ -150,7 +150,7 @@ https://planb.network/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1
 
 
 
-https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
+https://planb.academy/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
 
 Sau khi hoàn tất, chúng ta sẽ vào bảng điều khiển nhóm Braiins. Những gì chúng ta phải làm là cho nhóm biết rằng chúng ta muốn kết nối với một trong những Người khai thác của mình, vì vậy ở phía bên trái của màn hình, bạn sẽ thấy một số mục nhập. Chúng ta cần đến "người lao động".
 
@@ -168,7 +168,7 @@ và chúng ta cần nhấp vào nút màu tím bên phải có nội dung "Kết
 
 
 
-Đây là cửa sổ với thông tin chúng ta cần để kết nối mini Miner của mình với hồ bơi. Ở đây, thay đổi duy nhất chúng ta có thể thực hiện là chọn Stratum V2. Để tìm hiểu Stratum v2 là gì, hãy xem mục này trong [glossary](https://planb.network/en/resources/glossary/stratum-v2).
+Đây là cửa sổ với thông tin chúng ta cần để kết nối mini Miner của mình với hồ bơi. Ở đây, thay đổi duy nhất chúng ta có thể thực hiện là chọn Stratum V2. Để tìm hiểu Stratum v2 là gì, hãy xem mục này trong [glossary](https://planb.academy/en/resources/glossary/stratum-v2).
 
 
 

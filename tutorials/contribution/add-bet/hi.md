@@ -8,13 +8,13 @@ description: प्लानबी नेटवर्क पर नई शैक
 प्लानबी का मिशन Bitcoin पर अग्रणी शैक्षिक संसाधन उपलब्ध कराना है, जितना संभव हो उतनी भाषाओं में। साइट पर प्रकाशित सभी सामग्री ओपन-सोर्स है और GitHub पर होस्ट की गई है, जो किसी को भी प्लेटफ़ॉर्म को समृद्ध बनाने में भाग लेने की अनुमति देती है।
 
 
-ट्यूटोरियल और प्रशिक्षण से परे, प्लानबी नेटवर्क Bitcoin पर विविध शैक्षिक सामग्री की एक विशाल लाइब्रेरी भी प्रदान करता है, जो सभी के लिए सुलभ है, ["BET" (_बिटकॉइन एजुकेशनल टूलकिट_) अनुभाग में](https://planb.network/resources/bet)। इस डेटाबेस में शैक्षिक पोस्टर, मीम्स, विनोदी प्रचार पोस्टर, तकनीकी आरेख, लोगो और उपयोगकर्ताओं के लिए अन्य उपकरण शामिल हैं। इस पहल का लक्ष्य दुनिया भर में Bitcoin पढ़ाने वाले व्यक्तियों और समुदायों को आवश्यक दृश्य संसाधन प्रदान करके उनका समर्थन करना है।
+ट्यूटोरियल और प्रशिक्षण से परे, प्लानबी नेटवर्क Bitcoin पर विविध शैक्षिक सामग्री की एक विशाल लाइब्रेरी भी प्रदान करता है, जो सभी के लिए सुलभ है, ["BET" (_बिटकॉइन एजुकेशनल टूलकिट_) अनुभाग में](https://planb.academy/resources/bet)। इस डेटाबेस में शैक्षिक पोस्टर, मीम्स, विनोदी प्रचार पोस्टर, तकनीकी आरेख, लोगो और उपयोगकर्ताओं के लिए अन्य उपकरण शामिल हैं। इस पहल का लक्ष्य दुनिया भर में Bitcoin पढ़ाने वाले व्यक्तियों और समुदायों को आवश्यक दृश्य संसाधन प्रदान करके उनका समर्थन करना है।
 
 
 क्या आप इस डेटाबेस को समृद्ध बनाने में भाग लेना चाहते हैं, लेकिन नहीं जानते कि कैसे? यह ट्यूटोरियल आपके लिए है!
 
 
-*यह ज़रूरी है कि साइट में एकीकृत सभी सामग्री अधिकारों से मुक्त हो या स्रोत फ़ाइल के लाइसेंस का सम्मान करे। साथ ही, PlanB Network पर प्रकाशित सभी विज़ुअल [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) लाइसेंस के तहत उपलब्ध कराए जाते हैं।*
+*यह ज़रूरी है कि साइट में एकीकृत सभी सामग्री अधिकारों से मुक्त हो या स्रोत फ़ाइल के लाइसेंस का सम्मान करे। साथ ही, Plan ₿ Academy पर प्रकाशित सभी विज़ुअल [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) लाइसेंस के तहत उपलब्ध कराए जाते हैं।*
 
 ![event](assets/01.webp)
 
@@ -22,7 +22,7 @@ description: प्लानबी नेटवर्क पर नई शैक
 - सबसे पहले, आपके पास GitHub पर एक अकाउंट होना चाहिए। अगर आपको नहीं पता कि अकाउंट कैसे बनाया जाता है, तो हमने आपको मार्गदर्शन करने के लिए एक विस्तृत ट्यूटोरियल बनाया है।
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -36,7 +36,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![event](assets/03.webp)
 
 
-- यदि आपने पहले कभी PlanB Network की सामग्री में योगदान नहीं दिया है, तो आपको मूल रिपॉजिटरी का अपना Fork बनाना होगा। रिपॉजिटरी को फ़ॉर्क करने का मतलब है अपने GitHub खाते पर उस रिपॉजिटरी की एक प्रति बनाना, जो आपको मूल रिपॉजिटरी को प्रभावित किए बिना प्रोजेक्ट पर काम करने की अनुमति देता है। `Fork this repository` बटन पर क्लिक करें:
+- यदि आपने पहले कभी Plan ₿ Academy की सामग्री में योगदान नहीं दिया है, तो आपको मूल रिपॉजिटरी का अपना Fork बनाना होगा। रिपॉजिटरी को फ़ॉर्क करने का मतलब है अपने GitHub खाते पर उस रिपॉजिटरी की एक प्रति बनाना, जो आपको मूल रिपॉजिटरी को प्रभावित किए बिना प्रोजेक्ट पर काम करने की अनुमति देता है। `Fork this repository` बटन पर क्लिक करें:
 
 ![event](assets/04.webp)
 
@@ -82,7 +82,7 @@ contributors:
 - **`बिल्डर`**: प्लानबी नेटवर्क पर अपने संगठन का पहचानकर्ता इंगित करें। यदि आपके पास अभी तक अपनी कंपनी के लिए "बिल्डर" पहचानकर्ता नहीं है, तो आप इस ट्यूटोरियल का पालन करके एक बना सकते हैं।
 
 
-https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
+https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 यदि आपके पास बिल्डर प्रोफाइल नहीं है, तो आप बिल्डर प्रोफाइल बनाए बिना अपना नाम, अपना छद्म नाम या अपनी कंपनी का नाम उपयोग कर सकते हैं।
 
@@ -118,7 +118,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 
 
 ```yaml
-project: PlanB-Network
+project: Plan ₿ Academy
 type: Educational Content
 links:
 download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
@@ -135,7 +135,7 @@ view:
 ![event](assets/13.webp)
 - Click on your GitHub profile picture at the top right, then on `Your Repositories`:
 ![event](assets/14.webp)
-- Select your fork of the PlanB Network repository:
+- Select your fork of the Plan ₿ Academy repository:
 ![event](assets/15.webp)
 - You should see a notification at the top of the window with your new branch. It is probably called `patch-1`. Click on it:
 ![event](assets/16.webp)
@@ -152,7 +152,7 @@ view:
 - Leave the commit title as default, and make sure the `Commit directly to the patch-1 branch` box is checked, then click on `Commit changes`: ![event](assets/23.webp)
 - Return to the `assets` folder: ![event](assets/24.webp)
 - Click on the `Add file` button, then on `Upload files`: ![event](assets/25.webp)
-- A new page will open. Drag and drop a thumbnail that represents your content into the area. This image will be displayed on the PlanB Network site: ![event](assets/26.webp)
+- A new page will open. Drag and drop a thumbnail that represents your content into the area. This image will be displayed on the Plan ₿ Academy site: ![event](assets/26.webp)
 - It can be a preview, a logo, or an icon: ![event](assets/27.webp)
 - Once the image is uploaded, make sure the `Commit directly to the patch-1 branch` box is checked, then click on `Commit changes`: ![event](assets/28.webp)
 - Be careful, your image must be named `logo` and must be in `.webp` format. The full file name should therefore be: `logo.webp`: ![event](assets/29.webp)

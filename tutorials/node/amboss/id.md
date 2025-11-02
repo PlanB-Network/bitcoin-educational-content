@@ -11,7 +11,7 @@ Lightning Network adalah Layer dari protokol Bitcoin, yang terutama dikembangkan
 
 
 
-https://planb.network/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
+https://planb.academy/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
 
 Sama seperti pada rantai utama, sangat penting untuk memungkinkan pengguna mengetahui informasi dan status jaringan, untuk memfasilitasi koneksi antar node dan meminimalkan masalah likuiditas yang umumnya muncul dalam jaringan. Memang, pada Lightning Network, kami merekomendasikan pembayaran mikro dengan jumlah yang relatif lebih kecil dibandingkan dengan transaksi pada rantai utama Bitcoin.
 
@@ -34,7 +34,7 @@ Seperti [Mempool Space] (https://Mempool.space), yang menyediakan informasi berg
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 Dalam tutorial ini, kami akan mengajak Anda berkeliling platform ini, yang merupakan sumber daya penting bagi pengguna Lightning Network, mereka yang ingin menghubungkan node mereka untuk memperluas jaringan, dll.
 
@@ -57,7 +57,7 @@ Salah satu tujuan dari platform Amboss adalah untuk memungkinkan berbagai node d
 
 
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
 Di halaman beranda, Anda juga akan menemukan node yang diklasifikasikan menurut :
 
@@ -147,7 +147,7 @@ Pada bagian **Channels**, Anda akan melihat daftar saluran yang terbuka dan kone
 
 - Rasio masuk**: Jumlah yang akan ditagih oleh node kepada Anda untuk setiap juta Satoshi yang diterimanya, tergantung saluran yang dipilih.
 - Rasio (bagian per juta)**: yang mewakili jumlah Satoshi per juta unit yang akan ditagih oleh node kepada Anda ketika Anda memutuskan untuk melakukan pembayaran melalui salah satu salurannya. Katakanlah Anda memutuskan untuk melakukan pembayaran sebesar `10_000 Sats` melalui saluran yang rasio ppm-nya adalah `500 Sats`, Anda harus membayar satoshi `10_000 * 500 / 1_000_000` kepada node tersebut, yang setara dengan `5 Sats`.
-- Maksimum [HTLC] (https://planb.network/resources/glossary/htlc) **: Jumlah maksimum yang dapat ditransmisikan oleh node ini melalui salah satu saluran ini.
+- Maksimum [HTLC] (https://planb.academy/resources/glossary/htlc) **: Jumlah maksimum yang dapat ditransmisikan oleh node ini melalui salah satu saluran ini.
 
 
 
@@ -304,4 +304,4 @@ Anda sekarang telah mengikuti tur lengkap fitur dan alat analisis platform. Sila
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f

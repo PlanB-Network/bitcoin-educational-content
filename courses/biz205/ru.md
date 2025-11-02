@@ -7,13 +7,13 @@ objectives:
   - Cover the basics of Bitcoin technology from both theoretical and practical standpoints.
 ---
 
-Welcome to the 2024 edition of the “Plan ₿ Biz School”, an annual Bitcoin-centered educational program curated by Giacomo Zucco and Plan ₿ Network. With almost 102 hours of class spread across 34 lectures, this curriculum provides a comprehensive exploration of Bitcoin fundamentals and practical applications, specifically tailored for future startup entrepreneurs, business students, and professionals willing to work in the growing Bitcoin ecosystem in non-technical roles: from finance to marketing, from accounting to operations, from compliance to strategy. The desired target spans from students looking into a first internship to established professionals eager to apply their skills and knowledge in the new Bitcoin economy.
+Welcome to the 2024 edition of the “Plan ₿ Biz School”, an annual Bitcoin-centered educational program curated by Giacomo Zucco and Plan ₿ Academy. With almost 102 hours of class spread across 34 lectures, this curriculum provides a comprehensive exploration of Bitcoin fundamentals and practical applications, specifically tailored for future startup entrepreneurs, business students, and professionals willing to work in the growing Bitcoin ecosystem in non-technical roles: from finance to marketing, from accounting to operations, from compliance to strategy. The desired target spans from students looking into a first internship to established professionals eager to apply their skills and knowledge in the new Bitcoin economy.
 
 Our course features insights from world-renowned experts who contribute as guest lecturers, offering valuable perspectives on Bitcoin's principles and its potential impact on the global economy, beyond the hype and buzzwords. From the theoretical understanding of the technology's foundation to the practical exploration of tools, business cases, and best practices, participants will gain a comprehensive understanding of this disruptive phenomenon, learning about its sociological roots, political implications, economic foundations, and business implications.
 
 The 18 curricular lectures are in English and were recorded from the Plan ₿ Hubs of Lugano (CH) and San Salvador (SV). In comparison, the 16 guest lectures were delivered thanks to the collaboration of the Plan ₿ Nodes, which include Turin (IT), Bangkok (TH), and Belgrade (RS). You will find all the video recordings of the 2024 edition, along with a brief text summary of what the lecturers explained.
 
-We also strongly invite you to explore the other half of the Plan ₿ Network educational offer, the “Plan ₿ Tech School”, which targets engineers, cryptographers, computer scientists, and tech-focused students.
+We also strongly invite you to explore the other half of the Plan ₿ Academy educational offer, the “Plan ₿ Tech School”, which targets engineers, cryptographers, computer scientists, and tech-focused students.
 
 **Teachers:** Giacomo Zucco, Alekos Filini, Alexandre Bussutil, Rogzy, Riccardo Masutti, Marco Giorgetti, Gael Sánchez Smith, Alejandro Munoz, Ajelex, Mario Jose Flamento Riva, Adi Shankara
 
@@ -53,7 +53,7 @@ Running a Bitcoin-based business presents its unique challenges and opportunitie
 
 ### Education initiatives in Bitcoin
 
-The Plan ₿ Network initiative, supported by Fulgur Ventures and Tether, is rooted in Lugano and focused on developing Bitcoin education globally. The Plan ₿ School offers comprehensive programs that cover the technical aspects of Bitcoin, its history, and the business side of running Bitcoin-related ventures.
+The Plan ₿ Academy initiative, supported by Fulgur Ventures and Tether, is rooted in Lugano and focused on developing Bitcoin education globally. The Plan ₿ School offers comprehensive programs that cover the technical aspects of Bitcoin, its history, and the business side of running Bitcoin-related ventures.
 
 ### Conclusion
 
@@ -1155,7 +1155,7 @@ Plan ₿ Biz School is more than just a course—it’s a growing educational in
 
 Stay tuned—more details coming soon!
 
-https://planb.network/en/courses/c762773a-9017-4129-bc0e-06adf86050ef
+https://planb.academy/en/courses/c762773a-9017-4129-bc0e-06adf86050ef
 
 # Final Section
 <partId>891d2578-3bba-4be4-9ace-e480265a0800</partId>

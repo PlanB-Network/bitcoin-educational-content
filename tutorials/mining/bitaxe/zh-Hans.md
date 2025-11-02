@@ -46,7 +46,7 @@ BitAxe有几个版本，芯片和性能各不相同：
 
 如屏幕所示，您需要移除`stratum+tcp://`和`:3333`部分，只留下`eu.stratum.braiins.com`。然后，在`Port`字段中，输入URL末尾的4位数字，但不包括`:`。这里，因此是`3333`。
 
-在本教程中，我们使用的是Braiins挖矿池，但您可以自由选择其他挖矿池。您可以在PlanB网络网站上找到我们关于挖矿池的教程[在PlanB网络网站](https://planb.network/en/tutorials/mining)。
+在本教程中，我们使用的是Braiins挖矿池，但您可以自由选择其他挖矿池。您可以在PlanB网络网站上找到我们关于挖矿池的教程[在PlanB网络网站](https://planb.academy/en/tutorials/mining)。
 
 接下来，在`User`中输入您的标识符，然后输入`Password`，通常是`"x"`或`"Anything123"`。
 

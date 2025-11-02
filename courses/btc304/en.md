@@ -175,7 +175,7 @@ Bitcoin meetups can serve many purposes:
 *Hosting conferences or workshops on specific topics*
 
 
-We'll cover many of these possibilities in detail in part 6/8 of this course, entitled "[Examples of projects and initiatives](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279).
+We'll cover many of these possibilities in detail in part 6/8 of this course, entitled "[Examples of projects and initiatives](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279).
 
 
 While every community is free to form its own opinions, launch projects, and experiment in its own way, meetups are proving increasingly **essential to Bitcoin's development and to the growth of bitcoiners**. **Organizing them does require time and effort**, which is why this course shares the combined experience of [around sixty Bitcoin communities in France and Belgium](https://btcmap.org/communities/map#2/5.24949/0.20000) **to help you build and grow your own community and meetups as smoothly as possible**.
@@ -254,7 +254,7 @@ This is why **setting concrete goals and projects is essential**.
 Your first event will likely be a meet-up. Its main purpose: to bring together bitcoiners in your area.
 
 
-However, as we'll see later in [Examples of projects and initiatives](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279), **a meet-up can be built in many ways, with many objectives:**
+However, as we'll see later in [Examples of projects and initiatives](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279), **a meet-up can be built in many ways, with many objectives:**
 
 * Combine networking with an educational presentation on a Bitcoin concept;
 * Host a professional demonstration of Bitcoin solutions;
@@ -605,7 +605,7 @@ For the tutorials below, we originally used the "Telegram+" APK, which allows fo
 
 If you want to create a place where your members can talk to each other directly, respond to each other, etc., then you might want to create a Telegram group, and not a Telegram channel!
 
-Go directly to the next section, entitled [Create a Telegram group](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/d13714ce-8f08-53e9-bedd-b6a3aaac5dad).
+Go directly to the next section, entitled [Create a Telegram group](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/d13714ce-8f08-53e9-bedd-b6a3aaac5dad).
 
 
 Indeed, **a Telegram channel is more like a one-way broadcast tool for admins**. Members cannot freely chat, they can only react with emojis (or leave comments in separate threads, which fragments conversations).
@@ -867,7 +867,7 @@ Twitter is very easy to use, and to improve your privacy, you'll need to adjust 
 
 1/ **the @ Twitter**, which defines your identity and makes you easy to find. If your community's name is "Bitcoin [CITY]", it's appropriate to choose "@Bitcoin[CITY]";
 
-2/ **the logo and banner** you've created for your community or meet-up (see section [Create a logo, poster and banner](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef));
+2/ **the logo and banner** you've created for your community or meet-up (see section [Create a logo, poster and banner](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef));
 
 3/ **the description**, which allows you to share key information about your community in a few hundred characters. For example:
 
@@ -1089,7 +1089,7 @@ In the second case, a second monthly event could be dedicated to a specific them
 ![image](assets/en/031.webp)
 
 
-Bear in mind that **this requires more organization and more of your time**. Fortunately, in [part 6/8 of this course](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279), you'll find a range of reusable open-source resources to help.
+Bear in mind that **this requires more organization and more of your time**. Fortunately, in [part 6/8 of this course](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279), you'll find a range of reusable open-source resources to help.
 
 In any case, it all depends on the short-, medium- and long-term action plan you, or your community, set for yourselves.
 
@@ -1134,7 +1134,7 @@ Here's a checklist to help you prepare:
 Contact the location where you'll host the event and reserve it for the estimated number of attendees.
 2/ **Announce the event**:
     - Share the date, time, and location on your social networks and other communication channels. Include a registration link if needed.
-    - Create a dedicated visual (Canva poster for example, see part 2/8 "[Designing an identity for your Bitcoin community](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/b48a18cc-afdf-5216-802c-32647b5cd8a3)").
+    - Create a dedicated visual (Canva poster for example, see part 2/8 "[Designing an identity for your Bitcoin community](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/b48a18cc-afdf-5216-802c-32647b5cd8a3)").
     - Maximize visibility by pinning the announcement on Telegram and Twitter, and using an "@everyone" mention on Discord.
     - Post announcements 7 to 10 days before the event so attendees can plan ahead.
 
@@ -1203,7 +1203,7 @@ Rome wasn't built in a day, and neither will your community be. Momentum around 
 
 To make that happen, one thing is essential: **keep participants engaged**.
 
-It might start with a small group of passionate bitcoiners, whose aim is to get together regularly and talk about Bitcoin. Over time, depending on each person's availability and interests, you can **share certain organizational tasks with the group**, or invite core **members to take on specific projects**. These can be unique to your community, your meet-ups or your city or even inspired by the many initiatives proposed in [part 6/8 of this course](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279). **This not only fosters commitment from your core members but also helps your community grow and thrive.**.
+It might start with a small group of passionate bitcoiners, whose aim is to get together regularly and talk about Bitcoin. Over time, depending on each person's availability and interests, you can **share certain organizational tasks with the group**, or invite core **members to take on specific projects**. These can be unique to your community, your meet-ups or your city or even inspired by the many initiatives proposed in [part 6/8 of this course](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279). **This not only fosters commitment from your core members but also helps your community grow and thrive.**.
 
 As your meetups progress, new faces will appear: people who bought BTC and/or altcoins in previous cycles, tech enthusiasts wanting to deepen their understanding, or complete beginners curious about this uncensorable, decentralized, transparent, and fair payment system that works without conditions and without trusted third parties.
 
@@ -1270,7 +1270,7 @@ Beyond its strong educational value, this approach makes it possible to share op
 
 Below is the 2023-2024 French meetup progression. For each theme, an open-source presentation and a video are available, which may give you ideas for topics you could cover for your own events.
 
-Additional editable materials can also be found in the [Bitcoin Teaching Toolbox](https://planb.network/fr/resources/bet)!
+Additional editable materials can also be found in the [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)!
 
 
 | Month | Theme | Video | Editable Resource |
@@ -1401,7 +1401,7 @@ These flyers can be targeted toward:
 
 You could also design a flyer specific to your community or meet-up, presenting your activities, goals, social media links, communication channels, and upcoming events.
 
-Several flyers are already **available as open-source in the [Bitcoin Teaching Toolbox](https://planb.network/fr/resources/bet)** on planB.network and more will be added over time.
+Several flyers are already **available as open-source in the [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)** on planB.network and more will be added over time.
 
 One example is a [complete sourced flyer](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin) with 21 reasons to use Bitcoin. Its design is also [available in open-source](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) for you to modify and adapt and share. Just remember to credit your sources.
 
@@ -1553,7 +1553,7 @@ Popular platforms include:
 - [**Odyssee**](https://odysee.com/), less popular but decentralized through peer-to-peer technology.
 - [**peertube**](https://joinpeertube.org/fr_FR), lets you host your own video platform, though it's more complex to set up.
 
-Whichever you choose, design platform-specific visuals to make your channel appealing. Canva, mentioned in [part 2/8](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef) offers a "YouTube Thumbnail" category with pre-made, customizable designs.
+Whichever you choose, design platform-specific visuals to make your channel appealing. Canva, mentioned in [part 2/8](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef) offers a "YouTube Thumbnail" category with pre-made, customizable designs.
 
 
 ![image](assets/en/051.webp)
@@ -1978,7 +1978,7 @@ The benefits are twofold:
 
 To help your community grow further, **a follow-up to the COMMU302 course**<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/a823b6f4-3365-41fa-97fd-768a788fb871" />
 <img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430" />
-may be released on [planb.network](https://planb.network/) in the coming months.
+may be released on [planb.network](https://planb.academy/) in the coming months.
 
 This next session could explore advanced topics such as:
 - Designing presentations or workshops for your meetups and setting clear objectives.

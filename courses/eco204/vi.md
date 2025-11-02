@@ -926,7 +926,7 @@ Thông điệp chính ở đây là có nhiều chiến lược để vượt qu
 
 <chapterId>f3ffbb47-3aeb-54bd-80a9-adccb0f419e2</chapterId>
 
-[Khám phá bộ sưu tập đã quét trong *Bitcoin Educational Toolkit* (cũng có thể truy cập từ phần *Tài nguyên* của nền tảng Plan ₿ Network.](https://penpot.planb.network/#/view?page-id=c157057b-fd28-8042-8004-4f081b21defc&file-id=c157057b-fd28-8042-8004-4f081b21defb&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6475c2af5889&interactions-mode=show-on-click)
+[Khám phá bộ sưu tập đã quét trong *Bitcoin Educational Toolkit* (cũng có thể truy cập từ phần *Tài nguyên* của nền tảng Plan ₿ Academy.](https://penpot.planb.network/#/view?page-id=c157057b-fd28-8042-8004-4f081b21defc&file-id=c157057b-fd28-8042-8004-4f081b21defb&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6475c2af5889&interactions-mode=show-on-click)
 
 ![hình ảnh](assets/vi/068.webp)
 # Chúng ta đã đến đây như thế nào?

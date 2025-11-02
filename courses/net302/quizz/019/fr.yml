@@ -6,4 +6,4 @@ wrong_answers:
   - Traduire les adresses MAC en adresses IP
 explanation: |
   Le protocole IP prend en charge l’adressage logique des équipements et garantit l’acheminement des paquets à travers des réseaux interconnectés.
-reviewed: false
+reviewed: true 

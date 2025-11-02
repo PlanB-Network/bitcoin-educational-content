@@ -90,7 +90,7 @@ Spremni da zaronite u svet računarskih mreža? Hajde da krenemo!
 **NAPOMENA**: Opisi su zasnovani na GNU/Linux CentOS 7 sistemu. Međutim, mrežne konfiguracije su uglavnom iste kada se upoređuje Debian sa CentOS sistemom. Dakle, nećemo praviti nikakvu razliku. Kada postoji razlika, prefiksiraćemo je specifičnim logotipom.
 
 
-**N.B.**: Ako naiđete na bilo koji nepoznat termin tokom kursa, molimo vas da se obratite [glosaru](https://planb.network/resources/glossary) za definicije.
+**N.B.**: Ako naiđete na bilo koji nepoznat termin tokom kursa, molimo vas da se obratite [glosaru](https://planb.academy/resources/glossary) za definicije.
 
 
 
@@ -283,11 +283,11 @@ Svaki Layer TCP/IP steka pruža specifične usluge, omogućavajući Address razl
 | Switch   | Locally addresses interfaces and forwards traffic via MAC                            | Network Access         |
 | Network Interface Card (NIC)     | Signal encoding, cabling, connectors, physical specifications                        | Network Access         |
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 ## IPv5 QoS protokol
 
@@ -653,7 +653,7 @@ sudo apt install ipcalc
 ```
 
 
-https://planb.network/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
+https://planb.academy/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
 
 ## TCP protokol
 
@@ -1379,11 +1379,11 @@ U sledećem poglavlju, detaljno ćemo razmotriti konfiguraciju IP Address na Lin
 
 
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 
 ## Kako da konfigurišem mrežu pomoću `ip`?
@@ -3068,7 +3068,7 @@ Ponovljeni ili intenzivni upiti ka DNS serverima trećih strana bez dozvole mogu
 Kada nadgledate ili osiguravate lokalnu ili širokopojasnu mrežu, ključno je identifikovati aktivne uređaje i usluge koje oni izlažu. Upravo to radi alatka `nmap` (*Network Mapper*).
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 #### Uvod u `nmap`
 
@@ -3120,7 +3120,7 @@ Administrator može da se osloni na `nmap` za nekoliko zadataka:
 - **Prevencija ranjivosti**: uočite nesigurne ili zastarele servise koji rade na kritičnim mašinama.
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 ### Alati za ispitivanje procesa
 

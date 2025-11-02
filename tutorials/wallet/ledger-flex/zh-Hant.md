@@ -259,7 +259,7 @@ passphrase 是一個非常強大的工具，可以增強您比特幣的安全性
 passphrase 是一個非常強大的工具，可以加強您比特幣的安全性。但是，在實施之前，了解它的工作原理是至關重要的，以避免丟失 Wallet 的訪問權限。這就是為什麼我要在專門的教學中解釋一切的原因：
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+https://planb.academy/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 最後，最後一個設定頁面允許您重設 Ledger。只有在您確定 Ledger 不含任何保護比特幣的鑰匙時，才可進行此重設，因為您可能會永久失去存取資金的權利。
 
@@ -470,7 +470,7 @@ https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-43
 如需更多關於標籤的資訊，我也建議您查看此其他教學：
 
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 然後您就可以使用這個 Address 來接收比特幣。
 

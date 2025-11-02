@@ -156,7 +156,7 @@ Oletko valmis ottamaan tietoturvan täysin haltuun, vahvistamaan henkilökohtais
 
 
 
-**HUOM:** Jos kurssin aikana tulee vastaan tuntemattomia termejä, katso määritelmät [sanastosta](https://planb.network/resources/glossary)
+**HUOM:** Jos kurssin aikana tulee vastaan tuntemattomia termejä, katso määritelmät [sanastosta](https://planb.academy/resources/glossary)
 
 
 
@@ -179,7 +179,7 @@ SCU101-kurssi oli johdantokurssi, jonka tarkoituksena oli luoda vankka perusta d
 
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 ### Turvallinen nettiselailu
 
@@ -974,7 +974,7 @@ Tämä lähestymistapa perustuu *kierrettävien julkaisujen* malliin, jossa pake
 
 Arch Linux on suunnattu ennen kaikkea edistyneille käyttäjille, jotka haluavat hallita ympäristöään täydellisesti, mutta hyväksyvät samalla asennuksen ja ylläpidon tietyn monimutkaisuuden. Tämä tekninen vaatimus on johtanut siihen, että on syntynyt useita johdannaisjakeluja, joiden tarkoituksena on demokratisoida sen käyttöä.
 
-https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+https://planb.academy/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 Tunnetuin on Manjaro, joka säilyttää Archin teknisen perustan mutta tarjoaa samalla yksinkertaistetun asennuksen, valmiiksi konfiguroidut työpöytäympäristöt ja hieman viivästyneen julkaisusyklin päivitysten vakauttamiseksi.
 
@@ -1062,7 +1062,7 @@ Canonicalin kehittämä ja vuonna 2004 julkaistu Ubuntu on yksi maailman suositu
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
 
@@ -1074,7 +1074,7 @@ Vuonna 2006 lanseerattu Linux Mint on Ubuntusta johdettu jakelu, joka on suunnit
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.academy/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
 Mint erottuu edukseen yksinkertaisuudellaan, multimediakoodekkien oletusarvoisella läsnäololla ja hyvin suunnitellulla päivitystyökalulla. Toisaalta se tukeutuu vahvasti Ubuntun infrastruktuuriin, mikä tekee siitä riippuvaisen Ubuntun teknisistä valinnoista (erityisesti ytimen ja arkistojen tasolla). Mint sopii erityisen hyvin ei-teknisille käyttäjille tai niille, jotka haluavat käyttövalmiin järjestelmän, joka ei vaadi liikaa opettelua.
 
@@ -1108,7 +1108,7 @@ Asennus on sujuva, olennaiset ohjelmistot on esiasennettu, ja Lite-version avull
 
 Vuonna 2011 lanseerattu elementary OS on Ubuntu-pohjainen jakelu, joka keskittyy ennen kaikkea Interface:n suunnitteluun ja johdonmukaisuuteen. Sen Pantheon-työpöytäympäristö, joka on saanut vaikutteita macOS:stä, on minimalistinen, tyylikäs ja sujuva. Järjestelmä on kuitenkin edelleen vähemmän muokattavissa kuin muut jakelut, ja jotkut edistyneet käyttäjät saattavat tuntea Interface:n valintojen ja sen tarkoituksellisesti lukitun rakenteen rajoittavan heitä. Se sopii hyvin esteettisesti herkille käyttäjille, jotka etsivät yksinkertaista, yhtenäistä järjestelmää jokapäiväiseen käyttöön.
 
-https://planb.network/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
+https://planb.academy/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
 
 
 
@@ -1151,7 +1151,7 @@ Fedora on Red Hatin tukema jakelu, joka on suunnattu uusimpiin teknologioihin (W
 ![Image](assets/fr/025.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
+https://planb.academy/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
 
 
 - **openSUSE** (Tumbleweed tai Leap):
@@ -1179,7 +1179,7 @@ Debianilla on useita haaroja, kuten *Stable* (erittäin luotettava, mutta vanhem
 ![Image](assets/fr/027.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
+https://planb.academy/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
 
 
 - **Manjaro**:
@@ -1208,7 +1208,7 @@ Arch Linux on minimalistinen, jatkuvasti päivittyvä jakelu, joka toimitetaan i
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+https://planb.academy/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 #### Erikoistunut jakelu
 
@@ -1246,7 +1246,7 @@ Tails on Debian-pohjainen, yksityisyyteen keskittyvä live-jakelu. Kaikki kulkee
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
+https://planb.academy/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
 → **Huomautus:** Live-jakelu on Linux-käyttöjärjestelmä, jota voidaan käyttää suoraan USB-tikulta tai CD-levyltä ilman asennusta Hard-levylle.
 
@@ -1300,7 +1300,7 @@ PureOS on Purismin kehittämä Debianista johdettu jakelu, täysin ilmainen (FSF
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
+https://planb.academy/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
 
 - **Raspberry Pi OS**:
 
@@ -1326,7 +1326,7 @@ Whonix yhdistää Debianin ja Tor-verkon kahden VM:n arkkitehtuurissa (yhdyskäy
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+https://planb.academy/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
 
 Tämä yleiskuva antaa sinulle yleiskuvan nykyisestä Linux-jakelujen ekosysteemistä, jonka avulla voit valita tekniseen profiiliisi ja tavoitteisiisi parhaiten sopivan jakelun.
 
@@ -1938,7 +1938,7 @@ Jos haluat lisätietoja Ubuntun asennusohjelmasta, voit tutustua myös tähän o
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 Kun asennus on valmis, poista USB-levy kehotettaessa ja käynnistä sitten uudelleen. Ubuntu on nyt asennettu ja valmis käytettäväksi koneellasi.
 
@@ -2977,7 +2977,7 @@ sudo apt install thunderbird
 
 
 
-https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
+https://planb.academy/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 #### Toimistopaketti
 
 
@@ -3114,13 +3114,13 @@ Näiden muutamien perustyökalujen lisäksi suosittelen, että asennat käyttöt
 
 
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 Lopuksi tämän luvun päätteeksi tässä on muutamia parhaita käytäntöjä, joita kannattaa noudattaa päivittäin:
 
@@ -3212,9 +3212,9 @@ Monimutkaista salasanaa on varmasti vaikea muistaa. Siksi suosittelen käyttäm�
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Vaihda salasana säännöllisesti - 3-6 kuukauden välein - varsinkin jos konettasi käytetään jaetuissa tai liikkuvissa ympäristöissä.
 
@@ -3314,13 +3314,13 @@ Lopuksi, yksi tärkeimmistä toimenpiteistä, joilla voit suojautua varkauksilta
 - Linux-jakelut eivät salaa levyä automaattisesti, ellei tätä vaihtoehtoa ole valittu asennuksen aikana. Voit käyttää LUKS:ää levyn salaamiseen
 
 
-https://planb.network/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
+https://planb.academy/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
 
 Kaikissa tapauksissa salauksen purkusalasanan on oltava vahva, järjestelmän salasanasta erillinen ja tallennettu turvalliseen salasanahallintaan. Jos käytät arkaluonteisia tietoja sisältävää ulkoista levyä tai USB-levyä, harkitse myös niiden salaamista erikseen VeraCryptin kaltaisilla työkaluilla.
 
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 ### Vähimmän etuoikeuksia koskeva periaate
 
@@ -3417,7 +3417,7 @@ Tämä tekniikka perustuu hypervisoriin, joka on ohjelmisto, joka hallinnoi VM:i
 ![Image](assets/fr/206.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
+https://planb.academy/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
 
 Tietoturvan kannalta yksi virtuaalikoneiden suurista eduista on niiden kyky lokeroitua. VM ei jaa tiedostojaan, prosessejaan tai verkkokäyttöoikeuksiaan isäntäjärjestelmän kanssa, ellei näitä vaihdotapoja ole erikseen määritetty. Jos siis VM:ään tarttuu haittaohjelma tai jos sen sisällä testataan arkaluonteisia ohjelmistoja, vaikutus rajoittuu kyseiseen virtuaalikoneeseen: pääjärjestelmäsi säilyy ehjänä edellyttäen, että eristysparametreja noudatetaan (ei jaettuja hakemistoja, ei USB-laitteita, joita siirretään VM:lle...).
 
@@ -3953,7 +3953,7 @@ Hyvin huolletussa Linux-koneessa, jota käytetään henkilökohtaisiin tarkoituk
 ![Image](assets/fr/218.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
+https://planb.academy/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
 
 #### MacOS:ssä
 
@@ -4061,11 +4061,11 @@ Tämä järjestelmä perustuu epäsymmetriseen salaukseen ja työkaluihin, kuten
 
 
 
-Jos haluat oppia lisää Hash:n salausfunktioista ja digitaalisista allekirjoituksista, pyydän sinua osallistumaan ilmaiselle CYP 201 -kurssille, joka on tarjolla Plan ₿ Network:lla:
+Jos haluat oppia lisää Hash:n salausfunktioista ja digitaalisista allekirjoituksista, pyydän sinua osallistumaan ilmaiselle CYP 201 -kurssille, joka on tarjolla Plan ₿ Academy:lla:
 
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### Ohjelmiston eheyden ja aitouden tarkistaminen
 
@@ -4469,7 +4469,7 @@ Tällä kokoonpanolla Alice on jo suojattu monia yleisiä uhkia vastaan. Yksi ri
 
 
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Alice noudattaa siis 3-2-1-sääntöä: sillä on kolme kopiota tiedostoistaan (tietokone, USB-levy, pilvipalvelin), jotka on tallennettu vähintään kahdelle eri tietovälineelle (sisäinen levy, USB-levy, etäpalvelin) ja vähintään yksi ulkoinen kopio (pilvipalvelin).
 
@@ -4556,7 +4556,7 @@ Täydellinen salaus on kuin lukko: niin kauan kuin salasanaa ei anneta, tietoja 
 Linuxissa vakioratkaisu on LUKS (*Linux Unified Key Setup*). LUKS on useimpiin jakeluihin integroitu salattu levyjenhallintajärjestelmä. Kun järjestelmä asennetaan ensimmäisen kerran, sinua yleensä kehotetaan salaamaan koko tietokoneen levy. Suosittelen tietenkin vahvasti, että aktivoit tämän vaihtoehdon. Kun salaus on otettu käyttöön, järjestelmä kysyy salasanaa jokaisella käynnistyskerralla, jopa ennen käyttöjärjestelmän lataamista. Näin varmistetaan, että fyysinen pääsy levylle ei voi ohittaa suojausta.
 
 
-https://planb.network/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
+https://planb.academy/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
 
 Jos haluat salata ulkoisen levyn tai USB-tikun, se voidaan tehdä myös komentoriviltä tai graafisen Interface:n kautta. Levy on alustettava, joten kaikki olemassa olevat tiedot menetetään, jos niistä ei ole ensin tehty varmuuskopiota.
 
@@ -4832,7 +4832,7 @@ Jos haluat lisätietoja tästä ratkaisusta, tutustu tähän täydelliseen opetu
 
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 
 
@@ -4877,7 +4877,7 @@ Tämä protokolla sopii erinomaisesti arkaluonteisten tiedostojen turvalliseen v
 
 Erinomainen vaihtoehto on Cryptomator. Tämän avoimen lähdekoodin ohjelmiston avulla voit luoda kassakaapin: erityisen hakemiston, johon kaikki talletetut tiedostot salataan automaattisesti. Tämä kassakaappi voidaan synkronoida Dropboxin, Google Driven tai Nextcloudin kaltaisten pilvipalveluiden kanssa ilman, että palveluntarjoaja pääsee koskaan käsiksi salaamattomiin tietoihin. Sovellus on käytettävissä kaikissa käyttöjärjestelmissä, myös Androidissa ja iOS:ssä, eikä sen käyttö vaadi erityisiä teknisiä taitoja.
 
-https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
+https://planb.academy/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 
 
@@ -4885,7 +4885,7 @@ https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253
 
 
 
-https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+https://planb.academy/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
 
 Lopuksi on myös mahdollista käyttää VeraCryptiä konttitilassa, jolloin luodaan tiedosto, joka toimii salattuna arkistona, joka on liitettävissä kuten levyke.
 
@@ -5580,9 +5580,9 @@ En siis suosittele Google Chromen käyttöä henkilökohtaisesti tai ammatillise
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 #### Rohkea
 
@@ -5742,7 +5742,7 @@ Firefox on edelleen turvallisuuden ja yksityisyydensuojan vertailukohde, vaikka 
 
 
 
-https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
+https://planb.academy/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Tor-selain
 
 
@@ -5751,7 +5751,7 @@ https://planb.network/tutorials/computer-security/communication/firefox-11814cec
 
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 Huonona puolena on suorituskyvyn merkittävä heikkeneminen (suuri viive) ja rajoitettu yhteensopivuus tiettyjen verkkosivustojen kanssa. Tor Browser on ihanteellinen arkaluonteisiin toimintoihin (journalismi, aktivismi...), mutta se ei sovellu yhtä hyvin tavalliseen arkikäyttöön.
 
@@ -5765,11 +5765,11 @@ Huonona puolena on suorituskyvyn merkittävä heikkeneminen (suuri viive) ja raj
 
 [Mullvad Browser](https://mullvad.net/en/browser) on Tor-säätiön ja Mullvad VPN:n yhteistyön tulos. Se perustuu Tor-selaimeen, joka on puolestaan johdettu Firefox ESR:stä. Mullvad Browser on suunniteltu maksimoimaan käyttäjän yksityisyys. Se sisältää oletusarvoisesti kehittyneen suojan sormenjälkiä, seurantalaitteita ja kolmannen osapuolen skriptejä vastaan.
 
-https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
+https://planb.academy/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 Siinä on suurin osa Tor Browserin tarjoamista turvallisuus- ja yksityisyysominaisuuksista yhdellä erolla: se ei ohjaa liikennettä Tor-verkon kautta. Jos haluat välttää IP Address -vuodot, voit käyttää sitä yhdessä VPN:n kanssa (mieluiten Mullvad VPN).
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 Mullvad Browser on erinomainen ratkaisu, jos olet huolissasi yksityisyydestäsi, olitpa sitten aloittelija tai edistynyt käyttäjä.
 
@@ -5795,7 +5795,7 @@ Oletusarvoisesti LibreWolf aktivoi Firefoxin kehittyneet tietoturva-asetukset (k
 
 
 
-https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+https://planb.academy/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
 
 #### Zen-selain
 
@@ -5813,7 +5813,7 @@ Turvallisuuden ja yksityisyyden näkökulmasta Zenissä on natiivisti estetty ko
 
 Zen Browser on mielenkiintoinen vaihtoehto, jos etsit Gecko-selainympäristöä, joka on ilmainen, innovatiivinen, selkeä ja yksityisyyttäsi kunnioittava.
 
-https://planb.network/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
+https://planb.academy/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### WebKit-pohjaiset selaimet
 
@@ -5855,7 +5855,7 @@ Orion on täysin Kagi-tiimin (joka tunnetaan mainoksettomasta hakukoneestaan) ke
 
 
 
-https://planb.network/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
+https://planb.academy/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
 ### Selaimet ilman renderöintimoottoreita
 
 
@@ -6035,9 +6035,9 @@ Salasanahallinta luo ja tallentaa turvallisesti vahvoja salasanoja, joiden avull
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Salasanahallinnan käyttämisellä on useita etuja: se yksinkertaistaa jokapäiväistä elämääsi poistamalla tarpeen painaa mieleen lukuisia salasanoja ja minimoi tärkeimmän todentamisen heikkouden: käyttäjän itsensä.
 
@@ -6047,13 +6047,13 @@ Tunnistautumisen osalta salasanahallinnan käyttöä on täydennettävä kaksite
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/trezor-u2f-fido2-41d2939e-69b9-4c2e-b836-a2b09de58051
+https://planb.academy/tutorials/computer-security/authentication/trezor-u2f-fido2-41d2939e-69b9-4c2e-b836-a2b09de58051
 
-https://planb.network/tutorials/computer-security/authentication/ledger-fido-u2f-59f8105b-a0cc-4aff-bc56-048a6a42d39f
+https://planb.academy/tutorials/computer-security/authentication/ledger-fido-u2f-59f8105b-a0cc-4aff-bc56-048a6a42d39f
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ### VPN:n käyttäminen
 
@@ -6087,11 +6087,11 @@ Hyvällä VPN:llä pitäisi olla selkeä kirjaamiskieltopolitiikka, sen pitäisi
 
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
+https://planb.academy/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
 
 Korkean profiilin VPN:iä tulisi välttää. Aggressiivisesta markkinoinnistaan huolimatta ne ovat edelleen keskitettyjä kaupallisia palveluja, jotka sijaitsevat usein vähemmän suojaavilla lainkäyttöalueilla ja joiden todellinen tekninen toiminta on harvoin avointa.
 
@@ -6626,7 +6626,7 @@ GrapheneOS ei sisällä omia komponentteja. Voit vapaasti lisätä Googlen palve
 Graphene on yhteensopiva vain viimeisimpien Google Pixeleiden (Pixel 6, 7, 8 ja 9) kanssa.
 
 
-https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.academy/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
 #### CalyxOS
 
@@ -6842,11 +6842,11 @@ Julkiset Wi-Fi-verkot, kuten kahviloissa, hotelleissa tai julkisissa liikennevä
 Voit suojautua välttämällä näiden julkisten verkkojen käyttöä tai käyttämällä VPN:ää, joka luo salatun tunnelin laitteesi ja etäpalvelimen välille. Tämä tunneli kapseloi tietosi, jolloin niitä on erittäin vaikea siepata tai muuttaa.
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
+https://planb.academy/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
 
 Kotisi Wi-Fi-verkkoa käsittelemme SCU 202 -kurssin viimeisessä osassa.
 
@@ -6921,7 +6921,7 @@ NetGuardin avulla voit esimerkiksi hallita Internet-yhteyttä sovelluskohtaisest
 Tätä varten kannattaa käyttää salattuja paikallisia ratkaisuja, kuten ulkoista levyä tai salattua USB-avainta (esim. Veracryptillä). Jos tämä ei onnistu, voit varmuuskopioida tietosi henkilökohtaisella palvelimella itse ylläpidettävillä pilviratkaisuilla, kuten *Syncthing* tai *Nextcloud*, mutta samalla voit hallita täysin pääsyä ja luottamuksellisuutta. Toisin kuin kaupalliset pilvipalvelut (Google Drive, iCloud...), nämä ratkaisut rajoittavat huomattavasti tietojesi altistumista kolmansille osapuolille.
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 #### Etäpyyhintä
 
@@ -7019,7 +7019,7 @@ Signalilla on kuitenkin heikko kohta anonymiteetin suhteen: sovellus vaatii voim
 Lyhyesti sanottuna Signal on erittäin hyvä viestiratkaisu, mutta valitettavasti se vaatii yhteyden puhelinnumerosta.
 
 
-https://planb.network/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
+https://planb.academy/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
 
 #### WhatsApp
 
@@ -7042,7 +7042,7 @@ Telegram on erittäin suosittu viestipalvelu ergonomiansa ja ominaisuuksiensa an
 Telegram voi siis teknisesti päästä käsiksi suurimpaan osaan keskusteluista, joita ei ole nimenomaisesti suojattu. Vaikka yhtiö suhtautuu tiukasti viranomaisiin, Telegram ei ole optimaalinen ratkaisu luottamuksellisiin tai arkaluonteisiin keskusteluihin, ellei nimenomaisesti käytetä sen "salaisia vaihtoja", jotka ovat paljon vähemmän käytännöllisiä päivittäisessä käytössä.
 
 
-https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
+https://planb.academy/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
 #### Threema
 
@@ -7065,7 +7065,7 @@ Toinen tärkeä näkökohta Threemassa on sen liiketoimintamalli: sovellus ei ol
 Mielestäni tämä viestintäratkaisu on erinomainen, mutta sen suurin haittapuoli on se, että sen palvelimien lähdekoodi on edelleen patentoitu.
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
 
 #### SimpleX Chat
 
@@ -7088,7 +7088,7 @@ Yhteystietoja lisätään väliaikaisten linkkien tai staattisten osoitteiden (p
 Turvallisuuden ja luottamuksellisuuden osalta SimpleX menee pidemmälle kuin useimmat nykyiset viestijärjestelmät, sillä se rajoittaa metatiedot minimiin ja poistaa riippuvuuden keskushakemistosta tai yksilöllisestä tunnisteesta. Tämä arkkitehtuuri edellyttää kuitenkin useita kompromisseja käyttäjäystävällisyyden suhteen: joskus vähemmän intuitiivinen ergonomia, tarve oppia aluksi hieman ja riippuvuus relepalvelimien saatavuudesta.
 
 
-https://planb.network/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
+https://planb.academy/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
 
 #### Istunto
 
@@ -7105,7 +7105,7 @@ Teknisesti Session toteuttaa päästä päähän -salauksen viesteille, tiedosto
 Session-asiakasohjelma ja -palvelin ovat avoimen lähdekoodin tuotteita. Ohjelmisto on saatavilla Android-, iOS-, Windows-, macOS- ja Linux-käyttöjärjestelmissä, ja siinä on mahdollisuus synkronoida laitteiden välillä Mnemonic-lauseen kautta, joka on samanlainen kuin Bitcoin-lompakoissa käytetty. Tämä lause antaa käyttäjälle yksinomaisen määräysvallan tietoihinsa, mutta asettaa myös merkittävän vastuun varmuuskopioinnista.
 
 
-https://planb.network/tutorials/computer-security/communication/session-b0e3193c-2129-4f1b-9013-c211210724c3
+https://planb.academy/tutorials/computer-security/communication/session-b0e3193c-2129-4f1b-9013-c211210724c3
 
 #### Keet
 
@@ -7125,7 +7125,7 @@ Toisaalta, vaikka jotkin osat (salaus ja verkkoyhteydet) on julkaistu avoimena l
 Keet on saatavilla Android-, iOS-, Windows-, macOS- ja Linux-käyttöjärjestelmissä, ja se voidaan synkronoida laitteiden välillä Mnemonic-lauseen avulla.
 
 
-https://planb.network/tutorials/computer-security/communication/keet-efdb759d-5e94-4bbf-b28c-5fa8669c809b
+https://planb.academy/tutorials/computer-security/communication/keet-efdb759d-5e94-4bbf-b28c-5fa8669c809b
 
 #### Olvid
 
@@ -7162,7 +7162,7 @@ ANSSI (*Agence Nationale de la Sécurité des Systèmes d'Information*) on serti
 Olvid on yhteensopiva Androidin, iOS:n, Windowsin, macOS:n ja Linuxin kanssa. Sen ergonomia on yksinkertainen ja helppokäyttöinen. Sovelluksessa on myös salattu varmuuskopiointijärjestelmä avaimille ja yhteystiedoille, joten voit palauttaa tilin uudella laitteella.
 
 
-https://planb.network/tutorials/computer-security/communication/olvid-05038dc1-62c0-4a47-be4e-3d23c6155bfd
+https://planb.academy/tutorials/computer-security/communication/olvid-05038dc1-62c0-4a47-be4e-3d23c6155bfd
 
 ### Vältettävät sanomanvälityssovellukset
 
@@ -7260,7 +7260,7 @@ Thunderbird Mobile on Mozilla Foundationin kehittämän suositun avoimen lähdek
 
 
 
-https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
+https://planb.academy/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 - [Tuta](https://tuta.com/)
 
 
@@ -7502,7 +7502,7 @@ Bitwarden on yksi kattavimmista saatavilla olevista avoimen lähdekoodin salasan
 Voit käyttää Bitwardenin palvelimia tai halutessasi isännöidä sitä itse, jos haluat täydellisen hallinnan. Sen Interface-mobiili on selkeä ja sujuva, ja se integroituu saumattomasti Android- tai iOS-järjestelmään.
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 
 - [KeePassDX](https://www.keepassdx.com/)
@@ -7517,7 +7517,7 @@ KeePass on salattuihin paikallisiin tiedostoihin perustuva historiallinen salasa
 Myös [KeePassium](https://keepassium.com/) iOS:lle on Applen ekosysteemiin hyvin integroitu sovellus, joka on yhteensopiva KeePass-muodon kanssa ja avointa lähdekoodia. Toinen iOS-vaihtoehto KeePass-asiakasohjelmalle on Strongbox, mutta tämä ohjelmisto ei ole ollut avoimen lähdekoodin ohjelmistona enää moneen vuoteen.
 
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 
 - [Proton Pass](https://proton.me/pass)
@@ -7548,7 +7548,7 @@ Kaikki VPN:t eivät kuitenkaan ole samanlaisia. Suositut palvelut, kuten NordVPN
 Mullvad on yksi parhaista VPN:istä yksityisyyden suojan kannalta. Se ei vaadi sähköpostia tai salasanaa: tilisi on yhdistetty yksinkertaiseen satunnaisnumeroon. Maksu voidaan suorittaa bitcoineina tai käteisellä. Mobiiliasiakasohjelma on avoimen lähdekoodin, helppokäyttöinen ja tehokas. Mullvad ei pidä lokitietoja, ei seuraa käyttäjiään ja julkaisee säännöllisesti riippumattomia tietoturvatarkastuksia.
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 
 - [IVPN](https://www.ivpn.net/)
@@ -7557,7 +7557,7 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 IVPN on toinen erinomainen yksityisyyteen keskittyvä vaihtoehto. Se tarjoaa yksinkertaisen ja tehokkaan Interface-mobiilipalvelun, ei lokien keräämistä ja mahdollistaa anonyymin rekisteröinnin. Voit myös maksaa bitcoineilla. Sovellus sisältää palomuurin, joka estää kaiken muun kuin VPN-liikenteen, mikä voi olla erittäin hyödyllistä älypuhelimessa. Asiakkaat ovat avoimen lähdekoodin ohjelmia.
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
 
 - [Proton VPN](https://protonvpn.com/)
@@ -7595,7 +7595,7 @@ Aegis on kattava avoimen lähdekoodin sovellus. Se salaa 2FA-tietokantasi salasa
 Ente Auth on nykyaikainen, avoimen lähdekoodin monialustaratkaisu, jossa on päästä päähän salatut varmuuskopiot. Sen avulla voit synkronoida 2FA-koodisi turvallisesti mobiilissa, työpöydällä ja verkossa. Voit käyttää sitä myös offline-tilassa ilman pilvivarmistusta tai tilin luomista.
 
 
-https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
+https://planb.academy/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 Ente Auth tarjoaa monia lisäominaisuuksia: Muistiinpanot, suosikit, integroitu haku, turvallinen tiimikoodin jakaminen.
 
 
@@ -7609,13 +7609,13 @@ Ente Auth tarjoaa monia lisäominaisuuksia: Muistiinpanot, suosikit, integroitu 
 Authy tarjoaa 2FA-synkronoinnin useisiin laitteisiin, mikä voi olla kätevää, mutta sovellus ei ole avoimen lähdekoodin sovellus ja vaatii puhelinnumeron rekisteröintiä varten. Aloittelijoille se on kuitenkin kattavampi kuin Google Authenticator, erityisesti pilvivarmistustoiminnon ansiosta.
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
+https://planb.academy/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 Jos haluat lisätietoja salasanahallinnasta, 2FA-todennuksesta ja VPN:stä, suosittelen lukemaan SCU-101-kurssin omat luvut:
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 ### Sää
 
@@ -8267,7 +8267,7 @@ Kuten edellisessä luvussa todettiin, kotiverkon suojaaminen on erittäin tärke
 Teoreettisten perusteiden tarkastelun jälkeen tässä luvussa opastetaan selkeillä, käytännöllisillä ja tehokkailla toimenpiteillä lähiverkkosi tietoturvan parantamiseksi.
 
 
-*Huomaa: Tässä annetut tiedot ovat yleisiä, sillä Plan ₿ Network on suunnattu kansainväliselle yleisölle. Paikallisista olosuhteista ja Internet-palveluntarjoajasta riippuen tiettyjä parhaita käytäntöjä ei ehkä mainita tässä tai niitä voidaan soveltaa eri tavalla.*
+*Huomaa: Tässä annetut tiedot ovat yleisiä, sillä Plan ₿ Academy on suunnattu kansainväliselle yleisölle. Paikallisista olosuhteista ja Internet-palveluntarjoajasta riippuen tiettyjä parhaita käytäntöjä ei ehkä mainita tässä tai niitä voidaan soveltaa eri tavalla.*
 
 
 ### Verkkolaitteiden valinta ja suojaaminen
@@ -8305,9 +8305,9 @@ Jos reititintäsi ei enää ylläpidetä mutta se toimii laitteiston kannalta oi
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 Nämä järjestelmät mahdollistavat palomuurisääntöjen, lähtevien ja saapuvien yhteyksien, verkon segmentoinnin (VLANit) ja DNS:n hallinnan tarkemman hallinnan, mutta ne on suunnattu enemmän edistyneille käyttäjille.
 
@@ -8344,9 +8344,9 @@ Siksi on ehdottoman tärkeää, että vaihdat tunnukset heti reitittimen asennuk
 Salasanan on oltava pitkä (40 merkkiä), monimutkainen (numeroita, pieniä ja isoja kirjaimia sekä symboleja), yksilöllinen (ei voi käyttää uudelleen muualla) ja satunnainen. Suosittelen tietenkin salasanahallintaohjelman käyttöä generate:n käyttöön ja näiden tietojen turvalliseen säilyttämiseen.
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Varoitus: älä sekoita reitittimen hallintasalasanaa (joka suojaa pääsyä reitittimen asetuksiin) ja Wi-Fi-salasanaa (jonka avulla voit muodostaa yhteyden langattomaan verkkoon). Nämä ovat kaksi eri Elements:ää, ja molemmat on vaihdettava.
 
@@ -8384,7 +8384,7 @@ Järjestelmä on alun perin suunniteltu helpottamaan laitteiden liittämistä Wi
 Jotkin reitittimet mahdollistavat yhteyden muodostamisen Interface:n hallintalaitteeseen ulkopuolelta Internetin kautta. Tämä ominaisuus lisää kohtuuttomasti reitittimen hyökkäyspintaa. Poista se kokonaan käytöstä, ellei sinulla ole erityistä tarvetta etähallintaan. Käytä silloinkin aina VPN:ää.
 
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 
 - **Vanhentuneet tai epävarmat protokollat**:
@@ -8505,7 +8505,7 @@ Käytännössä DNS-salaus ja palvelimen vaihto voidaan toteuttaa eri tasoilla:
 
 
 
-https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
+https://planb.academy/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - Käyttöjärjestelmätasolla: Tämä suojaa kaikki DNS-pyynnöt, jotka kulkevat järjestelmän verkkopinon läpi. Tämä ei kuitenkaan suojaa koko tietokonetta tai puhelinta: Sovellukset voivat ohittaa tämän asetuksen, jos ne on määritetty käyttämään eri DNS-resolveria tai -protokollaa.
 
 
@@ -8520,7 +8520,7 @@ Internet-palveluntarjoajan toimittamat modeemireitittimet eivät myöskään ain
 Voit myös ottaa käyttöön paikallisen DNS-suodatusratkaisun, kuten Pi-hole tai AdGuard Home.
 
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
 Nämä työkalut toimivat kuin pieni DNS-palvelin verkossasi ja estävät pyynnöt verkkotunnuksille, joiden tiedetään isännöivän mainoksia, selainten jäljittäjiä, tietojenkalastelusivustoja tai haitallisia sivustoja. Näiden työkalujen avulla voit myös luoda omia estoluetteloita tai mukauttaa suodatusta liitettyjen laitteiden mukaan.
 
@@ -8541,19 +8541,19 @@ Yksityisasiakkaille tarkoitetut kaksi tärkeintä ratkaisua ovat:
 - WireGuard: Moderni, nopea ja kevyt
 - OpenVPN: Vanhempi, mutta erittäin kypsä ja konfiguroitavissa
 
-https://planb.network/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
+https://planb.academy/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
 
 Tässä on täydellinen opas Tailscalen, WireGuardia käyttävän helposti konfiguroitavan VPN-ratkaisun, käyttöönotosta:
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 Voit isännöidä tätä VPN:ää suoraan yhteensopivalla reitittimellä, pienellä tietokoneella (kuten Raspberry Pi) tai erillisellä palvelimella kotona. Voit myös asentaa sen asiakkaana suoraan mihin tahansa laitteeseen.
 
 VPN ei kuitenkaan ole vain etäkäyttöä varten. Voit myös käyttää klassista VPN-asiakasta laitteissasi salaamaan kaiken lähtevän tietoliikenteesi, vaikka olisit poissa kotoa (julkinen Wi-Fi, hotelli, yliopisto jne.). Tässä tapauksessa laitteesi muodostaa yhteyden kolmannen osapuolen VPN-palvelimeen (kaupalliseen tai itse isännöimäänsä), joka välittää yhteytesi Internetiin. Tämä piilottaa todellisen IP-osoitteesi Address Internet-palveluntarjoajalta, suojaa tietojasi paikalliselta vakoilulta ja välttää tietyt sensuurin muodot.
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
 VPN on myös mahdollista asentaa suoraan reitittimeen, jolloin voit suojata kaikki kodin laitteet ilman, että sinun tarvitsee asentaa VPN-asiakasohjelma jokaiseen laitteeseen.
 
@@ -8563,17 +8563,17 @@ Kun verkko on konfiguroitu ja segmentoitu oikein, on tärkeää mennä passiivis
 
 Ensimmäinen askel on keskittää turvallisuuslokit. Jokainen verkkoon liitetty laite tuottaa lokitietoja, jotka sisältävät tietoja yhteyksistä, virheistä tai epäilyttävästä toiminnasta. Sen sijaan, että näitä lokeja tarkasteltaisiin yksitellen, suosittelen niiden lähettämistä palvelimelle, joka pystyy ryhmittelemään, lajittelemaan ja analysoimaan ne. Graylogin tai Elastic Stackin (ELK) kaltaisten ratkaisujen avulla voit koota nämä lokit graafiseksi Interface:ksi, josta voit etsiä tiettyjä tapahtumia, luoda hälytyksiä tai visualisoida verkon toimintaa.
 
-https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
+https://planb.academy/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
 
 Suorita seuraavaksi säännöllisiä aktiivisia skannauksia lähiverkossasi esimerkiksi Nmapin avulla. Näin saat yleiskuvan kaikista verkon laitteista ja niiden avaamista porteista. Jos tunnistat tuntemattoman laitteen tai epätavallisen palvelun, se voi olla merkki hyökkäyksestä.
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 Jos haluat mennä vielä pidemmälle, voit asentaa IDS:n (*Murtohälytysjärjestelmä*) tai jopa IPS:n (*Murtojen estojärjestelmä*). Nämä työkalut, kuten Suricata tai Snort, valvovat verkkovirtoja reaaliajassa ja havaitsevat tunnettujen hyökkäysten merkit (porttiskannaukset, injektiot, epäilyttävät yhteydet jne.). IDS varoittaa, kun taas IPS voi automaattisesti estää tietyt toimet.
 
 Kaistanleveyden kulutuksen seuranta on myös hyvä indikaattori epänormaalista toiminnasta. Jos laite kuluttaa yhtäkkiä paljon dataa ilman näkyvää syytä, tämä voi paljastaa luvattoman latauksen, tietovuodon tai jopa vaarantuneen laitteen. Työkalujen, kuten ntopng tai vnStat, avulla voit tarkastella saapuvia ja lähteviä virtoja laitteittain.
 
-https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
+https://planb.academy/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
 
 ### Varmuuskopiointi ja häiriönsietokyky
 

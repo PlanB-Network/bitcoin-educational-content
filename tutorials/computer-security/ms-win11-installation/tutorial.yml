@@ -1,17 +1,15 @@
-id: 2edefa24-1230-40ce-8d0f-99771c21e478
-
-project_id: 
+id: 6fb540d1-12eb-48fa-959b-626849c690fe
 
 tags:
   - software
   - guides
-  - 
+  - use-case
 
-category: 
+category: operating system
 
-level: beginner
+level: advanced
 
-professor_id:
+professor_id: ecb6a3f0-851e-4304-8287-66f63f4f4697
 
 # Proofreading metadata
 
@@ -20,6 +18,6 @@ proofreading:
   - language: en
     last_contribution_date:
     urgency: 1
-    contributor_names: zeraatchi
-      - 
-    reward:
+    contributor_names:
+      - zeraatchi
+    reward: 1

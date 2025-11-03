@@ -3,7 +3,6 @@ name: Menyiapkan node Bitcoin pertama Anda
 goal: Memahami, memasang, mengonfigurasi, dan menggunakan node Bitcoin
 objectives: 
 
-
   - Memahami peran dan tujuan node Bitcoin.
   - Mengidentifikasi berbagai solusi perangkat keras dan perangkat lunak yang tersedia.
   - Memasang dan mengkonfigurasi Full node (Bitcoin core).
@@ -11,306 +10,163 @@ objectives:
   - Hubungkan Wallet pribadi ke simpulnya sendiri.
   - Jelajahi pengaturan lanjutan dan praktik keamanan terbaik.
 
-
 ---
 # Menjadi seorang bitcoiner yang berdaulat
 
+Anda mungkin sudah familiar dengan pepatah "Tidak ada kunci Anda, tidak ada koin Anda" (Not your keys, not your coins), yang mendorong penyimpanan mandiri (self-custody) atas Bitcoin Anda. Memegang kunci Anda sendiri memang merupakan langkah pertama yang penting, tetapi itu tidak cukup. Untuk mencapai kedaulatan moneter sejati, Anda juga perlu memasang dan menjalankan Node Bitcoin Anda sendiri. Kursus ini dirancang untuk memandu Anda melalui langkah mendasar dalam perjalanan Bitcoin Anda!
 
+BTC202 adalah kursus yang mudah diakses yang dirancang untuk mengajari Anda cara menjalankan Node Bitcoin Anda sendiri, bahkan jika Anda bukan seorang ahli teknis. Kita akan mulai dengan mendefinisikan apa itu Node Bitcoin, apa fungsinya, dan mengapa menjalankan satu node secara pribadi sangat penting. Setelah itu, saya akan memandu Anda langkah demi langkah dalam memilih perangkat keras Anda (hardware), memasang perangkat lunak yang diperlukan (software), menghubungkan perangkat lunak dompet (wallet) Anda, dan melakukan optimasi awal yang mungkin untuk melangkah lebih jauh.
 
-Anda mungkin sudah tidak asing lagi dengan pepatah "Bukan kunci Anda, bukan koin Anda", yang menganjurkan untuk menyimpan sendiri bitcoin Anda. Memegang kunci Anda sendiri memang merupakan langkah awal yang penting, tetapi itu saja tidak cukup. Untuk mencapai kedaulatan moneter yang sebenarnya, Anda juga perlu menginstal dan menggunakan node Bitcoin Anda sendiri. Kursus ini dirancang untuk memandu Anda melalui langkah fundamental ini dalam perjalanan Bitcoin Anda!
-
-
-
-BTC 202 adalah pelatihan yang mudah diakses yang dirancang untuk mengajarkan Anda cara menjalankan node Bitcoin Anda sendiri, bahkan jika Anda bukan ahli teknis. Kami akan mulai dengan mendefinisikan apa itu node Bitcoin, untuk apa fungsinya, dan mengapa sangat penting untuk menjalankannya sendiri. Saya kemudian akan memandu Anda langkah demi langkah dalam memilih perangkat keras Anda, menginstal perangkat lunak yang diperlukan, menghubungkan perangkat lunak dompet Anda, dan melakukan optimalisasi awal yang mungkin untuk melangkah lebih jauh.
-
-
-
-Menjalankan node Bitcoin bukan hanya pilihan bagi para ahli; ini adalah suatu keharusan. Ini adalah alat ketahanan yang perlu dipahami dan diterapkan oleh setiap pengguna. Kursus ini adalah titik awal Anda untuk menjadi bitcoiner yang berdaulat!
-
-
-
+Menjalankan Node Bitcoin bukan sekadar pilihan bagi para ahli; itu adalah suatu keharusan. Ini adalah alat ketahanan (resilience tool) yang perlu dipahami dan diimplementasikan oleh setiap pengguna. Kursus ini adalah titik awal Anda untuk menjadi bitcoiner yang berdaulat!
 
 +++
 
-
-
-
 # Pendahuluan
-
 
 <partId>fc46ccd7-5d6d-40c3-9e9f-fbbb323c760a</partId>
 
-
-
-
 ## Gambaran umum kursus
-
 
 <chapterId>916b1f86-38a4-4ede-bdb7-83841d5a7abe</chapterId>
 
-
-
-Selamat datang di BTC 202, di mana Anda akan belajar cara menginstal, mengonfigurasi, dan menggunakan node Bitcoin dengan mudah dan mandiri. Tapi bukan hanya itu saja: Anda juga akan belajar lebih banyak tentang tempat dan fungsi node dalam sistem Bitcoin. Kursus ini bergantian antara penjelasan teoretis dan praktik langsung yang dipandu.
-
-
+Selamat datang di BTC 202, di mana Anda akan belajar cara memasang, mengonfigurasi, dan menggunakan Node Bitcoin dengan mudah dan mandiri. Namun, bukan hanya itu: Anda juga akan belajar lebih banyak tentang lokasi dan fungsi node dalam sistem Bitcoin. Kursus ini bergantian antara penjelasan teoretis dan praktik langsung yang dibimbing.
 
 ### Bagian 1 - Pendahuluan
 
-
-
-Di bagian pertama kursus ini, kita akan menjelaskan pengertian dasar dan kemudian melanjutkan ke definisi yang lebih tepat. Apa yang dimaksud dengan node? Apa perbedaan antara node, Wallet, dan Miner? Anda kemudian akan belajar tentang Bitcoin core dan implementasi protokol. Tujuannya adalah untuk berbicara dengan bahasa yang sama, menghindari kebingungan, dan membangun fondasi teori yang kuat.
-
-
+Pada bagian pertama kursus ini, kita akan menjelaskan gagasan dasar dan kemudian melanjutkan ke definisi yang lebih tepat. Apa itu node? Apa perbedaan antara node, wallet (dompet), dan miner (penambang)? Anda kemudian akan belajar tentang Bitcoin Core dan implementasi protokol. Tujuannya adalah untuk berbicara dalam bahasa yang sama, menghindari kebingungan, dan membangun fondasi teoretis yang kuat.
 
 ### Bagian 2 - Menjadi pengguna bitcoin yang berdaulat
 
+Pada bagian kedua ini, saya akan mulai dengan menjelaskan mengapa penting untuk menjalankan Node Bitcoin Anda sendiri. Kita kemudian akan menjelajahi berbagai jenis node yang ada (lengkap, pruned, SPV...), cara kerjanya, dan implikasi teknisnya.
 
+Kami kemudian akan memberi Anda gambaran umum tentang perangkat lunak yang tersedia untuk menjalankan Node Bitcoin, termasuk kelebihan dan kekurangannya. Akhirnya, kami akan menyimpulkan dengan beberapa rekomendasi yang sangat praktis untuk memilih perangkat keras (hardware) yang tepat untuk kebutuhan dan anggaran Anda.
 
-Di bagian kedua ini, saya akan mulai dengan menjelaskan mengapa penting untuk menjalankan node Bitcoin Anda sendiri. Kemudian kita akan menjelajahi berbagai jenis node yang ada (lengkap, pruned, SPV...), cara kerjanya, dan implikasi teknisnya.
-
-
-
-Kami kemudian akan memberi Anda gambaran umum tentang perangkat lunak yang tersedia untuk menjalankan node Bitcoin, termasuk kelebihan dan kekurangannya. Terakhir, kami akan menyimpulkan dengan beberapa rekomendasi yang sangat praktis untuk memilih perangkat keras yang tepat untuk kebutuhan dan anggaran Anda.
-
-
-
-Oleh karena itu, bagian ini mengilustrasikan jalur bitcoiner yang berdaulat: memahami mengapa perlu menjalankan sebuah node, memilih jenis node, berdasarkan pilihan ini, memilih perangkat lunak, dan, tergantung pada perangkat lunak yang dipilih, menentukan perangkat keras yang sesuai.
-
-
+Oleh karena itu, bagian ini mengilustrasikan jalur bitcoiner yang berdaulat: memahami mengapa menjalankan node itu perlu, memilih jenis node, berdasarkan pilihan ini, memilih perangkat lunak, dan, tergantung pada perangkat lunak yang dipilih, menentukan perangkat keras yang sesuai.
 
 ### Bagian 3 - Memasang node Bitcoin dengan mudah
 
+Setelah persiapan ini selesai, saatnya untuk menjadi praktis dengan Bagian 3 yang dikhususkan untuk Umbrel: OS home cloud yang menyederhanakan self-hosting serta pemasangan node Bitcoin dan Lightning.
 
-
-Setelah persiapan ini selesai, sekarang saatnya untuk mulai mempraktikkan Bagian 3 yang membahas tentang Umbrel: OS cloud rumahan yang menyederhanakan hosting mandiri dan pemasangan node Bitcoin dan Lightning.
-
-
-
-Setelah pengenalan singkat tentang Umbrel, kami akan memberikan tutorial mendetail untuk memandu Anda melalui proses instalasi dan konfigurasi pada mesin DIY Anda sendiri. Tujuan dari bagian ini jelas: untuk memiliki node Bitcoin pertama Anda yang berfungsi penuh dan tersinkronisasi.
-
-
+Setelah pengenalan singkat tentang Umbrel, kami akan memberikan tutorial terperinci untuk memandu Anda melalui proses instalasi dan konfigurasi pada mesin DIY (rakitan sendiri) Anda sendiri. Tujuan dari bagian ini jelas: untuk memiliki Node Bitcoin pertama Anda yang berfungsi penuh dan tersinkronisasi.
 
 ### Bagian 4 - Menghubungkan Wallet Anda ke node Anda
 
+Sekarang setelah Anda mengatur Node Bitcoin, saatnya untuk menggunakannya! Di bagian ini, Anda akan belajar cara menghubungkan perangkat lunak manajemen wallet Anda (seperti Sparrow wallet) ke pengindeks alamat Anda sendiri (Electrs atau Fulcrum), atau langsung ke Bitcoin Core, sehingga Anda tidak lagi bergantung pada server publik.
 
-
-Sekarang setelah Anda menyiapkan node Bitcoin, sekarang saatnya untuk menggunakannya! Pada bagian ini, Anda akan mempelajari cara menghubungkan perangkat lunak manajemen Wallet (seperti Sparrow wallet) ke pengindeks Address milik Anda sendiri (Electrs atau Fulcrum), atau langsung ke Bitcoin core, sehingga Anda tidak lagi bergantung pada server publik.
-
-
-
-Kita juga akan membahas peran pengindeks dan berbagai metode untuk menyambungkan ke node Anda (LAN, Tor, Tailscale, dll.). Terakhir, di bab terakhir, kita akan mengulas aplikasi yang paling berguna yang tersedia di Umbrel untuk pengguna bitcoin sehari-hari.
-
-
+Kami juga akan menguji peran indexer dan berbagai metode koneksi ke node Anda (LAN, Tor, Tailscale, dll.). Akhirnya, di bab terakhir, kami akan meninjau aplikasi paling berguna yang tersedia di Umbrel untuk bitcoiner sehari-hari.
 
 ### Bagian 5 - Konsep lanjutan dan praktik terbaik
 
+Di bagian akhir BTC 202 ini, tujuannya adalah untuk memperdalam pengetahuan Anda. Pertama, kita akan melihat praktik terbaik yang harus diterapkan dengan Node Bitcoin baru Anda dan cara memeliharanya dalam jangka panjang.
 
-
-Di bagian terakhir BTC 202 ini, tujuannya adalah untuk memperdalam pengetahuan Anda. Pertama, kita akan melihat praktik terbaik untuk diadopsi dengan node Bitcoin baru Anda dan cara memeliharanya dalam jangka panjang.
-
-
-
-Kemudian kita akan meluangkan waktu untuk mengulas beberapa teori yang telah dibahas sebelumnya dalam kursus ini, termasuk memahami proses IBD dan peer discovery secara mendetail, menjelajahi anatomi node, dan akhirnya mempelajari cara menggunakan file `Bitcoin.conf` untuk menyesuaikan pengaturan Anda.
-
-
+Kita kemudian akan meluangkan waktu untuk meninjau beberapa teori yang dibahas sebelumnya dalam kursus, termasuk memahami proses IBD (Initial Block Download) dan peer discovery secara rinci, menjelajahi anatomi node, dan akhirnya belajar cara menggunakan file Bitcoin.conf untuk menyempurnakan pengaturan Anda.
 
 ### Bagian 6 - Bagian akhir
 
+Seperti semua kursus Plan ₿ Academy, di bagian akhir Anda akan menemukan ujian akhir untuk menguji pengetahuan Anda tentang Node Bitcoin.
 
-
-Seperti semua kursus Plan ₿ Academy, di bagian akhir, Anda akan menemukan ujian akhir untuk menguji pengetahuan Anda tentang node Bitcoin.
-
-
-
-Jadi, apakah Anda siap untuk menyalakan node Bitcoin pertama Anda? Tentukan arah untuk berdaulat!
-
-
+Jadi, apakah Anda siap untuk menyalakan Node Bitcoin pertama Anda? Tetapkan arah menuju kedaulatan!
 
 ## Apa yang dimaksud dengan node Bitcoin?
 
-
 <chapterId>0a9fd4e0-94ab-405e-924c-023397393027</chapterId>
 
+Seperti yang dijelaskan oleh penciptanya, Satoshi Nakamoto, Bitcoin memperkenalkan diri sebagai sistem uang elektronik peer-to-peer. Kalimat sederhana ini, yang merupakan judul White Paper, mengandung banyak petunjuk tentang sifat Bitcoin:
 
+- Pertama, Satoshi mendeskripsikan Bitcoin sebagai "sistem", dengan kata lain, satu set komponen perangkat keras (hardware) dan perangkat lunak (software) yang koheren yang berinteraksi untuk menyediakan layanan atau menjalankan fungsi tertentu;
+- Selanjutnya, ia menjelaskan bahwa sistem ini memungkinkan penggunaan uang elektronik, yaitu bentuk mata uang tak berwujud;
+- Terakhir, ia menunjukkan bahwa sistem ini tidak bergantung pada entitas pusat apa pun: Sistem ini bersifat peer-to-peer, artinya pengguna sendirilah yang mengoperasikan sistem tersebut.
 
-Seperti yang dijelaskan oleh penciptanya, Satoshi Nakamoto, Bitcoin menampilkan dirinya sebagai sistem uang elektronik peer-to-peer. Kalimat sederhana ini, yang merupakan judul dari White Paper, menyimpan banyak petunjuk tentang sifat Bitcoin:
-
-
-
-
-- Pertama-tama, Satoshi menggambarkan Bitcoin sebagai "sistem", dengan kata lain, sekumpulan komponen perangkat keras dan perangkat lunak yang koheren yang berinteraksi untuk menyediakan layanan tertentu atau menjalankan fungsi tertentu;
-- Selanjutnya, ia menjelaskan bahwa sistem ini memungkinkan penggunaan uang elektronik, yaitu suatu bentuk mata uang yang tidak berwujud;
-- Terakhir, dia menunjukkan bahwa sistem ini tidak bergantung pada entitas pusat mana pun: sistem ini bersifat "peer-to-peer", yang berarti bahwa para penggunanya sendirilah yang mengoperasikan sistem tersebut.
-
-
-
-Karena Bitcoin adalah sebuah sistem, maka Bitcoin harus dijalankan pada komputer. Dan, karena sifatnya yang peer-to-peer, pengguna sendirilah yang bertanggung jawab untuk menjalankan mesin-mesin ini. Apa yang kami sebut "node Bitcoin" adalah komputer yang menjalankan perangkat lunak yang mengimplementasikan protokol Bitcoin (seperti Bitcoin core, tetapi kita akan membahasnya nanti). Inilah yang memungkinkan Bitcoin beroperasi tanpa otoritas pusat: validasi dilakukan secara terdistribusi, oleh ribuan mesin independen milik ribuan pengguna.
-
-
+Karena Bitcoin adalah sebuah sistem, ia harus dijalankan pada komputer. Dan, karena sifatnya yang peer-to-peer, para pengguna sendirilah yang bertanggung jawab untuk menjalankan mesin-mesin ini. Apa yang kita sebut sebagai "Node Bitcoin" adalah komputer tempat menjalankan lunak yang mengimplementasikan protokol Bitcoin (seperti Bitcoin Core, tetapi kita akan kembali ke sana nanti) berjalan. Inilah yang memungkinkan Bitcoin beroperasi tanpa otoritas pusat: validasi dilakukan secara terdistribusi, oleh ribuan mesin independen milik ribuan pengguna.
 
 ![Image](assets/fr/047.webp)
 
-
-
 Nakamoto, S. (2008). *Bitcoin: Sistem Uang Elektronik Peer-to-Peer*. https://Bitcoin.org/Bitcoin.pdf
-
-
 
 Para pengguna inilah yang memastikan keamanan Bitcoin. Seperti yang dijelaskan oleh Eric Voskuil dalam bukunya *Cryptoeconomics*, keamanan Bitcoin tidak bergantung pada Blockchain, tidak juga pada kekuatan hashing, tidak juga pada validasi, desentralisasi, kriptografi, open source, atau teori permainan. Keamanan Bitcoin bergantung terutama pada individu yang bersedia mengekspos diri mereka sendiri terhadap risiko pribadi. Desentralisasi memungkinkan risiko ini tersebar ke sejumlah besar individu, dan hanya kemampuan mereka untuk menolak yang memastikan ketahanan sistem.
 
+Justru para pengguna inilah yang memastikan keamanan Bitcoin. Seperti yang dijelaskan Eric Voskuil dalam bukunya _Cryptoeconomics_, keamanan Bitcoin tidak bergantung pada Blockchain, kekuatan hashing, validasi, desentralisasi, kriptografi, open source, atau teori permainan. Keamanan Bitcoin terutama bergantung pada individu-individu yang bersedia mengekspos diri pada risiko pribadi. Desentralisasi memungkinkan risiko ini disebarkan ke sejumlah besar individu, dan hanya kemampuan mereka untuk menahanlah yang menjamin ketahanan sistem.
 
-
-Prinsip ini mudah dimengerti: jika Bitcoin bergantung pada satu node yang dimiliki oleh satu orang, memenjarakan orang tersebut sudah cukup untuk mematikan jaringan, karena mereka sendiri yang akan menanggung semua risiko. Dengan puluhan ribu node yang tersebar di seluruh dunia, risikonya tersebar: setiap operator harus dinetralkan untuk mematikan Bitcoin.
-
-
+Prinsip ini mudah dipahami: jika Bitcoin bergantung pada satu node tunggal yang dimiliki oleh satu orang, memenjarakan orang itu sudah cukup untuk mematikan jaringan, karena mereka sendirilah yang menanggung semua risiko. Dengan puluhan ribu node yang tersebar di seluruh dunia, risikonya tersebar: setiap operator ini harus dinetralkan untuk mematikan Bitcoin.
 
 ![Image](assets/fr/048.webp)
 
+Dengan demikian, Kita dapat membedakan dan menamakan beberapa konsep untuk memperjelas berbagai hal dalam kursus ini:
 
-
-Dengan demikian, kita dapat membedakan dan memberi nama beberapa konsep untuk memperjelas berbagai hal dalam kursus ini:
-
-
-
-
-- Mata uang Bitcoin: unit akun yang digunakan untuk transaksi dalam sistem ini;
+- Mata uang Bitcoin: unit hitung yang digunakan untuk transaksi di dalam sistem ini;
 - Jaringan Bitcoin: kumpulan semua node yang terhubung;
 - Node Bitcoin: mesin yang menjalankan implementasi Bitcoin;
-- Implementasi Bitcoin: perangkat lunak yang menerjemahkan protokol ke dalam instruksi yang dapat dieksekusi;
-- Protokol Bitcoin: seperangkat aturan yang mengatur operasi sistem;
-- Sistem Bitcoin: kombinasi yang koheren dari semua Elements ini.
-
-
+- Implementasi Bitcoin: perangkat lunak yang menerjemahkan protokol menjadi instruksi yang dapat dieksekusi;
+- Protokol Bitcoin: serangkaian aturan yang mengatur operasi sistem;
+- Sistem Bitcoin: kombinasi koheren dari semua elemen ini.
 
 ### Peran node Bitcoin
 
+Node Bitcoin secara kolektif membentuk apa yang dikenal sebagai Jaringan Bitcoin. Jaringan ini memungkinkan seluruh sistem beroperasi secara otonom, tanpa perlu menggunakan otoritas pusat atau hierarki server.
 
-
-Node Bitcoin bersama-sama membentuk apa yang dikenal sebagai jaringan Bitcoin. Jaringan ini memungkinkan seluruh sistem untuk beroperasi secara mandiri, tanpa bantuan dari otoritas pusat atau hirarki server.
-
-
-
-Sejak awal, Bitcoin dirancang untuk memungkinkan setiap pengguna menjalankan node pribadi. Hal ini masih berlaku dengan perangkat lunak Bitcoin core saat ini, yang menggabungkan peran Wallet dan node. Namun saat ini, fungsi ini sering dipisahkan: banyak dompet Bitcoin modern hanya merupakan dompet yang terhubung ke node eksternal (dimiliki oleh orang yang sama atau tidak).
-
-
+Sejak awal, Bitcoin dirancang untuk memungkinkan setiap pengguna menjalankan node pribadi. Kasus ini tetap valid dengan perangkat lunak Bitcoin Core saat ini, yang menggabungkan peran wallet dan node. Namun saat ini, fungsi ini sering dipisahkan: banyak wallet Bitcoin modern hanyalah wallet yang terhubung ke node eksternal (milik orang yang sama atau bukan).
 
 ### Pertahankan Blockchain
 
+Tugas pertama node adalah memelihara salinan lokal dari Blockchain. Untuk mencegah double-spending pada Bitcoin tanpa melibatkan otoritas pusat, setiap pengguna harus memeriksa bahwa tidak ada transaksi yang sudah ada dalam sistem. Satu-satunya cara untuk yakin akan hal ini adalah dengan mengetahui semua transaksi yang telah dilakukan di Bitcoin. Untuk alasan ini, semua transaksi diberi timestamp dan dikelompokkan ke dalam blok, dan setiap node menyimpan seluruh Blockchain.
 
-
-Tugas pertama dari sebuah node adalah untuk menjaga salinan lokal dari Blockchain. Untuk mencegah Double-spending pada Bitcoin tanpa melibatkan otoritas pusat, setiap pengguna harus memeriksa bahwa tidak ada transaksi yang ada di dalam sistem. Satu-satunya cara untuk memastikan hal ini adalah dengan mengetahui semua transaksi yang dilakukan pada Bitcoin. Untuk alasan ini, semua transaksi diberi stempel waktu dan dikelompokkan ke dalam blok, dan setiap node menyimpan seluruh Blockchain.
-
-
-
-> Satu-satunya cara untuk memastikan tidak adanya transaksi adalah dengan mengetahui semua transaksi.
+> "Satu-satunya cara untuk mengkonfirmasi tidak adanya transaksi adalah dengan mengetahui semua transaksi." 
 
 Nakamoto, S. (2008). *Bitcoin: Sistem Uang Elektronik Peer-to-Peer*. https://Bitcoin.org/Bitcoin.pdf
 
-
-
-Oleh karena itu, Blockchain merupakan sebuah daftar yang terus berkembang: setiap kali sebuah blok baru diterbitkan oleh Miner, node akan memeriksa keabsahannya sebelum menambahkannya ke dalam rantai lokalnya. Pada hari ini (Juli 2025), Blockchain yang lengkap melebihi 675 GB, dan ukuran ini terus bertambah, karena sebuah blok baru ditambahkan rata-rata setiap 10 menit.
-
-
+Blockchain merupakan sebuah tabel yang terus berkembang: setiap kali blok baru diterbitkan oleh miner, node memeriksa validitasnya sebelum menambahkannya ke salinan chain lokalnya. Hingga saat ini (Juli 2025), Blockchain lengkap melebihi 675 GB, dan ukuran ini terus bertambah, karena blok baru ditambahkan rata-rata setiap 10 menit.
 
 ![Image](assets/fr/049.webp)
 
-
-
-Node ini juga menyimpan catatan lokal dari semua UTXO yang ada pada waktu tertentu, yang dikenal sebagai **set UTXO**. Basis data ini berisi semua fragmen Bitcoin yang tidak terpakai. Kita akan membahas kembali topik ini secara mendetail di bagian akhir kursus ini.
-
-
+Node juga memelihara catatan lokal dari semua UTXO yang ada pada waktu tertentu, yang dikenal sebagai **UTXO set**. Database ini berisi semua fragmen Bitcoin yang belum terpakai. Kita akan meninjau subjek ini secara rinci di bagian akhir kursus.
 
 ### Memverifikasi dan mendistribusikan transaksi
 
+Peran kedua node adalah memastikan verifikasi dan penyebaran transaksi. Ketika transaksi baru mencapai node (baik melalui perangkat lunak wallet atau node lain), node akan memeriksa apakah transaksi itu mematuhi serangkaian aturan (aturan konsensus dan aturan relay). Contohnya:
 
-
-Peran kedua dari sebuah node adalah untuk memastikan verifikasi dan penyebaran transaksi. Ketika sebuah transaksi baru mencapai node (baik melalui perangkat lunak Wallet atau node lain), node akan memeriksa apakah transaksi tersebut sesuai dengan seperangkat aturan (aturan konsensus dan aturan relai). Sebagai contoh:
-
-
-
-
-- bitcoin yang dihabiskan harus ada dalam set UTXO (basis data keluaran yang tidak digunakan);
-- tanda tangan harus sah, dan semua persyaratan pengeluaran harus dipenuhi (naskah yang sah);
+- Bitcoin yang digunakan harus ada dalam UTXO set-nya (database output yang belum digunakan);
+- signature harus valid, dan semua kondisi pengeluaran harus dipenuhi (valid script);
 - jumlah total output tidak boleh melebihi jumlah total input, yang berarti biaya tidak boleh negatif.
-
-
 
 ![Image](assets/fr/050.webp)
 
-
-
-Setelah validasi, transaksi disimpan dalam Mempool node, ruang memori sementara yang disediakan untuk transaksi yang belum dikonfirmasi, dan kemudian diteruskan ke rekan-rekan jaringan lain yang terhubung dengannya. Mekanisme distribusi dan validasi ini terus berlanjut dari satu node ke node lainnya. Dengan cara ini, transaksi disebarkan ke seluruh jaringan Bitcoin, dan setiap node menyimpannya di Mempool sampai transaksi tersebut dimasukkan ke dalam blok yang valid oleh Miner, yang kemudian bertindak berdasarkan konfirmasi pertama.
-
-
+Setelah validasi, transaksi disimpan dalam Mempool node, ruang memori sementara yang disediakan untuk transaksi yang belum dikonfirmasi, dan kemudian diteruskan ke peer jaringan lain yang terhubung dengannya. Mekanisme distribusi dan validasi ini berlanjut dari node ke node. Dengan cara ini, transaksi disebarkan ke seluruh Jaringan Bitcoin, dan setiap node menyimpannya di Mempool hingga dimasukkan ke dalam blok yang valid oleh miner, yang kemudian bertindak berdasarkan konfirmasi pertamanya.
 
 ### Memeriksa dan mendistribusikan blok
 
-
-
-Peran ketiga dari node adalah mengelola blok yang ditambang. Ketika sebuah Miner menemukan blok baru dengan Proof of Work yang valid, blok tersebut akan disiarkan di jaringan. Node-node menerimanya, memeriksa apakah sesuai dengan semua aturan protokol, dan kemudian mengintegrasikannya ke dalam salinan lokal Blockchain mereka sendiri jika valid. Seperti halnya transaksi, blok yang baru divalidasi kemudian diteruskan ke semua peer yang terhubung ke node. Proses ini terus berlanjut hingga semua node di jaringan Bitcoin mengetahui adanya blok baru.
-
-
+Peran ketiga node melibatkan pengelolaan blok yang ditambang. Ketika seorang miner menemukan blok baru dengan Proof of Work yang valid, blok itu disiarkan di jaringan. Para node menerimanya, memeriksa bahwa blok tersebut sesuai dengan semua aturan protokol, dan kemudian mengintegrasikannya ke dalam salinan lokal Blockchain mereka jika valid. Seperti halnya transaksi, blok yang baru divalidasi kemudian diteruskan ke semua peer yang terhubung ke node. Proses ini berlanjut hingga semua node di Jaringan Bitcoin mengetahui blok baru tersebut.
 
 ![Image](assets/fr/051.webp)
 
-
-
-## Apa perbedaan antara busur dan Wallet?
-
+## Apa perbedaan antara node dan Wallet?
 
 <chapterId>de5af634-a628-4b90-b869-468c208e178b</chapterId>
 
+Sangatlah penting untuk membedakan antara dua jenis perangkat lunak yang berbeda saat menggunakan Bitcoin: node dan Wallet.
 
+Node Bitcoin: Seperti yang disebutkan di atas, node adalah perangkat lunak yang berpartisipasi aktif dalam jaringan peer-to-peer. Ia melakukan tiga tugas utama:
 
-Sangatlah penting untuk membedakan antara dua jenis perangkat lunak yang berbeda ketika menggunakan Bitcoin: node dan Wallet.
+- Mencadangkan Blockchain.
+- Memvalidasi dan meneruskan transaksi.
+- Memvalidasi blok dan relai.
 
+Wallet Bitcoin, di sisi lain, adalah perangkat lunak yang dirancang untuk menyimpan dan mengelola kunci pribadi Anda. Kunci-kunci ini memungkinkan Anda menggunakan Bitcoin Anda dengan memenuhi script penguncian (biasanya melalui signature). Sebuah wallet dapat terhubung ke node (baik lokal maupun jarak jauh) untuk melihat status Blockchain dan menyiarkan transaksi yang dibuatnya, tetapi wallet bukan merupakan partisipan dalam jaringan.
 
-
-Node Bitcoin, seperti yang disebutkan di atas, adalah sebuah perangkat lunak yang secara aktif berpartisipasi dalam jaringan peer-to-peer. Node ini melakukan tiga tugas utama:
-
-
-
-
-- cadangan Blockchain,
-- validasi dan penerusan transaksi,
-- validasi blok dan relai.
-
-
-
-Di sisi lain, Bitcoin Wallet adalah sebuah perangkat lunak yang dirancang untuk menyimpan dan mengelola kunci pribadi Anda. Kunci ini memungkinkan Anda untuk membelanjakan bitcoin Anda dengan memenuhi skrip penguncian (biasanya melalui tanda tangan). Wallet dapat terhubung ke sebuah node (baik lokal maupun jarak jauh) untuk melihat status Blockchain dan menyiarkan transaksi yang dibuatnya, tetapi ia bukan merupakan peserta dalam jaringan.
-
-
-
-Dalam beberapa kasus, kedua fungsi ini hidup berdampingan dalam perangkat lunak yang sama, seperti halnya dengan Bitcoin core, yang berfungsi sebagai Full node dan Wallet. Akan tetapi, banyak program Wallet yang populer (Sparrow, BlueWallet, dll.) membutuhkan koneksi ke node eksternal (baik milik Anda atau pihak ketiga) untuk menyiarkan transaksi dan menentukan saldo Wallet.
-
-
+Dalam beberapa kasus, kedua fungsi ini berlangsung berdampingan dalam perangkat lunak yang sama, seperti pada Bitcoin Core, yang berfungsi sebagai full node dan wallet. Namun, banyak program wallet populer (Sparrow, BlueWallet, dll.) memerlukan koneksi ke node eksternal (milik Anda sendiri atau pihak ketiga) untuk menyiarkan transaksi dan menentukan saldo Wallet.
 
 ![Image](assets/fr/052.webp)
 
-
-
 ## Apa perbedaan antara node dan Miner?
-
 
 <chapterId>d2992614-7ab7-4bf9-81b1-f548cda67257</chapterId>
 
+Pengertian tentang node dan miner sering kali tertukar. Padahal, kedua elemen ini melakukan fungsi yang sangat berbeda dalam sistem.
 
+Pada awalnya, ketika Bitcoin diluncurkan oleh Satoshi Nakamoto pada tahun 2009, setiap pengguna diharapkan untuk berpartisipasi dalam jaringan secara keseluruhan. Oleh karena itu, perangkat lunak Bitcoin yang asli menggabungkan beberapa fungsi sekaligus: ia bertindak sebagai Wallet, sebuah node, dan juga sebagai Miner, yang mampu menghasilkan blok-blok baru. Pada saat itu, tingkat kesulitan Mining sangat rendah. Anda hanya perlu menjalankan perangkat lunak Bitcoin di komputer Anda untuk menemukan blok dan menerima Bitcoin sebagai hadiah.
 
-Pengertian node dan Miner sering kali membingungkan. Namun, kedua Elements ini menjalankan fungsi yang sangat berbeda di dalam sistem.
-
-
-
-Pada awalnya, ketika Bitcoin diluncurkan oleh Satoshi Nakamoto pada tahun 2009, setiap pengguna diharapkan untuk berpartisipasi dalam jaringan secara keseluruhan. Oleh karena itu, perangkat lunak Bitcoin yang asli menggabungkan beberapa fungsi sekaligus: ia bertindak sebagai Wallet, sebuah node, dan juga sebagai Miner, yang mampu menghasilkan blok-blok baru. Pada saat itu, tingkat kesulitan Mining sangat rendah. Anda hanya perlu menjalankan perangkat lunak Bitcoin di komputer Anda untuk menemukan blok dan menerima bitcoin sebagai hadiah.
-
-
-
-Namun, dengan semakin populernya Bitcoin dan meningkatnya jumlah penambang, lanskap persaingan di Mining telah mengalami perubahan radikal. Saat ini, Mining telah menjadi kegiatan yang sangat kompetitif, didominasi oleh pemain industri yang dilengkapi dengan infrastruktur khusus. Daya yang dibutuhkan untuk menambang blok baru sekarang sangat besar sehingga hampir tidak mungkin bagi pengguna individu untuk mencapainya hanya dengan menggunakan komputer konvensional. Akibatnya, Mining sekarang terutama dilakukan dengan menggunakan mesin khusus yang disebut ASIC (*Application-Specific Integrated Circuits*). Chip ini dioptimalkan secara eksklusif untuk menjalankan SHA-256 ganda, algoritma yang digunakan untuk Mining pada Bitcoin.
-
-
+Namun, dengan popularisasi Bitcoin secara bertahap dan peningkatan jumlah miner, lanskap persaingan dalam mining telah mengalami perubahan signifikan. Saat ini, mining telah menjadi aktivitas yang sangat kompetitif, didominasi oleh pemain industri yang dilengkapi dengan infrastruktur khusus. Daya yang dibutuhkan untuk menambang blok baru kini sangat besar sehingga hampir tidak mungkin bagi pengguna individu untuk mencapainya hanya dengan menggunakan komputer konvensional. Akibatnya, mining kini terutama dilakukan menggunakan mesin khusus yang disebut ASIC (_Application-Specific Integrated Circuits_). Chip ini dioptimalkan secara eksklusif untuk menjalankan double SHA-256, algoritma yang digunakan untuk mining pada Bitcoin.
 
 ![Image](assets/fr/053.webp)
-
-
 
 Dalam menghadapi evolusi ini, peran node Bitcoin dan Miner menjadi jelas berbeda. Seperti yang ditunjukkan di atas, peran node Bitcoin murni berbasis informasi dan validasi. Peran Miner berbeda:
 

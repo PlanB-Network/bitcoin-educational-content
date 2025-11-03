@@ -44,7 +44,7 @@ With great power comes great responsibility, lose your keys and your funds are g
 
 The term self-custody might sound confusing, but all it means is holding your own private keys, and controlling your own bitcoin. If you don’t hold that key, you’re trusting someone else to hold it for you. If your bitcoin is in an ETF or on an exchange (Mt. Gox, FTX, Coinbase, Binance, etc.), you don’t own bitcoin, you own a claim to bitcoin. This introduces all kinds of risks, like exchanges getting hacked and losing your bitcoin or companies lending out your money and giving you only a fraction in reserve. Additionally trusted third parties would have full control of your money and could limit or freeze withdrawals. 
 
-<img width="450" height="600" alt="image" src="https://github.com/user-attachments/assets/3c52f49e-0c49-4937-bac7-b6c91238e822" />
+01
 
 With self-custody you remove trust from the equation. No one can freeze your funds or deny a transaction, you can send money across borders, to anyone, at any time, and you don’t need a bank account, an ID, or anyone’s approval. No one can stop you, censor you, or steal from you, unlocking the full power of bitcoin as freedom money. This is why we say, with bitcoin you can be your own bank. 
 
@@ -60,9 +60,7 @@ Bitcoin wallets really just store your private keys, so it would be more accurat
 
 ### Hot vs Cold Wallets
 
-A hot wallet is a software app on your phone or computer. It’s connected to the internet, so it’s easier to use and quicker to sign transactions, but this also means it's more exposed to hackers, malware, and phishing. It's called "hot" because it's connected to the internet, is plugged in and powered on. An example would be a phone wallet or a browser wallet. 
-
-<img width="600" height="337" alt="image" src="https://github.com/user-attachments/assets/a7cfe81b-462a-4b00-bb66-2221985e5365" />
+A hot wallet is a software app on your phone or computer. It’s connected to the internet, so it’s easier to use and quicker to sign transactions, but this also means it's more exposed to hackers, malware, and phishing. It's called "hot" because it's connected to the internet, is plugged in and powered on. An example would be a phone wallet or a browser wallet.
 
 On the other hand a cold wallet, or hardware wallet, is a device that creates and stores your key offline. This removes the ability for someone to hack your funds and is much safer for long-term savings, however it's a device that is needed to sign every transaction and can be less convenient.
 
@@ -85,13 +83,13 @@ However, hardware wallets introduce their own threats. You must trust the manufa
 
 We are taking generic hardware, the LilyGo T-Display, and flashing Jade SDK firmware on it. The [Jade Plus](https://blockstream.com/jade/jade-plus/) is an open-source wallet, which typically costs $150:
 
-![Blockstream Jade Plus hardware wallet](../assets/blockstream_jade_plus.webp)
+02
 
 Today, we'll be flashing their firmware onto a $15 hardware instead.
 
 ### What to Buy
 
-![LilyGO T-Display development board](../assets/LILYGO-T-DISPLAY.jpg){ width="70%" }
+03
 
 - **LilyGO T-Display (16MB with shell, model K164)** — [Order direct from LilyGO](https://lilygo.cc/products/t-display?srsltid=AfmBOornob5U3FzZifuSwBBOdeXKcdPDqkYEnAVYKBLdzl0BPyNglGBR) for about $15. This ESP32 board provides the display, buttons, and USB interface that mirror Blockstream's Jade Plus. The onboard ESP32 also includes Wi-Fi and Bluetooth radios; we'll ship firmware that keeps them disabled, but they shape your threat model because malicious code could switch them back on.
 - **USB-C cable** — Bring a data-capable cable so you can flash firmware and power the board straight from your laptop (totally fine for class use).
@@ -110,11 +108,11 @@ Today, we'll be flashing their firmware onto a $15 hardware instead.
 
 You have two options for housing your LilyGO T-Display board: a 3D printed case or the official LilyGO enclosure. The printed case can be found and printed from [this model](https://www.printables.com/model/119144-lilygo-ttgo-t-display-enclosure). It offers a lightweight and customizable shell for your device.
 
-![3D printed LilyGO case](../assets/lilygo_case_printed.jpg)
+04
 
 Alternatively, you can use the official LilyGO case, which provides a slightly different fit and finish, offering more robust protection and a polished look.
 
-![Official LilyGO case](../assets/lilygo_case_official.png)
+05
 
 Note that the printed and official cases differ slightly in design and assembly. Whichever option you choose, ensure the board is properly seated inside the case to avoid loose connections or damage.
 
@@ -128,14 +126,14 @@ Using a data-capable USB-C cable, connect the LilyGO board to your laptop. This 
 
 On boot, you will be greeted with the following screen:
 
-![LilyGO boot screen](../assets/lilygo_start_up_screen.png)
+06
 
 
 When powered on, the LilyGO will display a color test screen cycling through solid colors. This confirms the display and board are functioning correctly before flashing firmware.
 
 Once the color test completes, the screen will settle on a default state, indicating the board is ready for the next steps in the build process.
 
-![LilyGO plugged into laptop](../assets/settled_screen.png)
+07
 
 ## The Easy Way or the Hard Way
 
@@ -150,16 +148,20 @@ Each method has its tradeoffs: the easy way sacrifices some degree of trust and 
 The easiest way to flash a ESP32
 
 - Go to the official Blockstream Github: [https://github.com/Blockstream/jadediyflasher](https://github.com/Blockstream/jadediyflasher)  
-   ![Blockstream Github](../assets/blockstream_github.jpeg)
+
+08
 
 - You can download the source file and run the website locally, but GitHub already hosts it at [https://blockstream.github.io/jadediyflasher/](https://blockstream.github.io/jadediyflasher/). GitHub serves the HTML, CSS, JavaScript, etc. directly to your browser so you can flash the device without installing developer tools.  
-   ![Blockstream Jade DIY Flasher](../assets/blockstream_jade_diy_flasher.jpeg)
+
+09
 
 - Open the dropdown menu (it likely defaults to `M5Stack Core2`) and select your development board — for this class, pick `LILYGO T-Display`.  
-   ![DIY Dropdown Menu](../assets/diy_dropdown_menu.jpeg)
+
+10
 
 - When you click flash this is going to appear. In order to know which device is the LILYGO, unplug the lilygo and plug it back in. The com port that the lilygo will appear and disappear. Click the COM port that the Jade is plugged into
-   ![Connect to a serial port](../assets/connect_to_a_serial_port.jpeg)
+
+11
 
 - That's it a progress bar should show up and when it's finish your ready to set it up
 
@@ -280,34 +282,44 @@ For this workshop, using a **Public Electrum Server** is perfectly fine for test
 Blockstream Green is the software to finish setting up the JadeDIY and it must be with the desktop version
 
 - Get the official Blockstream application — this is the link to it from their website. When you're there click [Download now](https://blockstream.com/app/).
-   ![Blockstream website](<../assets/blockstream website.jpg>)
+
+12
 
 - Depending on where your downloads go, most likely the file will be in your Downloads folder. Check there and double-click the executable file to install the software.
-   ![Downloads folder example](<../assets/downloads folder.png>)
+
+13
 
 - You might have to give admin rights to run the installer. Once you do, a window will pop up that should look like the following picture — click **Next**.
-   ![Blockstream installer step 1](<../assets/blockstream install1.png>)
+
+14
 
 - Choose where you want the installed application to reside (a location with your other programs or somewhere easy to find), then click **Next**.
-   ![Blockstream installer step 2](<../assets/blockstream install2.png>)
+
+15
 
 - The installer will ask for a shortcut name. Enter one or keep the default, then click **Next**.
-   ![Blockstream installer step 3](<../assets/blockstream install3.png>)
+
+16
 
 - If you want a desktop shortcut, check the box; otherwise click **Next**.
-   ![Blockstream installer step 4](<../assets/blockstream install4.png>)
+
+17
 
 - Finally, click **Install** and wait a few minutes for the installation to complete.
-   ![Blockstream installer installing](<../assets/blockstream install5.png>)
+
+18
 
 - The progress bar should fill to the end.
-   ![Blockstream installer progress](<../assets/blockstream install6.png>)
+
+19
 
 - When it finishes, a new page will appear — click **Finish**.
-   ![Blockstream installer finish](<../assets/blockstream install7.png>)
+
+20
 
 - Find your newly installed Blockstream application (example shown in the Windows 11 Start menu).
-   ![Blockstream in Start menu](<../assets/blockstream install8.png>)
+
+21
 
 - Once you find it, click to launch — a splash screen should appear.
 

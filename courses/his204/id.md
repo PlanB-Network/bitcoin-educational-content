@@ -954,7 +954,7 @@ Turgot, menghargai kesetiaan Condorcet terhadap ide-idenya, mengangkatnya sebaga
 
 Meskipun ia mencurahkan seluruh energinya untuk membela Turgot, Condorcet tidak memiliki pandangan tentang hasil masa jabatan temannya. Turgot sendiri mengakui di akhir hayatnya bahwa ia hidup dengan penyesalan, saat ia menulis dalam sebuah surat, "karena tidak mampu melakukan kebaikan bagi bangsa dan kemanusiaan yang saya yakini sangat mudah." Condorcet, yang lebih realistis, menunjukkan banyak musuh yang akan dihadapi Turgot: para pendukung Raja, parlemen, pendeta, kaum bangsawan, gilda, dan sebagainya. Kelompok-kelompok ini mengharapkan sanjungan, bukan reformasi. Condorcet mengatakan kepada Turgot, "Anda sama sekali bukan seorang dukun, dan itu adalah sebuah kelemahan, mengingat bagaimana keadaan di Paris." Ia sepenuhnya benar, karena pada tahun 1776, baru dua tahun setelah kedatangannya, Turgot sudah dipaksa untuk meninggalkan jabatan Pengawas Jenderal.
 
-## Akal sehat liberal di temgah Revolusi
+## Akal sehat liberal di tengah Revolusi
 
 <chapterId>95e9a90d-e37a-58ff-b1ac-928b42e76ecf</chapterId>
 

@@ -1,5 +1,5 @@
 ---
-name: BTCPay Sunucusu - USDT
+name: BTCPay Server - USDT
 description: USDT eklentisini yapılandırma adımları
 ---
 ![cover](assets/cover.webp)

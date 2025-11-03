@@ -11,7 +11,7 @@ description: Complete gids voor het gebruik van Bisq 2 en het wisselen van bitco
 KYC-vrije peer-to-peer (P2P) uitwisselingen zijn essentieel voor het behoud van de privacy en financiële autonomie van gebruikers. Ze maken directe transacties tussen individuen mogelijk zonder de noodzaak voor identiteitsverificatie, wat cruciaal is voor diegenen die waarde hechten aan privacy. Voor een meer diepgaand begrip van de theoretische concepten, bekijk de BTC204 cursus:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Wat is Bisq 2?
 
@@ -117,7 +117,7 @@ Deze handleiding richt zich uitsluitend op "Bisq Easy", het enige protocol dat m
 - Controleer de authenticiteit van het gedownloade bestand (sterk aanbevolen). Voor een gedetailleerde handleiding voor het verifiëren van handtekeningen, zie de volgende tutorial:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### 2. Installatie volgens uw systeem
 
@@ -472,11 +472,11 @@ Om je reputatie als verkoper op Bisq te verbeteren, moet je regelmatig transacti
 
 
 
-- Maximale privacy**: Geen KYC, gebruik van Tor
-- Decentralisatie**: Geen centrale server
-- Beveiliging**: Open source, niet-custodiale code
-- Intuïtieve Interface**: eenvoudiger dan Bisq 1
-- Flexibiliteit**: Meerdere Exchange protocollen
+- **Maximale privacy**: Geen KYC, gebruik van Tor
+- **Decentralisatie**: Geen centrale server
+- **Beveiliging**: Open source, niet-custodiale code
+- **Intuïtieve Interface**: eenvoudiger dan Bisq 1
+- **Flexibiliteit**: Meerdere Exchange protocollen
 
 
 ### Bisq 2 nadelen
@@ -484,12 +484,12 @@ Om je reputatie als verkoper op Bisq te verbeteren, moet je regelmatig transacti
 
 
 
-- Beperkte liquiditeit** (op dit moment) :
+- **Beperkte liquiditeit** (op dit moment) :
  - Nieuw protocol in opstartfase
  - Weinig verkoopaanbiedingen beschikbaar
  - Potentieel lange wachttijden om een koper te vinden
-- Handelslimieten**: Maximaal USD 600 per transactie (met Bisq easy)
-- Alleen desktop**: Geen mobiele applicatie
+- **Handelslimieten**: Maximaal USD 600 per transactie (met Bisq easy)
+- **Alleen desktop**: Geen mobiele applicatie
 
 
 ## Toekomstige protocollen
@@ -500,16 +500,16 @@ Hoewel Bisq Easy momenteel het enige beschikbare protocol is, zijn er verschille
 
 
 
-- Bisq Lightning**: Exchange protocol gebaseerd op een borgsysteem dat gebruik maakt van meerpartijenrekencryptografie op de Lightning Network.
-- Bisq MuSig**: Migratie van het hoofdprotocol van Bisq 1 naar Bisq 2, met behulp van een 2-op-2 Multisig met veiligheidsdeposito's.
-- BSQ Swaps**: Directe atomaire swaps tussen BSQ en BTC.
-- Liquid Swaps**: Exchange van activa op Liquid Network (USDT, BTC-L) via atomaire swaps.
-- Monero Swaps**: Atomaire uitwisselingen tussen Bitcoin en Monero.
-- Liquid MuSig**: Versie van het Multisig protocol met L-BTC voor lagere kosten en meer privacy.
-- Submarine Swaps**: Uitwisseling tussen Bitcoin op de Lightning Network en Bitcoin On-Chain.
-- Stablecoin Swaps**: Atomische uitwisselingen tussen Bitcoin en USD stablecoins.
-- Multisig Opties**: Creatie van P2P put- en callopties met BTC-blokkering in een On-Chain Multisig transactie.
-- Multisig Open Contracten**: Maakt het mogelijk om aangepaste voorwaardelijke contracten te maken met behulp van een 2-op-3 Multisig systeem met arbitrage.
+- **Bisq Lightning**: Exchange protocol gebaseerd op een borgsysteem dat gebruik maakt van meerpartijenrekencryptografie op de Lightning Network.
+- **Bisq MuSig**: Migratie van het hoofdprotocol van Bisq 1 naar Bisq 2, met behulp van een 2-op-2 Multisig met veiligheidsdeposito's.
+- **BSQ Swaps**: Directe atomaire swaps tussen BSQ en BTC.
+- **Liquid Swaps**: Exchange van activa op Liquid Network (USDT, BTC-L) via atomaire swaps.
+- **Monero Swaps**: Atomaire uitwisselingen tussen Bitcoin en Monero.
+- **Liquid MuSig**: Versie van het Multisig protocol met L-BTC voor lagere kosten en meer privacy.
+- **Submarine Swaps**: Uitwisseling tussen Bitcoin op de Lightning Network en Bitcoin On-Chain.
+- **Stablecoin Swaps**: Atomische uitwisselingen tussen Bitcoin en USD stablecoins.
+- **Multisig Opties**: Creatie van P2P put- en callopties met BTC-blokkering in een On-Chain Multisig transactie.
+- **Multisig Open Contracten**: Maakt het mogelijk om aangepaste voorwaardelijke contracten te maken met behulp van een 2-op-3 Multisig systeem met arbitrage.
 
 
 Deze protocollen zijn momenteel in ontwikkeling en zullen geleidelijk worden geïntegreerd in Bisq 2, waardoor gebruikers meer flexibiliteit krijgen naargelang hun specifieke behoeften.

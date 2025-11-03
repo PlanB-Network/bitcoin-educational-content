@@ -1,12 +1,8 @@
-question: In welk jaar zal de aanmaak van bitcoins stoppen?
-answer: 2140
+question: Wat is de privésleutel in een Bitcoin Wallet?
+answer: Een geheime sleutel waarmee je je transacties kunt ondertekenen.
 wrong_answers:
-  - 2050
-  - 2030
-  - 2200
-explanation: |
-  Door het Halving mechanisme kan wiskundig voorspeld worden
-  voorspeld worden dat de aanmaak van bitcoins zal stoppen in 2140,
-  wanneer het totale aantal bitcoins de grens van 21 miljoen bereikt
-  miljoen bereikt.
+  - Een openbare sleutel die gebruikt wordt om generate Bitcoin adressen.
+  - Een geheime lijst met woorden om een Wallet te vernietigen in geval van nood.
+  - Een geheime sleutel om Bitcoin transacties te versleutelen.
+explanation: >-
 reviewed: true

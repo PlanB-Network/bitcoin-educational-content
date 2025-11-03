@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   There are 2 participants: the payer and the recipient of the payment.
 
-reviewed: false
+reviewed: true

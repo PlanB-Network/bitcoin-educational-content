@@ -1,0 +1,9 @@
+question: Ni imvo nyamukuru iyihe ituma bihambaye ko uguma ukoresha umucukumbuzi wawe?
+answer: Gukosora ubugoyagoye bukomeye bw'umutekano
+wrong_answers:
+  - Kunoza umuvuduko wo gufungura urupapuro
+  - Gukingira ubuhendanyi
+  - Gutuma ububiko bukoreshwa neza
+explanation: |
+  Ivyo guhindura bishira imbere ubugoyagoye bwo mu mutekano bwoshobora gutuma uwutera ashobora guhungabanya sisitemu yawe.
+reviewed: false

@@ -5,7 +5,7 @@ description: Zrozumienie i korzystanie z transakcji Stonewall x2
 ![cover stonewall x2](assets/cover.webp)
 
 
-***OSTRZEŻENIE:** Po aresztowaniu założycieli Samourai Wallet i przejęciu ich serwerów 24 kwietnia, transakcje Stonewallx2 działają tylko poprzez ręczną wymianę PSBT między zainteresowanymi stronami, pod warunkiem, że obaj użytkownicy są połączeni z własnym Dojo. Możliwe jest jednak, że narzędzia te zostaną ponownie uruchomione w nadchodzących tygodniach. W międzyczasie nadal możesz zapoznać się z tym artykułem, aby zrozumieć teoretyczne działanie Stonewallx2 i dowiedzieć się, jak wykonać je ręcznie
+**OSTRZEŻENIE:** Po aresztowaniu założycieli Samourai Wallet i przejęciu ich serwerów 24 kwietnia, transakcje Stonewallx2 działają tylko poprzez ręczną wymianę PSBT między zainteresowanymi stronami, pod warunkiem, że obaj użytkownicy są połączeni z własnym Dojo. Możliwe jest jednak, że narzędzia te zostaną ponownie uruchomione w nadchodzących tygodniach. W międzyczasie nadal możesz zapoznać się z tym artykułem, aby zrozumieć teoretyczne działanie Stonewallx2 i dowiedzieć się, jak wykonać je ręcznie
 
 
 jeśli rozważasz wykonanie Stonewallx2 ręcznie, procedura jest bardzo podobna do tej opisanej w tym samouczku. Główna różnica polega na wyborze typu transakcji Stonewallx2: zamiast wybierać `Online`, kliknij `In Person / Manual`. Następnie będziesz musiał ręcznie Exchange PSBT, aby skonstruować transakcję Stonewallx2. Jeśli jesteś fizycznie blisko swojego współpracownika, możesz kolejno skanować kody QR. Jeśli jesteś na odległość, pliki JSON mogą być wymieniane za pośrednictwem bezpiecznego kanału komunikacji. Pozostała część samouczka pozostaje bez zmian
@@ -73,7 +73,7 @@ W związku z tym logika powinna być następująca w przypadku korzystania z nar
 Jeśli chcesz znaleźć współpracownika, który jest chętny do pomocy w transakcji Stonewall X2, możesz również odwiedzić tę grupę Telegram (nieoficjalną) prowadzoną przez użytkowników Samourai w celu łączenia nadawców i współpracowników: [Make Every Spend a CoinJoin](https://t.me/EverySpendACoinjoin).
 
 
-[**-> Dowiedz się więcej o transakcjach Stonewall**](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
+[**-> Dowiedz się więcej o transakcjach Stonewall**](https://planb.academy/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 
 ## Jaki jest cel transakcji Stonewall x2?

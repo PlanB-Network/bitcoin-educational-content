@@ -1,0 +1,10 @@
+question: Ni igiki gigira ico gikoze ku buremere bw’ugucuruza Bitcoin?
+answer: Igitigiri c’ibintu vyinjizwa n’ibisohoka.
+wrong_answers:
+  - Ubwinshi bwa Blockchain.
+  - Igitigiri c’ibintu vyinjizwa n’ibisohoka.
+  - Imyaka y’ama UTXO yakoreshejwe.
+explanation: |
+  Uko igikorwa ca Bitcoin gifise inputs n’outputs nyinshi, niko kizoba kiremereye muri vB.
+  
+reviewed: false

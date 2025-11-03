@@ -1,12 +1,9 @@
-question: Mis on Lightning Network'i peamine eesmärk?
-answer: Võimaldada mikromakseid
+question: Mis on üks võimalikest eelistest, mida Lightning Network võib pakkuda sisuloojatele?
+answer: Nad oleksid motiveeritud looma kvaliteetset sisu, et hoida kasutajate tähelepanu
 wrong_answers:
-  - Suurendada Bitcoini väärtust
-  - Asendada Bitcoini protokolli
-  - Luua uus krüptoraha
+  - Nad saaksid oma sisu eest küsida suuremat tasu
+  - Nad saaksid jõuda laiema publikuni
+  - Nad saaksid sisu toota kiiremini
 explanation: >-
-  Lightning Network on teise kihi lahendus Bitcoini protokollile,
-  mille eesmärk on võimaldada mikromakseid, mis on väga väikese väärtusega tehingud,
-  mis muidu oleksid ebapraktilised kõrgete tasude ja pikkade kinnitusaegade tõttu
-  Bitcoini plokiahelas.
+  Lightning Network'i abil oleksid sisuloojad motiveeritud tootma kvaliteetset sisu, et hoida kasutajate tähelepanu. Kasutajad omakorda maksaksid ainult tarbitud sisu eest, elimineerides nii ettemaksuga tellimustasud.
 reviewed: false

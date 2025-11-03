@@ -1,0 +1,9 @@
+question: Quel mécanisme permet de charger un instantané de l’UTXO set pour rendre un nœud rapidement utilisable ?
+answer: assumeutxo
+wrong_answers:
+  - assumechainstate
+  - txindex
+  - notxindex
+explanation: |
+  Assumeutxo charge un instantané de l’UTXO set pour rendre le nœud opérationnel rapidement, tout en reconstruisant en arrière-plan l’UTXO set complet.
+reviewed: false

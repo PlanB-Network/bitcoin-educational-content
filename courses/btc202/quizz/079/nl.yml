@@ -1,0 +1,9 @@
+question: Wat is de maximale grootte van een blkNNN.dat-bestand voordat een nieuw bestand wordt gemaakt?
+answer: 128 MB
+wrong_answers:
+  - 256 MB
+  - 256 GB
+  - 128 GB
+explanation: |
+  De blkNNN.dat-bestanden slaan de blokken opeenvolgend op en bereiken een grootte van ongeveer 128 MB voordat Bitcoin core de volgende opent.
+reviewed: true

@@ -1,11 +1,12 @@
-question: Mục đích của Bằng chứng Công việc (Proof of Work) trong mạng lưới Bitcoin là gì?
-answer: Bằng chứng Công việc đảm bảo tính xác thực của thông tin mà không cần tin cậy vào bên thứ ba.
+question: Bitcoin duy trì thời gian trung bình như thế nào giữa việc tạo ra hai khối?
+answer: Độ khó của việc tìm ra một hash hợp lệ được điều chỉnh sau mỗi 2016 khối.
 wrong_answers:
-  - Bằng chứng Công việc được sử dụng để tạo ra bitcoin mới bằng cách tin tưởng vào bên thứ ba.
-  - Bằng chứng Công việc được sử dụng để xác minh các giao dịch Bitcoin bằng cách tin tưởng vào bên thứ ba.
-  - Bằng chứng Công việc được sử dụng để thay đổi giao thức Bitcoin mà không cần tin tưởng vào bên thứ ba.
-explanation: >-
-  Bằng chứng Công việc là một thuật toán đồng thuận được sử dụng trong mạng lưới Bitcoin
-  để xác thực các giao dịch và tạo ra các khối mới. Nó yêu cầu các thợ mỏ giải quyết các bài toán toán học phức tạp,
-  điều này đảm bảo tính xác thực của thông tin trong mạng lưới mà không cần đến sự tin cậy vào bên thứ ba.
+  - Số lượng người đào được điều chỉnh cố định.
+  - Kích thước của các khối được điều chỉnh thành 10 megabyte.
+  - Phần thưởng cho việc tìm ra một hash hợp lệ được tăng lên.
+explanation: |
+  Giao thức Bitcoin đảm bảo rằng thời gian trung bình giữa
+  hai khối giữ nguyên bằng cách điều chỉnh độ khó của
+  việc tìm ra một hash hợp lệ sau mỗi 2016 khối. Sự kiện này xảy ra
+  bất kể số lượng người đào và sức mạnh tính toán của họ.
 reviewed: true

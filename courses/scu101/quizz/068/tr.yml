@@ -5,8 +5,7 @@ wrong_answers:
   - Yavaş internet hızı.
   - Modası geçmiş donanım.
 explanation: |
-  Güvenlik açıkları genellikle insan kaynaklıdır
-  varsayılan parolaları kullanmak veya bir yere yazmak gibi ihmaller
-  güvenli olmayan yerlerde şifreler. Sofistike saldırılar
-  bilgisayar güvenliğini tehlikeye atmak için her zaman gereklidir.
-reviewed: true
+  Güvenlik açıkları çoğu zaman, varsayılabilir şifrelerin kullanılması 
+  veya şifrelerin güvensiz yerlere yazılması gibi insan hatalarından kaynaklanır.
+  Bilgisayar güvenliğini tehlikeye atmak için her zaman sofistike saldırılar gerekmeyebilir.
+  reviewed: true

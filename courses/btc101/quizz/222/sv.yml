@@ -1,8 +1,8 @@
-question: Vad är skalbarhetsproblemet med Bitcoin?
-answer: Utmaningen att införa ett monetärt system som kan tillhandahålla ett ständigt ökande antal transaktioner per sekund i takt med att det införs.
+question: Hur säkras transaktioner på Lightning Network?
+answer: Genom kryptografi och indirekt genom den energi som förbrukas av gruvarbetare på Bitcoin.
 wrong_answers:
-  - Svårigheten att Mining nya Bitcoins med ett ökande värde över tid.
-  - Volatiliteten i Bitcoin:s pris som kommer att öka efter varje Halving.
-  - Avsaknaden av reglering för Bitcoin som kommer att göra transaktioner olagliga.
+  - Endast genom användning av privata nycklar.
+  - Endast genom användning av publika nycklar.
+  - Endast genom användning av både privata och offentliga nycklar.
 explanation: >-
 reviewed: true

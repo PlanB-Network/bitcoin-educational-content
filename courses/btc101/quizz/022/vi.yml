@@ -1,13 +1,11 @@
-question: Tại sao vàng trở thành tiêu chuẩn phương tiện trao đổi?
-answer: Do tính hiếm có, bền vững, và khả năng chia nhỏ.
+question: Tại sao vàng không phải là vật liệu dễ di chuyển?
+
+answer: Bởi vì nó có khối lượng riêng cao và nặng, khiến việc vận chuyển số lượng lớn trở nên cồng kềnh.
+
 wrong_answers:
-  - Do tính phong phú, bền vững, và không thể chia nhỏ.
-  - Do tính hiếm có, dễ hỏng, và khả năng chia nhỏ.
-  - Do tính phong phú, dễ hỏng, và không thể chia nhỏ.
-explanation: |
-  Vàng trở thành tiêu chuẩn phương tiện trao đổi do
-  tính hiếm có, bền vững, và khả năng chia nhỏ: tính hiếm có
-  ngăn chặn sự mất giá do sản xuất; tính bền vững
-  đảm bảo nó không bị ăn mòn theo thời gian, và khả năng chia nhỏ
-  cho phép sử dụng trong các giao dịch có kích thước khác nhau.
-reviewed: true
+  - Bởi vì nó quá giá trị để được di chuyển.
+  - Bởi vì nó không thể dễ dàng được tạo hình thành các dạng nhỏ hơn.
+  - Bởi vì nó là chất lỏng ở nhiệt độ phòng.
+
+explanation: Vàng có khối lượng riêng cao và nặng, điều này có nghĩa là việc vận chuyển số lượng lớn của nó có thể gây ra thách thức về mặt thể chất. Trọng lượng này khiến nó kém tiện lợi cho việc vận chuyển so với các vật liệu nhẹ hơn.
+

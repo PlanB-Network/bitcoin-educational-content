@@ -1,5 +1,5 @@
 ---
-name: اسکنر IP عصبانی
+name: Angry IP Scanner
 description: یک روش ساده برای اسکن شبکه شما
 ---
 ![cover](assets/cover.webp)
@@ -42,7 +42,7 @@ ___
 
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 ## II. شروع به کار با Angry IP Scanner
 
@@ -84,7 +84,7 @@ https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6d
 
 
 
-- تغذیه‌کننده**: ماژولی که مسئول تولید فهرست‌هایی از آدرس‌های IP برای اسکن است، از یک بازه IP تصادفی یا یک فایل با فهرستی از آدرس‌های IP.
+- **تغذیه‌کننده**: ماژولی که مسئول تولید فهرست‌هایی از آدرس‌های IP برای اسکن است، از یک بازه IP تصادفی یا یک فایل با فهرستی از آدرس‌های IP.
 - **فچر**: مجموعه‌ای از ماژول‌ها برای بازیابی اطلاعات درباره میزبان‌ها در شبکه. به عنوان مثال، فچرهایی برای شناسایی آدرس‌های MAC، اسکن پورت‌ها، شناسایی نام‌های میزبان یا ارسال درخواست‌های HTTP وجود دارد.
 
 
@@ -181,4 +181,4 @@ https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6d
 
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d

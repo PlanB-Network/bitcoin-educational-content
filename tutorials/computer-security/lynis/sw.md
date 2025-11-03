@@ -22,7 +22,7 @@ ___
 
 
 
-**Katika somo hili, tutajifunza jinsi ya kufanya ukaguzi wa usalama kwenye mashine ya Linux kwa kutumia Lynis! Kwa wale ambao hamjui **Lynis,** ni matumizi madogo ya mstari wa amri ambayo yatachanganua usanidi wa seva yako na kutoa mapendekezo ya **kuboresha usalama wa mashine yako.**
+**Katika somo hili, tutajifunza jinsi ya kufanya ukaguzi wa usalama kwenye mashine ya Linux kwa kutumia Lynis! Kwa wale ambao hamjui** Lynis, **ni matumizi madogo ya mstari wa amri ambayo yatachanganua usanidi wa seva yako na kutoa mapendekezo ya** kuboresha usalama wa mashine yako.
 
 
 
@@ -321,10 +321,10 @@ Ifuatayo, Lynis ataorodhesha seti ya alama zinazolingana na kila kitu ambacho am
 
 
 
-- Nyekundu** kwa Elements muhimu au mbinu bora zisizoheshimiwa (kifurushi kinachokosekana, kwa mfano), yaani, seva yako haiheshimu hatua hii.
-- Njano** kwa mapendekezo au utiifu wa pendekezo kwa kiasi (tuseme ni nyongeza kutii hoja iliyoangaziwa na rangi hii (isiyo kipaumbele))
-- Green** kwa pointi ambapo usanidi wa seva yako unatii
-- Nyeupe**, wakati upande wowote
+- **Nyekundu** kwa Elements muhimu au mbinu bora zisizoheshimiwa (kifurushi kinachokosekana, kwa mfano), yaani, seva yako haiheshimu hatua hii.
+- **Njano** kwa mapendekezo au utiifu wa pendekezo kwa kiasi (tuseme ni nyongeza kutii hoja iliyoangaziwa na rangi hii (isiyo kipaumbele))
+- **Green** kwa pointi ambazo usanidi wa seva yako unatii
+- **Nyeupe**, wakati upande wowote
 
 
 
@@ -604,10 +604,10 @@ Habari fulani kuhusu vifurushi vilivyosakinishwa:
 
 
 
-- Clamav** ni antivirus.
-- masasisho yasiyotarajiwa** yatakuwezesha kudhibiti masasisho yako kiotomatiki na hata kuwasha upya mashine au kusafisha kiotomatiki vifurushi vya zamani, inaweza kusanidiwa kikamilifu.
-- rkhunter** ni anti-rootkit ambayo huchanganua mfumo wako wa faili.
-- Fail2ban** itajikita kwenye faili zako za kumbukumbu kulingana na kile unachoipa kusoma na itafanya kazi na **iptables**, kwa mfano kupiga marufuku anwani za IP zinazojaribu "kulazimisha" seva yako katika SSH.
+- **Clamav** ni antivirus.
+- **masasisho yasiyotarajiwa** yatakuwezesha kudhibiti masasisho yako kiotomatiki na hata kuwasha upya mashine au kusafisha kiotomatiki vifurushi vya zamani, inaweza kusanidiwa kikamilifu.
+- **rkhunter** ni anti-rootkit ambayo huchanganua mfumo wako wa faili.
+- **Fail2ban** itajikita kwenye faili zako za kumbukumbu kulingana na kile unachoipa kusoma na itafanya kazi na **iptables**, kwa mfano kupiga marufuku anwani za IP zinazojaribu "kulazimisha" seva yako katika SSH.
 
 
 
@@ -774,7 +774,7 @@ ClientAliveCountMax 0
 
 
 
-Kulingana na [hati (*ukurasa wa mtu*) ya sshd](https://www.delafond.org/traducmanfr/man/man5/sshd_config.5.html), chaguo hili linamaanisha nini: "Huweka idadi ya ujumbe wa kusimamisha kazi (tazama hapo juu) kutumwa bila jibu kutoka kwa mteja kwa **sshd**. Ikiwa kipengee cha kusitisha ** kimefikiwa mteja na kusitisha kipindi Ni muhimu kutambua kuwa ujumbe huu wa kushikilia ni tofauti sana na chaguo la **KeepAlive** (hapa chini) Ujumbe wa kushikilia muunganisho hutumwa kupitia handaki iliyosimbwa kwa njia fiche, na kwa hivyo haiwezi kughushi muunganisho wa kiwango cha TCP unaowezeshwa na **KeepAlive** unaweza kughushi ikiwa uunganisho wa muunganisho unahitajika.
+Kulingana na [hati (*ukurasa wa mtu*) ya sshd](https://www.delafond.org/traducmanfr/man/man5/sshd_config.5.html), chaguo hili linamaanisha nini: "Huweka idadi ya ujumbe wa kusimamisha kazi (tazama hapo juu) kutumwa bila jibu kutoka kwa mteja kwa **sshd**. Ikiwa kipengee cha kusitisha kimefikiwa mteja na kusitisha kipindi Ni muhimu kutambua kuwa ujumbe huu wa kushikilia ni tofauti sana na chaguo la **KeepAlive** (hapa chini) Ujumbe wa kushikilia muunganisho hutumwa kupitia handaki iliyosimbwa kwa njia fiche, na kwa hivyo haiwezi kughushi muunganisho wa kiwango cha TCP unaowezeshwa na **KeepAlive** unaweza kughushi ikiwa uunganisho wa muunganisho unahitajika."
 
 
 
@@ -820,7 +820,7 @@ Hatimaye, tusisahau kuangalia **alama ya ukaguzi wa Lynis**! Tunaona kwamba **al
 
 
 
-**Kwa maneno mengine, kadiri alama inavyokuwa juu, ndivyo inavyokuwa bora zaidi! Kwa hivyo unahitaji kufanyia kazi usanidi wako ili kufikia alama ya juu zaidi, huku ukiruhusu mashine yako na huduma zinazopangishwa kufanya kazi kama kawaida (ambayo inamaanisha kufanya majaribio ya utendakazi).
+**Kwa maneno mengine, kadiri alama inavyokuwa juu, ndivyo inavyokuwa bora zaidi! Kwa hivyo unahitaji kufanyia kazi usanidi wako ili kufikia alama ya juu zaidi, huku ukiruhusu mashine yako na huduma zinazopangishwa kufanya kazi kama kawaida (ambayo inamaanisha kufanya majaribio ya utendakazi).**
 
 
 
@@ -896,4 +896,4 @@ Hatimaye, unaweza pia kulinganisha ** Lynis ** na zana zingine, ambazo kuna kadh
 
 
 
-**Mafunzo haya yamekwisha, furahiya na Lynis!
+**Mafunzo haya yamekwisha, furahiya na Lynis!**

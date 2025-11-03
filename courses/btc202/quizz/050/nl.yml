@@ -1,0 +1,9 @@
+question: Wat is het protocol dat wordt gebruikt door Electrs en Fulcrum om wallets te verbinden?
+answer: Electrum
+wrong_answers:
+  - RPC REST
+  - JSON API
+  - Bliksem gRPC
+explanation: |
+  Deze softwarepakketten leggen een Electrum server bloot, de standaard die door veel wallets zoals Sparrow of Electrum Wallet wordt gebruikt.
+reviewed: true

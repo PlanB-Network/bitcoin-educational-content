@@ -1,13 +1,12 @@
-question: Quel est le rôle de l'argent comme outil de communication ?
-answer: Il permet la communication de la valeur à travers l'espace et le temps sans avoir besoin de faire confiance à une contrepartie.
+question: Quel est le principal avantage des monnaies fiduciaires ?
+answer: Elles sont facilement divisibles.
 wrong_answers:
-  - Il permet la communication de la valeur à travers l'espace uniquement et sans avoir besoin de faire confiance à une contrepartie.
-  - Il permet la communication de la valeur à travers le temps uniquement et sans avoir besoin de faire confiance à une contrepartie.
-  - Il permet la communication de la valeur à travers l'espace et le temps avec le besoin de faire confiance à une contrepartie.
+  - Elles sont contrôlées par une partie centrale.
+  - Elles ne sont pas facilement transportables.
+  - Elles sont efficaces pour conserver de la valeur dans le temps.
 explanation: |
-  L'argent, en tant qu'outil de communication, permet la communication à travers
-  l'espace et le temps, car nous transformons notre temps et notre énergie en un
-  actif qui peut être réutilisé dans le futur sans risque de dévaluation. Il permet également
-  la communication dans un langage commun universel, permettant à deux inconnus d'échanger, de commercer,
-  et de s'accorder sur la valeur des choses.
+  Les monnaies fiduciaires, telles que le dollar et l'euro, sont très
+  liquides et facilement transportables car elles sont maintenant majoritairement
+  numériques. Cependant, leur valeur est constamment érodée par
+  l'inflation monétaire.
 reviewed: true

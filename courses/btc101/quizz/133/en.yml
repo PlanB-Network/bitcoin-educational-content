@@ -1,10 +1,9 @@
-question: How do miners validate transactions and include them in a block?
-answer: Through the process of Proof of work.
+question: What is the current size of the Bitcoin blockchain?
+answer: About 500GB.
 wrong_answers:
-  - Through the process of Proof of stake.
-  - Through the process of Proof of authority.
-  - Through the process of Proof of burn.
-explanation: >-
-  Miners validate transactions and include them in a block through a process
-  called proof of work. This involves solving a cryptographic puzzle.
+  - About 100GB.
+  - About 1TB.
+  - About 2TB.
+explanation: |
+  The Bitcoin blockchain is about 500GB in size as of 2023.
 reviewed: true

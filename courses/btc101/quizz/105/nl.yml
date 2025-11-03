@@ -1,11 +1,15 @@
-question: Waarom is privacy belangrijk in de context van Bitcoin?
-answer: Om het risico te minimaliseren dat je geld wordt getraceerd.
+question: Waarom zou je niet-KYC bitcoins kopen?
+answer: Om uw privacy te waarborgen.
 wrong_answers:
-  - Om de waarde van je bitcoins te verlagen.
-  - Om te voorkomen dat je bitcoins worden gestolen.
-  - Om belasting te betalen over je bitcoins.
+  - Om de registratie van alle Bitcoin gebruikers te garanderen.
+  - Kopen tegen een lage prijs.
+  - Verkopen tegen een lage prijs.
 explanation: |
-  Privacy is belangrijk in de context van Bitcoin om het risico te minimaliseren dat
-  de risico's te minimaliseren dat je geld wordt getraceerd, wat het
-  uw toezicht kan vergemakkelijken.
+  Niet-KYC bitcoins kopen betekent bitcoins verwerven zonder
+  het doorlopen van de standaard Know Your Customer
+  verificatieprocedures die veel beurzen en platforms
+  vereisen. Een van de belangrijkste redenen waarom mensen
+  is om hun privacy te behouden en ervoor te zorgen dat hun
+  persoonlijke gegevens en financiële activiteiten
+  geheim blijven.
 reviewed: true

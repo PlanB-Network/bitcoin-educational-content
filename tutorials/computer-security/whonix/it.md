@@ -17,12 +17,12 @@ description: Preservare la vostra privacy e riservatezza.
 
 
 
-- Gratuito**: Come la maggior parte delle distribuzioni Linux, Whonix è un sistema open-source con licenza completamente gratuita. È sviluppato in open source, con una comunità attiva e trasparente.
-- Privacy, sicurezza e anonimato**: L'obiettivo principale di Whonix è offrire un ambiente ultra-sicuro, in cui tutti i dati sono protetti e le comunicazioni criptate attraverso la rete Tor.
-- Facile da usare**: Whonix offre un Interface intuitivo e preconfigurato, adatto anche agli utenti meno esperti. Non è necessario essere esperti per beneficiare di una protezione avanzata.
-- Ambiente ideale per lo sviluppo sicuro**: Whonix consente di sviluppare, testare, verificare o eseguire programmi senza mai rivelare il vostro vero IP Address o esporre le vostre abitudini di navigazione o di comunicazione in rete.
-- Sessioni monouso e modalità Live**: Whonix può essere lanciato in modalità Live o tramite macchine usa e getta (ad esempio tramite **Qubes OS**), consentendo di eseguire attività critiche senza lasciare tracce persistenti una volta terminata la sessione.
-- Installazione relativamente semplice**: Vengono fornite immagini pronte all'uso per una rapida installazione in macchine virtuali (VirtualBox, KVM, Qubes). Il sistema è documentato e regolarmente aggiornato.
+- **Gratuito**: Come la maggior parte delle distribuzioni Linux, Whonix è un sistema open-source con licenza completamente gratuita. È sviluppato in open source, con una comunità attiva e trasparente.
+- **Privacy, sicurezza e anonimato**: L'obiettivo principale di Whonix è offrire un ambiente ultra-sicuro, in cui tutti i dati sono protetti e le comunicazioni criptate attraverso la rete Tor.
+- **Facile da usare**: Whonix offre un Interface intuitivo e preconfigurato, adatto anche agli utenti meno esperti. Non è necessario essere esperti per beneficiare di una protezione avanzata.
+- **Ambiente ideale per lo sviluppo sicuro**: Whonix consente di sviluppare, testare, verificare o eseguire programmi senza mai rivelare il vostro vero IP Address o esporre le vostre abitudini di navigazione o di comunicazione in rete.
+- **Sessioni monouso e modalità Live**: Whonix può essere lanciato in modalità Live o tramite macchine usa e getta (ad esempio tramite **Qubes OS**), consentendo di eseguire attività critiche senza lasciare tracce persistenti una volta terminata la sessione.
+- **Installazione relativamente semplice**: Vengono fornite immagini pronte all'uso per una rapida installazione in macchine virtuali (VirtualBox, KVM, Qubes). Il sistema è documentato e regolarmente aggiornato.
 
 
 
@@ -56,9 +56,9 @@ Ecco le specifiche consigliate per un'esperienza fluida e stabile con Whonix:
 
 
 
-- Memoria ad accesso casuale (RAM)**: si consiglia vivamente un minimo di **8 GB**. Più RAM si ha, più risorse si possono allocare alle macchine virtuali (Gateway e Workstation), migliorando le prestazioni.
+- **Memoria ad accesso casuale (RAM)**: si consiglia vivamente un minimo di **8 GB**. Più RAM si ha, più risorse si possono allocare alle macchine virtuali (Gateway e Workstation), migliorando le prestazioni.
 - Spazio disponibile su disco**: prevedere almeno 30 GB di spazio libero su disco**. Questo include lo spazio necessario per le due macchine virtuali, i file di sistema ed eventuali dati o snapshot.
-- Processore**: si consiglia un processore con almeno **4 core fisici** (8 thread logici), soprattutto se si desidera eseguire altri servizi o strumenti in parallelo.
+- **Processore**: si consiglia un processore con almeno **4 core fisici** (8 thread logici), soprattutto se si desidera eseguire altri servizi o strumenti in parallelo.
 
 
 
@@ -86,7 +86,7 @@ Una volta scaricato il file, installatelo come fareste con qualsiasi altro softw
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
+https://planb.academy/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
 ### Importare Whonix
 
 
@@ -224,7 +224,7 @@ sudo apt full-upgrade
 
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ### Elettro Bitcoin Wallet
 
@@ -234,7 +234,7 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 Whonix è più di un semplice sistema operativo: è un vero e proprio **ambiente sicuro** progettato per proteggere l'anonimato, la privacy e le attività sensibili. Grazie alla sua architettura basata su Tor, al partizionamento intelligente tra Gateway e Workstation e a strumenti preinstallati come Tor Browser, KeePassXC ed Electrum, offre una soluzione chiavi in mano a chiunque desideri **guidare in modo anonimo**, **lavorare in modo sicuro** o **gestire dati riservati**.
 
@@ -244,4 +244,4 @@ Per rafforzare la sicurezza del vostro sistema Unix, date un'occhiata al nostro 
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
+https://planb.academy/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af

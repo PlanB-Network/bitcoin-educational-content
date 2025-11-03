@@ -1,8 +1,10 @@
-question: Kosten voor transacties op de Lightning Network zijn extreem laag, vaak minder dan...?
-answer: 0.5%.
+question: Wat is de eenheid van Bitcoin die wordt gebruikt in de Lightning Network?
+answer: Sats.
 wrong_answers:
-  - 1%.
-  - 2%.
-  - 3%.
-explanation: >-
+  - Blok.
+  - Ether.
+  - Litecoin.
+explanation: |
+  De Lightning Network gebruikt satoshis (ook Sats genoemd), de
+  decimaal van Bitcoin, om te functioneren.
 reviewed: true

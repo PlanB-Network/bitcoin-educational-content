@@ -1,0 +1,9 @@
+question: René Descartes?
+answer: Precede Spinoza.
+wrong_answers:
+  - É um herdeiro de Spinoza.
+  - É um filósofo suíço.
+  - É um filósofo ateu.
+explanation: |
+  René Descartes (1596-1650) é anterior a Spinoza e é considerado o pai do racionalismo moderno. Spinoza foi influenciado por Descartes, mas desenvolveu um sistema filosófico que se afastava significativamente do cartesianismo.
+reviewed: false

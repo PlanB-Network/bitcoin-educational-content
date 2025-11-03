@@ -1,0 +1,9 @@
+question: Welke stappen moeten worden uitgevoerd voordat UmbrelOS kan worden geïnstalleerd?
+answer: Maak een opstartbare USB-sleutel met de image
+wrong_answers:
+  - Bitcoin core broncode compileren
+  - De Blockchain formatteren
+  - Maak een account aan op umbrel.com
+explanation: |
+  De installatie begint met het voorbereiden van een opstartbare USB-sleutel met UmbrelOS via Balena Etcher.
+reviewed: true

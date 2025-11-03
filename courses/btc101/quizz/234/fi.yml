@@ -1,11 +1,12 @@
-question: Mikä on yksi mahdollisista Lightning Networkin sovelluksista arkielämässä?
-answer: Välitön laskutus kaupankäynnissä.
+question: Mikä on DCA-alusta?
+answer: Palvelu, joka mahdollistaa käyttäjien sijoittaa kiinteän summan rahaa omaisuuserään säännöllisin väliajoin.
 wrong_answers:
-  - Uusien Bitcoinien louhinta.
-  - Uusien kryptovaluuttojen luominen.
-  - Bitcoinin arvon kasvattaminen.
-explanation: >-
-  Lightning Network avaa oven laajalle valikoimalle potentiaalisia
-  sovelluksia
-  Bitcoinille, jotka olivat aiemmin saavuttamattomissa Bitcoinin turvallisuuden ja hajautuksen varmistamiseksi tarvittavien rajoitusten vuoksi. Näiden sovellusten joukossa arkielämässä voimme mainita välittömän laskutuksen kaupankäynnissä.
+  - Kryptovaluuttapörssi, joka sallii vain Bitcoinin kaupankäynnin.
+  - Rahoituspalvelu, joka tarjoaa lainoja sijoittajille marginaalikaupankäyntiin.
+  - Ohjelmistotyökalu, joka seuraa osakekursseja reaaliajassa ilman sijoitusominaisuuksia.
+explanation: |
+  DCA-alusta viittaa alustaan, joka helpottaa
+  Dollar-Cost Averaging (DCA) -sijoitusstrategian toteuttamista, missä
+  yksilö sijoittaa kiinteän summan rahaa tiettyyn omaisuuserään
+  säännöllisin väliajoin, riippumatta omaisuuserän hinnasta.
 reviewed: true

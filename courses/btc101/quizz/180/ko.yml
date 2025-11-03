@@ -1,0 +1,8 @@
+question: Bitcoin을 판매자로 수락하면 어떤 이점이 있나요?
+answer: 검열 저항.
+wrong_answers:
+  - 거래 수수료가 인상되었습니다.
+  - 디플레이션으로부터 보호.
+  - 재정적 제한.
+explanation: >-
+reviewed: true

@@ -1,11 +1,11 @@
-question: Vilken är en av riskerna med att köpa Bitcoin?
-answer: Dess pris kan sjunka till 0.
+question: Vad är en av de saker du bör tänka på när du väljer en DCA-plattform?
+answer: Tillgänglighet i ditt land.
 wrong_answers:
-  - Den kan lätt bli stulen.
-  - Den kan dupliceras.
-  - Den kan gå förlorad fysiskt.
+  - Färgen på plattformens logotyp.
+  - Antalet användare på plattformen.
+  - Plattformens ålder.
 explanation: |
-  I kurslitteraturen nämns att Bitcoin är en mycket volatil
-  finansiell tillgång och att dess pris kan sjunka till 0, vilket är en av
-  av de risker som är förknippade med att köpa Bitcoin.
+  I den här kurstexten nämns att när man väljer en DCA
+  plattform beror det rätta valet mer på dess tillgänglighet
+  tillgänglighet i ditt land.
 reviewed: true

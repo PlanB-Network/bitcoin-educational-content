@@ -1,0 +1,9 @@
+question: Ni ubuhe bwoko bw’ubucuruzi bushobora cane kuronka dosiye yoroshe ya csv ihagije kugira ngo umuntu akoreshe ubuhinga bwo guharura amafaranga?
+answer: Ubucuruzi buto buto
+wrong_answers:
+  - Amashirahamwe manini manini y'ibihugu vyinshi
+  - Ibigo bikomeye vy'ivy'imari
+  - Ibibanza vy'ubucuruzi vy'incuro nyinshi
+explanation: |
+  Benshi mu bucuruzi buto buto bungukira ku kworoha no ku bintu bihagije bitangwa n’ivyoherezwa hanze csv.
+reviewed: false

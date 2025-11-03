@@ -37,7 +37,6 @@ Miłego oglądania!
 
 :::video id=9b6aa5cf-245e-4a66-b3b8-c4860ab51e90:::
 
-
 Filippo i Mario wygłaszają wykład wprowadzający na temat CUBO+ 2023, przygotowując grunt pod wszechstronną podróż edukacyjną, która czeka. Omawiają strukturę kursów, efekty uczenia się i sposób, w jaki wzmocnią one pozycję studentów w przestrzeni rozwojowej Bitcoin.
 
 
@@ -70,16 +69,15 @@ Podczas całego kursu uczestnicy będą korzystać z kluczowych narzędzi, któr
 
 :::video id=ff820fb2-83d4-450f-bda0-17cc5044a902:::
 
-
 Witamy na pierwszym wykładzie w ramach programu edukacyjnego **Cubo Plus**. Dziś zagłębiamy się w świat Bitcoin, prowadzony przez Ricky'ego, założyciela **Bitcoin Italia Podcast**. Ricky jest zapalonym działaczem na rzecz praw człowieka, który wykorzystuje Bitcoin jako narzędzie do ochrony i promowania praw człowieka. Dzięki ponad sześcioletniemu doświadczeniu Ricky odbył wiele podróży, dokumentując adopcję Bitcoin na rynkach wschodzących, takich jak Salwador i Gwatemala. Jego praca wykracza poza podcasty; jest również aktywny na YouTube (**Bitcoin Explorers**) i Twitterze (**BTC Explorer**, **Ricky6**). Zaangażowanie Ricky'ego w Commitment do Bitcoin wynika z jego przekonania, że oferuje on wolność finansową i prywatność, stanowiąc wyzwanie dla tradycyjnych, scentralizowanych systemów bankowych.
 
 
-![Unbanked Population](assets/en/1/1.webp)
+![Unbanked Population](assets/en/001.webp)
 
 globalna populacja nieubankowionych_
 
 
-### Bitcoin: Wolność finansowa i jej wpływ na Salwador
+### Bitcoin: wolność finansowa i jej wpływ na Salwador
 
 
 Ten wykład, **"Dlaczego Salwador potrzebuje Bitcoin"**, zawiera przegląd **protokołu Bitcoin**, jego korzeni w **ruchu Cypherpunk** i jego roli jako narzędzia umożliwiającego **nieocenzurowane pieniądze**, **integrację finansową** i wiele więcej.
@@ -108,7 +106,7 @@ Bitcoin to znacznie więcej niż tylko cyfrowa waluta. Jest to narzędzie do och
 W reżimach autorytarnych, gdzie represje finansowe są powszechne, **nieocenzurowana natura** Bitcoin pozwala ludziom na dokonywanie transakcji bez obawy, że ich środki zostaną zamrożone lub skonfiskowane. Jego **otwarty charakter** zachęca do globalnego uczestnictwa, wspierając społeczność, która stale ulepsza sieć.
 
 
-![Image](assets/en/1/4.webp)
+![Image](assets/en/002.webp)
 
 
 Pomimo swojego potencjału, Bitcoin stoi przed poważnymi wyzwaniami. W obszarach takich jak Afryka i Indie często brakuje podstawowej infrastruktury, takiej jak elektryczność i dostęp do Internetu, co ogranicza adopcję. Co więcej, **integracja cyfrowa** - zapewnienie, że ludzie w każdym wieku i na każdym poziomie wykształcenia mogą korzystać z technologii - pozostaje główną przeszkodą.
@@ -163,7 +161,7 @@ Jednocześnie **Austriacka Ekonomia** stanowiła fundament dla zasad monetarnych
 
 > - niedobór: Ograniczona dostępność, tworząca wartość poprzez potrzebę starannej alokacji.
 
-### Bitcoin's Creation
+### Stworzenie Bitcoin
 
 
 **Satoshi Nakamoto** połączył te idee, tworząc Bitcoin w 2008 roku jako zdecentralizowaną, odporną na cenzurę walutę cyfrową. Łącząc ideały prywatności Cypherpunk z austriackimi zasadami zdrowego pieniądza, Bitcoin oferuje system finansowy, który rzuca wyzwanie tradycyjnym bankom i kontroli rządowej.
@@ -187,15 +185,15 @@ Jednocześnie **Austriacka Ekonomia** stanowiła fundament dla zasad monetarnych
 >
 
 > - _Preferencja czasowa:_ Przedkładanie dóbr teraźniejszych nad przyszłe.
-> - zapisywanie:_ Przechowywanie wartości do wykorzystania w przyszłości.
+> - oszczędzanie:_ Przechowywanie wartości do wykorzystania w przyszłości.
 
 ### Bitcoin w Salwadorze
 
 
-Przyjęcie Bitcoin przez Salwador odzwierciedla jego potencjał jako narzędzia wolności finansowej, zgodnego z **Austriacką Ekonomią** poprzez promowanie dobrowolnego przyjęcia i decentralizacji. To posunięcie stanowi wyzwanie dla tradycyjnych systemów finansowych poprzez zajęcie się kluczowymi kwestiami: konkurencją, monopolem i konfiskatą.
+Przyjęcie Bitcoin przez Salwador odzwierciedla jego potencjał jako narzędzia wolności finansowej, zgodnie z **Austriacką Ekonomią** poprzez promowanie dobrowolnego przyjęcia i decentralizacji. To posunięcie stanowi wyzwanie dla tradycyjnych systemów finansowych poprzez zajęcie się kluczowymi kwestiami: konkurencją, monopolem i konfiskatą.
 
 
-![Image](assets/en/1/5.webp)
+![Image](assets/en/003.webp)
 
 
 
@@ -203,7 +201,7 @@ Przyjęcie Bitcoin przez Salwador odzwierciedla jego potencjał jako narzędzia 
 
 
 
-- Monopol**: Poprzez decentralizację dostępu finansowego, Bitcoin przełamuje monopol banków i walut emitowanych przez rząd, zmniejszając zależność od scentralizowanych instytucji i wspierając włączenie finansowe.
+- Monopol**: Poprzez decentralizację dostępu finansowego, Bitcoin przełamuje monopol banków i walut emitowanych przez rząd, zmniejszając zależność od scentralizowanych instytucji i wspierając integrację finansową.
 
 
 
@@ -233,7 +231,6 @@ Dziękujemy za zaangażowanie w ten materiał!
 
 :::video id=2c008198-7f4e-4e60-87a0-0af17528ad2f:::
 
-
 W pierwszym wykładzie kursu "Jak Bitcoin" rozpoczęliśmy badanie stosu technologicznego, który leży u podstaw sieci Bitcoin. Omówiliśmy takie tematy jak **Hashcash**, **transakcje**, **Blockchain**, **Lightning Network** i inne kluczowe komponenty protokołu Bitcoin.
 
 
@@ -241,7 +238,6 @@ W pierwszym wykładzie kursu "Jak Bitcoin" rozpoczęliśmy badanie stosu technol
 
 
 :::video id=752343b8-aa78-4bd3-9320-efe2a7e9d88f:::
-
 Podczas drugiego wykładu "Jak Bitcoin" przeprowadziliśmy bardziej dogłębną analizę stosu technologii Bitcoin.
 
 
@@ -272,7 +268,7 @@ Transakcje Bitcoin są zatwierdzane i dodawane do bloków przez **minerów**, kt
 Każdy **blok** w Blockchain składa się z **nagłówka** (z danymi jak w poprzednim bloku Hash) i listy transakcji. Pierwszy blok, znany jako **blok Genesis**, jest unikalny, ponieważ nie ma poprzednika.
 
 
-![Image](assets/en/1/6.webp)
+![Image](assets/en/004.webp)
 
 
 Zanim transakcje zostaną włączone do bloku, znajdują się w **Mempool**, gdzie oczekują na walidację. Po zatwierdzeniu transakcje te są dodawane do nowo wydobytego bloku, a następnie do Blockchain.
@@ -321,7 +317,6 @@ Struktura i ciągła ewolucja Bitcoin pokazują innowacyjność i zdolność ada
 
 :::video id=c5e2e575-fa9d-4430-805f-205c2cf6f2a5:::
 
-
 W tym wykładzie obalamy powszechne mity dotyczące **Bitcoin**, **blockchainów** i **kryptowalut**. Obalimy 99 błędnych przekonań na temat zużycia energii przez Bitcoin, przestępczego wykorzystania i szerszego "FUD" (strach, niepewność, wątpliwości) rozpowszechnianego na temat tej technologii.
 
 
@@ -348,7 +343,7 @@ Kolejną kluczową różnicą jest to, że **Bitcoin** został stworzony wyłąc
 
 > - shitcoiny to kryptowaluty o niskiej wartości lub wątpliwej jakości, którym brakuje rzeczywistej użyteczności. Są one często wysoce spekulacyjne i czasami są tworzone w oszukańczych celach lub bez wyraźnego celu, wykorzystując boom na rynku kryptowalut.
 
-![Image](assets/en/1/2.webp)
+![Image](assets/en/005.webp)
 
 
 ### Zużycie energii i wpływ na środowisko
@@ -362,7 +357,7 @@ Jednym z najczęstszych zarzutów wobec Bitcoin jest jego **zużycie energii**. 
 
 > - _Bitcoin Mining:_ Proces walidacji transakcji i zabezpieczania sieci poprzez rozwiązywanie zagadek kryptograficznych, co wymaga mocy obliczeniowej.
 
-### Błędne przekonania na temat przestępczości
+### Błędne przekonania na temat przestępstw
 
 
 Bitcoin jest często krytykowany za wykorzystywanie w działalności przestępczej. Jednak analiza Blockchain pokazuje, że tylko niewielki procent transakcji Bitcoin jest powiązany z przestępczością. W rzeczywistości tradycyjne systemy finansowe są znacznie częściej wykorzystywane do celów przestępczych niż Bitcoin.
@@ -399,46 +394,45 @@ Zrozumienie realiów zużycia energii przez Bitcoin, funkcji prywatności i roli
 <professorId>e7e63d59-ea19-4960-9446-61bd4dcc98f0</professorId>
 
 
-### Instalacja rdzenia Bitcoin
+### Instalacja Bitcoin core
 
 
 :::video id=4a5253cf-b863-466a-8506-0506b28a28de:::
 
-
-W pierwszym wykładzie 4. modułu zbadaliśmy architekturę Bitcoin i instalację węzła Bitcoin Core.
+W pierwszym wykładzie 4. modułu zbadaliśmy architekturę Bitcoin i instalację węzła Bitcoin core.
 
 
 ### Uruchamianie węzła Bitcoin
 
 
-**1. Wprowadzenie Podsumowanie**
+**1. Podsumowanie wprowadzenia**
 
 Witamy ponownie! W poprzedniej sesji omówiliśmy podstawowe koncepcje stojące za architekturą Bitcoin, w tym jej podstawy kryptograficzne i strukturę sieci peer-to-peer. Dziś przejdziemy od teorii do praktyki, demonstrując, jak zainstalować i skonfigurować węzeł Bitcoin.
 
 
-**2. Przegląd sesji praktycznej**
+**2. Przegląd sesji praktycznych**
 
 W tej sesji Alekos przeprowadzi nas przez proces konfiguracji węzła Bitcoin przy użyciu maszyny wirtualnej. Ten praktyczny samouczek ma na celu zapoznanie się z krokami związanymi z konfiguracją węzła do uczestnictwa w sieci Bitcoin.
 
 
-Uruchomienie węzła Bitcoin obejmuje walidację transakcji i bloków, egzekwowanie zasad konsensusu i wspieranie decentralizacji sieci. Konfiguracja węzła zapewnia bezpośrednie połączenie z siecią Bitcoin, umożliwiając przyczynienie się do jej bezpieczeństwa i integralności.
+Uruchomienie węzła Bitcoin wiąże się z walidacją transakcji i bloków, egzekwowaniem zasad konsensusu i wspieraniem decentralizacji sieci. Konfiguracja węzła zapewnia bezpośrednie połączenie z siecią Bitcoin, umożliwiając przyczynienie się do jej bezpieczeństwa i integralności.
 
 
-W tym wykładzie znajdziesz przewodnik po instalacji i uruchomieniu własnego Bitcoin Core, dowiesz się, jak przyciąć Blockchain, aby zaoszczędzić miejsce, i zaczniesz eksperymentować z oprogramowaniem. Alekos poprowadzi cię krok po kroku przez ten ekscytujący proces.
+W tym wykładzie znajdziesz przewodnik po instalacji i uruchomieniu własnego Bitcoin core, dowiesz się, jak przyciąć Blockchain, aby zaoszczędzić miejsce, i zaczniesz eksperymentować z oprogramowaniem. Alekos poprowadzi cię krok po kroku przez ten ekscytujący proces.
 
 
-### Co można zrobić z Bitcoin Core i jego zalety
+### Co można zrobić z Bitcoin core i jego zaletami
 
 
-Uruchamiając Bitcoin Core, zyskujesz możliwość
+Uruchamiając Bitcoin core, zyskujesz możliwość
 
 
 
 - Weryfikacja własnych transakcji i bloków**: Zapewnienie przestrzegania zasad sieci Bitcoin bez polegania na osobach trzecich.
-- Wzmocnienie sieci**: Uczestnicząc w sieci, pomagasz utrzymać jej zdecentralizowany charakter, dzięki czemu Bitcoin jest bardziej odporny na ataki.
+- Wzmocnienie sieci**: Uczestnicząc w sieci, pomagasz utrzymać jej decentralizację, dzięki czemu Bitcoin jest bardziej odporny na ataki.
 - Przycinanie Blockchain**: Zmniejszenie wymagań dotyczących pamięci masowej poprzez przechowywanie tylko najnowszych transakcji, co jest idealnym rozwiązaniem w przypadku ograniczonej ilości miejsca na dysku.
 - Korzystaj z zaawansowanych funkcji Wallet**: Zarządzaj Bitcoin z zachowaniem prywatności i bezpieczeństwa, kluczami prywatnymi generate w trybie offline i bezpiecznie podpisuj transakcje.
-- Bezpośrednia interakcja z siecią Bitcoin**: Korzystając z Bitcoin Core, można łączyć się bezpośrednio z siecią bez pośredników, zapewniając uzyskanie najdokładniejszych danych.
+- Bezpośrednia interakcja z siecią Bitcoin**: Korzystając z Bitcoin core, można połączyć się bezpośrednio z siecią bez pośredników, co zapewnia uzyskanie najdokładniejszych danych.
 - Korzystaj ze zwiększonej prywatności**: Jako operator Full node nie musisz ufać zewnętrznym usługom, chroniąc prywatność transakcji przed zewnętrznym nadzorem.
 
 
@@ -470,7 +464,7 @@ systemctl start bitcoind
 
 
 
-- Zatrzymanie Bitcoin daemon:**:
+- Zatrzymaj Bitcoin daemon:**:
 
 
 ```bash
@@ -497,7 +491,7 @@ prune=550
 
 
 
-- Włącz serwer Bitcoin Core i skonfiguruj ustawienia RPC:**:
+- Włącz serwer Bitcoin core i skonfiguruj ustawienia RPC:**:
 
 
 ```bash
@@ -529,21 +523,20 @@ sudo systemctl status bitcoind
 
 :::video id=e13a1407-46e3-4b03-9a7a-b0f4a338c3c7:::
 
-
-#### 1. **Bitcoin Core Recap**
-
-
-Zacznijmy od krótkiego podsumowania kroków związanych z instalacją Bitcoin Core na maszynie wirtualnej w chmurze, ponieważ będzie to kluczowe dla naszej późniejszej konfiguracji C-Lightning.
+#### 1. **Bitcoin core podsumowanie**
 
 
-**Reinstalacja Bitcoin Core na maszynie wirtualnej w chmurze**
+Zacznijmy od krótkiego podsumowania kroków związanych z instalacją Bitcoin core na maszynie wirtualnej w chmurze, ponieważ będzie to kluczowe dla naszej późniejszej konfiguracji C-Lightning.
 
-Aby rozpocząć, należy ponownie zainstalować Bitcoin Core na maszynie wirtualnej. W tej sesji pominiemy weryfikację binariów, aby zaoszczędzić czas, ale pamiętaj, że w środowisku produkcyjnym weryfikacja binariów jest krytycznym krokiem w celu zapewnienia bezpieczeństwa.
+
+**Reinstalacja Bitcoin core na maszynie wirtualnej w chmurze**
+
+Aby rozpocząć, należy ponownie zainstalować Bitcoin core na maszynie wirtualnej. W tej sesji pominiemy weryfikację binariów, aby zaoszczędzić czas, ale pamiętaj, że w środowisku produkcyjnym weryfikacja binariów jest krytycznym krokiem w celu zapewnienia bezpieczeństwa.
 
 
 **Pobieranie i weryfikacja skrótów plików**
 
-Najpierw pobierz najnowszą wersję Bitcoin Core i zweryfikuj skróty plików, aby upewnić się, że nie doszło do manipulacji.
+Najpierw należy pobrać najnowszą wersję Bitcoin core i zweryfikować skróty plików, aby upewnić się, że nie doszło do manipulacji.
 
 
 ```sh
@@ -553,7 +546,7 @@ sha256sum bitcoin-22.0-x86_64-linux-gnu.tar.gz
 ```
 
 
-**Instalacja oprogramowania binarnego i konfiguracja automatycznego uruchamiania za pomocą systemd**
+**Zainstaluj plik binarny i skonfiguruj automatyczne uruchamianie za pomocą systemd**
 
 Następnie zainstaluj plik binarny i skonfiguruj go do automatycznego uruchamiania za pomocą systemd.
 
@@ -595,7 +588,7 @@ WantedBy=multi-user.target
 
 **Tworzenie i konfiguracja użytkownika i katalogów Bitcoin**
 
-Utwórz dedykowanego użytkownika i skonfiguruj katalogi dla Bitcoin Core.
+Utwórz dedykowanego użytkownika i skonfiguruj katalogi dla Bitcoin core.
 
 
 ```sh
@@ -605,7 +598,7 @@ sudo chown bitcoin:bitcoin /var/lib/bitcoind
 ```
 
 
-**Minimalne wykorzystanie miejsca na dysku poprzez przycinanie Blockchain**
+**Wykorzystanie minimalnej ilości miejsca na dysku poprzez przycięcie Blockchain**
 
 Aby zaoszczędzić miejsce na dysku, należy włączyć przycinanie w pliku konfiguracyjnym.
 
@@ -623,10 +616,10 @@ prune=550
 ```
 
 
-Po wykonaniu tych kroków, Bitcoin Core powinien działać przy minimalnym zużyciu dysku, gotowy do interakcji z C-Lightning.
+Po wykonaniu tych kroków Bitcoin core powinien działać przy minimalnym wykorzystaniu dysku i być gotowy do interakcji z C-Lightning.
 
 
-#### 2. **Przegląd i instalacja C-Lightning**
+#### 2. **Przegląd i instalacja *C-Lightning
 
 
 **Przegląd C-Lightning**
@@ -635,14 +628,14 @@ Po wykonaniu tych kroków, Bitcoin Core powinien działać przy minimalnym zuży
 C-Lightning, znany również jako Core-Lightning, to protokół Layer 2, który ułatwia szybsze i tańsze transakcje przy użyciu kanałów off-chain. Wyróżnia się modułową i przyjazną dla deweloperów architekturą, która pozwala na szerokie dostosowanie za pomocą wtyczek.
 
 
-**Znaczenie modułowości i rozszerzalności dzięki wtyczkom**
+**Ważność modułowości i rozszerzalności za pomocą wtyczek**
 
 Modułowa konstrukcja C-Lightning oznacza, że można dodawać lub usuwać funkcje w zależności od potrzeb, umożliwiając dostosowanie systemu do konkretnych przypadków użycia. Przykładowe zastosowania obejmują:
 
 
 
 - Przetwarzanie płatności**: Niestandardowe wtyczki mogą obsługiwać określone warunki płatności.
-- Routing Fees**: Dynamiczne dostosowywanie opłat za routing w oparciu o warunki sieciowe.
+- Opłaty za routing**: Dynamiczne dostosowywanie opłat za routing w oparciu o warunki sieciowe.
 - Automatyzacja**: Automatyzacja zadań, takich jak zarządzanie kanałami i dostarczanie płynności.
 
 
@@ -725,7 +718,7 @@ WantedBy=multi-user.target
 #### 3. **Konfiguracja i ustawienia**
 
 
-**Tworzenie niezbędnych katalogów i plików konfiguracyjnych**
+**Utworzenie niezbędnych katalogów i plików konfiguracyjnych**
 
 Utwórz katalogi i pliki konfiguracyjne wymagane dla C-Lightning.
 
@@ -747,9 +740,9 @@ plugin=/usr/local/libexec/c-lightning/plugins
 ```
 
 
-**Konfiguracja C-Lightning do połączenia z Bitcoin Core na Testnet**
+**Skonfiguruj C-Lightning, aby połączyć się z Bitcoin core na Testnet**
 
-Upewnij się, że C-Lightning może połączyć się z Bitcoin Core, dodając następujące linie:
+Upewnij się, że C-Lightning może połączyć się z Bitcoin core, dodając następujące linie:
 
 
 ```ini
@@ -772,7 +765,7 @@ sudo systemctl enable lightningd
 ```
 
 
-**Address Ścieżki plików i uprawnienia, szczególnie dla integracji z Tor**
+**Ścieżki i uprawnienia plików Address, szczególnie w przypadku integracji z Tor**
 
 Skonfiguruj ścieżki plików i uprawnienia, aby zapewnić płynne działanie, zwłaszcza jeśli korzystasz z Tora w celu zachowania prywatności.
 
@@ -791,7 +784,7 @@ proxy=127.0.0.1:9050
 ```
 
 
-**Backup HSM Secret for Fund Recovery**
+**Kopia zapasowa tajnego modułu HSM do odzyskiwania środków**
 
 Utwórz kopię zapasową tajnego modułu HSM w celu odzyskania środków.
 
@@ -801,7 +794,7 @@ sudo cp /var/lib/lightning/hsm_secret /path/to/secure/location
 ```
 
 
-**Testowanie połączeń i sprawdzanie stanu operacyjnego węzła**
+**Testowanie połączeń i sprawdzanie statusu operacyjnego węzła**
 
 Na koniec należy zweryfikować stan operacyjny węzła, testując połączenia i upewniając się, że wszystko działa zgodnie z oczekiwaniami.
 
@@ -811,13 +804,13 @@ lightning-cli getinfo
 ```
 
 
-Wykonując te kroki, będziesz mieć w pełni funkcjonalną konfigurację C-Lightning podłączoną do węzła Bitcoin Core, gotową do transakcji Testnet.
+Wykonując te kroki, będziesz mieć w pełni funkcjonalną konfigurację C-Lightning podłączoną do węzła Bitcoin core, gotową do transakcji Testnet.
 
 
 #### Wnioski i pytania
 
 
-Podsumowując, dzisiaj omówiliśmy najważniejsze kroki związane z ponowną instalacją Bitcoin Core, a następnie szczegółowo omówiliśmy instalację i konfigurację C-Lightning. Jeśli masz jakieś pytania, zadaj je teraz lub przygotuj się na dalsze wyjaśnienia w naszej następnej sesji. Pamiętaj, że praktyczne doświadczenie ma kluczowe znaczenie, więc użyj konfiguracji Testnet, którą omówiliśmy, aby uzyskać więcej informacji.
+Podsumowując, dzisiaj omówiliśmy podstawowe kroki związane z ponowną instalacją Bitcoin core, a następnie szczegółowo omówiliśmy instalację i konfigurację C-Lightning. Jeśli masz jakieś pytania, zadaj je teraz lub przygotuj się na dalsze wyjaśnienia w naszej następnej sesji. Pamiętaj, że praktyczne doświadczenie ma kluczowe znaczenie, więc użyj konfiguracji Testnet, którą omówiliśmy, aby uzyskać więcej informacji.
 
 
 ### Urządzenia zabezpieczające i sprzętowe
@@ -825,17 +818,16 @@ Podsumowując, dzisiaj omówiliśmy najważniejsze kroki związane z ponowną in
 
 :::video id=8b4baf24-1350-46b8-a87b-18678ed219ed:::
 
-
 ### Urządzenie Specter i Ledger
 
 
 #### Wprowadzenie
 
 
-Witamy w naszym wykładzie na temat bezpieczeństwa i konfiguracji urządzeń dla Bitcoin. Dziś skupimy się na zrozumieniu wykorzystania narzędzi bezpieczeństwa, w szczególności Specter desktop Wallet i Ledger Hardware Wallet, oraz na tym, jak skutecznie je skonfigurować w celu zwiększenia bezpieczeństwa Bitcoin.
+Witamy w naszym wykładzie na temat bezpieczeństwa i konfiguracji urządzeń dla Bitcoin. Dzisiaj skupimy się na zrozumieniu wykorzystania narzędzi bezpieczeństwa, w szczególności Specter desktop Wallet i Ledger Hardware Wallet, oraz na tym, jak skutecznie je skonfigurować w celu zwiększenia bezpieczeństwa Bitcoin.
 
 
-**Narzędzia: Specter Desktop Wallet i Ledger Emulator**
+**Narzędzia: Specter desktop Wallet i emulator Ledger**
 
 
 Specter to desktopowy Wallet zaprojektowany w celu ułatwienia tworzenia i zarządzania portfelami Bitcoin, w szczególności tymi wykorzystującymi urządzenia sprzętowe. Do naszej demonstracji wykorzystamy emulator Ledger, który naśladuje funkcjonalność Ledger Hardware Wallet.
@@ -847,7 +839,7 @@ Specter to desktopowy Wallet zaprojektowany w celu ułatwienia tworzenia i zarz�
 Urządzenie Ledger, popularne Hardware Wallet, jest znane ze swoich solidnych zabezpieczeń. Jednak firma stojąca za Ledger stanęła w obliczu kontroli z powodu różnych kontrowersji dotyczących prywatności danych użytkowników. Zrozumienie różnicy między fizycznym bezpieczeństwem urządzenia a praktykami firmy ma kluczowe znaczenie dla świadomego użytkowania.
 
 
-**Modele bezpieczeństwa: Znaczenie portfeli multi-sig i zróżnicowanego sprzętu**
+**Modele bezpieczeństwa: znaczenie portfeli multi-sig i zróżnicowanego sprzętu**
 
 
 Kluczowym aspektem bezpieczeństwa Bitcoin jest wykorzystanie portfeli z wieloma podpisami (multi-sig). Portfele multi-sig wymagają wielu kluczy prywatnych do autoryzacji transakcji, co znacznie zwiększa bezpieczeństwo. Ponadto korzystanie z różnych typów portfeli sprzętowych dywersyfikuje ryzyko i wzmacnia model bezpieczeństwa.
@@ -862,28 +854,28 @@ Kluczowym aspektem bezpieczeństwa Bitcoin jest wykorzystanie portfeli z wieloma
 Pierwszym krokiem w procesie instalacji jest pobranie Specter z oficjalnego repozytorium. Ważne jest, aby zweryfikować integralność pobranego pliku, aby uniknąć zainfekowanego oprogramowania. Po pobraniu zainstaluj Specter na pulpicie i uruchom aplikację.
 
 
-**Konfiguracja Spectera do połączenia z serwerami Bitcoin Core lub Electrum**
+**Konfiguracja Spectera do połączenia z serwerami Bitcoin core lub Electrum**
 
 
-Aby skonfigurować Specter, należy podłączyć go do serwera Bitcoin Core lub Electrum. Serwery te zapewniają niezbędne dane Blockchain dla operacji Wallet. Konfiguracja obejmuje ustawienie serwera Address w ustawieniach Spectera i zapewnienie stabilnego połączenia.
+Aby skonfigurować Specter, należy podłączyć go do serwera Bitcoin core lub Electrum. Serwery te zapewniają niezbędne dane Blockchain dla operacji Wallet. Konfiguracja obejmuje ustawienie serwera Address w ustawieniach Spectera i zapewnienie stabilnego połączenia.
 
 
-**Wyjaśnienie ścieżek derywacji i odzyskiwania klucza publicznego**
+**Wyjaśnienie ścieżek derywacji i pobierania kluczy publicznych**
 
 
-Zrozumienie ścieżek derywacji jest niezbędne do zarządzania Wallet. Ścieżki pochodne definiują sposób generowania kluczy z klucza głównego. W Specter można pobrać klucze publiczne, podłączając Hardware Wallet (lub emulator) i przechodząc przez Wallet Interface. Upewnij się, że udokumentowałeś te ścieżki do wykorzystania w przyszłości.
+Zrozumienie ścieżek derywacji jest niezbędne do zarządzania Wallet. Ścieżki pochodne definiują sposób generowania kluczy z klucza głównego. W Specter można pobrać klucze publiczne, podłączając Hardware Wallet (lub emulator) i nawigując przez Wallet Interface. Upewnij się, że udokumentowałeś te ścieżki do wykorzystania w przyszłości.
 
 
 **Praktyczna demonstracja: Korzystanie z emulatora Ledger**
 
 
-Teraz użyjemy emulatora Ledger do pobrania kluczy. Wymaga to podłączenia emulatora do Spectera, przejścia do sekcji zarządzania kluczami i wybrania odpowiednich kluczy do utworzenia Wallet.
+Teraz użyjemy emulatora Ledger do pobrania kluczy. Polega to na podłączeniu emulatora do Spectera, przejściu do sekcji zarządzania kluczami i wybraniu odpowiednich kluczy do utworzenia Wallet.
 
 
 **Tworzenie i zarządzanie portfelami w Specter**
 
 
-Tworzenie Wallet w Specter jest proste. Uzyskaj dostęp do Interface tworzenia Wallet, wprowadź niezbędne szczegóły i dołącz pobrane klucze publiczne. Po utworzeniu możesz zarządzać Wallet, monitorować transakcje i zapewnić solidne praktyki bezpieczeństwa.
+Tworzenie Wallet w Specter jest proste. Uzyskaj dostęp do tworzenia Wallet Interface, wprowadź niezbędne szczegóły i dołącz pobrane klucze publiczne. Po utworzeniu możesz zarządzać Wallet, monitorować transakcje i zapewnić solidne praktyki bezpieczeństwa.
 
 
 **Odbieranie i monitorowanie transakcji**
@@ -895,13 +887,13 @@ Po skonfigurowaniu Wallet odbieranie transakcji jest tak proste, jak udostępnia
 ### Konfiguracje zaawansowane
 
 
-**Konfiguracja Remote Specter daemon**
+**Konfiguracja zdalnego Specter daemon**
 
 
 Dla zaawansowanych użytkowników skonfigurowanie zdalnego Specter daemon może zwiększyć dostępność i bezpieczeństwo. Obejmuje to skonfigurowanie zdalnego serwera do uruchamiania zaplecza Specter, umożliwiając bezpieczny dostęp z różnych urządzeń.
 
 
-**Włącz Tor dla prywatności**
+**Włączenie Tora dla prywatności**
 
 
 Aby zwiększyć prywatność, zaleca się skonfigurowanie Spectera do korzystania z sieci Tor. Tor anonimizuje ruch sieciowy, chroniąc adres IP Address przed potencjalną inwigilacją. Jest to szczególnie ważne dla użytkowników dbających o prywatność i bezpieczeństwo.
@@ -913,16 +905,16 @@ Aby zwiększyć prywatność, zaleca się skonfigurowanie Spectera do korzystani
 Podczas łączenia się ze zdalnymi węzłami należy upewnić się, że połączenie jest bezpieczne. Wiąże się to z użyciem certyfikatów SSL/TLS i weryfikacją autentyczności węzła. Bezpieczne połączenia zapobiegają atakom typu man-in-the-middle i zapewniają integralność danych.
 
 
-**Problemy z debugowaniem: Praktyczne techniki**
+**Zagadnienia związane z debugowaniem: praktyczne techniki**
 
 
-Napotkanie problemów jest nieuniknione. Praktyczne debugowanie obejmuje sprawdzanie uprawnień użytkowników, weryfikację dostępu do katalogu danych i sprawdzanie dzienników pod kątem błędów. Na przykład upewnij się, że Specter ma niezbędne uprawnienia dostępu do katalogu danych Bitcoin Core, aby uniknąć zakłóceń w działaniu.
+Napotkanie problemów jest nieuniknione. Praktyczne debugowanie obejmuje sprawdzanie uprawnień użytkowników, weryfikację dostępu do katalogu danych i sprawdzanie dzienników pod kątem błędów. Na przykład upewnij się, że Specter ma niezbędne uprawnienia dostępu do katalogu danych Bitcoin core, aby uniknąć zakłóceń w działaniu.
 
 
-**Przykładowy problem: Dostęp do katalogu danych**
+**Przykładowy problem: dostęp do katalogu danych**
 
 
-Częstym problemem jest nieprawidłowy dostęp do katalogu danych. Sprawdź, czy ścieżka do katalogu danych Bitcoin Core jest poprawnie ustawiona w konfiguracji Specter. Zapewni to Specter dostęp do niezbędnych danych Blockchain dla operacji Wallet.
+Częstym problemem jest nieprawidłowy dostęp do katalogu danych. Sprawdź, czy ścieżka do katalogu danych Bitcoin core jest poprawnie ustawiona w konfiguracji Specter. Zapewni to Specter dostęp do niezbędnych danych Blockchain dla operacji Wallet.
 
 
 **Kolejne kroki i integracja**
@@ -931,7 +923,7 @@ Częstym problemem jest nieprawidłowy dostęp do katalogu danych. Sprawdź, czy
 Podsumowując, kolejne kroki obejmują integrację Spectera z Lightning Network. Umożliwia to wysyłanie środków ze Spectera do węzła Lightning, ułatwiając szybsze i tańsze transakcje. Przyszłe lekcje szczegółowo omówią tę integrację, zwiększając możliwości transakcji Bitcoin.
 
 
-**Zmienność taktowania bloku**
+**Zmienność czasu blokady**
 
 
 Zrozumienie zmienności czasu bloków ma kluczowe znaczenie. Bloki Bitcoin mogą być wydobywane w różnych odstępach czasu, wpływając na czas potwierdzenia transakcji. Ta zmienność musi być uwzględniona we wszystkich konfiguracjach i operacjach Wallet.
@@ -943,13 +935,13 @@ Zrozumienie zmienności czasu bloków ma kluczowe znaczenie. Bloki Bitcoin mogą
 Aby uzyskać dodatkową wiedzę, warto rozważyć zasoby takie jak "Mastering the Lightning Network" i samouczki Rusty'ego Russella. Materiały te zapewniają dogłębną wiedzę na temat węzłów Lightning i zaawansowanych konfiguracji Bitcoin.
 
 
-**Instalacja węzła i bezpieczeństwo Tora**
+**Instalacja węzła i bezpieczeństwo Tor**
 
 
 Instalowanie węzłów, zarówno lokalnie, jak i zdalnie, przynosi korzyści z używania Tora w celu zwiększenia bezpieczeństwa. Uruchomienie własnego węzła zapewnia osobistą walidację transakcji, zwiększając bezpieczeństwo i prywatność.
 
 
-**Filozofia: Samowystarczalność w uczeniu się**
+**Filozofia: samowystarczalność w nauce**
 
 
 Wyznaj filozofię samowystarczalności. Umiejętności praktyczne i samokształcenie są najważniejsze, często przewyższając korzyści płynące z formalnej edukacji. Zaangażuj się w praktyczne praktyki, aby pogłębić swoje zrozumienie bezpieczeństwa Bitcoin.
@@ -975,11 +967,10 @@ Na tym kończymy nasz wykład na temat bezpieczeństwa i konfiguracji urządzeń
 
 :::video id=6d771eca-3f53-493d-8937-db6ddb2cf172:::
 
-
 W ciągu ponad dekady Bitcoin udowodnił, że jest innowacją transformacyjną w świecie finansów, z powodzeniem działającą na skalę globalną i otwierającą nowe możliwości w gospodarce cyfrowej. Wciąż jednak stoi przed wyzwaniami, które wymagają kreatywnych i opartych na współpracy rozwiązań. Ciągła ewolucja Bitcoin stanowi wyjątkową okazję dla osób zainteresowanych kształtowaniem przyszłości zdecentralizowanych finansów.
 
 
-![Image](assets/en/1/8.webp)
+![Image](assets/en/006.webp)
 
 
 #### Otwarte problemy z użytecznością Bitcoin
@@ -1012,16 +1003,16 @@ Prywatność jest kolejną krytyczną kwestią w ekosystemie Bitcoin. Chociaż p
 Elastyczność w ramach protokołu Bitcoin jest niezbędna do wspierania poprawy prywatności, bezpieczeństwa i skalowalności. Jednak zbyt duża elastyczność może stać się podatnością, potencjalnie służąc jako wektor ataku i zagrażając decentralizacji sieci. Osiągnięcie właściwej równowagi ma kluczowe znaczenie dla utrzymania integralności i odporności protokołu Bitcoin.
 
 
-### Kompromisy w ulepszaniu Bitcoin
+### Kompromisy związane z ulepszaniem Bitcoin
 
 
 #### Użyteczność a bezpieczeństwo i prywatność
 
 
-![Image](assets/en/1/7.webp)
+![Image](assets/en/007.webp)
 
 
-Wysiłki mające na celu zwiększenie użyteczności Bitcoin często odbywają się kosztem bezpieczeństwa i prywatności. Przykładowo, przyjazne dla użytkownika portfele powiernicze, takie jak Wallet z Satoshi, zapewniają dostęp do Interface, ale w znacznym stopniu naruszają bezpieczeństwo i prywatność. Uproszczone systemy mogą zwiększyć użyteczność, ale mogą prowadzić do takich kwestii, jak ponowne wykorzystanie Address, co narusza prywatność. W związku z tym wszelkie ulepszenia użyteczności muszą być starannie rozważone pod kątem potencjalnych kompromisów w zakresie bezpieczeństwa i prywatności.
+Wysiłki mające na celu zwiększenie użyteczności Bitcoin często odbywają się kosztem bezpieczeństwa i prywatności. Na przykład, przyjazne dla użytkownika portfele powiernicze, takie jak Wallet z Satoshi, zapewniają dostęp do Interface, ale w znacznym stopniu naruszają bezpieczeństwo i prywatność. Uproszczone systemy mogą zwiększyć użyteczność, ale mogą prowadzić do takich kwestii jak ponowne wykorzystanie Address, co narusza prywatność. Dlatego też wszelkie ulepszenia użyteczności muszą być starannie rozważone pod kątem potencjalnych kompromisów w zakresie bezpieczeństwa i prywatności.
 
 
 #### Kompromisy między skalowalnością a prywatnością
@@ -1063,16 +1054,16 @@ Ograniczenie ryzyka związanego z dystrybucją Hardware Wallet i zapewnienie ich
 Uproszczenie interakcji użytkownika z Bitcoin i Lightning Network przy jednoczesnym zachowaniu bezpieczeństwa i wydajności jest kluczowym celem. Lepsze abstrakcje UX mogą sprawić, że Bitcoin będzie bardziej dostępny dla użytkowników nietechnicznych, sprzyjając szerszej adopcji bez uszczerbku dla bezpieczeństwa.
 
 
-Tworzenie materiałów edukacyjnych w celu poprawy użyteczności, bezpieczeństwa i prywatności Bitcoin jest bardzo ważne. Edukacja użytkowników w zakresie najlepszych praktyk i podstawowych zasad Bitcoin może umożliwić im podejmowanie świadomych decyzji i poprawić ich ogólne wrażenia z korzystania z sieci.
+Tworzenie materiałów edukacyjnych w celu poprawy użyteczności, bezpieczeństwa i prywatności Bitcoin jest bardzo ważne. Edukowanie użytkowników w zakresie najlepszych praktyk i podstawowych zasad Bitcoin może umożliwić im podejmowanie świadomych decyzji i poprawić ich ogólne wrażenia z korzystania z sieci.
 
 
-![Image](assets/en/1/3.webp)
+![Image](assets/en/008.webp)
 
 
-**Zmiany Layer 1 i Layer 2**
+**Zmiany w Layer 1 i Layer 2**
 
 
-Innowacje w bazowym Layer (Layer 1) są wyzwaniem, ale mają kluczowe znaczenie dla długoterminowej ewolucji Bitcoin. Rozwiązania Layer 2, takie jak Lightning Network, pozwalają na bardziej eksperymentalne zmiany i mogą bardziej elastycznie uwzględniać kwestie skalowalności i prywatności. Obie warstwy odgrywają kluczową rolę w ciągłym rozwoju Bitcoin.
+Innowacje w bazowym Layer (Layer 1) stanowią wyzwanie, ale mają kluczowe znaczenie dla długoterminowej ewolucji Bitcoin. Rozwiązania Layer 2, takie jak Lightning Network, pozwalają na bardziej eksperymentalne zmiany i mogą bardziej elastycznie skalować Address i kwestie prywatności. Obie warstwy odgrywają kluczową rolę w ciągłym rozwoju Bitcoin.
 
 
 **Koordynacja konsensusu**
@@ -1106,7 +1097,6 @@ Podsumowując, ciągłe rozwiązywanie tych otwartych problemów i wprowadzanie 
 
 :::video id=08101af2-1ded-4f3a-b1db-d4477c6ab63e:::
 
-
 Witamy na dzisiejszym wykładzie na temat **Bezpieczeństwa i niezawodności**. Naszym celem jest zbadanie zniuansowanego związku między tymi dwoma podstawowymi aspektami projektowania i stosowania systemów w rzeczywistych scenariuszach.
 
 
@@ -1128,7 +1118,7 @@ Chociaż zarówno bezpieczeństwo, jak i niezawodność mają na celu utrzymanie
 Kwintesencję inżynierii niezawodności można prześledzić wstecz do XVIII wieku wraz z budową mostu. Jakość użytej stali, w tym jej skład i proces produkcji, miały decydujący wpływ na niezawodność mostu. Inżynierowie musieli wziąć pod uwagę pojedyncze punkty awarii i wykorzystać prawdopodobieństwo oraz statystyki do oceny i zapewnienia niezawodności mostu w czasie.
 
 
-![Image](assets/en/2/1.webp)
+![Image](assets/en/009.webp)
 
 
 W przeciwieństwie do niezawodności, bezpieczeństwo dotyczy celowych zagrożeń. Przykładowo, 256-bitowy klucz kryptograficzny stanowi matematyczną gwarancję bezpieczeństwa ze względu na brak możliwości jego brutalnego sforsowania. Środki bezpieczeństwa muszą uwzględniać różne modele zagrożeń, od fizycznej ingerencji po wyrafinowane cyberataki.
@@ -1137,16 +1127,16 @@ W przeciwieństwie do niezawodności, bezpieczeństwo dotyczy celowych zagroże�
 ### Aplikacje w świecie rzeczywistym
 
 
-Rozważmy proces tworzenia i przechowywania kluczy Bitcoin przy użyciu portfeli papierowych. Portfele papierowe mogą być bezpieczne, ale są podatne na uszkodzenia fizyczne i manipulacje. Zapewnienie integralności takich portfeli wymaga metod umożliwiających identyfikację manipulacji i solidnych protokołów weryfikacji.
+Rozważmy proces tworzenia i przechowywania kluczy Bitcoin przy użyciu portfeli papierowych. Portfele papierowe mogą być bezpieczne, ale są podatne na uszkodzenia fizyczne i manipulacje. Zapewnienie integralności takich portfeli wymaga metod identyfikacji manipulacji i solidnych protokołów weryfikacji.
 
 
 W innym scenariuszu, wyobraźmy sobie odbiór z lotniska, gdzie kierowca używa tajnego kodu do uwierzytelnienia pasażera. Ten prosty, ale skuteczny środek bezpieczeństwa uniemożliwia oszustom oszukanie obu stron.
 
 
-W Gwatemali znaczniki czasu wyników wyborów odegrały kluczową rolę w zapewnieniu integralności procesu wyborczego. Wykorzystując metody kryptograficzne do Timestamp danych, urzędnicy wyborczy mogli zapewnić dowód autentyczności wyników, odstraszając potencjalnych manipulatorów kierujących się znacznymi zachętami finansowymi.
+W Gwatemali oznaczanie czasu wyników wyborów odegrało kluczową rolę w zapewnieniu integralności procesu wyborczego. Wykorzystując metody kryptograficzne do Timestamp danych, urzędnicy wyborczy mogli zapewnić dowód autentyczności wyników, odstraszając potencjalnych manipulatorów kierujących się znacznymi zachętami finansowymi.
 
 
-![Image](assets/en/2/2.webp)
+![Image](assets/en/010.webp)
 
 
 ### Identyfikacja i łagodzenie potencjalnych zagrożeń
@@ -1204,7 +1194,6 @@ Podsumowując, zrozumienie i integracja zasad bezpieczeństwa i niezawodności s
 
 :::video id=4544ef7a-685e-4aaf-98a0-8a10dce06172:::
 
-
 Korzystanie z wolnego i otwartego oprogramowania (FLOSS) ma kluczowe znaczenie w ekosystemie Bitcoin. Peter Todd bada znaczenie FLOSS dla Bitcoin, badając historię FLOSS i sprawdzając, w jaki sposób Github pozwala nam wspólnie budować oprogramowanie open source, takie jak Bitcoin.
 
 
@@ -1232,25 +1221,25 @@ Ruch Wolnego Oprogramowania ma swoje korzenie we wczesnych latach 80-tych XX wie
 Jednym ze znaczących wkładów Stallmana był rozwój projektu GNU, mającego na celu stworzenie wolnego systemu operacyjnego podobnego do Uniksa. GNU, co jest skrótem od "GNU's Not Unix", zapewniało wiele istotnych elementów w pełni wolnego systemu operacyjnego. Brakowało mu jednak jądra, głównej części systemu operacyjnego.
 
 
-Lukę tę wypełniło stworzenie jądra Linux przez Linusa Torvaldsa w 1991 roku. Jądro Torvaldsa, w połączeniu z komponentami GNU, zaowocowało w pełni funkcjonalnym wolnym systemem operacyjnym znanym jako GNU/Linux. Ta współpraca między filozoficznym Commitment Stallmana na rzecz wolności oprogramowania a praktycznym wkładem Torvaldsa stanowi przykład potęgi podejścia open source.
+Lukę tę wypełniło stworzenie jądra Linux przez Linusa Torvaldsa w 1991 roku. Jądro Torvaldsa, w połączeniu z komponentami GNU, zaowocowało w pełni funkcjonalnym wolnym systemem operacyjnym znanym jako GNU/Linux. Ta współpraca między filozoficznym Commitment Stallmana na rzecz wolności oprogramowania i praktycznym wkładem Torvaldsa stanowi przykład siły podejścia open source.
 
 
-![Image](assets/en/2/3.webp)
+![Image](assets/en/011.webp)
 
 
 Ruch Wolnego Oprogramowania wywarł głęboki wpływ na branżę oprogramowania, promując ideę, że oprogramowanie powinno być wolne dla wszystkich do użytku, modyfikowania i udostępniania. Jego zasady położyły podwaliny pod wiele projektów i społeczności open-source, które kwitną do dziś.
 
 
-### Ekonomia i finansowanie w Open Source
+### Ekonomia i finansowanie w open source
 
 
 Finansowanie i utrzymanie projektów open-source wiąże się z wyjątkowymi wyzwaniami i możliwościami. W przeciwieństwie do oprogramowania własnościowego, które generuje przychody ze sprzedaży i opłat licencyjnych, projekty open source często opierają się na alternatywnych modelach finansowania.
 
 
-Jednym z udanych przykładów jest Bitcoin Core, krytyczna część infrastruktury Bitcoin. Deweloperzy pracujący nad Bitcoin Core są często finansowani z grantów, darowizn i sponsoringu organizacji, które czerpią korzyści z sukcesu projektu. Model ten pozwala programistom skupić się na ulepszaniu oprogramowania bez ograniczeń związanych z tradycyjnym finansowaniem komercyjnym.
+Jednym z udanych przykładów jest Bitcoin core, krytyczna część infrastruktury Bitcoin. Deweloperzy pracujący nad Bitcoin core są często finansowani z grantów, darowizn i sponsoringu organizacji, które czerpią korzyści z sukcesu projektu. Model ten pozwala deweloperom skupić się na ulepszaniu oprogramowania bez ograniczeń związanych z tradycyjnym finansowaniem komercyjnym.
 
 
-![Image](assets/en/2/4.webp)
+![Image](assets/en/012.webp)
 
 
 Innym ważnym przykładem jest system operacyjny Linux. Wiele firm, takich jak IBM, Red Hat i Intel, przyczynia się do rozwoju Linuksa, ponieważ ich produkty i usługi zależą od solidnego i bezpiecznego systemu operacyjnego. Firmy te zapewniają wsparcie finansowe, udostępniają kod i oferują zasoby w celu utrzymania i ulepszania ekosystemu Linuksa.
@@ -1259,7 +1248,7 @@ Innym ważnym przykładem jest system operacyjny Linux. Wiele firm, takich jak I
 Licencje open-source, takie jak MIT, GPL i AGPL, również odgrywają kluczową rolę w dynamice ekonomicznej oprogramowania open-source. Licencje zezwalające, takie jak MIT, pozwalają na bardziej elastyczne wykorzystanie kodu, w tym komercjalizację. Z kolei licencje typu copyleft, takie jak GPL, zapewniają, że wszelkie prace pochodne muszą być również open-source, wspierając środowisko współpracy.
 
 
-![Image](assets/en/2/5.webp)
+![Image](assets/en/013.webp)
 
 
 Podsumowując, ekonomia oprogramowania open-source jest napędzana przez wkład społeczności, sponsoring korporacyjny i innowacyjne modele finansowania. Mechanizmy te zapewniają trwałość i ciągłe doskonalenie projektów open-source, przynosząc korzyści zarówno deweloperom, jak i użytkownikom.
@@ -1275,41 +1264,40 @@ Podsumowując, ekonomia oprogramowania open-source jest napędzana przez wkład 
 
 :::video id=b482b0f0-4468-4eaf-bcd6-eb4748bdfa3a:::
 
-
-Witamy! Dzisiaj zagłębimy się w kluczowe aspekty kryptografii, które każdy programista Bitcoin powinien znać. Skupimy się na podstawowych koncepcjach i praktycznych zastosowaniach, nie przytłaczając cię nadmiarem teoretycznych szczegółów. Głównym celem jest wyposażenie cię w wiedzę pozwalającą na skuteczne zrozumienie, implementację i rozwiązywanie problemów związanych z mechanizmami kryptograficznymi w Bitcoin.
-
-
-### Podstawowe koncepcje kryptograficzne dla programistów Bitcoin
+Witamy! Dzisiaj zagłębimy się w kluczowe aspekty kryptografii, które każdy programista Bitcoin powinien znać. Skupimy się na podstawowych koncepcjach i praktycznych zastosowaniach bez przytłaczania nadmierną ilością teoretycznych szczegółów. Głównym celem jest wyposażenie cię w wiedzę, która pozwoli ci zrozumieć, wdrożyć i skutecznie rozwiązywać problemy związane z mechanizmami kryptograficznymi w Bitcoin.
 
 
-W tej sekcji zagłębimy się w kluczowe koncepcje kryptograficzne istotne dla deweloperów Bitcoin, w tym funkcje Hash, drzewa Merkle'a, podpisy cyfrowe i krzywe eliptyczne.
+### Podstawowe koncepcje kryptograficzne dla deweloperów Bitcoin
 
 
-![Image](assets/en/2/6.webp)
+W tej sekcji zagłębimy się w kluczowe koncepcje kryptograficzne niezbędne dla programistów Bitcoin, w tym funkcje Hash, drzewa Merkle'a, podpisy cyfrowe i krzywe eliptyczne.
+
+
+![Image](assets/en/014.webp)
 
 
 **Funkcje Hash**: Funkcja Hash pobiera dane wejściowe i tworzy ciąg bajtów o stałej długości. W Bitcoin funkcje Hash mają fundamentalne znaczenie dla integralności i bezpieczeństwa danych. Kryptograficzne funkcje Hash muszą być wydajne, generate pozornie losowe i generować wyjścia o stałej długości niezależnie od rozmiaru danych wejściowych. Są one używane do sprawdzania integralności plików, zapewniając, że dane nie zostały zmienione w złośliwy sposób.
 
 
-![Image](assets/en/2/7.webp)
+![Image](assets/en/015.webp)
 
 
-**Właściwości bezpieczeństwa**: Funkcje kryptograficzne Hash muszą spełniać kilka właściwości bezpieczeństwa. Odporność na obraz wstępny zapewnia, że inżynieria wsteczna oryginalnych danych wejściowych z danych wyjściowych Hash jest obliczeniowo niewykonalna. Druga odporność na obraz wstępny oznacza, że powinno być trudno znaleźć inne dane wejściowe, które dadzą ten sam wynik Hash. Odporność na kolizje zapewnia, że znalezienie dwóch różnych danych wejściowych, które dają ten sam wynik Hash, jest mało prawdopodobne.
+**Właściwości bezpieczeństwa**: Funkcje kryptograficzne Hash muszą być zgodne z kilkoma właściwościami bezpieczeństwa. Odporność na obraz wstępny zapewnia, że inżynieria wsteczna oryginalnego wejścia z wyjścia Hash jest obliczeniowo niewykonalna. Druga odporność na obraz wstępny oznacza, że powinno być trudno znaleźć inne dane wejściowe, które dadzą ten sam wynik Hash. Odporność na kolizje zapewnia, że znalezienie dwóch różnych danych wejściowych, które dają ten sam wynik Hash, jest mało prawdopodobne.
 
 
-**Drzewa Merkle'a**: Merkle Tree to struktura danych, która umożliwia wydajną i bezpieczną weryfikację dużych zbiorów danych. Elementy danych są hashowane parami, a wynikowe hashe są łączone iteracyjnie w celu utworzenia pojedynczego korzenia Hash. W Bitcoin drzewa Merkle mają kluczowe znaczenie w tworzeniu bloków i weryfikacji transakcji, szczególnie dla klientów uproszczonej weryfikacji płatności (SPV) oraz w Taproot (Mast).
+**Drzewa Merkle**: Merkle Tree to struktura danych, która umożliwia wydajną i bezpieczną weryfikację dużych zbiorów danych. Elementy danych są hashowane parami, a wynikowe hashe są łączone iteracyjnie w celu utworzenia pojedynczego korzenia Hash. W Bitcoin drzewa Merkle mają kluczowe znaczenie w tworzeniu bloków i weryfikacji transakcji, szczególnie dla klientów uproszczonej weryfikacji płatności (SPV) oraz w Taproot (Mast).
 
 
-![Image](assets/en/2/8.webp)
+![Image](assets/en/016.webp)
 
 
-**Podpisy cyfrowe (ECDSA)**: Algorytm podpisu cyfrowego z krzywą eliptyczną (ECDSA) służy do zapewnienia autentyczności i integralności transakcji Bitcoin. Obejmuje on generowanie podpisu przy użyciu klucza prywatnego, który można zweryfikować za pomocą odpowiedniego klucza publicznego. Kluczowe pojęcia obejmują zrozumienie pól skończonych, logarytmów dyskretnych i znaczenia nonces.
+**Podpisy cyfrowe (ECDSA)**: Algorytm podpisu cyfrowego z krzywą eliptyczną (ECDSA) służy do zapewnienia autentyczności i integralności transakcji Bitcoin. Obejmuje on generowanie podpisu przy użyciu klucza prywatnego, który można zweryfikować przy użyciu odpowiedniego klucza publicznego. Kluczowe pojęcia obejmują zrozumienie pól skończonych, logarytmów dyskretnych i znaczenia nonces.
 
 
 **Krzywe eliptyczne**: Krzywe eliptyczne są wykorzystywane w kryptografii klucza publicznego ze względu na ich wydajność i bezpieczeństwo. Bezpieczeństwo kryptografii krzywych eliptycznych opiera się na trudności rozwiązania problemu logarytmu dyskretnego.
 
 
-![Image](assets/en/2/9.webp)
+![Image](assets/en/017.webp)
 
 
 ### Praktyczne zastosowania kryptograficzne i praktyki bezpieczeństwa w Bitcoin
@@ -1318,19 +1306,19 @@ W tej sekcji zagłębimy się w kluczowe koncepcje kryptograficzne istotne dla d
 W tej sekcji zbadamy zastosowanie tych koncepcji w rzeczywistym rozwoju Bitcoin i najlepszych praktykach bezpieczeństwa, których należy przestrzegać.
 
 
-**Kryptografia = Niebezpieczeństwo**: Kryptografia to miecz obosieczny. Podczas gdy chroni przed przypadkowym uszkodzeniem danych i złośliwymi działaniami, nieprawidłowa implementacja może prowadzić do poważnych luk w zabezpieczeniach. Programiści muszą dogłębnie zrozumieć mechanizmy kryptograficzne, aby zapewnić zarówno bezpieczną implementację, jak i możliwość rozwiązywania potencjalnych problemów. Przykładowo, 256-bitowe wyjście SHA-2 zapewnia, że ataki preimage wymagają około 2^256 pracy, a odporność na kolizje około 2^128 pracy.
+**Kryptografia = niebezpieczeństwo**: Kryptografia to miecz obosieczny. Podczas gdy chroni przed przypadkowym uszkodzeniem danych i złośliwymi działaniami, nieprawidłowa implementacja może prowadzić do poważnych luk w zabezpieczeniach. Programiści muszą dogłębnie zrozumieć mechanizmy kryptograficzne, aby zapewnić zarówno bezpieczną implementację, jak i możliwość rozwiązywania potencjalnych problemów. Przykładowo, 256-bitowe wyjście SHA-2 zapewnia, że ataki preimage wymagają około 2^256 pracy, a odporność na kolizje około 2^128 pracy.
 
 
-![Image](assets/en/2/10.webp)
+![Image](assets/en/018.webp)
 
 
-**Zastosowania Merkle Tree**: Zrozumienie logarytmicznego rozmiaru dowodu i zapewnienie starannego projektu drzewa jest niezbędne, aby uniknąć wad, takich jak powielanie Hash w weryfikacji transakcji. Drzewa Merkle'a są wykorzystywane do tworzenia bloków, weryfikacji transakcji i ulepszeń, takich jak Taproot.
+**Zastosowania Merkle Tree**: Zrozumienie logarytmicznego rozmiaru dowodu i zapewnienie starannego projektu drzewa ma zasadnicze znaczenie dla uniknięcia wad, takich jak powielanie Hash w weryfikacji transakcji. Drzewa Merkle'a są wykorzystywane do tworzenia bloków, weryfikacji transakcji i ulepszeń, takich jak Taproot.
 
 
 **Kryptografia klucza publicznego**: Logarytmy dyskretne i pola skończone mają fundamentalne znaczenie w obliczeniach kryptograficznych w Bitcoin. Protokoły typu wyzwanie-odpowiedź są używane do weryfikacji znajomości klucza prywatnego bez ujawniania go.
 
 
-![Image](assets/en/2/11.webp)
+![Image](assets/en/019.webp)
 
 
 **Wpływ na bezpieczeństwo**: Historyczne przykłady pokazują znaczne straty finansowe spowodowane ponownym użyciem Nonce. Zrozumienie znaczenia generowania unikalnych nonces jest kluczowe. Korzystanie z zaufanych bibliotek, takich jak LibSecP256k1, zapewnia solidne i bezpieczne operacje kryptograficzne.
@@ -1348,7 +1336,7 @@ W tej sekcji zbadamy zastosowanie tych koncepcji w rzeczywistym rozwoju Bitcoin 
 #### Wnioski
 
 
-W tym wykładzie zbadaliśmy podstawowe koncepcje kryptograficzne, które stanowią podstawę bezpieczeństwa i funkcjonalności Bitcoin. Od krytycznej roli funkcji Hash, drzew Merkle'a i podpisów cyfrowych po skomplikowaną matematykę kryptografii krzywych eliptycznych, te Elements tworzą kręgosłup zdecentralizowanej sieci Bitcoin. Zrozumienie tych pojęć to nie tylko zrozumienie teorii - chodzi o rozpoznanie praktycznych implikacji i potencjalnych pułapek w rzeczywistym rozwoju.
+W tym wykładzie zbadaliśmy podstawowe koncepcje kryptograficzne, które stanowią podstawę bezpieczeństwa i funkcjonalności Bitcoin. Od krytycznej roli funkcji Hash, drzew Merkle'a i podpisów cyfrowych po skomplikowaną matematykę kryptografii krzywych eliptycznych, te Elements tworzą szkielet zdecentralizowanej sieci Bitcoin. Zrozumienie tych pojęć to nie tylko zrozumienie teorii - chodzi o rozpoznanie praktycznych implikacji i potencjalnych pułapek w rzeczywistym rozwoju.
 
 
 Jako deweloperzy Bitcoin musimy podchodzić do implementacji kryptograficznych z ostrożnością i precyzją. Bezpieczeństwo sieci Bitcoin zależy w dużej mierze od prawidłowego i bezpiecznego stosowania tych zasad kryptograficznych. Niezależnie od tego, czy weryfikujesz transakcje, projektujesz nowe funkcje, czy zapewniasz integralność Blockchain, dogłębna znajomość kryptografii umożliwi Ci tworzenie bardziej niezawodnych, bezpiecznych i innowacyjnych rozwiązań w ekosystemie Bitcoin.
@@ -1367,41 +1355,40 @@ Opanowując te koncepcje i przestrzegając najlepszych praktyk, będziesz dobrze
 
 :::video id=91a38c17-5801-4a5c-baf2-c9e4cc24fd84:::
 
-
 ### Charakter Bitcoin
 
 
-Bitcoin to cyfrowa waluta, która działa w oparciu o protokół konsensusu, czyli zestaw reguł uzgodnionych przez uczestników sieci w celu zapewnienia jednolitości i funkcjonalności. U podstaw Bitcoin leży zdecentralizowany Ledger znany jako Blockchain, w którym transakcje są rejestrowane i weryfikowane przez węzły sieci. Pełne węzły, które przechowują całą historię Bitcoin Blockchain, odgrywają kluczową rolę w utrzymaniu integralności tego Ledger. Inne typy węzłów, takie jak węzły archiwalne, węzły przycinane i węzły SPV (Simplified Payment Verification), również przyczyniają się do działania sieci na różne sposoby. Protokół konsensusu zapewnia, że wszystkie te węzły zgadzają się co do stanu Blockchain, dzięki czemu Bitcoin jest odporny na cenzurę i oszustwa.
+Bitcoin to cyfrowa waluta, która działa w oparciu o protokół konsensusu, czyli zestaw reguł uzgodnionych przez uczestników sieci w celu zapewnienia jednolitości i funkcjonalności. U podstaw Bitcoin leży zdecentralizowany Ledger znany jako Blockchain, w którym transakcje są rejestrowane i weryfikowane przez węzły sieci. Pełne węzły, które przechowują całą historię Bitcoin Blockchain, odgrywają kluczową rolę w utrzymaniu integralności tego Ledger. Inne typy węzłów, takie jak węzły archiwalne, węzły pruned i węzły SPV (Simplified Payment Verification), również przyczyniają się do działania sieci na różne sposoby. Protokół konsensusu zapewnia, że wszystkie te węzły zgadzają się co do stanu Blockchain, dzięki czemu Bitcoin jest odporny na cenzurę i oszustwa.
 
 
 #### Zapobieganie zmianom
 
 
-Zarządzanie w Bitcoin ma kluczowe znaczenie dla zapobiegania arbitralnym lub złośliwym zmianom w protokole. Osiąga się to poprzez mechanizm konsensusu, który wymaga szerokiej zgody wśród społeczności. Deweloperzy z wiedzą programistyczną odgrywają znaczącą rolę w proponowaniu zmian, ale zmiany te muszą zostać zaakceptowane przez szerszą społeczność, aby mogły zostać wdrożone.
+Zarządzanie w Bitcoin ma kluczowe znaczenie dla zapobiegania arbitralnym lub złośliwym zmianom w protokole. Osiąga się to poprzez mechanizm konsensusu, który wymaga szerokiego porozumienia wśród społeczności. Deweloperzy posiadający wiedzę programistyczną odgrywają znaczącą rolę w proponowaniu zmian, ale zmiany te muszą zostać zaakceptowane przez szerszą społeczność, aby mogły zostać wdrożone.
 
 
-Bitcoin Core i alternatywne implementacje mają opiekunów, którzy nadzorują rozwój i utrzymanie oprogramowania. Opiekunowie ci są odpowiedzialni za scalanie zmian w kodzie, zapewniając, że są one zgodne z zasadami konsensusu i nie wprowadzają luk w zabezpieczeniach.
+Bitcoin core i alternatywne implementacje mają opiekunów, którzy nadzorują rozwój i utrzymanie oprogramowania. Opiekunowie ci są odpowiedzialni za scalanie zmian w kodzie, zapewniając, że są one zgodne z zasadami konsensusu i nie wprowadzają luk w zabezpieczeniach.
 
 
-#### Widelce Soft vs Widelce Hard
+#### Widelce Soft vs widelce Hard
 
 
-Widełki Soft to zmiany, które zaostrzają istniejące zasady protokołu Bitcoin, sprawiając, że niektóre wcześniej ważne transakcje stają się nieważne. Są one kompatybilne wstecz, co oznacza, że niezaktualizowane węzły nadal będą rozpoznawać nowe zasady. Przykładem Soft Fork jest poprawka błędu przepełnienia z 2010 roku, która uniemożliwiła tworzenie pieniędzy z powietrza.
+Widełki Soft to zmiany, które zaostrzają istniejące zasady protokołu Bitcoin, czyniąc niektóre wcześniej ważne transakcje nieważnymi. Są one kompatybilne wstecz, co oznacza, że niezaktualizowane węzły nadal będą rozpoznawać nowe zasady. Przykładem Soft Fork jest poprawka błędu przepełnienia z 2010 roku, która uniemożliwiła tworzenie pieniędzy z powietrza.
 
 
 Widełki Hard to zmiany, które rozluźniają istniejące zasady, umożliwiając nowe typy transakcji. Nie są one kompatybilne wstecz, co oznacza, że niezaktualizowane węzły nie rozpoznają nowych zasad. Przykład Hard Fork może być potrzebny w przypadku problemu z rokiem 2106, aby zapewnić ciągłość działania Bitcoin po tej dacie.
 
 
-![Image](assets/en/2/12.webp)
+![Image](assets/en/020.webp)
 
 
-![Image](assets/en/2/13.webp)
+![Image](assets/en/021.webp)
 
 
 ### Przykłady zarządzania
 
 
-Kilka rzeczywistych przykładów ilustruje zarządzanie Bitcoin w akcji. Poprawka błędu przepełnienia w 2010 r. była Soft Fork, która dotyczyła krytycznej usterki. Problem roku 2106 będzie prawdopodobnie wymagał Hard Fork, aby Address jego implikacje. Przejście od najdłuższego łańcucha do łańcucha o największej liczbie zadań odzwierciedla istotną decyzję w zakresie zarządzania, która wpłynęła na sposób osiągania konsensusu.
+Kilka rzeczywistych przykładów ilustruje zarządzanie Bitcoin w akcji. Poprawka błędu przepełnienia w 2010 r. była Soft Fork, która dotyczyła krytycznej usterki. Problem z rokiem 2106 będzie prawdopodobnie wymagał Hard Fork do Address jego implikacji. Przejście z najdłuższego łańcucha do łańcucha o największej liczbie zadań odzwierciedla istotną decyzję w zakresie zarządzania, która wpłynęła na sposób osiągania konsensusu.
 
 
 Zarządzanie Bitcoin odnosi się również do rzeczywistych zmian w korzystaniu z protokołu. Na przykład wprowadzenie liczb porządkowych i napisów ilustruje, w jaki sposób zmiany w protokole mogą nie cenzurować transakcji. Podobnie, wdrożenie pełnego RBF (Replace-by-fee) zmieniło procedury zastępowania transakcji bez zmiany zasad konsensusu.
@@ -1425,7 +1412,7 @@ Uruchomione węzły mogą weryfikować reguły Bitcoin i uczestniczyć w sieci, 
 Debata na temat rozmiaru bloku była istotną kwestią zarządzania, obracającą się wokół tego, czy zwiększyć rozmiar bloku Bitcoin. Kontrowersja ta została rozwiązana dzięki wdrożeniu SegWit, Soft Fork, który zwiększył efektywny rozmiar bloku i umożliwił Lightning Network.
 
 
-![Image](assets/en/2/14.webp)
+![Image](assets/en/022.webp)
 
 
 ### Wymuszone zmiany i rządy większości
@@ -1434,7 +1421,7 @@ Debata na temat rozmiaru bloku była istotną kwestią zarządzania, obracając�
 Miały miejsce prawne próby zmuszenia deweloperów Bitcoin do zmiany zasad Blockchain dla osobistych korzyści, takie jak pozwy Craiga Wrighta. Próby te podkreślają wyzwania i kwestie etyczne związane z zarządzaniem Bitcoin.
 
 
-W Bitcoin zasada większości odgrywa kluczową rolę. Jeśli 60% górników przyjmie nową zasadę, ich bloki zostaną odrzucone przez tych, którzy prowadzą oryginalny rdzeń Bitcoin, co doprowadzi do rozłamu. Przykładem nieudanego Hard Fork z powodu braku wsparcia społeczności jest Bitcoin Satoshi's Vision (BSV).
+W Bitcoin zasada większości odgrywa kluczową rolę. Jeśli 60% górników przyjmie nową zasadę, ich bloki zostaną odrzucone przez tych, którzy prowadzą oryginalny Bitcoin core, co doprowadzi do podziału. Przykładem nieudanego Hard Fork z powodu braku wsparcia społeczności jest Bitcoin Satoshi's Vision (BSV).
 
 
 Przyjrzyjmy się pokrótce kilku ważnym koncepcjom.
@@ -1443,16 +1430,16 @@ Przyjrzyjmy się pokrótce kilku ważnym koncepcjom.
 **Wymuszony Soft Fork**: Koncepcja wdrożenia restrykcyjnych zasad w celu zmiany Bitcoin może prowadzić do dalszych podziałów i problemów związanych z zarządzaniem. Podejście to ilustruje złożoność i potencjalne konflikty w społeczności Bitcoin.
 
 
-**Atak 51%**: Atak 51% opisuje scenariusz, w którym większość mocy hashującej może zaatakować Bitcoin przez Mining pustych bloków. Mogłoby to skutecznie zabić sieć, chyba że społeczność przyjmie nowe zasady konsensusu dla Address ataku.
+**Atak 51%**: Atak 51% opisuje scenariusz, w którym większość mocy hashującej może zaatakować Bitcoin przez Mining pustych bloków. Mogłoby to skutecznie zabić sieć, chyba że społeczność przyjmie nowe zasady konsensusu w celu Address ataku.
 
 
 **Check-Lock-Time-Verify (CLTV)**: Check-Lock-Time-Verify (CLTV) jest przykładem zmiany zarządzania zaimplementowanej jako Soft Fork. CLTV zapewnia, że transakcje są ważne tylko po określonym czasie, co jest przydatne w przypadku kanałów płatności i kluczy zapasowych. Zmiana ta zaostrzyła zasady przy użyciu kodu operacyjnego, który wcześniej nic nie robił.
 
 
-Podsumowując, przyszłość i zmiany Bitcoin zależą od zbiorowej woli jego użytkowników. Znaczące zmiany wymagają szerokiego konsensusu, odzwierciedlającego zdecentralizowany i polityczny charakter zarządzania Bitcoin.
+Podsumowując, przyszłość i zmiany Bitcoin zależą od zbiorowej woli jego użytkowników. Istotne zmiany wymagają szerokiego konsensusu, co odzwierciedla zdecentralizowany i polityczny charakter zarządzania Bitcoin.
 
 
-# Layer One Concepts
+# Layer Jedna koncepcja
 
 
 <partId>5300855f-e5e4-5bca-9afe-2397f7c76260</partId>
@@ -1468,14 +1455,13 @@ Podsumowując, przyszłość i zmiany Bitcoin zależą od zbiorowej woli jego u�
 
 :::video id=6fae79f6-da81-4870-927b-923bd1672176:::
 
-
 Adam Gibson omawia różne komponenty węzła Bitcoin. Rozdział koncentruje się na roli, jaką każdy komponent odgrywa w utrzymaniu funkcjonalności i integralności sieci. W szczególności skupia się na tym, dlaczego powinniśmy uruchomić węzeł Bitcoin, co robi węzeł Bitcoin i jak działają różne komponenty węzła Bitcoin.
 
 
 ### Wprowadzenie do węzłów Bitcoin
 
 
-Zrozumienie roli węzłów Bitcoin ma kluczowe znaczenie dla każdego zaangażowanego w sieć Bitcoin. Uruchomienie węzła Bitcoin pozwala użytkownikom zatwierdzać transakcje, uczestniczyć w konsensusie i zachować kontrolę nad swoją prywatnością. W tym wykładzie omówiono, dlaczego uruchomienie węzła Bitcoin jest korzystne i w jaki sposób przyczynia się do ogólnego bezpieczeństwa i decentralizacji sieci Bitcoin.
+Zrozumienie roli węzłów Bitcoin ma kluczowe znaczenie dla każdego zaangażowanego w sieć Bitcoin. Uruchomienie węzła Bitcoin pozwala użytkownikom zatwierdzać transakcje, uczestniczyć w konsensusie i zachować kontrolę nad swoją prywatnością. Ten wykład omawia, dlaczego uruchomienie węzła Bitcoin jest korzystne i w jaki sposób przyczynia się do ogólnego bezpieczeństwa i decentralizacji sieci Bitcoin.
 
 
 ### Dlaczego warto uruchomić węzeł Bitcoin?
@@ -1488,7 +1474,7 @@ Uruchomienie węzła Bitcoin jest niezbędne z kilku powodów:
 
 2. **Uczestnictwo w konsensusie**: Węzły odgrywają kluczową rolę w określaniu zasad sieci Bitcoin, a zatem udział w konsensusie pomaga utrzymać integralność i bezpieczeństwo Blockchain.
 
-3. **Prywatność i kontrola**: Uruchomienie własnego węzła zapewnia, że nie musisz polegać na zewnętrznych węzłach, które mogą zagrozić Twojej prywatności poprzez śledzenie Twoich transakcji i salda Wallet.
+3. **Prywatność i kontrola**: Uruchomienie własnego węzła zapewnia, że nie musisz polegać na zewnętrznych węzłach, które mogłyby zagrozić Twojej prywatności poprzez śledzenie Twoich transakcji i salda Wallet.
 
 
 ### Co robi węzeł Bitcoin?
@@ -1496,12 +1482,12 @@ Uruchomienie węzła Bitcoin jest niezbędne z kilku powodów:
 
 
 - Przechowuje listę urządzeń równorzędnych**: Węzły muszą znaleźć i połączyć się z innymi węzłami w sieci, aby uzyskać informacje Exchange.
-- Odbiera i wysyła prawidłowe transakcje i bloki**: Węzły Bitcoin są odpowiedzialne za propagowanie ważnych transakcji i bloków w całej sieci.
+- Odbiera i wysyła ważne transakcje i bloki**: Węzły Bitcoin są odpowiedzialne za propagowanie ważnych transakcji i bloków w całej sieci.
 - Przechowuje historię bloków i najcięższy łańcuch**: Węzły przechowują własną kopię Blockchain, co pozwala im weryfikować autentyczność transakcji i bloków.
-- Utrzymuje listę ważnych kandydatów; Mempool**: Węzły muszą przechowywać listę możliwych kandydatów na transakcje w Mempool, które mają zostać uwzględnione w blokach.
+- Utrzymuje listę ważnych kandydatów; Mempool**: Węzły muszą przechowywać listę możliwych kandydatów na transakcje w Mempool, które mają być zawarte w blokach.
 
 
-![nodes network](assets/en/3/18.webp)
+![nodes network](assets/en/023.webp)
 
 
 **UWAGA**: Mempool to tymczasowy obszar przechowywania transakcji, które zostały zatwierdzone, ale nie zostały jeszcze uwzględnione w bloku.
@@ -1510,17 +1496,17 @@ Uruchomienie węzła Bitcoin jest niezbędne z kilku powodów:
 ### Składniki węzła
 
 
-#### Podstawowe moduły Bitcoin
+#### Moduły Bitcoin core
 
 
-![Bitcoin core modules](assets/en/3/19.webp)
+![Bitcoin core modules](assets/en/024.webp)
 
 
 
 - Peer discovery**: Peer discovery to proces, w którym węzeł znajduje inne węzły, z którymi może się połączyć.
 - Silnik walidacji**: Silnik walidacji jest odpowiedzialny za sprawdzanie ważności transakcji i bloków zgodnie z zasadami sieci.
-- RPC (zdalne wywołanie procedury)**: Bitcoin Core zawiera RPC Interface, który umożliwia zewnętrznym aplikacjom, takim jak portfele, interakcję z węzłem.
-- Przechowywanie bloków i stanu łańcucha**: Bitcoin Core może przechowywać cały Blockchain lub nie, niezależnie od tego, czy jest to węzeł archiwalny czy przycięty. Przechowuje również bieżący stan sieci (zestaw UTXO) na dysku.
+- RPC (zdalne wywołanie procedury)**: Bitcoin core zawiera RPC Interface, który umożliwia zewnętrznym aplikacjom, takim jak portfele, interakcję z węzłem.
+- Przechowywanie bloków i stanu łańcucha**: Bitcoin core może przechowywać cały Blockchain lub nie, niezależnie od tego, czy jest to węzeł archiwalny czy pruned. Przechowuje również bieżący stan sieci (zestaw UTXO) na dysku.
 
 
 #### Co możemy usunąć?
@@ -1528,8 +1514,8 @@ Uruchomienie węzła Bitcoin jest niezbędne z kilku powodów:
 
 
 - Miner**: Większość węzłów Bitcoin nie uczestniczy w Mining ze względu na wymaganą dużą moc obliczeniową.
-- RPC (Serwer)**: Bitcoin Core implementuje Interface JSON-RPC, do którego można uzyskać dostęp za pomocą helpera wiersza poleceń bitcoin-cli.
-- Wallet (disablewallet)**: Jeśli wolisz używać zewnętrznego Wallet, możesz wyłączyć funkcję Wallet w Bitcoin Core. Pozwala to na oddzielne zarządzanie kluczami prywatnymi.
+- RPC (Serwer)**: Bitcoin core implementuje RPC JSON-Interface, do którego można uzyskać dostęp za pomocą helpera wiersza poleceń bitcoin-cli.
+- Wallet (disablewallet)**: Jeśli wolisz używać zewnętrznego Wallet, możesz wyłączyć funkcję Wallet w Bitcoin core. Pozwala to na oddzielne zarządzanie kluczami prywatnymi.
 - Mempool (tylko bloki)**: Dla użytkowników, którzy chcą zminimalizować wykorzystanie przepustowości, uruchomienie węzła "tylko bloki" może być rozwiązaniem, w którym węzeł przetwarza tylko bloki, ignorując transakcje.
 
 
@@ -1547,7 +1533,7 @@ bitcoin-cli gettxoutsetinfo
 ```
 
 
-![utxoset info command](assets/en/3/20.webp)
+![utxoset info command](assets/en/025.webp)
 
 
 Możemy sprawdzić, czy liczba Bitcoinów jest prawidłowa.
@@ -1566,7 +1552,7 @@ Możemy sprawdzić, czy liczba Bitcoinów jest prawidłowa.
 **WAŻNE**: Transakcje nie są tym samym co UTXO.
 
 
-![Txs and UTXOs](assets/en/3/21.webp)
+![Txs and UTXOs](assets/en/026.webp)
 
 
 #### Mempool
@@ -1584,7 +1570,7 @@ Bezpieczeństwo jest najważniejsze podczas korzystania z węzła Bitcoin. Oto k
 #### Unikanie centralizacji
 
 
-Poleganie na jednym źródle danych Blockchain, takim jak pobieranie wszystkich bloków z centralnego serwera, stwarza znaczne ryzyko. Aby zachować zdecentralizowany charakter Bitcoin, węzły powinny łączyć się z wieloma urządzeniami równorzędnymi i weryfikować otrzymywane dane.
+Poleganie na jednym źródle danych Blockchain, takim jak pobieranie wszystkich bloków z centralnego serwera, stwarza znaczne ryzyko. Aby utrzymać zdecentralizowany charakter Bitcoin, węzły powinny łączyć się z wieloma peerami i weryfikować otrzymywane dane.
 
 
 #### Zapobieganie atakom izolacyjnym
@@ -1602,7 +1588,7 @@ Węzły muszą starannie zarządzać swoimi połączeniami równorzędnymi, aby 
 #### Znaczenie zestawu UTXO
 
 
-Zestaw UTXO reprezentuje bieżący stan Bitcoin, wymieniając wszystkie niewydane wyjścia transakcji. Ma to kluczowe znaczenie dla walidacji transakcji i zapewnienia, że monety nie zostaną wydane więcej niż jeden raz. Utrzymanie tego zestawu na małym i łatwo dostępnym poziomie jest ważne dla utrzymania wydajności sieci.
+Zestaw UTXO reprezentuje bieżący stan Bitcoin, wymieniając wszystkie niewydane wyniki transakcji. Ma to kluczowe znaczenie dla walidacji transakcji i zapewnienia, że monety nie zostaną wydane więcej niż jeden raz. Utrzymanie tego zestawu na małym i łatwo dostępnym poziomie jest ważne dla utrzymania wydajności sieci.
 
 
 #### Wnioski
@@ -1621,11 +1607,10 @@ Uruchomienie węzła Bitcoin to potężny sposób na uczestnictwo w sieci Bitcoi
 
 :::video id=1790e5fb-33f5-4e0e-982e-41589cd02965:::
 
+Głównym celem tego wykładu jest przeprowadzenie użytkownika przez proces analizowania bloku Bitcoin poprzez kodowanie parsera w Rust. Obejmuje to zrozumienie struktury bloków Bitcoin i transakcji oraz wdrożenie niezbędnej logiki do wyodrębnienia i interpretacji tych danych.
 
-Głównym celem tego wykładu jest przeprowadzenie użytkownika przez proces analizowania bloku Bitcoin poprzez kodowanie parsera w Rust. Obejmuje to zrozumienie struktury bloków i transakcji Bitcoin oraz wdrożenie niezbędnej logiki w celu wyodrębnienia i interpretacji tych danych.
 
-
-### Parsowanie bloków Bitcoin i transakcji w Rust
+### Analizowanie bloków Bitcoin i transakcji w Rust
 
 
 #### Składniki do przeanalizowania
@@ -1657,10 +1642,10 @@ Nagłówek bloku jest kamieniem węgielnym bloku Bitcoin i zawiera następujące
 - Liczba transakcji**: Liczba transakcji w bloku.
 
 
-**Uwaga**: Tylko pierwsze 80 bajtów (składające się na nagłówek bloku) jest zaszyfrowane podczas Mining.
+**Uwaga**: Tylko pierwsze 80 bajtów (składających się na nagłówek bloku) jest zaszyfrowane podczas Mining.
 
 
-![Block header structure](assets/en/3/1.webp)
+![Block header structure](assets/en/027.webp)
 
 
 #### Uproszczenia
@@ -1684,7 +1669,7 @@ Każda transakcja w bloku Bitcoin zawiera następujące elementy:
 - Wersja**: Wersja transakcji.
 - Liczba wejść**: Liczba wejść transakcji.
 - Inputs**: Lista wejść.
-  - Poprzednie wyjście (outpoint)**: Poprzednie odniesienie do wyjścia.
+  - Poprzednie wyjście (punkt wyjściowy)**: Poprzednie odniesienie do wyjścia.
     - Hash**: Hash transakcji, której dotyczy odwołanie.
     - Index**: Indeks określonego wyjścia w transakcji, zwany "vout".
   - Długość skryptu**: Długość skryptu podpisu.
@@ -1694,20 +1679,20 @@ Każda transakcja w bloku Bitcoin zawiera następujące elementy:
 - Dane wyjściowe**: Zawiera wartość i klucz ScriptPubKey.
   - Wartość**: Wartość transakcji.
   - Długość skryptu PubKey**: Długość skryptu PubKey.
-  - PubKey Script**: Zawiera klucz publiczny jako konfigurację do żądania danych wyjściowych.
+  - Skrypt PubKey**: Zawiera klucz publiczny jako konfigurację do żądania danych wyjściowych.
 - Czas blokady**: Wskazuje wysokość bloku lub Timestamp, przy której ta transakcja może zostać włączona do bloku.
 
 
-![Transaction structure](assets/en/3/2.webp)
+![Transaction structure](assets/en/028.webp)
 
-![TxIn structure](assets/en/3/3.webp)
+![TxIn structure](assets/en/029.webp)
 
-![Outpoint structure](assets/en/3/4.webp)
+![Outpoint structure](assets/en/030.webp)
 
-![TxOut structure](assets/en/3/5.webp)
+![TxOut structure](assets/en/031.webp)
 
 
-#### Techniki parsowania
+#### Techniki analizowania
 
 
 W Rust możemy używać różnych technik do analizowania tych struktur:
@@ -1827,10 +1812,10 @@ Wprowadzenie składni Rust Elements, takiej jak znak zapytania (`?`) do obsługi
 Dodanie asercji w celu sprawdzenia, czy po przetworzeniu pełnego bloku nie pozostały żadne nieprzeanalizowane bajty. Zapewnia to integralność naszego procesu parsowania.
 
 
-#### Przypadki specjalne, takie jak transakcje Coinbase
+#### Szczególne przypadki, takie jak transakcje coinbase
 
 
-Transakcje Coinbase, które są pierwszą transakcją w bloku używanym do ubiegania się o Block reward, mają unikalne cechy. Musimy odpowiednio obsługiwać te specjalne przypadki.
+Transakcje Coinbase, które są pierwszą transakcją w bloku używanym do ubiegania się o Block reward, mają unikalne cechy. Musimy odpowiednio obsłużyć te specjalne przypadki.
 
 
 ```Rust
@@ -1895,14 +1880,14 @@ _ => todo!()
 ```
 
 
-![op_checksig](assets/en/3/6.webp)
+![op_checksig](assets/en/032.webp)
 
-![op_hash160](assets/en/3/7.webp)
+![op_hash160](assets/en/033.webp)
 
-![op_push](assets/en/3/8.webp)
+![op_push](assets/en/034.webp)
 
 
-#### Wyzwania związane z analizowaniem skryptów
+#### Wyzwania związane z parsowaniem skryptów
 
 
 Parsowanie skryptów może stanowić wyzwanie, szczególnie w przypadku transakcji coinbase. Ważne jest, aby uwzględnić przypadki brzegowe i poprawnie je obsłużyć, aby zapewnić dokładne analizowanie.
@@ -1926,7 +1911,7 @@ Ok((Script(opcodes), &bytes[len.0 as usize..]))
 ```
 
 
-#### Bloki kompaktowe
+#### Kompaktowe bloki
 
 
 Wykorzystanie kompaktowych bloków jest obecnie stosowane w celu zwiększenia wydajności transmisji danych między węzłami. Zmniejsza to wykorzystanie przepustowości i przyspiesza synchronizację, wysyłając transakcje, których brakowało w Mempool, wypełniając je transakcją, którą węzeł już posiadał w bloku, a następnie zatwierdzając ją.
@@ -1938,7 +1923,7 @@ Wykorzystanie kompaktowych bloków jest obecnie stosowane w celu zwiększenia wy
 W przypadku aplikacji krytycznych dla konsensusu zaleca się korzystanie z istniejących bibliotek w celu uniknięcia błędów i zapewnienia bezpieczeństwa, takich jak [Rust-Bitcoin](https://docs.rs/Bitcoin/latest/Bitcoin/) lub [Bitcoin-dev-kit](https://docs.rs/BDK/latest/BDK/). Implementacja własnego parsera może być edukacyjna, ale także ryzykowna w środowiskach produkcyjnych.
 
 
-![libraries](assets/en/3/9.webp)
+![libraries](assets/en/035.webp)
 
 
 ### Wydajność i bezpieczeństwo w Bitcoin Mining
@@ -1961,7 +1946,7 @@ Puste bloki Mining mogą być bardziej wydajne dla górników:
 Puste bloki są czasami wydobywane z powodu problemów czasowych. Górnicy mogą nie otrzymać pełnej listy transakcji do czasu rozpoczęcia Mining następnego bloku, więc zamiast tego decydują się na wydobycie pustego bloku.
 
 
-![empty block](assets/en/3/10.webp)
+![empty block](assets/en/036.webp)
 
 
 #### Złośliwe Mining pustych bloków
@@ -1973,7 +1958,7 @@ Chociaż złośliwe Mining pustych bloków jest możliwe, nie zostało to zaobse
 #### Konsekwencje pustych bloków
 
 
-Występowanie pustych bloków jest normalnym aspektem procesu Mining i wynika głównie z kwestii czasowych. Chociaż nie zawierają one transakcji, nadal wydłużają Blockchain i przyczyniają się do bezpieczeństwa sieci.
+Występowanie pustych bloków jest normalnym aspektem procesu Mining i wynika głównie z kwestii czasowych. Mimo że nie zawierają one transakcji, nadal rozszerzają Blockchain i przyczyniają się do bezpieczeństwa sieci.
 
 
 #### Znaczenie bezpieczeństwa
@@ -1982,7 +1967,7 @@ Występowanie pustych bloków jest normalnym aspektem procesu Mining i wynika g�
 Bezpieczeństwo w Bitcoin Mining jest najważniejsze. Przestrzegając najlepszych praktyk i korzystając z dobrze sprawdzonych bibliotek, górnicy i deweloperzy mogą zapewnić integralność Blockchain i chronić się przed potencjalnymi lukami w zabezpieczeniach.
 
 
-Podsumowując, analizowanie bloków Bitcoin i transakcji w Rust wymaga zrozumienia złożonych struktur i wdrożenia wydajnych technik analizowania. Obsługa specjalnych przypadków i parsowanie skryptów wymaga starannego rozważenia, a skupienie się na wydajności i bezpieczeństwie zapewnia solidność sieci Bitcoin.
+Podsumowując, analizowanie bloków Bitcoin i transakcji w Rust wymaga zrozumienia złożonych struktur i wdrożenia wydajnych technik analizowania. Obsługa specjalnych przypadków i analizowanie skryptów wymaga starannego rozważenia, a skupienie się na wydajności i bezpieczeństwie zapewnia solidność sieci Bitcoin.
 
 
 ## Przegląd oprogramowania Bitcoin i implementacje węzłów
@@ -1995,20 +1980,19 @@ Podsumowując, analizowanie bloków Bitcoin i transakcji w Rust wymaga zrozumien
 
 :::video id=1d148008-9197-446f-afb5-628d4c3a5015:::
 
-
-Daniela Brozzoni oferuje kompleksowy przegląd stosu oprogramowania Bitcoin Layer 1, wyjaśniając warstwy, które stanowią podstawę protokołu Bitcoin (tj. węzły Bitcoin i portfele Bitcoin) oraz sposób tworzenia oprogramowania Bitcoin wraz z wprowadzeniem do bibliotek Bitcoin i dogłębnym zanurzeniem się w Bitcoin Development Kit (BDK).
+Daniela Brozzoni oferuje kompleksowy przegląd stosu oprogramowania Bitcoin Layer 1, wyjaśniając warstwy, które stanowią podstawę protokołu Bitcoin (tj. węzły Bitcoin i portfele Bitcoin) oraz sposób tworzenia oprogramowania Bitcoin wraz z wprowadzeniem do bibliotek Bitcoin i dogłębnym zanurzeniem w Bitcoin Development Kit (BDK).
 
 
 ### Przegląd oprogramowania Bitcoin
 
 
-Stos oprogramowania Bitcoin ma fundamentalne znaczenie dla jego działania i składa się z różnych Elements, w tym węzłów i portfeli. Kluczową częścią tego ekosystemu jest Bitcoin Development Kit (BDK), który szczegółowo omówimy później. Najpierw skupmy się na roli węzłów w sieci Bitcoin.
+Stos oprogramowania Bitcoin ma fundamentalne znaczenie dla jego działania i składa się z różnych Elements, w tym węzłów i portfeli. Krytyczną częścią tego ekosystemu jest Bitcoin Development Kit (BDK), który szczegółowo omówimy później. Najpierw skupmy się na roli węzłów w sieci Bitcoin.
 
 
 #### Węzły Bitcoin
 
 
-Węzły Bitcoin stanowią szkielet sieci Bitcoin. Łączą się one ze sobą, transakcjami i blokami Exchange oraz weryfikują przychodzące dane. Istnieją różne typy węzłów, a każdy z nich służy unikalnemu celowi:
+Węzły Bitcoin stanowią szkielet sieci Bitcoin. Łączą się one ze sobą, obsługują transakcje i bloki Exchange oraz weryfikują przychodzące dane. Istnieją różne typy węzłów, z których każdy służy do innego celu:
 
 
 
@@ -2019,35 +2003,35 @@ Węzły Bitcoin stanowią szkielet sieci Bitcoin. Łączą się one ze sobą, tr
   - Węzły archiwalne**: Węzły archiwalne, będące podzbiorem węzłów pełnych, zachowują wszystkie dane Blockchain, co czyni je cennymi dla analizy historycznej i debugowania.
 
 
-![archival node](assets/en/3/11.webp)
+![archival node](assets/en/037.webp)
 
 
 
-  - Przycięte węzły**: Przycięte węzły oszczędzają miejsce na dysku, zachowując tylko część Blockchain, eliminując starsze dane, które nie są już potrzebne do walidacji.
+  - Węzły pruned**: Węzły pruned oszczędzają miejsce na dysku, zachowując tylko część Blockchain, eliminując starsze dane, które nie są już potrzebne do walidacji.
 
 
-![pruned node](assets/en/3/12.webp)
+![pruned node](assets/en/038.webp)
 
 
-#### Bitcoin Core
+#### Bitcoin core
 
 
-Bitcoin Core jest najczęściej używaną implementacją Full node. Pełni podwójną funkcję zarówno Full node, jak i Wallet. Kluczowe aspekty Bitcoin Core obejmują:
+Bitcoin core jest najczęściej używaną implementacją Full node. Pełni podwójną funkcję zarówno Full node, jak i Wallet. Kluczowe aspekty Bitcoin core obejmują:
 
 
 
 - Użyteczność**: Może być używany za pośrednictwem wiersza poleceń Interface (CLI) i graficznego interfejsu użytkownika Interface (GUI).
-- Charakter open-source**: Kod jest typu open-source, co pozwala programistom wnosić swój wkład i analizować jego działanie.
+- Charakter open-source**: Kod ma charakter open-source, co pozwala programistom wnosić swój wkład i analizować jego działanie.
 - Język**: Napisany w C++ z testami w Pythonie, zapewniający solidną wydajność i niezawodność.
 
 
-![cli-gui](assets/en/3/13.webp)
+![cli-gui](assets/en/039.webp)
 
 
-##### Exploring Bitcoin Core
+##### Eksploracja Bitcoin core
 
 
-Aby zdobyć praktyczne doświadczenie z Bitcoin Core, można skompilować i uruchomić testy przy użyciu Git. Proces ten obejmuje:
+Aby zdobyć praktyczne doświadczenie z Bitcoin core, można skompilować i uruchomić testy przy użyciu Git. Proces ten obejmuje:
 
 
 
@@ -2084,11 +2068,11 @@ test/functional/test_runner.py
 #### Alternatywne implementacje węzłów
 
 
-Poza Bitcoin Core, istnieje kilka alternatywnych implementacji węzłów:
+Poza Bitcoin core istnieje kilka alternatywnych implementacji węzłów:
 
 
 
-- Bitcoin Knots**: Oferuje bardziej zaawansowane funkcje niż rdzeń Bitcoin, zajmując więcej miejsca i pamięci.
+- Bitcoin Knots**: Oferuje bardziej zaawansowane funkcje niż Bitcoin core, zajmując więcej miejsca i pamięci.
 - LibBitcoin**: Elastyczna i modułowa implementacja.
 - btcd**: Napisany w języku Go, oferuje różne filozofie projektowania.
 
@@ -2096,7 +2080,7 @@ Poza Bitcoin Core, istnieje kilka alternatywnych implementacji węzłów:
 Wdrożenie tych alternatyw wiąże się z własnym ryzykiem, szczególnie w odniesieniu do zasad konsensusu. Odejście od ustalonych zasad walidacji może prowadzić do rozwidleń lub niespójności. Projekt Bitcoin Kernel ma na celu ograniczenie tego ryzyka poprzez centralizację kodu konsensusu, zapewniając jednolitość we wszystkich implementacjach.
 
 
-![implementation](assets/en/3/14.webp)
+![implementation](assets/en/040.webp)
 
 
 ### Portfele i zabezpieczenia Bitcoin
@@ -2108,7 +2092,7 @@ Portfele Bitcoin mają kluczowe znaczenie dla bezpiecznego zarządzania zasobami
 #### Rodzaje portfeli Bitcoin
 
 
-1. **Custodian vs. Non-Custodian**:
+1. **Custodian vs. non-custodian**:
 
 
 
@@ -2116,39 +2100,39 @@ Portfele Bitcoin mają kluczowe znaczenie dla bezpiecznego zarządzania zasobami
    - Portfele niebędące portfelami powierniczymi**: Kontrolowane przez użytkowników, zapewniające większe bezpieczeństwo i prywatność.
 
 
-2. **Desktop vs. Mobile**:
+2. **Desktop vs. mobile**:
 
 
 
-   - Portfele stacjonarne**: Zazwyczaj bardziej funkcjonalne i bezpieczne.
+   - Portfele stacjonarne**: Zazwyczaj bogatsze w funkcje i bezpieczniejsze.
    - Portfele mobilne**: Oferują wygodę i przenośność.
 
 
-3. **On-Chain vs. Lightning**:
+3. **On-Chain vs. błyskawica**:
 
 
 
-   - Portfele On-Chain**: Bezpośrednia interakcja z Bitcoin Blockchain.
-   - Lightning Wallets**: Szybsze i tańsze transakcje off-chain.
+   - Portfele On-Chain**: Współdziałają bezpośrednio z Bitcoin Blockchain.
+   - Błyskawiczne portfele**: Ułatwiają szybsze i tańsze transakcje off-chain.
 
 
-4. **Portfele Cold vs. Portfele Hot**:
+4. **Portfele Cold vs. portfele Hot**:
 
 
-   - Portfele Cold**: Nie są połączone z Internetem, zapewniając doskonałe bezpieczeństwo przed włamaniami.
+   - Portfele Cold**: Brak połączenia z Internetem, co zapewnia doskonałe zabezpieczenie przed włamaniami.
    - Portfele Hot**: Połączone z Internetem, oferujące większą dostępność, ale mniejsze bezpieczeństwo.
 
 
-#### Cold Wallet Bezpieczeństwo
+#### Cold Wallet bezpieczeństwo
 
 
 Portfele Cold są cenione za swoje bezpieczeństwo. Pozostając w trybie offline, są one z natury odporne na włamania online. Kluczowe jest jednak upewnienie się, że transakcje wykonywane za pośrednictwem portfeli Cold są bezpieczne i dokładne, aby zapobiec nieumyślnemu wysłaniu Bitcoin do złośliwych podmiotów.
 
 
-#### Portfele tylko na zegarki
+#### Portfele tylko dla zegarków
 
 
-Portfele typu watch-only zawierają wyłącznie klucze publiczne, umożliwiając użytkownikom otrzymywanie Bitcoin i monitorowanie salda bez możliwości wydawania środków. Funkcja ta zapewnia dodatkowe bezpieczeństwo Layer dla tych, którzy muszą mieć oko na swoje zasoby.
+Portfele typu watch-only zawierają tylko klucze publiczne, umożliwiając użytkownikom otrzymywanie Bitcoin i monitorowanie salda bez możliwości wydawania środków. Funkcja ta zapewnia dodatkowe bezpieczeństwo Layer dla tych, którzy muszą mieć oko na swoje zasoby.
 
 
 #### Podstawowe funkcje Bitcoin Wallet
@@ -2157,7 +2141,7 @@ Portfele typu watch-only zawierają wyłącznie klucze publiczne, umożliwiając
 Niezależnie od typu, każdy Bitcoin Wallet spełnia trzy podstawowe funkcje:
 
 
-1. **Odbieranie adresów Bitcoin**: Adresy generate i monitorowanie transakcji przychodzących.
+1. **Odbieranie Bitcoin**: Adresy generate i monitorowanie transakcji przychodzących.
 
 2. **Wyślij Bitcoin**: Tworzenie i wysyłanie transakcji do sieci.
 
@@ -2171,21 +2155,21 @@ Niezależnie od typu, każdy Bitcoin Wallet spełnia trzy podstawowe funkcje:
 - Portfele Bitcoin działają jak pęki kluczy, przechowując i generując klucze kryptograficzne.
 
 
-![keychain](assets/en/3/15.webp)
+![keychain](assets/en/041.webp)
 
 
 
 - Monitorują Blockchain pod kątem transakcji przychodzących.
 
 
-![monitor](assets/en/3/16.webp)
+![monitor](assets/en/042.webp)
 
 
 
 - Twórz transakcje, wybierając niewydane transakcje wyjściowe (UTXO), ustawiając dane wejściowe i wyjściowe oraz optymalizując pod kątem prywatności i opłat.
 
 
-![tx_builder](assets/en/3/17.webp)
+![tx_builder](assets/en/043.webp)
 
 
 #### Możliwość ponownego wykorzystania logiki Wallet
@@ -2209,7 +2193,7 @@ BDK upraszcza tworzenie Wallet, zapewniając funkcjonalność wyższego poziomu 
 #### Inne biblioteki Bitcoin
 
 
-Liczne biblioteki Bitcoin obsługują różne języki programowania, takie jak Python, JavaScript, Java, Go i C. Biblioteki te oferują różnorodne narzędzia do rozwoju Bitcoin.
+Liczne biblioteki Bitcoin obsługują różne języki programowania, takie jak Python, JavaScript, Java, Go i C. Biblioteki te oferują różnorodne narzędzia do programowania Bitcoin.
 
 
 #### Kluczowe koncepcje techniczne
@@ -2222,17 +2206,17 @@ Liczne biblioteki Bitcoin obsługują różne języki programowania, takie jak P
 3. **Składnia Rust**: Kluczowe pojęcia w Rust, takie jak `Option` dla bezpieczeństwa null i typ `Result` dla obsługi błędów, są integralną częścią zrozumienia i efektywnego korzystania z BDK.
 
 
-#### Tworzenie i zarządzanie transakcjami
+#### Tworzenie transakcji i zarządzanie nimi
 
 
 BDK usprawnia proces tworzenia, podpisywania i nadawania transakcji:
 
 
-1. **Buduj transakcje**: Określ odbiorców, kwoty i opłaty.
+1. **Tworzenie transakcji**: Określ odbiorców, kwoty i opłaty.
 
 2. **Podpisywanie transakcji**: Użyj PSBT, aby zebrać podpisy.
 
-3. **Transakcje rozgłoszeniowe**: Wysyła sfinalizowane transakcje do sieci.
+3. **Transakcje rozgłaszane**: Wysyłanie sfinalizowanych transakcji do sieci.
 
 
 #### Przykładowy przepływ pracy w BDK
@@ -2263,7 +2247,7 @@ Ok(())
 
 
 
-- Adresy generate**: Utwórz nowe adresy, aby odbierać Bitcoin z Testnet Faucet.
+- Adresy generate**: Tworzenie nowych adresów do odbierania Bitcoin z Testnet Faucet.
 
 
 ```Rust
@@ -2295,7 +2279,7 @@ println!("This is your wallet balance: {}", balance);
 
 
 
-- Tworzenie, podpisywanie i rozsyłanie transakcji**: Twórz i finalizuj transakcje, a następnie rozgłaszaj je w sieci.
+- Tworzenie, podpisywanie i rozgłaszanie transakcji**: Twórz i finalizuj transakcje, a następnie rozgłaszaj je w sieci.
 
 
 ```Rust
@@ -2334,16 +2318,16 @@ blockchain.broadcast(&tx)?;
 ```
 
 
-#### Drukowanie txid i transmisja transakcji
+#### Wydrukuj txid i wyemituj transakcję
 
 
 Przypisanie i wydrukowanie transaction ID (txid) umożliwia monitorowanie na platformach takich jak Mempool.space. Rozgłaszanie transakcji można wykonać za pomocą metody `Blockchain.broadcast`, a weryfikacja szczegółów i statusu transakcji ma kluczowe znaczenie dla zapewnienia pomyślnej propagacji.
 
 
-#### Uwagi dotyczące użyteczności i prywatności BDK
+#### BDK - kwestie użyteczności i prywatności
 
 
-BDK jest nieoceniony dla uproszczenia rozwoju Bitcoin Wallet. W celu zwiększenia prywatności zalecane są narzędzia takie jak Electrum, Explora i osobiste węzły Bitcoin Core.
+BDK jest nieoceniony dla uproszczenia rozwoju Bitcoin Wallet. W celu zwiększenia prywatności zalecane są narzędzia takie jak Electrum, Explora i osobiste węzły Bitcoin core.
 
 
 #### Języki programowania
@@ -2377,11 +2361,10 @@ Zrozumienie tych komponentów, od węzłów i portfeli Bitcoin po zestaw dewelop
 
 :::video id=b90f19a3-a95e-4cd1-8c55-41016f3339cb:::
 
-
 ### Historia kanałów płatności
 
 
-Witamy w naszym wykładzie na temat nowoczesnych rozwiązań płatniczych w technologii Blockchain. Dzisiaj zbadamy kontekst historyczny i kluczowe osiągnięcia blokad multi-hop (MHL) i Lightning Network.
+Witamy w naszym wykładzie na temat nowoczesnych rozwiązań płatniczych w ramach technologii Blockchain. Dzisiaj zbadamy kontekst historyczny i kluczowe osiągnięcia blokad multi-hop (MHL) i Lightning Network.
 
 
 #### Przegląd i kontekst historyczny
@@ -2402,22 +2385,22 @@ Wprowadzenie MHL i Lightning Network oznacza zmianę paradygmatu z tradycyjnych,
 Bitcoin, pionier technologii Blockchain, wprowadził zdecentralizowany system, w którym transakcje są transmitowane w całej sieci. Choć rewolucyjna, metoda ta jest z natury nieefektywna. Każdy węzeł w sieci musi zweryfikować każdą transakcję, co prowadzi do znacznych opóźnień i wąskich gardeł, zwłaszcza przy dużej liczbie transakcji.
 
 
-Zdecentralizowany proces walidacji Bitcoin wymaga znacznych zasobów obliczeniowych. Każda transakcja musi zostać zweryfikowana i zarejestrowana przez wiele węzłów, zużywając ogromne ilości energii i mocy obliczeniowej. Nie tylko zwiększa to koszty operacyjne, ale także obciąża przepustowość sieci, prowadząc do zwiększenia opłat transakcyjnych i spowolnienia czasu przetwarzania.
+Zdecentralizowany proces walidacji Bitcoin wymaga znacznych zasobów obliczeniowych. Każda transakcja musi zostać zweryfikowana i zarejestrowana przez wiele węzłów, zużywając ogromne ilości energii i mocy obliczeniowej. Nie tylko zwiększa to koszty operacyjne, ale także obciąża przepustowość sieci, prowadząc do zwiększonych opłat transakcyjnych i wolniejszych czasów przetwarzania.
 
 
-Podczas gdy decentralizacja Bitcoin jest jedną z jego głównych zalet, stanowi ona również poważne wyzwanie. Publiczny charakter Blockchain oznacza, że wszystkie transakcje są widoczne dla wszystkich, co budzi obawy o prywatność. Co więcej, potrzeba konsensusu między licznymi węzłami może prowadzić do presji centralizacyjnej, ponieważ władza Mining staje się skoncentrowana w rękach kilku dużych podmiotów.
+Podczas gdy decentralizacja Bitcoin jest jedną z jego głównych zalet, stanowi ona również poważne wyzwanie. Publiczny charakter Blockchain oznacza, że wszystkie transakcje są widoczne dla wszystkich, co budzi obawy o prywatność. Co więcej, potrzeba konsensusu między wieloma węzłami może prowadzić do presji centralizacyjnej, ponieważ władza Mining staje się skoncentrowana w rękach kilku dużych podmiotów.
 
 
 ### Kanały płatności jako rozwiązanie
 
 
-![Gold coin](assets/en/4/1.webp)_Gold Standard Metaphor_
+![Gold coin](assets/en/044.webp)_Gold Standard Metaphor_
 
 
-Aby Address wyeliminować nieefektywność i kwestie prywatności Bitcoin, kanały płatności zostały zaproponowane jako realne rozwiązanie. Kanały mikropłatności umożliwiają dokonywanie transakcji off-chain, zmniejszając potrzebę ciągłego udostępniania danych w całej sieci. To znacznie odciąża Blockchain, pozwalając na szybsze i tańsze transakcje.
+Aby Address wyeliminować nieefektywność i kwestie prywatności Bitcoin, kanały płatności zostały zaproponowane jako realne rozwiązanie. Kanały mikropłatności umożliwiają dokonywanie transakcji off-chain, zmniejszając potrzebę ciągłego udostępniania danych w całej sieci. Znacznie zmniejsza to obciążenie Blockchain, umożliwiając szybsze i tańsze transakcje.
 
 
-Podstawową zasadą kanałów płatności jest koncepcja przyjmowania transakcji off-chain. Zamiast transmitować każdą transakcję do całej sieci, strony mogą otworzyć kanał płatności i przeprowadzać liczne transakcje między sobą. Tylko otwarcie i zamknięcie kanału są rejestrowane w Blockchain, co znacznie poprawia wydajność i prywatność.
+Podstawową zasadą kanałów płatności jest koncepcja przyjmowania transakcji off-chain. Zamiast transmitować każdą transakcję do całej sieci, strony mogą otworzyć kanał płatności i przeprowadzać wiele transakcji między sobą. Tylko otwarcie i zamknięcie kanału są rejestrowane w Blockchain, co znacznie poprawia wydajność i prywatność.
 
 
 Pomimo off-chain charakteru kanałów płatności, pozostaje możliwość egzekwowania transakcji On-Chain. W przypadku sporu lub próby oszustwa przez jedną ze stron, najnowszy stan kanału może być transmitowany do Blockchain, zapewniając, że uzgodnione transakcje są honorowane, a środki są przydzielane prawidłowo.
@@ -2439,8 +2422,7 @@ Podsumowując, zrozumienie kontekstu historycznego i wyzwań związanych z Bitco
 
 :::video id=059a714b-4fe9-4266-acb0-6fe5af491662:::
 
-
-W naszych poprzednich dyskusjach omówiliśmy podstawy podstawowych kanałów płatności. Kanały te pozwalają dwóm uczestnikom, powiedzmy Alice i Bobowi, na dokonywanie transakcji bezpośrednio między sobą. Istnieje jednak rażące ograniczenie tego modelu: Alice może dokonywać transakcji tylko z Bobem, a nie z innymi uczestnikami, takimi jak Charlie, chyba że ustanowi oddzielne kanały z każdym z nich. Konieczność posiadania wielu kanałów prowadzi do nieefektywności i skalowalności, ponieważ niepraktyczne byłoby otwieranie przez Alice bezpośredniego kanału z każdym, z kim chce dokonać transakcji.
+W naszych poprzednich dyskusjach omówiliśmy podstawy podstawowych kanałów płatności. Kanały te pozwalają dwóm uczestnikom, powiedzmy Alice i Bob, na dokonywanie bezpośrednich transakcji między sobą. Istnieje jednak rażące ograniczenie tego modelu: Alice może dokonywać transakcji tylko z Bob, a nie z innymi uczestnikami, takimi jak Charlie, chyba że ustanowi oddzielne kanały z każdym z nich. Konieczność posiadania wielu kanałów prowadzi do nieefektywności i skalowalności, ponieważ dla Alice niepraktyczne byłoby otwieranie bezpośredniego kanału z każdym, z kim chce dokonać transakcji.
 
 
 ### Scentralizowany chmiel
@@ -2452,19 +2434,19 @@ Aby Address te ograniczenia, Manny Rosenfeld zaproponował koncepcję scentraliz
 ### Hashed Time Lock Contract (HTLC) i implementacja
 
 
-Ograniczenia i wady scentralizowanych węzłów wymagały bardziej bezpiecznego i zdecentralizowanego rozwiązania. Potrzeba ta doprowadziła do opracowania Hashed Time Lock Contract (HTLC), zaproponowanego w 2015 roku przez Josepha Poona i Thaddeusa Dreijera jako część Lightning Network. HTLC łączą zasady blokad czasowych i blokad Hash, aby zapewnić atomowość i brak zaufania w transakcjach. Oznacza to, że transakcja albo zostanie w pełni zakończona, albo w ogóle nie dojdzie do skutku, łagodząc ryzyko związane z niekompletnymi płatnościami.
+Ograniczenia i wady scentralizowanych węzłów wymagały bardziej bezpiecznego i zdecentralizowanego rozwiązania. Potrzeba ta doprowadziła do opracowania Hashed Time Lock Contract (HTLC), zaproponowanego w 2015 roku przez Josepha Poona i Thaddeusa Dreijera jako część Lightning Network. HTLC łączą zasady blokad czasowych i blokad Hash, aby zapewnić atomowość i brak zaufania w transakcjach. Oznacza to, że transakcja albo zostanie w pełni zakończona, albo w ogóle nie dojdzie do skutku, ograniczając ryzyko związane z niekompletnymi płatnościami.
 
 
-Przepływ pracy HTLC obejmuje wieloetapowy proces, który zapewnia bezpieczny routing przez wielu pośredników. Załóżmy, że Alice chce zapłacić Ericowi przez pośredników Boba, Carol i Dianę. Każdy krok w procesie obejmuje tworzenie transakcji Commitment z malejącymi blokadami czasowymi i kwotami. Jeśli to konieczne, ostatni krok może być transmitowany do sieci Bitcoin w celu sfinalizowania transakcji.
+Przepływ pracy HTLC obejmuje wieloetapowy proces, który zapewnia bezpieczne przekierowanie przez wielu pośredników. Załóżmy, że Alice chce zapłacić Ericowi przez pośredników Bob, Carol i Dianę. Każdy krok w procesie obejmuje tworzenie transakcji Commitment z malejącymi blokadami czasowymi i kwotami. Jeśli to konieczne, ostatni krok może być transmitowany do sieci Bitcoin w celu sfinalizowania transakcji.
 
 
-W HTLC Alice blokuje płatność za pomocą Hash tajnego "R" Bob, Carol i Diana tworzą podobne umowy ze swoimi kolejnymi pośrednikami, zapewniając, że mogą odebrać swoje środki tylko wtedy, gdy przedstawią prawidłowy sekret "R" Mechanizm ten zapewnia atomowość; płatność kończy się w pełni lub kończy się niepowodzeniem, chroniąc przed częściową utratą środków.
+W HTLC, Alice blokuje płatność za pomocą Hash tajnego "R" Bob, Carol i Diana tworzą podobne umowy ze swoimi kolejnymi pośrednikami, zapewniając, że mogą odebrać swoje środki tylko wtedy, gdy przedstawią prawidłowy sekret "R" Mechanizm ten zapewnia atomowość; płatność kończy się w pełni lub kończy się niepowodzeniem, zabezpieczając przed częściową utratą środków.
 
 
-![Hash lock](assets/en/4/2.webp)_Hash lock function_
+![Hash lock](assets/en/045.webp)_Hash lock function_
 
 
-### Rozważania praktyczne i dynamika sieci
+### Względy praktyczne i dynamika sieci
 
 
 W praktycznym scenariuszu przepływ płatności Alice obejmuje płacenie Ericowi przez wielu pośredników, takich jak Bob, Carol i Diana. Każdy uczestnik tego łańcucha jest odpowiedzialny za pobieranie środków od poprzedniego uczestnika.
@@ -2473,16 +2455,16 @@ W praktycznym scenariuszu przepływ płatności Alice obejmuje płacenie Ericowi
 #### Aktualizacje stanu kanału
 
 
-Kanały aktualizują swój stan w oparciu o wzajemne porozumienia i podpisy między uczestnikami. Na przykład, Alice i Bob mogą aktualizować swój stan kanału bez konieczności używania tajnego "R", pod warunkiem, że zgadzają się co do warunków transakcji.
+Kanały aktualizują swój stan w oparciu o wzajemne porozumienia i podpisy między uczestnikami. Na przykład Alice i Bob mogą aktualizować swój stan kanału bez konieczności używania tajnego "R", pod warunkiem, że uzgodnią warunki transakcji.
 
 
 #### Zapewniona atomowość
 
 
-Mechanizm HTLC zapewnia atomowość poprzez zastosowanie blokad czasowych i podpisów. Zabezpieczenie to gwarantuje, że protokół płatności gwarantuje całkowity sukces lub niepowodzenie, chroniąc przed częściowymi stratami środków.
+Mechanizm HTLC zapewnia atomowość poprzez zastosowanie blokad czasowych i podpisów. To zabezpieczenie gwarantuje, że protokół płatności gwarantuje całkowity sukces lub niepowodzenie, chroniąc przed częściowymi stratami środków.
 
 
-![Time lock and signatures](assets/en/4/3.webp)_Combine restrictions_
+![Time lock and signatures](assets/en/046.webp)_Combine restrictions_
 
 
 #### Zachęty i obowiązki
@@ -2506,10 +2488,10 @@ Węzły w sieci mogą być częścią publicznie ogłoszonego grafu kanałów lu
 #### Routing źródłowy i prywatność
 
 
-Alicja musi znać topologię sieci, aby zdecydować o trasie płatności. Routing źródłowy jest stosowany w celu zachowania prywatności pomimo złożoności routingu płatności przez wielu pośredników.
+Alice musi posiadać wiedzę na temat topologii sieci, aby zdecydować o trasie płatności. Routing źródłowy jest stosowany w celu zachowania prywatności pomimo złożoności routingu płatności przez wielu pośredników.
 
 
-![Source Routing](assets/en/4/4.webp)_Source Routing Path_
+![Source Routing](assets/en/047.webp)_Source Routing Path_
 
 
 #### Wnioski
@@ -2526,8 +2508,7 @@ Podsumowując, prawidłowe działanie węzła zapewnia płatności atomowe, a Li
 
 :::video id=f0d17fe4-d793-4b90-924e-b551db501fbb:::
 
-
-Sieć Bitcoin działa jako system Trustless o wartości Exchange, służąc głównie jako Layer rozliczeniowy, w którym transakcje są rejestrowane na publicznym Ledger. Zapewnia to bezpieczeństwo i niezmienność, ale wiąże się z ograniczeniami, szczególnie pod względem szybkości transakcji i opłat. W rezultacie Bitcoin może być nieefektywny dla codziennych małych transakcji.
+Sieć Bitcoin działa jako system Trustless wartości Exchange, służąc głównie jako Layer rozliczeniowy, w którym transakcje są rejestrowane na publicznym Ledger. Zapewnia to bezpieczeństwo i niezmienność, ale wiąże się z ograniczeniami, szczególnie pod względem szybkości transakcji i opłat. W rezultacie Bitcoin może być nieefektywny dla codziennych małych transakcji.
 
 
 Wprowadź Lightning Network, który działa jako drugi Layer na szczycie Bitcoin Blockchain. Ta sieć płatności została zaprojektowana w celu ułatwienia szybkich i tanich transakcji. Otwierając kanał płatności między dwiema stronami, mogą one dokonywać transakcji off-chain, rejestrując jedynie salda początkowe i końcowe na Bitcoin Blockchain. To znacznie zmniejsza obciążenie głównej sieci, zwiększając skalowalność i umożliwiając mikrotransakcje.
@@ -2536,19 +2517,19 @@ Wprowadź Lightning Network, który działa jako drugi Layer na szczycie Bitcoin
 Aby lepiej zrozumieć tę koncepcję, rozważ analogię do karty barowej. Kiedy otwierasz kartę w barze, możesz stale zamawiać drinki bez płacenia za każdy z nich. Na koniec rozliczasz całkowitą kwotę na koniec wieczoru. Podobnie, kanał Lightning umożliwia wiele transakcji off-chain, które są rozliczane On-Chain dopiero po zamknięciu kanału. Inną analogią jest lotnisko, gdzie przekierowanie płatności przez wiele węzłów jest podobne do korzystania z lotów z przesiadkami, aby dotrzeć do miejsca docelowego. Każdy węzeł (lub "lot") pomaga skierować płatność tam, gdzie powinna dotrzeć, zapewniając efektywne przekierowanie.
 
 
-![airport analogy](assets/en/4/5.webp)_The airport analogy of LN_
+![airport analogy](assets/en/048.webp)_The airport analogy of LN_
 
 
-Zasadniczo Lightning Network uzupełnia sieć Bitcoin, eliminując jej ograniczenia, przekształcając ją ze zwykłego rozliczeniowego Layer we wszechstronny system zdolny do wydajnej obsługi codziennych transakcji.
+Zasadniczo, Lightning Network uzupełnia sieć Bitcoin, eliminując jej ograniczenia, przekształcając ją ze zwykłego rozliczeniowego Layer we wszechstronny system zdolny do wydajnej obsługi codziennych transakcji.
 
 
-### **Specyfikacja Lightning Network
+### **Specyfikacja Lightning Network**
 
 
 Protokół Lightning Network jest skrupulatnie zdefiniowany przez 10 BOLT (Basis of Lightning Technology). Te BOLT zostały uzgodnione podczas konferencji w Mediolanie i służą jako podstawa dla różnych implementacji Lightning Network.
 
 
-![bolt](assets/en/4/6.webp)_BOLT Diagram _
+![bolt](assets/en/049.webp)_BOLT Diagram _
 
 
 #### Bolt 1 (protokół podstawowy)
@@ -2558,7 +2539,7 @@ Bolt 1 określa formatowanie komunikatów przy użyciu struktury Type-Length-Val
 
 
 
-- Komunikaty**: Obejmują one komunikaty `Init`, `Error`, `Warning`, `Ping` i `Pong`, które ustanawiają połączenia, obsługują błędy, sondują status połączenia i zaciemniają ruch.
+- Komunikaty komunikacyjne**: Obejmują one komunikaty `Init`, `Error`, `Warning`, `Ping` i `Pong`, które ustanawiają połączenia, obsługują błędy, sondują status połączenia i zaciemniają ruch.
 - Komunikaty konfiguracji kanału**: Są one kluczowe podczas fazy ustanawiania kanału.
 - Komunikaty o stanie kanału**: Komunikaty te obsługują aktualizacje w aktywnych kanałach, zapewniając synchronizację obu stron.
 - Wiadomości plotkarskie**: Są one używane do wykrywania i aktualizacji topologii sieci.
@@ -2573,7 +2554,7 @@ Bolt 2 zagłębia się w cykl życia kanału, począwszy od jego utworzenia do n
 
 
 - Ustanowienie kanału**: W tej fazie strony otwierają kanał, podpisują Exchange i tworzą transakcję finansowania.
-- Normalne działanie**: W tym przypadku stan kanału jest stale aktualizowany za pomocą Hash Time-Locked Contracts (HTLC). Komunikaty Commitment i odwołania zapewniają, że obie strony zgadzają się co do bieżącego stanu.
+- Normalne działanie**: W tym przypadku stan kanału jest stale aktualizowany przy użyciu Hash Time-Locked Contracts (HTLCs). Komunikaty Commitment i odwołania zapewniają, że obie strony zgadzają się co do bieżącego stanu.
 - Rozliczenie**: Obejmuje zamknięcie kanału, zwykle poprzez wzajemne porozumienie i negocjacje opłat, w celu sfinalizowania transakcji bez wchodzenia w nieokreśloną pętlę zamknięcia.
 
 
@@ -2586,7 +2567,7 @@ HTLC odgrywają kluczową rolę w routingu płatności w sieci, umożliwiając b
 #### Wiadomości specjalne
 
 
-Konkretne komunikaty, takie jak `Update Fee`, dostosowują opłaty Miner do transakcji Commitment, podczas gdy komunikaty `Channel Reestablish` zapewniają, że oba peery pozostają zsynchronizowane po rozłączeniu.
+Konkretne komunikaty, takie jak `Update Fee`, dostosowują opłaty Miner dla transakcji Commitment, podczas gdy komunikaty `Channel Reestablish` zapewniają, że oba peery pozostają zsynchronizowane po rozłączeniu.
 
 
 #### Zamykanie kanałów
@@ -2595,7 +2576,7 @@ Konkretne komunikaty, takie jak `Update Fee`, dostosowują opłaty Miner do tran
 Kanały mogą być zamykane za obopólną zgodą, jednostronnym działaniem lub karą w przypadku wykrycia oszustwa. Prawidłowe zamknięcie bezpiecznie finalizuje transakcje.
 
 
-#### Swapy na potrzeby zarządzania płynnością
+#### Swapy do zarządzania płynnością
 
 
 Swapy umożliwiają wypłaty On-Chain i efektywne zarządzanie płynnością bez zamykania kanałów. Przyszłe rozwiązania, takie jak splicing, są opracowywane w celu usprawnienia tego procesu.
@@ -2607,10 +2588,10 @@ Swapy umożliwiają wypłaty On-Chain i efektywne zarządzanie płynnością bez
 Transakcje Commitment obejmują mechanizmy takie jak nLockTime, OPCheckSequenceVerify i klucze odwołania w celu zabezpieczenia środków i zapobiegania kradzieży.
 
 
-### Routing i Onion Routing
+### Routing i routing cebulowy
 
 
-![onion routing](assets/en/4/7.webp)_Onion Routing diagram _
+![onion routing](assets/en/050.webp)_Onion Routing diagram _
 
 
 Płatności są kierowane przy użyciu routingu Onion, który obejmuje tworzenie zaszyfrowanych pakietów wysyłanych przez wiele węzłów. HTLC zabezpieczają transakcję, zapewniając prywatność i bezpieczeństwo.
@@ -2619,10 +2600,10 @@ Płatności są kierowane przy użyciu routingu Onion, który obejmuje tworzenie
 ### Struktura Invoice
 
 
-Faktury Lightning Network (Bolt 11) są kodowane w Bech32 i zawierają szczegóły, takie jak płatność Hash, opis i wygaśnięcie. Każdy Invoice musi być użyty tylko raz, aby zapobiec ponownemu użyciu.
+Faktury Lightning Network (Bolt 11) są kodowane w Bech32 i zawierają szczegóły, takie jak płatność Hash, opis i wygaśnięcie. Każdy Invoice musi być użyty raz, aby zapobiec ponownemu użyciu.
 
 
-![Invoice structure](assets/en/4/8.webp)_BOLT11 Invoice_
+![Invoice structure](assets/en/051.webp)_BOLT11 Invoice_
 
 
 #### Szyfrowanie i uwierzytelnianie
@@ -2634,16 +2615,16 @@ Procedury Handshake i szyfrowanie (Chacha20) z uwierzytelnianiem (Poly1305) zape
 #### Alternatywy
 
 
-Inne metody żądania płatności, takie jak LNURL, KeySend i Bolt 12, oferują różne funkcje i poziomy przyjęcia, zapewniając elastyczność w sieci.
+Inne metody żądania płatności, takie jak LNURL, Keysend i Bolt 12, oferują różne funkcje i poziomy przyjęcia, zapewniając elastyczność w sieci.
 
 
 #### Wykrywanie sieci
 
 
-Wykrywanie sieci w Lightning Network ewoluowało od początkowego wykorzystania IRC (Internet Relay Communication) do bardziej wyrafinowanego protokołu zdefiniowanego przez Bolt 7. Protokół ten wykorzystuje określone komunikaty Lightning - powszechnie określane jako komunikaty plotkarskie - do wykrywania i utrzymywania topologii sieci.
+Wykrywanie sieci w Lightning Network ewoluowało od początkowego użycia IRC (Internet Relay Communication) do bardziej wyrafinowanego protokołu zdefiniowanego przez Bolt 7. Protokół ten wykorzystuje określone komunikaty Lightning, powszechnie określane jako komunikaty plotkarskie, do wykrywania i utrzymywania topologii sieci.
 
 
-#### Wiadomości Bolt7
+#### Komunikaty Bolt7
 
 
 Kluczowe komunikaty Bolt 7 obejmują:
@@ -2651,7 +2632,7 @@ Kluczowe komunikaty Bolt 7 obejmują:
 
 
 - Ogłoszenie węzła**: Ta wiadomość informuje o istnieniu węzła.
-- Ogłoszenie o kanale**: Ten komunikat informuje sieć o utworzeniu nowego kanału.
+- Ogłoszenie kanału**: Ten komunikat informuje sieć o utworzeniu nowego kanału.
 - Podpis ogłoszenia**: Zapewnia autentyczność nadawanych wiadomości.
 - Aktualizacja kanału**: Ten komunikat przekazuje aktualizacje dotyczące kanału, takie jak struktury opłat i maksymalne kwoty HTLC.
 
@@ -2662,13 +2643,13 @@ Kluczowe komunikaty Bolt 7 obejmują:
 Proces rozpoczyna się od wymiany tożsamości i szczegółów kanału przez lokalnych użytkowników. Po zweryfikowaniu podpisów i sfinansowaniu transakcji, ogłaszają oni kanał swoim partnerom w sieci, zapewniając, że cała sieć pozostaje na bieżąco z najnowszymi zmianami topologii.
 
 
-#### DNS Bootstrap
+#### DNS bootstrap
 
 
-Odkrywanie sieci równorzędnych Lightning jest ułatwione dzięki zapytaniom DNS i Bitcoin DNS seed, które dostarczają informacji o adresie IP i węźle. Ten początkowy mechanizm wykrywania pomaga węzłom szybko połączyć się z siecią.
+Wykrywanie węzłów równorzędnych Lightning jest ułatwione dzięki zapytaniom DNS i Bitcoin DNS seed, które dostarczają informacji o adresie IP i węźle. Ten początkowy mechanizm wykrywania pomaga węzłom szybko połączyć się z siecią.
 
 
-#### Ogłoszenia dotyczące funkcji
+#### Zapowiedzi funkcji
 
 
 Węzły mogą rozgłaszać swoje obsługiwane funkcje, zapewniając kompatybilność wsteczną, jednocześnie umożliwiając opcjonalne ulepszenia. Ta elastyczność zapewnia, że wszystkie węzły mogą płynnie współdziałać, nawet gdy protokół ewoluuje.
@@ -2689,13 +2670,13 @@ Chociaż jest to możliwe, przesyłanie danych głosowych za pośrednictwem Ligh
 #### Przypadki użycia i debaty
 
 
-Przeznaczenie Lightning Network jest tematem toczącej się debaty. Chociaż został zaprojektowany głównie do płatności, inne przypadki użycia, takie jak transmisja danych, są badane, choć nie są powszechnie akceptowane. Społeczność nieustannie omawia potencjalne aplikacje sieciowe i ulepszenia protokołu.
+Przeznaczenie Lightning Network jest tematem toczącej się debaty. Chociaż został zaprojektowany głównie do płatności, inne przypadki użycia, takie jak transmisja danych, są badane, choć nie są powszechnie akceptowane. Społeczność nieustannie omawia potencjalne zastosowania sieciowe i ulepszenia protokołu.
 
 
 #### Dyskusje społeczności
 
 
-Społeczność Lightning Network tętni życiem, angażując się w ciągłą debatę i dyskusję na temat przypadków użycia, zastosowań protokołu i potencjalnych ulepszeń. To oparte na współpracy środowisko sprzyja innowacjom, zapewniając jednocześnie ewolucję sieci w celu zaspokojenia potrzeb użytkowników.
+Społeczność Lightning Network tętni życiem, angażując się w ciągłe debaty i dyskusje na temat przypadków użycia, zastosowań protokołu i potencjalnych ulepszeń. To oparte na współpracy środowisko sprzyja innowacjom, zapewniając jednocześnie ewolucję sieci w celu zaspokojenia potrzeb użytkowników.
 
 
 Podsumowując, zrozumienie drugiego znaczenia Layer, specyfikacji Lightning Network i mechanizmów wykrywania sieci jest kluczowe dla każdego, kto chce zagłębić się w zawiłości Lightning Network. Jest to złożona, ale bardzo satysfakcjonująca dziedzina, która obiecuje zmienić przyszłość transakcji cyfrowych.
@@ -2709,31 +2690,30 @@ Podsumowując, zrozumienie drugiego znaczenia Layer, specyfikacji Lightning Netw
 
 :::video id=90240cb6-a942-4015-b0c2-b721c48309ec:::
 
-
-Lightning Network (LN) stanowi znaczący przełom w skalowalności Bitcoin i szybkości transakcji. Klienci LN, zwykle określani jako portfele Lightning, to wyspecjalizowane oprogramowanie lub aplikacje, które umożliwiają użytkownikom przeprowadzanie transakcji za pośrednictwem Lightning Network. Portfele te służą jako kluczowy Interface między użytkownikiem a LN, ułatwiając natychmiastowo rozliczane, niskopłatne transakcje poprzez wykorzystanie ścieżek off-chain.
+Lightning Network (LN) stanowi znaczący przełom w skalowalności Bitcoin i szybkości transakcji. Klienci LN, zwykle określani jako portfele Lightning, to wyspecjalizowane oprogramowanie lub aplikacje, które umożliwiają użytkownikom przeprowadzanie transakcji za pośrednictwem Lightning Network. Portfele te służą jako kluczowy Interface pomiędzy użytkownikiem a LN, ułatwiając natychmiastowo rozliczane, niskopłatne transakcje poprzez wykorzystanie ścieżek off-chain.
 
 
 Portfele Lightning zostały zaprojektowane tak, aby proces ten był przyjazny dla użytkownika, umożliwiając nawet osobom o minimalnej wiedzy technicznej korzystanie z zaawansowanych funkcji Bitcoin. Umożliwiając szybkie i opłacalne mikrotransakcje, portfele te znacząco przyczyniają się do szerszego zastosowania Bitcoin w codziennych transakcjach.
 
 
-![LN Clients](assets/en/4/9.webp)_Lightning Wallets_
+![LN Clients](assets/en/052.webp)_Lightning Wallets_
 
 
 ### Portfele Bitcoin vs. portfele Lightning
 
 
-Portfele Bitcoin i Lightning różnią się zasadniczo pod względem architektury i przypadków użycia, chociaż mają wspólną cechę zarządzania kluczami prywatnymi:
+Portfele Bitcoin i Lightning różnią się zasadniczo pod względem architektury i przypadków użycia, choć mają wspólną cechę zarządzania kluczami prywatnymi:
 
 
 #### Portfele Bitcoin:
 
 
 
-- Klucz prywatny**: Głównym celem portfeli Bitcoin jest to, kto posiada klucz prywatny. Określa to bezpieczeństwo i kontrolę środków użytkownika.
+- Klucz prywatny**: Głównym celem portfeli Bitcoin jest to, kto posiada klucz prywatny. Decyduje to o bezpieczeństwie i kontroli środków użytkownika.
 - Złożoność transakcji**: Portfele Bitcoin obsługują różne skrypty transakcyjne, takie jak Segregated Witness (SegWit) i Taproot, które optymalizują rozmiary transakcji oraz zwiększają prywatność i bezpieczeństwo.
 
 
-#### Lightning Wallets:
+#### Portfele Lightning:
 
 
 
@@ -2741,7 +2721,7 @@ Portfele Bitcoin i Lightning różnią się zasadniczo pod względem architektur
 - Zarządzanie płynnością**: Charakterystyczną cechą portfeli Lightning jest potrzeba zarządzania płynnością, która obejmuje równoważenie płynności lokalnej (wychodzącej) i zdalnej (przychodzącej) w celu zapewnienia płynnego przekierowywania transakcji. Wymaga to od użytkowników zrozumienia i zoptymalizowania swoich kanałów w celu ułatwienia skutecznego przekazywania płatności.
 
 
-#### Zarządzanie płynnością w Lightning Wallets
+#### Zarządzanie płynnością w lightning wallets
 
 
 Skuteczne zarządzanie płynnością jest kamieniem węgielnym udanych operacji Lightning Network. Obejmuje ono strategiczną równowagę dwóch podstawowych rodzajów płynności:
@@ -2751,7 +2731,7 @@ Skuteczne zarządzanie płynnością jest kamieniem węgielnym udanych operacji 
 
 
 
-- Reprezentuje to ilość Bitcoin, które użytkownik może wysłać ze swoich kanałów Lightning. Ma to kluczowe znaczenie dla inicjowania płatności i zapewnienia, że transakcje mogą być kierowane do odbiorcy.
+- Reprezentuje to ilość Bitcoin, jaką użytkownik może wysłać ze swoich kanałów Lightning. Ma to kluczowe znaczenie dla inicjowania płatności i zapewnienia, że transakcje mogą być kierowane do odbiorcy.
 
 
 #### Płynność zdalna (przychodząca):
@@ -2764,18 +2744,18 @@ Skuteczne zarządzanie płynnością jest kamieniem węgielnym udanych operacji 
 #### Przykład zarządzania płynnością:
 
 
-![Example of Liquidity](assets/en/4/10.webp)_Lightning Liquidity_
+![Example of Liquidity](assets/en/053.webp)_Lightning Liquidity_
 
 
-Rozważmy scenariusz z udziałem Alice, Boba, Charliego i Dana - typowych użytkowników LN połączonych różnymi kanałami:
+Rozważmy scenariusz z udziałem Alice, Bob, Charliego i Dana - typowych użytkowników LN połączonych różnymi kanałami:
 
 
 
-- Alice chce zapłacić Danowi, ale nie ma wystarczającej lokalnej płynności w swoim kanale z Bobem.
-- Jeśli Bob ma odpowiednie saldo i kanał z Charliem, a Charlie ma kanał z Danem, płatność Alicji może zostać przekierowana przez Boba i Charliego, aby dotrzeć do Dana.
+- Alice chce zapłacić Danowi, ale nie ma wystarczającej lokalnej płynności w swoim kanale z Bob.
+- Jeśli Bob ma odpowiednie saldo i kanał z Charliem, a Charlie ma kanał z Danem, płatność Alice może zostać przekierowana przez Bob i Charliego do Dana.
 
 
-![Example of Liquidity](assets/en/4/11.webp)_Lightning Liquidity_
+![Example of Liquidity](assets/en/054.webp)_Lightning Liquidity_
 
 
 Jeśli jednak którykolwiek z tych kanałów zostanie wyczerpany lub wystąpią problemy z łącznością, transakcja może zakończyć się niepowodzeniem. Ilustruje to znaczenie utrzymania zrównoważonej płynności w całej sieci.
@@ -2792,7 +2772,7 @@ Jeśli jednak którykolwiek z tych kanałów zostanie wyczerpany lub wystąpią 
 Aby sprostać tym wyzwaniom, dostawcy usług płynności (LSP) oferują usługi pomagające zarządzać płynnością, często za opłatą, zapewniając użytkownikom utrzymanie optymalnych sald kanałów dla płynnych transakcji.
 
 
-### Różne portfele i ich cechy
+### Różne portfele i ich funkcje
 
 
 Dostępne są różne portfele Lightning, z których każdy zaspokaja inne potrzeby i preferencje użytkowników. Oto kilka przykładów:
@@ -2833,7 +2813,7 @@ Dostępne są różne portfele Lightning, z których każdy zaspokaja inne potrz
 - Cechy**: Integruje portfele On-Chain i Lightning, obsługuje hostowane kanały, open-source z zaawansowanymi funkcjami, odpowiedni dla zaawansowanych użytkowników.
 
 
-### Matryca zarządzania środkami pieniężnymi i płynnością
+### Matryca zarządzania przechowywaniem i płynnością
 
 
 Portfele można klasyfikować na podstawie tego, kto posiada klucze prywatne i kto zarządza płynnością. Matryca ta pomaga użytkownikom wybrać portfele, które odpowiadają ich preferencjom w zakresie bezpieczeństwa i wygody:
@@ -2841,13 +2821,13 @@ Portfele można klasyfikować na podstawie tego, kto posiada klucze prywatne i k
 
 
 - Portfele powiernicze**: Osoby trzecie przechowują klucze prywatne, zwykle oferują automatyczne zarządzanie płynnością. Przykłady obejmują Wallet i Satoshi.
-- Portfele inne niż depozytowe**: Użytkownicy posiadają klucze prywatne, mogą wymagać ręcznego zarządzania płynnością. Przykłady obejmują Breeze i OBW.
+- Portfele inne niż powiernicze**: Użytkownicy posiadają klucze prywatne, mogą wymagać ręcznego zarządzania płynnością. Przykłady obejmują Breeze i OBW.
 
 
-![Liquidity Lightning](assets/en/4/12.webp)_2x2 Matrix of LN Clients_
+![Liquidity Lightning](assets/en/055.webp)_2x2 Matrix of LN Clients_
 
 
-### Krytyka i obszary poprawy
+### Krytyka i obszary ulepszeń
 
 
 Pomimo swoich zalet, portfele Lightning napotykają kilka krytycznych uwag i obszarów wymagających poprawy:
@@ -2862,7 +2842,7 @@ Pomimo swoich zalet, portfele Lightning napotykają kilka krytycznych uwag i obs
 ### Dodatkowe spostrzeżenia i przypadki użycia
 
 
-#### Wyzwania związane z algorytmami:
+#### Wyzwania związane z algorytmem:
 
 
 Obecne algorytmy wyszukiwania optymalnej ścieżki w Lightning Network są często nieoptymalne i wymagają prób i błędów. Potrzebne są ulepszenia, aby zwiększyć wydajność routingu.
@@ -2874,7 +2854,7 @@ Obecne algorytmy wyszukiwania optymalnej ścieżki w Lightning Network są częs
 Podział większych płatności na mniejsze transakcje może złagodzić kwestie związane z płynnością i wyszukiwaniem ścieżek, zapewniając płynniejsze transakcje.
 
 
-#### Zarobki z routingu:
+#### Zysk z trasowania:
 
 
 Zyski z opłat za routing są zazwyczaj minimalne, co sprawia, że uruchamianie węzłów routingu w celach zarobkowych jest mniej atrakcyjne dla indywidualnych użytkowników.
@@ -2895,7 +2875,7 @@ Zyski z opłat za routing są zazwyczaj minimalne, co sprawia, że uruchamianie 
 Różne portfele służą różnym celom, od łatwości użytkowania dla początkujących po zaawansowane funkcje dla zaawansowanych użytkowników. Nie ma jednego "najlepszego" Wallet; wybór zależy od indywidualnych potrzeb i preferencji.
 
 
-#### Wkład Open Source:
+#### Wkład open source:
 
 
 Opinie użytkowników i wkład w projekty open-source są nieocenione dla rozwoju i rozwoju umiejętności osobistych, wspierając współpracę i innowacyjne środowisko.
@@ -2919,7 +2899,7 @@ Podsumowując, zrozumienie różnych aspektów klientów Lightning Network, ich 
 **(wideo będzie dostępne wkrótce)**
 
 
-W tej sesji Asi0 zajmuje się praktycznymi wyzwaniami napotykanymi podczas pracy z Lightning Network (LN). Pomimo rewolucyjnego podejścia do skalowania transakcji Bitcoin, Lightning Network stawia kilka praktycznych wyzwań, z którymi muszą sobie poradzić zarówno użytkownicy, jak i programiści. W szczególności przeanalizujemy cztery główne wyzwania: **zarządzanie płynnością**, **abstrakcję Layer 1/Layer 2**, **odbieranie płatności offline** i **zarządzanie kopiami zapasowymi**.
+W tej sesji Asi0 zajmuje się praktycznymi wyzwaniami napotykanymi podczas pracy z Lightning Network (LN). Pomimo rewolucyjnego podejścia do skalowania transakcji Bitcoin, Lightning Network stawia kilka praktycznych wyzwań, z którymi muszą sobie poradzić zarówno użytkownicy, jak i programiści. W szczególności przeanalizujemy cztery główne wyzwania: **zarządzanie płynnością**, **abstrakcję Layer 1/Layer 2**, **odbieranie płatności offline** oraz **zarządzanie kopiami zapasowymi**.
 
 
 Każde z tych wyzwań jest postrzegane z dwóch perspektyw: **użytkownika** i **dewelopera**, ponieważ wyzwania i rozwiązania różnią się w zależności od roli, jaką odgrywasz w ekosystemie.
@@ -2927,7 +2907,7 @@ Każde z tych wyzwań jest postrzegane z dwóch perspektyw: **użytkownika** i *
 
 ---
 
-### Wyzwanie 1: Zarządzanie płynnością
+### Wyzwanie 1: zarządzanie płynnością
 
 
 #### **Z perspektywy użytkownika:**
@@ -2949,7 +2929,7 @@ Deweloperzy stoją przed wyzwaniem wdrożenia płynnego zarządzania płynności
 
 
 - Kwestia praktyczna**: Wdrożenie skutecznych algorytmów routingu płatności w sieci o zmiennej płynności może być złożone i wymagać dużych nakładów obliczeniowych.
-- Możliwe rozwiązania**: Deweloperzy badają zaawansowane algorytmy **przekierowywania płynności** i wykorzystują **podwójnie finansowane kanały**, aby zapewnić płynność po obu stronach transakcji.
+- Możliwe rozwiązania**: Deweloperzy badają zaawansowane algorytmy **kierowania płynnością** i wykorzystują **podwójnie finansowane kanały**, aby zapewnić płynność po obu stronach transakcji.
 
 
 > **Definicje**:
@@ -2960,17 +2940,17 @@ Deweloperzy stoją przed wyzwaniem wdrożenia płynnego zarządzania płynności
 
 ---
 
-### Wyzwanie 2: Abstrakcja L1/L2
+### Wyzwanie 2: abstrakcja L1/L2
 
 
 #### **Z perspektywy użytkownika:**
 
 
-Interakcja między **Layer 1 (L1)** (Bitcoin bazowy Layer) i **Layer 2 (L2)** (Lightning Network) często nie jest w pełni abstrakcyjna dla użytkowników. Na przykład otwieranie i zamykanie kanałów wymaga transakcji On-Chain Bitcoin (L1), a użytkownicy muszą płacić opłaty On-Chain za te działania. Wprowadza to dodatkową złożoność i potencjalne opóźnienia, gdy sieć Bitcoin jest przeciążona.
+Interakcja między **Layer 1 (L1)** (Bitcoin bazowy Layer) i **Layer 2 (L2)** (Lightning Network) często nie jest w pełni abstrakcyjna dla użytkowników. Na przykład otwieranie i zamykanie kanałów wymaga transakcji On-Chain Bitcoin (L1), a użytkownicy muszą uiszczać opłaty On-Chain za te działania. Wprowadza to dodatkową złożoność i potencjalne opóźnienia, gdy sieć Bitcoin jest przeciążona.
 
 
 
-- Kwestia praktyczna**: Użytkownicy często borykają się ze złożonością zrozumienia, kiedy wchodzą w interakcję z Bitcoin bazowym Layer, a kiedy z Lightning Layer. Może to prowadzić do nieporozumień dotyczących opłat, czasu transakcji i bezpieczeństwa.
+- Kwestia praktyczna**: Użytkownicy często borykają się ze złożonością zrozumienia, kiedy wchodzą w interakcję z Bitcoin bazowym Layer a kiedy z Lightning Layer. Może to prowadzić do nieporozumień dotyczących opłat, czasu transakcji i bezpieczeństwa.
 - Możliwe rozwiązania**: Ulepszone projekty Wallet, które abstrahują interakcje L1/L2 i zarządzają otwieraniem/zamykaniem kanałów w tle. Niektóre portfele pozwalają już użytkownikom na płynne przełączanie się między transakcjami On-Chain i Lightning, w zależności od okoliczności.
 
 
@@ -2994,17 +2974,17 @@ Programiści mają za zadanie abstrahować złożoność L1 i L2 dla użytkownik
 
 ---
 
-### Wyzwanie 3: Otrzymywanie płatności offline
+### Wyzwanie 3: otrzymywanie płatności offline
 
 
 #### **Z perspektywy użytkownika:**
 
 
-Jednym z wyzwań w Lightning Network jest **otrzymywanie płatności, gdy użytkownik jest offline**. W przeciwieństwie do bazowego Bitcoin, gdzie transakcje mogą być odbierane w dowolnym momencie, Lightning wymaga, aby zarówno płatnik, jak i odbiorca byli online, aby sfinalizować transakcję. Jest to znaczące ograniczenie dla wielu użytkowników, którzy chcą korzystać z płatności Lightning w codziennych sytuacjach.
+Jednym z wyzwań w Lightning Network jest **otrzymywanie płatności, gdy użytkownik jest offline**. W przeciwieństwie do bazowego Bitcoin, w którym transakcje mogą być odbierane w dowolnym momencie, Lightning wymaga, aby zarówno płatnik, jak i odbiorca byli online, aby sfinalizować transakcję. Jest to znaczące ograniczenie dla wielu użytkowników, którzy chcą korzystać z płatności Lightning w codziennych sytuacjach.
 
 
 
-- Problem praktyczny**: Użytkownicy nie mogą otrzymywać płatności, chyba że ich węzeł jest online i połączony z siecią, co sprawia, że jest to niewygodne dla tych, którzy chcą używać Lightning jako codziennej metody płatności.
+- Kwestia praktyczna**: Użytkownicy nie mogą otrzymywać płatności, chyba że ich węzeł jest online i połączony z siecią, co sprawia, że jest to niewygodne dla tych, którzy chcą używać Lightning jako codziennej metody płatności.
 - Możliwe rozwiązania**: Niektóre obejścia obejmują korzystanie z portfeli powierniczych lub poleganie na usługach stron trzecich, które działają jako pośrednicy płatności do czasu uruchomienia węzła odbiorcy.
 
 
@@ -3016,18 +2996,18 @@ Deweloperzy badają sposoby na umożliwienie użytkownikom otrzymywania płatno�
 
 
 - Kwestia praktyczna**: Opracowanie protokołu lub systemu, który umożliwia użytkownikom otrzymywanie płatności w trybie offline bez narażania bezpieczeństwa lub decentralizacji, stanowi poważne wyzwanie techniczne.
-- Możliwe rozwiązania**: Trwają badania nad **kuponami płatności offline**, które umożliwiłyby odbiorcom ubieganie się o płatności po ponownym połączeniu się z siecią.
+- Możliwe rozwiązania**: Trwają badania nad **kuponami płatniczymi offline**, które umożliwiłyby odbiorcom ubieganie się o płatności po ponownym połączeniu się z siecią.
 
 
 > **Definicje**:
 >
 
-> - **Płatności offline**: Płatności wysłane lub odebrane, gdy jedna ze stron nie jest połączona z Lightning Network.
+> - **Płatności offline**: Płatności wysłane lub otrzymane, gdy jedna ze stron nie jest połączona z Lightning Network.
 > - **Portfele powiernicze**: Portfele, w których strona trzecia kontroluje klucze prywatne i zarządza transakcjami w imieniu użytkownika.
 
 ---
 
-### Wyzwanie 4: Zarządzanie kopiami zapasowymi
+### Wyzwanie 4: zarządzanie kopiami zapasowymi
 
 
 #### **Z perspektywy użytkownika:**
@@ -3037,7 +3017,7 @@ Tworzenie kopii zapasowych kanałów Lightning ma kluczowe znaczenie dla użytko
 
 
 
-- Kwestia praktyczna**: Użytkownicy muszą upewnić się, że ich kopie zapasowe kanałów są aktualne, ponieważ korzystanie z nieaktualnej kopii zapasowej może spowodować utratę środków lub karę ze strony sieci.
+- Kwestia praktyczna**: Użytkownicy muszą upewnić się, że kopie zapasowe ich kanałów są aktualne, ponieważ korzystanie z nieaktualnej kopii zapasowej może skutkować utratą środków lub karą ze strony sieci.
 - Możliwe rozwiązania**: Portfele takie jak Phoenix i inne wdrożyły automatyczne tworzenie kopii zapasowych kanałów, ale funkcje te nie są jeszcze wszechobecne we wszystkich portfelach Lightning.
 
 
@@ -3049,7 +3029,7 @@ Deweloperzy muszą wdrożyć rozwiązania do tworzenia kopii zapasowych, które 
 
 
 - Kwestia praktyczna**: Projektowanie systemów kopii zapasowych, które są bezpieczne, zdecentralizowane i przyjazne dla użytkownika, stanowi poważne wyzwanie, ponieważ kopie zapasowe muszą być aktualizowane przy każdej zmianie stanu kanału.
-- Możliwe rozwiązania**: **Statyczne kanałowe kopie zapasowe (SCB)** zostały opracowane w celu uproszczenia odzyskiwania danych, ale potrzebne są bardziej zaawansowane rozwiązania do w pełni zautomatyzowanego i bezpiecznego tworzenia kopii zapasowych.
+- Możliwe rozwiązania**: **Statyczne kanałowe kopie zapasowe (SCB)** zostały opracowane w celu uproszczenia odzyskiwania danych, ale potrzebne są bardziej zaawansowane rozwiązania dla w pełni zautomatyzowanych i bezpiecznych kopii zapasowych.
 
 
 > **Definicje**:
@@ -3078,16 +3058,15 @@ Dzięki sprostaniu tym wyzwaniom, Lightning Network będzie nadal dojrzewać, st
 
 :::video id=ab5f65f1-0b0d-4ca9-8ff7-d42764c1e915:::
 
-
 ### Odporność i ewolucja Bitcoin
 
 
-**Maskotka Bitcoin: Honey Badger**
+**Maskotka Bitcoin: miodowy borsuk**
 
-Bitcoin jest często uosabiany przez borsuka, stworzenie znane ze swojej wytrwałości i odporności. Symbol ten trafnie reprezentuje solidną i nieugiętą naturę Bitcoin. Tak jak borsuk może wytrzymać jadowite ukąszenia i nadal się rozwijać, tak Bitcoin wykazał się niezwykłą odpornością na różne przeciwności losu, w tym wyzwania regulacyjne, zmienność rynku i ataki techniczne.
+Bitcoin jest często uosabiany przez borsuka, stworzenie znane ze swojej wytrwałości i odporności. Symbol ten trafnie reprezentuje solidną i nieugiętą naturę Bitcoin. Podobnie jak borsuk może wytrzymać jadowite ukąszenia i nadal się rozwijać, Bitcoin wykazał niezwykłą odporność na różne przeciwności losu, w tym wyzwania regulacyjne, zmienność rynku i ataki techniczne.
 
 
-**Natura Bitcoin: Ciągły rozwój**
+**Natura Bitcoin: ciągły rozwój**
 
 W przeciwieństwie do pojęcia bycia statycznym, Bitcoin jest w stanie ciągłej ewolucji. Jego protokół i ekosystem są stale udoskonalane i ulepszane przez globalną społeczność programistów i badaczy. Ten ewolucyjny proces jest napędzany potrzebą zwiększenia bezpieczeństwa, skalowalności i funkcjonalności, zapewniając, że Bitcoin pozostaje w czołówce kryptowalut.
 
@@ -3095,14 +3074,14 @@ W przeciwieństwie do pojęcia bycia statycznym, Bitcoin jest w stanie ciągłej
 ### Innowacje w Lightning Network
 
 
-**Lightning Network: Szybki rozwój**
+**Lightning Network: szybki rozwój**
 
-Lightning Network, drugie rozwiązanie Bitcoin do skalowania i przyspieszania transakcji, jest w fazie szybkiego rozwoju. Ten Layer pozwala na szybkie, tanie transakcje poprzez włączenie kanałów płatności off-chain. Wprowadzane są znaczące innowacje w celu zwiększenia jego wydajności i użyteczności.
+Lightning Network, drugie rozwiązanie Bitcoin - Layer do skalowania i przyspieszania transakcji, jest w fazie szybkiego rozwoju. Ten Layer pozwala na szybkie, tanie transakcje poprzez włączenie kanałów płatności off-chain. Wprowadzane są znaczące innowacje w celu zwiększenia jego wydajności i użyteczności.
 
 
 **Podwójnie finansowane kanały**
 
-Tradycyjnie kanał Lightning jest finansowany przez jedną stronę. Jednak kanały z podwójnym finansowaniem pozwalają obu stronom (np. Alice i Bob) przyczynić się do płynności kanału. To ulepszenie ułatwia większą elastyczność zarówno w zakresie wysyłania, jak i odbierania przepustowości i wymaga wcześniejszej komunikacji oraz nowych protokołów do zarządzania wspólnym finansowaniem.
+Tradycyjnie kanał Lightning jest finansowany przez jedną stronę. Jednak kanały z podwójnym finansowaniem umożliwiają obu stronom (np. Alice i Bob) wniesienie wkładu w płynność kanału. To ulepszenie ułatwia większą elastyczność zarówno w zakresie wysyłania, jak i odbierania przepustowości i wymaga wcześniejszej komunikacji oraz nowych protokołów do zarządzania wspólnym finansowaniem.
 
 
 **Splicing**
@@ -3123,12 +3102,12 @@ Bolt 12 rozwiązuje ograniczenia obecnych faktur Bolt 11 używanych w Lightning 
 ### Zwiększenie prywatności i wydajności w transakcjach Bitcoin
 
 
-**Podpisy Taproot, MuSig i Schnorr**
+**Podpisy Taproot, muSig i Schnorr**
 
 Taproot to znacząca aktualizacja, która konsoliduje złożoność transakcji i zwiększa prywatność. W połączeniu z MuSig (protokołem dla transakcji z wieloma podpisami) i Schnorr Signatures, Taproot poprawia wydajność transakcji. Te ulepszenia pozwalają transakcjom Lightning przypominać zwykłe transakcje Bitcoin, upraszczając proces i wzmacniając prywatność.
 
 
-**PTLC Routing**
+**Trasowanie PTLC**
 
 Point Time Locked Contracts (PTLC) stanowią ulepszenie w stosunku do istniejących Hash Time Lock Contracts (HTLC). PTLC wykorzystują podpisy Schnorra i poprawiają prywatność, zastępując wspólne tajemnice kluczami publicznymi, zmniejszając potencjał korelacji płatności i nadużyć.
 
@@ -3140,7 +3119,7 @@ Fabryki kanałów umożliwiają tworzenie kanałów wielostronnych (np. 4 z 4 Mu
 
 **Watchtowers**
 
-Wieże strażnicze to podmioty zewnętrzne, które monitorują Blockchain pod kątem starych stanów kanałów. W przypadku wykrycia naruszenia publikują one transakcje karne w celu zapewnienia bezpieczeństwa sieci. Chociaż wieże strażnicze zwiększają bezpieczeństwo poprzez powstrzymywanie niewłaściwego zachowania, wprowadzają również obawy dotyczące prywatności związane z monitorowaniem transakcji.
+Wieże strażnicze to podmioty zewnętrzne, które monitorują Blockchain pod kątem starych stanów kanałów. W przypadku wykrycia naruszenia publikują one transakcje karne w celu zapewnienia bezpieczeństwa sieci. Podczas gdy wieże strażnicze zwiększają bezpieczeństwo poprzez powstrzymywanie niewłaściwego zachowania, wprowadzają również obawy dotyczące prywatności związane z monitorowaniem transakcji.
 
 
 **blinded Paths**
@@ -3150,18 +3129,18 @@ Wieże strażnicze to podmioty zewnętrzne, które monitorują Blockchain pod k�
 
 **Dostawcy usług oświetleniowych (LSP)**
 
-Dostawcy usług Lightning (LSP), opracowani przez Breeze Wallet, mają na celu poprawę komfortu użytkowania poprzez umożliwienie natychmiastowego odbioru. LSP otwierają kanały dla użytkowników, podobnie jak dostawcy usług internetowych oferują usługi łączności. Ta innowacja upraszcza proces wdrażania użytkownika i zapewnia płynne interakcje na Lightning Network.
+Koncepcja opracowana przez Breeze Wallet, Lightning Service Providers (LSP) ma na celu poprawę doświadczenia użytkownika poprzez umożliwienie natychmiastowego odbioru. LSP otwierają kanały dla użytkowników, podobnie jak dostawcy usług internetowych oferują usługi łączności. Ta innowacja upraszcza proces wdrażania użytkownika i zapewnia płynne interakcje na Lightning Network.
 
 
 **Zasoby umożliwiające bycie na bieżąco**
 
-Aby być na bieżąco z najnowszymi innowacjami technicznymi w Bitcoin i Lightning Network, konieczne jest wykorzystanie cennych zasobów. Biuletyn Bitcoin OpTec, lista mailingowa Lightning Dev i materiały od ekspertów branżowych, takich jak Jason Lopp, zapewniają wgląd i aktualizacje dotyczące bieżących postępów i badań w tej szybko rozwijającej się dziedzinie.
+Aby być na bieżąco z najnowszymi innowacjami technicznymi w Bitcoin i Lightning Network, konieczne jest wykorzystanie cennych zasobów. Biuletyn Bitcoin OpTec, lista mailingowa lightning dev i materiały od ekspertów branżowych, takich jak Jason Lopp, zapewniają wgląd i aktualizacje dotyczące bieżących postępów i badań w tej szybko rozwijającej się dziedzinie.
 
 
-Rozumiejąc i doceniając te zmiany, możemy dostrzec wieloaspektowy postęp i potencjał, jaki Bitcoin i Lightning Network mają dla przyszłości transakcji cyfrowych.
+Rozumiejąc i doceniając te zmiany, możemy dostrzec wieloaspektowy postęp i potencjał, jaki zarówno Bitcoin, jak i Lightning Network mają dla przyszłości transakcji cyfrowych.
 
 
-## Protokoły na szczycie LN
+## Protokoły oparte na LN
 
 
 <chapterId>f4d147bb-f146-5b36-a994-b9b70da83744</chapterId>
@@ -3171,8 +3150,7 @@ Rozumiejąc i doceniając te zmiany, możemy dostrzec wieloaspektowy postęp i p
 
 :::video id=ffee9682-1bfa-4717-9f22-9bc1baff0722:::
 
-
-### Rozszerzanie i integracja Lightning Payments
+### Rozszerzenie i integracja płatności Lightning
 
 
 #### Zrozumienie płatności Lightning
@@ -3181,12 +3159,12 @@ Rozumiejąc i doceniając te zmiany, możemy dostrzec wieloaspektowy postęp i p
 Przed zagłębieniem się w rozszerzenia i integracje płatności Lightning, ważne jest, aby zrozumieć podstawowe działanie płatności Lightning. Konwencjonalna płatność Lightning obejmuje kilka kluczowych elementów: **płatnika**, **odbiorcę** i sam **Lightning Network**. Płatnik inicjuje płatność na rzecz odbiorcy, generując **Invoice**, który zawiera krytyczne informacje, takie jak kwota do zapłaty i miejsce docelowe (węzeł odbiorcy).
 
 
-Proces ten opiera się na **Hash umowach z blokadą czasową (HTLC)**, które zapewniają, że płatności mogą być odebrane tylko przez prawowitego odbiorcę w określonych ramach czasowych. Dwa ważne Elements w tym mechanizmie to **Onion Routing** i **HTLC Chain**:
+Proces ten opiera się na **Hash umowach z blokadą czasową (HTLC)**, które zapewniają, że płatności mogą być odebrane tylko przez prawowitego odbiorcę w określonych ramach czasowych. Dwa ważne Elements w tym mechanizmie to **Onion eouting** i **HTLC chain**:
 
 
 
-- Onion Routing**: Zapewnia prywatność poprzez hermetyzację danych transakcji w warstwach, zapewniając, że każdy pośrednik zna tylko swoje poprzednie i następne węzły, ale nie całą trasę.
-- HTLC Chain**: Seria kontraktów, które blokują środki do czasu zakończenia płatności lub jej wycofania.
+- Onion routing**: Zapewnia prywatność poprzez hermetyzację danych transakcji w warstwach, zapewniając, że każdy pośrednik zna tylko swoje poprzednie i następne węzły, ale nie całą trasę.
+- Łańcuch HTLC**: Seria kontraktów, które blokują środki do momentu zakończenia płatności lub jej cofnięcia.
 
 
 Nowszym protokołem zwiększającym możliwości Lightning Network jest **Keysend**. W przeciwieństwie do tradycyjnych metod, które wymagają wcześniejszej komunikacji między nadawcą a odbiorcą generate i Invoice, Keysend umożliwia **płatności inicjowane przez nadawcę**, usprawniając proces i poprawiając wrażenia użytkownika.
@@ -3204,8 +3182,8 @@ Tradycyjne faktury mają jednak swoje ograniczenia. Na przykład:
 >
 
 > - **Invoice**: Wniosek o płatność w Lightning Network, zazwyczaj zawierający kwotę i dane odbiorcy.
-> - ** HTLC (Hash z blokadą czasową Contract)**: Rodzaj Smart contract używany do zapewnienia warunkowych płatności w określonym czasie.
-> - **Onion Routing**: Technika prywatności, w której dane transakcji są ułożone warstwowo jak cebula w celu ochrony tożsamości nadawcy i odbiorcy.
+> - **HTLC (Hash z blokadą czasową Contract)**: Rodzaj Smart contract używany do zapewnienia warunkowych płatności w określonym czasie.
+> - **Routing cebulowy**: Technika prywatności, w której dane transakcji są ułożone warstwowo jak cebula w celu ochrony tożsamości nadawcy i odbiorcy.
 
 ### Protokoły i przypadki użycia
 
@@ -3220,7 +3198,7 @@ pomimo ograniczeń tradycyjnych faktur, pojawiło się kilka protokołów rozsze
 
 
 
-- Bolt 12 ofert**: Ten protokół jest podobny do LNURL, ale wykorzystuje **komunikację cebulową** w celu zwiększenia prywatności. Bolt 12 umożliwia użytkownikom automatyczne pobieranie faktur bez ręcznej interwencji, poprawiając zarówno prywatność, jak i użyteczność.
+- Bolt 12 ofert**: Protokół ten jest podobny do LNURL, ale wykorzystuje **komunikację cebulową** w celu zwiększenia prywatności. Bolt 12 umożliwia użytkownikom automatyczne pobieranie faktur bez ręcznej interwencji, poprawiając zarówno prywatność, jak i użyteczność.
 
 
 Jedną z godnych uwagi integracji płatności Lightning jest **Nostr**, zdecentralizowana platforma mediów społecznościowych. Nostr integruje płatności Lightning, aby umożliwić napiwki i mikrotransakcje, pokazując, jak Lightning może być osadzony w różnych aplikacjach.
@@ -3260,7 +3238,7 @@ Płatności Lightning są również integrowane z platformami takimi jak **Nostr
 Zaawansowane protokoły, takie jak **Point Time-Locked Contracts (PTLC)**, posuwają Lightning jeszcze dalej, umożliwiając bardziej złożone operacje kryptograficzne. PTLC oferują ulepszenia w zakresie routingu i podziału płatności, zwiększając zarówno bezpieczeństwo, jak i wydajność.
 
 
-Protokoły takie jak **LNURL** i **Bolt 12** usprawniają płatności poprzez redukcję ręcznych interakcji, zapewniając, że Lightning Network stanie się bardziej przyjazny dla użytkownika i szeroko przyjęty.
+Protokoły takie jak **LNURL** i **Bolt 12** usprawniają płatności poprzez redukcję ręcznych interakcji, zapewniając, że Lightning Network stanie się bardziej przyjazny dla użytkownika i powszechnie stosowany.
 
 
 > **Definicje**:
@@ -3292,14 +3270,13 @@ Rozszerzenie i integracja płatności Lightning poprzez różne protokoły i prz
 
 :::video id=161d074d-4a81-48da-b2c9-9bde041a0da5:::
 
-
 #### Wprowadzenie
 
 
 Ajelex koncentruje się na biznesowym aspekcie Bitcoin Mining, badając strategie utrzymania rentowności na konkurencyjnym rynku. Dyskusja obejmuje analizę kosztów operacyjnych, środków efektywności i ekonomii napędzających branżę Mining.
 
 
-### 1. Mining Czynniki złożoności i rentowności
+### 1. Czynniki złożoności i rentowności Mining
 
 
 #### Czynniki techniczne i strategiczne
@@ -3311,10 +3288,10 @@ Złożoność Mining w kontekście Bitcoin obejmuje przede wszystkim techniczne 
 #### Kluczowe czynniki rentowności
 
 
-![energy cost](assets/en/bonus/mining/1.webp)
+![energy cost](assets/en/056.webp)
 
 
-1. **Koszty energii elektrycznej**: Jednym z najważniejszych czynników wpływających na rentowność Mining jest koszt energii elektrycznej. W regionach takich jak Francja, energia elektryczna może być stosunkowo droga w porównaniu do krajów takich jak Salwador, gdzie niższe koszty zapewniają górnikom przewagę konkurencyjną.
+1. **Koszty energii elektrycznej**: Jednym z najważniejszych czynników wpływających na rentowność Mining jest koszt energii elektrycznej. W regionach takich jak Francja energia elektryczna może być stosunkowo droga w porównaniu z krajami takimi jak Salwador, gdzie niższe koszty zapewniają górnikom przewagę konkurencyjną.
 
 2. **Wydajność sprzętu**: Wydajność sprzętu Mining, mierzona szybkością Hash i zużyciem energii, odgrywa kluczową rolę. Zaawansowane koparki ASIC, takie jak S19J Pro, są znacznie bardziej wydajne niż starsze modele, takie jak Antminer S9.
 
@@ -3330,7 +3307,7 @@ Złożoność Mining w kontekście Bitcoin obejmuje przede wszystkim techniczne 
 #### Praktyczne zastosowanie
 
 
-Z własnego doświadczenia wiem, że używałem Mining nawet do ogrzewania mojego mieszkania we Francji, kreatywnie kompensując koszty energii elektrycznej podczas Mining Bitcoin. Przykład ten podkreśla praktyczność integracji Mining z codziennym życiem w celu uzyskania dodatkowych korzyści.
+Z własnego doświadczenia wiem, że używałem Mining nawet do ogrzewania mojego mieszkania we Francji, kreatywnie kompensując koszty energii elektrycznej podczas Mining Bitcoin. Ten przykład podkreśla praktyczność integracji Mining z codziennym życiem w celu uzyskania dodatkowych korzyści.
 
 
 #### Wąskie gardła w Mining
@@ -3342,10 +3319,10 @@ Górnicy napotykają trzy główne wąskie gardła: dostępność sprzętu, dost
 
 - Przykład **wąskiego gardła energetycznego**.
 
-W 2021 r. chiński rząd zakazał stosowania Mining na swoim terytorium, co spowodowało, że firmy Mining w Chinach straciły dostęp do energii. Spowodowało to **50%** spadek Hashrate w ciągu dwóch tygodni.
+W 2021 r. chiński rząd zakazał Mining na swoim terytorium, co spowodowało, że firmy Mining w Chinach straciły dostęp do energii. Spowodowało to **50%** spadek Hashrate w ciągu dwóch tygodni.
 
 
-![hashrate drop](assets/en/bonus/mining/4.webp)
+![hashrate drop](assets/en/057.webp)
 
 
 ---
@@ -3356,10 +3333,10 @@ W 2021 r. chiński rząd zakazał stosowania Mining na swoim terytorium, co spow
 #### Ewolucja historyczna
 
 
-Podróż sprzętu Mining była monumentalna, począwszy od prostego procesora Mining po wysoce wyspecjalizowane koparki ASIC, których używamy dzisiaj.
+Podróż sprzętu Mining była monumentalna, począwszy od prostego procesora Mining do wysoce wyspecjalizowanych górników ASIC, których używamy dzisiaj.
 
 
-![evolution hardware](assets/en/bonus/mining/3.webp)
+![evolution hardware](assets/en/058.webp)
 
 
 1. **CPU Mining**: Na początku Mining był wykonywany przy użyciu zwykłych procesorów komputerowych (CPU). Metoda ta została szybko prześcignięta wraz z rozwojem sieci.
@@ -3379,10 +3356,10 @@ Podróż sprzętu Mining była monumentalna, począwszy od prostego procesora Mi
 - Antminer S9**: Choć starszy i mniej wydajny, Antminer S9 pozostaje popularny wśród mniejszych konfiguracji i hobbystów ze względu na przystępną cenę i przyzwoitą wydajność.
 
 
-![s19j pro vs antminer s9](assets/en/bonus/mining/2.webp)
+![s19j pro vs antminer s9](assets/en/059.webp)
 
 
-#### Mining Wydajność i uczenie się
+#### Wydajność i uczenie się Mining
 
 
 Mining zapewnia nie tylko nagrody finansowe, ale także cenne praktyczne doświadczenie. Pozyskiwanie bitcoinów bez KYC za pośrednictwem Mining może być atrakcyjną propozycją dla osób dbających o prywatność.
@@ -3391,7 +3368,7 @@ Mining zapewnia nie tylko nagrody finansowe, ale także cenne praktyczne doświa
 #### Zaawansowane narzędzia i techniki
 
 
-Oprogramowanie na rynku wtórnym może zwiększyć wydajność i funkcjonalność sprzętu Mining. Narzędzia oferujące funkcje optymalizacji i automatycznego dostrajania zapewniają, że każdy układ działa z maksymalną wydajnością, skutecznie równoważąc szybkość Hash i zużycie energii.
+Oprogramowanie posprzedażowe może zwiększyć wydajność i funkcjonalność sprzętu Mining. Narzędzia oferujące funkcje optymalizacji i automatycznego dostrajania zapewniają, że każdy układ działa z maksymalną wydajnością, skutecznie równoważąc szybkość Hash i zużycie energii.
 
 
 ---
@@ -3399,7 +3376,7 @@ Oprogramowanie na rynku wtórnym może zwiększyć wydajność i funkcjonalnoś�
 ### 3. Dynamika regulacyjna i rynkowa w operacjach Mining
 
 
-#### Skutki regulacyjne
+#### Wpływ regulacji
 
 
 Regulacje odgrywają znaczącą rolę w kształtowaniu krajobrazu Mining. Na przykład chiński zakaz Mining miał głęboki wpływ na globalne operacje Mining, powodując znaczny spadek wskaźnika Hash w sieci i prowadząc do redystrybucji mocy Mining w różnych regionach.
@@ -3408,7 +3385,7 @@ Regulacje odgrywają znaczącą rolę w kształtowaniu krajobrazu Mining. Na prz
 #### Dynamika rynku
 
 
-1. ** Dostępność i koszt sprzętu**: Cena i dostępność koparek ASIC zależy od ceny rynkowej Bitcoin. Wysoki popyt podczas hossy skutkuje niedoborem i zawyżonymi cenami.
+1. **Dostępność i koszt sprzętu**: Cena i dostępność górników ASIC zależy od ceny rynkowej Bitcoin. Wysoki popyt podczas hossy skutkuje niedoborem i zawyżonymi cenami.
 
 2. **Wartość Hash i cena Hash**: Zrozumienie różnicy między wartością Hash (satoshis zarobione za terahash dziennie) a ceną Hash (wartość pieniężna stawki Hash) jest niezbędne. Oba te czynniki zależą od trudności sieci i ceny rynkowej Bitcoin.
 
@@ -3418,21 +3395,21 @@ Regulacje odgrywają znaczącą rolę w kształtowaniu krajobrazu Mining. Na prz
 
 1. **Pule Mining**: Łącząc zasoby, pule Mining zapewniają bardziej stabilne nagrody, zmniejszając wariancję i ryzyko związane z solo Mining.
 
-2. **Schematy nagród**: Różne mechanizmy wynagradzania, takie jak Pay-Per-Share (PPS) i proporcjonalne nagrody, oferują różne profile ryzyka i nagród dla górników.
+2. **Systemy nagród**: Różne mechanizmy wynagradzania, takie jak Pay-Per-Share (PPS) i proporcjonalne nagrody, oferują różne profile ryzyka i nagród dla górników.
 
 
 
    - Płać za udział**: Pay-Per-Share nagradza górników za każdy przesłany ważny udział, niezależnie od tego, czy pula znajdzie blok. **Udziały** są jednostkami potwierdzającymi, że górnicy wykonali wymaganą pracę, a pula weryfikuje te udziały.
 
 
-![pps](assets/en/bonus/mining/6.webp)
+![pps](assets/en/060.webp)
 
 
 
-   - Proporcjonalny**: Zależy od puli Mining bloku, aby rozdzielić nagrodę równo do wkładu Miner do całkowitej Hashrate puli.
+   - Proporcjonalny**: Zależy od puli Mining bloku, aby rozdzielić nagrodę równo z wkładem Miner do całkowitego Hashrate puli.
 
 
-![prop](assets/en/bonus/mining/5.webp)
+![prop](assets/en/061.webp)
 
 
 #### Przyszłość Mining
@@ -3466,11 +3443,10 @@ Podsumowując, świat Bitcoin Mining jest złożoną, wieloaspektową domeną, k
 
 :::video id=b89f2064-f2e1-49c3-97d0-580891eee1dd:::
 
-
 Adam Gibson oferuje wgląd w Joinmarket, szczegółowo opisując, w jaki sposób ta implementacja CoinJoin zwiększa prywatność i zamienność Bitcoin. Omawia, w jaki sposób Joinmarket ułatwia współpracę, Trustless i anonimowe transakcje w ekosystemie Bitcoin. Następnie w drugiej części pokazuje, jak uruchomić Joinmarket w Signet.
 
 
-## Hackathon pierwszego roku Cubo+
+## Cubo+ First Year Hackathon
 
 
 <chapterId>3faf7daa-ea42-5b68-bcaf-04b70b2e02dd</chapterId>
@@ -3481,7 +3457,6 @@ Adam Gibson oferuje wgląd w Joinmarket, szczegółowo opisując, w jaki sposób
 
 :::video id=d78b199e-39cd-4d3c-b478-1502ba9c952a:::
 
-
 Grupa Satoshi Legacy prezentuje swoją pracę nad budową Lightning e-commerce z Shopify, React JS i Hydrogen oraz bramką płatności IBEX.
 
 
@@ -3489,7 +3464,6 @@ Grupa Satoshi Legacy prezentuje swoją pracę nad budową Lightning e-commerce z
 
 
 :::video id=2159b401-e195-4bc8-9046-67a05c6ab7ea:::
-
 
 Grupa Honey Badger prezentuje swoje rozwiązanie dla bloga z wbudowanymi mikropłatnościami Lightning Powered z wykorzystaniem LnBits oraz Next.js, Node.js i Hydrogen.
 
@@ -3499,7 +3473,6 @@ Grupa Honey Badger prezentuje swoje rozwiązanie dla bloga z wbudowanymi mikrop�
 
 :::video id=eb1e3c20-03ea-4ff8-b018-d197377a85cf:::
 
-
 Trzecia grupa prezentuje Lightning Network Node Dashboard za pośrednictwem niestandardowego API, LND, vue.js, node.js, Bootstrap.
 
 
@@ -3508,7 +3481,6 @@ Trzecia grupa prezentuje Lightning Network Node Dashboard za pośrednictwem nies
 
 :::video id=de1f6032-a0fa-49b0-82eb-18ba0e631756:::
 
-
 Grupa Satoshi's Fellowship prezentuje aplikację do gier LN wykorzystującą LnBits i MongoDB, Poetry, Node.js.
 
 
@@ -3516,7 +3488,6 @@ Grupa Satoshi's Fellowship prezentuje aplikację do gier LN wykorzystującą LnB
 
 
 :::video id=1328bada-4fd1-494a-83c6-f147a4880448:::
-
 
 Grupa Lightning Walker prezentuje swoje rozwiązanie dla usługi przekazów pieniężnych przy użyciu MySQL, JavaScript i ZDB API.
 

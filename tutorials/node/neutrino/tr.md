@@ -1,25 +1,29 @@
 ---
-name: Nötrino
+name: Neutrino
 description: LND Neutrino Kurulum Kılavuzu
 ---
+![image](assets/cover.webp)
 
-# LND ile Raspberry Pi Yapılandırması
+
+## LND ile Raspberry Pi Yapılandırması
 
 
-#### 1. Raspberry Pi OS Lite İndir
+### 1. Raspberry Pi OS Lite İndir
+
 
 Görüntüyü Windows, Mac ve Linux'ta bir mikro SD karta indirmek ve yüklemek için talimatlar [bu sayfada] (https://www.raspberrypi.org/software/operating-systems/) bulunabilir.
 
 
-#### 2. SD Kartı Biçimlendirme
+### 2. SD Kartı Biçimlendirme
 
-raspberry Pi Imager veya balenaEtcher kullanın.
+
+Raspberry Pi Imager veya balenaEtcher kullanın.
 
 
 **Not:** `$` sembolü komut istemi olarak kullanılır ve kullanıcının bilgisayara komut girmesini sağlar, komutlar Linux'ta bash tarafından yorumlanacaktır. Bir satırın başındaki `#` sembolü, takip eden metnin bir yorum olduğunu gösterir.
 
 
-#### 3. SSH'yi Etkinleştir
+### 3. SSH'yi Etkinleştir
 
 
 Raspberry Pi'yi biçimlendirilmiş bellekle başlatmadan önce, bilgisayara takmalı ve uzaktan bağlanmamızı sağlayacak iki dosya oluşturmalıyız. Touch` komutunu kullanarak, /boot bölümünde boş bir dosya oluşturuyoruz ve yeni biçimlendirilmiş SD kartın ilk açılışında SSH bağlantısını etkinleştiriyoruz.
@@ -31,7 +35,9 @@ Raspberry Pi'yi biçimlendirilmiş bellekle başlatmadan önce, bilgisayara takm
 $ touch /boot/ssh
 ```
 
-#### 4. Wi-Fi bağlantısı için dosya oluşturun
+
+### 4. Wi-Fi bağlantısı için dosya oluşturun
+
 
 Nano komutunu kullanarak `wpa_supplicant.conf` dosyasını oluşturuyoruz ve doğrudan düzenlemeye başlıyoruz. Bu dosyada, wifi yapılandırmasını kopyalamamız, START ve END arasındaki metni kopyalamamız ve bağlanmak istediğiniz wifi'nin SSID'sini ve şifresini değiştirmemiz gerekiyor.
 
@@ -52,14 +58,17 @@ psk="password"
 ```
 
 
-#### 5. Bağlantı
+### 5. Bağlantı
+
 
 Ardından, SD kartı Raspberry Pi'ye takıyoruz ve işletim sistemini başlatmak için Pi'yi güç kaynağına bağlıyoruz. Ağ üzerinde tanımlamamız gerekiyor ve mDNS protokolü muhtemelen ona raspberrypi.local adını atayacaktır. SSH üzerinden bağlanmayı deneyelim.
+
 
 ```
 $ ssh pi@raspberrypi.local
 password: raspberry
 ```
+
 
 Eğer çalışmazsa, ağı bulmamız gerekir. Bağlı olduğumuz IP Address'yi bulalım.
 
@@ -86,7 +95,8 @@ password: raspberry
 ```
 
 
-#### 6. Pi'yi Yapılandırma
+### 6. Pi'yi Yapılandırma
+
 
 ```
 $ sudo raspi-config
@@ -100,7 +110,8 @@ $ sudo raspi-config
 - Bitirmek
 
 
-#### 7. Şimdi işletim sistemini güncelleyin
+### 7. Şimdi işletim sistemini güncelleyin
+
 
 ```
 $ sudo apt update && sudo apt upgrade -y
@@ -108,14 +119,15 @@ $ sudo apt install htop git curl bash-completion jq qrencode dphys-swapfile vim 
 ```
 
 
-#### 8. Bitcoin kullanıcısını ekleyin
+### 8. Bitcoin kullanıcısını ekleyin
+
 
 ```
 $ sudo adduser bitcoin
 ```
 
 
-#### 9. Rpi'yi güvence altına alın
+### 9. Rpi'yi güvence altına alın
 
 
 ```
@@ -132,9 +144,10 @@ $ sudo apt install fail2ban
 ```
 
 
-#### 10. Go'yu Yükle
+### 10. Go'yu Yükle
 
-Eğer bir raspberry pi kullanmıyorsanız, mimariniz için go'yu indirin [buradan](https://golang.org/dl/)
+
+Eğer bir raspberry pi kullanmıyorsanız, mimariniz için go'yu indirin [buradan](https://golang.org/dl/).
 
 
 ```
@@ -148,7 +161,7 @@ $ go version # should display the following message 'go version go1.13.5 linux/a
 ```
 
 
-#### 11. LND'ü derleyin ve kurun
+### 11. LND'ü derleyin ve kurun
 
 
 ```
@@ -163,7 +176,8 @@ lncli version 0.11.0-beta commit=v0.11.0-beta-61-g6055b00dbbcedf45cd60f12e57dc5c
 ```
 
 
-#### 12. LND conf dosyası oluşturun
+### 12. LND conf dosyası oluşturun
+
 
 LND yapılandırma dosyasını oluşturun, bu işlem 'Bitcoin' kullanıcısı ile yapılmalıdır
 
@@ -200,7 +214,8 @@ neutrino.connect=bb2.breez.technology
 ```
 
 
-#### 13. LND servis otomatik başlatma
+### 13. LND servis otomatik başlatma
+
 
 LND'un rpi açılışından sonra başlamasını sağlamak için systemd'de .service dosyasını oluşturmalıyız. Bitcoin kullanıcısı olarak oturum açtıysak ve pi kullanıcısına geri dönmek istiyorsak, sadece 'exit' yazmamız yeterlidir
 
@@ -284,7 +299,7 @@ $ sudo journalctl -f -u lnd
 ```
 
 
-#### 14. Şimdi LND'e başlıyoruz
+### 14. Şimdi LND'e başlıyoruz
 
 
 ```
@@ -293,7 +308,7 @@ $ lncli create
 ```
 
 
-#### 15. Düğüme fon ekleyin
+### 15. Düğüme fon ekleyin
 
 
 ```
@@ -321,6 +336,7 @@ $ lncli walletbalance
 
 Bir düğüme bağlantı açın:
 
+
 ```
 $ lncli connect 031015a7839468a3c266d662d5bb21ea4cea24226936e2864a7ca4f2c3939836e0@212.129.58.219:9735
 ```
@@ -328,12 +344,14 @@ $ lncli connect 031015a7839468a3c266d662d5bb21ea4cea24226936e2864a7ca4f2c3939836
 
 Sonra bir kanal açın:
 
+
 ```
 $ lncli openchannel 031015a7839468a3c266d662d5bb21ea4cea24226936e2864a7ca4f2c3939836e0 1000000 0
 ```
 
 
 Fonlarımızı kontrol edin:
+
 
 ```
 $ lncli walletbalance
@@ -343,6 +361,7 @@ $ lncli channelbalance
 
 Bekleyen ve aktif kanalları görüntüleyebiliyoruz:
 
+
 ```
 $ lncli pendingchannels
 $ lncli listchannels
@@ -351,12 +370,14 @@ $ lncli listchannels
 
 Bir yıldırım Invoice ödemek için:
 
+
 ```
 $ lncli payinvoice lnbc1p0kkhgwpp5sn9y6xe9hx7swrjj4057674vh73nwk6rxg8j8zedztkn3vdzgjafacqmud86h
 ```
 
 
 Bir ödeme almak için, belirli bir tutar için bir Invoice oluşturun:
+
 
 ```
 $ lncli addinvoice --memo 'my first payment on LN' --amt 100
@@ -365,6 +386,7 @@ $ lncli addinvoice --memo 'my first payment on LN' --amt 100
 
 Düğümüm hakkındaki bilgileri görüntülemek için:
 
+
 ```
 $ lncli getinfo
 ```
@@ -372,12 +394,14 @@ $ lncli getinfo
 
 Komutların tam listesi sadece lncli komutu çalıştırılarak görülebilir:
 
+
 ```
 $ lncli
 ```
 
 
 Son olarak, LND API'sine çağrı yapmak için:
+
 
 ```
 $ MACAROON_HEADER="Grpc-Metadata-macaroon: $(xxd -ps -u -c 1000 .lnd/data/chain/bitcoin/mainnet/admin.macaroon)"

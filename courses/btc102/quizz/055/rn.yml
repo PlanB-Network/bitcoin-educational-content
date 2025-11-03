@@ -1,0 +1,9 @@
+question: Ni ubuhe buryo bwiza bwo gushigikira neza ijambo ryawe rya Mnemonic?
+answer: Ivyuma vy'inyuma n'ibahasha ry'ikidodo
+wrong_answers:
+  - Ububiko bwa USB bwashizwemwo amakuru
+  - Urupapuro rwo gusubiza inyuma rufise umukono ubonerana
+  - Gusubiza inyuma ku gicu gitekanye
+explanation: |
+  Igikoresho co gukingira ivyuma kidashobora gushikirwa n’ivyago kiratanga uburinzi buramba kugira ngo ntihononekare be n’uko umuntu adashobora kugishikako ata wemerewe. Ibahasha ry’ibara ry’agahama ry’ikidodo rituma ushobora kugenzura nimba hari uwashitse ku majambo Mnemonic.
+reviewed: false

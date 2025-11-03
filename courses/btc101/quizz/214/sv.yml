@@ -1,12 +1,11 @@
-question: Vad förutspådde Milton Friedman 1999?
-answer: Utvecklingen av en tillförlitlig e-cash.
+question: Vad är Lightning Network?
+answer: Ett betalningsnätverk som använder Bitcoin-protokollet för att möjliggöra blixtsnabba transaktioner.
 wrong_answers:
-  - Avskaffandet av fysiska pengar.
-  - Uppkomsten av Bitcoin.
-  - Slutet på statlig kontroll över pengar.
+  - En ny typ av kryptovaluta.
+  - En ny Blockchain-teknik som kommer att ersätta Bitcoin i framtiden.
+  - En metod för Mining Bitcoin.
 explanation: |
-  Milton Friedman, en välkänd ekonom, förutspådde 1999
-  att en pålitlig e-cash snart skulle utvecklas, en metod
-  där du på Internet kan överföra pengar från A till B,
-  utan att A känner till B eller vice versa.
+  Lightning Network är ett betalningsnätverk som använder sig av
+  Bitcoin-protokollet för att möjliggöra snabba transaktioner. Det är inte en
+  separat kryptovaluta och inte heller en metod för Mining Bitcoin.
 reviewed: true

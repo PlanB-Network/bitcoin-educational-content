@@ -1,0 +1,9 @@
+question: Quel paramètre permet de forcer Bitcoin Core à se connecter uniquement via le réseau Tor ?
+answer: onlynet=onion
+wrong_answers:
+  - listenonion=1
+  - toronly=1
+  - net=tor
+explanation: |
+  L’option onlynet=onion restreint toutes les connexions sortantes au réseau Tor. listenonion=1 permet lui uniquement d’écouter en Tor pour les entrantes.
+reviewed: false

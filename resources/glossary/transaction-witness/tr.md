@@ -8,4 +8,4 @@ Bitcoin işlemlerinin SegWit ile birlikte Soft Fork'den Address'ye taşınan bir
 SegWit'ten önce, bir işlem onaylanmadan önce imzalar geçersiz kılınmadan biraz değiştirilebiliyordu ve bu da işlem tanımlayıcısını değiştiriyordu. Bu, onaylanmamış bir işlemin tanımlayıcısının değiştiğini görebileceği için çeşitli protokoller oluşturmayı zorlaştırıyordu. Tanıkları ayıran SegWit, imzalardaki herhangi bir değişiklik artık işlem tanımlayıcısını (txid) değil, yalnızca tanık tanımlayıcısını (WTXID) etkilediğinden işlemleri değiştirilemez hale getirir. Değiştirilebilirlik sorununu çözmenin yanı sıra, bu ayrım her bir bloğun kapasitesinin artmasını sağlar.
 
 
-> ► *İngilizcede "témoin" sözcüğü "tanık" olarak çevrilmektedir
+> ► *İngilizcede "témoin" sözcüğü "tanık" olarak çevrilmektedir*

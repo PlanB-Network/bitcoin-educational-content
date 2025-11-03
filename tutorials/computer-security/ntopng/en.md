@@ -122,9 +122,9 @@ Here, I see 3 interfaces:
 
 
 
-- Lo**: this is the loopback Interface; it's a virtual Interface that "loops" over the equipment. Basically, this Interface, whose address is 127.0.0.1 (although any address in 127.0.0.0/8 will do, as this range is reserved for this purpose) is used to contact the equipment itself. If you've installed a web site on your workstation (using WAMPP, for example), you've probably used the "*localhost*" address at one time or another to display the site hosted on your own machine. This host name is associated with the address 127.0.0.1 and therefore with the Interface loopback.
-- ens33**: this is my first Interface, which received an address here from my DHCP
-- ens36**: my second Interface
+- **Lo**: this is the loopback Interface; it's a virtual Interface that "loops" over the equipment. Basically, this Interface, whose address is 127.0.0.1 (although any address in 127.0.0.0/8 will do, as this range is reserved for this purpose) is used to contact the equipment itself. If you've installed a web site on your workstation (using WAMPP, for example), you've probably used the "*localhost*" address at one time or another to display the site hosted on your own machine. This host name is associated with the address 127.0.0.1 and therefore with the Interface loopback.
+- **ens33**: this is my first Interface, which received an address here from my DHCP
+- **ens36**: my second Interface
 
 
 Now that I have all the information, I can modify the */etc/network/interfaces* file to create my bridge. Here's what it currently looks like (may vary):
@@ -166,8 +166,8 @@ Here are some explanations of these first changes:
 
 
 
-- auto *Interface***: will automatically "start" Interface on system startup
-- iface *Interface* inet manual**: to use the Interface without any IP address. Like the keyword "static" to define a static IP address or "dhcp" to use dynamic addressing
+- auto **Interface**: will automatically "start" Interface on system startup
+- iface *Interface* inet **manual**: to use the Interface without any IP address. Like the keyword "static" to define a static IP address or "dhcp" to use dynamic addressing
 
 
 The modifications continue:
@@ -189,10 +189,10 @@ Here again, a few explanations:
 
 
 
-- iface br0 inet static**: here I've defined my Interface bridge (*br0*) with a static address.
-- Address, netmask, gateway**: board addressing information
-- bridge_ports**: interfaces to be included in the bridge
-- bridge_stp**: the Spanning Tree protocol is used when interconnecting switches to detect redundant links and avoid loops. Since a bridge can be inserted between two network paths, it can be the source of a loop, hence the possibility of enabling this protocol. I don't need it here, so I'm disabling it.
+- **iface br0 inet static**: here I've defined my Interface bridge (*br0*) with a static address.
+- **Address, netmask, gateway**: board addressing information
+- **bridge_ports**: interfaces to be included in the bridge
+- **bridge_stp**: the Spanning Tree protocol is used when interconnecting switches to detect redundant links and avoid loops. Since a bridge can be inserted between two network paths, it can be the source of a loop, hence the possibility of enabling this protocol. I don't need it here, so I'm disabling it.
 
 
 Save the changes and restart the network:
@@ -221,8 +221,8 @@ By default, package sources contain only DFSG (*Debian Free Sotftware Guidelines
 
 
 
-- contrib**: packages containing DFSG-compliant software, but using dependencies that are not part of the **main** branch
-- non-free**: contains packages that are not DFSG-compliant
+- **contrib**: packages containing DFSG-compliant software, but using dependencies that are not part of the **main** branch
+- **non-free**: contains packages that are not DFSG-compliant
 
 
 Example of a line in /etc/apt/sources.list:
@@ -344,7 +344,7 @@ To demonstrate, I launch a YouTube video on my host:
 ![Image](assets/fr/018.webp)
 
 
-**The traffic was immediately recognized and categorized!
+**The traffic was immediately recognized and categorized!**
 
 
 Note: for obvious reasons, this kind of software can raise privacy issues, so be careful to use it under the right conditions. Note also that it is possible to **anonymize results**, the option can be found in **Settings > Preferences > Misc** and is called "**Mask Host IP Address**".

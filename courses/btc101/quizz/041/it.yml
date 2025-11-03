@@ -1,9 +1,12 @@
-question: Qual è la conseguenza della stampa di moneta?
-answer: Porta all'inflazione, impoverendo gradualmente la popolazione.
+question: Qual è la conseguenza dell'iperinflazione?
+answer: Una drastica diminuzione del valore della valuta.
 wrong_answers:
-  - Porta alla deflazione, arricchendo gradualmente la popolazione.
-  - Porta a un'economia stabile senza inflazione o deflazione.
-  - Porta a una diminuzione dell'offerta di denaro.
+  - Una piccola diminuzione del valore della valuta.
+  - Un drastico aumento del valore della valuta.
+  - Un piccolo aumento del valore della valuta.
 explanation: |
-  La stampa di moneta, o la creazione di nuova moneta da parte delle banche centrali, porta all'inflazione. Questo perché l'aumento dell'offerta di denaro riduce il potere d'acquisto della moneta, portando a prezzi più alti e a una diminuzione del valore dei risparmi.
+  A causa dell'iperinflazione, gli individui perdono 
+  completamente la fiducia nella valuta, il che porta a
+  una drastica diminuzione del suo valore in un breve 
+  periodo di tempo.
 reviewed: true

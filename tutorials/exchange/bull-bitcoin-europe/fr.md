@@ -48,7 +48,7 @@ Scannez le QR code avec votre application d'authentification, saisissez le code 
 
 Si vous n'êtes pas familiarisé avec l'utilisation des applications d'authentification pour le 2FA, je vous recommande de consulter ce tutoriel sur l'application Authy :
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Entrez votre mot de passe pour confirmer.
 
@@ -123,9 +123,9 @@ Indiquez le montant que vous souhaitez acheter. Vous devrez également choisir l
 
 Si vous n'êtes pas familier avec l'utilisation des portefeuilles Bitcoin, Lightning ou Liquid, je vous suggère de suivre notre formation dédiée :
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
-Vous pouvez aussi explorer [nos tutoriels détaillés sur les meilleurs portefeuilles Bitcoin](https://planb.network/tutorials/wallet).
+Vous pouvez aussi explorer [nos tutoriels détaillés sur les meilleurs portefeuilles Bitcoin](https://planb.academy/tutorials/wallet).
 
 Confirmez ensuite votre achat en cliquant sur "*Confirm Buy*".
 
@@ -196,5 +196,5 @@ Vous savez maintenant comment acheter et vendre du bitcoin facilement avec Bull 
 
 Je vous conseille également de découvrir cet autre tutoriel complet pour apprendre à gérer votre phrase mnémonique de la bonne manière :
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 

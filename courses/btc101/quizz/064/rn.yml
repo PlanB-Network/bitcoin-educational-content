@@ -1,0 +1,12 @@
+question: None Halving ya 7 izobera mu mwaka uwuhe?
+answer: 2036
+wrong_answers:
+  - 2032
+  - 2028
+  - 2048
+explanation: |
+  Halving ya 7 ikwiye kuba mu 2036, kandi bigereranywa ko
+  igitigiri c’ibitabu Bitcoin bizokoreshwa kizoba ari 20.835.937,5, 20.00.
+  ivyo bizoba bihuye n’ibice 99,22 kw’ijana vy’ivyo vyose
+  Supply.
+reviewed: true

@@ -1,10 +1,9 @@
-question: Hậu quả của lạm phát cực kỳ cao là gì?
-answer: Một sự giảm giá trị nghiêm trọng của đồng tiền.
+question: Tỷ lệ lạm phát ở Đức vào tháng 10 năm 1923, thời điểm đỉnh cao của siêu lạm phát, vào khoảng bao nhiêu?
+answer: 29.500%
 wrong_answers:
-  - Một sự giảm nhỏ giá trị của đồng tiền.
-  - Một sự tăng nghiêm trọng giá trị của đồng tiền.
-  - Một sự tăng nhỏ giá trị của đồng tiền.
+  - 5.200%
+  - 76%
+  - 110%
 explanation: |
-  Do lạm phát cực kỳ cao, mọi người nhanh chóng mất hoàn toàn niềm tin vào đồng tiền, dẫn đến
-  một sự giảm giá trị nghiêm trọng của nó trong một khoảng thời gian ngắn.
-reviewed: true
+  Tháng có tỷ lệ lạm phát cao nhất ở Đức là tháng 10 năm 1923, khi đạt đỉnh ở mức 29.500%.
+reviewed: false

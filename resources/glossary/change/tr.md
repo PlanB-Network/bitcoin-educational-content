@@ -8,4 +8,4 @@ Bitcoin işlemleri bağlamında, gerçek ödeme karşılandıktan sonra kalan fo
 ![](../../dictionnaire/assets/16.webp)
 
 
-> ► *Nadiren kullanılsa da, değişimden bahsetmek için "para birimi" (verilen değişim) olarak da ifade edebiliriz
+> ► *Nadiren kullanılsa da, değişimden bahsetmek için "para birimi" (verilen değişim) olarak da ifade edebiliriz*

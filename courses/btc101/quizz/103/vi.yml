@@ -1,13 +1,11 @@
-question: Mục đích của việc tạo ra một kế hoạch thừa kế cho bitcoin của bạn là gì?
-answer: Để đảm bảo rằng bitcoin của bạn sẽ được quản lý đúng cách sau khi bạn qua đời.
+question: Blockmit là gì trong bối cảnh bảo mật Bitcoin?
+answer: Một giải pháp tiết kiệm chi phí để khắc cụm từ ghi nhớ của bạn lên một miếng thép.
 wrong_answers:
-  - Để tránh thuế cho bitcoin của bạn.
-  - Để giảm giá trị của bitcoin của bạn.
-  - Để ngăn chặn bitcoin của bạn bị đánh cắp.
+  - Một loại ví Bitcoin để ký nhiều giao dịch cùng một lúc.
+  - Một giải pháp tiết kiệm chi phí để đào bitcoin tại nhà.
+  - Một loại ví Bitcoin yêu cầu nhiều chữ ký để tiêu UTXOs.
 explanation: |
-  Một kế hoạch thừa kế đảm bảo rằng bitcoin của bạn sẽ
-  được quản lý đúng cách sau khi bạn qua đời. Nó có thể bao gồm một
-  lá thư viết tay chi tiết về tài sản của bạn, phương pháp truy cập,
-  và thông tin liên lạc của những người đáng tin cậy
-  để được liên hệ.
+  Blockmit là một giải pháp tiết kiệm chi phí để khắc cụm từ ghi nhớ của bạn
+  lên một vật liệu chịu đựng như thép, do đó
+  bảo vệ bitcoin của bạn lâu dài.
 reviewed: true

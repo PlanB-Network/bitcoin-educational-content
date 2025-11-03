@@ -1,11 +1,10 @@
-question: Apa tiga fungsi utama dari dompet Bitcoin?
-answer: Menerima bitcoin, Mengirim bitcoin, mengamankannya dari upaya peretasan dan pencurian
+question: Bagaimana Anda dapat memperkuat keamanan default dari dompet Bitcoin Anda?
+answer: Dengan menambahkan passphrase ke dompet Bitcoin Anda
 wrong_answers:
-  - Menyimpan bitcoin, memungkinkan pengiriman bitcoin, mengamankannya dari upaya peretasan dan pencurian
-  - Memungkinkan penerimaan bitcoin, menyimpan bitcoin, mengamankannya dari upaya peretasan dan pencurian
-  - Memungkinkan penerimaan bitcoin, memungkinkan pengiriman bitcoin, menjual bitcoin
+  - Dengan menambahkan kunci privat kedua ke dompet Bitcoin Anda
+  - Dengan menambahkan kunci publik kedua ke dompet Bitcoin Anda
+  - Dengan menambahkan frasa mnemonik kedua ke dompet Bitcoin Anda
 explanation: |
-  Dompet Bitcoin digunakan untuk berinteraksi dengan jaringan Bitcoin. Tiga
-  fungsi utamanya adalah untuk memungkinkan penerimaan bitcoin, memungkinkan pengiriman bitcoin, dan mengamankan
-  mereka dari upaya peretasan dan pencurian.
+  Jika Anda tidak puas dengan keamanan default dari dompet Bitcoin Anda,
+  Anda selalu dapat memperkuatnya dengan menambahkan passphrase ke dompet Bitcoin Anda.
 reviewed: true

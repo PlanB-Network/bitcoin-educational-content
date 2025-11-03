@@ -1,0 +1,9 @@
+question: Wat is het economische verschil tussen een knooppunt en een Miner?
+answer: De Miner ontvangt beloningen, het knooppunt heeft geen directe winst
+wrong_answers:
+  - Knooppunt ontvangt vergoeding, Miner ontvangt bloksubsidie
+  - Het knooppunt ontvangt beloningen, de Miner heeft geen directe winst
+  - Beide ontvangen dezelfde awards
+explanation: |
+  Miners ontvangen beloningen (subsidies en vergoedingen), terwijl een node geen direct financieel voordeel oplevert voor zijn gebruiker.
+reviewed: true

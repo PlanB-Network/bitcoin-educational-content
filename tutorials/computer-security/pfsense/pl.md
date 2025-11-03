@@ -10,7 +10,7 @@ ___
 
 
 
-*Ten samouczek jest oparty na oryginalnej treści autorstwa Floriana BURNELA opublikowanej na stronie [IT-Connect](https://www.it-connect.fr/). Licencja [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). W oryginalnym tekście autora wprowadzono znaczące zmiany w celu uaktualnienia samouczka
+*Ten samouczek jest oparty na oryginalnej treści autorstwa Floriana BURNELA opublikowanej na stronie [IT-Connect](https://www.it-connect.fr/). Licencja [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). W oryginalnym tekście autora wprowadzono znaczące zmiany w celu uaktualnienia samouczka.*
 
 
 
@@ -111,9 +111,9 @@ W przypadku standardowego wdrożenia zalecamy:
 
 
 
-- minimum 1 GB pamięci RAM** (zalecane jest 2 GB lub więcej, aby umożliwić obsługę dodatkowych pakietów lub ZFS).
-- 8 GB miejsca na dysku** (20 GB lub więcej jest preferowane w przypadku bardziej zaawansowanych konfiguracji, zwłaszcza jeśli instalujesz pamięć podręczną proxy, IDS/IPS lub szczegółowe dzienniki).
-- Co najmniej dwa wirtualne interfejsy sieciowe** (jeden dla sieci WAN, jeden dla sieci LAN). W VirtualBox należy dodać je do ustawień maszyny wirtualnej przed jej uruchomieniem.
+- minimum 1 GB pamięci RAM (zalecane jest 2 GB lub więcej, aby umożliwić obsługę dodatkowych pakietów lub ZFS).
+- 8 GB miejsca na dysku (20 GB lub więcej jest preferowane w przypadku bardziej zaawansowanych konfiguracji, zwłaszcza jeśli instalujesz pamięć podręczną proxy, IDS/IPS lub szczegółowe dzienniki).
+- Co najmniej dwa wirtualne interfejsy sieciowe (jeden dla sieci WAN, jeden dla sieci LAN). W VirtualBox należy dodać je do ustawień maszyny wirtualnej przed jej uruchomieniem.
 
 
 
@@ -309,8 +309,8 @@ Zostanie wyświetlony ekran logowania. Domyślne dane logowania to:
 
 
 
-- Nazwa użytkownika:** `admin`
-- Hasło:** `pfsense`
+- **Nazwa użytkownika:** `admin`
+- **Hasło:** `pfsense`
 
 
 
@@ -429,10 +429,10 @@ Aby zakończyć wdrożenie ze spokojem ducha:
 
 
 
-- Modyfikacja reguł zapory**: domyślnie program pfSense zezwala na cały ruch wychodzący w sieci LAN i blokuje ruch przychodzący w sieci WAN. Dostosuj te reguły zgodnie z wymaganiami.
-- Skonfiguruj bezpieczny dostęp zdalny**: w razie potrzeby włącz dostęp do sieci Interface z sieci WAN tylko przez VPN lub z ograniczeniami IP.
-- Włącz powiadomienia**: skonfiguruj serwer SMTP do otrzymywania powiadomień (awarie, aktualizacje, błędy).
-- Zainstaluj przydatne rozszerzenia**: na przykład IDS/IPS (Snort, Suricata), proxy (Squid), filtrowanie DNS (pfBlockerNG).
+- **Modyfikacja reguł zapory**: domyślnie program pfSense zezwala na cały ruch wychodzący w sieci LAN i blokuje ruch przychodzący w sieci WAN. Dostosuj te reguły zgodnie z wymaganiami.
+- **Skonfiguruj bezpieczny dostęp zdalny**: w razie potrzeby włącz dostęp do sieci Interface z sieci WAN tylko przez VPN lub z ograniczeniami IP.
+- **Włącz powiadomienia**: skonfiguruj serwer SMTP do otrzymywania powiadomień (awarie, aktualizacje, błędy).
+- Zainstaluj przydatne **rozszerzenia**: na przykład IDS/IPS (Snort, Suricata), proxy (Squid), filtrowanie DNS (pfBlockerNG).
 
 
 

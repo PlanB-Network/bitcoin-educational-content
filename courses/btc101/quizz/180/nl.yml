@@ -1,8 +1,8 @@
-question: Wat is een factor die het moeilijk maakt voor financiële autoriteiten om Bitcoin te reguleren?
-answer: Het is wereldwijd actief, 24 uur per dag, 7 dagen per week.
+question: Wat is een voordeel van het accepteren van Bitcoin als handelaar?
+answer: Verzet tegen censuur.
 wrong_answers:
-  - Het wordt gecontroleerd door een centrale autoriteit.
-  - Het wordt nergens ter wereld gebruikt.
-  - Het is gemakkelijk te vervalsen.
+  - Verhoogde transactiekosten.
+  - Bescherming tegen deflatie.
+  - Financiële beperking.
 explanation: >-
 reviewed: true

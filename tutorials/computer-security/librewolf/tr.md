@@ -52,10 +52,10 @@ LibreWolf, tarayıcı güvenliğini artırırken izleme ve parmak izine karşı 
 
 
 
-- Firefox'ta tüm telemetri ve veri toplama işlemlerini ortadan kaldırın**
-- Tescilli DRM modülleri gibi kullanıcı özgürlüğüne** aykırı işlevleri devre dışı bırakın
-- Gizlilik/güvenlik ayarlarını** ve belirli yamaları en başından itibaren uygulayın
-- Toplumsal kalkınma şeffaflığı ve ticari çıkarlardan bağımsızlığı** garanti eder
+- **Firefox'ta tüm telemetri ve veri toplama işlemlerini ortadan kaldırın**
+- Tescilli DRM modülleri gibi kullanıcı özgürlüğüne **aykırı işlevleri** devre dışı bırakın
+- **Gizlilik/güvenlik ayarlarını** ve belirli yamaları en başından itibaren uygulayın
+- Toplumsal kalkınma **şeffaflığı ve ticari çıkarlardan bağımsızlığı** garanti eder
 
 
 
@@ -75,7 +75,7 @@ LibreWolf en başından itibaren gizlilik odaklı bir dizi özellik sunuyor:
 
 
 
-**LibreWolf, piyasadaki en iyi reklam engelleyicilerden ve izleyicilerden biri olan uBlock Origin uzantısını yerel olarak entegre eder. Varsayılan olarak, LibreWolf sizi çevrimiçi olarak izleyebilecek her şeyi agresif bir şekilde filtreler (müdahaleci reklamlar, izleme komut dosyaları, kripto para birimi Mining).
+**LibreWolf, piyasadaki en iyi reklam engelleyicilerden ve izleyicilerden biri olan uBlock Origin uzantısını yerel olarak entegre eder. Varsayılan olarak, LibreWolf sizi çevrimiçi olarak izleyebilecek her şeyi agresif bir şekilde filtreler (müdahaleci reklamlar, izleme komut dosyaları, kripto para birimi Mining).**
 
 
 
@@ -90,7 +90,7 @@ LibreWolf en başından itibaren gizlilik odaklı bir dizi özellik sunuyor:
 ![LIBREWOLF](assets/fr/07.webp)
 
 
-*TEST YOUR BROWSER düğmesi ile EFF test sayfası [Cover Your Tracks] (https://coveryourtracks.eff.org/). Bu sayfa, izleyicilere ve parmak izine karşı korumayı değerlendirmek için kullanılır
+*TEST YOUR BROWSER* düğmesi ile EFF test sayfası [Cover Your Tracks](https://coveryourtracks.eff.org/). Bu sayfa, izleyicilere ve parmak izine karşı korumayı değerlendirmek için kullanılır
 
 
 
@@ -101,7 +101,7 @@ LibreWolf en başından itibaren gizlilik odaklı bir dizi özellik sunuyor:
 
 
 
-**LibreWolf varsayılan olarak sıkı güvenlik ayarlarını etkinleştirir. Firefox'un Gelişmiş İzleme Koruması, binlerce izleyiciyi, üçüncü taraf çerezlerini ve kötü amaçlı içeriği engellemek için Sıkı seviyeye getirilmiştir. Ayrıca her etki alanı için verileri bölümlere ayırmak üzere site ve çerez izolasyonunu (*Total Cookie Protection*) etkinleştirir ve IP Address sızıntısı riskini azaltmak için WebRTC'yi kısıtlar (*ICE adaylarını* sınırlandırır ve bir proxy mevcut olduğunda proxy üzerinden yönlendirme yapar).
+**LibreWolf varsayılan olarak sıkı güvenlik ayarlarını etkinleştirir.** Firefox'un Gelişmiş İzleme Koruması, binlerce izleyiciyi, üçüncü taraf çerezlerini ve kötü amaçlı içeriği engellemek için Sıkı seviyeye getirilmiştir. Ayrıca her etki alanı için verileri bölümlere ayırmak üzere site ve çerez izolasyonunu (*Total Cookie Protection*) etkinleştirir ve IP Address sızıntısı riskini azaltmak için WebRTC'yi kısıtlar (*ICE adaylarını* sınırlandırır ve bir proxy mevcut olduğunda proxy üzerinden yönlendirme yapar).
 
 
 
@@ -119,37 +119,37 @@ LibreWolf en başından itibaren gizlilik odaklı bir dizi özellik sunuyor:
 
 
 
-- Telemetri veya istenmeyen bağlantılar yok:** LibreWolf hiçbir kullanım verisi iletmez, gizliliğinize tam saygı sağlar.
+- **Telemetri veya istenmeyen bağlantılar yok:** LibreWolf hiçbir kullanım verisi iletmez, gizliliğinize tam saygı sağlar.
 
 
 
 
 
-- Açık kaynaklı ve topluluk tabanlı:** Proje %100 açık kaynaklıdır ve gönüllüler tarafından sürdürülmektedir. Bu bağımsızlık, hiçbir reklam modelinin gelişimi etkilemeyeceğini garanti eder.
+- **Açık kaynaklı ve topluluk tabanlı:** Proje %100 açık kaynaklıdır ve gönüllüler tarafından sürdürülmektedir. Bu bağımsızlık, hiçbir reklam modelinin gelişimi etkilemeyeceğini garanti eder.
 
 
 
 
 
-- Gizlilik için önceden yapılandırılmış:** LibreWolf size değerli zaman kazandırır: Firefox ayarlarını sertleştirmek için saatler harcamanıza gerek yok, her şey zaten yapıldı.
+- **Gizlilik için önceden yapılandırılmış:** LibreWolf size değerli zaman kazandırır: Firefox ayarlarını sertleştirmek için saatler harcamanıza gerek yok, her şey zaten yapıldı.
 
 
 
 
 
-- Yerel reklam engelleyici/izleyici:** uBlock Origin standart olarak entegre edilmiştir, böylece kendinizi reklamlara ve hatalara karşı korumak için hiçbir şey yapmanıza gerek kalmaz.
+- **Yerel reklam engelleyici/izleyici:** uBlock Origin standart olarak entegre edilmiştir, böylece kendinizi reklamlara ve hatalara karşı korumak için hiçbir şey yapmanıza gerek kalmaz.
 
 
 
 
 
-- Mükemmel parmak izi koruması:** RFP ve çok sayıda gizlilik ayarı sayesinde LibreWolf, web üzerindeki benzersiz dijital ayak izinizi büyük ölçüde azaltır.
+- **Mükemmel parmak izi koruması:** RFP ve çok sayıda gizlilik ayarı sayesinde LibreWolf, web üzerindeki benzersiz dijital ayak izinizi büyük ölçüde azaltır.
 
 
 
 
 
-- Geliştirilmiş performans ve hafiflik:** Telemetri ve bazı gerekli olmayan özellikleri kaldırarak, LibreWolf standart Firefox'tan biraz daha hızlı ve daha az güç tüketebilir.
+- **Geliştirilmiş performans ve hafiflik:** Telemetri ve bazı gerekli olmayan özellikleri kaldırarak, LibreWolf standart Firefox'tan biraz daha hızlı ve daha az güç tüketebilir.
 
 
 
@@ -159,31 +159,31 @@ LibreWolf en başından itibaren gizlilik odaklı bir dizi özellik sunuyor:
 
 
 
-- Yerleşik otomatik güncelleme yok:** LibreWolf kendini güncellemez. Güvende kalmak için yeni sürümleri yayınlanır yayınlanmaz yüklemek size bağlıdır.
+- **Yerleşik otomatik güncelleme yok:** LibreWolf kendini güncellemez. Güvende kalmak için yeni sürümleri yayınlanır yayınlanmaz yüklemek size bağlıdır.
 
 
 
 
 
-- Belirli hizmetlerle daha az uyumluluk:** Çok katı ayarları nedeniyle, LibreWolf belirli web sitelerinde sorunlarla karşılaşabilir. LibreWolf varsayılan olarak Widevine DRM'yi devre dışı bıraktığı için Netflix ve Disney+ yayın platformları çalışmayacaktır.
+- Belirli hizmetlerle daha az uyumluluk: Çok katı ayarları nedeniyle, LibreWolf belirli web sitelerinde sorunlarla karşılaşabilir. LibreWolf varsayılan olarak Widevine DRM'yi devre dışı bıraktığı için Netflix ve Disney+ yayın platformları çalışmayacaktır.
 
 
 
 
 
-- Yerleşik anonim ağ yok:** Tor Browser'ın aksine, LibreWolf trafiği Tor veya bir VPN üzerinden kendi başına yönlendirmez. Ağ anonimliğine ihtiyacınız varsa, bir proxy/VPN'i manuel olarak yapılandırmanız gerekir.
+- **Yerleşik anonim ağ yok:** Tor Browser'ın aksine, LibreWolf trafiği Tor veya bir VPN üzerinden kendi başına yönlendirmez. Ağ anonimliğine ihtiyacınız varsa, bir proxy/VPN'i manuel olarak yapılandırmanız gerekir.
 
 
 
 
 
-- Kalıcı olmayan çerezler ve oturumlar (varsayılan):** Gizlilik nedeniyle LibreWolf, tarayıcınızı her kapattığınızda çerezleri, geçmişi ve site verilerini siler. Her giriş yaptığınızda hesaplarınıza tekrar giriş yapmanız gerekecektir.
+- **Kalıcı olmayan çerezler ve oturumlar (varsayılan):** Gizlilik nedeniyle LibreWolf, tarayıcınızı her kapattığınızda çerezleri, geçmişi ve site verilerini siler. Her giriş yaptığınızda hesaplarınıza tekrar giriş yapmanız gerekecektir.
 
 
 
 
 
-- Mobil sürüm veya bulut senkronizasyonu yok:** LibreWolf yalnızca masaüstünde (Windows, Linux, macOS) kullanılabilir. Mobil uygulama yoktur ve bu nedenle hesapların veya yer imlerinin bir bulut aracılığıyla senkronizasyonu yoktur.
+- **Mobil sürüm veya bulut senkronizasyonu yok:** LibreWolf yalnızca masaüstünde (Windows, Linux, macOS) kullanılabilir. Mobil uygulama yoktur ve bu nedenle hesapların veya yer imlerinin bir bulut aracılığıyla senkronizasyonu yoktur.
 
 
 
@@ -241,8 +241,8 @@ Yükleyiciyi (.exe) resmi web sitesinden indirin veya:
 
 
 
-- Chocolatey:** `choco install librewolf`
-- WinGet:** `winget install librewolf`
+- **Chocolatey:** `choco install librewolf`
+- **WinGet:** `winget install librewolf`
 
 
 
@@ -265,7 +265,7 @@ LibreWolf, Mac için bir .dmg paketi olarak mevcuttur. Disk görüntüsünü res
 ![LIBREWOLF](assets/fr/04.webp)
 
 
-*Uzantıları ve menüsüyle LibreWolf ana sayfası. Sağ üst köşedeki mavi ok menü simgesini gösterir (üç yatay çubuk)
+*Uzantıları ve menüsüyle LibreWolf ana sayfası. Sağ üst köşedeki mavi ok menü simgesini gösterir (üç yatay çubuk)*
 
 
 
@@ -325,8 +325,8 @@ Prensip olarak, LibreWolf gereksiz uzantıların eklenmesini önermez, çünkü 
 
 
 
-- Bölümlere ayrılmış tarama için Firefox Multi-Account Containers** (Mozilla tarafından)
-- Ortak kütüphanelere yerel olarak hizmet vermek için Decentraleyes** veya **LocalCDN**
+- Bölümlere ayrılmış tarama için **Firefox Multi-Account Containers** (Mozilla tarafından)
+- Ortak kütüphanelere yerel olarak hizmet vermek için **Decentraleyes** veya **LocalCDN**
 
 
 
@@ -402,7 +402,7 @@ LibreWolf, gizlilik odaklı tarayıcıların "araç kutusunun" bir parçasıdır
 
 
 
-**Brave, Chrome/Chromium kodunu kullanır ve isteğe bağlı reklam programı aracılığıyla bir iş modelini entegre eder. Firefox için bir topluluk Fork olan LibreWolf, Mozilla'nın özgür ekosistemini korur ve Google ile hiçbir bağı yoktur.
+**Brave, Chrome/Chromium kodunu kullanır ve isteğe bağlı reklam programı aracılığıyla bir iş modelini entegre eder.** Firefox için bir topluluk Fork olan LibreWolf, Mozilla'nın özgür ekosistemini korur ve Google ile hiçbir bağı yoktur.
 
 
 

@@ -1,0 +1,9 @@
+question: Perché un singolo Wallet non è considerato un partecipante alla rete Bitcoin?
+answer: Poiché non convalida le transazioni o i blocchi
+wrong_answers:
+  - Perché non è in grado di gestire le chiavi private generate
+  - Perché non è in grado di creare indirizzi Bitcoin
+  - Perché non convalida le vendite o gli indirizzi
+explanation: |
+  Un Wallet non convalida direttamente blocchi e transazioni; si limita a gestire le chiavi e dipende dai nodi per il resto.
+reviewed: true

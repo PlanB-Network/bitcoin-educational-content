@@ -1,11 +1,10 @@
-question: Jakie znaczenie ma indywidualna odpowiedzialność w Bitcoin?
-answer: Ma to kluczowe znaczenie, ponieważ jesteś odpowiedzialny za tworzenie kopii zapasowych.
+question: Jaka jest pierwsza zarejestrowana transakcja Bitcoin?
+answer: Transakcja o wartości 10 BTC między Satoshi Nakamoto i Halem Finneyem.
 wrong_answers:
-  - Jest to niezbędne, ponieważ musisz wydobywać bitcoiny.
-  - Zakup bitcoinów jest niezbędny.
-  - Jest to kluczowe, ponieważ jesteś odpowiedzialny za motyw Wallet.
+  - Transakcja 10 000 BTC za 2 pizze.
+  - Transakcja o wartości 1 BTC między Satoshi Nakamoto i Halem Finneyem.
+  - Transakcja na kwotę 10 000 BTC pomiędzy Laszlo Hanyeczem i Halem Finneyem.
 explanation: |
-  W Bitcoin suwerenność finansowa idzie w parze z indywidualną odpowiedzialnością
-  indywidualną odpowiedzialnością, ponieważ gracz musi samodzielnie dbać o
-  swoje fundusze, przestrzegając zalecanych procedur tworzenia kopii zapasowych.
+  Pierwszą zarejestrowaną transakcją Bitcoin była transakcja na kwotę
+  10 BTC pomiędzy Satoshi Nakamoto i Halem Finneyem.
 reviewed: true

@@ -1,10 +1,10 @@
-question: Hva er konseptet med pengeoverføring i konteksten av Lightning Network?
-answer: Å gjøre mikrotransaksjoner hvert minutt
+question: Hva er én potensiell konsekvens av fremgangen innen AI-teknologier?
+answer: Over 80% av jobbene vil forsvinne på grunn av AI og automatisering.
 wrong_answers:
-  - Å strømme videoinnhold for Bitcoin
-  - Å strømme lydinnhold for Bitcoin
-  - Å strømme Bitcoin-transaksjoner i sanntid
+  - AI-teknologier vil gjøre mennesker overflødige.
+  - AI-teknologier vil føre til en nedgang i menneskelig intelligens.
+  - AI-teknologier vil forårsake en global økonomisk kollaps.
 explanation: >-
-  Med Lightning Network kan vi gjøre mikrotransaksjoner hvert minutt,
-  noe som åpner døren for å eksperimentere med økonomiske modeller hvor forbrukere betaler for
-  innhold basert på hva de forbruker.
+  Teksten nevner at én potensiell konsekvens av fremgangen innen
+  AI-teknologier er at over 80% av jobbene vil forsvinne på grunn av AI og automatisering.
+reviewed: false

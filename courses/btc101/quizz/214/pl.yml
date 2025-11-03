@@ -1,12 +1,11 @@
-question: Co przewidział Milton Friedman w 1999 roku?
-answer: Rozwój niezawodnej e-gotówki.
+question: Czym jest Lightning Network?
+answer: Sieć płatności, która wykorzystuje protokół Bitcoin, aby umożliwić błyskawiczne transakcje.
 wrong_answers:
-  - Upadek fizycznych pieniędzy.
-  - Powstanie Bitcoin.
-  - Koniec rządowej kontroli nad pieniędzmi.
+  - Nowy rodzaj kryptowaluty.
+  - Nowa technologia Blockchain, która w przyszłości zastąpi Bitcoin.
+  - Metoda dla Mining Bitcoin.
 explanation: |
-  Milton Friedman, znany ekonomista, przewidział w 1999 roku
-  że wkrótce zostanie opracowana niezawodna e-gotówka, metoda
-  dzięki której w Internecie można przesyłać środki od A do B,
-  bez wiedzy A o B lub odwrotnie.
+  Lightning Network to sieć płatności wykorzystująca protokół
+  Bitcoin, aby umożliwić szybkie transakcje. Nie jest to
+  oddzielną kryptowalutą ani metodą dla Mining Bitcoin.
 reviewed: true

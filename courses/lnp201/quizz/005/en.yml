@@ -6,4 +6,4 @@ wrong_answers:
   - Create locking scripts to protect bitcoins
 explanation: |
   The private key is used to sign transactions to satisfy a script and unlock the bitcoins.
-reviewed: false
+reviewed: true

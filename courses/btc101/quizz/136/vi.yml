@@ -1,10 +1,11 @@
-question: Mạng Bitcoin đảm bảo làm sao để hành động có ác ý trở nên quá tốn kém trong giao thức Bitcoin?
-answer: Qua các quy tắc giao thức và động cơ kinh tế.
+question: Điều gì sẽ xảy ra nếu một người dùng nút quyết định tuân theo những quy tắc khác biệt mâu thuẫn với quy tắc đồng thuận hiện tại?
+answer: Nút đó sẽ không còn là một phần của mạng lưới Bitcoin.
 wrong_answers:
-  - Qua quy định nghiêm ngặt và giám sát.
-  - Qua việc sử dụng các biện pháp an ninh tiên tiến.
-  - Qua mối đe dọa của hành động pháp lý.
-explanation: >-
-  Mạng Bitcoin đảm bảo làm sao để hành động có ác ý trở nên quá tốn kém trong giao thức Bitcoin qua các quy tắc giao thức và động cơ kinh tế. Điều này
-  loại bỏ nhu cầu phải tin tưởng ở bất kỳ bước nào của quá trình chuyển giao quyền sở hữu bitcoin.
+  - Nút đó sẽ trở thành một phần của một mạng lưới Bitcoin khác.
+  - Nút đó sẽ bị mạng lưới Bitcoin phạt.
+  - Nút đó sẽ được mạng lưới Bitcoin thưởng.
+explanation: |
+  Nếu một người dùng nút quyết định tuân theo những quy tắc khác
+  làm mất hiệu lực của quy tắc đồng thuận hiện tại, thì nút này
+  sẽ không còn là một phần của mạng lưới Bitcoin.
 reviewed: true

@@ -1,12 +1,12 @@
-question: Quelle est la question centrale à se poser lors du choix d'un portefeuille Bitcoin, en termes de garde personnelle ?
-answer: Êtes-vous le propriétaire des fonds ou laissez-vous le contrôle de votre argent à un tiers ?
+question: Quel est le principal risque d'utiliser un service de garde pour stocker vos bitcoins ?
+answer: Le tiers de confiance peut restreindre votre accès à vos fonds à tout moment.
 wrong_answers:
-  - Le portefeuille est-il sécurisé par une phrase secrète ?
-  - Le portefeuille permet-il de recevoir et d'envoyer des bitcoins ?
-  - Puis-je partager mon portefeuille avec une autre personne ?
-explanation: |
-  Lors du choix d'un portefeuille Bitcoin, la question centrale est :
-  êtes-vous le propriétaire des fonds ou laissez-vous le contrôle de
-  votre argent à un tiers ? Cela est dû au fait que le détenteur de
-  la clé privée est le propriétaire des bitcoins.
+  - Le tiers de confiance peut augmenter la valeur de vos bitcoins à tout moment.
+  - Le tiers de confiance peut diminuer la valeur de vos bitcoins à tout moment.
+  - Le tiers de confiance ne peut pas dupliquer vos bitcoins à tout moment.
+explanation: >-
+  Lorsque vous utilisez un service de garde pour stocker vos bitcoins, vous n'êtes pas
+  le seul détenteur de vos bitcoins. Cela signifie que le tiers de confiance peut restreindre
+  votre accès à vos fonds à tout moment, vous donnant le même niveau de souveraineté financière
+  que le système bancaire traditionnel.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Je, ni kichwa gani cha Karatasi Nyeupe ya Satoshi Nakamoto iliyochapishwa mwaka wa 2008?
+answer: Bitcoin Mfumo wa Pesa wa Kielektroniki wa Peer-to-Rika
+wrong_answers:
+  - Bitcoin A Mfumo wa Dhahabu wa Dijiti uliowekwa madarakani
+  - Bitcoin Mustakabali wa Pesa
+  - Mtandao wa Malipo wa Bitcoin A Blockchain
+explanation: |
+  Karatasi Nyeupe ya Satoshi Nakamoto, Bitcoin A Peer-to-Peer Electronic Cash System, ilichapishwa mwaka wa 2008.
+reviewed: true

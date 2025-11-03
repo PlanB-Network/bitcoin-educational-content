@@ -1,13 +1,11 @@
-question: Qual è il rischio nell'utilizzo di un wallet multisig?
-answer: Non avere accesso a un numero sufficiente di chiavi private individuali o componenti di backup.
+question: Qual è il metodo standard per ripristinare un wallet?
+answer: Inserire la frase mnemonica in qualsiasi software compatibile.
 wrong_answers:
-  - Avere accesso a un numero sufficiente di chiavi private individuali o componenti di backup.
-  - Condividere le proprie chiavi private con altre parti.
-  - Condividere le proprie chiavi pubbliche con altre parti.
+  - Salvare la frase mnemonica in un file digitale.
+  - Scrivere la frase mnemonica su una lavagna.
+  - Condividere la frase mnemonica con un amico di fiducia.
 explanation: |
-  Quando si utilizza un wallet multisig, ogni chiave privata del
-  multisig dovrebbe essere conservata in luoghi diversi. Questo perché
-  il multisig richiede più firme per autorizzare una transazione, quindi è
-  necessario un certo numero di wallet. Di conseguenza, conservare
-  ogni parte in una posizione diversa aggiunge un ulteriore livello di sicurezza.
-reviewed: true
+  Il metodo standard per fare il backup della chiave privata in un
+  wallet Bitcoin è inserire la frase mnemonica in qualsiasi
+  software compatibile. Questo permette di ripristinare il wallet.
+reviewed: false

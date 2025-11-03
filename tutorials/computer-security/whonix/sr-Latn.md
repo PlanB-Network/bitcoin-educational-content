@@ -17,12 +17,12 @@ description: Sačuvajte svoju privatnost i poverljivost.
 
 
 
-- Besplatno**: Kao većina Linux distribucija, Whonix je open-source sistem licenciran potpuno besplatno. Razvija se kao open source, uz aktivnu i transparentnu zajednicu.
-- Privatnost, bezbednost i anonimnost**: Glavni cilj Whonix-a je da ponudi ultra-bezbedno okruženje, u kojem su svi vaši podaci zaštićeni, a vaše komunikacije šifrovane putem Tor mreže.
-- Lako za korišćenje**: Whonix nudi intuitivan, unapred konfigurisan grafički Interface, pogodan čak i za početnike. Nema potrebe da budete stručnjak da biste imali koristi od napredne zaštite.
-- Idealno okruženje za siguran razvoj**: Whonix vam omogućava da razvijate, testirate, proveravate ili pokrećete programe bez otkrivanja vašeg pravog IP Address ili izlaganja vaših navika pretraživanja ili mrežne komunikacije.
-- Raspršive sesije i režim uživo**: Whonix se može pokrenuti u režimu uživo ili putem raspršivih mašina (npr. putem **Qubes OS**), omogućavajući obavljanje kritičnih zadataka bez ostavljanja trajnih tragova nakon završetka sesije.
-- Relativno jednostavna instalacija**: Gotove slike su dostupne za brzu instalaciju u virtuelnim mašinama (VirtualBox, KVM, Qubes). Sistem je dokumentovan i redovno ažuriran.
+- **Besplatno**: Kao većina Linux distribucija, Whonix je open-source sistem licenciran potpuno besplatno. Razvija se kao open source, uz aktivnu i transparentnu zajednicu.
+- **Privatnost, bezbednost i anonimnost**: Glavni cilj Whonix-a je da ponudi ultra-bezbedno okruženje, u kojem su svi vaši podaci zaštićeni, a vaše komunikacije šifrovane putem Tor mreže.
+- **Lako za korišćenje**: Whonix nudi intuitivan, unapred konfigurisan grafički Interface, pogodan čak i za početnike. Nema potrebe da budete stručnjak da biste imali koristi od napredne zaštite.
+- **Idealno okruženje za siguran razvoj**: Whonix vam omogućava da razvijate, testirate, proveravate ili pokrećete programe bez otkrivanja vašeg pravog IP Address ili izlaganja vaših navika pretraživanja ili mrežne komunikacije.
+- **Raspršive sesije i režim uživo**: Whonix se može pokrenuti u režimu uživo ili putem raspršivih mašina (npr. putem **Qubes OS**), omogućavajući obavljanje kritičnih zadataka bez ostavljanja trajnih tragova nakon završetka sesije.
+- **Relativno jednostavna instalacija**: Gotove slike su dostupne za brzu instalaciju u virtuelnim mašinama (VirtualBox, KVM, Qubes). Sistem je dokumentovan i redovno ažuriran.
 
 
 
@@ -56,9 +56,9 @@ Evo su preporučene specifikacije za glatko i stabilno iskustvo sa Whonix-om:
 
 
 
-- Random Access Memory (RAM)**: preporučuje se minimum od **8 GB**. Što više RAM-a imate, to više resursa možete dodeliti virtuelnim mašinama (Gateway i Workstation), poboljšavajući performanse.
+- **Random Access Memory (RAM)**: preporučuje se minimum od **8 GB**. Što više RAM-a imate, to više resursa možete dodeliti virtuelnim mašinama (Gateway i Workstation), poboljšavajući performanse.
 - Dostupni prostor na disku**: molimo omogućite najmanje 30 GB slobodnog prostora na disku**. Ovo uključuje prostor potreban za dve virtuelne mašine, sistemske fajlove i sve podatke ili snimke.
-- Procesor**: preporučuje se procesor sa najmanje **4 fizičke jezgre** (8 logičkih niti), posebno ako želite da pokrećete druge usluge ili alate paralelno.
+- **Procesor**: preporučuje se procesor sa najmanje **4 fizičke jezgre** (8 logičkih niti), posebno ako želite da pokrećete druge usluge ili alate paralelno.
 
 
 
@@ -86,7 +86,7 @@ Kada preuzmete datoteku, instalirajte je kao i bilo koji drugi softver. Prihvati
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
+https://planb.academy/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
 ### Uvoz Whonix
 
 
@@ -224,7 +224,7 @@ sudo apt full-upgrade
 
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ### Electrum Bitcoin Wallet
 
@@ -234,7 +234,7 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 Whonix je više od operativnog sistema: to je pravi **siguran okruženje** dizajniran da zaštiti vašu anonimnost, vašu privatnost i vaše osetljive aktivnosti. Zahvaljujući svojoj arhitekturi zasnovanoj na Tor-u, inteligentnoj podeli između Gateway-a i Workstation-a, i unapred instaliranim alatima kao što su Tor Browser, KeePassXC i Electrum, nudi rešenje spremno za upotrebu za svakoga ko želi da **pretražuje anonimno**, **radi sigurno** ili **rukuje poverljivim podacima**.
 
@@ -244,4 +244,4 @@ Da biste ojačali svoju sigurnost na Unix sistemu, pogledajte naš vodič o revi
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
+https://planb.academy/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af

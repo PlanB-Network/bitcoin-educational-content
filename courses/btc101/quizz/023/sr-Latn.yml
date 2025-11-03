@@ -1,9 +1,12 @@
-question: Koja je uloga novca kao sredstva komunikacije?
-answer: Omogućava komunikaciju vrednosti kroz prostor i vreme i bez potrebe za poverenjem u drugu stranu.
+question: Koja je glavna prednost fiat valuta?
+answer: Deljivost.
 wrong_answers:
-  - Omogućava komunikaciju vrednosti samo kroz prostor i bez potrebe za poverenjem u drugu stranu.
-  - Omogućava komunikaciju vrednosti samo kroz vreme i bez potrebe za poverenjem u drugu stranu.
-  - Omogućava komunikaciju vrednosti kroz prostor i vreme i bez potrebe za poverenjem u drugu stranu.
+  - One su pod kontrolom centralne banke.
+  - One nisu lako prenosive.
+  - One su efikasne u očuvanju vrednosti kroz vreme.
 explanation: |
-  Novac kao alat za komunikaciju omogućava komunikaciju kroz prostor i vreme, dok transformišemo naše vreme i energiju u sredstvo koje se može ponovo koristiti u budućnosti bez rizika od devalvacije. Takođe omogućava komunikaciju na univerzalnom zajedničkom jeziku, omogućavajući dvojici stranaca da razmenjuju, trguju i dogovore se o vrednosti stvari.
+  Fiat valute, kao što su dolar i evro, su veoma
+  likvidne i lako prenosive jer su sada uglavnom
+  digitalne. Međutim, njihova vrednost je konstantno narušena
+  monetarnom inflacijom.
 reviewed: true

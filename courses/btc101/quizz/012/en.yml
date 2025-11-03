@@ -1,12 +1,12 @@
-question: Who are the cypherpunks?
-answer: A group of people who began to deeply question the role of privacy and freedom in the digital age.
+question: What are the three canonical functions of money?
+answer: Store of value, Medium of exchange, Unit of account.
 wrong_answers:
-  - A group of hackers who stole information from governments.
-  - A group of people who invented Bitcoin and other cryptocurrencies.
-  - A group of people who opposed the use of technology.
+  - Store of value, Medium of exchange, Means of production.
+  - Store of value, Means of production, Unit of account.
+  - Medium of exchange, Means of production, Unit of account.
 explanation: |
-  The cypherpunks are a group of individuals who believed
-  that cryptography could serve as a tool to protect
-  individual rights against the interference of governments
-  and large corporations.
+  According to Aristotle, money serves three functions: it is
+  a store of value, a medium of exchange, and a unit of
+  account. Nowadays, the medium of exchange function is
+  widely recognized as the main one, before the other two.
 reviewed: true

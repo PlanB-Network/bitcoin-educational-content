@@ -1,9 +1,9 @@
-question: Hash hợp lệ trong bối cảnh đào block trong mạng Bitcoin là gì?
-answer: Một dấu vân tay duy nhất liên kết với block, bao gồm 256 ký tự.
+question: Chi phí để vận hành một nút Bitcoin trên Raspberry Pi 4 về mặt tiêu thụ điện năng hàng năm là bao nhiêu (tính đến năm 2023)?
+answer: Một chút ít hơn 10€ mỗi năm.
 wrong_answers:
-  - Một mã duy nhất được sử dụng để truy cập block.
-  - Một mật khẩu duy nhất cần thiết để đào block.
-  - Một mã định danh duy nhất cho người đào block đó.
+  - Một chút nhiều hơn 50€ mỗi năm.
+  - Một chút ít hơn 100€ mỗi năm.
+  - Khoảng 200€ mỗi năm.
 explanation: |
-  Trong bối cảnh đào block trong mạng Bitcoin, một hash hợp lệ là một dấu vân tay duy nhất liên kết với block, bao gồm 256 ký tự. Tính hợp lệ của hash này phụ thuộc vào độ khó của mạng Bitcoin.
+  Việc vận hành một nút Bitcoin trên Raspberry Pi 4 tiêu thụ một lượng điện năng khiến chi phí hàng năm một chút ít hơn 10€ tính đến năm 2023.
 reviewed: true

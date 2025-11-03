@@ -1,0 +1,9 @@
+question: Mitkä kaksi Lightning Network-toteutusta ovat saatavilla Umbrelissa?
+answer: LND ja Core Lightning
+wrong_answers:
+  - Electrs ja Fulcrum
+  - Bitcoin core ja Bitcoin Knots
+  - Ride The Lightning ja ThunderHub
+explanation: |
+  Umbrelin avulla voit valita LND:n ja Core Lightningin Lightning Network:n toteutuksiksi.
+reviewed: true

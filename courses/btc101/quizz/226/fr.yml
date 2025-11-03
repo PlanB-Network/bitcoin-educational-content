@@ -1,9 +1,12 @@
-question: Quel type de réseau le Lightning Network crée-t-il ?
-answer: Un réseau de canaux de paiement.
+question: Quel est le but principal du Lightning Network ?
+answer: Faciliter les micro-transactions.
 wrong_answers:
-  - Un réseau de nœuds de minage.
-  - Un réseau de nœuds de blockchain.
-  - Un réseau d'échanges de cryptomonnaies.
+  - Augmenter la valeur du Bitcoin.
+  - Remplacer le protocole Bitcoin.
+  - Créer une nouvelle cryptomonnaie.
 explanation: >-
-  Le Lightning Network agit comme un réseau de canaux de paiement, permettant des transactions instantanées avec des frais réduits pour l'expéditeur.
+  Le Lightning Network est une solution de deuxième couche au protocole Bitcoin
+  qui vise à faciliter les micro-transactions, qui sont des transactions de très faible valeur
+  qui seraient autrement impraticables en raison des frais plus élevés et des longs temps de confirmation
+  sur la blockchain Bitcoin.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Welke fase maakt deel uit van de rol van een minderjarige?
+answer: Een kandidaat-blok bouwen vanuit Mempool
+wrong_answers:
+  - Valideer het hele Blockchain van Mempool
+  - Bitcoin adressen aanmaken voor gebruikers
+  - Privé sleutels voor portefeuilles opslaan
+explanation: |
+  Een Miner selecteert transacties uit Mempool en bouwt een kandidaatblok, dat hij probeert te valideren door Proof of Work.
+reviewed: true

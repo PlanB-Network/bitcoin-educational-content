@@ -1,9 +1,9 @@
-question: Một trong những hậu quả tiềm ẩn khi không tuân thủ quy định của quốc gia bạn khi mua Bitcoin là gì?
-answer: Bạn có thể đặt bản thân vào rủi ro.
+question: Cụm từ Bitcoin có xu hướng tăng chung có nghĩa là gì?
+answer: Xu hướng tăng chung của Bitcoin có nghĩa là, tổng thể, giá của Bitcoin đã tăng lên.
 wrong_answers:
-  - Bạn có thể làm tăng giá của Bitcoin.
-  - Bạn có thể kiểm soát nguồn cung của Bitcoin.
-  - Bạn có thể ngăn cản người khác mua Bitcoin.
+  - Xu hướng tăng chung của Bitcoin có nghĩa là giá của nó được đảm bảo sẽ tăng lên mãi mãi mà không có bất kỳ biến động nào.
+  - Xu hướng tăng chung của Bitcoin có nghĩa là Bitcoin đang trở nên kém giá trị và mất đi sức hút trên thị trường.
+  - Xu hướng tăng chung của Bitcoin có nghĩa là nó chỉ phổ biến trong một nhóm nhỏ các nhà đầu tư và không có ảnh hưởng gì đến thị trường tổng thể.
 explanation: |
-  Văn bản khóa học đề cập rằng không tuân thủ quy định của quốc gia bạn khi mua Bitcoin có thể đặt bạn vào rủi ro.
+  Xu hướng tăng chung của Bitcoin ám chỉ sự tăng giá liên tục của nó trong một khoảng thời gian nhất định. Điều quan trọng cần lưu ý là mặc dù xu hướng tăng lên cho thấy một quỹ đạo tích cực, nó không đảm bảo rằng giá sẽ tiếp tục tăng lên mà không có bất kỳ biến động nào.
 reviewed: true

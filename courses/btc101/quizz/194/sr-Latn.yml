@@ -1,12 +1,9 @@
-question: Koji je jedan alat za prihvatanje Bitkoina za velike organizacije ili strastvene entuzijaste Bitkoina?
-answer: BTCpay Server.
+question: Koja je svrha KYC propisa?
+answer: Da bi se suzbilo finansiranje terorizma, utaja poreza i pranje novca.
 wrong_answers:
-  - Bitkoin novčanik.
-  - Bitkoin menjačnica.
-  - BTCpay rudarenje.
+  - Da se poveća cena Bitkoina i da korisnik plati više poreza.
+  - Da se kontroliše ponuda od Bitkoina.
+  - Da bi se sprečilo da ljudi kupuju Bitkoin.
 explanation: |
-  BTCpay Server je alat za prihvatanje Bitkoina za velike
-  strukture ili strastvene bitkoinere. Druga rešenja
-  uključuju OpenNode za jednostavne online biznise i Swiss
-  Bitcoin Pay za amaterske trgovce.
+  Tekst kursa objašnjava da propisi Znaj Svojeg Kupca (KYC) zahtevaju od korisnika da pruže identifikaciju kako bi se borili protiv finansiranja terorizma, utaje poreza i pranja novca.
 reviewed: true

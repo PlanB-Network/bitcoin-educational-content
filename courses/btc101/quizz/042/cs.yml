@@ -1,13 +1,9 @@
-question: Jaký je potenciální nedostatek digitálních měn centrálních bank (CBDC)?
-answer: Mohou omezit finanční svobodu jednotlivců a usnadnit autoritářské zneužívání.
+question: Jaká je první fáze fenoménu hyperinflace?
+answer: Ztráta důvěry.
 wrong_answers:
-  - Mohou vést k poklesu peněžní zásoby.
-  - Mohou vést k poklesu hodnoty Bitcoinu.
-  - Mohou vést k poklesu hodnoty zlata.
+  - Kolaps měny a růst cen.
+  - Zlý kruh tisku peněz.
+  - Vznik nové měny.
 explanation: |
-  Digitální měny centrálních bank (CBDC) by potenciálně mohly
-  omezit finanční svobodu jednotlivců a usnadnit autoritářské
-  zneužívání. Důvodem je, že by nabízely více centrálně plánované
-  ekonomiky, přičemž centrální banka by měla ještě větší kontrolu
-  nad peněžní zásobou.
+  První fáze hyperinflace je ztráta důvěry v měnu.
 reviewed: true

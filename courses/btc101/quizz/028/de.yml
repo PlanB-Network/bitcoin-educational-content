@@ -1,13 +1,9 @@
-question: Was ist der Entwicklungspfad der heutigen Währung?
-answer: Rohstein -> Münze -> Banknote -> Bankkarte -> Blockchain -> Lightning-Netzwerk
+question: Was ist die Bedeutung von Fiatgeld?
+answer: Fiatgeld ist eine Währung, die ihren Wert dadurch erhält, dass eine Regierung ihn aufrechterhält und die Menschen Vertrauen in seinen Wert haben, anstatt durch eine physische Ware wie Gold gedeckt zu sein.
 wrong_answers:
-  - Rohstein -> Münze -> Banknote -> Blockchain -> Lightning-Netzwerk
-  - Rohstein -> Münze -> Banknote -> Bankkarte -> Lightning-Netzwerk
-  - Rohstein -> Münze -> Bankkarte -> Banknote -> Blockchain -> Lightning-Netzwerk
+  - Fiatgeld ist eine Währung, die durch eine physische Ware, wie Gold oder Silber, gedeckt ist, was bedeutet, dass ihr Wert direkt an den Wert dieser Ware gebunden ist.
+  - Fiatgeld ist eine Art von Kryptowährung, die auf einem dezentralen Netzwerk operiert und Peer-to-Peer-Transaktionen ohne die Notwendigkeit einer zentralen Autorität ermöglicht.
+  - Fiatgeld ist eine Währung, die keinen intrinsischen Wert hat und nicht für Transaktionen verwendet werden kann, was sie im Grunde wertlos in der Wirtschaft macht.
 explanation: |
-  Währung ist eine Technologie, die sich im Laufe der Zeit entwickelt hat,
-  beginnend mit der Darstellung durch Rohsteine, über den Wechsel
-  zu metallischen Münzen, dann zu Banknoten, Bankkarten und
-  schließlich zu Peer-to-Peer-Netzwerken mit der Nutzung der
-  Bitcoin-Blockchain und des Lightning-Netzwerks.
+  Fiatgeld wird per Regierungsdekret als gesetzliches Zahlungsmittel festgelegt, und sein Wert wird nicht von irgendeiner physischen Ware abgeleitet.
 reviewed: true

@@ -91,9 +91,9 @@ BIP-85 允许您从单个 seed 核心词组创建多个 Bitcoin 投资组合，�
 
 
 
-- 情景**：您使用 "Hot Wallet "Wallet（安装在联网设备上）进行日常交易。
-- 解决方案 BIP-85**：创建一个 seed 二级短语，专门用于该投资组合。
-- 与 BIP-32 相比的优势**：您无需将 seed 主要短语导入手机，从而降低了黑客攻击的风险。只有 seed 次要短语会被泄露，从而保护您的其他钱包。使用 BIP-32，您需要使用 seed 主短语和旁路路径，从而暴露您的所有资金。
+- 情景：您使用 **Hot Wallet**（安装在联网设备上）进行日常交易。
+- 解决方案 **BIP-85**：创建一个 seed 二级短语，专门用于该投资组合。
+- **与 BIP-32 相比的优势**：您无需将 seed 主要短语导入手机，从而降低了黑客攻击的风险。只有 seed 次要短语会被泄露，从而保护您的其他钱包。使用 BIP-32，您需要使用 seed 主短语和旁路路径，从而暴露您的所有资金。
 
 
 
@@ -103,9 +103,9 @@ BIP-85 允许您从单个 seed 核心词组创建多个 Bitcoin 投资组合，�
 
 
 
-- 情景**：您为亲近的人（例如您的母亲）设置了一个 Bitcoin Wallet，如果他们丢失了，您还可以恢复它。
-- 解决方案 BIP-85**：您创建了一个专门的 seed 二级句子，并只共享这一个。
-- 与 BIP-32 相比的优势**：使用 BIP-32，为亲人创建一个账户需要共享您的主 seed 短语，这将使您的所有资金面临风险，并使您亲人的管理复杂化（管理分支路径），或者在您的主 seed 短语之外创建一个新的 seed 短语进行保存。
+- 情景：您为亲近的人（例如您的母亲）设置了一个 Bitcoin Wallet，如果他们丢失了，您还可以恢复它。
+- 解决方案 **BIP-85**：您创建了一个专门的 seed 二级句子，并只共享这一个。
+- **与 BIP-32 相比的优势**：使用 BIP-32，为亲人创建一个账户需要共享您的主 seed 短语，这将使您的所有资金面临风险，并使您亲人的管理复杂化（管理分支路径），或者在您的主 seed 短语之外创建一个新的 seed 短语进行保存。
 
 
 
@@ -115,9 +115,9 @@ BIP-85 允许您从单个 seed 核心词组创建多个 Bitcoin 投资组合，�
 
 
 
-- 情景**：您将比特币分开用于不同用途（如长期储蓄、非 KYC 资金）。
-- 解决方案 BIP-85**：为每个目标创建 seed 二级短语。
-- 相对于 BIP-32 的优势**：在 BIP-32 中，所有账户共享相同的 seed 短语，这使得第三方投资组合的管理变得复杂，因为需要管理诸如 `m/44'/0'/0'` 等派生路径。此外，也无法为每个设备分配单独的账户（例如，"Coldcard 上的储蓄"、"移动设备上的日常"、"Trezor 上的假期"）。BIP-85 为每个目标分配了一个独特的 seed 二级短语，便于识别并在每个设备上单独导入。
+- 情景：您将比特币分开用于不同用途（如长期储蓄、非 KYC 资金）。
+- 解决方案 **BIP-85**：为每个目标创建 seed 二级短语。
+- 相对于 BIP-32 的优势：在 BIP-32 中，所有账户共享相同的 seed 短语，这使得第三方投资组合的管理变得复杂，因为需要管理诸如 `m/44'/0'/0'` 等派生路径。此外，也无法为每个设备分配单独的账户（例如，"Coldcard 上的储蓄"、"移动设备上的日常"、"Trezor 上的假期"）。BIP-85 为每个目标分配了一个独特的 seed 二级短语，便于识别并在每个设备上单独导入。
 
 
 
@@ -127,9 +127,9 @@ BIP-85 允许您从单个 seed 核心词组创建多个 Bitcoin 投资组合，�
 
 
 
-- 情景**：您需要一个临时投资组合，用于一次性交易或保密（例如：混合资金、与 Exchange KYC 互动等）。
-- 解决方案 BIP-85**：您可以创建一个 seed 二级句子，将其用于交易，然后在必要时将其销毁，因为您知道它可以重新生成。
-- 相对于 BIP-32 的优势**：使用 BIP-32，临时账户依赖于 seed 主句，一旦受到威胁，您的所有资金都会暴露。
+- 情景：您需要一个临时投资组合，用于一次性交易或保密（例如：混合资金、与 Exchange KYC 互动等）。
+- 解决方案 **BIP-85**：您可以创建一个 seed 二级句子，将其用于交易，然后在必要时将其销毁，因为您知道它可以重新生成。
+- 相对于 BIP-32 的优势：使用 BIP-32，临时账户依赖于 seed 主句，一旦受到威胁，您的所有资金都会暴露。
 
 
 
@@ -141,7 +141,7 @@ BIP-85 允许您从单个 seed 核心词组创建多个 Bitcoin 投资组合，�
 
 
 
-- 硬件**（可选）
+- **硬件**（可选）
  - 冷卡 Mk4 或 Q1
  - MicroSD 卡
 
@@ -158,7 +158,7 @@ BIP-85 允许您从单个 seed 核心词组创建多个 Bitcoin 投资组合，�
 
 
 
-- 兼容** 软件
+- 兼容**软件**
  - Sparrow wallet（计算机，用于仅观察或高级管理）
  - 双节棍（手机，用于多重签名）
  - 蓝色钱包（手机）
@@ -168,7 +168,7 @@ BIP-85 允许您从单个 seed 核心词组创建多个 Bitcoin 投资组合，�
 
 
 
-- 3.4 冷卡**配置
+- 3.4 冷卡配置
  - 在冷卡上初始化一个包含 24 个单词的 seed 句子。
  - 可选：添加一个 passphrase，以确保 BIP-85 分支的访问安全。
  - 激活有用的选项：NFC（用于导出）、禁用电池 USB（安全）。
@@ -197,7 +197,7 @@ BIP-85 允许您从单个 seed 核心词组创建多个 Bitcoin 投资组合，�
 
 
 
-- 1.如果您已将 passphrase 应用于主 seed：**
+- 1.如果您已将 passphrase 应用于主 seed：
  - 从主屏幕进入 "passphrase"。
     - 选择 "添加 Word "并输入密码。
     - 按 "应用"。
@@ -207,7 +207,7 @@ BIP-85 允许您从单个 seed 核心词组创建多个 Bitcoin 投资组合，�
 
 
 
-- 2.转到 BIP-85** 菜单
+- 2.转到 **BIP-85** 菜单
  - 从主屏幕，转到 "高级 > 导出 seed B85
  - 阅读警告并确认。
 
@@ -246,7 +246,7 @@ ColdCard 通知您，所生成的种子在数学上源自您的主 seed，但在
 
 
 
-- 5.注释或导出 seed 二级句子**
+- 5.注释或导出 seed 二级句子
 
 
 ColdCard 现在可以显示新的 seed 二级句子。您可以 ：
@@ -415,13 +415,13 @@ BIP85 的使用完全依赖于 24 个字的 seed 主句，如果您使用了 pas
 
 
 
-- [BEEP](https://planb.network/resources/glossary/bip)
-- [BIP-32](https://planb.network/resources/glossary/bip0032)
-- [BIP-39](https://planb.network/resources/glossary/bip0039)
-- [BIP-85](https://planb.network/resources/glossary/bip0085)
-- [seed短语](https://planb.network/resources/glossary/recovery-phrase)
-- [passphrase](https://planb.network/resources/glossary/passphrase-bip39)
-- [Multisig](https://planb.network/resources/glossary/Multisig)
+- [BEEP](https://planb.academy/resources/glossary/bip)
+- [BIP-32](https://planb.academy/resources/glossary/bip0032)
+- [BIP-39](https://planb.academy/resources/glossary/bip0039)
+- [BIP-85](https://planb.academy/resources/glossary/bip0085)
+- [seed短语](https://planb.academy/resources/glossary/recovery-phrase)
+- [passphrase](https://planb.academy/resources/glossary/passphrase-bip39)
+- [Multisig](https://planb.academy/resources/glossary/multisig)
 
 
 
@@ -430,18 +430,18 @@ BIP85 的使用完全依赖于 24 个字的 seed 主句，如果您使用了 pas
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 
 ### A.3 了解 passphrase BIP39
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 
 ### A.4 Bitcoin 组合如何运作
 
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f

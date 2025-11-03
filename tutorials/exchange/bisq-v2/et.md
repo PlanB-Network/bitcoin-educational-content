@@ -8,7 +8,7 @@ description: Täielik juhend Bisq 2 kasutamise ja bitcoinide P2P vahetamise koht
 
 KYC-vabad peer-to-peer (P2P) börsid on kasutajate konfidentsiaalsuse ja finantsautonoomia säilitamiseks hädavajalikud. Need võimaldavad otsetehinguid üksikisikute vahel ilma isikusamasuse kontrollimise vajaduseta, mis on oluline nende jaoks, kes hindavad privaatsust. Teoreetiliste mõistete põhjalikumaks mõistmiseks vaadake kursust BTC204:
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Mis on Bisq 2?
 
@@ -86,7 +86,7 @@ Käesolev juhend keskendub ainult Bisq Easy'le, mis on praegu ainus olemasolev p
 - Laadige alla teie operatsioonisüsteemile vastav Bisq 2 versioon (kerige lehekülge allapoole)
 - Kontrollige allalaaditud faili autentsust (tungivalt soovitatav). Allkirjade kontrollimise üksikasjalik juhend on esitatud järgmises õpetuses:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### 2. Paigaldamine vastavalt teie süsteemile
 
@@ -327,37 +327,37 @@ Selleks, et suurendada oma müüja mainet Bisqis, tehke regulaarselt tehinguid j
 ### Bisq 2 eelised
 
 
-- Maksimaalne konfidentsiaalsus**: KYC puudub, Tori kasutamine
-- Detsentraliseerimine**: Ei mingit keskset serverit
-- Turvalisus**: Avatud lähtekoodiga, mittekaitstav kood
-- Intuitiivne kasutajaliides**: lihtsam kui Bisq 1
-- Paindlikkus**: Mitu vahetusprotokolli
+- **Maksimaalne konfidentsiaalsus**: KYC puudub, Tori kasutamine
+- **Detsentraliseerimine**: Ei mingit keskset serverit
+- **Turvalisus**: Avatud lähtekoodiga, mittekaitstav kood
+- **Intuitiivne kasutajaliides**: lihtsam kui Bisq 1
+- **Paindlikkus**: Mitu vahetusprotokolli
 
 ### Bisq 2 puudused
 
 
-- Piiratud likviidsus** (hetkel) :
+- **Piiratud likviidsus** (hetkel):
  - Uus protokoll käivitamisetapis
  - Vähesed müügipakkumised saadaval
  - Võimalik pikk ooteaeg ostja leidmiseks
-- Kauplemislimiidid**: Maksimaalselt 600 USD tehingu kohta (koos Bisq easy'ga)
-- Ainult lauaarvuti**: Mobiilirakendus puudub
+- **Kauplemislimiidid**: Maksimaalselt 600 USD tehingu kohta (koos Bisq easy'ga)
+- **Ainult lauaarvuti**: Mobiilirakendus puudub
 
 ## Tulevased protokollid
 
 Kuigi Bisq Easy on praegu ainus olemasolev protokoll, on Bisq 2 jaoks väljatöötamisel mitu muud protokolli:
 
 
-- Bisq Lightning**: Lightning-võrgus mitmepoolset arvutuskrüptograafiat kasutaval deponeerimissüsteemil põhinev vahetusprotokoll.
-- Bisq MuSig**: Põhiprotokolli migratsioon Bisq 1-st Bisq 2-sse, kasutades 2-on-2 multisig'i koos tagatisrahaga.
-- BSQ vahetus**: Kohene aatomivahetus BSQ ja BTC vahel.
-- Likviidsed vahetustehingud**: Varade vahetamine Liquid-võrgus (USDT, BTC-L) aatomiliste vahetustehingute kaudu.
-- Monero Swaps**: Aatomivahetused Bitcoini ja Monero vahel.
-- Vedelik MuSig**: Multisig-protokolli versioon, mis kasutab L-BTC-d madalamate kulude ja suurema konfidentsiaalsuse tagamiseks.
-- Allveelaeva vahetused**: Vahetused Bitcoini vahel Lightning-võrgus ja Bitcoini ahelas.
-- Stablecoin Swaps**: Aatomivahetused Bitcoini ja USD stabiilse mündi vahel.
-- Multisig Valikud**: P2P müügi- ja ostuoptsioonide loomine koos BTC blokeerimisega ahelasiseses multisig-tehingus.
-- Multisig avatud lepingud**: Võimaldab luua kohandatud tingimuslikke lepinguid, kasutades 2-on-3 multisig süsteemi koos arbitraažiga.
+- **Bisq Lightning**: Lightning-võrgus mitmepoolset arvutuskrüptograafiat kasutaval deponeerimissüsteemil põhinev vahetusprotokoll.
+- **Bisq MuSig**: Põhiprotokolli migratsioon Bisq 1-st Bisq 2-sse, kasutades 2-on-2 multisig'i koos tagatisrahaga.
+- **BSQ vahetus**: Kohene aatomivahetus BSQ ja BTC vahel.
+- **Likviidsed vahetustehingud**: Varade vahetamine Liquid-võrgus (USDT, BTC-L) aatomiliste vahetustehingute kaudu.
+- **Monero Swaps**: Aatomivahetused Bitcoini ja Monero vahel.
+- **Vedelik MuSig**: Multisig-protokolli versioon, mis kasutab L-BTC-d madalamate kulude ja suurema konfidentsiaalsuse tagamiseks.
+- **Allveelaeva vahetused**: Vahetused Bitcoini vahel Lightning-võrgus ja Bitcoini ahelas.
+- **Stablecoin Swaps**: Aatomivahetused Bitcoini ja USD stabiilse mündi vahel.
+- **Multisig Valikud**: P2P müügi- ja ostuoptsioonide loomine koos BTC blokeerimisega ahelasiseses multisig-tehingus.
+- **Multisig avatud lepingud**: Võimaldab luua kohandatud tingimuslikke lepinguid, kasutades 2-on-3 multisig süsteemi koos arbitraažiga.
 
 Need protokollid on praegu väljatöötamisel ja neid integreeritakse järk-järgult Bisq 2-sse, pakkudes kasutajatele suuremat paindlikkust vastavalt nende erivajadustele.
 

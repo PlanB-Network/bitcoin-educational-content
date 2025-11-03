@@ -1,0 +1,9 @@
+question: 이더넷 네트워크에서 IP Address을 MAC Address에 연결하는 데 사용되는 프로토콜은 무엇인가요?
+answer: ARP
+wrong_answers:
+  - RIP
+  - DNS
+  - OSPF
+explanation: |
+  Address ARP(확인 프로토콜)는 IP 주소를 로컬 네트워크의 MAC 주소에 매핑합니다.
+reviewed: false

@@ -11,7 +11,7 @@ Günümüzde, kişisel belgeleriniz, fotoğraflarınız veya önemli projelerini
 Bu sorunları önlemek için, dosyalarınızın birden fazla yedeğini farklı ortamlarda tutmanızı tavsiye ederim. Bilgisayarda yaygın olarak kullanılan bir strateji, dosyalarınızın korunmasını sağlayan "3-2-1" yedekleme stratejisidir:
 
 
-- dosyalarınızın 3** kopyası;
+- dosyalarınızın **3** kopyası;
 - En az **2** farklı medya türüne kaydedilmiştir;
 - En az **1** kopyası şirket dışında tutulmalıdır.
 
@@ -22,7 +22,7 @@ Başka bir deyişle, dosyalarınızı bilgisayarınız, harici bir Hard sürüc�
 Bu 3-2-1 yedekleme stratejisini kolayca uygulamak için, bilgisayarınızdaki dosyaları bulutunuzdakilerle otomatik olarak veya periyodik olarak senkronize eden bir çevrimiçi depolama çözümünü tercih edebilirsiniz. Bu çevrimiçi yedekleme çözümleri arasında bildiğiniz büyük dijital şirketlere ait olanlar da var: Google Drive, Microsoft OneDrive veya Apple iCloud. Ancak bunlar gizliliğinizi korumak için en iyi çözümler değildir. Daha önceki bir eğitimde, daha iyi gizlilik için belgelerinizi şifreleyen bir alternatifi tanıtmıştım: Proton Drive.
 
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Bu yerel ve bulut yedekleme stratejisini benimseyerek, verileriniz için biri tesis dışında olmak üzere iki farklı medya türünden zaten faydalanmış olursunuz. 3-2-1 stratejisini tamamlamak için ek bir kopya eklemeniz yeterlidir. Yapmanızı önerdiğim şey, yerel olarak ve bulutunuzda bulunan verilerinizi periyodik olarak USB bellek veya harici bir Hard sürücüsü gibi fiziksel bir ortama aktarmaktır. Bu şekilde, çevrimiçi depolama çözümünüzün sunucuları yok olsa ve bilgisayarınız aynı anda bozulsa bile, verilerinizi kaybetmemek için harici bir ortamda bu üçüncü kopyaya sahip olursunuz.
 
@@ -151,7 +151,7 @@ Ayrıca şifrenizi bir şifre yöneticisine kaydetmenizi tavsiye ederim. Bu, eri
 Parolaları yönetme hakkında daha fazla bilgi için, bu diğer eksiksiz öğreticiyi keşfetmenizi tavsiye ederim:
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Belirlenen 2 alana şifrenizi girin, ardından "*Sonraki*" üzerine tıklayın. ![VeraCrypt](assets/notext/25.webp)
 

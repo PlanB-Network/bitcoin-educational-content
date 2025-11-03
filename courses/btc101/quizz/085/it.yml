@@ -1,13 +1,13 @@
-question: Cos'è un hot wallet?
-answer: Un wallet Bitcoin installato su un telefono o computer connesso a Internet.
+question: Qual è l'uso consigliato di un wallet multisig?
+answer: Conservare grandi quantità di bitcoin per uso aziendale.
 wrong_answers:
-  - Un wallet che è fisicamente caldo al tatto.
-  - Un wallet che è popolare tra gli utenti Bitcoin.
-  - Un wallet consigliato per conservare grandi quantità di bitcoin.
+  - Conservare piccole quantità di bitcoin per uso personale.
+  - Conservare quantità medie di bitcoin per uso no-profit.
+  - Utilizzarlo per le spese quotidiane ad uso individuale.
 explanation: |
-  Hot wallet è un termine usato per descrivere un wallet Bitcoin
-  che è conservato su un dispositivo con accesso a Internet, come un
-  telefono o un computer. In questo modo, è facile effettuare
-  transazioni, ma significa anche che il wallet è
-  potenzialmente vulnerabile a minacce online.
+  Si raccomanda l'uso di un wallet multisig per conservare grandi quantità
+  di bitcoin e per l'uso aziendale, perché richiede multiple
+  firme per autorizzare una transazione. Questo processo aggiunge un
+  ulteriore livello di sicurezza, poiché una singola persona non può
+  disporre dei fondi senza l'approvazione degli altri partecipanti.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Siapa yang mengelola server DNS seed yang digunakan untuk penemuan peer awal?
+answer: Pengembang ekosistem
+wrong_answers:
+  - Penyedia layanan internet
+  - Satoshi Nakamoto
+  - Kolam Mining
+explanation: |
+  Seed DNS dikelola oleh pengembang terkenal (Wuille, Corallo, Dashjr, dll.) dan menyediakan IP simpul aktif untuk memulai koneksi.
+reviewed: true

@@ -1,13 +1,13 @@
-question: Czym jest Deklaracja Niepodległości Cyberprzestrzeni?
-answer: Tekst twierdzący, że cyberprzestrzeń jest odrębną sferą od sfery fizycznej i nie powinna podlegać tym samym prawom.
+question: Dlaczego złoto stało się standardowym środkiem Exchange?
+answer: Ze względu na swoją rzadkość, trwałość i podzielność.
 wrong_answers:
-  - Deklaracja stwierdzająca niezależność Bitcoin od tradycyjnych systemów finansowych.
-  - Tekst twierdzący, że cyberprzestrzeń powinna być kontrolowana przez rząd.
-  - Deklaracja, która gwarantuje niezależność ruchu pirackiego od jakichkolwiek regulacji.
+  - Ze względu na swoją obfitość, trwałość i niepodzielność.
+  - Ze względu na swoją rzadkość, nietrwałość i podzielność.
+  - Ze względu na jego obfitość, nietrwałość i niepodzielność.
 explanation: |
-  Deklaracja Niepodległości Cyberprzestrzeni została
-  napisana przez Johna Perry'ego Barlowa w 1996 roku. Dokument ten stwierdza
-  że cyberprzestrzeń jest sferą odrębną od sfery fizycznej
-  sfery, więc rządy przemysłowe nie mogą egzekwować w niej
-  władzy.
+  Złoto stało się standardowym środkiem Exchange ze względu na jego
+  rzadkość, trwałość i podzielność: jego rzadkość zapobiegła
+  dewaluacji spowodowanej produkcją; jego trwałość
+  zapewniła, że nie ulegnie erozji w czasie, a jego podzielność
+  pozwoliła na wykorzystanie go w transakcjach o różnej wielkości.
 reviewed: true

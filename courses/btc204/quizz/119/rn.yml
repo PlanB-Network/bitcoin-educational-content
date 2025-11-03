@@ -1,0 +1,10 @@
+question: Ni itandukaniro irihe rikomeye riri hagati y’igikoresho co gutera imbere n’igikoresho co gutera imbere ca kera?
+answer: Ugukwiragizwa kw'ibikorwa mu gihe
+wrong_answers:
+  - Umubare w'ibikorwa vyakoreshejwe
+  - Ubwoko bwa Address bukoreshwa
+  - Umubare w'ibisohoka mu bikorwa
+explanation: |
+  Ico gikoresho citwa ricochet gikomeye gituma igikorwa cose gitangazwa ku gihe gitandukanye kandi kikandikwa mu gice gitandukanye, mu gihe igikoresho ca kera gitangazwa amakuru yose mu gihe gito.
+  
+reviewed: false

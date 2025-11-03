@@ -1,0 +1,9 @@
+question: Ni wakati gani fundo la pruned ni shida kwa Wallet?
+answer: Wakati wa kurejesha Wallet ya zamani
+wrong_answers:
+  - Wakati wa kuunda mapokezi mapya Address
+  - Wakati wa kutuma muamala wa hivi majuzi
+  - Wakati wa kuchagua kiasi cha ada
+explanation: |
+  Nodi ya pruned haihifadhi vizuizi vya zamani, ambayo inaweza kuzuia shughuli za zamani zisikaguliwe wakati wa kurejesha.
+reviewed: true

@@ -1,8 +1,11 @@
-question: Jakie jest jedno z głównych pytań dotyczących przyszłości finansów?
-answer: Kto powinien przechowywać, autoryzować i śledzić pieniądze, których używamy?
+question: Jaki jest praktyczny sposób na zdobycie Bitcoinów?
+answer: Kupowanie ich za pośrednictwem regulowanych lub nieregulowanych platform.
 wrong_answers:
-  - Jak możemy całkowicie wyeliminować pieniądze?
-  - Jak możemy zagwarantować, że każdy będzie miał tyle samo pieniędzy?
-  - Jak możemy sprawić, że pieniądze staną się przestarzałe?
-explanation: >-
+  - Mining przy użyciu laptopa.
+  - Znalezienie ich w świecie fizycznym.
+  - Tworzenie ich przy użyciu specjalnego oprogramowania.
+explanation: |
+  Tekst wspomina, że użytkownicy mogą uzyskać Bitcoiny poprzez
+  przyjmując je do handlu lub kupując je za pośrednictwem
+  regulowane lub nieregulowane platformy.
 reviewed: true

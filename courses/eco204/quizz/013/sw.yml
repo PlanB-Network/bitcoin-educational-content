@@ -1,4 +1,4 @@
-question: Nini nafasi ya matarajio na tabia ya mawakala wa kiuchumi katika uhusiano kati ya uchapishaji wa fedha na mfumuko wa bei?
+question: Ni ipi nafasi ya matarajio na tabia ya mawakala wa kiuchumi katika uhusiano kati ya uchapishaji wa fedha na mfumuko wa bei?
 answer: Kutokuwa na uhakika wa kiuchumi na matarajio ya mawakala wa kiuchumi yanaweza kuongeza kasi au kuchelewesha athari za mfumuko wa bei za uchapishaji wa pesa.
 wrong_answers:
   - Matarajio na tabia ya mawakala wa kiuchumi hayana athari kwa uhusiano kati ya uchapishaji wa pesa na mfumuko wa bei.
@@ -8,6 +8,6 @@ explanation: |
   Sura inaeleza kwamba mfano wa Jamhuri ya Weimar unaonyesha
   jukumu la matarajio na tabia ya mawakala wa kiuchumi katika uhusiano
   kati ya uchapishaji wa fedha na mfumuko wa bei. Kutokuwa na uhakika wa kiuchumi na matarajio
-  ya mawakala wa kiuchumi inaweza ama kuongeza kasi au kuchelewesha madhara ya mfumuko wa bei ya fedha
+  ya mawakala wa kiuchumi unaweza ama kuongeza kasi au kuchelewesha madhara ya mfumuko wa bei ya fedha
   uchapishaji.
-reviewed: false
+reviewed: true

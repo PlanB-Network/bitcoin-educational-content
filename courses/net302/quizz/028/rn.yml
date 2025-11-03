@@ -1,0 +1,9 @@
+question: Ni igiki kijanye n’amakuru agendagenda muri Transport Layer ya TCP?
+answer: Igice
+wrong_answers:
+  - Datagram
+  - Ishusho
+  - Uruzi
+explanation: |
+  Ku Transport Layer ifise TCP, igice c’amakuru citwa igice, mu gihe UDP ikoresha ijambo packet.
+reviewed: false

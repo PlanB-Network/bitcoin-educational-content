@@ -1,0 +1,9 @@
+question: Quel risque existe si un portefeuille dépend d’un nœud tiers ?
+answer: Risque de surveillance et de censure
+wrong_answers:
+  - Risque de double dépense automatique
+  - Risque de perdre ses clés privées
+  - Risque de perte et de surveillance
+explanation: |
+  Un nœud tiers peut analyser ou bloquer vos transactions, voire associer vos données à votre identité.
+reviewed: false

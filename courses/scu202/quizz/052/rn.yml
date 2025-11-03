@@ -1,0 +1,9 @@
+question: Ni akamenyero akahe umuntu akwiye gukora imbere y’uko asangira dosiye kuri Internet canke kuri e-mail?
+answer: Sukura amakuru yose
+wrong_answers:
+  - Bubisha amakuru yose
+  - Kwemeza amakuru yose
+  - Guhindura izina ry'amakuru yose
+explanation: |
+  Gusukura amakuru y’imbere mu gihugu birabuza gutangaza amakuru y’agaciro ataco yiyumviriye igihe umuntu asangira amadosiye.
+reviewed: false

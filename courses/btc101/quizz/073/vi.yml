@@ -1,11 +1,9 @@
-question: Khóa riêng trong ví Bitcoin là gì?
-answer: Một khóa bí mật cho phép bạn ký các giao dịch của mình.
+question: Xác suất để ai đó vô tình đoán được danh sách 12 hoặc 24 từ trong ví Bitcoin của bạn là bao nhiêu?
+answer: Cực kỳ thấp.
 wrong_answers:
-  - Một khóa công khai được sử dụng để tạo địa chỉ Bitcoin.
-  - Một danh sách bí mật các từ để hủy ví trong trường hợp cần thiết.
-  - Một khóa bí mật để mã hóa các giao dịch Bitcoin.
-explanation: >-
-  Khi khởi tạo một ví Bitcoin, một danh sách các từ bí mật, gọi là hạt giống ghi nhớ (mnemonic seed), được tạo ra.
-  Danh sách khôi phục này rất quan trọng vì nó đại diện cho quyền sở hữu
-  các Bitcoin và do đó quyền gửi chúng.
+  - Cao.
+  - Trung bình.
+  - Mạnh.
+explanation: |
+  Nhờ vào công nghệ mã hóa được sử dụng để tạo ví, xác suất để ai đó vô tình đoán được danh sách 12 hoặc 24 từ của bạn là cực kỳ thấp. Điều này giống như việc tìm ra số đúng trong khoảng từ 1 đến $2^256$, gần như tương đương với việc tìm một nguyên tử được xác định trong Vũ trụ.
 reviewed: true

@@ -1,0 +1,9 @@
+question: 2010년 7월 11일 슬래시닷에서 Bitcoin을 소개한 테피가 관리하는 Bitcoin을 허용하는 서비스는 무엇인가요?
+answer: MMORPG 사막의 이야기
+wrong_answers:
+  - VPN 멀바드
+  - VoIP 서비스 Link2VoIP
+  - 웹 호스팅 서비스 Vekja.net
+explanation: |
+  이 [시작](https: //bitcointalk.org/index.php?topic=30.msg1159#msg1159)은 5월 19일에 Bitcoin을 수락합니다.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Ni mu mwaka uwuhe igice ca Bitcoin ca Genesis caremwe?
+answer: 2009
+wrong_answers:
+  - 2008
+  - 2010
+  - 2011
+explanation: |
+  Igipande ca Genesis, igipande ca mbere ca Blockchain, cacukuwe muri Mukakaro 2009.
+reviewed: false

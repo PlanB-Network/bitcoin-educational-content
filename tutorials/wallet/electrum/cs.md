@@ -1,16 +1,16 @@
 ---
 name: Electrum
 
-description: Kompletní průvodce Electrum, od začátečníka po experta
+description: Kompletní průvodce Electrum, od začátečníka po pokročilého
 ---
 
 ![obálka](assets/cover.webp)
 
-Popis pro Electrum
+Níže naleznete několik zdrojů popisu pro Electrum:
 
-https://twitter.com/ElectrumWallet
-https://electrum.org/
-https://electrum.readthedocs.io/
+- [X](https://twitter.com/ElectrumWallet)
+- [Electrum website](https://electrum.org/)
+- [Electrum documentation](https://electrum.readthedocs.io/)
 
 > "Musím říct, když jsem narazil na tento průvodce, byl jsem šokován. Gratuluji Armanovi the Parmanovi za to. Byla by to škoda, kdybychom to zde nehostili a nepřeložili do co nejvíce jazyků. Upřímně, tomu chlapíku dejte spropitné." Rogzy
 

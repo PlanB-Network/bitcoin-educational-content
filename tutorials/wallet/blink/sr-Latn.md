@@ -1,5 +1,5 @@
 ---
-name: Treptaj
+name: Blink
 description: Kompletan Blink Wallet vodič - Pošaljite, primite i koristite Bitcoin sa lakoćom
 ---
 

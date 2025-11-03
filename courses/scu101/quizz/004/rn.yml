@@ -1,0 +1,14 @@
+question: Ni kubera iki ari vyiza gukuraho amakuru y’urubuga igihe cose umuntu asuye urubuga?
+answer: Kugira ngo ubuze imbuga z’abandi gukurikirana ibikorwa vyawe vyo kuri Internet.
+wrong_answers:
+  - Kugira ngo uzigame umwanya wo kubika ku gikoresho cawe.
+  - Kugira ngo urubuga ntirwibuke amakuru yawe yo kwinjira.
+  - Kugira ngo urubuga ntirukwereke amatangazo yihariye.
+explanation: |
+  Amakuru ni amadosiye yaremewe n'imbuga zo kubika amakuru
+  ku gikoresho cawe. Naho imbuga zimwe zimwe zisaba izo cookies kugira ngo
+  gukora neza, birashobora kandi gukoreshwa nabi n’
+  Imbuga z'abandi, cane cane zo gukurikirana kwamamaza
+  intumbero. Gukuraho amakuru y’ibanga inyuma y’ugusura urubuga birashobora
+  gufasha mu gukingira ivyo.
+reviewed: true

@@ -1,0 +1,9 @@
+question: 대칭 또는 비대칭 암호화 체계와만 관련이 없는 개념은 무엇인가요?
+answer: Hash 기능
+wrong_answers:
+  - 공개 및 개인 키 쌍
+  - 비대칭 암호화
+  - 대칭 암호화
+explanation: |
+  Hash 기능은 최신 암호화의 핵심 구성 요소이지만, 공개 키 및 개인 키와 달리 대칭 또는 비대칭 체계와 특별히 연관되어 있지는 않습니다.
+reviewed: false

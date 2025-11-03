@@ -14,7 +14,7 @@ Un contratto RGB è strutturato come una macchina a stati evolutiva. Inizia con 
 
 Per saperne di più sul funzionamento del protocollo RGB, vi consiglio di seguire questo corso di formazione completo:
 
-https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 
 La logica interna di RGB si basa su librerie Rust che voi, come sviluppatori, potete importare nei vostri progetti per gestire la parte di *convalida lato cliente*. Inoltre, il team di LNP/BP sta lavorando a legami per altre lingue, ma non sono ancora stati finalizzati. Inoltre, altre entità come Bitfinex stanno sviluppando i propri stack di integrazione, ma ne parleremo in un altro tutorial. Per il momento, la CLI `rgb` è il riferimento ufficiale, anche se rimane relativamente poco rifinita.
 
@@ -135,8 +135,8 @@ Ecco un esempio di file YAML da creare:
 interface: RGB20Fixed
 globals:
 spec:
-ticker: PBN
-name: Plan B Network
+ticker: Plan ₿ Academy
+name: Plan ₿ Academy
 details: "Pay attention: the asset has no value"
 precision: 2
 terms:
@@ -180,7 +180,7 @@ rgb contracts
 
 ![RGB-CLI](assets/fr/07.webp)
 
-Quindi, il comando successivo visualizza gli stati globali (nome, ticker, fornitura...) e l'elenco degli Stati posseduti, cioè delle allocazioni (ad esempio, 1 milione di gettoni `PBN` definiti in UTXO `b449fea3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
+Quindi, il comando successivo visualizza gli stati globali (nome, ticker, fornitura...) e l'elenco degli Stati posseduti, cioè delle allocazioni (ad esempio, 1 milione di gettoni `Plan ₿ Academy` definiti in UTXO `b449fea3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
 
 ```bash
 rgb state '<ContractId>'
@@ -233,8 +233,8 @@ Per effettuare un trasferimento, è necessario manipolare un portafoglio Bitcoin
 Nella maggior parte dei casi, l'interazione tra i partecipanti a un contratto (ad esempio, Alice e Bob) avviene tramite la generazione di una fattura. Se Alice vuole che Bob esegua qualcosa (un trasferimento di token, una riemissione, un'azione in un DAO, ecc.), Alice crea una fattura che dettaglia le sue istruzioni a Bob. Quindi abbiamo :
 
 
-- Alice** (l'emittente della fattura) ;
-- Bob** (che riceve ed esegue la fattura).
+- **Alice** (l'emittente della fattura) ;
+- **Bob** (che riceve ed esegue la fattura).
 
 A differenza di altri ecosistemi, una fattura RGB non si limita alla nozione di pagamento. Può incorporare qualsiasi richiesta legata al contratto: revocare una chiave, votare, creare un'incisione (*incisione*) su un NFT, ecc. L'operazione corrispondente può essere descritta nell'interfaccia del contratto. L'operazione corrispondente può essere descritta nell'interfaccia del contratto.
 
@@ -309,4 +309,4 @@ Ora sapete come emettere e trasferire un contratto RGB. Se avete trovato utile q
 
 Vi consiglio anche quest'altro tutorial in cui spiego come lanciare un nodo Lightning compatibile con RGB per scambiare gettoni quasi istantaneamente:
 
-https://planb.network/tutorials/node/others/rln-ffc02528-329b-4e16-bd83-873d0299feea
+https://planb.academy/tutorials/node/others/rln-ffc02528-329b-4e16-bd83-873d0299feea

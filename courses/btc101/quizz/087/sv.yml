@@ -1,13 +1,14 @@
-question: Vad är en Multisig Wallet?
-answer: En uppsättning plånböcker som kräver flera signaturer för att utföra en transaktion.
+question: Vad är risken med att använda en Multisig Wallet?
+answer: Att inte ha tillgång till tillräckligt många individuella privata nycklar eller reservkomponenter.
 wrong_answers:
-  - En Wallet som kräver en enda signatur för att utföra en transaktion.
-  - En Wallet som inte kräver några signaturer för att utföra en transaktion.
-  - En Wallet som kräver en fysisk signatur för att utföra en transaktion.
+  - Att ha tillgång till tillräckligt många individuella privata nycklar eller reservkomponenter.
+  - Dela dina privata nycklar med andra parter.
+  - Dela dina publika nycklar med andra parter.
 explanation: |
-  En Multisig Wallet är en typ av Bitcoin Wallet som kräver
-  flera signaturer för att utföra en transaktion. Detta ger en
-  extra Layer av säkerhet, eftersom det innebär att en enskild person
-  inte kan utföra en transaktion utan godkännande från
-  andra.
+  När du använder en Multisig Wallet ska varje privat nyckel för
+  Multisig bör lagras på olika platser. Detta beror på
+  eftersom Multisig kräver flera signaturer för att utföra
+  för att genomföra en transaktion, så ett visst antal plånböcker
+  behövs. Genom att förvara varje del på olika platser
+  till en extra Layer av säkerhet.
 reviewed: true

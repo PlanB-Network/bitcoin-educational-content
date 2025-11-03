@@ -1,0 +1,9 @@
+question: Ni itifaki gani inayotumiwa na Electrs na Fulcrum kuunganisha pochi?
+answer: Electrum
+wrong_answers:
+  - RPC MAPUMZIKO
+  - JSON API
+  - Umeme gRPC
+explanation: |
+  Vifurushi hivi vya programu hufichua seva ya Electrum, kiwango kinachotumiwa na pochi nyingi kama vile Sparrow au Electrum Wallet.
+reviewed: true

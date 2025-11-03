@@ -1,0 +1,9 @@
+question: Quelle application de self-hosting peut être installée via Umbrel ?
+answer: Nextcloud
+wrong_answers:
+  - Google Drive
+  - Dropbox
+  - OneDrive
+explanation: |
+  Umbrel propose un App Store avec des services de self-hosting comme Nextcloud pour stocker et synchroniser ses fichiers soi-même.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Ni kuki bihambaye gukurikirana agaciro ka fiat ku gihe c’ugucuruza kwose kwa Bitcoin?
+answer: Kugira ngo haboneke ko ububiko bw'ibitabu n'imisoro vyubahirizwa neza
+wrong_answers:
+  - Kugira ngo ubwo nyene wongere uburinganire bwa Wallet
+  - Kugira ngo bishobore gucuruza isoko mu gihe nyaco biva kuri Wallet.
+  - Kugabanya amafaranga y'ugucuruza ashirwaho n'urubuga .
+explanation: |
+  Gukurikirana agaciro ka fiat bifasha ubucuruzi gucunga ububiko bw’ibitabu n’ibiciro vya Bitcoin bihinduka.
+reviewed: false

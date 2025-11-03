@@ -17,12 +17,12 @@ description: 保護您的隱私和機密。
 
 
 
-- 免費**：和大多數 Linux 發行版一樣，Whonix 是完全免費授權的開放原始碼系統。它以開放原始碼開發，擁有活躍且透明的社群。
-- 隱私、安全和匿名** ：Whonix 的主要目標是提供一個超安全的環境，您的所有資料都會受到保護，您的通訊也會透過 Tor 網路加密。
-- 易於使用**：Whonix 提供直覺、預設的圖形化 Interface，甚至適合新手使用者。不需要成為專家，也能從進階保護中獲益。
-- 安全開發的理想環境**：Whonix 可讓您開發、測試、審計或執行程式，而絕不會洩露您的真實 IP Address，或暴露您的瀏覽或網路通訊習慣。
-- 一次性會話與 Live 模式**：Whonix 可以在 Live 模式下啟動，或透過拋棄式機器 (例如透過 **Qubes OS**) 啟動，讓關鍵任務得以執行，而不會在會話結束後留下持續的痕跡。
-- 相對簡單的安裝**：提供即用型映像檔，可快速安裝於虛擬機器 (VirtualBox、KVM、Qubes)。系統有文件記錄並會定期更新。
+- **免費**：和大多數 Linux 發行版一樣，Whonix 是完全免費授權的開放原始碼系統。它以開放原始碼開發，擁有活躍且透明的社群。
+- **隱私、安全和匿名**：Whonix 的主要目標是提供一個超安全的環境，您的所有資料都會受到保護，您的通訊也會透過 Tor 網路加密。
+- 易於使用：Whonix 提供直覺、預設的圖形化 Interface，甚至適合新手使用者。不需要成為專家，也能從進階保護中獲益。
+- **安全開發的理想環境**：Whonix 可讓您開發、測試、審計或執行程式，而絕不會洩露您的真實 IP Address，或暴露您的瀏覽或網路通訊習慣。
+- 一次性會話與 Live 模式：Whonix 可以在 Live 模式下啟動，或透過拋棄式機器 (例如透過 **Qubes OS**) 啟動，讓關鍵任務得以執行，而不會在會話結束後留下持續的痕跡。
+- 相對簡單的安裝：提供即用型映像檔，可快速安裝於虛擬機器 (VirtualBox、KVM、Qubes)。系統有文件記錄並會定期更新。
 
 
 
@@ -56,9 +56,9 @@ description: 保護您的隱私和機密。
 
 
 
-- 隨機存取記憶體 (RAM)**：強烈建議至少 **8 GB**。記憶體越多，分配給虛擬機器 (Gateway 和工作站) 的資源就越多，可提高效能。
+- 隨機存取記憶體 (RAM)：強烈建議至少 **8 GB**。記憶體越多，分配給虛擬機器 (Gateway 和工作站) 的資源就越多，可提高效能。
 - 可用磁碟空間**：請預留至少 30 GB 的可用磁碟空間**。這包括兩個虛擬機、系統檔案和任何資料或快照所需的空間。
-- 處理器**：建議使用至少 **4 個實體核心** (8 個邏輯執行緒) 的處理器，尤其是當您想要並行執行其他服務或工具時。
+- 處理器：建議使用至少 **4 個實體核心** (8 個邏輯執行緒) 的處理器，尤其是當您想要並行執行其他服務或工具時。
 
 
 
@@ -78,7 +78,7 @@ Whonix 有多個版本，視您要使用的環境類型而定。對於大多數�
 
 
 
-若要執行 Whonix，您需要 VirtualBox、Qubes 或 KVM 等**管理程序。
+若要執行 Whonix，您需要 VirtualBox、Qubes 或 KVM 等**管理程序**。
 
 
 
@@ -86,7 +86,7 @@ Whonix 有多個版本，視您要使用的環境類型而定。對於大多數�
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
+https://planb.academy/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
 ### 匯入 Whonix
 
 
@@ -212,7 +212,7 @@ sudo apt full-upgrade
 
 
 
-**KeePassXC** 是 Whonix 的整合式密碼管理器。它可讓您**安全地建立、儲存和管理**您的密碼，而無需手動記住所有密碼。密碼儲存在**加密的資料庫中，並由主密碼保護。
+**KeePassXC** 是 Whonix 的整合式密碼管理器。它可讓您**安全地建立、儲存和管理**您的密碼，而無需手動記住所有密碼。密碼儲存在**加密的資料庫中，並由主密碼保護**。
 
 
 
@@ -224,17 +224,17 @@ sudo apt full-upgrade
 
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ### 電子琴 Bitcoin Wallet
 
 
 
-**Electrum** 是一個輕巧快速的 Bitcoin Wallet，預先安裝在 Whonix 上，讓您匿名管理**加密貨幣交易。它不會下載整個 Blockchain，而是使用遠端伺服器取得必要的資訊，因此比完整的 Wallet 要輕巧許多。
+**Electrum** 是一個輕巧快速的 Bitcoin Wallet，預先安裝在 Whonix 上，讓您匿名管理**加密貨幣交易**。它不會下載整個 Blockchain，而是使用遠端伺服器取得必要的資訊，因此比完整的 Wallet 要輕巧許多。
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 Whonix 不只是一個作業系統：它是一個真正的**安全環境**，旨在保護您的匿名性、隱私和敏感活動。由於它以 Tor 為基礎的架構、Gateway 和 Workstation 之間的智慧型分割，以及預先安裝的 Tor Browser、KeePassXC 和 Electrum 等工具，它為任何希望**匿名瀏覽**、**安全工作**或**處理機密資料**的人提供整套解決方案。
 
@@ -244,4 +244,4 @@ Whonix 不只是一個作業系統：它是一個真正的**安全環境**，旨
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
+https://planb.academy/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af

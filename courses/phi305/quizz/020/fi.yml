@@ -1,0 +1,9 @@
+question: Mitä voimme oppia Kopernikukselta?
+answer: Maa kiertää Aurinkoa.
+wrong_answers:
+  - Että maapallo on litteä.
+  - Maa on maailmankaikkeuden keskipiste.
+  - Eukleideen yhtälöt ovat väärin.
+explanation: |
+  Nikolai Kopernikus (1473-1543) on kuuluisa siitä, että hän osoitti Maan kiertävän Aurinkoa, mikä mullisti käsityksemme maailmankaikkeudesta. Tällä löydöllä oli suuri vaikutus moderniin filosofiaan ja rationalismiin.
+reviewed: false

@@ -9,7 +9,7 @@ description: GitHub'da kendi hesabınızı nasıl oluşturabilirsiniz?
 Plan ₿'ın misyonu, Bitcoin hakkında mümkün olduğunca çok dilde mevcut olan üst düzey eğitim kaynakları sağlamaktır. Sitede yayınlanan tüm içerik açık kaynaklıdır ve GitHub'da barındırılmaktadır, bu da herkese platformun zenginleştirilmesine katkıda bulunma fırsatı sunmaktadır. Katkılar çeşitli şekillerde olabilir: mevcut metinlerin düzeltilmesi ve redaksiyonu, diğer dillere çeviriler, bilgilerin güncellenmesi veya sitemizde henüz bulunmayan yeni eğitimlerin oluşturulması.
 
 
-Plan ₿ Network'e katkıda bulunmak istiyorsanız, Git ve GitHub kullanmanız gerekecek, bu nedenle, bu araçlar size yabancı geliyorsa veya işleyişleri belirsiz görünüyorsa panik yapmayın, bu makale tam size göre! Git ve GitHub'ın temellerini ve ilgili teknik jargonu birlikte gözden geçirerek daha sonra bunları etkili bir şekilde kullanmanızı sağlayacağız.
+Plan ₿ Academy'e katkıda bulunmak istiyorsanız, Git ve GitHub kullanmanız gerekecek, bu nedenle, bu araçlar size yabancı geliyorsa veya işleyişleri belirsiz görünüyorsa panik yapmayın, bu makale tam size göre! Git ve GitHub'ın temellerini ve ilgili teknik jargonu birlikte gözden geçirerek daha sonra bunları etkili bir şekilde kullanmanızı sağlayacağız.
 
 
 ## Git nedir?
@@ -27,7 +27,7 @@ Git'in temel özelliklerinden biri dal yönetimidir. Dal, geliştiricilerin proj
 
 Git'in özelliklerinden biri de dağıtılmış bir şekilde çalışabilmesidir. Her geliştiricinin kendi bilgisayarının Hard sürücüsünde projenin tam bir kopyası vardır, bu da çevrimdışı çalışmalarına ve daha sonra bir İnternet bağlantısı mevcut olduğunda değişiklikleri birleştirmelerine olanak tanır. Bu, çakışma riskini azaltır ve birden fazla geliştiricinin aynı proje üzerinde birbirlerinin ayak parmaklarına basmadan aynı anda çalışmasına olanak tanır.
 
-Başlangıçta Git öncelikle yazılım geliştirme projeleri için tasarlanmıştır. Ancak, içerik yazma projelerini yönetmek için de kullanılabilir. Kod üzerinde işbirliği yapmak yerine metin üzerinde işbirliği yapıyoruz. İşte Plan ₿ Network'ün içeriğini yönetmek için benimsediği yöntem de tam olarak bu! Git, değişikliklerin hassas bir şekilde izlenmesine, verimli sürüm yönetimine ve ayrıca içeriğin diğer katılımcılar tarafından gözden geçirilmesine ve geliştirilmesine olanak tanıdığı için kurslar ve eğitimler yazarken işbirliğini kolaylaştırır.
+Başlangıçta Git öncelikle yazılım geliştirme projeleri için tasarlanmıştır. Ancak, içerik yazma projelerini yönetmek için de kullanılabilir. Kod üzerinde işbirliği yapmak yerine metin üzerinde işbirliği yapıyoruz. İşte Plan ₿ Academy'ün içeriğini yönetmek için benimsediği yöntem de tam olarak bu! Git, değişikliklerin hassas bir şekilde izlenmesine, verimli sürüm yönetimine ve ayrıca içeriğin diğer katılımcılar tarafından gözden geçirilmesine ve geliştirilmesine olanak tanıdığı için kurslar ve eğitimler yazarken işbirliğini kolaylaştırır.
 
 
 ## GitHub nedir?
@@ -46,7 +46,7 @@ Git'i, her geliştiricinin projesindeki tüm değişiklikleri kaydetmek için ke
 Git ve GitHub arasındaki temel fark işlevlerinde yatmaktadır: Git, kod sürümlerini yönetmek için her geliştirici tarafından yerel olarak kullanılan bir araçtır; GitHub ise bu sürümleri barındıran ve işbirliğini kolaylaştıran çevrimiçi bir platformdur.
 
 
-GitHub bir kod barındırma hizmetinden çok daha fazlasıdır. Geliştiricilerin birlikte verimli bir şekilde çalışmasını sağlayan bir işbirliği platformudur. Ve gerçekten de Plan ₿ Network bu platformu sadece web sitesine güç veren tüm kodları değil, aynı zamanda bizi ilgilendiren tüm içeriği (öğreticiler, eğitimler, kaynaklar...) barındırmak için kullanıyor.
+GitHub bir kod barındırma hizmetinden çok daha fazlasıdır. Geliştiricilerin birlikte verimli bir şekilde çalışmasını sağlayan bir işbirliği platformudur. Ve gerçekten de Plan ₿ Academy bu platformu sadece web sitesine güç veren tüm kodları değil, aynı zamanda bizi ilgilendiren tüm içeriği (öğreticiler, eğitimler, kaynaklar...) barındırmak için kullanıyor.
 
 
 ## Bazı Teknik Terimler
@@ -56,45 +56,45 @@ Git ve GitHub'da, isimleri karmaşık görünebilecek komutlar ve özelliklerle 
 
 
 
-- Fetch origin:** Uzak bir depodaki son bilgileri ve değişiklikleri yerel çalışmanızla birleştirmeden alan komut. Yerel deponuzu, uzak depoda bulunan yeni dallar ve taahhütlerle günceller.
+- **Fetch origin:** Uzak bir depodaki son bilgileri ve değişiklikleri yerel çalışmanızla birleştirmeden alan komut. Yerel deponuzu, uzak depoda bulunan yeni dallar ve taahhütlerle günceller.
 
 
 
-- Pull origin:** Uzak bir depodan güncellemeleri alan ve senkronize etmek için bunları hemen yerel dalınıza entegre eden komut. Bu, getirme ve birleştirme adımlarını tek bir komutta birleştirir.
-- Sync Fork:** GitHub'da bir projenin Fork'ini kaynak depodaki en son değişikliklerle güncellemenizi sağlayan bir özellik. Bu, proje kopyanızın ana geliştirme ile güncel kalmasını sağlar.
-- Push origin:** Yerel değişikliklerinizi uzaktaki bir depoya göndermek için kullanılan komut.
+- **Pull origin:** Uzak bir depodan güncellemeleri alan ve senkronize etmek için bunları hemen yerel dalınıza entegre eden komut. Bu, getirme ve birleştirme adımlarını tek bir komutta birleştirir.
+- **Sync Fork:** GitHub'da bir projenin Fork'ini kaynak depodaki en son değişikliklerle güncellemenizi sağlayan bir özellik. Bu, proje kopyanızın ana geliştirme ile güncel kalmasını sağlar.
+- **Push origin:** Yerel değişikliklerinizi uzaktaki bir depoya göndermek için kullanılan komut.
 
 
 
-- Çekme İsteği:** Bir katılımcı tarafından uzak bir depodaki bir dala değişiklik gönderdiğini ve bu değişikliklerin gözden geçirilmesini ve potansiyel olarak deponun ana dalıyla birleştirilmesini istediğini belirtmek için gönderilen bir istek.
+- **Çekme İsteği:** Bir katılımcı tarafından uzak bir depodaki bir dala değişiklik gönderdiğini ve bu değişikliklerin gözden geçirilmesini ve potansiyel olarak deponun ana dalıyla birleştirilmesini istediğini belirtmek için gönderilen bir istek.
 
 
 
-- Commit:** Değişikliklerinizi kaydetme. Bir commit, belirli bir andaki çalışmanızın anlık görüntüsü gibidir ve değişikliklerin geçmişini tutmaya olanak tanır. Her commit, neyin değiştirildiğini açıklayan açıklayıcı bir mesaj içerir.
+- **Commit:** Değişikliklerinizi kaydetme. Bir commit, belirli bir andaki çalışmanızın anlık görüntüsü gibidir ve değişikliklerin geçmişini tutmaya olanak tanır. Her commit, neyin değiştirildiğini açıklayan açıklayıcı bir mesaj içerir.
 
 
 
-- Dal:** Deponun paralel bir sürümüdür ve ana dalı (genellikle "ana" veya "master" olarak adlandırılır) etkilemeden değişiklikler üzerinde çalışmanıza olanak tanır. Dallar, kararlı kodu bozma riski olmadan yeni özelliklerin geliştirilmesini ve hataların düzeltilmesini kolaylaştırır.
+- **Dal:** Deponun paralel bir sürümüdür ve ana dalı (genellikle "ana" veya "master" olarak adlandırılır) etkilemeden değişiklikler üzerinde çalışmanıza olanak tanır. Dallar, kararlı kodu bozma riski olmadan yeni özelliklerin geliştirilmesini ve hataların düzeltilmesini kolaylaştırır.
 
 
 
-- Birleştirme:** Birleştirme, bir daldaki değişiklikleri diğerine entegre etmekten oluşur. Örneğin, bir çalışma dalındaki değişiklikleri ana dala eklemek için kullanılır, bu da çeşitli katkıların eklenmesine izin verir.
+- **Birleştirme:** Birleştirme, bir daldaki değişiklikleri diğerine entegre etmekten oluşur. Örneğin, bir çalışma dalındaki değişiklikleri ana dala eklemek için kullanılır, bu da çeşitli katkıların eklenmesine izin verir.
 
 
 
-- Fork:** Bir depoyu çatallamak, kendi GitHub hesabınızda bu deponun bir kopyasını oluşturmak anlamına gelir; bu, orijinal depoyu etkilemeden proje üzerinde çalışmanıza olanak tanır. Fork kendi yoluna gidebilir ve orijinalinden farklı bir proje haline gelebilir veya ona katkıda bulunmak için orijinal projeyle düzenli olarak senkronize olabilir.
+- **Fork:** Bir depoyu çatallamak, kendi GitHub hesabınızda bu deponun bir kopyasını oluşturmak anlamına gelir; bu, orijinal depoyu etkilemeden proje üzerinde çalışmanıza olanak tanır. Fork kendi yoluna gidebilir ve orijinalinden farklı bir proje haline gelebilir veya ona katkıda bulunmak için orijinal projeyle düzenli olarak senkronize olabilir.
 
 
 
-- Klonlama:** Bir depoyu klonlamak, bilgisayarınızda tüm dosyalara ve geçmişe erişmenizi sağlayan yerel bir kopya oluşturmak anlamına gelir. Bu, proje üzerinde doğrudan yerel olarak çalışmanıza olanak tanır.
+- **Klonlama:** Bir depoyu klonlamak, bilgisayarınızda tüm dosyalara ve geçmişe erişmenizi sağlayan yerel bir kopya oluşturmak anlamına gelir. Bu, proje üzerinde doğrudan yerel olarak çalışmanıza olanak tanır.
 
 
 
-- Depo:** GitHub'da bir proje için depolama alanı. Bir depo, tüm proje dosyalarının yanı sıra üzerinde yapılan tüm değişikliklerin geçmişini içerir. GitHub'da depolama ve işbirliğinin temelidir.
+- **Depo:** GitHub'da bir proje için depolama alanı. Bir depo, tüm proje dosyalarının yanı sıra üzerinde yapılan tüm değişikliklerin geçmişini içerir. GitHub'da depolama ve işbirliğinin temelidir.
 
 
 
-- Issue:** GitHub'da görevleri ve hataları izlemek için bir araç. Sorunlar, sorunların bildirilmesine, iyileştirmelerin önerilmesine veya yeni özelliklerin tartışılmasına olanak tanır. Her sorun atanabilir, etiketlenebilir ve hakkında yorum yapılabilir.
+- **Issue:** GitHub'da görevleri ve hataları izlemek için bir araç. Sorunlar, sorunların bildirilmesine, iyileştirmelerin önerilmesine veya yeni özelliklerin tartışılmasına olanak tanır. Her sorun atanabilir, etiketlenebilir ve hakkında yorum yapılabilir.
 
 
 Bu liste kesinlikle kapsamlı değildir. Git ve GitHub'a özgü başka birçok teknik terim vardır. Ancak, burada bahsedilenler sıklıkla karşılaşacağınız ana terimlerdir.
@@ -106,7 +106,7 @@ Bu makaleyi okuduktan sonra, Git ve GitHub'ın bazı yönleri sizin için hala b
 ## GitHub hesabı nasıl oluşturulur
 
 
-PlanB Network'e katkıda bulunmak istiyorsanız, bir GitHub hesabına ihtiyacınız olacak. Bu eğitimde, kendi hesabınızı nasıl oluşturacağınız, kuracağınız ve düzgün bir şekilde güvence altına alacağınız konusunda size adım adım rehberlik edeceğiz.
+Plan ₿ Academy'e katkıda bulunmak istiyorsanız, bir GitHub hesabına ihtiyacınız olacak. Bu eğitimde, kendi hesabınızı nasıl oluşturacağınız, kuracağınız ve düzgün bir şekilde güvence altına alacağınız konusunda size adım adım rehberlik edeceğiz.
 
 
 

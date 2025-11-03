@@ -1,0 +1,11 @@
+question: Wat zijn de twee belangrijkste kenmerken van Bitcoin?
+answer: Bitcoin is zowel een computerprotocol als een monetaire eenheid.
+wrong_answers:
+  - Bitcoin is zowel een fysieke valuta als een digitale Wallet.
+  - Bitcoin is zowel een soort aandeel als een soort obligatie.
+  - Bitcoin is zowel een gecentraliseerde als een gedecentraliseerde valuta.
+explanation: |
+  Bitcoin is zowel een computerprotocol dat gebruik maakt van technologieën
+  zoals cryptografie en Blockchain, en ook een monetaire
+  eenheid die wordt gebruikt voor transacties.
+reviewed: true

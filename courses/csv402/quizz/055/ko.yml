@@ -1,0 +1,9 @@
+question: RGB 에코시스템에서 RGB 라이트닝 노드란 무엇인가요?
+answer: RGB 호환 라이트닝 채널 관리를 위한 daemon
+wrong_answers:
+  - RGB 자산을 관리하기 위한 모바일 Wallet
+  - Exchange RGB 로그에 대한 프록시 서버
+  - Bitcoin의 RGB 에셋을 위한 Mining 툴
+explanation: |
+  RGB-lightning-node는 참여 트랜잭션에 RGB 상태 전환을 추가하여 Rust 자산을 라이트닝 채널에 통합하도록 설계된 daemon RGB입니다.
+reviewed: false

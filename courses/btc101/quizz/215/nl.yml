@@ -1,9 +1,8 @@
-question: Wat betekent het dat Bitcoin een algemene opwaartse trend heeft?
-answer: Een algemene opwaartse trend in Bitcoin betekent dat de prijs van Bitcoin over het algemeen is gestegen.
+question: Wat is het schaalbaarheidsprobleem van Bitcoin?
+answer: De uitdaging om een monetair systeem te implementeren dat een steeds groter aantal transacties per seconde kan uitvoeren naarmate het systeem wordt overgenomen.
 wrong_answers:
-  - Een algemene opwaartse trend in Bitcoin betekent dat de prijs gegarandeerd onbeperkt zal stijgen zonder schommelingen.
-  - Een algemene opwaartse trend in Bitcoin betekent dat Bitcoin minder waardevol wordt en zijn aantrekkingskracht op de markt verliest.
-  - Een algemene opwaartse trend in Bitcoin betekent dat het alleen populair is onder een kleine groep investeerders en geen invloed heeft op de algehele markt.
-explanation: |
-  Een algemene opwaartse trend in Bitcoin verwijst naar een consistente stijging van de prijs over een bepaalde periode. Het is belangrijk op te merken dat hoewel een opwaartse trend een positief traject suggereert, het niet garandeert dat de prijs zal blijven stijgen zonder schommelingen.
+  - De moeilijkheid om Mining nieuwe Bitcoins te maken met een stijgende waarde na verloop van tijd.
+  - De volatiliteit van de prijs van Bitcoin die na elke Halving zal stijgen.
+  - Het gebrek aan regelgeving voor Bitcoin waardoor transacties illegaal worden.
+explanation: >-
 reviewed: true

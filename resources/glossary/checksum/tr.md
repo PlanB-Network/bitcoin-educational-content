@@ -8,4 +8,4 @@ Sağlama toplamı, bir dizi veriden hesaplanan ve iletim veya depolama sırasın
 Bitcoin'de, alıcı adreslerin bütünlüğünü sağlamak için uygulama düzeyinde sağlama toplamları kullanılır. Bir kullanıcının Address'inin yükünden bir sağlama toplamı hesaplanır, ardından girdisindeki herhangi bir hatayı tespit etmek için bu Address'e eklenir. Kurtarma cümlelerinde (anımsatıcılar) de bir sağlama toplamı bulunur.
 
 
-> ► *Genel olarak İngilizce "checksum" teriminin doğrudan Fransızca'da kullanılması kabul edilmektedir
+> ► *Genel olarak İngilizce "checksum" teriminin doğrudan Fransızca'da kullanılması kabul edilmektedir*

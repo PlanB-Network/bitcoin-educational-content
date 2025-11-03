@@ -1,0 +1,9 @@
+question: Ni ibihe bishingiro vy’amategeko vy’ubuhinga bw’abantu nk’uko Bastiat abivuga?
+answer: Ubuzima, umwidegemvyo n’itunga.
+wrong_answers:
+  - Ububasha, ubusumbasumbane n’ubukuru.
+  - Umwidegemvyo, uburinganire n’ubuvukanyi.
+  - Ubutungane, ubukuru n’ubuvukanyi.
+explanation: |
+  Bastiat asobanura ko imishinge y’amategeko ari ubuzima, umwidegemvyo n’itunga, Elements zitatu ziriho imbere y’itegeko ryose ry’umuntu kandi zikaba ari zo zishingiyeko uburenganzira bw’umuntu.
+reviewed: false

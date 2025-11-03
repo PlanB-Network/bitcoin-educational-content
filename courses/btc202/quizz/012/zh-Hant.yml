@@ -1,0 +1,9 @@
+question: 哪個階段是未成年人角色的一部分？
+answer: 從 Mempool 建立候選區塊
+wrong_answers:
+  - 從 Mempool 驗證整個 Blockchain
+  - 為使用者建立 Bitcoin 位址
+  - 儲存錢包的私密金鑰
+explanation: |
+  Miner 從 Mempool 中選擇交易並建立候選區塊，並嘗試由 Proof of Work 驗證。
+reviewed: true

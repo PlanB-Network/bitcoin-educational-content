@@ -1,6 +1,7 @@
 id: ce272232-0d97-4482-884a-0f77a2ebc036
 topic: mining
 subtopic: mining
+type: practice
 level: intermediate
 hours: 6
 
@@ -54,7 +55,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 50.38
+    reward: 50.37
   - language: pt
     last_contribution_date:
     urgency: 1
@@ -81,7 +82,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 42.0
+    reward: 41.99
   - language: zh-Hans
     last_contribution_date: 2025-08-18
     urgency: 1
@@ -102,7 +103,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 58.76
+    reward: 58.75
   - language: sr-Latn
     last_contribution_date:
     urgency: 1
@@ -118,7 +119,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 42.0
+    reward: 41.99
   - language: fa
     last_contribution_date:
     urgency: 1
@@ -134,6 +135,21 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 33.62
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 41.99
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 33.62
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 50.37
 tags:
   - mining
   - DIY

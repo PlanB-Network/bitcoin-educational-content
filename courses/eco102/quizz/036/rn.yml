@@ -1,0 +1,9 @@
+question: Ni kubera iki Abaroma babona ko umutungo ari ikintu gisanzwe gusa?
+answer: Kubera ko bari bafise abaja .
+wrong_answers:
+  - Kubera ko bari abakurikiza amategeko .
+  - Kubera ko barimye ubutaka .
+  - Kubera ko bashize imbere ubukuru bw’imibano .
+explanation: |
+  Abaroma, baba mu kibano c’abaja, babona ko umutungo ari ikintu gishingiye ku mategeko, kuko imishinge yabo yari ishingiye ku gusahura no gukoresha nabi abandi.
+reviewed: false

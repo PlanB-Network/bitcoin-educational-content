@@ -1,13 +1,11 @@
-question: Çevrimdışı veya Cold, fiziksel Wallet'ın önerilen kullanımı nedir?
-answer: Büyük miktarlarda depolama.
+question: Mnemonic ifadenizi saklamak için kağıt kullanmanın önerilen bir alternatifi nedir?
+answer: Metal bir plaka üzerine kazıyarak.
 wrong_answers:
-  - Günlük harcamaların saklanması.
-  - Küçük miktarların saklanması.
-  - Kısa vadeli birikimlerin saklanması.
+  - Dijital bir dosyada saklamak.
+  - Beyaz tahtaya yazıyorum.
+  - Telefonunuza bir kişi olarak kaydedin.
 explanation: |
-  Çevrimdışı veya Cold, fiziksel Wallet aşağıdakiler için önerilir
-  daha az hassas olduğu için büyük miktarlarda depolamak
-  gW-4 cüzdanlarına göre çevrimiçi tehditler. Ancak, bu değil
-  daha az olduğu için günlük harcamalar için önerilir
-  günlük işlemler için erişilebilir.
+  Depolama için kağıda önerilen alternatiflerden biri
+  gW-1 ifadenizi metal bir plaka üzerine kazımaktır. Bu
+  çözümü daha dayanıklı ve uzun ömürlüdür.
 reviewed: true

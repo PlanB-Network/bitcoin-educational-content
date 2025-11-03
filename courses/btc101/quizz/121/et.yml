@@ -1,9 +1,8 @@
-question: Mis on Bitcoini veebipõhine kättesaadavus?
-answer: 99.988%
+question: Mis on kaevurite roll Bitcoin'i võrgustikus?
+answer: Nad valideerivad tehinguid, lisades need plokki.
 wrong_answers:
-  - 100%
-  - 90.009%
-  - 80.17%
-explanation: |
-  Bitcoini veebipõhine kättesaadavus on alates 2009. aastast 99.988%.
-reviewed: true
+  - Nad loovad uusi Bitcoine.
+  - Nad haldavad Bitcoin'i võrgustikku.
+  - Nad reguleerivad Bitcoini hinda.
+explanation: >-
+  Kaevuritel Bitcoin'i võrgustikus on roll valideerida tehinguid, lisades need plokki. Nad teevad seda lahendades krüptograafilist mõistatust protsessis, mida nimetatakse töötõendiks.

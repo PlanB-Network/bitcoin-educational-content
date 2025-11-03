@@ -1,11 +1,9 @@
-question: Mục đích của quy định KYC là gì?
-answer: Để chống tài trợ khủng bố, trốn thuế, và rửa tiền.
+question: Một trong những hậu quả tiềm ẩn khi không tuân thủ quy định của quốc gia bạn khi mua Bitcoin là gì?
+answer: Bạn có thể đặt bản thân vào rủi ro.
 wrong_answers:
-  - Để tăng giá Bitcoin và khiến người dùng phải trả nhiều thuế hơn.
-  - Để kiểm soát nguồn cung của Bitcoin.
-  - Để ngăn chặn mọi người mua Bitcoin.
+  - Bạn có thể làm tăng giá của Bitcoin.
+  - Bạn có thể kiểm soát nguồn cung của Bitcoin.
+  - Bạn có thể ngăn cản người khác mua Bitcoin.
 explanation: |
-  Văn bản khóa học giải thích rằng quy định Biết Khách Hàng (KYC)
-  yêu cầu người dùng cung cấp thông tin nhận dạng để
-  chống tài trợ khủng bố, trốn thuế, và rửa tiền.
+  Văn bản khóa học đề cập rằng không tuân thủ quy định của quốc gia bạn khi mua Bitcoin có thể đặt bạn vào rủi ro.
 reviewed: true

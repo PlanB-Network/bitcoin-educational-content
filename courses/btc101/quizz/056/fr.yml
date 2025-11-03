@@ -1,11 +1,9 @@
-question: Quel était le taux d'inflation en Hongrie en juillet 1946 ?
-answer: 41 900 000 000 000 000 %
+question: Quel est le concept mathématique, basé sur la rationalité humaine, qui est utilisé dans Bitcoin ?
+answer: Théorie des jeux.
 wrong_answers:
-  - 207 %
-  - 50 %
-  - 100 %
+  - Théorie des probabilités.
+  - Théorie des nombres.
+  - Théorie des ensembles.
 explanation: |
-  Le mois ayant connu l'inflation la plus élevée en Hongrie était juillet
-  1946, avec une inflation record des prix de
-  41 900 000 000 000 000 %.
+  La théorie des jeux est un concept mathématique qui est basé sur la rationalité humaine. Dans Bitcoin, les changements de protocole sont appliqués par les utilisateurs, rendant toute modification du protocole Bitcoin extrêmement complexe.
 reviewed: true

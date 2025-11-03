@@ -1,0 +1,9 @@
+question: Kuidas on kõige lihtsam ühendada mobiilne Wallet Electrsiga Umbreli kaudu?
+answer: Skaneeri Tori QR-kood
+wrong_answers:
+  - Küpsisefaili allalaadimine
+  - Impordi privaatne võti
+  - Kopeerige fail Wallet.dat
+explanation: |
+  Umbrel võimaldab teil otse skaneerida Electrs poolt pakutavat Tori QR-koodi, et konfigureerida oma mobiilne ühendus.
+reviewed: true

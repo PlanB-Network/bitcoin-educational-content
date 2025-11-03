@@ -1,0 +1,9 @@
+question: Apakah konsep "hewan mesin" dikaitkan dengan?
+answer: Descartes.
+wrong_answers:
+  - Spinoza.
+  - Galileo.
+  - Einstein.
+explanation: |
+  Konsep hewan mesin dikaitkan dengan Descartes. Menurut teori ini, hewan adalah robot yang kompleks tanpa jiwa atau kesadaran, yang hanya beroperasi berdasarkan prinsip-prinsip mekanis.
+reviewed: false

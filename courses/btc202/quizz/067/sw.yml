@@ -1,0 +1,9 @@
+question: Ni nakala zipi zinahitajika ili kurejesha nodi ya Umeme?
+answer: seed na SCB
+wrong_answers:
+  - seed na faili ya txindex
+  - seed na IP ya umma Address
+  - seed na 2FA
+explanation: |
+  Kurejesha nodi ya Umeme kunahitaji seed na SCB (Hifadhi Nakala ya Kituo Tuli), bila ambayo pesa za kituo haziwezi kurejeshwa.
+reviewed: true

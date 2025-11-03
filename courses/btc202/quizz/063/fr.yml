@@ -1,0 +1,9 @@
+question: Quelles sont les deux implémentations du Lightning Network proposées sur Umbrel ?
+answer: LND et Core Lightning
+wrong_answers:
+  - Electrs et Fulcrum
+  - Bitcoin Core et Bitcoin Knots
+  - Ride The Lightning et ThunderHub
+explanation: |
+  Umbrel permet de choisir entre LND et Core Lightning comme implémentations du Lightning Network.
+reviewed: false

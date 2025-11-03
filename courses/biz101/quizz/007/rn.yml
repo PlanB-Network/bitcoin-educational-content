@@ -1,0 +1,9 @@
+question: Ni ikihe muri ibi bikurikira kidondora neza ingene amafaranga y’ubudandaji ya Bitcoin ashika ku mpera?
+answer: Iyo amafaranga amaze kwandikwa kuri Blockchain, ntashobora guhinduka kandi ntashobora guhindurwa.
+wrong_answers:
+  - Ivy’ugucuruza birashobora gusubirwamwo n’amabanki iyo habaye amatati.
+  - Abakoresha bategerezwa kwemererwa n’inzego nyinshi za Leta kugira ngo bashobore gusozera igikorwa.
+  - Umuntu wese ari muri iyo nama arashobora guhindura amafaranga ya kera uko ashatse, nimba afise kode idasanzwe.
+explanation: |
+  Bitcoin s Blockchain ni Ledger idashobora guhindurwa. Igihe igikorwa cemejwe kandi kigashirwa mu gice, kiba igice c’inyandiko ihoraho, kigatuma haba iherezo.
+reviewed: false

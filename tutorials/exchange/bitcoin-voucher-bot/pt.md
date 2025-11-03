@@ -6,7 +6,7 @@ description: Um bot do Telegram para comprar Bitcoin em confidencialidade
 
 _Este tutorial foi escrito por_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
-# Introdução
+## Introdução
 
 O BitcoinVoucherBot é uma ferramenta com a qual os Bitcoins podem ser comprados em Exchange por euros.
 
@@ -32,7 +32,7 @@ No chat do Telegram preparamos uma encomenda, pagamo-la com uma transferência b
 
 A ativação é uma operação simples e única. A partir do Telegram, procure por _@BitcoinVoucherBot_ e assim que chegar ao chat do Bot, um grande botão _Start/Start_ se destaca na parte inferior. A operação provoca a resposta do Bot, que apresenta um menu com os principais comandos disponíveis. Aparecem também as primeiras mensagens de boas-vindas, para as quais recomendamos uma leitura atenta.
 
-**Aviso**: existem vários golpistas se passando por VoucherBot original. Se não tiveres a certeza sobre a pesquisa via Telegram, acede ao link do BitcoinVoucherBot a partir do [site oficial] (https://www.bitcoinvoucherbot.com/)
+**Atenção**: existem vários golpistas que se fazem passar pelo VoucherBot original. Se não tiver certeza da pesquisa via Telegram, acesse o link do BitcoinVoucherBot a partir do [site oficial](https://www.bitcoinvoucherbot.com/)
 
 ![image](assets/it/01.webp)
 
@@ -53,9 +53,9 @@ As principais operações incluem:
 - _/fees_: um comando para verificar as taxas de rede. Para as avaliar, é sempre melhor confiar no Mempool.space.
 - _/support_: em caso de necessidade, abre contactos para comunicar problemas à equipa de apoio.
 
-# Procedimento de compra Bitcoin
+## Procedimento de compra de Bitcoin
 
-## Preparação da encomenda
+### Preparação do pedido
 
 Clicar em _/comprar_ no menu de comando
 
@@ -97,7 +97,7 @@ Se tudo estiver correto, continue clicando em _Proceder_.
 
 ![image](assets/it/10.webp)
 
-## Pagamento
+### Pagamento
 
 Após alguns instantes, necessários para processar os dados, o VoucherBot responde com uma mensagem que contém todos os pormenores necessários para concluir a encomenda. Dependendo do que o seu banco exige, as informações relevantes são:
 
@@ -124,7 +124,7 @@ Atenção:
 - para qualquer necessidade, o Bitcoin VoucherBot tem um excelente serviço de [apoio](https://t.me/BitcoinVoucherGroup) no Telegram.
 
 ---
-## Redenção
+### Resgate
 
 Assim que o pagamento é bem sucedido, o Bitcoin VoucherBot envia o voucher diretamente para o chat. O voucher relâmpago tem a forma de um código QR, impresso num fundo laranja.
 
@@ -139,7 +139,7 @@ Existem todos os dados necessários para o levantar:
 
 Pode levantar o vale enquadrando o código QR com a função de leitura de um Wallet Lightning Network compatível, ou através do LNURL, também indicado abaixo do código QR.
 
-Para este tutorial, utilizámos o Wallet do Satoshi, utilizando a função de digitalização activada pela tecla _Send_
+Para este tutorial usamos o Wallet Of Satoshi, utilizando a função de leitura ativada pelo botão _Send_.
 
 ![image](assets/it/32.webp)
 
@@ -147,17 +147,17 @@ Com a câmara do telemóvel activada, enquadrar o código QR no chat, abrindo o 
 
 ![image](assets/it/34.webp)
 
-Antes de prosseguir, o Wallet do Satoshi apresenta um ecrã de verificação que inclui o montante, que corresponde exatamente ao montante expresso no vale e, como descrição, o BitcoinVoucherBot. Para levantar o vale, basta clicar em _Receive_
+Antes de prosseguir, o Wallet Of Satoshi exibe uma tela de verificação que inclui o valor, que corresponde exatamente ao indicado no voucher, e como descrição, BitcoinVoucherBot. Para resgatar o voucher, basta clicar em _Receive_.
 
 ![image](assets/it/35.webp)
 
-Wallet De Satoshi processa durante alguns instantes
+Wallet Of Satoshi processa por alguns instantes.
 
 ![image](assets/it/36.webp)
 
 e, finalmente, a coleta é comunicada e fica imediatamente disponível no saldo do Wallet.
 
-**O Wallet do Satoshi é uma aplicação de custódia: imediatamente após o levantamento do vale, é aconselhável transferir o Sats para um Wallet sem custódia
+**Wallet of Satoshi é um aplicativo custodial: logo após o resgate do voucher é recomendável mover os sats para uma carteira não-custodial.**
 
 ![image](assets/it/37.webp)
 

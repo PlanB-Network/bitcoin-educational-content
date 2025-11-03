@@ -1,11 +1,10 @@
-question: Czym jest trylemat Blockchain?
-answer: Protokół oparty na Blockchain może spełnić tylko dwa z kryteriów decentralizacji, bezpieczeństwa i skalowalności.
+question: Co umożliwia Lightning Network?
+answer: Transakcje między osobami, które nie mają bezpośredniego połączenia kanałowego.
 wrong_answers:
-  - Protokół oparty na Blockchain może spełnić tylko jedno z kryteriów decentralizacji, bezpieczeństwa i skalowalności.
-  - Protokół oparty na Blockchain może spełnić wszystkie kryteria decentralizacji, bezpieczeństwa i skalowalności.
-  - Protokół oparty na Blockchain nie może spełnić żadnego z kryteriów decentralizacji, bezpieczeństwa i skalowalności.
+  - Tworzenie bezpośrednich połączeń kanałowych tylko ze scentralizowanymi centralami.
+  - Aby utworzyć połączenia kanałów, które wymagają wielu potwierdzeń dla dowolnej transakcji.
+  - Aby ustanowić bezpośrednie połączenia kanałowe, które są ograniczone tylko do dużych transakcji.
 explanation: |
-  Trylemat Blockchain odnosi się do wyzwania polegającego na tym, że
-  protokół oparty na Blockchain może spełnić tylko dwa kryteria spośród
-  decentralizacji, bezpieczeństwa i skalowalności.
+  Lightning Network umożliwia dokonywanie transakcji między
+  osobami, które nie mają bezpośredniego połączenia kanałowego.
 reviewed: true

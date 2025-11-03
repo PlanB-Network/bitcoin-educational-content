@@ -1,0 +1,9 @@
+question: Ni igiki kidasanzwe kiri muri ivyo vyanditswe bitatu vy’ibanga biri muri ako gasandugu?
+answer: Birimwo imibare itandukanijwe n'inyuguti .
+wrong_answers:
+  - Vyose vyanditswe mu nyuguti zisanzwe .
+  - Bakoresha ibimenyetso bitazwi .
+  - Binditswe mu ndimi nyinshi .
+explanation: |
+  Ivyo vyanditswe bitatu vy’ibanga birimwo urutonde rw’imibare itandukanijwe n’ibimenyetso, bikaba bisaba urufunguzo kugira ngo umuntu ashobore kubifungura.
+reviewed: false

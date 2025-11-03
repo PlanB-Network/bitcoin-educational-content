@@ -1,0 +1,9 @@
+question: ¿Para qué sirven los archivos revNNNNN.dat almacenados junto a blkNNNNN.dat?
+answer: Restablecer UTXO fijado durante la reorganización
+wrong_answers:
+  - Restaurar UTXO establecido durante un Hard Fork
+  - Restablecer Mempool durante Hard Fork
+  - Restauración de Mempool durante una reorganización
+explanation: |
+  Cada revNNNNN.dat contiene los datos necesarios para deshacer los efectos de un bloque en el conjunto UTXO, lo que facilita la gestión de las reorganizaciones.
+reviewed: true

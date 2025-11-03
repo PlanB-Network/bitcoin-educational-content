@@ -1,0 +1,8 @@
+question: Ni gute ubumwe bw’agahato ari ubumwe bw’ikinyoma?
+answer: Kuko bishikana ku gutanga mu buryo butagiramwo ubushake .
+wrong_answers:
+  - Kuko ntivyama bifatwa mu buryo bwa demokarasi .
+  - Kuko bisaba uburongozi bwinshi cane .
+  - Kubera ko bigoye gushira mu ngiro .
+explanation: |
+  Ubumwe bw’abantu ku nguvu, nk’uko Bastiat abivuga, ntibushobora vy’ukuri kuba ubw’inyifato runtu kuko butegeka gutanga ata kwemera ku bushake.

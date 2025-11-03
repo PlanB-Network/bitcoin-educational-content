@@ -1,0 +1,8 @@
+question: Ni ikihe kimwe mu bintu nyamukuru biranga umurongo wa Bitcoin?
+answer: Ni ukutagira aho bahengamiye ku bakoresha bose.
+wrong_answers:
+  - Irakunda abakoresha bamwebamwe kuruta abandi.
+  - Ni ivy’ugushira uruhande ku bakoresha bamwebamwe.
+  - Bifasha gusa umugwi w’abakoresha batoranijwe.
+explanation: >-
+reviewed: true

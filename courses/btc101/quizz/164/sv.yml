@@ -1,8 +1,13 @@
-question: Vilken är den största fördelen med Bitcoin för personer som lever under ekonomiskt förtryck eller diktatoriska regimer?
-answer: Att ha en chans att undkomma censur och bankrestriktioner.
+question: Hur säkerställer Bitcoin-protokollet att det är censurresistent och motståndskraftigt?
+answer: Varje komponent i protokollet är geografiskt fördelad över hela världen.
 wrong_answers:
-  - Använda en stabil valuta som har ett fast värde.
-  - Möjliggöra anonyma transaktioner.
-  - Få hög avkastning på investeringen.
-explanation: >-
+  - Den använder ett lokalt nätverk av noder som är utspridda i Europa.
+  - Den använder en komplex algoritm för att validera transaktioner.
+  - Den använder en hög krypteringsnivå.
+explanation: |
+  Bitcoin-protokollet säkerställer sin censurresistens och
+  resiliens eftersom varje komponent i protokollet är
+  distribueras geografiskt över hela världen. Till exempel,
+  finns det cirka 40 000 Bitcoin-noder över alla kontinenter
+  kontinenter.
 reviewed: true

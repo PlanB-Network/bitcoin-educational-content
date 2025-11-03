@@ -1,0 +1,9 @@
+question: Apa keuntungan dari laptop khusus dibandingkan mini-PC?
+answer: Baterainya berfungsi sebagai inverter
+wrong_answers:
+  - Lebih tenang
+  - Ini bertahan lebih lama
+  - Ini mengkonsumsi lebih sedikit energi
+explanation: |
+  Baterai laptop berfungsi sebagai UPS alami, mencegah laptop berhenti tiba-tiba jika terjadi pemadaman listrik.
+reviewed: true

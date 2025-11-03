@@ -1,8 +1,10 @@
-question: Avgifterna för transaktioner på Lightning Network är extremt låga, ofta mindre än...?
-answer: 0.5%.
+question: Vad är enheten för Bitcoin som används i Lightning Network?
+answer: Sats.
 wrong_answers:
-  - 1%.
-  - 2%.
-  - 3%.
-explanation: >-
+  - Block.
+  - Ether.
+  - Litecoin.
+explanation: |
+  Lightning Network använder satoshis (även kallad Sats), decimalen
+  gW-4:s decimal för att fungera.
 reviewed: true

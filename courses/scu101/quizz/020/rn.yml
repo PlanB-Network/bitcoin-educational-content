@@ -1,0 +1,9 @@
+question: Ni igiki gikingira virusi kiri muri Windows?
+answer: Uwukingira idirisha
+wrong_answers:
+  - Kasperski
+  - Norton
+  - McAfee
+explanation: |
+  Windows Defender ni porogaramu yubatswe muri Windows. Ni umuti utekanye kandi ukora neza wo kurinda urutonde rw’ibintu bitera ubwoba.
+reviewed: true

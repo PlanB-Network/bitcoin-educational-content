@@ -23,7 +23,7 @@ Estos dispositivos se comercializan como un calefactor auxiliar en el caso del *
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7
 
 Tenga en cuenta que la diferencia de precio con los calefactores tradicionales de potencia equivalente no le permite, en la inmensa mayoría de los casos, obtener un beneficio económico. Los satoshis generados por la actividad de Mining nunca compensarán esta diferencia de precio, a menos que tenga acceso a electricidad gratuita (excedente) o muy barata.
 
@@ -207,9 +207,9 @@ Para más detalles sobre cómo conectarse a un Mining pool, consulte estos tutor
 
 
 
-https://planb.network/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-https://planb.network/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
+https://planb.academy/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
 
 En resumen, necesitamos
 
@@ -358,4 +358,4 @@ Para saber más, echa un vistazo a nuestro tutorial sobre la versión superior d
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7

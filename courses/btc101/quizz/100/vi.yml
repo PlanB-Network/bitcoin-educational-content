@@ -1,11 +1,8 @@
-question: Việc thiếu cụm từ ghi nhớ trong một ví điện tử cho thấy điều gì?
-answer: Điều đó cho thấy ví điện tử không an toàn cho việc lưu trữ Bitcoin lâu dài.
+question: Vai trò của một công chứng viên trong bối cảnh thừa kế Bitcoin là gì?
+answer: Họ đảm bảo tuân thủ thuế.
 wrong_answers:
-  - Điều đó cho thấy ví điện tử hoàn toàn an toàn và không cần bất kỳ bản sao lưu nào.
-  - Nó có nghĩa là ví điện tử có thể chứa nhiều loại trái phiếu khác nhau.
-  - Nó gợi ý rằng ví điện tử được tự động sao lưu bởi thiết bị của bạn.
+  - Họ quản lý bitcoin của bạn sau khi bạn qua đời.
+  - Họ chỉnh sửa kế hoạch thừa kế của bạn.
+  - Họ bảo vệ bitcoin của bạn trong một két an toàn.
 explanation: |
-  Việc thiếu một danh sách gồm 12 hoặc 24 từ, tức là
-  cụm từ ghi nhớ, trong một ví điện tử nên cảnh báo bạn rằng
-  ví không an toàn vì nó không tuân theo các quy trình sao lưu chuẩn.
-reviewed: true
+  Trong bối cảnh thừa kế Bitcoin, việc thảo luận về việc thừa kế bitcoin với một công chứng viên để đảm bảo tuân thủ thuế là quan trọng.

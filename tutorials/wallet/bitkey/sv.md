@@ -1,5 +1,5 @@
 ---
-name: Bitnyckel
+name: Bitkey
 description: Hardware Wallet fröfri
 ---
 ![cover](assets/cover.webp)

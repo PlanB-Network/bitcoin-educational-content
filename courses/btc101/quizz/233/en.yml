@@ -1,12 +1,13 @@
-question: What is the main purpose of the Lightning Network?
-answer: To facilitate micro-transactions.
+question: What is one of the potential benefits of the Lightning Network for content creators?
+answer: They would be incentivized to produce good quality content to retain users' attention.
 wrong_answers:
-  - To increase the value of Bitcoin.
-  - To replace the Bitcoin protocol.
-  - To create a new cryptocurrency.
-explanation: >-
-  The Lightning Network is a second layer solution to the Bitcoin protocol
-  that aims to facilitate micro-transactions, which are transactions of very low value
-  that would otherwise be impractical due to high fees and long confirmation times
-  on the Bitcoin blockchain.
+  - They would be able to charge more for their content.
+  - They would be able to reach a wider audience.
+  - They would be able to produce content more quickly to retain users' attention.
+explanation: |
+  With the Lightning Network, content creators would be
+  incentivized to produce good quality content to retain
+  users' attention. Users, in turn, would only pay for the
+  content they consume, thus eliminating upfront subscription
+  fees.
 reviewed: true

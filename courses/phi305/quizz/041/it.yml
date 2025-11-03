@@ -1,0 +1,9 @@
+question: Chi è Saint-Augustin?
+answer: Uno dei Padri della Chiesa.
+wrong_answers:
+  - Filosofo dell'Illuminismo.
+  - Un astronomo.
+  - Un inventore.
+explanation: |
+  Sant'Agostino (354-430) è uno dei Padri della Chiesa. Filosofo e teologo, influenzò profondamente il pensiero cristiano occidentale con opere come "Le confessioni" e "La città di Dio".
+reviewed: false

@@ -1,14 +1,10 @@
-question: Mikä on käsite skin in the game videopelialan kontekstissa?
-answer: Taloudellisen panoksen omaaminen pelin lopputulokseen.
+question: Mitä mahdollisia liiketoimintamahdollisuuksia Lightning-verkko tarjoaa?
+answer: Uudet taloudelliset mallit, joissa kuluttajat maksavat sisällöstä sen mukaan, mitä he kuluttavat.
 wrong_answers:
-  - Hahmojen mukauttaminen ainutlaatuisilla skineillä, jotka parantavat pelikokemusta.
-  - Pelin sisäisten esineiden ostaminen oikealla rahalla.
-  - Peliskinien myyminen oikeasta rahasta.
-explanation: |
-  Käsite skin in the game on idea, joka on
-  viime aikoina saavuttanut suosiota videopelialalla. Se
-  viittaa pohjimmiltaan ajatukseen, että kehittäjillä ja
-  sidosryhmillä on henkilökohtainen sijoitus tai panos pelin
-  menestyksessä, mikä yhdistää heidän intressinsä
-  laadukkaan tuotteen toimittamiseen.
+  - Uudet taloudelliset mallit, joissa kuluttajat maksavat käyttäen eri kryptovaluuttoja.
+  - Uudet taloudelliset mallit, joissa kuluttajat käyttävät personoituja lohkoketjuja.
+  - Uudet taloudelliset mallit, joissa kuluttajat eivät maksa mistään sisällöstä.
+explanation: >-
+  Lightning-verkko avaa lukuisia jännittäviä käyttötapauksia Bitcoin-käyttäjille. Tuloksena olevat taloudelliset mallit ja liiketoimintamahdollisuudet ovat lukuisia
+  ja vaihtelevia, mukaan lukien uudet taloudelliset mallit, joissa kuluttajat maksavat sisällöstä sen mukaan, mitä he kuluttavat.
 reviewed: true

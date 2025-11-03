@@ -54,7 +54,7 @@ Dus elke keer dat je de naam van een website in je browser invoert of op een lin
 
 
 
-**Pi-Hole inspecteert deze aanvragen (er zijn er honderden per dag!) en blokkeert automatisch de aanvragen waarvan bekend is dat ze advertenties of zelfs kwaadaardige bestanden hosten
+**Pi-Hole inspecteert deze aanvragen (er zijn er honderden per dag!) en blokkeert automatisch de aanvragen waarvan bekend is dat ze advertenties of zelfs kwaadaardige bestanden hosten**
 
 
 
@@ -62,7 +62,7 @@ Dus elke keer dat je de naam van een website in je browser invoert of op een lin
 
 
 
-Met een naam als Pi-Hole ga je er misschien vanuit dat je een Raspberry-Pi nodig hebt... Maar dat is niet helemaal waar. **Pi-Hole kan op elke Linux-computer worden geïnstalleerd (Debian, Fedora, Rocky, Ubuntu, enz.)
+Met een naam als Pi-Hole ga je er misschien vanuit dat je een Raspberry-Pi nodig hebt... Maar dat is niet helemaal waar. **Pi-Hole kan op elke Linux-computer worden geïnstalleerd (Debian, Fedora, Rocky, Ubuntu, enz.).**
 
 
 
@@ -84,7 +84,7 @@ curl -sSL https://install.pi-hole.net | bash
 >
 
 
-> **Note: op minimale versies van Debian 11 is Curl niet geïnstalleerd, dus je moet het handmatig installeren met het **apt-get install curl** commando voordat je het bovenstaande commando typt.
+> **Note: op minimale versies van Debian 11 is Curl niet geïnstalleerd, dus je moet het handmatig installeren met het** `apt-get install curl` **commando voordat je het bovenstaande commando typt.**
 
 Nadat het script is uitgevoerd, wordt er een reeks tests uitgevoerd en de installatie zelf gaat vanzelf:
 
@@ -124,7 +124,7 @@ DNS-selectie - Pi-Hole
 
 
 
-> **Noot: als je in een bedrijf zit, is de kans groot dat je huidige DNS-server de Active Directory domeincontroller is. Maar maak je geen zorgen, je kunt later een voorwaardelijke omleiding opgeven voor een domein naar keuze. Normaal gesproken kun je elk verzoek met betrekking tot je lokale domein omleiden naar je DNS-server.
+> **Noot**: als je in een bedrijf zit, is de kans groot dat je huidige DNS-server de Active Directory domeincontroller is. Maar maak je geen zorgen, je kunt later een voorwaardelijke omleiding opgeven voor een domein naar keuze. Normaal gesproken kun je elk verzoek met betrekking tot je lokale domein omleiden naar je DNS-server.
 
 Je zult zien dat sommige keuzes een DNSSEC optie bevatten. In principe is het DNS-protocol niet veilig (het is destijds niet ontworpen met dit in gedachten). DNSSEC lost dit probleem op door een Layer beveiliging toe te voegen via encryptie en ondertekening van uitwisselingen, zoals uitgelegd in het bijbehorende artikel: [DNS Beveiliging](https://www.it-connect.fr/securite-dns-doh-quest-ce-le-dns-over-https/)
 

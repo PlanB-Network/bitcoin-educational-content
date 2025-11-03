@@ -1,0 +1,10 @@
+question: None iyi nyigisho ivuga iki ku bijanye n’akazoza ka Bitcoin?
+answer: Ntibizozimangana.
+wrong_answers:
+  - Izosubirizwa n’ubuhinga bwiza kuruta.
+  - Izobuzwa kw’isi yose.
+  - Bizotakaza agaciro kavyo.
+explanation: |
+  Ivyanditswe vy’amashure vyerekana ko Bitcoin itazoja .
+  guhunga. Ahubwo, iyo mpinduka irahejeje gutangura.
+reviewed: true

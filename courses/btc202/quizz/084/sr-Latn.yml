@@ -1,0 +1,9 @@
+question: Koji je podrazumevani broj odlaznih veza koje Bitcoin core čvor održava?
+answer: 10
+wrong_answers:
+  - 2
+  - 4
+  - 3
+explanation: |
+  Bitcoin core održava 10 odlaznih veza po podrazumevanim postavkama (8 punih releja i 2 samo za blok-relej).
+reviewed: true

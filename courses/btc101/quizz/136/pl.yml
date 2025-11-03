@@ -1,8 +1,11 @@
-question: W jaki sposób sieć Bitcoin zapewnia, że złośliwe działanie w ramach protokołu Bitcoin jest zbyt kosztowne?
-answer: Poprzez zasady protokołu i zachęty ekonomiczne.
+question: Co by się stało, gdyby użytkownik węzła zdecydował się przestrzegać innych zasad, które są sprzeczne z istniejącymi zasadami konsensusu?
+answer: Węzeł nie będzie już częścią sieci Bitcoin.
 wrong_answers:
-  - Poprzez ścisłą regulację i nadzór.
-  - Dzięki zastosowaniu zaawansowanych środków bezpieczeństwa.
-  - Poprzez groźbę podjęcia kroków prawnych.
-explanation: >-
+  - Węzeł stanie się częścią innej sieci Bitcoin.
+  - Węzeł zostanie ukarany przez sieć Bitcoin.
+  - Węzeł zostanie nagrodzony przez sieć Bitcoin.
+explanation: |
+  Jeśli użytkownik węzła zdecydował się przestrzegać innych zasad, które
+  które unieważniają bieżące zasady konsensusu, wówczas ten węzeł
+  nie będzie już częścią sieci Bitcoin.
 reviewed: true

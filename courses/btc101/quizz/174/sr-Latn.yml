@@ -1,8 +1,9 @@
-question: Koji su tipični troškovi za rudara?
-answer: Potrošnja električne energije i kupovina hardvera.
+question: Koji je jedan način na koji se Bitkoin dodatno integrisao u tradicionalno tržište?
+answer: Dolazak Bitkoin ETF-ova.
 wrong_answers:
-  - Samo kupovina hardvera.
-  - Naknade za transakcije.
-  - Potrošnja električne energije i naknade za transakcije.
-explanation: >-
-reviewed: false
+  - Zabrana Bitkoina.
+  - Nestanak svih kriptovaluta.
+  - Kreiranje Bitkoina.
+explanation: |
+  Bitkoin nastavlja da opstaje i raste još više integrisanjem sve više u tradicionalno tržište. Dolazak Bitkoin ETF-ova, jasnija regulativa i bolja nabavka alata za skladištenje samo podstiču ovaj trend.
+reviewed: true

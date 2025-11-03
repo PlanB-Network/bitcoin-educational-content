@@ -90,7 +90,7 @@ Siap terjun ke dunia jaringan komputer? Mari kita mulai!
 **CATATAN**: Deskripsi ini didasarkan pada sistem GNU/Linux CentOS 7. Namun, konfigurasi jaringan sebagian besar sama ketika membandingkan sistem Debian dengan sistem CentOS. Jadi, kami tidak akan membuat perbedaan apa pun. Jika ada, kami akan mengawalinya dengan logo tertentu.
 
 
-**NB **: Jika Anda menemukan istilah yang tidak dikenal selama kursus, silakan baca [daftar istilah](https://planb.network/resources/glossary) untuk mendapatkan definisi.
+**NB **: Jika Anda menemukan istilah yang tidak dikenal selama kursus, silakan baca [daftar istilah](https://planb.academy/resources/glossary) untuk mendapatkan definisi.
 
 
 
@@ -138,7 +138,7 @@ Keuntungan dari pengaturan ini terletak pada kesederhanaan pemasangan kabel, dan
 
 
 
-![Image](assets/fr/001.webp)
+![Image](assets/id/001.webp)
 
 
 
@@ -152,7 +152,7 @@ Tata letak hirarkis ini bekerja dengan sangat baik untuk jaringan besar yang mem
 
 
 
-![Image](assets/fr/002.webp)
+![Image](assets/id/002.webp)
 
 
 
@@ -166,7 +166,7 @@ Keuntungan utama topologi bus adalah biaya pemasangan yang rendah, berkat pemasa
 
 
 
-![Image](assets/fr/003.webp)
+![Image](assets/id/003.webp)
 
 
 
@@ -180,7 +180,7 @@ Tata letak ini memudahkan pengelolaan dan pemeliharaan: jika satu perangkat peri
 
 
 
-![Image](assets/fr/004.webp)
+![Image](assets/id/004.webp)
 
 
 
@@ -197,7 +197,7 @@ Pengorbanannya adalah jumlah sambungan yang harus dibuat meningkat dengan cepat 
 
 
 
-![Image](assets/fr/005.webp)
+![Image](assets/id/005.webp)
 
 
 
@@ -240,8 +240,8 @@ Tata kelola dan evolusi protokol-protokol ini diawasi oleh ***Internet Architect
 Organisasi ini mengkoordinasikan arahan teknis melalui dua struktur utama:
 
 
-- IRTF** (_Internet Research Task Force_), yang melakukan penelitian jangka panjang tentang evolusi dan peningkatan protokol.
-- IETF** (_Internet Engineering Task Force_), yang mengembangkan, menstandarkan, dan mendokumentasikan protokol operasional yang digunakan di Internet
+- **IRTF** (_Internet Research Task Force_), yang melakukan penelitian jangka panjang tentang evolusi dan peningkatan protokol.
+- **IETF** (_Internet Engineering Task Force_), yang mengembangkan, menstandarkan, dan mendokumentasikan protokol operasional yang digunakan di Internet
 
 
 Distribusi sumber daya jaringan (rentang IP Address, nomor sistem otonom, nama domain akar, dll.) dikoordinasikan secara internasional oleh **IANA/ICANN**. Manajemen operasional bergantung pada: **RIR** (*Regional Internet Registries*): **RIPE NCC** (Eropa, Timur Tengah, Asia Tengah), **ARIN**, **APNIC**, **LACNIC**, dan **AFRINIC**.
@@ -263,7 +263,7 @@ Empat lapisan model TCP/IP adalah:
 
 
 
-![Image](assets/fr/006.webp)
+![Image](assets/id/006.webp)
 
 
 
@@ -283,11 +283,11 @@ Setiap Layer dari tumpukan TCP/IP menyediakan layanan spesifik, sehingga memungk
 | Switch   | Locally addresses interfaces and forwards traffic via MAC                            | Network Access         |
 | Network Interface Card (NIC)     | Signal encoding, cabling, connectors, physical specifications                        | Network Access         |
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 ## Protokol QoS IPv5
 
@@ -354,9 +354,9 @@ Pada tingkat fisik, transmisi bergantung pada antarmuka perangkat keras untuk me
 Tiga konfigurasi jaringan Elements menentukan bagaimana sebuah paket dikirim dalam perjalanannya:
 
 
-- IP Address**: mengidentifikasi host tujuan secara unik dalam jaringan.
-- Subnet mask**: menentukan bagian mana dari Address yang mengidentifikasi jaringan dan bagian mana yang mengidentifikasi host, memungkinkan pembagian logis ke dalam subnet.
-- Gateway**: menunjukkan router perantara yang harus dilewati paket untuk mencapai jaringan eksternal atau segmen lain dari jaringan lokal.
+- **IP Address**: mengidentifikasi host tujuan secara unik dalam jaringan.
+- **Subnet mask**: menentukan bagian mana dari Address yang mengidentifikasi jaringan dan bagian mana yang mengidentifikasi host, memungkinkan pembagian logis ke dalam subnet.
+- **Gateway**: menunjukkan router perantara yang harus dilewati paket untuk mencapai jaringan eksternal atau segmen lain dari jaringan lokal.
 
 
 Di Internet, data tidak mengalir sebagai satu aliran yang terus menerus, tetapi dikirim sebagai **datagram**: blok data yang independen, masing-masing dienkapsulasi dengan semua informasi yang diperlukan untuk pengiriman. Ini adalah prinsip **paket switching**, di mana informasi dipecah menjadi unit-unit mandiri yang dapat mengambil jalur yang berbeda untuk mencapai penerima yang sama.
@@ -381,16 +381,16 @@ Ketika sebuah datagram IP perlu melewati jaringan yang kapasitas transmisinya le
 Setiap teknologi jaringan memberlakukan MTU-nya sendiri, yang ditentukan oleh karakteristik perangkat keras dan protokolnya. Nilai yang umum meliputi:
 
 
-- ARPANET**: 1000 byte
-- Ethernet**: 1500 byte
-- FDDI**: 4470 byte
+- **ARPANET**: 1000 byte
+- **Ethernet**: 1500 byte
+- **FDDI**: 4470 byte
 
 
 Ketika sebuah datagram melebihi MTU segmen jaringan yang harus dilewati, peralatan perutean akan membaginya menjadi **fragmen** yang lebih kecil yang sesuai dengan batas tersebut. Hal ini biasanya terjadi ketika berpindah dari jaringan dengan MTU tinggi ke jaringan dengan kapasitas yang lebih rendah. Sebagai contoh, sebuah datagram yang berasal dari jaringan FDDI mungkin perlu dipecah-pecah sebelum dikirim melalui segmen Ethernet.
 
 
 
-![Image](assets/fr/008.webp)
+![Image](assets/id/007.webp)
 
 
 
@@ -431,7 +431,7 @@ Oleh karena itu, penularan mengikuti proses yang terstruktur:
 
 
 
-![Image](assets/fr/009.webp)
+![Image](assets/id/008.webp)
 
 
 
@@ -442,21 +442,21 @@ Setelah tiba, prosesnya dibalik: mesin penerima mendapatkan frame di Network Acc
 
 
 
-![Image](assets/fr/010.webp)
+![Image](assets/id/009.webp)
 
 
 
 Transformasi data pada setiap Layer dapat diringkas sebagai:
 
 
-- Pesan**: blok informasi di Aplikasi Layer.
-- Segmen**: unit data setelah dienkapsulasi oleh Transport Layer.
-- Datagram**: formulir yang diambil setelah penambahan header IP oleh Internet Layer.
-- Frame**: blok akhir yang siap untuk ditransmisikan melalui media fisik oleh Network Access Layer.
+- **Pesan**: blok informasi di Aplikasi Layer.
+- **Segmen**: unit data setelah dienkapsulasi oleh Transport Layer.
+- **Datagram**: formulir yang diambil setelah penambahan header IP oleh Internet Layer.
+- **Frame**: blok akhir yang siap untuk ditransmisikan melalui media fisik oleh Network Access Layer.
 
 
 
-![Image](assets/fr/011.webp)
+![Image](assets/id/010.webp)
 
 
 
@@ -475,8 +475,8 @@ Pada IPv4, IP Address dikodekan pada **32 bit** dan ditulis sebagai empat angka 
 IP Address memiliki dua bagian:
 
 
-- _netid_**: mengidentifikasi jaringan tempat host berada
-- _hostid_**: mengidentifikasi host tertentu dalam jaringan tersebut
+- **netid**: mengidentifikasi jaringan tempat host berada
+- **hostid**: mengidentifikasi host tertentu dalam jaringan tersebut
 
 Pemisahan ini memungkinkan Internet global terstruktur secara logis ke dalam banyak jaringan yang saling terhubung.
 
@@ -507,16 +507,16 @@ Jumlah alamat yang tersedia sangat bervariasi di antara kelas-kelas: dari jaring
 
 
 
-![Image](assets/fr/013.webp)
+![Image](assets/id/011.webp)
 
 
 
 Beberapa rentang Address dicadangkan untuk penggunaan pribadi dan tidak pernah dirutekan secara langsung di Internet. Ini dikenal sebagai **alamat pribadi**, dan digunakan di dalam organisasi, bisnis, atau rumah, dan memerlukan terjemahan Address, biasanya NAT (*Network Address Translation*), untuk menjangkau Internet publik. Ini adalah:
 
 
-- Kelas A**: dari 10.0.0.0 hingga 10.255.255.255
-- Kelas B**: dari 172.16.0.0 hingga 172.31.255.255
-- Kelas C**: dari 192.168.0.0 hingga 192.168.255.255
+- **Kelas A**: dari 10.0.0.0 hingga 10.255.255.255
+- **Kelas B**: dari 172.16.0.0 hingga 172.31.255.255
+- **Kelas C**: dari 192.168.0.0 hingga 192.168.255.255
 
 
 Ketika perangkat dengan Address pribadi mengakses Internet, router atau gateway yang mendukung NAT akan menggantikannya dengan Address publik yang valid.
@@ -540,9 +540,9 @@ Untuk mengoptimalkan penggunaan Address dan mendesain jaringan yang kompleks, **
 Setiap kelas memiliki topeng default:
 
 
-- 255.0.0.0** untuk kelas A,
-- 255.255.0.0** untuk kelas B,
-- 255.255.255.0** untuk kelas C.
+- **255.0.0.0** untuk kelas A,
+- **255.255.0.0** untuk kelas B,
+- **255.255.255.0** untuk kelas C.
 
 
 Desain jaringan yang baik mengikuti aturan dasar: perangkat yang harus berkomunikasi secara langsung harus berada dalam jaringan atau subnet yang sama. Untuk menyegmentasikan jaringan, kita menggunakan subnetting, membagi jaringan menjadi subnet yang lebih kecil dengan menggunakan mask yang lebih spesifik.
@@ -561,7 +561,7 @@ Kami menginginkan 4 subnet yang masing-masing terdiri dari 60 host.
 **Langkah 2**: Temukan pangkat terdekat dari 2 ≥ 62. -> 2⁶ = 64.
 
 
-**Langkah 3: Sesuaikan mask. Pertahankan bit _netid_ dan simpan bit _hostid_ yang diperlukan. Kita mendapatkan sebuah mask biner yang, setelah dikonversi, akan menghasilkan **255.255.255.192**.
+**Langkah 3: Sesuaikan mask. Pertahankan bit _netid_ dan simpan bit _hostid_ yang diperlukan. Kita mendapatkan sebuah mask biner yang, setelah dikonversi, akan menghasilkan** 255.255.255.192.
 
 
 ```
@@ -585,7 +585,7 @@ Kami menginginkan 4 subnet yang masing-masing terdiri dari 60 host.
 
 
 
-![Image](assets/fr/016.webp)
+![Image](assets/id/012.webp)
 
 
 
@@ -653,7 +653,7 @@ sudo apt install ipcalc
 ```
 
 
-https://planb.network/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
+https://planb.academy/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
 
 ## Protokol TCP
 
@@ -680,7 +680,7 @@ TCP adalah protokol yang berorientasi pada koneksi, yang berarti protokol ini me
 
 
 
-![Image](assets/fr/018.webp)
+![Image](assets/id/013.webp)
 
 
 
@@ -688,7 +688,7 @@ Untuk meningkatkan keandalan, TCP menggunakan pengatur waktu: setelah sebuah seg
 
 
 
-![Image](assets/fr/019.webp)
+![Image](assets/id/014.webp)
 
 
 
@@ -701,7 +701,7 @@ Agar proses ini dapat berjalan, kedua mesin harus memiliki pemahaman yang sama t
 **CATATAN**: "Port" adalah pengenal numerik (dari 0 hingga 65.535) yang ditetapkan untuk aplikasi jaringan pada komputer. Port ini digunakan untuk membedakan beberapa layanan yang berjalan secara bersamaan pada IP Address yang sama. Ketika klien mengirim data, klien menentukan nomor port sehingga sistem operasi server tahu program mana yang harus menerimanya (misalnya 80 untuk HTTP, 443 untuk HTTPS, 25 untuk SMTP). Port bertindak seperti pintu khusus, mengarahkan lalu lintas masuk dan keluar, mencegah kebingungan antara layanan, dan memungkinkan kontrol akses yang halus melalui firewall atau aturan penyaringan.
 
 
-Sinkronisasi urutan Exchange didasarkan pada mekanisme **"*jabat tangan tiga arah*" yang terkenal, mirip dengan cara dua orang saling menyapa untuk menjalin kontak. Fase inisialisasi ini, yang memastikan keandalan TCP, berlangsung dalam 3 tahap:
+Sinkronisasi urutan Exchange didasarkan pada mekanisme **"jabat tangan tiga arah"** yang terkenal, mirip dengan cara dua orang saling menyapa untuk menjalin kontak. Fase inisialisasi ini, yang memastikan keandalan TCP, berlangsung dalam 3 tahap:
 
 1. **SYN:** Klien mengirimkan segmen sinkronisasi awal (**SYN**) dengan set flag yang sesuai dan nomor urut awal (misalnya, C);
 
@@ -711,7 +711,7 @@ Sinkronisasi urutan Exchange didasarkan pada mekanisme **"*jabat tangan tiga ara
 
 
 
-![Image](assets/fr/020.webp)
+![Image](assets/id/015.webp)
 
 
 
@@ -734,7 +734,7 @@ Secara praktis, jendela geser mendefinisikan rentang nomor urut yang dapat bered
 
 
 
-![Image](assets/fr/021.webp)
+![Image](assets/id/016.webp)
 
 
 
@@ -747,11 +747,11 @@ Protokol ini menyediakan prosedur simetris untuk menutup koneksi TCP untuk memas
 Setelah menerima segmen ini, mesin lain akan mengirimkan pengakuan, yang juga ditandai dengan bendera FIN. Kemudian menyelesaikan pengiriman data yang tersisa sebelum memberi tahu aplikasi lokal bahwa sambungan telah ditutup. Konfirmasi ganda ini memastikan pematian yang teratur dan meminimalkan risiko kehilangan data.
 
 
-Manajemen yang tepat ini, yang menggabungkan perutean fleksibel IP dengan kontrol ketat TCP, sering diilustrasikan dengan diagram yang membandingkan kecepatan protokol IP (yang bekerja berdasarkan **"upaya terbaik", tanpa jaminan pengiriman) dengan keandalan protokol TCP (yang mengelola transmisi melalui pengakuan dan urutan yang dinegosiasikan).
+Manajemen yang tepat ini, yang menggabungkan perutean fleksibel IP dengan kontrol ketat TCP, sering diilustrasikan dengan diagram yang membandingkan kecepatan protokol IP (yang bekerja berdasarkan **"upaya terbaik"**, tanpa jaminan pengiriman) dengan keandalan protokol TCP (yang mengelola transmisi melalui pengakuan dan urutan yang dinegosiasikan).
 
 
 
-![Image](assets/fr/022.webp)
+![Image](assets/id/017.webp)
 
 
 
@@ -787,20 +787,20 @@ Setiap Layer dibangun di atas kemampuan yang ada di bawahnya, dan pada giliranny
 Ada dua aspek utama yang mengatur pertukaran ini:
 
 
-- Aspek vertikal**: hubungan antara satu Layer dengan Layer di atas atau di bawahnya (dari Layer N ke Layer N+1, dan sebaliknya).
+- **Aspek vertikal**: hubungan antara satu Layer dengan Layer di atas atau di bawahnya (dari Layer N ke Layer N+1, dan sebaliknya).
 
 
 
-![Image](assets/fr/023.webp)
+![Image](assets/id/018.webp)
 
 
 
 
-- Aspek horizontal**: interaksi antara aplikasi jarak jauh, yaitu dialog antara **klien** dan **server**, di kedua arah.
+- **Aspek horizontal**: interaksi antara aplikasi jarak jauh, yaitu dialog antara **klien** dan **server**, di kedua arah.
 
 
 
-![Image](assets/fr/024.webp)
+![Image](assets/id/019.webp)
 
 
 
@@ -810,10 +810,14 @@ Arsitektur berlapis mengikuti prinsip bahwa setiap Layer hanya memproses informa
 **Pengingat**: Terminologi khusus digunakan untuk menjelaskan unit data yang dipertukarkan antar lapisan:
 
 
-- pesan** untuk Aplikasi Layer,
+- **pesan** untuk Aplikasi Layer,
 - segmen** untuk Transport Layer (TCP),
-- datagram** untuk Internet Layer (IP),
-- frame** untuk Akses Jaringan Layer.
+
+The line appears to have an unbalanced ** marker. Here's the corrected version:
+
+- **segmen** untuk Transport Layer (TCP),
+- **datagram** untuk Internet Layer (IP),
+- **frame** untuk Akses Jaringan Layer.
 
 
 Tabel di bawah ini meringkas istilah-istilah untuk konteks TCP dan UDP:
@@ -836,7 +840,7 @@ Dengan menggabungkan aspek horizontal (komunikasi antara aplikasi terdistribusi)
 
 
 
-![Image](assets/fr/026.webp)
+![Image](assets/id/020.webp)
 
 
 
@@ -885,18 +889,18 @@ IP Address adalah pengenal numerik unik yang ditetapkan untuk setiap **jaringan 
 Alamat IP dapat ditetapkan dengan dua cara utama:
 
 
-- Statis**: Diatur secara manual pada perangkat.
-- Dinamis**: Ditetapkan secara otomatis sesuai permintaan oleh server DHCP (_Dynamic Host Configuration Protocol_). DHCP menyederhanakan manajemen jaringan, sehingga tidak memerlukan konfigurasi manual dan memungkinkan kontrol yang tepat melalui reservasi dan durasi sewa.
+- **Status**: Diatur secara manual pada perangkat.
+- **Dinamis**: Ditetapkan secara otomatis sesuai permintaan oleh server DHCP (_Dynamic Host Configuration Protocol_). DHCP menyederhanakan manajemen jaringan, sehingga tidak memerlukan konfigurasi manual dan memungkinkan kontrol yang tepat melalui reservasi dan durasi sewa.
 
 
-*alamat *IPv4** ditulis dalam format **32-bit** yang dibagi menjadi **empat byte**. Setiap byte berisi 8 bit dan mewakili angka desimal dari 0 hingga 255. Keempat byte dipisahkan oleh titik-titik untuk membentuk notasi yang jelas dan mudah dibaca.
+*alamat* **IPv4** ditulis dalam format **32-bit** yang dibagi menjadi **empat byte**. Setiap byte berisi 8 bit dan mewakili angka desimal dari 0 hingga 255. Keempat byte dipisahkan oleh titik-titik untuk membentuk notasi yang jelas dan mudah dibaca.
 
 
 contoh: Address 172.16.254.1_
 
 
 
-![Image](assets/fr/027.webp)
+![Image](assets/id/021.webp)
 
 
 
@@ -944,10 +948,10 @@ Router membaca alamat-alamat ini untuk mengetahui jalur terbaik untuk mengirim p
 IPv4 Address memiliki dua bagian:
 
 
-- NetID**: mengidentifikasi jaringan
-- HostID**: mengidentifikasi perangkat di dalam jaringan tersebut
+- **NetID**: mengidentifikasi jaringan
+- **HostID**: mengidentifikasi perangkat di dalam jaringan tersebut
 
-Subnet mask** menentukan di mana NetID berakhir dan HostID dimulai, menentukan berapa banyak bit yang dimiliki oleh masing-masing bagian. Semakin panjang NetID, semakin besar jumlah subnet yang mungkin, tetapi jumlah host per subnet berkurang.
+**Subnet mask** menentukan di mana NetID berakhir dan HostID dimulai, menentukan berapa banyak bit yang dimiliki oleh masing-masing bagian. Semakin panjang NetID, semakin besar jumlah subnet yang mungkin, tetapi jumlah host per subnet berkurang.
 
 
 Pada awalnya, jaringan IPv4 dibagi menjadi lima **kelas**: (A, B, C, D, dan E). Setiap kelas berhubungan dengan rentang NetID tertentu dan mendefinisikan perincian yang tetap:
@@ -972,17 +976,17 @@ Pada awalnya, jaringan IPv4 dibagi menjadi lima **kelas**: (A, B, C, D, dan E). 
 Alamat Khusus:
 
 
-- Jaringan Address**: Mengidentifikasi jaringan itu sendiri (digunakan dalam tabel perutean).
-- Menyiarkan Address**: Mengirimkan data ke semua perangkat dalam subnet sekaligus (semua bit HostID diatur ke 1).
+- **Jaringan Address**: Mengidentifikasi jaringan itu sendiri (digunakan dalam tabel perutean).
+- **Menyiarkan Address**: Mengirimkan data ke semua perangkat dalam subnet sekaligus (semua bit HostID diatur ke 1).
 
 
 Rentang berikut ini dicadangkan untuk penggunaan internal:
 
 
-- 10.0.0.0/8** (Kelas Privat A)
-- 127.0.0.0/8** (loopback lokal atau _loopback_)
-- 172.16.0.0 hingga 172.31.255.255** (Kelas B pribadi)
-- 192.168.0.0 hingga 192.168.255.255** (Kelas C pribadi)
+- **10.0.0.0/8** (Kelas Privat A)
+- **127.0.0.0/8** (loopback lokal atau *loopback*)
+- **172.16.0.0 hingga 172.31.255.255** (Kelas B pribadi)
+- **192.168.0.0 hingga 192.168.255.255** (Kelas C pribadi)
 
 
 Alamat **127.0.0.1** dan, secara umum, seluruh rentang 127.0.0.0/8 digunakan untuk pengujian internal: permintaan apa pun yang dikirim ke alamat tersebut tidak pernah meninggalkan mesin. Hal ini berguna untuk memeriksa apakah layanan jaringan lokal bekerja tanpa melibatkan jaringan yang lebih luas.
@@ -995,8 +999,8 @@ Dalam jaringan modern, pengalamatan IP biasanya dipasangkan dengan pengenal lain
 
 
 
-- nama domain** yang terdaftar dalam **DNS** (Sistem Nama Domain): Sistem ini mengaitkan IP numerik Address dengan nama yang mudah diingat.
-- MAC Address**: pengenal fisik yang terukir pada kartu jaringan, digunakan untuk transportasi lokal (_Ethernet_). Ketika paket IP perlu ditransmisikan secara fisik, tabel ARP mencocokkan IP Address dengan MAC Address tujuan.
+- nama domain yang terdaftar dalam **DNS** (Sistem Nama Domain): Sistem ini mengaitkan IP numerik Address dengan nama yang mudah diingat.
+- **MAC Address**: pengenal fisik yang terukir pada kartu jaringan, digunakan untuk transportasi lokal (_Ethernet_). Ketika paket IP perlu ditransmisikan secara fisik, tabel ARP mencocokkan IP Address dengan MAC Address tujuan.
 
 
 Untuk mengatasi kekurangan IPv4 Address dan untuk menambahkan keamanan Layer, jaringan sering menggunakan terjemahan Address (_NAT_). NAT memungkinkan banyak perangkat pribadi untuk berbagi satu IP publik Address ketika mengakses Internet.
@@ -1100,7 +1104,7 @@ DNS juga berperan dalam perutean email. Sebagai contoh, catatan **MX** (_Mail Ex
 Berkat struktur hirarkis dan terdistribusi, DNS tetap menjadi landasan Internet, memungkinkan pengguna untuk mengakses layanan melalui nama domain yang jelas dan mudah diingat, bukannya alamat IP yang panjang dan teknis.
 
 
-Pada bab berikutnya, kita akan menjelajahi konsep mendasar lainnya: **Alamat Ethernet, juga dikenal sebagai alamat MAC, yang memastikan pengiriman data pada Layer fisik jaringan lokal.
+Pada bab berikutnya, kita akan menjelajahi konsep mendasar lainnya: **Alamat Ethernet, juga dikenal sebagai alamat MAC, yang memastikan pengiriman data pada Layer fisik jaringan lokal.**
 
 
 
@@ -1183,7 +1187,7 @@ Penting untuk diingat bahwa MAC Address dan IP Address adalah dua pengidentifika
 - Contoh visual dari MAC Address:
 
 
-![Image](assets/fr/032.webp)
+![Image](assets/id/022.webp)
 
 
 
@@ -1191,7 +1195,7 @@ Penting untuk diingat bahwa MAC Address dan IP Address adalah dua pengidentifika
 - Contoh visual dari IP Address:
 
 
-![Image](assets/fr/027.webp)
+![Image](assets/id/023.webp)
 
 
 
@@ -1258,7 +1262,7 @@ Selain mengatasi kelangkaan IPv4, NAT juga memperkuat keamanan dengan menciptaka
 
 
 
-![Image](assets/fr/035.webp)
+![Image](assets/id/024.webp)
 
 
 
@@ -1274,7 +1278,7 @@ NAT dapat diimplementasikan dengan berbagai cara untuk memenuhi kebutuhan terten
 **Peringatan:** Meskipun metode ini mengisolasi jaringan internal, metode ini tidak mengatasi kekurangan alamat IP publik, karena Anda masih membutuhkan alamat publik sebanyak mesin yang akan diekspos. Oleh karena itu, penerjemahan statis terutama digunakan ketika sumber daya internal tertentu harus tetap dapat dijangkau dari luar (server web, server email...).
 
 
-*di sisi lain, *Dynamic translation**, menggunakan kumpulan alamat IP publik. Ketika sebuah host internal memulai koneksi, router untuk sementara memberikan salah satu alamat publik ini ke Address pribadi host selama durasi sesi. Sambungan ini bersifat 1-ke-1, tetapi sementara: setelah sambungan berakhir, Address publik tersedia untuk perangkat lain. Oleh karena itu, NAT dinamis mengurangi jumlah alamat publik yang diperlukan ketika tidak semua mesin online pada saat yang sama, tetapi masih membutuhkan blok alamat eksternal setidaknya sebesar jumlah maksimum koneksi simultan.
+*Di sisi lain, **Dynamic translation** menggunakan kumpulan alamat IP publik. Ketika sebuah host internal memulai koneksi, router untuk sementara memberikan salah satu alamat publik ini ke Address pribadi host selama durasi sesi. Sambungan ini bersifat 1-ke-1, tetapi sementara: setelah sambungan berakhir, Address publik tersedia untuk perangkat lain. Oleh karena itu, NAT dinamis mengurangi jumlah alamat publik yang diperlukan ketika tidak semua mesin online pada saat yang sama, tetapi masih membutuhkan blok alamat eksternal setidaknya sebesar jumlah maksimum koneksi simultan.*
 
 
 **Port translation** (PAT), juga dikenal sebagai *NAT overload* atau *IP masquerading*, melangkah lebih jauh: semua perangkat pribadi berbagi satu IP publik Address (atau jumlah yang sangat kecil). Untuk membedakan sesi, gateway memodifikasi tidak hanya Address sumber, tetapi juga port sumber. Gateway menyimpan tabel yang menghubungkan setiap pasangan *(private Address, private port)* ke pasangan *(public Address, public port)* yang unik. Bentuk NAT ini digunakan di hampir semua router rumah, memungkinkan lusinan perangkat (komputer, ponsel pintar, benda-benda yang terhubung, dll.) untuk berbagi IP publik Address yang sama, sambil mempertahankan komunikasi yang lancar.
@@ -1331,7 +1335,7 @@ untuk mengilustrasikan bagaimana hal ini bekerja dalam praktiknya, pertimbangkan
 
 
 
-![Image](assets/fr/037.webp)
+![Image](assets/id/025.webp)
 
 
 
@@ -1379,11 +1383,11 @@ Pada bab berikutnya, kita akan melihat secara rinci konfigurasi IP Address di Li
 
 
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 
 ## Bagaimana cara mengkonfigurasi jaringan dengan `ip`?
@@ -1463,8 +1467,8 @@ ifdown eth2
 File konfigurasi (seperti RHEL):
 
 
-- /etc/sysconfig/network**: pengaturan global (JARINGAN, NAMA HOST, GERBANG...).
-- ifcfg-**: pengaturan khusus untuk setiap Interface.
+- **/etc/sysconfig/network**: pengaturan global (JARINGAN, NAMA HOST, GERBANG...).
+- **ifcfg-**: pengaturan khusus untuk setiap Interface.
 
 
 Contoh statis (ifcfg-eth0):
@@ -1500,7 +1504,7 @@ Dalam lingkungan profesional, tujuannya adalah untuk menjamin kontinuitas layana
 
 
 
-![Image](assets/fr/039.webp)
+![Image](assets/id/026.webp)
 
 
 
@@ -1783,10 +1787,10 @@ IPv6 Address yang tidak ditentukan diwakili oleh `::` atau, secara lebih eksplis
 Rentang IPv6 tertentu secara eksplisit dicadangkan dan tidak boleh digunakan sebagai alamat global. Alamat-alamat tersebut memiliki tujuan teknis tertentu:
 
 
-- `::/128`**: Address yang tidak ditentukan, tidak pernah ditetapkan secara permanen ke perangkat, tetapi digunakan sebagai sumber Address oleh mesin yang menunggu konfigurasi.
-- `::1/128`**: _loopback_ Address, setara dengan `127.0.0.1` di IPv4, yang memungkinkan mesin untuk melakukan Address itu sendiri.
-- `64:ff9b::/96`**: Dicadangkan untuk penerjemah protokol untuk mengaktifkan interkoneksi IPv4/IPv6, seperti yang didefinisikan dalam RFC 6052.
-- `::ffff:0:0/96`**: blok kompatibilitas untuk merepresentasikan IPv4 Address dalam struktur IPv6 tertentu, yang sering digunakan secara internal oleh aplikasi.
+- `::/128`: **Address yang tidak ditentukan, tidak pernah ditetapkan secara permanen ke perangkat, tetapi digunakan sebagai sumber Address oleh mesin yang menunggu konfigurasi.**
+- `::1/128`: **_loopback_ Address**, setara dengan `127.0.0.1` di IPv4, yang memungkinkan mesin untuk melakukan Address itu sendiri.
+- `64:ff9b::/96`: **Dicadangkan untuk penerjemah protokol untuk mengaktifkan interkoneksi IPv4/IPv6, seperti yang didefinisikan dalam RFC 6052.**
+- `::ffff:0:0/96`: **blok kompatibilitas untuk merepresentasikan IPv4 Address dalam struktur IPv6 tertentu, yang sering digunakan secara internal oleh aplikasi.**
 
 
 Blok-blok ini menjamin interoperabilitas dan memfasilitasi migrasi antara dua versi protokol.
@@ -1801,9 +1805,9 @@ Alamat unicast global merupakan sebagian besar ruang IPv6 yang dapat dirutekan s
 Beberapa rentang memiliki penggunaan khusus yang terdokumentasi:
 
 
-- `2001:2::/48`**: Dicadangkan untuk pengujian performa dan interoperabilitas (RFC 5180).
-- `2001:db8::/32`**: Dicadangkan untuk dokumentasi dan contoh (RFC 3849).
-- `2002::/16`**: Digunakan untuk mekanisme 6to4, yang memungkinkan lalu lintas IPv6 melintasi infrastruktur IPv4 (berguna selama fase transisi antara dua protokol).
+- `2001:2::/48`: **Dicadangkan untuk pengujian performa dan interoperabilitas (RFC 5180).**
+- `2001:db8::/32`: **Dicadangkan untuk dokumentasi dan contoh (RFC 3849).**
+- `2002::/16`: Digunakan untuk mekanisme 6to4, yang memungkinkan lalu lintas IPv6 melintasi infrastruktur IPv4 (berguna selama fase transisi antara dua protokol).
 
 
 **Catatan:** sebagian besar alamat global tetap tidak digunakan, berfungsi sebagai cadangan untuk pertumbuhan Internet di masa depan.
@@ -1842,7 +1846,7 @@ Dengan menggabungkan tipe Address ini, IPv6 menyediakan satu set opsi lengkap un
 Cakupan IPv6 Address mendefinisikan domain yang tepat di mana IPv6 itu valid dan unik. Memahami konsep ini adalah kunci untuk menguasai perutean paket dan organisasi logis jaringan IPv6. Alamat IPv6 umumnya dikelompokkan ke dalam tiga kategori utama berdasarkan cakupan dan penggunaannya: unicast, anycast, dan multicast.
 
 
-*alamat *Unicast** adalah yang paling umum dan mencakup beberapa subtipe yang berbeda.
+**Alamat Unicast** adalah yang paling umum dan mencakup beberapa subtipe yang berbeda.
 
 Ini termasuk _loopback_ (`::1`) Address, yang cakupannya terbatas pada host yang menggunakannya, dan yang digunakan untuk menguji tumpukan jaringan secara internal tanpa mengirim lalu lintas melalui jaringan fisik.
 
@@ -1865,7 +1869,7 @@ Arsitektur IPv6 mengikuti model perutean global hirarkis dari Internet saat ini.
 |-----------|--------|------|--------------|
 | Bits      | 10     | 54   | 64           |
 
-**Alamat anycast mewakili konsep perantara yang dibangun di atas model unicast tetapi dapat berperilaku seperti multicast dalam kasus-kasus tertentu. Address anycast pada dasarnya adalah Address unicast yang ditugaskan ke beberapa antarmuka yang didistribusikan melalui node jaringan yang berbeda. Ketika sebuah paket dikirim ke anycast Address, protokol IPv6 bertujuan untuk mengirimkannya ke salah satu host yang berbagi Address tersebut, biasanya yang paling dekat dalam hal topologi perutean. Pendekatan ini mengoptimalkan kecepatan pemrosesan permintaan dan meningkatkan ketahanan layanan terdistribusi. Contoh klasiknya adalah server DNS root, di mana pengalamatan anycast secara otomatis mengarahkan kueri ke titik terdekat.
+**Alamat anycast mewakili konsep perantara yang dibangun di atas model unicast tetapi dapat berperilaku seperti multicast dalam kasus-kasus tertentu.** Address anycast pada dasarnya adalah Address unicast yang ditugaskan ke beberapa antarmuka yang didistribusikan melalui node jaringan yang berbeda. Ketika sebuah paket dikirim ke anycast Address, protokol IPv6 bertujuan untuk mengirimkannya ke salah satu host yang berbagi Address tersebut, biasanya yang paling dekat dalam hal topologi perutean. Pendekatan ini mengoptimalkan kecepatan pemrosesan permintaan dan meningkatkan ketahanan layanan terdistribusi. Contoh klasiknya adalah server DNS root, di mana pengalamatan anycast secara otomatis mengarahkan kueri ke titik terdekat.
 
 
 
@@ -1954,7 +1958,7 @@ Untuk konfigurasi otomatis, ada beberapa metode yang tersedia:
 Berikut ini contoh cara mengubah MAC Address menjadi EUI-64:
 
 
-![Image](assets/fr/045.webp)
+![Image](assets/id/027.webp)
 
 
 
@@ -1964,8 +1968,8 @@ Namun, karena meningkatnya kekhawatiran akan pelacakan perangkat, sistem operasi
 Seperti halnya DHCP pada IPv4, alamat IPv6 yang ditetapkan secara otomatis dapat memiliki dua masa pakai, yang ditentukan oleh router atau server DHCPv6:
 
 
-- Masa pakai yang diinginkan*: setelah periode ini, Address tetap berlaku, tetapi tidak lagi digunakan untuk memulai sambungan baru;
-- Masa pakai yang valid*: ketika waktu ini berakhir, Address akan sepenuhnya dihapus dari konfigurasi Interface.
+- Masa pakai yang diinginkan: setelah periode ini, Address tetap berlaku, tetapi tidak lagi digunakan untuk memulai sambungan baru;
+- Masa pakai yang valid: ketika waktu ini berakhir, Address akan sepenuhnya dihapus dari konfigurasi Interface.
 
 
 Sistem ini memungkinkan untuk mengelola perubahan jaringan secara dinamis, misalnya, memastikan transisi yang mulus dari satu ISP ke ISP lainnya. Dengan memperbarui awalan yang diumumkan oleh router dan menyesuaikan catatan DNS secara paralel, migrasi IPv6 dapat dilakukan tanpa gangguan layanan yang nyata.
@@ -2092,7 +2096,7 @@ Berikut ini adalah ikhtisar berbagai jenis header ekstensi yang didefinisikan ol
 Header ini, jika ada, selalu ditempatkan segera setelah header dasar. Header ini berisi informasi yang harus diproses oleh setiap router di sepanjang jalur paket, tidak seperti kebanyakan header lainnya, yang biasanya hanya ditangani oleh node tujuan. Penggunaan yang umum termasuk menandakan parameter global atau meminta langkah pemrosesan tertentu saat paket berjalan melalui jaringan.
 
 
-![Image](assets/fr/047.webp)
+![Image](assets/id/028.webp)
 
 
 #### Header perutean
@@ -2108,16 +2112,16 @@ Header perutean menentukan daftar alamat perantara yang harus dilewati oleh pake
 Empat bidang pertama dari header rooting ini adalah:
 
 
-- Header Berikutnya**: mengidentifikasi jenis header berikutnya;
-- Jenis Routing**: menentukan metode routing (biasanya `0`);
-- Segmen kiri**: jumlah segmen yang tersisa untuk dilintasi;
+- **Header Berikutnya**: mengidentifikasi jenis header berikutnya;
+- **Jenis Routing**: menentukan metode routing (biasanya `0`);
+- **Segmen kiri**: jumlah segmen yang tersisa untuk dilintasi;
 - Address [n]**: daftar alamat perantara.
 
 
 Kolom "Segmen Tersisa" dimulai dengan jumlah total segmen yang tersisa dan dikurangi satu pada setiap hop.
 
 
-![Image](assets/fr/048.webp)
+![Image](assets/id/029.webp)
 
 
 #### Tajuk fragmentasi
@@ -2129,12 +2133,12 @@ Dalam IPv6, hanya host sumber yang diizinkan untuk memecah datagram, tidak seper
 Header fragmentasi berisi bidang-bidang berikut ini:
 
 
-- Identifikasi**: pengidentifikasi datagram unik untuk pemasangan kembali.
-- Fragment Offset**: posisi fragmen di dalam datagram asli.
-- Bendera M**: mengindikasikan apakah ada fragmen lain yang mengikuti.
+- **Identifikasi**: pengidentifikasi datagram unik untuk pemasangan kembali.
+- **Fragment Offset**: posisi fragmen di dalam datagram asli.
+- Bendera **M**: mengindikasikan apakah ada fragmen lain yang mengikuti.
 
 
-![Image](assets/fr/049.webp)
+![Image](assets/id/030.webp)
 
 
 #### Header otentikasi (AH)
@@ -2146,7 +2150,7 @@ Header ini dirancang untuk mengamankan komunikasi dengan memverifikasi keaslian 
 Jika terjadi upaya modifikasi yang curang, kode otentikasi tidak akan cocok lagi, dan datagram dapat ditolak. Mekanisme ini juga melindungi dari serangan pengulangan dengan mendeteksi duplikasi yang tidak sah.
 
 
-![Image](assets/fr/050.webp)
+![Image](assets/id/031.webp)
 
 
 #### Tajuk Opsi Tujuan
@@ -2158,7 +2162,7 @@ Header ini hanya ditujukan untuk penerima akhir datagram. Header ini dapat digun
 Pada awalnya, tidak ada opsi seperti itu yang didefinisikan dalam protokol. Namun, header ini diperkenalkan ketika IPv6 dirancang, untuk memungkinkan ekstensi di masa depan ditambahkan tanpa mengubah struktur paket secara keseluruhan. Opsi null, misalnya, hanya digunakan untuk mengisikan header dengan kelipatan 8 byte untuk tujuan penyelarasan memori.
 
 
-![Image](assets/fr/051.webp)
+![Image](assets/id/032.webp)
 
 
 Desain paket IPv6 dibangun di atas pemisahan yang jelas antara header dasar minimal dan header ekstensi modular. Arsitektur ini memastikan kinerja pemrosesan standar dan fleksibilitas yang diperlukan untuk mengembangkan protokol dan mengintegrasikan keamanan, perutean yang kompleks, atau mekanisme kualitas layanan, sambil mempertahankan kompatibilitas dengan infrastruktur di masa depan.
@@ -2504,7 +2508,7 @@ Wireshark tersedia pada banyak sistem operasi, termasuk Linux dan Windows. Mengi
 
 
 
-![Image](assets/fr/052.webp)
+![Image](assets/id/033.webp)
 
 
 
@@ -2555,7 +2559,7 @@ Perintah ini menghasilkan laporan terperinci tentang `enp0s3` Interface, sebuah 
 
 
 
-![Image](assets/fr/053.webp)
+![Image](assets/id/034.webp)
 
 
 
@@ -2727,13 +2731,13 @@ default via 192.168.1.1 dev eth0 proto dhcp metric 100
 Setiap garis mewakili sebuah rute. Kolom-kolom utama meliputi:
 
 
-- default**: rute default, digunakan ketika tidak ada rute yang lebih spesifik yang cocok.
-- via**: gerbang yang digunakan untuk mencapai tujuan.
-- dev**: jaringan Interface yang digunakan.
-- proto**: bagaimana rute dibuat (manual, DHCP, kernel, dll).
-- metrik**: biaya rute, digunakan untuk memprioritaskan beberapa jalur yang memungkinkan.
-- scope**: cakupan rute (misalnya `link` untuk rute yang terhubung secara langsung).
-- src**: IP sumber Address yang digunakan untuk paket keluar pada Interface ini.
+- **default**: rute default, digunakan ketika tidak ada rute yang lebih spesifik yang cocok.
+- **via**: gerbang yang digunakan untuk mencapai tujuan.
+- **dev**: jaringan Interface yang digunakan.
+- **proto**: bagaimana rute dibuat (manual, DHCP, kernel, dll).
+- **metrik**: biaya rute, digunakan untuk memprioritaskan beberapa jalur yang memungkinkan.
+- **scope**: cakupan rute (misalnya `link` untuk rute yang terhubung secara langsung).
+- **src**: IP sumber Address yang digunakan untuk paket keluar pada Interface ini.
 
 
 #### Menambah dan menghapus rute
@@ -3068,7 +3072,7 @@ Permintaan yang berulang-ulang atau intensif ke server DNS pihak ketiga tanpa iz
 Saat memantau atau mengamankan jaringan lokal atau area luas, sangat penting untuk mengidentifikasi perangkat yang aktif dan layanan yang mereka ekspos. Inilah yang dilakukan oleh alat `nmap` (*Network Mapper*).
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 #### Memperkenalkan `nmap`
 
@@ -3107,20 +3111,20 @@ Dalam kasus ini, semua host dalam rentang `192.168.0.0` hingga `192.168.0.255` a
 
 
 
-![Image](assets/fr/055.webp)
+![Image](assets/id/035.webp)
 
 
 
 Seorang administrator dapat mengandalkan `nmap` untuk beberapa tugas:
 
 
-- Mendeteksi host yang aktif**: mengidentifikasi mesin mana yang merespons dalam sebuah subnet;
-- Inventaris layanan**: memastikan hanya port yang diperlukan yang dapat diakses (prinsip hak istimewa yang paling sedikit);
-- Pemeriksaan kepatuhan**: bandingkan port terbuka dengan kebijakan keamanan organisasi;
-- Pencegahan kerentanan**: temukan layanan yang tidak aman atau ketinggalan zaman yang berjalan di mesin-mesin penting.
+- **Mendeteksi host yang aktif**: mengidentifikasi mesin mana yang merespons dalam sebuah subnet;
+- **Inventaris layanan**: memastikan hanya port yang diperlukan yang dapat diakses (prinsip hak istimewa yang paling sedikit);
+- **Pemeriksaan kepatuhan**: bandingkan port terbuka dengan kebijakan keamanan organisasi;
+- **Pencegahan kerentanan**: temukan layanan yang tidak aman atau ketinggalan zaman yang berjalan di mesin-mesin penting.
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 ### Alat interogasi proses
 
@@ -3216,10 +3220,10 @@ Alat-alat ini memberikan administrator seperangkat tuas teknis yang koheren untu
 Alat yang memberikan visibilitas langsung ke antarmuka dan bingkai:
 
 
-- arp / ip neigh**: memeriksa dan memodifikasi cache ARP/NDP untuk memeriksa atau mengoreksi asosiasi IP-MAC;
-- tcpdump**: penangkapan paket baris perintah, dapat difilter dan diekspor;
-- Wireshark**: analisis paket grafis dengan penguraian protokol yang mendalam;
-- ethtool**: menanyakan dan menyesuaikan parameter fisik kartu Ethernet (kecepatan, dupleks, WoL, dll.).
+- **arp / ip neigh**: memeriksa dan memodifikasi cache ARP/NDP untuk memeriksa atau mengoreksi asosiasi IP-MAC;
+- **tcpdump**: penangkapan paket baris perintah, dapat difilter dan diekspor;
+- **Wireshark**: analisis paket grafis dengan penguraian protokol yang mendalam;
+- **ethtool**: menanyakan dan menyesuaikan parameter fisik kartu Ethernet (kecepatan, dupleks, WoL, dll.).
 
 
 #### Jaringan Layer
@@ -3228,10 +3232,10 @@ Alat yang memberikan visibilitas langsung ke antarmuka dan bingkai:
 Alat untuk menilai konektivitas IP, perutean, dan lalu lintas paket:
 
 
-- ping**: menguji daya jangkau dan mengukur latensi dengan ICMP;
-- ip route**: memeriksa dan memodifikasi tabel perutean untuk mengontrol jalur paket;
-- traceroute**: identifikasi router hop-by-hop di sepanjang rute ke suatu tujuan;
-- ss**: inventaris terperinci dari soket TCP/UDP dan proses yang terkait (penerus netstat).
+- **ping**: menguji daya jangkau dan mengukur latensi dengan ICMP;
+- **ip route**: memeriksa dan memodifikasi tabel perutean untuk mengontrol jalur paket;
+- **traceroute**: identifikasi router hop-by-hop di sepanjang rute ke suatu tujuan;
+- **ss**: inventaris terperinci dari soket TCP/UDP dan proses yang terkait (penerus netstat).
 
 
 #### Lapisan Transportasi dan Aplikasi
@@ -3240,9 +3244,9 @@ Alat untuk menilai konektivitas IP, perutean, dan lalu lintas paket:
 Alat untuk mendiagnosis layanan dan proses:
 
 
-- nslookup / dig / host**: Kueri DNS untuk memvalidasi resolusi nama dan menganalisis catatan;
-- nmap**: jelajahi port terbuka dan layanan yang terbuka untuk menilai permukaan serangan;
-- lsof**: daftar file dan soket yang dibuka oleh proses, menghubungkan sistem dan aktivitas jaringan.
+- **nslookup / dig / host**: Kueri DNS untuk memvalidasi resolusi nama dan menganalisis catatan;
+- **nmap**: jelajahi port terbuka dan layanan yang terbuka untuk menilai permukaan serangan;
+- **lsof**: daftar file dan soket yang dibuka oleh proses, menghubungkan sistem dan aktivitas jaringan.
 
 
 Menguasai alat-alat ini, masing-masing selaras dengan tahap tertentu dari model TCP/IP, memungkinkan pendekatan metodis: mulai dari Layer fisik, bergerak melalui perutean, dan hingga layanan aplikasi. Rangkaian keahlian ini melengkapi administrator untuk mendiagnosis, mengamankan, dan mengoptimalkan infrastruktur mereka, memastikan kinerja dan ketersediaan jaringan.

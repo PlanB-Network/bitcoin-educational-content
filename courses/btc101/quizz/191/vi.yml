@@ -1,10 +1,10 @@
-question: Một yếu tố cần xem xét khi chọn giải pháp chấp nhận Bitcoin cho doanh nghiệp của bạn là gì?
-answer: Khối lượng giao dịch dự kiến.
+question: Điều gì là một trong những thứ bạn cần có trước khi mua Bitcoin?
+answer: Một ví an toàn.
 wrong_answers:
-  - Màu sắc của logo.
-  - Số lượng nhân viên.
-  - Vị trí của trụ sở chính.
-explanation: >-
-  Khi chọn một giải pháp để chấp nhận Bitcoin cho doanh nghiệp của bạn, một số
-  yếu tố cần được xem xét, như khối lượng giao dịch dự kiến, ngân sách được phân bổ, và loại hình doanh nghiệp (trực tuyến hoặc vật lý).
+  - Một két sắt vật lý.
+  - Một tài khoản ngân hàng.
+  - Một thẻ tín dụng.
+explanation: |
+  Văn bản khóa học đề cập rằng trước khi mua Bitcoin, bạn
+  cần có một ví an toàn nơi bạn sẽ lưu trữ các khóa của mình.
 reviewed: true

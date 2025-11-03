@@ -1,8 +1,10 @@
-question: Bitcoin bağlamında bir pruned düğümü nedir?
-answer: Yalnızca son N bloğu bellekte tutan bir düğüm.
+question: Lightning Network nedir?
+answer: Bitcoin Blockchain'e dayalı anlık bir Bitcoin ödeme ağı.
 wrong_answers:
-  - Yalnızca işlemleri doğrulayan bir düğüm.
-  - Yalnızca diğer düğümlere bilgi ileten bir düğüm.
-  - Yalnızca Bitcoin protokolünün kurallarını uygulayan bir düğüm.
-explanation: >-
+  - Bitcoin Blockchain'ten ayrı bir Blockchain ağı.
+  - Bitcoin madencilerinden oluşan bir ağ.
+  - Bitcoin borsalarından oluşan bir ağ.
+explanation: |
+  Lightning Network bir anlık Bitcoin ödeme ağıdır
+  gW-9 Blockchain'e dayanıyor.
 reviewed: true

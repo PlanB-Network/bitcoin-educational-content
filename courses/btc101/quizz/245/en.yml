@@ -1,10 +1,12 @@
-question: What is one potential implication of the advancement of AI technologies?
-answer: AI technologies will lead to the disappearance of over 80% of today's jobs.
+question: What is one of the main benefits of Bitcoin for people without a bank account?
+answer: Bitcoin allows for equality in transactions, regardless of your social status or political position.
 wrong_answers:
-  - AI technologies will destroy all the computers.
-  - AI technologies will lead to a decrease in human intelligence.
-  - AI technologies will cause a global economic collapse.
-explanation: >-
-  The text mentions that one potential implication of the advancement of
-  AI technologies is that over 80% of jobs will disappear due to AI and automation.
+  - Bitcoin allows for inequality in transactions, by rewarding the richest users.
+  - Bitcoin only benefits people with a bank account and a leftist political position.
+  - Bitcoin only benefits people with a high social status.
+explanation: |
+  The text mentions that there are 2.4 billion people in the
+  world without a bank account, and Bitcoin allows for
+  equality in transactions, regardless of their social status
+  or political position.
 reviewed: true

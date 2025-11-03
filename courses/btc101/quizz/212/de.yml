@@ -1,12 +1,9 @@
-question: Wie wird Bitcoin in diesem Kurs beschrieben?
-answer: Als ein multidisziplinäres Fachgebiet.
+question: Was legt dieser Kurs über die Zukunft von Bitcoin nahe?
+answer: Es wird nicht verschwinden.
 wrong_answers:
-  - Ein einfaches Fachgebiet.
-  - Ein physisches Fachgebiet.
-  - Ein einzel-disziplinäres Fachgebiet.
+  - Es wird durch eine bessere Technologie ersetzt werden.
+  - Es wird weltweit verboten werden.
+  - Es wird seinen Wert verlieren.
 explanation: |
-  Bitcoin wird als ein multidisziplinäres Fachgebiet beschrieben, weil
-  es Fragen in Bezug auf verschiedene Felder aufwirft, einschließlich
-  Kryptographie, Spieltheorie, Wirtschafts- und Geldpolitik,
-  Informatik, Philosophie, Energie, Gesetze und Regulierung.
+  Der Kurstext legt nahe, dass Bitcoin nicht verschwinden wird. Im Gegenteil, die Revolution hat gerade erst begonnen.
 reviewed: true

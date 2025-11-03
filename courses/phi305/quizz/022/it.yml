@@ -1,0 +1,9 @@
+question: Il concetto di "animali macchina" è attribuito a?
+answer: Cartesio.
+wrong_answers:
+  - Spinoza.
+  - Galileo.
+  - Einstein.
+explanation: |
+  Il concetto di animali macchina è attribuito a Cartesio. Secondo questa teoria, gli animali sono automi complessi, privi di anima e di coscienza, che operano esclusivamente secondo principi meccanici.
+reviewed: false

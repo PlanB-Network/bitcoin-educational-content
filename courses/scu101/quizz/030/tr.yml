@@ -5,7 +5,7 @@ wrong_answers:
   - İçeriklerini kontrol etmek için tüm e-posta eklerini açın.
   - Kişisel bilgilerinizi yalnızca bilinen göndericilerle paylaşın.
 explanation: |
-  Sahte e-postalardan korunmak için altın kural
-  gönderenin tam adını da dikkatlice kontrol etmektir
-  e-postanın kaynağı olarak. Şüpheye düştüğünüzde silin!
+  Sahte e-postalardan korunmak için altın kural, e-postanın kaynağı olarak
+  gönderenin tam adını da dikkatlice kontrol etmektir.
+  Şüpheye düştüğünüzde o e-postayı silin!
 reviewed: true

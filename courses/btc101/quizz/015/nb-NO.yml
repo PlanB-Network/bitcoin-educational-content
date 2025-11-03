@@ -1,9 +1,12 @@
-question: Hva er Uavhengighetserklæringen for Cyberspace?
-answer: En tekst som hevder at cyberspace er et eget rike adskilt fra den fysiske sfæren og ikke bør være underlagt de samme lovene.
+question: Hvorfor ble gull standard byttemiddel?
+answer: På grunn av dets sjeldenhet, holdbarhet og delelighet
 wrong_answers:
-  - En erklæring om Bitcoins uavhengighet fra tradisjonelle finanssystemer.
-  - En tekst som hevder at internettet bør være fritt for statlig regulering.
-  - En erklæring om piratbevegelsens uavhengighet fra enhver regulering.
+  - På grunn av dets overflod, holdbarhet og udelelighet
+  - På grunn av dets sjeldenhet, forgjengelighet og delelighet
+  - På grunn av dets overflod, forgjengelighet og udelelighet
 explanation: |
-  Uavhengighetserklæringen for Cyberspace ble skrevet av John Perry Barlow i 1996, og hevder at cyberspace er et eget rike adskilt fra den fysiske sfæren der industrielle regjeringer ikke kan håndheve sin autoritet.
+  Gull ble standard byttemiddel på grunn av dets sjeldenhet, holdbarhet,
+  og delelighet. Dets sjeldenhet forhindrer devaluering fra produksjon, dets holdbarhet sikret at det ikke
+  eroderte over tid, og dets delelighet tillot det å bli brukt i transaksjoner av varierende
+  størrelser.
 reviewed: true

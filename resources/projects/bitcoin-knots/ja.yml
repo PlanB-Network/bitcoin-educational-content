@@ -1,4 +1,2 @@
 description: |
   Bitcoin KnotsはBitcoin Coreから派生したBitcoinプロトコルの代替実装です。Luke Dashjrによって設計され、メンテナンスされているKnotsは、ネットワーク内の他のノードとの互換性を保ちながら、追加機能とルール調整を提供します。Bitcoin Knotsは、統合されたポートフォリオを管理するために使用することも、シンプルで完全な検証ノードとして運用することもできます。経験豊富なユーザーには、特にトランザクションの検証や設定において、より高度なコントロールを提供します。
-contributor_names:
-  - LoicPandul

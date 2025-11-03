@@ -1,0 +1,9 @@
+question: Taproot 공개키 Q를 계산하려면 어떤 작업이 필요하나요?
+answer: 공개 키 P에 조정 tG를 추가합니다
+wrong_answers:
+  - 개인 키 p에 조정값을 곱합니다
+  - SHA256이 포함된 공개 키 P를 Hash로 설정합니다
+  - 조정 t와 공개 키 P를 연결합니다
+explanation: |
+  Taproot 공개키 Q는 공개키 P에 제너레이터 G에 의한 조정 t의 스칼라 곱을 더하여 얻습니다.
+reviewed: false

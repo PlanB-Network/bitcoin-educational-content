@@ -1,10 +1,11 @@
-question: Hva er Cypherpunk-manifestet?
-answer: En tekst skrevet av Eric Hughes som hevder at personvern er en grunnleggende rettighet.
+question: Hva er kriteriene for en effektiv valuta?
+answer: Fungibel, Delelig, Likvid
 wrong_answers:
-  - En bok skrevet av Julian Assange om teknologiens fremtid.
-  - Et dokument som skisserer prinsippene for Bitcoin.
-  - Et manifest skrevet av David Chaum om viktigheten av digital valuta.
+  - Fungibel, Delelig, Forgjengelig
+  - Fungibel, Udelelig, Likvid
+  - Ikke-fungibel, Delelig, Likvid
 explanation: |
-  Cypherpunk-manifestet ble skrevet av Eric Hughes i 1993 og hevder
-  at personvern er en grunnleggende rettighet.
+  Kriteriene for en effektiv valuta er at den må være fungibel
+  (utbyttbar uten tap av verdi), delelig (for å lette transaksjoner av forskjellige volumer),
+  og likvid (lett konverterbar til varer eller tjenester).
 reviewed: true

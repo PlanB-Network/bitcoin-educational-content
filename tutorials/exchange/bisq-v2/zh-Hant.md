@@ -11,7 +11,7 @@ description: 使用 Bisq 2 和交換比特幣的完整指南 P2P
 免 KYC 點對點 (P2P) 交換對於維護使用者的機密性和財務自主性至關重要。它們可以讓個人之間直接進行交易，而無需身份驗證，這對於重視隱私的人來說至關重要。如需更深入瞭解理論概念，請參閱 BTC204 課程：
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### 什麼是 Bisq 2？
 
@@ -117,7 +117,7 @@ Bisq 2 是 2024 年推出的流行去中心化 Bisq Exchange 的新版本。與�
 - 驗證下載檔案的真實性（強烈建議）。如需簽名驗證的詳細指南，請參閱以下教程：
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### 2.根據您的系統進行安裝
 
@@ -472,11 +472,11 @@ Bisq 2 上的出售過程與購買過程的邏輯相似，主要步驟相同，�
 
 
 
-- 最大保密性**：無需 KYC，使用 Tor
-- 分散化**：無中央伺服器
-- 安全性**：開放原始碼、非監管程式碼
-- 直觀的 Interface**：比 Bisq 1 更簡單
-- 彈性**：多種 Exchange 通訊協定
+- **最大保密性**：無需 KYC，使用 Tor
+- **分散化**：無中央伺服器
+- **安全性**：開放原始碼、非監管程式碼
+- 直觀的 **Interface**：比 Bisq 1 更簡單
+- 彈性：多種 Exchange 通訊協定
 
 
 ### Bisq 2 的缺點
@@ -484,12 +484,12 @@ Bisq 2 上的出售過程與購買過程的邏輯相似，主要步驟相同，�
 
 
 
-- 有限的流動性**（目前） ：
+- **有限的流動性**（目前）：
  - 處於啟動階段的新通訊協定
  - 少量銷售優惠
  - 找到買家的等待時間可能很長
-- 交易限額**：每筆交易最高 600 美元 (使用 Bisq easy)
-- 僅限桌上型電腦**：無行動應用程式
+- 交易限額：每筆交易最高 600 美元 (使用 Bisq easy)
+- 僅限桌上型電腦：無行動應用程式
 
 
 ## 未來議定書
@@ -500,16 +500,16 @@ Bisq 2 上的出售過程與購買過程的邏輯相似，主要步驟相同，�
 
 
 
-- Bisq Lightning**：Exchange 通訊協定，以在 Lightning Network 上使用多方計算密碼技術的代管系統為基礎。
-- Bisq MuSig**：將主要通訊協定從 Bisq 1 遷移到 Bisq 2，使用有保證金的 2 對 2 Multisig。
-- BSQ Swaps**：BSQ 與 BTC 之間的即時原子交換。
-- Liquid 掉期**：Exchange 的資產在 Liquid Network (USDT, BTC-L) 上透過原子交換。
-- Monero 交換**：Bitcoin 和 Monero 之間的原子交換。
+- **Bisq Lightning**：Exchange 通訊協定，以在 Lightning Network 上使用多方計算密碼技術的代管系統為基礎。
+- Bisq MuSig：將主要通訊協定從 Bisq 1 遷移到 Bisq 2，使用有保證金的 2 對 2 Multisig。
+- **BSQ Swaps**：BSQ 與 BTC 之間的即時原子交換。
+- **Liquid 掉期**：Exchange 的資產在 Liquid Network (USDT, BTC-L) 上透過原子交換。
+- Monero 交換：Bitcoin 和 Monero 之間的原子交換。
 - Liquid MuSig**：使用 L-BTC 的 Multisig 通訊協定版本，可降低成本並提高機密性。
-- 海底交換**：Lightning Network 上的 Bitcoin 與 Bitcoin On-Chain 之間的交換。
-- 穩定幣交換**：Bitcoin 和美元穩定幣之間的原子交換。
-- Multisig 期權**：在 On-Chain Multisig 交易中建立 BTC 封鎖的 P2P 看跌和看漲期權。
-- Multisig 開放式合約**：可使用套利的 2 對 3 Multisig 系統建立自訂條件合約。
+- 海底交換：Lightning Network 上的 Bitcoin 與 Bitcoin On-Chain 之間的交換。
+- 穩定幣交換：Bitcoin 和美元穩定幣之間的原子交換。
+- **Multisig 期權**：在 On-Chain Multisig 交易中建立 BTC 封鎖的 P2P 看跌和看漲期權。
+- **Multisig 開放式合約**：可使用套利的 2 對 3 Multisig 系統建立自訂條件合約。
 
 
 這些通訊協定目前正在開發中，並將逐步整合到 Bisq 2 中，根據使用者的特定需求提供更大的靈活性。

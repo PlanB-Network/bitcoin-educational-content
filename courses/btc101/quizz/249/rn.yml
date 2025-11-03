@@ -1,0 +1,8 @@
+question: Ni imwe mu ngaruka nyamukuru za Bitcoin ku bijanye n’ubuhinga bwa banki?
+answer: Bituma umuntu yidegemvya akava mu nzira y’amabanki.
+wrong_answers:
+  - Bituma umuntu ashobora kugenzura uburyo bwo gukora amabanki.
+  - Bituma habaho ugukuraho uburyo bwo gukoresha amabanki.
+  - Bituma haba ibiturire mu bijanye n’amabanki.
+explanation: >-
+reviewed: true

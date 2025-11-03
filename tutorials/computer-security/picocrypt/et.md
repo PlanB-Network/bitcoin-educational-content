@@ -44,7 +44,7 @@ Picocrypt projekti jälgimiseks on ainult üks Address:
 
 
 
-Täiesti **vaba ja avatud lähtekoodiga**, PicoCrypt on saadaval **Windows, **Linux** ja **macOS** jaoks. Windowsis saate selle paigaldada oma masinasse või kasutada kaasaskantavat versiooni.
+Täiesti **vaba ja avatud lähtekoodiga**, PicoCrypt on saadaval **Windows**, **Linux** ja **macOS** jaoks. Windowsis saate selle paigaldada oma masinasse või kasutada kaasaskantavat versiooni.
 
 
 
@@ -52,7 +52,7 @@ Täiesti **vaba ja avatud lähtekoodiga**, PicoCrypt on saadaval **Windows, **Li
 
 
 
-Picocrypt** krüpteerimistarkvara on **alternatiiv** teistele tuntud lahendustele, nagu **VeraCrypt** ja **Cryptomator** (*on mõeldud andmete krüpteerimiseks pilvekeskkondades*) või **AxCrypt**. Muide, Picocrypti ametlikul GitHubil on võrdlus mõne konkurendiga:
+**Picocrypt** krüpteerimistarkvara on **alternatiiv** teistele tuntud lahendustele, nagu **VeraCrypt** ja **Cryptomator** (*on mõeldud andmete krüpteerimiseks pilvekeskkondades*) või **AxCrypt**. Muide, Picocrypti ametlikul GitHubil on võrdlus mõne konkurendiga:
 
 
 
@@ -84,7 +84,7 @@ Picocrypt on **väga kerge**, kaaludes vaid **3 MB**, ja seda ei ole vaja paigal
 
 
 
-- XChaCha20** krüpteerimisalgoritm
+- **XChaCha20** krüpteerimisalgoritm
 - Klahvi ümberlülitusfunktsioon **Argon2**
 
 
@@ -159,11 +159,11 @@ Enne kui me räägime andmete dekrüpteerimisest, on siinkohal mõned andmed mõ
 
 
 
-- Paranoiline režiim**: kasutage Picocrypti pakutavat kõrgeimat turvataset. Tööriist kasutab andmete autentimiseks BLAKE2b asemel mitmeid kaskaadkrüpteerimisalgoritme (XChaCha20 ja Serpent) ning HMAC-SHA3.
-- Reed-Solomon**: rakendab *Reed-Solomon* veakorrektsioonikoode, et hõlbustada vigastatud andmete veaparandust. See võimaldab teil toetada umbes 3% ulatuses faili vigastust.
-- Jagage tükkideks** või **jagage mitmeks osaks**: kui krüpteerite suurt faili, võite paluda Picocryptil jagada see mitmeks osaks. See võib muuta faili ülekandmise lihtsamaks.
-- Compress Files** või **Compress files**: failide pakkimine, et vähendada krüpteeritud failide suurust.
-- Kustutatud failid** või **Fichiers supprimés**: kustutage lähtefailid, et säilitada ainult krüpteeritud versioon
+- **Paranoiline režiim**: kasutage Picocrypti pakutavat kõrgeimat turvataset. Tööriist kasutab andmete autentimiseks BLAKE2b asemel mitmeid kaskaadkrüpteerimisalgoritme (XChaCha20 ja Serpent) ning HMAC-SHA3.
+- **Reed-Solomon**: rakendab *Reed-Solomon* veakorrektsioonikoode, et hõlbustada vigastatud andmete veaparandust. See võimaldab teil toetada umbes 3% ulatuses faili vigastust.
+- **Jagage tükkideks** või **jagage mitmeks osaks**: kui krüpteerite suurt faili, võite paluda Picocryptil jagada see mitmeks osaks. See võib muuta faili ülekandmise lihtsamaks.
+- **Compress Files** või **Compress files**: failide pakkimine, et vähendada krüpteeritud failide suurust.
+- **Kustutatud failid** või **Fichiers supprimés**: kustutage lähtefailid, et säilitada ainult krüpteeritud versioon
 
 
 
@@ -199,4 +199,4 @@ Andmete kaitsmiseks kasutage kindlasti tugevaid paroole ja kui kasutate võtmefa
 
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5

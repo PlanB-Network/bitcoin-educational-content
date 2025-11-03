@@ -1,0 +1,9 @@
+question: ¿Qué científico cree que las matemáticas son el lenguaje del universo?
+answer: Galileo.
+wrong_answers:
+  - Kepler.
+  - Newton.
+  - Copérnico.
+explanation: |
+  Galileo es famoso por su afirmación de que "el libro de la naturaleza está escrito en lenguaje matemático". Esta visión ha influido profundamente en la ciencia moderna y en la filosofía racionalista, incluida la de Spinoza.
+reviewed: false

@@ -21,23 +21,23 @@ Voyons comment il est facile de commencer à empiler des Sats avec Bittr.
 ## Démarrer avec Bittr
 
 
-1) Sur le web ou le mobile, allez sur [getbittr.com](https://getbittr.com/buy-Bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) et cliquez sur "Acheter Bitcoin"
+- Sur le web ou le mobile, allez sur [getbittr.com](https://getbittr.com/buy-Bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) et cliquez sur "Acheter Bitcoin"
 
 
 
-- Pas de compte:** Vous n'avez pas besoin de créer un compte pour acheter Bitcoin
-- Pas de procédure KYC:** Vous n'avez pas besoin de passer par une procédure KYC (jusqu'à 999CHF par 30 jours)
-- Démarrage direct:** Vous démarrez immédiatement et pouvez recevoir votre Sats dans les minutes qui suivent
+- **Aucun compte :** Vous n’avez pas besoin de créer un compte pour acheter du Bitcoin
+- **Aucun processus KYC :** Vous n’avez pas besoin de passer par un KYC (jusqu’à 999 CHF par 30 jours)
+- **Démarrage direct :** Vous commencez immédiatement et pouvez recevoir vos sats en quelques minutes
 
 
 ![image1](assets/en/01.webp)
 
 
-2) Saisissez l'IBAN à partir duquel vous enverrez votre courrier
+- Saisissez l'IBAN à partir duquel vous enverrez votre courrier
 
 
 
-- SEPA uniquement:** Bittr ne fonctionne qu'en Europe
+- **SEPA uniquement :** Bittr fonctionne uniquement en Europe
 
 
 ![image2](assets/en/02.webp)
@@ -58,37 +58,37 @@ Nous commencerons par BlueWallet pour les débutants, et plus tard dans le tutor
 Nous vous recommandons de procéder à l'installation dans un endroit calme et privé. Cela ne devrait pas vous prendre plus de 5 minutes.
 
 
-1) Sélectionnez "bluewallet" sur le site web
+- Sélectionnez "bluewallet" sur le site web
 
 
-2) Téléchargez l'application BlueWallet ici : [App Store](https://itunes.apple.com/app/bluewallet-Bitcoin-Wallet/id1376878040), [Google Play](https://play.google.com/store/apps/details?id=io.bluewallet.bluewallet).
+- Téléchargez l'application BlueWallet ici : [App Store](https://itunes.apple.com/app/bluewallet-Bitcoin-Wallet/id1376878040), [Google Play](https://play.google.com/store/apps/details?id=io.bluewallet.bluewallet).
 
 
 ![image3](assets/en/03.webp)
 
 
-3) Cliquez sur "Ajouter un Wallet" (si vous avez déjà un Wallet, passez à l'étape suivante).
+- Cliquez sur "Ajouter un Wallet" (si vous avez déjà un Wallet, passez à l'étape suivante).
 
 
 ![image4](assets/en/04.webp)
 
 
-4) Sélectionnez votre Wallet et allez à la signature du message
+- Sélectionnez votre Wallet et allez à la signature du message
 
 
 ![image5](assets/en/05.webp)
 
 
-5) Complétez la signature du message et collez votre signature sur le site web
+- Complétez la signature du message et collez votre signature sur le site web
 
 
 ![image6](assets/en/06.webp)
 
 
-**Note : Vous pouvez également cliquer sur "Partager" dans BlueWallet, copier le lien entier et le coller dans le champ du site web de Bittr
+**Remarque : Vous pouvez également cliquer sur « Partager » dans BlueWallet, copier l’intégralité du lien et le coller dans le champ du site web de Bittr.**
 
 
-6) Configurez votre virement bancaire avec votre description de paiement personnelle
+- Configurez votre virement bancaire avec votre description de paiement personnelle
 
 
 ![image7](assets/en/07.webp)
@@ -97,25 +97,25 @@ Nous vous recommandons de procéder à l'installation dans un endroit calme et p
 ## Acheter Bitcoin directement dans la BitBox
 
 
-1) Sélectionnez "BitBox"
+- Sélectionnez "BitBox"
 
 
 ![image8](assets/en/08.webp)
 
 
-2) Cliquez pour ouvrir l'application BitBox sur votre ordinateur
+- Cliquez pour ouvrir l'application BitBox sur votre ordinateur
 
 
 ![image9](assets/en/09.webp)
 
 
-3) Déverrouillez votre BitBox et suivez les étapes pour terminer la signature du message
+- Déverrouillez votre BitBox et suivez les étapes pour terminer la signature du message
 
 
 ![image10](assets/en/10.webp)
 
 
-4) Configurez votre virement bancaire avec votre description de paiement personnelle
+- Configurez votre virement bancaire avec votre description de paiement personnelle
 
 
 ![image11](assets/en/11.webp)

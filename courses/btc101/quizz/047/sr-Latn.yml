@@ -1,12 +1,10 @@
-question: Šta je hiperinflacija?
-answer: Drastično povećanje monetarne mase.
+question: Koja je druga faza fenomena hiperinflacije?
+answer: Kolaps valute & povećanje cena.
 wrong_answers:
-  - Malo povećanje monetarne mase.
-  - Drastično smanjenje monetarne mase.
-  - Malo smanjenje monetarne mase.
+  - Gubitak poverenja.
+  - Zaoštreni krug štampanja novca.
+  - Pojavljuje se nova valuta.
 explanation: |
-  Hiperinflacija je monetarni fenomen karakterisan
-  drastičnim povećanjem inflacije kroz monetarno štampanje
-  od strane vlasti, što dovodi do potpunog gubitka
-  poverenja u valutu.
+  Druga faza hiperinflacije je kolaps valute &
+  povećanje cena, odmah nakon faze gubitka poverenja.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Mu gucuruza Bitcoin, inyandiko yo gufunga ikora iki?
+answer: Ishiraho ivyangombwa vyihariye vyo gukoresha amafaranga ajanye
+wrong_answers:
+  - Ihita irungika ayo mahera kuri aderesi nyinshi .
+  - Igena agaciro ka UTXO izoremwa .
+  - Ifunga amahera mu gihe gito kugira ngo ntihagire uwukoresha amahera menshi .
+explanation: |
+  Ico gitabu co gufunga gishiraho ibintu, nk’ugusinya n’urufunguzo rw’ibanga, kugira ngo umuntu ashobore gufungura no gukoresha amahera mu gucuruza.
+reviewed: false

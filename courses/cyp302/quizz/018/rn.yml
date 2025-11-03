@@ -1,0 +1,9 @@
+question: Ni mu gihe ikihe twovuga ko ibintu bibiri bibaye bitandukanye?
+answer: Ivyo bishobora gushika kuri kimwe ntibigira ico bikoze ku vyo uwundi yoshobora gukora .
+wrong_answers:
+  - Ivyo bintu bibiri vyama bishika icarimwe .
+  - Biratandukanye .
+  - Ivyo bishoboka vyose hamwe bingana n’ivyo bishoboka vyinshi kuruta ibindi vyose bibiri .
+explanation: |
+  Ibintu bibiri biraba vyigenga iyo ubushobozi bw’ikimwe butahinduye ubushobozi bw’ikindi, nk’ugutora loteri ataco bihindura ku bihe vy’umusi ukurikira.
+reviewed: false

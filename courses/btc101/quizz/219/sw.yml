@@ -1,10 +1,8 @@
-question: Je, kozi hii inapendekeza nini kuhusu mustakabali wa Bitcoin?
-answer: Si kwenda kutoweka.
+question: Lightning Network inaunda mtandao wa aina gani?
+answer: Mtandao wa njia za malipo.
 wrong_answers:
-  - Itabadilishwa na teknolojia bora.
-  - Itapigwa marufuku duniani kote.
-  - Itapoteza thamani yake.
-explanation: |
-  Maandishi ya kozi yanapendekeza kuwa Bitcoin haitaenda
-  kutoweka. Kinyume chake, mapinduzi ndiyo yameanza.
+  - Mtandao wa nodi za Mining.
+  - Mtandao wa nodi za Blockchain.
+  - Mtandao wa kubadilishana fedha za cryptocurrency.
+explanation: >-
 reviewed: true

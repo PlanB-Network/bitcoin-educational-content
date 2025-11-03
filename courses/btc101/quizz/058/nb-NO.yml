@@ -1,9 +1,11 @@
-question: Hva skjedde med den zimbabwiske dollaren i april 2009?
-answer: Finansministeren kunngjorde suspensjonen av den zimbabwiske dollaren og autoriserte bruk av ulike utenlandske valutaer for handel.
+question: Hvilke økonomiske prinsipper er Bitcoin i tråd med?
+answer: Prinsipper for østerriksk økonomi
 wrong_answers:
-  - Den zimbabwiske dollaren kollapset med over 72 %.
-  - Regjeringen gikk med på å kompensere krigsveteraner for et beløp tilsvarende 450 millioner amerikanske dollar.
-  - Regjeringen måtte ty til å kjøre seddelpressen.
+  - Prinsipper for keynesiansk økonomi
+  - Prinsipper for marxistisk økonomi
+  - Prinsipper for nyklassisk økonomi
 explanation: |
-  I april 2009 kunngjorde finansministeren suspensjonen av den zimbabwiske dollaren og autoriserte bruk av ulike utenlandske valutaer for handel.
+  Bitcoin er i tråd med prinsippene for østerriksk økonomi. Dens begrensede
+  mengde og mangel på en sentral enhet beskytter den mot de iboende risikoene for inflasjon
+  i tradisjonelle valutaer.
 reviewed: true

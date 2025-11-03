@@ -1,0 +1,9 @@
+question: Jaką bazę danych przechowuje lokalnie węzeł Bitcoin, aby śledzić niewydane dane wyjściowe?
+answer: Zestaw UTXO
+wrong_answers:
+  - Mempool
+  - Blockchain
+  - Historia Wallet
+explanation: |
+  Węzeł przechowuje zestaw UTXO, który jest zestawem niewydanych wyjść dostępnych dla przyszłych transakcji.
+reviewed: true

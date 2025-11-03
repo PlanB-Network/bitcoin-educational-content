@@ -15,8 +15,8 @@ Maalum:
 - Bodi ya Ugunduzi ya STM (STM32F469I)
 - Kichanganuzi cha Msimbo wa QR
 - Kichanganuzi cha Msimbo wa Waveshare
-- Kipochi cha 3D kinachoweza kuchapishwa
-- Kipochi cha Barebones kilichoundwa na Seedsigner
+- Wallet ya 3D kinachoweza kuchapishwa
+- wallet ya Barebones kilichoundwa na Seedsigner
 
 
 ![device view](assets/2.webp)

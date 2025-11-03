@@ -1,13 +1,11 @@
-question: Mevcut finansal sistemin siyasi aktörler üzerindeki potansiyel etkisi nedir?
-answer: Radikal değişiklikler yapmaya teşvik edilmiyorlar ve sistemin olası bir patlamaya kadar yoluna devam etmesine izin veriyorlar.
+question: Günlük enflasyon oranının %100'e eşit olduğu tarihsel bir vaka var; bu nerede ve ne zaman oldu?
+answer: Zimbabwe'de, 2007.
 wrong_answers:
-  - Olası bir patlamayı önlemek için radikal değişiklikler yapmaya teşvik ediliyorlar.
-  - Kendi zenginliklerini güvence altına almak için statükoyu korumaya teşvik edilmezler.
-  - Uzun vadeli düşünmeye teşvik edilirler.
+  - Macaristan'da, 1945'te.
+  - Çin'de, 1940.
+  - Bu aslında gerçekleşmesi mümkün olmayan gerçekçi olmayan bir durumdur.
 explanation: |
-  Siyasi aktörler mevcut finansal krizden yararlandıkça
-  sistemde radikal değişiklikler yapmaya teşvik edilmemektedirler.
-  Bu durum, sistemin bir
-  sistem düzenlendiğinden olası bir patlama ve
-  kendi çöküşünü önlemek için sınırlandırılmıştır.
+  Günlük %100 enflasyon oranı gerçekçi bir senaryodur
+  2007'de Zimbabwe'de oldu, para değeri kabaca
+  her 24 saatte bir ikiye katlanır.
 reviewed: true

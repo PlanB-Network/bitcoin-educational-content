@@ -1,10 +1,8 @@
-question: Wat maakt de Lightning Network mogelijk?
-answer: Om transacties uit te voeren tussen individuen die geen directe kanaalverbinding hebben.
+question: Hoe kan de Lightning Network de bestaande bedrijfsmodellen in de videogame-industrie veranderen?
+answer: Hiermee kunnen spelers zeer kleine bedragen inzetten bij het spelen van games.
 wrong_answers:
-  - Alleen directe kanaalverbindingen maken met gecentraliseerde centrales.
-  - Kanaalverbindingen maken die meerdere bevestigingen vereisen voor elke transactie.
-  - Om directe kanaalverbindingen tot stand te brengen die beperkt zijn tot grote transacties.
-explanation: |
-  De Lightning Network maakt het mogelijk om transacties uit te voeren tussen
-  personen die geen directe kanaalverbinding hebben.
+  - Hiermee kunnen spelers Bitcoin delven terwijl ze games spelen.
+  - Het stelt spelontwikkelaars in staat om Bitcoin te accepteren als betaling voor hun spellen.
+  - Hiermee kunnen spelers in-game items kopen met Bitcoin.
+explanation: >-
 reviewed: true

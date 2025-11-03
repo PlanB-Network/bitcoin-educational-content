@@ -1,7 +1,7 @@
 ---
 name: LN VPN
 
-description: 设置您的VPN
+description: 使用 Lightning 配置 LN VPN，实现匿名和按需的 VPN
 ---
 
 ![image](assets/cover.webp)

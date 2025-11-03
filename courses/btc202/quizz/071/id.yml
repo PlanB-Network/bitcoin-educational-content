@@ -1,0 +1,9 @@
+question: File mana yang dikonsultasikan oleh simpul pertama kali untuk menemukan rekan-rekannya yang lama saat reboot?
+answer: anchors.dat dan peers.dat
+wrong_answers:
+  - Mempool.dat dan peers.dat
+  - Mempool.dat dan ip.dat
+  - ip.dat dan jangkar.dat
+explanation: |
+  Bitcoin core pertama-tama berkonsultasi dengan anchors.dat (rekan-rekan yang keluar sebelumnya), kemudian rekan-rekan.dat (buku Address yang dikenal) untuk terhubung kembali.
+reviewed: true

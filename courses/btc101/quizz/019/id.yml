@@ -1,9 +1,11 @@
-question: Apa tiga fungsi utama dari uang?
-answer: Penyimpan nilai, Alat tukar, Satuan hitung
+question: Mengapa emas tidak dapat mengikuti perkembangan di dunia global dan digital?
+answer: Emas memerlukan entitas pusat untuk membuatnya dapat dibagi dan ditukar dengan mudah
 wrong_answers:
-  - Penyimpan nilai, Alat tukar, Sarana produksi
-  - Penyimpan nilai, Sarana produksi, Satuan hitung
-  - Alat tukar, Sarana produksi, Satuan hitung
+  - Emas tidak cukup berharga
+  - Emas tidak cukup langka
+  - Emas terkikis seiring waktu
 explanation: |
-  Menurut Aristoteles, uang memiliki tiga fungsi: sebagai penyimpan nilai, alat tukar, dan satuan hitung. Meskipun saat ini, secara luas diakui bahwa fungsi alat tukar mendahului dua fungsi lainnya.
+  Emas tidak dapat mengikuti perkembangan di dunia global dan digital karena memerlukan
+  entitas pusat untuk membuatnya dapat dibagi dan ditukar dengan mudah. Hal ini membuatnya kurang
+  praktis untuk digunakan di dunia di mana transaksi semakin digital dan terdesentralisasi.
 reviewed: true

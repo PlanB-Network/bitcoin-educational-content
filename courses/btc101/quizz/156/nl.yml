@@ -1,8 +1,8 @@
-question: Wat is het doel van Mining zwembaden?
-answer: Mining pools stellen mijnwerkers in staat om hun rekenkracht te bundelen en kleinere maar regelmatigere beloningen te ontvangen.
+question: Wat is de gemiddelde tijd tussen het aanmaken van twee blokken in het Bitcoin protocol?
+answer: 10 minuten.
 wrong_answers:
-  - Mining-pools worden gebruikt om de Hashrate van het totale Bitcoin-netwerk te verhogen.
-  - Mining zwembaden worden gebruikt om de moeilijkheidsgraad van Mining te verlagen.
-  - Mining pools worden gebruikt om de beloning voor Mining te verhogen.
+  - 5 minuten.
+  - 15 minuten.
+  - 20 minuten.
 explanation: >-
 reviewed: true

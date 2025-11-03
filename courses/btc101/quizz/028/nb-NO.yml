@@ -1,10 +1,11 @@
-question: Hva er utviklingen av valuta?
-answer: Råstein -> Mynt -> Seddel -> Bankkort -> Blockchain -> Lightning Network
+question: Hvilket av disse alternativene er ikke en fordel med fiat-valutaer?
+answer: De er underlagt monetær inflasjon
 wrong_answers:
-  - Råstein -> Mynt -> Seddel -> Blockchain -> Lightning Network
-  - Råstein -> Mynt -> Seddel -> Bankkort -> Lightning Network
-  - Råstein -> Mynt -> Seddel -> Bankkort -> Blockchain
+  - De er lett transportable
+  - De er lett delbare
+  - De aksepteres av alle land
 explanation: |
-  Valuta, som enhver teknologi, har utviklet seg fra råstein
-  til metallmynt, deretter til seddel, bankkort, og til slutt peer-to-peer-nettverk med Bitcoin blockchain, og Lightning Network.
+  Fiat-valutaer, som dollar og euro, er svært likvide og
+  lett transportable fordi de nå for det meste er digitale. Deres verdi er
+  imidlertid konstant utsatt for monetær inflasjon.
 reviewed: true

@@ -50,11 +50,11 @@ Danas je Jami dostupan na mnogim sistemima. Poznat je po svojoj performansi, flu
 
 
 
-- To je otvorenog koda i potpuno besplatno**, tako da ga možete koristiti bez ikakvih troškova.
-- Dovršeno korisnim funkcijama**: ovaj softver vam omogućava da iskoristite brojne opcije, zahvaljujući mogućnosti jednostavnog dodavanja dodataka iz prodavnice. Čak je moguće kreirati sopstvene ekstenzije za funkcije koje su više prilagođene vašim potrebama.
-- Lako za korišćenje i Interface intuitivno**: uprkos mnogim funkcijama koje Jami nudi, i dalje je vrlo lako savladati ga.
-- Snažna sigurnost**: Jami koristi napredni algoritam za šifrovanje koji garantuje sigurnost vaših komunikacija uz poštovanje vaše privatnosti.
-- Veoma pristupačno i brzo**: nudi laku komunikaciju čak i kada je propusni opseg ograničen, za poboljšanu korisničku pristupačnost.
+- To je otvorenog koda i potpuno **besplatno**, tako da ga možete koristiti bez ikakvih troškova.
+- **Dovršeno korisnim funkcijama**: ovaj softver vam omogućava da iskoristite brojne opcije, zahvaljujući mogućnosti jednostavnog dodavanja dodataka iz prodavnice. Čak je moguće kreirati sopstvene ekstenzije za funkcije koje su više prilagođene vašim potrebama.
+- **Lako za korišćenje i intuitivno interface**: uprkos mnogim funkcijama koje Jami nudi, i dalje je vrlo lako savladati ga.
+- **Snažna sigurnost**: Jami koristi napredni algoritam za šifrovanje koji garantuje sigurnost vaših komunikacija uz poštovanje vaše privatnosti.
+- **Veoma pristupačno i brzo**: nudi laku komunikaciju čak i kada je propusni opseg ograničen, za poboljšanu korisničku pristupačnost.
 
 
 
@@ -140,7 +140,7 @@ Ova komanda instalira alate potrebne za upravljanje GPG ključevima (gnupg i dir
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 ```shell
 curl -s https://dl.jami.net/public-key.gpg | sudo tee /usr/share/keyrings/jami-archive-keyring.gpg > /dev/null
@@ -338,9 +338,9 @@ Jami takođe nudi **napredne funkcije** za korisnike koji žele da idu dalje u k
 
 
 
-- Kreirajte tačku sastanka**: Ova funkcija vam omogućava da kreirate **tačku sastanka** za vaše komunikacije, korisno za organizovanje sigurnih sesija ili razmena između nekoliko korisnika.
-- Povežite se sa Jami serverom**: Možete povezati Jami sa **Jami serverom**, što može poboljšati performanse ili dostupnost komunikacija, posebno u profesionalnim okruženjima.
-- Postavite SIP nalog**: Možete postaviti **SIP nalog** (Session Initiation Protocol), što vam omogućava da integrišete Jami sa postojećim telefonskim sistemima ili obavljate telefonske pozive.
+- **Kreirajte tačku sastanka**: Ova funkcija vam omogućava da kreirate **tačku sastanka** za vaše komunikacije, korisno za organizovanje sigurnih sesija ili razmena između nekoliko korisnika.
+- **Povežite se sa Jami serverom**: Možete povezati Jami sa **Jami serverom**, što može poboljšati performanse ili dostupnost komunikacija, posebno u profesionalnim okruženjima.
+- **Postavite SIP nalog**: Možete postaviti **SIP nalog** (Session Initiation Protocol), što vam omogućava da integrišete Jami sa postojećim telefonskim sistemima ili obavljate telefonske pozive.
 
 
 
@@ -360,4 +360,4 @@ Otkrijte Tox, decentralizovani protokol koji kombinuje end-to-end enkripciju (E2
 
 
 
-https://planb.network/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3
+https://planb.academy/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3

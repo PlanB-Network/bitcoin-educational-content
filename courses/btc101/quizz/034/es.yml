@@ -1,9 +1,9 @@
-question: ¿Cuál es la principal ventaja del oro como moneda?
-answer: Es increíblemente duradero.
+question: ¿Cuál es la consecuencia de la impresión monetaria?
+answer: Conduce a la inflación, empobreciendo gradualmente a la población.
 wrong_answers:
-  - Es fácilmente divisible o transportable a largas distancias.
-  - Es fácilmente verificable.
-  - No está regulado por el gobierno.
+  - Conduce a la deflación, enriqueciendo gradualmente a la población.
+  - Conduce a una economía estable sin inflación ni deflación.
+  - Conduce a una disminución en la oferta de dinero.
 explanation: |
-  Aunque no es fácilmente divisible o transportable a largas distancias, el oro es un material muy duradero, lo que lo convierte en un buen almacén de valor. Las monedas de oro se utilizaron como moneda en el pasado, pero no servirían para el mismo propósito en la era digital de hoy.
+  La impresión monetaria, o la creación de nuevo dinero por parte de los bancos centrales, conduce a la inflación. Esto se debe a que el aumento en la oferta de dinero reduce el poder adquisitivo del dinero, llevando a precios más altos y una disminución en el valor de los ahorros.
 reviewed: true

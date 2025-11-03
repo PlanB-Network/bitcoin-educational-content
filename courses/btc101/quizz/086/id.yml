@@ -1,11 +1,12 @@
-question: Apa itu dompet dingin?
-answer: Dompet fisik di mana kunci Anda disimpan pada perangkat yang tidak terhubung ke internet
+question: Apa yang perlu Anda cadangkan saat menggunakan dompet dengan kata sandi tambahan?
+answer: Anda perlu mencadangkan baik daftar 12 atau 24 kata dan kata sandi tambahan Anda
 wrong_answers:
-  - Dompet yang secara fisik dingin saat disentuh
-  - Dompet yang tidak populer di antara pengguna Bitcoin
-  - Dompet yang direkomendasikan untuk menyimpan jumlah bitcoin yang kecil
+  - Anda hanya perlu mencadangkan daftar 12 atau 24 kata
+  - Anda hanya perlu mencadangkan kata sandi tambahan Anda
+  - Anda tidak perlu mencadangkan baik daftar 12 atau 24 kata maupun kata sandi tambahan Anda
 explanation: |
-  Dompet dingin adalah istilah yang digunakan untuk menggambarkan dompet Bitcoin yang disimpan
-  pada perangkat yang tidak terhubung ke internet. Hal ini membuatnya kurang rentan
-  terhadap ancaman online, tetapi juga berarti bahwa dompet tersebut kurang mudah diakses untuk transaksi sehari-hari.
+  Ketika Anda menggunakan dompet dengan kata sandi tambahan, Anda perlu mencadangkan baik daftar 12
+  atau 24 kata dan kata sandi tambahan Anda. Ini karena daftar kata dan kata sandi tambahan
+  keduanya diperlukan untuk mendapatkan kembali akses ke dana Anda dalam kasus kehilangan ponsel
+  atau komputer Anda. Tanpa salah satu dari keduanya, dana tersebut tidak dapat diakses.
 reviewed: true

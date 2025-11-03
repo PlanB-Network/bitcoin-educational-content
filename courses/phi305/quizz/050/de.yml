@@ -1,0 +1,9 @@
+question: War Immanuel Kant?
+answer: Ein deutscher Philosoph der Aufklärung.
+wrong_answers:
+  - Ein englischer Philosoph und Schüler von Newton
+  - Ein Philosoph aus dem 17. Jahrhundert.
+  - Ein christlicher Philosoph.
+explanation: |
+  Immanuel Kant (1724-1804) war ein deutscher Philosoph der Aufklärung. Er entwickelte eine kritische Philosophie, die das moderne Denken tiefgreifend beeinflusste, vor allem mit seiner "Kritik der reinen Vernunft".
+reviewed: false

@@ -1,11 +1,11 @@
-question: Điều gì sẽ xảy ra nếu một người dùng nút quyết định tuân theo những quy tắc khác biệt mâu thuẫn với quy tắc đồng thuận hiện tại?
-answer: Nút đó sẽ không còn là một phần của mạng lưới Bitcoin.
+question: Vai trò của các thợ mỏ trong mạng lưới Bitcoin là gì?
+answer: Thợ mỏ bảo mật mạng và thêm giao dịch vào các khối.
 wrong_answers:
-  - Nút đó sẽ trở thành một phần của một mạng lưới Bitcoin khác.
-  - Nút đó sẽ bị mạng lưới Bitcoin phạt.
-  - Nút đó sẽ được mạng lưới Bitcoin thưởng.
-explanation: |
-  Nếu một người dùng nút quyết định tuân theo những quy tắc khác
-  làm mất hiệu lực của quy tắc đồng thuận hiện tại, thì nút này
-  sẽ không còn là một phần của mạng lưới Bitcoin.
+  - Thợ mỏ tạo ra bitcoin mới.
+  - Thợ mỏ xác minh danh tính của người dùng Bitcoin.
+  - Thợ mỏ thiết lập giá của Bitcoin.
+explanation: >-
+  Thợ mỏ sử dụng sức mạnh tính toán của họ để giải quyết các bài toán toán học phức tạp,
+  điều này cho phép họ thêm giao dịch mới vào blockchain. Quá trình này bảo mật
+  mạng và duy trì tính toàn vẹn của nó.
 reviewed: true

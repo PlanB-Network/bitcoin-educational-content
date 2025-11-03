@@ -1,0 +1,9 @@
+question: Ni programu gani ya Umbrel inayokuruhusu kudhibiti nodi yako ya Umeme na Interface ya hali ya juu?
+answer: Panda Umeme
+wrong_answers:
+  - Umeme wa BTCPay
+  - Relay ya Nostr
+  - Bitfeed
+explanation: |
+  Ride The Lightning na ThunderHub hutoa Interface kamili ya wavuti kwa kusimamia nodi ya Umeme.
+reviewed: true

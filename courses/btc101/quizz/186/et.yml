@@ -1,9 +1,9 @@
-question: Mis on üks viis bitcoine hankida ilma neid ostes?
-answer: Võtta neid vastu maksevahendina oma pakutavate toodete või teenuste eest
+question: Mis on üks algatustest, mis aitab muuta Bitcoini majanduse kõigile kättesaadavamaks ja mugavamaks?
+answer: BTCMap
 wrong_answers:
-  - Laenata neid sõbralt
-  - Võita neid loteriis
-  - Leida neid tänavalt
+  - Bitcoin Exchange
+  - Bitcoin Mining
+  - Bitcoin Lottery
 explanation: >-
-  Üks viis bitcoine hankida ilma neid ostes on võtta neid vastu maksevahendina oma pakutavate toodete või teenuste eest. See võimaldab teil hankida bitcoine oma töö kaudu.
+  BTCMap on üks algatustest, mis aitab muuta Bitcoini majanduse kõigile kättesaadavamaks ja mugavamaks. See on avatud lähtekoodiga ja koostööprojekt, mis loetleb kõik kaupmehed, kes aktsepteerivad Bitcoini, samuti erinevad Bitcoini kogukonnad üle maailma.
 reviewed: false

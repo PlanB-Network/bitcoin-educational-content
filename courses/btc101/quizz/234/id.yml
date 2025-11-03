@@ -1,11 +1,8 @@
-question: Apa salah satu aplikasi potensial dari Lightning Network dalam kehidupan sehari-hari?
-answer: Penagihan instan dalam perdagangan
+question: Apa salah satu implikasi potensial dari Lightning Network bagi pengguna?
+answer: Mereka hanya perlu membayar untuk konten yang mereka konsumsi
 wrong_answers:
-  - Menambang Bitcoin baru
-  - Menciptakan mata uang kripto baru
-  - Meningkatkan nilai Bitcoin
+  - Mereka harus membayar lebih untuk konten
+  - Mereka harus membayar biaya langganan bulanan
+  - Mereka harus membayar konten di muka
 explanation: >-
-  Lightning Network membuka pintu ke berbagai aplikasi potensial
-  untuk Bitcoin yang sebelumnya tidak terjangkau karena keterbatasan yang diperlukan untuk
-  memastikan keamanan dan desentralisasi Bitcoin. Di antara aplikasi-aplikasi dalam
-  kehidupan sehari-hari, kita dapat menyebutkan penagihan instan dalam perdagangan.
+  Dengan Lightning Network, pengguna hanya perlu membayar untuk konten yang mereka konsumsi, sehingga mengeliminasi biaya langganan di muka.

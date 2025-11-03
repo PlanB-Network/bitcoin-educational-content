@@ -1,0 +1,9 @@
+question: Quel type de machine est présenté comme le meilleur compromis pour un nœud Bitcoin à domicile ?
+answer: Un mini-PC type NUC
+wrong_answers:
+  - Un ordinateur portable
+  - Un supercalculateur
+  - Une console de jeux
+explanation: |
+  Les mini-PC (NUC, Tiny, OptiPlex Micro...) sont peu gourmands, fiables et faciles à adapter, ce qui en fait le compromis idéal.
+reviewed: false

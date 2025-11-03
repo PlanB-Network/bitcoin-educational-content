@@ -1,0 +1,9 @@
+question: Ni kuki umurongo w’uruzitiro secp256r1 utakoreshejwe muri Bitcoin?
+answer: Bishoboka ko wirinda urugi rw'inyuma
+wrong_answers:
+  - Kuko ari buhoro cane .
+  - Kubera ko ataco bihuriyeko .
+  - Kuko bisaba ibikoresho vyihariye .
+explanation: |
+  Satoshi Nakamoto birashoboka ko yahisemwo umurongo wa secp256k1, kuko ibipimo vya secp256r1 bishobora kubamwo ubugoyagoye bwihishije.
+reviewed: false

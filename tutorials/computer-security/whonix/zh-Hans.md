@@ -17,12 +17,12 @@ description: 保护您的隐私和机密。
 
 
 
-- 免费**：与大多数 Linux 发行版一样，Whonix 是完全免费授权的开源系统。它采用开放源代码开发，拥有一个活跃而透明的社区。
-- 隐私、安全和匿名** ：Whonix 的主要目标是提供一个超级安全的环境，通过 Tor 网络保护您的所有数据并加密您的通信。
-- 易于使用**：Whonix 提供直观、预配置的图形化 Interface，甚至适合新手用户。无需成为专家即可享受高级保护。
-- 理想的安全开发环境**：Whonix 可让您开发、测试、审核或运行程序，而不会泄露您的真实 IP Address，也不会暴露您的浏览或网络通信习惯。
-- 一次性会话和实时模式**：Whonix 可在实时模式下启动，也可通过一次性机器（如通过 **Qubes OS**）启动，从而在执行关键任务时不会在会话结束后留下持久痕迹。
-- 安装相对简单**：提供即用型镜像，可在虚拟机（VirtualBox、KVM、Qubes）中快速安装。系统文档齐全并定期更新。
+- **免费**：与大多数 Linux 发行版一样，Whonix 是完全免费授权的开源系统。它采用开放源代码开发，拥有一个活跃而透明的社区。
+- **隐私、安全和匿名**：Whonix 的主要目标是提供一个超级安全的环境，通过 Tor 网络保护您的所有数据并加密您的通信。
+- 易于使用：Whonix 提供直观、预配置的图形化 Interface，甚至适合新手用户。无需成为专家即可享受高级保护。
+- 理想的安全开发环境：Whonix 可让您开发、测试、审核或运行程序，而不会泄露您的真实 IP Address，也不会暴露您的浏览或网络通信习惯。
+- 一次性会话和实时模式：Whonix 可在实时模式下启动，也可通过一次性机器（如通过 **Qubes OS**）启动，从而在执行关键任务时不会在会话结束后留下持久痕迹。
+- 安装相对简单：提供即用型镜像，可在虚拟机（VirtualBox、KVM、Qubes）中快速安装。系统文档齐全并定期更新。
 
 
 
@@ -56,9 +56,9 @@ description: 保护您的隐私和机密。
 
 
 
-- 随机存取内存（RAM）**：强烈建议至少 **8 GB**。内存越大，分配给虚拟机（网关和工作站）的资源就越多，从而提高性能。
+- 随机存取内存（RAM）：强烈建议至少 **8 GB**。内存越大，分配给虚拟机（网关和工作站）的资源就越多，从而提高性能。
 - 可用磁盘空间**：请预留至少 30 GB 的可用磁盘空间**。这包括两个虚拟机、系统文件和任何数据或快照所需的空间。
-- 处理器**：建议使用至少**4 个物理内核**（8 个逻辑线程）的处理器，特别是如果您想并行运行其他服务或工具。
+- 处理器：建议使用至少**4 个物理内核**（8 个逻辑线程）的处理器，特别是如果您想并行运行其他服务或工具。
 
 
 
@@ -70,7 +70,7 @@ Whonix 有多个版本，具体取决于使用环境的类型。对于大多数�
 
 
 
-⚠️ Whonix **与使用 Apple Silicon 处理器（ARM 架构）的 MacBook 不兼容。
+⚠️ Whonix **与使用 Apple Silicon 处理器（ARM 架构）的 MacBook 不兼容**。
 
 
 
@@ -78,7 +78,7 @@ Whonix 有多个版本，具体取决于使用环境的类型。对于大多数�
 
 
 
-要运行 Whonix，您需要一个**管理程序，如 VirtualBox、Qubes 或 KVM。
+要运行 Whonix，您需要一个**管理程序**，如 VirtualBox、Qubes 或 KVM。
 
 
 
@@ -86,7 +86,7 @@ Whonix 有多个版本，具体取决于使用环境的类型。对于大多数�
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
+https://planb.academy/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
 ### 导入 Whonix
 
 
@@ -205,14 +205,14 @@ sudo apt full-upgrade
 
 
 
-**Whonix**是一个旨在提供**安全、**匿名和**保密计算环境的系统，是上网冲浪而不泄露身份或数据的理想选择。为实现这一目标，它配备了大量实用的日常应用程序，旨在从一开始就加强您的数字安全。
+**Whonix**是一个旨在提供**安全、匿名和保密计算环境**的系统，是上网冲浪而不泄露身份或数据的理想选择。为实现这一目标，它配备了大量实用的日常应用程序，旨在从一开始就加强您的数字安全。
 
 
 ### KeepassXC
 
 
 
-**KeePassXC** 是 Whonix 的集成密码管理器。它可让您**安全地创建、存储和管理**密码，而无需手动记住所有密码。密码存储在一个**加密的数据库中，并受主密码保护。
+**KeePassXC** 是 Whonix 的集成密码管理器。它可让您**安全地创建、存储和管理**密码，而无需手动记住所有密码。密码存储在一个**加密的数据库中，并受主密码保护**。
 
 
 
@@ -224,17 +224,17 @@ sudo apt full-upgrade
 
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ### 电石 Bitcoin Wallet
 
 
 
-**Electrum** 是 Whonix 上预装的一款轻便快速的 Bitcoin Wallet，可让您匿名管理**加密货币交易。它不会下载整个 Blockchain，而是使用远程服务器获取必要的信息，因此比完整的 Wallet 要轻便得多。
+**Electrum** 是 Whonix 上预装的一款轻便快速的 Bitcoin Wallet，可让您匿名管理**加密货币交易**。它不会下载整个 Blockchain，而是使用远程服务器获取必要的信息，因此比完整的 Wallet 要轻便得多。
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 Whonix 不仅仅是一个操作系统：它还是一个真正的**安全环境**，旨在保护您的匿名性、隐私和敏感活动。得益于其基于 Tor 的架构、网关和工作站之间的智能分区以及预装的 Tor 浏览器、KeePassXC 和 Electrum 等工具，它为任何希望**匿名浏览**、**安全工作**或**处理机密数据**的人提供了全套解决方案。
 
@@ -244,4 +244,4 @@ Whonix 不仅仅是一个操作系统：它还是一个真正的**安全环境**
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
+https://planb.academy/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af

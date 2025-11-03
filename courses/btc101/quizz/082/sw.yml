@@ -1,11 +1,13 @@
-question: Je, ni teknolojia gani inayotumika kutumia pesa kwa usalama kwa kutumia Bitcoin Wallet?
-answer: Usimbaji fiche wa mviringo wa mviringo.
+question: Kuna hatari gani ya kutatiza usalama na ufikiaji wa bitcoins zako?
+answer: Unaweza kujidhuru ikiwa utashughulikia vibaya pochi za chelezo.
 wrong_answers:
-  - Siri linganifu.
-  - Quantum cryptography.
-  - kriptografia ya RSA.
+  - Unaweza kujidhuru ikiwa utatumia vibaya pochi za mwili.
+  - Unaweza kujidhuru ikiwa utatumia vibaya pochi za kidijitali.
+  - Unaweza kujidhuru ikiwa utatumia vibaya pochi za Multisig.
 explanation: |
-  Kutumia Bitcoins kunahitaji mmiliki kutumia Elliptic Curve
-  Algorithm ya Sahihi Dijiti (ECDSA) ili kuunda saini
-  kwa ajili ya kueneza muamala wa Bitcoin.
+  Kuzidisha usalama na ufikiaji wa yako
+  bitcoins zinaweza kukudhuru ikiwa, kwa mfano, utashughulikia vibaya
+  chelezo za pochi zako. Hii ni kwa sababu chelezo rahisi
+  taratibu ni muhimu kwa kurejesha ufikiaji wa pesa zako
+  katika kesi ya kupoteza simu au kompyuta yako.
 reviewed: true

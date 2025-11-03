@@ -1,0 +1,9 @@
+question: Wat is het risico als een Wallet afhankelijk is van een knooppunt van een derde partij?
+answer: Risico van toezicht en censuur
+wrong_answers:
+  - Risico op automatisch Double-spending
+  - Risico op verlies van privésleutels
+  - Risico op verlies en controle
+explanation: |
+  Een extern knooppunt kan je transacties analyseren of blokkeren, of zelfs je gegevens koppelen aan je identiteit.
+reviewed: true

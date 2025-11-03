@@ -1,0 +1,9 @@
+question: Wer ist Lamarck?
+answer: Ein französischer Naturforscher, der Darwin vorausging.
+wrong_answers:
+  - Ein niederländischer Philosoph.
+  - Ein Schüler von Spinoza.
+  - Ein klassischer Maler.
+explanation: |
+  Jean-Baptiste de Lamarck (1744-1829) war ein französischer Naturforscher, der noch vor Darwin eine Evolutionstheorie aufstellte. Seine Theorie des Transformismus schloss die Vererbung erworbener Merkmale ein.
+reviewed: false

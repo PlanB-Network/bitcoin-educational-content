@@ -1,5 +1,5 @@
 ---
-name: Piscar os olhos
+name: Blink
 description: Tutorial completo do Blink Wallet - Enviar, receber e usar o Bitcoin com facilidade
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: Wallet của Satoshi
+name: Wallet of Satoshi
 description: Wallet bảo vệ đơn giản nhất để bắt đầu
 ---
 ![cover](assets/cover.webp)
@@ -12,7 +12,7 @@ _Bài hướng dẫn này được viết bởi_ [Bitcoin Campus](https://linktr
 
 Wallet của Satoshi là Lightning Network Wallet, có tính bảo vệ và rất dễ sử dụng.
 
-Đối với mục đích của khóa học [BTC105 - Tìm kiếm ngay bây giờ](https://planb.network/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5), nó được sử dụng để cấp chứng từ Redeem Lightning Network.
+Đối với mục đích của khóa học [BTC105 - Tìm kiếm ngay bây giờ](https://planb.academy/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5), nó được sử dụng để cấp chứng từ Redeem Lightning Network.
 
 
 **Luôn nhớ**: _không phải chìa khóa, không phải tiền xu của bạn_
@@ -79,8 +79,8 @@ Wallet của Satoshi đã gửi tin nhắn đến hộp thư email đã chỉ đ
 Trong hộp thư, chúng ta sẽ thấy hai từ cần nhập vào, viết lại chúng, vào chỗ trống do ứng dụng cung cấp.
 
 
-- không kích hoạt trình dịch: các từ là và phải giữ nguyên bằng tiếng Anh**
-- viết lại hai từ chú ý đến chữ hoa/chữ thường**
+- không kích hoạt trình dịch: các từ là và phải giữ nguyên bằng tiếng Anh
+- viết lại hai từ chú ý đến chữ hoa/chữ thường
 
 
 ![image](assets/it/10.webp)

@@ -1,11 +1,11 @@
-question: Wie heißt das Ereignis, bei dem die Belohnung für das Mining halbiert wird?
-answer: Halving
+question: Wie oft wird die Belohnung für das Mining halbiert?
+answer: Alle 210.000 Blöcke.
 wrong_answers:
-  - Verdopplung
-  - Viertelung
-  - Verdreifachung
+  - Alle 120.000 Blöcke.
+  - Alle 540.000 Blöcke.
+  - Alle 2.100.000 Blöcke.
 explanation: |
-  Das Ereignis, bei dem die Belohnung für das Mining halbiert wird, wird
-  Halving genannt. Dieses Ereignis verleiht der Kurve der Geldausgabe
-  eine treppenartige Form.
+  Die Belohnung für das Mining ist so programmiert, dass sie alle 210.000
+  Blöcke halbiert wird, was ungefähr alle vier Jahre entspricht: ein Ereignis,
+  das als Halbierung bekannt ist.
 reviewed: true

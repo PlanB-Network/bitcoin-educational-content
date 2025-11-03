@@ -1,5 +1,5 @@
 ---
-name: Blitzlicht
+name: Flash
 description: Kaufen Sie Bitcoins ab 100 CFA-Francs dank der Kraft von Lightning.
 ---
 
@@ -39,8 +39,8 @@ Die Plattform bietet im Wesentlichen zwei Dienste an:
 
 
 
-- FlashX**: Exchange Bitcoins mit Mobile Money.
-- FlashPayment**: Verwenden Sie Bitcoin für alltägliche Dienstleistungen.
+- **FlashX**: Exchange Bitcoins mit Mobile Money.
+- **FlashPayment**: Verwenden Sie Bitcoin für alltägliche Dienstleistungen.
 
 
 
@@ -73,9 +73,9 @@ Flash wickelt seine Transaktionen mit lokalem Mobile Money ab. Je nach Ihrem Sta
 
 
 
-- Benin**: MTN Benin, Moov Benin, Celtiis.
-- Togo** : Moov Togo.
-- Burkina-Faso**: Orange.
+- **Benin**: MTN Benin, Moov Benin, Celtiis.
+- **Togo**: Moov Togo.
+- **Burkina-Faso**: Orange.
 
 
 
@@ -110,7 +110,7 @@ Fahren Sie mit der Zahlung fort und geben Sie dann Ihr Lightning Address ein, um
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 Wenn Sie eine Flash-Transaktion durchführen, dauert es durchschnittlich 5 bis 10 Minuten, bis Sie Ihre Bitcoins auf Ihrem Lightning Wallet erhalten.
 
@@ -157,10 +157,10 @@ Neben dem Kauf und Verkauf von Bitcoins bietet Flash seiner Community die kontex
 
 
 
-- GSM**-Einheiten;
-- Internet-Pakete**;
-- Aufruf von Paketen**;
-- Eine Kombination aus Anruf- und Internetpaket**.
+- **GSM-Einheiten**;
+- **Internet-Pakete**;
+- Aufruf von **Paketen**;
+- Eine Kombination aus Anruf- und **Internetpaket**.
 
 
 
@@ -202,5 +202,4 @@ Wenn Sie dieses Tutorial hilfreich fanden, um sich mit Flash vertraut zu machen,
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
-
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1

@@ -1,10 +1,11 @@
-question: Apa peran penambang dalam jaringan Bitcoin?
-answer: Penambang sangat penting untuk menciptakan bitcoin baru dan mengamankan jaringan Bitcoin.
+question: Apa tujuan dari kursus Bitcoin ini?
+answer: Untuk membahas aspek moneter dari Bitcoin, cara menggunakannya, dan masa depannya.
 wrong_answers:
-  - Penambang bertanggung jawab untuk mengatur harga Bitcoin.
-  - Penambang bertanggung jawab untuk membuat dompet Bitcoin.
-  - Penambang bertanggung jawab untuk mengontrol protokol Bitcoin.
-explanation: >-
-  Penambang memainkan peran krusial dalam jaringan Bitcoin karena mereka bertanggung jawab
-  untuk menciptakan bitcoin baru dan mengamankan jaringan Bitcoin dengan mengkonsumsi listrik untuk hashing sebuah blok transaksi.
+  - Untuk membahas cara menambang Bitcoin.
+  - Untuk membahas cara mengatur Bitcoin.
+  - Untuk membahas cara membuat protokol Bitcoin baru.
+explanation: |
+  Tujuan dari kursus Bitcoin ini adalah untuk membahas aspek moneter
+  dari Bitcoin, termasuk cara membeli dan menjual bitcoin, menyimpannya secara aman dalam
+  dompet digital, dan menggunakannya untuk transaksi. Ini juga bertujuan untuk mengeksplorasi masa depan Bitcoin.
 reviewed: true

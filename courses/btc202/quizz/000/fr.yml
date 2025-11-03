@@ -1,0 +1,9 @@
+question: Quel est le titre du White Paper de Satoshi Nakamoto publié en 2008 ?
+answer: Bitcoin A Peer-to-Peer Electronic Cash System
+wrong_answers:
+  - Bitcoin A Decentralized Digital Gold System
+  - Bitcoin The Future of Money
+  - Bitcoin A Blockchain-Based Payment Network
+explanation: |
+  Le White Paper de Satoshi Nakamoto porte le titre Bitcoin A Peer-to-Peer Electronic Cash System, publié en 2008.
+reviewed: false

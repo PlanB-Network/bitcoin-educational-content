@@ -5,5 +5,5 @@ wrong_answers:
   - It encrypts them to secure the transaction.
   - It duplicates them to create new UTXOs.
 explanation: |
-  The input UTXOs in a transaction are consumed in order to fund the outputs. It is, in a way, the source of the money.
-reviewed: false
+  The input UTXOs in a transaction are spent to fund the outputs. It is, in a way, the source of the money.
+reviewed: true

@@ -1,8 +1,8 @@
-question: Koji je problem skalabilnosti Bitkoina?
-answer: Izazov implementacije monetarnog sistema sposobnog da obezbedi sve veći broj transakcija po sekundi kako se usvaja.
+question: Kako su transakcije na Lightning mreži osigurane?
+answer: Kroz kriptografiju i indirektno kroz energiju koju troše rudari na Bitkoin.
 wrong_answers:
-  - Težina rudarenja novih Bitkoina sa sve većom vrednošću tokom vremena.
-  - Volatilnost cene Bitkoina koja će se povećati nakon svakog Halving-a.
-  - Nedostatak regulative za Bitkoin što će učiniti transakcije ilegalnim.
+  - Kroz korišćenje samo privatnih ključeva.
+  - Kroz korišćenje samo javnih ključeva.
+  - Kroz upotrebu samo privatnih i javnih ključeva.
 explanation: >-
 reviewed: true

@@ -1,0 +1,9 @@
+question: 2009 में मूल Bitcoin सॉफ्टवेयर में क्या-क्या शामिल था?
+answer: Wallet, धनुष, और लघु
+wrong_answers:
+  - नोड, Miner, और Block explorer
+  - Wallet, हेलिकॉप्टर, और Miner
+  - Miner और Mining pool
+explanation: |
+  मूल Bitcoin सॉफ्टवेयर ने Wallet, नोड और Miner कार्यों को एक ही प्रोग्राम में एकीकृत किया।
+reviewed: true

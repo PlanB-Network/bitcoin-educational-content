@@ -1,12 +1,9 @@
-question: Vad är konsekvensen av hyperinflation?
-answer: En drastisk minskning av värdet på valutan.
+question: Vilken var den ungefärliga inflationstakten i Tyskland i oktober 1923 när hyperinflationen var som störst?
+answer: 29,500%
 wrong_answers:
-  - En liten minskning av värdet på valutan.
-  - En drastisk ökning av värdet på valutan.
-  - En liten ökning av värdet på valutan.
+  - 5,200%
+  - 76%
+  - 110%
 explanation: |
-  På grund av hyperinflation förlorar individer snabbt
-  fullständigt förtroende för valutan, vilket leder till att
-  en drastisk minskning av dess värde under en kort tidsperiod
-  tid.
-reviewed: true
+  Den månad då inflationen var som högst i Tyskland var oktober 1923, då den nådde en topp på 29.500%.
+reviewed: false

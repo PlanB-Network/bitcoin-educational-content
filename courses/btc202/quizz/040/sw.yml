@@ -1,0 +1,9 @@
+question: Jumuiya ya Umbrel inayofanya kazi zaidi iko wapi?
+answer: Kwenye Discord na jukwaa la mtandaoni
+wrong_answers:
+  - Kwenye Instagram
+  - Kwenye LinkedIn na jukwaa la mtandaoni
+  - Kwenye IRC
+explanation: |
+  Umbrel ina jumuiya inayofanya kazi sana kwenye Discord na kwenye mijadala yake ya mtandaoni, ambapo watumiaji wa Exchange husaidia na usaidizi.
+reviewed: true

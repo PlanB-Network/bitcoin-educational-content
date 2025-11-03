@@ -38,6 +38,8 @@ Dieser Kurs ist so konzipiert, dass du die volle Kontrolle darüber hast, wie du
 
 <chapterId>bfc96999-0ee1-5c41-8297-1b629f50cffc</chapterId>
 
+:::video id=58e578ef-bb3c-423d-8431-0c16db8e5f29:::
+
 
 Willkommen bei BTC102! Hast du bereits BTC101 abgeschlossen? In diesem Fall hast du die wichtigsten theoretischen Konzepte erforscht, die erklären, warum Bitcoin eine so revolutionäre Technologie ist. Im Rahmen des BTC102 kannst du dieses Wissen in die Tat umzusetzen. Dieser Kurs soll dir helfen, Schritt für Schritt deinen persönlichen Bitcoin-Plan zu erstellen.
 
@@ -45,7 +47,7 @@ Willkommen bei BTC102! Hast du bereits BTC101 abgeschlossen? In diesem Fall hast
 In den folgenden Kapiteln führen wir dich durch die praktischen Schritte, um **deine ersten Bitcoins** zu bekommen, **sie richtig zu sichern** und deine ersten Schritte in diesem schnell wachsenden Ökosystem zu machen.
 
 
-https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
+https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 Obwohl Bitcoin bereits seit über 16 Jahren existiert, ist die Branche noch jung, dynamisch und zudem tief in der Freiheit verwurzelt. Das zugrundeliegende Protokoll ist vollständig dezentralisiert und widersteht der Kontrolle durch eine zentrale Behörde. Dadurch kann das Ökosystem auf natürliche und organische Weise wachsen.
 
@@ -60,7 +62,7 @@ Der erste Abschnitt, "Voraussetzungen für das Verständnis von Bitcoin", bereit
 Zum Schluss gebe ich dir noch ein paar praktische Tipps, die speziell für Anfänger gedacht sind. Diese sollen dir helfen, häufige Fehler zu vermeiden, wenn du zum ersten Mal mit Bitcoin arbeitest.
 
 
-![BTC102-Bitcoin](assets/fr/001.webp)
+![image](assets/de/001.webp)
 
 
 Der zweite Abschnitt, "Verstehen, worauf du dich einlässt", wird dein Gesamtverständnis von Bitcoin vertiefen. Wir werden mit einem Überblick beginnen. Dieser soll sicherzustellen, dass du die wesentlichen Konzepte vollständig verstehst.
@@ -68,7 +70,7 @@ Der zweite Abschnitt, "Verstehen, worauf du dich einlässt", wird dein Gesamtver
 Dann werden wir dir erklären, warum Bitcoin aus technologischer, wirtschaftlicher und sozialer Sicht von grundlegender Bedeutung ist und dich in deinem Glauben an seinen Wert bestärken. Du wirst auch die Bitcoin-Industrie als Ganzes untersuchen: ihre Hauptakteure, ihre Organisation und ihre Entwicklung im Laufe der Jahre. Schliesslich werden wir die Schichtenarchitektur des Bitcoin-Ökosystems behandeln. Die Schichtenarchitektur ermöglicht Innovationen, ohne die Integrität des Kernprotokolls zu gefährden.
 
 
-![BTC102-Bitcoin](assets/fr/027.webp)
+![image](assets/de/002.webp)
 
 
 Der dritte Abschnitt, "Einrichten deines Plans", befasst sich mit deinem persönlichen Ansatz für Bitcoin. Wir helfen dir, dein persönliches Benutzerprofil aus vier Hauptkategorien zu identifizieren:
@@ -84,13 +86,13 @@ Der dritte Abschnitt, "Einrichten deines Plans", befasst sich mit deinem persön
 Wir begleiten dich bei der Umsetzung einer Strategie, die deinem Profil entspricht und dir hilft, deine persönlichen Ziele zu erreichen.
 
 
-![BTC102-Bitcoin](assets/fr/067.webp)
+![image](assets/de/003.webp)
 
 
 Der vierte Abschnitt, "Schutz deiner Erben und deines Vermögens", behandelt schliesslich ein wichtiges Thema, das oft übersehen wird: wie du sicherstellen kannst, dass deine Bitcoins im Falle eines unerwarteten Ereignisses an deine Angehörigen weitergegeben werden. Du erfährst, wie du einen Bitcoin-Erbschaftsplan erstellen und einrichten kannst, um die Erhaltung deines Vermögens über deine Lebenszeit hinaus zu gewährleisten.
 
 
-![BTC102-Bitcoin](assets/fr/095.webp)
+![image](assets/de/004.webp)
 
 
 Am Ende dieses Kurses verfügst du über alle praktischen Werkzeuge, die du benötigst, um dich sicher im Bitcoin-Ökosystem zu bewegen!
@@ -98,6 +100,8 @@ Am Ende dieses Kurses verfügst du über alle praktischen Werkzeuge, die du ben�
 
 Bist du bereit, deine Reise in die Welt von Bitcoin zu beginnen? Los geht's!
 
+
+**Anm.**: Wenn Sie während des Kurses auf unbekannte Begriffe stoßen, konsultieren Sie bitte [das Glossar](https://planb.academy/resources/glossary) für Definitionen.
 
 # Voraussetzungen für das Verständnis von Bitcoin
 
@@ -109,6 +113,8 @@ Bist du bereit, deine Reise in die Welt von Bitcoin zu beginnen? Los geht's!
 
 
 <chapterId>8af2948b-2ab5-54c4-862c-3414b8a285a2</chapterId>
+
+:::video id=9f3a7b2e-2c4d-4c1e-8b1f-3a2c1d4e5f6a:::
 
 
 Das Bitcoin-Ökosystem und sein Umfeld sind noch relativ jung und je nach Land nur locker reguliert. Diese Freiheit eröffnet zwar enorme Möglichkeiten, schafft aber auch einen fruchtbaren Boden für Betrug und verschiedene Formen der Manipulation. Deshalb ist das erste Kapitel so wichtig: Wenn du die typischen Fallstricke kennst, kannst du diese vermeiden. Deine finanzielle Sicherheit hat Priorität, denn eine schlechte Erfahrung hat nicht nur eine negative Auswirkung auf dich, sondern potenziell auf die gesamte Bitcoin-Gemeinschaft.
@@ -129,18 +135,18 @@ Bevor wir weitermachen, ist es wichtig, zwischen zwei grundlegend verschiedenen 
 - Die Kryptowährungsbranche ist dagegen viel grösser und umfasst Zehntausende verschiedener Projekte, von denen jedes seinen eigenen Token hat. Dieser Bereich wird oft durch schnelle Innovation, Hype und kurzfristige Finanzspekulationen angetrieben. Viele dieser Projekte sind zentralisiert, weniger sicher und bieten keinen wirklichen Wert - trotz kühner Versprechen und auffälligem Marketing.
 
 
-![BTC102-Bitcoin](assets/fr/001.webp)
+![image](assets/de/005.webp)
 
 
 Möchtest du besser verstehen, woher der Bitcoin kommt und was ihn wirklich von anderen Projekten unterscheidet? Dann empfehle ich dir, später diesen kostenlosen Folgekurs über die Geschichte von Bitcoin anzusehen:
 
 
-https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
+https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
-Wie du weisst, ist die Plan ₿ Network-Plattform ausschliesslich dem Bitcoin gewidmet. Es ist jedoch wichtig, den Unterschied zu anderen Kryptowährungen zu verstehen. So kannst du die Fallstricke vermeiden, die mit nutzlosen und manchmal sogar betrügerischen Projekten verbunden sind.
+Wie du weisst, ist die Plan ₿ Academy-Plattform ausschliesslich dem Bitcoin gewidmet. Es ist jedoch wichtig, den Unterschied zu anderen Kryptowährungen zu verstehen. So kannst du die Fallstricke vermeiden, die mit nutzlosen und manchmal sogar betrügerischen Projekten verbunden sind.
 
 
-![BTC102-Bitcoin](assets/fr/002.webp)
+![image](assets/de/006.webp)
 
 
 ### Die wichtigsten zu vermeidenden Betrügereien
@@ -155,7 +161,7 @@ Hier sind die häufigsten Betrugsfälle, denen du auf deiner Reise begegnen kön
 Dies sind einige der häufigsten Betrügereien in der Kryptowelt. Bei einem Schneeballsystem erhalten frühe Teilnehmer Auszahlungen mit dem Geld der neueren Teilnehmer, nicht mit einer echten Investition oder einem Produkt. Es wird kein tatsächlicher Wert geschaffen. Das System funktioniert nur so lange, wie immer wieder neue Teilnehmer hinzukommen. Sobald der Strom neuer Teilnehmer nachlässt, fällt das ganze System auseinander.
 
 
-![BTC102-Bitcoin](assets/fr/003.webp)
+![image](assets/de/007.webp)
 
 
 Indizien für Betrügereien sind in der Regel :
@@ -171,7 +177,7 @@ Indizien für Betrügereien sind in der Regel :
 Letztlich sind alle Pyramiden- und Schneeballsysteme zum Scheitern verurteilt. Deine grundlegende Schwäche liegt in der ständigen Notwendigkeit, neue Investoren anzuwerben. Anders ist das Auszahlen der Renditen an frühere Teilnehmer nicht möglich. Dieser Bedarf wird mit der Zeit mathematisch unmöglich aufrechtzuerhalten sein weil die Zahl der benötigten neuen Anleger exponentiell ansteigt, wenn das System wächst. Sobald ein kritischer Punkt erreicht ist, beginnen die Teilnehmer zu zweifeln, das Vertrauen schwindet, und die gesamte Pyramide bricht zusammen. In diesem Stadium verlieren die letzten Teilnehmer, die oft am wenigsten informiert sind. Du verlierst deine gesamte Investition, während die Organisatoren oder frühen Investoren ihre Gelder in der Regel bereits abgezogen und das System verlassen haben.
 
 
-In der Welt der Kryptowährungen können Ponzi-Schemata viele Formen annehmen. Du sind oft darauf ausgelegt, ihre betrügerische Natur hinter einer technologischen oder finanziellen Maske zu verbergen. Diese Betrügereien können als neue Token-Angebote oder Initial Coin Offerings (ICOs) auftreten, bei denen eine neue Kryptowährung an die Öffentlichkeit verkauft wird. Hinter technischen Begriffen wie "Blockchain", "Smart Contracts" oder "Staking" verbergen sich bei einigen Projekten komplexe Schneeballsysteme. Andere behaupten, hohe Renditen zu bieten. So kombinieren sie z.B. fragwürdige Krypto-Assets mit Vergütungssystemen, die sich ausschliesslich auf den kontinuierlichen Zustrom neuer Investoren verlassen.
+In der Welt der Kryptowährungen können Ponzi-Schemata viele Formen annehmen. Sie sind oft darauf ausgelegt, ihre betrügerische Natur hinter einer technologischen oder finanziellen Maske zu verbergen. Diese Betrügereien können als neue Token-Angebote oder Initial Coin Offerings (ICOs) auftreten, bei denen eine neue Kryptowährung an die Öffentlichkeit verkauft wird. Hinter technischen Begriffen wie "Blockchain", "Smart Contracts" oder "Staking" verbergen sich bei einigen Projekten komplexe Schneeballsysteme. Andere behaupten, hohe Renditen zu bieten. So kombinieren sie z.B. fragwürdige Krypto-Assets mit Vergütungssystemen, die sich ausschliesslich auf den kontinuierlichen Zustrom neuer Investoren verlassen.
 
 
 In jüngster Zeit haben sich Ponzi-Schemata auch in der Welt der dezentralen Finanzen (DeFi) ausgebreitet. DeFi ist dazu gedacht, Finanzdienstleistungen ohne Vermittler anzubieten. Einige Projekte nutzen das, um ihren Betrügereien ein falsches Gefühl von Legitimität zu verleihen. Bestimmte DeFi-Plattformen versprechen hohe, garantierte Renditen im Tausch für Einzahlungen von Kryptowährungen in automatisierte Protokolle. Diese verlockenden Versprechen werden oft durch undurchsichtige und nicht überprüfbare Mechanismen unterstützt, wobei die Token speziell für den Betrug geschaffen werden. In Wirklichkeit haben diese Systeme kein nachhaltiges Geschäftsmodell - die Renditen werden einfach aus den Geldern neuer Nutzer gezahlt - genau wie bei einem herkömmlichen Schneeballsystem. Wenn das Vertrauen zu schwinden beginnt oder der Zustrom neuer Teilnehmer nachlässt, brechen diese Systeme unweigerlich zusammen. Das führt zu erheblichen Verlusten für ahnungslose Anleger.
@@ -200,19 +206,19 @@ Bei dieser Art von Betrug wird der Preis eines Vermögenswerts - häufig ein Kry
 
 
 
-![BTC102-Bitcoin](assets/fr/004.webp)
+![image](assets/de/008.webp)
 
 
 Es ist wichtig zu wissen, dass Pump & Dump-Strategien in vielen Ländern illegal sind und als eine Form der Marktmanipulation angesehen werden. Trotzdem florieren solche Systeme weiterhin, vor allem im Bereich der Kryptowährungen, wo die Regulierung noch nicht abgeschlossen ist.
 
 
-Seie besonders vorsichtig bei privaten Gruppen auf Plattformen wie Telegram, Discord oder anderen Social-Media-Kanälen. Diese werden oft von Influencern oder selbsternannten Experten betrieben, von denen einige sogar Eintrittsgelder verlangen. Während diese Gruppen vorgeben, exklusive Investitionsmöglichkeiten zu bieten, ist die Realität weitaus einseitiger: Nur die Organisatoren profitieren, während die meisten Teilnehmer am Ende ihr Geld verlieren.
+Sei besonders vorsichtig bei privaten Gruppen auf Plattformen wie Telegram, Discord oder anderen Social-Media-Kanälen. Diese werden oft von Influencern oder selbsternannten Experten betrieben, von denen einige sogar Eintrittsgelder verlangen. Während diese Gruppen vorgeben, exklusive Investitionsmöglichkeiten zu bieten, ist die Realität weitaus einseitiger: Nur die Organisatoren profitieren, während die meisten Teilnehmer am Ende ihr Geld verlieren.
 
 
-![BTC102-Bitcoin](assets/fr/005.webp)
+![image](assets/de/009.webp)
 
 
-Es stimmt, dass einige Teilnehmer vorübergehend von dieser Art von Marktmanipulationen profitieren können. Aber ihr Erfolg beruht in der Regel auf nichts anderem als Glück und perfektem Timing. Auf lange Sicht sind diese Systeme nicht nachhaltig. Du erfordern ein ständiges hohes Risiko und eine wiederholte Beteiligung an betrügerischen Machenschaften, die unweigerlich scheitern.
+Es stimmt, dass einige Teilnehmer vorübergehend von dieser Art von Marktmanipulationen profitieren können. Aber ihr Erfolg beruht in der Regel auf nichts anderem als Glück und perfektem Timing. Auf lange Sicht sind diese Systeme nicht nachhaltig. Sie erfordern ein ständiges hohes Risiko und eine wiederholte Beteiligung an betrügerischen Machenschaften, die unweigerlich scheitern.
 
 
 Schlimmer noch, sie nähren eine gefährliche Illusion: den Glauben, dass es möglich ist, schnell und einfach Geld zu verdienen, ohne zu verstehen, wie Finanzsysteme tatsächlich funktionieren. Diese Denkweise setzt nicht nur Einzelpersonen einem Risiko aus, sondern untergräbt auch die Glaubwürdigkeit des gesamten Kryptowährungsökosystems.
@@ -235,7 +241,7 @@ Betrüger geben sich oft als bekannte Persönlichkeiten des öffentlichen Lebens
 Manchmal treten diese Betrügereien als "Vorschussbetrug" auf. Dir wird ein Preis oder eine Belohnung versprochen (Geld, ein Produkt oder eine Dienstleistung), aber du wirst zuerst aufgefordert, eine Gebühr zu zahlen. Dies angeblich, um Dinge wie Versand, Steuern oder Transaktionskosten zu decken. Sobald die Zahlung erfolgt ist, verschwindet der Betrüger, und die versprochene Belohnung kommt nie an.
 
 
-![BTC102-Bitcoin](assets/fr/006.webp)
+![image](assets/de/010.webp)
 
 
 #### Shitcoins und Kryptowährungen im Angebot 
@@ -259,10 +265,10 @@ Bevor du auf einen Link klickst oder eine Aktion durchführst, überprüfe immer
 Im Laufe der Jahre hat Bitcoin mehrere *Hard-Forks* erlebt, die zur Schaffung alternativer Versionen der ursprünglichen Kryptowährung führten. Einfach ausgedrückt ist ein *Hard Fork* eine Abspaltung im Netzwerk, die zu zwei getrennten Blockchains führt. Bis zum Zeitpunkt der Abspaltung haben beide dieselbe Geschichte. Diese Abspaltungen treten typischerweise auf, wenn ein Teil der Entwicklergemeinschaft oder des breiteren Bitcoin-Ökosystems grössere Änderungen am ursprünglichen Protokoll einführen möchte, aber keinen breiten Konsens erreichen kann. Anstatt ihre Ideen aufzugeben, beschliessen sie, eine neue Version von Bitcoin (mit geänderten Regeln) zu starten, in der Hoffnung, dass die Nutzer und Miner stattdessen deinem Fork folgen werden.
 
 
-![BTC102-Bitcoin](assets/fr/007.webp)
+![image](assets/de/011.webp)
 
 
-Nicht alle *Hard-Forks* sind betrügerisch, da einige aus technischen oder ideologischen Meinungsverschiedenheiten innerhalb der Gemeinschaft entstehen. Andere werden jedoch von kommerziellen Interessen oder sogar unlauteren Motiven angetrieben. Die bekanntesten Beispiele für diese Hardforks sind **Bitcoin Cash (BCH)** und **Bitcoin Satoshi Vision (BSV)**. Diese 2017 bzw. 2018 eingeführten Alternativwährungen behaupten oft, "bessere Versionen" des ursprünglichen Bitcoin zu sein. Du werben mit angeblichen Vorteilen wie niedrigeren Transaktionsgebühren oder schnelleren Transaktionen aufgrund grösserer Blockgrössen. Diese technischen Änderungen gehen jedoch mit erheblichen Kompromissen in Bezug auf Sicherheit, Dezentralisierung und Robustheit einher; Eigenschaften, die mit den Grundprinzipien von Bitcoin in Konflikt geraten können.
+Nicht alle *Hard-Forks* sind betrügerisch, da einige aus technischen oder ideologischen Meinungsverschiedenheiten innerhalb der Gemeinschaft entstehen. Andere werden jedoch von kommerziellen Interessen oder sogar unlauteren Motiven angetrieben. Die bekanntesten Beispiele für diese Hardforks sind **Bitcoin Cash (BCH)** und **Bitcoin Satoshi Vision (BSV)**. Diese 2017 bzw. 2018 eingeführten Alternativwährungen behaupten oft, "bessere Versionen" des ursprünglichen Bitcoin zu sein. Sie werben mit angeblichen Vorteilen wie niedrigeren Transaktionsgebühren oder schnelleren Transaktionen aufgrund grösserer Blockgrössen. Diese technischen Änderungen gehen jedoch mit erheblichen Kompromissen in Bezug auf Sicherheit, Dezentralisierung und Robustheit einher; Eigenschaften, die mit den Grundprinzipien von Bitcoin in Konflikt geraten können.
 
 
 Abgesehen von den technischen Unterschieden nutzen diese alternativen Währungen oft die Verwirrung aus, um uninformierte Anleger anzulocken. Du kannst unlautere Marketingtaktiken anwenden. Diese zielen darauf ab, Neulinge absichtlich in die Irre zu führen, die glauben, sie würden echte Bitcoins (BTC) kaufen.
@@ -271,22 +277,22 @@ Abgesehen von den technischen Unterschieden nutzen diese alternativen Währungen
 Um nicht in diese Falle zu tappen, solltest du immer die Währung überprüfen, die du kaufst. Das ursprüngliche Bitcoin verwendet den Ticker **BTC**, während Bitcoin Cash und seine Derivate unterschiedliche Akronyme verwenden, wie BCH oder BSV.
 
 
-#### Unehrliche Influencer und gefälschte Gurus
+#### Unehrliche Influencer und falsche Gurus
 
 
 In dem Masse, in dem Kryptowährungen in der breiten Öffentlichkeit an Aufmerksamkeit gewinnen, ist in den sozialen Medien eine Welle von Influencern, selbsternannten Experten und sogenannten "Krypto-Gurus" entstanden. Während einige von ihnen wirklich lehrreiche Einblicke bieten, nutzen viele andere ihren Bekanntheitsgrad, um dubiose Projekte oder gefährlich riskante (und manchmal sogar betrügerische) Handelsstrategien zu fördern. Diese Personen sind in der Regel durch persönliche finanzielle Interessen motiviert und erhalten oft eine direkte oder indirekte Vergütung für die Förderung bestimmter Token oder Plattformen.
 
 
-![BTC102-Bitcoin](assets/fr/008.webp)
+![image](assets/de/012.webp)
 
 
 Diese Influencer setzen oft auf bewährte Taktiken, um Anfänger anzulocken: Sie präsentieren beeindruckende finanzielle Ergebnisse (die oft gefälscht oder nicht nachprüfbar sind), stellen einen luxuriösen Lebensstil als vermeintlichen Beweis für ihren Erfolg zur Schau und werben für "wundersame" Anlagestrategien. Das Ziel ist es, FOMO - die Angst, etwas zu verpassen - auszulösen und ihr Publikum zu impulsiven Entscheidungen und rücksichtslosen Investitionen zu bewegen.
 
 
-Es ist wichtig zu verstehen, dass die meisten "kostenlosen" Ratschläge dieser Persönlichkeiten nie wirklich kostenlos sind. Hinter der Fassade der Grosszügigkeit verbirgt sich oft eine kalkulierte Strategie, um die Menschen zum Kauf fragwürdiger Anlagen zu bewegen. Und selbst wenn einige Influencer ehrlich wären, wäre es fast unmöglich, ihre Ergebnisse zu reproduzieren. dein Erfolg hängt oft von einem bestimmten Timing, Insiderwissen oder einzigartigen Umständen ab, zu denen du einfach keinen Zugang hast.
+Es ist wichtig zu verstehen, dass die meisten "kostenlosen" Ratschläge dieser Persönlichkeiten nie wirklich kostenlos sind. Hinter der Fassade der Grosszügigkeit verbirgt sich oft eine kalkulierte Strategie, um die Menschen zum Kauf fragwürdiger Anlagen zu bewegen. Und selbst wenn einige Influencer ehrlich sind, ist es fast unmöglich, ihre Ergebnisse zu reproduzieren. Dein Erfolg hängt oft von einem bestimmten Timing, Insiderwissen oder einzigartigen Umständen ab, zu denen du einfach keinen Zugang hast.
 
 
-Manche Influencer laden dich ein, privaten, kostenpflichtigen Gruppen beizutreten. Darin behaupten sie, exklusive Handelssignale oder Insider-Tipps zu teilen, die schnelle und einfache Gewinne versprechen. In Wirklichkeit profitieren von diesen Gruppen hauptsächlich die Organisatoren selbst. Du nutzen ihre Anhänger oft als Liquiditätsquelle und veräussern im Wesentlichen Vermögenswerte zum persönlichen Vorteil. Die Abonnenten verlieren in der Regel Geld, da sie nicht so schnell reagieren können wie die Insider, die den Handel orchestrieren (siehe den Abschnitt über Pump & Dump-Systeme).
+Manche Influencer laden dich ein, privaten, kostenpflichtigen Gruppen beizutreten. Darin behaupten sie, exklusive Handelssignale oder Insider-Tipps zu teilen, die schnelle und einfache Gewinne versprechen. In Wirklichkeit profitieren von diesen Gruppen hauptsächlich die Organisatoren selbst. Sie nutzen ihre Anhänger oft als Liquiditätsquelle und veräussern im Wesentlichen Vermögenswerte zum persönlichen Vorteil. Die Abonnenten verlieren in der Regel Geld, da sie nicht so schnell reagieren können wie die Insider, die den Handel orchestrieren (siehe den Abschnitt über Pump & Dump-Systeme).
 
 
 In Anbetracht dieser Tatsache solltest du dir einige gute Gewohnheiten aneignen, um nicht in die Fallen unehrlicher Influencer zu tappen:
@@ -313,9 +319,9 @@ Jede Anlagestrategie hängt vom persönlichen Kontext, vom Timing, vom Wissen un
 Unrealistische Versprechungen oder garantierte Gewinne sind fast immer ein Zeichen von Manipulation. Denke daran: Nur weil jemand etwas selbstbewusst sagt, ist es noch lange nicht wahr.
 
 
-Denke immer daran, dass jeder, dem du im Bitcoin-Bereich oder im breiteren Krypto-Ökosystem begegnen, eine persönliche Agenda verfolgt, ob sie nun offen ausgesprochen oder zwischen den Zeilen versteckt wird. So etwas wie rein neutrale Informationen gibt es nicht. Auch dieser Kurs, BTC102, hat ein klares Ziel: *ein besseres Verständnis von Bitcoin zu fördern.*
+Denke immer daran, dass jeder, dem du im Bitcoin-Bereich oder im breiteren Krypto-Ökosystem begegnest, eine persönliche Agenda verfolgt, ob sie nun offen ausgesprochen oder zwischen den Zeilen versteckt wird. So etwas wie rein neutrale Informationen gibt es nicht. Auch dieser Kurs, BTC102, hat ein klares Ziel: *ein besseres Verständnis von Bitcoin zu fördern.*
 
-Deshalb ist es wichtig, dass du dir über die wahren Beweggründe hinter jedem von dir konsumierten Inhalt im Klaren sind. Und vergiss nie diese goldene Regel des Internets:
+Deshalb ist es wichtig, dass du dir über die wahren Beweggründe hinter jedem von dir konsumierten Inhalt im Klaren bist. Und vergiss nie diese goldene Regel des Internets:
 
 *Wenn ein Produkt oder eine Dienstleistung kostenlos zu sein scheint, bist du wahrscheinlich das Produkt.*
 
@@ -348,18 +354,20 @@ Sich vor Betrug zu schützen, ist ein wichtiger erster Schritt zum Schutz deines
 
 <chapterId>f0873bf2-6a6f-5485-bb7a-d84be14f404d</chapterId>
 
+:::video id=2a1b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d:::
 
 
-Sobald du dich mit Bitcoin beschäftigst, wirst du schnell feststellen, dass grundlegende Cybersicherheit nicht optional ist. Du ist unerlässlich. Scams und Betrug sind nur die Spitze des Eisbergs. Versehentlicher Datenverlust, Malware und kompromittierte Passwörter können ebenso verheerend sein, besonders wenn du deine eigenen Schlüssel verwaltest.
+
+Sobald du dich mit Bitcoin beschäftigst, wirst du schnell feststellen, dass grundlegende Cybersicherheit nicht optional ist. Sie ist unerlässlich. Scams und Betrug sind nur die Spitze des Eisbergs. Versehentlicher Datenverlust, Malware und kompromittierte Passwörter können ebenso verheerend sein, besonders wenn du deine eigenen Schlüssel verwaltest.
 
 
 Dieses Kapitel führt dich durch einige einfache, praktische Schritte, um deine digitale Hygiene zu verbessern und sich in diesem Bereich zu schützen.
 
 
-Wenn du tiefer einsteigen möchtest, bietet der SEC101-Kurs von Plan ₿ Network eine umfassende Aufschlüsselung der Cybersicherheitsstrategien, die speziell für Bitcoin-Nutzer entwickelt wurden.
+Wenn du tiefer einsteigen möchtest, bietet der SEC101-Kurs von Plan ₿ Academy eine umfassende Aufschlüsselung der Cybersicherheitsstrategien, die speziell für Bitcoin-Nutzer entwickelt wurden.
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 ### Warum Cybersecurity wichtig ist
 
@@ -379,25 +387,25 @@ Einer der am meisten übersehenen Aspekte der persönlichen Sicherheit besteht d
 Es wird auch dringend empfohlen, ein zuverlässiges Antivirenprogramm zu verwenden. Unter Windows ist der integrierte Windows Defender in der Regel für die meisten Benutzer ausreichend. Wenn du zusätzliche Funktionen oder Sicherheit wünschst, sind auch kommerzielle Optionen wie Kaspersky erhältlich. Unter macOS sind Malware-Bedrohungen in der Regel weniger verbreitet **aber nicht inexistent**, daher ist es immer noch ratsam, vorsichtig zu sein.
 
 
-![BTC102-Bitcoin](assets/fr/012.webp)
+![image](assets/de/013.webp)
 
 
 Abgesehen von Systemaktualisierungen und Virenschutz solltest du beim Herunterladen von Software von zweifelhaften Websites oder sogenannten "universellen" Download-Portalen äusserst vorsichtig sein. Wenn du ein Tool oder eine Anwendung benötigst, gehe immer direkt zur offiziellen Quelle; dadurch wird das Risiko der Installation von Malware, die als legitime Software getarnt ist, drastisch reduziert.
 
-Eine weitere kluge Angewohnheit ist es, die Authentizität und Integrität jeder Software zu überprüfen, bevor du sie auf deinem Computer installieren. Wenn du dir nicht sicher bist, wie das geht, haben wir eine spezielle Anleitung für dich. Du führt dich durch den Prozess:
+Eine weitere kluge Angewohnheit ist es, die Authentizität und Integrität jeder Software zu überprüfen, bevor du sie auf deinem Computer installierst. Wenn du dir nicht sicher bist, wie das geht, haben wir eine spezielle Anleitung für dich. Sie führt dich durch den Prozess:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
-Schliesslich solltest du regelmässig Sicherungskopien deiner wichtigen Daten erstellen. Ein externes Laufwerk oder eine SSD ist eine solide Option, um ein Duplikat deiner Dateien für den Fall eines plötzlichen Ausfalls, eines Hackerangriffs oder einer versehentlichen Löschung zu speichern. Du werden es dir später danken.
+Schliesslich solltest du regelmässig Sicherungskopien deiner wichtigen Daten erstellen. Ein externes Laufwerk oder eine SSD ist eine solide Option, um ein Duplikat deiner Dateien für den Fall eines plötzlichen Ausfalls, eines Hackerangriffs oder einer versehentlichen Löschung zu speichern. Du wirst es dir später danken.
 
 
 Wenn du Cloud-Lösungen bevorzugst, solltest du einen sicheren Dienst wie Proton Drive nutzen. Stelle nur sicher, dass die von dir gewählte Option deine Privatsphäre respektiert und eine starke Verschlüsselung bietet.
 
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
-Eine weithin empfohlene Sicherungsstrategie ist die "3-2-1-Regel". Du soll deine Daten vor versehentlichem Verlust, Cyberangriffen oder sogar Naturkatastrophen schützen.
+Eine weithin empfohlene Sicherungsstrategie ist die "3-2-1-Regel". Sie soll deine Daten vor versehentlichem Verlust, Cyberangriffen oder sogar Naturkatastrophen schützen.
 
 Die Idee ist einfach:
 
@@ -410,7 +418,7 @@ Die Idee ist einfach:
 Dieser Ansatz bietet eine hohe Ausfallsicherheit und trägt dazu bei, dass deine Daten auch dann überleben, wenn etwas ernsthaft schief geht.
 
 
-![BTC102-Bitcoin](assets/fr/013.webp)
+![image](assets/de/014.webp)
 
 
 ### Die Lösung für den ID-Albtraum
@@ -430,18 +438,18 @@ Ein Passwort-Manager bietet folgende Vorteile:
 Mit einem Passwortmanager musst du nie wieder auf "Passwort vergessen" klicken oder dich auf schwache, wiederverwendete Anmeldedaten verlassen. Ausserdem lassen sich die meisten Passwort-Manager nahtlos mit deinen Geräten (Desktop, Telefon, Tablet) synchronisieren und füllen sogar Anmeldeformulare automatisch aus, was den sicheren Zugang mühelos und effizient macht.
 
 
-![BTC102-Bitcoin](assets/fr/011.webp)
+![image](assets/de/015.webp)
 
 
 Es gibt viele Passwort-Manager, aber ich kann dir zwei solide Optionen empfehlen, je nach deinen Bedürfnissen. Wenn du etwas suchst, das einfach zu bedienen ist und sich nahtlos mit mehreren Geräten synchronisieren lässt, ist Bitwarden eine ausgezeichnete Wahl:
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Wenn du lieber alles lokal auf deinem eigenen Gerät speichern möchtest, ist KeePass eine gute Option:
 
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ### 2FA: doppelter Schutz
 
@@ -449,27 +457,27 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 In der Welt von Bitcoin bist du deine eigene Bank. Das bedeutet, dass du auch dein eigenes Sicherheitsteam bist. Selbst mit einem starken Passwort gibt es kein Nullrisiko - deshalb ist die Zwei-Faktor-Authentifizierung (2FA) so wichtig.
 
 
-![BTC102-Bitcoin](assets/fr/014.webp)
+![image](assets/de/016.webp)
 
 
 2FA fügt eine zweite Schicht des Schutzes hinzu, indem es einen zeitbasierten Einmalcode (normalerweise 6 Ziffern) erfordert, der von einer App wie Google Authenticator oder Authy generiert wird. Selbst wenn es also jemandem gelingt, dein Passwort zu erhalten, kann er ohne physischen Zugang zu deinem Telefon nicht auf dein Konto zugreifen.
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-![BTC102-Bitcoin](assets/fr/009.webp)
+![image](assets/de/017.webp)
 
 
 Wenn du 2FA aktivierst, stellst du sicher, dass du den Wiederherstellungsschlüssel für deine App an einem sicheren Ort speicherst. So kannst du deine Codes wiederherstellen, wenn du dein Telefon verlierst oder wechselst. SMS- oder E-Mail-basierte 2FA ist zwar besser als gar nichts, aber viel unsicherer. Bei einem SIM-Swap-Angriff, bei dem jemand die Kontrolle über deine Telefonnummer übernimmt, kann diese Art von Schutz leicht umgangen werden.
 
 
-![BTC102-Bitcoin](assets/fr/010.webp)
+![image](assets/de/018.webp)
 
 
 Für diejenigen, die noch einen Schritt weiter gehen wollen, bieten physische Schlüssel wie YubiKey ein noch höheres Mass an Schutz.
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ### Schutz deiner Privatsphäre
 
@@ -487,15 +495,15 @@ Der Schlüssel ist die Wahl des VPN-Anbieters. Vertrauenswürdige Anbieter zeich
 - Sie haben eine strikte No-Logs-Politik.
 
 
-![BTC102-Bitcoin](assets/fr/015.webp)
+![image](assets/de/019.webp)
 
 
-Wir haben auf Plan ₿ Network mehrere Anleitungen zur Verfügung, die dich bei der Einrichtung eines VPNs unterstützen können. Ich empfehle insbesondere IVPN oder Mullvad:
+Wir haben auf Plan ₿ Academy mehrere Anleitungen zur Verfügung, die dich bei der Einrichtung eines VPNs unterstützen können. Ich empfehle insbesondere IVPN oder Mullvad:
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 Zu den wichtigsten Massnahmen zum Schutz deiner Privatsphäre im Internet gehören auch:
 
@@ -504,21 +512,21 @@ Zu den wichtigsten Massnahmen zum Schutz deiner Privatsphäre im Internet gehör
 - Verwendung von Browsern, die auf den Schutz der Privatsphäre ausgerichtet sind, wie Firefox, Brave oder Tor (für mehr Anonymität);
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 
 
 - Verwendung einer **sicheren Mailbox** wie ProtonMail;
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 
 
 - Verschlüssle deine Dateien mit Tools wie Bitlocker (für Windows) oder VeraCrypt (plattformübergreifend verfügbar).
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 ### Schrittweises Vorgehen
 
@@ -535,10 +543,10 @@ Wenn du tiefer in die Welt von Bitcoin eintauchst, wirst du feststellen, dass di
 Kurz gesagt: Unterschätze die Cybersicherheit nicht, nimm dir die Zeit, um die Grundlagen zu schaffen, und denke daran, dass Beständigkeit der Schlüssel ist. Ohne eine gute digitale Hygiene können auch die besten Tools nicht viel für dich tun.
 
 
-Schauen dir auch [unsere Computer-Sicherheits-Tutorials](https://planb.network/tutorials/computer-security) auf Plan ₿ Network an.
+Schauen dir auch [unsere Computer-Sicherheits-Tutorials](https://planb.academy/tutorials/computer-security) auf Plan ₿ Academy an.
 
 
-![BTC102-Bitcoin](assets/fr/016.webp)
+![image](assets/de/020.webp)
 
 
 Im nächsten Kapitel werde ich dir einige weitere Tipps geben, die dir helfen sollen, deine Bitcoin-Reise mit Zuversicht anzutreten und die vielen Fallen zu vermeiden, die Neulinge überraschen können.
@@ -548,6 +556,8 @@ Im nächsten Kapitel werde ich dir einige weitere Tipps geben, die dir helfen so
 
 
 <chapterId>33134b3f-92c1-5185-afb6-88599e47e801</chapterId>
+
+:::video id=7e9f3b2c-4d1a-4c5e-8b0d-3a2c1d4e5f6b:::
 
 
 
@@ -570,7 +580,7 @@ Hier sind die wichtigsten Punkte, die wir gemeinsam durchgehen werden:
 - Denke langfristig und sei geduldig (sieh es als einen Marathon, nicht als einen Sprint).
 
 
-![BTC102-Bitcoin](assets/fr/017.webp)
+![image](assets/de/021.webp)
 
 
 ### Häufig zu vermeidende Fehler
@@ -608,7 +618,7 @@ Bitcoin steht allen offen, aber das bedeutet nicht, dass du unvorbereitet einste
 - Auf FOMO hereinfallen: Impulskäufe aus Angst, etwas zu verpassen, führen in der Regel zu schlechtem Timing und schlechten Entscheidungen. Geduld ist dein bester Verbündeter.
 
 
-![BTC102-Bitcoin](assets/fr/019.webp)
+![image](assets/de/022.webp)
 
 
 ### Festlegung einer Anlagestrategie
@@ -622,7 +632,7 @@ Lege zunächst dein **Budget** genau fest. Wähle nicht einfach eine beliebige Z
 Auf diese Weise kannst du sicherstellen, dass du dein finanzielles Wohlergehen nicht aufs Spiel setzt, insbesondere im Falle eines Marktabschwungs. Eine durchdachte Strategie ist die Grundlage für langfristige Widerstandsfähigkeit.
 
 
-![BTC102-Bitcoin](assets/fr/020.webp)
+![image](assets/de/023.webp)
 
 
 Sobald du dein Budget festgelegt hast, solltest du dir überlegen, wie du investieren willst. Eine der anfängerfreundlichsten und am häufigsten empfohlenen Methoden ist das Dollar Cost Averaging (DCA), bei dem du in regelmässigen Abständen (wöchentlich, monatlich usw.) einen festen Betrag von Bitcoin kaufst. Diese Strategie trägt dazu bei, deinen durchschnittlichen Einstiegspreis im Laufe der Zeit zu glätten und die emotionalen Auswirkungen von Preisschwankungen zu verringern. Für die meisten Menschen, insbesondere für Neueinsteiger, ist dies ein kluger Ansatz.
@@ -638,7 +648,7 @@ Am wichtigsten ist, dass du Investitionsentscheidungen nicht auf der Grundlage v
 
 Wenn du noch unsicher bist, **beginne mit dem Lernen**
 
-Verbringe ein paar Stunden damit, Bitcoin zu erforschen, sieh dir die kostenlosen Ressourcen von Plan ₿ Network an, lies ein paar Bücher, setze fünf Euros ein, nur um es auszuprobieren, und sehe dir einige hochwertige Inhalte online an. Bleibe neugierig. Je wohler du dich fühlst, desto leichter wird es dir fallen, deine Strategie zu überdenken, deinen Ansatz zu optimieren und mit Zuversicht weiterzumachen.
+Verbringe ein paar Stunden damit, Bitcoin zu erforschen, sieh dir die kostenlosen Ressourcen von Plan ₿ Academy an, lies ein paar Bücher, setze fünf Euros ein, nur um es auszuprobieren, und sehe dir einige hochwertige Inhalte online an. Bleibe neugierig. Je wohler du dich fühlst, desto leichter wird es dir fallen, deine Strategie zu überdenken, deinen Ansatz zu optimieren und mit Zuversicht weiterzumachen.
 
 
 ### Die Volatilität von BTC verstehen
@@ -647,7 +657,7 @@ Verbringe ein paar Stunden damit, Bitcoin zu erforschen, sieh dir die kostenlose
 Bitcoin ist für seine dramatischen Kursschwankungen bekannt. Schwankungen von 10 %, 20 % oder sogar 50 % innerhalb weniger Tage sind keine Seltenheit. Für Neueinsteiger kann diese Art von Volatilität verwirrend sein. Es ist leicht, sich während der Hausse vom Hype mitreissen zu lassen oder während des Abschwungs in Panik zu geraten; beides führt oft zu schlechten Entscheidungen, wie dem Verkauf mit Verlust.
 
 
-![BTC102-Bitcoin](assets/fr/021.webp)
+![image](assets/de/024.webp)
 
 
 Deshalb ist es entscheidend, **die Volatilität von Bitcoin zu verstehen und zu akzeptieren**, bevor du investierst. Diese Preisschwankungen sind kein Fehler, sondern ein Merkmal eines noch nicht ausgereiften Vermögenswerts. Wenn plötzliche Auf- und Abschwünge dich nachts wachhalten oder zu emotionalen Entscheidungen zwingen, hast du wahrscheinlich mehr investiert, als du riskieren möchtest. In diesem Fall solltest du einen Schritt zurücktreten und deine Strategie und Risikotoleranz neu bewerten. Zögere nicht, deine Position zu verkleinern, bis du dich wieder wohler fühlst.
@@ -662,7 +672,7 @@ Vor allem solltest du nie mehr investieren, als du es dir leisten kannst, zu ver
 Eine der leistungsfähigsten (und oft unterschätzten) Funktionen des Bitcoin ist die **Selbstverwaltung**. Bei einem selbst gehosteten Wallet bist du allein für dein Geld verantwortlich. Diese Wallets werden in der Regel aus einer **Wiederherstellungsphrase** (auch bekannt als Seed-Phrase) generiert, einer Folge von 12 oder 24 Wörtern, die dir vollen Zugriff auf deine BTC gewährt. Wenn du diese Phrase verlierst (oder wenn jemand anderes sie in die Hände bekommt), sind deine Bitcoins für immer weg. **Kein Kundendienst. Kein Reset-Knopf.**
 
 
-![BTC102-Bitcoin](assets/fr/023.webp)
+![image](assets/de/025.webp)
 
 
 Deshalb lautet die goldene Regel in Bitcoin:
@@ -670,7 +680,7 @@ Deshalb lautet die goldene Regel in Bitcoin:
 "***Nicht deine Schlüssel, nicht deine Münzen***" (not your key, not your coins). Wenn du nicht persönlich die Kontrolle über deine privaten Schlüssel hast, gehört dir deine Bitcoins nicht wirklich. Börsen können zwar praktisch sein (vor allem zu Beginn), aber sie halten deine Schlüssel für dich. Das bedeutet, dass dein Geld in Gefahr ist, wenn die Plattform gehackt wird, dein Konto einfriert oder bankrott geht.
 
 
-![BTC102-Bitcoin](assets/fr/024.webp)
+![image](assets/de/026.webp)
 
 
 Um dieses Risiko zu vermeiden, wird dringend empfohlen, ein **eigenes Wallet** einzurichten, bei dem nur du Zugriff auf die Wiederherstellungsphrase hast. Diese Phrase sollte immer handschriftlich notiert und **offline** an einem sicheren Ort gespeichert werden. Manche Benutzer **erhalten sogar mehrere Sicherungskopien**, die zur zusätzlichen Sicherheit an verschiedenen geografischen Orten aufbewahrt werden.
@@ -684,7 +694,7 @@ Ein einziger Hack oder eine Datenverletzung kann zu irreversiblen Schäden führ
 Wenn du bereit bist, die volle Verantwortung für deine Bitcoins zu übernehmen und tiefer in die bewährten Verfahren zur Sicherung deiner Wiederherstellungsphrase eintauchen möchten, empfehle ich dir diesen Artikel:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ### Vertraulichkeit und Diskretion
 
@@ -708,7 +718,7 @@ Es ist auch ratsam, deine Online-Aktivitäten **aufzuteilen**. Zum Beispiel:
 Wenn du bereit bist, tiefer in das Thema Bitcoin-Datenschutz einzusteigen, empfehlen wir dir, mit unserem Jahr-2-Datenschutzkurs fortzufahren, in dem du fortgeschrittene Techniken lernst, um deine Identität und deine Aktivitäten zu schützen:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Steuerliche Implikationen
 
@@ -718,13 +728,13 @@ Obwohl es sich um eine dezentralisierte Währung handelt, ist **Bitcoin nicht vo
 In einigen Ländern werden die Gewinne beim Verkauf als Kapitalerträge besteuert. In anderen musst du unter Umständen jeden Handel angeben, und in einigen Ländern gelten weniger gängige Regeln, wie Vermögenssteuern oder Sozialabgaben.
 
 
-![BTC102-Bitcoin](assets/fr/018.webp)
+![image](assets/de/027.webp)
 
 
 Es wird dringend empfohlen, vor grösseren Transaktionen einen Steuerfachmann zu konsultieren oder die offiziellen Leitlinien deiner Regierung zu lesen. Wenn du dir die Zeit nimmst, deine steuerlichen Verpflichtungen im Voraus zu verstehen, kannst du dich vor unerwarteten Problemen (wie Geldstrafen, Prüfungen oder Bussgeldern) schützen, insbesondere wenn du grössere Verkäufe oder Portfolioumschichtungen planst.
 
 
-![BTC102-Bitcoin](assets/fr/022.webp)
+![image](assets/de/028.webp)
 
 
 ### Der Unterschied zwischen Handeln, Investieren und Halten
@@ -787,7 +797,7 @@ Ein guter Ausgangspunkt ist das Buch *Rich Dad, Poor Dad* von Robert T. Kiyosaki
 Wenn du bereit bist, tiefer einzusteigen, bieten Podcasts wie *The Investors Podcast* aufschlussreiche Diskussionen über Investitionen, Märkte und wirtschaftliche Grundsätze. Du behandeln gelegentlich auch Bitcoin und sind damit ein solider nächster Schritt für diejenigen, die verstehen wollen, wie Bitcoin in die breitere Finanzlandschaft passt.
 
 
-![BTC102-Bitcoin](assets/fr/025.webp)
+![image](assets/de/029.webp)
 
 
 ### Goldene Regeln, die es zu beachten gilt
@@ -818,6 +828,8 @@ Wenn du diese Grundsätze befolgst, kannst du Bitcoin-Investitionen mit mehr Kla
 
 <chapterId>ae122ad9-9b4d-5229-9038-e1b99d5cfc83</chapterId>
 
+:::video id=3c2d1e4f-5a6b-7c8d-9e0f-1a2b3c4d5e6f:::
+
 
 In diesem Kurs geht es in erster Linie darum, dich durch den Erwerb und die Sicherung deiner ersten Bitcoins zu führen. Doch bevor wir uns den praktischen Schritten zuwenden (wie man BTC kauft, welche Wallets man verwendet und so weiter), ist es wichtig, einen Schritt zurückzutreten und zu verstehen, was Bitcoin wirklich ist. Wenn du die tiefere Natur von Bitcoin begreifst, wirst du verstehen, warum sich Millionen von Menschen dieser Technologie zuwenden und warum es entscheidend ist, die Grundlagen zu verstehen, bevor du deine Ersparnisse in einen so neuen und unbeständigen Vermögenswert investierst.
 
@@ -840,7 +852,7 @@ Diese Herausforderung blieb bis Ende 2008 ungelöst, als jemand unter dem Namen 
 Das Projekt wurde stark vom Cypherpunk-Ethos beeinflusst, einer Gemeinschaft von Entwicklern und Denkern, die an den Einsatz von Kryptographie zum Schutz der individuellen Online-Freiheiten glaubten. Für sie waren Datenschutz und Dezentralisierung keine technischen Vorlieben, sondern ideologische Notwendigkeiten. Bitcoin erwies sich als die erfolgreichste Verkörperung dieser Ideale: ein Peer-to-Peer-Geldnetzwerk, das jeder nutzen, niemand kontrollieren und jeder überprüfen konnte.
 
 
-![BTC102-Bitcoin](assets/fr/035.webp)
+![image](assets/de/030.webp)
 
 
 Die Cypherpunks sind eine informelle, internationale Gemeinschaft von Einzelpersonen, die sich für den Einsatz von Kryptographie zur Verteidigung der persönlichen Freiheiten im Internet einsetzen. Du glauben fest an das Recht des Einzelnen auf Privatsphäre, insbesondere in einer Welt, die zunehmend von staatlicher Überwachung und Datenausbeutung durch Unternehmen geprägt ist.
@@ -851,7 +863,7 @@ Die Wurzeln der Cypherpunk-Bewegung reichen bis in die frühen 1990er Jahre zur�
 Ein wichtiger Meilenstein in der Bewegung war 1992 die Einrichtung der Cypherpunks-Mailingliste, ein Forum, in dem Ideen, Projekte und politische Diskussionen über Datenschutz und Kryptografie gedeihen konnten. 1993 veröffentlichte Eric Hughes das Manifest der Cypherpunks, eine kurze, aber aussagekräftige Erklärung, die den Auftrag und die Überzeugungen der Gemeinschaft klar zum Ausdruck brachte.
 
 
-![BTC102-Bitcoin](assets/fr/032.webp)
+![image](assets/de/031.webp)
 
 
 Die Idee einer digitalen Währung, die unabhängig von einer zentralen Behörde funktioniert (wie Bitcoin), ist tief in der Philosophie der Cypherpunks verwurzelt.
@@ -871,19 +883,19 @@ In diesem Umfeld der Angst und Unsicherheit wurde Bitcoin geboren. Der Schöpfer
 Dies war nicht nur ein Datum oder ein technischer Hinweis, sondern ein stiller, aber kraftvoller Protest. Es zeigte, dass Bitcoin etwas radikal anderes sein sollte: ein Finanzsystem, das nicht von Banken, Rettungsaktionen oder Regierungsentscheidungen abhängt.
 
 
-![BTC102-Bitcoin](assets/fr/034.webp)
+![image](assets/de/032.webp)
 
 
 Viele interpretieren dies als das Ziel von Bitcoin: einen Weg zu bieten, Werte ohne Zwischenhändler zu übertragen, der durch klare Regeln kontrolliert wird, anstatt durch die oft unklaren Entscheidungen von Zentralbanken oder Regierungen.
 
 
-![BTC102-Bitcoin](assets/fr/033.webp)
+![image](assets/de/033.webp)
 
 
 Um dein Wissen über die Ursprünge von Bitcoin zu vertiefen, bieten wir einen kostenlosen, umfassenden und gut dokumentierten Schulungskurs zu diesem Thema an:
 
 
-https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
+https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 ### Ein dezentrales Netzwerk zur Wertübertragung
 
@@ -894,13 +906,13 @@ https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 Bitcoin ist definiert als ein "Peer-to-Peer-Electronic-Cash-System" Das bedeutet, dass sich jeder mit der entsprechenden Software (einem Bitcoin-Knoten) an das Netzwerk anschliessen und direkt mit anderen Nutzern interagieren kann, ohne sich auf einen zentralen Server zu verlassen. Das Ziel dieser Dezentralisierung ist es, zu verhindern, dass eine einzelne Instanz (wie eine Bank, eine Regierung oder ein grosses Unternehmen) das System kontrolliert, zensiert oder stoppt. Bitcoin arbeitet rund um die Uhr, weltweit und ist für jeden ohne Bedingungen zugänglich.
 
 
-![BTC102-Bitcoin](assets/fr/036.webp)
+![image](assets/de/034.webp)
 
 
 Vereinfacht ausgedrückt verfügt jeder Teilnehmer des Bitcoin-Netzes (ein so genannter "Knoten") über eine vollständige Kopie des Geschäftsbuchs, die als Blockchain bezeichnet wird. Wenn eine neue Transaktion stattfindet, wird sie an das Netzwerk gesendet. Die Miner bestätigen dann diese Transaktionen, indem sie sie zu Blöcken zusammenfassen, die dann am Ende der Kette angehängt werden (daher der Name "Blockchain").
 
 
-![BTC102-Bitcoin](assets/fr/029.webp)
+![image](assets/de/035.webp)
 
 
 #### Blockchain: ein Geschäftsbuch/Transaktionsjournal
@@ -909,7 +921,7 @@ Vereinfacht ausgedrückt verfügt jeder Teilnehmer des Bitcoin-Netzes (ein so ge
 Stell dir die Blockchain als ein riesiges Geschäftsbuch vor, bei dem jede Zeile eine Transaktion darstellt. In einem traditionellen Banksystem ist die Datenbank auf den Servern einer Bank gespeichert, die Änderungen vornehmen kann, wann immer sie will. Im Bitcoin hingegen werden **alle Änderungen im gesamten Netzwerk validiert**: Sobald ein neuer Block von Transaktionen zur Blockchain hinzugefügt wurde, ist es fast unmöglich, ihn später zu ändern. Diese dezentralisierte Validierung macht den 'Bitcoin Ledger' sicher und transparent.
 
 
-![BTC102-Bitcoin](assets/fr/027.webp)
+![image](assets/de/036.webp)
 
 
 ### Die Rolle der Bergleute und Proof-of-Work
@@ -931,7 +943,7 @@ Um die Knappheit von Bitcoin zu gewährleisten, ist eine Halbierung der Blocksub
 Schliesslich, um das Jahr 2140, wird die Subvention Null erreichen, da die Gesamtmenge von Bitcoin bei 21 Millionen Münzen endet. Diese vorhersehbare Emissionskurve imitiert die Knappheit physischer Rohstoffe wie Gold; ein Grund, warum Bitcoin oft als **digitales Gold** bezeichnet wird.
 
 
-![BTC102-Bitcoin](assets/fr/031.webp)
+![image](assets/de/037.webp)
 
 
 ### Bitcoins monetäre Eigenschaften
@@ -957,7 +969,7 @@ Diese eingebaute Knappheit ist ein grosser Anreiz für diejenigen, die sich von 
 Eine der am meisten unterschätzten Stärken von Bitcoin ist seine Teilbarkeit. Jeder Bitcoin kann in 100 Millionen Einheiten, so genannte Satoshis (oder kurz Sats), aufgeteilt werden. Das bedeutet, dass du nicht Zehntausende von Euro oder Dollar ausgeben musst, um anzufangen; Du kannst Bitcoins im Wert von wenigen Euro kaufen, bis hin zu winzigen Bruchteilen.
 
 
-![BTC102-Bitcoin](assets/fr/026.webp)
+![image](assets/de/038.webp)
 
 
 ### Offenheit und Transparenz
@@ -971,7 +983,7 @@ Bitcoin läuft auf einem öffentlichen, **Open-Source**-Protokoll (vor allem dur
 Dieses Mass an Transparenz macht es unglaublich schwierig, Hintertüren einzubauen oder geheime Änderungen vorzunehmen. Jeder, der über die technischen Fähigkeiten verfügt, kann einen Knoten betreiben, zur Entwicklung beitragen oder kompatible Tools erstellen. Bei Bitcoin wird das Vertrauen durch Code und Konsens erworben, nicht durch zentrale Kontrolle.
 
 
-![BTC102-Bitcoin](assets/fr/030.webp)
+![image](assets/de/039.webp)
 
 
 Diese Transparenz ist einer der Hauptgründe, warum die Menschen dem Bitcoin-Protokoll vertrauen; sie verhindert, dass eine kleine Gruppe von Entwicklern das Netz zu deinem eigenen Vorteil manipuliert. Bitcoin funktioniert nach einem einfachen, aber wirkungsvollen Prinzip: Wenn du mit den vorgeschlagenen Änderungen nicht einverstanden bist, steht es dir frei, deine Software nicht zu aktualisieren. In einigen Fällen wird dies keine Unterbrechung verursachen; Du bleibst weiterhin mit dem Rest des Netzwerks synchronisiert. In anderen Fällen kann dies jedoch zu einer so genannten Hard Fork führen, bei dem sich das Netz in zwei Teile spaltet und eine neue Version von Bitcoin geschaffen wird. Genau das ist 2017 mit der Spaltung zwischen Bitcoin (BTC) und Bitcoin Cash (BCH) passiert.
@@ -1022,13 +1034,13 @@ Bitcoin kann als "Zero to One" betrachtet werden: ein radikaler Bruch mit etabli
 Dennoch sorgt Bitcoin nach mehr als einem Jahrzehnt seines Bestehens weiterhin für Debatten und Begeisterung. Seine Akzeptanz nimmt zu, Lösungen auf der zweiten Technologieschicht (wie das Lightning Network) entstehen, um die Transaktionsgeschwindigkeit zu erhöhen und die Gebühren zu senken, und Unternehmen weltweit experimentieren mit neuen Anwendungsfällen. Es ist wahrscheinlich, dass Bitcoin die Zahlungssysteme und sogar die Art und Weise, wie wir Geld wahrnehmen, noch über Jahrzehnte hinweg beeinflussen wird.
 
 
-![BTC102-Bitcoin](assets/fr/028.webp)
+![image](assets/de/040.webp)
 
 
-Wenn du dein Wissen weiter ausbauen möchtest, kannst du den BTC101-Kurs auf dem Plan ₿ Network besuchen. Er bietet eine tiefergehende Untersuchung der technischen und wirtschaftlichen Grundlagen von Bitcoin.
+Wenn du dein Wissen weiter ausbauen möchtest, kannst du den BTC101-Kurs auf dem Plan ₿ Academy besuchen. Er bietet eine tiefergehende Untersuchung der technischen und wirtschaftlichen Grundlagen von Bitcoin.
 
 
-https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
+https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 Nach dieser Einführung in Bitcoin (die vielleicht etwas länger als fünf Minuten gedauert hat!) bist du nun besser gerüstet, um Bitcoins zu kaufen und sicher aufzubewahren. In den folgenden Kapiteln des Kurses werden wir tiefer in die Bedeutung von Bitcoin, die Funktionsweise seiner Industrie und die Entwicklung seiner verschiedenen Schichten eintauchen. Im nächsten Abschnitt werden wir besprechen, wie du deinen eigenen persönlichen Plan aufstellen kannst.
 
@@ -1036,6 +1048,8 @@ Nach dieser Einführung in Bitcoin (die vielleicht etwas länger als fünf Minut
 
 
 <chapterId>d4327ac4-9ff8-5192-b542-cb78c0bd0aa7</chapterId>
+
+:::video id=5f6e7d8c-9b0a-1c2d-3e4f-5a6b7c8d9e0f:::
 
 
 
@@ -1058,7 +1072,7 @@ Barack Obama bezeichnete Bitcoin einmal als eine "Schweizer Bank im Hosensack", 
 - Das Bitcoin ist internetfähig, d.h. jeder, der über einen Internetzugang verfügt, kann es nutzen.
 
 
-![BTC102-Bitcoin](assets/fr/037.webp)
+![image](assets/de/041.webp)
 
 
 Bitcoin kann als die wahre "Währung der Leute" angesehen werden. Es ist ein alternatives Währungssystem, das nicht von einer zentralen Behörde abhängt und auf unveränderlichen Regeln statt auf willkürlichen Entscheidungen beruht. Seine offene und zugängliche Natur macht es zu einem potenziell revolutionären Werkzeug für Milliarden von Menschen weltweit, unabhängig davon, ob sie vom traditionellen Bankensystem ausgeschlossen sind oder einfach eine souveränere Alternative suchen.
@@ -1067,7 +1081,7 @@ Bitcoin kann als die wahre "Währung der Leute" angesehen werden. Es ist ein alt
 Dies führt uns zu einer grundlegenden, fast philosophischen Frage, die Bitcoin-Enthusiasten in zwei grosse Weltanschauungen spaltet. Auf der einen Seite sehen die einen Bitcoin als eine Lösung zur Förderung der finanziellen Eingliederung. Du könnte den Milliarden von Menschen ohne Bankverbindung ermöglichen, endlich Zugang zu einer globalen monetären Infrastruktur zu erhalten. Auf der anderen Seite sehen einige Bitcoin als ein finanzielles Befreiungsinstrument. Es soll einen Ausweg für die Milliarden von Menschen bieten soll, die bereits in das Bankensystem integriert sind, sich aber aus dessen Abhängigkeit befreien und die volle Kontrolle über ihr Geld zurückgewinnen wollen. Diese Überlegung verdient unsere Aufmerksamkeit, und wir werden später noch ausführlicher auf sie zurückkommen.
 
 
-![BTC102-Bitcoin](assets/fr/044.webp)
+![image](assets/de/042.webp)
 
 
 ### Schutz vor Währungskrisen
@@ -1076,19 +1090,19 @@ Dies führt uns zu einer grundlegenden, fast philosophischen Frage, die Bitcoin-
 Seit Jahrhunderten hat die Welt Währungskrisen erlebt, die verheerende Auswirkungen auf die Bevölkerung hatten. Milliarden von Menschen leiden immer noch unter den Folgen einer schlecht geführten Geldpolitik, bei der die Manipulation vom Geldangebot und Zinssätzen zu systemischen Ungleichgewichten führt. Diese Krisen sind keine zufälligen Ereignisse - sie sind das Ergebnis eines Systems, das auf Interventionen und der Manipulation von Geld und Zeitwerten beruht.
 
 
-![BTC102-Bitcoin](assets/fr/045.webp)
+![image](assets/de/043.webp)
 
 
 Diese Krisen können viele verschiedene Formen annehmen. Bei einer Hyperinflation beispielsweise wird eine Währung durch die schrittweise Zerstörung der Kaufkraft der Menschen vernichtet. Das war in Ländern wie Simbabwe und Venezuela zu beobachten. Andererseits können strenge Währungskontrollen den Zugang zu Geldmitteln einschränken und den Einzelnen seiner wirtschaftlichen Freiheit berauben, wie es bei den Bankenbeschränkungen in Griechenland und im Libanon der Fall war.
 
 
-![BTC102-Bitcoin](assets/fr/047.webp)
+![image](assets/de/044.webp)
 
 
 Und schliesslich: wenn Regierungen ihre nationalen Währungen abwerten, werden die Ersparnisse der Menschen allmählich aufgezehrt; ein unsichtbarer, aber ständiger Abfluss deines Vermögens. In vielerlei Hinsicht wirkt dies wie eine versteckte Steuer. Solange die Geldpolitik in den Händen zentraler Behörden bleibt, werden sich diese Zyklen zwangsläufig wiederholen.
 
 
-![BTC102-Bitcoin](assets/fr/038.webp)
+![image](assets/de/045.webp)
 
 
 Bitcoin stellt eine mutige Alternative zu diesem Kreislauf chronischer monetärer Instabilität dar. Im Gegensatz zu staatlich herausgegebenen Währungen basiert es auf unveränderlichen, mathematisch basierten Regeln. Die Regeln werden durch Konsens durchgesetzt, nicht durch Regierungen oder Zentralbanken. Die Ausgabe neuer Tokens ist vorhersehbar und auf etwa 21 Millionen Münzen begrenzt. Dies macht es zu einer Form von gesundem Geld, das seinen Wert über lange Zeit behält. Da es keiner Zensur unterliegt, kann jeder Werte speichern und übertragen, ohne sich auf eine Institution verlassen zu müssen. Und dank seiner Teilbarkeit und Übertragbarkeit ist es sowohl zugänglich als auch praktisch: eine Finanzinfrastruktur für jedermann und überall.
@@ -1097,7 +1111,7 @@ Bitcoin stellt eine mutige Alternative zu diesem Kreislauf chronischer monetäre
 **Wusstest du schon?** Im Laufe der Geschichte gab es weltweit mindestens 56 dokumentierte Fälle von Hyperinflation. In vielen dieser Fälle brachen ganze Volkswirtschaften zusammen, wurden Ersparnisse vernichtet und Millionen in extreme Armut gestürzt. Schlimmer noch, diese monetären Zusammenbrüche dienten oft als Sprungbrett für politische Umwälzungen, die manchmal zu autoritären Regimen führten. Beispiele sind Deutschland in den 1920er Jahren und Chile in den 1970er Jahren.
 
 
-![BTC102-Bitcoin](assets/fr/039.webp)
+![image](assets/de/046.webp)
 
 
 Hanke, S. H., & Krus, N. (2013). *World Hyperinflations*. In R. Parker & R. Whaples (Eds.), The Handbook of Major Events in Economic History. Routledge Publishing. Abgerufen von https://ssrn.com/abstract=2130109
@@ -1112,7 +1126,7 @@ Der Zusammenbruch von Fiat-Währungen ist kein historischer Zufall; es ist ein M
 Die wachsende wirtschaftliche Ungleichheit in der Welt war schon immer ein fruchtbarer Boden für soziale Unruhen und den Aufstieg des politischen Extremismus. Die Geschichte zeigt, dass eine zu grosse Kluft zwischen Arm und Reich oft zu Spannungen, Krisen und sogar zum Aufstieg autoritärer Regime führt. Angesichts dieser Risiken ist der Schutz der finanziellen Freiheit nicht nur ein Luxus, sondern eine Notwendigkeit für jeden, der seine Unabhängigkeit bewahren und die Zukunft seiner Familie sichern will.
 
 
-![BTC102-Bitcoin](assets/fr/046.webp)
+![image](assets/de/047.webp)
 
 
 Aber welche Möglichkeiten die Ersparnisse zu schützen gibt es in einer Welt, in der Staaten die volle Kontrolle über Vermögenswerte und Transaktionen ausüben können?
@@ -1136,7 +1150,7 @@ Bitcoin ist mehr als nur ein praktisches Werkzeug. Es ist auch **eine friedliche
 In diesem Sinne ist Bitcoin mehr als nur eine Technologie. Es ist ein Werkzeug des Naturrechts, eine Möglichkeit für den Einzelnen, seine Grundrechte geltend zu machen, selbst wenn diese Rechte durch die Gesetze des Landes verweigert werden. Es gibt den Menschen die Macht zurück, nicht durch eine Revolution, sondern durch einen Code.
 
 
-![BTC102-Bitcoin](assets/fr/040.webp)
+![image](assets/de/048.webp)
 
 
 **Wusstest du schon**? Bitcoin ist pseudonym, nicht anonym. Nutzer können Wallet-Adressen erstellen, ohne ihre wahre Identität preiszugeben, und so Geld ausserhalb des traditionellen Bankensystems senden und empfangen.
@@ -1160,7 +1174,7 @@ Wenn dein Vermögen nicht durch nicht-monetäre Vermögenswerte (wie Immobilien,
 Dies ist kein Fehler im System, sondern ein absichtlicher Mechanismus. Zentralbanken und Regierungen nutzen ihn, um das Wirtschaftswachstum künstlich anzukurbeln und die Menschen zu ständigem Konsum und steigenden Schulden zu drängen.
 
 
-![BTC102-Bitcoin](assets/fr/041.webp)
+![image](assets/de/049.webp)
 
 
 Unser modernes Finanzsystem ist auf einem Schuldenkreislauf aufgebaut, in dem die Kreditaufnahme nicht nur gefördert wird, sondern praktisch unvermeidbar ist. Der Einzelne nimmt Kredite auf, um seinen Lebensstil aufrechtzuerhalten. Dies nur, um dann in einem System gefangen zu sein, in dem er Zinsen an Banken zurückzahlen muss, die Geld aus dem Nichts erschaffen. Das ist kein Zufall, sondern eine strukturelle Konstruktion, die den Finanzinstituten auf Kosten der normalen Bürger zugute kommt.
@@ -1178,7 +1192,7 @@ Das bedeutet, dass Bitcoin in einem vorhersehbaren monetären Rahmen arbeitet. D
 In der Vergangenheit diente Gold als Schutz vor unkontrollierter Geldmengenausweitung. Doch seit dem Zusammenbruch des Goldstandards im Jahr 1971 ist keine nationale Währung (sei es der Dollar, der Euro oder der Yen) mehr durch einen materiellen Vermögenswert gedeckt. Diese Loslösung gab den Zentralbanken freie Hand, um ungehindert Geld zu drucken. Es ebnete den Weg für eine jahrzehntelange aggressive Geldmengenausweitung, wiederholte Vermögensblasen und wiederkehrende Finanzkrisen.
 
 
-![BTC102-Bitcoin](assets/fr/042.webp)
+![image](assets/de/050.webp)
 
 
 Wenn du Geld bei einer Bank einzahlst, gehört es dir nicht mehr wirklich.
@@ -1223,7 +1237,7 @@ Bitcoiner kommen aus allen Gesellschaftsschichten, doch sie haben eine gemeinsam
 - Ingenieure, Finanzexperten und Verfechter der Meinungsfreiheit, welche die tiefgreifenden gesellschaftlichen Auswirkungen dieses neuen Währungsparadigmas erkennen.
 
 
-![BTC102-Bitcoin](assets/fr/043.webp)
+![image](assets/de/051.webp)
 
 
 Bitcoin ist so konzipiert, dass es politische und ideologische Grenzen überschreitet. Es ist nicht links oder rechts, libertär oder kollektivistisch. Es handelt sich um ein neutrales Protokoll, das von Regeln (nicht von Regierungen) bestimmt wird, die für alle gleichermassen gelten. Dennoch stellt seine blosse Existenz den globalen finanziellen Status quo in Frage. Bitcoin ist zu einem Symbol des Widerstands geworden, weil die Menschen es als Alternative zu Fiat-Währungen und zentralisierter Finanzinfrastruktur angenommen haben; Systeme, die zunehmend als ungerecht, manipulierbar und ausgrenzend angesehen werden.
@@ -1234,7 +1248,7 @@ Für Cypherpunk ist Bitcoin mehr als ein digitaler Vermögenswert. Es steht gege
 Bitcoin ermöglicht zensurresistente, digitale Peer-to-Peer-Transaktionen, frei von Zwischenhändlern oder Torwächtern. Wie Satoshi Nakamoto es sich vorgestellt hat, bietet es das digitale Äquivalent von Bargeld: eine Möglichkeit, Werte frei und ohne Erlaubnis zu übertragen.
 
 
-![BTC102-Bitcoin](assets/fr/048.webp)
+![image](assets/de/052.webp)
 
 
 Bitcoin ist weder eine Organisation noch eine politische Partei, aber sie hat unbestreitbar eine starke philosophische Botschaft. Es definiert die Beziehung zwischen dem Einzelnen und dem Staat neu und stellt das Monopol der Zentralbanken auf Geldschöpfung und wirtschaftliche Kontrolle in Frage.
@@ -1242,7 +1256,7 @@ Bitcoin ist weder eine Organisation noch eine politische Partei, aber sie hat un
 Ob von Freiheitskämpfern oder von Menschen, die einfach nur ihre Kaufkraft erhalten wollen; Bitcoin markiert den Beginn einer neuen Ära; einer Ära, in der finanzielle Souveränität zu einem grundlegenden Menschenrecht wird, das für alle zugänglich ist.
 
 
-![BTC102-Bitcoin](assets/fr/049.webp)
+![image](assets/de/053.webp)
 
 
 Nachdem wir nun die tiefgreifende Bedeutung von Satoshi Nakamotos Erfindung erforscht haben, wird uns das nächste Kapitel in die aussergewöhnliche Industrie führen, die sich um dieses Protokoll herum entwickelt hat; ein ganzes Ökosystem, das Finanzen, Technologie und Gesellschaft umgestaltet.
@@ -1252,6 +1266,8 @@ Nachdem wir nun die tiefgreifende Bedeutung von Satoshi Nakamotos Erfindung erfo
 
 
 <chapterId>e106c6f1-d75b-5a62-b245-0ea2e4d02ef8</chapterId>
+
+:::video id=8a9b0c1d-2e3f-4a5b-6c7d-8e9f0a1b2c3d:::
 
 
 
@@ -1267,7 +1283,7 @@ Heute hat Bitcoin eine kritische Schwelle erreicht; einen Punkt, an dem es kein 
 Bitcoin ist eine radikale Innovation, ein Sprung von Null auf Eins. Du stellt einen totalen Bruch mit dem traditionellen Währungsparadigma dar. Für einige ist diese Störung eine Bedrohung, eine existenzielle Herausforderung für ihre etablierte Macht und ihre Privilegien. Für sie ist Bitcoin eine Büchse der Pandora, die niemals hätte geöffnet werden dürfen. Du werden sich mit allen ihnen zur Verfügung stehenden Mitteln dagegen wehren.
 
 
-![BTC102-Bitcoin](assets/fr/050.webp)
+![image](assets/de/054.webp)
 
 
 Andere hingegen sehen Bitcoin als eine einmalige Chance: ein Werkzeug für individuelle Freiheit, ein Katalysator für die Umgestaltung des globalen Finanzsystems und ein Weg zu einer transparenteren und gerechteren Alternative. Dies sind die Erbauer, Übernehmer und Mitwirkenden (jene, die unsere Zukunft gestalten).
@@ -1356,7 +1372,7 @@ Trotz mutigen Marketings konkurrieren diese Initiativen nicht mit Bitcoin; sie i
 Die Facebook-Währung war nie dazu gedacht, den Status quo in Frage zu stellen; sie wurde gebaut, um mit dem System zu arbeiten. Im Gegensatz dazu existiert Bitcoin völlig ausserhalb dieses Systems. Es bittet nicht um Erlaubnis. Es ist nicht auf Vertrauen angewiesen. Und es läuft seit über einem Jahrzehnt einwandfrei (ohne Vorgesetzte, Ausfallzeiten oder zentrale Kontrolle).
 
 
-![BTC102-Bitcoin](assets/fr/051.webp)
+![image](assets/de/055.webp)
 
 
 ### Regulierung und Regierungsansätze
@@ -1365,7 +1381,7 @@ Die Facebook-Währung war nie dazu gedacht, den Status quo in Frage zu stellen; 
 Bitcoin steht naturgemäss ausserhalb des traditionellen Rahmens. Es stützt sich nicht auf eine zentrale Behörde und kann nicht von einer einzelnen Einrichtung kontrolliert oder verändert werden. Aber während das Protokoll selbst immun gegen Regulierung ist, unterliegen die Teilnehmer, die mit ihm interagieren (Börsen, Unternehmen und Nutzer), immer noch den nationalen Gesetzen.
 
 
-![BTC102-Bitcoin](assets/fr/052.webp)
+![image](assets/de/056.webp)
 
 
 Da es sich bei Bitcoin um ein globales Netzwerk handelt, haben die Länder auf sehr unterschiedliche Weise reagiert:
@@ -1383,7 +1399,7 @@ Da es sich bei Bitcoin um ein globales Netzwerk handelt, haben die Länder auf s
 - Die meisten sind noch unentschlossen und experimentieren mit Vorschriften, während sie versuchen, ein Gleichgewicht zwischen Innovation und Aufsicht zu finden.
 
 
-![BTC102-Bitcoin](assets/fr/056.webp)
+![image](assets/de/057.webp)
 
 
 Regierungen und Institutionen haben oft Schwierigkeiten, Bitcoin genau zu klassifizieren (ist es Geld, Eigentum oder etwas völlig Neues?). Infolgedessen neigen die Vorschriften dazu, reaktiv und inkonsistent zu sein und sich ständig weiterzuentwickeln. Wenn du mit Bitcoin zu tun hast, musst du dich unbedingt über die örtlichen Gegebenheiten informieren. Dies vor allem, wenn es um Steuern, Bankzugang und Compliance-Vorschriften geht.
@@ -1416,7 +1432,7 @@ Börsen spielen eine wichtige Rolle im Bitcoin-Ökosystem, da sie als Brücke zw
 Börsen, welche die lokalen Vorschriften einhalten, müssen in der Regel strenge **"Know Your Customer "** (KYC)-Protokolle befolgen. Du verlangen von den Nutzern Ausweisdokumente, bevor diese auf die Dienste zugreifen können. Diese Verfahren sollen zwar illegale Aktivitäten verhindern, können aber die Privatsphäre, die Bitcoin von Natur aus bietet, beeinträchtigen.
 
 
-![BTC102-Bitcoin](assets/fr/053.webp)
+![image](assets/de/058.webp)
 
 
 KYC-Plattformen sammeln deine persönlichen Daten unter dem Deckmantel der Sicherheit. Diese Daten können von Regierungen ausgenutzt werden, um deine Finanztransaktionen zu überwachen und deinen Zugang zu bestimmten Geschäften zu beschränken.
@@ -1448,15 +1464,15 @@ Diese Plattformen ermöglichen es den Nutzern, Bitcoins direkt miteinander hande
 **Vorsicht:** Wähle für jede physische Transaktion einen öffentlichen und sicheren Ort, um möglichen Betrug zu vermeiden.
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
+https://planb.academy/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
 
-https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+https://planb.academy/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
-https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+https://planb.academy/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
-https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.academy/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
 
 - Bitcoin-only Exchange-Plattformen
@@ -1465,13 +1481,13 @@ https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-429
 Diese Plattformen verfolgen einen benutzerfreundlichen Ansatz und bieten einen einfachen, transparenten Service. Du sind Bitcoin-only. Du implementieren oft Lösungen für den Kauf von Bitcoins durch Dollar-Cost Averaging (DCA) und bieten automatische Abhebungen auf ein persönliches Wallet. Du eignen sich besonders für Anfänger, die Bitcoins auf progressive und sichere Weise anhäufen möchten. Beispiele: Relai, Bull Bitcoin, StackinSat, Bitstack...
 
 
-https://planb.network/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
+https://planb.academy/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
 
-https://planb.network/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
+https://planb.academy/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
-https://planb.network/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
+https://planb.academy/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
 
 
 - Universell einsetzbare oder handelsorientierte Exchange-Plattformen
@@ -1480,13 +1496,13 @@ https://planb.network/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-42
 Diese Plattformen bieten fortgeschrittene Funktionen, die über den einfachen Kauf von Bitcoin hinausgehen, einschliesslich Nutzung von Hebelwirkung (Leverage) und Derivaten. Wir raten jedoch dringend vom Handel ('Trading') ab. Stattdessen empfehlen wir, Bitcoin zu kaufen und es in dein eigenes Wallet zu übertragen. 'Trading' ist eine risikoreiche Tätigkeit und im Allgemeinen nicht für diejenigen geeignet, die auf eine langfristige Akkumulation ausgerichtet sind. Sich aus dem 'Trading' herauszuhalten, ist oft der klügere Weg.
 
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+https://planb.academy/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
 
-https://planb.network/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
+https://planb.academy/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
 
-https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
+https://planb.academy/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
 
-https://planb.network/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
+https://planb.academy/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
 
 **Exchange Plattformen sind keine sicheren Geldbörsen**. Wenn du deine Bitcoins auf einem Exchange lässt, setzt du dich einem erheblichen Risiko aus. Mehrere Szenarien können zum Verlust deines Geldes führen:
 
@@ -1551,7 +1567,7 @@ Das Mining-Ökosystem besteht aus mehreren wichtigen Akteuren:
 Mining ist eine Welt für sich, die es auf vielen Ebenen zu erforschen gilt; technische Herausforderungen, wirtschaftliche Anreize und energetische Überlegungen kommen alle ins Spiel. Für diejenigen, die diesen Bereich weiter erforschen und wirklich verstehen möchten, bietet unser MIN201-Kurs alles Wissenswerte.
 
 
-https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
+https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 #### Entwicklung im Ökosystem Bitcoin
 
@@ -1573,13 +1589,13 @@ Jeder kann Änderungen am Bitcoin Core vorschlagen, aber der Prozess ist absicht
 Innovationen sind willkommen, aber nur, wenn sie durch solide Argumente, einen Konsens der Gemeinschaft und sorgfältige Tests gestützt werden.
 
 
-![BTC102-Bitcoin](assets/fr/054.webp)
+![image](assets/de/059.webp)
 
 
 Entgegen dem, was manche glauben mögen, hat niemand die vollständige Kontrolle über Bitcoin, nicht einmal die Betreuer von Bitcoin Core. deine Aufgabe ist es, das Software-Repository zu verwalten, nicht das Protokoll selbst.
 
 
-![BTC102-Bitcoin](assets/fr/055.webp)
+![image](assets/de/060.webp)
 
 
 Selbst wenn ein Betreuer eine umstrittene Änderung genehmigen würde, hätte dies keine Auswirkungen auf das Netz, es sei denn, **Knoten (die von Benutzern betrieben werden)** nehmen diese Version tatsächlich an und führen sie aus. Letztendlich ist der Code von Bitcoin nur dann von Bedeutung, wenn die Menschen sich dafür entscheiden, ihn auszuführen.
@@ -1587,12 +1603,14 @@ Selbst wenn ein Betreuer eine umstrittene Änderung genehmigen würde, hätte di
 Es ist auch erwähnenswert, dass **Bitcoin Core nicht der einzige Client** ist. Alternativen wie Bitcoin Knots implementieren ebenfalls das Bitcoin-Protokoll, was den Nutzern mehr Auswahl bietet und die Dezentralisierung des Systems verstärkt:
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
 ## Die mehrschichtige Architektur von Bitcoin
 
 
 <chapterId>03017765-53cf-5f14-9682-e99ca02d2241</chapterId>
+
+:::video id=6b7c8d9e-0f1a-2b3c-4d5e-6f7a8b9c0d1e:::
 
 
 Bitcoin ist ein offenes System, das von Anfang an auf Minimalismus, Robustheit und Sicherheit ausgelegt ist. Es geht oft darum, Funktionen hinzuzufügen, ohne die Grundlagen zu verändern. Dabei werden Entwicklungen im Allgemeinen durch das Hinzufügen von **Protokollschichten** und ergänzenden Anwendungen vorgenommen, die das Ökosystem bereichern, ohne die Dezentralisierung und Widerstandsfähigkeit des Hauptsystems zu beeinträchtigen. Diese Flexibilität hat es zahlreichen Unternehmen und unabhängigen Entwicklern ermöglicht, eine Infrastruktur um Bitcoin herum aufzubauen und Innovationen hinzuzufügen, die an verschiedene Anwendungsfälle angepasst sind.
@@ -1614,7 +1632,7 @@ Zu den wichtigsten Overlay-Systemen, die das Bitcoin-Ökosystem bereichern, geh�
 Das Lightning Network wurde 2016 von Thaddeus Dryja und Joseph Poon entwickelt. Es ist eine Lösung auf der zweiten Schicht und ermöglicht schnelle und kostengünstige Zahlungen. Zwei Nutzer können einen privaten Kanal öffnen, in dem sie Transaktionen durchführen können. Dabei wird der Kontostand auf der Blockchain nur aktualisiert, wenn der Kanal geöffnet oder geschlossen wird. Die Transaktionen innerhalb des Kanals finden 'off-chain' statt, d.h. sie müssen nicht einzeln auf der Bitcoin-Blockchain aufgezeichnet werden. Diese Struktur ermöglicht sofortige Transaktionen und minimale Gebühren, was sie ideal für Transaktionen mit geringem Wert macht, die eine schnelle Bestätigung erfordern.
 
 
-![BTC102-Bitcoin](assets/fr/059.webp)
+![image](assets/de/061.webp)
 
 
 Nehmen wir an, du kaufst einen Kaffee mit Bitcoin unter Verwendung der Basisschicht. Damit die Zahlung bestätigt werden kann (und damit das Café sicher sein kann, dass du tatsächlich bezahlt hast), muss die Transaktion in einen Block aufgenommen werden. Das kann einige Minuten dauern, je nach der von dir gewählten Gebühr. Technisch gesehen sollte der Händler sechs Bestätigungen (etwa eine Stunde) abwarten, um sicher zu sein, dass die Zahlung endgültig ist. Diese Wartezeit ist natürlich nicht möglich, wenn du am Schalter stehst. Mit dem Lightning Network wird die Zahlung in nur wenigen Sekunden abgewickelt, so dass dein Kaffee bezahlt und serviert ist, bevor er überhaupt abkühlen kann.
@@ -1623,7 +1641,7 @@ Nehmen wir an, du kaufst einen Kaffee mit Bitcoin unter Verwendung der Basisschi
 Wenn du mehr über die Funktionsweise von Lightning erfahren möchtest, bieten wir einen ausgezeichneten Kurs für das zweite Studienjahr zu diesem Thema an:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 - 'Side-Chains' :
@@ -1641,7 +1659,7 @@ Das Konzept der Sidechains wurde 2014 von Adam Back, Matt Corallo, Luke Dashjr, 
 Wenn du dich eingehender mit Liquid beschäftigen möchtest, bieten wir einen Kurs für Fortgeschrittene im dritten Jahr zu diesem Thema an:
 
 
-https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
+https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 - RGB :
@@ -1653,13 +1671,13 @@ RGB ist ein dezentrales und datenschutzorientiertes Smart-Contract-System, das a
 Ein Hauptmerkmal von RGB ist der Schutz vor 'Double-spending' (Geld doppelt ausgeben), der durch eine kryptografische Technik namens 'Single-use Seals' erreicht wird. Dieser Mechanismus beruht auf der Tatsache, dass die UTXOs (Unspent Transaction Outputs) von Bitcoin nur einmal ausgegeben werden können. Die Authentizität der Tokens wird durch die benutzerseitige Validierung der gesamten Historie des Vertrags (von seiner Erstellung bis zu seinem aktuellen Zustand) sichergestellt.
 
 
-![BTC102-Bitcoin](assets/fr/060.webp)
+![image](assets/de/062.webp)
 
 
 Um deine Kenntnisse über RGB zu vertiefen, bieten wir einen Schulungskurs für das vierte Jahr an (bitte beachte, dass es sich um einen sehr technischen Kurs handelt):
 
 
-https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 
 RGB ist nur eines von vielen Protokollen, die auf Bitcoin aufbauen. Einige sind weiter verbreitet als andere, aber es kommen immer wieder neue hinzu. Der gemeinsame Nenner ist die Idee, jede Schicht für eine bestimmte Aufgabe zu optimieren und dabei die Integrität und Unveränderlichkeit des Basisprotokolls von Bitcoin zu bewahren.
 
@@ -1667,7 +1685,7 @@ RGB ist nur eines von vielen Protokollen, die auf Bitcoin aufbauen. Einige sind 
 Dieses mehrschichtige Design steht im Gegensatz zu einem Grossteil der breiteren Kryptoindustrie, die oft versucht, viele Funktionen in einem einzigen Protokoll zu bündeln. Indem wir Bitcoin einfach und eng fokussiert halten, reduzieren wir seine Angriffsfläche, was mehr Sicherheit bedeutet. Ein schlankes Protokoll ist leichter zu sichern, zu warten und zu skalieren. Bitcoin ist darauf ausgelegt, eine Sache extrem gut zu machen: solides, dezentralisiertes Geld bereitzustellen. Alles andere (Smart Contracts, Tokens, Zahlungen und mehr) kann darauf aufgesetzt werden und ermöglicht Innovationen, ohne den Kern zu gefährden.
 
 
-![BTC102-Bitcoin](assets/fr/058.webp)
+![image](assets/de/063.webp)
 
 
 Wusstest du schon, dass das Internet nicht auf einmal entstanden ist, sondern sich aus mehreren interoperablen Protokollen entwickelt hat? TCP/IP ist beispielsweise für die Netzwerkkommunikation zuständig, HTTP für das Internet, und viele andere Schichten erfüllen spezifische Funktionen. Jede Schicht ist für ihre Aufgabe optimiert, wodurch ein robustes und modulares System entsteht. Bitcoin folgt der gleichen Philosophie. Die Basis-Schicht ist stark und minimal, und zusätzliche Funktionen werden durch Schichtprotokolle wie Lightning, Liquid oder RGB hinzugefügt; jedes konzentriert sich auf die Lösung verschiedener Benutzeranforderungen, während die Grundlage intakt bleibt.
@@ -1682,17 +1700,17 @@ Heutzutage gibt es viele Tools für Händler, die Bitcoin als Zahlungsmittel akz
 Wenn du eine automatischere "hands-off"-Lösung bevorzugst und Fiat-Währungen direkt auf dein Bankkonto erhalten möchten, bieten Depotdienste wie OpenNode eine optimierte Erfahrung:
 
 
-https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 Für Händler, die technisch versierter sind und die volle Kontrolle über den Prozess haben möchten, ist BTCPay Server eine fantastische Open-Source-Option. Der grösste Nachteil ist, dass die Einrichtung und Wartung Zeit und einige technische Kenntnisse erfordert:
 
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 Irgendwo dazwischen findest du Swiss Bitcoin Pay, eine benutzerfreundliche und dennoch leistungsstarke Lösung, die ein gutes Gleichgewicht zwischen Benutzerfreundlichkeit, Funktionalität und Sicherheit bietet. Du eignet sich sowohl für kleine Einzelhändler als auch für grössere Unternehmen:
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 Die Annahme von Bitcoin kann für ein Unternehmen mehrere praktische und finanzielle Vorteile bringen. Genau wie Bargeld ermöglicht Bitcoin direkte Zahlungen zwischen dem Kunden und dem Händler (keine Notwendigkeit für eine traditionelle Bank). Zahlungen, die über das Lightning Netzwerk getätigt werden, sind sofort und endgültig, wodurch das Risiko von Rückbuchungen verringert wird. Und wenn Händler ihre eigenen Bitcoins halten (Selbstverwahrung), gewinnen sie grössere finanzielle Autonomie.
 
@@ -1712,7 +1730,7 @@ Darüber hinaus kann die Akzeptanz von Bitcoin ein kluger Marketingzug sein. Es 
 Wenn du herausfinden möchtest, wie Bitcoin in dein Unternehmen integriert werden kann (sei es als Zahlungsmethode, als Treasury-Vermögenswert oder beides), bieten wir einen auf diesen Bedarf zugeschnittenen Einsteigerkurs an:
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 Bitcoin ist als Zahlungsmittel auf dem Vormarsch und wird in vielen Branchen zunehmend angenommen. Der Lightning Netzwerk hat Zahlungen schneller und billiger gemacht, was die Attraktivität des Bitcoin für Händler weiter erhöht.
 
@@ -1722,7 +1740,7 @@ Wir sind an einem Punkt angelangt, an dem sich jeder in das Bitcoin-Ökosystem e
 Bitcoin ist jetzt nicht mehr zu stoppen.
 
 
-![BTC102-Bitcoin](assets/fr/057.webp)
+![image](assets/de/064.webp)
 
 
 ### Meine persönliche Sichtweise
@@ -1757,6 +1775,8 @@ Der nächste Schritt im Kurs: Wir gehen in die Praxis und helfen dir, dein Bitco
 
 <chapterId>c5d87903-a5f2-5eec-887a-f662734ce49b</chapterId>
 
+:::video id=1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d:::
+
 
 Nachdem du nun die theoretischen Grundlagen von Bitcoin kennengelernt hast, ist es an der Zeit, dich mit der praktischen Seite zu beschäftigen. In diesem Abschnitt erfährst du, wie du deine ersten Bitcoins erwirbst, wie du diese sicher aufbewahrst und wie du dein Vorgehen auf deine persönliche Situation abstimmen kannst. Das Ziel ist es, dir dabei zu helfen, herauszufinden, welcher Nutzertyp du bist. So kannst du eine Strategie wählen, die deinen Bedürfnissen und Einschränkungen entspricht.
 
@@ -1767,7 +1787,7 @@ Bitcoin ist nicht wie herkömmliche Vermögenswerte. Es erfordert einen durchdac
 Dieser Kurs geht davon aus, dass du gerade erst mit Bitcoin anfängst. Daher werden wir uns auf einfache, anfängerfreundliche Lösungen konzentrieren, die leicht einzurichten sind. Wir werden keine indirekten Expositionsmethoden wie Mining, den Kauf von Aktien von Bitcoin-bezogenen Unternehmen oder komplexe Finanzstrategien behandeln. Wir möchten dir dabei helfen, ein Wallet auszuwählen, das zu deiner Situation passt, und deine ersten Bitcoins sicher zu erwerben.
 
 
-![BTC102-Bitcoin](assets/fr/063.webp)
+![image](assets/de/065.webp)
 
 
 ### Warum solltest du dein Benutzerprofil definieren?
@@ -1790,7 +1810,7 @@ Hier sind einige der Faktoren, die du berücksichtigen solltest, wenn du herausf
 Jeder dieser Faktoren spielt eine Rolle bei der Ausarbeitung der richtigen Strategie für dich. Einige Nutzer legen Wert auf Einfachheit und Benutzerfreundlichkeit durch regulierte Dienste, während andere einen eher autonomen und datenschutzorientierten Ansatz bevorzugen.
 
 
-![BTC102-Bitcoin](assets/fr/064.webp)
+![image](assets/de/066.webp)
 
 
 Das werden wir als Nächstes erforschen: die verschiedenen Möglichkeiten zum Erwerb und zur Sicherung deiner Bitcoins, damit du auf der Grundlage deines Profils und deiner Ziele fundierte Entscheidungen treffen kannst.
@@ -1802,7 +1822,7 @@ Das werden wir als Nächstes erforschen: die verschiedenen Möglichkeiten zum Er
 Die Wahl der richtigen Strategie für den Erwerb und die Sicherung deiner Bitcoins beginnt mit einer ehrlichen Einschätzung deiner persönlichen Situation. Mehrere Faktoren beeinflussen diese Entscheidungen. Das sind einerseits die Risiken, denen du ausgesetzt bist, dein Lebensstil und auch wie du deine Bitcoins verwenden willst.
 
 
-![BTC102-Bitcoin](assets/fr/065.webp)
+![image](assets/de/067.webp)
 
 
 #### Potenzielle Risiken und Bedrohungen
@@ -1827,7 +1847,7 @@ Die Wahl der richtigen Strategie für den Erwerb und die Sicherung deiner Bitcoi
 Um deine Schwachstellen besser zu verstehen, bewerte jedes dieser Risiken auf einer Skala von 0 (niedrig) bis 10 (hoch). Diese Selbsteinschätzung wird dir helfen, die richtigen Schutzmassnahmen für die Zukunft zu priorisieren.
 
 
-![BTC102-Bitcoin](assets/fr/061.webp)
+![image](assets/de/068.webp)
 
 
 #### Lebensstil und persönliche Gewohnheiten
@@ -1874,7 +1894,7 @@ Hier sind die vier wichtigsten Punkte, die es zu beachten gilt:
 - Wie viel du umschlagen wirst
 
 
-![BTC102-Bitcoin](assets/fr/062.webp)
+![image](assets/de/069.webp)
 
 
 ### Geldbörsen und Sicherheitsstrategien
@@ -1883,7 +1903,7 @@ Hier sind die vier wichtigsten Punkte, die es zu beachten gilt:
 Die Sicherung deiner privaten Schlüssel (die den Zugang zu deinen Bitcoins ermöglichen) ist der wichtigste Teil des Besitzes und der Nutzung von Bitcoin. Im Gegensatz zu einem traditionellen Bankkonto, bei dem eine dritte Partei deine Gelder verwaltet, hast du bei Bitcoin die volle Kontrolle. Aber mit dieser Freiheit kommt auch Verantwortung: Wenn du deine Schlüssel verlierst, sind deine Bitcoins für immer verloren. Es gibt mehrere Arten von Geldbörsen, die du verwenden kannst. Jede hat ihre eigenen Vor- und Nachteile, je nach deinen Bedürfnissen und deiner Erfahrung.
 
 
-![BTC102-Bitcoin](assets/fr/067.webp)
+![image](assets/de/070.webp)
 
 
 #### Hot Wallet
@@ -2009,7 +2029,7 @@ Beispiele: Börsen wie Coinbase oder Binance, Finanzprodukte wie der Bitcoin ETF
 Wir empfehlen selbst Anfängern keine Verwahrungsdienste. Es ist viel besser, sich die Zeit zu nehmen und zu lernen, wie man seine Bitcoins richtig sichert, als zu riskieren, alles zu verlieren, weil jemand anderes versagt hat. Aber wenn du hier bist und über Geldbörsen und Schlüsselverwaltung liest, hast du wahrscheinlich schon verstanden, warum dieser Grundsatz wichtig ist.
 
 
-![BTC102-Bitcoin](assets/fr/068.webp)
+![image](assets/de/071.webp)
 
 
 Die Wahl des Wallet und der Sicherheitsmethode hängt davon ab, wie viel du speicherst, wie viel Fachwissen du hast und welche potenziellen Risiken du wahrnimmst. Ein hybrider Ansatz kann jedoch eine intelligente Option sein:
@@ -2023,13 +2043,13 @@ Die Wahl des Wallet und der Sicherheitsmethode hängt davon ab, wie viel du spei
 Wenn sich in deinem Hot Wallet zu viele Bitcoins ansammeln, kannst du einige davon in deinen Cold-Speicher übertragen. Wenn du andererseits mehr Bitcoins für deine täglichen Ausgaben benötigen, kannst du diese von deinem Cold Wallet abheben.
 
 
-![BTC102-Bitcoin](assets/fr/066.webp)
+![image](assets/de/072.webp)
 
 
 Letztlich hängt die Sicherheit weitgehend davon ab, wie du die Werkzeuge einsetzt. Ein Hardware Wallet wird dir nicht viel nützen, wenn du den Mnemonic-Satz verlierst, preisgibst oder kompromittierst. Vorsicht und Disziplin sind dein bester Schutz gegen den Verlust von Bitcoin. Um mehr darüber zu erfahren, empfehle ich dir, diesen Artikel zu lesen:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ### Erfassungsmethoden und Transaktionsvolumina
 
@@ -2037,7 +2057,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 Es gibt verschiedene Möglichkeiten, Bitcoins zu erwerben, je nachdem, wie viel Privatsphäre du benötigst, welche Vorschriften in deinem Land gelten und wie viel du erwerben möchtest. Es gibt zwei Hauptansätze:
 
 
-![BTC102-Bitcoin](assets/fr/070.webp)
+![image](assets/de/073.webp)
 
 
 #### Akquisition mit Identitätsüberprüfung (KYC)
@@ -2088,7 +2108,7 @@ Bitcoin zu kaufen, ohne die Identität preiszugeben, ist eine Option für diejen
 - P2P-Plattformen: Plattformen wie Bisq, RoboSats und Peach erleichtern den Austausch zwischen Privatpersonen, ohne dass eine Identitätsprüfung erforderlich ist, und nutzen Treuhandsysteme zur Sicherung von Transaktionen. Diese Plattformen bergen immer noch das Risiko eines Diebstahls, wenn die andere Partei nicht kooperiert, aber das Risiko wird durch Treuhanddienste minimiert.
 - Bitcoin Geldautomaten (ATMs): An einigen Geldautomaten (Kiosken) kannst du Bitcoin mit Bargeld kaufen, allerdings sind die Gebühren in der Regel hoch, und einige verlangen bei grösseren Transaktionen eine Ausweiskontrolle.
 - KYC-freie Exchange-Plattformen: Auf einigen Plattformen, insbesondere in der Schweiz, kannst du kleine Mengen von Bitcoin kaufen, ohne dass eine Identitätsprüfung erforderlich ist.
-- Mining: Privatpersonen können Bitcoin abbauen. Ältere oder kleinere Maschinen sind zugänglich und bieten eine nicht-traditionelle Möglichkeit, Bitcoin ohne KYC zu erwerben. Wenn du einem Mining-Pool beitrittst, kannst du regelmässige Auszahlungen erhalten, selbst mit einfacher Ausrüstung. Weitere Informationen finden du [in unseren Mining-Tutorials] (https://planb.network/tutorials/mining).
+- Mining: Privatpersonen können Bitcoin abbauen. Ältere oder kleinere Maschinen sind zugänglich und bieten eine nicht-traditionelle Möglichkeit, Bitcoin ohne KYC zu erwerben. Wenn du einem Mining-Pool beitrittst, kannst du regelmässige Auszahlungen erhalten, selbst mit einfacher Ausrüstung. Weitere Informationen finden du [in unseren Mining-Tutorials] (https://planb.academy/tutorials/mining).
 - Zahlungen/Gehalt in Bitcoins: Wenn du ein Unternehmen führst, kannst du Bitcoin als Bezahlung akzeptieren. Wenn du angestellt bist, kannst du je nach Gerichtsbarkeit darum bitten, in Bitcoin bezahlt zu werden. Diese Methoden ermöglichen es dir, Bitcoin ohne KYC zu erwerben.
 
 
@@ -2193,7 +2213,7 @@ Bevorzugte Strategie :
 Dieses Profil eignet sich besonders für Menschen, die in einem Bitcoin-feindlichen Umfeld leben, in dem der Besitz oder die Verwendung von BTC zu Sanktionen führen könnte. Es handelt sich um einen komplexeren Ansatz, der ein gewisses Mass an technischem Know-how und strenger Disziplin erfordert, um den Verlust des Zugangs zu den Mitteln zu vermeiden.
 
 
-![BTC102-Bitcoin](assets/fr/069.webp)
+![image](assets/de/074.webp)
 
 
 ### Welches Profil ist das richtige für dich?
@@ -2213,11 +2233,13 @@ In den nächsten Kapiteln werden wir jedes dieser Profile im Detail untersuchen,
 
 <chapterId>baf1adc2-3828-5265-8ee5-130be547585c</chapterId>
 
+:::video id=3f4e5d6c-7b8a-9c0d-1e2f-3a4b5c6d7e8f:::
+
 
 In der Bitcoin-Gemeinschaft bezieht sich der Begriff "hodler" auf jemanden, der einen langfristigen Investitionsansatz verfolgt. Das Wort entstand aus einem berühmten Tippfehler von "hold" im Bitcoin Talk-Forum vor Jahren und ist seitdem zu einem Symbol für Commitment geworden: Halte an deinem Bitcoin fest, egal was passiert, ohne dich über kurzfristige Marktschwankungen aufzuregen.
 
 
-![BTC102-Bitcoin](assets/fr/071.webp)
+![image](assets/de/075.webp)
 
 
 Hodler glauben an das Wertversprechen von Bitcoin. Mit einem festen Supply von 21 Millionen Münzen sehen sie Bitcoin als langfristigen Wertaufbewahrungsort (digitales Gold).
@@ -2252,22 +2274,22 @@ Das Wichtigste zuerst: Sicherheit. Ein Hardware Wallet ist ein Muss. Es speicher
 Hier sind einige Anleitungen für Geldbörsen, die für Hodler geeignet sind:
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+https://planb.academy/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
-https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
+https://planb.academy/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
 
 Sobald dein Wallet eingerichtet ist, sollten du deine 12- oder 24-Wort-Wiederherstellungsphrase auf einem dauerhaften physischen Medium sichern. In dieser Anleitung erfährst du mehr darüber, welches Medium du für deine Phrase wählen sollten:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Für zusätzlichen Seelenfrieden kannst du zusätzliche Schutzmassnahmen ergreifen:
 
@@ -2275,15 +2297,15 @@ Für zusätzlichen Seelenfrieden kannst du zusätzliche Schutzmassnahmen ergreif
 - Ein Wallet mit Mehrfachsignatur und Zeitschloss:
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
 
 
 - A BIP39 passphrase:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
-![BTC102-Bitcoin](assets/fr/073.webp)
+![image](assets/de/076.webp)
 
 
 #### 2. Bitcoin kaufen und zurückziehen
@@ -2295,15 +2317,15 @@ Hodler lassen ihre Münzen niemals auf Börsen liegen. Plattformen können gehac
 Da Hodler in der Regel grössere Beträge investieren, benötigen sie Börsen mit hoher Liquidität. Hier sind einige, die dafür in Frage kommen:
 
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+https://planb.academy/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
 
-https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
+https://planb.academy/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
 
-https://planb.network/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
+https://planb.academy/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
 
-https://planb.network/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
+https://planb.academy/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
 
-![BTC102-Bitcoin](assets/fr/074.webp)
+![image](assets/de/077.webp)
 
 
 Einige Hodler verfolgen auch einen hybriden Ansatz, indem sie DCA (Dollar Cost Averaging) verwenden, d.h. regelmässig kleine Beträge kaufen, um Marktschwankungen auszugleichen.
@@ -2346,14 +2368,14 @@ Ein paar bewährte Praktiken:
 Um deine Bestände zu überwachen, ohne deine privaten Schlüssel zu gefährden, solltest du ein 'Watch-only' Wallet verwenden. Damit kannst du Salden und Transaktionen nur mit deinen öffentlichen Schlüsseln verfolgen.
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 Die Strategie von Hodlern ist einfach, aber wirkungsvoll: kaufen, sichern und vergessen. Die eigentliche Herausforderung ist nicht technischer Natur, sondern psychologischer Natur. Am schwierigsten ist es, dem Drang zu widerstehen, zu früh zu verkaufen oder bei Kursrückgängen in Panik zu geraten. Aber wenn man diszipliniert bleibt und langfristig denkt, hat sich Hodling als zuverlässiger Weg erwiesen, Werte zu erhalten und langfristig Vermögen aufzubauen.
 
 
 
 
-![BTC102-Bitcoin](assets/fr/075.webp)
+![image](assets/de/078.webp)
 
 
 ### Bewerte dein Hodler-Profil
@@ -2370,7 +2392,7 @@ Wenn du dich in diesen Persönlichkeitsmerkmalen wiedererkennen, bist du wahrsch
 - Glaube an die Technologie: Die Hodlers sehen Bitcoin nicht nur als spekulative Anlage. Du glaubst an die Technologie und ihr bahnbrechendes Potenzial. Für viele geht es nicht nur um Geld; es geht um Freiheit. Bitcoin wird als widerstandsfähige, unpolitische Währung und als echte Alternative zum traditionellen Bankwesen angesehen, die dem Einzelnen mehr finanzielle Souveränität verleiht.
 
 
-![BTC102-Bitcoin](assets/fr/072.webp)
+![image](assets/de/079.webp)
 
 
 Hodling ist einfach, effektiv und zugänglich, auch für Anfänger.
@@ -2383,6 +2405,8 @@ Im nächsten Kapitel werden wir ein ähnliches, aber aktiveres Profil untersuche
 
 <chapterId>0daf450d-1b91-5d99-9c31-b52ab52a5e21</chapterId>
 
+:::video id=4e5f6a7b-8c9d-0e1f-2a3b-4c5d6e7f8a9b:::
+
 
 Im Bitcoin-Ökosystem ist ein Stacker jemand, der konsequent und langfristig Satoshis (oder "Sats"), die kleinste Einheit von Bitcoin, anhäuft. Anstatt eine grosse Summe auf einmal zu investieren, kauft ein Stacker regelmässig kleine Mengen von Bitcoin, unabhängig von den Marktbedingungen.
 
@@ -2390,7 +2414,7 @@ Im Bitcoin-Ökosystem ist ein Stacker jemand, der konsequent und langfristig Sat
 Die Idee ist einfach: Es wird immer nur etwa 21 Millionen Bitcoins geben, und jeder Bruchteil zählt. Die Aufgabe des Stackers ist es, kontinuierlich so viele Sats wie möglich anzuhäufen.
 
 
-![BTC102-Bitcoin](assets/fr/076.webp)
+![image](assets/de/080.webp)
 
 
 ### Warum eine Stacking-Strategie?
@@ -2428,43 +2452,43 @@ Ein Stapler braucht eine Wallet-Einrichtung, die Benutzerfreundlichkeit und lang
 - Hot Wallet : Ideal für Anfänger: Mit mobilen oder Desktop-Geldbörsen kannst du problemlos Sats empfangen und Zahlungen vornehmen. Sie sind jedoch am besten für kleine Beträge geeignet. On-Chain-Geldbörsen werden zum Stapeln gegenüber Lightning-Geldbörsen bevorzugt, da sie UTXO besser verwalten. Empfohlene Software-Geldbörsen: Green Wallet, Blue Wallet, Sparrow Wallet, Bitkit, Nunchuk, Aqua, Proton
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
-https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.academy/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
-https://planb.network/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
+https://planb.academy/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
-https://planb.network/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
+https://planb.academy/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
 
-https://planb.network/tutorials/wallet/desktop/proton-wallet-0bee0bba-ab62-4db0-8c63-b2ad698ca178
+https://planb.academy/tutorials/wallet/desktop/proton-wallet-0bee0bba-ab62-4db0-8c63-b2ad698ca178
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 
 
 - Hardware Wallet: Wenn deine Bitcoin-Bestände wachsen, ist die Sicherung deiner Gelder mit einem Cold Wallet unerlässlich, um das Risiko eines Diebstahls zu minimieren. Ein seriöser Stacker verschiebt regelmässig Gelder von seinem Hot Wallet in ein Hardware Wallet. Beispiele: Bitbox02, Trezor, Ledger, Coldcard, Jade...
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+https://planb.academy/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
-https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
+https://planb.academy/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
 
 Am effektivsten ist es, beide zu verwenden: ein Hot Wallet für die tägliche Stapelung und ein Hardware Wallet für die langfristige Lagerung. Das Hot Wallet ist einfach und bequem zu bedienen. Es ermöglicht es dir, deine Bitcoins schnell in Besitz zu nehmen, anstatt sie auf der Plattform zu lassen, wo sie einem Risiko ausgesetzt sein könnten. Im Vergleich zu einem Hardware Wallet bietet das Hot Wallet jedoch deutlich weniger Sicherheit. Der Stacker muss daher seine Gelder regelmässig auf sein Cold Wallet übertragen, um seine langfristigen Ersparnisse zu sichern und zu vermeiden, dass er zu viele Gelder im Hot Wallet hält. In regelmässigen Abständen konsolidiert der Stapler UTXOs, wenn er sie in das Cold-Wallet transferiert; er fasst kleine Eingänge zusammen, um zukünftige Transaktionsgebühren zu optimieren.
 
 
-![BTC102-Bitcoin](assets/fr/077.webp)
+![image](assets/de/081.webp)
 
 
 #### 2. Einen DCA-Einkaufsplan aufstellen
@@ -2481,43 +2505,43 @@ Dollar-Cost Averaging (DCA) ist eine Anlagestrategie, bei der du in regelmässig
 Als Nächstes hast du zwei Möglichkeiten, dein DCA einzurichten: es zu automatisieren oder manuell zu verwalten. Die meisten regulierten Handelsplattformen bieten inzwischen die Möglichkeit, dein DCA zu automatisieren. Wenn du genügend Guthaben auf deinem Konto hast, führt die Plattform deine Kaufaufträge automatisch auf der Grundlage der von dir festgelegten Parameter aus. Es gibt auch eine wachsende Zahl von Plattformen, die sich der DCA-Automatisierung verschrieben haben und zusätzliche Dienstleistungen wie automatische Abhebungen auf dein selbstverwahrtes Wallet oder das Aufrunden deiner täglichen Ausgaben anbieten. Wenn du eine regulierte Plattform nutzt, empfehle ich dir dringend, dein DCA zu automatisieren, damit du bei der täglichen Verwaltung mehr Sicherheit hast.
 
 
-![BTC102-Bitcoin](assets/fr/078.webp)
+![image](assets/de/082.webp)
 
 
 Beispiele für DCA-Plattformen:
 
 
-https://planb.network/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
+https://planb.academy/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
-https://planb.network/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
+https://planb.academy/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
 
 Mainstream-Börsen unterstützen DCA:
 
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+https://planb.academy/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
 
-https://planb.network/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
+https://planb.academy/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
 
-https://planb.network/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
+https://planb.academy/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
 
-https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
+https://planb.academy/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
 
-https://planb.network/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
+https://planb.academy/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
 
 Stacker wollen vielleicht auch ihre Privatsphäre schützen, auch wenn das nicht ihr primäres Ziel ist. In diesem Fall sollten sie eine P2P-Erwerbsmethode ausserhalb der regulierten Plattformen in Betracht ziehen. Im Gegensatz zu automatisierten DCA-Käufen müssen du bei diesen Methoden deine Kaufstrategie manuell verwalten, so dass Disziplin der Schlüssel zum Erfolg ist.
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
+https://planb.academy/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
 
-https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+https://planb.academy/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
-https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+https://planb.academy/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
-https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.academy/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
 #### 3. Abheben und Sichern von Bitcoins
 
@@ -2541,13 +2565,13 @@ Wichtige Gewohnheiten:
 - Überprüfe regelmässig deine Seed-Sicherungen und den Hardware Wallet-Status: Jetzt, wo deine Geldbörsen eingerichtet sind, ist es wichtig, eine regelmässige Überwachung einzurichten. Überprüfe regelmässig, ob dein Mnemonic-Satz noch an seinem Aufbewahrungsort vorhanden ist und ob sein undurchsichtiger Umschlag nicht geöffnet wurde. Bei diesen Kontrollen kannst du auch den Umschlag öffnen, um den Zustand des Mediums zu prüfen. Vergewissere dich, dass er unbeschädigt ist und der Satz noch einwandfrei lesbar ist. Wenn es Anzeichen für eine Beschädigung gibt, erstelle am besten eine neue Kopie von deinem Hardware-Wallet. Du kannst auch dein Hardware-Gehäuse regelmässig überprüfen.
 
 
-![BTC102-Bitcoin](assets/fr/080.webp)
+![image](assets/de/083.webp)
 
 
 Um die Überwachung zu erleichtern, ohne die Sicherheit zu beeinträchtigen, kannst du ein 'Watch-only' Wallet einrichten, um die Salden mit einem öffentlichen Schlüssel zu verfolgen.
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 ### Bewerte dein Staplerprofil
 
@@ -2563,7 +2587,7 @@ Erfolgreiche Stacker zeichnen sich durch diese Eigenschaften aus:
 - Langfristige Vision: Ein Stacker glaubt fest an das technologische Potenzial von Bitcoin. dein Schwerpunkt liegt nicht auf kurzfristigen Preisschwankungen, sondern auf dem stetigen Ausbau ihrer Bestände über die Jahre.
 
 
-![BTC102-Bitcoin](assets/fr/079.webp)
+![image](assets/de/084.webp)
 
 
 Kurzum, Stacking ist ideal für alle, die im Laufe der Zeit eine Bitcoin-Position aufbauen, das Volatilitätsrisiko reduzieren und die volle Souveränität behalten wollen, ohne an Charts zu kleben.
@@ -2577,11 +2601,13 @@ Als Nächstes werden wir ein völlig anderes Bitcoiner-Profil untersuchen: den a
 
 <chapterId>e0a022ab-207c-571f-b4ad-c432214a756c</chapterId>
 
+:::video id=5f6a7b8c-9d0e-1f2a-3b4c-5d6e7f8a9b0c:::
+
 
 Ein aktiver Bitcoin-Nutzer zu werden bedeutet, über langfristige Investitionsstrategien hinauszugehen. Anders als der Hodler oder der Stacker, die in erster Linie sparen, ohne etwas auszugeben, behandelt der aktive Nutzer Bitcoin als echtes Zahlungsmittel. Er nutzt es, um Waren und Dienstleistungen zu bezahlen und aktiv an der Gegenökonomie teilzunehmen.
 
 
-![BTC102-Bitcoin](assets/fr/083.webp)
+![image](assets/de/085.webp)
 
 
 ### Warum eine Strategie für aktive Nutzer?
@@ -2614,7 +2640,7 @@ Die aktive Nutzung von Bitcoin hilft dir, Erfahrungen in der Praxis zu sammeln. 
 Zu den Herausforderungen gehören die technische Komplexität, die Preisvolatilität und die Notwendigkeit einer guten Sicherheitshygiene, um den Verlust von Geldern zu verhindern.
 
 
-![BTC102-Bitcoin](assets/fr/086.webp)
+![image](assets/de/086.webp)
 
 
 ### Investitionsplan für einen aktiven Nutzer
@@ -2623,7 +2649,7 @@ Zu den Herausforderungen gehören die technische Komplexität, die Preisvolatili
 Die Einführung von Bitcoin für alltägliche Zahlungen erfordert einen durchdachten und strukturierten Ansatz. Im Gegensatz zu einem Hodler oder einem Stacker muss der aktive Nutzer sowohl die langfristige Sicherheit seiner Gelder als auch die Bequemlichkeit der täglichen Transaktionen verwalten. Das richtige Gleichgewicht zwischen der sicheren Aufbewahrung und dem einfachen Zugang zu den Geldmitteln ist entscheidend für das Gelingen dieser Strategie.
 
 
-![BTC102-Bitcoin](assets/fr/084.webp)
+![image](assets/de/087.webp)
 
 
 #### 1. Klare Trennung der Geldbörsen
@@ -2636,53 +2662,53 @@ Aktive Nutzer sollten zwei verschiedene Arten von Geldbörsen verwenden, um ein 
 - Ein Cold Wallet (Hardware Wallet) zur Sicherung langfristiger Einsparungen.
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+https://planb.academy/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
-https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
+https://planb.academy/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
 
-https://planb.network/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-513cca944ace
+https://planb.academy/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-513cca944ace
 
-https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
+https://planb.academy/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
 
-https://planb.network/tutorials/wallet/hardware/seed-signer-ee2c284a-0e23-49a4-b0ca-4a4702072973
+https://planb.academy/tutorials/wallet/hardware/seed-signer-ee2c284a-0e23-49a4-b0ca-4a4702072973
 
-https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
+https://planb.academy/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
 
 
 - Eine oder mehrere mobile Hot-Wallets für tägliche Transaktionen. In der Regel hat ein aktiver Nutzer sowohl ein 'on-Chain' Hot Wallet als auch ein Lightning Wallet.
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
-https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.academy/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
-https://planb.network/tutorials/wallet/mobile/lipa-61019fbd-deb7-4b3c-8cda-0402a4b2e780
+https://planb.academy/tutorials/wallet/mobile/lipa-61019fbd-deb7-4b3c-8cda-0402a4b2e780
 
-https://planb.network/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
+https://planb.academy/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-501d-439c-8691-d4a0d0de459b
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-501d-439c-8691-d4a0d0de459b
 
 Diese Trennung deiner Gelder trägt zur Risikominderung bei, falls das Wallet, das für die täglichen Zahlungen verwendet wird, kompromittiert wird.
 
@@ -2693,22 +2719,22 @@ Diese Trennung deiner Gelder trägt zur Risikominderung bei, falls das Wallet, d
 Aktive Nutzer wollen oft ihre Abhängigkeit von vertrauenswürdigen Dritten reduzieren, je nach ihren persönlichen Umständen. Eine der effektivsten Möglichkeiten, dies zu erreichen, besteht darin, einen eigenen Bitcoin-Knoten zu betreiben. Dadurch kannst du das Netzwerk unabhängig nutzen und gleichzeitig die Privatsphäre deiner Transaktionen verbessern.
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
-https://planb.network/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
+https://planb.academy/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
 
-https://planb.network/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
+https://planb.academy/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
 
-https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
+https://planb.academy/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
 
 Für diejenigen, die regelmässig den Lightning Netzwerk nutzen, kann die Verwaltung eines eigenen LND, LDK oder Core-Lightning-Knotens ein kluger Schritt sein. Es gibt dir die volle Kontrolle über das Öffnen und Schliessen von Kanälen, erhöht die Selbstsouveränität und kann sogar dazu beitragen, die Transaktionsgebühren zu senken; insbesondere im Vergleich zu automatisierten Lösungen wie Phoenix oder noch schlimmer, Lightning-Wallets mit Fremdverwahrung.
 
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
 
 #### 3. Regulärer Bitcoin-Erwerb
 
@@ -2716,7 +2742,7 @@ https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-41
 Aktive Nutzer müssen ein Gleichgewicht zwischen ihren langfristigen Ersparnissen und der Menge an Bitcoin finden, die sie für den täglichen Gebrauch bereithalten.
 
 
-![BTC102-Bitcoin](assets/fr/085.webp)
+![image](assets/de/088.webp)
 
 
 Es gibt verschiedene Möglichkeiten, Bitcoin zu erwerben, je nachdem, welchen Grad an Privatsphäre du wünschst:
@@ -2726,47 +2752,47 @@ Es gibt verschiedene Möglichkeiten, Bitcoin zu erwerben, je nachdem, welchen Gr
 - Traditioneller Kauf über regulierte Plattformen wie Bitfinex oder Bull Bitcoin (ideal zum Auffüllen deines Cold Wallets);
 
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+https://planb.academy/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
 
-https://planb.network/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
+https://planb.academy/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
 
-https://planb.network/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
+https://planb.academy/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
 
-https://planb.network/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
+https://planb.academy/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
 
-https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
+https://planb.academy/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
 
-https://planb.network/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
+https://planb.academy/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
-https://planb.network/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
+https://planb.academy/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
 
 
 - Non-KYC-Erwerb über Peer-to-Peer-Dienste wie Peach, Robosats oder Bitcoin-Geldautomaten; damit kannst du dein Wallet aufstocken, ohne persönliche Daten preiszugeben.
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
+https://planb.academy/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
 
-https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+https://planb.academy/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
-https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+https://planb.academy/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
-https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.academy/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
 
 - Verdiene Bitcoin: Als aktiver Nutzer geht es nicht nur darum, BTC auszugeben, sondern auch darum, sie zu verdienen. Wenn du ein Unternehmen führst, sollten du erwägen, Bitcoin als Zahlungsmittel zu akzeptieren. Wenn du Angestellter bist, prüfe, ob dein Arbeitgeber die Möglichkeit bietet, dein Gehalt ganz oder teilweise in BTC zu erhalten.
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
-https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
-![BTC102-Bitcoin](assets/fr/081.webp)
+![image](assets/de/089.webp)
 
 
 #### 4. Aktives Kostenmanagement
@@ -2784,7 +2810,7 @@ Um das Ausgeben von Bitcoin zu erleichtern, gibt es zahlreiche Tools, wie z.B. [
 Da wir uns noch in einer Übergangsphase befinden, in der nicht alle Händler des täglichen Lebens BTC akzeptieren, gibt es einige einfache, aber effektive Umgehungsmöglichkeiten. Zum Beispiel ist der Kauf von Geschenkkarten mit Bitcoin eine praktische Lösung, und viele Anbieter wie Bitrefill, Coinsbee oder The Bitcoin Company bieten diesen Service an.
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 #### 5. Technologisches Bewusstsein und Flexibilität
 
@@ -2811,7 +2837,7 @@ Bist du geeignet, ein aktiver Bitcoin-Nutzer zu sein? Hier sind die wichtigsten 
 - Finanzielle Disziplin: Du verwaltest deine Bitcoin Ausgaben und Ersparnisse mit Sorgfalt. Du weisst, wie wichtig es ist, deine täglichen Ausgaben von deinen langfristigen Ersparnissen klar zu trennen.
 
 
-![BTC102-Bitcoin](assets/fr/082.webp)
+![image](assets/de/090.webp)
 
 
 Zusammenfassend lässt sich sagen, dass der aktive Nutzer eine direkte Rolle dabei spielt, das Ökosystem von Bitcoin voranzutreiben. Indem du Bitcoin in deine täglichen Gewohnheiten einbeziehst, unterstützt du nicht nur die Akzeptanz des Produkts, sondern erweiterst auch dein eigenes Fachwissen.
@@ -2825,6 +2851,8 @@ Im nächsten Kapitel werden wir das letzte und vielleicht faszinierendste Bitcoi
 
 <chapterId>5c624acd-662e-5134-ab7a-fb75cde7c3f8</chapterId>
 
+:::video id=6a7b8c9d-0e1f-2a3b-4c5d-6e7f8a9b0c1d:::
+
 
 Für den paranoiden Bitcoiner ist die Privatsphäre nicht optional, sondern essentiell. In einer Welt, in der fast jede finanzielle Bewegung verfolgt wird, sehen sie den Schutz ihrer Identität und Transaktionshistorie als einen nicht verhandelbaren Teil der Nutzung von Bitcoin. Sie sind sich in der Regel der Risiken bewusst, die mit der Preisgabe persönlicher Daten verbunden sind (insbesondere bei der Nutzung von KYC-konformen Börsen, die eine Identitätsüberprüfung erfordern).
 
@@ -2832,7 +2860,7 @@ Für den paranoiden Bitcoiner ist die Privatsphäre nicht optional, sondern esse
 Für sie ist jede Handlung wichtig. Jede Transaktion, jede Wallet-Einrichtung und jede Interaktion mit dem Netzwerk wird sorgfältig geprüft. Ein einziger Ausrutscher könnte sensible Informationen preisgeben, die ihre Identität mit ihren Bitcoin-Beständen in Verbindung bringen. Ihr ultimatives Ziel? Bitcoin so zu nutzen, dass ihre Identität, ihr Standort und ihre finanzielle Situation völlig geheim bleiben.
 
 
-![BTC102-Bitcoin](assets/fr/087.webp)
+![image](assets/de/091.webp)
 
 
 ### Warum ein so vorsichtiger Ansatz?
@@ -2860,7 +2888,7 @@ Sie sind nicht einfach nur Investoren oder Nutzer; sie entscheiden sich gegen ei
 Der paranoide Bitcoiner verfolgt eine strikte Strategie, die auf zwei Kernzielen beruht: Wahrung der Anonymität und Maximierung der Sicherheit. Diese Art von Nutzer versucht, regulierte Plattformen (insbesondere solche, die KYC verlangen) zu vermeiden, die Rückverfolgbarkeit von Transaktionen zu eliminieren und ihre Gelder vor Überwachung, Beschlagnahme und anderen externen Bedrohungen zu schützen.
 
 
-![BTC102-Bitcoin](assets/fr/092.webp)
+![image](assets/de/092.webp)
 
 
 #### 1. Einrichten von Geldbörsen und Knotenpunkten
@@ -2873,23 +2901,23 @@ Der paranoide Benutzer mischt niemals Geldmittel nach Herkunft oder Verwendung. 
 - Ein Cold Wallet ('air-gapped' und/oder DIY): Langfristige Bestände werden in hochsicheren, 'air-gapped' oder DIY-Geldbörsen gespeichert. Dabei handelt es sich in der Regel um Open-Source-Geräte oder solche mit verifizierbarem Code, wie Jade, Coldcard, SeedSigner, Portal oder Passport... Wann immer es möglich ist, erwirb diese Geräte anonym; entweder durch Barzahlung oder mit Bitcoin in einem physischen Geschäft, oder durch Online-Bestellung mit diskreten Versandoptionen und BTC-Zahlungen. In Frankreich ist zum Beispiel [Bitcoin Bazar] (https://bitcoinbazar.fr/) ein solches Geschäft. Du kannst nach ähnlichen Anbietern in deiner Region suchen.
 
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
-https://planb.network/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-513cca944ace
+https://planb.academy/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-513cca944ace
 
 
 - Ein Hot Wallet für alltägliche Transaktionen: für regelmässige Ausgaben entscheiden sich paranoide Nutzer für datenschutzorientierte Geldbörsen wie Ashigaru, Wasabi Wallet oder Sparrow Wallet. Diese Wallets unterstützen fortgeschrittene Funktionen wie: Mini-CoinJoin-Ausgabetransaktionen, Payjoins, potenzielle CoinJoin-Tools, Münzkontrolle, UTXO-Tagging oder die Möglichkeit, eine Verbindung über deinen eigenen Bitcoin-Knoten herzustellen.
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
-https://planb.network/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6
+https://planb.academy/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6
 
-![BTC102-Bitcoin](assets/fr/089.webp)
+![image](assets/de/093.webp)
 
 
 
@@ -2897,43 +2925,43 @@ https://planb.network/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-80
 - Der Betrieb eines eigenen **Bitcoin-Knotens** ist unerlässlich. Er gewährleistet die volle Kontrolle über die Übertragung von Transaktionen und vermeidet die Abhängigkeit von der Infrastruktur Dritter. Ausserdem schützt es die Privatsphäre, verhindert Zensur und ermöglicht es, die Regeln des Bitcoin-Protokolls unabhängig zu überprüfen. Ob unter Linux, Windows, macOS oder über Plug-and-Play-Konfigurationen wie RaspiBlitz, myNode oder Start9 - der paranoide Nutzer betrachtet seinen Knoten als nicht verhandelbare Säule der Souveränität.
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
-https://planb.network/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
+https://planb.academy/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
 
-https://planb.network/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
+https://planb.academy/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
 
-https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
+https://planb.academy/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
 
 
 - Um Transaktionen über das **Lightning Network** abzuwickeln und dabei das gleiche Mass an Kontrolle und Diskretion zu wahren, betreiben sie auch ihren eigenen Lightning-Knoten. So kannst du die Kanäle direkt verwalten und die Ausgaben so tätigen, dass die Überwachung oder die Abhängigkeit von Verwahrungsdiensten minimiert wird.
 
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
 
-![BTC102-Bitcoin](assets/fr/090.webp)
+![image](assets/de/094.webp)
 
 
 Die Sicherheit hört damit nicht auf. Für die Sicherung von Seed-Sätzen verwendet der paranoide Benutzer Sicherungen auf Metall in Kombination mit manipulationssicheren versiegelten Umschlägen. Du überprüfst regelmässig, dass die Sicherungen unversehrt bleiben, und testest Wallet-Wiederherstellungsverfahren, um für alle Eventualitäten gerüstet zu sein.
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 Wenn es um die Sicherung von Ersparnissen geht, kannst du ausgefeiltere Systeme wie Geldbörsen mit mehreren Unterschriften (mit oder ohne Zeitschloss) einsetzen.
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
 
 Diese Konfigurationen verringern die Risiken. Die Hinzufügung eines BIP39 Passphrase zum Seed-Satz fügt einen weiteren Layer zum Schutz hinzu und stellt sicher, dass der Zugang zu den Geldern nicht durch eine einzige Entdeckung gefährdet werden kann.
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Ein paranoider Bitcoiner wird natürlich einen gut durchdachten Nachlassplan für seine Bitcoins haben. Dieses wichtige Thema wird im nächsten Teil des Kurses im Detail behandelt.
 
@@ -2945,50 +2973,50 @@ Im weiteren Sinne wendet dieser Nutzertyp einen fortschrittlichen, datenschutzbe
 - Betriebssysteme, sowohl auf deinem Telefon als auch auf deinem Computer;
 
 
-https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.academy/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
-https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.academy/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
 - Werkzeuge zur Authentifizierung ;
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 
 - Kommunikationsmittel;
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 
 - Werkzeuge zur Datenverwaltung.
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 Wenn du mehr über das Thema IT-Sicherheit erfahren möchtest, bieten wir dir einen kompletten Einsteigerkurs zu diesem Thema an:
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 #### 2. Anonymer Kauf von Bitcoins
 
@@ -3000,21 +3028,21 @@ Ein Grundprinzip des paranoiden Anlegers ist es, Bitcoin zu erwerben, ohne es mi
 - P2P-Kaufplattformen wie Bisq, Robosat, LNP2PBot, Peach, HODL, usw. ;
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
+https://planb.academy/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
 
-https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+https://planb.academy/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
-https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+https://planb.academy/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
-https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.academy/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
 
 - Persönlicher Bargeldhandel, zum Beispiel bei lokalen Bitcoin-Treffen;
 
 
-https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35
+https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35
 
 
 - Bitcoin Geldautomaten;
@@ -3022,16 +3050,16 @@ https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35
 - Mining Bitcoins.
 
 
-https://planb.network/tutorials/mining/hardware/attakai-0d177e6b-e167-4b25-8e38-4ec74213d1fb
+https://planb.academy/tutorials/mining/hardware/attakai-0d177e6b-e167-4b25-8e38-4ec74213d1fb
 
-https://planb.network/tutorials/mining/hardware/braiins-mini-miner-f5aec001-fb05-4e89-b3b2-a31abec1253c
+https://planb.academy/tutorials/mining/hardware/braiins-mini-miner-f5aec001-fb05-4e89-b3b2-a31abec1253c
 
-https://planb.network/tutorials/mining/hardware/bitaxe-d317e1a7-d775-401d-85df-51f4f2217566
+https://planb.academy/tutorials/mining/hardware/bitaxe-d317e1a7-d775-401d-85df-51f4f2217566
 
 Zentralisierte Börsen werden aufgrund der damit verbundenen Risiken - sowohl für die Privatsphäre als auch für eine mögliche Zensur oder Beschlagnahme - vollständig vermieden.
 
 
-![BTC102-Bitcoin](assets/fr/091.webp)
+![image](assets/de/095.webp)
 
 
 #### 3. Verhinderung der Rückverfolgung in der Blockchain
@@ -3054,7 +3082,7 @@ Du bist auch mit den Grundlagen der Blockchain-Überwachung vertraut und weisst,
 Für diejenigen, die sich eingehender mit 'on-chain' Datenschutz und Überwachungswiderstand befassen möchten, bieten wir im zweiten Jahr eine Fortbildung zu Bitcoin Datenschutzpraktiken an:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 #### 4. Wachsam bleiben und die Strategie aktualisieren
 
@@ -3091,7 +3119,7 @@ Hier sind die wichtigsten Merkmale eines paranoiden Bitcoiners:
 Wenn dir diese Merkmale bekannt vorkommen, ist diese Strategie wahrscheinlich genau das Richtige für dich. Das ist anspruchsvoll und erfordert konsequente Anstrengungen, aber bietet ein hohes Mass an finanzieller Souveränität und Schutz vor Überwachung, Beschlagnahme oder Rückverfolgung deiner Gelder.
 
 
-![BTC102-Bitcoin](assets/fr/088.webp)
+![image](assets/de/096.webp)
 
 
 Dieser Ansatz ist besonders wichtig, wenn du:
@@ -3116,6 +3144,8 @@ Im nächsten Abschnitt des Kurses werden wir ein wichtiges Thema besprechen, das
 
 
 <chapterId>233c88d3-2e8e-5eba-ac06-efe67a209038</chapterId>
+
+:::video id=7b8c9d0e-1f2a-3b4c-5d6e-7f8a9b0c1d2e:::
 
 
 Die Sicherstellung der Übertragung deiner Bitcoins ist eine Verantwortung, die oft übersehen wird, aber entscheidend ist. Die finanzielle Souveränität, die Bitcoin bietet, bringt auch die Notwendigkeit einer sorgfältigen Nachlassverwaltung mit sich. Andernfalls könnten sich deine Erben ausserstande sehen, auf deine hart erarbeiteten Gelder zuzugreifen. In diesem Kapitel werden wir die Grundlagen der Nachlassplanung im Zusammenhang mit Bitcoin untersuchen.
@@ -3160,7 +3190,7 @@ Dieses Kapitel ist inspiriert von der Arbeit von [Pamela Morgan](https://x.com/p
 [Pamela Morgan](https://x.com/pamelawjd) hat grosszügigerweise die Verwendung [ihrer Arbeit](https://www.amazon.com/gp/product/1947910116/) für diesen Kurs genehmigt, und wir werden diesem Ansatz folgen, um einen konkreten Bitcoin Nachlassplan zu erstellen. In diesem Kapitel werden wir uns auf den ersten Teil des Buches konzentrieren.
 
 
-![BTC102-Bitcoin](assets/fr/093.webp)
+![image](assets/de/097.webp)
 
 
 Um besser zu verstehen, wie man einen Bitcoin-Nachfolgeplan erstellt, betrachten wir das Beispiel von Cédric. Er ist ein typischer Bitcoin-Nutzer, der organisieren muss, wie sein Vermögen weitergegeben wird, wenn etwas Unerwartetes passiert.
@@ -3180,7 +3210,7 @@ Sein Profil:
 Unser Ziel ist es, einen einfachen, effektiven Plan zu erstellen, der auf Cédrics Profil zugeschnitten ist, bevor wir zu komplexeren Szenarien mit anderen Nutzertypen übergehen.
 
 
-![BTC102-Bitcoin](assets/fr/095.webp)
+![image](assets/de/098.webp)
 
 
 ### Bevor du beginnst
@@ -3203,7 +3233,7 @@ Vergewissere dich, dass du eine ruhige, ablenkungsfreie Umgebung hast, und stell
 - ein Computer (optional).
 
 
-![BTC102-Bitcoin](assets/fr/094.webp)
+![image](assets/de/099.webp)
 
 
 #### Häufige Missverständnisse bei der Nachlassplanung
@@ -3214,11 +3244,11 @@ Viele Menschen zögern diesen Schritt aufgrund falscher Vorstellungen hinaus, di
 
 
 - "*Ich muss einen Anwalt beauftragen.*" → **Falsch**. Ein Anwalt kann zwar bei rechtlichen Fragen hilfreich sein, aber ein technischer Bitcoin-Erbschaftsplan kann auch ohne ihn erstellt werden. Das Wichtigste ist, dass die Anweisungen klar und verständlich sind;
-- "*Ich muss einer dritten Partei vertrauen. " → **Falsch**. dein Plan kann so gestaltet werden, dass der Bedarf an Vertrauen minimiert wird, z.B. durch die Verteilung von Informationen auf mehrere Parteien oder die Verwendung von Lösungen mit mehreren Unterschriften, mit oder ohne Zeitsperre;
+- "*Ich muss einer dritten Partei vertrauen.*" → **Falsch**. dein Plan kann so gestaltet werden, dass der Bedarf an Vertrauen minimiert wird, z.B. durch die Verteilung von Informationen auf mehrere Parteien oder die Verwendung von Lösungen mit mehreren Unterschriften, mit oder ohne Zeitsperre;
 - "Ein gut durchdachter Plan schützt vor Diebstahlsversuchen und stellt gleichzeitig sicher, dass deine Erben dein Vermögen sicher zurückerhalten können. Es ist jedoch wichtig zu wissen, dass keine Lösung narrensicher ist: Ein Nachlassplan erhöht das Risiko eines Diebstahls, je nachdem, welche Informationen weitergegeben werden. Darauf werden wir später noch genauer eingehen;
 - "*Der Wert meiner Bitcoins ist zu gering, um zu planen.*" → **Falsch**. Es ist immer besser, im Voraus zu planen. deine Angehörigen kennen wahrscheinlich nicht die genaue Menge an Bitcoin, die du besitzt, und das ist auch gut so. Aber wenn dir etwas zustösst, würden sie es dann nicht zurückerhalten wollen, auch wenn sie den genauen Betrag nicht kennen? Der Wert von Bitcoin kann im Laufe der Zeit beträchtlich ansteigen. Daher ist es ratsam, ihnen den Zugriff auf dein Geld zu erleichtern und zu vermeiden, dass sie sich falsche Hoffnungen über den Wert machen oder nach etwas suchen, das möglicherweise nicht existiert.
 - "*Meine Erben werden es selbst herausfinden.*" → **Falsch**. Bitcoin ist nicht wie ein normales Bankkonto. Ohne klare Anweisungen können deine Angehörigen möglicherweise nie auf dein Geld zugreifen oder nur einen Teil davon finden. Im Gegensatz zu Bankkonten, bei denen Finanzinstitute oder Notare die Familienangehörigen im Todesfall kontaktieren, gibt es keinen Vermittler, der deine Familie über dein Bitcoin Wallet informieren wird. Daher musst du es ausdrücklich in deine Nachlassplanung aufnehmen;
-- "*Ein Smart contract kann alles verwalten " → **Falsch**. Ein Smart Contract, wie z.B. ein 'multi-sig' Wallet mit Zeitschloss, kann ein Teil der Lösung sein, aber er wird niemals einen gut strukturierten Plan ersetzen, insbesondere für Personen, die mit Bitcoin nicht vertraut sind. Beide Lösungen sind komplementär.
+- "**Ein Smart contract kann alles verwalten**" → **Falsch**. Ein Smart Contract, wie z.B. ein *multi-sig* Wallet mit Zeitschloss, kann ein Teil der Lösung sein, aber er wird niemals einen gut strukturierten Plan ersetzen, insbesondere für Personen, die mit Bitcoin nicht vertraut sind. Beide Lösungen sind komplementär.
 
 
 
@@ -3415,7 +3445,7 @@ Vergewissere dich vor dem Schluss, dass dein Schreiben Folgendes enthält:
 Fertige je nach deiner persönlichen Situation mehrere handschriftliche Kopien dieses Schreibens an und bewahre sie an einem sicheren Ort auf (in einem Safe, bei einer Vertrauensperson usw.). Informiere deine Erben über die Existenz dieses Nachlassplans, ohne jedoch unbedingt sofort den Inhalt preiszugeben. Als zusätzlichen Schutz kannst du den Brief in einen undurchsichtigen Umschlag stecken, um sicherzustellen, dass er nicht ohne deine Zustimmung eingesehen wurde.
 
 
-![BTC102-Bitcoin](assets/fr/096.webp)
+![image](assets/de/100.webp)
 
 
 Wende dich bei Bedarf an einen Rechtsanwalt oder Notar, um deinen Plan formell in einen rechtlichen Rahmen einzubinden.
@@ -3424,7 +3454,7 @@ Wende dich bei Bedarf an einen Rechtsanwalt oder Notar, um deinen Plan formell i
 **Glückwunsch!** Du hast einen entscheidenden Schritt zur Sicherung deines Bitcoin-Vermögens getan. Du kannst nun deinen Erbschaftsplan verfeinern, indem du ihn regelmässig überprüfst und fortschrittlichere Lösungen wie die Verringerung von Multisig-Einrichtungen mit Zeitschaltern erforschst:
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
 
 Referenz: [*Cryptoasset Inheritance Planning, A Simple Guide for Owners* - Pamela Morgan, 2018.](https://www.amazon.com/gp/product/1947910116/)
 
@@ -3439,6 +3469,8 @@ Besonderer Dank geht an [Pamela Morgan](https://x.com/pamelawjd) für ihre Arbei
 
 <chapterId>5f4cfab9-9af1-584b-a1fe-a0769a991f19</chapterId>
 
+:::video id=8c9d0e1f-2a3b-4c5d-6e7f-8a9b0c1d2e3f:::
+
 
 Wenn du es bis hierher geschafft hast, gehörst du jetzt zu einer aufgeklärten Minderheit! Nur sehr wenige Menschen kommen mit Bitcoin so weit, und du kannst stolz darauf sein, wie weit du gekommen sind. Vielleicht hast du alle in diesem Schulungskurs angebotenen Anleitungen befolgt: Du hast dein erstes Hardware Wallet eingerichtet, deine Rückgewinnungsphrase gesichert, einen Dollar-Cost-Averaging-Plan (DCA) erstellt, Bitcoin mit und ohne KYC erworben und sogar deine Bitcoin-Vererbung geplant. Jeder Schritt, den du gemacht hast, ist ein Sprung in Richtung wahrer finanzieller Souveränität.
 
@@ -3449,7 +3481,7 @@ Auch wenn du noch nicht alles gemacht hast, aber du hast dir vorgenommen, es bal
 Seit ich begonnen habe, die Menschen über Bitcoin aufzuklären, haben sich sowohl das Ökosystem als auch ich erheblich weiterentwickelt. Dieser Kurs wurde vollständig aktualisiert, um das Beste widerzuspiegeln, was Bitcoin heute zu bieten hat. Es war eine lange gemeinsame Reise!
 
 
-![BTC102-Bitcoin](assets/fr/097.webp)
+![image](assets/de/101.webp)
 
 
 ### Wie geht es mit Bitcoin weiter?
@@ -3470,7 +3502,7 @@ Natürlich gibt es weiterhin Herausforderungen: Regulierung, Datenschutz, breite
 Eine Sache ist sicher: Bitcoin wird weiterhin existieren und etwa alle 10 Minuten einen neuen Block produzieren, unermüdlich, Tag für Tag, Jahr für Jahr. Wir werden mehr Nutzer, Geldbörsen und Börsen sehen, aber auch mehr Vorschriften, technische Hürden, Krisen und Innovationen.
 
 
-![BTC102-Bitcoin](assets/fr/098.webp)
+![image](assets/de/102.webp)
 
 
 Da die globalen Krisen weitergehen und die Inflation die Kaufkraft von Fiat-Währungen untergräbt, wird Bitcoin natürlich mehr Menschen anziehen, die finanzielle Freiheit und individuelle Souveränität suchen. Diese Dynamik wird Bitcoin weiter stärken und neue Talente anziehen, um sein Protokoll, seine Skalierungsschichten und seine alltäglichen Anwendungsfälle in Bezug auf Sicherheit, Privatsphäre und Nutzen zu verbessern.
@@ -3508,39 +3540,39 @@ Deine Reise ist hier noch nicht zu Ende. Bitcoin ist eine Welt, die sich ständi
 - Um deine digitale Sicherheit zu erhöhen, beginne mit unserem Einführungskurs in die Sicherheit:
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 
 - Wenn du dich für die wirtschaftliche und philosophische Seite von Bitcoin interessierst, solltest du dir diese vertiefenden Kurse ansehen:
 
 
-https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
+https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
-https://planb.network/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
+https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
-https://planb.network/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
+https://planb.academy/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
 
 
 - Unternehmer, die daran interessiert sind, Bitcoin in ihre Unternehmensstrategie zu integrieren, sollten dies nicht verpassen::
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 
 - Um die faszinierende Geschichte hinter der Entstehung von Bitcoin und den ersten Jahren des Systems zu erfahren, kann ich diesen Kurs nur empfehlen:
 
 
-https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
+https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 
 - Wenn du neugierig auf die technischen Aspekte von Bitcoin und seinem Ökosystem sind, solltest du dir diese Schulungskurse ansehen:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 #### 3. Trage zum Bitcoin-Ökosystem bei
 
@@ -3554,7 +3586,7 @@ Bitcoin ist mehr als nur ein Finanzinstrument; es ist eine Bewegung. Je nach dei
 - Tritt einer lokalen Gemeinschaft bei: Nimm an Veranstaltungen, Treffen und Foren teil, um andere Bitcoiner zu treffen und dich über die neuesten Entwicklungen zu informieren.
 
 
-Wenn du helfen möchtest, andere zu unterrichten, sucht Plan ₿ Network immer nach Mitwirkenden! Alle unsere Bildungsinhalte sind Open-Source und werden auf GitHub gehostet. Wir freuen uns über Mitwirkende, die beim Korrekturlesen und Übersetzen von Inhalten in verschiedene Sprachen helfen; im Tausch für ein paar Sats! Ob jetzt oder später auf deiner Bitcoin Reise, du bist eingeladen, [unserer Telegram-Gruppe für Mitwirkende] (https://t.me/PlanBNetwork_ContentBuilder) von Plan ₿ Network beizutreten.
+Wenn du helfen möchtest, andere zu unterrichten, sucht Plan ₿ Academy immer nach Mitwirkenden! Alle unsere Bildungsinhalte sind Open-Source und werden auf GitHub gehostet. Wir freuen uns über Mitwirkende, die beim Korrekturlesen und Übersetzen von Inhalten in verschiedene Sprachen helfen; im Tausch für ein paar Sats! Ob jetzt oder später auf deiner Bitcoin Reise, du bist eingeladen, [unserer Telegram-Gruppe für Mitwirkende] (https://t.me/PlanBNetwork_ContentBuilder) von Plan ₿ Academy beizutreten.
 
 
 ### Letzte Worte
@@ -3563,7 +3595,7 @@ Wenn du helfen möchtest, andere zu unterrichten, sucht Plan ₿ Network immer n
 Vielen Dank, dass du den Kurs BTC102 besucht hast.
 
 
-Mein Name ist Rogzy, Gründer von Découvre Bitcoin und Mitbegründer von Plan ₿ Network; eine Plattform, die durch unsere unglaublichen neuen Partner, Tether und Fulgur Ventures, und durch unsere gemeinsame Mission, so viele Menschen wie möglich über Bitcoin aufzuklären, ermöglicht wird.
+Mein Name ist Rogzy, Gründer von Découvre Bitcoin und Mitbegründer von Plan ₿ Academy; eine Plattform, die durch unsere unglaublichen neuen Partner, Tether und Fulgur Ventures, und durch unsere gemeinsame Mission, so viele Menschen wie möglich über Bitcoin aufzuklären, ermöglicht wird.
 
 
 Dein Feedback ist uns sehr wichtig. Du kannst gerne Kommentare auf der Plattform hinterlassen und uns mitteilen, was du von dieser aktualisierten Version des Kurses hältst. Deine Anregungen helfen uns, die Qualität unserer Inhalte weiter zu verbessern.
@@ -3575,7 +3607,7 @@ Du bist nun bereit, die Abschlussprüfung abzulegen, einen Test mit 40 Fragen, d
 Viel Glück!
 
 
-Ich hoffe, dich bald in einem anderen Kurs über Plan ₿ Network wiederzusehen, sei es in einem meiner Kurse oder in einem Kurs eines anderen grossartigen Lehrers in der Gemeinschaft. Und wer weiss, vielleicht treffen wir uns sogar persönlich auf einer Konferenz, einer Veranstaltung oder einem Bitcoin-Treffen.
+Ich hoffe, dich bald in einem anderen Kurs über Plan ₿ Academy wiederzusehen, sei es in einem meiner Kurse oder in einem Kurs eines anderen grossartigen Lehrers in der Gemeinschaft. Und wer weiss, vielleicht treffen wir uns sogar persönlich auf einer Konferenz, einer Veranstaltung oder einem Bitcoin-Treffen.
 
 
 Nochmals herzlichen Glückwunsch, dass du so weit gekommen bist. Und denk daran: Mein Hauptziel wird immer das gleiche bleiben:
@@ -3613,7 +3645,6 @@ So vielen Menschen wie möglich durch Bitcoin zu finanzieller Souveränität zu 
 
 
 <isCourseConclusion>true</isCourseConclusion>
-
 
 
 

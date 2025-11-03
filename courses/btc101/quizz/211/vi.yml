@@ -1,11 +1,11 @@
-question: Bitcoin buộc các công ty, trường đại học, cơ quan quản lý và cá nhân phải thực hiện hành động gì?
-answer: Phải xem xét nó.
+question: Bản chất của việc áp dụng Bitcoin được mô tả trong khóa học này là gì?
+answer: Lan truyền nhanh chóng.
 wrong_answers:
-  - Bỏ qua nó.
-  - Cấm nó.
-  - Hình sự hóa nó.
-explanation: >-
-  Sự phát triển của Bitcoin buộc các công ty, trường đại học, cơ quan quản lý và cá nhân
-  phải xem xét công nghệ mới này. Cần phải tạo ra các công cụ mới, dịch vụ
-  cần được điều chỉnh, và đổi mới phải tiếp tục để đảm bảo sự tồn tại của họ.
+  - Chậm và ổn định.
+  - Nhanh chóng và không kiểm soát được.
+  - Thất thường và không dự đoán được.
+explanation: |
+  Văn bản của khóa học mô tả việc áp dụng Bitcoin như là lan truyền nhanh chóng,
+  cho thấy rằng nó lan rộng nhanh chóng và rộng khắp từ người này sang người khác,
+  giống như một loại virus, nhưng là loại tốt.
 reviewed: true

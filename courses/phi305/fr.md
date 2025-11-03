@@ -25,6 +25,8 @@ Le cours établit ensuite les parallèles fascinants entre cette révolution cop
 
 :::video id=1def60bc-1d39-4e49-9b08-fd05b7a0d49b:::
 
+
+
 Je suis heureux de vous présenter dans ce cours la philosophie de Baruch de Spinoza (1632-1677), célèbre philosophe du 17e siècle considéré comme le père de la philosophie rationnelle des Lumières. 
 
 ![image](./assets/fr/1.1.1.webp)
@@ -80,6 +82,8 @@ Même si, vous le savez, les choses sont actuellement en train d’évoluer dans
 
 :::video id=5fac3ddc-c472-4c64-8186-46a8f317e389:::
 
+
+
 Qui est donc Baruch de Spinoza ? Eh bien il s’agit d’un philosophe hollandais né en 1632 et mort à l’âge de 45 ans, en 1677. 
 
 De confession juive, il était membre de la communauté portugaise séfarade descendant des marranes chassés d’Espagne par les catholiques au 15e siècle et il fut donc élevé dans un milieu religieux et intellectuel, conscient de ce que signifie être persécuté. 
@@ -133,6 +137,8 @@ Que ces moyens soient d’ordre philosophiques ou technologiques, comme l’est 
 <chapterId>4cc66e25-335c-591d-9b78-83e5664bbbbc</chapterId>
 
 :::video id=065c5091-69e1-412f-acce-c763ec31d3b1:::
+
+
 
 Je vous propose dans ce chapitre de découvrir à présent l’œuvre majeure de Spinoza, intitulée Éthique, publiée à titre posthume, en 1677.
 
@@ -188,6 +194,8 @@ Autrement dit, « à lutter pour leur servitude comme s’ils luttaient pour l
 :::video id=c1efc97e-1e96-4b37-894c-9a19794d6b52:::
 
 
+
+
 Après l’Éthique, je souhaite dans ce chapitre vous présenter une autre œuvre majeure pour comprendre toute l’influence philosophique et politique de Spinoza, notamment sur les Lumières à venir et sur les courants libéraux et, pour ce qui nous concerne, libertariens. 
 
 Il s’agit du Traité théologico-politique, dit le TTP, publié anonymement en 1670. 
@@ -220,9 +228,9 @@ Le tristement célèbre tremblement de terre de Lisbonne, le 1er novembre 1755 m
 
 ![image](./assets/fr/2.2.4.webp)
 
-Ce terrible tremblement de terre détruisit la ville et tua des centaines de milliers de personnes innocentes, dont beaucoup étaient à l’église à ce moment-là, car il s’agissait du jour de la Pentecôte ce qui rajouta à l’incompréhension des rescapés.
+Ce terrible tremblement de terre détruisit la ville et tua des centaines de milliers de personnes innocentes, dont beaucoup étaient à l’église à ce moment-là, car il s’agissait du jour de la Toussaint ce qui rajouta à l’incompréhension des rescapés.
 
-Un drame qui raviva la question posée par le philosophe et mathématicien allemand Leibniz (1646-1716) sur la vision anthropomorphe d’un Dieu doué d’intention qui est bon et tout-puissant. Car si Dieu était bon, dit Leibnitz dans sa théodicée, alors il ne serait pas tout-puissant puisqu’il permettrait ce genre de catastrophe et s’il était tout-puissant, il ne serait alors pas bon non plus puisqu’il ne pourrait pas les empêcher.
+Un drame qui raviva la question posée par le philosophe et mathématicien allemand Leibniz (1646-1716) sur la vision anthropomorphe d’un Dieu doué d’intention qui est bon et tout-puissant. Car si Dieu était bon, dit Leibniz dans sa théodicée, alors il ne serait pas tout-puissant puisqu’il permettrait ce genre de catastrophe et s’il était tout-puissant, il ne serait alors pas bon non plus puisqu’il ne pourrait pas les empêcher.
 
 ![image](./assets/fr/2.2.5.webp)
 
@@ -242,6 +250,8 @@ C’est pourquoi le 18e siècle des Lumières, grâce à l’exercice de la rais
 <chapterId>3e6599e3-5b29-50a8-a67d-d0386da5d65d</chapterId>
 
 :::video id=b6d2c035-8848-4da6-9da9-be3b70be0f38:::
+
+
 
 Je vous propose à présent dans ce chapitre de faire un peu d’histoire des idées et de comprendre pourquoi le spinozisme est considéré comme une véritable révolution copernicienne des idées.
 
@@ -288,6 +298,8 @@ Autrement dit qu’ils seraient doués du libre arbitre, une croyance illusoire 
 <chapterId>f147a914-cb64-5927-b305-26691930bca3</chapterId>
 
 :::video id=b59da795-ba19-4643-9672-36c9e7953a42:::
+
+
 
 Dans ce cours, nous allons à présent évoquer la question délicate du libre arbitre afin de mieux saisir ce qu’est la liberté pour Spinoza, pour les Lumières et les premiers philosophes libéraux.
 
@@ -352,6 +364,8 @@ Enfin, si la croyance au libre arbitre est  une illusion dont il est extrêmemen
 
 :::video id=a0127fe7-a4cb-4a1c-8af4-f11c40b4a3d7:::
 
+
+
 Nous avons vu dans le précédant chapitre que l’illusion du libre arbitre consiste à croire que l’on pourrait donc commencer quelque chose à partir de rien, que seule notre volonté nous permettrait de diriger notre vie et que nous disposerions d’un pouvoir de décision indéterminé. C’est l’idée que l’homme serait en mesure de troubler l’ordre de la Nature plus qu’il ne le subit.
 
 Mais pour Spinoza (1632-1677), l’homme n’est pas « un empire dans un empire », c’est-à-dire qu’il n’est pas, contrairement à ce qu’établissait Descartes (1596-1650), une exception dans la nature et qu’il n’est jamais exonéré du prolongement de l’enchaînement déterministe des causes et des effets. 
@@ -403,6 +417,8 @@ Merci de votre attention et je vous retrouve dans le prochain chapitre.
 <chapterId>93554156-5e62-526d-9b71-49c47be916af</chapterId>
 
 :::video id=9c490cc1-3d29-4ca7-9464-1a701bb91ba7:::
+
+
 
 Dans ce dernier chapitre sur la nouvelle vision copernicienne des idées que nous offre le spinozisme, nous allons enfin évoquer la troisième illusion que présente Spinoza (1632-1677) dans son œuvre, l’Éthique.
 
@@ -465,6 +481,7 @@ Pour Spinoza, un État démocratique qui permet la liberté de penser est donc l
 
 :::video id=9c490cc1-3d29-4ca7-9464-1a701bb91ba7:::
 
+
 Je souhaite à présent évoquer avec vous la question du mal, tel que Spinoza (1632-1677) l’expose dans ses œuvres et dans sa correspondance.
 Mais attention, c’est un sujet complexe et controversé et il ne s’agit ici que de comprendre, encore une fois, sa manière de réfléchir afin de mieux saisir ce qui le guide, c’est-à-dire la recherche de la liberté.
 
@@ -507,6 +524,8 @@ Merci de votre attention et je vous retrouve dans la prochaine vidéo.
 <chapterId>3bb011ce-6f0c-51a6-b41f-25a3b5b7768e</chapterId>
 
 :::video id=bb427cc6-e54d-4b44-bd6d-281ba421001a:::
+
+
 
 Selon Spinoza, la liberté est donc un concept à découvrir, un chemin pour nous mener vers une vie meilleure, plus puissante. Plus libre. Un chemin qui passe par la reconnaissance du déterminisme absolu et du lien de causalité rationnelle des choses.
 
@@ -566,6 +585,8 @@ Et c’est la raison pour laquelle on dit souvent du spinozisme qu’elle est «
 <chapterId>b54f2532-460c-11f0-a248-93ff24ef1d57</chapterId>
 
 :::video id=5f49d5b4-e15f-475b-b40d-07464c08ca4d:::
+
+
 
 
 Vous le savez maintenant, la liberté selon Spinoza est donc une prise de conscience de notre déterminisme. Sous la conduite de la raison et grâce à notre capacité d’agir, nous pouvons ainsi comprendre le mécanisme causal des servitudes afin de lutter contre elles, ne plus les subir, et ne plus agir contre nos propres intérêts. 

@@ -1,0 +1,9 @@
+question: Quelle est la première étape à suivre en cas de bug sur Umbrel ?
+answer: Générer un bundle de diagnostics
+wrong_answers:
+  - Réinstaller Bitcoin Core et refaire l'IBD
+  - Effacer le cache
+  - Désactiver le 2FA
+explanation: |
+  En cas de problème, on commence par générer un bundle de diagnostics dans la section de dépannage pour analyser le bug et conserver une trace.
+reviewed: false

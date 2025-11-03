@@ -1,0 +1,11 @@
+question: Ni uruhara uruhe rw’ukuzigama mu bihe vy’ukudakeka?
+answer: Amahera yo kuzigama akora nk’umuti wo kurwanya ukudakeka, agatanga amahera yo gucungera ibintu bitari bitezwe.
+wrong_answers:
+  - Kuzigama si ngombwa mu bihe vy’ukudakeka.
+  - Amafaranga azigamiwe akoreshwa mu gutuma ubutunzi butera imbere mu bihe vy’ukudakeka.
+  - Amahera azigamiwe akoreshwa mu kwishura imyenda mu bihe vy’ukudakeka.
+explanation: |
+  Kuzigama vyamye ari umuti wo kurwanya ukudakeka. Kugira amafaranga
+  ibizigama kugira ngo umuntu ashobore guhangana n’ibintu bitari bitezwe biratuma umuntu agira amahoro yo mu mutima kandi bikamukomeza .
+  ubumwe bw’abantu.
+reviewed: false

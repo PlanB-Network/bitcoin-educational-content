@@ -1,5 +1,5 @@
 ---
-name: Oturum
+name: Session
 description: Meta verileri değil, şifrelenmiş mesajları gönderin
 ---
 ![cover](assets/cover.webp)
@@ -99,13 +99,13 @@ Daha sonra iki bildirim yönetimi modu arasında seçim yapmanız gerekecektir:
 
 
 
-- Hızlı mod ("*Firebase Cloud Messaging/Apple Push Notification Service*")**: Google veya Apple tarafından sağlanan bildirim hizmetleri sayesinde (sisteminize bağlı olarak) mesaj bildirimlerini neredeyse gerçek zamanlı olarak almanızı sağlar. Bunun çalışması için, IP Address ve benzersiz bir bildirim kimliğiniz Google veya Apple'a iletilir ve Oturum hesap kimliği de bir STF sunucusuna (Tor aracılığıyla) kaydedilir. Bu mod, meta verilerin (kuşkusuz minimum düzeyde) açığa çıkmasını içerir, ancak mesaj içeriğini veya kişileri tehlikeye atmaz ve gerçek etkinliğinizin izlenmesine izin vermez. Bu nedenle bu mod yanıt verme açısından daha verimlidir, ancak merkezi bir altyapıya dayanır ve gizlilik açısından biraz daha az etkilidir.
+- Hızlı mod (**Firebase Cloud Messaging/Apple Push Notification Service**): Google veya Apple tarafından sağlanan bildirim hizmetleri sayesinde (sisteminize bağlı olarak) mesaj bildirimlerini neredeyse gerçek zamanlı olarak almanızı sağlar. Bunun çalışması için, IP Address ve benzersiz bir bildirim kimliğiniz Google veya Apple'a iletilir ve Oturum hesap kimliği de bir STF sunucusuna (Tor aracılığıyla) kaydedilir. Bu mod, meta verilerin (kuşkusuz minimum düzeyde) açığa çıkmasını içerir, ancak mesaj içeriğini veya kişileri tehlikeye atmaz ve gerçek etkinliğinizin izlenmesine izin vermez. Bu nedenle bu mod yanıt verme açısından daha verimlidir, ancak merkezi bir altyapıya dayanır ve gizlilik açısından biraz daha az etkilidir.
 
 
 
 
 
-- Yavaş mod (*arka planda yoklama*)**: Oturum uygulaması arka planda aktif kalır ve yeni mesajlar için ağı periyodik olarak yoklar. Bu yaklaşım, üçüncü taraf sunuculara hiçbir veri iletilmediği için ilkine göre daha fazla gizliliği garanti eder; ne Google, Apple ne de STF sunucuları herhangi bir bilgi almaz. Öte yandan, bu modun iki dezavantajı vardır: bildirimler gecikebilir (birkaç dakikaya kadar) ve arka plandaki uygulama etkinliği nedeniyle enerji tüketimi genellikle daha yüksektir.
+- Yavaş mod (**arka planda yoklama**): Oturum uygulaması arka planda aktif kalır ve yeni mesajlar için ağı periyodik olarak yoklar. Bu yaklaşım, üçüncü taraf sunuculara hiçbir veri iletilmediği için ilkine göre daha fazla gizliliği garanti eder; ne Google, Apple ne de STF sunucuları herhangi bir bilgi almaz. Öte yandan, bu modun iki dezavantajı vardır: bildirimler gecikebilir (birkaç dakikaya kadar) ve arka plandaki uygulama etkinliği nedeniyle enerji tüketimi genellikle daha yüksektir.
 
 
 
@@ -145,7 +145,7 @@ Bu ifade, Bitcoin cüzdanlarında kullanılan Mnemonic ifadelerine benzer şekil
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 **Lütfen dikkat**: Mnemonic cüzdanlarında kullanılan Bitcoin ifadelerinden farklı olarak, Oturum'da **her kelimeyi kesinlikle bütün olarak kaydetmelisiniz**. İlk 4 harf yeterli değildir!
 
@@ -299,4 +299,4 @@ Ayrıca, mesajlaşma uygulamanız için ilginç bir alternatif olan Threema'yı 
 
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74

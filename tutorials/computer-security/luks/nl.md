@@ -131,7 +131,7 @@ We gaan nu alle gegevens op onze USB-stick verwijderen. De operatie bestaat uit 
 
 
 
-**Zorg ervoor dat je je richt op het juiste apparaatbestand!
+**Zorg ervoor dat je je richt op het juiste apparaatbestand!**
 
 
 
@@ -173,7 +173,7 @@ Verify passphrase:
 
 
 
-Hier initialiseert en formatteert het `luksFormat` subcommando het apparaat om LUKS encryptie te gebruiken. Je wordt gevraagd om deze operatie te bevestigen door `YES` in hoofdletters te typen, definieer dan een *passphrase*. **Kies een robuuste *passphrase* om er zeker van te zijn dat, in het geval van verlies, de aanvaller het niet kan ontdekken via brute-force aanvallen.
+Hier initialiseert en formatteert het `luksFormat` subcommando het apparaat om LUKS encryptie te gebruiken. Je wordt gevraagd om deze operatie te bevestigen door `YES` in hoofdletters te typen, definieer dan een *passphrase*. **Kies een robuuste *passphrase* om er zeker van te zijn dat, in het geval van verlies, de aanvaller het niet kan ontdekken via brute-force aanvallen.**
 
 
 
@@ -237,7 +237,7 @@ done
 
 
 
-**Hier is de doellocatie** opgegeven als "**/dev/mappe/usbkey1**"**, waarom?
+**Hier is de doellocatie** opgegeven als "**/dev/mappe/usbkey1**", waarom?
 
 
 

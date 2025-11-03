@@ -1,13 +1,11 @@
-question: 薩爾瓦多 Bitcoin 的狀況如何？
-answer: 法定貨幣。
+question: 什麼是 Blockchain 三難點？
+answer: 基於 Blockchain 的通訊協定只能滿足分散性、安全性和可擴充性三項標準中的兩項。
 wrong_answers:
-  - 被定罪。
-  - 未知。
-  - 不受管制。
+  - 以 Blockchain 為基礎的通訊協定只能滿足分散性、安全性和擴充性其中一項標準。
+  - 以 Blockchain 為基礎的通訊協定可以滿足分散性、安全性和擴充性等所有標準。
+  - 基於 Blockchain 的通訊協定無法滿足分散性、安全性和可擴充性等任何標準。
 explanation: |
-  課程內容提到有些國家已禁止
-  並將使用 Bitcoin 列為犯罪，這增加了根據不同文化、時代和國家採用 Bitcoin 的複雜性。
-  的複雜性。
-  國家。然而，薩爾瓦多勇敢地將其
-  作為法定貨幣。
+  Blockchain 三難題是指基於 Blockchain 的通訊協定
+  基於 Blockchain 的通訊協定只能滿足兩個標準，即分散性、安全性和可擴展性。
+  分散性、安全性和可擴展性。
 reviewed: true

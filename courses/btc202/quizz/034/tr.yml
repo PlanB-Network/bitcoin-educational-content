@@ -1,0 +1,9 @@
+question: Ham bir uygulama ile kutu içinde düğüm arasındaki temel fark nedir?
+answer: Bir Interface ve entegre uygulamaların varlığı
+wrong_answers:
+  - Ağ uyumluluğu
+  - Diskte depolanan Blockchain boyutu
+  - Kullanılan protokol ve para birimi
+explanation: |
+  Ham bir uygulama yalnızca düğüm yazılımını yüklerken, bir kutu içinde düğüm bir Interface, bir App Store ve entegre hizmetler ekler.
+reviewed: true

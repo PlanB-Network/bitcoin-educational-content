@@ -34,7 +34,7 @@ Bull Bitcoinのウェブサイトでこのコードを入力し、「*Continue*�
 
 ![BULL](assets/fr/05.webp)
 
-セキュリティ設定*」タブに移動し、「*アクセス設定*」を選択します。
+セキュリティ設定」タブに移動し、「**アクセス設定**」を選択します。
 
 ![BULL](assets/fr/06.webp)
 
@@ -48,7 +48,7 @@ Bull Bitcoinのウェブサイトでこのコードを入力し、「*Continue*�
 
 2FAに認証アプリケーションを使うことに慣れていない方は、Authyアプリケーションのチュートリアルをご覧になることをお勧めします：
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 パスワードを入力して確認します。
 
@@ -62,7 +62,7 @@ https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-
 
 ![BULL](assets/fr/11.webp)
 
-新しいバックアップリカバリーコードを生成する*」を選択し、これらのコードを安全な場所に保管してください。
+新しいバックアップリカバリーコードを生成する」を選択し、これらのコードを安全な場所に保管してください。
 
 ![BULL](assets/fr/12.webp)
 
@@ -72,7 +72,7 @@ https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-
 
 ## KYC
 
-規制されたプラットフォームであるBull Bitcoinの全機能にアクセスするには、本人確認（KYC）を行う必要があります。検証を続ける*」をクリックしてください。
+規制されたプラットフォームであるBull Bitcoinの全機能にアクセスするには、本人確認（KYC）を行う必要があります。「検証を続ける」をクリックしてください。
 
 ![BULL](assets/fr/14.webp)
 
@@ -97,7 +97,7 @@ https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-
 
 Bullでビットコインの売買を始める前に、このプラットフォームがあなたのsatsを保存しないことを理解することが重要です。つまり、ビットコインを購入するには、すぐに資金をセルフカストディのウォレットに送金する必要があります。同様に、売却するには、ビットコインをセルフ・カストディ・ウォレットからBullに送る必要がある。その後、受け取り次第、不換紙幣に変換される。プラットフォーム上に直接ビットコインを保管することはできない。ただし、ユーロで残高を維持することはできる。
 
-まずは、Bullにユーロを入金し、最初の衛星を購入しましょう。入金*」をクリックしてください。
+まずは、Bullにユーロを入金し、最初の衛星を購入しましょう。「入金」をクリックしてください。
 
 ![BULL](assets/fr/17.webp)
 
@@ -125,9 +125,9 @@ SEPA転送*」を選択する。
 
 ビットコイン、ライトニング、リキッドウォレットの使用に慣れていない場合は、専用のトレーニングコースを受講することをお勧めします：
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
-また、[最高のビットコインウォレットに関する詳細なチュートリアル](https://planb.network/tutorials/wallet)を探索することもできます。
+また、[最高のビットコインウォレットに関する詳細なチュートリアル](https://planb.academy/tutorials/wallet)を探索することもできます。
 
 その後、"*Confirm Buy*"をクリックして購入を確定してください。
 
@@ -158,7 +158,7 @@ LNURLは最もシンプルな方法です。PhoenixなどのほとんどのLight
 
 ![BULL](assets/fr/27.webp)
 
-ユーロを受け取る口座を選択してください。プラットフォーム上の口座または外部の銀行口座を選択できます。Continue*"をクリックしてください。
+ユーロを受け取る口座を選択してください。プラットフォーム上の口座または外部の銀行口座を選択できます。**Continue**をクリックしてください。
 
 ![BULL](assets/fr/28.webp)
 
@@ -200,4 +200,4 @@ LNURLは最もシンプルな方法です。PhoenixなどのほとんどのLight
 
 ニモニックフレーズを正しく管理する方法については、この包括的なチュートリアルをチェックすることもお勧めする：
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270

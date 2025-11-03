@@ -1,0 +1,9 @@
+question: Wat is de meest gebruikte implementatie van Bitcoin knooppunten?
+answer: Bitcoin core
+wrong_answers:
+  - Bitcoin Knots
+  - Bitcoin Klassiek
+  - Bcoin
+explanation: |
+  Met ongeveer 9 van de 10 knooppunten op het netwerk is Bitcoin core de grootste klant.
+reviewed: true

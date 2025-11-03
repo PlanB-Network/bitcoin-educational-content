@@ -1,0 +1,9 @@
+question: Ni ibihe biranga umugambi wa Ponzi mu bidukikije vy’ubuhinga bwa none?
+answer: Ibisubizo vyemewe, gukura bigoye, no kurungikwa
+wrong_answers:
+  - Inyungu nto, gukura amahera bigoye, n'uguserukira abantu bose
+  - Ibisubizo vyemewe, gukura bigoye, kandi nta buryo bwo kurungika
+  - Ibisubizo vyemewe, gukuraho vyoroshe, kandi nta buryo bwo kurungika
+explanation: |
+  Ivyo bimenyetso bishobora kwerekana umugambi w’ipiramide. Niwabibona mu mugambi, urabe maso cane.
+reviewed: false

@@ -276,7 +276,7 @@ Siit leiate kaks võimalust oma andmete varundamiseks:
 
 
 
-"Threema Safe* salvestab kogu teie kontoteabe, välja arvatud teie vestlused, Threema serverites. Need andmed on krüpteeritud teie poolt konto loomisel valitud parooliga, mis tagab, et Threema ei pääse neile ligi. Varukoopiaid tehakse automaatselt ja regulaarselt.
+"**Threema Safe** salvestab kogu teie kontoteabe, välja arvatud teie vestlused, Threema serverites. Need andmed on krüpteeritud teie poolt konto loomisel valitud parooliga, mis tagab, et Threema ei pääse neile ligi. Varukoopiaid tehakse automaatselt ja regulaarselt.
 
 
 
@@ -440,4 +440,4 @@ Soovitan ka seda teist õpetust, kus ma tutvustan teile Proton Maili, mis on pal
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

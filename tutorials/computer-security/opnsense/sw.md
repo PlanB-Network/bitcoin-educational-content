@@ -56,55 +56,55 @@ Hapa kuna baadhi ya vipengele muhimu vya OPNsense:
 
 
 
-- Firewall na NAT**: OPNsense hutoa utendakazi wa hali ya juu wa ngome-mtandao na uchujaji wa hali ya juu, pamoja na uwezo wa utafsiri wa mtandao wa Address (NAT).
+- **Firewall na NAT**: OPNsense hutoa utendakazi wa hali ya juu wa ngome-mtandao na uchujaji wa hali ya juu, pamoja na uwezo wa utafsiri wa mtandao wa Address (NAT).
 
 
 
 
 
-- DNS/DHCP**: OPNsense inaweza kusanidiwa ili kudhibiti huduma za DNS na DHCP kwenye mtandao. Inaweza kufanya kazi kama seva ya DHCP, lakini pia inaweza kutumika kama kisuluhishi cha DNS kwa mashine kwenye mtandao wa ndani. Dnsmasq pia imeunganishwa na chaguo-msingi.
+- **DNS/DHCP**: OPNsense inaweza kusanidiwa ili kudhibiti huduma za DNS na DHCP kwenye mtandao. Inaweza kufanya kazi kama seva ya DHCP, lakini pia inaweza kutumika kama kisuluhishi cha DNS kwa mashine kwenye mtandao wa ndani. Dnsmasq pia imeunganishwa na chaguo-msingi.
 
 
 
 
 
-- VPN**: OPNsense inasaidia itifaki kadhaa za VPN, ikiwa ni pamoja na IPsec, OpenVPN na WireGuard, kuwezesha miunganisho salama ya ufikiaji wa mbali kwa vituo vya kazi vya rununu au unganisho la tovuti.
+- **VPN**: OPNsense inasaidia itifaki kadhaa za VPN, ikiwa ni pamoja na IPsec, OpenVPN na WireGuard, kuwezesha miunganisho salama ya ufikiaji wa mbali kwa vituo vya kazi vya rununu au unganisho la tovuti.
 
 
 
 
 
-- Wakala wa wavuti**: OPNsense inajumuisha seva mbadala ya wavuti ili kudhibiti na kuchuja ufikiaji wa Mtandao. Inaweza pia kutumika kuchuja maudhui na kudhibiti ufikiaji wa mtandao.
+- **Wakala wa wavuti**: OPNsense inajumuisha seva mbadala ya wavuti ili kudhibiti na kuchuja ufikiaji wa Mtandao. Inaweza pia kutumika kuchuja maudhui na kudhibiti ufikiaji wa mtandao.
 
 
 
 
 
-- Usimamizi wa Bandwidth (QoS)**: OPNsense inatoa vipengele vya usimamizi wa Ubora wa Huduma (QoS) ili kutanguliza trafiki ya mtandao na kudhibiti vyema kipimo data cha mtandao.
+- **Usimamizi wa Bandwidth (QoS)**: OPNsense inatoa vipengele vya usimamizi wa Ubora wa Huduma (QoS) ili kutanguliza trafiki ya mtandao na kudhibiti vyema kipimo data cha mtandao.
 
 
 
 
 
-- Lango lililofungwa**: kipengele hiki hukuwezesha kudhibiti ufikiaji wa mtumiaji kwa mtandao kupitia ukurasa wa uthibitishaji (msingi wa ndani, vocha, n.k.). Ni kipengele kinachotumika kwa mitandao ya umma ya Wi-Fi.
+- **Lango lililofungwa**: kipengele hiki hukuwezesha kudhibiti ufikiaji wa mtumiaji kwa mtandao kupitia ukurasa wa uthibitishaji (msingi wa ndani, vocha, n.k.). Ni kipengele kinachotumika kwa mitandao ya umma ya Wi-Fi.
 
 
 
 
 
-- IDS/IPS**: OPNsense huunganisha Suricata ili kutoa utendakazi wa kutambua na kuzuia uvamizi (IDS/IPS) ili kulinda mtandao dhidi ya mashambulizi.
+- **IDS/IPS**: OPNsense huunganisha Suricata ili kutoa utendakazi wa kutambua na kuzuia uvamizi (IDS/IPS) ili kulinda mtandao dhidi ya mashambulizi.
 
 
 
 
 
-- Upatikanaji wa juu (CARP)**: OPNsense inaauni CARP (*Itifaki ya Kawaida ya Upungufu ya Address*) kwa upatikanaji wa juu kati ya ngome nyingi za OPNsense, kuhakikisha kuwa huduma inasalia amilifu hata kukitokea hitilafu ya maunzi.
+- **Upatikanaji wa juu (CARP)**: OPNsense inaauni CARP (*Itifaki ya Kawaida ya Upungufu ya Address*) kwa upatikanaji wa juu kati ya ngome nyingi za OPNsense, kuhakikisha kuwa huduma inasalia amilifu hata kukitokea hitilafu ya maunzi.
 
 
 
 
 
-- Kuripoti na Ufuatiliaji**: OPNsense hutoa zana za kuripoti na ufuatiliaji katika wakati halisi ili kufuatilia utendakazi wa mtandao (kwa NetFlow) na kugundua matatizo yanayoweza kutokea, kutokana na uundaji wa kumbukumbu. Hii ni pamoja na michoro. Zana ya Monit imeunganishwa kwenye OPNsense na kuwezesha usimamizi wa ngome yenyewe.
+- **Kuripoti na Ufuatiliaji**: OPNsense hutoa zana za kuripoti na ufuatiliaji katika wakati halisi ili kufuatilia utendakazi wa mtandao (kwa NetFlow) na kugundua matatizo yanayoweza kutokea, kutokana na uundaji wa kumbukumbu. Hii ni pamoja na michoro. Zana ya Monit imeunganishwa kwenye OPNsense na kuwezesha usimamizi wa ngome yenyewe.
 
 
 
@@ -179,11 +179,11 @@ Lengo letu ni
 
 
 
-- Unda mtandao pepe wa ndani (192.168.10.0/24 - LAN)**, ambao unaweza kufikia Mtandao kupitia ngome ya OPNsense. Kwa matumizi ya uzalishaji, hii inaweza kuwa mtandao wa ndani, kebo na/au Wi-Fi.
-- Washa na usanidi NAT** ili VM katika mtandao pepe wa ndani ziweze kufikia Mtandao
-- Washa na usanidi seva ya DHCP kwenye OPNsense** ili kusambaza usanidi wa IP kwa mashine za siku zijazo zilizounganishwa kwenye mtandao pepe wa ndani.
-- Sanidi ngome** ili kuruhusu LAN inayotoka tu kwa mtiririko wa WAN katika HTTP (80) na HTTPS (443).
-- Sanidi ngome** ili kuruhusu LAN pepe kutumia OPNsense kama kisuluhishi cha DNS (53).
+- Unda mtandao pepe wa ndani (192.168.10.0/24 - LAN), ambao unaweza kufikia Mtandao kupitia ngome ya OPNsense. Kwa matumizi ya uzalishaji, hii inaweza kuwa mtandao wa ndani, kebo na/au Wi-Fi.
+- Washa na usanidi **NAT** ili VM katika mtandao pepe wa ndani ziweze kufikia Mtandao
+- **Washa na usanidi seva ya DHCP kwenye OPNsense** ili kusambaza usanidi wa IP kwa mashine za siku zijazo zilizounganishwa kwenye mtandao pepe wa ndani.
+- Sanidi **ngome** ili kuruhusu LAN inayotoka tu kwa mtiririko wa WAN katika HTTP (80) na HTTPS (443).
+- Sanidi **ngome** ili kuruhusu LAN pepe kutumia OPNsense kama kisuluhishi cha DNS (53).
 
 
 
@@ -257,7 +257,7 @@ Kisha utakuja kwa Interface sawa na iliyo hapa chini. Ingia kwa kuingia "**kisak
 
 
 
-Mchawi mpya huonekana kwenye skrini. Hatua ya kwanza ni kuchagua mpangilio wa kibodi unaolingana na usanidi wako. Kwa kibodi ya AZERTY, chagua chaguo "**Kifaransa (vifunguo vya lafudhi)**" kutoka kwenye orodha, kisha ubofye mara mbili**.
+Mchawi mpya huonekana kwenye skrini. Hatua ya kwanza ni kuchagua mpangilio wa kibodi unaolingana na usanidi wako. Kwa kibodi ya AZERTY, chagua chaguo **"Kifaransa (vifunguo vya lafudhi)"** kutoka kwenye orodha, kisha ubofye mara mbili.
 
 
 
@@ -382,7 +382,7 @@ pfctl -d
 
 
 
-Utawala wa OPNsense Interface unaweza kufikiwa kupitia HTTPS, kwa kutumia IP Address ya LAN** Interface (au WAN). Kivinjari chako kitakupeleka kwenye ukurasa wa kuingia. Ingia na akaunti ya "mizizi" na nenosiri ulilochagua hapo awali.
+Utawala wa OPNsense Interface unaweza kufikiwa kupitia HTTPS, kwa kutumia IP Address ya **LAN Interface** (au WAN). Kivinjari chako kitakupeleka kwenye ukurasa wa kuingia. Ingia na akaunti ya "mizizi" na nenosiri ulilochagua hapo awali.
 
 
 
@@ -566,7 +566,7 @@ Hii inatoa matokeo yafuatayo:
 
 
 
-Kilichosalia ni kubofya "**Tekeleza mabadiliko**" ili kubadilisha sheria mpya za ngome ziwe za uzalishaji. **Tafadhali kumbuka kuwa mitiririko yote ambayo haijaidhinishwa kwa njia dhahiri itazuiwa kwa chaguomsingi
+Kilichosalia ni kubofya "**Tekeleza mabadiliko**" ili kubadilisha sheria mpya za ngome ziwe za uzalishaji. **Tafadhali kumbuka kuwa mitiririko yote ambayo haijaidhinishwa kwa njia dhahiri itazuiwa kwa chaguomsingi.**
 
 
 

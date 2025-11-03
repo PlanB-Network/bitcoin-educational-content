@@ -1,0 +1,9 @@
+question: Mu topologie ya bisi, ni akahe kamaro nyamukuru?
+answer: Igiciro gito co gushiramwo
+wrong_answers:
+  - Ugusubira inyuma kwinshi
+  - Guteba guto
+  - Kuboneka cane
+explanation: |
+  Bisi yizigira ikintu kimwe co mu mubiri, ivyo bikaba bigabanya amahera yo gushiramwo ariko kandi bikazana ikintu kimwe co kunanirwa.
+reviewed: false

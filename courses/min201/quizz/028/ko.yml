@@ -1,0 +1,13 @@
+question: 중국에서 Mining 하드웨어 생산의 중앙 집중화로 인한 잠재적 위험은 무엇인가요?
+answer: Mining 장비 수출을 거부하거나 잠재적 51% 공격에 대비해 Hashrate 장비를 축적합니다.
+wrong_answers:
+  - 중국이 Bitcoin 네트워크를 독점할 수 있습니다.
+  - 중국은 Bitcoin의 가격을 통제할 수 있습니다.
+  - 중국은 Bitcoin Mining을 금지할 수 있습니다.
+explanation: |
+  중국 내 Mining 하드웨어 생산의 중앙 집중화는
+  gW-8 네트워크에 위험을 초래합니다. 만약 중국이
+  gW-9 장비 수출을 거부하거나 Hashrate을 축적하여
+  잠재적인 51% 공격으로 네트워크의 보안과 탈중앙화를 위협할 수 있습니다
+  네트워크의 탈중앙화를 위협할 수 있습니다.
+reviewed: true

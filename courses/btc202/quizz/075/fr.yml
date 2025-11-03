@@ -1,0 +1,9 @@
+question: Pourquoi la taille de l’UTXO set tend-elle à croître structurellement dans le temps ?
+answer: Chaque paiement crée généralement deux nouveaux UTXOs
+wrong_answers:
+  - Les paiements classiques ne consomment aucun UTXO en input
+  - Chaque fork démultiplie le nombre d'UTXOs existants
+  - Le nombre de bitcoins pouvant être créés est infini
+explanation: |
+  Une transaction de paiement consomme un UTXO et en recrée souvent deux (paiement + change), ce qui gonfle la taille totale du set.
+reviewed: false

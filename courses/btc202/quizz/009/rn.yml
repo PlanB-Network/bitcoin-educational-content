@@ -1,0 +1,9 @@
+question: Ni igiki gikorwa nyamukuru c’urudodo rwa Bitcoin?
+answer: Bika Blockchain kandi wemeze amafaranga n'amabuye
+wrong_answers:
+  - Bika imfunguruzo z'ibanga no kwubaka ubucuruzi
+  - Rema aderesi nshasha z'abakoresha
+  - Guhindura bitcoins mu mafaranga ya fiat
+explanation: |
+  Igikoresho ca Bitcoin kigumya kopi ya Blockchain kandi kigira uruhara mu kwemeza no gutanga amafaranga n’amabuye.
+reviewed: true

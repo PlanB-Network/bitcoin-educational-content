@@ -50,11 +50,11 @@ Bugün, Jami birçok sistemde mevcuttur. Performansı, akıcılığı ve kullan�
 
 
 
-- Açık kaynaklı ve tamamen ücretsizdir**, bu nedenle hiçbir ücret ödemeden kullanabilirsiniz.
-- Kullanışlı özelliklerle eksiksiz**: Bu yazılım, mağazadan kolayca eklenti ekleyebilme özelliği sayesinde çok sayıda seçenekten yararlanmanızı sağlar. İhtiyaçlarınıza daha uygun özellikler için kendi uzantılarınızı oluşturmanız bile mümkün.
-- Kullanımı kolay ve Interface sezgisel**: Jami'nin sunduğu birçok özelliğe rağmen, yine de kavraması çok kolay.
-- Güçlü güvenlik**: Jami, gizliliğinize saygı gösterirken iletişiminizin güvenliğini garanti eden gelişmiş bir şifreleme algoritması içerir.
-- Son derece erişilebilir ve hızlı**: bant genişliği sınırlı olduğunda bile daha fazla kullanıcı dostu olması için kolay iletişim sunar.
+- **Açık kaynaklı ve tamamen ücretsizdir**, bu nedenle hiçbir ücret ödemeden kullanabilirsiniz.
+- **Kullanışlı özelliklerle eksiksiz**: Bu yazılım, mağazadan kolayca eklenti ekleyebilme özelliği sayesinde çok sayıda seçenekten yararlanmanızı sağlar. İhtiyaçlarınıza daha uygun özellikler için kendi uzantılarınızı oluşturmanız bile mümkün.
+- **Kullanımı kolay ve Interface sezgisel**: Jami'nin sunduğu birçok özelliğe rağmen, yine de kavraması çok kolay.
+- **Güçlü güvenlik**: Jami, gizliliğinize saygı gösterirken iletişiminizin güvenliğini garanti eden gelişmiş bir şifreleme algoritması içerir.
+- **Son derece erişilebilir ve hızlı**: bant genişliği sınırlı olduğunda bile daha fazla kullanıcı dostu olması için kolay iletişim sunar.
 
 
 
@@ -140,7 +140,7 @@ Bu komut GPG anahtarlarını (gnupg ve dirmngr), SSL sertifikalarını (ca-certi
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 ```shell
 curl -s https://dl.jami.net/public-key.gpg | sudo tee /usr/share/keyrings/jami-archive-keyring.gpg > /dev/null
@@ -192,7 +192,7 @@ Uygulamayı başlattıktan sonra, bir hesap oluşturma veya daha önce oluşturd
 
 
 
-Bir Jami hesabı oluşturmak nispeten basittir. Bir e-posta Address veya telefon numarasına ihtiyacınız yoktur: Jami yalnızca asgari düzeyde bilgi toplar. Dilerseniz, *Jami ID*'nize (kriptografik parmak izi) işaret eden bir kullanıcı adı (takma ad) kaydedebilirsiniz. Takma ad ↔ Jami ID* ilişkisi varsayılan bir ad sunucusunda yayınlanır (değiştirilebilir / kendi kendine barındırılabilir), bu nedenle takma ad zorunlu değildir.
+Bir Jami hesabı oluşturmak nispeten basittir. Bir e-posta Address veya telefon numarasına ihtiyacınız yoktur: Jami yalnızca asgari düzeyde bilgi toplar. Dilerseniz, *Jami ID*'nize (kriptografik parmak izi) işaret eden bir kullanıcı adı (takma ad) kaydedebilirsiniz. Takma ad ↔ *Jami ID* ilişkisi varsayılan bir ad sunucusunda yayınlanır (değiştirilebilir / kendi kendine barındırılabilir), bu nedenle takma ad zorunlu değildir.
 
 
 
@@ -338,9 +338,9 @@ Jami ayrıca, uygulamayı yapılandırma ve kullanma konusunda daha ileri gitmek
 
 
 
-- Bir buluşma noktası** oluşturun: Bu özellik, iletişimleriniz için bir **rendezvous point** oluşturmanızı sağlar, birkaç kullanıcı arasında güvenli oturumlar veya alışverişler düzenlemek için kullanışlıdır.
-- Bir Jami sunucusuna** bağlanın: Jami'yi bir **Jami sunucusuna** bağlayabilirsiniz, bu da özellikle profesyonel ortamlarda iletişimin performansını veya kullanılabilirliğini artırabilir.
-- Bir SIP hesabı** oluşturun: Jami'yi mevcut telefon sistemleriyle entegre etmenize veya telefon görüşmeleri yapmanıza olanak tanıyan bir **SIP hesabı** (Oturum Başlatma Protokolü) kurabilirsiniz.
+- Bir **buluşma noktası** oluşturun: Bu özellik, iletişimleriniz için bir **rendezvous point** oluşturmanızı sağlar, birkaç kullanıcı arasında güvenli oturumlar veya alışverişler düzenlemek için kullanışlıdır.
+- Bir **Jami sunucusuna** bağlanın: Jami'yi bir **Jami sunucusuna** bağlayabilirsiniz, bu da özellikle profesyonel ortamlarda iletişimin performansını veya kullanılabilirliğini artırabilir.
+- **Bir SIP hesabı** oluşturun: Jami'yi mevcut telefon sistemleriyle entegre etmenize veya telefon görüşmeleri yapmanıza olanak tanıyan bir **SIP hesabı** (Oturum Başlatma Protokolü) kurabilirsiniz.
 
 
 
@@ -360,4 +360,4 @@ Uçtan uca şifreleme (E2E), açık anahtarlar ve diğer birçok algoritmayı bi
 
 
 
-https://planb.network/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3
+https://planb.academy/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3

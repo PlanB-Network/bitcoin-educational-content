@@ -1,5 +1,5 @@
 ---
-name: Ledger U2F & FIDO2
+name: "Ledger U2F & FIDO2"
 description: Imarisha usalama wako mtandaoni kwa Ledger
 ---
 ![cover](assets/cover.webp)
@@ -180,4 +180,4 @@ Ningependekeza pia mafunzo haya mengine, ambayo tunaangalia suluhisho lingine la
 
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e

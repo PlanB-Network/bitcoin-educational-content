@@ -1,0 +1,9 @@
+question: 在 2023 年 Bitcoin core 主要維護員的角色被廢除之前，誰是最後一位 Bitcoin core 主要維護員？
+answer: Wladimir J. Van Der Laan
+wrong_answers:
+  - Gavin Andresen
+  - Pieter Wuille
+  - Satoshi Nakamoto
+explanation: |
+  Wladimir J. Van Der Laan 於 2014 年至 2023 年間接替 Gavin Andresen 擔任此職務，在此職務終止之前，Wladimir J. Van Der Laan 一直擔任此職務。
+reviewed: true

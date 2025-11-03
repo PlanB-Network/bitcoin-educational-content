@@ -1,9 +1,9 @@
-question: Tỷ lệ sẵn có trực tuyến của Bitcoin kể từ năm 2009 là bao nhiêu?
-answer: 99.988%.
+question: Blockchain Bitcoin là gì?
+answer: Một sổ cái công khai và không thể thay đổi của tất cả các giao dịch Bitcoin.
 wrong_answers:
-  - 100%.
-  - 90.009%.
-  - 80.17%.
-explanation: |
-  Tỷ lệ sẵn có trực tuyến của Bitcoin kể từ năm 2009 là 99.988%.
+  - Một sổ cái riêng tư và có thể thay đổi của tất cả các giao dịch Bitcoin.
+  - Một sổ cái công khai và có thể thay đổi của tất cả các giao dịch Bitcoin.
+  - Một sổ cái riêng tư và không thể thay đổi của tất cả các giao dịch Bitcoin.
+explanation: >-
+  Blockchain Bitcoin là một sổ cái công khai và không thể thay đổi của tất cả các giao dịch Bitcoin. Đây là một sổ cái chung cho tất cả người dùng Bitcoin.
 reviewed: true

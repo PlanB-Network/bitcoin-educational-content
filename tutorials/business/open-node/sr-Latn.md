@@ -1,5 +1,5 @@
 ---
-name: Otvoreni Čvor
+name: Open Node
 
 description: Postavite Open Node za vaše online poslovanje
 

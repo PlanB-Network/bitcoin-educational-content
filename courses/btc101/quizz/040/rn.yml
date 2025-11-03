@@ -1,0 +1,12 @@
+question: Inyungu nyinshi cane ni iki?
+answer: Ukwiyongera gukomeye kw’amahera menshi.
+wrong_answers:
+  - Ukwongerekana gutoyi kw’amahera menshi.
+  - Igabanuka rikomeye ry’amahera menshi.
+  - Igabanuka gatoyi ry’amahera menshi.
+explanation: |
+  Inflation nyinshi cane ni ikintu c’amahera kirangwa n’
+  Ukwiyongera gukomeye kw'ibiciro biciye mu gucapura amafaranga
+  n’abategetsi, ivyo bikaba bituma umuntu atakaza burundu .
+  kwizigira amahera.
+reviewed: true

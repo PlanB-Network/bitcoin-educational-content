@@ -1,9 +1,8 @@
-question: Vad innebär det att Bitcoin har en allmän uppåtgående trend?
-answer: En allmän uppåtgående trend för Bitcoin innebär att priset på Bitcoin totalt sett har ökat.
+question: Vad är skalbarhetsproblemet med Bitcoin?
+answer: Utmaningen att införa ett monetärt system som kan tillhandahålla ett ständigt ökande antal transaktioner per sekund i takt med att det införs.
 wrong_answers:
-  - En allmän uppåtgående trend i Bitcoin innebär att priset garanterat kommer att stiga på obestämd tid utan några fluktuationer.
-  - En allmän uppåtgående trend i Bitcoin innebär att Bitcoin blir mindre värdefullt och förlorar sin marknadsattraktion.
-  - En allmän uppåtgående trend i Bitcoin innebär att den endast är populär bland en liten grupp investerare och inte har någon inverkan på den övergripande marknaden.
-explanation: |
-  En allmän uppåtgående trend i Bitcoin hänvisar till en konsekvent ökning av priset under en viss tidsperiod. Det är viktigt att notera att även om en uppåtgående trend tyder på en positiv bana, garanterar det inte att priset kommer att fortsätta stiga utan några fluktuationer.
+  - Svårigheten att Mining nya Bitcoins med ett ökande värde över tid.
+  - Volatiliteten i Bitcoin:s pris som kommer att öka efter varje Halving.
+  - Avsaknaden av reglering för Bitcoin som kommer att göra transaktioner olagliga.
+explanation: >-
 reviewed: true

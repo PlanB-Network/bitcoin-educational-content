@@ -10,7 +10,7 @@ ___
 
 
 
-*Questa esercitazione si basa su un contenuto originale di Florian BURNEL pubblicato su [IT-Connect](https://www.it-connect.fr/). Licenza [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Possono essere state apportate modifiche al testo originale
+*Questa esercitazione si basa su un contenuto originale di Florian BURNEL pubblicato su [IT-Connect](https://www.it-connect.fr/). Licenza [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Possono essere state apportate modifiche al testo originale.*
 
 
 
@@ -101,9 +101,9 @@ In termini di indirizzi IP, questo dà:
 
 
 
-- Rete domestica**: 192.168.1.0/24
-- Rete aziendale**: 192.168.100.0/24
-- Rete tunnel WireGuard**: 192.168.110.0/24
+- **Rete domestica**: 192.168.1.0/24
+- **Rete aziendale**: 192.168.100.0/24
+- **Rete tunnel WireGuard**: 192.168.110.0/24
 
 
 + IP Address del Peer 1 (Windows) nel tunnel: 192.168.110.2/24
@@ -117,7 +117,7 @@ Questo è tutto! Passiamo alla configurazione!
 
 
 
-**Nota: per impostazione predefinita, WireGuard opera in modalità UDP sulla **porta 51820**.
+**Nota: per impostazione predefinita, WireGuard opera in modalità UDP sulla porta 51820**.
 
 
 
@@ -219,10 +219,10 @@ La sezione `[Interface]` è usata per dichiarare la parte server. Ecco alcune in
 
 
 
-- Address**: l'IP Address del Interface WireGuard all'interno del tunnel VPN (subnet diversa da quella della LAN remota)
-- SaveConfig**: la configurazione viene memorizzata (e protetta) per tutto il tempo in cui il Interface è attivo
-- ListenPort**: Porta di ascolto di WireGuard. In questo caso, 51820 è la porta predefinita, ma è possibile personalizzarla
-- PrivateKey**: il valore della chiave privata del nostro server (*wg-private.key*)
+- **Address**: l'IP Address del Interface WireGuard all'interno del tunnel VPN (subnet diversa da quella della LAN remota)
+- **SaveConfig**: la configurazione viene memorizzata (e protetta) per tutto il tempo in cui il Interface è attivo
+- **ListenPort**: Porta di ascolto di WireGuard. In questo caso, 51820 è la porta predefinita, ma è possibile personalizzarla
+- **PrivateKey**: il valore della chiave privata del nostro server (*wg-private.key*)
 
 
 
@@ -372,7 +372,7 @@ Aggiungere queste righe alla fine del file per **abilitare la mascheratura IP su
 
 ```
 # NAT - IP masquerade
-*nat
+*nat*
 :POSTROUTING ACCEPT [0:0]
 -A POSTROUTING -o ens192 -j MASQUERADE
 
@@ -475,7 +475,7 @@ Iniziare ad aprire il software per creare un nuovo tunnel. A tal fine, fare clic
 
 
 
-Si aprirà una finestra di configurazione. Ogni volta che viene creata una nuova configurazione di tunnel, WireGuard genera una coppia di chiavi private/pubbliche specifica per questa configurazione. **In questa configurazione, è necessario dichiarare il "peer", ovvero il server remoto:
+Si aprirà una finestra di configurazione. Ogni volta che viene creata una nuova configurazione di tunnel, WireGuard genera una coppia di chiavi private/pubbliche specifica per questa configurazione. **In questa configurazione, è necessario dichiarare il "peer", ovvero il server remoto:**
 
 
 
@@ -523,15 +523,15 @@ In immagini:
 
 
 
-**Alcune spiegazioni sul blocco [Peer]:
+**Alcune spiegazioni sul blocco [Peer]:**
 
 
 
 
 
-- PublicKey**: è la chiave pubblica del server WireGuard Debian 11 (si può ottenere con il comando "*sudo wg*")
-- AllowedIPs**: sono gli indirizzi IP/sottoreti accessibili tramite questa rete WireGuard VPN, in questo caso la sottorete specifica della mia WireGuard VPN (*192.168.110.0/24*) e della mia LAN remota (*192.168.100.0/24*)
-- Endpoint**: è l'IP Address dell'host Debian 11, poiché è il punto di connessione di WireGuard (è necessario specificare l'IP pubblico Address)
+- **PublicKey**: è la chiave pubblica del server WireGuard Debian 11 (si può ottenere con il comando "*sudo wg*")
+- **AllowedIPs**: sono gli indirizzi IP/sottoreti accessibili tramite questa rete WireGuard VPN, in questo caso la sottorete specifica della mia WireGuard VPN (*192.168.110.0/24*) e della mia LAN remota (*192.168.100.0/24*)
+- **Endpoint**: è l'IP Address dell'host Debian 11, poiché è il punto di connessione di WireGuard (è necessario specificare l'IP pubblico Address)
 
 
 
@@ -663,7 +663,7 @@ Dal mio PC remoto, posso eseguire il ping dell'IP Address del mio Interface Wire
 
 
 
-Dal mio PC remoto connesso alla mia VPN WireGuard, ho potuto accedere a un file server e trasferire un file tramite [SMB](https://www.it-connect.fr/le-protocole-smb-pour-les-debutants/), per vedere la velocità di trasferimento. **Con WireGuard, la velocità massima è di circa 45 Mb/s, il che è ottimo, dato che sono in WiFi
+Dal mio PC remoto connesso alla mia VPN WireGuard, ho potuto accedere a un file server e trasferire un file tramite [SMB](https://www.it-connect.fr/le-protocole-smb-pour-les-debutants/), per vedere la velocità di trasferimento. **Con WireGuard, la velocità massima è di circa 45 Mb/s, il che è ottimo, dato che sono in WiFi.**
 
 
 
@@ -752,7 +752,7 @@ AllowedIPs = 0.0.0.0/0
 
 
 
-Si può notare che in questo modo si attiva anche l'opzione "**Commutatore di morte*".
+Si può notare che in questo modo si attiva anche l'opzione "**Commutatore di morte**".
 
 
 
@@ -783,4 +783,4 @@ Documentazione aggiuntiva:
 
 
 
-**La vostra VPN WireGuard è attiva e funzionante! Congratulazioni!
+**La vostra VPN WireGuard è attiva e funzionante! Congratulazioni!**

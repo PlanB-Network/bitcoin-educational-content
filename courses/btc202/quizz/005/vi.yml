@@ -1,0 +1,9 @@
+question: Phần mềm nào kết hợp cả chức năng Full node và Wallet?
+answer: Bitcoin core
+wrong_answers:
+  - Sparrow wallet
+  - Ashigaru
+  - Wallet của Satoshi
+explanation: |
+  Bitcoin core hoạt động như cả Full node và Wallet, không giống như các gói phần mềm khác chỉ là phần mềm quản lý Wallet.
+reviewed: true

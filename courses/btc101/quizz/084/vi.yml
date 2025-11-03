@@ -1,11 +1,13 @@
-question: Điều gì nên là mối quan tâm chính khi bạn sở hữu bitcoin?
-answer: An toàn cho quỹ của bạn.
+question: Việc sử dụng ví lạnh, hay ví vật lý ngoại tuyến, được khuyến nghị cho mục đích gì?
+answer: Lưu trữ số lượng lớn.
 wrong_answers:
-  - Giá trị của Bitcoin theo đô la.
-  - Tính hợp pháp của việc sở hữu bitcoin.
-  - Quyền được chi tiêu quỹ của bạn.
+  - Lưu trữ chi tiêu hàng ngày.
+  - Lưu trữ số lượng nhỏ.
+  - Lưu trữ tiết kiệm ngắn hạn.
 explanation: |
-  Khi bạn sở hữu bitcoin, mối quan tâm chính là an toàn
-  cho quỹ của bạn. Điều này là bởi vì Bitcoin, giống như bất kỳ hình thức
-  tiền tệ nào khác, có thể bị đánh cắp hoặc mất nếu không được bảo vệ đúng cách.
+  Ví lạnh, hay ví vật lý ngoại tuyến, được khuyến nghị cho
+  việc lưu trữ số lượng lớn vì nó ít dễ bị ảnh hưởng bởi
+  các mối đe dọa trực tuyến hơn so với ví nóng. Tuy nhiên, nó không
+  được khuyến nghị cho việc chi tiêu hàng ngày vì nó kém tiện lợi
+  cho các giao dịch hàng ngày.
 reviewed: true

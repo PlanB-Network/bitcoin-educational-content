@@ -1,10 +1,11 @@
-question: Yêu cầu băng thông để vận hành một nút Bitcoin, xét 1 khối 1MB mỗi 10 phút là bao nhiêu?
-answer: Khoảng 5GB mỗi tháng.
+question: Chứng minh công việc (POW) là gì?
+answer: Đó là cơ chế đồng thuận bảo mật của giao thức Bitcoin.
 wrong_answers:
-  - Khoảng 1GB mỗi tháng.
-  - Khoảng 10GB mỗi tháng.
-  - Khoảng 20GB mỗi tháng.
+  - Đó là quá trình tạo ra bitcoin mới.
+  - Đó là phương pháp xác minh các giao dịch Bitcoin.
+  - Đó là thuật toán được sử dụng để đào bitcoin.
 explanation: >-
-  Xét 1 khối 1MB mỗi 10 phút, vận hành một nút Bitcoin yêu cầu
-  khoảng 5GB băng thông mỗi tháng.
+  Chứng minh công việc là một thuật toán đồng thuận được sử dụng trong mạng lưới Bitcoin
+  để xác thực các giao dịch và tạo ra các khối mới. Nó yêu cầu các thợ mỏ giải quyết các bài toán toán học phức tạp,
+  đảm bảo an ninh và tính toàn vẹn của mạng lưới.
 reviewed: true

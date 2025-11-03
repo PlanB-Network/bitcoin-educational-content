@@ -13,4 +13,4 @@ amaç (derinlik 1), para birimi türü (derinlik 2), hesap (derinlik 3), zincir 
 Bir derinlikten diğerine geçmek için, bir çift ana anahtardan bir çift alt anahtara bir türetme işlemi kullanılır.
 
 
-> ► *Bazen derinlik yerine "türetme tabanı" terimi de kullanılmaktadır
+> ► *Bazen derinlik yerine "türetme tabanı" terimi de kullanılmaktadır*

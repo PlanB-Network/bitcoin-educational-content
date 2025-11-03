@@ -6,7 +6,7 @@ description: Como adicionar novos materiais educacionais na Rede PlanB?
 
 A missão da PlanB é fornecer recursos educacionais líderes sobre Bitcoin, em tantos idiomas quanto possível. Todo o conteúdo publicado no site é de código aberto e hospedado no GitHub, o que permite a qualquer pessoa participar do enriquecimento da plataforma.
 
-Além de tutoriais e treinamentos, a Rede PlanB também oferece uma vasta biblioteca de conteúdo educacional variado sobre Bitcoin, acessível a todos, [na seção "BET" (_Bitcoin Educational Toolkit_)](https://planb.network/resources/bet). Esta base de dados inclui pôsteres educacionais, memes, pôsteres de propaganda humorística, diagramas técnicos, logotipos e outras ferramentas para os usuários. O objetivo desta iniciativa é apoiar indivíduos e comunidades que ensinam Bitcoin ao redor do mundo, fornecendo-lhes os recursos visuais necessários.
+Além de tutoriais e treinamentos, a Rede PlanB também oferece uma vasta biblioteca de conteúdo educacional variado sobre Bitcoin, acessível a todos, [na seção "BET" (_Bitcoin Educational Toolkit_)](https://planb.academy/resources/bet). Esta base de dados inclui pôsteres educacionais, memes, pôsteres de propaganda humorística, diagramas técnicos, logotipos e outras ferramentas para os usuários. O objetivo desta iniciativa é apoiar indivíduos e comunidades que ensinam Bitcoin ao redor do mundo, fornecendo-lhes os recursos visuais necessários.
 
 Você quer participar do enriquecimento desta base de dados, mas não sabe como? Este tutorial é para você!
 
@@ -14,7 +14,7 @@ Você quer participar do enriquecimento desta base de dados, mas não sabe como?
 ![event](assets/01.webp)
 - Primeiro, você precisa ter uma conta no GitHub. Se você não sabe como criar uma conta, fizemos um tutorial detalhado para guiá-lo.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Vá para [o repositório GitHub da PlanB dedicado a dados](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet) na seção `resources/bet/`:
@@ -48,7 +48,7 @@ contributors:
 ```yaml
 project: Indique o identificador da sua organização na Rede PlanB. Se você ainda não possui um identificador "project" para sua empresa, você pode criar um seguindo este tutorial.
 
-https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
+https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
  Se você não possui um, pode simplesmente usar seu nome, seu pseudônimo ou o nome da sua empresa sem ter criado um perfil de construtor.
 type: Selecione a natureza do seu conteúdo entre as seguintes duas opções:
@@ -73,7 +73,7 @@ contributors: Mencione seu identificador de contribuidor se você tiver um.
 Por exemplo, seu arquivo YAML poderia parecer assim:
 
 ```yaml
-project: PlanB-Network
+project: Plan ₿ Academy
 type: Educational Content
 links:
   download: https://workspace.planb.network/s/fojeJa7ZbftQTwo

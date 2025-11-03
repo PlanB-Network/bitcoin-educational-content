@@ -1,0 +1,9 @@
+question: Ni iyihe Layer y’umuderi wa OSI MAC Address irimwo?
+answer: Ihuza ry'amakuru Layer.
+wrong_answers:
+  - Ibisabwa Layer.
+  - Ivy’ugutwara abantu n’ibintu Layer.
+  - Urubuga Layer.
+explanation: |
+  MAC Address ikorera kuri Layer 2 y'ikigereranyo ca OSI, izwi nka "data link Layer", aho ikoreshwa mu gutanga amaderesi y'ibikoresho vy'amafoto.
+reviewed: false

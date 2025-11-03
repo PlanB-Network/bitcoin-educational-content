@@ -1,10 +1,8 @@
-question: Negara mana yang telah mendeklarasikan Bitcoin sebagai alat pembayaran yang sah?
-answer: El Salvador
+question: Bidang apa saja yang menimbulkan pertanyaan terkait Bitcoin?
+answer: Kriptografi, teori permainan, ekonomi dan kebijakan moneter, ilmu komputer, filsafat, energi, hukum, dan regulasi
 wrong_answers:
-  - Amerika Serikat
-  - Cina
-  - India
+  - Hanya ilmu komputer dan ekonomi
+  - Hanya kriptografi dan teori permainan
+  - Hanya filsafat dan energi
 explanation: >-
-  El Salvador telah mengambil langkah berani dengan mengadopsi Bitcoin secara keseluruhan,
-  mendeklarasikannya sebagai alat pembayaran yang sah.
-reviewed: false
+  Bitcoin adalah objek multidisiplin yang menimbulkan pertanyaan terkait berbagai bidang, termasuk kriptografi, teori permainan, ekonomi dan kebijakan moneter, ilmu komputer, filsafat, energi, hukum, dan regulasi.

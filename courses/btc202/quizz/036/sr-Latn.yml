@@ -1,0 +1,9 @@
+question: Koja je prednost posvećenog laptopa u odnosu na mini-PC?
+answer: Njegova baterija deluje kao inverter
+wrong_answers:
+  - Tiše je
+  - Traje duže
+  - Troši manje energije
+explanation: |
+  Baterija laptopa deluje kao prirodni UPS, sprečavajući iznenadna gašenja u slučaju nestanka struje.
+reviewed: true

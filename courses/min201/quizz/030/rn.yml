@@ -1,0 +1,12 @@
+question: Ni igiki gishobora gutera ubwoba Ikimenyamenya c’Umugabane mu rubuga rwa Bitcoin?
+answer: Abasanzwe bafise amafaranga menshi cane barafise ububasha budahuye, ivyo bikaba vyerekana ubusumbasumbane bw’ububasha buriho.
+wrong_answers:
+  - Vyoba ari intambamyi ikomeye ku bashingira intahe bafise amahera menshi.
+  - Ntivyemera ko umuntu agira uruhara mu rugero rutoyi.
+  - Ntibisaba ubutunzi buboneka.
+explanation: |
+  Mu nzira y’Ikimenyamenya c’Igiti, abasanzwe bafise amahera menshi .
+  umubare w’amahera afise ububasha budahuye. Ibi
+  ubushobozi bwoshobora gutuma habaho ugushira hamwe n'
+  kwibanda ku bubasha mu minwe y’abantu bakeyi.
+reviewed: true

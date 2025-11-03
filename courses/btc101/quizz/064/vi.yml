@@ -1,9 +1,10 @@
-question: Lệnh nào được sử dụng để kiểm tra số lượng bitcoin đang lưu thông trên một nút Bitcoin?
-answer: bitcoin-cli gettxoutsetinfo.
+question: Lần halving thứ 7 sẽ diễn ra vào năm nào?
+answer: 2036
 wrong_answers:
-  - bitcoin-cli getblockchaininfo.
-  - bitcoin-cli getwalletinfo.
-  - bitcoin-cli getnetworkinfo.
+  - 2032
+  - 2028
+  - 2048
 explanation: |
-  Lệnh để kiểm tra số lượng bitcoin đang lưu thông trên một nút Bitcoin là bitcoin-cli gettxoutsetinfo. Lệnh này cung cấp tính minh bạch và khả năng kiểm chứng, tăng cường lòng tin vào hệ thống Bitcoin.
+  Lần halving thứ 7 dự kiến sẽ diễn ra vào năm 2036, và số lượng bitcoin lưu hành ước tính sẽ là 20,835,937.5,
+  tương đương với khoảng 99.22% tổng nguồn cung.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Hangi iki bileşen 0.5 sürümünden beri Bitcoin core ile birlikte dağıtılmaktadır?
+answer: Bitcoin-qt ve bitcoind
+wrong_answers:
+  - bitcoin-cli ve Bitcoin-gui
+  - Bitcoin-Miner ve Bitcoin-Wallet
+  - Bitcoin-core ve Bitcoin-node
+explanation: |
+  Sürüm 0.5'ten bu yana, Bitcoin core bir grafiksel Interface (Bitcoin-qt) ve bir komut satırı Interface (bitcoind) içerir.
+reviewed: true

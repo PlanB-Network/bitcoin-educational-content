@@ -1,0 +1,9 @@
+question: Ni ikihe kintu kimwe gisobanura Bitcoin nk’uruja n’uruza rw’amahera?
+answer: Ni nk’amahera kandi nta butegetsi bwa mbere canke umuhuza bisaba kugira ngo umuntu akoreshe amafaranga.
+wrong_answers:
+  - Ishobora gukora gusa iyo yemerewe n’ikigo ca leta.
+  - Itanga amafaranga mashasha ku busabe bw’uwukoresha wese.
+  - Bikeneye ko amabanki asuzuma kandi agatanga amafaranga yose akoreshwa.
+explanation: |
+  Bitcoin ikora nk’urubuga rwigenga, rwemerera umuntu wese kugira uruhara ata ruhusha afise. Ivy’ugucuruza vyemezwa n’ibihimba vy’umubiri n’abacukuzi, atari n’ubuyobozi bukuru.
+reviewed: false

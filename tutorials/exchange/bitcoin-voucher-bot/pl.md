@@ -5,10 +5,10 @@ description: Bot Telegrama do zakupu Bitcoin z zachowaniem poufności
 ![image](assets/cover.webp)
 
 
-_Ten poradnik został napisany przez_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
+_Ten samouczek został napisany przez_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
 
-# Wprowadzenie
+## Wprowadzenie
 
 
 BitcoinVoucherBot to narzędzie, za pomocą którego można kupić Bitcoiny w Exchange za euro.
@@ -47,7 +47,7 @@ Na czacie Telegram przygotowujemy zamówienie, płacimy za nie przelewem bankowy
 Aktywacja jest prostą jednorazową operacją. W Telegramie należy wyszukać _@BitcoinVoucherBot_, a gdy tylko przejdzie się do czatu bota, na dole pojawi się duży przycisk _Start/Start_. Operacja ta powoduje reakcję bota, który prezentuje menu głównych dostępnych dla niego poleceń. Pojawiają się również pierwsze wiadomości powitalne, których uważną lekturę zalecamy.
 
 
-**Ostrzeżenie**: istnieje kilku oszustów podszywających się pod oryginalny VoucherBot. Jeśli nie masz pewności co do wyszukiwania za pośrednictwem Telegramu, uzyskaj dostęp do linku BitcoinVoucherBot z [oficjalnej strony internetowej] (https://www.bitcoinvoucherbot.com/)
+**Uwaga**: istnieje kilku oszustów podszywających się pod oryginalnego VoucherBot. Jeśli nie jesteś pewien wyszukiwania przez Telegram, skorzystaj z linku do BitcoinVoucherBot ze [strony oficjalnej](https://www.bitcoinvoucherbot.com/)
 
 
 ![image](assets/it/01.webp)
@@ -75,10 +75,10 @@ Główne operacje obejmują:
 - _/support_: w razie potrzeby wyskakują kontakty do zgłaszania problemów zespołowi pomocy technicznej.
 
 
-# Procedura zakupu Bitcoin
+## Procedura zakupu Bitcoina
 
 
-## Przygotowanie zamówienia
+### Przygotowanie zamówienia
 
 
 Kliknij _/purchase_ w menu poleceń
@@ -141,7 +141,7 @@ Jeśli wszystko się zgadza, kontynuuj, klikając przycisk _Proceed_.
 ![image](assets/it/10.webp)
 
 
-## Płatność
+### Płatność
 
 
 Po kilku chwilach niezbędnych do przetworzenia danych, VoucherBot odpowiada wiadomością zawierającą wszystkie szczegóły niezbędne do zrealizowania zamówienia. W zależności od wymagań banku, odpowiednie informacje to:
@@ -179,7 +179,7 @@ Uwaga:
 
 
 ---
-## Odkupienie
+### Wykup
 
 
 Gdy tylko płatność się powiedzie, Bitcoin VoucherBot wysyła voucher bezpośrednio na czat. Voucher ma postać kodu QR wydrukowanego na pomarańczowym tle.
@@ -201,7 +201,7 @@ Są tam wszystkie dane potrzebne do jej spieniężenia:
 Voucher można zrealizować, kadrując kod QR za pomocą funkcji skanowania kompatybilnego Wallet Lightning Network lub za pośrednictwem LNURL, również pokazanego poniżej kodu QR.
 
 
-W tym samouczku użyliśmy Wallet z Satoshi, korzystając z funkcji skanowania aktywowanej klawiszem _Send_
+Do tego samouczka użyliśmy Wallet Of Satoshi, korzystając z funkcji skanowania aktywowanej przyciskiem _Send_.
 
 
 ![image](assets/it/32.webp)
@@ -213,13 +213,13 @@ Przy włączonym aparacie telefonu komórkowego obramuj kod QR na czacie, otwier
 ![image](assets/it/34.webp)
 
 
-Przed kontynuowaniem, Wallet z Satoshi z ekranu weryfikacyjnego, który zawiera kwotę, która dokładnie odpowiada kwocie wyrażonej na voucherze i, jako opis, BitcoinVoucherBot. Aby zrealizować voucher, wystarczy kliknąć na _Receive_
+Przed kontynuowaniem Wallet Of Satoshi wyświetla ekran weryfikacji, który obejmuje kwotę dokładnie odpowiadającą tej podanej na voucherze, a jako opis widnieje BitcoinVoucherBot. Aby zrealizować voucher, wystarczy kliknąć _Receive_.
 
 
 ![image](assets/it/35.webp)
 
 
-Procesy Wallet lub Satoshi przez kilka chwil
+Wallet Of Satoshi przetwarza przez kilka chwil.
 
 
 ![image](assets/it/36.webp)
@@ -228,7 +228,7 @@ Procesy Wallet lub Satoshi przez kilka chwil
 a na koniec kolekcja jest raportowana i natychmiast dostępna na saldzie Wallet.
 
 
-**Wallet z Satoshi jest aplikacją powierniczą: natychmiast po spieniężeniu kuponu zaleca się przeniesienie Sats do Wallet bez powiernictwa.**
+**Wallet of Satoshi to aplikacja powiernicza: zaraz po zrealizowaniu vouchera zaleca się przeniesienie satsów do portfela niepowierniczego.**
 
 
 ![image](assets/it/37.webp)

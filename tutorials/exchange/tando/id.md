@@ -73,15 +73,15 @@ Tando memungkinkan Anda menggunakan bitcoin Anda untuk membeli apa pun yang dapa
 
 
 
-https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
+https://planb.academy/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 
 
-- Pindai untuk Membayar** :
+- **Pindai untuk Membayar** :
 
 
 
@@ -95,7 +95,7 @@ Pindai untuk membayar adalah salah satu opsi pembayaran otomatis dari aplikasi i
 
 
 
-- Mengirim uang ke Kenya** :
+- **Mengirim uang ke Kenya** :
 
 
 
@@ -121,7 +121,7 @@ Bayar tagihan dari Lightning Wallet Anda dan Tando akan mengonversinya ke dalam 
 
 
 
-- Bayar tagihan Anda** :
+- **Bayar tagihan Anda** :
 
 
 
@@ -135,7 +135,7 @@ Masukkan nomor Invoice yang ingin Anda bayar, lalu lanjutkan dengan membayar Lig
 
 
 
-- Membeli barang** :
+- **Membeli barang** :
 
 
 
@@ -159,4 +159,4 @@ Semakin banyak inisiatif seperti Tando bermunculan di komunitas Afrika, temukan 
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitspenda-34cf6f5d-4464-4f26-809f-de4af3cec5fd
+https://planb.academy/tutorials/exchange/centralized/bitspenda-34cf6f5d-4464-4f26-809f-de4af3cec5fd

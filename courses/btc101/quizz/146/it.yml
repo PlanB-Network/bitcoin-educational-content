@@ -1,11 +1,13 @@
-question: Perché è importante che un nodo Bitcoin rimanga accessibile e conveniente per tutti gli utenti possibili?
-answer: Perché facilita la decentralizzazione della rete.
+question: Qual è lo scopo dell'aggiustamento della difficoltà nel mining di Bitcoin?
+answer: Riequilibra il gioco globale del mining in base al numero di partecipanti.
 wrong_answers:
-  - Perché aumenta la capacità di transazione della rete.
-  - Perché diminuisce la capacità di transazione della rete.
-  - Perché aumenta la ricompensa per i miner.
-explanation: |
-  Il costo accessibile e la disponibilità online di un nodo Bitcoin sono
-  importanti perché facilitano la decentralizzazione della
+  - Aumenta la ricompensa per il mining.
+  - Diminuisce il numero di bitcoin in circolazione.
+  - Aumenta la sicurezza della rete Bitcoin.
+explanation: >-
+  L'aggiustamento della difficoltà nel mining di Bitcoin è progettato per garantire che
+  il tempo necessario per minare un blocco rimanga approssimativamente costante, indipendentemente dalla
+  potenza computazionale totale della rete. Adegua la difficoltà del problema matematico
+  che i miner devono risolvere, basandosi sul numero di miner che partecipano alla
   rete.
 reviewed: true

@@ -1,8 +1,13 @@
-question: Koja je glavna prednost Bitkoina za pojedince koji žive pod finansijskom represijom ili diktatorskim režimima?
-answer: Imati priliku da izbegneš cenzuru i bankarska ograničenja.
+question: Kako Bitkoin protokol osigurava svoju otpornost na cenzuru i otpornost?
+answer: Svaka komponenta protokola geografski je raspoređena širom sveta.
 wrong_answers:
-  - Korišćenje stabilne valute koja ima fiksnu vrednost.
-  - Dozvoljavanje anonimnih transakcija.
-  - Dobijanje visokih prinosa na investicije.
-explanation: >-
+  - Koristi lokalnu mrežu čvorova raspoređenih u Evropi.
+  - Koristi složen algoritam za validaciju transakcija.
+  - Koristi visok nivo enkripcije.
+explanation: |
+  Bitkoin protokol osigurava otpornost na cenzuru i
+  otpornost jer je svaki deo protokola
+  geografski raspoređen širom sveta. Na primer,
+  postoji približno 40.000 Bitkoin čvorova na svim
+  kontinentima.
 reviewed: true

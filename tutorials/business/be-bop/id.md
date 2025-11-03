@@ -62,10 +62,10 @@ Anda perlu mengonfigurasi bucket dan memberikan informasi berikut:
 
 
 
-- S3_BUCKET**: nama bucket
-- S3_ENDPOINT_URL**: tautan akses ke layanan S3 Anda
-- S3_KEY_ID** dan S3_KEY_SECRET: kode akses Anda
-- S3_REGION**: wilayah layanan S3 Anda
+- **S3_BUCKET**: nama bucket
+- **S3_ENDPOINT_URL**: tautan akses ke layanan S3 Anda
+- **S3_KEY_ID** dan **S3_KEY_SECRET**: kode akses Anda
+- **S3_REGION**: wilayah layanan S3 Anda
 
 
 
@@ -94,8 +94,8 @@ Anda akan membutuhkan variabel-variabel berikut ini:
 
 
 
-- MONGODB_URL**: koneksi basis data Address
-- MONGODB_DB**: nama database
+- **MONGODB_URL**: koneksi basis data Address
+- **MONGODB_DB**: nama database
 
 
 
@@ -290,7 +290,7 @@ Buka menu `Pengaturan Pembayaran`, klik `Phoenixd`
 
 
 
-Anda kemudian harus memasukkan kata sandi atau autentikasi token** yang menghubungkan Anda ke instance Phoenixd Anda, sebuah backend yang dikembangkan oleh Acinq yang memungkinkan Anda mengelola pembayaran Lightning dengan node Anda sendiri, tetapi tanpa kerumitan dalam mengelola saluran pembayaran.
+Anda kemudian harus memasukkan kata sandi atau autentikasi **token** yang menghubungkan Anda ke instance Phoenixd Anda, sebuah backend yang dikembangkan oleh Acinq yang memungkinkan Anda mengelola pembayaran Lightning dengan node Anda sendiri, tetapi tanpa kerumitan dalam mengelola saluran pembayaran.
 
 
 
@@ -474,8 +474,8 @@ Konfigurasi **Top Bar** memungkinkan Anda mempersonalisasi identitas visual pera
 
 
 - Pada bidang `Nama merek`, masukkan nama perusahaan, organisasi, atau produk Anda. Nama ini akan muncul di bagian atas Interface dan akan mewakili identitas visual utama Anda.
-- Tunjukkan judul situs web**: judul yang dipilih harus meringkas tujuan platform. Judul ini dapat muncul di header atau di tab browser.
-- Tambahkan deskripsi situs web**: ini adalah tempat Anda memasukkan deskripsi singkat tentang inisiatif Anda. Deskripsi ini membantu mengontekstualisasikan alat ini bagi pengguna dan juga dapat digunakan untuk tujuan SEO.
+- Tunjukkan judul situs web: judul yang dipilih harus meringkas tujuan platform. Judul ini dapat muncul di header atau di tab browser.
+- **Tambahkan deskripsi situs web**: ini adalah tempat Anda memasukkan deskripsi singkat tentang inisiatif Anda. Deskripsi ini membantu mengontekstualisasikan alat ini bagi pengguna dan juga dapat digunakan untuk tujuan SEO.
 
 
 
@@ -497,10 +497,10 @@ Bagian `Tautan` pada Bilah Atas memungkinkan Anda menambahkan pintasan ke halama
 
 
 
-- Masukkan nama tautan (Teks)**: pada bidang `Teks`, masukkan nama atau label tautan yang akan ditampilkan (misalnya Beranda, Kontak, Bantuan...).
-- Tunjukkan tautan Address (Url)**: di bidang `Url`, masukkan Address lengkap dari halaman target (internal atau eksternal).
-- Tambahkan tautan lain jika perlu**: setiap baris konfigurasi memungkinkan Anda menambahkan tautan tambahan menggunakan bidang `Text` dan `Url`.
-- Simpan tautan**: setelah semua tautan dimasukkan, klik tombol "Tambahkan tautan bilah atas" untuk menyimpannya.
+- **Masukkan nama tautan (Teks)**: pada bidang `Teks`, masukkan nama atau label tautan yang akan ditampilkan (misalnya Beranda, Kontak, Bantuan...).
+- Tunjukkan tautan **Address (Url)**: di bidang `Url`, masukkan Address lengkap dari halaman target (internal atau eksternal).
+- **Tambahkan tautan lain jika perlu**: setiap baris konfigurasi memungkinkan Anda menambahkan tautan tambahan menggunakan bidang `Text` dan `Url`.
+- **Simpan tautan**: setelah semua tautan dimasukkan, klik tombol "Tambahkan tautan bilah atas" untuk menyimpannya.
 
 
 
@@ -522,10 +522,10 @@ Bagian **Navbar** memungkinkan Anda mengonfigurasi menu navigasi utama be-BOP An
 
 
 
-- Masukkan nama tautan (`Teks`)**: pada baris konfigurasi, mulai dengan mengisi bidang `Teks`. Ini sesuai dengan nama tautan yang ditampilkan pada bilah navigasi (contoh: *Dashboard*, *Pengguna*, *Pengaturan*...).
-- Masukkan tautan Address (`Url`)**: di samping bidang `Teks`, Anda akan menemukan bidang `Url`. Di bidang ini, masukkan Address halaman yang akan dialihkan oleh tautan. Ini bisa berupa rute internal atau tautan ke halaman eksternal.
-- Tambahkan beberapa tautan jika diperlukan**: di bawah baris pertama, bidang `Teks` dan `Url` baru tersedia untuk menambahkan sebanyak mungkin tautan yang diperlukan. Setiap baris mewakili tautan navigasi tambahan.
-- Simpan tautan**: setelah Anda memasukkan semua Elements, klik tombol `Tambahkan tautan bilah navigasi` untuk menyimpan dan menampilkan hasilnya di bilah navigasi.
+- Masukkan nama tautan (**Teks**): pada baris konfigurasi, mulai dengan mengisi bidang `Teks`. Ini sesuai dengan nama tautan yang ditampilkan pada bilah navigasi (contoh: *Dashboard*, *Pengguna*, *Pengaturan*...).
+- Masukkan tautan Address (`Url`): di samping bidang `Teks`, Anda akan menemukan bidang `Url`. Di bidang ini, masukkan Address halaman yang akan dialihkan oleh tautan. Ini bisa berupa rute internal atau tautan ke halaman eksternal.
+- **Tambahkan beberapa tautan jika diperlukan**: di bawah baris pertama, bidang `Teks` dan `Url` baru tersedia untuk menambahkan sebanyak mungkin tautan yang diperlukan. Setiap baris mewakili tautan navigasi tambahan.
+- **Simpan tautan**: setelah Anda memasukkan semua Elements, klik tombol `Tambahkan tautan bilah navigasi` untuk menyimpan dan menampilkan hasilnya di bilah navigasi.
 
 
 
@@ -547,11 +547,11 @@ Bagian **Footer** memungkinkan Anda menyesuaikan footer perangkat lunak Anda, me
 
 
 
-- Mengaktifkan tampilan label "Didukung oleh be-BOP "**: aktifkan tombol `Display Powered by be-BOP` untuk menampilkan label ini di bagian footer.
-- Masukkan nama tautan (`Teks`)**: isi bidang `Teks`, yang sesuai dengan kata-kata tautan di footer (contoh: *Terms*, *Privasi*, *Kontak*...).
-- Tunjukkan tautan Address (`Url`)**: di bidang `Url`, masukkan Address halaman target (internal atau eksternal).
-- Tambahkan lebih banyak tautan jika diperlukan**: gunakan baris tambahan untuk membuat sebanyak mungkin tautan yang Anda inginkan.
-- Simpan tautan**: klik tombol "Tambahkan tautan footer" untuk menyimpan tautan.
+- Mengaktifkan tampilan label "Didukung oleh be-BOP": aktifkan tombol `Display Powered by be-BOP` untuk menampilkan label ini di bagian footer.
+- Masukkan nama tautan (**Teks**): isi bidang `Teks`, yang sesuai dengan kata-kata tautan di footer (contoh: *Terms*, *Privasi*, *Kontak*...).
+- Tunjukkan tautan Address (`Url`): di bidang `Url`, masukkan Address halaman target (internal atau eksternal).
+- Tambahkan lebih banyak tautan jika diperlukan: gunakan baris tambahan untuk membuat sebanyak mungkin tautan yang Anda inginkan.
+- **Simpan tautan**: klik tombol "Tambahkan tautan footer" untuk menyimpan tautan.
 
 
 
@@ -641,8 +641,8 @@ Dapat diakses melalui `Admin > Identitas` (atau `Pengaturan > Identitas`), bagia
 
 
 
-- Nama bisnis**: nama resmi perusahaan.
-- ID Bisnis**: pengenal resmi atau nomor registrasi (RCCM, SIRET...).
+- **Nama bisnis**: nama resmi perusahaan.
+- **ID Bisnis**: pengenal resmi atau nomor registrasi (RCCM, SIRET...).
 
 
 
@@ -652,11 +652,11 @@ Dapat diakses melalui `Admin > Identitas` (atau `Pengaturan > Identitas`), bagia
 
 
 
-- Jalan**: pos Address (jalan, nomor...).
-- Negara**: negara.
-- Negara bagian**: provinsi atau wilayah.
-- Kota**: kota.
-- Kode pos**: kode pos.
+- **Jalan**: pos Address (jalan, nomor...).
+- **Negara**: negara.
+- **Negara bagian**: provinsi atau wilayah.
+- **Kota**: kota.
+- **Kode pos**: kode pos.
 
 
 
@@ -666,8 +666,8 @@ Dapat diakses melalui `Admin > Identitas` (atau `Pengaturan > Identitas`), bagia
 
 
 
-- Email**: email profesional Address.
-- Telepon**: nomor telepon perusahaan.
+- **Email**: email profesional Address.
+- **Telepon**: nomor telepon perusahaan.
 
 
 
@@ -677,10 +677,10 @@ Dapat diakses melalui `Admin > Identitas` (atau `Pengaturan > Identitas`), bagia
 
 
 
-- Nama pemegang rekening**: nama pemegang rekening.
-- Pemegang rekening Address**: Address milik pemegang rekening.
-- IBAN**: Nomor Rekening Bank Internasional.
-- BIC**: Kode SWIFT/BIC.
+- **Nama pemegang rekening**: nama pemegang rekening.
+- Pemegang rekening **Address**: Address milik pemegang rekening.
+- **IBAN**: Nomor Rekening Bank Internasional.
+- **BIC**: Kode SWIFT/BIC.
 
 
 
@@ -695,7 +695,7 @@ Dapat diakses melalui `Admin > Identitas` (atau `Pengaturan > Identitas`), bagia
 
 
 - Klik `Isi dengan informasi toko utama` untuk mengisi data.
-- Informasi penerbit paling kanan atas**: kolom untuk informasi hukum/pajak yang terlihat pada faktur.
+- **Informasi penerbit paling kanan atas**: kolom untuk informasi hukum/pajak yang terlihat pada faktur.
 - Klik `Update` untuk menyimpan perubahan.
 
 
@@ -742,9 +742,9 @@ Buka `Admin > Merch > Produk` untuk menambah atau mengubah produk. Isi kolom ber
 
 
 
-- Nama Produk**: nama produk (contoh: *Kaos BOP edisi terbatas*).
-- Siput**: Pengenal URL tanpa spasi (misalnya `tshirt-bop-edition-limitee`).
-- Alias** *(opsional)*: berguna untuk penambahan cepat ke keranjang melalui bidang khusus.
+- **Nama Produk**: nama produk (contoh: *Kaos BOP edisi terbatas*).
+- **Siput**: Pengenal URL tanpa spasi (misalnya `tshirt-bop-edition-limitee`).
+- **Alias** *(opsional)*: berguna untuk penambahan cepat ke keranjang melalui bidang khusus.
 
 
 
@@ -758,9 +758,9 @@ Buka `Admin > Merch > Produk` untuk menambah atau mengubah produk. Isi kolom ber
 
 
 
-- Jumlah Harga**: harga produk (mis. `25.00`).
-- Mata Uang Harga**: mata uang (EUR, USD, BTC, dll.).
-- Produk khusus **:
+- **Jumlah Harga**: harga produk (mis. `25.00`).
+- **Mata Uang Harga**: mata uang (EUR, USD, BTC, dll.).
+- Produk khusus**:**
   - ini adalah produk gratis.
   - ini adalah produk bayar sesuai keinginan Anda.
 
@@ -772,14 +772,14 @@ Buka `Admin > Merch > Produk` untuk menambah atau mengubah produk. Isi kolom ber
 
 
 
-- Produk tunggal (`standalone`)**: hanya satu tambahan yang dapat dilakukan per pesanan (mis. donasi, tiket masuk).
-- Produk dengan variasi**:
+- Produk tunggal (`standalone`): hanya satu tambahan yang dapat dilakukan per pesanan (mis. donasi, tiket masuk).
+- Produk dengan **variasi**:
   - Jangan centang `Standalone`.
   - Centang `Produk memiliki variasi ringan (tidak ada perbedaan stok)`.
   - Menambahkan:
-    - Nama** (mis. *Ukuran*),
-    - Nilai** (contoh: S, M, L, XL),
-    - Perbedaan harga** jika ada (contoh: `+2 USD` untuk XL).
+- **Nama** (mis. *Ukuran*),
+- **Nilai** (contoh: S, M, L, XL),
+- **Perbedaan harga** jika ada (contoh: `+2 USD` untuk XL).
 
 
 
@@ -809,8 +809,8 @@ Sistem mengelola:
 
 
 
-- Stok yang dipesan** → produk dalam keranjang yang belum dibayar
-- Stok terjual** → produk yang sudah dibeli
+- **Stok yang dipesan** → produk dalam keranjang yang belum dibayar
+- **Stok terjual** → produk yang sudah dibeli
 
 
 
@@ -832,8 +832,8 @@ Centang `Produk memiliki komponen fisik yang akan dikirim ke Address pelanggan`.
 
 
 
-- Tiket**: centang jika produk tersebut adalah tiket untuk suatu acara
-- Pemesanan**: periksa apakah ini adalah slot reservasi (mis.: sesi, janji temu)
+- **Tiket**: centang jika produk tersebut adalah tiket untuk suatu acara
+- **Pemesanan**: periksa apakah ini adalah slot reservasi (mis.: sesi, janji temu)
 
 
 
@@ -898,7 +898,7 @@ Anda dapat menambahkan halaman lain sesuai kebutuhan:
 
 
 
-**Tip: Klik setiap tautan atau ikon untuk mengubah **konten**, **judul**, atau **kemunculan SEO** dari setiap halaman.
+**Tip: Klik setiap tautan atau ikon untuk mengubah konten, judul, atau kemunculan SEO dari setiap halaman.**
 
 
 
@@ -983,7 +983,7 @@ Juga dapat dimodifikasi di `Pictures`, ini memungkinkan Anda untuk menampilkan *
 
 
 
-Widget** memperkaya halaman CMS Anda dengan Elements yang dinamis atau visual.
+**Widget** memperkaya halaman CMS Anda dengan Elements yang dinamis atau visual.
 
 
 
@@ -1001,14 +1001,14 @@ Contoh widget yang tersedia:
 
 
 
-- Tantangan**: tantangan atau misi
-- Tag**: kategori atau kata kunci
-- Penggeser**: korsel gambar
-- Spesifikasi **: Tabel spesifikasi
-- Formulir**: formulir (kontak, umpan balik, dll.)
-- Hitung Mundur**: pengatur waktu
-- Galeri**: galeri gambar
-- Papan Peringkat**: peringkat pengguna
+- **Tantangan**: tantangan atau misi
+- **Tag**: kategori atau kata kunci
+- **Penggeser**: korsel gambar
+- **Spesifikasi**: Tabel spesifikasi
+- **Formulir**: formulir (kontak, umpan balik, dll.)
+- **Hitung Mundur**: pengatur waktu
+- **Galeri**: galeri gambar
+- **Papan Peringkat**: peringkat pengguna
 
 
 
@@ -1166,9 +1166,9 @@ Laporan-laporan tersebut dibagi menjadi beberapa bagian:
 
 
 
-- Detail Pesanan**: jumlah pesanan, status (dikonfirmasi, dibatalkan, tertunda), evolusi
-- Detail Produk**: produk yang dijual, jumlah, produk populer
-- Detail Pembayaran**: jumlah yang terkumpul, rincian berdasarkan metode pembayaran
+- **Detail Pesanan**: jumlah pesanan, status (dikonfirmasi, dibatalkan, tertunda), evolusi
+- **Detail Produk**: produk yang dijual, jumlah, produk populer
+- **Detail Pembayaran**: jumlah yang terkumpul, rincian berdasarkan metode pembayaran
 
 
 
@@ -1262,7 +1262,7 @@ Setelah dikonfigurasi, beberapa fungsi tersedia:
 
 
 
-*pemberian cahaya *Interface**
+*pemberian cahaya* **Interface**
 
 
 
@@ -1310,9 +1310,9 @@ Ketika membuat atau memodifikasi tema, Anda dapat menentukan file:
 
 
 
-- Warna**: untuk tombol, latar belakang, teks, tautan, dll.
-- Font**: pilihan jenis huruf untuk judul, paragraf, menu
-- Gaya grafis**: batas, margin, spasi, bentuk blok
+- **Warna**: untuk tombol, latar belakang, teks, tautan, dll.
+- **Font**: pilihan jenis huruf untuk judul, paragraf, menu
+- **Gaya grafis**: batas, margin, spasi, bentuk blok
 
 
 
@@ -1326,9 +1326,9 @@ Setiap bagian dari situs ini dapat disesuaikan secara independen:
 
 
 
-- Header**: bilah navigasi atas
-- Tubuh**: konten utama
-- Footer**: bagian bawah halaman
+- **Header**: bilah navigasi atas
+- **Tubuh**: konten utama
+- **Footer**: bagian bawah halaman
 
 
 
@@ -1377,8 +1377,8 @@ Setiap email (konfirmasi pesanan, kata sandi yang terlupa, dll.) memiliki:
 
 
 
-- Subjek**: subjek email (misalnya "Pesanan Anda telah divalidasi")
-- Badan HTML**: Konten HTML yang ditampilkan dalam email
+- **Subjek**: subjek email (misalnya "Pesanan Anda telah divalidasi")
+- **Badan HTML**: Konten HTML yang ditampilkan dalam email
 
 
 
@@ -1444,9 +1444,9 @@ Lengkapi kolom-kolom berikut ini:
 
 
 
-- Nama Tag**: nama tag yang ditampilkan
-- Siput**: pengenal unik (tanpa spasi atau aksen)
-- Tag Family**: mengelompokkan tag berdasarkan kategori
+- **Nama Tag**: nama tag yang ditampilkan
+- **Siput**: pengenal unik (tanpa spasi atau aksen)
+- **Tag Family**: mengelompokkan tag berdasarkan kategori
 
 
 
@@ -1479,9 +1479,9 @@ Bidang-bidang ini dapat digunakan untuk memperkaya tag seolah-olah itu adalah ha
 
 - Judul
 - Subtitle
-- Konten pendek**
-- Konten lengkap** (dalam bahasa Prancis)
-- CTA** (tombol tindakan)
+- **Konten pendek**
+- **Konten lengkap** (dalam bahasa Prancis)
+- **CTA** (tombol tindakan)
 
 
 
@@ -1520,8 +1520,8 @@ Untuk menawarkan dokumen yang dapat diunduh kepada pelanggan Anda: `Admin > Merc
 
 
 
-   - Nama file** (mis. *Panduan instalasi*)
-   - File untuk diunggah** (PDF, gambar, Word...)
+- **Nama file** (mis. *Panduan instalasi*)
+- **File untuk diunggah** (PDF, gambar, Word...)
 
 
 
@@ -1539,9 +1539,9 @@ Tautan ini kemudian dapat disisipkan ke dalam file:
 
 
 
-- Halaman CMS** (sebagai tautan teks atau tombol)
+- Halaman **CMS** (sebagai tautan teks atau tombol)
 - Klien **email** (melalui templat)
-- Lembar produk** (mis. unduhan manual)
+- **Lembar produk** (mis. unduhan manual)
 
 
 
@@ -1635,9 +1635,9 @@ File terjemahan dalam bentuk JSON. Anda dapat:
 
 
 
-- Unduh** file bahasa
-- Memodifikasi** teks yang ada
-- Tambahkan** terjemahan Anda sendiri
+- **Unduh** file bahasa
+- **Memodifikasi** teks yang ada
+- Tambahkan **terjemahan Anda sendiri**
 
 
 
@@ -1678,9 +1678,9 @@ Setiap peran berisi:
 
 
 
-- akses tulis**: akses tulis
-- akses baca**: akses baca
-- akses terlarang**: bagian interdites
+- **akses tulis**: akses tulis
+- **akses baca**: akses baca
+- **akses terlarang**: bagian interdites
 
 
 
@@ -1709,7 +1709,7 @@ Menetapkan peran yang telah ditentukan sebelumnya.
 
 
 
-Pengguna hanya-baca** akan melihat menu dalam *italic* dan tidak dapat mengubah konten.
+Pengguna **hanya-baca** akan melihat menu dalam *italic* dan tidak dapat mengubah konten.
 
 
 
@@ -1779,8 +1779,8 @@ Tersedia dua opsi lanjutan:
 
 
 
-- Pembebasan PPN**: berlaku berdasarkan justifikasi (LSM, orang asing...)
-- Diskon hadiah**: diskon luar biasa dengan komentar wajib
+- **Pembebasan PPN**: berlaku berdasarkan justifikasi (LSM, orang asing...)
+- **Diskon hadiah**: diskon luar biasa dengan komentar wajib
 
 
 

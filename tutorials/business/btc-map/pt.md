@@ -1,5 +1,5 @@
 ---
-name: Mapa BTC
+name: BTC Map
 description: Encontrar locais para gastar o seu Sats
 ---
 ![cover](assets/cover.webp)
@@ -199,7 +199,7 @@ Irá notar imediatamente as áreas de cor laranja. Como pode ver, estas são as 
 
 
 
-*o *Stats** oferece-lhe várias estatísticas sobre a aplicação:
+**Stats** oferece-lhe várias estatísticas sobre a aplicação:
 
 
 

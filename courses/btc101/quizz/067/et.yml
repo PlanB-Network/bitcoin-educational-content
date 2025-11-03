@@ -1,11 +1,9 @@
-question: Kui tihti toimub raskusastme kohandamine?
-answer: Iga 2016 bloki järel
+question: Kus bitcoine tegelikult hoitakse?
+answer: Bitcoin'i plokiahelas
 wrong_answers:
-  - Iga 1048 bloki järel
-  - Iga 512 bloki järel
-  - Iga 4032 bloki järel
+  - Bitcoin'i rahakotis
+  - Seadmes, kus rahakott on paigaldatud
+  - Föderaalreservis
 explanation: |
-  Raskusastme kohandamine on mehhanism, mis toimub iga
-  2016 bloki järel ehk umbes kahe nädala tagant, tagamaks, et keskmiselt lisatakse
-  uus blokk plokiahelasse iga kümne minuti järel sõltumata globaalsest hashrate'ist.
+  Kuigi teie privaatvõtmed on hoitud teie rahakotis, hoitakse bitcoine tegelikult Bitcoin'i plokiahelas, mis on avalik jaotatud register Bitcoin'i võrdõiguslikus võrgustikus.
 reviewed: true

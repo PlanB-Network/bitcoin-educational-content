@@ -4,6 +4,8 @@ level: advanced
 
 category: peer-to-peer
 
+professor_id: 2e1b5182-567e-453a-af29-36009340ff02
+
 project_id: 9a5bbbc3-22ac-4c98-b10a-c953f9fae337
 original_language: en
 proofreading:
@@ -125,6 +127,21 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 4.69
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.84
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.69
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.99
 tags:
   - guides
   - user-friendly

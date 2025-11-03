@@ -1,0 +1,11 @@
+question: Ni uruhara uruhe rw’imfunguruzo z’ibanga mu bikorwa vya Bitcoin?
+answer: Bikoreshwa mu gusinya no kwemerera amafaranga.
+wrong_answers:
+  - Bikoreshwa mu kugenzura ukuri kw’ibintu bigurishwa.
+  - Bikoreshwa mu gupfuka amakuru y’ibikorwa.
+  - Bisangizwa ku mugaragaro kugira ngo bibe mu mucyo.
+explanation: |
+  Imfunguruzo z’ibanga ni ikintu gihambaye mu bikorwa vya Bitcoin.
+  Bikoreshwa mu gusinya no kwemerera amafaranga, bitanga ikimenyamenya . 
+  ya Ownership no kumenya neza ko nyen’itongo ari we wenyene ashobora gukoresha Bitcoin yiwe.
+reviewed: true

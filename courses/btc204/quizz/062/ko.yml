@@ -1,0 +1,10 @@
+question: 다음 옵션 중 자동 부품 선택 방법이 아닌 것은 무엇인가요?
+answer: 자동 결제
+wrong_answers:
+  - 지점 및 바운드
+  - FIFO
+  - 배낭 해결사
+explanation: |
+  다른 세 가지 옵션과 달리 자동 결제는 부품을 선택하는 방법이 아니라 정적 주소를 사용하기 위한 프로토콜입니다.
+  
+reviewed: true

@@ -1,9 +1,10 @@
-question: Šta je bio projekat DigiCash?
-answer: Pokušaj kreiranja anonimnog elektronskog novca od strane David-a Chaum-a.
+question: Jedan od nedostataka zlata kao oblika novca je njegova težina i nepraktičnost za svakodnevne transakcije.
+answer: Nije lako deljivo.
 wrong_answers:
-  - Projekat za kreiranje digitalnog novčanika za Bitkoin.
-  - Pokušaj digitalizacije sve fizičke gotovine od strane Federalnih rezervi.
-  - Projekat za kreiranje kriptovalute zasnovane na Bitkoin.
+  - Ne zadržava svoju vrednost kroz prostor.
+  - Vremenom se erodira.
+  - Lako je proizvesti.
 explanation: |
-  David Chaum je uveo koncept anonimnog elektronskog novca sa svojim projektom DigiCash 1980-ih.
+  Jedan od glavnih nedostataka zlata kao oblika novca je
+  teškoća u deljenju na manje jedinice kada se za tim ukaže potreba, što ga čini manje praktičnim za korišćenje.
 reviewed: true

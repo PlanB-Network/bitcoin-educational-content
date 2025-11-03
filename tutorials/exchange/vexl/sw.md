@@ -43,7 +43,7 @@ Baada ya kusakinisha programu, fungua akaunti yako kwa kuthibitisha nambari yako
 
 
 
-Baada ya kuthibitisha akaunti yako, anza kugundua ni wanachama gani wa mtandao walio katika anwani zako. Ingiza anwani zako na anza kutumia Vexl.
+Baada ya kuthibitisha akaunti yako, anza kugundua ni wanachama wagani wa mtandao walio katika anwani zako. Ingiza anwani zako na anza kutumia Vexl.
 
 
 
@@ -71,7 +71,7 @@ Vexl inafanya kazi kama soko la rika-kwa-rika, ikikupa chaguo kadhaa:
 
 
 
-Kwenye ukurasa wa nyumbani wa Vexl, pindi tu utakapojiandikisha, utaona mapendekezo ya jinsi ya kufanya utendakazi mahususi na kwenye usanidi unayoweza kufanya ili kufanya matumizi yako ya mtumiaji kuwa laini zaidi.
+Kwenye ukurasa wa nyumbani wa Vexl, pindi tu utakapojiandikisha, utaona mapendekezo ya jinsi ya kufanya utendakazi mahususi na kwenye usanidi unaoweza kufanya ili kufanya matumizi yako ya mtumiaji kuwa laini zaidi.
 
 
 
@@ -188,4 +188,4 @@ Sasa unaweza kuanza kubadilishana bitcoins bila kujulikana na kwa usalama na Vex
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c

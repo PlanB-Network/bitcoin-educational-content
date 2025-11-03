@@ -372,7 +372,7 @@ On va donc se servir de cette propriété pour adapter notre algorithme Diffie-H
 
 - Alice et Bob s'échangent leurs clés publiques Ka et Kb sur un réseau public non sécurisé.
 
-\*Alice calcule un point (x,y) sur la courbe en appliquant sa clé privée ka depuis la clé publique de Bob Kb.
+**Alice calcule un point (x,y) sur la courbe en appliquant sa clé privée ka depuis la clé publique de Bob Kb.**
 
 > (x,y) = ka·Kb
 
@@ -856,7 +856,7 @@ Dès que Bob reçoit la transaction de notification de la part d'Alice, il déri
 
 > S = b·A
 
-\*De la même manière que l'a fait Alice, Bob isole l'abscisse de ce point "S". Nous avons nommé cette valeur "Sx". Il passe cette valeur dans la fonction SHA256 pour trouver le secret partagé "s" (minuscule).
+*De la même manière que l'a fait Alice, Bob isole l'abscisse de ce point "S". Nous avons nommé cette valeur "Sx". Il passe cette valeur dans la fonction SHA256 pour trouver le secret partagé "s" (minuscule).*
 
 > s = SHA256(Sx)
 

@@ -1,0 +1,9 @@
+question: Wie schreef het Cypherpunk manifest?
+answer: Eric Hughes.
+wrong_answers:
+  - Timothy May.
+  - Satoshi Nakamoto.
+  - Milton Friedman.
+explanation: |
+  Eric Hughes is de auteur van het Cypherpunk Manifest (1993). Deze baanbrekende tekst verdedigt het gebruik van cryptografie om privacy te beschermen in het digitale tijdperk.
+reviewed: false

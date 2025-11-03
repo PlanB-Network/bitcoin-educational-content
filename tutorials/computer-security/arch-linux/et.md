@@ -17,10 +17,10 @@ Arch Linux on distributsioon, mis on tuntud oma töökindluse, jõudluse ja koha
 
 
 
-- Tasuta ja avatud lähtekoodiga**: Arch Linux on nagu enamik Linuxi distributsioone täiesti tasuta. Litsentsitasusid ei ole, mistõttu on see suurepärane valik üliõpilastele, vabakutselistele või entusiastidele.
-- KISS** filosoofia: Arch on loodud lihtsaks, kergeks ja tõhusaks. See pakub ainult hädavajalikku, võimaldades teil luua oma keskkonda à la carte.
-- Pacman** paketihaldur: Pacman on kiire, usaldusväärne ja hästi disainitud paketihaldur. See võimaldab tarkvara tõhusat paigaldamist ja uuendamist ning haldab täpselt sõltuvusi.
-- Põhjalik dokumentatsioon ja aktiivne kogukond**: [Arch Wiki](https://wiki.archlinux.org) on tõenäoliselt üks parimaid tehnilisi dokumente Linuxi maailmas. See on kullaauk, et mõista, mida sa teed. Kogukond, mis koosneb enamasti kogenud profiilidest, on väga aktiivne ja võib sind aidata, kui sa hätta jääd, eeldusel, et oled eelnevalt natuke uurinud.
+- **Tasuta ja avatud lähtekoodiga**: Arch Linux on nagu enamik Linuxi distributsioone täiesti tasuta. Litsentsitasusid ei ole, mistõttu on see suurepärane valik üliõpilastele, vabakutselistele või entusiastidele.
+- **KISS** filosoofia: Arch on loodud lihtsaks, kergeks ja tõhusaks. See pakub ainult hädavajalikku, võimaldades teil luua oma keskkonda à la carte.
+- **Pacman** paketihaldur: Pacman on kiire, usaldusväärne ja hästi disainitud paketihaldur. See võimaldab tarkvara tõhusat paigaldamist ja uuendamist ning haldab täpselt sõltuvusi.
+- **Põhjalik dokumentatsioon ja aktiivne kogukond**: [Arch Wiki](https://wiki.archlinux.org) on tõenäoliselt üks parimaid tehnilisi dokumente Linuxi maailmas. See on kullaauk, et mõista, mida sa teed. Kogukond, mis koosneb enamasti kogenud profiilidest, on väga aktiivne ja võib sind aidata, kui sa hätta jääd, eeldusel, et oled eelnevalt natuke uurinud.
 
 
 
@@ -39,7 +39,7 @@ Vajalikud materjalid:
 
 
 - Vähemalt **8 GB suurune USB-mälu**
-- vähemalt 2 GB** RAM
+- vähemalt 2 GB RAM
 - Arvuti, millel on vähemalt 20 GB vaba kettaruumi
 
 
@@ -261,7 +261,7 @@ Valige **GPT**, kui olete UEFI-s, **DOS**, kui olete BIOS-s.
 
 
 
-- UEFI** režiimis
+- **UEFI** režiimis
 
 
 
@@ -294,7 +294,7 @@ Valige **Kirjuta**, sisestage **jah** ja seejärel **Lõpeta**.
 
 
 
-- UEFI**:
+- **UEFI**:
 
 
 
@@ -309,7 +309,7 @@ mkfs.ext4 /dev/sda3
 
 
 
-- BIOS**:
+- **BIOS**:
 
 
 
@@ -778,6 +778,6 @@ Kui teile meeldis alustada Arch Linuxiga, siis meeldib teile meie õpetus **Fedo
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
+https://planb.academy/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

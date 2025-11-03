@@ -1,0 +1,9 @@
+question: Bitcoin core에서 최대 연결 매개변수의 기본값은 무엇인가요?
+answer: 125
+wrong_answers:
+  - 10
+  - 100
+  - 150
+explanation: |
+  최대 연결 수는 수신 및 발신 연결의 총 수를 제한합니다. 기본값은 125입니다.
+reviewed: true

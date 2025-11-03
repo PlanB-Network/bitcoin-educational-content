@@ -1,9 +1,11 @@
-question: Một trong những câu hỏi chính được đặt ra về tương lai của tài chính là gì?
-answer: Ai nên giữ, ủy quyền, và theo dõi tiền mà chúng ta sử dụng?
+question: Cách thực tế để có được Bitcoin là gì?
+answer: Mua chúng qua các nền tảng được quản lý hoặc không được quản lý.
 wrong_answers:
-  - Làm thế nào chúng ta có thể loại bỏ hoàn toàn tiền bạc?
-  - Làm thế nào chúng ta có thể đảm bảo rằng mọi người đều có cùng một lượng tiền?
-  - Làm thế nào chúng ta có thể làm cho tiền bạc trở nên lỗi thời?
-explanation: >-
-  Văn bản đặt ra một số câu hỏi về tương lai của tài chính, trong đó một câu hỏi là ai nên giữ, ủy quyền, và theo dõi tiền mà chúng ta sử dụng.
+  - Đào chúng bằng laptop.
+  - Tìm thấy chúng trong thế giới thực.
+  - Tạo ra chúng bằng phần mềm đặc biệt.
+explanation: |
+  Văn bản đề cập rằng người dùng có thể có được Bitcoin bằng
+  cách chấp nhận chúng để trao đổi hoặc mua chúng qua
+  các nền tảng được quản lý hoặc không được quản lý.
 reviewed: true

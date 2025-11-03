@@ -1,11 +1,10 @@
-question: Mistä oli kyse vuoden 2017 lohkosodassa?
-answer: Konfliktista siitä, pitäisikö lohkon kokoa kasvattaa siirtojen kapasiteetin laajentamiseksi.
+question: Mikä on HashRate?
+answer: Hash-laskelmien määrä, jonka louhinta-laite voi suorittaa sekunnissa ratkaistakseen Proof of Work -tehtävän.
 wrong_answers:
-  - Konfliktista siitä, pitäisikö lohkon kokoa pienentää siirtojen kapasiteetin vähentämiseksi.
-  - Konfliktista siitä, pitäisikö lohkopalkkiota kasvattaa louhijoiden kannustamiseksi.
-  - Konfliktista siitä, pitäisikö lohkopalkkiota pienentää louhijoiden kannustamisen vähentämiseksi.
-explanation: |
-  Vuoden 2017 lohkosota oli konflikti siitä, pitäisikö
-  Bitcoinia muokata kasvattamalla lohkon kokoa siirtojen
-  kapasiteetin laajentamiseksi.
+  - Nopeus, jolla louhinta-laite voi ratkaista Proof of Work -tehtävän.
+  - Bitcoin-verkon louhijoiden kokonaismäärä.
+  - Louhimalla saadun bitcoinien kokonaismäärä suorittamalla tietty määrä yrityksiä sekunnissa ratkaistakseen Proof of Work -tehtävän.
+explanation: >-
+  HashRate viittaa yritysten kokonaismäärään, joita louhijat tekevät
+  sekunnissa ratkaistakseen Proof of Work -tehtävän. Se on mittari Bitcoin-verkon laskentatehosta.
 reviewed: true

@@ -1,12 +1,12 @@
-question: Je, ni sifa kuu ya sarafu ufanisi?
-answer: Inayo fungi, Inayoonekana, Liquid.
+question: Kwa nini Bitcoin haikubaliki sana katika biashara leo?
+answer: Kwa sababu haijapitishwa sana na watu binafsi.
 wrong_answers:
-  - Yenye Kung'aa, Inagawanyika, Inaharibika.
-  - Fungible, Haigawanyiki, Liquid.
-  - Isiyo ya kuvu, Inayogawanyika, Liquid.
+  - Kwa sababu haiwezi kusafirishwa.
+  - Kwa sababu haiwezi kugawanywa katika vitengo vidogo.
+  - Kwa sababu sio Liquid.
 explanation: |
-  Sarafu inayofaa lazima iweze kufungika (inayoweza kubadilishwa
-  bila hasara ya thamani), kugawanywa (kutenganishwa kuwa ndogo
-  sehemu za kuwezesha shughuli za ujazo tofauti), na
-  Liquid (inaweza kubadilishwa kwa urahisi kuwa bidhaa au huduma).
+  Licha ya mali yake, kama vile mdogo wake madhubuti
+  Supply, Bitcoin bado haikubaliki sana katika biashara
+  leo, kutokana na ukosefu wa kupitishwa na watu binafsi, hivyo
+  wafanyabiashara hawahimizwa kuikubali.
 reviewed: true

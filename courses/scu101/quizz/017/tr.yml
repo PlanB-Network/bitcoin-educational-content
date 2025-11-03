@@ -1,12 +1,11 @@
 question: Ziyaret etmeyi düşündüğünüz sitede olduğunuzu teyit etmenin bir yolu nedir?
-answer: URL'leri ve Address çubuğundaki küçük asma kilidi kontrol edin.
+answer: URL'leri ve adres çubuğundaki küçük asma kilidi kontrol edin.
 wrong_answers:
   - Sitedeki reklam sayısını kontrol edin.
   - Sitenin hızını kontrol edin.
   - Sitenin renk düzenini kontrol edin.
 explanation: |
-  URL'leri ve Address çubuğundaki küçük asma kilidi kontrol etme
-  niyetlendiğiniz sitede olduğunuzu doğrulamanın bir yoludur
-  ziyaret etmek için. Asma kilit, sitenin aşağıdakileri kullandığını gösterir
-  Güvenli Exchange için verileri şifreleyen HTTPS protokolü.
+  URL'leri ve adres çubuğundaki küçük asma kilidi kontrol etme
+  niyetlendiğiniz sitede olduğunuzu doğrulamanın bir yoludur.
+  Asma kilit, sitenin güvenli veri takası için, verileri şifreleyen HTTPS protokolünü kullandığını gösterir.  
 reviewed: true

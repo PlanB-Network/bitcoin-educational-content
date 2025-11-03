@@ -1,10 +1,12 @@
-question: Qual país declarou o Bitcoin como moeda legal?
-answer: El Salvador.
+question: Em quais campos o Bitcoin levanta questões?
+answer: Criptografia, teoria dos jogos, economia e política monetária, ciência da computação, filosofia, energia, leis e regulamentação.
 wrong_answers:
-  - Estados Unidos.
-  - China.
-  - Índia.
-explanation: >-
-  El Salvador tomou a ousada decisão de adotar o Bitcoin integralmente,
-  declarando-o como moeda legal.
+  - Apenas ciência da computação e economia
+  - Apenas criptografia e teoria dos jogos.
+  - Apenas filosofia e energia.
+explanation: |
+  O Bitcoin é um assunto multidisciplinar que levanta
+  questões relacionadas a vários campos, incluindo
+  criptografia, teoria dos jogos, economia e política monetária,
+  ciência da computação, filosofia, energia, leis e regulamentação.
 reviewed: true

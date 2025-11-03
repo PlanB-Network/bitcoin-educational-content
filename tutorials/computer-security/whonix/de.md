@@ -17,12 +17,12 @@ description: Ihre Privatsphäre und Vertraulichkeit zu wahren.
 
 
 
-- Frei**: Wie die meisten Linux-Distributionen ist Whonix ein Open-Source-System, das völlig kostenlos lizenziert ist. Es wird als Open-Source-System entwickelt, mit einer aktiven und transparenten Gemeinschaft.
-- Privatsphäre, Sicherheit und Anonymität**: Das Hauptziel von Whonix ist es, eine ultra-sichere Umgebung zu bieten, in der alle deine Daten geschützt sind und deine Kommunikation über das Tor-Netzwerk verschlüsselt wird.
-- Einfach zu bedienen**: Whonix bietet eine intuitive, vorkonfigurierte grafische Interface, die auch für unerfahrene Benutzer geeignet ist. Man muss kein Experte sein, um von dem erweiterten Schutz zu profitieren.
-- Ideale Umgebung für sichere Entwicklung**: Mit Whonix können Sie Programme entwickeln, testen, prüfen oder ausführen, ohne jemals Ihre echte IP Address preiszugeben oder Ihre Surf- oder Kommunikationsgewohnheiten im Netz preiszugeben.
-- Wegwerf-Sitzungen und Live-Modus**: Whonix kann im Live-Modus oder über Einwegrechner (z. B. über **Qubes OS**) gestartet werden, so dass kritische Aufgaben ausgeführt werden können, ohne nach Beendigung der Sitzung dauerhafte Spuren zu hinterlassen.
-- Relativ einfache Installation**: Für die schnelle Installation in virtuellen Maschinen (VirtualBox, KVM, Qubes) werden gebrauchsfertige Images geliefert. Das System ist dokumentiert und wird regelmäßig aktualisiert.
+- **Frei**: Wie die meisten Linux-Distributionen ist Whonix ein Open-Source-System, das völlig kostenlos lizenziert ist. Es wird als Open-Source-System entwickelt, mit einer aktiven und transparenten Gemeinschaft.
+- **Privatsphäre, Sicherheit und Anonymität**: Das Hauptziel von Whonix ist es, eine ultra-sichere Umgebung zu bieten, in der alle deine Daten geschützt sind und deine Kommunikation über das Tor-Netzwerk verschlüsselt wird.
+- **Einfach zu bedienen**: Whonix bietet eine intuitive, vorkonfigurierte grafische Interface, die auch für unerfahrene Benutzer geeignet ist. Man muss kein Experte sein, um von dem erweiterten Schutz zu profitieren.
+- **Ideale Umgebung für sichere Entwicklung**: Mit Whonix können Sie Programme entwickeln, testen, prüfen oder ausführen, ohne jemals Ihre echte IP Address preiszugeben oder Ihre Surf- oder Kommunikationsgewohnheiten im Netz preiszugeben.
+- **Wegwerf-Sitzungen und Live-Modus**: Whonix kann im Live-Modus oder über Einwegrechner (z. B. über **Qubes OS**) gestartet werden, so dass kritische Aufgaben ausgeführt werden können, ohne nach Beendigung der Sitzung dauerhafte Spuren zu hinterlassen.
+- **Relativ einfache Installation**: Für die schnelle Installation in virtuellen Maschinen (VirtualBox, KVM, Qubes) werden gebrauchsfertige Images geliefert. Das System ist dokumentiert und wird regelmäßig aktualisiert.
 
 
 
@@ -56,9 +56,9 @@ Hier sind die empfohlenen Spezifikationen für eine reibungslose und stabile Erf
 
 
 
-- Arbeitsspeicher mit wahlfreiem Zugriff (RAM)**: Ein Minimum von **8 GB** wird dringend empfohlen. Je mehr RAM Sie haben, desto mehr Ressourcen können Sie den virtuellen Maschinen (Gateway und Workstation) zuweisen, was die Leistung verbessert.
+- **Arbeitsspeicher mit wahlfreiem Zugriff (RAM)**: Ein Minimum von **8 GB** wird dringend empfohlen. Je mehr RAM Sie haben, desto mehr Ressourcen können Sie den virtuellen Maschinen (Gateway und Workstation) zuweisen, was die Leistung verbessert.
 - Verfügbarer Festplattenspeicher**: Bitte planen Sie mindestens 30 GB freien Festplattenspeicher** ein. Dies umfasst den für die beiden virtuellen Maschinen, die Systemdateien und alle Daten oder Snapshots benötigten Speicherplatz.
-- Prozessor**: Ein Prozessor mit mindestens **4 physischen Kernen** (8 logischen Threads) wird empfohlen, insbesondere wenn Sie andere Dienste oder Tools parallel ausführen möchten.
+- **Prozessor**: Ein Prozessor mit mindestens **4 physischen Kernen** (8 logischen Threads) wird empfohlen, insbesondere wenn Sie andere Dienste oder Tools parallel ausführen möchten.
 
 
 
@@ -86,7 +86,7 @@ Sobald Sie die Datei heruntergeladen haben, installieren Sie sie wie jede andere
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
+https://planb.academy/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
 ### Whonix importieren
 
 
@@ -220,11 +220,11 @@ sudo apt full-upgrade
 
 
 
-*der *Tor Browser** ist der Standard-Webbrowser von Whonix. Er stützt sich auf das **Tor**-Netzwerk, das Ihren Datenverkehr über mehrere Relais auf der ganzen Welt umleitet, so dass es praktisch unmöglich ist, Ihre tatsächliche IP Address zu ermitteln.
+**Der Tor Browser** ist der Standard-Webbrowser von Whonix. Er stützt sich auf das **Tor**-Netzwerk, das Ihren Datenverkehr über mehrere Relais auf der ganzen Welt umleitet, so dass es praktisch unmöglich ist, Ihre tatsächliche IP Address zu ermitteln.
 
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ### Elektrum Bitcoin Wallet
 
@@ -234,7 +234,7 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 Whonix ist mehr als nur ein Betriebssystem: Es ist eine echte **sichere Umgebung**, die entwickelt wurde, um deine Anonymität, deine Privatsphäre und deine sensiblen Aktivitäten zu schützen. Dank seiner Tor-basierten Architektur, der intelligenten Partitionierung zwischen Gateway und Workstation und den vorinstallierten Tools wie Tor Browser, KeePassXC und Electrum bietet es eine schlüsselfertige Lösung für jeden, der **anonym surfen**, **sicher arbeiten** oder **vertrauliche Daten** verwalten möchte.
 
@@ -244,4 +244,4 @@ Um die Sicherheit Ihres Unix-Systems zu erhöhen, schauen Sie sich unsere Anleit
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
+https://planb.academy/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af

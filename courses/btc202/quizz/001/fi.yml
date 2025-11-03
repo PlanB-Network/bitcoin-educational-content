@@ -1,0 +1,9 @@
+question: Mikä on joukko koneita, jotka käyttävät Bitcoin-toteutusta ja ovat yhteydessä toisiinsa?
+answer: Bitcoin-verkko
+wrong_answers:
+  - Bitcoin-protokolla
+  - Bitcoin-valuutta
+  - Blockchain Bitcoin
+explanation: |
+  Bitcoin-verkko koostuu kaikista liitetyistä solmuista, joista jokainen käyttää erillistä protokollan toteutusta.
+reviewed: true

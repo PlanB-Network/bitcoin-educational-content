@@ -1,10 +1,10 @@
-question: Lợi ích chính của các máy chuyên dụng SHA256, hay còn gọi là ASICS, trong việc đào Bitcoin là gì?
-answer: Chúng tăng tốc độ băm trên mỗi joule.
+question: Sự kiện đáng chú ý nào đã diễn ra trong thế giới tiền mã hóa vào năm 2017?
+answer: Việc ra mắt hàng nghìn Đợt Phát Hành Tiền Mã Hóa Đầu Tiên (ICOs).
 wrong_answers:
-  - Chúng giảm lượng tiêu thụ năng lượng.
-  - Chúng tăng tốc độ của các giao dịch.
-  - Chúng tăng cường bảo mật cho mạng lưới.
+  - Việc cấm Bitcoin.
+  - Việc tạo ra Bitcoin.
+  - Sự biến mất của tất cả các loại tiền mã hóa.
 explanation: >-
-  Các máy chuyên dụng SHA256, hay còn gọi là ASICS, tăng tốc độ băm trên mỗi joule
-  trong việc đào Bitcoin. Điều này có nghĩa là số lần thử trên mỗi giây và mỗi lượng năng lượng tiêu thụ.
+  Năm 2017 được đánh dấu bởi một bong bóng đầu cơ đáng kể trong thế giới tiền mã hóa,
+  đặc biệt là với việc ra mắt hàng nghìn Đợt Phát Hành Tiền Mã Hóa Đầu Tiên (ICOs).
 reviewed: true

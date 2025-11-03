@@ -1,7 +1,7 @@
-id: 1615c72c-12bc-4435-87dd-24c66ffd9923
+id: 2792e1cd-b749-41b0-b018-3f77d8787ba6
 chapterId: b403f1e4-f1ff-572b-a242-9b58cb3736d0
-difficulty: easy
-duration: 15
+difficulty: hard
+duration: 45
 author: DecouvreBitcoin
 original_language: en
 proofreading:
@@ -14,7 +14,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.14
+    reward: 0.15
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 1
@@ -25,7 +25,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.14
+    reward: 0.15
   - language: fi
     last_contribution_date:
     urgency: 1
@@ -52,7 +52,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.14
+    reward: 0.15
   - language: vi
     last_contribution_date:
     urgency: 1
@@ -67,7 +67,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.17
+    reward: 0.18
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -82,7 +82,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.17
+    reward: 0.18
   - language: pl
     last_contribution_date:
     urgency: 1
@@ -92,7 +92,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.2
+    reward: 0.21
   - language: sr-Latn
     last_contribution_date: '2025-08-19'
     urgency: 1
@@ -108,7 +108,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.17
+    reward: 0.18
   - language: fa
     last_contribution_date:
     urgency: 1
@@ -118,9 +118,24 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.14
+    reward: 0.15
   - language: nl
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.16
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.18
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.16
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.19

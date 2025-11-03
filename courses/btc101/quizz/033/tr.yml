@@ -1,10 +1,12 @@
-question: Bitcoin neden yeni bir para biçimi olarak kabul ediliyor?
-answer: Çünkü merkezi bir varlığı olmayan dijital bir paradır.
+question: İtibari bir para biriminin değerini düşürmek için merkezi kuruluşlar tarafından kullanılan strateji nedir?
+answer: Parasal kütleyi her yıl yüzde birkaç oranında artırırlar.
 wrong_answers:
-  - Çünkü altınla desteklenen dijital bir para birimidir.
-  - Çünkü banka Blockchain'i gerektiren bir para birimidir.
-  - Çünkü Federal Rezerv öyle diyor.
+  - Parasal kütlelerini her yıl yüzde birkaç oranında azaltırlar.
+  - Başlangıç kütlesine kıyasla parasal kütlesini sabit tutarlar.
+  - Parasal kütlesi başlangıç kütlesine kıyasla rastgele dalgalanır.
 explanation: |
-  Bitcoin, ortaya çıktığı şekliyle yeni bir para biçimi olarak görülebilir
-  merkezi bir varlık olmadan eşler arası bir ağdan.
+  Merkezi kuruluşlar genellikle bir para biriminin değerini artırarak devalüe ederler
+  başlangıçtakine kıyasla yüzde birkaç oranında parasal kütle
+  her yıl. Bu sessiz devalüasyon genellikle şu şekilde gerekçelendirilmektedir
+  halkın menfaatlerine uygun olması.
 reviewed: true

@@ -1,9 +1,9 @@
-question: Câu hỏi trung tâm cần tự hỏi khi chọn một ví Bitcoin, về quyền tự quản lý, là gì?
-answer: Bạn có phải là chủ sở hữu của số tiền hay bạn để quyền kiểm soát tiền của mình cho một bên thứ ba?
+question: Rủi ro chính khi sử dụng dịch vụ giữ hộ để lưu trữ bitcoin của bạn là gì?
+answer: Bên thứ ba đáng tin cậy có thể hạn chế quyền truy cập vào quỹ của bạn bất cứ lúc nào.
 wrong_answers:
-  - Ví có được bảo vệ bằng cụm từ bí mật không?
-  - Ví có cho phép nhận và gửi bitcoin không?
-  - Tôi có thể chia sẻ ví của mình với người khác không?
-explanation: |
-  Khi chọn một ví Bitcoin, câu hỏi trung tâm là: bạn có phải là chủ sở hữu của số tiền hay bạn để quyền kiểm soát tiền của mình cho một bên thứ ba? Điều này là bởi vì người giữ khóa riêng là chủ sở hữu của Bitcoins.
+  - Bên thứ ba đáng tin cậy có thể tăng giá trị của bitcoin của bạn bất cứ lúc nào.
+  - Bên thứ ba đáng tin cậy có thể giảm giá trị của bitcoin của bạn bất cứ lúc nào.
+  - Bên thứ ba đáng tin cậy không thể nhân bản bitcoin của bạn bất cứ lúc nào.
+explanation: >-
+  Khi bạn sử dụng dịch vụ giữ hộ để lưu trữ bitcoin của mình, bạn không phải là người duy nhất nắm giữ bitcoin của mình. Điều này có nghĩa là bên thứ ba đáng tin cậy có thể hạn chế quyền truy cập vào quỹ của bạn bất cứ lúc nào, mang lại cho bạn mức độ chủ quyền tài chính tương tự như hệ thống ngân hàng truyền thống.
 reviewed: true

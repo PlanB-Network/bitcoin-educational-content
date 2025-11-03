@@ -1,13 +1,8 @@
-question: Bitcoin 進一步融入傳統市場的方式是什麼？
-answer: Bitcoin ETF 的到來。
+question: 什麼是 BTCMap？
+answer: 一個列出所有接受 Bitcoin 的商家的平台。
 wrong_answers:
-  - 禁用 Bitcoin。
-  - 所有加密貨幣的消失。
-  - 創建 Bitcoin。
-explanation: |
-  Bitcoin 繼續生存，並透過
-  漸融入傳統
-  市場。Bitcoin ETF 的到來、更明確的法規、
-  和更好地獲取存儲工具只會鼓勵這種趨勢。
-  趨勢。
+  - 全球所有 Bitcoin 礦山的地圖。
+  - 全球所有 Bitcoin 交易所的地圖。
+  - 全球所有 Bitcoin 使用者的地圖。
+explanation: >-
 reviewed: true

@@ -1,0 +1,9 @@
+question: Quelle est la différence entre les règles de consensus et les règles de relais ?
+answer: Consensus définit la validité, relais la diffusion des transactions
+wrong_answers:
+  - Consensus définit les frais, relais définit les adresses
+  - Consensus gère la blockchain, relais gère les clés privées
+  - Consensus choisit les mineurs, relais choisit les commerçants
+explanation: |
+  Les règles de consensus fixent ce qui est valide dans Bitcoin, les règles de relais gèrent les transactions diffusées entre nœuds.
+reviewed: false

@@ -1,0 +1,14 @@
+question: Ni ingorane izihe zishobora guterwa n’ugukoresha Multisig Wallet?
+answer: Kudashobora kuronka imfunguruzo z’ibanga zihagije canke ibice vy’ububiko.
+wrong_answers:
+  - Kugira uburenganzira bwo kuronka imfunguruzo z’ibanga zihagije canke ibice vy’ububiko.
+  - Gusangira imfunguruzo zawe z’ibanga n’abandi bantu.
+  - Gusangira imfunguruzo zawe za bose n’abandi bantu.
+explanation: |
+  Iyo ukoresheje Multisig Wallet, urufunguzo rwose rw’ibanga rw’
+  Multisig ikwiye kubikwa ahantu hatandukanye. Ibi ni
+  kuko Multisig isaba amasinyatire menshi kugira ngo itware .
+  n'ugucuruza, rero umubare kanaka w'amasakoshi ni
+  birakenewe. Gutyo, kubika igice kimwekimwe cose ahantu hatandukanye .
+  yongerako Layer y’umutekano.
+reviewed: true

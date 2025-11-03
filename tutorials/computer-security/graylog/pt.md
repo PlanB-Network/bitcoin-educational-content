@@ -10,7 +10,7 @@ ___
 
 
 
-*Este tutorial é baseado no conteúdo original de Florian BURNEL publicado em [IT-Connect](https://www.it-connect.fr/). Licença [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Podem ter sido efectuadas alterações ao texto original
+*Este tutorial é baseado no conteúdo original de Florian BURNEL publicado em [IT-Connect](https://www.it-connect.fr/). Licença [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Podem ter sido efectuadas alterações ao texto original.*
 
 
 
@@ -43,7 +43,7 @@ O Graylog é uma ferramenta de análise e monitorização que facilita a identif
 
 
 
-**Nota: a versão gratuita, **Graylog Open**, não é um SIEM como o Wazuh, especialmente porque não tem funções reais de deteção de intrusões.
+**Nota: a versão gratuita, Graylog Open, não é um SIEM como o Wazuh, especialmente porque não tem funções reais de deteção de intrusões.**
 
 
 
@@ -57,9 +57,9 @@ O **stack Graylog** baseia-se em **vários componentes** que teremos de instalar
 
 
 
-- MongoDB 7**, a versão atual recomendada para o Graylog (mínimo 5.0.7, máximo 7.x)
-- OpenSearch**, um Fork de código aberto do Elasticsearch criado pela Amazon (mínimo 1.1.x, máximo 2.15.x)
-- OpenJDK 17**
+- **MongoDB 7**, a versão atual recomendada para o Graylog (mínimo 5.0.7, máximo 7.x)
+- **OpenSearch**, um Fork de código aberto do Elasticsearch criado pela Amazon (mínimo 1.1.x, máximo 2.15.x)
+- **OpenJDK 17**
 
 
 
@@ -85,7 +85,7 @@ sudo timedatectl set-timezone Europe/Paris
 
 
 
-**Nota: A instalação do **OpenSearch é opcional** se, em vez disso, utilizar o **Graylog Data Node**.
+**Nota: A instalação do OpenSearch é opcional** se, em vez disso, utilizar o **Graylog Data Node**.
 
 
 
@@ -279,14 +279,14 @@ Esta configuração do OpenSearch foi concebida para configurar um único nó. A
 
 
 
-- cluster.name: graylog**: este parâmetro nomeia o cluster OpenSearch com o nome "**graylog**".
-- node.name: ${HOSTNAME}**: o nome do nó é definido dinamicamente para corresponder ao da máquina Linux local. Mesmo que tenhamos apenas um nó, é importante nomeá-lo corretamente.
-- path.data: /var/lib/opensearch**: este caminho especifica onde o OpenSearch armazena os seus dados na máquina local, neste caso em "**/var/lib/opensearch**".
-- path.logs: /var/log/opensearch**: este caminho define onde são armazenados os ficheiros de registo do OpenSearch, aqui em "**/var/log/opensearch**".
-- discovery.type: single-node**: este parâmetro configura o OpenSearch para trabalhar com um único nó, daí a escolha da opção "**single-node**".
-- network.host: 127.0.0.1**: esta configuração assegura que o OpenSearch apenas escuta no seu loop local Interface, o que é suficiente uma vez que está no mesmo servidor que o Graylog.
-- action.auto_create_index: false**: ao desativar a criação automática de índices, o OpenSearch não criará automaticamente um índice quando um documento for enviado sem um índice existente.
-- plugins.security.disabled: true**: esta opção desactiva o plugin de segurança OpenSearch, o que significa que não haverá autenticação, gestão de acesso ou encriptação de comunicações. Esta definição poupa tempo na configuração do Graylog, mas deve ser evitada em produção (ver [esta página](https://opensearch.org/docs/1.0/security-plugin/index/)).
+- cluster.name: graylog: este parâmetro nomeia o cluster OpenSearch com o nome "**graylog**".
+- node.name: ${HOSTNAME}: o nome do nó é definido dinamicamente para corresponder ao da máquina Linux local. Mesmo que tenhamos apenas um nó, é importante nomeá-lo corretamente.
+- path.data: /var/lib/opensearch: este caminho especifica onde o OpenSearch armazena os seus dados na máquina local, neste caso em "**/var/lib/opensearch**".
+- path.logs: /var/log/opensearch: este caminho define onde são armazenados os ficheiros de registo do OpenSearch, aqui em "**/var/log/opensearch**".
+- discovery.type: single-node: este parâmetro configura o OpenSearch para trabalhar com um único nó, daí a escolha da opção "**single-node**".
+- network.host: 127.0.0.1: esta configuração assegura que o OpenSearch apenas escuta no seu loop local Interface, o que é suficiente uma vez que está no mesmo servidor que o Graylog.
+- **action.auto_create_index: false**: ao desativar a criação automática de índices, o OpenSearch não criará automaticamente um índice quando um documento for enviado sem um índice existente.
+- **plugins.security.disabled: true**: esta opção desactiva o plugin de segurança OpenSearch, o que significa que não haverá autenticação, gestão de acesso ou encriptação de comunicações. Esta definição poupa tempo na configuração do Graylog, mas deve ser evitada em produção (ver [esta página](https://opensearch.org/docs/1.0/security-plugin/index/)).
 
 
 
@@ -431,8 +431,8 @@ Vamos começar por configurar estas duas opções:
 
 
 
-- password_secret**: este parâmetro é utilizado para definir uma chave utilizada pelo Graylog para proteger o armazenamento das palavras-passe dos utilizadores (no espírito de uma chave de salga). Esta chave deve ser **única** e **aleatória**.
-- root_password_sha2**: este parâmetro corresponde à palavra-passe predefinida do administrador no Graylog. Ela é armazenada como um Hash SHA-256.
+- **password_secret**: este parâmetro é utilizado para definir uma chave utilizada pelo Graylog para proteger o armazenamento das palavras-passe dos utilizadores (no espírito de uma chave de salga). Esta chave deve ser **única** e **aleatória**.
+- **root_password_sha2**: este parâmetro corresponde à palavra-passe predefinida do administrador no Graylog. Ela é armazenada como um Hash SHA-256.
 
 
 
@@ -566,7 +566,7 @@ Foi então necessário tentar novamente uma ligação com o utilizador "**admin*
 
 
 
-**Este já não é o caso. Só tem de iniciar sessão com a sua conta de administrador e a palavra-passe configurada na linha de comando
+**Este já não é o caso. Só tem de iniciar sessão com a sua conta de administrador e a palavra-passe configurada na linha de comando.**
 
 
 
@@ -574,7 +574,7 @@ Foi então necessário tentar novamente uma ligação com o utilizador "**admin*
 
 
 
-**Bem-vindo ao Interface do Graylog!
+**Bem-vindo ao Interface do Graylog!**
 
 
 
@@ -661,7 +661,7 @@ A nova entrada foi criada e está agora ativa. O Graylog pode agora receber regi
 ![Image](assets/fr/018.webp)
 
 
-**Nota: uma única entrada pode ser utilizada para armazenar registos de várias máquinas Linux.
+**Nota:** uma única entrada pode ser utilizada para armazenar registos de várias máquinas Linux.
 
 
 
@@ -701,7 +701,7 @@ Para criar um novo fluxo, clique em "**Fluxos**" no menu principal do Graylog. E
 
 
 
-**Nota: as mensagens correspondentes a este fluxo também serão incluídas no "**Fluxo predefinido**", a menos que selecione a opção "**Remover correspondências do 'Fluxo predefinido'**".
+**Nota: as mensagens correspondentes a este fluxo também serão incluídas no "Fluxo predefinido", a menos que selecione a opção "Remover correspondências do 'Fluxo predefinido'".**
 
 
 

@@ -1,13 +1,13 @@
-question: Ví nóng là gì?
-answer: Một ví Bitcoin trên điện thoại hoặc máy tính của bạn được kết nối với internet.
+question: Việc sử dụng ví multisig được khuyến nghị cho mục đích gì?
+answer: Lưu trữ số lượng lớn cho mục đích doanh nghiệp.
 wrong_answers:
-  - Một ví cảm thấy nóng khi chạm vào.
-  - Một ví được nhiều người dùng Bitcoin ưa chuộng.
-  - Một ví được khuyên dùng để lưu trữ một lượng lớn bitcoin.
+  - Lưu trữ số lượng nhỏ cho mục đích cá nhân.
+  - Lưu trữ số lượng vừa phải cho mục đích phi lợi nhuận.
+  - Lưu trữ chi tiêu hàng ngày cho mục đích cá nhân.
 explanation: |
-  Ví nóng là thuật ngữ được sử dụng để mô tả một ví Bitcoin
-  được lưu trữ trên một thiết bị có kết nối internet, như là
-  điện thoại hoặc máy tính. Như vậy, việc thực hiện
-  giao dịch trở nên dễ dàng, nhưng điều này cũng có nghĩa là ví
-  có khả năng dễ bị tổn thương trước các mối đe dọa trực tuyến.
+  Ví multisig được khuyến nghị để lưu trữ số lượng lớn
+  và cho mục đích doanh nghiệp vì nó yêu cầu nhiều
+  chữ ký để thực hiện một giao dịch. Quy trình này thêm vào
+  một lớp bảo mật extra, bởi vì một người đơn lẻ không thể
+  thực hiện giao dịch mà không có sự chấp thuận của những người khác.
 reviewed: true

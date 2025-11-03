@@ -6,7 +6,7 @@ description: 完整的计划指南 ₿ 使用 GitHub Web 的网络教程
 
 在学习本教程添加新教程之前，您需要完成几个初步步骤。如果您还没有这样做，请先看看这个入门教程，然后再回到这里：
 
-https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+https://planb.academy/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
 您已经拥有 ：
 
@@ -15,16 +15,16 @@ https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-91
 - 通过 [Telegram 群组](https://t.me/PlanBNetwork_ContentBuilder) 或 paolo@planb.network 与计划 ₿ 网络团队联系；
 - 选择您的捐助工具。
 
-在本教程中，我们将介绍如何使用网页版 GitHub 将教程添加到 Plan ₿ Network。如果您已经熟练掌握了 Git，可能就不需要本教程了。相反，我建议你看看另外 2 个教程中的一个，在那里我详细介绍了从本地 .NET Framework 进行修改的指导原则和步骤：
+在本教程中，我们将介绍如何使用网页版 GitHub 将教程添加到 Plan ₿ Academy。如果您已经熟练掌握了 Git，可能就不需要本教程了。相反，我建议你看看另外 2 个教程中的一个，在那里我详细介绍了从本地 .NET Framework 进行修改的指导原则和步骤：
 
 
-- 经验丰富的用户** ：
+- **经验丰富的用户**：
 
-https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+https://planb.academy/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
-- 中级（GitHub 桌面）** ：
+- **中级（GitHub 桌面）**：
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 ## 先决条件
 
@@ -32,19 +32,19 @@ https://planb.network/tutorials/contribution/content/write-tutorials-github-desk
 
 
 - 拥有 [GitHub 账户](https://github.com/signup)；
-- 有一个 [Plan ₿ Network source repository](https://github.com/PlanB-Network/bitcoin-educational-content) 的 fork；
-- 拥有[Plan ₿ Network 上的教师简介](https://planb.network/professors) （仅当您提供完整教程时）。
+- 有一个 [Plan ₿ Academy source repository](https://github.com/PlanB-Network/bitcoin-educational-content) 的 fork；
+- 拥有[Plan ₿ Academy 上的教师简介](https://planb.academy/professors) （仅当您提供完整教程时）。
 
 如果您在获得这些先决条件方面需要帮助，我的其他教程会有所帮助：
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
-https://planb.network/tutorials/contribution/others/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba
+https://planb.academy/tutorials/contribution/others/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
-一旦一切就绪，你也有了自己的 Plan ₿ Network 代码库分叉，就可以开始添加教程了。
+一旦一切就绪，你也有了自己的 Plan ₿ Academy 代码库分叉，就可以开始添加教程了。
 
 ## 1 - 创建新分支
 
@@ -74,7 +74,7 @@ Git 中的分支代表项目的一个并行版本，您可以在不影响主分�
 
 现在工作分支已经创建，是时候整合新教程了。
 
-在分支文件中，您需要找到合适的子文件夹来放置您的教程。文件夹的组织结构反映了 Plan ₿ Network 网站的不同部分。在我们的例子中，由于我们要添加一个关于绿色钱包的教程，所以请前往以下路径：`bitcoin-educational-content\tutorials\wallet` 对应网站的 `WALLET` 部分：
+在分支文件中，您需要找到合适的子文件夹来放置您的教程。文件夹的组织结构反映了 Plan ₿ Academy 网站的不同部分。在我们的例子中，由于我们要添加一个关于绿色钱包的教程，所以请前往以下路径：`bitcoin-educational-content\tutorials\wallet` 对应网站的 `WALLET` 部分：
 
 ![GITHUB](assets/fr/05.webp)
 
@@ -147,11 +147,11 @@ proofreading:
 
 - **id**: 一个 UUID (_Universally Unique Identifier_) 用于唯一标识教程。您可以使用 [在线工具](https://www.uuidgenerator.net/version4) 生成它。唯一的要求是这个 UUID 是随机生成的，以避免与平台上的其他 UUID 冲突；
 
-- **project_id**: 提供教程中介绍的工具背后的公司或组织的 UUID [从项目列表中](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects)。例如，如果您正在创建关于 Green Wallet 软件的教程，您可以在以下文件中找到 `project_id`：`bitcoin-educational-content/resources/projects/blockstream/project.yml`。这个信息会被添加到您的教程 YAML 文件中，因为 Plan ₿ Network 维护着一个包含所有在 Bitcoin 或相关项目上运营的公司和组织的数据库。通过将与您的教程相关的实体 `project_id` 添加进去，您将两个元素连接起来；
+- **project_id**: 提供教程中介绍的工具背后的公司或组织的 UUID [从项目列表中](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects)。例如，如果您正在创建关于 Green Wallet 软件的教程，您可以在以下文件中找到 `project_id`：`bitcoin-educational-content/resources/projects/blockstream/project.yml`。这个信息会被添加到您的教程 YAML 文件中，因为 Plan ₿ Academy 维护着一个包含所有在 Bitcoin 或相关项目上运营的公司和组织的数据库。通过将与您的教程相关的实体 `project_id` 添加进去，您将两个元素连接起来；
 
-- **tags**: 2 或 3 个与教程内容相关的关键词，仅从 [Plan ₿ Network 的标签列表](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) 中选择；
+- **tags**: 2 或 3 个与教程内容相关的关键词，仅从 [Plan ₿ Academy 的标签列表](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) 中选择；
 
-- **category**: 对应于教程内容的子类别，根据 Plan ₿ Network 网站的结构（例如，对于钱包：`desktop`、`hardware`、`mobile`、`backup`）；
+- **category**: 对应于教程内容的子类别，根据 Plan ₿ Academy 网站的结构（例如，对于钱包：`desktop`、`hardware`、`mobile`、`backup`）；
 
 - **level**: 教程的难度级别，可从以下选项中选择：
     - `beginner`
@@ -172,7 +172,7 @@ proofreading:
 
 有关教师 ID 的详细信息，请参阅相应的教程 ：
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 ```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
@@ -346,13 +346,13 @@ description: [Description]
 如果您想创建自己的示意图，请务必遵循计划 ₿ 网络图形指南，以确保视觉一致性：
 
 
-- 字体**：使用 [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans)；
-- 颜色** ：
+- 字体：使用 [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans)；
+- **颜色**：
  - 橙色#FF5C00
  - 黑色: #000000
  - 白色#FFFFFF
 
-**在您的教程中集成的所有视觉效果必须是无版权或尊重源文件许可**的。因此，在 Plan ₿ Network 上发布的所有图表均采用 CC-BY-SA 许可，与文本相同。
+**在您的教程中集成的所有视觉效果必须是无版权或尊重源文件许可**的。因此，在 Plan ₿ Academy 上发布的所有图表均采用 CC-BY-SA 许可，与文本相同。
 
 **-> 提示：** 在公共场合共享图片等文件时，删除多余的元数据非常重要。这可能包含敏感信息，如位置数据、创建日期和作者详情。为了保护你的隐私，最好删除这些元数据。要简化这一操作，可以使用 [Exif Cleaner](https://exifcleaner.com/)等专业工具，只需简单的拖放操作就能清理文档的元数据。
 
@@ -364,13 +364,13 @@ description: [Description]
 
 ![GITHUB](assets/fr/36.webp)
 
-拉动请求是将您的分支中的更改整合到 Plan ₿ Network 代码库的主分支中的请求，允许在合并之前对更改进行审查和讨论。
+拉动请求是将您的分支中的更改整合到 Plan ₿ Academy 代码库的主分支中的请求，允许在合并之前对更改进行审查和讨论。
 
 在继续之前，请在界面底部仔细检查这些更改是否符合您的预期：
 
 ![GITHUB](assets/fr/37.webp)
 
-确保在界面顶端，你的工作分支已合并到 Plan ₿ Network 代码库的 `dev` 分支（即主分支）上。
+确保在界面顶端，你的工作分支已合并到 Plan ₿ Academy 代码库的 `dev` 分支（即主分支）上。
 
 输入一个标题，简要概括您希望与源代码库合并的更改。添加一个简短的注释来描述这些更改（如果您有一个与创建教程相关的问题编号，记得在注释中注明 "关闭 #{ 问题编号}"），然后点击绿色的 "*创建拉取请求*"按钮来确认合并请求：
 
@@ -388,6 +388,6 @@ description: [Description]
 
 
 - 如果您的 PR 仍未合并，请在同一工作分支上进行更改。提交的更改将添加到您仍未合并的 PR 中；
-- 如果您的 PR 已与主分支合并，则需要从头开始重新创建一个新分支，然后提交一份新 PR。在继续之前，请确保你的分叉与 `dev` 分支上的 Plan ₿ Network 源代码库同步。
+- 如果您的 PR 已与主分支合并，则需要从头开始重新创建一个新分支，然后提交一份新 PR。在继续之前，请确保你的分叉与 `dev` 分支上的 Plan ₿ Academy 源代码库同步。
 
 如果您在提交教程时遇到技术问题，请不要犹豫，在[我们专门的 Telegram 投稿群组](https://t.me/PlanBNetwork_ContentBuilder)上寻求帮助。非常感谢！

@@ -16,4 +16,4 @@ Een Bitcoin transactie die is opgebouwd en ondertekend, in binaire vorm. Een ruw
 Wat een "*rauwe transactie*" genoemd wordt, vertegenwoordigt de ruwe gegevens die tweemaal door de SHA256 Hash functie gehaald worden om generate de transactie txid te maken. Deze gegevens worden vervolgens gebruikt in Merkle Tree van het blok om de transactie te integreren in Blockchain.
 
 
-> dit concept wordt soms ook "geserialiseerde transactie" genoemd. In het Frans kunnen deze termen respectievelijk vertaald worden als "transaction brute" en "transaction sérialisée".*
+> dit concept wordt soms ook "geserialiseerde transactie" genoemd. In het Frans kunnen deze termen respectievelijk vertaald worden als "transaction brute" en "transaction sérialisée".

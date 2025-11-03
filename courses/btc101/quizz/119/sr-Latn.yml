@@ -1,9 +1,13 @@
-question: Šta je BitcoinTalk?
-answer: Mesto za diskusiju za korisnike Bitkoina.
+question: Šta je Bitkoin transakcija?
+answer: Prijenos vlasništva bitkoina, koristeći kriptografiju.
 wrong_answers:
-  - Bitcoin softver za rudarenje.
-  - Bitcoin novčanik.
-  - Bitcoin Konferencija.
+  - Fizička razmena bitkoina, koristeći notara.
+  - Prenos vlasništva bitkoina, korišćenjem fizičke adrese.
+  - Prenos vlasništva bitkoina, koristeći email adresu.
 explanation: |
-  BitcoinTalk forum je mesto za diskusiju za Bitkoin korisnike. Kreirao ga je Satoshi Nakamoto 22. novembra 2009.
+  Bitkoin transakcija je digitalni prenos
+  vlasništva bitkoina, korišćenjem Bitcoin adrese
+  dobijenog zahvaljujući kriptografiji eliptičke krive. Ova
+  adresa je jedinstven za novčanik osobe koja prima
+  bitkoine.
 reviewed: true

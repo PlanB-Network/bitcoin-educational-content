@@ -1,0 +1,9 @@
+question: Wer war der letzte Bitcoin core-Hauptbetreuer, bevor diese Funktion im Jahr 2023 abgeschafft wurde?
+answer: Wladimir J. Van Der Laan
+wrong_answers:
+  - Gavin Andresen
+  - Pieter Wuille
+  - Satoshi Nakamoto
+explanation: |
+  Wladimir J. Van Der Laan hatte dieses Amt von 2014 bis 2023 inne, als Nachfolger von Gavin Andresen und vor der Abschaffung des Amtes.
+reviewed: true

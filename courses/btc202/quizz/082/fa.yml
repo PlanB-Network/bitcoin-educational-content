@@ -1,0 +1,9 @@
+question: مقدار پیش‌فرض برای minrelaytxfee در Bitcoin core چیست؟
+answer: ۰٫۰۰۰۰۱ BTC/kvB (۱ sat/vB)
+wrong_answers:
+  - ۰٫۰۰۰۱ BTC/kvB (۱۰ sat/vB)
+  - ۰٫۰۰۰۰۰۱ BTC/kvB (۰٫۱ sat/vB)
+  - ۰٫۰۰۰۰۲ BTC/kvB (۲ sat/vB)
+explanation: |
+  پیش‌فرض minrelaytxfee برابر با 0.00001 BTC/kvB یا 1 sat/vB است، که پایین‌تر از آن تراکنش‌ها منتقل نمی‌شوند.
+reviewed: true

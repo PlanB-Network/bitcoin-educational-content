@@ -4,11 +4,12 @@ name: NOSTR
 description: 發現並開始使用 NOSTR
 ---
 
-在本指南的最後，您將會了解什麼是 Nostr，您將會建立一個帳號，並能夠使用它。
 
 
 ![A new challenger has arrived](assets/1.webp)
 
+
+*在本指南的最後，您將了解什麼是 Nostr，您將建立一個帳戶，並且能夠使用它。*
 
 ## 什麼是 Nostr？
 
@@ -50,8 +51,8 @@ Facebook 或 Twitter 的使用者必須向私人公司提供電子郵件 Address
 
 
 
-- iOS: Damus
-- Android: 紫水晶
+- iOS: damus
+- Android: amethyst
 - Web: iris.to; snort.social; astral.ninja
 
 
@@ -67,7 +68,7 @@ Facebook 或 Twitter 的使用者必須向私人公司提供電子郵件 Address
 💡 **專業提示：** 付費中繼通常能更有效地過濾垃圾郵件和不需要的內容。
 
 
-### 指南
+## 指南
 
 
 現在您對 Nostr 有足夠的了解，可以開始在此通訊協定上建立您的第一個身分。

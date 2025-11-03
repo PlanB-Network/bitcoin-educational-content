@@ -1,0 +1,9 @@
+question: Quel est l'implémentation de nœud Bitcoin la plus utilisée ?
+answer: Bitcoin Core
+wrong_answers:
+  - Bitcoin Knots
+  - Bitcoin Classic
+  - Bcoin
+explanation: |
+  Avec environ 9 nœud sur 10 sur le réseau, c'est Bitcoin Core qui est le client majoritaire.
+reviewed: false

@@ -14,9 +14,9 @@ Bitcoin algusaegadel oli vaja käivitada Bitcoin sõlme, et pääseda ligi asjak
 
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
 Seetõttu on käivitatud projekte Bitcoin kogukonna laiendamiseks, et muuta see kättesaadavamaks kõigile, kellel ei ole sõlme ja/või kellel puuduvad vajalikud tehnilised oskused.
 
@@ -46,7 +46,7 @@ Platvormi peamine mõju Bitcoin ökosüsteemis seisneb selles, et see võimaldab
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 ## Mempool.space'i põhitõed
 
@@ -64,10 +64,10 @@ Menüüribal leiate järgmised võrgud:
 
 
 
-- Mainnet** : Peamine Bitcoin võrk, kus toimuvad tegelikud Bitcoin tehingud.
-- Signet**: Testvõrk, mis kasutab plokkide valideerimiseks digitaalallkirju, ilma et see nõuaks põhivõrgu poolt nõutavaid ressursse.
-- Testnet 3**: Bitcoin protokolli riskivaba katse- ja arendusvõrk.
-- Testnet 4** : Testnet 3 uus versioon toob suurema stabiilsuse ja uued konsensusreeglid testkeskkonda.
+- **Mainnet**: Peamine Bitcoin võrk, kus toimuvad tegelikud Bitcoin tehingud.
+- **Signet**: Testvõrk, mis kasutab plokkide valideerimiseks digitaalallkirju, ilma et see nõuaks põhivõrgu poolt nõutavaid ressursse.
+- **Testnet 3**: Bitcoin protokolli riskivaba katse- ja arendusvõrk.
+- **Testnet 4**: Testnet 3 uus versioon toob suurema stabiilsuse ja uued konsensusreeglid testkeskkonda.
 
 
 
@@ -142,9 +142,9 @@ Tehingu üksikasjade lehel leiate üldist teavet oma tehingu kohta:
 
 
 
-- Staatus**: Kinnitatud, kui see on lisatud plokki, kinnitamata, kui see ootab Mempool-s.
-- Tehingutasud**.
-- Eeldatav saabumisaeg (ETA)** :  Ligikaudne aeg, mis kulub teie tehingu blokki lisamiseks. See arvutatakse vastavalt suhtarvule, mis moodustab selle tehinguga seotud tasud.
+- **Staatus**: Kinnitatud, kui see on lisatud plokki, kinnitamata, kui see ootab Mempool-s.
+- **Tehingutasud**.
+- **Eeldatav saabumisaeg (ETA)**: Ligikaudne aeg, mis kulub teie tehingu blokki lisamiseks. See arvutatakse vastavalt suhtarvule, mis moodustab selle tehinguga seotud tasud.
 
 
 
@@ -176,7 +176,7 @@ Avastage erinevad Bitcoin tehinguskeemid, et suurendada oma konfidentsiaalsust.
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ## Kiirenda oma tehinguid
 
@@ -192,7 +192,7 @@ Bitcoin ökosüsteemis on kaevurite poolt tehingu valideerimise aspekt lahutamat
 
 
 
-- RBF** - asendamine tasu alusel: Meetod, mis võimaldab teil kulutada samu kirjeid, mis madala tasuga tehing, kuid seekord suurendades tehingutasu, et kiirendada valideerimist. Teie uus tehing valideeritakse kiiremini ja lisatakse blokki, tühistades madala tasuga tehingu.
+- **RBF** - asendamine tasu alusel: Meetod, mis võimaldab teil kulutada samu kirjeid, mis madala tasuga tehing, kuid seekord suurendades tehingutasu, et kiirendada valideerimist. Teie uus tehing valideeritakse kiiremini ja lisatakse blokki, tühistades madala tasuga tehingu.
 
 
 
@@ -200,11 +200,11 @@ Seda mehhanismi aktsepteerivate portfellide puhul saate teostada tasu asendamise
 
 
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
 
 
-- CPFP** - Child pay for parent: RBF-st inspireeritud lähenemine, kuid vastuvõtja poolel. Kui tehing, milles te olete vastuvõtja, blokeeritakse Mempool-s, on teil võimalus kulutada selle tehingu väljundid (UTXO), hoolimata sellest, et seda ei ole veel kinnitatud, eraldades sellele uuele tehingule rohkem tasusid, nii et keskmised tasud - tehingu, milles te olete vastuvõtja, ja algatatud tehingu - julgustavad kaevandajaid lisama mõlemad tehingud plokki.
+- **CPFP** - Child pay for parent: RBF-st inspireeritud lähenemine, kuid vastuvõtja poolel. Kui tehing, milles te olete vastuvõtja, blokeeritakse Mempool-s, on teil võimalus kulutada selle tehingu väljundid (UTXO), hoolimata sellest, et seda ei ole veel kinnitatud, eraldades sellele uuele tehingule rohkem tasusid, nii et keskmised tasud - tehingu, milles te olete vastuvõtja, ja algatatud tehingu - julgustavad kaevandajaid lisama mõlemad tehingud plokki.
 
 
 
@@ -212,7 +212,7 @@ https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-837
 
 
 
-Kui kõik need terminid tunduvad liiga tehnilised, siis soovitan teil [tutvuda meie sõnastikuga](https://planb.network/resources/glossary), mis sisaldab kõigi Bitcoin ja selle ökosüsteemiga seotud tehniliste terminite määratlusi.
+Kui kõik need terminid tunduvad liiga tehnilised, siis soovitan teil [tutvuda meie sõnastikuga](https://planb.academy/resources/glossary), mis sisaldab kõigi Bitcoin ja selle ökosüsteemiga seotud tehniliste terminite määratlusi.
 
 
 
@@ -235,7 +235,7 @@ Miner viitab isikule, kes haldab kaevandit, st arvutit, mis osaleb Mining protse
 
 
 
-https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
+https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 ❗Minerid on nagu "valideerijad", kes kontrollivad ja grupeerivad tehinguid plokkidesse. Uue ploki lisamiseks Bitcoin võrku peavad nad lahendama keerulise matemaatilise mõistatuse (Proof-of-Work). Esimene Miner, kes mõistatuse lahendab, võidab Bitcoin tasu (plokkide toetus + tasud plokki lisatud tehingute eest).
 
@@ -372,4 +372,4 @@ Nüüd, kui olete jõudnud Mempool.space'is oma reisi lõppu, saate ise uurijaks
 
 
 
-https://planb.network/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1

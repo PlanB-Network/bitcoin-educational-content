@@ -16,11 +16,11 @@ description: Guida per l'applicazione mobile Alby Go
 
 
 
-- [Alby Hub](https://albyhub.com/)** *(raccomandato)*
-- Umbrel**, **Start9**, **RaspiBlitz** (via **Alby Hub**)
-- Coinos** *(non testato)*
-- Primal** *(non testato)*
-- Minibit** *(non testato)*
+- [Alby Hub](https://albyhub.com/) **(raccomandato)**
+- **Umbrel**, **Start9**, **RaspiBlitz** (via **Alby Hub**)
+- **Coinos** *(non testato)*
+- **Primal** *(non testato)*
+- **Minibit** *(non testato)*
 
 
 La maggior parte dei servizi abilitati a NWC dovrebbe funzionare. Se ne state testando uno nuovo, fate sapere alla comunità i vostri risultati!
@@ -33,9 +33,9 @@ Disponibile sulle principali piattaforme:
 
 
 
-- iOS:** [Scarica dall'App Store](https://apps.apple.com/us/app/alby-go/id6471335774)
-- Android:** [Scarica da Google Play](https://play.google.com/store/apps/details?id=com.getalby.mobile)
-- ZapStore**
+- **iOS:** [Scarica dall'App Store](https://apps.apple.com/us/app/alby-go/id6471335774)
+- **Android:** [Scarica da Google Play](https://play.google.com/store/apps/details?id=com.getalby.mobile)
+- **ZapStore**
 
 
 
@@ -123,6 +123,6 @@ Nessun gonfiore. Nessun problema. Veloce come un fulmine.
 - 🧷 Aggiungere, rimuovere ed esportare portafogli
 
 
-**💡 Hai bisogno di aiuto?
+**💡 Hai bisogno di aiuto?**
 
 Visitate getalby.com per assistenza e aggiornamenti.

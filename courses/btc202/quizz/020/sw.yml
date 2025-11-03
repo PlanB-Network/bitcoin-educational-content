@@ -1,0 +1,9 @@
+question: Nini kitatokea ikiwa kizuizi kinakiuka sheria za makubaliano?
+answer: Inakataliwa mara moja na nodes
+wrong_answers:
+  - Imehifadhiwa katika Mempool ikingoja uthibitisho
+  - Inapitishwa tu na nodi zinazokubali sheria zingine
+  - Inathibitishwa tu na pochi
+explanation: |
+  Nodi kwa utaratibu hukataa kizuizi chochote ambacho hakizingatii sheria za makubaliano.
+reviewed: true

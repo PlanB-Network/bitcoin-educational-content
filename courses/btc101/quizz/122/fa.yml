@@ -1,9 +1,8 @@
-question: دسترسی آنلاین Bitcoin از سال 2009 چگونه بوده است؟
-answer: ۹۹.۹۸۸٪.
+question: Bitcoin Blockchain چیست؟
+answer: یک Ledger عمومی و تغییرناپذیر از تمام تراکنش‌های Bitcoin.
 wrong_answers:
-  - ۱۰۰٪.
-  - ۹۰٫۰۰۹٪.
-  - ۸۰.۱۷٪.
-explanation: |
-  دسترسی آنلاین Bitcoin از سال 2009 برابر با 99.988% است.
+  - یک Ledger خصوصی و قابل تغییر از تمام تراکنش‌های Bitcoin.
+  - یک Ledger عمومی و قابل تغییر از تمام تراکنش‌های Bitcoin.
+  - یک Ledger خصوصی و تغییرناپذیر از تمام تراکنش‌های Bitcoin.
+explanation: >-
 reviewed: true

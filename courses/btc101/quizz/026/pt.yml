@@ -1,13 +1,10 @@
-question: Por que o ouro não consegue ter um bom desempenho em um mundo globalizado e digital?
-answer: Porque precisa de uma entidade central para torná-lo divisível e facilmente intercambiável.
+question: Por que o Bitcoin é considerado uma nova forma de dinheiro?
+answer: Porque é um dinheiro digital sem uma entidade central.
 wrong_answers:
-  - Porque não é valioso o suficiente.
-  - Porque não é raro o suficiente.
-  - Porque se erosiona com o tempo.
+  - Porque é uma moeda digital respaldada por ouro.
+  - Porque é uma moeda que requer o blockchain do banco.
+  - Porque o Federal Reserve diz isso.
 explanation: |
-  O ouro não consegue acompanhar em um mundo globalizado e digital
-  porque precisa de uma entidade central para torná-lo divisível e
-  facilmente intercambiável. Isso o torna menos prático para uso em
-  um mundo onde as transações são cada vez mais digitais e
-  descentralizadas.
+  O Bitcoin pode ser visto como uma nova forma de dinheiro, pois surge
+  de uma rede peer-to-peer sem uma entidade central.
 reviewed: true

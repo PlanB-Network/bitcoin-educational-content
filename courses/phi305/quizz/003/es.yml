@@ -1,0 +1,9 @@
+question: El país en el que Spinoza vivió y escribió su obra es?
+answer: Las Provincias Unidas.
+wrong_answers:
+  - Francia.
+  - Gran Bretaña.
+  - Suecia.
+explanation: |
+  Spinoza vivió y escribió toda su obra en las Provincias Unidas (actual Holanda), que en aquella época era un refugio para librepensadores y minorías religiosas perseguidas en otros lugares de Europa.
+reviewed: false

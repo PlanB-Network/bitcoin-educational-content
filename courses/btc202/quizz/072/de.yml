@@ -1,0 +1,9 @@
+question: Welcher Mechanismus kann verwendet werden, um einen Schnappschuss des UTXO-Satzes zu laden, um einen Knoten schnell nutzbar zu machen?
+answer: assumeutxo
+wrong_answers:
+  - anzunehmen, dass es sich um eine  handelt
+  - txindex
+  - notxindex
+explanation: |
+  Assumeutxo lädt einen Snapshot des UTXO-Satzes, um den Knoten schnell zum Laufen zu bringen, während der komplette UTXO-Satz im Hintergrund neu aufgebaut wird.
+reviewed: true

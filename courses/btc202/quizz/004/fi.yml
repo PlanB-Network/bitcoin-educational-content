@@ -1,0 +1,9 @@
+question: Mikä on Bitcoin-solmu?
+answer: Tietokone, jossa on Bitcoin-protokollan toteuttava ohjelmisto
+wrong_answers:
+  - Hardware Wallet toteuttaa Bitcoin-verkon
+  - Miner tuottaa uusia lohkoja Bitcoin:lle
+  - Bitcoin-verkkoa ja tapahtumien vahvistamista hallinnoiva keskuspalvelin
+explanation: |
+  Bitcoin-solmu on tietokone, jossa on Bitcoin core:n kaltainen ohjelmisto, joka toteuttaa protokollan ja osallistuu Bitcoin-verkkoon.
+reviewed: true

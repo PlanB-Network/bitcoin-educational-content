@@ -1,5 +1,5 @@
 ---
-name: BTC-karta
+name: BTC Map
 description: Hitta ställen att spendera din Sats på
 ---
 ![cover](assets/cover.webp)

@@ -1,0 +1,9 @@
+question: Ni hatua gani za usalama zinazopendekezwa sana wakati wa kuunda akaunti ya Umbrel?
+answer: Washa 2FA
+wrong_answers:
+  - Zima nenosiri
+  - Kwa kutumia PIN code
+  - Zima miunganisho yote
+explanation: |
+  2FA inaongeza ulinzi wa ziada na inapendekezwa sana, haswa wakati wa kutumia nodi ya Umeme au upangishaji nyeti wa kibinafsi.
+reviewed: true

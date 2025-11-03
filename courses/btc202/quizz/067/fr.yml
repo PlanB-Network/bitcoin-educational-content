@@ -1,0 +1,9 @@
+question: Quelle sauvegardes sont indispensables pour restaurer un nœud Lightning ?
+answer: Seed et SCB
+wrong_answers:
+  - Seed et fichier txindex
+  - Seed et adresse IP publique
+  - Seed et 2FA
+explanation: |
+  Restaurer un nœud Lightning exige à la fois la seed et la SCB (Static Channel Backup), sans quoi les fonds des canaux ne peuvent être récupérés.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Ni kuki kwimukira kuri IPv6 vyabaye ngombwa?
+answer: IPv4 Address urushe
+wrong_answers:
+  - Kunanirwa kw'umurongo wa NAT kuri IPv4.
+  - Ubudasa bw'urusobe rw'inyuma
+  - Iherezo ry'ubufasha bwa DHCP
+explanation: |
+  Urushe rw’amaderesi ya IPv4 rwatumye habaho uguhindukira kuri IPv6, itanga umwanya munini cane wa Address.
+reviewed: false

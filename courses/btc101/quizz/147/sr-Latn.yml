@@ -1,9 +1,9 @@
-question: Koje bi bile implikacije za korisnike Bitkoin ako bi blokovi bili 100 puta teži?
-answer: Pokretanje Bitkoin čvora ne bi bilo dostupno prosečnoj osobi, što bi ugrozilo decentralizaciju protokola i nepromenljivost kako transakcija tako i pravila konsenzusa.
+question: Koja je uloga ASIC-ova u Bitkoin rudarenju?
+answer: ASIC-ovi su mašine dizajnirane isključivo za primenu SHA256 algoritma u procesu rudarenja.
 wrong_answers:
-  - Pokretanje Bitkoin čvora bilo bi pristupačnije prosečnoj osobi, poboljšavajući decentralizaciju protokola i nepromenljivost kako transakcija tako i pravila konsenzusa.
-  - Kapacitet transakcija mreže bi se smanjio.
-  - Block nagrada za rudare bi se povećao.
+  - ASIC-ovi se koriste za verifikaciju Bitkoin transakcija primenom SHA256 algoritma u procesu verifikacije.
+  - ASIC-ovi se koriste za proizvoljno kreiranje novih bitkoina.
+  - ASIC-ovi se koriste za osiguranje Bitkoin mreže.
 explanation: |
-  Ako bi blokovi bili 100 puta teži, pokretanje Bitcoin čvora bi zahtevalo 50TB Hard disk, propusni opseg veći od 500GB/mesec, i hardver sposoban za validaciju stotina hiljada transakcija za manje od 10 minuta. Ovo bi učinilo pokretanje Bitkoin čvora nedostupnim prosečnoj osobi, ugrožavajući decentralizaciju protokola i nepromenljivost transakcija i pravila konsenzusa.
+  ASIC-i (Application-Specific Integrated Circuits) su specijalizovani hardver dizajniran posebno za Bitkoin rudarenje. Oni su optimizovani za obavljanje SHA256 heš funkcije, što je matematički problem koji rudari moraju rešiti u procesu Proof of Work.
 reviewed: true

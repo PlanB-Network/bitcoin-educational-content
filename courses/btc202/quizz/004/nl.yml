@@ -1,0 +1,9 @@
+question: Wat is een Bitcoin knooppunt?
+answer: Een computer met software die het Bitcoin protocol implementeert
+wrong_answers:
+  - Een Hardware Wallet die het Bitcoin netwerk implementeert
+  - Een Miner die nieuwe blokken produceert voor Bitcoin
+  - Een centrale server die het Bitcoin netwerk en de transactiebevestiging beheert
+explanation: |
+  Een Bitcoin knooppunt is een computer met software, zoals Bitcoin core, die het protocol implementeert en deelneemt aan het Bitcoin netwerk.
+reviewed: true

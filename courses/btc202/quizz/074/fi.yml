@@ -1,0 +1,9 @@
+question: Mikä tietorakenne tekee yhteenvedon lohkon tapahtumista?
+answer: Merkle Tree
+wrong_answers:
+  - Hash UTXO -taulukko
+  - Peers.dat-tiedosto
+  - Assumeutxo-rekisteri
+explanation: |
+  Lohkon tapahtumat siirretään Merkle Tree:een, jonka juuri sisältyy lohkon otsikkoon lohkon eheyden varmistamiseksi.
+reviewed: true

@@ -6,6 +6,5 @@ wrong_answers:
   - Hatırlaması daha kolay ve yazması daha hızlıdır.
 explanation: |
   Tek seferlik şifreler (HOTP ve TOTP) SMS'ten daha güvenlidir
-  çünkü kriptografik hesaplama gerektirirler ve
-  bellek yerine yerel olarak depolanır.
+  çünkü kriptografik hesaplama gerektirirler ve bellek yerine yerel olarak depolanırlar.
 reviewed: true

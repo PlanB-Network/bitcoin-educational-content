@@ -1,8 +1,10 @@
-question: Aşağıdaki eylemlerden hangisi Bitcoin'ı günlük yaşamda kullanmak isteyenlere yardımcı olabilir?
-answer: Bitcoin kabul eden tüm tüccarların bir listesine sahip olun.
+question: KYC olmadan bitcoin edinmenin yollarından biri nedir?
+answer: Bitcoin ATM'ler.
 wrong_answers:
-  - Bitcoin'nin fiyatını artırın.
-  - Bitcoin sayısını azaltın.
-  - Bitcoin kullanımını sınırlandırın.
-explanation: >-
+  - Broker platformları.
+  - DCA platformları.
+  - Banka havaleleri.
+explanation: |
+  Kurs metninde aşağıdakileri yapmanın çeşitli yolları olduğundan bahsedilmektedir
+  kYC olmadan Bitcoin edinmek, bunlardan biri de Bitcoin ATM'leridir.
 reviewed: true

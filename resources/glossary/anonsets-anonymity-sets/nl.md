@@ -21,4 +21,4 @@ De tweede geeft het aantal mogelijke bronnen aan voor een gegeven Coin, de UTXO 
 ![](../../dictionnaire/assets/40.webp)
 
 
-> in het Frans is het algemeen aanvaard om de term "anonset" te gebruiken Het kan echter ook vertaald worden als "ensemble d'anonymat" of "potentiel d'anonymat" Zowel in het Engels als in het Frans wordt de term "score" soms ook gebruikt om te verwijzen naar anonsets (prospectieve score en retrospectieve score).*
+> in het Frans is het algemeen aanvaard om de term "anonset" te gebruiken Het kan echter ook vertaald worden als "ensemble d'anonymat" of "potentiel d'anonymat" Zowel in het Engels als in het Frans wordt de term "score" soms ook gebruikt om te verwijzen naar anonsets (prospectieve score en retrospectieve score).

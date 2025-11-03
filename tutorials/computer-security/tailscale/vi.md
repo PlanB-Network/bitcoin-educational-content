@@ -1,5 +1,5 @@
 ---
-name: Vảy đuôi
+name: Tailscale
 description: Hướng dẫn nâng cao Tailscale
 ---
 ![cover](assets/cover.webp)
@@ -72,7 +72,7 @@ Tuy nhiên, kiến trúc này phụ thuộc vào Tailscale Inc. để phối h�
 
 
 
-**Để biết giải thích chi tiết về hoạt động bên trong của Tailscale, bao gồm quản lý mặt phẳng điều khiển, chuyển tiếp NAT và DERP, chúng tôi khuyên bạn nên đọc bài viết tuyệt vời [Cách Tailscale hoạt động](https://tailscale.com/blog/how-tailscale-works) trên blog chính thức. Bài viết này giải thích sâu sắc các khái niệm kỹ thuật khiến Tailscale trở nên mạnh mẽ như vậy.
+**Để biết giải thích chi tiết về hoạt động bên trong của Tailscale, bao gồm quản lý mặt phẳng điều khiển, chuyển tiếp NAT và DERP, chúng tôi khuyên bạn nên đọc bài viết tuyệt vời** [Cách Tailscale hoạt động](https://tailscale.com/blog/how-tailscale-works) **trên blog chính thức. Bài viết này giải thích sâu sắc các khái niệm kỹ thuật khiến Tailscale trở nên mạnh mẽ như vậy.**
 
 
 
@@ -139,7 +139,7 @@ Sau khi tạo tài khoản, bạn có thể cài đặt Tailscale trên thiết 
 
 
 
-- Trên Windows và macOS:** Chỉ cần tải xuống ứng dụng đồ họa từ trang web chính thức của Tailscale và cài đặt (tệp .msi trên Windows, tệp .dmg trên Mac). Sau khi cài đặt, ứng dụng sẽ khởi chạy Interface đồ họa cho phép bạn kết nối (thông qua trình duyệt) với tài khoản Tailscale của mình để xác thực máy.
+- **Trên Windows và macOS:** Chỉ cần tải xuống ứng dụng đồ họa từ trang web chính thức của Tailscale và cài đặt (tệp .msi trên Windows, tệp .dmg trên Mac). Sau khi cài đặt, ứng dụng sẽ khởi chạy Interface đồ họa cho phép bạn kết nối (thông qua trình duyệt) với tài khoản Tailscale của mình để xác thực máy.
 
 
 
@@ -159,7 +159,7 @@ Sau khi tạo tài khoản, bạn có thể cài đặt Tailscale trên thiết 
 
 
 
-- Trên Linux (Debian, Ubuntu, v.v.):** Bạn có một số tùy chọn. Phương pháp đơn giản nhất là chạy tập lệnh cài đặt chính thức: ví dụ, trên Debian/Ubuntu:
+- Trên Linux (Debian, Ubuntu, v.v.): **Bạn có một số tùy chọn. Phương pháp đơn giản nhất là chạy tập lệnh cài đặt chính thức: ví dụ, trên Debian/Ubuntu:**
 
 
 
@@ -175,13 +175,13 @@ Tập lệnh này sẽ thêm kho lưu trữ Tailscale chính thức và cài đ�
 
 
 
-- Trên các hệ thống dựa trên ARM (Raspberry Pi, v.v.):** Chúng tôi thường sử dụng Linux, do đó, cách tiếp cận tương tự như trên (script hoặc package). Lưu ý rằng Tailscale hỗ trợ kiến trúc ARM32/ARM64 mà không có bất kỳ vấn đề nào. Nhiều người dùng cài đặt Tailscale trên Raspberry Pi OS thông qua apt hoặc trên các bản phân phối nhẹ (DietPi, v.v.) để truy cập Pi của họ ở mọi nơi.
+- Trên các hệ thống dựa trên ARM (Raspberry Pi, v.v.): Chúng tôi thường sử dụng Linux, do đó, cách tiếp cận tương tự như trên (script hoặc package). Lưu ý rằng Tailscale hỗ trợ kiến trúc ARM32/ARM64 mà không có bất kỳ vấn đề nào. Nhiều người dùng cài đặt Tailscale trên Raspberry Pi OS thông qua apt hoặc trên các bản phân phối nhẹ (DietPi, v.v.) để truy cập Pi của họ ở mọi nơi.
 
 
 
 
 
-- Trên iOS và Android:** Tailscale cung cấp các ứng dụng di động **chính thức**. Chỉ cần cài đặt *Tailscale* từ [App Store](https://apps.apple.com/us/app/tailscale/id1470499037?ls=1) (iOS) hoặc [Play Store](https://play.google.com/store/apps/details?id=com.tailscale.ipn) (Android).
+- Trên iOS và Android: Tailscale cung cấp các ứng dụng di động **chính thức**. Chỉ cần cài đặt *Tailscale* từ [App Store](https://apps.apple.com/us/app/tailscale/id1470499037?ls=1) (iOS) hoặc [Play Store](https://play.google.com/store/apps/details?id=com.tailscale.ipn) (Android).
 
 
 
@@ -261,13 +261,13 @@ Bảng điều khiển quản trị web cho phép bạn xem và quản lý tất
 
 
 
-- Interface Web (Bảng điều khiển dành cho quản trị viên)**: có thể truy cập tại [https://login.tailscale.com](https://login.tailscale.com), bảng điều khiển web này là bảng điều khiển trung tâm cho mạng Tailscale của bạn. Nó liệt kê tất cả các thiết bị (*Máy*), trạng thái trực tuyến/ngoại tuyến của chúng, địa chỉ IP Tailscale của chúng, v.v. Tại đây, bạn có thể **quản lý thiết bị** (đổi tên, hết hạn khóa, ủy quyền tuyến đường, vô hiệu hóa một nút), **quản lý người dùng** (trong bối cảnh tổ chức) và xác định các quy tắc bảo mật (ACL). Đây cũng là nơi bạn định cấu hình các tùy chọn toàn cầu như MagicDNS, thẻ hoặc khóa xác thực (khóa xác thực trước generate để tự động thêm thiết bị). Web Interface rất tiện dụng để có được cái nhìn tổng quan và áp dụng các thay đổi sẽ được truyền qua máy chủ phối hợp đến tất cả các nút. *Ví dụ:* Việc kích hoạt **tuyến đường mạng con** hoặc **nút thoát** được thực hiện chỉ bằng một cú nhấp chuột trong bảng điều khiển, sau khi nút đang đề cập đã tự thông báo như vậy.
+- **Interface Web (Bảng điều khiển dành cho quản trị viên)**: có thể truy cập tại [https://login.tailscale.com](https://login.tailscale.com), bảng điều khiển web này là bảng điều khiển trung tâm cho mạng Tailscale của bạn. Nó liệt kê tất cả các thiết bị (*Máy*), trạng thái trực tuyến/ngoại tuyến của chúng, địa chỉ IP Tailscale của chúng, v.v. Tại đây, bạn có thể **quản lý thiết bị** (đổi tên, hết hạn khóa, ủy quyền tuyến đường, vô hiệu hóa một nút), **quản lý người dùng** (trong bối cảnh tổ chức) và xác định các quy tắc bảo mật (ACL). Đây cũng là nơi bạn định cấu hình các tùy chọn toàn cầu như MagicDNS
 
 
 
 
 
-- Dòng lệnh Interface (CLI):** Lệnh `tailscale` có sẵn trong CLI trên mọi thiết bị cài đặt Tailscale. CLI này cho phép bạn thực hiện mọi thứ cục bộ: kết nối (`tailscale up`), kiểm tra trạng thái (`tailscale status` để xem những đối tác nào đang kết nối), gỡ lỗi (`tailscale ping <ip>`), v.v. Một số tính năng thậm chí **chỉ có ở CLI** hoặc nâng cao hơn, ví dụ:
+- **Dòng lệnh Interface (CLI):** Lệnh `tailscale` có sẵn trong CLI trên mọi thiết bị cài đặt Tailscale. CLI này cho phép bạn thực hiện mọi thứ cục bộ: kết nối (`tailscale up`), kiểm tra trạng thái (`tailscale status` để xem những đối tác nào đang kết nối), gỡ lỗi (`tailscale ping <ip>`), v.v. Một số tính năng thậm chí **chỉ có ở CLI** hoặc nâng cao hơn, ví dụ:
 
 
 
@@ -293,7 +293,7 @@ Umbrel là một nền tảng tự lưu trữ phổ biến (đặc biệt đư�
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 Sử dụng Umbrel và Tailscale cùng nhau là một trường hợp sử dụng đặc biệt thú vị, vì Umbrel tích hợp sẵn một mô-đun Tailscale dễ triển khai. Sau đây là cách Tailscale tích hợp với Umbrel và những gì nó mang lại:
 
@@ -305,7 +305,7 @@ Sử dụng Umbrel và Tailscale cùng nhau là một trường hợp sử dụn
 
 
 
-- Cài đặt Tailscale trên Umbrel:** Umbrel có ứng dụng Tailscale chính thức trên App Store. Việc cài đặt không thể đơn giản hơn:
+- **Cài đặt Tailscale trên Umbrel:** Umbrel có ứng dụng Tailscale chính thức trên App Store. Việc cài đặt không thể đơn giản hơn:
 
 
 
@@ -379,11 +379,11 @@ Truy cập cực kỳ đơn giản: thay vì sử dụng `umbrel.local` (chỉ h
 
 
 
-- Interface main Umbrel**: Truy cập bảng điều khiển Umbrel của bạn chỉ bằng cách nhập `http://100.x.y.z` vào trình duyệt của bạn
-- Nút Bitcoin**: Quản lý nút Bitcoin của bạn mà không có độ trễ, xem đồng bộ hóa và thống kê
-- Lightning Node**: Sử dụng ThunderHub, RTL hoặc các giao diện quản lý Lightning khác với khả năng phản hồi ngay lập tức
-- Mempool**: Xem các giao dịch Bitcoin và Mempool mà không cần sự chậm trễ của Tor
-- noStrudel**: Truy cập các dịch vụ Nostr của bạn được lưu trữ trên Umbrel
+- **Interface main Umbrel**: Truy cập bảng điều khiển Umbrel của bạn chỉ bằng cách nhập `http://100.x.y.z` vào trình duyệt của bạn
+- **Nút Bitcoin**: Quản lý nút Bitcoin của bạn mà không có độ trễ, xem đồng bộ hóa và thống kê
+- **Lightning Node**: Sử dụng ThunderHub, RTL hoặc các giao diện quản lý Lightning khác với khả năng phản hồi ngay lập tức
+- **Mempool**: Xem các giao dịch Bitcoin và Mempool mà không cần sự chậm trễ của Tor
+- **noStrudel**: Truy cập các dịch vụ Nostr của bạn được lưu trữ trên Umbrel
 
 
 
@@ -397,7 +397,7 @@ Tailscale cũng cho phép ví Bitcoin và Lightning của bạn được cài đ
 
 
 
-- Sparrow wallet (Bitcoin)**: Wallet Bitcoin bên ngoài này có thể kết nối trực tiếp với máy chủ Electrum của Umbrel bằng cách sử dụng Tailscale IP Address:
+- **Sparrow wallet (Bitcoin)**: Wallet Bitcoin bên ngoài này có thể kết nối trực tiếp với máy chủ Electrum của Umbrel bằng cách sử dụng Tailscale IP Address:
 
 
 
@@ -419,12 +419,12 @@ Tailscale cũng cho phép ví Bitcoin và Lightning của bạn được cài đ
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 
 
 
-- Zeus (Lightning)**: Wallet di động Lightning này có thể kết nối với nút Lightning của bạn trên Umbrel. Thay vì cấu hình điểm cuối là `.onion', chỉ cần đặt IP Tailscale của Umbrel và cổng Lightning API. Kết nối sẽ diễn ra ngay lập tức so với Tor.
+- **Zeus (Lightning)**: Wallet di động Lightning này có thể kết nối với nút Lightning của bạn trên Umbrel. Thay vì cấu hình điểm cuối là `.onion`, chỉ cần đặt IP Tailscale của Umbrel và cổng Lightning API. Kết nối sẽ diễn ra ngay lập tức so với Tor.
 
 
 
@@ -439,13 +439,13 @@ https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7
 
 
 
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
 
 Để tìm hiểu thêm về Lightning Network và cách thức hoạt động của nó trên Umbrel, hãy truy cập:
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
 
 
@@ -483,7 +483,7 @@ Truyền thông được mã hóa (WireGuard) ngoài bất kỳ mã hóa nào m�
 
 ---
 
-Để kết thúc phần này, tích hợp Tailscale trên Umbrel chỉ mất vài cú nhấp chuột và **cải thiện đáng kể khả năng truy cập** của nút tự lưu trữ của bạn. Bạn sẽ có thể quản lý Umbrel và các dịch vụ của nó từ bất kỳ đâu, an toàn và hiệu quả, giống như khi bạn ở nhà. Đây là giải pháp đặc biệt hữu ích cho các ứng dụng thời gian thực (Lightning) gặp phải độ trễ Tor hoặc nói chung là cho bất kỳ máy chủ tự lưu trữ nào đang tìm kiếm kết nối riêng tư đơn giản. Tất cả mà không cần để lộ một cổng nào** trên hộp của bạn và không cần cấu hình mạng phức tạp.
+Để kết thúc phần này, tích hợp Tailscale trên Umbrel chỉ mất vài cú nhấp chuột và **cải thiện đáng kể khả năng truy cập** của nút tự lưu trữ của bạn. Bạn sẽ có thể quản lý Umbrel và các dịch vụ của nó từ bất kỳ đâu, an toàn và hiệu quả, giống như khi bạn ở nhà. Đây là giải pháp đặc biệt hữu ích cho các ứng dụng thời gian thực (Lightning) gặp phải độ trễ Tor hoặc nói chung là cho bất kỳ máy chủ tự lưu trữ nào đang tìm kiếm kết nối riêng tư đơn giản. Tất cả mà không cần để lộ một cổng nào **trên hộp của bạn và không cần cấu hình mạng phức tạp**.
 
 
 
@@ -507,7 +507,7 @@ Truyền thông được mã hóa (WireGuard) ngoài bất kỳ mã hóa nào m�
 
 
 
-**Chia sẻ thiết bị cho phép bạn mời ai đó truy cập vào một máy cụ thể mà không cần cấp cho họ quyền truy cập vào toàn bộ mạng của bạn.
+**Chia sẻ thiết bị cho phép bạn mời ai đó truy cập vào một máy cụ thể mà không cần cấp cho họ quyền truy cập vào toàn bộ mạng của bạn.**
 
 
 
@@ -531,7 +531,7 @@ Truyền thông được mã hóa (WireGuard) ngoài bất kỳ mã hóa nào m�
 
 
 
-**Là đối thủ cạnh tranh trực tiếp, ZeroTier hoạt động ở Layer 2 (Ethernet), cho phép phát sóng/phát đa hướng, trong khi Tailscale hoạt động ở Layer 3 (IP). ZeroTier cung cấp tính linh hoạt mạng lớn hơn, trong khi Tailscale ưu tiên tính đơn giản khi sử dụng.
+**Là đối thủ cạnh tranh trực tiếp, ZeroTier hoạt động ở Layer 2 (Ethernet), cho phép phát sóng/phát đa hướng, trong khi Tailscale hoạt động ở Layer 3 (IP). ZeroTier cung cấp tính linh hoạt mạng lớn hơn, trong khi Tailscale ưu tiên tính đơn giản khi sử dụng.**
 
 
 
@@ -557,8 +557,8 @@ Tóm lại, Tailscale tự định vị mình là một giải pháp hiện đ�
 
 
 
-- Đơn giản và hiệu suất** - Cài đặt nhanh trên mọi nền tảng mà không cần cấu hình mạng phức tạp. Lưu lượng đi theo đường dẫn trực tiếp nhất giữa các máy của bạn (P2P mesh), với hiệu suất của giao thức WireGuard và không có máy chủ trung tâm nào giới hạn thông lượng.
-- Bảo mật và tính linh hoạt** - Mã hóa đầu cuối, giảm bề mặt tấn công và các tính năng nâng cao (ACL, xác thực SSO/MFA). Hoạt động ngay cả sau NAT hoặc khi di chuyển, với bộ định tuyến mạng con và nút thoát để điều chỉnh mạng theo nhu cầu của bạn.
+- **Đơn giản và hiệu suất** - Cài đặt nhanh trên mọi nền tảng mà không cần cấu hình mạng phức tạp. Lưu lượng đi theo đường dẫn trực tiếp nhất giữa các máy của bạn (P2P mesh), với hiệu suất của giao thức WireGuard và không có máy chủ trung tâm nào giới hạn thông lượng.
+- **Bảo mật và tính linh hoạt** - Mã hóa đầu cuối, giảm bề mặt tấn công và các tính năng nâng cao (ACL, xác thực SSO/MFA). Hoạt động ngay cả sau NAT hoặc khi di chuyển, với bộ định tuyến mạng con và nút thoát để điều chỉnh mạng theo nhu cầu của bạn.
 
 
 
@@ -568,16 +568,16 @@ Tóm lại, Tailscale tự định vị mình là một giải pháp hiện đ�
 
 
 
-- Phụ thuộc bên ngoài** - Trong phiên bản chuẩn, dịch vụ này dựa trên cơ sở hạ tầng Tailscale Inc. Sự phụ thuộc này có thể được bỏ qua thông qua Headscale (giải pháp thay thế tự lưu trữ).
-- Các hạn chế khác** - Mã nguồn đóng một phần, giới hạn của phiên bản miễn phí đối với một số mục đích sử dụng nâng cao, không hỗ trợ Layer 2 (phát/phát đa hướng) và cần có quyền truy cập Internet để thiết lập kết nối.
+- **Phụ thuộc bên ngoài** - Trong phiên bản chuẩn, dịch vụ này dựa trên cơ sở hạ tầng Tailscale Inc. Sự phụ thuộc này có thể được bỏ qua thông qua Headscale (giải pháp thay thế tự lưu trữ).
+- **Các hạn chế khác** - Mã nguồn đóng một phần, giới hạn của phiên bản miễn phí đối với một số mục đích sử dụng nâng cao, không hỗ trợ Layer 2 (phát/phát đa hướng) và cần có quyền truy cập Internet để thiết lập kết nối.
 
 
 
-**Tailscale lý tưởng cho các máy chủ cá nhân và nhóm nhỏ, các nhà phát triển cần truy cập vào các tài nguyên phân tán, người mới bắt đầu sử dụng VPN và người dùng di động. Đối với các công ty yêu cầu kiểm soát hoàn toàn, các giải pháp khác như Headscale hoặc WireGuard trực tiếp có thể được ưu tiên.
+**Tailscale lý tưởng cho các máy chủ cá nhân và nhóm nhỏ, các nhà phát triển cần truy cập vào các tài nguyên phân tán, người mới bắt đầu sử dụng VPN và người dùng di động.** Đối với các công ty yêu cầu kiểm soát hoàn toàn, các giải pháp khác như Headscale hoặc WireGuard trực tiếp có thể được ưu tiên.
 
 
 
-**Khám phá Headscale để có khả năng tự lưu trữ hoàn toàn, tích hợp API và DevOps (Terraform) hoặc các giải pháp thay thế như Innernet (tương tự nhưng tự lưu trữ hoàn toàn) và Netmaker.
+**Khám phá Headscale để có khả năng tự lưu trữ hoàn toàn, tích hợp API và DevOps (Terraform) hoặc các giải pháp thay thế như Innernet (tương tự nhưng tự lưu trữ hoàn toàn) và Netmaker.**
 
 
 
@@ -595,9 +595,9 @@ Tailscale là một công cụ thiết yếu để tự lưu trữ, nhờ tính 
 
 
 
-- Trung tâm tài liệu Tailscale**: [docs.tailscale.com](https://docs.tailscale.com) - Tài liệu đầy đủ bằng tiếng Anh, hướng dẫn cài đặt, hướng dẫn sử dụng và tài liệu tham khảo kỹ thuật.
-- Tailscale hoạt động như thế nào**: [Tailscale hoạt động như thế nào](https://tailscale.com/blog/how-tailscale-works) - Bài viết chi tiết giải thích cách thức hoạt động bên trong của Tailscale.
-- Nhật ký thay đổi**: [tailscale.com/changelog](https://tailscale.com/changelog) - Theo dõi các bản cập nhật và tính năng mới.
+- **Trung tâm tài liệu Tailscale**: [docs.tailscale.com](https://docs.tailscale.com) - Tài liệu đầy đủ bằng tiếng Anh, hướng dẫn cài đặt, hướng dẫn sử dụng và tài liệu tham khảo kỹ thuật.
+- **Tailscale hoạt động như thế nào**: [Tailscale hoạt động như thế nào](https://tailscale.com/blog/how-tailscale-works) - Bài viết chi tiết giải thích cách thức hoạt động bên trong của Tailscale.
+- **Nhật ký thay đổi**: [tailscale.com/changelog](https://tailscale.com/changelog) - Theo dõi các bản cập nhật và tính năng mới.
 
 
 
@@ -607,9 +607,9 @@ Tailscale là một công cụ thiết yếu để tự lưu trữ, nhờ tính 
 
 
 
-- Hướng dẫn về Homelab**: [tailscale.com/kb/1310/homelab](https://tailscale.com/kb/1310/homelab) - Hướng dẫn cụ thể về việc tự lưu trữ.
-- Cấu hình Nút thoát**: [tailscale.com/kb/1103/exit-nodes](https://tailscale.com/kb/1103/exit-nodes) - Hướng dẫn chi tiết về cách cấu hình Nút thoát.
-- Sử dụng Taildrop**: [tailscale.com/kb/1106/taildrop](https://tailscale.com/kb/1106/taildrop) - Chuyển tệp giữa các thiết bị Tailscale.
+- **Hướng dẫn về Homelab**: [tailscale.com/kb/1310/homelab](https://tailscale.com/kb/1310/homelab) - Hướng dẫn cụ thể về việc tự lưu trữ.
+- **Cấu hình Nút thoát**: [tailscale.com/kb/1103/exit-nodes](https://tailscale.com/kb/1103/exit-nodes) - Hướng dẫn chi tiết về cách cấu hình Nút thoát.
+- Sử dụng **Taildrop**: [tailscale.com/kb/1106/taildrop](https://tailscale.com/kb/1106/taildrop) - Chuyển tệp giữa các thiết bị Tailscale.
 
 
 
@@ -619,7 +619,7 @@ Tailscale là một công cụ thiết yếu để tự lưu trữ, nhờ tính 
 
 
 
-- Tailscale so với các giải pháp khác**: [tailscale.com/compare](https://tailscale.com/compare) - So sánh chi tiết với các giải pháp mạng và VPN khác (ZeroTier, OpenVPN, v.v.).
+- **Tailscale so với các giải pháp khác**: [tailscale.com/compare](https://tailscale.com/compare) - So sánh chi tiết với các giải pháp mạng và VPN khác (ZeroTier, OpenVPN, v.v.).
 
 
 
@@ -629,9 +629,9 @@ Tailscale là một công cụ thiết yếu để tự lưu trữ, nhờ tính 
 
 
 
-- Reddit**: [r/Tailscale](https://www.reddit.com/r/tailscale/) - Thảo luận, câu hỏi và phản hồi.
-- GitHub**: [github.com/tailscale/tailscale](https://github.com/tailscale/tailscale) - Mã nguồn của khách hàng, nơi theo dõi quá trình phát triển và báo cáo sự cố.
-- Discord**: [discord.gg/tailscale](https://discord.gg/tailscale) - Cộng đồng người dùng và nhà phát triển.
+- **Reddit**: [r/Tailscale](https://www.reddit.com/r/tailscale/) - Thảo luận, câu hỏi và phản hồi.
+- **GitHub**: [github.com/tailscale/tailscale](https://github.com/tailscale/tailscale) - Mã nguồn của khách hàng, nơi theo dõi quá trình phát triển và báo cáo sự cố.
+- **Discord**: [discord.gg/tailscale](https://discord.gg/tailscale) - Cộng đồng người dùng và nhà phát triển.
 
 
 

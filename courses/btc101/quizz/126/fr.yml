@@ -1,13 +1,9 @@
-question: Qu'est-ce qu'une transaction Bitcoin ?
-answer: Un transfert de propriété de bitcoins, utilisant la cryptographie.
+question: Comment les mineurs valident-ils les transactions et les incluent-ils dans un bloc ?
+answer: Par le processus de Preuve de travail (Proof of work).
 wrong_answers:
-  - Un échange physique de bitcoins, utilisant un notaire.
-  - Un transfert de propriété de bitcoins, utilisant une adresse physique.
-  - Un transfert de propriété de bitcoins, utilisant une adresse email.
-explanation: |
-  Une transaction Bitcoin est un transfert numérique de la
-  propriété de bitcoins, grâce à l'utilisation d'une adresse Bitcoin
-  dérivée grâce à la cryptographie de Courbe Elliptique. Cette
-  adresse est unique au portefeuille de la personne recevant les
-  bitcoins.
+  - Par le processus de Preuve d'enjeu (Proof of stake).
+  - Par le processus de Preuve d'autorité (Proof of authority).
+  - Par le processus de Preuve de destruction (Proof of burn).
+explanation: >-
+  Les mineurs valident les transactions et les incluent dans un bloc à travers un processus appelé preuve de travail (proof of work). Cela implique de résoudre une énigme cryptographique.
 reviewed: true

@@ -1,0 +1,9 @@
+question: به مجموعه‌ای از ماشین‌ها که یک پیاده‌سازی Bitcoin را اجرا می‌کنند و به یکدیگر متصل هستند، چه می‌گوییم؟
+answer: شبکه Bitcoin
+wrong_answers:
+  - پروتکل Bitcoin
+  - ارز Bitcoin
+  - Blockchain Bitcoin
+explanation: |
+  شبکه Bitcoin شامل تمام گره‌های متصل است که هر کدام یک پیاده‌سازی متمایز از پروتکل را اجرا می‌کنند.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Comment appelle-t-on l’ensemble des machines exécutant une implémentation de Bitcoin et connectées entre elles ?
+answer: Le réseau Bitcoin
+wrong_answers:
+  - Le protocole Bitcoin
+  - La monnaie bitcoin
+  - La blockchain Bitcoin
+explanation: |
+  Le réseau Bitcoin est constitué de tous les nœuds connectés, chacun exécutant une implémentation du protocole.
+reviewed: false

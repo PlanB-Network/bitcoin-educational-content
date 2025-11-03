@@ -1,0 +1,9 @@
+question: 오늘날 PC 시장을 지배하는 운영체제는 무엇인가요?
+answer: Windows
+wrong_answers:
+  - macOS
+  - GNU/Linux
+  - Chrome OS
+explanation: |
+  Windows는 기본 설치와 광범위한 소프트웨어 에코시스템 덕분에 개인용 컴퓨터에서 71%의 시장 점유율을 차지하고 있습니다.
+reviewed: false

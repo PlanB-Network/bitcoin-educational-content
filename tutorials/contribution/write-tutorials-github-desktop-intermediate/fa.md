@@ -1,6 +1,6 @@
 ---
 name: مشارکت - آموزش با GitHub Desktop (متوسط)
-description: راهنمای کامل برای پیشنهاد یک آموزش در Plan ₿ Network با استفاده از GitHub Desktop
+description: راهنمای کامل برای پیشنهاد یک آموزش در Plan ₿ Academy با استفاده از GitHub Desktop
 ---
 ![cover](assets/cover.webp)
 
@@ -8,33 +8,33 @@ description: راهنمای کامل برای پیشنهاد یک آموزش د�
 قبل از دنبال کردن این آموزش در مورد اضافه کردن یک آموزش جدید، باید چند مرحله مقدماتی را تکمیل کرده باشید. اگر هنوز این کار را انجام نداده‌اید، از شما دعوت می‌کنم ابتدا به این آموزش مقدماتی مراجعه کنید و سپس به اینجا برگردید:
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+https://planb.academy/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
 شما قبلاً:
 
 
 - موضوع آموزش خود را انتخاب کنید؛
-- با تیم Plan ₿ Network از طریق [گروه تلگرام](https://t.me/PlanBNetwork_ContentBuilder) یا paolo@planb.network تماس بگیرید؛
+- با تیم Plan ₿ Academy از طریق [گروه تلگرام](https://t.me/PlanBNetwork_ContentBuilder) یا paolo@planb.network تماس بگیرید؛
 - ابزارهای مشارکت خود را انتخاب کنید.
 
 
-در این آموزش، خواهیم دید که چگونه می‌توانید آموزش خود را در Plan ₿ Network اضافه کنید با تنظیم محیط محلی خود با GitHub Desktop. اگر شما در Git مهارت دارید، این آموزش بسیار دقیق ممکن است برای شما ضروری نباشد. من به جای آن توصیه می‌کنم به این آموزش دیگر مراجعه کنید که در آن فقط راهنمایی‌های اصلی را ارائه می‌دهم، بدون راهنمایی گام به گام دقیق:
+در این آموزش، خواهیم دید که چگونه می‌توانید آموزش خود را در Plan ₿ Academy اضافه کنید با تنظیم محیط محلی خود با GitHub Desktop. اگر شما در Git مهارت دارید، این آموزش بسیار دقیق ممکن است برای شما ضروری نباشد. من به جای آن توصیه می‌کنم به این آموزش دیگر مراجعه کنید که در آن فقط راهنمایی‌های اصلی را ارائه می‌دهم، بدون راهنمایی گام به گام دقیق:
 
 
 
-- کاربران با تجربه**:
+- **کاربران با تجربه**:
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+https://planb.academy/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
 اگر ترجیح می‌دهید محیط محلی خود را راه‌اندازی نکنید، این آموزش دیگر را که برای مبتدیان طراحی شده است دنبال کنید، جایی که تغییرات را مستقیماً از طریق وب GitHub Interface انجام می‌دهیم:
 
 
 
-- مبتدیان (وب Interface)**:
+- **مبتدیان (وب Interface)**:
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 
 ## پیش‌نیازها
 
@@ -56,21 +56,21 @@ https://planb.network/tutorials/contribution/content/write-tutorials-github-web-
 
 
 - یک [حساب GitHub](https://github.com/signup) داشته باشید؛
-- دارای Fork از [مخزن منبع Plan ₿ Network](https://github.com/PlanB-Network/Bitcoin-educational-content) باشید؛
-- [یک پروفایل استاد در Plan ₿ Network داشته باشید](https://planb.network/professors) (فقط اگر یک آموزش کامل پیشنهاد می‌دهید).
+- دارای Fork از [مخزن منبع Plan ₿ Academy](https://github.com/PlanB-Network/Bitcoin-educational-content) باشید؛
+- [یک پروفایل استاد در Plan ₿ Academy داشته باشید](https://planb.academy/professors) (فقط اگر یک آموزش کامل پیشنهاد می‌دهید).
 
 
 اگر برای تهیه این پیش‌نیازها به کمک نیاز دارید، آموزش‌های دیگر من به شما کمک خواهند کرد:
 
 
 
-پس از اینکه همه چیز در جای خود قرار گرفت و محیط محلی شما به درستی با Fork خودتان از Plan ₿ Network تنظیم شد، می‌توانید شروع به افزودن آموزش کنید.
+پس از اینکه همه چیز در جای خود قرار گرفت و محیط محلی شما به درستی با Fork خودتان از Plan ₿ Academy تنظیم شد، می‌توانید شروع به افزودن آموزش کنید.
 
 
 ## ۱ - ایجاد یک شاخه جدید
 
 
-مرورگر خود را باز کنید و به صفحه Fork از مخزن Plan ₿ Network خود بروید. این همان Fork است که شما در GitHub ایجاد کرده‌اید. URL مربوط به Fork شما باید به این شکل باشد: `https://github.com/[your-username]/Bitcoin-educational-content`:
+مرورگر خود را باز کنید و به صفحه Fork از مخزن Plan ₿ Academy خود بروید. این همان Fork است که شما در GitHub ایجاد کرده‌اید. URL مربوط به Fork شما باید به این شکل باشد: `https://github.com/[your-username]/Bitcoin-educational-content`:
 
 
 ![TUTO](assets/fr/03.webp)
@@ -106,7 +106,7 @@ https://planb.network/tutorials/contribution/content/write-tutorials-github-web-
 ![TUTO](assets/fr/08.webp)
 
 
-اطمینان حاصل کنید که شاخه جدید بر اساس مخزن منبع، یعنی `PlanB-Network/Bitcoin-educational-content` باشد.
+اطمینان حاصل کنید که شاخه جدید بر اساس مخزن منبع، یعنی `Plan ₿ Academy/Bitcoin-educational-content` باشد.
 
 
 نام شاخه خود را به گونه‌ای انتخاب کنید که عنوان آن به وضوح هدف آن را نشان دهد و از خط تیره برای جدا کردن هر کلمه استفاده کنید. به عنوان مثال، فرض کنید هدف ما نوشتن یک آموزش در مورد استفاده از نرم‌افزار Sparrow wallet است. در این صورت، شاخه کاری اختصاص داده شده به نوشتن این آموزش می‌تواند به این صورت نامگذاری شود: `tuto-Sparrow-Wallet-loic`. پس از وارد کردن نام مناسب، روی `Create branch` کلیک کنید تا ایجاد شاخه تأیید شود:
@@ -143,7 +143,7 @@ https://planb.network/tutorials/contribution/content/write-tutorials-github-web-
 - پایتون 3.8 یا بالاتر.
 
 
-برای استفاده از اسکریپت، به پوشه‌ای که در آن ذخیره شده است بروید. اسکریپت در مخزن داده Plan ₿ Network در مسیر زیر قرار دارد: `Bitcoin-educational-content/scripts/tutorial-related/data-creator`.
+برای استفاده از اسکریپت، به پوشه‌ای که در آن ذخیره شده است بروید. اسکریپت در مخزن داده Plan ₿ Academy در مسیر زیر قرار دارد: `Bitcoin-educational-content/scripts/tutorial-related/data-creator`.
 
 
 پس از ورود به پوشه، وابستگی‌ها را نصب کنید:
@@ -203,7 +203,7 @@ python3 main.py
 اگر هنوز پروفایل استادی ندارید، این آموزش را بررسی کنید:
 
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 سپس روی دکمه "آموزش جدید" کلیک کنید.
 
@@ -229,7 +229,7 @@ https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9b
 ![DATA-CREATOR-PY](assets/fr/45.webp)
 
 
-`project_id` شناسه UUID شرکت یا سازمانی است که ابزار مورد بحث در آموزش را پشتیبانی می‌کند و [در لیست پروژه‌ها](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects) موجود است. به عنوان مثال، برای یک آموزش در مورد Sparrow wallet، می‌توانید `project_id` آن را در فایل: `Bitcoin-educational-content/resources/projects/Sparrow/project.yml` پیدا کنید. این اطلاعات به فایل YAML آموزش شما اضافه می‌شود زیرا Plan ₿ Network یک پایگاه داده از شرکت‌ها و سازمان‌های فعال در Bitcoin یا پروژه‌های مرتبط را نگهداری می‌کند. با افزودن `project_id` مرتبط، محتوای خود را به نهاد مربوطه متصل می‌کنید.
+`project_id` شناسه UUID شرکت یا سازمانی است که ابزار مورد بحث در آموزش را پشتیبانی می‌کند و [در لیست پروژه‌ها](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects) موجود است. به عنوان مثال، برای یک آموزش در مورد Sparrow wallet، می‌توانید `project_id` آن را در فایل: `Bitcoin-educational-content/resources/projects/Sparrow/project.yml` پیدا کنید. این اطلاعات به فایل YAML آموزش شما اضافه می‌شود زیرا Plan ₿ Academy یک پایگاه داده از شرکت‌ها و سازمان‌های فعال در Bitcoin یا پروژه‌های مرتبط را نگهداری می‌کند. با افزودن `project_id` مرتبط، محتوای خود را به نهاد مربوطه متصل می‌کنید.
 
 
 ***به‌روزرسانی:*** در نسخه جدید اسکریپت، دیگر نیازی به وارد کردن دستی `project_id` ندارید. یک تابع جستجو اضافه شده است تا پروژه را بر اساس نام پیدا کرده و به‌طور خودکار `project_id` مربوطه را بازیابی کند. برای جستجو، ابتدای نام پروژه را در فیلد "نام پروژه" تایپ کنید، سپس شرکت مورد نظر را از منوی کشویی انتخاب کنید. `project_id` به‌طور خودکار در فیلد زیر پر خواهد شد. در صورت نیاز می‌توانید آن را به‌صورت دستی نیز وارد کنید.
@@ -238,7 +238,7 @@ https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9b
 ![DATA-CREATOR-PY](assets/fr/46.webp)
 
 
-برای برچسب‌ها، ۲ یا ۳ کلمه کلیدی مرتبط با محتوای آموزشی خود را انتخاب کنید و به‌طور انحصاری از [لیست برچسب‌های Plan ₿ Network](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) انتخاب کنید. نرم‌افزار همچنین یک تابع جستجوی کلمه کلیدی با یک لیست کشویی ارائه می‌دهد.
+برای برچسب‌ها، ۲ یا ۳ کلمه کلیدی مرتبط با محتوای آموزشی خود را انتخاب کنید و به‌طور انحصاری از [لیست برچسب‌های Plan ₿ Academy](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) انتخاب کنید. نرم‌افزار همچنین یک تابع جستجوی کلمه کلیدی با یک لیست کشویی ارائه می‌دهد.
 
 
 ![DATA-CREATOR-PY](assets/fr/47.webp)
@@ -262,7 +262,7 @@ https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9b
 مدیر فایل خود را باز کرده و به پوشه `Bitcoin-educational-content` بروید، که نمایانگر کلون محلی مخزن شما است. معمولاً باید آن را تحت مسیر `Documents\GitHub\Bitcoin-educational-content` پیدا کنید.
 
 
-در این فهرست، شما باید زیرپوشه مناسب برای قرار دادن آموزش خود را پیدا کنید. سازماندهی پوشه‌ها بخش‌های مختلف وب‌سایت Plan ₿ Network را منعکس می‌کند. در مثال ما، از آنجا که می‌خواهیم آموزشی درباره Sparrow wallet اضافه کنیم، باید به مسیر زیر برویم: `Bitcoin-educational-content\tutorials\Wallet`، که به بخش `Wallet` در وب‌سایت مربوط می‌شود:
+در این فهرست، شما باید زیرپوشه مناسب برای قرار دادن آموزش خود را پیدا کنید. سازماندهی پوشه‌ها بخش‌های مختلف وب‌سایت Plan ₿ Academy را منعکس می‌کند. در مثال ما، از آنجا که می‌خواهیم آموزشی درباره Sparrow wallet اضافه کنیم، باید به مسیر زیر برویم: `Bitcoin-educational-content\tutorials\Wallet`، که به بخش `Wallet` در وب‌سایت مربوط می‌شود:
 
 
 ![TUTO](assets/fr/12.webp)
@@ -340,23 +340,23 @@ reward:
 
 
 
-- شناسه**: یک UUID (_شناسه منحصربه‌فرد جهانی_) که به‌طور منحصربه‌فرد آموزش را شناسایی می‌کند. می‌توانید آن را با استفاده از [یک ابزار آنلاین](https://www.uuidgenerator.net/version4) به generate تبدیل کنید. تنها شرط این است که این UUID تصادفی باشد تا از تداخل با UUID دیگری در پلتفرم جلوگیری شود؛
+- **شناسه**: یک UUID (*شناسه منحصربه‌فرد جهانی*) که به‌طور منحصربه‌فرد آموزش را شناسایی می‌کند. می‌توانید آن را با استفاده از [یک ابزار آنلاین](https://www.uuidgenerator.net/version4) به generate تبدیل کنید. تنها شرط این است که این UUID تصادفی باشد تا از تداخل با UUID دیگری در پلتفرم جلوگیری شود؛
 
 
 
-- project_id**: شناسه UUID شرکت یا سازمان پشت ابزار ارائه شده در آموزش [از لیست پروژه](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). به عنوان مثال، اگر در حال ایجاد یک آموزش درباره نرم‌افزار Green Wallet هستید، می‌توانید این `project_id` را در فایل زیر پیدا کنید: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. این اطلاعات به فایل YAML آموزش شما اضافه می‌شود زیرا Plan ₿ Network یک پایگاه داده از تمام شرکت‌ها و سازمان‌هایی که بر روی Bitcoin یا پروژه‌های مرتبط فعالیت می‌کنند را نگهداری می‌کند. با افزودن `project_id` موجودیت مرتبط با آموزش خود، شما یک پیوند بین دو Elements ایجاد می‌کنید؛
+- **project_id**: شناسه UUID شرکت یا سازمان پشت ابزار ارائه شده در آموزش [از لیست پروژه](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). به عنوان مثال، اگر در حال ایجاد یک آموزش درباره نرم‌افزار Green Wallet هستید، می‌توانید این `project_id` را در فایل زیر پیدا کنید: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. این اطلاعات به فایل YAML آموزش شما اضافه می‌شود زیرا Plan ₿ Academy یک پایگاه داده از تمام شرکت‌ها و سازمان‌هایی که بر روی Bitcoin یا پروژه‌های مرتبط فعالیت می‌کنند را نگهداری می‌کند. با افزودن `project_id` موجودیت مرتبط با آمو
 
 
 
-- برچسب‌ها**: 2 یا 3 کلمه کلیدی مرتبط با محتوای آموزشی، به‌طور انحصاری انتخاب شده [از لیست برچسب‌های Plan ₿ Network](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md)؛
+- **برچسب‌ها**: 2 یا 3 کلمه کلیدی مرتبط با محتوای آموزشی، به‌طور انحصاری انتخاب شده [از لیست برچسب‌های Plan ₿ Academy](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md)؛
 
 
 
-- دسته‌بندی**: زیرمجموعه‌ای که با محتوای آموزش مطابقت دارد، بر اساس ساختار وب‌سایت Plan ₿ Network (برای مثال، برای کیف پول‌ها: `desktop`, `hardware`, `mobile`, `backup`);
+- **دسته‌بندی**: زیرمجموعه‌ای که با محتوای آموزش مطابقت دارد، بر اساس ساختار وب‌سایت Plan ₿ Academy (برای مثال، برای کیف پول‌ها: `desktop`, `hardware`, `mobile`, `backup`);
 
 
 
-- سطح**: سطح دشواری آموزش، انتخاب شده از:
+- **سطح**: سطح دشواری آموزش، انتخاب شده از:
     - `مبتدی`
     - `متوسط`
     - `پیشرفته`
@@ -364,26 +364,26 @@ reward:
 
 
 
-- professor_id**: `professor_id` شما (UUID) همانطور که در [پروفایل استاد شما](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors) نمایش داده شده است؛
+- **professor_id**: `professor_id` شما (UUID) همانطور که در [پروفایل استاد شما](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors) نمایش داده شده است؛
 
 
 
-- زبان_اصلی**: زبان اصلی آموزش (مثلاً، `fr`، `en`، و غیره)؛
+- **زبان_اصلی**: زبان اصلی آموزش (مثلاً، `fr`، `en`، و غیره)؛
 
 
 
-- بازخوانی**: اطلاعاتی درباره فرآیند بازخوانی. بخش اول را کامل کنید، زیرا بازخوانی آموزش خودتان به عنوان اولین اعتبارسنجی محسوب می‌شود:
-    - زبان**: کد زبان برای تصحیح (مثلاً، `fr`، `en`، و غیره).
-    - last_contribution_date**: تاریخ روز.
-    - فوریت**: 1
-    - نام‌های_مشارکت‌کننده**: شناسه GitHub شما.
-    - پاداش**: 0
+- **بازخوانی**: اطلاعاتی درباره فرآیند بازخوانی. بخش اول را کامل کنید، زیرا بازخوانی آموزش خودتان به عنوان اولین اعتبارسنجی محسوب می‌شود:
+- **زبان**: کد زبان برای تصحیح (مثلاً، `fr`، `en`، و غیره).
+- **last_contribution_date**: تاریخ روز.
+- **فوریت**: 1
+- **نام‌های_مشارکت‌کننده**: شناسه GitHub شما.
+- **پاداش**: 0
 
 
 برای جزئیات بیشتر در مورد شناسه معلم خود، لطفاً به آموزش مربوطه مراجعه کنید:
 
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 ```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
@@ -518,17 +518,17 @@ description: [Description]
 ! نقطه تعجب در ابتدا نشان می‌دهد که این یک تصویر است. متن جایگزین، که به دسترسی و SEO کمک می‌کند، بین کروشه‌ها قرار می‌گیرد. در نهایت، مسیر تصویر بین پرانتزها مشخص شده است.
 
 
-اگر می‌خواهید نمودارهای خود را ایجاد کنید، مطمئن شوید که به منشور گرافیکی Plan ₿ Network پایبند باشید تا از یکنواختی بصری اطمینان حاصل کنید:
+اگر می‌خواهید نمودارهای خود را ایجاد کنید، مطمئن شوید که به منشور گرافیکی Plan ₿ Academy پایبند باشید تا از یکنواختی بصری اطمینان حاصل کنید:
 
 
-- فونت**: از [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans) استفاده کنید؛
-- رنگ‌ها**:
+- **فونت**: از [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans) استفاده کنید؛
+- **رنگ‌ها**:
  - نارنجی: #FF5C00
  - سیاه: #000000
  - سفید: #FFFFFF
 
 
-**ضروری است که تمام تصاویر استفاده‌شده در آموزش‌های شما بدون حقوق یا با رعایت مجوز فایل منبع باشند**. همچنین، تمام نمودارهای منتشرشده در Plan ₿ Network تحت مجوز CC-BY-SA در دسترس قرار می‌گیرند، به همان شیوه‌ای که متن قرار دارد.
+**ضروری است که تمام تصاویر استفاده‌شده در آموزش‌های شما بدون حقوق یا با رعایت مجوز فایل منبع باشند**. همچنین، تمام نمودارهای منتشرشده در Plan ₿ Academy تحت مجوز CC-BY-SA در دسترس قرار می‌گیرند، به همان شیوه‌ای که متن قرار دارد.
 
 **-> نکته:** هنگام به اشتراک‌گذاری فایل‌ها به صورت عمومی، مانند تصاویر، مهم است که هرگونه فراداده غیرضروری را حذف کنید. این اطلاعات می‌تواند شامل اطلاعات حساس مانند داده‌های مکانی، تاریخ‌های ایجاد یا جزئیات مربوط به نویسنده باشد. برای حفاظت از حریم خصوصی خود، توصیه می‌شود این فراداده‌ها را حذف کنید. برای ساده‌سازی این فرآیند، می‌توانید از ابزارهای تخصصی مانند [Exif Cleaner](https://exifcleaner.com/) استفاده کنید که امکان پاکسازی فراداده‌های یک سند را از طریق کشیدن و رها کردن ساده فراهم می‌کند.
 
@@ -571,7 +571,7 @@ description: [Description]
 ![TUTO](assets/fr/32.webp)
 
 
-یک درخواست Pull Request درخواستی است که برای ادغام تغییرات از شاخه شما به شاخه اصلی مخزن Plan ₿ Network انجام می‌شود، که امکان بررسی و بحث در مورد تغییرات قبل از ادغام آن‌ها را فراهم می‌کند.
+یک درخواست Pull Request درخواستی است که برای ادغام تغییرات از شاخه شما به شاخه اصلی مخزن Plan ₿ Academy انجام می‌شود، که امکان بررسی و بحث در مورد تغییرات قبل از ادغام آن‌ها را فراهم می‌کند.
 
 
 به‌طور خودکار به مرورگر خود در GitHub به صفحه آماده‌سازی درخواست کشش خود هدایت خواهید شد:
@@ -584,7 +584,7 @@ description: [Description]
 ![TUTO](assets/fr/34.webp)
 
 
-سپس درخواست کشش شما در زبانه `Pull Request` مخزن اصلی Plan ₿ Network قابل مشاهده خواهد بود. تنها کاری که باید انجام دهید این است که منتظر بمانید تا یک مدیر با شما تماس بگیرد تا ادغام مشارکت شما را تأیید کند یا درخواست هرگونه اصلاح اضافی را بدهد.
+سپس درخواست کشش شما در زبانه `Pull Request` مخزن اصلی Plan ₿ Academy قابل مشاهده خواهد بود. تنها کاری که باید انجام دهید این است که منتظر بمانید تا یک مدیر با شما تماس بگیرد تا ادغام مشارکت شما را تأیید کند یا درخواست هرگونه اصلاح اضافی را بدهد.
 
 
 ![TUTO](assets/fr/35.webp)
@@ -606,7 +606,7 @@ description: [Description]
 
 
 - اگر درخواست کشش شما هنوز باز است و هنوز ادغام نشده است، تغییرات را به صورت محلی و در همان شاخه انجام دهید. پس از نهایی شدن اصلاحات، از دکمه `Push origin` استفاده کنید تا یک کامیت جدید به درخواست کشش باز خود اضافه کنید؛
-- اگر PR شما قبلاً با شاخه اصلی ادغام شده است، باید فرآیند را از نو با ایجاد یک شاخه جدید شروع کنید و سپس یک PR جدید ارسال کنید. اطمینان حاصل کنید که مخزن محلی شما با مخزن منبع Plan ₿ Network همگام‌سازی شده است قبل از ادامه.
+- اگر PR شما قبلاً با شاخه اصلی ادغام شده است، باید فرآیند را از نو با ایجاد یک شاخه جدید شروع کنید و سپس یک PR جدید ارسال کنید. اطمینان حاصل کنید که مخزن محلی شما با مخزن منبع Plan ₿ Academy همگام‌سازی شده است قبل از ادامه.
 
 
 اگر در ارسال آموزش خود با مشکلات فنی مواجه شدید، در درخواست کمک از [گروه تلگرام اختصاصی ما برای مشارکت‌ها](https://t.me/PlanBNetwork_ContentBuilder) تردید نکنید. متشکرم!

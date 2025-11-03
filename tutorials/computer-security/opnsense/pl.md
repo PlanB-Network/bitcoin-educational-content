@@ -10,7 +10,7 @@ ___
 
 
 
-*Ten samouczek jest oparty na oryginalnej treści autorstwa Floriana BURNELA opublikowanej na stronie [IT-Connect](https://www.it-connect.fr/). Licencja [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). W oryginalnym tekście mogły zostać wprowadzone zmiany
+*Ten samouczek jest oparty na oryginalnej treści autorstwa Floriana BURNELA opublikowanej na stronie [IT-Connect](https://www.it-connect.fr/). Licencja [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). W oryginalnym tekście mogły zostać wprowadzone zmiany.*
 
 
 
@@ -56,55 +56,55 @@ Oto niektóre z kluczowych funkcji OPNsense:
 
 
 
-- Firewall i NAT**: OPNsense zapewnia zaawansowaną funkcję stateful firewall z filtrowaniem stanowym, a także funkcje translacji sieciowej Address (NAT).
+- **Firewall i NAT**: OPNsense zapewnia zaawansowaną funkcję stateful firewall z filtrowaniem stanowym, a także funkcje translacji sieciowej Address (NAT).
 
 
 
 
 
-- DNS/DHCP**: OPNsense można skonfigurować do zarządzania usługami DNS i DHCP w sieci. Może działać jako serwer DHCP, ale może być również używany jako resolver DNS dla maszyn w sieci lokalnej. Dnsmasq jest również domyślnie zintegrowany.
+- **DNS/DHCP**: OPNsense można skonfigurować do zarządzania usługami DNS i DHCP w sieci. Może działać jako serwer DHCP, ale może być również używany jako resolver DNS dla maszyn w sieci lokalnej. Dnsmasq jest również domyślnie zintegrowany.
 
 
 
 
 
-- VPN**: OPNsense obsługuje kilka protokołów VPN, w tym IPsec, OpenVPN i WireGuard, umożliwiając bezpieczne połączenia w celu zdalnego dostępu do mobilnych stacji roboczych lub połączenia między lokalizacjami.
+- **VPN**: OPNsense obsługuje kilka protokołów VPN, w tym IPsec, OpenVPN i WireGuard, umożliwiając bezpieczne połączenia w celu zdalnego dostępu do mobilnych stacji roboczych lub połączenia między lokalizacjami.
 
 
 
 
 
-- Serwer proxy**: OPNsense zawiera internetowy serwer proxy do kontrolowania i filtrowania dostępu do Internetu. Może być również używany do filtrowania treści i zarządzania dostępem do sieci.
+- **Serwer proxy**: OPNsense zawiera internetowy serwer proxy do kontrolowania i filtrowania dostępu do Internetu. Może być również używany do filtrowania treści i zarządzania dostępem do sieci.
 
 
 
 
 
-- Zarządzanie przepustowością (QoS)**: OPNsense oferuje funkcje zarządzania jakością usług (QoS) w celu nadawania priorytetów ruchowi sieciowemu i lepszego zarządzania przepustowością sieci.
+- **Zarządzanie przepustowością (QoS)**: OPNsense oferuje funkcje zarządzania jakością usług (QoS) w celu nadawania priorytetów ruchowi sieciowemu i lepszego zarządzania przepustowością sieci.
 
 
 
 
 
-- Captive portal**: ta funkcja umożliwia zarządzanie dostępem użytkowników do sieci za pośrednictwem strony uwierzytelniania (baza lokalna, vouchery itp.). Jest to funkcja powszechnie stosowana w publicznych sieciach Wi-Fi.
+- **Captive portal**: ta funkcja umożliwia zarządzanie dostępem użytkowników do sieci za pośrednictwem strony uwierzytelniania (baza lokalna, vouchery itp.). Jest to funkcja powszechnie stosowana w publicznych sieciach Wi-Fi.
 
 
 
 
 
-- IDS/IPS**: OPNsense integruje Suricata, aby oferować funkcje wykrywania i zapobiegania włamaniom (IDS/IPS) w celu ochrony sieci przed atakami.
+- **IDS/IPS**: OPNsense integruje Suricata, aby oferować funkcje wykrywania i zapobiegania włamaniom (IDS/IPS) w celu ochrony sieci przed atakami.
 
 
 
 
 
-- Wysoka dostępność (CARP)**: OPNsense obsługuje CARP (*Common Address Redundancy Protocol*) w celu zapewnienia wysokiej dostępności między wieloma zaporami OPNsense, zapewniając, że usługa pozostanie aktywna nawet w przypadku awarii sprzętu.
+- **Wysoka dostępność (CARP)**: OPNsense obsługuje CARP (*Common Address Redundancy Protocol*) w celu zapewnienia wysokiej dostępności między wieloma zaporami OPNsense, zapewniając, że usługa pozostanie aktywna nawet w przypadku awarii sprzętu.
 
 
 
 
 
-- Raportowanie i monitorowanie**: OPNsense zapewnia narzędzia do raportowania i monitorowania w czasie rzeczywistym w celu śledzenia wydajności sieci (z NetFlow) i wykrywania potencjalnych problemów, dzięki tworzeniu dzienników. Obejmuje to również grafikę. Narzędzie Monit jest zintegrowane z OPNsense i umożliwia nadzór nad samym firewallem.
+- **Raportowanie i monitorowanie**: OPNsense zapewnia narzędzia do raportowania i monitorowania w czasie rzeczywistym w celu śledzenia wydajności sieci (z NetFlow) i wykrywania potencjalnych problemów, dzięki tworzeniu dzienników. Obejmuje to również grafikę. Narzędzie Monit jest zintegrowane z OPNsense i umożliwia nadzór nad samym firewallem.
 
 
 
@@ -179,11 +179,11 @@ Naszym celem jest
 
 
 
-- Utwórz wewnętrzną sieć wirtualną (192.168.10.0/24 - LAN)**, która może uzyskać dostęp do Internetu za pośrednictwem zapory OPNsense. Do użytku produkcyjnego może to być sieć lokalna, kablowa i/lub Wi-Fi.
-- Aktywuj i skonfiguruj NAT**, aby maszyny wirtualne w wewnętrznej sieci wirtualnej mogły uzyskać dostęp do Internetu
-- Aktywacja i konfiguracja serwera DHCP w OPNsense** w celu dystrybucji konfiguracji IP do przyszłych maszyn podłączonych do wewnętrznej sieci wirtualnej
-- Skonfiguruj zaporę**, aby zezwalała tylko na wychodzące przepływy LAN do WAN w HTTP (80) i HTTPS (443).
-- Skonfiguruj zaporę**, aby zezwolić wirtualnej sieci LAN na używanie OPNsense jako resolvera DNS (53).
+- Utwórz wewnętrzną sieć wirtualną (192.168.10.0/24 - LAN), która może uzyskać dostęp do Internetu za pośrednictwem zapory OPNsense. Do użytku produkcyjnego może to być sieć lokalna, kablowa i/lub Wi-Fi.
+- Aktywuj i skonfiguruj **NAT**, aby maszyny wirtualne w wewnętrznej sieci wirtualnej mogły uzyskać dostęp do Internetu
+- **Aktywacja i konfiguracja serwera DHCP w OPNsense** w celu dystrybucji konfiguracji IP do przyszłych maszyn podłączonych do wewnętrznej sieci wirtualnej
+- Skonfiguruj zaporę, aby zezwalała tylko na wychodzące przepływy LAN do WAN w HTTP (80) i HTTPS (443).
+- Skonfiguruj zaporę, aby zezwolić wirtualnej sieci LAN na używanie OPNsense jako resolvera DNS (53).
 
 
 
@@ -257,7 +257,7 @@ Następnie pojawi się Interface podobny do tego poniżej. Zaloguj się za pomoc
 
 
 
-Na ekranie pojawi się nowy kreator. Pierwszym krokiem jest wybranie układu klawiatury odpowiadającego konfiguracji. W przypadku klawiatury AZERTY wybierz z listy opcję "**French (accent keys)**", a następnie kliknij dwukrotnie przycisk**.
+Na ekranie pojawi się nowy kreator. Pierwszym krokiem jest wybranie układu klawiatury odpowiadającego konfiguracji. W przypadku klawiatury AZERTY wybierz z listy opcję **French (accent keys)**, a następnie kliknij dwukrotnie przycisk.
 
 
 
@@ -382,7 +382,7 @@ pfctl -d
 
 
 
-Dostęp do OPNsense Administration Interface można uzyskać przez HTTPS, używając IP Address sieci LAN** Interface (lub WAN). Przeglądarka wyświetli stronę logowania. Zaloguj się przy użyciu wybranego wcześniej konta "root" i hasła.
+Dostęp do OPNsense Administration Interface można uzyskać przez HTTPS, używając IP Address sieci LAN **Interface** (lub WAN). Przeglądarka wyświetli stronę logowania. Zaloguj się przy użyciu wybranego wcześniej konta "root" i hasła.
 
 
 
@@ -566,7 +566,7 @@ Daje to następujący wynik:
 
 
 
-Pozostaje tylko kliknąć "**Zastosuj zmiany**", aby przełączyć nowe reguły zapory na wersję produkcyjną. **Należy pamiętać, że wszystkie przepływy, które nie są wyraźnie autoryzowane, będą domyślnie blokowane
+Pozostaje tylko kliknąć "**Zastosuj zmiany**", aby przełączyć nowe reguły zapory na wersję produkcyjną. **Należy pamiętać, że wszystkie przepływy, które nie są wyraźnie autoryzowane, będą domyślnie blokowane.**
 
 
 

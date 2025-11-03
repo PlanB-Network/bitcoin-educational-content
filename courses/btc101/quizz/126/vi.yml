@@ -1,10 +1,9 @@
-question: Giao dịch Bitcoin là gì?
-answer: Một sự chuyển giao quyền sở hữu bitcoin, sử dụng mật mã học.
+question: Các thợ đào làm thế nào để xác thực các giao dịch và bao gồm chúng vào một khối?
+answer: Qua quá trình Chứng minh công việc (Proof of work).
 wrong_answers:
-  - Một giao dịch vật lý của bitcoin, sử dụng một công chứng viên.
-  - Một sự chuyển giao quyền sở hữu bitcoin, sử dụng một địa chỉ vật lý.
-  - Một sự chuyển giao quyền sở hữu bitcoin, sử dụng một địa chỉ email.
-explanation: |
-  Một giao dịch Bitcoin là một sự chuyển giao số hóa quyền sở hữu bitcoin, thông qua việc sử dụng một địa chỉ Bitcoin
-  được tạo ra nhờ vào mật mã học Đường cong Elliptic. Địa chỉ này là duy nhất với ví của người nhận bitcoin.
+  - Qua quá trình Chứng minh cổ phần (Proof of stake).
+  - Qua quá trình Chứng minh quyền lực (Proof of authority).
+  - Qua quá trình Chứng minh tiêu hao (Proof of burn).
+explanation: >-
+  Các thợ đào xác thực các giao dịch và bao gồm chúng vào một khối qua một quá trình gọi là chứng minh công việc (proof of work). Điều này bao gồm việc giải một câu đố mật mã.
 reviewed: true

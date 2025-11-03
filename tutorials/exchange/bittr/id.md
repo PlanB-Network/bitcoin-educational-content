@@ -21,23 +21,23 @@ Mari kita bahas betapa mudahnya untuk mulai menumpuk Sats dengan Bittr.
 ## Memulai dengan Bittr
 
 
-1) Di web atau seluler, buka [getbittr.com] (https://getbittr.com/buy-Bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) dan klik "Beli Bitcoin"
+- Di web atau seluler, buka [getbittr.com] (https://getbittr.com/buy-Bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) dan klik "Beli Bitcoin"
 
 
 
-- Tanpa Akun:** Anda tidak perlu membuat akun untuk membeli Bitcoin
-- Tanpa proses KYC:** Anda tidak perlu melalui proses KYC (hingga 999CHF per 30 hari)
-- Mulai langsung:** Anda dapat langsung memulai dan dapat menerima Sats Anda dalam beberapa menit
+- **Tanpa Akun:** Anda tidak perlu membuat akun untuk membeli Bitcoin
+- **Tidak ada proses KYC:** Anda tidak perlu menjalani KYC (hingga 999 CHF per 30 hari)
+- **Mulai langsung:** Anda mulai segera dan dapat menerima sats Anda dalam hitungan menit
 
 
 ![image1](assets/en/01.webp)
 
 
-2) Masukkan IBAN dari mana Anda akan mengirim dari
+- Masukkan IBAN dari mana Anda akan mengirim dari
 
 
 
-- Hanya SEPA:** Bittr hanya berfungsi di Eropa
+- **Hanya SEPA:** Bittr hanya berfungsi di dalam Eropa
 
 
 ![image2](assets/en/02.webp)
@@ -58,37 +58,37 @@ Kita akan mulai dengan BlueWallet untuk pemula, dan nanti dalam tutorial ini kit
 Sebaiknya Anda melakukan penyiapan di tempat yang tenang dan pribadi. Seharusnya Anda tidak memerlukan waktu lebih dari 5 menit.
 
 
-1) Pilih "bluewallet" di situs web
+- Pilih "bluewallet" di situs web
 
 
-2) Unduh Aplikasi BlueWallet di sini: [App Store](https://itunes.apple.com/app/bluewallet-Bitcoin-Wallet/id1376878040), [Google Play](https://play.google.com/store/apps/details?id=io.bluewallet.bluewallet).
+- Unduh Aplikasi BlueWallet di sini: [App Store](https://itunes.apple.com/app/bluewallet-Bitcoin-Wallet/id1376878040), [Google Play](https://play.google.com/store/apps/details?id=io.bluewallet.bluewallet).
 
 
 ![image3](assets/en/03.webp)
 
 
-3) Klik "Tambahkan Wallet" (Jika Anda sudah memiliki Wallet, lanjutkan ke langkah berikutnya).
+- Klik "Tambahkan Wallet" (Jika Anda sudah memiliki Wallet, lanjutkan ke langkah berikutnya).
 
 
 ![image4](assets/en/04.webp)
 
 
-4) Pilih Wallet Anda dan lanjutkan penandatanganan pesan
+- Pilih Wallet Anda dan lanjutkan penandatanganan pesan
 
 
 ![image5](assets/en/05.webp)
 
 
-5) Selesaikan penandatanganan pesan dan tempelkan tanda tangan Anda di situs web
+- Selesaikan penandatanganan pesan dan tempelkan tanda tangan Anda di situs web
 
 
 ![image6](assets/en/06.webp)
 
 
-**Catatan: Anda juga dapat mengklik "Bagikan" di BlueWallet, menyalin seluruh tautan, dan menempelkannya ke dalam kolom di situs web Bittr.**
+**Catatan: Anda juga dapat mengklik "Bagikan" di BlueWallet, menyalin seluruh tautan, dan menempelkannya ke kolom di situs web Bittr.**
 
 
-6) Siapkan transfer bank Anda dengan deskripsi pembayaran pribadi Anda
+- Siapkan transfer bank Anda dengan deskripsi pembayaran pribadi Anda
 
 
 ![image7](assets/en/07.webp)
@@ -97,25 +97,25 @@ Sebaiknya Anda melakukan penyiapan di tempat yang tenang dan pribadi. Seharusnya
 ## Beli Bitcoin langsung ke BitBox
 
 
-1) Pilih "BitBox"
+- Pilih "BitBox"
 
 
 ![image8](assets/en/08.webp)
 
 
-2) Klik untuk membuka Aplikasi BitBox di komputer Anda
+- Klik untuk membuka Aplikasi BitBox di komputer Anda
 
 
 ![image9](assets/en/09.webp)
 
 
-3) Buka kunci BitBox Anda dan ikuti langkah-langkahnya dan selesaikan penandatanganan pesan
+- Buka kunci BitBox Anda dan ikuti langkah-langkahnya dan selesaikan penandatanganan pesan
 
 
 ![image10](assets/en/10.webp)
 
 
-4) Siapkan transfer bank Anda dengan deskripsi pembayaran pribadi Anda
+- Siapkan transfer bank Anda dengan deskripsi pembayaran pribadi Anda
 
 
 ![image11](assets/en/11.webp)

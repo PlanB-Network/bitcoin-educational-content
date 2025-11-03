@@ -1,0 +1,14 @@
+question: Mining pool ikora gute kandi ni kuki ari ngombwa?
+answer: Mining pool ni umugwi w'abacukuzi bafatanya ubuhinga bwabo bwo gukoresha ubuhinga bwa none kugira ngo bongere amahirwe yabo yo kuronka Mining. Ukwo gukorana ni ngombwa kubera ko imashini ntoyi yitandukanije n’izindi yitwa Mining iriko irahiganwa n’ibigo bikomeye vyo mu nganda, ivyo bikaba bigabanya amahirwe yo kuroranirwa gushika ku rugero rutoyi. Mu gukoranya, abacukuzi barashobora gukoranya ububasha bwabo bwo gukoresha ubuhinga bwa none, bagatora amabuye kenshi, hanyuma bagatanga ingororano zijanye n’intererano ya Miner imwe imwe muri iyo nzira.
+wrong_answers:
+  - Mining pool ni umugwi w'abacukuzi basangira imashini imwe ya Mining kugira ngo bongere amahirwe yabo yo kuronka Mining. Ukwo gukorana ni ngombwa kuko imashini imwe gusa ya Mining ishobora gucukura gusa umubare mutoyi wa Bitcoin.
+  - Mining pool ni umugwi w'abacukuzi basangira porogarama imwe ya Mining kugira ngo bongere amahirwe yabo yo kuronka Mining. Ukwo gukorana ni ngombwa kubera ko porogarama zitandukanye za Mining zifise ubushobozi butandukanye.
+  - Mining pool ni umugwi w'abacukuzi basangira ahantu hamwe Mining kugira ngo bongere amahirwe yabo yo kuronka Mining. Uwo mubano ni ngombwa kuko aho igikorwa ca Mining gikorera gishobora kugira ico gikoze ku bushobozi bwa Mining.
+explanation: |
+  Ico kigabane kirasigura yuko Mining pool ari umugwi w’abantu .
+  abacukuzi b’amabuye y’agaciro bafatanya ubuhinga bwabo bwo gukoresha ubuhinga bwa none kugira ngo bongere
+  amahirwe yabo ya Mining. Ubu bufatanye ni ngombwa .
+  kuko imashini ntoyi Mining iri ukwayo iriko irahiganwa .
+  n’ibigo bikomeye vy’inganda, bikagabanya amahirwe yo kuroranirwa gushika ku .
+  urugero rudahambaye.
+reviewed: true

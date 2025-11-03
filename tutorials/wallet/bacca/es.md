@@ -98,11 +98,11 @@ Ahora tiene acceso a la interfaz del software.
 
 Antes de empezar, si su Ledger es nuevo, asegúrese de haber configurado el código PIN y guardado la frase de recuperación. No necesita Ledger Live para estos pasos iniciales. Simplemente conecta tu Ledger a través del cable USB para encenderlo. Si no estás seguro de cómo proceder con estos dos pasos, puedes consultar el principio del tutorial específico para tu modelo:
 
-https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
+https://planb.academy/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
 ## Uso de Bacca
 
@@ -140,5 +140,5 @@ Si este tutorial te ha resultado útil, te agradecería que dejaras un pulgar ve
 
 También te recomiendo que eches un vistazo a este tutorial sobre GnuPG, que explica cómo comprobar la integridad y autenticidad de tu software antes de instalarlo. Se trata de una práctica importante, especialmente cuando se instala software de gestión de carteras como Liana o Sparrow :
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 

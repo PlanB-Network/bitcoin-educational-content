@@ -1,10 +1,12 @@
-question: Lợi ích nào khi chấp nhận Bitcoin như một người bán hàng?
-answer: Khả năng chống kiểm duyệt.
+question: Công cụ nào dùng để chấp nhận Bitcoin cho các tổ chức lớn hoặc những người đam mê Bitcoin?
+answer: BTCpay Server.
 wrong_answers:
-  - Phí giao dịch tăng cao.
-  - Bảo vệ chống lại sự lạm phát.
-  - Hạn chế tài chính.
-explanation: >-
-  Việc chấp nhận Bitcoin như một người bán hàng mang lại nhiều lợi ích, bao gồm khả năng chống kiểm duyệt, giảm phí giao dịch, tăng hiệu quả, bảo vệ chống lại lạm phát,
-  cũng như tự do và chủ quyền tài chính.
+  - Ví Bitcoin.
+  - Sàn giao dịch Bitcoin.
+  - BTCpay Mining.
+explanation: |
+  BTCpay Server là công cụ dùng để chấp nhận Bitcoin cho các
+  cơ cấu lớn hoặc những người đam mê bitcoin. Các giải pháp khác
+  bao gồm OpenNode cho các doanh nghiệp trực tuyến đơn giản và Swiss
+  Bitcoin Pay cho các thương nhân nghiệp dư.
 reviewed: true

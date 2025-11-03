@@ -42,7 +42,7 @@ Si quieres ir más allá, consulta el tutorial sobre Nmap:
 
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 ## II. Primeros pasos con Angry IP Scanner
 
@@ -84,8 +84,8 @@ En el primer inicio, tómate tu tiempo para leer las instrucciones de la ventana
 
 
 
-- Alimentador**: módulo encargado de generar listas de direcciones IP a escanear, a partir de un rango de IP aleatorio o de un fichero con una lista de direcciones IP.
-- Fetcher**: un conjunto de módulos para recuperar información sobre hosts en la red. Existen, por ejemplo, fetchers para detectar direcciones MAC, escanear puertos, detectar nombres de host o enviar peticiones HTTP.
+- **Alimentador**: módulo encargado de generar listas de direcciones IP a escanear, a partir de un rango de IP aleatorio o de un fichero con una lista de direcciones IP.
+- **Fetcher**: un conjunto de módulos para recuperar información sobre hosts en la red. Existen, por ejemplo, fetchers para detectar direcciones MAC, escanear puertos, detectar nombres de host o enviar peticiones HTTP.
 
 
 
@@ -181,4 +181,4 @@ Si quieres usar **Nmap** con un Interface gráfico, puedes usar **la aplicación
 
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d

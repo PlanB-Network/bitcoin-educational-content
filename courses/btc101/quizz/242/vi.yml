@@ -1,9 +1,12 @@
-question: Mạng Lưới Lightning có thể được sử dụng như thế nào cho việc thuê bao hàng hóa?
-answer: Người dùng có thể được tính phí theo phút, hoặc thậm chí theo giây, cho thời gian họ sử dụng hàng hóa.
+question: Một trong những lợi ích tiềm năng khi chấp nhận các công nghệ mới như Bitcoin là gì?
+
+answer: Nó có thể tạo ra quy mô kinh tế lớn trên toàn cầu.
+
 wrong_answers:
-  - Người dùng có thể được tính phí cao cho việc thuê hàng hóa.
-  - Người dùng có thể được tính phí dựa trên giá trị của hàng hóa.
-  - Người dùng có thể được tính phí dựa trên tình trạng của hàng hóa.
-explanation: >-
-  Với Mạng Lưới Lightning, việc sử dụng hệ thống này cho việc thuê bao hàng hóa là điều có thể. Người dùng có thể được tính phí theo phút, hoặc thậm chí theo giây, cho thời gian họ sử dụng hàng hóa.
-reviewed: true
+  - Nó có thể dẫn đến sự sụp đổ kinh tế toàn cầu.
+  - Nó có thể gây ra sự giảm sút về trí tuệ con người.
+  - Nó có thể dẫn đến việc loại bỏ tất cả các công việc.
+
+explanation: Văn bản gợi ý rằng việc chấp nhận những công nghệ mới này có thể tạo ra quy mô kinh tế lớn trên toàn cầu.
+
+reviewed: đúng

@@ -1,9 +1,11 @@
-question: Was ist BTCMap?
-answer: Eine Plattform, die alle Händler auflistet, die Bitcoin akzeptieren.
+question: Welche der folgenden Maßnahmen kann denen helfen, die Bitcoin im Alltag nutzen möchten?
+answer: Eine Liste aller Händler haben, die Bitcoin akzeptieren.
 wrong_answers:
-  - Eine Karte aller Bitcoin-Minen der Welt.
-  - Eine Karte aller Bitcoin-Börsen der Welt.
-  - Eine Karte aller Bitcoin-Nutzer der Welt.
+  - Den Preis von Bitcoin erhöhen.
+  - Die Anzahl der Bitcoins verringern.
+  - Die Nutzung von Bitcoin einschränken.
 explanation: >-
-  BTCMap ist ein Open-Source- und kollaboratives Projekt, das alle Händler auflistet, die Bitcoin akzeptieren, sowie die verschiedenen Bitcoin-Gemeinschaften rund um die Welt.
+  Eine Möglichkeit, die Nutzung von Bitcoin im täglichen Geschäftsverkehr zu erleichtern,
+  besteht darin, alle Händler aufzulisten, die Bitcoin akzeptieren. Dies kann über Plattformen
+  wie BTCMap erfolgen.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Cadangan mana yang diperlukan untuk memulihkan simpul Lightning?
+answer: seed dan SCB
+wrong_answers:
+  - seed dan file txindex
+  - seed dan IP publik Address
+  - seed dan 2FA
+explanation: |
+  Memulihkan simpul Lightning memerlukan seed dan SCB (Cadangan Saluran Statis), yang tanpanya dana saluran tidak dapat dipulihkan.
+reviewed: true

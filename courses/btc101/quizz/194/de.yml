@@ -1,12 +1,12 @@
-question: Was ist ein Werkzeug für große Organisationen oder leidenschaftliche Bitcoin-Enthusiasten, um Bitcoin zu akzeptieren?
-answer: BTCpay Server.
+question: Was ist der Zweck von KYC-Regulierungen?
+answer: Die Bekämpfung der Finanzierung von Terrorismus, Steuerhinterziehung und Geldwäsche.
 wrong_answers:
-  - Bitcoin Wallet.
-  - Bitcoin Exchange.
-  - BTCpay Mining.
+  - Den Preis von Bitcoin zu erhöhen und den Nutzer mehr Steuern zahlen zu lassen.
+  - Die Versorgung von Bitcoin zu kontrollieren.
+  - Zu verhindern, dass Menschen Bitcoin kaufen.
 explanation: |
-  BTCpay Server ist ein Werkzeug, um Bitcoin für große
-  Strukturen oder leidenschaftliche Bitcoiner zu akzeptieren. Andere Lösungen
-  umfassen OpenNode für einfache Online-Geschäfte und Swiss
-  Bitcoin Pay für Amateurhändler.
+  Der Kursinhalt erklärt, dass Know Your Customer (KYC)
+  Regulierungen verlangen, dass Nutzer sich identifizieren, um
+  die Finanzierung von Terrorismus, Steuerhinterziehung und
+  Geldwäsche zu bekämpfen.
 reviewed: true

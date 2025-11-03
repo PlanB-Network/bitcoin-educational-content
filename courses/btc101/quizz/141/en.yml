@@ -1,11 +1,10 @@
-question: What is the cost of running a Bitcoin node on a Raspberry Pi 4 in terms of electricity consumption per year (as of 2023)?
-answer: A little less than 10€ per year.
+question: What was the outcome of the block war in 2017?
+answer: Users and nodes rejected the proposed change to increase the block size, and activated an update called SegWit.
 wrong_answers:
-  - A little more than 50€ per year.
-  - A little less than 100€ per year.
-  - About 200€ per year.
-explanation: |
-  Running a Bitcoin node on a Raspberry Pi 4 costs a little
-  less than 10€ per year in terms of electricity consumption
-  as of 2023.
+  - Users and nodes accepted the proposed change to increase the block size, and activated an update called SegWit.
+  - Users and nodes rejected the proposed change to increase the block size, and did not activate any updates.
+  - Users and nodes accepted the proposed change to increase the block size, and did not activate any updates.
+explanation: >-
+  In the block war in 2017, users and nodes triumphed by rejecting the
+  proposed change to increase the block size, and activated an update called SegWit.
 reviewed: true

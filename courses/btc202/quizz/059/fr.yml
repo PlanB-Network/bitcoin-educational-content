@@ -1,0 +1,9 @@
+question: Quelle est la méthode déconseillée pour accéder à distance à Bitcoin Core ?
+answer: Exposer le port RPC en clair
+wrong_answers:
+  - Utiliser Tor
+  - Passer par un VPN
+  - Exposer un serveur Electrum
+explanation: |
+  L’exposition du port RPC en clair présente un risque majeur de sécurité. Tor ou VPN sont préférables.
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - To divide the funds equally
 explanation: |
   Exchanging secrets for previous transactions allows each participant to punish the other in case of an attempt to cheat by publishing an old transaction.
-reviewed: false
+reviewed: true

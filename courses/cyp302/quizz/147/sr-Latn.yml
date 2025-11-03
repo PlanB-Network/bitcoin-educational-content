@@ -6,4 +6,4 @@ wrong_answers:
   - (p - 1) + (q - 1)
 explanation: |
   Za N jednako proizvodu dva prosta broja p i q, red N se računa kao (p - 1) * (q - 1).
-reviewed: false
+reviewed: true

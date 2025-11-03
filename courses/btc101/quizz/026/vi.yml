@@ -1,13 +1,9 @@
-question: Tại sao vàng không thể phát triển tốt trong một thế giới toàn cầu hóa và số hóa?
-answer: Bởi vì nó cần một thực thể trung tâm để làm cho nó có thể chia nhỏ và dễ dàng trao đổi.
+question: Tại sao Bitcoin được coi là một hình thức tiền tệ mới?
+answer: Bởi vì đó là một loại tiền tệ số không có cơ quan trung ương nào quản lý.
 wrong_answers:
-  - Bởi vì nó không đủ giá trị.
-  - Bởi vì nó không hiếm đủ.
-  - Bởi vì nó bị ăn mòn theo thời gian.
+  - Bởi vì đó là một loại tiền tệ số được bảo chứng bởi vàng.
+  - Bởi vì đó là một loại tiền tệ yêu cầu blockchain của ngân hàng.
+  - Bởi vì Cục Dự trữ Liên bang nói vậy.
 explanation: |
-  Vàng không thể theo kịp trong một thế giới toàn cầu hóa và số hóa
-  bởi vì nó cần một thực thể trung tâm để làm cho nó có thể chia nhỏ và
-  dễ dàng trao đổi. Điều này làm cho nó kém thực tiễn để sử dụng trong
-  một thế giới nơi các giao dịch ngày càng trở nên số hóa và
-  phi tập trung.
+  Bitcoin có thể được xem như một hình thức tiền tệ mới, khi nó xuất phát từ một mạng lưới ngang hàng mà không có cơ quan trung ương nào.
 reviewed: true

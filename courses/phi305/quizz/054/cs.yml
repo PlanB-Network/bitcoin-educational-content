@@ -1,0 +1,9 @@
+question: Který filozof vytvořil koncept nihilismu?
+answer: Nietzsche.
+wrong_answers:
+  - Kant.
+  - Schopenhauer.
+  - Spinoza.
+explanation: |
+  Friedrich Nietzsche (1844-1900) vytvořil a rozvinul koncept nihilismu. Nihilismus pro něj představuje znehodnocení nejvyšších hodnot a ztrátu smyslu západní kultury.
+reviewed: false

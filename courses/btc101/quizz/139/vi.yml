@@ -1,9 +1,11 @@
-question: Số lượng nút được phân bố trên toàn cầu vào tháng 9 năm 2023 là bao nhiêu?
-answer: 45,000 nút.
+question: Tại sao việc một nút Bitcoin cần phải giá cả phải chăng và dễ tiếp cận với tất cả người dùng là quan trọng?
+answer: Bởi vì nó thúc đẩy sự phân quyền của mạng lưới.
 wrong_answers:
-  - 10,000 nút.
-  - 100,000 nút.
-  - 500,000 nút.
-explanation: >-
-  Tính đến tháng 9 năm 2023, có khoảng 45,000 nút được phân bố trên toàn cầu.
+  - Bởi vì nó tăng khả năng xử lý giao dịch của mạng lưới.
+  - Bởi vì nó giảm khả năng xử lý giao dịch của mạng lưới.
+  - Bởi vì nó tăng phần thưởng khối cho các thợ mỏ.
+explanation: |
+  Việc giữ cho chi phí và khả năng tiếp cận của một nút Bitcoin ở mức phải chăng
+  là quan trọng bởi vì nó thúc đẩy sự phân quyền của
+  mạng lưới.
 reviewed: true

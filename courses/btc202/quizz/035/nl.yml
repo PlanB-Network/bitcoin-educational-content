@@ -1,0 +1,9 @@
+question: Welk onderdeel wordt aanbevolen om een knooppunt te beschermen in het geval van een stroomstoring?
+answer: Een omvormer
+wrong_answers:
+  - Een tweede grafische kaart
+  - Een extra router
+  - Een USB-hub
+explanation: |
+  Een omvormer voorkomt plotselinge uitschakelingen bij een stroomstoring en beschermt de stabiliteit van het knooppunt.
+reviewed: true

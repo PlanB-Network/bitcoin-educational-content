@@ -1,5 +1,5 @@
 ---
-name: Ứng dụng Blockstream - Chỉ xem
+name: Blockstream App - Watch-Only
 description: Làm thế nào để cấu hình Watch-only wallet trên ứng dụng Blockstream?
 ---
 
@@ -27,14 +27,14 @@ description: Làm thế nào để cấu hình Watch-only wallet trên ứng d�
 
 
 
-- Người mới bắt đầu**: Người dùng muốn theo dõi danh mục đầu tư Bitcoin (thường liên quan đến Hardware Wallet) thông qua ứng dụng di động trực quan.
-- Người dùng trung cấp**: Những người muốn quản lý danh mục đầu tư chỉ đọc trong khi sử dụng các tùy chọn bảo mật như Tor hoặc SPV.
-- Người dùng Hardware Wallet**: Để kiểm tra số dư và địa chỉ generate mà không cần kết nối thiết bị.
-- Doanh nghiệp và cửa hàng**:
+- **Người mới bắt đầu**: Người dùng muốn theo dõi danh mục đầu tư Bitcoin (thường liên quan đến Hardware Wallet) thông qua ứng dụng di động trực quan.
+- **Người dùng trung cấp**: Những người muốn quản lý danh mục đầu tư chỉ đọc trong khi sử dụng các tùy chọn bảo mật như Tor hoặc SPV.
+- **Người dùng Hardware Wallet**: Để kiểm tra số dư và địa chỉ generate mà không cần kết nối thiết bị.
+- **Doanh nghiệp và cửa hàng**:
  - Theo dõi các giao dịch của bạn cho mục đích kế toán mà không tiết lộ khóa riêng tư.
  - Xác minh các giao dịch đã nhận mà không cần nhập khóa riêng tư vào hệ thống thanh toán trực tuyến.
  - Cho phép nhân viên generate cấp địa chỉ tiếp tân mới mà không cần truy cập vào khóa riêng.
-- Các tổ chức và gây quỹ cộng đồng**: Hiển thị số dư một cách minh bạch cho các nhà tài trợ mà không cho phép tiếp cận nguồn tiền.
+- **Các tổ chức và gây quỹ cộng đồng**: Hiển thị số dư một cách minh bạch cho các nhà tài trợ mà không cho phép tiếp cận nguồn tiền.
 
 
 
@@ -42,7 +42,7 @@ description: Làm thế nào để cấu hình Watch-only wallet trên ứng d�
 
 
 
-Wallet **Watch-Only** cho phép bạn theo dõi các giao dịch và số dư của Bitcoin Wallet mà không cần truy cập vào khóa riêng. Không giống như Wallet thông thường, nó chỉ lưu trữ dữ liệu công khai, chẳng hạn như **khóa công khai **mở rộng** (tạo ra "**xpub**", sau đó là "zpub", "ypub", v.v.), cho phép nó lấy địa chỉ nhận và theo dõi lịch sử giao dịch trên Blockchain Bitcoin. Việc không có khóa riêng tư khiến việc giải ngân tiền từ ứng dụng là không thể, đảm bảo tính bảo mật được tăng cường.
+Wallet **Watch-Only** cho phép bạn theo dõi các giao dịch và số dư của Bitcoin Wallet mà không cần truy cập vào khóa riêng. Không giống như Wallet thông thường, nó chỉ lưu trữ dữ liệu công khai, chẳng hạn như **khóa công khai mở rộng** (tạo ra "**xpub**", sau đó là "zpub", "ypub", v.v.), cho phép nó lấy địa chỉ nhận và theo dõi lịch sử giao dịch trên Blockchain Bitcoin. Việc không có khóa riêng tư khiến việc giải ngân tiền từ ứng dụng là không thể, đảm bảo tính bảo mật được tăng cường.
 
 
 
@@ -50,16 +50,16 @@ Wallet **Watch-Only** cho phép bạn theo dõi các giao dịch và số dư c�
 
 
 
-**Tại sao nên sử dụng Watch-only wallet?
+**Tại sao nên sử dụng Watch-only wallet?**
 
 
 
 
 
-- Bảo mật**: Lý tưởng để theo dõi danh mục đầu tư được bảo mật bằng **Hardware Wallet** mà không tiết lộ khóa riêng trên thiết bị được kết nối.
-- Tiện lợi**: Cho phép bạn kiểm tra số dư và địa chỉ người nhận mới của generate mà không cần kết nối Hardware Wallet.
-- Tính bảo mật**: Tương thích với các tùy chọn như **Tor** hoặc **SPV** để hạn chế sự phụ thuộc vào máy chủ của bên thứ ba.
-- Các trường hợp sử dụng**: Theo dõi tiền khi di chuyển, tạo địa chỉ để nhận thanh toán hoặc xác minh giao dịch mà không sợ lộ khóa riêng tư.
+- **Bảo mật**: Lý tưởng để theo dõi danh mục đầu tư được bảo mật bằng **Hardware Wallet** mà không tiết lộ khóa riêng trên thiết bị được kết nối.
+- **Tiện lợi**: Cho phép bạn kiểm tra số dư và địa chỉ người nhận mới của generate mà không cần kết nối Hardware Wallet.
+- **Tính bảo mật**: Tương thích với các tùy chọn như **Tor** hoặc **SPV** để hạn chế sự phụ thuộc vào máy chủ của bên thứ ba.
+- **Các trường hợp sử dụng**: Theo dõi tiền khi di chuyển, tạo địa chỉ để nhận thanh toán hoặc xác minh giao dịch mà không sợ lộ khóa riêng tư.
 
 
 
@@ -77,7 +77,7 @@ Wallet **Watch-Only** cho phép bạn theo dõi các giao dịch và số dư c�
 
 
 
-- Nguyên lý hoạt động**: Khóa công khai mở rộng được tạo từ cụm từ seed thông qua một quy trình xác định (BIP-32). Nó tạo ra một cây phân cấp các khóa công khai con, mỗi khóa có thể được chuyển đổi thành một Address nhận. Sử dụng cùng một đường dẫn xuất (ví dụ: `m/44'/0'/0'`) như Wallet đang theo dõi, Watch-only wallet tạo ra cùng một địa chỉ, cho phép theo dõi tiền và tạo các địa chỉ nhận mới.
+- **Nguyên lý hoạt động**: Khóa công khai mở rộng được tạo từ cụm từ seed thông qua một quy trình xác định (BIP-32). Nó tạo ra một cây phân cấp các khóa công khai con, mỗi khóa có thể được chuyển đổi thành một Address nhận. Sử dụng cùng một đường dẫn xuất (ví dụ: `m/44'/0'/0'`) như Wallet đang theo dõi, Watch-only wallet tạo ra cùng một địa chỉ, cho phép theo dõi tiền và tạo các địa chỉ nhận mới.
 
 
 
@@ -88,22 +88,22 @@ Wallet **Watch-Only** cho phép bạn theo dõi các giao dịch và số dư c�
 
 
 - Các loại khóa công khai mở rộng
- - xpub**: Được sử dụng cho danh mục đầu tư Legacy (địa chỉ bắt đầu bằng "1", BIP-44) và danh mục đầu tư Taproot (địa chỉ bắt đầu bằng "bc1p", BIP-86).
- - ypub**: Được thiết kế cho ví SegWit tương thích (địa chỉ bắt đầu bằng "3", BIP-49).
- - zpub**: Liên kết với danh mục đầu tư SegWit gốc (địa chỉ bắt đầu bằng "bc1q", BIP-84).
- - Khác (tpub, upub, vpub, v.v.)**: Được sử dụng cho các mạng thay thế (như Testnet) hoặc các tiêu chuẩn cụ thể. Ví dụ: tpub dành cho mạng Testnet.
+- **xpub**: Được sử dụng cho danh mục đầu tư Legacy (địa chỉ bắt đầu bằng "1", BIP-44) và danh mục đầu tư Taproot (địa chỉ bắt đầu bằng "bc1p", BIP-86).
+- **ypub**: Được thiết kế cho ví SegWit tương thích (địa chỉ bắt đầu bằng "3", BIP-49).
+- **zpub**: Liên kết với danh mục đầu tư SegWit gốc (địa chỉ bắt đầu bằng "bc1q", BIP-84).
+- **Khác (tpub, upub, vpub, v.v.)**: Được sử dụng cho các mạng thay thế (như Testnet) hoặc các tiêu chuẩn cụ thể. Ví dụ: tpub dành cho mạng Testnet.
 
 
 
 
 
-- Phân biệt**: Việc lựa chọn giữa xpub, ypub hoặc zpub phụ thuộc vào loại Address (cũ, SegWit, Taproot hoặc SegWit lồng nhau) và chuẩn BIP được Wallet sử dụng. Hãy kiểm tra định dạng mà danh mục nguồn của bạn yêu cầu để đảm bảo khả năng tương thích với Ứng dụng Blockstream.
+- **Phân biệt**: Việc lựa chọn giữa xpub, ypub hoặc zpub phụ thuộc vào loại Address (cũ, SegWit, Taproot hoặc SegWit lồng nhau) và chuẩn BIP được Wallet sử dụng. Hãy kiểm tra định dạng mà danh mục nguồn của bạn yêu cầu để đảm bảo khả năng tương thích với Ứng dụng Blockstream.
 
 
 
 
 
-- Bảo mật và bí mật**: Khóa công khai mở rộng không nhạy cảm về mặt bảo mật, vì nó không cho phép chi tiêu tiền (không cho phép truy cập vào khóa riêng). Tuy nhiên, nó nhạy cảm về mặt bảo mật, vì nó tiết lộ tất cả các địa chỉ công khai và lịch sử giao dịch liên quan.
+- **Bảo mật và bí mật**: Khóa công khai mở rộng không nhạy cảm về mặt bảo mật, vì nó không cho phép chi tiêu tiền (không cho phép truy cập vào khóa riêng). Tuy nhiên, nó nhạy cảm về mặt bảo mật, vì nó tiết lộ tất cả các địa chỉ công khai và lịch sử giao dịch liên quan.
 
 
 
@@ -111,7 +111,7 @@ Wallet **Watch-Only** cho phép bạn theo dõi các giao dịch và số dư c�
 
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### 1.5. Nhắc nhở Hot Wallet
 
@@ -119,14 +119,14 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Hot Wallet**, **Software Wallet**, **Wallet di động**, **Software Wallet**: tất cả tên gọi của một ứng dụng được cài đặt trên điện thoại thông minh, máy tính hoặc bất kỳ thiết bị nào được kết nối với Internet, cho phép quản lý và bảo mật khóa riêng từ Bitcoin Wallet.
+- **Hot Wallet**, **Software Wallet**, **Wallet di động**, **Software Wallet**: tất cả tên gọi của một ứng dụng được cài đặt trên điện thoại thông minh, máy tính hoặc bất kỳ thiết bị nào được kết nối với Internet, cho phép quản lý và bảo mật khóa riêng từ Bitcoin Wallet.
 - Không giống như **ví phần cứng**, còn được gọi là **ví Cold**, nơi cô lập khóa ngoại tuyến, ví phần mềm hoạt động trong môi trường được kết nối, khiến chúng dễ bị tấn công mạng hơn.
 
 
 
 
 
-- Sử dụng được khuyến nghị**:
+- Sử dụng được khuyến nghị:
     - Thích hợp để quản lý lượng Bitcoin vừa phải, đặc biệt là cho các giao dịch hàng ngày.
     - Phù hợp cho người mới bắt đầu hoặc người dùng có tài sản hạn chế, đối với họ, Hardware Wallet có vẻ không cần thiết.
 
@@ -134,7 +134,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Hạn chế**: Ít an toàn hơn khi lưu trữ số tiền lớn hoặc tiết kiệm dài hạn. Trong trường hợp này, hãy chọn Hardware Wallet.
+- **Hạn chế**: Ít an toàn hơn khi lưu trữ số tiền lớn hoặc tiết kiệm dài hạn. Trong trường hợp này, hãy chọn Hardware Wallet.
 
 
 
@@ -145,16 +145,16 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Ứng dụng Blockstream** là ứng dụng di động (iOS, Android) và máy tính để bàn dùng để quản lý danh mục đầu tư và tài sản Bitcoin trên Liquid Network. Được [Blockstream](https://blockstream.com/) mua lại vào năm 2016, trước đây ứng dụng này có tên là *Green Address* và sau đó là *Blockstream Green*.
-- Các tính năng chính**:
-    - Giao dịch Onchain** trên Blockchain Bitcoin.
+- Ứng dụng **Blockstream** là ứng dụng di động (iOS, Android) và máy tính để bàn dùng để quản lý danh mục đầu tư và tài sản Bitcoin trên Liquid Network. Được [Blockstream](https://blockstream.com/) mua lại vào năm 2016, trước đây ứng dụng này có tên là *Green Address* và sau đó là *Blockstream Green*.
+- **Các tính năng chính**:
+- Giao dịch **Onchain** trên Blockchain Bitcoin.
     - Giao dịch trên mạng **Liquid** (Sidechain dành cho giao dịch nhanh chóng, bảo mật).
-    - Danh mục đầu tư chỉ theo dõi** để theo dõi các quỹ mà không cần truy cập vào khóa.
+- Danh mục đầu tư chỉ theo dõi để theo dõi các quỹ mà không cần truy cập vào khóa.
     - Tùy chọn riêng tư: kết nối qua **Tor**, kết nối với **nút cá nhân** qua Electrum hoặc xác minh **SPV** để giảm sự phụ thuộc vào các nút của bên thứ ba.
     - Chức năng **Replace-by-fee (RBF)** giúp tăng tốc các giao dịch chưa được xác nhận.
-- Khả năng tương thích**: Tích hợp ví phần cứng như **Blockstream Jade**.
-- Interface**: Trực quan dành cho người mới bắt đầu, với các tùy chọn nâng cao dành cho chuyên gia.
-- Lưu ý**: Hướng dẫn này tập trung vào việc sử dụng Onchain. Các hướng dẫn khác trong Phụ lục bao gồm Onchain, Watch-Only và phiên bản máy tính để bàn.
+- **Khả năng tương thích**: Tích hợp ví phần cứng như **Blockstream Jade**.
+- **Interface**: Trực quan dành cho người mới bắt đầu, với các tùy chọn nâng cao dành cho chuyên gia.
+- **Lưu ý**: Hướng dẫn này tập trung vào việc sử dụng Onchain. Các hướng dẫn khác trong Phụ lục bao gồm Onchain, Watch-Only và phiên bản máy tính để bàn.
 
 
 
@@ -169,12 +169,12 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Đối với Android**:
+- Đối với **Android**:
     - Tải xuống [Ứng dụng Blockstream](https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet) từ Cửa hàng Google Play.
     - Cách khác: Cài đặt thông qua tệp APK có sẵn trên [GitHub chính thức của Blockstream](https://github.com/Blockstream/green_android).
-- Đối với iOS**:
+- Đối với **iOS**:
     - Tải xuống [Ứng dụng Blockstream](https://apps.apple.com/us/app/Green-Bitcoin-Wallet/id1402243590) từ App Store.
-- Lưu ý**: Hãy tải xuống từ nguồn chính thức để tránh các ứng dụng lừa đảo.
+- **Lưu ý**: Hãy tải xuống từ nguồn chính thức để tránh các ứng dụng lừa đảo.
 
 
 
@@ -184,7 +184,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Màn hình chính**: Khi mở lần đầu, ứng dụng sẽ hiển thị màn hình chưa có Wallet được cấu hình. Các danh mục đầu tư đã tạo hoặc nhập sẽ xuất hiện ở đây sau.
+- **Màn hình chính**: Khi mở lần đầu, ứng dụng sẽ hiển thị màn hình chưa có Wallet được cấu hình. Các danh mục đầu tư đã tạo hoặc nhập sẽ xuất hiện ở đây sau.
 
 
 
@@ -194,7 +194,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Tùy chỉnh cài đặt**: Nhấp vào "Cài đặt ứng dụng", điều chỉnh các tùy chọn bên dưới, nhấp vào "Lưu", khởi động lại ứng dụng và tạo danh mục đầu tư của bạn.
+- **Tùy chỉnh cài đặt**: Nhấp vào "Cài đặt ứng dụng", điều chỉnh các tùy chọn bên dưới, nhấp vào "Lưu", khởi động lại ứng dụng và tạo danh mục đầu tư của bạn.
 
 
 
@@ -208,8 +208,8 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Chức năng**: Vô hiệu hóa ảnh chụp màn hình, ẩn bản xem trước ứng dụng trong trình quản lý tác vụ và khóa quyền truy cập khi điện thoại bị khóa.
-- Tại sao?**: Bảo vệ dữ liệu của bạn khỏi sự truy cập vật lý trái phép hoặc phần mềm độc hại chụp màn hình.
+- **Chức năng**: Vô hiệu hóa ảnh chụp màn hình, ẩn bản xem trước ứng dụng trong trình quản lý tác vụ và khóa quyền truy cập khi điện thoại bị khóa.
+- **Tại sao?**: Bảo vệ dữ liệu của bạn khỏi sự truy cập vật lý trái phép hoặc phần mềm độc hại chụp màn hình.
 
 
 
@@ -219,10 +219,10 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Chức năng**: Định tuyến lưu lượng mạng qua **Tor**, một mạng ẩn danh mã hóa các kết nối của bạn.
-- Tại sao?**: Ẩn IP Address của bạn và bảo vệ quyền riêng tư của bạn, lý tưởng nếu bạn không tin tưởng vào mạng của mình (ví dụ: Wi-Fi công cộng).
-- Nhược điểm**: Có thể làm chậm ứng dụng do mã hóa.
-- Khuyến nghị**: Kích hoạt Tor nếu tính bảo mật là ưu tiên hàng đầu, nhưng hãy kiểm tra tốc độ kết nối.
+- **Chức năng**: Định tuyến lưu lượng mạng qua **Tor**, một mạng ẩn danh mã hóa các kết nối của bạn.
+- **Tại sao?**: Ẩn IP Address của bạn và bảo vệ quyền riêng tư của bạn, lý tưởng nếu bạn không tin tưởng vào mạng của mình (ví dụ: Wi-Fi công cộng).
+- **Nhược điểm**: Có thể làm chậm ứng dụng do mã hóa.
+- **Khuyến nghị**: Kích hoạt Tor nếu tính bảo mật là ưu tiên hàng đầu, nhưng hãy kiểm tra tốc độ kết nối.
 
 
 
@@ -232,10 +232,10 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Chức năng**: Kết nối ứng dụng với **nút Bitcoin hoàn chỉnh** của bạn thông qua **máy chủ Electrum**.
-- Tại sao?**: Cung cấp khả năng kiểm soát hoàn toàn dữ liệu Blockchain, loại bỏ sự phụ thuộc vào máy chủ Blockstream.
-- Điều kiện tiên quyết**: Một nút Bitcoin đã được cấu hình.
-- Khuyến nghị**: Người dùng nâng cao muốn có quyền tối đa.
+- **Chức năng**: Kết nối ứng dụng với **nút Bitcoin hoàn chỉnh** của bạn thông qua **máy chủ Electrum**.
+- **Tại sao?**: Cung cấp khả năng kiểm soát hoàn toàn dữ liệu Blockchain, loại bỏ sự phụ thuộc vào máy chủ Blockstream.
+- **Điều kiện tiên quyết**: Một nút Bitcoin đã được cấu hình.
+- **Khuyến nghị**: Người dùng nâng cao muốn có quyền tối đa.
 
 
 
@@ -245,10 +245,10 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Chức năng**: Sử dụng **Xác minh thanh toán đơn giản (SPV)** để xác minh trực tiếp một số dữ liệu Blockchain mà không cần tải xuống toàn bộ chuỗi.
-- Tại sao?**: Giảm sự phụ thuộc vào nút mặc định của Blockstream, đồng thời vẫn nhẹ cho thiết bị di động.
-- Nhược điểm**: Ít an toàn hơn Full node vì nó phụ thuộc vào các nút của bên thứ ba để lấy một số thông tin.
-- Khuyến nghị**: Kích hoạt SPV nếu bạn không thể sử dụng nút cá nhân nhưng muốn sử dụng Full node để có bảo mật tối ưu.
+- **Chức năng**: Sử dụng **Xác minh thanh toán đơn giản (SPV)** để xác minh trực tiếp một số dữ liệu Blockchain mà không cần tải xuống toàn bộ chuỗi.
+- **Tại sao?**: Giảm sự phụ thuộc vào nút mặc định của Blockstream, đồng thời vẫn nhẹ cho thiết bị di động.
+- **Nhược điểm**: Ít an toàn hơn Full node vì nó phụ thuộc vào các nút của bên thứ ba để lấy một số thông tin.
+- **Khuyến nghị**: Kích hoạt SPV nếu bạn không thể sử dụng nút cá nhân nhưng muốn sử dụng Full node để có bảo mật tối ưu.
 
 
 
@@ -289,7 +289,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Thận trọng**: Thiết lập danh mục đầu tư của bạn ở môi trường riêng tư, không có máy quay hoặc người quan sát.
+- **Thận trọng**: Thiết lập danh mục đầu tư của bạn ở môi trường riêng tư, không có máy quay hoặc người quan sát.
 - Từ màn hình chính, nhấp vào "Thiết lập danh mục đầu tư mới" rồi nhấp vào "Bắt đầu":
 
 
@@ -348,7 +348,7 @@ Sau khi được nhập, Watch-only wallet sẽ hiển thị tổng số dư và
 
 
 
-- Xem số dư và lịch sử**: từ màn hình chính, xem tổng số dư và lịch sử giao dịch trên chuỗi:
+- **Xem số dư và lịch sử**: từ màn hình chính, xem tổng số dư và lịch sử giao dịch trên chuỗi:
 
 
 
@@ -358,7 +358,7 @@ Sau khi được nhập, Watch-only wallet sẽ hiển thị tổng số dư và
 
 
 
-- generate nhận Address**: Nhấp vào "Giao dịch", sau đó "Nhận" để tạo Address trên chuỗi mới. Chia sẻ qua mã QR hoặc sao chép để nhận tiền:
+- generate nhận **Address**: Nhấp vào "Giao dịch", sau đó "Nhận" để tạo Address trên chuỗi mới. Chia sẻ qua mã QR hoặc sao chép để nhận tiền:
 
 
 
@@ -368,7 +368,7 @@ Sau khi được nhập, Watch-only wallet sẽ hiển thị tổng số dư và
 
 
 
-- Gửi tiền**: Nhấp vào **"Giao dịch"**, sau đó **"Gửi"**. Bạn có thể nhập:
+- **Gửi tiền**: Nhấp vào **"Giao dịch"**, sau đó **"Gửi"**. Bạn có thể nhập:
  - Address của người nhận.
  - Số tiền giao dịch.
  - Phí giao dịch.
@@ -385,7 +385,7 @@ Tuy nhiên, vì Watch-only wallet không giữ khóa riêng tư nên bạn khôn
 
 
 
-- Lưu ý**: Luôn kiểm tra mã Address nhận và thông tin giao dịch để tránh sai sót. Tiền đã gửi nhầm mã Address sẽ không thể được hoàn lại.
+- **Lưu ý**: Luôn kiểm tra mã Address nhận và thông tin giao dịch để tránh sai sót. Tiền đã gửi nhầm mã Address sẽ không thể được hoàn lại.
 
 
 
@@ -404,7 +404,7 @@ Tuy nhiên, vì Watch-only wallet không giữ khóa riêng tư nên bạn khôn
 
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
 
 
@@ -412,7 +412,7 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-f
 
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 
 
@@ -420,7 +420,7 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-90
 
 
 
-https://planb.network/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
+https://planb.academy/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 
 
 ### A2. Khóa công khai mở rộng
@@ -430,12 +430,12 @@ https://planb.network/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-
 
 
 - Thuật ngữ:
- - [Khóa công khai mở rộng](https://planb.network/fr/resources/glossary/extended-key)
- - [xpub](https://planb.network/fr/resources/glossary/xpub)
- - [ypub](https://planb.network/fr/resources/glossary/ypub)
- - [zpub](https://planb.network/fr/resources/glossary/zpub)
+ - [Khóa công khai mở rộng](https://planb.academy/fr/resources/glossary/extended-key)
+ - [xpub](https://planb.academy/fr/resources/glossary/xpub)
+ - [ypub](https://planb.academy/fr/resources/glossary/ypub)
+ - [zpub](https://planb.academy/fr/resources/glossary/zpub)
 - Khóa học :
- - [Les clés publiques étendues](https://planb.network/fr/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/les-cles-etendues-8dcffce1-31bd-5e0b-965b-735f5f9e4602)
+ - [Les clés publiques étendues](https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f)
 
 
 
@@ -450,19 +450,19 @@ https://planb.network/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-
 
 
 
-- Bảo mật cụm từ khôi phục của bạn**:
+- **Bảo mật cụm từ khôi phục của bạn**:
  - Hướng dẫn: Lưu cụm từ Mnemonic của bạn
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
-
-
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
-- Sử dụng xác thực an toàn**:
+
+
+- **Sử dụng xác thực an toàn**:
  - Kích hoạt **mã PIN mạnh** hoặc **xác thực sinh trắc học** (nhận dạng dấu vân tay hoặc khuôn mặt) để bảo vệ quyền truy cập vào ứng dụng.
  - Không bao giờ chia sẻ mã PIN hoặc dữ liệu sinh trắc học của bạn.
 
@@ -470,7 +470,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Bảo vệ quyền riêng tư của bạn** :
+- **Bảo vệ quyền riêng tư của bạn**:
  - generate là Address mới cho mỗi lần tiếp nhận trên chuỗi hoặc Liquid để hạn chế theo dõi trên Blockchain.
  - Kích hoạt các chức năng "Bảo mật nâng cao", "Tor" và "SPV".
  - Để có tính bảo mật tối đa, hãy kết nối Wallet của bạn với nút Bitcoin của riêng bạn thông qua máy chủ Electrum thay vì sử dụng nút công khai
@@ -479,23 +479,23 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Chọn mạng phù hợp nhất với nhu cầu của bạn**:
- - Onchain**: Được ưu tiên cho việc lưu ký dài hạn hoặc giao dịch có giá trị lớn (phí không đáng kể so với số tiền).
- - Liquid**: Sử dụng để chuyển tiền nhanh chóng, chi phí thấp với tính bảo mật cao.
- - Lightning**: Chọn dịch vụ chuyển tiền tức thời, chi phí thấp cho số tiền nhỏ.
+- **Chọn mạng phù hợp nhất với nhu cầu của bạn**:
+- **Onchain**: Được ưu tiên cho việc lưu ký dài hạn hoặc giao dịch có giá trị lớn (phí không đáng kể so với số tiền).
+- **Liquid**: Sử dụng để chuyển tiền nhanh chóng, chi phí thấp với tính bảo mật cao.
+- **Lightning**: Chọn dịch vụ chuyển tiền tức thời, chi phí thấp cho số tiền nhỏ.
 
 
 
 
 
-- Luôn kiểm tra địa chỉ giao hàng**:
+- **Luôn kiểm tra địa chỉ giao hàng**:
  - Trước khi gửi tiền, vui lòng kiểm tra kỹ Address. Tiền gửi nhầm đến Address sẽ bị mất vĩnh viễn. Vui lòng sử dụng chức năng sao chép/dán hoặc quét mã QR, tuyệt đối không sao chép/sửa đổi Address bằng tay.
 
 
 
 
 
-- Tối ưu hóa chi phí**:
+- **Tối ưu hóa chi phí**:
  - Đối với các giao dịch trên chuỗi, hãy chọn mức phí phù hợp (chậm, trung bình, nhanh) tùy theo mức độ khẩn cấp và tắc nghẽn mạng.
  - Sử dụng Liquid hoặc Lightning cho số lượng nhỏ.
 
@@ -514,16 +514,16 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Liên kết chính thức của Blockstream:**
- - [Trang web chính thức](https://blockstream.com/)**
- - [Hỗ trợ cho ứng dụng di động](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/)** : tài liệu và trò chuyện
- - [GitHub](https://github.com/Blockstream/green_android)**
+- Liên kết chính thức của **Blockstream**:
+- [Trang web chính thức](https://blockstream.com/)
+- [Hỗ trợ cho ứng dụng di động](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/) : tài liệu và trò chuyện
+- [GitHub](https://github.com/Blockstream/green_android)
 
 
 
 
 
-- Trình khám phá khối :**
+- Trình khám phá khối:
  - Trên chuỗi: **[Mempool.space](https://Mempool.space/)**
  - Liquid : **[Thông tin về dòng khối](https://blockstream.info/Liquid)**
  - Sét: **[1ML (Lightning Network)](https://1ml.com/)**
@@ -532,32 +532,32 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
- - Học tập và hướng dẫn:** **[Plan ₿ Network](https://planb.network/)** :
+- Học tập và hướng dẫn: **[Plan ₿ Academy](https://planb.academy/)**
   - Bảo mật cụm từ khôi phục của bạn
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
-
-
-
-
-- Liquid Network** :
- - [Thuật ngữ](https://planb.network/fr/resources/glossary/Liquid-network)**
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
 
-https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
+- **Liquid Network** :
+- [Thuật ngữ](https://planb.academy/fr/resources/glossary/liquid-network)
 
 
 
 
-- Lightning Network** :
- - [Thuật ngữ](https://planb.network/fr/resources/glossary/lightning-network)**
+https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
+- **Lightning Network**:
+- [Thuật ngữ](https://planb.academy/fr/resources/glossary/lightning-network)
+
+
+
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

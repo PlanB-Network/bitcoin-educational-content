@@ -1,10 +1,9 @@
-question: Apa peran kunci publik dalam dompet Bitcoin?
-answer: Digunakan untuk menghasilkan alamat Bitcoin dan dengan demikian menerima uang
+question: Apa analogi yang digunakan untuk menjelaskan bagaimana Anda bisa menerima Bitcoin tanpa membiarkan pengirim mencuri dana Anda?
+answer: Kotak surat
 wrong_answers:
-  - Digunakan untuk mengenkripsi transaksi Bitcoin
-  - Digunakan untuk mengakses dompet Bitcoin
-  - Digunakan untuk membackup dompet Bitcoin
+  - Rekening bank
+  - Brankas
+  - Rumah
 explanation: |
-  Kunci publik diturunkan dari kunci pribadi dan digunakan untuk menghasilkan alamat Bitcoin
-  agar dapat menerima uang.
+  Analogi yang digunakan untuk menjelaskan bagaimana Anda bisa menerima Bitcoin tanpa membiarkan pengirim mencuri dana Anda adalah kotak surat. Orang-orang menyetor uang di dalamnya, tetapi Anda lah satu-satunya yang bisa membukanya.
 reviewed: true

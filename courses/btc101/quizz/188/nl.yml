@@ -1,8 +1,8 @@
-question: Wat is BTCMap?
-answer: Een platform dat een overzicht biedt van alle winkeliers die Bitcoin accepteren.
+question: Welke van de volgende acties kunnen mensen helpen die Bitcoin in het dagelijks leven willen gebruiken?
+answer: Zorg voor een lijst van alle winkeliers die Bitcoin accepteren.
 wrong_answers:
-  - Een kaart van alle Bitcoin mijnen ter wereld.
-  - Een kaart van alle Bitcoin centrales ter wereld.
-  - Een kaart van alle Bitcoin gebruikers ter wereld.
+  - Verhoog de prijs van Bitcoin.
+  - Verlaag het aantal Bitcoins.
+  - Beperk het gebruik van Bitcoin.
 explanation: >-
 reviewed: true

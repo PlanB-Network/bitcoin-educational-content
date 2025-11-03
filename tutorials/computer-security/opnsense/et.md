@@ -56,55 +56,55 @@ Siin on mõned OPNsense'i peamised funktsioonid:
 
 
 
-- Tulemüür ja NAT**: OPNsense pakub täiustatud tulemüürifunktsioone koos staatilise filtreerimisega, samuti võrgu Address-tõlkimise (NAT) võimalusi.
+- **Tulemüür ja NAT**: OPNsense pakub täiustatud tulemüürifunktsioone koos staatilise filtreerimisega, samuti võrgu Address-tõlkimise (NAT) võimalusi.
 
 
 
 
 
-- DNS/DHCP**: OPNsense saab seadistada DNS- ja DHCP-teenuste haldamiseks võrgus. See võib toimida DHCP-serverina, kuid seda saab kasutada ka DNS-resolverina kohaliku võrgu masinate jaoks. Dnsmasq on samuti vaikimisi integreeritud.
+- **DNS/DHCP**: OPNsense saab seadistada DNS- ja DHCP-teenuste haldamiseks võrgus. See võib toimida DHCP-serverina, kuid seda saab kasutada ka DNS-resolverina kohaliku võrgu masinate jaoks. Dnsmasq on samuti vaikimisi integreeritud.
 
 
 
 
 
-- VPN**: OPNsense toetab mitmeid VPN-protokolle, sealhulgas IPsec, OpenVPN ja WireGuard, võimaldades turvalisi ühendusi mobiilse tööjaama kaugjuurdepääsuks või saitidevaheliseks ühendamiseks.
+- **VPN**: OPNsense toetab mitmeid VPN-protokolle, sealhulgas IPsec, OpenVPN ja WireGuard, võimaldades turvalisi ühendusi mobiilse tööjaama kaugjuurdepääsuks või saitidevaheliseks ühendamiseks.
 
 
 
 
 
-- Veebivahendaja**: OPNsense sisaldab veebivahendajat, et kontrollida ja filtreerida juurdepääsu Internetile. Seda saab kasutada ka sisu filtreerimiseks ja võrgule juurdepääsu haldamiseks.
+- **Veebivahendaja**: OPNsense sisaldab veebivahendajat, et kontrollida ja filtreerida juurdepääsu Internetile. Seda saab kasutada ka sisu filtreerimiseks ja võrgule juurdepääsu haldamiseks.
 
 
 
 
 
-- Ribalaiuse haldamine (QoS)**: OPNsense pakub teenusekvaliteedi (QoS) juhtimise funktsioone, et seada võrguliikluse prioriteedid ja hallata paremini võrgu ribalaiust.
+- **Ribalaiuse haldamine (QoS)**: OPNsense pakub teenusekvaliteedi (QoS) juhtimise funktsioone, et seada võrguliikluse prioriteedid ja hallata paremini võrgu ribalaiust.
 
 
 
 
 
-- Kinnipeetav portaal**: see funktsioon võimaldab teil hallata kasutajate juurdepääsu võrku autentimislehe kaudu (kohalik baas, vautšerid jne). See on funktsioon, mida tavaliselt kasutatakse avalike Wi-Fi-võrkude puhul.
+- **Kinnipeetav portaal**: see funktsioon võimaldab teil hallata kasutajate juurdepääsu võrku autentimislehe kaudu (kohalik baas, vautšerid jne). See on funktsioon, mida tavaliselt kasutatakse avalike Wi-Fi-võrkude puhul.
 
 
 
 
 
-- IDS/IPS**: OPNsense integreerib Suricata, et pakkuda sissetungide tuvastamise ja ennetamise (IDS/IPS) funktsioone, et kaitsta võrku rünnakute eest.
+- **IDS/IPS**: OPNsense integreerib Suricata, et pakkuda sissetungide tuvastamise ja ennetamise (IDS/IPS) funktsioone, et kaitsta võrku rünnakute eest.
 
 
 
 
 
-- Kõrge kättesaadavus (CARP)**: OPNsense toetab CARP-i (*Common Address Redundancy Protocol*) mitme OPNsense'i tulemüüri vahelise kõrge kättesaadavuse tagamiseks, tagades, et teenus jääb aktiivseks ka riistvararikke korral.
+- **Kõrge kättesaadavus (CARP)**: OPNsense toetab CARP-i (*Common Address Redundancy Protocol*) mitme OPNsense'i tulemüüri vahelise kõrge kättesaadavuse tagamiseks, tagades, et teenus jääb aktiivseks ka riistvararikke korral.
 
 
 
 
 
-- Aruandlus ja järelevalve**: OPNsense pakub reaalajas aruandlus- ja seirevahendeid võrgu jõudluse jälgimiseks (NetFlow abil) ja võimalike probleemide avastamiseks tänu logide loomisele. See hõlmab ka graafikat. Monit tööriist on integreeritud OPNsense'ile ja võimaldab järelevalvet tulemüüri enda üle.
+- **Aruandlus ja järelevalve**: OPNsense pakub reaalajas aruandlus- ja seirevahendeid võrgu jõudluse jälgimiseks (NetFlow abil) ja võimalike probleemide avastamiseks tänu logide loomisele. See hõlmab ka graafikat. Monit tööriist on integreeritud OPNsense'ile ja võimaldab järelevalvet tulemüüri enda üle.
 
 
 
@@ -179,11 +179,11 @@ Meie eesmärk on
 
 
 
-- Looge sisemine virtuaalne võrk (192.168.10.0/24 - LAN)**, mis pääseb OPNsense'i tulemüüri kaudu Internetti. Tootmiskasutuses võib see olla teie kohalik võrk, kaabel ja/või Wi-Fi.
-- Aktiveerige ja konfigureerige NAT**, et virtuaalsed virtuaalsed virtuaalvõrgud pääseksid internetti
-- Aktiveerige ja konfigureerige OPNsense** DHCP-server, et jagada IP-konfiguratsiooni tulevastele masinatele, mis on ühendatud sisemise virtuaalvõrguga
-- Konfigureerige tulemüür** nii, et see lubab ainult väljaminevaid LANi ja WANi vahelisi voogusid HTTP (80) ja HTTPS (443).
-- Konfigureerige tulemüür**, et lubada virtuaalsel lähivõrgul kasutada OPNsense'i DNS-resolverina (53).
+- Looge sisemine virtuaalne võrk (192.168.10.0/24 - LAN), mis pääseb OPNsense'i tulemüüri kaudu Internetti. Tootmiskasutuses võib see olla teie kohalik võrk, kaabel ja/või Wi-Fi.
+- Aktiveerige ja konfigureerige **NAT**, et virtuaalsed virtuaalvõrgud pääseksid internetti
+- Aktiveerige ja konfigureerige **OPNsense** DHCP-server, et jagada IP-konfiguratsiooni tulevastele masinatele, mis on ühendatud sisemise virtuaalvõrguga
+- Konfigureerige **tulemüür** nii, et see lubab ainult väljaminevaid LANi ja WANi vahelisi voogusid HTTP (80) ja HTTPS (443).
+- Konfigureerige tulemüür, et lubada virtuaalsel lähivõrgul kasutada OPNsense'i DNS-resolverina (53).
 
 
 
@@ -257,7 +257,7 @@ Siis jõuate Interface-ni, mis on sarnane alljärgnevale. Logige sisse kasutajan
 
 
 
-Ekraanile ilmub uus nõustaja. Esimene samm on valida teie konfiguratsioonile vastav klaviatuuri paigutus. AZERTY-klaviatuuri puhul valige nimekirjast valik "**French (accent keys)**", seejärel tehke topeltklõps**.
+Ekraanile ilmub uus nõustaja. Esimene samm on valida teie konfiguratsioonile vastav klaviatuuri paigutus. AZERTY-klaviatuuri puhul valige nimekirjast valik **French (accent keys)**, seejärel tehke topeltklõps.
 
 
 
@@ -382,7 +382,7 @@ pfctl -d
 
 
 
-OPNsense Administration Interface-le saab juurdepääsu HTTPS-i kaudu, kasutades LAN** Interface (või WAN) IP Address. Brauser viib teid sisselogimislehele. Logige sisse varem valitud "root" konto ja parooliga.
+OPNsense Administration Interface-le saab juurdepääsu HTTPS-i kaudu, kasutades **LAN Interface** (või WAN) IP Address. Brauser viib teid sisselogimislehele. Logige sisse varem valitud "root" konto ja parooliga.
 
 
 
@@ -566,7 +566,7 @@ See annab järgmise tulemuse:
 
 
 
-Kõik, mis jääb, on klõpsata "**Muudatuste rakendamine**", et uued tulemüürireeglid tootmisesse üle viia. **Pöörake tähelepanu sellele, et vaikimisi blokeeritakse kõik voolud, mis ei ole selgesõnaliselt lubatud
+Kõik, mis jääb, on klõpsata "**Muudatuste rakendamine**", et uued tulemüürireeglid tootmisesse üle viia. **Pöörake tähelepanu sellele, et vaikimisi blokeeritakse kõik voolud, mis ei ole selgesõnaliselt lubatud.**
 
 
 

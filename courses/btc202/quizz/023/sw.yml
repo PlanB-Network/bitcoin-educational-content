@@ -1,0 +1,9 @@
+question: Kuna tofauti gani kati ya sheria za makubaliano na sheria za relay?
+answer: Makubaliano yanafafanua uhalali, hupeleka usambaaji wa shughuli
+wrong_answers:
+  - Makubaliano yanafafanua ada, relay inafafanua anwani
+  - Makubaliano yanasimamia Blockchain, relay inasimamia funguo za kibinafsi
+  - Makubaliano huchagua wachimbaji, relay huchagua wafanyabiashara
+explanation: |
+  Sheria za maelewano huamua ni nini halali katika Bitcoin, huku sheria za upeanaji data zinasimamia shughuli kati ya nodi.
+reviewed: true

@@ -1,10 +1,8 @@
-question: När validerades och implementerades Lightning Network för första gången?
-answer: 2017
+question: Hur stor är blockstorleken i Bitcoin-protokollet?
+answer: 4 MB.
 wrong_answers:
-  - 2015
-  - 2016
-  - 2018
-explanation: |
-  Lightning Network validerades och implementerades för första gången
-  under 2017.
+  - 1MB.
+  - 2MB.
+  - 3MB.
+explanation: >-
 reviewed: true

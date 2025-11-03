@@ -423,7 +423,7 @@ Quando as tuas Satoshis fizerem CoinJoins, passarão de mixdepth para mixdepth a
 
 
 
-Aqui estamos finalmente na parte mais sumarenta do JoinMarket, o tumblr! Se ouviram o podcast, já sabem do que se trata. Uma recomendação antes de começarmos: **Lembre-se de definir os limites no ficheiro joinmarket.cfg (como explicado no início) e considere executar o programa apenas quando as taxas onchain são relativamente baixas (menos de 10 Sats/vB).
+Aqui estamos finalmente na parte mais sumarenta do JoinMarket, o tumblr! Se ouviram o podcast, já sabem do que se trata. Uma recomendação antes de começarmos: **Lembre-se de definir os limites no ficheiro joinmarket.cfg (como explicado no início) e considere executar o programa apenas quando as taxas onchain são relativamente baixas (menos de 10 Sats/vB).**
 
 
 

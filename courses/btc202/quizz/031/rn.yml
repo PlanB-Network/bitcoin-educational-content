@@ -1,0 +1,9 @@
+question: Ni uwuhe mugabane ubereye cane Raspberry Pi, kuko ari yo iremereye cane?
+answer: RaspiBlitz
+wrong_answers:
+  - Umutaka
+  - Urudodo rwanje
+  - Gutangura9.
+explanation: |
+  RaspiBlitz ni nziza cane ku Raspberry Pi kandi iguma ari yoroshe, itandukanye na Umbrel, yacitse iremereye cane kuri izo mashini.
+reviewed: true

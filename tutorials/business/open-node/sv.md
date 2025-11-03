@@ -1,5 +1,5 @@
 ---
-name: Öppen nod
+name: Open Node
 
 description: Konfigurera Open Node för din online-verksamhet
 

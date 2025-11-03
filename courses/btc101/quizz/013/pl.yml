@@ -1,10 +1,12 @@
-question: Czym jest Manifest Cypherpunk?
-answer: Tekst napisany przez Erica Hughesa zapewniający, że prywatność jest prawem podstawowym.
+question: Jakie są główne cechy skutecznej waluty?
+answer: Fungible, Divisible, Liquid.
 wrong_answers:
-  - Książka napisana przez Juliana Assange'a o przyszłości technologii.
-  - Dokument przedstawiający zasady Bitcoin.
-  - Manifest napisany przez Davida Chauma na temat znaczenia cyfrowej waluty.
+  - Wymienialne, podzielne, nietrwałe.
+  - Fungible, Indivisible, Liquid.
+  - Niegrywalny, Podzielny, Liquid.
 explanation: |
-  Manifest Cypherpunk został napisany przez Erica Hughesa w 1993 roku
-  i stwierdza, że prywatność jest prawem podstawowym.
+  Skuteczna waluta musi być zamienna (wymienialna
+  bez utraty wartości), podzielna (podzielna na małe
+  części, aby ułatwić transakcje o różnych wolumenach) oraz
+  Liquid (łatwo wymienialna na towary lub usługi).
 reviewed: true

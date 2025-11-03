@@ -1,5 +1,5 @@
 ---
-name: कॉइनकार्ड
+name: Coincards
 description: मैं कॉइनकार्ड्स के साथ बीटीसी में सामान और सेवाएं कैसे खरीद सकता हूं?
 ---
 ![cover](assets/cover.webp)
@@ -42,7 +42,7 @@ Bitcoin का मतलब यही है, बिना किसी की �
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 कॉइनकार्ड्स खुदरा से लेकर फास्ट फूड, स्ट्रीमिंग प्लेटफॉर्म, ऑनलाइन गेम, ई-कॉमर्स साइटों और अधिक तक विकल्पों की एक विस्तृत श्रृंखला प्रदान करता है...
 
@@ -67,7 +67,7 @@ https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465
 
 
 
-मुख्य लाइटनिंग पोर्टफोलियो (फीनिक्स, ब्रीज़, बिटकिट, ज़ीउस...) पर ट्यूटोरियल का चयन यहां पाया जा सकता है: [Plan ₿ Network - Wallet](https://planb.network/tutorials/wallet)
+मुख्य लाइटनिंग पोर्टफोलियो (फीनिक्स, ब्रीज़, बिटकिट, ज़ीउस...) पर ट्यूटोरियल का चयन यहां पाया जा सकता है: [Plan ₿ Academy - Wallet](https://planb.academy/tutorials/wallet)
 
 
 
@@ -75,7 +75,7 @@ https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ## मैं कॉइनकार्ड्स पर बीटीसी उपहार कार्ड कैसे खरीदूं?
 
@@ -244,4 +244,4 @@ Invoice के लिए भुगतान करने के बाद, आ�
 
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

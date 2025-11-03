@@ -1,0 +1,9 @@
+question: 자동 결제에서 독점적으로 사용하는 스크립트 유형은 무엇인가요?
+answer: P2TR
+wrong_answers:
+  - P2WPKH
+  - P2SP
+  - P2WSH
+explanation: |
+  이 프로토콜의 구현을 용이하게 하고 사용자의 익명성을 향상시키기 위해, 사일런트 결제는 P2TR(Pay to Taproot) 스크립트에만 의존합니다.
+reviewed: true

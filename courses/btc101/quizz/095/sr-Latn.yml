@@ -1,9 +1,12 @@
-question: Šta znači izraz HODL?
-answer: HODL je sleng izraz u kripto zajednici koji znači zadržati svoje investicije umesto da ih prodate, posebno tokom tržišne nestabilnosti.
+question: Koji je jedan metod za dugoročno osiguranje vaših bitkoina?
+answer: Ugravirajte vašu Mnemonic frazu na otporan materijal poput čelika.
 wrong_answers:
-  - HODL se odnosi na vrstu kriptovalute koja se koristi isključivo za trgovanje.
-  - HODL je termin koji znači prodati svu svoju kriptovalutu po visokoj ceni.
-  - HODL je strategija za dnevno trgovanje koja uključuje često kupovanje i prodavanje.
+  - Skladištenje u Hot novčaniku.
+  - Čuvajući ih na menjačnici.
+  - Deljenje vaše Mnemonic fraze sa kolegom.
 explanation: |
-  Termin HODL potiče iz pogrešno napisanog online posta iz 2013. godine na forumu Bitcoin. Vremenom, HODL se razvio u širu investicionu strategiju. Ona podstiče investitore da zadrže svoje kriptovalute na duži rok, bez obzira na fluktuacije tržišta.
+  Urezivanje vaše Mnemonic fraze na otporan materijal kao što je
+  čelik stvara fizičku rezervnu kopiju vaših ključeva koja je
+  otporna na oštećenja od vode i vatru, čime dugoročno
+  osiguravate vaše bitkoine.
 reviewed: true

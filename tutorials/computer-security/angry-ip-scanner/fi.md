@@ -1,5 +1,5 @@
 ---
-name: Vihainen IP-skanneri
+name: Angry IP Scanner
 description: Yksinkertainen tapa skannata verkko
 ---
 ![cover](assets/cover.webp)
@@ -42,7 +42,7 @@ Jos haluat mennä pidemmälle, katso Nmapin opetusohjelma:
 
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 ## II. Angry IP Scannerin käytön aloittaminen
 
@@ -84,8 +84,8 @@ Kun käynnistät työkalun ensimmäistä kertaa, lue ohjeet "**Aloittaminen**"-i
 
 
 
-- Feeder**: moduuli, joka vastaa skannattavien IP-osoitteiden luetteloiden luomisesta satunnaisesta IP-alueesta tai IP-osoitteiden luettelon sisältävästä tiedostosta.
-- Fetcher**: joukko moduuleja, joilla haetaan tietoa verkossa olevista isännistä. On esimerkiksi noutajia MAC-osoitteiden havaitsemiseen, porttien skannaamiseen, isännän nimien havaitsemiseen tai HTTP-pyyntöjen lähettämiseen.
+- **Feeder**: moduuli, joka vastaa skannattavien IP-osoitteiden luetteloiden luomisesta satunnaisesta IP-alueesta tai IP-osoitteiden luettelon sisältävästä tiedostosta.
+- **Fetcher**: joukko moduuleja, joilla haetaan tietoa verkossa olevista isännistä. On esimerkiksi noutajia MAC-osoitteiden havaitsemiseen, porttien skannaamiseen, isännän nimien havaitsemiseen tai HTTP-pyyntöjen lähettämiseen.
 
 
 
@@ -181,4 +181,4 @@ Jos haluat käyttää **Nmapia** graafisella Interface:lla, voit käyttää **Ze
 
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d

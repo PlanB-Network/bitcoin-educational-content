@@ -160,9 +160,9 @@ Ovde vidim 3 interfejsa:
 
 
 
-- Lo**: ovo je loopback Interface; to je virtuelni Interface koji "loopuje" preko opreme. U suštini, ovaj Interface, čiji je Address 127.0.0.1 (iako će bilo koji Address u 127.0.0.0/8 poslužiti, jer je ovaj opseg rezervisan za ovu svrhu) se koristi za kontaktiranje same opreme. Ako ste instalirali web sajt na svojoj radnoj stanici (koristeći WAMPP, na primer), verovatno ste koristili "*localhost*" Address u nekom trenutku da prikažete sajt hostovan na vašoj sopstvenoj mašini. Ovo ime hosta je povezano sa Address 127.0.0.1 i stoga sa Interface loopback.
-- ens33**: ovo je moj prvi Interface, koji je ovde dobio Address od mog DHCP-a
-- ens36**: moj drugi Interface
+- **Lo**: ovo je loopback Interface; to je virtuelni Interface koji "loopuje" preko opreme. U suštini, ovaj Interface, čiji je Address 127.0.0.1 (iako će bilo koji Address u 127.0.0.0/8 poslužiti, jer je ovaj opseg rezervisan za ovu svrhu) se koristi za kontaktiranje same opreme. Ako ste instalirali web sajt na svojoj radnoj stanici (koristeći WAMPP, na primer), verovatno ste koristili "*localhost*" Address u nekom trenutku da prikažete sajt hostovan na vašoj sopstvenoj mašini. Ovo ime hosta je povezano sa Address 127.0.0.1 i stoga sa Interface loopback.
+- **ens33**: ovo je moj prvi Interface, koji je ovde dobio Address od mog DHCP-a
+- **ens36**: moj drugi Interface
 
 
 
@@ -211,8 +211,8 @@ Evo nekoliko objašnjenja ovih prvih promena:
 
 
 
-- auto *Interface***: će automatski "pokrenuti" Interface pri pokretanju sistema
-- iface *Interface* inet manual**: da koristite Interface bez bilo koje IP Address. Kao ključna reč "static" za definisanje statičke IP Address ili "dhcp" za korišćenje dinamičkog adresiranja
+- auto **Interface**: će automatski "pokrenuti" Interface pri pokretanju sistema
+- iface *Interface* inet **manual**: da koristite Interface bez bilo koje IP Address. Kao ključna reč "static" za definisanje statičke IP Address ili "dhcp" za korišćenje dinamičkog adresiranja
 
 
 
@@ -239,10 +239,10 @@ Evo ponovo nekoliko objašnjenja:
 
 
 
-- iface br0 inet static**: here I've defined my Interface bridge (*br0*) with a static Address.
-- Address, netmask, gateway**: informacije o adresiranju ploče
-- bridge_ports**: interfejsi koji će biti uključeni u bridge
-- bridge_stp**: protokol Spanning Tree se koristi prilikom međusobnog povezivanja svičeva kako bi se detektovale redundantne veze i izbegle petlje. Pošto most može biti umetnut između dve mrežne putanje, može biti izvor petlje, stoga postoji mogućnost omogućavanja ovog protokola. Ne treba mi ovde, pa ga onemogućavam.
+- **iface br0 inet static**: here I've defined my Interface bridge (*br0*) with a static Address.
+- **Address, netmask, gateway**: informacije o adresiranju ploče
+- **bridge_ports**: interfejsi koji će biti uključeni u bridge
+- **bridge_stp**: protokol Spanning Tree se koristi prilikom međusobnog povezivanja svičeva kako bi se detektovale redundantne veze i izbegle petlje. Pošto most može biti umetnut između dve mrežne putanje, može biti izvor petlje, stoga postoji mogućnost omogućavanja ovog protokola. Ne treba mi ovde, pa ga onemogućavam.
 
 
 
@@ -281,8 +281,8 @@ Podrazumevano, izvori paketa sadrže samo pakete usklađene sa DFSG (*Debian Fre
 
 
 
-- contrib**: paketi koji sadrže softver usklađen sa DFSG, ali koriste zavisnosti koje nisu deo **main** grane
-- non-free**: sadrži pakete koji nisu u skladu sa DFSG-om
+- **contrib**: paketi koji sadrže softver usklađen sa DFSG, ali koriste zavisnosti koje nisu deo **main** grane
+- **non-free**: sadrži pakete koji nisu u skladu sa DFSG-om
 
 
 
@@ -442,7 +442,7 @@ Da demonstriram, pokrećem YouTube video na svom hostu:
 
 
 
-**Saobraćaj je odmah prepoznat i kategorizovan!
+**Saobraćaj je odmah prepoznat i kategorizovan!**
 
 
 

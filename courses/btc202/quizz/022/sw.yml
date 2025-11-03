@@ -1,0 +1,9 @@
+question: Kulingana na nadharia ya upotoshaji, kuzidi kizingiti muhimu kunahakikisha nini?
+answer: Uenezi wa shughuli katika mtandao wote
+wrong_answers:
+  - Uundaji wa block mpya mara moja
+  - Ukandamizaji wa gharama otomatiki kwa nodi
+  - Kuzuia shughuli na mtandao
+explanation: |
+  Mara tu kiwango cha utoboaji kinapopitwa, muamala huenea karibu mara moja katika mtandao wa Bitcoin.
+reviewed: true

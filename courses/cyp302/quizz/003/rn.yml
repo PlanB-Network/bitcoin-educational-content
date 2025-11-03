@@ -1,0 +1,9 @@
+question: Ni igiki ubutumwa bwa kabiri bwa Beale buhishura iyo bumaze gufungurwa?
+answer: Urutonde rw’ubutunzi bwahambwe (inzahabu, ifeza, n’amabuye y’agaciro)
+wrong_answers:
+  - Aho nyabuna ubwo butunzi buhambwe .
+  - Itariki Beale yagarukiyeko
+  - Umukono wa Beale n’uw’abo bari kumwe .
+explanation: |
+  Ubutumwa bwa kabiri bumaze gufungurwa, buradondora ibiri muri ubwo butunzi, bukaba bugizwe n’inzahabu, ifeza n’amabuye y’agaciro.
+reviewed: false

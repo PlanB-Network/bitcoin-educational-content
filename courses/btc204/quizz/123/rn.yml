@@ -1,0 +1,10 @@
+question: Ni ikihe kibazo nyamukuru co gukoresha Tor ku nzira ya Bitcoin?
+answer: Kugabanya umuvuduko wo guhanahana amakuru
+wrong_answers:
+  - Ukwongerekana kw'amafaranga y'ugucuruza
+  - Ivyago vyo gucengera ubucuruzi
+  - Ivyago vy'igitero c'Ukwiragira ku nzira
+explanation: |
+  Ivy’uguhanahana amakuru kuri Tor biragenda buhoro. Ivyo bitera ingorane cane cane mu gihe c’ugutangura kw’urudodo, kuko IBD (Initial Block Download) isaba guhanahana amakuru menshi.
+  
+reviewed: false

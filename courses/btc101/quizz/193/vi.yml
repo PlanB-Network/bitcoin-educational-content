@@ -1,9 +1,12 @@
-question: Một trong những sáng kiến góp phần làm cho nền kinh tế Bitcoin trở nên dễ tiếp cận và thuận tiện hơn cho mọi người là gì?
-answer: BTCMap.
+question: Mua hàng tự phát là gì?
+answer: Mua Bitcoin ngay lập tức để tăng cường tiếp xúc.
 wrong_answers:
-  - Sàn Giao Dịch Bitcoin.
-  - Đào Bitcoin.
-  - Xổ Số Bitcoin.
-explanation: >-
-  BTCMap là một trong những sáng kiến góp phần làm cho nền kinh tế Bitcoin trở nên dễ tiếp cận và thuận tiện hơn cho mọi người. Đây là một dự án mã nguồn mở và cộng tác, liệt kê tất cả các nhà bán lẻ chấp nhận Bitcoin cũng như các cộng đồng Bitcoin khác nhau trên thế giới.
+  - Mua Bitcoin theo các khoảng thời gian đều đặn.
+  - Chỉ mua Bitcoin khi giá giảm.
+  - Chỉ mua Bitcoin khi giá tăng.
+explanation: |
+  Văn bản khóa học giải thích rằng mua hàng tự phát được
+  sử dụng để ngay lập tức tăng cường tiếp xúc với Bitcoin. Ví dụ,
+  nó có thể có nghĩa là mua trong một đợt sụt giảm hoặc tận dụng
+  một ưu đãi.
 reviewed: true

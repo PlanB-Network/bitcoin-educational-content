@@ -1,5 +1,5 @@
 ---
-name: بیت‌کیت Wallet
+name: Bitkit Wallet
 
 description: راه‌اندازی On-Chain خود-حضانتی و Lightning Wallet خود را انجام دهید
 ---

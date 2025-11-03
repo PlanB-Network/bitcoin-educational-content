@@ -1,9 +1,10 @@
-question: Qu'est-ce qu'un nœud élagué dans le contexte du Bitcoin ?
-answer: Un nœud qui ne conserve que les derniers N blocs en mémoire.
+question: Qu'est-ce que le Lightning Network ?
+answer: Un réseau de paiement Bitcoin instantané basé sur la blockchain Bitcoin.
 wrong_answers:
-  - Un nœud qui valide uniquement les transactions.
-  - Un nœud qui transmet uniquement des informations aux autres nœuds.
-  - Un nœud qui applique uniquement les règles du protocole Bitcoin.
-explanation: >-
-  Un nœud élagué dans le contexte du Bitcoin est un nœud qui ne conserve que les derniers N blocs en mémoire.
+  - Un réseau blockchain séparé de la blockchain Bitcoin.
+  - Un réseau de mineurs Bitcoin.
+  - Un réseau d'échanges Bitcoin.
+explanation: |
+  Le Lightning Network est un réseau de paiement Bitcoin instantané
+  qui est basé sur la blockchain Bitcoin.
 reviewed: true

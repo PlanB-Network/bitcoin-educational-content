@@ -1,8 +1,13 @@
-question: Je! curve ya kupitishwa kwa Bitcoin inafanana na nini?
-answer: S-curve.
+question: Je, hali ya Bitcoin huko El Salvador ikoje?
+answer: Zabuni halali.
 wrong_answers:
-  - U-curve.
-  - Mviringo wa V.
-  - Mzunguko wa W.
-explanation: >-
+  - Imehalalishwa.
+  - Haijulikani.
+  - Isiyodhibitiwa.
+explanation: |
+  Maandishi ya kozi yanataja kuwa baadhi ya nchi zimepiga marufuku
+  na kuharamisha matumizi ya Bitcoin, na kuongeza
+  utata wa kupitishwa kwa Bitcoin kulingana na tamaduni, enzi, na
+  mataifa. Hata hivyo, El Salvador ilikuwa jasiri vya kutosha kuikubali
+  kama zabuni halali.
 reviewed: true

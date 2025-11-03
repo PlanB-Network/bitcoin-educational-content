@@ -1,0 +1,9 @@
+question: گره Bitcoin از چه پایگاه داده‌ای به صورت محلی برای پیگیری خروجی‌های خرج‌نشده استفاده می‌کند؟
+answer: مجموعه UTXO
+wrong_answers:
+  - Mempool
+  - Blockchain
+  - تاریخچه Wallet
+explanation: |
+  گره مجموعه UTXO را نگه می‌دارد، که مجموعه‌ای از خروجی‌های خرج‌نشده موجود برای تراکنش‌های آینده است.
+reviewed: true

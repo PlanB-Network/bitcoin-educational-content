@@ -1,0 +1,9 @@
+question: Welke beveiligingsmaatregelen worden sterk aanbevolen om de toegang tot uw Umbrel te beschermen?
+answer: Lang wachtwoord en 2FA activering
+wrong_answers:
+  - Dubbele SSD-opslag
+  - Open RPC poort in platte tekst
+  - Lang wachtwoord en SSH-activering
+explanation: |
+  De combinatie van een sterk wachtwoord en twee-factor authenticatie (2FA) beschermt de toegang tot de Interface Umbrel effectief.
+reviewed: true

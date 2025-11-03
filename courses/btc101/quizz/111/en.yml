@@ -1,13 +1,12 @@
-question: What does KYC stand for?
-answer: Know Your Customer.
+question: What is the message contained in the first block of the Bitcoin blockchain?
+answer: 03/jan/2009 Chancellor on brink of second bailout for banks.
 wrong_answers:
-  - Keep Your Cash.
-  - Key Your Codes.
-  - Kindly Yield Compliance.
+  - We can win a major battle in the arms race and gain a new territory of freedom for several years.
+  - Governments are good at cutting off the heads of a centrally controlled networks like Napster, but pure P2P networks like Gnutella and Tor seem to be holding their own.
+  - None of the above.
 explanation: |
-  KYC or Know Your Customer refers to the procedure that
-  businesses adopt to verify the identity of their clients.
-  This is typically done to ensure compliance with
-  regulations and to prevent illegal activities such as money
-  laundering or fraud.
+  The first block of the Bitcoin blockchain, also known as
+  the genesis block, contains the message 03/jan/2009
+  Chancellor on brink of second bailout for banks, which is
+  title of the Time that day to timestamp the genesis block.
 reviewed: true

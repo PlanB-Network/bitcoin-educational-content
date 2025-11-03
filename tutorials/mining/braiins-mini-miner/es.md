@@ -1,12 +1,12 @@
 ---
-name: Mini Miner Braiins
+name: Braiins Mini Miner
 description: Hacer Mining fácilmente desde casa.
 ---
 ![cover](assets/cover.webp)
 
 
 
-### Introducción
+## Introducción
 
 
 
@@ -18,7 +18,7 @@ También puede encontrar mucha más información importante consultando la guía
 
 
 
-### Visión general de BMM 100
+## Visión general de BMM 100
 
 
 
@@ -46,7 +46,7 @@ mientras que en la parte trasera tenemos: el agujero para la alimentación, espa
 
 
 
-### Conexión del Mini Miner
+## Conexión del Mini Miner
 
 
 
@@ -54,7 +54,7 @@ Será necesario conectar el dispositivo a internet vía ethernet, tenga en cuent
 
 
 
-### Configuración
+## Configuración
 
 
 
@@ -74,7 +74,7 @@ Para iniciar sesión tendrás que introducir `root` como nombre de usuario, mien
 
 
 
-### Configuración general
+## Configuración general
 
 
 
@@ -110,7 +110,7 @@ Una vez realizados los cambios, haz clic en `Guardar cambios` y verás los cambi
 
 
 
-### Conexión con Mining pool
+## Conexión con Mining pool
 
 
 
@@ -134,15 +134,15 @@ Aquí tendremos que decidir qué piscina utilizar. En este tutorial os mostraré
 
 
 
-https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
+https://planb.academy/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
 
 La segunda opción es conectarnos a un Mining pool que mina en solitario, como Public Pool, sigue esta guía para hacerlo:
 
 
 
-https://planb.network/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-#### Piscina Braiins
+### Piscina Braiins
 
 
 
@@ -150,7 +150,7 @@ Para conectarnos a este pool necesitamos crear una cuenta. Este pool también re
 
 
 
-https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
+https://planb.academy/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
 
 Una vez hecho esto nos encontramos en el dashboard del pool de Braiins. Lo que tenemos que hacer es decirle al pool que queremos conectarnos con uno de nuestros Mineros, para ello en la parte izquierda de la pantalla encontraremos una serie de entradas. Tenemos que ir a "trabajadores"
 
@@ -168,7 +168,7 @@ y tenemos que hacer clic en el botón morado de la derecha que dice "Conectar tr
 
 
 
-Aquí viene la ventana con la información que necesitamos para conectar nuestro mini Miner al pool. Aquí el único cambio que podemos hacer es elegir Stratum V2. Para saber qué es Stratum v2 consulta esta entrada en el [glosario](https://planb.network/en/resources/glossary/stratum-v2).
+Aquí viene la ventana con la información que necesitamos para conectar nuestro mini Miner al pool. Aquí el único cambio que podemos hacer es elegir Stratum V2. Para saber qué es Stratum v2 consulta esta entrada en el [glosario](https://planb.academy/en/resources/glossary/stratum-v2).
 
 
 
@@ -236,7 +236,7 @@ si volvemos al dashboard deberíamos empezar a ver movimiento en el gráfico y v
 
 
 
-#### Piscina pública
+### Piscina pública
 
 
 

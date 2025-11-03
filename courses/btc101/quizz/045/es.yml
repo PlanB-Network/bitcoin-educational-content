@@ -1,13 +1,10 @@
-question: ¿Cuál es una característica clave de Bitcoin que lo diferencia de las monedas fiduciarias?
-answer: Su política monetaria es impuesta por un consenso general.
+question: ¿Cuál es el impacto de una inflación del 20% en el poder adquisitivo a lo largo de 3 años?
+answer: Pierdes el 50% de tu poder adquisitivo.
 wrong_answers:
-  - Puede ser impreso en cantidades ilimitadas por los bancos centrales.
-  - Está respaldado por una mercancía física como el oro o la plata.
-  - Está regulado por un banco central.
+  - Pierdes el 100% de tu poder adquisitivo.
+  - Pierdes el 60% de tu poder adquisitivo.
+  - Pierdes el 30% de tu poder adquisitivo.
 explanation: |
-  Debido a su naturaleza descentralizada y criptográfica,
-  Bitcoin no puede ser falsificado y está limitado a 21 millones
-  de unidades. Esta es una característica clave que lo diferencia de
-  las monedas fiduciarias, las cuales siguen una política monetaria que puede ser
-  modificada por los bancos centrales.
+  Con una inflación del 20%, pierdes casi la mitad de tu poder
+  adquisitivo en 3 años.
 reviewed: true

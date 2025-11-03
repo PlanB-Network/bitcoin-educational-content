@@ -1,13 +1,12 @@
-question: Những hình thức tiền tệ đầu tiên là gì?
-answer: Hàng hóa như ngũ cốc và gia súc.
+question: Lợi thế chính của Bitcoin so với các hình thức tiền tệ khác là gì?
+answer: Nó cung cấp một khoản lưu trữ giá trị xuất sắc do nguồn cung cấp hạn chế nghiêm ngặt và tính trung lập.
 wrong_answers:
-  - Vàng và bạc.
-  - Tiền giấy.
-  - Tài sản số.
+  - Nó không thể chia nhỏ và không thể vận chuyển.
+  - Nó là một ví dụ điển hình của loại tiền tệ chịu ảnh hưởng bởi lạm phát tiền tệ.
+  - Nó được chấp nhận rộng rãi trong thương mại bởi tất cả các nhà buôn trên thế giới.
 explanation: |
-  Những hình thức tiền tệ đầu tiên thường liên quan đến các
-  hàng hóa thiết yếu như ngũ cốc, gia súc và các mặt hàng
-  tiêu dùng khác. Tuy nhiên, những hàng hóa này có nhược điểm
-  lớn như dễ hỏng, làm cho việc sử dụng chúng như một phương
-  tiện tiết kiệm lâu dài trở nên khó khăn.
+  Lợi thế chính của Bitcoin so với các hình thức tiền tệ khác
+  là nó cung cấp một khoản lưu trữ giá trị xuất sắc do
+  nguồn cung cấp hạn chế nghiêm ngặt và không phụ thuộc vào bên thứ ba đáng tin cậy. Điều này
+  làm cho nó trở thành một lựa chọn tốt cho việc tiết kiệm lâu dài.
 reviewed: true

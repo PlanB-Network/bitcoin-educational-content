@@ -1,5 +1,5 @@
 ---
-name: Criptominero
+name: Cryptomator
 description: Cifra tus archivos en la nube
 ---
 ![cover](assets/cover.webp)
@@ -42,7 +42,7 @@ Cryptomator es una alternativa a otras aplicaciones, notablemente Picocrypt pres
 
 
 
-https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+https://planb.academy/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
 
 La aplicación Cryptomator está disponible en **Windows** (exe / msi), **Linux**, **macOS,** pero también **Android** e **iOS**. Por cierto, todas las aplicaciones son gratuitas, excepto la de Android, por la que hay que pagar (14,99 euros).
 
@@ -170,7 +170,7 @@ Debe introducir su contraseña para desbloquear la caja fuerte. A continuación,
 
 
 
-En el lado de OneDrive, no podemos navegar por la bóveda de Cryptomator directamente. No podemos ver los datos (ni los nombres de los archivos ni su contenido). Esto significa que no necesitas añadir datos a tu bóveda Cryptomator a través del acceso directo habitual de OneDrive. **Debes añadir tus datos utilizando la unidad virtual de Cryptomator
+En el lado de OneDrive, no podemos navegar por la bóveda de Cryptomator directamente. No podemos ver los datos (ni los nombres de los archivos ni su contenido). Esto significa que no necesitas añadir datos a tu bóveda Cryptomator a través del acceso directo habitual de OneDrive. **Debes añadir tus datos utilizando la unidad virtual de Cryptomator.**
 
 
 

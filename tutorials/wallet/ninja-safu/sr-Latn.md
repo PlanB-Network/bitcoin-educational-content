@@ -24,19 +24,19 @@ Ninja SAFU pristup nudi nekoliko prednosti:
 
 
 
-- Poverljivost**: Ne kupujete proizvod koji je označen kao namenjen za bekap kriptovaluta. Komponente su standardne (podloške, vijci, metalna kutija), dostupne u prodavnicama hardvera, što smanjuje rizik od ciljanog napada u slučaju curenja podataka od specijalizovanog dobavljača.
+- **Poverljivost**: Ne kupujete proizvod koji je označen kao namenjen za bekap kriptovaluta. Komponente su standardne (podloške, vijci, metalna kutija), dostupne u prodavnicama hardvera, što smanjuje rizik od ciljanog napada u slučaju curenja podataka od specijalizovanog dobavljača.
 
 
 
 
 
-- Povoljnost** : Ovo rešenje košta između **15 i 140 EUR**, u zavisnosti od alata koje već imate.
+- **Povoljnost**: Ovo rešenje košta između **15 i 140 EUR**, u zavisnosti od alata koje već imate.
 
 
 
 
 
-- Pouzdanost**: Testirana od 2020. godine, metodu su isprobali i testirali stručnjaci za bezbednost kao što je [Jameson Lopp](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/), koji su je podvrgli rigoroznim stres testovima (ekstremna toplota, korozija, mehanički pritisak).
+- **Pouzdanost**: Testirana od 2020. godine, metodu su isprobali i testirali stručnjaci za bezbednost kao što je [Jameson Lopp](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/), koji su je podvrgli rigoroznim stres testovima (ekstremna toplota, korozija, mehanički pritisak).
 
 
 
@@ -59,17 +59,17 @@ Da biste kreirali Ninja SAFU rezervnu kopiju, biće vam potrebne sledeće kompon
 
 
 
-- Podloške od nerđajućeg čelika (preporučuje se M8)** :
- - Materijal**: Nerđajući čelik (npr. 304 ili V4A za poboljšanu otpornost na koroziju)
-    - Veličina**: M8 (unutrašnji prečnik 8 mm, spoljašnji prečnik ~24 mm). M6 podloške su premale i teško ih je gravirati.
-    - Količina**: 12 ili 24 podloške za standardnu seed rečenicu, plus opcione podloške (pogledajte odeljak 3.4) i desetak za testove ili greške.
+- **Podloške od nerđajućeg čelika (preporučuje se M8)**:
+- **Materijal**: Nerđajući čelik (npr. 304 ili V4A za poboljšanu otpornost na koroziju)
+- **Veličina**: M8 (unutrašnji prečnik 8 mm, spoljašnji prečnik ~24 mm). M6 podloške su premale i teško ih je gravirati.
+- **Količina**: 12 ili 24 podloške za standardnu seed rečenicu, plus opcione podloške (pogledajte odeljak 3.4) i desetak za testove ili greške.
 
 
 
 
 
-- Prohromski čelik Bolt i matica (M8)** :
- - Specifikacije**: Bolt 2,5 do 5 cm dug, u zavisnosti od broja i debljine podloški, prečnik 8mm. Krilasta matica omogućava otvaranje bez alata, ali se može koristiti i obična matica.
+- **Prohromski čelik Bolt i matica (M8)**:
+- **Specifikacije**: Bolt 2,5 do 5 cm dug, u zavisnosti od broja i debljine podloški, prečnik 8mm. Krilasta matica omogućava otvaranje bez alata, ali se može koristiti i obična matica.
 
 
 
@@ -79,8 +79,8 @@ Da biste kreirali Ninja SAFU rezervnu kopiju, biće vam potrebne sledeće kompon
 
 
 
-- Set za utiskivanje slova i brojeva (3 mm ili 6 mm)** :
-    - Specifikacije**: 6 mm visoki karakteri olakšavaju čitljivost i mogu biti poželjni ako je deo natpisa oštećen. Izaberite čvrst set za ponovljenu upotrebu.
+- **Set za utiskivanje slova i brojeva (3 mm ili 6 mm)**:
+- **Specifikacije**: 6 mm visoki karakteri olakšavaju čitljivost i mogu biti poželjni ako je deo natpisa oštećen. Izaberite čvrst set za ponovljenu upotrebu.
 
 
 
@@ -90,14 +90,14 @@ Da biste kreirali Ninja SAFU rezervnu kopiju, biće vam potrebne sledeće kompon
 
 
 
-- Čekić ili malj** :
+- **Čekić ili malj**:
     - Čekić je poželjan za dovoljnu i preciznu silu utiskivanja.
 
 
 
 
 
-- Anvil ili čvrsta površina** :
+- **Anvil ili čvrsta površina**:
  - Debela, Hard površina (npr. nakovanj od 1 kg ili 10 cm kamen za popločavanje) za apsorpciju udaraca.
 
 
@@ -112,7 +112,7 @@ Ako ne želite da investirate u set udarnih alata, možete takođe gravirati va�
 
 
 
-- Uređaj za štancovanje**: Drži podlošku i vodi udarac, omogućavajući precizno, čisto štancovanje, bolju orijentaciju i ravnomerno razmaknuta slova
+- **Uređaj za štancovanje**: Drži podlošku i vodi udarac, omogućavajući precizno, čisto štancovanje, bolju orijentaciju i ravnomerno razmaknuta slova
 
 
 
@@ -122,7 +122,7 @@ Ako ne želite da investirate u set udarnih alata, možete takođe gravirati va�
 
 
 
-- Uređaji za zaptivanje**: Zapečaćena vrećica ili zaptivna traka
+- **Uređaji za zaptivanje**: Zapečaćena vrećica ili zaptivna traka
 
 
 
@@ -132,7 +132,7 @@ Ako ne želite da investirate u set udarnih alata, možete takođe gravirati va�
 
 
 
-- Hermetički zatvorena posuda**: Za čuvanje bloka podloški
+- **Hermetički zatvorena posuda**: Za čuvanje bloka podloški
 
 
 
@@ -146,7 +146,7 @@ Ako ne želite da investirate u set udarnih alata, možete takođe gravirati va�
 
 
 - Preporučene **rukavice** i **zaštitne naočare**.
-- Ključ za cevi** u koji se ubacuje probijač, tako da držite probijač ključem za cevi, a ne prstima.
+- **Ključ za cevi** u koji se ubacuje probijač, tako da držite probijač ključem za cevi, a ne prstima.
 
 
 
@@ -156,13 +156,13 @@ Ako ne želite da investirate u set udarnih alata, možete takođe gravirati va�
 
 
 
-- Količina za rezervnu kopiju od 24 reči**: 24 podloške (minimum), 1 Bolt, 1 krilna matica, 1 set udarnih alata, 1 čekić/maseta, 1 nakovanj/podrška.
+- **Količina za rezervnu kopiju od 24 reči**: 24 podloške (minimum), 1 Bolt, 1 krilna matica, 1 set udarnih alata, 1 čekić/maseta, 1 nakovanj/podrška.
 
 
 
 
 
-- Ukupna cena** :
+- **Ukupna cena**:
  - Podloške i vijci/matice: ~ 15 EUR
  - Set za punč: ~ 45 EUR
  - Zaštitna futrola: ~ 55 EUR
@@ -254,7 +254,7 @@ Ako ne želite da investirate u set udarnih alata, možete takođe gravirati va�
 
 
     - Iz vaše nove sigurnosne kopije pokušajte da povratite svoj portfolio.
-- Zapečaćivanje rezervne kopije** (opciono i preporučeno) :
+- **Zapečaćivanje rezervne kopije** (opciono i preporučeno):
  - U zaptivnim trakama ili u zapečaćenim kesicama.
  - Ako koristiš torbicu, zabeleži njen jedinstveni identifikacioni broj, kako bi mogao da proveriš da li je to prava torbica, a ne zamena za original.
 
@@ -269,7 +269,7 @@ Ako ne želite da investirate u set udarnih alata, možete takođe gravirati va�
 
 
 
-Čuvajte svoju rezervnu kopiju na **diskretnom mestu**, van vidokruga i dostupnom za periodične provere. Izaberite vatrootpornu i vodonepropusnu pohranu**, kod kuće ili na mestu pod vašom **isključivom kontrolom**.
+Čuvajte svoju rezervnu kopiju na **diskretnom mestu**, van vidokruga i dostupnom za periodične provere. Izaberite **vatrootpornu i vodonepropusnu pohranu**, kod kuće ili na mestu pod vašom **isključivom kontrolom**.
 
 
 
@@ -313,7 +313,7 @@ Ako je potrebno, napravite **više kopija** i čuvajte ih na **različitim geogr
 
 
 
-*OSTANI SAFU !
+**OSTANI SAFU !**
 
 
 ![image](assets/fr/08.webp)
@@ -329,19 +329,19 @@ Ako je potrebno, napravite **više kopija** i čuvajte ih na **različitim geogr
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ### A.2 Razumevanje passphrase BIP39
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ### A.3 Kako funkcionišu Bitcoin portfoliji
 
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 ### A.4 Klasifikacija Ninja SAFU metode
@@ -379,21 +379,21 @@ Prema Jamesonu Loppu:
 
 
 
-- Podloške** za
+- **Podloške** za
  - [Titan](https://pleb.style/fr-fr/products/disques-de-seed-supplementaires-titan-Wallet)
-- Podloške + matica + zaštitna futrola** (za podloške)
+- **Podloške + matica + zaštitna futrola** (za podloške)
  - [Titan](https://pleb.style/fr-fr/products/titan-Wallet-premium-acier-steel-Wallet-backup?variant=50022696419664)
  - [TerraSteel](https://pleb.style/fr-fr/products/terrasteel-Wallet-plebstyle-acier-backup)
 - Set za punč
  - [PlebStyle](https://pleb.style/fr/products/schlagstempelset-a-z-0-9-3mm)
-- Osnova kucanja**
+- **Osnova kucanja**
  - [PlebStyle](https://pleb.style/fr/products/schlagunterlage-10cm-x-10cm-x-1-5cm)
-- Uređaj za prisluškivanje** (vodič)
+- **Uređaj za prisluškivanje** (vodič)
  - [TerraSteel](https://pleb.style/fr-fr/products/zubehor-einschlag-vorrichtung?_pos=1&_sid=2767fd66f&_ss=r)
 - Uređaj za zaptivanje
  - [Zapečaćena torbica](https://pleb.style/fr/products/zubehor-5x-sicherheitstasche-tamper-evident)
  - [Trake za zaptivanje](https://pleb.style/fr/products/zubehor-5x-siegel-streifen-fur-dein-seed-backup)
-- Kompletan** set
+- **Kompletan** set
  - [Titan](https://pleb.style/fr-fr/products/titan-Wallet-diy-kit-premium-seed-backup-steelwallet-plebstyle?pr_prod_strat=e5_desc&pr_rec_id=aa9f36359&pr_rec_pid=8728733155664&pr_ref_pid=8730877788496&pr_seq=uniform)
  - [TerraSteel](https://pleb.style/fr-fr/products/kopie-von-terrasteel-Wallet-starter-kit)
 

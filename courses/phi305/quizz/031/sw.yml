@@ -1,0 +1,9 @@
+question: Fainali ni nini?
+answer: Kugeuza sababu na athari kuelewa kitu.
+wrong_answers:
+  - Nadharia ya kisiasa.
+  - Kichocheo cha kupikia.
+  - Kanuni ya psychoanalysis.
+explanation: |
+  Mwisho ni ugeuzaji wa sababu na athari ili kuelewa jambo. Inaelezea jambo kwa madhumuni yake yanayodhaniwa badala ya sababu zake halisi, ambazo Spinoza anazikosoa kama udanganyifu.
+reviewed: false

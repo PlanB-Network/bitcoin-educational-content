@@ -1,8 +1,8 @@
-question: Wat is een van de redenen dat Bitcoin aantrekkelijk is voor bepaalde groepen?
-answer: Het vermogen om oplossingen te bieden zoals Trustless elektronisch geld, weerstand tegen censuur of transparant en onveranderlijk monetair beleid.
+question: Wat is een factor die het moeilijk maakt voor financiële autoriteiten om Bitcoin te reguleren?
+answer: Het is wereldwijd actief, 24 uur per dag, 7 dagen per week.
 wrong_answers:
-  - Het is gemakkelijk te vervalsen en kan oplossingen creëren om meer geld te ontvangen met een simpele klik.
-  - Het wordt gecontroleerd door een centrale autoriteit die vrijelijk kapitaal verdeelt onder de gebruikers.
-  - Het is geen pseudoniem, dus elke gebruiker is bekend en wordt vertrouwd.
+  - Het wordt gecontroleerd door een centrale autoriteit.
+  - Het wordt nergens ter wereld gebruikt.
+  - Het is gemakkelijk te vervalsen.
 explanation: >-
 reviewed: true

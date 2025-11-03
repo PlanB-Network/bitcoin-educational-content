@@ -1,0 +1,9 @@
+question: Ni kubera iki ari vyiza gukura kuri mudasobwa yawe porogarama zitakoreshwa canke zitagikoreshwa?
+answer: Kugira ngo ugabanye igitero
+wrong_answers:
+  - Kugira ngo wihutishe uruja n'uruza rwawe rwa Internet
+  - Kugira ngo utere imbere mu bijanye n'uburinzi
+  - Kugira ngo wongere ubuzima bwa bateri
+explanation: |
+  Uko porogarama zishirwamwo zigabanuka, ni ko n’ibintu bishobora gutuma abatera bashobora guhungabana bigabanuka.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Quel protocole est exposé par Electrs et Fulcrum pour connecter les logiciels de portefeuille ?
+answer: Electrum
+wrong_answers:
+  - RPC REST
+  - JSON API
+  - Lightning gRPC
+explanation: |
+  Ces logiciels exposent un serveur Electrum, standard utilisé par de nombreux portefeuilles comme Sparrow ou Electrum Wallet.
+reviewed: false

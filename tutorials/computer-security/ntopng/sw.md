@@ -160,9 +160,9 @@ Hapa, naona miingiliano 3:
 
 
 
-- Lo**: hii ni kitanzi Interface; ni Interface ya kawaida ambayo "huzunguka" juu ya vifaa. Kimsingi, Interface hii, ambayo Address ni 127.0.0.1 (ingawa Address yoyote katika 127.0.0.0/8 itafanya, kwani masafa haya yamehifadhiwa kwa madhumuni haya) hutumiwa kuwasiliana na kifaa yenyewe. Ikiwa umesakinisha tovuti kwenye kituo chako cha kazi (kwa kutumia WAMPP, kwa mfano), pengine umetumia "*localhost*" Address kwa wakati mmoja au nyingine kuonyesha tovuti iliyopangishwa kwenye mashine yako mwenyewe. Jina hili la mpangishaji linahusishwa na Address 127.0.0.1 na kwa hivyo na kitanzi cha Interface.
-- en33**: hii ni Interface yangu ya kwanza, ambayo ilipata Address hapa kutoka kwa DHCP yangu
-- en36**: Interface yangu ya pili
+- **Lo**: hii ni kitanzi Interface; ni Interface ya kawaida ambayo "huzunguka" juu ya vifaa. Kimsingi, Interface hii, ambayo Address ni 127.0.0.1 (ingawa Address yoyote katika 127.0.0.0/8 itafanya, kwani masafa haya yamehifadhiwa kwa madhumuni haya) hutumiwa kuwasiliana na kifaa yenyewe. Ikiwa umesakinisha tovuti kwenye kituo chako cha kazi (kwa kutumia WAMPP, kwa mfano), pengine umetumia "*localhost*" Address kwa wakati mmoja au nyingine kuonyesha tovuti iliyopangishwa kwenye mashine yako mwenyewe. Jina hili la mpangishaji linahusishwa na Address 127.0.0.1 na kwa hivyo na kitanzi cha Interface.
+- **en33**: hii ni Interface yangu ya kwanza, ambayo ilipata Address hapa kutoka kwa DHCP yangu
+- **en36**: Interface yangu ya pili
 
 
 
@@ -211,8 +211,8 @@ Hapa kuna baadhi ya maelezo ya mabadiliko haya ya kwanza:
 
 
 
-- kiotomatiki *Interface***: "itaanzisha" kiotomatiki Interface wakati wa kuwasha mfumo
-- iface *Interface* mwongozo wa inet**: kutumia Interface bila IP Address yoyote. Kama neno kuu "tuli" kufafanua IP tuli Address au "dhcp" kutumia kushughulikia kwa nguvu.
+- kiotomatiki **Interface**: "itaanzisha" kiotomatiki Interface wakati wa kuwasha mfumo
+- iface **Interface** mwongozo wa **inet**: kutumia Interface bila IP Address yoyote. Kama neno kuu "tuli" kufafanua IP tuli Address au "dhcp" kutumia kushughulikia kwa nguvu.
 
 
 
@@ -239,10 +239,10 @@ Hapa tena, maelezo machache:
 
 
 
-- iface br0 inet tuli**: hapa nimefafanua daraja langu la Interface (*br0*) na Address tuli.
-- Address, barakoa, lango**: maelezo ya anwani ya ubao
-- bridge_ports**: miingiliano ya kujumuishwa kwenye daraja
-- bridge_stp**: itifaki ya Spanning Tree hutumiwa wakati wa kuunganisha swichi ili kutambua viungo visivyohitajika na kuepuka vitanzi. Kwa kuwa daraja linaweza kuingizwa kati ya njia mbili za mtandao, inaweza kuwa chanzo cha kitanzi, hivyo uwezekano wa kuwezesha itifaki hii. Siitaji hapa, kwa hivyo ninaizima.
+- iface br0 inet tuli: hapa nimefafanua daraja langu la Interface (**br0**) na Address tuli.
+- **Address, barakoa, lango**: maelezo ya anwani ya ubao
+- **bridge_ports**: miingiliano ya kujumuishwa kwenye daraja
+- **bridge_stp**: itifaki ya Spanning Tree hutumiwa wakati wa kuunganisha swichi ili kutambua viungo visivyohitajika na kuepuka vitanzi. Kwa kuwa daraja linaweza kuingizwa kati ya njia mbili za mtandao, inaweza kuwa chanzo cha kitanzi, hivyo uwezekano wa kuwezesha itifaki hii. Siitaji hapa, kwa hivyo ninaizima.
 
 
 
@@ -281,8 +281,8 @@ Kwa chaguo-msingi, vyanzo vya kifurushi vina vifurushi vinavyotii DFSG (*Miongoz
 
 
 
-- mchango**: vifurushi vilivyo na programu inayotii DFSG, lakini kwa kutumia vitegemezi ambavyo si sehemu ya **tawi kuu**
-- isiyolipishwa**: ina vifurushi ambavyo haviambatani na DFSG
+- **mchango**: vifurushi vilivyo na programu inayotii DFSG, lakini kwa kutumia vitegemezi ambavyo si sehemu ya **tawi kuu**
+- **isiyolipishwa**: ina vifurushi ambavyo haviambatani na DFSG
 
 
 
@@ -442,7 +442,7 @@ Ili kuonyesha, ninazindua video ya YouTube kwenye mwenyeji wangu:
 
 
 
-**Trafiki ilitambuliwa mara moja na kuainishwa!
+**Trafiki ilitambuliwa mara moja na kuainishwa!**
 
 
 

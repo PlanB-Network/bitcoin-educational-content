@@ -1,0 +1,9 @@
+question: Ni igiki gisobanura igihinduka c’ibintu bitari vyo mu bijanye n’ubuhinga bwo gukingira amakuru?
+answer: Impinduka ishobora gufata agaciro kenshi gashoboka n'ibishoboka vyiza
+wrong_answers:
+  - Ihinduka rihindura agaciro igihe cose
+  - Ihinduka rifise agaciro kadahinduka kandi kasobanuwe mbere
+  - Impinduka yama isobanurwa mu bijanye n'igerageza ry'umubiri
+explanation: |
+  Ihinduka ry’imburakimazi rishobora gufata agaciro kabiri canke garenga, umwe wese afise ubushobozi bwiza, kandi akenshi risobanurwa mu buryo butaboneka mu bijanye n’ubuhinga bwo gukingira amakuru.
+reviewed: false

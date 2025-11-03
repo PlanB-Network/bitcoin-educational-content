@@ -22,7 +22,7 @@ ___
 
 
 
-**I den här handledningen kommer vi att lära oss att utföra en säkerhetsrevision på en Linux-maskin med Lynis! För de av er som inte känner till **Lynis,** är det ett litet kommandoradsverktyg som analyserar din servers konfiguration och ger rekommendationer för att **förbättra säkerheten för din maskin.**
+**I den här handledningen kommer vi att lära oss att utföra en säkerhetsrevision på en Linux-maskin med Lynis!** För de av er som inte känner till **Lynis**, är det ett litet kommandoradsverktyg som analyserar din servers konfiguration och ger rekommendationer för att **förbättra säkerheten för din maskin**.
 
 
 
@@ -321,10 +321,10 @@ Därefter kommer Lynis att lista en uppsättning punkter som motsvarar allt han 
 
 
 
-- Röd** för kritiska Elements eller bästa praxis som inte respekteras (t.ex. ett paket som saknas), dvs. din server respekterar inte denna punkt
-- Gul** för förslag eller delvis efterlevnad av rekommendationen (låt oss säga att det är ett plus att följa en punkt som är markerad med denna färg (icke-prioriterad))
-- Green** för punkter där din serverkonfiguration är kompatibel
-- Vit**, när den är neutral
+- **Röd** för kritiska Elements eller bästa praxis som inte respekteras (t.ex. ett paket som saknas), dvs. din server respekterar inte denna punkt
+- **Gul** för förslag eller delvis efterlevnad av rekommendationen (låt oss säga att det är ett plus att följa en punkt som är markerad med denna färg (icke-prioriterad))
+- **Green** för punkter där din serverkonfiguration är kompatibel
+- **Vit**, när den är neutral
 
 
 
@@ -604,10 +604,10 @@ Lite information om de installerade paketen:
 
 
 
-- Clamav** är ett antivirusprogram.
-- unattend-upgrades** gör det möjligt för dig att hantera dina uppdateringar automatiskt och till och med starta om maskinen eller automatiskt rensa bort gamla paket, det är helt konfigurerbart.
-- rkhunter** är ett anti-rootkit som skannar ditt filsystem.
-- Fail2ban** kommer att basera sig på dina loggfiler enligt vad du ger den att läsa och den kommer att fungera med **iptables**, till exempel för att förbjuda IP-adresser som försöker "brute force" din server i SSH.
+- **Clamav** är ett antivirusprogram.
+- **unattend-upgrades** gör det möjligt för dig att hantera dina uppdateringar automatiskt och till och med starta om maskinen eller automatiskt rensa bort gamla paket, det är helt konfigurerbart.
+- **rkhunter** är ett anti-rootkit som skannar ditt filsystem.
+- **Fail2ban** kommer att basera sig på dina loggfiler enligt vad du ger den att läsa och den kommer att fungera med **iptables**, till exempel för att förbjuda IP-adresser som försöker "brute force" din server i SSH.
 
 
 
@@ -820,7 +820,7 @@ Slutligen, låt oss inte glömma att kontrollera **Lynis revisionsresultat**! Vi
 
 
 
-**Med andra ord, ju högre poäng, desto bättre! Du måste därför arbeta med din konfiguration för att uppnå högsta möjliga poäng, samtidigt som du låter din maskin och dina hostade tjänster fungera normalt (vilket innebär att du måste utföra funktionstester).
+**Med andra ord, ju högre poäng, desto bättre! Du måste därför arbeta med din konfiguration för att uppnå högsta möjliga poäng, samtidigt som du låter din maskin och dina hostade tjänster fungera normalt (vilket innebär att du måste utföra funktionstester).**
 
 
 
@@ -896,4 +896,4 @@ Slutligen kan du också jämföra **Lynis** med andra verktyg, av vilka det finn
 
 
 
-**Den här handledningen är över, ha kul med Lynis!
+**Den här handledningen är över, ha kul med Lynis!**

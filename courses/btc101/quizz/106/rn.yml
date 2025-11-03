@@ -1,0 +1,13 @@
+question: Ni igiki kibuza abantu bose gukoresha Bitcoin Wallet imwe?
+answer: Abantu batandukanye barakeneye use-cases zitandukanye.
+wrong_answers:
+  - Birazimvye gukoresha Bitcoin Wallet.
+  - Ni ibintu bitemewe gukoresha Bitcoin Wallet.
+  - Abantu ntibazokwigera bemeranya kw’izina ry’iyo Wallet.
+explanation: |
+  Naho umuntu umwe yoshobora gushira imbere umutekano, uwundi yoshobora .
+  agaciro ukoresha-ubugenzi canke ibiranga vyihariye. Ni co gituma, a
+  Bitcoin Wallet imwe yoshobora kutaronka ivyo umuntu wese akeneye
+  ibisabwa, bikaba bikenewe ko haba Wallet nyinshi.
+  amahitamwo yo kubaho.
+reviewed: true

@@ -1,9 +1,8 @@
-question: Mis on üks potentsiaalsetest kasudest, mida võib tuua uute tehnoloogiate, nagu Bitcoin, omaksvõtt?
-answer: See võib tekitada tohutuid skaalaefekte ülemaailmselt.
+question: Mis on üks peamisi Bitcoini mõjusid pangandussüsteemile?
+answer: See võimaldab vabanemist pangandussüsteemist.
 wrong_answers:
-  - See võib viia globaalse majanduskollapsini.
-  - See võib põhjustada inimintellekti vähenemise.
-  - See võib viia kõikide töökohtade kadumiseni.
+  - See võimaldab pangandussüsteemi kontrolli.
+  - See võimaldab pangandussüsteemi kõrvaldamist.
+  - See võimaldab pangandussüsteemi korrumpeerumist.
 explanation: >-
-  Tekst viitab sellele, et nende uute tehnoloogiate omaksvõtt võib tekitada tohutuid skaalaefekte ülemaailmselt.
-reviewed: false
+  Tekstis mainitakse, et Bitcoin võimaldab vabanemist pangandussüsteemist.

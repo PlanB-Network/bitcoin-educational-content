@@ -1,12 +1,13 @@
-question: Co nie jest frazą Mnemonic w kontekście Bitcoin?
-answer: Hasło dla Bitcoin Wallet.
+question: Co oznacza skrót KYC?
+answer: Poznaj swojego klienta.
 wrong_answers:
-  - Lista 12 słów z określonego słownika.
-  - Lista 24 słów z określonego słownika.
-  - Sekret dostępu do funduszu Bitcoin.
+  - Zatrzymaj swoją gotówkę.
+  - Kluczowanie kodów.
+  - Zgodność z przepisami.
 explanation: |
-  Fraza Mnemonic w kontekście Bitcoin jest listą 12
-  lub 24 słów, które umożliwiają przywrócenie Wallet w dowolnej aplikacji
-  Aplikacji Bitcoin Wallet. Każdy, kto ma dostęp do tej listy
-  może również uzyskać dostęp do bitcoinów.
+  KYC lub Know Your Customer odnosi się do procedury, którą
+  firmy przyjmują w celu weryfikacji tożsamości swoich klientów.
+  Zazwyczaj ma to na celu zapewnienie zgodności z
+  przepisami i zapobieganie nielegalnym działaniom, takim jak
+  pranie pieniędzy lub oszustwa.
 reviewed: true

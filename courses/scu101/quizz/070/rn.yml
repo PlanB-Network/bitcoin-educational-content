@@ -1,0 +1,9 @@
+question: Intumbero y’ugushingira intahe umuravyo ni iyihe?
+answer: Itanga ikimenyetso gitandukanye ku gikorwa cose, ata gutanga imeyili Address canke amakuru y’ibanga.
+wrong_answers:
+  - Yemerera umuntu wese, mbere ata Lightning Wallet, kwemeza ata imeyili Address, iyo ID ibereye yerekanwe.
+  - Iragufasha gukoresha ijambobanga rimwe ku bikorwa vyose.
+  - Irungika ivyibutsa vyo guhindura amajambo y’ibanga buri kwezi.
+explanation: |
+  Ivyemezo vy’umuravyo bitanga ikimenyetso gitandukanye ku gikorwa cose, ata gutanga imeyili Address canke amakuru y’ibanga. Ivyo birashobora kwongereza ubuzima bwite n’umutekano mu kugabanya igitigiri c’amakuru y’ibanga asangizwa n’igikorwa kimwekimwe cose.
+reviewed: true

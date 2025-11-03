@@ -1,8 +1,8 @@
-question: Vilken typ av nätverk skapar Lightning Network?
-answer: Ett nätverk av betalningskanaler.
+question: Vad är det huvudsakliga syftet med Lightning Network?
+answer: För att underlätta mikrotransaktioner.
 wrong_answers:
-  - Ett nätverk av Mining-noder.
-  - Ett nätverk av Blockchain-noder.
-  - Ett nätverk av kryptovalutabörser.
+  - För att öka värdet på Bitcoin.
+  - För att ersätta Bitcoin-protokollet.
+  - Att skapa en ny kryptovaluta.
 explanation: >-
 reviewed: true

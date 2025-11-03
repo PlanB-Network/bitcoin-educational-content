@@ -1,9 +1,11 @@
-question: Tại sao số lượng xác nhận trong một giao dịch Bitcoin lại quan trọng?
-answer: Càng nhiều xác nhận mà một giao dịch có, nó càng trở nên bất biến.
+question: Người dùng chuyển quyền sở hữu tiền của họ trong mạng Bitcoin như thế nào?
+answer: Bằng cách ký số các giao dịch bằng khóa riêng của họ.
 wrong_answers:
-  - Càng nhiều xác nhận mà một giao dịch có, nó càng trở nên có giá trị.
-  - Càng nhiều xác nhận mà một giao dịch có, quá trình xử lý càng nhanh.
-  - Càng nhiều xác nhận mà một giao dịch có, nó càng kém an toàn.
-explanation: >-
-  Số lượng xác nhận trong một giao dịch Bitcoin chỉ ra số khối đã được khai thác trên cùng một khối chứa giao dịch đó. Càng nhiều xác nhận mà một giao dịch có, nó càng trở nên bất biến.
+  - Bằng cách trao đổi Bitcoin một cách vật lý.
+  - Bằng cách gửi email cho người nhận.
+  - Bằng cách cung cấp địa chỉ Bitcoin của họ cho người nhận.
+explanation: |
+  Người dùng trong mạng Bitcoin chuyển quyền sở hữu tiền của họ
+  bằng cách ký số các giao dịch bằng khóa riêng của họ. Điều này
+  xác minh rằng họ là chủ sở hữu của các bitcoin mà họ muốn chuyển.
 reviewed: true

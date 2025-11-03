@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   If you send your coin to a regulated exchange platform, but it has recently undergone a coinjoin, the platform's chain analysis tool will detect this fact. The platform might then refuse to accept your UTXO that has undergone a coinjoin, or even demand explanations from you, with the risk of seeing your account suspended or your funds frozen. In some cases, the platform may also report your behavior to state authorities.
 
-reviewed: false
+reviewed: true

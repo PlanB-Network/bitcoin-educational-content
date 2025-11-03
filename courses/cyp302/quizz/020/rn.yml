@@ -1,0 +1,9 @@
+question: None igikorwa ca modulo giserukira iki mu biharuro?
+answer: Igisigaye c'umugabane
+wrong_answers:
+  - Umugabane w'ugucapura
+  - Incuro zibiri umubare wo gutangura
+  - Umubare ugabanya ataco usigaye
+explanation: |
+  Igikorwa kijanye n'ukumenya igisigaye c'ugucapura, nk'akarorero, 25 mod 4 kingana na 1 kuko igisigaye c'ugucapura ni 1.
+reviewed: false

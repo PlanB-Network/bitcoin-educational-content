@@ -1,12 +1,11 @@
-question: Wat is het risico van het delen van de publieke sleutel van een Bitcoin Wallet?
-answer: Privacy verliezen.
+question: Wat moet de belangrijkste zorg zijn als je Bitcoin bezit?
+answer: De veiligheid van je geld.
 wrong_answers:
-  - De Bitcoin Wallet vernietigen.
-  - De Bitcoins verliezen.
-  - De Bitcoin Wallet hacken.
+  - De waarde van Bitcoin in dollars.
+  - De legaliteit van het bezitten van bitcoins.
+  - De toestemming om je geld uit te geven.
 explanation: |
-  Het delen van de openbare sleutel brengt risico's met zich mee voor de privacy, maar niet voor de veiligheid
-  voor de veiligheid. De publieke sleutel wordt namelijk gebruikt om
-  generate Bitcoin adressen en dus geld te ontvangen, maar het
-  niet Ownership van de Bitcoins vertegenwoordigt.
+  Als je bitcoins bezit, is de belangrijkste zorg de veiligheid
+  van je fondsen. Dit komt omdat Bitcoin, net als elke andere vorm van
+  valuta, gestolen of verloren kan worden als het niet goed beveiligd is.
 reviewed: true

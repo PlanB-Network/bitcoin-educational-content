@@ -1,11 +1,9 @@
-question: Co jsou FOMO a FUD?
-answer: Emoce, které mohou vést k impulzivnímu a potenciálně škodlivému rozhodování.
+question: Jaký je hlavní cíl revoluce Bitcoinu podle tohoto kurzu?
+answer: Vytvoření světa, kde je lidská suverenita právem, soukromí je respektováno jako výchozí stav a peníze nejsou manipulovány.
 wrong_answers:
-  - Typy Bitcoinových peněženek.
-  - Strategie pro nákup Bitcoinu.
-  - Regulace související s Bitcoinem.
-explanation: >-
-  Text vysvětluje, že FOMO (Strach z propášení příležitosti) a FUD (Strach, Nejistota,
-  Pochybnosti) jsou emoce, které mohou vést k impulzivnímu a potenciálně škodlivému rozhodování
-  při nákupu Bitcoinu.
+  - Vytvoření světa, kde soukromí není lidským právem a peníze jsou manipulovány bankami.
+  - Vytvoření světa, kde vlády nemají žádnou moc a společnost je chaotická.
+  - Vytvoření světa, kde je fyzické peníze zastaralé.
+explanation: |
+  Tento text kurzu naznačuje, že hlavním cílem revoluce Bitcoinu je vytvoření světa, kde je lidská suverenita právem, soukromí je respektováno jako výchozí stav a peníze nejsou manipulovány.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Ni nambari gani chaguo-msingi ya miunganisho inayotoka ambayo nodi ya Bitcoin core hudumisha?
+answer: 10
+wrong_answers:
+  - 2
+  - 4
+  - 3
+explanation: |
+  Bitcoin core hudumisha miunganisho 10 inayotoka kwa chaguo-msingi (8 relay kamili na 2 block-relay-pekee).
+reviewed: true

@@ -1,5 +1,5 @@
 ---
-name: Braiins zwembad
+name: Braiins Pool
 
 description: Inleiding tot Braiins zwembad
 ---

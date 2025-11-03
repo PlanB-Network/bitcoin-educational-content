@@ -1,10 +1,9 @@
-question: Je, ni awamu gani ya mwisho inayotokea katika hali ya mfumuko wa bei?
-answer: Sarafu mpya inaibuka.
+question: Mfumuko wa bei nchini Zimbabwe mwezi Novemba 2008 ulikuwa kiasi gani?
+answer: 79,600,000,000%
 wrong_answers:
-  - Kupoteza imani katika sarafu.
-  - Kuporomoka kwa sarafu na ongezeko la bei.
-  - Mzunguko mbaya wa uchapishaji wa pesa.
+  - 796%
+  - 79,600,000,000,000,000%
+  - 100%
 explanation: |
-  Awamu ya mwisho ya mfumuko wa bei hutokea wakati mpya
-  sarafu inaletwa kuchukua nafasi ya ile ya zamani.
+  Mnamo Novemba 2008, mfumuko wa bei wa kila mwezi wa sarafu ya Zimbabwe ulifikia 79,600,000,000%, ambayo ilipunguza thamani ya dola ya Zimbabwian hadi 0.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Langkah-langkah apa saja yang harus diselesaikan sebelum UmbrelOS dapat diinstal?
+answer: Membuat kunci USB yang dapat di-boot dengan gambar
+wrong_answers:
+  - Mengkompilasi kode sumber Bitcoin core
+  - Memformat Blockchain
+  - Buat akun di umbrel.com
+explanation: |
+  Instalasi dimulai dengan menyiapkan kunci USB yang dapat di-booting dengan UmbrelOS melalui Balena Etcher.
+reviewed: true

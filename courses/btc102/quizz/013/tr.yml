@@ -1,9 +1,9 @@
-question: Ticaret ve yatırım arasındaki temel fark nedir?
-answer: Ticaret kısa vadeli ve spekülatiftir, yatırım ise uzun vadeli ve stratejiktir
+question: Alım satım (trading) ve yatırım arasındaki temel fark nedir?
+answer: Alım satım kısa vadeli ve spekülatiftir, yatırım ise uzun vadeli ve stratejiktir
 wrong_answers:
   - Alım satım sabit ücretler, yatırım değişken ücretler içerir
-  - Ticaret temel analize, yatırım makro trendlere dayanır
-  - Ticaret, yatırımdan daha az risklidir
+  - Alım satım temel analize, yatırım makro trendlere dayanır
+  - Alım satım yatırımdan daha az risklidir
 explanation: |
   Alım satım sürekli izleme ve teknik beceri gerektirirken, yatırım uzun vadeli bir vizyona dayanır.
 reviewed: false

@@ -1,9 +1,9 @@
-question: Cuộc chiến về kích thước khối vào năm 2017 là về vấn đề gì?
-answer: Một cuộc xung đột về việc có nên tăng kích thước khối để mở rộng khả năng xử lý giao dịch hay không.
+question: HashRate là gì?
+answer: Số lượng tính toán băm mà một thiết bị đào có thể thực hiện mỗi giây để giải quyết Bằng chứng Công việc (Proof of Work).
 wrong_answers:
-  - Một cuộc xung đột về việc có nên giảm kích thước khối để giảm khả năng xử lý giao dịch hay không.
-  - Một cuộc xung đột về việc có nên tăng phần thưởng khối để khuyến khích các thợ mỏ hay không.
-  - Một cuộc xung đột về việc có nên giảm phần thưởng khối để làm giảm sự khuyến khích cho các thợ mỏ hay không.
-explanation: |
-  Cuộc chiến về kích thước khối vào năm 2017 là một cuộc xung đột về việc có nên chỉnh sửa Bitcoin bằng cách tăng kích thước khối để mở rộng khả năng xử lý giao dịch hay không.
+  - Tốc độ mà một thiết bị đào có thể giải quyết Bằng chứng Công việc.
+  - Tổng số người đào trong mạng lưới Bitcoin.
+  - Tổng số lượng bitcoin được khai thác bằng cách thực hiện một số lần thử nhất định mỗi giây để giải quyết Bằng chứng Công việc.
+explanation: >-
+  HashRate đề cập đến tổng số lần thử mà các thợ đào thực hiện mỗi giây để giải quyết Bằng chứng Công việc. Đây là một thước đo về sức mạnh tính toán của mạng lưới Bitcoin.
 reviewed: true

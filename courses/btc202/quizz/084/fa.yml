@@ -1,0 +1,9 @@
+question: تعداد پیش‌فرض اتصالات خروجی که یک نود Bitcoin core حفظ می‌کند چقدر است؟
+answer: ۱۰
+wrong_answers:
+  - ۲
+  - ۴
+  - ۳
+explanation: |
+  ‏Bitcoin core به‌طور پیش‌فرض ۱۰ اتصال خروجی را حفظ می‌کند (۸ اتصال کامل و ۲ اتصال فقط برای انتقال بلوک).
+reviewed: true

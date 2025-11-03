@@ -1,0 +1,10 @@
+question: None Lightning Network ituma bishoboka iki?
+answer: Gukorana hagati y’abantu badafise umurongo utaziguye.
+wrong_answers:
+  - Kugira ngo haboneke amahuzu y’imirongo ataco akora gusa n’uguhanahana amakuru hagati.
+  - Kugira ngo ureme amahuzu y’imirongo asaba kwemeza kenshi ku bijanye n’ugucuruza kwose.
+  - Gushinga amahuzu y’imirongo ataco akora agarukira ku bikorwa binini gusa.
+explanation: |
+  Lightning Network ituma bishoboka gukorana hagati y’
+  abantu ku giti cabo badafise umurongo utaziguye.
+reviewed: true

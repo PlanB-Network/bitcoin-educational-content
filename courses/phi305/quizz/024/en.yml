@@ -1,0 +1,9 @@
+question: What is scholasticism?
+answer: A philosophy of the Middle Ages.
+wrong_answers:
+  - A philosophy of the modern age.
+  - An ancient philosophy.
+  - An atheistic philosophy.
+explanation: |
+  Scholasticism was a medieval philosophy that sought to reconcile the Christian faith with Aristotelian philosophy. It dominated European universities before the emergence of modern philosophy.
+reviewed: false

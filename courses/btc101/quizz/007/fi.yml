@@ -1,12 +1,10 @@
-question: Mikä on tämän Bitcoin-kurssin pääpaino?
-answer: Bitcoinin rahalliset näkökohdat.
+question: Mikä oli DigiCash-projekti?
+answer: Yritys luoda anonyymiä elektronista rahaa David Chaumin toimesta.
 wrong_answers:
-  - Bitcoinin koodausnäkökohdat.
-  - Bitcoinin ekologinen vaikutus.
-  - Bitcoinin sääntelyyn liittyvät näkökohdat.
+  - Projekti digitaalisen lompakon luomiseksi Bitcoinille.
+  - Yritys digitalisoida kaikki fyysinen käteinen Yhdysvaltain keskuspankin toimesta.
+  - Projekti luoda kryptovaluutta Bitcoinin pohjalta.
 explanation: |
-  Tämä Bitcoin-kurssi keskittyy Bitcoinin rahallisiin näkökohtiin,
-  mukaan lukien miten ostaa ja myydä bitcoineja, turvallisesti
-  säilyttää niitä digitaalisissa lompakoissa ja käyttää niitä
-  transaktioissa.
+  David Chaum esitteli anonyymin elektronisen
+  rahan konseptin projektillaan DigiCash 1980-luvulla.
 reviewed: true

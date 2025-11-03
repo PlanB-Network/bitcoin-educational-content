@@ -1,0 +1,9 @@
+question: Quelle capacité de SSD est recommandée comme minimum en 2025 pour un nœud Bitcoin ?
+answer: 2 To
+wrong_answers:
+  - 512 Go
+  - 10 To
+  - 256 Go
+explanation: |
+  Avec une blockchain dépassant 700 Go et des applications additionnelles, 2 To est devenu le minimum raisonnable.
+reviewed: false

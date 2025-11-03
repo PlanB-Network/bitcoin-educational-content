@@ -1,0 +1,9 @@
+question: IPv6 도입의 주요 목표는 무엇인가요?
+answer: 사실상 무제한의 Address 공간 제공
+wrong_answers:
+  - 이더넷 처리량 4배 증가
+  - 점진적으로 TCP를 UDP로 대체
+  - 패킷당 바이트 수 줄이기
+explanation: |
+  IPv6의 주요 목적은 Address 공간을 대규모로 확장하여 IP 주소 부족을 해결하는 것입니다.
+reviewed: false

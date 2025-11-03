@@ -1,0 +1,9 @@
+question: Koja vrsta mašine je predstavljena kao najbolji kompromis za Bitcoin kućni čvor?
+answer: NUC-tip mini-PC
+wrong_answers:
+  - Laptop računar
+  - Superkompjuter
+  - Konzola za igre
+explanation: |
+  Mini-PC-ovi (NUC, Tiny, OptiPlex Micro...) imaju nisku potrošnju energije, pouzdani su i lako se prilagođavaju, što ih čini idealnim kompromisom.
+reviewed: true

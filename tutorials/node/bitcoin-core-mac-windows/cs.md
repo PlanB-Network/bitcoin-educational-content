@@ -1,7 +1,9 @@
 ---
-name: Bitcoin Core (macOS & Windows)
+name: "Bitcoin Core (macOS & Windows)"
 description: Instalace Bitcoin Core na Mac nebo Windows
 ---
+
+![cover](assets/cover.webp)
 
 Instalace Bitcoin Core na váš běžný počítač je možná, ale není to ideální. Pokud vám nevadí nechat počítač zapnutý 24/7, pak to bude fungovat dobře. Pokud potřebujete počítač vypnout, je otravné čekat, až se software po každém zapnutí znovu synchronizuje.
 
@@ -17,7 +19,7 @@ Můžete buď kompletně vyčistit starý počítač a použít ho jako věnovan
 
 Bitcoin Core zabere na vašem disku asi 400 gigabajtů dat a bude dále růst. Můžete použít interní disk, ale můžete také připojit externí pevný disk. Vysvětlím obě možnosti. Ideálně byste měli použít pevný disk typu SSD. Pokud máte starý počítač, pravděpodobně interně takový nemá. Stačí koupit externí SSD s kapacitou 1 nebo 2 terabajty a použít to. Běžný disk pravděpodobně bude fungovat, ale můžete narazit na problémy a bude to mnohem pomalejší.
 
-![image](assets/1.webp)
+![image](assets/fr/01.webp)
 
 ## Stáhněte si Bitcoin Core
 
@@ -25,15 +27,15 @@ Přejděte na bitcoin.org (ujistěte se, že nejdete na bitcoin.com, což je shi
 
 Až tam budete, není zvláštně zřejmé, kde software získat. Přejděte do menu zdrojů a klikněte na „Bitcoin Core“, jak je ukázáno níže:
 
-![image](assets/2.webp)
+![image](assets/fr/02.webp)
 
 To vás přivede na stránku ke stažení:
 
-![image](assets/3.webp)
+![image](assets/fr/03.webp)
 
 Klikněte na oranžové tlačítko Stáhnout Bitcoin Core:
 
-![image](assets/4.webp)
+![image](assets/fr/04.webp)
 
 Na výběr je několik možností, v závislosti na vašem počítači. První dvě jsou relevantní pro tento průvodce; vyberte Windows nebo Mac na levém panelu. Po kliknutí se začne stahovat, nejpravděpodobněji do vaší složky Stažené soubory.
 
@@ -41,7 +43,7 @@ Na výběr je několik možností, v závislosti na vašem počítači. První d
 
 Potřebujete soubor, který obsahuje hash hodnoty různých verzí. Tento soubor býval na stránce ke stažení na bitcoin.org, ale nyní se přesunul na bitcoincore.org/en/download:
 
-![image](assets/5.webp)
+![image](assets/fr/05.webp)
 
 Potřebujete soubor s binárními hash hodnotami SHA256. Tento soubor obsahuje SHA256 hash hodnoty různých stahovacích balíčků Bitcoin Core.
 
@@ -64,7 +66,7 @@ Abychom toho dosáhli, podívejte se na můj průvodce SHA256/gpg a posuňte se 
 
 Zpět na stránce ke stažení získejte soubor s SHA256 hash podpisy
 
-![obrázek](assets/6.webp)
+![obrázek](assets/fr/06.webp)
 
 Klikněte na něj a uložte soubor na disk, ideálně do složky Stažené soubory.
 
@@ -99,7 +101,7 @@ První uvedený soubor je přesný pravopis souboru s podpisem. Druhý uvedený 
 
 Toto je výstup, který byste měli dostat
 
-![obrázek](assets/7.webp)
+![obrázek](assets/fr/07.webp)
 
 Varovnou zprávu je bezpečné ignorovat – to je jen připomínka, že jste se osobně nesetkali s Wladimirem na klíčové akci a nezeptali se ho, jaký je jeho veřejný klíč, a poté svému počítači neřekli, aby tomuto klíči plně důvěřoval.
 
@@ -109,38 +111,39 @@ Pokud jste dostali tuto zprávu, nyní víte, že soubor SHA256SUMS.asc nebyl po
 
 Neměli byste potřebovat podrobné instrukce, jak program nainstalovat.
 
-![obrázek](assets/8.webp)
+![obrázek](assets/fr/08.webp)
 
 ## Spuštění Bitcoin Core
 
 Na Macu můžete dostat varování (Apple je stále proti Bitcoinu)
 
-![obrázek](assets/9.webp)
+![obrázek](assets/fr/09.webp)
 
 Klikněte na OK a poté otevřete vaše Systémové předvolby
 
-![obrázek](assets/10.webp)
+![obrázek](assets/fr/10.webp)
 
 Klikněte na ikonu Bezpečnost a soukromí:
 
-![obrázek](assets/11.webp)
+![obrázek](assets/fr/11.webp)
 
 Poté klikněte na "otevřít přesto":
 
-![obrázek](assets/12.webp)
+![obrázek](assets/fr/12.webp)
 
 Objeví se znovu chyba, ale tentokrát budete mít k dispozici tlačítko OTEVŘÍT. Klikněte na něj.
 
-![obrázek](assets/13.webp)
+![obrázek](assets/fr/13.webp)
 
 Bitcoin Core by se měl načíst a budete mít k dispozici několik možností:
 
-![obrázek](assets/14.webp)
+![obrázek](assets/fr/14.webp)
 
 Zde si můžete vybrat, zda použijete výchozí cestu, kam bude blockchain stažen, nebo můžete zvolit externí disk. Doporučuji nezměnit výchozí cestu, pokud budete používat interní disk, usnadní to nastavení, když instalujete další software pro komunikaci s Bitcoin Core.
 Můžete se rozhodnout provozovat ořezaný uzel, což ušetří místo, ale omezí, co s vaším uzlem můžete dělat. Tak či onak, stejně budete stahovat celý blockchain a ověřovat ho, takže pokud máte dostatek místa, nechte si to, co jste stáhli, a neorezávejte, pokud to není nutné.
 Jakmile potvrdíte, začne se blockchain stahovat. Bude to trvat mnoho dní.
 
-![obrázek](assets/15.webp)
+![obrázek](assets/fr/15.webp)
 
 Počítač můžete kdykoliv vypnout a vrátit se ke stahování, pokud chcete, nezpůsobí to žádné škody.
+

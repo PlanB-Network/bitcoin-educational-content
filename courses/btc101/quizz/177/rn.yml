@@ -1,0 +1,8 @@
+question: Ni iyihe mpamvu imwe ituma Bitcoin atari igihu kizozimangana?
+answer: Kuko ni amafaranga akoreshwa mu vy’ukuri hose kw’isi.
+wrong_answers:
+  - Kuko mu vy’ukuri nta hantu na hamwe rikoreshwa.
+  - Kubera ko rigenzurwa n’ubutegetsi buhambaye.
+  - Kubera ko vyoroshe kwigana.
+explanation: >-
+reviewed: true

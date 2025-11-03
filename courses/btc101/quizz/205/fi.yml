@@ -1,9 +1,12 @@
-question: Mikä on yksi syy siihen, miksi sinun tulisi ajoittain yhdistää UTXO; si lompakoissasi?
-answer: Välttääksesi tarpeettomia maksuja tapahtumien aikana.
+question: Miten tämä kurssi kuvailee Bitcoinia?
+answer: Monitieteinen aihe.
 wrong_answers:
-  - Lisätäksesi bitcoiniesi arvoa.
-  - Estääksesi bitcoiniesi varastamisen.
-  - Varmistaaksesi, että bitcoinisi ovat aina saatavilla.
-explanation: >-
-  Tekstissä mainitaan, että UTXO: idesi yhdistäminen lompakoissasi ajoittain on olennaista bitcoiniesi tehokkaan hallinnan kannalta ja tarpeettomien maksujen välttämiseksi tapahtumien aikana.
+  - Yksinkertainen aihe.
+  - Fyysinen aihe.
+  - Yksitieteellinen aihe.
+explanation: |
+  Bitcoinia kuvataan monitieteisenä aiheena, koska
+  se herättää kysymyksiä liittyen useisiin eri aloihin, mukaan lukien
+  kryptografia, peliteoria, taloustiede ja rahapolitiikka,
+  tietojenkäsittelytiede, filosofia, energia, lait ja säädökset.
 reviewed: true

@@ -1,0 +1,13 @@
+question: Ni gute umurongo wa Bitcoin ugumya igihe c’umwihariko kidahinduka hagati y’uguhingura amabuye abiri?
+answer: Ingorane yo kuronka Hash ibereye irahinduka buri 2016 blocks.
+wrong_answers:
+  - Igitigiri c’abacukuzi gitegekanijwe ku rugero rudahinduka.
+  - Ubwinshi bw’ivyo bipande burahindurwa bukaba megabytes 10.
+  - Ingororano yo kuronka Hash ibereye iragwira.
+explanation: |
+  Itegeko rya Bitcoin rituma igihe hagati y’
+  amabuye abiri aguma ari amwe mu guhindura ingorane za .
+  kuronka Hash ikora buri mabarabara ya 2016. Ibi vyabaye
+  utitaye ku mubare w'abacukuzi b'amabuye y'agaciro n'ubuhinga bwabo bwo gukoresha ubuhinga bwa none .
+  ububasha.
+reviewed: true

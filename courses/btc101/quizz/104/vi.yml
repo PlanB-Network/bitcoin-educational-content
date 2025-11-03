@@ -1,12 +1,13 @@
-question: Điều nào không phải là cụm từ gợi nhớ trong bối cảnh của Bitcoin?
-answer: Mật khẩu cho ví Bitcoin của bạn.
+question: KYC viết tắt của cụm từ nào?
+answer: Biết Khách Hàng của Bạn.
 wrong_answers:
-  - Một danh sách gồm 12 từ từ một từ điển cụ thể.
-  - Một danh sách gồm 24 từ từ một từ điển cụ thể.
-  - Bí mật để truy cập vào quỹ bitcoin của bạn.
+  - Giữ Tiền của Bạn.
+  - Gõ Mã của Bạn.
+  - Lịch Sự Tuân Thủ.
 explanation: |
-  Một cụm từ gợi nhớ trong bối cảnh của Bitcoin là một danh sách gồm 12
-  hoặc 24 từ cho phép bạn khôi phục ví của mình trên bất kỳ
-  ứng dụng ví Bitcoin nào. Bất kỳ ai có quyền truy cập vào danh sách này
-  cũng có thể truy cập vào bitcoin của bạn.
+  KYC hay Biết Khách Hàng của Bạn ám chỉ quy trình mà
+  các doanh nghiệp áp dụng để xác minh danh tính của khách hàng của họ.
+  Điều này thường được thực hiện để đảm bảo tuân thủ
+  các quy định và ngăn chặn các hoạt động bất hợp pháp như rửa tiền
+  hoặc gian lận.
 reviewed: true

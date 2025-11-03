@@ -1,0 +1,9 @@
+question: Quelle est la fonction principale d’un portefeuille Bitcoin ?
+answer: Stocker et gérer les clés privées
+wrong_answers:
+  - Stocker et gérer la blockchain complète
+  - Vérifier la validité des blocs
+  - Relayer les transactions du réseau
+explanation: |
+  Un portefeuille Bitcoin gère les clés privées qui permettent de dépenser les bitcoins, mais il n’exécute pas les fonctions d’un nœud.
+reviewed: false

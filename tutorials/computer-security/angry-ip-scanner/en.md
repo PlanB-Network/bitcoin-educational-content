@@ -32,7 +32,7 @@ Less comprehensive than Nmap, **Angry IP** Scanner is still interesting for a qu
 If you want to go further, see the tutorial on Nmap:
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 ## II. Getting started with Angry IP Scanner
 
@@ -63,8 +63,8 @@ On first launch, take the time to read the instructions in the "**Getting Starte
 
 
 
-- Feeder**: module responsible for generating lists of IP addresses to be scanned, from a random IP range or a file with a list of IP addresses.
-- Fetcher**: a set of modules for retrieving information about hosts on the network. There are, for example, fetchers to detect MAC addresses, scan ports, detect host names or send HTTP requests.
+- **Feeder**: module responsible for generating lists of IP addresses to be scanned, from a random IP range or a file with a list of IP addresses.
+- **Fetcher**: a set of modules for retrieving information about hosts on the network. There are, for example, fetchers to detect MAC addresses, scan ports, detect host names or send HTTP requests.
 
 
 ![Image](assets/fr/018.webp)
@@ -136,4 +136,4 @@ If you'd like to use **Nmap** with a graphical Interface, you can use **the Zenm
 ![Image](assets/fr/015.webp)
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d

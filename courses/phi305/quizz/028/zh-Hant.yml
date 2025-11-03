@@ -1,0 +1,9 @@
+question: 誰的座右銘是「為自己思考」？
+answer: 康德。
+wrong_answers:
+  - 斯賓諾莎
+  - 狄德羅
+  - 唐納德-川普
+explanation: |
+  為自己思考」(sapere aude) 是康德 (Immanuel Kant) 的座右銘，也是啟蒙運動的口號。這是關於勇於運用自己的理解，而不需要他人的教導。
+reviewed: false

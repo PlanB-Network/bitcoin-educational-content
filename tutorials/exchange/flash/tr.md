@@ -1,5 +1,5 @@
 ---
-name: Flaş
+name: Flash
 description: Lightning'in gücü sayesinde 100 CFA frankından bitcoin satın alın.
 ---
 
@@ -39,8 +39,8 @@ Platform tarafından sunulan iki ana hizmet vardır:
 
 
 
-- FlashX**: Mobil Para ile Exchange bitcoinleri.
-- FlashPayment**: Günlük hizmetler için Bitcoin kullanın.
+- **FlashX**: Mobil Para ile Exchange bitcoinleri.
+- **FlashPayment**: Günlük hizmetler için Bitcoin kullanın.
 
 
 
@@ -73,9 +73,9 @@ Flash, işlemlerini yerel Mobil Para kullanarak gerçekleştirir. Batı Afrika'd
 
 
 
-- Benin**: MTN Benin, Moov Benin, Celtiis.
-- Togo** : Moov Togo.
-- Burkina-Faso**: Turuncu.
+- **Benin**: MTN Benin, Moov Benin, Celtiis.
+- **Togo**: Moov Togo.
+- **Burkina-Faso**: Turuncu.
 
 
 
@@ -110,7 +110,7 @@ Bilgilerinizi ve yapmak istediğiniz işlemin tutarını girin.
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 Flash üzerinde bir işlem yaptığınızda, Bitcoin'lerinizi Lightning Wallet'nize almanız ortalama 5 ila 10 dakika sürecektir.
 
@@ -157,10 +157,10 @@ Flash, bitcoin alıp satmanın yanı sıra, topluluğuna Bitcoin'in bağlamsal k
 
 
 
-- GSM** birimleri;
-- İnternet paketleri**;
-- Çağrı paketleri**;
-- Arama ve İnternet paketinin bir kombinasyonu**.
+- **GSM** birimleri;
+- **İnternet paketleri**;
+- **Çağrı paketleri**;
+- Arama ve İnternet paketinin bir **kombinasyonu**.
 
 
 
@@ -202,4 +202,4 @@ Bu eğitimi Flash ile tanışmanızda faydalı bulduysanız, lütfen bize bir Gr
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1

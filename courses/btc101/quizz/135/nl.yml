@@ -1,8 +1,8 @@
-question: Wat is de functie van de moeilijkheidsaanpassing in het Bitcoin netwerk?
-answer: Het zorgt ervoor dat er ongeveer elke tien minuten een blok wordt toegevoegd aan de Blockchain.
+question: Wat is een gesnoeide node in de context van Bitcoin?
+answer: Een knooppunt dat alleen de laatste N blokken in het geheugen bewaart.
 wrong_answers:
-  - Het bepaalt de prijs van Bitcoin.
-  - Het regelt het aantal bitcoins dat kan worden gemined in de Blockchain.
-  - Het bepaalt de grootte van een blok.
+  - Een knooppunt dat alleen transacties valideert.
+  - Een knooppunt dat alleen informatie verzendt naar andere knooppunten.
+  - Een knooppunt dat alleen de regels van het Bitcoin protocol afdwingt.
 explanation: >-
 reviewed: true

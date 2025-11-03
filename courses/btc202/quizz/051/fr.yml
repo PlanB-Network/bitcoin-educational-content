@@ -1,0 +1,9 @@
+question: Dans quel cas un utilisateur doit-il absolument installer un indexeur ?
+answer: Pour faire tourner un explorateur de blocs
+wrong_answers:
+  - Pour miner des blocs soi-même
+  - Pour activer le Lightning Network
+  - Pour signer des transactions
+explanation: |
+  Un indexeur devient indispensable pour les usages avancés comme un explorateur local.
+reviewed: false

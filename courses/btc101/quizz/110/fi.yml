@@ -1,11 +1,10 @@
-question: Mikä on Blockmit Bitcoin-turvallisuuden kontekstissa?
-answer: Edullinen ratkaisu kaivertaa muistisanesi teräspalaseen.
+question: Milloin Satoshi Nakamoto katosi?
+answer: Vuonna 2010
 wrong_answers:
-  - Eräänlainen Bitcoin-lompakko, jolla voi allekirjoittaa useita siirtoja kerralla.
-  - Edullinen ratkaisu louhia bitcoineja kotona.
-  - Eräänlainen Bitcoin-lompakko, joka vaatii useita allekirjoituksia UTXOjen käyttämiseen.
+  - Vuonna 2008
+  - Vuonna 2009
+  - Vuonna 2023
 explanation: |
-  Blockmit on edullinen ratkaisu kaivertaa muistisanesi
-  kestävään materiaaliin, kuten teräkseen, näin
-  turvaten bitcoinsi pitkällä aikavälillä.
+  Satoshi Nakamoto katosi vuonna 2010, jättäen luomuksensa
+  yhteisön käsiin.
 reviewed: true

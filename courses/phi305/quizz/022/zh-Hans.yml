@@ -1,0 +1,9 @@
+question: 机器动物 的概念归因于什么？
+answer: 笛卡尔
+wrong_answers:
+  - 斯宾诺莎
+  - 伽利略
+  - 爱因斯坦
+explanation: |
+  机器动物的概念由笛卡尔提出。根据这一理论，动物是复杂的自动机，没有灵魂或意识，完全按照机械原理运作。
+reviewed: false

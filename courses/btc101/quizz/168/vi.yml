@@ -1,9 +1,11 @@
-question: Bitcoin có thể giúp ích như thế nào cho quá trình chuyển đổi sinh thái?
-answer: Nó thúc đẩy việc sử dụng năng lượng xanh.
+question: Một cách để giảm thiểu sự biến động của Bitcoin là gì?
+answer: Các biện pháp phòng ngừa tài chính (stablecoins).
 wrong_answers:
-  - Nó giảm sản xuất hàng hóa.
-  - Nó điều tiết việc tiêu thụ tài nguyên.
-  - Nó hạn chế việc phát thải chỉ các khí nhà kính.
+  - Đầu tư toàn bộ tiền của bạn vào Bitcoin.
+  - Bỏ qua xu hướng thị trường.
+  - Mua thêm Bitcoin khi giá giảm.
 explanation: >-
-  Bitcoin thúc đẩy việc sử dụng năng lượng xanh, có thể giúp ích cho quá trình chuyển đổi sinh thái. Ví dụ, ngọn lửa ở các giếng dầu, chúng đốt cháy methane để ngăn chặn ô nhiễm, có thể được dập tắt bởi các thợ đào Bitcoin.
+  Sự biến động của Bitcoin có thể được giảm thiểu bằng một số giải pháp như
+  các biện pháp phòng ngừa tài chính (stablecoins), niềm tin lâu dài mạnh mẽ (hodling), hoặc đơn giản
+  là không đầu tư 100% số tiền của mình vào Bitcoin mà không hiểu bất cứ điều gì.
 reviewed: true

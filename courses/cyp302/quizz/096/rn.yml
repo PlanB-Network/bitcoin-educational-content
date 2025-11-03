@@ -1,0 +1,9 @@
+question: Ni intambwe zitatu z’ishimikiro izihe ziri mu mugambi wa MAC?
+answer: Urufunguzo rwo guhingura, guhingura ibimenyetso, kugenzura
+wrong_answers:
+  - Gushiramwo amakuru, gukuraho amakuru, gutanga amakuru
+  - Urufunguzo rwa bose, gushiramwo urufunguzo rw'ibanga, kwemeza
+  - Ubutumwa bujanye n'ibindi, gushiramwo amakuru, gukwiragiza amakuru
+explanation: |
+  Igishushanyo ca MAC gifise intambwe zitatu nyamukuru: gutanga urufunguzo rw’ibanga, gutanga ikimenyetso c’ubutumwa, no kugenzura ko ubutumwa bwakiriwe n’ikimenyetso cabwo bihuye.
+reviewed: false

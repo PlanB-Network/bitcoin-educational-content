@@ -61,9 +61,9 @@ Nguvu za Nmap ni nyingi:
 
 
 
-- Yenye nguvu na rahisi**: Nmap inaweza kuchanganua mitandao mikubwa na kutumia mbinu za juu za utambuzi. Inaauni UDP, TCP, ICMP, IPv4 na IPv6, na inaweza kutambua toleo, uchanganuzi wa kuathirika au mwingiliano mahususi wa itifaki. Usanifu wake ni wa msimu, shukrani haswa kwa hati za NSE (Nmap Scripting Engine), ambazo tutaziangalia baadaye katika somo hili.
-- Urahisi wa kutumia**: hati rasmi ni nyingi na za ubora wa juu zaidi. Rasilimali nyingi za jumuiya zinapatikana pia kukusaidia kuanza.
-- Umaarufu na maisha marefu**: Nmap imekuwa rejeleo katika uwanja wake tangu 1998. Toleo la sasa, wakati wa sasisho hili, ni 7.95. Ingawa zana zingine zipo kwa kazi mahususi, Nmap inasalia kuwa lazima iwe nayo kwa uchoraji ramani na uchanganuzi wa mtandao.
+- **Yenye nguvu na rahisi**: Nmap inaweza kuchanganua mitandao mikubwa na kutumia mbinu za juu za utambuzi. Inaauni UDP, TCP, ICMP, IPv4 na IPv6, na inaweza kutambua toleo, uchanganuzi wa kuathirika au mwingiliano mahususi wa itifaki. Usanifu wake ni wa msimu, shukrani haswa kwa hati za NSE (Nmap Scripting Engine), ambazo tutaziangalia baadaye katika somo hili.
+- **Urahisi wa kutumia**: hati rasmi ni nyingi na za ubora wa juu zaidi. Rasilimali nyingi za jumuiya zinapatikana pia kukusaidia kuanza.
+- **Umaarufu na maisha marefu**: Nmap imekuwa rejeleo katika uwanja wake tangu 1998. Toleo la sasa, wakati wa sasisho hili, ni 7.95. Ingawa zana zingine zipo kwa kazi mahususi, Nmap inasalia kuwa lazima iwe nayo kwa uchoraji ramani na uchanganuzi wa mtandao.
 
 
 
@@ -87,7 +87,7 @@ Anaonekana pia katika kazi zingine za sinema.
 
 
 
-**Maoni
+**Maoni**
 
 
 
@@ -485,25 +485,25 @@ Iwe kwenye Linux au Windows, kuna hali nyingi ambapo Nmap itakuuliza upate ufiki
 
 
 
-- Kuunda pakiti za mtandao "mbichi"**: Nmap ina uwezo wa anuwai ya mbinu za kuchanganua, ikiwa ni pamoja na upotoshaji wa pakiti wa hali ya juu na ujenzi. Hivi ndivyo hali ilivyo, kwa mfano, tunapotaka kufanya uchanganuzi wa TCP SYN, ambao hauheshimu desturi ya _Three-way handshake_ ya ubadilishanaji wa TCP. Ili kufanya hivyo, Nmap inahitaji kutumia vitendaji isipokuwa zile asili za mifumo ya uendeshaji, ambayo inajua tu jinsi ya kuheshimu utendaji mzuri katika mawasiliano ya mtandao (inatoa wito kwa maktaba za "Npcap" na "libcap" zilizoonekana hapo juu). Ni kwa sababu Nmap haifanyi mambo kwa njia "ya kawaida" ambayo inaweza kupata habari fulani kuhusu OS, huduma na udhaifu fulani.
+- Kuunda pakiti za mtandao "mbichi": Nmap ina uwezo wa anuwai ya mbinu za kuchanganua, ikiwa ni pamoja na upotoshaji wa pakiti wa hali ya juu na ujenzi. Hivi ndivyo hali ilivyo, kwa mfano, tunapotaka kufanya uchanganuzi wa TCP SYN, ambao hauheshimu desturi ya _Three-way handshake_ ya ubadilishanaji wa TCP. Ili kufanya hivyo, Nmap inahitaji kutumia vitendaji isipokuwa zile asili za mifumo ya uendeshaji, ambayo inajua tu jinsi ya kuheshimu utendaji mzuri katika mawasiliano ya mtandao (inatoa wito kwa maktaba za "Npcap" na "libcap" zilizoonekana hapo juu). Ni kwa sababu Nmap haifanyi mambo kwa njia "ya kawaida" ambayo inaweza kupata habari fulani kuhusu OS, huduma na udhaifu fulani.
 
 
 
 
 
-- Sikiliza trafiki ya mtandao**: baadhi ya chaguo za Nmap huihitaji isikilize mtandao ili kupata taarifa fulani. Kitendo hiki kinachukuliwa kuwa nyeti kwenye mifumo ya uendeshaji, kwani pia hukuruhusu kusikiliza mawasiliano ya programu zingine kwenye mfumo. Kama vile Wireshark, Nmap inahitaji mapendeleo maalum kufanya hivi, ambayo ni rahisi kupata kwa kuwa moja kwa moja kwenye kipindi cha bahati.
+- **Sikiliza trafiki ya mtandao**: baadhi ya chaguo za Nmap huihitaji isikilize mtandao ili kupata taarifa fulani. Kitendo hiki kinachukuliwa kuwa nyeti kwenye mifumo ya uendeshaji, kwani pia hukuruhusu kusikiliza mawasiliano ya programu zingine kwenye mfumo. Kama vile Wireshark, Nmap inahitaji mapendeleo maalum kufanya hivi, ambayo ni rahisi kupata kwa kuwa moja kwa moja kwenye kipindi cha bahati.
 
 
 
 
 
-- Kusikiliza kwenye bandari za upendeleo**: kwenye mifumo ya uendeshaji, bandari kutoka 0 hadi 1024 (TCP pamoja na UDP) zinasemekana kuwa za upendeleo, i.e. zimehifadhiwa kwa matumizi maalum sana na kwa hivyo zinalindwa. Ingawa hii ni sababu ya kizamani leo, bado ni muhimu kuwa na mapendeleo fulani ya kusikiliza kwenye bandari hizi, ambayo Nmap inaweza kufanya kulingana na jinsi itatumika.
+- Kusikiliza kwenye bandari za upendeleo: kwenye mifumo ya uendeshaji, bandari kutoka 0 hadi 1024 (TCP pamoja na UDP) zinasemekana kuwa za upendeleo, i.e. zimehifadhiwa kwa matumizi maalum sana na kwa hivyo zinalindwa. Ingawa hii ni sababu ya kizamani leo, bado ni muhimu kuwa na mapendeleo fulani ya kusikiliza kwenye bandari hizi, ambayo Nmap inaweza kufanya kulingana na jinsi itatumika.
 
 
 
 
 
-- Kutuma pakiti za UDP:** Vile vile, kusikiliza programu ya mtandao kwenye bandari za UDP (itifaki isiyo na uraia) kunahitaji haki za upendeleo kwenye mifumo ya uendeshaji. Kwa hivyo, kikao cha upendeleo kitahitajika ikiwa ungependa kufanya uchunguzi wa UDP, ambao Nmap italazimika kusikiliza jibu ili kuchanganua majibu ya skanisho zake.
+- Kutuma pakiti za UDP: Vile vile, kusikiliza programu ya mtandao kwenye bandari za UDP (itifaki isiyo na uraia) kunahitaji haki za upendeleo kwenye mifumo ya uendeshaji. Kwa hivyo, kikao cha upendeleo kitahitajika ikiwa ungependa kufanya uchunguzi wa UDP, ambao Nmap italazimika kusikiliza jibu ili kuchanganua majibu ya skanisho zake.
 
 
 
@@ -562,13 +562,13 @@ Kuanzia sasa na kuendelea, kumbuka kuchanganua seva pangishi pekee katika mazing
 
 
 
-- [Hack The Box](https://app.hackthebox.com/ "Hack The Box")**: Jukwaa la mafunzo la Udukuzi, Hack The Box kila mara hukupa mifumo hatarishi ili uweze kushambulia unavyoona inafaa. Mifumo mia kadhaa inapatikana, lakini dimbwi jipya la mashine 20 hutolewa bila malipo mwaka mzima, na ufikiaji kupitia OpenVPN VPN.
+- [Hack The Box](https://app.hackthebox.com/ "Hack The Box"): Jukwaa la mafunzo la Udukuzi, Hack The Box kila mara hukupa mifumo hatarishi ili uweze kushambulia unavyoona inafaa. Mifumo mia kadhaa inapatikana, lakini dimbwi jipya la mashine 20 hutolewa bila malipo mwaka mzima, na ufikiaji kupitia OpenVPN VPN.
 
 
 
 
 
-- [Vulnhub](https://www.vulnhub.com/ "Vulnhub")**: Mfumo huu unatoa mifumo mingi hatarishi kimakusudi kwa upakuaji, ambayo inaweza kutumika kupitia VirtualBox (pia suluhu isiyolipishwa) au njia nyinginezo. Mara baada ya kupakuliwa, hakuna haja ya VPN - kila kitu ni cha ndani.
+- [Vulnhub](https://www.vulnhub.com/ "Vulnhub"): Mfumo huu unatoa mifumo mingi hatarishi kimakusudi kwa upakuaji, ambayo inaweza kutumika kupitia VirtualBox (pia suluhu isiyolipishwa) au njia nyinginezo. Mara baada ya kupakuliwa, hakuna haja ya VPN - kila kitu ni cha ndani.
 
 
 
@@ -815,7 +815,7 @@ jibu kwa pakiti ya TCP SYN iliyotumwa kwenye mlango wa 22, inayotumika kwenye sh
 
 
 
-Katika picha ya skrini iliyo hapo juu, tunaona pakiti ya TCP SYN/ACK iliyotumwa na mwenyeji lengwa**. Bandari inatumika na inaonyesha huduma. Nmap inakubali kupokea jibu, kisha hukatisha muunganisho (TCP RST/ACK). **Hivi ndivyo ilivyojua kuwa bandari TCP/22 ilikuwa hai**.
+Katika picha ya skrini iliyo hapo juu, tunaona pakiti ya TCP SYN/ACK iliyotumwa na mwenyeji lengwa. Bandari inatumika na inaonyesha huduma. Nmap inakubali kupokea jibu, kisha hukatisha muunganisho (TCP RST/ACK). **Hivi ndivyo ilivyojua kuwa bandari TCP/22 ilikuwa hai**.
 
 
 
@@ -976,7 +976,7 @@ Kama tulivyoona, Nmap yenyewe huchagua nambari na milango ya kuchanganua ikiwa h
 
 
 
-**Bandari hizi huchaguliwaje?
+**Bandari hizi huchaguliwaje?**
 
 
 
@@ -1060,7 +1060,7 @@ Bila kujali agizo, Nmap itaangalia bandari hizi zote, na zile tu zilizo kwenye s
 
 
 
-**Changanua anuwai ya bandari
+**Changanua anuwai ya bandari**
 
 
 
@@ -1096,7 +1096,7 @@ nmap 192.168.1.19 -p 22,80,1000-2000,3389
 
 
 
-**Uchanganuzi wa bandari wa TCP na UDP
+**Uchanganuzi wa bandari wa TCP na UDP**
 
 
 
@@ -1134,7 +1134,7 @@ Sasa hiyo ni njia ya kuvutia ya kubinafsisha uchanganuzi wako!
 
 
 
-** Changanua bandari zote
+**Changanua bandari zote**
 
 
 
@@ -1347,7 +1347,7 @@ Lakini kuna zaidi ya hilo. Unaweza kuona kwenye picha ya Wireshark hapo juu kwam
 
 
 
-**Kwa nini utume pakiti za TCP kwenye bandari kama sehemu ya ugunduzi wa mtandao?
+**Kwa nini utume pakiti za TCP kwenye bandari kama sehemu ya ugunduzi wa mtandao?**
 
 
 
@@ -2165,31 +2165,31 @@ Hebu tuseme wazi: Nmap haina uwezo wa kufanya jaribio kamili la kupenya la mfumo
 
 
 
-- Ufikiaji mdogo**: ingawa hati za Nmap za NSE zina nguvu, ufikiaji wao wa majaribio unaweza kuwa mdogo ikilinganishwa na zana zingine maalum za kugundua athari. Baadhi ya udhaifu hauwezi kufunikwa na hati za NSE zinazopatikana, kama vile udhaifu wa Active Directory, kufichua data nyeti au matukio ya kina zaidi ya programu za wavuti zinazoweza kuathirika.
+- **Ufikiaji mdogo**: ingawa hati za Nmap za NSE zina nguvu, ufikiaji wao wa majaribio unaweza kuwa mdogo ikilinganishwa na zana zingine maalum za kugundua athari. Baadhi ya udhaifu hauwezi kufunikwa na hati za NSE zinazopatikana, kama vile udhaifu wa Active Directory, kufichua data nyeti au matukio ya kina zaidi ya programu za wavuti zinazoweza kuathirika.
 
 
 
 
 
-- Utata wa mazingira magumu**: aina fulani za athari zinaweza kuwa vigumu kutambua kwa kutumia hati za NSE kutokana na uchangamano wake. Kwa mfano, udhaifu unaohitaji mwingiliano changamano na huduma ya mbali hauwezi kutambuliwa vyema na Nmap (kama ilivyo kwa ruhusa nyingi katika kushiriki faili au dosari ya udhibiti wa ruhusa katika programu ya wavuti).
+- Utata wa mazingira magumu: aina fulani za athari zinaweza kuwa vigumu kutambua kwa kutumia hati za NSE kutokana na uchangamano wake. Kwa mfano, udhaifu unaohitaji mwingiliano changamano na huduma ya mbali hauwezi kutambuliwa vyema na Nmap (kama ilivyo kwa ruhusa nyingi katika kushiriki faili au dosari ya udhibiti wa ruhusa katika programu ya wavuti).
 
 
 
 
 
-- Ugunduzi wa hali tuli**: Nmap inaangazia uchanganuzi unaoendelea ili kugundua udhaifu, kumaanisha kuwa inaweza isitambue kwa njia inayofaa uwezekano wa udhaifu bila kuanzisha muunganisho unaotumika na wapangishi lengwa. Udhaifu ambao haujidhihirishi wakati wa uchanganuzi unaoendelea unaweza kukosa (kama ilivyo kwa udungaji wa msimbo kwenye programu ya wavuti).
+- **Ugunduzi wa hali tuli**: Nmap inaangazia uchanganuzi unaoendelea ili kugundua udhaifu, kumaanisha kuwa inaweza isitambue kwa njia inayofaa uwezekano wa udhaifu bila kuanzisha muunganisho unaotumika na wapangishi lengwa. Udhaifu ambao haujidhihirishi wakati wa uchanganuzi unaoendelea unaweza kukosa (kama ilivyo kwa udungaji wa msimbo kwenye programu ya wavuti).
 
 
 
 
 
-- Utegemezi wa masasisho**: [database](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) ya hati za NSE inaendelea kubadilika, lakini kunaweza kuwa na kuchelewa kati ya ugunduzi wa athari mpya na kuongezwa kwa hati inayolingana na Nmap. Kwa hivyo, Nmap huenda isisasishwe kila wakati na udhaifu wa hivi punde.
+- **Utegemezi wa masasisho**: [database](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) ya hati za NSE inaendelea kubadilika, lakini kunaweza kuwa na kuchelewa kati ya ugunduzi wa athari mpya na kuongezwa kwa hati inayolingana na Nmap. Kwa hivyo, Nmap huenda isisasishwe kila wakati na udhaifu wa hivi punde.
 
 
 
 
 
-- Chanya zisizo za kweli na hasi za uwongo**: kama ilivyo kwa zana yoyote ya usalama, hati za Nmap za NSE zinaweza kutoa chanya za uwongo (tahadhari za uwezekano wa kuathiriwa) au hasi za uwongo (udhaifu halisi haujatambuliwa). Hili ni jambo la kuzingatia wakati wa kuchambua matokeo ya Nmap.
+- **Chanya zisizo za kweli na hasi za uwongo**: kama ilivyo kwa zana yoyote ya usalama, hati za Nmap za NSE zinaweza kutoa chanya za uwongo (tahadhari za uwezekano wa kuathiriwa) au hasi za uwongo (udhaifu halisi haujatambuliwa). Hili ni jambo la kuzingatia wakati wa kuchambua matokeo ya Nmap.
 
 
 

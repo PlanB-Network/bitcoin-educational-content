@@ -1,9 +1,13 @@
-question: Cuộc chiến về kích thước khối đã xảy ra vào khi nào?
-answer: Vào năm 2017.
+question: Mục đích của khóa học Bitcoin này là gì?
+answer: Giới thiệu một số khía cạnh tiền tệ chung của Bitcoin, cách sử dụng và tương lai của nó.
 wrong_answers:
-  - Vào năm 2008.
-  - Vào năm 2010.
-  - Vào năm 2019.
-explanation: >-
-  Cuộc chiến về kích thước khối đã xảy ra vào năm 2017. Xung đột này đối đầu giữa những người muốn chỉnh sửa Bitcoin bằng cách tăng kích thước khối để tăng khả năng xử lý giao dịch, với những người tìm cách bảo vệ độc lập và quyền lực của người dùng bằng cách giữ kích thước ở mức 1 MB.
+  - Giới thiệu cách đào Bitcoin.
+  - Giới thiệu cách quản lý Bitcoin.
+  - Giới thiệu cách tạo một giao thức Bitcoin mới.
+explanation: |
+  Mục đích của khóa học Bitcoin này là thảo luận về
+  các đặc điểm tiền tệ chung của Bitcoin, bao gồm cách
+  mua và bán bitcoin, lưu trữ an toàn chúng trong ví điện tử,
+  và sử dụng chúng cho các giao dịch. Nó cũng nhằm mục đích
+  khám phá tương lai của Bitcoin.
 reviewed: true

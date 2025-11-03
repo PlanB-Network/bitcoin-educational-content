@@ -1,12 +1,12 @@
-question: Quel est le but principal du Lightning Network ?
-answer: Faciliter les micro-transactions.
+question: Quel est l'un des avantages potentiels du Lightning Network pour les créateurs de contenu ?
+answer: Ils seraient incités à produire du contenu de bonne qualité pour retenir l'attention des utilisateurs.
 wrong_answers:
-  - Augmenter la valeur du Bitcoin.
-  - Remplacer le protocole Bitcoin.
-  - Créer une nouvelle cryptomonnaie.
-explanation: >-
-  Le Lightning Network est une solution de deuxième couche au protocole Bitcoin
-  qui vise à faciliter les micro-transactions, qui sont des transactions de très faible valeur
-  qui seraient autrement impraticables en raison des frais plus élevés et des longs temps de confirmation
-  sur la blockchain Bitcoin.
-reviewed: true
+  - Ils pourraient facturer plus cher pour leur contenu.
+  - Ils pourraient toucher un public plus large.
+  - Ils pourraient produire du contenu plus rapidement pour retenir l'attention des utilisateurs.
+explanation: |
+  Avec le Lightning Network, les créateurs de contenu seraient
+  incités à produire du contenu de bonne qualité pour retenir
+  l'attention des utilisateurs. Les utilisateurs, à leur tour,
+  ne paieraient que pour le contenu qu'ils consomment, éliminant
+  ainsi les frais d'abonnement préalables.

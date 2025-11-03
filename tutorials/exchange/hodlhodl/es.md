@@ -12,9 +12,8 @@ Hodl Hodl es un intercambio descentralizado de Bitcoin que prioriza el control y
 
 https://hodlhodl.com/pages/faq_help
 
-## guía de escritura:
+## Comience su recorrido en Hodl Hodl
 
-Iniciando tu viaje con HodlHodl: Una guía paso a paso
 
 ![imagen](assets/5.webp)
 
@@ -47,43 +46,43 @@ Para comenzar a operar con BTC, primero deberás proporcionar tu dirección de B
 
 Guía de Bitcoiner Q&A https://bitcoiner.guide/hodlhodl/
 
-1. Visita hodlhodl.com y crea tu cuenta. Los únicos detalles que debes proporcionar son un nombre de usuario y una dirección de correo electrónico. Luego serás redirigido a la página de inicio.
+- Visita hodlhodl.com y crea tu cuenta. Los únicos detalles que debes proporcionar son un nombre de usuario y una dirección de correo electrónico. Luego serás redirigido a la página de inicio.
 
 ![cover](assets/11.webp)
 
-2. Haz clic en "Comprar BTC" en el encabezado del sitio web.
+- Haz clic en "Comprar BTC" en el encabezado del sitio web.
 
 ![cover](assets/12.webp)
 
-3. Selecciona tu tipo y método de pago deseado. También puedes especificar una cantidad específica aquí si es necesario.
+- Selecciona tu tipo y método de pago deseado. También puedes especificar una cantidad específica aquí si es necesario.
 
 ![cover](assets/13.webp)
 
-4. Selecciona la oferta deseada. Luego puedes revisar los detalles de la operación y también leer los informes de actividad y calificaciones de los pares.
+- Selecciona la oferta deseada. Luego puedes revisar los detalles de la operación y también leer los informes de actividad y calificaciones de los pares.
 
 ![cover](assets/14.webp)
 
-5. Una vez que estés satisfecho, puedes especificar cuánto deseas comprar, ingresar la dirección a la que te gustaría que se envíe el bitcoin y confirmar el método de pago anunciado por el vendedor. Haz clic en "Aceptar oferta y crear contrato".
+- Una vez que estés satisfecho, puedes especificar cuánto deseas comprar, ingresar la dirección a la que te gustaría que se envíe el bitcoin y confirmar el método de pago anunciado por el vendedor. Haz clic en "Aceptar oferta y crear contrato".
 
 ![cover](assets/15.webp)
 
-6. Ahora tienes tu contrato creado y debes hacer clic en "Generar Fideicomiso", donde se te pedirá que crees una contraseña de pago. La contraseña de pago es una clave de encriptación para el par de claves de fideicomiso del usuario. Se utiliza para depositar o liberar Bitcoin en o desde el fideicomiso.
+- Ahora tienes tu contrato creado y debes hacer clic en "Generar Fideicomiso", donde se te pedirá que crees una contraseña de pago. La contraseña de pago es una clave de encriptación para el par de claves de fideicomiso del usuario. Se utiliza para depositar o liberar Bitcoin en o desde el fideicomiso.
 
 ![cover](assets/16.webp)
 
-7. Ahora debes esperar a que el vendedor deposite sus bitcoins en la billetera de fideicomiso. Después de iniciar el contrato, puedes chatear con el vendedor utilizando el cuadro de chat en el lado derecho de la página.
+- Ahora debes esperar a que el vendedor deposite sus bitcoins en la billetera de fideicomiso. Después de iniciar el contrato, puedes chatear con el vendedor utilizando el cuadro de chat en el lado derecho de la página.
 
 ![cover](assets/17.webp)
 
-8. Una vez que el vendedor haya depositado sus fondos en el fideicomiso, verás esta pantalla que te aconseja no enviar tu dinero hasta que haya un número suficiente de confirmaciones en la cadena de bloques (esto varía según las condiciones de la operación). Puedes verificar el progreso de la transacción de depósito del vendedor haciendo clic en el enlace azul "ID de transacción de depósito".
+- Una vez que el vendedor haya depositado sus fondos en el fideicomiso, verás esta pantalla que te aconseja no enviar tu dinero hasta que haya un número suficiente de confirmaciones en la cadena de bloques (esto varía según las condiciones de la operación). Puedes verificar el progreso de la transacción de depósito del vendedor haciendo clic en el enlace azul "ID de transacción de depósito".
 
 ![cover](assets/18.webp)
 
-9. Una vez confirmado, recibirás una notificación y luego podrás enviar los fondos al vendedor según los detalles que te proporcionará. Una vez que hayas hecho esto, haz clic en "He enviado el pago".
+- Una vez confirmado, recibirás una notificación y luego podrás enviar los fondos al vendedor según los detalles que te proporcionará. Una vez que hayas hecho esto, haz clic en "He enviado el pago".
 
 ![cover](assets/19.webp)
 
-10. Luego deberás esperar a que el vendedor confirme que ha recibido los fondos, momento en el cual el bitcoin se liberará en la dirección que especificaste al inicio del contrato. También se te dará la oportunidad de calificar a tu par.
+- Luego deberás esperar a que el vendedor confirme que ha recibido los fondos, momento en el cual el bitcoin se liberará en la dirección que especificaste al inicio del contrato. También se te dará la oportunidad de calificar a tu par.
 
 ![cover](assets/20.webp)
 
@@ -180,3 +179,4 @@ Contáctanos
 - Reddit: hodlhodl.reddit.com
 - Facebook: facebook.com/HHodl
 - Youtube: youtube.com/c/HodlHodl
+

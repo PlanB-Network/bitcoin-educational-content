@@ -1,12 +1,13 @@
-question: Qual è lo scopo della Proof of Work nella rete Bitcoin?
-answer: La Proof of Work assicura la veridicità delle informazioni senza affidarsi a un terzo.
+question: Come mantiene il protocollo Bitcoin un tempo medio costante tra la creazione di due blocchi?
+answer: La difficoltà nel trovare un hash valido si aggiusta ogni 2016 blocchi.
 wrong_answers:
-  - La Proof of Work è utilizzata per creare nuovi bitcoin affidandosi a un terzo.
-  - La Proof of Work è utilizzata per verificare le transazioni Bitcoin affidandosi a un terzo.
-  - La Proof of Work è utilizzata per cambiare il protocollo Bitcoin senza affidarsi a un terzo.
-explanation: >-
-  La Proof of Work è un algoritmo di consenso utilizzato nella rete Bitcoin
-  per validare le transazioni e creare nuovi blocchi. Richiede ai miner di risolvere problemi
-  matematici complessi, il che assicura l'autenticità delle informazioni nella
-  rete senza la necessità di un terzo di fiducia.
+  - Il numero di miner è regolato a un numero fisso.
+  - La dimensione dei blocchi è aggiustata a 10 megabyte.
+  - La ricompensa per aver trovato un hash valido è aumentata.
+explanation: |
+  Il protocollo Bitcoin assicura che il tempo medio tra
+  due blocchi rimanga costante aggiustando la difficoltà di
+  trovare un hash valido ogni 2016 blocchi. Questo evento avviene
+  indipendentemente dal numero di miner e dalla loro potenza
+  di calcolo.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Bitcoin Wallet'in ana işlevi nedir?
+answer: Özel anahtarların saklanması ve yönetilmesi
+wrong_answers:
+  - Blockchain'nin tamamını saklayın ve yönetin
+  - Blok geçerliliğini kontrol edin
+  - Aktarma ağı işlemleri
+explanation: |
+  Bir Bitcoin Wallet, bitcoinlerin harcanmasını sağlayan özel anahtarları yönetir, ancak bir düğümün işlevlerini yerine getirmez.
+reviewed: true

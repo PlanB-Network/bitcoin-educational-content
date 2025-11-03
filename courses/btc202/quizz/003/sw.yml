@@ -1,0 +1,9 @@
+question: Kulingana na Eric Voskuil katika kitabu Cryptoeconomics, usalama wa Bitcoin unategemea nini?
+answer: Juu ya watu binafsi
+wrong_answers:
+  - Kwenye Blockchain
+  - Kuhusu nguvu ya Hash
+  - Kuhusu kriptografia
+explanation: |
+  Eric Voskuil anaelezea kuwa usalama wa Bitcoin unategemea zaidi ya yote kwa watu wanaojihatarisha kudumisha mfumo.
+reviewed: true

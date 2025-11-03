@@ -1,11 +1,9 @@
-question: Koja je uloga notara u kontekstu Bitkoin nasleđivanja?
-answer: Oni osiguravaju usklađenost sa porezima.
+question: Kada je Bitkoin prvi put predstavljen svetu?
+answer: 31. oktobar 2008.
 wrong_answers:
-  - Oni upravljaju vašim bitkoinima nakon vaše smrti.
-  - Oni modifikuju vaš plan nasledstva.
-  - Oni osiguravaju vaše bitkoine u sefu.
+  - 3. januar 2009.
+  - 22. novembar 2009.
+  - 12. decembar 2010.
 explanation: |
-  U kontekstu Bitkoin nasleđivanja, važno je
-  razgovarati o nasleđivanju bitkoina sa notarom kako bi se osigurala
-  usklađenost sa poreskim propisima.
-reviewed: false
+  Bitkoin je prvi put predstavljen svetu 31. oktobra 2008. godine, kada je Satoshi Nakamoto poslao email na Cypherpunk mailing listu koji je sadržao Bitcoin White Paper (beli papir).
+reviewed: true

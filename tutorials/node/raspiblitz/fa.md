@@ -1,5 +1,5 @@
 ---
-name: راسپی‌بلیتز
+name: RaspiBlitz
 description: راهنمای راه‌اندازی RaspiBlitz شما
 ---
 

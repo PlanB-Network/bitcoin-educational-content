@@ -7,10 +7,10 @@ description: Muun Wallet'ınızın kurulumu
 ![cover](assets/cover.webp)
 
 
-Muun (https://muun.com/), Bitcoin ve yıldırım için kendi kendini gözetim altında tutan bir Wallet'dir.
+[Muun](https://muun.com/) bitcoin ve lightning için kendi kendine saklama cüzdanıdır.
 
 
-## video eğitimi
+## Video eğitimi
 
 
 ![video tutorial](https://youtu.be/t1rxp8InZW8)
@@ -19,7 +19,7 @@ Muun (https://muun.com/), Bitcoin ve yıldırım için kendi kendini gözetim al
 ## Muun Wallet - Tam Kullanım Kılavuzu
 
 
-Muun uygulaması için eksiksiz kullanım kılavuzu (ekran görüntüleriyle birlikte); Lightning Network üzerinde işlem yapmanızı sağlayan kullanıcı dostu bir mobil Bitcoin Wallet.
+Muun uygulaması için eksiksiz kullanıcı kılavuzu (ekran görüntüleriyle); Lightning Ağı üzerinde işlem yapmanıza olanak tanıyan kullanıcı dostu bir mobil Bitcoin cüzdanı.
 
 
 ![image](assets/0.5.webp)
@@ -182,19 +182,19 @@ Acil durum kiti, kitin oluşturulmasını onaylamak için daha önce kullandığ
 Bu acil durum prosedürü, cihazınızda Muun'u kullanamamanız durumunda paranızı kurtarmanıza yardımcı olacaktır.
 
 
-1. Kurtarma kodunuzu bulun
+- Kurtarma kodunuzu bulun
 
 
 Acil durum kitinizi oluşturmadan önce bu kodu bir kağıda yazdınız. Daha sonra ihtiyacınız olacak.
 
 
-2. Kurtarma aracını indirin
+- Kurtarma aracını indirin
 
 
 Https://github.com/muun/recovery sayfasına gidin ve aracı bilgisayarınıza indirin.
 
 
-3. Fonlarınızı geri alın
+- Fonlarınızı kurtarın
 
 
 Kurtarma aracını çalıştırın ve adımları izleyin. Araç, fonlarınızı seçtiğiniz bir Bitcoin Address'a aktaracaktır.

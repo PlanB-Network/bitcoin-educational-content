@@ -42,7 +42,7 @@ Ako želite da idete dalje, pogledajte tutorijal o Nmap:
 
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 ## II. Početak rada sa Angry IP Scanner
 
@@ -84,8 +84,8 @@ Prilikom prvog pokretanja, odvojite vreme da pročitate uputstva u prozoru "**Po
 
 
 
-- Feeder**: modul odgovoran za generisanje lista IP adresa koje treba skenirati, iz nasumičnog IP opsega ili iz datoteke sa listom IP adresa.
-- Fetcher**: skup modula za preuzimanje informacija o hostovima na mreži. Na primer, postoje fetcheri za detekciju MAC adresa, skeniranje portova, detekciju imena hostova ili slanje HTTP zahteva.
+- **Feeder**: modul odgovoran za generisanje lista IP adresa koje treba skenirati, iz nasumičnog IP opsega ili iz datoteke sa listom IP adresa.
+- **Fetcher**: skup modula za preuzimanje informacija o hostovima na mreži. Na primer, postoje fetcheri za detekciju MAC adresa, skeniranje portova, detekciju imena hostova ili slanje HTTP zahteva.
 
 
 
@@ -181,4 +181,4 @@ Ako želite koristiti **Nmap** sa grafičkim Interface, možete koristiti **apli
 
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d

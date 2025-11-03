@@ -1,0 +1,10 @@
+question: Ni igiki giteye ubwoba cane gifitaniye isano n’ugusubira gukoresha Address?
+answer: Bituma habaho amasano y’ugushinga intahe hagati y’ibikorwa bitandukanye n’i Ownership rusangi y’ama UTXO areba.
+wrong_answers:
+  - Igaragaza IP y’ukoresha Address ku bandi bari mu rubuga mu gihe co kwemeza ibikorwa.
+  - Bigabanya ubushobozi bw’uburyo bwo gusinya mu buryo bwa digitale, ivyo bikaba bituma umutekano w’ibikorwa vy’ubudandaji ugoyagoya.
+  - Bituma amafaranga y’ugucuruza yongerekana kubera uguhagarara kw’abantu bitewe n’ugusubira gukoresha Address.
+explanation: |
+  Iyo Address imwe ikoreshejwe mu bikorwa vyinshi, birashoboka ko umuntu afata ingingo y’uko ama bitcoins yose ajanye n’iyo Address ari ay’umuntu umwe.
+  
+reviewed: false

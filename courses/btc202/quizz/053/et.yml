@@ -1,0 +1,9 @@
+question: Millist valikulist indeksit saab aktiveerida Bitcoin core-s, et leida tehing selle txid järgi?
+answer: txindex
+wrong_answers:
+  - addrindex
+  - blockindex
+  - electrumindex
+explanation: |
+  Valikut txindex=1 kasutatakse tehingu pärimiseks selle unikaalse identifikaatori (txid) järgi.
+reviewed: true

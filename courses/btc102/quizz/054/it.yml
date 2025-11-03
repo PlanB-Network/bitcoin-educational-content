@@ -1,9 +1,9 @@
 question: Qual è l'obiettivo principale dell'utente attivo?
-answer: Per utilizzare il Bitcoin come metodo di pagamento giornaliero
+answer: Utilizzare Bitcoin come metodo di pagamento giornaliero
 wrong_answers:
-  - Investire nel Bitcoin a lungo termine
+  - Investire in Bitcoin a lungo termine
   - Accumulare gradualmente satoshi
   - Speculare sul mercato
 explanation: |
-  L'utente attivo incorpora il Bitcoin nella propria vita quotidiana per effettuare transazioni e sostenerne l'adozione.
-reviewed: false
+  L'utente attivo integra Bitcoin nella propria vita quotidiana per effettuare transazioni e sostenerne l'adozione.
+reviewed: true

@@ -2,6 +2,7 @@ id: 63b2ff1c-4be5-11f0-9024-97513e9d2cf5
 
 topic: protocol
 subtopic: protocol
+type: practice
 level: intermediate
 hours: 8
 
@@ -25,7 +26,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.21
+    reward: 1.16
   - language: cs
     last_contribution_date:
     urgency: 1
@@ -127,6 +128,21 @@ proofreading:
     contributor_names:
     reward: 0.7
   - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.01
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.86
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.7
+  - language: rn
     last_contribution_date:
     urgency: 1
     contributor_names:

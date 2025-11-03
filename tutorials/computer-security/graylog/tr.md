@@ -43,7 +43,7 @@ Graylog, şüpheli davranışları ve çeşitli sorunları (kararlılık, perfor
 
 
 
-**Not: Ücretsiz sürüm olan **Graylog Open**, Wazuh gibi bir SIEM değildir, özellikle de gerçek saldırı tespit işlevlerinden yoksundur.
+**Not:** Ücretsiz sürüm olan **Graylog Open**, Wazuh gibi bir SIEM değildir, özellikle de gerçek saldırı tespit işlevlerinden yoksundur.
 
 
 
@@ -51,19 +51,19 @@ Graylog, şüpheli davranışları ve çeşitli sorunları (kararlılık, perfor
 
 
 
-Stack Graylog**, kurmamız ve yapılandırmamız gereken **birkaç bileşene** dayanmaktadır. Burada, tüm bileşenleri aynı sunucuya kuracağız, ancak birkaç düğüme dayalı kümeler oluşturmak ve rolleri birkaç sunucuya dağıtmak mümkündür. Bu eğitimin amaçları doğrultusunda, bugüne kadarki en yeni sürüm olan **Graylog 6.1**'i kuracağız.
+**Stack Graylog**, kurmamız ve yapılandırmamız gereken **birkaç bileşene** dayanmaktadır. Burada, tüm bileşenleri aynı sunucuya kuracağız, ancak birkaç düğüme dayalı kümeler oluşturmak ve rolleri birkaç sunucuya dağıtmak mümkündür. Bu eğitimin amaçları doğrultusunda, bugüne kadarki en yeni sürüm olan **Graylog 6.1**'i kuracağız.
 
 
 
 
 
-- Graylog için önerilen güncel sürüm olan MongoDB 7** (minimum 5.0.7, maksimum 7.x)
-- OpenSearch**, Amazon tarafından oluşturulan Elasticsearch'ün açık kaynaklı bir Fork'ı (minimum 1.1.x, maksimum 2.15.x)
-- OpenJDK 17**
+- Graylog için önerilen güncel sürüm olan **MongoDB 7** (minimum 5.0.7, maksimum 7.x)
+- **OpenSearch**, Amazon tarafından oluşturulan Elasticsearch'ün açık kaynaklı bir Fork'ı (minimum 1.1.x, maksimum 2.15.x)
+- **OpenJDK 17**
 
 
 
-Graylog sunucusu** **Debian 12** üzerinde çalışmaktadır, ancak Docker aracılığıyla da dahil olmak üzere diğer dağıtımlara kurulum mümkündür. Sanal makine, tüm bileşenler için yeterli kaynağa sahip olmak amacıyla **8 GB RAM** ve **256 GB disk alanı** ile donatılmıştır (aksi takdirde bu performans üzerinde önemli bir etkiye sahip olabilir). Ancak, bunu kaba bir kılavuz olarak veriyorum, çünkü **Graylog mimarisinin boyutlandırılması işlenecek bilgi miktarına bağlıdır**. Graylog günde 30 MB ya da 300 MB veri işleyebileceği gibi günde 300 GB veri de işleyebilir... Bu, **terabaytlarca günlüğü** işleyebilen **ölçeklenebilir bir çözümdür** (bkz. [bu sayfa](https://go2docs.graylog.org/current/planning_your_deployment/planning_your_deployment.html?tocpath=Plan%20Your%20Deployment%7C_____0)).
+Graylog sunucusu **Debian 12** üzerinde çalışmaktadır, ancak Docker aracılığıyla da dahil olmak üzere diğer dağıtımlara kurulum mümkündür. Sanal makine, tüm bileşenler için yeterli kaynağa sahip olmak amacıyla **8 GB RAM** ve **256 GB disk alanı** ile donatılmıştır (aksi takdirde bu performans üzerinde önemli bir etkiye sahip olabilir). Ancak, bunu kaba bir kılavuz olarak veriyorum, çünkü **Graylog mimarisinin boyutlandırılması işlenecek bilgi miktarına bağlıdır**. Graylog günde 30 MB ya da 300 MB veri işleyebileceği gibi günde 300 GB veri de işleyebilir... Bu, **terabaytlarca günlüğü** işleyebilen **ölçeklenebilir bir çözümdür** (bkz. [bu sayfa](https://go2docs.graylog.org/current/planning_your_
 
 
 
@@ -85,7 +85,7 @@ sudo timedatectl set-timezone Europe/Paris
 
 
 
-**Not: Bunun yerine **Graylog Data Node** kullanıyorsanız **OpenSearch kurulumu isteğe bağlıdır**.
+**Not:** Bunun yerine **Graylog Data Node** kullanıyorsanız **OpenSearch kurulumu isteğe bağlıdır**.
 
 
 
@@ -232,7 +232,7 @@ sudo apt-get update
 
 
 
-Ardından **OpenSearch'ü** yükleyin ve örneğinizin Admin** hesabı için varsayılan parolayı tanımlamaya özen gösterin. Burada parola "**IT-Connect2024!**" şeklindedir, ancak bu değeri güçlü bir parola ile değiştirin. **"**P@ssword123**" gibi zayıf parolalardan** kaçının ve her türden (küçük harf, büyük harf, sayı ve özel karakter) en az bir karakter içeren en az **8 karakter** kullanın, aksi takdirde kurulumun sonunda bir hata olacaktır. **Bu, OpenSearch 2.12.**'den beri bir önkoşuldur
+Ardından **OpenSearch'ü** yükleyin ve örneğinizin **Admin** hesabı için varsayılan parolayı tanımlamaya özen gösterin. Burada parola **"IT-Connect2024!"** şeklindedir, ancak bu değeri güçlü bir parola ile değiştirin. **"P@ssword123" gibi zayıf parolalardan** kaçının ve her türden (küçük harf, büyük harf, sayı ve özel karakter) en az bir karakter içeren en az **8 karakter** kullanın, aksi takdirde kurulumun sonunda bir hata olacaktır. **Bu, OpenSearch 2.12.'den beri bir önkoşuldur**
 
 
 
@@ -279,14 +279,14 @@ Bu OpenSearch yapılandırması tek bir düğüm kurmak için tasarlanmıştır.
 
 
 
-- cluster.name: graylog**: bu parametre OpenSearch kümesini "**graylog**" adıyla adlandırır.
-- node.name: ${HOSTNAME}**: düğüm adı dinamik olarak yerel Linux makinesininkiyle eşleşecek şekilde ayarlanır. Sadece bir node'umuz olsa bile, onu doğru şekilde adlandırmak önemlidir.
-- path.data: /var/lib/opensearch**: bu yol OpenSearch'ün verilerini yerel makinede nerede sakladığını belirtir, bu durumda "**/var/lib/opensearch**" içinde.
-- path.logs: /var/log/opensearch**: bu yol OpenSearch günlük dosyalarının nerede saklanacağını tanımlar, burada "**/var/log/opensearch**".
-- discovery.type: single-node**: bu parametre OpenSearch'ü tek bir düğümle çalışacak şekilde yapılandırır, dolayısıyla "**single-node**" seçeneği tercih edilir.
-- network.host: 127.0.0.1**: bu yapılandırma OpenSearch'ün yalnızca Interface yerel döngüsünü dinlemesini sağlar, bu da Graylog ile aynı sunucuda olduğu için yeterlidir.
-- action.auto_create_index: false**: otomatik dizin oluşturmayı devre dışı bırakarak, mevcut bir dizin olmadan bir belge gönderildiğinde OpenSearch otomatik olarak bir dizin oluşturmayacaktır.
-- plugins.security.disabled: true**: bu seçenek OpenSearch güvenlik eklentisini devre dışı bırakır, yani kimlik doğrulama, erişim yönetimi veya iletişim şifrelemesi olmayacaktır. Bu ayar Graylog'u kurarken zaman kazandırır, ancak üretimde kaçınılmalıdır (bkz. [bu sayfa](https://opensearch.org/docs/1.0/security-plugin/index/)).
+- cluster.name: graylog: bu parametre OpenSearch kümesini "**graylog**" adıyla adlandırır.
+- node.name: ${HOSTNAME}: düğüm adı dinamik olarak yerel Linux makinesininkiyle eşleşecek şekilde ayarlanır. Sadece bir node'umuz olsa bile, onu doğru şekilde adlandırmak önemlidir.
+- path.data: /var/lib/opensearch: bu yol OpenSearch'ün verilerini yerel makinede nerede sakladığını belirtir, bu durumda **/var/lib/opensearch** içinde.
+- path.logs: /var/log/opensearch: bu yol OpenSearch günlük dosyalarının nerede saklanacağını tanımlar, burada "**/var/log/opensearch**".
+- **discovery.type: single-node**: bu parametre OpenSearch'ü tek bir düğümle çalışacak şekilde yapılandırır, dolayısıyla "**single-node**" seçeneği tercih edilir.
+- network.host: 127.0.0.1: bu yapılandırma OpenSearch'ün yalnızca Interface yerel döngüsünü dinlemesini sağlar, bu da Graylog ile aynı sunucuda olduğu için yeterlidir.
+- **action.auto_create_index: false**: otomatik dizin oluşturmayı devre dışı bırakarak, mevcut bir dizin olmadan bir belge gönderildiğinde OpenSearch otomatik olarak bir dizin oluşturmayacaktır.
+- **plugins.security.disabled: true**: bu seçenek OpenSearch güvenlik eklentisini devre dışı bırakır, yani kimlik doğrulama, erişim yönetimi veya iletişim şifrelemesi olmayacaktır. Bu ayar Graylog'u kurarken zaman kazandırır, ancak üretimde kaçınılmalıdır (bkz. [bu sayfa](https://opensearch.org/docs/1.0/security-plugin/index/)).
 
 
 
@@ -431,8 +431,8 @@ Bu iki seçeneği yapılandırarak başlayalım:
 
 
 
-- password_secret**: bu parametre Graylog tarafından kullanıcı parolalarının saklanmasını güvence altına almak için kullanılan bir anahtar tanımlamak için kullanılır (tuzlama anahtarı ruhunda). Bu anahtar **tek** ve **rastgele** olmalıdır.
-- root_password_sha2**: bu parametre Graylog'daki varsayılan yönetici parolasına karşılık gelir. Hash SHA-256 olarak saklanır.
+- **password_secret**: bu parametre Graylog tarafından kullanıcı parolalarının saklanmasını güvence altına almak için kullanılan bir anahtar tanımlamak için kullanılır (tuzlama anahtarı ruhunda). Bu anahtar **tek** ve **rastgele** olmalıdır.
+- **root_password_sha2**: bu parametre Graylog'daki varsayılan yönetici parolasına karşılık gelir. Hash SHA-256 olarak saklanır.
 
 
 
@@ -566,7 +566,7 @@ Daha sonra "**admin**" kullanıcısı ve geçici parola ile yeniden bağlantı k
 
 
 
-**Bu artık geçerli değil. Tek yapmanız gereken yönetici hesabınızla ve komut satırında yapılandırılan parolayla oturum açmaktır
+**Bu artık geçerli değil. Tek yapmanız gereken yönetici hesabınızla ve komut satırında yapılandırılan parolayla oturum açmaktır.**
 
 
 
@@ -574,7 +574,7 @@ Daha sonra "**admin**" kullanıcısı ve geçici parola ile yeniden bağlantı k
 
 
 
-**Graylog'un Interface'ine hoş geldiniz!
+**Graylog'un Interface'ine hoş geldiniz!**
 
 
 
@@ -661,7 +661,7 @@ Yeni Giriş oluşturuldu ve şimdi aktif. Graylog artık 12514/UDP bağlantı no
 ![Image](assets/fr/018.webp)
 
 
-**Not: Tek bir Giriş, birden fazla Linux makinesinden gelen günlükleri depolamak için kullanılabilir.
+**Not:** Tek bir Giriş, birden fazla Linux makinesinden gelen günlükleri depolamak için kullanılabilir.
 
 
 
@@ -701,7 +701,7 @@ Yeni bir akış oluşturmak için Graylog'un ana menüsündeki "**Akışlar**" s
 
 
 
-**Not: "**Remove matches from 'Default Stream'**" seçeneğini işaretlemediğiniz sürece, bu akışa karşılık gelen mesajlar da "**Default Stream**"e dahil edilecektir.
+**Not:** "**Remove matches from 'Default Stream'**" seçeneğini işaretlemediğiniz sürece, bu akışa karşılık gelen mesajlar da "**Default Stream**"e dahil edilecektir.
 
 
 

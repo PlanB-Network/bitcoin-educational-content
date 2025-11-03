@@ -1,0 +1,9 @@
+question: Kuna tofauti gani kuu kati ya Electrs na Fulcrum?
+answer: Electrs ni ngumu zaidi, Fulcrum ina nguvu zaidi
+wrong_answers:
+  - Electrs sio bure, Fulcrum ni bure
+  - Fulcrum haitumii itifaki ya Electrum
+  - Electrs ni wamiliki, Fulcrum ni chanzo wazi
+explanation: |
+  Electrs hutumia nafasi ndogo ya diski, wakati Fulcrum hujibu maombi kwa haraka lakini hutumia rasilimali zaidi.
+reviewed: true

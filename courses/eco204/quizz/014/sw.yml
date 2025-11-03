@@ -2,10 +2,10 @@ question: Kuna tofauti gani kati ya Demand Pull na Cost Push mfumuko wa bei?
 answer: Mfumuko wa bei wa Demand Pull ni hali ambapo mahitaji katika uchumi yanazidi uzalishaji unaopatikana, wakati mfumuko wa bei wa Cost Push unachangiwa na kuongezeka kwa gharama za uzalishaji.
 wrong_answers:
   - Mfumuko wa bei wa Demand Pull unachangiwa na kuongezeka kwa gharama za uzalishaji, wakati mfumuko wa bei wa Cost Push ni hali ambayo mahitaji katika uchumi yanazidi uzalishaji unaopatikana.
-  - Kuvuta Mahitaji na Gharama Mfumuko wa bei wa Kusukuma ni sawa, zote zinarejelea hali ambapo mahitaji katika uchumi yanazidi uzalishaji unaopatikana.
+  - Kuvuta Mahitaji na Gharama Mfumuko wa bei wa Kusukuma ni sawa, zote zinarejelea hali ambayo mahitaji katika uchumi yanazidi uzalishaji unaopatikana.
   - Kuvuta kwa Mahitaji na Gharama Mfumuko wa bei wa Kusukuma ni sawa, zote zinarejelea ongezeko la gharama za uzalishaji.
 explanation: |
   Sura inaeleza kuwa mfumuko wa bei wa Demand Pull mara nyingi huelezewa kama
-  hali ambapo mahitaji katika uchumi yanazidi uzalishaji unaopatikana. Kwa upande mwingine
+  hali ambayo mahitaji katika uchumi yanazidi uzalishaji unaopatikana. Kwa upande mwingine
   mfumuko wa bei wa Cost Push unachangiwa na kuongezeka kwa gharama za uzalishaji.
-reviewed: false
+reviewed: true

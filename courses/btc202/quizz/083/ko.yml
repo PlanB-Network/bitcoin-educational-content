@@ -1,0 +1,9 @@
+question: Bitcoin core이 토르 네트워크를 통해서만 연결하도록 강제하는 설정은 무엇인가요?
+answer: onlynet=양파
+wrong_answers:
+  - listenonion=1
+  - toronly=1
+  - net=tor
+explanation: |
+  Onlynet=onion 옵션은 토르 네트워크로 나가는 모든 연결을 제한하는 반면, listenonion=1은 들어오는 토르 연결만 청취할 수 있게 해줍니다.
+reviewed: true

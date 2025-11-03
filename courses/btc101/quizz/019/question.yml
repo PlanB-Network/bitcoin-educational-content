@@ -1,7 +1,7 @@
-id: 43f4eec2-ac15-4556-bb3e-0dd5b3890136
+id: b30d367c-2949-449a-a1d2-c9abb9e4079d
 chapterId: c838e64d-d59f-5703-8c74-ea5e8c4fdd31
-difficulty: easy
-duration: 15
+difficulty: hard
+duration: 45
 author: DecouvreBitcoin
 original_language: en
 proofreading:
@@ -47,7 +47,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.27
+    reward: 0.26
   - language: pt
     last_contribution_date:
     urgency: 1
@@ -57,7 +57,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.27
+    reward: 0.26
   - language: et
     last_contribution_date:
     urgency: 1
@@ -88,12 +88,17 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 0.21
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.29
   - language: sr-Latn
     last_contribution_date: '2025-08-19'
     urgency: 1
     contributor_names:
       - sanja993
-    reward: 0.11
+    reward: 0.1
   - language: sw
     last_contribution_date:
     urgency: 1
@@ -104,11 +109,6 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 0.24
-  - language: hi
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.3
   - language: fa
     last_contribution_date:
     urgency: 1
@@ -124,3 +124,18 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 0.21
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.24
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.21
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.26

@@ -1,0 +1,9 @@
+question: Dans quel cas un nœud élagué peut poser problème pour un portefeuille ?
+answer: Lors de la restauration d’un ancien portefeuille
+wrong_answers:
+  - Lors de la création d’une nouvelle adresse de réception
+  - Lors de l’envoi d’une transaction récente
+  - Lors du choix du montant des frais
+explanation: |
+  Un nœud élagué ne conserve pas les anciens blocs, ce qui peut empêcher de scanner les transactions passées lors d’une restauration.
+reviewed: false

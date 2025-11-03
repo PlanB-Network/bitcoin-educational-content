@@ -1,8 +1,8 @@
-question: Jaka jest jedna z potencjalnych korzyści wynikających z przyjęcia nowych technologii, takich jak Bitcoin?
-answer: Może to przynieść generate ogromne korzyści skali na całym świecie.
+question: Jaka jest jedna z głównych konsekwencji Bitcoin dla systemu bankowego?
+answer: Pozwala to na emancypację od systemu bankowego.
 wrong_answers:
-  - Może to doprowadzić do globalnego załamania gospodarczego.
-  - Może to spowodować spadek ludzkiej inteligencji.
-  - Może to doprowadzić do likwidacji wszystkich miejsc pracy.
+  - Pozwala to na kontrolę systemu bankowego.
+  - Pozwala to na wyeliminowanie systemu bankowego.
+  - Pozwala to na korupcję systemu bankowego.
 explanation: >-
 reviewed: true

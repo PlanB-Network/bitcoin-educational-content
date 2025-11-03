@@ -1,0 +1,9 @@
+question: 2010년에 몇 달 동안 Bitcoin 네트워크의 Hash 비율의 20%를 차지한 독일 Miner은 어느 것인가요?
+answer: 아트포즈
+wrong_answers:
+  - tcatm
+  - m0mchil
+  - knightmb
+explanation: |
+  그는 2010년 여름에 그래픽 카드로 구성된 Mining 농장(아트팜이라고 함)을 설립하여 가을까지 경쟁사들을 크게 앞질렀습니다.
+reviewed: true

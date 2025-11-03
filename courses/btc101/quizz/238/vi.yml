@@ -1,12 +1,9 @@
-question: Khái niệm chảy tiền trong bối cảnh của Mạng Lưới Lightning là gì?
-
-answer: Thực hiện các khoản thanh toán nhỏ liên tục, theo thời gian thực.
-
+question: Một hậu quả tiềm năng của sự tiến bộ của công nghệ AI là gì?
+answer: Công nghệ AI sẽ dẫn đến việc biến mất của hơn 80% công việc hiện nay.
 wrong_answers:
-  - Chuyển đổi Bitcoin thành tiền mặt tại một địa điểm vật lý sử dụng máy ATM.
-  - Phát trực tuyến nội dung âm thanh hoặc video để nhận Bitcoin.
-  - Tạo ra bitcoin mới thông qua các hoạt động khai thác diễn ra theo thời gian thực.
-
-explanation: Với Mạng Lưới Lightning, chúng ta có thể thực hiện các giao dịch nhỏ mỗi phút, mở ra cánh cửa thử nghiệm với các mô hình kinh tế nơi người tiêu dùng trả tiền cho nội dung dựa trên những gì họ tiêu thụ.
-
-reviewed: đúng
+  - Công nghệ AI sẽ phá hủy tất cả các máy tính.
+  - Công nghệ AI sẽ dẫn đến sự giảm sút về trí tuệ của con người.
+  - Công nghệ AI sẽ gây ra một cuộc khủng hoảng kinh tế toàn cầu.
+explanation: >-
+  Văn bản đề cập rằng một hậu quả tiềm năng của sự tiến bộ của công nghệ AI là hơn 80% công việc sẽ biến mất do AI và tự động hóa.
+reviewed: true

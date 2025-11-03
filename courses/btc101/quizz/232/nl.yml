@@ -1,8 +1,15 @@
-question: Hoe groot is de blokgrootte in het Bitcoin protocol?
-answer: 4MB.
+question: Wat is geen belangrijk kenmerk van microtransacties op de Lightning Network?
+answer: Lange betalingstermijnen.
 wrong_answers:
-  - 1MB.
-  - 2MB.
-  - 3MB.
-explanation: >-
+  - Lage kosten.
+  - Directe betalingen.
+  - Schaalbaarheid.
+explanation: |
+  Met de Lightning Network microtransacties kunnen gebruikers
+  lage transactiekosten hebben, waardoor het voordelig is om
+  kleine hoeveelheden Bitcoin te versturen. Ze kunnen ook direct
+  betalingen hebben, waardoor real-time transacties mogelijk zijn. Tot slot
+  schaalbaarheid, waardoor een groot aantal
+  aantal transacties tegelijkertijd. Het verkeerde
+  antwoord is lange betalingstijden.
 reviewed: true

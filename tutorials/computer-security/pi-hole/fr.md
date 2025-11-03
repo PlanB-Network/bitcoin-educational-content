@@ -104,9 +104,9 @@ Notez bien le mot de passe pour l'interface web ainsi que les informations rése
 
 Pour fonctionner, Pi-Hole a donc besoin de "résoudre" les requêtes DNS des clients, il faut donc que ces derniers puisse savoir que c'est à lui qu'il faut les envoyer. Pour cela, plusieurs solutions :
 
-* Modifier les paramètres DNS dans le serveur DHCP en fonction chez vous (par exemple : votre Box)
-* Désactiver ce serveur et utiliser celui fourni par Pi-Hole
-* Modifier manuellement chaque appareil pour qu'il utilise Pi-Hole en tant que DNS
+**Modifier les paramètres DNS dans le serveur DHCP en fonction chez vous (par exemple : votre Box)**
+**Désactiver ce serveur et utiliser celui fourni par Pi-Hole**
+**Modifier manuellement chaque appareil pour qu'il utilise Pi-Hole en tant que DNS**
 
 Je choisis personnellement la première solution. En effet, **il y a de fortes chances que vous disposiez d'un serveur DHCP là où vous vous trouvez** (généralement, votre box). Inutile donc de s'embêter plus que ça.
 
@@ -143,10 +143,10 @@ Vous devriez avoir dans le champ DNS l'adresse de votre Pi-Hole, pour moi 192.16
 Pour faciliter son administration, **Pi-Hole** bénéficie d'une interface web plutôt bien faite. Conviviale et accessible, elle vous permet de :
 
 * Visualiser en temps réel le nombre de requêtes, celles qui sont bloquées, etc.
-* Gérer votre Whitelist et Blacklist
+**Gérer votre Whitelist et Blacklist**
 * Ajouter des entrées statiques, des alias, etc.
-* Ajouter des listes
-* Et bien d'autres fonctions!
+*Ajouter des listes*
+*Et bien d'autres fonctions!*
 
 Pour ma part, je vais ajouter une liste de blocage. Comme on l'a vu plus haut, une seule liste a été installée en même temps que le soft. Il existe beaucoup de listes pour les sites de pubs mais il est préférable d'en choisir au moins une spécifique au pays dans lequel on vit. Une des listes les plus connue est **EasyList** et l'une d'entre elle est spécifique à la France : [EasyList-ListFR](https://raw.githubusercontent.com/deathbybandaid/piholeparser/master/Subscribable-Lists/ParsedBlacklists/EasyList-Liste-FR.txt)
 
@@ -173,7 +173,7 @@ Ajouter une liste dans Pi-Hole
 Il nous reste plus qu'a cliquer sur "**Add**" pour l'ajouter. Afin de l'activer, il est nécessaire de réaliser une étape supplémentaire pour "avertir" Pi-Hole de prendre en charge cette liste. Pour cela :
 
 * Soit vous utilisez la ligne de commande intégrée
-* Soit l'interface web
+**Soit l'interface web**
 
 Je choisis personnellement la deuxième car si vous avez bien observé, le lien vers le script PHP qui réalise la mise à jour est directement sur la page où nous sommes (le mot "online"). Il suffit donc de cliquer dessus, ce qui vous amènera sur une page où seul une option s'offrira à vous :
 

@@ -1,0 +1,9 @@
+question: Was ist die Hauptfunktion eines Bitcoin-Knotens?
+answer: Blockchain speichern und Transaktionen und Blöcke validieren
+wrong_answers:
+  - Private Schlüssel speichern und Transaktionen erstellen
+  - Neue Adressen für Benutzer anlegen
+  - Bitcoins in Fiat-Währungen umwandeln
+explanation: |
+  Ein Bitcoin-Knoten unterhält eine Kopie des Blockchain und ist an der Validierung und Weiterleitung von Transaktionen und Blöcken beteiligt.
+reviewed: true

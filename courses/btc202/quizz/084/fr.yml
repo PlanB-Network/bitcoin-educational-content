@@ -1,0 +1,9 @@
+question: Quel est le nombre par défaut de connexions sortantes qu’un nœud Bitcoin Core maintient ?
+answer: 10
+wrong_answers:
+  - 2
+  - 4
+  - 3
+explanation: |
+  Bitcoin Core maintient 10 connexions sortantes par défaut (8 full-relay et 2 block-relay-only).
+reviewed: false

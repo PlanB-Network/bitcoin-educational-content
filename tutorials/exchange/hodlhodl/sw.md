@@ -1,5 +1,5 @@
 ---
-name: HODL HODL
+name: Hodl Hodl
 
 description: Mwongozo wa hatua kwa hatua wa HODLHODL
 ---
@@ -16,10 +16,9 @@ HODL HODL ni Bitcoin Exchange iliyogatuliwa ambayo inatanguliza udhibiti na usal
 https://hodlhodl.com/pages/faq_help
 
 
-## Mwongozo wa Kuandika:
+## Anza safari yako kwenye Hodl Hodl
 
 
-Kuanzisha Safari Yako kwa HodlHodl: Mwongozo wa Hatua kwa Hatua
 
 
 ![image](assets/5.webp)
@@ -28,7 +27,7 @@ Kuanzisha Safari Yako kwa HodlHodl: Mwongozo wa Hatua kwa Hatua
 HodlHodl ni peer-to-peer (P2P) cryptocurrency Exchange, ambayo inatumia kwa upekee sarafu moja ya kidijitali lakini inatoa urahisi wa kufanya biashara kwa sarafu yoyote, ikijumuisha sarafu zote za fiat na altcoins. Kipengele muhimu cha mfumo huu wa P2P ni kwamba haitozi ada zozote za amana au uondoaji, badala yake, inatoza ada za biashara kuanzia 0.5% hadi 0.6%, kulingana na hali ya uthibitishaji wa mtumiaji. Watumiaji wana manufaa ya wigo mpana wa mbinu za malipo, hivyo kufanya HodlHodl kuwa mojawapo ya majukwaa ya P2P yanayotumika sana. Baadhi ya njia za malipo zinazotumiwa sana ni pamoja na SWIFT, SEPA, uhamisho wa benki, miamala ya kadi ya mkopo, PayPal, Venmo, MoneyGram na Western Union. Walakini, chaguzi zinazopatikana za malipo zinategemea kukubalika kwa muuzaji.
 
 
-Mojawapo ya sifa kuu za HodlHodl ni vikomo vya biashara vinavyobadilika, ambavyo vinaweza kulegeza hatua kwa hatua kwa kuongezeka kwa kiasi cha biashara na biashara zilizofanikiwa. Kiasi cha chini cha biashara ya BTC kimewekwa 0.001 BTC, na toleo la chini la mkopo haipaswi kuwa chini ya 50 USD kwa thamani ya crypto. Mfumo huu hauhitaji taratibu zozote za Mjue Mteja Wako (KYC) au Anti-Money Laundering (AML) ili kutii sera yake ya kudumisha kutokujulikana kwa mtumiaji. Hata hivyo, watumiaji wanaochagua uthibitishaji wanaweza kufurahia manufaa kama vile tume zilizopunguzwa, vizuizi vya ununuzi vilivyoongezwa na hali inayoonekana ya "Imethibitishwa". HodlHodl ina ufikiaji mpana wa kimataifa, ikichukua watumiaji kutoka karibu nchi zote isipokuwa chache kama vile Korea Kaskazini, Iraqi, Syria na Sudani.
+Mojawapo ya sifa kuu za HodlHodl ni vikomo vya biashara vinavyobadilika, ambavyo vinaweza kulegeza hatua kwa hatua kwa kuongezeka kwa kiasi cha biashara na biashara zilizofanikiwa. Kiasi cha chini cha biashara ya BTC kimewekwa 0.001 BTC, na toleo la chini la mkopo halipaswi kuwa chini ya 50 USD kwa thamani ya crypto. Mfumo huu hauhitaji taratibu zozote za Mjue Mteja Wako (KYC) au Anti-Money Laundering (AML) ili kutii sera yake ya kudumisha kutokujulikana kwa mtumiaji. Hata hivyo, watumiaji wanaochagua uthibitishaji wanaweza kufurahia manufaa kama vile tume zilizopunguzwa, vizuizi vya ununuzi vilivyoongezwa na hali inayoonekana ya "Imethibitishwa". HodlHodl ina ufikiaji mpana wa kimataifa, ikichukua watumiaji kutoka karibu nchi zote isipokuwa chache kama vile Korea Kaskazini, Iraqi, Syria na Sudani.
 
 
 ### Uundaji wa Akaunti
@@ -51,7 +50,7 @@ Ubinafsishaji wa wasifu wako unapaswa kujumuisha:
 
 
 - Maelezo ya Kibinafsi - Hii inajumuisha jina lako la mtumiaji ulilochagua, barua pepe, na wasifu mfupi.
-- Uthibitishaji wa Mambo Mbili (2FA) - Kuwezesha 2FA huongeza usalama wa wasifu wako, ambayo daima ni hatua ya busara.
+- Uthibitishaji wa Mambo Mawili (2FA) - Kuwezesha 2FA huongeza usalama wa wasifu wako, ambayo daima ni hatua ya busara.
 - Ufikiaji wa API - Hii sio lazima na inabaki bila kazi kwa chaguo-msingi.
 - Wasifu wa P2P Uliopita - Iwapo umewasiliana na mifumo mingine ya P2P hapo awali, kuunganisha maelezo haya kunaweza kuongeza uaminifu wako miongoni mwa wafanyabiashara wengine.
 
@@ -68,61 +67,61 @@ Ili kuanza kufanya biashara ya BTC, utahitaji kutoa BTC yako ya Address kwanza. 
 Mwongozo wa Bitcoiner Q&A https://bitcoiner.guide/hodlhodl/
 
 
-1. Tembelea hodlhodl.com na uunde akaunti yako. Maelezo pekee unayohitaji kutoa ni jina la mtumiaji na barua pepe ya Address. Kisha utakutana na ukurasa wa nyumbani.
+- Tembelea hodlhodl.com na uunde akaunti yako. Maelezo pekee unayohitaji kutoa ni jina la mtumiaji na barua pepe ya Address. Kisha utakutana na ukurasa wa nyumbani.
 
 
 ![cover](assets/11.webp)
 
 
-2. Bofya ‘Nunua BTC’ kwenye kichwa cha tovuti.
+- Bofya ‘Nunua BTC’ kwenye kichwa cha tovuti.
 
 
 ![cover](assets/12.webp)
 
 
-3. Chagua aina na njia ya malipo unayotaka. Unaweza pia kutaja kiasi maalum hapa ikiwa ni lazima.
+- Chagua aina na njia ya malipo unayotaka. Unaweza pia kutaja kiasi maalum hapa ikiwa ni lazima.
 
 
 ![cover](assets/13.webp)
 
 
-4. Chagua ofa unayotaka. Kisha unaweza kukagua maelezo ya biashara na pia kusoma ripoti za shughuli za wenzako na ukadiriaji.
+- Chagua ofa unayotaka. Kisha unaweza kukagua maelezo ya biashara na pia kusoma ripoti za shughuli za wenzako na ukadiriaji.
 
 
 ![cover](assets/14.webp)
 
 
-5. Mara tu unapofurahi, unaweza kutaja ni kiasi gani unataka kununua, ingiza kwenye Address ungependa Bitcoin ipelekwe na ueleze kuthibitisha njia ya malipo iliyotangazwa na muuzaji. Bofya ‘Kubali toleo na uunde Contract’.
+- Mara tu unapofurahi, unaweza kutaja ni kiasi gani unataka kununua, ingiza kwenye Address ungependa Bitcoin ipelekwe na ueleze kuthibitisha njia ya malipo iliyotangazwa na muuzaji. Bofya ‘Kubali toleo na uunde Contract’.
 
 
 ![cover](assets/15.webp)
 
 
-6. Sasa umeunda Contract yako na unahitaji kugonga ‘generate Escrow’ ambapo utaombwa kuunda nenosiri la malipo. Nenosiri la malipo ni ufunguo wa usimbaji fiche wa jozi ya ufunguo wa escrow wa mtumiaji. Inatumika kuweka au kutoa Bitcoin kwenda au kutoka kwa escrow.
+- Sasa umeunda Contract yako na unahitaji kugonga ‘generate Escrow’ ambapo utaombwa kuunda nenosiri la malipo. Nenosiri la malipo ni ufunguo wa usimbaji fiche wa jozi ya ufunguo wa escrow wa mtumiaji. Inatumika kuweka au kutoa Bitcoin kwenda au kutoka kwa escrow.
 
 
 ![cover](assets/16.webp)
 
 
-7. Sasa unahitaji kusubiri kwa muuzaji kuweka Bitcoin yao kwenye escrow Wallet. Baada ya kuanzisha Contract unaweza kuzungumza na muuzaji kwa kutumia kisanduku cha gumzo upande wa kulia wa ukurasa.
+- Sasa unahitaji kusubiri kwa muuzaji kuweka Bitcoin yao kwenye escrow Wallet. Baada ya kuanzisha Contract unaweza kuzungumza na muuzaji kwa kutumia kisanduku cha gumzo upande wa kulia wa ukurasa.
 
 
 ![cover](assets/17.webp)
 
 
-8. Mara tu muuzaji atakapoweka fedha zake kwenye escrow utaona skrini hii ikikushauri usitume pesa zako hadi kuwe na idadi ya kutosha ya uthibitisho wa Blockchain (hii inatofautiana kulingana na hali ya biashara). Unaweza kuangalia maendeleo ya shughuli ya amana ya wauzaji kwa kubofya kiungo cha bluu 'Amana transaction ID'.
+- Mara tu muuzaji atakapoweka fedha zake kwenye escrow utaona skrini hii ikikushauri usitume pesa zako hadi kuwe na idadi ya kutosha ya uthibitisho wa Blockchain (hii inatofautiana kulingana na hali ya biashara). Unaweza kuangalia maendeleo ya shughuli ya amana ya wauzaji kwa kubofya kiungo cha bluu 'Amana transaction ID'.
 
 
 ![cover](assets/18.webp)
 
 
-9. Baada ya kuthibitishwa utaarifiwa na unaweza kutuma pesa hizo kwa muuzaji kwa maelezo atakayokupa. Mara baada ya kufanya hivi bonyeza 'Nimetuma Malipo'.
+- Baada ya kuthibitishwa utaarifiwa na unaweza kutuma pesa hizo kwa muuzaji kwa maelezo atakayokupa. Mara baada ya kufanya hivi bonyeza 'Nimetuma Malipo'.
 
 
 ![cover](assets/19.webp)
 
 
-10. Kisha utahitaji kusubiri muuzaji kuthibitisha kuwa amepokea fedha, wakati ambapo Bitcoin itatolewa kwenye Address uliyotaja mwanzoni mwa Contract. Pia utapewa fursa ya kukadiria rika lako.
+- Kisha utahitaji kusubiri muuzaji kuthibitisha kuwa amepokea fedha, wakati ambapo Bitcoin itatolewa kwenye Address uliyotaja mwanzoni mwa Contract. Pia utapewa fursa ya kukadiria rika lako.
 
 
 ![cover](assets/20.webp)
@@ -230,7 +229,7 @@ Katika fremu ya Green upande wa kulia tunaweza kuona maelezo ya Contract ikijumu
 Mara baada ya Contract kukubaliwa, escrow ya saini nyingi ya Address inaundwa ambapo ni lazima tuweke kiasi cha BTC kinachodaiwa ili kusaidia Contract.
 
 
-Kwa generate hii Address katika Bitcoin Blockchain, tutaulizwa "Nenosiri la Malipo" (tofauti na la kuingia) ambalo litafanya kama ufunguo wetu wa kibinafsi ili kurejesha BTC yetu mwishoni mwa Contract.
+Kwa kugenerate hii Address katika Bitcoin Blockchain, tutaulizwa "Nenosiri la Malipo" (tofauti na la kuingia) ambalo litafanya kama ufunguo wetu wa kibinafsi ili kurejesha BTC yetu mwishoni mwa Contract.
 
 
 Wakati tumetuma BTC kwa escrow Address na imethibitishwa, akopaye ataweza kutuma cryptocurrency iliyoombwa kwa Address ambayo tumeingia katika hatua ya awali.
@@ -268,3 +267,4 @@ Tufikie
 - Reddit: hodlhodl.reddit.com
 - Facebook: facebook.com/HHodl
 - Youtube: youtube.com/c/HodlHodl
+

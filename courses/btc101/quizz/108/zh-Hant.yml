@@ -1,11 +1,11 @@
-question: Bitcoin Wallet 的用途是什麼？
-answer: 用來儲存私密金鑰，以便進行比特幣交易。
+question: 在 Satoshi Nakamoto 之後，誰是第一個加入 Bitcoin 網路的人？
+answer: Hal Finney
 wrong_answers:
-  - 使用裝置資源來開採比特幣。
-  - 透過公開金鑰購買 bitcoins。
-  - 將 bitcoins 儲存在裝置上。
+  - Laszlo Hanyecz.
+  - Phil Champagne
+  - Rogzy.
 explanation: |
-  Bitcoin 錢包是一種軟體，用來
-  儲存私人密碼匙，讓您可以交易您的
-  比特幣。
+  Hal Finney 是第一個加入 Bitcoin 網路的人
+  繼 Satoshi Nakamoto 本人之後。他甚至發推文 Running
+  Bitcoin 來紀念。
 reviewed: true

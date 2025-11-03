@@ -1,10 +1,11 @@
-question: Qual è una delle principali questioni sollevate riguardo al futuro della finanza?
-answer: Chi dovrebbe detenere, autorizzare e tracciare il denaro che utilizziamo?
+question: Qual è un modo pratico per ottenere Bitcoin?
+answer: Acquistandoli tramite piattaforme regolamentate o non regolamentate.
 wrong_answers:
-  - Come possiamo eliminare completamente il denaro?
-  - Come possiamo garantire che tutti abbiano la stessa quantità di denaro?
-  - Come possiamo rendere il denaro obsoleto?
-explanation: >-
-  Il testo solleva diverse questioni sul futuro della finanza, una delle
-  quali è chi dovrebbe detenere, autorizzare e tracciare il denaro che utilizziamo.
-reviewed: vero
+  - Minarli utilizzando un laptop.
+  - Trovarli nel mondo fisico.
+  - Crearli utilizzando un software speciale.
+explanation: |
+  Il testo menziona che gli utenti possono ottenere Bitcoin
+  accettandoli in cambio di beni e servizi, o acquistandoli tramite
+  piattaforme regolamentate o non regolamentate.
+reviewed: true

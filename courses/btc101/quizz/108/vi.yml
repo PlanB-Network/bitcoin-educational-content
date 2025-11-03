@@ -1,11 +1,11 @@
-question: Mục đích của ví Bitcoin là gì?
-answer: Để lưu trữ khóa riêng nhằm thực hiện giao dịch bitcoin.
+question: Ai là người đầu tiên tham gia mạng Bitcoin sau Satoshi Nakamoto?
+answer: Hal Finney.
 wrong_answers:
-  - Sử dụng tài nguyên thiết bị để đào bitcoin.
-  - Mua bitcoin thông qua khóa công khai.
-  - Lưu trữ bitcoin trên thiết bị.
+  - Laszlo Hanyecz.
+  - Phil Champagne.
+  - Rogzy.
 explanation: |
-  Ví Bitcoin là một loại phần mềm được sử dụng để
-  lưu trữ các khóa riêng cho phép bạn thực hiện giao dịch
-  bitcoin của mình.
+  Hal Finney là người đầu tiên tham gia mạng Bitcoin
+  sau chính Satoshi Nakamoto. Ông thậm chí đã tweet Đang chạy
+  Bitcoin để đánh dấu sự kiện này.
 reviewed: true

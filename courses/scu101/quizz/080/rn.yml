@@ -1,0 +1,9 @@
+question: Ni kuki ari vyiza gukora ama email abiri atandukanye?
+answer: Gutandukanya ivy’itumanaho rusangi n’ugusubiza konti.
+wrong_answers:
+  - Gutandukanya ivy’uguhanahana amakuru mu vy’umwuga n’ivy’umuntu ku giti ciwe.
+  - Kugira ngo ukore amakonti menshi kandi wongere uboneke kuri internet.
+  - Kugira ngo uronke ibindi bitari vyo.
+explanation: |
+  Gutandukanya aderesi za email birafasha kugabanya ingorane no kurinda neza ukuntu umuntu ashobora gushika ku makonti ahambaye.
+reviewed: true

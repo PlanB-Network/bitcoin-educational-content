@@ -1,0 +1,9 @@
+question: Que estrutura de dados resume as transacções de um bloco?
+answer: O Merkle Tree
+wrong_answers:
+  - O quadro Hash UTXO
+  - O ficheiro peers.dat
+  - O registo assumeutxo
+explanation: |
+  As transacções de um bloco são confirmadas num Merkle Tree, cuja raiz é incluída no cabeçalho do bloco para garantir a integridade do bloco.
+reviewed: true

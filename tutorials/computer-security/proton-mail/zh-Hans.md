@@ -1,5 +1,5 @@
 ---
-name: 质子邮箱
+name: Proton Mail
 description: 设置安全邮箱
 ---
 ![cover](assets/cover.webp)
@@ -90,7 +90,7 @@ Proton 的商业模式以订阅系统为基础，这让人感到放心，因为�
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ![proton](assets/notext/07.webp)
 
@@ -224,7 +224,7 @@ Proton 还为您提供设置恢复账户方法的选项，您可以通过电话�
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 在 "*语言和时间*"选项卡中，您可以更改 Interface 的语言和时区。
 
@@ -322,7 +322,7 @@ https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-
 
 
 
-加密和密钥*"选项卡可让您管理电子邮件加密选项。对于新手用户，一般不需要修改这部分的设置。
+加密和密钥选项卡可让您管理电子邮件加密选项。对于新手用户，一般不需要修改这部分的设置。
 
 
 

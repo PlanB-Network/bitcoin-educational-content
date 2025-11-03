@@ -1,11 +1,10 @@
-question: Jak je vytvořena zdravá měna?
-answer: Zdravá měna musí přirozeně vzniknout na trhu a z dobrovolného konsensu.
+question: Jaký je hlavní cíl za vytvořením Bitcoinu?
+answer: Oddělit stát od peněz.
 wrong_answers:
-  - Zdravá měna musí být vynucena vládou prostřednictvím vydávání měnových zákonů.
-  - Zdravá měna musí být vnucena společnostmi použitím násilí.
-  - Zdravá měna nemůže být vytvořena.
+  - Zrušit zlatý standard.
+  - Učinit transakce rychlejšími a levnějšími.
+  - Zbohatnout každého.
 explanation: |
-  Zdravá měna je přirozený sociální fenomén, který musí vzniknout
-  z trhu a z dobrovolného konsensu. Žádný člověk nebo
-  skupina lidí nemůže vytvořit měnu.
+  Bitcoin byl vytvořen s cílem oddělit stát od peněz. Je to reakce na systémové výzvy
+  současného finančního systému, kde má stát plnou kontrolu nad peněžní zásobou a může ji manipulovat ve svůj vlastní prospěch.
 reviewed: true

@@ -1,8 +1,13 @@
-question: Wat is het doel van de Proof of Work in het Bitcoin netwerk?
-answer: De Proof of Work garandeert de waarheidsgetrouwheid van informatie zonder een derde partij te vertrouwen.
+question: Hoe houdt het Bitcoin protocol een consistente gemiddelde tijd tussen het aanmaken van twee blokken?
+answer: De moeilijkheid om een geldige Hash te vinden past zich elke 2016-blok aan.
 wrong_answers:
-  - De Proof of Work wordt gebruikt om nieuwe bitcoins te creëren door een derde partij te vertrouwen.
-  - De Proof of Work wordt gebruikt om Bitcoin transacties te verifiëren door een derde partij te vertrouwen.
-  - De Proof of Work wordt gebruikt om het Bitcoin protocol te wijzigen zonder een derde partij te vertrouwen.
-explanation: >-
+  - Het aantal mijnwerkers is beperkt tot een vast aantal.
+  - De grootte van de blokken wordt aangepast naar 10 megabytes.
+  - De beloning voor het vinden van een geldige Hash is verhoogd.
+explanation: |
+  Het Bitcoin protocol zorgt ervoor dat de gemiddelde tijd tussen
+  twee blokken constant blijft door de moeilijkheidsgraad van
+  het vinden van een geldige Hash om de 2016 blokken. Deze gebeurtenis gebeurt
+  ongeacht het aantal miners en hun rekenkracht
+  kracht.
 reviewed: true

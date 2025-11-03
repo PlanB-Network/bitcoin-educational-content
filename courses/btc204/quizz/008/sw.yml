@@ -6,4 +6,4 @@ wrong_answers:
   - 3,000 Sats
 explanation: |
   Ada za muamala zinawakilisha tofauti kati ya jumla ya pembejeo na jumla ya matokeo. Ni kile kinachobaki baada ya kuteketeza pembejeo zote na kuunda matokeo yote. Kwa hiyo hesabu ni; ada = (5000x2) - (3000x3) = 10000 - 9000 = 1000.
-reviewed: false
+reviewed: true

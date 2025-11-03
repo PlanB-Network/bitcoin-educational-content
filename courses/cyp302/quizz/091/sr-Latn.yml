@@ -1,9 +1,9 @@
-question: Koja je glavna razlika između primitivnog strujnog šifranta i blokovskog strujnog šifranta?
-answer: Primitivna strim šifra nije izgrađena od blok šifre.
+question: Koja je glavna razlika između primitivne šifre toka i blokovske šifre toka?
+answer: Primitivna šifra toka nije izgrađena od blok šifre.
 wrong_answers:
-  - Primitivna strim šifra zahteva dodavanje punjenja porukama.
-  - Blok šifra strim šifra koristi blokove promenljive veličine.
-  - Blok šifra strim šifra ne može se koristiti za velike podatke.
+  - Primitivna šifra toka zahteva dodavanje punjenja porukama.
+  - Blok šifra šifre toka koristi blokove promenljive veličine.
+  - Blok šifra šifre toka ne može se koristiti za velike podatke.
 explanation: |
-  Primitivna strim šifra, kao što je Salsa20, dizajnirana je nezavisno od blok šifre, dok strim šifra blok šifre koristi blok šifru kao osnovu, modifikovanu da proizvodi strim enkripcije.
-reviewed: false
+  Primitivna tok šifra, kao što je Salsa20, dizajnirana je nezavisno od blok šifre, dok tok šifra blok šifre koristi blok šifru kao osnovu, modifikovanu da proizvodi strim enkripcije.
+reviewed: true

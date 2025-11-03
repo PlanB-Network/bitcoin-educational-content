@@ -1,0 +1,9 @@
+question: Ni gute urudodo rw’imburakimazi rusobanurwa muri iki kigabane?
+answer: Nk'urudodo rwatowe mu buryo bumwe mu mirongo yose y'uburebure bumwe
+wrong_answers:
+  - Nk'urudodo rwaremwe gusa n'ibice 0 na 1
+  - Nk'urudodo rwaronswe mu guhitamwo n'amaboko
+  - Nk'urudodo rw'uburebure buhinduka buva ku nzira yo gupfuka
+explanation: |
+  Urudodo rw'imburakimazi rusobanurwa nk'uruvuye mu guhitamwo kumwe mu mirongo yose ishoboka y'uburebure bumwe.
+reviewed: false

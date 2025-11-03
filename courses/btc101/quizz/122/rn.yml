@@ -1,0 +1,8 @@
+question: None Bitcoin Blockchain ni iki?
+answer: Ledger ya bose kandi idahinduka y’ibikorwa vyose vya Bitcoin.
+wrong_answers:
+  - Ledger y’ibanga kandi ihinduka y’ibikorwa vyose vya Bitcoin.
+  - Ledger ya bose kandi ihinduka y’ibikorwa vyose vya Bitcoin.
+  - Ledger y’ibanga kandi idahinduka y’ibikorwa vyose vya Bitcoin.
+explanation: >-
+reviewed: true

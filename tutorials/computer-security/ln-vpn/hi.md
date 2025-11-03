@@ -1,7 +1,7 @@
 ---
-name: जीडब्ल्यू-0 वीपीएन
+name: LN VPN
 
-description: अपना VPN सेट करें
+description: एक गुमनाम और ऑन-डिमांड VPN के लिए Lightning के साथ LN VPN कॉन्फ़िगर करें
 ---
 
 ![image](assets/cover.webp)

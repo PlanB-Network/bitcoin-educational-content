@@ -21,23 +21,23 @@ Wir zeigen Ihnen, wie einfach es ist, Sats mit Bittr zu stapeln.
 ## Erste Schritte mit Bittr
 
 
-1) Gehen Sie im Internet oder auf dem Handy zu [getbittr.com] (https://getbittr.com/buy-Bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) und klicken Sie auf "Bitcoin kaufen"
+- Gehen Sie im Internet oder auf dem Handy zu [getbittr.com] (https://getbittr.com/buy-Bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) und klicken Sie auf "Bitcoin kaufen"
 
 
 
-- Kein Konto:** Sie müssen kein Konto erstellen, um Bitcoin zu kaufen
-- Kein KYC-Prozess:** Sie müssen keinen KYC-Prozess durchlaufen (bis zu 999CHF pro 30 Tage)
-- Direkter Start:** Sie starten sofort und können Ihr Sats innerhalb von Minuten erhalten
+- **Kein Konto:** Sie müssen kein Konto erstellen, um Bitcoin zu kaufen
+- **Kein KYC-Prozess:** Sie müssen kein KYC durchlaufen (bis zu 999 CHF pro 30 Tage)
+- **Direkter Start:** Sie beginnen sofort und können Ihre Sats innerhalb weniger Minuten erhalten
 
 
 ![image1](assets/en/01.webp)
 
 
-2) Geben Sie die IBAN ein, von der aus Sie senden wollen
+- Geben Sie die IBAN ein, von der aus Sie senden wollen
 
 
 
-- Nur SEPA:** Bittr funktioniert nur innerhalb Europas
+- **Nur SEPA:** Bittr funktioniert nur innerhalb Europas
 
 
 ![image2](assets/en/02.webp)
@@ -58,37 +58,37 @@ Wir beginnen mit BlueWallet für Anfänger, und später im Lehrgang richten wir 
 Wir empfehlen Ihnen, die Einrichtung an einem ruhigen und privaten Ort vorzunehmen. Es sollte nicht länger als 5 Minuten dauern.
 
 
-1) Wählen Sie "bluewallet" auf der Website
+- Wählen Sie "bluewallet" auf der Website
 
 
-2) Laden Sie die BlueWallet App hier herunter: [App Store](https://itunes.apple.com/app/bluewallet-Bitcoin-Wallet/id1376878040), [Google Play](https://play.google.com/store/apps/details?id=io.bluewallet.bluewallet).
+- Laden Sie die BlueWallet App hier herunter: [App Store](https://itunes.apple.com/app/bluewallet-Bitcoin-Wallet/id1376878040), [Google Play](https://play.google.com/store/apps/details?id=io.bluewallet.bluewallet).
 
 
 ![image3](assets/en/03.webp)
 
 
-3) Klicken Sie auf "Wallet hinzufügen" (Wenn Sie bereits einen Wallet haben, fahren Sie mit dem nächsten Schritt fort).
+- Klicken Sie auf "Wallet hinzufügen" (Wenn Sie bereits einen Wallet haben, fahren Sie mit dem nächsten Schritt fort).
 
 
 ![image4](assets/en/04.webp)
 
 
-4) Wählen Sie Ihren Wallet aus und gehen Sie zur Nachrichtenunterzeichnung
+- Wählen Sie Ihren Wallet aus und gehen Sie zur Nachrichtenunterzeichnung
 
 
 ![image5](assets/en/05.webp)
 
 
-5) Schließen Sie die Unterzeichnung der Nachricht ab und fügen Sie Ihre Signatur auf der Website ein
+- Schließen Sie die Unterzeichnung der Nachricht ab und fügen Sie Ihre Signatur auf der Website ein
 
 
 ![image6](assets/en/06.webp)
 
 
-**Hinweis: Sie können auch auf "Teilen" in BlueWallet klicken, den gesamten Link kopieren und ihn in das Feld auf der Bittr-Website einfügen
+**Hinweis: Sie können auch in BlueWallet auf „Teilen“ klicken, den gesamten Link kopieren und in das Feld auf der Bittr-Website einfügen.**
 
 
-6) Richten Sie Ihre Überweisung mit Ihrer persönlichen Zahlungsbeschreibung ein
+- Richten Sie Ihre Überweisung mit Ihrer persönlichen Zahlungsbeschreibung ein
 
 
 ![image7](assets/en/07.webp)
@@ -97,25 +97,25 @@ Wir empfehlen Ihnen, die Einrichtung an einem ruhigen und privaten Ort vorzunehm
 ## Kaufen Sie Bitcoin direkt in der BitBox
 
 
-1) Wählen Sie "BitBox"
+- Wählen Sie "BitBox"
 
 
 ![image8](assets/en/08.webp)
 
 
-2) Klicken Sie, um die BitBox App auf Ihrem Computer zu öffnen
+- Klicken Sie, um die BitBox App auf Ihrem Computer zu öffnen
 
 
 ![image9](assets/en/09.webp)
 
 
-3) Entsperren Sie Ihre BitBox und folgen Sie den Schritten, um die Nachricht zu signieren
+- Entsperren Sie Ihre BitBox und folgen Sie den Schritten, um die Nachricht zu signieren
 
 
 ![image10](assets/en/10.webp)
 
 
-4) Richten Sie Ihre Überweisung mit Ihrer persönlichen Zahlungsbeschreibung ein
+- Richten Sie Ihre Überweisung mit Ihrer persönlichen Zahlungsbeschreibung ein
 
 
 ![image11](assets/en/11.webp)

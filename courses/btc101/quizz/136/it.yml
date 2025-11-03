@@ -1,10 +1,11 @@
-question: Come fa la rete Bitcoin a garantire che sia troppo costoso agire in modo malevolo all'interno del protocollo Bitcoin?
-answer: Attraverso regole del protocollo e incentivi economici.
+question: Cosa accadrebbe se un utente del nodo decidesse di seguire regole diverse che contraddicono le attuali regole di consenso?
+answer: Il nodo non farà più parte della rete Bitcoin.
 wrong_answers:
-  - Attraverso una stretta regolamentazione e supervisione.
-  - Attraverso l'uso di misure di sicurezza avanzate.
-  - Attraverso la minaccia di azioni legali.
-explanation: >-
-  La rete Bitcoin assicura che sia troppo costoso agire in modo malevolo all'interno del protocollo Bitcoin attraverso regole del protocollo e incentivi economici. Questo
-  elimina la necessità di fiducia in qualsiasi fase del trasferimento di proprietà dei bitcoin.
+  - Il nodo diventerà parte di una diversa rete Bitcoin.
+  - Il nodo verrà penalizzato dalla rete Bitcoin.
+  - Il nodo verrà premiato dalla rete Bitcoin.
+explanation: |
+  Se un utente del nodo decidesse di seguire altre regole che
+  invalidano le attuali regole di consenso, allora questo nodo
+  non farebbe più parte della rete Bitcoin.
 reviewed: true

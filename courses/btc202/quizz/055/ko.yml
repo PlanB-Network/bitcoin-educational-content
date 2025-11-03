@@ -1,0 +1,9 @@
+question: Sparrow에서 사용할 수 있는 세 가지 서버 옵션은 무엇인가요?
+answer: 퍼블릭 서버, Bitcoin core, 프라이빗 일렉트럼
+wrong_answers:
+  - RPC 다이렉트, VPN, 토르
+  - Full node, 라이트 노드, 모바일 노드
+  - 코어 RPC, 라이트닝, 일렉트럼X
+explanation: |
+  Sparrow는 세 가지 서버를 제공합니다: 퍼블릭 서버, Bitcoin core(RPC), 프라이빗 일렉트럼입니다.
+reviewed: true

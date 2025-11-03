@@ -1,0 +1,9 @@
+question: Ni mu bihe ibihe gufunga ku nguvu umuhora bikoreshwa?
+answer: Iyo umwe mu babiri atagisubiza .
+wrong_answers:
+  - Igihe ubushobozi bw'umurongo bukeneye kwongerwa .
+  - Igihe igihe co gufunga kitahagije
+  - Iyo amafaranga y'ugucuruza ari menshi cane
+explanation: |
+  Gufunga ku nguvu bikoreshwa nk’uburyo bwa nyuma iyo umwe mu babiri, nk’akarorero kubera ingorane y’ubuhinga, atagisubiza ubutumwa bw’uwundi.
+reviewed: false

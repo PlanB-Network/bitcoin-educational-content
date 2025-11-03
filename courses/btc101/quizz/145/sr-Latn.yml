@@ -1,11 +1,8 @@
-question: O čemu je bio rat blokova 2017. godine?
-answer: Sukob oko toga da li povećati veličinu bloka kako bi se proširio kapacitet transakcija.
+question: Šta je Hashrate?
+answer: Broj Hash proračuna koje uređaj za rudarenje može izvršiti po sekundi da bi rešio Proof of Work.
 wrong_answers:
-  - Sukob oko toga da li smanjiti veličinu bloka kako bi se smanjio kapacitet transakcija.
-  - Sukob oko toga da li povećati Block nagradu kako bi se podstakli rudari.
-  - Sukob oko toga da li smanjiti Block nagradu kako bi se destimulisali rudari.
-explanation: |
-  Blokovski rat 2017. bio je sukob oko toga da li
-  modifikovati Bitkoin povećanjem veličine bloka kako bi se
-  proširio kapacitet transakcija.
+  - Brzina kojom uređaj za rudarenje može rešiti Proof of Work.
+  - Ukupan broj rudara u Bitkoin mreži.
+  - Ukupna količina bitkoina iskopanih izvođenjem određenog broja pokušaja u sekundi za rešavanje Proof of Work.
+explanation: >-
 reviewed: true

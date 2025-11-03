@@ -1,5 +1,5 @@
 ---
-name: BTC kaart
+name: BTC Map
 description: Leia kohad, kus veeta oma Sats
 ---
 ![cover](assets/cover.webp)

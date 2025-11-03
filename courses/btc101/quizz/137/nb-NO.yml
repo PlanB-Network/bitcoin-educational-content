@@ -1,10 +1,8 @@
-question: Hvordan overfører brukere eierskapet til pengene sine i Bitcoin-nettverket?
-answer: Ved å digitalt signere transaksjoner med sine private nøkler.
+question: Hva er båndbreddekravet for å kjøre en Bitcoin-node, med tanke på 1 blokk på 1MB hvert 10. minutt?
+answer: Omtrent 5GB per måned
 wrong_answers:
-  - Ved fysisk å overlevere sine Bitcoins.
-  - Ved å sende en e-post til mottakeren.
-  - Ved å gi sin Bitcoin-adresse til mottakeren.
+  - Omtrent 1GB per måned
+  - Omtrent 10GB per måned
+  - Omtrent 20GB per måned
 explanation: >-
-  Brukere i Bitcoin-nettverket overfører eierskapet til pengene sine ved å digitalt
-  signere transaksjoner med sine private nøkler. Dette bekrefter at de er eierne
-  av Bitcoinsene de ønsker å overføre.
+  Med tanke på 1 blokk på 1MB hvert 10. minutt, krever kjøring av en Bitcoin-node omtrent 5GB per måned i båndbredde.

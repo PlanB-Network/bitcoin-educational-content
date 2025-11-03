@@ -1,19 +1,19 @@
 ---
-name: Elektrum
+name: Electrum
 
-description: Tam Elektrum Kılavuzu, 0'dan kahramana
+description: Tam Electrum Rehberi, sıfırdan uzmana
 ---
 
 ![cover](assets/cover.webp)
 
 
-Aşağıda Electrum için birkaç açıklama kaynağı bulun:
+Aşağıda Electrum için birkaç açıklama kaynağı bulabilirsiniz:
 
 
 
 - [X](https://twitter.com/ElectrumWallet)
-- [Electrum web sitesi](https://electrum.org/)
-- [Electrum belgeleri](https://electrum.readthedocs.io/)
+- [Electrum website](https://electrum.org/)
+- [Electrum documentation](https://electrum.readthedocs.io/)
 
 
 İşte Rogzy'nin bu eğitim hakkında düşündükleri:

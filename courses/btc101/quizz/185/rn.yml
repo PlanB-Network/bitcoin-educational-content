@@ -1,0 +1,8 @@
+question: OpenNode ni iki?
+answer: Umuti woroshe wo kuri internet ku bucuruzi bwo kwemera Bitcoin.
+wrong_answers:
+  - Ubwoko bw’urudodo rwa Bitcoin rukoreshwa icarimwe n’abakoresha benshi.
+  - Porogarama ya Bitcoin Mining ikoreshwa n’inkomoko yuguruye.
+  - Igikoresho ca Bitcoin Exchange.
+explanation: >-
+reviewed: true

@@ -1,0 +1,11 @@
+question: None insobanuro y’ugutera imbere kw’ibiciro nk’uko Robert abivuga ni iyihe?
+answer: Inflation ni ukwiyongera cane kw’ibikoresho vyo kwishura bituma ibiciro biduga n’ugucika intege kw’agaciro k’amahera.
+wrong_answers:
+  - Inflation ni ukugabanya ibikoresho vyo kwishura bituma ibiciro biduga n’amahera agabanuka.
+  - Inflation ni ukwiyongera cane kw’ibikoresho vyo kwishura bituma ibiciro bigabanuka n’agaciro k’amahera.
+  - Inflation ni ukwiyongera cane kw’ibikoresho vyo kwishura bituma ibiciro vyiyongera kandi amafaranga agashimira.
+explanation: |
+  Nk’uko Robert abivuga, ugutera imbere kw’ibiciro bisobanurwa nk’ukwiyongera birenze urugero mu 2012.
+  ibikoresho vyo kwishura (amafaranga y’amabanki, umutungo) bituma ibiciro biduga n’ugusenyuka kw’agaciro
+  y’amahera.
+reviewed: false

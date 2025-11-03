@@ -3,6 +3,7 @@ id: c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 project_id: 9b3cac51-1dd2-4333-83dc-dc1d3a972595
 
 tags:
+  - hardware-wallet-ready
   - wallets
   - guides
   - user-friendly
@@ -134,3 +135,18 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 9.82
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 12.26
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 9.82
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 14.69

@@ -1,9 +1,11 @@
-question: Rủi ro của việc làm phức tạp quá mức bảo mật và khả năng truy cập vào bitcoin của bạn là gì?
-answer: Bạn có thể tự gây hại cho mình nếu bạn xử lý sai các bản sao lưu ví.
+question: Khóa riêng trong ví Bitcoin thường được biểu diễn bằng cách nào?
+answer: Một danh sách gồm 12 hoặc 24 từ.
 wrong_answers:
-  - Bạn có thể tự gây hại cho mình nếu bạn xử lý sai các ví vật lý.
-  - Bạn có thể tự gây hại cho mình nếu bạn xử lý sai các ví số.
-  - Bạn có thể tự gây hại cho mình nếu bạn xử lý sai các ví multisig.
+  - Một danh sách gồm 12 hoặc 48 từ.
+  - Một danh sách gồm 32 từ.
+  - Một danh sách gồm 64 từ.
 explanation: |
-  Việc làm phức tạp quá mức bảo mật và khả năng truy cập vào bitcoin của bạn có thể gây hại cho bạn nếu, ví dụ, bạn xử lý sai các bản sao lưu của ví. Điều này là bởi vì các thủ tục sao lưu đơn giản là rất quan trọng để lấy lại quyền truy cập vào quỹ của bạn trong trường hợp mất điện thoại hoặc máy tính.
+  Trong ví Bitcoin, khóa riêng thường được biểu diễn
+  bằng một danh sách gồm 12 hoặc 24 từ, còn được biết đến là cụm từ hạt giống
+  hoặc cụm từ ghi nhớ.
 reviewed: true

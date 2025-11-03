@@ -1,9 +1,11 @@
-question: Nhược điểm chính của tiền tệ fiat là gì?
-answer: Giá trị của chúng liên tục bị xói mòn bởi lạm phát tiền tệ.
+question: Điều nào sau đây không phải là một lợi ích của Bitcoin như một loại tiền tệ?
+answer: Nó được sử dụng để thanh toán thuế.
 wrong_answers:
-  - Chúng không dễ dàng vận chuyển.
-  - Giá trị của chúng liên tục được đánh giá cao bởi lạm phát tiền tệ.
-  - Chúng không thể chia nhỏ.
-explanation:
-  Nhược điểm chính của tiền tệ fiat, như đô la và euro, là giá trị của chúng liên tục bị xói mòn bởi lạm phát tiền tệ. Điều này do sự mất giá do các thực thể kiểm soát chúng (vua, ngân hàng trung ương, hoàng đế, độc tài) gây ra.
+  - Nó có thể chia nhỏ.
+  - Nó có thể vận chuyển.
+  - Nó không cần phép.
+explanation: |
+  Bitcoin, nhờ vào các đặc tính như khả năng chia nhỏ,
+  khả năng xác minh, tính không cần phép và khả năng vận chuyển,
+  cung cấp một phương tiện lưu trữ giá trị xuất sắc. Hơn nữa, với tư cách là một đồng tiền trung lập trên internet, nó đại diện cho một phương tiện trao đổi tốt không biết đến biên giới.
 reviewed: true

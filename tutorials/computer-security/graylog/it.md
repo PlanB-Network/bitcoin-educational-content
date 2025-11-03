@@ -10,7 +10,7 @@ ___
 
 
 
-*Questa esercitazione si basa su un contenuto originale di Florian BURNEL pubblicato su [IT-Connect](https://www.it-connect.fr/). Licenza [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Possono essere state apportate modifiche al testo originale
+*Questa esercitazione si basa su un contenuto originale di Florian BURNEL pubblicato su [IT-Connect](https://www.it-connect.fr/). Licenza [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Possono essere state apportate modifiche al testo originale.*
 
 
 
@@ -43,7 +43,7 @@ Graylog è uno strumento di analisi e monitoraggio che facilita l'identificazion
 
 
 
-**Nota: la versione gratuita, **Graylog Open**, non è un SIEM come Wazuh, soprattutto perché manca di vere funzioni di rilevamento delle intrusioni.
+**Nota: la versione gratuita, Graylog Open, non è un SIEM come Wazuh, soprattutto perché manca di vere funzioni di rilevamento delle intrusioni.**
 
 
 
@@ -57,9 +57,9 @@ Lo **stack Graylog** si basa su **diversi componenti** che dovremo installare e 
 
 
 
-- MongoDB 7**, la versione correntemente raccomandata per Graylog (minimo 5.0.7, massimo 7.x)
-- OpenSearch**, un Fork open source di Elasticsearch creato da Amazon (minimo 1.1.x, massimo 2.15.x)
-- OpenJDK 17**
+- **MongoDB 7**, la versione correntemente raccomandata per Graylog (minimo 5.0.7, massimo 7.x)
+- **OpenSearch**, un Fork open source di Elasticsearch creato da Amazon (minimo 1.1.x, massimo 2.15.x)
+- **OpenJDK 17**
 
 
 
@@ -85,7 +85,7 @@ sudo timedatectl set-timezone Europe/Paris
 
 
 
-**Nota: l'installazione di **OpenSearch è facoltativa** se si utilizza invece **Graylog Data Node**.
+**Nota: l'installazione di OpenSearch è facoltativa** se si utilizza invece **Graylog Data Node**.
 
 
 
@@ -279,14 +279,14 @@ Questa configurazione di OpenSearch è stata progettata per configurare un singo
 
 
 
-- cluster.name: graylog**: questo parametro nomina il cluster OpenSearch con il nome "**graylog**".
-- node.name: ${HOSTNAME}**: il nome del nodo viene impostato dinamicamente per corrispondere a quello della macchina Linux locale. Anche se abbiamo un solo nodo, è importante assegnargli un nome corretto.
-- path.data: /var/lib/opensearch**: questo percorso specifica dove OpenSearch memorizza i suoi dati sulla macchina locale, in questo caso in "**/var/lib/opensearch**".
-- path.logs: /var/log/opensearch**: questo percorso definisce dove vengono memorizzati i file di log di OpenSearch, qui in "**/var/log/opensearch**".
-- discovery.type: single-node**: questo parametro configura OpenSearch per lavorare con un singolo nodo, da cui la scelta dell'opzione "**single-node**".
-- network.host: 127.0.0.1**: questa configurazione assicura che OpenSearch ascolti solo il suo anello locale Interface, che è sufficiente dato che si trova sullo stesso server di Graylog.
-- action.auto_create_index: false**: disabilitando la creazione automatica dell'indice, OpenSearch non creerà automaticamente un indice quando un documento viene inviato senza un indice esistente.
-- plugins.security.disabled: true**: questa opzione disattiva il plugin di sicurezza OpenSearch, il che significa che non ci saranno autenticazione, gestione degli accessi o crittografia delle comunicazioni. Questa impostazione fa risparmiare tempo durante la configurazione di Graylog, ma dovrebbe essere evitata in produzione (vedere [questa pagina](https://opensearch.org/docs/1.0/security-plugin/index/)).
+- cluster.name: graylog: questo parametro nomina il cluster OpenSearch con il nome "**graylog**".
+- node.name: ${HOSTNAME}: il nome del nodo viene impostato dinamicamente per corrispondere a quello della macchina Linux locale. Anche se abbiamo un solo nodo, è importante assegnargli un nome corretto.
+- path.data: /var/lib/opensearch: questo percorso specifica dove OpenSearch memorizza i suoi dati sulla macchina locale, in questo caso in "**/var/lib/opensearch**".
+- path.logs: /var/log/opensearch: questo percorso definisce dove vengono memorizzati i file di log di OpenSearch, qui in "**/var/log/opensearch**".
+- discovery.type: single-node: questo parametro configura OpenSearch per lavorare con un singolo nodo, da cui la scelta dell'opzione "**single-node**".
+- network.host: 127.0.0.1: questa configurazione assicura che OpenSearch ascolti solo il suo anello locale Interface, che è sufficiente dato che si trova sullo stesso server di Graylog.
+- **action.auto_create_index: false**: disabilitando la creazione automatica dell'indice, OpenSearch non creerà automaticamente un indice quando un documento viene inviato senza un indice esistente.
+- **plugins.security.disabled: true**: questa opzione disattiva il plugin di sicurezza OpenSearch, il che significa che non ci saranno autenticazione, gestione degli accessi o crittografia delle comunicazioni. Questa impostazione fa risparmiare tempo durante la configurazione di Graylog, ma dovrebbe essere evitata in produzione (vedere [questa pagina](https://opensearch.org/docs/1.0/security-plugin/index/)).
 
 
 
@@ -350,7 +350,7 @@ Chiudere il file dopo averlo salvato.
 
 
 
-Inoltre, dobbiamo controllare la configurazione del parametro "**max_map_count**" nel kernel Linux. Esso definisce il limite di aree di memoria mappate per processo, al fine di soddisfare le esigenze della nostra applicazione. **OpenSearch**, come Elasticsearch**, raccomanda di impostare questo valore a "262144" per evitare errori di gestione della memoria.
+Inoltre, dobbiamo controllare la configurazione del parametro "**max_map_count**" nel kernel Linux. Esso definisce il limite di aree di memoria mappate per processo, al fine di soddisfare le esigenze della nostra applicazione. **OpenSearch**, come **Elasticsearch**, raccomanda di impostare questo valore a "262144" per evitare errori di gestione della memoria.
 
 
 
@@ -431,8 +431,8 @@ Cominciamo a configurare queste due opzioni:
 
 
 
-- password_secret**: questo parametro serve a definire una chiave utilizzata da Graylog per proteggere la memorizzazione delle password degli utenti (nello spirito di una chiave di salatura). Questa chiave deve essere **unica** e **casuale**.
-- root_password_sha2**: questo parametro corrisponde alla password di amministratore predefinita in Graylog. È memorizzata come Hash SHA-256.
+- **password_secret**: questo parametro serve a definire una chiave utilizzata da Graylog per proteggere la memorizzazione delle password degli utenti (nello spirito di una chiave di salatura). Questa chiave deve essere **unica** e **casuale**.
+- **root_password_sha2**: questo parametro corrisponde alla password di amministratore predefinita in Graylog. È memorizzata come Hash SHA-256.
 
 
 
@@ -536,7 +536,7 @@ Una volta fatto questo, provare a connettersi a Graylog da un browser. Immettere
 
 
 
-**Per vostra informazione
+**Per vostra informazione**
 
 
 
@@ -566,7 +566,7 @@ tail -f /var/log/graylog-server/server.log
 
 
 
-**Questo non è più il caso. Tutto ciò che dovete fare è accedere con il vostro account di amministratore e la password configurata alla riga di comando
+**Questo non è più il caso. Tutto ciò che dovete fare è accedere con il vostro account di amministratore e la password configurata alla riga di comando**
 
 
 
@@ -574,7 +574,7 @@ tail -f /var/log/graylog-server/server.log
 
 
 
-**Benvenuti al Interface di Graylog!
+**Benvenuti al Interface di Graylog!**
 
 
 
@@ -661,7 +661,7 @@ Il nuovo ingresso è stato creato ed è ora attivo. Graylog può ora ricevere i 
 ![Image](assets/fr/018.webp)
 
 
-**Nota: un singolo ingresso può essere usato per memorizzare i registri di diverse macchine Linux.
+**Nota:** un singolo ingresso può essere usato per memorizzare i registri di diverse macchine Linux.
 
 
 
@@ -701,7 +701,7 @@ Per creare un nuovo flusso, fare clic su "**Flussi**" nel menu principale di Gra
 
 
 
-**Nota: i messaggi corrispondenti a questo flusso saranno inclusi anche nel "**Flusso predefinito**", a meno che non si selezioni l'opzione "**Rimuovi le corrispondenze dal 'flusso predefinito'**".
+**Nota: i messaggi corrispondenti a questo flusso saranno inclusi anche nel "Flusso predefinito", a meno che non si selezioni l'opzione "Rimuovi le corrispondenze dal 'flusso predefinito'".**
 
 
 

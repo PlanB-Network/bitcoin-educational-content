@@ -1,0 +1,9 @@
+question: Essential 프로필 비즈니스에 권장되는 기본 결제 솔루션은 무엇인가요?
+answer: 스위스 Bitcoin Pay
+wrong_answers:
+  - 노드 열기
+  - BTCPay 서버
+  - 비트코인화 PoS
+explanation: |
+  간편함과 보안의 균형을 맞추는 필수 프로필을 위한 권장 솔루션으로 스위스 Bitcoin Pay를 강조합니다.
+reviewed: true

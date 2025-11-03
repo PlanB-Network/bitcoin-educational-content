@@ -1,0 +1,9 @@
+question: 2010년 6월에 최초의 Bitcoin Faucet를 만들고 Satoshi의 소프트웨어 개발을 지원한 개빈 안드레센의 출신 국가는 어디인가요?
+answer: 호주
+wrong_answers:
+  - 미국
+  - 프랑스
+  - 네덜란드
+explanation: |
+  그는 호주에서 [태어났지만](https: //gavinthink.blogspot.com/2007/06/seven-years-ago-today.html) 2004년에 미국 시민권을 취득했습니다.
+reviewed: true

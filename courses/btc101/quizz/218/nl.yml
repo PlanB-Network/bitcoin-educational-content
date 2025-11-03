@@ -1,11 +1,10 @@
-question: Wat is de aard van Bitcoin's adoptie zoals beschreven in deze cursus?
-answer: Viraal.
+question: Wanneer werd de Lightning Network voor het eerst gevalideerd en geïmplementeerd?
+answer: 2017
 wrong_answers:
-  - Langzaam en gestaag.
-  - Snel en oncontroleerbaar.
-  - Sporadisch en onvoorspelbaar.
+  - 2015
+  - 2016
+  - 2018
 explanation: |
-  De cursustekst beschrijft de adoptie van Bitcoin als viraal,
-  wat suggereert dat het zich snel en wijd verspreidt van de ene
-  van de ene persoon op de andere, net als een virus, maar dan een goede.
+  De Lightning Network werd voor het eerst gevalideerd en geïmplementeerd
+  in 2017.
 reviewed: true

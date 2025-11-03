@@ -1,8 +1,8 @@
-question: Apa satu keuntungan menerima Bitcoin sebagai pedagang?
-answer: Ketahanan terhadap sensor
+question: Apa salah satu solusi bagi struktur besar atau penggemar Bitcoin yang bersemangat untuk menerima Bitcoin?
+answer: BTCpay Server
 wrong_answers:
-  - Biaya transaksi yang meningkat
-  - Perlindungan terhadap deflasi
-  - Pembatasan finansial
+  - Dompet Bitcoin
+  - Bursa Bitcoin
+  - Penambangan Bitcoin
 explanation: >-
-  Menerima Bitcoin sebagai pedagang memiliki beberapa keuntungan, termasuk ketahanan terhadap sensor, pengurangan biaya transaksi, peningkatan efisiensi, perlindungan terhadap inflasi, serta kebebasan dan kedaulatan finansial.
+  BTCpay Server adalah solusi bagi struktur besar atau penggemar Bitcoin yang bersemangat untuk menerima Bitcoin. Solusi lain termasuk OpenNode untuk bisnis online sederhana dan Swiss Bitcoin Pay untuk pedagang amatir.

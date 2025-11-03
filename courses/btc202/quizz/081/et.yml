@@ -1,0 +1,9 @@
+question: Milline Bitcoin.conf parameeter piirab Mempool suurust MB-s?
+answer: maxmempool
+wrong_answers:
+  - totalmempool
+  - mempoolexpiry
+  - mempoolsize
+explanation: |
+  maxmempool määrab Mempool maksimaalse suuruse (vaikimisi 300 MB). Kui see on täis, tõrjutakse vähem tulutoovad tehingud välja.
+reviewed: true

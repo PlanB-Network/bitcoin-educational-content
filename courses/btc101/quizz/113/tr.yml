@@ -1,13 +1,11 @@
-question: Herkesin aynı Bitcoin Wallet'i kullanmasını engelleyen nedir?
-answer: Farklı bireylerin farklı kullanım durumlarına ihtiyacı vardır.
+question: Bitcoin ilk kez ne zaman fiziksel mal satın almak için kullanıldı?
+answer: Laszlo Hanyecz 10.000 BTC karşılığında 2 pizza satın aldığında.
 wrong_answers:
-  - Bitcoin Wallet kullanmak pahalıdır.
-  - Bitcoin Wallet kullanmak yasa dışıdır.
-  - İnsanlar böyle bir Wallet'nın adı üzerinde asla anlaşamayacaklar.
+  - Hal Finney 100,000 BTC'ye bir araba aldığında.
+  - Satoshi Nakamoto 1.000.000.000 BTC karşılığında bir ev satın aldığında.
+  - Diğer seçeneklerin hiçbiri.
 explanation: |
-  Bir kişi güvenliğe öncelik verirken, bir başkası
-  kullanıcı dostluğuna veya belirli özelliklere değer verir. Dolayısıyla, bir
-  tek Bitcoin Wallet herkesin zevkine hitap etmeyebilir
-  gereksinimleri, birden fazla Wallet için gerekli hale getirir
-  seçeneklerinin mevcut olması.
+  Bitcoin ilk kez fiziksel satın alma için kullanıldı
+  laszlo Hanyecz'in 2 pizzayı 10.000 dolara satın almasıydı
+  BTC, artık Pizza Günü olarak bilinen 2010/05/22 tarihinde
 reviewed: true

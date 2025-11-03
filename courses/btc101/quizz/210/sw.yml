@@ -1,8 +1,12 @@
-question: Ni nchi gani imetangaza Bitcoin kama zabuni halali?
-answer: El Salvador.
+question: Bitcoin inazua maswali katika nyanja zipi?
+answer: Siri, nadharia ya mchezo, uchumi na sera ya fedha, sayansi ya kompyuta, falsafa, nishati, sheria na udhibiti.
 wrong_answers:
-  - Marekani.
-  - China.
-  - India.
-explanation: >-
+  - Sayansi ya kompyuta tu na uchumi
+  - Fiche pekee na nadharia ya mchezo.
+  - Ni falsafa na nishati tu.
+explanation: |
+  Bitcoin ni somo la fani nyingi ambalo huibua
+  maswali yanayohusiana na nyanja mbalimbali, ikiwa ni pamoja na
+  kriptografia, nadharia ya mchezo, uchumi na sera ya fedha,
+  sayansi ya kompyuta, falsafa, nishati, sheria, na kanuni.
 reviewed: true

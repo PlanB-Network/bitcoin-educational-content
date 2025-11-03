@@ -1,12 +1,8 @@
-question: Vilken betydelse har den geografiska fördelningen av Bitcoin-noderna?
-answer: Det gör det praktiskt taget omöjligt att förstöra alla kopior av Blockchain.
+question: Vad är det ungefärliga antalet noder som är fördelade över hela världen i september 2023?
+answer: 45.000 noder.
 wrong_answers:
-  - Det avgör priset på Bitcoin i olika regioner.
-  - Det påverkar hastigheten för Bitcoin-transaktioner.
-  - Det avgör antalet bitcoins som kan utvinnas i en region.
-explanation: |
-  Den geografiska fördelningen av Bitcoin-noderna gör det
-  praktiskt taget omöjligt att förstöra alla kopior av
-  Blockchain. Eftersom noderna är utspridda är det svårt att
-  fysiskt beslagta dem alla.
+  - 10.000 noder.
+  - 100.000 noder.
+  - 500.000 noder.
+explanation: >-
 reviewed: true

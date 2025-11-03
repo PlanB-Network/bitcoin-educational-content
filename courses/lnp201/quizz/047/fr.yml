@@ -6,4 +6,4 @@ wrong_answers:
   - Calculer les frais de transaction de manière automatique
 explanation: |
   LNURL est un protocole de communication conçu pour simplifier les interactions, comme les retraits et les paiements, entre les nœuds et les applications Lightning.
-reviewed: false
+reviewed: true 

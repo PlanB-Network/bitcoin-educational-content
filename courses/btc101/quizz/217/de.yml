@@ -1,12 +1,9 @@
-question: In welchen Bereichen wirft Bitcoin Fragen auf?
-answer: Kryptographie, Spieltheorie, Wirtschaft und Geldpolitik, Informatik, Philosophie, Energie, Gesetze und Regulierung.
+question: Wofür ermöglicht das Lightning-Netzwerk?
+answer: Sofortige, kostengünstige Bitcoin-Transaktionen.
 wrong_answers:
-  - Nur Informatik und Wirtschaft
-  - Nur Kryptographie und Spieltheorie.
-  - Nur Philosophie und Energie.
-explanation: |
-  Bitcoin ist ein multidisziplinäres Thema, das
-  Fragen in verschiedenen Bereichen aufwirft, einschließlich
-  Kryptographie, Spieltheorie, Wirtschaft und Geldpolitik,
-  Informatik, Philosophie, Energie, Gesetze und Regulierung.
+  - Sofortige, hochpreisige Bitcoin-Transaktionen.
+  - Verzögerte, kostengünstige Bitcoin-Transaktionen.
+  - Verzögerte, hochpreisige Bitcoin-Transaktionen.
+explanation: >-
+  Das Lightning-Netzwerk ermöglicht sofortige, kostengünstige Bitcoin-Transaktionen und löst damit das Skalierbarkeitsproblem von Bitcoin.
 reviewed: true

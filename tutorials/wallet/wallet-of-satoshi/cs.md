@@ -1,5 +1,5 @@
 ---
-name: Wallet z Satoshi
+name: Wallet of Satoshi
 description: Nejjednodušší opatrovnictví Wallet pro začátek
 ---
 ![cover](assets/cover.webp)
@@ -12,7 +12,7 @@ _Tento návod napsal_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
 Wallet z Satoshi je Lightning Network Wallet, opatrovnický a velmi jednoduchý na použití.
 
-Pro účely kurzu [BTC105 - Finding Now](https://planb.network/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5) se používá pro poukázky Redeem Lightning Network.
+Pro účely kurzu [BTC105 - Finding Now](https://planb.academy/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5) se používá pro poukázky Redeem Lightning Network.
 
 
 **Vždy pamatujte**: _ne klíče, ne mince_
@@ -79,8 +79,8 @@ Wallet z Satoshi odeslal zprávu do uvedené e-mailové schránky.
 V poštovní schránce najdeme dvě slova, která musíme zadat a přepsat je do prostoru, který nám aplikace poskytne.
 
 
-- neaktivujte překladač: slova jsou a musí zůstat v angličtině**
-- přepsat obě slova a dávat pozor na velká/malá písmena**
+- neaktivujte překladač: slova jsou a musí zůstat v angličtině
+- přepsat obě slova a dávat pozor na velká/malá písmena
 
 
 ![image](assets/it/10.webp)

@@ -1,11 +1,12 @@
-question: Cos'è la Proof of Work (POW)?
-answer: È il consenso di sicurezza del protocollo Bitcoin.
+question: Qual è lo scopo della Proof of Work nella rete Bitcoin?
+answer: La Proof of Work assicura la veridicità delle informazioni senza affidarsi a un terzo.
 wrong_answers:
-  - È il processo di creazione di nuovi bitcoin.
-  - È il metodo di verifica delle transazioni Bitcoin.
-  - È l'algoritmo utilizzato per minare i bitcoin.
+  - La Proof of Work è utilizzata per creare nuovi bitcoin affidandosi a un terzo.
+  - La Proof of Work è utilizzata per verificare le transazioni Bitcoin affidandosi a un terzo.
+  - La Proof of Work è utilizzata per cambiare il protocollo Bitcoin senza affidarsi a un terzo.
 explanation: >-
   La Proof of Work è un algoritmo di consenso utilizzato nella rete Bitcoin
   per validare le transazioni e creare nuovi blocchi. Richiede ai miner di risolvere problemi
-  matematici complessi, garantendo la sicurezza e l'integrità della rete.
+  matematici complessi, il che assicura l'autenticità delle informazioni nella
+  rete senza la necessità di un terzo di fiducia.
 reviewed: true

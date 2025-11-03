@@ -6,15 +6,15 @@ description: Nastavení vaší peněženky Muun
 
 ![obal](assets/cover.webp)
 
-Muun (https://muun.com/) je peněženka s vlastní správou pro bitcoin a lightning.
+[Muun](https://muun.com/) je samosprávná peněženka pro bitcoin a lightning.
 
-## video tutoriál
+## Videonávod
 
 ![video tutoriál](https://youtu.be/t1rxp8InZW8)
 
 ## Muun Peněženka - Kompletní uživatelská příručka
 
-Kompletní uživatelská příručka (s obrázky) pro aplikaci Muun; uživatelsky přívětivá mobilní Bitcoin peněženka, která vám umožňuje provádět transakce na Lightning Network.
+Kompletní uživatelská příručka (s obrázky obrazovky) pro aplikaci Muun; uživatelsky přívětivá mobilní peněženka na Bitcoin, která vám umožňuje provádět transakce v síti Lightning.
 
 ![obrázek](assets/0.5.webp)
 
@@ -118,15 +118,15 @@ Zde je překlad instrukcí:
 
 Tento nouzový postup vám pomůže obnovit vaše prostředky, pokud nemůžete používat Muun na vašem zařízení.
 
-1. Najděte svůj obnovovací kód
+- Najděte svůj obnovovací kód
 
 Tento kód jste si napsali na kus papíru před vytvořením vašeho nouzového kitu. Budete ho později potřebovat.
 
-2. Stáhněte nástroj pro obnovu
+- Stáhněte si nástroj pro obnovu
 
 Přejděte na stránku https://github.com/muun/recovery a stáhněte nástroj do svého počítače.
 
-3. Obnovte své prostředky
+- Obnovte své prostředky
 
 Spusťte nástroj pro obnovu a postupujte podle kroků. Nástroj převede vaše prostředky na Bitcoinovou adresu podle vašeho výběru.
 
@@ -168,7 +168,7 @@ Možnosti přizpůsobení lze nalézt v menu "Nastavení faktury". Zde můžete 
 
 ![obrázek](assets/28.webp)
 
-## Použití funkce LNURL
+## Používání funkce LNURL
 Peněženka Muun nabízí možnost použít LNURL pro přijímání transakcí. Tato funkce, která je aktivována klepnutím na čtvercový skenovací symbol umístěný v pravém horním rohu stránky, má několik výhod, včetně vyhnutí se nutnosti sdílet fakturu pro přijetí transakce. Místo toho stačí naskenovat QR kód, abyste obdrželi informace o platbě, které pak můžete ověřit a potvrdit proces transakce.
 ![image](assets/29.webp)
 

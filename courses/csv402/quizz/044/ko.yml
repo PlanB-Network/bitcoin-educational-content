@@ -1,0 +1,9 @@
+question: 사용되지 않는 상태가 방송될 경우 라이트닝 채널에서 RGB 전환의 안전은 어떻게 보장되나요?
+answer: 번개 채널의 징벌적 메커니즘을 통해
+wrong_answers:
+  - 이전 거래를 모두 자동으로 취소하여
+  - RGB 프로토콜의 징벌적 메커니즘을 통해
+  - Genesis와 관련된 서명을 통해 RGB 자산 발행자의 개입을 통해
+explanation: |
+  Lightning Network의 고전적인 처벌 메커니즘은 오래된 상태의 유포가 RGB 자산을 포함하여 관련된 모든 자금을 회수하여 처벌할 수 있도록 보장합니다.
+reviewed: false

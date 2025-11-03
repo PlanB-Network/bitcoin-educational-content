@@ -3,7 +3,7 @@ name: BIP47 - PayNym
 
 description: PayNyms 如何運作
 ---
-***警告:** 在 Samourai Wallet 的創始人於 4 月 24 日被捕並其伺服器被扣押之後，沒有自己的 Dojo 的使用者無法再使用此應用程式。BIP47 仍可在 Sparrow Wallet 上供所有使用者使用，而 ** 在 Samourai Wallet 上則僅供擁有道場的使用者使用**。
+**警告:** 在 Samourai Wallet 的創始人於 4 月 24 日被捕並其伺服器被扣押之後，沒有自己的 Dojo 的使用者無法再使用此應用程式。BIP47 仍可在 Sparrow Wallet 上供所有使用者使用，而**在 Samourai Wallet 上則僅供擁有道場的使用者使用**。
 
 
 我們正密切注意此案例的發展，以及相關工具的發展。請放心，我們會在有新資訊時更新本教學。

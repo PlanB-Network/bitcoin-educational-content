@@ -1,8 +1,13 @@
-question: Koja je jedna od potencijalnih primena Lightning mreže u svakodnevnom životu?
-answer: Instant naplata u trgovini.
+question: Šta je DCA platforma?
+answer: Usluga koja omogućava korisnicima da investiraju fiksni iznos novca u imovinu u redovnim intervalima.
 wrong_answers:
-  - Rudarenje novih Bitkoina.
-  - Kreiranje novih kriptovaluta.
-  - Povećanje vrednosti Bitkoina.
-explanation: >-
+  - Vrsta razmene kriptovalute koja omogućava trgovanje samo Bitkoin.
+  - Finansijska usluga koja pruža zajmove investitorima za margina trgovanje.
+  - Softverski alat koji prati cene akcija u realnom vremenu bez ikakvih investicionih funkcija.
+explanation: |
+  DCA platforma odnosi se na platformu koja omogućava
+  Dollar-Cost Averaging (DCA), investicionu strategiju gde
+  pojedinac investira fiksni iznos novca u
+  određeni aset u redovnim intervalima, bez obzira na
+  cenu aseta.
 reviewed: true

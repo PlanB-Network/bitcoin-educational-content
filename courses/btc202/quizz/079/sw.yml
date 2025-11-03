@@ -1,0 +1,9 @@
+question: Je, ni ukubwa gani wa juu zaidi wa faili ya blkNNNNN.dat kabla ya faili mpya kuundwa?
+answer: 128 MiB
+wrong_answers:
+  - 256 MiB
+  - 256 GiB
+  - 128 GiB
+explanation: |
+  Faili za blkNNNNN.dat huhifadhi vizuizi kwa mfuatano na kufikia ukubwa wa karibu 128 MiB kabla ya Bitcoin core kufungua inayofuata.
+reviewed: true

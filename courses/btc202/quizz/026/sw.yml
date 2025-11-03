@@ -1,0 +1,9 @@
+question: Nani aligundua dhana ya uthibitishaji wa malipo uliorahisishwa (SPV)?
+answer: Satoshi Nakamoto
+wrong_answers:
+  - Hal Finney
+  - Adam Nyuma
+  - Pieter Wuille
+explanation: |
+  SPV imewasilishwa katika sehemu ya 8 ya Karatasi Nyeupe ya Satoshi Nakamoto.
+reviewed: true

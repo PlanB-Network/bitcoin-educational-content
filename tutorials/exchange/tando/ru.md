@@ -1,5 +1,5 @@
 ---
-name: Тандо
+name: Tando
 description: Проведите Bitcoin в любой точке Кении.
 ---
 
@@ -73,15 +73,15 @@ Tando позволяет использовать биткоины для пок
 
 
 
-https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
+https://planb.academy/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 
 
-- Сканирование к оплате** :
+- **Сканирование к оплате**:
 
 
 
@@ -95,7 +95,7 @@ Scan to pay - одна из опций автоматической оплаты
 
 
 
-- Отправка денег в Кению**:
+- **Отправка денег в Кению**:
 
 
 
@@ -121,7 +121,7 @@ Scan to pay - одна из опций автоматической оплаты
 
 
 
-- Оплачивайте счета** :
+- **Оплачивайте счета**:
 
 
 
@@ -135,7 +135,7 @@ Scan to pay - одна из опций автоматической оплаты
 
 
 
-- Покупка товаров** :
+- **Покупка товаров**:
 
 
 
@@ -159,4 +159,4 @@ Scan to pay - одна из опций автоматической оплаты
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitspenda-34cf6f5d-4464-4f26-809f-de4af3cec5fd
+https://planb.academy/tutorials/exchange/centralized/bitspenda-34cf6f5d-4464-4f26-809f-de4af3cec5fd

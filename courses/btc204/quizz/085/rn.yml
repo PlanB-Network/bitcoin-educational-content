@@ -1,0 +1,10 @@
+question: Ni igiki kigereranyo c’uguhuza abakoresha gikoreshwa na JoinMarket?
+answer: Isoko rya P2P hagati y’abakora n’abafata.
+wrong_answers:
+  - Server itanga abaje mu nama mu buryo butari bwo.
+  - Ivy’uguhinduranya bishingiye ku masoko y’i Holande.
+  - Igisata c’ubuhuza gitoranya n’amaboko abazoja muri iyo nama.
+explanation: |
+  JoinMarket ikorera kw’isoko rya P2P Exchange aho abakoresha bamwebamwe, abayikora, batanga amafaranga yabo ya bitcoins kugira ngo bayavange, mu gihe abandi, abayafata, bakoresha ayo mahera kugira ngo bakore ama coinjoins muri Exchange ku giciro.
+  
+reviewed: false

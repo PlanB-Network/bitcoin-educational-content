@@ -13,10 +13,10 @@ In een wereld waarin digitale surveillance alomtegenwoordig is, is het bescherme
 
 
 
-- Cookies van derden**: kleine bestanden die door externe sites worden geplaatst om u van de ene site naar de andere te volgen
-- Fingerprinting**: verzamelt unieke kenmerken van je browser en apparaat (schermresolutie, geïnstalleerde lettertypen, plugins, enz.) om je te identificeren zonder cookies
-- Volgscripts**: onzichtbare JavaScript-codes die je surfgedrag analyseren (klikken, scrollen, bestede tijd)
-- IP Address-analyse**: geografische locatie en identificatie van uw internetprovider
+- **Cookies van derden**: kleine bestanden die door externe sites worden geplaatst om u van de ene site naar de andere te volgen
+- **Fingerprinting**: verzamelt unieke kenmerken van je browser en apparaat (schermresolutie, geïnstalleerde lettertypen, plugins, enz.) om je te identificeren zonder cookies
+- **Volgscripts**: onzichtbare JavaScript-codes die je surfgedrag analyseren (klikken, scrollen, bestede tijd)
+- **IP Address-analyse**: geografische locatie en identificatie van uw internetprovider
 
 
 
@@ -74,25 +74,25 @@ De Mullvad browser is ontworpen met één hoofddoel voor ogen: **het beschermen 
 
 
 
-- Verminder het volgen van advertenties en tracking** door websites en reclamebureaus drastisch. Mullvad Browser blokkeert standaard trackers van derden, tracking cookies en fingerprinting scripts die je kunnen identificeren.
+- Verminder het volgen van advertenties en **tracking** door websites en reclamebureaus drastisch. Mullvad Browser blokkeert standaard trackers van derden, tracking cookies en fingerprinting scripts die je kunnen identificeren.
 
 
 
 
 
-- Standaardiseer de vingerafdruk van uw browser** om **"op te gaan in de massa"**. De vingerafdruk is als een unieke "identiteitskaart" die wordt gemaakt door alle kenmerken van uw browser te combineren. Mullvad Browser zorgt ervoor dat alle gebruikers precies dezelfde "identiteitskaart" hebben, waardoor het onmogelijk is om ze individueel te onderscheiden.
+- Standaardiseer de vingerafdruk van uw browser om **"op te gaan in de massa"**. De vingerafdruk is als een unieke "identiteitskaart" die wordt gemaakt door alle kenmerken van uw browser te combineren. Mullvad Browser zorgt ervoor dat alle gebruikers precies dezelfde "identiteitskaart" hebben, waardoor het onmogelijk is om ze individueel te onderscheiden.
 
 
 
 
 
-- Biedt onmiddellijke bescherming zonder extra extensies**. Mullvad Browser wordt geleverd in een "gebruiksklare" configuratie: de gebruiker hoeft geen reeks extensies te installeren of instellingen aan te passen om beschermd te worden.
+- Biedt onmiddellijke bescherming zonder extra extensies. Mullvad Browser wordt geleverd in een "gebruiksklare" configuratie: de gebruiker hoeft geen reeks extensies te installeren of instellingen aan te passen om beschermd te worden.
 
 
 
 
 
-- Offer niet meer prestaties of ergonomie** op dan nodig is. Zonder Tor routering biedt Mullvad Browser veel snellere browsing dan Tor Browser, en benadert het de prestaties van een standaard browser in combinatie met een VPN.
+- Offer niet meer prestaties of ergonomie op dan nodig is. Zonder Tor routering biedt Mullvad Browser veel snellere browsing dan Tor Browser, en benadert het de prestaties van een standaard browser in combinatie met een VPN.
 
 
 
@@ -106,36 +106,36 @@ Mullvad Browser bevat een reeks **veiligheids- en privacyfuncties** die rechtstr
 
 
 
-- Altijd privé browsen:** De privé browse-modus is standaard geactiveerd en kan niet worden uitgeschakeld. **Er wordt geen geschiedenis, cookies of cache opgeslagen van de ene sessie naar de volgende**. Zodra u Mullvad Browser afsluit, worden alle browsegegevens verwijderd.
+- **Altijd privé browsen:** De privé browse-modus is standaard geactiveerd en kan niet worden uitgeschakeld. **Er wordt geen geschiedenis, cookies of cache opgeslagen van de ene sessie naar de volgende**. Zodra u Mullvad Browser afsluit, worden alle browsegegevens verwijderd.
 
 
 
 
 
-- Verbeterde bescherming tegen fingerprinting:** De browser past strenge instellingen toe om digitale fingerprinting tegen te gaan. Dit omvat:
- - Standaardisatie van gebruikersagent** en browserversie
- - Tijdzone ingesteld op UTC** voor alle gebruikers
- - Letterboxing**: een techniek waarbij automatisch grijze marges rond webpagina's worden toegevoegd om de weergavegrootte te standaardiseren en identificatie aan de hand van uw schermafmetingen te voorkomen
- - Block fingerprinting API's**: Canvas (2D-tekenen), WebGL (3D-graphics) en AudioContext (audioverwerking) zijn uitgeschakeld omdat ze unieke details over je hardware kunnen onthullen
- - Gestandaardiseerde systeemlettertypen** om identificatie door geïnstalleerde lettertypen te voorkomen
+- **Verbeterde bescherming tegen fingerprinting:** De browser past strenge instellingen toe om digitale fingerprinting tegen te gaan. Dit omvat:
+- Standaardisatie van **gebruikersagent** en browserversie
+- Tijdzone ingesteld op **UTC** voor alle gebruikers
+- **Letterboxing**: een techniek waarbij automatisch grijze marges rond webpagina's worden toegevoegd om de weergavegrootte te standaardiseren en identificatie aan de hand van uw schermafmetingen te voorkomen
+- **Block fingerprinting API's**: Canvas (2D-tekenen), WebGL (3D-graphics) en AudioContext (audioverwerking) zijn uitgeschakeld omdat ze unieke details over je hardware kunnen onthullen
+- **Gestandaardiseerde systeemlettertypen** om identificatie door geïnstalleerde lettertypen te voorkomen
 
 
 
 
 
-- Blokkeren van trackers en advertenties:** Mullvad Browser integreert de **uBlock Origin** extensie (vooraf geïnstalleerd) met extra beschermingslijsten om **trackers van derden, advertentiescripts en andere kwaadaardige inhoud** te blokkeren. Deze bescherming gaat gepaard met **First-Party Isolation**: een techniek die cookies opslaat in aparte "potten" voor elke website, waardoor wordt voorkomen dat de ene site cookies leest die door een andere zijn geplaatst.
+- Blokkeren van trackers en advertenties: Mullvad Browser integreert de **uBlock Origin** extensie (vooraf geïnstalleerd) met extra beschermingslijsten om **trackers van derden, advertentiescripts en andere kwaadaardige inhoud** te blokkeren. Deze bescherming gaat gepaard met **First-Party Isolation**: een techniek die cookies opslaat in aparte "potten" voor elke website, waardoor wordt voorkomen dat de ene site cookies leest die door een andere zijn geplaatst.
 
 
 
 
 
-- Sessie reset knop:** Net als de "New Identity" knop van Tor Browser, biedt Mullvad Browser een knop om **snel de browser opnieuw te starten met een nieuwe, lege sessie**.
+- **Sessie reset knop:** Net als de "New Identity" knop van Tor Browser, biedt Mullvad Browser een knop om **snel de browser opnieuw te starten met een nieuwe, lege sessie**.
 
 
 
 
 
-- Instelbare beveiligingsniveaus:** Je kunt het beveiligingsniveau (*Normal*, *Safer*, *Safest*) aanpassen in de instellingen, net als in Tor Browser.
+- **Instelbare beveiligingsniveaus:** Je kunt het beveiligingsniveau (*Normal*, *Safer*, *Safest*) aanpassen in de instellingen, net als in Tor Browser.
 
 
 
@@ -174,9 +174,9 @@ NoScript draait op de achtergrond om de **veiligheidsniveaus** van de browser te
 
 
 
-- Controleert de uitvoering van JavaScript** volgens het geselecteerde niveau (Normaal/Veiligst/Most Beveiligd)
-- Filtert XSS** (Cross-Site Scripting)-aanvallen automatisch uit
-- Blokkeert gevaarlijke** actieve inhoud op niet-HTTPS sites
+- Controleert de uitvoering van **JavaScript** volgens het geselecteerde niveau (Normaal/Veiligst/Most Beveiligd)
+- Filtert **XSS** (Cross-Site Scripting)-aanvallen automatisch uit
+- Blokkeert **gevaarlijke** actieve inhoud op niet-HTTPS sites
 - Het pictogram is standaard verborgen, maar kan worden weergegeven via "Werkbalk aanpassen"
 
 
@@ -193,10 +193,10 @@ Deze Mullvad-specifieke extensie biedt verschillende functionaliteiten, afhankel
 
 
 
-- Basisverbindingscontrole**: toont je huidige publieke IP en wat verbindingsinformatie
-- Privacyaanbevelingen**: tips om je beveiligingsinstellingen te verbeteren (DNS, alleen HTTPS, zoekmachine)
-- WebRTC** controle: in-/uitschakelen om IP Address lekken te voorkomen
-- Kan worden verwijderd zonder impact** op je digitale voetafdruk als je Mullvad VPN niet gebruikt
+- **Basisverbindingscontrole**: toont je huidige publieke IP en wat verbindingsinformatie
+- **Privacyaanbevelingen**: tips om je beveiligingsinstellingen te verbeteren (DNS, alleen HTTPS, zoekmachine)
+- **WebRTC** controle: in-/uitschakelen om IP Address lekken te voorkomen
+- Kan worden verwijderd zonder **impact** op je digitale voetafdruk als je Mullvad VPN niet gebruikt
 
 
 
@@ -209,16 +209,16 @@ De extensie onthult zijn volledige potentieel met geavanceerde functies:
 
 
 
-- Geïntegreerde SOCKS5 proxy**: één-klik verbinding met Mullvad VPN server proxy
- - Vaste IP Address**: in tegenstelling tot een VPN, dat zijn IP Address kan veranderen, garandeert een proxy altijd dezelfde Address-uitgang
- - Automatische uitschakeling**: als de VPN verbinding verbreekt, wordt het browserverkeer onmiddellijk geblokkeerd
- - IPv6-ondersteuning**: IPv6-connectiviteit, zelfs als uw VPN-verbinding dit niet heeft ingeschakeld
+- **Geïntegreerde SOCKS5 proxy**: één-klik verbinding met Mullvad VPN server proxy
+- **Vaste IP Address**: in tegenstelling tot een VPN, dat zijn IP Address kan veranderen, garandeert een proxy altijd dezelfde Address-uitgang
+- **Automatische uitschakeling**: als de VPN verbinding verbreekt, wordt het browserverkeer onmiddellijk geblokkeerd
+- **IPv6-ondersteuning**: IPv6-connectiviteit, zelfs als uw VPN-verbinding dit niet heeft ingeschakeld
 
 
 
 
 
-- Multihop (dubbel VPN)**: mogelijkheid om proxy locatie te veranderen om een tunnel binnen de tunnel te creëren
+- **Multihop (dubbel VPN)**: mogelijkheid om proxy locatie te veranderen om een tunnel binnen de tunnel te creëren
  - Je verkeer gaat eerst langs je VPN-server en "springt" dan naar een andere Mullvad-server
  - Gebruik alleen een andere lokalisatie voor de browser
 
@@ -226,13 +226,13 @@ De extensie onthult zijn volledige potentieel met geavanceerde functies:
 
 
 
-- Geavanceerde verbindingsbewaking**: realtime bewaking van uw VPN-status, verbonden server en detectie van DNS-lekken
+- **Geavanceerde verbindingsbewaking**: realtime bewaking van uw VPN-status, verbonden server en detectie van DNS-lekken
 
 
 
 
 
-- Toegang tot Mullvad Leta**: privézoekmachine voorbehouden aan abonnees (hoewel niet aanbevolen door Mullvad om redenen van correlatie met je account)
+- **Toegang tot Mullvad Leta**: privézoekmachine voorbehouden aan abonnees (hoewel niet aanbevolen door Mullvad om redenen van correlatie met je account)
 
 
 
@@ -250,25 +250,25 @@ Deze drie uitbreidingen werken samen om een samenhangend ecosysteem van bescherm
 
 
 
-- Standaard uitstekende privacybescherming:** Mullvad Browser past direct vanaf het begin zeer strikte privacyinstellingen toe, zonder dat u deze handmatig hoeft in te stellen.
+- **Standaard uitstekende privacybescherming:** Mullvad Browser past direct vanaf het begin zeer strikte privacyinstellingen toe, zonder dat u deze handmatig hoeft in te stellen.
 
 
 
 
 
-- Betere prestaties dan Tor Browser:** In de afwezigheid van onion routing, is Mullvad Browser **noteerbaar sneller en responsiever** dan Tor Browser voor klassiek surfen op het web.
+- Betere prestaties dan Tor Browser: In de afwezigheid van onion routing, is Mullvad Browser **noteerbaar sneller en responsiever** dan Tor Browser voor klassiek surfen op het web.
 
 
 
 
 
-- Vertrouwde Interface eenvoud:** Mullvad Browser is gebaseerd op Interface van Firefox. Als je Firefox of zelfs Tor Browser gewend bent, zul je je niet misplaatst voelen.
+- **Vertrouwde Interface eenvoud:** Mullvad Browser is gebaseerd op Interface van Firefox. Als je Firefox of zelfs Tor Browser gewend bent, zul je je niet misplaatst voelen.
 
 
 
 
 
-- Vertrouwde samenwerking en gecontroleerde code:** Mullvad Browser profiteert van de expertise van het Tor Project en alle broncode is beschikbaar voor externe controle.
+- **Vertrouwde samenwerking en gecontroleerde code:** Mullvad Browser profiteert van de expertise van het Tor Project en alle broncode is beschikbaar voor externe controle.
 
 
 
@@ -278,25 +278,25 @@ Deze drie uitbreidingen werken samen om een samenhangend ecosysteem van bescherm
 
 
 
-- Geen netwerkanonimiteit zonder VPN:** Het belangrijkste punt is dat **Mullvad Browser je IP Address niet zelf verbergt** (zoals alle andere browsers, behalve Tor Browser). Je IP Address is als je "post Address" op het internet: het onthult je locatie en je ISP. Daarom **is het sterk afhankelijk van een VPN** (virtueel privénetwerk) om deze cruciale informatie te verbergen.
+- **Geen netwerkanonimiteit zonder VPN:** Het belangrijkste punt is dat **Mullvad Browser je IP Address niet zelf verbergt** (zoals alle andere browsers, behalve Tor Browser). Je IP Address is als je "post Address" op het internet: het onthult je locatie en je ISP. Daarom **is het sterk afhankelijk van een VPN** (virtueel privénetwerk) om deze cruciale informatie te verbergen.
 
 
 
 
 
-- Geen mobiele versie:** Tot op heden is Mullvad Browser alleen beschikbaar op PC (Windows, Mac, Linux).
+- **Geen mobiele versie:** Tot op heden is Mullvad Browser alleen beschikbaar op PC (Windows, Mac, Linux).
 
 
 
 
 
-- Onverenigbaar met bepaalde gewoonten:** De **permanente privémodus** betekent dat je een sessie niet van het ene gebruik op het andere kunt behouden. Het is onmogelijk om van sessie tot sessie verbonden te blijven met een webaccount.
+- **Onverenigbaar met bepaalde gewoonten:** De **permanente privémodus** betekent dat je een sessie niet van het ene gebruik op het andere kunt behouden. Het is onmogelijk om van sessie tot sessie verbonden te blijven met een webaccount.
 
 
 
 
 
-- Beperkte functies:** Om de uniformiteit van vingerafdrukken te behouden, heeft Mullvad Browser **een aantal functies** uitgeschakeld die aanwezig zijn in Firefox en is niet bedoeld voor aanpassing.
+- **Beperkte functies:** Om de uniformiteit van vingerafdrukken te behouden, heeft Mullvad Browser **een aantal functies** uitgeschakeld die aanwezig zijn in Firefox en is niet bedoeld voor aanpassing.
 
 
 
@@ -399,13 +399,13 @@ Mullvad Browser biedt drie beveiligingsniveaus:
 
 
 
-- Normaal** (huidig standaardniveau): Alle browser- en websitefuncties ingeschakeld
+- **Normaal** (huidig standaardniveau): Alle browser- en websitefuncties ingeschakeld
 
 
 
 
 
-- Veiliger**: Schakelt vaak gevaarlijke websitefuncties uit, wat kan leiden tot verlies van functionaliteit op sommige websites:
+- **Veiliger**: Schakelt vaak gevaarlijke websitefuncties uit, wat kan leiden tot verlies van functionaliteit op sommige websites:
  - JavaScript is uitgeschakeld voor niet-HTTPS-sites
  - Sommige lettertypen en wiskundige symbolen zijn uitgeschakeld
  - Geluid en video (HTML5 media) en WebGL zijn "click to play"
@@ -414,7 +414,7 @@ Mullvad Browser biedt drie beveiligingsniveaus:
 
 
 
-- De veiligste**: Staat alleen de websitefuncties toe die vereist zijn voor statische sites en basisservices:
+- **De veiligste**: Staat alleen de websitefuncties toe die vereist zijn voor statische sites en basisservices:
  - JavaScript is standaard uitgeschakeld voor alle sites
  - Sommige lettertypen, pictogrammen, afbeeldingen en wiskundige symbolen zijn uitgeschakeld
  - Geluid en video (HTML5 media) en WebGL zijn "click to play"
@@ -477,7 +477,7 @@ Als je er toch voor kiest om extensies te installeren, wees je er dan van bewust
 
 
 
-1. **Gebruik altijd een VPN: Mullvad Browser maskeert je IP niet. Een VPN is essentieel voor volledige anonimiteit.
+1. **Gebruik altijd een VPN:** Mullvad Browser maskeert je IP niet. Een VPN is essentieel voor volledige anonimiteit.
 
 
 
@@ -494,9 +494,9 @@ Als je er toch voor kiest om extensies te installeren, wees je er dan van bewust
 
 
 
-   - Normaal (aanbevolen)**: Voor dagelijks browsen. Biedt al uitstekende bescherming terwijl websites functioneel blijven. Dit is de beste balans voor 95% van de gebruikers.
-   - Veiliger**: Als je onbekende of mogelijk gevaarlijke sites bezoekt, of voor extra bescherming op openbare Wi-Fi-netwerken. Sommige sites werken mogelijk niet goed.
-   - Zeer veilig**: Gereserveerd voor situaties met een hoog risico (onderzoeksjournalistiek, gevoelige communicatie, vijandige omgevingen). De meeste moderne sites zullen kapot zijn, maar dat is de prijs van maximale beveiliging.
+- **Normaal (aanbevolen)**: Voor dagelijks browsen. Biedt al uitstekende bescherming terwijl websites functioneel blijven. Dit is de beste balans voor 95% van de gebruikers.
+- **Veiliger**: Als je onbekende of mogelijk gevaarlijke sites bezoekt, of voor extra bescherming op openbare Wi-Fi-netwerken. Sommige sites werken mogelijk niet goed.
+- **Zeer veilig**: Gereserveerd voor situaties met een hoog risico (onderzoeksjournalistiek, gevoelige communicatie, vijandige omgevingen). De meeste moderne sites zullen kapot zijn, maar dat is de prijs van maximale beveiliging.
 
 
 
@@ -520,7 +520,7 @@ Als je er toch voor kiest om extensies te installeren, wees je er dan van bewust
 
 
 
-Mullvad Browser integreert automatisch Mullvad DNS-over-HTTPS. Als u Mullvad VPN gebruikt, raadt de extensie u aan om Mullvad DoH** uit te schakelen omdat het sneller is om de DNS-server van uw VPN-server te gebruiken. Als je Mullvad VPN niet gebruikt, laat Mullvad DoH dan ingeschakeld om DNS-monitoring door je ISP te voorkomen.
+Mullvad Browser integreert automatisch Mullvad DNS-over-HTTPS. Als u Mullvad VPN gebruikt, raadt de extensie u aan om **Mullvad DoH** uit te schakelen omdat het sneller is om de DNS-server van uw VPN-server te gebruiken. Als je Mullvad VPN niet gebruikt, laat Mullvad DoH dan ingeschakeld om DNS-monitoring door je ISP te voorkomen.
 
 
 

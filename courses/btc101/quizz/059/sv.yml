@@ -1,9 +1,12 @@
-question: Vilket av följande är inte en Bitcoin-karaktäristik?
-answer: Det blir lätt censurerat.
+question: Vilket år förutspås det att skapandet av bitcoins kommer att upphöra?
+answer: 2140
 wrong_answers:
-  - Den är omedelbart transportabel.
-  - Den har försumbara kostnader för verifiering.
-  - Den har en fast penningpolitik.
+  - 2050
+  - 2030
+  - 2200
 explanation: |
-  Bitcoin har alla nödvändiga egenskaper för att vara en effektiv och hälsosam valuta: delbar, omedelbart transporterbar, ocensoriserbar, försumbar kostnad för verifiering och med en penningpolitik som redan är fastställd för århundraden framöver med 21 miljoner enheter.
+  På grund av Halving-mekanismen kan det matematiskt förutsägas
+  förutsägas att skapandet av bitcoins kommer att upphöra 2140,
+  när det totala antalet bitcoins når sin gräns på 21
+  miljoner.
 reviewed: true

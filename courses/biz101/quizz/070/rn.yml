@@ -1,0 +1,9 @@
+question: Ni ibihe bintu biteye imbere bisabwa n’ubudandaji bw’umwuga?
+answer: Raporo ziteye imbere n'inshingano nyinshi z'ubuyobozi
+wrong_answers:
+  - Inyandiko y'ishimikiro y'ibikorwa n'inyandiko zisanzwe
+  - Ugushiramwo Wallet yoroshe n'uguhingura kode ya QR
+  - Guhindura ubwavyo mu fiat ata mahitamwo yo gutanga raporo
+explanation: |
+  Ubucuruzi bw’umwuga busaba invoice zishobora guhindurwa, raporo zikomeye, n’ugucungera uruhara kugira ngo bihure n’ingene bakora.
+reviewed: false

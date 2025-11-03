@@ -5,5 +5,5 @@ wrong_answers:
   - Ripple-Netzwerk
   - RGB
 explanation: |
-  Der Lightning Network ist eine zweite Layer-Lösung, die eine schnelle Abwicklung ermöglicht und die Kosten für BTC-Transaktionen reduziert.
+  Das Lightning Network ist eine Lösung auf der zweiten Schicht ('second layer solution'), die eine schnelle Abwicklung ermöglicht und die Kosten für BTC-Transaktionen reduziert.
 reviewed: false

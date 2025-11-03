@@ -1,11 +1,11 @@
-question: Tên của sự kiện khi phần thưởng cho việc đào được giảm một nửa là gì?
-answer: Halving
+question: Phần thưởng cho việc đào được giảm một nửa bao lâu một lần?
+answer: Mỗi 210,000 khối.
 wrong_answers:
-  - Doubling
-  - Quartering
-  - Tripling
+  - Mỗi 120,000 khối.
+  - Mỗi 540,000 khối.
+  - Mỗi 2,100,000 khối.
 explanation: |
-  Sự kiện khi phần thưởng cho việc đào được giảm một nửa được gọi là
-  halving. Sự kiện này tạo ra hình dạng giống như các bậc thang cho
-  đường cong phát hành tiền tệ.
+  Phần thưởng cho việc đào được lập trình để giảm một nửa mỗi 210,000
+  khối, tương đương khoảng mỗi bốn năm: một sự kiện
+  được biết đến là halving.
 reviewed: true

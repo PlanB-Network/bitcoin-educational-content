@@ -1,5 +1,5 @@
 ---
-name: F-Cold
+name: F-Droid
 description: Katalog svobodných aplikací a aplikací s otevřeným zdrojovým kódem.
 ---
 
@@ -100,7 +100,7 @@ Další informace najdete v našem výukovém programu Thunderbird:
 
 
 
-https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
+https://planb.academy/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 
 F-Droid vám poskytne všechny informace, které potřebujete k rozhodnutí, zda používání aplikace chrání vaše data a zvyšuje vaše soukromí. Prohledejte všechny aplikace, které chcete používat, a poté kliknutím na tlačítko **Install** stáhněte a nainstalujte aplikaci.
 
@@ -187,4 +187,4 @@ Pokud se vám tento výukový kurz líbil, zjistěte více o našem kurzu bezpe�
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

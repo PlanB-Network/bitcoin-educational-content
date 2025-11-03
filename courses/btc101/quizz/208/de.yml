@@ -1,10 +1,9 @@
-question: Was ist eine der möglichen Konsequenzen, wenn man die Vorschriften seines Landes beim Kauf von Bitcoin nicht befolgt?
-answer: Sie könnten sich selbst einem Risiko aussetzen.
+question: Was bedeutet es, dass Bitcoin einen allgemeinen Aufwärtstrend hat?
+answer: Ein allgemeiner Aufwärtstrend bei Bitcoin bedeutet, dass der Preis von Bitcoin insgesamt gestiegen ist.
 wrong_answers:
-  - Sie könnten den Preis von Bitcoin erhöhen.
-  - Sie könnten die Versorgung mit Bitcoin kontrollieren.
-  - Sie könnten verhindern, dass andere Bitcoin kaufen.
+  - Ein allgemeiner Aufwärtstrend bei Bitcoin bedeutet, dass der Preis garantiert unendlich steigen wird, ohne jegliche Schwankungen.
+  - Ein allgemeiner Aufwärtstrend bei Bitcoin bedeutet, dass Bitcoin an Wert verliert und seinen Marktanreiz verliert.
+  - Ein allgemeiner Aufwärtstrend bei Bitcoin bedeutet, dass es nur bei einer kleinen Gruppe von Investoren beliebt ist und keinen Einfluss auf den Gesamtmarkt hat.
 explanation: |
-  Im Kursmaterial wird erwähnt, dass das Nichtbefolgen der Vorschriften
-  Ihres Landes beim Kauf von Bitcoin Sie einem Risiko aussetzen kann.
+  Ein allgemeiner Aufwärtstrend bei Bitcoin bezieht sich auf einen konstanten Anstieg seines Preises über einen bestimmten Zeitraum. Es ist wichtig zu beachten, dass ein Aufwärtstrend zwar eine positive Entwicklung andeutet, dies jedoch nicht garantiert, dass der Preis weiterhin ohne Schwankungen steigen wird.
 reviewed: true

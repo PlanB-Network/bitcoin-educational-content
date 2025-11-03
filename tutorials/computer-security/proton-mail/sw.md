@@ -1,5 +1,5 @@
 ---
-name: Barua ya Protoni
+name: Proton Mail
 description: Kuweka kisanduku cha barua kilicho salama
 ---
 ![cover](assets/cover.webp)
@@ -90,7 +90,7 @@ Kutumia kidhibiti cha nenosiri ni mazoezi bora. Sio tu kwamba inakuwezesha kuhif
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ![proton](assets/notext/07.webp)
 
@@ -156,7 +156,7 @@ Ukiwa kwenye kisanduku chako cha barua cha Interface, ninapendekeza uende kwenye
 
 
 
-Kisha bonyeza kitufe cha "* Mipangilio yote".
+Kisha bonyeza kitufe cha "**Mipangilio yote**".
 
 
 
@@ -224,7 +224,7 @@ Kwa habari zaidi, angalia mafunzo yetu ya jinsi ya kutumia programu ya 2FA.
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Katika kichupo cha "*Lugha na saa*" unaweza kubadilisha lugha ya Interface na eneo la saa.
 
@@ -306,7 +306,7 @@ Kichupo cha "*Vichujio*" hukuwezesha kudhibiti vichujio vya barua pepe unazopoke
 
 
 
-Kichupo cha "Sambaza na jibu otomatiki*" hukuwezesha kudhibiti usambazaji na kujibu barua pepe zako kiotomatiki.
+Kichupo cha "Sambaza na jibu otomatiki" hukuwezesha kudhibiti usambazaji na kujibu barua pepe zako kiotomatiki.
 
 
 

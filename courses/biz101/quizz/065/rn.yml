@@ -1,0 +1,9 @@
+question: Ni uwuhe muti w’intango wo kwishura usabwa ku bucuruzi bw’ivy’ingenzi?
+answer: Ubusuwisi Bitcoin kwishura
+wrong_answers:
+  - Gufungura urudodo
+  - Serveri ya BTCPay
+  - Guhindura PoS
+explanation: |
+  Turashira ahabona Swiss Bitcoin Pay nk’umuti ushimikijwe ku bijanye n’ivy’ingenzi, ugereranije ukworohereza n’umutekano.
+reviewed: false

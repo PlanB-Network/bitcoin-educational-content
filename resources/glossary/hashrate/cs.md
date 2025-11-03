@@ -6,4 +6,4 @@ Ukazatel výpočetního výkonu sítě měřený v hashi za sekundu (H/s). Udáv
 
 Hashrate také vypovídá o konkurenci mezi těžaři: čím vyšší je hashrate, tím vyšší je obtížnost těžby, což ovlivňuje rozdělování odměn, a tím i ziskovost těžařů. Je tedy klíčovým ukazatelem zdraví a bezpečnosti systému Bitcoin. Stejně jako se hashrate používá k měření celkového výpočetního výkonu sítě Bitcoin, lze jej použít také k měření výpočetního výkonu stroje, těžební farmy nebo těžebního poolu.
 
-> ► Ve francouzštině se označuje jako "taux de hachage", i když v běžném jazyce se běžně používá termín "hashrate".*
+> ► Ve francouzštině se označuje jako "taux de hachage", i když v běžném jazyce se běžně používá termín "hashrate".

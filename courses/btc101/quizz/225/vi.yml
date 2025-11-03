@@ -1,9 +1,8 @@
-question: Lightning Network được xác thực và triển khai lần đầu vào năm nào?
-answer: 2017
+question: Kích thước của một khối trong giao thức Bitcoin là bao nhiêu?
+answer: 4MB.
 wrong_answers:
-  - 2015
-  - 2016
-  - 2018
-explanation: |
-  Lightning Network được xác thực và triển khai lần đầu vào năm 2017.
-reviewed: true
+  - 1MB.
+  - 2MB.
+  - 3MB.
+explanation: >-
+  Kích thước của một khối trong giao thức Bitcoin là 1MB.

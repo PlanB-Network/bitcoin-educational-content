@@ -1,0 +1,9 @@
+question: Missä on aktiivisin Umbrel-yhteisö?
+answer: Discordissa ja verkkofoorumilla
+wrong_answers:
+  - Instagramissa
+  - LinkedInissä ja verkkofoorumilla
+  - IRC:ssä
+explanation: |
+  Umbrelilla on erittäin aktiivinen yhteisö Discordissa ja sen verkkofoorumilla, jossa käyttäjät Exchange auttavat ja tukevat.
+reviewed: true

@@ -88,7 +88,7 @@ ___
 **註**：說明是基於 GNU/Linux CentOS 7 系統。然而，在比較 Debian 和 CentOS 系統時，網路配置大體上是相同的。因此，我們不會做任何區分。當有區別時，我們會以特定的標誌作為前綴。
 
 
-**N.B.**：如果您在課程中遇到任何不熟悉的詞彙，請參閱 [詞彙表](https://planb.network/resources/glossary) 以瞭解定義。
+**N.B.**：如果您在課程中遇到任何不熟悉的詞彙，請參閱 [詞彙表](https://planb.academy/resources/glossary) 以瞭解定義。
 
 
 
@@ -136,7 +136,7 @@ ___
 
 
 
-![Image](assets/fr/001.webp)
+![Image](assets/zh-Hant/001.webp)
 
 
 
@@ -150,7 +150,7 @@ ___
 
 
 
-![Image](assets/fr/002.webp)
+![Image](assets/zh-Hant/002.webp)
 
 
 
@@ -164,7 +164,7 @@ ___
 
 
 
-![Image](assets/fr/003.webp)
+![Image](assets/zh-Hant/003.webp)
 
 
 
@@ -178,7 +178,7 @@ ___
 
 
 
-![Image](assets/fr/004.webp)
+![Image](assets/zh-Hant/004.webp)
 
 
 
@@ -195,7 +195,7 @@ ___
 
 
 
-![Image](assets/fr/005.webp)
+![Image](assets/zh-Hant/005.webp)
 
 
 
@@ -233,13 +233,13 @@ TCP 通訊協定起源於 1966 年發起的**ARPANET**計畫的**ARPA** (*Advanc
 - 檔案傳輸與分享...
 
 
-這些通訊協定的管理與演進由 *** 網路架構委員會 (IAB) 監督。
+這些通訊協定的管理與演進由 **網路架構委員會 (IAB)** 監督。
 
 本組織透過兩個主要架構協調技術方向：
 
 
-- IRTF** (_Internet Research Task Force_)，長期進行通訊協定演進與改善的研究。
-- IETF** (網際網路工程任務小組)，負責開發、標準化和記錄網際網路上使用的作業通訊協定
+- **IRTF** (_Internet Research Task Force_)，長期進行通訊協定演進與改善的研究。
+- **IETF** (網際網路工程任務小組)，負責開發、標準化和記錄網際網路上使用的作業通訊協定
 
 
 網路資源 (IP Address 範圍、自治系統號碼、根網域名稱等) 的分配由 **IANA/ICANN** 負責國際協調。運作管理依賴於 **RIR** (*Regional Internet Registries*)： **RIPE NCC**（歐洲、中東、中亞）、**ARIN**、**APNIC**、**LACNIC** 和 **AFRINIC**。
@@ -261,7 +261,7 @@ TCP/IP 模型的四個層次為
 
 
 
-![Image](assets/fr/006.webp)
+![Image](assets/zh-Hant/006.webp)
 
 
 
@@ -281,11 +281,11 @@ TCP/IP 堆疊的每個 Layer 都提供特定的服務，因此可以模組化的
 | Switch   | Locally addresses interfaces and forwards traffic via MAC                            | Network Access         |
 | Network Interface Card (NIC)     | Signal encoding, cabling, connectors, physical specifications                        | Network Access         |
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 ## IPv5 QoS 通訊協定
 
@@ -352,9 +352,9 @@ IP 通訊協定或稱為「***網際網路通訊協定***」，是 TCP/IP 模型
 三個網路設定 Elements 決定封包的傳送方式：
 
 
-- IP Address**：唯一識別網路中的目的地主機。
-- 子網路遮罩**：指定 Address 的哪一部分識別網路，哪一部分識別主機，從而實現邏輯上的子網路分割。
-- 閘道**：表示封包要到達外部網路或本機網路的另一個區段所要經過的中間路由器。
+- **IP Address**：唯一識別網路中的目的地主機。
+- 子網路遮罩：指定 Address 的哪一部分識別網路，哪一部分識別主機，從而實現邏輯上的子網路分割。
+- 閘道：表示封包要到達外部網路或本機網路的另一個區段所要經過的中間路由器。
 
 
 在網際網路上，資料並非以連續串流的方式流動，而是以**資料文檔**的方式傳送：獨立的資料區塊，每個區塊都封裝了傳送所需的所有資訊。這就是**封包交換**的原理，將資訊分割為獨立的單元，這些單元可能會經由不同的路徑傳送至相同的收件者。
@@ -363,7 +363,7 @@ IP 通訊協定或稱為「***網際網路通訊協定***」，是 TCP/IP 模型
 除了有效負載 (*payload*)，每個 IP 資料報都包含一個結構化的標頭，其中有目的地 Address、來源 Address、服務類型、協定版本號及其他管理傳輸所需的控制資訊等欄位。
 
 
-理論上，IP 數據報的最大大小為 ***65,536個字節**，此限制由標頭中的總長度欄位設定。實際上，由於傳輸封包的實體網路（乙太網路、Wi-Fi、光纖......）通常會設定更嚴格的限制，稱為 **MTU**（_最大傳輸單位_），因此很少會達到此大小。如果資料包超過實體連結的 MTU，就必須分割成較小的資料包，每個資料包分開傳送，並在抵達時重新組合。
+理論上，IP 數據報的最大大小為 **65,536個字節**，此限制由標頭中的總長度欄位設定。實際上，由於傳輸封包的實體網路（乙太網路、Wi-Fi、光纖......）通常會設定更嚴格的限制，稱為 **MTU**（*最大傳輸單位*），因此很少會達到此大小。如果資料包超過實體連結的 MTU，就必須分割成較小的資料包，每個資料包分開傳送，並在抵達時重新組合。
 
 
 這種適應性使 IP 成為一個強大而靈活的通訊協定，能夠在各種底層技術上運作，同時保持異質系統和網路之間的普遍相容性。
@@ -379,16 +379,16 @@ IP 通訊協定或稱為「***網際網路通訊協定***」，是 TCP/IP 模型
 每種網路技術都有自己的 MTU，由其硬體和通訊協定特性決定。常見的值包括
 
 
-- ARPANET**：1000 位元組
-- 乙太網路**：1500 位元組
-- FDDI**：4470 位元組
+- **ARPANET**：1000 位元組
+- 乙太網路：1500 位元組
+- **FDDI**：4470 位元組
 
 
-當資料報超出它需要穿越的網路區段的 MTU 時，路由設備會將它分割成符合限制的較小**片段。這通常發生在從高 MTU 網路轉移到較低容量的網路時。例如，來自 FDDI 網路的資料報在傳送至乙太網路段之前，可能需要先分割。
+當資料報超出它需要穿越的網路區段的 MTU 時，路由設備會將它分割成符合限制的較小**片段**。這通常發生在從高 MTU 網路轉移到較低容量的網路時。例如，來自 FDDI 網路的資料報在傳送至乙太網路段之前，可能需要先分割。
 
 
 
-![Image](assets/fr/008.webp)
+![Image](assets/zh-Hant/007.webp)
 
 
 
@@ -425,36 +425,36 @@ IP 通訊協定或稱為「***網際網路通訊協定***」，是 TCP/IP 模型
 - 應用程式 Layer 會建立包含原始資料的初始**訊息**。
 - 傳輸 Layer 將其封裝成一個 **段**，加入來源和目的地連接埠、序列號和流量控制機制。
 - 網際網路 Layer 會在網段中加入 IP 標頭，以形成**資料報**，指定來源和目的地 IP 位址。
-- 網路存取 Layer 會將資料報包裝成 ** 訊框，加入 MAC 位址和完整性檢查碼 (CRC)。
+- 網路存取 Layer 會將資料報包裝成**訊框**，加入 MAC 位址和完整性檢查碼 (CRC)。
 
 
 
-![Image](assets/fr/009.webp)
+![Image](assets/zh-Hant/008.webp)
 
 
 
 這種封裝過程既可確保資料的完整性和可追蹤性，也可確保資料的適應性：從一個網路轉移到另一個網路時，標頭可為設備提供選擇路由、檢查有效性或在必要時執行分片所需的資訊。
 
 
-到達後，過程會反轉：接收機器在網路存取 Layer 取得訊框，並讀取和移除相對應的標頭。然後，資料報會傳送到網際網路 Layer，網際網路 Layer 會讀取 IP 標頭並依序移除，以將段落傳送到傳輸 Layer。傳輸 Layer 會處理傳輸標頭、檢查串流的完整性，最後以原始狀態將 ** 訊息傳送給目標應用程式。
+到達後，過程會反轉：接收機器在網路存取 Layer 取得訊框，並讀取和移除相對應的標頭。然後，資料報會傳送到網際網路 Layer，網際網路 Layer 會讀取 IP 標頭並依序移除，以將段落傳送到傳輸 Layer。傳輸 Layer 會處理傳輸標頭、檢查串流的完整性，最後以原始狀態將**訊息**傳送給目標應用程式。
 
 
 
-![Image](assets/fr/010.webp)
+![Image](assets/zh-Hant/009.webp)
 
 
 
 每個 Layer 的資料轉換可歸納為
 
 
-- 訊息**：應用程式 Layer 的資訊區塊。
+- 訊息：應用程式 Layer 的資訊區塊。
 - 分段**：經傳輸 Layer 封裝後的資料單位。
 - 資料報**：Internet Layer 加入 IP 標頭之後的形式。
-- 幀**：網路存取 Layer 準備好在實體媒體上傳輸的最終區塊。
+- **幀**：網路存取 Layer 準備好在實體媒體上傳輸的最終區塊。
 
 
 
-![Image](assets/fr/011.webp)
+![Image](assets/zh-Hant/010.webp)
 
 
 
@@ -473,8 +473,8 @@ IP 通訊協定或稱為「***網際網路通訊協定***」，是 TCP/IP 模型
 IP Address 有兩部分：
 
 
-- _netid_**：識別主機所屬的網路
-- _hostid_**：識別該網路中的特定主機
+- **netid**：識別主機所屬的網路
+- **hostid**：識別該網路中的特定主機
 
 這種分離方式可讓全球網際網路在邏輯上架構成許多相互連結的網路。
 
@@ -505,16 +505,16 @@ IP Address 有兩部分：
 
 
 
-![Image](assets/fr/013.webp)
+![Image](assets/zh-Hant/011.webp)
 
 
 
 有些 Address 範圍是保留給私人使用，從不直接在網際網路上路由。這些稱為 **私人位址**，用於組織、企業或家庭內部，需要 Address 轉換，通常是 NAT (*Network Address Translation*)，才能連接到公共網際網路。這些是
 
 
-- A** 類：從 10.0.0.0 到 10.255.255.255
-- Class B**：從 172.16.0.0 到 172.31.255.255
-- Class C**：從 192.168.0.0 到 192.168.255.255
+- **A 類**：從 10.0.0.0 到 10.255.255.255
+- Class B**：從 172.16.0.0 到 172.31.255.255**
+- Class C：從 192.168.0.0 到 192.168.255.255
 
 
 當具有私有 Address 的裝置存取網際網路時，啟用 NAT 的路由器或閘道器會以有效的公用 Address 取代。
@@ -528,7 +528,7 @@ IP Address 有兩部分：
 - 192.168.7.5: 主機本身
 
 
-另一種特殊情況是 ***127.0.0.1**，稱為「***環回***」。
+另一種特殊情況是 **127.0.0.1**，稱為「**環回**」。
 
 在 Linux 系統上，它與 Interface **lo** 相關聯。此 Address 允許機器自行 Address 進行本機測試或診斷，而無需透過實體 Interface。整個 **127.0.0.0/8** 範圍都保留用於此目的。
 
@@ -539,8 +539,8 @@ IP Address 有兩部分：
 
 
 - 255.A 類為 0.0.0**、
-- 255.255.0.0** 為 B 類、
-- 255.255.255.0** 為 C 類。
+- **255.255.0.0** 為 B 類、
+- **255.255.255.0** 為 C 類。
 
 
 良好的網路設計遵循一個基本原則：必須直接通訊的裝置應該在同一個網路或子網路中。若要分割網路，我們會使用子網路，透過使用更特定的遮罩將網路分割成更小的子網路。
@@ -559,7 +559,7 @@ IP Address 有兩部分：
 **步驟 2**：找出最接近 2 ≥ 62 的幂。 -> 2⁶ = 64.
 
 
-**步驟 3：調整遮罩。保留 _netid_ 位元，並保留所需的 _hostid_ 位元。我們得到一個二進位的遮罩，轉換後得到 **255.255.255.192**。
+**步驟 3：調整遮罩。保留 *netid* 位元，並保留所需的 *hostid* 位元。我們得到一個二進位的遮罩，轉換後得到** 255.255.255.192。
 
 
 ```
@@ -583,7 +583,7 @@ IP Address 有兩部分：
 
 
 
-![Image](assets/fr/016.webp)
+![Image](assets/zh-Hant/012.webp)
 
 
 
@@ -651,7 +651,7 @@ sudo apt install ipcalc
 ```
 
 
-https://planb.network/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
+https://planb.academy/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
 
 ## TCP 通訊協定
 
@@ -678,7 +678,7 @@ TCP 是一個以連線為導向的通訊協定，這表示它在用戶端和伺�
 
 
 
-![Image](assets/fr/018.webp)
+![Image](assets/zh-Hant/013.webp)
 
 
 
@@ -686,7 +686,7 @@ TCP 是一個以連線為導向的通訊協定，這表示它在用戶端和伺�
 
 
 
-![Image](assets/fr/019.webp)
+![Image](assets/zh-Hant/014.webp)
 
 
 
@@ -709,7 +709,7 @@ TCP 可以偵測並處理重覆。如果重新傳送的區段到達，但原本�
 
 
 
-![Image](assets/fr/020.webp)
+![Image](assets/zh-Hant/015.webp)
 
 
 
@@ -732,7 +732,7 @@ TCP 可以偵測並處理重覆。如果重新傳送的區段到達，但原本�
 
 
 
-![Image](assets/fr/021.webp)
+![Image](assets/zh-Hant/016.webp)
 
 
 
@@ -749,7 +749,7 @@ TCP 可以偵測並處理重覆。如果重新傳送的區段到達，但原本�
 
 
 
-![Image](assets/fr/022.webp)
+![Image](assets/zh-Hant/017.webp)
 
 
 
@@ -776,29 +776,29 @@ TCP 和 UDP 之間的這種互補性使現代網路能夠適應各種需求，�
 ### 分層架構和 Exchange 組織
 
 
-正如我們所見，**服務**是我們目前所描述的通訊協定的具體實作。雖然 TCP/IP 模型與**OSI**模型不同，但它採用了相同的分層方式：每個 Layer 都是為了執行特定功能而設計，並提供**服務給直接在它上面的 Layer，因此形成了一個模組化、穩健且容易維護的架構。
+正如我們所見，**服務**是我們目前所描述的通訊協定的具體實作。雖然 TCP/IP 模型與**OSI**模型不同，但它採用了相同的分層方式：每個 Layer 都是為了執行特定功能而設計，並提供**服務**給直接在它上面的 Layer，因此形成了一個模組化、穩健且容易維護的架構。
 
 
-每個 Layer 都建基於其下層的功能，進而為上層的 Layer 提供一致的 Interface 來管理資料。在此架構中，每個 Layer 都有自己的**資料結構，並經過仔細定義以確保與其他層級的完美相容性。這種相容性對於從一個端點到另一個端點的順暢、可靠和清晰的通訊是不可或缺的。
+每個 Layer 都建基於其下層的功能，進而為上層的 Layer 提供一致的 Interface 來管理資料。在此架構中，每個 Layer 都有自己的**資料結構**，並經過仔細定義以確保與其他層級的完美相容性。這種相容性對於從一個端點到另一個端點的順暢、可靠和清晰的通訊是不可或缺的。
 
 
 這些交換有兩個主要方面：
 
 
-- 垂直方面**：一個 Layer 與其上方或下方的關係（從 Layer N 到 Layer N+1，反之亦然）。
+- 垂直方面：一個 Layer 與其上方或下方的關係（從 Layer N 到 Layer N+1，反之亦然）。
 
 
 
-![Image](assets/fr/023.webp)
+![Image](assets/zh-Hant/018.webp)
 
 
 
 
-- 水平方面**：遠端應用程式之間的互動，也就是**用戶端**與**伺服器**之間的對話，無論是哪個方向。
+- 水平方面：遠端應用程式之間的互動，也就是**用戶端**與**伺服器**之間的對話，無論是哪個方向。
 
 
 
-![Image](assets/fr/024.webp)
+![Image](assets/zh-Hant/019.webp)
 
 
 
@@ -808,10 +808,10 @@ TCP 和 UDP 之間的這種互補性使現代網路能夠適應各種需求，�
 **提醒**：特定的術語用來描述層與層之間交換的資料單位：
 
 
-- 應用程式 Layer 的訊息**、
-- 段**為傳輸 Layer (TCP)、
-- 網際網路 Layer (IP) 的資料報**、
-- 網路存取 Layer 的幀**。
+- 應用程式 Layer 的訊息、
+- 段**為傳輸 Layer (TCP)**、
+- 網際網路 Layer (IP) 的資料報、
+- 網路存取 Layer 的**幢**。
 
 
 下表概述了 TCP 和 UDP 上下文的術語：
@@ -834,7 +834,7 @@ TCP 和 UDP 之間的這種互補性使現代網路能夠適應各種需求，�
 
 
 
-![Image](assets/fr/026.webp)
+![Image](assets/zh-Hant/020.webp)
 
 
 
@@ -883,8 +883,8 @@ IP Address 是指派給裝置上每個 ** 網路 Interface** 的唯一數字識�
 IP 位址主要有兩種分配方式：
 
 
-- 靜態**：在裝置上手動設定。
-- 動態**：由 DHCP（動態主機組態協定）伺服器依需求自動指派。DHCP 可簡化網路管理，省去手動設定的需要，同時可透過預約和租用期限進行精確控制。
+- 靜態：在裝置上手動設定。
+- **動態**：由 DHCP（動態主機組態協定）伺服器依需求自動指派。DHCP 可簡化網路管理，省去手動設定的需要，同時可透過預約和租用期限進行精確控制。
 
 
 **IPv4** 位址以**32 位元**格式寫入，分成**四個位元組**。每個位元組包含 8 位元，代表從 0 到 255 的十進位數字。4 個位元組以點分隔，形成清晰易讀的記號。
@@ -894,7 +894,7 @@ IP 位址主要有兩種分配方式：
 
 
 
-![Image](assets/fr/027.webp)
+![Image](assets/zh-Hant/021.webp)
 
 
 
@@ -942,10 +942,10 @@ IP Address 識別單一 ** 網路 Interface**，而非整個裝置。多埠路�
 IPv4 Address 有兩個部分：
 
 
-- NetID**: 識別網路
-- HostID**：識別該網路中的裝置
+- **NetID**: 識別網路
+- **HostID**：識別該網路中的裝置
 
-子網路遮罩***決定 NetID 結束和 HostID 開始的位置，指定每個部分有多少位元。NetID 越長，可能的子網路數量就越多，但每個子網路的主機數量也會相對減少。
+子網路遮罩**決定** NetID 結束和 HostID 開始的位置，指定每個部分有多少位元。NetID 越長，可能的子網路數量就越多，但每個子網路的主機數量也會相對減少。
 
 
 最初，IPv4 網路被分為五個**類別**：(A、B、C、D 及 E）。每個類別對應特定的 NetID 範圍，並定義了固定的粒度：
@@ -970,31 +970,31 @@ IPv4 Address 有兩個部分：
 特別致詞：
 
 
-- Network Address**：識別網路本身（用於路由表）。
-- 廣播 Address**：一次將資料傳送至子網路中的所有裝置 (所有 HostID 位元都設定為 1)。
+- **Network Address**：識別網路本身（用於路由表）。
+- 廣播 **Address**：一次將資料傳送至子網路中的所有裝置 (所有 HostID 位元都設定為 1)。
 
 
 下列範圍保留供內部使用：
 
 
-- 10.0.0.0/8** (Private Class A)
-- 127.0.0.0/8** (本機環回或 _loopback_)
-- 172.16.0.0 至 172.31.255.255**（私人 B 類）
-- 192.168.0.0 至 192.168.255.255**（私人 C 類）
+- **10.0.0.0/8** (Private Class A)
+- **127.0.0.0/8** (本機環回或 _loopback_)
+- 172.16.0.0 至 172.31.255.255（私人 B 類）
+- 192.168.0.0 至 192.168.255.255（私人 C 類）
 
 
 位址 **127.0.0.1** 以及更一般的整個 127.0.0.0/8 範圍用於內部測試：傳送至該位址的任何要求都不會離開機器。這對於檢查本機網路服務是否正常運作非常有用，而無須牽涉到更廣泛的網路。
 
 
-為了更好地利用 Address 空間，管理員通常會使用子網路遮罩或 **CIDR** 表示法 (_Classless Inter-Domain Routing_)，將網路分割成 ** 個子網路。CIDR 允許更精確的管理，並有助於避免浪費位址。如今，CIDR 對於微調 IP 範圍和減少路由表的大小非常重要。
+為了更好地利用 Address 空間，管理員通常會使用子網路遮罩或 **CIDR** 表示法 (*Classless Inter-Domain Routing*)，將網路分割成**多**個子網路。CIDR 允許更精確的管理，並有助於避免浪費位址。如今，CIDR 對於微調 IP 範圍和減少路由表的大小非常重要。
 
 
 在現代網路中，IP 位址通常與其他識別符搭配使用：
 
 
 
-- 在 **DNS**（_Domain Name System_）註冊的網域名稱**：它將數字 IP Address 與人性化的名稱相連結。
-- MAC Address**：刻在網路卡上的實體識別碼，用於本地傳輸 (_Ethernet_)。當 IP 封包需要進行實體傳輸時，ARP 表會將 IP Address 與目的地的 MAC Address 配對。
+- 在 **DNS**（_Domain Name System_）註冊的**網域名稱**：它將數字 IP Address 與人性化的名稱相連結。
+- **MAC Address**：刻在網路卡上的實體識別碼，用於本地傳輸 (*Ethernet*)。當 IP 封包需要進行實體傳輸時，ARP 表會將 IP Address 與目的地的 MAC Address 配對。
 
 
 為了解決 IPv4 Address 短缺的問題，並增加 Layer 的安全性，網路通常會使用 Address 轉換 (_NAT_)。NAT 允許許多私有裝置在存取網際網路時共用單一公用 IP Address。
@@ -1181,7 +1181,7 @@ IP Address            MAC Address                Type
 - MAC Address 的視覺範例：
 
 
-![Image](assets/fr/032.webp)
+![Image](assets/zh-Hant/022.webp)
 
 
 
@@ -1189,7 +1189,7 @@ IP Address            MAC Address                Type
 - IP Address 的視覺範例：
 
 
-![Image](assets/fr/027.webp)
+![Image](assets/zh-Hant/023.webp)
 
 
 
@@ -1256,7 +1256,7 @@ NAT 背後的原理很簡單，但卻非常有效：不是為內部網路的每�
 
 
 
-![Image](assets/fr/035.webp)
+![Image](assets/zh-Hant/024.webp)
 
 
 
@@ -1272,7 +1272,7 @@ NAT 可以用不同的方式實作，以符合特定需求。兩種主要的運�
 **警告：** 這種方法雖然可以隔離內部網路，但無法解決公用 IP 位址不足的問題，因為您仍需要有多少台機器就要暴露多少個公用位址。因此，靜態轉換主要用於某些內部資源必須保持可從外部連線的情況 (web 伺服器、郵件伺服器...)。
 
 
-*另一方面，*動態轉換**使用公共 IP 位址池。當內部主機開始連線時，路由器會在連線期間暫時指定其中一個公用位址給主機的私人 Address。此連線是 1 對 1，但是臨時的：一旦連線結束，公用 Address 就會變成另一個裝置可用。因此，當並非所有機器同時在線時，動態 NAT 會減少所需的公用位址數量，但它仍需要至少與最大同時連線數相同的外部位址區塊。
+另一方面，**動態轉換**使用公共 IP 位址池。當內部主機開始連線時，路由器會在連線期間暫時指定其中一個公用位址給主機的私人 Address。此連線是 1 對 1，但是臨時的：一旦連線結束，公用 Address 就會變成另一個裝置可用。因此，當並非所有機器同時在線時，動態 NAT 會減少所需的公用位址數量，但它仍需要至少與最大同時連線數相同的外部位址區塊。
 
 
 **埠轉換** (PAT)，也稱為 *NAT overload* 或 *IP masquerading*，更進一步：所有私有裝置共用單一公用 IP Address（或極小的數目）。為了區分會話，閘道不僅會修改來源 Address，也會修改來源連接埠。它會保留一張表，將每個 *（私有 Address、私有連接埠）* 對連結到唯一的 *（公有 Address、公有連接埠）* 對。幾乎所有家用路由器都會使用這種形式的 NAT，讓數十個裝置 (電腦、智慧型手機、連線物件等) 共用相同的公用 IP Address，同時維持流暢的通訊。
@@ -1329,7 +1329,7 @@ NAT 可以用不同的方式實作，以符合特定需求。兩種主要的運�
 
 
 
-![Image](assets/fr/037.webp)
+![Image](assets/zh-Hant/025.webp)
 
 
 
@@ -1339,7 +1339,7 @@ NAT 可以用不同的方式實作，以符合特定需求。兩種主要的運�
 同樣的原則也適用於授權接收網際網路連線的任何其他伺服器，例如 Extranet 伺服器 (圖中藍色電路)。
 
 
-*** 在虛擬化環境中，通常會使用稱為 _virbrX_（表示 _Virtual Bridge X_）的網路介面。這些虛擬橋接器，尤其是由 libvirt 函式庫或 Xen Hypervisor 提供，可在套用 NAT 的同時，將客戶機的虛擬內部網路連接至實體網路。它們通常透過 `/etc/sysconfig/network-scripts/`中的指令碼來設定，如下所示為 `virbr0`：
+**在虛擬化環境中，通常會使用稱為 *virbrX*（表示 *Virtual Bridge X*）的網路介面。這些虛擬橋接器，尤其是由 libvirt 函式庫或 Xen Hypervisor 提供，可在套用 NAT 的同時，將客戶機的虛擬內部網路連接至實體網路。它們通常透過 `/etc/sysconfig/network-scripts/`中的指令碼來設定，如下所示為 `virbr0`：**
 
 
 ```ini
@@ -1377,11 +1377,11 @@ iptables -t nat -A POSTROUTING -o <WAN> -s 192.168.0.0/24 -j MASQUERADE
 
 
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 
 ## 如何使用 `ip` 設定網路？
@@ -1461,7 +1461,7 @@ ifdown eth2
 設定檔案 (類似 RHEL)：
 
 
-- /etc/sysconfig/network**: 全局設定 (NETWORKING、HOSTNAME、GATEWAY...)。
+- **/etc/sysconfig/network**: 全局設定 (NETWORKING、HOSTNAME、GATEWAY...)。
 - ifcfg-**：每個 Interface 的特定設定。
 
 
@@ -1498,7 +1498,7 @@ ONBOOT=yes
 
 
 
-![Image](assets/fr/039.webp)
+![Image](assets/zh-Hant/026.webp)
 
 
 
@@ -1772,7 +1772,7 @@ IPv6 與其前身的不同之處在於有許多 Address 類別，每個類別都
 | fe80::/10           | Link-local addresses                        |
 | ff00::/8            | Multicast addresses                         |
 
-(1): *在私人區域網路上，「fd00::/8」前綴是分配不可在網際網路上路由的內部位址的首選。
+(1): *在私人區域網路上，「fd00::/8」前綴是分配不可在網際網路上路由的內部位址的首選。*
 
 
 #### 保留地址
@@ -1781,10 +1781,10 @@ IPv6 與其前身的不同之處在於有許多 Address 類別，每個類別都
 某些 IPv6 範圍是明確保留的，不得用作全局位址。它們有特定的技術用途：
 
 
-- `::/128`**：未指定的 Address，從未永久指派給裝置，但被等待設定的機器用作來源 Address。
-- `::1/128`**：_loopback_ Address，直接等同於 IPv4 中的 `127.0.0.1`，允許機器自行 Address。
-- `64:ff9b::/96`**：保留給 RFC 6052 定義的通訊協定轉換器，以啟用 IPv4/IPv6 互連。
-- `::fffff:0:0/96`**：用特定 IPv6 結構表示 IPv4 Address 的相容性區塊，通常由應用程式內部使用。
+- `::/128`**：未指定的 Address，從未永久指派給裝置，但被等待設定的機器用作來源 Address。**
+- `::1/128`**：**_loopback_ Address，直接等同於 IPv4 中的 `127.0.0.1`，允許機器自行 Address。
+- `64:ff9b::/96`**：保留給 RFC 6052 定義的通訊協定轉換器，以啟用 IPv4/IPv6 互連。**
+- `::fffff:0:0/96`：用特定 IPv6 結構表示 IPv4 Address 的相容性區塊，通常由應用程式內部使用。
 
 
 這些區塊保證了互操作性，並促進了兩個通訊協定版本之間的遷移。
@@ -1799,9 +1799,9 @@ IPv6 與其前身的不同之處在於有許多 Address 類別，每個類別都
 有些範圍有特殊的記錄用途：
 
 
-- `2001:2::/48`**:保留用於性能和互操作性測試 (RFC 5180)。
-- `2001:db8::/32`**：保留用於文件和範例 (RFC 3849)。
-- `2002::/16`**:用於 6to4 機制，可讓 IPv6 流量穿越 IPv4 基礎架構 (在兩個通訊協定的過渡階段非常有用)。
+- `2001:2::/48`: **保留用於性能和互操作性測試 (RFC 5180)。**
+- `2001:db8::/32`**：保留用於文件和範例 (RFC 3849)**。
+- `2002::/16`**：用於 6to4 機制，可讓 IPv6 流量穿越 IPv4 基礎架構 (在兩個通訊協定的過渡階段非常有用)。**
 
 
 **註：** 有很大一部分的全球位址仍未使用，作為未來網際網路成長的儲備。
@@ -1952,7 +1952,7 @@ IPv6 區域網路有系統地將 Address 分為兩部分：
 以下是如何將 MAC Address 轉換為 EUI-64 的範例：
 
 
-![Image](assets/fr/045.webp)
+![Image](assets/zh-Hant/027.webp)
 
 
 
@@ -1962,8 +1962,8 @@ IPv6 區域網路有系統地將 Address 分為兩部分：
 與 IPv4 的 DHCP 一樣，自動指派的 IPv6 位址可以有兩個生命週期，由 DHCPv6 路由器或伺服器定義：
 
 
-- 優先使用期限*：此期限過後，Address 仍然有效，但不再用於啟動新的連線；
-- 有效使用期限*：當此時間到期時，Address 會完全從 Interface 設定中移除。
+- 優先使用期限：此期限過後，Address 仍然有效，但不再用於啟動新的連線；
+- 有效使用期限：當此時間到期時，Address 會完全從 Interface 設定中移除。
 
 
 此系統可動態管理網路變更，例如確保從一個 ISP 順利過渡到另一個 ISP。透過更新路由器宣布的前綴並同時調整 DNS 記錄，IPv6 遷移可以在沒有任何明顯服務中斷的情況下進行。
@@ -2005,7 +2005,7 @@ IANA 分配不同大小的 IPv6 區塊給各區域互聯網註冊管理機構，
 自 2006 年起，各區域互聯網註冊管理機構 (RIR) 已從 IANA 收到一個 IPv6 /12 區塊，此固定大小的設計是為了確保穩定且足夠大的儲備，以應付未來的成長。RIR 通常會將這些區塊細分為 /23、/26 或 /29 區塊。ISP 最常收到 /32 區塊，但此區塊大小可能因 ISP 的規模和地理區域而異。他們通常會分配 /48 區塊給客戶。每個 /48 區塊可提供 65,536 個不同的 /64 子網路（與 IPv4 相比，容量極大）。
 
 
-*** 一個 /32 區塊正好包含 65,536 個 /48 子區塊。這表示每個 ISP 都可以服務數以萬計的客戶，而不會耗盡其分配的空間。由於有了 /48，每個客戶都將擁有大量的空間，可以隨意使用多個 /64 區段來構建自己的內部網路。
+**一個 /32 區塊正好包含 65,536 個 /48 子區塊。這表示每個 ISP 都可以服務數以萬計的客戶，而不會耗盡其分配的空間。由於有了 /48，每個客戶都將擁有大量的空間，可以隨意使用多個 /64 區段來構建自己的內部網路。**
 
 
 典型的分配層級結構如下：
@@ -2090,7 +2090,7 @@ IPv6 封包格式與 IPv4 不同之處在於它更簡單且更具擴充性。IPv
 這個標頭如果存在，總是緊接在基本標頭之後。它包含的資訊必須由封包路徑上的每個路由器處理，不像其他大多數標頭，通常只由目的地節點處理。典型的用途包括信令全局參數，或在封包通過網路時要求特定的處理步驟。
 
 
-![Image](assets/fr/047.webp)
+![Image](assets/zh-Hant/028.webp)
 
 
 #### 路由標頭
@@ -2107,15 +2107,15 @@ IPv6 封包格式與 IPv4 不同之處在於它更簡單且更具擴充性。IPv
 
 
 - 下一個標頭**：識別下一個標頭的類型；
-- 路由類型**：定義路由方法（通常為 `0`）；
-- Segments left**：剩餘要穿越的區段數目 ；
-- Address[n]**：中間位址清單。
+- 路由類型：定義路由方法（通常為 `0`）；
+- Segments left：剩餘要穿越的區段數目 ；
+- **Address[n]**：中間位址清單。
 
 
 Segments Left（剩餘網段）」欄位以剩餘網段的總數開始，並在每一跳遞減 1。
 
 
-![Image](assets/fr/048.webp)
+![Image](assets/zh-Hant/029.webp)
 
 
 #### 碎片標頭
@@ -2127,12 +2127,12 @@ Segments Left（剩餘網段）」欄位以剩餘網段的總數開始，並在�
 片段標頭包含下列欄位：
 
 
-- Identification**：用於重新組合的唯一資料報識別碼。
-- 片段偏移**：片段在原始資料報中的位置。
-- M 標誌**：表示是否接下來會有更多片段。
+- **Identification**：用於重新組合的唯一資料報識別碼。
+- 片段偏移：片段在原始資料報中的位置。
+- M 標誌：表示是否接下來會有更多片段。
 
 
-![Image](assets/fr/049.webp)
+![Image](assets/zh-Hant/030.webp)
 
 
 #### 驗證標頭 (AH)
@@ -2144,7 +2144,7 @@ Segments Left（剩餘網段）」欄位以剩餘網段的總數開始，並在�
 如果嘗試偽造修改，驗證碼就不再匹配，資料報可能會被拒絕。此機制也可偵測未經授權的複製，以防重播攻擊。
 
 
-![Image](assets/fr/050.webp)
+![Image](assets/zh-Hant/031.webp)
 
 
 #### 目的地選項標頭
@@ -2156,7 +2156,7 @@ Segments Left（剩餘網段）」欄位以剩餘網段的總數開始，並在�
 最初，通訊協定中並沒有定義這個選項。然而，在 IPv6 設計時引入了這個標頭，允許在不修改整體封包結構的情況下增加未來的擴展。例如，null 選項僅用於為記憶體對齊目的而將標頭填充為 8 位元組的倍數。
 
 
-![Image](assets/fr/051.webp)
+![Image](assets/zh-Hant/032.webp)
 
 
 IPv6 封包設計建基於最小基本標頭（basic header）與模組化延伸標頭（modular extension header）之間的明確分離。此架構可確保標準的處理效能，以及演進通訊協定、整合安全性、複雜路由或服務品質機制所需的靈活性，同時保持與未來基礎架構的相容性。
@@ -2502,7 +2502,7 @@ Wireshark 適用於許多作業系統，包括 Linux 和 Windows。安裝時需�
 
 
 
-![Image](assets/fr/052.webp)
+![Image](assets/zh-Hant/033.webp)
 
 
 
@@ -2553,7 +2553,7 @@ ethtool enp0s3
 
 
 
-![Image](assets/fr/053.webp)
+![Image](assets/zh-Hant/034.webp)
 
 
 
@@ -2725,13 +2725,13 @@ default via 192.168.1.1 dev eth0 proto dhcp metric 100
 每一行代表一條航線。主要欄位包括
 
 
-- default**：預設路由，在沒有更特定的路由符合時使用。
-- via**：用來到達目的地的閘道。
-- dev**：使用的網路 Interface。
-- proto**：路由的建立方式（手動、DHCP、核心等）。
-- metric**：路由成本，用來排列多個可能路徑的優先順序。
-- scope**：路由範圍 (例如，`link` 表示直接連線的路由)。
-- src**：此 Interface 上用於傳出封包的來源 IP Address。
+- **default**：預設路由，在沒有更特定的路由符合時使用。
+- **via**：用來到達目的地的閘道。
+- **dev**：使用的網路 Interface。
+- **proto**：路由的建立方式（手動、DHCP、核心等）。
+- **metric**：路由成本，用來排列多個可能路徑的優先順序。
+- **scope**：路由範圍 (例如，`link` 表示直接連線的路由)。
+- **src**：此 Interface 上用於傳出封包的來源 IP Address。
 
 
 #### 新增和刪除路由
@@ -3066,7 +3066,7 @@ host 192.6.23.4
 在監控或保護區域或廣域網路時，識別作用中的裝置及其暴露的服務是非常重要的。這正是 `nmap` (*Network Mapper*) 工具的功能。
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 #### 介紹 `nmap
 
@@ -3105,20 +3105,20 @@ nmap 192.168.0.0/24
 
 
 
-![Image](assets/fr/055.webp)
+![Image](assets/zh-Hant/035.webp)
 
 
 
 管理員可以依賴 `nmap` 執行多項任務：
 
 
-- 偵測活動主機**：識別哪些機器在子網路內回應；
-- 服務清單**：確保只有必要的連接埠才能存取（最低權限原則）；
-- 合規性檢查**：比較開放埠與組織的安全政策；
-- 漏洞預防**：找出在重要機器上執行的不安全或過期服務。
+- 偵測活動主機：識別哪些機器在子網路內回應；
+- 服務清單：確保只有必要的連接埠才能存取（最低權限原則）；
+- **合規性檢查**：比較開放埠與組織的安全政策；
+- **漏洞預防**：找出在重要機器上執行的不安全或過期服務。
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 ### 流程詢問工具
 
@@ -3214,10 +3214,10 @@ lsof -p 1521 -u 500,phil
 提供介面和訊框直接可視性的工具：
 
 
-- arp / ip neigh**：檢查和修改 ARP/NDP 快取，以檢查或修正 IP-MAC 關聯；
-- tcpdump**：命令列封包擷取，可過濾及匯出；
-- Wireshark**：具備深度通訊協定解碼功能的圖形化封包分析；
-- ethtool**：查詢並調整乙太網路卡的實體參數（速度、雙工、WoL 等）。
+- **arp / ip neigh**：檢查和修改 ARP/NDP 快取，以檢查或修正 IP-MAC 關聯；
+- **tcpdump**：命令列封包擷取，可過濾及匯出；
+- **Wireshark**：具備深度通訊協定解碼功能的圖形化封包分析；
+- **ethtool**：查詢並調整乙太網路卡的實體參數（速度、雙工、WoL 等）。
 
 
 #### 網路 Layer
@@ -3226,10 +3226,10 @@ lsof -p 1521 -u 500,phil
 評估 IP 連線、路由和封包流量的工具：
 
 
-- ping**：使用 ICMP 測試可達性並量測延遲；
-- ip route**：檢查並修改路由表，以控制封包路徑；
-- traceroute**：逐跳識別通往目的地的路由器；
-- ss**：TCP/UDP 套接字及相關進程的詳細清單（netstat 的繼承者）。
+- **ping**：使用 ICMP 測試可達性並量測延遲；
+- **ip route**：檢查並修改路由表，以控制封包路徑；
+- **traceroute**：逐跳識別通往目的地的路由器；
+- **ss**：TCP/UDP 套接字及相關進程的詳細清單（netstat 的繼承者）。
 
 
 #### 傳輸層與應用層
@@ -3238,9 +3238,9 @@ lsof -p 1521 -u 500,phil
 診斷服務和程序的工具：
 
 
-- nslookup / dig / host**：DNS 查詢以驗證名稱解析並分析記錄；
-- nmap**：探索開啟的連接埠和暴露的服務，以評估攻擊面；
-- lsof**: 列出由進程開啟的檔案和套接字，關聯系統及網路活動。
+- **nslookup / dig / host**：DNS 查詢以驗證名稱解析並分析記錄；
+- **nmap**：探索開啟的連接埠和暴露的服務，以評估攻擊面；
+- **lsof**: 列出由進程開啟的檔案和套接字，關聯系統及網路活動。
 
 
 掌握這些工具（每種工具都與 TCP/IP 模型的特定階段相符），就能有條不紊地進行工作：從實體 Layer 開始，到路由，再到應用程式服務。這一連串的專業知識讓管理員能夠診斷、保護並最佳化基礎架構，確保網路效能與可用性。

@@ -1,0 +1,9 @@
+question: Quel est l’avantage principal d’un node-in-a-box par rapport à une implémentation brute ?
+answer: Installation simple et gestion intégrée d’applications
+wrong_answers:
+  - Vérification plus stricte des règles de consensus
+  - Accès direct à la blockchain sans stockage
+  - Compatibilité avec une monnaie différente de Bitcoin
+explanation: |
+  Le node-in-a-box simplifie l’installation et la gestion de nombreuses applications annexes via une interface unifiée.
+reviewed: false

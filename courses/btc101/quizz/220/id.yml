@@ -1,10 +1,9 @@
-question: Apa yang disarankan teks tentang kecepatan belajar tentang Bitcoin?
-answer: Ini rumit untuk memahami semuanya sekaligus, jadi luangkan waktu Anda
+question: Apa yang bisa terjadi pada layanan transfer uang tradisional seperti Western Union, bank sentral, Visa, dan Mastercard jika mereka tidak mengadopsi teknologi Lightning Network?
+answer: Mereka bisa menghilang.
 wrong_answers:
-  - Mudah untuk mempelajari semuanya sekaligus
-  - Mustahil untuk mempelajari segala sesuatu tentang Bitcoin
-  - Tidak perlu mempelajari segala sesuatu tentang Bitcoin
+  - Mereka bisa menjadi lebih populer.
+  - Mereka bisa menjadi lebih aman.
+  - Mereka bisa menjadi lebih terdesentralisasi.
 explanation: >-
-  Teks menyarankan bahwa ada begitu banyak hal untuk dijelajahi dengan Bitcoin sehingga
-  rumit untuk memahami semuanya sekaligus, jadi seseorang harus meluangkan waktu mereka.
+  Layanan transfer uang tradisional seperti Western Union, bank sentral, Visa, dan Mastercard bisa menghilang jika mereka tidak mengadopsi teknologi Lightning Network.
 reviewed: false

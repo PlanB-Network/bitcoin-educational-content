@@ -28,7 +28,7 @@ Alby Hub son derece uyarlanabilir bir araçtır. Hem yeni başlayanların hem de
 
 
 
-- Alby Hub Bulut :**
+- **Alby Hub Bulut:**
 
 
 Acemiler için ideal olan bu ilk seçenek Alby bulut seçeneğidir. Alby Hub Interface üzerinden erişilebilen, Alby tarafından yönetilen bir sunucuya doğrudan bir Hub yerleştirmenize olanak tanır. Alby sunucuyu yönetmesine rağmen, anahtarlarınız yalnızca sizin bildiğiniz bir parola kullanılarak şifrelendiğinden, fonlarınız üzerindeki egemenliğinizi korursunuz. Bununla birlikte, düğümün çalışması için anahtarlarınızın RAM'de şifreli kalması gerekir, bu da teorik olarak birinin sunucuya fiziksel olarak erişmesi durumunda onları riske maruz bırakır. Yeni başlayanlar için ilginç bir uzlaşmadır, ancak risklerin farkında olmak önemlidir.
@@ -43,7 +43,7 @@ Alby Cloud ücretli bir hizmettir [Daha fazla ayrıntı için fiyatlandırmalar�
 
 
 
-- Mevcut bir düğüm ile Alby Hub :**
+- Mevcut bir düğüm ile Alby Hub:
 
 
 Örneğin Umbrel veya Start9 üzerinde barındırılan bir düğümünüz varsa, Alby Hub, ThunderHub veya RTL ile aynı şekilde gelişmiş bir yönetim Interface olarak kullanılabilir.
@@ -446,7 +446,7 @@ Alby Go uygulamasına geri dönün, QR kodunu tarayın veya sırrı yapıştır�
 ![ALBY HUB](assets/fr/50.webp)
 
 
-"Bitir*" üzerine tıklayın.
+"**Bitir**" üzerine tıklayın.
 
 
 ![ALBY HUB](assets/fr/51.webp)
@@ -548,4 +548,4 @@ Ve işte bu kadar, artık Alby Hub aracını kullanarak Lightning'i kendi düğ�
 Bu eğitimde manipüle ettiğimiz tüm Yıldırım mekanizmalarını ayrıntılı olarak anlamak için, konuyla ilgili ücretsiz eğitimimizi keşfetmenizi şiddetle tavsiye ederim:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

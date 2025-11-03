@@ -1,0 +1,9 @@
+question: Ni ubuhe bugoyagoye bw’umukono wa ECDSA bwakosowe na SegWit?
+answer: Ugukomera
+wrong_answers:
+  - Igenzura ry'umugwi
+  - Kubura ubufatanye
+  - Ubwinshi burenze urugero bw'imikono
+explanation: |
+  SegWit yarakosoye ukuntu imikono ya ECDSA ishobora guhinduka, bituma hakoreshwa nka Lightning Network.
+reviewed: false

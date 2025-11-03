@@ -90,7 +90,7 @@ ___
 **注意**：说明基于 GNU/Linux CentOS 7 系统。然而，在比较 Debian 和 CentOS 系统时，网络配置基本相同。因此，我们不做任何区分。如果有区别，我们会用特定的标识作为前缀。
 
 
-**注**：如果您在学习过程中遇到任何不熟悉的术语，请查阅 [术语表](https://planb.network/resources/glossary) 了解其定义。
+**注**：如果您在学习过程中遇到任何不熟悉的术语，请查阅 [术语表](https://planb.academy/resources/glossary) 了解其定义。
 
 
 
@@ -138,7 +138,7 @@ ___
 
 
 
-![Image](assets/fr/001.webp)
+![Image](assets/zh-Hans/001.webp)
 
 
 
@@ -152,7 +152,7 @@ ___
 
 
 
-![Image](assets/fr/002.webp)
+![Image](assets/zh-Hans/002.webp)
 
 
 
@@ -166,7 +166,7 @@ ___
 
 
 
-![Image](assets/fr/003.webp)
+![Image](assets/zh-Hans/003.webp)
 
 
 
@@ -180,7 +180,7 @@ ___
 
 
 
-![Image](assets/fr/004.webp)
+![Image](assets/zh-Hans/004.webp)
 
 
 
@@ -197,7 +197,7 @@ ___
 
 
 
-![Image](assets/fr/005.webp)
+![Image](assets/zh-Hans/005.webp)
 
 
 
@@ -235,13 +235,13 @@ TCP 协议起源于**ARPA**（*高级研究计划局*，1972 年更名为 "DARPA
 - 文件传输和共享...
 
 
-这些协议的管理和发展由 *** 互联网架构委员会（IAB）负责监督。
+这些协议的管理和发展由**互联网架构委员会（IAB）**负责监督。
 
 该组织通过两个主要机构协调技术方向：
 
 
-- IRTF**（互联网研究工作组），对协议的演变和改进进行长期研究。
-- IETF**（互联网工程任务组），负责开发、规范和记录互联网上使用的操作协议
+- **IRTF**（互联网研究工作组），对协议的演变和改进进行长期研究。
+- **IETF**（互联网工程任务组），负责开发、规范和记录互联网上使用的操作协议
 
 
 网络资源（IP Address 范围、自治系统编号、根域名等）的分配由 **IIANA/ICANN**进行国际协调。运行管理依靠 **RIR**（*地区互联网注册机构*）： **RIPE NCC**（欧洲、中东、中亚）、**ARIN**、**APNIC**、**LACNIC** 和 **AFRINIC**。
@@ -263,7 +263,7 @@ TCP/IP 模型的四个层次是
 
 
 
-![Image](assets/fr/006.webp)
+![Image](assets/zh-Hans/006.webp)
 
 
 
@@ -283,11 +283,11 @@ TCP/IP 协议栈的每个 Layer 都提供特定服务，从而可以模块化方
 | Switch   | Locally addresses interfaces and forwards traffic via MAC                            | Network Access         |
 | Network Interface Card (NIC)     | Signal encoding, cabling, connectors, physical specifications                        | Network Access         |
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 ## IPv5 QoS 协议
 
@@ -354,12 +354,12 @@ IP 协议或 "***互联网协议***"是 TCP/IP 模型的支柱。无论是本地
 三个网络配置 Elements 决定了数据包的发送方式：
 
 
-- IP Address**：在网络中唯一标识目的主机。
-- 子网掩码**：指定 Address 中哪部分标识网络，哪部分标识主机，从而实现子网的逻辑划分。
-- 网关**：表示数据包到达外部网络或本地网络的另一个网段所要经过的中间路由器。
+- **IP Address**：在网络中唯一标识目的主机。
+- 子网掩码：指定 Address 中哪部分标识网络，哪部分标识主机，从而实现子网的逻辑划分。
+- 网关：表示数据包到达外部网络或本地网络的另一个网段所要经过的中间路由器。
 
 
-在互联网上，数据并不是作为一个连续的数据流流动，而是以**数据报的形式发送：独立的数据块，每个数据块都封装了发送所需的所有信息。这就是**数据包交换**的原理，信息被分割成独立的单元，这些单元可以通过不同的路径到达同一个收件人。
+在互联网上，数据并不是作为一个连续的数据流流动，而是以**数据报的形式发送**：独立的数据块，每个数据块都封装了发送所需的所有信息。这就是**数据包交换**的原理，信息被分割成独立的单元，这些单元可以通过不同的路径到达同一个收件人。
 
 
 除有效载荷（*payload*）外，每个 IP 数据报还包含一个结构化报头，其字段包括目的地 Address、源 Address、服务类型、协议版本号以及管理传输所需的其他控制信息。
@@ -381,16 +381,16 @@ IP 数据报的理论最大大小为**65,536 个字节**，这一限制由报头
 每种网络技术都有自己的 MTU，由其硬件和协议特性决定。常见值包括
 
 
-- ARPANET**：1000 字节
-- 以太网**：1500 字节
-- FDDI**：4470 字节
+- **ARPANET**：1000 字节
+- 以太网：1500 字节
+- **FDDI**：4470 字节
 
 
-当数据报超过其需要穿越的网段的 MTU 时，路由设备会将其分割成符合限制的较小**分片。这种情况通常发生在从高 MTU 网络转移到低容量网络时。例如，来自 FDDI 网络的数据报在通过以太网网段发送之前可能需要分片。
+当数据报超过其需要穿越的网段的 MTU 时，路由设备会将其分割成符合限制的较小**分片**。这种情况通常发生在从高 MTU 网络转移到低容量网络时。例如，来自 FDDI 网络的数据报在通过以太网网段发送之前可能需要分片。
 
 
 
-![Image](assets/fr/008.webp)
+![Image](assets/zh-Hans/007.webp)
 
 
 
@@ -431,32 +431,32 @@ IP 数据报的理论最大大小为**65,536 个字节**，这一限制由报头
 
 
 
-![Image](assets/fr/009.webp)
+![Image](assets/zh-Hans/008.webp)
 
 
 
 这种封装过程既能确保数据的完整性和可追溯性，又能确保数据的适应性：当从一个网络转移到另一个网络时，报头可为设备提供选择路由、检查有效性或在必要时执行分片所需的信息。
 
 
-到达后，过程相反：接收机在网络接入 Layer 处获得帧，该 Layer 读取并删除相应的报头。然后，数据报被传送到 Internet Layer，后者读取 IP 报头并依次删除，然后将网段传送到传输 Layer。传输 Layer 处理传输报头，检查数据流的完整性，最后将***信息以原始状态传送给目标应用程序。
+到达后，过程相反：接收机在网络接入 Layer 处获得帧，该 Layer 读取并删除相应的报头。然后，数据报被传送到 Internet Layer，后者读取 IP 报头并依次删除，然后将网段传送到传输 Layer。传输 Layer 处理传输报头，检查数据流的完整性，最后将**信息**以原始状态传送给目标应用程序。
 
 
 
-![Image](assets/fr/010.webp)
+![Image](assets/zh-Hans/009.webp)
 
 
 
 每个 Layer 的数据转换可概括为
 
 
-- 信息**：应用程序 Layer 的信息块。
-- 段**：经传输 Layer 封装后的数据单元。
-- 数据报**：互联网 Layer 添加 IP 标头后的形式。
-- 帧**：网络接入 Layer 准备在物理介质上传输的最后数据块。
+- **信息**：应用程序 Layer 的信息块。
+- **段**：经传输 Layer 封装后的数据单元。
+- 数据报：互联网 Layer 添加 IP 标头后的形式。
+- **帧**：网络接入 Layer 准备在物理介质上传输的最后数据块。
 
 
 
-![Image](assets/fr/011.webp)
+![Image](assets/zh-Hans/010.webp)
 
 
 
@@ -475,8 +475,8 @@ IP 数据报的理论最大大小为**65,536 个字节**，这一限制由报头
 IP Address 有两个部分：
 
 
-- _netid_**：标识主机所属的网络
-- _hostid_**：标识该网络中的特定主机
+- **netid**：标识主机所属的网络
+- **hostid**：标识该网络中的特定主机
 
 这种分离使全球互联网在逻辑上被划分为许多相互连接的网络。
 
@@ -507,16 +507,16 @@ IP Address 有两个部分：
 
 
 
-![Image](assets/fr/013.webp)
+![Image](assets/zh-Hans/011.webp)
 
 
 
 有些 Address 范围保留给私人使用，从不直接在互联网上路由。这些地址被称为**私人地址**，在组织、企业或家庭内部使用，需要进行 Address 转换，通常是 NAT（*网络 Address 转换*），才能到达公共互联网。这些地址是
 
 
-- A** 级：从 10.0.0.0 到 10.255.255.255
-- B 级**：从 172.16.0.0 到 172.31.255.255
-- C 级**：从 192.168.0.0 到 192.168.255.255
+- **A 级**：从 10.0.0.0 到 10.255.255.255
+- **B 级**：从 172.16.0.0 到 172.31.255.255
+- **C 级**：从 192.168.0.0 到 192.168.255.255
 
 
 当带有专用 Address 的设备访问互联网时，支持 NAT 的路由器或网关会将其替换为有效的公用 Address。
@@ -540,9 +540,9 @@ IP Address 有两个部分：
 每个类都有一个默认掩码：
 
 
-- 255.A 级为 0.0.0**、
-- 255.B 类为 255.0.0**、
-- 255.255.255.0** 为 C 级。
+- 255.A 级为 0.0.0、
+- 255.B 类为 255.0.0.0、
+- 255.255.255.0 为 C 级。
 
 
 良好的网络设计遵循一条基本规则：必须直接通信的设备应在同一网络或子网中。为了划分网络，我们使用子网划分法，通过使用更具体的掩码将网络划分为更小的子网。
@@ -561,7 +561,7 @@ IP Address 有两个部分：
 **第 2 步**：找出 2 ≥ 62 的最近幂。 -> 2⁶ = 64.
 
 
-**第 3 步：调整掩码。保留_netid_位，保留所需的_hostid_位。我们得到一个二进制掩码，转换后得到**255.255.255.192**。
+**第 3 步：调整掩码。保留 _netid_ 位，保留所需的 _hostid_ 位。我们得到一个二进制掩码，转换后得到 255.255.255.192。**
 
 
 ```
@@ -585,7 +585,7 @@ IP Address 有两个部分：
 
 
 
-![Image](assets/fr/016.webp)
+![Image](assets/zh-Hans/012.webp)
 
 
 
@@ -645,7 +645,7 @@ CIDR 块的格式为 "Address/prefix"，其中斜线后的数字表示网络部�
 例如，子网掩码为**255.255.0.0**的子网**1.0.0.0**曾经与 A 类网络标识符有歧义，现在则完全有效且可用。
 
 
-*提示***：要进行无差错子网计算并将地址快速转换为 CIDR 符号，可以使用 ***ipcalc*** 等便捷工具。这款 "网络计算器 "可清晰显示 Address 细分、可用范围和相关掩码，是管理员和学生学习 CIDR 的理想工具。
+**提示**：要进行无差错子网计算并将地址快速转换为 CIDR 符号，可以使用 ***ipcalc*** 等便捷工具。这款 "网络计算器 "可清晰显示 Address 细分、可用范围和相关掩码，是管理员和学生学习 CIDR 的理想工具。
 
 
 ```shell
@@ -653,7 +653,7 @@ sudo apt install ipcalc
 ```
 
 
-https://planb.network/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
+https://planb.academy/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
 
 ## TCP 协议
 
@@ -680,7 +680,7 @@ TCP 是一种面向连接的协议，这意味着它在客户端和服务器之�
 
 
 
-![Image](assets/fr/018.webp)
+![Image](assets/zh-Hans/013.webp)
 
 
 
@@ -688,7 +688,7 @@ TCP 是一种面向连接的协议，这意味着它在客户端和服务器之�
 
 
 
-![Image](assets/fr/019.webp)
+![Image](assets/zh-Hans/014.webp)
 
 
 
@@ -701,24 +701,24 @@ TCP 能够检测和处理重复数据。如果重新传输的数据段到达，�
 **注意**：端口 "是分配给计算机上网络应用程序的数字标识符（从 0 到 65,535）。它用于区分在同一 IP Address 上同时运行的多个服务。客户端发送数据时，会指定端口号，这样服务器的操作系统就知道哪个程序应该接收数据（例如，HTTP 为 80，HTTPS 为 443，SMTP 为 25）。端口就像专用的门，引导流量进出，防止服务之间的混淆，并允许通过防火墙或过滤规则进行细粒度的访问控制。
 
 
-序列同步 Exchange 基于著名的**"*三方握手**"**机制，类似于两个人互相打招呼建立联系的方式。确保 TCP 可靠性的初始化阶段分为三个阶段：
+序列同步 Exchange 基于著名的**"三方握手"**机制，类似于两个人互相打招呼建立联系的方式。确保 TCP 可靠性的初始化阶段分为三个阶段：
 
 1. **SYN：** 客户端发送一个初始同步段（**SYN**），并设置相应的标志和初始序列号（如 C）；
 
-2. **接收服务器响应一个确认段（**SYN-ACK**），确认客户端的序列号，并提供自己的初始序列号；
+2. **接收服务器响应一个确认段（SYN-ACK），确认客户端的序列号，并提供自己的初始序列号；**
 
 3. **ACK:** 客户端发送最终确认（**ACK**），确认收到服务器的序列号，最终完成同步。SYN 标志现在被禁用，ACK 标志保持设置，表明连接已建立。
 
 
 
-![Image](assets/fr/020.webp)
+![Image](assets/zh-Hans/015.webp)
 
 
 
 这种 Exchange 协议可确保双方在传输有效载荷数据前共享相同的编号基础。一旦同步完成，会话即被打开：现在，数据段可以双向传输，每个数据段在收到后都会被确认，从而确保数据流的最大可靠性。
 
 
-三方握手****只涉及连接的建立。对于关闭，TCP 使用***四次握手：FIN → ACK → FIN → ACK，这保证了在连接完全释放之前不会丢失传输中的网段。
+三方握手**只涉及连接的建立。对于关闭，TCP 使用**四次握手：FIN → ACK → FIN → ACK，这保证了在连接完全释放之前不会丢失传输中的网段。
 
 
 虽然这一过程的设计具有稳健性和可靠性，但也产生了可利用的漏洞。例如，**IP 欺骗** 等攻击旨在通过伪造序列号冒充授权机器，绕过或破坏这种信任关系，造成漏洞，从而截获或操纵数据流。
@@ -734,7 +734,7 @@ TCP 能够检测和处理重复数据。如果重新传输的数据段到达，�
 
 
 
-![Image](assets/fr/021.webp)
+![Image](assets/zh-Hans/016.webp)
 
 
 
@@ -751,7 +751,7 @@ TCP 能够检测和处理重复数据。如果重新传输的数据段到达，�
 
 
 
-![Image](assets/fr/022.webp)
+![Image](assets/zh-Hans/017.webp)
 
 
 
@@ -781,26 +781,26 @@ TCP 和 UDP 之间的这种互补性使现代网络能够适应各种需求，�
 正如我们所看到的，**服务**是我们迄今为止所描述的协议的具体实现。虽然 TCP/IP 模型不同于**OSI**模型，但它采用了相同的分层方法：每个 Layer 都被设计用来执行特定的功能，并为其直接上层的 Layer 提供**服务**，从而形成了一个模块化、强大且易于维护的架构。
 
 
-每个 Layer 都以其下层的功能为基础，并反过来为上层的 Layer 提供一致的 Interface 来管理数据。在这种架构中，每个 Layer 都有自己的**数据结构，并经过精心定义，以确保与其他层的完美兼容性。这种兼容性对于从一个终端到另一个终端进行顺畅、可靠和清晰的通信至关重要。
+每个 Layer 都以其下层的功能为基础，并反过来为上层的 Layer 提供一致的 Interface 来管理数据。在这种架构中，每个 Layer 都有自己的**数据结构**，并经过精心定义，以确保与其他层的完美兼容性。这种兼容性对于从一个终端到另一个终端进行顺畅、可靠和清晰的通信至关重要。
 
 
 这些交流有两个关键方面：
 
 
-- 垂直方面**：一个 Layer 与其上下一个 Layer 之间的关系（从 Layer N 到 Layer N+1，反之亦然）。
+- 垂直方面：一个 Layer 与其上下一个 Layer 之间的关系（从 Layer N 到 Layer N+1，反之亦然）。
 
 
 
-![Image](assets/fr/023.webp)
+![Image](assets/zh-Hans/018.webp)
 
 
 
 
-- 水平方面**：远程应用程序之间的交互，即**客户**和**服务器**之间的对话，方向不限。
+- 水平方面：远程应用程序之间的交互，即**客户**和**服务器**之间的对话，方向不限。
 
 
 
-![Image](assets/fr/024.webp)
+![Image](assets/zh-Hans/019.webp)
 
 
 
@@ -810,10 +810,10 @@ TCP 和 UDP 之间的这种互补性使现代网络能够适应各种需求，�
 **提醒**：特定术语用于描述各层之间交换的数据单元：
 
 
-- 申请 Layer 的信息**、
-- 段**为传输 Layer (TCP)、
-- 互联网 Layer (IP) 的数据报**、
-- 网络接入 Layer 的帧**。
+- 申请 Layer 的信息、
+- 段**为传输 Layer (TCP)**、
+- 互联网 Layer (IP) 的数据报、
+- 网络接入 Layer 的帧。
 
 
 下表总结了 TCP 和 UDP 上下文的术语：
@@ -836,7 +836,7 @@ TCP 和 UDP 之间的这种互补性使现代网络能够适应各种需求，�
 
 
 
-![Image](assets/fr/026.webp)
+![Image](assets/zh-Hans/020.webp)
 
 
 
@@ -885,8 +885,8 @@ IP Address 是分配给设备上每个 ** 网络 Interface** 的唯一数字标�
 IP 地址的分配主要有两种方式：
 
 
-- 静态**：在设备上手动设置。
-- 动态**：由 DHCP（动态主机配置协议）服务器按需自动分配。DHCP 简化了网络管理，消除了手动配置的需要，同时通过预订和租用期限实现精确控制。
+- **静态**：在设备上手动设置。
+- **动态**：由 DHCP（动态主机配置协议）服务器按需自动分配。DHCP 简化了网络管理，消除了手动配置的需要，同时通过预订和租用期限实现精确控制。
 
 
 **IPv4** 地址以**32 位**格式写入，分成**个字节**。每个字节包含 8 位，代表一个从 0 到 255 的十进制数。4 个字节之间用点隔开，形成清晰易读的符号。
@@ -896,7 +896,7 @@ IP 地址的分配主要有两种方式：
 
 
 
-![Image](assets/fr/027.webp)
+![Image](assets/zh-Hans/021.webp)
 
 
 
@@ -944,10 +944,10 @@ IP Address 标识的是单个**网络 Interface**，而不是整个设备。多�
 IPv4 Address 有两个部分：
 
 
-- NetID**：标识网络
-- HostID**：标识该网络中的设备
+- **NetID**：标识网络
+- **HostID**：标识该网络中的设备
 
-子网掩码**决定了 NetID 的结束位置和 HostID 的开始位置，规定了每个部分的比特数。NetID 越长，可能的子网数量就越多，但每个子网的主机数量也会相应减少。
+子网掩码**决定了 NetID 的结束位置和 HostID 的开始位置**，规定了每个部分的比特数。NetID 越长，可能的子网数量就越多，但每个子网的主机数量也会相应减少。
 
 
 最初，IPv4 网络被分为五个**类**：(A、B、C、D 和 E）。每个类对应一个特定的 NetID 范围，并定义了一个固定的粒度：
@@ -972,17 +972,17 @@ IPv4 Address 有两个部分：
 特别致辞：
 
 
-- 网络 Address**：标识网络本身（在路由表中使用）。
-- 广播 Address**：一次性向子网中的所有设备发送数据（所有 HostID 位均设为 1）。
+- 网络 **Address**：标识网络本身（在路由表中使用）。
+- 广播 **Address**：一次性向子网中的所有设备发送数据（所有 HostID 位均设为 1）。
 
 
 以下范围仅供内部使用：
 
 
-- 10.0.0.0/8**（私人 A 级）
-- 127.0.0.0/8**（本地环回或 _loopback_）。
-- 172.16.0.0 至 172.31.255.255**（专用 B 类）
-- 192.168.0.0 至 192.168.255.255**（专用 C 级）
+- 10.0.0.0/8**（私人 A 级）**
+- **127.0.0.0/8**（本地环回或 *loopback*）。
+- 172.16.0.0 至 172.31.255.255（专用 B 类）
+- 192.168.0.0 至 192.168.255.255（专用 C 级）
 
 
 地址 **127.0.0.1** 以及更广泛的整个 127.0.0.0/8 范围用于内部测试：向其发送的任何请求都不会离开机器。这对检查本地网络服务是否正常工作非常有用，而无需涉及更广泛的网络。
@@ -995,8 +995,8 @@ IPv4 Address 有两个部分：
 
 
 
-- 在 **DNS**（域名系统）中注册的域名**：它将数字 IP Address 与人性化的名称关联起来。
-- MAC Address**：网卡中刻有的物理标识符，用于本地传输（_以太网_）。当需要物理传输 IP 数据包时，ARP 表会将 IP Address 与目的地的 MAC Address 进行匹配。
+- 在 **DNS**（域名系统）中注册的域名：它将数字 IP Address 与人性化的名称关联起来。
+- **MAC Address**：网卡中刻有的物理标识符，用于本地传输（*以太网*）。当需要物理传输 IP 数据包时，ARP 表会将 IP Address 与目的地的 MAC Address 进行匹配。
 
 
 为解决 IPv4 Address 短缺问题并增加 Layer 安全性，网络通常使用 Address 转换（_NAT_）。NAT 允许许多专用设备在访问互联网时共享一个公共 IP Address。
@@ -1100,7 +1100,7 @@ DNS 也在电子邮件路由中发挥作用。例如，**MX**（_Mail Exchange_�
 由于其分层分布式结构，DNS 仍是互联网的基石，允许用户通过清晰易记的域名而不是冗长的技术性 IP 地址访问服务。
 
 
-下一章，我们将探讨另一个基本概念： *以太网地址***，也称为**MAC 地址***，它确保了本地网络物理 Layer 的数据传输。
+下一章，我们将探讨另一个基本概念：**以太网地址**，也称为**MAC 地址**，它确保了本地网络物理 Layer 的数据传输。
 
 
 
@@ -1183,7 +1183,7 @@ IP Address            MAC Address                Type
 - MAC Address 可视化示例：
 
 
-![Image](assets/fr/032.webp)
+![Image](assets/zh-Hans/022.webp)
 
 
 
@@ -1191,7 +1191,7 @@ IP Address            MAC Address                Type
 - IP Address 可视化示例：
 
 
-![Image](assets/fr/027.webp)
+![Image](assets/zh-Hans/023.webp)
 
 
 
@@ -1258,7 +1258,7 @@ NAT 背后的原理很简单，但却非常有效：不是为内部网络上的�
 
 
 
-![Image](assets/fr/035.webp)
+![Image](assets/zh-Hans/024.webp)
 
 
 
@@ -1331,7 +1331,7 @@ NAT 可以通过不同方式实现，以满足特定需求。两种主要的操�
 
 
 
-![Image](assets/fr/037.webp)
+![Image](assets/zh-Hans/025.webp)
 
 
 
@@ -1379,11 +1379,11 @@ iptables -t nat -A POSTROUTING -o <WAN> -s 192.168.0.0/24 -j MASQUERADE
 
 
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 
 ## 如何使用 `ip` 配置网络？
@@ -1463,7 +1463,7 @@ ifdown eth2
 配置文件（类似 RHEL）：
 
 
-- /etc/sysconfig/network**：全局设置（NETWORKING、HOSTNAME、GATEWAY...）。
+- /etc/sysconfig/network：全局设置（NETWORKING、HOSTNAME、GATEWAY...）。
 - ifcfg-**：每个 Interface 的特定设置。
 
 
@@ -1500,7 +1500,7 @@ ONBOOT=yes
 
 
 
-![Image](assets/fr/039.webp)
+![Image](assets/zh-Hans/026.webp)
 
 
 
@@ -1680,7 +1680,7 @@ ip addr add 192.168.1.2/24 dev eth0
 采用 IPv6 的动机是多方面的，也是 Address 互联网发展的关键需求。首先，IPv6 的作用是支持连接设备数量的指数级增长（IPv4 的有限 Address 空间无法实现这一目标）。其次，该协议旨在减少路由表的大小，从而提高交换效率，减少路由器的长期工作量。
 
 
-IPv6 还力求简化数据包处理的某些方面，改善数据报流量，优化网络间的传输速度。从安全角度看，IPsec* 协议的 AH/ESP 标头已列入基本规范，所有 IPv6 节点都必须能够支持它们（RFC 6434）。不过，它们的使用仍然是可选的：管理员可根据具体情况启用它们。
+IPv6 还力求简化数据包处理的某些方面，改善数据报流量，优化网络间的传输速度。从安全角度看，IPsec 协议的 AH/ESP 标头已列入基本规范，所有 IPv6 节点都必须能够支持它们（RFC 6434）。不过，它们的使用仍然是可选的：管理员可根据具体情况启用它们。
 
 
 其他目标包括更精确地处理服务类型，特别是确保实时应用（VoIP、视频会议等）的更高质量。IPv6 还旨在实现更灵活的移动性管理：设备可以在不改变其 Address 的情况下改变接入点，而这种改变对其对等网络是可见的。
@@ -1783,10 +1783,10 @@ IPv6 与其前身不同之处在于，IPv6 有多种 Address 类别，每一类�
 某些 IPv6 范围被明确保留，不得用作全局地址。它们具有特定的技术用途：
 
 
-- `::/128`**：未指定的 Address，从未永久分配给设备，但被等待配置的机器用作源 Address。
-- ::1/128`**：_loopback_ Address，直接等同于 IPv4 中的 `127.0.0.1`，允许机器自行 Address。
+- `::/128`**：未指定的 Address，从未永久分配给设备，但被等待配置的机器用作源 Address。**
+- `::1/128`**：**_loopback_ Address，直接等同于 IPv4 中的 `127.0.0.1`，允许机器自行 Address。
 - 64:ff9b::/96`**：保留用于协议转换器，以实现 RFC 6052 中定义的 IPv4/IPv6 互联。
-- ::fffff:0:0/96`**：兼容块，用于在特定 IPv6 结构中表示 IPv4 Address，通常由应用程序内部使用。
+- `::fffff:0:0/96`：兼容块，用于在特定 IPv6 结构中表示 IPv4 Address，通常由应用程序内部使用。
 
 
 这些模块保证了互操作性，并方便了两个协议版本之间的迁移。
@@ -1801,9 +1801,9 @@ IPv6 与其前身不同之处在于，IPv6 有多种 Address 类别，每一类�
 有些范围有特殊的记录用途：
 
 
-- `2001:2::/48`**:保留用于性能和互操作性测试（RFC 5180）。
+- `2001:2::/48`：保留用于性能和互操作性测试（RFC 5180）。
 - 2001:db8::/32`**：保留用于文档和示例（RFC 3849）。
-- `2002::/16`**:用于 6to4 机制，该机制允许 IPv6 流量穿越 IPv4 基础设施（在两种协议的过渡阶段非常有用）。
+- `2002::/16`**：用于 6to4 机制，该机制允许 IPv6 流量穿越 IPv4 基础设施（在两种协议的过渡阶段非常有用）。**
 
 
 **注：** 很大一部分全球地址仍未使用，作为未来互联网发展的储备。
@@ -1954,7 +1954,7 @@ IPv6 本地网络系统地将 Address 分成两个部分：
 下面举例说明如何将 MAC Address 转换为 EUI-64：
 
 
-![Image](assets/fr/045.webp)
+![Image](assets/zh-Hans/027.webp)
 
 
 
@@ -1964,8 +1964,8 @@ IPv6 本地网络系统地将 Address 分成两个部分：
 与 IPv4 中的 DHCP 一样，自动分配的 IPv6 地址可以有两个生命周期，由 DHCPv6 路由器或服务器定义：
 
 
-- 首选寿命*：超过此期限后，Address 仍然有效，但不再用于启动新连接；
-- 有效期限*：过期后，Address 将从 Interface 配置中完全删除。
+- 首选寿命：超过此期限后，Address 仍然有效，但不再用于启动新连接；
+- 有效期限：过期后，Address 将从 Interface 配置中完全删除。
 
 
 该系统可动态管理网络变化，例如，确保从一个互联网服务提供商顺利过渡到另一个互联网服务提供商。通过同时更新路由器公布的前缀和调整 DNS 记录，IPv6 迁移可以在不明显中断服务的情况下进行。
@@ -2092,7 +2092,7 @@ IPv6 数据包格式与 IPv4 不同，既简单又可扩展。IPv6 数据报总�
 该报头（如果存在）总是紧跟在基本报头之后。它包含的信息必须由数据包路径上的每个路由器处理，而不像大多数其他报头，通常只由目的节点处理。典型的用途包括在数据包通过网络时发出全局参数信号或请求特定的处理步骤。
 
 
-![Image](assets/fr/047.webp)
+![Image](assets/zh-Hans/028.webp)
 
 
 #### 路由标头
@@ -2109,15 +2109,15 @@ IPv6 数据包格式与 IPv4 不同，既简单又可扩展。IPv6 数据报总�
 
 
 - 下一个标头**：标识下一个标头的类型；
-- 路由类型**：定义路由方法（通常为 `0`）；
-- 剩余航段**：尚待穿越的航段数 ；
-- Address[n]**：中间地址列表。
+- 路由类型：定义路由方法（通常为 `0`）；
+- 剩余航段：尚待穿越的航段数 ；
+- **Address[n]**：中间地址列表。
 
 
 剩余航段 "字段从剩余航段总数开始，每跳递减一个。
 
 
-![Image](assets/fr/048.webp)
+![Image](assets/zh-Hans/029.webp)
 
 
 #### 碎片头
@@ -2129,12 +2129,12 @@ IPv6 数据包格式与 IPv4 不同，既简单又可扩展。IPv6 数据报总�
 片段标头包含以下字段：
 
 
-- Identification**：用于重新组装的唯一数据报标识符。
-- 片段偏移**：片段在原始数据报中的位置。
-- M 标志**：表示后面是否有更多片段。
+- **Identification**：用于重新组装的唯一数据报标识符。
+- 片段偏移：片段在原始数据报中的位置。
+- **M 标志**：表示后面是否有更多片段。
 
 
-![Image](assets/fr/049.webp)
+![Image](assets/zh-Hans/030.webp)
 
 
 #### 验证标头（AH）
@@ -2146,7 +2146,7 @@ IPv6 数据包格式与 IPv4 不同，既简单又可扩展。IPv6 数据报总�
 如果试图进行欺诈性修改，验证码将不再匹配，数据报可能会被拒绝。这种机制还能通过检测未经授权的复制来防止重放攻击。
 
 
-![Image](assets/fr/050.webp)
+![Image](assets/zh-Hans/031.webp)
 
 
 #### 目的地选项标头
@@ -2158,7 +2158,7 @@ IPv6 数据包格式与 IPv4 不同，既简单又可扩展。IPv6 数据报总�
 最初，协议中没有定义这样的选项。不过，在设计 IPv6 时引入了这个报头，以便在不修改整个数据包结构的情况下添加未来扩展。例如，空选项仅用于将报头填充为 8 字节的倍数，以便内存对齐。
 
 
-![Image](assets/fr/051.webp)
+![Image](assets/zh-Hans/032.webp)
 
 
 IPv6 数据包的设计基于最小基本报头和模块化扩展报头之间的明确分离。这种架构既能确保标准的处理性能，又能确保协议发展所需的灵活性，还能集成安全性、复杂的路由选择或服务质量机制，同时保持与未来基础设施的兼容性。
@@ -2504,7 +2504,7 @@ Wireshark 适用于许多操作系统，包括 Linux 和 Windows。安装时需�
 
 
 
-![Image](assets/fr/052.webp)
+![Image](assets/zh-Hans/033.webp)
 
 
 
@@ -2555,7 +2555,7 @@ ethtool enp0s3
 
 
 
-![Image](assets/fr/053.webp)
+![Image](assets/zh-Hans/034.webp)
 
 
 
@@ -2727,13 +2727,13 @@ default via 192.168.1.1 dev eth0 proto dhcp metric 100
 每一行代表一条路线。关键字段包括
 
 
-- default**：默认路由，在没有更多特定路由匹配时使用。
-- via**：用于到达目的地的网关。
-- dev**：使用的网络 Interface。
-- proto**：路由创建方式（手动、DHCP、内核等）。
-- metric**：路由成本，用于对多个可能路径进行优先排序。
-- scope**：路由范围（例如，"link "表示直接连接的路由）。
-- src**：该 Interface 传出数据包使用的源 IP Address。
+- **default**：默认路由，在没有更多特定路由匹配时使用。
+- **via**：用于到达目的地的网关。
+- **dev**：使用的网络 Interface。
+- **proto**：路由创建方式（手动、DHCP、内核等）。
+- **metric**：路由成本，用于对多个可能路径进行优先排序。
+- **scope**：路由范围（例如，"link "表示直接连接的路由）。
+- **src**：该 Interface 传出数据包使用的源 IP Address。
 
 
 #### 添加和删除路线
@@ -3068,7 +3068,7 @@ host 192.6.23.4
 在监控或保护局域网或广域网时，识别活动设备及其提供的服务至关重要。这正是`nmap`（*网络映射器*）工具的作用。
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 #### 介绍 `nmap
 
@@ -3107,20 +3107,20 @@ nmap 192.168.0.0/24
 
 
 
-![Image](assets/fr/055.webp)
+![Image](assets/zh-Hans/035.webp)
 
 
 
 管理员可以依靠 `nmap` 完成多项任务：
 
 
-- 检测活动主机**：确定哪些机器在子网内响应；
-- 服务清单**：确保只能访问必要的端口（最小权限原则）；
-- 合规性检查**：将开放端口与组织的安全策略进行比较；
-- 漏洞预防**：发现关键机器上运行的不安全或过时服务。
+- 检测活动主机：确定哪些机器在子网内响应；
+- 服务清单：确保只能访问必要的端口（最小权限原则）；
+- **合规性检查**：将开放端口与组织的安全策略进行比较；
+- **漏洞预防**：发现关键机器上运行的不安全或过时服务。
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 ### 流程查询工具
 
@@ -3216,10 +3216,10 @@ lsof -p 1521 -u 500,phil
 可直接查看接口和帧的工具：
 
 
-- arp / ip neigh**：检查和修改 ARP/NDP 缓存，检查或纠正 IP-MAC 关联；
-- tcpdump**：命令行数据包捕获，可过滤和导出；
-- Wireshark**：具有深度协议解码功能的图形化数据包分析；
-- ethtool**：查询和调整以太网卡物理参数（速度、双工、WoL 等）。
+- **arp / ip neigh**：检查和修改 ARP/NDP 缓存，检查或纠正 IP-MAC 关联；
+- **tcpdump**：命令行数据包捕获，可过滤和导出；
+- **Wireshark**：具有深度协议解码功能的图形化数据包分析；
+- **ethtool**：查询和调整以太网卡物理参数（速度、双工、WoL 等）。
 
 
 #### 网络 Layer
@@ -3228,10 +3228,10 @@ lsof -p 1521 -u 500,phil
 评估 IP 连接、路由和数据包流量的工具：
 
 
-- ping**：使用 ICMP 测试可达性并测量延迟；
-- ip route**：检查和修改路由表，控制数据包路径；
-- traceroute**：沿通往目的地的路由逐跳识别路由器；
-- ss**：TCP/UDP 套接字和相关进程的详细清单（netstat 的后续版本）。
+- **ping**：使用 ICMP 测试可达性并测量延迟；
+- **ip route**：检查和修改路由表，控制数据包路径；
+- **traceroute**：沿通往目的地的路由逐跳识别路由器；
+- **ss**：TCP/UDP 套接字和相关进程的详细清单（netstat 的后续版本）。
 
 
 #### 传输层和应用层
@@ -3240,9 +3240,9 @@ lsof -p 1521 -u 500,phil
 诊断服务和流程的工具：
 
 
-- nslookup / dig / host**：DNS 查询，用于验证名称解析和分析记录；
-- nmap**：探索开放端口和暴露的服务，以评估攻击面；
-- lsof**：列出进程打开的文件和套接字，关联系统和网络活动。
+- **nslookup / dig / host**：DNS 查询，用于验证名称解析和分析记录；
+- **nmap**：探索开放端口和暴露的服务，以评估攻击面；
+- **lsof**：列出进程打开的文件和套接字，关联系统和网络活动。
 
 
 掌握这些工具（每种工具都与 TCP/IP 模型的特定阶段相匹配），就能有条不紊地开展工作：从物理 Layer 开始，到路由选择，再到应用服务。这一专业知识链使管理员能够诊断、保护和优化他们的基础设施，确保网络性能和可用性。

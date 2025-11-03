@@ -1,8 +1,8 @@
-question: Jaki jest jeden ze sposobów na zdobycie bitcoinów bez ich kupowania?
-answer: Akceptuj je jako środek płatności za oferowane produkty lub usługi.
+question: Jaka jest jedna z inicjatyw, które przyczyniają się do uczynienia gospodarki Bitcoin bardziej dostępną i wygodną dla wszystkich?
+answer: BTCMap.
 wrong_answers:
-  - Pożycz je od przyjaciela i nigdy nie oddawaj.
-  - Wygraj je na loterii.
-  - Znajdź ich na ulicy.
+  - Bitcoin Exchange.
+  - Bitcoin Mining.
+  - BTCLottery.
 explanation: >-
 reviewed: true

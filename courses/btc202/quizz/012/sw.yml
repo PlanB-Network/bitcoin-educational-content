@@ -1,0 +1,9 @@
+question: Ni hatua gani ni sehemu ya jukumu la mtoto mdogo?
+answer: Kujenga kizuizi cha mgombea kutoka Mempool
+wrong_answers:
+  - Thibitisha Blockchain nzima kutoka Mempool
+  - Unda anwani za Bitcoin kwa watumiaji
+  - Hifadhi funguo za kibinafsi za pochi
+explanation: |
+  Miner huchagua shughuli kutoka kwa Mempool na kuunda kizuizi cha mgombea, ambacho anajaribu kuhalalisha na Proof of Work.
+reviewed: true

@@ -1,27 +1,27 @@
 ---
 name: Düzeltme Kılavuzu
-description: Plan ₿ Network'da redaksiyon yaparken akılda tutulması gereken önemli faktörler nelerdir?
+description: Plan ₿ Academy'da redaksiyon yaparken akılda tutulması gereken önemli faktörler nelerdir?
 ---
 
 ![github](assets/cover.webp)
 
 
-Plan ₿ Network'de içerik redaksiyonu yaparken izlenecek yönergeler** hakkındaki bu eğitime hoş geldiniz. İnsanların Bitcoin'nin nasıl çalıştığı ve günlük yaşamlarında nasıl kullanılabileceği konusunda farkındalık kazanmalarına yardımcı olmak için Bitcoin materyallerini mümkün olduğunca çok dile çevirme misyonumuzu paylaştığınız için mutluyuz.
+Plan ₿ Academy'de içerik redaksiyonu yaparken izlenecek **yönergeler** hakkındaki bu eğitime hoş geldiniz. İnsanların Bitcoin'nin nasıl çalıştığı ve günlük yaşamlarında nasıl kullanılabileceği konusunda farkındalık kazanmalarına yardımcı olmak için Bitcoin materyallerini mümkün olduğunca çok dile çevirme misyonumuzu paylaştığınız için mutluyuz.
 
 
-Her şeyden önce, Plan ₿ Network [public repository](https://github.com/PlanB-Network/Bitcoin-educational-content)'e katkıda bulunmak size öğreticiler yazma, mevcut içeriği düzeltme ve hatta platforma yeni bir dil eklenmesini önerme şansı verir. Daha fazla bilgi edinmek için önce [Telegram Grubumuza](https://t.me/PlanBNetwork_ContentBuilder) katılın ve kendiniz ve konuşabildiğiniz diller hakkında kısa bir sunum yazın.
+Her şeyden önce, Plan ₿ Academy [public repository](https://github.com/PlanB-Network/Bitcoin-educational-content)'e katkıda bulunmak size öğreticiler yazma, mevcut içeriği düzeltme ve hatta platforma yeni bir dil eklenmesini önerme şansı verir. Daha fazla bilgi edinmek için önce [Telegram Grubumuza](https://t.me/PlanBNetwork_ContentBuilder) katılın ve kendiniz ve konuşabildiğiniz diller hakkında kısa bir sunum yazın.
 
 
-Bu eğitim, içeriği düzeltmek isteyen katılımcılara adanmıştır. Çoğu [Github](https://planb.network/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) veya depo içinde kullandığımız [Markdown dili](https://www.markdownguide.org/basic-syntax/) hakkında fazla bilgi sahibi değildir, bu nedenle bu görevde yer alan temel faktörler hakkında bazı bilgiler paylaşmak önemlidir.
+Bu eğitim, içeriği düzeltmek isteyen katılımcılara adanmıştır. Çoğu [Github](https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) veya depo içinde kullandığımız [Markdown dili](https://www.markdownguide.org/basic-syntax/) hakkında fazla bilgi sahibi değildir, bu nedenle bu görevde yer alan temel faktörler hakkında bazı bilgiler paylaşmak önemlidir.
 
 
 Aşağıda, düzeltmenlerin karşılaştığı en yaygın sorunları bir araya getirdim. Başkalarının gelişmesine yardımcı olabileceğinden, daha fazlasını önermekten çekinmeyin.
 
 
-Ayrıntılara girmeden önce yapmanız gereken ilk şey, Plan ₿ Network deposunu çatallayarak, değişiklikleri işleyerek ve PR göndererek Github'da izlenecek pratik eylemler hakkındaki bu öğreticiyi okumaktır:
+Ayrıntılara girmeden önce yapmanız gereken ilk şey, Plan ₿ Academy deposunu çatallayarak, değişiklikleri işleyerek ve PR göndererek Github'da izlenecek pratik eylemler hakkındaki bu öğreticiyi okumaktır:
 
 
-https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
+https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 
 ## Düzeltme okuması nedir?
@@ -38,13 +38,13 @@ Bu tür bir görevden geçtiğinizde, orijinal dilin (EN veya FR) anlamını tak
 
 Aslında, ortak hedefimiz Bitcoin konusunda mümkün olduğunca çok insanı eğitmektir, bu nedenle okudukları materyalin pürüzsüz ve net olması esastır.
 
-Bu anlamda, Plan ₿ Network'ye katkıda bulunan herkes eğitimcidir!
+Bu anlamda, Plan ₿ Academy'ye katkıda bulunan herkes eğitimcidir!
 
 
-## Plan ₿ Network'de düzeltme yapmadan önce ilk adımlar
+## Plan ₿ Academy'de düzeltme yapmadan önce ilk adımlar
 
 
-Yeni bir redaksiyon görevine başlamadan önce, bunu [Telegram grubunda] (https://t.me/PlanBNetwork_ContentBuilder) duyurun veya özel bir [konu] (https://github.com/orgs/PlanB-Network/projects/3) açacak olan Plan ₿ Network koordinatörünüzü bilgilendirin. Sorun bağlantısını aldığınızda, söz konusu içeriğin redaksiyon görevine başladığınızı **yorumlamanız** yeterlidir.
+Yeni bir redaksiyon görevine başlamadan önce, bunu [Telegram grubunda] (https://t.me/PlanBNetwork_ContentBuilder) duyurun veya özel bir [konu] (https://github.com/orgs/Plan ₿ Academy/projects/3) açacak olan Plan ₿ Academy koordinatörünüzü bilgilendirin. Sorun bağlantısını aldığınızda, söz konusu içeriğin redaksiyon görevine başladığınızı **yorumlamanız** yeterlidir.
 
 
 Bu sistem, koordinatörün repo içindeki ilerlemeyi takip etmesine yardımcı olur ve içeriğin düzeltmen tarafından "talep edilmesine" olanak tanıyarak başka biri tarafından yinelenen çabaları önler.
@@ -60,7 +60,7 @@ Her şeyden önce, **HER ZAMAN "dev" dalındaki** reponuzu SENKRONİZE ETMEYİ u
 
 
 
-Başarılı bir şekilde senkronize ettikten sonra, ilgilendiğiniz içeriğe doğrudan erişebilir ve bu [eğitimde] gösterildiği gibi yeni bir dalda işlem yapabilirsiniz (https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). Aksi takdirde, aşağıda gösterildiği gibi "Şubeler" üzerine tıklayarak çalışacağınız yeni bir şube açabilirsiniz.
+Başarılı bir şekilde senkronize ettikten sonra, ilgilendiğiniz içeriğe doğrudan erişebilir ve bu [eğitimde] gösterildiği gibi yeni bir dalda işlem yapabilirsiniz (https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). Aksi takdirde, aşağıda gösterildiği gibi "Şubeler" üzerine tıklayarak çalışacağınız yeni bir şube açabilirsiniz.
 
 
 
@@ -107,7 +107,7 @@ Bu ikinci durumda, **her zaman Bitcoin topluluğunuzda başka birinin bu kelimey
 
 
 
-- Bir çözüm, kelimenin çevrilip çevrilmediğini görmek için hedef dilinizde [BitcoinWiki](https://en.Bitcoin.it/wiki/Main_Page)** adresini kontrol etmek olabilir. Eğer çevrilmemişse, kelimeyi İngilizce olarak tutarsınız.
+- Bir çözüm, kelimenin çevrilip çevrilmediğini görmek için hedef dilinizde **[BitcoinWiki](https://en.Bitcoin.it/wiki/Main_Page)** adresini kontrol etmek olabilir. Eğer çevrilmemişse, kelimeyi İngilizce olarak tutarsınız.
 
 
 
@@ -115,11 +115,11 @@ Bu ikinci durumda, **her zaman Bitcoin topluluğunuzda başka birinin bu kelimey
 
 
 
-- Bir başka iyi çözüm de EN orijinal sözcüğü/ifadeyi saklamak ve ardından planb.network'teki [glossary](https://planb.network/en/resources/glossary) adresine yönlendiren bir köprü** oluşturmaktır. Bunu yapmak için, aşağıdaki örnekte görebileceğiniz gibi, kelimeyi / cümleyi köşeli parantez içine ve bağlantıyı yuvarlak parantez içine eklemeniz gerekir:
+- Bir başka iyi çözüm de EN orijinal sözcüğü/ifadeyi saklamak ve ardından planb.network'teki [glossary](https://planb.academy/en/resources/glossary) adresine yönlendiren bir **köprü** oluşturmaktır. Bunu yapmak için, aşağıdaki örnekte görebileceğiniz gibi, kelimeyi / cümleyi köşeli parantez içine ve bağlantıyı yuvarlak parantez içine eklemeniz gerekir:
 
 
 ```
-[UTXO](https://planb.network/resources/glossary/utxo)
+[UTXO](https://planb.academy/resources/glossary/utxo)
 ```
 
 
@@ -131,14 +131,14 @@ Nihai sonuçta (aşağıdaki resim) tüm bağlantıyı görselleştirmeyeceksini
 
 
 
-Lütfen web sitesinden alacağınız sözlük bağlantısının "network" kelimesinden sonra dil kodu içerdiğini unutmayın (örnek: ``https://planb.network/en/resources/glossary/UTXO``-> burada "en" dil kodunu okuyabilirsiniz). Bu durumda, **yukarıdaki kutuda gördüğünüz gibi dil kodunu bağlantıdan kaldırın**. Bu şekilde, sistem okuyucuyu otomatik olarak kendi belirlediği dile götürecektir.
+Lütfen web sitesinden alacağınız sözlük bağlantısının "network" kelimesinden sonra dil kodu içerdiğini unutmayın (örnek: ``https://planb.academy/en/resources/glossary/utxo``-> burada "en" dil kodunu okuyabilirsiniz). Bu durumda, **yukarıdaki kutuda gördüğünüz gibi dil kodunu bağlantıdan kaldırın**. Bu şekilde, sistem okuyucuyu otomatik olarak kendi belirlediği dile götürecektir.
 
 
 Depodaki içerik yukarıdaki gibi köprülerle doludur. Artık ne anlama geldiklerini bildiğinize göre, **orijinal yazar tarafından eklenen hiçbir bağlantıyı** silmediğinizden emin olun.
 
 
 
-- Kelime çevirisiyle ilgili bir başka husus da şudur. Metinde "Plan ₿ Network" kelimesini bulursanız, **bu orijinal haliyle bırakın**. "Plan" kelimesini veya "network" kelimesini çevirmeyin. Ayrıca, Plan ₿ Network'yi tanıtırken "The" maddesini KULLANMAYIN: **onu bir marka olarak düşünün**.
+- Kelime çevirisiyle ilgili bir başka husus da şudur. Metinde "Plan ₿ Academy" kelimesini bulursanız, **bu orijinal haliyle bırakın**. "Plan" kelimesini veya "network" kelimesini çevirmeyin. Ayrıca, Plan ₿ Academy'yi tanıtırken "The" maddesini KULLANMAYIN: **onu bir marka olarak düşünün**.
 
 
 
@@ -169,7 +169,7 @@ Kurslarda, en önemli bölümler tek bir Hash işaretiyle tanıtılırken, alt b
 Bir başlıktan önce **Hash işaretlerini** ASLA silmediğinizden emin olun, aksi takdirde metnin yapısıyla ilgili sorunlar yaratırsınız.
 
 
-Aynı zamanda, yukarıdaki resimde görebileceğiniz ``<chapterId>d668fdf6-fb4c-4bbf-82e1-afcb95c122e0</chapterId>` bölümünü veya ``:::video id=ba99951f-81d2-418f-b5e7-4b8c9f8b8cc8:::`` gibi video referanslarını **değiştirmeyin.
+Aynı zamanda, yukarıdaki resimde görebileceğiniz `<chapterId>d668fdf6-fb4c-4bbf-82e1-afcb95c122e0</chapterId>` bölümünü veya `:::video id=ba99951f-81d2-418f-b5e7-4b8c9f8b8cc8:::` gibi video referanslarını **değiştirmeyin**.
 
 
 Bir başlıktan önce ``#`` eklediğimizde, kurs önizlemesinde otomatik olarak kalın hale gelecektir, bu nedenle **düzeltme sırasında başlıkları kalın yapmaktan kaçının**.
@@ -205,7 +205,7 @@ Aşağıda, hedef dilde içerik redaksiyonu yaparken dikkat etmeniz gereken form
 
 
 
-- Kalın sembolün kötü bir yorumunu temsil edebilecek `\*\*` veya ``**`` gibi garip noktalama işaretlerine dikkat edin. Aşağıdaki resimde, yıldız işaretlerinin yalnızca kelimenin sağında olduğunu görebilirsiniz, bu da garip görünüyor.
+- Kalın sembolün kötü bir yorumunu temsil edebilecek `**` veya `**` gibi garip noktalama işaretlerine dikkat edin. Aşağıdaki resimde, yıldız işaretlerinin yalnızca kelimenin sağında olduğunu görebilirsiniz, bu da garip görünüyor.
 
 
 
@@ -234,8 +234,6 @@ Bu sembollerin nerede olması gerektiğini görmek için orijinal dil dosyasın�
 
 ![REVIEW](assets/en/11.webp)
 
-
-
 ## Sınav redaksiyonu
 
 
@@ -245,11 +243,20 @@ Her kurstaki sınav sorularını da düzeltebileceğinizi biliyor muydunuz? Örn
 Bir kez daha, özellikle bu amaç için açtığınız özel bir şubede olduğunuzdan emin olun ve her zaman koordinatörü bilgilendirin.
 
 
-Soruyu inceledikten sonra, aşağıdaki resimde gösterildiği gibi "incelendi" durumunu "yanlış "tan "doğru "ya değiştirdiğinizden emin olun.
-
+Bu tür _yml_ dosyalarının redaksiyonunu yaparken akılda tutulması gereken önemli bir husus, metnin içine iki nokta üst üste ``:`` eklemekten kaçınmaktır. Aslında, iki nokta üst üste **sadece** "wrong_answers" gibi anahtar-değer çiftlerini diğerlerinden ayırmak için kullanılır. Aşağıdaki resimde bir örnek görebilirsiniz:
 
 
 ![REVIEW](assets/en/12.webp)
+
+
+Soruyu inceledikten sonra, aşağıdaki resimde gösterildiği gibi "incelendi" durumunu "yanlış" yerine "doğru" olarak değiştirdiğinizden emin olun. Hangi dilde çalışıyor olursanız olun, bu durum kelimelerini İngilizce tuttuğunuzdan emin olun!
+
+
+
+![REVIEW](assets/en/13.webp)
+
+
+"reviewed:true" durum satırı eksikse, bunu testin sonuna **eklediğinizden** emin olun.
 
 
 ## Sözlük düzeltme
@@ -258,7 +265,35 @@ Soruyu inceledikten sonra, aşağıdaki resimde gösterildiği gibi "incelendi" 
 Tıpkı testlerde olduğu gibi, sözlüğü de düzeltebilirsiniz. Orijinal sözlük Fransızca yazılmıştır, bu nedenle aşağıdaki gibi cümleler bulacaksınız: "Fransızcada bu ifade şu şekilde çevrilebilir..."
 
 
-Bu gibi durumlarda, lütfen bu cümleyi hedef dilinize veya İngilizceye uyarlayın.
+Bu gibi durumlarda, lütfen cümleyi hedef dilinize veya İngilizceye uyarlayın. Örneğin, "İngilizcede bu ifade..." şeklinde yazabilirsiniz.
+
+Başlık İngilizce bırakılmışsa, cümleyi kendi dilinize uyarlayabilirsiniz: "Swahili dilinde bu ifade..."
+
+
+Ayrıca, başlıkları BÜYÜK HARFLERLE yazdığınızdan emin olun.
+
+
+![REVIEW](assets/en/14.webp)
+
+
+## Halkla ilişkilerinizin başlığı ve açıklaması
+
+
+Halkla ilişkilerinizi gönderirken, bu formatı kullanarak adlandırırsanız harika olur: [REDAKSIYON] IÇERIK ADI - DIL:
+
+
+```
+[PROOFREADING] BTC101 - ENGLISH
+```
+
+
+Ayrıca, PR'nin **yorum** bölümüne, "kapanır" + düzeltme görevine başladığınızda koordinatörün size gönderdiği sorunun numarasını, başına ``#`` koyarak yazabilirsiniz.
+
+Örneğin, cyp201 + sınavların düzeltilmesi ile bir PR gönderdiyseniz, "closes [#2934](https://github.com/PlanB-Network/Bitcoin-educational-content/issues/2934)" yazabilirsiniz.
+
+
+Bu şekilde, PR ve sorun birbirine bağlanacak ve herkese açık Github deposunu okuyan herkes kolayca bilgi bulabilecektir.
+
 
 
 ## Diğer en iyi uygulamalar
@@ -269,37 +304,49 @@ Bu gibi durumlarda, lütfen bu cümleyi hedef dilinize veya İngilizceye uyarlay
 
 
 
-![REVIEW](assets/en/13.webp)
+![REVIEW](assets/en/15.webp)
 
 
 
 "Tümünü değiştir" işlevini kullanırken, bağlantıların da değiştirilmediğinden emin olmak için sonuçları iki kez kontrol etmek önemlidir. Örneğin, "Bitcoin" kelimesini "Bitkoin" olarak değiştirmek istiyorsanız (bazı dillerde gerekli olabilir), "tümünü değiştir" işlevini kullanarak metindeki tüm örnekleri verimli bir şekilde güncelleyebilirsiniz. Ancak, bu aracın söz konusu kelimeyi içeren tüm bağlantıları da değiştireceğini ve potansiyel olarak yönlendirme sorunlarına yol açabileceğini unutmayın.
 
 
-Aşağıdaki örnekte, düzeltmen yukarıdaki işlevi kullanarak "Satoshi" ifadesini "Satoshi(Sats)" ile değiştirmiş ve ayrıca bağlantıyı kelimenin kendisini içeren bir öğreticiye dönüştürmüştür. Sonuç olarak, bağlantı geçersiz hale gelmiştir.
+Aşağıdaki örnekte, düzeltmen yukarıdaki işlevi kullanarak "Satoshi" yerine "Satoshi(Sats)" yazmış ve ayrıca bağlantıyı kelimenin kendisini içeren bir öğreticiye değiştirmiştir. Sonuç olarak, bağlantı geçersiz hale gelmiştir.
 
 
 Doğru olduklarından emin olmak için metindeki tüm köprüleri her zaman iki kez kontrol edin.
 
 
 
-![REVIEW](assets/en/14.webp)
+![REVIEW](assets/en/16.webp)
 
 
 
 
-- Konuyu takip ederek, yazar bir Plan ₿ Network kursuna veya eğitimine atıfta bulunan bir bağlantı eklerse (**parantez içinde değil**), web sitesi otomatik olarak ilgili küçük resmi gösteren bir "kart" oluşturacaktır. Sonuç olarak, her zaman metin ile bağlantının kendisi arasında bir boşluk bıraktığınızdan emin olun**, aksi takdirde web sitesinde aşağıdaki hatayı görebilirsiniz.
+- Konuyu takip ederek, yazar bir Plan ₿ Academy kursuna veya eğitimine atıfta bulunan bir bağlantı eklerse (**parantez içinde değil**), web sitesi otomatik olarak ilgili küçük resmi gösteren bir "kart" oluşturacaktır. Sonuç olarak, metin ile bağlantının kendisi arasına **yeni bir satır eklediğinizden** her zaman emin olun, aksi takdirde web sitesinde aşağıdaki hatayı görebilirsiniz.
 
 
 
-![REVIEW](assets/en/15.webp)
+![REVIEW](assets/en/17.webp)
 
 
+Aynı şey ``[IMAGE](asset/fr/001.webp)`` gibi "resim kodları" için de geçerlidir: resim kodu ile metin arasına her zaman yeni bir satır eklediğinizden emin olun. Aşağıda bir örnek:
 
 
+```
+WRONG CONFIGURATION:
+- to start translating, click on the button `Translate`: ![language](assets/08.webp)
+To save, click on `save`!
 
-- Son olarak, düzeltme görevinizi tamamladığınızda ve PR'yi gönderdiğinizde uygulanacak bir diğer en iyi uygulama, koordinatör tarafından açılan orijinal konuya geri dönmek ve "Düzeltme tamamlandı" şeklinde yorum yapmaktır. **PR bağlantınızı da oraya eklediğinizden emin olun**.
 
+RIGHT CONFIGURATION:
+
+- to start translating, click on the button `Translate`:
+
+![language](assets/08.webp)
+
+To save, click on `save`!
+```
 
 
 ## Sonuç
@@ -309,6 +356,9 @@ Doğru olduklarından emin olmak için metindeki tüm köprüleri her zaman iki 
 
 
 Yeni başlayanların bu kursları ve eğitimleri okuyabileceğini her zaman aklınızda bulundurun, bu nedenle tam olarak anlamalarını sağlamak bizim sorumluluğumuzdur. Bir düzeltmen olarak siz bir eğitimcisiniz!
+
+
+Artık kursları, eğitimleri, sınavları ve sözlük kelimelerini düzeltmeye başlamaya hazırsınız. Görselleri ve video transkriptlerini de kontrol etmeye başlamak için bizi izlemeye devam edin ;)
 
 
 Bu eğitimi okuduğunuz için teşekkür eder, redaksiyon yolculuğunuzun keyfini çıkarmanızı dilerim!

@@ -1,0 +1,8 @@
+question: Ni gute gusobanura bikora mu nzira y’uguhindura?
+answer: Mu gukura urufunguzo ku rudome rwose rwashizwemwo amakuru maze ugakoresha modulo 26 .
+wrong_answers:
+  - Mu gukura urufunguzo ku rudome rwose rwashizwemwo amakuru maze ugakoresha modulo 20 .
+  - Mu kugwiza urufunguzo n'urudome rwose rwashizwemwo
+  - Mu kugabanya urufunguzo ruva ku nyuguti yose yashizwemwo amakuru no gukoresha modulo 27 .
+explanation: |
+  Mu shift cipher, gukuraho urufunguzo bikorwa mu gukura urufunguzo ku rudome rwose rwashizwemwo, hanyuma ugakoresha modulo 26 kugira ngo usubire ku nyandiko y’intango. Modulo 26 iremesha gusubira ku ntango y'inyuguti inyuma y'urudome Z.

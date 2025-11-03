@@ -1,0 +1,9 @@
+question: Ni programu gani inachanganya vitendaji vya Full node na Wallet?
+answer: Bitcoin core
+wrong_answers:
+  - Sparrow wallet
+  - Ashigaru
+  - Wallet ya Satoshi
+explanation: |
+  Bitcoin core hufanya kazi kama Full node na Wallet, tofauti na vifurushi vingine vya programu, ambavyo ni programu ya usimamizi ya Wallet pekee.
+reviewed: true

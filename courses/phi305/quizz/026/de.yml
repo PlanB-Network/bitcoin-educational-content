@@ -1,0 +1,9 @@
+question: Wer glaubt, dass der Mensch die Natur stören kann, anstatt sich ihr zu unterwerfen?
+answer: Descartes.
+wrong_answers:
+  - Spinoza.
+  - Einstein.
+  - Saint-Augustin.
+explanation: |
+  Descartes glaubte, dass der Mensch die Natur stören kann, anstatt sich ihr zu unterwerfen. Diese dualistische Sichtweise stellt den Menschen gegen die Natur und suggeriert, dass wir uns durch unseren Willen über die Naturgesetze erheben können.
+reviewed: false

@@ -21,23 +21,23 @@ BittrでSatsを積み重ねるのがいかに簡単かを説明しよう。
 ## Bittrを始める
 
 
-1) ウェブまたはモバイルで[getbittr.com](https://getbittr.com/buy-Bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1)にアクセスし、"Buy Bitcoin "をクリックする。
+- ウェブまたはモバイルで[getbittr.com](https://getbittr.com/buy-Bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1)にアクセスし、"Buy Bitcoin "をクリックする。
 
 
 
-- アカウント不要:** Bitcoinを購入するためにアカウントを作成する必要はありません。
-- KYCプロセスなし:** KYC（30日あたり999スイスフランまで）を行う必要はありません。
-- ダイレクトスタート：**すぐに始められ、数分以内にSatsを受け取ることができる。
+- **アカウント不要:** ビットコインを購入するためにアカウントを作成する必要はありません
+- **KYCプロセス不要:** KYCを行う必要はありません（30日ごとに最大999CHF）
+- **直接開始:** すぐに始められ、数分以内にサッツを受け取れます
 
 
 ![image1](assets/en/01.webp)
 
 
-2) 送信元のIBANを入力する。
+- 送信元のIBANを入力する。
 
 
 
-- SEPAのみ:** Bittrはヨーロッパ内でのみご利用いただけます。
+- **SEPAのみ:** Bittrはヨーロッパ内でのみ動作します
 
 
 ![image2](assets/en/02.webp)
@@ -58,10 +58,10 @@ Bittrはアプリウォレット、ソフトウェアウォレット、ハード
 セットアップは静かで人目につかない場所で行うことをお勧めします。5分もかからないはずです。
 
 
-1) ウェブサイトで「bluewallet」を選択する。
+- ウェブサイトで「bluewallet」を選択する。
 
 
-2) BlueWalletアプリをこちらからダウンロードしてください：[App Store](https://itunes.apple.com/app/bluewallet-Bitcoin-Wallet/id1376878040), [Google Play](https://play.google.com/store/apps/details?id=io.bluewallet.bluewallet).
+- BlueWalletアプリをこちらからダウンロードしてください：[App Store](https://itunes.apple.com/app/bluewallet-Bitcoin-Wallet/id1376878040), [Google Play](https://play.google.com/store/apps/details?id=io.bluewallet.bluewallet).
 
 
 ![image3](assets/en/03.webp)
@@ -73,22 +73,22 @@ Bittrはアプリウォレット、ソフトウェアウォレット、ハード
 ![image4](assets/en/04.webp)
 
 
-4) あなたのWalletを選択し、メッセージ署名に進む
+- あなたのWalletを選択し、メッセージ署名に進む
 
 
 ![image5](assets/en/05.webp)
 
 
-5) メッセージへの署名を完了し、あなたの署名をウェブサイトに貼り付ける。
+- メッセージへの署名を完了し、あなたの署名をウェブサイトに貼り付ける。
 
 
 ![image6](assets/en/06.webp)
 
 
-**注：BlueWalletの "Share "をクリックし、リンク全体をコピーして、Bittrウェブサイトのフィールドに貼り付けることもできます。
+**注意: BlueWalletで「共有」をクリックし、リンク全体をコピーしてBittrのウェブサイトのフィールドに貼り付けることもできます。**
 
 
-6) 銀行振込を設定します。
+- 銀行振込を設定します。
 
 
 ![image7](assets/en/07.webp)
@@ -97,25 +97,25 @@ Bittrはアプリウォレット、ソフトウェアウォレット、ハード
 ## BitcoinをBitBoxで直接購入
 
 
-1) "BitBox "を選択
+- "BitBox "を選択
 
 
 ![image8](assets/en/08.webp)
 
 
-2) クリックしてBitBoxアプリをパソコンで開く
+- クリックしてBitBoxアプリをパソコンで開く
 
 
 ![image9](assets/en/09.webp)
 
 
-3) BitBoxのロックを解除し、手順に従ってメッセージ署名を完了する。
+- BitBoxのロックを解除し、手順に従ってメッセージ署名を完了する。
 
 
 ![image10](assets/en/10.webp)
 
 
-4) 銀行振込を設定します。
+- 銀行振込を設定します。
 
 
 ![image11](assets/en/11.webp)

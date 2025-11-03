@@ -1,0 +1,8 @@
+question: 모든 사람이 더 쉽게 접근하고 편리하게 이용할 수 있는 Bitcoin 경제를 만드는 데 기여하는 이니셔티브에는 어떤 것이 있나요?
+answer: BTCMap.
+wrong_answers:
+  - Bitcoin Exchange.
+  - Bitcoin Mining.
+  - BTC복권.
+explanation: >-
+reviewed: true

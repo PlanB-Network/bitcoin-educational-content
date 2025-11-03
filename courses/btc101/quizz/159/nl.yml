@@ -1,8 +1,12 @@
-question: Wat is de betekenis van de energie-uitgaven in Bitcoin Mining?
-answer: Er is energie nodig om de informatie te produceren, maar de verificatie van de informatie heeft verwaarloosbare kosten. Deze asymmetrie garandeert de veiligheid van het netwerk.
+question: Wat kunnen mijnwerkers doen voor de energiecentrales die nog niet op het net zijn aangesloten?
+answer: Ze kunnen fungeren als koper in laatste instantie.
 wrong_answers:
-  - De energiekosten zijn nodig om de ASIC machines die gebruikt worden in Mining van energie te voorzien, en de verificatie van informatie heeft hoge kosten.
-  - De energie-uitgaven zijn nodig om het Bitcoin netwerk te onderhouden en de verificatie van informatie heeft variabele kosten.
-  - De energiekosten zijn niet nodig om nieuwe bitcoins te maken.
-explanation: >-
-reviewed: false
+  - Ze kunnen elektriciteitscentrales van elektriciteit voorzien.
+  - Ze kunnen energiecentrales aansluiten op het elektriciteitsnet.
+  - Ze kunnen de prijs van elektriciteit reguleren.
+explanation: |
+  Mijnbouwers kunnen optreden als laatste koper voor energiecentrales die
+  die nog niet zijn aangesloten op het elektriciteitsnet. Hierdoor kunnen energiecentrales
+  financiering krijgen voordat ze worden aangesloten op het
+  elektriciteitsnet.
+reviewed: true

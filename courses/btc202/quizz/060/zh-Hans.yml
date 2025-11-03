@@ -1,0 +1,9 @@
+question: 安装在 Umbrel 上的 Nostr 中继器有什么作用？
+answer: 在本地托管您的出版物
+wrong_answers:
+  - 检查 Bitcoin 交易
+  - 与联系人创建 Nostr 频道
+  - Blockchain Nostr 的本地备份
+explanation: |
+  Umbrel 上的 Nostr 中继器可在本地托管数据，保证数据的可用性和主权。
+reviewed: true

@@ -127,6 +127,21 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 0.12
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.13
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.12
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.13
 tags:
   - historical
   - finance

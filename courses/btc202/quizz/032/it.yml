@@ -1,0 +1,9 @@
+question: Quale soluzione node-in-a-box è oggi leader di mercato?
+answer: Ombrello
+wrong_answers:
+  - Inizio9
+  - Nodl
+  - RoninDojo
+explanation: |
+  Umbrel è la soluzione node-in-a-box più popolare, grazie alla sua facilità di installazione e al ricco App Store.
+reviewed: true

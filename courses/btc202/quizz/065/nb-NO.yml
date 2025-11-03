@@ -1,0 +1,9 @@
+question: Hva er det første du må gjøre hvis det oppstår en feil på Umbrel?
+answer: generate en diagnosepakke
+wrong_answers:
+  - Installer Bitcoin core på nytt og gjør IBD på nytt
+  - Tøm hurtigbufferen
+  - Deaktiver 2FA
+explanation: |
+  Hvis det oppstår et problem, begynner vi med å generere en diagnosepakke i feilsøkingsdelen for å analysere problemet og føre en oversikt.
+reviewed: true

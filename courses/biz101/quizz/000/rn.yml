@@ -1,0 +1,9 @@
+question: Inzira zo kwishura zubatswe hejuru y’imirongo y’amahera ya kera ni ?
+answer: Mu vy'ukuri, vyishyurwa n'abadandaza biciye ku mafaranga y'abajejwe kwishura
+wrong_answers:
+  - Mu vy'ukuri ni ubuntu kuko umukiriya ariha igiciro kigaragazwa n'umucuruzi .
+  - Yishurwa n'umukiriya hejuru y'igiciro umucuruzi asaba
+  - Yishurwa n'amashirahamwe y'amakarata yongera kugurisha amakuru y'abaguzi
+explanation: |
+  Nta kintu na kimwe ari ubuntu. Ivyo bikoresho vy’ukwishura vyubatswe mu buryo bw’amahera ya kera bikoreshwa n’abagurisha batandukanye nk’amashirahamwe y’amakarata n’amabanki asaba amahera atari make be n’/canke amahera y’imbere y’igihe ku bijanye n’ugucuruza kwose .
+reviewed: false

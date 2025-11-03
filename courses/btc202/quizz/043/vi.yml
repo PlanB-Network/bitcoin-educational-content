@@ -1,0 +1,9 @@
+question: Sự khác biệt giữa Umbrel Home và umbrelOS là gì?
+answer: Umbrel Home là một máy chủ mini được cài đặt sẵn, umbrelOS là một bản cài đặt tự làm
+wrong_answers:
+  - Umbrel Home miễn phí, umbrelOS thì không
+  - Umbrel Home không hỗ trợ Bitcoin; umbrelOS thì có
+  - Umbrel Home là mã nguồn mở, umbrelOS là độc quyền
+explanation: |
+  Umbrel Home được bán trọn gói với hệ điều hành umbrelOS đã được cài đặt sẵn, trong khi umbrelOS có thể được tự cài đặt trên phần cứng của bạn.
+reviewed: true

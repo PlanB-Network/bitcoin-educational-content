@@ -1,8 +1,10 @@
-question: Vad ger Lightning Network möjlighet till?
-answer: Omedelbara Bitcoin-transaktioner till låg kostnad.
+question: Vad är det genomsnittliga tidsintervallet mellan skapandet av två block i Bitcoin-protokollet?
+answer: 10 minuter.
 wrong_answers:
-  - Omedelbara Bitcoin-transaktioner med höga kostnader.
-  - Försenade Bitcoin-transaktioner till låg kostnad.
-  - Försenade Bitcoin-transaktioner med höga kostnader.
-explanation: >-
+  - 5 minuter.
+  - 15 minuter.
+  - 20 minuter.
+explanation: |
+  Det genomsnittliga tidsintervallet mellan skapandet av två
+  block i Bitcoin-protokollet är 10 minuter.
 reviewed: true

@@ -1,12 +1,8 @@
-question: W którym roku przewiduje się zaprzestanie tworzenia bitcoinów?
-answer: 2140
+question: Jaki jest klucz prywatny w Bitcoin Wallet?
+answer: Tajny klucz umożliwiający podpisywanie transakcji.
 wrong_answers:
-  - 2050
-  - 2030
-  - 2200
-explanation: |
-  Ze względu na mechanizm Halving można matematycznie przewidzieć, że
-  przewidzieć, że tworzenie bitcoinów zakończy się w 2140 roku,
-  kiedy całkowita liczba bitcoinów osiągnie limit 21
-  milionów.
+  - Klucz publiczny używany do adresów generate Bitcoin.
+  - Tajna lista słów do zniszczenia Wallet w razie potrzeby.
+  - Tajny klucz do szyfrowania transakcji Bitcoin.
+explanation: >-
 reviewed: true

@@ -1,12 +1,9 @@
-question: Khóa học này mô tả Bitcoin như thế nào?
-answer: Một môn học đa ngành.
+question: Khóa học này gợi ý điều gì về tương lai của Bitcoin?
+answer: Nó sẽ không biến mất.
 wrong_answers:
-  - Một môn học đơn giản.
-  - Một môn học vật lý.
-  - Một môn học đơn ngành.
+  - Nó sẽ bị thay thế bởi một công nghệ tốt hơn.
+  - Nó sẽ bị cấm trên toàn thế giới.
+  - Nó sẽ mất giá trị.
 explanation: |
-  Bitcoin được mô tả là một môn học đa ngành bởi vì
-  nó đặt ra các câu hỏi liên quan đến nhiều lĩnh vực, bao gồm
-  mật mã học, lý thuyết trò chơi, kinh tế và chính sách tiền tệ,
-  khoa học máy tính, triết học, năng lượng, luật và quy định.
+  Văn bản của khóa học gợi ý rằng Bitcoin sẽ không biến mất. Ngược lại, cuộc cách mạng mới chỉ bắt đầu.
 reviewed: true

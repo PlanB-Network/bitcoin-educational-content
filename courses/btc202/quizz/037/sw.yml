@@ -1,0 +1,9 @@
+question: Ni aina gani ya mashine inayowasilishwa kama maelewano bora kwa nodi ya nyumbani ya Bitcoin?
+answer: Kompyuta ndogo ya aina ya NUC
+wrong_answers:
+  - Kompyuta ya Laptop
+  - Kompyuta kubwa
+  - Console ya michezo
+explanation: |
+  Kompyuta ndogo (NUC, Tiny, OptiPlex Micro...) zina matumizi ya chini ya nishati, zinategemewa na ni rahisi kubadilika, na kuzifanya kuwa maelewano bora.
+reviewed: true

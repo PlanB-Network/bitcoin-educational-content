@@ -1,0 +1,9 @@
+question: Koja je glavna funkcija Bitcoin Wallet?
+answer: Čuvanje i upravljanje privatnim ključevima
+wrong_answers:
+  - Skladišti i upravljaj kompletnim Blockchain
+  - Proveri validnost bloka
+  - Transakcije relejne mreže
+explanation: |
+  Bitcoin Wallet upravlja privatnim ključevima koji omogućavaju trošenje bitkoina, ali ne obavlja funkcije čvora.
+reviewed: true

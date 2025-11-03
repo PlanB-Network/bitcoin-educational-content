@@ -1,0 +1,9 @@
+question: Qui maintient les serveurs DNS seeds utilisés pour la découverte initiale des pairs ?
+answer: Des développeurs de l’écosystème
+wrong_answers:
+  - Les fournisseurs d’accès Internet
+  - Satoshi Nakamoto
+  - Les pools de minage
+explanation: |
+  Les DNS seeds sont maintenus par des développeurs reconnus (Wuille, Corallo, Dashjr, etc.) et fournissent des IP de nœuds actifs pour amorcer les connexions.
+reviewed: false

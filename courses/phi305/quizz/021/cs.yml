@@ -1,0 +1,9 @@
+question: René Descartes?
+answer: Předchází Spinozovi.
+wrong_answers:
+  - Je dědicem Spinozy.
+  - Je švýcarský filozof.
+  - Je ateistický filozof.
+explanation: |
+  René Descartes (1596-1650) předcházel Spinozovi a je považován za otce moderního racionalismu. Spinoza byl Descartem ovlivněn, ale vytvořil filozofický systém, který se od karteziánství výrazně lišil.
+reviewed: false

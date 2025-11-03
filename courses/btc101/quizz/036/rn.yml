@@ -1,0 +1,12 @@
+question: Ni inzira iyihe y’amateka inzego zikurikiye mu gushiramwo amafaranga y’amahera (fiat currencies)?
+answer: Abarongozi barashira hamwe inzahabu maze bagashiraho amahera mashasha angana n’agaciro k’inzahabu, hanyuma buhorobuhoro akagabanuka.
+wrong_answers:
+  - Abarongozi barazana amahera mashasha ashigikiwe n’inzahabu, hanyuma buhorobuhoro akagira agaciro.
+  - Abarongozi barazana amafaranga mashasha ata gaciro k’imbere, hanyuma akagenda arushirizaho agaciro.
+  - Abarongozi barazana amahera mashasha ashigikiwe n’igiseke c’ibicuruzwa, hanyuma akaguma afise agaciro kadahinduka.
+explanation: |
+  Mu mateka, abarongozi barashize hamwe inzahabu maze barazana .
+  amafaranga mashasha angana n’agaciro k’inzahabu. Iyi nshasha
+  amafaranga aca agabanuka buhorobuhoro, kenshi na kenshi mu kwiyoberanya .
+  vyo kuba mu nyungu z’abantu.
+reviewed: true

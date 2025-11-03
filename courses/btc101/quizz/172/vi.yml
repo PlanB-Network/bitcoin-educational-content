@@ -1,15 +1,10 @@
-question: Sự khác biệt chính giữa kinh tế Keynes và kinh tế Áo về hệ thống tiền tệ là gì?
-
-answer: Kinh tế Keynes không tính đến các khía cạnh thời gian và động của tình huống và nguồn lực.
-
+question: Một trong những lý do tại sao Bitcoin trải qua nhiều bong bóng đầu cơ là gì?
+answer: Bởi vì Bitcoin là một loại tiền tệ được sử dụng khắp nơi trên thế giới.
 wrong_answers:
-  - Kinh tế Keynes thúc đẩy việc tiêu thụ quá mức các loại tiền tệ.
-  - Kinh tế Keynes nhận thức được sự khan hiếm của tình huống và nguồn lực.
-  - Kinh tế Keynes khuyến khích lạm phát.
-
+  - Bởi vì Bitcoin thực sự không được sử dụng ở bất cứ đâu.
+  - Bởi vì Bitcoin là một bong bóng sẽ biến mất.
+  - Bởi vì Bitcoin không chịu sự ảnh hưởng của chu kỳ kinh tế.
 explanation: >-
-  Sự khác biệt chính giữa ý tưởng của kinh tế Keynes và kinh tế Áo liên quan đến hệ thống tiền tệ là kinh tế Keynes không
-  tính đến các khía cạnh thời gian và động của tình huống và nguồn lực. Nói cách khác, một loại tiền tệ không giới hạn không thể
-  phản ánh một cách hiệu quả nguồn lực hạn chế của hành tinh chúng ta.
-
+  Bitcoin trải qua nhiều bong bóng đầu cơ bởi vì đó là một loại tiền tệ
+  thực sự được sử dụng khắp nơi trên thế giới.
 reviewed: true

@@ -1,9 +1,10 @@
-question: Mitä lompakon mnemonisen lauseen puuttuminen osoittaa?
-answer: Se osoittaa, että lompakko ei ole turvallinen pitkäaikaista Bitcoinien säilytystä varten.
+question: Mikä on notaarin rooli Bitcoin-perinnön yhteydessä?
+answer: He varmistavat verotuksen noudattamisen.
 wrong_answers:
-  - Se osoittaa, että lompakko on täysin turvallinen eikä vaadi mitään varmuuskopiointia.
-  - Se tarkoittaa, että lompakko voi pitää sisällään monia erilaisia obligaatioita.
-  - Se vihjaa, että lompakko varmuuskopioidaan automaattisesti laitteellasi.
+  - He hallinnoivat bitcoinejasi kuolemasi jälkeen.
+  - He muokkaavat perintösuunnitelmaasi.
+  - He turvaavat bitcoinejasi tallelokeroon.
 explanation: |
-  Mnemonisen lauseen, eli 12 tai 24 sanan listan, puuttuminen lompakosta tulisi herättää huolesi, sillä se osoittaa, että lompakko ei ole turvallinen, koska se ei noudata standardin mukaisia varmuuskopiointimenettelyjä.
-reviewed: true
+  Bitcoin-perinnön yhteydessä on tärkeää
+  keskustella bitcoinejen perimisestä notaarin kanssa varmistaakseen
+  verotuksen noudattamisen.

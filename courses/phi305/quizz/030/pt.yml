@@ -1,0 +1,9 @@
+question: Quem disse que "o homem não é um império dentro de um império"?
+answer: Spinoza.
+wrong_answers:
+  - Descartes.
+  - Einstein.
+  - Saint-Augustin.
+explanation: |
+  Foi Spinoza quem afirmou que "o homem não é um império dentro de um império". Esta frase exprime a ideia de que o homem não está separado da natureza, mas é parte integrante dela, sujeito às mesmas leis.
+reviewed: false

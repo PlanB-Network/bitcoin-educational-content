@@ -8,4 +8,4 @@ Gebatchte bestedingen zijn een bestedingstechniek die voornamelijk wordt gebruik
 ![](../../dictionnaire/assets/8.webp)
 
 
-> in het Frans kan "gebundelde uitgaven" worden vertaald als "dépense groupée"*
+> in het Frans kan "gebundelde uitgaven" worden vertaald als "dépense groupée"

@@ -1,0 +1,9 @@
+question: Bitcoin nodi ni nini?
+answer: Kompyuta inayoendesha programu inayotekeleza itifaki ya Bitcoin
+wrong_answers:
+  - Hardware Wallet inayotekeleza mtandao wa Bitcoin
+  - Miner inazalisha vitalu vipya vya Bitcoin
+  - Seva kuu inayosimamia mtandao wa Bitcoin na uthibitishaji wa muamala
+explanation: |
+  Nodi ya Bitcoin ni programu inayoendesha kompyuta, kama vile Bitcoin core, inayotekeleza itifaki na kushiriki katika mtandao wa Bitcoin.
+reviewed: true

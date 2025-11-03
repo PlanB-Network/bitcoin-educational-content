@@ -3,7 +3,7 @@ name: RGB
 description: Introdução e criação de ativos no RGB
 ---
 
-![RGB vs Ethereum](assets/0.webp)
+![cover](assets/cover.webp)
 
 ## Introdução
 

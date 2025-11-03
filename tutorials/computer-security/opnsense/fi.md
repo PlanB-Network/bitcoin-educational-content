@@ -56,55 +56,55 @@ Seuraavassa on joitakin OPNsensen tärkeimpiä ominaisuuksia:
 
 
 
-- Palomuuri ja NAT**: OPNsense tarjoaa kehittyneet tilatietoiset palomuuritoiminnot, joissa on tilatietoinen suodatus sekä verkon Address-käännösominaisuudet (NAT).
+- **Palomuuri ja NAT**: OPNsense tarjoaa kehittyneet tilatietoiset palomuuritoiminnot, joissa on tilatietoinen suodatus sekä verkon Address-käännösominaisuudet (NAT).
 
 
 
 
 
-- DNS/DHCP**: OPNsense voidaan määrittää hallitsemaan DNS- ja DHCP-palveluja verkossa. Se voi toimia DHCP-palvelimena, mutta sitä voidaan käyttää myös DNS-resolverina lähiverkon koneille. Myös Dnsmasq on oletusarvoisesti integroitu.
+- **DNS/DHCP**: OPNsense voidaan määrittää hallitsemaan DNS- ja DHCP-palveluja verkossa. Se voi toimia DHCP-palvelimena, mutta sitä voidaan käyttää myös DNS-resolverina lähiverkon koneille. Myös Dnsmasq on oletusarvoisesti integroitu.
 
 
 
 
 
-- VPN**: OPNsense tukee useita VPN-protokollia, mukaan lukien IPsec, OpenVPN ja WireGuard, mikä mahdollistaa turvalliset yhteydet etäkäyttöön liikkuviin työasemiin tai toimipisteiden väliseen yhteyteen.
+- **VPN**: OPNsense tukee useita VPN-protokollia, mukaan lukien IPsec, OpenVPN ja WireGuard, mikä mahdollistaa turvalliset yhteydet etäkäyttöön liikkuviin työasemiin tai toimipisteiden väliseen yhteyteen.
 
 
 
 
 
-- Verkkovälityspalvelin**: OPNsense sisältää web-välityspalvelimen, jolla voidaan valvoa ja suodattaa Internet-yhteyksiä. Sitä voidaan käyttää myös sisällön suodattamiseen ja verkkokäytön hallintaan.
+- **Verkkovälityspalvelin**: OPNsense sisältää web-välityspalvelimen, jolla voidaan valvoa ja suodattaa Internet-yhteyksiä. Sitä voidaan käyttää myös sisällön suodattamiseen ja verkkokäytön hallintaan.
 
 
 
 
 
-- Kaistanleveyden hallinta (QoS)**: OPNsense tarjoaa QoS (Quality of Service) -hallintaominaisuuksia, joilla voidaan priorisoida verkkoliikennettä ja hallita paremmin verkon kaistanleveyttä.
+- **Kaistanleveyden hallinta (QoS)**: OPNsense tarjoaa QoS (Quality of Service) -hallintaominaisuuksia, joilla voidaan priorisoida verkkoliikennettä ja hallita paremmin verkon kaistanleveyttä.
 
 
 
 
 
-- Captive portal**: Tämän ominaisuuden avulla voit hallita käyttäjien pääsyä verkkoon todennussivun kautta (paikallinen pohja, tositteet jne.). Tämä ominaisuus otetaan yleisesti käyttöön julkisissa Wi-Fi-verkoissa.
+- **Captive portal**: Tämän ominaisuuden avulla voit hallita käyttäjien pääsyä verkkoon todennussivun kautta (paikallinen pohja, tositteet jne.). Tämä ominaisuus otetaan yleisesti käyttöön julkisissa Wi-Fi-verkoissa.
 
 
 
 
 
-- IDS/IPS**: OPNsense integroi Suricatan tarjoamaan tunkeutumisen havaitsemis- ja estotoimintoja (IDS/IPS) verkon suojaamiseksi hyökkäyksiltä.
+- **IDS/IPS**: OPNsense integroi Suricatan tarjoamaan tunkeutumisen havaitsemis- ja estotoimintoja (IDS/IPS) verkon suojaamiseksi hyökkäyksiltä.
 
 
 
 
 
-- Korkea käytettävyys (CARP)**: OPNsense tukee CARP-protokollaa (*Common Address Redundancy Protocol*) useiden OPNsense-palomuurien välistä korkeaa käytettävyyttä varten, mikä varmistaa, että palvelu pysyy aktiivisena myös laitteistovian sattuessa.
+- **Korkea käytettävyys (CARP)**: OPNsense tukee CARP-protokollaa (*Common Address Redundancy Protocol*) useiden OPNsense-palomuurien välistä korkeaa käytettävyyttä varten, mikä varmistaa, että palvelu pysyy aktiivisena myös laitteistovian sattuessa.
 
 
 
 
 
-- Raportointi ja seuranta**: OPNsense tarjoaa reaaliaikaisia raportointi- ja seurantatyökaluja verkon suorituskyvyn seuraamiseen (NetFlow:n avulla) ja mahdollisten ongelmien havaitsemiseen lokien luomisen ansiosta. Tämä sisältää grafiikkaa. Monit-työkalu on integroitu OPNsenseen ja mahdollistaa itse palomuurin valvonnan.
+- **Raportointi ja seuranta**: OPNsense tarjoaa reaaliaikaisia raportointi- ja seurantatyökaluja verkon suorituskyvyn seuraamiseen (NetFlow:n avulla) ja mahdollisten ongelmien havaitsemiseen lokien luomisen ansiosta. Tämä sisältää grafiikkaa. Monit-työkalu on integroitu OPNsenseen ja mahdollistaa itse palomuurin valvonnan.
 
 
 
@@ -179,11 +179,11 @@ Tavoitteenamme on
 
 
 
-- Luo sisäinen virtuaaliverkko (192.168.10.0/24 - LAN)**, josta pääsee Internetiin OPNsense-palomuurin kautta. Tuotantokäytössä tämä voi olla lähiverkko, kaapeli ja/tai Wi-Fi.
-- Aktivoi ja määritä NAT**, jotta sisäisen virtuaaliverkon VM:t voivat käyttää Internetiä
-- Aktivoi ja määritä OPNsensen** DHCP-palvelin jakamaan IP-konfiguraatio sisäiseen virtuaaliverkkoon liitetyille tuleville koneille
-- Määritä palomuuri** siten, että se sallii vain lähtevät lähiverkosta WANiin suuntautuvat HTTP- (80) ja HTTPS-virrat (443).
-- Määritä palomuuri** sallimaan virtuaalisen lähiverkon käyttää OPNsenseä DNS-resolverina (53).
+- Luo sisäinen virtuaaliverkko (192.168.10.0/24 - LAN), josta pääsee Internetiin OPNsense-palomuurin kautta. Tuotantokäytössä tämä voi olla lähiverkko, kaapeli ja/tai Wi-Fi.
+- Aktivoi ja määritä **NAT**, jotta sisäisen virtuaaliverkon VM:t voivat käyttää Internetiä
+- Aktivoi ja määritä **OPNsensen** DHCP-palvelin jakamaan IP-konfiguraatio sisäiseen virtuaaliverkkoon liitetyille tuleville koneille
+- Määritä **palomuuri** siten, että se sallii vain lähtevät lähiverkosta WANiin suuntautuvat HTTP- (80) ja HTTPS-virrat (443).
+- Määritä **palomuuri** sallimaan virtuaalisen lähiverkon käyttää OPNsenseä DNS-resolverina (53).
 
 
 
@@ -257,7 +257,7 @@ Tämän jälkeen pääset alla olevan kaltaiseen Interface:een. Kirjaudu sisää
 
 
 
-Näyttöön tulee uusi ohjattu toiminto. Ensimmäinen vaihe on valita kokoonpanoasi vastaava näppäimistöasettelu. Jos kyseessä on AZERTY-näppäimistö, valitse luettelosta vaihtoehto "**French (accent keys)**" ja kaksoisnapsauta sitten**.
+Näyttöön tulee uusi ohjattu toiminto. Ensimmäinen vaihe on valita kokoonpanoasi vastaava näppäimistöasettelu. Jos kyseessä on AZERTY-näppäimistö, valitse luettelosta vaihtoehto **French (accent keys)** ja kaksoisnapsauta sitten.
 
 
 
@@ -382,7 +382,7 @@ pfctl -d
 
 
 
-OPNsense Administration Interface:een pääsee käsiksi HTTPS:n kautta käyttämällä LAN** Interface:n (tai WAN:n) IP Address:ää. Selain vie sinut kirjautumissivulle. Kirjaudu sisään aiemmin valitsemallasi "root"-tilillä ja salasanalla.
+OPNsense Administration Interface:een pääsee käsiksi HTTPS:n kautta käyttämällä **LAN Interface:n** (tai WAN:n) IP Address:ää. Selain vie sinut kirjautumissivulle. Kirjaudu sisään aiemmin valitsemallasi "root"-tilillä ja salasanalla.
 
 
 
@@ -566,7 +566,7 @@ Tästä saadaan seuraava tulos:
 
 
 
-Nyt on enää napsautettava "**Valtaa muutokset**", jotta uudet palomuurisäännöt siirtyvät tuotantoon. **Huomaa, että kaikki virrat, joita ei ole nimenomaisesti valtuutettu, estetään oletusarvoisesti
+Nyt on enää napsautettava "**Valtaa muutokset**", jotta uudet palomuurisäännöt siirtyvät tuotantoon. **Huomaa, että kaikki virrat, joita ei ole nimenomaisesti valtuutettu, estetään oletusarvoisesti.**
 
 
 

@@ -1,0 +1,9 @@
+question: Bitcoin core imeandikwa kwa lugha gani ya programu?
+answer: C++
+wrong_answers:
+  - Nenda
+  - JavaScript
+  - Rust
+explanation: |
+  Bitcoin core imeandikwa katika C++ na kudumishwa na jumuiya kubwa ya chanzo huria.
+reviewed: true

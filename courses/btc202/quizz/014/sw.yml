@@ -1,0 +1,9 @@
+question: Je, programu asili ya Bitcoin ilichanganya nini mwaka wa 2009?
+answer: Wallet, upinde, na mdogo
+wrong_answers:
+  - Nodi, Miner, na Block explorer
+  - Wallet, chopper, na Miner
+  - Miner na Mining pool
+explanation: |
+  Programu asilia ya Bitcoin iliunganisha Wallet, nodi, na kazi za Miner katika programu moja.
+reviewed: true

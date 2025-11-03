@@ -1,0 +1,9 @@
+question: Welke gegevensstructuur vat de transacties in een blok samen?
+answer: De Merkle Tree
+wrong_answers:
+  - De Hash UTXO tabel
+  - Het bestand peers.dat
+  - Het register assumeutxo
+explanation: |
+  De transacties in een blok worden vastgelegd in een Merkle Tree, waarvan de root is opgenomen in de koptekst van het blok om de integriteit van het blok te waarborgen.
+reviewed: true

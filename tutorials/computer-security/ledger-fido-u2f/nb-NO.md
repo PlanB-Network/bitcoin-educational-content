@@ -1,5 +1,5 @@
 ---
-name: Ledger U2F & FIDO2
+name: "Ledger U2F & FIDO2"
 description: Forbedre nettsikkerheten din med Ledger
 ---
 ![cover](assets/cover.webp)
@@ -22,7 +22,7 @@ I denne veiledningen viser vi deg hvordan du aktiverer U2F og FIDO2 for tofaktor
 
 
 
-**U2F og FIDO2 støttes på alle Ledger-enheter som er utstyrt med nyere fastvare: fra versjon 2.1.0 for Nano X og Nano S classic, og fra versjon 1.1.0 for Nano S Plus. Stax- og Flex-modellene er opprinnelig kompatible.
+**U2F og FIDO2 støttes på alle Ledger-enheter som er utstyrt med nyere fastvare: fra versjon 2.1.0 for Nano X og Nano S classic, og fra versjon 1.1.0 for Nano S Plus. Stax- og Flex-modellene er opprinnelig kompatible.**
 
 
 
@@ -180,4 +180,4 @@ Jeg vil også anbefale denne andre veiledningen, der vi ser på en annen løsnin
 
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e

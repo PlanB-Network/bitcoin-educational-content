@@ -1,11 +1,11 @@
-question: En comparaison avec les monnaies fiduciaires, comment est perçu le Bitcoin ?
-answer: Comme une économie parallèle.
+question: Qu'est-ce que OpenNode ?
+answer: Une solution en ligne simple pour que les entreprises acceptent le Bitcoin.
 wrong_answers:
-  - Comme une économie de remplacement.
-  - Comme une économie industrielle.
-  - Comme une économie tertiaire.
+  - Un type de nœud Bitcoin qui est utilisé simultanément par de nombreux utilisateurs.
+  - Un logiciel de minage de Bitcoin qui est open-source.
+  - Une plateforme d'échange de Bitcoin.
 explanation: >-
-  Le Bitcoin est considéré comme une économie parallèle aux monnaies fiduciaires, ce qui signifie qu'il
-  fonctionne à côté des économies traditionnelles et peut être utilisé pour des transactions directement,
-  sans avoir besoin de passer par une plateforme d'échange.
+  OpenNode est une solution en ligne simple pour que les entreprises acceptent le Bitcoin.
+  Parmi les autres solutions, on trouve Swiss Bitcoin Pay pour les commerçants amateurs et BTCpay Server
+  pour les grandes structures ou les passionnés de Bitcoin.
 reviewed: true

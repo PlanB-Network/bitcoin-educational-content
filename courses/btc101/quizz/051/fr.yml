@@ -1,10 +1,11 @@
-question: Quel est l'impact d'une inflation de 2% sur le pouvoir d'achat sur 5 ans ?
-answer: Vous perdez 10% de votre pouvoir d'achat.
+question: Que s'est-il passé avec le dollar zimbabwéen en avril 2009 ?
+answer: Le Ministre des Finances a annoncé la suspension du dollar zimbabwéen et a autorisé l'utilisation de différentes devises étrangères pour le commerce.
 wrong_answers:
-  - Vous perdez 2% de votre pouvoir d'achat.
-  - Vous perdez 5% de votre pouvoir d'achat.
-  - Vous perdez 20% de votre pouvoir d'achat.
+  - Le dollar zimbabwéen a chuté de plus de 72%.
+  - Le gouvernement a accepté de compenser les vétérans de guerre pour un montant équivalent à 450 millions de dollars américains.
+  - Le gouvernement a dû recourir à l'utilisation de la planche à billets.
 explanation: |
-  Avec une inflation de 2%, vous perdez 2% de votre pouvoir d'achat
-  annuellement, ce qui équivaut à 10% sur 5 ans.
+  En avril 2009, le Ministre des Finances a annoncé la
+  suspension du dollar zimbabwéen et a autorisé l'utilisation
+  de différentes devises étrangères pour le commerce.
 reviewed: true

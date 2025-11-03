@@ -1,0 +1,9 @@
+question: ¿Qué debate suscita el terremoto de Lisboa?
+answer: Los hombres pueden y deben hacerse cargo de sus propias vidas.
+wrong_answers:
+  - La naturaleza es responsable.
+  - Los hombres deben temer a la Naturaleza.
+  - La naturaleza es incomprensible.
+explanation: |
+  El terremoto de Lisboa (1755) suscitó la idea de que los ciudadanos podían y debían tomar las riendas de la situación. Este acontecimiento puso en tela de juicio la providencia divina y fomentó una visión más humanista y racionalista del mundo.
+reviewed: false

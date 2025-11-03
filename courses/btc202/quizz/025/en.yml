@@ -1,0 +1,9 @@
+question: When is a pruned knot a problem for a wallet?
+answer: When restoring an old wallet
+wrong_answers:
+  - When creating a new reception address
+  - When sending a recent transaction
+  - When selecting the fee amount
+explanation: |
+  A pruned node does not retain old blocks, which may prevent past transactions from being scanned during restoration.
+reviewed: true

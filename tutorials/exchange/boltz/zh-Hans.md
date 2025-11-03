@@ -1,5 +1,5 @@
 ---
-name: 博尔茨
+name: Boltz
 description: 在不同的 Bitcoin 层之间切换，同时保持控制。
 ---
 
@@ -25,10 +25,10 @@ description: 在不同的 Bitcoin 层之间切换，同时保持控制。
 
 
 
-- on chain**：Bitcoin 的主链平均每 10 分钟确认一次交易，交易费用往往很高，不一定能满足用户的需求；
-- Lightning Network**：Bitcoin 覆盖层可实现即时支付，费用低廉，Bitcoin 可用于日常支付；
-- Liquid Network**：由 Blockstream 创建的 Bitcoin 覆盖层，可实现快速、Confidential Transactions 和使用其他基于 Bitcoin 的金融工具；
-- RootStock**：基于 Bitcoin 协议开发智能合约的解决方案。
+- **on chain**：Bitcoin 的主链平均每 10 分钟确认一次交易，交易费用往往很高，不一定能满足用户的需求；
+- **Lightning Network**：Bitcoin 覆盖层可实现即时支付，费用低廉，Bitcoin 可用于日常支付；
+- **Liquid Network**：由 Blockstream 创建的 Bitcoin 覆盖层，可实现快速、Confidential Transactions 和使用其他基于 Bitcoin 的金融工具；
+- **RootStock**：基于 Bitcoin 协议开发智能合约的解决方案。
 
 
 
@@ -54,7 +54,7 @@ Boltz 使用原子交换技术。这项技术使比特币可以在两层之间�
 
 
 
-原子 Exchange 与智能合约 [HTLC](https://planb.network/resources/glossary/HTLC)（*Hashed Timelock Contract*）协同工作。在这种类型的 Contract 中，金额被 "锁定 "在一个双向通道中，并引入了时间限制，因此如果交易在一定时间内未完成，余额将归还给存款人。这就是 Boltz 平台使用的机制。
+原子 Exchange 与智能合约 [HTLC](https://planb.academy/resources/glossary/htlc)（*Hashed Timelock Contract*）协同工作。在这种类型的 Contract 中，金额被 "锁定 "在一个双向通道中，并引入了时间限制，因此如果交易在一定时间内未完成，余额将归还给存款人。这就是 Boltz 平台使用的机制。
 
 
 
@@ -116,9 +116,9 @@ Boltz 是一个非存款网络平台，不需要您提供任何个人信息。Bo
 
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
-https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
+https://planb.academy/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
 
 ![swap](assets/fr/07.webp)
 
@@ -152,9 +152,9 @@ https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9e
 
 
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
 付款确认后，您将自动收到 Lightning Wallet 上的等值金额。
 
@@ -188,6 +188,6 @@ Boltz 通过 Tor 网络上的".ion "链接为您提供高度保密性。在浏�
 
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 Boltz 是一个独特的 Exchange 平台，可实现 Bitcoin 生态系统各层之间的互操作性。

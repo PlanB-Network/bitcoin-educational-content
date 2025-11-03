@@ -1,0 +1,9 @@
+question: Quelle est la spécificité d’un nœud élagué par rapport à un nœud complet ?
+answer: Il supprime progressivement les anciens blocs
+wrong_answers:
+  - Il ne valide pas les transactions les plus anciennes
+  - Il ne peut pas relayer les blocs entiers
+  - Il ne conserve aucune copie locale de la blockchain, uniquement l'UTXO set
+explanation: |
+  Le nœud élagué valide toute la chaîne mais ne conserve qu’une partie récente des blocs afin de limiter son stockage.
+reviewed: false

@@ -1,9 +1,8 @@
-question: Jaka jest dostępność Bitcoin online od 2009 roku?
-answer: 99.988%.
+question: Czym jest Bitcoin Blockchain?
+answer: Publiczny i niezmienny Ledger wszystkich transakcji Bitcoin.
 wrong_answers:
-  - 100%.
-  - 90.009%.
-  - 80.17%.
-explanation: |
-  Dostępność Bitcoin online wynosi 99,988% od 2009 roku.
+  - Prywatny i zmienny Ledger wszystkich transakcji Bitcoin.
+  - Publiczny i zmienny Ledger wszystkich transakcji Bitcoin.
+  - Prywatny i niezmienny Ledger wszystkich transakcji Bitcoin.
+explanation: >-
 reviewed: true

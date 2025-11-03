@@ -1,131 +1,20 @@
 id: 76d6bf36-f4b5-422e-8579-edf149021525
-
-level: intermediate
-
+professor_id: 81a82a0f-3003-4459-9d6a-67f860efb20e
+level: beginner
 category: point-of-sale
-
 project_id: 41c4621e-7411-42a8-9ef9-90c29e19b76a
-original_language: en
-proofreading:
-  - language: cs
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 2.98
-  - language: de
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 2.26
-  - language: en
-    last_contribution_date: 2024-09-01
-    urgency: 1
-    contributor_names:
-      - Asi0Flammeus
-    reward: 1.13
-  - language: es
-    last_contribution_date: '2025-08-18'
-    urgency: 1
-    contributor_names:
-      - Salgraphics
-    reward: 1.13
-  - language: fi
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 2.98
-  - language: fr
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 2.26
-  - language: it
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 2.26
-  - language: ja
-    last_contribution_date: 2025-05-14
-    urgency: 1
-    contributor_names:
-      - yutaro21jp
-    reward: 2.21
-  - language: pt
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 2.26
-  - language: ru
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 2.98
-  - language: vi
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 4.41
-  - language: et
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 2.98
-  - language: id
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 3.69
-  - language: zh-Hans
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 3.69
-  - language: nb-NO
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 2.98
-  - language: hi
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 5.13
-  - language: pl
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 2.98
-  - language: sr-Latn
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 2.98
-  - language: sw
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 2.98
-  - language: zh-Hant
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 3.69
-  - language: fa
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 2.98
-  - language: sv
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 2.26
-  - language: nl
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 2.98
 tags:
   - guides
   - adoption
   - wallets
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-10-03
+    urgency: 1
+    contributor_names:
+      - heyolaniran
+    reward: 0

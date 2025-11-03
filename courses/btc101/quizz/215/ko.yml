@@ -1,0 +1,8 @@
+question: Bitcoin의 확장성 문제는 무엇인가요?
+answer: 화폐 시스템이 도입됨에 따라 초당 트랜잭션 수가 계속 증가함에 따라 이를 처리할 수 있는 화폐 시스템을 구현해야 하는 과제를 안고 있습니다.
+wrong_answers:
+  - 시간이 지남에 따라 가치가 상승하는 Mining 신규 비트코인의 난이도.
+  - Bitcoin의 가격 변동성은 Halving마다 증가합니다.
+  - Bitcoin에 대한 규정이 없어 거래가 불법이 될 수 있습니다.
+explanation: >-
+reviewed: true

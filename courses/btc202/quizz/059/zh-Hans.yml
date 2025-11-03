@@ -1,0 +1,9 @@
+question: 远程访问 Bitcoin core 的最佳方式是什么？
+answer: 公开 RPC 端口
+wrong_answers:
+  - 使用 Tor
+  - 使用 VPN
+  - 暴露 Electrum 服务器
+explanation: |
+  未经加密的 RPC 端口会带来很大的安全风险。最好使用 Tor 或 VPN。
+reviewed: true

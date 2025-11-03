@@ -1,0 +1,9 @@
+question: Welk type apparatuur wordt tegenwoordig gebruikt om Bitcoin efficiënt te ontginnen?
+answer: ASIC
+wrong_answers:
+  - Klassieke CPU
+  - GPU
+  - FPGA
+explanation: |
+  Tegenwoordig wordt Bitcoin Mining uitgevoerd met behulp van ASIC's. Dit zijn gespecialiseerde chips voor het SHA-256 algoritme.
+reviewed: true

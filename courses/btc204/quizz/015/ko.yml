@@ -1,0 +1,9 @@
+question: Blockchain 분석의 3가지 주요 단계는 무엇인가요?
+answer: Blockchain을 관찰하고, 특성을 파악하고, 가설을 추론합니다.
+wrong_answers:
+  - 데이터 수집, 안전한 저장 및 보고.
+  - 사용자 식별, 거래소 규제, 사기 방지.
+  - 데이터 수집, 무작위 선택 및 폐기.
+explanation: |
+  Blockchain 분석은 먼저 Bitcoin Blockchain 데이터에 액세스한 다음, 이 데이터의 특성을 파악하고 마지막으로 그럴듯한 해석을 시도하는 과정을 거칩니다.
+reviewed: true

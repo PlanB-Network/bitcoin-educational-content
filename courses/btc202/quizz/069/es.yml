@@ -1,0 +1,9 @@
+question: ¿Cuál es el principal riesgo que supone la acumulación de Dust en tu mini PC?
+answer: Ralentización del procesador
+wrong_answers:
+  - Supresión del bloque Blockchain
+  - Corrupción de disco
+  - Capacidad de RAM reducida
+explanation: |
+  Dust bloquea la ventilación, causa sobrecalentamiento y provoca estrangulamiento, reduciendo la eficiencia del procesador.
+reviewed: true

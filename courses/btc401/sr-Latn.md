@@ -1,11 +1,11 @@
 ---
 name: Bitcoin Development Accelerator
-goal: Nabavite sve osnove za početak razvoja na Bitcoin
+goal: Steknite sve osnove za početak razvoja na Bitcoin
 objectives: 
 
   - Razumeti osnovne pojmove i tehnologiju koja podržava Bitcoin.
-  - Steknite praktične veštine u Bitcoin bezbednosti, razvoju softvera i upravljanju mrežama.
-  - Razvijte majstorstvo Lightning Network i njegovih povezanih protokola.
+  - Steknite praktične veštine u Bitcoin bezbednosti, razvoju softvera i upravljanju mrežom.
+  - Razvijte majstorstvo nad Lightning Network i njegovim povezanim protokolima.
 
 ---
 
@@ -37,8 +37,7 @@ Uživaj!
 
 :::video id=9b6aa5cf-245e-4a66-b3b8-c4860ab51e90:::
 
-
-Filippo i Mario pružaju uvodni govor o CUBO+ 2023, postavljajući osnovu za sveobuhvatno putovanje učenja koje predstoji. Oni raspravljaju o strukturi kurseva, ishodima učenja i kako će to osnažiti studente u razvoju Bitcoin prostora.
+Filippo i Mario pružaju uvodni govor o CUBO+ 2023, postavljajući osnovu za sveobuhvatno putovanje učenja koje predstoji. Oni raspravljaju o strukturi kurseva, ishodima učenja i kako će to osnažiti studente u prostoru razvoja Bitcoin.
 
 
 ### Ciljevi
@@ -56,7 +55,7 @@ Od učesnika se očekuje da donesu snažan osećaj radoznalosti, želju za učen
 #### Alati
 
 
-Tokom kursa, učesnici će koristiti ključne alate koji će pomoći njihovom razumevanju i poboljšati njihovo iskustvo učenja. Korišćenje Linux-a, komandne linije Interface, GitHub-a i Docker-a biće integralno za pružanje praktičnog pristupa razvoju Bitcoin. Ovi alati će olakšati rad sa Bitcoin softverskim stekom, upravljanje razvojnim okruženjima i saradnju na projektima u stvarnom okruženju.
+Tokom kursa, učesnici će koristiti ključne alate koji će im pomoći u razumevanju i poboljšati njihovo iskustvo učenja. Upotreba Linux-a, komandne linije Interface, GitHub-a i Docker-a biće integralna za pružanje praktičnog pristupa razvoju Bitcoin. Ovi alati će olakšati rad sa softverskim paketom Bitcoin, upravljanje razvojnim okruženjima i saradnju na projektima u stvarnom okruženju.
 
 
 ## Zašto Bitcoin
@@ -65,21 +64,20 @@ Tokom kursa, učesnici će koristiti ključne alate koji će pomoći njihovom ra
 <chapterId>89a0aa8b-90bd-58b2-82b3-bc5e1f82eaeb</chapterId>
 
 
-### Zašto El Salvador treba Bitcoin
+### Zašto je Salvadoru potreban Bitcoin
 
 
 :::video id=ff820fb2-83d4-450f-bda0-17cc5044a902:::
 
-
 Dobrodošli na prvo predavanje obrazovnog programa **Cubo Plus**. Danas zaranjamo u svet Bitcoin, pod vođstvom Rikija, osnivača **Bitcoin Italia Podcast**. Riki je strastveni aktivista za ljudska prava koji koristi Bitcoin kao alat za zaštitu i promociju ljudskih prava. Sa više od šest godina iskustva, Riki je mnogo putovao, dokumentujući usvajanje Bitcoin na tržištima u razvoju kao što su El Salvador i Gvatemala. Njegov rad prevazilazi podkasting; takođe je aktivan na YouTube-u (**Bitcoin Explorers**) i Twitter-u (**BTC Explorer**, **Ricky6**). Rikijev prelazak sa Commitment na Bitcoin proizilazi iz njegovog uverenja da nudi finansijsku slobodu i privatnost, izazivajući tradicionalne, centralizovane bankarske sisteme.
 
 
-![Unbanked Population](assets/en/1/1.webp)
+![Unbanked Population](assets/en/001.webp)
 
 _Globalna populacija bez bankovnih usluga_
 
 
-### Bitcoin: Finansijska sloboda i njen uticaj na El Salvador
+### Bitcoin: finansijska sloboda i njen uticaj na El Salvador
 
 
 Ovo predavanje, **"Zašto El Salvador treba Bitcoin,"** pruža pregled **Bitcoin protokola**, njegovih korena u **Cypherpunk pokretu**, i njegove uloge kao alata za slobodu—omogućavajući **necenzurisani novac**, **finansijsku inkluziju**, i još mnogo toga.
@@ -90,25 +88,25 @@ Ovo predavanje, **"Zašto El Salvador treba Bitcoin,"** pruža pregled **Bitcoin
 
 > - _Bitcoin protokol:_ Pravila i struktura koja upravljaju načinom na koji Bitcoin funkcioniše kao decentralizovana digitalna valuta.
 > - _Cypherpunk pokret:_ Grupa koja se zalaže za korišćenje kriptografije kako bi se osigurala privatnost i sloboda u digitalnim prostorima.
-> - _Finansijska inkluzija:_ Omogućavanje pristupa finansijskim uslugama za ljude koji su bili isključeni iz tradicionalnih bankarskih sistema, često nazivani "nebankarima."
+> - _Finansijska inkluzija:_ Pružanje pristupa finansijskim uslugama ljudima koji su bili isključeni iz tradicionalnih bankarskih sistema, često nazivanih "nebankarizovani."
 > - _Necenzurisani novac:_ Novac koji ne može biti kontrolisan ili ograničen od strane vlada ili finansijskih institucija.
 
-#### Rickyjeva Pozadina i Zastupanje Bitcoin
+#### Rickyjeva pozadina i zagovaranje Bitcoin
 
 
 Rickyjevo putovanje u Bitcoin ukorenjeno je u njegovom radu kao zagovornika ljudskih prava. Veruje da Bitcoin može omogućiti pojedincima kontrolu nad njihovim finansijama, omogućavajući im da zaštite svoju privatnost i izbegnu ograničenja centralizovanih banaka. Njegovo istraživanje usvajanja Bitcoin u mestima kao što je El Salvador ističe kako ova tehnologija može osnažiti ljude na tržištima u razvoju da steknu finansijsku nezavisnost.
 
 
-### Globalni Značaj i Izazovi Bitcoin
+### Globalni značaj i izazovi Bitcoin
 
 
-Bitcoin je mnogo više od samo digitalne valute. To je alat za zaštitu privatnosti i osiguranje finansijske slobode. Korišćenjem **privatnih ključeva**, koji deluju kao glavni lozinke, korisnici mogu sigurno upravljati svojim Bitcoin, sa punom kontrolom nad svojim sredstvima.
+Bitcoin je mnogo više od samo digitalne valute. To je alat za zaštitu privatnosti i osiguranje finansijske slobode. Korišćenjem **privatnih ključeva**, koji deluju kao glavne lozinke, korisnici mogu sigurno upravljati svojim Bitcoin, sa potpunom kontrolom nad svojim sredstvima.
 
 
 U autoritarnim režimima, gde je finansijska represija uobičajena, **necenzurisana priroda** Bitcoin omogućava ljudima da obavljaju transakcije bez straha da će njihova sredstva biti zamrznuta ili konfiskovana. Njegova **open-source** priroda podstiče globalno učešće, negujući zajednicu koja kontinuirano unapređuje mrežu.
 
 
-![Image](assets/en/1/4.webp)
+![Image](assets/en/002.webp)
 
 
 Uprkos svom potencijalu, Bitcoin se suočava sa značajnim izazovima. U oblastima kao što su Afrika i Indija, osnovna infrastruktura poput električne energije i pristupa internetu često nedostaje, što ograničava usvajanje. Štaviše, **digitalna inkluzija**—osiguravanje da ljudi svih uzrasta i nivoa obrazovanja mogu koristiti tehnologiju—ostaje velika prepreka.
@@ -126,7 +124,7 @@ Uprkos svom potencijalu, Bitcoin se suočava sa značajnim izazovima. U oblastim
 Odluka El Salvadora da usvoji Bitcoin kao zakonsko sredstvo plaćanja pokazuje njegov transformativni potencijal. Korišćenjem Bitcoin, zemlja nastoji da privuče strana ulaganja i podstakne finansijsku stabilnost. Projekti poput **Bitcoin Beach** pokazuju kako lokalne ekonomije mogu rasti usvajanjem Bitcoin kao sredstva Exchange.
 
 
-Međutim, globalno usvajanje Bitcoin suočava se sa preprekama kao što su neznanje, otpor prema novim tehnologijama i izazovi u infrastrukturi. Put ka inkluzivnijem finansijskom sistemu—gde Bitcoin može pomoći u podizanju zemalja u razvoju—dug je, ali obećavajući. Decentralizovana i open-source priroda Bitcoin pruža nadu za budućnost u kojoj je finansijska pravednost dostupna svima.
+Međutim, globalno usvajanje Bitcoin suočava se sa preprekama kao što su neznanje, otpor prema novim tehnologijama i izazovi u infrastrukturi. Put ka inkluzivnijem finansijskom sistemu—gde Bitcoin može pomoći u podizanju zemalja u razvoju—dug je, ali obećavajući. Decentralizovana i open-source priroda Bitcoin nudi nadu za budućnost u kojoj je finansijska pravednost dostupna svima.
 
 
 #### Zaključak
@@ -141,10 +139,10 @@ Ukratko, Bitcoin ima ogroman potencijal za finansijsko osnaživanje i inkluziju,
 ![video](https://youtube.com/live/KIaC31YQLBA)
 
 
-#### Cypherpunk Pokret
+#### Cypherpunk pokret
 
 
-Pokret **Cypherpunk** pojavio se krajem 20. veka, zalažući se za privatnost i slobodu kroz kriptografiju. Pioniri poput **Erica Hughesa** i **Tima Maya** verovali su da je jaka enkripcija ključna za zaštitu lične slobode u digitalnom svetu. Njihove ideje su snažno uticale na stvaranje Bitcoin.
+Pokret **Cypherpunk** pojavio se krajem 20. veka, zalažući se za privatnost i slobodu kroz kriptografiju. Pioniri poput **Erica Hughesa** i **Tima Maya** verovali su da je jaka enkripcija ključna za zaštitu lične slobode u digitalnom svetu. Njihove ideje su u velikoj meri uticale na stvaranje Bitcoin.
 
 
 > **Definicija:**
@@ -155,13 +153,13 @@ Pokret **Cypherpunk** pojavio se krajem 20. veka, zalažući se za privatnost i 
 #### Austrijska ekonomija
 
 
-U isto vreme, **Austrijska ekonomija** je pružila osnovu za monetarne principe Bitcoin. Ekonomisti poput **Ludwig von Mises** i **Friedrich Hayek** su tvrdili da zdravi novac treba da bude oskudan, trajan i dobra čuvar vrednosti—osnovni principi koji su oblikovali dizajn Bitcoin.
+U isto vreme, **Austrijska ekonomija** je pružila osnovu za monetarne principe Bitcoin. Ekonomisti poput **Ludwig von Mises** i **Friedrich Hayek** su tvrdili da zdrava valuta treba da bude oskudna, dugotrajna i dobra za čuvanje vrednosti—osnovni principi koji su oblikovali dizajn Bitcoin.
 
 
 > **Definicija:**
 >
 
-> - _Oskudica:_ Ograničena dostupnost, stvarajući vrednost kroz potrebu za pažljivom raspodelom.
+> - _Oskudica:_ Ograničena dostupnost, stvaranje vrednosti kroz potrebu za pažljivom raspodelom.
 
 ### Kreacija Bitcoin
 
@@ -192,18 +190,18 @@ U isto vreme, **Austrijska ekonomija** je pružila osnovu za monetarne principe 
 ### Bitcoin u El Salvadoru
 
 
-Usvajanje Bitcoin u El Salvadoru odražava njegov potencijal kao alat za finansijsku slobodu, usklađujući se sa **austrijskom ekonomijom** kroz promociju dobrovoljnog usvajanja i decentralizacije. Ovaj potez izaziva tradicionalne finansijske sisteme rešavanjem ključnih pitanja: konkurencija, monopol i konfiskacija.
+Usvajanje Bitcoin u El Salvadoru odražava njegov potencijal kao alat za finansijsku slobodu, usklađujući se sa **austrijskom ekonomijom** promovisanjem dobrovoljnog usvajanja i decentralizacije. Ovaj potez izaziva tradicionalne finansijske sisteme rešavanjem ključnih pitanja: konkurencija, monopol i konfiskacija.
 
 
-![Image](assets/en/1/5.webp)
-
-
-
-- Takmičenje**: Bitcoin uvodi konkurenciju u finansijski pejzaž nudeći alternativu tradicionalnom bankarstvu, omogućavajući Salvadorcima da zaobiđu finansijske čuvare i izaberu usluge koje bolje odgovaraju njihovim potrebama.
+![Image](assets/en/003.webp)
 
 
 
-- Monopoly**: Decentralizacijom pristupa finansijama, Bitcoin razbija monopol banaka i valuta koje izdaje vlada, smanjujući oslanjanje na centralizovane institucije i podstičući finansijsku inkluziju.
+- Takmičenje**: Bitcoin uvodi konkurenciju u finansijski pejzaž nudeći alternativu tradicionalnom bankarstvu, omogućavajući Salvadorcima da zaobiđu finansijske čuvare i izaberu usluge koje bolje zadovoljavaju njihove potrebe.
+
+
+
+- Monopoly**: Decentralizacijom finansijskog pristupa, Bitcoin razbija monopol banaka i valuta koje izdaje vlada, smanjujući oslanjanje na centralizovane institucije i podstičući finansijsku inkluziju.
 
 
 
@@ -216,7 +214,7 @@ Prihvatanje Bitcoin u El Salvadoru promoviše inkluzivniji, konkurentniji i sigu
 #### Zaključak
 
 
-Osnove Bitcoin u **pokretu Cypherpunk** i **austrijskoj ekonomiji** čine ga jedinstvenim i revolucionarnim oblikom novca. Razumevanje ovih principa pomaže u shvatanju zašto je Bitcoin stvoren i kako danas funkcioniše. Za dalje čitanje, razmotrite **The Bitcoin Standard** autora **Saifedean Ammous**.
+Osnove Bitcoin u **pokretu Cypherpunk** i **austrijskoj ekonomiji** čine ga jedinstvenim i revolucionarnim oblikom novca. Razumevanje ovih principa pomaže u shvatanju zašto je Bitcoin stvoren i kako danas funkcioniše. Za dodatno čitanje, razmotrite **The Bitcoin Standard** od **Saifedean Ammous**.
 
 
 Hvala što ste se uključili u ovaj materijal!
@@ -228,30 +226,28 @@ Hvala što ste se uključili u ovaj materijal!
 <chapterId>d800970a-0d8e-5557-810a-7aef845d4a34</chapterId>
 
 
-### Tehnološki stack Bitcoin
+### Tehnološki stog Bitcoin
 
 
 :::video id=2c008198-7f4e-4e60-87a0-0af17528ad2f:::
 
-
 Na prvom predavanju kursa 'How Bitcoin', počeli smo istraživati tehnološki stack koji podržava Bitcoin mrežu. Pokrili smo teme kao što su **Hashcash**, **transakcije**, **Blockchain**, **Lightning Network**, i druge ključne komponente Bitcoin protokola.
 
 
-### Tehnološki Stack Bitcoin, Deo 2
+### Tehnološki stack Bitcoin, deo 2
 
 
 :::video id=752343b8-aa78-4bd3-9320-efe2a7e9d88f:::
-
 Tokom drugog predavanja 'How Bitcoin', sproveli smo detaljnije ispitivanje tehnološkog stoga Bitcoin.
 
 
-### Bitcoin Struktura
+### Bitcoin struktura
 
 
 Poreklo Bitcoin zasniva se na nekoliko ključnih inovacija, počevši od **Adam Backovog Hashcash-a**, Proof-of-Work (PoW) sistema dizajniranog da spreči neželjenu poštu i napade uskraćivanjem usluge zahtevajući od pošiljalaca da izvrše računarske zadatke. Ovaj PoW koncept postao je kamen temeljac sigurnosti Bitcoin.
 
 
-Bitcoin se oslanja na **digitalne potpise** koristeći **kriptografiju eliptičkih krivih** za osiguranje i verifikaciju transakcija. **Algoritam digitalnog potpisa eliptičkih krivih (ECDSA)** osigurava da samo zakoniti vlasnik Bitcoin može autorizovati transakcije bez otkrivanja svojih privatnih ključeva.
+Bitcoin se oslanja na **digitalne potpise** koristeći **kriptografiju eliptičkih krivih** za osiguranje i verifikaciju transakcija. **Algoritam za digitalni potpis eliptičkih krivih (ECDSA)** osigurava da samo zakoniti vlasnik Bitcoin može autorizovati transakcije bez otkrivanja svojih privatnih ključeva.
 
 
 **Satoshi Nakamoto**, pseudonimni tvorac Bitcoin, proširio je ove ideje prelaskom sa PoW modela na decentralizovani **Blockchain**. Ovo je omogućilo distribuiranoj mreži čvorova da validira i beleži transakcije bez centralnog autoriteta, označavajući značajnu evoluciju u odnosu na prethodne pokušaje digitalne valute.
@@ -263,16 +259,16 @@ Bitcoin se oslanja na **digitalne potpise** koristeći **kriptografiju eliptičk
 > - _Proof-of-Work (PoW):_ Sistem gde učesnici moraju rešavati računarske zagonetke kako bi validirali transakcije i obezbedili mrežu.
 > - _Kriptografija eliptičkih krivih:_ Kriptografska metoda koja omogućava sigurne, efikasne digitalne potpise.
 
-### Blockchain Mehanika i Validacija Transakcija
+### Mehanika Blockchain i validacija transakcija
 
 
-Bitcoin transakcije validiraju i dodaju u blokove **rudari**, koji se takmiče u rešavanju kriptografskog zadatka koristeći Proof-of-Work algoritam. Ovo uključuje pronalaženje Hash sa specifičnim brojem vodećih nula podešavanjem **Nonce** vrednosti dok se ne otkrije tačan Hash.
+Transakcije Bitcoin validiraju i dodaju u blokove **rudari**, koji se takmiče u rešavanju kriptografskog zadatka koristeći algoritam Proof-of-Work. Ovo uključuje pronalaženje Hash sa specifičnim brojem vodećih nula podešavanjem vrednosti **Nonce** dok se ne otkrije tačan Hash.
 
 
 Svaki **blok** u Blockchain sastoji se od **zaglavlja** (sa podacima kao što je prethodni blokov Hash) i liste transakcija. Prvi blok, poznat kao **Genesis Blok**, je jedinstven jer nema prethodnika.
 
 
-![Image](assets/en/1/6.webp)
+![Image](assets/en/004.webp)
 
 
 Pre nego što transakcije budu uključene u blok, one se nalaze u **Mempool**, gde čekaju validaciju. Kada budu validirane, ove transakcije se dodaju u novo iskopani blok, a zatim u Blockchain.
@@ -285,22 +281,22 @@ Pre nego što transakcije budu uključene u blok, one se nalaze u **Mempool**, g
 > - _Nonce:_ Vrednost korišćena za pronalaženje ispravnog Hash tokom Mining.
 > - _Mempool:_ Čekaonica za nepotvrđene transakcije pre nego što budu dodate u blok.
 
-### Skalabilnost, Privatnost i Razvoj u Bitcoin
+### Skalabilnost, privatnost i razvoj u Bitcoin
 
 
-Bitcoin se suočava sa izazovima vezanim za skalabilnost i privatnost. Ograničeni kapacitet transakcija Blockchain otežava rukovanje velikim obimom transakcija. Rešenja poput **Lightning Network** Address ovim izazovima omogućavajući off-chain transakcije kroz platne kanale, koji povećavaju brzinu i privatnost.
+Bitcoin se suočava sa izazovima vezanim za skalabilnost i privatnost. Ograničeni kapacitet transakcija Blockchain otežava rukovanje velikim obimom transakcija. Rešenja kao što su **Lightning Network** Address ove izazove omogućavajući off-chain transakcije kroz platne kanale, što povećava brzinu i privatnost.
 
 
-Pokretanje **Full node** je ključno za osiguranje decentralizacije i bezbednosti, ali **čvorovi za pojednostavljenu verifikaciju plaćanja (SPV)** omogućavaju lakše učešće uz cenu smanjene bezbednosti.
+Pokretanje **Full node** je ključno za osiguranje decentralizacije i bezbednosti, ali **čvorovi za pojednostavljenu verifikaciju plaćanja (SPV)** omogućavaju lakše učešće uz određeni gubitak bezbednosti.
 
 
-Razvoj Bitcoin je evoluirao kako bi poboljšao performanse i sigurnost. Glavne nadogradnje uključuju **Segregated Witness (SegWit)**, koji rešava problem promenljivosti transakcija i povećava efektivnu veličinu bloka, i **Taproot**, koji poboljšava privatnost i omogućava složenije ugovore koristeći **Merkleized Abstract Syntax Trees (MAST)**.
+Razvoj Bitcoin evoluirao je kako bi poboljšao performanse i sigurnost. Glavne nadogradnje uključuju **Segregated Witness (SegWit)**, koji rešava problem promenljivosti transakcija i povećava efektivnu veličinu bloka, i **Taproot**, koji poboljšava privatnost i omogućava složenije ugovore koristeći **Merkleized Abstract Syntax Trees (MAST)**.
 
 
 > **Definicije:**
 >
 
-> - _SegWit:_ A Bitcoin nadogradnja koja odvaja podatke potpisa od podataka transakcije, poboljšavajući efikasnost.
+> - _SegWit:_ A Bitcoin nadogradnja koja odvaja podatke o potpisu od podataka o transakciji, poboljšavajući efikasnost.
 > - _Taproot:_ Nadogradnja koja poboljšava privatnost i skalabilnost Bitcoin omogućavajući složenije pametne ugovore.
 > - _Lightning Network:_ Drugo-Layer rešenje za brže, jeftinije Bitcoin transakcije korišćenjem platnih kanala.
 
@@ -321,21 +317,20 @@ Struktura i stalna evolucija Bitcoin prikazuju inovaciju i prilagodljivost njego
 
 :::video id=c5e2e575-fa9d-4430-805f-205c2cf6f2a5:::
 
-
-U ovom predavanju razotkrivamo uobičajene mitove oko **Bitcoin**, **blokčejna** i **kriptovaluta**. Hajde da Address zablude o potrošnji energije Bitcoin, kriminalnoj upotrebi i širem "FUD" (strah, nesigurnost, sumnja) koji se širi o ovoj tehnologiji.
+U ovom predavanju razotkrivamo uobičajene mitove oko **Bitcoin**, **blokčejnova** i **kriptovaluta**. Hajde da Address zablude o potrošnji energije Bitcoin, kriminalnoj upotrebi i širem "FUD" (strah, nesigurnost, sumnja) širenju o ovoj tehnologiji.
 
 
 ### Bitcoin vs. Blockchain
 
 
-Česta zabluda je da su **Bitcoin** i **Blockchain** isti. Dok je Bitcoin digitalna valuta, **Blockchain** je tehnologija koja je pokreće. Blokčejnovi pružaju verifikovan zapis transakcija, ali dolaze sa kompromisima kao što su sporije brzine i veći troškovi, koje rešenja poput **Lightning Network** Address.
+Česta zabluda je da su **Bitcoin** i **Blockchain** isti. Dok je Bitcoin digitalna valuta, **Blockchain** je tehnologija koja je pokreće. Blokčejnovi pružaju verifikovan zapis transakcija, ali dolaze sa kompromisima kao što su sporije brzine i veći troškovi, što rešenja poput **Lightning Network** Address.
 
 
 > **Definicije:**
 >
 
 > - _Blockchain:_ Osnovna tehnologija koja se koristi za beleženje transakcija u decentralizovanom, nepromenljivom Ledger.
-> - _Lightning Network:_ Drugo-Layer rešenje koje poboljšava efikasnost transakcija Bitcoin omogućavajući off-chain transakcije.
+> - _Lightning Network:_ Drugo-Layer rešenje koje poboljšava efikasnost transakcija Bitcoin omogućavanjem off-chain transakcija.
 
 ### Bitcoin vs. Crypto
 
@@ -346,29 +341,29 @@ Još jedna ključna razlika je da je **Bitcoin** stvoren s isključivom svrhom p
 > **Definicije:**
 >
 
-> - _Shitcoins:_ Shitcoins su kriptovalute niske vrednosti ili sumnjivog kvaliteta koje nemaju pravu korisnost. Često su veoma spekulativne i ponekad se stvaraju u svrhe prevare ili bez jasne svrhe, iskorišćavajući procvat tržišta kriptovaluta.
+> - _Shitcoins:_ Shitcoins su kriptovalute niske vrednosti ili sumnjivog kvaliteta koje nemaju stvarnu korisnost. Često su visoko spekulativne i ponekad se stvaraju u svrhe prevare ili bez jasne svrhe, iskorišćavajući procvat tržišta kriptovaluta.
 
-![Image](assets/en/1/2.webp)
+![Image](assets/en/005.webp)
 
 
 ### Potrošnja energije i uticaj na životnu sredinu
 
 
-Jedna od najčešćih kritika na račun Bitcoin je njegova **potrošnja energije**. Iako Bitcoin Mining koristi energiju, on čini manje od 1% globalne potrošnje električne energije i manje od 3% izgubljene energije. Štaviše, **Bitcoin Mining** često koristi neiskorišćene ili obnovljive izvore energije, čineći ga ekološki prihvatljivijim nego što se često prikazuje.
+Jedna od najčešćih kritika na račun Bitcoin je njegova **potrošnja energije**. Iako Bitcoin Mining koristi energiju, on čini manje od 1% globalne potrošnje električne energije i manje od 3% izgubljene energije. Štaviše, **Bitcoin Mining** često koristi neiskorišćene ili obnovljive izvore energije, što ga čini ekološki prihvatljivijim nego što se često prikazuje.
 
 
 > **Definicije:**
 >
 
-> - _Bitcoin Mining:_ Proces validacije transakcija i osiguravanja mreže rešavanjem kriptografskih zagonetki, što zahteva računarsku snagu.
+> - _Bitcoin Mining:_ Proces validacije transakcija i obezbeđivanja mreže rešavanjem kriptografskih zagonetki, što zahteva računarsku snagu.
 
 ### Zablude o kriminalnoj upotrebi
 
 
-Bitcoin je često kritikovan zbog korišćenja u kriminalnim aktivnostima. Međutim, analiza Blockchain pokazuje da je samo mali procenat transakcija Bitcoin povezan sa kriminalom. U stvarnosti, tradicionalni finansijski sistemi beleže daleko više kriminalne upotrebe nego Bitcoin.
+Bitcoin se često kritikuje zbog korišćenja u kriminalnim aktivnostima. Međutim, analiza Blockchain pokazuje da je samo mali procenat transakcija Bitcoin povezan sa kriminalom. U stvarnosti, tradicionalni finansijski sistemi beleže daleko veću kriminalnu upotrebu nego Bitcoin.
 
 
-### Privatnost i Fungibilnost
+### Privatnost i fungibilnost
 
 
 **Privatnost** i **zamjenjivost** su ključne karakteristike Bitcoin. Privatnost štiti korisnike u represivnim režimima, a zamjenjivost osigurava da je svaki Bitcoin jednak, bez obzira na njegovu istoriju. Ovo čini Bitcoin pouzdanim i pravednim oblikom novca.
@@ -377,9 +372,9 @@ Bitcoin je često kritikovan zbog korišćenja u kriminalnim aktivnostima. Među
 > **Definicije:**
 >
 
-> - _Fungibility:_ Svojstvo novca gde je svaka jedinica zamenljiva drugom, osiguravajući jednaku vrednost.
+> - _Fungibilnost:_ Svojstvo novca gde je svaka jedinica zamenljiva drugom, obezbeđujući jednaku vrednost.
 
-### Rukovanje FUD-om i dinamikom tržišta
+### Rukovanje FUD-om i tržišnom dinamikom
 
 
 FUD oko Bitcoin često preuveličava zabrinutosti u vezi sa njegovim uticajem na životnu sredinu, kriminalnom upotrebom i bezbednošću. Iako će doći do tržišnih fluktuacija, decentralizovana i pouzdana tehnologija Bitcoin pruža čvrstu osnovu za dugoročnu stabilnost i finansijsku slobodu, posebno u restriktivnim okruženjima poput Venecuele.
@@ -388,7 +383,7 @@ FUD oko Bitcoin često preuveličava zabrinutosti u vezi sa njegovim uticajem na
 #### Zaključak
 
 
-Razumevanje stvarnosti potrošnje energije Bitcoin, funkcija privatnosti i uloge u prevenciji kriminala pomaže u razbijanju mitova koji ga okružuju. Probijanjem kroz FUD, možemo ceniti potencijal Bitcoin kao revolucionarnog oblika zvučnog novca koji promoviše privatnost, sigurnost i decentralizaciju.
+Razumevanje realnosti potrošnje energije Bitcoin, karakteristika privatnosti i uloge u prevenciji kriminala pomaže u razbijanju mitova koji ga okružuju. Probijanjem kroz FUD, možemo ceniti potencijal Bitcoin kao revolucionarnog oblika zvučnog novca koji promoviše privatnost, sigurnost i decentralizaciju.
 
 
 ## Pokretanje Bitcoin
@@ -399,24 +394,23 @@ Razumevanje stvarnosti potrošnje energije Bitcoin, funkcija privatnosti i uloge
 <professorId>e7e63d59-ea19-4960-9446-61bd4dcc98f0</professorId>
 
 
-### Instalacija Bitcoin Core
+### Instalacija Bitcoin core
 
 
 :::video id=4a5253cf-b863-466a-8506-0506b28a28de:::
 
-
-U prvom predavanju 4. modula, istražili smo arhitekturu Bitcoin i instalaciju Bitcoin Core čvora.
+U prvom predavanju 4. modula, istražili smo arhitekturu Bitcoin i instalaciju Bitcoin core čvora.
 
 
 ### Pokretanje Bitcoin čvora
 
 
-**1. Uvodni Pregled**
+**1. Uvodni rezime**
 
-Dobrodošli nazad! U prethodnoj sesiji pokrili smo osnovne koncepte arhitekture Bitcoin, uključujući njene kriptografske osnove i strukturu peer-to-peer mreže. Danas ćemo preći sa teorije na praksu demonstrirajući kako instalirati i konfigurisati Bitcoin čvor.
+Dobrodošli nazad! U prethodnoj sesiji pokrili smo osnovne pojmove iza arhitekture Bitcoin, uključujući njene kriptografske osnove i strukturu peer-to-peer mreže. Danas ćemo preći sa teorije na praksu demonstrirajući kako instalirati i konfigurisati Bitcoin čvor.
 
 
-**2. Pregled Praktične Sesije**
+**2. Pregled praktične sesije**
 
 U ovoj sesiji, Alekos će nas provesti kroz proces postavljanja Bitcoin čvora koristeći virtuelnu mašinu. Ovaj praktični vodič je dizajniran da vas upozna sa koracima uključenim u konfigurisanje vašeg čvora za učešće u Bitcoin mreži.
 
@@ -424,13 +418,13 @@ U ovoj sesiji, Alekos će nas provesti kroz proces postavljanja Bitcoin čvora k
 Pokretanje Bitcoin čvora uključuje validaciju transakcija i blokova, sprovođenje pravila konsenzusa i podršku decentralizaciji mreže. Postavljanje čvora osigurava direktnu vezu sa Bitcoin mrežom, omogućavajući vam da doprinesete njenoj sigurnosti i integritetu.
 
 
-U ovom predavanju, pronaći ćete vodič za instalaciju i pokretanje sopstvenog Bitcoin Core, naučiti kako da obrežete Blockchain radi uštede prostora i počnete sa eksperimentisanjem sa softverom. Alekos će vas voditi korak po korak kroz ovaj uzbudljiv proces.
+U ovom predavanju, naći ćete vodič za instalaciju i pokretanje vašeg sopstvenog Bitcoin core, naučiti kako da obrežete Blockchain kako biste uštedeli prostor, i započeti eksperimentisanje sa softverom. Alekos će vas voditi korak po korak kroz ovaj uzbudljiv proces.
 
 
-### Šta možete uraditi sa Bitcoin Core i njegove prednosti
+### Šta možete učiniti sa Bitcoin core i njegove prednosti
 
 
-Pokretanjem Bitcoin Core, stičete mogućnost da:
+Pokretanjem Bitcoin core, stičete mogućnost da:
 
 
 
@@ -438,17 +432,17 @@ Pokretanjem Bitcoin Core, stičete mogućnost da:
 - Ojačajte mrežu**: Učestvovanjem u mreži, pomažete da ostane decentralizovana, čineći Bitcoin otpornijim na napade.
 - Skratiti Blockchain**: Smanjite zahteve za skladištenje tako što ćete zadržati samo najnovije transakcije, što je idealno ako imate ograničen prostor na disku.
 - Koristite napredne funkcije Wallet**: Upravljajte svojim Bitcoin uz privatnost i sigurnost, generate privatni ključevi van mreže, i potpisujte transakcije sigurno.
-- Interaktujte direktno sa Bitcoin mrežom**: Korišćenjem Bitcoin Core, možete se povezati direktno na mrežu bez posrednika, osiguravajući da dobijete najtačnije podatke.
+- Interaktujte direktno sa Bitcoin mrežom**: Korišćenjem Bitcoin core, možete se povezati direktno na mrežu bez posrednika, osiguravajući da dobijete najtačnije podatke.
 - Koristite povećanu privatnost**: Kao operater Full node, ne morate verovati spoljnim uslugama, štiteći privatnost vaših transakcija od spoljnog nadzora.
 
 
-Prednosti pokretanja Bitcoin čvora su značajne za svakog posvećenog Bitcoinera. Ne samo da pomažete u osiguravanju mreže i jačanju njene decentralizacije, već takođe poboljšavate svoju privatnost, osiguravate integritet sopstvenih transakcija i preuzimate proaktivnu ulogu u Bitcoin ekosistemu. Pokretanje čvora je ključni korak ka postizanju finansijskog suvereniteta i potpunom prihvatanju decentralizovane prirode Bitcoin.
+Prednosti pokretanja Bitcoin čvora su značajne za svakog posvećenog Bitcoinera. Ne samo da pomažete u osiguravanju mreže i jačanju njene decentralizacije, već i poboljšavate svoju privatnost, osiguravate integritet sopstvenih transakcija i preuzimate proaktivnu ulogu u Bitcoin ekosistemu. Pokretanje čvora je ključni korak ka postizanju finansijskog suvereniteta i potpunom prihvatanju decentralizovane prirode Bitcoin.
 
 
 ### Osnovne komande
 
 
-Ovo su neke od osnovnih komandi prilikom konfigurisanja vašeg čvora:
+Ovo su neke od osnovnih komandi prilikom konfiguracije vašeg čvora:
 
 
 
@@ -479,7 +473,7 @@ sudo systemctl stop bitcoind
 
 
 
-  - Dobij detaljne informacije**:
+  - Dobijte detaljne informacije**:
 
 
 ```bash
@@ -497,7 +491,7 @@ prune=550
 
 
 
-- Omogući Bitcoin Core server i konfiguriši RPC postavke:**:
+- Omogući Bitcoin core server i konfiguriši RPC postavke:**:
 
 
 ```bash
@@ -508,7 +502,7 @@ rpcpassword=yourpassword
 
 
 
-- Proveri status Bitcoin daemon**:
+- Proverite status Bitcoin daemon**:
 
 
 ```bash
@@ -529,21 +523,20 @@ sudo systemctl status bitcoind
 
 :::video id=e13a1407-46e3-4b03-9a7a-b0f4a338c3c7:::
 
-
-#### 1. **Bitcoin Jezgro Recap**
-
-
-Hajde da počnemo sa kratkim pregledom koraka uključenih u instalaciju Bitcoin Core na cloud VM, jer će to biti ključno za našu narednu postavku C-Lightning.
+#### 1. **Bitcoin core rekap**
 
 
-**Ponovno instaliranje Bitcoin Core na Cloud VM**
+Hajde da počnemo sa kratkim pregledom koraka uključenih u instalaciju Bitcoin core na cloud VM, jer će ovo biti ključno za našu narednu postavku C-Lightning.
 
-Da biste započeli, želećete da ponovo instalirate Bitcoin Core na vašu virtuelnu mašinu. Za ovu sesiju, preskočićemo verifikaciju binarnih datoteka kako bismo uštedeli vreme, ali zapamtite da je u produkcionom okruženju verifikacija binarnih datoteka kritičan korak za osiguranje bezbednosti.
+
+**Ponovno instaliranje Bitcoin core na cloud VM-u**
+
+Za početak, želećete da ponovo instalirate Bitcoin core na vašu virtuelnu mašinu. Za ovu sesiju, preskočićemo verifikaciju binarnih datoteka kako bismo uštedeli vreme, ali zapamtite da je u produkcionom okruženju verifikacija binarnih datoteka kritičan korak za osiguranje bezbednosti.
 
 
 **Preuzmi i verifikuj hešove datoteka**
 
-Prvo, preuzmite najnovije Bitcoin Core izdanje i proverite hešove datoteka kako biste osigurali da nije došlo do manipulacije.
+Prvo, preuzmite najnovije Bitcoin core izdanje i proverite hešove datoteka kako biste osigurali da nije došlo do manipulacije.
 
 
 ```sh
@@ -555,7 +548,7 @@ sha256sum bitcoin-22.0-x86_64-linux-gnu.tar.gz
 
 **Instalirajte binarni fajl i konfigurišite automatsko pokretanje sa systemd**
 
-Zatim instalirajte binarni fajl i podesite ga da se automatski pokreće koristeći systemd.
+Zatim, instalirajte binarni fajl i podesite ga da se automatski pokreće koristeći systemd.
 
 
 ```sh
@@ -593,9 +586,9 @@ WantedBy=multi-user.target
 ```
 
 
-**Kreiraj i konfiguriši Bitcoin korisnika i direktorijume**
+**Kreiraj i konfiguriši korisnika i direktorijume Bitcoin**
 
-Kreirajte posvećenog korisnika i postavite direktorijume za Bitcoin Core.
+Kreiraj posvećenog korisnika i postavi direktorijume za Bitcoin core.
 
 
 ```sh
@@ -605,7 +598,7 @@ sudo chown bitcoin:bitcoin /var/lib/bitcoind
 ```
 
 
-**Koristite minimalni diskovni prostor obrezivanjem Blockchain**
+**Koristite minimalan diskovni prostor obrezivanjem Blockchain**
 
 Da biste uštedeli prostor na disku, omogućite obrezivanje u konfiguracionoj datoteci.
 
@@ -623,13 +616,13 @@ prune=550
 ```
 
 
-Sa ovim koracima, trebalo bi da imate Bitcoin Core pokrenut uz minimalno korišćenje diska, spreman za interakciju sa C-Lightning.
+Sa ovim koracima, trebalo bi da imate Bitcoin core pokrenut sa minimalnom upotrebom diska, spreman za interakciju sa C-Lightning.
 
 
 #### 2. **Pregled i instalacija C-Lightning**
 
 
-**Pregled C-Lightning**
+**Pregled C-Lightning-a**
 
 
 C-Lightning, takođe poznat kao Core-Lightning, je Layer 2 protokol koji omogućava brže i jeftinije transakcije koristeći off-chain kanale. Ističe se zbog svoje modularne i programerima prijatne arhitekture, koja omogućava opsežnu prilagodbu putem dodataka.
@@ -637,11 +630,11 @@ C-Lightning, takođe poznat kao Core-Lightning, je Layer 2 protokol koji omoguć
 
 **Važnost modularnosti i proširivosti sa dodacima**
 
-Modularni dizajn C-Lightning-a znači da možete dodavati ili uklanjati funkcije po potrebi, omogućavajući vam da prilagodite sistem specifičnim slučajevima upotrebe. Primeri slučajeva upotrebe uključuju:
+Modularni dizajn C-Lightning-a znači da možete dodavati ili uklanjati funkcije prema potrebi, omogućavajući vam da prilagodite sistem specifičnim slučajevima upotrebe. Primeri slučajeva upotrebe uključuju:
 
 
 
-- Obrada Plaćanja**: Prilagođeni dodaci mogu upravljati specifičnim uslovima plaćanja.
+- Obrada plaćanja**: Prilagođeni dodaci mogu obraditi specifične uslove plaćanja.
 - Naknade za usmeravanje**: Dinamički prilagodite naknade za usmeravanje na osnovu uslova mreže.
 - Automatizacija**: Automatizujte zadatke kao što su upravljanje kanalima i obezbeđivanje likvidnosti.
 
@@ -664,7 +657,7 @@ sha256sum clightning-v22.11.1.tar.gz
 ```
 
 
-**Proveri integritet sa GPG ključevima**
+**Verifikujte integritet sa GPG ključevima**
 
 Uvek proverite integritet preuzetog fajla pomoću GPG ključeva.
 
@@ -694,7 +687,7 @@ sudo make install
 
 **Konfigurišite systemd servis za automatsko pokretanje**
 
-Kreirajte datoteku sistemske usluge za C-Lightning:
+Kreiranje systemd servisne datoteke za C-Lightning može izgledati ovako:
 
 ```ini
 [Unit]
@@ -702,24 +695,19 @@ Description=C-Lightning daemon
 After=network.target
 
 [Service]
-ExecStart=/usr/local/bin/lightningd --network=bitcoin
-User=lightning
-Group=lightning
+ExecStart=/usr/local/bin/lightningd --network=bitcoin --log-level=info
+User=bitcoin
+Group=bitcoin
 Restart=always
 TimeoutSec=120
 RestartSec=30
-LimitNOFILE=128000
+Environment=HOME=/var/lib/bitcoin
 
 [Install]
 WantedBy=multi-user.target
 ```
 
-Sačuvajte ovu datoteku kao `/etc/systemd/system/c-lightning.service` i zatim omogućite i pokrenite uslugu koristeći sledeće komande:
-
-```bash
-sudo systemctl enable c-lightning
-sudo systemctl start c-lightning
-```
+Ovaj primer pretpostavlja da je `lightningd` instaliran u `/usr/local/bin/`, da se koristi `bitcoin` mreža, i da korisnik i grupa koji pokreću servis su `bitcoin`. Možda ćete morati prilagoditi putanje i korisničke postavke prema vašem okruženju.
 
 
 ```sh
@@ -747,10 +735,10 @@ WantedBy=multi-user.target
 ```
 
 
-#### 3. **Konfiguracija i Postavljanje**
+#### 3. **Konfiguracija i postavljanje**
 
 
-**Kreiraj Potrebne Direktorijume i Konfiguracione Datoteke**
+**Kreirajte potrebne direktorijume i konfiguracione fajlove**
 
 Kreirajte direktorijume i konfiguracione fajlove potrebne za C-Lightning.
 
@@ -762,7 +750,7 @@ sudo -u bitcoin nano /var/lib/lightning/config
 ```
 
 
-Dodajte sledeće linije u konfiguracioni fajl:
+Dodajte sledeće linije u konfiguracionu datoteku:
 
 
 ```ini
@@ -772,9 +760,9 @@ plugin=/usr/local/libexec/c-lightning/plugins
 ```
 
 
-**Konfigurišite C-Lightning za povezivanje sa Bitcoin Core na Testnet**
+**Konfigurišite C-Lightning da se poveže sa Bitcoin core na Testnet**
 
-Osigurajte da se C-Lightning može povezati sa Bitcoin Core dodavanjem sledećih linija:
+Osigurajte da se C-Lightning može povezati sa Bitcoin core dodavanjem sledećih linija:
 
 
 ```ini
@@ -797,7 +785,7 @@ sudo systemctl enable lightningd
 ```
 
 
-**Address Putanje datoteka i dozvole, posebno za integraciju s Torom**
+**Address putanje datoteka i dozvole, posebno za integraciju sa Tor-om**
 
 Konfigurišite putanje datoteka i dozvole kako biste osigurali nesmetan rad, posebno ako koristite Tor za privatnost.
 
@@ -816,9 +804,9 @@ proxy=127.0.0.1:9050
 ```
 
 
-**Bekapuj HSM Tajnu za Oporavak Sredstava**
+**Rezervna kopija HSM tajne za oporavak sredstava**
 
-Napravi rezervnu kopiju HSM tajne za oporavak sredstava.
+Napravi rezervnu kopiju HSM tajne za povrat sredstava.
 
 
 ```sh
@@ -828,7 +816,7 @@ sudo cp /var/lib/lightning/hsm_secret /path/to/secure/location
 
 **Testirajte veze i proverite operativni status čvora**
 
-Na kraju, potvrdite operativni status vašeg čvora testiranjem veza i osiguravanjem da sve funkcioniše kako se očekuje.
+Konačno, proverite operativni status vašeg čvora testiranjem veza i osiguravanjem da sve funkcioniše kako se očekuje.
 
 
 ```sh
@@ -836,13 +824,13 @@ lightning-cli getinfo
 ```
 
 
-Prateći ove korake, imaćete potpuno funkcionalno C-Lightning podešavanje povezano sa vašim Bitcoin Core čvorom, spremno za Testnet transakcije.
+Prateći ove korake, imaćete potpuno funkcionalno C-Lightning podešavanje povezano sa vašim Bitcoin core čvorom, spremno za Testnet transakcije.
 
 
 #### Zaključak i pitanja
 
 
-U zaključku, danas smo pokrili osnovne korake za ponovnu instalaciju Bitcoin Core, praćene detaljnim uputstvom za instalaciju i konfiguraciju C-Lightning. Ako imate bilo kakva pitanja, slobodno ih postavite sada ili ih pripremite za dalja pojašnjenja u našoj sledećoj sesiji. Zapamtite, praktično iskustvo je ključno, zato koristite Testnet postavku o kojoj smo razgovarali kako biste stekli više uvida.
+U zaključku, danas smo pokrili osnovne korake za ponovnu instalaciju Bitcoin core, nakon čega je usledilo detaljno uputstvo za instalaciju i konfiguraciju C-Lightning. Ako imate bilo kakva pitanja, slobodno ih postavite sada ili ih pripremite za dalja pojašnjenja u našoj sledećoj sesiji. Zapamtite, praktično iskustvo je ključno, zato koristite Testnet postavku koju smo diskutovali kako biste stekli više uvida.
 
 
 ### Sigurnosni i hardverski uređaji
@@ -850,8 +838,7 @@ U zaključku, danas smo pokrili osnovne korake za ponovnu instalaciju Bitcoin Co
 
 :::video id=8b4baf24-1350-46b8-a87b-18678ed219ed:::
 
-
-### Specter i Ledger Uređaj
+### Specter i Ledger uređaj
 
 
 #### Uvod
@@ -860,7 +847,7 @@ U zaključku, danas smo pokrili osnovne korake za ponovnu instalaciju Bitcoin Co
 Dobrodošli na naše predavanje o bezbednosti i podešavanju uređaja za Bitcoin. Današnji fokus je na razumevanju korišćenja bezbednosnih alata, posebno Specter desktop Wallet i Ledger Hardware Wallet, i kako ih efikasno konfigurisati za poboljšanu bezbednost Bitcoin.
 
 
-**Alati: Specter Desktop Wallet i Ledger Emulator**
+**Alati: Specter desktop Wallet i Ledger emulator**
 
 
 Specter je desktop Wallet dizajniran da olakša kreiranje i upravljanje Bitcoin novčanicima, posebno onima koji koriste hardverske uređaje. Za našu demonstraciju, koristićemo Ledger emulator, koji oponaša funkcionalnost Ledger Hardware Wallet.
@@ -872,13 +859,13 @@ Specter je desktop Wallet dizajniran da olakša kreiranje i upravljanje Bitcoin 
 Uređaj Ledger, popularni Hardware Wallet, poznat je po svojoj robusnoj sigurnosti. Međutim, kompanija iza Ledger suočila se sa ispitivanjem zbog raznih kontroverzi u vezi sa privatnošću korisničkih podataka. Razumevanje razlike između sigurnosti fizičkog uređaja i praksi kompanije je ključno za informisano korišćenje.
 
 
-**Bezbednosni modeli: Važnost multi-sig novčanika i raznovrsnog hardvera**
+**Bezbednosni modeli: važnost multi-sig novčanika i raznovrsnog hardvera**
 
 
 Ključni aspekt sigurnosti Bitcoin je korišćenje multi-potpisnih (multi-sig) novčanika. multi-sig novčanici zahtevaju više privatnih ključeva za autorizaciju transakcije, što značajno poboljšava sigurnost. Pored toga, korišćenje različitih tipova hardverskih novčanika diversifikuje rizik i jača sigurnosni model.
 
 
-### Postavljanje i Konfiguracija
+### Postavljanje i konfiguracija
 
 
 **Preuzimanje i postavljanje Specter-a**
@@ -887,10 +874,10 @@ Ključni aspekt sigurnosti Bitcoin je korišćenje multi-potpisnih (multi-sig) n
 Prvi korak u našem procesu postavljanja uključuje preuzimanje Spectera iz njegove zvanične riznice. Ključno je proveriti integritet preuzimanja kako bi se izbegao kompromitovani softver. Kada se preuzme, instalirajte Specter na vaš desktop i pokrenite aplikaciju.
 
 
-**Konfigurisanje Specter-a za povezivanje sa Bitcoin Core ili Electrum serverima**
+**Konfigurisanje Spectera za povezivanje sa Bitcoin core ili Electrum serverima**
 
 
-Da biste konfigurisali Specter, potrebno je da ga povežete sa Bitcoin Core ili Electrum serverom. Ovi serveri obezbeđuju neophodne Blockchain podatke za Wallet operacije. Konfiguracija uključuje postavljanje servera Address u Specter-ovim podešavanjima i obezbeđivanje stabilne veze.
+Da biste konfigurisali Specter, potrebno je da ga povežete sa Bitcoin core ili Electrum serverom. Ovi serveri obezbeđuju neophodne Blockchain podatke za Wallet operacije. Konfiguracija uključuje postavljanje servera Address u Specter-ovim podešavanjima i obezbeđivanje stabilne veze.
 
 
 **Objašnjenje putanja derivacije i preuzimanje javnog ključa**
@@ -899,7 +886,7 @@ Da biste konfigurisali Specter, potrebno je da ga povežete sa Bitcoin Core ili 
 Razumevanje putanja derivacije je ključno za upravljanje Wallet. Putanje derivacije definišu kako se ključevi generišu iz glavnog ključa. U Specter-u, možete preuzeti javne ključeve povezivanjem vašeg Hardware Wallet (ili emulatora) i navigacijom kroz Wallet Interface. Osigurajte da dokumentujete ove putanje za buduću referencu.
 
 
-**Praktična Demonstracija: Korišćenje Ledger Emulatora**
+**Praktična demonstracija: Korišćenje Ledger Emulatora**
 
 
 Sada ćemo koristiti emulator Ledger za preuzimanje ključeva. Ovo uključuje povezivanje emulatora sa Specter-om, navigaciju do odeljka za upravljanje ključevima i odabir odgovarajućih ključeva za kreiranje Wallet.
@@ -908,46 +895,46 @@ Sada ćemo koristiti emulator Ledger za preuzimanje ključeva. Ovo uključuje po
 **Kreiranje i upravljanje novčanicima u Specter-u**
 
 
-Kreiranje Wallet u Specter-u je jednostavno. Pristupite kreiranju Wallet putem Interface, unesite potrebne detalje i uključite svoje preuzete javne ključeve. Kada je kreiran, možete upravljati Wallet, pratiti transakcije i osigurati robusne sigurnosne prakse.
+Kreiranje Wallet u Specter-u je jednostavno. Pristupite kreiranju Wallet preko Interface, unesite potrebne detalje i uključite vaše preuzete javne ključeve. Kada je kreiran, možete upravljati Wallet, pratiti transakcije i osigurati robusne sigurnosne prakse.
 
 
-**Primanje i Praćenje Transakcija**
+**Primanje i praćenje transakcija**
 
 
 Nakon postavljanja Wallet, primanje transakcija je jednostavno kao deljenje vašeg Wallet Address. Specter pruža praćenje u realnom vremenu dolaznih transakcija, osiguravajući da ste uvek u toku sa statusom vašeg Wallet.
 
 
-### Napredne Konfiguracije
+### Napredne konfiguracije
 
 
 **Postavljanje daljinskog upravljača Specter daemon**
 
 
-Za napredne korisnike, postavljanje daljinskog Specter daemon može poboljšati pristupačnost i sigurnost. Ovo uključuje konfigurisanje udaljenog servera za pokretanje Specter-ovog backend-a, omogućavajući siguran pristup sa različitih uređaja.
+Za napredne korisnike, postavljanje udaljenog Specter daemon može poboljšati pristupačnost i sigurnost. Ovo uključuje konfigurisanje udaljenog servera za pokretanje Specter-ove pozadinske aplikacije, omogućavajući siguran pristup sa različitih uređaja.
 
 
 **Omogućavanje Tora za privatnost**
 
 
-Da biste poboljšali privatnost, preporučuje se konfiguracija Spectera za korišćenje Tor-a. Tor anonimizuje vaš mrežni saobraćaj, štiteći vaš IP Address od potencijalnog nadzora. Ovo je posebno važno za korisnike koji su zabrinuti za privatnost i sigurnost.
+Da bi se poboljšala privatnost, preporučuje se konfiguracija Specter-a za korišćenje Tor-a. Tor anonimizuje vaš mrežni saobraćaj, štiteći vaš IP Address od potencijalnog nadzora. Ovo je posebno važno za korisnike koji su zabrinuti za privatnost i sigurnost.
 
 
-**Povezivanje sa udaljenim čvorovima sigurno**
+**Povezivanje sa udaljenim čvorovima na siguran način**
 
 
-Kada se povezujete sa udaljenim čvorovima, osigurajte da je veza sigurna. Ovo uključuje korišćenje SSL/TLS sertifikata i verifikaciju autentičnosti čvora. Sigurne veze sprečavaju napade čoveka u sredini i osiguravaju integritet podataka.
+Kada se povezujete sa udaljenim čvorovima, osigurajte da je veza sigurna. Ovo uključuje korišćenje SSL/TLS sertifikata i verifikaciju autentičnosti čvora. Sigurne veze sprečavaju napade čovek-u-sredini i osiguravaju integritet podataka.
 
 
-**Otklanjanje grešaka: Praktične tehnike**
+**Otklanjanje grešaka: praktične tehnike**
 
 
-Susretanje sa problemima je neizbežno. Praktično otklanjanje grešaka uključuje proveru korisničkih dozvola, verifikaciju pristupa direktorijumu podataka i konsultovanje logova za greške. Na primer, osigurajte da Specter ima neophodne dozvole za pristup Bitcoin Core direktorijumu podataka kako biste izbegli operativne prekide.
+Susretanje sa problemima je neizbežno. Praktično otklanjanje grešaka uključuje proveru korisničkih dozvola, verifikaciju pristupa direktorijumu podataka i konsultovanje logova za greške. Na primer, osigurajte da Specter ima neophodne dozvole za pristup Bitcoin core direktorijumu podataka kako biste izbegli operativne prekide.
 
 
-**Primer Problema: Pristup Direktorijumu Podataka**
+**Primer problema: pristup direktorijumu podataka**
 
 
-Uobičajen problem je nepravilan pristup direktorijumu podataka. Proverite da li je putanja do vašeg Bitcoin Core direktorijuma podataka ispravno postavljena u Specter-ovoj konfiguraciji. Ovo osigurava da Specter ima pristup neophodnim Blockchain podacima za Wallet operacije.
+Uobičajen problem je nepravilan pristup direktorijumu podataka. Proverite da li je putanja do vašeg Bitcoin core direktorijuma podataka ispravno postavljena u Specter-ovoj konfiguraciji. Ovo osigurava da Specter ima pristup neophodnim Blockchain podacima za Wallet operacije.
 
 
 **Sledeći koraci i integracija**
@@ -956,7 +943,7 @@ Uobičajen problem je nepravilan pristup direktorijumu podataka. Proverite da li
 Kako zaključujemo, sledeći koraci uključuju integraciju Specter-a sa Lightning Network. Ovo omogućava slanje sredstava iz Specter-a na Lightning čvor, olakšavajući brže i jeftinije transakcije. Buduće lekcije će detaljno pokriti ovu integraciju, poboljšavajući vaše Bitcoin transakcione sposobnosti.
 
 
-**Varijabilnost Tajminga Bloka**
+**Varijabilnost vremena blokiranja**
 
 
 Razumevanje varijabilnosti vremena blokova je ključno. Bitcoin blokovi mogu biti iskopani u različitim intervalima, što utiče na vreme potvrde transakcija. Ova varijabilnost mora biti uzeta u obzir u svim konfiguracijama i Wallet operacijama.
@@ -968,13 +955,13 @@ Razumevanje varijabilnosti vremena blokova je ključno. Bitcoin blokovi mogu bit
 Za dodatno učenje, razmotrite resurse kao što su "Mastering the Lightning Network" i tutorijale Rusty Russella. Ovi materijali pružaju detaljno znanje o Lightning čvorovima i naprednim Bitcoin konfiguracijama.
 
 
-**Instalacija Node-a i Tor Sigurnost**
+**Instalacija Node-a i sigurnost Tor-a**
 
 
 Instaliranje čvorova, bilo lokalno ili na daljinu, ima koristi od korišćenja Tor-a za poboljšanu sigurnost. Pokretanje sopstvenog čvora osigurava ličnu validaciju transakcija, poboljšavajući sigurnost i privatnost.
 
 
-**Filozofija: Samodovoljnost u učenju**
+**Filozofija: samodovoljnost u učenju**
 
 
 Prigrlite filozofiju samodovoljnosti. Praktične veštine i samoučenje su od najveće važnosti, često nadmašujući prednosti formalnog obrazovanja. Uključite se u praktične vežbe kako biste produbili svoje razumevanje Bitcoin bezbednosti.
@@ -983,10 +970,10 @@ Prigrlite filozofiju samodovoljnosti. Praktične veštine i samoučenje su od na
 **Razmatranja o privatnosti**
 
 
-Održavajte privatnost izbegavanjem usluga koje prate ili beleže transakcije. Anonimnost je ključna za sigurne Bitcoin operacije, a pažljiv izbor usluga pomaže u zaštiti vašeg identiteta i istorije transakcija.
+Održavajte privatnost izbegavanjem usluga koje prate ili beleže transakcije. Anonimnost je ključna za sigurne Bitcoin operacije, a pažljiv odabir usluga pomaže u zaštiti vašeg identiteta i istorije transakcija.
 
 
-Ovim završavamo naše predavanje o bezbednosti i podešavanju uređaja za Bitcoin koristeći Specter i Ledger. Slobodno postavite bilo kakva pitanja ili zatražite pojašnjenje o bilo kojim tačkama koje smo diskutovali.
+Ovim završavamo naše predavanje o sigurnosti i postavljanju uređaja za Bitcoin koristeći Specter i Ledger. Slobodno postavite bilo kakva pitanja ili zatražite pojašnjenje o bilo kojim tačkama koje smo diskutovali.
 
 
 ## Poboljšanje Bitcoin
@@ -1000,23 +987,22 @@ Ovim završavamo naše predavanje o bezbednosti i podešavanju uređaja za Bitco
 
 :::video id=6d771eca-3f53-493d-8937-db6ddb2cf172:::
 
-
 Tokom više od jedne decenije, Bitcoin se pokazao kao transformativna inovacija u finansijskom svetu, uspešno poslujući na globalnom nivou i otvarajući nove mogućnosti u digitalnoj ekonomiji. Međutim, i dalje se suočava sa izazovima koji zahtevaju kreativna i kolaborativna rešenja. Kontinuirana evolucija Bitcoin predstavlja jedinstvenu priliku za one koji su zainteresovani za oblikovanje budućnosti decentralizovanih finansija.
 
 
-![Image](assets/en/1/8.webp)
+![Image](assets/en/006.webp)
 
 
 #### Otvoreni problemi u upotrebljivosti Bitcoin
 
 
-Bitcoin, uprkos tome što postoji više od decenije, i dalje se suočava sa značajnim izazovima u pogledu upotrebljivosti. Alati i interfejsi dostupni korisnicima često nemaju zrelost i korisničku pristupačnost koja se nalazi u tradicionalnijim finansijskim sistemima. Ovo je posebno evidentno u regionima kao što je El Salvador, gde je usvajanje Bitcoin podržano od strane vlade. Primarni problem ovde je potreba za boljim apstrakcijama koje mogu pojednostaviti korisničko iskustvo, čineći Bitcoin dostupnim čak i osobama sa minimalnim tehničkim znanjem.
+Bitcoin, uprkos svom postojanju dužem od decenije, i dalje se bori sa značajnim izazovima u pogledu upotrebljivosti. Alati i interfejsi dostupni korisnicima često nemaju zrelost i korisničku pristupačnost koja se nalazi u tradicionalnijim finansijskim sistemima. Ovo je posebno evidentno u regionima kao što je El Salvador, gde je usvajanje Bitcoin podržano od strane vlade. Primarni problem ovde je potreba za boljim apstrakcijama koje mogu pojednostaviti korisničko iskustvo, čineći Bitcoin dostupnim čak i pojedincima sa minimalnim tehničkim znanjem.
 
 
 #### Otvoreni problemi u skalabilnosti
 
 
-Skalabilnost je bila uporan problem u razvoju Bitcoin. Sposobnost mreže da obradi veliki broj transakcija ostaje ograničena, što često dovodi do visokih On-Chain naknada koje mogu isključiti neke korisnike iz učešća. Iako rešenja poput Lightning Network nude određeno olakšanje omogućavanjem off-chain transakcija, ona ne rešavaju u potpunosti zabrinutosti oko skalabilnosti. Potreba za sveobuhvatnijim rešenjima koja mogu da obrade rastuće obime transakcija bez ugrožavanja integriteta mreže je očigledna.
+Skalabilnost je bila uporan problem u razvoju Bitcoin. Sposobnost mreže da obradi veliki broj transakcija ostaje ograničena, što često dovodi do visokih On-Chain naknada koje mogu isključiti neke korisnike iz učešća. Iako rešenja poput Lightning Network nude određeno olakšanje omogućavanjem off-chain transakcija, ona ne rešavaju u potpunosti Address zabrinutosti oko skalabilnosti. Potreba za sveobuhvatnijim rešenjima koja mogu podneti rastuće obime transakcija bez ugrožavanja integriteta mreže je očigledna.
 
 
 #### Otvoreni problemi u bezbednosti
@@ -1034,31 +1020,31 @@ Privatnost je još jedno ključno pitanje unutar ekosistema Bitcoin. Iako je pri
 #### Otvoreni problemi u fleksibilnosti
 
 
-Fleksibilnost unutar Bitcoin protokola je neophodna kako bi se podstakla poboljšanja u privatnosti, bezbednosti i skalabilnosti. Međutim, previše fleksibilnosti može postati ranjivost, potencijalno služeći kao vektor napada i ugrožavajući decentralizaciju mreže. Postizanje prave ravnoteže je ključno za održavanje integriteta i otpornosti Bitcoin protokola.
+Fleksibilnost unutar Bitcoin protokola je neophodna za unapređenje privatnosti, sigurnosti i skalabilnosti. Međutim, previše fleksibilnosti može postati ranjivost, potencijalno služeći kao vektor napada i ugrožavajući decentralizaciju mreže. Postizanje prave ravnoteže je ključno za održavanje integriteta i otpornosti Bitcoin protokola.
 
 
 ### Kompromisi u unapređenju Bitcoin
 
 
-#### Upotrebljivost vs. Bezbednost i Privatnost
+#### Upotrebljivost vs. bezbednost i privatnost
 
 
-![Image](assets/en/1/7.webp)
+![Image](assets/en/007.webp)
 
 
-Napori da se poboljša upotrebljivost Bitcoin često dolaze na račun sigurnosti i privatnosti. Na primer, korisnički pristupačni kustodijalni novčanici, kao što su Wallet od Satoshi, pružaju pristupačan Interface, ali značajno kompromituju sigurnost i privatnost. Pojednostavljeni sistemi mogu povećati upotrebljivost, ali mogu dovesti do problema kao što je ponovna upotreba Address, što podriva privatnost. Stoga, sva poboljšanja u upotrebljivosti moraju biti pažljivo odmjerena u odnosu na potencijalne kompromise u sigurnosti i privatnosti.
+Napori da se poboljša upotrebljivost Bitcoin često dolaze na račun sigurnosti i privatnosti. Na primer, korisnički prijatni kustodijalni novčanici, kao što su Wallet od Satoshi, pružaju pristupačan Interface, ali značajno kompromituju sigurnost i privatnost. Pojednostavljeni sistemi mogu povećati upotrebljivost, ali mogu dovesti do problema kao što je ponovna upotreba Address, što podriva privatnost. Stoga, sva poboljšanja u upotrebljivosti moraju biti pažljivo odmjerena u odnosu na potencijalne kompromise u sigurnosti i privatnosti.
 
 
 #### Skalabilnost i kompromisi privatnosti
 
 
-Skalabilnost i privatnost su često u sukobu u Bitcoin mreži. Poboljšanja koja unapređuju skalabilnost, kao što su veći UTXO-ovi ili smanjena kriptografska obfuscacija, generalno umanjuju privatnost. S druge strane, tehnike fokusirane na privatnost, poput Monero-ovih prstenastih potpisa, poboljšavaju anonimnost korisnika, ali negativno utiču na skalabilnost. Pored toga, uvođenje stateful ugovora, kao što je viđeno u Ethereum-u, nudi povećanu fleksibilnost na račun smanjene sigurnosti i skalabilnosti. Balansiranje ovih kompromisa je složen izazov koji zahteva pažljivo razmatranje.
+Skalabilnost i privatnost često su u sukobu u Bitcoin mreži. Poboljšanja koja unapređuju skalabilnost, kao što su veći UTXO-ovi ili smanjena kriptografska obfuscacija, generalno umanjuju privatnost. S druge strane, tehnike fokusirane na privatnost, poput Monero-ovih prstenastih potpisa, poboljšavaju anonimnost korisnika, ali negativno utiču na skalabilnost. Nadalje, uvođenje stateful ugovora, kao što je viđeno u Ethereum-u, nudi povećanu fleksibilnost na račun smanjene sigurnosti i skalabilnosti. Balansiranje ovih kompromisa je složen izazov koji zahteva pažljivo razmatranje.
 
 
-### Tehnike Privatnosti
+### Tehnike privatnosti
 
 
-Različiti pristupi privatnosti u Bitcoin dolaze sa sopstvenim skupovima kompromisa. Privatnost putem obfuskacije, koja uključuje dodavanje više informacija kako bi se zamaglili relevantni podaci, može poboljšati privatnost, ali može i zakomplikovati mrežu. Primeri uključuju Monero i Zcash. S druge strane, privatnost putem izostavljanja, koja ima za cilj smanjenje informacija On-Chain, kao što se vidi u Lightning Network, može poboljšati i privatnost i skalabilnost. Svaka metoda ima svoje prednosti i nedostatke, što zahteva nijansiran pristup unapređenju privatnosti.
+Različiti pristupi privatnosti u Bitcoin dolaze sa sopstvenim skupovima kompromisa. Privatnost putem zamagljivanja, koja uključuje dodavanje više informacija kako bi se prikrili relevantni podaci, može poboljšati privatnost, ali može i zakomplikovati mrežu. Primeri uključuju Monero i Zcash. S druge strane, privatnost putem izostavljanja, koja ima za cilj smanjenje informacija On-Chain, kao što se vidi u Lightning Network, može poboljšati i privatnost i skalabilnost. Svaka metoda ima svoje prednosti i nedostatke, što zahteva nijansiran pristup unapređenju privatnosti.
 
 
 ### Promene i izazovi konsenzusa
@@ -1073,7 +1059,7 @@ Izmena konsenzusnog mehanizma Bitcoin je retko i izazovno poduhvat zbog decentra
 Pridržavanje standardizovanim praksama u razvoju Bitcoin Wallet je ključno za osiguranje jednostavnosti korišćenja i bezbednosti. Mnogi novčanici trenutno ne prate utvrđene standarde, što dovodi do fragmentacije i potencijalnih ranjivosti. Standardizacija može značajno poboljšati korisničko iskustvo i ukupnu bezbednost Bitcoin transakcija.
 
 
-Tradicionalne fraze za rezervnu kopiju od 12 reči, iako efikasne za osnovnu upotrebu Bitcoin, nisu dovoljne za prilagođavanje protokolima off-chain kao što je Lightning Network. Budući standardi za rezervne kopije moraju se razvijati kako bi pružili bolju sigurnost i upotrebljivost za ove napredne funkcije, osiguravajući da korisnici mogu bezbedno upravljati svojim sredstvima na različitim slojevima ekosistema Bitcoin.
+Tradicionalne fraze za rezervnu kopiju od 12 reči, iako efikasne za osnovnu upotrebu Bitcoin, nisu dovoljne za prilagođavanje protokolima off-chain kao što je Lightning Network. Budući standardi za rezervne kopije treba da se razvijaju kako bi pružili bolju sigurnost i upotrebljivost za ove napredne funkcije, osiguravajući da korisnici mogu bezbedno upravljati svojim sredstvima na različitim slojevima Bitcoin ekosistema.
 
 
 Pojednostavljenje procesa plaćanja kroz objedinjene protokole je ključno za poboljšanje korisničkog iskustva. Postojeći protokoli kao što su BIP70, BIP78 i Payneem nude razna rešenja, ali postoji prostor za dalju inovaciju. Više pojednostavljen i korisnički pristupačan protokol plaćanja može olakšati širu primenu i jednostavnost korišćenja.
@@ -1088,19 +1074,19 @@ Ublažavanje rizika povezanih sa distribucijom Hardware Wallet i osiguranje njih
 Pojednostavljivanje korisničkih interakcija sa Bitcoin i Lightning Network uz održavanje sigurnosti i efikasnosti je ključni cilj. Bolje UX apstrakcije mogu učiniti Bitcoin pristupačnijim za netehničke korisnike, podstičući širu upotrebu bez kompromitovanja sigurnosti.
 
 
-Kreiranje obrazovnih materijala za poboljšanje upotrebljivosti, sigurnosti i privatnosti Bitcoin je značajno. Obrazovanje korisnika o najboljim praksama i osnovnim principima Bitcoin može ih osnažiti da donose informisane odluke i poboljšaju svoje ukupno iskustvo sa mrežom.
+Kreiranje obrazovnih materijala za poboljšanje upotrebljivosti, sigurnosti i privatnosti Bitcoin je značajno. Edukovanje korisnika o najboljim praksama i osnovnim principima Bitcoin može ih osnažiti da donose informisane odluke i poboljšaju svoje ukupno iskustvo sa mrežom.
 
 
-![Image](assets/en/1/3.webp)
+![Image](assets/en/008.webp)
 
 
 **Promene Layer 1 i Layer 2**
 
 
-Inovacije na bazi Layer (Layer 1) su izazovne, ali ključne za dugoročni razvoj Bitcoin. Rešenja Layer 2, poput Lightning Network, omogućavaju više eksperimentalnih promena i mogu Address skalabilnost i pitanja privatnosti rešavati fleksibilnije. Oba sloja igraju ključnu ulogu u tekućem razvoju Bitcoin.
+Inovacije na bazi Layer (Layer 1) su izazovne, ali ključne za dugoročni razvoj Bitcoin. Rešenja Layer 2, poput Lightning Network, omogućavaju eksperimentalnije promene i mogu fleksibilnije rešavati Address probleme skalabilnosti i privatnosti. Oba sloja igraju ključnu ulogu u tekućem razvoju Bitcoin.
 
 
-**Koordinacija Konsenzusa**
+**Koordinacija konsenzusa**
 
 
 Promene u protokolu Bitcoin zahtevaju značajnu koordinaciju i konsenzus zajednice. Decentralizovana priroda Bitcoin čini ovaj proces inherentno izazovnim. Efikasna koordinacija i jasna komunikacija su od suštinskog značaja za navigaciju kroz složenosti promena protokola i osiguranje uspešnog usvajanja poboljšanja.
@@ -1109,13 +1095,13 @@ Promene u protokolu Bitcoin zahtevaju značajnu koordinaciju i konsenzus zajedni
 **Izazovi skalabilnosti**
 
 
-Postizanje globalnog konsenzusa i upravljanje složenim sekundarnim slojevima, kao što je Lightning Network, predstavljaju izazove skalabilnosti. Ova pitanja moraju biti rešena kako bi se osiguralo da Bitcoin može da primi sve veće količine transakcija, a da pritom zadrži svoje osnovne principe sigurnosti i decentralizacije.
+Postizanje globalnog konsenzusa i upravljanje složenim sekundarnim slojevima, kao što je Lightning Network, predstavljaju izazove skalabilnosti. Ova pitanja moraju biti rešena kako bi se osiguralo da Bitcoin može da primi sve veće obime transakcija, a da pritom zadrži svoje osnovne principe bezbednosti i decentralizacije.
 
 
-U zaključku, kontinuirano rešavanje ovih otvorenih problema i inovacije unutar ekosistema Bitcoin su ključni za njegovu evoluciju. Ravnoteža između upotrebljivosti, sigurnosti, privatnosti i skalabilnosti zahteva pažljivo razmatranje i zajedničke napore. Doprinoseći ovim razvojnim procesima, učesnici mogu pomoći u oblikovanju budućnosti Bitcoin i njegove uloge u globalnom finansijskom pejzažu.
+U zaključku, kontinuirano rešavanje ovih otvorenih problema i inoviranje unutar ekosistema Bitcoin je ključno za njegovu evoluciju. Ravnoteža između upotrebljivosti, sigurnosti, privatnosti i skalabilnosti zahteva pažljivo razmatranje i zajedničke napore. Doprinoseći ovim razvojnim procesima, učesnici mogu pomoći u oblikovanju budućnosti Bitcoin i njegove uloge u globalnom finansijskom pejzažu.
 
 
-# Bitcoin Osnove
+# Bitcoin Osnovi
 
 
 <partId>6c0a3691-3ce4-5309-8ad7-e16e4b63c734</partId>
@@ -1131,50 +1117,49 @@ U zaključku, kontinuirano rešavanje ovih otvorenih problema i inovacije unutar
 
 :::video id=08101af2-1ded-4f3a-b1db-d4477c6ab63e:::
 
-
 Dobrodošli na današnje predavanje o **Sigurnosti i Pouzdanosti**. Naš cilj je istražiti nijansirani odnos između ova dva osnovna aspekta dizajna sistema i primene u stvarnim scenarijima.
 
 
 ### Uvod u razmišljanje o bezbednosti
 
 
-Razmišljanje o bezbednosti zasniva se na principima dizajniranim da zaštite sisteme od namernih napada. Uključuje identifikaciju potencijalnih pretnji i implementaciju mera za njihovo ublažavanje. Nasuprot tome, pouzdanost se fokusira na osiguravanje da sistemi funkcionišu ispravno pod određenim uslovima, uzimajući u obzir verovatnosne kvarove, a ne namerne pokušaje narušavanja bezbednosti.
+Razmišljanje o bezbednosti zasnovano je na principima dizajniranim da zaštite sisteme od namernih napada. Uključuje identifikaciju potencijalnih pretnji i implementaciju mera za njihovo ublažavanje. Nasuprot tome, pouzdanost se fokusira na osiguravanje da sistemi funkcionišu ispravno pod određenim uslovima, uzimajući u obzir verovatnosne kvarove, a ne namerne pokušaje narušavanja bezbednosti.
 
 
-#### Odnos između sigurnosti i pouzdanosti
+#### Odnos između bezbednosti i pouzdanosti
 
 
-Iako i bezbednost i pouzdanost imaju za cilj održavanje integriteta sistema, njihovi pristupi se značajno razlikuju. Inženjering pouzdanosti bavi se verovatnoćom kvarova sistema usled nasumičnih događaja i često koristi statističke metode za predviđanje i ublažavanje ovih kvarova. S druge strane, bezbednost mora uzeti u obzir namernu i inteligentnu prirodu napada, što zahteva višeslojnu strategiju odbrane poznatu kao "odbrana u dubini."
+Iako i bezbednost i pouzdanost imaju za cilj održavanje integriteta sistema, njihovi pristupi se značajno razlikuju. Inženjering pouzdanosti bavi se verovatnoćom kvarova sistema zbog nasumičnih događaja i često koristi statističke metode za predviđanje i ublažavanje ovih kvarova. S druge strane, bezbednost mora uzeti u obzir namernu i inteligentnu prirodu napada, što zahteva višeslojnu strategiju odbrane poznatu kao "odbrana u dubini."
 
 
-#### Sigurnost vs. Pouzdanost
+#### Bezbednost vs. pouzdanost
 
 
-Klasničan primer inženjeringa pouzdanosti može se pratiti unazad do 18. veka sa izgradnjom mosta. Kvalitet korišćenog čelika, uključujući njegov sastav i proces proizvodnje, kritično je uticao na pouzdanost mosta. Inženjeri su morali razmotriti pojedinačne tačke otkaza i koristiti verovatnoću i statistiku kako bi procenili i osigurali pouzdanost mosta tokom vremena.
+Klasničan primer inženjeringa pouzdanosti može se pratiti unazad do 18. veka sa izgradnjom mosta. Kvalitet čelika koji je korišćen, uključujući njegov sastav i proces proizvodnje, kritično je uticao na pouzdanost mosta. Inženjeri su morali razmotriti pojedinačne tačke otkaza i koristiti verovatnoću i statistiku kako bi procenili i osigurali pouzdanost mosta tokom vremena.
 
 
-![Image](assets/en/2/1.webp)
+![Image](assets/en/009.webp)
 
 
 Za razliku od pouzdanosti, bezbednost se bavi namernim pretnjama. Na primer, kriptografski ključ od 256 bita pruža matematičku garanciju bezbednosti zbog neizvodljivosti njegovog probijanja metodom grube sile. Mere bezbednosti moraju uzeti u obzir različite modele pretnji, od fizičkog manipulisanja do sofisticiranih sajber napada.
 
 
-### Primene u stvarnom svetu
+### Aplikacije u stvarnom svetu
 
 
-Razmotrite proces kreiranja i čuvanja Bitcoin ključeva koristeći papirne novčanike. Iako papirni novčanici mogu biti sigurni, podložni su fizičkom oštećenju i neovlašćenim izmenama. Obezbeđivanje integriteta takvih novčanika zahteva metode koje otkrivaju neovlašćene izmene i robusne protokole verifikacije.
+Razmotrite proces kreiranja i čuvanja Bitcoin ključeva koristeći papirne novčanike. Iako papirni novčanici mogu biti sigurni, podložni su fizičkom oštećenju i manipulaciji. Obezbeđivanje integriteta takvih novčanika zahteva metode koje otkrivaju pokušaje manipulacije i robusne protokole verifikacije.
 
 
-U drugom scenariju, zamislite preuzimanje na aerodromu gde vozač koristi tajni kod da autentifikuje putnika. Ova jednostavna, ali efikasna mera bezbednosti sprečava prevarante da obmanu obe strane.
+U drugom scenariju, zamislite preuzimanje na aerodromu gde vozač koristi tajni kod da autentifikuje putnika. Ova jednostavna, ali efikasna sigurnosna mera sprečava prevarante da obmanu obe strane.
 
 
-U Gvatemali, vremensko označavanje izbornih rezultata igralo je ključnu ulogu u osiguravanju integriteta izbornog procesa. Korišćenjem kriptografskih metoda za Timestamp podatke, izborni zvaničnici mogli su da obezbede dokaz autentičnosti rezultata koji je otporan na manipulacije, odvraćajući potencijalne manipulatore vođene značajnim finansijskim podsticajima.
+U Gvatemali, vremensko označavanje izbornih rezultata igralo je ključnu ulogu u osiguravanju integriteta izbornog procesa. Korišćenjem kriptografskih metoda za Timestamp podatke, izborni zvaničnici su mogli da obezbede dokaz o autentičnosti rezultata koji je otporan na manipulacije, odvraćajući potencijalne manipulatore vođene značajnim finansijskim podsticajima.
 
 
-![Image](assets/en/2/2.webp)
+![Image](assets/en/010.webp)
 
 
-### Identifikacija i Ublažavanje Potencijalnih Pretnji
+### Identifikacija i ublažavanje potencijalnih pretnji
 
 
 Modeliranje pretnji je proces identifikacije potencijalnih bezbednosnih pretnji i kreiranja strategija za njihovo ublažavanje. Ovo uključuje razumevanje okruženja sistema, identifikaciju mogućih napadača i razvoj sigurnih protokola zasnovanih na pretpostavkama i probabilističkoj analizi.
@@ -1195,7 +1180,7 @@ Provera poverenja može biti ilustrovana sa PGP (Pretty Good Privacy) verifikaci
 #### Uspostavljanje puteva poverenja
 
 
-Izgradnja poverenja nije trenutna; zahteva povezivanje više puteva poverenja i obezbeđivanje redundancije. Korišćenje HTTPS-a i Blockchain podržane transparentnosti sertifikata, na primer, osigurava autentičnost web izvora, otežavajući napadačima da naruše poverenje.
+Izgradnja poverenja nije trenutna; zahteva povezivanje više puteva poverenja i obezbeđivanje redundancije. Na primer, korišćenje HTTPS-a i transparentnosti sertifikata podržane Blockchain, osigurava autentičnost web izvora, što otežava napadačima da naruše poverenje.
 
 
 #### Podsticaji za bezbednost
@@ -1210,13 +1195,13 @@ Razumevanje uloge podsticaja je ključno za održavanje bezbednosti. Na primer, 
 Strategije za osiguranje Bitcoin novčanika uključuju postavke sa više potpisa i diversifikovano skladištenje. Ove metode osiguravaju da čak i ako je jedan deo ugrožen, ukupna sigurnost ostaje netaknuta.
 
 
-#### Važnost Validacije
+#### Važnost validacije
 
 
 Konačno, validacija korisnika je ključna za održavanje sigurnosti mreže. Uloga svakog korisnika u validaciji transakcija i verifikaciji softverskih i hardverskih komponenti pomaže u očuvanju integriteta mreže i sprečavanju potencijalnih pretnji.
 
 
-U zaključku, razumevanje i integracija principa bezbednosti i pouzdanosti su ključni u dizajniranju robusnih sistema. Učeći iz istorijskih primera, primenjujući strategije iz stvarnog sveta i kontinuirano potvrđujući poverenje, možemo izgraditi sisteme koji su i bezbedni i pouzdani.
+Zaključno, razumevanje i integracija principa sigurnosti i pouzdanosti su ključni u dizajniranju robusnih sistema. Učeći iz istorijskih primera, primenjujući strategije iz stvarnog sveta i kontinuirano potvrđujući poverenje, možemo izgraditi sisteme koji su i sigurni i pouzdani.
 
 
 ## Besplatan i otvoren softver (FLOSS) u Bitcoin
@@ -1229,14 +1214,13 @@ U zaključku, razumevanje i integracija principa bezbednosti i pouzdanosti su kl
 
 :::video id=4544ef7a-685e-4aaf-98a0-8a10dce06172:::
 
-
-Korišćenje slobodnog i otvorenog softvera (FLOSS) je ključno u ekosistemu Bitcoin. Peter Todd istražuje važnost FLOSS-a za Bitcoin, istražujući istoriju FLOSS-a i ispitujući kako nam Github omogućava da zajednički gradimo softver otvorenog koda kao što je Bitcoin.
-
-
-### Priroda i važnost softvera
+Korišćenje slobodnog i otvorenog softvera (FLOSS) je ključno u ekosistemu Bitcoin. Peter Todd istražuje značaj FLOSS-a za Bitcoin, istražujući istoriju FLOSS-a i ispitujući kako nam Github omogućava da zajednički gradimo softver otvorenog koda kao što je Bitcoin.
 
 
-Softver, u svojoj suštini, je zbirka koda i podataka koji upućuju računarske uređaje kako da izvršavaju specifične zadatke. Za razliku od hardvera, koji zahteva fizičke materijale i proizvodne procese za replikaciju, softver se može lako kopirati i distribuirati uz gotovo nikakve troškove. Ova fundamentalna razlika igra ključnu ulogu u širenju i razvoju softvera.
+### Priroda i značaj softvera
+
+
+Softver, u svojoj suštini, je zbirka koda i podataka koja upućuje računarske uređaje kako da izvršavaju određene zadatke. Za razliku od hardvera, koji zahteva fizičke materijale i proizvodne procese za replikaciju, softver se može lako kopirati i distribuirati uz praktično nikakve troškove. Ova fundamentalna razlika igra ključnu ulogu u širenju i razvoju softvera.
 
 
 Jedna od ključnih razlika između softvera i hardvera je koncept otvorenog koda. Iako otvoreni hardver postoji, nije toliko rasprostranjen zbog složenosti uključenih u dupliciranje fizičkih objekata. Nasuprot tome, softver otvorenog koda napreduje zbog lakoće replikacije i distribucije. Softver otvorenog koda omogućava svakome da pregleda, modifikuje i distribuira kod, podstičući kolaborativno okruženje koje ubrzava inovacije i rešavanje problema.
@@ -1251,31 +1235,31 @@ Ukratko, priroda softvera kao lako replikabilnog koda i podataka, u kombinaciji 
 ### Istorija pokreta slobodnog softvera
 
 
-Pokret za slobodan softver ima svoje korene u ranim 1980-im, prvenstveno vođen vizijom Ričarda Stalmana o slobodi softvera. Frustriran restriktivnom prirodom vlasničkog softvera, Stalman je krenuo u misiju stvaranja softvera koji korisnici mogu slobodno koristiti, menjati i deliti. To je dovelo do osnivanja Fondacije za slobodan softver (FSF) 1985. godine.
+Pokret slobodnog softvera ima svoje korene u ranim 1980-im, prvenstveno vođen vizijom Ričarda Stalmana o slobodi softvera. Frustriran restriktivnom prirodom vlasničkog softvera, Stalman je započeo misiju stvaranja softvera koji korisnici mogu slobodno koristiti, menjati i deliti. To je dovelo do osnivanja Fondacije za slobodan softver (FSF) 1985. godine.
 
 
-Jedan od značajnih doprinosa Stallmana bio je razvoj GNU projekta, sa ciljem stvaranja besplatnog operativnog sistema sličnog Unix-u. GNU, što znači "GNU's Not Unix," obezbedio je mnoge ključne komponente potpuno besplatnog operativnog sistema. Međutim, nedostajao mu je kernel, suštinski deo operativnog sistema.
+Jedan od značajnih doprinosa Stallmana bio je razvoj GNU projekta, sa ciljem stvaranja besplatnog operativnog sistema sličnog Unix-u. GNU, što znači "GNU's Not Unix", obezbedio je mnoge ključne komponente potpuno besplatnog operativnog sistema. Međutim, nedostajao mu je kernel, osnovni deo operativnog sistema.
 
 
-Jaz između je popunio Linus Torvalds kreiranjem Linux kernela 1991. godine. Torvaldsov kernel, u kombinaciji sa GNU komponentama, rezultirao je potpuno funkcionalnim besplatnim operativnim sistemom poznatim kao GNU/Linux. Ova saradnja između Stallmanove filozofske Commitment za slobodu softvera i Torvaldsovog praktičnog doprinosa ilustruje moć pristupa otvorenog koda.
+Jaz između je popunio Linus Torvalds stvaranjem Linux kernela 1991. godine. Torvaldsov kernel, u kombinaciji sa GNU komponentama, rezultirao je potpuno funkcionalnim besplatnim operativnim sistemom poznatim kao GNU/Linux. Ova saradnja između Stallmanove filozofske Commitment za slobodu softvera i Torvaldsovog praktičnog doprinosa ilustruje moć pristupa otvorenog koda.
 
 
-![Image](assets/en/2/3.webp)
+![Image](assets/en/011.webp)
 
 
 Pokret za slobodan softver je duboko uticao na softversku industriju, promovišući ideju da softver treba da bude slobodan za sve da ga koriste, modifikuju i dele. Njegovi principi su postavili temelje za mnoge projekte otvorenog koda i zajednice koje danas cvetaju.
 
 
-### Ekonomija i finansiranje u otvorenom kodu
+### Ekonomija i finansiranje u open source-u
 
 
-Finansiranje i održavanje open-source projekata predstavlja jedinstvene izazove i prilike. Za razliku od vlasničkog softvera, koji generiše prihod kroz prodaju i naknade za licence, open-source projekti često se oslanjaju na alternativne modele finansiranja.
+Finansiranje i održavanje open-source projekata predstavljaju jedinstvene izazove i prilike. Za razliku od vlasničkog softvera, koji generiše prihod putem prodaje i licenci, open-source projekti često se oslanjaju na alternativne modele finansiranja.
 
 
-Jedan uspešan primer je Bitcoin Core, kritični deo infrastrukture Bitcoin. Programeri koji rade na Bitcoin Core često su finansirani putem grantova, donacija i sponzorstava od organizacija koje imaju koristi od uspeha projekta. Ovaj model omogućava programerima da se fokusiraju na unapređenje softvera bez ograničenja tradicionalnog komercijalnog finansiranja.
+Jedan uspešan primer je Bitcoin core, kritični deo infrastrukture Bitcoin. Programeri koji rade na Bitcoin core često su finansirani putem grantova, donacija i sponzorstava od organizacija koje imaju koristi od uspeha projekta. Ovaj model omogućava programerima da se fokusiraju na unapređenje softvera bez ograničenja tradicionalnog komercijalnog finansiranja.
 
 
-![Image](assets/en/2/4.webp)
+![Image](assets/en/012.webp)
 
 
 Još jedan istaknuti primer je operativni sistem Linux. Mnoge kompanije, kao što su IBM, Red Hat i Intel, doprinose razvoju Linux-a jer njihovi proizvodi i usluge zavise od robusnog i sigurnog operativnog sistema. Ove kompanije pružaju finansijsku podršku, doprinose kodom i nude resurse za održavanje i unapređenje Linux ekosistema.
@@ -1284,7 +1268,7 @@ Još jedan istaknuti primer je operativni sistem Linux. Mnoge kompanije, kao št
 Licence otvorenog koda, kao što su MIT, GPL i AGPL, takođe igraju ključnu ulogu u ekonomskim dinamikama softvera otvorenog koda. Dozvoljavajuće licence poput MIT omogućavaju fleksibilniju upotrebu koda, uključujući komercijalizaciju. Nasuprot tome, copyleft licence poput GPL osiguravaju da svaki izvedeni rad takođe mora biti otvorenog koda, podstičući kolaborativno okruženje.
 
 
-![Image](assets/en/2/5.webp)
+![Image](assets/en/013.webp)
 
 
 Zaključno, ekonomija softvera otvorenog koda pokreće se doprinosima zajednice, korporativnim sponzorstvima i inovativnim modelima finansiranja. Ovi mehanizmi osiguravaju održivost i kontinuirano unapređenje projekata otvorenog koda, što koristi i programerima i korisnicima.
@@ -1300,71 +1284,70 @@ Zaključno, ekonomija softvera otvorenog koda pokreće se doprinosima zajednice,
 
 :::video id=b482b0f0-4468-4eaf-bcd6-eb4748bdfa3a:::
 
-
 Dobrodošli! Danas ćemo se upustiti u ključne aspekte kriptografije koje bi svaki Bitcoin programer trebao znati. Fokusiraćemo se na osnovne pojmove i praktične primene, bez preopterećivanja prekomernim teoretskim detaljima. Primarni cilj je da vas opremimo znanjem za razumevanje, implementaciju i rešavanje problema kriptografskih mehanizama u Bitcoin na efikasan način.
 
 
-### Osnovni Kriptografski Koncepti za Bitcoin Programere
+### Osnovni kriptografski koncepti za Bitcoin programere
 
 
-U ovom odeljku, istražićemo ključne kriptografske koncepte neophodne za Bitcoin developere, uključujući Hash funkcije, Merkle stabla, digitalne potpise i eliptičke krive.
+U ovom odeljku, istražićemo ključne kriptografske koncepte neophodne za Bitcoin programere, uključujući Hash funkcije, Merkle stabla, digitalne potpise i eliptičke krive.
 
 
-![Image](assets/en/2/6.webp)
+![Image](assets/en/014.webp)
 
 
-**Hash Funkcije**: Hash funkcija uzima ulaz i proizvodi string bajtova fiksne dužine. U Bitcoin, Hash funkcije su fundamentalne za integritet podataka i sigurnost. Kriptografske Hash funkcije moraju biti efikasne, generate naizgled nasumične izlaze, i proizvoditi izlaze fiksne dužine bez obzira na veličinu ulaza. Koriste se za proveru integriteta fajlova, osiguravajući da podaci nisu zlonamerno izmenjeni.
+**Hash funkcije**: Hash funkcija uzima ulaz i proizvodi string bajtova fiksne dužine. U Bitcoin, Hash funkcije su fundamentalne za integritet podataka i sigurnost. Kriptografske Hash funkcije moraju biti efikasne, generate naizgled nasumične izlaze, i proizvoditi izlaze fiksne dužine bez obzira na veličinu ulaza. Koriste se za proveru integriteta fajlova, osiguravajući da podaci nisu zlonamerno izmenjeni.
 
 
-![Image](assets/en/2/7.webp)
+![Image](assets/en/015.webp)
 
 
-**Svojstva sigurnosti**: Kriptografske funkcije Hash moraju se pridržavati nekoliko sigurnosnih svojstava. Otpornost na pre-image osigurava da je računski neizvodljivo obrnuto inženjerisati originalni unos iz Hash izlaza. Otpornost na drugi pre-image znači da bi trebalo biti teško pronaći drugačiji unos koji proizvodi isti Hash izlaz. Otpornost na koliziju osigurava da je malo verovatno pronaći dva različita unosa koja daju isti Hash izlaz.
+**Bezbednosne osobine**: Kriptografske Hash funkcije moraju ispunjavati nekoliko bezbednosnih osobina. Otpornost na pre-image osigurava da je računarski neizvodljivo obrnuti inženjering originalnog ulaza iz Hash izlaza. Otpornost na drugi pre-image znači da bi trebalo biti teško pronaći drugačiji ulaz koji proizvodi isti Hash izlaz. Otpornost na koliziju osigurava da je malo verovatno pronaći dva različita ulaza koja daju isti Hash izlaz.
 
 
-**Merkle Trees**: A Merkle Tree je struktura podataka koja omogućava efikasnu i sigurnu verifikaciju velikih skupova podataka. Stavke podataka se heširaju u parovima, a rezultujući heševi se kombinuju iterativno kako bi se formirao jedan koren Hash. U Bitcoin, Merkle stabla su ključna u kreiranju blokova i verifikaciji transakcija, posebno za klijente sa Pojednostavljenom Verifikacijom Plaćanja (SPV) i u Taproot (Mast).
+**Merkle trees**: A Merkle Tree je struktura podataka koja omogućava efikasnu i sigurnu verifikaciju velikih skupova podataka. Stavke podataka se heširaju u parovima, pri čemu se rezultujući heševi kombinuju iterativno da bi se formirao jedan koren Hash. U Bitcoin, Merkle stabla su ključna u kreiranju blokova i verifikaciji transakcija, posebno za klijente sa Pojednostavljenom Verifikacijom Plaćanja (SPV) i u Taproot (Mast).
 
 
-![Image](assets/en/2/8.webp)
+![Image](assets/en/016.webp)
 
 
-**Digital Signatures (ECDSA)**: Algoritam za digitalni potpis eliptičke krive (ECDSA) koristi se za osiguranje autentičnosti i integriteta u Bitcoin transakcijama. Uključuje generisanje potpisa korišćenjem privatnog ključa koji se može verifikovati korišćenjem odgovarajućeg javnog ključa. Ključni koncepti uključuju razumevanje konačnih polja, diskretnih logaritama i važnost nonseva.
+**Digital signatures (ECDSA)**: Algoritam za digitalni potpis eliptičke krive (ECDSA) koristi se za osiguranje autentičnosti i integriteta u Bitcoin transakcijama. Uključuje generisanje potpisa korišćenjem privatnog ključa koji se može verifikovati korišćenjem odgovarajućeg javnog ključa. Ključni koncepti uključuju razumevanje konačnih polja, diskretnih logaritama i važnosti nonseva.
 
 
-**Eliptičke Krive**: Eliptičke krive se koriste u kriptografiji javnog ključa zbog njihove efikasnosti i sigurnosti. Sigurnost kriptografije eliptičkih krivih oslanja se na težinu rešavanja problema diskretnog logaritma.
+**Eliptičke krive**: Eliptičke krive se koriste u kriptografiji javnog ključa zbog njihove efikasnosti i sigurnosti. Sigurnost kriptografije eliptičkih krivih oslanja se na težinu rešavanja problema diskretnog logaritma.
 
 
-![Image](assets/en/2/9.webp)
+![Image](assets/en/017.webp)
 
 
-### Praktične Kriptografske Aplikacije i Bezbednosne Prakse u Bitcoin
+### Praktične kriptografske aplikacije i bezbednosne prakse u Bitcoin
 
 
 U ovom odeljku ćemo istražiti primenu ovih koncepata u razvoju Bitcoin u stvarnom svetu i najbolje bezbednosne prakse koje treba slediti.
 
 
-**Kriptografija = Opasnost**: Kriptografija je mač sa dve oštrice. Dok štiti od slučajnog oštećenja podataka i zlonamernih radnji, nepravilna implementacija može dovesti do ozbiljnih ranjivosti. Programeri moraju duboko razumeti kriptografske mehanizme kako bi osigurali sigurnu implementaciju i sposobnost rešavanja potencijalnih problema. Na primer, SHA-2 izlaz od 256 bita osigurava da napadi preimage zahtevaju oko 2^256 rada, sa otpornošću na kolizije oko 2^128 rada.
+**Kriptografija = opasnost**: Kriptografija je mač sa dve oštrice. Dok štiti od slučajnog oštećenja podataka i zlonamernih akcija, nepravilna implementacija može dovesti do ozbiljnih ranjivosti. Programeri moraju duboko razumeti kriptografske mehanizme kako bi osigurali sigurnu implementaciju i sposobnost rešavanja potencijalnih problema. Na primer, SHA-2 izlaz od 256 bita osigurava da su napadi pretrage preimage potrebni oko 2^256 rada, sa otpornošću na kolizije oko 2^128 rada.
 
 
-![Image](assets/en/2/10.webp)
+![Image](assets/en/018.webp)
 
 
-**Merkle Tree Aplikacije**: Razumevanje logaritamske veličine dokaza i osiguravanje pažljivog dizajna stabla je ključno kako bi se izbegle greške, kao što je dupliranje Hash u verifikaciji transakcija. Merkle stabla se koriste u kreiranju blokova, verifikaciji transakcija i poboljšanjima kao što je Taproot.
+**Merkle Tree aplikacije**: Razumevanje logaritamske veličine dokaza i osiguravanje pažljivog dizajna stabla je ključno kako bi se izbegle greške, kao što je dupliranje Hash u verifikaciji transakcija. Merkle stabla se koriste u kreiranju blokova, verifikaciji transakcija i poboljšanjima kao što je Taproot.
 
 
 **Javna ključna kriptografija**: Diskretni logaritmi i konačna polja su fundamentalni u kriptografskim proračunima u Bitcoin. Protokoli izazov-odgovor se koriste za verifikaciju znanja privatnog ključa bez njegovog otkrivanja.
 
 
-![Image](assets/en/2/11.webp)
+![Image](assets/en/019.webp)
 
 
-**Bezbednosne implikacije**: Istorijski primeri pokazuju značajne finansijske gubitke zbog ponovne upotrebe Nonce. Razumevanje važnosti generisanja jedinstvenih nonce-ova je ključno. Korišćenje pouzdanih biblioteka kao što je LibSecP256k1 obezbeđuje robusne i sigurne kriptografske operacije.
+**Implikacije bezbednosti**: Istorijski primeri pokazuju značajne finansijske gubitke zbog ponovne upotrebe Nonce. Razumevanje važnosti generisanja jedinstvenih nonce-a je ključno. Korišćenje pouzdanih biblioteka kao što je LibSecP256k1 obezbeđuje robusne i sigurne kriptografske operacije.
 
 
-**Eliptička kriptografija krivih (ECC)**: Šeme potpisa su evoluirale od identitetskih protokola do šema poput Schnorr potpisa, trenutno korišćenih u Bitcoin (BIP 340). Poznavanje eliptičkih krivih i aritmetike konačnih polja osigurava sigurne kriptografske implementacije.
+**Elliptic Curve Cryptography (ECC)**: Šeme potpisa su evoluirale od identitetskih protokola do šema poput Schnorr potpisa, trenutno korišćenih u Bitcoin (BIP 340). Poznavanje eliptičnih krivih i aritmetike konačnih polja osigurava sigurne kriptografske implementacije.
 
 
-**Opšti Saveti za Programere**: Kriptografski protokoli moraju proći detaljne recenzije od strane stručnjaka. Programeri moraju biti precizni i potpuno razumeti svaki korak kriptografskih procedura. Svest o uobičajenim zamkama u implementaciji kriptografije može sprečiti značajne ranjivosti.
+**Opšti saveti za programere**: Kriptografski protokoli moraju proći temeljne recenzije od strane stručnjaka. Programeri moraju biti precizni i potpuno razumeti svaki korak kriptografskih procedura. Svest o uobičajenim zamkama u implementaciji kriptografije može sprečiti značajne ranjivosti.
 
 
 **Eliptičke krive u kriptografiji**: Podešavanje ključeva i sigurnost su važni aspekti, kao što je modifikacija javnog ključa korišćenjem dodatnog privatnog ključa uz osiguranje sigurnosti. Specifična eliptička kriva Bitcoin, SECP256K1, i njeni parametri (P i N) su osnovni za njenu implementaciju.
@@ -1373,16 +1356,16 @@ U ovom odeljku ćemo istražiti primenu ovih koncepata u razvoju Bitcoin u stvar
 #### Zaključak
 
 
-U ovom predavanju istražili smo osnovne kriptografske koncepte koji podržavaju sigurnost i funkcionalnost Bitcoin. Od ključnih uloga Hash funkcija, Merkle stabala i digitalnih potpisa do složene matematike eliptičke kriptografije, ovi Elements čine okosnicu decentralizovane mreže Bitcoin. Razumevanje ovih koncepata nije samo u shvatanju teorije—radi se o prepoznavanju praktičnih implikacija i potencijalnih zamki u razvoju u stvarnom svetu.
+U ovom predavanju, istražili smo osnovne kriptografske koncepte koji podržavaju sigurnost i funkcionalnost Bitcoin. Od ključnih uloga Hash funkcija, Merkle stabala i digitalnih potpisa do složene matematike eliptičke kriptografije, ovi Elements čine okosnicu decentralizovane mreže Bitcoin. Razumevanje ovih koncepata nije samo u shvatanju teorije—radi se o prepoznavanju praktičnih implikacija i potencijalnih zamki u razvoju u stvarnom svetu.
 
 
-Kao Bitcoin developeri, neophodno je pristupiti kriptografskim implementacijama s oprezom i preciznošću. Sigurnost Bitcoin mreže u velikoj meri zavisi od pravilne i sigurne primene ovih kriptografskih principa. Bilo da verifikujete transakcije, dizajnirate nove funkcije ili osiguravate integritet Blockchain, duboko poznavanje kriptografije omogućiće vam da izgradite robusnija, sigurnija i inovativnija rešenja unutar Bitcoin ekosistema.
+Kao Bitcoin developeri, neophodno je pristupiti kriptografskim implementacijama sa oprezom i preciznošću. Bezbednost Bitcoin mreže u velikoj meri zavisi od pravilne i sigurne primene ovih kriptografskih principa. Bilo da verifikujete transakcije, dizajnirate nove funkcije ili osiguravate integritet Blockchain, duboko poznavanje kriptografije omogućiće vam da izgradite robusnija, sigurnija i inovativnija rešenja unutar Bitcoin ekosistema.
 
 
 Savladavanjem ovih koncepata i pridržavanjem najboljih praksi, bićete dobro opremljeni da efikasno doprinesete daljem razvoju Bitcoin, osiguravajući njegovu otpornost i sigurnost za budućnost.
 
 
-## Bitcoin-ov Model Upravljanja
+## Bitcoin's Governance Model
 
 
 <chapterId>a30ec3e7-b290-5145-a9a9-042224ab20d2</chapterId>
@@ -1392,11 +1375,10 @@ Savladavanjem ovih koncepata i pridržavanjem najboljih praksi, bićete dobro op
 
 :::video id=91a38c17-5801-4a5c-baf2-c9e4cc24fd84:::
 
-
 ### Priroda Bitcoin
 
 
-Bitcoin je digitalna valuta koja funkcioniše na konsenzusnom protokolu, skupu pravila o kojima su se složili učesnici mreže kako bi se osigurala uniformnost i funkcionalnost. U svojoj srži, Bitcoin je decentralizovani Ledger poznat kao Blockchain, gde transakcije beleže i verifikuju mrežni čvorovi. Puni čvorovi, koji čuvaju celu istoriju Bitcoin Blockchain, igraju ključnu ulogu u održavanju integriteta ovog Ledger. Drugi tipovi čvorova, kao što su arhivski čvorovi, pruned čvorovi i SPV (Simplified Payment Verification) čvorovi, takođe doprinose mreži na različite načine. Konsenzusni protokol osigurava da se svi ovi čvorovi slažu oko stanja Blockchain, čineći Bitcoin otpornim na cenzuru i prevaru.
+Bitcoin je digitalna valuta koja funkcioniše na konsenzusnom protokolu, skupu pravila o kojima se dogovaraju učesnici mreže kako bi se osigurala uniformnost i funkcionalnost. U svojoj srži, Bitcoin je decentralizovani Ledger poznat kao Blockchain, gde transakcije beleže i verifikuju mrežni čvorovi. Puni čvorovi, koji čuvaju celu istoriju Bitcoin Blockchain, igraju ključnu ulogu u održavanju integriteta ovog Ledger. Drugi tipovi čvorova, kao što su arhivski čvorovi, pruned čvorovi i SPV (Simplified Payment Verification) čvorovi, takođe doprinose mreži na različite načine. Konsenzusni protokol osigurava da se svi ovi čvorovi slažu oko stanja Blockchain, čineći Bitcoin otpornim na cenzuru i prevaru.
 
 
 #### Sprečavanje promena
@@ -1405,28 +1387,28 @@ Bitcoin je digitalna valuta koja funkcioniše na konsenzusnom protokolu, skupu p
 Upravljanje u Bitcoin je ključno za sprečavanje proizvoljnih ili zlonamernih promena u protokolu. Ovo se postiže kroz mehanizam konsenzusa koji zahteva širok dogovor unutar zajednice. Programeri sa znanjem programiranja igraju značajnu ulogu u predlaganju promena, ali te promene moraju biti prihvaćene od strane šire zajednice da bi bile implementirane.
 
 
-Bitcoin Jezgro i alternativne implementacije imaju održavaoce koji nadgledaju razvoj i održavanje softvera. Ovi održavaoci su odgovorni za spajanje promena u kodu, osiguravajući da se pridržavaju pravila konsenzusa i da ne uvode ranjivosti.
+Bitcoin core i alternativne implementacije imaju održavaoce koji nadgledaju razvoj i održavanje softvera. Ovi održavaoci su odgovorni za spajanje promena u kodu, osiguravajući da se pridržavaju pravila konsenzusa i da ne uvode ranjivosti.
 
 
-#### Soft Forks vs Hard Forks
+#### Soft viljuške vs Hard viljuške
 
 
-Vilice Soft su izmene koje pooštravaju postojeća pravila protokola Bitcoin, čineći neke prethodno važeće transakcije nevažećim. One su unazad kompatibilne, što znači da će čvorovi koji nisu nadograđeni i dalje prepoznavati nova pravila. Primer Soft Fork je ispravka greške prelivanja iz 2010. godine, koja je sprečila stvaranje novca ni iz čega.
+Vilice Soft su izmene koje pooštravaju postojeća pravila protokola Bitcoin, čineći neke prethodno važeće transakcije nevažećim. One su unazad kompatibilne, što znači da će čvorovi koji nisu nadograđeni i dalje prepoznati nova pravila. Primer Soft Fork je ispravka greške prelivanja iz 2010. godine, koja je sprečila stvaranje novca ni iz čega.
 
 
-Hard forkovi su promene koje olakšavaju postojeća pravila, omogućavajući nove tipove transakcija. Oni nisu unazad kompatibilni, što znači da čvorovi koji nisu nadograđeni neće prepoznati nova pravila. Primer Hard Fork bi mogao biti potreban za problem Godine 2106 kako bi se osiguralo da Bitcoin nastavi sa funkcionisanjem nakon ovog datuma.
+Vilice Hard su promene koje olakšavaju postojeća pravila, omogućavajući nove tipove transakcija. Ove promene nisu unazad kompatibilne, što znači da čvorovi koji nisu nadograđeni neće prepoznati nova pravila. Primer Hard Fork bi mogao biti potreban za problem Godine 2106 kako bi se osiguralo da Bitcoin nastavi da funkcioniše nakon ovog datuma.
 
 
-![Image](assets/en/2/12.webp)
+![Image](assets/en/020.webp)
 
 
-![Image](assets/en/2/13.webp)
+![Image](assets/en/021.webp)
 
 
 ### Primeri upravljanja
 
 
-Nekoliko primera iz stvarnog sveta ilustruje upravljanje Bitcoin na delu. Ispravka greške prelivanja iz 2010. godine bila je Soft Fork koja je rešila kritičnu manu. Problem godine 2106 verovatno će zahtevati Hard Fork da Address njegove implikacije. Prelazak sa najdužeg lanca na lanac sa najviše rada odražava značajnu odluku o upravljanju koja je uticala na način postizanja konsenzusa.
+Nekoliko primera iz stvarnog sveta ilustruje Bitcoin upravljanje na delu. Ispravka greške prelivanja iz 2010. godine bila je Soft Fork koja je rešila kritičnu manu. Problem godine 2106 verovatno će zahtevati Hard Fork do Address za rešavanje njegovih implikacija. Prelazak sa najdužeg lanca na lanac sa najviše rada odražava značajnu odluku o upravljanju koja je uticala na način postizanja konsenzusa.
 
 
 Upravljanje Bitcoin takođe se bavi promenama u stvarnom svetu u korišćenju protokola. Na primer, uvođenje ordinala i natpisa ilustruje kako promene protokola mogu da ne uspeju u cenzurisanju transakcija. Slično tome, implementacija Full RBF (Replace-by-fee) promenila je procedure zamene transakcija bez promene pravila konsenzusa.
@@ -1438,19 +1420,19 @@ Upravljanje Bitcoin takođe se bavi promenama u stvarnom svetu u korišćenju pr
 Promene na Bitcoin mogu biti vođene različitim motivacijama, kao što su ispravljanje kritičnih grešaka, uvođenje novih funkcija ili ograničavanje promena zbog ekonomskih ili političkih razloga. Ove motivacije često dovode do debata unutar zajednice o tome šta predstavlja grešku naspram funkcije i ukupnom uticaju na mrežu.
 
 
-Konsenzusni mehanizam Bitcoin čini ga inherentno političkim, zahtevajući širok dogovor kako bi promene bile prihvaćene. Ovaj politički aspekt je ključan za održavanje decentralizovane prirode mreže i osiguranje da su sve izmene u najboljem interesu zajednice.
+Konsenzusni mehanizam Bitcoin je inherentno politički, zahtevajući širok dogovor da bi promene bile prihvaćene. Ovaj politički aspekt je ključan za održavanje decentralizovane prirode mreže i osiguravanje da su sve izmene u najboljem interesu zajednice.
 
 
-Pokretanje čvorova može validirati Bitcoin pravila i učestvovati u mreži, čak i sa različitim komunikacionim protokolima kao što je Blockstream Satellite. Ovo naglašava razdvajanje između Bitcoin mehanizma konsenzusa i metoda komunikacije podataka koje koristi mreža. Ekonomski značaj čvorova, posebno onih koje pokreću veliki entiteti kao što je Binance, može uticati na usvajanje promena. Ovi entiteti imaju značajne ekonomske interese u mreži i mogu uticati na odluke pokretanjem uticajnih čvorova.
+Pokretanje čvorova može validirati Bitcoin pravila i učestvovati u mreži, čak i sa različitim komunikacionim protokolima kao što je Blockstream Satellite. Ovo naglašava razdvajanje između Bitcoin mehanizma konsenzusa i metoda komunikacije podataka koje koristi mreža. Ekonomski značaj čvorova, posebno onih koje pokreću veliki entiteti poput Binance-a, može uticati na usvajanje promena. Ovi entiteti imaju značajne ekonomske interese u mreži i mogu uticati na odluke pokretanjem uticajnih čvorova.
 
 
 ### Debata o veličini bloka
 
 
-Debata o veličini bloka bila je značajno pitanje upravljanja, koja se vrtela oko toga da li povećati veličinu bloka Bitcoin. Ova kontroverza je rešena implementacijom SegWit, Soft Fork koja je povećala efektivnu veličinu bloka i omogućila Lightning Network.
+Debata o veličini bloka bila je značajno pitanje upravljanja, koja se vrtela oko toga da li povećati veličinu bloka Bitcoin. Ova kontroverza je rešena implementacijom SegWit, Soft Fork koji je povećao efektivnu veličinu bloka i omogućio Lightning Network.
 
 
-![Image](assets/en/2/14.webp)
+![Image](assets/en/022.webp)
 
 
 ### Prinudne promene i vladavina većine
@@ -1459,19 +1441,19 @@ Debata o veličini bloka bila je značajno pitanje upravljanja, koja se vrtela o
 Bilo je pravnih pokušaja da se primoraju developeri Bitcoin da izmene pravila Blockchain radi lične koristi, kao što su tužbe od strane Craiga Wrighta. Ovi pokušaji ističu izazove i etičke razmatranja uključene u upravljanje Bitcoin.
 
 
-U Bitcoin, pravilo većine igra ključnu ulogu. Ako 60% rudara usvoji novo pravilo, njihovi blokovi će biti odbijeni od strane onih koji koriste originalni Bitcoin Core, što dovodi do podele. Primer neuspelog Hard Fork zbog nedostatka podrške zajednice je Bitcoin Satoshi's Vision (BSV).
+U Bitcoin, pravilo većine igra ključnu ulogu. Ako 60% rudara usvoji novo pravilo, njihovi blokovi će biti odbijeni od strane onih koji koriste originalni Bitcoin core, što će dovesti do podele. Primer neuspelog Hard Fork zbog nedostatka podrške zajednice je Bitcoin Satoshi's Vision (BSV).
 
 
 Hajde da ukratko pregledamo neke važne pojmove.
 
 
-**Forced Soft Fork**: Koncept primene restriktivnih pravila za promenu Bitcoin može dovesti do daljih podela i problema u upravljanju. Ovaj pristup ilustruje složenosti i potencijalne sukobe unutar zajednice Bitcoin.
+**Forced Soft Fork**: Koncept uvođenja restriktivnih pravila za promenu Bitcoin može dovesti do daljih podela i problema u upravljanju. Ovaj pristup ilustruje složenosti i potencijalne sukobe unutar zajednice Bitcoin.
 
 
-**51% Attack**: Napad od 51% opisuje scenarijo u kojem većina hashing snage može napasti Bitcoin praznim blokovima Mining. Ovo bi moglo efikasno uništiti mrežu osim ako zajednica ne usvoji nova pravila konsenzusa da Address napad.
+**51% napad**: 51% napad opisuje scenario gde većina hešing snage može napasti Bitcoin praznim blokovima Mining. Ovo bi moglo efikasno uništiti mrežu osim ako zajednica ne usvoji nova pravila konsenzusa da Address napad.
 
 
-**Check-Lock-Time-Verify (CLTV)**: Check-Lock-Time-Verify (CLTV) je primer promene upravljanja implementirane kao Soft Fork. CLTV osigurava da su transakcije validne tek nakon određenog vremena, što je korisno za platne kanale i rezervne ključeve. Ova promena je pooštrila pravila koristeći opcode koji ranije nije radio ništa.
+**Check-Lock-Time-Verify (CLTV)**: Check-Lock-Time-Verify (CLTV) je primer promene upravljanja implementirane kao Soft Fork. CLTV osigurava da su transakcije važeće tek nakon određenog vremena, što je korisno za kanale plaćanja i rezervne ključeve. Ova promena je pooštrila pravila koristeći opcode koji prethodno nije radio ništa.
 
 
 Zaključno, budućnost i promene Bitcoin određene su kolektivnom voljom njegovih korisnika. Značajne promene zahtevaju široki konsenzus, što odražava decentralizovanu i političku prirodu upravljanja Bitcoin.
@@ -1493,14 +1475,13 @@ Zaključno, budućnost i promene Bitcoin određene su kolektivnom voljom njegovi
 
 :::video id=6fae79f6-da81-4870-927b-923bd1672176:::
 
-
-Adam Gibson razlaže različite komponente Bitcoin čvora. Poglavlje se fokusira na ulogu koju svaka komponenta igra u održavanju funkcionalnosti i integriteta mreže. Posebno se fokusira na to zašto bismo trebali pokrenuti Bitcoin čvor, šta Bitcoin čvor radi i kako funkcionišu različite komponente Bitcoin čvora.
-
-
-### Uvod u Bitcoin Čvorove
+Adam Gibson razlaže različite komponente Bitcoin čvora. Poglavlje se fokusira na ulogu koju svaka komponenta ima u održavanju funkcionalnosti i integriteta mreže. Posebno se fokusira na to zašto bismo trebali pokrenuti Bitcoin čvor, šta Bitcoin čvor radi i kako funkcionišu različite komponente Bitcoin čvora.
 
 
-Razumevanje uloge Bitcoin čvorova je ključno za svakoga ko je uključen u Bitcoin mrežu. Pokretanje Bitcoin čvora omogućava korisnicima da validiraju transakcije, učestvuju u konsenzusu i održavaju kontrolu nad svojom privatnošću. Ovo predavanje istražuje zašto je pokretanje Bitcoin čvora korisno i kako doprinosi ukupnoj sigurnosti i decentralizaciji Bitcoin mreže.
+### Uvod u Bitcoin čvorove
+
+
+Razumevanje uloge Bitcoin čvorova je ključno za svakoga ko je uključen u Bitcoin mrežu. Pokretanje Bitcoin čvora omogućava korisnicima da validiraju transakcije, učestvuju u konsenzusu i održavaju kontrolu nad svojom privatnošću. Ovo predavanje istražuje zašto je korisno pokretati Bitcoin čvor i kako to doprinosi ukupnoj sigurnosti i decentralizaciji Bitcoin mreže.
 
 
 ### Zašto pokrenuti Bitcoin čvor?
@@ -1509,9 +1490,9 @@ Razumevanje uloge Bitcoin čvorova je ključno za svakoga ko je uključen u Bitc
 Pokretanje Bitcoin čvora je ključno iz nekoliko razloga:
 
 
-1. **Verifikacija**: Pokretanjem čvora, možete sami verifikovati transakcije, osiguravajući da je Bitcoin koji primate važeći bez oslanjanja na treće strane.
+1. **Verifikacija**: Pokretanjem čvora možete sami verifikovati transakcije, osiguravajući da je Bitcoin koji primate važeći bez oslanjanja na treće strane.
 
-2. **Učešće u Konsenzusu**: Čvorovi igraju ključnu ulogu u određivanju pravila Bitcoin mreže, tako da učešće u konsenzusu pomaže u održavanju integriteta i sigurnosti Blockchain.
+2. **Učešće u konsenzusu**: Čvorovi igraju ključnu ulogu u određivanju pravila mreže Bitcoin, tako da učešće u konsenzusu pomaže u održavanju integriteta i sigurnosti Blockchain.
 
 3. **Privatnost i kontrola**: Pokretanje sopstvenog čvora osigurava da ne morate da se oslanjate na spoljne čvorove, koji bi mogli ugroziti vašu privatnost praćenjem vaših transakcija i Wallet stanja.
 
@@ -1523,10 +1504,10 @@ Pokretanje Bitcoin čvora je ključno iz nekoliko razloga:
 - Čuva listu vršnjaka**: Čvorovi moraju pronaći i povezati se sa drugim čvorovima u mreži kako bi Exchange informacije.
 - Prima i šalje važeće transakcije i blokove**: Bitcoin čvorovi su odgovorni za propagaciju važećih transakcija i blokova kroz mrežu.
 - Čuva istoriju blokova i najteži lanac**: Čvorovi čuvaju sopstvenu kopiju Blockchain, što im omogućava da potvrde autentičnost transakcija i blokova.
-- Održava listu važećih kandidata; Mempool**: Čvorovi moraju čuvati listu mogućih kandidata za transakcije u Mempool koji će biti uključeni u blokove.
+- Održava listu validnih kandidata; Mempool**: Čvorovi moraju čuvati listu mogućih kandidata za transakcije u Mempool koji će biti uključeni u blokove.
 
 
-![nodes network](assets/en/3/18.webp)
+![nodes network](assets/en/023.webp)
 
 
 **NAPOMENA**: Mempool je privremeno skladište za transakcije koje su validirane, ali još nisu uključene u blok.
@@ -1535,27 +1516,27 @@ Pokretanje Bitcoin čvora je ključno iz nekoliko razloga:
 ### Komponente čvora
 
 
-#### Bitcoin Osnovni Moduli
+#### Bitcoin core moduli
 
 
-![Bitcoin core modules](assets/en/3/19.webp)
+![Bitcoin core modules](assets/en/024.webp)
 
 
 
 - Otkrivanje vršnjaka**: Otkrivanje vršnjaka je proces putem kojeg čvor pronalazi druge čvorove za povezivanje.
-- Validation engine**: Validation engine je odgovoran za proveru validnosti transakcija i blokova u skladu sa pravilima mreže.
-- RPC (Remote Procedure Call)**: Bitcoin Core uključuje RPC Interface koji omogućava eksternim aplikacijama, kao što su novčanici, da komuniciraju sa čvorom.
-- Skladištenje blokova i stanja lanca**: Bitcoin Core može skladištiti ceo Blockchain ili ne, bilo da je arhivski ili skraćeni čvor. Takođe skladišti trenutno stanje mreže (UTXO skup) na disku.
+- Validacioni mehanizam**: Validacioni mehanizam je odgovoran za proveru validnosti transakcija i blokova u skladu sa pravilima mreže.
+- RPC (Remote Procedure Call)**: Bitcoin core uključuje RPC Interface koji omogućava eksternim aplikacijama, kao što su novčanici, da komuniciraju sa čvorom.
+- Skladištenje blokova i stanja lanca**: Bitcoin core može skladištiti ceo Blockchain ili ne, bilo da je arhivski ili pruned čvor. Takođe skladišti trenutno stanje mreže (Skup UTXO) na disku.
 
 
 #### Šta možemo ukloniti?
 
 
 
-- Miner**: Većina Bitcoin čvorova ne učestvuje u Mining zbog visoke potrebne računske snage.
-- RPC (Server)**: Bitcoin Core implementira JSON-RPC Interface kojem se može pristupiti korišćenjem komandne linije pomoću bitcoin-cli.
-- Wallet (disablewallet)**: Ako više volite da koristite eksterni Wallet, možete onemogućiti funkcionalnost Wallet u Bitcoin Core. Ovo vam omogućava da upravljate svojim privatnim ključevima odvojeno.
-- Mempool (blocksonly)**: Za korisnike koji žele da minimiziraju upotrebu propusnog opsega, pokretanje čvora u režimu "blocksonly" može biti rešenje gde čvor obrađuje samo blokove, ignorišući transakcije.
+- Miner**: Većina čvorova Bitcoin ne učestvuje u Mining zbog visoke potrebne računarske snage.
+- RPC (Server)**: Bitcoin core implementira JSON-RPC Interface kojem se može pristupiti korišćenjem komandne linije pomoćnika bitcoin-cli.
+- Wallet (disablewallet)**: Ako više volite da koristite eksterni Wallet, možete onemogućiti funkcionalnost Wallet u Bitcoin core. Ovo vam omogućava da upravljate svojim privatnim ključevima odvojeno.
+- Mempool (blocksonly)**: Za korisnike koji žele da minimiziraju upotrebu propusnog opsega, pokretanje "blocksonly" čvora može biti rešenje gde čvor obrađuje samo blokove, ignorišući transakcije.
 
 
 ### Stanje lanca
@@ -1564,7 +1545,7 @@ Pokretanje Bitcoin čvora je ključno iz nekoliko razloga:
 #### Gde su novčići?
 
 
-Novčići nisu pohranjeni na adresama; oni se nalaze u UTXO-ima, koji predstavljaju sve izlaze transakcija koje nisu potrošene. Ove informacije možete dohvatiti pomoću komande:
+Novčići nisu pohranjeni na adresama; oni se nalaze u UTXO-ima, koji predstavljaju sve izlaze transakcija koje nisu potrošene. Ove informacije možete dobiti pomoću komande:
 
 
 ```Bash
@@ -1572,7 +1553,7 @@ bitcoin-cli gettxoutsetinfo
 ```
 
 
-![utxoset info command](assets/en/3/20.webp)
+![utxoset info command](assets/en/025.webp)
 
 
 Možemo proveriti da je broj Bitcoina tačan.
@@ -1591,28 +1572,28 @@ Možemo proveriti da je broj Bitcoina tačan.
 **VAŽNO**: Transakcije nisu isto što i UTXO-i.
 
 
-![Txs and UTXOs](assets/en/3/21.webp)
+![Txs and UTXOs](assets/en/026.webp)
 
 
 #### Mempool
 
 
-To je lista nepotvrđenih transakcija u svakom čvoru, koje se nazivaju kandidovanim transakcijama. Skladište se u RAM-u radi bržeg pristupa i nisu deo konsenzusa.
+To je lista nepotvrđenih transakcija u svakom čvoru, koje se nazivaju kandidovane transakcije. Skladištene su u RAM-u radi bržeg pristupa i nisu deo konsenzusa.
 
 
-#### Razmatranja o bezbednosti za Bitcoin čvorove
+#### Bezbednosne razmatranja za Bitcoin čvorove
 
 
-Bezbednost je od suštinskog značaja prilikom pokretanja Bitcoin čvora. Evo nekoliko ključnih razmatranja koja treba imati na umu:
+Bezbednost je od suštinskog značaja kada pokrećete Bitcoin čvor. Evo nekoliko ključnih razmatranja koja treba imati na umu:
 
 
 #### Izbegavanje centralizacije
 
 
-Oslanjanje na jedan izvor za Blockchain podatke, kao što je preuzimanje svih blokova sa centralnog servera, nosi značajne rizike. Da bi se očuvala decentralizovana priroda Bitcoin, čvorovi bi trebalo da se povežu sa više vršnjaka i validiraju podatke koje primaju.
+Oslanjanje na jedan izvor za Blockchain podatke, kao što je preuzimanje svih blokova sa centralnog servera, predstavlja značajne rizike. Da bi se očuvala decentralizovana priroda Bitcoin, čvorovi bi trebalo da se povežu sa više vršnjaka i validiraju podatke koje primaju.
 
 
-#### Sprečavanje napada izolacije
+#### Sprečavanje izolacionih napada
 
 
 Izolacioni napadi se dešavaju kada je čvor prevaren da se poveže sa ograničenim skupom vršnjaka, što omogućava napadaču da mu dostavi netačne podatke. Povezivanjem sa raznovrsnim skupom vršnjaka i verifikacijom primljenih podataka, čvorovi se mogu zaštititi od ovih napada.
@@ -1627,13 +1608,13 @@ Izolacioni napadi se dešavaju kada je čvor prevaren da se poveže sa ograniče
 #### Važnost UTXO seta
 
 
-UTXO skup predstavlja trenutno stanje Bitcoin, navodeći sve neiskorišćene izlaze transakcija. Ključno je za validaciju transakcija i osiguravanje da novčići nisu potrošeni više puta. Održavanje ovog skupa malim i lako dostupnim je važno za održavanje efikasnosti mreže.
+UTXO skup predstavlja trenutno stanje Bitcoin, navodeći sve neiskorišćene izlaze transakcija. To je ključno za validaciju transakcija i osiguravanje da novčići nisu potrošeni više puta. Održavanje ovog skupa malim i lako dostupnim je važno za održavanje efikasnosti mreže.
 
 
 #### Zaključak
 
 
-Pokretanje Bitcoin čvora je moćan način da učestvujete u Bitcoin mreži, pružajući vam mogućnost da verifikujete transakcije, održavate privatnost i doprinosite sigurnosti i decentralizaciji Blockchain. Bilo da odlučite da pokrenete Full node ili prilagodite svoje podešavanje skraćivanjem Blockchain ili onemogućavanjem određenih komponenti, razumevanje osnovnih funkcija i bezbednosnih razmatranja Bitcoin čvora će vas osnažiti da donosite informisane odluke i doprinosite stalnoj evoluciji Bitcoin.
+Pokretanje Bitcoin čvora je moćan način da učestvujete u Bitcoin mreži, omogućavajući vam da verifikujete transakcije, održavate privatnost i doprinosite sigurnosti i decentralizaciji Blockchain. Bilo da odlučite da pokrenete Full node ili prilagodite svoje podešavanje skraćivanjem Blockchain ili onemogućavanjem određenih komponenti, razumevanje osnovnih funkcija i bezbednosnih razmatranja Bitcoin čvora će vas osnažiti da donosite informisane odluke i doprinosite stalnoj evoluciji Bitcoin.
 
 
 ## Bitcoin's Data Structures
@@ -1646,7 +1627,6 @@ Pokretanje Bitcoin čvora je moćan način da učestvujete u Bitcoin mreži, pru
 
 :::video id=1790e5fb-33f5-4e0e-982e-41589cd02965:::
 
-
 Primarni cilj ovog predavanja je da vas vodi kroz proces parsiranja Bitcoin bloka kodiranjem parsera u Rust. Ovo uključuje razumevanje strukture Bitcoin blokova i transakcija, i implementaciju neophodne logike za ekstrakciju i interpretaciju ovih podataka.
 
 
@@ -1656,17 +1636,17 @@ Primarni cilj ovog predavanja je da vas vodi kroz proces parsiranja Bitcoin blok
 #### Komponente za raščlanjivanje
 
 
-Da biste raščlanili Bitcoin blok, potrebno je da se fokusirate na sledeće komponente:
+Da biste raščlanili Bitcoin blok, treba da se fokusirate na sledeće komponente:
 
 
-1. **Blok Naslov**
+1. **Blok zaglavlje**
 
 2. **Transakcije unutar bloka**
 
-3. **Ulazi i Izlazi Transakcije**
+3. **Ulazi i izlazi transakcije**
 
 
-#### Struktura Zaglavlja Bloka
+#### Struktura zaglavlja bloka
 
 
 Zaglavlje bloka je kamen temeljac Bitcoin bloka i sadrži sledeća polja:
@@ -1674,18 +1654,18 @@ Zaglavlje bloka je kamen temeljac Bitcoin bloka i sadrži sledeća polja:
 
 
 - Verzija**: Označava verziju bloka.
-- Prethodni Blok**: Referenca na prethodni blok u Blockchain.
+- Prethodni blok**: Referenca na prethodni blok u Blockchain.
 - Merkle Root**: Hash koji predstavlja kombinovani Hash svih transakcija u bloku.
 - Timestamp**: Vreme u kojem je blok iskopan.
 - Bits**: Ciljni prag za važeći blok Hash.
-- Nonce**: Vrednost koju rudari podešavaju kako bi postigli Hash ispod ciljnog praga.
+- Nonce**: Vrednost koju rudari podešavaju da bi postigli Hash ispod ciljnog praga.
 - Broj transakcija**: Broj transakcija u bloku.
 
 
 **Napomena**: Samo prvih 80 bajtova (koji čine zaglavlje bloka) se hešira tokom Mining.
 
 
-![Block header structure](assets/en/3/1.webp)
+![Block header structure](assets/en/027.webp)
 
 
 #### Pojednostavljenja
@@ -1696,10 +1676,10 @@ Da naš primer ostane upravljiv:
 
 
 - Fokusiraćemo se na parsiranje pre-SegWit (nasleđenih) blokova, izbegavajući dodatnu složenost Segregated Witness-a.
-- Preskočićemo određene opkode u jeziku skriptovanja Bitcoin, fokusirajući se na nekoliko koje treba da parsiramo za ceo blok.
+- Preskočićemo određene opkode u Bitcoin skriptnom jeziku, fokusirajući se na nekoliko koje trebamo da parsiramo ceo blok.
 
 
-#### Struktura Transakcije
+#### Struktura transakcije
 
 
 Svaka transakcija u Bitcoin bloku sadrži sledeće:
@@ -1707,9 +1687,9 @@ Svaka transakcija u Bitcoin bloku sadrži sledeće:
 
 
 - Verzija**: Verzija transakcije.
-- Broj unosa**: Broj ulaza transakcije.
+- Broj ulaza**: Broj ulaza transakcije.
 - Ulazi**: Lista ulaza.
-  - Prethodni izlaz (outpoint)**: Prethodna referenca izlaza.
+  - Prethodni izlaz (outpoint)**: Referenca prethodnog izlaza.
     - Hash**: Hash referentne transakcije.
     - Indeks**: Indeks specifičnog izlaza u transakciji, nazvan "vout".
   - Dužina skripte**: Dužina skripte potpisa.
@@ -1719,17 +1699,17 @@ Svaka transakcija u Bitcoin bloku sadrži sledeće:
 - Izlazi**: Sadrži vrednost i ScriptPubKey.
   - Vrednost**: Vrednost transakcije.
   - Dužina PubKey skripte**: Dužina PubKey skripte.
-  - PubKey Script**: Sadrži javni ključ kao postavku za preuzimanje izlaza.
+  - PubKey skripta**: Sadrži javni ključ kao postavku za preuzimanje izlaza.
 - Vreme Zaključavanja**: Označava visinu bloka ili Timestamp na kojoj ova transakcija može biti uključena u blok.
 
 
-![Transaction structure](assets/en/3/2.webp)
+![Transaction structure](assets/en/028.webp)
 
-![TxIn structure](assets/en/3/3.webp)
+![TxIn structure](assets/en/029.webp)
 
-![Outpoint structure](assets/en/3/4.webp)
+![Outpoint structure](assets/en/030.webp)
 
-![TxOut structure](assets/en/3/5.webp)
+![TxOut structure](assets/en/031.webp)
 
 
 #### Tehnike parsiranja
@@ -1771,11 +1751,11 @@ Da bismo osigurali da naš parser radi ispravno:
 
 
 
-- Uporedite raščlanjene podatke sa poznatim detaljima blokova (npr. sa Mempool.space).
+- Uporedite parsirane podatke sa poznatim detaljima bloka (npr. sa Mempool.space).
 - Potvrdite da se analizirani brojevi transakcija i detalji blokova podudaraju sa očekivanim vrednostima.
 
 
-### Rukovanje posebnim slučajevima i parsiranje skripti
+### Rukovanje posebnim slučajevima i raščlanjivanje skripti
 
 
 #### Implementacija funkcije 'parse'
@@ -1800,7 +1780,7 @@ Ok((block, bytes))
 ```
 
 
-#### Izmena Zaglavlja Bloka
+#### Izmena zaglavlja bloka
 
 
 Moramo prilagoditi našu logiku parsiranja kako bismo uklonili broj transakcija iz strukture zaglavlja bloka, tretirajući ga kao zaseban entitet.
@@ -1829,7 +1809,7 @@ Ok((header, bytes))
 #### Definicija strukture
 
 
-Definiši novu strukturu `Block` koja sadrži i zaglavlje bloka i listu transakcija.
+Definišite novu strukturu `Block` koja sadrži i zaglavlje bloka i listu transakcija.
 
 
 ```Rust
@@ -1840,22 +1820,22 @@ transactions: Vec<Transaction>,
 ```
 
 
-#### Rust Sintaksa Elements
+#### Rust sintaksa Elements
 
 
 Uvedi Rust sintaksu Elements kao što je znak pitanja (`?`) za rukovanje greškama. Ovo će pojednostaviti naš kod i učiniti ga čitljivijim.
 
 
-#### Asercije
+#### Tvrdnje
 
 
 Dodajte tvrdnje kako biste potvrdili da nijedan bajt nije ostao neparsiran nakon obrade celog bloka. Ovo osigurava integritet našeg procesa parsiranja.
 
 
-#### Posebni slučajevi kao što su Coinbase transakcije
+#### Posebni slučajevi kao što su coinbase transakcije
 
 
-Transakcije Coinbase, koje su prva transakcija u bloku korišćena za potraživanje Block reward, imaju jedinstvene karakteristike. Moramo pravilno rukovati ovim posebnim slučajevima.
+Transakcije Coinbase, koje su prva transakcija u bloku korišćena za potraživanje Block reward, imaju jedinstvene karakteristike. Moramo pravilno obraditi ove posebne slučajeve.
 
 
 ```Rust
@@ -1872,7 +1852,7 @@ self.txid == [0; 32] && self.vout == 0xFFFFFFFF
 ```
 
 
-#### Strategija Parsiranja Skripti
+#### Strategija parsiranja skripti
 
 
 Da bismo parsirali skriptu u transakcijama, fokusiraćemo se na uobičajene opkodove kao što su `OP_CHECKSIG`, `OP_HASH160` i `OP_PUSH`. Parsiranje ovih skripti je ključno za validaciju transakcija i rukovanje greškama.
@@ -1920,11 +1900,11 @@ _ => todo!()
 ```
 
 
-![op_checksig](assets/en/3/6.webp)
+![op_checksig](assets/en/032.webp)
 
-![op_hash160](assets/en/3/7.webp)
+![op_hash160](assets/en/033.webp)
 
-![op_push](assets/en/3/8.webp)
+![op_push](assets/en/034.webp)
 
 
 #### Izazovi u parsiranju skripti
@@ -1951,7 +1931,7 @@ Ok((Script(opcodes), &bytes[len.0 as usize..]))
 ```
 
 
-#### Kompaktni Blokovi
+#### Kompaktni blokovi
 
 
 Upotreba kompaktnih blokova trenutno se koristi za poboljšanje efikasnosti prenosa podataka između čvorova. Ovo smanjuje upotrebu propusnog opsega i ubrzava sinhronizaciju slanjem transakcija koje su nedostajale u Mempool, popunjavajući ih transakcijama koje je čvor već imao u bloku, a zatim ih validira.
@@ -1963,10 +1943,10 @@ Upotreba kompaktnih blokova trenutno se koristi za poboljšanje efikasnosti pren
 Za aplikacije kritične za konsenzus, preporučuje se korišćenje postojećih biblioteka kako bi se izbegle greške i osigurala bezbednost kao što su [Rust-Bitcoin](https://docs.rs/Bitcoin/latest/Bitcoin/) ili [Bitcoin-dev-kit](https://docs.rs/BDK/latest/BDK/). Implementacija sopstvenog parsera može biti edukativna, ali i rizična u produkcionim okruženjima.
 
 
-![libraries](assets/en/3/9.webp)
+![libraries](assets/en/035.webp)
 
 
-### Efikasnost i Bezbednost u Bitcoin Mining
+### Efikasnost i sigurnost u Bitcoin Mining
 
 
 #### Efikasnost u Mining
@@ -1977,16 +1957,16 @@ Mining prazni blokovi mogu biti efikasniji za rudare:
 
 
 - Rudari pokreću Mining prazne blokove da uštede vreme.
-- Prazni blokovi se mogu brzo iskopati pre nego što se pređe na puni blok kada se prethodni blok potvrdi.
+- Prazni blokovi mogu biti brzo iskopani pre nego što se pređe na puni blok kada se prethodni blok potvrdi.
 
 
-#### Razlozi za Mining Prazne Blokove
+#### Razlozi za prazne blokove Mining
 
 
-Prazni blokovi se ponekad rudare zbog problema sa vremenskim usklađivanjem. Rudari možda nisu primili kompletnu listu transakcija do trenutka kada počnu Mining sledeći blok, pa odlučuju da rudare prazan blok umesto toga.
+Prazni blokovi se ponekad kopaju zbog problema sa vremenom. Rudari možda nisu primili kompletnu listu transakcija do trenutka kada započnu Mining sledeći blok, pa odlučuju da kopaju prazan blok umesto toga.
 
 
-![empty block](assets/en/3/10.webp)
+![empty block](assets/en/036.webp)
 
 
 #### Zlonamerni Mining praznih blokova
@@ -2001,7 +1981,7 @@ Iako je zlonamerni Mining praznih blokova moguć, nije primećen. Primarni razlo
 Pojava praznih blokova je normalan aspekt Mining procesa i prvenstveno je posledica vremenskih problema. Iako ne sadrže transakcije, oni i dalje produžavaju Blockchain i doprinose bezbednosti mreže.
 
 
-#### Važnost Bezbednosti
+#### Važnost bezbednosti
 
 
 Sigurnost u Bitcoin Mining je od najveće važnosti. Pridržavanjem najboljih praksi i korišćenjem dobro proverjenih biblioteka, rudari i programeri mogu osigurati integritet Blockchain i zaštititi se od potencijalnih ranjivosti.
@@ -2020,59 +2000,58 @@ Zaključno, parsiranje Bitcoin blokova i transakcija u Rust uključuje razumevan
 
 :::video id=1d148008-9197-446f-afb5-628d4c3a5015:::
 
-
-Daniela Brozzoni nudi sveobuhvatan pregled softverskog paketa Bitcoin Layer 1, objašnjavajući slojeve koji čine osnovu Bitcoin protokola (tj. Bitcoin čvorovi i Bitcoin novčanici) i kako izgraditi Bitcoin softver uz uvod u Bitcoin biblioteke i detaljno istraživanje Bitcoin Razvojnog Kita (BDK).
-
-
-### Pregled softvera Bitcoin
+Daniela Brozzoni nudi sveobuhvatan pregled Bitcoin Layer 1 softverskog paketa, objašnjavajući slojeve koji čine osnovu Bitcoin protokola (tj. Bitcoin čvorovi i Bitcoin novčanici) i kako izgraditi Bitcoin softver uz uvod u Bitcoin biblioteke i detaljno istraživanje Bitcoin Razvojnog Kita (BDK).
 
 
-Softverski stek Bitcoin je fundamentalan za njegovo funkcionisanje i sastoji se od različitih Elements, uključujući čvorove i novčanike. Kritični deo ovog ekosistema je Bitcoin Razvojni Kit (BDK), koji ćemo detaljno istražiti kasnije. Prvo, hajde da se fokusiramo na ulogu čvorova unutar Bitcoin mreže.
+### pregled softvera Bitcoin
 
 
-#### Bitcoin Čvorovi
+Softverski paket Bitcoin je fundamentalan za njegovo funkcionisanje i sastoji se od raznih Elements, uključujući čvorove i novčanike. Kritični deo ovog ekosistema je Bitcoin Razvojni Kit (BDK), koji ćemo detaljno istražiti kasnije. Prvo, fokusirajmo se na ulogu čvorova unutar Bitcoin mreže.
 
 
-Bitcoin čvorovi su okosnica Bitcoin mreže. Oni se povezuju međusobno, sa Exchange transakcijama i blokovima, i verifikuju dolazne podatke. Postoje različite vrste čvorova, od kojih svaki služi jedinstvenoj svrsi:
+#### Bitcoin čvorovi
+
+
+Bitcoin čvorovi su okosnica Bitcoin mreže. Oni se povezuju međusobno, sa Exchange transakcijama i blokovima, i validiraju dolazne podatke. Postoje različite vrste čvorova, od kojih svaki služi jedinstvenoj svrsi:
 
 
 
-- Full Nodes**: Ovi čvorovi skladište ceo Blockchain i verifikuju sve transakcije i blokove. Oni pružaju visok nivo sigurnosti i ključni su za decentralizaciju mreže.
+- Full nodes**: Ovi čvorovi skladište ceo Blockchain i validiraju sve transakcije i blokove. Oni pružaju visok nivo sigurnosti i ključni su za decentralizaciju mreže.
 
 
 
   - Arhivski čvorovi**: Podskup punih čvorova, arhivski čvorovi zadržavaju sve Blockchain podatke, što ih čini vrednim za istorijsku analizu i otklanjanje grešaka.
 
 
-![archival node](assets/en/3/11.webp)
+![archival node](assets/en/037.webp)
 
 
 
-  - Pruned Nodes**: Pruned nodes štede prostor na disku tako što čuvaju samo deo Blockchain, eliminišući starije podatke koji više nisu potrebni za validaciju.
+  - pruned čvorovi**: pruned čvorovi štede prostor na disku tako što čuvaju samo deo Blockchain, eliminišući starije podatke koji više nisu potrebni za validaciju.
 
 
-![pruned node](assets/en/3/12.webp)
+![pruned node](assets/en/038.webp)
 
 
-#### Bitcoin Core
+#### Bitcoin core
 
 
-Bitcoin Core je najčešće korišćena implementacija Full node. Obavlja dvostruke funkcije kao Full node i Wallet. Ključni aspekti Bitcoin Core uključuju:
+Bitcoin core je najčešće korišćena implementacija Full node. Obavlja dvostruke funkcije kao Full node i Wallet. Ključni aspekti Bitcoin core uključuju:
 
 
 
 - Upotrebljivost**: Može se koristiti putem komandne linije Interface (CLI) i grafičkog korisničkog interfejsa Interface (GUI).
-- Priroda otvorenog koda**: Kod je otvorenog koda, što omogućava programerima da doprinesu i prouče njegov rad.
+- Otvoreni kod**: Kod je otvorenog tipa, što omogućava programerima da doprinesu i prouče njegov rad.
 - Jezik**: Napisan u C++ sa testovima u Pythonu, osiguravajući robusne performanse i pouzdanost.
 
 
-![cli-gui](assets/en/3/13.webp)
+![cli-gui](assets/en/039.webp)
 
 
-##### Istraživanje Bitcoin Jezgra
+##### Istraživanje Bitcoin core
 
 
-Da biste stekli praktično iskustvo sa Bitcoin Core, možete kompajlirati i pokrenuti testove koristeći Git. Ovaj proces uključuje:
+Da biste stekli praktično iskustvo sa Bitcoin core, možete kompajlirati i pokrenuti testove koristeći Git. Ovaj proces uključuje:
 
 
 
@@ -2106,14 +2085,14 @@ test/functional/test_runner.py
 - Kreiranje i izvršavanje testa u Pythonu za validaciju specifične funkcionalnosti. Datoteka [example.py](https://github.com/Bitcoin/Bitcoin/blob/master/test/functional/example_test.py) je detaljno komentarisani primer test slučaja koji koristi i RPC i P2P interfejse.
 
 
-#### Alternativne Implementacije Čvorova
+#### Alternativne implementacije čvorova
 
 
-Iza Bitcoin Core, postoji nekoliko alternativnih implementacija čvorova:
+Iza Bitcoin core, postoji nekoliko alternativnih implementacija čvorova:
 
 
 
-- Bitcoin Čvorovi**: Nudi naprednije funkcije od Bitcoin jezgra, zauzimajući više prostora i memorije.
+- Bitcoin Knots**: Nudi naprednije funkcije od Bitcoin core, zauzimajući više prostora i memorije.
 - LibBitcoin**: Fleksibilna i modularna implementacija.
 - btcd**: Napisano u Go-u, nudi različite dizajnerske filozofije.
 
@@ -2121,50 +2100,50 @@ Iza Bitcoin Core, postoji nekoliko alternativnih implementacija čvorova:
 Implementacija ovih alternativa nosi sopstvene rizike, posebno u vezi sa pravilima konsenzusa. Odstupanje od utvrđenih pravila validacije može dovesti do forkova ili nedoslednosti. Projekat Bitcoin Kernel nastoji da ublaži ove rizike centralizacijom koda konsenzusa, osiguravajući uniformnost među implementacijama.
 
 
-![implementation](assets/en/3/14.webp)
+![implementation](assets/en/040.webp)
 
 
-### Bitcoin Novčanici i sigurnost
+### Bitcoin novčanici i sigurnost
 
 
-Bitcoin novčanici su ključni za sigurno upravljanje vašim Bitcoin sredstvima. Dolaze u različitim oblicima, svaki sa posebnim karakteristikama i bezbednosnim razmatranjima.
+Bitcoin novčanici su ključni za sigurno upravljanje vašim Bitcoin sredstvima. Dolaze u različitim oblicima, svaki sa posebnim karakteristikama i sigurnosnim razmatranjima.
 
 
 #### Tipovi Bitcoin novčanika
 
 
-1. **Čuvar vs. Nečuvar**:
+1. **Staratelj vs. nestaratelj**:
 
 
 
-   - Čuvarski Novčanici**: Upravljani od strane trećih lica, nude pogodnost, ali zahtevaju poverenje u čuvara.
-   - Novčanici bez staratelja**: Kontrolišu ih korisnici, pružajući veću sigurnost i privatnost.
+   - Starateljski novčanici**: Upravljani od strane trećih lica, nude pogodnost, ali zahtevaju poverenje u staratelja.
+   - Novčanici bez staratelja**: Kontrolisani od strane korisnika, pružajući veću sigurnost i privatnost.
 
 
-2. **Desktop vs. Mobile**:
+2. **Desktop vs. mobile**:
 
 
 
    - Desktop novčanici**: Obično bogatiji funkcijama i sigurniji.
-   - Mobilni novčanici**: Nude pogodnost i prenosivost.
+   - Mobilni novčanici**: Nude praktičnost i prenosivost.
 
 
-3. **On-Chain vs. Lightning**:
+3. **On-Chain vs. munja**:
 
 
 
-   - On-Chain Novčanici**: Direktno komunicirajte sa Bitcoin Blockchain.
-   - Lightning Wallets**: Omogućavaju brže i jeftinije transakcije off-chain.
+   - On-Chain novčanici**: Direktno komunicirajte sa Bitcoin Blockchain.
+   - Lightning novčanici**: Omogućavaju brže i jeftinije transakcije off-chain.
 
 
-4. **Cold Novčanici vs. Hot Novčanici**:
+4. **Cold novčanici vs. Hot novčanici**:
 
 
-   - Cold Novčanici**: Nisu povezani na internet, pružajući superiornu sigurnost protiv hakovanja.
-   - Hot Novčanici**: Povezani na internet, nude veću pristupačnost, ali manju sigurnost.
+   - Cold novčanici**: Nisu povezani na internet, pružajući vrhunsku sigurnost protiv hakovanja.
+   - Hot novčanici**: Povezani na internet, nude veću pristupačnost, ali manju sigurnost.
 
 
-#### Cold Wallet Bezbednost
+#### Cold Wallet sigurnost
 
 
 Cold novčanici su cenjeni zbog svoje sigurnosti. Ostajući van mreže, oni su inherentno otporni na online hakove. Međutim, ključno je osigurati da transakcije obavljene putem Cold novčanika budu sigurne i tačne kako bi se sprečilo nenamerno slanje Bitcoin zlonamernim akterima.
@@ -2186,40 +2165,40 @@ Bez obzira na tip, svaki Bitcoin Wallet obavlja tri osnovne funkcije:
 
 2. **Pošalji Bitcoin**: Kreiraj i emituј transakcije na mrežu.
 
-3. **Prikaži Stanje**: Prikaži trenutno stanje Wallet.
+3. **Prikaži stanje**: Prikaži trenutno stanje Wallet.
 
 
 #### Uloga Bitcoin novčanika
 
 
 
-- Novčanici Bitcoin deluju kao privesci za ključeve, držeći i generišući kriptografske ključeve.
+- Bitcoin novčanici deluju kao privešci, držeći i generišući kriptografske ključeve.
 
 
-![keychain](assets/en/3/15.webp)
+![keychain](assets/en/041.webp)
 
 
 
 - Oni prate Blockchain za dolazne transakcije.
 
 
-![monitor](assets/en/3/16.webp)
+![monitor](assets/en/042.webp)
 
 
 
-- Kreirajte transakcije odabirom neiskorišćenih izlaza transakcija (UTXO), postavljanjem ulaza i izlaza, i optimizacijom za privatnost i naknade.
+- Kreirajte transakcije odabirom neutrošenih izlaza transakcija (UTXO), postavljanjem ulaza i izlaza, i optimizacijom za privatnost i naknade.
 
 
-![tx_builder](assets/en/3/17.webp)
+![tx_builder](assets/en/043.webp)
 
 
-#### Ponovna upotreba Wallet logike
+#### Ponovna upotreba logike Wallet
 
 
-S obzirom na to da svi Bitcoin novčanici dele slične funkcije, ponavljanje logike Wallet je neefikasno. Tu na scenu stupa Bitcoin Razvojni Kit (BDK).
+S obzirom na to da svi Bitcoin novčanici dele slične funkcije, ponavljanje logike Wallet više puta je neefikasno. Tu dolazi do izražaja Bitcoin Razvojni Kit (BDK).
 
 
-### Bitcoin Development Kit (BDK) i Tehnički Koncepti
+### Bitcoin Development Kit (BDK) i tehnički koncepti
 
 
 Bitcoin Development Kit (BDK) je biblioteka dizajnirana da pojednostavi kreiranje i upravljanje Bitcoin novčanicima.
@@ -2228,13 +2207,13 @@ Bitcoin Development Kit (BDK) je biblioteka dizajnirana da pojednostavi kreiranj
 #### Pregled BDK
 
 
-BDK pojednostavljuje kreiranje Wallet pružajući funkcionalnost višeg nivoa izgrađenu na Rust Bitcoin. Podržava više programskih jezika putem veza, uključujući Kotlin, Swift i Python.
+BDK pojednostavljuje kreiranje Wallet pružajući funkcionalnost višeg nivoa izgrađenu na vrhu Rust Bitcoin. Podržava više programskih jezika putem veza, uključujući Kotlin, Swift i Python.
 
 
-#### Ostale Bitcoin Biblioteke
+#### Ostale Bitcoin biblioteke
 
 
-Brojne Bitcoin biblioteke prilagođene su različitim programskim jezicima, kao što su Python, JavaScript, Java, Go i C. Ove biblioteke nude raznovrsne alate za razvoj Bitcoin.
+Brojne Bitcoin biblioteke zadovoljavaju različite programske jezike, kao što su Python, JavaScript, Java, Go i C. Ove biblioteke nude raznovrsne alate za razvoj Bitcoin.
 
 
 #### Ključni tehnički koncepti
@@ -2244,7 +2223,7 @@ Brojne Bitcoin biblioteke prilagođene su različitim programskim jezicima, kao 
 
 2. **PSBT (Delimično Potpisane Bitcoin Transakcije)**: PSBT je format za transakcije koje zahtevaju više potpisa, omogućavajući kolaborativne transakcije i poboljšanu sigurnost.
 
-3. **Rust Sintaksa**: Ključni koncepti u Rust, kao što su `Option` za sigurnost od null vrednosti i tip `Result` za rukovanje greškama, su od suštinskog značaja za razumevanje i efikasno korišćenje BDK.
+3. **Rust sintaksa**: Ključni koncepti u Rust, kao što su `Option` za sigurnost od null vrednosti i tip `Result` za rukovanje greškama, su ključni za razumevanje i efikasno korišćenje BDK.
 
 
 #### Kreiranje i upravljanje transakcijama
@@ -2253,18 +2232,18 @@ Brojne Bitcoin biblioteke prilagođene su različitim programskim jezicima, kao 
 BDK pojednostavljuje proces izgradnje, potpisivanja i emitovanja transakcija:
 
 
-1. **Izgradnja transakcija**: Navedite primaoce, iznose i naknade.
+1. **Izgradite transakcije**: Navedite primaoce, iznose i naknade.
 
 2. **Potpiši transakcije**: Koristi PSBT za prikupljanje potpisa.
 
-3. **Emitovanje Transakcija**: Pošaljite finalizovane transakcije na mrežu.
+3. **Emitujte transakcije**: Pošaljite finalizovane transakcije mreži.
 
 
 #### Primer radni tok u BDK
 
 
 
-- Postavite Wallet**: Inicijalizujte Wallet sa opisima.
+- Postavite Wallet**: Inicijalizujte Wallet sa deskriptorima.
 
 
 ```Rust
@@ -2288,7 +2267,7 @@ Ok(())
 
 
 
-- Adrese generate**: Kreirajte nove adrese za primanje Bitcoin od Testnet Faucet.
+- generate adrese**: Kreirajte nove adrese za primanje Bitcoin od Testnet Faucet.
 
 
 ```Rust
@@ -2302,7 +2281,7 @@ let address = wallet.get_address(AddressIndex::New)?;
 
 
 
-- Proveri saldo**: Pratite saldo Wallet, prvo povezivanjem sa electrum, sinhronizacijom Wallet i dobijanjem salda sa Wallet.
+- Proveri saldo**: Prati saldo Wallet, prvo povezivanjem sa electrum, sinhronizacijom Wallet i dobijanjem salda sa Wallet.
 
 
 ```Rust
@@ -2320,7 +2299,7 @@ println!("This is your wallet balance: {}", balance);
 
 
 
-- Izgradnja, Potpisivanje i Emitovanje Transakcija**: Konstruisanje i finalizacija transakcija, a zatim njihovo emitovanje na mrežu.
+- Izgradite, potpišite i emitujte transakcije**: Konstruirajte i finalizirajte transakcije, a zatim ih emitujte na mrežu.
 
 
 ```Rust
@@ -2359,16 +2338,16 @@ blockchain.broadcast(&tx)?;
 ```
 
 
-#### Štampaj txid i Emituj Transakciju
+#### Štampaj txid i emituј transakciјu
 
 
 Dodeljivanje i štampanje transaction ID (txid) omogućava praćenje na platformama kao što je Mempool.space. Emitovanje transakcije može se izvršiti korišćenjem metode `Blockchain.broadcast`, a verifikacija detalja i statusa transakcije je ključna za osiguranje uspešne propagacije.
 
 
-#### BDK Utility and Privacy Considerations
+#### BDK korisnost i razmatranja privatnosti
 
 
-BDK je neprocenjiv za pojednostavljenje razvoja Bitcoin Wallet. Za poboljšanu privatnost, preporučuju se alati kao što su Electrum, Explora i lični Bitcoin Core čvorovi.
+BDK je neprocenjiv za pojednostavljenje razvoja Bitcoin Wallet. Za poboljšanu privatnost, preporučuju se alati kao što su Electrum, Explora i lični Bitcoin core čvorovi.
 
 
 #### Programski jezici
@@ -2377,7 +2356,7 @@ BDK je neprocenjiv za pojednostavljenje razvoja Bitcoin Wallet. Za poboljšanu p
 Kada se razvijaju Bitcoin projekti, Rust se često preferira zbog svoje sigurnosti i efikasnosti. Međutim, izbor jezika može varirati u zavisnosti od specifičnih zahteva projekta i stručnosti programera.
 
 
-#### BDK Zavisnosti
+#### BDK zavisnosti
 
 
 BDK se oslanja na nekoliko ključnih zavisnosti, uključujući Rust-Bitcoin i Rust-Miniscipt. Dodatne biblioteke mogu biti korišćene za upravljanje bazama podataka i kriptografiju.
@@ -2402,7 +2381,6 @@ Razumevanjem ovih komponenti, od Bitcoin čvorova i novčanika do Bitcoin Razvoj
 
 :::video id=b90f19a3-a95e-4cd1-8c55-41016f3339cb:::
 
-
 ### Istorija platnih kanala
 
 
@@ -2412,7 +2390,7 @@ Dobrodošli na naše predavanje o modernim rešenjima za plaćanje unutar Blockc
 #### Pregled i istorijski kontekst
 
 
-Višestepene brave (MHLs) i Lightning Network su napredni koncepti u tehnologiji Blockchain koji omogućavaju efikasna i sigurna mikroplaćanja preko mreže. Istorijski gledano, potreba za ovim inovacijama proizašla je iz neefikasnosti i ograničenja uočenih u početnoj primeni tehnologija Blockchain, posebno Bitcoin. Kako budemo dublje istraživali, shvatićete kako su strukture zasnovane na temama i slojeviti pristupi revolucionisali transakcije Blockchain.
+Višestruke brave (MHLs) i Lightning Network su napredni koncepti u tehnologiji Blockchain koji omogućavaju efikasna i sigurna mikroplaćanja preko mreže. Istorijski gledano, potreba za ovim inovacijama proizašla je iz neefikasnosti i ograničenja primećenih u početnoj primeni tehnologija Blockchain, posebno Bitcoin. Kako budemo dublje istraživali, razumećete kako su strukture zasnovane na temama i slojeviti pristupi revolucionisali transakcije Blockchain.
 
 
 ### Struktura zasnovana na temama
@@ -2424,10 +2402,10 @@ Uvođenje MHL-ova i Lightning Network označava promenu paradigme sa tradicional
 ### Problemi sa Bitcoin
 
 
-Bitcoin, pionir tehnologije Blockchain, uveo je decentralizovani sistem gde se transakcije emituju preko cele mreže. Iako revolucionaran, ovaj metod je inherentno neefikasan. Svaki čvor u mreži mora da validira svaku transakciju, što dovodi do značajnih kašnjenja i uskih grla, posebno tokom velikih obima transakcija.
+Bitcoin, pionir tehnologije Blockchain, uveo je decentralizovani sistem gde se transakcije emituju preko cele mreže. Iako revolucionaran, ovaj metod je inherentno neefikasan. Svaki čvor u mreži mora da validira svaku transakciju, što dovodi do značajnih kašnjenja i uskih grla, naročito tokom velikih obima transakcija.
 
 
-Decentralizovani proces validacije Bitcoin zahteva značajne računarske resurse. Svaka transakcija mora biti verifikovana i zabeležena od strane više čvorova, što troši ogromne količine energije i procesorske snage. Ovo ne samo da povećava operativne troškove već i opterećuje propusni opseg mreže, što dovodi do povećanih naknada za transakcije i sporijeg vremena obrade.
+Decentralizovani proces validacije Bitcoin zahteva značajne računarske resurse. Svaka transakcija mora biti verifikovana i zabeležena od strane više čvorova, što troši ogromne količine energije i procesorske snage. Ovo ne samo da povećava operativne troškove, već i opterećuje propusni opseg mreže, što dovodi do povećanih naknada za transakcije i sporijeg vremena obrade.
 
 
 Iako je decentralizacija Bitcoin jedna od njegovih osnovnih snaga, ona takođe predstavlja značajne izazove. Javna priroda Blockchain znači da su sve transakcije vidljive svima, što izaziva zabrinutost za privatnost. Štaviše, potreba za konsenzusom među brojnim čvorovima može dovesti do pritisaka centralizacije, jer Mining moć postaje koncentrisana u rukama nekoliko velikih entiteta.
@@ -2436,13 +2414,13 @@ Iako je decentralizacija Bitcoin jedna od njegovih osnovnih snaga, ona takođe p
 ### Kanali plaćanja kao rešenje
 
 
-![Gold coin](assets/en/4/1.webp)_Gold Standard Metaphor_
+![Gold coin](assets/en/044.webp)_Gold Standard Metaphor_
 
 
-Za Address neefikasnosti i pitanja privatnosti Bitcoin, predloženi su kanali plaćanja kao održivo rešenje. Mikro-platni kanali omogućavaju transakcije da se odvijaju off-chain, smanjujući potrebu za stalnim deljenjem podataka širom cele mreže. Ovo značajno olakšava opterećenje na Blockchain, omogućavajući brže i jeftinije transakcije.
+Za Address neefikasnosti i pitanja privatnosti Bitcoin, predloženi su platni kanali kao održivo rešenje. Mikro-platni kanali omogućavaju transakcije da se odvijaju off-chain, smanjujući potrebu za stalnim deljenjem podataka preko cele mreže. Ovo značajno olakšava opterećenje na Blockchain, omogućavajući brže i jeftinije transakcije.
 
 
-Osnovni princip iza platnih kanala je koncept preuzimanja transakcija off-chain. Umesto da se svaka transakcija emituje celokupnoj mreži, strane mogu otvoriti platni kanal i obaviti brojne transakcije između sebe. Samo otvaranje i zatvaranje kanala se beleži na Blockchain, što značajno poboljšava efikasnost i privatnost.
+Osnovni princip iza platnih kanala je koncept preuzimanja transakcija off-chain. Umesto da se svaka transakcija emituje celokupnoj mreži, strane mogu otvoriti platni kanal i obavljati brojne transakcije između sebe. Samo otvaranje i zatvaranje kanala se beleži na Blockchain, što značajno poboljšava efikasnost i privatnost.
 
 
 Uprkos prirodi platnih kanala off-chain, ostaje opcija sprovođenja transakcija On-Chain. Ako dođe do spora ili ako jedna strana pokuša da prevari, najnovije stanje kanala može biti emitovano na Blockchain, osiguravajući da se dogovorene transakcije poštuju i da se sredstva pravilno raspodele.
@@ -2451,10 +2429,10 @@ Uprkos prirodi platnih kanala off-chain, ostaje opcija sprovođenja transakcija 
 Kanali plaćanja predstavljaju značajan iskorak u Blockchain tehnologiji, pružajući skalabilan i siguran metod za obavljanje transakcija dok rešavaju mnoge osnovne probleme povezane sa Bitcoin. Kako nastavljamo da inoviramo i gradimo na ovim temeljima, budućnost Blockchain izgleda sve obećavajuće.
 
 
-U zaključku, razumevanje istorijskog konteksta i izazova Bitcoin, kao i inovativnih rešenja predloženih kroz MHL-ove, Lightning Network i kanale plaćanja, pruža sveobuhvatan pogled na trenutni pejzaž i budući potencijal Blockchain tehnologije.
+U zaključku, razumevanje istorijskog konteksta i izazova Bitcoin, kao i inovativnih rešenja predloženih kroz MHL-ove, Lightning Network i kanale plaćanja, pruža sveobuhvatan pregled trenutnog pejzaža i budućeg potencijala Blockchain tehnologije.
 
 
-## Istorija Atomskog Rutiranja
+## Istorija atomskog rutiranja
 
 
 <chapterId>28be7b31-e6b2-5eea-a5ed-62ce0a154b6e</chapterId>
@@ -2464,29 +2442,28 @@ U zaključku, razumevanje istorijskog konteksta i izazova Bitcoin, kao i inovati
 
 :::video id=059a714b-4fe9-4266-acb0-6fe5af491662:::
 
-
-U našim prethodnim diskusijama, pokrili smo osnove osnovnih kanala plaćanja. Ovi kanali omogućavaju dvema učesnicima, recimo Alisi i Bobu, da međusobno transakcionišu direktno i bez problema. Međutim, postoji očigledno ograničenje ovog modela: Alisa može transakcionišu samo sa Bobom, a ne sa drugim učesnicima kao što je Čarli, osim ako ne uspostavi zasebne kanale sa svakim od njih. Ova potreba za višestrukim kanalima dovodi do neefikasnosti i problema sa skalabilnošću, jer bi bilo nepraktično da Alisa otvori direktan kanal sa svima sa kojima treba da transakcioniše.
-
-
-### Centralized Hops
+U našim prethodnim diskusijama, pokrili smo osnove osnovnih kanala plaćanja. Ovi kanali omogućavaju dvema učesnicima, recimo Alice i Bob, da međusobno transakcionišu direktno i bez problema. Međutim, postoji očigledno ograničenje ovog modela: Alice može transakcionišu samo sa Bob, a ne sa drugim učesnicima poput Čarlija, osim ako ne uspostavi zasebne kanale sa svakim od njih. Ova potreba za višestrukim kanalima dovodi do neefikasnosti i problema sa skalabilnošću, jer bi bilo nepraktično da Alice otvori direktan kanal sa svima sa kojima treba da transakcioniše.
 
 
-Za Address ova ograničenja, Manny Rosenfeld je 2012. godine predložio koncept centralizovanih skokova. Ovaj model je uveo centralizovane procesore plaćanja, kao što je TrustPay, za usmeravanje plaćanja između korisnika. Iako ova metoda može smanjiti potrebu za više direktnih kanala, ona uvodi značajne nedostatke. Centralizovani skokovi pate od problema sa sigurnošću, zabrinutosti za poverenje, kršenja privatnosti, potencijala za prevare, cenzure i problema sa pouzdanošću. Korisnici moraju verovati ovim centralizovanim entitetima da bi olakšali njihove transakcije, što je suprotno etosu decentralizacije.
+### Centralizovani hmelj
 
 
-### Hashed Time Lock Contract (HTLC) i Implementacija
+Za Address ova ograničenja, Manny Rosenfeld je 2012. godine predložio koncept centralizovanih skokova. Ovaj model je uveo centralizovane procesore plaćanja, kao što je TrustPay, za usmeravanje plaćanja između korisnika. Iako ova metoda može smanjiti potrebu za više direktnih kanala, ona uvodi značajne nedostatke. Centralizovani skokovi pate od problema sa sigurnošću, zabrinutosti za poverenje, kršenja privatnosti, potencijala za prevare, cenzure i problema sa pouzdanošću. Korisnici moraju verovati ovim centralizovanim entitetima da olakšaju njihove transakcije, što je suprotno etosu decentralizacije.
 
 
-Ograničenja i nedostaci centralizovanih skokova zahtevali su sigurnije i decentralizovano rešenje. Ova potreba je dovela do razvoja Hashed Time Lock Contract (HTLC), koji su 2015. godine predložili Joseph Poon i Thaddeus Dreijer kao deo Lightning Network. HTLCs kombinuju principe vremenskih zaključavanja i Hash zaključavanja kako bi osigurali atomarnost i nepouzdanost u transakcijama. To znači da se transakcija ili u potpunosti završava ili se uopšte ne dešava, čime se smanjuju rizici povezani sa nepotpunim plaćanjima.
+### Hashed Time Lock Contract (HTLC) i implementacija
 
 
-Radni tok HTLC uključuje višestepeni proces koji osigurava sigurno usmeravanje kroz više posrednika. Pretpostavimo da Alisa želi da plati Eriku preko posrednika Boba, Karle i Dijane. Svaki korak u procesu uključuje kreiranje Commitment transakcija sa smanjujućim vremenskim zaključavanjima i iznosima. Ako je potrebno, poslednji korak može biti emitovan na Bitcoin mrežu kako bi se finalizovala transakcija.
+Ograničenja i nedostaci centralizovanih čvorišta zahtevali su sigurnije i decentralizovano rešenje. Ova potreba je dovela do razvoja Hashed Time Lock Contract (HTLC), koji su 2015. godine predložili Joseph Poon i Thaddeus Dreijer kao deo Lightning Network. HTLCs kombinuju principe vremenskih zaključavanja i Hash zaključavanja kako bi osigurali atomarnost i nepovredivost u transakcijama. To znači da se transakcija ili u potpunosti završi ili se uopšte ne dogodi, čime se smanjuju rizici povezani sa nepotpunim plaćanjima.
 
 
-U HTLC, Alis zaključava uplatu sa Hash tajne "R." Bob, Karol i Dajana svaki kreiraju slične ugovore sa svojim narednim posrednicima, osiguravajući da mogu zatražiti svoja sredstva samo ako predstave ispravnu tajnu "R." Ovaj mehanizam osigurava atomarnost; uplata se u potpunosti izvršava ili propada, štiteći od delimičnih gubitaka sredstava.
+Tok rada HTLC uključuje višestepeni proces koji osigurava sigurno usmeravanje kroz više posrednika. Pretpostavimo da Alice želi da plati Ericu preko posrednika Bob, Carol i Diana. Svaki korak u procesu uključuje kreiranje Commitment transakcija sa smanjujućim vremenskim zaključavanjima i iznosima. Ako je potrebno, poslednji korak može biti emitovan na Bitcoin mrežu kako bi se finalizovala transakcija.
 
 
-![Hash lock](assets/en/4/2.webp)_Hash lock function_
+U HTLC, Alice zaključava uplatu sa Hash tajne "R." Bob, Carol i Diana svaka kreiraju slične ugovore sa svojim narednim posrednicima, osiguravajući da mogu zatražiti svoja sredstva samo ako predstave ispravnu tajnu "R." Ovaj mehanizam osigurava atomarnost; uplata se u potpunosti izvršava ili ne uspeva, štiteći od delimičnih gubitaka sredstava.
+
+
+![Hash lock](assets/en/045.webp)_Hash lock function_
 
 
 ### Praktična razmatranja i dinamika mreže
@@ -2498,19 +2475,19 @@ U praktičnom scenariju, tok plaćanja Alice uključuje plaćanje Ericu preko vi
 #### Ažuriranja stanja kanala
 
 
-Kanali ažuriraju svoje stanje na osnovu međusobnih dogovora i potpisa između učesnika. Na primer, Alisa i Bob mogu ažurirati stanje svog kanala bez nužne upotrebe tajne "R," pod uslovom da se slože oko uslova transakcije.
+Kanali ažuriraju svoje stanje na osnovu međusobnih dogovora i potpisa između učesnika. Na primer, Alice i Bob mogu ažurirati stanje svog kanala bez nužne upotrebe tajne "R," pod uslovom da se slože oko uslova transakcije.
 
 
-#### Osiguranost atomičnosti
+#### Atomicnost osigurana
 
 
 Mehanizam HTLC osigurava atomarnost korišćenjem vremenskih zaključavanja i potpisa. Ova zaštita osigurava da protokol plaćanja garantuje ili potpuni uspeh ili neuspeh, štiteći od delimičnih gubitaka sredstava.
 
 
-![Time lock and signatures](assets/en/4/3.webp)_Combine restrictions_
+![Time lock and signatures](assets/en/046.webp)_Combine restrictions_
 
 
-#### Podsticaji i Odgovornosti
+#### Podsticaji i odgovornosti
 
 
 Posrednici poput Dijane i Karol podstaknuti su da postupaju ispravno unutar mreže. Ako to ne učine, posledice obično pogađaju samo samog posrednika, čime se podstiče odgovorno ponašanje.
@@ -2519,22 +2496,22 @@ Posrednici poput Dijane i Karol podstaknuti su da postupaju ispravno unutar mre�
 ### Praktična razmatranja
 
 
-Međutim, više skokova u putanji plaćanja može povećati kašnjenje, naknade i potencijalnu nepouzdanost. Otvaranje više kanala može pomoći u smanjenju broja potrebnih skokova za rutiranje, poboljšavajući ukupnu efikasnost.
+Međutim, više skokova u putanji plaćanja može povećati kašnjenje, naknade i potencijalnu nepouzdanost. Otvaranje više kanala može pomoći u smanjenju broja potrebnih skokova za usmeravanje, poboljšavajući ukupnu efikasnost.
 
 
-#### Grafikon kanala i Likvidnost
+#### Grafikon kanala i likvidnost
 
 
-Čvorovi unutar mreže mogu biti deo javno objavljenog grafikona kanala ili ostati neobjavljeni. Likvidnost ovih kanala igra ključnu ulogu u efikasnom rutiranju jer čvorovi moraju imati dovoljne bilanse da bi uspešno prosledili uplate.
+Čvorovi unutar mreže mogu biti deo javno objavljenog grafikona kanala ili ostati neobjavljeni. Likvidnost ovih kanala igra ključnu ulogu u efikasnom rutiranju, jer čvorovi moraju imati dovoljne bilanse da bi uspešno prosledili uplate.
 
 
 #### Usmeravanje izvora i privatnost
 
 
-Alisa mora imati znanje o topologiji mreže kako bi odlučila o ruti plaćanja. Izvorno rutiranje se koristi za očuvanje privatnosti uprkos složenosti rutiranja plaćanja kroz više posrednika.
+Alice mora imati znanje o topologiji mreže kako bi odlučio o putanji plaćanja. Izvorno rutiranje se koristi za očuvanje privatnosti uprkos složenosti rutiranja plaćanja kroz više posrednika.
 
 
-![Source Routing](assets/en/4/4.webp)_Source Routing Path_
+![Source Routing](assets/en/047.webp)_Source Routing Path_
 
 
 #### Zaključak
@@ -2551,64 +2528,63 @@ Ukratko, pravilno funkcionisanje čvora osigurava atomska plaćanja, a Lightning
 
 :::video id=f0d17fe4-d793-4b90-924e-b551db501fbb:::
 
-
-Bitcoin mreža funkcioniše kao Trustless vrednosni Exchange sistem, prvenstveno služeći kao obračunski Layer gde se transakcije beleže na javnom Ledger. Ovo obezbeđuje sigurnost i nepromenljivost, ali dolazi sa ograničenjima, posebno u smislu brzine transakcija i naknada. Kao rezultat toga, Bitcoin može biti neefikasan za svakodnevne male transakcije.
-
-
-Unesite Lightning Network, koji funkcioniše kao drugi Layer povrh Bitcoin Blockchain. Ova mreža plaćanja je dizajnirana da olakša brze i niskotarifne transakcije. Otvaranjem kanala plaćanja između dve strane, mogu obavljati transakcije off-chain, beležeći samo početne i konačne bilanse na Bitcoin Blockchain. Ovo značajno smanjuje opterećenje glavne mreže, poboljšavajući skalabilnost i omogućavajući mikrotransakcije.
+Mreža Bitcoin funkcioniše kao sistem vrednosti Trustless Exchange, prvenstveno služeći kao obračunski Layer gde se transakcije beleže na javnom Ledger. Ovo osigurava sigurnost i nepromenljivost, ali dolazi sa ograničenjima, posebno u smislu brzine transakcija i naknada. Kao rezultat, Bitcoin može biti neefikasan za svakodnevne male transakcije.
 
 
-Da biste bolje razumeli koncept, razmotrite analogiju sa računom u baru. Kada otvorite račun u baru, možete kontinuirano naručivati pića bez plaćanja nakon svakog. Na kraju večeri izmirujete ukupan iznos. Slično tome, Lightning kanal omogućava više transakcija off-chain, koje se izmiruju On-Chain tek kada se kanal zatvori. Druga analogija je aerodrom, gde je usmeravanje plaćanja kroz više čvorova slično uzimanju povezanih letova kako biste stigli na odredište. Svaki čvor (ili "let") pomaže da se vaše plaćanje usmeri tamo gde treba da ide, osiguravajući efikasno usmeravanje.
+Unesite Lightning Network, koji funkcioniše kao drugi Layer na vrhu Bitcoin Blockchain. Ova mreža plaćanja je dizajnirana da olakša brze i niskotarifne transakcije. Otvaranjem kanala plaćanja između dve strane, mogu da obavljaju transakcije off-chain, beležeći samo početne i završne bilanse na Bitcoin Blockchain. Ovo značajno smanjuje opterećenje glavne mreže, poboljšava skalabilnost i omogućava mikrotransakcije.
 
 
-![airport analogy](assets/en/4/5.webp)_The airport analogy of LN_
+Da biste bolje razumeli koncept, razmotrite analogiju sa računom u baru. Kada otvorite račun u baru, možete kontinuirano naručivati pića bez plaćanja nakon svakog. Na kraju večeri izmirujete ukupan iznos. Slično tome, Lightning kanal omogućava više transakcija off-chain, koje se izmiruju On-Chain tek kada se kanal zatvori. Druga analogija je aerodrom, gde je usmeravanje plaćanja kroz više čvorova slično uzimanju povezanih letova da biste stigli na odredište. Svaki čvor (ili "let") pomaže da se vaše plaćanje usmeri tamo gde treba da ide, osiguravajući efikasno usmeravanje.
 
 
-U suštini, Lightning Network dopunjuje mrežu Bitcoin rešavanjem njenih ograničenja, transformišući je iz običnog naselja Layer u svestran sistem sposoban za efikasno obavljanje svakodnevnih transakcija.
+![airport analogy](assets/en/048.webp)_The airport analogy of LN_
 
 
-### **Lightning Network Specifikacije**
+U suštini, Lightning Network dopunjuje mrežu Bitcoin rešavajući njene nedostatke, transformišući je iz običnog naselja Layer u svestran sistem sposoban za efikasno obavljanje svakodnevnih transakcija.
+
+
+### **Specifikacije Lightning Network**
 
 
 Protokol Lightning Network je precizno definisan kroz 10 BOLT-ova (Osnova Tehnologije Munje). Ovi BOLT-ovi su dogovoreni tokom konferencije u Milanu i služe kao osnova za različite implementacije Lightning Network.
 
 
-![bolt](assets/en/4/6.webp)_BOLT Diagram _
+![bolt](assets/en/049.webp)_BOLT Diagram _
 
 
-#### Bolt 1 (Osnovni protokol)
+#### Bolt 1 (osnovni protokol)
 
 
-Bolt 1 opisuje formatiranje poruka koristeći strukturu Tip-Dužina-Vrednost (TLV), što osigurava da se poruke jednako razumeju u različitim implementacijama. Komunikacija se obično obavlja putem specifičnog TCP porta, a poruke se mogu kategorizovati u:
+Bolt 1 opisuje formatiranje poruka koristeći strukturu Tip-Dužina-Vrednost (TLV), što osigurava da su poruke jednako razumljive u različitim implementacijama. Komunikacija se obično odvija putem specifičnog TCP porta, a poruke se mogu kategorizovati u:
 
 
 
-- Poruke komunikacije**: Ovo uključuje poruke `Init`, `Error`, `Warning`, `Ping` i `Pong`, koje uspostavljaju veze, upravljaju greškama, proveravaju status veze i zamagljuju saobraćaj.
+- Komunikacione poruke**: Ovo uključuje poruke `Init`, `Error`, `Warning`, `Ping` i `Pong`, koje uspostavljaju veze, upravljaju greškama, proveravaju status veze i zamagljuju saobraćaj.
 - Poruke za postavljanje kanala**: One su ključne tokom faze uspostavljanja kanala.
 - Poruke o stanju kanala**: Ove poruke upravljaju ažuriranjima unutar aktivnih kanala, osiguravajući da su obe strane usklađene.
 - Poruke tračeva**: Koriste se za otkrivanje i ažuriranje topologije mreže.
-- Eksperimentalne Poruke**: Omogućavaju testiranje novih funkcija bez ometanja mreže.
+- Eksperimentalne poruke**: One omogućavaju testiranje novih funkcija bez ometanja mreže.
 
 
-#### Bolt 2 (Životni ciklus kanala)
+#### Bolt 2 (lifecycle kanala)
 
 
-Bolt 2 istražuje životni ciklus kanala, počevši od uspostavljanja do normalnog rada i, na kraju, zatvaranja. Ključni procesi uključuju:
+Bolt 2 se bavi životnim ciklusom kanala, počevši od uspostavljanja do normalnih operacija i, na kraju, poravnanja. Ključni procesi uključuju:
 
 
 
-- Uspostavljanje Kanala**: U ovoj fazi, strane otvaraju kanal, Exchange potpise, i kreiraju transakciju finansiranja.
-- Normal Operation**: Ovde se stanje kanala kontinuirano ažurira korišćenjem Hash vremenski zaključanih ugovora (HTLCs). Commitment i poruke o opozivu osiguravaju da se obe strane slažu sa trenutnim stanjem.
+- Uspostavljanje kanala**: U ovoj fazi, strane otvaraju kanal, Exchange potpise, i kreiraju transakciju finansiranja.
+- Normal operation**: Ovde se stanje kanala kontinuirano ažurira korišćenjem Hash Time-Locked Contracts (HTLCs). Commitment i poruke o opozivu osiguravaju da se obe strane slažu sa trenutnim stanjem.
 - Poravnanje**: Ovo uključuje zatvaranje kanala, obično kroz međusobni dogovor i pregovaranje o naknadama, kako bi se finalizovale transakcije bez ulaska u beskonačnu petlju zatvaranja.
 
 
-#### Mehanizam Ažuriranja
+#### Mehanizam ažuriranja
 
 
-HTLC-ovi igraju ključnu ulogu u rutiranju plaćanja mreže, omogućavajući sigurne transakcije bez poverenja. Commitment i poruke o opozivu osiguravaju međusobni dogovor o stanju kanala i sprečavaju prevaru.
+HTLC-ovi igraju ključnu ulogu u rutiranju plaćanja mreže, omogućavajući sigurne transakcije bez poverenja. Commitment i poruke opoziva osiguravaju međusobni dogovor o stanju kanala i sprečavaju prevaru.
 
 
-#### Posebne Poruke
+#### Posebne poruke
 
 
 Specifične poruke kao što je `Update Fee` prilagođavaju Miner naknade za Commitment transakcije, dok poruke `Channel Reestablish` osiguravaju da oba partnera ostanu sinhronizovana nakon prekida veze.
@@ -2617,13 +2593,13 @@ Specifične poruke kao što je `Update Fee` prilagođavaju Miner naknade za Comm
 #### Zatvaranje kanala
 
 
-Kanali se mogu zatvoriti putem međusobnog dogovora, jednostranog delovanja ili kazne ako se otkrije varanje. Pravilno zatvaranje konačno obezbeđuje transakcije.
+Kanali se mogu zatvoriti uzajamnim dogovorom, jednostranom akcijom ili kaznom ako se otkrije varanje. Pravilno zatvaranje konačno osigurava transakcije.
 
 
-#### Swaps za upravljanje likvidnošću
+#### Zamene za upravljanje likvidnošću
 
 
-Zamene omogućavaju povlačenja On-Chain i efikasno upravljanje likvidnošću bez zatvaranja kanala. Buduća rešenja kao što je spajanje se razvijaju kako bi unapredila ovaj proces.
+Zamene omogućavaju On-Chain povlačenja i efikasno upravljanje likvidnošću bez zatvaranja kanala. Buduća rešenja poput splicinga se razvijaju kako bi unapredila ovaj proces.
 
 
 #### Mere bezbednosti
@@ -2632,53 +2608,53 @@ Zamene omogućavaju povlačenja On-Chain i efikasno upravljanje likvidnošću be
 Commitment transakcije uključuju mehanizme kao što su nLockTime, OPCheckSequenceVerify i ključevi za opoziv kako bi osigurali sredstva i sprečili krađu.
 
 
-### Usmeravanje & Onion usmeravanje
+### Usmeravanje & onion usmeravanje
 
 
-![onion routing](assets/en/4/7.webp)_Onion Routing diagram _
+![onion routing](assets/en/050.webp)_Onion Routing diagram _
 
 
-Plaćanja se usmeravaju koristeći Onion rutiranje, što podrazumeva kreiranje enkriptovanih paketa koji se šalju kroz više čvorova. HTLC-ovi osiguravaju transakciju, obezbeđujući privatnost i sigurnost.
+Plaćanja se usmeravaju koristeći Onion routing, što podrazumeva kreiranje enkriptovanih paketa koji se šalju kroz više čvorova. HTLC-ovi osiguravaju transakciju, obezbeđujući privatnost i sigurnost.
 
 
-### Invoice Struktura
+### struktura Invoice
 
 
 Fakture Lightning Network (Bolt 11) su kodirane u Bech32 i uključuju detalje kao što su plaćanje Hash, opis i isteknuće. Svaki Invoice mora biti korišćen jednom kako bi se sprečili problemi ponovne upotrebe.
 
 
-![Invoice structure](assets/en/4/8.webp)_BOLT11 Invoice_
+![Invoice structure](assets/en/051.webp)_BOLT11 Invoice_
 
 
-#### Enkripcija & Autentifikacija
+#### Enkripcija & autentifikacija
 
 
-Postupci rukovanja i šifrovanje (Chacha20) sa autentifikacijom (Poly1305) osiguravaju integritet i privatnost poruka u Lightning transakcijama.
+Postupci rukovanja i šifrovanje (Chacha20) sa autentifikacijom (Poly1305) osiguravaju integritet poruka i privatnost u Lightning transakcijama.
 
 
 #### Alternative
 
 
-Ostale metode zahteva za plaćanje kao što su LNURL, KeySend i Bolt 12 nude različite funkcije i nivoe usvajanja, pružajući fleksibilnost u mreži.
+Ostale metode zahteva za plaćanje kao što su LNURL, Keysend i Bolt 12 nude različite funkcije i nivoe usvajanja, pružajući fleksibilnost u mreži.
 
 
 #### Otkrivanje mreže
 
 
-Otkrivanje mreže u Lightning Network evoluiralo je od svoje početne upotrebe IRC-a (Internet Relay Communication) do sofisticiranijeg protokola definisanog od strane Bolt 7. Ovaj protokol koristi specifične Lightning poruke—obično poznate kao gossip poruke—za otkrivanje i održavanje topologije mreže.
+Mreža otkrivanja u Lightning Network evoluirala je od svoje početne upotrebe IRC-a (Internet Relay Communication) do sofisticiranijeg protokola definisanog Bolt 7. Ovaj protokol koristi specifične Lightning poruke—obično poznate kao gossip poruke—za otkrivanje i održavanje topologije mreže.
 
 
-#### Bolt7 Poruke
+#### Poruke Bolt7
 
 
 Ključne poruke Bolt 7 uključuju:
 
 
 
-- Objava Čvora**: Ova poruka objavljuje postojanje čvora.
+- Node announcement**: Ova poruka emituje postojanje čvora.
 - Najava kanala**: Ova poruka obaveštava mrežu o kreiranju novog kanala.
-- Potpis Najave**: Ovo osigurava autentičnost emitovanih poruka.
-- Ažuriranje Kanala**: Ova poruka prenosi ažuriranja o kanalu, kao što su strukture naknada i maksimalni iznosi HTLC.
+- Potpis najave**: Ovo osigurava autentičnost emitovanih poruka.
+- Ažuriranje kanala**: Ova poruka prenosi ažuriranja o kanalu, kao što su strukture naknada i maksimalni iznosi HTLC.
 
 
 #### Proces najave kanala
@@ -2687,10 +2663,10 @@ Ključne poruke Bolt 7 uključuju:
 Proces počinje razmenom identiteta i detalja kanala između lokalnih vršnjaka. Nakon verifikacije potpisa i finansiranja transakcija, oni objavljuju kanal svojim mrežnim vršnjacima, osiguravajući da cela mreža ostane ažurirana sa najnovijim promenama topologije.
 
 
-#### DNS Bootstrap
+#### DNS bootstrap
 
 
-Otkrivanje Lightning vršnjaka je olakšano DNS i Bitcoin DNS seed upitima, koji pružaju IP i informacije o čvoru. Ovaj početni mehanizam otkrivanja pomaže čvorovima da se brzo povežu na mrežu.
+Otkrivanje Lightning vršnjaka je olakšano putem DNS i Bitcoin DNS seed upita, koji pružaju informacije o IP adresama i čvorovima. Ovaj početni mehanizam otkrivanja pomaže čvorovima da se brzo povežu na mrežu.
 
 
 #### Najave funkcija
@@ -2708,16 +2684,16 @@ Mreža osigurava jedinstvenost Bolt 11 faktura kako bi se izbegla višestruka pl
 #### Prenos glasovnih podataka
 
 
-Iako je moguće, prenos glasovnih podataka putem Lightning Network je jako kompresovan i ograničen veličinom poruke. Primer primene je Sphinx, koji istražuje inovativnu upotrebu Lightning-a za prenos podataka.
+Iako je moguće, prenos glasovnih podataka putem Lightning Network je jako komprimovan i ograničen veličinom poruke. Primer primene je Sphinx, koji istražuje inovativnu upotrebu Lightning-a za prenos podataka.
 
 
-#### Upotreba i Debata
+#### Upotreba i debate
 
 
-Svrha Lightning Network je tema stalne debate. Iako je prvenstveno dizajniran za plaćanja, istražuju se i drugi slučajevi upotrebe poput prenosa podataka, iako nisu univerzalno prihvaćeni. Zajednica kontinuirano raspravlja o potencijalnim mrežnim aplikacijama i poboljšanjima protokola.
+Svrha Lightning Network je tema stalne rasprave. Iako je prvenstveno dizajniran za plaćanja, istražuju se i drugi slučajevi upotrebe poput prenosa podataka, iako nisu univerzalno prihvaćeni. Zajednica kontinuirano diskutuje o potencijalnim mrežnim aplikacijama i poboljšanjima protokola.
 
 
-#### Diskusije Zajednice
+#### Diskusije zajednice
 
 
 Zajednica Lightning Network je živahna, angažovana u kontinuiranoj debati i diskusiji o slučajevima upotrebe, primeni protokola i potencijalnim poboljšanjima. Ovo kolaborativno okruženje podstiče inovacije dok osigurava da se mreža razvija kako bi zadovoljila potrebe korisnika.
@@ -2734,52 +2710,51 @@ U zaključku, razumevanje Druge Layer Važnosti, Lightning Network Specifikacija
 
 :::video id=90240cb6-a942-4015-b0c2-b721c48309ec:::
 
-
 Lightning Network (LN) predstavlja značajan proboj u skalabilnosti i brzini transakcija Bitcoin. Klijenti LN, obično poznati kao Lightning novčanici, su specijalizovani softveri ili aplikacije koje omogućavaju korisnicima da obavljaju transakcije putem Lightning Network. Ovi novčanici služe kao ključni Interface između korisnika i LN, omogućavajući trenutno poravnate transakcije sa niskim naknadama koristeći off-chain puteve.
 
 
-Lightning novčanici su dizajnirani da proces učine korisnički prijatnim, omogućavajući čak i onima sa minimalnim tehničkim znanjem da iskoriste napredne funkcionalnosti Bitcoin. Omogućavanjem brzih i isplativih mikrotransakcija, ovi novčanici značajno doprinose širem usvajanju Bitcoin za svakodnevne transakcije.
+Novčanici za Lightning su dizajnirani da proces učine korisnički prijatnim, omogućavajući čak i onima sa minimalnim tehničkim znanjem da iskoriste napredne funkcionalnosti Bitcoin. Omogućavanjem brzih i isplativih mikrotransakcija, ovi novčanici značajno doprinose širem prihvatanju Bitcoin za svakodnevne transakcije.
 
 
-![LN Clients](assets/en/4/9.webp)_Lightning Wallets_
+![LN Clients](assets/en/052.webp)_Lightning Wallets_
 
 
-### Bitcoin Novčanici vs. Lightning Novčanici
+### Bitcoin novčanici vs. Lightning novčanici
 
 
 Novčanici Bitcoin i Lightning novčanici se suštinski razlikuju u svojoj arhitekturi i slučajevima upotrebe, iako dele zajedničku karakteristiku upravljanja privatnim ključevima:
 
 
-#### Bitcoin Novčanici:
+#### Bitcoin novčanici:
 
 
 
-- Privatni ključ Zabrinutost**: Primarni fokus za Bitcoin novčanike je ko drži privatni ključ. Ovo određuje sigurnost i kontrolu nad sredstvima korisnika.
-- Složenost Transakcije**: Bitcoin novčanici obrađuju različite skripte transakcija kao što su Segregated Witness (SegWit) i Taproot, koje optimizuju veličine transakcija i poboljšavaju privatnost i sigurnost.
+- Privatni ključ zabrinutost**: Primarni fokus za Bitcoin novčanike je ko drži privatni ključ. Ovo određuje sigurnost i kontrolu nad sredstvima korisnika.
+- Složenost transakcije**: Bitcoin novčanici obrađuju različite skripte transakcija kao što su Segregated Witness (SegWit) i Taproot, koje optimizuju veličine transakcija i poboljšavaju privatnost i sigurnost.
 
 
-#### Lightning Novčanici:
+#### Lightning novčanici:
 
 
 
 - Upravljanje privatnim ključevima**: Slično kao kod Bitcoin novčanika, kontrola privatnih ključeva ostaje ključna.
-- Upravljanje Likvidnošću**: Jedinstvena karakteristika Lightning novčanika je potreba za upravljanjem likvidnošću, što uključuje balansiranje lokalne (odlazne) i udaljene (dolazne) likvidnosti kako bi se osiguralo glatko usmeravanje transakcija. Ovo zahteva od korisnika da razumeju i optimizuju svoje kanale kako bi omogućili efikasno prosleđivanje plaćanja.
+- Upravljanje likvidnošću**: Posebna karakteristika Lightning novčanika je potreba za upravljanjem likvidnošću, što podrazumeva balansiranje lokalne (izlazne) i udaljene (ulazne) likvidnosti kako bi se osiguralo nesmetano usmeravanje transakcija. Ovo zahteva od korisnika da razumeju i optimizuju svoje kanale kako bi omogućili efikasno prosleđivanje plaćanja.
 
 
-#### Upravljanje Likvidnošću u Lightning Novčanicima
+#### Upravljanje likvidnošću u lightning novčanicima
 
 
-Efikasno upravljanje likvidnošću je kamen temeljac uspešnih Lightning Network operacija. To uključuje stratešku ravnotežu dve primarne vrste likvidnosti:
+Efikasno upravljanje likvidnošću je kamen temeljac uspešnog poslovanja Lightning Network. To uključuje stratešku ravnotežu dve primarne vrste likvidnosti:
 
 
-#### Lokalna (Izlazna) Likvidnost:
+#### Lokalna (izlazna) likvidnost:
 
 
 
 - Ovo predstavlja količinu Bitcoin koju korisnik može poslati iz svojih Lightning kanala. To je ključno za pokretanje plaćanja i osiguravanje da se transakcije mogu usmeriti ka primaocu.
 
 
-#### Daljinska (dolazna) likvidnost:
+#### Udaljena (dolazna) likvidnost:
 
 
 
@@ -2789,18 +2764,18 @@ Efikasno upravljanje likvidnošću je kamen temeljac uspešnih Lightning Network
 #### Primer upravljanja likvidnošću:
 
 
-![Example of Liquidity](assets/en/4/10.webp)_Lightning Liquidity_
+![Example of Liquidity](assets/en/053.webp)_Lightning Liquidity_
 
 
-Razmotrite scenario koji uključuje Alisu, Boba, Čarlija i Dana - tipične korisnike LN povezane kroz različite kanale:
+Razmotrite scenario koji uključuje Alice, Bob, Charlie i Dan - tipične korisnike LN povezane kroz različite kanale:
 
 
 
-- Alice želi da plati Danu, ali nema dovoljno lokalne likvidnosti u svom kanalu sa Bobom.
-- Ako Bob ima adekvatan saldo i kanal sa Čarlijem, a Čarli ima kanal sa Danom, Alisina uplata može biti usmerena kroz Boba i Čarlija da stigne do Dana.
+- Alice želi da plati Danu, ali nema dovoljno lokalne likvidnosti u svom kanalu sa Bob.
+- Ako Bob ima adekvatan balans i kanal sa Čarlijem, a Čarli ima kanal sa Danom, uplata Alice može biti usmerena kroz Bob i Čarlija da stigne do Dana.
 
 
-![Example of Liquidity](assets/en/4/11.webp)_Lightning Liquidity_
+![Example of Liquidity](assets/en/054.webp)_Lightning Liquidity_
 
 
 Međutim, ako bilo koji od ovih kanala naiđe na iscrpljenost ili probleme sa povezivanjem, transakcija može propasti. Ovo ilustruje važnost održavanja uravnotežene likvidnosti širom mreže.
@@ -2810,11 +2785,11 @@ Međutim, ako bilo koji od ovih kanala naiđe na iscrpljenost ili probleme sa po
 
 
 
-- Iscrpljenje Kanala**: Vremenom kanali mogu postati neuravnoteženi, sa sredstvima koncentrisanim na jednoj strani, što ograničava mogućnosti transakcija.
+- Iscrpljenje kanala**: Vremenom kanali mogu postati neuravnoteženi, sa sredstvima koncentrisanim na jednoj strani, što ograničava mogućnosti transakcija.
 - Problemi sa povezivanjem**: Efikasno usmeravanje transakcija zahteva robusne mrežne veze, što može biti izazovno za održavanje.
 
 
-Za Address ove izazove, Pružaoci Likvidnosnih Usluga (LSPs) nude usluge za pomoć u upravljanju likvidnošću, često uz naknadu, osiguravajući da korisnici održavaju optimalne bilanse kanala za nesmetane transakcije.
+Za Address ove izazove, Pružaoci usluga likvidnosti (LSPs) nude usluge za pomoć u upravljanju likvidnošću, često uz naknadu, osiguravajući da korisnici održavaju optimalne bilanse kanala za nesmetane transakcije.
 
 
 ### Različiti novčanici i njihove karakteristike
@@ -2823,11 +2798,11 @@ Za Address ove izazove, Pružaoci Likvidnosnih Usluga (LSPs) nude usluge za pomo
 Različiti Lightning novčanici su dostupni, svaki prilagođen različitim potrebama i preferencijama korisnika. Evo nekoliko primera:
 
 
-#### Wallet od Satoshi:
+#### Wallet ili Satoshi:
 
 
 
-- Funkcije**: Potpuno kustodijalan, jednostavan za korisnike, ali zatvorenog koda sa potencijalnim problemima privatnosti.
+- Funkcije**: Potpuno kustodijalno, korisnički prijatno, ali zatvorenog koda sa potencijalnim problemima privatnosti.
 
 
 #### Albi:
@@ -2851,25 +2826,25 @@ Različiti Lightning novčanici su dostupni, svaki prilagođen različitim potre
 - Funkcije**: Slično Breeze-u, koristi LSP model za likvidnost, otvorenog koda, fokusira se na jednostavnost korisnika i efikasno upravljanje likvidnošću.
 
 
-#### Open Bitcoin Wallet (OBW):
+#### Otvorite Bitcoin Wallet (OBW):
 
 
 
 - Funkcije**: Integrira On-Chain i Lightning novčanike, podržava hostovane kanale, otvorenog koda sa naprednim funkcijama, pogodno za napredne korisnike.
 
 
-### Matrica za upravljanje skrbništvom i likvidnošću
+### Matrica upravljanja skrbništvom i likvidnošću
 
 
 Novčanici se mogu klasifikovati na osnovu toga ko drži privatne ključeve i ko upravlja likvidnošću. Ova matrica pomaže korisnicima da izaberu novčanike koji su u skladu sa njihovim preferencijama za sigurnost i praktičnost:
 
 
 
-- Čuvani novčanici**: Treća strana drži privatne ključeve, obično nude automatsko upravljanje likvidnošću. Primeri uključuju Wallet od Satoshi.
-- Non-Custodial Wallets**: Korisnici drže privatne ključeve, može zahtevati ručno upravljanje likvidnošću. Primeri uključuju Breeze i OBW.
+- Skrbnički novčanici**: Treća strana drži privatne ključeve, obično nude automatsko upravljanje likvidnošću. Primeri uključuju Wallet od Satoshi.
+- Novčanici bez staratelja**: Korisnici drže privatne ključeve, može biti potrebno ručno upravljanje likvidnošću. Primeri uključuju Breeze i OBW.
 
 
-![Liquidity Lightning](assets/en/4/12.webp)_2x2 Matrix of LN Clients_
+![Liquidity Lightning](assets/en/055.webp)_2x2 Matrix of LN Clients_
 
 
 ### Kritika i oblasti za poboljšanje
@@ -2879,7 +2854,7 @@ Uprkos njihovim prednostima, Lightning novčanici se suočavaju sa nekoliko krit
 
 
 
-- Privatnost**: Novčanici zatvorenog koda i određeni modeli skrbništva izazivaju zabrinutost za privatnost.
+- Privatnost**: Novčanici zatvorenog koda i određeni kustodijalni modeli izazivaju zabrinutost u vezi sa privatnošću.
 - Jednostavnost korišćenja**: Balansiranje naprednih funkcija sa lakoćom korišćenja ostaje izazov.
 - Razvoj otvorenog koda**: Različiti nivoi doprinosa otvorenom kodu utiču na poverenje korisnika i tempo inovacija.
 
@@ -2890,16 +2865,16 @@ Uprkos njihovim prednostima, Lightning novčanici se suočavaju sa nekoliko krit
 #### Izazovi sa algoritmima:
 
 
-Trenutni algoritmi za pronalaženje optimalne putanje unutar Lightning Network često su suboptimalni, uključujući pokušaje i pogreške. Potrebna su poboljšanja kako bi se povećala efikasnost rutiranja.
+Trenutni algoritmi za pronalaženje optimalne putanje unutar Lightning Network su često suboptimalni, uključujući pokušaje i greške. Potrebna su poboljšanja kako bi se povećala efikasnost rutiranja.
 
 
-#### Višestruka Plaćanja:
+#### Višestruka plaćanja:
 
 
-Razbijanje većih uplata na manje transakcije može ublažiti probleme likvidnosti i pronalaženja puta, osiguravajući glatkije transakcije.
+Razlaganje većih uplata na manje transakcije može ublažiti probleme likvidnosti i pronalaženja puta, osiguravajući glatkije transakcije.
 
 
-#### Zarada od usmeravanja:
+#### Prihodi od usmeravanja:
 
 
 Zarada putem naknada za usmeravanje je obično minimalna, što čini manje privlačnim za pojedinačne korisnike da pokreću čvorove za usmeravanje radi profita.
@@ -2909,15 +2884,15 @@ Zarada putem naknada za usmeravanje je obično minimalna, što čini manje privl
 
 
 
-- Blink Wallet**: Baziran u El Salvadoru, kustodijalan, zahteva broj telefona, poseduje stabilne karakteristike Sats, ali mu nedostaju napredne karakteristike Lightning Network.
-- Blitz Wallet**: Open-source, samostalno čuvanje, zahteva korisnički upravljanu likvidnost, nudi opsežne informacije za napredne korisnike.
+- Blink Wallet**: Sa sedištem u El Salvadoru, kustodijalni, zahteva broj telefona, poseduje stabilne karakteristike Sats, ali mu nedostaju napredne karakteristike Lightning Network.
+- Blitz Wallet**: Open-source, self-custody, zahteva korisnički upravljanu likvidnost, nudi opsežne informacije za napredne korisnike.
 - SwissBitcoinPay**: Dizajniran za trgovce, kustodijalno do 24 sata, minimalne naknade za korisnike sa velikim obimom.
 
 
-#### Wallet Upotrebe:
+#### Wallet slučajevi upotrebe:
 
 
-Različiti novčanici služe različitim svrhama, od jednostavnosti korišćenja za početnike do naprednih funkcija za iskusne korisnike. Ne postoji jedinstveni "najbolji" Wallet; izbor zavisi od individualnih potreba i preferencija.
+Različiti novčanici služe različitim svrhama, od jednostavnosti korišćenja za početnike do naprednih funkcija za iskusne korisnike. Ne postoji jedan "najbolji" Wallet; izbor zavisi od individualnih potreba i preferencija.
 
 
 #### Doprinos otvorenom kodu:
@@ -2926,7 +2901,7 @@ Različiti novčanici služe različitim svrhama, od jednostavnosti korišćenja
 Povratne informacije korisnika i doprinosi projektima otvorenog koda su neprocenjivi za razvoj i lični rast veština, podstičući saradničko i inovativno okruženje.
 
 
-U zaključku, razumevanje različitih aspekata Lightning Network klijenata, njihovih razlika u odnosu na tradicionalne Bitcoin novčanike, i važnost efikasnog upravljanja likvidnošću je ključno za iskorišćavanje punog potencijala Lightning Network. Odabirom pravog Wallet i aktivnim učešćem u ekosistemu, korisnici mogu značajno unaprediti svoje Bitcoin transakcijsko iskustvo.
+U zaključku, razumevanje različitih aspekata Lightning Network klijenata, njihovih razlika u odnosu na tradicionalne Bitcoin novčanike i važnost efikasnog upravljanja likvidnošću je ključno za iskorišćavanje punog potencijala Lightning Network. Odabirom pravog Wallet i aktivnim učešćem u ekosistemu, korisnici mogu značajno unaprediti svoje Bitcoin transakcijsko iskustvo.
 
 
 # Izazovi LN
@@ -2935,7 +2910,7 @@ U zaključku, razumevanje različitih aspekata Lightning Network klijenata, njih
 <partId>ca58c9d7-ba7e-5392-8488-6a21a9850e6a</partId>
 
 
-## Praktični izazovi za LN
+## Praktični Izazovi za LN
 
 
 <chapterId>014c7c40-aef7-58ac-b51f-33784463f482</chapterId>
@@ -2944,15 +2919,15 @@ U zaključku, razumevanje različitih aspekata Lightning Network klijenata, njih
 **(video će uskoro biti dostupan)**
 
 
-U ovoj sesiji, Asi0 se bavi praktičnim izazovima sa kojima se suočavaju prilikom rada sa Lightning Network (LN). Uprkos svom revolucionarnom pristupu skaliranju Bitcoin transakcija, Lightning Network predstavlja nekoliko praktičnih izazova koje korisnici i programeri moraju prevazići. Konkretno, istražićemo četiri glavna izazova: **upravljanje likvidnošću**, **Layer 1/Layer 2 apstrakcija**, **primanje offline uplata** i **upravljanje rezervnim kopijama**.
+U ovoj sesiji, Asi0 se bavi praktičnim izazovima sa kojima se suočavaju kada rade sa Lightning Network (LN). Uprkos svom revolucionarnom pristupu skaliranju Bitcoin transakcija, Lightning Network predstavlja nekoliko praktičnih izazova koje i korisnici i programeri moraju prevazići. Konkretno, istražićemo četiri glavna izazova: **upravljanje likvidnošću**, **Layer 1/Layer 2 apstrakcija**, **primanje offline uplata**, i **upravljanje rezervnim kopijama**.
 
 
-Svaki od ovih izazova posmatra se iz dve perspektive: **korisnika** i **razvijača**, jer se izazovi i rešenja razlikuju u zavisnosti od uloge koju igrate u ekosistemu.
+Svaki od ovih izazova se posmatra iz dve perspektive: **korisnika** i **razvijača**, jer se izazovi i rešenja razlikuju u zavisnosti od uloge koju igrate u ekosistemu.
 
 
 ---
 
-### Izazov 1: Upravljanje Likvidnošću
+### Izazov 1: upravljanje likvidnošću
 
 
 #### **Iz perspektive korisnika:**
@@ -2962,7 +2937,7 @@ U Lightning Network, **likvidnost** se odnosi na dostupnost sredstava u platnim 
 
 
 
-- Praktično pitanje**: Korisnici često smatraju da je teško balansirati svoje kanale i održavati dovoljnu likvidnost. Pored toga, balansiranje kanala može prouzrokovati troškove.
+- Praktično pitanje**: Korisnici često imaju poteškoća u balansiranju svojih kanala i održavanju dovoljne likvidnosti. Pored toga, ponovno balansiranje kanala može prouzrokovati troškove.
 - Moguća rešenja**: Neki Lightning novčanici su počeli da integrišu automatsko balansiranje kanala, ali ova funkcija je još uvek u razvoju. Korisnici se takođe oslanjaju na **pružaoce Lightning usluga (LSPs)** za pomoć u upravljanju likvidnošću.
 
 
@@ -2973,8 +2948,8 @@ Programeri se suočavaju sa izazovom implementacije besprekornog upravljanja lik
 
 
 
-- Praktično pitanje**: Implementacija efikasnih algoritama za usmeravanje plaćanja kroz mrežu sa promenljivom likvidnošću može biti složena i računarski intenzivna.
-- Moguća rešenja**: Programeri istražuju napredne algoritme za **usmeravanje likvidnosti** i koriste **dvosmerne kanale** kako bi osigurali da je likvidnost dostupna na oba kraja transakcije.
+- Praktično pitanje**: Implementacija efikasnih algoritama za usmeravanje plaćanja kroz mrežu sa promenljivom likvidnošću može biti složena i računarski zahtevna.
+- Moguća rešenja**: Programeri istražuju napredne algoritme za **usmeravanje likvidnosti** i koriste **kanale sa dvostrukim finansiranjem** kako bi osigurali da je likvidnost dostupna na oba kraja transakcije.
 
 
 > **Definicije**:
@@ -2988,21 +2963,21 @@ Programeri se suočavaju sa izazovom implementacije besprekornog upravljanja lik
 ### Izazov 2: Apstrakcija L1/L2
 
 
-#### **Iz korisničke perspektive:**
+#### **Iz korisnikove perspektive:**
 
 
-Interakcija između **Layer 1 (L1)** (osnova Bitcoin za Layer) i **Layer 2 (L2)** (Lightning Network) često nije u potpunosti apstrahovana za korisnike. Na primer, otvaranje i zatvaranje kanala zahteva On-Chain Bitcoin transakcije (L1), a korisnici moraju platiti On-Chain naknade za ove akcije. Ovo uvodi dodatnu složenost i potencijalna kašnjenja kada je Bitcoin mreža zagušena.
+Interakcija između **Layer 1 (L1)** (osnova Bitcoin, Layer) i **Layer 2 (L2)** (Lightning Network) često nije u potpunosti apstrahovana za korisnike. Na primer, otvaranje i zatvaranje kanala zahteva On-Chain Bitcoin transakcije (L1), a korisnici moraju platiti On-Chain naknade za ove akcije. Ovo uvodi dodatnu složenost i potencijalna kašnjenja kada je Bitcoin mreža zagušena.
 
 
 
 - Praktično pitanje**: Korisnici se često bore sa složenošću razumevanja kada komuniciraju sa Bitcoin bazom Layer naspram Lightning Layer. Ovo može rezultirati konfuzijom u vezi sa naknadama, vremenima transakcija i sigurnošću.
-- Moguća rešenja**: Poboljšani Wallet dizajni koji apstrahuju L1/L2 interakcije i upravljaju otvaranjem/zatvaranjem kanala u pozadini. Neki novčanici već omogućavaju korisnicima da neprimetno prelaze između On-Chain i Lightning transakcija, u zavisnosti od okolnosti.
+- Moguća rešenja**: Poboljšani dizajni Wallet koji apstrahuju interakcije L1/L2 i upravljaju otvaranjem/zatvaranjem kanala u pozadini. Neki novčanici već omogućavaju korisnicima da neprimetno prelaze između On-Chain i Lightning transakcija, u zavisnosti od okolnosti.
 
 
-#### **Iz Perspektive Programera:**
+#### **Iz perspektive programera:**
 
 
-Programeri su zaduženi da apstrahuju složenosti L1 i L2 za korisnike, kreirajući glatke i intuitivne interfejse koji efikasno upravljaju transakcijama. Izazov je optimizovati korisničko iskustvo uz održavanje integriteta i sigurnosti Lightning protokola.
+Razvijači imaju zadatak da apstrahuju složenosti L1 i L2 za korisnike, kreirajući glatke i intuitivne interfejse koji efikasno upravljaju transakcijama. Izazov je optimizovati korisničko iskustvo uz održavanje integriteta i sigurnosti Lightning protokola.
 
 
 
@@ -3019,18 +2994,18 @@ Programeri su zaduženi da apstrahuju složenosti L1 i L2 za korisnike, kreiraju
 
 ---
 
-### Izazov 3: Primanje offline uplata
+### Izazov 3: primanje offline uplata
 
 
-#### **Iz korisničke perspektive:**
+#### **Iz perspektive korisnika:**
 
 
-Jedan od izazova u Lightning Network je **primanje uplata kada je korisnik offline**. Za razliku od Bitcoin-ove baze Layer, gde se transakcije mogu primati u bilo koje vreme, Lightning zahteva da i platiša i primalac budu online kako bi završili transakciju. Ovo je značajno ograničenje za mnoge korisnike koji žele da koriste Lightning uplate u svakodnevnim situacijama.
+Jedan od izazova u Lightning Network je **primanje uplata kada je korisnik van mreže**. Za razliku od Bitcoin-ove baze Layer, gde se transakcije mogu primati u bilo koje vreme, Lightning zahteva da i platiša i primalac budu online kako bi završili transakciju. Ovo je značajno ograničenje za mnoge korisnike koji žele da koriste Lightning uplate u svakodnevnim situacijama.
 
 
 
 - Praktično pitanje**: Korisnici ne mogu primati uplate osim ako njihov čvor nije online i povezan na mrežu, što je nezgodno za one koji žele koristiti Lightning kao svakodnevni način plaćanja.
-- Moguća rešenja**: Neka zaobilazna rešenja uključuju korišćenje skrbničkih novčanika ili oslanjanje na usluge trećih strana koje deluju kao posrednici u plaćanju dok se čvor primaoca ne poveže na mrežu.
+- Moguća rešenja**: Neka od rešenja uključuju korišćenje skrbničkih novčanika ili oslanjanje na usluge trećih strana koje deluju kao posrednici u plaćanju dok se čvor primaoca ne poveže na mrežu.
 
 
 #### **Iz perspektive programera:**
@@ -3047,12 +3022,12 @@ Programeri istražuju načine kako omogućiti korisnicima da primaju Lightning u
 > **Definicije**:
 >
 
-> - **Offline Payments**: Plaćanja poslana ili primljena dok jedna strana nije povezana na Lightning Network.
-> - **Custodial Wallets**: Novčanici gde treća strana kontroliše privatne ključeve i upravlja transakcijama u ime korisnika.
+> - **Offline plaćanja**: Plaćanja poslana ili primljena dok jedna strana nije povezana na Lightning Network.
+> - **Skrbnički novčanici**: Novčanici gde treća strana kontroliše privatne ključeve i upravlja transakcijama u ime korisnika.
 
 ---
 
-### Izazov 4: Upravljanje Bekapom
+### Izazov 4: upravljanje rezervnim kopijama
 
 
 #### **Iz perspektive korisnika:**
@@ -3062,14 +3037,14 @@ Pravljenje rezervnih kopija Lightning kanala je ključno za korisnike kako bi po
 
 
 
-- Praktično pitanje**: Korisnici treba da osiguraju da su njihove rezervne kopije kanala ažurirane, jer korišćenje zastarele kopije može rezultirati gubitkom sredstava ili kaznom od strane mreže.
-- Moguća rešenja**: Novčanici poput Phoenix-a i drugih su implementirali automatske rezervne kopije kanala, ali ove funkcije još nisu sveprisutne u svim Lightning novčanicima.
+- Praktično pitanje**: Korisnici moraju osigurati da su njihove rezervne kopije kanala ažurirane, jer korišćenje zastarele kopije može rezultirati gubitkom sredstava ili kaznom od strane mreže.
+- Moguća rešenja**: Novčanici poput Phoenix-a i drugih su implementirali automatske rezervne kopije kanala, ali ove funkcije još uvek nisu sveprisutne u svim Lightning novčanicima.
 
 
-#### **Iz Perspektive Programera:**
+#### **Iz perspektive programera:**
 
 
-Programeri treba da implementiraju rešenja za bekap koja omogućavaju korisnicima da povrate svoja sredstva sigurno i pouzdano, čak i nakon katastrofalnih kvarova. Izazov je osigurati da su ova rešenja bezbedna i laka za korišćenje, uz očuvanje integriteta Lightning protokola.
+Programeri treba da implementiraju rešenja za bekap koja omogućavaju korisnicima da povrate svoja sredstva sigurno i pouzdano, čak i nakon katastrofalnih kvarova. Izazov je osigurati da su ova rešenja bezbedna i laka za korišćenje, dok se održava integritet Lightning protokola.
 
 
 
@@ -3080,17 +3055,17 @@ Programeri treba da implementiraju rešenja za bekap koja omogućavaju korisnici
 > **Definicije**:
 >
 
-> - **Staticka Rezerva Kanala (SCB)**: Tip rezervne kopije koji omogućava korisnicima da povrate svoja sredstva iz Lightning kanala u slučaju kvara tako što će obnoviti najnovije stanje kanala.
+> - **Staticka Rezerva Kanala (SCB)**: Tip rezervne kopije koja omogućava korisnicima da povrate svoja sredstva iz Lightning kanala u slučaju kvara tako što će obnoviti najnovije stanje kanala.
 
 ---
 
 #### Zaključak
 
 
-Lightning Network nudi ogromne prednosti u pogledu brzine i troškovne efikasnosti za Bitcoin transakcije, ali takođe predstavlja nekoliko praktičnih izazova. Ovi izazovi—**upravljanje likvidnošću**, **apstrakcija L1/L2**, **primanje offline plaćanja** i **upravljanje rezervnim kopijama**—zahtevaju inovativna rešenja od strane korisnika i programera. Kako mreža nastavlja da se razvija, prevazilaženje ovih prepreka biće ključno za postizanje široke prihvaćenosti i poboljšanje ukupnog korisničkog iskustva.
+Lightning Network nudi ogromne prednosti u pogledu brzine i troškovne efikasnosti za Bitcoin transakcije, ali takođe predstavlja nekoliko praktičnih izazova. Ovi izazovi—**upravljanje likvidnošću**, **L1/L2 apstrakcija**, **primanje offline uplata** i **upravljanje rezervnim kopijama**—zahtevaju inovativna rešenja od strane korisnika i programera. Kako mreža nastavlja da se razvija, prevazilaženje ovih prepreka biće ključno za postizanje široke prihvaćenosti i poboljšanje ukupnog korisničkog iskustva.
 
 
-Rješavanjem ovih izazova, Lightning Network će nastaviti da sazrijeva, postajući robusnije i pouzdanije rješenje za skaliranje Bitcoin.
+Rješavanjem ovih izazova, Lightning Network će nastaviti da sazreva, postajući robusnije i pouzdanije rešenje za skaliranje Bitcoin.
 
 
 ## LN Buduća evolucija
@@ -3103,79 +3078,78 @@ Rješavanjem ovih izazova, Lightning Network će nastaviti da sazrijeva, postaju
 
 :::video id=ab5f65f1-0b0d-4ca9-8ff7-d42764c1e915:::
 
-
 ### Otpornost i evolucija Bitcoin
 
 
-**Bitcoin Maskota: Medojed**
+**Bitcoin maskota: medojed**
 
-Bitcoin se često personifikuje jazavcem, stvorenjem poznatim po svojoj upornosti i otpornosti. Ovaj simbol prikladno predstavlja snažnu i nepokolebljivu prirodu Bitcoin. Baš kao što jazavac može izdržati otrovne ujede i nastaviti da napreduje, Bitcoin je pokazao izuzetnu otpornost protiv raznih nedaća, uključujući regulatorne izazove, tržišnu nestabilnost i tehničke napade.
+Bitcoin se često personifikuje kroz medojeda, stvorenje poznato po svojoj upornosti i otpornosti. Ovaj simbol prikladno predstavlja snažnu i nepokolebljivu prirodu Bitcoin. Baš kao što medojed može izdržati otrovne ujede i nastaviti da napreduje, Bitcoin je pokazao izuzetnu otpornost protiv raznih nedaća, uključujući regulatorne izazove, tržišnu nestabilnost i tehničke napade.
 
 
-**Priroda Bitcoin: Stalno Evoluira**
+**Priroda Bitcoin: stalno evoluira**
 
-Suprotno ideji o statičnosti, Bitcoin je u stanju neprekidne evolucije. Njegov protokol i ekosistem kontinuirano se usavršavaju i poboljšavaju od strane globalne zajednice programera i istraživača. Ovaj evolucioni proces pokreće potreba za poboljšanjem sigurnosti, skalabilnosti i funkcionalnosti, osiguravajući da Bitcoin ostane na čelu kripto pejzaža.
+Suprotno ideji o statičnosti, Bitcoin je u stanju stalne evolucije. Njegov protokol i ekosistem kontinuirano se usavršavaju i poboljšavaju od strane globalne zajednice developera i istraživača. Ovaj evolutivni proces pokreće potreba za poboljšanjem sigurnosti, skalabilnosti i funkcionalnosti, osiguravajući da Bitcoin ostane na čelu kripto pejzaža.
 
 
 ### Inovacije u Lightning Network
 
 
-**Lightning Network: Brzi Razvoj**
+**Lightning Network: brzi razvoj**
 
-Lightning Network, Bitcoin-ovo drugo-Layer rešenje za skaliranje i ubrzavanje transakcija, prolazi kroz brzi razvoj. Ovaj Layer omogućava brze, niskotarifne transakcije omogućavanjem off-chain platnih kanala. Značajne inovacije se integrišu kako bi se poboljšala njegova efikasnost i upotrebljivost.
-
-
-**Kanali sa Dvostrukim Finansiranjem**
-
-Tradicionalno, Lightning kanal finansira jedna strana. Međutim, dvostruko finansirani kanali omogućavaju da obe strane (npr. Alice i Bob) doprinesu likvidnosti kanala. Ovo poboljšanje omogućava veću fleksibilnost u kapacitetu za slanje i primanje i zahteva unapred komunikaciju i nove protokole za upravljanje zajedničkim finansiranjem.
+Lightning Network, drugo Layer rešenje Bitcoin za skaliranje i ubrzavanje transakcija, prolazi kroz brzi razvoj. Ovaj Layer omogućava brze, niskotroškovne transakcije omogućavanjem off-chain platnih kanala. Značajne inovacije se integrišu kako bi se poboljšala njegova efikasnost i upotrebljivost.
 
 
-**Spajanje**
+**Kanali sa dvostrukim finansiranjem**
+
+Tradicionalno, Lightning kanal finansira jedna strana. Međutim, kanali sa dvostrukim finansiranjem omogućavaju obe strane (npr. Alice i Bob) da doprinesu likvidnosti kanala. Ovo poboljšanje omogućava veću fleksibilnost u kapacitetu za slanje i primanje i zahteva unapred komunikaciju i nove protokole za upravljanje zajedničkim finansiranjem.
+
+
+**Splicing**
 
 Splicing je funkcija koja omogućava korisnicima da modifikuju veličinu Lightning kanala bez njegovog zatvaranja. Ova funkcionalnost omogućava dodavanje ili uklanjanje sredstava iz postojećeg kanala, pružajući jednostavan način za upravljanje likvidnošću kanala. Splicing podstiče interoperabilnost između On-Chain transakcija i Lightning kanala, poboljšavajući ukupnu efikasnost mreže.
 
 
-**L2 Mehanizam**
+**L2 mehanizam**
 
-L2 mehanizam uvodi novu metodu za poništavanje starih stanja kanala bez oslanjanja na mehanizam kazne. Ovo ažuriranje zavisi od SIGHASH_ANYPREVOUT, funkcije koja zahteva Bitcoin Soft Fork. L2 mehanizam obećava da će pojednostaviti upravljanje kanalima i poboljšati sigurnost.
+Mehanizam L2 uvodi novu metodu za poništavanje starih stanja kanala bez oslanjanja na mehanizam kazne. Ovo ažuriranje zavisi od SIGHASH_ANYPREVOUT, funkcije koja zahteva Bitcoin Soft Fork. Mehanizam L2 obećava da će pojednostaviti upravljanje kanalima i poboljšati sigurnost.
 
 
 **Bolt 12**
 
-Bolt 12 rešava ograničenja trenutnih Bolt 11 faktura korišćenih u Lightning Network. Uvodi višekratne fakture i automatizuje procese, eliminišući potrebu za HTTP i web serverima tako što funkcioniše isključivo unutar Lightning Network. Ova inovacija pojednostavljuje transakcije i poboljšava korisničko iskustvo.
+Bolt 12 rešava ograničenja trenutnih Bolt 11 faktura koje se koriste u Lightning Network. Uvodi višekratne fakture i automatizuje procese, eliminišući potrebu za HTTP i web serverima tako što funkcioniše isključivo unutar Lightning Network. Ova inovacija pojednostavljuje transakcije i poboljšava korisničko iskustvo.
 
 
 ### Poboljšanje privatnosti i efikasnosti u Bitcoin transakcijama
 
 
-**Taproot, MuSig, i Schnorr potpisi**
+**Taproot, muSig, i Schnorr potpisi**
 
 Taproot je značajna nadogradnja koja konsoliduje složenost transakcija i poboljšava privatnost. Kada se kombinuje sa MuSig (protokolom za transakcije sa više potpisa) i Schnorr potpisima, Taproot poboljšava efikasnost transakcija. Ova unapređenja omogućavaju da Lightning transakcije liče na regularne Bitcoin transakcije, pojednostavljujući proces i jačajući privatnost.
 
 
-**PTLC Usmeravanje**
+**PTLC usmeravanje**
 
 Point Time Locked Contracts (PTLCs) su poboljšanje u odnosu na postojeće Hash Time Lock Contracts (HTLCs). PTLCs koriste Schnorr potpise i poboljšavaju privatnost zamenom deljenih tajni javnim ključevima, smanjujući potencijal za korelaciju plaćanja i zloupotrebu.
 
 
-**Fabrike Kanala**
+**Fabrike kanala**
 
-Fabrike kanala omogućavaju kreiranje kanala sa više učesnika (npr. 4-od-4 Multisig), koji mogu pokrenuti nove 2-od-2 kanale plaćanja off-chain. Ovaj sistem omogućava brzo, bez naknade, kreiranje i zatvaranje kanala, iako zahteva saradnju svih učesnika. Fabrike kanala povećavaju ukupnu skalabilnost i fleksibilnost Lightning Network.
+Fabrike kanala omogućavaju kreiranje kanala sa više učesnika (npr. 4-od-4 Multisig), koji mogu da pokrenu nove 2-od-2 kanale plaćanja off-chain. Ovaj sistem omogućava brzo, bez naknade, kreiranje i zatvaranje kanala, iako zahteva saradnju svih učesnika. Fabrike kanala povećavaju ukupnu skalabilnost i fleksibilnost Lightning Network.
 
 
 **Stražarske kule**
 
-Stražarske kule su entiteti treće strane koji nadgledaju Blockchain za stara stanja kanala. Ako se otkrije kršenje, oni objavljuju kaznene transakcije kako bi osigurali sigurnost mreže. Iako stražarske kule poboljšavaju sigurnost odvraćanjem od neprimerenog ponašanja, one takođe uvode zabrinutosti za privatnost u vezi sa nadgledanjem transakcija.
+Stražarske kule su entiteti treće strane koji nadgledaju Blockchain za stara stanja kanala. Ako se otkrije kršenje, objavljuju kaznene transakcije kako bi osigurali sigurnost mreže. Iako stražarske kule poboljšavaju sigurnost odvraćanjem od neprimerenog ponašanja, takođe uvode zabrinutosti za privatnost u vezi sa nadgledanjem transakcija.
 
 
 **blinded Staze**
 
-Putanje blinded su dizajnirane da poboljšaju privatnost primaoca u Lightning Network. One prikrivaju konačnog primaoca Address, osiguravajući da samo pošiljalac zna međučvor, a svaki čvor je svestan samo svojih susednih čvorova. Ova metoda štiti identitet primaoca i poboljšava ukupnu privatnost.
+blinded putanje su dizajnirane da poboljšaju privatnost primaoca u Lightning Network. One prikrivaju konačnog primaoca Address, osiguravajući da samo pošiljalac zna posrednički čvor, a svaki čvor je svestan samo svojih susednih čvorova. Ova metoda štiti identitet primaoca i poboljšava ukupnu privatnost.
 
 
 **Pružaoci usluga munje (LSPs)**
 
-Konceptualizovano od strane Breeze Wallet, Lightning Service Providers (LSPs) imaju za cilj poboljšanje korisničkog iskustva omogućavanjem trenutnih mogućnosti primanja. LSP-ovi otvaraju kanale za korisnike, slično kao što internet provajderi nude usluge povezivanja. Ova inovacija pojednostavljuje proces prijavljivanja korisnika i osigurava nesmetane interakcije na Lightning Network.
+Konceptualizovano od strane Breeze Wallet, Provajderi usluga munje (LSPs) imaju za cilj poboljšanje korisničkog iskustva omogućavanjem trenutnih mogućnosti primanja. LSPs otvaraju kanale za korisnike, slično kao što provajderi internet usluga nude usluge povezivanja. Ova inovacija pojednostavljuje proces prijavljivanja korisnika i osigurava besprekornu interakciju na Lightning Network.
 
 
 **Resursi za ostajanje u toku**
@@ -3196,28 +3170,27 @@ Razumevanjem i uvažavanjem ovih razvoja, možemo prepoznati višestruki napreda
 
 :::video id=ffee9682-1bfa-4717-9f22-9bc1baff0722:::
 
-
 ### Proširenje i integracija Lightning plaćanja
 
 
 #### Razumevanje Lightning plaćanja
 
 
-Pre nego što se upustimo u ekstenzije i integracije Lightning plaćanja, neophodno je razumeti osnovni rad Lightning plaćanja. Konvencionalno Lightning plaćanje uključuje nekoliko ključnih komponenti: **platioca**, **primaoca** i sam **Lightning Network**. Platilac inicira plaćanje primaocu generisanjem **Invoice**, koji uključuje ključne informacije kao što su iznos koji treba platiti i odredište (čvor primaoca).
+Pre nego što se upustimo u proširenja i integracije Lightning plaćanja, neophodno je razumeti osnovni rad Lightning plaćanja. Konvencionalno Lightning plaćanje uključuje nekoliko ključnih komponenti: **platioca**, **primaoca** i sam **Lightning Network**. Platilac inicira plaćanje primaocu generisanjem **Invoice**, koji uključuje ključne informacije kao što su iznos koji treba platiti i odredište (čvor primaoca).
 
 
-Proces se oslanja na **Hash vremenski zaključane ugovore (HTLCs)**, koji osiguravaju da uplate može preuzeti samo pravi primalac unutar određenog vremenskog okvira. Dve važne Elements u ovom mehanizmu su **Onion Routing** i **HTLC lanac**:
+Proces se oslanja na **Hash vremenski zaključane ugovore (HTLCs)**, koji osiguravaju da isplate mogu biti preuzete samo od strane pravog primaoca unutar određenog vremenskog okvira. Dve važne Elements u ovom mehanizmu su **Onion eouting** i **HTLC lanac**:
 
 
 
-- Onion Routing**: Pruža privatnost enkapsuliranjem podataka o transakcijama u slojevima, osiguravajući da svaki posrednik zna samo prethodne i sledeće čvorove, ali ne i celu rutu.
-- HTLC Lanac**: Niz ugovora koji zaključavaju sredstva dok se uplata ne izvrši ili poništi.
+- Onion routing**: Pruža privatnost enkapsuliranjem podataka o transakciji u slojevima, osiguravajući da svaki posrednik zna samo svoje prethodne i sledeće čvorove, ali ne i celu rutu.
+- HTLC lanac**: Serija ugovora koji zaključavaju sredstva dok se uplata ne izvrši ili poništi.
 
 
-Noviji protokol koji poboljšava mogućnosti Lightning Network je **Keysend**. Za razliku od tradicionalnih metoda koje zahtevaju prethodnu komunikaciju između pošiljaoca i primaoca do generate i Invoice, Keysend omogućava **plaćanja inicirana od strane pošiljaoca**, pojednostavljujući proces i poboljšavajući korisničko iskustvo.
+Noviji protokol koji poboljšava mogućnosti Lightning Network je **Keysend**. Za razliku od tradicionalnih metoda koje zahtevaju prethodnu komunikaciju između pošiljaoca i primaoca za generate i Invoice, Keysend omogućava **plaćanja inicirana od strane pošiljaoca**, pojednostavljujući proces i poboljšavajući korisničko iskustvo.
 
 
-Međutim, tradicionalne fakture imaju svoja ograničenja. Na primer:
+Međutim, tradicionalni računi imaju svoja ograničenja. Na primer:
 
 
 
@@ -3230,56 +3203,56 @@ Međutim, tradicionalne fakture imaju svoja ograničenja. Na primer:
 
 > - **Invoice**: Zahtev za plaćanje u Lightning Network, koji obično sadrži iznos i podatke o primaocu.
 > - **HTLC (Hash Time-Locked Contract)**: Tip Smart contract koji se koristi za osiguranje uslovnih plaćanja unutar vremenskog ograničenja.
-> - **Onion Routing**: Tehnika privatnosti gde su podaci o transakciji slojeviti poput luka kako bi se zaštitili identiteti pošiljaoca i primaoca.
+> - **Onion routing**: Tehnika privatnosti gde su podaci o transakciji slojeviti poput luka kako bi se zaštitili identiteti pošiljaoca i primaoca.
 
 ### Protokoli i slučajevi upotrebe
 
 
-Za oBusiness Models and Advanced Protocols
+Za oPoslovne Modele i Napredne Protokole
 
-prevazići ograničenja tradicionalnih faktura, pojavilo se nekoliko protokola za proširenje i poboljšanje Lightning plaćanja.
+prevazići ograničenja tradicionalnih faktura, pojavilo se nekoliko protokola za proširenje i unapređenje Lightning plaćanja.
 
 
 
-- LNURL**: Protokol koji pojednostavljuje Invoice generisanje omogućavajući dinamičko kreiranje faktura, podržavajući denominaciju u fiat valutama i omogućavajući korišćenje **Lightning adresa**. Ovaj pristup značajno poboljšava korisničko iskustvo nudeći fleksibilnije metode plaćanja i integraciju sa različitim slučajevima upotrebe.
+- LNURL**: Protokol koji pojednostavljuje generisanje Invoice omogućavajući dinamičko kreiranje faktura, podržavajući denominaciju u fiat valutama i omogućavajući korišćenje **Lightning adresa**. Ovaj pristup značajno poboljšava korisničko iskustvo nudeći fleksibilnije metode plaćanja i integraciju sa različitim slučajevima upotrebe.
 
 
 
 - Bolt 12 Ponude**: Ovaj protokol je sličan LNURL ali koristi **Onion messaging** za poboljšanu privatnost. Bolt 12 omogućava korisnicima automatsko preuzimanje faktura bez ručne intervencije, poboljšavajući i privatnost i upotrebljivost.
 
 
-Jedna značajna integracija Lightning plaćanja je u **Nostr**, decentralizovanoj platformi društvenih medija. Nostr integriše Lightning plaćanja kako bi omogućio davanje napojnica i mikro-transakcije, pokazujući kako se Lightning može ugraditi u različite aplikacije.
+Jedna značajna integracija Lightning plaćanja je u **Nostr**, decentralizovanoj platformi društvenih medija. Nostr integriše Lightning plaćanja kako bi omogućio napojnice i mikro-transakcije, pokazujući kako se Lightning može ugraditi u različite aplikacije.
 
 
 Još jedan protokol, **RGB**, dodatno proširuje funkcionalnost Lightning-a omogućavajući **prenos sredstava** preko Lightning Network. RGB omogućava prenos različitih sredstava, uključujući tokene, preko Lightning kanala, čime se proširuje opseg onoga što se može transaktovati.
 
 
-**Pružatelji usluga likvidnosti za Lightning (LSPs)** takođe igraju ključnu ulogu u proširenju Lightning plaćanja. LSPs obezbeđuju likvidnost za primanje uplata, pomažu u otvaranju **kanala sa dvostrukim finansiranjem**, i osiguravaju nesmetane transakcije presretanjem uplata i otvaranjem kanala u hodu.
+**Pružatelji usluga likvidnosti Lightning (LSPs)** takođe igraju ključnu ulogu u proširenju Lightning plaćanja. LSPs obezbeđuju likvidnost za primanje uplata, pomažu u otvaranju **dvosmerno finansiranih kanala**, i osiguravaju nesmetane transakcije presretanjem uplata i otvaranjem kanala u hodu.
 
 
 > **Definicije**:
 >
 
 > - **LNURL**: Protokol koji omogućava dinamičko kreiranje Invoice, čineći plaćanja lakšim i fleksibilnijim.
-> - **Bolt 12**: Proširenje Lightning-a koje koristi Onion messaging za privatnost dok automatizuje preuzimanje Invoice.
+> - **Bolt 12**: Proširenje Lightning-a koje koristi Onion razmenu poruka za privatnost dok automatizuje preuzimanje Invoice.
 > - **Nostr**: Decentralizovana platforma koja integriše LProtocols i Use Cases
 > ightning plaćanja za mikro-transakcije.
-> - **RGB Protocol**: Protokol koji omogućava prenos sredstava, kao što su tokeni, preko Lightning Network.
+> - **RGB protokol**: Protokol koji omogućava prenos sredstava, kao što su tokeni, preko Lightning Network.
 > - **LSP (Lightning Service Provider)**: Entitet koji obezbeđuje likvidnost i otvara kanale za Lightning transakcije, čineći mrežu pristupačnijom za korisnike.
 
 ### Poslovni modeli i napredni protokoli
 
 
-Napredak u Lightning plaćanjima otvorio je put za nove poslovne modele, posebno za **Lightning provajdere usluga (LSPs)**. LSPs poboljšavaju korisničko iskustvo otvaranjem kanala samo kada su plaćanja detektovana, čime se smanjuje složenost prethodnog podešavanja.
+Napredak u Lightning plaćanjima otvorio je put za nove poslovne modele, posebno za **pružaoce Lightning usluga (LSPs)**. LSP-ovi poboljšavaju korisničko iskustvo otvaranjem kanala samo kada su plaćanja detektovana, čime se smanjuje složenost prethodne postavke.
 
 
-Jedan primer poslovnog modela koji omogućava Lightning je **aukcijski model**. Ovde server drži najvišu ponudu i odbija niže ponude, držeći uplate na čekanju dok se aukcija ne završi. Ovo izbegava potrebu za povraćajem novca i pojednostavljuje proces aukcije.
+Jedan primer poslovnog modela koji omogućava Lightning je **aukcioni model**. Ovde server drži najvišu ponudu i odbija niže ponude, držeći uplate na čekanju dok se aukcija ne završi. Ovo izbegava potrebu za povraćajem novca i pojednostavljuje proces aukcije.
 
 
-Još jedan praktičan primer je u **poker igrama**, gde server upravlja plaćanjima držeći opklade do kraja igre, osiguravajući nesmetan proces klađenja.
+Još jedan praktičan primer je u **poker igrama**, gde server upravlja uplatama držeći opklade do kraja igre, osiguravajući nesmetan proces klađenja.
 
 
-Plaćanja putem Lightning mreže takođe se integrišu u platforme kao što su **Nostr** i usluge podcastinga, što pokazuje svestranost ovih protokola. Pored toga, **pre-slike** plaćanja mogu se koristiti kao **ključevi za pristup** za otključavanje sadržaja ili usluga, dodajući dodatnu korisnost Lightning Network.
+Lightning plaćanja se takođe integrišu u platforme kao što su **Nostr** i usluge podcastinga, što pokazuje svestranost ovih protokola. Pored toga, **pre-slike** plaćanja mogu se koristiti kao **ključevi za pristup** za otključavanje sadržaja ili usluga, dodajući dodatnu korisnost Lightning Network.
 
 
 Napredni protokoli kao što su **Point Time-Locked Contracts (PTLCs)** unapređuju Lightning omogućavajući složenije kriptografske operacije. PTLCs nude poboljšanja u rutiranju i deljenju plaćanja, poboljšavajući i sigurnost i efikasnost.
@@ -3293,7 +3266,7 @@ Protokoli kao što su **LNURL** i **Bolt 12** pojednostavljuju plaćanja smanjuj
 
 > - **PTLC (Point Time-Locked Contract)**: Kriptografski primitiv koji unapređuje HTLC-ove, omogućavajući fleksibilnija i sigurnija plaćanja.
 > - **Pre-image**: Vrednost koja se koristi za otključavanje HTLC, koja takođe može služiti kao pristupni ključ za usluge.
-> - **Aukcioni Model**: Model plaćanja gde su uplate na čekanju tokom aukcije i oslobađaju se samo kada je prihvaćena najviša ponuda.
+> - **Aukcioni model**: Model plaćanja gde su uplate na čekanju tokom aukcije i oslobađaju se samo kada je najviša ponuda prihvaćena.
 
 ### Zaključak
 
@@ -3317,60 +3290,59 @@ Proširenje i integracija Lightning plaćanja kroz različite protokole i sluča
 
 :::video id=161d074d-4a81-48da-b2c9-9bde041a0da5:::
 
-
 #### Uvod
 
 
 Ajelex se fokusira na poslovni aspekt Bitcoin Mining, ispitujući strategije za održavanje profitabilnosti na konkurentnom tržištu. Diskusija uključuje analizu operativnih troškova, mere efikasnosti i ekonomiju koja pokreće industriju Mining.
 
 
-### 1. Mining Kompleksnost i Faktori Profitabilnosti
+### 1. Faktori složenosti i profitabilnosti Mining
 
 
 #### Tehnički i strateški faktori
 
 
-Složenost Mining u kontekstu Bitcoin prvenstveno uključuje tehničke i strateške Elements koji određuju profitabilnost operacija Mining. Ključno je razumeti da Mining nije samo igra na sreću već sofisticiran proces koji zahteva pažljivo planiranje i kontinuiranu optimizaciju.
+Složenost Mining u kontekstu Bitcoin prvenstveno uključuje tehnički i strateški Elements koji određuju profitabilnost operacija Mining. Ključno je razumeti da Mining nije samo igra slučaja već sofisticiran proces koji zahteva pažljivo planiranje i kontinuiranu optimizaciju.
 
 
 #### Ključni faktori profitabilnosti
 
 
-![energy cost](assets/en/bonus/mining/1.webp)
+![energy cost](assets/en/056.webp)
 
 
-1. **Troškovi Električne Energije**: Jedan od najznačajnijih faktora koji utiču na profitabilnost Mining je cena električne energije. U regionima poput Francuske, električna energija može biti relativno skupa u poređenju sa zemljama poput El Salvadora, gde niži troškovi pružaju konkurentsku prednost za rudare.
+1. **Troškovi električne energije**: Jedan od najznačajnijih faktora koji utiču na profitabilnost Mining je cena električne energije. U regionima poput Francuske, električna energija može biti relativno skupa u poređenju sa zemljama poput El Salvadora, gde niži troškovi pružaju konkurentsku prednost za rudare.
 
 2. **Efikasnost hardvera**: Efikasnost Mining hardvera, mereno njegovom Hash stopom i potrošnjom energije, igra ključnu ulogu. Napredni ASIC rudari kao što je S19J Pro su daleko efikasniji od starijih modela kao što je Antminer S9.
 
 3. **Vremenski period**: Bitcoin Mining podstiče dugoročno planiranje.
 
-4. **BTC Price**: BTC cena je ključna za određivanje profitabilnosti Mining.
+4. **BTC cena**: BTC cena je ključna za određivanje profitabilnosti Mining.
 
-5. **Network difficulty**: Network difficulty predstavlja količinu Hashrate u proseku potrebnu za rudarenje bloka u roku od 10 minuta.
+5. **Težina mreže**: Težina mreže predstavlja količinu Hashrate u proseku potrebnu za rudarenje bloka u 10 minuta.
 
-6. **Strategic Tools**: Alati kao što je [braiins.com](https://insights.braiins.com) su neprocenjive za izračunavanje profitabilnosti i pomoć rudarima da donose odluke zasnovane na podacima.
+6. **Strateški alati**: Alati kao što je [braiins.com](https://insights.braiins.com) su neprocenjivi za izračunavanje profitabilnosti i pomoć rudarima da donose odluke zasnovane na podacima.
 
 
 #### Praktična primena
 
 
-Iz ličnog iskustva, čak sam koristio Mining za grejanje svog stana u Francuskoj, kreativno smanjujući troškove električne energije dok Mining Bitcoin. Ovaj primer naglašava praktičnost integrisanja Mining operacija u svakodnevni život za dodatne pogodnosti.
+Iz ličnog iskustva, čak sam koristio Mining da zagrejem svoj stan u Francuskoj, kreativno smanjujući troškove električne energije dok Mining Bitcoin. Ovaj primer naglašava praktičnost integrisanja Mining operacija u svakodnevni život za dodatne beneficije.
 
 
 #### Uska grla u Mining
 
 
-Rudari se suočavaju sa tri glavne prepreke: dostupnost hardvera, pristup energiji i kapital potreban za održavanje operacija. Oskudica ASIC-a zbog velike potražnje često dovodi do dugih vremena čekanja i naduvanih cena, dodatno komplikujući Mining okruženje.
+Rudari se suočavaju sa tri glavne prepreke: dostupnost hardvera, pristup energiji i kapital potreban za održavanje operacija. Oskudica ASIC-ova zbog velike potražnje često dovodi do dugih čekanja i naduvanih cena, dodatno komplikujući Mining okruženje.
 
 
 
-- Primer **usko grlo energije**.
+- Primer **uskog grla energije**.
 
-Godine 2021, kineska vlada zabranila je Mining unutar svoje teritorije, što je dovelo do toga da su kompanije Mining u Kini izgubile pristup energiji. To je rezultiralo padom Hashrate od **50%** tokom dve nedelje.
+Godine 2021, kineska vlada zabranila je Mining na svojoj teritoriji, što je dovelo do toga da su kompanije Mining u Kini izgubile pristup energiji. To je rezultiralo padom od **50%** u Hashrate tokom dve nedelje.
 
 
-![hashrate drop](assets/en/bonus/mining/4.webp)
+![hashrate drop](assets/en/057.webp)
 
 
 ---
@@ -3384,19 +3356,19 @@ Godine 2021, kineska vlada zabranila je Mining unutar svoje teritorije, što je 
 Putovanje Mining hardvera bilo je monumentalno, počevši od jednostavnog CPU Mining do visoko specijalizovanih ASIC minera koje danas koristimo.
 
 
-![evolution hardware](assets/en/bonus/mining/3.webp)
+![evolution hardware](assets/en/058.webp)
 
 
 1. **CPU Mining**: U ranim danima, Mining je izvođen korišćenjem regularnih procesora računara (CPU). Ova metoda je brzo prevaziđena kako je mreža rasla.
 
-2. **GPU Mining**: Graphics Processing Units (GPU-ovi) su značajno poboljšali efikasnost Mining, čineći CPU-ove zastarelim za potrebe Mining.
+2. **GPU Mining**: Graphics Processing Units (GPU) su značajno poboljšali efikasnost Mining, čineći CPU zastarelim za potrebe Mining.
 
 3. **FPGA Mining**: Field-Programmable Gate Arrays (FPGAs) nudile su još bolje performanse i energetsku efikasnost od GPU-ova.
 
 4. **ASIC Mining**: Aplikativno specifični integrisani krugovi (ASICs) predstavljaju vrhunac efikasnosti Mining hardvera, dizajnirani posebno za Mining operacije sa neuporedivim performansama.
 
 
-#### Detaljno Poređenje: S19J Pro vs. Antminer S9
+#### Detaljno poređenje: S19J Pro vs. Antminer S9
 
 
 
@@ -3404,13 +3376,13 @@ Putovanje Mining hardvera bilo je monumentalno, počevši od jednostavnog CPU Mi
 - Antminer S9**: Iako stariji i manje efikasan, Antminer S9 ostaje popularan za manje postavke i hobiste zbog svoje pristupačnosti i solidnih performansi.
 
 
-![s19j pro vs antminer s9](assets/en/bonus/mining/2.webp)
+![s19j pro vs antminer s9](assets/en/059.webp)
 
 
-#### Mining Efikasnost i Učenje
+#### Mining efikasnost i učenje
 
 
-Mining ne samo da pruža finansijske nagrade već i dragoceno praktično iskustvo. Sticanje bitkoina bez KYC-a putem Mining može biti privlačna ponuda za one koji su zabrinuti za privatnost.
+Mining ne samo da pruža finansijske nagrade već i dragoceno praktično iskustvo. Sticanje bitkoina bez KYC-a putem Mining može biti privlačna opcija za one koji su zabrinuti za privatnost.
 
 
 #### Napredni alati i tehnike
@@ -3430,34 +3402,34 @@ Softver sa tržišta dodatne opreme može poboljšati efikasnost i funkcionalnos
 Regulacija igra značajnu ulogu u oblikovanju pejzaža Mining. Na primer, kineska zabrana Mining imala je duboke efekte na globalne operacije Mining, uzrokujući značajan pad stope mreže Hash i dovodeći do preraspodele moći Mining širom različitih regiona.
 
 
-#### Dinamika Tržišta
+#### Dinamika tržišta
 
 
-1. **Dostupnost i cena hardvera**: Cena i dostupnost ASIC rudara su pod uticajem tržišne cene Bitcoin. Velika potražnja tokom bikovskih tržišta dovodi do nestašice i naduvanih cena.
+1. **Dostupnost hardvera i cena**: Cena i dostupnost ASIC rudara su pod uticajem tržišne cene Bitcoin. Velika potražnja tokom bikovskih tržišta dovodi do nestašice i naduvanih cena.
 
-2. **Hash Vrednost i Hash Cena**: Razumevanje razlike između Hash vrednosti (satoši zarađeni po terahašu dnevno) i Hash cene (novčana vrednost Hash kursa) je ključno. Obe su pod uticajem težine mreže i tržišne cene Bitcoin.
-
-
-#### Mining Bazeni i Mehanizmi Nagrada
+2. **Hash vrednost i Hash cena**: Razumevanje razlike između Hash vrednosti (satoši zarađeni po terahašu dnevno) i Hash cene (novčana vrednost Hash kursa) je ključno. Obe su pod uticajem težine mreže i tržišne cene Bitcoin.
 
 
-1. **Mining Bazeni**: Kombinovanjem resursa, Mining bazeni pružaju stabilnije nagrade, smanjujući varijansu i rizik povezan sa solo Mining.
-
-2. **Šeme Nagrada**: Različiti mehanizmi nagrađivanja, kao što su Plaćanje Po Deonici (PPS) i proporcionalne nagrade, nude različite profile rizika i nagrada za rudare.
+#### Mining bazeni i mehanizmi nagrađivanja
 
 
+1. **Mining bazeni**: Kombinovanjem resursa, Mining bazeni pružaju stabilnije nagrade, smanjujući varijansu i rizik povezan sa solo Mining.
 
-   - Plaćanje po deonici**: Plaćanje po deonici nagrađuje rudare za svaku validnu deonicu koju pošalju, bez obzira na to da li bazen pronađe blok. **Deonice** su jedinice dokaza da su rudari završili potreban rad, a bazen verifikuje te deonice.
+2. **Šeme nagrađivanja**: Različiti mehanizmi nagrađivanja, kao što su Pay-Per-Share (PPS) i proporcionalne nagrade, nude različite profile rizika i nagrada za rudare.
 
 
-![pps](assets/en/bonus/mining/6.webp)
+
+   - Plaćanje po deonici**: Plaćanje po deonici nagrađuje rudare za svaku validnu deonicu koju podnesu, bez obzira na to da li bazen pronađe blok. **Deonice** su jedinice dokaza da su rudari završili potreban rad, a bazen verifikuje te deonice.
+
+
+![pps](assets/en/060.webp)
 
 
 
    - Proportionalno**: Zavisi od bazena Mining blok za ravnomernu raspodelu nagrade prema doprinosu Miner ukupnom Hashrate bazena.
 
 
-![prop](assets/en/bonus/mining/5.webp)
+![prop](assets/en/061.webp)
 
 
 #### Budućnost Mining
@@ -3469,7 +3441,7 @@ Kako se nagrade za blokove smanjuju, rudari će se sve više oslanjati na naknad
 #### Hosted Mining
 
 
-Hostovane Mining usluge mogu ponuditi niže operativne troškove, ali dolaze s rizicima kao što su nedostatak kontrole i potencijal za prevaru. Potrebna je odgovarajuća dubinska analiza kako bi se ublažili ovi rizici.
+Hostovane Mining usluge mogu ponuditi niže operativne troškove, ali dolaze s rizicima kao što su nedostatak kontrole i potencijal za prevaru. Potrebna je odgovarajuća pažnja kako bi se ovi rizici ublažili.
 
 
 #### Bezbednost i efikasnost
@@ -3491,11 +3463,10 @@ Zaključno, svet Bitcoin Mining je složena, višeslojna oblast koja zahteva dub
 
 :::video id=b89f2064-f2e1-49c3-97d0-580891eee1dd:::
 
+Adam Gibson nudi uvid u Joinmarket, objašnjavajući kako ova implementacija CoinJoin poboljšava privatnost i fungibilnost Bitcoin. On diskutuje o tome kako Joinmarket omogućava kolaborativne, Trustless, i anonimne transakcije unutar Bitcoin ekosistema. Zatim u drugom delu, pokazuje kako pokrenuti Joinmarket u Signet.
 
-Adam Gibson nudi uvid u Joinmarket, objašnjavajući kako ova implementacija CoinJoin poboljšava privatnost i zamjenjivost Bitcoin. On raspravlja o tome kako Joinmarket omogućava kolaborativne, Trustless, i anonimne transakcije unutar Bitcoin ekosistema. Zatim u drugom delu, pokazuje kako pokrenuti Joinmarket u Signet.
 
-
-## Cubo+ prva godina Hakaton
+## Cubo+ Prva Godina Hakaton
 
 
 <chapterId>3faf7daa-ea42-5b68-bcaf-04b70b2e02dd</chapterId>
@@ -3506,7 +3477,6 @@ Adam Gibson nudi uvid u Joinmarket, objašnjavajući kako ova implementacija Coi
 
 :::video id=d78b199e-39cd-4d3c-b478-1502ba9c952a:::
 
-
 Grupa Satoshi Legacy predstavlja svoj rad na izgradnji Lightning e-trgovine sa Shopify, React JS i Hydrogen i IBEX platnim prolazom.
 
 
@@ -3514,7 +3484,6 @@ Grupa Satoshi Legacy predstavlja svoj rad na izgradnji Lightning e-trgovine sa S
 
 
 :::video id=2159b401-e195-4bc8-9046-67a05c6ab7ea:::
-
 
 Grupa Honey Badger predstavlja njeno rešenje za blog sa ugrađenim Lightning mikroplaćanjima koristeći LnBits i Next.js, Node.js i Hydrogen.
 
@@ -3524,7 +3493,6 @@ Grupa Honey Badger predstavlja njeno rešenje za blog sa ugrađenim Lightning mi
 
 :::video id=eb1e3c20-03ea-4ff8-b018-d197377a85cf:::
 
-
 Treća grupa predstavlja Lightning Network Node Dashboard putem prilagođenog API-ja, LND, vue.js, node.js, Bootstrap.
 
 
@@ -3533,15 +3501,13 @@ Treća grupa predstavlja Lightning Network Node Dashboard putem prilagođenog AP
 
 :::video id=de1f6032-a0fa-49b0-82eb-18ba0e631756:::
 
-
-Satoshi's Fellowship's group predstavlja LN gaming aplikaciju koristeći LnBits i MongoDB, Poetry, Node.js.
+Grupa Fellowship-a Satoshi predstavlja LN gaming aplikaciju koristeći LnBits i MongoDB, Poetry, Node.js.
 
 
 ### Groupe 5 Hackathon - Lighting Walker
 
 
 :::video id=1328bada-4fd1-494a-83c6-f147a4880448:::
-
 
 Grupa Lightning Walker predstavlja svoje rešenje za uslugu doznaka koristeći MySQL, JavaScript i ZDB-ov API.
 

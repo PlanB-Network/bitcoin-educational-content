@@ -14,7 +14,7 @@ Trong hướng dẫn này, chúng tôi sẽ trình bày quy trình tạo tài kh
 Nếu bạn quan tâm đến chủ đề tích hợp Bitcoin vào doanh nghiệp của mình, tôi cũng khuyên bạn nên khám phá khóa đào tạo lý thuyết đầy đủ của chúng tôi về chủ đề này:
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## 1 - Tạo tài khoản doanh nghiệp Kraken
 
@@ -87,8 +87,8 @@ Sau khi tài khoản của bạn được xác minh, bạn sẽ truy cập vào 
 
 
 
-- Kraken**: Phiên bản Interface đơn giản hơn nhưng vẫn có chức năng thiết yếu.
-- Kraken Pro**: Interface tiên tiến với nhiều tính năng bổ sung, đặc biệt dành cho giao dịch.
+- **Kraken**: Phiên bản Interface đơn giản hơn nhưng vẫn có chức năng thiết yếu.
+- **Kraken Pro**: Interface tiên tiến với nhiều tính năng bổ sung, đặc biệt dành cho giao dịch.
 
 
 Nếu mục đích của bạn chỉ là mua và bán Bitcoin, hãy chọn Interface đơn giản. Bạn luôn có thể chuyển sang Interface nâng cao sau này nếu cần.
@@ -115,7 +115,7 @@ Trong tùy chọn 2FA, bạn có thể chọn sử dụng khóa bảo mật vậ
 Để biết thêm thông tin về cách sử dụng loại thiết bị này, hãy xem hướng dẫn chuyên dụng của chúng tôi:
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 Một lựa chọn khác là sử dụng ứng dụng xác thực như Google Authenticator hoặc Authy. Các ứng dụng này cung cấp mã generate động gồm 6 chữ số mà bạn cần nhập mỗi khi đăng nhập.
 
@@ -132,7 +132,7 @@ Một lựa chọn khác là sử dụng ứng dụng xác thực như Google Au
 Để biết thêm thông tin về các ứng dụng xác thực, bạn cũng có thể tham khảo hướng dẫn này:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Bên dưới, bạn cũng có thể truy cập các cài đặt nâng cao, bao gồm khả năng thiết lập nhiều 2FA khác nhau. Kraken cung cấp tính năng ủy quyền bảo mật nâng cao thông qua 2FA. Tính năng này cho phép bạn tạo các mức 2FA khác nhau cho các hành động khác nhau, chẳng hạn như đăng nhập, xác thực đơn hàng và rút tiền. Ví dụ: điều này cho phép bạn cấp cho kế toán viên quyền truy cập vào một số chức năng nhất định mà không cho phép họ rút tiền. Dưới đây là các tùy chọn:
 
@@ -233,9 +233,9 @@ Chọn số tiền, chọn loại tiền điện tử bạn muốn nhận, sau �
 
 
 
-- Thị trường*: Cho phép mua ngay lập tức theo giá thị trường hiện tại;
-- Giới hạn*: Cho phép bạn chỉ định giá mua và lệnh sẽ chỉ được thực hiện nếu giá thị trường đạt đến số tiền này;
-- Dừng lỗ*: Tự động bán khi giá đạt đến ngưỡng nhất định.
+- **Thị trường**: Cho phép mua ngay lập tức theo giá thị trường hiện tại;
+- Giới hạn: Cho phép bạn chỉ định giá mua và lệnh sẽ chỉ được thực hiện nếu giá thị trường đạt đến số tiền này;
+- **Dừng lỗ**: Tự động bán khi giá đạt đến ngưỡng nhất định.
 
 
 ## 7 - Quản lý giao dịch và kế toán
@@ -320,4 +320,4 @@ Tùy thuộc vào mục tiêu và cơ cấu của công ty bạn, cách sử d�
 Để hiểu sâu hơn về chủ đề này, tôi khuyên bạn nên tham gia khóa đào tạo toàn diện này về cách tích hợp Bitcoin vào doanh nghiệp, bao gồm chi tiết về việc bổ sung dòng tiền, chấp nhận thanh toán Bitcoin và kế toán:
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

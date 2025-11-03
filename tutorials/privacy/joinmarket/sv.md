@@ -423,7 +423,7 @@ När dina Satoshis gör CoinJoins kommer de att flytta från mixdjup till mixdju
 
 
 
-Här är vi äntligen på den saftigaste delen av JoinMarket, tumlaren! Om du har lyssnat på podcasten vet du redan vad det handlar om. En rekommendation innan vi sätter igång: **Kom ihåg att ställa in gränserna i filen joinmarket.cfg (som förklarades i början) och överväga att köra programmet endast när onchain-avgifterna är relativt låga (under 10 Sats/vB).
+Här är vi äntligen på den saftigaste delen av JoinMarket, tumlaren! Om du har lyssnat på podcasten vet du redan vad det handlar om. En rekommendation innan vi sätter igång: **Kom ihåg att ställa in gränserna i filen joinmarket.cfg (som förklarades i början) och överväga att köra programmet endast när onchain-avgifterna är relativt låga (under 10 Sats/vB).**
 
 
 

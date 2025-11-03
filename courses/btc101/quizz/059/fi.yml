@@ -1,9 +1,9 @@
-question: Mikä seuraavista ei ole Bitcoinin ominaisuus?
-answer: Sitä on helppo sensuroida.
+question: Minä vuonna ennustetaan bitcoinien luomisen loppuvan?
+answer: 2140
 wrong_answers:
-  - Se on välittömästi siirrettävissä.
-  - Sen varmentamisen kustannukset ovat merkityksettömät.
-  - Sillä on kiinteä rahapolitiikka.
+  - 2050
+  - 2030
+  - 2200
 explanation: |
-  Bitcoinilla on kaikki tarvittavat ominaisuudet ollakseen tehokas ja terve valuutta: jaettavissa, välittömästi siirrettävissä, sensuroimaton, varmentamisen kustannukset ovat merkityksettömät, ja sillä on jo vuosisadoiksi asetettu rahapolitiikka 21 miljoonan yksikön kanssa.
+  Puoliintumismekanismin vuoksi voidaan matemaattisesti ennustaa, että bitcoinien luominen loppuu vuonna 2140, kun bitcoinien kokonaismäärä saavuttaa rajansa, joka on 21 miljoonaa.
 reviewed: true

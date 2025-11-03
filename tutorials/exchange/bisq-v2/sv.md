@@ -11,7 +11,7 @@ description: Komplett guide till att använda Bisq 2 och växla bitcoins P2P
 KYC-fria peer-to-peer (P2P)-börser är viktiga för att bevara användarnas integritet och finansiella självständighet. De möjliggör direkta transaktioner mellan individer utan behov av identitetsverifiering, vilket är avgörande för dem som värdesätter integritet. För en mer djupgående förståelse av de teoretiska begreppen, ta en titt på BTC204-kursen:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Vad är Bisq 2?
 
@@ -117,7 +117,7 @@ Denna guide fokuserar uteslutande på "Bisq Easy", det enda protokoll som för n
 - Verifiera äktheten för den nedladdade filen (rekommenderas starkt). För en detaljerad guide till signaturverifiering, se följande handledning:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### 2. Installation enligt ditt system
 
@@ -472,11 +472,11 @@ För att förbättra ditt rykte som säljare på Bisq bör du genomföra regelbu
 
 
 
-- Maximal integritet**: Ingen KYC, användning av Tor
-- Decentralisering**: Ingen central server
-- Säkerhet**: Öppen källkod, kod utan förmyndarskap
-- Intuitiv Interface**: enklare än Bisq 1
-- Flexibilitet**: Flera Exchange-protokoll
+- **Maximal integritet**: Ingen KYC, användning av Tor
+- **Decentralisering**: Ingen central server
+- **Säkerhet**: Öppen källkod, kod utan förmyndarskap
+- **Intuitiv Interface**: enklare än Bisq 1
+- **Flexibilitet**: Flera Exchange-protokoll
 
 
 ### Bisq 2 nackdelar
@@ -484,12 +484,12 @@ För att förbättra ditt rykte som säljare på Bisq bör du genomföra regelbu
 
 
 
-- Begränsad likviditet** (för närvarande) :
+- **Begränsad likviditet** (för närvarande):
  - Nytt protokoll i uppstartsfasen
  - Ett fåtal försäljningserbjudanden tillgängliga
  - Potentiellt långa väntetider för att hitta en köpare
-- Gränser för handel**: Högst 600 USD per transaktion (med Bisq easy)
-- Endast skrivbord**: Ingen mobilapplikation
+- **Gränser för handel**: Högst 600 USD per transaktion (med Bisq easy)
+- **Endast skrivbord**: Ingen mobilapplikation
 
 
 ## Framtida protokoll
@@ -500,16 +500,16 @@ För att förbättra ditt rykte som säljare på Bisq bör du genomföra regelbu
 
 
 
-- Bisq Lightning**: Exchange-protokoll baserat på ett spärrsystem som använder kryptografi för flerpartsberäkning på Lightning Network.
-- Bisq MuSig**: Migrering av huvudprotokollet från Bisq 1 till Bisq 2, med hjälp av en 2-mot-2 Multisig med säkerhetsdepositioner.
-- BSQ Swappar**: Omedelbara atomära swappar mellan BSQ och BTC.
-- Liquid Swappar**: Exchange av tillgångar på Liquid Network (USDT, BTC-L) via atomära swappar.
-- Monero Byten**: Atomutbyten mellan Bitcoin och Monero.
-- Liquid MuSig**: Version av Multisig-protokollet som använder L-BTC för lägre kostnader och större integritet.
-- Submarine Swaps**: Utbyten mellan Bitcoin på Lightning Network och Bitcoin On-Chain.
-- Byte av stablecoin**: Atomiska utbyten mellan Bitcoin och USD stablecoins.
-- Multisig Optioner**: Skapande av sälj- och köpoptioner för P2P med BTC-blockering i en On-Chain Multisig-transaktion.
-- Multisig Öppna kontrakt**: Gör det möjligt att skapa anpassade villkorade kontrakt med hjälp av ett 2-på-3 Multisig-system med arbitrage.
+- **Bisq Lightning**: Exchange-protokoll baserat på ett spärrsystem som använder kryptografi för flerpartsberäkning på Lightning Network.
+- **Bisq MuSig**: Migrering av huvudprotokollet från Bisq 1 till Bisq 2, med hjälp av en 2-mot-2 Multisig med säkerhetsdepositioner.
+- **BSQ Swappar**: Omedelbara atomära swappar mellan BSQ och BTC.
+- **Liquid Swappar**: Exchange av tillgångar på Liquid Network (USDT, BTC-L) via atomära swappar.
+- **Monero Byten**: Atomutbyten mellan Bitcoin och Monero.
+- **Liquid MuSig**: Version av Multisig-protokollet som använder L-BTC för lägre kostnader och större integritet.
+- **Submarine Swaps**: Utbyten mellan Bitcoin på Lightning Network och Bitcoin On-Chain.
+- **Byte av stablecoin**: Atomiska utbyten mellan Bitcoin och USD stablecoins.
+- **Multisig Optioner**: Skapande av sälj- och köpoptioner för P2P med BTC-blockering i en On-Chain Multisig-transaktion.
+- **Multisig Öppna kontrakt**: Gör det möjligt att skapa anpassade villkorade kontrakt med hjälp av ett 2-på-3 Multisig-system med arbitrage.
 
 
 Dessa protokoll är för närvarande under utveckling och kommer successivt att integreras i Bisq 2, vilket ger användarna större flexibilitet i enlighet med deras specifika behov.

@@ -1,0 +1,9 @@
+question: Bitcoin core'da assumevalid parametresinin işlevi nedir?
+answer: Referans bloğundan önce kod doğrulamasını yoksayma
+wrong_answers:
+  - Referans bloğundan önce Proof-of-Work doğrulamasını yoksay
+  - Referans bloğundan önce başlık doğrulamasını yoksayma
+  - Eş bulma için Tor'u zorla
+explanation: |
+  Assumevalid, bilinen bir bloktan önce kod doğrulamasını yok sayarak IBD'yi hızlandırırken diğer tüm doğrulamaları korur.
+reviewed: true

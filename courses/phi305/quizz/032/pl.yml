@@ -1,0 +1,9 @@
+question: Kim był Bernardin de Saint-Pierre?
+answer: Dyrektor paryskiego Muzeum Historii Naturalnej na początku XIX wieku.
+wrong_answers:
+  - Minister Ludwika XIV.
+  - Francuski filozof.
+  - Rewolucjonista terroru.
+explanation: |
+  Bernardin de Saint-Pierre (1737-1814) był dyrektorem Jardin des Plantes (muzeum historii naturalnej) w Paryżu na początku XIX wieku. Najbardziej znany jest ze swojej powieści Paul et Virginie i opisów przyrody.
+reviewed: false

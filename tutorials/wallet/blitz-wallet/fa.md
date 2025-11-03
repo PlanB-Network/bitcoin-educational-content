@@ -44,7 +44,7 @@ description: ساده‌ترین پرتفوی Bitcoin.
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ❗**مهم**: این ۱۲ / ۲۴ کلمه بازیابی برای دسترسی به بیت‌کوین‌های شما ضروری هستند. اگر آن‌ها را گم کنید، دیگر مجاز به خرج کردن بیت‌کوین‌های خود نخواهید بود.
 
@@ -93,23 +93,23 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 
-- Lightning Network** : یکی از پوشش‌های Bitcoin که به شما اجازه می‌دهد تراکنش‌های خرد را به‌صورت فوری انجام دهید.
+- **Lightning Network**: یکی از پوشش‌های Bitcoin که به شما اجازه می‌دهد تراکنش‌های خرد را به‌صورت فوری انجام دهید.
 
 
 
 
 
-- Bitcoin Mainnet** : زنجیره اصلی پروتکل Bitcoin، مناسب برای تراکنش‌های با ارزش بالا.
+- **Bitcoin Mainnet**: زنجیره اصلی پروتکل Bitcoin، مناسب برای تراکنش‌های با ارزش بالا.
 
 
 
 
 
-- Liquid Network**: یک زنجیره موازی با Bitcoin Mainnet که توسط BlockStream توسعه یافته و از Liquid بیت‌کوین‌ها برای انجام سریع، Confidential Transactions استفاده می‌کند.
+- **Liquid Network**: یک زنجیره موازی با Bitcoin Mainnet که توسط BlockStream توسعه یافته و از Liquid بیت‌کوین‌ها برای انجام سریع، Confidential Transactions استفاده می‌کند.
 
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 به طور پیش‌فرض، تمام تراکنش‌های شما بر روی Liquid Network خواهد بود، اما Blitz به شما اجازه می‌دهد تا با کلیک بر روی دکمه **انتخاب فرمت** شبکه‌ای را که می‌خواهید ساتوشی‌ها را دریافت کنید، تعریف کنید.
 
@@ -169,7 +169,7 @@ Blitz Wallet ارسال بیت‌کوین از Wallet خود را برای شم�
 
 
 
-- دسترسی به خدمات هوش مصنوعی**: از مدل‌های هوش مصنوعی مولد مانند: Claude 3-5 sonnet، gpt-4o، gpt-4o-mini gemini-flash-1.5 استفاده کنید و مستقیماً با بیت‌کوین پرداخت کنید.
+- **دسترسی به خدمات هوش مصنوعی**: از مدل‌های هوش مصنوعی مولد مانند: Claude 3-5 sonnet، gpt-4o، gpt-4o-mini gemini-flash-1.5 استفاده کنید و مستقیماً با بیت‌کوین پرداخت کنید.
 
 
 
@@ -179,7 +179,7 @@ Blitz Wallet ارسال بیت‌کوین از Wallet خود را برای شم�
 
 
 
-- ارسال پیامک به هر نقطه از جهان**: در فروشگاه Blitz، شما به یک سرویس GSM دسترسی دارید که به شما امکان می‌دهد پیامک‌ها را به صورت ناشناس به هر نقطه از جهان ارسال کنید، با صورتحساب مستقیم در Bitcoin.
+- **ارسال پیامک به هر نقطه از جهان**: در فروشگاه Blitz، شما به یک سرویس GSM دسترسی دارید که به شما امکان می‌دهد پیامک‌ها را به صورت ناشناس به هر نقطه از جهان ارسال کنید، با صورتحساب مستقیم در Bitcoin.
 
 
 
@@ -189,7 +189,7 @@ Blitz Wallet ارسال بیت‌کوین از Wallet خود را برای شم�
 
 
 
-- در محرمانگی کامل مرور کنید**: اشتراک VPN (شبکه خصوصی مجازی) WireGuard را در فروشگاه Wallet Blitz با بیت‌کوین‌های خود پرداخت کنید.
+- **در محرمانگی کامل مرور کنید**: اشتراک VPN (شبکه خصوصی مجازی) WireGuard را در فروشگاه Wallet Blitz با بیت‌کوین‌های خود پرداخت کنید.
 
 
 
@@ -197,9 +197,9 @@ Blitz Wallet ارسال بیت‌کوین از Wallet خود را برای شم�
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
-https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
+https://planb.academy/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
 
 ## Wallet بلیتز پشت صحنه: فراتر رفتن
 
@@ -221,7 +221,7 @@ https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c
 
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
 می‌توانید جزئیات موجودی خود را در منوی **تنظیمات>اطلاعات موجودی** مشاهده کنید.
 
@@ -249,7 +249,7 @@ https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe389
 
 
 
-- Bitcoin را در فروشگاه خود بپذیرید** :
+- **Bitcoin را در فروشگاه خود بپذیرید** :
 
 
 
@@ -269,5 +269,4 @@ https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe389
 
 
 
-https://planb.network/tutorials/wallet/mobile/muun-111b56b0-4872-4130-ad2e-e58f8363451d
-
+https://planb.academy/tutorials/wallet/mobile/muun-111b56b0-4872-4130-ad2e-e58f8363451d

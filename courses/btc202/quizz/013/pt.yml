@@ -1,0 +1,9 @@
+question: Que tipo de equipamento é utilizado atualmente para extrair Bitcoin de forma eficiente?
+answer: ASIC
+wrong_answers:
+  - CPU clássica
+  - GPU
+  - FPGA
+explanation: |
+  Atualmente, o Bitcoin Mining é realizado utilizando ASICs. Estes são chips especializados para o algoritmo SHA-256.
+reviewed: true

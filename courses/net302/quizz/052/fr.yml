@@ -6,4 +6,4 @@ wrong_answers:
   - Le type de protocole réseau utilisé
 explanation: |
   Le fonctionnement du NAT repose sur une table maintenant la correspondance entre adresses internes et adresses publiques pour router correctement les paquets.
-reviewed: false
+reviewed: true 

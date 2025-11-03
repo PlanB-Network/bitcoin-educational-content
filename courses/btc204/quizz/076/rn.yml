@@ -1,0 +1,10 @@
+question: None igikorwa ca CoinJoin ni iki?
+answer: Ibikorwa vy’ubufatanye aho abakoresha benshi bafatanya UTXO zabo.
+wrong_answers:
+  - Ibikorwa vy’ubufatanye hagati y’abakoresha babiri gusa.
+  - Ibikorwa aho umuntu umwe yohereza amahera ku ma aderesi menshi.
+  - Ibikorwa aho umukinyi wa mbere avanga amafaranga y’abaguzi babo.
+explanation: |
+  Iryo soko rya CoinJoin ni iryo soko ry’ubufatanye aho abakoresha benshi bavanga ibiceri vyabo.
+  
+reviewed: false

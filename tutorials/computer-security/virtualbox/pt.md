@@ -59,7 +59,7 @@ Para descarregar o VirtualBox para instalação numa máquina Windows, existe ap
 
 
 
-A instalação do VirtualBox** é simples e o processo é o mesmo para todas as versões do Windows. Comece por iniciar o executável do VirtualBox que acabou de descarregar e, em seguida, clique em "**Próximo**".
+A instalação do **VirtualBox** é simples e o processo é o mesmo para todas as versões do Windows. Comece por iniciar o executável do VirtualBox que acabou de descarregar e, em seguida, clique em "**Próximo**".
 
 
 
@@ -73,9 +73,9 @@ Esta instalação é personalizável, mas recomendo que instale todas as funcion
 
 
 
-- Suporte USB do VirtualBox** para permitir que o VirtualBox suporte dispositivos USB
-- VirtualBox Bridged Network** para integrar o suporte de rede no modo "Bridge" (a máquina virtual pode ligar-se diretamente à sua rede local)
-- VirtualBox Host-Only Network** para integrar o suporte de rede no modo "Host-Only" (a máquina virtual só pode comunicar com o seu anfitrião físico do Windows 11 e com outras máquinas virtuais neste modo)
+- **Suporte USB do VirtualBox** para permitir que o VirtualBox suporte dispositivos USB
+- **VirtualBox Bridged Network** para integrar o suporte de rede no modo "Bridge" (a máquina virtual pode ligar-se diretamente à sua rede local)
+- **VirtualBox Host-Only Network** para integrar o suporte de rede no modo "Host-Only" (a máquina virtual só pode comunicar com o seu anfitrião físico do Windows 11 e com outras máquinas virtuais neste modo)
 
 
 
@@ -165,10 +165,10 @@ Para criar uma nova máquina virtual no VirtualBox, basta clicar no botão "**Ne
 
 
 
-- Definições**: configuração geral do VirtualBox (pasta VM predefinida, gestão de actualizações, idioma, redes NAT, extensões, etc.)
-- Importar**: importar um dispositivo virtual no formato OVF
-- Exportar**: exportar uma máquina virtual existente no formato OVF para criar um dispositivo virtual
-- Adicionar**: adicionar uma máquina virtual existente ao inventário do VirtualBox, no formato padrão do VirtualBox (.vbox) ou no formato XML
+- **Definições**: configuração geral do VirtualBox (pasta VM predefinida, gestão de actualizações, idioma, redes NAT, extensões, etc.)
+- **Importar**: importar um dispositivo virtual no formato OVF
+- **Exportar**: exportar uma máquina virtual existente no formato OVF para criar um dispositivo virtual
+- **Adicionar**: adicionar uma máquina virtual existente ao inventário do VirtualBox, no formato padrão do VirtualBox (.vbox) ou no formato XML
 
 
 
@@ -184,16 +184,16 @@ Para criar uma nova máquina virtual no VirtualBox, basta clicar no botão "**Ne
 
 
 
-**Como lembrete, o VirtualBox suporta uma grande variedade de sistemas operativos, incluindo Windows, Linux e BSD. Neste exemplo, vou criar uma máquina virtual para o Windows 11. Vários campos precisam ser preenchidos:
+**Como lembrete, o VirtualBox suporta uma grande variedade de sistemas operativos, incluindo Windows, Linux e BSD. Neste exemplo, vou criar uma máquina virtual para o Windows 11. Vários campos precisam ser preenchidos:**
 
 
 
 
 
-- Name**: nome da máquina virtual (este é o nome que será apresentado no VirtualBox)
-- Pasta da máquina**: onde armazenar a máquina virtual, sabendo que será criada uma subpasta com o nome da VM neste local
-- Tipo**: o tipo de sistema operativo, dependendo do sistema operativo que pretende instalar
-- Versão**: a versão do sistema que pretende instalar, neste caso o Windows 11, ou seja, "**Windows11_64**"
+- **Name**: nome da máquina virtual (este é o nome que será apresentado no VirtualBox)
+- **Pasta da máquina**: onde armazenar a máquina virtual, sabendo que será criada uma subpasta com o nome da VM neste local
+- **Tipo**: o tipo de sistema operativo, dependendo do sistema operativo que pretende instalar
+- **Versão**: a versão do sistema que pretende instalar, neste caso o Windows 11, ou seja, "**Windows11_64**"
 
 
 
@@ -205,7 +205,7 @@ Clique em "**Próximo**" para continuar.
 
 
 
-Dependendo do sistema operativo que selecionar no passo anterior, o **VirtualBox faz recomendações sobre os recursos a atribuir à máquina virtual**. Aqui, estamos a falar da RAM que deseja atribuir à VM. Vamos assumir 4 GB, porque isto é de facto recomendado para o Windows 11, mas se tiver poucos recursos, especifique 2 GB. **Continuar
+Dependendo do sistema operativo que selecionar no passo anterior, o **VirtualBox faz recomendações sobre os recursos a atribuir à máquina virtual**. Aqui, estamos a falar da RAM que deseja atribuir à VM. Vamos assumir 4 GB, porque isto é de facto recomendado para o Windows 11, mas se tiver poucos recursos, especifique 2 GB. **Continuar**.
 
 
 
@@ -231,9 +231,9 @@ O VirtualBox suporta três formatos diferentes para discos virtuais Hard, o que 
 
 
 
-- VDI**, o formato oficial do VirtualBox
-- VHD**, que é o formato oficial do Hyper-V, embora o novo formato VHDX seja utilizado com mais frequência atualmente
-- VMDX** é o formato oficial da VMware para o VMware Workstation e o VMware ESXi
+- **VDI**, o formato oficial do VirtualBox
+- **VHD**, que é o formato oficial do Hyper-V, embora o novo formato VHDX seja utilizado com mais frequência atualmente
+- **VMDX** é o formato oficial da VMware para o VMware Workstation e o VMware ESXi
 
 
 
@@ -273,7 +273,7 @@ Neste ponto, a VM está no nosso inventário, está configurada, mas o sistema o
 
 
 
-Para instalar o Windows 11, ou qualquer outro sistema, precisamos de fontes de instalação. Na maioria dos casos, utilizamos uma imagem de disco em formato ISO para instalar um sistema operativo. **É necessário carregar a imagem ISO do Windows 11 na unidade de DVD virtual da nossa VM
+Para instalar o Windows 11, ou qualquer outro sistema, precisamos de fontes de instalação. Na maioria dos casos, utilizamos uma imagem de disco em formato ISO para instalar um sistema operativo. **É necessário carregar a imagem ISO do Windows 11 na unidade de DVD virtual da nossa VM.**
 
 
 
@@ -333,7 +333,7 @@ No meu caso, a máquina virtual tem 2 processadores virtuais:
 
 
 
-**Não hesite em consultar as outras secções do menu de configuração.
+**Não hesite em consultar as outras secções do menu de configuração.**
 
 
 
@@ -390,10 +390,10 @@ No nosso anfitrião físico do Windows 11, onde o VirtualBox está instalado, po
 
 
 
-- O ficheiro VBOX** (em formato XML) correspondente à configuração da VM (RAM, CPU, etc.)
-- O ficheiro VBOX-PREV** é uma cópia de segurança da configuração anterior
-- O ficheiro VDI** corresponde ao disco virtual Hard em modo dinâmico, pelo que atualmente tem apenas 13 GB, enquanto o seu tamanho máximo é de 64 GB
-- O ficheiro NVRAM** contém o estado da BIOS da máquina virtual, que é equivalente à memória não volátil de uma máquina física
+- O ficheiro **VBOX** (em formato XML) correspondente à configuração da VM (RAM, CPU, etc.)
+- O ficheiro **VBOX-PREV** é uma cópia de segurança da configuração anterior
+- O ficheiro **VDI** corresponde ao disco virtual Hard em modo dinâmico, pelo que atualmente tem apenas 13 GB, enquanto o seu tamanho máximo é de 64 GB
+- O ficheiro **NVRAM** contém o estado da BIOS da máquina virtual, que é equivalente à memória não volátil de uma máquina física
 
 
 

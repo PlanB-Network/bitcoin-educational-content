@@ -1,0 +1,9 @@
+question: Nani alisema "Uovu si kitu"?
+answer: Socrates.
+wrong_answers:
+  - Leibnitz.
+  - Spinoza.
+  - Descartes.
+explanation: |
+  uovu si kitu" ni wazo linalohusishwa na Socrates na kuchukuliwa katika mapokeo ya kifalsafa. Kwa Socrates, uovu unatokana na ujinga; hakuna mtu anayefanya uovu kwa hiari ikiwa anajua kweli mema.
+reviewed: false

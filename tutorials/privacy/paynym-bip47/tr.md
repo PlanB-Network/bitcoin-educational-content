@@ -3,7 +3,7 @@ name: BIP47 - PayNym
 
 description: PayNyms nasıl çalışır?
 ---
-***UYARI:** Samourai Wallet'in kurucularının tutuklanması ve sunucularına 24 Nisan'da el konulmasının ardından, uygulama artık kendi Dojo'su olmayan kullanıcılar tarafından kullanılamıyor. BIP47, Sparrow wallet'da tüm kullanıcılar için ve **Samourai Wallet'de yalnızca Dojo'su olan kullanıcılar için kullanılabilir olmaya devam etmektedir**
+**UYARI:** Samourai Wallet'in kurucularının tutuklanması ve sunucularına 24 Nisan'da el konulmasının ardından, uygulama artık kendi Dojo'su olmayan kullanıcılar tarafından kullanılamıyor. BIP47, Sparrow wallet'da tüm kullanıcılar için ve **Samourai Wallet'de yalnızca Dojo'su olan kullanıcılar için kullanılabilir olmaya devam etmektedir.**
 
 
 _Bu davayla ilgili gelişmeleri ve ilgili araçlarla ilgili gelişmeleri yakından takip ediyoruz. Yeni bilgiler elde edildikçe bu eğitimi güncelleyeceğimizden emin olabilirsiniz._
@@ -38,7 +38,7 @@ Zaman içinde Samourai, doğrudan PayNym ile ilgili yeni özellikler programlad�
 Bu makalede, BIP47 ve PayNym'in prensiplerini, bu protokollerin mekanizmalarını ve bunlardan kaynaklanan pratik uygulamaları keşfedeceksiniz. Şu anda PayNym için kullanılan BIP47'nin sadece ilk versiyonunu Address ile anlatacağım, ancak 2, 3 ve 4 versiyonları pratikte aynı şekilde çalışmaktadır.
 
 
-**Tek büyük farkın bildirim işleminde olduğunu unutmayın:
+**Tek büyük farkın bildirim işleminde olduğunu unutmayın:**
 
 
 - Sürüm 1, bildirim için OP_RETURN ile basit bir Address kullanır,

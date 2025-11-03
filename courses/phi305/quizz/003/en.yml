@@ -1,0 +1,9 @@
+question: The country in which Spinoza lived and wrote his work is?
+answer: The United Provinces.
+wrong_answers:
+  - France.
+  - Great Britain.
+  - Sweden.
+explanation: |
+  Spinoza lived and wrote all his work in the United Provinces (now the Netherlands), which at the time was a haven for free thinkers and religious minorities persecuted elsewhere in Europe.
+reviewed: false

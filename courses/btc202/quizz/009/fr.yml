@@ -1,0 +1,9 @@
+question: Quelle est la fonction principale d’un nœud Bitcoin ?
+answer: Sauvegarder la blockchain et valider les transactions et blocs
+wrong_answers:
+  - Stocker les clés privées et contruire des transactions
+  - Créer de nouvelles adresses pour les utilisateurs
+  - Convertir les bitcoins en monnaies fiat
+explanation: |
+  Un nœud Bitcoin conserve une copie de la blockchain et participe à la validation et au relais des transactions et blocs.
+reviewed: false

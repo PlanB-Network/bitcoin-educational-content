@@ -1,13 +1,11 @@
-question: Je, hali ya Bitcoin huko El Salvador ikoje?
-answer: Zabuni halali.
+question: Blockchain trilemma ni nini?
+answer: Itifaki kulingana na Blockchain inaweza kukidhi vigezo viwili pekee kati ya ugatuaji, usalama na upanuzi.
 wrong_answers:
-  - Imehalalishwa.
-  - Haijulikani.
-  - Isiyodhibitiwa.
+  - Itifaki kulingana na Blockchain inaweza kukidhi moja tu kati ya vigezo vya ugatuaji, usalama na upanuzi.
+  - Itifaki kulingana na Blockchain inaweza kukidhi vigezo vyote vya ugatuaji, usalama na upanuzi.
+  - Itifaki kulingana na Blockchain haiwezi kukidhi vigezo vyovyote vya ugatuaji, usalama na upanuzi.
 explanation: |
-  Maandishi ya kozi yanataja kuwa baadhi ya nchi zimepiga marufuku
-  na kuharamisha matumizi ya Bitcoin, na kuongeza
-  utata wa kupitishwa kwa Bitcoin kulingana na tamaduni, enzi, na
-  mataifa. Hata hivyo, El Salvador ilikuwa jasiri vya kutosha kuikubali
-  kama zabuni halali.
+  Trilemma ya Blockchain inarejelea changamoto ambayo a
+  itifaki kulingana na Blockchain inaweza kukidhi vigezo viwili tu kati ya
+  ugatuaji, usalama na upanuzi.
 reviewed: true

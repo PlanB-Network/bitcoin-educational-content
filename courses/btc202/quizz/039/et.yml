@@ -1,0 +1,9 @@
+question: Milline on soovitatav minimaalne SSD-maht 2025. aastal Bitcoin-sõlme jaoks?
+answer: 2 Et
+wrong_answers:
+  - 512 GB
+  - 10 To
+  - 256 GB
+explanation: |
+  Kui Blockchain ületab 700 GB ja lisarakendusi, on 2 TB muutunud mõistlikuks miinimumiks.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Waar zorgt het overschrijden van de kritische drempel voor volgens de percolatietheorie?
+answer: Transactievoortplanting door het netwerk
+wrong_answers:
+  - Onmiddellijk een nieuw blok aanmaken
+  - Automatische kostenonderdrukking door knooppunten
+  - Een transactie blokkeren door het netwerk
+explanation: |
+  Zodra de percolatiedrempel wordt overschreden, verspreidt een transactie zich vrijwel onmiddellijk door het Bitcoin netwerk.
+reviewed: true

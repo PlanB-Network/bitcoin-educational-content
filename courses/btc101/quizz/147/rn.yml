@@ -1,0 +1,13 @@
+question: Ni uruhara uruhe rw’ama ASIC muri Bitcoin Mining?
+answer: ASICs ni imashini zakozwe gusa kugira ngo zikoreshe ubuhinga bwa SHA256 mu nzira ya Mining.
+wrong_answers:
+  - ASICs zikoreshwa mu kugenzura ibikorwa vya Bitcoin hakoreshejwe ubuhinga bwa SHA256 mu nzira yo kugenzura.
+  - ASICs zikoreshwa mu guhingura ama bitcoins mashasha ataco akora.
+  - ASICs zikoreshwa mu gukingira urubuga rwa Bitcoin.
+explanation: |
+  ASICs (Ibikorwa vy'Imirongo y'Ibikorwa) ni
+  ibikoresho vy’umwihariko vyagenewe canecane Bitcoin.
+  Mining. Batunganijwe neza kugira ngo bashobore gukora SHA256 hashing .
+  igikorwa, ari co kibazo c'imibare abacukuzi b'amabuye y'agaciro
+  bitegerezwa gutorera umuti mu nzira ya Proof of Work.
+reviewed: true

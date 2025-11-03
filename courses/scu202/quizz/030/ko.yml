@@ -1,0 +1,9 @@
+question: Linux에서 디스크를 완전히 암호화할 수 있는 오픈 소스 도구는 무엇인가요?
+answer: LUKS
+wrong_answers:
+  - BitLocker
+  - FileVault
+  - SuperCrypt
+explanation: |
+  LUKS(Linux 통합 키 설정)는 설치 중 전체 디스크 암호화를 위한 Linux의 표준 솔루션입니다.
+reviewed: false

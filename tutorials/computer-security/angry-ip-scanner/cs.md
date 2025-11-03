@@ -1,5 +1,5 @@
 ---
-name: Rozzlobený IP skener
+name: Angry IP Scanner
 description: Jednoduchý způsob skenování sítě
 ---
 ![cover](assets/cover.webp)
@@ -42,7 +42,7 @@ Pokud chcete pokračovat, podívejte se na výukový program Nmap:
 
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 ## II. Začínáme s programem Angry IP Scanner
 
@@ -84,8 +84,8 @@ Při prvním spuštění si přečtěte pokyny v okně "**Začínáme**", abyste
 
 
 
-- Podavač**: modul odpovědný za generování seznamů IP adres ke skenování z náhodného rozsahu IP adres nebo ze souboru se seznamem IP adres.
-- Fetcher**: sada modulů pro získávání informací o hostitelích v síti. Existují například fetchery pro zjišťování adres MAC, skenování portů, zjišťování názvů hostitelů nebo odesílání požadavků HTTP.
+- **Podavač**: modul odpovědný za generování seznamů IP adres ke skenování z náhodného rozsahu IP adres nebo ze souboru se seznamem IP adres.
+- **Fetcher**: sada modulů pro získávání informací o hostitelích v síti. Existují například fetchery pro zjišťování adres MAC, skenování portů, zjišťování názvů hostitelů nebo odesílání požadavků HTTP.
 
 
 
@@ -181,4 +181,4 @@ Pokud chcete používat **Nmap** s grafickým Interface, můžete použít **apl
 
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d

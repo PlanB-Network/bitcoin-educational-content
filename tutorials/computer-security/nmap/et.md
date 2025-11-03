@@ -61,9 +61,9 @@ Nmapil on palju tugevaid külgi:
 
 
 
-- Võimas ja paindlik**: Nmap suudab skaneerida suuri võrke ja kasutada täiustatud tuvastamistehnikaid. See toetab UDP, TCP, ICMP, IPv4 ja IPv6 ning võib teostada versioonide tuvastamist, haavatavuse skaneerimist või protokolliga seotud interaktsioone. Selle arhitektuur on modulaarne, eelkõige tänu NSE (Nmap Scripting Engine) skriptidele, mida me vaatleme hiljem selles õpetuses.
-- Kasutamise lihtsus**: ametlik dokumentatsioon on rikkalik ja kvaliteetne. Samuti on saadaval arvukad kogukonna ressursid, mis aitavad teil alustada.
-- Populaarsus ja pikaealisus**: Nmap on olnud oma valdkonnas referents alates 1998. aastast. Praegune versioon on selle värskenduse ajal 7.95. Kuigi konkreetsete ülesannete jaoks on olemas ka teisi vahendeid, on Nmap endiselt hädavajalik võrgu kaardistamiseks ja analüüsimiseks.
+- **Võimas ja paindlik**: Nmap suudab skaneerida suuri võrke ja kasutada täiustatud tuvastamistehnikaid. See toetab UDP, TCP, ICMP, IPv4 ja IPv6 ning võib teostada versioonide tuvastamist, haavatavuse skaneerimist või protokolliga seotud interaktsioone. Selle arhitektuur on modulaarne, eelkõige tänu NSE (Nmap Scripting Engine) skriptidele, mida me vaatleme hiljem selles õpetuses.
+- **Kasutamise lihtsus**: ametlik dokumentatsioon on rikkalik ja kvaliteetne. Samuti on saadaval arvukad kogukonna ressursid, mis aitavad teil alustada.
+- **Populaarsus ja pikaealisus**: Nmap on olnud oma valdkonnas referents alates 1998. aastast. Praegune versioon on selle värskenduse ajal 7.95. Kuigi konkreetsete ülesannete jaoks on olemas ka teisi vahendeid, on Nmap endiselt hädavajalik võrgu kaardistamiseks ja analüüsimiseks.
 
 
 
@@ -87,7 +87,7 @@ Ta osaleb ka teistes kinematograafilistes töödes.
 
 
 
-**Feedback
+**Feedback**
 
 
 
@@ -485,25 +485,25 @@ Nii Linuxis kui ka Windowsis on palju juhtumeid, kus Nmap küsib teilt privilege
 
 
 
-- "Töötlemata" võrgupakettide konstrueerimine**: Nmap on võimeline kasutama mitmesuguseid skaneerimismeetodeid, sealhulgas täiustatud pakettide manipuleerimist ja konstrueerimist. See on näiteks siis, kui tahame teha TCP SYN-skaneerimisi, mis ei pea kinni TCP-vahetuse klassikalisest _kolmesuunalisest käepigistusest_. Selleks peab Nmap kasutama muid funktsioone kui operatsioonisüsteemidele omaseid, mis teavad ainult seda, kuidas järgida võrgukommunikatsiooni head tava (ta kasutab eespool nähtud raamatukogusid "Npcap" ja "libcap"). Just seetõttu, et Nmap ei tee asju "standardsel" viisil, suudab ta tuletada teatud teavet operatsioonisüsteemide, teenuste ja teatud haavatavuste kohta.
+- **"Töötlemata" võrgupakettide konstrueerimine**: Nmap on võimeline kasutama mitmesuguseid skaneerimismeetodeid, sealhulgas täiustatud pakettide manipuleerimist ja konstrueerimist. See on näiteks siis, kui tahame teha TCP SYN-skaneerimisi, mis ei pea kinni TCP-vahetuse klassikalisest *kolmesuunalisest käepigistusest*. Selleks peab Nmap kasutama muid funktsioone kui operatsioonisüsteemidele omaseid, mis teavad ainult seda, kuidas järgida võrgukommunikatsiooni head tava (ta kasutab eespool nähtud raamatukogusid "Npcap" ja "libcap"). Just seetõttu, et Nmap ei tee asju "standardsel" viisil, suudab ta tuletada teatud teavet operatsioonisüsteemide, teenuste ja teatud haavatavuste kohta.
 
 
 
 
 
-- Kuulake võrguliiklust**: mõned Nmapi valikud nõuavad, et ta kuulaks võrku, et saada teatud teavet. Seda tegevust peetakse operatsioonisüsteemides tundlikuks, kuna see võimaldab teil ka süsteemi teiste rakenduste kommunikatsiooni pealt kuulata. Nii nagu Wireshark, vajab ka Nmap selleks spetsiifilisi privileege, mida on lihtsam saada, kui viibida otse privilegeeritud sessioonis.
+- **Kuulake võrguliiklust**: mõned Nmapi valikud nõuavad, et ta kuulaks võrku, et saada teatud teavet. Seda tegevust peetakse operatsioonisüsteemides tundlikuks, kuna see võimaldab teil ka süsteemi teiste rakenduste kommunikatsiooni pealt kuulata. Nii nagu Wireshark, vajab ka Nmap selleks spetsiifilisi privileege, mida on lihtsam saada, kui viibida otse privilegeeritud sessioonis.
 
 
 
 
 
-- Kuulamine privilegeeritud porte**: operatsioonisüsteemides on pordid 0 kuni 1024 (nii TCP kui ka UDP) nn privilegeeritud, st need on kuidagi reserveeritud väga spetsiifiliseks kasutuseks ja seetõttu kaitstud. Kuigi see on tänapäeval mõnevõrra vananenud põhjus, on siiski vaja teatud privileege, et neid porte kuulata, mida Nmap võib sõltuvalt kasutamisviisist teha.
+- Kuulamine **privilegeeritud porte**: operatsioonisüsteemides on pordid 0 kuni 1024 (nii TCP kui ka UDP) nn privilegeeritud, st need on kuidagi reserveeritud väga spetsiifiliseks kasutuseks ja seetõttu kaitstud. Kuigi see on tänapäeval mõnevõrra vananenud põhjus, on siiski vaja teatud privileege, et neid porte kuulata, mida Nmap võib sõltuvalt kasutamisviisist teha.
 
 
 
 
 
-- UDP-pakettide saatmine:** Samamoodi nõuab UDP-portide (olematu protokoll) võrgu rakenduse kuulamine operatsioonisüsteemides privilegeeritud õigusi. Seetõttu on vaja privilegeeritud seanssi, kui soovite teha UDP-skaneerimist, mille puhul Nmap peab ootama vastust, et analüüsida vastuseid oma skaneeringutele.
+- **UDP-pakettide saatmine:** Samamoodi nõuab UDP-portide (olematu protokoll) võrgu rakenduse kuulamine operatsioonisüsteemides privilegeeritud õigusi. Seetõttu on vaja privilegeeritud seanssi, kui soovite teha UDP-skaneerimist, mille puhul Nmap peab ootama vastust, et analüüsida vastuseid oma skaneeringutele.
 
 
 
@@ -562,13 +562,13 @@ Nüüdsest alates ärge unustage, et skannite ainult kontrollitud keskkonnas ole
 
 
 
-- [Hack The Box](https://app.hackthebox.com/ "Hack The Box")**: Hacking koolitusplatvorm, Hack The Box pakub pidevalt haavatavaid süsteeme, mida saab rünnata nii, nagu ise heaks arvate. Saadaval on mitusada süsteemi, kuid 20 masinast koosnevat uuendatud reservi pakutakse aastaringselt tasuta, millele on juurdepääs OpenVPN VPN-i kaudu.
+- [Hack The Box](https://app.hackthebox.com/ "Hack The Box"): Hacking koolitusplatvorm, Hack The Box pakub pidevalt haavatavaid süsteeme, mida saab rünnata nii, nagu ise heaks arvate. Saadaval on mitusada süsteemi, kuid 20 masinast koosnevat uuendatud reservi pakutakse aastaringselt tasuta, millele on juurdepääs OpenVPN VPN-i kaudu.
 
 
 
 
 
-- [Vulnhub](https://www.vulnhub.com/ "Vulnhub")**: See platvorm pakub allalaadimiseks arvukalt tahtlikult haavatavaid süsteeme, mida saab kasutada VirtualBoxi (samuti tasuta lahendus) kaudu või muul viisil. Pärast allalaadimist ei ole vaja VPN-i - kõik on lokaalne.
+- [Vulnhub](https://www.vulnhub.com/ "Vulnhub"): See platvorm pakub allalaadimiseks arvukalt tahtlikult haavatavaid süsteeme, mida saab kasutada VirtualBoxi (samuti tasuta lahendus) kaudu või muul viisil. Pärast allalaadimist ei ole vaja VPN-i - kõik on lokaalne.
 
 
 
@@ -815,7 +815,7 @@ vastus TCP SYN-paketile, mis on saadetud port 22, mis on aktiivne skaneerimise s
 
 
 
-Ülaltoodud ekraanipildil näeme TCP SYN/ACK-paketti, mille on saatnud sihtarvuti**. Port on aktiivne ja avab teenuse. Nmap kinnitab vastuse kättesaamist ja lõpetab seejärel ühenduse (TCP RST/ACK). **Sellest sai ta teada, et port TCP/22 on aktiivne**.
+Ülaltoodud ekraanipildil näeme TCP SYN/ACK-paketti, mille on saatnud **sihtarvuti**. Port on aktiivne ja avab teenuse. Nmap kinnitab vastuse kättesaamist ja lõpetab seejärel ühenduse (TCP RST/ACK). **Sellest sai ta teada, et port TCP/22 on aktiivne**.
 
 
 
@@ -976,7 +976,7 @@ Nagu me nägime, valib Nmap ise skaneeritava arvu ja pordid, kui te ei määra m
 
 
 
-**Kuidas need sadamad valitakse?
+**Kuidas need sadamad valitakse?**
 
 
 
@@ -1060,7 +1060,7 @@ Sõltumata järjekorrast, Nmap kontrollib kõiki neid porte ja ainult neid, mis 
 
 
 
-**Skaneeri erinevaid sadamaid
+**Skaneeri erinevaid sadamaid**
 
 
 
@@ -1096,7 +1096,7 @@ nmap 192.168.1.19 -p 22,80,1000-2000,3389
 
 
 
-**TCP ja UDP portide skaneerimine
+**TCP ja UDP portide skaneerimine**
 
 
 
@@ -1134,7 +1134,7 @@ See on huvitav viis oma skaneeringute kohandamiseks!
 
 
 
-**Scan kõik sadamad
+**Scan kõik sadamad**
 
 
 
@@ -1347,7 +1347,7 @@ Aga see on veel midagi muud. Ülaltoodud Wiresharki kaadris on näha, et **TCP S
 
 
 
-**Milleks saata TCP-pakette portidele võrgu tuvastamise osana?
+**Milleks saata TCP-pakette portidele võrgu tuvastamise osana?**
 
 
 
@@ -2165,31 +2165,31 @@ Olgem selged: Nmap ei ole võimeline läbi viima teie infosüsteemi täielikku s
 
 
 
-- Piiratud katvus**: kuigi Nmap'i NSE skriptid on võimsad, võib nende testide katvus olla piiratud võrreldes teiste spetsialiseeritud haavatavuste avastamise vahenditega. Mõned haavatavused ei pruugi olla hõlmatud kättesaadavate NSE skriptidega, näiteks Active Directory haavatavused, tundlike andmete paljastamine või haavatavate veebirakenduste keerulisemad juhtumid.
+- **Piiratud katvus**: kuigi Nmap'i NSE skriptid on võimsad, võib nende testide katvus olla piiratud võrreldes teiste spetsialiseeritud haavatavuste avastamise vahenditega. Mõned haavatavused ei pruugi olla hõlmatud kättesaadavate NSE skriptidega, näiteks Active Directory haavatavused, tundlike andmete paljastamine või haavatavate veebirakenduste keerulisemad juhtumid.
 
 
 
 
 
-- Haavatavuse keerukus**: teatavat tüüpi haavatavusi võib olla keeruline tuvastada NSE skriptide abil nende keerukuse tõttu. Näiteks ei pruugi Nmap tõhusalt tuvastada haavatavusi, mis nõuavad keerulist suhtlemist kaugteenusega (nagu näiteks ülemäärased õigused failijagis või õiguste kontrolli puudus veebirakenduses).
+- **Haavatavuse keerukus**: teatavat tüüpi haavatavusi võib olla keeruline tuvastada NSE skriptide abil nende keerukuse tõttu. Näiteks ei pruugi Nmap tõhusalt tuvastada haavatavusi, mis nõuavad keerulist suhtlemist kaugteenusega (nagu näiteks ülemäärased õigused failijagis või õiguste kontrolli puudus veebirakenduses).
 
 
 
 
 
-- Passiivne tuvastamine**: Nmap keskendub haavatavuste tuvastamisel peamiselt aktiivsetele skaneerimistele, mis tähendab, et see ei pruugi tõhusalt tuvastada võimalikke haavatavusi ilma aktiivse ühenduse loomiseta sihtmoodulitega. Seetõttu võivad jääda tähelepanuta haavatavused, mis ei ilmne aktiivse skaneerimise käigus (nagu näiteks koodisisestus veebirakenduses).
+- **Passiivne tuvastamine**: Nmap keskendub haavatavuste tuvastamisel peamiselt aktiivsetele skaneerimistele, mis tähendab, et see ei pruugi tõhusalt tuvastada võimalikke haavatavusi ilma aktiivse ühenduse loomiseta sihtmoodulitega. Seetõttu võivad jääda tähelepanuta haavatavused, mis ei ilmne aktiivse skaneerimise käigus (nagu näiteks koodisisestus veebirakenduses).
 
 
 
 
 
-- Sõltuvus uuendustest**: Nmap'i [andmebaas](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) NSE skriptide kohta areneb pidevalt, kuid uue haavatavuse avastamise ja vastava skripti Nmap'ile lisamise vahel võib olla viivitus. Selle tulemusena ei pruugi Nmap olla alati ajakohane uusimate haavatavuste osas.
+- **Sõltuvus uuendustest**: Nmap'i [andmebaas](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) NSE skriptide kohta areneb pidevalt, kuid uue haavatavuse avastamise ja vastava skripti Nmap'ile lisamise vahel võib olla viivitus. Selle tulemusena ei pruugi Nmap olla alati ajakohane uusimate haavatavuste osas.
 
 
 
 
 
-- Valepositiivsed ja valenegatiivsed tulemused**: nagu iga turvavahendi puhul, võivad ka Nmap'i NSE skriptid anda valepositiivseid (valehäired haavatavuse kohta) või valenegatiivseid (tegelikud haavatavused, mida ei ole avastatud) tulemusi. Seda tuleb Nmapi tulemuste analüüsimisel silmas pidada.
+- **Valepositiivsed ja valenegatiivsed tulemused**: nagu iga turvavahendi puhul, võivad ka Nmap'i NSE skriptid anda valepositiivseid (valehäired haavatavuse kohta) või valenegatiivseid (tegelikud haavatavused, mida ei ole avastatud) tulemusi. Seda tuleb Nmapi tulemuste analüüsimisel silmas pidada.
 
 
 

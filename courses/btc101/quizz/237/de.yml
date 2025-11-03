@@ -1,9 +1,11 @@
-question: Wie könnte das Lightning-Netzwerk bestehende Geschäftsmodelle in der Videospielindustrie verändern?
-answer: Es ermöglicht Spielern, sehr kleine Geldbeträge bei Spielen zu setzen.
+question: Was ist eine Möglichkeit, das Lightning-Netzwerk selbst auszuprobieren?
+answer: Indem man die Podcast-Anwendung namens Fountain ausprobiert.
 wrong_answers:
-  - Es ermöglicht Spielern, Bitcoin zu minen, während sie spielen.
-  - Es ermöglicht Spieleentwicklern, Bitcoin als Zahlungsmittel für ihre Spiele zu akzeptieren.
-  - Es ermöglicht Spielern, In-Game-Gegenstände mit Bitcoin zu kaufen.
+  - Indem man Bitcoin mit einem persönlichen Computer mined.
+  - Indem man Bitcoin von der Bank kauft.
+  - Indem man eine neue Kryptowährung erstellt.
 explanation: >-
-  Das Lightning-Netzwerk ermöglicht es Spielern, sehr kleine Geldbeträge bei Spielen zu setzen, wie zum Beispiel ein paar Satoshis. Dies ermöglicht die Etablierung eines Einsatzes, der den Wettbewerb anregt, während gleichzeitig die Kosten für den Einsatz von Bots deutlich erhöht werden.
+  Eine Möglichkeit, das Lightning-Netzwerk selbst auszuprobieren, besteht darin, die
+  Podcast-Anwendung Fountain zu nutzen, die es Ihnen ermöglicht, für das Hören Ihrer
+  Lieblingspodcasts mit einigen Sats belohnt zu werden.
 reviewed: true

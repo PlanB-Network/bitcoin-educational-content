@@ -1,5 +1,5 @@
 ---
-name: 嵌入式 Zeus
+name: Zeus Embedded
 description: 如何使用闪电宙斯嵌入式 Wallet
 ---
 ![cover-zeus-embedded](assets/cover.webp)
@@ -13,13 +13,13 @@ ZEUS 最初是一款用于远程管理闪电节点的移动应用程序，可让
 
 
 
-**我们将在本教程中探讨应用程序的这个方面。这样，任何人都可以在移动设备上拥有自己的闪电节点，而无需专用服务器，就像 ACINQ 提供其令人难以置信的 Wallet 闪电凤凰一样。
+**我们将在本教程中探讨应用程序的这个方面。这样，任何人都可以在移动设备上拥有自己的闪电节点，而无需专用服务器，就像 ACINQ 提供其令人难以置信的 Wallet 闪电凤凰一样。**
 
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-*需要提醒的是，"闪电 "是一个与 Bitcoin 并行运行的网络，无需系统地进行 On-Chain 交易即可交换比特币。其结果是交易近乎瞬时，无需等待 10 分钟来验证一个区块。这在向实体商家付款时尤其有用。此外，"闪电 "还提供了Bitcoin网络所不具备的**保密性**。
+*需要提醒的是，"闪电 "是一个与 Bitcoin 并行运行的网络，无需系统地进行 On-Chain 交易即可交换比特币。其结果是交易近乎瞬时，无需等待 10 分钟来验证一个区块。这在向实体商家付款时尤其有用。此外，"闪电 "还提供了Bitcoin网络所不具备的* **保密性**。
 
 
 
@@ -200,7 +200,7 @@ https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ![image](assets/fr/14.webp)
 
@@ -248,7 +248,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 在本教程中，为了简单起见，我们将选择这个选项，但也完全可以与网络上的任何节点打开通道。
 
 
-通过选择 "OPENDITIONAL CHANNEL（打开附加通道）"，甚至可以在单个事务中打开多个通道。 *不过，我们将在**Zeus Embedded**** 教程的 "高级 "版本中讨论这个问题。
+通过选择 "OPENDITIONAL CHANNEL（打开附加通道）"，甚至可以在单个事务中打开多个通道。 *不过，我们将在**Zeus Embedded** 教程的 "高级 "版本中讨论这个问题。*
 
 
 
@@ -345,7 +345,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 
-请注意，与 [Phoenix]([Plan ₿ Network - Phoenix](https://planb.network/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf))这样的 Wallet 不同，宙斯的路线是在本地计算的，而不是委托给第三方（就 Phoenix 而言是 ACINQ）。因此，您是唯一知道收款人的人。我们损失了一点效率（完成支付需要更长的时间，但我们获得了很多隐私）。
+请注意，与 [Phoenix]([Plan ₿ Academy - Phoenix](https://planb.academy/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf))这样的 Wallet 不同，宙斯的路线是在本地计算的，而不是委托给第三方（就 Phoenix 而言是 ACINQ）。因此，您是唯一知道收款人的人。我们损失了一点效率（完成支付需要更长的时间，但我们获得了很多隐私）。
 
 
 
@@ -422,8 +422,8 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 
-要了解有关 Lightning Network 技术操作的更多信息，请参阅 Fanis Michalakis 的 Plan ₿ Network 免费培训：
+要了解有关 Lightning Network 技术操作的更多信息，请参阅 Fanis Michalakis 的 Plan ₿ Academy 免费培训：
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

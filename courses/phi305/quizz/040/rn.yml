@@ -1,0 +1,9 @@
+question: None filozofiya y’abanyeshure ni iki?
+answer: Filozofiya ya gikirisu yo mu kinjana ca mbere.
+wrong_answers:
+  - Umuhari wa politike.
+  - Filozofiya y’abanyagitugu.
+  - Filozofiya ifise ishingiro.
+explanation: |
+  Filozofiya y'abanyeshure yari filozofiya ya gikirisu yo mu kinjana ca mbere yari iganje muri kaminuza zo mu Buraya. Yarondeye guhuza ukwizera kwa gikirisu n’ubuhinga bwa filozofiya bwa Aristote.
+reviewed: false

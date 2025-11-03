@@ -1,13 +1,8 @@
-question: Wat is een manier waarop Bitcoin zich verder heeft geïntegreerd in de traditionele markt?
-answer: De komst van Bitcoin ETF's.
+question: Wat is BTCMap?
+answer: Een platform dat een overzicht biedt van alle winkeliers die Bitcoin accepteren.
 wrong_answers:
-  - Het verbieden van Bitcoin.
-  - De verdwijning van alle cryptocurrencies.
-  - De creatie van Bitcoin.
-explanation: |
-  Bitcoin blijft overleven en zelfs verder groeien door
-  zichzelf meer en meer te integreren in de traditionele
-  markt. De komst van Bitcoin ETF's, duidelijkere regelgeving,
-  en een betere verwerving van opslaginstrumenten moedigen deze
-  trend aan.
+  - Een kaart van alle Bitcoin mijnen ter wereld.
+  - Een kaart van alle Bitcoin centrales ter wereld.
+  - Een kaart van alle Bitcoin gebruikers ter wereld.
+explanation: >-
 reviewed: true

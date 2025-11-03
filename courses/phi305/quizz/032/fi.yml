@@ -1,0 +1,9 @@
+question: Kuka oli Bernardin de Saint-Pierre?
+answer: Pariisin luonnontieteellisen museon johtaja 1800-luvun alussa.
+wrong_answers:
+  - Ludvig XIV:n ministeri.
+  - Ranskalainen filosofi.
+  - Kauhun vallankumouksellinen.
+explanation: |
+  Bernardin de Saint-Pierre (1737-1814) oli Jardin des Plantesin (luonnontieteellisen museon) johtaja Pariisissa 1800-luvun alussa. Hänet tunnetaan parhaiten romaanistaan Paul et Virginie ja luonnonkuvauksistaan.
+reviewed: false

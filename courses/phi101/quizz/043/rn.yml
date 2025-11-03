@@ -1,0 +1,9 @@
+question: Ni isano irihe riri hagati y’itegeko ry’ibidukikije n’itegeko ry’abantu nk’uko Tomasi mweranda w’Aquin abivuga?
+answer: Itegeko ry’umuntu ritegerezwa kuba rihuye n’itegeko ry’ibidukikije kugira ngo ribe iry’ubutungane kandi ryemewe.
+wrong_answers:
+  - Itegeko ry’abantu riruta itegeko ry’akameremere kubera ko rishirwaho n’abategetsi babereye.
+  - Itegeko ry’akameremere ringana n’itegeko ry’abantu.
+  - Itegeko ry’abantu rikora gusa igice.
+explanation: |
+  Ku bwa Tomasi mweranda, itegeko ry’abantu rironka uburenganzira bwaryo mu guhuza n’itegeko ry’ibidukikije, riserura ingingo ngenderwako z’inyifato runtu zijanye n’isi yose. Iyo itegeko ry’abantu rivuguruza itegeko ry’ibidukikije, ritakaza ubutungane n’uburenganzira bwaryo.
+reviewed: true

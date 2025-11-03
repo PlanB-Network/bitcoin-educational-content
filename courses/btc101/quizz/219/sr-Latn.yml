@@ -1,9 +1,8 @@
-question: Šta ovaj kurs sugeriše o budućnosti Bitkoina?
-answer: Neće nestati.
+question: Kakvu mrežu kreira Lightning mreža?
+answer: Mreža platnih kanala.
 wrong_answers:
-  - Biće zamenjeno boljom tehnologijom.
-  - Biće zabranjeno širom sveta.
-  - Izgubiće svoju vrednost.
-explanation: |
-  Tekst kursa sugeriše da Bitkoin neće nestati. Naprotiv, revolucija je tek počela.
+  - Mreža rudarskih čvorova.
+  - Mreža Blockchain čvorova.
+  - Mreža kriptovalutnih berzi.
+explanation: >-
 reviewed: true

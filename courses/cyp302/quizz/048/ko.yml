@@ -1,0 +1,9 @@
+question: 순환군에서 지수를 통해 다른 모든 Elements을 generate로 만들 수 있는 원소를 나타내는 용어는?
+answer: 발전기
+wrong_answers:
+  - 승수
+  - 공범
+  - 역
+explanation: |
+  제너레이터는 지수화를 통해 그룹의 다른 모든 Elements를 생성할 수 있는 순환 군의 원소입니다.
+reviewed: false

@@ -1,0 +1,9 @@
+question: None ukutagira inshingano mu mabanki kwari kwemerewe gute?
+answer: Kubera ivyemezo vy’uko ibihombo vyoshobora guhurizwa hamwe mu gihe umuntu yoba yacitse intege kubera gufata ingorane ataco yiyumviriye
+wrong_answers:
+  - Kubera ukubura amabwirizwa arwanya gufata ingorane ataco yiyumvira
+  - Kubera ugukuraho amategeko mu myaka ya 90
+  - Kubera ubutegetsi bw'abanyagihugu
+explanation: |
+  Bastiat asigura ko umuhango wo gufatanya amafaranga y’ibihombo uremesha amabanki gufata ivyago birenze urugero, kuko yizigirwa ko azokizwa iyo ananiwe, ivyo bikaba bituma umuntu atagira inshingano.
+reviewed: false

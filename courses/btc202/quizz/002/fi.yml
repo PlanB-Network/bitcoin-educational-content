@@ -1,0 +1,9 @@
+question: Mitä tietokantaa Bitcoin-solmu pitää paikallisesti käyttämättömän tuotoksen seurantaa varten?
+answer: UTXO-sarja
+wrong_answers:
+  - Mempool
+  - Blockchain
+  - Wallet:n historia
+explanation: |
+  Solmu säilyttää UTXO-joukon, joka on joukko käyttämättömiä tuotoksia, jotka ovat käytettävissä tulevia tapahtumia varten.
+reviewed: true

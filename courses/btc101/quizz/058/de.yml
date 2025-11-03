@@ -1,11 +1,12 @@
-question: Was geschah mit dem Simbabwe-Dollar im April 2009?
-answer: Der Finanzminister kündigte die Aussetzung des Simbabwe-Dollars an und autorisierte die Verwendung verschiedener ausländischer Währungen für den Handel.
+question: Mit welchen wirtschaftlichen Prinzipien stimmt Bitcoin überein?
+answer: Prinzipien der Österreichischen Schule der Nationalökonomie.
 wrong_answers:
-  - Der Simbabwe-Dollar brach um über 72% ein.
-  - Die Regierung stimmte zu, Kriegsveteranen einen Betrag zu entschädigen, der 450 Millionen US-Dollar entspricht.
-  - Die Regierung musste dazu übergehen, die Druckerpresse laufen zu lassen.
+  - Prinzipien der Keynesianischen Ökonomie.
+  - Prinzipien der Marxistischen Ökonomie.
+  - Prinzipien der Neoklassischen Ökonomie.
 explanation: |
-  Im April 2009 kündigte der Finanzminister die
-  Aussetzung des Simbabwe-Dollars an und autorisierte die Verwendung
-  verschiedener ausländischer Währungen für den Handel.
+  Bitcoin stimmt mit den Prinzipien der Österreichischen Schule der Nationalökonomie überein.
+  Seine begrenzte Menge und das Fehlen einer zentralen Entität schützen es
+  vor den inhärenten Risiken der Inflation, die bei
+  traditionellen Währungen zu sehen sind.
 reviewed: true

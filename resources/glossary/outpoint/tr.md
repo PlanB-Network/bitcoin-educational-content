@@ -20,4 +20,4 @@ abc...123:0
 Çıkış noktası, hangi UTXO'nın harcandığını belirtmek için yeni bir işlemin girdilerinde (`vin`) kullanılır.
 
 
-> ► *"Dış nokta" terimi genellikle "UTXO" ile eşanlamlı olarak kullanılır
+> ► *"Dış nokta" terimi genellikle "UTXO" ile eşanlamlı olarak kullanılır*

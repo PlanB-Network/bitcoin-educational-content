@@ -111,9 +111,9 @@ För en standarddistribution rekommenderar vi:
 
 
 
-- minst 1 GB RAM** (2 GB eller mer rekommenderas för att aktivera ytterligare paket eller ZFS-stöd).
-- 8 GB diskutrymme** (20 GB eller mer är att föredra för mer avancerade konfigurationer, särskilt om du installerar en proxy-cache, IDS/IPS eller detaljerade loggar).
-- Minst två virtuella nätverksgränssnitt** (ett för WAN och ett för LAN). I VirtualBox lägger du till dem i VM-inställningarna före start.
+- minst 1 GB RAM (2 GB eller mer rekommenderas för att aktivera ytterligare paket eller ZFS-stöd).
+- 8 GB diskutrymme (20 GB eller mer är att föredra för mer avancerade konfigurationer, särskilt om du installerar en proxy-cache, IDS/IPS eller detaljerade loggar).
+- Minst två virtuella nätverksgränssnitt (ett för WAN och ett för LAN). I VirtualBox lägger du till dem i VM-inställningarna före start.
 
 
 
@@ -309,8 +309,8 @@ Inloggningsskärmen visas. Standardautentiseringsuppgifterna är:
 
 
 
-- Användarnamn:** `admin`
-- Lösenord:** `pfsense`
+- **Användarnamn:** `admin`
+- **Lösenord:** `pfsense`
 
 
 
@@ -429,10 +429,10 @@ För att avsluta din utplacering med sinnesfrid:
 
 
 
-- Ändra brandväggsregler**: som standard tillåter pfSense all utgående trafik på LAN och blockerar inkommande trafik på WAN. Justera dessa regler efter behov.
-- Konfigurera säker fjärråtkomst**: om så krävs, aktivera åtkomst till Interface webb från WAN endast via VPN eller med IP-begränsningar.
-- Enable notifications**: konfigurera en SMTP-server för att ta emot aviseringar (fel, uppdateringar, fel).
-- Installera användbara tillägg**: t.ex. IDS/IPS (Snort, Suricata), proxy (Squid), DNS-filtrering (pfBlockerNG).
+- **Ändra brandväggsregler**: som standard tillåter pfSense all utgående trafik på LAN och blockerar inkommande trafik på WAN. Justera dessa regler efter behov.
+- **Konfigurera säker fjärråtkomst**: om så krävs, aktivera åtkomst till Interface webb från WAN endast via VPN eller med IP-begränsningar.
+- **Enable notifications**: konfigurera en SMTP-server för att ta emot aviseringar (fel, uppdateringar, fel).
+- Installera användbara tillägg: t.ex. IDS/IPS (Snort, Suricata), proxy (Squid), DNS-filtrering (pfBlockerNG).
 
 
 

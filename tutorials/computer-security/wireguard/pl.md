@@ -10,7 +10,7 @@ ___
 
 
 
-*Ten samouczek jest oparty na oryginalnej treści autorstwa Floriana BURNELA opublikowanej na stronie [IT-Connect](https://www.it-connect.fr/). Licencja [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). W oryginalnym tekście mogły zostać wprowadzone zmiany
+*Ten samouczek jest oparty na oryginalnej treści autorstwa Floriana BURNELA opublikowanej na stronie [IT-Connect](https://www.it-connect.fr/). Licencja [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). W oryginalnym tekście mogły zostać wprowadzone zmiany.*
 
 
 
@@ -101,9 +101,9 @@ Pod względem adresów IP daje to:
 
 
 
-- Sieć domowa**: 192.168.1.0/24
-- Sieć firmowa**: 192.168.100.0/24
-- Sieć tunelowa WireGuard**: 192.168.110.0/24
+- **Sieć domowa**: 192.168.1.0/24
+- **Sieć firmowa**: 192.168.100.0/24
+- **Sieć tunelowa WireGuard**: 192.168.110.0/24
 
 
 + IP Address peera 1 (Windows) w tunelu: 192.168.110.2/24
@@ -117,7 +117,7 @@ To już wszystko! Przejdźmy do konfiguracji!
 
 
 
-**Uwaga: domyślnie WireGuard działa w trybie UDP na **porcie 51820**.
+**Uwaga: domyślnie WireGuard działa w trybie UDP na porcie 51820**.
 
 
 
@@ -219,10 +219,10 @@ Sekcja `[Interface]` jest używana do zadeklarowania części serwera. Oto kilka
 
 
 
-- Address**: adres IP Address urządzenia Interface WireGuard w tunelu VPN (inna podsieć niż zdalna sieć LAN)
-- SaveConfig**: konfiguracja jest przechowywana (i chroniona) tak długo, jak długo Interface jest aktywny
-- ListenPort**: Port nasłuchiwania WireGuard. W tym przypadku domyślnym portem jest 51820, ale możesz go dostosować
-- PrivateKey**: wartość klucza prywatnego naszego serwera (*wg-private.key*)
+- **Address**: adres IP Address urządzenia Interface WireGuard w tunelu VPN (inna podsieć niż zdalna sieć LAN)
+- **SaveConfig**: konfiguracja jest przechowywana (i chroniona) tak długo, jak długo Interface jest aktywny
+- **ListenPort**: Port nasłuchiwania WireGuard. W tym przypadku domyślnym portem jest 51820, ale możesz go dostosować
+- **PrivateKey**: wartość klucza prywatnego naszego serwera (*wg-private.key*)
 
 
 
@@ -372,7 +372,7 @@ Dodaj te linie na końcu pliku, aby **włączyć maskaradę IP na Interface ens1
 
 ```
 # NAT - IP masquerade
-*nat
+*nat*
 :POSTROUTING ACCEPT [0:0]
 -A POSTROUTING -o ens192 -j MASQUERADE
 
@@ -475,7 +475,7 @@ Zacznij od otwarcia oprogramowania, aby utworzyć nowy tunel. Aby to zrobić, kl
 
 
 
-Otworzy się okno konfiguracji. Za każdym razem, gdy tworzona jest nowa konfiguracja tunelu, WireGuard generuje parę kluczy prywatny/publiczny specyficzną dla tej konfiguracji. **W tej konfiguracji musimy zadeklarować "peer", czyli zdalny serwer:
+Otworzy się okno konfiguracji. Za każdym razem, gdy tworzona jest nowa konfiguracja tunelu, WireGuard generuje parę kluczy prywatny/publiczny specyficzną dla tej konfiguracji. **W tej konfiguracji musimy zadeklarować "peer", czyli zdalny serwer:**
 
 
 
@@ -523,15 +523,15 @@ Na zdjęciach:
 
 
 
-**Kilka wyjaśnień na temat bloku [Peer]:
+**Kilka wyjaśnień na temat bloku [Peer]:**
 
 
 
 
 
-- PublicKey**: jest to klucz publiczny serwera WireGuard Debian 11 (jego wartość można uzyskać za pomocą polecenia "*sudo wg*")
-- AllowedIPs**: są to adresy IP / podsieci dostępne za pośrednictwem tej sieci WireGuard VPN, w tym przypadku podsieci specyficznej dla mojego WireGuard VPN (*192.168.110.0/24*) i mojej zdalnej sieci LAN (*192.168.100.0/24*)
-- Punkt końcowy**: jest to adres IP Address hosta Debian 11, ponieważ jest to nasz punkt połączenia WireGuard (musisz określić publiczny adres IP Address)
+- **PublicKey**: jest to klucz publiczny serwera WireGuard Debian 11 (jego wartość można uzyskać za pomocą polecenia "*sudo wg*")
+- **AllowedIPs**: są to adresy IP / podsieci dostępne za pośrednictwem tej sieci WireGuard VPN, w tym przypadku podsieci specyficznej dla mojego WireGuard VPN (*192.168.110.0/24*) i mojej zdalnej sieci LAN (*192.168.100.0/24*)
+- **Punkt końcowy**: jest to adres IP Address hosta Debian 11, ponieważ jest to nasz punkt połączenia WireGuard (musisz określić publiczny adres IP Address)
 
 
 
@@ -625,7 +625,7 @@ sudo chmod 600 /etc/wireguard/ -R
 
 
 
-Teraz, gdy konfiguracja jest gotowa, możemy zainicjować ją z komputera z systemem Windows. Aby to zrobić, w kliencie "**WireGuard**" kliknij przycisk "**Activate**": połączenie **zmieni się z "Off" na "On "**, ale to nie znaczy, że będzie działać. Wszystko zależy od tego, czy konfiguracja jest prawidłowa. **Gdy połączenie zostanie ustanowione, nasze dwie maszyny będą komunikować się za pośrednictwem Interface WireGuard skonfigurowanego po każdej stronie!
+Teraz, gdy konfiguracja jest gotowa, możemy zainicjować ją z komputera z systemem Windows. Aby to zrobić, w kliencie **WireGuard** kliknij przycisk **Activate**: połączenie zmieni się z **Off** na **On**, ale to nie znaczy, że będzie działać. Wszystko zależy od tego, czy konfiguracja jest prawidłowa. **Gdy połączenie zostanie ustanowione, nasze dwie maszyny będą komunikować się za pośrednictwem Interface WireGuard skonfigurowanego po każdej stronie!**
 
 
 
@@ -663,7 +663,7 @@ Z mojego zdalnego komputera mogę pingować IP Address mojego Interface WireGuar
 
 
 
-Z mojego zdalnego komputera podłączonego do WireGuard VPN udało mi się uzyskać dostęp do serwera plików i przesłać plik za pośrednictwem [SMB](https://www.it-connect.fr/le-protocole-smb-pour-les-debutants/), aby sprawdzić szybkość transferu. **Dzięki WireGuard osiągam maksymalnie około 45 Mb/s, co jest świetne, ponieważ korzystam z WiFi
+Z mojego zdalnego komputera podłączonego do WireGuard VPN udało mi się uzyskać dostęp do serwera plików i przesłać plik za pośrednictwem [SMB](https://www.it-connect.fr/le-protocole-smb-pour-les-debutants/), aby sprawdzić szybkość transferu. **Dzięki WireGuard osiągam maksymalnie około 45 Mb/s, co jest świetne, ponieważ korzystam z WiFi.**
 
 
 
@@ -752,7 +752,7 @@ AllowedIPs = 0.0.0.0/0
 
 
 
-Widać, że włącza to również opcję "**Kill switch*".
+Widać, że włącza to również opcję "**Kill switch**".
 
 
 
@@ -783,4 +783,4 @@ Dodatkowa dokumentacja:
 
 
 
-**Twój WireGuard VPN jest uruchomiony! Gratulacje!
+**Twój WireGuard VPN jest uruchomiony! Gratulacje!**

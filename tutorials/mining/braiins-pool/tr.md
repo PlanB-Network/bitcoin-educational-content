@@ -1,5 +1,5 @@
 ---
-name: Braiins Havuz
+name: Braiins Pool
 
 description: Braiins Havuzuna Giriş
 ---

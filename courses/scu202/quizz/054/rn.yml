@@ -1,0 +1,9 @@
+question: Ni amakuru ayahe ashobora kuboneka mu makuru y’ifoto y’i EXIF?
+answer: Itariki, isaha, ikibanza ca GPS, ikigereranyo c'igikoresho, umwanditsi
+wrong_answers:
+  - Kode y'inkomoko ya porogaramu y'amasanamu
+  - Ijambobanga rya Wi-Fi ry'umufotozi
+  - Ibisubizo biherutse gukingira virusi
+explanation: |
+  Amakuru y’ifoto EXIF ​​akenshi arimwo amakuru y’ido n’ido yerekeye ifoto n’ivyo ifashe.
+reviewed: false

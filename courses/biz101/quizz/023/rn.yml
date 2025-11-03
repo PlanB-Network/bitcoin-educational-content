@@ -1,0 +1,9 @@
+question: Muri ibi bikurikira, ni ubuhe BITARIMWO uburyo butatu nyamukuru bwavuzwe bwo kuronka Bitcoin?
+answer: Kwakira Bitcoin nk’infashanyo ya Leta yo guteza imbere ubudandaji.
+wrong_answers:
+  - Kuronka Bitcoin muri Exchange ku bicuruzwa canke ibikorwa.
+  - Mining Bitcoin biciye mu gukoresha ibikoresho vy’ubuhinga n’inguvu vyihariye.
+  - Gugura Bitcoin ku rubuga canke ku mucuruzi.
+explanation: |
+  Ico gice kivuga uburyo butatu nyamukuru bwo kuronka Bitcoin; n’uvyemere nk’ukwishura, ubicukure canke ubigure. Kwakira Bitcoin nk’infashanyo ya Leta si uburyo bwemewe bwo kuronka.
+reviewed: false

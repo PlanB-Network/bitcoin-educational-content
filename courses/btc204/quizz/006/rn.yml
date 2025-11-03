@@ -1,0 +1,9 @@
+question: Ihinduka rigereranya iki mu gucuruza?
+answer: Igisohoka kigaruka ku wohereje ivy'intango.
+wrong_answers:
+  - Amafaranga afatwa n’urubuga rwa Bitcoin.
+  - Igisohoka kirungikirwa uwuronka ivy’ugucuruza.
+  - Igishimwe gihabwa uwurungitse kubera amafaranga yihuta.
+explanation: |
+  Ihinduka ni igisohoka giserukira igice c’ibintu vyinjijwe bitakoreshejwe mu gushitsa ukwishyura, gutyo kigasubira ku wohereje ivy’intango ivy’ugucuruza.
+reviewed: false

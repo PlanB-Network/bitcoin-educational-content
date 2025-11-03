@@ -1,11 +1,11 @@
-question: Berapa jumlah maksimum unit Bitcoin yang dapat ada?
-answer: 21 juta
+question: Apa fitur kunci dari Bitcoin yang membedakannya dari mata uang fiat?
+answer: Kebijakan moneternya ditegakkan oleh konsensus umum.
 wrong_answers:
-  - 3 triliun
-  - 100 juta
-  - Tidak ada batas
+  - Dapat dicetak dalam jumlah tak terbatas oleh bank sentral.
+  - Didukung oleh komoditas fisik seperti emas atau perak.
+  - Diatur oleh bank sentral.
 explanation: |
-  Total pasokan Bitcoin dibatasi pada 21 juta unit. Ini adalah
-  fitur kunci dari Bitcoin yang membedakannya dari mata uang fidusia, yang dapat
-  dicetak dalam jumlah tak terbatas oleh bank sentral.
+  Bitcoin, melalui sifat desentralisasinya dan kriptografi, tidak dapat, di antara lainnya,
+  dipalsukan dan dibatasi hingga 21 juta unit. Ini adalah fitur kunci yang membedakannya
+  dari mata uang fiat, di mana kebijakan moneternya dapat diubah oleh bank sentral.
 reviewed: true

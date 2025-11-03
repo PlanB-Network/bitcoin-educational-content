@@ -1,11 +1,12 @@
-question: Je, ni tarehe gani ujumbe wa mwisho wa faragha unaojulikana wa Satoshi Nakamoto kupitia barua pepe?
-answer: Aprili 23, 2011.
+question: Ni nini umuhimu wa usambazaji wa kijiografia wa nodi za Bitcoin?
+answer: Inafanya kuwa haiwezekani kuharibu nakala zote za Blockchain.
 wrong_answers:
-  - Desemba 12, 2010.
-  - Januari 8, 2009.
-  - Oktoba 31, 2008.
+  - Huamua bei ya Bitcoin katika mikoa tofauti.
+  - Inathiri kasi ya shughuli za Bitcoin.
+  - Huamua idadi ya bitcoins ambazo zinaweza kuchimbwa katika kanda.
 explanation: |
-  Tarehe ya ujumbe wa faragha wa mwisho wa Satoshi
-  Nakamoto kupitia barua pepe ni Aprili 23, 2011. Ilitumwa kwa
-  msanidi programu Mike Hearn.
+  Usambazaji wa kijiografia wa nodes za Bitcoin hufanya hivyo
+  kivitendo haiwezekani kuharibu nakala zote za
+  Blockchain. Kwa kuwa nodes zimeenea, ni vigumu
+  kimwili kuwakamata wote.
 reviewed: true

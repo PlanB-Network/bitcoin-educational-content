@@ -1,10 +1,9 @@
-question: Qual è una possibile implicazione dell'avanzamento delle tecnologie IA?
-answer: Le tecnologie IA porteranno alla scomparsa di oltre l'80% dei lavori odierni.
+question: Qual è uno dei principali vantaggi di Bitcoin per le persone senza un conto bancario?
+answer: Bitcoin permette l'uguaglianza nelle transazioni, indipendentemente dallo status sociale o dalla posizione politica.
 wrong_answers:
-  - Le tecnologie IA distruggeranno tutti i computer.
-  - Le tecnologie IA porteranno a una diminuzione dell'intelligenza umana.
-  - Le tecnologie IA causeranno un crollo economico globale.
-explanation: >-
-  Il testo menziona che una possibile implicazione dell'avanzamento delle
-  tecnologie IA è che oltre l'80% dei lavori scomparirà a causa dell'IA e dell'automazione.
-reviewed: true
+  - Bitcoin permette disuguaglianza nelle transazioni, premiando gli utenti più ricchi.
+  - Bitcoin dà beneficio solo alle persone con un conto bancario e una posizione politica di sinistra.
+  - Bitcoin dà beneficio solo alle persone con un alto status sociale.
+explanation: |
+  Il testo menziona che ci sono 2,4 miliardi di persone al mondo senza un conto bancario e Bitcoin permette l'uguaglianza nelle transazioni, indipendentemente dal loro status sociale o dalla posizione politica.
+reviewed: vero

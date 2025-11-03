@@ -1,0 +1,9 @@
+question: Je, ni nani aliyekuwa msimamizi mkuu wa mwisho wa Bitcoin core kabla ya jukumu hili kukomeshwa mnamo 2023?
+answer: Wladimir J. Van Der Laan
+wrong_answers:
+  - Gavin Andresen
+  - Pieter Wuille
+  - Satoshi Nakamoto
+explanation: |
+  Wladimir J. Van Der Laan alishikilia jukumu hili kutoka 2014 hadi 2023, akimrithi Gavin Andresen na kutangulia kusitishwa kwa jukumu hilo.
+reviewed: true

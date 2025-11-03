@@ -1,9 +1,9 @@
-question: Khái niệm toán học nào dựa trên lý trí con người và được sử dụng trong Bitcoin?
-answer: Lý thuyết trò chơi.
+question: Phần thưởng BTC sau lần halving thứ tư là bao nhiêu?
+answer: 3.125 BTC.
 wrong_answers:
-  - Lý thuyết xác suất.
-  - Lý thuyết số.
-  - Lý thuyết tập hợp.
+  - 1.5625 BTC.
+  - 6.25 BTC.
+  - 12.5 BTC.
 explanation: |
-  Lý thuyết trò chơi là một khái niệm toán học dựa trên lý trí con người. Trong Bitcoin, các thay đổi về giao thức được thực thi bởi người dùng, khiến cho bất kỳ sửa đổi nào đối với giao thức Bitcoin trở nên cực kỳ phức tạp.
+  Sau lần halving thứ tư, diễn ra ở độ cao khối 840,000, phần thưởng BTC cho việc đào là 3.125 BTC.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Que combinait le logiciel Bitcoin original en 2009 ?
+answer: Portefeuille, nœud et mineur
+wrong_answers:
+  - Nœud, mineur et explorateur de blocs
+  - Portefeuille, hacheur et mineur
+  - Mineur et pool de minage
+explanation: |
+  Le logiciel Bitcoin initial intégrait les fonctions de portefeuille, de nœud et de mineur dans un seul programme.
+reviewed: false

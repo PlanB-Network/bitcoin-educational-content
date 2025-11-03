@@ -2,7 +2,7 @@
 name: Blixt Wallet
 description: Kuidas hakata kasutama võimsat LN sõlme oma mobiilis?
 ---
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 
 See juhend on pühendatud kõigile neile uutele kasutajatele, kes soovivad alustada Bitcoin Lightning Network (LN) kasutamist TASUTA AVATUD JUURDEGA, TÄIELIKULT MITTE KASUTAMATA.
@@ -673,7 +673,7 @@ Vahepeal on siin kõik lingid selle hämmastava Bitcoin Lightning Node'i kohta:
 *Selle rakenduse arendajad ei maksa ega toeta mind mingil viisil. Kirjutasin selle juhendi, sest nägin, et huvi selle Wallet rakenduse vastu kasvab ja uued kasutajad ei saa ikka veel aru, kuidas sellega alustada. Ka selleks, et aidata Hampus (peamine arendaja) dokumentatsiooniga selle sõlme Wallet.* kasutamise kohta
 
 
-*Mul ei ole mingit muud huvi selle LN rakenduse edendamiseks kui Bitcoin ja LN vastuvõtmise edendamine. See on ainus võimalus!
+*Mul ei ole mingit muud huvi selle LN rakenduse edendamiseks kui Bitcoin ja LN vastuvõtmise edendamine. See on ainus võimalus!*
 
 
 ---

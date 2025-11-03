@@ -1,8 +1,9 @@
-question: Biaya untuk transaksi di Lightning Network seringkali kurang dari berapa persen?
-answer: 0,5%
+question: Apa satuan Bitcoin yang digunakan di Jaringan Lightning?
+answer: Sats
 wrong_answers:
-  - 1%
-  - 2%
-  - 3%
+  - Bitcoin
+  - Ether
+  - Litecoin
 explanation: >-
-  Biaya untuk transaksi di Lightning Network sangat rendah, seringkali kurang dari 0,5%.
+  Jaringan Lightning menggunakan sats (desimal dari bitcoin) untuk berfungsi.
+reviewed: false

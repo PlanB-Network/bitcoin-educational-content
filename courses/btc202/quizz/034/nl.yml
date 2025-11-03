@@ -1,0 +1,9 @@
+question: Wat is het belangrijkste verschil tussen een onbewerkte implementatie en een node-in-a-box?
+answer: De aanwezigheid van een Interface en geïntegreerde toepassingen
+wrong_answers:
+  - Netwerkcompatibiliteit
+  - Blockchain grootte opgeslagen op schijf
+  - Het gebruikte protocol en de munteenheid
+explanation: |
+  Een ruwe implementatie installeert alleen de node-software, terwijl een node-in-a-box een Interface, een App Store en geïntegreerde diensten toevoegt.
+reviewed: true

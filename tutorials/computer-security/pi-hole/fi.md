@@ -54,7 +54,7 @@ Aina kun syötät selaimeen verkkosivuston nimen tai napsautat linkkiä, tietoko
 
 
 
-**Pi-Hole tarkastaa nämä pyynnöt (niitä on satoja joka päivä!) ja estää automaattisesti ne, joiden tiedetään isännöivän mainoksia tai jopa haitallisia tiedostoja
+**Pi-Hole tarkastaa nämä pyynnöt (niitä on satoja joka päivä!) ja estää automaattisesti ne, joiden tiedetään isännöivän mainoksia tai jopa haitallisia tiedostoja**
 
 
 
@@ -62,7 +62,7 @@ Aina kun syötät selaimeen verkkosivuston nimen tai napsautat linkkiä, tietoko
 
 
 
-Kun nimi on Pi-Hole, saatat olettaa, että tarvitset Raspberry-Pi:n.... Mutta se ei ole aivan totta. **Pi-Hole voidaan asentaa mihin tahansa Linux-tietokoneeseen (Debian, Fedora, Rocky, Ubuntu jne.)
+Kun nimi on Pi-Hole, saatat olettaa, että tarvitset Raspberry-Pi:n.... Mutta se ei ole aivan totta. **Pi-Hole voidaan asentaa mihin tahansa Linux-tietokoneeseen (Debian, Fedora, Rocky, Ubuntu jne.).**
 
 
 
@@ -84,7 +84,7 @@ curl -sSL https://install.pi-hole.net | bash
 >
 
 
-> **Huomaa: Debian 11:n minimaalisissa versioissa Curl ei ole asennettu, joten sinun on asennettava se manuaalisesti komennolla **apt-get install curl** ennen yllä olevan komennon kirjoittamista.
+> **Huomaa: Debian 11:n minimaalisissa versioissa Curl ei ole asennettu, joten sinun on asennettava se manuaalisesti komennolla** `apt-get install curl` **ennen yllä olevan komennon kirjoittamista.**
 
 Kun komentosarja on suoritettu, suoritetaan joukko testejä, ja itse asennus hoituu itsestään:
 
@@ -124,7 +124,7 @@ DNS-valinta - Pi-Hole
 
 
 
-> **Huomaa: jos olet yrityksessä, nykyinen DNS-palvelimesi on todennäköisesti Active Directory -toimialueen ohjain. Mutta ei hätää, voit myöhemmin määrittää ehdollisen uudelleenohjauksen valitsemallesi toimialueelle. Tavallisesti voit ohjata kaikki paikallista toimialuettasi koskevat pyynnöt DNS-palvelimelle.
+> **Huomaa: jos olet yrityksessä, nykyinen DNS-palvelimesi on todennäköisesti Active Directory -toimialueen ohjain. Mutta ei hätää, voit myöhemmin määrittää ehdollisen uudelleenohjauksen valitsemallesi toimialueelle. Tavallisesti voit ohjata kaikki paikallista toimialuettasi koskevat pyynnöt DNS-palvelimelle.**
 
 Huomaat, että joissakin vaihtoehdoissa on DNSSEC-vaihtoehto. Periaatteessa DNS-protokolla ei ole suojattu (sitä ei aikanaan suunniteltu tätä silmällä pitäen). DNSSEC ratkaisee tämän ongelman lisäämällä Layer-turvallisuuden salauksen ja allekirjoitusten avulla, kuten vastaavassa artikkelissa selitetään: [DNS Security](https://www.it-connect.fr/securite-dns-doh-quest-ce-le-dns-over-https/)
 

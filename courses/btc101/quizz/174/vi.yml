@@ -1,9 +1,13 @@
-question: Chi phí thường gặp cho một người đào coin là gì?
-answer: Tiêu thụ điện năng và mua sắm phần cứng.
+question: Một cách mà Bitcoin đã hòa nhập sâu hơn vào thị trường truyền thống là gì?
+answer: Sự xuất hiện của Bitcoin ETFs.
 wrong_answers:
-  - Chỉ mua sắm phần cứng.
-  - Phí giao dịch.
-  - Tiêu thụ điện năng và phí giao dịch.
-explanation: >-
-  Việc đào Bitcoin đòi hỏi sức mạnh tính toán đáng kể, điều này đồng nghĩa với việc tiêu thụ điện năng.
-  Ngoài ra, các thợ đào cần đầu tư vào phần cứng chuyên dụng để có thể đào hiệu quả.
+  - Việc cấm Bitcoin.
+  - Sự biến mất của tất cả các loại tiền mã hóa.
+  - Việc tạo ra Bitcoin.
+explanation: |
+  Bitcoin tiếp tục tồn tại và phát triển hơn nữa bằng cách
+  hòa nhập ngày càng sâu vào thị trường truyền thống.
+  Sự xuất hiện của Bitcoin ETFs, quy định rõ ràng hơn,
+  và việc tiếp cận dễ dàng hơn với các công cụ lưu trữ chỉ khuyến khích
+  xu hướng này.
+reviewed: true

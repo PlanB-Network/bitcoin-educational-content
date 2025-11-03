@@ -1,11 +1,8 @@
-question: Co należy zrobić po zakupie Bitcoin na platformie Exchange?
-answer: Wypłacaj bitcoiny i wysyłaj je do swojego Wallet.
+question: Który kraj ogłosił Bitcoin legalnym środkiem płatniczym?
+answer: Salwador.
 wrong_answers:
-  - Pozostaw bitcoiny na platformie.
-  - Natychmiastowa sprzedaż bitcoinów.
-  - Przenieś bitcoiny na inną platformę Exchange.
-explanation: |
-  Tekst kursu informuje, że po zakupie Bitcoin należy natychmiast
-  należy natychmiast wycofać UTXO z platform Exchange
-  aby zminimalizować ryzyko hakowania i blokowania funduszy.
+  - Stany Zjednoczone.
+  - Chiny.
+  - Indie.
+explanation: >-
 reviewed: true

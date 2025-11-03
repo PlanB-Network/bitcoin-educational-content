@@ -11,7 +11,7 @@ description: Kompletny przewodnik po korzystaniu z Bisq 2 i wymianie bitcoinów 
 Pozbawione KYC giełdy peer-to-peer (P2P) mają zasadnicze znaczenie dla zachowania poufności i autonomii finansowej użytkowników. Umożliwiają one bezpośrednie transakcje między osobami fizycznymi bez konieczności weryfikacji tożsamości, co ma kluczowe znaczenie dla tych, którzy cenią sobie prywatność. Aby uzyskać bardziej dogłębne zrozumienie koncepcji teoretycznych, zapoznaj się z kursem BTC204:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Czym jest Bisq 2?
 
@@ -117,7 +117,7 @@ Niniejszy przewodnik skupia się wyłącznie na "Bisq Easy", jedynym obecnie dos
 - Zweryfikuj autentyczność pobranego pliku (zdecydowanie zalecane). Szczegółowy przewodnik po weryfikacji podpisu znajduje się w poniższym samouczku:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### 2. Instalacja zgodnie z posiadanym systemem
 
@@ -472,11 +472,11 @@ Aby poprawić swoją reputację na Bisq jako sprzedawcy, przeprowadzaj regularne
 
 
 
-- Maksymalna poufność**: Brak KYC, korzystanie z sieci Tor
-- Decentralizacja**: Brak centralnego serwera
-- Bezpieczeństwo**: Otwarty kod źródłowy, bez ograniczeń
-- Intuicyjny Interface**: prostszy niż Bisq 1
-- Elastyczność**: Wiele protokołów Exchange
+- **Maksymalna poufność**: Brak KYC, korzystanie z sieci Tor
+- **Decentralizacja**: Brak centralnego serwera
+- **Bezpieczeństwo**: Otwarty kod źródłowy, bez ograniczeń
+- **Intuicyjny Interface**: prostszy niż Bisq 1
+- **Elastyczność**: Wiele protokołów Exchange
 
 
 ### Wady Bisq 2
@@ -484,12 +484,12 @@ Aby poprawić swoją reputację na Bisq jako sprzedawcy, przeprowadzaj regularne
 
 
 
-- Ograniczona płynność** (na chwilę obecną):
+- **Ograniczona płynność** (na chwilę obecną):
  - Nowy protokół w fazie rozruchu
  - Dostępnych jest kilka ofert sprzedaży
  - Potencjalnie długi czas oczekiwania na znalezienie nabywcy
-- Limity handlowe**: Maksymalnie 600 USD na transakcję (z Bisq easy)
-- Tylko komputer stacjonarny**: Brak aplikacji mobilnej
+- **Limity handlowe**: Maksymalnie 600 USD na transakcję (z Bisq easy)
+- **Tylko komputer stacjonarny**: Brak aplikacji mobilnej
 
 
 ## Przyszłe protokoły
@@ -500,16 +500,16 @@ Chociaż Bisq Easy jest obecnie jedynym dostępnym protokołem, kilka innych pro
 
 
 
-- Bisq Lightning**: Protokół Exchange oparty na systemie escrow wykorzystującym wielostronną kryptografię obliczeniową na Lightning Network.
-- Bisq MuSig**: Migracja głównego protokołu z Bisq 1 do Bisq 2, przy użyciu Multisig 2 na 2 z depozytami zabezpieczającymi.
-- Swapy BSQ**: Natychmiastowe swapy atomowe między BSQ i BTC.
-- Liquid Swapy**: Exchange aktywów na Liquid Network (USDT, BTC-L) poprzez swapy atomowe.
-- Swapy Monero**: Atomowe wymiany między Bitcoin i Monero.
-- Liquid MuSig**: Wersja protokołu Multisig wykorzystująca L-BTC dla niższych kosztów i większej poufności.
-- Wymiana podwodna**: Wymiany między Bitcoin na Lightning Network i Bitcoin On-Chain.
-- Swapy stablecoinów**: Atomowe wymiany między stablecoinami Bitcoin i USD.
-- Opcje Multisig**: Utworzenie opcji sprzedaży i kupna P2P z blokadą BTC w transakcji On-Chain Multisig.
-- Multisig Open Contracts**: Umożliwia tworzenie niestandardowych kontraktów warunkowych przy użyciu systemu Multisig 2 na 3 z arbitrażem.
+- **Bisq Lightning**: Protokół Exchange oparty na systemie escrow wykorzystującym wielostronną kryptografię obliczeniową na Lightning Network.
+- **Bisq MuSig**: Migracja głównego protokołu z Bisq 1 do Bisq 2, przy użyciu Multisig 2 na 2 z depozytami zabezpieczającymi.
+- **Swapy BSQ**: Natychmiastowe swapy atomowe między BSQ i BTC.
+- **Liquid Swapy**: Exchange aktywów na Liquid Network (USDT, BTC-L) poprzez swapy atomowe.
+- **Swapy Monero**: Atomowe wymiany między Bitcoin i Monero.
+- **Liquid MuSig**: Wersja protokołu Multisig wykorzystująca L-BTC dla niższych kosztów i większej poufności.
+- **Wymiana podwodna**: Wymiany między Bitcoin na Lightning Network i Bitcoin On-Chain.
+- **Swapy stablecoinów**: Atomowe wymiany między stablecoinami Bitcoin i USD.
+- **Opcje Multisig**: Utworzenie opcji sprzedaży i kupna P2P z blokadą BTC w transakcji On-Chain Multisig.
+- **Multisig Open Contracts**: Umożliwia tworzenie niestandardowych kontraktów warunkowych przy użyciu systemu Multisig 2 na 3 z arbitrażem.
 
 
 Protokoły te są obecnie opracowywane i będą stopniowo integrowane z Bisq 2, oferując użytkownikom większą elastyczność zgodnie z ich specyficznymi potrzebami.

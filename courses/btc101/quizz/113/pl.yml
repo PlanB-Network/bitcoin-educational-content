@@ -1,13 +1,11 @@
-question: Co uniemożliwia wszystkim korzystanie z tego samego Bitcoin Wallet?
-answer: Różne osoby potrzebują różnych przypadków użycia.
+question: Kiedy po raz pierwszy użyto Bitcoin do zakupu fizycznych towarów?
+answer: Kiedy Laszlo Hanyecz kupił 2 pizze za 10 000 BTC.
 wrong_answers:
-  - Korzystanie z Bitcoin Wallet jest kosztowne.
-  - Używanie Bitcoin Wallet jest nielegalne.
-  - Ludzie nigdy nie zgodzą się co do nazwy takiego Wallet.
+  - Kiedy Hal Finney kupił samochód za 100 000 BTC.
+  - Kiedy Satoshi Nakamoto kupił dom za 1 000 000 000 BTC.
+  - Żadna z pozostałych opcji.
 explanation: |
-  Podczas gdy jedna osoba może priorytetowo traktować bezpieczeństwo, inna może
-  cenić łatwość obsługi lub określone funkcje. W związku z tym
-  pojedynczy Bitcoin Wallet może nie spełniać wszystkich
-  wymagania, co sprawia, że konieczne jest istnienie wielu opcji Wallet
-  opcji.
+  Pierwszy raz Bitcoin został użyty do zakupu fizycznych towarów
+  towarów był wtedy, gdy Laszlo Hanyecz kupił 2 pizze za 10,000
+  BTC, w dniu 2010/05/22, który jest obecnie znany jako Dzień Pizzy
 reviewed: true

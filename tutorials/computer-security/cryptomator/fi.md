@@ -42,7 +42,7 @@ Cryptomator on vaihtoehto muille sovelluksille, erityisesti toisessa artikkeliss
 
 
 
-https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+https://planb.academy/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
 
 Cryptomator-sovellus on saatavilla **Windows** (exe / msi), **Linux**, **macOS,** mutta myös **Android** ja **iOS**. Muuten, kaikki sovellukset ovat ilmaisia, paitsi Android-sovellus, josta on maksettava (14,99 euroa).
 
@@ -170,7 +170,7 @@ Kassakaapin lukituksen avaaminen edellyttää salasanan syöttämistä. Napsauta
 
 
 
-OneDriven puolella emme voi selata Cryptomatorin holvia suoraan. Emme näe tietoja (emme tiedostojen nimiä emmekä sisältöä). Tämä tarkoittaa, että sinun ei tarvitse lisätä tietoja Cryptomator-holviin tavallisen OneDrive-pikakuvakkeen kautta. **Tietosi on lisättävä Cryptomatorin virtuaalisen aseman kautta
+OneDriven puolella emme voi selata Cryptomatorin holvia suoraan. Emme näe tietoja (emme tiedostojen nimiä emmekä sisältöä). Tämä tarkoittaa, että sinun ei tarvitse lisätä tietoja Cryptomator-holviin tavallisen OneDrive-pikakuvakkeen kautta. **Tietosi on lisättävä Cryptomatorin virtuaalisen aseman kautta.**
 
 
 

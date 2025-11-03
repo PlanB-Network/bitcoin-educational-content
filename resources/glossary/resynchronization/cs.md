@@ -12,4 +12,4 @@ Resynchronizace může mít různé důsledky. Zaprvé, pokud si uživatel necha
 
 Na úrovni globálního systému navíc resynchronizace znamená plýtvání výpočetním výkonem těžařů. Když totiž dojde k rozdělení, někteří těžaři budou na řetězci `A` a jiní na řetězci `B`. Pokud je řetězec `B` během resynchronizace nakonec opuštěn, pak je veškerý výpočetní výkon nasazený těžaři na tomto řetězci z definice promarněn. Pokud je v síti Bitcoin příliš mnoho resynchronizací, snižuje se tím celková bezpečnost sítě. To je částečně důvod, proč může být nebezpečné zvětšení velikosti bloku nebo zkrácení intervalu mezi jednotlivými bloky (10 minut).
 
-> ►Někteří bitcoináři raději používají výraz "osiřelý blok" pro označení bloku, jehož platnost vypršela. Ačkoli jde o anglicismus, v běžném jazyce se také často dává přednost "reorganizaci" nebo "reorg" před "resynchronizací" *
+> ►Někteří bitcoináři raději používají výraz "osiřelý blok" pro označení bloku, jehož platnost vypršela. Ačkoli jde o anglicismus, v běžném jazyce se také často dává přednost "reorganizaci" nebo "reorg" před "resynchronizací"

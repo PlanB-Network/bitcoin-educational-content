@@ -1,10 +1,9 @@
-question: Điều gì là một trong những thứ bạn cần có trước khi mua Bitcoin?
-answer: Một ví an toàn.
+question: Một trong những lý do bạn nên gộp các UTXO trong ví của mình từ thời gian này sang thời gian khác là gì?
+answer: Để tránh phí không cần thiết trong các giao dịch.
 wrong_answers:
-  - Một két sắt vật lý.
-  - Một tài khoản ngân hàng.
-  - Một thẻ tín dụng.
-explanation: |
-  Văn bản khóa học đề cập rằng trước khi mua Bitcoin, bạn
-  cần có một ví an toàn nơi bạn sẽ lưu trữ các khóa của mình.
+  - Để tăng giá trị của bitcoin của bạn.
+  - Để ngăn chặn bitcoin của bạn bị đánh cắp.
+  - Để đảm bảo bitcoin của bạn luôn sẵn có.
+explanation: >-
+  Văn bản đề cập rằng việc gộp các UTXO trong ví của bạn từ thời gian này sang thời gian khác là cần thiết để quản lý bitcoin của bạn một cách hiệu quả và tránh phí không cần thiết trong các giao dịch.
 reviewed: true

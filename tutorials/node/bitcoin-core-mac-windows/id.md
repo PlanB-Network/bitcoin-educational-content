@@ -1,7 +1,9 @@
 ---
-name: Bitcoin Core (macOS & Windows)
+name: "Bitcoin Core (macOS & Windows)"
 description: Memasang Bitcoin Core di Mac atau Windows
 ---
+
+![cover](assets/cover.webp)
 
 Memasang Bitcoin Core di komputer biasa bisa dilakukan, namun tidak ideal. Jika Anda tidak keberatan meninggalkan komputer Anda menyala 24/7, maka ini akan berfungsi dengan baik. Jika Anda perlu mematikan komputer, akan terasa menjengkelkan menunggu perangkat lunak untuk sinkron setiap kali Anda menyalakannya kembali.
 
@@ -17,7 +19,7 @@ Anda bisa menghapus bersih komputer lama, dan menggunakannya sebagai komputer Bi
 
 Bitcoin Core akan mengambil sekitar 400 gigabyte data di drive Anda, dan akan terus bertambah. Anda dapat menggunakan drive internal Anda, tetapi Anda juga dapat menambahkan hard drive eksternal. Saya akan menjelaskan kedua opsi tersebut. Idealnya, Anda harus menggunakan solid-state drive. Jika Anda memiliki komputer lama, kemungkinan besar tidak memiliki salah satu dari ini secara internal. Cukup beli SSD eksternal 1 atau 2 terabyte dan gunakan itu. Drive reguler mungkin akan bekerja, tetapi Anda mungkin akan mengalami masalah dan akan jauh lebih lambat.
 
-![image](assets/1.webp)
+![image](assets/fr/01.webp)
 
 ## Unduh Bitcoin Core
 
@@ -25,15 +27,15 @@ Pergi ke bitcoin.org (pastikan Anda tidak pergi ke bitcoin.com, yang merupakan s
 
 Setelah di sana, secara aneh tidak jelas di mana mendapatkan perangkat lunaknya. Pergi ke menu sumber daya dan klik "Bitcoin Core", seperti ditunjukkan di bawah ini:
 
-![image](assets/2.webp)
+![image](assets/fr/02.webp)
 
 Ini akan membawa Anda ke halaman unduhan:
 
-![image](assets/3.webp)
+![image](assets/fr/03.webp)
 
 Klik tombol oranye Unduh Bitcoin Core:
 
-![image](assets/4.webp)
+![image](assets/fr/04.webp)
 
 Ada beberapa opsi untuk dipilih, tergantung pada komputer Anda. Dua pertama relevan dengan panduan ini; pilih Windows atau Mac di bilah kiri. Ini akan mulai mengunduh setelah Anda mengkliknya, kemungkinan besar ke direktori Unduhan Anda.
 
@@ -41,7 +43,7 @@ Ada beberapa opsi untuk dipilih, tergantung pada komputer Anda. Dua pertama rele
 
 Anda memerlukan file yang berisi hash dari berbagai rilis. File ini dulu ada di halaman unduhan bitcoin.org, tetapi sekarang telah pindah ke bitcoincore.org/en/download:
 
-![image](assets/5.webp)
+![image](assets/fr/05.webp)
 
 Anda memerlukan file hash biner SHA256. File ini berisi hash SHA256 dari berbagai paket unduhan Bitcoin Core.
 
@@ -64,7 +66,7 @@ Untuk melakukan itu, lihat panduan SHA256/gpg saya, dan gulir sekitar setengah j
 
 Kembali ke halaman unduhan, dapatkan file tanda tangan hash SHA256
 
-![image](assets/6.webp)
+![image](assets/fr/06.webp)
 
 Klik dan simpan file ke disk, sebaiknya direktori Downloads.
 
@@ -99,7 +101,7 @@ File pertama yang terdaftar adalah ejaan tepat dari file tanda tangan. File kedu
 
 Ini adalah output yang harus Anda dapatkan
 
-![image](assets/7.webp)
+![image](assets/fr/07.webp)
 
 Aman untuk mengabaikan pesan PERINGATAN – itu hanya mengingatkan Anda bahwa Anda belum bertemu Wladimir di bagian kunci dan secara pribadi bertanya kepadanya apa kunci publiknya, dan kemudian memberitahu komputer Anda untuk mempercayai kunci ini sepenuhnya.
 
@@ -109,38 +111,39 @@ Jika Anda mendapatkan pesan ini, Anda sekarang tahu bahwa file SHA256SUMS.asc ti
 
 Anda tidak seharusnya memerlukan instruksi rinci tentang cara menginstal programnya.
 
-![image](assets/8.webp)
+![image](assets/fr/08.webp)
 
 ## Jalankan Bitcoin Core
 
 Di Mac, Anda mungkin mendapatkan peringatan (Apple masih anti-Bitcoin)
 
-![image](assets/9.webp)
+![image](assets/fr/09.webp)
 
 Klik OK, lalu buka Preferensi Sistem Anda
 
-![image](assets/10.webp)
+![image](assets/fr/10.webp)
 
 Klik ikon Keamanan dan Privasi:
 
-![image](assets/11.webp)
+![image](assets/fr/11.webp)
 
 Kemudian klik "buka bagaimanapun juga":
 
-![image](assets/12.webp)
+![image](assets/fr/12.webp)
 
 Kesalahan akan muncul lagi, tetapi kali ini Anda akan memiliki tombol BUKA yang tersedia. Klik itu.
 
-![image](assets/13.webp)
+![image](assets/fr/13.webp)
 
 Bitcoin Core harus dimuat dan Anda akan disajikan dengan beberapa opsi:
 
-![image](assets/14.webp)
+![image](assets/fr/14.webp)
 
 Di sini Anda dapat memilih untuk menggunakan jalur default untuk tempat blockchain akan diunduh, atau Anda dapat memilih drive eksternal Anda. Saya merekomendasikan tidak mengubah jalur default jika Anda akan menggunakan drive internal, itu membuat hal-hal lebih mudah untuk diatur saat Anda menginstal perangkat lunak lain untuk berkomunikasi dengan Bitcoin Core.
 Anda dapat memilih untuk menjalankan node yang dipangkas, ini menghemat ruang, tetapi membatasi apa yang dapat Anda lakukan dengan node Anda. Bagaimanapun, Anda akan mengunduh seluruh blockchain dan memverifikasinya, jadi jika Anda memiliki ruang, simpan apa yang telah Anda unduh, dan jangan pangkas jika Anda bisa menghindarinya.
 Setelah Anda konfirmasi, blockchain akan mulai diunduh. Ini akan memakan waktu berhari-hari.
 
-![image](assets/15.webp)
+![image](assets/fr/15.webp)
 
 Anda dapat mematikan komputer dan kembali untuk mengunduh jika Anda mau, ini tidak akan menyebabkan kerusakan.
+

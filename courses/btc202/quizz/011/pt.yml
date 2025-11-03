@@ -1,0 +1,9 @@
+question: Porque é que um Miner precisa de um nó Bitcoin?
+answer: Para interagir com a rede e distribuir os seus blocos
+wrong_answers:
+  - Para assinaturas digitais generate
+  - Para introduzir a sua entrega Address no Coinbase Transaction
+  - Para reduzir a dificuldade do Mining
+explanation: |
+  Os mineiros utilizam um nó para comunicar com a rede, transmitir os seus blocos e receber transacções.
+reviewed: true

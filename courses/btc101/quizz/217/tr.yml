@@ -1,12 +1,8 @@
-question: Bitcoin hangi alanlarda soru işaretleri yaratıyor?
-answer: Kriptografi, oyun teorisi, ekonomi ve para politikası, bilgisayar bilimi, felsefe, enerji, yasalar ve düzenlemeler.
+question: Lightning Network neye izin veriyor?
+answer: Anında, düşük maliyetli Bitcoin işlemleri.
 wrong_answers:
-  - Sadece bilgisayar bilimleri ve ekonomi
-  - Sadece kriptografi ve oyun teorisi.
-  - Sadece felsefe ve enerji.
-explanation: |
-  KİS-1 çok disiplinli bir konu olup, aşağıdaki konuları gündeme getirmektedir
-  dahil olmak üzere çeşitli alanlarla ilgili sorular
-  kriptografi, oyun teorisi, ekonomi ve para politikası,
-  bilgisayar bilimi, felsefe, enerji, kanunlar ve yönetmelikler.
+  - Anlık, yüksek maliyetli Bitcoin işlemleri.
+  - Gecikmeli, düşük maliyetli Bitcoin işlemleri.
+  - Gecikmeli, yüksek maliyetli Bitcoin işlemleri.
+explanation: >-
 reviewed: true

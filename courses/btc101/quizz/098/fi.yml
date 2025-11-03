@@ -1,9 +1,11 @@
-question: Mikä on yksi suositeltu vaihtoehto paperin käytölle muistisanojen säilyttämiseen?
-answer: Kaivertaminen metallilaattaan.
+question: Miksi yksityisyys on tärkeää Bitcoinin kontekstissa?
+answer: Minimoidaksesi riskin, että varojasi voidaan jäljittää.
 wrong_answers:
-  - Säilyttäminen digitaalisessa tiedostossa.
-  - Kirjoittaminen valkotaululle.
-  - Tallentaminen yhteystiedoksi puhelimeesi.
+  - Vähentääksesi bitcoiniesi arvoa.
+  - Estääksesi bitcoiniesi varastamisen.
+  - Maksaa veroja bitcoineistasi.
 explanation: |
-  Yksi suositelluista vaihtoehdoista paperille muistisanojen säilyttämiseen on kaivertaminen metallilaattaan. Tämä ratkaisu on kestävämpi ja pitkäikäisempi.
+  Yksityisyys on tärkeää Bitcoinin kontekstissa, jotta voidaan minimoida
+  riskit varojesi jäljittämisestä, mikä voi helpottaa
+  valvontaasi.
 reviewed: true

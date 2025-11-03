@@ -1,13 +1,10 @@
-question: Qual è uno dei potenziali benefici che Lightning Network può dare ai creatori di contenuti?
-answer: Sarebbero incentivati a produrre contenuti di buona qualità per mantenere l'attenzione degli utenti.
+question: Qual è una delle principali questioni sollevate riguardo al futuro della finanza?
+answer: Chi dovrebbe detenere, autorizzare e tracciare il denaro che utilizziamo?
 wrong_answers:
-  - Sarebbero in grado di chiedere di più per i loro contenuti.
-  - Sarebbero in grado di raggiungere un pubblico più ampio.
-  - Sarebbero in grado di produrre contenuti più rapidamente per mantenere l'attenzione degli utenti.
-explanation: |
-  Con Lightning Network i creatori di contenuti sarebbero
-  incentivati a produrre contenuti di buona qualità, per mantenere
-  l'attenzione degli utenti. Gli utenti, a loro volta, pagherebbero solo per i
-  contenuti che consumano, eliminando così le tariffe di abbonamento
-  anticipato.
-reviewed: true
+  - Come possiamo eliminare completamente il denaro?
+  - Come possiamo garantire che tutti abbiano la stessa quantità di denaro?
+  - Come possiamo rendere il denaro obsoleto?
+explanation: >-
+  Il testo solleva diverse questioni sul futuro della finanza, una delle
+  quali è chi dovrebbe detenere, autorizzare e tracciare il denaro che utilizziamo.
+reviewed: vero

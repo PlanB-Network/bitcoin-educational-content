@@ -1,5 +1,5 @@
 ---
-name: Kriptomatör
+name: Cryptomator
 description: Dosyalarınızı bulutta şifreleyin
 ---
 ![cover](assets/cover.webp)
@@ -42,7 +42,7 @@ Cryptomator, özellikle başka bir makalede sunulan Picocrypt gibi farklı gör�
 
 
 
-https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+https://planb.academy/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
 
 Cryptomator uygulaması **Windows** (exe / msi), **Linux**, **macOS,** ve ayrıca **Android** ve **iOS** üzerinde mevcuttur. Bu arada, ödemeniz gereken Android uygulaması hariç (14.99 Euro) tüm uygulamalar ücretsizdir.
 
@@ -98,7 +98,7 @@ Kasaya bir ad vererek başlayın, örneğin "**IT-Connect**". Bu, OneDrive'ımda
 
 
 
-Bir sonraki adımda, Cryptomator muhtemelen makinenizde bulunan "Sürücü "yü ** tespit edecektir: Google Drive, OneDrive, Dropbox, vb.... Doğrudan sağlayıcıyı seçmenizi sağlamak için. Bunu birkaç Sürücüye sahip iki farklı Windows 11 makinesinde denedim ve algılanmadı. Sorun değil, sadece bir "**Özel konum**" tanımlayın ve depolama alanınızın kökünü seçin. Örneğin: **C:\Users\<Kullanıcı adı>\OneDrive**.
+Bir sonraki adımda, Cryptomator muhtemelen makinenizde bulunan **Sürücü**yü tespit edecektir: Google Drive, OneDrive, Dropbox, vb.... Doğrudan sağlayıcıyı seçmenizi sağlamak için. Bunu birkaç Sürücüye sahip iki farklı Windows 11 makinesinde denedim ve algılanmadı. Sorun değil, sadece bir **Özel konum** tanımlayın ve depolama alanınızın kökünü seçin. Örneğin: **C:\Users\<Kullanıcı adı>\OneDrive**.
 
 
 
@@ -170,7 +170,7 @@ Kasanın kilidini açmak için şifrenizi girmelisiniz. Ardından "**Sürücüy�
 
 
 
-OneDrive tarafında, Cryptomator kasasına doğrudan göz atamayız. Verileri göremeyiz (ne dosya adlarını ne de içeriklerini). Bu, normal OneDrive kısayolu aracılığıyla Cryptomator kasanıza veri eklemenize gerek olmadığı anlamına gelir. **Verilerinizi Cryptomator'ın sanal sürücüsünü kullanarak eklemelisiniz
+OneDrive tarafında, Cryptomator kasasına doğrudan göz atamayız. Verileri göremeyiz (ne dosya adlarını ne de içeriklerini). Bu, normal OneDrive kısayolu aracılığıyla Cryptomator kasanıza veri eklemenize gerek olmadığı anlamına gelir. **Verilerinizi Cryptomator'ın sanal sürücüsünü kullanarak eklemelisiniz.**
 
 
 
@@ -202,4 +202,4 @@ Ek olarak, Cryptomator ayarlarında **otomatik uygulama başlangıcını etkinle
 
 
 
-Cryptomator** ile OneDrive'da saklamak istediğiniz verileri korumak için sadece birkaç dakika içinde **şifreli bir kasa** oluşturabilirsiniz. Bir Drive ile "eşleştirme" söz konusu olduğunda kullanımı çok kolaydır: bu amaçla Picocrypt'e göre tercihimdir.
+**Cryptomator** ile OneDrive'da saklamak istediğiniz verileri korumak için sadece birkaç dakika içinde **şifreli bir kasa** oluşturabilirsiniz. Bir Drive ile "eşleştirme" söz konusu olduğunda kullanımı çok kolaydır: bu amaçla Picocrypt'e göre tercihimdir.

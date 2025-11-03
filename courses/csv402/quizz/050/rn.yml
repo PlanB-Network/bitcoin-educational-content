@@ -1,0 +1,9 @@
+question: Ni gute amasezerano y’ubuhinga bwa none (biciye kuri Taproot canke OP_RETURN) akoreshwa muri RGB?
+answer: Bo Anchor leta zihinduka mu Blockchain.
+wrong_answers:
+  - Babika amakuru ya Contract kuri Blockchain.
+  - Basubiriza Client-side Validation na On-Chain Smart contract kwica .
+  - Bakora uturongo two kugenzura ibikorwa
+explanation: |
+  Amasezerano atuma amakuru y’ivy’ubuzima ashobora guhuzwa neza na UTXO, kugira ngo yerekane ko hariho amakuru kanaka mu gihe kinaka, ata makuru ubwayo ahishuriwe.
+reviewed: false

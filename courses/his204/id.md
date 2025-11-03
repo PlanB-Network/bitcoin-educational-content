@@ -946,150 +946,91 @@ Dalam tulisannya [*Letters on the Grain Trade*](https://archive.org/details/bub_
 
 ![image](assets/id/089.webp)
 
+Pertama, harga gandum yang tinggi pada saat itu bukan akibat dari perdagangan bebas, melainkan karena panen yang buruk, dan Condorcet menunjukkannya dengan jelas. Dia kemudian menjelaskan mengapa laissez-faire tidak hanya tepat tetapi merupakan satu-satunya kebijakan yang sesuai, meskipun ada prasangka populer. Ia mencatat, "Kita begitu terbiasa melihat pemerintah campur tangan dalam perdagangan gandum sehingga tidak melakukan apa-apa tampak seperti sesuatu yang luar biasa dan baru." Kemudian, ia menambahkan, "Hampir semua orang, terutama mereka yang memegang jabatan publik, percaya bahwa tidak ada yang terjadi dengan sendirinya dan bahwa segalanya hilang jika pemerintah tidak campur tangan dalam segala hal." Condorcet dengan demikian menghidupkan kembali argumen Kaum Fisiokrat dan Turgot, menunjukkan keunggulan perdagangan bebas di atas semua bentuk intervensiisme.
 
-Pertama, tingginya harga biji-bijian pada saat itu bukanlah akibat dari perdagangan bebas, melainkan karena hasil panen yang buruk, dan Condorcet menunjukkan hal ini dengan jelas. Dia kemudian menjelaskan mengapa laissez-faire tidak hanya tepat tetapi juga satu-satunya kebijakan yang sesuai, terlepas dari prasangka populer. Dia mencatat, "Kita sudah terbiasa melihat pemerintah mengintervensi perdagangan biji-bijian sehingga tidak melakukan apa pun tampak seperti sesuatu yang luar biasa dan baru". Kemudian, ia menambahkan, "Hampir semua orang, terutama mereka yang memegang jabatan publik, percaya bahwa tidak ada yang terjadi dengan sendirinya dan bahwa semuanya akan hilang jika pemerintah tidak campur tangan dalam segala hal". Dengan demikian, Condorcet menghidupkan kembali argumen kaum Fisiokrat dan Turgot, yang menunjukkan keunggulan perdagangan bebas di atas semua bentuk intervensionisme.
+Mempromosikan agenda ekonomi liberal Turgot adalah tindakan yang berani, karena Condorcet tahu ia akan segera menghadapi sensor. Memang, ini terjadi dan pamfletnya tentang penghapusan kerja paksa dihancurkan dan dilarang pada tahun 1776.
 
+Turgot, menghargai kesetiaan Condorcet terhadap ide-idenya, mengangkatnya sebagai Inspektur Mata Uang (Inspector of Coinage). Condorcet mengundurkan diri segera setelah temannya meninggalkan kementerian.
 
+Meskipun ia mencurahkan seluruh energinya untuk membela Turgot, Condorcet tidak memiliki pandangan tentang hasil masa jabatan temannya. Turgot sendiri mengakui di akhir hayatnya bahwa ia hidup dengan penyesalan, saat ia menulis dalam sebuah surat, "karena tidak mampu melakukan kebaikan bagi bangsa dan kemanusiaan yang saya yakini sangat mudah." Condorcet, yang lebih realistis, menunjukkan banyak musuh yang akan dihadapi Turgot: para pendukung Raja, parlemen, pendeta, kaum bangsawan, gilda, dan sebagainya. Kelompok-kelompok ini mengharapkan sanjungan, bukan reformasi. Condorcet mengatakan kepada Turgot, "Anda sama sekali bukan seorang dukun, dan itu adalah sebuah kelemahan, mengingat bagaimana keadaan di Paris." Ia sepenuhnya benar, karena pada tahun 1776, baru dua tahun setelah kedatangannya, Turgot sudah dipaksa untuk meninggalkan jabatan Pengawas Jenderal.
 
-Mempromosikan agenda ekonomi liberal Turgot adalah tindakan yang berani, karena Condorcet tahu bahwa dia akan segera menghadapi sensor. Hal ini memang terjadi dan pamfletnya tentang penghapusan kerja paksa dihancurkan dan dilarang pada tahun 1776.
-
-
-
-Turgot, yang menghargai kesetiaan Condorcet dalam mempertahankan ide-idenya, mengangkatnya menjadi Inspektur Koin. Condorcet mengundurkan diri segera setelah temannya meninggalkan kementerian.
-
-
-
-Meskipun ia mencurahkan seluruh energinya untuk membela Turgot, Condorcet tidak memiliki ilusi tentang hasil akhir dari masa jabatan temannya. Turgot sendiri mengakui di akhir hayatnya bahwa ia hidup dengan penyesalan, seperti yang ia tulis dalam sebuah surat, "karena tidak dapat melakukan kebaikan bagi bangsa dan kemanusiaan yang saya yakini dengan mudah". Condorcet, yang lebih realistis, menunjukkan banyak musuh yang akan dihadapi Turgot: para pendukung raja, parlemen, pendeta, bangsawan, serikat pekerja, dan sebagainya. Kelompok-kelompok ini mengharapkan sanjungan, bukan reformasi. Condorcet mengatakan kepada Turgot, "Anda sama sekali bukan penipu, dan itu adalah sebuah kekurangan, mengingat bagaimana keadaan di Paris". Ia benar, karena pada tahun 1776, hampir dua tahun setelah kedatangannya, Turgot sudah dipaksa untuk meninggalkan Kontrolir Jenderal.
-
-
-
-
-## Akal sehat liberal di bawah Revolusi
-
+## Akal sehat liberal di temgah Revolusi
 
 <chapterId>95e9a90d-e37a-58ff-b1ac-928b42e76ecf</chapterId>
 
-
 Dupont de Nemours adalah murid termuda dari François Quesnay, yang pernah berkata tentangnya: "Kita harus menjaga anak muda ini, karena dia akan berbicara ketika kita sudah mati". Ketika Revolusi Prancis dimulai, hampir semua Fisiokrat besar, termasuk Marquis de Mirabeau, telah tiada; Mirabeau sendiri telah meninggal dunia pada tanggal 13 Juli 1789.
 
-Dupont de Nemours menulis daftar keluhan untuk bailiwick Nemours.
+Dupont de Nemours adalah murid termuda François Quesnay, yang pernah berkata tentangnya: "Kita harus menjaga pemuda ini, karena dia akan berbicara ketika kita telah mati." Ketika Revolusi Prancis dimulai, hampir semua Fisiokrat besar, termasuk Marquis de Mirabeau, sudah tiada; Mirabeau sendiri telah meninggal pada 13 Juli 1789.
 
+Dupont de Nemours menulis daftar keluhan (cahier de doléances) untuk bailiwick Nemours.
 
 ![image](assets/id/090.webp)
 
+Dokumen menarik ini memuat semua keluhan dari ekonom liberal terhadap pembatasan perdagangan, monopoli, dan serangan terhadap properti. Dupont de Nemours juga terpilih menjadi Majelis Nasional.
 
-Dokumen yang menarik ini berisi semua keluhan dari para ekonom liberal terhadap pembatasan perdagangan, monopoli, dan serangan terhadap properti. Dupont de Nemours juga terpilih menjadi anggota Majelis Nasional.
+Selama Revolusi, ia menjadi suara akal sehat liberal, berdiri teguh melawan gelombang populisme dan hasutan intervensi yang semakin besar, yang pada akhirnya menang.
 
-
-
-
-Selama Revolusi, ia menjadi suara akal sehat liberal, berdiri teguh melawan arus populisme dan hasutan intervensionis, yang pada akhirnya menang.
-
-
-Pada awal November 1789, ketika ada pembicaraan untuk memberikan monopoli kepada Caisse d'Escompte (yang dapat mengubahnya menjadi bank publik-Bank of France), Dupont de Nemours berbicara untuk membela persaingan.
-
-
+Sejak November 1789, ketika ada pembicaraan tentang memberikan monopoli kepada Caisse d'Escompte (yang dapat mengubahnya menjadi bank publik—Bank of France), Dupont de Nemours angkat bicara untuk membela persaingan.
 
 ![image](assets/id/091.webp)
 
+"Akan lebih baik," katanya, "untuk menyerahkan bisnis perbankan pada hukum perdagangan bebas." Dan ia menambahkan:
 
-"Akan lebih baik", katanya, "menyerahkan bisnis perbankan kepada hukum perdagangan bebas". Dan dia menambahkan:
+> "Saya tidak mengerti apa maksud menteri ketika ia berbicara tentang memberikan hak istimewa kepada Caisse d'Escompte. Jika hak istimewa ini mencakup eksklusivitas, Anda harus menolaknya, karena Anda datang ke sini untuk menghancurkan hak istimewa eksklusif, bukan untuk menciptakan yang baru."
 
+Terlepas dari peringatannya, Majelis mengabaikan keberatannya dan mengambil langkah lain menuju pembentukan bank sentral dan monopoli perbankan.
 
-> "Saya tidak mengerti apa yang dimaksud oleh menteri ketika dia berbicara tentang pemberian hak istimewa kepada Caisse d'Escompte. Jika hak istimewa ini mencakup eksklusivitas, Anda harus menolaknya, karena Anda datang ke sini untuk menghancurkan hak-hak istimewa, bukan untuk menciptakan hak-hak istimewa yang baru."
-
-Terlepas dari peringatannya, Majelis mengabaikan keberatannya dan mengambil langkah lain untuk mendirikan bank sentral dan monopoli perbankan.
-
-Pada tahun 1790, di Majelis Konstituante, Dupont de Nemours mengikuti tradisi pasifis dari teman-temannya yang beraliran Fisiokrat dan mengusulkan undang-undang yang melarang perang ofensif. Artikel pertama berbunyi: "Bangsa Prancis tidak akan mengizinkan dirinya terlibat dalam perang ofensif untuk merebut wilayah orang lain atau melanggar hak atau kebebasan bangsa mana pun".
-
+Pada tahun 1790, di Majelis Konstituante, Dupont de Nemours mengikuti tradisi pasifis teman-teman Fisiokratnya dan mengusulkan undang-undang yang melarang perang ofensif. Pasal pertama berbunyi: "Bangsa Prancis tidak akan mengizinkan dirinya untuk terlibat dalam perang ofensif apa pun untuk merebut wilayah orang lain atau untuk melanggar hak atau kebebasan Bangsa mana pun."
 
 Usulan ini ditolak.
 
+Pada tahun yang sama, 1790, perdebatan dimulai tentang penerbitan mata uang kertas baru (assignats) untuk menutupi pengeluaran pemerintah.
 
-Pada tahun yang sama, 1790, perdebatan dimulai tentang penerbitan mata uang kertas baru untuk menutupi pengeluaran pemerintah.
-
-Dupont de Nemours dengan tegas menentang hal ini dan menerbitkan pamflet berjudul [*Pengaruh Assignats terhadap Harga Roti*] (https://archive.org/details/effetdesassignat00dupo). Judulnya tepat, karena ia menjelaskan bahwa penerbitan assignat pasti akan menyebabkan inflasi, kenaikan harga komoditas, termasuk roti.
-
-
+Dupont de Nemours dengan tegas menentangnya dan menerbitkan pamflet berjudul [Effects of Assignats on the Price of Bread (Dampak Assignats pada Harga Roti)](https://archive.org/details/effetdesassignat00dupo). Judulnya tepat, karena ia menjelaskan bahwa penerbitan assignats pasti akan mengarah pada inflasi, peningkatan harga komoditas, termasuk roti.
 
 ![image](assets/id/092.webp)
 
+Dia menandatangani pamflet tersebut sebagai "sahabat rakyat" (a friend of the people). Tulisan itu menimbulkan kegemparan, karena Majelis ditanya siapa yang menulisnya. Dupont de Nemours kemudian berdiri dan mengakui bahwa itu adalah karyanya, mengatakan ia tidak malu menggunakan gelar "sahabat rakyat" karena berjuang melawan assignats adalah benar-benar melayani rakyat.
 
-Dia menandatangani pamflet tersebut sebagai "teman rakyat". Karya tersebut menimbulkan kehebohan, karena Majelis ditanya siapa yang menulisnya. Dupont de Nemours kemudian berdiri dan mengakui bahwa itu adalah karyanya, dan mengatakan bahwa ia tidak malu menggunakan gelar "teman rakyat" karena berjuang melawan para assignat benar-benar melayani rakyat.
-
-Sekali lagi, sarannya tidak digubris, dan surat perintah dikeluarkan.
-
-
+Sekali lagi, nasihatnya diabaikan, dan assignats pun diterbitkan.
 
 ![image](assets/id/093.webp)
 
-
 Kita semua tahu bencana yang terjadi setelahnya, kehancuran ekonomi dan penderitaan yang dialami oleh masyarakat, banyak dari mereka yang kehilangan segalanya ketika assignat menjadi tidak berharga dan harus dibakar.
 
-Beberapa tahun kemudian, Majelis mengalihkan perhatiannya pada gagasan untuk menciptakan Bank of France yang sebenarnya, yang akan diberi hak monopoli atas produksi uang.
+Kita semua tahu bencana yang terjadi setelahnya, kehancuran ekonomi dan penderitaan yang dialami oleh rakyat, banyak di antaranya kehilangan segalanya ketika assignats menjadi tidak berharga dan harus dibakar. Beberapa tahun kemudian, Majelis mengalihkan perhatiannya pada gagasan untuk menciptakan Bank of France yang sebenarnya, yang akan diberikan hak monopoli atas produksi uang.
 
+Dupont de Nemours, masih dengan tegas menentang gagasan bank publik, melihatnya tidak lebih dari sekadar monopoli, mengingatkan Majelis akan pengalaman buruk yang dialami oleh para penanggung jawab assignats yang membawa bencana. Dia mengatakan kepada mereka:
 
-Dupont de Nemours, yang masih sangat menentang gagasan bank publik, karena menganggapnya tidak lebih dari sebuah monopoli, mengingatkan Majelis akan pengalaman buruk yang dialami oleh para penanggung jawab. Dia mengatakan kepada mereka:
-
-
-
-> "Jangan persiapkan diri Anda untuk penyesalan seperti yang menyiksa rekan-rekan saya di Majelis Konstituante. Pada saat itu, proposal saya untuk membatasi assignat hanya untuk pembayaran barang-barang nasional dan tidak menjadikannya sebagai mata uang yang beredar ditolak. Hari ini, mereka berkata: 'Ah, seandainya saja kita mendengarkan Dupont de Nemours!"
+> "Jangan persiapkan diri Anda untuk penyesalan seperti yang menyiksa rekan-rekan saya di Majelis Konstituante. Pada saat itu, proposal saya untuk membatasi assignats hanya untuk pembayaran barang nasional dan tidak menjadikannya mata uang yang beredar ditolak. Hari ini, mereka berkata: 'Ah, seandainya saja kami mendengarkan Dupont de Nemours!'"
 
 Namun sekali lagi, tidak ada yang mendengarkannya.
 
-
-## Kesimpulan: Mengoper Obor
-
+## Kesimpulan: Penyerahan Obor Estafet
 
 <chapterId>ada8082f-db96-5e52-954f-719b47998153</chapterId>
 
+Pemikiran ekonomi Prancis pada abad ke-18 sering kali dibayangi oleh para ekonom abad ke-19 yang lebih terkenal. Namun, ketika berbicara tentang pembelaan kebebasan, di abad ke-18 lah segalanya benar-benar dimulai. Ini adalah abad di mana prinsip laissez-faire, yang begitu revolusioner pada masanya, pertama kali diungkapkan dengan jelas oleh sejumlah pemikir, dari Boisguilbert hingga Dupont de Nemours.
 
-Pemikiran ekonomi Prancis pada abad ke-18 sering kali dibayangi oleh para ekonom yang lebih terkenal pada abad ke-19. Namun, ketika berbicara tentang pembelaan terhadap kebebasan, pada abad ke-18-lah semuanya benar-benar dimulai. Ini adalah abad di mana prinsip laissez-faire, yang begitu revolusioner pada masanya, pertama kali diekspresikan dengan jelas oleh sejumlah pemikir, mulai dari Boisguilbert hingga Dupont de Nemours.
+Tentu, tokoh-tokoh seperti Jean-Baptiste Say, Frédéric Bastiat, Gustave de Molinari, dan Yves Guyot meninggalkan jejak abadi pada sejarah pemikiran ekonomi Prancis. Tetapi jika kita mempelajarinya secara terpisah, kita kehilangan sesuatu yang penting. Para pemikir abad ke-19 ini tidak muncul begitu saja; mereka mewarisi dan membangun di atas fondasi yang diletakkan oleh para pendahulu mereka di abad ke-18 selama masa Pencerahan.
 
-Tentu saja, tokoh-tokoh seperti Jean-Baptiste Say, Frédéric Bastiat, Gustave de Molinari, dan Yves Guyot meninggalkan jejak yang tak lekang oleh waktu dalam sejarah pemikiran ekonomi Prancis. Namun, jika kita mempelajari mereka secara terpisah, kita akan kehilangan sesuatu yang esensial. Para pemikir abad ke-19 ini tidak muncul begitu saja; mereka mewarisi dan membangun fondasi yang telah diletakkan oleh para pendahulunya di abad ke-18 selama masa Pencerahan.
-
-
-Boisguilbert menegaskan bahwa jiwa-jiwa yang bermaksud baik yang percaya bahwa mereka dapat memperbaiki segala sesuatu dengan melibatkan pemerintah pasti akan menjungkirbalikkan ekonomi, dan oleh karena itu lebih baik membiarkan tatanan alamiah berjalan dengan sendirinya.
-
-
+Boisguilbert menegaskan bahwa orang-orang yang bermaksud baik yang percaya mereka dapat memperbaiki segalanya dengan melibatkan pemerintah pasti akan membalikkan ekonomi, dan karenanya lebih baik membiarkan tatanan alamiah berjalan.
 
 ![image](assets/id/094.webp)
 
+Cantillon bersikeras bahwa uang tidak boleh dimanipulasi untuk tujuan politik. Membiarkan Negara mengelola uang sesuka hati membuka jalan bagi kekacauan finansial dan ekonomi yang besar.
 
-Cantillon bersikeras bahwa uang tidak boleh dimanipulasi untuk tujuan politik. Mengizinkan Negara untuk mengelola uang sesuka hati sama saja dengan membuka jalan bagi kekacauan keuangan dan ekonomi yang sangat besar.
+Vincent de Gournay menegaskan bahwa regulasi kerja yang berlebihan melemahkan upaya pekerja dan perajin, mendorong mereka menuju kemalasan dan ketidakaktifan. Berkat persaingan bebaslah ekonomi dapat tumbuh dan suatu bangsa dapat makmur.
 
-
-
-
-
-
-Vincent de Gournay menegaskan bahwa regulasi yang berlebihan terhadap tenaga kerja akan menghambat usaha para pekerja dan pengrajin, mendorong mereka ke arah kemalasan dan ketidakaktifan. Berkat persaingan bebas, ekonomi dapat tumbuh dan suatu bangsa dapat menjadi makmur.
-
-
-
-
-
-
-Marquis d'Argenson menegaskan bahwa tidak ada pemerintah yang mampu meramalkan dan mengukur segala sesuatu, dan oleh karena itu, kita harus bergantung pada kepentingan pribadi masing-masing individu.
-
-
+Marquis d'Argenson menegaskan bahwa tidak ada pemerintah yang mampu meramalkan dan mengukur segalanya, dan bahwa akibatnya, kita harus bergantung pada kepentingan diri sendiri setiap individu.
 
 ![image](assets/id/095.webp)
 
+Quesnay dan Kaum Fisiokrat menegaskan bahwa properti pribadi adalah fondasi masyarakat manusia. Tanpa properti pribadi, manusia kehilangan motivasi untuk berusaha, untuk bekerja, karena ia tidak dapat menikmati hasil kerjanya atau mengumpulkan apa pun.
 
-Quesnay dan kaum Fisiokrat menyatakan bahwa kepemilikan pribadi adalah fondasi masyarakat manusia. Tanpa kepemilikan pribadi, manusia kehilangan motivasi untuk berusaha, untuk bekerja, karena ia tidak dapat menikmati hasil kerjanya atau mengumpulkan apa pun.
+Condillac menegaskan bahwa pertukaran selalu saling menguntungkan dan oleh karena itu, harus selalu bebas tanpa kecuali. Misi tunggal Negara haruslah untuk melindungi kebebasan dan properti.
 
-
-
-
-
-Condillac menegaskan bahwa Exchange selalu saling menguntungkan dan oleh karena itu, tanpa terkecuali, harus selalu bebas. Satu-satunya misi Negara haruslah untuk melindungi kebebasan dan properti.
-
-
-
-
-
-Semua ide ini akan diambil oleh para ekonom di abad ke-19. Beberapa, seperti Jean-Baptiste Say, akan memberikan ide-ide ini ekspresi ilmiah melalui *Treatise on Political Economy* yang ketat. Sebaliknya, yang lain berusaha mempopulerkan maksim-maksim fundamental ini dengan menjelajah ke dunia dongeng, novel, dan cerita pendek yang lucu, seperti yang dilakukan oleh Frédéric Bastiat dengan terampil.
+Semua ide ini akan diambil oleh para ekonom abad ke-19. Beberapa, seperti Jean-Baptiste Say, akan memberikan ide-ide ekspresi ilmiah melalui _Treatise on Political Economy_ yang ketat. Yang lain, sebaliknya, akan berusaha mempopulerkan maksim-maksim mendasar ini dengan menjelajah ke ranah dongeng, novel, dan cerita pendek yang lucu, seperti yang dilakukan Frédéric Bastiat dengan sangat terampil.
 
 ## Biografi
 

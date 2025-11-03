@@ -217,6 +217,7 @@ description: نصب اتوماتیک مایکروسافت ویندوز 11 به �
 ![Image](assets/en/27.webp)
 
 پس از این مرحله با کلیک بر روی next فایل iso ساخته می شود. این فایل قابلیت استفاده در نرم افزار های مجازی ساز مانند Oracle virtual box را دارد.
+در لینک زیر می توانید آموزشی از این نرم افزار را مشاهده کنید:
 
 https://planb.network/tutorials/computer-security/operating%20system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
 

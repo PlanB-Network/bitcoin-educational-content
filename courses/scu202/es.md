@@ -156,7 +156,7 @@ Para finalizar el curso, podrás realizar el examen final para obtener tu certif
 
 
 
-**N.B.:** Si durante el curso se encuentra con algún término que no le resulte familiar, consulte [el glosario](https://planb.network/resources/glossary) para obtener las definiciones
+**N.B.:** Si durante el curso se encuentra con algún término que no le resulte familiar, consulte [el glosario](https://planb.academy/resources/glossary) para obtener las definiciones
 
 
 
@@ -179,7 +179,7 @@ El curso SCU101 fue un curso introductorio diseñado para establecer una base s�
 
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 ### Navegación en línea segura
 
@@ -974,7 +974,7 @@ Este enfoque se basa en un modelo *rolling release*, en el que los paquetes se a
 
 Arch Linux está dirigido sobre todo a usuarios avanzados que desean un control total sobre su entorno, aunque aceptando cierta complejidad en la instalación y el mantenimiento. Este requisito técnico ha propiciado la aparición de varias distribuciones derivadas destinadas a democratizar su uso.
 
-https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+https://planb.academy/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 El más conocido es Manjaro, que conserva la base técnica de Arch al tiempo que ofrece una instalación simplificada, entornos de escritorio preconfigurados y un ciclo de lanzamiento ligeramente retrasado para estabilizar las actualizaciones.
 
@@ -1062,7 +1062,7 @@ Desarrollada por Canonical y lanzada en 2004, Ubuntu es una de las distribucione
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
 
@@ -1074,7 +1074,7 @@ Lanzada en 2006, Linux Mint es una distribución derivada de Ubuntu, diseñada p
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.academy/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
 Mint destaca por su sencillez, la presencia por defecto de códecs multimedia y una herramienta de actualización bien diseñada. Por otro lado, depende en gran medida de la infraestructura de Ubuntu, lo que le hace dependiente de las decisiones técnicas de Ubuntu (sobre todo a nivel de kernel y repositorios). Mint se adapta especialmente bien a los usuarios no técnicos, o a los que quieren un sistema listo para usar que no requiera demasiado aprendizaje.
 
@@ -1108,7 +1108,7 @@ La instalación es sencilla, el software esencial está preinstalado y la versi�
 
 Lanzada en 2011, elementary OS es una distribución basada en Ubuntu que se centra sobre todo en el diseño y la coherencia de Interface. Su entorno de escritorio Pantheon, inspirado en macOS, es minimalista, elegante y fluido. Sin embargo, el sistema sigue siendo menos personalizable que otras distribuciones, y algunos usuarios avanzados pueden sentirse limitados por las opciones de Interface y su estructura deliberadamente cerrada. Es muy adecuada para usuarios sensibles a la estética que buscan un sistema sencillo y coherente para el uso diario.
 
-https://planb.network/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
+https://planb.academy/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
 
 
 
@@ -1151,7 +1151,7 @@ Fedora es una distribución respaldada por Red Hat, orientada a las últimas tec
 ![Image](assets/fr/025.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
+https://planb.academy/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
 
 
 - **openSUSE** (Tumbleweed o Leap):
@@ -1179,7 +1179,7 @@ Debian existe en varias ramas, incluyendo *Stable* (muy fiable, pero con softwar
 ![Image](assets/fr/027.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
+https://planb.academy/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
 
 
 - **Manjaro**:
@@ -1208,7 +1208,7 @@ Arch Linux es una distribución minimalista, continuamente actualizable, que se 
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+https://planb.academy/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 #### Distribución especializada
 
@@ -1246,7 +1246,7 @@ Tails es una distribución en vivo basada en Debian y centrada en la privacidad.
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
+https://planb.academy/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
 → **Nota:** Una distribución en vivo es un sistema operativo Linux que puede utilizarse directamente desde una memoria USB o CD, sin instalación en el disco Hard.
 
@@ -1300,7 +1300,7 @@ PureOS es una distribución derivada de Debian desarrollada por Purism, totalmen
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
+https://planb.academy/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
 
 - **Raspberry Pi OS**:
 
@@ -1326,7 +1326,7 @@ Whonix combina Debian con la red Tor en una arquitectura de dos VM (pasarela + e
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+https://planb.academy/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
 
 Este panorama le ofrece una visión general del ecosistema actual de distribuciones Linux, lo que le permitirá seleccionar la distribución que mejor se adapte a su perfil técnico y a sus objetivos.
 
@@ -1938,7 +1938,7 @@ Para más información sobre el instalador de Ubuntu, también puedes consultar 
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 Una vez finalizada la instalación, retire la llave USB cuando se le solicite y reinicie. Ubuntu estará ahora instalado y listo para usar en su máquina.
 
@@ -2977,7 +2977,7 @@ sudo apt install thunderbird
 
 
 
-https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
+https://planb.academy/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 #### Paquete ofimático
 
 
@@ -3114,13 +3114,13 @@ Además de estas pocas herramientas básicas, también te recomiendo que instale
 
 
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 Por último, para concluir este capítulo, he aquí algunas buenas prácticas para seguir a diario:
 
@@ -3212,9 +3212,9 @@ Una contraseña compleja es difícil de recordar. Por eso recomiendo utilizar un
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Por último, cambia esta contraseña con regularidad -cada 3 o 6 meses-, especialmente si tu máquina se utiliza en entornos compartidos o móviles.
 
@@ -3314,13 +3314,13 @@ Por último, una de las medidas más importantes que puedes tomar para protegert
 - Las distribuciones Linux no cifran automáticamente el disco, a menos que se seleccione esta opción durante la instalación. Puede utilizar LUKS para cifrar el disco
 
 
-https://planb.network/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
+https://planb.academy/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
 
 En todos los casos, la contraseña de descifrado debe ser segura, distinta de la contraseña del sistema y almacenada en un gestor de contraseñas seguro. Si utilizas un disco externo o una llave USB con datos confidenciales, considera también la posibilidad de cifrarlos individualmente con herramientas como VeraCrypt.
 
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 ### El principio del menor privilegio
 
@@ -3417,7 +3417,7 @@ Esta tecnología se basa en un hipervisor, un programa de software que gestiona 
 ![Image](assets/fr/206.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
+https://planb.academy/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
 
 En términos de seguridad informática, una de las grandes ventajas de las máquinas virtuales es su capacidad de compartimentación. Una máquina virtual no comparte sus archivos, procesos o acceso a la red con el sistema anfitrión, a menos que configure explícitamente estos intercambios. De este modo, si una máquina virtual se infecta con un programa malicioso, o si se prueba software sensible en su interior, el impacto queda confinado a esa máquina virtual: su sistema principal permanece intacto, siempre que se respeten los parámetros de aislamiento (ni directorios compartidos, ni dispositivos USB pasados a la máquina virtual...).
 
@@ -3953,7 +3953,7 @@ En una máquina Linux bien mantenida y utilizada con fines personales, los riesg
 ![Image](assets/fr/218.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
+https://planb.academy/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
 
 #### En macOS
 
@@ -4061,11 +4061,11 @@ Este sistema se basa en la criptografía asimétrica y en herramientas como GnuP
 
 
 
-Para saber más sobre las funciones criptográficas Hash y las firmas digitales, le invito a seguir el curso gratuito CYP 201 que se ofrece en Plan ₿ Network:
+Para saber más sobre las funciones criptográficas Hash y las firmas digitales, le invito a seguir el curso gratuito CYP 201 que se ofrece en Plan ₿ Academy:
 
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### Verificar la integridad y autenticidad del software
 
@@ -4469,7 +4469,7 @@ Con esta configuración, Alice ya está protegida contra muchas amenazas habitua
 
 
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Alice respeta así la regla 3-2-1: tiene 3 copias de sus archivos (ordenador, llave USB, nube), almacenadas en al menos 2 soportes diferentes (disco interno, llave USB, servidor remoto), con al menos 1 copia externa (el servidor en la nube).
 
@@ -4556,7 +4556,7 @@ El cifrado completo es como un candado: mientras no se proporcione la contraseñ
 En Linux, la solución estándar es LUKS (*Linux Unified Key Setup*). LUKS es un sistema de gestión de volúmenes cifrados integrado en la mayoría de las distribuciones. Cuando el sistema se instala por primera vez, generalmente se te pedirá que encriptes todo el disco del ordenador. Por supuesto, te recomiendo encarecidamente que actives esta opción. Una vez activada la encriptación, el sistema pedirá la contraseña en cada arranque, incluso antes de que se cargue el SO. Esto garantiza que el acceso físico al disco no pueda burlar la seguridad.
 
 
-https://planb.network/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
+https://planb.academy/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
 
 Si deseas encriptar un disco externo o una memoria USB, también puedes hacerlo desde la línea de comandos o a través del Interface gráfico. El disco tendrá que formatearse, por lo que todos los datos existentes se perderán si no se hace antes una copia de seguridad.
 
@@ -4832,7 +4832,7 @@ Para saber más sobre esta solución, consulte este completo tutorial :
 
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 
 
@@ -4877,7 +4877,7 @@ Este protocolo es perfecto para intercambiar archivos confidenciales de forma se
 
 Una excelente alternativa es Cryptomator. Este software de código abierto permite crear una caja fuerte: un directorio especial en el que todos los archivos depositados se cifran automáticamente. Esta caja fuerte puede sincronizarse con servicios en la nube como Dropbox, Google Drive o Nextcloud sin que el proveedor tenga nunca acceso a los datos sin cifrar. La aplicación está disponible en todos los sistemas operativos, incluidos Android e iOS, y no requiere conocimientos técnicos especiales para utilizarla.
 
-https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
+https://planb.academy/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 
 
@@ -4885,7 +4885,7 @@ https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253
 
 
 
-https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+https://planb.academy/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
 
 Por último, también es posible utilizar VeraCrypt en modo contenedor, que crea un archivo que actúa como un archivo encriptado, montable como un disco.
 
@@ -4943,18 +4943,18 @@ Para ver todos los metadatos contenidos en un archivo, utilice el siguiente coma
 
 
 ```bash
-exiftool name.jpg
+exiftool name.webp
 ```
 
 
 
-Sustituye `nombre.jpg` por el nombre real de tu archivo. Asegúrate también de que estás situado en el directorio que contiene esta imagen. Por ejemplo, si tengo una foto de la estatua de Satoshi Nakamoto en el directorio `/Downloads`, puedo mostrar sus metadatos ejecutando el siguiente comando:
+Sustituye `nombre.webp` por el nombre real de tu archivo. Asegúrate también de que estás situado en el directorio que contiene esta imagen. Por ejemplo, si tengo una foto de la estatua de Satoshi Nakamoto en el directorio `/Downloads`, puedo mostrar sus metadatos ejecutando el siguiente comando:
 
 
 
 ```bash
 cd Downloads
-exiftool Satoshi-Nakamoto-Lugano.jpeg
+exiftool Satoshi-Nakamoto-Lugano.webp
 ```
 
 
@@ -4991,7 +4991,7 @@ Para eliminar todos los metadatos innecesarios de un archivo, utilice el comando
 
 
 ```bash
-exiftool -all= name.jpg
+exiftool -all= name.webp
 ```
 
 
@@ -5013,7 +5013,7 @@ Si no quieres conservar el original, puedes borrarlo con el comando:
 
 
 ```bash
-exiftool -all= -overwrite_original name.jpg
+exiftool -all= -overwrite_original name.webp
 ```
 
 
@@ -5037,12 +5037,12 @@ Si tiene varios archivos que procesar en el mismo directorio, puede utilizar un 
 
 
 ```bash
-exiftool -all= *.jpeg
+exiftool -all= *.webp
 ```
 
 
 
-Borra los metadatos de todos los archivos JPEG del directorio actual. Puede adaptar la extensión a sus necesidades (`*.png`, `*.pdf`...).
+Borra los metadatos de todos los archivos JPEG del directorio actual. Puede adaptar la extensión a sus necesidades (`*.webp`, `*.pdf`...).
 
 
 
@@ -5580,9 +5580,9 @@ Así que yo no recomendaría usar Google Chrome, ni personal ni profesionalmente
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 #### Valiente
 
@@ -5742,7 +5742,7 @@ Firefox sigue siendo una referencia en materia de seguridad y privacidad, a pesa
 
 
 
-https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
+https://planb.academy/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Navegador Tor
 
 
@@ -5751,7 +5751,7 @@ https://planb.network/tutorials/computer-security/communication/firefox-11814cec
 
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 El inconveniente es una reducción significativa del rendimiento (alta latencia) y una compatibilidad limitada con ciertos sitios web. Tor Browser es ideal para actividades sensibles (periodismo, activismo...), pero menos adecuado para el uso cotidiano.
 
@@ -5765,11 +5765,11 @@ El inconveniente es una reducción significativa del rendimiento (alta latencia)
 
 [Mullvad Browser](https://mullvad.net/en/browser) es el resultado de la colaboración entre la Fundación Tor y Mullvad VPN. Está basado en el navegador Tor, que a su vez deriva de Firefox ESR. Mullvad Browser está diseñado para maximizar la privacidad del usuario. Por defecto, incluye protección avanzada contra huellas digitales, rastreadores y scripts de terceros.
 
-https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
+https://planb.academy/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 Tiene la mayoría de las características de seguridad y privacidad ofrecidas por el Navegador Tor, con una diferencia: no redirige el tráfico a través de la red Tor. Para evitar fugas de IP Address, puedes usarlo en combinación con una VPN (idealmente, Mullvad VPN).
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 Mullvad Browser es una solución excelente si te preocupa tu privacidad, tanto si eres un principiante como un usuario avanzado.
 
@@ -5795,7 +5795,7 @@ Por defecto, LibreWolf activa la configuración de seguridad avanzada de Firefox
 
 
 
-https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+https://planb.academy/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
 
 #### Navegador Zen
 
@@ -5813,7 +5813,7 @@ Desde el punto de vista de la seguridad y la privacidad, Zen cuenta con bloqueo 
 
 Zen Browser es una alternativa interesante si buscas un entorno de navegación Gecko que sea gratuito, innovador, despejado y respetuoso con tu privacidad.
 
-https://planb.network/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
+https://planb.academy/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### Navegadores basados en WebKit
 
@@ -5855,7 +5855,7 @@ Orion ha sido desarrollado íntegramente por el equipo Kagi (conocido por su mot
 
 
 
-https://planb.network/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
+https://planb.academy/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
 ### Navegadores sin motor de renderizado
 
 
@@ -6035,9 +6035,9 @@ Un gestor de contraseñas genera y almacena de forma segura contraseñas seguras
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Utilizar un gestor de contraseñas tiene varias ventajas: simplifica el día a día al eliminar la necesidad de memorizar multitud de contraseñas y minimiza el principal punto débil de la autenticación: el propio usuario.
 
@@ -6047,13 +6047,13 @@ Cuando se trata de autenticación, el uso de un gestor de contraseñas debe comp
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/trezor-u2f-fido2-41d2939e-69b9-4c2e-b836-a2b09de58051
+https://planb.academy/tutorials/computer-security/authentication/trezor-u2f-fido2-41d2939e-69b9-4c2e-b836-a2b09de58051
 
-https://planb.network/tutorials/computer-security/authentication/ledger-fido-u2f-59f8105b-a0cc-4aff-bc56-048a6a42d39f
+https://planb.academy/tutorials/computer-security/authentication/ledger-fido-u2f-59f8105b-a0cc-4aff-bc56-048a6a42d39f
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ### Utilizar una VPN
 
@@ -6087,11 +6087,11 @@ Una buena VPN debe tener una política clara de no-logging, ofrecer tecnologías
 
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
+https://planb.academy/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
 
 Las VPN de alto perfil deben evitarse. A pesar de su agresivo marketing, siguen siendo servicios comerciales centralizados, a menudo basados en jurisdicciones menos protectoras, y raramente transparentes sobre su funcionamiento técnico real.
 
@@ -6626,7 +6626,7 @@ GrapheneOS no integra componentes propietarios. Eres libre de añadir o no servi
 Graphene solo es compatible con los Google Pixel recientes (Pixel 6, 7, 8 y 9).
 
 
-https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.academy/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
 #### CalyxOS
 
@@ -6842,11 +6842,11 @@ Las redes Wi-Fi públicas, como las de cafeterías, hoteles o transportes públi
 Para protegerse, simplemente evite utilizar estas redes públicas, o utilice una VPN, que creará un túnel cifrado entre su dispositivo y un servidor remoto. Este túnel encapsula tus datos, lo que los hace extremadamente difíciles de interceptar o modificar.
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
+https://planb.academy/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
 
 En cuanto a tu red Wi-Fi doméstica, hablaremos de ello en la última parte del curso SCU 202.
 
@@ -6921,7 +6921,7 @@ Hacer copias de seguridad periódicas de los datos de tu smartphone es muy impor
 Para ello, debes utilizar soluciones locales cifradas, como un disco externo o una llave USB cifrada (por ejemplo, con Veracrypt). En su defecto, las soluciones autoalojadas en la nube, como *Syncthing* o *Nextcloud*, te permiten hacer copias de seguridad de tus datos en un servidor personal, manteniendo un control total sobre el acceso y la confidencialidad. A diferencia de los servicios comerciales en la nube (Google Drive, iCloud...), estas soluciones limitan considerablemente la exposición de tu información a terceros.
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 #### Limpieza a distancia
 
@@ -7019,7 +7019,7 @@ Sin embargo, Signal tiene un punto débil en lo que se refiere al anonimato: la 
 En resumen, Signal es una solución de mensajería muy buena, pero desgraciadamente requiere una conexión desde un número de teléfono.
 
 
-https://planb.network/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
+https://planb.academy/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
 
 #### WhatsApp
 
@@ -7042,7 +7042,7 @@ Telegram es un servicio de mensajería muy popular gracias a su ergonomía y sus
 Por lo tanto, Telegram puede acceder técnicamente al contenido de la mayoría de las conversaciones que no están explícitamente protegidas. Aunque la empresa adopte una postura firme frente a las autoridades gubernamentales, Telegram no es una solución óptima para los intercambios confidenciales o sensibles, a menos que utilices explícitamente sus "intercambios secretos", mucho menos prácticos en el día a día.
 
 
-https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
+https://planb.academy/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
 #### Threema
 
@@ -7065,7 +7065,7 @@ Otro aspecto importante de Threema es su modelo de negocio: la aplicación no es
 Esta solución de mensajería me parece excelente, pero su principal inconveniente es que el código fuente de sus servidores sigue siendo propietario.
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
 
 #### Chat SimpleX
 
@@ -7088,7 +7088,7 @@ Los contactos se añaden mediante enlaces temporales o direcciones estáticas (i
 En términos de seguridad y confidencialidad, SimpleX va más allá que la mayoría de los sistemas de mensajería existentes, limitando los metadatos al mínimo y eliminando cualquier dependencia de un directorio central o de un identificador único. Sin embargo, esta arquitectura impone una serie de compromisos en términos de facilidad de uso: ergonomía a veces menos intuitiva, necesidad de una ligera curva de aprendizaje inicial y dependencia de la disponibilidad de servidores de retransmisión.
 
 
-https://planb.network/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
+https://planb.academy/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
 
 #### Sesión
 
@@ -7105,7 +7105,7 @@ Técnicamente, Session implementa el cifrado de extremo a extremo para mensajes,
 El cliente y el servidor de Session son de código abierto. El software está disponible en Android, iOS, Windows, macOS y Linux, con opción de sincronización entre dispositivos mediante la frase Mnemonic, similar a la utilizada en los monederos Bitcoin. Esta frase otorga al usuario el control exclusivo sobre sus datos, pero también le impone una importante responsabilidad en términos de copias de seguridad.
 
 
-https://planb.network/tutorials/computer-security/communication/session-b0e3193c-2129-4f1b-9013-c211210724c3
+https://planb.academy/tutorials/computer-security/communication/session-b0e3193c-2129-4f1b-9013-c211210724c3
 
 #### Tecla
 
@@ -7125,7 +7125,7 @@ Por otro lado, aunque algunos componentes (criptografía y redes) están publica
 Keet está disponible en Android, iOS, Windows, macOS y Linux, y se puede sincronizar entre dispositivos mediante una frase Mnemonic.
 
 
-https://planb.network/tutorials/computer-security/communication/keet-efdb759d-5e94-4bbf-b28c-5fa8669c809b
+https://planb.academy/tutorials/computer-security/communication/keet-efdb759d-5e94-4bbf-b28c-5fa8669c809b
 
 #### Olvid
 
@@ -7162,7 +7162,7 @@ La aplicación está certificada por la ANSSI (*Agencia Nacional de Seguridad de
 Olvid es compatible con Android, iOS, Windows, macOS y Linux. Su ergonomía sigue siendo sencilla y accesible. La aplicación también cuenta con un sistema de copia de seguridad cifrada de claves y contactos, para que puedas restaurar una cuenta en un nuevo dispositivo.
 
 
-https://planb.network/tutorials/computer-security/communication/olvid-05038dc1-62c0-4a47-be4e-3d23c6155bfd
+https://planb.academy/tutorials/computer-security/communication/olvid-05038dc1-62c0-4a47-be4e-3d23c6155bfd
 
 ### Aplicaciones de mensajería que deben evitarse
 
@@ -7260,7 +7260,7 @@ Thunderbird Mobile es la versión móvil del popular cliente de correo electrón
 
 
 
-https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
+https://planb.academy/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 - [Tuta](https://tuta.com/)
 
 
@@ -7502,7 +7502,7 @@ Bitwarden es uno de los gestores de contraseñas de código abierto más complet
 Puedes usar los servidores de Bitwarden, o autoalojarte si quieres para tener un control total. Su Interface móvil es claro y fluido, con una integración perfecta en el sistema Android o iOS.
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 
 - [KeePassDX](https://www.keepassdx.com/)
@@ -7517,7 +7517,7 @@ KeePass es un gestor de contraseñas histórico basado en archivos locales encri
 También existe [KeePassium](https://keepassium.com/) para iOS, una aplicación bien integrada en el ecosistema Apple, compatible con el formato KeePass y de código abierto. Otra alternativa iOS para un cliente KeePass es Strongbox, pero este software no es de código abierto desde hace varios años.
 
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 
 - [Proton Pass](https://proton.me/pass)
@@ -7548,7 +7548,7 @@ Sin embargo, no todas las VPN son iguales. Servicios populares como NordVPN o Ex
 Mullvad es una de las mejores VPN en términos de protección de la privacidad. No requiere correo electrónico ni contraseña: tu cuenta está vinculada a un simple número aleatorio. El pago puede hacerse en bitcoins o en efectivo. El cliente móvil es de código abierto, fácil de usar y potente. Mullvad no guarda registros, no rastrea a sus usuarios y publica regularmente auditorías de seguridad independientes.
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 
 - [IVPN](https://www.ivpn.net/)
@@ -7557,7 +7557,7 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 IVPN es otra excelente alternativa centrada en la privacidad. Ofrece un Interface móvil sencillo y eficaz, no recopila registros y permite el registro anónimo. También se puede pagar en bitcoins. La aplicación incorpora un cortafuegos que bloquea todo el tráfico no VPN, lo que puede ser muy útil en un smartphone. Los clientes son de código abierto.
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
 
 - [Proton VPN](https://protonvpn.com/)
@@ -7595,7 +7595,7 @@ Aegis es una completa aplicación de código abierto. Cifra tu base de datos 2FA
 Ente Auth es una solución moderna, de código abierto y multiplataforma con copias de seguridad cifradas de extremo a extremo. Te permite sincronizar tus códigos 2FA de forma segura en móvil, escritorio y web. También puede utilizarla sin conexión, sin copias de seguridad en la nube ni creación de cuentas.
 
 
-https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
+https://planb.academy/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 Ente Auth ofrece muchas funciones adicionales: Organización por etiquetas, iconos personalizados para cada servicio, notas, favoritos, búsqueda integrada, compartición segura de códigos de equipo.
 
 
@@ -7609,13 +7609,13 @@ Ente Auth ofrece muchas funciones adicionales: Organización por etiquetas, icon
 Authy ofrece sincronización 2FA a través de múltiples dispositivos, lo que puede ser útil, pero la aplicación no es de código abierto y requiere un número de teléfono para el registro. Para los principiantes, sin embargo, es más completa que Google Authenticator, gracias en particular a su función de copia de seguridad en la nube.
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
+https://planb.academy/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 Si quieres saber más sobre gestores de contraseñas, autenticación 2FA y VPN, te recomiendo que leas los capítulos dedicados en el curso SCU-101:
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 ### Tiempo
 
@@ -8267,7 +8267,7 @@ Como descubrimos en el capítulo anterior, asegurar tu red doméstica es muy imp
 Tras repasar los fundamentos teóricos, este capítulo le guiará a través de pasos claros, prácticos y eficaces para mejorar la seguridad de su red local.
 
 
-*Nota: La información que aquí se ofrece es de carácter general, ya que Plan ₿ Network está dirigida a un público internacional. Dependiendo de sus circunstancias locales y de su proveedor de servicios de Internet, es posible que algunas de las mejores prácticas no se mencionen aquí, o que se apliquen de forma diferente.*
+*Nota: La información que aquí se ofrece es de carácter general, ya que Plan ₿ Academy está dirigida a un público internacional. Dependiendo de sus circunstancias locales y de su proveedor de servicios de Internet, es posible que algunas de las mejores prácticas no se mencionen aquí, o que se apliquen de forma diferente.*
 
 
 ### Elegir y proteger los equipos de red
@@ -8305,9 +8305,9 @@ Si su router ya no se mantiene pero aún funciona correctamente desde el punto d
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 Estos sistemas permiten un control más preciso de las reglas del cortafuegos, las conexiones salientes y entrantes, la segmentación de la red (VLAN) y la gestión de DNS, pero están más dirigidos a usuarios avanzados.
 
@@ -8344,9 +8344,9 @@ Por lo tanto, es imperativo que cambie sus identificadores inmediatamente despu�
 Esta contraseña debe ser larga (40 caracteres), compleja (números, minúsculas, mayúsculas y símbolos), única (no reutilizable en otros sitios) y aleatoria. Evidentemente, recomiendo utilizar un gestor de contraseñas para generate y almacenar estas credenciales de forma segura.
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Atención: no confunda la contraseña de administración del router (que protege el acceso a su configuración) con la contraseña Wi-Fi (que le permite conectarse a la red inalámbrica). Se trata de dos Elements diferentes, y ambas deben cambiarse.
 
@@ -8384,7 +8384,7 @@ Originalmente diseñado para simplificar la conexión de dispositivos a Wi-Fi si
 Algunos routers permiten conectarse a su administración Interface desde el exterior, a través de Internet. Esta característica aumenta desmesuradamente la superficie de ataque de su router. Desactívela por completo, a menos que tenga una necesidad específica de gestión remota. Incluso entonces, utilice siempre una VPN.
 
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 
 - **Protocolos obsoletos o inseguros**:
@@ -8505,7 +8505,7 @@ En la práctica, el cifrado DNS y la conmutación de servidores pueden aplicarse
 
 
 
-https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
+https://planb.academy/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - A nivel de sistema operativo: Algunos sistemas operativos integran de forma nativa soporte DNS cifrado (DoT o DoH), que asegura todas las peticiones DNS que pasan por la pila de red del sistema. Sin embargo, esto no asegura todo el ordenador o el teléfono: Las aplicaciones pueden eludir este ajuste si están configuradas para utilizar un resolver DNS o protocolo diferente.
 
 
@@ -8520,7 +8520,7 @@ Además, los módems router suministrados por los ISP no siempre admiten estas f
 Para ir un paso más allá, también puede configurar una solución de filtrado DNS local como Pi-hole o AdGuard Home.
 
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
 Estas herramientas actúan como un pequeño servidor DNS dentro de su red, bloqueando las peticiones a dominios conocidos por albergar publicidad, rastreadores de navegador, phishing o sitios maliciosos. Estas herramientas también te permiten crear tus propias listas de bloqueo o personalizar el filtrado en función de los dispositivos conectados.
 
@@ -8541,19 +8541,19 @@ Las dos soluciones principales para clientes privados son:
 - WireGuard: Moderno, rápido y ligero
 - OpenVPN: más antiguo, pero muy maduro y configurable
 
-https://planb.network/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
+https://planb.academy/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
 
 Aquí tienes un tutorial completo sobre Tailscale, una solución VPN fácil de configurar que utiliza WireGuard:
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 Puedes alojar esta VPN directamente en un router compatible, en un ordenador pequeño (como una Raspberry Pi) o en un servidor dedicado en casa. También puedes instalarla como cliente directamente en cualquier dispositivo.
 
 Pero una VPN no sólo sirve para acceder a distancia. También puedes utilizar un cliente VPN clásico en tus dispositivos para cifrar todo tu tráfico saliente, incluso cuando estés fuera de casa (Wi-Fi pública, hotel, universidad, etc.). En este caso, tu dispositivo se conecta a un servidor VPN de terceros (comercial o autoalojado), que retransmite tus conexiones a Internet. Esto oculta tu IP Address real al proveedor de Internet, protege tus datos del espionaje local y evita ciertas formas de censura.
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
 Por último, también es posible configurar una VPN directamente en tu router, lo que te permitirá proteger todos los dispositivos de tu casa sin tener que instalar un cliente VPN en cada uno de ellos.
 
@@ -8563,17 +8563,17 @@ Una vez que la red se ha configurado y segmentado correctamente, es importante i
 
 El primer paso es centralizar los registros de seguridad. Cada dispositivo conectado a la red genera registros que contienen información sobre conexiones, errores o actividades sospechosas. En lugar de consultar estos registros individualmente, recomiendo enviarlos a un servidor capaz de agruparlos, ordenarlos y analizarlos. Soluciones como Graylog o Elastic Stack (ELK) permiten agregar estos registros en un Interface gráfico donde se pueden buscar eventos específicos, crear alertas o visualizar la actividad de la red.
 
-https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
+https://planb.academy/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
 
 A continuación, realiza escaneos activos regulares de tu red local, por ejemplo con Nmap. Esto te dará una visión general de todos los dispositivos de tu red y de los puertos que tienen abiertos. Si identificas un dispositivo desconocido o un servicio inusual, podría ser señal de un ataque.
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 Para ir aún más lejos, puedes instalar un IDS (*Intrusion Detection System*), o incluso un IPS (*Intrusion Prevention System*). Estas herramientas, como Suricata o Snort, supervisan los flujos de red en tiempo real y detectan firmas de ataques conocidos (escaneos de puertos, inyecciones, conexiones sospechosas, etc.). El IDS avisa, mientras que el IPS puede bloquear automáticamente determinadas acciones.
 
 Por último, vigilar el consumo de ancho de banda también es un buen indicador de actividad anormal. Si un dispositivo consume de repente muchos datos sin motivo aparente, esto puede delatar una descarga no autorizada, una fuga de datos o incluso un dispositivo comprometido. Herramientas como ntopng o vnStat permiten ver los flujos entrantes y salientes por dispositivo.
 
-https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
+https://planb.academy/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
 
 ### Copia de seguridad y resistencia
 

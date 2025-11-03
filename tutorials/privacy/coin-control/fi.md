@@ -51,7 +51,7 @@ Bitcoin-protokollassa ei ole sellaisia nimikkeitä kuin _tili_ tai _rahayksiköt
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 Bitcoin:n avulla keräät ja myöhemmin kulutat pieniä tai suuria tiliyksiköitä, jotka mitataan Satoshi:ssä ja joita edustavat "käyttämättömät transaktiotulokset", **UTXO**, joita kutsutaan myös "kolikoiksi". Kun käytät UTXO:ita transaktion luomiseen, ne tuhoutuvat kokonaan ja niiden tilalle luodaan muita UTXO:ita.
 
@@ -568,7 +568,7 @@ Coin-ohjaus on erittäin tehokas tapa valita transaktiosyötteet. Manuaalinen va
 
 
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Olemme aiemmin puhuneet "jäännösten erottelusta". Jos haluat lukita jäännökset myöhempää käsittelyä varten ja saada takaisin yksityisyyden (swap Layer 2), sinun on huolehdittava siitä, että ne "merkitään" aina, kun saat yhden jäännöksen. Tähän mennessä nähdyistä ohjelmistolompakoista vain Electrum värittää UTXO-jäämät graafisesti, jotta ne näkyisivät yhdellä silmäyksellä. Muut, kuten Sparrow, näyttävät yksittäisen UTXO:n johdannaispolun ketjun (`m/84'/0'/0'/0'/1/11`).
 

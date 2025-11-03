@@ -42,7 +42,7 @@ Nmap よりも包括的ではないが、**Angry IP** Scanner は素早く基本
 
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 ## II.Angry IP Scannerを使い始める
 
@@ -181,4 +181,4 @@ IPサブネットをスキャンするには、"**IP range**"フィールドに*
 
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d

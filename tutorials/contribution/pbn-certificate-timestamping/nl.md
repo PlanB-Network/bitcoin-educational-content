@@ -1,6 +1,6 @@
 ---
-name: Tijdstempel van Plan ₿ Network diploma's
-description: Begrijpen hoe Plan ₿ Network verifieerbare bewijzen afgeeft voor je certificaten en diploma's
+name: Tijdstempel van Plan ₿ Academy diploma's
+description: Begrijpen hoe Plan ₿ Academy verifieerbare bewijzen afgeeft voor je certificaten en diploma's
 ---
 
 ![cover](assets/cover.webp)
@@ -9,13 +9,13 @@ description: Begrijpen hoe Plan ₿ Network verifieerbare bewijzen afgeeft voor 
 Als je dit leest, is de kans groot dat je een ₿-CERT testcertificaat of een diploma van voltooiing hebt ontvangen voor een van de cursussen die je hebt gevolgd op planb.network, dus gefeliciteerd met deze prestatie!
 
 
-In deze tutorial zullen we ontdekken hoe Plan ₿ Network verifieerbare bewijzen afgeeft voor je ₿-CERT-testcertificaat of elk diploma voor het voltooien van een cursus. Vervolgens beschrijven we in een tweede deel hoe je de echtheid van deze bewijzen kunt verifiëren.
+In deze tutorial zullen we ontdekken hoe Plan ₿ Academy verifieerbare bewijzen afgeeft voor je ₿-CERT-testcertificaat of elk diploma voor het voltooien van een cursus. Vervolgens beschrijven we in een tweede deel hoe je de echtheid van deze bewijzen kunt verifiëren.
 
 
-# Plan ₿ Network bewijsmechanisme
+# Plan ₿ Academy bewijsmechanisme
 
 
-Op Plan ₿ Network ondertekenen we certificaten en diploma's cryptografisch en voorzien we ze van een tijdstempel met behulp van de Timechain (d.w.z. Bitcoin blockchain), via een bewijsmechanisme dat berust op twee cryptografische operaties:
+Op Plan ₿ Academy ondertekenen we certificaten en diploma's cryptografisch en voorzien we ze van een tijdstempel met behulp van de Timechain (d.w.z. Bitcoin blockchain), via een bewijsmechanisme dat berust op twee cryptografische operaties:
 
 
 1. Een GPG-handtekening op een tekstbestand dat je prestaties samenvat
@@ -31,13 +31,13 @@ Wij geloven dat dit eenvoudige bewijsmechanisme ons in staat stelt om certificat
 ![image](./assets/proof-mechanism.webp)
 
 
-Dankzij dit bewijsmechanisme zal elke poging om zelfs maar het kleinste detail van je certificaat of diploma te veranderen, resulteren in een compleet andere SHA-256 hash van het ondertekende bestand, wat onmiddellijk elke manipulatie onthult, aangezien zowel de handtekening als de tijdstempel niet langer geldig zijn. Bovendien, als iemand probeert om certificaten of diploma's te vervalsen in naam van Plan ₿ Network, zal een eenvoudige verificatie van de handtekening de fraude aan het licht brengen.
+Dankzij dit bewijsmechanisme zal elke poging om zelfs maar het kleinste detail van je certificaat of diploma te veranderen, resulteren in een compleet andere SHA-256 hash van het ondertekende bestand, wat onmiddellijk elke manipulatie onthult, aangezien zowel de handtekening als de tijdstempel niet langer geldig zijn. Bovendien, als iemand probeert om certificaten of diploma's te vervalsen in naam van Plan ₿ Academy, zal een eenvoudige verificatie van de handtekening de fraude aan het licht brengen.
 
 
 ## Hoe werkt de GPG-handtekening?
 
 
-De GPG handtekening wordt gegenereerd met behulp van open-source software genaamd GNU Privacy Guard. Met deze software kunnen gebruikers eenvoudig privésleutels aanmaken, ondertekenen en handtekeningen verifiëren, en bestanden versleutelen en ontsleutelen. Voor deze tutorial is het belangrijk op te merken dat Plan ₿ Network GPG gebruikt om haar private/publieke sleutels te maken en om alle ₿-CERT Certificaten en Diploma's van cursus voltooiing te ondertekenen.
+De GPG handtekening wordt gegenereerd met behulp van open-source software genaamd GNU Privacy Guard. Met deze software kunnen gebruikers eenvoudig privésleutels aanmaken, ondertekenen en handtekeningen verifiëren, en bestanden versleutelen en ontsleutelen. Voor deze tutorial is het belangrijk op te merken dat Plan ₿ Academy GPG gebruikt om haar private/publieke sleutels te maken en om alle ₿-CERT Certificaten en Diploma's van cursus voltooiing te ondertekenen.
 
 
 Aan de andere kant, als iemand de authenticiteit van een ondertekend bestand wil verifiëren, kan hij GPG gebruiken om de publieke sleutel van de uitgever te importeren en te verifiëren.
@@ -56,7 +56,7 @@ OpenTimestamps levert deze service gratis door gebruik te maken van een zeer eff
 Als deze transactie eenmaal in een blok zit, kan iedereen met het initiële bestand en het bijbehorende `.ots`-bestand de echtheid van de tijdstempels verifiëren. In het tweede deel van de tutorial zullen we zien hoe je je Bitcoin Certificaat of een Diploma van cursus voltooiing kunt verifiëren via een teminal en via een grafische interface op de website van OpenTimestamps.
 
 
-# Hoe een Plan ₿ Network ₿-CERT-certificaat of -diploma verifiëren
+# Hoe een Plan ₿ Academy ₿-CERT-certificaat of -diploma verifiëren
 
 
 ## Stap 1. Download je certificaat of diploma
@@ -95,11 +95,11 @@ Pak de inhoud uit door met de rechtermuisknop op het `.zip` bestand te klikken e
 Ga eerst naar de map waar je de bestanden hebt uitgepakt en open een terminal (klik met de rechtermuisknop op het mapvenster en klik op "Open in Teminal"). Volg dan de onderstaande instructies.
 
 
-1. Importeer de Plan ₿ Network publieke PGP-sleutel met het volgende commando:
+1. Importeer de Plan ₿ Academy publieke PGP-sleutel met het volgende commando:
 
 
 ```bash
-curl -s https://raw.githubusercontent.com/Asi0Flammeus/pgp-public-keys/master/planb-network-pk.asc | gpg --import
+curl -s https://raw.githubusercontent.com/Asi0Flammeus/pgp-public-keys/master/Plan ₿ Academy-pk.asc | gpg --import
 ```
 
 
@@ -107,7 +107,7 @@ Je zou een bericht als het volgende moeten zien als je de PGP-sleutel met succes
 
 
 ```
-gpg: key 8F12D0C63B1A606E: public key "PlanB Network (used for PBN platform) <admin@planb.network>" imported
+gpg: key 8F12D0C63B1A606E: public key "Plan ₿ Academy (used for Plan ₿ Academy platform) <admin@planb.network>" imported
 gpg: Total number processed: 1
 gpg:               imported: 1
 ```
@@ -128,7 +128,7 @@ Dit commando zou je details over de handtekening moeten laten zien, inclusief:
 
 
 
-- Wie ondertekende het (Plan ₿ Network)
+- Wie ondertekende het (Plan ₿ Academy)
 - Wanneer het werd ondertekend
 - Of de handtekening geldig is of niet
 
@@ -140,7 +140,7 @@ Dit is een voorbeeld van het resultaat:
 gpg: Signature made lun 11 nov 2024, 00:39:04 CET
 gpg:                using RSA key 5720CD577E7894C98DBD580E8F12D0C63B1A606E
 gpg:                issuer "admin@planb.network"
-gpg: Good signature from "PlanB Network (used for PBN platform) <admin@planb.network>" [unknown]
+gpg: Good signature from "Plan ₿ Academy (used for Plan ₿ Academy platform) <admin@planb.network>" [unknown]
 ```
 
 
@@ -210,9 +210,9 @@ Deze opdracht zal:
 De verificatie is geslaagd als **beide** van de volgende berichten worden weergegeven:
 
 
-1. De GPG-handtekening wordt gerapporteerd als **"Good signature from Plan ₿ Network"**
+1. De GPG-handtekening wordt gerapporteerd als **"Good signature from Plan ₿ Academy"**
 
 2. De OpenTimestamps verificatie toont een specifiek Bitcoin Timestamp blok  en rapporteert **"Success! Bitcoin block [blockheight] attests data existed as of [timestamp]"**
 
 
-Nu je weet hoe Plan ₿ Network verifieerbare bewijzen afgeeft voor elk ₿-CERT Certificaat en Diploma, en kan je de integriteit ervan eenvoudig verifiëren.
+Nu je weet hoe Plan ₿ Academy verifieerbare bewijzen afgeeft voor elk ₿-CERT Certificaat en Diploma, en kan je de integriteit ervan eenvoudig verifiëren.

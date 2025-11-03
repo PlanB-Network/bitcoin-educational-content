@@ -24,7 +24,7 @@ def process_profile_image(source_path, dest_path):
         else:
             shutil.copy(source_path, dest_path)
 
-def create_tutorial_files(base, section_name, tutorial_name, language_code, project_id, tags, category_value, level_value, professor_id, contributor_id, credit_link=None):
+def create_tutorial_files(base, section_name, tutorial_name, language_code, project_id, tags, category_value, level_value, professor_id, contributor_id, credit_link=None, licence="CC-BY-SA-V4"):
     """
     Create files required for a new tutorial.
     """
@@ -83,6 +83,8 @@ description:
         f"level: {level_value}",
         "",
         f"professor_id: {professor_id}",
+        "",
+        f"licence: {licence}",
         "",
         "# Proofreading metadata",
         "",
@@ -143,13 +145,14 @@ def create_language_yaml(language_code, bio, short_bio):
     ]
     return "\n".join(lines)
 
-def create_project_yaml(project_uuid, project_name, website, twitter, category, tags, language_code, current_date, global_contributor):
+def create_project_yaml(project_uuid, project_name, website, twitter, category, tags, language_code, current_date, global_contributor, licence="CC-BY-SA-V4"):
     """
     Generate the content for project.yml.
     'global_contributor' is the GitHub Contributor's ID from HOME.
     """
     lines = [
         f"id: {project_uuid}",
+        "",
         f"name: {project_name}",
         "",
     ]
@@ -170,6 +173,8 @@ def create_project_yaml(project_uuid, project_name, website, twitter, category, 
     lines.append("tags:")
     for t in tags:
         lines.append(f"  - {t}")
+    lines.append("")
+    lines.append(f"licence: {licence}")
     lines.append("")
     lines.append("# Proofreading metadata")
     lines.append(f"original_language: {language_code}")

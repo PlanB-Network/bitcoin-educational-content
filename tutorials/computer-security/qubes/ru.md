@@ -101,7 +101,7 @@ Qubes OS также обеспечивает полную прозрачност
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+https://planb.academy/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
 
 Вместо того чтобы стремиться создать непроницаемую систему, Qubes OS фокусируется на устойчивости: она инкапсулирует ущерб в случае компрометации, снижая риск для остальной части системы. Такой прагматичный подход делает Qubes OS предпочтительным выбором для пользователей с высокими требованиями к безопасности или желающих сохранить максимальный контроль над своей цифровой жизнью.
 
@@ -126,7 +126,7 @@ https://planb.network/tutorials/computer-security/operating-system/whonix-06f917
 
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ![0_01](assets/fr/01.webp)
 
@@ -327,4 +327,4 @@ Qubes OS также позволяет создать **qube, предназна
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

@@ -45,7 +45,7 @@ RGB ugovor je strukturiran kao evoluciona mašina stanja. Počinje sa Genesis ko
 Da biste saznali više o tome kako funkcioniše RGB protokol, preporučujem da pohađate ovaj sveobuhvatan kurs obuke:
 
 
-https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 
 ## Instalacija Lightning čvora kompatibilnog sa RGB
 
@@ -302,7 +302,7 @@ Naravno, možete prilagoditi redosled. Da bismo potvrdili transakciju, mi iskopa
 ```
 
 
-Sada možemo kreirati RGB sredstvo. Komanda će zavisiti od tipa sredstva koje želite da kreirate i njegovih parametara. Ovde kreiram NIA (*Non Inflatable Asset*) token nazvan "PBN" sa ponudom od 1000 jedinica. `precision` vam omogućava da definišete deljivost jedinica.
+Sada možemo kreirati RGB sredstvo. Komanda će zavisiti od tipa sredstva koje želite da kreirate i njegovih parametara. Ovde kreiram NIA (*Non Inflatable Asset*) token nazvan "Plan ₿ Academy" sa ponudom od 1000 jedinica. `precision` vam omogućava da definišete deljivost jedinica.
 
 
 ```bash
@@ -311,8 +311,8 @@ curl -X POST -H "Content-Type: application/json" \
 "amounts": [
 1000
 ],
-"ticker": "PBN",
-"name": "Plan B Network",
+"ticker": "Plan ₿ Academy",
+"name": "Plan ₿ Academy",
 "precision": 0
 }' \
 http://localhost:3001/issueassetnia
@@ -360,7 +360,7 @@ Komanda vraća javni ključ mog čvora br. 2 :
 ![RLN](assets/fr/13.webp)
 
 
-Dalje, otvorićemo kanal specificiranjem relevantne imovine (`PBN`). Komanda `/openchannel` vam omogućava da definišete veličinu kanala u satoshijima i opcionalno uključite RGB imovinu. Zavisi od toga šta želite da kreirate, ali u mom slučaju, komanda je :
+Dalje, otvorićemo kanal specificiranjem relevantne imovine (`Plan ₿ Academy`). Komanda `/openchannel` vam omogućava da definišete veličinu kanala u satoshijima i opcionalno uključite RGB imovinu. Zavisi od toga šta želite da kreirate, ali u mom slučaju, komanda je :
 
 
 ```bash
@@ -408,7 +408,7 @@ Da bi se potvrdila transakcija, 6 blokova se rudari:
 ![RLN](assets/fr/15.webp)
 
 
-Lightning kanal je sada otvoren i takođe sadrži 500 `PBN` tokena na strani čvora n°1. Ako čvor n°2 želi da primi `PBN` tokene, mora generisati i fakturu. Evo kako to uraditi:
+Lightning kanal je sada otvoren i takođe sadrži 500 `Plan ₿ Academy` tokena na strani čvora n°1. Ako čvor n°2 želi da primi `Plan ₿ Academy` tokene, mora generisati i fakturu. Evo kako to uraditi:
 
 
 ```bash
@@ -445,7 +445,7 @@ lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87e
 ![RLN](assets/fr/16.webp)
 
 
-Sada ćemo platiti ovu fakturu sa prvog čvora, koji drži potreban novac sa `PBN` tokenom:
+Sada ćemo platiti ovu fakturu sa prvog čvora, koji drži potreban novac sa `Plan ₿ Academy` tokenom:
 
 
 ```bash
@@ -499,4 +499,4 @@ Ako ste našli ovaj vodič korisnim, bio bih veoma zahvalan ako kliknete na zele
 Preporučujem i ovaj drugi vodič u kojem objašnjavam kako koristiti alat RGB CLI razvijen od strane LNP/BP udruženja za kreiranje RGB ugovora:
 
 
-https://planb.network/tutorials/node/others/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4
+https://planb.academy/tutorials/node/others/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4

@@ -19,7 +19,7 @@ Neste tutorial, gostaria de vos apresentar uma dessas soluções: o **COLDCARD Q
 ---
 Como o COLDCARD Q oferece uma multiplicidade de funções, proponho dividir a sua utilização em 2 tutoriais. Neste primeiro tutorial, veremos a configuração inicial e as funções básicas do dispositivo. Depois, num segundo tutorial, veremos como tirar partido de todas as opções avançadas do seu COLDCARD.
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
 
 ---
 ## Apresentação do COLDCARD Q
@@ -81,7 +81,7 @@ Se preferir alimentar o seu COLDCARD sem o ligar a um computador (air-gap), insi
 
 Para este tutorial, também vai precisar da Sparrow Wallet para gerir a sua carteira Bitcoin no seu computador. Descarregue a [Sparrow Wallet] (https://sparrowwallet.com/download/) a partir do site oficial. Aconselho-o vivamente a verificar a sua autenticidade (com GnuPG) e integridade (via hash) antes de prosseguir com a instalação. Se não sabe como o fazer, siga este tutorial:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## Seleção do código PIN
 
@@ -161,7 +161,7 @@ Neste ponto, recomendamos vivamente que verifique a integridade e autenticidade 
 
 Se não estiver familiarizado com este processo de verificação, recomendo que siga este tutorial:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Pegue num cartão microSD e transfira para ele o ficheiro de firmware (documento em `.dfu`). Insira o cartão microSD numa das portas do seu COLDCARD.
 
@@ -201,7 +201,7 @@ Neste menu, encontrará várias opções de personalização, como a definição
 
 Veremos outras definições avançadas no próximo tutorial:
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
 
 ## Criar uma carteira Bitcoin
 
@@ -332,7 +332,7 @@ Antes de receberes os teus primeiros bitcoins na tua carteira, **aconselho-te vi
 
 Para saber mais sobre como efetuar um teste de recuperação, sugiro que consulte este outro tutorial:
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Receber bitcoins
 
@@ -384,7 +384,7 @@ Pode agora adicionar um "*Label*" para descrever a origem dos bitcoins que serã
 
 Para mais informações sobre etiquetagem, recomendo também este outro tutorial:
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Pode então utilizar este endereço para receber bitcoins.
 
@@ -484,4 +484,4 @@ Se achou este tutorial útil, ficaria muito grato se deixasse um polegar verde a
 
 Também recomendo que dê uma vista de olhos a este outro tutorial no qual abordamos as opções avançadas do COLDCARD Q :
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0

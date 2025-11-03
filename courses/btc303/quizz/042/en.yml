@@ -1,0 +1,8 @@
+question: What was the primary reason Shaolinfry proposed the User Activated Soft Fork (UASF) mechanism during the Segwit upgrade process?
+answer: Miners were not signaling support for Segwit despite overwhelming user support, creating a stalemate
+wrong_answers:
+  - The existing soft fork mechanism was too slow and required a faster activation timeline
+  - Hard forks were considered too risky and a new soft fork method was needed for safety
+  - The Bitcoin Core developers requested an alternative to reduce their responsibility in upgrades
+explanation: |
+  According to the chapter, when Segwit activation code was released in October 2016, there was overwhelming support among Bitcoin users, but miners didn't signal support for the upgrade, which stalled activation with no resolution in sight. This created the need for an alternative mechanism that didn't rely on miner signaling, leading Shaolinfry to propose UASF as a solution that would use economic majority enforcement instead of hash power activation.

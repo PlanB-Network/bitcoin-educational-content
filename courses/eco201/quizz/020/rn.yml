@@ -1,13 +1,11 @@
-question: Nk’uko abahinga mu vy’ubutunzi bo muri Otirishiya babivuga, ni igiki kiva ku bantu ku giti cabo bize cane igikorwa cabo kandi bagakora ibikorwa vyo guhanahana amakuru?
-answer: Abantu ku giti cabo bama barushiriza kugira neza.
+question: Nk’uko abahinga mu vy’ubutunzi bo muri Otirishi babivuga, ni igiki kiva mukunonosora igikorwa cabo kandi hamwe n'ukuja mu bikorwa vyo guhanahana amakuru canke kuvugana n'abandi?
+answer: Abantu bama barushiriza kuba neza.
 wrong_answers:
-  - Abantu ku giti cabo bama ari babi kuruta.
-  - Nta mpinduka ibaho mu mibereho y’abantu ku giti cabo.
-  - Ico bivamwo kiratandukanye bivanye n’umuntu ku giti ciwe.
+  - Abantu bama ari babi kuruta.
+  - Nta mpinduka ibaho mu mibereho y’abantu.
+  - Ico bivamwo kiratandukanye bivanye n’umuntu.
 explanation: |
-  Nk’uko abahinga mu vy’ubutunzi bo muri Otirishiya babivuga, ingaruka z’abantu ku giti cabo .
-  kwihariza cane igikorwa cabo no kwifatanya mu guhanahana amakuru ni .
-  ko bama bafise ivyiza kuruta. Ivyo ni kubera ko .
-  ubuhinga bwihariye na Exchange bituma abantu bashobora gushika ku rugero rwo hejuru
-  akamaro kavyo k’umuntu ku giti ciwe.
+  Nk’uko abahinga mu vy’ubutunzi bo muri Otirishi babivuga, ingaruka zishikira abantu mukunonosora akazi canke igikorwa cabo
+  no kwifatanya n'abandi mubiyago canke mu guhanahana amakuru ni .
+  ko bama bafise ivyiza kuruta. Ivyo ni kubera ko kunonosora na kuyaga bituma abantu bashobora gushika ku rugero rwo hejuru cane muvyo bakora bakaba n'abikimazi mugikorwa cabo.
 reviewed: true

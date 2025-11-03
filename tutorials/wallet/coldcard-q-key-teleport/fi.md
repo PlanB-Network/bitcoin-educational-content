@@ -95,7 +95,7 @@ Näytölle luodaan QR-koodi. Jälleen kerran sinun on välitettävä tämä QR-k
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 *Meillä on tällä hetkellä:*
 
@@ -145,7 +145,7 @@ Sinua pyydetään nyt valitsemaan kahden ColdCardQ:n välillä siirrettävien sa
 
 
 
-Tässä salaisuutemme on lyhyt viesti valitsemalla **"Pikatekstiviesti "**. Kirjoita viestisi (meille "PlanB Network rocks") ja paina sitten **"ENTER "**.
+Tässä salaisuutemme on lyhyt viesti valitsemalla **"Pikatekstiviesti "**. Kirjoita viestisi (meille "Plan ₿ Academy rocks") ja paina sitten **"ENTER "**.
 
 
 Tämän jälkeen laite luo uuden satunnaisen salasanan nimeltä **"Teleport Password "** , esimerkissä "NE XG BT SK".
@@ -190,7 +190,7 @@ Paina **"QR "**-painiketta skannataksesi lähettävän laitteen visio-kanavan ka
 
 
 
-Tämän jälkeen tiedot puretaan ja tehdään ymmärrettäviksi vastaanottavalle laitteelle. Vastaanotettu viesti on todellakin "PlanB Network rocks". Siinä kaikki.
+Tämän jälkeen tiedot puretaan ja tehdään ymmärrettäviksi vastaanottavalle laitteelle. Vastaanotettu viesti on todellakin "Plan ₿ Academy rocks". Siinä kaikki.
 
 
 

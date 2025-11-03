@@ -1,6 +1,6 @@
 ---
 name: Korrekturläsning eller granskning av innehåll
-description: Hur kan du delta i korrekturläsning/granskning av utbildningsinnehåll på Plan ₿ Network?
+description: Hur kan du delta i korrekturläsning/granskning av utbildningsinnehåll på Plan ₿ Academy?
 ---
 ![github](assets/cover.webp)
 
@@ -8,7 +8,7 @@ description: Hur kan du delta i korrekturläsning/granskning av utbildningsinneh
 ## Sammanfattning
 
 
-Om du vill korrekturläsa eller granska innehåll för Plan ₿ Network, gå med i [vår Telegramgrupp] (https://t.me/PlanBNetwork_ContentBuilder) som är avsedd för bidrag. Presentera dig själv kort och ange sedan vilket innehåll du vill granska och vilket språk det gäller. Gör dina korrigeringar på en arbetsgren och skicka in en PR när din granskning är klar.
+Om du vill korrekturläsa eller granska innehåll för Plan ₿ Academy, gå med i [vår Telegramgrupp] (https://t.me/PlanBNetwork_ContentBuilder) som är avsedd för bidrag. Presentera dig själv kort och ange sedan vilket innehåll du vill granska och vilket språk det gäller. Gör dina korrigeringar på en arbetsgren och skicka in en PR när din granskning är klar.
 
 
 Om du inte förstod delen ovan, oroa dig inte - den här handledningen är för dig!
@@ -16,19 +16,19 @@ Om du inte förstod delen ovan, oroa dig inte - den här handledningen är för 
 
 ---
 
-## Vad är Plan ₿ Network?
+## Vad är Plan ₿ Academy?
 
 
-Plan ₿ Network är en plattform för att lära sig om Bitcoin genom många kurser och självstudier för alla. För närvarande är allt vårt innehåll öppen källkod, finns i ett GitHub-arkiv och är öppet för bidrag för granskning och innehållsskapande.
+Plan ₿ Academy är en plattform för att lära sig om Bitcoin genom många kurser och självstudier för alla. För närvarande är allt vårt innehåll öppen källkod, finns i ett GitHub-arkiv och är öppet för bidrag för granskning och innehållsskapande.
 
 
-Plan ₿ Network strävar efter att bli det offentliga torget i Bitcoin-cyberspace, genom att ansluta och uppmuntra Bitcoin-grupper över hela världen.
+Plan ₿ Academy strävar efter att bli det offentliga torget i Bitcoin-cyberspace, genom att ansluta och uppmuntra Bitcoin-grupper över hela världen.
 
 
 ## Varför bidra?
 
 
-Plan ₿ Network är i grunden flerspråkig, eftersom vårt mål är att göra Bitcoin-resurser tillgängliga för alla i hela världen. Vi anser att språk inte ska vara ett hinder för suveräna pengar.
+Plan ₿ Academy är i grunden flerspråkig, eftersom vårt mål är att göra Bitcoin-resurser tillgängliga för alla i hela världen. Vi anser att språk inte ska vara ett hinder för suveräna pengar.
 
 
 För att uppnå detta använder vi en Human x AI-strategi. Genom vårt [program] (https://github.com/Asi0Flammeus/LLM-Translator) kan vi automatiskt översätta vårt innehåll till många språk. Vi behöver dock en person som talar språket flytande för att granska det och se till att innehållet är begripligt och fritt från olämpliga termer.
@@ -49,7 +49,7 @@ Du behöver inte vara en GitHub-expert för att granska innehåll. Även om det 
 Men om du inte känner till Git och GitHub och vill lära dig mer kan du kolla in vår introduktionsartikel om dessa verktyg:
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 ## 1. Skapa ett konto
 
@@ -71,7 +71,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 
 
-- Gå med i [PBN Content Builder-gruppen] (https://t.me/PlanBNetwork_ContentBuilder) på Telegram.
+- Gå med i [Plan ₿ Academy Content Builder-gruppen] (https://t.me/PlanBNetwork_ContentBuilder) på Telegram.
 
 
 ![REVIEW](assets/fr/01.webp)
@@ -120,7 +120,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![REVIEW](assets/fr/06.webp)
 
 
-OBS! Vi rekommenderar att du granskar i kodfönstret, med originalinnehållet i ett separat fönster. Du kan till exempel visa texten på Plan ₿ Network:s webbplats eller i GitHub-förhandsgranskningen i en webbläsarflik. Använd `ctrl + F` för att hitta fel och göra korrigeringar i kodvyn under tiden du går igenom.
+OBS! Vi rekommenderar att du granskar i kodfönstret, med originalinnehållet i ett separat fönster. Du kan till exempel visa texten på Plan ₿ Academy:s webbplats eller i GitHub-förhandsgranskningen i en webbläsarflik. Använd `ctrl + F` för att hitta fel och göra korrigeringar i kodvyn under tiden du går igenom.
 
 
 ## 4. Genomföra ändringar
@@ -161,7 +161,7 @@ OBS! Vi rekommenderar att du granskar i kodfönstret, med originalinnehållet i 
 
 - Om du inte är klar med din granskning och vill fortsätta arbetet senare kan du helt enkelt avsluta.
 - Så länge du har bekräftat dina ändringar sparas de på din GitHub Fork.
-- För att återuppta ditt arbete, gå till din Fork av Plan ₿ Network innehållsförvaret via din GitHub-profil.
+- För att återuppta ditt arbete, gå till din Fork av Plan ₿ Academy innehållsförvaret via din GitHub-profil.
 
 
 ![REVIEW](assets/fr/14.webp)
@@ -196,20 +196,20 @@ OBS! Vi rekommenderar att du granskar i kodfönstret, med originalinnehållet i 
 
 ## 6. Regler att följa vid korrekturläsning av innehåll
 
-För att få mer information om riktlinjerna som ska följas vid korrekturläsning på Plan ₿ Network när det gäller språk- eller formatregler, vänligen hänvisa till handledningen "contribution-proofreading-guidelines" i denna samma sektion!
+För att få mer information om riktlinjerna som ska följas vid korrekturläsning på Plan ₿ Academy när det gäller språk- eller formatregler, vänligen hänvisa till handledningen "contribution-proofreading-guidelines" i denna samma sektion!
 
 ## 7. Vänta på recension
 
 
 
-- Grattis, din PR har skickats in! Du kan följa dess framsteg under fliken "Pull requests" på [Plan ₿ Network:s GitHub-arkiv] (https://github.com/PlanB-Network/Bitcoin-educational-content/pulls):
+- Grattis, din PR har skickats in! Du kan följa dess framsteg under fliken "Pull requests" på [Plan ₿ Academy:s GitHub-arkiv] (https://github.com/PlanB-Network/Bitcoin-educational-content/pulls):
 
 
 ![REVIEW](assets/fr/12.webp)
 
 
 
-- Tack så mycket för ditt bidrag! Efter godkännande kommer en Plan ₿ Network-teammedlem att kontakta dig för att skicka din belöning. \**Betalningar görs uteslutande via Lightning Network\**.
+- Tack så mycket för ditt bidrag! Efter godkännande kommer en Plan ₿ Academy-teammedlem att kontakta dig för att skicka din belöning. \**Betalningar görs uteslutande via Lightning Network\**.
 - Om du vill börja om kan du gå tillbaka till steg 2 och skicka ett nytt meddelande i Telegram-gruppen för att fortsätta bidra till annat innehåll. Se till att synkronisera din Fork innan du skapar en ny arbetsgren. För att göra detta går du till startsidan för din Fork, väljer huvudgrenen med namnet `dev` (jfr \**A\**) och klickar sedan på knappen "Sync Fork" (jfr \**B\**). Om det finns uppdateringar tillgängliga för din Fork visas knappen "Update branch". Klicka bara på den för att utföra uppdateringen.
 
 

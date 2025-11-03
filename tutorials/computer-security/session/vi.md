@@ -145,7 +145,7 @@ Cụm từ này hoạt động theo cách tương tự như cụm từ Mnemonic 
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 **Xin lưu ý**: Không giống như các cụm từ Mnemonic được sử dụng trong danh mục đầu tư Bitcoin, trong Session, **bạn hoàn toàn phải lưu toàn bộ từng từ**. 4 chữ cái đầu tiên là không đủ!
 
@@ -299,4 +299,4 @@ Tôi cũng giới thiệu hướng dẫn khác này, trong đó tôi giới thi�
 
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74

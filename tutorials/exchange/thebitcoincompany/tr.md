@@ -40,7 +40,7 @@ Kısacası, "harcama" ve "değiştirme" ilerlemenin yolu gibi görünüyor. Beni
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 Mesaj daha açık olamazdı: "Bitcoin'lerinizi Her Yerde Harcayın".
 
@@ -117,9 +117,9 @@ Eğer eski kafalıysanız ve güvenli bir posta kutusunu nasıl kolayca oluştur
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Bizim açımızdan, "Lightning ile oturum açın" seçeneğini tercih edelim.
 
@@ -154,7 +154,7 @@ Her site için bir e-posta Address veya şifreye ihtiyacınız yoktur - Wallet'n
 
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 Anında, piyasadaki çoğu cüzdan bu özelliği desteklediğinden, Phoenix veya başka bir şey olabilen Wallet Lightning'iniz aracılığıyla tanımlanırsınız.
 
@@ -291,4 +291,4 @@ Bitcoin'nın yaygınlaşmasına yardımcı olmak ve bağımsız bir tüccarı bu
 
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

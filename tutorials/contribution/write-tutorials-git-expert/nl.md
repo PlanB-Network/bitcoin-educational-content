@@ -1,6 +1,6 @@
 ---
 name: Bijdrage - Git tutorial (gevorderd)
-description: Gids voor gevorderde gebruikers met een tutorial over Plan ₿ Network met Git
+description: Gids voor gevorderde gebruikers met een tutorial over Plan ₿ Academy met Git
 ---
 ![cover](assets/cover.webp)
 
@@ -8,31 +8,31 @@ description: Gids voor gevorderde gebruikers met een tutorial over Plan ₿ Netw
 Voordat je deze tutorial over het toevoegen van een nieuwe tutorial volgt, moet je een paar voorbereidende stappen hebben doorlopen. Als je dat nog niet gedaan hebt, bekijk dan eerst deze inleidende tutorial en kom dan hier terug:
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+https://planb.academy/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
 Je hebt al:
 
 
 
 - Kies een thema voor je tutorial;
-- Neem contact op met het Plan ₿ Network team via [Telegram groep](https://t.me/PlanBNetwork_ContentBuilder) of paolo@planb.network ;
+- Neem contact op met het Plan ₿ Academy team via [Telegram groep](https://t.me/PlanBNetwork_ContentBuilder) of paolo@planb.network ;
 - Kies je bijdragehulpmiddelen.
 
 
-In deze tutorial voor ervaren Git gebruikers, zullen we kort de belangrijkste stappen en essentiële richtlijnen samenvatten voor het aanbieden van een nieuwe Plan ₿ Network tutorial. Als je niet bekend bent met Git en GitHub, raad ik je aan om in plaats hiervan een van deze andere 2 meer gedetailleerde tutorials te volgen, die je stap voor stap zullen helpen:
+In deze tutorial voor ervaren Git gebruikers, zullen we kort de belangrijkste stappen en essentiële richtlijnen samenvatten voor het aanbieden van een nieuwe Plan ₿ Academy tutorial. Als je niet bekend bent met Git en GitHub, raad ik je aan om in plaats hiervan een van deze andere 2 meer gedetailleerde tutorials te volgen, die je stap voor stap zullen helpen:
 
 
 
 - Intermediair (GitHub Desktop):
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 
 - Beginners (web interface):
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 
 ## Voorgestelde hulpmiddelen
 
@@ -80,7 +80,7 @@ Diagrammen en visuals maken:
 
 
 
-- Je moet je eigen fork van de [Plan ₿ Network repository op GitHub] (https://github.com/PlanB-Network/Bitcoin-educational-content) hebben.
+- Je moet je eigen fork van de [Plan ₿ Academy repository op GitHub] (https://github.com/PlanB-Network/Bitcoin-educational-content) hebben.
 - Synchroniseer de hoofdbranch (`dev`) van je fork met het bronrepository.
 - Werk je lokale kloon bij.
 
@@ -213,15 +213,15 @@ Dit zijn de verplichte velden:
 
 
 
-- **project_id**: De UUID van het bedrijf of de organisatie achter de tool dat in de tutorial wordt gepresenteerd [uit de projectlijst] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Als je bijvoorbeeld een tutorial maakt over de Green Wallet software, kun je deze `project_id` vinden in het volgende bestand: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Deze informatie wordt toegevoegd aan het YAML-bestand van je tutorial, omdat Plan ₿ Network een database bijhoudt van alle bedrijven en organisaties die aan Bitcoin of gerelateerde projecten werken. Door de `project_id` toe te voegen van de entiteit die gelinkt is aan je tutorial, creëer je een link tussen de twee elementen;
+- **project_id**: De UUID van het bedrijf of de organisatie achter de tool dat in de tutorial wordt gepresenteerd [uit de projectlijst] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Als je bijvoorbeeld een tutorial maakt over de Green Wallet software, kun je deze `project_id` vinden in het volgende bestand: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Deze informatie wordt toegevoegd aan het YAML-bestand van je tutorial, omdat Plan ₿ Academy een database bijhoudt van alle bedrijven en organisaties die aan Bitcoin of gerelateerde projecten werken. Door de `project_id` toe te voegen van de entiteit die gelinkt is aan je tutorial, creëer je een link tussen de twee elementen;
 
 
 
-- **tags**: 2 of 3 relevante trefwoorden die verband houden met de inhoud van de tutorial, exclusief gekozen [uit de Plan ₿ Network taglijst](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags**: 2 of 3 relevante trefwoorden die verband houden met de inhoud van de tutorial, exclusief gekozen [uit de Plan ₿ Academy taglijst](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 
 
-- **category**: De subcategorie die overeenkomt met de inhoud van de tutorial, volgens de Plan ₿ Network website structuur (bijvoorbeeld, voor wallets: `desktop`, `hardware`, `mobile`, `backup`);
+- **category**: De subcategorie die overeenkomt met de inhoud van de tutorial, volgens de Plan ₿ Academy website structuur (bijvoorbeeld, voor wallets: `desktop`, `hardware`, `mobile`, `backup`);
 
 
 
@@ -252,7 +252,7 @@ Dit zijn de verplichte velden:
 Raadpleeg de bijbehorende tutorial voor meer informatie over je leraren-ID:
 
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 ```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
@@ -382,7 +382,7 @@ print("Hello, Bitcoin!")
     - Zorg ervoor dat ze relevant en van hoge kwaliteit zijn.
 - **Grafisch charter**:
     - Font: [Rubik](https://fonts.google.com/specimen/Rubik).
-    - Kleuren Plan ₿ Network:
+    - Kleuren Plan ₿ Academy:
         - Orange: `#FF5C00`
         - Black: `#000000`
         - White: `#FFFFFF`

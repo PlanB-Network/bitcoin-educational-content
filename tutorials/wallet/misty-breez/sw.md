@@ -81,7 +81,7 @@ Vifuatavyo ni baadhi ya vidokezo vya jinsi ya kuweka nakala rudufu ya maneno yak
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Ili kuhifadhi nakala za vifungu vyako, chagua menyu ya **Mapendeleo > Usalama**, kisha **Angalia chaguo lako la Maneno ya Kuhifadhi nakala**.
 
@@ -210,4 +210,4 @@ Ili kwenda mbali zaidi, ninapendekeza pia ugundue mafunzo yetu kwenye Aqua Walle
 
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125

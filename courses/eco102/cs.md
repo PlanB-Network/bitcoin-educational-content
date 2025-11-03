@@ -840,6 +840,7 @@ V epizodě svého televizního seriálu Free to Choose analyzuje různé kompone
 
 ![image](assets/cs/088.webp)
 
+
 Friedrich Hayek ve svém eseji "Využití znalostí ve společnosti" z roku 1945 již vysvětlil, proč jsou tržní ekonomika a decentralizace rozhodnutí zásadní pro prosperitu. Podle Hayeka žádný centrální plánovač nebo byrokrat by nikdy nemohl mít dostatečné znalosti k úspěšnému řízení celku ekonomických akcí. Pouze cenový systém na volném trhu umožňuje milionům nezávislých aktérů rozhodnout sami, jak efektivně alokovat zdroje.
 
 ![image](assets/cs/089.webp)

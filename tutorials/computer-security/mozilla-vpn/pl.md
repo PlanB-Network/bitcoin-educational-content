@@ -18,7 +18,7 @@ W cyfrowej erze gromadzenia danych, prywatność online stała się głównym pr
 
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 W oparciu o tę zasadę, [Mozilla VPN](https://www.mozilla.org/fr/products/vpn/download/) to usługa VPN typu open source opracowana w 2020 roku przez Mozilla Foundation. Jest ona dostępna na:
 
@@ -191,4 +191,4 @@ Teraz możesz bezpiecznie i poufnie surfować po Internecie. Jeśli podobał Ci 
 
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8

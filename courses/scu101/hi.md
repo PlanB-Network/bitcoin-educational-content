@@ -33,6 +33,8 @@ objectives:
 
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
+:::video id=de7236a0-2985-41ef-86f7-3fa0b7f94531:::
+
 ### लक्ष्य: अपनी सुरक्षा कौशल को अपडेट करना!
 
 सभी का स्वागत है इस डिजिटल सुरक्षा पर समर्पित शैक्षिक कार्यक्रम में। यह प्रशिक्षण सभी के लिए सुलभ बनाया गया है, इसलिए कंप्यूटर विज्ञान का कोई पूर्व ज्ञान आवश्यक नहीं है। हमारा मुख्य लक्ष्य आपको वह ज्ञान और कौशल प्रदान करना है जो डिजिटल दुनिया में अधिक सुरक्षित और निजी तरीके से काम करने के लिए जरूरी हैं।
@@ -95,6 +97,8 @@ objectives:
 
 <chapterId>3a935da9-fa6e-57eb-bf85-7b3ec35e6ee2</chapterId>
 
+:::video id=f1cead27-ed41-4ca2-afd2-b08a994d0119:::
+
 इंटरनेट ब्राउज़ करते समय, अपनी ऑनलाइन सुरक्षा बनाए रखने के लिए कुछ आम गलतियों से बचना आवश्यक है। इन्हें टालने के लिए यहाँ कुछ सुझाव दिए गए हैं:
 
 ### सॉफ्टवेयर डाउनलोड करते समय सावधान रहें:
@@ -136,10 +140,12 @@ objectives:
 
 ![image](assets/hi/007.webp)
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 ## वीपीएन और इंटरनेट कनेक्शन
 
 <chapterId>5aac83f4-a685-54b0-9759-d71bea7eeed2</chapterId>
+
+:::video id=737d30ac-43d8-4a69-afda-89b9d7e8c4e1:::
 
 ### वीपीएन (VPN)
 
@@ -159,8 +165,8 @@ VPNs के मुख्यतः दो प्रकार होते है�
 
 आखिरकार, एक वीपीएन का उपयोग ऑनलाइन विज्ञापनों को ब्लॉक करने के लिए भी किया जा सकता है, जिससे ब्राउज़िंग का अनुभव अधिक आनंददायक और सुरक्षित हो जाता है। हालांकि, अपनी खास जरूरतों के हिसाब से सबसे अच्छा वीपीएन ढूंढने के लिए खुद शोध करना जरूरी है। घर पर इंटरनेट ब्राउज़ करते वक्त भी सुरक्षा बढ़ाने के लिए वीपीएन का इस्तेमाल करने की सलाह दी जाती है। इससे ऑनलाइन आदान-प्रदान किए गए डेटा की सुरक्षा का स्तर बेहतर होता है। आखिर में, यह सुनिश्चित करें कि आप जिस साइट पर जाना चाहते हैं, वहीं पर हैं, इसके लिए यूआरएल (URL) और एड्रेस (Address) बार में छोटे पैडलॉक की जाँच करें।
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 ### HTTPS और पब्लिक वाई-फाई (Wi-Fi) नेटवर्क्स
 
 ऑनलाइन सुरक्षा के मामले में, यह समझना ज़रूरी है कि 4G आमतौर पर पब्लिक वाई-फाई से ज़्यादा सुरक्षित होता है। हालांकि, 4G का इस्तेमाल करने से आपका मोबाइल डेटा प्लान जल्दी खत्म हो सकता है। वेबसाइट्स पर डेटा को एन्क्रिप्ट करने के लिए HTTPS प्रोटोकॉल अब मानक बन चुका है। यह सुनिश्चित करता है कि उपयोगकर्ता और वेबसाइट के बीच आदान-प्रदान किया जाने वाला डेटा सुरक्षित रहे। इसलिए, यह जांचना बेहद अहम है कि जिस साइट पर आप विजिट कर रहे हैं, वह HTTPS प्रोटोकॉल का इस्तेमाल कर रही हो।
@@ -180,6 +186,8 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 ## कंप्यूटर का उपयोग
 
 <chapterId>16745632-b56b-5423-9873-ddf70fdf1efd</chapterId>
+
+:::video id=35892007-5ea5-4956-bf80-3363d69c96d5:::
 
 आज के डिजिटल दुनिया में हमारे कंप्यूटरों की सुरक्षा एक बड़ी चिंता का विषय है। आज, हम तीन मुख्य बिंदुओं पर चर्चा करेंगे:
 
@@ -242,6 +250,8 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 
 <chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>
 
+:::video id=c6a2c152-f1ae-492c-8993-304d64cdda45:::
+
 ### हैकर्स कैसे हमला करते हैं?
 
 अपने आपको प्रभावी ढंग से बचाने के लिए, यह समझना ज़रूरी है कि हैकर्स आपके कंप्यूटर में घुसपैठ करने की कोशिश कैसे करते हैं। सच में, वायरस अक्सर जादुई तरीके से नहीं आते, बल्कि हमारे कामों का नतीजा होते हैं, चाहे अनजाने में ही क्यों न किए गए हों!
@@ -278,8 +288,8 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 
 अगर आपके कंप्यूटर में वायरस का पता लगाते है, तो इसे इंटरनेट से डिस्कनेक्ट कर दें, पूरा एंटीवायरस स्कैन चलाएं, और संक्रमित फाइलों को डिलीट कर दें। फिर अपने सॉफ्टवेयर और ऑपरेटिंग सिस्टम को अपडेट करें, और आगे की घुसपैठ रोकने के लिए अपने पासवर्ड बदल दें।
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 # समाधानों को लागू करना।
 
 <partId>215ec902-ba05-5549-87fc-cb8d82665f7b</partId>
@@ -287,6 +297,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 ## ईमेल खातों का प्रबंधन
 
 <chapterId>dfceea33-8712-5557-ace1-6ba5598d33d8</chapterId>
+
+:::video id=75cc914d-9c11-4d3f-86a7-6faf2077f00f:::
 
 ### नया ईमेल खाता सेट करना!
 
@@ -316,10 +328,12 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 बोनस बिटकॉइन: हमारे बिटकॉइन संबंधी कार्यों (जैसे एक्सचेंज खातों को बनाना), के लिए एक अलग ईमेल पता बनाना उचित हो सकता है, ताकि हमारे जीवन के अलग-अलग क्षेत्रों को वास्तव में अलग रखा जा सके।
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 ## पासवर्ड मैनेजर
 
 <chapterId>0b3c69b2-522c-56c8-9fb8-1562bd55930f</chapterId>
+
+:::video id=106b6f17-a5c1-4155-abdf-043ce469d45b:::
 
 ### एक पासवर्ड मैनेजर क्या है?
 
@@ -362,11 +376,13 @@ KeePass जैसी स्वयं-होस्टेड समाधानो
 
 यादृच्छिक (रैंडम) जनरेट किए गए पासवर्ड उच्च स्तर की सुरक्षित होते हैं, हालाँकि उन्हें याद रखना थोड़ा मुश्किल हो सकता है। पासवर्ड मैनेजर और ज़्यादा सुरक्षित यादृच्छिक पासवर्ड बना सकते हैं। पासवर्ड मैनेजर का इस्तेमाल करके आपको सारे पासवर्ड याद रखने की ज़रूरत नहीं पड़ती।  यह आवश्यक है कि आप धीरे-धीरे अपने पुराने पासवर्ड्स को मैनेजर द्वारा जनरेट किए गए मज़बूत और लंबे पासवर्ड्स से बदलें। यह भी सुनिश्चित करें कि आपके पासवर्ड मैनेजर का मास्टर पासवर्ड भी मज़बूत और सुरक्षित हो।
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 ## दो-चरणीय प्रमाणीकरण (टू-फैक्टर ऑथेन्टिकेशन)
 
 <chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>
+
+:::video id=10fede6f-c839-4455-b324-e887c502667e:::
 
 ### 2FA क्यों लागू करें?
 
@@ -411,8 +427,8 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 सुनहरा नियम: साइबर सुरक्षा एक बदलता हुआ लक्ष्य है, जो आपकी सीखने की यात्रा के साथ खुद को ढाल लेता है!
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 # व्यावहारिक अनुभाग
 
 <partId>98ccf14b-4053-5839-878c-7a73ff02eb95</partId>
@@ -423,17 +439,17 @@ https://planb.network/tutorials/computer-security/authentication/security-key-61
 
 अपने ईमेल खाते को सुरक्षित करना, आपकी ऑनलाइन गतिविधियों को सुरक्षित रखने और आपके निजी डेटा की सुरक्षा के लिए एक महत्वपूर्ण कदम है। यह ट्यूटोरियल आपको कदम दर कदम मार्गदर्शन करेगा कि कैसे ProtonMail खाता बनाया और सेटअप किया जाए - यह एक ऐसा प्रदाता जो अपने उच्च स्तर की सुरक्षा और आपकी संचार की एंड-टू-एंड एन्क्रिप्शन सुविधा के लिए जाना जाता है। चाहे आप एक नौसिखिए हों या अनुभवी उपयोगकर्ता, यहां प्रस्तुत सर्वोत्तम प्रथाएं आपको अपने ईमेल की सुरक्षा मजबूत करने में मदद करेंगी, साथ ही ProtonMail की उन्नत सुविधाओं का लाभ उठाने में भी सहायता करती हैं।
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 ## 2FA में सुरक्षा सुनिश्चित करना
 
 <chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
 
 दो-चरणीय प्रमाणीकरण (2FA) आपके ऑनलाइन खातों को सुरक्षित रखने के लिए जरूरी हो गया है। इस ट्यूटोरियल में, आप सीखेंगे कि 2FA ऐप Authy को कैसे सेट अप और इस्तेमाल करें, जो आपके खातों की सुरक्षा के लिए डायनामिक 6-अंकीय कोड उत्पन्न करता है। Authy का उपयोग करना बहुत आसान है और यह कई डिवाइस पर सिंक्रोनाइज़ होता है। जानिए कैसे Authy को इंस्टॉल और कॉन्फ़िगर करें, और अभी से अपने ऑनलाइन खातों की सुरक्षा को मजबूत बनाएं:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 एक और विकल्प है भौतिक सुरक्षा कुंजी (फिजिकल सिक्योरिटी की) का इस्तेमाल करना। यह अतिरिक्त ट्यूटोरियल आपको दिखाता है कि दूसरे ऑथेंटिकेशन फैक्टर के रूप में सिक्योरिटी की को कैसे सेट अप और उपयोग करें:
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 ## पासवर्ड मैनेजर बनाना
 
 <chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
@@ -442,18 +458,18 @@ https://planb.network/tutorials/computer-security/authentication/security-key-61
 
 इस ट्यूटोरियल में, जानिए कैसे Bitwarden, एक ओपन-सोर्स पासवर्ड मैनेजर, को कैसे सेटअप करें और अपने क्रेडेंशियल्स को सभी उपकरणों पर कैसे सिंक करके अपने दैनिक उपयोग  को कैसे सरल बनाएं:
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 अधिक अनुभवी उपयोगकर्ताओं के लिए, मैं एक और ट्यूटोरियल भी प्रदान करता हूँ जो आपके पासवर्ड प्रबंधित करने के लिए एक मुफ्त और ओपन-सोर्स सॉफ्टवेयर के बारे में है जिसे आप स्थानीय रूप से इस्तेमाल कर सकते हैं:
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 ## अपने खातों को सुरक्षित रखना
 
 <chapterId>7a774b34-aed0-57dd-b8f7-cf3be51c0d70</chapterId>
 
 इन दो ट्यूटोरियल्स में, मैं आपको आपके ऑनलाइन अकाउंट्स को सुरक्षित करने में मार्गदर्शन करता हूँ और यह भी समझाता हूँ कि रोज़मर्रा के जीवन में पासवर्ड्स प्रबंधन करने के लिए ज़्यादा सुरक्षित तरीकों को धीरे-धीरे कैसे अपनाया जाए।
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 ## ब्राउज़र और VPN बदलें
 
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
@@ -462,21 +478,21 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 मैं आपको दो विश्वसनीय वीपीएन समाधानों का पता लगाने का सुझाव देता हूँ जो बिटकॉइन भुगतान स्वीकार करते है, यानी IVPN और Mullvad। ये ट्यूटोरियल्स आपको बताते हैं कि कैसे अपने सभी उपकरणों पर Mullvad या IVPN को इंस्टॉल, कॉन्फ़िगर और इस्तेमाल करें:
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 साथ ही, टॉर ब्राउज़र (Tor Browser) का उपयोग करना सीखें, यह एक ऐसा ब्राउज़र है जो विशेष रूप से आपकी ऑनलाइन गोपनीयता की सुरक्षा के लिए बनाया गया है:
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 ## बैकअप सेटअप
 
 <chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
 
 आपके निजी फ़ाइलों की सुरक्षा भी एक अहम मुद्दा है। यह ट्यूटोरियल आपको दिखाएगा कि प्रोटॉन ड्राइव (Proton Drive) का उपयोग करके एक प्रभावी बैकअप रणनीति कैसे बनाई जाए। जानिए इस सुरक्षित क्लाउड सॉल्यूशन का इस्तेमाल करके 3-2-1 विधि कैसे अपनाएं: आपके डेटा की तीन प्रतियाँ दो अलग-अलग मीडिया पर, जिसमें एक कॉपी ऑफ़साइट हो। इससे आपकी संवेदनशील फ़ाइलों की पहुंच और सुरक्षा सुनिश्चित होती है:
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 और आपके USB ड्राइव या बाहरी हार्ड ड्राइव जैसी हटाने योग्य (रिमूवेबल) मीडिया पर संग्रहीत फाइल्स को सुरक्षित करने के लिए, मैं आपको VeraCrypt का उपयोग करके इन मीडिया को आसानी से एन्क्रिप्ट और डिक्रिप्ट करने का तरीका भी दिखाता हूँ:
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 # आगे बढ़ें
 
 <partId>77113cad-a6d8-57e5-b903-50c223b277ba</partId>
@@ -484,6 +500,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 ## साइबर सुरक्षा उद्योग में कैसे काम करें
 
 <chapterId>aad1ae27-4280-5b07-b9ab-118ae013951a</chapterId>
+
+:::video id=4c818b5c-ea5d-496a-8e82-bc5d96d91430:::
 
 ### साइबर सुरक्षा: एक बढ़ता हुआ क्षेत्र जिसमें हैं अनंत संभावनाएँ
 
@@ -523,6 +541,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 ## रेनॉड के साथ साक्षात्कार
 
 <chapterId>7d83fd98-ce22-514e-b9e8-729fbf71ee6e</chapterId>
+
+:::video id=ec7014aa-5ebe-444c-80d1-7b14f1fe7bb8:::
 
 ### कुशल पासवर्ड प्रबंधन और प्रमाणीकरण सुदृढ़ीकरण: एक शैक्षणिक दृष्टिकोण
 

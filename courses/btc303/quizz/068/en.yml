@@ -1,0 +1,8 @@
+question: When miners connect to mining pools with greater bandwidth and connectivity to avoid stale blocks during periods of increased block sizes, what is the primary negative consequence for the Bitcoin network?
+answer: It reduces mining decentralization as smaller miners are pushed toward larger pools with superior infrastructure
+wrong_answers:
+  - It increases the computational difficulty of mining operations making blocks harder to solve
+  - It creates additional transaction fees that must be paid to maintain network connectivity
+  - It reduces the total hash rate of the network as miners spend resources on connectivity instead of mining
+explanation: |
+  The chapter explains that when block sizes increase, propagation times increase, leading to more stale blocks. To avoid losing block rewards from stale blocks, miners seek pools with better bandwidth and connectivity. This pushes miners toward larger, well-connected pools, reducing mining decentralization. The other options are incorrect: difficulty adjusts automatically regardless of pool connectivity, connectivity costs don't create additional transaction fees, and miners don't reduce hash rate when joining better-connected pools.

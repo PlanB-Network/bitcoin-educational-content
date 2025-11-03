@@ -367,4 +367,4 @@ Nyt tiedät, miten Lightningia käytetään omassa solmussa Alby Hub -työkalun 
 
 Jotta ymmärtäisit yksityiskohtaisesti kaikki Salama-mekanismit, joita olemme käsitelleet tässä opetusohjelmassa, suosittelen sinua tutustumaan ilmaiseen koulutukseemme aiheesta :
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

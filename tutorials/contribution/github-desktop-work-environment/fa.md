@@ -18,7 +18,7 @@ description: چگونه محیط کار محلی خود را راه‌انداز
 اگر هیچ ایده‌ای درباره GitHub ندارید، یا اگر می‌خواهید بیشتر درباره اصطلاحات فنی مرتبط با Git و GitHub یاد بگیرید، توصیه می‌کنم مقاله مقدماتی ما را بخوانید تا با این مفاهیم آشنا شوید.
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -26,7 +26,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 - برای شروع، بدیهی است که به یک حساب GitHub نیاز خواهید داشت. اگر قبلاً یک حساب دارید، می‌توانید وارد شوید، در غیر این صورت، می‌توانید از آموزش ما برای ایجاد یک حساب جدید استفاده کنید.
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -116,7 +116,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![github-desktop](assets/18.webp)
 
 
-- پس از کلون کردن مخزن، نرم‌افزار دو گزینه به شما ارائه می‌دهد. شما باید گزینه اول را انتخاب کنید: `برای مشارکت در پروژه والد`. این انتخاب به شما اجازه می‌دهد تا کارهای آینده خود را به عنوان یک مشارکت در پروژه والد (`PlanB-Network/Bitcoin-educational-content`) ارائه دهید و نه صرفاً به عنوان یک تغییر در Fork شخصی خودتان (`[username]/Bitcoin-educational-content`). پس از انتخاب گزینه، روی `ادامه` کلیک کنید:
+- پس از کلون کردن مخزن، نرم‌افزار دو گزینه به شما ارائه می‌دهد. شما باید گزینه اول را انتخاب کنید: `برای مشارکت در پروژه والد`. این انتخاب به شما اجازه می‌دهد تا کارهای آینده خود را به عنوان یک مشارکت در پروژه والد (`Plan ₿ Academy/Bitcoin-educational-content`) ارائه دهید و نه صرفاً به عنوان یک تغییر در Fork شخصی خودتان (`[username]/Bitcoin-educational-content`). پس از انتخاب گزینه، روی `ادامه` کلیک کنید:
 
 ![github-desktop](assets/19.webp)
 
@@ -125,7 +125,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 ![github-desktop](assets/20.webp)
 
-آنچه که در این مرحله به دست آورده‌ایم، ایجاد یک نسخه محلی از مخزن شما است که بر روی GitHub میزبانی می‌شود. به عنوان یادآوری، این مخزن یک Fork از مخزن منبع PlanB Network است. شما قادر خواهید بود تا تغییراتی در این نسخه محلی ایجاد کنید، مانند افزودن آموزش‌ها، ترجمه‌ها یا اصلاحات. پس از انجام این تغییرات، از فرمان **Push origin** استفاده خواهید کرد تا تغییرات محلی خود را به Fork خود که بر روی GitHub میزبانی می‌شود، ارسال کنید.
+آنچه که در این مرحله به دست آورده‌ایم، ایجاد یک نسخه محلی از مخزن شما است که بر روی GitHub میزبانی می‌شود. به عنوان یادآوری، این مخزن یک Fork از مخزن منبع Plan ₿ Academy است. شما قادر خواهید بود تا تغییراتی در این نسخه محلی ایجاد کنید، مانند افزودن آموزش‌ها، ترجمه‌ها یا اصلاحات. پس از انجام این تغییرات، از فرمان **Push origin** استفاده خواهید کرد تا تغییرات محلی خود را به Fork خود که بر روی GitHub میزبانی می‌شود، ارسال کنید.
 
 
 شما همچنین می‌توانید تغییرات را از Fork بازیابی کنید، به عنوان مثال، در طول همگام‌سازی با مخزن شبکه PlanB. برای این کار، از فرمان **Fetch origin** برای دانلود تغییرات به نسخه محلی خود (کلون شما) استفاده خواهید کرد و سپس از فرمان **Pull origin** برای ادغام آن‌ها با کار خود استفاده می‌کنید. این به شما اجازه می‌دهد تا با آخرین پیشرفت‌های پروژه به‌روز بمانید و به طور مؤثر مشارکت کنید.
@@ -148,7 +148,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 ![github-desktop](assets/24.webp)
 
--> **توجه**، مهم است که هنگام ایجاد یک خزانه جدید در Obsidian، پوشه `Bitcoin-educational-content` را انتخاب نکنید. در عوض، پوشه والد، `GitHub` را انتخاب کنید. اگر پوشه `Bitcoin-educational-content` را انتخاب کنید، پوشه پیکربندی `.obsidian` که شامل تنظیمات محلی Obsidian شما است، به طور خودکار در مخزن ادغام خواهد شد. ما می‌خواهیم از این کار اجتناب کنیم، زیرا انتقال تنظیمات Obsidian شما به مخزن PlanB Network ضروری نیست. یک جایگزین این است که پوشه `.obsidian` را به فایل `.gitignore` اضافه کنید، اما این روش نیز فایل `.gitignore` مخزن منبع را تغییر می‌دهد که مطلوب نیست.
+-> **توجه**، مهم است که هنگام ایجاد یک خزانه جدید در Obsidian، پوشه `Bitcoin-educational-content` را انتخاب نکنید. در عوض، پوشه والد، `GitHub` را انتخاب کنید. اگر پوشه `Bitcoin-educational-content` را انتخاب کنید، پوشه پیکربندی `.obsidian` که شامل تنظیمات محلی Obsidian شما است، به طور خودکار در مخزن ادغام خواهد شد. ما می‌خواهیم از این کار اجتناب کنیم، زیرا انتقال تنظیمات Obsidian شما به مخزن Plan ₿ Academy ضروری نیست. یک جایگزین این است که پوشه `.obsidian` را به فایل `.gitignore` اضافه کنید، اما این روش نیز فایل `.gitignore` مخزن منبع را تغییر می‌دهد که مطلوب نیست.
 
 
 
@@ -178,6 +178,6 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 تبریک! محیط کاری شما اکنون برای مشارکت در شبکه PlanB آماده شده است. اکنون می‌توانید آموزش‌های خاص دیگر ما را برای هر نوع مشارکت (ترجمه، ویرایش، نوشتن) بررسی کنید.
 
 
-https://planb.network/tutorials/others
+https://planb.academy/tutorials/others
 
 ..).

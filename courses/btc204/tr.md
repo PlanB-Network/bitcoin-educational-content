@@ -38,6 +38,8 @@ Bitcoin kullanımınızı dönüştürmek ve gizlilikle ilgili konuları anlayab
 
 <chapterId>08ba1933-f393-4fb5-8279-777d874caedb</chapterId>
 
+:::video id=687fe126-56db-4fe2-aaac-e481bbb5d838:::
+
 
 BTC204 kursuna hoş geldiniz!
 
@@ -127,6 +129,8 @@ Bitcoin'te gizliliğin inceliklerini keşfetmeye hazır mısınız? Hadi gidelim
 
 <chapterId>8d6b50c5-bf74-44f4-922b-25204991cb75</chapterId>
 
+:::video id=60e8f3fa-9607-47ae-ac4f-5aa747d9b6d4:::
+
 
 
 Bitcoin her şeyden önce bir para birimidir, ancak BTC'nin protokolde nasıl temsil edildiğini gerçekten biliyor musunuz?
@@ -197,6 +201,8 @@ Wallet'inizin toplam bakiyesi `17 BTC` olacaktır.
 
 
 <chapterId>29d3aaab-de2e-4746-ab40-c9748898850c</chapterId>
+
+:::video id=c79d651d-ff4a-4a75-bc2b-a48a00c17326:::
 
 
 
@@ -323,6 +329,8 @@ Her şeyden önce, UTXO modeli Bitcoin'un işlem ücretlerini doğrudan etkileme
 
 <chapterId>769d8963-3ed5-4094-b21d-9203c7d9e465</chapterId>
 
+:::video id=f83d8e7a-ff4d-4c05-a8ff-0e601c49a508:::
+
 
 
 ### Para: özgünlük, dürüstlük ve çifte harcama
@@ -432,6 +440,8 @@ Ancak Bitcoin işlemleri kamuya açık olduğundan, ilgili taraflar hakkında bi
 
 <chapterId>7d198ba6-4af2-4f24-86cb-3c79cb25627e</chapterId>
 
+:::video id=3d27ea95-599b-44cc-a24c-a628c2e6a64a:::
+
 
 
 ### Tanım ve işleyiş
@@ -500,9 +510,9 @@ Dolayısıyla, Bitcoin kullanımımızda Blockchain analiziyle de başa çıkabi
 Blockchain analizine karşı koymanın, bu analizde kullanılan yöntemleri öğrenmekten daha iyi bir yolu var mı? Bitcoin'te gizliliğinizi nasıl geliştireceğinizi bilmek istiyorsanız, bu yöntemleri anlamanız gerekir. Bu size CoinJoin veya PayJoin gibi teknikleri (kursun son bölümlerinde inceleyeceğimiz teknikler) daha iyi kavramanızı sağlayacak ve yapabileceğiniz hataları azaltacaktır.
 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
-https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
+https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
 Bu konuda kriptografi ve kriptanaliz ile bir analoji kurabiliriz. İyi bir kriptograf her şeyden önce iyi bir kriptanalisttir. Yeni bir şifreleme algoritması tasarlamak için, hangi saldırılarla karşılaşacağını bilmeniz ve önceki algoritmaların neden kırıldığını incelemeniz gerekir. Aynı prensip Bitcoin gizliliği için de geçerlidir. Blockchain analiz yöntemlerini anlamak, bunlara karşı korunmanın anahtarıdır. Bu nedenle bu eğitime on chain analizi ile ilgili bir bölüm ekledim.
 
@@ -551,6 +561,8 @@ Bunların ne olduğunu ilerleyen bölümlerde göreceğiz, ancak bu iki sezgisel
 
 
 <chapterId>d365a101-2d37-46a5-bfb9-3c51e37bf96b</chapterId>
+
+:::video id=4bd4c9d4-7997-487c-8760-98c74ae1589e:::
 
 
 
@@ -743,6 +755,8 @@ Bu işlem kalıpları sayesinde, belirli bir işlem hakkında belirli miktarda b
 
 <chapterId>c54b5abe-872f-40f4-a0d0-c59faff228ba</chapterId>
 
+:::video id=bbc145cc-5232-41e4-a7f8-1af4e422635a:::
+
 
 
 İçsel sezgisel, bir işlemin çevresini incelemeye gerek kalmadan kendi içinde tanımladığımız ve çıkarımlar yapmamızı sağlayan belirli bir özelliktir. İşlemin genel yapısına yüksek düzeyde odaklanan kalıpların aksine, içsel sezgiseller çıkarılabilir veri kümesine dayanır. Bu şunları içerir:
@@ -902,6 +916,8 @@ Kaynak: [Mempool.space](https://Mempool.space/tx/b79d8f8e4756d34bbb26c659ab88314
 
 
 <chapterId>4a170e3b-200d-431a-8285-18a23ff617ba</chapterId>
+
+:::video id=f83c94a1-4f60-4dc7-855d-aa6710064575:::
 
 
 
@@ -1491,6 +1507,8 @@ ___
 
 <chapterId>f3e97645-3df3-41bc-a4ed-d2c740113d96</chapterId>
 
+:::video id=5392183e-e317-499f-9757-b69e9d7cda11:::
+
 
 
 Bitcoin'de gizliliğinizi bozabilecek teknikleri inceledikten sonra, bu üçüncü bölümde şimdi kendinizi korumak için benimseyeceğiniz en iyi uygulamalara bakacağız. Bu bölümün amacı, daha sonra ele alınacak bir konu olan gizliliği artırma yöntemlerini keşfetmek değil, daha ziyade ek tekniklere başvurmadan doğal olarak sunduğu gizliliği korumak için Bitcoin ile nasıl doğru bir şekilde etkileşimde bulunacağınızı anlamaktır.
@@ -1665,6 +1683,8 @@ Bağışlar gibi ödemeleri almak için statik bir tanımlayıcıya ihtiyacını
 
 <chapterId>fbdb07cd-c025-48f2-97b0-bd1bc21c68a8</chapterId>
 
+:::video id=4c411c97-ebb2-483d-b4fa-03109cf5d5d7:::
+
 
 
 Dize analizi bölümünde keşfettiğimiz gibi, bir işlem hakkında bilgi çıkarmak için kullanılabilecek çok sayıda sezgisel yöntem ve kalıp vardır. Bir kullanıcı olarak, kendinizi bunlara karşı daha iyi korumak için bu tekniklerin farkında olmanız önemlidir.
@@ -1815,12 +1835,14 @@ Tüm bu otomatik UTXO seçim yöntemleri işlem maliyetlerini azaltmada etkili o
 UTXO'larınızı nasıl etiketleyeceğinizi öğrenmek isterseniz, ana Bitcoin Wallet yazılımı hakkında kapsamlı bir eğitim hazırladık:
 
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 ## KYC ve anahtar tanımlama
 
 
 <chapterId>cec6b9d9-0eed-4f85-bc4e-1e9aa59ca605</chapterId>
+
+:::video id=ecf888fe-906f-4293-91b5-1e5ae7b2fde1:::
 
 
 
@@ -1973,6 +1995,8 @@ Sonuç olarak, bitcoinler başka varlıklarla takas edildiğinde, ister devlet p
 
 <chapterId>756598af-95aa-4c77-ac48-243c7ad89530</chapterId>
 
+:::video id=9fd3d90f-32f4-48a2-a740-3597249551db:::
+
 
 
 Önceki bölümü okuduktan sonra, KYC ile ilişkili risklerden kaçınmak için bir kimlik doğrulama prosedüründen geçmek zorunda kalmadan Bitcoin'ü nasıl satın alabileceğinizi veya satabileceğinizi merak ediyor olabilirsiniz. Bitcoin ticareti yapmanın birkaç yolu vardır.
@@ -2050,7 +2074,7 @@ Bir kez daha, P2P alımlarının bir diğer dezavantajı, fiyatın genellikle d�
 -> Bisq eğitimimize bakın.
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+https://planb.academy/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 Daha basit bir seçenek için, alıcıları ve satıcıları yerleşik bir anlaşmazlık çözüm sistemi ile birbirine bağlayan bir mobil uygulama olan [Peach](https://peachbitcoin.com/)'i deneyebilirsiniz. Süreç Bisq'inkinden daha sezgiseldir.
 
@@ -2058,7 +2082,7 @@ Daha basit bir seçenek için, alıcıları ve satıcıları yerleşik bir anla�
 -> Peach eğitimimize bakın.
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
 Bir başka çevrimiçi seçenek de, şahsen test etmemiş olsam da, iyi likidite sunan köklü bir platform olan [HodlHodl] (https://hodlhodl.com/).
 
@@ -2066,7 +2090,7 @@ Bir başka çevrimiçi seçenek de, şahsen test etmemiş olsam da, iyi likidite
 -> HodlHodl eğitimimize bakın.
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+https://planb.academy/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
 Lightning Network tabanlı çözümler için [RoboSats](https://learn.robosats.com/) ve [LNP2PBot](https://lnp2pbot.com/) adreslerini deneyebilirsiniz. RoboSats'a bir web sitesi üzerinden erişilebilir ve kullanımı nispeten basittir. LNP2PBot ise Telegram mesajlaşma uygulaması üzerindeki bir Exchange sistemi üzerinden çalıştığı için daha atipiktir.
 
@@ -2077,9 +2101,9 @@ Lightning Network tabanlı çözümler için [RoboSats](https://learn.robosats.c
 -> LNP2PBot eğitimimize bakın.
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.academy/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
-https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+https://planb.academy/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
 
 ![BTC204](assets/tr/096.webp)
 
@@ -2093,7 +2117,7 @@ Yaşadığınız ülkeye bağlı olarak, bitcoin almak veya satmak için KYC pro
 -> Relai hakkındaki eğitimimize bakın.
 
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
 Önceki bölümde gördüğümüz gibi, bu tür platformlar sizi KYC prosedürleriyle ilişkili risklerden kurtarır, ancak anahtar tanımlama için daha yüksek bir risk seviyesi sunarlar. O halde, Bitcoin gizliliği açısından, bu platformlar KYC ile satın alma yöntemlerinden daha iyi koruma sağlar, ancak P2P borsalarından daha az cazip kalırlar.
 
@@ -2128,7 +2152,7 @@ BTC harcamanın en iyi yolu, elbette, bir mal veya hizmet satın almak için do�
 KYC prosedürleri gerektirmeyen birkaç platform, büyük perakendecilerde kullanılabilecek hediye kartları için bitcoin alışverişi imkanı sunmaktadır. Bunlar arasında [CoinsBee](https://www.coinsbee.com/), [The Bitcoin Company](https://thebitcoincompany.com/) ve [Bitrefill](https://www.bitrefill.com/) bulunmaktadır. Bu platformlar, bitcoinlerinizi günlük olarak kullanmanızı çok daha kolay hale getirerek, fiat para birimine dönüştürmek zorunda kalmadan çok çeşitli ürün ve hizmetlere erişmenizi sağlar.
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 ![BTC204](assets/tr/098.webp)
 
@@ -2142,13 +2166,15 @@ Gizliliğinizi koruyarak bitcoin edinmenin diğer yolları arasında elbette Min
 Bir başka yöntem de Exchange'ta bitcoin için çalışmaktır. Bu edinim yöntemi ilginç olabilir, ancak gerekli kimlik belirleme derecesi koşullara bağlı olarak önemli ölçüde değişir.
 
 
-*Bu bölümü yazmak için [@pivi___](https://x.com/pivi___) tarafından Plan ₿ Network üzerinde verilen BTC205 kursunu kullandım (şimdilik sadece Fransızca olarak mevcut)*
+*Bu bölümü yazmak için [@pivi___](https://x.com/pivi___) tarafından Plan ₿ Academy üzerinde verilen BTC205 kursunu kullandım (şimdilik sadece Fransızca olarak mevcut)*
 
 
 ## Konsolidasyon, UTXO yönetimi ve CIOH
 
 
 <chapterId>d0486c8f-332d-402b-ae2e-949416752b9c</chapterId>
+
+:::video id=9e5841a2-4ff5-460e-a161-0e0af57f95d8:::
 
 
 
@@ -2271,6 +2297,8 @@ Her durumda, herhangi bir konsolidasyonun kaçınılmaz olarak gizlilik kaybına
 
 <chapterId>b5216965-7d13-4ea1-9b7c-e292966a487b</chapterId>
 
+:::video id=5fc4ce39-6a0b-419a-baa9-f6da75427987:::
+
 
 
 Bitcoin'te gizliliğinizi optimize etmek için diğer birkaç en iyi uygulamaya göz atalım.
@@ -2352,6 +2380,8 @@ Günlük olarak benimsenmesi gereken tüm bu iyi uygulamalara ek olarak, bitcoin
 
 
 <chapterId>0862bc6b-1c48-4aa4-b76d-4f547b469008</chapterId>
+
+:::video id=37f23334-4b52-43db-8d82-bd84310af86c:::
 
 
 
@@ -2502,6 +2532,8 @@ Bu nedenle günümüz kullanıcıları, süreç boyunca fonları üzerinde tam k
 
 
 <chapterId>326c9654-b359-4906-b23d-d6518dd5dc3e</chapterId>
+
+:::video id=7df91435-f60b-4d80-89a8-79717a14ebd3:::
 
 
 
@@ -2678,6 +2710,8 @@ Bu ayrım aynı zamanda Wallet yazılım seviyesinde ön karışım ve son karı
 
 <chapterId>e37ed073-9498-4e4f-820b-30951e829596</chapterId>
 
+:::video id=36021102-82f3-4e86-80a9-168e3431ce7b:::
+
 
 
 *2024 yılında, Bitcoin üzerinde coinjoins yapmak isteyen kullanıcıların kullanabileceği araçlarda büyük değişikliklere tanık oluyoruz. Şu anda bir dönüm noktasındayız ve CoinJoin pazarı büyük bir yeniden yapılanma sürecinden geçiyor. Bu bölümün zaman içinde güncelleneceğinden emin olabilirsiniz.*
@@ -2797,6 +2831,8 @@ Daha da endişe verici olan, Bitcoin'ün açık, sansürsüz bir finansal sistem
 
 
 <chapterId>bdbd7109-e36d-4b4f-a3c6-928df4e9bfda</chapterId>
+
+:::video id=e40f1195-d028-44d3-be24-d76427f9d24b:::
 
 
 
@@ -3119,7 +3155,7 @@ Bir sonraki bölümde "anonsetlerin" ne olduğunu, bu göstergelerin nasıl hesa
 
 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
 
 
@@ -3127,6 +3163,8 @@ https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e56680
 
 
 <chapterId>be1093dc-1a74-40e5-9545-2b97a7d7d431</chapterId>
+
+:::video id=03d8581a-3454-4225-9068-a6434840cbcb:::
 
 
 
@@ -3238,6 +3276,8 @@ Bu bölümde gördüğümüz gibi, anonsetler yalnızca CoinJoin yapısında bel
 
 
 <chapterId>e4fe289d-618b-49a2-84c9-68c562e708b4</chapterId>
+
+:::video id=5118b15a-a58f-4529-8a91-4e9f6a093fce:::
 
 
 
@@ -3550,7 +3590,7 @@ Ne yazık ki Samourai'nin kurucularının tutuklanmasının ardından bu araçla
 Coinjoinleri ayrıntılı olarak ele aldığımıza göre, kursumuzun son bölümünde Bitcoin'da mevcut olan diğer gizlilik tekniklerine bakacağız. Payjoin'lere, belirli sözde CoinJoin işlem türlerine, statik Address protokollerine ve gizliliği işlemlerin kendi seviyesinde değil, düğüm ağı seviyesinde güçlendirmeye yönelik önlemlere bakacağız.
 
 
-https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
+https://planb.academy/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
 
 # Diğer gelişmiş gizlilik tekniklerinin zorluklarının anlaşılması
 
@@ -3562,6 +3602,8 @@ https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6
 
 
 <chapterId>c1e90b95-f709-4574-837b-2ec26b11286f</chapterId>
+
+:::video id=5496cb59-006e-40b8-971f-af6d98868527:::
 
 
 
@@ -3688,12 +3730,14 @@ PayJoin'yi kullanmanın zorluğu, satıcının katılımına bağlı olmasında 
 
 
 
-https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
+https://planb.academy/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
 
 ## Ödeme mini-CoinJoin
 
 
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
+
+:::video id=1f33e8f1-e41d-4480-a388-e283ef51cc17:::
 
 
 
@@ -3867,14 +3911,16 @@ Bu tür bir işlemi herhangi bir Bitcoin Wallet yazılımından manuel olarak ge
 Bir sonraki bölümde, nispeten bilinmeyen, ancak daha önce çalıştıklarımızı tamamlayıcı olarak çok yararlı olan başka bir gizlilik tekniğine göz atacağız.
 
 
-https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
+https://planb.academy/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
 
-https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
+https://planb.academy/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
 
 ## Sekmeler
 
 
 <chapterId>db9a20ac-a149-443d-884b-ea6c03f28499</chapterId>
+
+:::video id=3c9ce9e5-4081-4c36-98f9-9fc3779c0337:::
 
 
 
@@ -3978,12 +4024,14 @@ Ricocheting basitçe kendinize bitcoin göndermek anlamına gelir. Özel bir ara
 Bir sonraki bölümde, Ownership'ün gizli transferleri için farklı tekniklere bakacağız. Bu yöntemler hem işleyiş hem de sonuçlar açısından şimdiye kadar incelediklerimizden radikal biçimde farklıdır.
 
 
-https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
+https://planb.academy/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
 
 ## Ownership'in gizli transferleri
 
 
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
+
+:::video id=374f79ce-fc61-4528-8b69-b5ca7c7eaa6f:::
 
 
 
@@ -4170,6 +4218,8 @@ Gizli Ownership transfer yöntemlerinin gerçekten etkili olabilmesi ve bir $A$ 
 
 <chapterId>04a2467b-db84-4076-a9ff-919be5135106</chapterId>
 
+:::video id=8428b212-de79-48a5-b984-ed7936861c2f:::
+
 
 
 4. bölümde, işlemlerinizin gizliliğini korumak için bir Full node kullanmanın öneminden bahsetmiştik. Ancak, düğümünüzün kendisinin de faaliyetleriniz hakkında bilgi almak isteyen saldırılara maruz kalabileceğini anlamak önemlidir. Bu nedenle bu bölümde, gizliliğinizi korumak için alabileceğiniz çeşitli önlemlere bakacağız, işlemlerin kendileri veya Bitcoin akışları düzeyinde değil, ağ düzeyinde.
@@ -4285,6 +4335,8 @@ Ağ düzeyinde çeşitli gizlilik yöntemlerini inceledikten sonra, önümüzdek
 
 <chapterId>ad88e076-a04b-4aec-b3b2-7b4760175504</chapterId>
 
+:::video id=b0e9acc2-b50f-4caa-a1d7-cf8624b8e727:::
+
 
 
 Bölüm 3'te gördüğümüz gibi, Address'nin yeniden kullanımı Bitcoin protokolünde kullanıcı gizliliğinin önünde ciddi bir engeldir. Bu riskleri azaltmak için, bir Wallet'da alınan her yeni ödeme için generate'nın boş bir alıcı Address olması şiddetle tavsiye edilir. Yeni bir Address oluşturmak artık modern yazılım ve hiyerarşik deterministik cüzdanların kullanımıyla basitleştirilmiş olsa da, bu uygulama sezgiye aykırı görünebilir.
@@ -4380,10 +4432,10 @@ Bu robotların BIP47 çerçevesinde belirli bir teknik işlevi olmamasına rağm
 
 
 ---
-*Bu bölümün BIP47'ye ayrılan ilerleyen kısımlarında, kullanılan kriptografik yöntemlere özellikle vurgu yaparak nasıl çalıştığına ayrıntılı bir şekilde bakacağız. Bu biraz teknik açıklamaları tam olarak kavramak için öncelikle HD cüzdanlarının yapısını, anahtar türetme prosedürlerini ve eliptik eğri kriptografisinin temellerini anlamak önemlidir. Bu kavramları daha derinlemesine incelemek isterseniz, Plan ₿ Network'de başka bir ücretsiz kurs mevcuttur:*
+*Bu bölümün BIP47'ye ayrılan ilerleyen kısımlarında, kullanılan kriptografik yöntemlere özellikle vurgu yaparak nasıl çalıştığına ayrıntılı bir şekilde bakacağız. Bu biraz teknik açıklamaları tam olarak kavramak için öncelikle HD cüzdanlarının yapısını, anahtar türetme prosedürlerini ve eliptik eğri kriptografisinin temellerini anlamak önemlidir. Bu kavramları daha derinlemesine incelemek isterseniz, Plan ₿ Academy'de başka bir ücretsiz kurs mevcuttur:*
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 *Yine de bunları takip etmenizi tavsiye ederim, çünkü BIP47'nin teknik işleyişini anlamak, ilerleyen bölümlerde tartışacağımız diğer benzer teklifleri anlamanızı çok daha kolaylaştıracaktır*
 
@@ -5455,12 +5507,14 @@ Bob daha sonra Alice'e gönderdiği ödemeleri aynı şekilde geri ödeyebilir. 
 **Fanis Michalakis'e** (https://x.com/FanisMichalakis) bu bölümün yazılmasına ilham veren makaleye ilişkin redaksiyonu ve uzman tavsiyesi için çok teşekkürler!
 
 
-https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
+https://planb.academy/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
 
 ## Sessiz Ödemeler
 
 
 <chapterId>2871d594-414e-4598-a830-91c9eb84dfb8</chapterId>
+
+:::video id=85b2780e-864e-4f64-b843-f272277181e6:::
 
 
 

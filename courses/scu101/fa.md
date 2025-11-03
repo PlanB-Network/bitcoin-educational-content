@@ -43,6 +43,8 @@ Théo; مشارکت
 
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
+:::video id=de7236a0-2985-41ef-86f7-3fa0b7f94531:::
+
 
 **هدف: مهارت‌های امنیتی خود را به‌روز کنید!**
 
@@ -59,7 +61,7 @@ Théo; مشارکت
 
 - رنو لیفچیتز، کارشناس امنیت سایبری
 - تئو پانتامیس، دکتری در ریاضیات کاربردی
-- روگزی، یکی از بنیان‌گذاران Plan ₿ Network
+- روگزی، یکی از بنیان‌گذاران Plan ₿ Academy
 
 
 بهداشت دیجیتال شما در دنیای فزاینده دیجیتال بسیار مهم است. با وجود افزایش مداوم هک و نظارت گسترده، هنوز برای برداشتن اولین قدم و محافظت از خود دیر نشده است.
@@ -126,6 +128,8 @@ Théo; مشارکت
 
 <chapterId>3a935da9-fa6e-57eb-bf85-7b3ec35e6ee2</chapterId>
 
+:::video id=f1cead27-ed41-4ca2-afd2-b08a994d0119:::
+
 
 هنگام مرور اینترنت، اجتناب از اشتباهات رایج برای حفظ امنیت آنلاین شما ضروری است. در اینجا چند نکته برای اجتناب از آنها آورده شده است:
 
@@ -178,12 +182,14 @@ Théo; مشارکت
 ![image](assets/fa/007.webp)
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ## اتصال VPN و اینترنت
 
 
 <chapterId>5aac83f4-a685-54b0-9759-d71bea7eeed2</chapterId>
+
+:::video id=737d30ac-43d8-4a69-afda-89b9d7e8c4e1:::
 
 
 ### وی‌پی‌ان‌ها
@@ -210,9 +216,9 @@ VPNها ابزارهایی هستند که داده‌های منتقل‌شده
 در نهایت، یک VPN می‌تواند برای مسدود کردن تبلیغات آنلاین نیز استفاده شود و تجربه مرور لذت‌بخش‌تر و امن‌تری را فراهم کند. با این حال، انجام تحقیقات کامل برای یافتن VPN که بهترین نیازهای شما را برآورده کند، ضروری است. استفاده از VPN برای افزایش امنیت توصیه می‌شود، حتی هنگام مرور اینترنت در خانه. این کار به اطمینان از سطح بالاتری از حفاظت برای داده‌های مبادله شده آنلاین کمک می‌کند. در نهایت، آیا می‌توانید URLها و قفل کوچک در نوار Address را بررسی کنید تا تأیید کنید که در سایت مورد نظر هستید؟
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 ### HTTPS و شبکه‌های Wi-Fi عمومی
 
@@ -240,6 +246,8 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 
 
 <chapterId>16745632-b56b-5423-9873-ddf70fdf1efd</chapterId>
+
+:::video id=35892007-5ea5-4956-bf80-3363d69c96d5:::
 
 
 امنیت رایانه‌های ما در دنیای دیجیتال امروز یک نگرانی بزرگ است. امروز، ما به سه نکته کلیدی Address خواهیم پرداخت:
@@ -312,6 +320,8 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 
 <chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>
 
+:::video id=c6a2c152-f1ae-492c-8993-304d64cdda45:::
+
 
 ### هکرها چگونه حمله می‌کنند؟
 
@@ -368,9 +378,9 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 اگر ویروسی روی کامپیوتر خود شناسایی کردید، آن را از اینترنت قطع کنید، یک اسکن کامل آنتی‌ویروس انجام دهید و فایل‌های آلوده را حذف کنید. سپس، نرم‌افزار و سیستم‌عامل خود را به‌روزرسانی کنید و رمزهای عبور خود را تغییر دهید تا از نفوذهای بیشتر جلوگیری کنید.
 
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # اجرای راه‌حل‌ها.
 
@@ -382,6 +392,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 
 <chapterId>dfceea33-8712-5557-ace1-6ba5598d33d8</chapterId>
+
+:::video id=75cc914d-9c11-4d3f-86a7-6faf2077f00f:::
 
 
 ### راه‌اندازی یک حساب ایمیل جدید!
@@ -421,12 +433,14 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 پاداش Bitcoin: ممکن است توصیه شود که یک ایمیل خاص Address برای فعالیت‌های Bitcoin خود ایجاد کنیم، مانند ایجاد حساب‌های Exchange، تا این حوزه‌های فعالیت را واقعاً در زندگی‌مان جدا کنیم.
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## مدیر رمز عبور
 
 
 <chapterId>0b3c69b2-522c-56c8-9fb8-1562bd55930f</chapterId>
+
+:::video id=106b6f17-a5c1-4155-abdf-043ce469d45b:::
 
 
 ### مدیر رمز عبور چیست؟
@@ -482,13 +496,15 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 
 رمزهای عبور تصادفی تولید شده سطح بالاتری از امنیت را ارائه می‌دهند، اگرچه ممکن است به خاطر سپردن آن‌ها دشوارتر باشد. مدیران رمز عبور می‌توانند رمزهای عبور تصادفی امن‌تری ایجاد کنند. با استفاده از یک مدیر رمز عبور، نیازی به حفظ کردن تمام رمزهای عبور خود ندارید. ضروری است که به تدریج رمزهای عبور قدیمی خود را با آن‌هایی که توسط مدیر تولید شده‌اند جایگزین کنید، زیرا آن‌ها قوی‌تر و امن‌تر هستند. اطمینان حاصل کنید که رمز عبور اصلی مدیر رمز عبور شما نیز قوی و ایمن باشد.
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## احراز هویت دو مرحله‌ای
 
 <chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>
+
+:::video id=10fede6f-c839-4455-b324-e887c502667e:::
 
 ### چرا 2FA را پیاده‌سازی کنیم؟
 
@@ -548,9 +564,9 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 قانون طلایی: امنیت سایبری یک هدف متحرک است که با مسیر یادگیری شما سازگار خواهد شد!
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 # بخش عملی
 
@@ -567,7 +583,7 @@ https://planb.network/tutorials/computer-security/authentication/security-key-61
 محافظت از حساب ایمیل شما یک گام حیاتی در تأمین امنیت فعالیت‌های آنلاین و حفاظت از داده‌های شماست. این آموزش به صورت گام به گام شما را در ایجاد و راه‌اندازی یک حساب ProtonMail راهنمایی می‌کند، ارائه‌دهنده‌ای که به خاطر سطح بالای امنیت و ارائه رمزگذاری سرتاسری ارتباطات شما شناخته شده است. چه یک کاربر مبتدی باشید و چه یک کاربر با تجربه، بهترین روش‌های ارائه شده در اینجا به شما کمک می‌کند تا امنیت ایمیل خود را تقویت کرده و از ویژگی‌های پیشرفته ProtonMail بهره‌مند شوید:
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## ایمن‌سازی در 2FA
 
@@ -578,12 +594,12 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 احراز هویت دو مرحله‌ای (2FA) برای ایمن‌سازی حساب‌های آنلاین شما ضروری شده است. در این آموزش، یاد خواهید گرفت که چگونه برنامه 2FA به نام Authy را راه‌اندازی و استفاده کنید، که کدهای ۶ رقمی پویا برای محافظت از حساب‌های شما تولید می‌کند. Authy بسیار آسان برای استفاده است و در چندین دستگاه همگام‌سازی می‌شود. بیاموزید که چگونه Authy را نصب و پیکربندی کنید و به این ترتیب امنیت حساب‌های آنلاین خود را همین حالا تقویت کنید:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 گزینه دیگر استفاده از کلید امنیتی فیزیکی است. این آموزش اضافی به شما نشان می‌دهد که چگونه یک کلید امنیتی را به عنوان عامل دوم احراز هویت تنظیم و استفاده کنید:
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ## ایجاد یک مدیر رمز عبور
 
@@ -597,12 +613,12 @@ https://planb.network/tutorials/computer-security/authentication/security-key-61
 در این آموزش، یاد بگیرید چگونه Bitwarden، یک مدیر رمز عبور متن‌باز، را راه‌اندازی کنید و چگونه اعتبارنامه‌های خود را در تمام دستگاه‌هایتان همگام‌سازی کنید تا استفاده روزانه‌تان را ساده‌تر کنید:
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 برای کاربران پیشرفته‌تر، من همچنین یک آموزش در مورد نرم‌افزار رایگان و متن‌باز دیگری ارائه می‌دهم که می‌توانید به صورت محلی برای مدیریت رمزهای عبور خود استفاده کنید:
 
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## ایمن‌سازی حساب‌های شما
 
@@ -613,9 +629,9 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 در این دو آموزش، من همچنین شما را در ایمن‌سازی حساب‌های آنلاین‌تان راهنمایی می‌کنم و توضیح می‌دهم که چگونه به تدریج روش‌های امن‌تری برای مدیریت روزانه رمزهای عبور خود اتخاذ کنید.
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## تغییر مرورگر و VPN
 
@@ -629,14 +645,14 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 پیشنهاد می‌کنم دو راه‌حل قابل اعتماد VPN که پرداخت‌های Bitcoin را می‌پذیرند، یعنی IVPN و Mullvad را بررسی کنید. این آموزش‌ها شما را در نصب، پیکربندی و استفاده از Mullvad یا IVPN بر روی تمام دستگاه‌هایتان راهنمایی می‌کنند:
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 همچنین، یاد بگیرید چگونه از مرورگر Tor استفاده کنید، مرورگری که به طور خاص برای حفاظت از حریم خصوصی آنلاین شما طراحی شده است:
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ## راه‌اندازی پشتیبان‌گیری
 
@@ -647,12 +663,12 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 محافظت از فایل‌های شما نیز یک نکته حیاتی است. این آموزش به شما نشان می‌دهد که چگونه یک استراتژی پشتیبان‌گیری مؤثر با استفاده از Proton Drive پیاده‌سازی کنید. بیاموزید که چگونه از این راه‌حل ابری امن برای اعمال روش ۳-۲-۱ استفاده کنید: سه نسخه از داده‌های خود بر روی دو رسانه مختلف، با یک نسخه خارج از سایت. این امر دسترسی و امنیت فایل‌های حساس شما را تضمین می‌کند:
 
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 و برای ایمن‌سازی فایل‌های شما که بر روی رسانه‌های قابل حمل مانند درایو USB یا درایو خارجی Hard ذخیره شده‌اند، همچنین به شما نشان می‌دهم که چگونه به راحتی این رسانه‌ها را با استفاده از VeraCrypt رمزگذاری و رمزگشایی کنید:
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # بیشتر بروید
 
@@ -664,6 +680,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 
 <chapterId>aad1ae27-4280-5b07-b9ab-118ae013951a</chapterId>
+
+:::video id=4c818b5c-ea5d-496a-8e82-bc5d96d91430:::
 
 
 ### امنیت سایبری: حوزه‌ای در حال رشد با فرصت‌های بی‌پایان
@@ -717,6 +735,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 
 <chapterId>7d83fd98-ce22-514e-b9e8-729fbf71ee6e</chapterId>
+
+:::video id=ec7014aa-5ebe-444c-80d1-7b14f1fe7bb8:::
 
 
 ### مدیریت کارآمد رمز عبور و تقویت احراز هویت: یک رویکرد آکادمیک

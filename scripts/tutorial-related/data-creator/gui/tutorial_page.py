@@ -1,6 +1,6 @@
 import customtkinter as ctk
 from tkinter import messagebox, filedialog
-from utils.constants import SECTIONS, LEVELS
+from utils.constants import SECTIONS, LEVELS, LICENCE_OPTIONS, DEFAULT_LICENCE
 from utils.data_loader import load_allowed_tags, load_all_builders
 from utils.file_ops import create_tutorial_files
 from gui.footer import create_footer
@@ -29,9 +29,10 @@ class TutorialPage(ctk.CTkFrame):
         self.tag1_var = ctk.StringVar(value=tutorial_data.get("tag1", ""))
         self.tag2_var = ctk.StringVar(value=tutorial_data.get("tag2", ""))
         self.tag3_var = ctk.StringVar(value=tutorial_data.get("tag3", ""))
+        self.licence_var = ctk.StringVar(value=tutorial_data.get("licence", DEFAULT_LICENCE))
         
         # Set up grid layout
-        total_rows = 13
+        total_rows = 14
         for i in range(total_rows):
             self.grid_rowconfigure(i, weight=1)
         for j in range(3):
@@ -94,6 +95,15 @@ class TutorialPage(ctk.CTkFrame):
         ctk.CTkEntry(self, textvariable=self.credit_link_var, width=300, font=("Arial", 14, "bold"), placeholder_text="https://...").grid(row=row, column=1, columnspan=2, padx=10, pady=5, sticky="ew")
         row += 1
         
+        # Licence dropdown
+        ctk.CTkLabel(self, text="Licence:").grid(row=row, column=0, padx=10, pady=5, sticky="w")
+        self.licence_menu = ctk.CTkOptionMenu(
+            self, values=LICENCE_OPTIONS, variable=self.licence_var,
+            width=180, font=("Arial", 14, "bold")
+        )
+        self.licence_menu.grid(row=row, column=1, padx=10, pady=5, sticky="w")
+        row += 1
+
         # Tags entry and suggestions with fixed width
         ctk.CTkLabel(self, text="Tags (2 or 3):").grid(row=row, column=0, padx=10, pady=5, sticky="w")
         tag_frame = ctk.CTkFrame(self, width=300)
@@ -222,6 +232,7 @@ class TutorialPage(ctk.CTkFrame):
             "builder_search": self.builder_search_var.get(),
             "project_id": self.project_id_var.get(),
             "credit_link": self.credit_link_var.get(),
+            "licence": self.licence_var.get(),
             "tag1": self.tag1_var.get(),
             "tag2": self.tag2_var.get(),
             "tag3": self.tag3_var.get()
@@ -314,7 +325,8 @@ class TutorialPage(ctk.CTkFrame):
                 level_value=self.level_menu.get(),
                 professor_id=professor_id,
                 contributor_id=contributor_id,
-                credit_link=credit_link
+                credit_link=credit_link,
+                licence=self.licence_var.get()
             )
             messagebox.showinfo("Success", f"Tutorial successfully created in the folder:\n{tutorial_path}")
         except Exception as e:
@@ -331,6 +343,7 @@ class TutorialPage(ctk.CTkFrame):
             self.builder_suggestions_menu.set("")
             self.project_id_var.set("")
             self.credit_link_var.set("")
+            self.licence_var.set(DEFAULT_LICENCE)
             self.tag1_var.set("")
             self.tag2_var.set("")
             self.tag3_var.set("")

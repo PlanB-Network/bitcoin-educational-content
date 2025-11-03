@@ -74,7 +74,7 @@ Kas olete valmis avastama Lightning Networki tehnilisi mehhanisme? Alustame!
 ## Lightning Network'i mõistmine
 
 <chapterId>df6230ae-ff35-56ea-8651-8e65580730a8</chapterId>
-:::video id=ba99951f-81d2-418f-b5e7-4b8c9f8b8cc8:::
+:::video id=4315a277-12fe-4946-bb49-a807e60c09a7:::
 
 
 Lightning Network on maksekanalite võrk, mis on ehitatud Bitcoin'i protokolli peale, eesmärgiga võimaldada kiireid ja madala tasuga tehinguid. See võimaldab luua maksekanaleid osalejate vahel, mille sees saab tehinguid teha peaaegu koheselt ja minimaalsete tasudega, ilma et iga tehingut oleks vaja eraldi plokiahelas salvestada. Seega püüab Lightning Network parandada Bitcoin'i skaleeritavust ja muuta selle kasutatavaks madala väärtusega maksete jaoks.

@@ -64,7 +64,7 @@ Za više informacija o odabiru vaše opreme, preporučujem da pohađate ovaj kur
 
 
 
-https://planb.network/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
+https://planb.academy/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 
 ### Preporučena oprema
 
@@ -192,7 +192,7 @@ Za više detalja o procesu instalacije Ubuntu-a, pogledajte naš posvećeni vodi
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 ### 1.3. ažuriranje sistema
 
@@ -428,7 +428,7 @@ Sistem će vas zatim zamoliti da unesete izabranu lozinku, a zatim je potvrdite 
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ### 3.3. Autorizuj korisnika da koristi Docker
 
@@ -1068,7 +1068,7 @@ Da biste produbili svoje znanje o IBD-u i, generalno, o radu i ulozi vašeg Bitc
 
 
 
-https://planb.network/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
+https://planb.academy/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 
 
 ## 7. Praćenje sinhronizacije

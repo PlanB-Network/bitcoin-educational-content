@@ -11,7 +11,7 @@ description: Bisq 2 kullanımı ve bitcoin alışverişi için eksiksiz kılavuz
 KYC içermeyen eşler arası (P2P) borsalar, kullanıcıların gizliliğini ve finansal özerkliğini korumak için çok önemlidir. Kimlik doğrulamasına ihtiyaç duymadan bireyler arasında doğrudan işlem yapılmasını sağlarlar ki bu da gizliliğe önem verenler için çok önemlidir. Teorik kavramları daha derinlemesine anlamak için BTC204 kursuna bir göz atın:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Bisq 2 nedir?
 
@@ -117,7 +117,7 @@ Bu kılavuz sadece şu anda mevcut olan tek protokol olan "Bisq Easy" üzerine o
 - İndirilen dosyanın gerçekliğini doğrulayın (şiddetle tavsiye edilir). İmza doğrulama ile ilgili ayrıntılı bir kılavuz için aşağıdaki eğitime bakın:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### 2. Sisteminize göre kurulum
 

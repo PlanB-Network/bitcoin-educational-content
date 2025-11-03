@@ -38,6 +38,8 @@ Twifatanye natwe kugira ngo uhindure uko ukoresha Bitcoin maze ube umukoresha af
 
 <chapterId>08ba1933-f393-4fb5-8279-777d874caedb</chapterId>
 
+:::video id=687fe126-56db-4fe2-aaac-e481bbb5d838:::
+
 
 Murakaze mu nyigisho ya BTC204!
 
@@ -127,6 +129,8 @@ Ni mwiteguye gutohoza ivy’ubuzima bwite kuri Bitcoin? Reka tugende!
 
 <chapterId>8d6b50c5-bf74-44f4-922b-25204991cb75</chapterId>
 
+:::video id=60e8f3fa-9607-47ae-ac4f-5aa747d9b6d4:::
+
 
 
 Bitcoin ni amafaranga mbere na mbere, ariko mu vy’ukuri woba uzi ingene BTC ziserukirwa kuri protocole?
@@ -197,6 +201,8 @@ Igitigiri cose c'ama Wallet yawe coba `17 BTC`.
 
 
 <chapterId>29d3aaab-de2e-4746-ab40-c9748898850c</chapterId>
+
+:::video id=c79d651d-ff4a-4a75-bc2b-a48a00c17326:::
 
 
 
@@ -323,6 +329,8 @@ Ica kabiri, nk’uko vyavuzwe mu bice vyabanje, ibiceri vya Bitcoin mu vy’ukur
 
 <chapterId>769d8963-3ed5-4094-b21d-9203c7d9e465</chapterId>
 
+:::video id=f83d8e7a-ff4d-4c05-a8ff-0e601c49a508:::
+
 
 
 ### Amahera: ukuri, ubunyankamugayo n'ugukoresha kabiri
@@ -430,6 +438,8 @@ Ariko kubera ko amafaranga y’ubudandaji ya Bitcoin amenyeshwa abantu bose, bir
 
 <chapterId>7d198ba6-4af2-4f24-86cb-3c79cb25627e</chapterId>
 
+:::video id=3d27ea95-599b-44cc-a24c-a628c2e6a64a:::
+
 
 
 ### Insobanuro n'imikorere
@@ -498,9 +508,9 @@ Rero turakeneye kandi kumenya guhangana n'isesengura rya Blockchain mu gukoresha
 Ni ubuhe buryo bwiza bwo kurwanya isesengura rya Blockchain kuruta kumenya uburyo bukoreshwa muri ryo? Niba ushaka kumenya ingene wokwongerera ubushobozi ubuzima bwite bwawe kuri Bitcoin, urakeneye gutahura ubwo buryo. Ivyo bizotuma utahura neza ubuhinga nka CoinJoin canke PayJoin (ubuhinga tuzorabira mu bice vya nyuma vy’amashure), kandi ugabanye amakosa woshobora gukora.
 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
-https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
+https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
 Muri ivyo, turashobora gushushanya n’ubuhinga bwo gukingira amakuru n’ugusesangura amakuru. Umuhinga mu vy’amabanga ni mbere na mbere umuhinga mu vy’amabanga. Kugira ngo utegure ubuhinga bushasha bwo gupfuka amakuru, urakeneye kumenya ibitero buzohura navyo, kandi ukiga n’igituma ubuhinga bwa kera bwacitse. Iryo hame nyene rirakora no ku bijanye n’ubuzima bwite bwa Bitcoin. Gutahura uburyo bwo gusesangura Blockchain ni urufunguruzo rwo kuvyikingira. Ni co gituma muri iri shure nashizemwo igice cose c’isesengura rya on chain.
 
@@ -549,6 +559,8 @@ Tuzobona ivyo ari vyo mu bice bikurikira, ariko birasanzwe bishimishije kumenya 
 
 
 <chapterId>d365a101-2d37-46a5-bfb9-3c51e37bf96b</chapterId>
+
+:::video id=4bd4c9d4-7997-487c-8760-98c74ae1589e:::
 
 
 
@@ -741,6 +753,8 @@ Kubera izo nzira z’ugucuruza, turashobora gusobanura amakuru amwamwe yerekeye 
 
 <chapterId>c54b5abe-872f-40f4-a0d0-c59faff228ba</chapterId>
 
+:::video id=bbc145cc-5232-41e4-a7f8-1af4e422635a:::
+
 
 
 Heuristic internal ni ikintu kidasanzwe tubona mu gikorwa ubwaco, tutakeneye gusuzuma ibidukikije vyaco, kandi kidushoboza gukuraho. Mu buryo butandukanye n’ibigereranyo, vyibanda ku mibumbe rusangi y’ugucuruza ku rugero rwo hejuru, ubuhinga bwo kumenya imbere mu mutima bushingiye ku makuru ashobora gukurwamwo. Ivyo birimwo:
@@ -900,6 +914,8 @@ Inkomoko: [Mempool.ikibanza](b79d8f8e4756d34bbb26c659ab88314c220834c7a8b781c047a
 
 
 <chapterId>4a170e3b-200d-431a-8285-18a23ff617ba</chapterId>
+
+:::video id=f83c94a1-4f60-4dc7-855d-aa6710064575:::
 
 
 
@@ -1489,6 +1505,8 @@ ___
 
 <chapterId>f3e97645-3df3-41bc-a4ed-d2c740113d96</chapterId>
 
+:::video id=5392183e-e317-499f-9757-b69e9d7cda11:::
+
 
 
 Tumaze kwiga ubuhinga bushobora gusenyura ibanga ryawe kuri Bitcoin, muri iki gice ca gatatu ubu turaza kuraba uburyo bwiza bwo gukurikiza kugira ngo wikingire. Intumbero y’iki gice si ugutohoza uburyo bwo gutuma ibanga rigenda neza, ikintu kizokwihwezwa mu nyuma, ahubwo ni ugutahura ingene umuntu yokorana neza na Bitcoin kugira ngo agumane ibanga itanga mu buryo busanzwe, ata gukoresha ubuhinga bwo kwongerako.
@@ -1663,6 +1681,8 @@ Niba ukeneye ikimenyetso kidahinduka kugira ngo ubone amahera, nk’intererano, 
 
 <chapterId>fbdb07cd-c025-48f2-97b0-bd1bc21c68a8</chapterId>
 
+:::video id=4c411c97-ebb2-483d-b4fa-03109cf5d5d7:::
+
 
 
 Nk’uko twabibonye mu gice kivuga ku gusesangura imirongo, hariho ubuhinga bwinshi bwo gutahura ibintu n’imirongo bishobora gukoreshwa mu gukuraho amakuru yerekeye igikorwa. Nk’uwukoresha, birahambaye ko umenya ubu buhinga kugira ngo ushobore kubukingira neza.
@@ -1813,12 +1833,14 @@ Ubu buryo bwose bwo guhitamwo UTXO bwikora burashobora kuba bwiza mu kugabanya a
 Niba wifuza kumenya ingene woshirako amazina y'ama UTXO yawe, twakoze inyigisho yuzuye ku bijanye n'ubuhinga nyamukuru bwa Bitcoin Wallet hanze:
 
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 ## KYC n'ikimenyetso c'urufunguzo
 
 
 <chapterId>cec6b9d9-0eed-4f85-bc4e-1e9aa59ca605</chapterId>
+
+:::video id=ecf888fe-906f-4293-91b5-1e5ae7b2fde1:::
 
 
 
@@ -1971,6 +1993,8 @@ Mu gusozera, iyo bitcoins zihinduwe n’ibindi bintu, haba ugugura mu mafaranga 
 
 <chapterId>756598af-95aa-4c77-ac48-243c7ad89530</chapterId>
 
+:::video id=9fd3d90f-32f4-48a2-a740-3597249551db:::
+
 
 
 Uhejeje gusoma igice c’imbere, ushobora kuba uriko uribaza ingene woshobora kugura canke kugurisha Bitcoin utaciye mu buryo bwo kugenzura akaranga, kugira ngo wirinde ingorane zijanye n’ugukoresha KYC. Hari uburyo bwinshi bwo gucuruza Bitcoin.
@@ -2048,7 +2072,7 @@ Ku bijanye n’imiti, jewe ubwanje nama nkoresha [Bisq](https://bisq.network/) k
 -> Raba inyigisho yacu ya Bisq.
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+https://planb.academy/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 Kugira ngo ubone uburyo bworoshe, urashobora kugerageza [Peach](https://peachbitcoin.com/), porogarama yo kuri telefone ngendanwa ihuza abaguzi n’abagurisha n’uburyo bwo gutorera umuti amatati bushizwemwo. Ivyo bikorwa birashoboka cane kuruta ivya Bisq.
 
@@ -2056,7 +2080,7 @@ Kugira ngo ubone uburyo bworoshe, urashobora kugerageza [Peach](https://peachbit
 -> Raba inyigisho yacu ya Peach.
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
 Iyindi nzira yo kuri internet ni [HodlHodl](https://hodlhodl.com/), urubuga rwashinzwe neza rutanga amahera meza, naho jewe ubwanje ntari naragerageje.
 
@@ -2064,7 +2088,7 @@ Iyindi nzira yo kuri internet ni [HodlHodl](https://hodlhodl.com/), urubuga rwas
 -> Raba inyigisho yacu ya HodlHodl.
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+https://planb.academy/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
 Ku bijanye n’ibisubizo bishingiye kuri Lightning Network, gerageza [RoboSats] na [LNP2PBot]. RoboSats ushobora kuyironka biciye ku rubuga kandi yoroshe gukoresha. LNP2PBot ni ikintu kidasanzwe, kuko ikora biciye ku nzira ya Exchange ku rubuga rwo gutanga ubutumwa rwa Telegram.
 
@@ -2075,9 +2099,9 @@ Ku bijanye n’ibisubizo bishingiye kuri Lightning Network, gerageza [RoboSats] 
 -> Raba inyigisho yacu ya LNP2PBot.
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.academy/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
-https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+https://planb.academy/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
 
 ![BTC204](assets/rn/096.webp)
 
@@ -2091,7 +2115,7 @@ Bivanye n’igihugu ubamwo, ushobora kuronka uburenganzira bwo gukoresha ama pla
 -> Raba inyigisho yacu kuri Relai.
 
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
 Nk’uko twabibonye mu kigabane c’imbere, ubwo bwoko bw’urubuga buragukiza ingorane zijanye n’uburyo bwa KYC, ariko buratanga urugero rwo hejuru rw’ingorane zo kumenya ivy’ingenzi. Ku bijanye n’ibanga rya Bitcoin rero, izo nzira zitanga uburinzi bwiza kuruta uburyo bwo kugura hakoreshejwe KYC, ariko ziguma zidakwegera cane nk’uguhinduranya P2P.
 
@@ -2126,7 +2150,7 @@ Uburyo bwiza bwo gukoresha BTC ni, birumvikana, gukoresha Bitcoin canke Lightnin
 Ivyuma vyinshi bidasaba uburyo bwa KYC biratanga ubushobozi bwo guhindura amafaranga y’ama bitcoins ku makarita y’ingabirano ashobora gukoreshwa ku maduka akomeye. Ivyo birimwo [CoinsBee](Ishirahamwe Bitcoin](Ishirahamwe ry’Ibiceri) na [Bitrefill](Ishirahamwe ry’Ibiceri.com/). Izo nzira zituma vyoroha cane gukoresha amafaranga yawe ya bitcoins ku musi ku musi, bikaguha uburenganzira bwo kuronka ibintu vyinshi n’ibikorwa vyinshi ataco ukeneye kubihindura mu mafaranga y’amahera.
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 ![BTC204](assets/rn/098.webp)
 
@@ -2140,13 +2164,15 @@ Ubundi buryo bwo kuronka bitcoins mu gihe urinda ubuzima bwite bwawe harimwo, bi
 Ubundi buryo ni ugukora muri Exchange ku bitcoins. Ubwo buryo bwo kuronka umuntu burashobora gushimisha, mugabo urugero rwo kumenya umuntu rusabwa ruratandukanye cane bivanye n’ingene ivyo bintu vyifashe.
 
 
-*Kugira ngo ndiko ndandika iki gice, nakoresheje inyigisho ya BTC205 yatanzwe na* [@pivi___](https://x.com/pivi___) *ku rupapuro rwa Plan ₿ Network (ruboneka mu gifaransa gusa muri iki gihe)*
+*Kugira ngo ndiko ndandika iki gice, nakoresheje inyigisho ya BTC205 yatanzwe na* [@pivi___](https://x.com/pivi___) *ku rupapuro rwa Plan ₿ Academy (ruboneka mu gifaransa gusa muri iki gihe)*
 
 
 ## Gushiramwo, uburongozi bwa UTXO na CIOH
 
 
 <chapterId>d0486c8f-332d-402b-ae2e-949416752b9c</chapterId>
+
+:::video id=9e5841a2-4ff5-460e-a161-0e0af57f95d8:::
 
 
 
@@ -2269,6 +2295,8 @@ Uko biri kwose, ntimwibagire ko ugushira hamwe kwose ata kabuza gutuma umuntu at
 
 <chapterId>b5216965-7d13-4ea1-9b7c-e292966a487b</chapterId>
 
+:::video id=5fc4ce39-6a0b-419a-baa9-f6da75427987:::
+
 
 
 Reka turabe ubundi buryo bwiza bwo gutuma ubuzima bwite bwawe bugenda neza kuri Bitcoin.
@@ -2350,6 +2378,8 @@ Uretse ivyo bikorwa vyiza vyose vyo gukurikiza ku musi ku musi, hari mbere n’u
 
 
 <chapterId>0862bc6b-1c48-4aa4-b76d-4f547b469008</chapterId>
+
+:::video id=37f23334-4b52-43db-8d82-bd84310af86c:::
 
 
 
@@ -2500,6 +2530,8 @@ Abakoresha muri iki gihe rero barakunda CoinJoin, kuko ibafasha kuguma bafise ub
 
 
 <chapterId>326c9654-b359-4906-b23d-d6518dd5dc3e</chapterId>
+
+:::video id=7df91435-f60b-4d80-89a8-79717a14ebd3:::
 
 
 
@@ -2676,6 +2708,8 @@ Ubu, Whirlpool ni yo yonyene ikoresha CoinJoin ikoresha cane umurongo wa Zerolin
 
 <chapterId>e37ed073-9498-4e4f-820b-30951e829596</chapterId>
 
+:::video id=36021102-82f3-4e86-80a9-168e3431ce7b:::
+
 
 
 **Mu mwaka w'2024, turiko turabona amahinduka akomeye mu bikoresho biriho ku bakoresha bipfuza gukora coinjoins kuri Bitcoin. Ubu turi mu gihe c'ihinduka, kandi isoko rya CoinJoin ririko rihindurwa cane. Iki gice nta gukeka ko kizosubirwamwo uko igihe kigenda kirarenga**
@@ -2795,6 +2829,8 @@ Nk'uko muzoba mwabikoranye ubu, ivyo nkunda ni vy'ukuri Whirlpool model ku coinj
 
 
 <chapterId>bdbd7109-e36d-4b4f-a3c6-928df4e9bfda</chapterId>
+
+:::video id=e40f1195-d028-44d3-be24-d76427f9d24b:::
 
 
 
@@ -3117,7 +3153,7 @@ Mu gice gikurikira, tuzomenya ivyo "anonsets" ari vyo, ingene ivyo bimenyetso bi
 
 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
 
 
@@ -3125,6 +3161,8 @@ https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e56680
 
 
 <chapterId>be1093dc-1a74-40e5-9545-2b97a7d7d431</chapterId>
+
+:::video id=03d8581a-3454-4225-9068-a6434840cbcb:::
 
 
 
@@ -3236,6 +3274,8 @@ Nk’uko twabibonye muri iki kigabane, anonsets zishobora kubarwa gusa iyo harih
 
 
 <chapterId>e4fe289d-618b-49a2-84c9-68c562e708b4</chapterId>
+
+:::video id=5118b15a-a58f-4529-8a91-4e9f6a093fce:::
 
 
 
@@ -3548,7 +3588,7 @@ Ikibabaje ni uko inyuma y’aho abashinze Samourai bafashwe, ivyo bikoresho ntib
 Ubu ko twavuze coinjoins mu buryo burambuye, turaza kuraba ubundi buryo bwo gukingira ubuzima bwite buboneka kuri Bitcoin mu gice ca nyuma c’inyigisho yacu. Tuzoba turiko turaraba payjoins, ubwoko bwihariye bw’ibikorwa vy’ubuhinga bwa pseudo-CoinJoin, amasezerano ya Address adahinduka, hamwe n’ingero zo gukomeza ibanga atari ku rugero rw’ibikorwa ubwavyo, ariko ku rugero rw’uruzitiro rw’ibice.
 
 
-https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
+https://planb.academy/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
 
 # Gutahura ingorane z'ubundi buryo buteye imbere bwo gukingira ibanga .
 
@@ -3560,6 +3600,8 @@ https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6
 
 
 <chapterId>c1e90b95-f709-4574-837b-2ec26b11286f</chapterId>
+
+:::video id=5496cb59-006e-40b8-971f-af6d98868527:::
 
 
 
@@ -3686,12 +3728,14 @@ Umuti umwe woba ari ugukoresha imiterere y’ugucuruza izana ubusobanuro butari 
 
 
 
-https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
+https://planb.academy/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
 
 ## Ukwishura guto-CoinJoin
 
 
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
+
+:::video id=1f33e8f1-e41d-4480-a388-e283ef51cc17:::
 
 
 
@@ -3865,14 +3909,16 @@ Birashoboka kandi gukora ubwo bwoko bw’ugucuruza n’amaboko ukoresheje poroga
 Mu kigabane gikurikira, turaza kuraba ubundi buryo bwo gukingira ibanga butazwi cane, ariko bufise akamaro kanini nk’inyongera y’ivyo twamaze kwiga.
 
 
-https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
+https://planb.academy/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
 
-https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
+https://planb.academy/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
 
 ## Ivyo bikoko
 
 
 <chapterId>db9a20ac-a149-443d-884b-ea6c03f28499</chapterId>
+
+:::video id=3c9ce9e5-4081-4c36-98f9-9fc3779c0337:::
 
 
 
@@ -3976,12 +4022,14 @@ Ricocheting bisigura gusa kwirungikira ama bitcoins. Birashoboka cane ricochet b
 Mu kigabane gikurikira, turaba ubuhinga butandukanye bwo gutanga Ownership mu mpisho. Ubwo buryo buratandukanye cane n’ubwo twasuzumye gushika ubu, haba mu bijanye n’ingene bukora be n’ivyo buvamwo.
 
 
-https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
+https://planb.academy/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
 
 ## Ibanga ry'iherezo rya Ownership
 
 
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
+
+:::video id=374f79ce-fc61-4528-8b69-b5ca7c7eaa6f:::
 
 
 
@@ -4168,6 +4216,8 @@ Gushika ubu, ahanini twize uburyo bwo gukingira ibanga ku rugero rw’ibikorwa u
 
 <chapterId>04a2467b-db84-4076-a9ff-919be5135106</chapterId>
 
+:::video id=8428b212-de79-48a5-b984-ed7936861c2f:::
+
 
 
 Mu gice ca 4, twavuganye akamaro ko gukoresha urupapuro rwa Full node kugira ngo ukinge ibanga ry’amahera ukoresha. Ariko rero, birahambaye gutahura ko node yawe ubwayo ishobora guterwa n’ibitero birondera gukura amakuru yerekeye ibikorwa vyawe. Muri iki gice rero, turaza kuraba ingingo zitandukanye ushobora gufata kugira ngo ukinge ubuzima bwite bwawe, atari ku rugero rw’ibikorwa ubwavyo canke ivy’imigenderanire ya Bitcoin, ariko ku rugero rw’urubuga.
@@ -4283,6 +4333,8 @@ Maze gutohoza uburyo butandukanye bwo gukingira ibanga ku rugero rw’urubuga, m
 
 <chapterId>ad88e076-a04b-4aec-b3b2-7b4760175504</chapterId>
 
+:::video id=b0e9acc2-b50f-4caa-a1d7-cf8624b8e727:::
+
 
 
 Nk’uko twabibonye mu gice ca 3, gusubira gukoresha Address ni intambamyi ikomeye ku mabanga y’abakoresha ku masezerano ya Bitcoin. Kugira ngo ivyo bibazo bigabanywe, biraremeshwa cane ko generate igira Address ku giciro gishasha cose yaronse muri Wallet. Naho guhingura Address nshasha ubu vyoroshe kubera gukoresha porogarama za none be n’amasakoshi y’ubukuru, iyo ngeso yoshobora gusa n’iyiteye kubiri n’ubwenge.
@@ -4378,10 +4430,10 @@ Naho izo robo zitagira ubuhinga bwihariye mu rwego rwa BIP47, zirafise uruhara m
 
 
 ---
-*Mu bice bikurikira vy’iki gice vyerekeye BIP47, tuzokwihweza mu buryo burambuye ingene ikora, dushimikiye cane cane ku buryo bwo gukora amakuru y’ibanga bukoreshwa. Kugira ngo utahure neza izo nsobanuro zimwe zimwe z’ubuhinga, birakenewe ko ubanza gutahura imiterere y’amasakoshi ya HD, uburyo bwo gukuraho amakuru n’ivy’ishimikiro vy’ubuhinga bwo gukingira amakuru. Niba wifuza kwihweza cane ivyo vyiyumviro, hariho irindi nyigisho ry’ubuntu kuri Plan ₿ Network:*
+*Mu bice bikurikira vy’iki gice vyerekeye BIP47, tuzokwihweza mu buryo burambuye ingene ikora, dushimikiye cane cane ku buryo bwo gukora amakuru y’ibanga bukoreshwa. Kugira ngo utahure neza izo nsobanuro zimwe zimwe z’ubuhinga, birakenewe ko ubanza gutahura imiterere y’amasakoshi ya HD, uburyo bwo gukuraho amakuru n’ivy’ishimikiro vy’ubuhinga bwo gukingira amakuru. Niba wifuza kwihweza cane ivyo vyiyumviro, hariho irindi nyigisho ry’ubuntu kuri Plan ₿ Academy:*
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 *Nzoguma ndaguhanura ngo ubikurikize, kuko gutahura ubuhinga bwa BIP47 bizokworohera cane gutahura ibindi vyiyumviro bisa n'ivyo, ivyo tuzobivugako mu bice bikurikira*
 
@@ -5453,12 +5505,14 @@ Bob ashobora rero kwishura Alice mu buryo bumwe nyene yamurungikiye amahera. Uru
 *Turakoze cane [Fanis Michalakis](https://x.com/FanisMichalakis) ku gukosora n'impanuro z'abahinga ku ngingo yatumye ndiko ndandika iki gice!*
 
 
-https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
+https://planb.academy/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
 
 ## Ukwishyura mu gacerere
 
 
 <chapterId>2871d594-414e-4598-a830-91c9eb84dfb8</chapterId>
+
+:::video id=85b2780e-864e-4f64-b843-f272277181e6:::
 
 
 

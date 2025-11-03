@@ -851,9 +851,7 @@ Cette histoire montre que des hommes libres travaillant dans la poursuite de leu
 
 Le prix Nobel d’économie 1976 Milton Friedman a également repris cette histoire du crayon pour expliquer au grand public le fonctionnement de l’économie de marché.
 
-:::video id=db48376a-64c9-48b8-a8fb-2640c9b5bf73:::
-
-Dans un épisode de sa série télévisée Free to Choose, il analyse les différents com­po­sants d’un objet aussi banal et simple qu’un crayon et il met en lumière le miracle de l’ordre spontané, généré par les milliers d’interactions économiques à travers le monde. Des personnes qui ne se connaissent pas, qui n’ont pas la même religion ni les mêmes coutumes, réussissent pourtant à se coordonner pour produire cet objet. Il conclut le fait que le libre marché est essentiel pour garantir non seulement la prospérité mais aussi l’harmonie et la paix.
+Dans un [épisode](https://www.youtube.com/watch?v=67tHtpac5ws) de sa série télévisée Free to Choose, il analyse les différents com­po­sants d’un objet aussi banal et simple qu’un crayon et il met en lumière le miracle de l’ordre spontané, généré par les milliers d’interactions économiques à travers le monde. Des personnes qui ne se connaissent pas, qui n’ont pas la même religion ni les mêmes coutumes, réussissent pourtant à se coordonner pour produire cet objet. Il conclut le fait que le libre marché est essentiel pour garantir non seulement la prospérité mais aussi l’harmonie et la paix.
 
 ![image](assets/fr/088.webp)
 

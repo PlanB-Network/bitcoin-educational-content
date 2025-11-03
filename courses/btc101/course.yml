@@ -46,156 +46,159 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 21.99
+    reward: 22.03
   - language: de
     last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
       - reneplass
-    reward: 8.26
+    reward: 8.28
   - language: en
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - Ncfab
-    reward: 8.26
+    reward: 8.28
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 16.52
+    reward: 16.55
   - language: fi
     last_contribution_date: 2024-04-02
     urgency: 1
     contributor_names:
       - KryptoKeskus
-    reward: 10.99
+    reward: 11.02
   - language: fr
-    last_contribution_date: 2025-08-18
+    last_contribution_date: 2025-10-31
     urgency: 1
     contributor_names:
       - Asi0Flammeus
       - ProfScofield21
-    reward: 4.13
+      - nrak10
+    reward: 0
   - language: it
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - TinF0ilHat1
       - f205sats
-    reward: 4.13
+    reward: 4.14
   - language: ja
     last_contribution_date: 2023-12-03
     urgency: 1
     contributor_names:
       - yutaro21jp
-    reward: 16.47
+    reward: 16.5
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 16.52
+    reward: 16.55
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
       - Reshetenko
-    reward: 10.99
+    reward: 11.02
   - language: vi
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - Henry-Da0
       - Anh-La
-    reward: 8.23
+    reward: 8.25
   - language: et
     last_contribution_date: 2024-09-24
     urgency: 1
     contributor_names:
       - taneltheplanet
-    reward: 10.99
+    reward: 11.02
   - language: id
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - AraleB
       - bitcoinindo21
-    reward: 6.87
+    reward: 6.88
   - language: zh-Hans
     last_contribution_date: 2024-09-24
     urgency: 1
     contributor_names:
       - MilankovicProtocol
-    reward: 13.73
+    reward: 13.76
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 21.99
+    reward: 22.03
   - language: pl
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - MisinhaP
-    reward: 10.99
+    reward: 11.02
   - language: hi
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - e-manuel7
-    reward: 19.2
+    reward: 19.24
   - language: sr-Latn
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - Sanja993
-    reward: 10.99
+    reward: 11.02
   - language: sw
     last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
       - monyangi10
       - Arianebtc
-    reward: 5.5
+    reward: 5.51
   - language: zh-Hant
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - Showyuan
-    reward: 13.73
+    reward: 13.76
   - language: fa
     last_contribution_date: 2025-05-24
     urgency: 1
     contributor_names:
       - Arshia-r-m
-    reward: 10.99
+    reward: 11.02
   - language: sv
     last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
       - Petrahodl
-    reward: 8.26
+    reward: 8.28
   - language: nl
     last_contribution_date: 2025-08-24
     urgency: 1
     contributor_names:
       - rogerbracket
-    reward: 10.99
+    reward: 11.02
   - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 27.46
+    reward: 27.52
   - language: ko
-    last_contribution_date:
+    last_contribution_date: 2025-10-31
     urgency: 1
     contributor_names:
-    reward: 21.99
+      - my3rdstory
+    reward: 13.76
   - language: rn
-    last_contribution_date:
+    last_contribution_date: 2025-10-31
     urgency: 1
     contributor_names:
-    reward: 32.93
+      - barakana
+    reward: 16.5
 tags:
   - user-friendly
   - wallets

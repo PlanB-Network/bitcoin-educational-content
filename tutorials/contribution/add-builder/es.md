@@ -1,6 +1,6 @@
 ---
 name: Añadiendo un Constructor
-description: ¿Cómo proponer la adición de un nuevo constructor en PlanB Network?
+description: ¿Cómo proponer la adición de un nuevo constructor en Plan ₿ Academy?
 ---
 ![constructor](assets/cover.webp)
 
@@ -12,7 +12,7 @@ La misión de PlanB es proporcionar recursos educativos de primera categoría so
 
 - Primero, necesitas tener una cuenta de GitHub. Si no sabes cómo crear una cuenta, hemos hecho un tutorial detallado para guiarte.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Ve al [repositorio de GitHub de PlanB dedicado a datos](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects) en la sección `resources/project/`:
@@ -23,7 +23,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
   
 ![constructor](assets/03.webp)
 
-- Si nunca has contribuido al contenido de PlanB Network antes, necesitarás crear tu fork del repositorio original. Hacer un fork de un repositorio significa crear una copia de ese repositorio en tu propia cuenta de GitHub, lo que te permite trabajar en el proyecto sin afectar el repositorio original. Haz clic en el botón `Fork this repository`:
+- Si nunca has contribuido al contenido de Plan ₿ Academy antes, necesitarás crear tu fork del repositorio original. Hacer un fork de un repositorio significa crear una copia de ese repositorio en tu propia cuenta de GitHub, lo que te permite trabajar en el proyecto sin afectar el repositorio original. Haz clic en el botón `Fork this repository`:
   
 ![constructor](assets/04.webp)
 
@@ -137,7 +137,7 @@ category: educación
   
 ![constructor](assets/14.webp)
 
-- Selecciona tu fork del repositorio de PlanB Network:
+- Selecciona tu fork del repositorio de Plan ₿ Academy:
   
 ![constructor](assets/15.webp)
 
@@ -181,7 +181,7 @@ category: educación
   
 ![constructor](assets/25.webp)
 
-- Se abrirá una nueva página. Arrastra y suelta una imagen de tu empresa o tu software en el área. Esta imagen se mostrará en el sitio de PlanB Network:
+- Se abrirá una nueva página. Arrastra y suelta una imagen de tu empresa o tu software en el área. Esta imagen se mostrará en el sitio de Plan ₿ Academy:
   
 ![constructor](assets/26.webp)
 
@@ -234,7 +234,7 @@ contributors:
  - 
 ```
 
-- Para la clave `contributors`, puedes agregar tu identificador de colaborador en PlanB Network si tienes uno. Si no lo tienes, deja este campo vacío.
+- Para la clave `contributors`, puedes agregar tu identificador de colaborador en Plan ₿ Academy si tienes uno. Si no lo tienes, deja este campo vacío.
 - Para la clave `description`, simplemente necesitas agregar un párrafo corto que describa tu empresa o tu software. La descripción debe estar en el mismo idioma que el nombre del archivo. No es necesario traducir esta descripción a todos los idiomas soportados en el sitio, ya que los equipos de PlanB lo harán utilizando su modelo. Por ejemplo, así es como podría lucir tu archivo:
 ```yaml
 description: |
@@ -273,9 +273,9 @@ contributors:
   
 ![project](assets/44.webp)
 
-¡Felicidades! Tu PR ha sido creado con éxito. Un administrador lo revisará ahora y, si todo está en orden, lo integrará al repositorio principal de PlanB Network. Deberías ver tu perfil de constructor aparecer en el sitio web unos días después.
+¡Felicidades! Tu PR ha sido creado con éxito. Un administrador lo revisará ahora y, si todo está en orden, lo integrará al repositorio principal de Plan ₿ Academy. Deberías ver tu perfil de constructor aparecer en el sitio web unos días después.
 
-Asegúrate de seguir el progreso de tu PR. Un administrador puede dejar un comentario solicitando información adicional. Mientras tu PR no esté validado, puedes consultarlo en la pestaña `Pull requests` en el repositorio de GitHub de PlanB Network:
+Asegúrate de seguir el progreso de tu PR. Un administrador puede dejar un comentario solicitando información adicional. Mientras tu PR no esté validado, puedes consultarlo en la pestaña `Pull requests` en el repositorio de GitHub de Plan ₿ Academy:
 
 ![project](assets/45.webp)
 

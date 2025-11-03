@@ -101,7 +101,7 @@ Qubes OSはまた、デジタル環境の完全な透明性とコントロール
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+https://planb.academy/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
 
 Qubes OSは、侵入不可能なシステムを構築することを目指すのではなく、回復力に重点を置いています。つまり、侵入された場合のダメージをカプセル化し、システムの他の部分へのリスクを軽減します。この実用的なアプローチにより、Qubes OSは高いセキュリティを必要とするユーザーや、デジタルライフを最大限にコントロールしたいユーザーに選ばれています。
 
@@ -126,7 +126,7 @@ Qubes OS をインストールするには、Qubes OS [公式サイト](https://
 
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ![0_01](assets/fr/01.webp)
 
@@ -327,4 +327,4 @@ Qube を作成するには、スタートメニューからアクセスできる
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

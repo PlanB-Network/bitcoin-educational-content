@@ -95,7 +95,7 @@ Ekraanile luuakse QR-kood. Jällegi peate selle QR-koodi edastama ColdCardQ "saa
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 *Praegu on meil:*
 
@@ -145,7 +145,7 @@ Nüüd palutakse teil valida 2 ColdCardQ vahel edastatavate saladuste laad (konf
 
 
 
-Siin on meie saladus lühisõnum, valides **"Kiirsõnum "**. Kirjutage oma sõnum (meie puhul "PlanB Network rocks") ja vajutage seejärel **"ENTER "**.
+Siin on meie saladus lühisõnum, valides **"Kiirsõnum "**. Kirjutage oma sõnum (meie puhul "Plan ₿ Academy rocks") ja vajutage seejärel **"ENTER "**.
 
 
 Seejärel genereerib seade uue juhusliku salasõna nimega **"Telepordi salasõna "** , näiteks "NE XG BT SK".
@@ -190,7 +190,7 @@ Vajutage nuppu **"QR "**, et skaneerida saatva seadme poolt visioonikanali kaudu
 
 
 
-Seejärel dekrüpteeritakse andmed ja tehakse need vastuvõtvale seadmele arusaadavaks. Saadud sõnum on tõepoolest "PlanB Network rocks". See on kõik.
+Seejärel dekrüpteeritakse andmed ja tehakse need vastuvõtvale seadmele arusaadavaks. Saadud sõnum on tõepoolest "Plan ₿ Academy rocks". See on kõik.
 
 
 

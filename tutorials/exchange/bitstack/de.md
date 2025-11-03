@@ -51,9 +51,9 @@ Wählen Sie ein sicheres Passwort, um den Zugang zu Ihrem Konto zu schützen, un
 
 ![Image](assets/fr/06.webp)
 
-Für die sichere Verwaltung von Passwörtern im Alltag ist die Verwendung eines Passwortmanagers sehr zu empfehlen. Auf Plan ₿ Network finden Sie mehrere Anleitungen zu den besten bestehenden Lösungen, wie z. B. Bitwarden:
+Für die sichere Verwaltung von Passwörtern im Alltag ist die Verwendung eines Passwortmanagers sehr zu empfehlen. Auf Plan ₿ Academy finden Sie mehrere Anleitungen zu den besten bestehenden Lösungen, wie z. B. Bitwarden:
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Sie werden dann aufgefordert, Ihre Identität zu überprüfen (KYC). In Übereinstimmung mit den französischen Vorschriften werden Sie aufgefordert, Ihre persönlichen Daten und einen Identitätsnachweis vorzulegen. Füllen Sie die Felder mit Ihrem Namen, Vornamen und Geburtsdatum aus.
 
@@ -184,7 +184,7 @@ Bestimmen Sie die Priorität der Transaktion. Für eine gebührenfreie Abhebung 
 
 ![Image](assets/fr/32.webp)
 
-Wenn Sie mit der Funktionsweise eines Selbstverwahrungsportfolios nicht vertraut sind, bieten wir Ihnen Anleitungen zu den meisten der verfügbaren Lösungen [im Plan ₿ Network im Bereich "*Wallet*"] (https://planb.network/tutorials/wallet).
+Wenn Sie mit der Funktionsweise eines Selbstverwahrungsportfolios nicht vertraut sind, bieten wir Ihnen Anleitungen zu den meisten der verfügbaren Lösungen [im Plan ₿ Academy im Bereich "*Wallet*"] (https://planb.academy/tutorials/wallet).
 
 ## Bitcoin verkaufen
 

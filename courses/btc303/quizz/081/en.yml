@@ -1,0 +1,8 @@
+question: What is the primary reason that performance bugs in Bitcoin can potentially be weaponized to create network partitions according to security experts?
+answer: Performance bugs can be strategically deployed to separate specific miners and exchanges from the rest of the network, enabling double-spend attacks
+wrong_answers:
+  - Performance bugs primarily affect transaction confirmation times, making the network unreliable for merchants and users
+  - Performance bugs consume excessive computational resources, forcing nodes to shut down and reducing network decentralization
+  - Performance bugs create memory leaks that eventually crash nodes, leading to temporary network instability and reduced hash rate
+explanation: |
+  Gregory Maxwell specifically warned that performance bugs, when expertly deployed, can be used to partition the network strategically - for example, separating 'miner A and exchange B' into one partition while everyone else goes into another, creating conditions for double-spend attacks. This demonstrates why seemingly minor issues should be treated as potentially severe, as they can be weaponized in sophisticated ways that aren't immediately obvious.

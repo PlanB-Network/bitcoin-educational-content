@@ -18,7 +18,7 @@ Bitcoin ökosüsteemis on Satoshi Wallet soovitatav Wallet välkmaksetega alusta
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 Bitcoin kasutuselevõtu hõlbustamiseks kogukondades üle kogu maailma on Satoshi Wallet loonud ka müügipunkti, et julgustada kasutajaid leidma oma kogukonnas tõestatud kasutusvõimalusi: kaupade ja teenuste ostmine ja müümine Bitcoin abil.
 
@@ -174,16 +174,16 @@ Nüüd on teil olemas vahend, millega saate Bitcoin oma ettevõttes vaid mõne m
 
 
 
-https://planb.network/tutorials/business/point-of-sale/breez-pos-76d6bf36-f4b5-422e-8579-edf149021525
+https://planb.academy/tutorials/business/point-of-sale/breez-pos-76d6bf36-f4b5-422e-8579-edf149021525
 
 Ja kui otsite täielikku PoS-i, mis sobib väikestele ja keskmise suurusega ettevõtetele, siis soovitan ka Swiss Bitcoin Pay:
 
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 Lõpuks leiate meie täieliku koolituskursuse, et õppida Bitcoin maksmise ja rahavoogude põhitõdesid ettevõtetele:
 
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

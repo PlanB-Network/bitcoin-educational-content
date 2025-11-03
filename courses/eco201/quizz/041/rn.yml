@@ -1,12 +1,12 @@
-question: Ni uruhara uruhe urwego rw’amabanki rufise mu gutuma haba ugusubira inyuma kw’ubutunzi hakurikijwe inyigisho ya Otirishiya y’ingendo y’ubudandaji?
-answer: Uruganda rw’amabanki rutera ugusubira inyuma kw’ubutunzi iyo rufashe ingingo yo kugabanya ingorane zarwo, bigatuma rero rugabanya uruja n’uruza rw’inguzanyo.
+question: Ni uruhara uruhe igisata c’amabanki gifise mu gutuma haba ugusubira inyuma kw’ubutunzi hakurikijwe inyigisho y’ingendo y’ubudandaji ya otirishi?
+answer: igisata c’amabanki gitera ugusubira inyuma kw’ubutunzi iyo rufashe ingingo yo kugabanya ingorane zishobora kubashikira, bigatuma rero rugabanya uruja n’uruza rw’ingurane.
 wrong_answers:
-  - Uruganda rw’amabanki rutera ugusubira inyuma kw’ubutunzi iyo rufashe ingingo yo kwongera ingorane, bigatuma rero uruja n’uruza rw’inguzanyo rwongera.
-  - Uruganda rw’amabanki rutera ugusubira inyuma kw’ubutunzi iyo rufashe ingingo yo kuguma rufise ingorane, bigatuma ruguma rufise inguzanyo.
-  - Uruganda rw’amabanki nta ruhara rufise mu gutuma ubutunzi bugwa nk’uko bivugwa n’Iciyumviro c’Ubucuruzi c’Ubudagi.
+  - Igisata c’amabanki gitera ugusubira inyuma kw'ubutunzi iyo bafashe ingingo yo kwongera irugero rw'ibibazo bishobora kubashikira, bigatuma rero uruja n’uruza rw’ingurane rwiyongera.
+  - Igisata c’amabanki gitera ugusubira inyuma kw’ubutunzi iyo bafashe ingingo yo kuguma mubibazo, bigatuma baguma bafise ingurane.
+  - Igisata c’amabanki nta ruhara rufise mu gutuma ubutunzi bugwa nk’uko bivugwa n’Iciyumviro c’Ubucuruzi c’Ubudagi.
 explanation: |
-  Dukurikije inyigisho y’i Otirishiya yerekeye uruzitiro rw’ubudandaji, urwego rw’amabanki .
+  Dukurikije inyigisho y’i Otirishi yerekeye uruzitiro rw’ubudandaji, urwego rw’amabanki .
   ivyura ugusubira inyuma kw’ubutunzi iyo ifashe ingingo yo kugabanya ingorane zayo, bigatuma igabanuka .
-  uruja n’uruza rw’inguzanyo. Ivyo bituma abantu benshi bahomba, inguzanyo zigakomera, zigabanuka .
+  uruja n’uruza rw’inguzanyo. Ivyo bituma abantu benshi bahomba, ingurane zigakomera, zigabanuka .
   mu bushobozi bwo kugura buriho, no mu gusenyuka kw’amahera.
 reviewed: true

@@ -32,7 +32,7 @@ Yeni başlayanlara ve orta düzey kullanıcılara yönelik olan bu eğitimde, En
 İleri düzey bir kullanıcıysanız ve daha karmaşık özellikleri keşfetmek istiyorsanız, Passport'u Sparrow wallet ile yapılandırdığımız bu diğer eğitime göz atmanızı tavsiye ederim:
 
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
 ## Pasaportun Kutusundan Çıkarılması
 
@@ -246,7 +246,7 @@ Bunu yapmak için Passport kutunuzda bulunan MicroSD kartı (veya başka bir kar
 Cihazınıza yüklemeden önce, indirilen ürün yazılımının gerçekliğini ve bütünlüğünü kontrol etmenizi şiddetle tavsiye ederiz. Bu konuda yardıma ihtiyacınız varsa, bu eğiticiye başvurun :
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### Envoy uygulaması ile
 
@@ -371,7 +371,7 @@ Mnemonic ifadenizi görmek için onay düğmesine tıklayın.
 Mnemonic ifadenizi kaydetmenin ve yönetmenin doğru yolu hakkında daha fazla bilgi için, özellikle yeni başlayan biriyseniz, bu diğer öğreticiyi izlemenizi şiddetle tavsiye ederim:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 tabii ki, benim bu eğitimde yaptığım gibi, bu kelimeleri asla internette paylaşmamalısınız. Bu örnek Wallet sadece Testnet üzerinde kullanılacak ve eğitimin sonunda silinecektir.
 
@@ -674,4 +674,4 @@ Tebrikler, artık Passport'u Envoy uygulaması ile nasıl kuracağınızı ve ku
 Daha fazla bilgi için Liana yazılımı hakkındaki eğitimimize bakın:
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04

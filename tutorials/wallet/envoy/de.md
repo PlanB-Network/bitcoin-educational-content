@@ -22,7 +22,7 @@ In diesem Tutorial, das sich an Anfänger und Fortgeschrittene richtet, erfahren
 
 Wenn Sie ein fortgeschrittener Benutzer sind und komplexere Funktionen erforschen möchten, empfehle ich Ihnen, sich dieses andere Tutorial anzusehen, in dem wir Passport mit Sparrow Wallet konfigurieren:
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
 ## Auspacken des Passes
 
@@ -170,7 +170,7 @@ Verwenden Sie dazu die MicroSD-Karte, die in Ihrer Passport-Box enthalten ist (o
 
 Wir raten Ihnen dringend, die Authentizität und Integrität der heruntergeladenen Firmware zu überprüfen, bevor Sie sie auf Ihrem Gerät installieren. Wenn Sie dabei Hilfe benötigen, lesen Sie dieses Tutorial:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### Mit der Envoy-Anwendung
 
@@ -254,7 +254,7 @@ Klicken Sie auf die Bestätigungsschaltfläche, um Ihre mnemonische Phrase zu se
 
 Für weitere Informationen über die richtige Art und Weise, wie Sie Ihre mnemotechnische Phrase speichern und verwalten können, empfehle ich Ihnen diesen anderen Lehrgang, besonders wenn Sie Anfänger sind:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 natürlich dürfen Sie diese Worte niemals im Internet weitergeben, wie ich es in diesem Tutorium tue. Dieses Musterportfolio wird nur im Testnet verwendet und am Ende des Tutoriums gelöscht.
 
@@ -457,4 +457,4 @@ Herzlichen Glückwunsch, Sie wissen jetzt, wie Sie den Passport mit der Envoy-An
 
 Weitere Informationen finden Sie in unserem Tutorium zur Liana-Software:
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04

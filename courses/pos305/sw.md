@@ -217,7 +217,7 @@ Chaguo nyingi katika Seva ya BTCPay zipo kwa namna fulani katika programu nyingi
 
 Unapokaribishwa kwenye mazingira ya Onyesho, unaombwa ‘Ingia’ au ‘Ufungue akaunti yako.’ Wasimamizi wa seva wanaweza kuzima kipengele cha kuunda akaunti mpya kwa sababu za usalama. Nembo na rangi za vitufe vya Seva ya BTCPay zinaweza kubadilishwa kwa sababu Seva ya BTCPay ni Programu Huria. Mpangishi mwingine anaweza kuweka lebo kwenye programu Nyeupe na kubadilisha mwonekano mzima.
 
-![image](assets/en/0.webp)
+![image](assets/en/001.webp)
 
 ### Unda dirisha la Akaunti
 
@@ -227,7 +227,7 @@ Nenosiri linahitaji kuwa na urefu wa angalau vibambo 8, likijumuisha herufi, nam
 
 Wakati sehemu zote mbili za Barua pepe na Nenosiri zimejazwa ipasavyo, bofya kitufe cha 'Unda Akaunti'. Hii itahifadhi Barua pepe na nenosiri kwenye mfano wa Seva ya BTCPay ya mwalimu.
 
-![image](assets/en/1.webp)
+![image](assets/en/002.webp)
 
 **!Kumbuka!**
 
@@ -237,7 +237,7 @@ Ukifuata kozi hii peke yako, kuunda akaunti hii itakuwa jambo ambalo unaweza kuf
 
 Msimamizi wa Hali ya Seva ya BTCPay pia anaweza kuunda akaunti kwa ajili ya Seva ya BTCPay. Msimamizi wa mfano wa Seva ya BTCPay anaweza kubofya ‘Mipangilio ya Seva’ (1), bofya kichupo cha ‘Watumiaji’ (2), na ubofye kitufe cha “+ Ongeza Mtumiaji” (3) katika sehemu ya juu kulia ya kichupo cha Watumiaji. Katika Lengo (4.3), utajifunza zaidi kuhusu udhibiti wa msimamizi wa Akaunti.
 
-![image](assets/en/2.webp)
+![image](assets/en/003.webp)
 
 Kama msimamizi, utahitaji Barua pepe ya mtumiaji Anwani na kuweka nenosiri la kawaida. Inashauriwa kama Msimamizi kumjulisha mtumiaji kwamba anapaswa kubadilisha nenosiri hili kabla ya kutumia akaunti kwa sababu za usalama. Iwapo Msimamizi ASIWEKE Nenosiri na SMTP imewekwa kwenye seva, mtumiaji atapokea barua pepe yenye kiungo cha mwaliko ili kuunda akaunti yake na kuweka nenosiri mwenyewe.
 
@@ -280,7 +280,7 @@ Baada ya mmiliki wa duka kufungua akaunti yake, anaweza kuidhibiti katika Sehemu
 - Ficha kigeuzi cha Maelezo Nyeti.
 - Dhibiti Akaunti.
 
-![image](assets/en/3.webp)
+![image](assets/en/004.webp)
 
 ### Hali ya Giza na Mwanga
 
@@ -300,7 +300,7 @@ Sasisha akaunti yako kwa hiari ukitumia Barua pepe tofauti ya Anwani. Ili kuhaki
 
 Mtumiaji anaweza kuamua kufuta akaunti yake yote. Hii inaweza kufanyika kwa kubofya kitufe cha kufuta kwenye kichupo cha Akaunti.
 
-![image](assets/en/4.webp)
+![image](assets/en/005.webp)
 
 **!Kumbuka!**
 
@@ -310,7 +310,7 @@ Baada ya kubadilisha Barua pepe, jina la mtumiaji la akaunti halitabadilika. Bar
 
 Mwanafunzi anaweza kutaka kubadilisha nenosiri lake. Anaweza kufanya hivyo kwa kwenda kwenye kichupo cha Nenosiri. Hapa anahitajika kuandika nenosiri lake la zamani na anaweza kulibadilisha hadi jipya.
 
-![image](assets/en/5.webp)
+![image](assets/en/006.webp)
 
 ### Uthibitishaji wa Mambo Mbili (2fa)
 
@@ -337,7 +337,7 @@ Kulingana na Mfumo wa Uendeshaji wa simu yako ya mkononi (Android au iOS), watum
 
 3. Programu ya Uthibitishaji itakupa msimbo wa kipekee. Weka msimbo wa kipekee katika Seva ya BTCPay ili uthibitishe usanidi, na ubofye thibitisha ili ukamilishe mchakato huo.
 
-![image](assets/en/6.webp)
+![image](assets/en/007.webp)
 
 ### Muhtasari wa Ujuzi
 
@@ -361,7 +361,7 @@ Eleza jinsi 2FA inayotokana na programu, inavyosaidia kulinda akaunti yako
 
 Mtumiaji mpya anapoingia kwenye Seva ya BTCPay, mazingira ni tupu na yanahitaji duka la kwanza. Mchawi wa utangulizi wa Seva ya BTCPay itampa mtumiaji chaguo la 'Unda duka lako' (1). Duka linaweza kuonekana kama Nyumba kwa mahitaji yako ya Bitcoin. Njia mpya ya Seva ya BTCPay itaanza kwa Kusawazisha Bitcoin Blockchain (2). Kulingana na miundombinu gani unayotumia Seva ya BTCPay, hii inaweza kuanzia saa chache mpaka siku chache. Toleo la sasa la mfano linaonyeshwa katika kona ya chini kulia ya UI yako ya Seva ya BTCPay. Hii ni muhimu kwa marejeleo wakati wa utatuzi.
 
-![image](assets/en/7.webp)
+![image](assets/en/008.webp)
 
 ### Unda mchawi wa duka lako
 
@@ -369,7 +369,7 @@ Kufuatia kozi hii kutaanza na skrini tofauti kidogo kuliko ukurasa uliopita. Kwa
 
 Mtumiaji anaweza kuamua kufuta akaunti yake yote. Hii inaweza kufanyika kwa kubofya kitufe cha kufuta kwenye kichupo cha Akaunti.
 
-![image](assets/en/8.webp)
+![image](assets/en/009.webp)
 
 **!Kumbuka!**
 
@@ -379,29 +379,29 @@ Akaunti ya Seva ya BTCPay inaweza kutengeneza duka nyingi bila kikomo. Kila duka
 
 Anza kwa kubofya "Unda duka lako".
 
-![image](assets/en/9.webp)
+![image](assets/en/010.webp)
 
 Hii itaunda Nyumbani na dashibodi yako ya kwanza ya kutumia seva ya BTCPay.
 
 (1) Baada ya kubofya "Unda duka lako", Seva ya BTCPay itakuhitaji kutaja duka; hii inaweza kuwa kitu chochote muhimu kwako.
 
-![image](assets/en/10.webp)
+![image](assets/en/011.webp)
 
 (2) Pesa chaguo-msingi ya dukani lazima iwekwe ijayo, ama sarafu ya kawaida au iliyojumuishwa katika kiwango cha Bitcoin / Sats. Kwa mazingira ya onyesho, tutaiweka kuwa USD.
 
-![image](assets/en/11.webp)
+![image](assets/en/012.webp)
 
 (3) Kama kigezo cha mwisho kwenye usanidi wa duka, Seva ya BTCPay inakuhitaji uweke "Chanzo cha bei Inayopendekezwa" ili kulinganisha bei ya Bitcoin dhidi ya bei ya sasa ya malipo ili duka lako lionyeshe kiwango sahihi cha Ubadilishanaji kati ya Bitcoin na sarafu ya mtandaoni ya pesa za serikali. Tutashikamana na chaguo-msingi katika mfano wa Onyesho na kuweka hii kwa ubadilishanaji wa Kraken. Seva ya BTCPay hutumia API ya Kraken kuangalia viwango vya Ubadilishanaji.
 
-![image](assets/en/12.webp)
+![image](assets/en/013.webp)
 
 (4) Kwa kuwa sasa vigezo hivi vya duka vimewekwa, bofya kitufe cha Unda, na Seva ya BTCPay itaunda dashibodi yako ya kwanza ya duka, ambapo mchawi ataendelea.
 
-![image](assets/en/13.webp)
+![image](assets/en/014.webp)
 
 Hongera, umeunda duka lako la kwanza, na hii inakamilisha zoezi hili.
 
-![image](assets/en/14.webp)
+![image](assets/en/015.webp)
 
 ### Muhtasari wa Ujuzi
 
@@ -425,7 +425,7 @@ Pochi za Bitcoin, zinapoundwa, tengeneza kinachojulikana kama "seed". Katika len
 
 Kizazi cha seed kinafanywa kulingana na kiwango cha sekta kinachojulikana kama mfumo wa "Hierarchical Deterministic" (HD).
 
-![image](assets/en/15.webp)
+![image](assets/en/016.webp)
 
 ### Anwani
 
@@ -569,7 +569,7 @@ Replace-by-fee (RBF) ni kipengele cha itifaki cha Bitcoin kinachokuruhusu kubadi
 
 Bonyeza kitufe cha "Mipangilio ya Juu ili kutazama chaguzi za RBF;
 
-![image](assets/en/16.webp)
+![image](assets/en/017.webp)
 
 
 - Badili kwa faragha ya juu zaidi, Inaruhusu muamala kubadilishwa kiotomatiki kwa ajili ya kubahatisha alama za vidole za muamala.
@@ -590,9 +590,9 @@ Unapobofya kitufe cha kupokea katika Seva ya BTCPay, hutengeneza Anwani ambayo h
 
 Seva ya BTCPay itauliza uzalishaji wa anwani ifuatayo kila wakati ili kuepuka kutumia tena Anwani. Baada ya kubofya "zalisho ijayo inapatikana kwa anwani ya BTC," Seva ya BTCPay ilizalisha Anwani na QR mpya. Pia hukuruhusu kuweka alama moja kwa moja kwa Anwani ya usimamizi bora wa anwani zako.
 
-![image](assets/en/17.webp)
+![image](assets/en/018.webp)
 
-![image](assets/en/18.webp)
+![image](assets/en/019.webp)
 
 #### Changanua upya
 
@@ -617,11 +617,11 @@ BTCPAYGEN_EXCLUDE_FRAGMENTS="$BTCPAYGEN_EXCL UDE_FRAGMENTS;opt-mempoolfullrbf"
 
 Mipangilio ya Pochi ndani ya Seva ya BTCPay inatoa muhtasari wazi na wa haraka wa mipangilio ya jumla ya Pochi yako. Mipangilio hii yote hujazwa mapema ikiwa Pochi iliundwa kwa Seva ya BTCPay.
 
-![image](assets/en/19.webp)
+![image](assets/en/020.webp)
 
 Mipangilio ya Pochi ndani ya Seva ya BTCPay inatoa muhtasari wazi na wa haraka wa mipangilio ya jumla ya pochi yako. Mipangilio hii yote hujazwa mapema ikiwa Pochi iliundwa kwa Seva ya BTCPay. Mipangilio ya Pochi ya Seva ya BTCPay huanza na hali ya Pochi. Je, ni Watch-pekee au Hot Wallet? Kulingana na aina ya Pochi, vitendo vinaweza kutofautiana kutoka kwa kuchanganua tena Pochi kwa miamala iliyokosekana, Kupogoa miamala ya zamani kutoka kwa historia, kusajili Pochi kwa viungo vya malipo, au kubadilisha na kufuta Pochi ya sasa iliyoambatishwa kwenye duka. Katika mpangilio wa pochi ya Seva ya BTCPay, wasimamizi wanaweza kuweka alama ya Pochi kwa usimamizi bora wa Pochi. Hapa Msimamizi pia ataweza kuona Mpango wa Utoaji, ufunguo wa akaunti (xpub), Alama ya Kidole, na Njia kuu. Malipo katika mipangilio ya Pochi yana mipangilio mikuu 2 pekee. Malipo ni batili ikiwa muamala utashindwa kuthibitisha katika (dakika zilizowekwa) baada ya kuisha kwa muda wa Anwani ya ununuzi. Zingatia Anwani ya ununuzi iliyothibitishwa wakati shughuli ya malipo ina kiasi cha X cha uthibitishaji. Wasimamizi wanaweza pia kuweka ugeuzi ili kuonyesha ada zinazopendekezwa kwenye malipo au kuweka lengo la uthibitishaji wa kibinafsi katika idadi ya vitalu.
 
-![image](assets/en/20.webp)
+![image](assets/en/021.webp)
 
 **!Kumbuka!**
 
@@ -641,11 +641,11 @@ Chaguo la pili la Seva ya BTCPay inatoka katika kuzalisha Pochi mpya na kwa kuun
 
 Uliunda 'Duka' jipya katika sehemu iliyopita. Mchawi wa usakinishaji utaendelea kwa kuuliza "Weka Pochi" au "Weka nodi ya Umeme". Katika mfano huu, utafuata mchakato wa mchawi wa "Sanidi Pochi" (1).
 
-![image](assets/en/21.webp)
+![image](assets/en/022.webp)
 
 Baada ya kubofya "Weka Pochi", mchawi utaendelea kwa kuomba jinsi unavyotaka kuendelea; Seva ya BTCPay sasa inatoa chaguo la kuunganisha Pochi la  Bitcoin iliyopo kwenye duka lako jipya. Ikiwa huna Pochi, Seva ya BTCPay inapendekeza kuunda mpya. Mfano huu utafuata hatua za "unda Pochi jipya" (2). Fuata hatua ili kujifunza jinsi ya "Kuunganisha Pochi (1) iliyopo.
 
-![image](assets/en/22.webp)
+![image](assets/en/023.webp)
 
 **!Kumbuka!**
 
@@ -653,13 +653,13 @@ Ukisomea kozi hii katika chumba cha darasa, mfano wa sasa na mbegu tuliounda ni 
 
 (1) Endelea na kichawi cha “Pochi jipya” kwa kubofya kitufe cha "Unda Pochi jipya".
 
-![image](assets/en/23.webp)
+![image](assets/en/024.webp)
 
 (2) Baada ya kubofya "Unda Pochi mpya," dirisha linalofuata katika mchawi litatoa chaguzi "Hot Wallet" na "Watch-only wallet." Ukifuata pamoja na mwalimu, mazingira yako ni Onyesho la pamoja, na unaweza kuunda Watch-only wallet pekee. Angalia tofauti kati ya takwimu zote mbili chini. Ukiwa katika mazingira ya Onyesho ukifuata pamoja na mwalimu, unda "Watch-only wallet" na uendelee na kichawi cha "Wallet Mpya".
 
-![image](assets/en/24.webp)
+![image](assets/en/025.webp)
 
-![image](assets/en/25.webp)
+![image](assets/en/026.webp)
 
 (3) Kuendeleza mchawi mpya wa Wallet, sasa uko kwenye sehemu ya Unda BTC Watch-only wallet. Hapa tunapata kuweka Seva ya Pochi "Anwani" BTCPay hukuruhusu kuchagua aina unayopendelea ya Anwani; kama ilivyoandikwa kwa kozi hii, bado inashauriwa kutumia anwani za bech32. Jifunze zaidi kwa undani kuhusu anwani katika sura ya kwanza ya sehemu hii.
 
@@ -679,23 +679,23 @@ Ukisomea kozi hii katika chumba cha darasa, mfano wa sasa na mbegu tuliounda ni 
 
 Chagua SegWit (inapendekezwa) kama aina unayopendelea ya Pochi ya Anwani.
 
-![image](assets/en/26.webp)
+![image](assets/en/027.webp)
 
 (4) Unapoweka kigezo cha Pochi, Seva ya BTCPay inaruhusu watumiaji kuweka fungu nywila ya hiari kupitia BIP39, hakikisha kuwa umethibitisha nenosiri lako.
 
-![image](assets/en/27.webp)
+![image](assets/en/028.webp)
 
 (5) Baada ya kuweka aina ya Anwani ya Pochi na ikiwezekana kuweka chaguo mahiri, bofya Unda, na Seva ya BTCPay ita zalisha Pochi lako jipya. Kumbuka kwamba hii ni hatua ya mwisho kabla ya kuzalisha maneno yako ya mbegu. Hakikisha unafanya hivi katika mazingira ambayo mtu hawezi kuiba maneno ya mbegu kwa kuangalia skrini yako.
 
-![image](assets/en/28.webp)
+![image](assets/en/029.webp)
 
 (6) Katika skrini ifuatayo ya mchawi, Seva ya BTCPay inakuonyesha maneno ya Urejeshaji mbegu ya Pochi lako mpya; hizi ndizo funguo za kurejesha Pochi lako na shughuli za kutia sahihi. Seva ya BTCPay inazalisha kifungu cha maneno cha mbegu cha maneno 12. Maneno haya yatafutwa kutoka kwa seva baada ya skrini hii ya usanidi. Pochi hili hasa ni pochi la Watch-only. Inashauriwa kutohifadhi kifungu hiki cha mbegu kidijitali kwa picha. Watumiaji wanaweza tu kwenda mbali zaidi katika mchawi ikiwa watakubali kikamilifu kwamba waliandika maneno yao ya mbegu.
 
-![image](assets/en/29.webp)
+![image](assets/en/030.webp)
 
 (7) Baada ya kubofya Nimekamilisha na kupata maneno mapya ya mbegu ya Bitcoin yaliyotolewa, Seva ya BTCPay itasasisha duka lako kwa kutumia Pochi mpya iliyoambatishwa na iko tayari kupokea malipo. Katika Mtumiaji kiolesura, katika menyu ya kushoto ya kusogeza, tambua jinsi Bitcoin sasa inavyoangaziwa na kuwashwa chini ya Pochi.
 
-![image](assets/en/30.webp)
+![image](assets/en/031.webp)
 
 ### Mfano: Kuandika maneno ya mbegu
 
@@ -768,7 +768,7 @@ Seva ya BTCPay inahitaji maelezo ya muunganisho; iliyotengenezwa hapo awali (au 
 - LND kupitia proksi ya REST
 - LNDhub kupitia REST API
 
-![image](assets/en/31.webp)
+![image](assets/en/032.webp)
 
 Bofya "jaribu muunganisho" ili kuhakikisha kuwa umeingiza kwa usahihi maelezo ya muunganisho. Baada ya muunganisho kuthibitishwa kuwa mzuri, bofya hifadhi, na Seva ya BTCPay inaonyesha duka limesasishwa na Njia ya Umeme.
 
@@ -810,7 +810,7 @@ Ndani ya chaguo la pochi la Umeme katika upau wa menyu wa kushoto, wasimamizi wa
 
 Wasimamizi wa seva wanaweza kubofya maelezo ya nodi ya ndani na kutazama hali ya seva zao (Mkondoni/ Nje ya Mtandao) na kamba ya muunganisho ya Clearnet au Tor.
 
-![image](assets/en/32.webp)
+![image](assets/en/033.webp)
 
 #### Badilisha muunganisho
 
@@ -818,7 +818,7 @@ Ikiwa mmiliki wa duka ataamua kutumia iliyobadilishwa ndani ya Mipangilio ya Ume
 
 Karibu na duka la habari la Nodi ya Umma, wamiliki wanaweza kupata chaguo hili. Itarejesha usanidi wa awali wa muunganisho wa nodi ya umeme ya nje, kujaza maelezo mapya ya nodi ya Umeme, bofya hifadhi, na usasishe duka na maelezo mapya ya nodi.
 
-![image](assets/en/33.webp)
+![image](assets/en/034.webp)
 
 #### Huduma
 
@@ -828,7 +828,7 @@ Ikiwa msimamizi wa seva ataamua kusakinisha huduma nyingi kwa utekelezaji wa Ume
 
 Baada ya kuongeza nodi ya Umeme kwenye duka katika hatua ya awali, ndani ya mipangilio ya Pochi la Umeme, wamiliki wa duka bado wanaweza kuchagua kuzima kwa duka lao kwa kutumia Geuza juu ya mipangilio ya Umeme.
 
-![image](assets/en/34.webp)
+![image](assets/en/035.webp)
 
 #### Chaguzi za malipo ya umeme
 
@@ -885,25 +885,25 @@ Udhibiti wote wa nodi za umeme ni kama kiwango kinachofanywa na RTL (ikizingatiw
 
 Unapounganishwa na mtunzaji kama Alby, wamiliki wa duka wanapaswa kwanza kufungua akaunti, tembelea: https://getalby.com/
 
-![image](assets/en/35.webp)
+![image](assets/en/036.webp)
 
 Baada ya kuunda akaunti ya Alby, nenda kwenye duka lako la Seva ya BTCPay.
 
 Hatua ya 1: Bofya 'Sanidi nodi ya Umeme' kwenye Dashibodi au 'Umeme' chini ya pochi.
 
-![image](assets/en/36.webp)
+![image](assets/en/037.webp)
 
 Hatua ya 2: Weka vitambulisho vyako vya muunganisho wa Pochi vilivyotolewa na Alby. Kwenye Dashibodi ya, Alby, bofya kwenye Pochi. Hapa utapata "Sifa za Uunganisho wa Pochi". Nakili vitambulisho hivi. Bandika kitambulisho kutoka kwa Alby kwenye sehemu ya usanidi wa Muunganisho katika Seva ya BTCPay.
 
-![image](assets/en/37.webp)
+![image](assets/en/038.webp)
 
 Hatua ya 3: Baada ya kutoa Seva ya BTCPay na maelezo ya Muunganisho, bofya kitufe cha "Jaribio la Muunganisho" ili kuhakikisha muunganisho unafanya kazi vizuri. Tazama ujumbe wa "Muunganisho kwenye nodi ya umeme umefaulu" juu ya skrini yako. Hii inathibitisha kwamba kila kitu kinafanya kazi kwa utaratibu.
 
-![image](assets/en/38.webp)
+![image](assets/en/039.webp)
 
 Hatua ya 4: Bofya hifadhi, na duka lako sasa limeunganishwa na nodi ya umeme na Alby.
 
-![image](assets/en/39.webp)
+![image](assets/en/040.webp)
 
 **!Kumbuka!**
 
@@ -950,13 +950,13 @@ Ndani ya mwonekano mkuu wa dashibodi ya Seva ya BTCPay kuna vigae kadhaa vya kaw
 
 Kigae cha Salio cha Pochi kinatoa muhtasari wa haraka wa fedha na utendakazi wa pochi yako. Inaweza kutazamwa katika sarafu ya BTC au pesa za serikali katika grafu ya Kila Wiki, mwezi, au kila mwaka.
 
-![image](assets/en/40.webp)
+![image](assets/en/041.webp)
 
 ### Shughuli ya muamala
 
 Kando ya kigae cha Salio cha Pochi, Seva ya BTCPay inaonyesha muhtasari wa haraka wa Malipo yanayosubiri, kiasi cha Miamala katika siku 7 zilizopita, na ikiwa duka lako limerejeshewa pesa. Kubofya kitufe cha Dhibiti hukuleta katika usimamizi wa malipo yanayosubiri (pata maelezo zaidi kuhusu malipo katika Seva ya BTCPay - sura ya Malipo).
 
-![image](assets/en/41.webp)
+![image](assets/en/042.webp)
 
 ### Mizani ya Umeme
 
@@ -964,7 +964,7 @@ Hii inaonekana tu wakati Umeme umewashwa.
 
 Wakati Msimamizi ameruhusu ufikiaji wa Lightning Network, dashibodi ya Seva ya BTCPay sasa ina kigae kipya kilicho na maelezo yako ya nodi ya Umeme. Ni kiasi gani cha BTC iko kwenye chaneli, jinsi hii inavyosawazishwa ndani au mbali (ukwasi unaoingia au unaotoka) ikiwa chaneli zinafungwa au kufunguliwa, na ni kiasi gani cha Bitcoin kinashikiliwa On-Chain kwenye nodi ya umeme.
 
-![image](assets/en/42.webp)
+![image](assets/en/043.webp)
 
 ### Huduma za Umeme
 
@@ -972,29 +972,29 @@ Hii inaonekana tu wakati umeme unafanya kazi.
 
 Karibu na kuona salio lako la Umeme kwenye dashibodi ya Seva ya BTCPay, wasimamizi pia wataona kigae cha Huduma za Umeme. Hapa wasimamizi wanaweza kupata vitufe vya haraka vya zana wanazotumia kudhibiti nodi zao za Umeme; kwa mfano,Ride the Lightning ni mojawapo ya zana za kawaida zilizo na Seva ya BTCPay kwa usimamizi wa nodi za Umeme.
 
-![image](assets/en/43.webp)
+![image](assets/en/044.webp)
 
 ### Shughuli za Hivi Punde
 
 Kigae cha miamala ya hivi majuzi kitaonyesha miamala ya hivi majuzi zaidi ya duka lako. Kwa mbofyo mmoja, Msimamizi wa mfano wa Seva ya BTCPay sasa anaweza kuona shughuli ya hivi punde na kuona ikiwa umakini unahitajika kuihusu.
 
-![image](assets/en/44.webp)
+![image](assets/en/045.webp)
 
 ### Ankara za hivi majuzi
 
 Kigae cha ankara za hivi majuzi kinaonyesha ankara 6 za hivi punde zilizotolewa na Seva yako ya BTCPay, ikijumuisha Hali na kiasi cha Anwani ya ununuzi. Kigae pia kina kitufe cha "Angalia yote" ili kufikia muhtasari kamili wa Anwani ya ununuzi kwa urahisi.
 
-![image](assets/en/45.webp)
+![image](assets/en/046.webp)
 
 ### Sehemu ya Uuzaji na Mifuko ya Watu wengi
 
 Seva ya BTCPay inapoleta seti ya programu-jalizi au programu za kawaida, pointi ya mauzo na Crowdfund ndizo programu-jalizi kuu mbili za Seva ya BTCPay. Kwa kila duka na pochi, mtumiaji wa Seva ya BTPay anaweza kuzalisha kama Pointi za Mauzo au Pesa za Mkusanyiko kadri anavyoona inafaa. Kila moja itaunda kigae kipya cha dashibodi kinachoonyesha utendaji wa programu jalizi.
 
-![image](assets/en/46.webp)
+![image](assets/en/047.webp)
 
 Angalia tofauti kidogo kati ya Sehemu ya Uuzaji na kigae cha Crowdfund. Msimamizi huona bidhaa kuu zinazouzwa kwenye kigae cha Sehemu ya Mauzo. Katika kigae cha Crowdfund, hii inakuwa Faida Bora. Vigae vyote viwili vina vitufe vya haraka vya kudhibiti programu husika na kuangalia ankara za hivi majuzi zilizoundwa na bidhaa kuu au manufaa makuu.
 
-![image](assets/en/47.webp)
+![image](assets/en/048.webp)
 
 **!?Kumbuka!?**
 
@@ -1094,13 +1094,13 @@ Njia chaguomsingi za malipo. Seva ya BTCPay katika usanidi wa kawaida ina chaguo
 
 Tunaweza kuweka vigezo vya duka letu, ambapo mteja pekee ndiye ataingiliana na Umeme wakati bei ni chini ya kiasi cha X na kinyume chake kwa miamala ya On-Chain wakati X ni kubwa kuliko Y kila wakati itawasilisha chaguo la malipo la On-Chain.
 
-![image](assets/en/48.webp)
+![image](assets/en/049.webp)
 
 #### Lipa
 
 Kufikia toleo la 1.7 la Seva ya BTCPay, iliyoanzishwa kwa Checkout ya kiolesura kipya, Checkout V2, kama inavyoitwa. Kwa kuwa toleo la 1.9 lilibadilishwa, wasimamizi na wamiliki wa duka bado wanaweza kuweka malipo kuwa toleo la awali. Kwa kutumia kigeuzi cha "Tumia malipo ya awali", mmiliki wa duka anaweza kurejesha duka kwa matumizi ya awali ya kulipa. Seva ya BTCPay pia ina seti iliyochaguliwa ya uwekaji mapema kwa biashara ya Mtandaoni au matumizi ya dukani.
 
-![image](assets/en/49.webp)
+![image](assets/en/050.webp)
 
 Wakati mteja anaingiliana na duka na kuzalisha Anwani ya ununuzi, kuna muda wa kuisha kwa Anwani ya ununuzi. Kwa chaguo-msingi Seva ya BTCPay huweka hii kuwa dakika 5, na Msimamizi anaweza kuweka hii kwa chochote anachoona kinafaa. Ukurasa wa malipo unaweza kubinafsishwa zaidi kwa kuangalia vigezo vifuatavyo:
 
@@ -1112,37 +1112,37 @@ Wakati mteja anaingiliana na duka na kuzalisha Anwani ya ununuzi, kuna muda wa k
 - Onyesha kiasi cha malipo ya umeme katika Satoshi
 - Gundua lugha kiotomatiki unapolipa
 
-![image](assets/en/50.webp)
+![image](assets/en/051.webp)
 
 Wakati lugha ya Kugundua Kiotomatiki haijawekwa, Seva ya BTCPay, kwa chaguomsingi, itaonyesha Kiingereza. Mmiliki wa duka anaweza kubadilisha chaguo-msingi hii hadi lugha anayopendelea.
 
-![image](assets/en/51.webp)
+![image](assets/en/052.webp)
 
 Bofya kwenye menyu Kunjuzi na wamiliki wa Duka wanaweza kuweka kichwa Maalum cha HTML kitakachoonyeshwa kwenye ukurasa wa kulipa.
 
-![image](assets/en/52.webp)
+![image](assets/en/053.webp)
 
 Ili kuhakikisha mteja anajua njia yake ya kulipa, mmiliki wa duka anaweza kuweka malipo yake kwa njia dhahiri ili kuwataka watumiaji kuchagua njia yao ya kulipa wanayopendelea. Anwani ya ununuzi inapolipwa, Seva ya BTCPay humruhusu mteja kurudi kwenye duka la wavuti. Wamiliki wa maduka wanaweza kuweka uelekezaji huu kwingine baada ya mteja kulipa kiotomatiki.
 
-![image](assets/en/53.webp)
+![image](assets/en/054.webp)
 
 #### Risiti ya umma
 
 Ndani ya mipangilio ya risiti ya umma, mmiliki wa duka anaweza kuweka kurasa za stakabadhi kwa umma na kuonyesha orodha ya malipo kwenye ukurasa wa stakabadhi na msimbo wa QR wa risiti ili mteja aipate kwa urahisi kidijitali.
 
-![image](assets/en/54.webp)
+![image](assets/en/055.webp)
 
 ### Tokeni za Ufikiaji
 
 Tokeni za ufikiaji hutumiwa kuoanisha na ujumuishaji fulani wa biashara ya mtandaoni au ujumuishaji wa muundo maalum.
 
-![image](assets/en/55.webp)
+![image](assets/en/056.webp)
 
 ### Watumiaji
 
 Watumiaji wa duka ni mahali ambapo mmiliki wa duka anaweza kudhibiti wafanyikazi wake, akaunti zao na ufikiaji wa duka. Baada ya wafanyikazi kuunda akaunti zao, mmiliki wa duka anaweza kuongeza watumiaji mahususi kwenye duka kama Watumiaji Wageni au wamiliki. Ili kufafanua zaidi jukumu la mfanyakazi, rejelea sehemu inayofuata ya "Mipangilio ya Duka la Seva ya BTCPay - Majukumu."
 
-![image](assets/en/56.webp)
+![image](assets/en/057.webp)
 
 ### Majukumu
 
@@ -1150,11 +1150,11 @@ Huenda mmiliki wa duka asipate majukumu ya kawaida ya mtumiaji muhimu vya kutosh
 
 (1) Ili kuunda jukumu jipya, Bofya kitufe cha "+ Ongeza jukumu".
 
-![image](assets/en/57.webp)
+![image](assets/en/058.webp)
 
 (2) Weka jina la Jukumu, kwa mfano, "Mtunza fedha".
 
-![image](assets/en/58.webp)
+![image](assets/en/059.webp)
 
 (3) Sanidi ruhusa za kibinafsi za jukumu.
 
@@ -1184,17 +1184,17 @@ Huenda mmiliki wa duka asipate majukumu ya kawaida ya mtumiaji muhimu vya kutosh
 
 Jukumu linapoundwa, jina hurekebishwa na haliwezi kubadilishwa baadaye katika hali ya kuhariri.
 
-![image](assets/en/59.webp)
+![image](assets/en/060.webp)
 
 ### Viboko vya mtandao
 
 Ndani ya Seva ya BTCPay, ni rahisi kutengeneza "Webhook" mpya. Katika mipangilio ya Duka la Seva ya BTCPay - kichupo cha Webhooks, mmiliki wa duka anaweza kuunda mtandao mpya kwa urahisi kwa kubofya "+ Unda Webhook". Webhooks huruhusu Seva ya BTCPay kutuma matukio ya HTTP yanayohusiana na duka lako kwa seva nyingine au miunganisho ya biashara ya mtandaoni.
 
-![image](assets/en/60.webp)
+![image](assets/en/061.webp)
 
 Sasa uko katika mwonekano wa kuunda Webhook. Hakikisha unajua URL yako ya Upakiaji na ubandike hii kwenye Seva yako ya BTCPay. Wakati ulibandika URL ya upakiaji, chini yake inaonyesha siri ya mtandao. Nakili siri ya webhook na uipe kwenye sehemu ya mwisho. Wakati kila kitu kimewekwa, unaweza kugeuza Seva ya BTCPay hadi uwasilishaji upya Kiotomatiki. Tutajaribu kuwasilisha tena uwasilishaji wowote ambao haujafaulu baada ya sekunde 10, dakika 1 na hadi mara 6 baada ya dakika 10. Unaweza kubadilisha kati ya kila tukio au kubainisha matukio kwa mahitaji yako. Hakikisha umewasha kitabu cha wavuti na ugonge Ongeza wavuti ili kuihifadhi.
 
-![image](assets/en/61.webp)
+![image](assets/en/062.webp)
 
 Webhooks hazikusudiwi kuendana na API ya BTCpay. Kuna IPN mbili tofauti (katika masharti ya BTCPay: "Arifa za Malipo ya Papo Hapo") katika Seva ya BTCPay.
 
@@ -1210,13 +1210,13 @@ Wachakataji malipo hufanya kazi pamoja na dhana ya Malipo katika Seva ya BTCPay.
 
 Mmiliki wa duka anaweza kubofya na kusanidi vichakataji vyote viwili kando. Mmiliki wa duka anaweza kutaka tu kuendesha kichakataji cha On-Chain mara moja kila saa X, ilhali off-chain inaweza kwenda kila dakika chache. Kwa On-Chain, unaweza pia kuweka lengo ambalo kizuizi kinapaswa kujumuishwa. Kwa chaguo-msingi, hii imewekwa kuwa 1 (au kizuizi kinachofuata kinapatikana). Kumbuka kuwa kuweka kichakataji cha malipo cha off-chain kuna kipima muda na hakuna lengo la kuzuia. Malipo ya Lightning Network ni ya papo hapo.
 
-![image](assets/en/62.webp)
+![image](assets/en/063.webp)
 
-![image](assets/en/63.webp)
+![image](assets/en/064.webp)
 
 Wamiliki wa maduka wanaweza tu kusanidi kichakataji cha On-Chain ikiwa wana Hot-Wallet iliyounganishwa kwenye duka lao.
 
-![image](assets/en/64.webp)
+![image](assets/en/065.webp)
 
 Baada ya kusanidi kichakataji cha Malipo, unaweza kukiondoa au kukirekebisha kwa haraka kwa kurudi kwenye kichupo cha Kichakataji cha Malipo katika mipangilio ya Duka la Seva ya BTCPay.
 
@@ -1228,7 +1228,7 @@ Kichakataji cha malipo On-Chain - kinaweza tu kufanya kazi kwenye duka lililosan
 
 Seva ya BTCPay inaweza kutumia Barua pepe kwa Arifa au, inapowekwa vizuri, kurejesha akaunti ambazo zilifanywa kwa mfano, kwa vile Seva ya kawaida ya BTCPay haitumi barua pepe nenosiri linapopotea, kwa mfano.
 
-![image](assets/en/65.webp)
+![image](assets/en/066.webp)
 
 Kabla ya mmiliki wa duka kuweka sheria za Barua pepe ili kuzima matukio mahususi ya duka lake, inabidi tuweke mipangilio ya kimsingi ya barua pepe. Seva ya BTCPay inahitaji mipangilio hii kutuma barua pepe za matukio kulingana na duka lako au kwa kuweka upya nenosiri.
 
@@ -1243,7 +1243,7 @@ Seva ya BTCPay imerahisisha kujaza maelezo haya kwa kutumia Chaguo la "Jaza Hara
 
 Kwa kutumia chaguo la kujaza haraka, Seva ya BTCPay itajaza mapema sehemu za seva na mlango wa SMTP; sasa, mmiliki wa duka anahitaji tu kujaza kitambulisho chake katika Anwani ya Barua pepe, Ingia (ambayo kwa kawaida ni sawa na Anwani ya barua pepe yako), na nenosiri lako. Chaguo la kina linalotolewa na Seva ya BTCPay katika mipangilio ya barua pepe ni Kuzima ukaguzi wa usalama wa Cheti cha TLS; kwa chaguo-msingi, hii imewezeshwa.
 
-![image](assets/en/66.webp)
+![image](assets/en/067.webp)
 
 Kwa sheria za Barua pepe, mmiliki wa duka anaweza kuweka matukio maalum ili kuanzisha barua pepe kwa anwani mahususi za barua pepe.
 
@@ -1258,7 +1258,7 @@ Kwa sheria za Barua pepe, mmiliki wa duka anaweza kuweka matukio maalum ili kuan
 
 Ikiwa mteja ametoa Barua pepe ya Anwani, vichochezi hivi vinaweza pia kutuma maelezo kwa mteja. Wamiliki wa duka wanaweza kujaza mapema laini ya Mada ili kuweka wazi kwa nini Barua pepe hii ilitokea na ni kisababishi gani kiliisababisha.
 
-![image](assets/en/67.webp)
+![image](assets/en/068.webp)
 
 ### Fomu
 
@@ -1266,11 +1266,11 @@ Kwa vile Seva ya BTCPay haikusanyi data yoyote, mwenye duka anaweza kutaka kuong
 
 Wakati wa kuunda fomu mpya, Seva ya BTCPay itafungua dirisha jipya kuomba maelezo ya msingi kuhusu unachotaka fomu yako mpya iombe. Mara ya kwanza, mmiliki wa duka anahitaji kutoa jina wazi kwa fomu yake mpya, jina hili HALIWEZI kubadilishwa baada ya kuiweka.
 
-![image](assets/en/68.webp)
+![image](assets/en/069.webp)
 
 Baada ya mmiliki wa duka kuipa fomu jina, unaweza pia kugeuza swichi ya "Ruhusu fomu itumike kwa umma" hadi KUWASHA, na itakuwa Kijani. Ili fomu itumike katika kila sehemu inayowakabili wateja. Kwa mfano, ikiwa mmiliki wa duka ataunda Anwani ya ununuzi 1 tofauti si kupitia Sehemu yake ya Uuzaji, bado anaweza kutaka kukusanya maelezo kutoka kwa mteja; kugeuza huku kuwa ON huruhusu habari hiyo kukusanywa.
 
-![image](assets/en/69.webp)
+![image](assets/en/070.webp)
 
 Kila fomu huanza na angalau sehemu 1 ya fomu Mpya. Mmiliki wa duka anaweza kuchagua aina ya uwanja unaopaswa kuwa;
 
@@ -1289,7 +1289,7 @@ Kila fomu huanza na angalau sehemu 1 ya fomu Mpya. Mmiliki wa duka anaweza kucha
 
 Kila aina inakuja na vigezo vyake vya kujaza. Mmiliki wa duka anaweza kuiweka kwa kupenda kwake. Chini ya uga ulioundwa kwanza, wamiliki wa duka wanaweza kuendelea kuongeza sehemu mpya kwenye fomu hii moja.
 
-![image](assets/en/70.webp)
+![image](assets/en/071.webp)
 
 #### Fomu maalum za hali ya juu
 
@@ -1363,7 +1363,7 @@ Kama ilivyotajwa sehemu iliyopita, Wasimamizi wa Seva wanaweza kuwaalika watumia
 
 Seva ya BTCPay inajua aina mbili za majukumu maalum, majukumu maalum ya duka na majukumu maalum ya seva nzima katika mipangilio ya Seva ya BTCPay. Wote wanashikilia seti sawa ya ruhusa; hata hivyo, ikiwekwa kupitia kichupo cha Mipangilio ya Seva ya BTCpay - Majukumu, jukumu linalotumika litakuwa pana la seva na litatumika kwa maduka mengi. Angalia alama ya "Pana Seva" kwa majukumu maalum katika mipangilio ya Seva.
 
-![image](assets/en/71.webp)
+![image](assets/en/072.webp)
 
 ### Majukumu maalum ya seva
 
@@ -1401,13 +1401,13 @@ Jukumu linapoundwa, jina hurekebishwa na haliwezi kubadilishwa baada yake katika
 
 Mipangilio ya Barua pepe ya Seva nzima inaonekana sawa na ile iliyo katika mipangilio ya barua pepe mahususi ya Duka. Hata hivyo, usanidi huu haushughulikii tu vichochezi vya hifadhi au kumbukumbu za msimamizi. Usanidi huu wa Barua pepe pia hurahisisha urejeshaji nenosiri kwenye Seva ya BTCPay katika Ingia. Inafanya kazi sawa na mipangilio mahususi ya Duka; wasimamizi wanaweza kujaza kwa haraka vigezo vyao vya Barua pepe na kuweka kitambulisho chao cha barua pepe, na seva sasa inaweza kutuma barua pepe.
 
-![image](assets/en/72.webp)
+![image](assets/en/073.webp)
 
 ### Sera
 
 Wasimamizi wa sera za Seva ya BTCPay wanaweza kuweka mipangilio fulani kwenye mada kama vile Mipangilio Iliyopo ya Mtumiaji, Mipangilio ya Watumiaji Wapya, Mipangilio ya Arifa na Mipangilio ya Matengenezo. Hizi zimekusudiwa kusajili watumiaji wapya kama msimamizi au watumiaji wa kawaida au hata kuficha Seva ya BTCPay kutoka kwa injini za utafutaji kwa kuongeza kwenye kichwa cha seva yako.
 
-![image](assets/en/73.webp)
+![image](assets/en/074.webp)
 
 #### Mipangilio ya mtumiaji iliyopo
 
@@ -1421,7 +1421,7 @@ Chaguo zinazopatikana hapa ni tofauti na majukumu maalum. Ruhusa hizi za ziada z
 - Ruhusu wasio wasimamizi kuagiza pochi za Hot kwa maduka yao.
   - Sawa na mada ya awali ya kuunda pochi za Hot, sera hii inaruhusu kuagiza Pochi za Hot, zenye hatari sawa zilizotajwa katika sehemu ya kuunda pochi za Hot.
 
-![image](assets/en/74.webp)
+![image](assets/en/075.webp)
 
 #### Mipangilio mipya ya mtumiaji
 
@@ -1435,11 +1435,11 @@ Tunaweza kuweka mipangilio muhimu ili kudhibiti watumiaji wapya wanaokuja kwenye
 
 Kwa chaguo-msingi, Seva ya BTCPay imewasha Zima usajili wa mtumiaji mpya na kuzima ufikiaji wa wasio wasimamizi kwenye sehemu ya mwisho ya API ya kuunda mtumiaji. Hii ni nje ya kipengele cha usalama ambapo hakuna mtu wa nasibu ambaye amepata Njia ya Kuingia ya BTCPay ya seva yako anayeweza kuanza kuunda akaunti.
 
-![image](assets/en/75.webp)
+![image](assets/en/076.webp)
 
 #### Mipangilio ya Arifa
 
-![image](assets/en/76.webp)
+![image](assets/en/077.webp)
 
 #### Mipangilio ya Matengenezo
 
@@ -1450,13 +1450,13 @@ Seva ya BTCPay ni mradi wa chanzo wazi unaoishi kwenye GitHub. Wakati wowote Sev
 - Kataza injini za utafutaji kuorodhesha tovuti hii
 - Washa vipengele vya majaribio.
 
-![image](assets/en/77.webp)
+![image](assets/en/078.webp)
 
 #### Programu-jalizi
 
 Seva ya BTCPay inaweza kuongeza programu-jalizi na kupanua seti yake ya vipengele. Programu-jalizi, kwa chaguomsingi, hupakiwa kutoka kwenye hazina ya kijenzi cha programu-jalizi ya Seva ya BTCPay. Msimamizi, hata hivyo, anaweza kuchagua kuona programu-jalizi katika hali ya kutolewa Mapema, na ikiwa msanidi programu-jalizi ataruhusu, msimamizi wa seva sasa anaweza kusakinisha matoleo ya beta ya programu-jalizi.
 
-![image](assets/en/78.webp)
+![image](assets/en/079.webp)
 
 ##### Mipangilio ya Kubinafsisha
 
@@ -1466,19 +1466,19 @@ Utekelezaji wa kawaida wa Seva ya BTCPay utaweza kufikiwa kupitia kikoa kilichow
 - Onyesha programu kwenye mzizi wa tovuti
   - Huonyesha orodha ya programu zinazowezekana kuonyesha kwenye kikoa cha mizizi.
 
-![image](assets/en/79.webp)
+![image](assets/en/080.webp)
 
 
 - Ramani ya vikoa mahususi kwa programu mahususi.
   - Unapobofya ili kusanidi kikoa mahususi kwa programu mahususi, Msimamizi anaweza kuweka vikoa vingi vilivyoelekezwa kwenye programu mahususi inavyohitajika.
 
-![image](assets/en/80.webp)
+![image](assets/en/081.webp)
 
 #### Zuia wagunduzi
 
 Seva ya BTCPay, kama kawaida, inakuja na Mempool.space kama Block explorer yake kwa miamala. Wakati Seva ya BTCPay inapotengeneza Anwani ya ununuzi mpya, na kuna muamala unaohusishwa nao, mmiliki wa duka anaweza kubofya ili kufungua muamala; Seva ya BTCPay itaelekeza kiwango kuelekea Mempool.space kama Block explorer; Msimamizi wa seva anaweza kubadilisha hii kwa upendeleo wake.
 
-![image](assets/en/81.webp)
+![image](assets/en/082.webp)
 
 ### Huduma
 
@@ -1486,7 +1486,7 @@ Mipangilio ya Seva ya BTCPay: Kichupo cha Huduma ni muhtasari wa vipengele ambav
 
 Msimamizi wa Seva ya BTCPay anaweza kubofya "Angalia habari" nyuma ya kila huduma ili kuifungua na kuweka mipangilio maalum.
 
-![image](assets/en/82.webp)
+![image](assets/en/083.webp)
 
 #### LND (gRPC)
 
@@ -1548,13 +1548,13 @@ Seva ya BTCPay, kama kawaida, inakuja na mada mbili: Njia nyepesi na Nyeusi. Hiz
 
 Wasimamizi wanaweza kupanua Mandhari meusi/Meusi kwa kuongeza CSS yao maalum au kuweka mandhari yao maalum kama desturi kamili.
 
-![image](assets/en/83.webp)
+![image](assets/en/084.webp)
 
 #### Chapa ya Seva
 
 Wasimamizi wa seva wanaweza kubadilisha chapa ya Seva ya BTCPay kwa kuweka chapa katika Seva nzima ya kampuni yako. Kwa vile Seva ya BTCPay ni FOSS, wasimamizi wa seva wanaweza kuweka lebo kwenye programu kwa rangi nyeupe na kubadilisha mwonekano uendane na biashara zao.
 
-![image](assets/en/84.webp)
+![image](assets/en/085.webp)
 
 ### Matengenezo
 
@@ -1562,31 +1562,31 @@ Kama msimamizi wa seva, watumiaji wako wanatarajia utunze Seva vizuri. Ndani ya 
 
 Seva ya BTCPay ni mradi wa Chanzo wazi na husasishwa mara kwa mara. Kila toleo jipya linatangazwa na Arifa za Seva yako ya BTCPay au kwenye Vituo rasmi vya Seva ya BTCPay inayowasiliana nayo.
 
-![image](assets/en/85.webp)
+![image](assets/en/086.webp)
 
 #### Jina la kikoa
 
 Baada ya Seva ya BTCPay kusanidiwa, msimamizi anaweza kutaka kubadilisha kutoka kwa Kikoa chake asili. Ndani ya kichupo cha Matengenezo, msimamizi anaweza kubadilisha Kikoa. Baada ya kubofya thibitisha na kusanidi rekodi zinazofaa za DNS kwenye Kikoa, Seva ya BTCPay inasasisha na kuwasha upya ili kurudi kwenye Kikoa kipya.
 
-![image](assets/en/86.webp)
+![image](assets/en/087.webp)
 
 #### Anzisha upya
 
 Anzisha tena Seva ya BTCPay na huduma zinazohusiana.
 
-![image](assets/en/87.webp)
+![image](assets/en/088.webp)
 
 #### Safi
 
 Seva ya BTCPay inaendesha na vifaa vya Dokta; pamoja na masasisho, kunaweza kuwa na mabaki ya picha za Dokta, faili za temp, n.k. Wasimamizi wa Seva wanaweza kusafisha hii na kurejesha nafasi kwenye mazingira yao kwa kuendesha Hati Safi.
 
-![image](assets/en/88.webp)
+![image](assets/en/089.webp)
 
 #### Sasisha
 
 Huenda chaguo muhimu zaidi katika kichupo cha Matengenezo. Seva ya BTCPay imeundwa na jumuiya, na kwa hiyo, mizunguko yake ya sasisho ni ya mara kwa mara kuliko bidhaa nyingi za programu. Wakati Seva ya BTCPay ina toleo jipya, wasimamizi wataarifiwa katika vituo vyao vya arifa. Kwa kubofya kitufe cha kusasisha, Seva ya BTCPay itaangalia GitHub kwa toleo jipya zaidi, kusasisha Seva na kuzima upya. Kabla ya kusasisha, wasimamizi wa seva wanashauriwa kusoma vidokezo vya toleo vinavyosambazwa kupitia chaneli rasmi za Seva ya BTCPay.
 
-![image](assets/en/89.webp)
+![image](assets/en/090.webp)
 
 ### Kumbukumbu
 
@@ -1733,9 +1733,9 @@ Seva ya BTCPay ina mfumo wa ndani wa faili na inapakia vipengee vya Hifadhi (bid
 
 Wakati Msimamizi wa Seva yuko kwenye kichupo cha Hifadhi ya Faili, inawezekana kupakia moja kwa moja kwenye Seva yako au kubadilisha mtoa huduma wa hifadhi ya faili kuwa Mfumo wa faili wa Ndani au Hifadhi ya Azure Blob.
 
-![image](assets/en/90.webp)
+![image](assets/en/091.webp)
 
-![image](assets/en/91.webp)
+![image](assets/en/092.webp)
 
 ### Muhtasari wa Ujuzi
 
@@ -1775,7 +1775,7 @@ Msingi wa Seva ya BTCPay ni uwezo wa kufanya kazi kama mfumo wa usimamizi wa Anw
 
 Isipokuwa utumie [Wallet] iliyojengewa ndani (https://docs.btcpayserver.org/Wallet/) kupokea malipo wewe mwenyewe, malipo yote ndani ya duka yataonyeshwa kwenye ukurasa wa Ankara. Ukurasa huu kwa ujumla hupanga malipo kwa tarehe na ni sehemu kuu ya usimamizi wa Anwani ya ununuzi na utatuzi wa malipo.
 
-![image](assets/en/92.webp)
+![image](assets/en/093.webp)
 
 ### Mkuu
 
@@ -1862,13 +1862,13 @@ Wamiliki wa maduka wanaweza kuchapisha maombi ya malipo (au kuhamisha data ya an
 - Maelezo - Kihariri cha Maandishi, Majedwali ya Data, Pachika Picha na Video
 - Mwonekano - Rangi na Mtindo na Mandhari ya CSS
 
-![image](assets/en/93.webp)
+![image](assets/en/094.webp)
 
 #### Unda Ombi la Malipo
 
 Katika menyu ya kushoto, nenda kwa Ombi la Malipo na ubofye "Unda Ombi la Malipo".
 
-![image](assets/en/94.webp)
+![image](assets/en/095.webp)
 
 Toa Jina la Ombi, Kiasi, Madhehebu ya Kuonyesha, Duka Linalohusishwa, Muda wa Kuisha na Maelezo (Si lazima)
 
@@ -1878,7 +1878,7 @@ Bofya Hifadhi & Tazama ili ukague ombi lako la malipo.
 
 BTCPay huunda URL ya ombi la malipo. Shiriki URL hii ili kuona ombi lako la malipo. Je, unahitaji nyingi ya ombi sawa? Unaweza kurudia maombi ya malipo kwa kutumia chaguo la Clone kwenye menyu kuu.
 
-![image](assets/en/95.webp)
+![image](assets/en/096.webp)
 
 **ONYO**
 
@@ -1888,7 +1888,7 @@ Maombi ya malipo yanategemea duka, kumaanisha kila ombi la malipo linahusishwa n
 
 Mlipaji na mwombaji anaweza kuona hali ya ombi la malipo baada ya kutuma malipo. Hali itaonekana kama Imetatuliwa ikiwa malipo yamepokelewa kikamilifu. Ikiwa malipo ya sehemu tu yalifanywa, Kiasi Kinachodaiwa kitaonyesha salio linalodaiwa.
 
-![image](assets/en/96.webp)
+![image](assets/en/097.webp)
 
 #### Binafsisha Maombi ya Malipo
 
@@ -2032,7 +2032,7 @@ Seva ya BTCPay inaruhusu wamiliki wa Duka kuunda Sehemu ya Uuzaji katika miundo 
 
 Mmiliki wa Duka anapobofya "Njia ya Uuzaji" katika upau wa menyu yake ya kushoto, Seva ya BTCPay sasa itauliza jina; jina hili litaonekana kwenye upau wa menyu wa kushoto. Bofya Unda ili kuunda PoS.
 
-![image](assets/en/97.webp)
+![image](assets/en/098.webp)
 
 #### Sasisha Sehemu mpya ya Uuzaji iliyoundwa
 
@@ -2046,7 +2046,7 @@ Jina lililotolewa hapa kwa Sehemu yako ya Uuzaji litaonekana kwenye menyu kuu ya
 
 Umma utaona jina la umma au jina wakati wa kutembelea duka lako. Seva ya BTCPay kama jina la kawaida la duka lako "Duka la chai" Badilisha hii na jina la duka lako.
 
-![image](assets/en/98.webp)
+![image](assets/en/099.webp)
 
 #### Chagua Mtindo wa Pointi ya Uuzaji
 
@@ -2062,23 +2062,23 @@ Seva ya BTCPay ina uwezo wa kuonyesha Sehemu yake ya Uuzaji kwa njia nyingi.
 - Onyesho la kuchapisha (Orodha ya bidhaa zinazoweza kuchapishwa na QR)
   - Ikiwa huwezi kuonyesha orodha yako ya bidhaa kidijitali kila wakati, unahitaji suluhisho la "nje ya mtandao" kwa bidhaa; Seva ya BTCPay ina onyesho la kuchapisha ili kufanya kazi kama duka la Nje ya Mtandao.
 
-![image](assets/en/99.webp)
+![image](assets/en/100.webp)
 
 #### Sehemu ya Mtindo wa Uuzaji - Orodha ya bidhaa
 
-![image](assets/en/100.webp)
+![image](assets/en/101.webp)
 
 #### Sehemu ya Mtindo wa Uuzaji - Orodha ya Bidhaa + Mkokoteni
 
-![image](assets/en/101.webp)
+![image](assets/en/102.webp)
 
 #### Mtindo wa Sehemu ya Uuzaji - Kinanda pekee
 
-![image](assets/en/102.webp)
+![image](assets/en/103.webp)
 
 #### Mtindo wa Sehemu ya Uuzaji - Onyesho la kuchapisha
 
-![image](assets/en/103.webp)
+![image](assets/en/104.webp)
 
 #### Sarafu
 
@@ -2088,7 +2088,7 @@ Mmiliki wa Duka anaweza kuweka sarafu tofauti kwa hoja yake ya Uuzaji kuliko sar
 
 Uambie ulimwengu kuhusu duka lako; unauza nini, na kwa kiasi gani? Kila kitu kinachoelezea duka lako huenda hapa.
 
-![image](assets/en/104.webp)
+![image](assets/en/105.webp)
 
 #### Bidhaa
 
@@ -2110,7 +2110,7 @@ Mara tu mmiliki wa duka atakapojaza sehemu zote za bidhaa mpya, bofya hifadhi, n
 
 Wamiliki wa maduka wanaweza pia kutumia "Raw Editor" kusanidi bidhaa zao. Kihariri kibichi kinahitaji uelewa wa kimsingi wa miundo ya JSON.
 
-![image](assets/en/105.webp)
+![image](assets/en/106.webp)
 
 #### Lipa
 
@@ -2144,7 +2144,7 @@ Karibu na programu-jalizi ya Sehemu ya Uuzaji, Seva ya BTCPay ina chaguo la kuun
 
 Bofya kwenye programu-jalizi ya Crowdfund kupitia menyu kuu iliyo upande wa kushoto wa Seva yako ya BTCPay, chini ya sehemu ya Programu-jalizi. Seva ya BTCPay sasa itaomba jina la Mkusanyiko wa Fedha; jina hili pia litaonyeshwa kwenye upau wa menyu ya Kushoto.
 
-![image](assets/en/106.webp)
+![image](assets/en/107.webp)
 
 #### Sasisha Sehemu mpya ya Uuzaji iliyoundwa
 
@@ -2162,7 +2162,7 @@ Kichwa kinatolewa kwa Mkusanyiko wa Watu kwa Umma.
 
 Ipe crowdfund mjengo mmoja ili kutambua uchangishaji unahusu nini.
 
-![image](assets/en/107.webp)
+![image](assets/en/108.webp)
 
 #### URL ya Picha Iliyoangaziwa
 
@@ -2176,13 +2176,13 @@ Kugeuza huku kunafanya Crowdfund yako ionekane kwa umma na hivyo kuonekana kwa u
 
 Uambie ulimwengu kuhusu Crowdfund yako, unachangisha nini? Kila kitu kinachoelezea hazina yako ya watu huenda hapa.
 
-![image](assets/en/108.webp)
+![image](assets/en/109.webp)
 
 #### Lengo la Crowdfund
 
 Weka lengo la kile ambacho mchangishaji anapaswa kupata kwa ajili ya mradi na ni sarafu gani lengo linapaswa kujumuishwa. Hakikisha kuwa ikiwa malengo yako yamewekwa kati ya tarehe, jumuisha tarehe hizi lengwa na mwisho chini ya Malengo katika crowdfund.
 
-![image](assets/en/109.webp)
+![image](assets/en/110.webp)
 
 #### Manufaa
 
@@ -2202,7 +2202,7 @@ Kuunda marupurupu mapya kunajumuisha sehemu zifuatazo;
 
 Mara tu mmiliki wa duka atakapojaza sehemu zote za mpya ili kuunda manufaa, bofya hifadhi, na utaona kuwa sehemu ya Marupurupu katika mapato ya watu sasa inajazwa.
 
-![image](assets/en/110.webp)
+![image](assets/en/111.webp)
 
 ### Seva ya BTCPay - Sehemu ya Uuzaji
 
@@ -2383,11 +2383,11 @@ https://docs.btcpayserver.org.
 
 Kwanza, nenda kwenye tovuti ya LunaNode.com, ambapo tutaunda akaunti mpya. Bofya kwenye Jisajili juu kulia au tumia kichawi cha Anza kwenye ukurasa wao wa nyumbani.
 
-![image](assets/en/111.webp)
+![image](assets/en/112.webp)
 
 Baada ya kuunda akaunti yako mpya, LunaNodi hutuma barua pepe ya uthibitishaji. Mara tu unapothibitisha akaunti, ikilinganishwa na Voltage, utawasilishwa mara moja ili kuongeza salio la akaunti yako. Salio hili linahitajika ili kulipia nafasi ya seva na gharama za upangishaji.
 
-![image](assets/en/112.webp)
+![image](assets/en/113.webp)
 
 #### Ongeza mkopo kwa akaunti yako ya LunaNodi
 
@@ -2405,7 +2405,7 @@ Katika dashibodi yako ya LunaNodi, bofya API katika sehemu ya juu kulia. Hii ina
 
 Baada ya kuunda sifa za API, unapata safu ndefu ya herufi na wahusika. Huu ndio ufunguo wako wa API.
 
-![image](assets/en/113.webp)
+![image](assets/en/114.webp)
 
 #### Jinsi ya kupeleka seva mpya?
 
@@ -2415,7 +2415,7 @@ Hapa utaulizwa kutoa ufunguo wako wa API na Kitambulisho cha API. Hii ni kuthibi
 
 Rudi kwenye ukurasa na Kizinduzi, jaza sehemu kwa ufunguo wako wa API na Kitambulisho, na ubofye endelea.
 
-![image](assets/en/114.webp)
+![image](assets/en/115.webp)
 
 Katika hatua inayofuata, unaweza kutoa jina la kikoa. Ikiwa tayari unamiliki kikoa na ungependa kutumia hii kwa Seva ya BTCPay, hakikisha pia umeongeza rekodi ya DNS (Inayoitwa rekodi ya `A`) kwenye kikoa chako. Ikiwa humiliki kikoa, tumia kikoa kilichotolewa na LunaNodi badala yake (unaweza kubadilisha hii baadaye katika mipangilio ya Seva ya BTCPay) na ubofye Endelea.
 
@@ -2429,7 +2429,7 @@ Mwongozo huu unalenga kuweka mazingira ya Mainnet (ulimwengu halisi Bitcoin); ha
 
 Chagua utekelezaji wako wa Umeme. LunaNodi inatoa utekelezaji mbili tofauti, LND na Core Lightning. Kwa mwongozo huu, tutachukua LND. Kuna tofauti kidogo lakini za kweli katika utekelezaji wote; kwa zaidi juu ya hili, tunapendekeza kusoma nyaraka za kina; https://docs.btcpayserver.org/LightningNetwork#getting-started-with-btcpay-server-and-core-lightning-cln
 
-![image](assets/en/115.webp)
+![image](assets/en/116.webp)
 
 LunaNodi inatoa mipango mingi ya Mashine ya kweli (VM). Hizi ni tofauti katika safu za bei na vipimo vya seva. Kwa mwongozo huu, mpango wa m2 utatosha; hata hivyo, ikiwa umeweka tiki zaidi ya Bitcoin kama sarafu, zingatia kutumia angalau m4.
 
@@ -2439,7 +2439,7 @@ Baada ya kujaza fomu, lazima ubofye Zindua VM, na Lunanodi itaanza kuunda VM yak
 
 Baada ya mchakato wa uundaji, bofya kiungo kwa Seva yako ya BTCPay; hapa, utaulizwa kuunda akaunti ya Msimamizi.
 
-![image](assets/en/116.webp)
+![image](assets/en/117.webp)
 
 ### Muhtasari wa Ujuzi
 
@@ -2469,15 +2469,15 @@ https://docs.btcpayserver.org.
 
 Kwanza, nenda kwenye tovuti ya Voltage.cloud na ujiandikishe kwa akaunti mpya. Unapofungua akaunti unaweza kujiandikisha kwa jaribio la bure la siku 7. Bofya kwenye sehemu ya juu kulia ya Jisajili au utumie "Jaribu jaribio la bila malipo la siku 7" kwenye ukurasa wao wa nyumbani.
 
-![image](assets/en/117.webp)
+![image](assets/en/118.webp)
 
 Baada ya kutengeneza akaunti, bofya kitufe cha `NODES` kwenye dashibodi yako. Mara tu tumechagua Nodi na kuunda nodi mpya, tunawasilishwa na matoleo ya Voltage ya nodi inayowezekana. Kwa vile mwongozo huu pia utapitia Mtandao wa Umeme, kwa Voltage, kwanza tunapaswa kuchagua utekelezaji wetu wa Umeme kabla ya kuunda Seva ya BTCPay. Bonyeza kwenye Njia ya Umeme.
 
-![image](assets/en/118.webp)
+![image](assets/en/119.webp)
 
 Hapa itabidi uchague ni aina gani ya nodi ya Umeme unayotaka. Voltage ina chaguzi mbalimbali za usanidi wako wa taa. Hii ni tofauti wakati wa kupeleka na, kwa mfano, LunaNodi. Kwa nia ya mwongozo huu, Nodi ya Lite itatosha. Soma zaidi juu ya tofauti katika Voltage.cloud.
 
-![image](assets/en/119.webp)
+![image](assets/en/120.webp)
 
 Ipe nodi yako Jina, weka nenosiri, na ulinde nenosiri hili. Nenosiri hili likipotea, utapoteza ufikiaji wa nakala zako, na Voltage haiwezi kuirejesha. Unda nodi, na Voltage inakuonyesha maendeleo. Voltage imeunda Njia yako ya Umeme. Sasa tunaweza kuunda mfano wa Seva ya BTCPay na kufikia moja kwa moja Lightning Network.
 
@@ -2485,7 +2485,7 @@ Bofya kwenye Nodi kwenye sehemu ya juu kushoto ya dashibodi yako. Hapa unaweza k
 
 Voltage hukuonyesha eneo la Seva yako ya BTCPay, vipangishi vya volteji katika eneo la Marekani Magharibi. Hapa utaona pia gharama ya kukaribisha seva. Bofya Unda na upe Seva yako ya BTCPay jina. Washa Umeme na Voltage hukuonyesha nodi ya Umeme iliyoundwa katika hatua ya awali. Bofya Unda, na Voltage itaunda mfano wa Seva ya BTCPay.
 
-![image](assets/en/120.webp)
+![image](assets/en/121.webp)
 
 Baada ya kugonga kuunda, Voltage hukuletea jina la mtumiaji na nenosiri chaguo-msingi. Hizi ni sawa na nenosiri lako la awali lililowekwa kwenye Voltage. Bofya kitufe cha Ingia kwenye Akaunti ili kukuelekeza kwenye Seva yako ya BTCPay.
 
@@ -2513,17 +2513,17 @@ Kufikia mwisho wa hatua hizi, unaweza kukubali malipo ya umeme kwenye duka lako 
 
 https://umbrel.com/
 
-![image](assets/en/121.webp)
+![image](assets/en/122.webp)
 
 ### Seva ya BTCPay - Usambazaji wa mwavuli
 
 Baada ya nodi yako ya Umbrel kusawazisha kikamilifu na Bitcoin Blockchain, nenda kwenye Umbrel App Store, na utafute Seva ya BTCPay chini ya Programu.
 
-![image](assets/en/122.webp)
+![image](assets/en/123.webp)
 
 Bofya kwenye Seva ya BTCPay ili kuona maelezo ya Programu. Wakati maelezo yamefunguliwa kwa Seva ya BTCPay, sehemu ya chini kulia inaonyesha mahitaji ya Programu kufanya kazi vizuri. Inaonyesha inahitaji Bitcoin na nodi ya Umeme. Ikiwa haujasakinisha Njia ya Umeme kwenye Mwavuli wako, bofya Sakinisha. Utaratibu huu unaweza kuchukua dakika kadhaa.
 
-![image](assets/en/123.webp)
+![image](assets/en/124.webp)
 
 Baada ya kusanidi Nodi yako ya umeme:
 
@@ -2533,13 +2533,13 @@ Baada ya kusanidi Nodi yako ya umeme:
 
 3. Andika haya.
 
-![image](assets/en/124.webp)
+![image](assets/en/125.webp)
 
 Mwavuli utaomba uthibitisho wa maneno yaliyoandikwa hivi punde. Baada ya nodi ya Umeme kuanzishwa, rudi kwenye Hifadhi ya Programu ya Umbrel na upate Seva ya BTCPay. Bofya kwenye kitufe cha kusakinisha, na Umbrel itaonyesha ikiwa vipengele vinavyohitajika vimesakinishwa na kwamba Seva ya BTCPay inahitaji kufikia vipengele hivi. Baada ya kusakinisha, bofya Fungua sehemu ya juu kulia ya maelezo ya Programu au ufungue Seva ya BTCPay kupitia dashibodi yako ya Umbrels.
 
 Mwavuli utaomba uthibitisho wa maneno yaliyoandikwa hivi punde.
 
-![image](assets/en/125.webp)
+![image](assets/en/126.webp)
 
 **!?Kumbuka!?**
 
@@ -2547,11 +2547,11 @@ Hakikisha umezihifadhi katika eneo linalofaa kama vile ulivyojifunza hapo awali 
 
 Baada ya nodi ya Umeme kuanzishwa, rudi kwenye Hifadhi ya Programu ya Umbrel na upate Seva ya BTCPay. Bofya kwenye kitufe cha kusakinisha, na Umbrel itaonyesha ikiwa vipengele vinavyohitajika vimesakinishwa na kwamba Seva ya BTCPay inahitaji kufikia vipengele hivi.
 
-![image](assets/en/126.webp)
+![image](assets/en/127.webp)
 
 Baada ya kusakinisha, bofya Fungua sehemu ya juu kulia ya maelezo ya Programu au ufungue Seva ya BTPay kupitia dashibodi yako ya Umbrels.
 
-![image](assets/en/127.webp)
+![image](assets/en/128.webp)
 
 ### Muhtasari wa Ujuzi
 

@@ -14,138 +14,141 @@ published_at: 2025-01-15
 original_language: en
 proofreading:
   - language: en
-    last_contribution_date:
+    last_contribution_date: 2025-10-31
     urgency: 1
     contributor_names:
-    reward: 19.05
+      - 2raj2raj
+    reward: 9.49
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 25.36
+    reward: 25.26
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 19.05
+    reward: 18.97
   - language: es
     last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
       - lutxoitalico
-    reward: 9.52
+    reward: 9.49
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 25.36
+    reward: 25.26
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 25.36
+    reward: 25.26
   - language: fr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 19.05
+    reward: 18.97
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 31.67
+    reward: 31.55
   - language: it
-    last_contribution_date:
+    last_contribution_date: 2025-10-31
     urgency: 1
     contributor_names:
-    reward: 19.05
+      - AlbertoMagno21
+    reward: 9.49
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 37.99
+    reward: 37.84
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 25.36
+    reward: 25.26
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 19.05
+    reward: 18.97
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 25.36
+    reward: 25.26
   - language: vi
-    last_contribution_date:
+    last_contribution_date: 2025-10-31
     urgency: 1
     contributor_names:
-    reward: 37.99
+      - Anh-La
+    reward: 18.92
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 31.67
+    reward: 31.55
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 25.36
+    reward: 25.26
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 44.3
+    reward: 44.13
   - language: sr-Latn
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - Sanja22B
-    reward: 12.68
+    reward: 12.63
   - language: sw
     last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
       - Tinnah924
-    reward: 12.68
+    reward: 12.63
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 31.67
+    reward: 31.55
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 25.36
+    reward: 25.26
   - language: sv
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 19.05
+    reward: 18.97
   - language: nl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 25.36
+    reward: 25.26
   - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 31.67
+    reward: 31.55
   - language: ko
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 25.36
+    reward: 31.55
   - language: rn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 37.99
+    reward: 37.84
 tags:
   - sidechains
   - development

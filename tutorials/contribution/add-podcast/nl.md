@@ -1,6 +1,6 @@
 ---
-name: Een podcast toevoegen aan PlanB Network
-description: Hoe voeg je een nieuwe podcast toe aan PlanB Network?
+name: Een podcast toevoegen aan Plan ₿ Academy
+description: Hoe voeg je een nieuwe podcast toe aan Plan ₿ Academy?
 ---
 ![podcast](assets/cover.webp)
 
@@ -8,14 +8,14 @@ description: Hoe voeg je een nieuwe podcast toe aan PlanB Network?
 De missie van PlanB is om eersteklas educatieve bronnen aan te bieden over Bitcoin in zoveel mogelijk talen. Alle inhoud die op de site wordt gepubliceerd is open-source en wordt gehost op GitHub, zodat iedereen kan deelnemen aan het verrijken van het platform.
 
 
-Wil je een Bitcoin podcast toevoegen aan de PlanB Network site en de zichtbaarheid van je show vergroten, maar weet je niet hoe? Dan is deze tutorial voor jou!
+Wil je een Bitcoin podcast toevoegen aan de Plan ₿ Academy site en de zichtbaarheid van je show vergroten, maar weet je niet hoe? Dan is deze tutorial voor jou!
 ![podcast](assets/01.webp)
 
 
 - Eerst moet je een GitHub account hebben. Als je niet weet hoe je er een moet aanmaken, hebben we een gedetailleerde tutorial gemaakt om je te begeleiden.
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -27,7 +27,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![podcast](assets/03.webp)
 
 
-- Als je nog nooit hebt bijgedragen aan de inhoud van PlanB Network, zul je een fork van de originele repository moeten maken. Een repository forken betekent dat je een kopie van die repository maakt op je eigen GitHub account, zodat je aan het project kunt werken zonder de originele repository te beïnvloeden. Klik op de knop `Fork this repository`:
+- Als je nog nooit hebt bijgedragen aan de inhoud van Plan ₿ Academy, zul je een fork van de originele repository moeten maken. Een repository forken betekent dat je een kopie van die repository maakt op je eigen GitHub account, zodat je aan het project kunt werken zonder de originele repository te beïnvloeden. Klik op de knop `Fork this repository`:
 ![podcast](assets/04.webp)
 
 
@@ -135,7 +135,7 @@ contributors:
 ![podcast](assets/14.webp)
 
 
-- Selecteer je fork van de PlanB Network repository:
+- Selecteer je fork van de Plan ₿ Academy repository:
 ![podcast](assets/15.webp)
 
 
@@ -178,7 +178,7 @@ contributors:
 ![podcast](assets/25.webp)
 
 
-- Er wordt een nieuwe pagina geopend. Sleep je podcastlogo naar het gebied. Deze afbeelding zal getoond worden op de PlanB Network site:
+- Er wordt een nieuwe pagina geopend. Sleep je podcastlogo naar het gebied. Deze afbeelding zal getoond worden op de Plan ₿ Academy site:
 ![podcast](assets/26.webp)
 
 
@@ -225,10 +225,10 @@ contributors:
 - Klik op de knop `Create pull request`:
 ![podcast](assets/37.webp)
 
-Gefeliciteerd! Je PR is succesvol aangemaakt. Een beheerder zal het nu bekijken en, als alles in orde is, samenvoegen in de hoofdrepository van PlanB Network. Je zou je podcast enkele dagen later op de website moeten zien verschijnen.
+Gefeliciteerd! Je PR is succesvol aangemaakt. Een beheerder zal het nu bekijken en, als alles in orde is, samenvoegen in de hoofdrepository van Plan ₿ Academy. Je zou je podcast enkele dagen later op de website moeten zien verschijnen.
 
 
-Zorg ervoor dat je de voortgang van je PR volgt. Een beheerder kan een opmerking achterlaten waarin om extra informatie wordt gevraagd. Zolang je PR niet gevalideerd is, kun je het bekijken in de `Pull requests` tab op de PlanB Network GitHub repository:
+Zorg ervoor dat je de voortgang van je PR volgt. Een beheerder kan een opmerking achterlaten waarin om extra informatie wordt gevraagd. Zolang je PR niet gevalideerd is, kun je het bekijken in de `Pull requests` tab op de Plan ₿ Academy GitHub repository:
 ![podcast](assets/38.webp)
 
 Hartelijk dank voor je waardevolle bijdrage! :)

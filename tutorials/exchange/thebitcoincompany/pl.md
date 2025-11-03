@@ -40,7 +40,7 @@ Krótko mówiąc, "wydać" i "zastąpić" wydają się być drogą naprzód. Ucz
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 Przesłanie nie mogło być jaśniejsze: "Wydawaj swoje Bitcoiny wszędzie".
 
@@ -117,9 +117,9 @@ Jeśli jesteś zwolennikiem starej szkoły i chcesz dowiedzieć się, jak łatwo
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Z naszej strony wybierzmy opcję "Zaloguj się za pomocą Lightning".
 
@@ -154,7 +154,7 @@ Otwórzmy więc nasz Wallet Phoenix i zeskanujmy pokazany kod QR. Po zeskanowani
 
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 Natychmiastowo jesteś identyfikowany przez swój Wallet Lightning, którym może być oczywiście Phoenix lub inny, ponieważ większość portfeli na rynku obsługuje tę funkcję.
 
@@ -291,4 +291,4 @@ Jeśli chcesz pomóc w popularyzacji Bitcoin i zachęcić niezależnego sprzedaw
 
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

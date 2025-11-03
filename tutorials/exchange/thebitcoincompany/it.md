@@ -31,7 +31,7 @@ In breve, "spendere" & "sostituire" sembra essere la strada da seguire. Contribu
 **The Bitcoin Company** è simile al suo concorrente Bitrefill: permette di scambiare bitcoin per ottenere gift card di vari negozi. Grazie a questo tipo di soluzione puoi praticamente vivere nel "Bitcoin standard", creando un semplice account.
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 Il messaggio non potrebbe essere più chiaro: "Spend your Bitcoins Everywhere" (“Spendi i tuoi Bitcoin ovunque”).
 
@@ -89,9 +89,9 @@ Hai diverse opzioni per accedere. Puoi usare la classica combinazione email/pass
 Se vuoi imparare a creare facilmente una casella sicura e gestire le password, ti consiglio questi tutorial:
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Noi scegliamo "Sign in with Lightning" (“Accedi con Lightning”).
 

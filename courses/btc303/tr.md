@@ -75,7 +75,7 @@ Bitcoin'un karmaşık yönetişim ortamında gezinmek teknik uzmanlıktan daha f
 Bitcoin yolculuğunuzda bir sonraki adımı atmaya hazır mısınız? Hadi başlayalım!
 
 
-***N.B.**: Kurs sırasında Bitcoin ile ilgili bilmediğiniz terimlerle karşılaşırsanız, lütfen tanımları bulmak için [sözlüğe] (https://planb.network/resources/glossary) bakın.*
+***N.B.**: Kurs sırasında Bitcoin ile ilgili bilmediğiniz terimlerle karşılaşırsanız, lütfen tanımları bulmak için [sözlüğe] (https://planb.academy/resources/glossary) bakın.*
 
 
 
@@ -112,7 +112,7 @@ Bitcoin'da adem-i merkeziyetçiliğin iki önemli yönü bulunmaktadır: Miner a
 Miner ademi merkeziyetçilik, işlemlerin herhangi bir merkezi kuruluş tarafından gerçekleştirilmediği veya koordine edilmediği gerçeğini ifade eder. Full node ademi merkeziyetçilik, blokların, yani madencilerin ürettiği verilerin doğrulanmasının birkaç güvenilir otorite tarafından değil, ağın ucunda, nihayetinde kullanıcıları tarafından yapılmasını ifade eder.
 
 
-![](assets/decentralization-banner.webp)
+![](assets/en/001.webp)
 
 
 ### Miner ademi merkeziyetçilik
@@ -154,7 +154,7 @@ Eğer başarılı olurlarsa, sistemin eskisi kadar sansürlenebilir olduğu göz
 Bu seçeneklerin hiçbiri kullanıcı için faydalı değildir.
 
 
-Bitcoin'yı diğer para sistemlerinden ayıran şey merkezsizleştirme yoluyla sansüre karşı dirençtir, ancak *Double-spending sorunu* nedeniyle bunu başarmak kolay bir şey değildir. Bu, hiç kimsenin aynı Coin'i iki kez harcayamayacağından emin olma sorunudur ve birçok insanın merkezi olmayan bir şekilde çözmenin imkansız olduğunu düşündüğü bir sorundur. Satoshi Nakamoto [Bitcoin whitepaper]'ında (https://planb.network/bitcoin.pdf) Double-spending sorununun nasıl çözüleceğini yazmıştır:
+Bitcoin'yı diğer para sistemlerinden ayıran şey merkezsizleştirme yoluyla sansüre karşı dirençtir, ancak *Double-spending sorunu* nedeniyle bunu başarmak kolay bir şey değildir. Bu, hiç kimsenin aynı Coin'i iki kez harcayamayacağından emin olma sorunudur ve birçok insanın merkezi olmayan bir şekilde çözmenin imkansız olduğunu düşündüğü bir sorundur. Satoshi Nakamoto [Bitcoin whitepaper]'ında (https://planb.academy/bitcoin.pdf) Double-spending sorununun nasıl çözüleceğini yazmıştır:
 
 
 > Bu makalede, işlemlerin kronolojik sırasının generate hesaplamalı kanıtı için eşler arası dağıtılmış bir Timestamp sunucusu kullanarak Double-spending problemine bir çözüm öneriyoruz.
@@ -276,7 +276,7 @@ Bitcoin'in ademi merkeziyetçilik yoluyla çalışma şekli, doğadaki birçok t
 Doğal ya da yapay pek çok sistemin liderler olmadan da çalışabildiğine ve çalıştığına, güçlü ve dirençli olduklarına dikkat çekiyor. Her bir birey yalnızca yakın çevresiyle etkileşim halindedir, ancak birlikte muazzam bir şey oluştururlar.
 
 
-![](assets/fishschool.webp)
+![](assets/en/002.webp)
 
 *Balık sürülerinin liderleri yoktur*
 
@@ -302,7 +302,7 @@ Merkezi olmayan sistemleri anlamak Hard olabilir, ancak yardımcı olabilecek ba
 
 
 
-![](assets/trustlessness-banner.webp)
+![](assets/en/003.webp)
 
 
 Bu bölüm güvenilmezlik kavramını, bilgisayar bilimleri açısından ne anlama geldiğini ve Bitcoin'ün değer önerisini korumak için neden Trustless olması gerektiğini incelemektedir.
@@ -453,7 +453,7 @@ Güvensizlik olmadan ademi merkeziyetçiliğe sahip olamayız çünkü güven ka
 
 
 
-![](assets/privacy-banner.webp)
+![](assets/en/004.webp)
 
 
 Bu bölüm özel finansal bilgilerinizi kendinize nasıl saklayacağınızla ilgilidir. Bitcoin bağlamında gizliliğin ne anlama geldiği, neden önemli olduğu ve Bitcoin'ün takma ad olduğunu söylemenin ne anlama geldiği açıklanmaktadır. Ayrıca, hem On-Chain hem de off-chain'de özel verilerin nasıl sızabileceği de incelenmektedir.
@@ -533,7 +533,7 @@ Satoshi Nakamoto, [Bitcoin whitepaper]'ının 7. bölümünde (https://Bitcoin.o
 Bu makale, Blockchain gizliliğinin ana sorunlarını, yani Address yeniden kullanımı ve Address kümelemesini özetlemektedir. İlki kendi kendini açıklamaktadır, ikincisi ise bir dizi farklı adresin aynı kullanıcıya ait olduğuna belirli bir kesinlik düzeyinde karar verme yeteneğini ifade etmektedir.
 
 
-![](assets/address-reuse-clustering.webp)
+![](assets/en/005.webp)
 
 
 Blockchain'daki tipik gizlilik sızıntıları
@@ -652,7 +652,7 @@ Kişisel verilerinizin açığa çıkma riskini azaltmak için ilk etapta bu ver
 Makale, KYC/AML gerektiren borsaları kullanmaktan kaçınmanızı ve bunun yerine özel olarak işlem yapmanızı veya [bisq] (https://bisq.network/) gibi merkezi olmayan borsaları kullanmanızı önermektedir.
 
 
-https://planb.network/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+https://planb.academy/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 Karşı önlemler hakkında daha derinlemesine okuma için, daha önce bahsedilen [gizlilikle ilgili wiki makalesine] (https://en.Bitcoin.it/wiki/Privacy#Methods_for_improving_privacy_.28non-Blockchain.29), "Gizliliği geliştirme yöntemleri (Blockchain dışı)" bölümünden başlayarak bakın.
 
@@ -673,7 +673,7 @@ Bitcoin'de iyi bir gizlilik elde etmek için, bazıları maliyetli ve zaman alı
 
 
 
-![](assets/finitesupply-banner.webp)
+![](assets/en/006.webp)
 
 
 Bu bölümde Bitcoin Supply sınırı olan 21 milyon BTC'yi ya da gerçekte ne kadar olduğunu inceleyeceğiz Bu limitin nasıl uygulandığından ve buna uyulduğunu doğrulamak için neler yapılabileceğinden bahsediyoruz. Dahası, kristal küreye bir göz atıyor ve Block reward sübvansiyon temelli olmaktan ücret temelli olmaya geçtiğinde devreye girecek dinamikleri tartışıyoruz.
@@ -785,7 +785,7 @@ Bitcoin Supply'in 21 milyonu geçip geçmeyeceğini bugünden söyleyemeyiz ve b
 
 
 
-![](assets/upgrading-banner.webp)
+![](assets/en/007.webp)
 
 
 Bitcoin'ı güvenli bir şekilde yükseltmek son derece zor olabilir. Bazı değişikliklerin hayata geçirilmesi birkaç yıl alabilir. Bu bölümde, Bitcoin'ın yükseltilmesiyle ilgili ortak kelime dağarcığı hakkında bilgi ediniyor ve protokolündeki bazı tarihi yükseltme örneklerini ve bunlardan elde ettiğimiz içgörüleri keşfediyoruz. Son olarak, zincir bölünmeleri ve bunlarla ilgili riskler ve maliyetler hakkında konuşuyoruz.
@@ -1025,7 +1025,7 @@ Bitcoin'u uyum içinde tutmak için Soft çatallarının ileriye dönük bir yol
 <chapterId>d4982f3d-4694-51cc-99be-28f54b03a2a2</chapterId>
 
 
-![](assets/adversarialthinking-banner.webp)
+![](assets/en/008.webp)
 
 
 Bu bölüm, nelerin yanlış gidebileceğine ve düşmanların nasıl hareket edebileceğine odaklanan bir zihniyet olan *düşmanca düşünme* konusunu ele almaktadır. Bitcoin'nin güvenlik varsayımlarını ve güvenlik modelini tartışarak başlıyoruz, ardından sıradan kullanıcıların düşmanca düşünerek kendi egemenliklerini ve Bitcoin'nin Full node ademi merkeziyetini nasıl geliştirebileceklerini açıklıyoruz. Ardından, Bitcoin'ye yönelik bazı gerçek tehditlerin yanı sıra düşmanın zihnine de bakıyoruz. Son olarak, insanların neden ilk etapta Bitcoin üzerinde çalıştıklarını anlamanıza yardımcı olabilecek *direniş ekseni* hakkında konuşuyoruz.
@@ -1099,7 +1099,7 @@ Yukarıdakiler, ilgilenilmesi gereken gerçek tehditlere örnektir.
 ### Basit Sabotaj Alanı
 
 
-![](assets/sabotage-manual.webp)
+![](assets/en/009.webp)
 
 
 Basit Sabotaj Saha El Kitabından Alıntı
@@ -1150,7 +1150,7 @@ Bitcoin'u güvende tutabilmek için düşmanlarını ve onların teşviklerini b
 
 
 
-![](assets/opensource-banner.webp)
+![](assets/en/010.webp)
 
 
 Bitcoin açık kaynak kodlu yazılım kullanılarak inşa edilmiştir. Bu bölümde bunun ne anlama geldiğini, yazılımın bakımının nasıl yapıldığını ve Bitcoin'taki açık kaynak kodlu yazılımın izinsiz geliştirmeye nasıl izin verdiğini analiz ediyoruz. Kriptografik sistemlerde kütüphanelerin seçimi ve kullanımı ile ilgilenen *seçim kriptografisi* konusuna giriyoruz. Bu bölümde Bitcoin'ın inceleme süreci hakkında bir bölüm ve ardından Bitcoin geliştiricilerinin finansman bulma yolları hakkında bir başka bölüm yer alıyor. Son bölüm, Bitcoin'ın açık kaynak kültürünün dışarıdan nasıl gerçekten tuhaf görünebileceğinden ve bu algılanan tuhaflığın neden gerçekten iyi bir sağlık işareti olduğundan bahsediyor.
@@ -1438,7 +1438,7 @@ Bitcoin etrafındaki geliştirme süreci radikal bir şekilde açıktır, bu da 
 
 
 
-![](assets/scaling-banner.webp)
+![](assets/en/011.webp)
 
 
 
@@ -1585,7 +1585,7 @@ Yatay ve dikey ölçeklendirme, veritabanları ve web sunucuları gibi merkezi s
 İçe doğru ölçeklendirme yoluyla elde edilen gelişmeler en hafif tabirle etkileyicidir. Yıllar içindeki gelişmeler hakkında genel bir fikir vermek için Jameson Lopp [Blockchain senkronizasyonu üzerinde benchmark testleri yaptı](https://blog.lopp.net/Bitcoin-core-performance-evolution/) ve Bitcoin core'in 0.8 sürümüne kadar birçok farklı sürümünü karşılaştırdı.
 
 
-![](assets/Bitcoin-Core-Sync-Performance-1.webp)
+![](assets/en/012.webp)
 
 
 Bitcoin core'ün çeşitli sürümlerinin ilk blok indirme performansı. Y ekseninde senkronize edilen blok yüksekliği, X ekseninde ise bu yüksekliğe senkronize etmek için geçen süre yer almaktadır
@@ -1600,7 +1600,7 @@ Farklı çizgiler Bitcoin core'ün farklı sürümlerini temsil etmektedir. En s
 Hesaplamalı iyileştirmenin iyi bir örneği, diğer şeylerin yanı sıra dijital imzaları yapmak ve doğrulamak için gereken kriptografik ilkelleri uygulayan [libsecp256k1](https://github.com/Bitcoin-core/secp256k1) kütüphanesinde bulunabilir. Pieter Wuille bu kütüphaneye katkıda bulunanlardan biridir ve çeşitli çekme istekleri yoluyla elde edilen performans iyileştirmelerini sergileyen bir [Twitter başlığı](https://twitter.com/pwuille/status/1450471673321381896) yazmıştır.
 
 
-![](assets/libsecp256k1speedups.webp)
+![](assets/en/013.webp)
 
 
 Zaman çizelgesinde işaretlenmiş önemli çekme istekleri ile zaman içinde imza doğrulama performansı
@@ -1614,7 +1614,7 @@ Ayrıca, performans artışına katkıda bulunan ve yerden tasarruf sağlayan iy
 gW-588'in alan tasarrufuna katkısı hakkında [Medium blog yazısı] (https://murchandamus.medium.com/2-of-3-Multisig-inputs-using-Pay-to-Taproot-d5faf2312ba3), kullanıcı Murch, Taproot'i çeşitli şekillerde kullanarak ve hiç kullanmayarak 3'te 2 eşik imzasının ne kadar blok alanı gerektireceğini karşılaştırıyor.
 
 
-![](assets/murch-taproot.webp)
+![](assets/en/014.webp)
 
 
 Farklı harcama türleri, Taproot ve eski sürümler için alan tasarrufu.
@@ -1629,7 +1629,7 @@ Bitcoin yazılımında içe doğru ölçeklendirmenin yanı sıra, kullanıcıla
 İşlem gruplama ile amaçlanan, her ödeme için tek bir işlem yapmak yerine birden fazla ödemeyi tek bir işlemde birleştirmektir. Bu size çok fazla ücret tasarrufu sağlayabilir ve aynı zamanda blok alanı yükünü azaltabilir.
 
 
-![](assets/tx-batching.webp)
+![](assets/en/015.webp)
 
 
 İşlem gruplama, ücretlerden tasarruf etmek için birden fazla ödemeyi tek bir işlemde birleştirir.
@@ -1638,7 +1638,7 @@ Bitcoin yazılımında içe doğru ölçeklendirmenin yanı sıra, kullanıcıla
 Çıktı birleştirme, birden fazla çıktıyı tek bir çıktıda birleştirmek için blok alanı talebinin düşük olduğu dönemlerden yararlanmayı ifade eder. Bu, daha sonra blok alanı talebi yüksekken ödeme yapmanız gerektiğinde ücret maliyetinizi azaltabilir.
 
 
-![](assets/utxo-consolidation.webp)
+![](assets/en/016.webp)
 
 
 Çıktı konsolidasyonu: Daha sonra ücretlerden tasarruf etmek için ücretler düşükken madeni paralarınızı tek bir büyük Coin'te eritin.
@@ -1660,7 +1660,7 @@ Ancak ne yazık ki, bu iki *UTXO yönetimi* tekniği sizin veya alacaklıların�
 Katmanlı bir protokol, aşağıdaki şekilde gösterildiği gibi, iki veya daha fazla kişinin Blockchain'e yerleştirilen bir başlangıç işlemi üzerinde anlaşmasıyla başlar.
 
 
-![](assets/scaling-layer.webp)
+![](assets/en/017.webp)
 
 Bitcoin, Layer 1'in üzerinde tipik bir Layer 2 protokolü.
 
@@ -1714,7 +1714,7 @@ Bugün Bitcoin'nin dikey olarak ("daha büyük donanım satın alın") veya yata
 
 
 
-![](assets/shtf-banner.webp)
+![](assets/en/018.webp)
 
 Bitcoin insanlar tarafından inşa edilmiştir. İnsanlar yazılımı yazıyor ve daha sonra insanlar bu yazılımı çalıştırıyor. Bir güvenlik açığı ya da ciddi bir hata keşfedildiğinde - ikisi arasında gerçekten bir ayrım var mı? - her zaman insanlar tarafından keşfedilir, etten ve kemikten. Bu bölüm, ortalık karıştığında insanların ne yapması, ne yapması ve ne yapmaması gerektiğini ele almaktadır. İlk bölümde *sorumlu ifşa* terimi açıklanmaktadır; bu terim, bir güvenlik açığını keşfeden birinin bundan kaynaklanan zararı en aza indirmeye yardımcı olmak için nasıl sorumlu davranabileceğini ifade eder. Bölümün geri kalanında, yıllar içinde keşfedilen en ciddi güvenlik açıklarından bazıları ve bunların geliştiriciler, madenciler ve kullanıcılar tarafından nasıl ele alındığına dair bir tura çıkacaksınız. Bitcoin'ün ilk zamanlarında işler bugün olduğu kadar titiz değildi.
 
@@ -2059,7 +2059,7 @@ Bu konunun tam açıklaması 28 Temmuz 2015 tarihinde Pieter Wuille tarafından
 E-postada ayrıca sorunun nasıl keşfedildiği ve tam olarak neyin neden olduğu ile ilgili ayrıntılar da yer alıyor. Sonunda, olayların bir zaman çizelgesini sunuyor ve biz burada en önemlilerinden bazılarını tekrarlayacağız. Bazıları, yukarıdaki şekilde gösterildiği gibi, zaten açıklanmıştır.
 
 
-![](assets/bip66-timeline-1.webp)
+![](assets/en/019.webp)
 
 
 BIP66'yı çevreleyen olayların zaman çizelgesi. Siyah renkli maddeler yukarıda açıklanmıştır.
@@ -2097,7 +2097,7 @@ Bu olaylar, Gregory Maxwell'in Pieter Wuille'in daha sonra yayınladığı güve
 Daha sonra, Maxwell tarafından önerildiği gibi, BIP66, yalnızca katı DER kodlamasını belirten BIP62'nin bir alt kümesi olarak oluşturuldu. Bu BIP görünüşe göre geniş çapta kabul gördü ve Temmuz ayında dağıtıldı, ancak *doğrulamasız Mining* nedeniyle ironik bir şekilde iki Blockchain bölünmesi meydana geldi. Bu bölünmeler bir sonraki bölümde ele alınmaktadır.
 
 
-![](assets/bip66-timeline-2.webp)
+![](assets/en/020.webp)
 
 
 Buradan çıkarılacak en önemli sonuç, BIP'lerin aşağı yukarı *atomik* olması gerektiğidir; yani faydalı bir şey sağlayacak veya belirli bir sorunu çözecek kadar eksiksiz, ancak kullanıcılar arasında geniş bir desteğe izin verecek kadar küçük olmalıdır. Bir BIP'nin içine ne kadar çok şey koyarsanız, kabul edilme şansı o kadar azalır.
@@ -2118,7 +2118,7 @@ Uyarı sayfası, Bitcoin core'nin eski sürümlerini kullanmaları durumunda kul
 Yukarıda bahsedilen bölünme 2015-07-04 tarihinde 02:10 UTC'de [363730](https://Mempool.space/block/000000000000000006a320d752b46b532ec0f3f815c5dae467aff5715a6e579e) blok yüksekliğinden sonra meydana gelmiştir. Bu sorun aynı gün saat 03:50'de, 6 geçersiz blok çıkarıldıktan sonra çözülmüştür. Ne yazık ki, aynı sorun ertesi gün, yani 2015-07-05'te 21:50'de tekrar meydana geldi, ancak bu sefer geçersiz dal sadece 3 blok sürdü.
 
 
-![](assets/bip66-timeline-3.webp)
+![](assets/en/021.webp)
 
 BIP66'ya yol açan olaylar, dağıtımı ve sonrası, Bitcoin geliştiricilerinin ne kadar dikkatli olması gerektiğine dair çok iyi bir vaka çalışmasıdır. BIP66'dan birkaç önemli çıkarım:
 

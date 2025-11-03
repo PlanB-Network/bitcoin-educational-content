@@ -27,7 +27,7 @@ description: Umbrel पर Lightning Network Daemon (LND) को स्थाप
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 सुनिश्चित करें कि आपका Bitcoin नोड अद्यतन है और ठीक से काम कर रहा है, क्योंकि Lightning Network सभी off-chain लेनदेन के लिए इस पर निर्भर करता है।
 
@@ -57,7 +57,7 @@ Lightning Network के पूर्ण सैद्धांतिक पर�
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 यह पाठ्यक्रम आपको LND नोड के साथ अभ्यास करने से पहले Lightning Network की मूलभूत अवधारणाओं की गहन जानकारी देगा।
 
@@ -613,7 +613,7 @@ LND आपके पुराने चैनलों के प्रत्य
 
 
 
-https://planb.network/tutorials/node/lightning-network/watch-tower-26937006-dfe5-404e-9ee4-e82e422c5cf2
+https://planb.academy/tutorials/node/lightning-network/watch-tower-26937006-dfe5-404e-9ee4-e82e422c5cf2
 ### अन्य सर्वोत्तम अभ्यास
 
 

@@ -300,7 +300,7 @@ Samourai将然后广播你的Tx0。
 
 ![samourai](assets/notext/34.webp)
 
-通过检查`Remixing`标签页，对应于**Postmix**账户，您将观察到来自初始混合的UTXOs。这些硬币将保持准备状态，以便进行后续的重新混合，这将不会产生任何额外费用。我推荐您阅读这篇其他文章，以了解更多关于重新混合过程和coinjoin周期的效率：[REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)。
+通过检查`Remixing`标签页，对应于**Postmix**账户，您将观察到来自初始混合的UTXOs。这些硬币将保持准备状态，以便进行后续的重新混合，这将不会产生任何额外费用。我推荐您阅读这篇其他文章，以了解更多关于重新混合过程和coinjoin周期的效率：[REMIX - WHIRLPOOL](https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)。
 
 ![samourai](assets/notext/35.webp)
 
@@ -337,7 +337,7 @@ Samourai将然后广播你的Tx0。
 
 ![samourai](assets/notext/43.webp)
 在下一步中，您可以选择修改与您的交易相关的费率。您还可以通过勾选相应的框来启用Stonewall选项。如果Stonewall选项不可选，这意味着您的**Postmix**账户中没有足够大小的UTXO来支持这种特定的交易结构。
-[-> 了解更多关于Stonewall交易的信息。](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
+[-> 了解更多关于Stonewall交易的信息。](https://planb.academy/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 如果一切符合您的满意，点击绿色的`SEND ... BTC`按钮。
 
@@ -369,7 +369,7 @@ Whirlpool将自动关闭。等待Samourai完成加载，然后再次打开Whirlp
 通过再次点击三个小点，然后选择`SCODE (促销代码) Whirlpool`来确保您的SCODE已正确注册。如果一切正常，您就可以开始一个新的Whirlpool周期，并在服务费上享受折扣。需要注意的是，这些SCODE是临时的：它们在几天后就会失效。
 
 ## 如何知道我们的coinjoin周期的质量？
-为了使coinjoin真正有效，它必须在输入和输出的金额之间展示良好的一致性。这种一致性增加了外部观察者可能的解释数量，从而增加了围绕交易的不确定性。为了量化coinjoin产生的不确定性，可以通过计算交易的熵来实现。要深入探索这些指标，我推荐您参考教程：[BOLTZMANN CALCULATOR](https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe)。Whirlpool模型被认为是为coinjoins带来最多同质性的模型。
+为了使coinjoin真正有效，它必须在输入和输出的金额之间展示良好的一致性。这种一致性增加了外部观察者可能的解释数量，从而增加了围绕交易的不确定性。为了量化coinjoin产生的不确定性，可以通过计算交易的熵来实现。要深入探索这些指标，我推荐您参考教程：[BOLTZMANN CALCULATOR](https://planb.academy/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe)。Whirlpool模型被认为是为coinjoins带来最多同质性的模型。
 接下来，我们将根据一个硬币在其中被隐藏的群组的范围，评估几个coinjoin周期的性能。这些群组的大小定义了所谓的匿名集（anonsets）。有两种类型的匿名集：第一种是针对回顾性分析（从现在到过去）评估获得的隐私；第二种是针对前瞻性分析（从过去到现在）。为了详细解释这两个指标，我邀请您参考教程：WHIRLPOOL STATS TOOLS - ANONSETS。
 
 ## 如何管理postmix？

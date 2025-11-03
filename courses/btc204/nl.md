@@ -464,9 +464,9 @@ We moeten dus ook kunnen omgaan met Blockchain analyse in ons gebruik van Bitcoi
 Wat is een betere manier om de analyse van Blockchain tegen te gaan dan te leren over de methodes die erin gebruikt worden? Als je wilt weten hoe je je privacy op Bitcoin kunt verbeteren, moet je deze methoden begrijpen. Dit geeft je een beter begrip van technieken zoals CoinJoin of PayJoin (technieken die we in de laatste delen van de cursus zullen bekijken), en vermindert de fouten die je zou kunnen maken.
 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
-https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
+https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
 Hierin kunnen we een analogie trekken met cryptografie en cryptoanalyse. Een goede cryptograaf is eerst en vooral een goede cryptanalist. Om een nieuw versleutelingsalgoritme te bedenken, moet je weten welke aanvallen het zal ondervinden en ook bestuderen waarom eerdere algoritmen gebroken zijn. Hetzelfde principe geldt voor Bitcoin privacy. Inzicht in Blockchain analysemethoden is de sleutel tot bescherming ertegen. Daarom heb ik een hele sectie on chain analyse in deze training opgenomen.
 
@@ -1787,7 +1787,7 @@ Al deze automatische UTXO selectiemethoden kunnen effectief zijn in het verminde
 Als je wilt weten hoe je je UTXO's kunt labelen, dan hebben we een uitgebreide tutorial gemaakt over de belangrijkste Bitcoin Wallet software die er is:
 
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 ## KYC en sleutelidentificatie
 
@@ -2026,7 +2026,7 @@ Wat oplossingen betreft, heb ik persoonlijk altijd [Bisq](https://bisq.network/)
 -> Bekijk onze Bisq-tutorial.
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+https://planb.academy/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 Voor een eenvoudigere optie kun je [Peach](https://peachbitcoin.com/) proberen, een mobiele app die kopers en verkopers met elkaar verbindt met een ingebouwd conflictoplossingssysteem. Het proces is intuïtiever dan dat van Bisq.
 
@@ -2034,7 +2034,7 @@ Voor een eenvoudigere optie kun je [Peach](https://peachbitcoin.com/) proberen, 
 -> Bekijk onze Peach-handleiding.
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
 Een andere online optie is [HodlHodl](https://hodlhodl.com/), een gerenommeerd platform dat goede liquiditeit biedt, hoewel ik het persoonlijk niet heb getest.
 
@@ -2042,7 +2042,7 @@ Een andere online optie is [HodlHodl](https://hodlhodl.com/), een gerenommeerd p
 -> Bekijk onze HodlHodl tutorial.
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+https://planb.academy/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
 Probeer voor Lightning Network-gebaseerde oplossingen [RoboSats](https://learn.robosats.com/) en [LNP2PBot](https://lnp2pbot.com/). RoboSats is toegankelijk via een website en is relatief eenvoudig te gebruiken. LNP2PBot is meer atypisch, omdat het werkt via een Exchange systeem op de Telegram berichtenapplicatie.
 
@@ -2053,9 +2053,9 @@ Probeer voor Lightning Network-gebaseerde oplossingen [RoboSats](https://learn.r
 -> Bekijk onze LNP2PBot handleiding.
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.academy/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
-https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+https://planb.academy/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
 
 ![BTC204](assets/nl/096.webp)
 
@@ -2069,7 +2069,7 @@ Afhankelijk van het land waar je woont, heb je mogelijk toegang tot gereguleerde
 -> Bekijk onze handleiding over Relai.
 
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
 Zoals we in het vorige hoofdstuk zagen, bespaart dit type platform je de risico's van KYC-procedures, maar ze brengen wel een hoger risiconiveau voor sleutelidentificatie met zich mee. In termen van Bitcoin vertrouwelijkheid bieden deze platforms dus een betere bescherming dan aankoopmethodes met KYC, maar ze blijven minder aantrekkelijk dan P2P exchanges.
 
@@ -2104,7 +2104,7 @@ De beste manier om BTC uit te geven is natuurlijk door Bitcoin of de Lightning N
 Verschillende platforms die geen KYC-procedures vereisen, bieden de mogelijkheid om bitcoins in te wisselen voor cadeaubonnen die gebruikt kunnen worden bij grote retailers. Deze omvatten [CoinsBee](https://www.coinsbee.com/), [The Bitcoin Company](https://thebitcoincompany.com/) en [Bitrefill](https://www.bitrefill.com/). Deze platforms maken het veel gemakkelijker om je bitcoins dagelijks te gebruiken, waardoor je toegang krijgt tot een breed scala aan producten en diensten zonder dat je ze hoeft om te zetten in fiatvaluta.
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 ![BTC204](assets/nl/098.webp)
 
@@ -2118,7 +2118,7 @@ Andere manieren om bitcoins te verkrijgen terwijl je je privacy beschermt, zijn 
 Een andere methode is om in Exchange te werken voor bitcoins. Deze methode kan interessant zijn, maar de mate van identificatie die nodig is, varieert aanzienlijk afhankelijk van de omstandigheden.
 
 
-*Om dit hoofdstuk te schrijven, heb ik gebruik gemaakt van de BTC205 training gegeven door [@pivi___](https://x.com/pivi___) over de Plan ₿ Network (momenteel alleen beschikbaar in het Frans)*
+*Om dit hoofdstuk te schrijven, heb ik gebruik gemaakt van de BTC205 training gegeven door [@pivi___](https://x.com/pivi___) over de Plan ₿ Academy (momenteel alleen beschikbaar in het Frans)*
 
 
 ## Consolidatie, UTXO beheer en CIOH
@@ -3107,7 +3107,7 @@ In het volgende hoofdstuk zullen we ontdekken wat "anonsets" zijn, hoe deze indi
 
 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
 
 
@@ -3539,7 +3539,7 @@ Na de arrestatie van de oprichters van Samourai zijn deze tools helaas niet meer
 Nu we coinjoins in detail hebben behandeld, kijken we naar de andere privacytechnieken die beschikbaar zijn op Bitcoin in het laatste deel van onze cursus. We zullen kijken naar payjoins, specifieke pseudo-CoinJoin transactietypen, statische Address protocollen en maatregelen om de vertrouwelijkheid te versterken, niet op het niveau van de transacties zelf, maar op het niveau van het netwerk van knooppunten.
 
 
-https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
+https://planb.academy/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
 
 # De uitdagingen van andere geavanceerde vertrouwelijkheidstechnieken begrijpen
 
@@ -3679,7 +3679,7 @@ Een oplossing zou zijn om transactiestructuren te gebruiken die ambiguïteit int
 
 
 
-https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
+https://planb.academy/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
 
 ## Betaling mini-CoinJoin
 
@@ -3860,9 +3860,9 @@ Het is ook mogelijk om dit type transactie handmatig uit te voeren vanaf elke Bi
 In het volgende hoofdstuk kijken we naar een andere vertrouwelijkheidstechniek die relatief onbekend is, maar die erg nuttig is als aanvulling op wat we al bestudeerd hebben.
 
 
-https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
+https://planb.academy/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
 
-https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
+https://planb.academy/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
 
 ## De ketsen
 
@@ -3973,7 +3973,7 @@ Ricochetten betekent gewoon bitcoins naar jezelf sturen. Het is perfect mogelijk
 In het volgende hoofdstuk bekijken we verschillende technieken voor geheime overdrachten van Ownership. Deze methoden verschillen radicaal van de methoden die we tot nu toe hebben onderzocht, zowel wat betreft de werking als de resultaten.
 
 
-https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
+https://planb.academy/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
 
 ## Geheime overdrachten van Ownership
 
@@ -4381,10 +4381,10 @@ Hoewel deze robots geen specifieke technische functionaliteit hebben binnen het 
 
 
 ---
-*In de volgende secties van dit hoofdstuk, gewijd aan BIP47, bekijken we in detail hoe het werkt, met de nadruk op de gebruikte cryptografische methoden. Om deze enigszins technische uitleg volledig te begrijpen, is het essentieel om eerst de structuur van HD wallets, sleutelafleidingsprocedures en de grondbeginselen van elliptische curve cryptografie te begrijpen. Als je dieper op deze concepten wilt ingaan, is er nog een gratis training beschikbaar op Plan ₿ Network :*
+*In de volgende secties van dit hoofdstuk, gewijd aan BIP47, bekijken we in detail hoe het werkt, met de nadruk op de gebruikte cryptografische methoden. Om deze enigszins technische uitleg volledig te begrijpen, is het essentieel om eerst de structuur van HD wallets, sleutelafleidingsprocedures en de grondbeginselen van elliptische curve cryptografie te begrijpen. Als je dieper op deze concepten wilt ingaan, is er nog een gratis training beschikbaar op Plan ₿ Academy :*
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 *Ik raad je nog steeds aan om ze te volgen, want als je de technische werking van BIP47 begrijpt, wordt het veel gemakkelijker om andere, vergelijkbare voorstellen te begrijpen, die we in de volgende hoofdstukken zullen bespreken*
 
@@ -5457,7 +5457,7 @@ Bob kan Alice dan terugbetalen op dezelfde manier waarop zij hem betalingen stuu
 *Veel dank aan [Fanis Michalakis](https://x.com/FanisMichalakis) voor zijn proeflezen en deskundig advies over het artikel dat de inspiratie vormde voor het schrijven van dit hoofdstuk!*
 
 
-https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
+https://planb.academy/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
 
 ## Stille betalingen
 

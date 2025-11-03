@@ -48,7 +48,7 @@ Escanee el código QR con su aplicación de autenticación, introduzca el códig
 
 Si no estás familiarizado con el uso de aplicaciones de autenticación para la 2FA, te recomiendo que eches un vistazo a este tutorial sobre la aplicación Authy:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Introduce tu contraseña para confirmar.
 
@@ -125,9 +125,9 @@ Introduzca el importe que desea comprar. También tendrás que elegir cómo quie
 
 Si no está familiarizado con el uso de los monederos Bitcoin, Lightning o Liquid, le sugiero que realice nuestro curso de formación dedicado:
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
-También puede explorar [nuestros tutoriales detallados sobre los mejores monederos Bitcoin](https://planb.network/tutorials/wallet).
+También puede explorar [nuestros tutoriales detallados sobre los mejores monederos Bitcoin](https://planb.academy/tutorials/wallet).
 
 A continuación, confirme su compra haciendo clic en "*Confirmar compra*".
 
@@ -200,4 +200,4 @@ Ahora ya sabe cómo comprar y vender bitcoin fácilmente con Bull Bitcoin. Si es
 
 También te recomiendo que eches un vistazo a este otro completo tutorial para aprender a gestionar tu frase mnemotécnica de la forma correcta:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270

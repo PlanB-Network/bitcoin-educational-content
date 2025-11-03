@@ -90,7 +90,7 @@ ___
 **नोट**: ये विवरण GNU/Linux CentOS 7 सिस्टम पर आधारित हैं। हालाँकि, डेबियन और CentOS सिस्टम की तुलना करने पर नेटवर्क कॉन्फ़िगरेशन काफी हद तक एक जैसे ही होते हैं। इसलिए, हम कोई भेद नहीं करेंगे। अगर कोई भेद होगा, तो हम उसके आगे एक विशिष्ट लोगो लगा देंगे।
 
 
-**नोट: यदि पाठ्यक्रम के दौरान आपको कोई अपरिचित शब्द मिले, तो कृपया परिभाषाओं के लिए [शब्दावली](https://planb.network/resources/glossary) देखें।**
+**नोट: यदि पाठ्यक्रम के दौरान आपको कोई अपरिचित शब्द मिले, तो कृपया परिभाषाओं के लिए [शब्दावली](https://planb.academy/resources/glossary) देखें।**
 
 
 
@@ -283,11 +283,11 @@ ___
 | Switch   | Locally addresses interfaces and forwards traffic via MAC                            | Network Access         |
 | Network Interface Card (NIC)     | Signal encoding, cabling, connectors, physical specifications                        | Network Access         |
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 ## IPv5 QoS प्रोटोकॉल
 
@@ -653,7 +653,7 @@ sudo apt install ipcalc
 ```
 
 
-https://planb.network/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
+https://planb.academy/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
 
 ## टीसीपी प्रोटोकॉल
 
@@ -1379,11 +1379,11 @@ iptables -t nat -A POSTROUTING -o <WAN> -s 192.168.0.0/24 -j MASQUERADE
 
 
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 
 ## मैं `ip` के साथ नेटवर्क को कैसे कॉन्फ़िगर करूं?
@@ -3068,7 +3068,7 @@ host 192.6.23.4
 किसी स्थानीय या वाइड एरिया नेटवर्क की निगरानी या सुरक्षा करते समय, सक्रिय उपकरणों और उनके द्वारा प्रदर्शित सेवाओं की पहचान करना बेहद ज़रूरी है। `nmap` (*नेटवर्क मैपर*) टूल यही काम करता है।
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 #### `nmap` का परिचय
 
@@ -3120,7 +3120,7 @@ nmap 192.168.0.0/24
 - **भेद्यता निवारण**: महत्वपूर्ण मशीनों पर चल रही असुरक्षित या पुरानी सेवाओं का पता लगाएं।
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 ### प्रक्रिया पूछताछ उपकरण
 

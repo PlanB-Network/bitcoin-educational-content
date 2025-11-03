@@ -118,7 +118,7 @@ Teist salastusteksti näete allpool oleval *Kujul 2*. [2] Selle šifreeritud tek
 
 *Joonis 1: Beale'i šifreering nr. 2*
 
-![Figure 1: Beale cipher no 2.](assets/Figure1-1.webp "Figure 1: Beale cipher no. 2")
+![Figure 1: Beale cipher no 2.](assets/en/001.webp "Figure 1: Beale cipher no. 2")
 
 Näiteks on teise salakirja esimene number 115. Iseseisvusdeklaratsiooni 115. sõna on "asutatud", seega on lihtteksti esimene täht "i" Salatekstis ei ole otseselt märgitud sõnade vahe ja suurtähtedega kirjutamine. Kuid pärast esimeste sõnade dekrüpteerimist saab loogiliselt järeldada, et lihtteksti esimene sõna oli lihtsalt "I" (Lihttekst algab fraasiga "I have deposited in the county of Bedford.")
 
@@ -281,7 +281,7 @@ Juhusliku muutuja võimalikke väärtusi ja nendega seotud tõenäosusi saab ker
 
 *Joonis 1: Juhuslik muutuja X*
 
-![Figure 1: Random variable X.](assets/Figure2-1.webp)
+![Figure 1: Random variable X.](assets/en/002.webp)
 
 Laiad tulbad *Kujul 1* ei tähenda ilmselt, et juhuslik muutuja $X$ oleks tegelikult pidev. Selle asemel on tulbad tehtud laiad, et need oleksid visuaalselt atraktiivsemad (lihtsalt sirge joon annab vähem intuitiivse visualiseerimise).
 
@@ -319,7 +319,7 @@ Graafiline kujutis $Y$ on esitatud *Kujul 2*.
 
 *Joonis 2: Juhuslik muutuja Y*
 
-![Figure 2: Random variable Y.](assets/Figure2-2.webp "Figure 2: Random variable Y")
+![Figure 2: Random variable Y.](assets/en/003.webp "Figure 2: Random variable Y")
 
 Viimase näitena vaadelgem juhuslikku muutujat Z. Sellel on tulemuse hulk {1,3,7,11,12} ja järgmine tõenäosusjaotus:
 
@@ -347,7 +347,7 @@ Seda on kujutatud joonisel **3**. Juhuslik muutuja Z on erinevalt Y-st ühtlane 
 
 *Joonis 3: Juhuslik muutuja Z*
 
-![Figure 3: Random variable Z.](assets/Figure2-3.webp "Figure 3: Random variable Z")
+![Figure 3: Random variable Z.](assets/en/004.webp "Figure 3: Random variable Z")
 
 ### Tingimuslik tõenäosus
 
@@ -1006,11 +1006,11 @@ Bob krüpteerib sõnumi $M$ ajal $T_0$ võtmega $K$, et saada salastatud tekst $
 
 *Joonis 1: Salastatus kogu ruumis*
 
-![Figure 1: Secrecy across space](assets/Figure4-1.webp "Figure 1: Secrecy across space")
+![Figure 1: Secrecy across space](assets/en/005.webp "Figure 1: Secrecy across space")
 
 *Joonis 2: Salastatus ajas*
 
-![Figure 2: Secrecy across time](assets/Figure4-2.webp "Figure 2: Secrecy across time")
+![Figure 2: Secrecy across time](assets/en/006.webp "Figure 2: Secrecy across time")
 
 ## Üks näide: Nihkešifreering
 
@@ -1112,7 +1112,7 @@ Tüüpiline XOR-voolukodeering on kujutatud *kujul 3*. Kõigepealt võetakse pri
 
 *Joonis 3: XOR voogsalvesti*
 
-![Figure 3: An XOR stream cipher](assets/Figure4-3.webp "Figure 3: An XOR stream cipher")
+![Figure 3: An XOR stream cipher](assets/en/007.webp "Figure 3: An XOR stream cipher")
 
 Tuletage meelde, et krüpteerimisskeem on tavaliselt sama põhialgoritmiga krüpteerimise mall, mitte täpne spetsifikatsioon. Laiendatult on voogkooder tavaliselt krüpteerimise mall, milles saab kasutada erineva pikkusega võtmeid. Kuigi võtme pikkus võib mõjutada skeemi mõningaid väiksemaid üksikasju, ei mõjuta see selle põhilist vormi.
 
@@ -1196,7 +1196,7 @@ Plokkšifri tööpõhimõte on esitatud *Ahelas 4*. Plokkšifri sisendiks on sõ
 
 *Joonis 4: Plokkšifreering*
 
-![Figure 4: A block cipher](assets/Figure4-4.webp "Figure 4: A block cipher")
+![Figure 4: A block cipher](assets/en/008.webp "Figure 4: A block cipher")
 
 Plokkšiffer iseenesest ei ole krüpteerimisskeem. Kuid plokkšifreeringut saab kasutada erinevate **töötlusviisidega**, et luua erinevaid krüpteerimisskeeme. Toimimisviis lihtsalt lisab mõned täiendavad operatsioonid väljaspool plokkšifrit.
 
@@ -1204,7 +1204,7 @@ Selle toimimise näitlikustamiseks oletame, et kasutatakse plokkšifreerimist (B
 
 *Joonis 5: EKP-režiimiga plokkšifreering*
 
-![Figure 5: A block cipher with ECB mode](assets/Figure4-5.webp "Figure 5: A block cipher with ECB mode")
+![Figure 5: A block cipher with ECB mode](assets/en/009.webp "Figure 5: A block cipher with ECB mode")
 
 Elektroonilise koodiraamatu krüpteerimise protsess plokkšifri abil on järgmine. Vaadake, kas te saate oma lihtkirjasõnumi jagada 128-bitisteks plokkideks. Kui mitte, siis lisage sõnumile **padding**, nii et tulemuse saaks jagada ühtlaselt 128-bitise plokisuurusega. See on teie andmed, mida kasutatakse krüpteerimiseks.
 
@@ -1220,7 +1220,7 @@ Selle asemel peaks iga plokk-kodeeringust koostatud krüpteerimisskeem olema **p
 
 *Joonis 6: CBC-režiimiga plokkšiffer*
 
-![Figure 6: A block cipher with CBC mode](assets/Figure4-6.webp "Figure 6: A block cipher with CBC mode")
+![Figure 6: A block cipher with CBC mode](assets/en/010.webp "Figure 6: A block cipher with CBC mode")
 
 Oletame, et ploki suurus on jälle 128 bitti. Seega peaksite alustuseks jälle tagama, et teie algne lihtkirjasõnum saaks vajaliku polsterduse.
 
@@ -1236,7 +1236,7 @@ Lõpuks pöörame tähelepanu **väljundi tagasiside režiimile** (**OFB režiim
 
 *Joonis 7: OFB-režiimiga plokkšiffer*
 
-![Figure 7: A block cipher with OFB mode](assets/Figure4-7.webp "Figure 7: A block cipher with OFB mode")
+![Figure 7: A block cipher with OFB mode](assets/en/011.webp "Figure 7: A block cipher with OFB mode")
 
 OFB-režiimi puhul valite ka initsialiseerimisvektori. Kuid siin sisestatakse initsialiseerimisvektor esimese ploki puhul otse plokkšifrile koos teie võtmega. Saadud 128 bitti käsitletakse seejärel võtmevooluna. See võtmevoog on XOR-ühendatud lihtkirjaga, et saada ploki salastustekst. Järgmiste plokkide puhul kasutatakse eelmise ploki võtmevoogu plokkšifri sisendina ja korratakse samu samme.
 
@@ -1282,7 +1282,7 @@ Sellest arutelust peaksite nüüd aru saama *Kujund 8*. See annab ülevaate süm
 
 *Joonis 8: Ülevaade sümmeetrilistest krüpteerimisskeemidest*
 
-![Figure 8: Overview of symmetric encryption schemes](assets/Figure4-8.webp "Figure 8: Overview of symmetric encryption schemes")
+![Figure 8: Overview of symmetric encryption schemes](assets/en/012.webp "Figure 8: Overview of symmetric encryption schemes")
 
 ## Sõnumi autentimise koodid
 
@@ -1306,7 +1306,7 @@ Protsess on kujutatud joonisel **9**. **MAC** (Message Authentication Code) kasu
 
 *Joonis 9: Ülevaade sümmeetrilistest krüpteerimisskeemidest*
 
-![Figure 9: Overview of symmetric encryption schemes](assets/Figure4-9.webp "Figure 9: Overview of symmetric encryption schemes")
+![Figure 9: Overview of symmetric encryption schemes](assets/en/013.webp "Figure 9: Overview of symmetric encryption schemes")
 
 Tänu **eksistentsiaalsele võltsimatusele** ei saa ründaja sõnumit $M$ kuidagi muuta ega luua oma sõnumit kehtiva sildiga. See on nii isegi siis, kui ründaja jälgib paljude Bobi ja Alice'i vaheliste sõnumite silte, mis kasutavad sama isiklikku võtit. Ründaja võib maksimaalselt takistada Alice'ile sõnumi $M$ kättesaamist (probleem, mida krüptograafia ei suuda lahendada).
 
@@ -1338,7 +1338,7 @@ Alice kontrollib nüüd kõigepealt, kas silt on kehtiv, arvestades salakirjatek
 
 *Joonis 10: Autentimisele vastav krüpteerimisskeem*
 
-![Figure 10: An authenticated encryption scheme](assets/Figure4-10.webp "Figure 10: An authenticated encryption scheme")
+![Figure 10: An authenticated encryption scheme](assets/en/014.webp "Figure 10: An authenticated encryption scheme")
 
 Kuidas luuakse MACid? Kuigi MAC-e saab luua mitmete meetoditega, on levinum ja tõhusam viis nende loomiseks **krüptograafilised hash-funktsioonid**.
 
@@ -1350,7 +1350,7 @@ HMAC-i loomiseks on võimalik kasutada erinevaid hash-funktsioone. Kõige sageda
 
 *Joonis 11: HMAC*
 
-![Figure 11: HMAC](assets/Figure4-11.webp "Figure 11: HMAC")
+![Figure 11: HMAC](assets/en/015.webp "Figure 11: HMAC")
 
 **Märkused:**
 
@@ -1388,7 +1388,7 @@ Sidesessioon algab sellega, et Bob saadab Alice'ile salakirja $C_{0,B}$ koos sõ
 
 *Joonis 12: Turvaline sidesessioon*
 
-![Figure 12: A secure communication session](assets/Figure4-12.webp "Figure 12: A secure communication sessesion")
+![Figure 12: A secure communication session](assets/en/016.webp "Figure 12: A secure communication sessesion")
 
 # RC4 ja AES
 
@@ -1525,7 +1525,7 @@ Nimetame võtit $K_0$. Konstruktsioon ülaltoodud parameetritega näeb siis väl
 
 *Joonis 1: AES-ECB 128-bitise võtmega*
 
-![Figure 1: AES-ECB with a 128-bit key](assets/Figure5-1.webp "Figure 1: AES-ECB with a 128-bit key")
+![Figure 1: AES-ECB with a 128-bit key](assets/en/017.webp "Figure 1: AES-ECB with a 128-bit key")
 
 Iga 128-bitine tekstiplokk läbib Rijndaeli krüpteerimisskeemis kümme ringi. See nõuab iga vooru jaoks eraldi võtit ($K_1$ kuni $K_{10}$). Need luuakse iga vooru jaoks algsest 128-bitisest võtmest $K_0$, kasutades **võtme laiendamise algoritmi**. Seega kasutame iga krüpteeritava tekstiploki jaoks nii algset võtit $K_0$ kui ka kümmet eraldi vooru võtit. Pange tähele, et neid samu 11 võtit kasutatakse iga krüpteerimist vajava 128-bitise lihtteksti ploki jaoks.
 
@@ -1801,7 +1801,7 @@ Mingil hilisemal hetkel soovib Bob kirjutada Alice'ile sõnumi $M$. Kuna see sis
 
 *Joonis 1: Asümmeetriline krüpteerimine*
 
-![Figure 1: Asymmetric encryption](assets/Figure6-1.webp "Figure 1: Asymmetric encryption")
+![Figure 1: Asymmetric encryption](assets/en/018.webp "Figure 1: Asymmetric encryption")
 
 Iga vastane, kes kuulab Bobi ja Alice'i suhtlust, saab jälgida $C$. Ta teab ka $K_P$ ja krüpteerimisalgoritmi $E(\cdot)$. Oluline on aga see, et see teave ei võimalda ründajal tegelikkuses salakirju $C$ dekrüpteerida. Dekrüpteerimiseks on vaja $K_S$, mida ründaja ei oma.
 
@@ -1825,7 +1825,7 @@ Digitaalne allkiri on, nagu nimigi selgelt ütleb, kirjade, lepingute jne kirjal
 
 *Joonis 2: Asümmeetriline autentimine*
 
-![Figure 2: Asymmetric authentication](assets/Figure6-2.webp "Figure 2: Asymmetric authentication")
+![Figure 2: Asymmetric authentication](assets/en/019.webp "Figure 2: Asymmetric authentication")
 
 Nagu asümmeetrilise krüpteerimise puhul, näeme huvitavat kontrasti digitaalallkirjade ja sõnumi autentimise koodide vahel. Viimase puhul saab kontrollialgoritmi kasutada ainult üks turvalise teabevahetuse osapooltest. Selle põhjuseks on asjaolu, et selleks on vaja isiklikku võtit. Asümmeetrilises keskkonnas võib aga igaüks kontrollida Bobi tehtud digitaalallkirja $S$.
 

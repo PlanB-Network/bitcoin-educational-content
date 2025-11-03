@@ -6,7 +6,7 @@ description: Kako napraviti minimalan, izolovan i jeftin računar koristeći Ras
 
 
 
-Ako ste već neko vreme na stranicama Plan ₿ Network, već ste naučili da je jedno od najzastupljenijih sigurnosnih podešavanja, gotovo obavezno, **upravljanje sredstvima putem offline skladištenja vaših privatnih ključeva**.
+Ako ste već neko vreme na stranicama Plan ₿ Academy, već ste naučili da je jedno od najzastupljenijih sigurnosnih podešavanja, gotovo obavezno, **upravljanje sredstvima putem offline skladištenja vaših privatnih ključeva**.
 
 
 
@@ -14,7 +14,7 @@ Ako to još niste otkrili, kroz ovaj vodič ćete pronaći linkove ka resursima 
 
 
 
-Za offline upravljanje privatnim ključevima potreban je uređaj trajno isključen sa mreže, bilo da je to [hardverski novčanik](https://planb.network/resources/glossary/hardware-wallet) ili računar sa airgap-om, posvećen ovoj specifičnoj funkciji.
+Za offline upravljanje privatnim ključevima potreban je uređaj trajno isključen sa mreže, bilo da je to [hardverski novčanik](https://planb.academy/resources/glossary/hardware-wallet) ili računar sa airgap-om, posvećen ovoj specifičnoj funkciji.
 
 
 
@@ -500,7 +500,7 @@ Među novčanicima sa kojima sam upoznat, jedini koji pruža 32-bitno izdanje je
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-airgap-62b5a4c6-a221-4d41-9a62-4618c53d8223
+https://planb.academy/tutorials/wallet/desktop/electrum-airgap-62b5a4c6-a221-4d41-9a62-4618c53d8223
 
 ## Zaključci
 

@@ -86,7 +86,7 @@ Sau khi tải xuống tệp, hãy cài đặt nó như bất kỳ phần mềm n
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
+https://planb.academy/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
 ### Nhập Whonix
 
 
@@ -224,7 +224,7 @@ sudo apt full-upgrade
 
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ### Electrum Bitcoin Wallet
 
@@ -234,7 +234,7 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 Whonix không chỉ là một hệ điều hành: nó là một **môi trường bảo mật** thực sự được thiết kế để bảo vệ tính ẩn danh, quyền riêng tư và các hoạt động nhạy cảm của bạn. Nhờ kiến trúc dựa trên Tor, phân vùng thông minh giữa Cổng và Máy trạm, cùng các công cụ được cài đặt sẵn như Trình duyệt Tor, KeePassXC và Electrum, Whonix cung cấp giải pháp trọn gói cho bất kỳ ai muốn **duyệt web ẩn danh**, **làm việc an toàn** hoặc **xử lý dữ liệu bí mật**.
 
@@ -244,4 +244,4 @@ Whonix không chỉ là một hệ điều hành: nó là một **môi trường
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
+https://planb.academy/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af

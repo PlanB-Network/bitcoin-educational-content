@@ -43,6 +43,8 @@ objectives:
 
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
+:::video id=de7236a0-2985-41ef-86f7-3fa0b7f94531:::
+
 
 **목표: 보안 기술을 업데이트하세요 !**
 
@@ -59,7 +61,7 @@ objectives:
 
 - 르노 리프치츠, 사이버 보안 전문가
 - 테오 판타미스, 응용 수학 공학 박사
-- Rogzy, Plan ₿ Network 공동 창립자
+- Rogzy, Plan ₿ Academy 공동 창립자
 
 
 점점 더 디지털화되는 세상에서 디지털 위생은 매우 중요합니다. 해킹과 대규모 감시가 지속적으로 증가하고 있지만, 지금이라도 첫 걸음을 내딛고 자신을 보호해도 늦지 않습니다.
@@ -126,6 +128,8 @@ objectives:
 
 <chapterId>3a935da9-fa6e-57eb-bf85-7b3ec35e6ee2</chapterId>
 
+:::video id=f1cead27-ed41-4ca2-afd2-b08a994d0119:::
+
 
 인터넷을 검색할 때는 온라인 보안을 유지하기 위해 일반적인 실수를 피하는 것이 중요합니다. 다음은 이러한 실수를 피하기 위한 몇 가지 팁입니다:
 
@@ -179,12 +183,14 @@ TOR는 권위주의 국가에서 검열을 우회하려는 언론인, 자유 운
 ![image](assets/ko/007.webp)
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ## VPN 및 인터넷 연결
 
 
 <chapterId>5aac83f4-a685-54b0-9759-d71bea7eeed2</chapterId>
+
+:::video id=737d30ac-43d8-4a69-afda-89b9d7e8c4e1:::
 
 
 ### VPN
@@ -211,9 +217,9 @@ VPN에는 크게 두 가지 유형이 있습니다: 기업용 VPN과 Nordvpn과 
 마지막으로, VPN은 온라인 광고를 차단하여 더욱 즐겁고 안전한 브라우징 경험을 제공하는 데도 사용할 수 있습니다. 하지만 자신의 필요에 가장 적합한 VPN을 찾기 위해 철저한 조사를 수행하는 것이 중요합니다. 집에서 인터넷을 브라우징할 때에도 보안을 강화하기 위해 VPN을 사용하는 것이 좋습니다. 이렇게 하면 온라인에서 주고받는 데이터를 더 높은 수준으로 보호할 수 있습니다. 마지막으로, Address 바의 URL과 작은 자물쇠를 확인하여 의도한 사이트에 있는지 확인해 주시겠어요?
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 ### HTTPS 및 공용 Wi-Fi 네트워크
 
@@ -241,6 +247,8 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 
 
 <chapterId>16745632-b56b-5423-9873-ddf70fdf1efd</chapterId>
+
+:::video id=35892007-5ea5-4956-bf80-3363d69c96d5:::
 
 
 컴퓨터 보안은 오늘날의 디지털 세상에서 가장 큰 관심사입니다. 오늘은 세 가지 핵심 사항을 Address로 정리해 보겠습니다:
@@ -313,6 +321,8 @@ Windows 10에서는 업데이트가 거의 지속적으로 이루어지므로 �
 
 <chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>
 
+:::video id=c6a2c152-f1ae-492c-8993-304d64cdda45:::
+
 
 ### 해커는 어떻게 공격하나요?
 
@@ -369,9 +379,9 @@ Windows 10에서는 업데이트가 거의 지속적으로 이루어지므로 �
 컴퓨터에서 바이러스가 발견되면 인터넷 연결을 끊고 바이러스 백신 전체 검사를 수행한 후 감염된 파일을 삭제하세요. 그런 다음 소프트웨어와 운영 체제를 업데이트하고 비밀번호를 변경하여 추가 침입을 방지하세요.
 
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # 솔루션 구현.
 
@@ -383,6 +393,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 
 <chapterId>dfceea33-8712-5557-ace1-6ba5598d33d8</chapterId>
+
+:::video id=75cc914d-9c11-4d3f-86a7-6faf2077f00f:::
 
 
 ### 새 이메일 계정 설정하기!
@@ -422,12 +434,14 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 보너스 Bitcoin: Exchange 계정을 만드는 것과 같이 Bitcoin 활동을 위한 특정 이메일 Address을 만들어 생활에서 이러한 활동 영역을 실제로 분리하는 것이 좋습니다.
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## 비밀번호 관리자
 
 
 <chapterId>0b3c69b2-522c-56c8-9fb8-1562bd55930f</chapterId>
+
+:::video id=106b6f17-a5c1-4155-abdf-043ce469d45b:::
 
 
 ### 비밀번호 관리자란 무엇인가요?
@@ -493,14 +507,16 @@ KeePass와 같은 자체 호스팅 솔루션의 경우, 중앙 집중식 타사 
 무작위로 생성된 비밀번호는 기억하기는 더 어려울 수 있지만 더 높은 수준의 보안을 제공합니다. 비밀번호 관리자는 더 안전한 무작위 비밀번호를 개발할 수 있습니다. 비밀번호 관리자를 사용하면 모든 비밀번호를 외울 필요가 없습니다. 기존 비밀번호는 관리자가 생성한 비밀번호가 더 강력하고 안전하므로 점차적으로 비밀번호 관리자가 생성한 비밀번호로 교체하는 것이 중요합니다. 비밀번호 관리자의 마스터 비밀번호도 강력하고 안전한지 확인하세요.
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## 2단계 인증
 
 
 <chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>
+
+:::video id=10fede6f-c839-4455-b324-e887c502667e:::
 
 
 ### 2FA를 구현해야 하는 이유
@@ -567,9 +583,9 @@ SIM 2FA에 대한 잠재적 위협의 일반적인 예로는 공격자가 사용
 황금률: 사이버 보안은 학습 여정에 따라 변화하는 목표입니다!
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 # 실무 섹션
 
@@ -586,7 +602,7 @@ https://planb.network/tutorials/computer-security/authentication/security-key-61
 이메일 계정을 보호하는 것은 온라인 활동을 보호하고 데이터를 보호하는 데 있어 매우 중요한 단계입니다. 이 튜토리얼에서는 통신의 종단 간 암호화를 제공하는 높은 수준의 보안으로 잘 알려진 ProtonMail 계정을 만들고 설정하는 방법을 단계별로 안내합니다. 초보자이든 숙련된 사용자이든 여기에 제시된 모범 사례는 이메일의 보안을 강화하는 동시에 ProtonMail의 고급 기능을 활용하는 데 도움이 될 것입니다:
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## 2FA로 보호
 
@@ -597,12 +613,12 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 2단계 인증(2FA)은 온라인 계정을 보호하는 데 필수적인 요소가 되었습니다. 이 튜토리얼에서는 계정을 보호하기 위해 동적 6자리 코드를 생성하는 2단계 인증 앱 Authy를 설정하고 사용하는 방법을 알아보세요. Authy는 사용이 매우 간편하고 여러 디바이스에서 동기화됩니다. 지금 바로 Authy를 설치하고 구성하여 온라인 계정의 보안을 강화하는 방법을 알아보세요:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 또 다른 옵션은 물리적 보안 키를 사용하는 것입니다. 이 추가 튜토리얼에서는 보안 키를 두 번째 인증 요소로 설정하고 사용하는 방법을 설명합니다:
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ## 비밀번호 관리자 만들기
 
@@ -616,12 +632,12 @@ https://planb.network/tutorials/computer-security/authentication/security-key-61
 이 튜토리얼에서는 오픈 소스 비밀번호 관리 프로그램인 Bitwarden을 설정하는 방법과 모든 장치에서 자격 증명을 동기화하여 일상적인 사용을 간소화하는 방법에 대해 알아보세요:
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 고급 사용자를 위해 로컬에서 비밀번호 관리에 사용할 수 있는 또 다른 무료 오픈 소스 소프트웨어에 대한 튜토리얼도 제공합니다:
 
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## 계정 보안
 
@@ -632,9 +648,9 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 이 두 튜토리얼에서는 온라인 계정을 보호하는 방법을 안내하고, 매일 비밀번호를 관리할 때 보다 안전한 방법을 점진적으로 채택하는 방법을 설명합니다.
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## 브라우저 및 VPN 변경
 
@@ -648,14 +664,14 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 Bitcoin 결제를 허용하는 두 가지 신뢰할 수 있는 VPN 솔루션, 즉 IVPN과 Mullvad를 살펴보는 것을 추천합니다. 이 튜토리얼은 모든 기기에서 Mullvad 또는 IVPN을 설치, 구성 및 사용하는 방법을 안내합니다:
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 또한, 온라인 개인 정보 보호를 위해 특별히 설계된 브라우저인 토르 브라우저를 사용하는 방법을 알아보세요:
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ## 백업 설정
 
@@ -666,12 +682,12 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 파일을 보호하는 것도 중요한 포인트입니다. 이 튜토리얼에서는 프로톤 드라이브를 사용해 효과적인 백업 전략을 구현하는 방법을 보여드립니다. 이 안전한 클라우드 솔루션을 사용해 3-2-1 방식을 적용하는 방법을 알아보세요. 데이터 사본을 두 개의 다른 미디어에 세 개, 한 개는 오프사이트에 복사하는 방식입니다. 이렇게 하면 중요한 파일에 대한 접근성과 보안을 보장할 수 있습니다:
 
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 또한 USB 드라이브나 외장형 Hard 드라이브와 같은 이동식 미디어에 저장된 파일을 보호하기 위해 VeraCrypt를 사용하여 이러한 미디어를 쉽게 암호화하고 해독하는 방법도 알려드립니다:
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # 더 알아보기
 
@@ -683,6 +699,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 
 <chapterId>aad1ae27-4280-5b07-b9ab-118ae013951a</chapterId>
+
+:::video id=4c818b5c-ea5d-496a-8e82-bc5d96d91430:::
 
 
 ### 사이버 보안: 무한한 기회가 있는 성장하는 분야: 사이버 보안
@@ -736,6 +754,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 
 <chapterId>7d83fd98-ce22-514e-b9e8-729fbf71ee6e</chapterId>
+
+:::video id=ec7014aa-5ebe-444c-80d1-7b14f1fe7bb8:::
 
 
 ### 효율적인 비밀번호 관리 및 인증 강화: 학문적 접근 방식

@@ -6,13 +6,13 @@ description: Täydellinen opas suunnitelmaan ₿ Verkko-oppaat GitHub Webin avul
 
 Ennen kuin seuraat tätä ohjeistusta uuden ohjeen lisäämisestä, sinun on suoritettava muutama alustava vaihe. Jos et ole vielä tehnyt sitä, tutustu ensin tähän johdantooppaaseen ja palaa sitten tänne:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+https://planb.academy/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
 Sinulla on jo:
 
 
 - Valitse opetusohjelmasi teema;
-- Ota yhteyttä Plan ₿ Network -tiimiin [Telegram-ryhmässä] (https://t.me/PlanBNetwork_ContentBuilder) tai paolo@planb.network ;
+- Ota yhteyttä Plan ₿ Academy -tiimiin [Telegram-ryhmässä] (https://t.me/PlanBNetwork_ContentBuilder) tai paolo@planb.network ;
 - Valitse osallistumisvälineesi.
 
 Tässä oppaassa tarkastelemme, miten voit lisätä oppaasi Plan ₿ -verkkoon GitHubin verkkoversion avulla. Jos hallitset jo Gitin, tämä hyvin yksityiskohtainen opetusohjelma ei ehkä ole sinulle tarpeen. Sen sijaan suosittelen, että tutustut johonkin näistä kahdesta muusta opetusohjelmasta, joissa kerron yksityiskohtaisesti noudatettavista ohjeista ja muutosten tekemisen vaiheista paikallisesta:
@@ -20,11 +20,11 @@ Tässä oppaassa tarkastelemme, miten voit lisätä oppaasi Plan ₿ -verkkoon G
 
 - **Kokeneet käyttäjät**:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+https://planb.academy/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
 - **Keskitason (GitHub Desktop)**:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 ## Edellytykset
 
@@ -32,23 +32,23 @@ Edellytykset ennen opetusohjelman aloittamista:
 
 
 - Sinulla on [GitHub-tili](https://github.com/signup);
-- Ota haara [Plan ₿ Network source repository](https://github.com/PlanB-Network/bitcoin-educational-content);
-- [Opettajaprofiili Plan ₿ Network -verkossa](https://planb.network/professors) (vain jos tarjoat täydellistä opetusohjelmaa).
+- Ota haara [Plan ₿ Academy source repository](https://github.com/PlanB-Network/bitcoin-educational-content);
+- [Opettajaprofiili Plan ₿ Academy -verkossa](https://planb.academy/professors) (vain jos tarjoat täydellistä opetusohjelmaa).
 
 Jos tarvitset apua näiden edellytysten hankkimisessa, muut opetusohjelmani auttavat sinua:
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
-https://planb.network/tutorials/contribution/others/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba
+https://planb.academy/tutorials/contribution/others/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
-Kun kaikki on kunnossa ja sinulla on haarautunut Plan ₿ Network -arkisto, voit aloittaa opetusohjelman lisäämisen.
+Kun kaikki on kunnossa ja sinulla on haarautunut Plan ₿ Academy -arkisto, voit aloittaa opetusohjelman lisäämisen.
 
 ## 1 - Luo uusi haara
 
-Avaa selaimesi ja siirry Plan ₿ Network -arkiston haarukointisivulle. Tämä on GitHubiin perustamasi haarautuminen. Haarautumisesi URL-osoitteen pitäisi näyttää tältä: `https://github.com/[käyttäjätunnuksesi]/bitcoin-educational-content`:
+Avaa selaimesi ja siirry Plan ₿ Academy -arkiston haarukointisivulle. Tämä on GitHubiin perustamasi haarautuminen. Haarautumisesi URL-osoitteen pitäisi näyttää tältä: `https://github.com/[käyttäjätunnuksesi]/bitcoin-educational-content`:
 
 ![GITHUB](assets/fr/01.webp)
 
@@ -74,7 +74,7 @@ Gitissä haara edustaa projektin rinnakkaista versiota, jonka avulla voit tehdä
 
 Nyt kun työhaara on luotu, on aika integroida uusi opetusohjelma.
 
-Sinun on löydettävä haaran tiedostoista sopiva alikansio opetusohjelmasi sijoittamista varten. Kansioiden järjestäminen heijastaa Plan ₿ Network -sivuston eri osioita. Esimerkissämme, koska lisäämme Green Wallet -oppaan, mene seuraavaan polkuun: `bitcoin-educational-content\tutorials\wallet`, joka vastaa verkkosivuston `WALLET`-osiota:
+Sinun on löydettävä haaran tiedostoista sopiva alikansio opetusohjelmasi sijoittamista varten. Kansioiden järjestäminen heijastaa Plan ₿ Academy -sivuston eri osioita. Esimerkissämme, koska lisäämme Green Wallet -oppaan, mene seuraavaan polkuun: `bitcoin-educational-content\tutorials\wallet`, joka vastaa verkkosivuston `WALLET`-osiota:
 
 ![GITHUB](assets/fr/05.webp)
 
@@ -148,11 +148,11 @@ Tässä ovat pakolliset kentät:
 
 - **id**: UUID (_Universally Unique Identifier_), joka yksilöi tutoriaalin. Voit luoda sen käyttämällä [verkkotyökalua](https://www.uuidgenerator.net/version4). Ainoa vaatimus on, että tämä UUID on satunnainen, jotta vältytään ristiriidoilta toisen UUID:n kanssa alustalla;
 
-- **project_id**: Yrityksen tai organisaation UUID, joka liittyy tutoriaalissa esiteltyyn työkaluun [projektien luettelosta](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Jos esimerkiksi luot oppaan Green Wallet -ohjelmistosta, voit löytää tämän `project_id` seuraavasta tiedostosta: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Tämä tieto lisätään tutoriaalin YAML-tiedostoon, koska Plan ₿ Network ylläpitää tietokantaa kaikista Bitcoinin tai siihen liittyvien projektien kanssa toimivista yrityksistä ja organisaatioista. Lisäämällä oppaasi liittyvän yksikön `project_id`, luot linkin kahden elementin välille;
+- **project_id**: Yrityksen tai organisaation UUID, joka liittyy tutoriaalissa esiteltyyn työkaluun [projektien luettelosta](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Jos esimerkiksi luot oppaan Green Wallet -ohjelmistosta, voit löytää tämän `project_id` seuraavasta tiedostosta: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Tämä tieto lisätään tutoriaalin YAML-tiedostoon, koska Plan ₿ Academy ylläpitää tietokantaa kaikista Bitcoinin tai siihen liittyvien projektien kanssa toimivista yrityksistä ja organisaatioista. Lisäämällä oppaasi liittyvän yksikön `project_id`, luot linkin kahden elementin välille;
 
 - **tags**: 2 tai 3 aiheeseen liittyvää avainsanaa, jotka valitaan yksinomaan [Plan ₿ Networkin avainsanaluettelosta](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
-- **category**: Alakategoria, joka vastaa tutoriaalin sisältöä Plan ₿ Network -sivuston rakenteen mukaisesti (esimerkiksi lompakoille: `desktop`, `hardware`, `mobile`, `backup`);
+- **category**: Alakategoria, joka vastaa tutoriaalin sisältöä Plan ₿ Academy -sivuston rakenteen mukaisesti (esimerkiksi lompakoille: `desktop`, `hardware`, `mobile`, `backup`);
 
 - **level**: Tutoriaalin vaikeustaso, valittavissa seuraavista:
     - `beginner`
@@ -173,7 +173,7 @@ Tässä ovat pakolliset kentät:
 
 Lisätietoja opettajatunnuksesta saat vastaavasta ohjeesta:
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 ```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
@@ -345,7 +345,7 @@ Huutomerkki alussa osoittaa kuvan. Vaihtoehtoinen teksti, joka helpottaa saavute
 
 ![GITHUB](assets/fr/35.webp)
 
-Jos haluat luoda omia kaavioita, muista noudattaa Plan ₿ Network -ohjelman graafisia ohjeita visuaalisen yhdenmukaisuuden varmistamiseksi:
+Jos haluat luoda omia kaavioita, muista noudattaa Plan ₿ Academy -ohjelman graafisia ohjeita visuaalisen yhdenmukaisuuden varmistamiseksi:
 
 
 - **Fontti**: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
@@ -366,19 +366,19 @@ Jatka Pull Requestia tallentamalla kaikki muutokset ja klikkaa "*Contribute*"-pa
 
 ![GITHUB](assets/fr/36.webp)
 
-Pull Request on pyyntö, jolla pyydetään integroimaan muutokset omasta haarastasi Plan ₿ Network -arkiston päähaaraan, mikä mahdollistaa muutosten tarkastelun ja keskustelun ennen niiden yhdistämistä.
+Pull Request on pyyntö, jolla pyydetään integroimaan muutokset omasta haarastasi Plan ₿ Academy -arkiston päähaaraan, mikä mahdollistaa muutosten tarkastelun ja keskustelun ennen niiden yhdistämistä.
 
 Ennen kuin jatkat, tarkista huolellisesti käyttöliittymän alareunasta, että muutokset ovat odotusten mukaisia:
 
 ![GITHUB](assets/fr/37.webp)
 
-Varmista käyttöliittymän yläosassa, että työhaarasi on yhdistetty Plan ₿ Network -tietovaraston `dev`-haaraan (joka on päähaara).
+Varmista käyttöliittymän yläosassa, että työhaarasi on yhdistetty Plan ₿ Academy -tietovaraston `dev`-haaraan (joka on päähaara).
 
 Kirjoita otsikko, joka tiivistää lyhyesti muutokset, jotka haluat yhdistää lähdekoodivarastoon. Lisää lyhyt kommentti, jossa kuvataan nämä muutokset (jos sinulla on oppaasi luomiseen liittyvä ongelmanumero, muista merkitä kommentiksi `Closes #{kysymyksenumero}`) ja vahvista yhdistämispyyntö napsauttamalla vihreää "*Create pull request*"-painiketta:
 
 ![GITHUB](assets/fr/38.webp)
 
-PR:si näkyy tämän jälkeen Plan ₿ Network -verkkovaraston "*Pull Request*"-välilehdellä. Nyt sinun tarvitsee vain odottaa, että ylläpitäjä ottaa sinuun yhteyttä vahvistaakseen, että osallistumisesi on yhdistetty, tai pyytäessään lisämuutoksia.
+PR:si näkyy tämän jälkeen Plan ₿ Academy -verkkovaraston "*Pull Request*"-välilehdellä. Nyt sinun tarvitsee vain odottaa, että ylläpitäjä ottaa sinuun yhteyttä vahvistaakseen, että osallistumisesi on yhdistetty, tai pyytäessään lisämuutoksia.
 
 ![GITHUB](assets/fr/39.webp)
 
@@ -390,6 +390,6 @@ Jos haluat tehdä muutoksia maksuosuuteesi sen jälkeen, kun olet jo lähettäny
 
 
 - Jos PR-julkaisusi on vielä avoinna eikä sitä ole vielä yhdistetty, tee muutokset samaan työhaaraan. Muutokset lisätään vielä avoinna olevaan PR:ään;
-- Jos PR:si on jo yhdistetty päähaaraan, sinun on aloitettava prosessi alusta luomalla uusi haara ja lähettämällä uusi PR. Varmista, että haarasi on synkronoitu Plan ₿ Network -lähdekoodivaraston kanssa `dev`-haarassa ennen kuin jatkat.
+- Jos PR:si on jo yhdistetty päähaaraan, sinun on aloitettava prosessi alusta luomalla uusi haara ja lähettämällä uusi PR. Varmista, että haarasi on synkronoitu Plan ₿ Academy -lähdekoodivaraston kanssa `dev`-haarassa ennen kuin jatkat.
 
 Jos sinulla on teknisiä ongelmia opetusohjelmasi lähettämisessä, älä epäröi pyytää apua [omassa Telegram-ryhmässämme](https://t.me/PlanBNetwork_ContentBuilder). Kiitos paljon!

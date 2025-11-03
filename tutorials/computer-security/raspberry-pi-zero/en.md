@@ -5,13 +5,13 @@ description: How to build a minimal, air-gapped, low-cost computer using a Raspb
 ![cover](assets/cover.webp)
 
 
-If you've been on the pages of Plan ₿ Network for a while, you've already learned that one of the most advocated security settings, almost a must, **is the management of funds by offline storage of your private keys**.
+If you've been on the pages of Plan ₿ Academy for a while, you've already learned that one of the most advocated security settings, almost a must, **is the management of funds by offline storage of your private keys**.
 
 
 If you haven't discovered it yet, throughout this tutorial you will find links to open source resources with which to learn more about it.
 
 
-To manage private keys offline, therefore, one needs a device permanently disconnected from the network, whether it is a [hardware wallet](https://planb.network/resources/glossary/hardware-wallet) or an air-gapped computer, dedicated to this specific function.
+To manage private keys offline, therefore, one needs a device permanently disconnected from the network, whether it is a [hardware wallet](https://planb.academy/resources/glossary/hardware-wallet) or an air-gapped computer, dedicated to this specific function.
 
 
 How do you do it if, for example, you do not have the ability to purchase hardware that performs only this task, but you do not want to give up this security step?
@@ -377,7 +377,7 @@ Although the performance seems limited (on paper and compared to the power of to
 Among the Wallets that I am familiar with, the only one that provides a 32-bit release is Electrum. Well: the Zero IP as we prepared it in this tutorial would allow you to keep the private keys offline the set up for Wallet airgap that we covered in this tutorial:
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-airgap-62b5a4c6-a221-4d41-9a62-4618c53d8223
+https://planb.academy/tutorials/wallet/desktop/electrum-airgap-62b5a4c6-a221-4d41-9a62-4618c53d8223
 
 ## Conclusions
 

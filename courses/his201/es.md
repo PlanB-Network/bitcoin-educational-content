@@ -22,6 +22,9 @@ Este curso está, por supuesto, centrado en la figura de Satoshi Nakamoto, cuyas
 
 ## Descripción del curso
 <chapterId>85290407-1aa3-4cb4-890a-aed23441afb7</chapterId>
+
+:::video id=d1eddf56-279d-459a-9568-5674606f0fd1:::
+
 ¡Bienvenido al curso HIS201!
 Este curso tiene como objetivo contarte la historia de la creación de Bitcoin de una manera que nunca antes habías leído. La historia a menudo se pasa por alto, a pesar de estar llena de detalles fascinantes. Nos esforzaremos por describirla en toda su complejidad, desde su concepción por Satoshi Nakamoto hasta su temprana desaparición y la entrega a la comunidad.
 
@@ -86,6 +89,8 @@ Ten en cuenta que para la versión no inglesa de este curso, la mayoría de las 
 ## eCash: Dinero Digital Chaumiano
 <chapterId>e443d2ab-68ce-45c0-aec7-30b88d3acdc8</chapterId>
 
+:::video id=fe306046-2245-43a7-9144-6fbafda3205e:::
+
 Antes de adentrarnos en la historia real de la creación de Bitcoin por Satoshi Nakamoto, es apropiado discutir lo que la precedió. Abordaremos el tema en tres etapas: primero, introduciremos el concepto de dinero digital Chaumiano comúnmente llamado *eCash*; luego, hablaremos sobre monedas privadas basadas en sistemas centralizados como e-gold; finalmente, describiremos los modelos técnicos que se imaginaron antes de la implementación del robusto sistema distribuido que es Bitcoin.
 
 Comencemos con el primer concepto, eCash. eCash se deriva del trabajo de David Chaum, un científico informático y criptógrafo estadounidense que nació en 1955. Es considerado un pionero en el campo de las comunicaciones anónimas y un precursor de los cypherpunks. Hizo una contribución mayor al desarrollo de la criptografía en la década de 1980. Desarrolló su modelo de dinero digital (conocido como "Chaumiano") e intentó implementarlo en la década de 1990 a través de su empresa DigiCash.
@@ -123,7 +128,7 @@ El descubrimiento de la criptografía asimétrica también motivó la creación 
 
 Los elementos criptográficos básicos de Bitcoin provienen de esta investigación. El esquema de firma ECDSA, que permite la autorización para gastar una transacción tradicional, fue creado en 1992 para NIST. La función hash SHA-256, utilizada en múltiples lugares del protocolo, se publicó en 2001 como parte del conjunto de algoritmos SHA-2 hecho público por la NSA. Para más información sobre este tema, puedes referirte al curso CYP201 presentado por Loïc Morel.
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### Firmas Ciegas y Dinero Electrónico
 
@@ -198,7 +203,7 @@ Otros sistemas centralizados alternativos también aparecieron en paralelo, como
 
 Luego, eCash inspiró a los cypherpunks que desarrollaron sus propios modelos como b-money, bit gold y RPOW. Añadieron prueba de trabajo y otros elementos, que más tarde serían encontrados en Bitcoin. Estudiaremos estos conceptos en el Capítulo 3.
 
-Finalmente, el modelo de David Chaum influyó significativamente en Satoshi Nakamoto cuando desarrolló su concepto de dinero. Esto se evidencia por las múltiples referencias en el [white paper](assets/pdf/bitcoin-20090324.pdf) (el título, la descripción del problema en la sección 2, el nombre del PDF [enviado](https://gwern.net/doc/bitcoin/2008-nakamoto) a Wei Dai en agosto de 2008), así como sus intervenciones privadas y públicas. En este sentido, eCash es considerado el principal predecesor de Bitcoin, aunque no sea el único.
+Finalmente, el modelo de David Chaum influyó significativamente en Satoshi Nakamoto cuando desarrolló su concepto de dinero. Esto se evidencia por las múltiples referencias en el [white paper](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/courses/his201/assets/bitcoin-20090324.pdf) (el título, la descripción del problema en la sección 2, el nombre del PDF [enviado](https://gwern.net/doc/bitcoin/2008-nakamoto) a Wei Dai en agosto de 2008), así como sus intervenciones privadas y públicas. En este sentido, eCash es considerado el principal predecesor de Bitcoin, aunque no sea el único.
 
 Con Bitcoin, Satoshi Nakamoto creó una moneda digital robusta y confidencial, un verdadero efectivo electrónico. Al hacerlo, realizó la [predicción](https://www.youtube.com/watch?v=mlwxdyLnMXM&t=872s) de Milton Friedman, Premio Nobel de Economía y fundador de la Escuela de Chicago, quien dijo en una entrevista con la National Taxpayers Union Foundation en 1999:
 
@@ -206,6 +211,8 @@ Con Bitcoin, Satoshi Nakamoto creó una moneda digital robusta y confidencial, u
 
 ## Monedas Digitales Privadas
 <chapterId>43035fa3-2805-4331-a6fb-070931d749cf</chapterId>
+
+:::video id=0f75ff53-ebf6-481c-9d1c-863fabb19a6a:::
 
 En el capítulo anterior, se exploró la primera forma de efectivo electrónico que surgió del advenimiento de Internet y la criptografía moderna: el modelo eCash desarrollado por David Chaum. Este modelo influyó significativamente en Satoshi Nakamoto y fue un hito clave en el camino que condujo a la aparición de Bitcoin. Sin embargo, la historia de los orígenes de la Bitcoin no termina con eCash; también incluye los experimentos con monedas privadas que operan en Internet, desarrolladas desde finales de de la década de los 90.
 
@@ -287,6 +294,8 @@ Debido a esta fragilidad de los sistemas centralizados, los defensores de la lib
 ## Modelos Descentralizados Antes de Nakamoto
 <chapterId>a104f23c-e9c3-4457-a194-d87cc5f35f13</chapterId>
 
+:::video id=67e5f851-5ff6-4876-a74d-c5f8130b555c:::
+
 Bitcoin representa un modelo descentralizado de dinero digital. Al hacerlo, evita la necesidad de una tercera parte de confianza, lo cual constituiría un único punto de fallo en el sistema. Como muestran los ejemplos de eCash, monedas de oro digitales y Liberty Reserve, la centralización de un sistema que intenta ser una alternativa al sistema existente inevitablemente conduce a su cierre, de una forma u otra.
 
 Sin embargo, Bitcoin no fue el primer concepto de moneda descentralizada que se propuso. Desde finales de los años 90, tales modelos habían sido descritos por los cypherpunks, quienes estaban obsesionados con la libertad y la privacidad de los individuos en Internet, y quienes creían (como David Chaum) que los sistemas monitoreados conducían a un futuro distópico. Ellos [llamaron](https://cypherpunks.venona.com/date/1993/03/msg00392.html) a "escribir código" y consideraron el "dinero electrónico" como un elemento esencial para su ideología. (*original: "Cypherpunks write code. (...) We are defending our privacy with cryptography, with anonymous mail forwarding systems, with digital signatures, and with electronic money."*)
@@ -326,7 +335,7 @@ Ejemplo de sellado de tiempo certificado (fuente: [Wikimedia](https://es.m.wikip
 
 Haber y Stornetta implementaron su idea publicando huellas dactilares criptográficas (resultantes del hash de los datos útiles) en los anuncios clasificados del New York Times a partir de 1992. Luego en 1994 fundaron Surety Technologies, con el objetivo de dedicarse por completo a esta actividad. Por lo tanto, son [conocidos](https://www.vice.com/en/article/j5nzx4/what-was-the-first-blockchain) por crear la primera cadena de sellos de tiempo, con la huella digital anterior siendo tomada en cuenta en el cálculo de la nueva huella digital a ser publicada en el periódico, lo que presagiaba la blockchain de Bitcoin.
 
-Tres artículos de Haber y Stornetta fueron citados por Satoshi Nakamoto en el [libro blanco de Bitcoin](assets/pdf/bitcoin-20090324.pdf): el artículo previamente mencionado de 1991, un [artículo](https://www.math.columbia.edu/~bayer/papers/Timestamp_BHS93.pdf) de 1993 que mejoraba los protocolos propuestos en el anterior, notablemente a través del uso de los árboles de Merkle, y un [artículo](https://cdn.nakamotoinstitute.org/docs/secure-names-bit-strings.pdf) de 1997 que presentaba una manera de nombrar archivos universalmente usando funciones unidireccionales. También fue citado un [artículo](https://cdn.nakamotoinstitute.org/docs/secure-timestamping-service.pdf) que describe un nuevo sistema de sellado de tiempo escrito en 1999 por Henri Massias, Xavier Serret-Avila y Jean-Jacques Quisquater, tres hombres trabajando para el grupo de investigación en criptografía de la Universidad Católica de Lovaina, Bélgica.
+Tres artículos de Haber y Stornetta fueron citados por Satoshi Nakamoto en el [libro blanco de Bitcoin](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/courses/his201/assets/bitcoin-20090324.pdf): el artículo previamente mencionado de 1991, un [artículo](https://www.math.columbia.edu/~bayer/papers/Timestamp_BHS93.pdf) de 1993 que mejoraba los protocolos propuestos en el anterior, notablemente a través del uso de los árboles de Merkle, y un [artículo](https://cdn.nakamotoinstitute.org/docs/secure-names-bit-strings.pdf) de 1997 que presentaba una manera de nombrar archivos universalmente usando funciones unidireccionales. También fue citado un [artículo](https://cdn.nakamotoinstitute.org/docs/secure-timestamping-service.pdf) que describe un nuevo sistema de sellado de tiempo escrito en 1999 por Henri Massias, Xavier Serret-Avila y Jean-Jacques Quisquater, tres hombres trabajando para el grupo de investigación en criptografía de la Universidad Católica de Lovaina, Bélgica.
 
 ### Prueba de Trabajo y Hashcash
 
@@ -432,6 +441,8 @@ Bitcoin culmina así, una búsqueda de cibermoneda, una moneda que existe entera
 ## El Nacimiento de Bitcoin
 <chapterId>3d141918-e9c2-46e8-8c03-2bb4eb9b2150</chapterId>
 
+:::video id=825522d8-1ccc-4d14-80ac-e292a85a608a:::
+
 Después de aprender de dónde vino Bitcoin, ahora nos centraremos en su historia misma. Este ha sido el tema de numerosos artículos, podcasts y videos a lo largo de los años, tanto es así que casi se ha convertido en una especie de mito fundacional. Como hemos visto, Bitcoin es inseparable del contexto en el que fue creado; lo mismo es cierto para los eventos que tuvieron lugar durante sus primeros años, los cuales han moldeado lo que es hoy, con sus cualidades y defectos.
 
 Bitcoin fue creado por Satoshi Nakamoto, un individuo (o grupo) desconocido que afirma ser japonés, quien se tomó el tiempo para diseñarlo cuidadosamente antes de revelarlo al público. Posteriormente, hizo todo lo posible para asegurar que Bitcoin se lanzara bajo las mejores condiciones, que estuviera bien presentado en las discusiones y que fuera utilizado por un número creciente de personas. En última instancia, el esfuerzo del creador yacía tanto en la iniciación económica del sistema como en su diseño inicial, si no más.
@@ -469,7 +480,7 @@ Por su parte, Satoshi termina de prepararse para hacer público su invento. El 3
 
 ### La publicación del white paper
 
-El 31 de octubre de 2008, Satoshi Nakamoto publica la [primera versión del white paper](assets/pdf/bitcoin-20081003.pdf) en una lista de correo electrónico dedicada a la criptografía, simplemente llamada la "lista de correo de Criptografía". Esta lista ha sido gestionada por el desarrollador Perry Metzger desde 1996, su [creación](https://cypherpunks.venona.com/date/1996/12/msg00102.html), y ha estado alojada en su sitio personal, Metdowd.com, desde [2003](https://www.metzdowd.com/pipermail/cryptography/2003-April/004484.html). Es la sucesora de la lista de cypherpunks, con la diferencia de que está sujeta a una moderación estricta. En 2008, varios ex cypherpunks todavía participaban, como John Gilmore, Hal Finney y Len Sassaman.
+El 31 de octubre de 2008, Satoshi Nakamoto publica la [primera versión del white paper](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/courses/his201/assets/bitcoin-20081003.pdf) en una lista de correo electrónico dedicada a la criptografía, simplemente llamada la "lista de correo de Criptografía". Esta lista ha sido gestionada por el desarrollador Perry Metzger desde 1996, su [creación](https://cypherpunks.venona.com/date/1996/12/msg00102.html), y ha estado alojada en su sitio personal, Metdowd.com, desde [2003](https://www.metzdowd.com/pipermail/cryptography/2003-April/004484.html). Es la sucesora de la lista de cypherpunks, con la diferencia de que está sujeta a una moderación estricta. En 2008, varios ex cypherpunks todavía participaban, como John Gilmore, Hal Finney y Len Sassaman.
 
 En su primer [correo electrónico](https://www.metzdowd.com/pipermail/cryptography/2008-October/014810.html) dirigido a la lista, Satoshi escribe simplemente:
 
@@ -504,7 +515,7 @@ Bitcoin utiliza un algoritmo de consenso distribuido que permite a todos los nod
 
 Este mecanismo de consenso permite la imposición de todo tipo de reglas e incentivos (para usar la última frase del white paper) dentro del sistema. Dado que Bitcoin constituye un servicio de sellado de tiempo distribuido, también es posible que estas reglas interactúen con el paso del tiempo. De ahí el algoritmo de ajuste de dificultad que entra en juego para regular la producción de nuevos bloques y los bitcoins asociados a ellos: si el número de bloques producidos durante un período dado es demasiado alto, entonces la dificultad de producción aumenta; en el caso opuesto, disminuye. Bitcoin, por lo tanto, difiere de RPOW, donde las pruebas de trabajo en sí mismas formaban las unidades de cuenta.
 
-Gracias a este ajuste de dificultad, Bitcoin puede tener por lo tanto una política monetaria, lo que significa que la cantidad de nuevas unidades emitidas por el protocolo puede ser predeterminada. Inicialmente, se planea que la emisión monetaria sea constante, con el fin de incentivar a los nodos productores a contribuir con su poder de cómputo a la red, y no hay tarifas de transacción. Como escribe Satoshi Nakamoto en la sección "Incentivo" del [white paper](assets/pdf/bitcoin-20081003.pdf):
+Gracias a este ajuste de dificultad, Bitcoin puede tener por lo tanto una política monetaria, lo que significa que la cantidad de nuevas unidades emitidas por el protocolo puede ser predeterminada. Inicialmente, se planea que la emisión monetaria sea constante, con el fin de incentivar a los nodos productores a contribuir con su poder de cómputo a la red, y no hay tarifas de transacción. Como escribe Satoshi Nakamoto en la sección "Incentivo" del [white paper](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/courses/his201/assets/bitcoin-20081003.pdf):
 > "La adición constante de una cantidad constante de nuevas monedas es análoga a los mineros de oro gastando recursos para añadir oro a la circulación."
 
 Esta propiedad, confirmada por Satoshi [en la lista de correo](https://www.metzdowd.com/pipermail/cryptography/2008-November/014831.html) y [en su correspondencia privada](https://mmalmi.github.io/satoshi/#email-3), no pasa desapercibida para James A. Donald. El 9 de noviembre, él [critica](https://www.metzdowd.com/pipermail/cryptography/2008-November/014837.html) el "trabajo de rastrear quién posee qué" (es decir, la minería) por ser "pagado por señoreaje" y por "requerir inflación", aunque nota que "la inflación predecible es menos objetable que la inflación que se manipula de vez en cuando para transferir riqueza de un bloque de votantes a otro". Además, él [nota](https://www.metzdowd.com/pipermail/cryptography/2008-November/014841.html) que un nodo de minería que "ignora todos los gastos que no le interesan" no sufre "consecuencias adversas", destacando así el problema de la censura.
@@ -565,6 +576,8 @@ Sin embargo, este trabajo no fue suficiente, y se necesitó la perseverancia de 
 
 ## Presentación al Mundo
 <chapterId>28be3515-d9da-4d91-b7ff-f8691d51c562</chapterId>
+
+:::video id=c9691569-f026-460d-a08d-98fa54f1ce25:::
 
 Después de examinar cómo fue diseñado y lanzado Bitcoin por Satoshi Nakamoto, centrémonos en cómo fue presentado públicamente. Tras su lanzamiento a principios de 2009, la red estaba operativa, pero habían pocos nodos generadores (Satoshi minó la gran mayoría de los bloques) y la actividad era prácticamente inexistente (se realizaron 32 transacciones reales durante el mes de enero). El proyecto solo contaba con un sitio web básico y una página en SourceForge para descargar el software. Además, la comunicación sobre Bitcoin se limitaba a la lista de correo de criptografía Metzdowd, seguida como mucho por unas pocas cientos de personas apasionadas por la criptografía.
 
@@ -733,6 +746,8 @@ En el otoño de 2009, parecía que Bitcoin estaba listo para crecer. Y fue preci
 ## El Arranque de la Criptomoneda
 <chapterId>6b3418a7-125e-4ea1-a03a-f36090fac8a4</chapterId>
 
+:::video id=2a31c9c2-bb14-4ed5-b906-7df373f81f98:::
+
 En los capítulos anteriores, observamos cómo Satoshi Nakamoto implementó su idea y cómo se comunicó sobre ella para introducir Bitcoin al mundo. Sin embargo, no todo dependía de él: también era necesario que las personas asignaran valor a la unidad de cuenta. Dado que esto permitía la remuneración de los mineros a través de las tarifas de transacción y recompensaba a los comerciantes a través de la deflación natural, tal apreciación era esencial para la seguridad del sistema.
 
 La aparición del valor de Bitcoin, sin embargo, no fue tarea fácil. Se trataba de dar importancia económica a un objeto que previamente no tenía ninguna, por razones completamente subjetivas. Hal Finney lo explicó muy bien en su [correo electrónico](https://www.metzdowd.com/pipermail/cryptography/2009-January/015004.html) del 11 de enero de 2009, dirigido a la lista de correo de Criptografía, donde escribió:
@@ -853,6 +868,8 @@ Sin embargo, esta pregunta nunca molestó a Satoshi, quien vio el arranque de un
 ## Tarjetas Gráficas, Pizzas y Bitcoins Gratis
 <chapterId>9cd228a4-58d3-46a3-9935-06098bafc954</chapterId>
 
+:::video id=18913713-2f1a-4555-ba5d-06ec6d532bcb:::
+
 En los capítulos anteriores, exploramos cómo Bitcoin llegó a existir, cómo fue presentado al público y cómo se inició económicamente. En la primavera de 2010, cuando el comercio en bitcoins apenas comenzaba a florecer, el objetivo de Satoshi Nakamoto y las pocas personas que lo apoyaban era mantener viva la llama. Afortunadamente, otras personas se unieron al esfuerzo, notablemente el minero Laszlo Hanyecz y el desarrollador Gavin Andresen, quienes se destacaron por sus acciones.
 
 En este capítulo, veremos el primer despliegue de minería por unidad de procesamiento gráfico (GPU), la fortuna acumulada por Satoshi Nakamoto, la primera compra de un bien físico con bitcoins, el establecimiento de un grifo de bitcoin que daba unidades gratis, y la evolución del software y la red antes de Slashdot.
@@ -951,6 +968,8 @@ Sin embargo, para finales de junio, la actividad en la red seguía siendo bastan
 ## El Gran Slashdotting
 <chapterId>2eef715e-b018-445b-b360-1c6e1c1df462</chapterId>
 
+:::video id=c26f3696-4e33-4d38-9443-f237935f8b45:::
+
 A inicios del verano de 2010, a pesar de algunos desarrollos iniciales alentadores, Bitcoin se basaba en una fundación inestable. El software tenía pocos desarrolladores aparte de Satoshi Nakamoto. Los mineros eran aficionados en sus computadoras personales. Había alrededor de veinte servicios relacionados con Bitcoin, y los intercambios reales eran igual de raros. Sin embargo, las cosas estaban a punto de cambiar drásticamente durante la segunda mitad del año.
 
 En este capítulo, nuestro objetivo es discutir el "gran slashdotting", es decir, la repentina afluencia de usuarios que siguió a la publicación de una presentación de Bitcoin en el popular sitio web Slashdot el 11 de julio de 2010. Veremos cómo este texto llegó a existir como un último esfuerzo de comunicación por parte de Satoshi y cuáles fueron los efectos directos que siguieron a esta popularización de Bitcoin.
@@ -1023,6 +1042,8 @@ En los meses siguientes, las mejoras técnicas, económicas y de minería contin
 
 ## Los Primeros Problemas Técnicos
 <chapterId>30cc4fe4-22b0-429e-9874-029c9137c0aa</chapterId>
+
+:::video id=f3e98b49-c32e-451a-b7c1-224dc5b00cf5:::
 
 Como se mencionó en el capítulo pasado, la afluencia de usuarios de Slashdot el 11 de julio de 2010, causó una enorme ola de interés en el proyecto de Satoshi Nakamoto. El uso de la red explotó; la tasa de cambio aumentó diez veces, al igual que la potencia de cómputo dedicada al sistema. Así, Bitcoin experimentó un crecimiento sin precedentes durante el verano.
 
@@ -1104,6 +1125,8 @@ En los meses siguientes, continuaron surgiendo mejoras técnicas, económicas y 
 ## La Fiebre del Oro Digital
 <chapterId>8e9899ca-e7a7-471b-8e69-847a56714d3b</chapterId>
 
+:::video id=665ac55c-cd61-4d07-a896-95248eec480d:::
+
 En la parte anterior, repasamos el efecto que tuvo la publicación de la presentación de Bitcoin en Slashdot (slashdotting) y cómo los problemas técnicos iniciales fueron gestionados por Satoshi y sus ayudantes. Para finales del verano, el proyecto había superado la tormenta y estaba listo para dar la bienvenida a un número creciente de personas. El otoño de 2010 marcó así un período de éxito para Bitcoin.
 
 Este período fue particularmente una era dorada para la minería, pues vio mejoras significativas con la aparición de las primeras granjas de GPU y la primera cooperativa. Los recursos desplegados estaban aumentando, y el rendimiento de los algoritmos dedicados estaba mejorando. Fue algo así como una "fiebre del oro digital", como escribió un blogger de la época (usando el seudónimo jimbobway) [escribió](https://web.archive.org/web/20100828094955/http://www.bitcoinblogger.com/2010/08/bitcoins-new-digital-gold-rush.html), notando que "miles de usuarios en Internet" estaban minando bitcoins "con la esperanza de tener una fortuna" y que muchos de ellos estaban intentando "desarrollar herramientas de software y hardware para minar bitcoins de forma más eficiente" con la esperanza de volverse inmensamente ricos. (*original: "Bitcoins: A New Digital Gold Rush (...) Thousands of users on the Internet are now mining for bitcoins in hopes of fortune. Many are trying to develop software and hardware tools to mine for bitcoins more efficiently in hopes of becoming filthy rich."*)
@@ -1170,6 +1193,8 @@ Sin embargo, el otoño no solo fue exitoso para la minería. También fue un éx
 
 ## El Florecimiento del Ecosistema
 <chapterId>0404f877-8b5c-4c7f-81ab-a4e6d9b3da9c</chapterId>
+
+:::video id=2327cb5b-36a1-49f4-a9de-09b70d76b8c1:::
 
 En el capítulo anterior, exploramos cómo se desarrolló la minería durante la segunda mitad del año 2010. Para el otoño, este avance ya estaba bien establecido. Sin embargo, la minería no fue el único aspecto de Bitcoin que encontró éxito: su ecosistema también lo hizo.
 
@@ -1266,6 +1291,8 @@ Durante el otoño de 2010, el ecosistema alrededor de Bitcoin evolucionó signif
 
 ## La Desaparición de Satoshi
 <chapterId>f7735239-4887-468f-9f06-1b07d00b30d9</chapterId>
+
+:::video id=fd5b40ae-b6bc-484a-b86b-af9c772f0afa:::
 
 Vimos cómo Bitcoin despegó tras la publicación del texto en Slashdot en julio de 2010. En el otoño, con varios avances en software, minería y la economía, se sintió que el proyecto finalmente estaba en el camino correcto. Por eso, este período coincidió con la retirada gradual de Satoshi Nakamoto.
 
@@ -1383,6 +1410,8 @@ Este aspecto misterioso que rodea al creador de Bitcoin fue bien resumido por Ha
 
 ## La Comunidad se hace cargo
 <chapterId>16c5e6d6-2412-48c6-9687-6af92cf0d89a</chapterId>
+
+:::video id=b29c3ea3-c4ca-4feb-bb29-5dc064987406:::
 
 Tras la partida de Satoshi Nakamoto, se hizo necesario continuar sin él. Afortunadamente, Bitcoin era un proyecto abierto, al cual cualquiera podía contribuir, por lo que la desaparición de su fundador no fue fatal para el proyecto. Como escribió el desarrollador Jeff Garzik en julio de 2010 (respecto a la posibilidad de la ausencia del fundador):
 

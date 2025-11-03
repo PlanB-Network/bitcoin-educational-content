@@ -1,18 +1,18 @@
 ---
-name: Agregar un evento en PlanB Network
-description: ¿Cómo sugiero agregar un nuevo evento en PlanB Network?
+name: Agregar un evento en Plan ₿ Academy
+description: ¿Cómo sugiero agregar un nuevo evento en Plan ₿ Academy?
 ---
 ![evento](assets/cover.webp)
 
 La misión de PlanB es proporcionar recursos educativos de primer nivel sobre Bitcoin en tantos idiomas como sea posible. Todo el contenido publicado en el sitio es de código abierto y alojado en GitHub, ofreciendo a cualquier persona la oportunidad de contribuir al enriquecimiento de la plataforma.
 
-Si quieres agregar una conferencia sobre Bitcoin al sitio de PlanB Network y aumentar la visibilidad de tu evento, ¿pero no sabes cómo? ¡Este tutorial es para ti!
+Si quieres agregar una conferencia sobre Bitcoin al sitio de Plan ₿ Academy y aumentar la visibilidad de tu evento, ¿pero no sabes cómo? ¡Este tutorial es para ti!
 
 ![evento](assets/01.webp)
 
 - Primero, necesitas tener una cuenta en GitHub. Si no sabes cómo crear una cuenta, hemos hecho un tutorial detallado para guiarte.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Ve a [el repositorio de GitHub de PlanB dedicado a datos](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) en la sección `resources/conference/`:
@@ -23,7 +23,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
   
 ![evento](assets/03.webp)
 
-- Si nunca has contribuido al contenido de PlanB Network antes, necesitarás crear tu fork del repositorio original. Hacer un fork de un repositorio significa crear una copia de ese repositorio en tu propia cuenta de GitHub, lo que te permite trabajar en el proyecto sin afectar el repositorio original. Haz clic en el botón `Fork this repository`:
+- Si nunca has contribuido al contenido de Plan ₿ Academy antes, necesitarás crear tu fork del repositorio original. Hacer un fork de un repositorio significa crear una copia de ese repositorio en tu propia cuenta de GitHub, lo que te permite trabajar en el proyecto sin afectar el repositorio original. Haz clic en el botón `Fork this repository`:
   
 ![evento](assets/04.webp)
 
@@ -101,7 +101,7 @@ etiquetas:
 
 Si todavía no tienes un identificador de "*constructor*" para tu organización, puedes añadirlo siguiendo este otro tutorial.
 
-https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
+https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 - Una vez que hayas terminado de hacer cambios en este archivo, guárdalos haciendo clic en el botón `Commit changes...`:
   
@@ -123,7 +123,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
   
 ![evento](assets/14.webp)
 
-- Selecciona tu bifurcación del repositorio de PlanB Network:
+- Selecciona tu bifurcación del repositorio de Plan ₿ Academy:
   
 ![evento](assets/15.webp)
 
@@ -167,7 +167,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 
   ![evento](assets/25.webp)
   
-- Se abrirá una nueva página. Arrastra y suelta una imagen que represente tu evento y que se mostrará en el sitio de PlanB Network:
+- Se abrirá una nueva página. Arrastra y suelta una imagen que represente tu evento y que se mostrará en el sitio de Plan ₿ Academy:
   
 ![evento](assets/26.webp)
 
@@ -215,9 +215,9 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
   
 ![event](assets/37.webp)
 
-¡Felicidades! Tu PR ha sido creado exitosamente. Un administrador lo revisará ahora y, si todo está en orden, lo fusionará en el repositorio principal de PlanB Network. Deberías ver tu evento aparecer en el sitio web unos días después.
+¡Felicidades! Tu PR ha sido creado exitosamente. Un administrador lo revisará ahora y, si todo está en orden, lo fusionará en el repositorio principal de Plan ₿ Academy. Deberías ver tu evento aparecer en el sitio web unos días después.
 
-Asegúrate de seguir el progreso de tu PR. Un administrador puede dejar un comentario solicitando información adicional. Mientras tu PR no esté validado, puedes consultarlo en la pestaña `Pull requests` en el repositorio de GitHub de PlanB Network:
+Asegúrate de seguir el progreso de tu PR. Un administrador puede dejar un comentario solicitando información adicional. Mientras tu PR no esté validado, puedes consultarlo en la pestaña `Pull requests` en el repositorio de GitHub de Plan ₿ Academy:
 
 ![event](assets/38.webp)
 

@@ -43,7 +43,7 @@ Den siste delen ledes av andre foredragsholdere som presenterer konkrete RGB-bas
 ---
 Dette kurset sprang opprinnelig ut av en to ukers bootcamp for avansert utvikling i Viareggio i Toscana, arrangert av [Fulgur'Ventures] (https://fulgur.ventures/). Den første uken, som fokuserte på Rust og SDK-er, finner du i dette andre kurset:
 
-https://planb.network/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
+https://planb.academy/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
 
 I dette kurset fokuserer vi på den andre uken av bootcampen, som fokuserer på RGB.
 
@@ -1821,7 +1821,7 @@ Lightning Network er et desentralisert nettverk av betalingskanaler (eller _stat
 
 Hvis du vil ha mer informasjon om hvordan Lightning fungerer, anbefaler jeg at du tar dette andre kurset:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 #### Multiprotokollforpliktelse - MPC
 
@@ -3030,8 +3030,8 @@ Her er et eksempel på en YAML-fil som kan opprettes:
 interface: RGB20Fixed
 globals:
 spec:
-ticker: PBN
-name: Plan B Network
+ticker: Plan ₿ Academy
+name: Plan ₿ Academy
 details: "Pay attention: the asset has no value"
 precision: 2
 terms:
@@ -3075,7 +3075,7 @@ rgb contracts
 
 ![RGB-Bitcoin](assets/en/087.webp)
 
-Deretter viser den neste kommandoen de globale tilstandene (navn, ticker, forsyning ...) og listen over Owned States, dvs. allokeringer (for eksempel 1 million `PBN`-tokens definert i UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
+Deretter viser den neste kommandoen de globale tilstandene (navn, ticker, forsyning ...) og listen over Owned States, dvs. allokeringer (for eksempel 1 million `Plan ₿ Academy`-tokens definert i UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
 
 ```bash
 rgb state '<ContractId>'
@@ -3258,7 +3258,7 @@ I virkeligheten gjør Lightning Network det mulig å dirigere betalinger via fle
 
 Driften av RGB på Lightning må derfor vurderes parallelt med driften av selve Lightning-nettverket. Hvis du ønsker å fordype deg i dette emnet, anbefaler jeg at du tar en titt på dette andre omfattende kurset:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ### RGB-kodekart
 
@@ -3755,7 +3755,7 @@ Du kan selvfølgelig tilpasse bestillingen. For å bekrefte transaksjonen, utvin
 ./regtest.sh mine 1
 ```
 
-Vi kan nå opprette en RGB-ressurs. Kommandoen avhenger av hvilken type eiendel du ønsker å opprette og dens parametere. Her oppretter jeg et NIA-token (*Non Inflatable Asset*) ved navn "PBN" med en forsyning på 1000 enheter. Med `precision` kan du definere delbarheten til enhetene.
+Vi kan nå opprette en RGB-ressurs. Kommandoen avhenger av hvilken type eiendel du ønsker å opprette og dens parametere. Her oppretter jeg et NIA-token (*Non Inflatable Asset*) ved navn "Plan ₿ Academy" med en forsyning på 1000 enheter. Med `precision` kan du definere delbarheten til enhetene.
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3763,8 +3763,8 @@ curl -X POST -H "Content-Type: application/json" \
 "amounts": [
 1000
 ],
-"ticker": "PBN",
-"name": "Plan B Network",
+"ticker": "Plan ₿ Academy",
+"name": "Plan ₿ Academy",
 "precision": 0
 }' \
 http://localhost:3001/issueassetnia
@@ -3800,7 +3800,7 @@ Kommandoen returnerer den offentlige nøkkelen til min node nr. 2 :
 
 ![RGB-Bitcoin](assets/en/110.webp)
 
-Deretter åpner vi kanalen ved å spesifisere den relevante ressursen (`PBN`). Med kommandoen `/openchannel` kan du definere størrelsen på kanalen i satoshis og velge om du vil inkludere RGB-aktivet. Det kommer an på hva du ønsker å lage, men i mitt tilfelle er kommandoen :
+Deretter åpner vi kanalen ved å spesifisere den relevante ressursen (`Plan ₿ Academy`). Med kommandoen `/openchannel` kan du definere størrelsen på kanalen i satoshis og velge om du vil inkludere RGB-aktivet. Det kommer an på hva du ønsker å lage, men i mitt tilfelle er kommandoen :
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3839,7 +3839,7 @@ For å bekrefte transaksjonen utvinnes 6 blokker:
 
 ![RGB-Bitcoin](assets/en/112.webp)
 
-Lightning-kanalen er nå åpen og inneholder også 500 `PBN`-tokens på node nr. 1 sin side. Hvis node nr. 2 ønsker å motta `PBN`-tokens, må den generere en faktura. Slik gjør du det:
+Lightning-kanalen er nå åpen og inneholder også 500 `Plan ₿ Academy`-tokens på node nr. 1 sin side. Hvis node nr. 2 ønsker å motta `Plan ₿ Academy`-tokens, må den generere en faktura. Slik gjør du det:
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3868,7 +3868,7 @@ lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87e
 
 ![RGB-Bitcoin](assets/en/113.webp)
 
-Vi vil nå betale denne fakturaen fra den første noden, som har de nødvendige kontantene med `PBN`-tokenet:
+Vi vil nå betale denne fakturaen fra den første noden, som har de nødvendige kontantene med `Plan ₿ Academy`-tokenet:
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \

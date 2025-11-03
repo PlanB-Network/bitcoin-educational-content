@@ -1,5 +1,5 @@
 ---
-name: 로컬에서 Plan ₿ Network 플랫폼 실행 가이드
+name: 로컬에서 Plan ₿ Academy 플랫폼 실행 가이드
 description: 로컬 환경에서 Plan ₿ Network을 실행하여 Plan ₿ Network에서 교육용 콘텐츠의 콘텐츠 기여 또는 교정/검토를 테스트하려면 어떻게 해야 하나요?
 ---
 ![github](assets/cover.webp)
@@ -147,7 +147,7 @@ docker compose up -d --build -V
 <http://localhost:8181](http://localhost:8181)>
 
 
-![Plan ₿ Network Local](assets/en/1.webp)
+![Plan ₿ Academy Local](assets/en/1.webp)
 
 
 참고: 소스 파일을 변경하면 앱이 자동으로 다시 로드됩니다.
@@ -196,7 +196,7 @@ curl -X POST http://localhost:3000/api/github/sync
 ```
 
 
-![Plan ₿ Network Local](assets/en/2.webp)
+![Plan ₿ Academy Local](assets/en/2.webp)
 
 
 

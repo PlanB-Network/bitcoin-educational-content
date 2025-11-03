@@ -171,7 +171,7 @@ Drugi szyfrogram można zobaczyć na *Rysunku 2* poniżej. [Kluczem do tego szyf
 *Rysunek 1: Szyfr Beale'a nr. 2*
 
 
-![Figure 1: Beale cipher no 2.](assets/Figure1-1.webp "Figure 1: Beale cipher no. 2")
+![Figure 1: Beale cipher no 2.](assets/en/001.webp "Figure 1: Beale cipher no. 2")
 
 
 
@@ -413,7 +413,7 @@ Możliwe wartości i związane z nimi prawdopodobieństwa dla zmiennej losowej m
 *Rysunek 1: Zmienna losowa X*
 
 
-![Figure 1: Random variable X.](assets/Figure2-1.webp)
+![Figure 1: Random variable X.](assets/en/002.webp)
 
 
 Szerokie słupki na *Rysunku 1* oczywiście nie sugerują, że zmienna losowa $X$ jest ciągła. Zamiast tego słupki są szerokie, aby były bardziej atrakcyjne wizualnie (tylko linia prosto w górę zapewnia mniej intuicyjną wizualizację).
@@ -467,7 +467,7 @@ Graficzne przedstawienie $Y$ znajduje się na *Rysunku 2*.
 *Rysunek 2: Zmienna losowa Y*
 
 
-![Figure 2: Random variable Y.](assets/Figure2-2.webp "Figure 2: Random variable Y")
+![Figure 2: Random variable Y.](assets/en/003.webp "Figure 2: Random variable Y")
 
 
 W ostatnim przykładzie rozważmy zmienną losową Z. Ma ona zbiór wyników {1,3,7,11,12} i następujący rozkład prawdopodobieństwa:
@@ -505,7 +505,7 @@ Można to zobaczyć na *Rysunku 3*. Zmienna losowa Z jest, w przeciwieństwie do
 *Rysunek 3: Zmienna losowa Z*
 
 
-![Figure 3: Random variable Z.](assets/Figure2-3.webp "Figure 3: Random variable Z")
+![Figure 3: Random variable Z.](assets/en/004.webp "Figure 3: Random variable Z")
 
 
 
@@ -1430,7 +1430,7 @@ Bob szyfruje wiadomość $M$ w czasie $T_0$ kluczem $K$ w celu uzyskania szyfrog
 *Rysunek 1: Tajność w przestrzeni*
 
 
-![Figure 1: Secrecy across space](assets/Figure4-1.webp "Figure 1: Secrecy across space")
+![Figure 1: Secrecy across space](assets/en/005.webp "Figure 1: Secrecy across space")
 
 
 
@@ -1438,7 +1438,7 @@ Bob szyfruje wiadomość $M$ w czasie $T_0$ kluczem $K$ w celu uzyskania szyfrog
 
 
 
-![Figure 2: Secrecy across time](assets/Figure4-2.webp "Figure 2: Secrecy across time")
+![Figure 2: Secrecy across time](assets/en/006.webp "Figure 2: Secrecy across time")
 
 
 
@@ -1587,7 +1587,7 @@ Typowy szyfr strumieniowy XOR został przedstawiony na *Rysunku 3*. Najpierw bie
 *Rysunek 3: Szyfr strumieniowy XOR*
 
 
-![Figure 3: An XOR stream cipher](assets/Figure4-3.webp "Figure 3: An XOR stream cipher")
+![Figure 3: An XOR stream cipher](assets/en/007.webp "Figure 3: An XOR stream cipher")
 
 
 Należy pamiętać, że schemat szyfrowania jest zazwyczaj szablonem dla szyfrowania z tym samym podstawowym algorytmem, a nie dokładną specyfikacją. W związku z tym szyfr strumieniowy jest zazwyczaj szablonem szyfrowania, w którym można używać kluczy o różnych długościach. Chociaż długość klucza może wpływać na niektóre drobne szczegóły schematu, nie wpłynie to na jego zasadniczą formę.
@@ -1705,7 +1705,7 @@ Przedstawienie działania szyfru blokowego można zobaczyć na *Rysunku 4* poni�
 *Rysunek 4: Szyfr blokowy*
 
 
-![Figure 4: A block cipher](assets/Figure4-4.webp "Figure 4: A block cipher")
+![Figure 4: A block cipher](assets/en/008.webp "Figure 4: A block cipher")
 
 
 Szyfr blokowy sam w sobie nie jest schematem szyfrowania. Ale szyfr blokowy może być używany z różnymi **trybami działania** w celu stworzenia różnych schematów szyfrowania. Tryb działania po prostu dodaje pewne dodatkowe operacje poza szyfrem blokowym.
@@ -1717,7 +1717,7 @@ Aby zilustrować, jak to działa, załóżmy szyfr blokowy (BC), który wymaga 1
 *Rysunek 5: Szyfr blokowy z trybem ECB*
 
 
-![Figure 5: A block cipher with ECB mode](assets/Figure4-5.webp "Figure 5: A block cipher with ECB mode")
+![Figure 5: A block cipher with ECB mode](assets/en/009.webp "Figure 5: A block cipher with ECB mode")
 
 
 Proces szyfrowania elektronicznej książki kodowej za pomocą szyfru blokowego wygląda następująco. Sprawdź, czy możesz podzielić swój zwykły tekst na 128-bitowe bloki. Jeśli nie, dodaj **padding** do wiadomości, tak aby wynik mógł być równomiernie podzielony przez rozmiar bloku 128 bitów. Są to dane używane w procesie szyfrowania.
@@ -1741,7 +1741,7 @@ Tryb **cipher block chaining** (**tryb CBC**) jest prawdopodobnie najczęściej 
 *Rysunek 6: Szyfr blokowy z trybem CBC*
 
 
-![Figure 6: A block cipher with CBC mode](assets/Figure4-6.webp "Figure 6: A block cipher with CBC mode")
+![Figure 6: A block cipher with CBC mode](assets/en/010.webp "Figure 6: A block cipher with CBC mode")
 
 
 Załóżmy, że rozmiar bloku wynosi ponownie 128 bitów. Aby rozpocząć, należy ponownie upewnić się, że oryginalna wiadomość w postaci zwykłego tekstu otrzyma niezbędne wypełnienie.
@@ -1765,7 +1765,7 @@ Na koniec zwróćmy uwagę na **tryb wyjściowego sprzężenia zwrotnego** (**tr
 *Rysunek 7: Szyfr blokowy z trybem OFB*
 
 
-![Figure 7: A block cipher with OFB mode](assets/Figure4-7.webp "Figure 7: A block cipher with OFB mode")
+![Figure 7: A block cipher with OFB mode](assets/en/011.webp "Figure 7: A block cipher with OFB mode")
 
 
 W trybie OFB użytkownik również wybiera wektor inicjujący. Ale tutaj, dla pierwszego bloku, wektor inicjujący jest bezpośrednio wstawiany do szyfru blokowego wraz z kluczem. Wynikowe 128 bitów jest następnie traktowane jako strumień klucza. Ten strumień klucza jest XORowany z tekstem jawnym w celu utworzenia szyfrogramu dla bloku. W przypadku kolejnych bloków używa się strumienia klucza z poprzedniego bloku jako danych wejściowych do szyfru blokowego i powtarza kroki.
@@ -1836,7 +1836,7 @@ Z tej dyskusji powinieneś teraz zrozumieć *Rysunek 8*. Przedstawia on przeglą
 *Rysunek 8: Przegląd schematów szyfrowania symetrycznego*
 
 
-![Figure 8: Overview of symmetric encryption schemes](assets/Figure4-8.webp "Figure 8: Overview of symmetric encryption schemes")
+![Figure 8: Overview of symmetric encryption schemes](assets/en/012.webp "Figure 8: Overview of symmetric encryption schemes")
 
 
 
@@ -1871,7 +1871,7 @@ Proces ten został przedstawiony na *Rysunku 9*. Aby użyć **MAC** (Message Aut
 *Rysunek 9: Przegląd schematów szyfrowania symetrycznego*
 
 
-![Figure 9: Overview of symmetric encryption schemes](assets/Figure4-9.webp "Figure 9: Overview of symmetric encryption schemes")
+![Figure 9: Overview of symmetric encryption schemes](assets/en/013.webp "Figure 9: Overview of symmetric encryption schemes")
 
 
 Ze względu na **istniejącą niezmienność**, atakujący nie może w żaden sposób zmienić wiadomości $M$ ani utworzyć własnej wiadomości z prawidłowym znacznikiem. Dzieje się tak, nawet jeśli atakujący obserwuje znaczniki wielu wiadomości między Bobem i Alicją, które używają tego samego klucza prywatnego. Atakujący może co najwyżej zablokować Alicji możliwość odebrania wiadomości $M$ (problem, którego kryptografia nie może Address).
@@ -1919,7 +1919,7 @@ Alice sprawdza teraz najpierw, czy znacznik jest ważny, biorąc pod uwagę szyf
 *Rysunek 10: Uwierzytelniony schemat szyfrowania*
 
 
-![Figure 10: An authenticated encryption scheme](assets/Figure4-10.webp "Figure 10: An authenticated encryption scheme")
+![Figure 10: An authenticated encryption scheme](assets/en/014.webp "Figure 10: An authenticated encryption scheme")
 
 
 W jaki sposób tworzone są MAC? Chociaż MAC mogą być tworzone za pomocą wielu metod, powszechnym i skutecznym sposobem ich tworzenia są **kryptograficzne funkcje Hash**.
@@ -1938,7 +1938,7 @@ Istnieje paleta funkcji Hash, których można użyć do utworzenia HMAC. Najczę
 *Rysunek 11: HMAC*
 
 
-![Figure 11: HMAC](assets/Figure4-11.webp "Figure 11: HMAC")
+![Figure 11: HMAC](assets/en/015.webp "Figure 11: HMAC")
 
 
 **Uwagi:**
@@ -1995,7 +1995,7 @@ Sesja komunikacyjna rozpoczyna się od wysłania przez Boba szyfrogramu $C_{0,B}
 *Rysunek 12: Sesja bezpiecznej komunikacji*
 
 
-![Figure 12: A secure communication session](assets/Figure4-12.webp "Figure 12: A secure communication sessesion")
+![Figure 12: A secure communication session](assets/en/016.webp "Figure 12: A secure communication sessesion")
 
 
 
@@ -2188,7 +2188,7 @@ Nazwijmy klucz $K_0$. Konstrukcja z powyższymi parametrami wygląda jak na *Rys
 *Rysunek 1: AES-ECB z kluczem 128-bitowym*
 
 
-![Figure 1: AES-ECB with a 128-bit key](assets/Figure5-1.webp "Figure 1: AES-ECB with a 128-bit key")
+![Figure 1: AES-ECB with a 128-bit key](assets/en/017.webp "Figure 1: AES-ECB with a 128-bit key")
 
 
 Każdy 128-bitowy blok tekstu przechodzi przez dziesięć rund w schemacie szyfrowania Rijndael. Wymaga to osobnego klucza dla każdej rundy (od $K_1$ do $K_{10}$). Są one tworzone dla każdej rundy z oryginalnego 128-bitowego klucza $K_0$ przy użyciu **algorytmu rozszerzania klucza**. W związku z tym, dla każdego bloku tekstu, który ma zostać zaszyfrowany, użyjemy oryginalnego klucza $K_0$, a także dziesięciu oddzielnych kluczy rundowych. Należy pamiętać, że te same 11 kluczy jest używanych dla każdego 128-bitowego bloku tekstu jawnego, który wymaga szyfrowania.
@@ -2563,7 +2563,7 @@ W pewnym momencie Bob chce napisać wiadomość $M$ do Alicji. Ponieważ zawiera
 *Rysunek 1: Szyfrowanie asymetryczne*
 
 
-![Figure 1: Asymmetric encryption](assets/Figure6-1.webp "Figure 1: Asymmetric encryption")
+![Figure 1: Asymmetric encryption](assets/en/018.webp "Figure 1: Asymmetric encryption")
 
 
 
@@ -2600,7 +2600,7 @@ Podpis cyfrowy jest, jak sama nazwa wskazuje, cyfrowym odpowiednikiem pisemnego 
 *Rysunek 2: Uwierzytelnianie asymetryczne*
 
 
-![Figure 2: Asymmetric authentication](assets/Figure6-2.webp "Figure 2: Asymmetric authentication")
+![Figure 2: Asymmetric authentication](assets/en/019.webp "Figure 2: Asymmetric authentication")
 
 
 

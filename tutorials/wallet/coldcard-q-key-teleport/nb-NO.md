@@ -95,7 +95,7 @@ En QR-kode genereres på skjermen. Denne QR-koden må du igjen kommunisere til C
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 *Vi har for øyeblikket:*
 
@@ -145,7 +145,7 @@ Du blir nå bedt om å velge hvilken type hemmeligheter som skal overføres mell
 
 
 
-Her vil vår hemmelighet være en kort melding ved å velge **"Quick Text Message"**. Skriv inn meldingen din (for oss "PlanB Network rocks") og trykk deretter **"ENTER"**.
+Her vil vår hemmelighet være en kort melding ved å velge **"Quick Text Message"**. Skriv inn meldingen din (for oss "Plan ₿ Academy rocks") og trykk deretter **"ENTER"**.
 
 
 Enheten genererer deretter et nytt tilfeldig passord kalt **"Teleport Password"** , i eksempelet "NE XG BT SK".
@@ -190,7 +190,7 @@ Trykk på **"QR"**-knappen for å skanne QR-koden som presenteres av den sendend
 
 
 
-Deretter dekrypteres dataene og gjøres forståelige for mottakerenheten. Meldingen som mottas er faktisk "PlanB Network rocks". Det er alt.
+Deretter dekrypteres dataene og gjøres forståelige for mottakerenheten. Meldingen som mottas er faktisk "Plan ₿ Academy rocks". Det er alt.
 
 
 

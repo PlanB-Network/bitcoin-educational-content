@@ -1,14 +1,14 @@
 ---
 name: Wkład - samouczki
-description: Jak przesłać nową zawartość do Plan ₿ Network?
+description: Jak przesłać nową zawartość do Plan ₿ Academy?
 ---
 ![cover](assets/cover.webp)
 
 
-Misją Plan ₿ Network jest udostępnienie wiodących zasobów edukacyjnych na Bitcoin w jak największej liczbie języków. Wszystkie treści publikowane na stronie są open-source i hostowane na GitHub, dając każdemu możliwość uczestniczenia we wzbogacaniu platformy. Wkład może przybierać różne formy: korekta i korekta istniejących tekstów, tłumaczenie na inne języki, aktualizacja informacji, a nawet tworzenie nowych samouczków, które nie są jeszcze dostępne na naszej stronie.
+Misją Plan ₿ Academy jest udostępnienie wiodących zasobów edukacyjnych na Bitcoin w jak największej liczbie języków. Wszystkie treści publikowane na stronie są open-source i hostowane na GitHub, dając każdemu możliwość uczestniczenia we wzbogacaniu platformy. Wkład może przybierać różne formy: korekta i korekta istniejących tekstów, tłumaczenie na inne języki, aktualizacja informacji, a nawet tworzenie nowych samouczków, które nie są jeszcze dostępne na naszej stronie.
 
 
-W tym samouczku przyjrzymy się, jak dodać nową zawartość, taką jak samouczek lub kurs, do platformy Plan ₿ Network.
+W tym samouczku przyjrzymy się, jak dodać nową zawartość, taką jak samouczek lub kurs, do platformy Plan ₿ Academy.
 
 
 ## Jaka jest różnica między samouczkiem a kursem?
@@ -20,7 +20,7 @@ Dwie główne sekcje naszej platformy to kursy i samouczki. Kursy zapewniają te
 Kursy są naturalnie dłuższe i bardziej ustrukturyzowane niż samouczki. Powinny one dogłębnie, precyzyjnie i szczegółowo badać konkretny temat związany z Bitcoin lub jego ekosystemem.
 
 
-[Odkryj kursy Plan ₿ Network](https://planb.network/courses)
+[Odkryj kursy Plan ₿ Academy](https://planb.academy/courses)
 
 
 ![TUTO](assets/fr/37.webp)
@@ -29,7 +29,7 @@ Kursy są naturalnie dłuższe i bardziej ustrukturyzowane niż samouczki. Powin
 Samouczki są zazwyczaj krótsze. Są one przeznaczone jako przewodniki krok po kroku, jak wykonać określone zadanie związane z Bitcoin, z obrazami jako wsparciem.
 
 
-[Odkryj samouczki Plan ₿ Network](https://planb.network/tutorials)
+[Odkryj samouczki Plan ₿ Academy](https://planb.academy/tutorials)
 
 
 ![TUTO](assets/fr/38.webp)
@@ -50,7 +50,7 @@ W wiadomości prosimy o krótkie przedstawienie się i opisanie pomysłu na kurs
 ## Jak przesłać nowy samouczek?
 
 
-Aby dodać nowy samouczek do Plan ₿ Network, można to zrobić bezpośrednio na GitHub, przesyłając Pull Request. W poniższym samouczku i towarzyszących mu samouczkach przeprowadzę Cię krok po kroku przez ten proces i poinformuję o wytycznych, których należy przestrzegać, aby zapewnić zgodność samouczka z platformą, zachowując jednocześnie przejrzystą historię wkładu.
+Aby dodać nowy samouczek do Plan ₿ Academy, można to zrobić bezpośrednio na GitHub, przesyłając Pull Request. W poniższym samouczku i towarzyszących mu samouczkach przeprowadzę Cię krok po kroku przez ten proces i poinformuję o wytycznych, których należy przestrzegać, aby zapewnić zgodność samouczka z platformą, zachowując jednocześnie przejrzystą historię wkładu.
 
 
 ## 1 - Wybierz motyw dla swojego samouczka
@@ -69,7 +69,7 @@ Poszukujemy przede wszystkim samouczków dotyczących narzędzi związanych z Bi
 - Poufność.
 
 
-Poza tymi tematami związanymi z Bitcoin, Plan ₿ Network oczekuje również wkładu w tematy, które podkreślają suwerenność jednostki, takie jak:
+Poza tymi tematami związanymi z Bitcoin, Plan ₿ Academy oczekuje również wkładu w tematy, które podkreślają suwerenność jednostki, takie jak:
 
 
 
@@ -87,13 +87,13 @@ Poza tymi tematami związanymi z Bitcoin, Plan ₿ Network oczekuje również wk
 Na przykład, mamy obecnie samouczki na temat Tails, Nostr i GrapheneOS. Narzędzia te nie są bezpośrednio związane z Bitcoin, ale są to systemy, które mogą nas zainteresować w ramach dążenia do suwerenności w świecie cyfrowym. Treści te można zintegrować w podkategorii sekcji "Inne".
 
 
-Możesz zaprojektować samouczek od podstaw lub skorzystać z samouczka opublikowanego wcześniej w Twojej witrynie (pod warunkiem, że posiadasz prawa autorskie) i udostępnić go również w Plan ₿ Network, dodając link do oryginalnego artykułu.
+Możesz zaprojektować samouczek od podstaw lub skorzystać z samouczka opublikowanego wcześniej w Twojej witrynie (pod warunkiem, że posiadasz prawa autorskie) i udostępnić go również w Plan ₿ Academy, dodając link do oryginalnego artykułu.
 
 
-Niezależnie od wyboru, należy pamiętać, że wszystkie treści publikowane na Plan ₿ Network są objęte wolną licencją [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/). Licencja ta upoważnia każdego do kopiowania i, potencjalnie, modyfikowania treści, pod jedynym warunkiem, że oryginalne źródło zostanie należycie podane.
+Niezależnie od wyboru, należy pamiętać, że wszystkie treści publikowane na Plan ₿ Academy są objęte wolną licencją [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/). Licencja ta upoważnia każdego do kopiowania i, potencjalnie, modyfikowania treści, pod jedynym warunkiem, że oryginalne źródło zostanie należycie podane.
 
 
-## 2 - Skontaktuj się z zespołem Plan ₿ Network
+## 2 - Skontaktuj się z zespołem Plan ₿ Academy
 
 
 Po wybraniu motywu dla swojego samouczka, następnym krokiem jest poinformowanie nas o zamiarze dodania tej treści do platformy. Najprostszym sposobem, jeśli masz konto Telegram, jest [dołączenie do naszej grupy](https://t.me/PlanBNetwork_ContentBuilder).
@@ -114,26 +114,26 @@ paolo@planb.network
 ## 3 - Wybór odpowiednich narzędzi do wniesienia wkładu
 
 
-Aby współtworzyć Plan ₿ Network, masz 3 opcje w zależności od poziomu doświadczenia z GitHubem:
+Aby współtworzyć Plan ₿ Academy, masz 3 opcje w zależności od poziomu doświadczenia z GitHubem:
 
 
 
 
-- **Doświadczeni użytkownicy**: Kontynuuj swoje zwykłe metody i po prostu zapoznaj się z krótkim samouczkiem poniżej, który podsumowuje strukturę plików repozytorium Plan ₿ Network, specyficzne wymagania i metodę pracy:
+- **Doświadczeni użytkownicy**: Kontynuuj swoje zwykłe metody i po prostu zapoznaj się z krótkim samouczkiem poniżej, który podsumowuje strukturę plików repozytorium Plan ₿ Academy, specyficzne wymagania i metodę pracy:
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+https://planb.academy/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
 
-- **Średniozaawansowany (GitHub Desktop)**: Jeśli nie jesteś zaznajomiony z korzystaniem z Git, pierwszą opcją jest łatwe skonfigurowanie własnego środowiska lokalnego w celu wniesienia wkładu do Plan ₿ Network. To podejście jest zalecane w przypadku znaczącego wkładu, takiego jak napisanie pełnego samouczka. Aby to zrobić, postępuj zgodnie z poniższym samouczkiem krok po kroku:
+- **Średniozaawansowany (GitHub Desktop)**: Jeśli nie jesteś zaznajomiony z korzystaniem z Git, pierwszą opcją jest łatwe skonfigurowanie własnego środowiska lokalnego w celu wniesienia wkładu do Plan ₿ Academy. To podejście jest zalecane w przypadku znaczącego wkładu, takiego jak napisanie pełnego samouczka. Aby to zrobić, postępuj zgodnie z poniższym samouczkiem krok po kroku:
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 
 - **Początkujący (web Interface)**: Możesz także zdecydować się na bezpośrednie korzystanie z Interface w serwisie GitHub, bez konieczności konfigurowania pełnego środowiska lokalnego. Tę metodę można rozważyć w przypadku niewielkich wkładów. Jednak w przypadku większych zmian, takich jak dodanie kompletnego nowego samouczka, opcja ta może okazać się bardziej skomplikowana niż konfiguracja środowiska lokalnego. Wyjaśnię jak to zrobić w tym poradniku:
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 
-Wybierz jedną z tych trzech opcji zgodnie ze swoim poziomem wiedzy, a następnie zacznij pisać swój pierwszy poradnik Plan ₿ Network!
+Wybierz jedną z tych trzech opcji zgodnie ze swoim poziomem wiedzy, a następnie zacznij pisać swój pierwszy poradnik Plan ₿ Academy!

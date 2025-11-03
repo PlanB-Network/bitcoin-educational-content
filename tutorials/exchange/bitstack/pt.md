@@ -51,9 +51,9 @@ Escolha uma palavra-passe forte para proteger o acesso à sua conta e, em seguid
 
 ![Image](assets/fr/06.webp)
 
-Para uma gestão segura das palavras-passe no dia a dia, a utilização de um gestor de palavras-passe é altamente recomendada. No Plan ₿ Network, encontrará vários tutoriais sobre as melhores soluções existentes, como o Bitwarden :
+Para uma gestão segura das palavras-passe no dia a dia, a utilização de um gestor de palavras-passe é altamente recomendada. No Plan ₿ Academy, encontrará vários tutoriais sobre as melhores soluções existentes, como o Bitwarden :
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Ser-lhe-á então pedido que verifique a sua identidade (KYC). Em conformidade com a regulamentação francesa, ser-lhe-á pedido que forneça os seus dados pessoais e um comprovativo de identidade. Preencha os campos com o seu apelido, nome próprio e data de nascimento.
 
@@ -184,7 +184,7 @@ Determinar a prioridade da transação. Para uma retirada sem taxas, selecione a
 
 ![Image](assets/fr/32.webp)
 
-Se não estiver familiarizado com o funcionamento de uma carteira de autocustódia, oferecemos tutoriais sobre a maioria das soluções disponíveis [no Plano ₿ Rede na secção "*Carteira*"] (https://planb.network/tutorials/wallet).
+Se não estiver familiarizado com o funcionamento de uma carteira de autocustódia, oferecemos tutoriais sobre a maioria das soluções disponíveis [no Plano ₿ Rede na secção "*Carteira*"] (https://planb.academy/tutorials/wallet).
 
 ## Vender bitcoin
 

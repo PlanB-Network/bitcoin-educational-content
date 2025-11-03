@@ -20,7 +20,7 @@ Szczególną cechą tego Wallet jest możliwość wysyłania bitcoinów przy uż
 Aby korzystać z Proton Wallet, potrzebujesz konta Proton. Możesz je utworzyć za darmo, wykonując pierwsze kroki tego samouczka poświęconego tworzeniu skrzynki pocztowej Proton (tylko sekcja "*Tworzenie konta Proton*"). Po skonfigurowaniu konta można przejść do dalszej części tego samouczka.
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Połączenie z Proton Wallet
 
@@ -100,7 +100,7 @@ Możesz napisać go na kartce papieru lub dla większego bezpieczeństwa polecam
 Aby uzyskać więcej informacji na temat prawidłowego sposobu zapisywania i zarządzania frazą Mnemonic, zdecydowanie polecam skorzystanie z tego samouczka, zwłaszcza jeśli jesteś początkującym:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 oczywiście nigdy nie powinieneś robić zdjęć tych słów, w przeciwieństwie do tego, co robię w tym samouczku
 
@@ -141,7 +141,7 @@ W tym miejscu można dodać BIP39 passphrase do nowego Wallet.
 Aby pogłębić swoją wiedzę na temat passphrase, polecam ten samouczek:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ## Odbieranie bitcoinów
 
@@ -239,4 +239,4 @@ Gratulacje, wiesz już jak skonfigurować i używać Proton Wallet. Jeśli ten p
 Aby przejść dalej, polecam ten samouczek na temat Jade Plus, najnowszego Hardware Wallet Blockstream:
 
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262

@@ -213,7 +213,7 @@ Unaweza kuongeza "*Lebo*" ili kuelezea chanzo cha bitcoins ambazo zitalindwa na 
 Kwa habari zaidi juu ya kuweka lebo, ninapendekeza pia kuangalia mafunzo haya mengine:
 
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Kisha unaweza kutumia Address hii kupokea bitcoins.
 

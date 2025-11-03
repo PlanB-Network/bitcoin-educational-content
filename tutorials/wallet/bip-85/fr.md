@@ -199,25 +199,25 @@ Plus de ressources en Annexes.
 
 ## A.1 Glossaire
 
-- [BIP](https://planb.network/resources/glossary/bip)
-- [BIP-32](https://planb.network/resources/glossary/bip0032)
-- [BIP-39](https://planb.network/resources/glossary/bip0039)
-- [BIP-85](https://planb.network/resources/glossary/bip0085)
-- [Seed phrase](https://planb.network/resources/glossary/recovery-phrase)
-- [Passphrase](https://planb.network/resources/glossary/passphrase-bip39)
-- [Multisig](https://planb.network/resources/glossary/multisig)
+- [BIP](https://planb.academy/resources/glossary/bip)
+- [BIP-32](https://planb.academy/resources/glossary/bip0032)
+- [BIP-39](https://planb.academy/resources/glossary/bip0039)
+- [BIP-85](https://planb.academy/resources/glossary/bip0085)
+- [Seed phrase](https://planb.academy/resources/glossary/recovery-phrase)
+- [Passphrase](https://planb.academy/resources/glossary/passphrase-bip39)
+- [Multisig](https://planb.academy/resources/glossary/multisig)
 
 
 ### A.2 Sauvegarder sa phrase de récupération
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 
 ### A.3 Comprendre la Passphrase BIP39
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 
 ### A.4 Les rouages des portefeuilles Bitcoin
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f

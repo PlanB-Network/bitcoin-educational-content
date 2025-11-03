@@ -30,7 +30,7 @@ Kunjungi [situs web resmi Bitcoin Knot] (https://bitcoinknots.org/#download) unt
 
 Sebelum menginstal perangkat lunak pada komputer Anda, kami sangat menyarankan agar Anda memeriksa keaslian dan integritasnya. Jika Anda tidak tahu caranya, lihatlah tutorial lain ini:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 Setelah perangkat lunak diverifikasi, instal perangkat lunak dengan mengikuti langkah-langkah yang ditunjukkan pada panel instalasi.
 
 ![Image](assets/fr/03.webp)
@@ -115,7 +115,7 @@ Berikan nama pada Wallet Anda. Anda juga dapat melindunginya dengan passphrase B
 
 passphrase BIP39 adalah kata sandi opsional yang dapat Anda pilih secara bebas, selain frasa Mnemonic, untuk meningkatkan keamanan Wallet Anda. Sebelum mengonfigurasi fitur ini, kami sangat menyarankan Anda untuk membaca artikel berikut ini, yang menjelaskan secara detail cara kerja passphrase secara teori, dan cara menghindari kesalahan yang dapat menyebabkan hilangnya bitcoin Anda secara permanen:
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 Jika Anda telah mengaktifkan opsi passphrase, pilihlah yang kuat dan simpanlah dengan hati-hati pada satu atau beberapa media fisik yang aman.
 
 ![Image](assets/fr/18.webp)
@@ -285,4 +285,4 @@ Jika Anda merasa tutorial ini bermanfaat, saya akan sangat berterima kasih jika 
 
 Saya juga merekomendasikan tutorial lain yang menjelaskan cara menyiapkan simpul Lightning Anda sendiri:
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a

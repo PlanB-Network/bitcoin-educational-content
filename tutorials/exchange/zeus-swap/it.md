@@ -27,7 +27,7 @@ Per un reverse swap (Lightning → on-chain), l'utente paga una invoice Lightnin
 
 Per maggiori dettagli sul funzionamento della Lightning Network, consulta il nostro corso dedicato:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ### Modello di business
 
@@ -77,7 +77,7 @@ Zeus Swap regola automaticamente i tempi di scadenza e le commissioni di mining 
 
 Consulta il nostro tutorial Zeus per conoscere meglio questo wallet:
 
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
 
 ### Configurazione web
 

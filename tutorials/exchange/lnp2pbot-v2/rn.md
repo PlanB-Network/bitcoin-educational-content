@@ -11,7 +11,7 @@ description: Inyobora yuzuye ku bucuruzi bwa LNP2PBot na P2P Bitcoin
 Uguhanahana amakuru hagati y’abantu (P2P) ata KYC ni ngombwa kugira ngo abakoresha bazigame ubuzima bwite bwabo n’ukwigenga kwabo mu vy’amahera. Bituma umuntu ashobora gukorana n’abandi ataco akeneye kugenzura akaranga kabo, ivyo bikaba ari ngirakamaro ku bantu baha agaciro ubuzima bwite. Kugira ngo utahure neza ivyiyumviro vy’inyigisho, raba inyigisho ya BTC204:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 Gugura no kugurisha Bitcoin peer-to-peer (P2P) ni bumwe mu buryo bwihariye bwo kuronka canke gutanga amafaranga y’ibiceri. LNP2PBot ni Telegram bot ifunguye ifasha mu guhinduranya P2P kuri Lightning Network, igatuma habaho uguhinduranya vyihuta, bihenda, ata KYC.
 
@@ -71,7 +71,7 @@ Tangana n'ugushiramwo umuravyo Wallet uhuye. Dore impanuro zacu zitomoye:
 Aha hepfo hariho urubuga rwo kuronka inyigisho y'iyi Wallet:
 
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
 
 - [Fenikisi](ku rubuga rwacu) :
@@ -85,7 +85,7 @@ https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4
 Aha hepfo hariho urubuga rwo kuronka inyigisho y'iyi Wallet:
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 
 - [Ikinyamakuru](imbuga y'ikinyamakuru.github.io) :
@@ -99,7 +99,7 @@ https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 Aha hepfo hariho urubuga rwo kuronka inyigisho y'iyi Wallet:
 
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
 **Ivyiyumviro bihambaye ku bindi bikoresho**
 

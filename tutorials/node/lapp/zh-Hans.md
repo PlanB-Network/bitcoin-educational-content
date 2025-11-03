@@ -21,7 +21,7 @@ NodeJs可以从其官方网站下载
 - Express作为我们的web服务器
 - Pug模板 + bootstrap作为我们的前端
 
-https://planb.network/courses/bbf08a64-84ca-11f0-9d7a-c3c481a45799
+https://planb.academy/courses/bbf08a64-84ca-11f0-9d7a-c3c481a45799
 
 ## 操作系统
 

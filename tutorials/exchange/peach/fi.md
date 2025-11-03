@@ -10,7 +10,7 @@ description: Täydellinen opas Peachin käyttöön ja bitcoinien P2P-vaihtoon
 
 KYC-vapaat P2P-pörssit ovat olennaisen tärkeitä käyttäjien luottamuksellisuuden ja taloudellisen riippumattomuuden säilyttämiseksi. Ne mahdollistavat suorat transaktiot yksityishenkilöiden välillä ilman henkilöllisyyden todentamista, mikä on ratkaisevan tärkeää yksityisyyttä arvostaville. Jos haluat syvällisemmän käsityksen teoreettisista käsitteistä, tutustu BTC204-kurssiin:
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### 1. Mikä on persikka?
 
@@ -34,7 +34,7 @@ Muistutuksena mainittakoon, että hash on tietoa, joka on tehty tunnistamattomak
 
 *Jos haluat lisätietoa hashingista, voit seurata tätä kurssia:*
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 **Kuka näkee maksutietoni?**
 

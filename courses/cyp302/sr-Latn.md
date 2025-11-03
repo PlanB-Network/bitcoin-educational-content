@@ -171,7 +171,7 @@ Možete videti drugi šifrovani tekst na *Slici 2* ispod. [2] Ključ za ovaj ši
 *Slika 1: Beale šifra br. 2*
 
 
-![Figure 1: Beale cipher no 2.](assets/Figure1-1.webp "Figure 1: Beale cipher no. 2")
+![Figure 1: Beale cipher no 2.](assets/en/001.webp "Figure 1: Beale cipher no. 2")
 
 
 
@@ -412,7 +412,7 @@ Moguće vrednosti i pridružene verovatnoće za slučajnu promenljivu mogu se la
 *Slika 1: Slučajna promenljiva X*
 
 
-![Figure 1: Random variable X.](assets/Figure2-1.webp)
+![Figure 1: Random variable X.](assets/en/002.webp)
 
 
 Široke stubovi u *Slici 1* očigledno ne znače da nasumična varijabla $X$ zapravo ima kontinuiranu distribuciju. Umesto toga, stubovi su napravljeni širokim kako bi bile vizuelno privlačnije (samo linija koja ide pravo gore pruža manje intuitivnu vizualizaciju).
@@ -466,7 +466,7 @@ Grafički prikaz $Y$ je dat na *Slici 2*.
 *Slika 2: Slučajna promenljiva Y*
 
 
-![Figure 2: Random variable Y.](assets/Figure2-2.webp "Figure 2: Random variable Y")
+![Figure 2: Random variable Y.](assets/en/003.webp "Figure 2: Random variable Y")
 
 
 Za konačni primer, razmotrite slučajnu promenljivu Z. Ima skup ishoda {1,3,7,11,12} i sledeću raspodelu verovatnoće:
@@ -504,7 +504,7 @@ Možete ga videti prikazanog na *Slici 3*. Nasumična promenljiva Z je, za razli
 *Slika 3: Slučajna promenljiva Z*
 
 
-![Figure 3: Random variable Z.](assets/Figure2-3.webp "Figure 3: Random variable Z")
+![Figure 3: Random variable Z.](assets/en/004.webp "Figure 3: Random variable Z")
 
 
 
@@ -1429,7 +1429,7 @@ Bob šifruje poruku $M$ u trenutku $T_0$ sa ključem $K$ da bi proizveo šifrat 
 *Slika 1: Tajnost kroz prostor*
 
 
-![Figure 1: Secrecy across space](assets/Figure4-1.webp "Figure 1: Secrecy across space")
+![Figure 1: Secrecy across space](assets/en/005.webp "Figure 1: Secrecy across space")
 
 
 
@@ -1437,7 +1437,7 @@ Bob šifruje poruku $M$ u trenutku $T_0$ sa ključem $K$ da bi proizveo šifrat 
 
 
 
-![Figure 2: Secrecy across time](assets/Figure4-2.webp "Figure 2: Secrecy across time")
+![Figure 2: Secrecy across time](assets/en/006.webp "Figure 2: Secrecy across time")
 
 
 
@@ -1585,7 +1585,7 @@ Tipična XOR šifra toka prikazana je na *Slici 3*. Prvo uzimate privatni ključ
 *Slika 3: XOR operacija kod šifre toka*
 
 
-![Figure 3: An XOR stream cipher](assets/Figure4-3.webp "Figure 3: An XOR stream cipher")
+![Figure 3: An XOR stream cipher](assets/en/007.webp "Figure 3: An XOR stream cipher")
 
 
 Podsetite se da je šema šifrovanja obično šablon za šifrovanje sa istim osnovnim algoritmom, a ne tačna specifikacija. Po analogiji, šifra toka je obično šablon za šifrovanje u kojem možete koristiti ključeve različitih dužina. Iako dužina ključa može uticati na neke manje detalje šeme, neće uticati na njen suštinski oblik.
@@ -1703,7 +1703,7 @@ Prikaz kako blok šifra funkcioniše može se videti na *Slici 4* ispod. Poruka 
 *Slika 4: Blok šifra*
 
 
-![Figure 4: A block cipher](assets/Figure4-4.webp "Figure 4: A block cipher")
+![Figure 4: A block cipher](assets/en/008.webp "Figure 4: A block cipher")
 
 
 Blok šifra sama po sebi nije šema šifrovanja. Ali blok šifra se može koristiti sa različitim **modovima rada** da bi se proizvele različite šeme šifrovanja. Režim rada jednostavno dodaje neke dodatne operacije izvan blok šifre.
@@ -1715,7 +1715,7 @@ Da bismo ilustrovali kako ovo funkcioniše, pretpostavimo blok šifru (BC) koja 
 *Slika 5: Blok šifra u ECB režimu*
 
 
-![Figure 5: A block cipher with ECB mode](assets/Figure4-5.webp "Figure 5: A block cipher with ECB mode")
+![Figure 5: A block cipher with ECB mode](assets/en/009.webp "Figure 5: A block cipher with ECB mode")
 
 
 Proces za šifrovanje elektronske knjige kodova sa blokovskom šifrom je sledeći. Proverite da li možete podeliti svoju otvorenu poruku na blokove od 128 bita. Ako ne možete, dodajte **popunu** poruci, tako da rezultat može biti ravnomerno podeljen veličinom bloka od 128 bita. Ovo su vaši podaci koji se koriste za proces šifrovanja.
@@ -1739,7 +1739,7 @@ Umesto toga, svaka šema šifrovanja konstruisana od blok šifre treba da bude *
 *Slika 6: Blok šifra u CBC režimu*
 
 
-![Figure 6: A block cipher with CBC mode](assets/Figure4-6.webp "Figure 6: A block cipher with CBC mode")
+![Figure 6: A block cipher with CBC mode](assets/en/010.webp "Figure 6: A block cipher with CBC mode")
 
 
 Pretpostavimo da je veličina bloka ponovo 128 bita. Dakle, za početak, ponovo biste morali osigurati da vaša originalna tekstualna poruka dobije neophodno popunjavanje.
@@ -1763,7 +1763,7 @@ Konačno, usmerimo našu pažnju na **output feedback mode** (**OFB mode**). Mo�
 *Slika 7: Blok šifra u OFB režimu*
 
 
-![Figure 7: A block cipher with OFB mode](assets/Figure4-7.webp "Figure 7: A block cipher with OFB mode")
+![Figure 7: A block cipher with OFB mode](assets/en/011.webp "Figure 7: A block cipher with OFB mode")
 
 
 Sa OFB režimom takođe birate vektor inicijalizacije. Ali ovde, za prvi blok, vektor inicijalizacije se direktno ubacuje u blok šifru sa vašim ključem. Rezultujućih 128-bitova se zatim tretira kao keystream. Ovaj keystream se XOR-uje sa otvorenim tekstom da bi se proizveo šifrovani tekst za blok. Za naredne blokove, koristite keystream iz prethodnog bloka kao ulaz u blok šifru i ponavljate korake.
@@ -1834,7 +1834,7 @@ Iz ove diskusije, sada bi trebalo da razumete *Sliku 8*. Ona pruža pregled sime
 *Slika 8: Pregled simetričnih šema šifrovanja*
 
 
-![Figure 8: Overview of symmetric encryption schemes](assets/Figure4-8.webp "Figure 8: Overview of symmetric encryption schemes")
+![Figure 8: Overview of symmetric encryption schemes](assets/en/012.webp "Figure 8: Overview of symmetric encryption schemes")
 
 
 
@@ -1869,7 +1869,7 @@ Proces je prikazan na *Slici 9*. Da bi koristili **MAC** (Message Authentication
 *Slika 9: Pregled simetričnih šema šifrovanja*
 
 
-![Figure 9: Overview of symmetric encryption schemes](assets/Figure4-9.webp "Figure 9: Overview of symmetric encryption schemes")
+![Figure 9: Overview of symmetric encryption schemes](assets/en/013.webp "Figure 9: Overview of symmetric encryption schemes")
 
 
 Zbog **egzistencijalne nekrivotvorivosti**, napadač ne može na bilo koji način izmeniti poruku $M$ niti kreirati svoju poruku sa važećom oznakom. Ovo važi čak i ako napadač posmatra oznake mnogih poruka između Boba i Alise koje koriste isti privatni ključ. U najgorem slučaju, napadač bi mogao blokirati Alisu da primi poruku $M$ (problem koji kriptografija ne može rešiti).
@@ -1917,7 +1917,7 @@ Alisa sada prvo proverava da li je oznaka važeća s obzirom na šifrat $C$ i kl
 *Slika 10: Šema autentifikovanog šifrovanja*
 
 
-![Figure 10: An authenticated encryption scheme](assets/Figure4-10.webp "Figure 10: An authenticated encryption scheme")
+![Figure 10: An authenticated encryption scheme](assets/en/014.webp "Figure 10: An authenticated encryption scheme")
 
 
 Kako se kreiraju MAC-ovi? Iako se MAC-ovi mogu kreirati na više načina, uobičajen i efikasan način za njihovo kreiranje je putem **kriptografskih heš funkcija**.
@@ -1936,7 +1936,7 @@ Postoji paleta heš funkcija koje se mogu koristiti za kreiranje HMAC-a. Najče�
 *Slika 11: HMAC*
 
 
-![Figure 11: HMAC](assets/Figure4-11.webp "Figure 11: HMAC")
+![Figure 11: HMAC](assets/en/015.webp "Figure 11: HMAC")
 
 
 **Beleške:**
@@ -1993,7 +1993,7 @@ Sesija komunikacije počinje tako što Bob šalje šifrat $C_{0,B}$ Alisi sa ozn
 *Slika 12: Sigurna komunikaciona sesija*
 
 
-![Figure 12: A secure communication session](assets/Figure4-12.webp "Figure 12: A secure communication sessesion")
+![Figure 12: A secure communication session](assets/en/016.webp "Figure 12: A secure communication sessesion")
 
 
 
@@ -2185,7 +2185,7 @@ Hajde da nazovemo ključ $K_0$. Konstrukcija sa gore navedenim parametrima, zati
 *Slika 1: AES-ECB sa 128-bitnim ključem*
 
 
-![Figure 1: AES-ECB with a 128-bit key](assets/Figure5-1.webp "Figure 1: AES-ECB with a 128-bit key")
+![Figure 1: AES-ECB with a 128-bit key](assets/en/017.webp "Figure 1: AES-ECB with a 128-bit key")
 
 
 Svaki 128-bitni blok teksta prolazi kroz deset rundi u Rijndael šemi šifrovanja. Ovo zahteva poseban ključ za svaku rundu ($K_1$ do $K_{10}$). Oni se proizvode za svaku rundu iz originalnog 128-bitnog ključa $K_0$ koristeći **algoritam za proširenje ključa**. Dakle, za svaki blok teksta koji treba da bude šifrovan, koristićemo originalni ključ $K_0$ kao i deset posebnih ključeva za runde. Imajte na umu da se ovih istih 11 ključeva koristi za svaki 128-bitni blok otvorenog teksta koji zahteva šifrovanje.
@@ -2560,7 +2560,7 @@ U nekom kasnijem trenutku, Bob želi da napiše poruku $M$ Alisi. Pošto uključ
 *Slika 1: Asimetrična enkripcija*
 
 
-![Figure 1: Asymmetric encryption](assets/Figure6-1.webp "Figure 1: Asymmetric encryption")
+![Figure 1: Asymmetric encryption](assets/en/018.webp "Figure 1: Asymmetric encryption")
 
 
 
@@ -2597,7 +2597,7 @@ Digitalni potpis je, kao što naziv jasno implicira, digitalni ekvivalent pisano
 *Slika 2: Asimetrična autentifikacija*
 
 
-![Figure 2: Asymmetric authentication](assets/Figure6-2.webp "Figure 2: Asymmetric authentication")
+![Figure 2: Asymmetric authentication](assets/en/019.webp "Figure 2: Asymmetric authentication")
 
 
 

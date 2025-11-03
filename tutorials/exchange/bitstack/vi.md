@@ -51,9 +51,9 @@ Chọn một mật khẩu mạnh để bảo mật quyền truy cập vào tài 
 
 ![Image](assets/fr/06.webp)
 
-Để quản lý mật khẩu an toàn hàng ngày, việc sử dụng trình quản lý mật khẩu được khuyến khích mạnh mẽ. Trên Plan ₿ Network, bạn sẽ tìm thấy một số hướng dẫn về các giải pháp hiện có tốt nhất, chẳng hạn như Bitwarden:
+Để quản lý mật khẩu an toàn hàng ngày, việc sử dụng trình quản lý mật khẩu được khuyến khích mạnh mẽ. Trên Plan ₿ Academy, bạn sẽ tìm thấy một số hướng dẫn về các giải pháp hiện có tốt nhất, chẳng hạn như Bitwarden:
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Sau đó, bạn sẽ được yêu cầu xác minh danh tính (KYC). Theo quy định của Pháp, bạn sẽ được yêu cầu cung cấp thông tin cá nhân và bằng chứng về danh tính. Điền vào các ô với họ, tên và ngày sinh của bạn.
 
@@ -184,7 +184,7 @@ Xác định mức độ ưu tiên của giao dịch. Đối với giao dịch r
 
 ![Image](assets/fr/32.webp)
 
-Nếu bạn chưa quen với cách thức hoạt động của danh mục đầu tư tự lưu ký, chúng tôi cung cấp hướng dẫn về hầu hết các giải pháp có sẵn [trên Plan ₿ Network trong phần "*Ví*"](https://planb.network/tutorials/wallet).
+Nếu bạn chưa quen với cách thức hoạt động của danh mục đầu tư tự lưu ký, chúng tôi cung cấp hướng dẫn về hầu hết các giải pháp có sẵn [trên Plan ₿ Academy trong phần "*Ví*"](https://planb.academy/tutorials/wallet).
 
 ## Bán bitcoin
 

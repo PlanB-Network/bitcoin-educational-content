@@ -151,4 +151,4 @@ Untuk mendapatkan gambaran umum akun tentang Mullvad Anda dan mengelola berbagai
 
 Dan dengan ini, sekarang Anda sudah siap untuk menikmati Mullvad VPN sepenuhnya. Jika Anda tertarik untuk menemukan penyedia VPN lain yang mirip dengan Mullvad, baik dari segi fitur maupun harga, saya juga merekomendasikan untuk melihat tutorial kami tentang IVPN:
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68

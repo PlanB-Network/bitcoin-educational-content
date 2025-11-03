@@ -1,26 +1,26 @@
 ---
 name: Proofreading or Reviewing content
-description: How can you participate in the proofreading/review of educational content on Plan ₿ Network?
+description: How can you participate in the proofreading/review of educational content on Plan ₿ Academy?
 ---
 ![github](assets/cover.webp)
 
 ## In Summary
 
-If you want to proofread or review content for Plan ₿ Network, join [our Telegram group](https://t.me/PlanBNetwork_ContentBuilder) dedicated to contributions. Introduce yourself briefly, then specify the content you’d like to review, and the language. Make your corrections on a working branch and submit a PR once your review is complete.
+If you want to proofread or review content for Plan ₿ Academy, join [our Telegram group](https://t.me/PlanBNetwork_ContentBuilder) dedicated to contributions. Introduce yourself briefly, then specify the content you’d like to review, and the language. Make your corrections on a working branch and submit a PR once your review is complete.
 
 If you didn’t understand the part above, don’t worry—this tutorial is for you!
 
 ---
 
-## What is Plan ₿ Network?
+## What is Plan ₿ Academy?
 
-Plan ₿ Network is a platform to learn about Bitcoin through numerous courses and tutorials for everyone. Currently, all our content is open-source, hosted on a GitHub repository, and open to contributions for review and content creation.
+Plan ₿ Academy is a platform to learn about Bitcoin through numerous courses and tutorials for everyone. Currently, all our content is open-source, hosted on a GitHub repository, and open to contributions for review and content creation.
 
-Plan ₿ Network aims to become the public square of the Bitcoin cyberspace, connecting and encouraging Bitcoin communities worldwide.
+Plan ₿ Academy aims to become the public square of the Bitcoin cyberspace, connecting and encouraging Bitcoin communities worldwide.
 
 ## Why contribute?
 
-Plan ₿ Network is fundamentally multilingual, as our goal is to make Bitcoin resources accessible to everyone worldwide. We believe that language should not be a barrier to sovereign money.
+Plan ₿ Academy is fundamentally multilingual, as our goal is to make Bitcoin resources accessible to everyone worldwide. We believe that language should not be a barrier to sovereign money.
 
 To achieve this, we use a Human x AI approach. Through our [program](https://github.com/Asi0Flammeus/LLM-Translator), we can automatically translate our content into many languages. However, we need a fluent speaker to review it to ensure the content is intelligible and free of inappropriate terms.
 
@@ -34,7 +34,7 @@ You don’t need to be a GitHub expert to review content. While it’s always be
 
 However, if you’re unfamiliar with Git and GitHub and want to learn more, you can check out our introductory article on these tools:
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 ## 1. Create an account
 
@@ -44,7 +44,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 ## 2. Join the Telegram group
 
-- Join [the PBN Content Builder group](https://t.me/PlanBNetwork_ContentBuilder) on Telegram.
+- Join [the Plan ₿ Academy Content Builder group](https://t.me/PlanBNetwork_ContentBuilder) on Telegram.
 
 ![REVIEW](assets/fr/01.webp)
 
@@ -75,7 +75,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 ![REVIEW](assets/fr/06.webp)
 
-NB. It’s recommended to review in the code window, with the original content displayed in a separate window. For instance, you can view the text on the Plan ₿ Network website or in the GitHub preview on a browser tab. Use `ctrl + F` to locate errors and make corrections in the code view as you go.
+NB. It’s recommended to review in the code window, with the original content displayed in a separate window. For instance, you can view the text on the Plan ₿ Academy website or in the GitHub preview on a browser tab. Use `ctrl + F` to locate errors and make corrections in the code view as you go.
 
 ## 4. Commit changes
 
@@ -101,7 +101,7 @@ NB. It’s recommended to review in the code window, with the original content d
 
 - If you have not completed your review and wish to continue your work later, you can simply exit.
 - As long as you have committed your changes, they are saved on your GitHub fork.
-- To resume your work, go to your fork of the Plan ₿ Network content repository via your GitHub profile.
+- To resume your work, go to your fork of the Plan ₿ Academy content repository via your GitHub profile.
 
 ![REVIEW](assets/fr/14.webp)
 
@@ -124,15 +124,15 @@ NB. It’s recommended to review in the code window, with the original content d
 
 ## 6. Rules to Follow When Editing Content
 
-To know more about the guidelines to use when proofreading on Plan ₿ Network in terms of language or format rules, please refer to the tutorial "contribution-proofreading-guidelines" in this same section!
+To know more about the guidelines to use when proofreading on Plan ₿ Academy in terms of language or format rules, please refer to the tutorial "contribution-proofreading-guidelines" in this same section!
 
 ## 7. Wait for review
 
-- Congratulations, your PR has been submitted! You can track its progress in the "Pull requests" tab on [Plan ₿ Network's GitHub repository](https://github.com/PlanB-Network/bitcoin-educational-content/pulls):
+- Congratulations, your PR has been submitted! You can track its progress in the "Pull requests" tab on [Plan ₿ Academy's GitHub repository](https://github.com/PlanB-Network/bitcoin-educational-content/pulls):
 
 ![REVIEW](assets/fr/12.webp)
 
-- Thank you very much for your contribution! After approval, a Plan ₿ Network team member will contact you to send your reward. \**Payments are made exclusively via the Lightning Network\**.
+- Thank you very much for your contribution! After approval, a Plan ₿ Academy team member will contact you to send your reward. \**Payments are made exclusively via the Lightning Network\**.
 - If you’d like to start again, return to step 2 and send a new message in the Telegram group to continue contributing to other content. Make sure to sync your fork before creating a new working branch. To do this, go to the homepage of your fork, select the main branch named `dev` (cf. \**A\**), then click on the "Sync fork" button (cf. \**B\**). If updates are available for your fork, an "Update branch" button will appear. Simply click it to perform the update.
 
 ![REVIEW](assets/fr/16.webp)

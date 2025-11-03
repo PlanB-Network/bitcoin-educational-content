@@ -195,7 +195,7 @@ Definire i seguenti termini chiave introdotti nella sezione precedente:
 - Funzione di Hash
 - Block Reward
 - Chain più lunga
-- [Attacco del 51%](https://planb.network/it/resources/glossary/51-percent-attack)
+- [Attacco del 51%](https://planb.academy/it/resources/glossary/51-percent-attack)
 - Output
 - Output Lock
 - Resto
@@ -321,7 +321,7 @@ Uno studente potrebbe voler cambiare la sua password. Può farlo andando nella s
 
 Per limitare le conseguenze di una password rubata, è possibile utilizzare l'autenticazione a due fattori (2FA), un metodo di sicurezza relativamente nuovo. È possibile attivare l'autenticazione a due fattori tramite la gestione account e la scheda per l'autenticazione a due fattori. È necessario completare un secondo passaggio dopo aver effettuato l'accesso con il proprio nome utente e password.
 
-BTCPay Server consente due modi per abilitare il 2FA, 2FA basato su App ([Authy](https://planb.network/it/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7), Google, Microsoft authenticators) o tramite dispositivi di sicurezza (FIDO2 o [LNURL Auth](https://planb.network/it/resources/glossary/lnurl)).
+BTCPay Server consente due modi per abilitare il 2FA, 2FA basato su App ([Authy](https://planb.academy/it/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7), Google, Microsoft authenticators) o tramite dispositivi di sicurezza (FIDO2 o [LNURL Auth](https://planb.academy/it/resources/glossary/lnurl)).
 
 ### Autenticazione a Due Fattori - Basata su App
 
@@ -437,7 +437,7 @@ Un Indirizzo viene derivato dalla chiave pubblica attraverso un "algoritmo di ha
 
 - Gli indirizzi che iniziano con `3...` sono comunemente ancora utilizzati dagli exchange per gli indirizzi di deposito. Questi indirizzi sono menzionati nel capitolo Creazione di un nuovo negozio, indirizzi SegWit wrapped (avvolti) o nested (nidificati). Tuttavia, potrebbero anche funzionare come "Indirizzo Multisig". Quando utilizzati come indirizzo SegWit, possono portare a risparmiare ulteriormente sulle commissioni di transazione, anche se meno rispetto agli indirizzi SegWit nativi. Gli indirizzi P2SH utilizzano la codifica Base58 e per questo sono sensibili al maiuscolo/minuscolo, come per gli indirizzi legacy.
 
-- Gli indirizzi che iniziano con `2...` sono indirizzi [Testnet](https://planb.network/it/resources/glossary/testnet) e sono destinati a ricevere bitcoin testnet (tBTC). Non dovresti mai confondere questi indirizzi con quelli precedenti e inviarci dei bitcoin. Per scopi di sviluppo, puoi generare un wallet testnet e ottenere bitcoin testnet da molteplici faucet online. Per questo scopo, non dovresti acquistare mai bitcoin testnet. I Bitcoin testnet sono anch'essi minati, per questo motivo per uno sviluppatore potrebbe essere più efficiente utilizzare la [Regtest](https://planb.network/it/resources/glossary/regtest). Quest'ultima è un ambiente di sviluppo locale in cui gli sviluppatori effettuano varie prove, poiché privo di alcuni componenti di rete. Il protocollo Bitcoin ha molte utilità per scopi di sviluppo.
+- Gli indirizzi che iniziano con `2...` sono indirizzi [Testnet](https://planb.academy/it/resources/glossary/testnet) e sono destinati a ricevere bitcoin testnet (tBTC). Non dovresti mai confondere questi indirizzi con quelli precedenti e inviarci dei bitcoin. Per scopi di sviluppo, puoi generare un wallet testnet e ottenere bitcoin testnet da molteplici faucet online. Per questo scopo, non dovresti acquistare mai bitcoin testnet. I Bitcoin testnet sono anch'essi minati, per questo motivo per uno sviluppatore potrebbe essere più efficiente utilizzare la [Regtest](https://planb.academy/it/resources/glossary/regtest). Quest'ultima è un ambiente di sviluppo locale in cui gli sviluppatori effettuano varie prove, poiché privo di alcuni componenti di rete. Il protocollo Bitcoin ha molte utilità per scopi di sviluppo.
 
 ### Chiavi Pubbliche
 
@@ -479,7 +479,7 @@ Gli Hot wallet sono il modo più comodo di interagire con Bitcoin tramite mobile
 
 Le persone spostano le loro chiavi private in un cold wallet perché così possono isolarle da Internet. Rimuovere la connessione internet dall'equazione riduce il rischio di malware, spyware e SIM swap. Si ritiene che conservare le chiavi usando un cold wallet sia più vantaggioso di farlo tramite un hot wallet, per questioni di sicurezza e di maggiore autonomia, purché vengano prese precauzioni adeguate per evitare la perdita delle chiavi stesse. Il cold wallet è più adatto nel caso si abbia una grande quantità di bitcoin, che non sono destinati a essere spesi spesso. Infatti il set-up del cold wallet è più complesso.
 
-Ci sono vari metodi per conservare le chiavi Bitcoin in cold storage, dai paper wallet ai brain wallet, hardware wallet o, sin da subito nel file del wallet. La maggior parte dei wallet utilizza [lo standard BIP39](https://planb.network/it/resources/glossary/bip0039) per generare la seedphrase, tuttavia, tra gli sviluppatori del software di Bitcoin Core non è ancora stato raggiunto un consenso sull'uso di questo metodo. Bitcoin Core genererà comunque un file "Wallet.dat" che devi conservare in una posizione sicura offline.
+Ci sono vari metodi per conservare le chiavi Bitcoin in cold storage, dai paper wallet ai brain wallet, hardware wallet o, sin da subito nel file del wallet. La maggior parte dei wallet utilizza [lo standard BIP39](https://planb.academy/it/resources/glossary/bip0039) per generare la seedphrase, tuttavia, tra gli sviluppatori del software di Bitcoin Core non è ancora stato raggiunto un consenso sull'uso di questo metodo. Bitcoin Core genererà comunque un file "Wallet.dat" che devi conservare in una posizione sicura offline.
 
 ### Riepilogo
 
@@ -539,7 +539,7 @@ BTCPay Server ha un supporto integrato per hardware wallet che ti consente di ut
 
 #### Firmare con un wallet che supporta PSBT
 
-[PSBT (Partially Signed Bitcoin Transactions)](https://planb.network/it/resources/glossary/psbt) è un formato di interscambio per transazioni Bitcoin che devono ancora essere completamente firmate. PSBT è supportato in BTCPay Server e può essere firmato con hardware wallet e software compatibili.
+[PSBT (Partially Signed Bitcoin Transactions)](https://planb.academy/it/resources/glossary/psbt) è un formato di interscambio per transazioni Bitcoin che devono ancora essere completamente firmate. PSBT è supportato in BTCPay Server e può essere firmato con hardware wallet e software compatibili.
 
 La costruzione di una transazione Bitcoin firmata completamente prevede i seguenti passaggi:
 
@@ -560,7 +560,7 @@ Se hai creato un nuovo wallet durante la configurazione del tuo negozio e lo hai
 
 ### RBF (Replace-By-Fee)
 
-[Replace-By-Fee (RBF)](https://planb.network/it/resources/glossary/rbf-replacebyfee) è una funzionalità del protocollo Bitcoin che consente di sostituire una transazione precedentemente trasmessa (solo se non ancora confermata). Questo permette di randomizzare la fingerprint della transazione del tuo wallet o di sostituirla con una fee più alta per spostare la transazione più in alto nella coda di priorità di conferma (mining). Questo sostituirà efficacemente la transazione originale poiché la fee più alta sarà prioritaria e, una volta confermata, invaliderà quella originale (senza doppia spesa).
+[Replace-By-Fee (RBF)](https://planb.academy/it/resources/glossary/rbf-replacebyfee) è una funzionalità del protocollo Bitcoin che consente di sostituire una transazione precedentemente trasmessa (solo se non ancora confermata). Questo permette di randomizzare la fingerprint della transazione del tuo wallet o di sostituirla con una fee più alta per spostare la transazione più in alto nella coda di priorità di conferma (mining). Questo sostituirà efficacemente la transazione originale poiché la fee più alta sarà prioritaria e, una volta confermata, invaliderà quella originale (senza doppia spesa).
 Premi il pulsante "Impostazioni Avanzate" per visualizzare le opzioni RBF:
 
 ![immagine](assets/en/017.webp)
@@ -591,8 +591,8 @@ BTCPay Server chiederà sempre di utilizzare l'indirizzo successivo BTC disponib
 
 La funzionalità di Re-scan si basa su "Scantxoutset" di Bitcoin Core 0.17.0 per ottenere lo stato attuale della blockchain (chiamato UTXO set) alla ricerca dei bitcoin appartenenti allo schema di derivazione configurato. La re-scan del wallet risolve due problemi che gli utenti di BTCPay Server hanno nell'esperienza d'uso.
 
-1. Problema del [limite di gap](https://planb.network/it/resources/glossary/gap-limit) - La maggior parte dei wallet di terze parti sono "light wallet" che condividono un nodo tra molti utenti. I wallet che dipendono da ["light node"](https://planb.network/en/resources/glossary/spv-node-light-node) e da full node limitano la quantità (tipicamente a 20) di indirizzi senza saldo per i quali tengono traccia sulla blockchain per evitare problemi di prestazioni. BTCPay Server genera un nuovo indirizzo per ogni invoice. Tenendo presente quanto sopra, dopo che BTCPay Server genera 20 invoice consecutive non pagate, il wallet esterno smette di recuperare le transazioni, assumendo che non si siano verificate nuove transazioni. Il tuo wallet esterno non mostrerà le transazioni una volta che le invoice vengono pagate dalla 21ª, 22ª, ecc. D'altra parte, internamente, il wallet BTCPay Server tiene traccia di qualsiasi indirizzo che genera insieme a un _limite gap_ molto più grande, Non affidandosi a terzi e può sempre mostrare il saldo corretto.
-2. La soluzione del limite di gap - Se il tuo [external/existing wallet](https://docs.btcpayserver.org/WalletSetup/#use-an-existing-wallet) consente la configurazione del limite di gap, la soluzione più semplice per risolvere questo problema è di aumentarlo. Tuttavia, la maggior parte dei wallet non permettono questa configurazione e gli unici wallet che conosciamo che permettono la configurazione del limite di gap sono [Electrum](https://planb.network/it/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177), [Wasabi](https://planb.network/it/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6) e [Sparrow Wallet](https://planb.network/it/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d). Sfortunatamente, è probabile che tu incontri questi problemi con molti altri wallet, perciò per migliorare l'esperienza utente e la privacy, considera di abbandonare i wallet esterni e di utilizzare il wallet interno di BTCPay Server.
+1. Problema del [limite di gap](https://planb.academy/it/resources/glossary/gap-limit) - La maggior parte dei wallet di terze parti sono "light wallet" che condividono un nodo tra molti utenti. I wallet che dipendono da ["light node"](https://planb.academy/en/resources/glossary/spv-node-light-node) e da full node limitano la quantità (tipicamente a 20) di indirizzi senza saldo per i quali tengono traccia sulla blockchain per evitare problemi di prestazioni. BTCPay Server genera un nuovo indirizzo per ogni invoice. Tenendo presente quanto sopra, dopo che BTCPay Server genera 20 invoice consecutive non pagate, il wallet esterno smette di recuperare le transazioni, assumendo che non si siano verificate nuove transazioni. Il tuo wallet esterno non mostrerà le transazioni una volta che le invoice vengono pagate dalla 21ª, 22ª, ecc. D'altra parte, internamente, il wallet BTCPay Server tiene traccia di qualsiasi indirizzo che genera insieme a un _limite gap_ molto più grande, Non affidandosi a terzi e può sempre mostrare il saldo corretto.
+2. La soluzione del limite di gap - Se il tuo [external/existing wallet](https://docs.btcpayserver.org/WalletSetup/#use-an-existing-wallet) consente la configurazione del limite di gap, la soluzione più semplice per risolvere questo problema è di aumentarlo. Tuttavia, la maggior parte dei wallet non permettono questa configurazione e gli unici wallet che conosciamo che permettono la configurazione del limite di gap sono [Electrum](https://planb.academy/it/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177), [Wasabi](https://planb.academy/it/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6) e [Sparrow Wallet](https://planb.academy/it/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d). Sfortunatamente, è probabile che tu incontri questi problemi con molti altri wallet, perciò per migliorare l'esperienza utente e la privacy, considera di abbandonare i wallet esterni e di utilizzare il wallet interno di BTCPay Server.
 
 #### BTCPay Server utilizza "mempoolfullrbf=1"
 
@@ -629,7 +629,7 @@ BTCPay Server permette di configurare un wallet in due modi. Il primo è importa
 L'opzione di hot wallet in BTCPay Server consente le funzionalità come 'Payjoin' o 'Liquid'. Tuttavia, c'è uno svantaggio: la seedphrase di recupero generata per questo wallet sarà memorizzata sul server, dove, chiunque abbia il controllo come Amministratore, potrebbe leggere la seedphrase di recupero. Poiché la tua chiave privata deriva dalla tua seedphrase di recupero, un attore malevolo potrebbe ottenere accesso ai tuoi fondi attuali e futuri!
 Per mitigare tale rischio in BTCPay Server, un Amministratore può impostare in Impostazioni Server > Politiche > "Consenti ai non-amministratori di creare hot wallet per i loro negozi" su no, come impostazione predefinita. Per migliorare la sicurezza di questi hot wallet, l'amministratore del server dovrebbe abilitare l'autenticazione 2FA sugli account autorizzati ad avere hot wallet. Conservare le chiavi private su un server pubblico è pericoloso e comporta dei rischi. Alcuni sono simili ai rischi di Lightning Network (vedi il capitolo successivo per i rischi di Lightning Network).
 
-La seconda opzione che BTCPay Server offre per generare un nuovo wallet è creando un Watch-Only wallet (wallet di sola visualizzazione). BTCPay Server genererà le tue chiavi private una sola volta. Dopo che l'utente conferma di aver annotato la propria seedphrase, BTCPay Server cancellerà le chiavi private dal server. Di conseguenza, il tuo negozio ora ha collegato un [Watch-Only wallet](https://planb.network/resources/glossary/watch-only-wallet), per spendere i fondi ricevuti sul tuo Watch-Only wallet, vedi il capitolo 'Come Inviare': si potrà fare sia utilizzando BTCPay Server Vault, sia la PSBT (transazione bitcoin parzialmente firmata), o, meno raccomandato, inserendo manualmente la tua seedphrase.
+La seconda opzione che BTCPay Server offre per generare un nuovo wallet è creando un Watch-Only wallet (wallet di sola visualizzazione). BTCPay Server genererà le tue chiavi private una sola volta. Dopo che l'utente conferma di aver annotato la propria seedphrase, BTCPay Server cancellerà le chiavi private dal server. Di conseguenza, il tuo negozio ora ha collegato un [Watch-Only wallet](https://planb.academy/resources/glossary/watch-only-wallet), per spendere i fondi ricevuti sul tuo Watch-Only wallet, vedi il capitolo 'Come Inviare': si potrà fare sia utilizzando BTCPay Server Vault, sia la PSBT (transazione bitcoin parzialmente firmata), o, meno raccomandato, inserendo manualmente la tua seedphrase.
 
 Hai creato un nuovo 'Negozio' nell'ultima parte. La procedura guidata di installazione continuerà chiedendo di "Impostare un wallet" o "Impostare un nodo Lightning". In questo esempio, seguirai la procedura guidata "Impostare un wallet" (1).
 
@@ -823,7 +823,7 @@ I proprietari dei negozi possono impostare parametri per migliorare l'esperienza
 
 #### LNURL
 
-I proprietari dei negozi possono scegliere di utilizzare o meno [LNURL](https://planb.network/resources/glossary/lnurl). Un URL della Rete Lightning, o LNURL, è uno standard proposto per le interazioni tra colui che paga ed il beneficiario. In breve, un LNURL è un URL codificato bech32 con il prefisso "lnurl". Il Lightning wallet dovrebbe decodificare l'URL, contattando l'URL in attesa di un file JSON con ulteriori istruzioni, in particolare un tag che definisce il comportamento dell'LNURL.
+I proprietari dei negozi possono scegliere di utilizzare o meno [LNURL](https://planb.academy/resources/glossary/lnurl). Un URL della Rete Lightning, o LNURL, è uno standard proposto per le interazioni tra colui che paga ed il beneficiario. In breve, un LNURL è un URL codificato bech32 con il prefisso "lnurl". Il Lightning wallet dovrebbe decodificare l'URL, contattando l'URL in attesa di un file JSON con ulteriori istruzioni, in particolare un tag che definisce il comportamento dell'LNURL.
 
 - Abilitare LNURL
 - Modalità LNURL Classica
@@ -1013,7 +1013,7 @@ Nella scheda delle Impostazioni Generali, i proprietari dei negozi impostano il 
 
 #### Branding
 
-Poiché BTCPay Server è [FOSS](https://planb.network/resources/glossary/foss), un proprietario di negozio può personalizzare il branding per abbinarlo al suo negozio. Puoi impostare il colore del brand, puoi archiviare i loghi del tuo brand e aggiungere dei CSS personalizzati (_il CSS è un linguaggio usato per definire la formattazione di documenti HTML, XHTML e XML, ad esempio i siti web e relative pagine web_) per le pagine pubbliche/rivolte al cliente (invoice, Richieste di Pagamento, Pagamenti Pull).
+Poiché BTCPay Server è [FOSS](https://planb.academy/resources/glossary/foss), un proprietario di negozio può personalizzare il branding per abbinarlo al suo negozio. Puoi impostare il colore del brand, puoi archiviare i loghi del tuo brand e aggiungere dei CSS personalizzati (_il CSS è un linguaggio usato per definire la formattazione di documenti HTML, XHTML e XML, ad esempio i siti web e relative pagine web_) per le pagine pubbliche/rivolte al cliente (invoice, Richieste di Pagamento, Pagamenti Pull).
 
 #### Pagamento
 
@@ -1025,7 +1025,7 @@ Questa impostazione è pensata per gli sviluppatori o coloro i quali implementan
 
 #### Aggiungi una fee aggiuntiva (fee di rete) alle invoice
 
-Una funzionalità all'interno di BTCPay per proteggere i commercianti da [_attacchi di dust_](https://planb.network/resources/glossary/dusting-attack) o dai clienti che generano un alto costo in commissioni. Ad esempio, il cliente ha creato un'invoice per 20$ e l'ha pagata parzialmente, pagando 1$ 20 volte fino a quando l'invoice è stata completamente pagata. Ora il commerciante ha una transazione più pesante, aumentando il costo di mining nel caso in cui decida di spostare quei fondi successivamente. Per impostazione predefinita, BTCPay applica una fee aggiuntiva all'importo totale dell'invoice per coprire quell'ulteriore costo per il commerciante quando l'invoice viene pagata con più transazioni. BTCPay offre diverse opzioni per personalizzare questa funzionalità di protezione. Puoi applicare una fee di rete:
+Una funzionalità all'interno di BTCPay per proteggere i commercianti da [_attacchi di dust_](https://planb.academy/resources/glossary/dusting-attack) o dai clienti che generano un alto costo in commissioni. Ad esempio, il cliente ha creato un'invoice per 20$ e l'ha pagata parzialmente, pagando 1$ 20 volte fino a quando l'invoice è stata completamente pagata. Ora il commerciante ha una transazione più pesante, aumentando il costo di mining nel caso in cui decida di spostare quei fondi successivamente. Per impostazione predefinita, BTCPay applica una fee aggiuntiva all'importo totale dell'invoice per coprire quell'ulteriore costo per il commerciante quando l'invoice viene pagata con più transazioni. BTCPay offre diverse opzioni per personalizzare questa funzionalità di protezione. Puoi applicare una fee di rete:
 
 - Solo se il cliente effettua più di un pagamento per l'invoice (Nell'esempio sopra, se il cliente ha creato un'invoice per 20$ e ha pagato 1$, l'importo totale dovuto ora è 19$ + le fee di rete. Le fee di rete vengono applicate dopo il primo pagamento)
 - Su ogni pagamento (incluso il primo pagamento, nel nostro esempio, il totale sarà 20$ + fee di rete immediata, anche sul primo pagamento)
@@ -1061,9 +1061,9 @@ La scheda Aspetto di controllo inizia con le impostazioni specifiche dell'invoic
 
 Metodi di pagamento predefiniti. BTCPay Server in una configurazione standard ha tre opzioni.
 
-- BTC ([On-chain](https://planb.network/resources/glossary/onchain))
+- BTC ([On-chain](https://planb.academy/resources/glossary/onchain))
 - BTC (LNURL-pay)
-- BTC ([Off-chain](https://planb.network/resources/glossary/offchain) & Lightning)
+- BTC ([Off-chain](https://planb.academy/resources/glossary/offchain) & Lightning)
 
 Possiamo impostare parametri per il nostro negozio, dove un cliente interagirà solo con Lightning quando il prezzo è inferiore a un certo importo e viceversa per le transazioni On-chain quando X è maggiore di Y, anche se sarà presente sempre l'opzione di pagamento On-chain.
 
@@ -1435,7 +1435,7 @@ Una distribuzione standard di BTCPay Server sarà raggiungibile tramite il domin
 
 #### Block explorer
 
-BTCPay Server, di norma, viene fornito con mempool.space come suo [block explorer](https://planb.network/resources/glossary/block-explorer) per le transazioni. Quando BTCPay Server genera una nuova invoice e c'è una transazione ad essa legata, il proprietario del negozio può fare clic su di essa per aprirla. BTCPay Server, per impostazione predefinita, punterà verso mempool.space come block explorer, tuttavia un amministratore del server può sceglierne un altro secondo le sue preferenze.
+BTCPay Server, di norma, viene fornito con mempool.space come suo [block explorer](https://planb.academy/resources/glossary/block-explorer) per le transazioni. Quando BTCPay Server genera una nuova invoice e c'è una transazione ad essa legata, il proprietario del negozio può fare clic su di essa per aprirla. BTCPay Server, per impostazione predefinita, punterà verso mempool.space come block explorer, tuttavia un amministratore del server può sceglierne un altro secondo le sue preferenze.
 
 ![image](assets/en/082.webp)
 
@@ -2437,7 +2437,7 @@ Umbrel richiederà la verifica delle parole appena annotate.
 
 **!Nota!**
 
-Assicurati di conservare le parole in un luogo appropriato, come precedentemente appreso con la conservazione delle chiavi [(vedi anche il tutorial specifico)](https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270).
+Assicurati di conservare le parole in un luogo appropriato, come precedentemente appreso con la conservazione delle chiavi [(vedi anche il tutorial specifico)](https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270).
 
 Dopo aver configurato il nodo Lightning, torna all'App Store di Umbrel e trova BTCPay Server. Clicca sul pulsante di installazione, e Umbrel mostrerà se i componenti richiesti sono installati e che sarà richiesto l'accesso a questi dati anche da BTCPay Server.
 

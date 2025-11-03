@@ -30,7 +30,7 @@ Gå til [det offisielle nettstedet til Bitcoin Knots] (https://bitcoinknots.org/
 
 Før du installerer programvaren på maskinen din, anbefaler vi på det sterkeste at du sjekker ektheten og integriteten. Hvis du ikke vet hvordan, kan du ta en titt på denne andre veiledningen:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 Når programvaren er bekreftet, installerer du den ved å følge trinnene som er angitt i installasjonspanelet.
 
 ![Image](assets/fr/03.webp)
@@ -115,7 +115,7 @@ Gi din Wallet et navn. Du kan også beskytte den med en passphrase BIP39 ved å 
 
 passphrase BIP39 er et valgfritt passord som du kan velge fritt, i tillegg til Mnemonic frasen din, for å øke sikkerheten til din Wallet. Før du konfigurerer denne funksjonen, anbefaler vi deg på det sterkeste å lese følgende artikkel, som forklarer i detalj hvordan passphrase fungerer i teorien, og hvordan du kan unngå feil som kan føre til permanent tap av dine bitcoins:
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 Hvis du har aktivert passphrase-alternativet, bør du velge et robust alternativ og lagre det nøye på ett eller flere sikre fysiske medier.
 
 ![Image](assets/fr/18.webp)
@@ -285,4 +285,4 @@ Hvis du fant denne opplæringen nyttig, ville jeg være veldig takknemlig hvis d
 
 Jeg anbefaler også denne andre veiledningen, der jeg forklarer hvordan du setter opp din egen Lightning-node:
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a

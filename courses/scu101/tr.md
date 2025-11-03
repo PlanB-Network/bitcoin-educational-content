@@ -43,6 +43,8 @@ Théo; katkı
 
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
+:::video id=de7236a0-2985-41ef-86f7-3fa0b7f94531:::
+
 
 **Amaç: Güvenlik becerilerinizi geliştirin !**
 
@@ -59,7 +61,7 @@ Bu ders üç profesörümüzün ortak çalışmasıdır:
 
 - Renaud Lifchitz, siber güvenlik uzmanı
 - Théo Pantamis, uygulamalı matematik doktorası
-- Rogzy, Plan ₿ Network'ın Kurucu Ortağı
+- Rogzy, Plan ₿ Academy'ın Kurucu Ortağı
 
 
 Giderek dijitalleşen bir dünyada dijital hijyeniniz çok önemlidir. Bilgisayar korsanlığı ve kitlesel gözetlemedeki sürekli artışa rağmen, ilk adımı atmak ve kendinizi korumak için çok geç değil.
@@ -126,6 +128,8 @@ Dijital güvenliğinizi güçlendirmeye ve verilerinizin kontrolünü geri almay
 
 <chapterId>3a935da9-fa6e-57eb-bf85-7b3ec35e6ee2</chapterId>
 
+:::video id=f1cead27-ed41-4ca2-afd2-b08a994d0119:::
+
 
 İnternette gezinirken, çevrimiçi güvenliğinizi korumak için yaygın hatalardan kaçınmak çok önemlidir. İşte bunlardan kaçınmak için bazı ipuçları:
 
@@ -179,12 +183,14 @@ TOR, gazeteciler, özgürlük aktivistleri ve otoriter ülkelerdeki sansürü a�
 ![image](assets/tr/007.webp)
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ## VPN ve internet bağlantısı
 
 
 <chapterId>5aac83f4-a685-54b0-9759-d71bea7eeed2</chapterId>
+
+:::video id=737d30ac-43d8-4a69-afda-89b9d7e8c4e1:::
 
 
 ### VPN'ler
@@ -211,9 +217,9 @@ Ancak, bir tüketici VPN'i kullanmak tam anonimliği garanti etmez. Birçok VPN 
 Son olarak, bir VPN çevrimiçi reklamları engellemek için de kullanılabilir ve daha keyifli ve güvenli bir tarama deneyimi sağlar. Ancak, ihtiyaçlarınıza en uygun VPN'i bulmak için kapsamlı bir araştırma yapmak çok önemlidir. Evde internette gezinirken bile güvenliği artırmak için VPN kullanılması önerilir. Bu, çevrimiçi veri alışverişi için daha yüksek düzeyde koruma sağlamaya yardımcı olur. Son olarak, hedeflenen sitede olduğunuzu doğrulamak için URL'leri ve Address çubuğundaki küçük asma kilidi kontrol edebilir misiniz?
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 ### HTTPS ve halka açık Wi-Fi ağları
 
@@ -241,6 +247,8 @@ Avrupa Birliği'nde veri koruma, Genel Veri Koruma Yönetmeliği (GDPR) tarafın
 
 
 <chapterId>16745632-b56b-5423-9873-ddf70fdf1efd</chapterId>
+
+:::video id=35892007-5ea5-4956-bf80-3363d69c96d5:::
 
 
 Bilgisayarlarımızın güvenliği günümüzün dijital dünyasında büyük bir endişe kaynağıdır. Bugün, üç kilit noktayı ele alacağız:
@@ -313,6 +321,8 @@ Sonuç olarak, ihtiyaçlarınıza uygun bir işletim sistemi seçmeniz ve yükl�
 
 <chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>
 
+:::video id=c6a2c152-f1ae-492c-8993-304d64cdda45:::
+
 
 ### Bilgisayar korsanları nasıl saldırır?
 
@@ -369,9 +379,9 @@ HAYIR, fidye yazılımı veya diğer saldırı türlerinde bilgisayar korsanlar�
 Bilgisayarınızda bir virüs tespit ederseniz, internet bağlantısını kesin, tam bir antivirüs taraması yapın ve virüslü dosyaları silin. Ardından, yazılımınızı ve işletim sisteminizi güncelleyin ve daha fazla izinsiz girişi önlemek için şifrelerinizi değiştirin.
 
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # Çözümlerin uygulanması.
 
@@ -383,6 +393,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 
 <chapterId>dfceea33-8712-5557-ace1-6ba5598d33d8</chapterId>
+
+:::video id=75cc914d-9c11-4d3f-86a7-6faf2077f00f:::
 
 
 ### Yeni bir e-posta hesabı açıyorum!
@@ -422,12 +434,14 @@ Genel olarak, yeni ve daha güvenli bir e-posta adresi kullanmaya başlamak köt
 Bonus Bitcoin: Bitcoin faaliyetlerimiz için yeni bir e-posta hesabı oluşturmak, hayatımızdaki bu faaliyet alanlarını gerçekten ayırmak için tavsiye edilebilir.
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Parola Yöneticisi
 
 
 <chapterId>0b3c69b2-522c-56c8-9fb8-1562bd55930f</chapterId>
+
+:::video id=106b6f17-a5c1-4155-abdf-043ce469d45b:::
 
 
 ### Parola yöneticisi nedir?
@@ -489,14 +503,16 @@ Güçlü bir parola oluşturmak için, tahmin edilebilir kelimeler veya kalıpla
 Rastgele oluşturulan parolalar, hatırlanması daha zor olsa da daha yüksek bir güvenlik seviyesi sunar. Parola yöneticileri daha güvenli rastgele parolalar geliştirebilir. Bir parola yöneticisi kullanarak tüm parolalarınızı ezberlemenize gerek kalmaz. Daha güçlü ve daha güvenli oldukları için eski şifrelerinizi yönetici tarafından oluşturulanlarla kademeli olarak değiştirmeniz önemlidir. Parola yöneticinizin ana parolasının da güçlü ve güvenli olduğundan emin olun.
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## İki Faktörlü Kimlik Doğrulama
 
 
 <chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>
+
+:::video id=10fede6f-c839-4455-b324-e887c502667e:::
 
 
 ### Neden 2FA (2 factor authentication) uygulamalısınız?
@@ -563,9 +579,9 @@ Anladığınız gibi, iyi bir dijital hijyen uygulamak her zaman basit değildir
 Altın kural: Siber güvenlik, öğrenme yolculuğunuza uyum sağlayacak hareketli bir hedeftir!
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 # Pratik Bölüm
 
@@ -582,7 +598,7 @@ https://planb.network/tutorials/computer-security/authentication/security-key-61
 E-posta hesabınızı korumak, çevrimiçi etkinliklerinizi güvence altına almak ve verilerinizi korumak için çok önemli bir adımdır. Bu eğitim, iletişimlerinizin uçtan uca şifrelenmesini sağlayan yüksek güvenlik seviyesiyle bilinen bir sağlayıcı olan ProtonMail hesabı oluşturma ve ayarlama konusunda size adım adım rehberlik edecektir. İster acemi ister deneyimli bir kullanıcı olun, burada sunulan en iyi uygulamalar, ProtonMail'in gelişmiş özelliklerinden yararlanırken e-postanızın güvenliğini güçlendirmenize yardımcı olacaktır:
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## 2FA ile güvenlik
 
@@ -593,12 +609,12 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 İki faktörlü kimlik doğrulama (2FA) çevrimiçi hesaplarınızı güvence altına almak için gerekli hale gelmiştir. Bu eğitimde, hesaplarınızı korumak için dinamik 6 haneli kodlar üreten 2FA uygulaması Authy'yi nasıl kuracağınızı ve kullanacağınızı öğreneceksiniz. Authy'nin kullanımı çok kolaydır ve birden fazla cihaz arasında senkronize olur. Authy'yi nasıl kuracağınızı ve yapılandıracağınızı keşfedin ve böylece çevrimiçi hesaplarınızın güvenliğini hemen şimdi güçlendirin:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Diğer bir seçenek de fiziksel bir güvenlik anahtarı kullanmaktır. Bu ek eğitimde, ikinci bir kimlik doğrulama faktörü olarak bir güvenlik anahtarının nasıl kurulacağı ve kullanılacağı gösterilmektedir:
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ## Parola yöneticisi oluşturma
 
@@ -612,12 +628,12 @@ Parola yönetimi dijital çağda zorlu bir görevdir. Hepimizin güvenliğini sa
 Bu eğitimde, açık kaynaklı bir parola yöneticisi olan Bitwarden'ı nasıl kuracağınızı ve günlük kullanımınızı kolaylaştırmak için kimlik bilgilerinizi tüm cihazlarınız arasında nasıl senkronize edeceğinizi öğrenin:
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Daha ileri düzey kullanıcılar için, şifrelerinizi yönetmek için yerel olarak kullanabileceğiniz başka bir ücretsiz ve açık kaynaklı yazılım hakkında bir eğitim de sunuyorum:
 
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Hesaplarınızın güvenliğini sağlama
 
@@ -628,9 +644,9 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 Bu iki eğitimde ayrıca çevrimiçi hesaplarınızı güvence altına almanız için size rehberlik ediyor ve şifrelerinizi günlük olarak yönetmek için daha güvenli uygulamaları kademeli olarak nasıl benimseyeceğinizi açıklıyorum.
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Tarayıcı ve VPN değişikliği
 
@@ -644,14 +660,14 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 Bitcoin ödemelerini kabul eden iki güvenilir VPN çözümünü, yani IVPN ve Mullvad'ı keşfetmenizi öneririm. Bu eğitimler, Mullvad veya IVPN'i tüm cihazlarınıza nasıl yükleyeceğiniz, yapılandıracağınız ve kullanacağınız konusunda size rehberlik edecektir:
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 Ayrıca, çevrimiçi gizliliğinizi korumak için özel olarak tasarlanmış bir tarayıcı olan Tor Browser'ı nasıl kullanacağınızı öğrenin:
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ## Yedekleme kurulumu
 
@@ -662,12 +678,12 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 Dosyalarınızı korumak da çok önemli bir noktadır. Bu eğitim, Proton Drive kullanarak etkili bir yedekleme stratejisini nasıl uygulayacağınızı gösterir. Bu güvenli bulut çözümünü 3-2-1 yöntemini uygulamak için nasıl kullanacağınızı keşfedin: verilerinizin iki farklı ortamda üç kopyası ve bir kopyası şirket dışında. Bu, hassas dosyalarınızın erişilebilirliğini ve güvenliğini sağlar:
 
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 USB sürücü veya harici Hard sürücü gibi çıkarılabilir ortamlarda saklanan dosyalarınızı güvence altına almak için, VeraCrypt kullanarak bu ortamları nasıl kolayca şifreleyeceğinizi ve şifrelerini nasıl çözeceğinizi de gösteriyorum:
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # Daha ileri git
 
@@ -679,6 +695,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 
 <chapterId>aad1ae27-4280-5b07-b9ab-118ae013951a</chapterId>
+
+:::video id=4c818b5c-ea5d-496a-8e82-bc5d96d91430:::
 
 
 ### Siber Güvenlik: Sonsuz Fırsatlarla Büyüyen Bir Alan
@@ -732,6 +750,8 @@ Bu beceri ve araçlarda ustalaşarak, siber güvenlik dünyasında başarılı b
 
 
 <chapterId>7d83fd98-ce22-514e-b9e8-729fbf71ee6e</chapterId>
+
+:::video id=ec7014aa-5ebe-444c-80d1-7b14f1fe7bb8:::
 
 
 ### Verimli Parola Yönetimi ve Kimlik Doğrulama Güçlendirme: Akademik Bir Yaklaşım

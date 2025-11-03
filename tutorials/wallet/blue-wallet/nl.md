@@ -11,7 +11,7 @@ Beginnen met Bitcoin lijkt een grote uitdaging te zijn voor mensen die sceptisch
 
 
 
-In deze tutorial kijken we naar Blue Wallet, een eenvoudige maar zeer effectieve Bitcoin Wallet waarmee je je bitcoins persoonlijk kunt beheren en waarmee je ook beheercoöperaties kunt opzetten op basis van [Multisig](https://planb.network/resources/glossary/multisig) (maak je geen zorgen, we komen er nog op terug).
+In deze tutorial kijken we naar Blue Wallet, een eenvoudige maar zeer effectieve Bitcoin Wallet waarmee je je bitcoins persoonlijk kunt beheren en waarmee je ook beheercoöperaties kunt opzetten op basis van [Multisig](https://planb.academy/resources/glossary/multisig) (maak je geen zorgen, we komen er nog op terug).
 
 
 
@@ -39,7 +39,7 @@ Eenmaal geïnstalleerd, kun je een nieuwe Wallet aanmaken en de 12 herstelwoorde
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Met Blue Wallet kun je aparte, speciale Bitcoin portefeuilles aanmaken. Je kunt bijvoorbeeld een Wallet hebben voor je spaargeld en een andere voor je dagelijkse uitgaven, allemaal in dezelfde toepassing.
 
@@ -65,10 +65,10 @@ Als je gewend bent aan andere Bitcoin portfolio's zoals Phoenix of Aqua, zul je 
 
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
 Blue Wallet's Bitcoin Wallet vertegenwoordigt de standaard Wallet in het Bitcoin ecosysteem. Je kunt bitcoins uitgeven zolang je in het bezit bent van de herstelwoorden die zorgen voor een geldige handtekening op het netwerk om te verifiëren dat je de bitcoins bezit.
 
@@ -122,7 +122,7 @@ Je kunt dus de transactiekostenratio kiezen die bij je past als je wilt dat je t
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ![feerate](assets/fr/06.webp)
 
@@ -220,7 +220,7 @@ Houd je aan de best practice door het P2WSH-formaat te kiezen.
 
 
 
-❗ **[P2WSH](https://planb.network/resources/glossary/p2wsh) of Pay to Witness Script Hash** is een vergrendelingsmethode die de uitgaande bitcoins (Outputs) van je transactie vergrendelt naar de Hash van een aangepast script dat Blue Wallet instelt. Het belangrijkste voordeel van dit type vergrendeling is dat het de grootte van transactiegegevens vermindert en je impliciet lagere transactiekosten kunt betalen.
+❗ **[P2WSH](https://planb.academy/resources/glossary/p2wsh) of Pay to Witness Script Hash** is een vergrendelingsmethode die de uitgaande bitcoins (Outputs) van je transactie vergrendelt naar de Hash van een aangepast script dat Blue Wallet instelt. Het belangrijkste voordeel van dit type vergrendeling is dat het de grootte van transactiegegevens vermindert en je impliciet lagere transactiekosten kunt betalen.
 
 
 
@@ -264,7 +264,7 @@ Bij het valideren van je transactie heb je een tweede handtekening nodig om het 
 
 
 
-De tweede Wallet ondertekenaar, als hij of zij ook een gebruiker is, kan de transactie ondertekenen, zelfs als hij of zij geen internet heeft (geen Wi-Fi, geen mobiele data) door de QR-code te scannen van de [gedeeltelijk ondertekende transactie] (https://planb.network/resources/glossary/psbt) die je zojuist hebt aangemaakt.
+De tweede Wallet ondertekenaar, als hij of zij ook een gebruiker is, kan de transactie ondertekenen, zelfs als hij of zij geen internet heeft (geen Wi-Fi, geen mobiele data) door de QR-code te scannen van de [gedeeltelijk ondertekende transactie] (https://planb.academy/resources/glossary/psbt) die je zojuist hebt aangemaakt.
 
 
 
@@ -330,12 +330,12 @@ In Instellingen > **Lightning Instellingen**, kunt u uw Lightning Wallet handmat
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
-https://planb.network/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
+https://planb.academy/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
 
 Je hebt nu de Blue Wallet tour voltooid, klaar om Bitcoin in al zijn eenvoud en kracht te gebruiken. Wij raden u aan de volgende stap te nemen en uit te vinden hoe u Bitcoin betalingen kunt accepteren in uw winkels, dankzij de kracht van Lightning.
 
 
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06

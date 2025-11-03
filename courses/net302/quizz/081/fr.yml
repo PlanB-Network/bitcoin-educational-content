@@ -6,4 +6,4 @@ wrong_answers:
   - ethtool
 explanation: |
   tcpdump permet de capturer et d’enregistrer les paquets circulant sur une interface réseau pour analyse.
-reviewed: false
+reviewed: true 

@@ -1,0 +1,25 @@
+id: 9a0d46d3-33b9-4c64-84c5-bfa25b3a0add
+
+project_id: 16385d20-a3e4-48c7-be88-2d4a80be9389
+
+tags:
+  - software
+  - privacy
+  - wallets
+
+category: on-chain
+
+level: advanced
+
+professor_id: 6516474c-c190-41f2-b2ab-3d452ce7bdf0
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-10-30
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0

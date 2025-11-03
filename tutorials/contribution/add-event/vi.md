@@ -1,6 +1,6 @@
 ---
-name: Thêm sự kiện trên PlanB Network
-description: Làm thế nào để tôi đề xuất thêm sự kiện mới trên PlanB Network?
+name: Thêm sự kiện trên Plan ₿ Academy
+description: Làm thế nào để tôi đề xuất thêm sự kiện mới trên Plan ₿ Academy?
 ---
 ![sự kiện](assets/cover.webp)
 
@@ -10,7 +10,7 @@ Nếu bạn muốn thêm một hội nghị Bitcoin vào trang web Mạng lướ
 ![sự kiện](assets/01.webp)
 - Đầu tiên, bạn cần phải có một tài khoản trên GitHub. Nếu bạn không biết cách tạo tài khoản, chúng tôi đã tạo một hướng dẫn chi tiết để hướng dẫn bạn.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Truy cập vào [kho lưu trữ GitHub của PlanB dành riêng cho dữ liệu](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) trong phần `resources/conference/`:
@@ -84,7 +84,7 @@ tags:
 ![sự kiện](assets/09.webp)
 Nếu tổ chức của bạn chưa có một "*project*" identifier, bạn có thể thêm nó bằng cách theo dõi hướng dẫn khác này.
 
-https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
+https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 
 
@@ -98,7 +98,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 ![sự kiện](assets/13.webp)
 - Nhấp vào ảnh đại diện GitHub của bạn ở góc trên bên phải, sau đó vào `Your Repositories`:
 ![sự kiện](assets/14.webp)
-- Chọn fork của bạn từ kho lưu trữ PlanB Network:
+- Chọn fork của bạn từ kho lưu trữ Plan ₿ Academy:
 ![sự kiện](assets/15.webp)
 - Bạn sẽ thấy một thông báo ở đầu cửa sổ với nhánh mới của bạn. Có thể nó được gọi là `patch-1`. Nhấp vào nó:
 ![sự kiện](assets/16.webp)
@@ -119,7 +119,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 - Quay lại thư mục `assets`:
 ![sự kiện](assets/24.webp)
 - Nhấp vào nút `Add file`, sau đó vào `Upload files`: ![sự kiện](assets/25.webp)
-- Một trang mới sẽ mở ra. Kéo và thả một hình ảnh đại diện cho hội nghị của bạn và sẽ được hiển thị trên trang web PlanB Network:
+- Một trang mới sẽ mở ra. Kéo và thả một hình ảnh đại diện cho hội nghị của bạn và sẽ được hiển thị trên trang web Plan ₿ Academy:
 ![sự kiện](assets/26.webp)
 - Đó có thể là logo, một hình thu nhỏ, hoặc thậm chí một poster:
 ![sự kiện](assets/27.webp)

@@ -18,7 +18,7 @@ Un gestionnaire de mots de passe génère et stocke de manière sécurisée des 
 
 Dans ce tutoriel, nous allons découvrir comment configurer et utiliser un gestionnaire de mots de passe pour améliorer votre sécurité en ligne. Je vous propose ici d'étudier Bitwarden, et dans un autre tutoriel, nous découvrirons une autre solution appelée KeePass.
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Attention : Un gestionnaire de mots de passe, c'est très bien pour enregistrer les mots de passe, mais **il ne faut surtout pas y enregistrer la phrase mnémonique de votre portefeuille Bitcoin !** Pour rappel, une phrase mnémonique doit être sauvegardée exclusivement sous un format physique, comme un bout de papier ou de métal.
 
@@ -73,9 +73,9 @@ Avant toute chose, je vous conseille fortement de mettre en place l'authentifica
 
 Si vous ne savez pas comment mettre en place et utiliser ces dispositifs de 2FA, je vous conseille de suivre ces 2 autres tutoriels :
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 Pour ce faire, allez dans l'onglet "*Security*" dans le menu "*Settings*".
 ![BITWARDEN](assets/notext/14.webp)
@@ -107,7 +107,7 @@ Maintenant que votre gestionnaire de mots de passe est configuré, vous pouvez c
 ![BITWARDEN](assets/notext/25.webp)
 Dans le formulaire qui s'ouvre, commencez par déterminer la nature de l'élément à enregistrer. Pour stocker des identifiants de connexion, choisissez l'option "*Login*" dans le menu déroulant.
 ![BITWARDEN](assets/notext/26.webp)
-Dans le champ "*Name*", saisissez un nom descriptif pour vos identifiants. Cela facilitera la recherche et l'organisation de vos mots de passe, surtout si vous en avez un grand nombre. Par exemple, si vous voulez enregistrer vos identifiants pour le site de PlanB Network, vous pouvez nommer cet élément de façon à ce qu'il soit immédiatement reconnaissable lors de vos futures recherches.
+Dans le champ "*Name*", saisissez un nom descriptif pour vos identifiants. Cela facilitera la recherche et l'organisation de vos mots de passe, surtout si vous en avez un grand nombre. Par exemple, si vous voulez enregistrer vos identifiants pour le site de Plan ₿ Academy, vous pouvez nommer cet élément de façon à ce qu'il soit immédiatement reconnaissable lors de vos futures recherches.
 ![BITWARDEN](assets/notext/27.webp)
 La case "*Folder*" vous permet de classer vos identifiants dans des dossiers. Pour le moment, nous n'en avons pas encore créé, mais je vous montrerai par la suite comment le faire.
 ![BITWARDEN](assets/notext/28.webp)
@@ -137,7 +137,7 @@ Puis cliquez sur "*Save*".
 ![BITWARDEN](assets/notext/40.webp)
 Votre dossier apparait désormais sur votre gestionnaire.
 ![BITWARDEN](assets/notext/41.webp)
-Vous pouvez attribuer un dossier à un identifiant lors de sa création, comme nous l'avons fait précédemment, ou en modifiant un identifiant existant. Par exemple, en cliquant sur mon identifiant pour PlanB Network, je peux ensuite choisir de le classer dans le dossier "*Bitcoin*".
+Vous pouvez attribuer un dossier à un identifiant lors de sa création, comme nous l'avons fait précédemment, ou en modifiant un identifiant existant. Par exemple, en cliquant sur mon identifiant pour Plan ₿ Academy, je peux ensuite choisir de le classer dans le dossier "*Bitcoin*".
 ![BITWARDEN](assets/notext/42.webp)
 Vous pouvez ainsi structurer votre gestionnaire de mots de passe pour faciliter la recherche de vos identifiants. Vous pouvez les organiser avec des dossiers tels que personnel, professionnel, banques, emails, réseaux sociaux, abonnements, shopping, administration, streaming, stockage, voyages, santé, etc.
 
@@ -167,11 +167,11 @@ Et enfin, renseignez le code à 6 chiffre de votre application d'authentificatio
 ![BITWARDEN](assets/notext/50.webp)
 Vous êtes dorénavant connecté à votre gestionnaire Bitwarden depuis l'extension de navigateur.
 ![BITWARDEN](assets/notext/51.webp)
-Par exemple, si je retourne sur le site de PlanB Network et que je tente de me connecter à mon compte, on peut voir que l'extension Bitwarden intégrée au navigateur reconnaît les champs de connexion et me propose automatiquement de sélectionner l'identifiant que j'ai préalablement enregistré.
+Par exemple, si je retourne sur le site de Plan ₿ Academy et que je tente de me connecter à mon compte, on peut voir que l'extension Bitwarden intégrée au navigateur reconnaît les champs de connexion et me propose automatiquement de sélectionner l'identifiant que j'ai préalablement enregistré.
 ![BITWARDEN](assets/notext/52.webp)
 Si je sélectionne cet identifiant, Bitwarden remplit pour moi les champs de connexion. Cette fonctionnalité de l'extension permet de se connecter rapidement aux sites web, sans avoir besoin de copier-coller les identifiants depuis l'application web ou le logiciel Bitwarden.
 ![BITWARDEN](assets/notext/53.webp)
-L'extension est également conçue pour détecter les créations de nouveaux comptes. Par exemple, lors de la création d'un nouveau compte sur PlanB Network, Bitwarden me suggère automatiquement d'enregistrer le nouvel identifiant. 
+L'extension est également conçue pour détecter les créations de nouveaux comptes. Par exemple, lors de la création d'un nouveau compte sur Plan ₿ Academy, Bitwarden me suggère automatiquement d'enregistrer le nouvel identifiant. 
 ![BITWARDEN](assets/notext/54.webp)
 En cliquant sur cette suggestion qui apparait, l'extension s'ouvre. Elle me permet de renseigner les détails du nouvel identifiant et de générer un mot de passe fort et unique.
 ![BITWARDEN](assets/notext/55.webp)

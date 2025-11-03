@@ -42,7 +42,7 @@ Cryptomatorは、他のアプリケーション、特に別の記事で紹介し
 
 
 
-https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+https://planb.academy/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
 
 クリプトメーターのアプリケーションは、**Windows**（exe / msi）、**Linux**、**macOS、**だけでなく、**Android**と**iOS**でもご利用いただけます。アンドロイド・アプリケーションは有料です（14.99ユーロ）。
 

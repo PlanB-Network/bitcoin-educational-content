@@ -225,4 +225,4 @@ sudo apt install vlc
 
 デジタルライフのセキュリティをさらに一歩高めるために、プライバシー保護に最適で、Ubuntuのインストールを補完する暗号化メッセージングサービスをご覧になることをお勧めします：
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

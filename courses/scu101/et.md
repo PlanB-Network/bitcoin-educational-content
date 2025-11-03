@@ -30,6 +30,8 @@ Théo; panus
 
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
+:::video id=de7236a0-2985-41ef-86f7-3fa0b7f94531:::
+
 **Eesmärk: Värskenda oma turvalisuse oskusi!**
 
 Tere tulemast kõigile sellesse digitaalse turvalisusele pühendatud haridusprogrammi. See koolitus on mõeldud kõigile ligipääsetavaks, seega pole vajalik eelnev arvutiteaduse tundmine. Meie peamine eesmärk on varustada teid teadmiste ja oskustega, mis on vajalikud digitaalses maailmas turvalisemalt ja privaatsemalt liikumiseks.
@@ -85,6 +87,8 @@ Kas olete valmis tugevdama oma digitaalset turvalisust ja taastama kontrolli oma
 
 <chapterId>3a935da9-fa6e-57eb-bf85-7b3ec35e6ee2</chapterId>
 
+:::video id=f1cead27-ed41-4ca2-afd2-b08a994d0119:::
+
 Internetis surfates on oluline vältida teatud levinud vigu, et säilitada oma veebiturvalisus. Siin on mõned näpunäited nende vältimiseks:
 
 ### Ole ettevaatlik tarkvara allalaadimisel:
@@ -123,11 +127,13 @@ TOR on seaduslik ja seda kasutavad ajakirjanikud, vabadusaktivistid ja teised, k
 
 ![image](assets/et/007.webp)
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ## VPN ja internetiühendus
 
 <chapterId>5aac83f4-a685-54b0-9759-d71bea7eeed2</chapterId>
+
+:::video id=737d30ac-43d8-4a69-afda-89b9d7e8c4e1:::
 
 ### VPN-id
 
@@ -146,9 +152,9 @@ Kuigi tarbija VPN-i kasutamine ei taga täielikku anonüümsust, säilitavad pal
 
 Lõpuks võib VPN-i kasutada ka veebireklaamide blokeerimiseks, pakkudes nauditavamat ja turvalisemat sirvimiskogemust. Siiski on oluline teha oma uurimistööd, et leida just teie konkreetsetele vajadustele kõige paremini sobiv VPN. VPN-i kasutamine on soovitatav turvalisuse suurendamiseks, isegi kui sirvite internetti kodus. See aitab tagada vahetatavate andmete kõrgema turvalisuse taseme. Lõpuks veenduge, et kontrolliksite URL-e ja väikest tabalukku aadressiribal, et kinnitada, et olete soovitud saidil.
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 ### HTTPS ja avalikud Wi-Fi võrgud
 
@@ -169,6 +175,8 @@ Kokkuvõttes võib VPN-i kasutamine oluliselt parandada veebiturvalisust nii ett
 ## Arvuti kasutamine
 
 <chapterId>16745632-b56b-5423-9873-ddf70fdf1efd</chapterId>
+
+:::video id=35892007-5ea5-4956-bf80-3363d69c96d5:::
 
 Meie arvutite turvalisus on tänapäeva digitaalses maailmas suur mure. Täna käsitleme kolme peamist punkti:
 
@@ -219,6 +227,8 @@ Järeldusena on oluline valida operatsioonisüsteem, mis vastab teie vajadustele
 
 <chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>
 
+:::video id=c6a2c152-f1ae-492c-8993-304d64cdda45:::
+
 ### Kuidas häkkerid ründavad?
 
 Enda kaitsmiseks on oluline mõista, kuidas häkkerid püüavad teie arvutisse tungida. Tõepoolest, viirused ei ilmu sageli justkui võluväel, vaid on pigem meie enda tegevuse, isegi tahtmatult, tagajärjed!
@@ -255,9 +265,9 @@ EI, üldiselt ei soovitata lunavara või muud tüüpi rünnakute korral häkkeri
 
 Kui avastate oma arvutis viiruse, ühendage see internetist lahti, tehke täielik viirusetõrje skannimine ja kustutage nakatunud failid. Seejärel uuendage oma tarkvara ja operatsioonisüsteemi ning muutke oma paroole, et vältida edasisi sissetunge.
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # Lahenduste rakendamine.
 
@@ -266,6 +276,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 ## E-posti kontode haldamine
 
 <chapterId>dfceea33-8712-5557-ace1-6ba5598d33d8</chapterId>
+
+:::video id=75cc914d-9c11-4d3f-86a7-6faf2077f00f:::
 
 ### Uue e-posti konto seadistamine!
 
@@ -294,11 +306,13 @@ On soovitatav kasutada veebisaiti Have I Been Pwned (https://haveibeenpwned.com/
 Üldiselt ei ole uue, turvalisema e-posti aadressi kasutusele võtmine halb tava ja isegi vajalik, kui soovitakse alustada puhtalt lehelt tervislikul alusel.
 Boonus Bitcoin: Võib olla soovitatav luua spetsiifiline e-posti aadress meie Bitcoin'i tegevusteks (vahetuskontode loomine), et tõeliselt eraldada meie elu erinevad tegevusalad.
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Paroolihaldur
 
 <chapterId>0b3c69b2-522c-56c8-9fb8-1562bd55930f</chapterId>
+
+:::video id=106b6f17-a5c1-4155-abdf-043ce469d45b:::
 
 ### Mis on paroolihaldur?
 
@@ -340,13 +354,15 @@ Tugeva parooli loomiseks on soovitatav kasutada suurt hulka juhuslikke tähemär
 
 Juhuslikult genereeritud paroolid pakuvad kõrgemat turvalisuse taset, kuigi need võivad olla raskemini meeldejäetavad. Paroolihaldurid saavad genereerida turvalisemaid juhuslikke paroole. Paroolihalduri kasutamisel ei pea te kõiki oma paroole meelde jätma. On oluline järk-järgult asendada oma vanad paroolid halduri poolt genereeritud tugevamate ja pikematega. Veenduge, et teie paroolihalduri peaparool on samuti tugev ja turvaline.
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Kahefaktoriline Autentimine
 
 <chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>
+
+:::video id=10fede6f-c839-4455-b324-e887c502667e:::
 
 ### Miks rakendada 2FA
 
@@ -387,9 +403,9 @@ Jätkake õppimist ja järk-järgult rakendage häid tavasid!
 
 Kuldreegel: Küberturvalisus on liikuv sihtmärk, mis kohandub teie õppimisteekonnaga!
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 # Praktiline osa
 
@@ -401,7 +417,7 @@ https://planb.network/tutorials/computer-security/authentication/security-key-61
 
 E-posti postkasti kaitsmine on oluline samm oma veebitegevuste turvamiseks ja isikuandmete kaitsmiseks. See juhend juhendab teid samm-sammult ProtonMaili konto loomisel ja seadistamisel, pakkujal, mis on tuntud oma kõrge turvalisuse taseme poolest ja pakub teie kommunikatsioonide otsast lõpuni krüpteerimist. Olgu te olete algaja või kogenud kasutaja, siin pakutavad parimad tavad aitavad teil tugevdada oma postkasti turvalisust, kasutades samal ajal ProtonMaili täiustatud funktsioone:
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Turvamine 2FA abil
 
@@ -409,11 +425,11 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 
 Kahefaktoriline autentimine (2FA) on muutunud oluliseks teie veebikontode turvamiseks. Selles juhendis õpite, kuidas seadistada ja kasutada 2FA rakendust Authy, mis genereerib teie kontode kaitsmiseks dünaamilisi 6-kohalisi koode. Authy on väga lihtne kasutada ja sünkroonib mitme seadmega. Avastage, kuidas installida ja konfigureerida Authy ning tugevdada oma veebikontode turvalisust kohe:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Teine võimalus on kasutada füüsilist turvavõtit. See teine juhend näitab, kuidas seadistada ja kasutada turvavõtit teise autentimistegurina:
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ## Paroolihalduri loomine
 
@@ -423,11 +439,11 @@ Paroolihaldus on digiajastul väljakutse. Meil kõigil on palju veebikontosid, m
 
 Selles õpetuses saate teada, kuidas seadistada Bitwarden, avatud lähtekoodiga paroolihaldurit, ja kuidas sünkroonida oma mandaadid kõigis seadmetes, et lihtsustada igapäevast kasutamist:
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Kogenumatele kasutajatele pakun ka õpetust teise tasuta ja avatud lähtekoodiga tarkvara kohta, mida saate lokaalselt paroolide haldamiseks kasutada:
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Oma kontode turvamine
 
@@ -435,9 +451,9 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 Nendes kahes õpetuses juhendan teid ka oma veebikontode turvamisel ning selgitan, kuidas järk-järgult võtta kasutusele turvalisemaid praktikaid oma paroolide igapäevaseks haldamiseks.
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Brauseri ja VPN-i vahetus
 
@@ -447,13 +463,13 @@ Teie online-elu privaatsuse kaitsmine on samuti oluline punkt teie turvalisuse t
 
 Pakun teil avastada kaks usaldusväärset VPN-lahendust, mida saab maksta bitcoini kaudu, nimelt IVPN ja Mullvad. Need juhendid aitavad teil installida, konfigureerida ja kasutada Mullvadi või IVPN-i kõigis teie seadmetes:
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 Lisaks õppige kasutama Tor Browserit, spetsiaalselt teie online-privaatsuse kaitsmiseks loodud veebibrauserit:
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ## Varundamise seadistamine
 
@@ -461,11 +477,11 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 Teie isiklike failide kaitsmine on samuti oluline punkt. See õpetus näitab, kuidas seadistada tõhus varundamisstrateegia Proton Drive'i abil. Avastage, kuidas kasutada seda turvalist pilvelahendust 3-2-1 meetodi rakendamiseks: kolm koopiat teie andmetest kahes erinevas meediumis, millest üks koopia on väljaspool asukohta. Nii tagate oma tundlike failide ligipääsetavuse ja turvalisuse:
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Ja et kaitsta teie eemaldatavatel meediumitel, nagu USB-mälupulk või väline kõvaketas, salvestatud faile, näitan ma ka, kuidas neid meediume VeraCryptiga hõlpsasti krüpteerida ja dekrüpteerida:
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # Mine kaugemale
 
@@ -474,6 +490,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 ## Kuidas töötada küberjulgeoleku valdkonnas
 
 <chapterId>aad1ae27-4280-5b07-b9ab-118ae013951a</chapterId>
+
+:::video id=4c818b5c-ea5d-496a-8e82-bc5d96d91430:::
 
 ### Küberjulgeolek: Pidevalt kasvav valdkond lõputute võimalustega
 
@@ -512,6 +530,8 @@ Nende oskuste ja tööriistade valdamine varustab teid edukalt navigeerima kübe
 ## Intervjuu Renaud'ga
 
 <chapterId>7d83fd98-ce22-514e-b9e8-729fbf71ee6e</chapterId>
+
+:::video id=ec7014aa-5ebe-444c-80d1-7b14f1fe7bb8:::
 
 ### Tõhus paroolihaldus ja autentimise tugevdamine: Akadeemiline lähenemine
 

@@ -18,7 +18,7 @@ Bevor Sie mit diesem Tutorial beginnen, empfehle ich Ihnen, wenn Sie nicht mit d
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 passphrase auf dem Trezor wird auf klassische Weise gehandhabt, wenn Sie sich bei der Konfiguration für den BIP39-Standard entschieden haben (was ich empfehle, wenn Sie kein *Multi-Share Backup* benötigen). Das Besondere am Trezor ist, dass man den passphrase entweder direkt am Hardware Wallet eingeben kann oder über die Tastatur des Computers mit Hilfe der Trezor Suite Software. Diese zweite Möglichkeit ist wesentlich unsicherer, da der Computer eine wesentlich größere Angriffsfläche bietet als der Hardware Wallet. Allerdings kann die Eingabe eines komplexen passphrase auf einer herkömmlichen Tastatur schneller sein als auf dem Hardware Wallet, was die Verwendung starker Passphrasen fördern könnte. Es ist also immer besser, einen passphrase zu verwenden, auch wenn er eingetippt werden muss, als gar keinen zu verwenden. Es ist jedoch wichtig, sich des erhöhten Risikos von numerischen Angriffen bewusst zu sein, das dies mit sich bringt.
 
@@ -36,15 +36,15 @@ In der Trezor Suite haben Sie zwei verschiedene Möglichkeiten, den passphrase-B
 
 
 
-Bevor Sie mit diesem Tutorial beginnen, vergewissern Sie sich bitte, dass Sie Ihren Trezor bereits initialisiert und Ihre Mnemonic Phrase erstellt haben. Wenn dies nicht der Fall ist und Ihr Trezor neu ist, folgen Sie dem modellspezifischen Lernprogramm auf Plan ₿ Network. Sobald Sie diesen Schritt abgeschlossen haben, können Sie zu diesem Lernprogramm zurückkehren.
+Bevor Sie mit diesem Tutorial beginnen, vergewissern Sie sich bitte, dass Sie Ihren Trezor bereits initialisiert und Ihre Mnemonic Phrase erstellt haben. Wenn dies nicht der Fall ist und Ihr Trezor neu ist, folgen Sie dem modellspezifischen Lernprogramm auf Plan ₿ Academy. Sobald Sie diesen Schritt abgeschlossen haben, können Sie zu diesem Lernprogramm zurückkehren.
 
 
 
-https://planb.network/tutorials/wallet/hardware/trezor-safe-5-4413308a-a1b5-4ba4-bc49-72ae661cc4e0
+https://planb.academy/tutorials/wallet/hardware/trezor-safe-5-4413308a-a1b5-4ba4-bc49-72ae661cc4e0
 
-https://planb.network/tutorials/wallet/hardware/trezor-safe-3-51d0d669-5d23-47c2-beb6-cc6fa0fb0ea0
+https://planb.academy/tutorials/wallet/hardware/trezor-safe-3-51d0d669-5d23-47c2-beb6-cc6fa0fb0ea0
 
-https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
+https://planb.academy/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 
 
 ## Hinzufügen eines passphrase zu einem Safe 3 oder Safe 5
@@ -79,7 +79,7 @@ Für weitere spezifische Empfehlungen zur Auswahl Ihres passphrase lade ich Sie 
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Wenn Sie Ihren passphrase über die Tastatur Ihres Computers eingeben möchten, geben Sie ihn in das dafür vorgesehene Feld ein und klicken Sie dann auf "*Zugang passphrase Wallet*".
 
@@ -177,7 +177,7 @@ Für weitere spezifische Empfehlungen zur Auswahl Ihres passphrase lade ich Sie 
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Geben Sie Ihr passphrase in das vorgesehene Feld ein und klicken Sie dann auf die Schaltfläche "*Zugang passphrase Wallet*".
 
@@ -215,6 +215,6 @@ Herzlichen Glückwunsch, Sie sind jetzt auf dem neuesten Stand, was die Verwendu
 
 
 
-https://planb.network/tutorials/wallet/backup/trezor-shamir-backup-7f98b593-face-48fb-a643-0e811b87c94e
+https://planb.academy/tutorials/wallet/backup/trezor-shamir-backup-7f98b593-face-48fb-a643-0e811b87c94e
 
 Wenn Sie diese Anleitung nützlich fanden, wäre ich Ihnen dankbar, wenn Sie unten einen Green-Daumen hinterlassen würden. Sie können diesen Artikel auch gerne in Ihren sozialen Netzwerken teilen. Ich danke Ihnen sehr!

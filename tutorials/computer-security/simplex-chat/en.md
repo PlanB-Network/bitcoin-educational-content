@@ -302,4 +302,4 @@ Congratulations, you're now up to speed with SimpleX messaging, an excellent alt
 I also recommend this other tutorial, in which I present Threema, another interesting alternative for your messaging application:
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74

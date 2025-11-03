@@ -185,7 +185,7 @@ Bu e-postayı bir oturum açma hizmeti için kullanmadan önce, kendi Address'ni
 
 
 
-https://planb.network/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
+https://planb.academy/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
 
 Test olarak oluşturduğunuz bir takma adı silmek için tek yapmanız gereken `Ev`, ardından `Kimlik Bilgileri` bölümüne giriş yapmak ve silmek istediğiniz kimliğe tıklamaktır. Devam edebilmeniz için sağ üst köşede _Delete_ komutu görünecektir.
 

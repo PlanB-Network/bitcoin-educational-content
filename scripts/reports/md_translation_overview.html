@@ -1,0 +1,3904 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markdown Translation Overview</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .stats {
+            margin: 20px auto;
+            text-align: center;
+            font-size: 14px;
+            color: #666;
+            max-width: 1200px;
+        }
+        .stats strong {
+            color: #333;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+            font-size: 11px;
+        }
+        th {
+            background-color: #2196F3;
+            color: white;
+            font-weight: bold;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+        th.course-header {
+            background-color: #1976D2;
+            text-align: left;
+            min-width: 100px;
+        }
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+        .translation-exists {
+            background-color: #4CAF50;
+            color: white;
+            font-weight: bold;
+        }
+        .translation-missing {
+            background-color: #f44336;
+            color: white;
+        }
+        .translation-info {
+            font-size: 9px;
+            display: block;
+            margin-top: 2px;
+        }
+        .legend {
+            margin: 20px auto;
+            padding: 15px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            max-width: 900px;
+        }
+        .legend h3 {
+            margin-top: 0;
+            color: #333;
+        }
+        .legend-item {
+            display: inline-block;
+            margin: 5px 15px 5px 0;
+        }
+        .legend-color {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            margin-right: 5px;
+            vertical-align: middle;
+            border-radius: 3px;
+        }
+        .footer {
+            margin-top: 20px;
+            text-align: center;
+            color: #666;
+            font-size: 12px;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1800px;
+            margin: 0 auto;
+        }
+        .header {
+            position: relative;
+            padding: 20px 0;
+        }
+        .back-button {
+            display: inline-block;
+            padding: 8px 16px;
+            background-color: #f7931a;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 14px;
+            font-weight: 500;
+            transition: background-color 0.2s;
+            margin-bottom: 20px;
+        }
+        .back-button:hover {
+            background-color: #e08316;
+        }
+        .back-button::before {
+            content: '← ';
+        }
+        .lang-header {
+            writing-mode: vertical-rl;
+            text-orientation: mixed;
+            min-width: 30px;
+            padding: 8px 4px !important;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="https://surfer.planb.network/translation_report/index.html" class="back-button">Back to Reports</a>
+            <h1>📝 Markdown Translation Overview</h1>
+        </div>
+        <div class="stats">
+            <strong>Languages analyzed:</strong> 27 languages<br>
+            <strong>Total courses:</strong> 35 |
+            <strong>Translations:</strong> 759/945 (80.3% overall)
+        </div>
+
+        <div class="legend">
+            <h3>Legend</h3>
+            <div class="legend-item">
+                <span class="legend-color" style="background-color: #4CAF50;"></span>
+                <span>✓ Translated (file exists)</span>
+            </div>
+            <div class="legend-item">
+                <span class="legend-color" style="background-color: #f44336;"></span>
+                <span>✗ Missing (no file)</span>
+            </div>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th class="course-header">Course</th>
+                    <th class='lang-header'>CS</th>
+                    <th class='lang-header'>DE</th>
+                    <th class='lang-header'>EN</th>
+                    <th class='lang-header'>ES</th>
+                    <th class='lang-header'>ET</th>
+                    <th class='lang-header'>FA</th>
+                    <th class='lang-header'>FI</th>
+                    <th class='lang-header'>FR</th>
+                    <th class='lang-header'>HI</th>
+                    <th class='lang-header'>ID</th>
+                    <th class='lang-header'>IT</th>
+                    <th class='lang-header'>JA</th>
+                    <th class='lang-header'>KO</th>
+                    <th class='lang-header'>NB-NO</th>
+                    <th class='lang-header'>NL</th>
+                    <th class='lang-header'>PL</th>
+                    <th class='lang-header'>PT</th>
+                    <th class='lang-header'>RN</th>
+                    <th class='lang-header'>RU</th>
+                    <th class='lang-header'>SI</th>
+                    <th class='lang-header'>SR-LATN</th>
+                    <th class='lang-header'>SV</th>
+                    <th class='lang-header'>SW</th>
+                    <th class='lang-header'>TR</th>
+                    <th class='lang-header'>VI</th>
+                    <th class='lang-header'>ZH-HANS</th>
+                    <th class='lang-header'>ZH-HANT</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>biz101</td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>18,463w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>19,919w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>19,497w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>22,605w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>16,066w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>21,575w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>15,439w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>23,687w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>23,909w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>19,166w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>21,823w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>2,039w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>15,132w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>19,597w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>20,528w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>18,519w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>22,131w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>18,957w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>18,333w</span>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>18,338w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>19,162w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>20,408w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>17,657w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>30,135w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>2,409w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>3,616w</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>biz205</td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>15,467w</span>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>btc101</td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>15,637w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>18,050w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>18,279w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>19,432w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>14,079w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>21,104w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>13,300w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>20,067w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>20,692w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>16,678w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>18,409w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>3,921w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>12,755w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>17,730w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>19,123w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>15,847w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>19,165w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>15,721w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>15,626w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>24,770w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>16,083w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>17,438w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>17,222w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>14,787w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>26,026w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>1,949w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>2,154w</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>btc102</td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>26,867w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>29,945w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>28,959w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>32,153w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>24,314w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>32,955w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>22,929w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>33,443w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>36,147w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>28,387w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>31,230w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>2,823w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>22,208w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>30,005w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>31,238w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>26,753w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>31,802w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>27,827w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>26,967w</span>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>27,045w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>29,604w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>29,084w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>25,080w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>43,503w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>3,137w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>5,020w</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>btc202</td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>23,204w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>26,632w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>26,680w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>28,242w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>20,872w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>29,022w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>19,506w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>28,878w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>31,399w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>24,796w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>27,205w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>2,620w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>18,984w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>25,778w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>27,773w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>23,408w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>28,055w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>24,187w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>23,538w</span>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>23,742w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>25,726w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>25,438w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>21,874w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>36,309w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>4,943w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>5,398w</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>btc204</td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>45,605w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>52,432w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>52,765w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>56,142w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>40,904w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>55,973w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>38,827w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>57,663w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>63,577w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>48,467w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>53,380w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>4,978w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>37,730w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>51,595w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>55,191w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>46,008w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>55,117w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>46,865w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>45,849w</span>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>46,749w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>51,467w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>50,006w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>41,987w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>71,675w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>8,339w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>11,693w</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>btc303</td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>23,731w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>27,088w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>26,806w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>28,961w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>21,469w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>29,100w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>20,369w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>30,844w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>31,777w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>25,158w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>28,110w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>2,097w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>19,499w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>26,471w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>27,834w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>23,906w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>28,590w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>24,099w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>23,971w</span>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>24,171w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>25,978w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>24,718w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>22,062w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>37,112w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>4,387w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>4,718w</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>btc304</td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>14,914w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>16,864w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>16,235w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>17,800w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>13,539w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>18,307w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>12,618w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>21,974w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>19,725w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>15,923w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>17,363w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>1,801w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>12,489w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>17,092w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>17,551w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>14,856w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>17,690w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>15,414w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>14,975w</span>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>15,157w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>16,835w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>15,881w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>13,953w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>23,741w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>2,840w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>2,967w</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>btc401</td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>19,368w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>21,852w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>20,717w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>24,381w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>17,220w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>23,162w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>16,422w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>25,558w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>25,450w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>20,074w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>23,242w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>3,140w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>16,778w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>20,726w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>22,412w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>19,437w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>23,723w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>20,897w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>19,432w</span>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>19,418w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>20,422w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>21,762w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>18,495w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>31,556w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>4,998w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>5,387w</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>csv402</td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>31,786w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>36,024w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>36,806w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>38,659w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>28,851w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>38,660w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>27,477w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>39,152w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>42,832w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>33,609w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>37,335w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>6,557w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>26,953w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>34,732w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>37,904w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>31,985w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>38,557w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>32,380w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>31,949w</span>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>32,310w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>34,807w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>34,359w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>30,064w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>48,955w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>8,621w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>13,048w</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>csv404</td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>14,428w</span>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>cyp201</td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>21,206w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>24,102w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>25,301w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>26,302w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>18,895w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>25,748w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>18,154w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>26,995w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>28,939w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>22,435w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>24,715w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>4,541w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>18,015w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>23,638w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>25,885w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>21,678w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>25,279w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>22,195w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>21,425w</span>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>22,059w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>23,942w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>24,292w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>20,424w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>31,476w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>4,669w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>7,763w</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>cyp302</td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>32,247w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>36,218w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>37,228w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>39,595w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>29,392w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>39,033w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>28,328w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>40,105w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>44,801w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>34,493w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>37,979w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>6,879w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>27,556w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>35,568w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>37,194w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>33,128w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>38,933w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>34,205w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>32,473w</span>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>33,756w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>35,407w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>35,926w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>30,968w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>48,572w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>9,173w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>10,281w</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>dev103</td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>17,886w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>20,091w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>19,827w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>20,048w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>17,157w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>21,355w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>16,593w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>21,719w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>23,016w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>18,913w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>19,970w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>8,445w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>16,011w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>20,089w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>20,453w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>18,157w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>20,106w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>17,672w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>18,424w</span>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>18,423w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>20,100w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>18,433w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>17,074w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>24,264w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>9,239w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>9,420w</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>dev303</td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>21,407w</span>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>eco102</td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>14,659w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>18,049w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>18,027w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>18,924w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>13,834w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>18,008w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>13,384w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>19,208w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>19,989w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>15,878w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>17,549w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>878w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>12,297w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>17,402w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>18,857w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>15,055w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>18,258w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>15,477w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>15,056w</span>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>15,444w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>17,298w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>16,318w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>13,737w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>24,994w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>1,184w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>1,641w</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>eco104</td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>31,051w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>35,019w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>35,328w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>38,624w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>27,408w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>38,751w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>26,170w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>40,230w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>42,729w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>32,828w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>37,063w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>1,479w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>25,110w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>35,073w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>37,495w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>32,007w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>37,136w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>32,423w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>31,445w</span>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>32,300w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>35,341w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>35,051w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>29,581w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>53,130w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>1,468w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>3,914w</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>eco201</td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>10,708w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>12,290w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>12,676w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>14,429w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>9,254w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>13,276w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>9,005w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>14,142w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>14,814w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>11,667w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>13,147w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>468w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>8,744w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>12,097w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>13,337w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>11,076w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>13,301w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>11,673w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>10,959w</span>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>11,122w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>12,235w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>12,467w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>10,311w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>19,492w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>477w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>827w</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>eco204</td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>13,176w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>15,638w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>15,762w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>16,688w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>11,536w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>16,419w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>11,184w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>17,214w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>18,463w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>13,877w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>15,227w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>923w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>10,947w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>14,803w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>16,396w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>13,494w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>15,952w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>14,945w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>13,441w</span>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>13,860w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>14,832w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>16,326w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>12,658w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>22,895w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>854w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>1,967w</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>his201</td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>30,569w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>35,333w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>35,943w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>38,957w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>27,313w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>38,166w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>26,312w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>40,631w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>41,357w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>33,886w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>36,545w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>2,265w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>24,809w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>34,657w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>37,147w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>31,911w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>37,585w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>32,720w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>30,889w</span>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>32,739w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>34,002w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>33,721w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>28,886w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>49,383w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>2,173w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>7,947w</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>his204</td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>13,551w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>15,962w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>15,832w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>16,699w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>12,599w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>16,356w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>12,136w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>17,037w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>18,378w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>14,601w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>15,861w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>941w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>11,149w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>15,554w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>16,831w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>13,700w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>16,142w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>14,427w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>13,851w</span>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>14,299w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>15,318w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>14,820w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>12,607w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>22,635w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>1,463w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>2,511w</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>his205</td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>46,345w</span>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>lnp201</td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>10,600w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>12,155w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>12,422w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>13,085w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>9,515w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>13,943w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>9,046w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>13,592w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>15,172w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>11,402w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>12,488w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>1,276w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>8,927w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>12,001w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>13,106w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>11,090w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>12,657w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>11,211w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>10,769w</span>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>11,018w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>12,280w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>11,650w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>10,011w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>16,166w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>1,381w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>3,033w</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>lnp404</td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>min201</td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>10,691w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>12,291w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>12,769w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>13,948w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>9,259w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>13,343w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>8,722w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>13,965w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>14,551w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>11,235w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>12,860w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>701w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>9,081w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>11,912w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>13,392w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>10,924w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>13,003w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>11,728w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>10,454w</span>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>11,073w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>12,018w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>12,078w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>10,211w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>17,911w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>726w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>2,177w</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>min306</td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>17,885w</span>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>net302</td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>21,220w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>23,422w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>23,323w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>25,797w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>18,674w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>25,565w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>18,130w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>27,465w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>27,834w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>22,035w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>24,822w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>4,006w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>18,172w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>22,475w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>24,212w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>21,314w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>25,215w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>22,239w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>20,883w</span>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>21,332w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>22,335w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>23,544w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>20,502w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>32,351w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>6,188w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>6,672w</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>phi101</td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>23,294w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>28,471w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>28,992w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>30,576w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>21,475w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>28,550w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>20,739w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>30,975w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>32,298w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>25,152w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>28,898w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>1,319w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>19,154w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>27,187w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>30,433w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>24,046w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>28,880w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>25,520w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>23,643w</span>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>24,471w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>27,090w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>26,816w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>22,167w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>42,382w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>1,247w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>2,516w</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>phi305</td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>8,132w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>9,887w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>9,773w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>10,158w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>7,618w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>9,855w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>7,316w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>10,604w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>11,105w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>8,753w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>9,557w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>398w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>6,249w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>9,691w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>10,331w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>8,240w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>9,805w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>8,344w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>8,251w</span>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>8,455w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>9,552w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>8,766w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>7,333w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>13,538w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>694w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>725w</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>pos305</td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>20,750w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>22,817w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>23,042w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>25,449w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>18,250w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>25,265w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>17,139w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>26,356w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>29,748w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>21,307w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>24,108w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>4,105w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>17,389w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>21,811w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>23,540w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>20,493w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>24,937w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>21,057w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>20,741w</span>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>21,167w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>21,997w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>22,981w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>18,968w</span>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>5,998w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>5,310w</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>pro202</td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>547w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>589w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>599w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>683w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>500w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>662w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>471w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>705w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>702w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>581w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>640w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>119w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>505w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>572w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>608w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>538w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>669w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>609w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>553w</span>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>549w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>578w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>642w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>541w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>891w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>158w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>161w</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>scu101</td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>5,722w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>6,565w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>6,632w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>7,341w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>5,036w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>7,317w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>4,732w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>7,788w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>8,025w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>6,566w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>7,019w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>509w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>4,983w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>6,489w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>6,923w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>5,980w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>6,878w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>6,411w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>5,727w</span>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>5,966w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>6,582w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>6,529w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>5,645w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>9,791w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>528w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>935w</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>scu202</td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>47,743w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>52,694w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>52,739w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>57,445w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>42,432w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>58,605w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>40,300w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>58,723w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>63,065w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>50,619w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>54,781w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>5,746w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>39,826w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>51,669w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>54,092w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>47,901w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>57,374w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>50,501w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>47,926w</span>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>48,311w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>51,229w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>53,069w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>45,127w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>76,588w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>9,392w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>10,624w</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>sid202</td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>8,806w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>10,105w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>10,484w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>10,892w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>7,823w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>10,990w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>7,466w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>11,261w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>11,773w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>9,374w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>10,531w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>1,309w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>7,265w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>9,840w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>10,775w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>8,728w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>10,819w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>8,828w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>8,890w</span>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>9,253w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>9,899w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>9,192w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>8,100w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>13,701w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>1,912w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>2,944w</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='text-align: left; font-weight: bold;'>sid302</td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>755w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>812w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>801w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>888w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>652w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>893w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>614w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>918w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>967w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>750w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>873w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>107w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>624w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>780w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>843w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>729w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>861w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>785w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>743w</span>
+                    </td>
+                    <td class='translation-missing'>
+                        <strong>✗</strong>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>723w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>770w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>871w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>722w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>1,247w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>199w</span>
+                    </td>
+                    <td class='translation-exists'>
+                        <strong>✓</strong>
+                        <span class='translation-info'>259w</span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="footer">
+            📅 Generated on 2025-10-19 14:00:03<br>
+            🔄 Run <code>python generate_report.py</code> to update this report<br>
+            <br>
+            <small>Note: Numbers shown are word counts (w = words). Supported languages detected from btc101 folder.</small>
+        </div>
+    </div>
+</body>
+</html>

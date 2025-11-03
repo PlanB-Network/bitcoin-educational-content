@@ -150,7 +150,7 @@ Například zde je skutečný Whirlpool Tx0 (ne ode mě): [edef60744f539483d868c
 Přebytek, který nemohl být začleněn do poolu, zde ekvivalentní `40,000 sats`, je přesměrován na účet **špatné banky**, také označovaný jako "toxická změna", aby se zajistilo striktní oddělení od ostatních UTXO v peněžence.
 
 Toto UTXO je nebezpečné pro soukromí uživatele, jelikož nejenže je stále připojeno ke své minulosti, a tedy možná k identitě jeho majitele, ale navíc je označeno jako patřící uživateli, který provedl coinjoin.
-Pokud je toto UTXO sloučeno s míchanými výstupy, ztratí veškeré získané důvěrnostní vlastnosti během cyklů coinjoin, zejména kvůli Common-Input-Ownership-Heuristic (CIOH). Pokud je sloučeno s dalšími toxickými změnami, uživatel riskuje ztrátu důvěrnosti, protože to spojí různé vstupy cyklů coinjoin. Proto je nutné s ním zacházet opatrně. Způsob, jakým se má tato toxická UTXO spravovat, bude podrobně popsán v poslední části tohoto článku a budoucí tutoriály na PlanB Network tyto metody pokryjí podrobněji.
+Pokud je toto UTXO sloučeno s míchanými výstupy, ztratí veškeré získané důvěrnostní vlastnosti během cyklů coinjoin, zejména kvůli Common-Input-Ownership-Heuristic (CIOH). Pokud je sloučeno s dalšími toxickými změnami, uživatel riskuje ztrátu důvěrnosti, protože to spojí různé vstupy cyklů coinjoin. Proto je nutné s ním zacházet opatrně. Způsob, jakým se má tato toxická UTXO spravovat, bude podrobně popsán v poslední části tohoto článku a budoucí tutoriály na Plan ₿ Academy tyto metody pokryjí podrobněji.
 
 **Krok 3: Počáteční míchání**
 Po dokončení `Tx0` jsou vyrovnávaná UTXO poslána na **premix** účet naší peněženky, připravena být začleněna do jejich prvního cyklu coinjoin, také nazývaného "počáteční míchání". Pokud, jak je tomu v našem příkladu, `Tx0` generuje více UTXO pro míchání, každé z nich bude začleněno do samostatného počátečního coinjoinu.
@@ -173,7 +173,7 @@ Tato metoda má nicméně dvě významné nevýhody:
 - Coinjoiny se budou odehrávat pouze tehdy, když Samourai běží na pozadí a je připojen. To znamená, že pokud chcete míchat a remixovat své bitcoiny 24/7, musíte neustále nechat Samourai zapnutý;
 - Pokud používáte Whirlpool s Samourai Wallet bez toho, abyste se postarali o připojení vlastního Dojo, pak bude vaše aplikace muset být připojena k serveru udržovanému týmy Samourai, a vy tak odhalíte `xpub` vaší peněženky jim. Tyto anonymní informace jsou nezbytné, aby vaše aplikace našla vaše transakce.
 
-Ideálním řešením, jak překonat tyto omezení, je provozovat vlastní Dojo spojené s instancí Whirlpool CLI na vašem osobním Bitcoin uzlu. Tímto způsobem se vyhnete jakémukoli úniku informací a dosáhnete úplné nezávislosti. Ačkoliv je tutoriál prezentovaný níže užitečný pro určité cíle nebo pro začátečníky, pro skutečnou optimalizaci vaší coinjoin session se doporučuje použít vlastní Dojo. Podrobný průvodce nastavením této konfigurace bude brzy dostupný na PlanB Network.
+Ideálním řešením, jak překonat tyto omezení, je provozovat vlastní Dojo spojené s instancí Whirlpool CLI na vašem osobním Bitcoin uzlu. Tímto způsobem se vyhnete jakémukoli úniku informací a dosáhnete úplné nezávislosti. Ačkoliv je tutoriál prezentovaný níže užitečný pro určité cíle nebo pro začátečníky, pro skutečnou optimalizaci vaší coinjoin session se doporučuje použít vlastní Dojo. Podrobný průvodce nastavením této konfigurace bude brzy dostupný na Plan ₿ Academy.
 
 ### Instalace Samourai Wallet
 Začneme tím, že samozřejmě budete potřebovat aplikaci Samourai Wallet. Stáhnout ji můžete přímo z oficiálních stránek pomocí APK, z jejich GitLabu, nebo z Google Play Store.
@@ -301,7 +301,7 @@ Jakmile je `Tx0` potvrzeno, vaše UTXO budou automaticky zaregistrovány u koord
 
 ![samourai](assets/notext/34.webp)
 
-Kontrolou záložky `Remixing`, která odpovídá účtu **Postmix**, uvidíte UTXO vzniklé z počátečních mixů. Tyto mince zůstanou připraveny na následné remixování, které nebude vyžadovat žádné další poplatky. Doporučuji si přečíst tento další článek, abyste se dozvěděli více o procesu remixování a efektivitě cyklu coinjoin: [REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)
+Kontrolou záložky `Remixing`, která odpovídá účtu **Postmix**, uvidíte UTXO vzniklé z počátečních mixů. Tyto mince zůstanou připraveny na následné remixování, které nebude vyžadovat žádné další poplatky. Doporučuji si přečíst tento další článek, abyste se dozvěděli více o procesu remixování a efektivitě cyklu coinjoin: [REMIX - WHIRLPOOL](https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)
 
 ![samourai](assets/notext/35.webp)
 
@@ -338,7 +338,7 @@ Zadejte potřebné informace pro vaši transakci a poté klikněte na modré tla
 
 ![samourai](assets/notext/43.webp)
 V dalším kroku máte možnost upravit sazbu poplatku spojenou s vaší transakcí. Také můžete aktivovat možnost Stonewall zaškrtnutím příslušného políčka. Pokud možnost Stonewall není vybratelná, znamená to, že váš účet **Postmix** neobsahuje UTXO dostatečné velikosti pro podporu této konkrétní struktury transakce.
-[-> Zjistěte více o transakcích Stonewall.](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
+[-> Zjistěte více o transakcích Stonewall.](https://planb.academy/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 Pokud je vše k vaší spokojenosti, klikněte na zelené tlačítko `SEND ... BTC`.
 
@@ -370,7 +370,7 @@ Whirlpool se automaticky zavře. Počkejte, až Samourai dokončí načítání,
 Ujistěte se, že váš SCODE byl správně zaregistrován kliknutím ještě jednou na tři malé tečky, poté vyberte `SCODE (promo kód) Whirlpool`. Pokud je vše v pořádku, jste připraveni zahájit nový cyklus Whirlpool se slevou na poplatky za službu. Je důležité poznamenat, že tyto SCODEs jsou dočasné: zůstávají platné několik dní předtím, než se stanou zastaralými.
 
 ## Jak poznat kvalitu našich cyklů coinjoin?
-Pro skutečně účinný coinjoin je zásadní, aby prokázal dobrou uniformitu mezi částkami vstupů a výstupů. Tato uniformita zvyšuje počet možných interpretací v očích vnějšího pozorovatele, čímž zvyšuje nejistotu obklopující transakci. Pro kvantifikaci této nejistoty generované coinjoinem lze využít výpočet entropie transakce. Pro hlubší průzkum těchto ukazatelů vás odkazuji na tutoriál: [BOLTZMANN CALCULATOR](https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe). Model Whirlpool je uznáván jako ten, který přináší nejvíce homogenity coinjoinům.
+Pro skutečně účinný coinjoin je zásadní, aby prokázal dobrou uniformitu mezi částkami vstupů a výstupů. Tato uniformita zvyšuje počet možných interpretací v očích vnějšího pozorovatele, čímž zvyšuje nejistotu obklopující transakci. Pro kvantifikaci této nejistoty generované coinjoinem lze využít výpočet entropie transakce. Pro hlubší průzkum těchto ukazatelů vás odkazuji na tutoriál: [BOLTZMANN CALCULATOR](https://planb.academy/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe). Model Whirlpool je uznáván jako ten, který přináší nejvíce homogenity coinjoinům.
 Dále je hodnocen výkon několika cyklů coinjoin na základě rozsahu skupin, ve kterých je mince skryta. Velikost těchto skupin definuje, co se nazývá anonsety. Existují dva typy anonsetů: první hodnotí získané soukromí proti retrospektivní analýze (z přítomnosti do minulosti) a druhý proti prospektivní analýze (z minulosti do přítomnosti). Pro podrobné vysvětlení těchto dvou ukazatelů vás zvu, abyste si přečetli tutoriál: WHIRLPOOL STATS TOOLS - ANONSETY
 ## Jak spravovat postmix?
 Po provedení cyklů coinjoin je nejlepší strategií nechat vaše UTXO na účtu **postmix**, čekající na jejich budoucí použití. Je dokonce doporučeno nechat je remixovat nekonečně, dokud je nepotřebujete utratit.
@@ -395,7 +395,7 @@ Dále musíte být opatrní při správě doxxic change, drobných, které nemoh
 - **Konsolidujte je na Monero:** Samourai Wallet nyní nabízí službu atomické výměny mezi BTC a XMR. To je ideální pro správu toxických UTXO tím, že je konsolidujete na Monero, aniž byste ohrozili své soukromí prostřednictvím KYC, než je pošlete zpět na Bitcoin. Tato možnost však může být nákladná z hlediska poplatků za těžbu a prémie kvůli omezením likvidity.
 - **Pošlete je do Lightning Network:** Převod těchto UTXO do Lightning Network, aby bylo možné využít snížené transakční poplatky, je možnost, která může být zajímavá. Tato metoda však může odhalit určité informace v závislosti na vašem používání Lightning a měla by být proto praktikována s opatrností.
 
-Podrobné tutoriály k implementaci těchto různých technik budou brzy nabízeny na PlanB Network.
+Podrobné tutoriály k implementaci těchto různých technik budou brzy nabízeny na Plan ₿ Academy.
 
 **Další zdroje:**
 [Video tutoriál Samourai Wallet]()

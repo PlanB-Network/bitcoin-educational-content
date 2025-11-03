@@ -95,7 +95,7 @@ Em seguida, clique no botão **"Enter**" do seu ColdCardQ para passar à etapa s
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 *Atualmente temos:*
 
@@ -145,7 +145,7 @@ A partir do dispositivo de envio, clique no botão **"QR "** para digitalizar o 
 
 
 
-Aqui o nosso segredo será uma mensagem curta, selecionando **"Quick Text Message "**. Escreva a sua mensagem (para nós "PlanB Network rocks") e prima **"ENTER "**.
+Aqui o nosso segredo será uma mensagem curta, selecionando **"Quick Text Message "**. Escreva a sua mensagem (para nós "Plan ₿ Academy rocks") e prima **"ENTER "**.
 
 
 O dispositivo gera então uma nova palavra-passe aleatória denominada **"Palavra-passe de teletransporte "** , no exemplo "NE XG BT SK".
@@ -190,7 +190,7 @@ Premir o botão **"QR "** para digitalizar o código QR apresentado pelo disposi
 
 
 
-Os dados são então desencriptados e tornados inteligíveis para o dispositivo recetor. A mensagem recebida é de facto "PlanB Network rocks". E é tudo.
+Os dados são então desencriptados e tornados inteligíveis para o dispositivo recetor. A mensagem recebida é de facto "Plan ₿ Academy rocks". E é tudo.
 
 
 

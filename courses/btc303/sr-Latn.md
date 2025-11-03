@@ -72,7 +72,7 @@ Postoje dva glavna aspekta decentralizacije u Bitcoin: decentralizacija Miner i 
 Miner decentralizacija odnosi se na činjenicu da obrada transakcija nije izvršena niti koordinisana od strane bilo kojeg centralnog entiteta. Full node decentralizacija odnosi se na činjenicu da se validacija blokova, tj. podataka koje rudari proizvode, obavlja na ivici mreže, u konačnici od strane njenih korisnika, a ne od strane nekoliko pouzdanih autoriteta.
 
 
-![](assets/decentralization-banner.webp)
+![](assets/en/001.webp)
 
 
 ### Miner decentralizacija
@@ -114,7 +114,7 @@ Ako uspeju, isti problemi će se najverovatnije ponovo pojaviti u nekom trenutku
 Nijedna od ovih opcija nije korisna za korisnika.
 
 
-Otpornost na cenzuru kroz decentralizaciju je ono što odvaja Bitcoin od drugih monetarnih sistema, ali to nije lako postići zbog *Double-spending problema*. Ovo je problem osiguravanja da niko ne može potrošiti isti novčić dvaput, pitanje za koje su mnogi mislili da je nemoguće rešiti na decentralizovan način. Satoshi Nakamoto piše u svom [Bitcoin belom papiru](https://planb.network/bitcoin.pdf) o tome kako rešiti Double-spending problem:
+Otpornost na cenzuru kroz decentralizaciju je ono što odvaja Bitcoin od drugih monetarnih sistema, ali to nije lako postići zbog *Double-spending problema*. Ovo je problem osiguravanja da niko ne može potrošiti isti novčić dvaput, pitanje za koje su mnogi mislili da je nemoguće rešiti na decentralizovan način. Satoshi Nakamoto piše u svom [Bitcoin belom papiru](https://planb.academy/bitcoin.pdf) o tome kako rešiti Double-spending problem:
 
 
 > U ovom radu predlažemo rešenje za problem Double-spending koristeći peer-to-peer distribuirani Timestamp server za generate računsku proveru hronološkog reda transakcija.
@@ -236,7 +236,7 @@ Način na koji Bitcoin funkcioniše kroz decentralizaciju podseća na izvanrednu
 Ona ističe da mnogi sistemi, bilo prirodni ili veštački, mogu i funkcionišu bez vođa, i da su moćni i otporni. Svaki pojedinac komunicira samo sa svojom neposrednom okolinom, ali zajedno formiraju nešto ogromno.
 
 
-![](assets/fishschool.webp)
+![](assets/en/002.webp)
 
 *Riblje škole nemaju vođe*
 
@@ -262,7 +262,7 @@ Decentralizovani sistemi mogu biti Hard za razumeti, ali postoje neki mentalni m
 
 
 
-![](assets/trustlessness-banner.webp)
+![](assets/en/003.webp)
 
 
 Ovo poglavlje analizira koncept nepouzdanosti, šta on znači iz perspektive računarskih nauka i zašto Bitcoin mora biti Trustless da bi zadržao svoju vrednosnu ponudu.
@@ -413,7 +413,7 @@ Bez trustlessness-a, ne možemo imati decentralizaciju, jer poverenje neizbežno
 
 
 
-![](assets/privacy-banner.webp)
+![](assets/en/004.webp)
 
 
 Ovo poglavlje se bavi time kako da zadržite svoje privatne finansijske informacije za sebe. Objašnjava šta privatnost znači u kontekstu Bitcoin, zašto je važna i šta znači kada se kaže da je Bitcoin pseudoniman. Takođe se razmatra kako privatni podaci mogu procureti, i On-Chain i off-chain.
@@ -493,7 +493,7 @@ Satoshi Nakamoto razmišlja o On-Chain privatnosti u odeljku 7 svog [Bitcoin bel
 Rad opisuje glavne probleme privatnosti Blockchain, naime ponovnu upotrebu Address i klasterizaciju Address. Prvi je samorazumljiv, dok se drugi odnosi na sposobnost da se, sa određenim nivoom sigurnosti, odluči da skup različitih adresa pripada istom korisniku.
 
 
-![](assets/address-reuse-clustering.webp)
+![](assets/en/005.webp)
 
 
 Tipična curenja privatnosti na Blockchain
@@ -612,7 +612,7 @@ Da biste umanjili rizike od otkrivanja vaših ličnih podataka, najbolje je da i
 Članak predlaže da izbegavate korišćenje berzi koje zahtevaju KYC/AML i umesto toga trgujete privatno, ili koristite decentralizovane berze kao što je [bisq](https://bisq.network/).
 
 
-https://planb.network/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+https://planb.academy/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 Za detaljnije čitanje o protivmerama, pogledajte prethodno pomenuti [wiki članak o privatnosti](https://en.Bitcoin.it/wiki/Privacy#Methods_for_improving_privacy_.28non-Blockchain.29), počevši od "Methods for improving privacy (non-Blockchain)".
 
@@ -633,7 +633,7 @@ Da biste dobili pristojnu privatnost u Bitcoin, morate preduzeti aktivne mere, o
 
 
 
-![](assets/finitesupply-banner.webp)
+![](assets/en/006.webp)
 
 
 Ovo poglavlje istražuje Bitcoin Supply limit od 21 milion BTC, ili koliko je to zapravo? Govorimo o tome kako se ovaj limit sprovodi i šta neko može učiniti da potvrdi da se poštuje. Štaviše, zavirujemo u kristalnu kuglu i diskutujemo o dinamici koja će stupiti na scenu kada se Block reward prebaci sa subvencionisanog na baziran na naknadama.
@@ -745,7 +745,7 @@ Da li će Bitcoin Supply prerasti 21 milion ne možemo reći danas, i to verovat
 
 
 
-![](assets/upgrading-banner.webp)
+![](assets/en/007.webp)
 
 
 Nadogradnja Bitcoin na siguran način može biti izuzetno teška. Neke promene zahtevaju nekoliko godina da se sprovedu. U ovom poglavlju učimo o uobičajenoj terminologiji vezanoj za nadogradnju Bitcoin, i istražujemo neke primere istorijskih nadogradnji njegovog protokola kao i uvide koje smo iz njih stekli. Na kraju, govorimo o podelama lanca i rizicima i troškovima povezanim sa njima.
@@ -985,7 +985,7 @@ Da bi Bitcoin ostao u harmoniji, viljuške Soft su se pokazale kao put napred, a
 <chapterId>d4982f3d-4694-51cc-99be-28f54b03a2a2</chapterId>
 
 
-![](assets/adversarialthinking-banner.webp)
+![](assets/en/008.webp)
 
 
 Ovo poglavlje se bavi *adversarijalnim razmišljanjem*, načinom razmišljanja koji se fokusira na to šta bi moglo poći po zlu i kako bi protivnici mogli delovati. Počinjemo diskusijom o bezbednosnim pretpostavkama i bezbednosnom modelu Bitcoin, nakon čega objašnjavamo kako obični korisnici mogu poboljšati svoju samosuverenost i decentralizaciju Bitcoin-ovog Full node razmišljajući adversarijalno. Zatim razmatramo neke stvarne pretnje za Bitcoin kao i um protivnika. Na kraju, govorimo o *aksiomu otpora* koji vam može pomoći da razumete zašto ljudi uopšte rade na Bitcoin.
@@ -1059,7 +1059,7 @@ Gore navedeni su primeri stvarnih pretnji koje treba rešiti.
 ### Jednostavno Sabotiranje Terena
 
 
-![](assets/sabotage-manual.webp)
+![](assets/en/009.webp)
 
 
 Izvod iz Priručnika za Jednostavnu Sabotažu
@@ -1110,7 +1110,7 @@ Da biste održali Bitcoin sigurnim, morate znati njegove neprijatelje i njihove 
 
 
 
-![](assets/opensource-banner.webp)
+![](assets/en/010.webp)
 
 
 Bitcoin je izgrađen koristeći softver otvorenog koda. U ovom poglavlju analiziramo šta to znači, kako funkcioniše održavanje softvera i kako softver otvorenog koda u Bitcoin omogućava razvoj bez dozvola. Zaranjamo u *selektivnu kriptografiju*, koja se bavi izborom i korišćenjem biblioteka u kriptografskim sistemima. Poglavlje uključuje deo o procesu pregleda Bitcoin, nakon čega sledi deo o načinima na koje programeri Bitcoin dobijaju finansiranje. Poslednji deo govori o tome kako kultura otvorenog koda Bitcoin može izgledati zaista čudno spolja, i zašto je ta percipirana čudnost zapravo znak dobrog zdravlja.
@@ -1398,7 +1398,7 @@ Razvojni proces oko Bitcoin je radikalno otvoren, što može učiniti da Bitcoin
 
 
 
-![](assets/scaling-banner.webp)
+![](assets/en/011.webp)
 
 
 
@@ -1545,7 +1545,7 @@ Pristup koji dobija premalo priznanja je ono što možemo nazvati *unutrašnje s
 Poboljšanja koja su postignuta kroz unutrašnje skaliranje su impresivna, blago rečeno. Da bismo vam dali opštu ideju o poboljšanjima tokom godina, Jameson Lopp [je sproveo testove performansi](https://blog.lopp.net/Bitcoin-core-performance-evolution/) na Blockchain sinhronizaciji, upoređujući mnoge različite verzije Bitcoin Core unazad do verzije 0.8.
 
 
-![](assets/Bitcoin-Core-Sync-Performance-1.webp)
+![](assets/en/012.webp)
 
 
 Početna brzina preuzimanja blokova različitih verzija Bitcoin Core. Na Y-osi je visina bloka koja je sinhronizovana, a na X-osi je vreme potrebno za sinhronizaciju do te visine.
@@ -1560,7 +1560,7 @@ Poboljšanja se mogu kategorizovati kao ušteda prostora (RAM, disk, propusni op
 Dobar primer računarskog poboljšanja može se pronaći u biblioteci [libsecp256k1](https://github.com/Bitcoin-core/secp256k1), koja, između ostalog, implementira kriptografske primitive potrebne za kreiranje i verifikaciju digitalnih potpisa. Pieter Wuille je jedan od saradnika na ovoj biblioteci, i napisao je [Twitter nit](https://twitter.com/pwuille/status/1450471673321381896) koja prikazuje poboljšanja performansi postignuta kroz različite pull zahteve.
 
 
-![](assets/libsecp256k1speedups.webp)
+![](assets/en/013.webp)
 
 
 Performanse verifikacije potpisa tokom vremena, sa značajnim pull request-ovima označenim na vremenskoj liniji
@@ -1574,7 +1574,7 @@ Postoji i nekoliko dobrih primera poboljšanja uštede prostora koja su doprinel
 [Medium blog post](https://murchandamus.medium.com/2-of-3-Multisig-inputs-using-Pay-to-Taproot-d5faf2312ba3) o doprinosu Taproot u uštedi prostora, korisnik Murch poredi koliko prostora u bloku bi zahtevala 2-od-3 praga potpis, koristeći Taproot na različite načine kao i bez njegovog korišćenja.
 
 
-![](assets/murch-taproot.webp)
+![](assets/en/014.webp)
 
 
 Ušteda prostora za različite tipove potrošnje, Taproot i nasleđene verzije.
@@ -1589,7 +1589,7 @@ Osim unutrašnjeg skaliranja u Bitcoin softveru, postoje neki načini na koje ko
 Ideja sa grupisanjem transakcija je da se više uplata kombinuje u jednu jedinu transakciju, umesto da se pravi jedna transakcija po uplati. Ovo može uštedeti mnogo na naknadama, a istovremeno smanjiti opterećenje prostora u bloku.
 
 
-![](assets/tx-batching.webp)
+![](assets/en/015.webp)
 
 
 Grupisanje transakcija kombinuje više uplata u jednu transakciju kako bi se uštedelo na naknadama.
@@ -1598,7 +1598,7 @@ Grupisanje transakcija kombinuje više uplata u jednu transakciju kako bi se uš
 Konsolidacija izlaza odnosi se na iskorišćavanje perioda niske potražnje za blok prostorom kako bi se kombinovalo više izlaza u jedan izlaz. Ovo može smanjiti vaše troškove naknade kasnije, kada budete morali da izvršite uplatu dok je potražnja za blok prostorom visoka.
 
 
-![](assets/utxo-consolidation.webp)
+![](assets/en/016.webp)
 
 
 Konsolidacija izlaza: Istopite svoje kovanice u jednu veliku kovanicu kada su naknade niske da biste kasnije uštedeli na naknadama.
@@ -1620,7 +1620,7 @@ Najuticajniji pristup skaliranju je verovatno slojevitost. Opšta ideja iza sloj
 Slojeviti protokol počinje sa dvoje ili više ljudi koji se dogovaraju o početnoj transakciji koja se stavlja na Blockchain, kao što je prikazano na slici ispod.
 
 
-![](assets/scaling-layer.webp)
+![](assets/en/017.webp)
 
 Tipičan Layer 2 protokol na vrhu Bitcoin, Layer 1.
 
@@ -1674,7 +1674,7 @@ Danas znamo da Bitcoin ne skalira dobro vertikalno ("kupiti veći hardver") ili 
 
 
 
-![](assets/shtf-banner.webp)
+![](assets/en/018.webp)
 
 Bitcoin je napravljen od strane ljudi. Ljudi pišu softver, i ljudi zatim pokreću taj softver. Kada se otkrije sigurnosna ranjivost ili ozbiljna greška - da li zaista postoji razlika između ta dva? - uvek ih otkriju ljudi, od krvi i mesa. Ovo poglavlje razmatra šta ljudi rade, šta bi trebalo da rade, i šta ne bi trebalo da rade kada stvari krenu po zlu. Prvi deo objašnjava termin *odgovorno otkrivanje*, koji se odnosi na to kako neko ko otkrije ranjivost može odgovorno da postupi kako bi pomogao u minimiziranju štete od nje. Ostatak poglavlja vodi vas kroz neke od najozbiljnijih ranjivosti otkrivenih tokom godina, i kako su se sa njima nosili programeri, rudari i korisnici. Stvari nisu bile tako rigorozne u ranom detinjstvu Bitcoin kao što su danas.
 
@@ -2019,7 +2019,7 @@ Potpuno otkrivanje ovog problema objavio je Pieter Wuille 28. jula 2015. u an
 E-pošta dalje iznosi detalje o tome kako je problem otkriven i tačnije šta ga je izazvalo. Na kraju, on podnosi vremenski sled događaja, a mi ćemo ovde ponovo prikazati neke od najvažnijih. Neki od njih su, kao što je prikazano na slici iznad, već opisani.
 
 
-![](assets/bip66-timeline-1.webp)
+![](assets/en/019.webp)
 
 
 Vremenska linija događaja oko BIP66. Stavke u crnom su objašnjene iznad.
@@ -2057,7 +2057,7 @@ Ovi događaji mogu vam dati utisak da je Gregory Maxwell znao za ranjivost koju 
 Zatim, kako je predložio Maxwell, BIP66 je kreiran kao podskup BIP62 koji je specificirao samo striktno DER kodiranje. Ovaj BIP je očigledno široko prihvaćen i implementiran u julu, iako su se ironično dogodile dve Blockchain podele zbog *validacionog Mining*. Ove podele su diskutovane u sledećem odeljku.
 
 
-![](assets/bip66-timeline-2.webp)
+![](assets/en/020.webp)
 
 
 Ključna pouka iz ovoga je da BIP-ovi treba da budu više ili manje *atomski*, što znači da treba da budu dovoljno kompletni da pruže nešto korisno ili reše specifičan problem, ali dovoljno mali da omoguće široku podršku među korisnicima. Što više stvari stavite u BIP, manja je šansa za prihvatanje.
@@ -2078,7 +2078,7 @@ Stranica sa upozorenjem je uputila ljude da sačekaju 30 dodatnih potvrda nego �
 Podela pomenuta gore dogodila se 2015-07-04 u 02:10 UTC nakon visine bloka [363730](https://Mempool.space/block/000000000000000006a320d752b46b532ec0f3f815c5dae467aff5715a6e579e). Ovaj problem je rešen u 03:50 istog dana, nakon što je iskopano 6 nevažećih blokova. Nažalost, isti problem se ponovo dogodio sledećeg dana, tj. 2015-07-05 u 21:50, ali ovaj put nevažeća grana je trajala samo 3 bloka.
 
 
-![](assets/bip66-timeline-3.webp)
+![](assets/en/021.webp)
 
 Događaji koji su doveli do BIP66, njegovo uvođenje i posledice predstavljaju veoma dobru studiju slučaja o tome koliko pažljivi Bitcoin programeri moraju biti. Nekoliko ključnih zaključaka iz BIP66:
 

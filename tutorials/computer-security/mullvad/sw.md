@@ -151,4 +151,4 @@ Ili kupata muhtasari wa akaunti yako ya Mullvad na kudhibiti vifaa mbalimbali vi
 Na hapo unayo, sasa umeandaliwa kufurahiya kikamilifu Mullvad VPN. Ikiwa ungependa kugundua mtoa huduma mwingine wa VPN sawa na Mullvad, kwa suala la vipengele na bei, ninapendekeza pia kuangalia mafunzo yetu juu ya IPP:
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68

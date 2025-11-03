@@ -125,7 +125,7 @@ Ef = 100%
 Un’efficienza del 100% indica che la transazione raggiunge il massimo livello di privacy consentito dalla sua struttura. 
 
 ### Densità di Entropia:
-Il quarto indicatore è, come indicato nello strumento, la `Entropy Density`. Essa fornisce una prospettiva sull'entropia relativa a ciascun input o output della transazione ed è utile per valutare e confrontare l'efficienza di transazioni di dimensioni diverse. Per calcolarlo, basta dividere l'entropia totale della transazione per il numero totale di input e output coinvolti:
+Il quarto indicatore è, come indicato nello strumento, `Entropy Density`. Essa fornisce una prospettiva sull'entropia relativa a ciascun input o output della transazione ed è utile per valutare e confrontare l'efficienza di transazioni di dimensioni diverse. Per calcolarlo, basta dividere l'entropia totale della transazione per il numero totale di input e output coinvolti:
 ```plaintext
 ED: la densità di entropia espressa in bit
 E: l'entropia della transazione espressa in bit

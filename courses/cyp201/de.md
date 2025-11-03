@@ -146,7 +146,7 @@ Die am häufigsten verwendete Hash-Funktion in Bitcoin ist **SHA256** ("_Secure 
 
 Diese Funktion wird in vielen Aspekten von Bitcoin verwendet. Auf Protokollebene ist sie am Proof-of-Work-Mechanismus beteiligt, wo sie in einer doppelten Hashing-Prozedur angewendet wird, um eine partielle Kollision zwischen dem Header eines Kandidatenblocks, der von einem Miner erstellt wurde, und dem Schwierigkeitsziel zu suchen. Wenn diese partielle Kollision gefunden wird, wird der Kandidatenblock gültig und kann zur Blockchain hinzugefügt werden.
 
-SHA256 wird auch beim Aufbau eines Merkle-Baums verwendet, der insbesondere der Akkumulator ist, der für die Aufzeichnung von Transaktionen in Blöcken verwendet wird. Diese Struktur findet sich auch im Utreexo-Protokoll, das die Größe des UTXO-Sets reduziert. Zusätzlich wird mit der Einführung von Taproot im Jahr 2021 SHA256 im MAST (_Merkelised Alternative Script Tree_) ausgenutzt, der es ermöglicht, nur die tatsächlich in einem Skript verwendeten Ausgabebedingungen zu offenbaren, ohne die anderen möglichen Optionen offenzulegen. Es wird auch bei der Berechnung von Transaktionsidentifikatoren, bei der Übertragung von Paketen über das P2P-Netzwerk, bei elektronischen Signaturen... verwendet. Schließlich, und das ist in dieser Schulung von besonderem Interesse, wird SHA256 auf Anwendungsebene für den Aufbau von Bitcoin-Wallets und die Ableitung von Adressen verwendet.
+SHA256 wird auch beim Aufbau eines Merkle-Baums verwendet, der insbesondere der Akkumulator ist, der für die Aufzeichnung von Transaktionen in Blöcken verwendet wird. Diese Struktur findet sich auch im Utreexo-Protokoll, das die Größe des UTXO-Sets reduziert. Zusätzlich wird mit der Einführung von Taproot im Jahr 2021 SHA256 im MAST (_Merkelised Alternative Script Tree_) genutzt, der es ermöglicht, nur die tatsächlich in einem Skript verwendeten Ausgabebedingungen zu offenbaren, ohne die anderen möglichen Optionen offenzulegen. Es wird auch bei der Berechnung von Transaktionsidentifikatoren, bei der Übertragung von Paketen über das P2P-Netzwerk, bei elektronischen Signaturen und weiteren Anwendungsfällen verwendet. Schließlich, und das ist in dieser Schulung von besonderem Interesse, wird SHA256 auf Anwendungsebene für den Aufbau von Bitcoin-Wallets und die Ableitung von Adressen verwendet.
 
 Meistens, wenn man in Bitcoin auf die Verwendung von SHA256 stößt, wird es tatsächlich ein doppelter Hash SHA256 sein, notiert als "**HASH256**", der einfach darin besteht, SHA256 zweimal hintereinander anzuwenden:
 
@@ -417,7 +417,9 @@ $$
 
 $$
 
-\Sigma_1(E) = RotR_6(E) \oplus RotR_{11}(E) \oplus RotR_{25}(E)$$
+\Sigma_1(E) = RotR_6(E) \oplus RotR_{11}(E) \oplus RotR_{25}(E)
+
+$$
 
 - **Funktion $Ch$ ("*Wählen*"):**
 

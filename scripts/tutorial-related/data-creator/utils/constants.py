@@ -23,6 +23,10 @@ PROJECT_CATEGORIES = [
     "node", "privacy", "service", "wallet"
 ]
 
+# Licence options
+LICENCE_OPTIONS = ["CC-BY-SA-V4", "MIT"]
+DEFAULT_LICENCE = LICENCE_OPTIONS[0]
+
 # Language options for main languages
 MAIN_LANGUAGE_CODES = {
     "en": "English",

@@ -12,7 +12,7 @@ Dalam tutorial ini, kita akan membahas proses pembuatan akun bisnis di Bitfinex,
 
 Jika Anda tertarik dengan topik mengintegrasikan bitcoin ke dalam bisnis Anda, saya juga merekomendasikan untuk mempelajari kursus pelatihan teori lengkap kami tentang topik ini:
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## 1 - Membuat akun Bitfinex
 
@@ -26,11 +26,11 @@ Lengkapi informasi yang diperlukan: masukkan alamat email bisnis dan negara temp
 
 Untuk tips menggunakan dan melindungi kata sandi yang kuat dan unik, lihat juga tutorial ini:
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Sekarang kita akan mengonfigurasi 2FA untuk mengamankan akun. Gunakan aplikasi otentikasi pada ponsel cerdas Anda, seperti Google Authenticator atau Authy misalnya. Anda akan menemukan tutorial tentang alat ini di sini:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Pindai kode QR dengan aplikasi Anda dan masukkan 6 digit yang disediakan.
 
@@ -160,7 +160,7 @@ Bitfinex juga menawarkan opsi setoran dan penarikan melalui Lightning Network, m
 
 Jika Anda tertarik dengan Lightning Network, kami juga memiliki kursus pelatihan lengkap untuk membantu Anda memahami cara kerjanya:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ## 6 - Membeli dan menjual bitcoin di Bitfinex
 
@@ -241,4 +241,4 @@ Tergantung pada tujuan dan struktur perusahaan Anda, penggunaan Bitfinex dapat b
 
 Untuk melihat topik ini secara lebih mendalam, saya merekomendasikan kursus pelatihan komprehensif tentang mengintegrasikan bitcoin ke dalam bisnis, yang mencakup secara rinci menambah arus kas, menerima pembayaran bitcoin, dan akuntansi:
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

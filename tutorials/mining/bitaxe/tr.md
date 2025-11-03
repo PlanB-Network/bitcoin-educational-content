@@ -5,7 +5,7 @@ description: BitAxe nasıl kurulur?
 ![video](https://youtu.be/tvLSK8v0MK8)
 
 
-### Giriş
+## Giriş
 
 
 BitAxe, Skot tarafından oluşturulan ve [GitHub'da mevcut] (https://github.com/skot/bitaxe) uygun maliyetli Mining denemelerine olanak tanıyan açık kaynaklı bir projedir.
@@ -27,7 +27,7 @@ BitAxe'in farklı çiplere ve performanslara sahip çeşitli sürümleri vardır
 Bu eğitimde, Antminer S19XP için kullanılan BM1366 çip ile donatılmış bir BitAxe Ultra 204 kullanacağız. Bu cihaz perakendeci tarafından monte edilmiş ve flaşlanmıştır.
 
 
-### [Perakendecilerin listesi bu sayfada mevcuttur](https://bitaxe.org/legit.html)
+[Bayilerin listesi bu sayfada mevcuttur](https://bitaxe.org/legit.html)
 
 
 ![signup](assets/2.webp)
@@ -39,7 +39,7 @@ Genellikle Supply güç ünitesi ile birlikte satılır. Değilse, 5V jak kablos
 ![signup](assets/1.webp)
 
 
-### Konfigürasyon
+## Yapılandırma
 
 BitAxe'inizi ilk taktığınızda, varsayılan olarak bir Wi-Fi ağına bağlanmayı deneyecektir. Beş denemeden sonra, bağlanabilmeniz ve yapılandırabilmeniz için kendi Wi-Fi ağının adını görüntüleyecektir.
 
@@ -70,7 +70,7 @@ Bu nedenle, Wi-Fi'nin SSID'sini, yani ağınızın adını, şifresini ve seçti
 Ekranda görebileceğiniz gibi `stratum+tcp://` ve `:3333` kısımlarını kaldırarak sadece `eu.stratum.braiins.com` kısmını bırakmanız gerekiyor. Ardından, `Port` alanına, havuz tarafından verilen URL'nin sonundaki 4 rakamı girin, ancak `:` olmadan. Burada, bu nedenle `3333` şeklindedir.
 
 
-Bu eğitimde Braiins Mining pool kullanıyoruz, ancak siz başka bir tane seçmekte özgürsünüz. Mining havuzları hakkındaki eğitimlerimizi [PlanB Network web sitesinde] bulabilirsiniz (https://planb.network/en/tutorials/mining).
+Bu eğitimde Braiins Mining pool kullanıyoruz, ancak siz başka bir tane seçmekte özgürsünüz. Mining havuzları hakkındaki eğitimlerimizi [Plan ₿ Academy web sitesinde] bulabilirsiniz (https://planb.academy/en/tutorials/mining).
 
 
 Ardından, `Kullanıcı` alanına tanımlayıcınızı ve ardından `Şifre`yi girin, genellikle `"x"` veya `"Anything123"` şeklindedir.
@@ -86,7 +86,7 @@ Tüm ayarları doğru bir şekilde girdikten sonra, alttaki `Kaydet` düğmesine
 
 Bilgilerinizi doğru girdiyseniz, cihaz hızlı bir şekilde Wi-Fi'nize ve ardından Mining pool'a bağlanmalı ve küçük ekranında bazı bilgileri görüntülemeye başlamalıdır. Mining pool'un kontrol panelinde görünmesi muhtemelen birkaç dakika alacaktır.
 
-### Gösterge Paneli ve Ekran
+## Gösterge paneli ve ekran
 
 
 Üç farklı ekran arasında geçiş yapılacaktır. Üçüncü sayfada, gösterge tablosuna bağlanmanızı sağlayan IP Address olan `IP` bilgisini göreceksiniz. Burada, Address `192.168.1.19`dur.

@@ -49,7 +49,7 @@ I den här handledningen tar vi dig igenom var och en av dessa aspekter för att
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 ## Komma igång med Speed Wallet
 
@@ -79,7 +79,7 @@ Speed Wallet kräver att du skapar ett användarkonto. Du kan skapa ett från di
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ![download](assets/fr/01.webp)
 
@@ -89,7 +89,7 @@ När ditt konto har skapats rekommenderar vi att du ställer in ett system med d
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 För att göra detta, gå till applikationsinställningarna och aktivera sedan dubbel autentisering och biometrisk verifiering.
 
@@ -205,9 +205,9 @@ Alternativen **Buy** och **Swap** låter dig växla 43 bitcoins mot de andra val
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+https://planb.academy/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
 ![swap-btc](assets/fr/07.webp)
 
@@ -265,7 +265,7 @@ Se vår handledning om hur du kommer igång med Bitrefill nedan.
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 ## Tjäna belöningar
 
@@ -327,7 +327,7 @@ I alternativet **Settings** på sidan **Wallet** kan du i avsnittet **Mini Apps*
 
 
 
-https://planb.network/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90e9-d37ad90ae770
+https://planb.academy/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90e9-d37ad90ae770
 
 ## Speed Wallet är inte bara för mobiler!
 
@@ -401,4 +401,4 @@ Du har nått slutet av vår handledning för Speed Wallet. Om du tyckte att denn
 
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04

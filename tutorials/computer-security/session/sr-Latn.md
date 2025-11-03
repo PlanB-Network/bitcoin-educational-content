@@ -145,7 +145,7 @@ Ova fraza funkcioniše na sličan način kao mnemonic fraze korišćene u Bitcoi
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 **Imajte na umu**: Za razliku od mnemonic fraza korišćenih u Bitcoin novčanicima, na Session, **apsolutno morate sačuvati svaku reč u celosti**. Prva 4 slova nisu dovoljna!
 
@@ -299,4 +299,4 @@ Preporučujem i ovaj drugi vodič, u kojem predstavljam Threema, još jednu zani
 
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74

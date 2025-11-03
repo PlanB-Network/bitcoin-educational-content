@@ -1,0 +1,27 @@
+id: 3f0a2aad-3867-4817-9b4e-c4f89edb5760
+
+credit_link: https://www.youtube.com/watch?v=LD99xHqRW8k
+
+project_id: 4bcf4f08-4205-4314-9c28-dd18273dce73
+
+tags:
+  - hardware
+  - wallets
+  - personal-security
+
+category: hardware
+
+level: intermediate
+
+professor_id: 2a24e333-d272-40b3-9840-3462191185e2
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-11-03
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0

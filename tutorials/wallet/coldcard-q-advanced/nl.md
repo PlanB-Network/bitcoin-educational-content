@@ -11,7 +11,7 @@ description: De geavanceerde opties van COLDCARD Q gebruiken
 In een vorige tutorial hebben we de eerste configuratie van de COLDCARD Q en de basisfuncties voor beginners behandeld. Als je je COLDCARD Q net hebt ontvangen en hem nog niet hebt ingesteld, raad ik je aan eerst die tutorial te lezen voordat je hier verder gaat:
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
 Deze nieuwe tutorial is gewijd aan de geavanceerde opties van COLDCARD Q, ontworpen voor gevorderde en paranoïde gebruikers. In feite onderscheiden COLDCARDs zich van andere hardware wallets door hun vele geavanceerde beveiligingsfuncties. Natuurlijk hoef je niet al deze opties te gebruiken. Kies gewoon de opties die passen bij jouw beveiligingsstrategie.
 
@@ -31,7 +31,7 @@ Voordat je begint, moet je ervoor zorgen dat je toegang hebt tot een fysieke bac
 Als je niet weet wat een BIP39 passphrase is, of als het je niet helemaal duidelijk is hoe het werkt, raad ik je ten zeerste aan om eerst deze tutorial te bekijken, die de theoretische basis behandelt die nodig is om de risico's van het gebruik van een passphrase te begrijpen:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Houd er rekening mee dat als je eenmaal de passphrase op je Wallet hebt ingesteld, je Mnemonic alleen niet genoeg is om weer toegang te krijgen tot je bitcoins. Je hebt zowel de Mnemonic als de passphrase nodig. Bovendien moet je de passphrase elke keer invoeren als je je COLDCARD Q ontgrendelt. Dit verhoogt de veiligheid, omdat fysieke toegang tot de COLDCARD en kennis van de PIN onvoldoende is zonder de passphrase.
 
@@ -102,7 +102,7 @@ Controleer of de weergegeven vingerafdruk overeenkomt met die van je Wallet en k
 Houd er rekening mee dat het gebruik van een passphrase betekent dat je een nieuwe set sleutels, afgeleid van de combinatie van je Mnemonic frase en passphrase, moet importeren in je Wallet beheersoftware (zoals Sparrow wallet). Volg hiervoor de stap "*Configureer een nieuwe Wallet op Sparrow*" in deze andere tutorial:
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
 ## Opties ontgrendelen
 
@@ -369,4 +369,4 @@ Als je deze tutorial nuttig vond, zou ik je erg dankbaar zijn als je hieronder e
 Ik raad ook deze andere tutorial aan, waarin we het gebruik bespreken van een directe concurrent voor CCQ, Ledger Flex :
 
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a

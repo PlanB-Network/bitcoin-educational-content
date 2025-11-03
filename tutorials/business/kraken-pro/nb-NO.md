@@ -10,7 +10,7 @@ I denne veiledningen går vi gjennom prosessen med å opprette en Kraken-forretn
 
 Hvis du er interessert i å integrere bitcoin i virksomheten din, vil jeg også anbefale at du tar en titt på vårt komplette teoretiske kurs om emnet:
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## 1 - Opprette en Kraken bedriftskonto
 
@@ -78,7 +78,7 @@ I 2FA-alternativene kan du velge å bruke en fysisk sikkerhetsnøkkel som en and
 
 Hvis du vil ha mer informasjon om hvordan du bruker denne typen enhet, kan du se vår egen veiledning:
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 Det andre alternativet er å bruke et autentiseringsprogram som Google Authenticator eller Authy. Disse programmene genererer en dynamisk sekssifret kode som du må oppgi hver gang du logger på.
 
@@ -90,7 +90,7 @@ For å aktivere denne metoden skanner du QR-koden med applikasjonen du velger p�
 
 Hvis du vil ha mer informasjon om autentiseringsapplikasjoner, kan du også lese denne veiledningen:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Under har du også tilgang til avanserte innstillinger, inkludert muligheten til å angi flere forskjellige 2FA-er. Kraken tilbyr avansert sikkerhetsdelegering via 2FA. Denne funksjonen lar deg opprette ulike 2FA-nivåer for ulike handlinger, for eksempel innlogging, ordrevalidering og uttak av midler. Dette gjør det for eksempel mulig å gi en regnskapsfører tilgang til visse funksjoner uten at han eller hun kan ta ut penger. Her er alternativene:
 
@@ -219,4 +219,4 @@ Bruken av Kraken kan variere avhengig av bedriftens mål og struktur.
 
 For en mer inngående titt på dette emnet anbefaler jeg dette omfattende kurset om integrering av bitcoin i virksomheter, som går i detalj inn på kontantstrøm, mottak av bitcoin-betalinger og regnskap:
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

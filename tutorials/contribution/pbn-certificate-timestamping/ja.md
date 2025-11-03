@@ -1,5 +1,5 @@
 ---
-name: Plan ₿ Network 卒業証書のタイムスタンプ
+name: Plan ₿ Academy 卒業証書のタイムスタンプ
 description: Plan ₿ ネットワークがあなたの証明書と卒業証書に検証可能な証明を発行する方法を理解する
 ---
 
@@ -65,13 +65,13 @@ zipファイルをダウンロードしてください。
 1. 次のコマンドでPlan ₿ Networkの公開PGPキーをインポートします：
 
 ```bash
-curl -s https://raw.githubusercontent.com/Asi0Flammeus/pgp-public-keys/master/planb-network-pk.asc | gpg --import
+curl -s https://raw.githubusercontent.com/Asi0Flammeus/pgp-public-keys/master/Plan ₿ Academy-pk.asc | gpg --import
 ```
 
 PGPキーを正常にインポートした場合、以下のようなメッセージが表示されます
 
 ```
-gpg: key 8F12D0C63B1A606E: public key "PlanB Network (used for PBN platform) <admin@planb.network>" imported
+gpg: key 8F12D0C63B1A606E: public key "Plan ₿ Academy (used for Plan ₿ Academy platform) <admin@planb.network>" imported
 gpg: Total number processed: 1
 gpg:               imported: 1
 ```
@@ -86,7 +86,7 @@ gpg --verify certificate.txt
 
 このコマンドは、署名に関する詳細を表示します。これには以下が含まれます：
 
-- 誰が署名したか（Plan ₿ Network）
+- 誰が署名したか（Plan ₿ Academy）
 - いつ署名されたか
 - 署名が有効かどうか
 
@@ -96,7 +96,7 @@ gpg --verify certificate.txt
 gpg: Signature made lun 11 nov 2024, 00:39:04 CET
 gpg:                using RSA key 5720CD577E7894C98DBD580E8F12D0C63B1A606E
 gpg:                issuer "admin@planb.network"
-gpg: Good signature from "PlanB Network (used for PBN platform) <admin@planb.network>" [unknown]
+gpg: Good signature from "Plan ₿ Academy (used for Plan ₿ Academy platform) <admin@planb.network>" [unknown]
 ```
 
 「BAD signature」というメッセージが表示された場合、ファイルが改ざんされています。

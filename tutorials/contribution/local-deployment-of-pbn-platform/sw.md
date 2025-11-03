@@ -1,6 +1,6 @@
 ---
-name: Mwongozo wa Kuendesha Jukwaa la Plan ₿ Network Ndani ya Nchi
-description: Unawezaje kuendesha Plan ₿ Network katika mazingira ya karibu nawe ili kujaribu mchango wangu wa maudhui au kusahihisha/ukaguzi wa maudhui ya elimu kwenye Plan ₿ Network?
+name: Mwongozo wa Kuendesha Jukwaa la Plan ₿ Academy Ndani ya Nchi
+description: Unawezaje kuendesha Plan ₿ Academy katika mazingira ya karibu nawe ili kujaribu mchango wangu wa maudhui au kusahihisha/ukaguzi wa maudhui ya elimu kwenye Plan ₿ Academy?
 ---
 ![github](assets/cover.webp)
 
@@ -8,7 +8,7 @@ description: Unawezaje kuendesha Plan ₿ Network katika mazingira ya karibu naw
 ## Kwa Muhtasari
 
 
-Mafunzo haya yanatoa maagizo ya hatua kwa hatua ya kusanidi Mfumo wa Kusimamia Masomo wa Bitcoin kutoka Plan ₿ Network kwenye mashine ya karibu nawe kwa kutumia Docker, vitufe vya dummy, na usanidi maalum wa hazina.
+Mafunzo haya yanatoa maagizo ya hatua kwa hatua ya kusanidi Mfumo wa Kusimamia Masomo wa Bitcoin kutoka Plan ₿ Academy kwenye mashine ya karibu nawe kwa kutumia Docker, vitufe vya dummy, na usanidi maalum wa hazina.
 
 
 Iwapo hukuelewa sehemu iliyo hapo juu, usijali—mafunzo haya ni kwa ajili yako!
@@ -147,7 +147,7 @@ Mara tu vyombo vinapofanya kazi, fikia sehemu ya mbele kwa:
 \[<http://localhost:8181](http://localhost:8181)>
 
 
-![Plan ₿ Network Local](assets/en/1.webp)
+![Plan ₿ Academy Local](assets/en/1.webp)
 
 
 Kumbuka: kwamba programu itapakia upya kiotomatiki ikiwa utabadilisha faili zozote za chanzo.
@@ -196,7 +196,7 @@ curl -X POST http://localhost:3000/api/github/sync
 ```
 
 
-![Plan ₿ Network Local](assets/en/2.webp)
+![Plan ₿ Academy Local](assets/en/2.webp)
 
 
 

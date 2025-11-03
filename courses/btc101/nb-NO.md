@@ -83,7 +83,7 @@ Det viktige poenget her er å forstå denne nye teknologien på en generell måt
 
 Klar til å dykke ned i den fascinerende verdenen av Bitcoin og forstå alle dets mekanismer? La oss gå!
 
-**Merk**: Hvis du støter på ukjente begreper i løpet av kurset, vennligst se [ordlisten](https://planb.network/resources/glossary) for definisjoner.
+**Merk**: Hvis du støter på ukjente begreper i løpet av kurset, vennligst se [ordlisten](https://planb.academy/resources/glossary) for definisjoner.
 
 ## Bitcoins forhistorie
 
@@ -141,7 +141,7 @@ Men er Bitcoin en "ekte" valuta? For å forstå dette må vi først forstå begr
 
 Hvis du ønsker å utforske Bitcoins historie i mer detalj, anbefaler vi vårt HIS 201-kurs, hvor du vil oppdage opprinnelsen og den langsomme fremveksten av Bitcoin, samt begynnelsen på dets historie og samfunn. Dette kurset er fullstendig dokumentert og kildebelagt, selvfølgelig med mange anekdoter:
 
-https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
+https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 # Penger
 
@@ -261,7 +261,7 @@ Vi kan avslutte dette kapittelet med et sitat fra nobelprisvinneren F.A. Hayek i
 > "Jeg tror ikke at vi noen gang skal få gode penger igjen før vi tar dem ut av myndighetenes hender. Hvis vi ikke kan ta dem ut av statens hender med vold, er det eneste vi kan gjøre å innføre noe de ikke kan stoppe på en eller annen lur eller omvei."
 > Hvis du vil lære mer om økonomiske feilslutninger og frihet, inviterer vi deg til å oppdage ECO 102-kurset vårt, som tar for seg livet og ideene til Frédéric Bastiat, en fransk 1800-tallstenker som helt sikkert ville ha satt pris på fremveksten av Bitcoin:
 
-https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
+https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
 ## Hyperinflasjon
 
@@ -350,7 +350,7 @@ En valuta som er avhengig av en betrodd tredjepart som en finansinstitusjon, er 
 
 Hvis du vil gå dypere inn i temaet hyperinflasjon, anbefaler vi David St-Onges ECO 204-kurs, der du lærer hva hyperinflasjonssykluser er og hvordan de påvirker livene våre. Du vil også oppdage likhetene mellom disse syklusene og, viktigst av alt, hvordan du kan beskytte deg mot dem.
 
-https://planb.network/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
+https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
 ## 21 millioner bitcoins
 
@@ -395,7 +395,7 @@ Etter å ha utført denne oppgaven blir utvinnerne belønnet med utstedelse av n
 | 19             | 3,990,000    | 0.000095367431640625 BTC  | 20,999,959.946 BTC                         |
 | 20             | 4,200,000    | 0.0000476837158203125 BTC | 20,999,979.973 BTC                         |
 
-Vi kommer tilbake til gruvedriftsbegrepet i [miner-kapittelet] (https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
+Vi kommer tilbake til gruvedriftsbegrepet i [miner-kapittelet] (https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
 
 ### Garanterer digital knapphet
 
@@ -503,11 +503,11 @@ Hva om noen ved et uhell gjetter listen vår med 12 eller 24 ord? Det korte svar
 
 Sannsynligheten for å hacke Bitcoin-lommeboken din er derfor astronomisk lav hvis du følger de gode sikkerhetsrutinene som vi vil beskrive i neste avsnitt.
 
-Husk å velge riktig lommebok for dine behov og din bruk: Detaljerte veiledninger om hvordan du administrerer og sikrer ulike lommebøker er tilgjengelige i [opplæringsdelen på universitetet vårt] (https://planb.network/tutorials/wallet).
+Husk å velge riktig lommebok for dine behov og din bruk: Detaljerte veiledninger om hvordan du administrerer og sikrer ulike lommebøker er tilgjengelige i [opplæringsdelen på universitetet vårt] (https://planb.academy/tutorials/wallet).
 
 Hvis du i løpet av din reise ned kaninhullet ønsker å lære mer om hvordan du bygger en Bitcoin-lommebok, fra entropi til mottak av adresser, anbefaler vi CYP 201-kurset som er dedikert til dette emnet:
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ## Bitcoin-lommebøker og sikkerhet
 
@@ -538,17 +538,17 @@ Nedenfor definerer vi flere sikkerhetsnivåer:
 
 Du kan for eksempel bruke Sparrow Wallet som en varm lommebok:
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 - På nivå 2\*\* bruker du en fysisk lommebok, og du har sikret listen din med 12/24 ord. Dette kalles ofte "cold Wallet" fordi nøklene dine er lagret på en enhet som ikke er koblet til internett. I dette tilfellet må du alltid signere hver transaksjon med enheten din, noe som gjør midlene dine mindre tilgjengelige på daglig basis.
 
 Du kan for eksempel bruke en Ledger, en Satochip eller en Tapsigner:
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
+https://planb.academy/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
 
-https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
+https://planb.academy/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
 
 ![image](assets/nb-NO/031.webp)
 
@@ -556,7 +556,7 @@ https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4
 
 Hvis du vil vite mer om hvordan BIP39-passordet brukes og fungerer:
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ![image](assets/nb-NO/032.webp)
 
@@ -582,7 +582,7 @@ Sikkerheten til bitcoinsene dine er av avgjørende betydning, og en enkel feil k
 
 Merk at BTC102-kurset vil veilede deg gjennom dette trinnet.
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ### Dette trinnet er ingen spøk!
 
@@ -617,7 +617,7 @@ Både "kalde" og "varme" lommebøker bruker ordlistemetoden som standard for sik
 
 Hvis du deretter ønsker å finne ut, trinn for trinn, hvordan du setter opp din egen lommebok og får dine første bitcoins, anbefaler vi også å ta dette andre kurset:
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ## Består tidens tann
 
@@ -629,7 +629,7 @@ Som enhver form for formue må bitcoins beskyttes mot tap, tyveri og forringelse
 
 En metode for å sikre bitcoinsene dine på lang sikt er å gravere minnefrasen din på et motstandsdyktig materiale som stål, ved å lage en fysisk sikkerhetskopi av nøklene dine som er motstandsdyktig mot både vann- og brannskader.
 
-Det finnes ulike løsninger: Noen av dem er rimelige, som for eksempel "Blockmit", mens andre kan kreve mer spesialisert utstyr. Du kan utforske dette emnet nærmere i [tutorials] (https://planb.network/en/tutorials/wallet) i akademiet vårt.
+Det finnes ulike løsninger: Noen av dem er rimelige, som for eksempel "Blockmit", mens andre kan kreve mer spesialisert utstyr. Du kan utforske dette emnet nærmere i [tutorials] (https://planb.academy/en/tutorials/wallet) i akademiet vårt.
 
 ![image](assets/nb-NO/036.webp)
 
@@ -637,7 +637,7 @@ Det finnes ulike løsninger: Noen av dem er rimelige, som for eksempel "Blockmit
 
 I tillegg til denne første praksisen er det avgjørende å lage en arveplan for å sikre at bitcoinsene dine blir forvaltet på riktig måte etter din død. Denne planen innebærer å skrive et brev der du beskriver eiendelene dine, tilgangsmetodene og kontaktinformasjonen til de betrodde personene som har ansvar for dem. Det er også viktig å diskutere arven av bitcoins med en notarius publicus for å sikre skattemessig etterlevelse, selv om denne personen aldri bør bli betrodd direkte med forvaltningen av bitcoinsene dine.
 
-Hvis du ønsker å utforske temaet arveplan for bitcoins ytterligere, anbefaler vi at du leser Pamela Morgans bok [Cryptoasset Inheritance Plan] (https://planb.network/resources/books/28) eller melder deg på BTC102-kurset, der vi gir deg veiledning i hvordan du utarbeider planen din.
+Hvis du ønsker å utforske temaet arveplan for bitcoins ytterligere, anbefaler vi at du leser Pamela Morgans bok [Cryptoasset Inheritance Plan] (https://planb.academy/resources/books/28) eller melder deg på BTC102-kurset, der vi gir deg veiledning i hvordan du utarbeider planen din.
 
 ![image](assets/nb-NO/037.webp)
 
@@ -718,7 +718,7 @@ I 2010, da Bitcoin begynte å tiltrekke seg medieoppmerksomhet, bestemte Satoshi
 
 For noen er Bitcoin definert som en sopp-enhet som et [mycel] (https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), mens andre beskriver det som et [svart hull] (https://dergigi.com/). Uansett om man elsker eller hater den, fortsetter Bitcoin å eksistere, med sin konstante rytme på 10 minutter per blokk, som hjerteslagene til et nytt pengesystem.
 
-Hvis du vil lære mer om Satoshi Nakamotos forfatterskap, anbefaler vi å lese ["The Book of Satoshi"] (https://planb.network/en/resources/books/98) av Phil Champagne eller ARTE-dokumentaren "Le mystaire Satoshi".
+Hvis du vil lære mer om Satoshi Nakamotos forfatterskap, anbefaler vi å lese ["The Book of Satoshi"] (https://planb.academy/en/resources/books/98) av Phil Champagne eller ARTE-dokumentaren "Le mystaire Satoshi".
 
 ![image](assets/nb-NO/044.webp)
 
@@ -911,7 +911,7 @@ Spillteorien som brukes på Bitcoin, eliminerer uærlige utvinnere, som bruker A
 
 Hvis du ønsker å gå dypere inn i det spesifikke temaet Bitcoin-gruvedrift, kan du se vårt MIN 201-kurs. Her får du vite hvordan Proof-of-Work fungerer og hvilken rolle det spiller, samt mekanikken i gruveindustrien. Vi forklarer også hvordan du konverterer en ASIC til en varmeovn, slik at du kan utvinne dine første satoshier mens du varmer opp hjemmet ditt!
 
-https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
+https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 ## Bitcoin og økologi
 
@@ -1062,17 +1062,17 @@ Vi kommer til å gå nærmere inn på dette temaet i et annet kurs, men for å h
 
 - Enkel løsning på nett: OpenNode
 
-https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 - Løsning for amatørselgere: Sveitsisk Bitcoin Pay
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - Løsning for store strukturer eller lidenskapelige bitcoinere: BTCpay Server
 
 For å utforske dette emnet videre, anbefaler vi vårt BIZ101-kurs! Oppdag hvordan du effektivt kan integrere bitcoin i selskapets finansforvaltning, akseptere bitcoin som betalingsmiddel i henhold til organisasjonens profil, og forstå tilhørende skatte- og regnskapskrav:
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## Sparer med Bitcoin
 
@@ -1087,7 +1087,7 @@ Bitcoin har blitt en viktig finansiell eiendel, hovedsakelig på grunn av det be
 - Tidligere resultater er ikke en pålitelig indikator på fremtidige resultater.
 - Kontakt finansrådgiveren din ved behov.
 
-**Plan ₿ Network gir ingen investeringsrådgivning, og ingenting av det som står her skal betraktes som slik**
+**Plan ₿ Academy gir ingen investeringsrådgivning, og ingenting av det som står her skal betraktes som slik**
 
 ### Minisjekkliste før du tar steget
 
@@ -1115,7 +1115,7 @@ En gradvis strategi innebærer gjentatte kjøp, det vil si å kjøpe små mengde
 
 **Pass deg for UTXO-er**: Husk å konsolidere UTXO-er i lommebøkene dine fra tid til annen. Denne praksisen er viktig for å administrere bitcoinsene dine effektivt og unngå unødvendige gebyrer under transaksjoner.
 
-[UTXO](https://planb.network/resources/glossary/utxo#:~:text=utxo) (Unspent Transaction Output) er en utgang fra en transaksjon som ennå ikke er brukt, noe som betyr at den ikke har blitt brukt som en inngang for en ny transaksjon. Å konsolidere UTXOer betyr å kombinere flere små UTXOer til én større, for å redusere "vekten" av transaksjonen og dermed betale lavere gebyrer.
+[UTXO](https://planb.academy/resources/glossary/utxo#:~:text=utxo) (Unspent Transaction Output) er en utgang fra en transaksjon som ennå ikke er brukt, noe som betyr at den ikke har blitt brukt som en inngang for en ny transaksjon. Å konsolidere UTXOer betyr å kombinere flere små UTXOer til én større, for å redusere "vekten" av transaksjonen og dermed betale lavere gebyrer.
 
 - Spontankjøp
 
@@ -1129,7 +1129,7 @@ Det finnes flere måter å anskaffe bitcoins på, og hver av dem er underlagt si
 
 - DCA-plattformer
 
-Som vi introduserte ovenfor, er en vanlig metode for å akkumulere bitcoins Dollar Cost Averaging (DCA), som innebærer regelmessig kjøp av små beløp. Flere plattformer tilbyr denne tjenesten, for eksempel de som er oppført på vår [dedikerte side](https://planb.network/tutorials/exchange). I tillegg til at det er enkelt å sette opp en DCA, er uttak til lommeboken din vanligvis automatiske, noe som betyr at du alltid vil ha kontroll over eiendelene dine.
+Som vi introduserte ovenfor, er en vanlig metode for å akkumulere bitcoins Dollar Cost Averaging (DCA), som innebærer regelmessig kjøp av små beløp. Flere plattformer tilbyr denne tjenesten, for eksempel de som er oppført på vår [dedikerte side](https://planb.academy/tutorials/exchange). I tillegg til at det er enkelt å sette opp en DCA, er uttak til lommeboken din vanligvis automatiske, noe som betyr at du alltid vil ha kontroll over eiendelene dine.
 
 I dag er nesten alle DCA-løsninger relativt effektive og har nesten like gebyrer, så valget vil avhenge mer av tilgjengeligheten i ditt land.
 
@@ -1157,7 +1157,7 @@ Det er viktig å erkjenne at KYC er et viktig diskusjonstema i Bitcoin-bransjen.
 
 ### Ikke-KYC løsninger
 
-I tillegg finnes det flere [markedsplasser](https://planb.network/tutorials/exchange) hvor du kan kjøpe og selge bitcoins i en peer-to-peer-utveksling. Generelt bør du vurdere følgende:
+I tillegg finnes det flere [markedsplasser](https://planb.academy/tutorials/exchange) hvor du kan kjøpe og selge bitcoins i en peer-to-peer-utveksling. Generelt bør du vurdere følgende:
 
 - Bitcoin-minibanker
 - Fysiske møter med andre bitcoin-entusiaster
@@ -1171,7 +1171,7 @@ Til slutt er det viktig å merke seg at skatteforpliktelsene kan variere avhengi
 
 Hvis du ønsker å fordype kunnskapen din om strategier for kjøp, bruk og sikring av dine bitcoins, anbefaler jeg på det sterkeste at du tar kurset **BTC 102** etter dette. Der vil du blant annet oppdage anbefalinger om verktøy som er tilpasset din profil, dine behov og dine personlige mål:
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ## Hyper-bitcoinisering
 
@@ -1193,7 +1193,7 @@ Til slutt inviterer vi deg til å reflektere over denne nye monetære revolusjon
 
 ![image](assets/nb-NO/079.webp)
 
-Hvis du ønsker å utvide kunnskapen din om Bitcoin, er dette det rette tidspunktet: et stort antall forfattere, tenkere og essayister har skapt pedagogisk innhold om Bitcoin. I løpet av de siste årene har vi listet og kategorisert disse verkene for å tilby et [bibliotek med ressurser] (https://planb.network/resources) til de mest nysgjerrige blant dere. I denne delen finner du de beste podkastene, nettstedene, artiklene, veiledningene, bøkene og annet innhold.
+Hvis du ønsker å utvide kunnskapen din om Bitcoin, er dette det rette tidspunktet: et stort antall forfattere, tenkere og essayister har skapt pedagogisk innhold om Bitcoin. I løpet av de siste årene har vi listet og kategorisert disse verkene for å tilby et [bibliotek med ressurser] (https://planb.academy/resources) til de mest nysgjerrige blant dere. I denne delen finner du de beste podkastene, nettstedene, artiklene, veiledningene, bøkene og annet innhold.
 
 > "Jeg tror at Internett kommer til å bli en av de viktigste drivkreftene for å redusere myndighetenes rolle. Det eneste som mangler, men som snart vil bli utviklet, er en pålitelig e-kontant - en metode der du på Internett kan overføre penger fra A til B uten at A kjenner B eller B kjenner A." - Milton Friedmans spådom i 1999
 
@@ -1243,7 +1243,7 @@ Oppsummert er Lightning Network et lovende forsøk på å implementere et effekt
 
 Hvis du ønsker å gå lenger enn denne introduksjonen og forstå hvordan Lightning Network fungerer, anbefaler vi at du tar dette utmerkede kurset av Fanis Michalakis om emnet:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ## Brukstilfeller for Lightning Network
 

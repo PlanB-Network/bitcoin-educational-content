@@ -20,6 +20,38 @@ Viel Spaß bei Ihrer Entdeckung!
 
 +++
 
+# Einführung
+
+<partId>bd35d5be-323e-42e0-a0ba-10729f71c3bd</partId>
+
+## Kursübersicht
+
+<chapterId>ee9d6cdf-4c97-455b-8220-cf6dfc95cb8e</chapterId>
+
+Willkommen im Kurs PRO 202 _**Programming Bitcoin**_, einer intensiven Reise, die Sie von der endlichen Feldarithmetik bis hin zum Erstellen und Übertragen echter Transaktionen im Bitcoin-Testnetz führt.
+
+In diesem Kurs werden Sie schrittweise eine Bitcoin-Bibliothek in Python erstellen und dabei die kryptografischen, protokollarischen und softwaretechnischen Grundlagen erwerben, die notwendig sind, um präzise über die Sicherheit und die inneren Abläufe von Bitcoin zu argumentieren. Der PRO 202-Ansatz ist vollständig praxisorientiert: jedes Konzept wird sofort in Jupyter-Notebooks implementiert, sodass Theorie und Code sich gegenseitig stärken.
+
+### Wesentliche mathematische Konzepte für Bitcoin
+
+Dieser erste Abschnitt legt das unverzichtbare mathematische Fundament. Sie werden die Arithmetik endlicher Körper und Operationen auf elliptischen Kurven implementieren (Gruppengesetz, Addition, Verdopplung, Skalarmultiplikation...) — die Voraussetzungen für ECDSA. Das Ziel ist zweifach: die algebraische Struktur zu verstehen, die kryptografische Signaturen ermöglicht, und zuverlässige Python-Werkzeuge zu entwickeln, um damit zu arbeiten.
+
+Anschließend werden Sie die Komponenten von ECDSA formalisieren: Schlüsselgenerierung, Punktformatierung, Hashing, Signaturerstellung und -überprüfung. Dieser Abschnitt verbindet Theorie direkt mit Praxis und betont Implementierungsdetails sowie die Robustheit des zugrunde liegenden Sicherheitsmodells.
+
+### Das Innenleben einer Bitcoin-Transaktion
+
+Im zweiten Abschnitt werden Sie die Struktur einer Bitcoin-Transaktion analysieren: UTXOs, Eingaben/Ausgaben, Sequenzen, Skripte, Kodierungen und mehr. Sie werden Code schreiben, um Transaktionen zu erstellen, zu signieren und zu verifizieren, und dabei ein genaues Verständnis davon gewinnen, was durch den Hash festgelegt wird und warum.
+
+Als Nächstes implementieren Sie einen minimalen _Script_-Interpreter, überprüfen wichtige Opcodes und validieren Ausgabepfade. Das Ziel ist, Sie in die Lage zu versetzen, das Transaktionsverhalten zu prüfen, Validierungsfehler zu diagnostizieren und über die Sicherheit von Ausgaberegeln zu urteilen.
+
+### Das Innenleben des Bitcoin-Netzwerks
+
+Im dritten Abschnitt werden Sie die Transaktion in das größere System einordnen: Blockstruktur, Header, Schwierigkeit und den Proof-of-Work-Mechanismus. Sie werden mit Protokollnachrichten, Block-Headern und Merkle-Bäumen arbeiten.
+
+Abschließend werden Sie die Peer-to-Peer-Knotenkommunikation, Nachrichtenoptimierung und die Einführung von SegWit untersuchen.
+
+Wie bei jedem Kurs an der Plan ₿ Academy enthält der letzte Abschnitt eine Bewertung, die darauf ausgelegt ist, Ihr Verständnis zu festigen. Bereit, die inneren Abläufe von Bitcoin zu entdecken und den Code zu schreiben, der es antreibt? Los geht’s!
+
 # Grundlegende mathematische Konzepte für Bitcoin
 
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>

@@ -9,7 +9,7 @@ category: mobile
 professor_id: 94b1f27b-c0bd-432c-a2b5-17db0f6dd435
 
 tags:
-  - wallets
+  - hardware-wallet-ready
   - guides
   - onchain
 
@@ -143,7 +143,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.22
+    reward: 7.76
   - language: rn
     last_contribution_date:
     urgency: 1

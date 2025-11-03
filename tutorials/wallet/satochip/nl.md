@@ -213,7 +213,7 @@ Je kunt een "*Label*" toevoegen om de bron van de bitcoins te beschrijven die me
 Voor meer informatie over labelen, raad ik je ook aan om deze andere tutorial te bekijken:
 
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Je kunt deze Address dan gebruiken om bitcoins te ontvangen.
 

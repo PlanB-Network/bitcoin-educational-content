@@ -32,12 +32,12 @@ Kamilisha maelezo yanayohitajika: weka barua pepe yako Address na nchi unayoishi
 Kwa vidokezo vya kutumia na kulinda manenosiri thabiti na ya kipekee, ona pia mafunzo haya :
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Sasa tutasanidi 2FA ili kulinda akaunti. Tumia programu ya uthibitishaji kwenye simu yako mahiri, kama vile Kithibitishaji cha Google au Authy kwa mfano. Utapata mafunzo juu ya zana hii hapa:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Changanua msimbo wa QR na programu yako na uweke tarakimu 6 zilizotolewa.
 
@@ -245,9 +245,9 @@ Bitfinex pia inatoa chaguzi za kuweka na uondoaji kupitia Lightning Network, kuw
 Ikiwa ungependa Lightning Network, pia tuna kozi kamili ya mafunzo ili kukusaidia kuelewa jinsi inavyofanya kazi:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-Baada ya kununua bitcoins zako za kwanza, ni wazi kuwa una fursa ya kuwaacha kwenye jukwaa, lakini ninapendekeza sana kuwahamisha kwenye Wallet yako mwenyewe kwa kujitegemea. Ikiwa bado hujui jinsi ya kutumia Bitcoin Wallet, ninakualika uchunguze [sehemu ya "Wallet" kwenye Plan ₿ Network](https://planb.network/tutorials/wallet).
+Baada ya kununua bitcoins zako za kwanza, ni wazi kuwa una fursa ya kuwaacha kwenye jukwaa, lakini ninapendekeza sana kuwahamisha kwenye Wallet yako mwenyewe kwa kujitegemea. Ikiwa bado hujui jinsi ya kutumia Bitcoin Wallet, ninakualika uchunguze [sehemu ya "Wallet" kwenye Plan ₿ Academy](https://planb.academy/tutorials/wallet).
 
 
 ## 6 - Kununua na kuuza bitcoins kwenye Bitfinex

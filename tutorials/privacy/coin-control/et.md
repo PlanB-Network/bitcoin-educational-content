@@ -51,7 +51,7 @@ Bitcoin protokollis ei ole selliseid elemente nagu _konto_ või _rahaühikud_ ol
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 Bitcoin abil kogunevad ja hiljem kulutatakse väikesed või suured arvestusühikud, mida mõõdetakse Satoshi, mida esindavad `kulutamata tehingu väljundid`, **UTXO**, mida nimetatakse ka `müntideks`. Kui kasutate UTXOsid tehingu loomiseks, hävitatakse need täielikult ja nende asemele luuakse teised UTXOd.
 
@@ -568,7 +568,7 @@ Coin kontroll on väga tõhus tava oma tehingusisendite valimiseks. Käsitsi val
 
 
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Me oleme varem rääkinud "säilmete segregatsioonist". Kui te soovite lukustada jäänused hilisemaks töötlemiseks ja taastada privaatsust (vahetus Layer 2), peate hoolitsema selle eest, et `märgistada` neid iga kord, kui te saate ühe jäänuse. Seni nähtud tarkvarakomplektidest ainult Electrum värvib UTXO jäägid graafiliselt, et need oleksid silmaga nähtavad. Teised, näiteks Sparrow, näitavad teile ahelat üksiku UTXO tuletamise teel (`m/84'/0'/0'/0'/1/11`).
 

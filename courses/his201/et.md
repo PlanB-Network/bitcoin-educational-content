@@ -24,6 +24,9 @@ See kursus keskendub muidugi Satoshi Nakamoto figuurile, kelle sõnu ja tegusid 
 ## Kursuse ülevaade
 
 <chapterId>85290407-1aa3-4cb4-890a-aed23441afb7</chapterId>
+
+:::video id=d1eddf56-279d-459a-9568-5674606f0fd1:::
+
 Tere tulemast kursusele HIS201!
 See kursus eesmärk on jutustada teile Bitcoini loomise lugu viisil, nagu te pole seda kunagi varem lugenud. See on sageli tähelepanuta jäetud, hoolimata sellest, et see on täis põnevaid detaile. Püüame seda kirjeldada kogu selle keerukuses, alates selle kontseptsiooni loomisest Satoshi Nakamoto poolt kuni tema varajase kadumiseni ja üleandmiseni kogukonnale.
 
@@ -89,6 +92,9 @@ Oled valmis uurima Bitcoini uskumatu loomise lugu? Siis sukeldume koos sellesse 
 ## eCash: Chaumi Digitaalne Raha
 
 <chapterId>e443d2ab-68ce-45c0-aec7-30b88d3acdc8</chapterId>
+
+:::video id=fe306046-2245-43a7-9144-6fbafda3205e:::
+
 Enne kui sukeldume Bitcoin'i loomise tegelikku lugu Satoshi Nakamoto poolt, on asjakohane arutada, mis seda eelnes. Käsitleme teemat kolmes etapis: esiteks tutvustame Chaumiani digitaalse sularaha kontseptsiooni, mida tavaliselt nimetatakse _eCash_; seejärel räägime era-valuutadest, mis põhinevad tsentraliseeritud süsteemidel nagu e-gold; lõpuks kirjeldame tehnilisi mudeleid, mis kujutati ette enne Bitcoin'i robustse hajutatud süsteemi rakendamist.
 Alustame esimesest kontseptsioonist, eCash. eCash pärineb David Chaumi tööst, kes on Ameerika arvutiteadlane ja krüptograaf, sündinud 1955. aastal, peetakse anonüümse suhtluse valdkonna pioneeriks ja krüptopunkide eelkäijaks. Ta andis olulise panuse krüptograafia arengusse 1980. aastatel. Ta töötas välja oma digitaalse sularaha mudeli (tuntud kui "Chaumiani") samal ajal ja üritas seda 1990. aastatel oma ettevõtte DigiCash kaudu rakendada.
 
@@ -122,7 +128,7 @@ Diffie ja Hellmani artikkel sillutas tee paljudele innovatsioonidele. Üks neist
 Asümmeetrilise krüptograafia avastamine motiveeris ka ühesuunaliste funktsioonide loomist, mida iseloomustab kujutise (edasisuunal) arvutamine väga lihtsaks ja eelkujutise (tagasisuunal) saamine väga raskeks. Eelkõige viis see esimeste krüptograafiliste räsifunktsioonide arendamiseni, mis muutsid muutuva suurusega sõnumi fikseeritud suurusega kokkuvõtteks. Aastatel 1989 kuni 1991 kujundas Ronald Rivest MIT jaoks mitu räsialgoritmi (MD2, MD4 ja MD5).
 Bitcoini põhilised krüptograafilised elemendid pärinevad sellest uurimusest. ECDSA allkirjastamise skeem, mis võimaldab traditsioonilise tehingu kulutamise autoriseerimist, loodi 1992. aastal NISTi jaoks. SHA-256 räsifunktsioon, mida kasutatakse protokollis mitmes kohas, avaldati 2001. aastal osana SHA-2 algoritmide komplektist, mille tegi avalikuks NSA. Lisateavet selle teema kohta leiate kursuselt CYP201 mida esitleb Loïc Morel.
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### Pimedad Allkirjad ja Elektrooniline Sularaha
 
@@ -190,7 +196,7 @@ Samal ajal ilmusid ka teised alternatiivsed tsentraliseeritud süsteemid, nagu e
 
 Seejärel inspireeris eCash krüptopunkte, kes arendasid oma mudeleid nagu b-money, bit gold ja RPOW. Nad lisasid töötõenduse ja teisi elemente, mis hiljem leiti Bitcoinist. Neid kontseptsioone uurime 3. peatükis.
 
-Lõpuks mõjutas David Chaumi mudel oluliselt Satoshi Nakamotot, kui ta arendas oma valuuta kontseptsiooni. Seda tõendavad mitmed viited [valges raamatus](assets/pdf/bitcoin-20090324.pdf) (pealkiri, probleemi kirjeldus jaotises 2, PDF-i nimi [saadetud](https://gwern.net/doc/bitcoin/2008-nakamoto) Wei Daile augustis 2008), samuti tema privaatsed ja avalikud sekkumised. Selles mõttes on eCash Bitcoin'i peamine eelkäija, kuigi see pole ainus.
+Lõpuks mõjutas David Chaumi mudel oluliselt Satoshi Nakamotot, kui ta arendas oma valuuta kontseptsiooni. Seda tõendavad mitmed viited [valges raamatus](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/courses/his201/assets/bitcoin-20090324.pdf) (pealkiri, probleemi kirjeldus jaotises 2, PDF-i nimi [saadetud](https://gwern.net/doc/bitcoin/2008-nakamoto) Wei Daile augustis 2008), samuti tema privaatsed ja avalikud sekkumised. Selles mõttes on eCash Bitcoin'i peamine eelkäija, kuigi see pole ainus.
 
 Bitcoiniga lõi Satoshi Nakamoto vastupidava ja konfidentsiaalse digitaalse valuuta, tõelise elektroonilise sularaha. Tehes seda, realiseeris ta Milton Friedmani, Nobeli majanduspreemia laureaadi ja Chicago Kooli asutaja [ennustuse](https://www.youtube.com/watch?v=mlwxdyLnMXM&t=872s), kes ütles intervjuus National Taxpayers Union Foundationile 1999. aastal:
 
@@ -199,6 +205,8 @@ Bitcoiniga lõi Satoshi Nakamoto vastupidava ja konfidentsiaalse digitaalse valu
 ## Privaatsed Digitaalsed Valuutad
 
 <chapterId>43035fa3-2805-4331-a6fb-070931d749cf</chapterId>
+
+:::video id=0f75ff53-ebf6-481c-9d1c-863fabb19a6a:::
 
 Eelmises peatükis uurisime elektroonilise sularaha esimest vormi, mis tekkis Interneti ja kaasaegse krüptograafia tulekuga: David Chaumi eCash mudel. See mudel mõjutas oluliselt Satoshi Nakamotot ja oli oluline verstapost teel, mis viis Bitcoini. Kuid krüptoraha päritolu lugu ei lõppe eCashiga; see hõlmab ka eksperimente privaatsete valuutadega, mis arendati välja 1990ndate lõpus Internetis.
 
@@ -271,6 +279,8 @@ Just selle kesksete süsteemide hapruse tõttu otsisid vabaduse pooldajad – se
 
 <chapterId>a104f23c-e9c3-4457-a194-d87cc5f35f13</chapterId>
 
+:::video id=67e5f851-5ff6-4876-a74d-c5f8130b555c:::
+
 Bitcoin esindab digitaalse valuuta detsentraliseeritud mudelit. Tehes seda, väldib see vajadust usaldusväärse kolmanda osapoole järele, mis moodustaks süsteemis ühe rikkepunkti. Nagu näitavad eCash'i, digitaalse kulla valuutade ja Liberty Reserve'i näited, viib süsteemi tsentraliseerimine, mille eesmärk on olla olemasolevale süsteemile alternatiiviks, paratamatult selle sulgemiseni ühel või teisel viisil.
 Siiski, Bitcoin ei olnud esimene detsentraliseeritud valuuta kontseptsioon, mis oli välja pakutud. Alates 1990ndate lõpust olid sellised mudelid kirjeldatud krüptopunkide poolt, kes olid vabaduse ja üksikisikute privaatsusega Internetis kinnisideeks ning kes uskusid (nagu David Chaum), et jälgitavad süsteemid viivad düstoopilise tulevikuni. Nad [kutsusid](https://cypherpunks.venona.com/date/1993/03/msg00392.html) üles "kirjutama koodi" ja pidasid "elektroonilist raha" oma ideaali oluliseks elemendiks. (_originaal: "Cypherpunks write code. (...) We are defending our privacy with cryptography, with anonymous mail forwarding systems, with digital signatures, and with electronic money."_)
 
@@ -302,7 +312,7 @@ Siiski on ajatemplimine eriti kasulik digitaalses maailmas, kus faile (tekst, pi
 Näide sertifitseeritud ajatemplite kohta (allikas: [Wikimedia](https://en.m.wikipedia.org/wiki/File:Trusted_timestamping.svg))
 
 Haber ja Stornetta viisid oma idee ellu, avaldades krüptograafilisi sõrmejälgi (mis saadi kasulike andmete räsimisel) New York Times'i liigitatud kuulutustes alates 1992. aastast. Seejärel asutasid nad 1994. aastal oma ettevõtte Surety Technologies, eesmärgiga pühenduda täielikult sellele tegevusele. Seega on nad [tuntud](https://www.vice.com/en/article/j5nzx4/what-was-the-first-blockchain) esimese ajatemplite ahela loomise poolest, kus eelmist sõrmejälge arvestati uue, ajalehes avaldatava sõrmejälje arvutamisel, mis ennustas ette Bitcoin'i plokiahela.
-Satoshi Nakamoto tsiteeris Bitcoin'i valge raamatu [Bitcoin white paper](assets/pdf/bitcoin-20090324.pdf) kolme Haberi ja Stornetta artiklit: eelpool mainitud 1991. aasta artikkel, [artikkel](https://www.math.columbia.edu/~bayer/papers/Timestamp_BHS93.pdf) aastast 1993, mis täiustas varasemates artiklites pakutud protokolle, eriti Merkle'i puude kasutamise kaudu, ja [artikkel](https://cdn.nakamotoinstitute.org/docs/secure-names-bit-strings.pdf) aastast 1997, mis esitles viisi failide universaalseks nimetamiseks kasutades ühesuunalisi funktsioone. Samuti tsiteeriti [artiklit](https://cdn.nakamotoinstitute.org/docs/secure-timestamping-service.pdf), mis kirjeldas uut ajatemplite süsteemi, mille kirjutasid 1999. aastal Henri Massias, Xavier Serret-Avila ja Jean-Jacques Quisquater, kolm meest, kes töötasid krüptograafia uurimisrühmas Louvaini Katoliku Ülikoolis Belgias.
+Satoshi Nakamoto tsiteeris Bitcoin'i valge raamatu [Bitcoin white paper](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/courses/his201/assets/bitcoin-20090324.pdf) kolme Haberi ja Stornetta artiklit: eelpool mainitud 1991. aasta artikkel, [artikkel](https://www.math.columbia.edu/~bayer/papers/Timestamp_BHS93.pdf) aastast 1993, mis täiustas varasemates artiklites pakutud protokolle, eriti Merkle'i puude kasutamise kaudu, ja [artikkel](https://cdn.nakamotoinstitute.org/docs/secure-names-bit-strings.pdf) aastast 1997, mis esitles viisi failide universaalseks nimetamiseks kasutades ühesuunalisi funktsioone. Samuti tsiteeriti [artiklit](https://cdn.nakamotoinstitute.org/docs/secure-timestamping-service.pdf), mis kirjeldas uut ajatemplite süsteemi, mille kirjutasid 1999. aastal Henri Massias, Xavier Serret-Avila ja Jean-Jacques Quisquater, kolm meest, kes töötasid krüptograafia uurimisrühmas Louvaini Katoliku Ülikoolis Belgias.
 
 ### Proof of Work ja Hashcash
 
@@ -401,6 +411,8 @@ Bitcoin kujutab endast seega küberraha otsingu kulminatsiooni, valuutat, mis ek
 
 <chapterId>3d141918-e9c2-46e8-8c03-2bb4eb9b2150</chapterId>
 
+:::video id=825522d8-1ccc-4d14-80ac-e292a85a608a:::
+
 Pärast seda, kui oleme õppinud, kust Bitcoin pärineb, keskendume nüüd selle ajaloole endale. Sellest on aastate jooksul kirjutatud arvukalt artikleid, podcast'e ja videoid, nii et see on peaaegu muutunud omamoodi asutavaks müüdiks. Nagu oleme näinud, on Bitcoin lahutamatu kontekstist, milles see loodi; sama kehtib ka sündmuste kohta, mis toimusid selle varajastel aastatel, mis on kujundanud seda, mis see täna on, oma kvaliteetide ja puudustega.
 Bitcoin lõi Satoshi Nakamoto, tundmatu isik, kes väitis olevat jaapanlane, kes võttis aega, et seda hoolikalt kujundada enne selle avalikustamist. Seejärel tegid nad kõik endast oleneva, et tagada Bitcoini käivitamine parimatel tingimustel, et see oleks aruteludes hästi esitletud ja et seda kasutaks üha rohkem inimesi. Lõppkokkuvõttes oli looja pingutus nii süsteemi majanduslikus algatamises kui ka selle algkujunduses, kui mitte rohkem.
 
@@ -436,7 +448,7 @@ Oma osa lõpetab Satoshi oma leiutise avalikkusele ettevalmistamise. 3. oktoobri
 
 ### Valge raamatu avaldamine
 
-31. oktoobril 2008 avaldab Satoshi Nakamoto [valge raamatu esimese versiooni](assets/pdf/bitcoin-20081003.pdf) e-posti meilinglistis, mis on pühendatud krüptograafiale, lihtsalt nimetatud "Krüptograafia meilinglist." Seda listi on alates selle [loomisest](https://cypherpunks.venona.com/date/1996/12/msg00102.html) 1996. aastal haldanud arendaja Perry Metzger ja alates [2003](https://www.metzdowd.com/pipermail/cryptography/2003-April/004484.html) aastast on see majutatud tema isiklikul saidil, Metdowd.com. See on cypherpunks listi järeltulija, erinevusega, et see on rangelt modereeritud. 2008. aastal osalesid selles mitmed endised cypherpunksid, nagu John Gilmore, Hal Finney ja Len Sassaman.
+31. oktoobril 2008 avaldab Satoshi Nakamoto [valge raamatu esimese versiooni](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/courses/his201/assets/bitcoin-20081003.pdf) e-posti meilinglistis, mis on pühendatud krüptograafiale, lihtsalt nimetatud "Krüptograafia meilinglist." Seda listi on alates selle [loomisest](https://cypherpunks.venona.com/date/1996/12/msg00102.html) 1996. aastal haldanud arendaja Perry Metzger ja alates [2003](https://www.metzdowd.com/pipermail/cryptography/2003-April/004484.html) aastast on see majutatud tema isiklikul saidil, Metdowd.com. See on cypherpunks listi järeltulija, erinevusega, et see on rangelt modereeritud. 2008. aastal osalesid selles mitmed endised cypherpunksid, nagu John Gilmore, Hal Finney ja Len Sassaman.
 
 Oma esimeses [e-kirjas](https://www.metzdowd.com/pipermail/cryptography/2008-October/014810.html), mis on adresseeritud listile, kirjutab Satoshi lihtsalt:
 
@@ -469,7 +481,7 @@ Hal Finney 2007. aastal
 
 Bitcoin kasutab hajutatud konsensusalgoritmi, mis võimaldab kõigil võrgusõlmedel kokku leppida pearaamatu sisus, millele Hal Finney oma esimeses e-kirjas viitab kui "block chain" (plokiahel), kasutades kahte sõna. Õige plokiahel on see, millel on kõige rohkem plokke, ja konkureerivate plokkide üle peetavad vaidlused lahendatakse selle lihtsa põhimõtte alusel. Määrus täiustatakse [hiljem](https://sourceforge.net/p/bitcoin/code/109/), võttes arvesse kogunenud töö hulka, mitte plokkide arvu.
 See konsensusmehhanism võimaldab süsteemi kehtestada igasuguseid reegleid ja stiimuleid (kasutades valge raamatu viimast väljendit). Kuna Bitcoin on hajutatud ajatempliteenus, on võimalik ka nende reeglite seostamine ajaga. Seega tuleb mängu raskusastme kohandamise algoritm, mis reguleerib uute plokkide ja nendega seotud bitcoinide tootmist: kui antud perioodi jooksul toodetud plokkide arv on liiga suur, siis tootmise raskusaste suureneb; vastupidisel juhul väheneb. Seega erineb Bitcoin RPOW-st, kus töötõendid ise moodustasid arvestusühikud.
-Tänu sellele raskusastme kohandamisele saab Bitcoinil seega olla rahapoliitika, mis tähendab, et protokolli poolt emiteeritud uute ühikute hulk saab olla ette määratud. Algselt on kavandatud, et rahaline emissioon on püsiv, et julgustada tootvaid sõlmi panustama oma arvutusvõimsust võrku, ja tehingutasusid ei ole. Nagu Satoshi Nakamoto kirjutab valge raamatu "Incentive" (Stiimul) jaotises [valge raamat](assets/pdf/bitcoin-20081003.pdf):
+Tänu sellele raskusastme kohandamisele saab Bitcoinil seega olla rahapoliitika, mis tähendab, et protokolli poolt emiteeritud uute ühikute hulk saab olla ette määratud. Algselt on kavandatud, et rahaline emissioon on püsiv, et julgustada tootvaid sõlmi panustama oma arvutusvõimsust võrku, ja tehingutasusid ei ole. Nagu Satoshi Nakamoto kirjutab valge raamatu "Incentive" (Stiimul) jaotises [valge raamat](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/courses/his201/assets/bitcoin-20081003.pdf):
 
 > "Uute müntide pidev lisamine kindlas koguses on analoogne kullakaevuritega, kes kulutavad ressursse, et lisada kulda ringlusse."
 
@@ -521,6 +533,8 @@ Siiski, see töö ei olnud piisav ja Satoshi'l tuli näidata üles visadust, et 
 ## Esitlus Maailmale
 
 <chapterId>28be3515-d9da-4d91-b7ff-f8691d51c562</chapterId>
+
+:::video id=c9691569-f026-460d-a08d-98fa54f1ce25:::
 
 Pärast seda, kuidas Bitcoin oli Satoshi Nakamoto poolt kujundatud ja käivitatud, keskendume sellele, kuidas see avalikkusele esitleti. Pärast 2009. aasta alguses toimunud käivitamist oli võrk töös, kuid genereerivaid sõlmi oli vähe (Satoshi kaevandas suurema osa plokkidest) ja tegevus oli peaaegu olematu (jaanuarikuu jooksul toimus 32 tegelikku tehingut). Projektile oli olemas ainult baasiline veebileht ja SourceForge'i leht tarkvara allalaadimiseks. Pealegi piirdus Bitcoin'i kommunikatsioon Metzdowdi krüptograafia meililistiga, mida jälgis parimal juhul mõnisada krüptograafiast huvitatud inimest.
 
@@ -672,6 +686,9 @@ Bitcoin'i edendamine toimus mitmes etapis: esmalt keskendus Satoshi veebimaksete
 ## Krüptoraha käivitamine
 
 <chapterId>6b3418a7-125e-4ea1-a03a-f36090fac8a4</chapterId>
+
+:::video id=2a31c9c2-bb14-4ed5-b906-7df373f81f98:::
+
 Eelmistes peatükkides vaatlesime, kuidas Satoshi Nakamoto oma ideed rakendas ja kuidas ta sellest maailmale teada andis, et tutvustada Bitcoini. Siiski ei sõltunud kõik temast: oli vajalik, et inimesed omistaksid väärtuse arvestusühikule. Kuna see võimaldas kaevuritele tasustamist tehingutasude kaudu ja premeeris kaupmehi loomuliku deflatsiooni kaudu, oli selline tunnustus süsteemi turvalisuse jaoks hädavajalik.
 Bitcoini väärtuse tekkimine aga ei olnud lihtne ülesanne. Tegemist oli tõepoolest majandusliku tähtsuse andmisega objektile, mis varem ei omanud ühtegi, täiesti subjektiivsetel põhjustel. Hal Finney selgitas seda väga hästi oma [e-kirjas](https://www.metzdowd.com/pipermail/cryptography/2009-January/015004.html) 11. jaanuaril 2009, mis oli adresseeritud krüptograafia meililistile, kus ta kirjutas:
 
@@ -791,6 +808,8 @@ Siiski ei häirinud see küsimus kunagi Satoshit, kes nägi uue valuuta käivita
 
 <chapterId>9cd228a4-58d3-46a3-9935-06098bafc954</chapterId>
 
+:::video id=18913713-2f1a-4555-ba5d-06ec6d532bcb:::
+
 Eelmises osas uurisime, kuidas Bitcoin olemasolu sai, kuidas see avalikkusele tutvustati ja kuidas see majanduslikult käivitati. 2010. aasta kevadel, kui bitcoini kaubandus alles hakkas õitsema, oli Satoshi Nakamoto ja temaga koos olevate väheste inimeste eesmärk leeki elus hoida. Õnneks liitusid pingutusega teised isikud, eriti kaevur Laszlo Hanyecz ja arendaja Gavin Andresen, kes paistsid silma oma tegudega.
 
 Sel peatükis vaatleme esimest graafikatöötlusseadme (GPU) abil kaevandamise kasutuselevõttu, Satoshi Nakamoto kogutud varandust, esimest füüsilise kauba ostu bitcoini eest, bitcoini kraani loomist, mis jagas tasuta ühikuid, ja tarkvara ning võrgu arengut enne Slashdoti.
@@ -880,6 +899,8 @@ Gavin hakkas samuti tarkvara arenduses osalema, [rakendades](https://sourceforge
 
 <chapterId>2eef715e-b018-445b-b360-1c6e1c1df462</chapterId>
 
+:::video id=c26f3696-4e33-4d38-9443-f237935f8b45:::
+
 2010. aasta suve alguses, hoolimata mõningatest julgustavatest esialgsetest arengutest, põhines Bitcoin ebakindlal vundamendil. Tarkvaral oli peale Satoshi Nakamoto vähe arendajaid. Kaevurid olid amatöörid oma isiklikel arvutitel. Bitcoiniga seotud teenuseid oli umbes kakskümmend ja tegelikud vahetused olid sama haruldased. Siiski olid asjad teisel poolaastal drastiliselt muutumas.
 
 Sel peatükis käsitleme "suurt slashdottingut", st äkilist kasutajate sissevoolu, mis järgnes Bitcoini tutvustuse avaldamisele populaarsel veebisaidil Slashdot 11. juulil 2010. Vaatleme, kuidas see tekst tekkis Satoshi viimase kommunikatsioonikatse tulemusena ja millised olid selle populariseerimise otsesed mõjud.
@@ -950,6 +971,8 @@ Järgnevatel kuudel jätkusid tehnilised, majanduslikud ja kaevandamise täiustu
 ## Esimesed Tehnilised Probleemid
 
 <chapterId>30cc4fe4-22b0-429e-9874-029c9137c0aa</chapterId>
+
+:::video id=f3e98b49-c32e-451a-b7c1-224dc5b00cf5:::
 
 Nagu eelmises peatükis mainitud, põhjustas Slashdotist tulnud kasutajate sissevool 11. juulil 2010 tohutu huvi Satoshi Nakamoto projekti vastu. Võrgu kasutamine plahvatas; vahetuskurss kasvas kümnekordselt, samuti süsteemile pühendatud arvutusvõimsus. Seega koges Bitcoin suve jooksul enneolematut kasvu.
 
@@ -1025,6 +1048,8 @@ See normatiivne eristamine aitab piirata potentsiaalsete haavatavuste ärakasuta
 
 <chapterId>8e9899ca-e7a7-471b-8e69-847a56714d3b</chapterId>
 
+:::video id=665ac55c-cd61-4d07-a896-95248eec480d:::
+
 Eelmises osas uurisime, millist mõju avaldas Bitcoin'i esitluse avaldamine Slashdot'is (slashdotting) ja kuidas Satoshi ning tema abilised algseid tehnilisi probleeme lahendasid. Suve lõpuks oli projekt tormi üle elanud ja valmis vastu võtma üha suuremat hulka inimesi. Seega märkis 2010. aasta sügis Bitcoin'i jaoks edukuse perioodi.
 See periood oli eriti kuldne aeg kaevandamise jaoks, mis nägi olulisi täiustusi esimeste GPU farmide ja esimese kooperatiivi tekkimisega. Kasutusele võetud ressursid suurenesid ja pühendatud algoritmide jõudlus paranes. See oli omamoodi "digitaalne kullapalavik", nagu tol ajal blogija (kasutades pseudonüümi jimbobway) [kirjutas](https://web.archive.org/web/20100828094955/http://www.bitcoinblogger.com/2010/08/bitcoins-new-digital-gold-rush.html), märkides, et "tuhandeid internetikasutajaid" kaevandas bitcoine "varanduse lootuses" ja paljud neist püüdsid "arendada tarkvara ja riistvara vahendeid bitcoinide efektiivsemaks kaevandamiseks" lootuses saada üüratult rikkaks. (_originaal: "Bitcoins: A New Digital Gold Rush (...) Thousands of users on the Internet are now mining for bitcoins in hopes of fortune. Many are trying to develop software and hardware tools to mine for bitcoins more efficiently in hopes of becoming filthy rich."_)
 
@@ -1086,6 +1111,9 @@ Siiski, sügis ei olnud edukas ainult kaevandamise jaoks. See oli edukas ka kogu
 ## Ökosüsteemi Õitseaeg
 
 <chapterId>0404f877-8b5c-4c7f-81ab-a4e6d9b3da9c</chapterId>
+
+:::video id=2327cb5b-36a1-49f4-a9de-09b70d76b8c1:::
+
 Eelmises peatükis uurisime, kuidas kaevandamine 2010. aasta teisel poolel arenes. Sügiseks oli see edasiminek juba hästi juurdunud. Siiski, kaevandamine polnud ainus Bitcoiniga seotud aspekt, mis edu saavutas: selle ökosüsteem samuti.
 
 Siin käsitleme esmalt Bitcoini rahvusvahelise ekspordi algust Venemaa ja Prantsuse kogukondade arenguga. Seejärel arutame suhtluse ja majanduskasvu parandamist, mis märkimisväärselt viis bitcoini ühikhinna uue tõusuni. Lõpuks mainime kahte väga sümbolilist sündmust enne Satoshi lahkumist: Bitcoini vastuvõtt Elektroonilise Piiride Fondi (Electronic Frontier Foundation) poolt ja Hal Finney naasmine.
@@ -1184,6 +1212,8 @@ See oli siis eelviimane avalik sõnum Bitcoin'i loojalt, kes kaoks mõni kuu hil
 ## Satoshi kadumine
 
 <chapterId>f7735239-4887-468f-9f06-1b07d00b30d9</chapterId>
+
+:::video id=fd5b40ae-b6bc-484a-b86b-af9c772f0afa:::
 
 Nägime, kuidas Bitcoin hakkas peale Slashdotis teksti avaldamist juulis 2010 lendu tõusma. Sügisel, erinevate tarkvara, kaevandamise ja majanduse edusammudega, tundus, et projekt oli lõpuks õigel teel. Seetõttu langes see periood kokku Satoshi Nakamoto järkjärgulise taganemisega.
 
@@ -1298,6 +1328,8 @@ See müstiline aspekt Bitcoini looja ümber võeti hästi kokku Hal Finney poolt
 ## Kogukonna ülevõtmine
 
 <chapterId>16c5e6d6-2412-48c6-9687-6af92cf0d89a</chapterId>
+
+:::video id=b29c3ea3-c4ca-4feb-bb29-5dc064987406:::
 
 Pärast Satoshi Nakamoto lahkumist muutus vajalikuks jätkata ilma temata. Õnneks oli Bitcoin avatud projekt, millele igaüks sai kaasa aidata, seega selle asutaja kadumine ei olnud sellele saatuslik. Nagu arendaja Jeff Garzik kirjutas juulis 2010 (seoses asutaja puudumise võimalusega):
 

@@ -1,18 +1,18 @@
 ---
-name: Añadir un Libro a PlanB Network
-description: ¿Cómo añadir un nuevo libro a PlanB Network?
+name: Añadir un Libro a Plan ₿ Academy
+description: ¿Cómo añadir un nuevo libro a Plan ₿ Academy?
 ---
 ![book](assets/cover.webp)
 
 La misión de PlanB es proporcionar recursos educativos de primera categoría sobre Bitcoin en tantos idiomas como sea posible. Todo el contenido publicado en el sitio es de código abierto y alojado en GitHub, lo que permite a cualquier persona contribuir al enriquecimiento de la plataforma.
 
-**¿Quieres añadir un libro relacionado con Bitcoin en el sitio de PlanB Network y aumentar la visibilidad de tu trabajo, pero no sabes cómo? ¡Este tutorial es para ti!**
+**¿Quieres añadir un libro relacionado con Bitcoin en el sitio de Plan ₿ Academy y aumentar la visibilidad de tu trabajo, pero no sabes cómo? ¡Este tutorial es para ti!**
 
 ![book](assets/01.webp)
 
 - Primero, necesitas tener una cuenta de GitHub. Si no sabes cómo crear una cuenta, hemos hecho un tutorial detallado para guiarte.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Ve a [el repositorio de GitHub de PlanB dedicado a datos](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/books) en la sección `resources/books/`:
@@ -24,7 +24,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 ![book](assets/03.webp)
 
-- Si nunca has contribuido al contenido de PlanB Network antes, necesitarás crear tu fork del repositorio original. Hacer un fork de un repositorio significa crear una copia de ese repositorio en tu propia cuenta de GitHub, lo que te permite trabajar en el proyecto sin afectar el repositorio original. Haz clic en el botón `Fork this repository`:
+- Si nunca has contribuido al contenido de Plan ₿ Academy antes, necesitarás crear tu fork del repositorio original. Hacer un fork de un repositorio significa crear una copia de ese repositorio en tu propia cuenta de GitHub, lo que te permite trabajar en el proyecto sin afectar el repositorio original. Haz clic en el botón `Fork this repository`:
 
 ![book](assets/04.webp)
 
@@ -97,7 +97,7 @@ tags:
   
 ![libro](assets/14.webp)
 
-- Selecciona tu bifurcación del repositorio PlanB Network:
+- Selecciona tu bifurcación del repositorio Plan ₿ Academy:
   
 ![libro](assets/15.webp)
 
@@ -141,7 +141,7 @@ tags:
   
 ![libro](assets/25.webp)
 
-- Se abrirá una nueva página. Arrastra y suelta la imagen de portada de tu libro en el área. Esta imagen se mostrará en el sitio de PlanB Network:
+- Se abrirá una nueva página. Arrastra y suelta la imagen de portada de tu libro en el área. Esta imagen se mostrará en el sitio de Plan ₿ Academy:
   
 ![libro](assets/26.webp)
 
@@ -248,7 +248,7 @@ contributors:
   
 ![libro](assets/44.webp)
 
-¡Felicidades! Tu PR ha sido creado exitosamente. Un administrador lo revisará ahora y, si todo está en orden, lo fusionará en el repositorio principal de PlanB Network. Deberías ver tu libro aparecer en el sitio web unos días después.
+¡Felicidades! Tu PR ha sido creado exitosamente. Un administrador lo revisará ahora y, si todo está en orden, lo fusionará en el repositorio principal de Plan ₿ Academy. Deberías ver tu libro aparecer en el sitio web unos días después.
 
 Asegúrate de seguir el progreso de tu PR. Un administrador puede dejar un comentario solicitando información adicional. Mientras tu PR no esté validado, puedes verlo en la pestaña `Pull requests` en el repositorio de GitHub de la Red PlanB.
 

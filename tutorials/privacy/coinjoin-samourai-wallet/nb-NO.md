@@ -147,7 +147,7 @@ For eksempel, her er en ekte Whirlpool Tx0 (ikke fra meg): [edef60744f539483d868
 Overskuddet som ikke kunne integreres i bassenget, her tilsvarende `40,000 sats`, blir omdirigert til **dårlig bank**-kontoen, også referert til som "giftig veksel", for å sikre en streng separasjon fra de andre UTXO i lommeboken.
 
 Denne UTXO er farlig for brukerens personvern, ettersom den ikke bare fortsatt er knyttet til sin fortid, og dermed muligens til identiteten til eieren, men i tillegg er den merket som tilhørende en bruker som har utført en coinjoin.
-Hvis denne UTXO blir slått sammen med blandete utganger, vil de miste all konfidensialiteten oppnådd under coinjoin-syklusene, spesielt på grunn av Common-Input-Ownership-Heuristic (CIOH). Hvis den slås sammen med andre giftige veksler, risikerer brukeren å miste konfidensialitet siden dette vil koble de forskjellige inngangene fra coinjoin-syklusene. Derfor må den håndteres med forsiktighet. Måten å håndtere denne giftige UTXO på vil bli detaljert i den siste delen av denne artikkelen, og fremtidige veiledninger vil dekke disse metodene mer inngående på PlanB Network.
+Hvis denne UTXO blir slått sammen med blandete utganger, vil de miste all konfidensialiteten oppnådd under coinjoin-syklusene, spesielt på grunn av Common-Input-Ownership-Heuristic (CIOH). Hvis den slås sammen med andre giftige veksler, risikerer brukeren å miste konfidensialitet siden dette vil koble de forskjellige inngangene fra coinjoin-syklusene. Derfor må den håndteres med forsiktighet. Måten å håndtere denne giftige UTXO på vil bli detaljert i den siste delen av denne artikkelen, og fremtidige veiledninger vil dekke disse metodene mer inngående på Plan ₿ Academy.
 
 **Steg 3: Den første blandingen**
 Etter at `Tx0` er fullført, sendes de likestilte UTXOene til **premix**-kontoen i vår lommebok, klare til å bli introdusert i deres første coinjoin-syklus, også kalt "initial mix". Hvis, som i vårt eksempel, `Tx0` genererer flere UTXOer for blanding, vil hver av dem bli integrert i en separat første coinjoin.
@@ -170,7 +170,7 @@ Men, denne metoden har to bemerkelsesverdige ulemper:
 - Coinjoins vil kun skje når Samourai kjører i bakgrunnen og er tilkoblet. Dette betyr at hvis du ønsker å mikse og remixe dine bitcoins 24/7, må du konstant holde Samourai påslått;
 - Hvis du bruker Whirlpool med Samourai Wallet uten å ta deg bryet med å koble til din egen Dojo, så må applikasjonen din koble til serveren som vedlikeholdes av Samourai-teamene, og du vil avsløre `xpub` fra lommeboken din til dem. Disse anonyme informasjonsbitene er nødvendige for at applikasjonen din skal finne transaksjonene dine.
 
-Den ideelle løsningen for å overkomme disse begrensningene er å operere din egen Dojo assosiert med en Whirlpool CLI-instans på din personlige Bitcoin-node. På denne måten vil du unngå lekkasje av informasjon og oppnå fullstendig uavhengighet. Selv om opplæringen presentert nedenfor er nyttig for visse mål eller for nybegynnere, anbefales det å bruke din egen Dojo for å virkelig optimalisere din coinjoin-økt. En detaljert guide om å sette opp denne konfigurasjonen vil snart være tilgjengelig på PlanB Network.
+Den ideelle løsningen for å overkomme disse begrensningene er å operere din egen Dojo assosiert med en Whirlpool CLI-instans på din personlige Bitcoin-node. På denne måten vil du unngå lekkasje av informasjon og oppnå fullstendig uavhengighet. Selv om opplæringen presentert nedenfor er nyttig for visse mål eller for nybegynnere, anbefales det å bruke din egen Dojo for å virkelig optimalisere din coinjoin-økt. En detaljert guide om å sette opp denne konfigurasjonen vil snart være tilgjengelig på Plan ₿ Academy.
 
 ### Installere Samourai Wallet
 For å starte, vil du åpenbart trenge Samourai Wallet-appen. Du kan laste den ned direkte fra det offisielle nettstedet ved å bruke APK, fra deres GitLab, eller fra Google Play Store.
@@ -298,7 +298,7 @@ Når `Tx0` er bekreftet, vil dine UTXOer automatisk bli registrert hos koordinat
 
 ![samourai](assets/notext/34.webp)
 
-Ved å sjekke `Remixing`-fanen, som tilsvarer **Postmix**-kontoen, vil du observere UTXOene som kommer fra de innledende blandingsrundene. Disse myntene vil forbli klare for påfølgende om-blanding, som ikke vil medføre noen ekstra gebyrer. Jeg anbefaler å konsultere denne andre artikkelen for å lære mer om om-blandingsprosessen og effektiviteten av en coinjoin-syklus: [REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)
+Ved å sjekke `Remixing`-fanen, som tilsvarer **Postmix**-kontoen, vil du observere UTXOene som kommer fra de innledende blandingsrundene. Disse myntene vil forbli klare for påfølgende om-blanding, som ikke vil medføre noen ekstra gebyrer. Jeg anbefaler å konsultere denne andre artikkelen for å lære mer om om-blandingsprosessen og effektiviteten av en coinjoin-syklus: [REMIX - WHIRLPOOL](https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)
 
 ![samourai](assets/notext/35.webp)
 
@@ -335,7 +335,7 @@ Angi nødvendig informasjon for din utgiftstransaksjon, og klikk deretter på de
 
 ![samourai](assets/notext/43.webp)
 I neste steg har du muligheten til å endre gebyrsatsen som er knyttet til transaksjonen din. Du kan også aktivere Stonewall-alternativet ved å krysse av i den tilsvarende boksen. Hvis Stonewall-alternativet ikke er valgbart, betyr det at din **Postmix**-konto ikke inneholder en UTXO av tilstrekkelig størrelse til å støtte denne spesifikke transaksjonsstrukturen.
-[-> Lær mer om Stonewall-transaksjoner.](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
+[-> Lær mer om Stonewall-transaksjoner.](https://planb.academy/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 Hvis alt er til din tilfredshet, klikk på den grønne `SEND ... BTC`-knappen.
 
@@ -367,7 +367,7 @@ Whirlpool vil automatisk lukke seg. Vent på at Samourai skal bli ferdig med å 
 Sørg for at din SCODE har blitt korrekt registrert ved å klikke en gang til på de tre små prikkene, og deretter velge `SCODE (promo code) Whirlpool`. Hvis alt er i orden, er du klar til å starte en ny Whirlpool-syklus med rabatt på tjenestegebyrene. Det er viktig å merke seg at disse SCODE-ene er midlertidige: de forblir gyldige i noen få dager før de blir foreldet.
 
 ## Hvordan vite kvaliteten på våre coinjoin-sykluser?
-For at en coinjoin skal være virkelig effektiv, er det essensielt at den demonstrerer god uniformitet mellom mengdene av innganger og utganger. Denne uniformiteten forsterker antallet mulige tolkninger i øynene til en ekstern observatør, og øker dermed usikkerheten rundt transaksjonen. For å kvantifisere denne usikkerheten generert av en coinjoin, kan man ty til å beregne transaksjonens entropi. For en grundig utforskning av disse indikatorene, henviser jeg deg til opplæringen: [BOLTZMANN CALCULATOR](https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe). Whirlpool-modellen er anerkjent som den som bringer mest homogenitet til coinjoins.
+For at en coinjoin skal være virkelig effektiv, er det essensielt at den demonstrerer god uniformitet mellom mengdene av innganger og utganger. Denne uniformiteten forsterker antallet mulige tolkninger i øynene til en ekstern observatør, og øker dermed usikkerheten rundt transaksjonen. For å kvantifisere denne usikkerheten generert av en coinjoin, kan man ty til å beregne transaksjonens entropi. For en grundig utforskning av disse indikatorene, henviser jeg deg til opplæringen: [BOLTZMANN CALCULATOR](https://planb.academy/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe). Whirlpool-modellen er anerkjent som den som bringer mest homogenitet til coinjoins.
 Videre blir ytelsen til flere coinjoin-sykluser evaluert basert på omfanget av gruppene der en mynt er skjult. Størrelsen på disse gruppene definerer det som kalles anonsets. Det er to typer anonsets: den første vurderer personvernet oppnådd mot en retrospektiv analyse (fra nåtiden til fortiden) og den andre, mot en prospektiv analyse (fra fortiden til nåtiden). For en detaljert forklaring på disse to indikatorene, inviterer jeg deg til å konsultere opplæringen: WHIRLPOOL STATS TOOLS - ANONSETS
 
 ## Hvordan håndtere postmix?
@@ -393,7 +393,7 @@ Videre må du være forsiktig med å håndtere doxxic change, vekslingen som ikk
 - **Konsolider dem på Monero:** Samourai Wallet tilbyr nå en atombyttetjeneste mellom BTC og XMR. Dette er ideelt for å håndtere giftige UTXOer ved å konsolidere dem på Monero, uten å kompromittere ditt personvern via KYC, før du sender dem tilbake til Bitcoin. Imidlertid kan dette alternativet være kostbart i form av gruvegebyrer og premien på grunn av likviditetsbegrensninger;
 - **Send dem til Lightning Network:** Å overføre disse UTXOene til Lightning Network for å dra nytte av reduserte transaksjonsgebyrer er et alternativ som kan være interessant. Imidlertid kan denne metoden avsløre visse opplysninger avhengig av din bruk av Lightning og bør derfor praktiseres med forsiktighet.
 
-Detaljerte veiledninger om implementering av disse forskjellige teknikkene vil snart bli tilbudt på PlanB Network.
+Detaljerte veiledninger om implementering av disse forskjellige teknikkene vil snart bli tilbudt på Plan ₿ Academy.
 
 **Tilleggsressurser:**
 [Samourai Wallet videoveiledning]()

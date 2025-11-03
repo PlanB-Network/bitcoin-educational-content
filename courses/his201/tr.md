@@ -32,6 +32,8 @@ Elbette bu ders, sözlerini ve eylemlerini keşfedeceğiniz Satoshi Nakamoto fig
 
 <chapterId>85290407-1aa3-4cb4-890a-aed23441afb7</chapterId>
 
+:::video id=d1eddf56-279d-459a-9568-5674606f0fd1:::
+
 HIS201 kursuna hoş geldiniz!
 
 Bu kurs size Bitcoin'nin yaratılış hikayesini daha önce hiç okumadığınız bir şekilde anlatmayı amaçlamaktadır. Büyüleyici ayrıntılarla dolu olmasına rağmen, genellikle göz ardı edilmektedir. Satoshi Nakamoto tarafından tasarlanmasından erken kayboluşuna ve topluluğa devredilmesine kadar tüm karmaşıklığıyla anlatmaya çalışacağız.
@@ -125,6 +127,8 @@ Bitcoin'nin yaratılışının inanılmaz destanını keşfetmeye hazır mısın
 
 <chapterId>e443d2ab-68ce-45c0-aec7-30b88d3acdc8</chapterId>
 
+:::video id=fe306046-2245-43a7-9144-6fbafda3205e:::
+
 
 Bitcoin'nin Satoshi Nakamoto tarafından yaratılmasının gerçek hikayesine geçmeden önce, bunun öncesinde neler olduğunu tartışmak yerinde olacaktır. Konuyu üç aşamada ele alacağız: ilk olarak, yaygın olarak *eCash* olarak adlandırılan Chaumian dijital nakit kavramını tanıtacağız; daha sonra, e-gold gibi merkezi sistemlere dayalı özel para birimlerinden bahsedeceğiz; son olarak, Bitcoin olan sağlam dağıtık sistemin uygulanmasından önce hayal edilen teknik modelleri açıklayacağız.
 
@@ -179,7 +183,7 @@ Asimetrik kriptografinin keşfi, bir görüntünün hesaplanmasını (ileri yön
 
 Bitcoin'nin temel kriptografik Elements'sı bu araştırmadan kaynaklanmaktadır. Geleneksel bir işlem için harcama yetkisi sağlayan ECDSA imza şeması 1992 yılında NIST için oluşturulmuştur. Protokolün birçok yerinde kullanılan SHA-256 Hash işlevi, 2001 yılında NSA tarafından kamuya açıklanan SHA-2 algoritma paketinin bir parçası olarak yayınlanmıştır. Bu konu hakkında daha fazla bilgi için Loïc Morel tarafından sunulan CYP201 kursuna bakınız.
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 ### Kör İmzalar ve Elektronik Nakit
@@ -288,7 +292,7 @@ E-gold ve Liberty Reserve gibi diğer alternatif merkezi sistemler de paralel ol
 Daha sonra eCash, b-money, bit gold ve RPOW gibi modelleri geliştiren cypherpunk'lara ilham verdi. Proof of Work ve daha sonra Bitcoin'da bulunan diğer Elements'i eklediler. Bu kavramları Bölüm 3'te inceleyeceğiz.
 
 
-Son olarak, David Chaum'un modeli Satoshi Nakamoto'yu para birimi kavramını geliştirirken önemli ölçüde etkilemiştir. Bu, [white paper](assets/pdf/Bitcoin-20090324.pdf) (başlık, 2. bölümdeki sorunun tanımı, Ağustos 2008'de Wei Dai'ye [gönderilen](https://gwern.net/doc/Bitcoin/2008-nakamoto) PDF'nin adı) ve özel ve kamusal müdahalelerindeki çok sayıda referansla kanıtlanmaktadır. Bu anlamda eCash, tek olmasa bile Bitcoin'nin ana öncülüdür.
+Son olarak, David Chaum'un modeli Satoshi Nakamoto'yu para birimi kavramını geliştirirken önemli ölçüde etkilemiştir. Bu, [white paper](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/courses/his201/assets/bitcoin-20090324.pdf) (başlık, 2. bölümdeki sorunun tanımı, Ağustos 2008'de Wei Dai'ye [gönderilen](https://gwern.net/doc/Bitcoin/2008-nakamoto) PDF'nin adı) ve özel ve kamusal müdahalelerindeki çok sayıda referansla kanıtlanmaktadır. Bu anlamda eCash, tek olmasa bile Bitcoin'nin ana öncülüdür.
 
 
 Satoshi Nakamoto, Bitcoin ile sağlam ve gizli bir dijital para birimi, gerçek elektronik nakit yarattı. Bunu yaparken, 1999 yılında Ulusal Vergi Mükellefleri Birliği Vakfı ile yaptığı bir röportajda Nobel Ekonomi Ödülü sahibi ve Chicago Okulu'nun kurucusu Milton Friedman'ın [öngörüsünü] (https://www.youtube.com/watch?v=mlwxdyLnMXM&t=872s) gerçekleştirdi:
@@ -299,6 +303,8 @@ Satoshi Nakamoto, Bitcoin ile sağlam ve gizli bir dijital para birimi, gerçek 
 ## Özel Dijital Para Birimleri
 
 <chapterId>43035fa3-2805-4331-a6fb-070931d749cf</chapterId>
+
+:::video id=0f75ff53-ebf6-481c-9d1c-863fabb19a6a:::
 
 
 Bir önceki bölümde, internetin ve modern kriptografinin ortaya çıkmasıyla ortaya çıkan ilk elektronik para biçimini incelemiştik: David Chaum'un eCash modeli. Bu model Satoshi Nakamoto'yu önemli ölçüde etkilemiş ve Bitcoin'e giden yolda önemli bir kilometre taşı olmuştur. Bununla birlikte, kripto paranın kökenlerinin hikayesi eCash ile bitmiyor; 1990'ların sonlarında geliştirilen İnternet üzerinde çalışan özel para birimleri ile ilgili deneyleri de içeriyor.
@@ -416,6 +422,8 @@ Merkezi sistemler kırılgan olduğundan, cypherpunk'lar da dahil olmak üzere �
 
 <chapterId>a104f23c-e9c3-4457-a194-d87cc5f35f13</chapterId>
 
+:::video id=67e5f851-5ff6-4876-a74d-c5f8130b555c:::
+
 
 Bitcoin dijital para biriminin merkezi olmayan bir modelini temsil etmektedir. Bunu yaparken, sistemde tek bir başarısızlık noktası oluşturacak güvenilir bir üçüncü taraf ihtiyacını ortadan kaldırmaktadır. ECash, dijital altın para birimleri ve Liberty Reserve örneklerinde görüldüğü üzere, mevcut sisteme alternatif olma niyetindeki bir sistemin merkezileştirilmesi kaçınılmaz olarak sistemin kapanmasına yol açmaktadır.
 
@@ -471,7 +479,7 @@ Sertifikalı zaman damgası örneği (kaynak: [Wikimedia](https://en.m.wikipedia
 
 Haber ve Stornetta, 1992 yılında New York Times'ın seri ilanlarında kriptografik parmak izlerini (yararlı verilerin hash edilmesiyle elde edilen) yayınlayarak fikirlerini hayata geçirdiler. Daha sonra 1994 yılında kendilerini tamamen bu faaliyete adamak için kendi şirketleri olan Surety Technologies'i kurdular. Bu nedenle, Bitcoin Blockchain'ün habercisi olan, gazetede yayınlanacak yeni parmak izinin hesaplanmasında önceki parmak izinin dikkate alındığı ilk Timestamp zincirini oluşturdukları için [bilinmektedir] (https://www.vice.com/en/article/j5nzx4/what-was-the-first-Blockchain).
 
-Haber ve Stornetta'nın üç makalesi Satoshi Nakamoto tarafından [Bitcoin white paper]'da (assets/pdf/Bitcoin-20090324.pdf) alıntılanmıştır: daha önce bahsedilen 1991 tarihli makale, 1993 tarihli bir [paper] (https://www.math.columbia.edu/~bayer/papers/Timestamp_BHS93.pdf), özellikle Merkle ağaçlarının kullanımı yoluyla bir öncekinde önerilen protokolleri geliştirmiştir ve 1997 tarihli bir [paper] (https://cdn.nakamotoinstitute.org/docs/secure-names-bit-strings.pdf), dosyaları evrensel olarak tek yönlü işlevler kullanarak adlandırmanın bir yolunu sunmuştur. Ayrıca Belçika'daki Louvain Katolik Üniversitesi'nde kriptografi araştırma grubunda çalışan Henri Massias, Xavier Serret-Avila ve Jean-Jacques Quisquater tarafından 1999 yılında yazılan yeni bir zaman damgası sistemini tanımlayan bir [paper](https://cdn.nakamotoinstitute.org/docs/secure-timestamping-service.pdf)'a da atıfta bulunulmuştur.
+Haber ve Stornetta'nın üç makalesi Satoshi Nakamoto tarafından [Bitcoin white paper]'da (https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/courses/his201/assets/bitcoin-20090324.pdf) alıntılanmıştır: daha önce bahsedilen 1991 tarihli makale, 1993 tarihli bir [paper] (https://www.math.columbia.edu/~bayer/papers/Timestamp_BHS93.pdf), özellikle Merkle ağaçlarının kullanımı yoluyla bir öncekinde önerilen protokolleri geliştirmiştir ve 1997 tarihli bir [paper] (https://cdn.nakamotoinstitute.org/docs/secure-names-bit-strings.pdf), dosyaları evrensel olarak tek yönlü işlevler kullanarak adlandırmanın bir yolunu sunmuştur. Ayrıca Belçika'daki Louvain Katolik Üniversitesi'nde kriptografi araştırma grubunda çalışan Henri Massias, Xavier Serret-Avila ve Jean-Jacques Quisquater tarafından 1999 yılında yazılan yeni bir zaman damgası sistemini tanımlayan bir [paper](https://cdn.nakamotoinstitute.org/docs/secure-timestamping-service.pdf)'a da atıfta bulunulmuştur.
 
 ### Proof of Work ve Hashcash
 
@@ -624,6 +632,8 @@ Bitcoin böylece, devletlerin insafına kalmadan tamamen İnternet üzerinde var
 
 <chapterId>3d141918-e9c2-46e8-8c03-2bb4eb9b2150</chapterId>
 
+:::video id=825522d8-1ccc-4d14-80ac-e292a85a608a:::
+
 
 Bitcoin'in nereden geldiğini öğrendikten sonra, tarihine odaklanacağız. Bu konu çok sayıda makale, podcast ve videoya konu olmuştur, öyle ki neredeyse bir kuruluş efsanesi haline gelmiştir. Gördüğümüz gibi, Bitcoin yaratıldığı bağlamdan ayrılamaz; aynı şey ilk yıllarında meydana gelen ve nitelikleri ve kusurlarıyla bugünkü halini şekillendiren olaylar için de geçerlidir.
 
@@ -677,7 +687,7 @@ Satoshi ise buluşunu kamuoyuna duyurmak için hazırlıklarını tamamlar. 3 Ek
 ### Beyaz kitabın yayınlanması
 
 
-31 Ekim 2008'de Satoshi Nakamoto [beyaz kağıdın ilk versiyonunu] (assets/pdf/Bitcoin-20081003.pdf) kriptografiye adanmış ve kısaca "Kriptografi posta listesi" olarak adlandırılan bir e-posta listesinde yayınlar Bu liste 1996 yılından beri geliştirici Perry Metzger tarafından yönetilmektedir, [kuruluşu](https://cypherpunks.venona.com/date/1996/12/msg00102.html) ve [2003](https://www.metzdowd.com/pipermail/cryptography/2003-April/004484.html) yılından beri Metdowd.com adlı kişisel sitesinde barındırılmaktadır. Bu liste cypherpunks listesinin halefidir, tek farkı sıkı bir denetime tabi olmasıdır. 2008 yılında, John Gilmore, Hal Finney ve Len Sassaman gibi birkaç eski cypherpunks hala katılmıştır.
+31 Ekim 2008'de Satoshi Nakamoto [beyaz kağıdın ilk versiyonunu] (https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/courses/his201/assets/bitcoin-20081003.pdf) kriptografiye adanmış ve kısaca "Kriptografi posta listesi" olarak adlandırılan bir e-posta listesinde yayınlar Bu liste 1996 yılından beri geliştirici Perry Metzger tarafından yönetilmektedir, [kuruluşu](https://cypherpunks.venona.com/date/1996/12/msg00102.html) ve [2003](https://www.metzdowd.com/pipermail/cryptography/2003-April/004484.html) yılından beri Metdowd.com adlı kişisel sitesinde barındırılmaktadır. Bu liste cypherpunks listesinin halefidir, tek farkı sıkı bir denetime tabi olmasıdır. 2008 yılında, John Gilmore, Hal Finney ve Len Sassaman gibi birkaç eski cypherpunks hala katılmıştır.
 
 
 Listeye gönderdiği ilk [e-posta](https://www.metzdowd.com/pipermail/cryptography/2008-October/014810.html) adresinde Satoshi şöyle yazıyor:
@@ -729,7 +739,7 @@ Bitcoin, tüm ağ düğümlerinin, Hal Finney'in ilk e-postasında iki kelimeyle
 
 Bu mutabakat mekanizması, sistem içinde her türlü kural ve teşvikin (beyaz bültenin son cümlesini kullanmak gerekirse) uygulanmasına izin verir. Bitcoin dağıtılmış bir zaman damgası hizmeti oluşturduğundan, bu kuralların zamanla etkileşime girmesi de mümkündür. Dolayısıyla, yeni blokların ve ilgili bitcoinlerin üretimini düzenlemek için devreye giren zorluk ayarlama algoritması: belirli bir süre içinde üretilen blok sayısı çok yüksekse, üretim zorluğu artar; tersi durumda ise azalır. Dolayısıyla Bitcoin, çalışma kanıtlarının hesap birimlerini oluşturduğu RPOW'dan farklıdır.
 
-Bu zorluk ayarı sayesinde, Bitcoin bir para politikasına sahip olabilir, yani protokol tarafından verilen yeni birimlerin miktarı önceden belirlenebilir. Başlangıçta, üretici düğümleri bilgi işlem güçlerini ağa katkıda bulunmaya teşvik etmek için parasal ihracın sabit olması planlanmaktadır ve herhangi bir işlem ücreti yoktur. Satoshi Nakamoto'nun [white paper]'ın "Teşvik" bölümünde yazdığı gibi (assets/pdf/Bitcoin-20081003.pdf):
+Bu zorluk ayarı sayesinde, Bitcoin bir para politikasına sahip olabilir, yani protokol tarafından verilen yeni birimlerin miktarı önceden belirlenebilir. Başlangıçta, üretici düğümleri bilgi işlem güçlerini ağa katkıda bulunmaya teşvik etmek için parasal ihracın sabit olması planlanmaktadır ve herhangi bir işlem ücreti yoktur. Satoshi Nakamoto'nun [white paper]'ın "Teşvik" bölümünde yazdığı gibi (https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/courses/his201/assets/bitcoin-20081003.pdf):
 
 > "Sabit miktarda yeni madeni paranın sürekli olarak eklenmesi, altın madencilerinin dolaşıma altın eklemek için kaynak harcamasına benzer."
 
@@ -812,6 +822,8 @@ Ancak bu çalışma yetersizdi ve sistemini başlatmak için Satoshi'nin azmi ge
 ## Dünyaya Sunum
 
 <chapterId>28be3515-d9da-4d91-b7ff-f8691d51c562</chapterId>
+
+:::video id=c9691569-f026-460d-a08d-98fa54f1ce25:::
 
 
 Bitcoin'ün Satoshi Nakamoto tarafından nasıl tasarlandığını ve başlatıldığını inceledikten sonra, kamuya nasıl sunulduğuna odaklanalım. 2009'un başındaki lansmanının ardından ağ faaliyete geçti. Yine de, az sayıda üretici düğüm vardı (blokların çoğunu Satoshi çıkardı) ve faaliyet neredeyse hiç yoktu (Ocak ayı boyunca 32 gerçek işlem gerçekleşti). Projenin yalnızca basit bir web sitesi ve yazılımı indirmek için bir SourceForge sayfası vardı. Dahası, Bitcoin hakkındaki iletişim Metzdowd Cryptography e-posta listesiyle sınırlıydı ve bu listeyi en iyi ihtimalle kriptografi konusunda tutkulu birkaç yüz kişi takip ediyordu.
@@ -1049,6 +1061,8 @@ Bitcoin'in tanıtımı da birkaç aşamadan geçti: ilk olarak, Satoshi çevrimi
 
 <chapterId>6b3418a7-125e-4ea1-a03a-f36090fac8a4</chapterId>
 
+:::video id=2a31c9c2-bb14-4ed5-b906-7df373f81f98:::
+
 
 Önceki bölümlerde, Satoshi Nakamoto'nun fikrini nasıl hayata geçirdiğini ve Bitcoin'ü dünyaya tanıtmak için bu konuda nasıl iletişim kurduğunu gözlemledik. Ancak her şey ona bağlı değildi: insanların hesap birimine değer ataması da gerekiyordu. Bu, işlem ücretleri yoluyla madencilerin ücretlendirilmesine ve doğal deflasyon yoluyla tüccarların ödüllendirilmesine olanak tanıdığından, böyle bir takdir sistemin güvenliği için çok önemliydi.
 
@@ -1222,6 +1236,8 @@ Ancak bu soru, yeni bir para biriminin önyüklemesini kesinlikle üstesinden ge
 
 <chapterId>9cd228a4-58d3-46a3-9935-06098bafc954</chapterId>
 
+:::video id=18913713-2f1a-4555-ba5d-06ec6d532bcb:::
+
 
 Bir önceki bölümde, Bitcoin'nin nasıl ortaya çıktığını, halka nasıl tanıtıldığını ve ekonomik olarak nasıl başlatıldığını araştırdık. 2010 baharında, Bitcoin ticareti çiçek açmaya başlarken, Satoshi Nakamoto ve onu destekleyen birkaç kişi alevi canlı tutmaya kararlıydı. Neyse ki, başta Miner Laszlo Hanyecz ve geliştirici Gavin Andresen olmak üzere eylemleriyle öne çıkan başka kişiler de bu çabaya katıldı.
 
@@ -1372,6 +1388,8 @@ Bununla birlikte, Haziran ayı sonunda ağdaki faaliyet oldukça mütevazı kalm
 
 <chapterId>2eef715e-b018-445b-b360-1c6e1c1df462</chapterId>
 
+:::video id=c26f3696-4e33-4d38-9443-f237935f8b45:::
+
 
 Bitcoin, 2010 yazının başında, bazı cesaret verici ilk gelişmelere rağmen sallantılı bir temele dayanıyordu. Yazılımın Satoshi Nakamoto dışında çok az geliştiricisi vardı. Madenciler kişisel bilgisayarlarında amatörce çalışıyorlardı. Bitcoin ile ilgili yaklaşık yirmi hizmet vardı ve gerçek borsalar da bir o kadar nadirdi. Ancak, yılın ikinci yarısında işler büyük ölçüde değişmek üzereydi.
 
@@ -1478,6 +1496,8 @@ Takip eden aylarda, teknik, ekonomik ve Mining iyileştirmeleri gelişti ve Slas
 ## İlk Teknik Sorunlar
 
 <chapterId>30cc4fe4-22b0-429e-9874-029c9137c0aa</chapterId>
+
+:::video id=f3e98b49-c32e-451a-b7c1-224dc5b00cf5:::
 
 
 Son bölümde belirtildiği gibi, 11 Temmuz 2010'da Slashdot'tan gelen kullanıcı akını Satoshi Nakamoto'nun projesine büyük bir ilgi dalgasına neden oldu. Ağın kullanımı patladı ve Exchange oranı, sisteme adanan bilgi işlem gücü gibi on kat arttı. Böylece Bitcoin yaz boyunca benzeri görülmemiş bir büyüme yaşadı.
@@ -1599,6 +1619,8 @@ Takip eden aylarda, teknik, ekonomik ve Mining iyileştirmeleri ortaya çıktı 
 
 <chapterId>8e9899ca-e7a7-471b-8e69-847a56714d3b</chapterId>
 
+:::video id=665ac55c-cd61-4d07-a896-95248eec480d:::
+
 
 Bir önceki bölümde Bitcoin sunumunun Slashdot'ta yayınlanmasının (slashdotting) yarattığı etkiyi ve Satoshi ile yardımcılarının başlangıçtaki teknik sorunları nasıl yönettiklerini incelemiştik. Yaz sonunda proje fırtınayı atlatmış ve giderek artan sayıda insanı ağırlamaya hazır hale gelmişti. Böylece 2010 sonbaharı Bitcoin için bir başarı dönemi oldu.
 
@@ -1701,6 +1723,8 @@ Ancak, sonbahar tek başarılı Mining yöntemi değildi. Aynı zamanda toplum v
 ## Ekosistemin Çiçek Açması
 
 <chapterId>0404f877-8b5c-4c7f-81ab-a4e6d9b3da9c</chapterId>
+
+:::video id=2327cb5b-36a1-49f4-a9de-09b70d76b8c1:::
 
 
 Bir önceki bölümde Mining'in 2010 yılının ikinci yarısında nasıl geliştiğini incelemiştik. Sonbaharda bu ilerleme iyice yerleşmişti. Ancak, Bitcoin'in başarıya ulaşan tek yönü Mining değildi: ekosistemi de başarıya ulaştı.
@@ -1846,6 +1870,8 @@ Bu, birkaç ay sonra ortadan kaybolacak olan Bitcoin'nin yaratıcısının sonda
 ## Satoshi'ün Ortadan Kaybolması
 
 <chapterId>f7735239-4887-468f-9f06-1b07d00b30d9</chapterId>
+
+:::video id=fd5b40ae-b6bc-484a-b86b-af9c772f0afa:::
 
 
 Metnin Temmuz 2010'da Slashdot'ta yayınlanmasının ardından Bitcoin'ün nasıl uçuşa geçtiğini gördük. Sonbaharda yazılım, Mining ve ekonomideki çeşitli ilerlemelerle proje nihayet doğru yoldaydı. Bu nedenle bu dönem Satoshi Nakamoto'nun kademeli olarak geri çekilmesiyle aynı zamana denk geldi.
@@ -2015,6 +2041,8 @@ Bitcoin'un yaratıcısını çevreleyen bu gizemli yön, Haziran 2013'te, 2014't
 ## Topluluk Devralıyor
 
 <chapterId>16c5e6d6-2412-48c6-9687-6af92cf0d89a</chapterId>
+
+:::video id=b29c3ea3-c4ca-4feb-bb29-5dc064987406:::
 
 
 Satoshi Nakamoto'nun ayrılmasından sonra, onsuz devam etmek gerekli hale geldi. Neyse ki Bitcoin herkesin katkıda bulunabileceği açık bir projeydi, bu nedenle kurucusunun ortadan kaybolması ölümcül değildi. Geliştirici Jeff Garzik'in Temmuz 2010'da yazdığı gibi (kurucunun yokluğu olasılığı ile ilgili olarak):

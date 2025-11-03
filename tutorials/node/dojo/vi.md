@@ -64,7 +64,7 @@ Mỗi lựa chọn đều có ưu và nhược điểm riêng:
 
 
 
-https://planb.network/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
+https://planb.academy/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 
 ### Thiết bị được đề xuất
 
@@ -192,7 +192,7 @@ Sau đó làm theo quy trình cài đặt Ubuntu cổ điển:
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 ### 1.3. cập nhật hệ thống
 
@@ -428,7 +428,7 @@ Sau đó, hệ thống sẽ yêu cầu bạn nhập mật khẩu đã chọn, sa
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ### 3.3. Cho phép người dùng sử dụng Docker
 
@@ -1068,7 +1068,7 @@ Trên thực tế, thao tác này thường mất từ **2 đến 7 ngày**. Tro
 
 
 
-https://planb.network/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
+https://planb.academy/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 
 
 ## 7. Giám sát đồng bộ hóa

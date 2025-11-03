@@ -75,7 +75,7 @@ Kugendera mu nzira igoye y’ubutegetsi bwa Bitcoin bisaba ibirenze ubuhinga bw�
 Ni mwiteguye gutera intambwe ikurikira mu rugendo rwanyu rwa Bitcoin? Reka dutangure!
 
 
-***N.B.**: Niwahura n’amajambo utamenyereye yerekeye Bitcoin mu gihe c’amashure, urashobora kuraba [urutonde rw’amajambo](https://planb.network/ibikoresho/urutonde rw’amajambo) kugira uronke insobanuro.*
+***N.B.**: Niwahura n’amajambo utamenyereye yerekeye Bitcoin mu gihe c’amashure, urashobora kuraba [urutonde rw’amajambo](https://planb.academy/ibikoresho/urutonde rw’amajambo) kugira uronke insobanuro.*
 
 
 
@@ -652,7 +652,7 @@ Kugira ngo ugabanye ingorane zo gutuma amakuru yawe bwite ahishurirwa ni ukutaya
 Iyo nkuru iragusaba kwirinda gukoresha amafaranga asaba KYC/AML ahubwo ugacuruza mu bwiherero, canke ukoreshe amafaranga yegerejwe nka [bisq](https://bisq.network/).
 
 
-https://planb.network/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+https://planb.academy/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 Kugira ngo usome mu buryo bwimbitse ku bijanye n'ingene wovyifatamwo, raba [ingingo ya wiki ku bijanye n'ubuzima bwite](https://ru.Bitcoin.it/wiki/Ubuzima bwite#Uburyo_bwo_gutegura_ubuzima bwite_.28non-Blockchain.29), guhera kuri " (atari Blockchain)".
 

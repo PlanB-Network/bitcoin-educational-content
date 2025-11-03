@@ -100,7 +100,7 @@ Thunderbird eğitimimizde daha fazlasını öğrenin:
 
 
 
-https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
+https://planb.academy/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 
 F-Droid, bir uygulamayı kullanmanın verilerinizi koruyup korumadığına ve gizliliğinizi artırıp artırmadığına karar vermek için ihtiyacınız olan tüm bilgileri verir. Kullanmak istediğiniz tüm uygulamaları tarayın, ardından uygulamanızı indirmek ve yüklemek için **Yükle** düğmesine tıklayın.
 
@@ -187,4 +187,4 @@ Bu eğitimi beğendiyseniz BT güvenliği ve veri yönetimi kursumuz hakkında d
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

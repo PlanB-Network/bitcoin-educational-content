@@ -44,13 +44,13 @@ Aurora Store è uno dei più popolari negozi di app alternativi a Google Play St
 
 
 
-https://planb.network/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
+https://planb.academy/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
 
 Tuttavia, si consiglia di scaricare il file APK direttamente dal sito ufficiale per garantire l'autenticità e l'integrità di Aurora Store.
 
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Un file APK (Android Package Kit) è il formato di pacchetto utilizzato dal sistema operativo Android per distribuire e installare le applicazioni. È l'equivalente dei file **.exe** su Windows o **.dmg** su macOS.
 
@@ -155,4 +155,4 @@ Più che un semplice negozio di applicazioni, Aurora Store è una soluzione open
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

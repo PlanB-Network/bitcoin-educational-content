@@ -14,7 +14,7 @@ Um contrato RGB está estruturado como uma máquina de estado evolutiva. Começa
 
 Para saber mais sobre o funcionamento do protocolo RGB, recomendo que faça este curso de formação abrangente:
 
-https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 
 A lógica interna do RGB é baseada em bibliotecas Rust que vocês, como programadores, podem importar para os vossos projectos para gerir a parte da *Validação do lado do cliente*. Além disso, a equipa LNP/BP está a trabalhar em ligações para outras linguagens, mas isto ainda não foi finalizado. Além disso, outras entidades, como a Bitfinex, estão a desenvolver as suas próprias pilhas de integração, mas falaremos sobre elas noutro tutorial. Por enquanto, o `rgb` CLI é a referência oficial, mesmo que permaneça relativamente pouco polido.
 
@@ -135,8 +135,8 @@ Eis um exemplo de um ficheiro YAML a criar:
 interface: RGB20Fixed
 globals:
 spec:
-ticker: PBN
-name: Plan B Network
+ticker: Plan ₿ Academy
+name: Plan ₿ Academy
 details: "Pay attention: the asset has no value"
 precision: 2
 terms:
@@ -180,7 +180,7 @@ rgb contracts
 
 ![RGB-CLI](assets/fr/07.webp)
 
-Em seguida, o comando seguinte apresenta os estados globais (nome, ticker, oferta...) e a lista de Estados Próprios, ou seja, as atribuições (por exemplo, 1 milhão de fichas `PBN` definidas no UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
+Em seguida, o comando seguinte apresenta os estados globais (nome, ticker, oferta...) e a lista de Estados Próprios, ou seja, as atribuições (por exemplo, 1 milhão de fichas `Plan ₿ Academy` definidas no UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
 
 ```bash
 rgb state '<ContractId>'
@@ -309,4 +309,4 @@ Agora já sabe como emitir e transferir um contrato RGB. Se este tutorial lhe fo
 
 Também recomendo este outro tutorial no qual explico como lançar um nó Lightning compatível com RGB para trocar tokens quase instantaneamente:
 
-https://planb.network/tutorials/node/others/rln-ffc02528-329b-4e16-bd83-873d0299feea
+https://planb.academy/tutorials/node/others/rln-ffc02528-329b-4e16-bd83-873d0299feea

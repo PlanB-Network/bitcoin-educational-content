@@ -41,7 +41,7 @@ Genda kuri [urupapuro rwemewe rwo gukuraho Sparrow wallet](https://sparrowwallet
 Ni vyiza ko ubanza kugenzura ubutungane n’ukuri kw’iyo porogarama imbere y’uko uyishiramwo. Niba utazi uko wobikora, uzosanga inyigisho yuzuye hano :
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Sparrow imaze gushirwaho, urashobora gusimbuka amashusho y’insobanuro y’intango maze ukaja ku gicapo c’uburongozi bw’ihuriro.
 
@@ -110,9 +110,9 @@ Urashobora kubona ko iyo ukoresheje urudodo rwa pruned Bitcoin core, ntuzoshobor
 Kugira ngo utunganye urudodo rwa Bitcoin core, ushobora kuraba imwe muri izi nyigisho zikurikira, bivanye n'uburyo ukoresha:
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
 Ku Sparrow, genda ku rubuga "*Bitcoin core*".
 
@@ -317,7 +317,7 @@ Ushobora kuyindika ku mpapuro canke, kugira ngo urushirize kugira umutekano, uka
 Kugira ngo umenye vyinshi ku buryo bwiza bwo kubika no gucunga ijambo ryawe rya Mnemonic, ndagusavye cane gukurikira iyi yindi nyigisho, cane cane nimba uri umutanguzi:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ![Image](assets/fr/26.webp)
 
@@ -328,7 +328,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 Ushobora kandi guhitamwo kwongerako passphrase BIP39 ukanda ku gasandugu "*Koresha passphrase*". Imburi: gukoresha passphrase birashobora kuba ngirakamaro cane, ariko iyo udatahura ingene ikora, birashobora gutera ingorane nyinshi. Ni co gituma ndaguhanura cane gusoma iyi nkuru ngufi y’ivyiyumviro ku bijanye n’ico kibazo:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Umaze kubika Mnemonic yawe na passphrase iyo ari yo yose ku buryo bugaragara, kanda kuri "*Kwemeza ububiko*".
 
@@ -381,7 +381,7 @@ Hari uburyo bubiri nyamukuru bwo gufatanya Hardware Wallet yawe na Sparrow:
 Sparrow irashigikira ubwo buryo bwose bwo guhanahana amakuru kandi irahuye n’ibikoresho vyinshi vy’amasakoshi biri kw’isoko.
 
 
-Kuri iyi nyigisho, nzoba ndiko nkoresha Ledger Nano S ifise umugozi, ariko uburyo bwo kubikora burasa n’ubwo mu buryo bwa Air-Gap. Uzosanga amakuru yihariye kuri Hardware Wallet yawe mu nyigisho yayo yihariye kuri Plan ₿ Network.
+Kuri iyi nyigisho, nzoba ndiko nkoresha Ledger Nano S ifise umugozi, ariko uburyo bwo kubikora burasa n’ubwo mu buryo bwa Air-Gap. Uzosanga amakuru yihariye kuri Hardware Wallet yawe mu nyigisho yayo yihariye kuri Plan ₿ Academy.
 
 
 Imbere yo gutangura, urabe neza ko Wallet isanzwe itunganijwe kuri Hardware Wallet yawe. Niba ukoresha umugozi, uwuhuze na mudasobwa yawe biciye ku nsinga.
@@ -474,7 +474,7 @@ Niba ukoresha Hardware Wallet, birahambaye cane ko usuzuma Address ku gicapo c�
 ![Image](assets/fr/44.webp)
 
 
-Ku bakoresha Hardware Wallet Air-Gap, ukugenzura kwa Address kurahindagurika bivanye n’igikoresho. Raba inyigisho yihariye ya Plan ₿ Network kugira ngo ubone amabwirizwa nyayo.
+Ku bakoresha Hardware Wallet Air-Gap, ukugenzura kwa Address kurahindagurika bivanye n’igikoresho. Raba inyigisho yihariye ya Plan ₿ Academy kugira ngo ubone amabwirizwa nyayo.
 
 
 Igihe amafaranga amaze gutangazwa n'uwuyitanga, uzobona abonetse mu gice ca "*Ibikorwa*". Ushobora kuyikanda kugira ngo ubone ibindi, nka txid.
@@ -555,7 +555,7 @@ Ivyo bigushikana kuri paji idondora neza Elements y’ivyo waguriye. Suzuma ko a
 Ni vyiza ko ugumana Sighash y’imbere. Kugira ngo utahure igituma, raba iyi nyigisho, aho ndabasigurira ivyo ukeneye kumenya vyose ku vyerekeye Sighash:
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 Ku rubuga rukurikira, amahitamwo arahindagurika bivanye n’ubwoko bwa Wallet uriko urakoresha:
 
@@ -671,4 +671,4 @@ Niwaba wabonye ko iyi nyigisho ari ngirakamaro, noshima cane iyo usiga urukumu r
 Ndababwira kandi iyi yindi nyigisho aho ndabasigurira ingene mwotunganya Hardware Wallet COLDCARD Q na Sparrow wallet :
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3

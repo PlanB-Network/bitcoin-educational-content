@@ -42,7 +42,7 @@ Nach der Installation der Anwendung erstellt StashPay beim ersten Öffnen der An
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Greifen Sie auf die StashPay-Einstellungen zu, indem Sie auf das Symbol "Einstellungen" und dann auf die Option **Sicherung erstellen** klicken. Genehmigen Sie dann die Anzeige der Wiederherstellungsphrasen. Kopieren Sie Ihre Wiederherstellungsphrasen nicht in die Zwischenablage Ihres Telefons, da sie für andere betrügerische Anwendungen, die auf Ihrem Mobiltelefon installiert sind, zugänglich sein könnten.
 
@@ -88,7 +88,7 @@ Sie werden bemerkt haben, dass Sie für den Erhalt von Satoshis eine Netzgebühr
 
 
 
-https://planb.network/tutorials/wallet/mobile/misty-breez-738ced2a-0764-4d7f-a150-ec0ce84a9d25
+https://planb.academy/tutorials/wallet/mobile/misty-breez-738ced2a-0764-4d7f-a150-ec0ce84a9d25
 
 ### Bitcoins mit StashPay versenden
 
@@ -106,7 +106,7 @@ Da StashPay ein Wallet ist, das auf dem Breez Development Kit basiert, profitier
 
 
 
-https://planb.network/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
+https://planb.academy/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
 
 Das Breez SDK schreibt jedoch einen Mindestbetrag vor, ab dem Sie Bitcoins an einen Address auf der Hauptkette senden können.
 
@@ -168,4 +168,4 @@ Sie haben sich gerade mit dem minimalistischen Bitcoin Wallet von StashPay vertr
 
 
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f

@@ -22,6 +22,9 @@ Khóa học này, tất nhiên, tập trung vào hình ảnh của Satoshi Nakam
 
 ## Tổng quan về khóa học
 <chapterId>85290407-1aa3-4cb4-890a-aed23441afb7</chapterId>
+
+:::video id=d1eddf56-279d-459a-9568-5674606f0fd1:::
+
 Chào mừng bạn đến với khóa học HIS201!
 Khóa học này nhằm mục đích kể cho bạn câu chuyện về sự tạo ra của Bitcoin một cách bạn chưa bao giờ đọc trước đây. Nó thường bị bỏ qua, mặc dù chứa đầy chi tiết thú vị. Chúng tôi sẽ cố gắng mô tả nó trong toàn bộ sự phức tạp của nó, từ sự hình thành của nó bởi Satoshi Nakamoto đến sự biến mất sớm của ông và việc chuyển giao cho cộng đồng.
 
@@ -85,6 +88,9 @@ Sẵn sàng khám phá câu chuyện kỳ diệu về sự ra đời của Bitco
 
 ## eCash: Tiền Điện Tử Chaumian
 <chapterId>e443d2ab-68ce-45c0-aec7-30b88d3acdc8</chapterId>
+
+:::video id=fe306046-2245-43a7-9144-6fbafda3205e:::
+
 Trước khi đi sâu vào câu chuyện thực sự về việc tạo ra Bitcoin bởi Satoshi Nakamoto, thích hợp khi chúng ta thảo luận về những gì đã diễn ra trước đó. Chúng ta sẽ tiếp cận chủ đề này qua ba giai đoạn: đầu tiên, chúng ta sẽ giới thiệu về khái niệm tiền mặt số Chaumian thường được gọi là *eCash*; sau đó, chúng ta sẽ nói về các loại tiền tệ riêng tư dựa trên các hệ thống tập trung như e-gold; cuối cùng, chúng ta sẽ mô tả các mô hình kỹ thuật được tưởng tượng trước khi triển khai hệ thống phân tán vững chắc là Bitcoin.
 
 Hãy bắt đầu với khái niệm đầu tiên, eCash. eCash bắt nguồn từ công trình của David Chaum, một nhà khoa học máy tính và mật mã học người Mỹ sinh năm 1955, được coi là một tiên phong trong lĩnh vực giao tiếp ẩn danh và là tiền thân của các cypherpunk. Ông đã đóng góp lớn vào sự phát triển của mật mã học trong những năm 1980. Ông đã phát triển mô hình tiền mặt số của mình (được biết đến là "Chaumian") vào cùng thời gian và cố gắng triển khai nó trong những năm 1990 thông qua công ty của mình, DigiCash.
@@ -118,7 +124,7 @@ Bài báo của Diffie và Hellman đã mở đường cho một loạt các đ�
 Sự phát hiện của mật mã bất đối xứng cũng đã thúc đẩy sự tạo ra của các hàm một chiều, được đặc trưng bởi việc làm cho việc tính toán một ảnh (hướng tiến) rất dễ dàng và việc thu được một ảnh ngược (hướng ngược) rất khó. Cụ thể, nó dẫn đến sự phát triển của các hàm băm mật mã đầu tiên, chuyển đổi một thông điệp có kích thước biến đổi thành một bản tóm tắt cố định. Giữa năm 1989 và 1991, một số thuật toán băm (MD2, MD4, và MD5) do đó đã được thiết kế bởi Ronald Rivest cho MIT.
 Các yếu tố mật mã cơ bản của Bitcoin bắt nguồn từ nghiên cứu này. Hệ thống chữ ký ECDSA, cho phép ủy quyền chi tiêu một giao dịch truyền thống, được tạo ra vào năm 1992 cho NIST. Hàm băm SHA-256, được sử dụng ở nhiều nơi trong giao thức, được công bố vào năm 2001 như một phần của bộ thuật toán SHA-2 được NSA công khai. Để biết thêm thông tin về chủ đề này, bạn có thể tham khảo khóa học CYP201 do Loïc Morel trình bày.
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### Chữ Ký Ẩn và Tiền Điện Tử
 
@@ -184,7 +190,7 @@ Các hệ thống tập trung thay thế khác cũng xuất hiện song song, nh
 
 Sau đó, eCash đã truyền cảm hứng cho các cypherpunk, những người đã phát triển các mô hình của riêng họ như b-money, bit gold, và RPOW. Họ đã thêm bằng chứng công việc (proof of work) và các yếu tố khác, sau này được tìm thấy trong Bitcoin. Chúng ta sẽ nghiên cứu những khái niệm này trong Chương 3.
 
-Cuối cùng, mô hình của David Chaum đã có ảnh hưởng đáng kể đến Satoshi Nakamoto khi ông phát triển khái niệm về tiền tệ của mình. Điều này được chứng minh bởi nhiều tài liệu tham khảo trong [bản trắng](assets/pdf/bitcoin-20090324.pdf) (tiêu đề, mô tả về vấn đề trong phần 2, tên của PDF [được gửi](https://gwern.net/doc/bitcoin/2008-nakamoto) đến Wei Dai vào tháng 8 năm 2008), cũng như các can thiệp riêng tư và công khai của ông. Trong nghĩa này, eCash là tiền thân chính của Bitcoin, mặc dù nó không phải là duy nhất.
+Cuối cùng, mô hình của David Chaum đã có ảnh hưởng đáng kể đến Satoshi Nakamoto khi ông phát triển khái niệm về tiền tệ của mình. Điều này được chứng minh bởi nhiều tài liệu tham khảo trong [bản trắng](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/courses/his201/assets/bitcoin-20090324.pdf) (tiêu đề, mô tả về vấn đề trong phần 2, tên của PDF [được gửi](https://gwern.net/doc/bitcoin/2008-nakamoto) đến Wei Dai vào tháng 8 năm 2008), cũng như các can thiệp riêng tư và công khai của ông. Trong nghĩa này, eCash là tiền thân chính của Bitcoin, mặc dù nó không phải là duy nhất.
 
 Với Bitcoin, Satoshi Nakamoto đã tạo ra một đồng tiền số mạnh mẽ và bảo mật, thực sự là tiền mặt điện tử. Như vậy, ông đã hiện thực hóa [dự đoán](https://www.youtube.com/watch?v=mlwxdyLnMXM&t=872s) của Milton Friedman, người đoạt giải Nobel Kinh tế và là người sáng lập Trường Chicago, người đã nói trong một cuộc phỏng vấn với Quỹ Liên đoàn Người đóng thuế Quốc gia vào năm 1999:
 
@@ -192,6 +198,8 @@ Với Bitcoin, Satoshi Nakamoto đã tạo ra một đồng tiền số mạnh m
 
 ## Các Đồng Tiền Số Tư Nhân
 <chapterId>43035fa3-2805-4331-a6fb-070931d749cf</chapterId>
+
+:::video id=0f75ff53-ebf6-481c-9d1c-863fabb19a6a:::
 
 Trong chương trước, chúng ta đã khám phá hình thức tiền mặt điện tử đầu tiên xuất hiện từ sự ra đời của Internet và mật mã học hiện đại: mô hình eCash của David Chaum. Mô hình này đã có ảnh hưởng đáng kể đến Satoshi Nakamoto và là một cột mốc quan trọng trên con đường dẫn đến Bitcoin. Tuy nhiên, câu chuyện về nguồn gốc của tiền mã hóa không kết thúc với eCash; nó còn bao gồm các thí nghiệm với các đồng tiền tư nhân hoạt động trên Internet, được phát triển từ cuối những năm 1990.
 
@@ -258,6 +266,8 @@ Chính vì sự mong manh của các hệ thống tập trung mà những ngư�
 ## Các Mô Hình Phi Tập Trung Trước Nakamoto
 <chapterId>a104f23c-e9c3-4457-a194-d87cc5f35f13</chapterId>
 
+:::video id=67e5f851-5ff6-4876-a74d-c5f8130b555c:::
+
 Bitcoin đại diện cho một mô hình tiền tệ số phi tập trung. Như vậy, nó tránh được nhu cầu về một bên thứ ba đáng tin cậy, điều này sẽ tạo thành một điểm hỏng duy nhất trong hệ thống. Như được minh họa bởi các ví dụ về eCash, các loại tiền tệ vàng số và Liberty Reserve, việc tập trung hóa một hệ thống nhằm mục đích là một phương án thay thế cho hệ thống hiện tại không thể tránh khỏi dẫn đến việc đóng cửa của nó, theo cách này hay cách khác.
 Tuy nhiên, Bitcoin không phải là khái niệm đầu tiên về tiền tệ phi tập trung được đề xuất. Kể từ cuối những năm 1990, những mô hình như vậy đã được mô tả bởi các cypherpunk, những người mê tự do và quyền riêng tư của cá nhân trên Internet, và những người tin rằng (như David Chaum) rằng các hệ thống được giám sát dẫn đến một tương lai dystopian. Họ [kêu gọi](https://cypherpunks.venona.com/date/1993/03/msg00392.html) "viết mã" và coi "tiền tệ điện tử" là một yếu tố thiết yếu cho lý tưởng của họ. (*nguyên bản: "Cypherpunks write code. (...) We are defending our privacy with cryptography, with anonymous mail forwarding systems, with digital signatures, and with electronic money."*)
 
@@ -290,7 +300,7 @@ Vào năm 1991, một kỹ thuật đóng dấu thời gian bảo mật và bí 
 Ví dụ về đóng dấu thời gian được chứng nhận (nguồn: [Wikimedia](https://en.m.wikipedia.org/wiki/File:Trusted_timestamping.svg))
 
 Haber và Stornetta đã thực hiện ý tưởng của mình bằng cách công bố các dấu vân tay mật mã (kết quả từ việc băm dữ liệu hữu ích) trong các mục quảng cáo phân loại của New York Times bắt đầu từ năm 1992. Sau đó, họ đã thành lập công ty của riêng mình vào năm 1994, Surety Technologies, với mục tiêu toàn tâm toàn ý cho hoạt động này. Họ do đó được [biết đến](https://www.vice.com/en/article/j5nzx4/what-was-the-first-blockchain) với việc tạo ra chuỗi dấu thời gian đầu tiên, với việc dấu vân tay trước đó được tính toán trong việc tạo ra dấu vân tay mới để được công bố trong báo, điều này đã báo trước cho blockchain Bitcoin.
-Ba bài báo của Haber và Stornetta đã được Satoshi Nakamoto trích dẫn trong [bản trắng Bitcoin](assets/pdf/bitcoin-20090324.pdf): bài báo năm 1991 đã đề cập trước đó, một [bài báo](https://www.math.columbia.edu/~bayer/papers/Timestamp_BHS93.pdf) từ năm 1993 đã cải thiện các giao thức được đề xuất trong bài trước, đặc biệt thông qua việc sử dụng cây Merkle, và một [bài báo](https://cdn.nakamotoinstitute.org/docs/secure-names-bit-strings.pdf) từ năm 1997 đã trình bày một cách để đặt tên cho các tệp một cách phổ quát sử dụng hàm một chiều. Cũng được trích dẫn là một [bài báo](https://cdn.nakamotoinstitute.org/docs/secure-timestamping-service.pdf) mô tả một hệ thống đóng dấu thời gian mới được viết vào năm 1999 bởi Henri Massias, Xavier Serret-Avila, và Jean-Jacques Quisquater, ba người làm việc cho nhóm nghiên cứu mật mã tại Đại học Công giáo Louvain, ở Bỉ.
+Ba bài báo của Haber và Stornetta đã được Satoshi Nakamoto trích dẫn trong [bản trắng Bitcoin](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/courses/his201/assets/bitcoin-20090324.pdf): bài báo năm 1991 đã đề cập trước đó, một [bài báo](https://www.math.columbia.edu/~bayer/papers/Timestamp_BHS93.pdf) từ năm 1993 đã cải thiện các giao thức được đề xuất trong bài trước, đặc biệt thông qua việc sử dụng cây Merkle, và một [bài báo](https://cdn.nakamotoinstitute.org/docs/secure-names-bit-strings.pdf) từ năm 1997 đã trình bày một cách để đặt tên cho các tệp một cách phổ quát sử dụng hàm một chiều. Cũng được trích dẫn là một [bài báo](https://cdn.nakamotoinstitute.org/docs/secure-timestamping-service.pdf) mô tả một hệ thống đóng dấu thời gian mới được viết vào năm 1999 bởi Henri Massias, Xavier Serret-Avila, và Jean-Jacques Quisquater, ba người làm việc cho nhóm nghiên cứu mật mã tại Đại học Công giáo Louvain, ở Bỉ.
 ### Bằng chứng công việc và Hashcash
 
 Bằng chứng công việc là một quy trình cho phép một thiết bị máy tính chứng minh một cách khách quan và có thể đo lường được rằng nó đã tiêu hao năng lượng, nhằm được chọn để truy cập vào một dịch vụ hoặc quyền lợi. Cơ bản, đây là một cơ chế để chống lại các cuộc tấn công Sybil, làm cho việc khó khăn cho kẻ tấn công trong việc nhân bản quá mức danh tính để làm gián đoạn hoặc kiểm soát bất kỳ hệ thống uy tín nào.
@@ -384,6 +394,8 @@ Bitcoin như vậy hình thành đỉnh cao của một cuộc tìm kiếm cho c
 ## Sự Ra Đời của Bitcoin
 <chapterId>3d141918-e9c2-46e8-8c03-2bb4eb9b2150</chapterId>
 
+:::video id=825522d8-1ccc-4d14-80ac-e292a85a608a:::
+
 Sau khi tìm hiểu về nguồn gốc của Bitcoin, bây giờ chúng ta sẽ tập trung vào lịch sử của nó. Điều này đã được đề cập trong nhiều bài viết, podcast, và video trong suốt những năm qua, đến mức nó gần như đã trở thành một loại huyền thoại sáng lập. Như chúng ta đã thấy, Bitcoin không thể tách rời khỏi bối cảnh mà nó được tạo ra; điều tương tự cũng đúng với các sự kiện diễn ra trong những năm đầu, đã hình thành nên bản chất của nó ngày nay, với những ưu điểm và nhược điểm.
 
 Bitcoin được tạo ra bởi Satoshi Nakamoto, một cá nhân không rõ danh tính tự nhận là người Nhật, người đã dành thời gian để thiết kế nó một cách cẩn thận trước khi công bố cho công chúng. Sau đó, họ đã làm mọi thứ để đảm bảo rằng Bitcoin được ra mắt dưới những điều kiện tốt nhất, được trình bày tốt trong các cuộc thảo luận, và được sử dụng bởi một số lượng người ngày càng tăng. Cuối cùng, nỗ lực của người sáng tạo nằm ở việc khởi xướng kinh tế của hệ thống cũng như trong thiết kế ban đầu của nó, nếu không muốn nói là nhiều hơn.
@@ -418,7 +430,7 @@ Về phần mình, Satoshi hoàn thành việc chuẩn bị công bố phát min
 
 ### Việc xuất bản bài báo trắng
 
-Vào ngày 31 tháng 10 năm 2008, Satoshi Nakamoto xuất bản [phiên bản đầu tiên của bài báo trắng](assets/pdf/bitcoin-20081003.pdf) trên một danh sách email chuyên về mật mã, đơn giản được gọi là "Danh sách mailing về mật mã." Danh sách này được quản lý bởi nhà phát triển Perry Metzger từ năm 1996, kể từ [khi tạo ra](https://cypherpunks.venona.com/date/1996/12/msg00102.html), và đã được lưu trữ trên trang cá nhân của ông, Metdowd.com, từ năm [2003](https://www.metzdowd.com/pipermail/cryptography/2003-April/004484.html). Đây là kế thừa của danh sách cypherpunks, với điểm khác biệt là nó chịu sự kiểm duyệt nghiêm ngặt. Vào năm 2008, một số cựu cypherpunks vẫn tham gia, như John Gilmore, Hal Finney và Len Sassaman.
+Vào ngày 31 tháng 10 năm 2008, Satoshi Nakamoto xuất bản [phiên bản đầu tiên của bài báo trắng](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/courses/his201/assets/bitcoin-20081003.pdf) trên một danh sách email chuyên về mật mã, đơn giản được gọi là "Danh sách mailing về mật mã." Danh sách này được quản lý bởi nhà phát triển Perry Metzger từ năm 1996, kể từ [khi tạo ra](https://cypherpunks.venona.com/date/1996/12/msg00102.html), và đã được lưu trữ trên trang cá nhân của ông, Metdowd.com, từ năm [2003](https://www.metzdowd.com/pipermail/cryptography/2003-April/004484.html). Đây là kế thừa của danh sách cypherpunks, với điểm khác biệt là nó chịu sự kiểm duyệt nghiêm ngặt. Vào năm 2008, một số cựu cypherpunks vẫn tham gia, như John Gilmore, Hal Finney và Len Sassaman.
 
 Trong email đầu tiên [của mình](https://www.metzdowd.com/pipermail/cryptography/2008-October/014810.html) gửi đến danh sách, Satoshi viết đơn giản:
 
@@ -451,7 +463,7 @@ Bitcoin sử dụng một thuật toán đồng thuận phân tán cho phép t�
 
 Cơ chế đồng thuận này cho phép áp đặt mọi loại quy tắc và khuyến khích (sử dụng cụm từ cuối cùng của bản trắng) trong hệ thống. Vì Bitcoin cung cấp một dịch vụ đánh dấu thời gian phân tán, nên cũng có thể có sự tương tác của các quy tắc này với sự trôi qua của thời gian. Do đó, thuật toán điều chỉnh độ khó được đưa vào để điều chỉnh việc sản xuất các khối mới và bitcoin liên quan đến chúng: nếu số lượng khối được sản xuất trong một khoảng thời gian nhất định quá cao, thì độ khó của việc sản xuất tăng lên; trong trường hợp ngược lại, nó giảm xuống. Bitcoin do đó khác biệt so với RPOW, nơi mà chính bằng chứng công việc tạo thành các đơn vị tài khoản.
 
-Nhờ vào sự điều chỉnh độ khó này, Bitcoin có thể có một chính sách tiền tệ, nghĩa là số lượng đơn vị mới được phát hành bởi giao thức có thể được xác định trước. Ban đầu, việc phát hành tiền tệ được lên kế hoạch là cố định, nhằm khuyến khích các nút sản xuất đóng góp sức mạnh tính toán của họ cho mạng, và không có phí giao dịch. Như Satoshi Nakamoto viết trong phần "Incentive" của [bản trắng](assets/pdf/bitcoin-20081003.pdf):
+Nhờ vào sự điều chỉnh độ khó này, Bitcoin có thể có một chính sách tiền tệ, nghĩa là số lượng đơn vị mới được phát hành bởi giao thức có thể được xác định trước. Ban đầu, việc phát hành tiền tệ được lên kế hoạch là cố định, nhằm khuyến khích các nút sản xuất đóng góp sức mạnh tính toán của họ cho mạng, và không có phí giao dịch. Như Satoshi Nakamoto viết trong phần "Incentive" của [bản trắng](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/courses/his201/assets/bitcoin-20081003.pdf):
 > "Việc thêm vào một lượng mới cố định của các đồng tiền tương tự như việc thợ mỏ vàng tiêu tốn tài nguyên để thêm vàng vào lưu thông."
 
 Tính chất này, được Satoshi xác nhận [trên mailing list](https://www.metzdowd.com/pipermail/cryptography/2008-November/014831.html) và [trong thư riêng tư của mình](https://mmalmi.github.io/satoshi/#email-3), không thoát khỏi sự chú ý của James A. Donald. Vào ngày 9 tháng 11, ông [phê bình](https://www.metzdowd.com/pipermail/cryptography/2008-November/014837.html) "công việc theo dõi ai sở hữu cái gì" (tức là, khai thác) được "trả tiền bằng seigniorage" và "yêu cầu lạm phát," mặc dù ông lưu ý rằng "lạm phát dự đoán được ít phản đối hơn so với lạm phát được điều chỉnh từ thời gian này sang thời gian khác để chuyển sự giàu có từ một khối cử tri này sang khối khác." Hơn nữa, ông [lưu ý](https://www.metzdowd.com/pipermail/cryptography/2008-November/014841.html) rằng một nút khai thác "bỏ qua tất cả các khoản chi tiêu mà nó không quan tâm" không gặp "hậu quả tiêu cực" nào, qua đó làm nổi bật vấn đề kiểm duyệt.
@@ -502,6 +514,8 @@ Tuy nhiên, công việc này không đủ, và cần có sự kiên trì từ S
 
 ## Trình Bày với Thế Giới
 <chapterId>28be3515-d9da-4d91-b7ff-f8691d51c562</chapterId>
+
+:::video id=c9691569-f026-460d-a08d-98fa54f1ce25:::
 
 Sau khi xem xét cách Bitcoin được thiết kế và phát động bởi Satoshi Nakamoto, hãy tập trung vào cách nó được công bố công khai. Sau khi được khởi động vào đầu năm 2009, mạng lưới đã hoạt động, nhưng có rất ít nút tạo (Satoshi đã khai thác phần lớn các khối) và hoạt động gần như không tồn tại (32 giao dịch thực tế diễn ra trong tháng 1). Dự án chỉ có một trang web cơ bản và một trang SourceForge để tải xuống phần mềm. Hơn nữa, việc truyền thông về Bitcoin giới hạn ở danh sách thư Metzdowd Cryptography, theo dõi tốt nhất bởi vài trăm người đam mê về mật mã học.
 
@@ -654,6 +668,9 @@ Vào mùa thu năm 2009, có vẻ như Bitcoin đã sẵn sàng để phát tri�
 
 ## Khởi Động của Tiền Điện Tử
 <chapterId>6b3418a7-125e-4ea1-a03a-f36090fac8a4</chapterId>
+
+:::video id=2a31c9c2-bb14-4ed5-b906-7df373f81f98:::
+
 Trong các chương trước, chúng ta đã quan sát cách Satoshi Nakamoto triển khai ý tưởng của mình và cách ông ta truyền đạt về nó để giới thiệu Bitcoin cho thế giới. Tuy nhiên, không phải mọi thứ đều phụ thuộc vào ông ấy: cũng cần thiết cho mọi người gán giá trị cho đơn vị tiền tệ. Việc này cho phép trả thù lao cho các thợ đào thông qua phí giao dịch và thưởng cho các nhà bán hàng thông qua lạm phát tự nhiên, sự đánh giá cao như vậy là cần thiết cho an ninh của hệ thống.
 
 Tuy nhiên, sự xuất hiện của giá trị Bitcoin không phải là một nhiệm vụ dễ dàng. Đó thực sự là việc gán tầm quan trọng kinh tế cho một đối tượng trước đó không có giá trị gì, vì những lý do hoàn toàn chủ quan. Hal Finney đã giải thích rất tốt trong [email](https://www.metzdowd.com/pipermail/cryptography/2009-January/015004.html) của mình ngày 11 tháng 1 năm 2009, gửi đến danh sách thư Cryptography, nơi ông viết:
@@ -765,6 +782,8 @@ Tuy nhiên, câu hỏi này không bao giờ làm phiền Satoshi, người th�
 ## Card Đồ Họa, Pizza, và Bitcoin Miễn Phí
 <chapterId>9cd228a4-58d3-46a3-9935-06098bafc954</chapterId>
 
+:::video id=18913713-2f1a-4555-ba5d-06ec6d532bcb:::
+
 Trong phần trước, chúng tôi đã khám phá cách Bitcoin ra đời, cách nó được giới thiệu với công chúng, và cách nó được khởi đầu về mặt kinh tế. Vào mùa xuân năm 2010, khi thương mại bitcoin mới bắt đầu nở rộ, mục tiêu của Satoshi Nakamoto và một số ít người ủng hộ ông là giữ cho ngọn lửa tiếp tục cháy. May mắn thay, những cá nhân khác đã tham gia vào nỗ lực này, đáng chú ý là miner Laszlo Hanyecz và nhà phát triển Gavin Andresen, những người đã nổi bật với hành động của mình.
 
 Trong chương này, chúng ta sẽ xem xét việc triển khai đầu tiên của việc khai thác bằng unit xử lý đồ họa (GPU), tài sản tích lũy bởi Satoshi Nakamoto, lần mua hàng hóa vật lý đầu tiên bằng bitcoin, việc thiết lập một vòi bitcoin phát miễn phí đơn vị, và sự phát triển của phần mềm và mạng trước Slashdot.
@@ -856,6 +875,8 @@ Tuy nhiên, đến cuối tháng Sáu, hoạt động trên mạng vẫn còn kh
 ## Sự Kiện Slashdot Lớn
 <chapterId>2eef715e-b018-445b-b360-1c6e1c1df462</chapterId>
 
+:::video id=c26f3696-4e33-4d38-9443-f237935f8b45:::
+
 Vào đầu mùa hè năm 2010, mặc dù có một số phát triển ban đầu đáng khích lệ, Bitcoin vẫn dựa trên một nền tảng không vững chắc. Phần mềm chỉ có một vài nhà phát triển ngoài Satoshi Nakamoto. Các thợ đào là những người nghiệp dư trên máy tính cá nhân của họ. Có khoảng hai mươi dịch vụ liên quan đến Bitcoin, và các sàn giao dịch thực sự cũng hiếm hoi. Tuy nhiên, mọi thứ sắp thay đổi đáng kể trong nửa cuối của năm.
 
 Trong chương này, chúng ta sẽ thảo luận về "sự kiện Slashdot lớn," tức là sự gia tăng đột ngột của người dùng theo sau việc công bố một bài giới thiệu về Bitcoin trên trang web phổ biến Slashdot vào ngày 11 tháng 7 năm 2010. Chúng ta sẽ xem xét cách mà văn bản này được tạo ra như một nỗ lực cuối cùng về giao tiếp từ phía Satoshi và những ảnh hưởng trực tiếp theo sau sự phổ biến này của Bitcoin.
@@ -925,6 +946,8 @@ Trong những tháng tiếp theo, các cải tiến kỹ thuật, kinh tế, và
 ## Những Vấn Đề Kỹ Thuật Đầu Tiên
 <chapterId>30cc4fe4-22b0-429e-9874-029c9137c0aa</chapterId>
 
+:::video id=f3e98b49-c32e-451a-b7c1-224dc5b00cf5:::
+
 Như đã đề cập trong chương trước, sự gia nhập của người dùng từ Slashdot vào ngày 11 tháng 7 năm 2010, đã tạo ra một làn sóng quan tâm lớn đối với dự án của Satoshi Nakamoto. Việc sử dụng mạng lưới tăng vọt; tỷ giá tăng gấp mười lần, cũng như sức mạnh tính toán dành cho hệ thống. Do đó, Bitcoin đã trải qua sự tăng trưởng chưa từng có trong mùa hè.
 
 Tuy nhiên, thành công này đi kèm với những vấn đề kỹ thuật, khi phát hiện ra một số lỗ hổng trong phần mềm. Sự phổ biến lớn hơn thực sự có nghĩa là cả số lượng người kiểm tra mã và khả năng xảy ra các bất thường vận hành cao hơn. Và đúng như vậy, điều này đã xảy ra vào ngày 15 tháng 8 với sự cố tràn giá trị, "sự cố" đầu tiên trong lịch sử của Bitcoin, kéo dài khoảng 15 giờ. Thời gian này tự nhiên được đánh dấu bởi việc cải thiện phần mềm, nhằm dự đoán các mối đe dọa khác nhau và sửa chữa lỗi càng nhiều càng tốt.
@@ -993,6 +1016,8 @@ Trong những tháng tiếp theo, các cải tiến kỹ thuật, kinh tế và 
 ## Cơn Sốt Vàng Số
 <chapterId>8e9899ca-e7a7-471b-8e69-847a56714d3b</chapterId>
 
+:::video id=665ac55c-cd61-4d07-a896-95248eec480d:::
+
 Trong phần trước, chúng ta đã nghiên cứu về ảnh hưởng của việc công bố bài giới thiệu về Bitcoin trên Slashdot (slashdotting) và cách những sự cố kỹ thuật ban đầu được Satoshi và các cộng sự của ông quản lý. Đến cuối mùa hè, dự án đã vượt qua cơn bão và sẵn sàng chào đón một số lượng người ngày càng tăng. Mùa thu năm 2010 do đó đã đánh dấu một giai đoạn thành công cho Bitcoin.
 Giai đoạn này đặc biệt là một kỷ nguyên vàng cho việc khai thác, đã chứng kiến những cải tiến đáng kể với sự xuất hiện của các trang trại GPU đầu tiên và hợp tác xã đầu tiên. Các nguồn lực được triển khai ngày càng tăng, và hiệu suất của các thuật toán chuyên dụng được cải thiện. Đó là một cách nào đó, một "cơn sốt vàng số," như một blogger thời bấy giờ (sử dụng bí danh jimbobway) [viết](https://web.archive.org/web/20100828094955/http://www.bitcoinblogger.com/2010/08/bitcoins-new-digital-gold-rush.html), lưu ý rằng "hàng ngàn người dùng trên Internet" đang khai thác bitcoin "với hy vọng về của cải" và rằng nhiều người trong số họ đang cố gắng "phát triển phần mềm và công cụ phần cứng để khai thác bitcoin một cách hiệu quả hơn" với hy vọng trở nên giàu có.
 
@@ -1051,6 +1076,9 @@ Tuy nhiên, mùa thu không chỉ thành công với việc khai thác. Nó cũn
 
 ## Sự Nở Rộ của Hệ Sinh Thái
 <chapterId>0404f877-8b5c-4c7f-81ab-a4e6d9b3da9c</chapterId>
+
+:::video id=2327cb5b-36a1-49f4-a9de-09b70d76b8c1:::
+
 Trong chương trước, chúng ta đã khám phá cách mà việc khai thác mỏ phát triển trong nửa cuối năm 2010. Đến mùa thu, sự tiến bộ này đã được thiết lập vững chắc. Tuy nhiên, khai thác mỏ không phải là yếu tố duy nhất của Bitcoin tìm thấy thành công: hệ sinh thái của nó cũng vậy.
 
 Ở đây, chúng ta sẽ đầu tiên giải quyết việc bắt đầu xuất khẩu quốc tế của Bitcoin với sự phát triển của cộng đồng Nga và Pháp. Sau đó, chúng ta sẽ thảo luận về những cải tiến trong giao tiếp và tăng trưởng kinh tế, điều này đáng chú ý đã dẫn đến một sự tăng giá mới trong đơn vị giá của bitcoin. Cuối cùng, chúng ta sẽ nhắc đến hai sự kiện biểu tượng trước khi Satoshi rời đi: sự chấp nhận bitcoin bởi Quỹ Biên giới Điện tử và sự trở lại của Hal Finney.
@@ -1143,6 +1171,8 @@ Trong mùa thu năm 2010, hệ sinh thái xung quanh Bitcoin đã phát triển 
 
 ## Sự Biến Mất của Satoshi
 <chapterId>f7735239-4887-468f-9f06-1b07d00b30d9</chapterId>
+
+:::video id=fd5b40ae-b6bc-484a-b86b-af9c772f0afa:::
 
 Chúng ta đã thấy Bitcoin cất cánh sau khi bài viết được đăng trên Slashdot vào tháng 7 năm 2010. Vào mùa thu, với nhiều tiến bộ trong phần mềm, khai thác và nền kinh tế, dự án cuối cùng cũng dường như đi đúng hướng. Đó là lý do tại sao giai đoạn này trùng khớp với sự rút lui dần dần của Satoshi Nakamoto.
 
@@ -1251,6 +1281,8 @@ Khía cạnh bí ẩn xung quanh người tạo ra Bitcoin đã được Hal Fin
 
 ## Cộng Đồng Tiếp Quản
 <chapterId>16c5e6d6-2412-48c6-9687-6af92cf0d89a</chapterId>
+
+:::video id=b29c3ea3-c4ca-4feb-bb29-5dc064987406:::
 
 Sau khi Satoshi Nakamoto rời đi, việc tiếp tục mà không có ông trở nên cần thiết. May mắn thay, Bitcoin là một dự án mở, mà bất kỳ ai cũng có thể đóng góp, vì vậy sự biến mất của người sáng lập không phải là một tổn thất lớn đối với nó. Như nhà phát triển Jeff Garzik đã viết vào tháng 7 năm 2010 (về khả năng vắng mặt của người sáng lập):
 

@@ -22,6 +22,9 @@ objectives:
 
 ## 课程概述
 <chapterId>85290407-1aa3-4cb4-890a-aed23441afb7</chapterId>
+
+:::video id=d1eddf56-279d-459a-9568-5674606f0fd1:::
+
 欢迎来到 HIS201 课程！
 这个课程旨在以你从未读过的方式讲述比特币的创造故事。尽管充满了迷人的细节，但这个故事经常被忽视。我们将努力描述其所有复杂性，从中本聪的构想到他早期的消失以及向社区的交接。
 
@@ -84,6 +87,9 @@ objectives:
 
 ## eCash：查姆式数字现金
 <chapterId>e443d2ab-68ce-45c0-aec7-30b88d3acdc8</chapterId>
+
+:::video id=fe306046-2245-43a7-9144-6fbafda3205e:::
+
 在深入探讨比特币由中本聪创造的实际故事之前，讨论其前身是恰当的。我们将分三个阶段来讨论这个话题：首先，我们将介绍Chaumian数字现金的概念，通常称为*eCash*；然后，我们将讨论基于中心化系统的私人货币，如e-gold；最后，我们将描述在实现比特币这一强大的分布式系统之前所想象的技术模型。
 
 让我们从第一个概念，eCash开始。eCash源自David Chaum的工作，他是一位出生于1955年的美国计算机科学家和密码学家，被认为是匿名通信领域的先驱和密码朋克运动的前驱。他在1980年代对密码学的发展做出了重大贡献。他同时开发了他的数字现金模型（被称为"Chaumian"），并试图通过他的公司DigiCash在1990年代实施它。
@@ -117,7 +123,7 @@ Diffie和Hellman的文章为众多创新铺平了道路。其中之一是[RSA密
 非对称密码学的发现也促进了单向函数的创建，其特点是使得计算一个图像（正向方向）非常容易，而获取一个预图像（反向方向）非常困难。特别是，它导致了第一批密码散列函数的开发，这些函数将可变大小的消息转换为固定大小的摘要。在1989年到1991年间，由Ronald Rivest为MIT设计了几种散列算法（MD2、MD4和MD5）。
 比特币的基本加密元素源自这项研究。ECDSA签名方案允许授权传统交易的支出，这一方案于1992年为NIST创建。SHA-256哈希函数在协议的多个地方使用，它作为SHA-2算法套件的一部分，由NSA在2001年公布。关于这个主题的更多信息，你可以参考由Loïc Morel呈现的课程 CYP201。
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### 盲签名与电子现金
 
@@ -182,7 +188,7 @@ eCash于1995年10月引入银行系统，开始了DigiCash与密苏里州的Mark
 
 然后，eCash启发了密码朋克，他们开发了自己的模型，如b-money、bit gold和RPOW。他们加入了工作证明(proof of work)和其他元素，这些后来在比特币中找到。我们将在第三章研究这些概念。
 
-最终，大卫·查姆的模型在他开发货币概念时对中本聪产生了重大影响。这一点通过[白皮书](assets/pdf/bitcoin-20090324.pdf)中的多处引用得到证明（标题，第2节中问题的描述，2008年8月发送给魏戴的PDF[链接](https://gwern.net/doc/bitcoin/2008-nakamoto)），以及他的私人和公开干预。从这个意义上说，eCash是比特币的主要前身，即使它不是唯一的前身。
+最终，大卫·查姆的模型在他开发货币概念时对中本聪产生了重大影响。这一点通过[白皮书](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/courses/his201/assets/bitcoin-20090324.pdf)中的多处引用得到证明（标题，第2节中问题的描述，2008年8月发送给魏戴的PDF[链接](https://gwern.net/doc/bitcoin/2008-nakamoto)），以及他的私人和公开干预。从这个意义上说，eCash是比特币的主要前身，即使它不是唯一的前身。
 
 通过比特币，中本聪创建了一个健壮且保密的数字货币，真正的电子现金。这样做，他实现了诺贝尔经济学奖得主、芝加哥学派创始人米尔顿·弗里德曼的[预言](https://www.youtube.com/watch?v=mlwxdyLnMXM&t=872s)，他在1999年接受国家纳税人联盟基金会采访时说：
 
@@ -190,6 +196,8 @@ eCash于1995年10月引入银行系统，开始了DigiCash与密苏里州的Mark
 
 ## 私有数字货币
 <chapterId>43035fa3-2805-4331-a6fb-070931d749cf</chapterId>
+
+:::video id=0f75ff53-ebf6-481c-9d1c-863fabb19a6a:::
 
 在上一章中，我们探讨了从互联网和现代密码学的出现中涌现出的第一种电子现金形式：大卫·查姆的eCash模型。这个模型对中本聪产生了重大影响，并且是通往比特币的关键里程碑。然而，加密货币起源的故事并不止于eCash；它还包括从20世纪90年代末开始在互联网上开发的私有货币实验。
 
@@ -258,6 +266,8 @@ PayPal的最初愿景是革命性的，符合彼得·蒂尔的自由主义愿景
 ## 在中本聪之前的去中心化模型
 <chapterId>a104f23c-e9c3-4457-a194-d87cc5f35f13</chapterId>
 
+:::video id=67e5f851-5ff6-4876-a74d-c5f8130b555c:::
+
 比特币代表了一种去中心化的数字货币模型。通过这种方式，它避免了对可信第三方的需求，这将构成系统中的单点故障。正如eCash、数字黄金货币和自由储备金的例子所示，意图作为现有系统替代品的系统的中心化最终不可避免地导致其以某种方式关闭。
 然而，比特币并不是第一个被提出的去中心化货币概念。自1990年代末以来，这样的模型就已经被密码朋克们描述过，他们对互联网上个人的自由和隐私着迷，并且相信（像David Chaum一样）被监控的系统会导致一个反乌托邦的未来。他们[呼吁](https://cypherpunks.venona.com/date/1993/03/msg00392.html)“编写代码”，并认为“电子货币”是他们理想中的一个重要元素。（*原文：“密码朋克写代码。（...）我们用密码学、匿名邮件转发系统、数字签名和电子货币来保护我们的隐私。”*）
 
@@ -290,7 +300,7 @@ PayPal的最初愿景是革命性的，符合彼得·蒂尔的自由主义愿景
 认证时间戳的示例（来源：[维基媒体](https://en.m.wikipedia.org/wiki/File:Trusted_timestamping.svg)）
 
 哈伯和斯托内塔通过从1992年开始在《纽约时报》的分类广告中发布加密指纹（由有用数据的哈希结果产生）来实施他们的想法。然后，他们在1994年创立了自己的公司Surety Technologies，旨在全身心投入这项活动。因此，他们以创建第一个时间戳链而[闻名](https://www.vice.com/en/article/j5nzx4/what-was-the-first-blockchain)，在计算要在报纸上发布的新指纹时考虑了之前的指纹，这预示了比特币区块链的出现。
-中本聪在[比特币白皮书](assets/pdf/bitcoin-20090324.pdf)中引用了哈伯和斯托内塔的三篇论文：前面提到的1991年的论文，一篇1993年的[论文](https://www.math.columbia.edu/~bayer/papers/Timestamp_BHS93.pdf)对早期提出的协议进行了改进，特别是通过使用默克尔树，以及一篇1997年的[论文](https://cdn.nakamotoinstitute.org/docs/secure-names-bit-strings.pdf)介绍了使用单向函数为文件命名的方法。还引用了一篇1999年由比利时鲁汶天主教大学密码学研究小组的三位成员亨利·马西亚斯（Henri Massias）、哈维尔·塞雷特-阿维拉（Xavier Serret-Avila）和让-雅克·基斯夸特（Jean-Jacques Quisquater）撰写的描述新时间戳系统的[论文](https://cdn.nakamotoinstitute.org/docs/secure-timestamping-service.pdf)。
+中本聪在[比特币白皮书](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/courses/his201/assets/bitcoin-20090324.pdf)中引用了哈伯和斯托内塔的三篇论文：前面提到的1991年的论文，一篇1993年的[论文](https://www.math.columbia.edu/~bayer/papers/Timestamp_BHS93.pdf)对早期提出的协议进行了改进，特别是通过使用默克尔树，以及一篇1997年的[论文](https://cdn.nakamotoinstitute.org/docs/secure-names-bit-strings.pdf)介绍了使用单向函数为文件命名的方法。还引用了一篇1999年由比利时鲁汶天主教大学密码学研究小组的三位成员亨利·马西亚斯（Henri Massias）、哈维尔·塞雷特-阿维拉（Xavier Serret-Avila）和让-雅克·基斯夸特（Jean-Jacques Quisquater）撰写的描述新时间戳系统的[论文](https://cdn.nakamotoinstitute.org/docs/secure-timestamping-service.pdf)。
 ### 工作量证明和Hashcash
 
 工作量证明是一个过程，它允许计算机设备以客观和可量化的方式证明它已经耗费了能量，以便被选中访问服务或特权。它本质上是一种抵抗Sybil攻击的机制，这使得攻击者难以过度增加身份以破坏或控制任何声誉系统。
@@ -382,6 +392,8 @@ Ripple的概念基于这样一个观点，即金钱本质上是由借据组成�
 ## 比特币的诞生
 <chapterId>3d141918-e9c2-46e8-8c03-2bb4eb9b2150</chapterId>
 
+:::video id=825522d8-1ccc-4d14-80ac-e292a85a608a:::
+
 在了解比特币的来源之后，我们现在将聚焦于它自身的历史。这一主题已经是无数文章、播客和视频的主题，以至于它几乎成了一种创始神话。正如我们所见，比特币与其创造的背景密不可分；其早期年份发生的事件也是如此，这些事件塑造了今天的比特币，以及它的优点和缺陷。
 比特币由一个自称是日本人的未知个体中本聪创建，他在向公众揭露之前花时间深思熟虑地设计了它。随后，他们尽一切努力确保比特币在最佳条件下启动，它在讨论中得到了良好的呈现，并且被越来越多的人使用。最终，创造者的努力不仅仅在于系统的经济启动，如果不是更多的话，还在于其最初的设计。
 
@@ -415,7 +427,7 @@ Ripple的概念基于这样一个观点，即金钱本质上是由借据组成�
 
 ### 白皮书的发布
 
-2008年10月31日，中本聪在一个专门讨论密码学的电子邮件邮件列表上发布了[白皮书的第一版](assets/pdf/bitcoin-20081003.pdf)，这个邮件列表简称为“密码学邮件列表”。该列表自1996年以来一直由开发者佩里·梅茨格（Perry Metzger）管理，自[2003年](https://www.metzdowd.com/pipermail/cryptography/2003-April/004484.html)起，它一直托管在他的个人网站Metdowd.com上。它是cypherpunks列表的继承者，不同之处在于它受到严格的审核。2008年，一些前cypherpunks成员仍然参与其中，如约翰·吉尔摩（John Gilmore）、哈尔·芬尼（Hal Finney）和伦·萨萨曼（Len Sassaman）。
+2008年10月31日，中本聪在一个专门讨论密码学的电子邮件邮件列表上发布了[白皮书的第一版](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/courses/his201/assets/bitcoin-20081003.pdf)，这个邮件列表简称为“密码学邮件列表”。该列表自1996年以来一直由开发者佩里·梅茨格（Perry Metzger）管理，自[2003年](https://www.metzdowd.com/pipermail/cryptography/2003-April/004484.html)起，它一直托管在他的个人网站Metdowd.com上。它是cypherpunks列表的继承者，不同之处在于它受到严格的审核。2008年，一些前cypherpunks成员仍然参与其中，如约翰·吉尔摩（John Gilmore）、哈尔·芬尼（Hal Finney）和伦·萨萨曼（Len Sassaman）。
 
 在他发给列表的第一封[电子邮件](https://www.metzdowd.com/pipermail/cryptography/2008-October/014810.html)中，中本聪简单地写道：
 
@@ -448,7 +460,7 @@ Hal Finney 2007年
 
 这种共识机制允许在系统内强加各种规则和激励措施（使用白皮书的最后一句话）。由于比特币构成了一个分布式时间戳服务，因此也可以让这些规则与时间的流逝相互作用。因此出现了难度调整算法，用来调节新区块的产生及其关联的比特币：如果在给定期间内产生的区块数量过高，则生产难度增加；反之，则减少。因此，比特币与RPOW不同，在RPOW中，工作证明本身构成了账户单位。
 
-多亏了这种难度调整，比特币因此可以有一种货币政策，意味着协议发行的新单位数量可以预先确定。最初，计划货币发行量保持恒定，以鼓励生产节点贡献其计算能力给网络，并且没有交易费用。正如中本聪在[白皮书](assets/pdf/bitcoin-20081003.pdf)的“激励”部分所写：
+多亏了这种难度调整，比特币因此可以有一种货币政策，意味着协议发行的新单位数量可以预先确定。最初，计划货币发行量保持恒定，以鼓励生产节点贡献其计算能力给网络，并且没有交易费用。正如中本聪在[白皮书](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/courses/his201/assets/bitcoin-20081003.pdf)的“激励”部分所写：
 > “不断增加恒定数量的新币类似于金矿工人耗费资源将黄金加入流通。”
 
 这一属性，通过中本聪[在邮件列表上](https://www.metzdowd.com/pipermail/cryptography/2008-November/014831.html)和[在他的私人通信中](https://mmalmi.github.io/satoshi/#email-3)得到确认，詹姆斯·A·唐纳德并未忽视。11月9日，他[批评](https://www.metzdowd.com/pipermail/cryptography/2008-November/014837.html)“追踪谁拥有什么”的工作（即，挖矿）是“通过铸币税支付”的，并且“需要通货膨胀”，尽管他指出，“可预测的通货膨胀比时不时地调整通货膨胀以将财富从一个投票群体转移到另一个投票群体更不令人反感。”（原文：“在提议的系统中，追踪谁拥有哪些硬币的工作是通过铸币税支付的，这需要通货膨胀。这不是一个无法容忍的缺陷 - 可预测的通货膨胀比时不时地调整通货膨胀以将财富从一个投票群体转移到另一个投票群体更不令人反感。”）此外，他[指出](https://www.metzdowd.com/pipermail/cryptography/2008-November/014841.html)一个忽略它不关心的所有支出的挖矿节点“不会遭受不利后果”，从而突出了审查制度的问题。（原文：“如果一个节点正在忽略所有它不关心的支出，它不会遭受不利后果。”）
@@ -501,6 +513,8 @@ Hal Finney和Ray Dillinger对代码进行了彻底的审查。每个人都专注
 
 ## 向世界介绍
 <chapterId>28be3515-d9da-4d91-b7ff-f8691d51c562</chapterId>
+
+:::video id=c9691569-f026-460d-a08d-98fa54f1ce25:::
 
 在审视了比特币是如何由中本聪设计和启动的之后，让我们关注它是如何被公开介绍的。随着2009年初的启动，网络已经在运行，但生成节点很少（中本聪挖掘了绝大多数区块），且活动几乎不存在（1月份发生了32笔实际交易）。该项目只有一个基本网站和一个用于下载软件的SourceForge页面。此外，关于比特币的沟通仅限于Metzdowd密码学邮件列表，最多只有几百人对密码学充满热情地跟随。
 
@@ -652,6 +666,9 @@ Martti随后向中本聪发送了一封[电子邮件](https://mmalmi.github.io/s
 
 ## 加密货币的启动
 <chapterId>6b3418a7-125e-4ea1-a03a-f36090fac8a4</chapterId>
+
+:::video id=2a31c9c2-bb14-4ed5-b906-7df373f81f98:::
+
 在前几章中，我们观察到中本聪如何实现他的想法以及他如何与世界沟通以介绍比特币。然而，并非一切都依赖于他：还需要人们给予账户单位价值。由于这允许通过交易费用对矿工进行报酬，并通过自然通货紧缩奖励商家，这种赏识对系统的安全至关重要。
 然而，比特币价值的出现并非易事。这确实是关于为之前没有经济重要性的对象赋予经济重要性，原因完全是主观的。哈尔·芬尼（Hal Finney）在2009年1月11日发给密码学邮件列表的[电子邮件](https://www.metzdowd.com/pipermail/cryptography/2009-January/015004.html)中解释得非常好，他写道：
 
@@ -762,6 +779,8 @@ Martti随后向中本聪发送了一封[电子邮件](https://mmalmi.github.io/s
 ## 显卡、披萨和免费比特币
 <chapterId>9cd228a4-58d3-46a3-9935-06098bafc954</chapterId>
 
+:::video id=18913713-2f1a-4555-ba5d-06ec6d532bcb:::
+
 在上一部分，我们探讨了比特币是如何诞生的，如何被介绍给公众的，以及如何经济地启动的。在2010年春季，当比特币商业刚开始蓬勃发展时，中本聪和支持他的少数人的目标是保持这股热情。幸运的是，其他个体加入了努力，特别是矿工Laszlo Hanyecz和开发者Gavin Andresen，他们因其行动而脱颖而出。
 
 在这一章中，我们将看到通过图形处理单元（GPU）挖矿的首次部署，中本聪积累的财富，用比特币购买的第一件实物商品，建立一个发放免费单位的比特币水龙头，以及在Slashdot之前软件和网络的发展。
@@ -849,6 +868,8 @@ Satoshi的挖矿活动有一个独特的模式，使得可以识别他可能找�
 ## 大规模Slashdot效应
 <chapterId>2eef715e-b018-445b-b360-1c6e1c1df462</chapterId>
 
+:::video id=c26f3696-4e33-4d38-9443-f237935f8b45:::
+
 2010年夏季初，尽管有一些鼓舞人心的初步发展，比特币仍然建立在一个摇摇欲坠的基础上。除了中本聪之外，软件几乎没有其他开发者。矿工们都是在个人电脑上的业余爱好者。与比特币相关的服务大约有二十种，真正的交易所同样稀缺。然而，年内的下半年，情况即将发生剧烈变化。
 
 在本章中，我们旨在讨论“大规模Slashdot效应”，即继2010年7月11日在流行网站Slashdot上发布比特币介绍后，用户数量突然激增的情况。我们将看到这篇文章是如何作为中本聪沟通努力的最后一搏而存在的，以及这种普及对比特币直接产生的影响。
@@ -915,6 +936,8 @@ Satoshi的挖矿活动有一个独特的模式，使得可以识别他可能找�
 
 ## 第一次技术问题
 <chapterId>30cc4fe4-22b0-429e-9874-029c9137c0aa</chapterId>
+
+:::video id=f3e98b49-c32e-451a-b7c1-224dc5b00cf5:::
 
 正如上一章提到的，2010年7月11日，来自Slashdot的用户涌入导致Satoshi Nakamoto的项目引起了巨大的兴趣。网络的使用爆炸性增长；汇率增长了十倍，系统专用的计算能力也是如此。因此，比特币在夏天经历了前所未有的增长。
 
@@ -988,6 +1011,8 @@ Gavin和Satoshi还修复了几个漏洞。其中最主要的一个是“1 RETURN
 ## 数字黄金热潮
 <chapterId>8e9899ca-e7a7-471b-8e69-847a56714d3b</chapterId>
 
+:::video id=665ac55c-cd61-4d07-a896-95248eec480d:::
+
 在前一部分，我们研究了比特币介绍在Slashdot上发布（被Slashdot报道）的效果，以及中本聪及其助手如何管理最初的技术问题。到夏天结束时，项目已经度过了风暴，准备迎接越来越多的人。因此，2010年的秋天标志着比特币的一个成功时期。
 这一时期特别是挖矿的黄金时代，随着第一个GPU农场和第一个合作社的出现，挖矿见证了显著的改进。部署的资源在增加，专用算法的性能在提高。这在某种程度上是一场“数字黄金热潮”，当时的一位博客作者（使用化名jimbobway）[写道](https://web.archive.org/web/20100828094955/http://www.bitcoinblogger.com/2010/08/bitcoins-new-digital-gold-rush.html)，指出“成千上万的互联网用户”正在挖掘比特币“希望获得财富”，并且他们中的许多人正在尝试“开发软件和硬件工具以更高效地挖掘比特币，希望变得非常富有”。(*原文："Bitcoins: A New Digital Gold Rush (...) Thousands of users on the Internet are now mining for bitcoins in hopes of fortune. Many are trying to develop software and hardware tools to mine for bitcoins more efficiently in hopes of becoming filthy rich."*)
 
@@ -1045,6 +1070,9 @@ Slush合作社2011年9月的标志（来源：[存档](https://web.archive.org/w
 
 ## 生态系统的繁荣发展
 <chapterId>0404f877-8b5c-4c7f-81ab-a4e6d9b3da9c</chapterId>
+
+:::video id=2327cb5b-36a1-49f4-a9de-09b70d76b8c1:::
+
 在上一章中，我们探讨了2010年下半年挖矿是如何发展的。到了秋天，这种进步已经稳固地建立起来。然而，挖矿并不是比特币唯一取得成功的方面：它的生态系统也是如此。
 这里，我们首先将讨论比特币国际输出的开始，以及俄罗斯和法国社区的发展。然后，我们将讨论通信和经济增长方面的改进，这显著地导致了比特币单位价格的新一轮增长。最后，我们将提及两个象征性的事件，它们发生在中本聪离开之前：电子前哨基金会接受比特币和哈尔·芬尼的回归。
 
@@ -1135,6 +1163,8 @@ Hal Finney在2009年4月退出比特币后，很快就得知自己在2009年8月
 
 ## 中本聪的消失
 <chapterId>f7735239-4887-468f-9f06-1b07d00b30d9</chapterId>
+
+:::video id=fd5b40ae-b6bc-484a-b86b-af9c772f0afa:::
 
 我们看到，在2010年7月Slashdot上发布文本之后，比特币如何起飞。到了秋天，随着软件、挖矿和经济的各种进步，感觉这个项目终于走上了正确的轨道。这就是为什么这个时期与中本聪逐渐退出的时间重合。
 
@@ -1243,6 +1273,8 @@ Satoshi将网站、论坛和wiki的控制权转移给了Martti，Martti已经在
 
 ## 社区接管
 <chapterId>16c5e6d6-2412-48c6-9687-6af92cf0d89a</chapterId>
+
+:::video id=b29c3ea3-c4ca-4feb-bb29-5dc064987406:::
 
 在Satoshi Nakamoto离开后，继续前进成为必要。幸运的是，比特币是一个开放的项目，任何人都可以贡献，因此其创始人的消失对它来说并不是致命的。正如开发者Jeff Garzik在2010年7月（关于创始人缺席的可能性）写道：
 

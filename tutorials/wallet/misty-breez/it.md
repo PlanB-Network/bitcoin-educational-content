@@ -81,7 +81,7 @@ Ecco alcuni suggerimenti su come eseguire il backup della frase di backup.
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Per eseguire il backup delle frasi, selezionare il menu **Preferenze > Sicurezza**, quindi l'opzione **Controllo della frase di backup**.
 
@@ -210,4 +210,4 @@ Per approfondire, vi consiglio anche di scoprire il nostro tutorial sul Aqua Wal
 
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125

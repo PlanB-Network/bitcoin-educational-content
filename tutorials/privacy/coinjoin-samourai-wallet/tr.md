@@ -239,7 +239,7 @@ Havuza entegre edilemeyen ve burada `40.000 Sats`a denk gelen fazlalık, Wallet'
 
 Bu UTXO kullanıcının gizliliği açısından tehlikelidir, çünkü yalnızca geçmişine ve dolayısıyla muhtemelen sahibinin kimliğine bağlı olmakla kalmaz, aynı zamanda CoinJoin gerçekleştirmiş bir kullanıcıya ait olduğu da belirtilir.
 
-Bu UTXO karışık çıktılarla birleştirilirse, özellikle Ortak Girdi-Ownership-Heuristic (CIOH) nedeniyle CoinJoin döngüleri sırasında kazanılan tüm gizliliği kaybedeceklerdir. Diğer doxxic değişikliklerle birleştirilirse, bu CoinJoin döngülerinin farklı girdilerini birbirine bağlayacağından kullanıcı gizliliğini kaybetme riskiyle karşı karşıya kalır. Bu nedenle dikkatle ele alınmalıdır. Bu toksik UTXO'yı yönetmenin yolu bu makalenin son bölümünde ayrıntılı olarak açıklanacak ve gelecekteki eğitimler bu yöntemleri PlanB Network'te daha derinlemesine ele alacaktır.
+Bu UTXO karışık çıktılarla birleştirilirse, özellikle Ortak Girdi-Ownership-Heuristic (CIOH) nedeniyle CoinJoin döngüleri sırasında kazanılan tüm gizliliği kaybedeceklerdir. Diğer doxxic değişikliklerle birleştirilirse, bu CoinJoin döngülerinin farklı girdilerini birbirine bağlayacağından kullanıcı gizliliğini kaybetme riskiyle karşı karşıya kalır. Bu nedenle dikkatle ele alınmalıdır. Bu toksik UTXO'yı yönetmenin yolu bu makalenin son bölümünde ayrıntılı olarak açıklanacak ve gelecekteki eğitimler bu yöntemleri Plan ₿ Academy'te daha derinlemesine ele alacaktır.
 
 
 **3. Adım: İlk Karışım**
@@ -282,7 +282,7 @@ Ancak bu yöntemin iki önemli dezavantajı vardır:
 - Kendi Dojo'nuzu bağlamaya dikkat etmeden Whirlpool'yı Samourai Wallet ile kullanırsanız, uygulamanız Samourai ekipleri tarafından tutulan sunucuya bağlanmak zorunda kalacak ve Wallet'nizin `xpub`ını onlara açıklayacaksınız. Bu anonim bilgi parçaları, uygulamanızın işlemlerinizi bulması için gereklidir.
 
 
-Bu sınırlamaların üstesinden gelmek için ideal çözüm, kişisel Bitcoin düğümünüzde bir Whirlpool CLI örneği ile ilişkili kendi Dojo'nuzu çalıştırmaktır. Bu şekilde, herhangi bir bilgi sızıntısını önleyecek ve tam bağımsızlık elde edeceksiniz. Aşağıda sunulan eğitim belirli hedefler veya yeni başlayanlar için faydalı olsa da, CoinJoin oturumunuzu gerçekten optimize etmek için kendi Dojo'nuzu kullanmanız önerilir. Bu yapılandırmanın kurulumuna ilişkin ayrıntılı bir kılavuz yakında PlanB Network'te mevcut olacaktır.
+Bu sınırlamaların üstesinden gelmek için ideal çözüm, kişisel Bitcoin düğümünüzde bir Whirlpool CLI örneği ile ilişkili kendi Dojo'nuzu çalıştırmaktır. Bu şekilde, herhangi bir bilgi sızıntısını önleyecek ve tam bağımsızlık elde edeceksiniz. Aşağıda sunulan eğitim belirli hedefler veya yeni başlayanlar için faydalı olsa da, CoinJoin oturumunuzu gerçekten optimize etmek için kendi Dojo'nuzu kullanmanız önerilir. Bu yapılandırmanın kurulumuna ilişkin ayrıntılı bir kılavuz yakında Plan ₿ Academy'te mevcut olacaktır.
 
 
 ### Samourai Wallet'nin Kurulumu
@@ -487,7 +487,7 @@ Tx0' onaylandıktan sonra, UTXO'larınız otomatik olarak koordinatöre kaydedil
 ![samourai](assets/notext/34.webp)
 
 
-**Postmix** hesabına karşılık gelen `Remixing` sekmesini kontrol ederek, ilk karışımlardan kaynaklanan UTXO'ları gözlemleyeceksiniz. Bu coinler, herhangi bir ek ücrete tabi olmayan sonraki remiksler için hazır kalacaktır. Yeniden karıştırma süreci ve bir CoinJoin döngüsünün verimliliği hakkında daha fazla bilgi edinmek için bu diğer makaleye başvurmanızı tavsiye ederim: [REMIX - Whirlpool](https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)
+**Postmix** hesabına karşılık gelen `Remixing` sekmesini kontrol ederek, ilk karışımlardan kaynaklanan UTXO'ları gözlemleyeceksiniz. Bu coinler, herhangi bir ek ücrete tabi olmayan sonraki remiksler için hazır kalacaktır. Yeniden karıştırma süreci ve bir CoinJoin döngüsünün verimliliği hakkında daha fazla bilgi edinmek için bu diğer makaleye başvurmanızı tavsiye ederim: [REMIX - Whirlpool](https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)
 
 
 ![samourai](assets/notext/35.webp)
@@ -547,7 +547,7 @@ Harcama işleminiz için gerekli bilgileri girin, ardından mavi renkli `İŞLEM
 Bir sonraki adımda, işleminizle ilişkili ücret oranını değiştirme seçeneğiniz vardır. İlgili kutuyu işaretleyerek Stonewall seçeneğini de etkinleştirebilirsiniz. Stonewall seçeneği seçilebilir değilse, **Postmix** hesabınızda bu özel işlem yapısını desteklemek için yeterli büyüklükte bir UTXO bulunmadığı anlamına gelir.
 
 
-[-> Stonewall işlemleri hakkında daha fazla bilgi edinin.](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
+[-> Stonewall işlemleri hakkında daha fazla bilgi edinin.](https://planb.academy/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 
 Her şey sizi tatmin ediyorsa, Green `Gönder ... BTC` düğmesine tıklayın.
@@ -599,7 +599,7 @@ Whirlpool otomatik olarak kapanacaktır. Samourai'nin yüklenmesinin bitmesini b
 Bir CoinJoin'nin gerçekten etkili olabilmesi için, girdi ve çıktıların miktarları arasında iyi bir tekdüzelik göstermesi esastır. Bu tekdüzelik, harici bir gözlemcinin gözünde olası yorumların sayısını artırır ve böylece işlemi çevreleyen belirsizliği artırır. Bir CoinJoin tarafından yaratılan bu belirsizliği ölçmek için, işlemin entropisini hesaplamaya başvurulabilir.
 
 
-Bu göstergelerin derinlemesine incelenmesi için (Whirlpool modeli, eş birleşimlere en fazla homojenlik getiren model olarak kabul edilmektedir) sizi eğiticiye yönlendiriyorum: [BOLTZMANN CALCULATOR](https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe)
+Bu göstergelerin derinlemesine incelenmesi için (Whirlpool modeli, eş birleşimlere en fazla homojenlik getiren model olarak kabul edilmektedir) sizi eğiticiye yönlendiriyorum: [BOLTZMANN CALCULATOR](https://planb.academy/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe)
 
 
 Daha sonra, birkaç CoinJoin döngüsünün performansı, bir Coin'in gizlendiği grupların kapsamına göre değerlendirilir. Bu grupların boyutu anonset olarak adlandırılan şeyi tanımlar. İki tür anons vardır: ilki elde edilen gizliliği geriye dönük bir analizle (günümüzden geçmişe), ikincisi ise ileriye dönük bir analizle (geçmişten günümüze) değerlendirir. Bu iki göstergenin ayrıntılı bir açıklaması için sizi öğreticiye başvurmaya davet ediyorum: Whirlpool STATS TOOLS - ANONSETS
@@ -640,7 +640,7 @@ Daha sonra, CoinJoin havuzuna giremeyen değişiklik olan doxxic değişikliği 
 - **Bunları Lightning Network'e gönderin:** Düşük işlem ücretlerinden yararlanmak için bu UTXO'ları Lightning Network'e aktarmak ilginç olabilecek bir seçenektir. Ancak, bu yöntem Lightning kullanımınıza bağlı olarak belirli bilgileri açığa çıkarabilir ve bu nedenle dikkatli bir şekilde uygulanmalıdır.
 
 
-Bu farklı tekniklerin uygulanmasına ilişkin ayrıntılı eğitimler yakında PlanB Network'te sunulacaktır.
+Bu farklı tekniklerin uygulanmasına ilişkin ayrıntılı eğitimler yakında Plan ₿ Academy'te sunulacaktır.
 
 
 **Ek kaynaklar:**

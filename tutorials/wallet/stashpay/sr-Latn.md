@@ -42,7 +42,7 @@ Jednom kada je aplikacija instalirana, StashPay će kreirati početni Bitcoin Wa
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Pristupite StashPay podešavanjima klikom na ikonu "Settings", zatim kliknite na opciju **Create backup**. Zatim autorizujte prikaz fraza za oporavak. Nemojte kopirati svoje fraze za oporavak u clipboard telefona, jer mogu biti dostupne drugim prevarantskim aplikacijama instaliranim na vašem mobilnom uređaju.
 
@@ -88,7 +88,7 @@ Primetićete da ćete morati platiti mrežnu naknadu da biste primili satoshije.
 
 
 
-https://planb.network/tutorials/wallet/mobile/misty-breez-738ced2a-0764-4d7f-a150-ec0ce84a9d25
+https://planb.academy/tutorials/wallet/mobile/misty-breez-738ced2a-0764-4d7f-a150-ec0ce84a9d25
 
 ### Pošalji bitkoine sa StashPay
 
@@ -106,7 +106,7 @@ Kako je StashPay Wallet zasnovan na Breez Development Kit-u, ima zanimljivu pred
 
 
 
-https://planb.network/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
+https://planb.academy/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
 
 Međutim, Breez SDK nameće minimalni iznos pri kojem možete poslati bitkoine na Address na glavnom lancu.
 
@@ -168,4 +168,4 @@ Upravo ste se upoznali sa minimalističkim Bitcoin Wallet od StashPay-a. Ako vam
 
 
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f

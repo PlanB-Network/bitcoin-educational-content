@@ -50,7 +50,7 @@ Depending on the Lightning wallet you are using, you will find the following opt
 - Alby Hub** for Alby Go wallets, the Alby extension for your browser.
 
 
-https://planb.network/tutorials/wallet/mobile/alby-go-40202802-b346-4a3c-9863-465c3bde9903
+https://planb.academy/tutorials/wallet/mobile/alby-go-40202802-b346-4a3c-9863-465c3bde9903
 
 
 - Coinos** to connect the Bitcoin web CoinOS wallet.
@@ -64,7 +64,7 @@ https://planb.network/tutorials/wallet/mobile/alby-go-40202802-b346-4a3c-9863-46
 In this tutorial, we'll use the Blitz wallet with a Nostr Wallet Connect connection to link our wallet to our organization on Flash.
 
 
-https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
+https://planb.academy/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
 
 ![wallet_name](assets/fr/05.webp)
 
@@ -220,4 +220,4 @@ Configure the details of your store by entering a unique name visible only to yo
 We hope you've enjoyed this discovery, and we encourage you to learn more about the impact and best practices of integrating Bitcoin into your business with our Bitcoin for Business course.
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

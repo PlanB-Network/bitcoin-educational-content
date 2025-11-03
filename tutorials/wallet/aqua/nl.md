@@ -111,7 +111,7 @@ In hetzelfde instellingenmenu kun je ook de taal van de applicatie en de gebruik
 Voordat je je eerste bitcoins ontvangt in je Wallet, **raad ik je sterk aan om een lege hersteltest uit te voeren**. Maak een notitie van wat referentie-informatie, zoals je xpub of de eerste Address die je ontvangt, wis dan je Wallet op de Aqua app terwijl hij nog leeg is. Probeer dan je Wallet op Aqua te herstellen met je papieren back-ups. Controleer of de cookie-informatie die na het herstellen wordt gegenereerd, overeenkomt met de informatie die je oorspronkelijk hebt opgeschreven. Als dat zo is, kunt u er zeker van zijn dat uw papieren back-ups betrouwbaar zijn. Om meer te weten te komen over hoe je een testherstel uitvoert, kun je deze andere tutorial raadplegen:
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 Je kunt het niet zien op mijn scherm omdat ik een emulator gebruik, maar in de instellingen vind je een optie om de app te vergrendelen met een biometrisch authenticatiesysteem. Ik raad ten zeerste aan om deze beveiligingsfunctie in te schakelen, omdat zonder deze functie iedereen met toegang tot je ontgrendelde telefoon je bitcoins kan stelen. Je kunt Face ID gebruiken op iOS of je vingerafdruk op Android. Als deze methoden mislukken tijdens de verificatie, kun je nog steeds toegang krijgen tot de app met behulp van de PIN-code van je telefoon.
 
@@ -284,4 +284,4 @@ Als je deze tutorial nuttig vond, zou ik je dankbaar zijn als je hieronder een G
 Ik raad je ook aan deze andere uitgebreide tutorial over de Blockstream Green mobiele app te bekijken, wat een andere interessante oplossing is voor het instellen van je Liquid Wallet :
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a

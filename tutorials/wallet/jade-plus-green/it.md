@@ -6,7 +6,7 @@ description: Configura facilmente Jade Plus con Green
 
 Jade Plus è un Hardware wallet specifico per bitcoin progettato da Blockstream. È il successore del classico Jade, con miglioramenti del software, più opzioni e un'ergonomia ridisegnata per un uso più intuitivo. Questa nuova versione vanta un magnifico schermo LCD da 1,9 pollici, con una gamma di colori più ampia rispetto al suo predecessore. Anche i pulsanti e la navigazione nei menù sono stati ottimizzati.
 
-Jade Plus può essere utilizzato in diversi modi: tramite una connessione cablata USB-C, in modalità "*Air-Gap*" con una scheda micro SD (è necessario un adattatore), tramite Bluetooth o anche scambiando [codici QR](https://planb.network/resources/glossary/qr-code) grazie alla fotocamera integrata. Questo Hardware wallet è alimentato a batteria.
+Jade Plus può essere utilizzato in diversi modi: tramite una connessione cablata USB-C, in modalità "*Air-Gap*" con una scheda micro SD (è necessario un adattatore), tramite Bluetooth o anche scambiando [codici QR](https://planb.academy/resources/glossary/qr-code) grazie alla fotocamera integrata. Questo Hardware wallet è alimentato a batteria.
 
 È disponibile a partire da 149,99 dollari nella versione nera di base, e il prezzo può salire fino a 20 dollari per le versioni "*Genesis Grey*" o "*Lunar Silver*". Jade Plus è quindi una scelta interessante, con funzionalità avanzate paragonabili a quelle degli Hardware wallet di fascia alta come Coldcard Q o Passport V2, ma ad un prezzo piuttosto basso, vicino ai modelli di fascia media.
 
@@ -27,11 +27,11 @@ Jade Plus è compatibile con la maggior parte dei software di gestione dei walle
 
 In questo tutorial, configuriamo e utilizziamo Jade Plus con l'applicazione mobile Green wallet di Blockstream tramite una connessione Bluetooth. Questa configurazione è ideale per i principianti. Se sei alla ricerca di un approccio più avanzato, ti consiglio di dare un'occhiata a quest'altro tutorial in cui utilizziamo Jade Plus con Sparrow mediante Codice QR:
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
 ## Il modello di sicurezza Jade Plus
 
-Jade Plus utilizza un modello di sicurezza basato su un "elemento di sicurezza virtuale", reso concreto da un "blind oracle". In pratica, questo meccanismo combina il PIN scelto dall'utente, un segreto ospitato sul dispositivo Jade e un segreto detenuto dall'oracle (un server gestito da Blockstream), per creare una chiave AES-256 distribuita su due entità. Durante l'avvio, uno scambio [ECDH](https://planb.network/resources/glossary/ecdh) protegge la comunicazione con l'oracle e cripta la [frase mnemonica](https://planb.network/resources/glossary/recovery-phrase) sull'Hardware wallet. In termini pratici, quando si vuole accedere al seed per firmare le transazioni, è necessario accedere a:
+Jade Plus utilizza un modello di sicurezza basato su un "elemento di sicurezza virtuale", reso concreto da un "blind oracle". In pratica, questo meccanismo combina il PIN scelto dall'utente, un segreto ospitato sul dispositivo Jade e un segreto detenuto dall'oracle (un server gestito da Blockstream), per creare una chiave AES-256 distribuita su due entità. Durante l'avvio, uno scambio [ECDH](https://planb.academy/resources/glossary/ecdh) protegge la comunicazione con l'oracle e cripta la [frase mnemonica](https://planb.academy/resources/glossary/recovery-phrase) sull'Hardware wallet. In termini pratici, quando si vuole accedere al seed per firmare le transazioni, è necessario accedere a:
 
 
 - Dispositivo Jade Plus stesso;
@@ -99,7 +99,7 @@ Puoi scriverlo sul cartoncino fornito nella scatola, oppure, per maggiore sicure
 
 Per ulteriori informazioni sul modo corretto di salvare e gestire la frase mnemonica, ti consiglio di seguire quest'altro tutorial, soprattutto se sei un principiante:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ***Ovviamente, non devi mai condividere queste parole su Internet, come faccio io in questo tutorial. Questo wallet di esempio sarà utilizzato solo su Testnet e sarà cancellato alla fine del tutorial***
 
@@ -115,11 +115,11 @@ Una volta che hai salvato la frase, Jade Plus chiede di confermarla. Seleziona l
 
 In questo tutorial, utilizzeremo l'applicazione Green per gestire il wallet inserito su Jade Plus. Questo metodo è particolarmente adatto per i principianti. Se desideri gestire il tuo wallet Bitcoin in modo più dettagliato, puoi anche utilizzare Sparrow, che tratteremo in un tutorial separato:
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
 Per le istruzioni sull'installazione e la configurazione dell'applicazione Blockstream Green, consulta la prima parte di quest'altro tutorial:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
 Una volta entrato su Green, clicca sul pulsante "*Configure a new wallet*".
 
@@ -197,7 +197,7 @@ Scegli "*Standard*" se desideri creare un wallet classico a firma singola.
 
 Per ulteriori informazioni sull'opzione "*2FA*", puoi seguire quest'altra guida:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
+https://planb.academy/tutorials/wallet/mobile/blockstream-green-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
 
 Il tuo account è stato creato.
 
@@ -223,7 +223,7 @@ Il tuo Jade viene sbloccato tramite il "virtual secure element" di Blockstream (
 
 Prima di ricevere i primi bitcoin nel wallet, **ti consiglio vivamente di eseguire un test di ripristino con il wallet ancora vuoto**. Annota alcune informazioni di riferimento, come il tuo indirizzo xpub o il primo indirizzo di ricezione, quindi cancella il tuo wallet sull'app Green e su Jade Plus mentre è ancora vuoto (`Opzioni -> Dispositivo -> Ripristino dati di fabbrica`). A questo punto prova a ripristinare il wallet utilizzando i backup cartacei della frase mnemonica. Verifica che le informazioni del cookie generate dopo il ripristino corrispondano a quelle annotate in origine. Se è così, puoi esser certo che i tuoi backup cartacei sono affidabili. Per saperne di più su come effettuare un ripristino di prova, consulta quest'altro tutorial:
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Ricevere bitcoin
 
@@ -289,7 +289,7 @@ Congratulazioni, ora sai come configurare e utilizzare Jade Plus con l'applicazi
 
 Per fare un ulteriore passo avanti, ti consiglio questo tutorial su Jade Plus, in cui lo configuriamo con il software Sparrow usando il codice QR. Imparerai anche ad utilizzare le impostazioni avanzate del tuo Hardware wallet:
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
 
 

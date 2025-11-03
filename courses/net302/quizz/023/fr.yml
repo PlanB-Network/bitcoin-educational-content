@@ -6,4 +6,4 @@ wrong_answers:
   - Checksum process
 explanation: |
   Le "three-way handshake" permet de synchroniser les numéros de séquence entre client et serveur avant tout échange de données utiles.
-reviewed: false
+reviewed: true 

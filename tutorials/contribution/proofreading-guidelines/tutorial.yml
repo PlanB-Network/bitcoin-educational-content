@@ -32,12 +32,12 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.49
+    reward: 2.5
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.49
+    reward: 2.5
   - language: et
     last_contribution_date:
     urgency: 1
@@ -52,7 +52,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.49
+    reward: 2.5
   - language: hi
     last_contribution_date:
     urgency: 1
@@ -64,11 +64,12 @@ proofreading:
     contributor_names:
     reward: 4.09
   - language: it
-    last_contribution_date: 2025-08-18
+    last_contribution_date: '2025-10-31'
     urgency: 1
     contributor_names:
       - f205sats
-    reward: 1.25
+      - Bitman-ops
+    reward: 0.62
   - language: ja
     last_contribution_date:
     urgency: 1
@@ -88,7 +89,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.49
+    reward: 2.5
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -128,7 +129,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.49
+    reward: 2.5
   - language: nl
     last_contribution_date:
     urgency: 1
@@ -143,7 +144,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.29
+    reward: 4.09
   - language: rn
     last_contribution_date:
     urgency: 1

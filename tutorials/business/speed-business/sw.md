@@ -94,13 +94,13 @@ Unapozima hali ya jaribio, lazima usanidi kwingineko yako ya uondoaji.
 
 
 
-Ikiwa bado humiliki Bitcoin na/au Lightning Wallet, tunapendekeza uangalie mafunzo yetu ya [wallet ya rununu](https://planb.network/tutorials/wallet).
+Ikiwa bado humiliki Bitcoin na/au Lightning Wallet, tunapendekeza uangalie mafunzo yetu ya [wallet ya rununu](https://planb.academy/tutorials/wallet).
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 ⚠️ **MUHIMU**: Unaposanidi kwingineko yako, chagua aina ya **BTC (On-Chain)** unapopokea kiasi kikubwa, kwa mpangilio wa maelfu ya euro, ili kuhakikisha uthibitisho unaotegemeka kwenye Bitcoin, na aina ya **LN Address** unapotaka kupokea malipo madogo ya biashara yako papo hapo.
 
@@ -435,4 +435,4 @@ Una ufahamu mzuri wa Kasi, unganisha Bitcoin kwenye biashara yako na uendeleze u
 
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

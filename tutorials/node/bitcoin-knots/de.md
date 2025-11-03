@@ -30,7 +30,7 @@ Gehen Sie auf [die offizielle Bitcoin-Knoten-Website] (https://bitcoinknots.org/
 
 Bevor Sie die Software auf Ihrem Computer installieren, empfehlen wir Ihnen dringend, ihre Authentizität und Integrität zu überprüfen. Wenn Sie nicht wissen, wie das geht, schauen Sie sich diese andere Anleitung an:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 Sobald die Software überprüft wurde, installieren Sie sie, indem Sie die im Installationsfenster angegebenen Schritte ausführen.
 
 ![Image](assets/fr/03.webp)
@@ -115,7 +115,7 @@ Geben Sie Ihrem Wallet einen Namen. Sie können ihn auch mit einem passphrase BI
 
 Das passphrase BIP39 ist ein optionales Passwort, das Sie frei wählen können, zusätzlich zu Ihrer Mnemonic Phrase, um die Sicherheit Ihres Wallet zu erhöhen. Bevor Sie diese Funktion konfigurieren, empfehlen wir Ihnen dringend, den folgenden Artikel zu lesen, der detailliert erklärt, wie das passphrase theoretisch funktioniert und wie Sie Fehler vermeiden können, die zum dauerhaften Verlust Ihrer Bitcoins führen könnten:
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 Wenn Sie die Option passphrase aktiviert haben, wählen Sie eine robuste Option und speichern Sie sie sorgfältig auf einem oder mehreren sicheren physischen Medien.
 
 ![Image](assets/fr/18.webp)
@@ -285,4 +285,4 @@ Wenn Sie dieses Tutorial nützlich fanden, wäre ich Ihnen sehr dankbar, wenn Si
 
 Ich empfehle auch dieses andere Tutorial, in dem ich erkläre, wie man einen eigenen Lightning-Knoten einrichtet:
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a

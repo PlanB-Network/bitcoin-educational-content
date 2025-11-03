@@ -11,7 +11,7 @@ Lightning Network ist eine Layer des Bitcoin-Protokolls, das in erster Linie ent
 
 
 
-https://planb.network/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
+https://planb.academy/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
 
 Genau wie auf der Hauptkette ist es wichtig, dass die Nutzer die Informationen und den Status des Netzes kennen, um die Verbindungen zwischen den Knoten zu erleichtern und das Liquiditätsproblem, das im Allgemeinen im Netz auftritt, zu minimieren. In der Tat empfehlen wir auf Lightning Network Kleinstzahlungen von relativ kleineren Beträgen als bei den Transaktionen auf der Bitcoin-Hauptkette.
 
@@ -34,7 +34,7 @@ Wie [Mempool Space](https://Mempool.space), das nützliche Informationen über d
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 In diesem Tutorial nehmen wir Sie mit auf einen Rundgang durch diese Plattform, die eine wesentliche Ressource für Lightning Network-Benutzer ist, für diejenigen, die ihren Knotenpunkt verbinden möchten, um das Netzwerk zu erweitern, usw.
 
@@ -57,7 +57,7 @@ Eines der Ziele der Amboss-Plattform ist es, die verschiedenen Knotenpunkte des 
 
 
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
 Auf der Startseite finden Sie auch Knotenpunkte, die nach :
 
@@ -147,7 +147,7 @@ Im Abschnitt **Kanäle** sehen Sie die Liste der offenen Kanäle und die Verbind
 
 - Eingehende Quote**: Der Betrag, den der Knoten für jede Million Satoshi, die er empfängt, in Rechnung stellt, abhängig vom gewählten Kanal.
 - Das Verhältnis (Teile pro Million)** : Es stellt die Anzahl der Satoshi pro Million Einheiten dar, die der Knotenpunkt Ihnen in Rechnung stellt, wenn Sie sich entscheiden, eine Zahlung über einen seiner Kanäle vorzunehmen. Angenommen, Sie entscheiden sich, eine Zahlung von `10_000 Sats` über einen Kanal zu tätigen, dessen ppm-Verhältnis `500 Sats` ist, dann müssen Sie dem Knoten `10_000 * 500 / 1_000_000` Satoshis zahlen, was `5 Sats` entspricht.
-- Das [HTLC](https://planb.network/resources/glossary/htlc) Maximum** : Der Höchstbetrag, den dieser Knoten Ihnen erlaubt, über einen dieser Kanäle zu übertragen.
+- Das [HTLC](https://planb.academy/resources/glossary/htlc) Maximum** : Der Höchstbetrag, den dieser Knoten Ihnen erlaubt, über einen dieser Kanäle zu übertragen.
 
 
 
@@ -304,4 +304,4 @@ Sie haben nun einen vollständigen Überblick über die Funktionen und Analysewe
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f

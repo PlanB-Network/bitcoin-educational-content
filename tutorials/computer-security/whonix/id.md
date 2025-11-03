@@ -46,7 +46,7 @@ Untuk menjalankan Whonix, Anda memerlukan **hypervisor** seperti VirtualBox, Qub
 
 Setelah Anda mengunduh file, instal seperti yang Anda lakukan pada perangkat lunak lainnya. Terima opsi default kecuali Anda memiliki persyaratan khusus. Apakah Anda tersesat? Lihat panduan kami untuk menggunakan VirtualBox.
 
-https://planb.network/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
+https://planb.academy/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
 
 ### Mengimpor Whonix
 
@@ -120,16 +120,16 @@ sudo apt full-upgrade
 
 **Tor Browser** adalah browser web default Whonix. browser ini mengandalkan jaringan **Tor**, yang mengarahkan lalu lintas Anda melalui beberapa relay di seluruh dunia, sehingga hampir tidak mungkin untuk mengidentifikasi IP Address Anda yang sebenarnya.
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ### Electrum Bitcoin Wallet
 
 **Electrum** adalah wallet Bitcoin yang ringan dan cepat, telah terinstal sebelumnya di Whonix untuk memungkinkan Anda mengelola **transaksi cryptocurrency** secara anonim. Aplikasi ini tidak mengunduh seluruh Blockchain tetapi menggunakan server jarak jauh untuk mendapatkan informasi yang diperlukan, membuatnya jauh lebih ringan daripada Wallet penuh.
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 Whonix lebih dari sekadar sistem operasi: ini adalah **lingkungan aman sejati** yang dirancang untuk melindungi anonimitas, privasi, dan aktivitas sensitif Anda. Berkat arsitektur berbasis Tor, pemartisian cerdas antara Gateway dan Workstation, serta aplikasi yang telah terpasang sebelumnya seperti Tor Browser, KeePassXC, dan Electrum, aplikasi ini menawarkan solusi siap pakai bagi siapa saja yang ingin **menjelajah secara anonim, bekerja dengan aman, atau menangani data rahasia**.
 
 Untuk memperkuat keamanan Anda pada sistem Unix Anda, lihatlah tutorial kami tentang mengaudit komputer Anda: periksa adanya celah keamanan di sistem operasi Anda dan pastikan data Anda tidak diretas.
 
-https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
+https://planb.academy/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af

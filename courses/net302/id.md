@@ -90,7 +90,7 @@ Siap terjun ke dunia jaringan komputer? Mari kita mulai!
 **CATATAN**: Deskripsi ini didasarkan pada sistem GNU/Linux CentOS 7. Namun, konfigurasi jaringan sebagian besar sama ketika membandingkan sistem Debian dengan sistem CentOS. Jadi, kami tidak akan membuat perbedaan apa pun. Jika ada, kami akan mengawalinya dengan logo tertentu.
 
 
-**NB **: Jika Anda menemukan istilah yang tidak dikenal selama kursus, silakan baca [daftar istilah](https://planb.network/resources/glossary) untuk mendapatkan definisi.
+**NB **: Jika Anda menemukan istilah yang tidak dikenal selama kursus, silakan baca [daftar istilah](https://planb.academy/resources/glossary) untuk mendapatkan definisi.
 
 
 
@@ -283,11 +283,11 @@ Setiap Layer dari tumpukan TCP/IP menyediakan layanan spesifik, sehingga memungk
 | Switch   | Locally addresses interfaces and forwards traffic via MAC                            | Network Access         |
 | Network Interface Card (NIC)     | Signal encoding, cabling, connectors, physical specifications                        | Network Access         |
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 ## Protokol QoS IPv5
 
@@ -653,7 +653,7 @@ sudo apt install ipcalc
 ```
 
 
-https://planb.network/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
+https://planb.academy/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
 
 ## Protokol TCP
 
@@ -1383,11 +1383,11 @@ Pada bab berikutnya, kita akan melihat secara rinci konfigurasi IP Address di Li
 
 
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 
 ## Bagaimana cara mengkonfigurasi jaringan dengan `ip`?
@@ -3072,7 +3072,7 @@ Permintaan yang berulang-ulang atau intensif ke server DNS pihak ketiga tanpa iz
 Saat memantau atau mengamankan jaringan lokal atau area luas, sangat penting untuk mengidentifikasi perangkat yang aktif dan layanan yang mereka ekspos. Inilah yang dilakukan oleh alat `nmap` (*Network Mapper*).
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 #### Memperkenalkan `nmap`
 
@@ -3124,7 +3124,7 @@ Seorang administrator dapat mengandalkan `nmap` untuk beberapa tugas:
 - **Pencegahan kerentanan**: temukan layanan yang tidak aman atau ketinggalan zaman yang berjalan di mesin-mesin penting.
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 ### Alat interogasi proses
 

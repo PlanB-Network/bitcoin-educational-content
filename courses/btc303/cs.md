@@ -75,7 +75,7 @@ Orientace ve složitém prostředí řízení Bitcoin vyžaduje více než jen t
 Jste připraveni udělat další krok na cestě ke Bitcoin? Začněme!
 
 
-***N.B.**: Pokud se v průběhu kurzu setkáte s neznámými pojmy týkajícími se Bitcoin, podívejte se prosím do [slovníčku pojmů](https://planb.network/resources/glossary), kde najdete jejich definice.*
+***N.B.**: Pokud se v průběhu kurzu setkáte s neznámými pojmy týkajícími se Bitcoin, podívejte se prosím do [slovníčku pojmů](https://planb.academy/resources/glossary), kde najdete jejich definice.*
 
 
 
@@ -154,7 +154,7 @@ Pokud se jim to podaří, stejné problémy se pravděpodobně někdy v budoucnu
 Žádná z těchto možností není pro uživatele výhodná.
 
 
-Odolnost vůči cenzuře prostřednictvím decentralizace je to, co odlišuje Bitcoin od ostatních peněžních systémů, ale není to snadné kvůli problému *Double-spending*. Jedná se o problém, jak zajistit, aby nikdo nemohl utratit stejnou minci dvakrát, což je problém, o kterém si mnoho lidí myslelo, že jej nelze vyřešit decentralizovaným způsobem. Satoshi Nakamoto ve svém [Bitcoin whitepaper](https://planb.network/bitcoin.pdf) píše o tom, jak problém Double-spending vyřešit:
+Odolnost vůči cenzuře prostřednictvím decentralizace je to, co odlišuje Bitcoin od ostatních peněžních systémů, ale není to snadné kvůli problému *Double-spending*. Jedná se o problém, jak zajistit, aby nikdo nemohl utratit stejnou minci dvakrát, což je problém, o kterém si mnoho lidí myslelo, že jej nelze vyřešit decentralizovaným způsobem. Satoshi Nakamoto ve svém [Bitcoin whitepaper](https://planb.academy/bitcoin.pdf) píše o tom, jak problém Double-spending vyřešit:
 
 
 > V tomto článku navrhujeme řešení problému Double-spending pomocí peer-to-peer distribuovaného serveru Timestamp pro výpočetní důkaz chronologického pořadí transakcí generate.
@@ -652,7 +652,7 @@ Riziko odhalení osobních údajů lze zmírnit tak, že je v první řadě nepo
 V článku se doporučuje vyhnout se burzám, které vyžadují KYC/AML, a místo toho obchodovat privátně nebo používat decentralizované burzy, jako je [bisq](https://bisq.network/).
 
 
-https://planb.network/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+https://planb.academy/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 Podrobnější informace o protiopatřeních naleznete v již zmíněném článku [wiki o soukromí](https://en.Bitcoin.it/wiki/Privacy#Methods_for_improving_privacy_.28non-Blockchain.29), který začíná v části "Metody pro zlepšení soukromí (mimo Blockchain)".
 

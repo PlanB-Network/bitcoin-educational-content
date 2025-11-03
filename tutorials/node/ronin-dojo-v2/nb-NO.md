@@ -16,7 +16,7 @@ _Denne opplæringen er gitt kun for utdannings- og informasjonsformål. Vi støt
 
 I en tidligere opplæring hadde vi allerede forklart prosedyren for å installere og bruke RoninDojo v1. Men, i løpet av det siste året har RoninDojo-teamene lansert versjon 2 av deres implementasjon, som markerte et betydelig vendepunkt i programmets arkitektur. Faktisk, de gikk bort fra Linux Manjaro-distribusjonen til fordel for Debian. Følgelig tilbyr de ikke lenger et forhåndskonfigurert bilde for automatisk installasjon på Raspberry Pi. Men det er fortsatt en metode for å fortsette med en manuell installasjon. Dette er hva jeg brukte for min egen node, og siden da har RoninDojo v2 fungert fantastisk på min Raspberry Pi 4. Jeg tilbyr derfor en ny opplæring om hvordan man manuelt installerer RoninDojo v2 på en Raspberry Pi.
 
-https://planb.network/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-95ec5dde72b0
+https://planb.academy/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-95ec5dde72b0
 
 ## Innholdsfortegnelse:
 - Hva er RoninDojo?
@@ -208,7 +208,7 @@ Når du er på RoninUI-hjemmesiden, vil du bli bedt om å starte oppsettet. For 
 
 ![lets start](assets/notext/25.webp)
 
-På dette stadiet presenterer RoninUI deg med ditt `root`-passord. Det er essensielt å holde dette sikkert. Du kan velge en fysisk sikkerhetskopi, på papir, eller lagre det i en [passordbehandler](https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f).
+På dette stadiet presenterer RoninUI deg med ditt `root`-passord. Det er essensielt å holde dette sikkert. Du kan velge en fysisk sikkerhetskopi, på papir, eller lagre det i en [passordbehandler](https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f).
 
 ![root password](assets/notext/26.webp)
 
@@ -327,7 +327,7 @@ Etter å ha utført coinjoins med Whirlpool, er det nyttig å nøyaktig evaluere
 
 For å fordype din forståelse av beregningsmekanismene til disse anonsets, anbefaler jeg å lese artikkelen: REMIX - WHIRLPOOL, som detaljerer funksjonen til disse indeksene.
 
-https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 For å få tilgang til WST-verktøyet, gå til RoninCLI. For å gjøre dette, åpne en terminal på din personlige datamaskin og etabler en SSH-forbindelse med noden din ved å bruke følgende kommando:
 `SSH ronindojo@[IP]`

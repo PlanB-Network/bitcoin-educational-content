@@ -200,9 +200,9 @@ I menyn "*AntiTracker*" väljer du blockeringsprofilen för din anti-tracker. De
 Och där har du det, du är nu utrustad för att njuta fullt ut av IVPN. Om du också vill förbättra säkerheten för dina onlinekonton genom att använda en lokal lösenordshanterare, så inbjuder jag dig att kolla in vår handledning om KeePass, en gratis lösning med öppen källkod:
 
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Om du är intresserad av att upptäcka en annan VPN-leverantör som liknar IVPN, både när det gäller funktioner och prissättning, rekommenderar jag också att du tittar på vår handledning om Mullvad:
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8

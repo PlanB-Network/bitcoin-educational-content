@@ -54,7 +54,7 @@ Para descargar Electrum, te recomiendo que sigas los primeros pasos de este tuto
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 Después de la descarga, verifique siempre la versión antes de instalarla y proceda a la configuración de "Un servidor", como encontrará en la sección de ayuda, en "Empezar con un Wallet ficticio".
 

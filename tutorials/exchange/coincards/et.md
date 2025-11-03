@@ -42,7 +42,7 @@ Nagu tema suur vend Bitrefill ja tema konkurendid (The Bitcoin Company, Coinsbee
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 Coincards pakub laia valikut, alates jaemüügist kuni kiirtoiduni, voogedastusplatvormide, online-mängude, e-kaubanduse saitideni ja palju muud...
 
@@ -67,7 +67,7 @@ See on võimalus tuletada neile, kes soovivad maksta oma kinkekaartide eest Bitc
 
 
 
-Valik õpetusi peamiste Lightning portfellide (Phoenix, Breez, BitKit, Zeus...) kohta leiate siit: [Plan ₿ Network - Wallet](https://planb.network/tutorials/wallet)
+Valik õpetusi peamiste Lightning portfellide (Phoenix, Breez, BitKit, Zeus...) kohta leiate siit: [Plan ₿ Academy - Wallet](https://planb.academy/tutorials/wallet)
 
 
 
@@ -75,7 +75,7 @@ Kui soovite rohkem teada saada, kuidas Lightning Network töötab, on saadaval p
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ## Kuidas osta BTC kinkekaarti Coincardsist?
 
@@ -244,4 +244,4 @@ Kui soovite aidata Bitcoin populariseerida ja julgustada iseseisvat kaupmeest se
 
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

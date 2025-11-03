@@ -273,4 +273,4 @@ Interface의 오른쪽 하단에 있는 연필 아이콘을 클릭합니다.
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

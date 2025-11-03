@@ -54,15 +54,16 @@ proofreading:
     contributor_names:
     reward: 5.43
   - language: it
-    last_contribution_date:
+    last_contribution_date: '2025-10-31'
     urgency: 1
     contributor_names:
-    reward: 3.3
+      - Bitman-ops
+    reward: 1.65
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.49
+    reward: 6.5
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -82,7 +83,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.49
+    reward: 6.5
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
@@ -138,12 +139,12 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.36
+    reward: 5.43
   - language: rn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.49
+    reward: 6.5
 tags:
   - guides
   - DIY

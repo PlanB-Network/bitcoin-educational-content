@@ -289,9 +289,9 @@ Niba ari ngombwa, raba inyigisho zikurikira kugira ngo umenye neza porogarama ya
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
-https://planb.network/tutorials/wallet/desktop/sparrow-multisig-5860333b-6dd8-4aaa-8ab6-89ebc6276f1f
+https://planb.academy/tutorials/wallet/desktop/sparrow-multisig-5860333b-6dd8-4aaa-8ab6-89ebc6276f1f
 
 ### 1- Yohereza hanze Wallet Multisig 2-sur-3 kuri Sparrow wallet
 
@@ -464,7 +464,7 @@ Nta ngorane kuri iyi ncuro, nta butumwa bwo kugabisha buboneka, kandi iyo twinji
 
 
 
-https://planb.network/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
+https://planb.academy/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
 
 ### 1- Urubuga 2FA n'amaderesi yera
 
@@ -506,11 +506,11 @@ Iyi nzira ishobora kugufasha gukoresha porogaramu yubahiriza TOTP RFC-6238 nk’
 
 
 
-https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
+https://planb.academy/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 
-https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
+https://planb.academy/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 
-https://planb.network/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
+https://planb.academy/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
 
 Mu majambo nyayo, imbere yo gusinya ku giciro, uzokenera kuzana igikoresho cawe gikoreshwa na NFC, gihuye na internet hafi y’ikarita yawe ya Coldcard. Ivyo bizoca bigutwara kuri paji y’urubuga ya coldcard.com, aho uzosabwa kwinjiza kode y’imirongo 6 y’ivyo usaba. Niwinjiza kode ibereye, urubuga ruzokwereka kode ya QR yo gucapura ColdCardQ, canke kode y’imirongo 8 yo kwinjiza kuri Mk4 yawe, kugira ngo ushobore kwemerera igikoresho cawe gusinya.
 

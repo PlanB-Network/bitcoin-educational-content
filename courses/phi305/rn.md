@@ -42,6 +42,8 @@ Iryo koraniro rero rirashira ahabona ibihuye bishimishije hagati y’iyi mpinduk
 
 <chapterId>99af4992-fd6c-5142-b168-d927b251574b</chapterId>
 
+:::video id=1def60bc-1d39-4e49-9b08-fd05b7a0d49b:::
+
 
 
 :::id ya videwo=1def60bc-1d39-4e49-9b08-fd05b7a0d49b::
@@ -151,6 +153,8 @@ Naho nk’uko mubizi, ubu ibintu biriko biragenda neza.
 
 
 <chapterId>f53a9cfd-326e-5b73-a766-3ef2f07c5a49</chapterId>
+
+:::video id=5fac3ddc-c472-4c64-8186-46a8f317e389:::
 
 
 
@@ -262,6 +266,8 @@ Ubwo buryo bwaba ari ubw’ubuhinga canke ubw’ubuhinga, nk’uko tuzobibona mu
 
 <chapterId>4cc66e25-335c-591d-9b78-83e5664bbbbc</chapterId>
 
+:::video id=065c5091-69e1-412f-acce-c763ec31d3b1:::
+
 
 
 :::id ya videwo = 065c5091-69e1-412f-ugushikira-c763ec31d3b1:::
@@ -368,6 +374,8 @@ Mu yandi majambo, « kurwanira ubuja bwabo nk'aho barwanira umwidegemvyo wabo »
 
 
 <chapterId>84b0187e-1050-5d44-a536-80554896e828</chapterId>
+
+:::video id=c1efc97e-1e96-4b37-894c-9a19794d6b52:::
 
 
 
@@ -491,6 +499,8 @@ Ni co gituma ikinyejana ca 18 c’Umuco, bivuye ku gukoresha ubwenge, ubuhinga n
 
 <chapterId>3e6599e3-5b29-50a8-a67d-d0386da5d65d</chapterId>
 
+:::video id=b6d2c035-8848-4da6-9da9-be3b70be0f38:::
+
 
 
 :::id ya videwo=b6d2c035-8848-4da6-9da9-be3b70be0f38:::
@@ -584,6 +594,8 @@ Mu yandi majambo, barahawe umwidegemvyo wo kwihitiramwo, ni ukuvuga ukwizera kw�
 
 
 <chapterId>f147a914-cb64-5927-b305-26691930bca3</chapterId>
+
+:::video id=b59da795-ba19-4643-9672-36c9e7953a42:::
 
 
 
@@ -712,6 +724,8 @@ Ubwa nyuma, nimba ukwemera uburenganzira bwo kwihitiramwo ari ukwihenda umuntu b
 
 <chapterId>da2a7fb1-f1e9-5b56-822d-c73770de749d</chapterId>
 
+:::video id=a0127fe7-a4cb-4a1c-8af4-f11c40b4a3d7:::
+
 
 
 :::id ya videwo = a0127fe7-a4cb-4a1c-8af4-f11c40b4a3d7:::
@@ -815,6 +829,8 @@ Murakoze kwitwararika, kandi nzobabona mu kigabane gikurikira.
 
 
 <chapterId>93554156-5e62-526d-9b71-49c47be916af</chapterId>
+
+:::video id=9c490cc1-3d29-4ca7-9464-1a701bb91ba7:::
 
 
 
@@ -937,6 +953,8 @@ Kuri Spinoza, Leta ya demokarasi yemera umwidegemvyo wo kwiyumvira ni co rero ki
 
 <chapterId>1ce64576-2688-5757-a119-57cc3a1076c0</chapterId>
 
+:::video id=9c490cc1-3d29-4ca7-9464-1a701bb91ba7:::
+
 
 
 :::id ya videwo = 9c490cc1-3d29-4ca7-9464-1a701bb91ba7:::
@@ -1035,6 +1053,8 @@ Murakoze cane ku kwitwararika.
 
 
 <chapterId>3bb011ce-6f0c-51a6-b41f-25a3b5b7768e</chapterId>
+
+:::video id=bb427cc6-e54d-4b44-bd6d-281ba421001a:::
 
 
 
@@ -1152,6 +1172,8 @@ Kandi ni co gituma Spinozisme akenshi yitwa "filozofiya y'umunezero".
 
 
 <chapterId>b54f2532-460c-11f0-a248-93ff24ef1d57</chapterId>
+
+:::video id=5f49d5b4-e15f-475b-b40d-07464c08ca4d:::
 
 
 

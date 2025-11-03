@@ -11,7 +11,7 @@ Lightning Network ni Layer ya itifaki ya Bitcoin, ambayo ilitengenezwa kimsingi 
 
 
 
-https://planb.network/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
+https://planb.academy/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
 
 Kama ilivyo kwenye msururu mkuu, imekuwa muhimu kuwawezesha watumiaji kujua taarifa na hali ya mtandao, ili kuwezesha miunganisho kati ya nodi na kupunguza tatizo la ukwasi ambalo kwa ujumla hujitokeza katika mtandao. Hakika, kwenye Lightning Network, tunapendekeza malipo madogo ya kiasi kidogo zaidi kuliko yale ya miamala kwenye msururu mkuu wa Bitcoin.
 
@@ -34,7 +34,7 @@ Kama vile [Mempool Space](https://Mempool.space), ambayo hutoa maelezo muhimu ku
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 Katika somo hili, tutakuchukua kwenye ziara ya jukwaa hili, ambalo ni nyenzo muhimu kwa watumiaji wa Lightning Network, wale wanaotaka kuunganisha nodi zao ili kupanua mtandao, n.k.
 
@@ -57,7 +57,7 @@ Moja ya malengo ya jukwaa la Amboss ni kuwezesha nodi mbalimbali kwenye mtandao 
 
 
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
 Kwenye ukurasa wa nyumbani, utapata pia nodi zilizoainishwa kulingana na:
 
@@ -147,7 +147,7 @@ Katika sehemu ya **Vituo**, utaona orodha ya njia zilizo wazi na miunganisho ya 
 
 - Uwiano unaoingia**: Kiasi ambacho nodi itakutoza kwa kila milioni Satoshi itapokea, kulingana na kituo kilichochaguliwa.
 - Uwiano (sehemu kwa milioni)** : ambayo inawakilisha idadi ya Satoshi kwa kila milioni ambayo nodi itakutoza unapoamua kufanya malipo kupitia mojawapo ya chaneli zake. Tuseme umeamua kufanya malipo ya `10_000 Sats` kupitia chaneli ambayo uwiano wake wa ppm ni `500 Sats`, itabidi ulipe nodi `10_000 * 500 / 1_000_000` satoshis, sawa na `5 Sats`.
-- Kiwango cha juu zaidi cha [HTLC](https://planb.network/resources/glossary/htlc)** : Kiasi cha juu zaidi cha nodi hii hukuruhusu kupita kupitia mojawapo ya vituo hivi.
+- Kiwango cha juu zaidi cha [HTLC](https://planb.academy/resources/glossary/htlc)** : Kiasi cha juu zaidi cha nodi hii hukuruhusu kupita kupitia mojawapo ya vituo hivi.
 
 
 
@@ -304,4 +304,4 @@ Sasa umetembelea kikamilifu vipengele na zana za uchambuzi wa jukwaa. Tafadhali 
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f

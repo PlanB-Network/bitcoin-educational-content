@@ -1,6 +1,6 @@
 ---
 name: Vexl
-description: Compra e vendi BTC come previsto in origine, in P2P
+description: Compra e vendi BTC tramite scambio P2P, in accordo con l'idea originale di Bitcoin
 ---
 
 ![cover](assets/cover.webp)
@@ -17,17 +17,13 @@ Vexl è un social network peer-to-peer che connette acquirenti e venditori di Bi
 
 Iniziare con Vexl è semplice: visita il [sito ufficiale](https://vexl.it) e scarica l’app mobile sul tuo telefono iOS o Android.
 
-
 ⚠️ Scaricare l’applicazione mobile dal sito ufficiale ti protegge da copie fraudolente della piattaforma e garantisce l’integrità dei tuoi dati.
-
 
 In questo tutorial lavoreremo principalmente su Android, ma l’intero processo descritto vale anche per iOS.
 
-
 ![app](assets/fr/01.webp)
 
-
-Dopo aver installato l’applicazione, crea il tuo account verificando il numero di telefono. Vexl richiede il minimo di informazioni per preservare il tuo anonimato e rafforzare la riservatezza.
+Dopo aver installato l’applicazione, crea il tuo account verificando il numero di telefono. Vexl richiede il minimo di informazioni per preservare il tuo anonimato e garantirne la riservatezza.
 
 
 ![verify](assets/fr/02.webp)
@@ -41,8 +37,6 @@ Dopo la verifica, scopri quali membri della rete si trovano nei tuoi contatti. I
 
 Vexl funziona come un marketplace peer-to-peer, offrendoti diverse opzioni:
 
-
-
 - Comprare Bitcoin in contanti.
 - Vendere Bitcoin in cambio di contanti.
 - Comprare un prodotto pagando in Bitcoin.
@@ -51,33 +45,25 @@ Vexl funziona come un marketplace peer-to-peer, offrendoti diverse opzioni:
 - Vedere tutte le offerte di acquisto di Bitcoin nella tua zona.
 - Cercare qualcosa di specifico.
 
-
 ![options](assets/fr/04.webp)
-
 
 Nella home di Vexl, appena registrato, troverai suggerimenti su come eseguire operazioni specifiche e configurazioni per rendere l’esperienza più fluida.
 
-
 Cliccando sull’icona **Chat**, vedrai la cronologia delle conversazioni con i tuoi contatti e con le persone con cui hai scambiato.
-
 
 ![suggests](assets/fr/05.webp)
 
 
 ### Inserire ordini
 
-
 Vexl ti mette a disposizione un ecosistema personalizzabile per configurare gli scambi che vuoi effettuare.
-
 
 ![initiate](assets/fr/07.webp)
 
 
-Scegli il tipo di ordine che vuoi creare, poi specifica se sei in posizione long o short.
-
+Scegli il tipo di ordine che vuoi creare, poi specifica se sei in posizione "long" (vendi) o "short" (compri).
 
 In questo tutorial ci concentreremo sugli scambi di Bitcoin.
-
 
 ![rate](assets/fr/08.webp)
 
@@ -124,16 +110,16 @@ Nelle impostazioni dell’app troverai le configurazioni legate al tuo account. 
 ![settings](assets/fr/15.webp)
 
 
-### Le comunità
+### Le community
 
 
-Vexl ti permette di unirti a club dove puoi scambiare con più persone, ma in un contesto meno sicuro rispetto agli amici e agli amici dei tuoi amici.
+Vexl ti permette di unirti a club dove puoi scambiare con più persone, ma in un contesto meno sicuro rispetto agli amici, e agli amici dei tuoi amici.
 
 
 ![clubs](assets/fr/16.webp)
 
 
-Puoi anche consultare le notizie ed eventi su Bitcoin.
+Puoi anche consultare una sezione dedicata alle notizie e agli eventi dedicati a Bitcoin.
 
 
 ![events](assets/fr/17.webp)

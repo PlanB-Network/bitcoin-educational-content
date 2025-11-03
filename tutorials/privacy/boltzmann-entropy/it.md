@@ -50,7 +50,7 @@ Al contrario, una transazione tradizionale con 1 input e 2 output ha una sola in
 ![KYCP](assets/6.webp)
 
 ### Entropia:
-Il secondo indicatore calcolato è l'entropia di una transazione, indicata con `Entropy`.
+Il secondo indicatore calcolato è l'entropia di una transazione, indicata con il termine `Entropy`.
 Nel contesto generale della crittografia e dell'informazione, l'entropia è una misura quantitativa dell'incertezza o dell'imprevedibilità associata a una fonte di dati o a un processo casuale. In altre parole, l'entropia misura quanto sia difficile prevedere o indovinare informazioni.
 Nel contesto specifico di chain analysis, l'entropia è anche il nome di un indicatore, derivato dall'entropia di Shannon e [inventato da LaurentMT](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf), che viene calcolato con lo strumento di Boltzmann.
 

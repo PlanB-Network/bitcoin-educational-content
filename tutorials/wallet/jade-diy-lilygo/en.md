@@ -44,7 +44,7 @@ With great power comes great responsibility, lose your keys and your funds are g
 
 The term self-custody might sound confusing, but all it means is holding your own private keys, and controlling your own bitcoin. If you don’t hold that key, you’re trusting someone else to hold it for you. If your bitcoin is in an ETF or on an exchange (Mt. Gox, FTX, Coinbase, Binance, etc.), you don’t own bitcoin, you own a claim to bitcoin. This introduces all kinds of risks, like exchanges getting hacked and losing your bitcoin or companies lending out your money and giving you only a fraction in reserve. Additionally trusted third parties would have full control of your money and could limit or freeze withdrawals. 
 
-01
+![image](assets/fr/01.webp)
 
 With self-custody you remove trust from the equation. No one can freeze your funds or deny a transaction, you can send money across borders, to anyone, at any time, and you don’t need a bank account, an ID, or anyone’s approval. No one can stop you, censor you, or steal from you, unlocking the full power of bitcoin as freedom money. This is why we say, with bitcoin you can be your own bank. 
 
@@ -83,13 +83,13 @@ However, hardware wallets introduce their own threats. You must trust the manufa
 
 We are taking generic hardware, the LilyGo T-Display, and flashing Jade SDK firmware on it. The [Jade Plus](https://blockstream.com/jade/jade-plus/) is an open-source wallet, which typically costs $150:
 
-02
+![image](assets/fr/02.webp)
 
 Today, we'll be flashing their firmware onto a $15 hardware instead.
 
 ### What to Buy
 
-03
+![image](assets/fr/03.webp)
 
 - **LilyGO T-Display (16MB with shell, model K164)** — [Order direct from LilyGO](https://lilygo.cc/products/t-display?srsltid=AfmBOornob5U3FzZifuSwBBOdeXKcdPDqkYEnAVYKBLdzl0BPyNglGBR) for about $15. This ESP32 board provides the display, buttons, and USB interface that mirror Blockstream's Jade Plus. The onboard ESP32 also includes Wi-Fi and Bluetooth radios; we'll ship firmware that keeps them disabled, but they shape your threat model because malicious code could switch them back on.
 - **USB-C cable** — Bring a data-capable cable so you can flash firmware and power the board straight from your laptop (totally fine for class use).
@@ -108,11 +108,11 @@ Today, we'll be flashing their firmware onto a $15 hardware instead.
 
 You have two options for housing your LilyGO T-Display board: a 3D printed case or the official LilyGO enclosure. The printed case can be found and printed from [this model](https://www.printables.com/model/119144-lilygo-ttgo-t-display-enclosure). It offers a lightweight and customizable shell for your device.
 
-04
+![image](assets/fr/04.webp)
 
 Alternatively, you can use the official LilyGO case, which provides a slightly different fit and finish, offering more robust protection and a polished look.
 
-05
+![image](assets/fr/05.webp)
 
 Note that the printed and official cases differ slightly in design and assembly. Whichever option you choose, ensure the board is properly seated inside the case to avoid loose connections or damage.
 
@@ -126,14 +126,14 @@ Using a data-capable USB-C cable, connect the LilyGO board to your laptop. This 
 
 On boot, you will be greeted with the following screen:
 
-06
+![image](assets/fr/06.webp)
 
 
 When powered on, the LilyGO will display a color test screen cycling through solid colors. This confirms the display and board are functioning correctly before flashing firmware.
 
 Once the color test completes, the screen will settle on a default state, indicating the board is ready for the next steps in the build process.
 
-07
+![image](assets/fr/07.webp)
 
 ## The Easy Way or the Hard Way
 
@@ -149,19 +149,19 @@ The easiest way to flash a ESP32
 
 - Go to the official Blockstream Github: [https://github.com/Blockstream/jadediyflasher](https://github.com/Blockstream/jadediyflasher)  
 
-08
+![image](assets/fr/08.webp)
 
 - You can download the source file and run the website locally, but GitHub already hosts it at [https://blockstream.github.io/jadediyflasher/](https://blockstream.github.io/jadediyflasher/). GitHub serves the HTML, CSS, JavaScript, etc. directly to your browser so you can flash the device without installing developer tools.  
 
-09
+![image](assets/fr/09.webp)
 
 - Open the dropdown menu (it likely defaults to `M5Stack Core2`) and select your development board — for this class, pick `LILYGO T-Display`.  
 
-10
+![image](assets/fr/10.webp)
 
 - When you click flash this is going to appear. In order to know which device is the LILYGO, unplug the lilygo and plug it back in. The com port that the lilygo will appear and disappear. Click the COM port that the Jade is plugged into
 
-11
+![image](assets/fr/11.webp)
 
 - That's it a progress bar should show up and when it's finish your ready to set it up
 
@@ -283,43 +283,43 @@ Blockstream Green is the software to finish setting up the JadeDIY and it must b
 
 - Get the official Blockstream application — this is the link to it from their website. When you're there click [Download now](https://blockstream.com/app/).
 
-12
+![image](assets/fr/12.webp)
 
 - Depending on where your downloads go, most likely the file will be in your Downloads folder. Check there and double-click the executable file to install the software.
 
-13
+![image](assets/fr/13.webp)
 
 - You might have to give admin rights to run the installer. Once you do, a window will pop up that should look like the following picture — click **Next**.
 
-14
+![image](assets/fr/14.webp)
 
 - Choose where you want the installed application to reside (a location with your other programs or somewhere easy to find), then click **Next**.
 
-15
+![image](assets/fr/15.webp)
 
 - The installer will ask for a shortcut name. Enter one or keep the default, then click **Next**.
 
-16
+![image](assets/fr/16.webp)
 
 - If you want a desktop shortcut, check the box; otherwise click **Next**.
 
-17
+![image](assets/fr/17.webp)
 
 - Finally, click **Install** and wait a few minutes for the installation to complete.
 
-18
+![image](assets/fr/18.webp)
 
 - The progress bar should fill to the end.
 
-19
+![image](assets/fr/19.webp)
 
 - When it finishes, a new page will appear — click **Finish**.
 
-20
+![image](assets/fr/20.webp)
 
 - Find your newly installed Blockstream application (example shown in the Windows 11 Start menu).
 
-21
+![image](assets/fr/21.webp)
 
 - Once you find it, click to launch — a splash screen should appear.
 

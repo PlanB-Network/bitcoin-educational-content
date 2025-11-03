@@ -1,6 +1,6 @@
 # La construction de Bitcoin entre 2011 et 2012 : le Far West de la finance
 
-Bienvenue dans ce cours consacré à l'histoire de Bitcoin entre le printemps 2011 et l'été 2012 ! Si vous vous intéressez à Bitcoin, il est probable que vous sachiez ce qu'étaient Silk Road, la première place de marché du dark web utilisant le bitcoin, et Mt. Gox, la première réelle plateforme de change. Peut-être avez-vous aussi entendu parler du service BitInstant, de la plateforme de trading Bitcoinica, du type d'adresse Pay to Script Hash, du processeur de paiement BitPay, du portefeuille Electrum, des bitcoins de Casascius, du jeu en ligne SatoshiDICE, de la coopérative de minage Deepbit, de la cryptomonnaie alternative Litecoin, de la plateforme de change en pair à pair LocalBitcoins, ou encore de la pyramide de Ponzi appelée Bitcoin Savings & Trust ? Enfin, il se peut que vous connaissiez des personnages comme Ross Ulbricht, Mark Karpelès, Roger Ver, Erik Voorhees, Charlie Shrem ou Luke Dashjr. Si c'est le cas, et que vous voulez en apprendre plus sur ces gens ou ces projets, sachez que vous êtes au bon endroit, car ils sont emblématiques de cette partie de l'histoire de Bitcoin !
+Bienvenue dans ce cours consacré à l'histoire de Bitcoin entre le printemps 2011 et l'été 2012 ! Si vous vous intéressez à Bitcoin, il est probable que vous sachiez ce qu'étaient Silk Road, la première place de marché du dark web utilisant le bitcoin, et Mt. Gox, la première réelle plateforme de change. Peut-être avez-vous aussi entendu parler du service de change BitInstant, de la plateforme de trading Bitcoinica, du type d'adresse Pay to Script Hash, du processeur de paiement BitPay, du portefeuille Electrum, des bitcoins de Casascius, du jeu en ligne SatoshiDICE, de la coopérative de minage Deepbit, de la cryptomonnaie alternative Litecoin, de la plateforme de change en pair à pair LocalBitcoins, ou encore de la pyramide de Ponzi appelée Bitcoin Savings & Trust ? Enfin, il se peut que vous connaissiez des personnages comme Ross Ulbricht, Mark Karpelès, Roger Ver, Erik Voorhees, Charlie Shrem ou Luke Dashjr. Si c'est le cas, et que vous voulez en apprendre plus sur ces gens ou ces projets, sachez que vous êtes au bon endroit, car ils sont emblématiques de cette partie de l'histoire de Bitcoin !
 
 La période qui va du printemps 2011 à l'été 2012 est caractérisée par une désobéissance profonde des acteurs impliqués et une absence à peu près totale de règlementation financière, à tel point que nous la surnommons ici le « Far West de la finance », à l'image des références faites par les utilisateurs de l'époque. Il s'agit d'une période de liberté et de diversité, durant laquelle surgissent de nombreux projets parfois loufoques, qui réussissent plus ou moins, mais qui ont généralement pour but d'améliorer l'utilisation de Bitcoin. Bien qu'elle soit courte (à peine un an et demi), elle est riche d'enseignements ; c'est encore une phase d'apprentissage et de construction qui regorge de « premières fois », d'expérimentations qui sont par la suite devenu des éléments fondamentaux de la structure économique et culturelle de Bitcoin.
 
@@ -60,25 +60,25 @@ Ce cours est divisé en quatre parties, qui s'intéressent respectivement à la 
 
 ### Précisions
 
-La lecture du premier cours sur l'histoire de Bitcoin (intitulée *L'histoire de la création de Bitcoin*) est un prérequis si vous ne connaissez pas du tout le sujet. Vous pouvez cliquer sur le lien suivant pour le suivre :
+La lecture du premier cours sur l'histoire de Bitcoin (intitulé *L'histoire de la création de Bitcoin*) est un prérequis, surtout si vous ne connaissez pas du tout le sujet. Même si tout n'est pas raconté de manière chronologique, ce second cours reprend le récit là ou le précédent s'est arrêté, aux alentours du printemps 2011. Vous pouvez cliquer sur le lien suivant pour suivre le premier cours :
 
 https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 Toutes les dates et les heures sont données selon le fuseau horaire UTC (correspondant au méridien de Greenwich) et les dates peuvent ainsi différer des dates américaines. La plupart des citations proviennent de l'anglais américain et ont été traduites pour l'occasion, sauf indication contraire.
 
-En plus des sources directes archivées sur Internet, nous nous basons sur les ouvrages de référence suivants :
+En plus des sources directement données dans le propos en lien hypertexte, nous nous basons sur les ouvrages de référence suivants :
 
 - [*Digital Gold: Bitcoin and the Inside Story of the Misfits and Millionaires Trying to Reinvent Money*](https://www.amazon.com/Digital-Gold-Bitcoin-Millionaires-Reinvent/dp/006236250X) de Nathaniel Popper, publié en 2014 ;
-- [*Pay the Devil in Bitcoin: The Creation of a Cryptocurrency and How Half a Billion Dollars of It Vanished from Japan*](https://www.goodreads.com/book/show/36238082-pay-the-devil-in-bitcoin) de Jake Adelstein et Nathalie Stucky, publié en 2017, en version électronique uniquement ; traduction française : [*J'ai vendu mon âme en bitcoins*](https://www.editions-marchialy.fr/livre/j-ai-vendu-mon-ame-en-bitcoins/), publiée en 2019 ;
+- [*Pay the Devil in Bitcoin: The Creation of a Cryptocurrency and How Half a Billion Dollars of It Vanished from Japan*](https://www.goodreads.com/book/show/36238082-pay-the-devil-in-bitcoin) de Jake Adelstein et Nathalie Stucky, publié en 2017, en version électronique uniquement ; et plus précisément la traduction française, publiée en 2019, dont le contenu est légèrement différent : [*J'ai vendu mon âme en bitcoins*](https://www.editions-marchialy.fr/livre/j-ai-vendu-mon-ame-en-bitcoins/) ;
 - [*American Kingpin: The Epic Hunt for the Criminal Mastermind behind the Silk Road Drugs Empire*](https://www.amazon.fr/American-Kingpin-Criminal-Mastermind-Behind/dp/1591848148/) de Nick Bilton, publié en 2017.
 
 Nous nous sommes également inspiré des films documentaires couvrant cette partie de l'histoire de Bitcoin, à savoir :
 
 - [*The Bitcoin Phenomenon*](https://www.youtube.com/watch?v=6pWblf8COH4), réalisé par Bhu Srinivasan et diffusé le 12 avril 2014 ;
-- [*The Rise and Rise of Bitcoin*](https://www.youtube.com/watch?v=A06qdTpOYcg), réalisé par Nicholas Mross, qui est sorti le 10 octobre 2014 ;
+- [*The Rise and Rise of Bitcoin*](https://www.youtube.com/watch?v=A06qdTpOYcg), réalisé par Nicholas Mross et sorti le 10 octobre 2014 ;
 - [*Deep Web*](https://www.youtube.com/watch?v=L7emWKAMEvI), réalisé par Alex Winter, pour une diffusion le 31 mai 2015.
 
-Enfin, les articles de Vitalik Buterin, écrits pour [Bitcoin Weekly](https://web.archive.org/web/20111101152804/http://bitcoinweekly.com/articles) et [Bitcoin Magazine](https://bitcoinmagazine.com/authors/vitalik-buterin), nous ont été très utiles pour comprendre les évènements qui ont marqué la période.
+Enfin, les articles écrits par Vitalik Buterin pour [Bitcoin Weekly](https://web.archive.org/web/20111101152804/http://bitcoinweekly.com/articles) et [Bitcoin Magazine](https://bitcoinmagazine.com/authors/vitalik-buterin) ont été très utiles pour relater les évènements importants de la période.
 
 ### Remerciements
 

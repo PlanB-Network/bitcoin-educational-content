@@ -75,7 +75,7 @@ C = 1,496
 E = log2(1,496)
 E = 10.5469 bit
 ```
-Quindi, questa transazione coinjoin mostra un'entropia di `10.5469 bit`, che è considerata molto soddisfacente. Più alto è questo valore, maggiori sono le interpretazioni plausibili per la transazione, rafforzando così il suo livello di privacy.
+Quindi, questa transazione coinjoin mostra un'entropia di `10.5469 bit`, che è considerata molto soddisfacente. Maggiore è questo valore, maggiori sono le interpretazioni che la transazione permette, rafforzando così il suo livello di privacy.
 Per una transazione coinjoin 8x8 che presenta `9,934,563` interpretazioni, l'entropia sarebbe:
 ```plaintext
 C = 9,934,563

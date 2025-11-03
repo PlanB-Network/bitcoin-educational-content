@@ -39,3 +39,8 @@ tags:
   - cypherpunk
   - future-outlook
   - high-level
+
+# license field, choose between MIT, CC-BY-SA-V4
+# MIT: allows for almost unrestricted use
+# CC-BY-SA-V4: is also quite permissive but includes a share-alike clause
+license: MIT

@@ -702,7 +702,7 @@ Dies ist die grundlegende Funktionsweise von Bitcoin, aber im Laufe der Zeit ist
 
 Ein Nutzer, der eine Bitcoin-Transaktion durchführen möchte, muss daher eine digitale Signatur mit seinem privaten Schlüssel für die betreffende Transaktion erstellen. Die Signatur kann von anderen Netzwerkteilnehmern überprüft werden. Wenn sie gültig ist, bedeutet dies, dass der Nutzer, der die Transaktion initiiert, tatsächlich der Besitzer des privaten Schlüssels und somit der Besitzer der Bitcoins ist, die er ausgeben möchte. Andere Nutzer können dann die Transaktion akzeptieren und weiterleiten.
 
-Folglich muss ein Nutzer, der Bitcoins besitzt, die mit einem öffentlichen Schlüssel gesperrt sind, einen Weg finden, um das, was das Entsperren seiner Mittel ermöglicht: den privaten Schlüssel, sicher aufzubewahren. Ein Bitcoin-Wallet ist genau ein Gerät, das es Ihnen ermöglicht, alle Ihre Schlüssel einfach zu behalten, ohne dass andere Personen Zugang dazu haben. Es ist daher eher wie ein Schlüsselbund als wie eine Brieftasche.
+Folglich muss ein Nutzer, der Bitcoins besitzt, die mit einem öffentlichen Schlüssel gesperrt sind, einen Weg finden, um das, was das Entsperren seiner Mittel ermöglicht, nämlich den privaten Schlüssel, sicher aufzubewahren. Ein Bitcoin-Wallet ist also ein Werkzeug, das es Ihnen ermöglicht, alle Ihre Schlüssel einfach zu behalten, ohne dass andere Personen Zugang dazu haben. Es ist daher eher wie ein Schlüsselbund als wie eine Brieftasche.
 
 Die mathematische Verbindung zwischen einem öffentlichen Schlüssel und einem privaten Schlüssel sowie die Fähigkeit, eine Signatur zu leisten, um den Besitz eines privaten Schlüssels zu beweisen, ohne ihn zu offenbaren, werden durch einen digitalen Signaturalgorithmus ermöglicht. Im Bitcoin-Protokoll werden 2 Signaturalgorithmen verwendet: **ECDSA** (*Elliptic Curve Digital Signature Algorithm*) und das **Schnorr-Signaturschema**. ECDSA ist das digitale Signaturprotokoll, das seit den Anfängen von Bitcoin verwendet wird. Schnorr ist in Bitcoin neuer, da es im November 2021 mit dem Taproot-Update eingeführt wurde.
 
@@ -711,7 +711,7 @@ Diese beiden Algorithmen sind in ihren Mechanismen recht ähnlich. Sie basieren 
 
 Die elliptische Kurvenkryptografie (ECC) ist eine Reihe von Algorithmen, die eine elliptische Kurve für ihre verschiedenen mathematischen und geometrischen Eigenschaften zu kryptografischen Zwecken nutzen. Die Sicherheit dieser Algorithmen beruht auf der Schwierigkeit des diskreten Logarithmusproblems auf elliptischen Kurven. Elliptische Kurven werden insbesondere für Schlüsselaustausche, asymmetrische Verschlüsselung oder zur Erstellung digitaler Signaturen verwendet.
 
-Eine wichtige Eigenschaft dieser Kurven ist, dass sie symmetrisch bezüglich der x-Achse sind. So wird jede nicht-vertikale Linie, die die Kurve an zwei unterschiedlichen Punkten schneidet, immer einen dritten Schnittpunkt mit der Kurve haben. Außerdem wird jede Tangente an die Kurve an einem nicht-singulären Punkt die Kurve an einem weiteren Punkt schneiden. Diese Eigenschaften werden nützlich sein, um Operationen auf der Kurve zu definieren.
+Eine wichtige Eigenschaft dieser Kurven ist, dass sie symmetrisch bezüglich der x-Achse sind. So wird jede nicht-vertikale Linie, die die Kurve an zwei unterschiedlichen Punkten schneidet, immer einen dritten Schnittpunkt mit der Kurve haben. Außerdem wird jede Tangente an der Kurve an einem nicht-singulären Punkt die Kurve an einem weiteren Punkt schneiden. Diese Eigenschaften werden nützlich sein, um Operationen auf der Kurve zu definieren.
 
 Hier ist eine Darstellung einer elliptischen Kurve über dem Feld der reellen Zahlen:
 
@@ -729,7 +729,7 @@ $$
 
 Um ECDSA oder Schnorr zu verwenden, muss man die Parameter der elliptischen Kurve wählen, das heißt, die Werte von $a$ und $b$ in der Kurvengleichung. Es gibt verschiedene Standards elliptischer Kurven, die als kryptografisch sicher gelten. Der bekannteste ist die *secp256r1*-Kurve, die vom NIST (*National Institute of Standards and Technology*) definiert und empfohlen wird.
 
-Trotzdem entschied sich Satoshi Nakamoto, der Erfinder von Bitcoin, diese Kurve nicht zu verwenden. Der Grund für diese Wahl ist unbekannt, aber einige glauben, er bevorzugte eine Alternative, weil die Parameter dieser Kurve potenziell einen Hintertür enthalten könnten. Stattdessen verwendet das Bitcoin-Protokoll den Standard ***secp256k1***. Diese Kurve ist durch die Parameter $a = 0$ und $b = 7$ definiert. Ihre Gleichung ist daher:
+Trotzdem entschied sich Satoshi Nakamoto, der Erfinder von Bitcoin, diese Kurve nicht zu verwenden. Der Grund für diese Wahl ist unbekannt, aber einige glauben, er bevorzugte eine Alternative, weil die Parameter dieser Kurve potenziell eine Hintertür enthalten könnten. Stattdessen verwendet das Bitcoin-Protokoll den Standard ***secp256k1***. Diese Kurve ist durch die Parameter $a = 0$ und $b = 7$ definiert. Ihre Gleichung ist daher:
 
 $$
 
@@ -820,7 +820,8 @@ $$
 
 wo:
 - $k$ ist der private Schlüssel (eine zufällige ganze Zahl zwischen $1$ und $n-1$);
-- $G$ ist der Generatorpunkt der elliptischen Kurve, der von allen Teilnehmern des Bitcoin-Netzwerks verwendet wird; - $\cdot$ repräsentiert die skalare Multiplikation auf der elliptischen Kurve, was dem Hinzufügen des Punktes $G$ zu sich selbst $k$ Mal entspricht.
+- $G$ ist der Generatorpunkt der elliptischen Kurve, der von allen Teilnehmern des Bitcoin-Netzwerks verwendet wird;
+- $\cdot$ repräsentiert die skalare Multiplikation auf der elliptischen Kurve, was dem Hinzufügen des Punktes $G$ zu sich selbst $k$ Mal entspricht.
 
 Die Tatsache, dass dieser Punkt $G$ allen öffentlichen Schlüsseln auf Bitcoin gemeinsam ist, ermöglicht es uns sicherzustellen, dass der gleiche private Schlüssel $k$ uns immer den gleichen öffentlichen Schlüssel $K$ geben wird:
 
@@ -877,7 +878,7 @@ Grafisch entspricht dies der Durchführung einer Reihe von Additionen und Verdop
 
 Wenn wir zum Beispiel den Punkt $3G$ berechnen möchten, müssen wir zuerst den Punkt $2G$ durch Verdopplung des Punktes $G$ berechnen, dann $G$ und $2G$ addieren. Um $G$ und $2G$ zu addieren, zeichnen wir einfach die Linie, die diese beiden Punkte verbindet, holen den einzigartigen Punkt $-3G$ am Schnittpunkt zwischen dieser Linie und der elliptischen Kurve und bestimmen dann $3G$ als das Gegenteil von $-3G$.
 
-Wir werden haben:
+Wir erhalten:
 
 
 $$

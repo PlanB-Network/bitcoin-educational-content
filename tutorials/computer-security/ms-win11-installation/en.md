@@ -6,7 +6,7 @@ description: Automatic Installation of Microsoft Windows 11 via configuration fi
 
 In this tutorial, we will learn how to install Windows 11 automatically using a method other than the standard Windows installation process.
 
-## I. Download!
+## Download!
 
 The first thing you’ll need is an installation file. The safest and most reliable place to download it is directly from Microsoft’s official website.
 
@@ -38,7 +38,7 @@ Once the request is successfully processed, you will see a page with the downloa
 
 The file size is about 5.5 GB, and the generated link will be valid for 24 hours.
 
-## II. Automation!
+## Automation!
 
 At this stage, we need to make changes to the standard Windows installation. In this stage, using Unattended install, we determine which items are going to be installed, without the user's input afterwards. In fact, in this method, an XML file is used to configure the installation steps and services installed in Windows. In other words, the use of the Unattended.xml file creates an automation process during installation, preventing the need to select multiple options and avoiding the tedious steps usually required during setup. This method is an unusual but standard method that has been introduced by Microsoft. More information is available on [Microsoft's official website](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/update-windows-settings-and-scripts-create-your-own-answer-file-sxs?view=windows-11).
 
@@ -80,6 +80,7 @@ The next step involves configuring the Windows login account:
 
 ![Image](assets/en/12.webp)
 
+## Account seetings
 At this stage:
 
 1. We can define a name and password for the admin account. It is also possible to create multiple user or admin accounts.
@@ -98,6 +99,7 @@ The next step involves configuring Windows security settings:
 
 ![Image](assets/en/14.webp)
 
+## Security settings
 At this stage:
 
 1. Windows Defender can be enabled or disabled. This feature acts like security software in Windows and helps prevent the execution of malicious files, certain network attacks, and more.
@@ -135,6 +137,7 @@ The next step involves configuring default applications:
 
 ![Image](assets/en/18.webp)
 
+## Default software enable/disable
 In this section, we can choose any applications that we do not want to be installed by default. For example, we can opt not to install Cortana or Copilot.
 
 The next step involves security settings related to application execution:
@@ -163,6 +166,7 @@ At this stage, we disable all options, as having them enabled can cause conflict
 
 At this point, the USB drive is ready for use to install Windows automatically, and the installation can be started using this drive.
 
+## ISO editing
 If you need to install Windows on a virtual machine, you can use software to create and edit ISO files. One such software is AnyBurn. After extracting the contents of the ISO file downloaded from the Microsoft website, place the autounattend.xml file in the root directory. Then, using AnyBurn, create a new ISO with the updated contents.
 
 AnyBurn is a multifunctional software for working with ISO files. It offers various features for handling ISO files, one of which is creating bootable ISO images; [here](https://www.anyburn.com/download.php) is the original website.

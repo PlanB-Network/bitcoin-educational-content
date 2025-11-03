@@ -22,7 +22,7 @@ Med andra ord är det lämpligt att lagra dina filer på tre olika platser med h
 För att enkelt implementera denna 3-2-1 backup-strategi kan du välja en online-lagringslösning genom att automatiskt eller periodiskt synkronisera filerna från din dator med dem i ditt moln. Bland dessa online-backup-lösningar finns det uppenbarligen de från stora digitala företag som du känner till: Google Drive, Microsoft OneDrive eller Apple iCloud. Dessa är dock inte de bästa lösningarna för att skydda din integritet. I en tidigare handledning introducerade jag dig till ett alternativ som krypterar dina dokument för bättre integritet: Proton Drive.
 
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Genom att använda den här strategin med lokal säkerhetskopiering och molnbaserad säkerhetskopiering har du redan två olika typer av media för dina data, varav en är extern. För att slutföra 3-2-1-strategin behöver du helt enkelt lägga till ytterligare en kopia. Det jag råder dig att göra är helt enkelt att regelbundet exportera dina data som finns lokalt och i ditt moln till ett fysiskt medium, som ett USB-minne eller en extern Hard-enhet. På så sätt har du, även om servrarna i din online-lagringslösning förstörs och din dator går sönder samtidigt, fortfarande denna tredje kopia på ett externt medium för att inte förlora dina data.
 
@@ -151,7 +151,7 @@ Jag råder dig också att spara ditt lösenord i en lösenordshanterare. Det gö
 För mer information om hantering av lösenord rekommenderar jag att du läser den här andra fullständiga handledningen:
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Ange ditt lösenord i de 2 angivna fälten och klicka sedan på "*Nästa*". ![VeraCrypt](tillgångar/notext/25.webp)
 

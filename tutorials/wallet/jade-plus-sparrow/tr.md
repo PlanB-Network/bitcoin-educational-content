@@ -34,7 +34,7 @@ Jade Plus çoğu Wallet yönetim yazılımı ile uyumludur. İşte yazının yaz
 Bu eğitimde, QR kodları modunda masaüstü Sparrow wallet yazılımı ile Jade Plus'ın gelişmiş bir yapılandırmasını kuracağız. Bu yapılandırma orta düzey veya deneyimli kullanıcılar için idealdir. Yeni başlayanlar için daha basit bir yaklaşım arıyorsanız, Jade Plus'ı Bluetooth bağlantısı üzerinden Green Wallet ile kullandığımız bu eğitime göz atmanızı tavsiye ederim:
 
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+https://planb.academy/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
 
 ## Jade Plus güvenlik modeli
 
@@ -142,7 +142,7 @@ Kutuyla birlikte verilen kartona yazabilir veya daha fazla güvenlik için, yang
 Mnemonic ifadenizi kaydetmenin ve yönetmenin doğru yolu hakkında daha fazla bilgi için, özellikle de yeni başlayan biriyseniz, bu diğer öğreticiyi izlemenizi şiddetle tavsiye ederim:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 tabii ki, benim bu eğitimde yaptığım gibi, bu kelimeleri asla internette paylaşmamalısınız. Bu örnek Wallet sadece Testnet üzerinde kullanılacak ve eğitimin sonunda silinecektir.
 
@@ -378,7 +378,7 @@ BIP39 passphrase, serbestçe seçebileceğiniz ve Wallet güvenliğini güçlend
 Jade Plus'ınızda bu seçeneği yapılandırmadan önce, passphrase'ün teorik çalışmasını tam olarak anlamak ve bitcoinlerinizin kaybına yol açabilecek hatalardan kaçınmak için bu makaleyi okumanız şiddetle tavsiye edilir:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Jade'iniz hala kilitliyken (passphrase'e yalnızca cihazın kilidi açık değilken girilebilir), "*Seçenekler*" menüsüne erişin.
 
@@ -444,7 +444,7 @@ passphrase'iniz geçerliyse onaylayın.
 Lütfen BIP39 parolalarının büyük/küçük harfe ve yazım hatasına duyarlı olduğunu unutmayın. Başlangıçta yapılandırılandan biraz farklı bir passphrase girerseniz, Jade bir hata bildirmeyecek, ancak ilk Wallet'inizde olmayan başka bir kriptografik anahtar seti türetecektir.
 
 
-Bu nedenle, yapılandırma sırasında ekranın sağ alt köşesinde bulunan ana anahtar parmak izinizi not etmeniz önemlidir. Örneğin, passphrase `PBN` ile ana anahtar parmak izim `3AD1AE65`.
+Bu nedenle, yapılandırma sırasında ekranın sağ alt köşesinde bulunan ana anahtar parmak izinizi not etmeniz önemlidir. Örneğin, passphrase `Plan ₿ Academy` ile ana anahtar parmak izim `3AD1AE65`.
 
 
 ![Image](assets/fr/49.webp)
@@ -456,7 +456,7 @@ Jade cihazınızın kilidini passphrase ile her açtığınızda, parmak izinin 
 Wallet'inizdeki ilk bitcoinlerinizi almadan önce, **Boş bir kurtarma testi** yapmanızı şiddetle tavsiye ederim. Xpub'ınız veya ilk aldığınız Address gibi bazı referans bilgilerini not edin, ardından Jade Plus'ta Wallet'inizi hala boşken silin (`Seçenekler -> Cihaz -> Fabrika Ayarlarına Sıfırla`). Ardından Wallet'inizi Mnemonic ifadesinin ve herhangi bir passphrase'in kağıt yedeklerini kullanarak geri yüklemeyi deneyin. Geri yüklemeden sonra oluşturulan çerez bilgilerinin başlangıçta yazdığınızla eşleşip eşleşmediğini kontrol edin. Eğer eşleşiyorsa, kağıt yedeklerinizin güvenilir olduğundan emin olabilirsiniz. Test kurtarma işleminin nasıl yapılacağı hakkında daha fazla bilgi edinmek için bu diğer eğitime göz atın:
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Wallet'i Sparrow wallet üzerinde yapılandırma
 
@@ -473,7 +473,7 @@ Henüz yapmadıysanız, Sparrow wallet'i [resmi web sitesinden] (https://sparrow
 Kurulumdan önce yazılımın orijinalliğini ve bütünlüğünü kontrol ettiğinizden emin olun. Bunu nasıl yapacağınızı bilmiyorsanız, lütfen bu eğiticiye başvurun:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Sparrow wallet açıldığında, "*Dosya*" sekmesine ve ardından "*Yeni Wallet*" seçeneğine tıklayın.
 
@@ -649,4 +649,4 @@ Tebrikler, artık Jade Plus'ı QR modunda nasıl kuracağınızı ve kullanacağ
 Daha ileri gitmek için Jade Plus'ı Green mobil uygulaması ile Bluetooth üzerinden yapılandırdığımız bu diğer eğitimi tavsiye ederim:
 
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+https://planb.academy/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0

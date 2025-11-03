@@ -1,21 +1,21 @@
 ---
 name: Linee guida da seguire durante il proofreading
-description: Quali sono i fattori importanti da tenere a mente per il proofreading su Plan ₿ Network?
+description: Quali sono i fattori importanti da tenere a mente per il proofreading su Plan ₿ Academy?
 ---
 
 ![github](assets/cover.webp)
 
-Benvenuto in questo tutorial sulle **linee guida da seguire per la revisione dei contenuti su Plan ₿ Network**. Siamo felici che tu condivida la nostra missione di tradurre risorse su Bitcoin nel maggior numero possibile di lingue, al fine di aiutare le persone a conoscere il suo funzionamento e il suo utilizzo nella vita quotidiana.
+Benvenuto in questo tutorial sulle **linee guida da seguire per la revisione dei contenuti su Plan ₿ Academy**. Siamo felici che tu condivida la nostra missione di tradurre risorse su Bitcoin nel maggior numero possibile di lingue, al fine di aiutare le persone a conoscere il suo funzionamento e il suo utilizzo nella vita quotidiana.
 
-Innanzitutto, contribuire al [repository pubblico](https://github.com/PlanB-Network/Bitcoin-educational-content) di Plan ₿ Network ti dà la possibilità di scrivere tutorial, correggere i contenuti esistenti o persino proporre l'aggiunta di una nuova lingua alla piattaforma. Per saperne di più, iscriviti prima al nostro [Gruppo Telegram](https://t.me/PlanBNetwork_ContentBuilder) e manda una breve presentazione su di te e sulle lingue che conosci.
+Innanzitutto, contribuire al [repository pubblico](https://github.com/PlanB-Network/Bitcoin-educational-content) di Plan ₿ Academy ti dà la possibilità di scrivere tutorial, correggere i contenuti esistenti o persino proporre l'aggiunta di una nuova lingua alla piattaforma. Per saperne di più, iscriviti prima al nostro [Gruppo Telegram](https://t.me/PlanBNetwork_ContentBuilder) e manda una breve presentazione su di te e sulle lingue che conosci.
 
-Questo gruppo è dedicato ai collaboratori che vogliono fare proofreading dei contenuti sul repo. La maggior parte di loro non sa molto di [Github](https://planb.network/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) o del [linguaggio Markdown](https://www.markdownguide.org/basic-syntax/) che usiamo all'interno del repository, quindi è importante condividere alcuni approfondimenti sui fattori chiave che il proofreading comporta.
+Questo gruppo è dedicato ai collaboratori che vogliono fare proofreading dei contenuti sul repo. La maggior parte di loro non sa molto di [Github](https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) o del [linguaggio Markdown](https://www.markdownguide.org/basic-syntax/) che usiamo all'interno del repository, quindi è importante condividere alcuni approfondimenti sui fattori chiave che il proofreading comporta.
 
 Qui di seguito ho raccolto i problemi più comuni incontrati dai proofreader. Sentititi libero di suggerirne altri, perché possono aiutare gli altri a migliorare.
 
-Prima di addentrarci nello specifico, la prima cosa da fare è leggere questo tutorial sulle azioni pratiche da seguire su Github, ad esempio come procedere al fork del repository di Plan ₿ Network, salvare le modifiche (commit) e inviare le Pull Request (PR):
+Prima di addentrarci nello specifico, la prima cosa da fare è leggere questo tutorial sulle azioni pratiche da seguire su Github, ad esempio come procedere al fork del repository di Plan ₿ Academy, salvare le modifiche (commit) e inviare le Pull Request (PR):
 
-https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
+https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 ## Che cos'è il proofreading?
 
@@ -25,11 +25,11 @@ Quando si svolge questo tipo di compito, è importante seguire il significato es
 
 Ricordati sempre che traduzione/proofreading è EDUCAZIONE!
 
-Il nostro obiettivo comune è infatti quello di educare il maggior numero possibile di persone su Bitcoin, quindi è fondamentale che le risorse che leggono siano scorrevoli e chiare. In questo senso, tutti i collaboratori di Plan ₿ Network sono educatori!
+Il nostro obiettivo comune è infatti quello di educare il maggior numero possibile di persone su Bitcoin, quindi è fondamentale che le risorse che leggono siano scorrevoli e chiare. In questo senso, tutti i collaboratori di Plan ₿ Academy sono educatori!
 
-## I primi passi prima del proofreading su Plan ₿ Network
+## I primi passi prima del proofreading su Plan ₿ Academy
 
-Prima di iniziare un nuovo proofreading, comunicalo nel [gruppo Telegram](https://t.me/PlanBNetwork_ContentBuilder) o informa il tuo coordinatore di Plan ₿ Network, che aprirà appositamente una [issue](https://github.com/orgs/PlanB-Network/projects/3). Quando ricevi il link alla issue è sufficiente che **commenti comunicando che stai iniziando** il proofreading di quel contenuto.
+Prima di iniziare un nuovo proofreading, comunicalo nel [gruppo Telegram](https://t.me/PlanBNetwork_ContentBuilder) o informa il tuo coordinatore di Plan ₿ Academy, che aprirà appositamente una [issue](https://github.com/orgs/Plan ₿ Academy/projects/3). Quando ricevi il link alla issue è sufficiente che **commenti comunicando che stai iniziando** il proofreading di quel contenuto.
 
 Questo sistema aiuta il coordinatore a tenere traccia dei progressi all'interno del repo e consente al proofreader di "rivendicare" il contenuto, evitando che qualcun altro lo faccia. Nella issue stessa troverai i link che ti reindirizzeranno al contenuto da correggere. Puoi semplicemente fare clic su di essi o, ancora meglio, tornare al fork del tuo repo e lavorare direttamente da lì. Vediamo come fare!
 
@@ -37,7 +37,7 @@ Prima di tutto, **ricordati SEMPRE di sincronizzare il tuo repo, sul branch "dev
 
 ![REVIEW](assets/en/1.webp)
 
-Dopo la sincronizzazione, puoi accedere direttamente al testo che vuoi correggere e salvare i commit su un nuovo branch, come mostrato in questo [tutorial](https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). Altrimenti puoi creare un nuovo branch dove lavorare, facendo clic su "Branches", come mostrato di seguito.
+Dopo la sincronizzazione, puoi accedere direttamente al testo che vuoi correggere e salvare i commit su un nuovo branch, come mostrato in questo [tutorial](https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). Altrimenti puoi creare un nuovo branch dove lavorare, facendo clic su "Branches", come mostrato di seguito.
 
 ![REVIEW](assets/en/2.webp)
 
@@ -67,20 +67,20 @@ In questo secondo caso, **fai sempre qualche ricerca per vedere se qualche altro
 
 - In ogni caso il mio consiglio è di **inserire comunque il termine inglese**, aggiungendo il significato corrispondente nella tua lingua, magari tra parentesi, seguendo lo schema EN (ITA), o viceversa. Es. Address (indirizzo), o indirizzo (Address).
 
-- Un'altra buona soluzione è quella di mantenere la parola/frase originale inglese, quindi **creare un collegamento ipertestuale** che reindirizzi al [glossario](https://planb.network/en/resources/glossary) su planb.network. Per far questo è necessario inserire la parola/frase all'interno di parentesi quadre e il link all'interno di parentesi tonde, come vedi nell'esempio seguente:
+- Un'altra buona soluzione è quella di mantenere la parola/frase originale inglese, quindi **creare un collegamento ipertestuale** che reindirizzi al [glossario](https://planb.academy/en/resources/glossary) su planb.network. Per far questo è necessario inserire la parola/frase all'interno di parentesi quadre e il link all'interno di parentesi tonde, come vedi nell'esempio seguente:
 
 ```
-[UTXO](https://planb.network/resources/glossary/utxo)
+[UTXO](https://planb.academy/resources/glossary/utxo)
 ```
 Nel risultato finale (immagine sotto) il link non è visualizzato e la parola diventa cliccabile.
 
 ![REVIEW](assets/en/5.webp)
 
-Ti chiedo di tenere presente che il link al glossario che prenderai dal sito web, contiene il codice della lingua dopo la parola "network" (esempio: `https://planb.network/en/resources/glossary/utxo`-> qui puoi leggere il codice della lingua "en"). In questo caso **rimuovi il codice della lingua dal link**, come hai visto nel riquadro qui sopra. In questo modo il sistema porterà automaticamente il lettore alla lingua che ha già scelto.
+Ti chiedo di tenere presente che il link al glossario che prenderai dal sito web, contiene il codice della lingua dopo la parola "network" (esempio: `https://planb.academy/en/resources/glossary/utxo`-> qui puoi leggere il codice della lingua "en"). In questo caso **rimuovi il codice della lingua dal link**, come hai visto nel riquadro qui sopra. In questo modo il sistema porterà automaticamente il lettore alla lingua che ha già scelto.
 
 I contenuti del repository sono pieni di link come questi. Ora che sai cosa significano, **accertati di non cancellarne nessuno** inserito dall'autore originale, durante il tuo proofreading.
 
-- Un'altra cosa legata alla visualizzazione delle parole questa: se nel testo trovi "Plan ₿ Network", **lascialo nella forma originale**. Non tradurre la parola "plan" o la parola "network". Inoltre, NON utilizzare l'articolo "Il" quando si presenta Plan ₿ Network: **consideralo come un marchio**.
+- Un'altra cosa legata alla visualizzazione delle parole questa: se nel testo trovi "Plan ₿ Academy", **lascialo nella forma originale**. Non tradurre la parola "plan" o la parola "network". Inoltre, NON utilizzare l'articolo "Il" quando si presenta Plan ₿ Academy: **consideralo come un marchio**.
 
 - Lo stesso vale per "₿-CERT", "BIZ SCHOOL", "TECH SCHOOL", che dovrebbero essere conservati nella forma originale.
 
@@ -188,7 +188,7 @@ Di conseguenza, controlla sempre due volte tutti i collegamenti ipertestuali nel
 
 ![REVIEW](assets/en/16.webp)
 
-- Restando in tema, se l'autore inserisce un link che rimanda a un corso o a un tutorial di Plan ₿ Network (**non** tra parentesi), il sito web creerà automaticamente una "scheda" che mostra la relativa miniatura. Di conseguenza, assicurati sempre di **aggiungere una riga vuota tra il testo e il link stesso**, altrimenti potresti vedere il seguente errore sul sito.
+- Restando in tema, se l'autore inserisce un link che rimanda a un corso o a un tutorial di Plan ₿ Academy (**non** tra parentesi), il sito web creerà automaticamente una "scheda" che mostra la relativa miniatura. Di conseguenza, assicurati sempre di **aggiungere una riga vuota tra il testo e il link stesso**, altrimenti potresti vedere il seguente errore sul sito.
 
 ![REVIEW](assets/en/17.webp)
 

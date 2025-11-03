@@ -227,4 +227,4 @@ Imagine writing to our user `EBC5604D9386E594CCC32943A03F96A96687FBD46788F1CD4F3
 If you've enjoyed discovering Tox and have been able to understand how it's useful for strengthening your privacy, please feel free to give this tutorial a thumbs-up. We also recommend our tutorial on Simple Login, a tool that lets you receive and send e-mails anonymously.
 
 
-https://planb.network/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
+https://planb.academy/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41

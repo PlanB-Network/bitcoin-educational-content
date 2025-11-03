@@ -1,6 +1,6 @@
 ---
 name: Educatieve hulpmiddelen toevoegen
-description: Hoe voeg je nieuw onderwijsmateriaal toe op PlanB Network?
+description: Hoe voeg je nieuw onderwijsmateriaal toe op Plan ₿ Academy?
 ---
 ![event](assets/cover.webp)
 
@@ -8,13 +8,13 @@ description: Hoe voeg je nieuw onderwijsmateriaal toe op PlanB Network?
 De missie van PlanB is om toonaangevende educatieve bronnen aan te bieden op Bitcoin, in zoveel mogelijk talen. Alle inhoud die op de site wordt gepubliceerd is open-source en wordt gehost op GitHub, waardoor iedereen kan deelnemen aan het verrijken van het platform.
 
 
-Naast tutorials en training biedt PlanB Network ook een uitgebreide bibliotheek aan met gevarieerde educatieve inhoud over Bitcoin, toegankelijk voor iedereen, [in de "BET" (_Bitcoin Educational Toolkit_) sectie](https://planb.network/resources/bet). Deze database bevat educatieve posters, memes, humoristische propagandaposters, technische diagrammen, logo's en andere hulpmiddelen voor gebruikers. Het doel van dit initiatief is om individuen en gemeenschappen die wereldwijd Bitcoin onderwijzen te ondersteunen door hen te voorzien van de nodige visuele middelen.
+Naast tutorials en training biedt Plan ₿ Academy ook een uitgebreide bibliotheek aan met gevarieerde educatieve inhoud over Bitcoin, toegankelijk voor iedereen, [in de "BET" (_Bitcoin Educational Toolkit_) sectie](https://planb.academy/resources/bet). Deze database bevat educatieve posters, memes, humoristische propagandaposters, technische diagrammen, logo's en andere hulpmiddelen voor gebruikers. Het doel van dit initiatief is om individuen en gemeenschappen die wereldwijd Bitcoin onderwijzen te ondersteunen door hen te voorzien van de nodige visuele middelen.
 
 
 Wil je meewerken aan het verrijken van deze database, maar weet je niet hoe? Dan is deze tutorial voor jou!
 
 
-*Het is noodzakelijk dat alle inhoud die in de site wordt geïntegreerd vrij is van rechten of de licentie van het bronbestand respecteert. Alle visuals gepubliceerd op PlanB Network zijn beschikbaar onder de [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) licentie.*
+*Het is noodzakelijk dat alle inhoud die in de site wordt geïntegreerd vrij is van rechten of de licentie van het bronbestand respecteert. Alle visuals gepubliceerd op Plan ₿ Academy zijn beschikbaar onder de [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) licentie.*
 
 ![event](assets/01.webp)
 
@@ -22,7 +22,7 @@ Wil je meewerken aan het verrijken van deze database, maar weet je niet hoe? Dan
 - Eerst moet je een account hebben op GitHub. Als je niet weet hoe je een account aanmaakt, hebben we een gedetailleerde tutorial gemaakt om je te begeleiden.
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -37,7 +37,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![event](assets/03.webp)
 
 
-- Als je nog nooit hebt bijgedragen aan de inhoud van PlanB Network, zul je een fork van de originele repository moeten maken. Een repository forken betekent dat je een kopie van die repository maakt op je eigen GitHub account, waarmee je aan het project kunt werken zonder de originele repository te beïnvloeden. Klik op de knop `Fork this repository`:
+- Als je nog nooit hebt bijgedragen aan de inhoud van Plan ₿ Academy, zul je een fork van de originele repository moeten maken. Een repository forken betekent dat je een kopie van die repository maakt op je eigen GitHub account, waarmee je aan het project kunt werken zonder de originele repository te beïnvloeden. Klik op de knop `Fork this repository`:
 
 ![event](assets/04.webp)
 
@@ -80,10 +80,10 @@ Hier zijn de gegevens die je voor elk veld moet invullen:
 
 
 
-- `project`: Geef de identificatiecode van je organisatie op PlanB Network aan. Als je nog geen "project" identificatiecode hebt voor je bedrijf, kun je er een aanmaken door deze tutorial te volgen.
+- `project`: Geef de identificatiecode van je organisatie op Plan ₿ Academy aan. Als je nog geen "project" identificatiecode hebt voor je bedrijf, kun je er een aanmaken door deze tutorial te volgen.
 
 
-https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
+https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 Als je er geen hebt, kun je gewoon je naam, je pseudoniem of de naam van je bedrijf gebruiken zonder een projectprofiel aan te maken.
 
@@ -119,7 +119,7 @@ Je YAML-bestand zou er bijvoorbeeld zo uit kunnen zien:
 
 
 ```yaml
-project: PlanB-Network
+project: Plan ₿ Academy
 type: Educational Content
 links:
 download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
@@ -136,7 +136,7 @@ view:
 ![event](assets/13.webp)
 - Click on your GitHub profile picture at the top right, then on `Your Repositories`:
 ![event](assets/14.webp)
-- Select your fork of the PlanB Network repository:
+- Select your fork of the Plan ₿ Academy repository:
 ![event](assets/15.webp)
 - You should see a notification at the top of the window with your new branch. It is probably called `patch-1`. Click on it:
 ![event](assets/16.webp)
@@ -153,7 +153,7 @@ view:
 - Leave the commit title as default, and make sure the `Commit directly to the patch-1 branch` box is checked, then click on `Commit changes`: ![event](assets/23.webp)
 - Return to the `assets` folder: ![event](assets/24.webp)
 - Click on the `Add file` button, then on `Upload files`: ![event](assets/25.webp)
-- A new page will open. Drag and drop a thumbnail that represents your content into the area. This image will be displayed on the PlanB Network site: ![event](assets/26.webp)
+- A new page will open. Drag and drop a thumbnail that represents your content into the area. This image will be displayed on the Plan ₿ Academy site: ![event](assets/26.webp)
 - It can be a preview, a logo, or an icon: ![event](assets/27.webp)
 - Once the image is uploaded, make sure the `Commit directly to the patch-1 branch` box is checked, then click on `Commit changes`: ![event](assets/28.webp)
 - Be careful, your image must be named `logo` and must be in `.webp` format. The full file name should therefore be: `logo.webp`: ![event](assets/29.webp)
@@ -231,7 +231,7 @@ https://github.com/DiscoverBitcoin/Bitcoin-educational-content/blob/dev/resource
 
 ```
 
-Wat we hier doen is het toekomstige link naar je bestand voorspellen, nadat je voorstel is samengevoegd (merged) met de bronrepository van het PlanB Network.
+Wat we hier doen is het toekomstige link naar je bestand voorspellen, nadat je voorstel is samengevoegd (merged) met de bronrepository van het Plan ₿ Academy.
 
 - Ga terug naar je `bet.yml` bestand en klik op het potloodpictogram:
 ![event](assets/47.webp)
@@ -259,9 +259,9 @@ Wat we hier doen is het toekomstige link naar je bestand voorspellen, nadat je v
 
 - Klik op de knop `Create pull request`:
 ![event](assets/55.webp)
-Gefeliciteerd! Je PR is succesvol aangemaakt. Een beheerder zal het nu beoordelen en, als alles in orde is, het samenvogen met de hoofdrepository van het PlanB Network. Je zou je BET een paar dagen later op de website moeten zien verschijnen.
+Gefeliciteerd! Je PR is succesvol aangemaakt. Een beheerder zal het nu beoordelen en, als alles in orde is, het samenvogen met de hoofdrepository van het Plan ₿ Academy. Je zou je BET een paar dagen later op de website moeten zien verschijnen.
 
-Zorg ervoor dat je de voortgang van je PR volgt. Een beheerder kan een opmerking plaatsen met een verzoek om aanvullende informatie. Zolang je PR niet is gevalideerd, kun je het raadplegen in het tabblad "Pull requests" in de PlanB Network GitHub repository:
+Zorg ervoor dat je de voortgang van je PR volgt. Een beheerder kan een opmerking plaatsen met een verzoek om aanvullende informatie. Zolang je PR niet is gevalideerd, kun je het raadplegen in het tabblad "Pull requests" in de Plan ₿ Academy GitHub repository:
 
 ![event](assets/56.webp)
 

@@ -6,7 +6,7 @@ description: Uko wokora mudasobwa ntoyi, ifise umwuka, idahenda cane ukoresheje 
 
 
 
-Niba umaze igihe uri kuri paji za Plan ₿ Network, waramaze kumenya ko kimwe mu bintu vy’umutekano bivugwa cane, hafi y’uko ari ngombwa, **ari ugucungera amahera biciye mu kubika imfunguruzo zawe z’ibanga ata murongo**.
+Niba umaze igihe uri kuri paji za Plan ₿ Academy, waramaze kumenya ko kimwe mu bintu vy’umutekano bivugwa cane, hafi y’uko ari ngombwa, **ari ugucungera amahera biciye mu kubika imfunguruzo zawe z’ibanga ata murongo**.
 
 
 
@@ -14,7 +14,7 @@ Niba utarabibona, muri iyi nyigisho yose uzosangamwo amahuza ku bikoresho vy’i
 
 
 
-Kugira rero umuntu ashobore gucungera imfunguruzo z’ibanga atari mu murongo, arakenera igikoresho kidakorana n’urubuga ubudasiba, haba ari [Hardware Wallet](https://planb.network/resources/glossary/hardware-wallet) canke mudasobwa ifise ikirere, yihariye gukora iyo nzira yihariye.
+Kugira rero umuntu ashobore gucungera imfunguruzo z’ibanga atari mu murongo, arakenera igikoresho kidakorana n’urubuga ubudasiba, haba ari [Hardware Wallet](https://planb.academy/resources/glossary/hardware-wallet) canke mudasobwa ifise ikirere, yihariye gukora iyo nzira yihariye.
 
 
 
@@ -500,7 +500,7 @@ Mu Wallets nzi neza, imwe gusa itanga isohoka ry’ibice 32 ni Electrum. Erega: 
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-airgap-62b5a4c6-a221-4d41-9a62-4618c53d8223
+https://planb.academy/tutorials/wallet/desktop/electrum-airgap-62b5a4c6-a221-4d41-9a62-4618c53d8223
 
 ## Insozero
 

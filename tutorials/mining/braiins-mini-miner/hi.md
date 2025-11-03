@@ -6,7 +6,7 @@ description: घर से आसानी से Mining बनाना।
 
 
 
-### परिचय
+## परिचय
 
 
 
@@ -18,7 +18,7 @@ description: घर से आसानी से Mining बनाना।
 
 
 
-### बीएमएम 100 का अवलोकन
+## बीएमएम 100 का अवलोकन
 
 
 
@@ -46,7 +46,7 @@ description: घर से आसानी से Mining बनाना।
 
 
 
-### मिनी Miner को जोड़ना
+## मिनी Miner को जोड़ना
 
 
 
@@ -54,7 +54,7 @@ description: घर से आसानी से Mining बनाना।
 
 
 
-### विन्यास
+## विन्यास
 
 
 
@@ -74,7 +74,7 @@ description: घर से आसानी से Mining बनाना।
 
 
 
-### सामान्य सेटिंग्स
+## सामान्य सेटिंग्स
 
 
 
@@ -110,7 +110,7 @@ description: घर से आसानी से Mining बनाना।
 
 
 
-### Mining pool से कनेक्शन
+## Mining pool से कनेक्शन
 
 
 
@@ -134,15 +134,15 @@ description: घर से आसानी से Mining बनाना।
 
 
 
-https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
+https://planb.academy/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
 
 दूसरा विकल्प हमें Mining pool से जोड़ना है जो सोलो में मीना है, जैसे पब्लिक पूल, ऐसा करने के लिए इस गाइड का पालन करें:
 
 
 
-https://planb.network/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-#### ब्रेन्स पूल
+### ब्रेन्स पूल
 
 
 
@@ -150,7 +150,7 @@ https://planb.network/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1
 
 
 
-https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
+https://planb.academy/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
 
 एक बार जब यह हो जाता है तो हम ब्रेन्स पूल डैशबोर्ड में होते हैं। हमें जो करना है वह यह है कि पूल को बताएं कि हम अपने किसी माइनर से जुड़ना चाहते हैं, इसलिए स्क्रीन के बाईं ओर आपको कई प्रविष्टियाँ मिलेंगी। हमें "वर्कर्स" पर जाना होगा।
 
@@ -168,7 +168,7 @@ https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a
 
 
 
-यहाँ वह विंडो आती है जिसमें वह जानकारी होती है जिसकी हमें अपने मिनी Miner को पूल से जोड़ने के लिए आवश्यकता होती है। यहाँ हम केवल एक ही बदलाव कर सकते हैं, वह है स्ट्रैटम V2 चुनना। स्ट्रैटम v2 क्या है, यह जानने के लिए [शब्दावली](https://planb.network/en/resources/glossary/stratum-v2) में यह प्रविष्टि देखें।
+यहाँ वह विंडो आती है जिसमें वह जानकारी होती है जिसकी हमें अपने मिनी Miner को पूल से जोड़ने के लिए आवश्यकता होती है। यहाँ हम केवल एक ही बदलाव कर सकते हैं, वह है स्ट्रैटम V2 चुनना। स्ट्रैटम v2 क्या है, यह जानने के लिए [शब्दावली](https://planb.academy/en/resources/glossary/stratum-v2) में यह प्रविष्टि देखें।
 
 
 
@@ -236,7 +236,7 @@ https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a
 
 
 
-#### सार्वजनिक पूल
+### सार्वजनिक पूल
 
 
 

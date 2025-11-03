@@ -75,7 +75,7 @@ Bitcoin keerulisel juhtimismaastikul navigeerimine nõuab enamat kui tehnilisi t
 Kas olete valmis astuma järgmise sammu oma Bitcoin teekonnal? Alustame!
 
 
-***N.B.**: Kui kursuse käigus tekib mõni Bitcoin-ga seotud tundmatu termin, vaadake [sõnastik](https://planb.network/resources/glossary), et leida definitsioonid.*
+***N.B.**: Kui kursuse käigus tekib mõni Bitcoin-ga seotud tundmatu termin, vaadake [sõnastik](https://planb.academy/resources/glossary), et leida definitsioonid.*
 
 
 
@@ -154,7 +154,7 @@ Kui see õnnestub, tulevad samad probleemid tõenäoliselt mingil hetkel tulevik
 Ükski neist võimalustest ei ole kasutajale kasulik.
 
 
-Tsensuurikindlus detsentraliseerimise kaudu on see, mis eristab Bitcoin teistest rahasüsteemidest, kuid *Double-spending probleemi* tõttu ei ole seda lihtne saavutada. See on probleem, mis seisneb selles, et keegi ei saa sama münti kaks korda kulutada, probleem, mida paljud inimesed arvasid, et detsentraliseeritult on võimatu lahendada. Satoshi Nakamoto kirjutab oma [Bitcoin whitepaperis](https://planb.network/bitcoin.pdf) sellest, kuidas lahendada Double-spending probleem:
+Tsensuurikindlus detsentraliseerimise kaudu on see, mis eristab Bitcoin teistest rahasüsteemidest, kuid *Double-spending probleemi* tõttu ei ole seda lihtne saavutada. See on probleem, mis seisneb selles, et keegi ei saa sama münti kaks korda kulutada, probleem, mida paljud inimesed arvasid, et detsentraliseeritult on võimatu lahendada. Satoshi Nakamoto kirjutab oma [Bitcoin whitepaperis](https://planb.academy/bitcoin.pdf) sellest, kuidas lahendada Double-spending probleem:
 
 
 > Käesolevas dokumendis pakume välja lahenduse Double-spending probleemile, kasutades võrdõiguslikust jaotatud Timestamp serveriga generate tehingute kronoloogilise järjestuse arvutuslikku tõestamist.
@@ -652,7 +652,7 @@ Isikuandmete avalikustamise riski vähendamiseks ei tohi neid üldse välja anda
 Artiklis soovitatakse vältida KYC/AMLi nõudvate börside kasutamist ja selle asemel kaubelda privaatselt või kasutada detsentraliseeritud börse nagu [bisq](https://bisq.network/).
 
 
-https://planb.network/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+https://planb.academy/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 Vastumeetmete kohta põhjalikumat teavet leiate eelnevalt mainitud [privaatsust käsitlevast wikiartiklist](https://en.Bitcoin.it/wiki/Privacy#Methods_for_improving_privacy_.28non-Blockchain.29), alustades punktist "Meetodid privaatsuse parandamiseks (mitte-Blockchain)".
 

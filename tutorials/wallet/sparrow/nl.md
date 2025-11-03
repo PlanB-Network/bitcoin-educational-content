@@ -41,7 +41,7 @@ Ga naar [de officiële Sparrow wallet downloadpagina] (https://sparrowwallet.com
 Het is belangrijk om de integriteit en authenticiteit van de software te controleren voordat je het installeert. Als je niet weet hoe je dit moet doen, vind je hier een volledige handleiding:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Zodra Sparrow geïnstalleerd is, kun je de eerste uitlegschermen overslaan en direct naar het verbindingsmanagementscherm gaan.
 
@@ -110,9 +110,9 @@ Merk op dat als je een pruned Bitcoin core node gebruikt, je een Wallet met tran
 Om een Bitcoin core node te configureren, kunt u een van de volgende tutorials raadplegen, afhankelijk van uw besturingssysteem:
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
 Ga op Sparrow naar het tabblad "*Bitcoin core*".
 
@@ -317,7 +317,7 @@ Je kunt het op papier graveren of, voor extra veiligheid, op roestvrij staal om 
 Voor meer informatie over de juiste manier om je Mnemonic zin op te slaan en te beheren, raad ik je aan deze andere tutorial te volgen, vooral als je een beginner bent:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ![Image](assets/fr/26.webp)
 
@@ -328,7 +328,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 Je kunt er ook voor kiezen om een passphrase BIP39 toe te voegen door te klikken op het vakje "*Gebruik passphrase*". Waarschuwing: het gebruik van een passphrase kan erg nuttig zijn, maar als je niet begrijpt hoe het werkt, kan het erg riskant zijn. Daarom raad ik je sterk aan om dit korte theoretische artikel over dit onderwerp te lezen:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Zodra je je Mnemonic en passphrase op een fysiek medium hebt opgeslagen, klik je op "*Confirm Backup*".
 
@@ -381,7 +381,7 @@ Er zijn twee manieren om uw Hardware Wallet op de Sparrow aan te sluiten:
 Sparrow ondersteunt al deze communicatiemethoden en is compatibel met de meeste hardware wallets op de markt.
 
 
-Voor deze tutorial gebruik ik een Ledger Nano S met een kabel, maar de procedure is vergelijkbaar in Air-Gap modus. Specifieke details voor je Hardware Wallet vind je in de speciale tutorial over Plan ₿ Network.
+Voor deze tutorial gebruik ik een Ledger Nano S met een kabel, maar de procedure is vergelijkbaar in Air-Gap modus. Specifieke details voor je Hardware Wallet vind je in de speciale tutorial over Plan ₿ Academy.
 
 
 Voordat je begint, moet je ervoor zorgen dat de Wallet al is geconfigureerd op je Hardware Wallet. Als je een bekabelde verbinding gebruikt, sluit hem dan via de kabel aan op je computer.
@@ -474,7 +474,7 @@ Als je een Hardware Wallet gebruikt, is het heel belangrijk om de Address op het
 ![Image](assets/fr/44.webp)
 
 
-Voor Hardware Wallet Air-Gap gebruikers varieert de Address verificatie per apparaatmodel. Zie de speciale Plan ₿ Network handleiding voor precieze instructies.
+Voor Hardware Wallet Air-Gap gebruikers varieert de Address verificatie per apparaatmodel. Zie de speciale Plan ₿ Academy handleiding voor precieze instructies.
 
 
 Zodra de transactie is uitgezonden door de betaler, zie je deze verschijnen in het tabblad "*Transacties*". Je kunt erop klikken voor meer details, zoals de txid.
@@ -555,7 +555,7 @@ Dit brengt je naar een pagina met de Elements van je transactie. Controleer of a
 Het is belangrijk om de standaard Sighash te behouden. Om te begrijpen waarom, bekijk deze training, waarin ik alles uitleg wat je moet weten over Sighash:
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 Op het volgende scherm variëren de opties afhankelijk van het type Wallet dat u gebruikt:
 
@@ -671,4 +671,4 @@ Als je deze tutorial nuttig vond, zou ik je erg dankbaar zijn als je hieronder e
 Ik raad ook deze andere tutorial aan, waarin ik uitleg hoe je de Hardware Wallet COLDCARD Q met Sparrow wallet kunt configureren:
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3

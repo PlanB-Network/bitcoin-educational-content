@@ -98,7 +98,7 @@ En la ventana que aparece, encontrarás campos para "rellenar": elige el botón 
 Puede encontrar la guía de Sparrow wallet para descargar este Software Wallet
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 A continuación, puedes transferir el archivo `.apk` de tu ordenador a tu teléfono
 
@@ -276,7 +276,7 @@ Dale un nombre a tu tecla y pulsa _Continuar_.
 
 
 
-Al final de estos pasos, se le preguntará si desea añadir una [passphrase](https://planb.network/en/resources/glossary/passphrase-bip39) a su frase Mnemonic. Si no tienes los conocimientos necesarios sobre cómo utilizar passphrase, organizar su copia de seguridad o cómo funciona, te recomiendo que elijas _No necesito una frase_.
+Al final de estos pasos, se le preguntará si desea añadir una [passphrase](https://planb.academy/en/resources/glossary/passphrase-bip39) a su frase Mnemonic. Si no tienes los conocimientos necesarios sobre cómo utilizar passphrase, organizar su copia de seguridad o cómo funciona, te recomiendo que elijas _No necesito una frase_.
 
 
 
@@ -394,7 +394,7 @@ Se encuentra en _Home_, donde se le muestra la Wallet recién creada informando 
 
 
 - El icono de la lente en la esquina superior derecha le permite realizar una búsqueda de transacciones;
-- `View Wallet config` da acceso al menú de configuración, donde se puede editar el nombre de la Wallet y activar las opciones avanzadas, arriba a la derecha (de las que no se pueden obtener capturas de pantalla). Aquí puedes exportar la configuración de la Wallet, etiquetas, reemplazar teclas, cambiar el [gap limit](https://planb.network/en/resources/glossary/gap-limit) y más.
+- `View Wallet config` da acceso al menú de configuración, donde se puede editar el nombre de la Wallet y activar las opciones avanzadas, arriba a la derecha (de las que no se pueden obtener capturas de pantalla). Aquí puedes exportar la configuración de la Wallet, etiquetas, reemplazar teclas, cambiar el [gap limit](https://planb.academy/en/resources/glossary/gap-limit) y más.
 
 
 

@@ -11,7 +11,7 @@ description: LNP2PBot ve P2P Bitcoin ticareti için eksiksiz kılavuz
 KYC içermeyen eşler arası (P2P) borsalar, kullanıcıların gizliliğini ve finansal özerkliğini korumak için çok önemlidir. Kimlik doğrulamasına ihtiyaç duymadan bireyler arasında doğrudan işlem yapılmasını sağlarlar ki bu da gizliliğe önem verenler için çok önemlidir. Teorik kavramları daha derinlemesine anlamak için BTC204 kursuna bir göz atın:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 Bitcoin eşler arası (P2P) alım satımı, bitcoin edinmenin veya elden çıkarmanın en özel yöntemlerinden biridir. LNP2PBot, P2P'te Lightning Network değişimlerini kolaylaştıran, hızlı, düşük maliyetli, KYC içermeyen işlemler sağlayan açık kaynaklı bir Telegram botudur.
 
@@ -71,7 +71,7 @@ Uyumlu bir Lightning Wallet kurarak başlayın. İşte ayrıntılı önerilerimi
 Aşağıda bu Wallet için öğretici bağlantı bulunmaktadır:
 
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
 
 - [Phoenix](https://phoenix.acinq.co) :
@@ -85,7 +85,7 @@ https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4
 Aşağıda bu Wallet için eğitim linki bulunmaktadır:
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 
 - [Blixt](https://blixtwallet.github.io) :
@@ -99,7 +99,7 @@ https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 Aşağıda bu Wallet için eğitim linki bulunmaktadır:
 
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
 **Diğer cüzdanlar hakkında önemli notlar**
 

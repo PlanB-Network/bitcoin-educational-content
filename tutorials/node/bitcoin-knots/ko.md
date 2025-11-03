@@ -47,7 +47,7 @@ Bitcoin Knots 공식 웹사이트](https://bitcoinknots.org/#download)로 이동
 컴퓨터에 소프트웨어를 설치하기 전에 소프트웨어의 진위 여부와 무결성을 확인하는 것이 좋습니다. 방법을 모른다면 다른 튜토리얼을 참조하세요:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 소프트웨어가 확인되면 설치 패널에 표시된 단계에 따라 소프트웨어를 설치합니다.
 
 
@@ -173,7 +173,7 @@ Wallet에 이름을 지정하세요. "*Wallet 암호화*"를 클릭하여 passph
 passphrase BIP39는 Mnemonic 문구 외에 자유롭게 선택할 수 있는 옵션 암호로, Wallet의 보안을 강화하기 위해 사용할 수 있습니다. 이 기능을 구성하기 전에 passphrase의 이론적 작동 방식과 비트코인의 영구적 손실로 이어질 수 있는 실수를 방지하는 방법을 자세히 설명하는 다음 문서를 읽어보시기 바랍니다:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 passphrase 옵션을 활성화한 경우, 강력한 옵션을 선택하고 하나 이상의 안전한 물리적 미디어에 신중하게 저장하세요.
 
 
@@ -407,4 +407,4 @@ rpcpassword=my_password
 나만의 라이트닝 노드를 설정하는 방법을 설명하는 이 다른 튜토리얼도 추천합니다:
 
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a

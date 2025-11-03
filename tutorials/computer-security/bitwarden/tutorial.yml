@@ -31,7 +31,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.47
+    reward: 6.48
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -42,7 +42,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - AgoesRichie
-    reward: 2.7
+    reward: 2.71
   - language: cs
     last_contribution_date:
     urgency: 1
@@ -72,7 +72,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.41
+    reward: 5.42
   - language: it
     last_contribution_date:
     urgency: 1
@@ -82,7 +82,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.47
+    reward: 6.48
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -92,7 +92,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.53
+    reward: 7.54
   - language: pl
     last_contribution_date:
     urgency: 1
@@ -103,7 +103,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - Sanja22B
-    reward: 2.17
+    reward: 2.18
   - language: sw
     last_contribution_date:
     urgency: 1
@@ -113,7 +113,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.41
+    reward: 5.42
   - language: fa
     last_contribution_date:
     urgency: 1
@@ -133,17 +133,17 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.41
+    reward: 5.42
   - language: ko
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.35
+    reward: 5.42
   - language: rn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.47
+    reward: 6.48
 tags:
   - guides
   - personal-security

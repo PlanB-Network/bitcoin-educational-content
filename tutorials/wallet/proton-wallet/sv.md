@@ -20,7 +20,7 @@ Specialfunktionen i denna Wallet är möjligheten att skicka bitcoins med hjälp
 För att använda Proton Wallet behöver du ett Proton-konto. Du kan skapa ett gratis genom att följa de första stegen i denna handledning som är avsedd för att skapa en Proton-brevlåda (endast avsnittet "* Skapa ett Proton-konto*"). När ditt konto har konfigurerats kan du fortsätta med resten av denna handledning.
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Anslut till Proton Wallet
 
@@ -100,7 +100,7 @@ Du kan skriva det på ett papper, eller för extra säkerhet rekommenderar jag a
 För mer information om det rätta sättet att spara och hantera din Mnemonic-fras rekommenderar jag starkt att du följer den här andra handledningen, särskilt om du är nybörjare:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 du ska naturligtvis aldrig ta en bild av dessa ord, till skillnad från vad jag gör i den här handledningen
 
@@ -141,7 +141,7 @@ Det är här du kan lägga till en BIP39 passphrase till en ny Wallet.
 För att fördjupa dina kunskaper om passphrase rekommenderar jag den här handledningen:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ## Ta emot bitcoins
 
@@ -239,4 +239,4 @@ Gratulerar, du vet nu hur du ställer in och använder Proton Wallet. Om du tyck
 Om du vill gå längre rekommenderar jag den här handledningen om Jade Plus, Blockstreams senaste Hardware Wallet:
 
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262

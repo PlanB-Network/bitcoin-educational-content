@@ -6,11 +6,12 @@ author: pretty-private
 original_language: fr
 proofreading:
   - language: fr
-    last_contribution_date: 2024-11-16
+    last_contribution_date: '2025-10-31'
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 0.09
+      - GLwxc
+    reward: 0.04
   - language: cs
     last_contribution_date:
     urgency: 1
@@ -131,7 +132,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.21
+    reward: 0.23
   - language: rn
     last_contribution_date:
     urgency: 1

@@ -4,7 +4,7 @@ description: Jinsi ya kusanidi BitAxe?
 
 ---
 ![video](https://youtu.be/tvLSK8v0MK8)
-### Utangulizi
+## Utangulizi
 
 
 BitAxe ni mradi wa programu huria ulioundwa na Skot na [unapatikana kwenye GitHub](https://github.com/skot/bitaxe) unaoruhusu majaribio ya gharama nafuu ya Mining.
@@ -26,7 +26,7 @@ Kuna matoleo kadhaa ya BitAxe, yenye chips tofauti na maonyesho:
 Katika somo hili, tutakuwa tukitumia BitAxe Ultra 204 iliyo na chipu ya BM1366, inayotumika kwa Antminer S19XP. Hii tayari imekusanywa na kuangaza na muuzaji.
 
 
-### [Orodha ya wauzaji reja reja inapatikana kwenye ukurasa huu](https://bitaxe.org/legit.html)
+[Orodha ya wauzaji inapatikana kwenye ukurasa huu](https://bitaxe.org/legit.html)
 
 
 ![signup](assets/2.webp)
@@ -38,7 +38,7 @@ Kwa ujumla, nguvu ya Supply inauzwa nayo. Ikiwa sivyo, utahitaji kununua nguvu y
 ![signup](assets/1.webp)
 
 
-### Usanidi
+## Usanidi
 
 Unapochomeka BitAxe yako kwa mara ya kwanza, itajaribu kuunganisha kwa mtandao wa Wi-Fi kwa chaguomsingi. Baada ya jaribio tano, itaonyesha jina la mtandao wake wa Wi-Fi ili uweze kuunganisha nayo na kuisanidi.
 
@@ -69,7 +69,7 @@ Kwa hiyo, onyesha SSID ya Wi-Fi, yaani, jina la mtandao wako, nenosiri, pamoja n
 Kama unavyoona kwenye skrini, unahitaji kuondoa sehemu za `stratum+tcp://` na `:3333`, ukiacha `eu.stratum.braiins.com` pekee. Kisha, katika sehemu ya `Bandari`, weka tarakimu 4 mwishoni mwa URL iliyotolewa na dimbwi, lakini bila `:`. Hapa, kwa hiyo ni `3333`.
 
 
-Katika somo hili, tunatumia Braiins Mining pool, lakini uko huru kuchagua jingine. Unaweza kupata mafunzo yetu kwenye mabwawa ya Mining [kwenye tovuti ya PlanB Network](https://planb.network/en/tutorials/mining).
+Katika somo hili, tunatumia Braiins Mining pool, lakini uko huru kuchagua jingine. Unaweza kupata mafunzo yetu kwenye mabwawa ya Mining [kwenye tovuti ya Plan ₿ Academy](https://planb.academy/en/tutorials/mining).
 
 
 Ifuatayo, katika `Mtumiaji`, weka kitambulisho chako kisha `Nenosiri`, kwa kawaida, ni `"x"` au `"Chochote123"`.
@@ -85,7 +85,7 @@ Ukishaingiza mipangilio yote kwa usahihi, bofya kitufe cha `Hifadhi` chini, kish
 
 Ikiwa umeingiza maelezo yako kwa usahihi, kifaa kinapaswa kuunganisha haraka kwenye Wi-Fi yako, kisha kwa Mining pool, na kuanza kuonyesha habari fulani kwenye skrini yake ndogo. Pengine itachukua dakika chache ndio ionekane kwenye dashibodi ya Mining pool.
 
-### Dashibodi na Skrini
+## Dashibodi na skrini
 
 
 Maonyesho matatu tofauti yatapitia. Kwenye ukurasa wa tatu, utaona maelezo ya `IP`, ambayo ni IP Address inayokuruhusu kuunganisha kwenye dashibodi. Hapa, Address ni `192.168.1.19`.

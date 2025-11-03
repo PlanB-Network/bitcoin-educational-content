@@ -645,7 +645,7 @@ Nigdy nie wystawiaj RTL bezpośrednio w Internecie. Daj pierwszeństwo :
 
 
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 ### Dobre praktyki bezpieczeństwa
 
@@ -695,7 +695,7 @@ Krótko mówiąc, RTL zapewnia pełną kontrolę nad węzłem Lightning w nowocz
 
 
 
-**Źródła :** Oficjalna strona RTL; RTL GitHub; Umbrel App Store; Społeczność Umbrel; Zasoby Plan B Network.
+**Źródła :** Oficjalna strona RTL; RTL GitHub; Umbrel App Store; Społeczność Umbrel; Zasoby Plan ₿ Academy.
 
 
 
@@ -703,4 +703,4 @@ Aby lepiej zrozumieć sposób działania Lightning Network, polecam również sk
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

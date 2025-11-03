@@ -41,7 +41,7 @@ Niezależnie od tego, czy reprezentujesz małe przedsiębiorstwo, czy dużą kor
 Gotowy do zanurzenia się w świecie Bitcoin dla firm? Do dzieła!
 
 
-**Uwaga**: Jeśli podczas kursu napotkasz nieznane terminy, sprawdź definicje w [słowniczku](https://planb.network/resources/glossary).
+**Uwaga**: Jeśli podczas kursu napotkasz nieznane terminy, sprawdź definicje w [słowniczku](https://planb.academy/resources/glossary).
 
 # Waluta, systemy płatności i Bitcoin
 
@@ -337,7 +337,7 @@ Bitcoin wzywa nas do ponownego rozważenia natury samego pieniądza. Czy mógłb
 Aby uzyskać więcej informacji na temat Bitcoin, jego historii, sposobu działania i zastosowania, sugeruję również skorzystanie z tego kompleksowego kursu:
 
 
-https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
+https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 ## Wprowadzenie do Lightning Network
 
@@ -440,7 +440,7 @@ Lightning Network jest idealny do płatności Bitcoin w sklepach fizycznych lub 
 Aby uzyskać więcej informacji na temat technicznego działania Lightning Network, sugeruję również skorzystanie z tego kompleksowego kursu:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 # Bitcoin w skarbie państwa
@@ -630,11 +630,11 @@ Myśliciele ci ukształtowali pogląd, że interwencja państwa zakłóca rynki 
 Więcej informacji na ten temat:
 
 
-https://planb.network/courses/d955dd28-b7c6-4ba2-a123-d932e21d148f
+https://planb.academy/courses/d955dd28-b7c6-4ba2-a123-d932e21d148f
 
-https://planb.network/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
+https://planb.academy/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
 
-https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
+https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
 ## Trzymanie Bitcoin w skarbcu
 
@@ -840,7 +840,7 @@ Ponieważ Bitcoin funkcjonuje jako nośnik Exchange, można wyobrazić sobie gos
 Wiąże się to z otrzymywaniem nagród za obsługę maszyn Mining. Dla niewyspecjalizowanych firm pozostaje to stosunkowo marginalne. Można w nim uczestniczyć za pośrednictwem pośredników, którzy sprzedają lub wynajmują komputery, sieć i obsługę techniczną. Jeśli jesteś właścicielem maszyn, możesz je zaksięgować jako aktywa podlegające amortyzacji. Na dużą skalę należy dokładnie obliczyć zwrot z inwestycji, ponieważ rynek jest wysoce konkurencyjny i wymaga dobrego przewidywania kosztów, zwłaszcza energii elektrycznej.
 
 
-Aby dowiedzieć się więcej o metodach Mining, możesz [zapoznać się z sekcją "Mining" w naszych samouczkach] (https://planb.network/tutorials/mining).
+Aby dowiedzieć się więcej o metodach Mining, możesz [zapoznać się z sekcją "Mining" w naszych samouczkach] (https://planb.academy/tutorials/mining).
 
 
 
@@ -852,11 +852,11 @@ Jest to zdecydowanie najpopularniejsza metoda, realizowana za pośrednictwem gie
 Aby dowiedzieć się, jak otworzyć konto firmowe i używać go do kupowania, sprzedawania i przesyłania bitcoinów, możesz zapoznać się z tymi dwoma samouczkami zaprojektowanymi specjalnie dla firm, obejmującymi platformy Kraken i Bitfinex w ich wersjach korporacyjnych:
 
 
-https://planb.network/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
+https://planb.academy/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
 
-https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
+https://planb.academy/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
 
-Aby dowiedzieć się więcej o metodach pozyskiwania bitcoinów za pośrednictwem Exchange lub peer-to-peer, możesz [zapoznać się z sekcją "Exchange" w naszych samouczkach](https://planb.network/tutorials/exchange).
+Aby dowiedzieć się więcej o metodach pozyskiwania bitcoinów za pośrednictwem Exchange lub peer-to-peer, możesz [zapoznać się z sekcją "Exchange" w naszych samouczkach](https://planb.academy/tutorials/exchange).
 
 
 ![BIZ101](assets/pl/012.webp)
@@ -1185,23 +1185,23 @@ Szczegółowe instrukcje dotyczące zalecanych portfeli i podstawowej konfigurac
 **Własne portfele/węzły LN:**
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.academy/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-501d-439c-8691-d4a0d0de459b
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-501d-439c-8691-d4a0d0de459b
 
 
 **Portfele LN:**
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
 
 ## The Essential
@@ -1248,19 +1248,19 @@ Chociaż profil Essential nie wymaga wysoce wyrafinowanych systemów księgowych
 Najbardziej odpowiednim rozwiązaniem hybrydowym dla Twojego profilu jest prawdopodobnie Swiss Bitcoin Pay:
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 
 Innym łatwym do wdrożenia rozwiązaniem, ale z wadą bycia w 100% powiernikiem, jest Open Node:
 
 
-https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 
 Jeśli jesteś gotowy, aby ubrudzić sobie ręce i chcesz mieć pełną kontrolę nad procesem, oprogramowanie BTCPay Server jest doskonałą opcją. Jednak główną wadą BTCPay Server jest to, że jego konfiguracja i zarządzanie są czasochłonne i wymagają pewnego poziomu wiedzy technicznej, ale możesz postępować zgodnie z naszymi przewodnikami:
 
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 
 Wreszcie, jako uzupełnienie fizycznych punktów sprzedaży, można rozważyć utworzenie [Bitcoinize PoS](https://bitcoinize.com/).
@@ -1317,7 +1317,7 @@ Jeśli chodzi o rzeczywiste przykłady, rozważmy średniej wielkości sklep e-c
 Aby zagłębić się w szczegóły implementacji i poznać praktyczne konfiguracje BTC Pay Server, zapoznaj się z poniższym kursem:
 
 
-https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
+https://planb.academy/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 
 
 ## The Enterprise
@@ -1674,7 +1674,7 @@ Jednak zwykły plik `.csv` zawierający historię transakcji jest często wystar
 Dla tych, którzy samodzielnie przechowują swoje Bitcoin, zarządzanie UTXO (*Unspent Transaction Outputs*) jest ważnym krokiem. Właściwe etykietowanie UTXO pomaga śledzić pochodzenie każdego fragmentu BTC, odróżniać transakcje związane z działalnością zawodową od tych związanych z wydatkami osobistymi oraz ułatwia śledzenie do celów prawnych lub podatkowych. Większość dobrych programów Bitcoin Wallet umożliwia importowanie Wallet przy użyciu pliku kopii zapasowej (lub xpub, w zależności od konfiguracji) i oznaczanie UTXO na podstawie ich pochodzenia lub przeznaczenia. Poniżej znajduje się kompletny samouczek poświęcony tej praktyce:
 
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Wreszcie, niezależnie od tego, czy jesteś małym sprzedawcą, czy bardziej ugruntowaną firmą, możliwe jest **rozliczenie Invoice w Bitcoin**. Kluczem jest odpowiednie udokumentowanie transakcji. Jeśli płacisz z własnego Wallet, idealnym rozwiązaniem jest generate transakcji z odnotowaniem numeru Invoice i celu płatności w etykietach. Jeśli wolisz rozliczyć Invoice za pośrednictwem Exchange, będziesz mieć również możliwość wyeksportowania pokwitowania lub historii transakcji w celu uwzględnienia ich w dokumentacji księgowej. Ta przejrzystość uprości śledzenie i raportowanie wszystkich operacji BTC.
 

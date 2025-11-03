@@ -721,7 +721,7 @@ Elliptiliste kõverate matemaatika lõplikel väljadel on analoogne reaalarvude 
 
 Kui soovite rohkem teada saada kaasaegse krüptograafia matemaatilistest alustest, soovitan samuti konsulteerida selle teise kursusega Plan ₿ võrgustikus:
 
-https://planb.network/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
+https://planb.academy/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 
 ## Avaliku võtme arvutamine privaatvõtmest
 
@@ -1115,7 +1115,7 @@ Kui see sighash-lipp integreeritakse Bitcoini, võimaldab see kasutada kovenanti
 
 Et süvendada oma teadmisi Lightningi Võrgust, pärast CYP201 kursust, soovitan väga LNP201 kursust Fanis Michalakise poolt, mis katab teema üksikasjalikult:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Järgmises osas pakun avastada, kuidas töötab teie Bitcoin rahakoti aluseks olev mnemooniline fraas.
 
@@ -1150,7 +1150,7 @@ See piirang tuleneb Bitcoini privaatsusmudelist. Sama aadressi korduva kasutamis
 
 Bitcoini privaatsusmudeli kohta lisateabe saamiseks ja oma privaatsuse kaitsmise meetodite avastamiseks soovitan samuti jälgida minu BTC204 kursust Plan ₿ võrgustikus:
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### HD Rahakotid (_Hierarchical Deterministic_)
 
@@ -1251,7 +1251,7 @@ $$
 
 ### Binaarjada Muundamine Mnemooniliseks Fraasiks
 
-Bittide jada $\text{ENT} \Vert \text{CS}$ jagatakse seejärel 11-bitisteks segmentideks. Iga 11-bitine segment, kui see on muundatud kümnendkohaks, vastab numbrile vahemikus 0 kuni 2047, mis määrab sõna positsiooni [2048 sõna standardiseeritud nimekirjas BIP39 poolt](https://github.com/Planb-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
+Bittide jada $\text{ENT} \Vert \text{CS}$ jagatakse seejärel 11-bitisteks segmentideks. Iga 11-bitine segment, kui see on muundatud kümnendkohaks, vastab numbrile vahemikus 0 kuni 2047, mis määrab sõna positsiooni [2048 sõna standardiseeritud nimekirjas BIP39 poolt](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
 ![CYP201](assets/en/042.webp)
 Näiteks 128-bitise entroopia korral on kontrollsumma 4 bitti, seega kogu jada mõõdab 132 bitti. See jagatakse 12 segmendiks, millest igaüks on 11 bitti (oranžid bitid tähistavad kontrollsummat):
@@ -1291,7 +1291,7 @@ Selle tulemusena ei paku 24-sõnalise fraasi valimine rahakotile lisakaitset, ku
 12-sõnaline fraas, mis pakub samuti 128-bitist turvalisust, on seega praegu piisav, et kaitsta teie bitcoine igasuguse varguskatse eest. Niikaua kui digitaalse allkirja algoritm ei muutu suuremate võtmete kasutamiseks või ei hakka sõltuma mõnest muust matemaatilisest probleemist peale ECDLP, jääb 24-sõnaline fraas üleliigseks. Pealegi suurendab pikem fraas kaotamise riski varundamise ajal: varukoopia, mis on kaks korda lühem, on alati lihtsamini hallatav.
 Et minna kaugemale ja õppida konkreetsemalt, kuidas käsitsi genereerida test-mnemoonilist fraasi, soovitan teil avastada seda õpetust:
 
-https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
+https://planb.academy/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
 
 Enne kui jätkame rahakoti tuletamist sellest mnemoonilisest fraasist, tutvustan teile järgmises peatükis BIP39 paroolilauset, kuna see mängib tuletamisprotsessis rolli ja on mnemoonilise fraasiga samal tasemel.
 ## Paroolilause

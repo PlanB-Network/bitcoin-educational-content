@@ -17,7 +17,7 @@ Ce tutoriel vidéo vous guide dans la mise en place et l'utilisation de Bitcoin 
 
 Pour voir le tutoriel complet pour le Bitcoin Keeper Wallet, voir le tutoriel ici :
 
-https://planb.network/tutorials/wallet/mobile/bitcoin-keeper-7f2a160b-10b6-4cc5-8820-514ee2eb1599
+https://planb.academy/tutorials/wallet/mobile/bitcoin-keeper-7f2a160b-10b6-4cc5-8820-514ee2eb1599
 
 Consultez ici d'autres liens pertinents :
 

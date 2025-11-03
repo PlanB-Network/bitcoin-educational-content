@@ -11,7 +11,7 @@ description: Bitcoin Radikalt enkel og kraftfull portefølje
 
 
 
-I denne opplæringen skal vi ta en titt på Blue Wallet, en enkel, men svært effektiv Bitcoin Wallet som lar deg administrere bitcoinsene dine personlig og også opprette forvaltningskooperativer basert på [Multisig] (https://planb.network/resources/glossary/multisig) (ikke bekymre deg, vi kommer tilbake til det).
+I denne opplæringen skal vi ta en titt på Blue Wallet, en enkel, men svært effektiv Bitcoin Wallet som lar deg administrere bitcoinsene dine personlig og også opprette forvaltningskooperativer basert på [Multisig] (https://planb.academy/resources/glossary/multisig) (ikke bekymre deg, vi kommer tilbake til det).
 
 
 
@@ -39,7 +39,7 @@ Når du har installert den, kan du opprette en ny Wallet og lagre de 12 gjenoppr
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Med Blue Wallet kan du opprette separate, dedikerte Bitcoin-porteføljer. Du kan for eksempel ha en Wallet for sparing og en annen for daglige utgifter, alt i samme program.
 
@@ -65,10 +65,10 @@ Hvis du er vant til andre Bitcoin-porteføljer som Phoenix eller Aqua, vil du ik
 
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
 Blue Wallets Bitcoin Wallet representerer standard Wallet i Bitcoin-økosystemet. Du kan bruke bitcoins så lenge du er i besittelse av gjenvinningsordene som gir en gyldig signatur på nettverket for å autentisere at du eier bitcoinsene.
 
@@ -122,7 +122,7 @@ Du kan derfor velge den transaksjonsavgiftsratioen som passer deg hvis du ønske
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ![feerate](assets/fr/06.webp)
 
@@ -220,7 +220,7 @@ Følg beste praksis ved å velge P2WSH-formatet.
 
 
 
-**[P2WSH] (https://planb.network/resources/glossary/p2wsh) eller Pay to Witness Script Hash** er en låsemetode som låser transaksjonens utgående bitcoins (Outputs) til Hash i et tilpasset skript som Blue Wallet setter opp. Den største fordelen med denne typen låsing er at den reduserer størrelsen på transaksjonsdataene og implisitt lar deg betale lavere transaksjonsgebyrer.
+**[P2WSH] (https://planb.academy/resources/glossary/p2wsh) eller Pay to Witness Script Hash** er en låsemetode som låser transaksjonens utgående bitcoins (Outputs) til Hash i et tilpasset skript som Blue Wallet setter opp. Den største fordelen med denne typen låsing er at den reduserer størrelsen på transaksjonsdataene og implisitt lar deg betale lavere transaksjonsgebyrer.
 
 
 
@@ -264,7 +264,7 @@ Når du validerer transaksjonen din, trenger du en andre signatur for å godkjen
 
 
 
-Den andre Wallet-signatøren, hvis han eller hun også er en bruker, kan signere transaksjonen selv om han eller hun ikke er på Internett (ingen Wi-Fi, ingen mobildata) ved å skanne QR-koden til den [delvis signerte transaksjonen] (https://planb.network/resources/glossary/psbt) du nettopp har opprettet.
+Den andre Wallet-signatøren, hvis han eller hun også er en bruker, kan signere transaksjonen selv om han eller hun ikke er på Internett (ingen Wi-Fi, ingen mobildata) ved å skanne QR-koden til den [delvis signerte transaksjonen] (https://planb.academy/resources/glossary/psbt) du nettopp har opprettet.
 
 
 
@@ -330,12 +330,12 @@ I Innstillinger > **Lightning-innstillinger** kan du manuelt koble til Lightning
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
-https://planb.network/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
+https://planb.academy/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
 
 Du har nå fullført den blå Wallet-turen og er klar til å bruke Bitcoin i all sin enkelhet og kraft. Vi anbefaler at du tar det neste steget og finner ut hvordan du kan akseptere Bitcoin-betalinger i butikkene dine, takket være kraften i Lightning.
 
 
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06

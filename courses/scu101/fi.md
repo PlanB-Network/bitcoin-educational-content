@@ -127,7 +127,7 @@ TOR on laillinen ja sitä käyttävät toimittajat, vapauden aktivistit ja muut,
 
 ![image](assets/fi/007.webp)
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ## VPN ja internet-yhteys
 
@@ -153,9 +153,9 @@ Kuitenkin kuluttajakäyttöön tarkoitetun VPN:n käyttäminen ei takaa täydell
 
 Lopuksi VPN:tä voidaan käyttää myös online-mainosten estämiseen, tarjoten nautinnollisemman ja turvallisemman selauskokemuksen. On kuitenkin tärkeää tehdä oma tutkimus löytääkseen VPN:n, joka parhaiten sopii omiin erityistarpeisiin. VPN:n käyttöä suositellaan turvallisuuden parantamiseksi, myös kotona internetiä selatessa. Tämä auttaa varmistamaan korkeamman turvallisuustason online-vaihdetulle datalle. Lopuksi, varmista tarkistaa URL-osoitteet ja pieni lukko osoiterivillä vahvistaaksesi, että olet sivustolla, jolla aiot vierailla.
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 ### HTTPS & julkiset Wi-Fi-verkot
 
@@ -267,9 +267,9 @@ EI, yleisesti ottaen hakkerien maksamista ei suositella lunasohjelmien tai muide
 
 Jos havaitset viruksen tietokoneellasi, katkaise yhteys internetiin, suorita täysi virustorjuntaskannaus ja poista tartunnan saaneet tiedostot. Sen jälkeen, päivitä ohjelmistosi ja käyttöjärjestelmäsi, ja vaihda salasanasi estääksesi lisäintruusiot.
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # Ratkaisujen toteuttaminen.
 
@@ -308,7 +308,7 @@ On suositeltavaa käyttää verkkosivustoa Have I Been Pwned (https://haveibeenp
 Yleisesti ottaen uuden, turvallisemman sähköpostiosoitteen käyttöönotto ei ole huono käytäntö ja jopa tarpeellista, jos haluaa aloittaa alusta terveellä pohjalla.
 Bonus Bitcoin: Saattaa olla suositeltavaa luoda erityinen sähköpostiosoite Bitcoin-toimintoihimme (vaihtotilien luominen) erottaaksemme todella elämämme toiminta-alueet toisistaan.
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Salasananhallintaohjelma
 
@@ -356,9 +356,9 @@ Vahvan salasanan luomiseksi suositellaan käyttämään suurta määrää satunn
 
 Satunnaisesti generoidut salasanat tarjoavat korkeamman turvallisuustason, vaikkakin ne saattavat olla vaikeampia muistaa. Salasanojen hallintajärjestelmät voivat generoida turvallisempia satunnaisia salasanoja. Salasanojen hallintajärjestelmää käyttämällä sinun ei tarvitse muistaa kaikkia salasanojasi. On tärkeää vaihtaa vanhat salasanasi vähitellen hallintajärjestelmän generoimiin, sillä ne ovat vahvempia ja pidempiä. Varmista, että salasanojen hallintajärjestelmäsi pääsalasana on myös vahva ja turvallinen.
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Kahden tekijän tunnistautuminen
 
@@ -405,9 +405,9 @@ Jatka oppimista ja toteuta hyviä käytäntöjä asteittain!
 
 Kultainen sääntö: Kyberturvallisuus on liikkuva maali, joka mukautuu oppimismatkasi mukaan!
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 # Käytännön osio
 
@@ -419,7 +419,7 @@ https://planb.network/tutorials/computer-security/authentication/security-key-61
 
 Sähköpostilaatikon suojaaminen on tärkeä askel online-toimintojen turvaamiseksi ja henkilökohtaisten tietojen suojaamiseksi. Tämä opas opastaa sinua askel askeleelta ProtonMail-tilin luomisessa ja konfiguroinnissa, palveluntarjoajassa, joka tunnetaan korkeasta turvallisuustasostaan ja tarjoaa viestiesi päästä päähän -salausta. Olitpa sitten aloittelija tai kokenut käyttäjä, täällä esitetyt parhaat käytännöt auttavat sinua vahvistamaan sähköpostisi turvallisuutta hyödyntäen samalla ProtonMailin edistyneitä ominaisuuksia:
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## 2FA:n turvaaminen
 
@@ -427,11 +427,11 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 
 Kaksivaiheinen todennus (2FA) on tullut oleelliseksi verkkotilien suojaamiseksi. Tässä oppaassa opit, kuinka määrittää ja käyttää 2FA-sovellusta Authy, joka luo dynaamisia 6-numeroisia koodeja tiliesi suojaamiseksi. Authy on erittäin helppokäyttöinen ja synkronoitavissa useille laitteille. Opi asentamaan ja konfiguroimaan Authy ja vahvista näin online-tiliesi turvallisuutta heti:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Toinen vaihtoehto on käyttää fyysistä turvakilpeä. Tämä toinen opas näyttää, kuinka määrittää ja käyttää turvakilpeä toisen autentikointitekijäna:
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ## Salasananhallintaohjelman luominen
 
@@ -441,11 +441,11 @@ Salasanojen hallinta on digitaalisen aikakauden haaste. Meillä kaikilla on luku
 
 Tässä oppaassa opit, kuinka määrittää Bitwarden, avoimen lähdekoodin salasananhallintaohjelma, ja kuinka synkronoida tunnistetietosi kaikilla laitteillasi yksinkertaistaaksesi päivittäistä käyttöä:
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Kokenutta käyttäjää varten tarjoan myös oppaan toisen ilmaisen ja avoimen lähdekoodin ohjelmiston käytöstä salasanojesi hallintaan paikallisesti:
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Tilien turvaaminen
 
@@ -453,9 +453,9 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 Näissä kahdessa tutoriaalissa opastan sinua myös online-tiliesi suojaamisessa ja selitän, miten voit vähitellen omaksua turvallisempia käytäntöjä salasanojesi päivittäisessä hallinnassa.
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Selaimen vaihto & VPN
 
@@ -465,13 +465,13 @@ Verkkoprivasiutesi suojaaminen on myös olennaista turvallisuutesi varmistamisek
 
 Ehdotan, että tutustut kahteen luotettavaan VPN-ratkaisuun, joita voi maksaa bitcoinilla, nimittäin IVPN ja Mullvad. Nämä tutoriaalit opastavat sinua asentamaan, konfiguroimaan ja käyttämään Mullvadi tai IVPN:iä kaikilla laitteillasi:
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 Lisäksi opi käyttämään Tor Browseria, selainta, joka on erityisesti suunniteltu suojaamaan online-p私siuttasi:
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ## Varmuuskopiointiasetukset
 
@@ -479,11 +479,11 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 Henkilökohtaisten tiedostojen suojaaminen on myös olennaista. Tämä opas näyttää, kuinka ottaa käyttöön tehokas varmuuskopiointistrategia Proton Drive'n avulla. Opi käyttämään tätä turvallista pilvipalveluratkaisua 3-2-1-menetelmän soveltamiseen: kolme kopiota tiedoistasi kahdessa eri tallennusvälineessä, joista yksi kopio on sivuston ulkopuolella. Näin varmistat arkaluonteisten tiedostojesi saatavuuden ja turvallisuuden:
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Ja suojataksesi USB-tikulla tai ulkoisella kovalevyllä tallennettuja tiedostoja, näytän myös, miten voit helposti salata ja purkaa näitä tallennusvälineitä VeraCryptin avulla:
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # Syvennä osaamistasi
 

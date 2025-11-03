@@ -11,7 +11,7 @@ description: Complete gids voor het gebruik van Bisq 2 en het wisselen van bitco
 KYC-vrije peer-to-peer (P2P) uitwisselingen zijn essentieel voor het behoud van de privacy en financiële autonomie van gebruikers. Ze maken directe transacties tussen individuen mogelijk zonder de noodzaak voor identiteitsverificatie, wat cruciaal is voor diegenen die waarde hechten aan privacy. Voor een meer diepgaand begrip van de theoretische concepten, bekijk de BTC204 cursus:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Wat is Bisq 2?
 
@@ -117,7 +117,7 @@ Deze handleiding richt zich uitsluitend op "Bisq Easy", het enige protocol dat m
 - Controleer de authenticiteit van het gedownloade bestand (sterk aanbevolen). Voor een gedetailleerde handleiding voor het verifiëren van handtekeningen, zie de volgende tutorial:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### 2. Installatie volgens uw systeem
 

@@ -1,0 +1,25 @@
+id: b974680e-ec2f-4491-b4ba-85bf31553cae
+
+project_id: 7354aa99-7502-40c4-9797-0672ca5802f5
+
+tags:
+  - wallets
+  - use-case
+  - user-friendly
+
+category: point-of-sale
+
+level: beginner
+
+professor_id: 56a6dc42-af0b-45f1-a720-b5e8a7de1e81
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-10-20
+    urgency: 1
+    contributor_names:
+      - marshal-opsource
+    reward: 0.82

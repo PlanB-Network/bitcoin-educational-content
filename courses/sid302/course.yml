@@ -15,10 +15,11 @@ original_language: en
 
 proofreading:
   - language: en
-    last_contribution_date:
+    last_contribution_date: 2025-10-31
     urgency: 1
     contributor_names:
-    reward: 2.26
+      - 2raj2raj
+    reward: 1.13
   - language: cs
     last_contribution_date:
     urgency: 1
@@ -142,7 +143,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.98
+    reward: 3.7
   - language: rn
     last_contribution_date:
     urgency: 1
@@ -181,6 +182,8 @@ videos:
   - id: f00822b4-dc1a-46ff-adfc-ff7c97a0024d
     youtube:
       - en: AnMiD9amSUg
+    peertube:
+      - en: 982WYFS8NL9QcSecP1V6oW
   - id: 1a6289b5-fdae-4320-b5b1-41925150108c
     youtube:
       - en: ucc3a-udbgo

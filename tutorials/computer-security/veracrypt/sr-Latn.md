@@ -22,7 +22,7 @@ Drugim rečima, preporučljivo je čuvati vaše fajlove na 3 različite lokacije
 Da biste lako implementirali ovu 3-2-1 strategiju bekapa, možete se odlučiti za rešenje za skladištenje na mreži, automatskim ili periodičnim sinhronizovanjem fajlova sa vašeg računara sa onima u vašem oblaku. Među ovim rešenjima za bekap na mreži, očigledno su i ona od velikih digitalnih kompanija koje poznajete: Google Drive, Microsoft OneDrive ili Apple iCloud. Međutim, ovo nisu najbolja rešenja za zaštitu vaše privatnosti. U prethodnom tutorijalu, predstavio sam vam alternativu koja šifruje vaše dokumente za bolju poverljivost: Proton Drive.
 
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Usvajanjem ove strategije za lokalne i cloud sigurnosne kopije, već imate koristi od dve različite vrste medija za vaše podatke, od kojih je jedan van lokacije. Da biste kompletirali strategiju 3-2-1, jednostavno treba da dodate dodatnu kopiju. Ono što vam savetujem je da periodično izvozite vaše podatke prisutne lokalno i na vašem cloudu na fizički medij, kao što je USB stik ili eksterni Hard disk. Na taj način, čak i ako su serveri vašeg online rešenja za skladištenje uništeni i vaš računar se istovremeno pokvari, i dalje imate ovu treću kopiju na eksternom mediju kako ne biste izgubili vaše podatke.
 
@@ -153,7 +153,7 @@ Takođe vam savetujem da sačuvate svoju lozinku u menadžeru lozinki. Ovo olak�
 Za više informacija o upravljanju lozinkama, savetujem vam da otkrijete ovaj drugi kompletan vodič:
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Unesite svoju lozinku u 2 predviđena polja, zatim kliknite na "*Next*". 
 

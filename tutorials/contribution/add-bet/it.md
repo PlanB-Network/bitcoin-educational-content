@@ -1,24 +1,24 @@
 ---
 name: Aggiungere risorse al "BET"
-description: Come aggiungere nuovi materiali educativi su Plan ₿ Network?
+description: Come aggiungere nuovi materiali educativi su Plan ₿ Academy?
 ---
 
 ![event](assets/cover.webp)
 
-La missione di Plan ₿ Network è mettere a disposizione degli utenti risorse educative di primo livello su Bitcoin, in quante più lingue possibile. Tutti i contenuti pubblicati sul sito sono open-source e si trovano su GitHub: ciò consente a chiunque di partecipare all'arricchimento della piattaforma.
+La missione di Plan ₿ Academy è mettere a disposizione degli utenti risorse educative di primo livello su Bitcoin, in quante più lingue possibile. Tutti i contenuti pubblicati sul sito sono open-source e si trovano su GitHub: ciò consente a chiunque di partecipare all'arricchimento della piattaforma.
 
-Oltre a tutorial e corsi, Plan ₿ Network offre anche una vasta biblioteca di contenuti educativi vari su Bitcoin, accessibili a tutti, [nella sezione "BET" (_Bitcoin Educational Toolkit_)](https://planb.network/resources/bet). Questo database include poster, meme, poster umoristici, diagrammi tecnici, loghi e altri strumenti a disposizione degli utenti. L'obiettivo di questa iniziativa è supportare persone e gruppi in tutto il mondo nell'insegnamento di Bitcoin, fornendo loro le risorse visive necessarie.
+Oltre a tutorial e corsi, Plan ₿ Academy offre anche una vasta biblioteca di contenuti educativi vari su Bitcoin, accessibili a tutti, [nella sezione "BET" (_Bitcoin Educational Toolkit_)](https://planb.academy/resources/bet). Questo database include poster, meme, poster umoristici, diagrammi tecnici, loghi e altri strumenti a disposizione degli utenti. L'obiettivo di questa iniziativa è supportare persone e gruppi in tutto il mondo nell'insegnamento di Bitcoin, fornendo loro le risorse visive necessarie.
 
 Vuoi partecipare all'arricchimento di questo database, ma non sai come fare? Questo tutorial è per te!
 
-*È imperativo che tutti i contenuti integrati nel sito siano liberi da copyright o rispettino la licenza del file sorgente. Inoltre, tutti i contenuti visivi pubblicati su Plan ₿ Network sono resi disponibili con licenza [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/).*
+*È imperativo che tutti i contenuti integrati nel sito siano liberi da copyright o rispettino la licenza del file sorgente. Inoltre, tutti i contenuti visivi pubblicati su Plan ₿ Academy sono resi disponibili con licenza [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/).*
 
 ![event](assets/01.webp)
 
 - Prima di tutto, è necessario avere un account su GitHub. Se non sai come crearne uno, abbiamo realizzato un tutorial dettagliato per guidarti.
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Vai al [repository GitHub di PlanB dedicato](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet) nella sezione `resources/bet/`:
@@ -29,7 +29,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 ![event](assets/03.webp)
 
-- Se non hai mai aggiunto contenuti sul sito di Plan ₿ Network prima d'ora, dovrai creare il tuo fork del repository originale. Fare un fork di un repository significa creare una copia dello stesso sul proprio account GitHub, il che ti consente di lavorare sul progetto senza influenzare il repository originale. Clicca sul pulsante `Fork this repository`:
+- Se non hai mai aggiunto contenuti sul sito di Plan ₿ Academy prima d'ora, dovrai creare il tuo fork del repository originale. Fare un fork di un repository significa creare una copia dello stesso sul proprio account GitHub, il che ti consente di lavorare sul progetto senza influenzare il repository originale. Clicca sul pulsante `Fork this repository`:
 
 ![event](assets/04.webp)
 
@@ -64,9 +64,9 @@ tags:
 contributors:
   - 
 ```
-- **`project`**: indica l'identificativo della tua azienda, o progetto su Plan ₿ Network. Se non hai ancora un identificativo, puoi crearne uno seguendo questo tutorial.
+- **`project`**: indica l'identificativo della tua azienda, o progetto su Plan ₿ Academy. Se non hai ancora un identificativo, puoi crearne uno seguendo questo tutorial.
 
-https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
+https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
  Se non ne possiedi uno, puoi semplicemente usare il tuo nome, il tuo pseudonimo o il nome della tua azienda, senza aver creato un profilo nella sezione progetti.
 
@@ -75,7 +75,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 	- `Visual Content` per altri tipi di contenuti.
 
 - **`links`**: fornisci i link che collegano ai tuoi contenuti. Hai due opzioni:
-	- Se scegli di inserire direttamente il tuo contenuto sul GitHub di Plan ₿ Network, dovrai aggiungere i link a questo file durante i passaggi successivi.
+	- Se scegli di inserire direttamente il tuo contenuto sul GitHub di Plan ₿ Academy, dovrai aggiungere i link a questo file durante i passaggi successivi.
 	- Se i tuoi contenuti sono inseriti altrove, ad esempio sul tuo sito web personale, indica qui i link corrispondenti:
 	    - `download`: Un link per scaricare il tuo contenuto.
 	    - `view`: Un link per visualizzare il tuo contenuto (può essere lo stesso del link di download). Se il tuo contenuto è disponibile in più lingue, aggiungi un link per ogni lingua.
@@ -92,7 +92,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 Ad esempio, il tuo file YAML potrebbe apparire così:
 
 ```yaml
-project: Plan ₿ Network
+project: Plan ₿ Academy
 type: Educational Content
 links:
   download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
@@ -123,7 +123,7 @@ links:
 
 ![event](assets/14.webp)
 
-- Seleziona il tuo fork del repository Plan ₿ Network:
+- Seleziona il tuo fork del repository Plan ₿ Academy:
 
 ![event](assets/15.webp)
 
@@ -170,7 +170,7 @@ links:
 
 - Si aprirà una nuova pagina.
 
-Trascina e rilascia nell'area una immagine che rappresenta il tuo contenuto. Questa immagine verrà visualizzata sul sito di Plan ₿ Network:
+Trascina e rilascia nell'area una immagine che rappresenta il tuo contenuto. Questa immagine verrà visualizzata sul sito di Plan ₿ Academy:
 
 ![event](assets/26.webp)
 
@@ -291,7 +291,7 @@ https://github.com/tutorial-pandul/bitcoin-educational-content/blob/patch-1/reso
 https://github.com/DiscoverBitcoin/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
 ```
 
-Quello che stiamo facendo qui è anticipare il futuro link al tuo file, una volta che la tua proposta sarà stata "mergiata" al repository sorgente di Plan ₿ Network.
+Quello che stiamo facendo qui è anticipare il futuro link al tuo file, una volta che la tua proposta sarà stata "mergiata" al repository sorgente di Plan ₿ Academy.
 
 - Torna al tuo file `bet.yml` e clicca sull'icona della matita:
 
@@ -332,9 +332,9 @@ Quello che stiamo facendo qui è anticipare il futuro link al tuo file, una volt
 
 ![evento](assets/55.webp)
 
-Congratulazioni! La tua PR è stata creata con successo. Un coordinatore del team la esaminerà e, se tutto è in ordine, la unirà al repository principale di Plan ₿ Network. Dovresti vedere il tuo BET apparire sul sito web qualche giorno dopo.
+Congratulazioni! La tua PR è stata creata con successo. Un coordinatore del team la esaminerà e, se tutto è in ordine, la unirà al repository principale di Plan ₿ Academy. Dovresti vedere il tuo BET apparire sul sito web qualche giorno dopo.
 
-Assicurati di seguire il progresso della tua PR. Un admin potrebbe lasciare un commento chiedendo ulteriori informazioni. Fintanto che la tua PR non è validata, puoi consultarla nella scheda "Pull requests" sul repository GitHub di Plan ₿ Network:
+Assicurati di seguire il progresso della tua PR. Un admin potrebbe lasciare un commento chiedendo ulteriori informazioni. Fintanto che la tua PR non è validata, puoi consultarla nella scheda "Pull requests" sul repository GitHub di Plan ₿ Academy:
 
 ![evento](assets/56.webp)
 

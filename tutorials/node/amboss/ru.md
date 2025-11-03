@@ -11,7 +11,7 @@ Lightning Network - это Layer протокола Bitcoin, который бы
 
 
 
-https://planb.network/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
+https://planb.academy/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
 
 Как и в случае с основной цепочкой, важно дать пользователям возможность узнавать информацию и статус сети, чтобы облегчить связи между узлами и минимизировать проблему ликвидности, которая обычно возникает в сети. Действительно, на Lightning Network мы рекомендуем осуществлять микроплатежи относительно меньших сумм, чем при транзакциях на основной цепи Bitcoin.
 
@@ -34,7 +34,7 @@ https://planb.network/tutorials/node/lightning-network/lightning-network-daemon-
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 В этом руководстве мы проведем экскурсию по этой платформе, которая является незаменимым ресурсом для пользователей Lightning Network, тех, кто хочет подключить свой узел для расширения сети и т.д.
 
@@ -57,7 +57,7 @@ https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43c
 
 
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
 На главной странице вы также найдете узлы, классифицированные по :
 
@@ -147,7 +147,7 @@ https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-8405
 
 - Входящий коэффициент**: Сумма, которую узел будет взимать с вас за каждый миллион Satoshi, который он получает, в зависимости от выбранного канала.
 - Соотношение (частей на миллион)** : представляет собой количество Satoshi на миллион единиц, которое узел возьмет с вас, когда вы решите произвести платеж через один из его каналов. Допустим, если вы решите произвести платеж в размере `10_000 Sats` через канал, чье соотношение частей на миллион составляет `500 Sats`, вам придется заплатить узлу `10_000 * 500 / 1_000_000` сатоши, что эквивалентно `5 Sats`.
-- [HTLC](https://planb.network/resources/glossary/htlc) максимум** : Максимальная сумма, которую этот узел позволяет пропустить по одному из этих каналов.
+- [HTLC](https://planb.academy/resources/glossary/htlc) максимум** : Максимальная сумма, которую этот узел позволяет пропустить по одному из этих каналов.
 
 
 
@@ -304,4 +304,4 @@ Amboss предлагает ряд инструментов, которые по
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f

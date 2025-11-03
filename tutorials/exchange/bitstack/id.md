@@ -51,9 +51,9 @@ Pilih kata sandi yang kuat untuk mengamankan akses ke akun Anda, lalu klik "*Lan
 
 ![Image](assets/fr/06.webp)
 
-Untuk pengelolaan kata sandi yang aman setiap hari, penggunaan pengelola kata sandi sangat dianjurkan. Pada Plan ₿ Network, Anda akan menemukan beberapa tutorial tentang solusi terbaik yang ada, seperti Bitwarden:
+Untuk pengelolaan kata sandi yang aman setiap hari, penggunaan pengelola kata sandi sangat dianjurkan. Pada Plan ₿ Academy, Anda akan menemukan beberapa tutorial tentang solusi terbaik yang ada, seperti Bitwarden:
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Anda kemudian akan diminta untuk memverifikasi identitas Anda (KYC). Sesuai dengan peraturan Prancis, Anda akan diminta untuk memberikan informasi pribadi dan bukti identitas. Isi kotak dengan nama belakang, nama depan, dan tanggal lahir Anda.
 
@@ -184,7 +184,7 @@ Tentukan prioritas transaksi. Untuk penarikan tanpa biaya, pilih prioritas "*Sta
 
 ![Image](assets/fr/32.webp)
 
-Jika Anda tidak terbiasa dengan cara kerja portofolio penyimpanan mandiri, kami menawarkan tutorial tentang sebagian besar solusi yang tersedia [di Plan ₿ Network pada bagian "*Wallet*"](https://planb.network/tutorials/wallet).
+Jika Anda tidak terbiasa dengan cara kerja portofolio penyimpanan mandiri, kami menawarkan tutorial tentang sebagian besar solusi yang tersedia [di Plan ₿ Academy pada bagian "*Wallet*"](https://planb.academy/tutorials/wallet).
 
 ## Menjual bitcoin
 

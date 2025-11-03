@@ -86,7 +86,7 @@ Mara tu unapopakua faili, isakinishe kama ungefanya programu nyingine yoyote. Ku
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
+https://planb.academy/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
 ### Inaleta Whonix
 
 
@@ -224,7 +224,7 @@ sudo apt full-upgrade
 
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ### Electrum Bitcoin Wallet
 
@@ -234,7 +234,7 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 Whonix ni zaidi ya mfumo wa uendeshaji tu: ni **mazingira salama** yaliyoundwa ili kulinda kutokujulikana kwako, faragha yako na shughuli zako nyeti. Shukrani kwa usanifu wake unaotegemea Tor, ugawaji wa akili kati ya Gateway na Workstation, na zana zilizosakinishwa awali kama vile Tor Browser, KeePassXC na Electrum, inatoa suluhisho la ufunguo wa kugeuza kwa yeyote anayetaka **kuvinjari bila kujulikana**, **kufanya kazi kwa usalama** au **kushughulikia data ya siri**.
 
@@ -244,4 +244,4 @@ Ili kuimarisha usalama wako kwenye mfumo wako wa Unix, angalia mafunzo yetu kuhu
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
+https://planb.academy/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af

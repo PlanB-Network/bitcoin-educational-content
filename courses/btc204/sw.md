@@ -339,8 +339,8 @@ Kwa hivyo tunahitaji pia kuweza kukabiliana na uchanganuzi wa blockchain katika 
 
 Ni njia gani bora ya kukabiliana na uchambuzi wa blockchain kuliko kujifunza kuhusu mbinu zinazotumiwa ndani yake? Ikiwa ungependa kujua jinsi ya kuboresha faragha yako kwenye Bitcoin, unahitaji kuelewa mbinu hizi. Hii itakupa ufahamu bora wa mbinu kama vile Coinjoin  au Payjoin (mbinu tutakazoangalia katika sehemu za mwisho za kozi), na kupunguza makosa ambayo unaweza kufanya.
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
-https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
+https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 Katika hili, tunaweza kuchora mlinganisho na cryptography na cryptanalysis. Mwandishi mzuri wa kriptografia kwanza kabisa ni cryptanalyst mzuri. Ili kuunda algorithm mpya ya usimbuaji, unahitaji kujua ni mashambulizi gani ambayo itakabili, na pia usome kwa nini algorithmu ya hapo awali imevunjwa. Kanuni hiyo hiyo inatumika kwa faragha ya Bitcoin. Kuelewa mbinu za uchambuzi wa blockchain ndio ufunguo wa kulinda dhidi yao. Ndiyo maana nimejumuisha uchanganuzi wa sehemu nzima ya onchain katika kozi hii ya mafunzo.
 
 ### Mbinu za Chainalysis 
@@ -1282,7 +1282,7 @@ Mbinu zote hizi za uteuzi otomatiki wa UTXO zinaweza kuwa na ufanisi katika kupu
 
 Ikiwa ungependa kujua jinsi ya kuweka alama kwenye UTXO zako, tumeandaa mafunzo ya kina kuhusu programu kuu za wallet za Bitcoin zinazopatikana:
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 ## KYC na kitambulisho muhimu
 
 <chapterId>cec6b9d9-0eed-4f85-bc4e-1e9aa59ca605</chapterId>
@@ -1441,25 +1441,25 @@ Kwa kadiri suluhisho inavyohusiana na hilo, mimi binafsi nimekuwa nikitumia [Bis
 
 -> Tazama mafunzo yetu ya Bisq.
 
-https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+https://planb.academy/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 Kwa chaguo rahisi, unaweza kujaribu [Peach](https://peachbitcoin.com/), programu ya simu inayounganisha wanunuzi na wauzaji kwa kutumia mfumo uliojengewa ndani wa kutatua migogoro. Mchakato ni angavu zaidi kuliko wa Bisq.
 
 -> Tazama mafunzo yetu ya Peach.
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 Chaguo jingine la mtandaoni ni [HodlHodl](https://hodlhodl.com/), jukwaa lililoimarishwa ambalo hutoa ukwasi mzuri, ingawa sijaijaribu kibinafsi.
 
 -> Tazama mafunzo yetu ya HodlHodl.
 
-https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+https://planb.academy/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 Kwa suluhu zenye msingi wa Lightning Network, jaribu [RoboSats](https://learn.robosats.com/) na [LNP2PBot](https://lnp2pbot.com/). RoboSats inapatikana kupitia tovuti na ni rahisi kutumia. LNP2PBot si ya kawaida zaidi, kwani inafanya kazi kupitia mfumo wa exchange kwenye programu ya utumaji ujumbe wa Telegraph.
 
 -> Tazama mafunzo yetu ya RoboSats.
 
 -> Tazama mafunzo yetu ya LNP2PBot.
 
-https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
-https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+https://planb.academy/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.academy/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
 ![BTC204](assets/sw/096.webp)
 
 ### Mifumo inayodhibitiwa bila KYC
@@ -1468,7 +1468,7 @@ Kulingana na nchi unayoishi, unaweza kufikia mifumo inayodhibitiwa ambayo haihit
 
 -> Tazama mafunzo yetu kuhusu Relai.
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 Kama tulivyoona katika sura iliyotangulia, aina hii ya jukwaa hukuepusha na hatari zinazohusiana na taratibu za KYC, lakini zinawasilisha kiwango cha juu cha hatari kwa utambulisho muhimu. Kwa upande wa faragha ya Bitcoin, basi, majukwaa haya hutoa ulinzi bora zaidi kuliko njia za kununua na KYC, lakini hubakia chini ya kuvutia kuliko exchange ya P2P.
 
 Walakini, kwa upande wa usalama wa kibinafsi, kutumia majukwaa haya ni hatari kidogo kuliko P2P exchange . Pia mara nyingi ni rahisi kutumia kuliko majukwaa ya P2P.
@@ -1491,7 +1491,7 @@ Njia bora ya kutumia BTC ni, bila shaka, kutumia Bitcoin au Lightning Network mo
 
 Majukwaa kadhaa ambayo hayahitaji taratibu za KYC hutoa uwezekano wa kubadilisha bitcoins kuwa kadi za zawadi ambazo zinaweza kutumika kwa wauzaji wakuu. Haya ni pamoja na [CoinsBee](https://www.coinsbee.com/), [The Bitcoin Company](https://thebitcoincompany.com/) na [Bitrefill](https://www.bitrefill.com/). Majukwaa haya hurahisisha matumizi ya bitcoins zako kila siku, na hukupa ufikiaji wa aina mbalimbali za bidhaa na huduma bila kulazimika kuziuza kwa sarafu ya serikali.
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 ![BTC204](assets/sw/098.webp)
 
 ### Njia zingine za kupata
@@ -1500,7 +1500,7 @@ Njia zingine za kupata bitcoins wakati wa kulinda faragha yako ni pamoja na, min
 
 Njia nyingine ni kufanya kazi katika exchange ya bitcoins. Njia hii ya kupata inaweza kuvutia, lakini kiwango cha kitambulisho kinachohitajika hutofautiana sana kulingana na hali.
 
-*Ili kuandika sura hii, nilitumia kozi ya mafunzo ya BTC205 iliyotolewa na [@pivi___](https://x.com/pivi___) kwenye Plan ₿ Network (inapatikana katika Kifaransa pekee kwa sasa)*
+*Ili kuandika sura hii, nilitumia kozi ya mafunzo ya BTC205 iliyotolewa na [@pivi___](https://x.com/pivi___) kwenye Plan ₿ Academy (inapatikana katika Kifaransa pekee kwa sasa)*
 
 ## Ujumuishaji, usimamizi wa UTXO na CIOH
 
@@ -2162,7 +2162,7 @@ Tunafuatilia kwa karibu kesi hii na maendeleo katika zana zinazohusiana. Kuwa na
 Katika sura inayofuata, tutajua "anonsets" ni nini, jinsi viashiria hivi vinavyohesabiwa, na jinsi vinaweza kutusaidia kukadiria ufanisi wa mizunguko ya kuunga sarafu.
 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
 ## Seti za kutokujulikana
 
@@ -2588,7 +2588,7 @@ Ugumu wa kutumia PayJoin unatokana na utegemezi wake juu ya ushiriki wa mfanyabi
 Suluhisho mojawapo litakuwa kutumia miundo ya muamala inayoleta utata katika uchanganuzi wa msururu bila kuhitaji ushirikiano wa mpokeaji. Hili litatuwezesha kuboresha usiri wa malipo yetu bila kutegemea ushiriki hai wa wafanyabiashara. Hili ndilo hasa tutakalokuwa tukiliangalia katika sura inayofuata.
 
 
-https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
+https://planb.academy/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
 ## Malipo ya mini-CoinJoin
 
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
@@ -2707,8 +2707,8 @@ Inawezekana pia kutekeleza aina hii ya muamala kwa mikono kutoka kwa programu yo
 
 Katika sura inayofuata, tutaangalia mbinu nyingine ya usiri ambayo haijulikani kwa kiasi, lakini ambayo ni muhimu sana kama inayosaidia yale ambayo tayari tumejifunza.
 
-https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
-https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
+https://planb.academy/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
+https://planb.academy/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
 ## ricochets
 
 <chapterId>db9a20ac-a149-443d-884b-ea6c03f28499</chapterId>
@@ -2780,7 +2780,7 @@ Ricocheting ina maana ya kutuma bitcoins kwako mwenyewe. Inawezekana kabisa kuwe
 
 Katika sura inayofuata, tunaangalia mbinu tofauti za uhamisho wa siri wa Umiliki. Njia hizi hutofautiana kwa kiasi kikubwa na zile ambazo tumechunguza hadi sasa, kwa suala la uendeshaji na matokeo.
 
-https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
+https://planb.academy/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
 ## Uhamisho wa siri wa Ownership
 
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
@@ -3047,9 +3047,9 @@ Avatar hizi pia zinaweza kuwakilishwa kama picha:
 Ingawa roboti hizi hazina utendakazi mahususi wa kiufundi ndani ya mfumo wa BIP47, zina jukumu katika kuwezesha mwingiliano wa watumiaji kwa kutoa utambulisho unaotambulika kwa urahisi.
 
 ---
-*Katika sehemu zifuatazo za sura hii zinazotolewa kwa BIP47, tutaangalia kwa kina jinsi inavyofanya kazi, tukitilia mkazo zaidi mbinu za kriptografia zinazotumiwa. Ili kufahamu kikamilifu maelezo haya ya kiufundi, ni muhimu kwanza kuelewa muundo wa wallets za HD, taratibu muhimu za utoeji na misingi ya kriptografia ya mduara. Ikiwa ungependa kutafakari kwa kina zaidi dhana hizi, kozi nyingine ya bila malipo inapatikana kwenye Plan ₿ Network :*
+*Katika sehemu zifuatazo za sura hii zinazotolewa kwa BIP47, tutaangalia kwa kina jinsi inavyofanya kazi, tukitilia mkazo zaidi mbinu za kriptografia zinazotumiwa. Ili kufahamu kikamilifu maelezo haya ya kiufundi, ni muhimu kwanza kuelewa muundo wa wallets za HD, taratibu muhimu za utoeji na misingi ya kriptografia ya mduara. Ikiwa ungependa kutafakari kwa kina zaidi dhana hizi, kozi nyingine ya bila malipo inapatikana kwenye Plan ₿ Academy :*
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 *Bado ningekushauri uzifuate, kwa sababu kuelewa utendakazi wa kiufundi wa BIP47 kutafanya iwe rahisi kwako kuelewa mapendekezo mengine yanayofanana, ambayo tutayajadili katika sura zifuatazo*
 
 ---
@@ -3801,7 +3801,7 @@ Kisha Bob anaweza kumlipa Alice kama vile alivyomtumia malipo. Majukumu yamebadi
 
 *Shukrani nyingi kwa [Fanis Michalakis](https://x.com/FanisMichalakis) kwa kusahihisha na ushauri wake wa kitaalamu kuhusu makala ambayo yaliongoza kuandikwa kwa sura hii!*
 
-https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
+https://planb.academy/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
 
 
 <chapterId>2871d594-414e-4598-a830-91c9eb84dfb8</chapterId>

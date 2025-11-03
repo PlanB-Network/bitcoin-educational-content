@@ -1,27 +1,27 @@
 ---
 name: Retningslinjer for korrekturlesing
-description: Hvilke faktorer er det viktig å huske på når man korrekturleser på Plan ₿ Network?
+description: Hvilke faktorer er det viktig å huske på når man korrekturleser på Plan ₿ Academy?
 ---
 
 ![github](assets/cover.webp)
 
 
-Velkommen til denne veiledningen om **retningslinjer for korrekturlesing av innhold på Plan ₿ Network**. Vi er glade for at du deler vårt mål om å oversette Bitcoin-materiell til så mange språk som mulig, for å hjelpe folk med å få kunnskap om hvordan det fungerer og hvordan det kan brukes i hverdagen.
+Velkommen til denne veiledningen om **retningslinjer for korrekturlesing av innhold på Plan ₿ Academy**. Vi er glade for at du deler vårt mål om å oversette Bitcoin-materiell til så mange språk som mulig, for å hjelpe folk med å få kunnskap om hvordan det fungerer og hvordan det kan brukes i hverdagen.
 
 
-Først og fremst kan du bidra til Plan ₿ Network [public repository](https://github.com/PlanB-Network/Bitcoin-educational-content) ved å skrive veiledninger, korrekturlese eksisterende innhold eller til og med foreslå å legge til et nytt språk på plattformen. Hvis du vil vite mer, kan du først bli med i [Telegram Group](https://t.me/PlanBNetwork_ContentBuilder) og skrive en kort presentasjon om deg og språkene du kan snakke.
+Først og fremst kan du bidra til Plan ₿ Academy [public repository](https://github.com/PlanB-Network/Bitcoin-educational-content) ved å skrive veiledninger, korrekturlese eksisterende innhold eller til og med foreslå å legge til et nytt språk på plattformen. Hvis du vil vite mer, kan du først bli med i [Telegram Group](https://t.me/PlanBNetwork_ContentBuilder) og skrive en kort presentasjon om deg og språkene du kan snakke.
 
 
-Denne veiledningen er dedikert til bidragsytere som ønsker å korrekturlese innhold. De fleste av dem vet ikke så mye om [Github] (https://planb.network/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) eller [Markdown-språket] (https://www.markdownguide.org/basic-syntax/) vi bruker i depotet, så det er viktig å dele litt innsikt i de viktigste faktorene som er involvert i denne oppgaven.
+Denne veiledningen er dedikert til bidragsytere som ønsker å korrekturlese innhold. De fleste av dem vet ikke så mye om [Github] (https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) eller [Markdown-språket] (https://www.markdownguide.org/basic-syntax/) vi bruker i depotet, så det er viktig å dele litt innsikt i de viktigste faktorene som er involvert i denne oppgaven.
 
 
 Her har jeg samlet de vanligste problemene som korrekturlesere støter på. Kom gjerne med flere forslag, da det kan hjelpe andre med å forbedre seg.
 
 
-Før du går nærmere inn på detaljene, bør du først lese denne veiledningen om de praktiske handlingene du skal følge på Github, ved å forke Plan ₿ Network-depotet, legge inn endringer og sende PR-er:
+Før du går nærmere inn på detaljene, bør du først lese denne veiledningen om de praktiske handlingene du skal følge på Github, ved å forke Plan ₿ Academy-depotet, legge inn endringer og sende PR-er:
 
 
-https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
+https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 
 ## Hva er korrekturlesing?
@@ -38,13 +38,13 @@ Husk alltid at oversettelse/korrekturlesing er UTDANNING!
 
 Vårt felles mål er faktisk å utdanne så mange som mulig i Bitcoin, og da er det avgjørende at materialet de leser, er lettfattelig og tydelig.
 
-I denne forstand er alle bidragsytere på Plan ₿ Network pedagoger!
+I denne forstand er alle bidragsytere på Plan ₿ Academy pedagoger!
 
 
-## De første trinnene før korrekturlesing på Plan ₿ Network
+## De første trinnene før korrekturlesing på Plan ₿ Academy
 
 
-Før du starter en ny korrekturlesingsoppgave, må du kunngjøre den i [Telegramgruppen] (https://t.me/PlanBNetwork_ContentBuilder) eller informere Plan ₿ Network-koordinatoren din, som vil åpne en dedikert [issue] (https://github.com/orgs/PlanB-Network/projects/3). Når du mottar lenken til saken, skriver du bare **kommentarer om at du starter** med korrekturlesingen av det aktuelle innholdet.
+Før du starter en ny korrekturlesingsoppgave, må du kunngjøre den i [Telegramgruppen] (https://t.me/PlanBNetwork_ContentBuilder) eller informere Plan ₿ Academy-koordinatoren din, som vil åpne en dedikert [issue] (https://github.com/orgs/Plan ₿ Academy/projects/3). Når du mottar lenken til saken, skriver du bare **kommentarer om at du starter** med korrekturlesingen av det aktuelle innholdet.
 
 
 Dette systemet hjelper koordinatoren med å holde oversikt over fremdriften i repoen, og det gjør det mulig å "kreve" innholdet av korrekturleseren, slik at man unngår at noen andre gjør dobbeltarbeid.
@@ -60,7 +60,7 @@ Først og fremst, **HUSK ALLTID å synkronisere repoen din på "dev"-grenen**. P
 
 
 
-Når du har synkronisert, kan du gå direkte til innholdet du er interessert i, og legge til en ny gren, som vist i denne [opplæringen] (https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). Ellers kan du åpne en ny gren hvor du skal jobbe, ved å klikke på "Branches", som vist nedenfor.
+Når du har synkronisert, kan du gå direkte til innholdet du er interessert i, og legge til en ny gren, som vist i denne [opplæringen] (https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). Ellers kan du åpne en ny gren hvor du skal jobbe, ved å klikke på "Branches", som vist nedenfor.
 
 
 
@@ -115,11 +115,11 @@ I det andre tilfellet bør du **alltid undersøke om noen andre i Bitcoin-felles
 
 
 
-- En annen god løsning er å beholde det opprinnelige ordet/uttrykket, og deretter **opprette en hyperkobling** som viderekobler til [glossary] (https://planb.network/en/resources/glossary) på planb.network. For å gjøre dette må du sette ordet/uttrykket inn i hakeparenteser, og lenken inn i runde parenteser, slik du kan se i eksempelet nedenfor:
+- En annen god løsning er å beholde det opprinnelige ordet/uttrykket, og deretter **opprette en hyperkobling** som viderekobler til [glossary] (https://planb.academy/en/resources/glossary) på planb.network. For å gjøre dette må du sette ordet/uttrykket inn i hakeparenteser, og lenken inn i runde parenteser, slik du kan se i eksempelet nedenfor:
 
 
 ```
-[UTXO](https://planb.network/resources/glossary/utxo)
+[UTXO](https://planb.academy/resources/glossary/utxo)
 ```
 
 
@@ -131,14 +131,14 @@ I det endelige resultatet (bildet nedenfor) vil du ikke se hele lenken, og ordet
 
 
 
-Vær oppmerksom på at lenken til ordlisten du tar fra nettstedet, inneholder språkkoden etter ordet "network" (eksempel: ``https://planb.network/en/resources/glossary/utxo``-> her kan du lese språkkoden "en"). I dette tilfellet **fjerner du språkkoden fra lenken**, slik du ser i boksen ovenfor. På denne måten vil systemet automatisk ta leseren til det språket som er angitt.
+Vær oppmerksom på at lenken til ordlisten du tar fra nettstedet, inneholder språkkoden etter ordet "network" (eksempel: ``https://planb.academy/en/resources/glossary/utxo``-> her kan du lese språkkoden "en"). I dette tilfellet **fjerner du språkkoden fra lenken**, slik du ser i boksen ovenfor. På denne måten vil systemet automatisk ta leseren til det språket som er angitt.
 
 
 Innholdet i depotet er fullt av hyperlenker som disse ovenfor. Nå som du vet hva de betyr, må du **ikke slette lenker** som er satt inn av den opprinnelige forfatteren.
 
 
 
-- En annen ting relatert til ordgjengivelse er følgende. Hvis du finner "Plan ₿ Network" i teksten, **la det stå i sin opprinnelige form**. Ikke oversett ordet "plan" eller ordet "nettverk". Dessuten skal du IKKE bruke artikkelen "The" når du introduserer Plan ₿ Network: **betrakt det som en merkevare**.
+- En annen ting relatert til ordgjengivelse er følgende. Hvis du finner "Plan ₿ Academy" i teksten, **la det stå i sin opprinnelige form**. Ikke oversett ordet "plan" eller ordet "nettverk". Dessuten skal du IKKE bruke artikkelen "The" når du introduserer Plan ₿ Academy: **betrakt det som en merkevare**.
 
 
 
@@ -323,7 +323,7 @@ Dobbeltsjekk alltid alle hyperkoblinger i teksten for å sikre at de er korrekte
 
 
 
-- Hvis forfatteren legger inn en lenke som henviser til et Plan ₿ Network-kurs eller en veiledning (**ikke** innenfor parentes), vil nettstedet automatisk opprette et "kort" som viser det relaterte miniatyrbildet. Sørg derfor alltid for at du **legger til en ny linje mellom teksten og selve lenken**, ellers kan du få følgende feilmelding på nettstedet.
+- Hvis forfatteren legger inn en lenke som henviser til et Plan ₿ Academy-kurs eller en veiledning (**ikke** innenfor parentes), vil nettstedet automatisk opprette et "kort" som viser det relaterte miniatyrbildet. Sørg derfor alltid for at du **legger til en ny linje mellom teksten og selve lenken**, ellers kan du få følgende feilmelding på nettstedet.
 
 
 

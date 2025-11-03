@@ -43,7 +43,7 @@ Sehemu ya mwisho inaongozwa na wazungumzaji wengine wanaowasilisha maombi madhub
 ---
 Awali kozi hii ya mafunzo ilikua nje ya kambi ya mafunzo ya hali ya juu ya wiki mbili huko Viareggio, Toscany, iliyoandaliwa na [Fulgur'Ventures](https://fulgur.ventures/). Wiki ya kwanza, inayolenga Rust na SDK, inaweza kupatikana katika kozi hii nyingine:
 
-https://planb.network/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
+https://planb.academy/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
 Katika kozi hii, tunazingatia wiki ya pili ya bootcamp, ambayo inalenga RGB.
 
 **Wiki ya 1 - LNP402:**
@@ -1864,7 +1864,7 @@ Lightning Network ni mtandao uliogatuliwa wa njia za malipo (au _state channels_
 
 Kwa habari zaidi juu ya jinsi Umeme unavyofanya kazi, ninapendekeza uchukue kozi hii nyingine:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 #### Multi Protocol Commitment - MPC
 
 Multi Protocol Commitment (MPC) inarejelea muundo wa Merkle Tree unaotumika katika RGB kujumuisha, ndani ya muamala mmoja wa Bitcoin, **Vifungu vingi vya Mpito** kutoka kwa mikataba tofauti. Wazo ni kuweka pamoja ahadi kadhaa (zinazoweza kuendana na mikataba tofauti au mali tofauti) katika sehemu moja ya Anchor ili kuboresha ukaliaji wa nafasi ya kuzuia.
@@ -3077,8 +3077,8 @@ Hapa kuna mfano wa faili ya YAML kuunda:
 interface: RGB20Fixed
 globals:
 spec:
-ticker: PBN
-name: Plan B Network
+ticker: Plan ₿ Academy
+name: Plan ₿ Academy
 details: "Pay attention: the asset has no value"
 precision: 2
 terms:
@@ -3122,7 +3122,7 @@ rgb contracts
 
 ![RGB-Bitcoin](assets/en/087.webp)
 
-Kisha, amri inayofuata inaonyesha mataifa ya kimataifa (jina, tiki, Supply...) na orodha ya Nchi Zinazomilikiwa, yaani mgao (kwa mfano, tokeni za `PBN` milioni 1 zilizofafanuliwa katika UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
+Kisha, amri inayofuata inaonyesha mataifa ya kimataifa (jina, tiki, Supply...) na orodha ya Nchi Zinazomilikiwa, yaani mgao (kwa mfano, tokeni za `Plan ₿ Academy` milioni 1 zilizofafanuliwa katika UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
 
 ```bash
 rgb state '<ContractId>'
@@ -3305,7 +3305,7 @@ Kwa uhalisia, Lightning Network huwezesha malipo kuelekezwa kupitia chaneli nyin
 
 Uendeshaji wa RGB kwenye lightening kwa hiyo lazima uzingatiwe sambamba na ule wa Lightning Network yenyewe. Ikiwa ungependa kuzama zaidi katika somo hili, ninapendekeza sana uangalie kozi hii nyingine ya kina ya mafunzo:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 ### RGB ramani ya kanuni
 
 Hatimaye, kabla ya kuendelea hadi sehemu inayofuata, ningependa kukupa muhtasari wa msimbo unaotumika katika RGB. Itifaki inategemea seti ya maktaba za Rust na vipimo vya chanzo huria. Hapa kuna muhtasari wa hazina kuu na makreti:
@@ -3801,7 +3801,7 @@ Unaweza, bila shaka, kurekebisha utaratibu. Ili kuthibitisha muamala, tunachimba
 ./regtest.sh mine 1
 ```
 
-Sasa tunaweza kuunda kipengee cha RGB. Amri itategemea aina ya mali unayotaka kuunda na vigezo vyake. Hapa ninaunda tokeni ya NIA (*Non Inflatable Asset*) inayoitwa "PBN" yenye Supply ya vitengo 1000. `usahihi` hukuruhusu kufafanua mgawanyiko wa vitengo.
+Sasa tunaweza kuunda kipengee cha RGB. Amri itategemea aina ya mali unayotaka kuunda na vigezo vyake. Hapa ninaunda tokeni ya NIA (*Non Inflatable Asset*) inayoitwa "Plan ₿ Academy" yenye Supply ya vitengo 1000. `usahihi` hukuruhusu kufafanua mgawanyiko wa vitengo.
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3809,8 +3809,8 @@ curl -X POST -H "Content-Type: application/json" \
 "amounts": [
 1000
 ],
-"ticker": "PBN",
-"name": "Plan B Network",
+"ticker": "Plan ₿ Academy",
+"name": "Plan ₿ Academy",
 "precision": 0
 }' \
 http://localhost:3001/issueassetnia
@@ -3846,7 +3846,7 @@ Amri inarudisha ufunguo wa umma wa nodi yangu n°2 :
 
 ![RGB-Bitcoin](assets/en/110.webp)
 
-Kisha, tutafungua kituo kwa kubainisha kipengee husika (`PBN`). Amri ya `/openchannel` hukuruhusu kufafanua ukubwa wa kituo katika satoshis na uchague kujumuisha kipengee cha RGB. Inategemea kile unachotaka kuunda, lakini kwa upande wangu, amri ni:
+Kisha, tutafungua kituo kwa kubainisha kipengee husika (`Plan ₿ Academy`). Amri ya `/openchannel` hukuruhusu kufafanua ukubwa wa kituo katika satoshis na uchague kujumuisha kipengee cha RGB. Inategemea kile unachotaka kuunda, lakini kwa upande wangu, amri ni:
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3885,7 +3885,7 @@ Ili kudhibitisha shughuli hiyo, vitalu 6 vinachimbwa:
 
 ![RGB-Bitcoin](assets/en/112.webp)
 
-Kituo cha lightening sasa kimefunguliwa na pia kina tokeni 500 za `PBN` kwenye upande wa nodi n°1. Ikiwa nodi n°2 inataka kupokea tokeni za `PBN`, ni lazima generate iwe Invoice. Hapa ni jinsi ya kufanya hivyo:
+Kituo cha lightening sasa kimefunguliwa na pia kina tokeni 500 za `Plan ₿ Academy` kwenye upande wa nodi n°1. Ikiwa nodi n°2 inataka kupokea tokeni za `Plan ₿ Academy`, ni lazima generate iwe Invoice. Hapa ni jinsi ya kufanya hivyo:
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3914,7 +3914,7 @@ lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87e
 
 ![RGB-Bitcoin](assets/en/113.webp)
 
-Sasa tutalipa Invoice hii kutoka nodi ya kwanza, ambayo inashikilia pesa taslimu zinazohitajika na ishara ya `PBN`:
+Sasa tutalipa Invoice hii kutoka nodi ya kwanza, ambayo inashikilia pesa taslimu zinazohitajika na ishara ya `Plan ₿ Academy`:
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \

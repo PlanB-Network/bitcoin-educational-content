@@ -60,7 +60,7 @@ objectives:
 این دوره آموزشی در اصل از یک بوت‌کمپ توسعه پیشرفته دو هفته‌ای در ویارجو، توسکانی، که توسط [Fulgur'Ventures](https://fulgur.ventures/) سازماندهی شده بود، رشد کرد. هفته اول، که بر Rust و SDKها متمرکز بود، در این دوره دیگر قابل یافتن است:
 
 
-https://planb.network/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
+https://planb.academy/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
 
 در این دوره، ما بر روی هفته دوم بوت‌کمپ تمرکز می‌کنیم که بر روی RGB تمرکز دارد.
 
@@ -2594,7 +2594,7 @@ Lightning Network یک شبکه غیرمتمرکز از کانال‌های پر
 برای اطلاعات بیشتر در مورد نحوه کار Lightning، توصیه می‌کنم این دوره دیگر را بگذرانید:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 #### Multi Protocol Commitment - MPC
 
@@ -4239,8 +4239,8 @@ interface: RGB20Fixed
 
 globals:
 spec:
-ticker: PBN
-name: Plan B Network
+ticker: Plan ₿ Academy
+name: Plan ₿ Academy
 details: "Pay attention: the asset has no value"
 precision: 2
 terms:
@@ -4297,7 +4297,7 @@ rgb contracts
 ![RGB-Bitcoin](assets/en/087.webp)
 
 
-سپس، فرمان بعدی وضعیت‌های جهانی (نام، نماد، Supply...) و لیست وضعیت‌های مالکیت شده، یعنی تخصیص‌ها (برای مثال، 1 میلیون توکن `PBN` تعریف شده در UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`) را نمایش می‌دهد.
+سپس، فرمان بعدی وضعیت‌های جهانی (نام، نماد، Supply...) و لیست وضعیت‌های مالکیت شده، یعنی تخصیص‌ها (برای مثال، 1 میلیون توکن `Plan ₿ Academy` تعریف شده در UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`) را نمایش می‌دهد.
 
 
 ```bash
@@ -4556,7 +4556,7 @@ Commitment Transaction امضا شده توسط Bob، آماده برای توز
 عملیات RGB بر روی Lightning باید به موازات عملیات خود Lightning Network در نظر گرفته شود. اگر مایلید به این موضوع بیشتر بپردازید، به شدت توصیه می‌کنم به این دوره آموزشی جامع دیگر نگاهی بیندازید:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ### نقشه کد RGB
 
@@ -5270,7 +5270,7 @@ http://localhost:3001/createutxos
 ```
 
 
-اکنون می‌توانیم یک دارایی RGB ایجاد کنیم. فرمان بستگی به نوع دارایی که می‌خواهید ایجاد کنید و پارامترهای آن دارد. در اینجا من یک دارایی NIA (*دارایی غیرقابل تورم*) token به نام "PBN" با یک Supply از 1000 واحد ایجاد می‌کنم. `precision` به شما اجازه می‌دهد تا قابلیت تقسیم‌پذیری واحدها را تعریف کنید.
+اکنون می‌توانیم یک دارایی RGB ایجاد کنیم. فرمان بستگی به نوع دارایی که می‌خواهید ایجاد کنید و پارامترهای آن دارد. در اینجا من یک دارایی NIA (*دارایی غیرقابل تورم*) token به نام "Plan ₿ Academy" با یک Supply از 1000 واحد ایجاد می‌کنم. `precision` به شما اجازه می‌دهد تا قابلیت تقسیم‌پذیری واحدها را تعریف کنید.
 
 
 ```bash
@@ -5279,8 +5279,8 @@ curl -X POST -H "Content-Type: application/json" \
 "amounts": [
 1000
 ],
-"ticker": "PBN",
-"name": "Plan B Network",
+"ticker": "Plan ₿ Academy",
+"name": "Plan ₿ Academy",
 "precision": 0
 }' \
 http://localhost:3001/issueassetnia
@@ -5328,7 +5328,7 @@ curl -X 'GET' \
 ![RGB-Bitcoin](assets/en/110.webp)
 
 
-سپس، کانال را با مشخص کردن دارایی مربوطه (`PBN`) باز خواهیم کرد. فرمان `/openchannel` به شما اجازه می‌دهد اندازه کانال را به ساتوشی تعریف کنید و انتخاب کنید که دارایی RGB را شامل شود. این بستگی به چیزی دارد که می‌خواهید ایجاد کنید، اما در مورد من، فرمان به این صورت است:
+سپس، کانال را با مشخص کردن دارایی مربوطه (`Plan ₿ Academy`) باز خواهیم کرد. فرمان `/openchannel` به شما اجازه می‌دهد اندازه کانال را به ساتوشی تعریف کنید و انتخاب کنید که دارایی RGB را شامل شود. این بستگی به چیزی دارد که می‌خواهید ایجاد کنید، اما در مورد من، فرمان به این صورت است:
 
 
 ```bash
@@ -5376,7 +5376,7 @@ http://localhost:3001/openchannel
 ![RGB-Bitcoin](assets/en/112.webp)
 
 
-کانال Lightning اکنون باز است و همچنین شامل 500 توکن `PBN` در سمت نود شماره 1 می‌باشد. اگر نود شماره 2 بخواهد توکن‌های `PBN` دریافت کند، باید generate و Invoice را انجام دهد. در اینجا نحوه انجام آن آمده است:
+کانال Lightning اکنون باز است و همچنین شامل 500 توکن `Plan ₿ Academy` در سمت نود شماره 1 می‌باشد. اگر نود شماره 2 بخواهد توکن‌های `Plan ₿ Academy` دریافت کند، باید generate و Invoice را انجام دهد. در اینجا نحوه انجام آن آمده است:
 
 
 ```bash
@@ -5413,7 +5413,7 @@ lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87e
 ![RGB-Bitcoin](assets/en/113.webp)
 
 
-ما اکنون این Invoice را از اولین گره که دارای وجه نقد لازم با `PBN` token است، پرداخت خواهیم کرد:
+ما اکنون این Invoice را از اولین گره که دارای وجه نقد لازم با `Plan ₿ Academy` token است، پرداخت خواهیم کرد:
 
 
 ```bash

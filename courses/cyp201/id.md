@@ -724,7 +724,7 @@ Matematika kurva eliptik di atas lapangan terbatas analog dengan yang di atas la
 
 Jika Anda ingin mempelajari lebih lanjut tentang dasar-dasar matematika kriptografi modern, saya juga merekomendasikan untuk berkonsultasi dengan kursus lain di Jaringan Plan ₿:
 
-https://planb.network/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
+https://planb.academy/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 
 ## Menghitung Kunci Publik dari Kunci Privat
 
@@ -1117,7 +1117,7 @@ Jika bendera sighash ini diintegrasikan ke dalam Bitcoin, ini akan memungkinkan 
 
 Untuk memperdalam pengetahuan Anda tentang Lightning Network, setelah kursus CYP201, saya sangat merekomendasikan kursus LNP201 oleh Fanis Michalakis, yang membahas topik ini secara detail:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Di bagian selanjutnya, saya mengusulkan untuk menemukan bagaimana frasa mnemonik di dasar dompet Bitcoin Anda bekerja.
 
@@ -1150,9 +1150,9 @@ Jika seseorang ingin menggunakan beberapa kunci privat, maka diperlukan untuk me
 
 Keterbatasan ini berasal dari model privasi Bitcoin. Dengan menggunakan alamat yang sama berulang kali, ini memudahkan pengamat eksternal untuk melacak semua transaksi Bitcoin saya. Itulah mengapa menggunakan kembali alamat penerima sangat tidak disarankan. Namun, untuk memiliki beberapa alamat dan memisahkan transaksi kita secara publik, diperlukan untuk mengelola beberapa kunci privat. Dalam kasus dompet JBOK, ini menyiratkan pembuatan banyak cadangan sebanyak pasangan kunci baru, tugas yang dapat dengan cepat menjadi kompleks dan sulit untuk dipertahankan bagi pengguna.
 
-Untuk mempelajari lebih lanjut tentang model privasi Bitcoin dan menemukan metode untuk melindungi privasi Anda, saya juga merekomendasikan mengikuti kursus BTC204 saya di Plan ₿ Network:
+Untuk mempelajari lebih lanjut tentang model privasi Bitcoin dan menemukan metode untuk melindungi privasi Anda, saya juga merekomendasikan mengikuti kursus BTC204 saya di Plan ₿ Academy:
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Dompet HD (_Hierarchical Deterministic_)
 
@@ -1255,7 +1255,7 @@ Misalnya, untuk entropi 256-bit, hasil $\text{ENT} \Vert \text{CS}$ adalah 264 b
 
 ### Konversi Urutan Biner menjadi Frasa Mnemonik
 
-Urutan bit $\text{ENT} \Vert \text{CS}$ kemudian dibagi menjadi segmen-segmen 11 bit. Setiap segmen 11-bit, setelah dikonversi ke desimal, sesuai dengan nomor antara 0 dan 2047, yang menunjukkan posisi kata [dalam daftar 2048 kata yang distandarisasi oleh BIP39](https://github.com/Planb-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
+Urutan bit $\text{ENT} \Vert \text{CS}$ kemudian dibagi menjadi segmen-segmen 11 bit. Setiap segmen 11-bit, setelah dikonversi ke desimal, sesuai dengan nomor antara 0 dan 2047, yang menunjukkan posisi kata [dalam daftar 2048 kata yang distandarisasi oleh BIP39](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
 ![CYP201](assets/en/042.webp)
 Misalnya, untuk entropi 128-bit, checksum adalah 4 bit, sehingga total urutan berukuran 132 bit. Ini dibagi menjadi 12 segmen dari 11 bit (bit oranye menunjukkan checksum):
@@ -1295,7 +1295,7 @@ Sebagai hasilnya, memilih frasa 24 kata tidak memberikan perlindungan tambahan u
 Frasa 12 kata, yang juga menawarkan keamanan 128 bit, saat ini sudah cukup untuk melindungi bitcoin Anda dari setiap upaya pencurian. Selama algoritma tanda tangan digital tidak berubah untuk menggunakan kunci yang lebih besar atau bergantung pada masalah matematika lain selain ECDLP, frasa 24 kata tetap berlebihan. Selain itu, frasa yang lebih panjang meningkatkan risiko kehilangan saat pencadangan: pencadangan yang dua kali lebih singkat selalu lebih mudah dikelola.
 Untuk lebih lanjut dan belajar secara konkret bagaimana menghasilkan frasa mnemonik tes secara manual, saya menyarankan Anda untuk menemukan tutorial ini:
 
-https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
+https://planb.academy/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
 
 Sebelum melanjutkan dengan derivasi dompet dari frasa mnemonik ini, saya akan memperkenalkan Anda, dalam bab berikutnya, ke frasa sandi BIP39, karena ini berperan dalam proses derivasi, dan berada pada level yang sama dengan frasa mnemonik.
 ## Frasa Sandi

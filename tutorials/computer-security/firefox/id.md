@@ -314,8 +314,8 @@ Penggunaan terbaik
 - Browser yang diperkuat ≠ anonimitas jaringan: tanpa **VPN**, IP Anda tetap terlihat; bahkan dengan itu, korelasi tetap mungkin.
 - Memodifikasi terlalu banyak dapat membuat Anda **unik**. **RFP** menstandarisasi; aplikasi pengacak (misalnya Chameleon) dapat... membedakan Anda. Uji, bandingkan, sesuaikan.
 - Alternatif/pelengkap:
-  - Tor Browser: anonimitas jaringan melalui Tor; lebih lambat. Lihat panduan instalasi dan konfigurasi lengkap kami: https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
-  - Mullvad Browser: "Tor tanpa Tor", untuk digabungkan dengan VPN; jejak yang distandarisasi. Cari tahu cara memasangnya di tutorial khusus kami: https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
+  - Tor Browser: anonimitas jaringan melalui Tor; lebih lambat. Lihat panduan instalasi dan konfigurasi lengkap kami: https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+  - Mullvad Browser: "Tor tanpa Tor", untuk digabungkan dengan VPN; jejak yang distandarisasi. Cari tahu cara memasangnya di tutorial khusus kami: https://planb.academy/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 - Kombinasi yang direkomendasikan: Firefox (Level 2) + VPN untuk penggunaan sehari-hari; Tor/Mullvad untuk aktivitas sensitif; profil terpisah untuk kompartementalisasi.
 
 ## Kesimpulan
@@ -328,11 +328,11 @@ Dengan mengikuti panduan langkah demi langkah ini, Anda telah mengubah Firefox m
 
 ## Sumber daya
 
-### Plan ₿ Network
+### Plan ₿ Academy
 
 - SCU 202 - Meningkatkan keamanan digital pribadi Anda: Untuk mempelajari lebih lanjut tentang konsep keamanan digital yang tercakup dalam tutorial ini
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 ### Dokumentasi Mozilla
 

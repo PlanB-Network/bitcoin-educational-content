@@ -75,7 +75,7 @@ Menavigasi lanskap tata kelola Bitcoin yang kompleks membutuhkan lebih dari seka
 Siap untuk mengambil langkah selanjutnya dalam perjalanan Bitcoin Anda? Mari kita mulai!
 
 
-*cATATAN **NB**: Jika Anda menemukan istilah asing yang terkait dengan Bitcoin selama kursus, silakan merujuk ke [glosarium](https://planb.network/resources/glossary) untuk menemukan definisinya.*
+*cATATAN **NB**: Jika Anda menemukan istilah asing yang terkait dengan Bitcoin selama kursus, silakan merujuk ke [glosarium](https://planb.academy/resources/glossary) untuk menemukan definisinya.*
 
 
 
@@ -154,7 +154,7 @@ Jika mereka berhasil, masalah yang sama kemungkinan besar akan muncul kembali di
 Tidak satu pun dari opsi ini yang bermanfaat bagi pengguna.
 
 
-Resistensi sensor melalui desentralisasi adalah apa yang membedakan Bitcoin dari sistem uang lainnya, tetapi bukan hal yang mudah untuk dicapai karena *masalah Double-spending*. Ini adalah masalah untuk memastikan tidak ada orang yang dapat membelanjakan koin yang sama dua kali, sebuah masalah yang menurut banyak orang tidak mungkin dipecahkan dengan cara yang terdesentralisasi. Satoshi Nakamoto menulis dalam [whitepaper Bitcoin](https://planb.network/bitcoin.pdf) tentang bagaimana cara memecahkan masalah Double-spending:
+Resistensi sensor melalui desentralisasi adalah apa yang membedakan Bitcoin dari sistem uang lainnya, tetapi bukan hal yang mudah untuk dicapai karena *masalah Double-spending*. Ini adalah masalah untuk memastikan tidak ada orang yang dapat membelanjakan koin yang sama dua kali, sebuah masalah yang menurut banyak orang tidak mungkin dipecahkan dengan cara yang terdesentralisasi. Satoshi Nakamoto menulis dalam [whitepaper Bitcoin](https://planb.academy/bitcoin.pdf) tentang bagaimana cara memecahkan masalah Double-spending:
 
 
 > Dalam makalah ini, kami mengusulkan solusi untuk masalah Double-spending menggunakan server Timestamp terdistribusi peer-to-peer untuk bukti komputasi generate dari urutan kronologis transaksi.
@@ -652,7 +652,7 @@ Untuk mengurangi risiko terungkapnya data pribadi Anda adalah dengan tidak membe
 Artikel ini menyarankan Anda untuk menghindari penggunaan bursa yang membutuhkan KYC/AML dan sebagai gantinya berdagang secara pribadi, atau menggunakan bursa terdesentralisasi seperti [bisq](https://bisq.network/).
 
 
-https://planb.network/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+https://planb.academy/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 Untuk bacaan yang lebih mendalam tentang tindakan pencegahan, lihat [artikel wiki tentang privasi](https://en.Bitcoin.it/wiki/Privacy#Methods_for_improving_privacy_.28non-Blockchain.29) yang telah disebutkan sebelumnya, mulai dari "Metode untuk meningkatkan privasi (non-Blockchain)".
 

@@ -6,4 +6,4 @@ wrong_answers:
   - RFC 1035
 explanation: |
   La RFC 6724 définit l'algorithme qui permet de choisir l'adresse IP (IPv4 ou IPv6) à utiliser lorsque les deux sont disponibles pour un même nom d’hôte.
-reviewed: false
+reviewed: true 

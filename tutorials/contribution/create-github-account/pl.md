@@ -9,7 +9,7 @@ description: Jak utworzyć własne konto na GitHub?
 Misją Plan ₿ jest dostarczanie najwyższej jakości zasobów edukacyjnych na temat Bitcoin, dostępnych w jak największej liczbie języków. Wszystkie treści publikowane na stronie są open-source i hostowane na GitHub, oferując każdemu możliwość przyczynienia się do wzbogacenia platformy. Wkład może przybierać różne formy: poprawianie i korekta istniejących tekstów, tłumaczenia na inne języki, aktualizowanie informacji lub tworzenie nowych samouczków, które nie są jeszcze dostępne na naszej stronie.
 
 
-Jeśli chcesz współtworzyć Plan ₿ Network, będziesz musiał korzystać z Git i GitHub, więc jeśli te narzędzia są ci nieznane lub ich działanie wydaje się niejasne, nie panikuj, ten artykuł jest dla ciebie! Dokonamy wspólnie przeglądu podstaw Git i GitHub, a także związanego z nimi żargonu technicznego, aby umożliwić ci efektywne korzystanie z nich później.
+Jeśli chcesz współtworzyć Plan ₿ Academy, będziesz musiał korzystać z Git i GitHub, więc jeśli te narzędzia są ci nieznane lub ich działanie wydaje się niejasne, nie panikuj, ten artykuł jest dla ciebie! Dokonamy wspólnie przeglądu podstaw Git i GitHub, a także związanego z nimi żargonu technicznego, aby umożliwić ci efektywne korzystanie z nich później.
 
 
 ## Czym jest Git?
@@ -27,7 +27,7 @@ Jedną z kluczowych funkcji Git jest zarządzanie gałęziami. Gałąź to rodza
 
 Jedną z osobliwości Git jest jego zdolność do działania w sposób rozproszony. Każdy deweloper ma pełną kopię projektu na dysku Hard swojego komputera, co pozwala mu pracować w trybie offline i scalać zmiany później, gdy dostępne jest połączenie internetowe. Zmniejsza to ryzyko konfliktów i pozwala wielu deweloperom pracować jednocześnie nad tym samym projektem bez wchodzenia sobie w drogę.
 
-Początkowo Git był przeznaczony głównie do projektów związanych z tworzeniem oprogramowania. Jednak może być również używany do zarządzania projektami pisania treści. Zamiast współpracować nad kodem, współpracujemy nad tekstem. I właśnie tę metodę Plan ₿ Network przyjęło do zarządzania swoimi treściami! Git ułatwia współpracę przy pisaniu kursów i samouczków, ponieważ pozwala na precyzyjne śledzenie zmian, wydajne zarządzanie wersjami, a także umożliwia przeglądanie i ulepszanie treści przez innych współtwórców.
+Początkowo Git był przeznaczony głównie do projektów związanych z tworzeniem oprogramowania. Jednak może być również używany do zarządzania projektami pisania treści. Zamiast współpracować nad kodem, współpracujemy nad tekstem. I właśnie tę metodę Plan ₿ Academy przyjęło do zarządzania swoimi treściami! Git ułatwia współpracę przy pisaniu kursów i samouczków, ponieważ pozwala na precyzyjne śledzenie zmian, wydajne zarządzanie wersjami, a także umożliwia przeglądanie i ulepszanie treści przez innych współtwórców.
 
 
 ## Czym jest GitHub?
@@ -46,7 +46,7 @@ Wyobraź sobie Git jako rodzaj dziennika, którego każdy programista używa na 
 Podstawowa różnica między Git i GitHub polega na ich funkcji: Git jest narzędziem używanym lokalnie przez każdego dewelopera do zarządzania swoimi wersjami kodu, podczas gdy GitHub jest platformą internetową, która hostuje te wersje i ułatwia współpracę.
 
 
-GitHub to znacznie więcej niż tylko usługa hostingu kodu. To platforma współpracy, która umożliwia programistom efektywną współpracę. I rzeczywiście, Plan ₿ Network wykorzystuje tę platformę do hostowania nie tylko całego kodu, który zasila witrynę, ale także, i to nas interesuje, całej zawartości (samouczki, szkolenia, zasoby...).
+GitHub to znacznie więcej niż tylko usługa hostingu kodu. To platforma współpracy, która umożliwia programistom efektywną współpracę. I rzeczywiście, Plan ₿ Academy wykorzystuje tę platformę do hostowania nie tylko całego kodu, który zasila witrynę, ale także, i to nas interesuje, całej zawartości (samouczki, szkolenia, zasoby...).
 
 
 ## Niektóre terminy techniczne
@@ -106,7 +106,7 @@ Po przeczytaniu tego artykułu możliwe jest, że niektóre aspekty Git i GitHub
 ## Jak utworzyć konto GitHub
 
 
-Jeśli chcesz współtworzyć PlanB Network, będziesz potrzebować konta GitHub. W tym samouczku poprowadzimy Cię krok po kroku, jak utworzyć własne konto, skonfigurować je i odpowiednio zabezpieczyć.
+Jeśli chcesz współtworzyć Plan ₿ Academy, będziesz potrzebować konta GitHub. W tym samouczku poprowadzimy Cię krok po kroku, jak utworzyć własne konto, skonfigurować je i odpowiednio zabezpieczyć.
 
 
 

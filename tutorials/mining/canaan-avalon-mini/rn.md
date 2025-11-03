@@ -23,7 +23,7 @@ Ivyo bikoresho bigurishwa nk’igikoresho co gushushanya co gufasha mu gihe c’
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
 
 Turagusavye uzirikane ko itandukaniro ry’igiciro n’ibikoresho vya kera vy’ugushushanya vy’ububasha bungana, mu bihe vyinshi, ritaguha uburenganzira bwo kuronka inyungu y’amahera. Ivyo bita satoshis biva ku gikorwa ca Mining ntibizokwigera bisubiza inyuma iyo ntandukaniro y’igiciro, kiretse iyo ufise amashanyarazi y’ubuntu (arengeye) canke atari menshi cane.
 
@@ -181,9 +181,9 @@ Kubindi bisobanuro ku buryo bwo kwifatanya na Mining pool, urashobora kuraba aya
 
 
 
-https://planb.network/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-https://planb.network/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
+https://planb.academy/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
 
 Mu guca irya n’ino, turakeneye .
 
@@ -358,4 +358,4 @@ Kugira ngo umenye vyinshi, raba inyigisho yacu ku bijanye n’iyi Avalon ntoyi c
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6

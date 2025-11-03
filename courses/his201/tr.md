@@ -183,7 +183,7 @@ Asimetrik kriptografinin keşfi, bir görüntünün hesaplanmasını (ileri yön
 
 Bitcoin'nin temel kriptografik Elements'sı bu araştırmadan kaynaklanmaktadır. Geleneksel bir işlem için harcama yetkisi sağlayan ECDSA imza şeması 1992 yılında NIST için oluşturulmuştur. Protokolün birçok yerinde kullanılan SHA-256 Hash işlevi, 2001 yılında NSA tarafından kamuya açıklanan SHA-2 algoritma paketinin bir parçası olarak yayınlanmıştır. Bu konu hakkında daha fazla bilgi için Loïc Morel tarafından sunulan CYP201 kursuna bakınız.
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 ### Kör İmzalar ve Elektronik Nakit
@@ -292,7 +292,7 @@ E-gold ve Liberty Reserve gibi diğer alternatif merkezi sistemler de paralel ol
 Daha sonra eCash, b-money, bit gold ve RPOW gibi modelleri geliştiren cypherpunk'lara ilham verdi. Proof of Work ve daha sonra Bitcoin'da bulunan diğer Elements'i eklediler. Bu kavramları Bölüm 3'te inceleyeceğiz.
 
 
-Son olarak, David Chaum'un modeli Satoshi Nakamoto'yu para birimi kavramını geliştirirken önemli ölçüde etkilemiştir. Bu, [white paper](assets/pdf/Bitcoin-20090324.pdf) (başlık, 2. bölümdeki sorunun tanımı, Ağustos 2008'de Wei Dai'ye [gönderilen](https://gwern.net/doc/Bitcoin/2008-nakamoto) PDF'nin adı) ve özel ve kamusal müdahalelerindeki çok sayıda referansla kanıtlanmaktadır. Bu anlamda eCash, tek olmasa bile Bitcoin'nin ana öncülüdür.
+Son olarak, David Chaum'un modeli Satoshi Nakamoto'yu para birimi kavramını geliştirirken önemli ölçüde etkilemiştir. Bu, [white paper](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/courses/his201/assets/bitcoin-20090324.pdf) (başlık, 2. bölümdeki sorunun tanımı, Ağustos 2008'de Wei Dai'ye [gönderilen](https://gwern.net/doc/Bitcoin/2008-nakamoto) PDF'nin adı) ve özel ve kamusal müdahalelerindeki çok sayıda referansla kanıtlanmaktadır. Bu anlamda eCash, tek olmasa bile Bitcoin'nin ana öncülüdür.
 
 
 Satoshi Nakamoto, Bitcoin ile sağlam ve gizli bir dijital para birimi, gerçek elektronik nakit yarattı. Bunu yaparken, 1999 yılında Ulusal Vergi Mükellefleri Birliği Vakfı ile yaptığı bir röportajda Nobel Ekonomi Ödülü sahibi ve Chicago Okulu'nun kurucusu Milton Friedman'ın [öngörüsünü] (https://www.youtube.com/watch?v=mlwxdyLnMXM&t=872s) gerçekleştirdi:
@@ -479,7 +479,7 @@ Sertifikalı zaman damgası örneği (kaynak: [Wikimedia](https://en.m.wikipedia
 
 Haber ve Stornetta, 1992 yılında New York Times'ın seri ilanlarında kriptografik parmak izlerini (yararlı verilerin hash edilmesiyle elde edilen) yayınlayarak fikirlerini hayata geçirdiler. Daha sonra 1994 yılında kendilerini tamamen bu faaliyete adamak için kendi şirketleri olan Surety Technologies'i kurdular. Bu nedenle, Bitcoin Blockchain'ün habercisi olan, gazetede yayınlanacak yeni parmak izinin hesaplanmasında önceki parmak izinin dikkate alındığı ilk Timestamp zincirini oluşturdukları için [bilinmektedir] (https://www.vice.com/en/article/j5nzx4/what-was-the-first-Blockchain).
 
-Haber ve Stornetta'nın üç makalesi Satoshi Nakamoto tarafından [Bitcoin white paper]'da (assets/pdf/Bitcoin-20090324.pdf) alıntılanmıştır: daha önce bahsedilen 1991 tarihli makale, 1993 tarihli bir [paper] (https://www.math.columbia.edu/~bayer/papers/Timestamp_BHS93.pdf), özellikle Merkle ağaçlarının kullanımı yoluyla bir öncekinde önerilen protokolleri geliştirmiştir ve 1997 tarihli bir [paper] (https://cdn.nakamotoinstitute.org/docs/secure-names-bit-strings.pdf), dosyaları evrensel olarak tek yönlü işlevler kullanarak adlandırmanın bir yolunu sunmuştur. Ayrıca Belçika'daki Louvain Katolik Üniversitesi'nde kriptografi araştırma grubunda çalışan Henri Massias, Xavier Serret-Avila ve Jean-Jacques Quisquater tarafından 1999 yılında yazılan yeni bir zaman damgası sistemini tanımlayan bir [paper](https://cdn.nakamotoinstitute.org/docs/secure-timestamping-service.pdf)'a da atıfta bulunulmuştur.
+Haber ve Stornetta'nın üç makalesi Satoshi Nakamoto tarafından [Bitcoin white paper]'da (https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/courses/his201/assets/bitcoin-20090324.pdf) alıntılanmıştır: daha önce bahsedilen 1991 tarihli makale, 1993 tarihli bir [paper] (https://www.math.columbia.edu/~bayer/papers/Timestamp_BHS93.pdf), özellikle Merkle ağaçlarının kullanımı yoluyla bir öncekinde önerilen protokolleri geliştirmiştir ve 1997 tarihli bir [paper] (https://cdn.nakamotoinstitute.org/docs/secure-names-bit-strings.pdf), dosyaları evrensel olarak tek yönlü işlevler kullanarak adlandırmanın bir yolunu sunmuştur. Ayrıca Belçika'daki Louvain Katolik Üniversitesi'nde kriptografi araştırma grubunda çalışan Henri Massias, Xavier Serret-Avila ve Jean-Jacques Quisquater tarafından 1999 yılında yazılan yeni bir zaman damgası sistemini tanımlayan bir [paper](https://cdn.nakamotoinstitute.org/docs/secure-timestamping-service.pdf)'a da atıfta bulunulmuştur.
 
 ### Proof of Work ve Hashcash
 
@@ -687,7 +687,7 @@ Satoshi ise buluşunu kamuoyuna duyurmak için hazırlıklarını tamamlar. 3 Ek
 ### Beyaz kitabın yayınlanması
 
 
-31 Ekim 2008'de Satoshi Nakamoto [beyaz kağıdın ilk versiyonunu] (assets/pdf/Bitcoin-20081003.pdf) kriptografiye adanmış ve kısaca "Kriptografi posta listesi" olarak adlandırılan bir e-posta listesinde yayınlar Bu liste 1996 yılından beri geliştirici Perry Metzger tarafından yönetilmektedir, [kuruluşu](https://cypherpunks.venona.com/date/1996/12/msg00102.html) ve [2003](https://www.metzdowd.com/pipermail/cryptography/2003-April/004484.html) yılından beri Metdowd.com adlı kişisel sitesinde barındırılmaktadır. Bu liste cypherpunks listesinin halefidir, tek farkı sıkı bir denetime tabi olmasıdır. 2008 yılında, John Gilmore, Hal Finney ve Len Sassaman gibi birkaç eski cypherpunks hala katılmıştır.
+31 Ekim 2008'de Satoshi Nakamoto [beyaz kağıdın ilk versiyonunu] (https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/courses/his201/assets/bitcoin-20081003.pdf) kriptografiye adanmış ve kısaca "Kriptografi posta listesi" olarak adlandırılan bir e-posta listesinde yayınlar Bu liste 1996 yılından beri geliştirici Perry Metzger tarafından yönetilmektedir, [kuruluşu](https://cypherpunks.venona.com/date/1996/12/msg00102.html) ve [2003](https://www.metzdowd.com/pipermail/cryptography/2003-April/004484.html) yılından beri Metdowd.com adlı kişisel sitesinde barındırılmaktadır. Bu liste cypherpunks listesinin halefidir, tek farkı sıkı bir denetime tabi olmasıdır. 2008 yılında, John Gilmore, Hal Finney ve Len Sassaman gibi birkaç eski cypherpunks hala katılmıştır.
 
 
 Listeye gönderdiği ilk [e-posta](https://www.metzdowd.com/pipermail/cryptography/2008-October/014810.html) adresinde Satoshi şöyle yazıyor:
@@ -739,7 +739,7 @@ Bitcoin, tüm ağ düğümlerinin, Hal Finney'in ilk e-postasında iki kelimeyle
 
 Bu mutabakat mekanizması, sistem içinde her türlü kural ve teşvikin (beyaz bültenin son cümlesini kullanmak gerekirse) uygulanmasına izin verir. Bitcoin dağıtılmış bir zaman damgası hizmeti oluşturduğundan, bu kuralların zamanla etkileşime girmesi de mümkündür. Dolayısıyla, yeni blokların ve ilgili bitcoinlerin üretimini düzenlemek için devreye giren zorluk ayarlama algoritması: belirli bir süre içinde üretilen blok sayısı çok yüksekse, üretim zorluğu artar; tersi durumda ise azalır. Dolayısıyla Bitcoin, çalışma kanıtlarının hesap birimlerini oluşturduğu RPOW'dan farklıdır.
 
-Bu zorluk ayarı sayesinde, Bitcoin bir para politikasına sahip olabilir, yani protokol tarafından verilen yeni birimlerin miktarı önceden belirlenebilir. Başlangıçta, üretici düğümleri bilgi işlem güçlerini ağa katkıda bulunmaya teşvik etmek için parasal ihracın sabit olması planlanmaktadır ve herhangi bir işlem ücreti yoktur. Satoshi Nakamoto'nun [white paper]'ın "Teşvik" bölümünde yazdığı gibi (assets/pdf/Bitcoin-20081003.pdf):
+Bu zorluk ayarı sayesinde, Bitcoin bir para politikasına sahip olabilir, yani protokol tarafından verilen yeni birimlerin miktarı önceden belirlenebilir. Başlangıçta, üretici düğümleri bilgi işlem güçlerini ağa katkıda bulunmaya teşvik etmek için parasal ihracın sabit olması planlanmaktadır ve herhangi bir işlem ücreti yoktur. Satoshi Nakamoto'nun [white paper]'ın "Teşvik" bölümünde yazdığı gibi (https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/courses/his201/assets/bitcoin-20081003.pdf):
 
 > "Sabit miktarda yeni madeni paranın sürekli olarak eklenmesi, altın madencilerinin dolaşıma altın eklemek için kaynak harcamasına benzer."
 

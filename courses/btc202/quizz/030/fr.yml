@@ -6,4 +6,4 @@ wrong_answers:
   - Compatibilité avec une monnaie différente de Bitcoin
 explanation: |
   Le node-in-a-box simplifie l’installation et la gestion de nombreuses applications annexes via une interface unifiée.
-reviewed: false
+reviewed: true 

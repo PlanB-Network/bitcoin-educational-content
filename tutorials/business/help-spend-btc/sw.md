@@ -13,7 +13,7 @@ description: Mwongozo mfupi wa kuhamasisha wateja kutumia bitcoins zao kwenye du
 Hatimaye umeamua kukubali Bitcoin katika biashara yako, na kila kitu kiko tayari: Lightning Network Wallet imewekwa kwa ajili ya kupokea malipo, wafanyakazi wako wanajua jinsi ya kutumia toleo la kusoma tu la Wallet kupokea malipo kwa niaba yako, Point of Sale (PoS) imesanidiwa pamoja na bidhaa za dukani na kusasishwa kila mwezi, na tayari unajua jinsi ya kusimamia akaunti ya Bitcoin. Ikiwa hujui jinsi ya kuifanya, angalia mafunzo haya:
 
 
-https://planb.network/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
+https://planb.academy/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
 
 ## Nini Tatizo
 
@@ -129,7 +129,7 @@ Njia ya utekelezaji imeachwa kwa mfanyabiashara, lakini kwa ufupi, hapa kuna cha
 Kwa hali yoyote, daima ni mazoea mazuri kuhakikisha kwamba biashara yako, ikiwa ina eneo la kimwili, ipo na imesasishwa kwenye [BTC Map](https://btcmap.org/map). Watumiaji wengi wa bitcoin wanafahamu zana hii, na karibu wote ambao wametumia bitcoin katika maduka ya kimwili wameangalia angalau mara moja kuona ni maeneo gani yanayokubali. Ikiwa unataka kujifunza jinsi ya kuongeza duka lako kwenye BTC Map au unataka habari zaidi, tazama mafunzo haya:
 
 
-https://planb.network/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-f62658f343c6
+https://planb.academy/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-f62658f343c6
 
 ## Kusimamia Uhasibu
 
@@ -137,7 +137,7 @@ https://planb.network/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-
 Iwapo unashangaa jinsi ya kudhibiti uhasibu wa bitcoins ulizopata hivi punde, iwe umetumia mojawapo ya sera za punguzo au la, haya ndiyo mafunzo kwako:
 
 
-https://planb.network/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
+https://planb.academy/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
 
 ## Hitimisho
 

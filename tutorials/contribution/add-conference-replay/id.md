@@ -8,9 +8,9 @@ Misi PlanB adalah menyediakan sumber daya pendidikan tingkat atas tentang Bitcoi
 
 Apakah Anda ingin menambahkan rekaman konferensi Bitcoin Anda di situs Jaringan PlanB dan memberikan visibilitas kepada acara ini, tetapi tidak tahu bagaimana? Tutorial ini untuk Anda!
 
-Namun, jika Anda ingin menambahkan konferensi yang akan berlangsung di masa depan, saya menyarankan Anda untuk [membaca tutorial lain ini](https://planb.network/tutorials/contribution/resource/add-event-1d3df554-c2d8-4e93-853f-58f672c5e097) di mana kami menjelaskan cara menambahkan acara baru ke situs.
+Namun, jika Anda ingin menambahkan konferensi yang akan berlangsung di masa depan, saya menyarankan Anda untuk [membaca tutorial lain ini](https://planb.academy/tutorials/contribution/resource/add-event-1d3df554-c2d8-4e93-853f-58f672c5e097) di mana kami menjelaskan cara menambahkan acara baru ke situs.
 ![conference](assets/01.webp)
-- Pertama, Anda perlu memiliki akun di GitHub. Jika Anda tidak tahu cara membuat akun, kami telah membuat [tutorial terperinci untuk membimbing Anda](https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c).
+- Pertama, Anda perlu memiliki akun di GitHub. Jika Anda tidak tahu cara membuat akun, kami telah membuat [tutorial terperinci untuk membimbing Anda](https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c).
 - Kunjungi [repositori GitHub PlanB yang didedikasikan untuk data](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) di bagian `resources/conference/`:
 ![conference](assets/02.webp)
 - Klik tombol `Add file` di kanan atas, lalu pada `Create new file`:
@@ -60,7 +60,7 @@ tags:
 ```
 
 ![conference](assets/09.webp)
-Jika Anda belum memiliki pengenal "*project*" untuk organisasi Anda, Anda dapat menambahkannya [dengan mengikuti tutorial lain ini](https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d).
+Jika Anda belum memiliki pengenal "*project*" untuk organisasi Anda, Anda dapat menambahkannya [dengan mengikuti tutorial lain ini](https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d).
 - Setelah Anda selesai melakukan perubahan pada file ini, simpan perubahan tersebut dengan mengklik tombol `Commit changes...`:
 ![konferensi](assets/10.webp)
 - Tambahkan judul untuk perubahan Anda, serta deskripsi singkat:
@@ -71,7 +71,7 @@ Jika Anda belum memiliki pengenal "*project*" untuk organisasi Anda, Anda dapat 
 ![konferensi](assets/13.webp)
 - Klik pada gambar profil GitHub Anda di pojok kanan atas, kemudian pada `Your Repositories`:
 ![konferensi](assets/14.webp)
-- Pilih fork Anda dari repositori PlanB Network:
+- Pilih fork Anda dari repositori Plan ₿ Academy:
 ![konferensi](assets/15.webp)
 - Anda seharusnya melihat notifikasi di bagian atas jendela dengan cabang baru Anda. Mungkin disebut `patch-1`. Klik pada itu:
 ![konferensi](assets/16.webp)
@@ -93,7 +93,7 @@ Jika Anda belum memiliki pengenal "*project*" untuk organisasi Anda, Anda dapat 
 ![konferensi](assets/24.webp)
 - Klik pada tombol `Add file`, kemudian pada `Upload files`:
 ![konferensi](assets/25.webp)
-- Sebuah halaman baru akan terbuka. Seret dan lepaskan gambar yang mewakili konferensi Anda dan akan ditampilkan di situs PlanB Network: ![konferensi](assets/26.webp)
+- Sebuah halaman baru akan terbuka. Seret dan lepaskan gambar yang mewakili konferensi Anda dan akan ditampilkan di situs Plan ₿ Academy: ![konferensi](assets/26.webp)
 - Ini bisa berupa logo, thumbnail, atau bahkan poster:
 ![konferensi](assets/27.webp)
 - Setelah gambar diunggah, periksa bahwa kotak `Commit directly to the patch-1 branch` dicentang, kemudian klik pada `Commit changes`:
@@ -167,7 +167,7 @@ Pembicara: Satoshi Nakamoto
 ```
 
 ![konferensi](assets/37.webp)
-- Di awal dokumen Anda, dalam "front matter," isi bidang `name:` dengan nama konferensi Anda dan tahun replay. Di bidang `description:`, tulis deskripsi singkat acara Anda dalam bahasa file tersebut. Sebagai contoh, untuk file bernama `en.md`, deskripsinya harus dalam bahasa Inggris. Tim PlanB Network akan mengurus penerjemahan deskripsi Anda menggunakan model mereka.
+- Di awal dokumen Anda, dalam "front matter," isi bidang `name:` dengan nama konferensi Anda dan tahun replay. Di bidang `description:`, tulis deskripsi singkat acara Anda dalam bahasa file tersebut. Sebagai contoh, untuk file bernama `en.md`, deskripsinya harus dalam bahasa Inggris. Tim Plan ₿ Academy akan mengurus penerjemahan deskripsi Anda menggunakan model mereka.
 - Judul tingkat pertama, ditandai dengan `#`, digunakan untuk mengorganisir konferensi berdasarkan adegan. Sebagai contoh, `# Panggung Utama` untuk panggung utama dan `# Ruang Workshop` untuk panggung yang didedikasikan untuk workshop.
 
 - Judul tingkat kedua, ditandai dengan ganda `##`, digunakan untuk memisahkan video replay yang berbeda. Jika konferensi difilmkan secara terus-menerus selama setengah hari, sebutkan, misalnya, `## Jumat pagi`. Jika konferensi difilmkan dan disiarkan secara individu, namai konferensi langsung dengan judul tingkat kedua.

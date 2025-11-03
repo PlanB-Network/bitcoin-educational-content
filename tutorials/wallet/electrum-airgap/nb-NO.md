@@ -54,7 +54,7 @@ For å laste ned Electrum anbefaler jeg at du følger de første trinnene i denn
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 Etter nedlasting må du alltid verifisere utgivelsen før du installerer den, og deretter fortsette til "One Server"-konfigurasjonen, som du finner i hjelpeseksjonen under `Start med en Dummy Wallet`.
 

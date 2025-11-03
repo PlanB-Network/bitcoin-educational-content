@@ -81,6 +81,7 @@ The next step involves configuring the Windows login account:
 ![Image](assets/en/12.webp)
 
 ## Account seetings
+
 At this stage:
 
 1. We can define a name and password for the admin account. It is also possible to create multiple user or admin accounts.
@@ -100,6 +101,7 @@ The next step involves configuring Windows security settings:
 ![Image](assets/en/14.webp)
 
 ## Security settings
+
 At this stage:
 
 1. Windows Defender can be enabled or disabled. This feature acts like security software in Windows and helps prevent the execution of malicious files, certain network attacks, and more.
@@ -138,6 +140,7 @@ The next step involves configuring default applications:
 ![Image](assets/en/18.webp)
 
 ## Default software enable/disable
+
 In this section, we can choose any applications that we do not want to be installed by default. For example, we can opt not to install Cortana or Copilot.
 
 The next step involves security settings related to application execution:
@@ -167,6 +170,7 @@ At this stage, we disable all options, as having them enabled can cause conflict
 At this point, the USB drive is ready for use to install Windows automatically, and the installation can be started using this drive.
 
 ## ISO editing
+
 If you need to install Windows on a virtual machine, you can use software to create and edit ISO files. One such software is AnyBurn. After extracting the contents of the ISO file downloaded from the Microsoft website, place the autounattend.xml file in the root directory. Then, using AnyBurn, create a new ISO with the updated contents.
 
 AnyBurn is a multifunctional software for working with ISO files. It offers various features for handling ISO files, one of which is creating bootable ISO images; [here](https://www.anyburn.com/download.php) is the original website.

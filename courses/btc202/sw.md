@@ -1,14 +1,14 @@
 ---
-name: Kuweka nodi yako ya kwanza ya Bitcoin
-goal: Kuelewa, kusakinisha, kusanidi, na kutumia nodi ya Bitcoin
+name: Kuweka node yako ya kwanza ya Bitcoin
+goal: Kuelewa, kusakinisha, kusanidi, na kutumia node ya Bitcoin
 objectives: 
 
 
-  - Kuelewa jukumu na madhumuni ya nodi ya Bitcoin.
+  - Kuelewa jukumu na madhumuni ya node ya Bitcoin.
   - Tambua suluhisho tofauti za maunzi na programu zinazopatikana.
   - Sakinisha na usanidi Full node (Bitcoin core).
-  - Tumia Mwavuli wa Interface na uongeze programu muhimu.
-  - Unganisha Wallet ya kibinafsi kwenye nodi yake mwenyewe.
+  - Tumia Umbrel  Interface na uongeze programu muhimu.
+  - Unganisha Wallet ya kibinafsi kwenye node yake mwenyewe.
   - Gundua mipangilio ya kina na mbinu bora za usalama.
 
 
@@ -17,11 +17,11 @@ objectives:
 
 
 
-Labda unajua msemo "Sio funguo zako, sio sarafu zako", ambayo inahimiza uhifadhi wa bitcoins zako. Kushikilia funguo zako mwenyewe ni hatua muhimu ya kwanza, lakini haitoshi. Ili kufikia uhuru wa kweli wa fedha, unahitaji pia kusakinisha na kutumia nodi yako ya Bitcoin. Kozi hii imeundwa ili kukuongoza kupitia hatua hii ya msingi katika safari yako ya Bitcoin!
+Labda unajua msemo "Sio funguo zako, sio sarafu zako", ambayo inahimiza uhifadhi wa bitcoins zako. Kushikilia funguo zako mwenyewe ni hatua muhimu ya kwanza, lakini haitoshi. Ili kufikia uhuru wa kweli wa fedha, unahitaji pia kusakinisha na kutumia node yako ya Bitcoin. Kozi hii imeundwa ili kukuongoza kupitia hatua hii ya msingi katika safari yako ya Bitcoin!
 
 
 
-BTC 202 ni mafunzo rahisi yaliyoundwa kukufundisha jinsi ya kuendesha nodi yako ya Bitcoin, hata kama wewe si mtaalamu wa kiufundi. Tutaanza kwa kufafanua nodi ya Bitcoin ni nini, inafanya kazi gani, na kwa nini ni muhimu sana kuiendesha wewe mwenyewe. Kisha nitakuongoza hatua kwa hatua katika kuchagua vifaa vyako, kusakinisha programu muhimu, kuunganisha programu ya pochi yako, na kufanya uboreshaji wa awali ili kuendelea mbele.
+BTC 202 ni mafunzo rahisi yaliyoundwa kukufundisha jinsi ya kuendesha node yako ya Bitcoin, hata kama wewe si mtaalamu wa kiufundi. Tutaanza kwa kufafanua node ya Bitcoin ni nini, inafanya kazi gani, na kwa nini ni muhimu sana kuiendesha wewe mwenyewe. Kisha nitakuongoza hatua kwa hatua katika kuchagua vifaa vyako, kusakinisha programu muhimu, kuunganisha programu ya wallet yako, na kufanya uboreshaji wa awali ili kuendelea mbele.
 
 
 
@@ -50,7 +50,7 @@ Kuendesha node ya Bitcoin sio tu chaguo kwa wataalam; ni jambo la lazima. Ni zan
 
 
 
-Karibu kwenye BTC 202, ambapo utajifunza jinsi ya kusakinisha, kusanidi, na kutumia nodi ya Bitcoin kwa urahisi na kwa kujitegemea. Lakini si hivyo tu: pia utajifunza zaidi kuhusu mahali na kazi ya nodi katika mfumo wa Bitcoin. Kozi hupishana kati ya maelezo ya kinadharia na mazoezi ya kuongozwa kwa mikono.
+Karibu kwenye BTC 202, ambapo utajifunza jinsi ya kusakinisha, kusanidi, na kutumia node ya Bitcoin kwa urahisi na kwa kujitegemea. Lakini si hivyo tu: pia utajifunza zaidi kuhusu mahali na kazi ya node katika mfumo wa Bitcoin. Kozi hupishana kati ya maelezo ya kinadharia na mazoezi ya kuongozwa kwa mikono.
 
 
 
@@ -58,7 +58,7 @@ Karibu kwenye BTC 202, ambapo utajifunza jinsi ya kusakinisha, kusanidi, na kutu
 
 
 
-Katika sehemu hii ya kwanza ya kozi, tutafafanua dhana za msingi na kisha kuendelea na ufafanuzi sahihi zaidi. Nodi ni nini? Kuna tofauti gani kati ya nodi, Wallet, na Miner? Kisha utajifunza kuhusu Bitcoin core na utekelezaji wa itifaki. Lengo ni kuzungumza lugha moja, kuepuka mkanganyiko, na kuanzisha msingi thabiti wa kinadharia.
+Katika sehemu hii ya kwanza ya kozi, tutafafanua dhana za msingi na kisha kuendelea na ufafanuzi sahihi zaidi. node ni nini? Kuna tofauti gani kati ya node, Wallet, na Miner? Kisha utajifunza kuhusu Bitcoin core na utekelezaji wa protocol. Lengo ni kuzungumza lugha moja, kuepuka mkanganyiko, na kuanzisha msingi thabiti wa kinadharia.
 
 
 
@@ -66,11 +66,11 @@ Katika sehemu hii ya kwanza ya kozi, tutafafanua dhana za msingi na kisha kuende
 
 
 
-Katika sehemu hii ya pili, nitaanza kwa kueleza kwa nini ni muhimu kuendesha nodi yako ya Bitcoin. Kisha tutachunguza aina tofauti za nodi zilizopo (kamili, pruned, SPV...), jinsi zinavyofanya kazi, na athari zake za kiufundi.
+Katika sehemu hii ya pili, nitaanza kwa kueleza kwa nini ni muhimu kuendesha node yako ya Bitcoin. Kisha tutachunguza aina tofauti za node zilizopo (kamili, pruned, SPV...), jinsi zinavyofanya kazi, na athari zake za kiufundi.
 
 
 
-Kisha tutakupa muhtasari wa programu inayopatikana ili kuendesha nodi ya Bitcoin, ikijumuisha faida na hasara zake. Hatimaye, tutahitimisha kwa mapendekezo ya vitendo sana ya kuchagua maunzi yanayofaa kwa mahitaji na bajeti yako.
+Kisha tutakupa muhtasari wa programu inayopatikana ili kuendesha node ya Bitcoin, ikijumuisha faida na hasara zake. Hatimaye, tutahitimisha kwa mapendekezo ya vitendo sana ya kuchagua maunzi yanayofaa kwa mahitaji na bajeti yako.
 
 
 
@@ -78,27 +78,27 @@ Sehemu hii, kwa hiyo, inaonyesha njia ya bitcoiner huru: kuelewa kwa nini ni muh
 
 
 
-### Sehemu ya 3 - Kufunga nodi ya Bitcoin kwa urahisi
+### Sehemu ya 3 - Kufunga node ya Bitcoin kwa urahisi
 
 
 
-Mara tu maandalizi haya yatakapokamilika, ni wakati wa kupata vitendo na Sehemu ya 3 inayotolewa kwa Umbrel: OS ya wingu la nyumbani ambayo hurahisisha upangishaji wa kibinafsi na usakinishaji wa nodi ya Bitcoin na Umeme.
+Mara tu maandalizi haya yatakapokamilika, ni wakati wa kupata vitendo na Sehemu ya 3 inayotolewa kwa Umbrel: OS ya cloud la nyumbani ambayo hurahisisha upangishaji wa kibinafsi na usakinishaji wa node ya Bitcoin na lightning.
 
 
 
-Baada ya utangulizi mfupi wa Umbrel, tutatoa mafunzo ya kina ili kukuongoza kupitia mchakato wa usakinishaji na usanidi kwenye mashine yako ya DIY. Kusudi la sehemu hii ni wazi: kuwa na nodi yako ya kwanza inayofanya kazi kikamilifu na iliyosawazishwa ya Bitcoin.
+Baada ya utangulizi mfupi wa Umbrel, tutatoa mafunzo ya kina ili kukuongoza kupitia mchakato wa usakinishaji na usanidi kwenye mashine yako ya DIY. Kusudi la sehemu hii ni wazi: kuwa na node yako ya kwanza inayofanya kazi kikamilifu na iliyosawazishwa ya Bitcoin.
 
 
 
-### Sehemu ya 4 - Kuunganisha Wallet yako kwenye nodi yako
+### Sehemu ya 4 - Kuunganisha Wallet yako kwenye node yako
 
 
 
-Sasa kwa kuwa umeanzisha nodi ya Bitcoin, ni wakati wa kuitumia! Katika sehemu hii, utajifunza jinsi ya kuunganisha programu yako ya usimamizi ya Wallet (kama Sparrow wallet) kwa indexer yako ya Address (Electrs au Fulcrum), au moja kwa moja kwa Bitcoin core, ili usiwe tegemezi tena kwa seva za umma.
+Sasa kwa kuwa umeanzisha node ya Bitcoin, ni wakati wa kuitumia! Katika sehemu hii, utajifunza jinsi ya kuunganisha programu yako ya usimamizi ya Wallet (kama Sparrow wallet) kwa indexer yako ya Address (Electrs au Fulcrum), au moja kwa moja kwa Bitcoin core, ili usiwe tegemezi tena kwa server za umma.
 
 
 
-Pia tutachunguza jukumu la vielezo na mbinu mbalimbali za kuunganisha kwenye nodi yako (LAN, Tor, Tailscale, n.k.). Hatimaye, katika sura ya mwisho, tutapitia programu muhimu zaidi zinazopatikana kwenye Umbrel kwa bitcoiner ya kila siku.
+Pia tutachunguza jukumu la vielezo na mbinu mbalimbali za kuunganisha kwenye node yako (LAN, Tor, Tailscale, n.k.). Hatimaye, katika sura ya mwisho, tutapitia programu muhimu zaidi zinazopatikana kwenye Umbrel kwa bitcoiner ya kila siku.
 
 
 
@@ -106,11 +106,11 @@ Pia tutachunguza jukumu la vielezo na mbinu mbalimbali za kuunganisha kwenye nod
 
 
 
-Katika sehemu hii ya mwisho ya BTC 202, lengo ni kuimarisha ujuzi wako. Kwanza, tutaangalia mbinu bora za kutumia na nodi yako mpya ya Bitcoin na jinsi ya kuidumisha kwa muda mrefu.
+Katika sehemu hii ya mwisho ya BTC 202, lengo ni kuimarisha ujuzi wako. Kwanza, tutaangalia mbinu bora za kutumia na node yako mpya ya Bitcoin na jinsi ya kuidumisha kwa muda mrefu.
 
 
 
-Kisha tutachukua muda kukagua baadhi ya nadharia iliyoshughulikiwa mapema katika kozi, ikijumuisha kuelewa mchakato wa IBD na ugunduzi wa programu zingine kwa undani, kuchunguza muundo wa nodi, na hatimaye kujifunza jinsi ya kutumia faili ya `Bitcoin.conf` kurekebisha mipangilio yako.
+Kisha tutachukua muda kukagua baadhi ya nadharia iliyoshughulikiwa mapema katika kozi, ikijumuisha kuelewa mchakato wa IBD na ugunduzi wa programu zingine kwa undani, kuchunguza muundo wa node, na hatimaye kujifunza jinsi ya kutumia faili ya `Bitcoin.conf` kurekebisha mipangilio yako.
 
 
 
@@ -118,15 +118,15 @@ Kisha tutachukua muda kukagua baadhi ya nadharia iliyoshughulikiwa mapema katika
 
 
 
-Kama ilivyo kwa kozi zote za Plan ₿ Academy, katika sehemu ya mwisho, utapata mtihani wa mwisho ili kujaribu ujuzi wako wa nodi za Bitcoin.
+Kama ilivyo kwa kozi zote za Plan ₿ Network, katika sehemu ya mwisho, utapata mtihani wa mwisho ili kujaribu ujuzi wako wa node za Bitcoin.
 
 
 
-Kwa hivyo, uko tayari kuwasha nodi yako ya kwanza ya Bitcoin? Weka njia ya uhuru!
+Kwa hivyo, uko tayari kuwasha node yako ya kwanza ya Bitcoin? Weka njia ya uhuru!
 
 
 
-## Bitcoin nodi ni nini?
+## Bitcoin node ni nini?
 
 
 <chapterId>0a9fd4e0-94ab-405e-924c-023397393027</chapterId>
@@ -138,13 +138,13 @@ Kama ilivyofafanuliwa na muundaji wake, Satoshi Nakamoto, Bitcoin inajionyesha k
 
 
 
-- Kwanza kabisa, Satoshi inaelezea Bitcoin kama "mfumo", kwa maneno mengine, seti madhubuti ya vifaa na vipengee vya programu vinavyoingiliana ili kutoa huduma maalum au kufanya kazi maalum;
+- Kwanza kabisa, Satoshi anaelezea Bitcoin kama "mfumo", kwa maneno mengine, seti madhubuti ya vifaa na vipengee vya programu vinavyoingiliana ili kutoa huduma maalum au kufanya kazi maalum;
 - Halafu, anaelezea kuwa mfumo huu unawezesha matumizi ya fedha za elektroniki, yaani, aina ya sarafu isiyoonekana;
 - Hatimaye, anaonyesha kuwa mfumo huu hautegemei chombo chochote kikuu: ni "peer-to-peer", akimaanisha kuwa ni watumiaji wenyewe wanaoendesha mfumo.
 
 
 
-Kwa kuwa Bitcoin ni mfumo, lazima lazima uendeshwe kwenye kompyuta. Na, kwa sababu ya asili yake-kwa-rika, ni watumiaji wenyewe ambao huchukua jukumu la kuendesha mashine hizi. Tunachoita "nodi ya Bitcoin" ni kwamba kompyuta ambayo programu inayotekeleza itifaki ya Bitcoin (kama Bitcoin core, lakini tutarejea hapo baadaye) inafanya kazi. Hili ndilo linalowezesha Bitcoin kufanya kazi bila mamlaka kuu: uthibitishaji unafanywa kwa njia iliyosambazwa, na maelfu ya mashine za kujitegemea zinazomilikiwa na maelfu ya watumiaji.
+Kwa kuwa Bitcoin ni mfumo, lazima lazima uendeshwe kwenye kompyuta. Na, kwa sababu ya asili yake rika-kwa-rika, ni watumiaji wenyewe ambao huchukua jukumu la kuendesha mashine hizi. Tunachoita "Bitcoin node" ni kwamba kompyuta ambayo programu inayotekeleza protocol ya Bitcoin (kama Bitcoin core, lakini tutarejea hapo baadaye) inafanya kazi. Hili ndilo linalowezesha Bitcoin kufanya kazi bila mamlaka kuu: uthibitishaji unafanywa kwa njia iliyosambazwa, na maelfu ya mashine za kujitegemea zinazomilikiwa na maelfu ya watumiaji.
 
 
 
@@ -160,7 +160,7 @@ Ni watumiaji hawa haswa wanaohakikisha usalama wa Bitcoin. Kama Eric Voskuil ana
 
 
 
-Kanuni hii ni rahisi kuelewa: ikiwa Bitcoin ilitegemea node moja inayomilikiwa na mtu mmoja, kumfunga mtu huyo itakuwa ya kutosha kuzima mtandao, kwa kuwa wao pekee wangeweza kuchukua hatari zote. Kwa makumi ya maelfu ya nodi zilizoenea ulimwenguni kote, hatari inasambazwa: kila moja ya waendeshaji hawa italazimika kutengwa ili kuzima Bitcoin.
+Kanuni hii ni rahisi kuelewa: ikiwa Bitcoin ilitegemea node moja inayomilikiwa na mtu mmoja, kumfunga mtu huyo itakuwa ya kutosha kuzima mtandao, kwa kuwa wao pekee wangeweza kuchukua hatari zote. Kwa makumi ya maelfu ya node zilizoenea ulimwenguni kote, hatari inasambazwa: kila moja ya waendeshaji hawa italazimika kutengwa ili kuzima Bitcoin.
 
 
 
@@ -176,8 +176,8 @@ Kwa hivyo tunaweza kutofautisha na kutaja dhana kadhaa ili kufafanua mambo kwa k
 - Sarafu ya Bitcoin: kitengo cha akaunti kinachotumika kwa miamala ndani ya mfumo huu;
 - Mtandao wa Bitcoin: seti ya nodes zote zilizounganishwa;
 - Bitcoin nodes: mashine zinazoendesha utekelezaji wa Bitcoin;
-- Utekelezaji wa Bitcoin: programu inayotafsiri itifaki kuwa maagizo yanayoweza kutekelezwa;
-- Itifaki ya Bitcoin: seti ya sheria zinazosimamia uendeshaji wa mfumo;
+- Utekelezaji wa Bitcoin: programu inayotafsiri protocol kuwa maagizo yanayoweza kutekelezwa;
+- protocol ya Bitcoin: seti ya sheria zinazosimamia uendeshaji wa mfumo;
 - Mfumo wa Bitcoin: mchanganyiko thabiti wa haya yote Elements.
 
 
@@ -186,11 +186,11 @@ Kwa hivyo tunaweza kutofautisha na kutaja dhana kadhaa ili kufafanua mambo kwa k
 
 
 
-Nodi za Bitcoin kwa pamoja huunda kile kinachojulikana kama mtandao wa Bitcoin. Huwezesha mfumo mzima kufanya kazi kwa uhuru, bila kutegemea mamlaka kuu au daraja la seva.
+Node za Bitcoin kwa pamoja huunda kile kinachojulikana kama mtandao wa Bitcoin. Huwezesha mfumo mzima kufanya kazi kwa uhuru, bila kutegemea mamlaka kuu au bridge ya server.
 
 
 
-Tangu mwanzo, Bitcoin iliundwa ili kuruhusu kila mtumiaji kuendesha nodi ya kibinafsi. Kesi hii inasalia kuwa halali na programu ya leo ya Bitcoin core, ambayo inachanganya majukumu ya Wallet na nodi. Lakini siku hizi, kazi hii mara nyingi hutenganishwa: pochi nyingi za kisasa za Bitcoin ni pochi tu zinazounganishwa na nodes za nje (zinazomilikiwa na mtu sawa au la).
+Tangu mwanzo, Bitcoin iliundwa ili kuruhusu kila mtumiaji kuendesha node ya kibinafsi. Kesi hii inasalia kuwa halali na programu ya leo ya Bitcoin core, ambayo inachanganya majukumu ya Wallet na node. Lakini siku hizi, kazi hii mara nyingi hutenganishwa: wallet nyingi za kisasa za Bitcoin ni wallet tu zinazounganishwa na nodes za nje (zinazomilikiwa na mtu sawa au la).
 
 
 
@@ -198,7 +198,7 @@ Tangu mwanzo, Bitcoin iliundwa ili kuruhusu kila mtumiaji kuendesha nodi ya kibi
 
 
 
-Kazi ya kwanza ya nodi ni kudumisha nakala ya ndani ya Blockchain. Ili kuzuia Double-spending kwenye Bitcoin bila kuhusisha mamlaka kuu, kila mtumiaji lazima aangalie kuwa hakuna shughuli yoyote kwenye mfumo. Njia pekee ya kuwa na uhakika wa hili ni kujua shughuli zote zilizofanywa kwenye Bitcoin. Kwa sababu hii, shughuli zote zimepigwa kwa muda na zimeunganishwa katika vitalu, na kila nodi huhifadhi Blockchain nzima.
+Kazi ya kwanza ya node ni kudumisha nakala ya ndani ya Blockchain. Ili kuzuia Double-spending kwenye Bitcoin bila kuhusisha mamlaka kuu, kila mtumiaji lazima aangalie kuwa hakuna shughuli yoyote kwenye mfumo. Njia pekee ya kuwa na uhakika wa hili ni kujua shughuli zote zilizofanywa kwenye Bitcoin. Kwa sababu hii, shughuli zote zimepigwa kwa muda na zimeunganishwa katika blocks, na kila node huhifadhi Blockchain nzima.
 
 
 
@@ -208,7 +208,7 @@ Nakamoto, S. (2008). *Bitcoin: Mfumo wa Pesa wa Kielektroniki wa Peer-to-Rika*. 
 
 
 
-Kwa hivyo Blockchain ni rejista inayoendelea: kila wakati kizuizi kipya kinachapishwa na Miner, nodi hukagua uhalali wake kabla ya kuiongeza kwenye nakala yake ya ndani ya mnyororo. Kufikia leo (Julai 2025), Blockchain kamili inazidi GB 675, na saizi hii inaendelea kukua, kwani kizuizi kipya kinaongezwa kwa wastani kila dakika 10.
+Kwa hivyo Blockchain ni rejista inayoendelea: kila wakati block mpya inachapishwa na Miner, node hukagua uhalali wake kabla ya kuiongeza kwenye nakala yake ya ndani ya mnyororo. Kufikia leo (Julai 2025), Blockchain kamili inazidi GB 675, na saizi hii inaendelea kukua, kwani block mpya inaongezwa kwa wastani kila dakika 10.
 
 
 
@@ -216,7 +216,7 @@ Kwa hivyo Blockchain ni rejista inayoendelea: kila wakati kizuizi kipya kinachap
 
 
 
-Nodi hiyo pia hudumisha rekodi ya ndani ya UTXO zote zilizopo wakati wowote, unaojulikana kama **UTXO seti**. Hifadhidata hii ina vipande vyote vya Bitcoin ambavyo havijatumika. Tunarudia somo hili kwa undani katika sehemu ya mwisho ya kozi.
+Node hiyo pia hudumisha rekodi ya ndani ya UTXO zote zilizopo wakati wowote, unaojulikana kama **UTXO seti**. Hifadhidata hii ina vipande vyote vya Bitcoin ambavyo havijatumika. Tunarudia somo hili kwa undani katika sehemu ya mwisho ya kozi.
 
 
 
@@ -224,7 +224,7 @@ Nodi hiyo pia hudumisha rekodi ya ndani ya UTXO zote zilizopo wakati wowote, una
 
 
 
-Jukumu la pili la nodi ni kuhakikisha uthibitishaji na uenezi wa shughuli. Wakati shughuli mpya inapofikia nodi (ama kupitia programu ya Wallet au nodi nyingine), itaangalia ikiwa inazingatia seti ya sheria (sheria za makubaliano na sheria za relay). Kwa mfano:
+Jukumu la pili la node ni kuhakikisha uthibitishaji na uenezi wa shughuli. Wakati shughuli mpya inapofikia node (ama kupitia programu ya Wallet au node nyingine), itaangalia ikiwa inazingatia seti ya sheria (sheria za makubaliano na sheria za relay). Kwa mfano:
 
 
 
@@ -239,15 +239,15 @@ Jukumu la pili la nodi ni kuhakikisha uthibitishaji na uenezi wa shughuli. Wakat
 
 
 
-Baada ya uthibitisho, shughuli hiyo imehifadhiwa kwenye nodi ya Mempool, nafasi ya kumbukumbu ya muda iliyohifadhiwa kwa shughuli zisizothibitishwa, na kisha kupelekwa kwa wenzao wengine wa mtandao ambao umeunganishwa. Utaratibu huu wa usambazaji na uthibitishaji unaendelea kutoka nodi hadi nodi. Kwa njia hii, shughuli hiyo inaenezwa kwenye mtandao wa Bitcoin, na kila nodi huihifadhi kwenye Mempool hadi ijumuishwe kwenye kizuizi halali na Miner, ambaye kisha anafanya uthibitisho wake wa kwanza.
+Baada ya uthibitisho, shughuli hiyo imehifadhiwa kwenye node ya Mempool, nafasi ya kumbukumbu ya muda iliyohifadhiwa kwa shughuli zisizothibitishwa, na kisha kupelekwa kwa wenzao wengine wa mtandao ambao umeunganishwa. Utaratibu huu wa usambazaji na uthibitishaji unaendelea kutoka node hadi node. Kwa njia hii, shughuli hiyo inaenezwa kwenye mtandao wa Bitcoin, na kila node huihifadhi kwenye Mempool hadi ijumuishwe kwenye block halali na Miner, ambaye kisha anafanya uthibitisho wake wa kwanza.
 
 
 
-### Angalia na usambaze vitalu
+### Angalia na usambaze blocks
 
 
 
-Jukumu la tatu la nodi inahusisha kusimamia vitalu vya kuchimbwa. Miner inapogundua kizuizi kipya na Proof of Work halali, inatangazwa kwenye mtandao. Nodes hupokea, angalia kwamba inafanana na sheria zote za itifaki, na kisha uunganishe kwenye nakala yao ya ndani ya Blockchain ikiwa ni halali. Kama ilivyo kwa miamala, vizuizi vipya vilivyoidhinishwa hutumwa kwa wenzao wote waliounganishwa kwenye nodi. Utaratibu huu unaendelea mpaka nodes zote kwenye mtandao wa Bitcoin zinafahamu kizuizi kipya.
+Jukumu la tatu la node inahusisha kusimamia blocks za kuminiwa. Miner inapogundua block mpya na Proof of Work halali, inatangazwa kwenye mtandao. Nodes hupokea, angalia kwamba inafanana na sheria zote za protocol, na kisha uunganishe kwenye nakala yao ya ndani ya Blockchain ikiwa ni halali. Kama ilivyo kwa miamala, blocks mpya zilivyoidhinishwa hutumwa kwa wenzao wote waliounganishwa kwenye node. Utaratibu huu unaendelea mpaka nodes zote kwenye mtandao wa Bitcoin zinafahamu block mpya.
 
 
 
@@ -262,11 +262,11 @@ Jukumu la tatu la nodi inahusisha kusimamia vitalu vya kuchimbwa. Miner inapogun
 
 
 
-Ni muhimu kutofautisha kati ya aina mbili tofauti za programu unapotumia Bitcoin: nodi na Wallet.
+Ni muhimu kutofautisha kati ya aina mbili tofauti za programu unapotumia Bitcoin: node na Wallet.
 
 
 
-Nodi ya Bitcoin, kama ilivyotajwa hapo juu, ni kipande cha programu ambacho kinashiriki kikamilifu katika mtandao wa rika-kwa-rika. Inafanya kazi tatu kuu:
+Node ya Bitcoin, kama ilivyotajwa hapo juu, ni kipande cha programu ambacho kinashiriki kikamilifu katika mtandao wa rika-kwa-rika. Inafanya kazi tatu kuu:
 
 
 
@@ -277,11 +277,11 @@ Nodi ya Bitcoin, kama ilivyotajwa hapo juu, ni kipande cha programu ambacho kina
 
 
 
-Bitcoin Wallet, kwa upande mwingine, ni kipande cha programu iliyoundwa kuhifadhi na kudhibiti funguo zako za kibinafsi. Vifunguo hivi hukuwezesha kutumia bitcoins zako kwa kutosheleza hati za kufunga (kawaida kupitia sahihi). Wallet inaweza kuunganishwa kwenye nodi (iwe ya ndani au ya mbali) ili kushauriana na hali ya Blockchain na kutangaza shughuli inayounda, lakini sio, kwa hivyo, mshiriki katika mtandao.
+Bitcoin Wallet, kwa upande mwingine, ni kipande cha programu iliyoundwa kuhifadhi na kudhibiti funguo zako za kibinafsi. Vifunguo hivi hukuwezesha kutumia bitcoins zako kwa kutosheleza hati za kufunga (kawaida kupitia sahihi). Wallet inaweza kuunganishwa kwenye node (iwe ya ndani au ya mbali) ili kushauriana na hali ya Blockchain na kutangaza shughuli inayounda, lakini sio, kwa hivyo, mshiriki katika mtandao.
 
 
 
-Katika baadhi ya matukio, vipengele hivi viwili hutumika pamoja ndani ya programu sawa, kama ilivyo kwa Bitcoin core, ambayo hutumika kama Full node na Wallet. Hata hivyo, programu nyingi maarufu za Wallet (Sparrow, BlueWallet, n.k.) zinahitaji muunganisho wa nodi ya nje (iwe yako mwenyewe au ya mtu mwingine) ili kutangaza shughuli na kuamua salio la Wallet.
+Katika baadhi ya matukio, vipengele hivi viwili hutumika pamoja ndani ya programu sawa, kama ilivyo kwa Bitcoin core, ambayo hutumika kama Full node na Wallet. Hata hivyo, programu nyingi maarufu za Wallet (Sparrow, BlueWallet, n.k.) zinahitaji muunganisho wa node ya nje (iwe yako mwenyewe au ya mtu mwingine) ili kutangaza shughuli na kuamua salio la Wallet.
 
 
 
@@ -289,7 +289,7 @@ Katika baadhi ya matukio, vipengele hivi viwili hutumika pamoja ndani ya program
 
 
 
-## Kuna tofauti gani kati ya nodi na Miner?
+## Kuna tofauti gani kati ya node na Miner?
 
 
 <chapterId>d2992614-7ab7-4bf9-81b1-f548cda67257</chapterId>
@@ -300,11 +300,11 @@ Mawazo ya node na Miner mara nyingi huchanganyikiwa. Bado hizi mbili Elements hu
 
 
 
-Hapo awali, Bitcoin ilipozinduliwa na Satoshi Nakamoto mnamo 2009, kila mtumiaji alitarajiwa kushiriki katika mtandao kwa ujumla. Kwa hivyo, programu ya asili ya Bitcoin ilichanganya kazi kadhaa mara moja: ilifanya kazi kama Wallet, nodi, na pia kama Miner, yenye uwezo wa kutoa vitalu vipya. Wakati huo, ugumu wa Mining ulikuwa chini sana. Ulichohitaji kufanya ni kuendesha programu ya Bitcoin kwenye kompyuta yako ili kupata vizuizi na kupokea bitcoins kama zawadi.
+Hapo awali, Bitcoin ilipozinduliwa na Satoshi Nakamoto mnamo 2009, kila mtumiaji alitarajiwa kushiriki katika mtandao kwa ujumla. Kwa hivyo, programu ya asili ya Bitcoin ilichanganya kazi kadhaa mara moja: ilifanya kazi kama Wallet, node, na pia kama Miner, yenye uwezo wa kutoa blocks mpya. Wakati huo, ugumu wa Mining ulikuwa chini sana. Ulichohitaji kufanya ni kuendesha programu ya Bitcoin kwenye kompyuta yako ili kupata blocks na kupokea bitcoins kama zawadi.
 
 
 
-Hata hivyo, pamoja na umaarufu wa taratibu wa Bitcoin na ongezeko la idadi ya wachimbaji, mazingira ya ushindani katika Mining yamepitia mabadiliko makubwa. Leo, Mining imekuwa shughuli yenye ushindani mkubwa, inayotawaliwa na wachezaji wa viwandani walio na miundomsingi maalum. Nguvu inayohitajika kuchimba kizuizi kipya sasa ni kubwa sana hivi kwamba haiwezekani kwa mtumiaji binafsi kufanikisha hili kwa kutumia kompyuta ya kawaida tu. Kwa hivyo, Mining sasa kimsingi inatekelezwa kwa kutumia mashine maalum zinazoitwa ASICs (*Mizunguko Iliyounganishwa ya Maombi-Maalum*). Chips hizi zimeboreshwa ili kuendesha SHA-256 mara mbili, kanuni inayotumika kwa Mining kwenye Bitcoin.
+Hata hivyo, pamoja na umaarufu wa taratibu wa Bitcoin na ongezeko la idadi ya miners, mazingira ya ushindani katika Mining yamepitia mabadiliko makubwa. Leo, Mining imekuwa shughuli yenye ushindani mkubwa, inayotawaliwa na wachezaji wa viwandani walio na miundomsingi maalum. Nguvu inayohitajika kuchimba block mpya sasa ni kubwa sana hivi kwamba haiwezekani kwa mtumiaji binafsi kufanikisha hili kwa kutumia kompyuta ya kawaida tu. Kwa hivyo, Mining sasa kimsingi inatekelezwa kwa kutumia mashine maalum zinazoitwa ASICs (*Mizunguko Iliyounganishwa ya Maombi-Maalum*). Chips hizi zimeboreshwa ili kuendesha SHA-256 mara mbili, kanuni inayotumika kwa Mining kwenye Bitcoin.
 
 
 
@@ -312,23 +312,23 @@ Hata hivyo, pamoja na umaarufu wa taratibu wa Bitcoin na ongezeko la idadi ya wa
 
 
 
-Katika uso wa mageuzi haya, majukumu ya node ya Bitcoin na Miner yamekuwa tofauti wazi. Kama inavyoonyeshwa hapo juu, jukumu la nodi ya Bitcoin ni ya habari na msingi wa uthibitishaji. Jukumu la Miner ni tofauti:
+Katika uso wa mageuzi haya, majukumu ya node ya Bitcoin na Miner yamekuwa tofauti wazi. Kama inavyoonyeshwa hapo juu, jukumu la node ya Bitcoin ni ya habari na msingi wa uthibitishaji. Jukumu la Miner ni tofauti:
 
 
 
 
 - Inachagua shughuli zinazosubiri katika Mempool.
-- Inaunda kizuizi cha mgombea kuunganisha shughuli hizi.
+- Inaunda block ya mgombea kuunganisha shughuli hizi.
 - Anatafuta kwa majaribio na makosa kwa Proof of Work halali.
-- Ikiwa itapata uthibitisho halali, inatangaza kizuizi kupitia nodi yake kwa nodi zingine.
+- Ikiwa itapata uthibitisho halali, inatangaza block kupitia node yake kwa node zingine.
 
 
 
-Miner inahitaji nodi ya Bitcoin ili kuingiliana na mtandao.
+Miner inahitaji node ya Bitcoin ili kuingiliana na mtandao.
 
 
 
-Jukumu la Miner pia wakati mwingine hutofautishwa na lile la chopper. Mchimbaji ni mashine ambayo kazi yake ni kutengeneza violezo vya Hash vinavyotolewa na seva ya bwawa, kutafuta heshi zinazokidhi ugumu wa lengo lililobainishwa la hisa, na si lile la Bitcoin. Wengine wa mchakato wa Mining, unaojumuisha ujenzi halisi wa vitalu, uteuzi wa shughuli, au utafutaji wa Proof-of-Work kulingana na ugumu wa Bitcoin mwenyewe, pamoja na usambazaji, unafanywa moja kwa moja na mabwawa.
+Jukumu la Miner pia wakati mwingine hutofautishwa na lile la chopper. Mchimbaji ni mashine ambayo kazi yake ni kutengeneza violezo vya Hash vinavyotolewa na server ya bwawa, kutafuta heshi zinazokidhi ugumu wa lengo lililobainishwa la hisa, na si lile la Bitcoin. Wengine wa mchakato wa Mining, unaojumuisha ujenzi halisi wa blocks, uteuzi wa shughuli, au utafutaji wa Proof-of-Work kulingana na ugumu wa Bitcoin mwenyewe, pamoja na usambazaji, unafanywa moja kwa moja na mabwawa.
 
 
 
@@ -336,26 +336,26 @@ Jukumu la Miner pia wakati mwingine hutofautishwa na lile la chopper. Mchimbaji 
 
 
 
-Hatimaye, kuna tofauti muhimu katika suala la motisha ya kiuchumi kati ya Miner na nodi. Kuendesha nodi ya Bitcoin haitoi faida ya moja kwa moja ya pesa. Kwa upande mwingine, kushiriki katika Mining huleta zawadi (ruzuku na ada za muamala) kwa kila kizuizi kinachopatikana.
+Hatimaye, kuna tofauti muhimu katika suala la motisha ya kiuchumi kati ya Miner na node. Kuendesha node ya Bitcoin haitoi faida ya moja kwa moja ya pesa. Kwa upande mwingine, kushiriki katika Mining huleta zawadi (ruzuku na ada za muamala) kwa kila block inayopatikana.
 
 
 
-Katika Sehemu ya 2, tutachunguza kwa undani zaidi manufaa ya vitendo na ya kibinafsi ya kusakinisha na kutumia nodi ya Bitcoin, zaidi ya zile za kifedha pekee.
+Katika Sehemu ya 2, tutachunguza kwa undani zaidi manufaa ya vitendo na ya kibinafsi ya kusakinisha na kutumia node ya Bitcoin, zaidi ya zile za kifedha pekee.
 
 
 
-## Bitcoin core na utekelezaji wa itifaki
+## Bitcoin core na utekelezaji wa protocol
 
 
 <chapterId>72381876-9317-4faa-8d41-2b252a945b8a</chapterId>
 
 
 
-Itifaki ya Bitcoin sio programu: ni seti ya sheria za kimya zinazoshirikiwa kati ya watumiaji wa mtandao. Inafafanua hali ya uhalali wa ununuzi, mifumo ya kuunda pesa, muundo wa kuzuia, masharti ya Proof-of-Work, na vipimo vingine vingi. Ili kuingiliana na itifaki hii, ni lazima watumiaji waendeshe programu inayotekeleza sheria hizi: hii inajulikana kama **utekelezaji** wa Bitcoin.
+protocol ya Bitcoin sio programu: ni seti ya sheria za kimya zinazoshirikiwa kati ya watumiaji wa mtandao. Inafafanua hali ya uhalali wa ununuzi, mifumo ya kuunda pesa, muundo wa kuzuia, masharti ya Proof-of-Work, na vipimo vingine vingi. Ili kuingiliana na protocol hii, ni lazima watumiaji waendeshe programu inayotekeleza sheria hizi: hii inajulikana kama **utekelezaji** wa Bitcoin.
 
 
 
-Utekelezaji kwa hivyo ni programu ya nodi: programu inayoweza kuingiliana na mashine zingine kwenye mtandao wa Bitcoin, kupakua, kuthibitisha, kuhifadhi, na kueneza vizuizi na miamala, na kutekeleza makubaliano na sheria za usambazaji wa ndani. Kila utekelezaji ni tafsiri halisi ya itifaki, iliyoandikwa katika lugha fulani ya programu, na usanifu wake, utendaji na ergonomics. Kila utekelezaji pia utakuwa na shirika lake la maendeleo, lenye mgawanyo wake wa majukumu.
+Utekelezaji kwa hivyo ni programu ya node: programu inayoweza kuingiliana na mashine zingine kwenye mtandao wa Bitcoin, kupakua, kuthibitisha, kuhifadhi, na kueneza blocks na miamala, na kutekeleza makubaliano na sheria za usambazaji wa ndani. Kila utekelezaji ni tafsiri halisi ya protocol, iliyoandikwa katika lugha fulani ya programu, na usanifu wake, utendaji na ergonomics. Kila utekelezaji pia utakuwa na shirika lake la maendeleo, lenye mgawanyo wake wa majukumu.
 
 
 
@@ -371,11 +371,11 @@ Miongoni mwa utekelezaji huu, moja inatawala kwa mbali: **Bitcoin core**.
 
 
 
-Bitcoin core ni programu ya marejeleo ya itifaki ya Bitcoin. Imetokana na msimbo asilia ulioandikwa na Satoshi Nakamoto mwaka wa 2008-2009, na ni mwendelezo wake wa moja kwa moja. Hapo awali ilijulikana kama "*Bitcoin*", kisha "*Bitcoin QT*" (kutokana na kuongezwa kwa picha ya Interface kupitia maktaba ya Qt), ilibadilishwa jina "*Bitcoin core*" mwaka wa 2014 ili kutofautisha kwa uwazi programu kutoka kwa mtandao. Tangu toleo la 0.5, imesambazwa kwa vipengele viwili: `Bitcoin-qt` (mchoro Interface) na `bitcoind` (safu ya amri Interface).
+Bitcoin core ni programu ya marejeleo ya protocol ya Bitcoin. Imetokana na msimbo asilia ulioandikwa na Satoshi Nakamoto mwaka wa 2008-2009, na ni mwendelezo wake wa moja kwa moja. Hapo awali ilijulikana kama "*Bitcoin*", kisha "*Bitcoin QT*" (kutokana na kuongezwa kwa picha ya Interface kupitia maktaba ya Qt), ilibadilishwa jina "*Bitcoin core*" mwaka wa 2014 ili kutofautisha kwa uwazi programu kutoka kwa mtandao. Tangu toleo la 0.5, imesambazwa kwa vipengele viwili: `Bitcoin-qt` (mchoro Interface) na `bitcoind` (safu ya amri Interface).
 
 
 
-Kwa nadharia, Bitcoin core haiwakilishi itifaki ya Bitcoin; badala yake, ni utekelezaji mmoja tu kati ya nyingi. Hata hivyo, inatofautishwa na kupitishwa kwake kwa wingi, umri wake, uimara wa kanuni zake, na ukali wa mchakato wake wa maendeleo. Kwa hivyo, katika mazoezi, sheria zinazotumiwa na Bitcoin core ni za kweli zile za itifaki ya Bitcoin: watumiaji, watengenezaji, wachimbaji, na huduma za mfumo wa ikolojia hurejelea karibu pekee.
+Kwa nadharia, Bitcoin core haiwakilishi protocol ya Bitcoin; badala yake, ni utekelezaji mmoja tu kati ya nyingi. Hata hivyo, inatofautishwa na kupitishwa kwake kwa wingi, umri wake, uimara wa kanuni zake, na ukali wa mchakato wake wa maendeleo. Kwa hivyo, katika mazoezi, sheria zinazotumiwa na Bitcoin core ni za kweli zile za protocol ya Bitcoin: watumiaji, watengenezaji, miners, na huduma za mfumo wa ikolojia hurejelea karibu pekee.
 
 
 
@@ -383,14 +383,14 @@ Kwa nadharia, Bitcoin core haiwakilishi itifaki ya Bitcoin; badala yake, ni utek
 
 
 
-Kulingana na [data iliyokusanywa Agosti 2025 na Luke Dashjr](https://luke.dashjr.org/programs/Bitcoin/files/charts/software.html) (msanidi programu maarufu katika mfumo ikolojia), usambazaji wa utekelezaji kati ya nodi za umma za mtandao ni kama ifuatavyo:
+Kulingana na [data iliyokusanywa Agosti 2025 na Luke Dashjr](https://luke.dashjr.org/programs/Bitcoin/files/charts/software.html) (msanidi programu maarufu katika mfumo ikolojia), usambazaji wa utekelezaji kati ya node za umma za mtandao ni kama ifuatavyo:
 
 
 
 
-- Bitcoin core**: 87.3% ya nodes
-- Bitcoin Knots**: 12.5
-- Utekelezaji mwingine limbikizi**: 0.2% (btcsuite, Bcoin, BTCD...)
+- **Bitcoin core**: 87.3% ya nodes
+- **Bitcoin Knots**: 12.5
+- **Utekelezaji mwingine limbikizi**: 0.2% (btcsuite, Bcoin, BTCD...)
 
 
 
@@ -398,11 +398,11 @@ Kulingana na [data iliyokusanywa Agosti 2025 na Luke Dashjr](https://luke.dashjr
 
 
 
-Kwa maneno mengine, karibu nodi 9 kati ya 10 za umma zinaendesha Bitcoin core. Mtandao uliosalia unategemea wateja zaidi wa kando (ingawa sehemu ya Knots imeongezeka kwa kasi katika miezi ya hivi karibuni, si haba kutokana na mijadala kuhusu kikomo cha ukubwa cha `OP_RETURN`). Utekelezaji huu mbadala mara nyingi hudumishwa na mtu mmoja au timu ndogo.
+Kwa maneno mengine, karibu node 9 kati ya 10 za umma zinaendesha Bitcoin core. Mtandao uliosalia unategemea wateja zaidi wa kando (ingawa sehemu ya Knots imeongezeka kwa kasi katika miezi ya hivi karibuni, si haba kutokana na mijadala kuhusu kikomo cha ukubwa cha `OP_RETURN`). Utekelezaji huu mbadala mara nyingi hudumishwa na mtu mmoja au timu ndogo.
 
 
 
-**Kumbuka:** Takwimu hizi bado ni makadirio, hata hivyo, kwa vile zinatokana hasa na *nodi za kusikiliza*, yaani, nodi zinazokubali miunganisho inayoingia (na bandari 8333 imefunguliwa). Nodi zisizosikiza* ni ngumu zaidi kuhesabu, kwani haiwezekani kuunganishwa nazo moja kwa moja: lazima ungojee mpango kutoka kwao, kwa njia ya muunganisho unaotoka. Tovuti ya Luke Dashjr inadai kuwa inajaribu kuhesabu hizi *nodi zisizosikiza* pia, lakini bado haiwezekani kupata data sahihi kabisa kuzihusu, na kusasishwa kwa takwimu hizi kunabaki nyuma ya ukweli.
+**Kumbuka:** Takwimu hizi bado ni makadirio, hata hivyo, kwa vile zinatokana hasa na *node za kusikiliza*, yaani, node zinazokubali miunganisho inayoingia (na bandari 8333 imefunguliwa). Node zisizosikiza* ni ngumu zaidi kuhesabu, kwani haiwezekani kuunganishwa nazo moja kwa moja: lazima ungojee mpango kutoka kwao, kwa njia ya muunganisho unaotoka. Tovuti ya Luke Dashjr inadai kuwa inajaribu kuhesabu hizi *node zisizosikiza* pia, lakini bado haiwezekani kupata data sahihi kabisa kuzihusu, na kusasishwa kwa takwimu hizi kunabaki nyuma ya ukweli.
 
 
 
@@ -415,7 +415,7 @@ Bitcoin Core ni programu iliyoandikwa kwa C++. Pia ni mradi wa chanzo huria unao
 
 
 
-- Wachangiaji** huwasilisha mapendekezo katika mfumo wa _vuta maombi_ (PR). Kimsingi, mtu yeyote anaweza kupendekeza mabadiliko, lakini lazima yajaribiwe, yameandikwa, na kupitia mchakato wa ukaguzi wa rika.
+- **Wachangiaji** huwasilisha mapendekezo katika mfumo wa _vuta maombi_ (PR). Kimsingi, mtu yeyote anaweza kupendekeza mabadiliko, lakini lazima yajaribiwe, yameandikwa, na kupitia mchakato wa ukaguzi wa rika.
 - **watunzaji** wana haki ya kuidhinisha na kuunganisha PRs. Ndio wanaohakikisha uwiano na utulivu wa mradi. Mnamo Julai 2025, kuna watano kati yao: Hennadii Stepanov, Michael Ford, Andrew Chow, Gloria Zhao, na Ryan Ofsky.
 - Hakujawa na **mtunzaji mkuu** tangu Februari 2023. Jukumu hili lilishikiliwa awali na Satoshi Nakamoto wakati wa uzinduzi wa Bitcoin, kisha Gavin Andresen kufuatia kuondoka kwa Nakamoto mapema 2011, na hatimaye Wladimir J. Van Der Laan kutoka 2014 hadi 2023.
 
@@ -433,7 +433,7 @@ Uundaji wa Bitcoin core unafuata mantiki yenye sifa nzuri: wachangiaji wapya wan
 
 
 
-Ingawa ni kidogo katika suala la kupitishwa, wateja wengine wapo. Ya kuu ni Bitcoin Knots, iliyotengenezwa na Luke Dashjr, Fork ya Bitcoin core ambayo inajumuisha chaguzi za ziada na mbinu ya kihafidhina zaidi ya maendeleo. Hizi ni pamoja na vizuizi vikali zaidi vya miundo ya muamala.
+Ingawa ni kidogo katika suala la kupitishwa, wateja wengine wapo. Ya kuu ni Bitcoin Knots, iliyotengenezwa na Luke Dashjr, Fork ya Bitcoin core ambayo inajumuisha chaguzi za ziada na mbinu ya kihafidhina zaidi ya maendeleo. Hizi ni pamoja na blocks kali zaidi vya miundo ya muamala.
 
 
 
@@ -446,9 +446,9 @@ Tunaweza pia kutaja:
 
 
 
-- Libbitcoin**: maktaba ya kawaida ya C++ iliyotengenezwa na Amir Taaki na kudumishwa na Eric Voskuil;
-- Bcoin**: utekelezaji wa JavaScript, haudumiwi tena kikamilifu;
-- **BTCD/btcsuite** : utekelezaji katika Go.
+- **Libbitcoin**: maktaba ya kawaida ya C++ iliyotengenezwa na Amir Taaki na kudumishwa na Eric Voskuil;
+- **Bcoin**: utekelezaji wa JavaScript, haudumiwi tena kikamilifu;
+- **BTCD/btcsuit**e: utekelezaji katika Go.
 
 
 
@@ -460,7 +460,7 @@ Miradi hii inachangia utofauti wa mfumo ikolojia, lakini kupitishwa kwake kunasa
 
 
 
-Unaweza kufikiri kwamba watengenezaji wa Bitcoin core wana udhibiti wa moja kwa moja juu ya Bitcoin, lakini hii sivyo. Hawawezi kulazimisha mabadiliko kwa itifaki. Jukumu lao ni kupendekeza kanuni. Ni juu ya kila mtumiaji, kupitia nodi zao, kuamua kama atatumia au kutotumia msimbo huu.
+Unaweza kufikiri kwamba watengenezaji wa Bitcoin core wana udhibiti wa moja kwa moja juu ya Bitcoin, lakini hii sivyo. Hawawezi kulazimisha mabadiliko kwa protocol. Jukumu lao ni kupendekeza kanuni. Ni juu ya kila mtumiaji, kupitia node zao, kuamua kama atatumia au kutotumia msimbo huu.
 
 
 
@@ -468,7 +468,7 @@ Hii ina maana kwamba ikiwa mabadiliko katika Bitcoin core haifikii makubaliano, 
 
 
 
-Kama tutakavyojadili baadaye katika kozi hii, ni nodi, kulingana na uzito wao wa kiuchumi (yaani, wafanyabiashara), ambazo hutoa matumizi kwenye toleo la itifaki (na kwa hivyo kwenye sarafu inayolingana), kwa kukubali vitengo vinavyoheshimu sheria zake. Nguvu halisi ya utawala juu ya Bitcoin, kwa hivyo, iko kwa wafanyabiashara hawa, sio watengenezaji.
+Kama tutakavyojadili baadaye katika kozi hii, ni node, kulingana na uzito wao wa kiuchumi (yaani, wafanyabiashara), ambazo hutoa matumizi kwenye toleo la protocol (na kwa hivyo kwenye sarafu inayolingana), kwa kukubali vitengo vinavyoheshimu sheria zake. Nguvu halisi ya utawala juu ya Bitcoin, kwa hivyo, iko kwa wafanyabiashara hawa, sio watengenezaji.
 
 
 
@@ -481,18 +481,18 @@ Kama tutakavyojadili baadaye katika kozi hii, ni nodi, kulingana na uzito wao wa
 
 
 
-## Kwa nini kuendesha nodi yako mwenyewe?
+## Kwa nini kuendesha node yako mwenyewe?
 
 
 <chapterId>39c0cd19-67f9-4c64-bfb3-dbd6eec0bf42</chapterId>
 
 
 
-Kuna imani iliyoenea kwamba kuendesha nodi ya Bitcoin ni tendo la kujitolea, bila faida ya kibinafsi, katika huduma ya ugatuaji wa mtandao pekee. Wengine wanaona kuwa ni aina ya wajibu kwa bitcoiners kusaidia mfumo na kuonyesha shukrani zao kwa Bitcoin.
+Kuna imani iliyoenea kwamba kuendesha node ya Bitcoin ni tendo la kujitolea, bila faida ya kibinafsi, katika huduma ya ugatuaji wa mtandao pekee. Wengine wanaona kuwa ni aina ya wajibu kwa bitcoiners kusaidia mfumo na kuonyesha shukrani zao kwa Bitcoin.
 
 
 
-Kama tulivyoangazia katika sura zilizopita, kuendesha nodi hakuletei faida ya moja kwa moja ya kifedha. Kwa hivyo mtu anaweza kufikiri kuwa hakuna faida binafsi ya kufanya hivyo. Hata hivyo, kuendesha nodi yako mwenyewe kunaleta manufaa mengi binafsi. Ili kukushawishi, katika sura hii nitawasilisha sababu zote, za kiufundi na za kimkakati, ambazo zinapaswa kukutia moyo kusakinisha na kutumia nodi yako ya Bitcoin.
+Kama tulivyoangazia katika sura zilizopita, kuendesha node hakuletei faida ya moja kwa moja ya kifedha. Kwa hivyo mtu anaweza kufikiri kuwa hakuna faida binafsi ya kufanya hivyo. Hata hivyo, kuendesha node yako mwenyewe kunaleta manufaa mengi binafsi. Ili kukushawishi, katika sura hii nitawasilisha sababu zote, za kiufundi na za kimkakati, ambazo zinapaswa kukutia moyo kusakinisha na kutumia node yako ya Bitcoin.
 
 
 
@@ -500,11 +500,11 @@ Kama tulivyoangazia katika sura zilizopita, kuendesha nodi hakuletei faida ya mo
 
 
 
-Programu ya Wallet inapounganishwa na nodi ya nje, hutuma miamala yake kwa miundombinu ambayo haiko chini ya udhibiti wako. Hii huzalisha hatari dhahiri za ufuatiliaji: opereta wa nodi ya mbali anaweza kuchanganua maelezo ya miamala yako, ikiwa ni pamoja na kiasi na masafa, na, kwa kukagua metadata fulani (kama vile anwani za IP, nyakati na maeneo), uwezekano wa kuzihusisha na utambulisho wako.
+Programu ya Wallet inapounganishwa na node ya nje, hutuma miamala yake kwa miundombinu ambayo haiko chini ya udhibiti wako. Hii huzalisha hatari dhahiri za ufuatiliaji: opereta wa node ya mbali anaweza kuchanganua maelezo ya miamala yako, ikiwa ni pamoja na kiasi na masafa, na, kwa kukagua metadata fulani (kama vile IP Address , nyakati na maeneo), uwezekano wa kuzihusisha na utambulisho wako.
 
 
 
-Hakika, kama ilivyoonyeshwa katika sura iliyopita, pochi haziwasiliani na mtandao wa Bitcoin kwa uchawi; lazima ziunganishe kwenye nodi ili kushauriana na salio au shughuli za utangazaji. Ikiwa hujawahi kusanidi nodi yako mwenyewe, hii inamaanisha kuwa Wallet yako inategemea miundombinu ya mtu wa tatu (kawaida kampuni iliyo nyuma ya programu). Mhusika huyu wa tatu, hasa ikiwa ni kampuni, anaweza kuchunguza, kutumia, au hata kufichua data hii: iwe kwa sababu za kibiashara, chini ya vikwazo vya kisheria, au kama matokeo ya uharamia.
+Hakika, kama ilivyoonyeshwa katika sura iliyopita, wallet haziwasiliani na mtandao wa Bitcoin kimiujiza; lazima ziunganishe kwenye node ili kushauriana na salio au shughuli za utangazaji. Ikiwa hujawahi kusanidi node yako mwenyewe, hii inamaanisha kuwa Wallet yako inategemea miundombinu ya mtu wa tatu (kawaida kampuni iliyo nyuma ya programu). Mhusika huyu wa tatu, hasa ikiwa ni kampuni, anaweza kuchunguza, kutumia, au hata kufichua data hii: iwe kwa sababu za kibiashara, chini ya vikwazo vya kisheria, au kama matokeo ya uharamia.
 
 
 
@@ -512,7 +512,7 @@ Hakika, kama ilivyoonyeshwa katika sura iliyopita, pochi haziwasiliani na mtanda
 
 
 
-Kwa kutumia nodi yako mwenyewe, unatangaza miamala yako moja kwa moja kwa mtandao, ukipita waamuzi. Iwapo utailinda nodi yako ipasavyo (ambayo tutaijadili baadaye) au kutii viwango fulani, hakuna taarifa itakayofichuliwa: IP Address yako wala maelezo ya miamala yako hayapitii kwenye huluki usiyodhibiti. Hili ni hitaji la msingi la kuhifadhi usiri wako kwenye Bitcoin.
+Kwa kutumia node yako mwenyewe, unatangaza miamala yako moja kwa moja kwa mtandao, ukipita waamuzi. Iwapo utailinda node yako ipasavyo (ambayo tutaijadili baadaye) au kutii viwango fulani, hakuna taarifa itakayofichuliwa: IP Address yako wala maelezo ya miamala yako hayapitii kwenye huluki usiyodhibiti. Hili ni hitaji la msingi la kuhifadhi usiri wako kwenye Bitcoin.
 
 
 
@@ -522,11 +522,11 @@ https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-Kwa sababu sawa zilizotajwa hapo juu, programu ya Wallet kulingana na nodi ya mtu wa tatu iko katika hatari ya udhibiti: opereta wa nodi ya mbali anaweza kukataa kurejesha shughuli fulani kwa sababu mbalimbali. Inaweza kuwachukulia kuwa wa kutiliwa shaka au kinyume na sera yake. Shughuli inaweza pia kuzuiwa ikiwa haizingatii sheria za upeanaji wa nodi. Hatimaye, opereta anaweza kulenga IP yako Address ili kuzuia utangazaji wa miamala yako.
+Kwa sababu sawa zilizotajwa hapo juu, programu ya Wallet kulingana na node ya mtu wa tatu iko katika hatari ya udhibiti: opereta wa node ya mbali anaweza kukataa kurejesha shughuli fulani kwa sababu mbalimbali. Inaweza kuwachukulia kuwa wa kutiliwa shaka au kinyume na sera yake. Shughuli inaweza pia kuzuiwa ikiwa haizingatii sheria za upeanaji wa node. Hatimaye, opereta anaweza kulenga IP yako Address ili kuzuia utangazaji wa miamala yako.
 
 
 
-Kinyume chake, kwa kutumia nodi yako mwenyewe, unahakikisha uenezaji wa miamala yako ndani ya mtandao wa rika-kwa-rika. Hii inamaanisha kuwa unabaki na udhibiti kamili wa usambazaji wa miamala yako, bila kutegemea mpatanishi. Muda tu shughuli hiyo inatii makubaliano na sheria za relay za nodi zilizounganishwa na yako, itatangazwa kwenye mtandao na kisha, ikiwa ada za kutosha zinajumuishwa, zimeunganishwa kwenye kizuizi na Miner. Kuwa na nodi yako mwenyewe kunakuhakikishia uthibitisho usio na kibali wa malipo yako.
+Kinyume chake, kwa kutumia node yako mwenyewe, unahakikisha uenezaji wa miamala yako ndani ya mtandao wa rika-kwa-rika. Hii inamaanisha kuwa unabaki na udhibiti kamili wa usambazaji wa miamala yako, bila kutegemea mpatanishi. Muda tu shughuli hiyo inatii makubaliano na sheria za relay za node zilizounganishwa na yako, itatangazwa kwenye mtandao na kisha, ikiwa ada za kutosha zinajumuishwa, zimeunganishwa kwenye block na Miner. Kuwa na node yako mwenyewe kunakuhakikishia uthibitisho usio na kibali wa malipo yako.
 
 
 
@@ -534,7 +534,7 @@ Kinyume chake, kwa kutumia nodi yako mwenyewe, unahakikisha uenezaji wa miamala 
 
 
 
-Bila nodi ya kibinafsi, unasalia kuwa mtegemezi wa mtu mwingine kwa ufikiaji wa maelezo, kama vile salio lako la Address, hali ya uthibitishaji wa muamala na uhalali wa kuzuia. Hii inamaanisha uaminifu kamili katika usahihi na uadilifu wa nodi ya nje.
+Bila node ya kibinafsi, unasalia kuwa mtegemezi wa mtu mwingine kwa ufikiaji wa maelezo, kama vile salio lako la Address, hali ya uthibitishaji wa muamala na uhalali wa kuzuia. Hii inamaanisha uaminifu kamili katika usahihi na uadilifu wa node ya nje.
 
 
 
@@ -542,7 +542,7 @@ Bila nodi ya kibinafsi, unasalia kuwa mtegemezi wa mtu mwingine kwa ufikiaji wa 
 
 
 
-Kuendesha Full node kunamaanisha kuwa unaweza kuangalia sheria zote za itifaki mwenyewe, kwa kila shughuli na kila kizuizi. Kwa hivyo, salio lililoonyeshwa na Wallet yako sio data iliyopokelewa kutoka kwa seva ya mbali, lakini matokeo yaliyohesabiwa ndani ya nchi kutoka kwa nakala kamili ya Blockchain, block iliyoidhinishwa na block. Mbinu hii inatoa maana kamili kwa kanuni ya bitcoiners:
+Kuendesha Full node kunamaanisha kuwa unaweza kuangalia sheria zote za protocol mwenyewe, kwa kila shughuli na kila block. Kwa hivyo, salio lililoonyeshwa na Wallet yako sio data iliyopokelewa kutoka kwa server ya mbali, lakini matokeo yaliyohesabiwa ndani ya nchi kutoka kwa nakala kamili ya Blockchain, block iliyoidhinishwa na block. Mbinu hii inatoa maana kamili kwa kanuni ya bitcoiners:
 
 
 
@@ -552,19 +552,19 @@ Kuendesha Full node kunamaanisha kuwa unaweza kuangalia sheria zote za itifaki m
 
 
 
-Kila nodi inayojiunga na mtandao huimarisha upungufu na uthabiti wa Bitcoin. Inawezesha usambazaji wa habari na kuwawezesha wenzao wapya kuunganishwa na kila mmoja. Bila nodi, mfumo haungeweza kufanya kazi.
+Kila node inayojiunga na mtandao huimarisha upungufu na uthabiti wa Bitcoin. Inawezesha usambazaji wa habari na kuwawezesha wenzao wapya kuunganishwa na kila mmoja. Bila node, mfumo haungeweza kufanya kazi.
 
 
 
-Kama tulivyoona, usalama wa Bitcoin hautegemei ugatuaji, Mining, au cryptography: kama ilivyo kwa mfumo wowote, inategemea watu binafsi. Kwa usahihi, inategemea uwezo wa waendeshaji wa nodi kupinga kulazimishwa.
+Kama tulivyoona, usalama wa Bitcoin hautegemei ugatuaji, Mining, au cryptography: kama ilivyo kwa mfumo wowote, inategemea watu binafsi. Kwa usahihi, inategemea uwezo wa waendeshaji wa node kupinga kulazimishwa.
 
 
 
-Kinachotofautisha mifumo iliyogatuliwa kama Bitcoin ni usambazaji wa hatari kati ya wale wote wanaohusika katika uendeshaji wao. Kuendesha nodi yako ya Bitcoin inamaanisha kukubali sehemu ya hatari hii kwa kuhakikisha usalama wa mfano wako; kwa kufanya hivyo, pia unapunguza mzigo wa hatari kwa waendeshaji wengine wa nodi.
+Kinachotofautisha mifumo iliyogatuliwa kama Bitcoin ni usambazaji wa hatari kati ya wale wote wanaohusika katika uendeshaji wao. Kuendesha node yako ya Bitcoin inamaanisha kukubali sehemu ya hatari hii kwa kuhakikisha usalama wa mfano wako; kwa kufanya hivyo, pia unapunguza mzigo wa hatari kwa waendeshaji wengine wa node.
 
 
 
-Kwa hivyo sio faida ya kibinafsi ya moja kwa moja: kuendesha nodi hukufanya kuwajibika kwa usalama wa mtandao. Zaidi ya yote, ni faida ya pamoja, kwa sababu ushiriki wako husaidia kueneza hatari. Kwa upande mwingine, unaongeza uwezo wako mwenyewe wa kutumia Bitcoin kwa uhakika.
+Kwa hivyo sio faida ya kibinafsi ya moja kwa moja: kuendesha node hukufanya kuwajibika kwa usalama wa mtandao. Zaidi ya yote, ni faida ya pamoja, kwa sababu ushiriki wako husaidia kueneza hatari. Kwa upande mwingine, unaongeza uwezo wako mwenyewe wa kutumia Bitcoin kwa uhakika.
 
 
 
@@ -572,11 +572,11 @@ Kwa hivyo sio faida ya kibinafsi ya moja kwa moja: kuendesha nodi hukufanya kuwa
 
 
 
-Kufunga Full node sio operesheni ndogo. Inajumuisha kufunga programu, kuelewa uendeshaji wa msingi, ufuatiliaji wa maingiliano, kuchunguza kumbukumbu wakati wa matatizo, na hata kutumia terminal. Hii itakuongoza kuongeza uelewa wako wa itifaki. Hii ni faida isiyo ya moja kwa moja, lakini isiyo na maana.
+Kufunga Full node sio operesheni ndogo. Inajumuisha kufunga programu, kuelewa uendeshaji wa msingi, ufuatiliaji wa maingiliano, kuchunguza kumbukumbu wakati wa matatizo, na hata kutumia terminal. Hii itakuongoza kuongeza uelewa wako wa protocol. Hii ni faida isiyo ya moja kwa moja, lakini isiyo na maana.
 
 
 
-Kupata maarifa haya huongeza imani yako katika chombo na inaweza kupunguza hatari ya makosa au kudanganywa. Kuendesha nodi yako mwenyewe pia ni kujifunza.
+Kupata maarifa haya huongeza imani yako katika chombo na inaweza kupunguza hatari ya makosa au kudanganywa. Kuendesha node yako mwenyewe pia ni kujifunza.
 
 
 
@@ -584,31 +584,31 @@ Kupata maarifa haya huongeza imani yako katika chombo na inaweza kupunguza hatar
 
 
 
-Kipengele muhimu, ambacho mara nyingi hakieleweki, ni kwamba uendeshaji wa nodi inakuwezesha kuchagua sheria unazotumia ndani ya nchi. Kuna aina mbili kuu za sheria:
+Kipengele muhimu, ambacho mara nyingi hakieleweki, ni kwamba uendeshaji wa node inakuwezesha kuchagua sheria unazotumia ndani ya nchi. Kuna aina mbili kuu za sheria:
 
 
 
 
 
-- Sheria za Makubaliano**:
+- **Sheria za Makubaliano**:
 
 
 
-Hizi ndizo kanuni za kimsingi za itifaki ya Bitcoin, kuhakikisha uadilifu wa mfumo na kuweka vigezo vya kuthibitisha miamala na vizuizi. Muamala wowote ambao hauzingatii sheria hizi za makubaliano hauwezi kamwe kujumuishwa kwenye kizuizi halali. Kwa mfano, shughuli iliyo na saini batili kwenye mojawapo ya maingizo yake yatatengwa kwa utaratibu.
+Hizi ndizo kanuni za kimsingi za protocol ya Bitcoin, kuhakikisha uadilifu wa mfumo na kuweka vigezo vya kuthibitisha miamala na blocks. Muamala wowote ambao hauzingatii sheria hizi za makubaliano hauwezi kamwe kujumuishwa kwenye block halali. Kwa mfano, shughuli iliyo na saini batili kwenye mojawapo ya maingizo yake yatatengwa kwa utaratibu.
 
 
 
-Kubadilisha sheria hizi ni sawa na kubadilisha itifaki, na kwa hiyo sarafu (Hard Fork). Walakini, hata bila kujaribu kuzibadilisha, ukweli rahisi wa kutumia madhubuti sheria zilizopo hutoa nguvu fulani: ikiwa kizuizi kinakiuka sheria, nodi huikataa mara moja.
+Kubadilisha sheria hizi ni sawa na kubadilisha protocol, na kwa hiyo sarafu (Hard Fork). Walakini, hata bila kujaribu kuzibadilisha, ukweli rahisi wa kutumia madhubuti sheria zilizopo hutoa nguvu fulani: ikiwa block inakiuka sheria, node huikataa mara moja.
 
 
 
 
 
-- Kanuni za relay**:
+- **Kanuni za relay**:
 
 
 
-Hizi ni sheria maalum kwa kila nodi ya Bitcoin, ambayo huongezwa kwa sheria za makubaliano ili kufafanua muundo wa shughuli ambazo hazijathibitishwa zinazokubaliwa katika Mempool na kutumwa kwa wenzao. Kila nodi husanidi na kutumia sheria hizi ndani ya nchi, ambayo inaelezea kwa nini zinaweza kutofautiana kutoka nodi moja hadi nyingine. Zinatumika tu kwa miamala ambayo haijathibitishwa: shughuli inayochukuliwa kuwa "isiyo ya kawaida" na nodi itakubaliwa tu ikiwa tayari inaonekana kwenye kizuizi halali. Kubadilisha sheria hizi hauzuii node kutoka kwa mfumo wa Bitcoin.
+Hizi ni sheria maalum kwa kila node ya Bitcoin, ambayo huongezwa kwa sheria za makubaliano ili kufafanua muundo wa shughuli ambazo hazijathibitishwa zinazokubaliwa katika Mempool na kutumwa kwa wenzao. Kila node husanidi na kutumia sheria hizi ndani ya nchi, ambayo inaelezea kwa nini zinaweza kutofautiana kutoka node moja hadi nyingine. Zinatumika tu kwa miamala ambayo haijathibitishwa: shughuli inayochukuliwa kuwa "isiyo ya kawaida" na node itakubaliwa tu ikiwa tayari inaonekana kwenye block halali. Kubadilisha sheria hizi hauzuii node kutoka kwa mfumo wa Bitcoin.
 
 
 
@@ -616,7 +616,7 @@ Kwa mfano, muamala usio na ada, kwa mujibu wa sheria za makubaliano, ni halali k
 
 
 
-Kuzungusha nodi yako mwenyewe kunamaanisha kudai: "Ninathibitisha kile ninachochagua kuhalalisha, kulingana na sheria ambazo nimepitisha mwenyewe "*. Kwa hivyo unakuwa muigizaji katika usimamizi wa mfumo, unaoweza kukataa mageuzi ambayo yanaonekana kuwa hayakubaliki kwako, au kuidhinisha sasisho kulingana na vigezo vyako mwenyewe.
+Kuzungusha node yako mwenyewe kunamaanisha kudai: *"Ninathibitisha kile ninachochagua kuhalalisha, kulingana na sheria ambazo nimepitisha mwenyewe "*. Kwa hivyo unakuwa muigizaji katika usimamizi wa mfumo, unaoweza kukataa mageuzi ambayo yanaonekana kuwa hayakubaliki kwako, au kuidhinisha sasisho kulingana na vigezo vyako mwenyewe.
 
 
 
@@ -628,15 +628,15 @@ Kwa hivyo tunaweza kujaribu haraka kuelewa ni nguvu ngapi unazo juu ya sheria sh
 
 
 
-Kwa kadiri sheria za uwasilishaji zinavyohusika, jambo la muhimu ni kumiliki nodi, bila kujali shughuli zake za kiuchumi. Kilicho hatarini hapa ni kama unakubali au kutokubali kutuma aina fulani za miamala.
+Kwa kadiri sheria za uwasilishaji zinavyohusika, jambo la muhimu ni kumiliki node, bila kujali shughuli zake za kiuchumi. Kilicho hatarini hapa ni kama unakubali au kutokubali kutuma aina fulani za miamala.
 
 
 
-Ikiwa, kwa mfano, unaamini kuwa shughuli zilizo na ada za chini ya 1 sat/vB zinapaswa kukubaliwa kwenye Bitcoin, unaweza kurekebisha sheria hii kwenye nodi yako ili iweze kutangaza shughuli hizi, na hivyo kuwezesha uenezi wao kwenye mtandao hadi Miner hatimaye kuwajumuisha kwenye kizuizi halali. Kimsingi, basi, ni suala la mamlaka juu ya usambazaji wa shughuli: kila nodi ina uwezo wa kufanya maamuzi, kwani kukubali kuwasilisha aina ya shughuli ni sawa na kukuza kukubalika kwake kwenye mtandao wa Bitcoin. Matokeo yake, ikiwa unafanya kazi nodes kadhaa, una ushawishi mkubwa juu ya sera ya relay, kwani kila nodi ina uhusiano wake na maeneo ya athari kwenye mtandao.
+Ikiwa, kwa mfano, unaamini kuwa shughuli zilizo na ada za chini ya 1 sat/vB zinapaswa kukubaliwa kwenye Bitcoin, unaweza kurekebisha sheria hii kwenye node yako ili iweze kutangaza shughuli hizi, na hivyo kuwezesha uenezi wao kwenye mtandao hadi Miner hatimaye kuwajumuisha kwenye block halali. Kimsingi, basi, ni suala la mamlaka juu ya usambazaji wa shughuli: kila node ina uwezo wa kufanya maamuzi, kwani kukubali kuwasilisha aina ya shughuli ni sawa na kukuza kukubalika kwake kwenye mtandao wa Bitcoin. Matokeo yake, ikiwa unafanya kazi nodes kadhaa, una ushawishi mkubwa juu ya sera ya relay, kwani kila node ina uhusiano wake na maeneo ya athari kwenye mtandao.
 
 
 
-Hakika, kuwa na nodi moja au zaidi zilizosanidiwa na sheria maalum za upeanaji ujumbe kunamaanisha kuamua ni sehemu gani ya mtandao inakubali kueneza aina fulani ya shughuli. Kueneza ujumbe katika grafu ya rika-kwa-rika, kama ilivyo kwa miamala ya Bitcoin, hufuata mantiki ya nadharia ya upotoshaji. Hebu fikiria kila nodi kama tovuti inayoweza kufanya kazi (`p` = inasambaza data) au isiyotumika (`1-p`). Punde tu sehemu `p` inapovuka kizingiti muhimu (`p_c`), kipengee kikubwa hujitokeza: muamala hudhibiti mtandao na huwa na kila nafasi ya kufikia Miner. Katika mtandao kama vile Bitcoin, ambapo kila nodi hudumisha wastani wa miunganisho 8 inayotoka, kiwango cha juu cha `p_c` kwa ujumla huwekwa kwa asilimia chache tu, hata chini zaidi ikiwa baadhi ya nodi zina idadi kubwa sana ya miunganisho.
+Hakika, kuwa na node moja au zaidi zilizosanidiwa na sheria maalum za upeanaji ujumbe kunamaanisha kuamua ni sehemu gani ya mtandao inakubali kueneza aina fulani ya shughuli. Kueneza ujumbe katika grafu ya rika-kwa-rika, kama ilivyo kwa miamala ya Bitcoin, hufuata mantiki ya nadharia ya upotoshaji. Hebu fikiria kila node kama tovuti inayoweza kufanya kazi (`p` = inasambaza data) au isiyotumika (`1-p`). Punde tu sehemu `p` inapovuka kizingiti muhimu (`p_c`), kipengee kikubwa hujitokeza: muamala hudhibiti mtandao na huwa na kila nafasi ya kufikia Miner. Katika mtandao kama vile Bitcoin, ambapo kila node hudumisha wastani wa miunganisho 8 inayotoka, kiwango cha juu cha `p_c` kwa ujumla huwekwa kwa asilimia chache tu, hata chini zaidi ikiwa baadhi ya node zina idadi kubwa sana ya miunganisho.
 
 
 
@@ -648,11 +648,11 @@ Alimradi `p` inasalia chini ya `p_c`, shughuli ya ununuzi itabaki kwenye mifuko 
 
 
 
-Hatimaye, ni wachimbaji madini ambao huamua kujumuisha au kutojumuisha muamala kwenye kizuizi. Hata hivyo, nodi huingilia juu ya mkondo kwa kushawishi usambazaji wa shughuli: huamua kama wachimbaji watafahamu au la kuhusu shughuli fulani. Ikiwa muamala hautawasilishwa kwa wachimbaji, ni wazi kuwa haiwezekani kwao kuijumuisha kwenye kizuizi.
+Hatimaye, ni miners ambao huamua kujumuisha au kutojumuisha muamala kwenye block. Hata hivyo, node huingilia juu ya mkondo kwa kushawishi usambazaji wa shughuli: huamua kama miners watafahamu au la kuhusu shughuli fulani. Ikiwa muamala hautawasilishwa kwa miners, ni wazi kuwa haiwezekani kwao kuijumuisha kwenye block.
 
 
 
-Kuongeza nodi chache zaidi kwa hivyo kutakuwa na athari ndogo tu ikiwa mtandao tayari uko katika awamu ya utoboaji kwa aina fulani ya shughuli, lakini inaweza kuwa thabiti kadri kizingiti cha utoboaji kinapokaribia. Kumiliki au kuathiri nodi kadhaa, haswa ikiwa zimeunganishwa vizuri, kunaweza kuongeza au kupunguza thamani ya `p` na, kwa hivyo, kuelekeza kwa njia isiyo ya moja kwa moja sheria za relay ambazo huamua ni shughuli gani zinazoonekana na hatimaye kukubaliwa na wachimbaji.
+Kuongeza node chache zaidi kwa hivyo kutakuwa na athari ndogo tu ikiwa mtandao tayari uko katika awamu ya utoboaji kwa aina fulani ya shughuli, lakini inaweza kuwa thabiti kadri kizingiti cha utoboaji kinapokaribia. Kumiliki au kuathiri node kadhaa, haswa ikiwa zimeunganishwa vizuri, kunaweza kuongeza au kupunguza thamani ya `p` na, kwa hivyo, kuelekeza kwa njia isiyo ya moja kwa moja sheria za relay ambazo huamua ni shughuli gani zinazoonekana na hatimaye kukubaliwa na miners.
 
 
 
@@ -660,15 +660,15 @@ Kuongeza nodi chache zaidi kwa hivyo kutakuwa na athari ndogo tu ikiwa mtandao t
 
 
 
-Linapokuja suala la ushawishi wa nodi yako juu ya sheria za makubaliano, uzito wake wa kiuchumi ni, juu ya yote, ni nini kitakachoamua. Hili ni wazo muhimu: thamani ya sarafu yoyote inahusiana moja kwa moja na uwezo wake wa kuwezesha Exchange. Hakika, ikiwa kitu hakikubaliwi na mtu yeyote katika Exchange kwa bidhaa au huduma, kinadharia hakina matumizi ya fedha. Kwa mfano, ikiwa hakuna mfanyabiashara anayekubali kokoto kama njia ya malipo, hazina matumizi kama pesa. Kwa kweli, matumizi yanabaki kuwa dhana ya kibinafsi kwa kiwango cha mtu binafsi, lakini katika eneo fulani, idadi kubwa ya wafanyabiashara wanaokubali kitu kama njia ya Exchange, kuna uwezekano mkubwa zaidi kwamba kitu hiki kina matumizi ya pesa kwa watu wanaoishi katika eneo hili.
+Linapokuja suala la ushawishi wa node yako juu ya sheria za makubaliano, uzito wake wa kiuchumi ni, juu ya yote, ni nini kitakachoamua. Hili ni wazo muhimu: thamani ya sarafu yoyote inahusiana moja kwa moja na uwezo wake wa kuwezesha Exchange. Hakika, ikiwa kitu hakikubaliwi na mtu yeyote katika Exchange kwa bidhaa au huduma, kinadharia hakina matumizi ya fedha. Kwa mfano, ikiwa hakuna mfanyabiashara anayekubali kokoto kama njia ya malipo, hazina matumizi kama pesa. Kwa kweli, matumizi yanabaki kuwa dhana ya kibinafsi kwa kiwango cha mtu binafsi, lakini katika eneo fulani, idadi kubwa ya wafanyabiashara wanaokubali kitu kama njia ya Exchange, kuna uwezekano mkubwa zaidi kwamba kitu hiki kina matumizi ya pesa kwa watu wanaoishi katika eneo hili.
 
 
 
-Hebu tuchukue mfano wa kijiji ambacho wafanyabiashara wengi wanakubali dhahabu katika Exchange kwa bidhaa: kuna uwezekano kwamba dhahabu ina matumizi ya kifedha kwa wanakijiji. Hii inaonyesha kuwa matumizi ya sarafu yanategemea moja kwa moja maamuzi ya wauzaji kuikubali au kuikataa.
+Hebu tuchukue mfano wa kijiji ambacho wafanyabiashara wengi wanakubali dhahabu katika ubadilishanaji kwa bidhaa: kuna uwezekano kwamba dhahabu ina matumizi ya kifedha kwa wanakijiji. Hii inaonyesha kuwa matumizi ya sarafu yanategemea moja kwa moja maamuzi ya wauzaji kuikubali au kuikataa.
 
 
 
-Dhana hii ni muhimu kwa kuelewa mienendo ya nguvu inayotumika katika mfumo wa Bitcoin. Satoshi inaweka wazi: Bitcoin ni mfumo wa pesa wa kielektroniki; kwa maneno mengine, hutoa huduma ambayo inatoa aina ya sarafu, Bitcoin (au BTC). Wakati sheria za itifaki zinarekebishwa kwa njia ambayo haioani na kurudi nyuma (Hard Fork), hii ni sawa na kuunda mfumo mpya na kwa hivyo sarafu mpya. Kufanikiwa au kutofaulu kwa Fork hii basi inategemea saizi ya uchumi wake, ambayo kwa upande wake imedhamiriwa na idadi ya wafanyabiashara wanaokubali aina hii mpya ya sarafu.
+Dhana hii ni muhimu kwa kuelewa mienendo ya nguvu inayotumika katika mfumo wa Bitcoin. Satoshi anaweka wazi: Bitcoin ni mfumo wa pesa wa kielektroniki; kwa maneno mengine, hutoa huduma ambayo inatoa aina ya sarafu, Bitcoin (au BTC). Wakati sheria za protocol zinarekebishwa kwa njia ambayo haioani na kurudi nyuma (Hard Fork), hii ni sawa na kuunda mfumo mpya na kwa hivyo sarafu mpya. Kufanikiwa au kutofaulu kwa Fork hii basi inategemea saizi ya uchumi wake, ambayo kwa upande wake imedhamiriwa na idadi ya wafanyabiashara wanaokubali aina hii mpya ya sarafu.
 
 
 
@@ -680,37 +680,37 @@ Wacha tuchukue mfano: hebu tuseme Bitcoin inaugua Hard Fork. Kisha kungekuwa na 
 
 
 
-Kwenye Bitcoin, jukumu la "mfanyabiashara", linaloeleweka kama shirika lolote lenye uzito fulani wa kiuchumi, bila shaka linajumuisha biashara (duka za kimwili, tovuti za mauzo ya mtandaoni, watoa huduma, n.k.), lakini pia majukwaa ya Exchange, kwa kuwa wanakubali Bitcoin katika Exchange kwa sarafu nyingine, na wachimbaji, kwa vile wanakubali Bitcoin kwa malipo ya ada ya 13 kupitia ada18.
+Kwenye Bitcoin, jukumu la "mfanyabiashara", linaloeleweka kama shirika lolote lenye uzito fulani wa kiuchumi, bila shaka linajumuisha biashara (duka za kimwili, tovuti za mauzo ya mtandaoni, watoa huduma, n.k.), lakini pia majukwaa ya Exchange, kwa kuwa wanakubali Bitcoin katika Exchange kwa sarafu nyingine, na miners, kwa vile wanakubali Bitcoin kwa malipo ya ada ya 13 kupitia ada18.
 
 
 
-Kwa kadiri sheria za maafikiano zinavyohusika, nodi yako hukuruhusu kuelekeza shughuli zako za kiuchumi kuelekea sarafu moja au nyingine. Kwa mfano, ikiwa una nodes 10 kamili nyumbani, lakini hakuna shughuli muhimu za kiuchumi, ushawishi wako wakati wa Fork utakuwa karibu hakuna. Kinyume chake, nodi moja inayotumiwa kusimamia msururu wa maduka 200 yanayokubali Bitcoin inatoa uzito mkubwa wa kiuchumi.
+Kwa kadiri sheria za maafikiano zinavyohusika, node yako hukuruhusu kuelekeza shughuli zako za kiuchumi kuelekea sarafu moja au nyingine. Kwa mfano, ikiwa una nodes 10 kamili nyumbani, lakini hakuna shughuli muhimu za kiuchumi, ushawishi wako wakati wa Fork utakuwa karibu hakuna. Kinyume chake, node moja inayotumiwa kusimamia msururu wa maduka 200 yanayokubali Bitcoin inatoa uzito mkubwa wa kiuchumi.
 
 
 
-Kwa hivyo sio idadi ya nodi muhimu, lakini umuhimu wa shughuli za kiuchumi wanazounga mkono. Zaidi ya hayo, ikiwa shughuli zako za kiuchumi zinategemea nodi usiyodhibiti, mmiliki wake ataamua ni sarafu gani utumie, mradi tu uendelee kushikamana na nodi hiyo. Hii ndio sababu kukimbia na kutumia nodi yako mwenyewe ni muhimu sana katika muktadha wa utawala wa mfumo:
+Kwa hivyo sio idadi ya node muhimu, lakini umuhimu wa shughuli za kiuchumi wanazounga mkono. Zaidi ya hayo, ikiwa shughuli zako za kiuchumi zinategemea node usiyodhibiti, mmiliki wake ataamua ni sarafu gani utumie, mradi tu uendelee kushikamana na node hiyo. Hii ndio sababu kukimbia na kutumia node yako mwenyewe ni muhimu sana katika muktadha wa utawala wa mfumo:
 
 
 
-> Sio nodi yako, sio sheria zako.
+> Sio node yako, sio sheria zako.
 
 
-## Aina tofauti za nodi za Bitcoin
+## Aina tofauti za node za Bitcoin
 
 
 <chapterId>be8f0baa-41f2-4b54-b011-092f4ccc93aa</chapterId>
 
 
 
-Kwa hivyo, nodi ya Bitcoin ni mashine inayoendesha utekelezaji wa itifaki ya Bitcoin. Nyuma ya ufafanuzi huu wa kawaida wa nodi, usanidi kadhaa unaowezekana upo, sio wote ambao hutoa kiwango sawa cha uhuru, matumizi ya rasilimali, na manufaa kwa mtandao. Katika sura hii, tutajaribu kuelewa tofauti hizi ili kukusaidia kuchagua usanifu wa nodi unaolingana na matumizi yako na vikwazo vya maunzi.
+Kwa hivyo, node ya Bitcoin ni mashine inayoendesha utekelezaji wa protocol ya Bitcoin. Nyuma ya ufafanuzi huu wa kawaida wa node, usanidi kadhaa unaowezekana upo, sio wote ambao hutoa kiwango sawa cha uhuru, matumizi ya rasilimali, na manufaa kwa mtandao. Katika sura hii, tutajaribu kuelewa tofauti hizi ili kukusaidia kuchagua usanifu wa node unaolingana na matumizi yako na vikwazo vya maunzi.
 
 
 
-### Nodi kamili
+### Full node
 
 
 
-Full node ni nodi ya Bitcoin ambayo inapakua Blockchain nzima kutoka kwa kizuizi cha Genesis, inathibitisha kila kizuizi kivyake, na kuhifadhi historia ya Blockchain yote ndani ya nchi. Hii ndiyo aina ya "kawaida" ya nodi ya Bitcoin, kama inavyofikiriwa na Satoshi Nakamoto.
+Full node ni node ya Bitcoin ambayo inapakua Blockchain nzima kutoka kwa block ya Genesis, inathibitisha kila block kivyake, na kuhifadhi historia ya Blockchain yote ndani ya nchi. Hii ndiyo aina ya "kawaida" ya node ya Bitcoin, kama inavyofikiriwa na Satoshi Nakamoto.
 
 
 
@@ -718,23 +718,23 @@ Full node ni nodi ya Bitcoin ambayo inapakua Blockchain nzima kutoka kwa kizuizi
 
 
 
-Full node haihitaji kumwamini mtu yeyote kwa sababu inathibitisha na kujua taarifa zote katika mfumo. Ni aina ya nodi inayokupa dhamana zaidi: unajua, bila kutegemea mtu wa tatu, ikiwa malipo ni halali, ikiwa kizuizi ni halali, ikiwa upangaji upya ni halali, na kadhalika.
+Full node haihitaji kumwamini mtu yeyote kwa sababu inathibitisha na kujua taarifa zote katika mfumo. Ni aina ya node inayokupa dhamana zaidi: unajua, bila kutegemea mtu wa tatu, ikiwa malipo ni halali, ikiwablock ni halali, ikiwa upangaji upya ni halali, na kadhalika.
 
 
 
-Kwa mazoezi, Full node inahitaji rasilimali zisizo za kawaida, ikiwa ni pamoja na gigabytes mia kadhaa kwa faili za kuzuia, processor yenye uwezo wa kuthibitisha maandiko, RAM kwa Mempool na caches, na bandwidth imara. Usawazishaji wa kwanza (*IBD*) husoma na kuthibitisha historia kamili: ni kubwa, lakini hutokea mara moja tu. Full node hushiriki kikamilifu katika mtandao, kusambaza vizuizi na miamala, na inaweza kukubali miunganisho inayoingia ili kuwasaidia wenzao wengine.
+Kwa mazoezi, Full node inahitaji rasilimali zisizo za kawaida, ikiwa ni pamoja na gigabytes mia kadhaa kwa faili za kuzuia, processor yenye uwezo wa kuthibitisha maandiko, RAM kwa Mempool na caches, na bandwidth imara. Usawazishaji wa kwanza (*IBD*) husoma na kuthibitisha historia kamili: ni kubwa, lakini hutokea mara moja tu. Full node hushiriki kikamilifu katika mtandao, kusambaza blocks na miamala, na inaweza kukubali miunganisho inayoingia ili kuwasaidia wenzao wengine.
 
 
 
-Kulingana na mahitaji yako, unaweza kuongeza kiashiria kwenye Full node yako. Bitcoin core inatoa faharasa ya muamala kama kipengele cha hiari (kilichozimwa kwa chaguomsingi), ambacho kinaweza kuwa muhimu kwa madhumuni mahususi. Hata hivyo, haijumuishi kiashiria cha Address, ambacho mara nyingi ndicho kipengele kinachotafutwa zaidi kwa watumiaji binafsi. Ili kurekebisha hili, unaweza kusakinisha programu maalum kwenye nodi yako, kama vile Electrs au Fulcrum, ili kuharakisha hoja za uthibitishaji wa salio la Address kutoka kwa UTXO zinazohusika. Tutarudi kwenye jukumu la kielezo kwa undani zaidi katika sura tofauti.
+Kulingana na mahitaji yako, unaweza kuongeza kiashiria kwenye Full node yako. Bitcoin core inatoa faharasa ya muamala kama kipengele cha hiari (kilichozimwa kwa chaguomsingi), ambacho kinaweza kuwa muhimu kwa madhumuni mahususi. Hata hivyo, haijumuishi kiashiria cha Address, ambacho mara nyingi ndicho kipengele kinachotafutwa zaidi kwa watumiaji binafsi. Ili kurekebisha hili, unaweza kusakinisha programu maalum kwenye node yako, kama vile Electrs au Fulcrum, ili kuharakisha hoja za uthibitishaji wa salio la Address kutoka kwa UTXO zinazohusika. Tutarudi kwenye jukumu la kielezo kwa undani zaidi katika sura tofauti.
 
 
 
-### Nodi iliyopunguzwa
+### Node iliyopunguzwa
 
 
 
-Nodi ya pruned inadhibitisha kila kitu kama Full node, kutoka kwa kizuizi cha Genesis hadi kichwa cha mnyororo na kazi nyingi zaidi, lakini **huweka tu sehemu ya hivi karibuni zaidi ya faili za kuzuia **. Mara tu vitalu vya zamani vimekaguliwa, huvifuta hatua kwa hatua ili kukaa chini ya kikomo cha nafasi unachoweza kuweka. Usanidi huu ni bora ikiwa una vikwazo vya nafasi ya diski: unahifadhi uhuru wa uthibitishaji wa kuzuia, bila kuhifadhi kumbukumbu kamili ya historia ya Blockchain. Chaguo hili ni muhimu sana ikiwa unataka tu kusakinisha Bitcoin core kwenye kompyuta yako binafsi, bila kutumia mashine maalum.
+Node ya pruned inadhibitisha kila kitu kama Full node, kutoka kwa block ya Genesis hadi kichwa cha mnyororo na kazi nyingi zaidi, lakini **huweka tu sehemu ya hivi karibuni zaidi ya faili za kuzuia**. Mara tu blocks za zamani zimekaguliwa, huzifuta hatua kwa hatua ili kukaa chini ya kikomo cha nafasi unachoweza kuweka. Usanidi huu ni bora ikiwa una vikwazo vya nafasi ya diski: unahifadhi uhuru wa uthibitishaji wa kuzuia, bila kuhifadhi kumbukumbu kamili ya historia ya Blockchain. Chaguo hili ni muhimu sana ikiwa unataka tu kusakinisha Bitcoin core kwenye kompyuta yako binafsi, bila kutumia mashine maalum.
 
 
 
@@ -742,23 +742,23 @@ Nodi ya pruned inadhibitisha kila kitu kama Full node, kutoka kwa kizuizi cha Ge
 
 
 
-Athari za kiufundi za chaguo hili ni za moja kwa moja: nodi ya pruned ina uwezo kamili wa kutangaza shughuli zako, kushiriki katika upeanaji, kuthibitisha vizuizi na miamala, na kufuatilia mnyororo. Kwa upande mwingine, haiwezi kutumika kama chanzo cha data ya kihistoria zaidi ya mipaka yake kwa programu zingine (k.m., wachunguzi kamili, indexers, pochi). Kwa hivyo, kazi zinazohitaji kumbukumbu (au faharasa ya kimataifa) hazitapatikana.
+Athari za kiufundi za chaguo hili ni za moja kwa moja: node ya pruned ina uwezo kamili wa kutangaza shughuli zako, kushiriki katika upeanaji, kuthibitisha blocks na miamala, na kufuatilia mnyororo. Kwa upande mwingine, haiwezi kutumika kama chanzo cha data ya kihistoria zaidi ya mipaka yake kwa programu zingine (k.m., wachunguzi kamili, indexers, wallet). Kwa hivyo, kazi zinazohitaji kumbukumbu (au faharasa ya kimataifa) hazitapatikana.
 
 
 
-Kwa vitendo, unaweza kutumia nodi ya pruned kuunganisha programu ya usimamizi ya Wallet kama vile Sparrow wallet. Hata hivyo, hutaweza kuchanganua miamala kwenye Wallet yako iliyotangulia kikomo cha upogoaji. Kwa mfano, ikiwa una muamala uliosajiliwa katika kitalu 901 458, lakini nodi yako inaweka vizuizi kutoka 905 402 kwenda juu (kwa sababu ya zamani zaidi imekuwa pruned), hutaweza kuchanganua muamala huu. Kwa upande mwingine, ikiwa tayari ulikuwa umeichanganua wakati node yako bado ilikuwa na urefu huu wa kuzuia, basi programu yako ya usimamizi wa Wallet itahifadhi habari na kuonyesha usawa wa UTXO zinazofanana kwa usahihi.
+Kwa vitendo, unaweza kutumia node ya pruned kuunganisha programu ya usimamizi ya Wallet kama vile Sparrow wallet. Hata hivyo, hutaweza kuchanganua miamala kwenye Wallet yako iliyotangulia kikomo cha upogoaji. Kwa mfano, ikiwa una muamala uliosajiliwa katika block 901 458, lakini node yako inaweka blocks kutoka 905 402 kwenda juu (kwa sababu ya zamani zaidi imekuwa pruned), hutaweza kuchanganua muamala huu. Kwa upande mwingine, ikiwa tayari ulikuwa umeichanganua wakati node yako bado ilikuwa na urefu huu wa kuzuia, basi programu yako ya usimamizi wa Wallet itahifadhi habari na kuonyesha usawa wa UTXO zinazofanana kwa usahihi.
 
 
 
-Kwa kifupi, ufuatiliaji wa Wallet hufanya kazi bila hitch kwenye nodi ya pruned ikiwa utaunda Wallet mpya wakati programu yako tayari imeunganishwa kwenye nodi hiyo. Kwa upande mwingine, unaweza kupata shida ikiwa utarejesha Wallet ya zamani, kwani shughuli za zamani ambazo hazijahifadhiwa tena na nodi bila shaka hazitapatikana tena.
+Kwa kifupi, ufuatiliaji wa Wallet hufanya kazi bila hitch kwenye node ya pruned ikiwa utaunda Wallet mpya wakati programu yako tayari imeunganishwa kwenye node hiyo. Kwa upande mwingine, unaweza kupata shida ikiwa utarejesha Wallet ya zamani, kwani shughuli za zamani ambazo hazijahifadhiwa tena na node bila shaka hazitapatikana tena.
 
 
 
-### Nodi nyepesi / SPV
+### Node nyepesi / SPV
 
 
 
-Sehemu ya SPV (*Uthibitishaji Uliorahisishwa wa Malipo*), au nodi nyepesi, hubakiza vichwa vya vizuizi pekee, si maelezo ya muamala, na hutegemea nodi nyinginezo kamili ili kupata uthibitisho kwamba shughuli iko kwenye kizuizi (Uthibitisho wa Merkle kupitia miti) ambayo ina kichwa chake. Dhana ya uthibitishaji wa malipo uliorahisishwa si ngeni, kwa kuwa imependekezwa na Satoshi Nakamoto mwenyewe katika sehemu ya 8 ya White Paper.
+Sehemu ya SPV (*Uthibitishaji Uliorahisishwa wa Malipo*), au node nyepesi, hubakiza vichwa vya blocks pekee, si maelezo ya muamala, na hutegemea node nyinginezo kamili ili kupata uthibitisho kwamba shughuli iko kwenye block (Uthibitisho wa Merkle kupitia miti) ambayo ina kichwa chake. Dhana ya uthibitishaji wa malipo uliorahisishwa si ngeni, kwa kuwa imependekezwa na Satoshi Nakamoto mwenyewe katika sehemu ya 8 ya White Paper.
 
 
 
@@ -770,11 +770,11 @@ Nakamoto, S. (2008). *Bitcoin: Mfumo wa Pesa wa Kielektroniki wa Peer-to-Rika*. 
 
 
 
-Aina hii ya nodi ni wazi ni nyepesi zaidi katika suala la uhifadhi na utumiaji wa CPU kuliko Full node au hata nodi ya pruned. Kwa hivyo, nodi ya SPV inafaa kwa vifaa vidogo na viunganisho vya vipindi. Kwa kweli, mara nyingi huunganishwa moja kwa moja kwenye Wallet, hasa programu ya simu kama vile Blockstream App.
+Aina hii ya node ni wazi ni nyepesi zaidi katika suala la uhifadhi na utumiaji wa CPU kuliko Full node au hata node ya pruned. Kwa hivyo, node ya SPV inafaa kwa vifaa vidogo na viunganisho vya vipindi. Kwa kweli, mara nyingi huunganishwa moja kwa moja kwenye Wallet, hasa programu ya simu kama vile Blockstream App.
 
 
 
-Ubadilishanaji ni uaminifu na usiri: mteja wa SPV haangalii hati au sera za uthibitishaji zenyewe; inadhania kwamba mlolongo wenye kazi nyingi ni halali, na inategemea nodi moja au zaidi kamili kwa majibu. Kutumia aina hii ya node kwa hiyo ni chaguo bora zaidi kuliko kuunganisha kwenye node ya tatu; hata hivyo, bado ni faida kidogo kuliko kuwa na Full node au hata node ya pruned.
+Exchange ni uaminifu na usiri: mteja wa SPV haangalii hati au sera za uthibitishaji zenyewe; inadhania kwamba mlolongo wenye kazi nyingi ni halali, na inategemea node moja au zaidi kamili kwa majibu. Kutumia aina hii ya node kwa hiyo ni chaguo bora zaidi kuliko kuunganisha kwenye node ya tatu; hata hivyo, bado ni faida kidogo kuliko kuwa na Full node au hata node ya pruned.
 
 
 
@@ -782,7 +782,7 @@ Ubadilishanaji ni uaminifu na usiri: mteja wa SPV haangalii hati au sera za uthi
 
 
 
-### Ni nodi gani kwa hitaji gani?
+### Ni node gani kwa hitaji gani?
 
 
 
@@ -792,7 +792,7 @@ Ubadilishanaji ni uaminifu na usiri: mteja wa SPV haangalii hati au sera za uthi
 
 
 
-Kwa mtumiaji wa novice aliye na Wallet tu kwenye programu ya simu, kutumia nodi ya SPV hakika ndiyo njia bora ya kuanza. Ufungaji ni wa haraka, unahitaji rasilimali chache, na uzoefu ni rahisi na wa maji. Hii ina maana kwamba unaweza kuthibitisha taarifa fulani wewe mwenyewe na, kwa hivyo, utegemee kidogo nodi za wahusika wengine huku ukiwa huru zaidi linapokuja suala la shughuli za utangazaji.
+Kwa mtumiaji wa novice aliye na Wallet tu kwenye programu ya simu, kutumia node ya SPV hakika ndiyo njia bora ya kuanza. Ufungaji ni wa haraka, unahitaji rasilimali chache, na uzoefu ni rahisi na wa maji. Hii ina maana kwamba unaweza kuthibitisha taarifa fulani wewe mwenyewe na, kwa hivyo, utegemee kidogo node za wahusika wengine huku ukiwa huru zaidi linapokuja suala la shughuli za utangazaji.
 
 
 
@@ -802,7 +802,7 @@ Kwa mtumiaji wa novice aliye na Wallet tu kwenye programu ya simu, kutumia nodi 
 
 
 
-Mtumiaji wa kati aliye na PC anaweza kufunga node ya pruned ili kufaidika na karibu faida zote za Full node, bila kupakia mashine yao kila siku: uthibitisho kamili, matumizi ya disk wastani, na matengenezo rahisi. Ni suluhisho bora la kuunganisha pochi zako za mezani na kusalia huru katika usambazaji wa miamala yako, bila kuwekeza kwenye mashine maalum au kupakia nafasi yako ya diski.
+Mtumiaji wa kati aliye na PC anaweza kufunga node ya pruned ili kufaidika na karibu faida zote za Full node, bila kupakia mashine yao kila siku: uthibitisho kamili, matumizi ya disk wastani, na matengenezo rahisi. Ni suluhisho bora la kuunganisha wallet zako za mezani na kusalia huru katika usambazaji wa miamala yako, bila kuwekeza kwenye mashine maalum au kupakia nafasi yako ya diski.
 
 
 
@@ -812,7 +812,7 @@ Mtumiaji wa kati aliye na PC anaweza kufunga node ya pruned ili kufaidika na kar
 
 
 
-Full node inasalia kuwa suluhisho bora zaidi ikiwa unataka kuwa huru kabisa katika matumizi yako ya Bitcoin na usijizuie baadaye kwa matumizi ya hali ya juu kama vile kielezo, nodi ya Umeme, au hata Block explorer. Hiyo ndiyo hasa tutakayochunguza katika kozi hii!
+Full node inasalia kuwa suluhisho bora zaidi ikiwa unataka kuwa huru kabisa katika matumizi yako ya Bitcoin na usijizuie baadaye kwa matumizi ya hali ya juu kama vile kielezo, lightning node, au hata Block explorer. Hiyo ndiyo hasa tutakayochunguza katika kozi hii!
 
 
 
@@ -823,29 +823,29 @@ Full node inasalia kuwa suluhisho bora zaidi ikiwa unataka kuwa huru kabisa kati
 
 
 
-Kwa upande wa programu, kuna njia 2 kuu za kuendesha nodi ya Bitcoin:
+Kwa upande wa programu, kuna njia 2 kuu za kuendesha node ya Bitcoin:
 
 
 
 
-- sakinisha moja kwa moja utekelezaji wa itifaki, kama vile Bitcoin core (inapendekezwa), au Bitcoin Knots,
-- au utumie usambazaji wa turnkey (mara nyingi huitwa "_node-in-a-box_") ambayo inaunganisha utekelezaji wa Bitcoin kwa njia sawa, lakini pia inajumuisha mfumo wa utawala wa Interface, duka la programu, na zana zilizo tayari kutumia (Umeme, vivinjari, seva za index, hata programu za kujitegemea nje ya Bitcoin ...).
+- sakinisha moja kwa moja utekelezaji wa protocol, kama vile Bitcoin core (inapendekezwa), au Bitcoin Knots,
+- au utumie usambazaji wa turnkey (mara nyingi huitwa "_node-in-a-box_") ambayo inaunganisha utekelezaji wa Bitcoin kwa njia sawa, lakini pia inajumuisha mfumo wa utawala wa Interface, duka la programu, na zana zilizo tayari kutumia (lightning, vivinjari, server za index, hata programu za kujitegemea nje ya Bitcoin ...).
 
 
 
-Njia zote mbili zinaongoza kwa lengo sawa: kuwa na nodi yako mwenyewe, lakini hutofautiana katika suala la ufungaji na matumizi ya Interface, matengenezo, upanuzi, na gharama. Hilo ndilo tutakalochunguza katika sura hii.
+Njia zote mbili zinaongoza kwa lengo sawa: kuwa na node yako mwenyewe, lakini hutofautiana katika suala la ufungaji na matumizi ya Interface, matengenezo, upanuzi, na gharama. Hilo ndilo tutakalochunguza katika sura hii.
 
 
 
-### Utekelezaji wa nodi ghafi za Bitcoin
+### Utekelezaji wa node ghafi za Bitcoin
 
 
 
-Kusakinisha utekelezaji ghafi kunamaanisha kutumia moja kwa moja programu ya utekelezaji wa itifaki ya Bitcoin (kama vile Core), bila programu yoyote ya ziada ya Layer. Unadhibiti usanidi, masasisho, na huduma zinazohusiana (index, API, Umeme, chelezo, n.k.) mwenyewe, kulingana na mahitaji yako.
+Kusakinisha utekelezaji ghafi kunamaanisha kutumia moja kwa moja programu ya utekelezaji wa protocol ya Bitcoin (kama vile Core), bila programu yoyote ya ziada ya Layer. Unadhibiti usanidi, masasisho, na huduma zinazohusiana (index, API, lightning, chelezo, n.k.) mwenyewe, kulingana na mahitaji yako.
 
 
 
-Hii ndiyo mbinu huru na inayoweza kunyumbulika zaidi: unajua hasa kinachoendelea, data iko wapi, na jinsi kila kitu kinavyofanya kazi. Kwa upande mwingine, inakuwa ngumu zaidi mara tu unapotaka kwenda zaidi ya operesheni rahisi ya node ya Bitcoin. Ikiwa lengo lako ni kuwa na nodi tu, ugumu unalinganishwa na ule wa nodi-in-a-box, au hata kidogo, kwani ni suala la kusakinisha programu tu.
+Hii ndiyo mbinu huru na inayoweza kunyumbulika zaidi: unajua hasa kinachoendelea, data iko wapi, na jinsi kila kitu kinavyofanya kazi. Kwa upande mwingine, inakuwa ngumu zaidi mara tu unapotaka kwenda zaidi ya operesheni rahisi ya node ya Bitcoin. Ikiwa lengo lako ni kuwa na node tu, ugumu unalinganishwa na ule wa node-in-a-box, au hata kidogo, kwani ni suala la kusakinisha programu tu.
 
 
 
@@ -853,7 +853,7 @@ Hii ndiyo mbinu huru na inayoweza kunyumbulika zaidi: unajua hasa kinachoendelea
 
 
 
-[Bitcoin core ndiye mteja wa mtandao wa walio wengi zaidi](https://bitcoincore.org/). Inapakua, kuhalalisha, na kudumisha Blockchain, hutoa API za RPC/REST, na inaweza kuunganisha Wallet. Ikiwa unapendelea zana za kawaida na ujisikie vizuri kuongeza huduma mwenyewe (kama vile seva ya Electrum, kichunguzi na LND), ni bora kutumia Core kama ilivyo.
+[Bitcoin core ndiye mteja wa mtandao wa walio wengi zaidi](https://bitcoincore.org/). Inapakua, kuhalalisha, na kudumisha Blockchain, hutoa API za RPC/REST, na inaweza kuunganisha Wallet. Ikiwa unapendelea zana za kawaida na ujisikie vizuri kuongeza huduma mwenyewe (kama vile server ya Electrum, kichunguzi na LND), ni bora kutumia Core kama ilivyo.
 
 
 
@@ -861,7 +861,7 @@ Hii ndiyo mbinu huru na inayoweza kunyumbulika zaidi: unajua hasa kinachoendelea
 
 
 
-**Hasara:** Ni lazima utengeneze rafu iliyosalia wewe mwenyewe ili kuunda mazingira kamili ya programu, badala ya nodi ya Bitcoin pekee.
+**Hasara:** Ni lazima utengeneze rafu iliyosalia wewe mwenyewe ili kuunda mazingira kamili ya programu, badala ya node ya Bitcoin pekee.
 
 
 
@@ -873,7 +873,7 @@ https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e
 
 
 
-[Bitcoin Knots ni Fork ya Bitcoin core](https://bitcoinknots.org/), inayodumishwa na Luke Dashjr. Ni mteja mkuu mbadala kwa Core kwa kutekeleza itifaki ya Bitcoin. Inatumika kikamilifu na mtandao mwingine (kwa vyovyote Hard Fork kama Bitcoin Cash), hata hivyo inatoa vipengele vya ziada, ikiwa ni pamoja na chaguo za sera za upeanaji ujumbe ambazo hazipo kwenye Core, au kutumika kwa madhubuti zaidi kwa chaguo-msingi ili kupunguza kile ambacho wengine huzingatia barua taka.
+[Bitcoin Knots ni Fork ya Bitcoin core](https://bitcoinknots.org/), inayodumishwa na Luke Dashjr. Ni mteja mkuu mbadala kwa Core kwa kutekeleza protocol ya Bitcoin. Inatumika kikamilifu na mtandao mwingine (kwa vyovyote Hard Fork kama Bitcoin Cash), hata hivyo inatoa vipengele vya ziada, ikiwa ni pamoja na chaguo za sera za upeanaji ujumbe ambazo hazipo kwenye Core, au kutumika kwa madhubuti zaidi kwa chaguo-msingi ili kupunguza kile ambacho wengine huzingatia barua taka.
 
 
 
@@ -882,8 +882,8 @@ Kuna sababu 2 zinazowezekana za kuchagua Mafundo juu ya Msingi:
 
 
 
-- Mbinu**: Chaguo tofauti kutoka kwa Msingi, hasa katika suala la usimamizi wa relay, kwa kubainisha ni miamala ipi inayokubaliwa na kutangazwa na nodi yako.
-- Sera**: Baadhi ya watu wanapendelea kutumia wateja mbadala kama vile Knots kwa sababu zisizo za kiufundi, hasa kusaidia njia mbadala ya Core na hivyo kupunguza ukiritimba wake. Ikiwa Core ingewahi kuathiriwa, itakuwa muhimu sio tu kuwa na wateja mbadala thabiti, wanaodumishwa vyema lakini pia kujua jinsi ya kuwatumia kwa ufanisi. Wengine hutumia Knots kwa madhumuni ya kupinga, kwa sababu wamepoteza imani na wasanidi wa Core au hawaidhinishi wengi wa usimamizi wa mteja.
+- **Mbinu**: Chaguo tofauti kutoka kwa Msingi, hasa katika suala la usimamizi wa relay, kwa kubainisha ni miamala ipi inayokubaliwa na kutangazwa na node yako.
+- **Sera**: Baadhi ya watu wanapendelea kutumia wateja mbadala kama vile Knots kwa sababu zisizo za kiufundi, hasa kusaidia njia mbadala ya Core na hivyo kupunguza ukiritimba wake. Ikiwa Core ingewahi kuathiriwa, itakuwa muhimu sio tu kuwa na wateja mbadala thabiti, wanaodumishwa vyema lakini pia kujua jinsi ya kuwatumia kwa ufanisi. Wengine hutumia Knots kwa madhumuni ya kupinga, kwa sababu wamepoteza imani na wasanidi wa Core au hawaidhinishi wengi wa usimamizi wa mteja.
 
 
 https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
@@ -892,11 +892,11 @@ Binafsi, ninapendekeza uchague Msingi, haswa ili kufaidika na viraka vya usalama
 
 
 
-### Usambazaji wa nodi ndani ya kisanduku
+### Usambazaji wa node ndani ya kisanduku
 
 
 
-_node-in-a-box_ inachanganya Bitcoin core (au Knots) na mfumo wa uendeshaji uliosanidiwa awali, Wavuti ya Interface, na Duka la Programu la huduma za upangishaji binafsi (Umeme, wachunguzi, seva ya Electrum, Mempool, Seva ya BTCPay, Nextcloud, n.k.). Kwa kubofya mara moja tu, unaweza kusakinisha, kusasisha na kuunganisha moduli hizi tofauti.
+_node-in-a-box_ inachanganya Bitcoin core (au Knots) na mfumo wa uendeshaji uliosanidiwa awali, Wavuti ya Interface, na Duka la Programu la huduma za upangishaji binafsi (lightning, wachunguzi, server ya Electrum, Mempool, server ya BTCPay, Nextcloud, n.k.). Kwa kubofya mara moja tu, unaweza kusakinisha, kusasisha na kuunganisha moduli hizi tofauti.
 
 
 
@@ -904,7 +904,7 @@ Ni suluhisho rahisi zaidi kwa kuanzisha na kudhibiti programu nyingi za ziada ki
 
 
 
-Kwa hivyo, nodi-in-a-box ni rahisi sana kutumia mradi tu kila kitu kifanye kazi vizuri, lakini ikitokea hitilafu, unapaswa kuwa tayari kufanya utafutaji wa muda mrefu, kusubiri usaidizi, na kufanya mikono yako iwe chafu.
+Kwa hivyo, node-in-a-box ni rahisi sana kutumia mradi tu kila kitu kifanye kazi vizuri, lakini ikitokea hitilafu, unapaswa kuwa tayari kufanya utafutaji wa muda mrefu, kusubiri usaidizi, na kufanya mikono yako iwe chafu.
 
 
 
@@ -914,19 +914,19 @@ Nyingi za suluhisho hizi zinapatikana katika fomati mbili:
 
 
 - Mashine iliyosanikishwa awali: kompyuta kamili na OS tayari imewekwa. Mashine hizi za kulipa kadri uwezavyo zinahitaji kuchomekwa kwenye mtandao mkuu na kuunganishwa kwenye Mtandao ili kufanya kazi. Ikiwa bajeti yako inaruhusu, chaguo hili lina faida ya kuwa rahisi sana kuanzisha, mara nyingi hutoa msaada wa kipaumbele, na kuchangia ufadhili wa maendeleo, kwa kuwa mtindo wa biashara wa makampuni haya kwa ujumla unategemea uuzaji wa vifaa.
-- DIY: sasisha OS ya usambazaji kwenye mashine yako mwenyewe (Kompyuta ya zamani, NUC, Raspberry Pi, seva ya nyumbani ...). Hili ndilo suluhisho la kiuchumi zaidi, kwani unaweza kusaga mashine ya zamani au kuchagua vifaa vinavyolingana na mahitaji yako na bajeti. Pia ni chaguo rahisi zaidi, na la kuridhisha zaidi kusanidi. Ni mbinu hii ambayo tutachunguza katika sehemu ya vitendo ya kozi.
+- DIY: sasisha OS ya usambazaji kwenye mashine yako mwenyewe (Kompyuta ya zamani, NUC, Raspberry Pi, server ya nyumbani ...). Hili ndilo suluhisho la kiuchumi zaidi, kwani unaweza kusaga mashine ya zamani au kuchagua vifaa vinavyolingana na mahitaji yako na bajeti. Pia ni chaguo rahisi zaidi, na la kuridhisha zaidi kusanidi. Ni mbinu hii ambayo tutachunguza katika sehemu ya vitendo ya kozi.
 
 
 
-Hapa kuna muhtasari wa suluhisho kuu za nodi-in-a-box zinazopatikana (mnamo 2025):
+Hapa kuna muhtasari wa suluhisho kuu za node-in-a-box zinazopatikana (mnamo 2025):
 
 
 
-### Mwavuli (mwavuliOS na Nyumbani mwavuli)
+### Umbrel (UmbrelOS na Nyumbani umbrel )
 
 
 
-[Leo, Umbrel ndiye kiongozi katika suluhu za nodi-in-a-box (https://umbrel.com/). Mafanikio yake kwa kiasi kikubwa yanatokana na unyenyekevu wa usakinishaji wake (wakati ilizinduliwa kwenye Raspberry Pi rahisi), Interface yake ya kifahari na angavu, na mfumo wa ikolojia wa matumizi ambao umekua haraka na sasa ni mkubwa sana.
+[Leo, Umbrel ndiye kiongozi katika suluhu za node-in-a-box (https://umbrel.com/). Mafanikio yake kwa kiasi kikubwa yanatokana na unyenyekevu wa usakinishaji wake (wakati ilizinduliwa kwenye Raspberry Pi rahisi), Interface yake ya kifahari na angavu, na mfumo wa ikolojia wa matumizi ambao umekua haraka na sasa ni mkubwa sana.
 
 
 
@@ -934,11 +934,11 @@ Hapa kuna muhtasari wa suluhisho kuu za nodi-in-a-box zinazopatikana (mnamo 2025
 
 
 
-Ilizinduliwa mnamo 2020 kama nodi rahisi ya Bitcoin inayoambatana na programu chache za ziada, Umbrel imebadilika polepole kuwa wingu kamili la nyumbani la kisasa.
+Ilizinduliwa mnamo 2020 kama node rahisi ya Bitcoin inayoambatana na programu chache za ziada, Umbrel imebadilika polepole kuwa cloud kamili la nyumbani la kisasa.
 
 
 
-Sitaingia kwa undani zaidi hapa juu ya jinsi inavyofanya kazi na sifa zake maalum, kwani tutachunguza haya kwa undani zaidi katika sura ya kwanza ya sehemu inayofuata. Hakika, kwa madhumuni ya kozi hii ya BTC 202, nimechagua kutumia UmbrelOS, ambayo ninaamini ni suluhisho bora la sasa la nodi-in-a-box kwa watumiaji wanaoanza na wa kati.
+Sitaingia kwa undani zaidi hapa juu ya jinsi inavyofanya kazi na sifa zake maalum, kwani tutachunguza haya kwa undani zaidi katika sura ya kwanza ya sehemu inayofuata. Hakika, kwa madhumuni ya kozi hii ya BTC 202, nimechagua kutumia UmbrelOS, ambayo ninaamini ni suluhisho bora la sasa la node-in-a-box kwa watumiaji wanaoanza na wa kati.
 
 
 
@@ -948,11 +948,11 @@ https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2
 
 
 
-[Start9 inatoa StartOS (https://start9.com/), mfumo ulioundwa kwa ajili ya "sovereign computing": lengo ni kila mtu kumiliki na kudhibiti seva yake binafsi, iliyoimarishwa na soko la programu zinazopangishwa binafsi. Unaweza kununua seva ya Start9 (Server One kwa $619, Server Pure kwa $899) au ukusanye yako mwenyewe katika hali ya DIY kwenye mashine yako mwenyewe.
+[Start9 inatoa StartOS (https://start9.com/), mfumo ulioundwa kwa ajili ya "sovereign computing": lengo ni kila mtu kumiliki na kudhibiti server yake binafsi, iliyoimarishwa na soko la programu zinazopangishwa binafsi. Unaweza kununua server ya Start9 (Server One kwa $619, Server Pure kwa $899) au ukusanye yako mwenyewe katika hali ya DIY kwenye mashine yako mwenyewe.
 
 
 
-Kwa upande wa Bitcoin, StartOS inakuwezesha kusakinisha Full node, nodi ya Umeme, Seva ya BTCPay, Electrs, na huduma nyingine nyingi. Hata hivyo, rufaa ya Start9 inaenea zaidi ya hii: inatoa uwezekano wa kugundua, kusanidi, na kufichua programu mbalimbali (wingu la faili, ujumbe, ufuatiliaji) kwa njia ya umoja, na udhibiti kamili. Kwa hivyo mradi unalenga watumiaji ambao wanataka jukwaa thabiti la mwenyeji, sio nodi rahisi ya Bitcoin tu. Labda ndio mfumo kamili zaidi wa ikolojia baada ya Umbrel.
+Kwa upande wa Bitcoin, StartOS inakuwezesha kusakinisha Full node, lightning node, server ya BTCPay, Electrs, na huduma nyingine nyingi. Hata hivyo, rufaa ya Start9 inaenea zaidi ya hii: inatoa uwezekano wa kugundua, kusanidi, na kufichua programu mbalimbali (wingu la faili, ujumbe, ufuatiliaji) kwa njia ya umoja, na udhibiti kamili. Kwa hivyo mradi unalenga watumiaji ambao wanataka jukwaa thabiti la mwenyeji, sio node rahisi ya Bitcoin tu. Labda ndio mfumo kamili zaidi wa ikolojia baada ya Umbrel.
 
 
 
@@ -960,7 +960,7 @@ Kwa upande wa Bitcoin, StartOS inakuwezesha kusakinisha Full node, nodi ya Umeme
 
 
 
-Tofauti kuu na Umbrel iko katika Interface. Mwavuli hutegemea UX iliyong'aa sana, huku Start9 inatoa cruder, inayofanya kazi zaidi Interface. Mfumo wa ikolojia wa programu ya Start9 hauna utajiri mwingi kuliko wa Umbrel, lakini hufidia hii kwa faida kadhaa za kiufundi: ufikiaji wa mipangilio ya hali ya juu ya programu hurahisishwa, ambapo Umbrel inakuwa kizuizi haraka ikiwa chaguo linalohitajika halijatolewa na Interface. Start9 pia inafaulu katika usimamizi wa chelezo: kando na suluhisho bora la Umbrel kwa LND, hakuna utaratibu uliounganishwa, tofauti na Start9. Zaidi ya hayo, inatoa zana za ufuatiliaji zinazofikika zaidi na muunganisho wa mbali uliosimbwa kwa njia fiche (`https`), ilhali ufikiaji wa ndani kwa Umbrel ni kupitia `http`.
+Tofauti kuu na Umbrel iko katika Interface. Umbrel hutegemea UX iliyong'aa sana, huku Start9 inatoa cruder, inayofanya kazi zaidi Interface. Mfumo wa ikolojia wa programu ya Start9 hauna utajiri mwingi kuliko wa Umbrel, lakini hufidia hii kwa faida kadhaa za kiufundi: ufikiaji wa mipangilio ya hali ya juu ya programu hurahisishwa, ambapo Umbrel inakuwa block haraka ikiwa chaguo linalohitajika halijatolewa na Interface. Start9 pia inafaulu katika usimamizi wa chelezo: kando na suluhisho bora la Umbrel kwa LND, hakuna utaratibu uliounganishwa, tofauti na Start9. Zaidi ya hayo, inatoa zana za ufuatiliaji zinazofikika zaidi na muunganisho wa mbali uliosimbwa kwa njia fiche (`https`), ilhali ufikiaji wa ndani kwa Umbrel ni kupitia `http`.
 
 
 
@@ -974,7 +974,7 @@ https://planb.academy/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-8905
 
 
 
-[MyNode ni usambazaji unaolenga Bitcoin na Umeme pekee](https://mynodebtc.com/), inayotoa mtandao wa Interface, soko la programu, na visasisho vya mbofyo mmoja. Unaweza kununua maunzi ambayo tayari kutumika (*Model Two* inapatikana kwa $549) au usakinishe MyNode bila malipo kwenye mashine yako mwenyewe. Mradi pia unatoa toleo la *Premium* la programu ($94), ambalo linajumuisha usaidizi wa kipaumbele na vipengele vya kina.
+[MyNode ni usambazaji unaolenga Bitcoin na Lightning pekee](https://mynodebtc.com/), inayotoa mtandao wa Interface, soko la programu, na visasisho vya mbofyo mmoja. Unaweza kununua maunzi ambayo tayari kutumika (*Model Two* inapatikana kwa $549) au usakinishe MyNode bila malipo kwenye mashine yako mwenyewe. Mradi pia unatoa toleo la *Premium* la programu ($94), ambalo linajumuisha usaidizi wa kipaumbele na vipengele vya kina.
 
 
 
@@ -982,7 +982,7 @@ https://planb.academy/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-8905
 
 
 
-Kwa mazoezi, MyNode huleta pamoja vizuizi vyote vya msingi vinavyohitajika ili kuendesha Full node, pamoja na programu muhimu kwa watumiaji wa Bitcoin. Kwa hivyo, ni suluhu inayofaa ikiwa hauitaji programu za nje ya mfumo ikolojia wa Bitcoin, kama vile programu zinazojiendesha zinazopatikana katika mifumo ya Start9 na Umbrel.
+Kwa mazoezi, MyNode huleta pamoja blocks zote za msingi zinavyohitajika ili kuendesha Full node, pamoja na programu muhimu kwa watumiaji wa Bitcoin. Kwa hivyo, ni suluhu inayofaa ikiwa hauitaji programu za nje ya mfumo ikolojia wa Bitcoin, kama vile programu zinazojiendesha zinazopatikana katika mifumo ya Start9 na Umbrel.
 
 
 
@@ -992,7 +992,7 @@ https://planb.academy/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112c
 
 
 
-[RaspiBlitz ni mradi wa chanzo huria 100%](https://docs.raspiblitz.org/) (leseni ya MIT) ya kuweka nodi ya Bitcoin na nodi ya Umeme kwenye Raspberry Pi. Pakua tu picha hiyo, uwashe, kisha ufuate mchawi ili kuwa na nodi ya kufanya kazi kwenye kisanduku kwenye Raspberry Pi yako. Seti zilizounganishwa mapema zinapatikana pia kutoka kwa watu wengine, kwa kawaida kati ya $300 na $400, kulingana na maunzi. RaspiBlitz pia inatoa anuwai ya programu za ziada, ambazo ni rahisi kusakinisha.
+[RaspiBlitz ni mradi wa chanzo huria 100%](https://docs.raspiblitz.org/) (leseni ya MIT) ya kuweka node ya Bitcoin na lightning node kwenye Raspberry Pi. Pakua tu picha hiyo, uwashe, kisha ufuate mchawi ili kuwa na node ya kufanya kazi kwenye kisanduku kwenye Raspberry Pi yako. Seti zilizounganishwa mapema zinapatikana pia kutoka kwa watu wengine, kwa kawaida kati ya $300 na $400, kulingana na maunzi. RaspiBlitz pia inatoa anuwai ya programu za ziada, ambazo ni rahisi kusakinisha.
 
 
 
@@ -1010,7 +1010,7 @@ https://planb.academy/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-
 
 
 
-[RoninDojo ni nodi-in-a-box inayolenga faragha](https://wiki.ronindojo.io/en/home) ambayo huweka kiotomatiki utumaji wa Samurai Dojo na Whirlpool, ikiwa na Interface mahususi na programu-jalizi iliyoundwa mahususi kwa mfumo ikolojia wa Samurai.
+[RoninDojo ni node-in-a-box inayolenga faragha](https://wiki.ronindojo.io/en/home) ambayo huweka kiotomatiki utumaji wa Samurai Dojo na Whirlpool, ikiwa na Interface mahususi na programu-jalizi iliyoundwa mahususi kwa mfumo ikolojia wa Samurai.
 
 
 
@@ -1028,15 +1028,15 @@ Hapo awali mradi ulitoa mashine iliyosanidiwa awali inayoitwa Tanto, lakini hii 
 
 https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
 
-### Nodl
+### Nodi
 
 
 
-Suluhisho lingine la [nodi-in-a-box ni Nodl](https://www.nodl.eu/). Kama ilivyo kwa miradi iliyotangulia, unaweza kununua maunzi yaliyosanidiwa awali (kati ya €599 na €799, kulingana na muundo) au uisakinishe mwenyewe katika hali ya DIY.
+Suluhisho lingine la [node-in-a-box ni Nodl](https://www.nodl.eu/). Kama ilivyo kwa miradi iliyotangulia, unaweza kununua maunzi yaliyosanidiwa awali (kati ya €599 na €799, kulingana na muundo) au uisakinishe mwenyewe katika hali ya DIY.
 
 
 
-Kwa upande wa programu, Nodl inaunganisha Bitcoin core, LND, Seva ya BTCPay, Electrs, Dojo, Whirlpool, Kituo cha Umeme, RTL, pamoja na BTC RPC Explorer, zote zikiwa na msururu jumuishi wa sasisho na msimbo wa chanzo huria chini ya leseni ya MIT.
+Kwa upande wa programu, Nodl inaunganisha Bitcoin core, LND, server ya BTCPay, Electrs, Dojo, Whirlpool, Kituo cha Lightning, RTL, pamoja na BTC RPC Explorer, zote zikiwa na msururu jumuishi wa sasisho na msimbo wa chanzo huria chini ya leseni ya MIT.
 
 
 
@@ -1044,7 +1044,7 @@ Kwa upande wa programu, Nodl inaunganisha Bitcoin core, LND, Seva ya BTCPay, Ele
 
 
 
-Baada ya kuchunguza suluhu mbalimbali za programu, sasa ni wakati wa kuchagua mashine ambayo itakuwa mwenyeji wa nodi yako!
+Baada ya kuchunguza suluhu mbalimbali za programu, sasa ni wakati wa kuchagua mashine ambayo itakuwa mwenyeji wa node yako!
 
 
 
@@ -1056,7 +1056,7 @@ Baada ya kuchunguza suluhu mbalimbali za programu, sasa ni wakati wa kuchagua ma
 
 
 
-Sasa kwa kuwa tumechunguza uwezekano wote wa programu, hebu tuzingatie maunzi yanayohitajika kwa nodi yako. Nitakupa ushauri madhubuti wa kuchagua vijenzi vyako, pamoja na usanidi uliowekwa kulingana na bajeti tofauti. Bila shaka, haya ni maoni yangu ya kibinafsi na maoni: hakika kuna mbadala nyingine muhimu pamoja na zile zilizowasilishwa hapa. Zaidi ya hayo, sitatazama tena mashine zilizounganishwa awali zinazotolewa na miradi ya nodi-in-a-box, ambayo tayari tumeshughulikia katika sura iliyopita. Hapa, tutazingatia masuluhisho ya DIY pekee.
+Sasa kwa kuwa tumechunguza uwezekano wote wa programu, hebu tuzingatie maunzi yanayohitajika kwa node yako. Nitakupa ushauri madhubuti wa kuchagua vijenzi vyako, pamoja na usanidi uliowekwa kulingana na bajeti tofauti. Bila shaka, haya ni maoni yangu ya kibinafsi na maoni: hakika kuna mbadala nyingine muhimu pamoja na zile zilizowasilishwa hapa. Zaidi ya hayo, sitatazama tena mashine zilizounganishwa awali zinazotolewa na miradi ya node-in-a-box, ambayo tayari tumeshughulikia katika sura iliyopita. Hapa, tutazingatia masuluhisho ya DIY pekee.
 
 
 
@@ -1064,7 +1064,7 @@ Sasa kwa kuwa tumechunguza uwezekano wote wa programu, hebu tuzingatie maunzi ya
 
 
 
-Katika miaka michache iliyopita, bitcoiners wamezidi kufahamu dhana potofu ya kawaida, hasa kwa umaarufu wa nodi-in-a-box katika miaka ya mapema ya 2020: nodi ya Bitcoin lazima iendeshwe kwenye mashine iliyojitolea kwa madhumuni haya. Lakini hii si kweli. Huhitaji kompyuta maalum ili kuendesha nodi ya Bitcoin: Bitcoin core ina uwezo wa kufanya kazi kwenye Kompyuta yako ya kila siku. Ikiwa una nafasi ya kutosha ya diski kwa Blockchain au kuwezesha kupogoa, unaweza kuhalalisha mnyororo, kuunganisha Wallet yako, na hata kufunga programu unapomaliza kuitumia. Faida ya njia hii ni kubwa: uwekezaji wa awali wa sifuri na ugumu mdogo.
+Katika miaka michache iliyopita, bitcoiners wamezidi kufahamu dhana potofu ya kawaida, hasa kwa umaarufu wa node-in-a-box katika miaka ya mapema ya 2020: node ya Bitcoin lazima iendeshwe kwenye mashine iliyojitolea kwa madhumuni haya. Lakini hii si kweli. Huhitaji kompyuta maalum ili kuendesha node ya Bitcoin: Bitcoin core ina uwezo wa kufanya kazi kwenye Kompyuta yako ya kila siku. Ikiwa una nafasi ya kutosha ya diski kwa Blockchain au kuwezesha kupogoa, unaweza kuhalalisha mnyororo, kuunganisha Wallet yako, na hata kufunga programu unapomaliza kuitumia. Faida ya njia hii ni kubwa: uwekezaji wa awali wa sifuri na ugumu mdogo.
 
 
 
@@ -1072,7 +1072,7 @@ Katika miaka michache iliyopita, bitcoiners wamezidi kufahamu dhana potofu ya ka
 
 
 
-Hiyo ilisema, kutumia mashine iliyojitolea mara nyingi ni vizuri zaidi. Inaweza kukimbia kwa kuendelea (24/7), kupatikana kwa mbali wakati wote, sio kuhodhi rasilimali za mashine yako kuu, na, juu ya yote, kutenganisha matumizi (mazoezi mazuri ya usalama: ikiwa PC yako ya kibinafsi inakabiliwa na tatizo, node yako inaendelea kufanya kazi, na kinyume chake). Kwa hivyo swali sio "Je, ninahitaji kuweka wakfu mashine?", lakini badala yake "Je, ninahitaji nodi ambayo iko mtandaoni mara kwa mara, inayofikiwa na vifaa vingine, na inayoweza kubadilika?" (Umeme, indexers, maombi ya ziada ...). Ikiwa jibu ni ndio, kuchagua mashine tofauti kutafanya mambo kuwa rahisi zaidi.
+Hiyo ilisema, kutumia mashine iliyojitolea mara nyingi ni vizuri zaidi. Inaweza kukimbia kwa kuendelea (24/7), kupatikana kwa mbali wakati wote, sio kuhodhi rasilimali za mashine yako kuu, na, juu ya yote, kutenganisha matumizi (mazoezi mazuri ya usalama: ikiwa PC yako ya kibinafsi inakabiliwa na tatizo, node yako inaendelea kufanya kazi, na kinyume chake). Kwa hivyo swali sio "Je, ninahitaji kuweka wakfu mashine?", lakini badala yake "Je, ninahitaji node ambayo iko mtandaoni mara kwa mara, inayofikiwa na vifaa vingine, na inayoweza kubadilika?" (Lightning, indexers, maombi ya ziada ...). Ikiwa jibu ni ndio, kuchagua mashine tofauti kutafanya mambo kuwa rahisi zaidi.
 
 
 
@@ -1084,7 +1084,7 @@ Hiyo ilisema, kutumia mashine iliyojitolea mara nyingi ni vizuri zaidi. Inaweza 
 
 
 
-Ni suluhisho la kiuchumi zaidi. Wengi wetu tuna mkusanyiko wa zamani wa Kompyuta wa Dust nyumbani, au pamoja na marafiki na familia: hii ndiyo fursa nzuri ya kuirejesha katika huduma! Ili kuibadilisha ili itumike kama nodi ya Bitcoin, ongeza tu SSD ya 2TB na, kulingana na mahitaji yako, badilisha au uongeze pau za RAM ili kuongeza RAM. Tarajia kulipa kati ya €100 na €200 kwa mashine inayofanya kazi kikamilifu.
+Ni suluhisho la kiuchumi zaidi. Wengi wetu tuna mkusanyiko wa zamani wa Kompyuta wa Dust nyumbani, au pamoja na marafiki na familia: hii ndiyo fursa nzuri ya kuirejesha katika huduma! Ili kuibadilisha ili itumike kama node ya Bitcoin, ongeza tu SSD ya 2TB na, kulingana na mahitaji yako, badilisha au uongeze pau za RAM ili kuongeza RAM. Tarajia kulipa kati ya €100 na €200 kwa mashine inayofanya kazi kikamilifu.
 
 
 
@@ -1100,7 +1100,7 @@ Kuwa mwangalifu, hata hivyo, ikiwa unatumia kompyuta ya mkononi: betri inaweza k
 
 
 
-Soko limejaa Kompyuta ndogo za biashara zilizorekebishwa kama vile *Lenovo ThinkCentre Tiny*, *HP EliteDesk Mini*, au *Dell OptiPlex Micro*. Mashine hizi ni dhabiti, zinashikana, hazina utulivu na hazina nishati. Bei yao iko chini ya mpya, na ni rahisi kupata miundo iliyo na vichakataji vya i5/i7 vya kizazi cha 6 hadi 10 na RAM ya GB 8 hadi 16, zote kwa bei za kuvutia sana, kwa ujumla kati ya €70 na €200, kulingana na usanidi. Kwa maoni yangu, hii ndio chaguo bora zaidi ikiwa unatafuta mashine iliyojitolea kwa nodi yako ya Bitcoin.
+Soko limejaa Kompyuta ndogo za biashara zilizorekebishwa kama vile *Lenovo ThinkCentre Tiny*, *HP EliteDesk Mini*, au *Dell OptiPlex Micro*. Mashine hizi ni dhabiti, zinashikana, hazina utulivu na hazina nishati. Bei yao iko chini ya mpya, na ni rahisi kupata miundo iliyo na vichakataji vya i5/i7 vya kizazi cha 6 hadi 10 na RAM ya GB 8 hadi 16, zote kwa bei za kuvutia sana, kwa ujumla kati ya €70 na €200, kulingana na usanidi. Kwa maoni yangu, hii ndio chaguo bora zaidi ikiwa unatafuta mashine iliyojitolea kwa node yako ya Bitcoin.
 
 
 
@@ -1132,7 +1132,7 @@ Ikiwa bajeti yako inaruhusu, unaweza pia kuchagua mashine mpya. Hili ni chaguo z
 
 
 
-Kompyuta ndogo, kwa maoni yangu, hutoa maelewano bora kwa kukaribisha nodi ya Bitcoin nyumbani. Huhifadhi nafasi, hutoshea kwa urahisi kwenye rafu, hutumia nishati kidogo, na hujitolea kurekebisha maunzi kwa urahisi, kama vile kuongeza RAM au kubadilisha SSD.
+Kompyuta ndogo, kwa maoni yangu, hutoa maelewano bora kwa kukaribisha node ya Bitcoin nyumbani. Huhifadhi nafasi, hutoshea kwa urahisi kwenye rafu, hutumia nishati kidogo, na hujitolea kurekebisha maunzi kwa urahisi, kama vile kuongeza RAM au kubadilisha SSD.
 
 
 
@@ -1156,7 +1156,7 @@ Binafsi, napendelea *Lenovo ThinkCentre Tiny*, ambayo imeenea sana kwenye soko l
 
 
 
-Ni mbadala bora ya gharama nafuu kwa mini-PC: leo, unaweza kupata kompyuta ndogo zilizotumiwa au hata mpya kwa bei ya chini, zilizo na wasindikaji wa heshima, bandari nyingi, pamoja na skrini iliyounganishwa na kibodi (vitendo sana kwa usakinishaji wa awali). Zaidi ya yote, betri hufanya kama UPS ya asili: katika tukio la kukatwa kwa nguvu, nodi haizimiki kwa ghafla, na inaweza hata kubaki kufanya kazi kwa saa kadhaa.
+Ni mbadala bora ya gharama nafuu kwa mini-PC: leo, unaweza kupata kompyuta ndogo zilizotumiwa au hata mpya kwa bei ya chini, zilizo na wasindikaji wa heshima, bandari nyingi, pamoja na skrini iliyounganishwa na kibodi (vitendo sana kwa usakinishaji wa awali). Zaidi ya yote, betri hufanya kama UPS ya asili: katika tukio la kukatwa kwa nguvu, node haizimiki kwa ghafla, na inaweza hata kubaki kufanya kazi kwa saa kadhaa.
 
 
 
@@ -1184,7 +1184,7 @@ Ikiwa unachagua suluhisho hili, napendekeza uangalie kwa karibu hali ya betri il
 
 
 
-Katika miaka ya mapema ya 2020, pamoja na kuongezeka kwa programu ya nodi-in-a-box, Raspberry Pi craze pia iliibuka kama njia ya kuendesha nodi ya Bitcoin. Wazo hilo lilionekana kuvutia: gharama nafuu, compact, na kupatikana.
+Katika miaka ya mapema ya 2020, pamoja na kuongezeka kwa programu ya node-in-a-box, Raspberry Pi craze pia iliibuka kama njia ya kuendesha node ya Bitcoin. Wazo hilo lilionekana kuvutia: gharama nafuu, compact, na kupatikana.
 
 
 
@@ -1192,7 +1192,7 @@ Katika miaka ya mapema ya 2020, pamoja na kuongezeka kwa programu ya nodi-in-a-b
 
 
 
-Kwa mazoezi, ikiwa lengo lako ni kuendesha nodi ya Bitcoin pekee bila programu za ziada, Raspberry Pi inaweza kutosha. Lakini mara tu unapotaka kutumia Umbrel, Start9, au mfumo tajiri wa ikolojia (Block explorer, Address indexer, Lightning node, self-hosting apps...), mashine hufikia kikomo chake haraka.
+Kwa mazoezi, ikiwa lengo lako ni kuendesha node ya Bitcoin pekee bila programu za ziada, Raspberry Pi inaweza kutosha. Lakini mara tu unapotaka kutumia Umbrel, Start9, au mfumo tajiri wa ikolojia (Block explorer, Address indexer, Lightning node, self-hosting apps...), mashine hufikia kikomo chake haraka.
 
 
 
@@ -1222,11 +1222,11 @@ Kihistoria, faida kubwa ya SBC kama vile Raspberry Pi ilikuwa bei yao: kwa euro 
 
 
 
-Kitaalam, inawezekana kuendesha node ya Bitcoin kwenye HDD. Shida ni kwamba kila kitu kitapungua sana, haswa IBD, ambayo itakuwa ndefu sana kwa sababu ya matumizi makubwa ya Bitcoin core ya diski kama kashe (haswa kwa seti ya UTXO). Hii ndiyo sababu ninashauri sana dhidi ya kutumia HDD: inajenga kizuizi halisi, inaweka vikwazo vikali katika mageuzi ya siku zijazo (kwa mfano, kwa nodi ya Umeme), na inaweza hata kusababisha upatanisho usiofaa na kichwa cha Blockchain. Nini zaidi, dhiki ya mara kwa mara kwenye disk ya mitambo huongeza hatari ya kuvaa mapema.
+Kitaalam, inawezekana kuendesha node ya Bitcoin kwenye HDD. Shida ni kwamba kila kitu kitapungua sana, haswa IBD, ambayo itakuwa ndefu sana kwa sababu ya matumizi makubwa ya Bitcoin core ya diski kama kashe (haswa kwa seti ya UTXO). Hii ndiyo sababu ninashauri sana dhidi ya kutumia HDD: inajenga block halisi, inaweka vikwazo vikali katika mageuzi ya siku zijazo (kwa mfano, kwa lightning node), na inaweza hata kusababisha upatanisho usiofaa na kichwa cha Blockchain. Nini zaidi, dhiki ya mara kwa mara kwenye disk ya mitambo huongeza hatari ya kuvaa mapema.
 
 
 
-SSD hubadilisha sana uzoefu wako wa mtumiaji: kila kitu kinakuwa haraka na laini, na kuegemea zaidi. Kwa hivyo matumizi ya SSD ni (karibu) ya lazima kwa nodi yako, na hutajuta, hasa kwa vile mifano ya uwezo wa juu sasa ni nafuu.
+SSD hubadilisha sana uzoefu wako wa mtumiaji: kila kitu kinakuwa haraka na laini, na kuegemea zaidi. Kwa hivyo matumizi ya SSD ni (karibu) ya lazima kwa node yako, na hutajuta, hasa kwa vile mifano ya uwezo wa juu sasa ni nafuu.
 
 
 
@@ -1250,11 +1250,11 @@ Kuhusu umbizo, hii itategemea bandari zinazopatikana kwenye mashine yako; hata h
 
 
 
-Kwa Bitcoin core pekee (bila kuwekelea kwa Mwavuli), mapendekezo ya wasanidi programu yanaonyesha kiwango cha chini cha RAM ya MB 256 na mipangilio iliyorekebishwa kuwa ya chini kabisa, 512 MB yenye mipangilio chaguo-msingi, na GB 1 kwa matumizi ya kawaida.
+Kwa Bitcoin core pekee (bila kuwekelea kwa Umbrel), mapendekezo ya wasanidi programu yanaonyesha kiwango cha chini cha RAM ya MB 256 na mipangilio iliyorekebishwa kuwa ya chini kabisa, 512 MB yenye mipangilio chaguo-msingi, na GB 1 kwa matumizi ya kawaida.
 
 
 
-Kwa upande mwingine, ikiwa unatumia mfumo wa nodi-in-a-box kama Umbrel au Start9, mahitaji ya RAM ni ya juu zaidi. Watengenezaji wa Umbrel wanapendekeza angalau RAM ya GB 4. Hii inaweza kutosha kuendesha Core pekee, lakini utakuwa na kikomo hivi karibuni. Kwa hivyo wanapendekeza GB 8, ambayo pia ninazingatia kiwango cha chini cha usanidi wa msingi karibu na Bitcoin (Core, LND, indexer, na programu chache). Katika uzoefu wangu, na Umbrel na huduma chache za ziada, GB 8 bado ni ngumu. Ili kuwa vizuri na kuwa na kiasi fulani, ningependekeza RAM ya GB 16.
+Kwa upande mwingine, ikiwa unatumia mfumo wa node-in-a-box kama Umbrel au Start9, mahitaji ya RAM ni ya juu zaidi. Watengenezaji wa Umbrel wanapendekeza angalau RAM ya GB 4. Hii inaweza kutosha kuendesha Core pekee, lakini utakuwa na kikomo hivi karibuni. Kwa hivyo wanapendekeza GB 8, ambayo pia ninazingatia kiwango cha chini cha usanidi wa msingi karibu na Bitcoin (Core, LND, indexer, na programu chache). Katika uzoefu wangu, na Umbrel na huduma chache za ziada, GB 8 bado ni ngumu. Ili kuwa vizuri na kuwa na kiasi fulani, ningependekeza RAM ya GB 16.
 
 
 
@@ -1262,7 +1262,7 @@ Kwa upande mwingine, ikiwa unatumia mfumo wa nodi-in-a-box kama Umbrel au Start9
 
 
 
-Kwa nodi ya Umbrel, mahitaji ya chini ni processor mbili-msingi 64-bit kutoka Intel au AMD. Ikiwa ungependa kutumia programu chache kwa kuongeza Bitcoin core, quad-core (au ya juu zaidi) itafanya tofauti ya kweli katika suala la fluidity. Kwa mfano, wasindikaji wa i5/i7 wa kizazi cha 6 hadi 10 ni chaguo bora kwenye soko lililotumiwa.
+Kwa node ya Umbrel, mahitaji ya chini ni processor mbili-msingi 64-bit kutoka Intel au AMD. Ikiwa ungependa kutumia programu chache kwa kuongeza Bitcoin core, quad-core (au ya juu zaidi) itafanya tofauti ya kweli katika suala la fluidity. Kwa mfano, wasindikaji wa i5/i7 wa kizazi cha 6 hadi 10 ni chaguo bora kwenye soko lililotumiwa.
 
 
 
@@ -1298,7 +1298,7 @@ Ni wazi, ikiwa bajeti yako ni ndogo sana (chini ya €200), ningekushauri usiwek
 
 
 
-Vinginevyo, kwa bajeti ya kiwango cha kuingia, ninapendekeza *HP EliteDesk 800 G2 Mini*. Nilipata modeli iliyorekebishwa kwa €96 kwenye Amazon, iliyo na kichakataji cha kizazi cha 6 cha Intel Core i5 na RAM ya GB 8. Hili ni chaguo la kuvutia sana kwa wanaoanza: kichakataji hiki na kiasi hiki cha kumbukumbu ni zaidi ya kutosha kuendesha Core kwenye Umbrel, na vile vile programu kadhaa kwa wakati mmoja, kama vile kiashiria cha Electrs, nodi ya Umeme, na mfano wa Mempool, mradi hautengani kache nyingi kwa Core. Zaidi ya hayo, aina hii ya mini-PC hurahisisha kuongeza RAM hadi GB 16, kwa mfano, ikiwa hitaji litatokea (unatarajia kulipa karibu € 30-40 za ziada kwa vijiti vya kumbukumbu moja au mbili).
+Vinginevyo, kwa bajeti ya kiwango cha kuingia, ninapendekeza *HP EliteDesk 800 G2 Mini*. Nilipata modeli iliyorekebishwa kwa €96 kwenye Amazon, iliyo na kichakataji cha kizazi cha 6 cha Intel Core i5 na RAM ya GB 8. Hili ni chaguo la kuvutia sana kwa wanaoanza: kichakataji hiki na kiasi hiki cha kumbukumbu ni zaidi ya kutosha kuendesha Core kwenye Umbrel, na vile vile programu kadhaa kwa wakati mmoja, kama vile kiashiria cha Electrs, lightning node, na mfano wa Mempool, mradi hautengani kache nyingi kwa Core. Zaidi ya hayo, aina hii ya mini-PC hurahisisha kuongeza RAM hadi GB 16, kwa mfano, ikiwa hitaji litatokea (unatarajia kulipa karibu € 30-40 za ziada kwa vijiti vya kumbukumbu moja au mbili).
 
 
 
@@ -1314,7 +1314,7 @@ Kisha ongeza tu SSD kwenye bajeti. Kuanzia na Samsung 2TB kwa €120, tunapata g
 
 
 
-Ikiwa una wastani wa bajeti ya takriban €300 kwa mashine itakayopangisha nodi yako, ninapendekeza *Lenovo ThinkCentre Tiny*, kwa mfano, iliyo na kichakataji cha utendaji wa juu na RAM ya kutosha. Nilipata modeli iliyorekebishwa kwenye Amazon kwa €180, iliyo na kichakataji cha kizazi cha 6 cha Intel Core i7 na 16GB ya RAM. Pamoja na nyongeza ya 2TB SSD kwa €120, gharama ya jumla inakuja €300.
+Ikiwa una wastani wa bajeti ya takriban €300 kwa mashine itakayopangisha node yako, ninapendekeza *Lenovo ThinkCentre Tiny*, kwa mfano, iliyo na kichakataji cha utendaji wa juu na RAM ya kutosha. Nilipata modeli iliyorekebishwa kwenye Amazon kwa €180, iliyo na kichakataji cha kizazi cha 6 cha Intel Core i7 na 16GB ya RAM. Pamoja na nyongeza ya 2TB SSD kwa €120, gharama ya jumla inakuja €300.
 
 
 
@@ -1330,7 +1330,7 @@ Ukiwa na mashine hii, una usanidi mzuri: IBD ya haraka na uwezo wa kuendesha pro
 
 
 
-Kwa bajeti kubwa, uwezekano unakuwa mkubwa zaidi. Unaweza kuchagua usanidi wa DIY, au hata uchague mashine iliyokusanywa mapema inayotolewa moja kwa moja na mradi wa nodi ndani ya kisanduku.
+Kwa bajeti kubwa, uwezekano unakuwa mkubwa zaidi. Unaweza kuchagua usanidi wa DIY, au hata uchague mashine iliyokusanywa mapema inayotolewa moja kwa moja na mradi wa node ndani ya kisanduku.
 
 
 
@@ -1338,7 +1338,7 @@ Kwa mfano, *ASUS NUC 14 Pro* inapatikana mpya kutoka Amazon kwa €540. Kwa bei 
 
 
 
-Huu ni usanidi mzuri sana, hata kupindukia ikiwa lengo la kwanza ni kuendesha nodi ya Bitcoin. Kwa upande mwingine, ikiwa unataka kutumia kikamilifu programu zote za upangishaji wa kibinafsi zinazopatikana kwenye Umbrel na Start9, kiwango hiki cha nguvu kinafaa kwako.
+Huu ni usanidi mzuri sana, hata kupindukia ikiwa lengo la kwanza ni kuendesha node ya Bitcoin. Kwa upande mwingine, ikiwa unataka kutumia kikamilifu programu zote za upangishaji wa kibinafsi zinazopatikana kwenye Umbrel na Start9, kiwango hiki cha nguvu kinafaa kwako.
 
 
 
@@ -1368,7 +1368,7 @@ Kulingana na matumizi unayokusudia, unaweza kuchagua SSD ya 2TB, kama ilivyo kat
 
 
 
-- Baadhi ya mazingira, kama vile Umbrel, basi hukuruhusu kutumia Wi-Fi, lakini utendakazi kwa ujumla utakuwa duni (hasa ikiwa unataka kutumia nodi yako ya Umeme ukiwa mbali, kwani hii inaweza kuwa na athari). Ukichagua Wi-Fi, hakikisha kuwa mashine yako ina kadi iliyojengewa ndani au uongeze dongle inayooana.
+- Baadhi ya mazingira, kama vile Umbrel, basi hukuruhusu kutumia Wi-Fi, lakini utendakazi kwa ujumla utakuwa duni (hasa ikiwa unataka kutumia Lightning node ukiwa mbali, kwani hii inaweza kuwa na athari). Ukichagua Wi-Fi, hakikisha kuwa mashine yako ina kadi iliyojengewa ndani au uongeze dongle inayooana.
 
 
 
@@ -1386,7 +1386,7 @@ Kulingana na matumizi unayokusudia, unaweza kuchagua SSD ya 2TB, kama ilivyo kat
 
 
 
-- Kulingana na thamani ya kifaa chako na eneo lako la kijiografia, mfumo wa kuzuia umeme unaweza pia kufaa, ama moja kwa moja kwenye ubao wa kubadilishia umeme au kwenye kamba ya umeme inayotumiwa.
+- Kulingana na thamani ya kifaa chako na eneo lako la kijiografia, mfumo wa kuzuia umeme unaweza pia kufaa, ama moja kwa moja kwenye ubao wa kubadilishia lightning au kwenye kamba ya lightning inayotumiwa.
 
 
 
@@ -1396,7 +1396,7 @@ Kulingana na matumizi unayokusudia, unaweza kuchagua SSD ya 2TB, kama ilivyo kat
 
 
 
-# Kufunga nodi ya Bitcoin kwa urahisi
+# Kufunga node ya Bitcoin kwa urahisi
 
 
 <partId>ca6cf2a5-0bcc-41d9-b556-0d38865bf98f</partId>
@@ -1404,18 +1404,18 @@ Kulingana na matumizi unayokusudia, unaweza kuchagua SSD ya 2TB, kama ilivyo kat
 
 
 
-## Mwavuli: zaidi ya nodi ya Bitcoin
+## Umbrel: zaidi ya node ya Bitcoin
 
 
 <chapterId>dd4c04f1-924a-43e1-94f3-ea9fbc83dd43</chapterId>
 
 
 
-Umbrel ni mfumo wa uendeshaji wa seva ya kibinafsi iliyoundwa kufanya upangishaji wa kibinafsi kufikiwa: unasakinisha Umbrel, kufungua kivinjari kwenye `umbrel.local`, na kudhibiti kila kitu kupitia Interface rahisi ya mbali.
+Umbrel ni mfumo wa uendeshaji wa server ya kibinafsi iliyoundwa kufanya upangishaji wa kibinafsi kufikiwa: unasakinisha Umbrel, kufungua kivinjari kwenye `umbrel.local`, na kudhibiti kila kitu kupitia Interface rahisi ya mbali.
 
 
 
-Mradi huo kwanza ulieneza wazo la kubofya mara moja kwa Bitcoin na nodi ya Umeme, kisha kupanuliwa kuwa "wingu la nyumbani" halisi: hifadhi ya faili na picha, utiririshaji wa media titika, zana za mtandao, otomatiki nyumbani, AI ya ndani, na mamia ya programu zinazoweza kusakinishwa kutoka kwa Duka la Programu iliyojumuishwa.
+Mradi huo kwanza ulieneza wazo la kubofya mara moja kwa Bitcoin na lightning node, kisha kupanuliwa kuwa "home cloud" halisi: hifadhi ya faili na picha, utiririshaji wa media titika, zana za mtandao, otomatiki nyumbani, AI ya ndani, na mamia ya programu zinazoweza kusakinishwa kutoka kwa Duka la Programu iliyojumuishwa.
 
 
 
@@ -1423,11 +1423,11 @@ Katika Umbrel, kila programu inaendesha kwenye chombo cha Docker (kutengwa, sasi
 
 
 
-Kwa hivyo, lengo la Umbrel ni kukupa udhibiti na usiri juu ya data yako, bila kutegemea huduma za wingu, zaidi ya kutumia nodi ya Bitcoin.
+Kwa hivyo, lengo la Umbrel ni kukupa udhibiti na usiri juu ya data yako, bila kutegemea huduma za cloud, zaidi ya kutumia node ya Bitcoin.
 
 
 
-### Umbrel Home vs mwavuliOS
+### Umbrel Home vs umbrel OS
 
 
 
@@ -1437,7 +1437,7 @@ Umbrel hutoa njia mbili tofauti:
 
 
 
-- [**Umbrel Home**](https://umbrel.com/umbrel-home): hii ni seva ndogo iliyo tayari kutumia, iliyoundwa mahususi na kuboreshwa kwa ajili ya umbrelOS. Imeshikamana, kimya, imeunganishwa kwa Ethaneti, ina NVMe SSD (hiari ya hadi 4TB), RAM ya GB 16, na CPU ya quad-core. Unaiagiza, uichomeke, na uende kwa `umbrel.local`. Unaweza kuwa na Mwavuli unaofanya kazi unaoendelea kwa dakika. Hilo ndilo chaguo la kuziba-na-kucheza.
+- [**Umbrel Home**](https://umbrel.com/umbrel-home): hii ni server ndogo iliyo tayari kutumia, iliyoundwa mahususi na kuboreshwa kwa ajili ya umbrelOS. Imeshikamana, kimya, imeunganishwa kwa Ethaneti, ina NVMe SSD (hiari ya hadi 4TB), RAM ya GB 16, na CPU ya quad-core. Unaiagiza, uichomeke, na uende kwa `umbrel.local`. Unaweza kuwa na Umbrel Inayofanya kazi unayoendelea kwa dakika. Hilo ndilo chaguo la kuziba-na-kucheza.
 
 
 
@@ -1467,17 +1467,17 @@ Katika sura inayofuata, tutachunguza jinsi ya kusakinisha umbrelOS DIY kwenye ma
 
 
 
-### Kesi ya matumizi: kutoka nodi ya Bitcoin hadi wingu la nyumbani
+### Kesi ya matumizi: kutoka node ya Bitcoin hadi home cloud
 
 
 
-Mwavuli unaweza kubaki kuwa mdogo sana na kulenga Bitcoin pekee, au kubadilika na kuwa seva ya kibinafsi yenye utendaji mwingi, kulingana na mahitaji yako. Hapa kuna matumizi kuu ya Umbrel:
+Umbrel inaweza kubaki kuwa ndogo sana na kulenga Bitcoin pekee, au kubadilika na kuwa server ya kibinafsi yenye utendaji mwingi, kulingana na mahitaji yako. Hapa kuna matumizi kuu ya Umbrel:
 
 
 
 
 
-- Njia rahisi ya Bitcoin**: haya ndiyo matumizi ya mwanzilishi ambayo Umbrel ameitegemea tangu mwanzo. Unaweza kuendesha Bitcoin core (au Mafundo), kuunganisha pochi zako moja kwa moja kwenye nodi yako, onyesha seva ya Electrum, karibisha Mempool Block explorer yako ili kutazama Blockchain, na kukadiria gharama... Ni matumizi haya ambayo tutakuwa tukiyazingatia katika kozi hii.
+- **Njia rahisi ya Bitcoin**: haya ndiyo matumizi ya mwanzilishi ambayo Umbrel ameitegemea tangu mwanzo. Unaweza kuendesha Bitcoin core (au Mafundo), kuunganisha wallet zako moja kwa moja kwenye node yako, onyesha server ya Electrum, karibisha Mempool Block explorer yako ili kutazama Blockchain, na kukadiria gharama... Ni matumizi haya ambayo tutakuwa tukiyazingatia katika kozi hii.
 
 
 
@@ -1487,7 +1487,7 @@ Mwavuli unaweza kubaki kuwa mdogo sana na kulenga Bitcoin pekee, au kubadilika n
 
 
 
-- Lightning Network**: Mwavuli pia hukuruhusu kupeleka LND au Core Lightning, utekelezaji mbili wa Lightning Network, ili kudhibiti nukta yako ya Umeme. Utaweza kufungua vituo, kudhibiti ukwasi wako, kufanya malipo, kusawazisha kiotomatiki, kutoa huduma, kuunganisha Wallet ya mbali, au kunufaika na usimamizi wa hali ya juu wa Interface kutokana na programu nyingi zinazopatikana. Tutakuwa tukiangalia kesi hii maalum ya utumiaji katika kozi yetu inayofuata ya LNP 202.
+- **Lightning Network**: Umbrel pia hukuruhusu kupeleka LND au Core Lightning, utekelezaji mbili wa Lightning Network, ili kudhibiti nukta yako ya lightning. Utaweza kufungua vituo, kudhibiti ukwasi wako, kufanya malipo, kusawazisha kiotomatiki, kutoa huduma, kuunganisha Wallet ya mbali, au kunufaika na usimamizi wa hali ya juu wa Interface kutokana na programu nyingi zinazopatikana. Tutakuwa tukiangalia kesi hii maalum ya utumiaji katika kozi yetu inayofuata ya LNP 202.
 
 
 
@@ -1497,11 +1497,11 @@ Mwavuli unaweza kubaki kuwa mdogo sana na kulenga Bitcoin pekee, au kubadilika n
 
 
 
-- Upangishaji wa kibinafsi wa jumla**: ukitumia Nextcloud, Immich, Jellyfin/Plex, vizuizi vya matangazo kote vya DNS (Pi-hole/AdGuard), VPN (WireGuard, Tailscale), mitambo ya kiotomatiki ya nyumbani (Msaidizi wa Nyumbani), hifadhi rudufu, udhibiti wa madokezo, zana za ofisi, AI ya ndani (Ollama + Open WebUI)... Mwavuli unaweza kuwa udhibiti wa data yako ya kibinafsi. Unapangisha huduma unazotumia kila siku wewe mwenyewe, ukitumia hali iliyoboreshwa ya mtumiaji ambayo inafanana kwa karibu na suluhu za nje, huku ukihifadhi udhibiti kamili wa data na faragha yako.
+- **Upangishaji wa kibinafsi wa jumla**: ukitumia Nextcloud, Immich, Jellyfin/Plex, blocks za matangazo kote vya DNS (Pi-hole/AdGuard), VPN (WireGuard, Tailscale), mitambo ya kiotomatiki ya nyumbani (Msaidizi wa Nyumbani), hifadhi rudufu, udhibiti wa madokezo, zana za ofisi, AI ya ndani (Ollama + Open WebUI)... Umbrel inaweza kuwa udhibiti wa data yako ya kibinafsi. Unapangisha huduma unazotumia kila siku wewe mwenyewe, ukitumia hali iliyoboreshwa ya mtumiaji ambayo inafanana kwa karibu na suluhu za nje, huku ukihifadhi udhibiti kamili wa data na faragha yako.
 
 
 
-Kwa kupeleka programu katika vyombo, unaweza kuunda Umbrel upendavyo: anza na nodi rahisi ya Bitcoin na programu chache zilizounganishwa na mfumo ikolojia wake, kisha usakinishe nodi ya Umeme kando ya nodi yako ya Bitcoin, na uboresha muundo wako hatua kwa hatua kwa programu za upangishaji binafsi unazohitaji.
+Kwa kupeleka programu katika vyombo, unaweza kuunda Umbrel upendavyo: anza na node rahisi ya Bitcoin na programu chache zilizounganishwa na mfumo ikolojia wake, kisha usakinishe lightning node kando ya node yako ya Bitcoin, na uboresha muundo wako hatua kwa hatua kwa programu za upangishaji binafsi unazohitaji.
 
 
 
@@ -1533,7 +1533,7 @@ Hata hivyo, ni marufuku kuuza Umbrel au viasili vyake (kwa mfano, mashine iliyou
 
 
 
-Kitaalam, leseni hii haizuii usakinishaji, ukaguzi, au urekebishaji wa Umbrel kwa matumizi ya kibinafsi. Kisheria, inalinda mradi dhidi ya uuzaji tena usioidhinishwa au upangishaji wa kibiashara, haswa na watoa huduma za wingu. Kwa hivyo, mwavuli si chanzo wazi, ingawa kanuni zake bado zinapatikana kwa umma.
+Kitaalam, leseni hii haizuii usakinishaji, ukaguzi, au urekebishaji wa Umbrel kwa matumizi ya kibinafsi. Kisheria, inalinda mradi dhidi ya uuzaji tena usioidhinishwa au upangishaji wa kibiashara, haswa na watoa huduma za cloud. Kwa hivyo, umbrel  si chanzo wazi, ingawa kanuni zake bado zinapatikana kwa umma.
 
 
 
@@ -1549,7 +1549,7 @@ Hata hivyo, kila programu kwenye Duka huhifadhi leseni yake, mara nyingi chanzo 
 
 
 
-Sasa kwa kuwa tuna habari zote muhimu, ni wakati wa kutafakari kwa undani. Katika somo hili, tutakuonyesha jinsi ya kusakinisha nodi kamili ya Bitcoin kwa kutumia UmbrelOS.
+Sasa kwa kuwa tuna habari zote muhimu, ni wakati wa kutafakari kwa undani. Katika somo hili, tutakuonyesha jinsi ya kusakinisha node kamili ya Bitcoin kwa kutumia UmbrelOS.
 
 
 
@@ -1557,7 +1557,7 @@ Sasa kwa kuwa tuna habari zote muhimu, ni wakati wa kutafakari kwa undani. Katik
 
 
 
-Hapa, tutakuwa tukitumia picha ya UmbrelOS x86 (kwa usahihi zaidi, toleo la x86_64). Utaweza kufuata mwongozo huu kwenye mashine yoyote utakayochagua, mradi tu haina kichakataji cha usanifu cha ARM (hakuna Apple Silicon, Raspberry Pi, n.k.). Hii ina maana kwamba kompyuta yoyote iliyo na kichakataji cha Intel au AMD 64-bit itatosha, mradi tu inakidhi mahitaji ya chini, kulingana na jinsi unavyokusudia kutumia Mwavuli wako (angalau kichakataji cha msingi-mbili kinapendekezwa).
+Hapa, tutakuwa tukitumia picha ya UmbrelOS x86 (kwa usahihi zaidi, toleo la x86_64). Utaweza kufuata mwongozo huu kwenye mashine yoyote utakayochagua, mradi tu haina kichakataji cha usanifu cha ARM (hakuna Apple Silicon, Raspberry Pi, n.k.). Hii ina maana kwamba kompyuta yoyote iliyo na kichakataji cha Intel au AMD 64-bit itatosha, mradi tu inakidhi mahitaji ya chini, kulingana na jinsi unavyokusudia kutumia Umbrel yako (angalau kichakataji cha msingi-mbili kinapendekezwa).
 
 
 
@@ -1567,7 +1567,7 @@ Ikiwa umechagua Raspberry Pi 5 (chaguo ambalo sikupendekeza, kama ilivyotajwa ka
 
 https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
-Kama ilivyotajwa katika sehemu iliyotangulia, nilichagua kuendesha mafunzo haya kwenye Kompyuta ndogo iliyorekebishwa ambayo nilipata kwa bei nzuri: *Lenovo ThinkCentre M900 Tiny* iliyo na kichakataji cha Intel Core i7 na RAM ya GB 16. Huu ni usanidi mzuri sana wa kuendesha Umbrel, haswa kwa nodi ya Bitcoin. Walakini, nilichagua usanidi huu kwa sababu ninataka kusakinisha nodi ya Umeme na programu zingine zinazohitajika zaidi baadaye. Pia nimeongeza SSD ya 2TB kwenye ThinkCentre yangu ili kuhifadhi Blockchain kamili na bado nina ukingo mzuri. Kwa usanidi huu, gharama ya jumla ni €270, pamoja na gharama zote.
+Kama ilivyotajwa katika sehemu iliyotangulia, nilichagua kuendesha mafunzo haya kwenye Kompyuta ndogo iliyorekebishwa ambayo nilipata kwa bei nzuri: *Lenovo ThinkCentre M900 Tiny* iliyo na kichakataji cha Intel Core i7 na RAM ya GB 16. Huu ni usanidi mzuri sana wa kuendesha Umbrel, haswa kwa node ya Bitcoin. Walakini, nilichagua usanidi huu kwa sababu ninataka kusakinisha lightning node na programu zingine zinazohitajika zaidi baadaye. Pia nimeongeza SSD ya 2TB kwenye ThinkCentre yangu ili kuhifadhi Blockchain kamili na bado nina ukingo mzuri. Kwa usanidi huu, gharama ya jumla ni €270, pamoja na gharama zote.
 
 
 
@@ -1609,7 +1609,7 @@ Kulingana na maunzi uliyochagua, hatua ya kwanza ni kukusanya vipengele mbalimba
 
 
 
-Kabla ya kusakinisha UmbrelOS kwenye mashine yako, utahitaji kuunda ufunguo wa USB unaoweza kuwashwa ulio na mfumo wa uendeshaji. Hatua zote katika hatua ya 2 lazima zifanywe kwenye kompyuta yako ya kibinafsi (na sio moja kwa moja kwenye kompyuta iliyokusudiwa kuwa nodi yako).
+Kabla ya kusakinisha UmbrelOS kwenye mashine yako, utahitaji kuunda ufunguo wa USB unaoweza kuwashwa ulio na mfumo wa uendeshaji. Hatua zote katika hatua ya 2 lazima zifanywe kwenye kompyuta yako ya kibinafsi (na sio moja kwa moja kwenye kompyuta iliyokusudiwa kuwa node yako).
 
 
 
@@ -1677,7 +1677,7 @@ Operesheni ikishakamilika, utakuwa na kitufe cha USB kinachoweza kuwashwa kilich
 
 
 
-Kwa kuwa sasa fimbo yako ya USB inayoweza kuwashwa iliyo na UmbrelOS iko tayari, unaweza kuwasha kompyuta yako ili kuanza usakinishaji wa mfumo. Chomoa ufunguo wa USB kutoka kwa kompyuta yako kuu na uiweke kwenye kifaa ambacho ungependa kusakinisha Umbrel na nodi yako ya Bitcoin.
+Kwa kuwa sasa fimbo yako ya USB inayoweza kuwashwa iliyo na UmbrelOS iko tayari, unaweza kuwasha kompyuta yako ili kuanza usakinishaji wa mfumo. Chomoa ufunguo wa USB kutoka kwa kompyuta yako kuu na uiweke kwenye kifaa ambacho ungependa kusakinisha Umbrel na node yako ya Bitcoin.
 
 
 
@@ -1689,7 +1689,7 @@ Kama ilivyoelezwa mwanzoni mwa sura hii, ili kukamilisha usakinishaji, utahitaji
 
 
 
-Mwavuli ni wazi inahitaji muunganisho wa Mtandao. Unganisha kebo ya Ethaneti ya RJ45 kati ya kifaa chako na kipanga njia chako.
+Umbrel ni wazi inahitaji muunganisho wa Mtandao. Unganisha kebo ya Ethaneti ya RJ45 kati ya kifaa chako na kipanga njia chako.
 
 
 
@@ -1745,7 +1745,7 @@ Usakinishaji utakapokamilika, utaulizwa kuzima kifaa. Bonyeza kitufe chochote il
 
 
 
-Sasa unaweza kuondoa kitufe cha USB, kibodi na skrini, ambazo hazihitajiki tena kwa Mwavuli wako. Yote iliyobaki ya nodi yako ni nguvu ya Supply na kebo ya Ethaneti ya RJ45.
+Sasa unaweza kuondoa kitufe cha USB, kibodi na skrini, ambazo hazihitajiki tena kwa Umbrel yako. Yote iliyobaki ya node yako ni nguvu ya Supply na kebo ya Ethaneti ya RJ45.
 
 
 
@@ -1759,8 +1759,8 @@ Kabla ya kuanzisha upya kifaa, angalia pointi mbili zifuatazo:
 
 
 
-- Kitufe cha USB hakijaunganishwa**: ikiwa kitaendelea kushikamana, mfumo unaweza kuanzisha upya juu yake badala ya diski ya ndani;
-- Kebo ya Ethaneti imechomekwa**: lazima kifaa kiunganishwe kwenye kipanga njia chako ili kufanya kazi.
+- **Kitufe cha USB hakijaunganishwa**: ikiwa kitaendelea kushikamana, mfumo unaweza kuanzisha upya juu yake badala ya diski ya ndani;
+- **Kebo ya Ethaneti imechomekwa**: lazima kifaa kiunganishwe kwenye kipanga njia chako ili kufanya kazi.
 
 
 
@@ -1826,7 +1826,7 @@ https://planb.academy/tutorials/computer-security/communication/angry-ip-scanner
 
 
 
-- Kama uamuzi wa mwisho, unganisha tena kifuatiliaji na kibodi kwenye kifaa, ingia (kuingia kwa chaguomsingi: `mwavuli`, nenosiri: `mwavuli`), kisha chapa amri ifuatayo:
+- Kama uamuzi wa mwisho, unganisha tena kifuatiliaji na kibodi kwenye kifaa, ingia (kuingia kwa chaguomsingi: `umbrel `, nenosiri: `umbrel `), kisha chapa amri ifuatayo:
 
 
 
@@ -1844,7 +1844,7 @@ Sasa uko tayari kutumia Umbrel!
 
 
 
-Ili kuanza kusanidi Mwavuli wako, bofya kitufe cha "*Anza*".
+Ili kuanza kusanidi Umbrel yako, bofya kitufe cha "*Anza*".
 
 
 
@@ -1856,7 +1856,7 @@ Ili kuanza kusanidi Mwavuli wako, bofya kitufe cha "*Anza*".
 
 
 
-Chagua jina bandia au weka jina lako, kisha weka nenosiri dhabiti. Kuwa mwangalifu: nenosiri hili ndilo kizuizi pekee kinacholinda ufikiaji wa Mwavuli wako kutoka kwa mtandao wako (na kwa hivyo, uwezekano, kwa bitcoins zako ikiwa unaendesha nodi ya Umeme kwenye Umbrel). Pia hulinda ufikiaji wa mbali kupitia Tor au VPN, ikiwa huduma hizi zimewashwa.
+Chagua jina bandia au weka jina lako, kisha weka nenosiri dhabiti. Kuwa mwangalifu: nenosiri hili ndio block pekee kinacholinda ufikiaji wa Umbrel yako kutoka kwa mtandao wako (na kwa hivyo, uwezekano, kwa bitcoins zako ikiwa unaendesha lightning node kwenye Umbrel). Pia hulinda ufikiaji wa mbali kupitia Tor au VPN, ikiwa huduma hizi zimewashwa.
 
 
 
@@ -1914,7 +1914,7 @@ Interface ya Umbrel ni angavu kabisa:
 
 
 
-- Menyu ya "*Files*" inaweka kati hati zote zilizohifadhiwa kwenye Mwavuli wako.
+- Menyu ya "*Files*" inaweka kati hati zote zilizohifadhiwa kwenye Umbrel yako.
 
 
 
@@ -1940,7 +1940,7 @@ Interface ya Umbrel ni angavu kabisa:
 
 
 
-Kwanza kabisa, ninapendekeza sana kuwezesha uthibitishaji wa sababu mbili (2FA). Hii inaongeza Layer ya ziada ya usalama kwenye nenosiri lako. Ni karibu kuhitajika sana ikiwa unapanga kutumia Mwavuli wako kuhifadhi faili za kibinafsi, kuendesha nodi ya Umeme, au kutekeleza shughuli nyingine yoyote nyeti.
+Kwanza kabisa, ninapendekeza sana kuwezesha uthibitishaji wa sababu mbili (2FA). Hii inaongeza Layer ya ziada ya usalama kwenye nenosiri lako. Ni karibu kuhitajika sana ikiwa unapanga kutumia Umbrel yako kuhifadhi faili za kibinafsi, kuendesha lightning node, au kutekeleza shughuli nyingine yoyote nyeti.
 
 
 
@@ -1954,11 +1954,11 @@ Ili kufanya hivyo, bofya kwenye kisanduku sambamba katika mipangilio.
 
 
 
-Kisha changanua msimbo wa QR unaoonyeshwa kwa kutumia programu yako ya uthibitishaji. Kisha weka msimbo unaobadilika wa tarakimu 6 katika sehemu iliyotolewa kwenye Mwavuli wako.
+Kisha changanua msimbo wa QR unaoonyeshwa kwa kutumia programu yako ya uthibitishaji. Kisha weka msimbo unaobadilika wa tarakimu 6 katika sehemu iliyotolewa kwenye Umbrel yako.
 
 
 
-Kuanzia sasa na kuendelea, kila muunganisho mpya kwenye Mwavuli wako utahitaji nenosiri na msimbo wa tarakimu 6 unaozalishwa na programu yako ya uthibitishaji wa vipengele viwili (2FA).
+Kuanzia sasa na kuendelea, kila muunganisho mpya kwenye Umbrel yako utahitaji nenosiri na msimbo wa tarakimu 6 unaozalishwa na programu yako ya uthibitishaji wa vipengele viwili (2FA).
 
 
 
@@ -1966,11 +1966,11 @@ Kuanzia sasa na kuendelea, kila muunganisho mpya kwenye Mwavuli wako utahitaji n
 
 
 
-Kuhusu ufikiaji wa mbali kupitia Tor, ikiwa hauitaji, ninapendekeza kuacha chaguo hili likiwa limezimwa ili kupunguza eneo la shambulio la Umbrel yako. Kwa chaguo-msingi, nodi yako inaweza kufikiwa tu kutoka kwa mashine iliyounganishwa kwenye mtandao huo wa ndani. Kuwezesha ufikiaji kupitia Tor hata hivyo kutakuruhusu kudhibiti Mwavuli wako unaposonga.
+Kuhusu ufikiaji wa mbali kupitia Tor, ikiwa hauitaji, ninapendekeza kuacha chaguo hili likiwa limezimwa ili kupunguza eneo la shambulio la Umbrel yako. Kwa chaguo-msingi, node yako inaweza kufikiwa tu kutoka kwa mashine iliyounganishwa kwenye mtandao huo wa ndani. Kuwezesha ufikiaji kupitia Tor hata hivyo kutakuruhusu kudhibiti Umbrel yako unaposonga.
 
 
 
-Ukiwezesha kipengele hiki, kinadharia itawezekana kwa mashine yoyote duniani kujaribu kuunganisha kwenye nodi yako, mradi tu inajua Tor Address. Hata hivyo, nenosiri lako na 2FA bado zitakulinda.
+Ukiwezesha kipengele hiki, kinadharia itawezekana kwa mashine yoyote duniani kujaribu kuunganisha kwenye node yako, mradi tu inajua Tor Address. Hata hivyo, nenosiri lako na 2FA bado zitakulinda.
 
 
 
@@ -1986,15 +1986,15 @@ Ingiza tu Tor Address hii kwenye kivinjari chako cha Tor ili kufikia Umbrel's In
 
 
 
-Hatimaye, kwenye ukurasa huu wa mipangilio, unaweza pia kuwezesha uunganisho wa Wi-Fi. Ikiwa mashine yako ya kupangisha Umbrel ina kadi ya mtandao ya Wi-Fi au dongle ya Wi-Fi, hii hukuruhusu kufikia Mtandao bila kutumia kebo ya RJ45. Hata hivyo, kulingana na usanidi wako, suluhisho hili linaweza kupunguza kasi ya muunganisho, ambayo inaweza kuathiri usawazishaji wa awali (IBD) na matumizi ya baadaye ya nodi (k.m., kwa shughuli za Umeme). Binafsi, sipendekezi chaguo hili, kwani nodi haikusudiwa matumizi ya rununu: inafikiwa kila wakati kwa mbali, kwa hivyo unaweza kuiacha ikiwa imechomekwa.
+Hatimaye, kwenye ukurasa huu wa mipangilio, unaweza pia kuwezesha uunganisho wa Wi-Fi. Ikiwa mashine yako ya kupangisha Umbrel ina kadi ya mtandao ya Wi-Fi au dongle ya Wi-Fi, hii hukuruhusu kufikia Mtandao bila kutumia kebo ya RJ45. Hata hivyo, kulingana na usanidi wako, suluhisho hili linaweza kupunguza kasi ya muunganisho, ambayo inaweza kuathiri usawazishaji wa awali (IBD) na matumizi ya baadaye ya node (k.m., kwa shughuli za lightning). Binafsi, sipendekezi chaguo hili, kwani node haikusudiwa matumizi ya rununu: inafikiwa kila wakati kwa mbali, kwa hivyo unaweza kuiacha ikiwa imechomekwa.
 
 
 
-### Hatua ya 6: Sakinisha nodi ya Bitcoin kwenye Umbrel
+### Hatua ya 6: Sakinisha node ya Bitcoin kwenye Umbrel
 
 
 
-Sasa kwa kuwa UmbrelOS imesakinishwa kwa usahihi na kusanidiwa kwenye mashine yako, unaweza kuendelea na kusakinisha nodi yako ya Bitcoin. Hakuna kinachoweza kuwa rahisi zaidi: nenda kwenye Duka la Programu, fungua kitengo cha "*Bitcoin*", kisha uchague programu ya "*Bitcoin Node*" (kwa kweli ni Bitcoin core).
+Sasa kwa kuwa UmbrelOS imesakinishwa kwa usahihi na kusanidiwa kwenye mashine yako, unaweza kuendelea na kusakinisha node yako ya Bitcoin. Hakuna kinachoweza kuwa rahisi zaidi: nenda kwenye Duka la Programu, fungua kitengo cha "*Bitcoin*", kisha uchague programu ya "*Bitcoin Node*" (kwa kweli ni Bitcoin core).
 
 
 
@@ -2010,7 +2010,7 @@ Kisha bonyeza kitufe cha "*Sakinisha*".
 
 
 
-Usakinishaji utakapokamilika, nodi yako ya Bitcoin itazindua IBD yake (*Upakuaji wa Kizuizi cha Awali*): itapakua na kuhalalisha miamala na vizuizi vyote tangu Bitcoin ilipoundwa mwaka wa 2009.
+Usakinishaji utakapokamilika, node yako ya Bitcoin itazindua IBD yake (*Upakuaji wa Block ya Awali*): itapakua na kuhalalisha miamala na Blocks vyote tangu Bitcoin ilipoundwa mwaka wa 2009.
 
 
 
@@ -2018,7 +2018,7 @@ Usakinishaji utakapokamilika, nodi yako ya Bitcoin itazindua IBD yake (*Upakuaji
 
 
 
-Hatua hii inatumia muda hasa, kwani muda wake unategemea mambo kadhaa, ikiwa ni pamoja na kiasi cha RAM kilichotengwa kwa kashe ya nodi, kasi ya diski, kasi ya muunganisho wa Mtandao, na nguvu ya kichakataji. Kwa hivyo, anuwai ya muda ni pana sana, kulingana na usanidi. Kwa Kompyuta yenye utendakazi wa hali ya juu (NVMe SSD, +32 GB RAM, kichakataji chenye nguvu, na muunganisho mzuri wa Mtandao), IBD inaweza kukamilika baada ya saa kumi. Kwa upande mwingine, processor ya zamani, RAM ya chini, au, mbaya zaidi, disk ya mitambo ya Hard (iliyovunjika moyo sana) inaweza kupanua operesheni hii kwa wiki kadhaa.
+Hatua hii inatumia muda hasa, kwani muda wake unategemea mambo kadhaa, ikiwa ni pamoja na kiasi cha RAM kilichotengwa kwa kashe ya node, kasi ya diski, kasi ya muunganisho wa Mtandao, na nguvu ya kichakataji. Kwa hivyo, anuwai ya muda ni pana sana, kulingana na usanidi. Kwa Kompyuta yenye utendakazi wa hali ya juu (NVMe SSD, +32 GB RAM, kichakataji chenye nguvu, na muunganisho mzuri wa Mtandao), IBD inaweza kukamilika baada ya saa kumi. Kwa upande mwingine, processor ya zamani, RAM ya chini, au, mbaya zaidi, disk ya mitambo ya Hard (iliyovunjika moyo sana) inaweza kupanua operesheni hii kwa wiki kadhaa.
 
 
 
@@ -2026,7 +2026,7 @@ Kwa Kompyuta ya usanidi wa kawaida (kichakata kinachofaa, RAM ya GB 8 hadi 16, n
 
 
 
-Ili kuongeza kasi ya IBD kidogo, unaweza kuongeza RAM iliyotengwa kwa cache ya nodi (inayotumiwa hasa kwa seti ya UTXO, ambayo tutarejea baadaye katika kozi) kupitia parameter ya `dbcache`. Kwenye Umbrel, marekebisho haya yanafanywa katika vigezo vya nodi zako, kwenye kichupo cha "*Optimization*".
+Ili kuongeza kasi ya IBD kidogo, unaweza kuongeza RAM iliyotengwa kwa cache ya node (inayotumiwa hasa kwa seti ya UTXO, ambayo tutarejea baadaye katika kozi) kupitia parameter ya `dbcache`. Kwenye Umbrel, marekebisho haya yanafanywa katika vigezo vya node zako, kwenye kichupo cha "*Optimization*".
 
 
 
@@ -2038,7 +2038,7 @@ Kwa chaguo-msingi, thamani ya kigezo cha `dbcache` katika Bitcoin core imewekwa 
 
 
 
-Kuwa mwangalifu usitenge thamani ambayo ni kubwa sana kwa mashine yako. Ikiwa RAM inayopatikana kwa UmbrelOS itaisha, nodi yako inaweza kusimama ghafla, na kukatiza IBD na kukuhitaji uanzishe upya wewe mwenyewe, na kusababisha upotevu mkubwa wa muda.
+Kuwa mwangalifu usitenge thamani ambayo ni kubwa sana kwa mashine yako. Ikiwa RAM inayopatikana kwa UmbrelOS itaisha, node yako inaweza kusimama ghafla, na kukatiza IBD na kukuhitaji uanzishe upya wewe mwenyewe, na kusababisha upotevu mkubwa wa muda.
 
 
 
@@ -2046,7 +2046,7 @@ Ili kujua zaidi kuhusu athari ya kigezo cha `dbcache` kwenye ulandanishaji wa aw
 
 
 
-Pindi tu IBD ya nodi yako imekamilika (usawazishaji 100%), sasa una nodi ya Bitcoin inayofanya kazi kikamilifu. Hongera, sasa wewe ni sehemu muhimu ya mtandao wa Bitcoin!
+Pindi tu IBD ya node yako imekamilika (usawazishaji 100%), sasa una node ya Bitcoin inayofanya kazi kikamilifu. Hongera, sasa wewe ni sehemu muhimu ya mtandao wa Bitcoin!
 
 
 
@@ -2054,13 +2054,13 @@ Pindi tu IBD ya nodi yako imekamilika (usawazishaji 100%), sasa una nodi ya Bitc
 
 
 
-Katika sehemu inayofuata, tutachunguza matumizi ya vitendo ya nodi yako mpya: jinsi ya kuunganisha Wallet yako nayo, na ni programu gani unapaswa kusakinisha ili uwe Bitcoiner huru.
+Katika sehemu inayofuata, tutachunguza matumizi ya vitendo ya node yako mpya: jinsi ya kuunganisha Wallet yako nayo, na ni programu gani unapaswa kusakinisha ili uwe Bitcoiner huru.
 
 
 
 
 
-# Kuunganisha Wallet yako kwenye nodi yako
+# Kuunganisha Wallet yako kwenye node yako
 
 
 <partId>418d0afd-3a61-4b5a-9db4-203c0335fd29</partId>
@@ -2074,7 +2074,7 @@ Katika sehemu inayofuata, tutachunguza matumizi ya vitendo ya nodi yako mpya: ji
 
 
 
-Ikiwa tayari umegundua nodi za Bitcoin kabla ya kuchukua kozi hii, unaweza kuwa umekumbana na neno "indexer". Hizi ni zana kama vile Electrs au Fulcrum, ambazo zinaweza kuongezwa kwa nodi ya Bitcoin core. Lakini jukumu lao ni nini hasa? Je, wanafanyaje kazi kwa vitendo? Je, unapaswa kusakinisha moja kwenye nodi yako mpya ya Bitcoin? Hilo ndilo tutakalochunguza katika sura hii.
+Ikiwa tayari umegundua node za Bitcoin kabla ya kuchukua kozi hii, unaweza kuwa umekumbana na neno "indexer". Hizi ni zana kama vile Electrs au Fulcrum, ambazo zinaweza kuongezwa kwa node ya Bitcoin core. Lakini jukumu lao ni nini hasa? Je, wanafanyaje kazi kwa vitendo? Je, unapaswa kusakinisha moja kwenye node yako mpya ya Bitcoin? Hilo ndilo tutakalochunguza katika sura hii.
 
 
 
@@ -2082,7 +2082,7 @@ Ikiwa tayari umegundua nodi za Bitcoin kabla ya kuchukua kozi hii, unaweza kuwa 
 
 
 
-Kwa ujumla, faharasa ni programu ambayo huchanganua seti ya data mbichi, kutoa vitufe vinavyohusika (kama vile maneno, vitambulishi, na anwani), na kuunda faili kisaidizi, inayoitwa "index", ambapo kila ufunguo unarejelea eneo halisi la data kwenye korti. Awamu hii ya uchakataji wa awali hutumia muda wa CPU na inahitaji nafasi ya diski, lakini huondoa hitaji la kuchakata shirika zima kila wakati hifadhidata inapoulizwa; kuhoji tu index hutoa jibu karibu mara moja.
+Kwa ujumla, faharasa ni programu ambayo huchanganua seti ya data mbichi, kutoa vitufe vinavyohusika (kama vile maneno, vitambulishi, na address), na kuunda faili kisaidizi, inayoitwa "index", ambapo kila ufunguo unarejelea eneo halisi la data kwenye korti. Awamu hii ya uchakataji wa awali hutumia muda wa CPU na inahitaji nafasi ya diski, lakini huondoa hitaji la kuchakata shirika zima kila wakati hifadhidata inapoulizwa; kuhoji tu index hutoa jibu karibu mara moja.
 
 
 
@@ -2090,7 +2090,7 @@ Kwa maneno ya watu wa kawaida, ni kanuni sawa na faharasa katika kitabu: ikiwa u
 
 
 
-Katika nodi ya Bitcoin, kama vile Bitcoin core, data ya Blockchain huhifadhiwa katika umbo lake mbichi, la mpangilio wa matukio. Kila block ina miamala, ambayo kwa upande wake ina pembejeo na matokeo, bila uainishaji wowote mahususi kwa Address, kitambulisho, au Wallet. Shirika hili la mstari limeboreshwa kwa uthibitishaji wa kizuizi, lakini halifai kwa utafutaji unaolengwa. Kwa mfano, ikiwa ungetaka kupata shughuli zote zilizounganishwa na Address mahususi katika nodi isiyo na faharasa, ungelazimika kukagua mwenyewe Blockchain nzima, zuia kwa kizuizi na muamala kwa muamala. Hapa ndipo haswa ambapo indexer kwenye nodi yako ya Bitcoin inapoingia.
+Katika node ya Bitcoin, kama vile Bitcoin core, data ya Blockchain huhifadhiwa katika umbo lake mbichi, la mpangilio wa matukio. Kila block ina miamala, ambayo kwa upande wake ina pembejeo na matokeo, bila uainishaji wowote mahususi kwa Address, kitambulisho, au Wallet. Shirika hili la mstari limeboreshwa kwa uthibitishaji wa block, lakini halifai kwa utafutaji unaolengwa. Kwa mfano, ikiwa ungetaka kupata shughuli zote zilizounganishwa na Address mahususi katika node isiyo na faharasa, ungelazimika kukagua mwenyewe Blockchain nzima, block kwa block na muamala kwa muamala. Hapa ndipo haswa ambapo indexer kwenye node yako ya Bitcoin inapoingia.
 
 
 
@@ -2098,7 +2098,7 @@ Katika nodi ya Bitcoin, kama vile Bitcoin core, data ya Blockchain huhifadhiwa k
 
 
 
-Kielezo ni programu maalumu inayochanganua wingi huu wa data ghafi (Blockchain, Mempool, UTXO seti) na kutoa vitufe, kama vile vitambulishi vya muamala, anwani na urefu wa block. Kutoka kwa funguo hizi, huunda faharisi yake, ikihusisha kila ufunguo na eneo halisi la habari kwenye hifadhi ya nodi.
+Kielezo ni programu maalumu inayochanganua wingi huu wa data ghafi (Blockchain, Mempool, UTXO seti) na kutoa vitufe, kama vile vitambulishi vya muamala, address na urefu wa block. Kutoka kwa funguo hizi, huunda faharisi yake, ikihusisha kila ufunguo na eneo halisi la habari kwenye hifadhi ya node.
 
 
 
@@ -2106,7 +2106,7 @@ Kielezo ni programu maalumu inayochanganua wingi huu wa data ghafi (Blockchain, 
 
 
 
-Kuorodhesha hukuruhusu kutafuta habari kwenye nodi yako haraka, kwa usahihi na kwa ufanisi. Kwa mfano, unapounganisha Wallet kama Sparrow kwenye nodi yako, inaweza kuonyesha salio la Address karibu mara moja. Kwa maneno madhubuti, huuliza kiashiria kwa ombi kama: "_Ni UTXO zipi zinahusishwa na hati hii-Hash?_" Kielezo kinajibu mara moja, bila kulazimika kusoma tena Blockchain nzima, kwani data hii tayari imeorodheshwa katika hifadhidata yake.
+Kuorodhesha hukuruhusu kutafuta habari kwenye node yako haraka, kwa usahihi na kwa ufanisi. Kwa mfano, unapounganisha Wallet kama Sparrow kwenye node yako, inaweza kuonyesha salio la Address karibu mara moja. Kwa maneno madhubuti, huuliza kiashiria kwa ombi kama: "_Ni UTXO zipi zinahusishwa na hati hii-Hash?_" Kielezo kinajibu mara moja, bila kulazimika kusoma tena Blockchain nzima, kwani data hii tayari imeorodheshwa katika hifadhidata yake.
 
 
 
@@ -2118,7 +2118,7 @@ Bila hitaji la programu ya ziada, Bitcoin core haitoi indexer kamili ya Address 
 
 
 
-Hadi toleo la Bitcoin core la 0.8.0, uthibitishaji wa miamala ulitokana na faharasa ya kimataifa ya miamala, inayojulikana kama `txindex`. Faharasa hii ilirejelea shughuli zote za Blockchain na matokeo yake. Wakati nodi ilipopokea muamala mpya, ilishauriana na faharasa hii ili kuthibitisha kwamba matokeo yaliyotumiwa (katika pembejeo) yalikuwepo na yalikuwa bado hayajatumika. `txindex` kwa hivyo ilikuwa muhimu kwa uthibitishaji wa shughuli wakati huo.
+Hadi toleo la Bitcoin core la 0.8.0, uthibitishaji wa miamala ulitokana na faharasa ya kimataifa ya miamala, inayojulikana kama `txindex`. Faharasa hii ilirejelea shughuli zote za Blockchain na matokeo yake. Wakati node ilipopokea muamala mpya, ilishauriana na faharasa hii ili kuthibitisha kwamba matokeo yaliyotumiwa (katika pembejeo) yalikuwepo na yalikuwa bado hayajatumika. `txindex` kwa hivyo ilikuwa muhimu kwa uthibitishaji wa shughuli wakati huo.
 
 
 
@@ -2126,7 +2126,7 @@ Hata hivyo, mbinu hii ilikuwa na mapungufu yake: ilikuwa ya polepole, ya gharama
 
 
 
-Njia hii ni ya haraka zaidi na huhifadhi tu hali ya sasa ya rejista, na kufanya indexer ya `txindex` kuwa ya lazima. Hata hivyo, badala ya kufuta msimbo wa `txindex`, wasanidi wamechagua kuweka utendakazi huu nyuma ya kigezo rahisi (`txindex=1`). Kwa kuwezesha chaguo hili kwenye nodi yako, unaweza kuuliza muamala wowote kutoka kwa `txid` yake.
+Njia hii ni ya haraka zaidi na huhifadhi tu hali ya sasa ya rejista, na kufanya indexer ya `txindex` kuwa ya lazima. Hata hivyo, badala ya kufuta msimbo wa `txindex`, wasanidi wamechagua kuweka utendakazi huu nyuma ya kigezo rahisi (`txindex=1`). Kwa kuwezesha chaguo hili kwenye node yako, unaweza kuuliza muamala wowote kutoka kwa `txid` yake.
 
 
 
@@ -2156,7 +2156,7 @@ Bitcoin core haina kielezo cha hiari cha muamala (`txindex`), mabaki ya utendaka
 
 
 
-### Je! unapaswa kuongeza indexer ya Address kwenye nodi yako?
+### Je! unapaswa kuongeza indexer ya Address kwenye node yako?
 
 
 
@@ -2164,7 +2164,7 @@ Kuongeza faharasa ya Address, kama vile Electrs au Fulcrum, si lazima; inategeme
 
 
 
-Iwapo unataka tu kuunganisha Wallet, kama vile Sparrow, kwenye nodi yako ili kutazama salio na utangazaji wa miamala, hii inawezekana kabisa moja kwa moja kupitia Bitcoin core's Interface RPC, ama ndani au kwa mbali kupitia Tor.
+Iwapo unataka tu kuunganisha Wallet, kama vile Sparrow, kwenye node yako ili kutazama salio na utangazaji wa miamala, hii inawezekana kabisa moja kwa moja kupitia Bitcoin core's Interface RPC, ama ndani au kwa mbali kupitia Tor.
 
 
 
@@ -2180,7 +2180,7 @@ Kielezo kinahitaji kiasi fulani cha muda wa maingiliano (chini ya IBD) na kitach
 
 
 
-Programu mbili za programu hutumiwa kwa kawaida kujenga aina hii ya index ya Address na kuifanya kupatikana: ** Electrs ** na ** Fulcrum **. Zana hizi zinaonyesha Blockchain kulingana na hati-Hash (anwani) na kisha kupendekeza Interface (itifaki ya Electrum), ambayo pochi nyingi, kama vile Electrum Wallet, Sparrow, au Phoenix, huunganishwa.
+Programu mbili za programu hutumiwa kwa kawaida kujenga aina hii ya index ya Address na kuifanya kupatikana: ** Electrs ** na ** Fulcrum **. Zana hizi zinaonyesha Blockchain kulingana na hati-Hash (address) na kisha kupendekeza Interface (protocol ya Electrum), ambayo wallet nyingi, kama vile Electrum Wallet, Sparrow, au Phoenix, huunganishwa.
 
 
 
@@ -2192,7 +2192,7 @@ Kuweka tu, Electrs ni kompakt kabisa: inaashiria Blockchain haraka na inachukua 
 
 
 
-Kwa matumizi ya mtu binafsi, ninapendekeza Electrs: hutumia nafasi ndogo, inatunzwa vizuri, na, ingawa ni polepole kidogo kwa maombi fulani kuliko Fulcrum, bado inatosha zaidi kwa matumizi ya kila siku. Ikiwa unayo wakati na nafasi ya diski, unaweza pia kujaribu Fulcrum, ambayo itafanya vizuri zaidi, haswa kwenye pochi zilizo na anwani nyingi za kuthibitisha.
+Kwa matumizi ya mtu binafsi, ninapendekeza Electrs: hutumia nafasi ndogo, inatunzwa vizuri, na, ingawa ni polepole kidogo kwa maombi fulani kuliko Fulcrum, bado inatosha zaidi kwa matumizi ya kila siku. Ikiwa unayo wakati na nafasi ya diski, unaweza pia kujaribu Fulcrum, ambayo itafanya vizuri zaidi, haswa kwenye wallet zilizo na address nyingi za kuthibitisha.
 
 
 
@@ -2207,7 +2207,7 @@ Kwa maneno madhubuti, mnamo Agosti 2025, Electrs itahitaji takriban GB 56 za hif
 
 
 
-Kwa muda uliosalia wa kozi hii ya BTC 202, nitakuwa nikitumia Electrs, lakini unaweza kufuata kwa urahisi pamoja na Fulcrum: utaratibu wa usakinishaji ni sawa, kama ilivyo muunganisho wa Interface kwa Wallet, kwani zote mbili zinafichua seva ya Electrum.
+Kwa muda uliosalia wa kozi hii ya BTC 202, nitakuwa nikitumia Electrs, lakini unaweza kufuata kwa urahisi pamoja na Fulcrum: utaratibu wa usakinishaji ni sawa, kama ilivyo muunganisho wa Interface kwa Wallet, kwani zote mbili zinafichua server ya Electrum.
 
 
 
@@ -2231,18 +2231,18 @@ Baada ya usakinishaji kukamilika, Electrs itaendelea na awamu ya ulandanishi (in
 
 
 
-Mara tu ulandanishaji unapokamilika, unaweza kuunganisha programu yako ya Wallet kwenye seva yako ya Electrum, ambayo inapangishwa kwenye Umbrel.
+Mara tu ulandanishaji unapokamilika, unaweza kuunganisha programu yako ya Wallet kwenye server yako ya Electrum, ambayo inapangishwa kwenye Umbrel.
 
 
 
-## Ninawezaje kuunganisha Wallet yangu na nodi yangu ya Bitcoin?
+## Ninawezaje kuunganisha Wallet yangu na node yangu ya Bitcoin?
 
 
 <chapterId>35519b1a-f681-4a69-a652-9fbe510cd17f</chapterId>
 
 
 
-Sasa kwa kuwa una nodi kamili ya Bitcoin, ni wakati wa kuitumia vizuri! Katika sura inayofuata, tutachunguza matumizi mengine yanayoweza kutumika kwa mfano wako wa Umbrel. Hata hivyo, hebu tuanze na mambo ya msingi: kuunganisha programu yako ya Wallet ili kutumia taarifa kutoka kwa Blockchain yako mwenyewe na kusambaza miamala kupitia nodi yako mwenyewe.
+Sasa kwa kuwa una node kamili ya Bitcoin, ni wakati wa kuitumia vizuri! Katika sura inayofuata, tutachunguza matumizi mengine yanayoweza kutumika kwa mfano wako wa Umbrel. Hata hivyo, hebu tuanze na mambo ya msingi: kuunganisha programu yako ya Wallet ili kutumia taarifa kutoka kwa Blockchain yako mwenyewe na kusambaza miamala kupitia node yako mwenyewe.
 
 
 
@@ -2252,15 +2252,15 @@ Kama ilivyoelezwa hapo juu, kuna miingiliano miwili kuu ya unganisho:
 
 
 - Uunganisho wa moja kwa moja kwa Bitcoin core kupitia RPC;
-- Au unganisha kwenye seva ya Electrum (Electrs au Fulcrum).
+- Au unganisha kwenye server ya Electrum (Electrs au Fulcrum).
 
 
 
-Katika somo hili, tutazingatia kuunganisha kwa nodi yako kupitia Tor, kwani hii ni suluhisho rahisi na salama kwa wanaoanza. Ninashauri sana dhidi ya kufichua bandari ya RPC ya nodi yako kwa uwazi, kwani usanidi usio sahihi unawakilisha hatari kubwa kwa usalama na usiri wa data yako. Hasara kuu ya mawasiliano kupitia Tor ni polepole. Katika sura inayofuata, tutachunguza njia mbadala ya haraka na salama ya Tor kwa ufikiaji wa mbali kwa nodi yako: VPN.
+Katika somo hili, tutazingatia kuunganisha kwa node yako kupitia Tor, kwani hii ni suluhisho rahisi na salama kwa wanaoanza. Ninashauri sana dhidi ya kufichua bandari ya RPC ya node yako kwa uwazi, kwani usanidi usio sahihi unawakilisha hatari kubwa kwa usalama na usiri wa data yako. Hasara kuu ya mawasiliano kupitia Tor ni polepole. Katika sura inayofuata, tutachunguza njia mbadala ya haraka na salama ya Tor kwa ufikiaji wa mbali kwa node yako: VPN.
 
 
 
-Tutatumia Sparrow kama mfano katika sura hii, lakini utaratibu ni sawa kwa programu nyingine zote za usimamizi wa Wallet zinazokubali miunganisho kwenye seva za Electrum. Tafuta kwa urahisi mpangilio unaolingana katika vigezo vya programu yako (kawaida katika "*Seva*", "*Mtandao*", "*Njia*"...).
+Tutatumia Sparrow kama mfano katika sura hii, lakini utaratibu ni sawa kwa programu nyingine zote za usimamizi wa Wallet zinazokubali miunganisho kwenye server za Electrum. Tafuta kwa urahisi mpangilio unaolingana katika vigezo vya programu yako (kawaida katika "*server*", "*Mtandao*", "*Njia*"...).
 
 
 
@@ -2272,7 +2272,7 @@ Kwenye Sparrow, fungua kichupo cha "*Faili*" na uende kwenye menyu ya "Mipangili
 
 
 
-Kisha bonyeza "*Seva*" ili kufikia vigezo vya uunganisho.
+Kisha bonyeza "*server*" ili kufikia vigezo vya uunganisho.
 
 
 
@@ -2280,14 +2280,14 @@ Kisha bonyeza "*Seva*" ili kufikia vigezo vya uunganisho.
 
 
 
-Kisha utagundua chaguzi tatu za kuunganisha programu yako na nodi ya Bitcoin:
+Kisha utagundua chaguzi tatu za kuunganisha programu yako na node ya Bitcoin:
 
 
 
 
-- Seva ya Umma* (njano): kwa chaguo-msingi, ikiwa humiliki nodi ya Bitcoin, chaguo hili hukuunganisha kwenye nodi ya umma usiyomiliki (kwa kawaida ni ya kampuni). Chaguo hili halifai hapa, kwani unayo nodi yako kwenye Umbrel.
+- server ya Umma* (njano): kwa chaguo-msingi, ikiwa humiliki node ya Bitcoin, chaguo hili hukuunganisha kwenye node ya umma usiyomiliki (kwa kawaida ni ya kampuni). Chaguo hili halifai hapa, kwani unayo node yako kwenye Umbrel.
 - Bitcoin core * (Green): chaguo hili linalingana na uunganisho kupitia Interface RPC, yaani, moja kwa moja kwa Bitcoin core.
-- Electrum ya Kibinafsi* (bluu): chaguo hili hukuwezesha kuunganisha kupitia Seva ya Electrum ya Interface ya kielekezi chako (Electrs au Fulcrum).
+- Electrum ya Kibinafsi* (bluu): chaguo hili hukuwezesha kuunganisha kupitia server ya Electrum ya Interface ya kielekezi chako (Electrs au Fulcrum).
 
 
 
@@ -2295,7 +2295,7 @@ Kisha utagundua chaguzi tatu za kuunganisha programu yako na nodi ya Bitcoin:
 
 
 
-Ikiwa nodi yako ya Umbrel haina indexer, hili ndilo chaguo unahitaji kuchagua. Kwenye Sparrow, bofya "*Bitcoin core*".
+Ikiwa node yako ya Umbrel haina indexer, hili ndilo chaguo unahitaji kuchagua. Kwenye Sparrow, bofya "*Bitcoin core*".
 
 
 
@@ -2303,7 +2303,7 @@ Ikiwa nodi yako ya Umbrel haina indexer, hili ndilo chaguo unahitaji kuchagua. K
 
 
 
-Kisha utahitaji kuingiza vipande kadhaa vya habari ili kuanzisha uunganisho kwenye nodi yako. Data hii yote inaweza kufikiwa kutoka kwa programu ya "*Bitcoin Node*" kwenye Umbrel kwa kubofya kitufe cha "*Unganisha*" kwenye kona ya juu kulia ya Interface.
+Kisha utahitaji kuingiza vipande kadhaa vya habari ili kuanzisha uunganisho kwenye node yako. Data hii yote inaweza kufikiwa kutoka kwa programu ya "*Bitcoin Node*" kwenye Umbrel kwa kubofya kitufe cha "*Unganisha*" kwenye kona ya juu kulia ya Interface.
 
 
 
@@ -2339,7 +2339,7 @@ Jibu chini ya kulia ya Interface Sparrow wallet sasa itakuwa Green (kuonyesha uh
 
 
 
-**Kumbuka:** Ili muunganisho ufaulu, nodi yako lazima ilandanishwe 100%. Ikiwa sivyo hivyo, tafadhali subiri hadi mwisho wa IBD.
+**Kumbuka:** Ili muunganisho ufaulu, node yako lazima ilandanishwe 100%. Ikiwa sivyo hivyo, tafadhali subiri hadi mwisho wa IBD.
 
 
 
@@ -2347,7 +2347,7 @@ Jibu chini ya kulia ya Interface Sparrow wallet sasa itakuwa Green (kuonyesha uh
 
 
 
-Ikiwa nodi yako ina kiashiria, ni bora kuunganishwa nayo kuliko kutumia Bitcoin core moja kwa moja, kwani hoja zako zitachakatwa kwa haraka zaidi.
+Ikiwa node yako ina kiashiria, ni bora kuunganishwa nayo kuliko kutumia Bitcoin core moja kwa moja, kwani hoja zako zitachakatwa kwa haraka zaidi.
 
 
 
@@ -2371,7 +2371,7 @@ Teua kichupo cha "*Tor*" ili kupata muunganisho wa `.onion` Address. Ikiwa ungep
 
 
 
-Ingiza tu Tor Address ya seva yako ya Electrum katika sehemu ya "*URL*", kisha ubofye kitufe cha "*Jaribio la Muunganisho*".
+Ingiza tu Tor Address ya server yako ya Electrum katika sehemu ya "*URL*", kisha ubofye kitufe cha "*Jaribio la Muunganisho*".
 
 
 
@@ -2387,7 +2387,7 @@ Ikiwa uunganisho umefanikiwa, alama ya hundi na ujumbe wa uthibitisho utaonyeshw
 
 
 
-Jibu katika kona ya chini ya kulia ya Interface Sparrow wallet itageuka bluu (rangi inayohusishwa na uunganisho kwenye seva ya Electrum).
+Jibu katika kona ya chini ya kulia ya Interface Sparrow wallet itageuka bluu (rangi inayohusishwa na uunganisho kwenye server ya Electrum).
 
 
 
@@ -2395,7 +2395,7 @@ Jibu katika kona ya chini ya kulia ya Interface Sparrow wallet itageuka bluu (ra
 
 
 
-Sasa unajua jinsi ya kuunganisha Wallet yako kwenye nodi yako ya Bitcoin! Katika sura inayofuata, nitakujulisha kwa programu kadhaa za ziada zinazopatikana kwenye Umbrel ambazo ninazipenda sana, na ambazo zitakuwezesha kuboresha matumizi yako ya kila siku ya Bitcoin kupitia nodi yako.
+Sasa unajua jinsi ya kuunganisha Wallet yako kwenye node yako ya Bitcoin! Katika sura inayofuata, nitakujulisha kwa programu kadhaa za ziada zinazopatikana kwenye Umbrel ambazo ninazipenda sana, na ambazo zitakuwezesha kuboresha matumizi yako ya kila siku ya Bitcoin kupitia node yako.
 
 
 
@@ -2427,11 +2427,11 @@ Katika matumizi ya kila siku ya Bitcoin, ikiwa kuna zana moja ambayo ni muhimu s
 
 
 
-Kwa maneno madhubuti, mgunduzi hukuruhusu kukadiria ada zinazohitajika ili muamala wako ujumuishwe kwenye kizuizi, kisha ufuatilie maendeleo yake: ujue ikiwa kuna uwezekano wa kujumuishwa katika siku za usoni, kulingana na soko la ada, na hatimaye uthibitishe kuwa kweli imejumuishwa kwenye block. Pia inatoa uwezekano wa kuchanganua miamala yako ya awali na kushauriana na historia yao. Kwa kifupi, ni Kisu cha Jeshi la Uswizi cha bitcoiner.
+Kwa maneno madhubuti, mgunduzi hukuruhusu kukadiria ada zinazohitajika ili muamala wako ujumuishwe kwenye block, kisha ufuatilie maendeleo yake: ujue ikiwa kuna uwezekano wa kujumuishwa katika siku za usoni, kulingana na soko la ada, na hatimaye uthibitishe kuwa kweli imejumuishwa kwenye block. Pia inatoa uwezekano wa kuchanganua miamala yako ya awali na kushauriana na historia yao. Kwa kifupi, ni Kisu cha Jeshi la Uswizi cha bitcoiner.
 
 
 
-Kama ilivyoelezwa hapo awali, mgunduzi anaweza kupangishwa mtandaoni kwenye tovuti au kuendeshwa ndani ya mashine yako. Hasara kubwa ya huduma za mtandaoni ni kwamba zinaweza kuhatarisha faragha yako. Bila VPN au Tor, seva inayopangisha mgunduzi inaweza kuunganisha IP yako Address na miamala unayotazama, ambayo inaweza kutoa mahali pazuri pa kuingilia kwa uchanganuzi wa msururu.
+Kama ilivyoelezwa hapo awali, mgunduzi anaweza kupangishwa mtandaoni kwenye tovuti au kuendeshwa ndani ya mashine yako. Hasara kubwa ya huduma za mtandaoni ni kwamba zinaweza kuhatarisha faragha yako. Bila VPN au Tor, server inayopangisha mgunduzi inaweza kuunganisha IP yako Address na miamala unayotazama, ambayo inaweza kutoa mahali pazuri pa kuingilia kwa uchanganuzi wa msururu.
 
 
 
@@ -2441,7 +2441,7 @@ Zaidi ya hayo, Mtoa Huduma wako wa Mtandao (ISP) anaweza kujua kwamba unatazama 
 
 
 
-Ndiyo sababu ni bora kutumia Block explorer yako ya ndani. Kwa njia hii, hakuna data inayohusiana na shughuli yako ya utafutaji itavuja, kwa kuwa hoja zote huchakatwa moja kwa moja kwenye mashine unayodhibiti, bila kupitia Mtandao. Zaidi ya hayo, mchunguzi wa ndani anategemea data kutoka kwa nodi yako ya Bitcoin, ambayo umejithibitisha mwenyewe, kulingana na sheria zako mwenyewe, na ambazo unaweza kuamini.
+Ndiyo sababu ni bora kutumia Block explorer yako ya ndani. Kwa njia hii, hakuna data inayohusiana na shughuli yako ya utafutaji itavuja, kwa kuwa hoja zote huchakatwa moja kwa moja kwenye mashine unayodhibiti, bila kupitia Mtandao. Zaidi ya hayo, mchunguzi wa ndani anategemea data kutoka kwa node yako ya Bitcoin, ambayo umejithibitisha mwenyewe, kulingana na sheria zako mwenyewe, na ambazo unaweza kuamini.
 
 
 
@@ -2456,7 +2456,7 @@ Umbrel hutoa wachunguzi kadhaa wa block:
 
 
 
-Ninapenda sana Mempool.Space, ambayo nimeiweka kwenye nodi yangu. Tafadhali kumbuka: kutumia vichunguzi vingi vya kuzuia kwenye Umbrel, indexer ya Address inahitajika. Kwa hivyo unahitaji programu ya Bitcoin Node (au Bitcoin Knots), ambayo ina 100% iliyosawazishwa ya Blockchain, pamoja na indexer kama vile Electrs au Fulcrum, ambayo pia imesawazishwa 100%.
+Ninapenda sana Mempool.Space, ambayo nimeiweka kwenye node yangu. Tafadhali kumbuka: kutumia vichunguzi vingi vya kuzuia kwenye Umbrel, indexer ya Address inahitajika. Kwa hivyo unahitaji programu ya Bitcoin Node (au Bitcoin Knots), ambayo ina 100% iliyosawazishwa ya Blockchain, pamoja na indexer kama vile Electrs au Fulcrum, ambayo pia imesawazishwa 100%.
 
 
 
@@ -2474,27 +2474,27 @@ Ili kujifunza zaidi kuhusu kutumia Mempool.Space Explorer, ninapendekeza mafunzo
 
 https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
-### Njia ya Umeme
+### Njia ya lightning
 
 
 
-Kwa kuwa sasa una nodi yako ya Bitcoin, unaweza pia kusanidi nodi yako ya Umeme ili kutekeleza miamala ya off-chain, bila kutegemea miundombinu ya watu wengine.
+Kwa kuwa sasa una node yako ya Bitcoin, unaweza pia kusanidi Lightning node yako ili kutekeleza miamala ya off-chain, bila kutegemea miundombinu ya watu wengine.
 
 
 
-Umbrel hutoa idadi ya maombi ili kukusaidia kupata nodi yako ya Umeme na kufanya kazi. Tayari unaweza kuchagua kati ya utekelezaji kuu mbili:
+Umbrel hutoa idadi ya maombi ili kukusaidia kupata Lightning node yako na kufanya kazi. Tayari unaweza kuchagua kati ya utekelezaji kuu mbili:
 
 
 
 
-- LND, kupitia programu ya *Njia ya Umeme*;
-- Umeme wa Msingi.
+- LND, kupitia programu ya *Njia ya lightning*;
+- Umeme ya Msingi.
 
 
 
 https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
-Kisha unaweza kusimamia nodi yako kutoka kwa Interface kuu, au, kwa utendakazi mkubwa zaidi na chaguo za kina, sakinisha *Ride The Lightning* au *ThunderHub*. Zana hizi zitakupa mfumo mpana zaidi wa usimamizi wa Interface wa mtandao kwa nodi yako.
+Kisha unaweza kusimamia node yako kutoka kwa Interface kuu, au, kwa utendakazi mkubwa zaidi na chaguo za kina, sakinisha *Ride The Lightning* au *ThunderHub*. Zana hizi zitakupa mfumo mpana zaidi wa usimamizi wa Interface wa mtandao kwa node yako.
 
 
 
@@ -2514,7 +2514,7 @@ Hatimaye, ninapendekeza programu ya *Lightning Network+*, inayokuruhusu kupata m
 
 
 
-Shukrani kwa Umbrel, kusimamia nodi ya Umeme ya kibinafsi imerahisishwa sana, lakini bado ni ngumu. Kwa sababu hii, tutakuwa tukiangalia kwa karibu somo hili katika kozi ya baadaye inayohusu matumizi haya kikamilifu.
+Shukrani kwa Umbrel, kusimamia lightning node ya kibinafsi imerahisishwa sana, lakini bado ni ngumu. Kwa sababu hii, tutakuwa tukiangalia kwa karibu somo hili katika kozi ya baadaye inayohusu matumizi haya kikamilifu.
 
 
 
@@ -2522,11 +2522,11 @@ Shukrani kwa Umbrel, kusimamia nodi ya Umeme ya kibinafsi imerahisishwa sana, la
 
 
 
-Programu nyingine ninayopenda sana kwenye Umbrel ni Tailscale. Ni programu ya VPN iliyoundwa ili kurahisisha uundaji wa mitandao salama kati ya vifaa vingi, popote vilipo ulimwenguni. Tofauti na VPN za kitamaduni, ambazo zinategemea seva zilizowekwa kati, Tailcale hutumia itifaki ya WireGuard kuanzisha miunganisho iliyosimbwa kutoka mwisho hadi mwisho kati ya mashine zako mbalimbali. Hii inamaanisha kuwa unaweza kupeleka VPN inayofanya kazi kwa dakika chache tu, bila kuhitaji usanidi changamano wa mtandao.
+Programu nyingine ninayopenda sana kwenye Umbrel ni Tailscale. Ni programu ya VPN iliyoundwa ili kurahisisha uundaji wa mitandao salama kati ya vifaa vingi, popote vilipo ulimwenguni. Tofauti na VPN za kitamaduni, ambazo zinategemea server zilizowekwa kati, Tailcale hutumia protocol ya WireGuard kuanzisha miunganisho iliyosimbwa kutoka mwisho hadi mwisho kati ya mashine zako mbalimbali. Hii inamaanisha kuwa unaweza kupeleka VPN inayofanya kazi kwa dakika chache tu, bila kuhitaji usanidi changamano wa mtandao.
 
 
 
-Kwenye Umbrel, usakinishaji wa Tailscale huunganisha nodi yako ya Bitcoin kwenye mtandao wako binafsi wa kibinafsi. Baada ya kusanidiwa, nodi yako hupata IP ya faragha ya Tailscale Address, inayopatikana tu kutoka kwa vifaa vingine vilivyounganishwa kwenye mtandao sawa wa Tailscale (kama vile kompyuta, simu mahiri na kompyuta za mkononi). Muunganisho huu umesimbwa kwa njia fiche kutoka mwanzo hadi mwisho na haupitii mtandao wa umma usiolindwa, na hivyo kuimarisha usalama kwa kiasi kikubwa ikilinganishwa na muunganisho ambao haujasimbwa.
+Kwenye Umbrel, usakinishaji wa Tailscale huunganisha node yako ya Bitcoin kwenye mtandao wako binafsi wa kibinafsi. Baada ya kusanidiwa, node yako hupata IP ya faragha ya Tailscale Address, inayopatikana tu kutoka kwa vifaa vingine vilivyounganishwa kwenye mtandao sawa wa Tailscale (kama vile kompyuta, simu mahiri na kompyuta za mkononi). Muunganisho huu umesimbwa kwa njia fiche kutoka mwanzo hadi mwisho na haupitii mtandao wa umma usiolindwa, na hivyo kuimarisha usalama kwa kiasi kikubwa ikilinganishwa na muunganisho ambao haujasimbwa.
 
 
 
@@ -2540,27 +2540,27 @@ Kwa maneno madhubuti, Tailscale inakupa faida kadhaa unapotumia Umbrel yako:
 
 
 
-- Unaweza kusimamia Mwavuli wa Interface au kufikia programu zilizounganishwa kwenye nodi yako (kama vile Mempool, Ride The Lightning, ThunderHub...) kutoka mahali popote, kana kwamba uko kwenye mtandao huo wa ndani, bila kufichua bandari kwenye Mtandao na bila kupitia Tor, ambayo ni polepole sana;
+- Unaweza kusimamia Umbrel  Interface au kufikia programu zilizounganishwa kwenye node yako (kama vile Mempool, Ride The Lightning, ThunderHub...) kutoka mahali popote, kana kwamba uko kwenye mtandao huo wa ndani, bila kufichua bandari kwenye Mtandao na bila kupitia Tor, ambayo ni polepole sana;
 
 
 
 
 
-- Unaweza kuunganisha kwenye seva yako ya Electrum (Electrs au Fulcrum) au moja kwa moja kwa Bitcoin core kupitia VPN yako, ukipita Tor. Hii hutoa muunganisho salama, unaolinganishwa na kutumia Tor, lakini kwa kasi ya juu zaidi na utulivu uliopunguzwa. Kwa kifupi, unahifadhi manufaa ya faragha na usalama ya Tor huku ukifurahia kasi ya muunganisho wa Clearnet. Kwa On-Chain Wallet, faida hii inaweza kuonekana kuwa ndogo, lakini ikiwa unapanga kusanidi nodi yako ya Umeme baadaye, tofauti ni kubwa. Hakika, kufanya malipo kupitia nodi yako unaposonga kwenye Tor ni polepole sana kwa sababu ya ubadilishanaji mwingi unaohitajika, ambapo kwa Tailscale, inafanya kazi kikamilifu.
+- Unaweza kuunganisha kwenye server yako ya Electrum (Electrs au Fulcrum) au moja kwa moja kwa Bitcoin core kupitia VPN yako, ukipita Tor. Hii hutoa muunganisho salama, unaolinganishwa na kutumia Tor, lakini kwa kasi ya juu zaidi na utulivu uliopunguzwa. Kwa kifupi, unahifadhi manufaa ya faragha na usalama ya Tor huku ukifurahia kasi ya muunganisho wa Clearnet. Kwa On-Chain Wallet, faida hii inaweza kuonekana kuwa ndogo, lakini ikiwa unapanga kusanidi Lightning node yako baadaye, tofauti ni kubwa. Hakika, kufanya malipo kupitia node yako unaposonga kwenye Tor ni polepole sana kwa sababu ya exchange mingi inyaohitajika, ambapo kwa Tailscale, inafanya kazi kikamilifu.
 
 
 
 
 
-- Hakuna haja ya kusanidi sheria za NAT, kufungua bandari, au kusanidi seva ya kawaida ya VPN. Mara baada ya programu kusakinishwa kwenye Umbrel na vifaa vyako, mtandao unaanzishwa kiotomatiki.
+- Hakuna haja ya kusanidi sheria za NAT, kufungua bandari, au kusanidi server ya kawaida ya VPN. Mara baada ya programu kusakinishwa kwenye Umbrel na vifaa vyako, mtandao unaanzishwa kiotomatiki.
 
 
 
-Kwa hivyo, Tailcale kwenye Umbrel ni suluhisho la kuvutia sana ikiwa unataka kufikia nodi yako kutoka popote duniani kwa njia salama, ya utendaji wa juu na rahisi kusanidi, bila kuacha faragha au usalama.
+Kwa hivyo, Tailcale kwenye Umbrel ni suluhisho la kuvutia sana ikiwa unataka kufikia node yako kutoka popote duniani kwa njia salama, ya utendaji wa juu na rahisi kusanidi, bila kuacha faragha au usalama.
 
 
 
-Ili kusakinisha na kusanidi Tailscale kwenye Mwavuli wako, angalia mafunzo haya, sehemu ya 4: "*Using Tailscale on Umbrel*":
+Ili kusakinisha na kusanidi Tailscale kwenye Umbrel yako, angalia mafunzo haya, sehemu ya 4: "*Using Tailscale on Umbrel*":
 
 
 
@@ -2570,27 +2570,27 @@ https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7
 
 
 
-Nostr, kifupi cha "*Vidokezo na Mambo Mengine Yanayotumwa kwa Relays*", ni itifaki iliyo wazi, iliyogatuliwa iliyoundwa ili kuwezesha ujumbe kuchapishwa na kubadilishana kwenye Mtandao bila kutegemea jukwaa la kati. Kila mtumiaji ana jozi ya funguo za kriptografia: ufunguo wa umma (`npub`), ambao hutumika kama kitambulisho, na ufunguo wa faragha (`nsec`), ambao hutumika kutia sahihi ujumbe na kuhakikisha uhalisi wake.
+Nostr, kifupi cha "*Vidokezo na Mambo Mengine Yanayotumwa kwa Relays*", ni protocol iliyo wazi, iliyogatuliwa iliyoundwa ili kuwezesha ujumbe kuchapishwa na kubadilishana kwenye Mtandao bila kutegemea jukwaa la kati. Kila mtumiaji ana jozi ya funguo za cryptography: ufunguo wa umma (`npub`), ambao hutumika kama kitambulisho, na ufunguo wa faragha (`nsec`), ambao hutumika kutia sahihi ujumbe na kuhakikisha uhalisi wake.
 
 
 
-Ujumbe hupitishwa kupitia mtandao wa relay huru. Usanifu huu uliosambazwa hufanya Nostr kustahimili udhibiti: hakuna seva moja inayodhibiti ufikiaji au usambazaji, na mtumiaji anaweza kuunganisha kwa relay nyingi apendavyo.
+Ujumbe hupitishwa kupitia mtandao wa relay huru. Usanifu huu uliosambazwa hufanya Nostr kustahimili udhibiti: hakuna server moja inayodhibiti ufikiaji au usambazaji, na mtumiaji anaweza kuunganisha kwa relay nyingi apendavyo.
 
 
 
-Itifaki hii ni maarufu sana katika jumuiya ya Bitcoin kwa sababu, kama vile Bitcoin, Nostr inashughulikia masuala ya uhuru wa kidijitali na udhibiti wa data. Muundaji wake, Fiatjaf, ni msanidi programu ambaye tayari anatambuliwa katika mfumo ikolojia kwa michango yake mingi.
+protocol hii ni maarufu sana katika jumuiya ya Bitcoin kwa sababu, kama vile Bitcoin, Nostr inashughulikia masuala ya uhuru wa kidijitali na udhibiti wa data. Muundaji wake, Fiatjaf, ni msanidi programu ambaye tayari anatambuliwa katika mfumo ikolojia kwa michango yake mingi.
 
 
 
-Ukiwa na Mwavuli wako, unaweza kuboresha matumizi yako ya Nostr. Kwa kusakinisha programu ya ***Nostr Relay***, unaweza kupangisha relay yako ya kibinafsi moja kwa moja kwenye mashine yako, na kuhakikisha kwamba machapisho na mwingiliano wako wote kwenye Nostr yanahifadhiwa ndani na hayawezi kupotea kwa kufutwa kwa reli za umma.
+Ukiwa na Umbrel yako, unaweza kuboresha matumizi yako ya Nostr. Kwa kusakinisha programu ya ***Nostr Relay***, unaweza kupangisha relay yako ya kibinafsi moja kwa moja kwenye mashine yako, na kuhakikisha kwamba machapisho na mwingiliano wako wote kwenye Nostr yanahifadhiwa ndani na hayawezi kupotea kwa kufutwa kwa reli za umma.
 
 
 
-Wateja wa Nostr ***noStrudel*** au ***Snort*** wanapatikana pia kwenye Umbrel. Shukrani kwa programu hizi, unaweza kuchapisha, kusoma, kutafuta wasifu, na kuingiliana na mfumo ikolojia wa Nostr moja kwa moja kutoka kwa wavuti ya Interface kwenye Mwavuli wako.
+Wateja wa Nostr ***noStrudel*** au ***Snort*** wanapatikana pia kwenye Umbrel. Shukrani kwa programu hizi, unaweza kuchapisha, kusoma, kutafuta wasifu, na kuingiliana na mfumo ikolojia wa Nostr moja kwa moja kutoka kwa wavuti ya Interface kwenye Umbrel yako.
 
 
 
-Mwishowe, kuna programu ***Nostr Wallet Connect*** kwenye Umbrel, ambayo inaruhusu malipo ya asili ya Lightning ndani ya Nostr. Kimsingi, unaweza kuunganisha nodi yako ya Lightning ya baadaye kwa wateja wako wa Nostr ili kutuma malipo madogo, yanayoitwa "*zaps*", ili kulipa kwa maudhui au kushirikiana kwa njia ya kifedha bila kutumia huduma ya mtu wa tatu. Malipo haya hutoka moja kwa moja kutoka kwa nodi yako binafsi kupitia njia zako.
+Mwishowe, kuna programu ***Nostr Wallet Connect*** kwenye Umbrel, ambayo inaruhusu malipo ya asili ya Lightning ndani ya Nostr. Kimsingi, unaweza kuunganisha node yako ya Lightning ya baadaye kwa wateja wako wa Nostr ili kutuma malipo madogo, yanayoitwa "*zaps*", ili kulipa kwa maudhui au kushirikiana kwa njia ya kifedha bila kutumia huduma ya mtu wa tatu. Malipo haya hutoka moja kwa moja kutoka kwa node yako binafsi kupitia njia zako.
 
 
 
@@ -2600,15 +2600,15 @@ Ili kujua jinsi ya kutumia programu hizi zote, ninapendekeza uangalie mafunzo ha
 
 https://planb.academy/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b-17c2ea1e08fd
 
-### Seva ya BTPay
+### server ya BTPay
 
 
 
-Seva ya BTCPay ni kichakataji cha malipo cha programu huria ambacho hukuwezesha kukubali malipo kupitia Bitcoin na Lightning Network bila wapatanishi, huku ukiendelea kujilinda na pesa.
+server ya BTCPay ni kichakataji cha malipo cha programu huria ambacho hukuwezesha kukubali malipo kupitia Bitcoin na Lightning Network bila wapatanishi, huku ukiendelea kujilinda na pesa.
 
 
 
-Usanifu wa Seva ya BTCPay unatokana na nodi ya Bitcoin na, kwa Umeme, juu ya utekelezaji unaoendana (LND, Umeme wa Msingi...), na kuifanya kuwa mojawapo ya suluhu za PoS zisizo na kizuizi kabisa. Pia ni programu pana zaidi ya ufuatiliaji na uhasibu.
+Usanifu wa server ya BTCPay unatokana na node ya Bitcoin na, kwa lightning, juu ya utekelezaji unaoendana (LND, lightning wa Msingi...), na kuifanya kuwa mojawapo ya suluhu za PoS zisizo na block kabisa. Pia ni programu pana zaidi ya ufuatiliaji na uhasibu.
 
 
 
@@ -2616,7 +2616,7 @@ Usanifu wa Seva ya BTCPay unatokana na nodi ya Bitcoin na, kwa Umeme, juu ya ute
 
 
 
-Ikiwa unamiliki biashara na ungependa kukubali malipo ya Bitcoin moja kwa moja kupitia eneo lako la Umbrel, ombi la Seva ya BTCPay ni bora kwako. Ili kujua zaidi juu ya mada hii, ninapendekeza uangalie nyenzo zifuatazo:
+Ikiwa unamiliki biashara na ungependa kukubali malipo ya Bitcoin moja kwa moja kupitia eneo lako la Umbrel, ombi la server ya BTCPay ni bora kwako. Ili kujua zaidi juu ya mada hii, ninapendekeza uangalie nyenzo zifuatazo:
 
 
 
@@ -2630,7 +2630,7 @@ https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 
 
-- Kozi ya POS 305 ya kutumia Seva ya BTCPay:
+- Kozi ya POS 305 ya kutumia server ya BTCPay:
 
 
 
@@ -2638,7 +2638,7 @@ https://planb.academy/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 
 
 
-- Mafunzo ya Seva ya BTPay:
+- Mafunzo ya server ya BTPay:
 
 
 
@@ -2652,14 +2652,14 @@ https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-82
 
 
 
-## Kudumisha nodi yako ya Umbrel
+## Kudumisha node yako ya Umbrel
 
 
 <chapterId>06d77d09-bf24-4555-b2ba-c08bbda477c7</chapterId>
 
 
 
-Ili kuanza sehemu hii ya mwisho, na kabla ya kuendelea na nadharia ya hali ya juu zaidi, ningependa kuchunguza mbinu bora na hatua madhubuti unazoweza kuchukua mara tu nodi yako ya Umbrel itakaposakinishwa, kusawazishwa na kusanidiwa kwa usahihi katika sura hii fupi. Je, unaidumishaje kila siku?
+Ili kuanza sehemu hii ya mwisho, na kabla ya kuendelea na nadharia ya hali ya juu zaidi, ningependa kuchunguza mbinu bora na hatua madhubuti unazoweza kuchukua mara tu node yako ya Umbrel itakaposakinishwa, kusawazishwa na kusanidiwa kwa usahihi katika sura hii fupi. Je, unaidumishaje kila siku?
 
 
 
@@ -2671,7 +2671,7 @@ Node ya kuaminika huanza na vifaa imara. Hakikisha mashine inayoweka kifundo cha
 
 
 
-Kwenye Raspberry Pi na Kompyuta ndogo, Dust hatimaye huziba heatsinks, kuinua halijoto na kusababisha kusukuma (kizuizi cha hiari cha matumizi ya rasilimali), ambayo matokeo yake husababisha kushuka kwa ufanisi wa nodi yako. Ndiyo sababu ninapendekeza kusafisha uingizaji hewa na feni mara kwa mara, haswa kila baada ya miezi michache.
+Kwenye Raspberry Pi na Kompyuta ndogo, Dust hatimaye huziba heatsinks, kuinua halijoto na kusababisha kusukuma (block cha hiari cha matumizi ya rasilimali), ambayo matokeo yake husababisha kushuka kwa ufanisi wa node yako. Ndiyo sababu ninapendekeza kusafisha uingizaji hewa na feni mara kwa mara, haswa kila baada ya miezi michache.
 
 
 
@@ -2679,11 +2679,11 @@ Hakikisha unatumia nguvu ya hali ya juu ya Supply, kwani voltage isiyo imara ina
 
 
 
-Ninapendekeza pia kuwekeza katika UPS. Hii inalinda nodi yako dhidi ya kuzimwa kwa ghafla, huwezesha Mwavuli kuzima kwa uwazi iwapo kumekatika, na huhakikisha mwendelezo wa utendakazi wakati wa kukatika kwa muda mfupi au kushindwa kwa muda mfupi.
+Ninapendekeza pia kuwekeza katika UPS. Hii inalinda node yako dhidi ya kuzimwa kwa ghafla, huwezesha umbrel  kuzima kwa uwazi iwapo kumekatika, na huhakikisha mwendelezo wa utendakazi wakati wa kukatika kwa muda mfupi au kushindwa kwa muda mfupi.
 
 
 
-Kwa upande wa uhifadhi, angalia maendeleo: ikiwa diski inakaribia kueneza, fikiria kufungia nafasi (futa programu zisizotumiwa, rekebisha mipangilio ya indexer) au uhamie kwenye SSD kubwa. Ubaya wa nodi kamili ya Bitcoin ni kwamba mahitaji yake ya uhifadhi yanaongezeka kila wakati, kwani kizuizi kipya kinatolewa kila baada ya dakika 10 na vizuizi vya zamani haviwezi kufutwa (isipokuwa nodi ni pruned). Kwa hivyo nakushauri kupanga kwa uwezo mkubwa wa kutosha wakati wa kununua vifaa vyako (kiwango cha chini cha TB 2).
+Kwa upande wa uhifadhi, angalia maendeleo: ikiwa diski inakaribia kueneza, fikiria kufungia nafasi (futa programu zisizotumiwa, rekebisha mipangilio ya indexer) au uhamie kwenye SSD kubwa. Ubaya wa node kamili ya Bitcoin ni kwamba mahitaji yake ya uhifadhi yanaongezeka kila wakati, kwani block kipya kinatolewa kila baada ya dakika 10 na blocks za zamani haziwezi kufutwa (isipokuwa node ni pruned). Kwa hivyo nakushauri kupanga kwa uwezo mkubwa wa kutosha wakati wa kununua vifaa vyako (kiwango cha chini cha TB 2).
 
 
 
@@ -2691,7 +2691,7 @@ Kwa upande wa uhifadhi, angalia maendeleo: ikiwa diski inakaribia kueneza, fikir
 
 
 
-Usasishaji wa nodi ni muhimu kwa sababu kuu tatu: kwanza, usalama (patches za mazingira magumu, ugumu wa mtandao, na ulinzi wa DoS); pili, utangamano (mabadiliko ya sera ya relay, mabadiliko ya umbizo, na uboreshaji wa itifaki); na tatu, kutegemewa na utendakazi (kurekebishwa kwa hitilafu, matumizi ya rasilimali na maboresho mengine). Kwa hivyo angalia mara kwa mara kwamba UmbrelOS na programu zako zimesasishwa:
+Usasishaji wa node ni muhimu kwa sababu kuu tatu: kwanza, usalama (patches za mazingira magumu, ugumu wa mtandao, na ulinzi wa DoS); pili, utangamano (mabadiliko ya sera ya relay, mabadiliko ya umbizo, na uboreshaji wa protocol); na tatu, kutegemewa na utendakazi (kurekebishwa kwa hitilafu, matumizi ya rasilimali na maboresho mengine). Kwa hivyo angalia mara kwa mara kwamba UmbrelOS na programu zako zimesasishwa:
 
 
 
@@ -2719,15 +2719,15 @@ Fanya operesheni hii mara kwa mara ili kusasisha mfumo wako wa uendeshaji na pro
 
 
 
-Iwapo unatumia nodi yako ya Bitcoin pekee ili kuthibitisha na kusambaza miamala yako, lakini pochi zako zinadhibitiwa nje ya Umbrel (k.m., kwa Hardware Wallet na Sparrow wallet), hakuna chochote cha kuhifadhi nakala moja kwa moja kwenye Umbrel. Katika hali hii, chelezo muhimu inasalia ile ya kifungu cha uokoaji na Descriptor ya Wallet yako ya nje, na hii inatumika ikiwa unatumia nodi yako mwenyewe au la. Kwa hivyo hakuna kinachobadilika kutoka kwa usanidi wako wa awali.
+Iwapo unatumia node yako ya Bitcoin pekee ili kuthibitisha na kusambaza miamala yako, lakini wallet zako zinadhibitiwa nje ya Umbrel (k.m., kwa Hardware Wallet na Sparrow wallet), hakuna chochote cha kuhifadhi nakala moja kwa moja kwenye Umbrel. Katika hali hii, chelezo muhimu inasalia ile ya kifungu cha uokoaji na Descriptor ya Wallet yako ya nje, na hii inatumika ikiwa unatumia node yako mwenyewe au la. Kwa hivyo hakuna kinachobadilika kutoka kwa usanidi wako wa awali.
 
 
 
-Kwa upande mwingine, kulingana na programu za ziada unazotumia kwenye Umbrel, chelezo zaidi zinaweza kuhitajika. Hii ndio kesi hasa ikiwa unaendesha nodi ya Umeme kwenye Umbrel. Katika hali hii, ni muhimu kabisa kuhifadhi nakala ya seed iliyotolewa wakati ulisakinisha nodi yako ya Umeme. Kando na seed, unahitaji Usasisho wa ***Nakala Tuli ya Idhaa (SCB)*** ili uweze kurejesha nodi yako ya Umeme kukitokea tatizo. SCB hukuruhusu kurejesha pesa zako kwa kufunga vituo kwa lazima. Ikiwa ama seed au SCB haipo, haiwezekani kurejesha nodi ya Umeme.
+Kwa upande mwingine, kulingana na programu za ziada unazotumia kwenye Umbrel, chelezo zaidi zinaweza kuhitajika. Hii ndio kesi hasa ikiwa unaendesha lightning node kwenye Umbrel. Katika hali hii, ni muhimu kabisa kuhifadhi nakala ya seed iliyotolewa wakati ulisakinisha Lightning node yako. Kando na seed, unahitaji Usasisho wa ***Nakala Tuli ya Idhaa (SCB)*** ili uweze kurejesha Lightning node yako kukitokea tatizo. SCB hukuruhusu kurejesha pesa zako kwa kufunga vituo kwa lazima. Ikiwa ama seed au SCB haipo, haiwezekani kurejesha lightning node.
 
 
 
-Umbrel pia hutoa chaguo la kuhifadhi nakala kiotomatiki na kwa nguvu kwa SCB hii kwenye seva zao, kupitia Tor, ili kuhakikisha kuwa faili iliyosasishwa inapatikana kila wakati. Katika kesi hii, tu seed inahitajika kurejesha node.
+Umbrel pia hutoa chaguo la kuhifadhi nakala kiotomatiki na kwa nguvu kwa SCB hii kwenye server zao, kupitia Tor, ili kuhakikisha kuwa faili iliyosasishwa inapatikana kila wakati. Katika kesi hii, tu seed inahitajika kurejesha node.
 
 
 
@@ -2739,7 +2739,7 @@ Tutarejea vipengele hivi kwa undani katika kozi inayofuata ya LNP202.
 
 
 
-Kwa upande wa usalama, tumia nenosiri refu, la kipekee na nasibu la Mwavuli wa Interface, na kumbuka kuamilisha uthibitishaji wa vipengele viwili (2FA). Kwa programu ambazo hutoa ulinzi wa nenosiri na 2FA, kila wakati washa zote mbili na ubadilishe nenosiri chaguo-msingi.
+Kwa upande wa usalama, tumia nenosiri refu, la kipekee na nasibu la Umbrel  Interface, na kumbuka kuamilisha uthibitishaji wa vipengele viwili (2FA). Kwa programu ambazo hutoa ulinzi wa nenosiri na 2FA, kila wakati washa zote mbili na ubadilishe nenosiri chaguo-msingi.
 
 
 
@@ -2757,7 +2757,7 @@ https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 
 
-Kukitokea hitilafu kwenye Mwavuli wako, kwanza generate kifurushi cha uchunguzi kupitia sehemu ya utatuzi ya UmbrelOS au programu inayohusika, kisha uanzishe upya programu kwa njia safi. Ikiwa ni lazima, pia jaribu kuanzisha upya mfumo kamili.
+Kukitokea hitilafu kwenye Umbrel yako, kwanza generate kifurushi cha uchunguzi kupitia sehemu ya utatuzi ya UmbrelOS au programu inayohusika, kisha uanzishe upya programu kwa njia safi. Ikiwa ni lazima, pia jaribu kuanzisha upya mfumo kamili.
 
 
 
@@ -2769,7 +2769,7 @@ Maeneo haya yatakuwezesha sio tu kufuata matangazo na masasisho ya usalama, laki
 
 
 
-Kwa tabia hizi rahisi, nodi yako ya Umbrel itabaki thabiti, salama, na yenye manufaa kwako na kwa mtandao wa Bitcoin.
+Kwa tabia hizi rahisi, node yako ya Umbrel itabaki thabiti, salama, na yenye manufaa kwako na kwa mtandao wa Bitcoin.
 
 
 
@@ -2781,11 +2781,11 @@ Kwa tabia hizi rahisi, nodi yako ya Umbrel itabaki thabiti, salama, na yenye man
 
 
 
-Nodi yako ya Bitcoin huanza bila ujuzi wowote wa awali wa historia ya muamala. Hapo awali, ni programu tu ya kompyuta inayoendesha (Bitcoin core au sawa). Ili kuwa nodi iliyosawazishwa kikamilifu na inayofanya kazi ya Bitcoin, ni lazima iunde upya hali ya Ledger ndani ya nchi kwa kuangalia vitalu vyote vilivyochapishwa tangu kitalu cha Genesis (kizuizi 0, kilichochapishwa na Satoshi Nakamoto mnamo Januari 3, 2009). Hatua hii inaitwa **IBD (_Initial Block Download_)**.
+Node yako ya Bitcoin huanza bila ujuzi wowote wa awali wa historia ya muamala. Hapo awali, ni programu tu ya kompyuta inayoendesha (Bitcoin core au sawa). Ili kuwa node iliyosawazishwa kikamilifu na inayofanya kazi ya Bitcoin, ni lazima iunde upya hali ya Ledger ndani ya nchi kwa kuangalia blocks zote zilivyochapishwa tangu block ya Genesis (block 0, kilichochapishwa na Satoshi Nakamoto mnamo Januari 3, 2009). Hatua hii inaitwa **IBD (_Initial Block Download_)**.
 
 
 
-IBD inajumuisha kupakua na kuthibitisha kila kizuizi na muamala mmoja mmoja, kwa kutumia sheria za makubaliano, kuunda toleo lake la Blockchain. Lengo sio tu kupata nakala ya data ambayo haijathibitishwa, lakini kufikia hitimisho sawa kwa kujitegemea kabisa, kama wengi waaminifu wa mtandao.
+IBD inajumuisha kupakua na kuthibitisha kila block na muamala mmoja mmoja, kwa kutumia sheria za makubaliano, kuunda toleo lake la Blockchain. Lengo sio tu kupata nakala ya data ambayo haijathibitishwa, lakini kufikia hitimisho sawa kwa kujitegemea kabisa, kama wengi waaminifu wa mtandao.
 
 
 
@@ -2805,7 +2805,7 @@ Usawazishaji huanza na _**vijajuu-kwanza**_ hatua. Node yako inaomba mlolongo wa
 
 
 
-Kama ukumbusho, kizuizi cha Bitcoin kina kichwa cha baiti 80 na orodha ya miamala. Alama ya vidole ya kizuizi hupatikana kwa kutumia SHA-256 Hash mara mbili kwenye kichwa hiki, ambacho kina sehemu 6:
+Kama ukumbusho, block ya Bitcoin ina kichwa cha baiti 80 na orodha ya miamala. Alama ya vidole ya block hupatikana kwa kutumia SHA-256 Hash mara mbili kwenye kichwa hiki, ambacho kina sehemu 6:
 
 
 
@@ -2813,7 +2813,7 @@ Kama ukumbusho, kizuizi cha Bitcoin kina kichwa cha baiti 80 na orodha ya miamal
 - toleo
 - Hash ya block iliyopita
 - Merkle Root ya shughuli
-- Timestamp (kubwa kuliko muda wa wastani wa vitalu 11 vilivyotangulia)
+- Timestamp (kubwa kuliko muda wa wastani wa blocks 11 zilivyotangulia)
 - ugumu lengo
 - Nonce
 
@@ -2823,7 +2823,7 @@ Kama ukumbusho, kizuizi cha Bitcoin kina kichwa cha baiti 80 na orodha ya miamal
 
 
 
-Malipo yamefanywa kwa Merkle Tree. Huu ni muundo ambao ni muhtasari wa seti kubwa ya data (katika kesi hii, shughuli zote kwenye kizuizi) kwa kukusanya heshi zao hatua kwa hatua mbili kwa mbili hadi "mizizi" moja, na hivyo kuthibitisha kuwa kipengele ni cha seti (na kugundua marekebisho yoyote). Kwa njia hii, marekebisho yoyote kwa shughuli pia hurekebisha mzizi wa Merkle Tree na kwa hivyo alama ya vidole ya kichwa cha block. SegWit imeanzisha Commitment ya ziada ya ziada kwa vidakuzi (saini), iliyowekwa kwenye coinbase.
+Malipo yamefanywa kwa Merkle Tree. Huu ni muundo ambao ni muhtasari wa seti kubwa ya data (katika kesi hii, shughuli zote kwenye block) kwa kukusanya heshi zao hatua kwa hatua mbili kwa mbili hadi "mizizi" moja, na hivyo kuthibitisha kuwa kipengele ni cha seti (na kugundua marekebisho yoyote). Kwa njia hii, marekebisho yoyote kwa shughuli pia hurekebisha mzizi wa Merkle Tree na kwa hivyo alama ya vidole ya kichwa cha block. SegWit imeanzisha Commitment ya ziada ya ziada kwa vidakuzi (saini), iliyowekwa kwenye coinbase.
 
 
 
@@ -2831,15 +2831,15 @@ Malipo yamefanywa kwa Merkle Tree. Huu ni muundo ambao ni muhtasari wa seti kubw
 
 
 
-Hatua hii _**vichwa-kwanza**_ huwezesha nodi kutambua tawi lenye kazi nyingi zaidi (bila kujali idadi yake ya vizuizi), ambalo ni tawi ambalo nodi za Bitcoin zinasawazisha. Mara tu tawi hili limetambuliwa, nodi hupakua yaliyomo kwenye vizuizi kwa sambamba kutoka kwa miunganisho kadhaa, kisha inathibitisha kila shughuli: umbizo, uhalali wa hati (isipokuwa `assumevalid=1`), kiasi, na kutokuwepo kwa matumizi maradufu. Kwa kila hundi iliyofaulu, hali ya sasa ya sarafu ambazo hazijatumika (seti ya UTXO) inasasishwa katika hifadhidata ya `chainstate/`: matokeo yaliyotumika huondolewa, huku matokeo mapya halali yanaongezwa.
+Hatua hii _**vichwa-kwanza**_ huwezesha node kutambua tawi lenye kazi nyingi zaidi (bila kujali idadi yake ya Blocks), ambalo ni tawi ambalo node za Bitcoin zinasawazisha. Mara tu tawi hili limetambuliwa, node hupakua yaliyomo kwenye Blocks kwa sambamba kutoka kwa miunganisho kadhaa, kisha inathibitisha kila shughuli: umbizo, uhalali wa hati (isipokuwa `assumevalid=1`), kiasi, na kutokuwepo kwa matumizi maradufu. Kwa kila hundi iliyofaulu, hali ya sasa ya sarafu ambazo hazijatumika (seti ya UTXO) inasasishwa katika hifadhidata ya `chainstate/`: matokeo yaliyotumika huondolewa, huku matokeo mapya halali yanaongezwa.
 
 
 
-Mempool, kwa upande mwingine, inakuja tu wakati inakaribia ncha ya mnyororo: mradi nodi inabaki kuchelewa, haina shughuli zinazosubiri za kuhifadhi.
+Mempool, kwa upande mwingine, inakuja tu wakati inakaribia ncha ya mnyororo: mradi node inabaki kuchelewa, haina shughuli zinazosubiri za kuhifadhi.
 
 
 
-Mara tu IBD itakapokamilika, nodi huingia katika awamu yake ya kawaida: inathibitisha vizuizi vipya vinapochapishwa, hudumisha Mempool yake na shughuli zinazosubiri kulingana na sheria zake za upeanaji, hutuma miamala na vizuizi, na kudhibiti upangaji upya wa mnyororo wowote.
+Mara tu IBD itakapokamilika, node huingia katika awamu yake ya kawaida: inathibitisha Blocks mpya zinapochapishwa, hudumisha Mempool yake na shughuli zinazosubiri kulingana na sheria zake za upeanaji, hutuma miamala na Blocks, na kudhibiti upangaji upya wa mnyororo wowote.
 
 
 
@@ -2847,15 +2847,15 @@ Mara tu IBD itakapokamilika, nodi huingia katika awamu yake ya kawaida: inathibi
 
 
 
-Bitcoin core inajumuisha utaratibu ulioundwa ili kupunguza muda unaohitajika kabla ya nodi kufanya kazi kikamilifu, huku ikihifadhi kiini cha kanuni ya uthibitishaji wa kujitegemea: AssumeValid.
+Bitcoin core inajumuisha utaratibu ulioundwa ili kupunguza muda unaohitajika kabla ya node kufanya kazi kikamilifu, huku ikihifadhi kiini cha kanuni ya uthibitishaji wa kujitegemea: AssumeValid.
 
 
 
-Kigezo cha `assumevalid` kinatokana na kizuizi cha marejeleo cha awali, Hash ambacho kimeunganishwa katika kila toleo la programu. Wakati wa IBD, ikiwa nodi yako itagundua kuwa kizuizi hiki kiko kwenye tawi na kazi nyingi zaidi, kinaweza kupuuza uthibitishaji wa hati kwa miamala yote kabla ya hatua hii.
+Kigezo cha `assumevalid` kinatokana na block cha marejeleo cha awali, Hash ambacho kimeunganishwa katika kila toleo la programu. Wakati wa IBD, ikiwa node yako itagundua kuwa block hii iko kwenye tawi na kazi nyingi zaidi, kinaweza kupuuza uthibitishaji wa hati kwa miamala yote kabla ya hatua hii.
 
 
 
-Sheria nyingine zote (muundo wa kuzuia, Proof of Work, mipaka ya ukubwa, kiasi cha shughuli, UTXO, nk) hubakia kuthibitishwa kikamilifu. Hesabu tu ya hati kabla ya kizuizi hiki cha marejeleo ndio hupuuzwa. Faida ya utendakazi ni muhimu kwenye IBD, kwani uthibitishaji wa saini huchangia sehemu kubwa ya mzigo wa CPU. Zaidi ya kizuizi hiki cha marejeleo, uthibitishaji unarudi katika hali yake ya kawaida.
+Sheria nyingine zote (muundo wa kuzuia, Proof of Work, mipaka ya ukubwa, kiasi cha shughuli, UTXO, nk) hubakia kuthibitishwa kikamilifu. Hesabu tu ya hati kabla ya block hii ya marejeleo ndio hupuuzwa. Faida ya utendakazi ni muhimu kwenye IBD, kwani uthibitishaji wa saini huchangia sehemu kubwa ya mzigo wa CPU. Zaidi ya block hii a marejeleo, uthibitishaji unarudi katika hali yake ya kawaida.
 
 
 
@@ -2871,15 +2871,15 @@ Unaweza kulazimisha uthibitishaji kamili wa hati zote kwa kuzima utaratibu huu, 
 
 
 
-Kwa hivyo nodi huanza kufanya kazi haraka kwa matumizi ya kawaida (RPC, pochi za kuunganisha, n.k.), wakati huo huo ikizindua ujenzi kamili, uliothibitishwa wa seti yake ya UTXO nyuma. Mara tu hatua hii inapokamilika, picha ya awali inabadilishwa na hali iliyojengwa upya ndani ya nchi. Mbinu hii hutenganisha utoaji wa nodi za haraka kutoka kwa uthibitishaji kamili, bila kuathiri mwisho.
+Kwa hivyo node huanza kufanya kazi haraka kwa matumizi ya kawaida (RPC, wallet za kuunganisha, n.k.), wakati huo huo ikizindua ujenzi kamili, uliothibitishwa wa seti yake ya UTXO nyuma. Mara tu hatua hii inapokamilika, picha ya awali inabadilishwa na hali iliyojengwa upya ndani ya nchi. Mbinu hii hutenganisha utoaji wa node za haraka kutoka kwa uthibitishaji kamili, bila kuathiri mwisho.
 
 
 
-### Ugunduzi wa rika: Je, nodi yako inapataje mtandao wa Bitcoin?
+### Ugunduzi wa rika: Je, node yako inapataje mtandao wa Bitcoin?
 
 
 
-Wakati nodi inapoanza kwa mara ya kwanza, bado haijui rika lolote. Hata hivyo, ni lazima itafute nodi nyingine za Bitcoin kwenye Mtandao ili kuomba vichwa, kisha vizuizi, ili kukamilisha IBD yake. Ili kuanzisha miunganisho hii, Bitcoin core inafuata mantiki iliyopewa kipaumbele.
+Wakati node inapoanza kwa mara ya kwanza, bado haijui rika lolote. Hata hivyo, ni lazima itafute node nyingine za Bitcoin kwenye Mtandao ili kuomba vichwa, kisha Blocks, ili kukamilisha IBD yake. Ili kuanzisha miunganisho hii, Bitcoin core inafuata mantiki iliyopewa kipaumbele.
 
 
 
@@ -2887,11 +2887,11 @@ Wakati nodi inapoanza kwa mara ya kwanza, bado haijui rika lolote. Hata hivyo, n
 
 
 
-Wakati nodi inapowashwa tena baada ya kuwa tayari imetumika, Core kwanza hujaribu kuunganisha tena kwa wenzao wanaotoka waliosajiliwa kabla ya kuzima, maelezo yaliyohifadhiwa katika faili ya `anchors.dat`. Kisha, inatafuta kitabu chake cha IP Address **`peers.dat`**, ambacho huhifadhi orodha ya wenzao waliokutana nao hapo awali, ili kuunganishwa nao tena. Hii ni faili ya ndani, iliyosasishwa na kuhifadhiwa na Core. Kwa upande mwingine, kwa node mpya ambayo imezinduliwa tu, faili hizi 2 hazina tupu, kwani haijawahi kuwasiliana na nodes nyingine za Bitcoin.
+Wakati node inapowashwa tena baada ya kuwa tayari imetumika, Core kwanza hujaribu kuunganisha tena kwa wenzao wanaotoka waliosajiliwa kabla ya kuzima, maelezo yaliyohifadhiwa katika faili ya `anchors.dat`. Kisha, inatafuta kitabu chake cha IP Address **`peers.dat`**, ambacho huhifadhi orodha ya wenzao waliokutana nao hapo awali, ili kuunganishwa nao tena. Hii ni faili ya ndani, iliyosasishwa na kuhifadhiwa na Core. Kwa upande mwingine, kwa node mpya ambayo imezinduliwa tu, faili hizi 2 hazina tupu, kwani haijawahi kuwasiliana na nodes nyingine za Bitcoin.
 
 
 
-Katika hali hii, programu inauliza _**Mbegu za DNS**_. Hizi ni [seva zinazodumishwa na wasanidi wa mfumo ikolojia wanaotambuliwa](https://github.com/Bitcoin/Bitcoin/blob/master/src/kernel/chainparams.cpp), ambazo hurejesha orodha ya anwani za IP za nodi zinazodhaniwa kuwa amilifu. Anwani hizi huwezesha nodi mpya kuanzisha miunganisho yake ya kwanza na kuomba data muhimu kutoka kwa IBD. Hii hapa orodha ya *mbegu za DNS* zinazotumika hadi sasa (Agosti 2025):
+Katika hali hii, programu inauliza _**Mbegu za DNS**_. Hizi ni [server zinazodumishwa na wasanidi wa mfumo ikolojia wanaotambuliwa](https://github.com/Bitcoin/Bitcoin/blob/master/src/kernel/chainparams.cpp), ambazo hurejesha orodha ya address za IP za node zinazodhaniwa kuwa amilifu. Address hizi huwezesha node mpya kuanzisha miunganisho yake ya kwanza na kuomba data muhimu kutoka kwa IBD. Hii hapa orodha ya *mbegu za DNS* zinazotumika hadi sasa (Agosti 2025):
 
 
 
@@ -2908,7 +2908,7 @@ Katika hali hii, programu inauliza _**Mbegu za DNS**_. Hizi ni [seva zinazodumis
 
 
 
-Katika idadi kubwa ya matukio, hatua ya *Mbegu za DNS* inatosha kuanzisha miunganisho ya kwanza na nodi nyingine. Iwapo, kipekee, seva hizi zitashindwa kujibu ndani ya sekunde 60, nodi hubadilika kwenda kwa njia nyingine: [orodha tuli ya zaidi ya anwani 1,000](https://github.com/Bitcoin/Bitcoin/blob/master/src/chainparamsseeds.h) ya _seed nodes-5 husasishwa mara kwa mara katika GW's misimbo ya GW. Ikiwa njia mbili za kwanza za kupata anwani za IP zinashindwa, suluhisho hili la mwisho linaanzisha uunganisho wa awali, ambayo node inaweza kuomba anwani mpya za IP.
+Katika idadi kubwa ya matukio, hatua ya *Mbegu za DNS* inatosha kuanzisha miunganisho ya kwanza na node nyingine. Iwapo, kipekee, server hizi zitashindwa kujibu ndani ya sekunde 60, node hubadilika kwenda kwa njia nyingine: [orodha tuli ya zaidi ya address 1,000](https://github.com/Bitcoin/Bitcoin/blob/master/src/chainparamsseeds.h) ya _seed nodes-5 husasishwa mara kwa mara katika GW's misimbo ya GW. Ikiwa njia mbili za kwanza za kupata IP Address  zinashindwa, suluhisho hili la mwisho linaanzisha uunganisho wa awali, ambayo node inaweza kuomba Address mpya za IP.
 
 
 
@@ -2916,7 +2916,7 @@ Katika idadi kubwa ya matukio, hatua ya *Mbegu za DNS* inatosha kuanzisha miunga
 
 
 
-Kama hatua ya mwisho, unaweza mwenyewe kutumia anwani za IP za Supply kupitia faili ya `peers.dat` ili kulazimisha miunganisho mahususi.
+Kama hatua ya mwisho, unaweza mwenyewe kutumia IP Address  za Supply kupitia faili ya `peers.dat` ili kulazimisha miunganisho mahususi.
 
 
 
@@ -2924,38 +2924,38 @@ Mara tu inapofungwa, meneja wa ndani wa Address hubadilisha vyanzo (mitandao tof
 
 
 
-Ikiwa nodi yako inasikiza kwenye mlango wazi (kwa chaguo-msingi, 8333), inakubali miunganisho inayoingia. Hizi huimarisha uthabiti wa jumla wa mtandao kwa kutoa mahali pa kuwasiliana na nodi mpya, bila kuleta manufaa yoyote kwa IBD yako mwenyewe. Ikiwa nodi yako inaendeshwa kwenye Tor, mantiki inabaki sawa, lakini anwani zinazotumiwa ni huduma za `.onion`.
+Ikiwa node yako inasikiza kwenye mlango wazi (kwa chaguo-msingi, 8333), inakubali miunganisho inayoingia. Hizi huimarisha uthabiti wa jumla wa mtandao kwa kutoa mahali pa kuwasiliana na node mpya, bila kuleta manufaa yoyote kwa IBD yako mwenyewe. Ikiwa node yako inaendeshwa kwenye Tor, mantiki inabaki sawa, lakini Address zinazotumiwa ni huduma za `.onion`.
 
 
 
 
-## Maumbile ya nodi yako ya Bitcoin
+## Maumbile ya node yako ya Bitcoin
 
 
 <chapterId>b420bd9d-7e2a-4984-bc70-2b732a94c8ce</chapterId>
 
 
 
-Wakati nodi yako imekamilisha ulandanishi wake wa awali, huhifadhi seti kadhaa za ziada za data ndani ya nchi, kuiwezesha kuhalalisha vizuizi na miamala, kuwahudumia wenzao wa mtandao, na kuwasha upya haraka huku ikidumisha hali yake. Matofali 3 kuu ni muhimu kwenye nodi:
+Wakati node yako imekamilisha ulandanishi wake wa awali, huhifadhi seti kadhaa za ziada za data ndani ya nchi, kuiwezesha kuhalalisha Blocks na miamala, kuwahudumia wenzao wa mtandao, na kuwasha upya haraka huku ikidumisha hali yake. Matofali 3 kuu ni muhimu kwenye node:
 
 
 
 
-- **vitalu** vya blockchain vilivyohifadhiwa kwenye diski,
+-**Blocks** vya blockchain vilivyohifadhiwa kwenye diski,
 - **seti ya UTXO** iliyotunzwa katika hifadhidata ya thamani kuu,
 - na **Mempool** huhifadhiwa kwenye RAM na kupangwa mara kwa mara.
 
 
 
-Zaidi ya hayo, faili kadhaa za msaidizi (rika, makadirio ya ada, orodha za kutengwa, pochi, nk) hukamilisha picha. Hebu tugundue jukumu la faili hizi zote.
+Zaidi ya hayo, faili kadhaa za msaidizi (rika, makadirio ya ada, orodha za kutengwa, wallet, nk) hukamilisha picha. Hebu tugundue jukumu la faili hizi zote.
 
 
 
-### Je, data ya nodi iko wapi hasa?
+### Je, data ya node iko wapi hasa?
 
 
 
-Kwa chaguo-msingi, Bitcoin core huhifadhi data yake katika saraka maalum ya kufanya kazi. Chini ya GNU/Linux, hii kwa kawaida huwa katika `~/.Bitcoin/`, chini ya Windows katika `%APPDATA%\Bitcoin/`, na chini ya macOS katika `~/Library/Application Support/Bitcoin/`. Ikiwa unatumia suluhisho la vifurushi (kwa mfano, ndani ya usambazaji wa nodi), saraka hii inaweza kuwekwa mahali pengine, lakini muundo wake unabaki sawa. Folda ndogo na faili zilizoelezewa hapa chini bado ziko hapa.
+Kwa chaguo-msingi, Bitcoin core huhifadhi data yake katika saraka maalum ya kufanya kazi. Chini ya GNU/Linux, hii kwa kawaida huwa katika `~/.Bitcoin/`, chini ya Windows katika `%APPDATA%\Bitcoin/`, na chini ya macOS katika `~/Library/Application Support/Bitcoin/`. Ikiwa unatumia suluhisho la vifurushi (kwa mfano, ndani ya usambazaji wa node), saraka hii inaweza kuwekwa mahali pengine, lakini muundo wake unabaki sawa. Folda ndogo na faili zilizoelezewa hapa chini bado ziko hapa.
 
 
 
@@ -2963,15 +2963,15 @@ Kwa chaguo-msingi, Bitcoin core huhifadhi data yake katika saraka maalum ya kufa
 
 
 
-### Vitalu
+### Blocks
 
 
 
-Blockchain, kwa hiyo, ni mkusanyiko wa vitalu. Full node huhifadhi vizuizi hivi kama faili bapa zinazofuatana na hudumisha faharasa sambamba kwa urejeshaji wa haraka. Inapohitajika (kupanga upya, kuchambua Wallet, huduma ya rika), data hii inasomwa tena kama ilivyo.
+Blockchain, kwa hiyo, ni mkusanyiko wa blocks. Full node huhifadhi Blocks hizi kama faili bapa zinazofuatana na hudumisha faharasa sambamba kwa urejeshaji wa haraka. Inapohitajika (kupanga upya, kuchambua Wallet, huduma ya rika), data hii inasomwa tena kama ilivyo.
 
 
 
-**Kumbuka:** Kupanga upya, au kusawazisha upya, ni jambo ambalo Blockchain inapitia urekebishaji wa muundo wake kutokana na kuwepo kwa vitalu vinavyoshindana kwa urefu sawa. Hii hutokea wakati sehemu ya Blockchain inabadilishwa na mlolongo mwingine na kiasi kikubwa cha kazi iliyokusanywa. Usawazishaji huu ni sehemu ya asili ya operesheni ya Bitcoin, ambapo wachimbaji tofauti wanaweza kupata vitalu vipya karibu wakati huo huo, na hivyo kugawanya mtandao wa Bitcoin katika sehemu mbili. Katika hali kama hizi, mtandao unaweza kugawanyika kwa minyororo shindani kwa muda. Hatimaye, moja ya minyororo hii inapokusanya kazi zaidi, minyororo mingine inaachwa na nodi, na vitalu vyake vinajulikana kama "vitalu vya kizamani" au "vitalu vya watoto yatima." Utaratibu huu wa kubadilisha mnyororo mmoja na mwingine unaitwa kusawazisha tena.
+**Kumbuka:** Kupanga upya, au kusawazisha upya, ni jambo ambalo Blockchain inapitia urekebishaji wa muundo wake kutokana na kuwepo kwa blocks Zinavyoshindana kwa urefu sawa. Hii hutokea wakati sehemu ya Blockchain inabadilishwa na mlolongo mwingine na kiasi kikubwa cha kazi iliyokusanywa. Usawazishaji huu ni sehemu ya asili ya operesheni ya Bitcoin, ambapo miners tofauti wanaweza kupata blocks Mpya karibu wakati huo huo, na hivyo kugawanya mtandao wa Bitcoin katika sehemu mbili. Katika hali kama hizi, mtandao unaweza kugawanyika kwa minyororo shindani kwa muda. Hatimaye, moja ya minyororo hii inapokusanya kazi zaidi, minyororo mingine inaachwa na node, na blocks zake zinajulikana kama "blocks za kizamani" au "blocks za watoto yatima." Utaratibu huu wa kubadilisha mnyororo mmoja na mwingine unaitwa kusawazisha tena.
 
 
 
@@ -2979,7 +2979,7 @@ Blockchain, kwa hiyo, ni mkusanyiko wa vitalu. Full node huhifadhi vizuizi hivi 
 
 
 
-Vitalu vilivyopokelewa na vilivyoidhinishwa huandikwa kwa vyombo vinavyofuatana vilivyoitwa `blkNNNNN.dat`, vilivyohifadhiwa katika folda ya `blocks/`. Kila faili imejaa mlolongo hadi kufikia ukubwa wa juu wa 128 MiB, ambapo Core inafungua faili inayofuata. Ndani, kila kizuizi kinasasishwa katika umbizo la mtandao, kitanguliwa na kitambulisho cha kichawi na urefu. Shirika hili huwezesha uandishi wa haraka kwa diski na kuwezesha huduma ya kuzuia ili kusawazisha programu zingine.
+blocks zilivyopokelewa na zilivyoidhinishwa huandikwa kwa vyombo vinavyofuatana vilivyoitwa `blkNNNNN.dat`, vilivyohifadhiwa katika folda ya `blocks/`. Kila faili imejaa mlolongo hadi kufikia ukubwa wa juu wa 128 MiB, ambapo Core inafungua faili inayofuata. Ndani, kila block inasasishwa katika umbizo la mtandao, kitanguliwa na kitambulisho cha kichawi na urefu. Shirika hili huwezesha uandishi wa haraka kwa diski na kuwezesha huduma ya kuzuia ili kusawazisha programu zingine.
 
 
 
@@ -2987,7 +2987,7 @@ Vitalu vilivyopokelewa na vilivyoidhinishwa huandikwa kwa vyombo vinavyofuatana 
 
 
 
-Katika hali ya pruned, nodi huhifadhi dirisha la hivi karibuni la faili hizi ili kupunguza alama ya diski. Hufuta vyombo vya zamani zaidi vya `blk*.dat` punde tu lengo la nafasi iliyosanidiwa linapofikiwa, huku ikihifadhi historia ya kutosha ili kusalia kulingana na msururu unaojulikana zaidi. Faharasa na seti ya UTXO inasalia kuwa ya kawaida, na kuwezesha miamala na vizuizi vinavyofuata kuthibitishwa.
+Katika hali ya pruned, node huhifadhi dirisha la hivi karibuni la faili hizi ili kupunguza alama ya diski. Hufuta vyombo vya zamani zaidi vya `blk*.dat` punde tu lengo la nafasi iliyosanidiwa linapofikiwa, huku ikihifadhi historia ya kutosha ili kusalia kulingana na msururu unaojulikana zaidi. Faharasa na seti ya UTXO inasalia kuwa ya kawaida, na kuwezesha miamala na Blocks vinavyofuata kuthibitishwa.
 
 
 
@@ -2995,7 +2995,7 @@ Katika hali ya pruned, nodi huhifadhi dirisha la hivi karibuni la faili hizi ili
 
 
 
-Ili kuweza kurejea wakati wakati wa kupanga upya, Core huhifadhi, sambamba na kila faili `blk`, faili ya `revNNNNN.dat` katika `blocks/`. Faili hii ina taarifa zinazohitajika ili kufuta athari za kuzuia kwenye seti ya UTXO: kwa kila pato linalotumiwa na kuzuia, hali ya awali ya UTXO inayofanana imehifadhiwa (kiasi, script, urefu ...). Katika tukio la kuzuia mimba, nodi inaweza kuunda upya hali ya awali bila kulazimika kuchambua tena mlolongo mzima.
+Ili kuweza kurejea wakati wakati wa kupanga upya, Core huhifadhi, sambamba na kila faili `blk`, faili ya `revNNNNN.dat` katika `blocks/`. Faili hii ina taarifa zinazohitajika ili kufuta athari za kuzuia kwenye seti ya UTXO: kwa kila pato linalotumiwa na kuzuia, hali ya awali ya UTXO inayofanana imehifadhiwa (kiasi, script, urefu ...). Katika tukio la kuzuia mimba, node inaweza kuunda upya hali ya awali bila kulazimika kuchambua tena mlolongo mzima.
 
 
 
@@ -3003,11 +3003,11 @@ Ili kuweza kurejea wakati wakati wa kupanga upya, Core huhifadhi, sambamba na ki
 
 
 
-#### Faharasa ya kuzuia (vizuizi/faharasa)
+#### Faharasa ya kuzuia (Blocks/faharasa)
 
 
 
-Kutafuta kizuizi moja kwa moja kwenye faili tambarare kunaweza kuchukua wakati mwingi. Kwa hivyo Core hudumisha hifadhidata ya LevelDB katika `blocks/index/` ambayo huorodhesha, kwa kila block inayojulikana, metadata kama vile Hash, urefu, hali ya uthibitishaji, `blk` faili, na kukabiliana mahali ilipo. Rafiki anapoomba kizuizi, au wakati kijenzi cha ndani kinahitaji kufikia kizuizi mahususi, faharasa hii hutoa ufikiaji wa haraka. Bila faharasa hii, shughuli nyingi sana zingehitajika.
+Kutafuta block moja kwa moja kwenye faili tambarare kunaweza kuchukua wakati mwingi. Kwa hivyo Core hudumisha hifadhidata ya LevelDB katika `blocks/index/` ambayo huorodhesha, kwa kila block inayojulikana, metadata kama vile Hash, urefu, hali ya uthibitishaji, `blk` faili, na kukabiliana mahali ilipo. Rafiki anapoomba block, au wakati kijenzi cha ndani kinahitaji kufikia block mahususi, faharasa hii hutoa ufikiaji wa haraka. Bila faharasa hii, shughuli nyingi sana zingehitajika.
 
 
 
@@ -3024,8 +3024,8 @@ Faharisi zingine ni za hiari na zimezimwa kwa chaguo-msingi, kwani zinaongeza al
 
 
 
-- `indexes/txindex/`, ambayo tayari tumetaja, hutoa muamala → jedwali la ramani ya eneo, kuwezesha kupata muamala wowote uliothibitishwa bila kujua kizuizi kilichomo. Hii ni muhimu kwa hoja za off-Wallet `getrawtransaction` aina ya RPC, lakini ni ghali kabisa.
-- indexes/blockfilter/` ambayo inaweza kuwa na vichujio vya kuzuia compact (BIP157/158) kwa wateja wembamba. Miundo hii huharakisha uthibitishaji wa upande wa mteja kwa gharama ya hifadhi ya ziada kwenye nodi ya indexer.
+- `indexes/txindex/`, ambayo tayari tumetaja, hutoa muamala → jedwali la ramani ya eneo, kuwezesha kupata muamala wowote uliothibitishwa bila kujua block iliyomo. Hii ni muhimu kwa hoja za off-Wallet `getrawtransaction` aina ya RPC, lakini ni ghali kabisa.
+- indexes/blockfilter/` ambayo inaweza kuwa na vichujio vya kuzuia compact (BIP157/158) kwa wateja wembamba. Miundo hii huharakisha uthibitishaji wa upande wa mteja kwa gharama ya hifadhi ya ziada kwenye node ya indexer.
 
 
 
@@ -3041,7 +3041,7 @@ Muundo wa UTXO (*Pato la Muamala Usiotumika*) ni uwakilishi wa kihasibu wa Bitco
 
 
 
-Jumla ya sehemu hizi zote kwa wakati fulani T inajumuisha seti ya UTXO: orodha kubwa ya sehemu zote zinazopatikana sasa. Ni hali hii ambapo nodi hushauriana ili kuamua ikiwa muamala unatumia vitengo halali ambavyo havijatumika katika shughuli ya awali (ili kuepuka Double-spending).
+Jumla ya sehemu hizi zote kwa wakati fulani T inajumuisha seti ya UTXO: orodha kubwa ya sehemu zote zinazopatikana sasa. Ni hali hii ambapo node hushauriana ili kuamua ikiwa muamala unatumia vitengo halali ambavyo havijatumika katika shughuli ya awali (ili kuepuka Double-spending).
 
 
 
@@ -3049,7 +3049,7 @@ Jumla ya sehemu hizi zote kwa wakati fulani T inajumuisha seti ya UTXO: orodha k
 
 
 
-Seti ya UTXO imehifadhiwa katika folda ya `chainstate/` kama hifadhidata fupi ya LevelDB. Kila sehemu huhusisha ufunguo unaotokana na Hash ya shughuli na faharasa ya matokeo na thamani iliyo na: kiasi, kufuli ya `scriptPubKey`, urefu wa kizuizi cha kuunda, na kiashirio cha coinbase.
+Seti ya UTXO imehifadhiwa katika folda ya `chainstate/` kama hifadhidata fupi ya LevelDB. Kila sehemu huhusisha ufunguo unaotokana na Hash ya shughuli na faharasa ya matokeo na thamani iliyo na: kiasi, kufuli ya `scriptPubKey`, urefu wa block ya kuunda, na kiashirio cha coinbase.
 
 
 
@@ -3057,7 +3057,7 @@ Seti ya UTXO imehifadhiwa katika folda ya `chainstate/` kama hifadhidata fupi ya
 
 
 
-Nodi hudumisha kashe ya kumbukumbu juu ya LevelDB ili kuchukua shughuli za kusoma na kuandika mara kwa mara. Kigezo cha `dbcache` kinaweza kutumika kurekebisha ukubwa wa akiba hii: kadri inavyokuwa kubwa, ndivyo kumbukumbu inavyopata IBD na manufaa ya sasa ya uthibitishaji, kwa gharama ya matumizi ya juu ya RAM. Wakati kizuizi kipya kinapatikana na Miner, nodi hufuta kutoka kwa UTXO kuweka matokeo yaliyotumiwa (au yanayotumiwa) na shughuli zilizojumuishwa kwenye kizuizi na huongeza matokeo mapya yaliyoundwa.
+Node hudumisha kashe ya kumbukumbu juu ya LevelDB ili kuchukua shughuli za kusoma na kuandika mara kwa mara. Kigezo cha `dbcache` kinaweza kutumika kurekebisha ukubwa wa akiba hii: kadri inavyokuwa kubwa, ndivyo kumbukumbu inavyopata IBD na manufaa ya sasa ya uthibitishaji, kwa gharama ya matumizi ya juu ya RAM. Wakati block mpya inapatikana na Miner, node hufuta kutoka kwa UTXO kuweka matokeo yaliyotumiwa (au yanayotumiwa) na shughuli zilizojumuishwa kwenye block na huongeza matokeo mapya yaliyoundwa.
 
 
 
@@ -3087,7 +3087,7 @@ Kwa kuwa sehemu yake lazima iwekwe kwenye RAM ili kuthibitisha miamala kwa wakat
 
 
 
-Mempool ni seti ya ndani ya miamala halali ambayo imepokelewa lakini bado haijathibitishwa. Kama ukumbusho, "muamala uliothibitishwa" ni ule ambao umejumuishwa kwenye kizuizi halali. Kila nodi hudumisha Mempool yake, ambayo inaweza kutofautiana na ile ya nodi zingine kwenye mtandao kulingana na:
+Mempool ni seti ya ndani ya miamala halali ambayo imepokelewa lakini bado haijathibitishwa. Kama ukumbusho, "muamala uliothibitishwa" ni ule ambao umejumuishwa kwenye block halali. Kila node hudumisha Mempool yake, ambayo inaweza kutofautiana na ile ya node zingine kwenye mtandao kulingana na:
 
 
 
@@ -3098,7 +3098,7 @@ Mempool ni seti ya ndani ya miamala halali ambayo imepokelewa lakini bado haijat
 
 
 
-Ni muhimu kutambua kwamba mempools za nodi hazina thamani ya makubaliano. Bitcoin inafanya kazi kikamilifu hata ikiwa kila nodi ina Mempool tofauti. Hatimaye, vizuizi vyenye mamlaka daima ni vile vinavyoongezwa kwa Blockchain. Kwa mfano, hata kama nodi mwanzoni inakataa shughuli fulani katika Mempool yake (halali kulingana na sheria za makubaliano), italazimika kuikubali ikiwa hatimaye itajumuishwa kwenye kizuizi na Proof of Work halali. Ikiwa imeshindwa kufanya hivyo na kukataa kizuizi hiki, ingawa ilizingatia sheria za makubaliano, ingeweza kusababisha Hard Fork, yaani, kuundwa kwa Bitcoin mpya, tofauti ambayo itakuwa peke yake.
+Ni muhimu kutambua kwamba mempools za node hazina thamani ya makubaliano. Bitcoin inafanya kazi kikamilifu hata ikiwa kila node ina Mempool tofauti. Hatimaye, Blocks vyenye mamlaka daima ni zile zinavyoongezwa kwa Blockchain. Kwa mfano, hata kama node mwanzoni inakataa shughuli fulani katika Mempool yake (halali kulingana na sheria za makubaliano), italazimika kuikubali ikiwa hatimaye itajumuishwa kwenye block na Proof of Work halali. Ikiwa imeshindwa kufanya hivyo na kukataa block hiki, ingawa ilizingatia sheria za makubaliano, ingeweza kusababisha Hard Fork, yaani, kuundwa kwa Bitcoin mpya, tofauti ambayo itakuwa peke yake.
 
 
 
@@ -3110,7 +3110,7 @@ Wakati muamala unapopokelewa, Core hutumia mfululizo wa ukaguzi dhidi ya sheria 
 
 
 
-Ukubwa wa Mempool umepunguzwa na kigezo cha `maxmempool` katika faili ya `Bitcoin.conf` (zaidi kuhusu hili katika sura inayofuata). Kwa chaguo-msingi, kikomo ni 300 MB. Ikijaa, nodi huongeza kiwango chake cha chini cha malipo kwa nguvu na huondoa miamala yenye faida kidogo kwanza (yaani, huhifadhi miamala ambayo inapaswa kuchimbwa kwanza). Miamala ambayo ni ya zamani sana inaweza pia kuisha baada ya ucheleweshaji uliowekwa.
+Ukubwa wa Mempool umepunguzwa na kigezo cha `maxmempool` katika faili ya `Bitcoin.conf` (zaidi kuhusu hili katika sura inayofuata). Kwa chaguo-msingi, kikomo ni 300 MB. Ikijaa, node huongeza kiwango chake cha chini cha malipo kwa nguvu na huondoa miamala yenye faida kidogo kwanza (yaani, huhifadhi miamala ambayo inapaswa kuchimbwa kwanza). Miamala ambayo ni ya zamani sana inaweza pia kuisha baada ya ucheleweshaji uliowekwa.
 
 
 
@@ -3118,7 +3118,7 @@ Ukubwa wa Mempool umepunguzwa na kigezo cha `maxmempool` katika faili ya `Bitcoi
 
 
 
-Ili kuharakisha kuwasha upya, Core mara kwa mara husawazisha hali ya Mempool katika faili ya `Mempool.dat` wakati nodi inapozimwa. Mbali na Mempool halisi, ambayo inabakia katika kumbukumbu, Core huhifadhi faili hii ya `Mempool.dat` kwenye diski. Wakati mwingine nodi inapozinduliwa, inapakia upya picha hii na kufuta chochote ambacho si halali tena kwa Blockchain ya sasa.
+Ili kuharakisha kuwasha upya, Core mara kwa mara husawazisha hali ya Mempool katika faili ya `Mempool.dat` wakati node inapozimwa. Mbali na Mempool halisi, ambayo inabakia katika kumbukumbu, Core huhifadhi faili hii ya `Mempool.dat` kwenye diski. Wakati mwingine node inapozinduliwa, inapakia upya picha hii na kufuta chochote ambacho si halali tena kwa Blockchain ya sasa.
 
 
 
@@ -3131,9 +3131,9 @@ Faili zingine kadhaa katika kiwango sawa na `blocks/`, `chainstate/`, na `indexe
 
 
 
-- `peers.dat` huhifadhi kitabu cha IP Address cha programu zingine zinazowezekana, kinacholishwa na ugunduzi wa kwanza wa DNS, ubadilishanaji wa mtandao na nyongeza za mikono. Wakati nodi inapoanza, inaweza kuchora kwenye faili hii ili kuanzisha miunganisho inayotoka.
-- Wakati nodi imezimwa, `anchors.dat` huhifadhi anwani za wenzao wanaotoka, ili uweze kujaribu kuwasiliana nao tena kwa haraka wakati mwingine unapoanza.
-- `banlist.json` ina marufuku ya ndani yaliyoamuliwa na opereta au nodi (tabia isiyo sahihi inayorudiwa), ili kuzuia nodi kuunganisha tena au kukubali miunganisho kutoka kwa programu zingine hizi mahususi.
+- `peers.dat` huhifadhi kitabu cha IP Address cha programu zingine zinazowezekana, kinacholishwa na ugunduzi wa kwanza wa DNS, exchange wa mtandao na nyongeza za mikono. Wakati node inapoanza, inaweza kuchora kwenye faili hii ili kuanzisha miunganisho inayotoka.
+- Wakati node imezimwa, `anchors.dat` huhifadhi address za wenzao wanaotoka, ili uweze kujaribu kuwasiliana nao tena kwa haraka wakati mwingine unapoanza.
+- `banlist.json` ina marufuku ya ndani yaliyoamuliwa na opereta au node (tabia isiyo sahihi inayorudiwa), ili kuzuia node kuunganisha tena au kukubali miunganisho kutoka kwa programu zingine hizi mahususi.
 - `fee_estimates.dat` huhifadhi takwimu za upeo wa macho wa muda kwenye uthibitisho unaozingatiwa, unaotumiwa na mkadiriaji wa ada kupendekeza viwango vya ada vinavyolingana na malengo ya ucheleweshaji yaliyochaguliwa wakati wa kuunda muamala.
 - `bitcoin.conf` ina vigezo vya usanidi vya nodi yako. Ndani ya faili hii ndipo sheria za usambazaji zinaweza kurekebishwa. Nitaeleza zaidi kuhusu hili katika sura inayofuata;
 - `settings.json` ina vigezo vya ziada vya `Bitcoin.conf`.
@@ -3148,15 +3148,15 @@ Faili zingine kadhaa katika kiwango sawa na `blocks/`, `chainstate/`, na `indexe
 
 
 
-Kama tulivyoona katika sehemu za kwanza za kozi hii ya BTC 202, Bitcoin core ni programu ya nodi ya Bitcoin na Wallet. Walakini, sio suluhu ambayo ningependekeza kwa kudhibiti pochi zako, kwani Interface yake inabaki kuwa ya msingi na utendakazi wake ni mdogo ikilinganishwa na programu za kisasa kama vile Sparrow au Liana. Msingi pia ni pamoja na faili za kudhibiti pochi zako:
+Kama tulivyoona katika sehemu za kwanza za kozi hii ya BTC 202, Bitcoin core ni programu ya node ya Bitcoin na Wallet. Walakini, sio suluhu ambayo ningependekeza kwa kudhibiti wallet zako, kwani Interface yake inabaki kuwa ya msingi na utendakazi wake ni mdogo ikilinganishwa na programu za kisasa kama vile Sparrow au Liana. Msingi pia ni pamoja na faili za kudhibiti wallet zako:
 
 
 
 
 
-- `wallets/` ni saraka chaguo-msingi inayohifadhi pochi moja au zaidi;
-- `pochi/<jina>/Wallet.dat` ni hifadhidata ya SQLite ya Wallet (funguo, maelezo, metadata ya muamala, n.k.);
-- `wallets/<name>/wallet.dat-journal` ni jarida la kurudisha nyuma la SQLite.
+- `wallet/` ni saraka chaguo-msingi inayopangisha moja au zaidi;
+- `wallet/<jina>/Wallet.dat` ni hifadhidata ya SQLite ya Wallet (funguo, maelezo, metadata ya muamala, n.k.);
+- wallets/<name>/Wallet.dat-journal` ni kumbukumbu ya kurejesha nyuma ya SQLite.
 
 
 
@@ -3204,15 +3204,15 @@ Kwa muhtasari, hapa kuna muundo wa faili wa Bitcoin core:
 
 
 
-### Njia ya uthibitishaji ya kizuizi kipya
+### Njia ya uthibitishaji ya block mpya
 
 
 
-Baada ya kupokea kizuizi kipya, nodi yako hukagua Proof of Work na, kwa ujumla zaidi, kufuata sheria za makubaliano. Ikiwa kila kitu kiko sawa, itatumia muamala wa mabadiliko kwa muamala kwa seti yake ya UTXO: inakagua kwamba kila ingizo linatumia UTXO zilizopo na hati halali, kufuta UTXO hizi, na kuongeza njia mpya za kutoka. Ikiwa kila kitu ni halali, mabadiliko yanafanywa kwa `chainstate/`.
+Baada ya kupokea block mpya, node yako hukagua Proof of Work na, kwa ujumla zaidi, kufuata sheria za makubaliano. Ikiwa kila kitu kiko sawa, itatumia muamala wa mabadiliko kwa muamala kwa seti yake ya UTXO: inakagua kwamba kila ingizo linatumia UTXO zilizopo na hati halali, kufuta UTXO hizi, na kuongeza njia mpya za kutoka. Ikiwa kila kitu ni halali, mabadiliko yanafanywa kwa `chainstate/`.
 
 
 
-Sambamba, data ya kutendua imeandikwa kwa `rev*.dat` na metadata kwenye faharasa ya `blocks/index/`. Kizuizi kisha husasishwa hadi faili sahihi `blk*.dat`. Katika tukio la kupanga upya, nodi husoma `rev*.dat` kinyume chake ili kutenganisha vizuizi vilivyoachwa, kurejesha seti ya UTXO, na kisha kuunganisha vizuizi vya msururu mpya bora.
+Sambamba, data ya kutendua imeandikwa kwa `rev*.dat` na metadata kwenye faharasa ya `blocks/index/`. Block kisha husasishwa hadi faili sahihi `blk*.dat`. Katika tukio la kupanga upya, node husoma `rev*.dat` kinyume chake ili kutenganisha blocks zilivyoachwa, kurejesha seti ya UTXO, na kisha kuunganisha blocks za msururu mpya bora.
 
 
 
@@ -3225,11 +3225,11 @@ Sambamba, data ya kutendua imeandikwa kwa `rev*.dat` na metadata kwenye faharasa
 
 
 
-Faili ya `Bitcoin.conf` ndiyo faili kuu ya usanidi ya Interface ya Bitcoin core. Inakuruhusu kurekebisha tabia na vigezo vya nodi yako bila kulazimika kukusanya tena msimbo wake wa chanzo au kufanya marekebisho ya mstari wa amri. Kwa maneno madhubuti, ni faili ya maandishi wazi iliyopangwa katika jozi za thamani-msingi, ikimaanisha kuwa kila mstari wa faili unarejelea parameta maalum (ufunguo) na thamani yake inayohusika, ambayo inaweza kurekebishwa ili kurekebisha parameta hiyo.
+Faili ya `Bitcoin.conf` ndiyo faili kuu ya usanidi ya Interface ya Bitcoin core. Inakuruhusu kurekebisha tabia na vigezo vya node yako bila kulazimika kukusanya tena msimbo wake wa chanzo au kufanya marekebisho ya mstari wa amri. Kwa maneno madhubuti, ni faili ya maandishi wazi iliyopangwa katika jozi za thamani-msingi, ikimaanisha kuwa kila mstari wa faili unarejelea parameta maalum (ufunguo) na thamani yake inayohusika, ambayo inaweza kurekebishwa ili kurekebisha parameta hiyo.
 
 
 
-Mtandao, upeanaji wa muamala, utendakazi, uwekaji faharasa, ukataji miti, na vigezo vya ufikiaji vya RPC vinaweza kufafanuliwa katika `Bitcoin.conf`. Hata hivyo, faili hii ya usanidi haibadilishi kamwe sheria za makubaliano ya itifaki: inaweka tu sera ya eneo la nodi (kanuni za kutuma upya), jinsi inavyounganisha, kuorodhesha, na kufichua huduma.
+Mtandao, upeanaji wa muamala, utendakazi, uwekaji faharasa, ukataji miti, na vigezo vya ufikiaji vya RPC vinaweza kufafanuliwa katika `Bitcoin.conf`. Hata hivyo, faili hii ya usanidi haibadilishi kamwe sheria za makubaliano ya protocol: inaweka tu sera ya eneo la node (kanuni za kutuma upya), jinsi inavyounganisha, kuorodhesha, na kufichua huduma.
 
 
 
@@ -3251,7 +3251,7 @@ Vigezo vilivyofafanuliwa katika `Bitcoin.conf` vinaweza kubatilishwa na tabaka 2
 
 
 
-Kumbuka kuwa urekebishaji wowote kwenye `Bitcoin.conf` unahitaji kuanzisha upya nodi ili kutekelezwa.
+Kumbuka kuwa urekebishaji wowote kwenye `Bitcoin.conf` unahitaji kuanzisha upya node ili kutekelezwa.
 
 
 
@@ -3280,13 +3280,13 @@ Kama ilivyoelezwa hapo juu, sheria za maafikiano ni wazi haziwezi kusanidiwa kat
 
 
 
-- Vigezo vya ndani kabisa. Hizi huathiri tu nodi yako: saizi ya akiba (`dbcache`), modi ya pruned (`prune`), faharasa za hiari... Zinaathiri utendakazi wa mashine yako, lakini si mtandao.
-- Sera za Relay na Mempool. Hizi huamua ni nini nodi yako itakubali, kubaki na kutuma kabla ya uthibitishaji: kiwango cha chini cha ada (`minrelaytxfee`), ukubwa wa Mempool na muda wa kubaki (`maxmempool`, `mempoolexpiry`), uingizwaji wa muamala (RBF)... Sheria hizi si sehemu ya maafikiano na bado zinaweza kuwa na sera mbili tofauti. Kwa upande mwingine, vigezo hivi vitakuwa na ushawishi kwenye mtandao wa Bitcoin (kama ilivyoelezwa katika sehemu ya kwanza, haswa na nadharia ya utoboaji).
-- Muunganisho wa mtandao. Chaguo hizi huamua jinsi nodi yako inavyopata marafiki, kusikiliza, kupita NAT, kutumia Tor au proksi, au kuweka mipaka ya kipimo data. Zinaunda topolojia yako, lakini hazibadilishi utumaji wa miamala.
+- Vigezo vya ndani kabisa. Hizi huathiri tu node yako: saizi ya akiba (`dbcache`), modi ya pruned (`prune`), faharasa za hiari... Zinaathiri utendakazi wa mashine yako, lakini si mtandao.
+- Sera za Relay na Mempool. Hizi huamua ni nini node yako itakubali, kubaki na kutuma kabla ya uthibitishaji: kiwango cha chini cha ada (`minrelaytxfee`), ukubwa wa Mempool na muda wa kubaki (`maxmempool`, `mempoolexpiry`), uingizwaji wa muamala (RBF)... Sheria hizi si sehemu ya maafikiano na bado zinaweza kuwa na sera mbili tofauti. Kwa upande mwingine, vigezo hivi vitakuwa na ushawishi kwenye mtandao wa Bitcoin (kama ilivyoelezwa katika sehemu ya kwanza, haswa na nadharia ya utoboaji).
+- Muunganisho wa mtandao. Chaguo hizi huamua jinsi node yako inavyopata marafiki, kusikiliza, kupita NAT, kutumia Tor au proksi, au kuweka mipaka ya kipimo data. Zinaunda topolojia yako, lakini hazibadilishi utumaji wa miamala.
 
 
 
-Kuelewa utengano huu ni muhimu: ikiwa muamala hauzingatii sheria za makubaliano, nodi yako itaikataa kwa hali yoyote. Lakini sera kali zaidi ya eneo inaweza kukataa kuwasilisha muamala ambao ni halali kwa maana ya maafikiano.
+Kuelewa utengano huu ni muhimu: ikiwa muamala hauzingatii sheria za makubaliano, node yako itaikataa kwa hali yoyote. Lakini sera kali zaidi ya eneo inaweza kukataa kuwasilisha muamala ambao ni halali kwa maana ya maafikiano.
 
 
 
@@ -3294,12 +3294,12 @@ Kuelewa utengano huu ni muhimu: ikiwa muamala hauzingatii sheria za makubaliano,
 
 
 
-Kwanza kabisa, ni muhimu kutofautisha wazi kati ya aina 2 za unganisho nodi ya Bitcoin inaweza kuwa:
+Kwanza kabisa, ni muhimu kutofautisha wazi kati ya aina 2 za unganisho node ya Bitcoin inaweza kuwa:
 
 
 
 
-- Viunganisho vinavyotoka, ambavyo vinaanzishwa na nodi yetu kwa node nyingine;
+- Viunganisho vinavyotoka, ambavyo vinaanzishwa na node yetu kwa node nyingine;
 
 
 
@@ -3309,7 +3309,7 @@ Kwanza kabisa, ni muhimu kutofautisha wazi kati ya aina 2 za unganisho nodi ya B
 
 
 
-- Miunganisho inayoingia, iliyoanzishwa na nodi nyingine kwa yetu.
+- Miunganisho inayoingia, iliyoanzishwa na node nyingine kwa yetu.
 
 
 
@@ -3317,11 +3317,11 @@ Kwanza kabisa, ni muhimu kutofautisha wazi kati ya aina 2 za unganisho nodi ya B
 
 
 
-Aina hizi mbili za uunganisho zina uwezo kamili wa kubadilishana data sawa katika pande zote mbili; sio swali la kuzuia mwelekeo wa mtiririko, lakini ni tofauti tu katika mwanzilishi wa muunganisho. Kwa mtazamo wa nodi zetu, miunganisho inayotoka kwa ujumla inachukuliwa kuwa salama zaidi, kwa kuwa tunaianzisha na kuchagua kwa usahihi ni nodi gani ya kuunganishwa, na hivyo kusiwe na uwezekano kwamba muunganisho huo ni mbaya. Kwa chaguo-msingi, Bitcoin core hudumisha miunganisho 10 inayotoka (8 "*full-relay*" + 2 "*block-relay-pekee*").
+Aina hizi mbili za uunganisho zina uwezo kamili wa kubadilishana data sawa katika pande zote mbili; sio swali la kuzuia mwelekeo wa mtiririko, lakini ni tofauti tu katika mwanzilishi wa muunganisho. Kwa mtazamo wa node zetu, miunganisho inayotoka kwa ujumla inachukuliwa kuwa salama zaidi, kwa kuwa tunaianzisha na kuchagua kwa usahihi ni node gani ya kuunganishwa, na hivyo kusiwe na uwezekano kwamba muunganisho huo ni mbaya. Kwa chaguo-msingi, Bitcoin core hudumisha miunganisho 10 inayotoka (8 "*full-relay*" + 2 "*block-relay-pekee*").
 
 
 
-Full node huongeza thamani zaidi kwa mtandao kwa kukubali miunganisho inayoingia. Kigezo cha `sikiliza=1` huwezesha usikilizaji kwenye mlango chaguomsingi 8333 wa mtandao unaohusika, kuwezesha miunganisho hii inayoingia kupokelewa kwenye clearnet. Ili hii ifanye kazi, bandari hii lazima pia iwe wazi kwenye kipanga njia chako. Ikiwa sivyo, nodi yako itaendelea kufanya kazi na miunganisho inayotoka pekee, ambayo haitakuwa na athari kwenye matumizi yako ya kibinafsi ya Bitcoin. Chaguo la kuruhusu miunganisho inayoingia ni yako; hakuna "chaguo bora."
+Full node huongeza thamani zaidi kwa mtandao kwa kukubali miunganisho inayoingia. Kigezo cha `sikiliza=1` huwezesha usikilizaji kwenye mlango chaguomsingi 8333 wa mtandao unaohusika, kuwezesha miunganisho hii inayoingia kupokelewa kwenye clearnet. Ili hii ifanye kazi, bandari hii lazima pia iwe wazi kwenye kipanga njia chako. Ikiwa sivyo, node yako itaendelea kufanya kazi na miunganisho inayotoka pekee, ambayo haitakuwa na athari kwenye matumizi yako ya kibinafsi ya Bitcoin. Chaguo la kuruhusu miunganisho inayoingia ni yako; hakuna "chaguo bora."
 
 
 
@@ -3334,20 +3334,20 @@ Katika kiwango cha mtandao, pia tunayo:
 
 
 
-- `addnodi`: huongeza rafiki rafiki wa kuwasiliana naye pamoja na ugunduzi wa kawaida (unaweza kubainishwa mara kadhaa).
-- `connect`: inazuia kikamilifu miunganisho kwa anwani iliyotolewa (inaweza kubainishwa mara kadhaa). Core haitaunganishwa na nodi nyingine yoyote;
-- `seednodi`: hutumika tu kujaza kitabu-Address wakati wa kuunganisha kwenye nodi, kisha hutenganisha.
-- `maxconnections`: inafafanua dari ya kimataifa kwa miunganisho inayoingia + inayotoka. Kwa chaguo-msingi, kigezo hiki kimewekwa kuwa 125, kumaanisha kuwa nodi yako haitakubali miunganisho zaidi ya 125.
-- `maxuploadtarget` : hupunguza upakiaji ili kupunguza matumizi ya kipimo data ndani ya dirisha linalosogea la saa 24. Kiwango hiki hakizuia usambazaji wa vipengele muhimu vya hivi karibuni;
-- `onlynet`: inaweka mipaka miunganisho inayotoka kwa mitandao iliyochaguliwa pekee (`ipv4`, `ipv6`, `onion`, `i2p`, `cjdns`). Kwa mfano, ikiwa unataka nodi yako iunganishwe kwenye mtandao wa Bitcoin kupitia Tor pekee, unaweza kuwezesha kigezo cha `onlynet=onion` na kuzima miunganisho inayoingia (au ruhusu tu miunganisho kupitia Tor pia).
+- `addnode`: huongeza rafiki rafiki wa kuwasiliana naye pamoja na ugunduzi wa kawaida (unaweza kubainishwa mara kadhaa).
+- connect`: inazuia viunganisho kwa Address iliyotolewa (inaweza kutajwa mara kadhaa). Msingi hautaunganishwa na node nyingine yoyote.
+- `seednode`: hutumika tu kujaza kitabu-Address wakati wa kuunganisha kwenye node, kisha hutenganisha.
+- `maxconnections`: inafafanua dari ya kimataifa kwa miunganisho inayoingia + inayotoka. Kwa chaguo-msingi, kigezo hiki kimewekwa kuwa 125, kumaanisha kuwa node yako haitakubali miunganisho zaidi ya 125.
+- maxuploadtarget`: upakiaji wa caps ili kupunguza kipimo data kwenye dirisha la saa 24 la kuteleza. Kikomo hiki hakitoi uenezi wa Elements muhimu ya hivi karibuni.
+- `onlynet`: inaweka mipaka miunganisho inayotoka kwa mitandao iliyochaguliwa pekee (`ipv4`, `ipv6`, `onion`, `i2p`, `cjdns`). Kwa mfano, ikiwa unataka node yako iunganishwe kwenye mtandao wa Bitcoin kupitia Tor pekee, unaweza kuwezesha kigezo cha `onlynet=onion` na kuzima miunganisho inayoingia (au ruhusu tu miunganisho kupitia Tor pia).
 - `dnsseed`: inaruhusu au hairuhusu _Mbegu za DNS_ kuomba programu zingine wakati bwawa la Address la eneo lako liko chini (chaguo-msingi: `1`, isipokuwa `-connect` au `-maxconnections=0`).
-- `imelazimishwa`: hulazimisha _mbegu za DNS_ kuombwa wakati wa kuanza, hata kama tayari una anwani kwenye akiba (chaguo-msingi: `0`).
-- `mbegu zisizohamishika`: Ruhusu matumizi ya *seed nodi* (orodha ya Address yenye misimbo migumu) ikiwa _mbegu za DNS_ zitashindwa au zimezimwa (chaguo-msingi: `1`).
+- `imelazimishwa`: hulazimisha _mbegu za DNS_ kuombwa wakati wa kuanza, hata kama tayari una address kwenye akiba (chaguo-msingi: `0`).
+- `mbegu zisizohamishika`: Ruhusu matumizi ya *seed node* (orodha ya Address yenye misimbo migumu) ikiwa _mbegu za DNS_ zitashindwa au zimezimwa (chaguo-msingi: `1`).
 - `dns`: Inaidhinisha maazimio ya DNS kwa jumla (k.m., kwa `-addnode`/`-seednode`/`-connect`).
 
 
 
-Kwa chaguo-msingi, nodi yako huwasiliana kupitia clearnet, Tor, na I2P. Hii ina maana kwamba wenzao inaoungana nao kwenye clearnet wanaweza kuona IP yako ya umma Address, na ISP wako kuna uwezekano ataweza kugundua kuwa unaendesha nodi ya Bitcoin (ingawa P2P Transport V2 hufanya iwe vigumu zaidi kwa ISP kukusikiliza). Hili sio shida, lakini ikiwa unataka kuzuia uvujaji wowote wa habari hii, unaweza kuunganisha nodi yako kupitia mtandao wa Tor.
+Kwa chaguo-msingi, node yako huwasiliana kupitia clearnet, Tor, na I2P. Hii ina maana kwamba wenzao inaoungana nao kwenye clearnet wanaweza kuona IP yako ya umma Address, na ISP wako kuna uwezekano ataweza kugundua kuwa unaendesha node ya Bitcoin (ingawa P2P Transport V2 hufanya iwe vigumu zaidi kwa ISP kukusikiliza). Hili sio shida, lakini ikiwa unataka kuzuia uvujaji wowote wa habari hii, unaweza kuunganisha node yako kupitia mtandao wa Tor.
 
 
 
@@ -3368,11 +3368,11 @@ Ili kuwasha Tor kikamilifu, unahitaji kulazimisha Bitcoin core kutumia mtandao h
 
 
 
-Miunganisho yako yote ya P2P inapitia Tor. Nodi yako inapokea `.onion` Address kwa miunganisho inayoingia, kwa hivyo hakuna milango inayohitaji kufunguliwa kwenye kipanga njia. ISP wako huona trafiki ya Tor pekee, na wenzako hawajui IP yako halisi ya umma Address.
+Miunganisho yako yote ya P2P inapitia Tor. Node yako inapokea `.onion` Address kwa miunganisho inayoingia, kwa hivyo hakuna milango inayohitaji kufunguliwa kwenye kipanga njia. ISP wako huona trafiki ya Tor pekee, na wenzako hawajui IP yako halisi ya umma Address.
 
 
 
-Ili kuepuka azimio la DNS kwa uwazi, unaweza kuongeza `dnsseed=0` na `dns=0` kwenye usanidi wako. Kisha utahitaji kutoa rika la `.onion` wewe mwenyewe kupitia `seednode=` au `addnode=`, kwani ugunduzi wa nodi mpya itakuwa vigumu vinginevyo.
+Ili kuepuka azimio la DNS kwa uwazi, unaweza kuongeza `dnsseed=0` na `dns=0` kwenye usanidi wako. Kisha utahitaji kutoa rika la `.onion` wewe mwenyewe kupitia `seednode=` au `addnode=`, kwani ugunduzi wa node mpya itakuwa vigumu vinginevyo.
 
 
 
@@ -3394,7 +3394,7 @@ Hivi ndivyo vigezo vya msingi unavyoweza kurekebisha kwenye `Bitcoin.conf` yako 
 
 
 
-- `maxmempool=<n>`: Hupunguza ukubwa wa juu zaidi wa Mempool ya ndani hadi megabaiti `<n>` (chaguo-msingi: `300`). Kikomo kinapofikiwa, nodi yako huongeza kiwango cha ada kinachofaa na kuweka kipaumbele katika miamala yenye faida kidogo (kulingana na kiwango cha ada, si thamani kamili) ili kusalia chini ya kikomo. Unaweza kuacha mpangilio huu kama chaguomsingi. Kuiongeza kunaweza kuwa na manufaa ikiwa wewe ni Mining peke yako, au ukitaka kupata mwonekano sahihi zaidi wa msongamano wa Mempool na kuboresha makadirio ya ada. Kinyume chake, kupunguza itahifadhi RAM na, kwa kiasi kidogo, rasilimali nyingine za mfumo.
+- `maxmempool=<n>`: Hupunguza ukubwa wa juu zaidi wa Mempool ya ndani hadi megabaiti `<n>` (chaguo-msingi: `300`). Kikomo kinapofikiwa, node yako huongeza kiwango cha ada kinachofaa na kuweka kipaumbele katika miamala yenye faida kidogo (kulingana na kiwango cha ada, si thamani kamili) ili kusalia chini ya kikomo. Unaweza kuacha mpangilio huu kama chaguomsingi. Kuiongeza kunaweza kuwa na manufaa ikiwa wewe ni Mining peke yako, au ukitaka kupata mwonekano sahihi zaidi wa msongamano wa Mempool na kuboresha makadirio ya ada. Kinyume chake, kupunguza itahifadhi RAM na, kwa kiasi kidogo, rasilimali nyingine za mfumo.
 
 
 
@@ -3418,13 +3418,13 @@ Hivi ndivyo vigezo vya msingi unavyoweza kurekebisha kwenye `Bitcoin.conf` yako 
 
 
 
-- `blocksonly=1` : Huzima kukubali na kurudia utumaji wa miamala isiyothibitishwa inayopokelewa kutoka kwa wenzao (isipokuwa kwa ruhusa maalum). Nodi hupakua na kutangaza vitalu pekee. Miamala iliyoundwa ndani bado inaweza kutangazwa (kutumia nodi yako na programu ya pochi yako). Hii inapunguza sana matumizi ya kipimo data na mahitaji ya RAM, lakini hupunguza manufaa kwa kurudia na kutojua kabisa mempool.
+- `blocksonly=1`: Inalemaza kukubalika na uwasilishaji upya wa miamala ambayo haijathibitishwa iliyopokelewa kutoka kwa washirika (isipokuwa ruhusa maalum zimetolewa). Node sasa inapakia na kutangaza blocks pekee. Miamala iliyoundwa ndani bado inaweza kutangazwa (ili kutumia node yako na programu yako ya Wallet). Hii inapunguza sana mahitaji ya kipimo data na RAM, ingawa kwa gharama ya kupunguzwa kwa manufaa kwa relay na kutofahamu kabisa kwa Mempool.
 
 
 
 
 
-- `minrelaytxfee=<n>`: Kiwango cha chini cha ada (katika BTC/kvB) ambacho shughuli za malipo hazikubaliwi katika nodi ya Mempool na hazijatumwa kwa programu zingine (chaguo-msingi: `0.00001` = 1 sat/vB). Kadiri thamani hii inavyoongezeka, ndivyo nodi yako inavyochuja kwa ukali zaidi miamala ya bei ya chini.
+- `minrelaytxfee=<n>`: Kiwango cha chini cha ada (katika BTC/kvB) ambacho shughuli za malipo hazikubaliwi katika node ya Mempool na hazijatumwa kwa programu zingine (chaguo-msingi: `0.00001` = 1 sat/vB). Kadiri thamani hii inavyoongezeka, ndivyo node yako inavyochuja kwa ukali zaidi miamala ya bei ya chini.
 
 
 
@@ -3434,7 +3434,7 @@ Hivi ndivyo vigezo vya msingi unavyoweza kurekebisha kwenye `Bitcoin.conf` yako 
 
 
 
-Kama ukumbusho, RBF ni njia ya muamala inayomwezesha mtumaji kuchukua nafasi ya muamala na ule ambao una ada za juu zaidi ili kuharakisha uthibitishaji. Iwapo muamala ulio na ada ya chini sana utaendelea kuzuiwa, mtumaji anaweza kutumia *Replace-by-fee* kuongeza ada na kutanguliza muamala wao wa kubadilisha fedha katika mempools na wachimbaji.
+Kama ukumbusho, RBF ni njia ya muamala inayomwezesha mtumaji kuchukua nafasi ya muamala na ule ambao una ada za juu zaidi ili kuharakisha uthibitishaji. Iwapo muamala ulio na ada ya chini sana utaendelea kuzuiwa, mtumaji anaweza kutumia *Replace-by-fee* kuongeza ada na kutanguliza muamala wao wa kubadilisha fedha katika mempools na miners.
 
 
 
@@ -3454,7 +3454,7 @@ Hapa kuna mipangilio ya kina ya Mempool na sera ya relay. Ikiwa wewe ni mwanzili
 
 
 
-- `datacarriersize=<n>`: Upeo wa ukubwa (katika baiti) wa `OP_RETURN` ambayo nodi husambaza (chaguo-msingi: `83`). Kupunguza thamani hii huzuia mizigo inayosafirishwa kupitia `OP_RETURN`. Kumbuka kuwa kikomo hiki kitaondolewa kwa chaguo-msingi katika toleo la baadaye la Bitcoin core.
+- `datacarriersize=<n>`: Upeo wa ukubwa (katika baiti) wa `OP_RETURN` ambayo node husambaza (chaguo-msingi: `83`). Kupunguza thamani hii huzuia mizigo inayosafirishwa kupitia `OP_RETURN`. Kumbuka kuwa kikomo hiki kitaondolewa kwa chaguo-msingi katika toleo la baadaye la Bitcoin core.
 
 
 
@@ -3472,13 +3472,13 @@ Hapa kuna mipangilio ya kina ya Mempool na sera ya relay. Ikiwa wewe ni mwanzili
 
 
 
-- `whitelistrelay=1`: Hutoa ruhusa kiotomatiki kwa wenzao wanaoingia walioidhinishwa (chaguo-msingi: `1`). Mashirika haya yana shughuli zao zinazokubaliwa na relay hata kama nodi yako haiko katika hali ya jumla ya relay.
+- `whitelistrelay=1`: Hutoa ruhusa kiotomatiki kwa wenzao wanaoingia walioidhinishwa (chaguo-msingi: `1`). Mashirika haya yana shughuli zao zinazokubaliwa na relay hata kama node yako haiko katika hali ya jumla ya relay.
 
 
 
 
 
-- `whitelistforcerelay=1`: Huwapa ruhusa "*forcerelay*" kwa wenzao walioidhinishwa na ruhusa chaguomsingi (chaguo-msingi: `0`). Kisha nodi hutuma miamala yao hata ikiwa tayari iko katika Mempool, na hivyo kupita njia za kuzuia kutokuwepo tena.
+- `whitelistforcerelay=1`: Huwapa ruhusa "*forcerelay*" kwa wenzao walioidhinishwa na ruhusa chaguomsingi (chaguo-msingi: `0`). Kisha node hutuma miamala yao hata ikiwa tayari iko katika Mempool, na hivyo kupita njia za kuzuia kutokuwepo tena.
 
 
 
@@ -3502,19 +3502,19 @@ Hapa kuna mipangilio ya kina ya Mempool na sera ya relay. Ikiwa wewe ni mwanzili
 
 
 
-- `blockreconstructionextratxn=<n>`: Idadi ya ziada ya miamala iliyohifadhiwa kwenye kumbukumbu ili kujenga upya vizuizi vilivyoshikamana (chaguo-msingi: `100`). Inaboresha mafanikio ya ujenzi upya wakati wa maingiliano ya kompakt, kwa gharama ya kumbukumbu kidogo.
+- `blockreconstructionextratxn=<n>`: Idadi ya ziada ya miamala iliyohifadhiwa kwenye kumbukumbu ili kujenga upya blocks zilivyoshikamana (chaguo-msingi: `100`). Inaboresha mafanikio ya ujenzi upya wakati wa maingiliano ya kompakt, kwa gharama ya kumbukumbu kidogo.
 
 
 
-Kama ukumbusho, sheria hizi zote za relay hazina athari kwa uhalali wa miamala iliyojumuishwa kwenye kizuizi halali. Zinatumika kurekebisha mchango wako kwenye relay, kulinda rasilimali zako, na kufanya nodi yako kutabirika katika mazingira yenye vikwazo, lakini kamwe hazikuruhusu kukataa vizuizi vinavyoheshimu sheria za makubaliano.
+Kama ukumbusho, sheria hizi zote za relay hazina athari kwa uhalali wa miamala iliyojumuishwa kwenye block halali. Zinatumika kurekebisha mchango wako kwenye relay, kulinda rasilimali zako, na kufanya node yako kutabirika katika mazingira yenye vikwazo, lakini kamwe hazikuruhusu kukataa blocks zinavyoheshimu sheria za makubaliano.
 
 
 
-### Pochi
+### Wallet
 
 
 
-Unaweza pia kurekebisha jinsi pochi zako zinavyodhibitiwa katika faili ya `Bitcoin.conf`. Ikiwa hutumii Wallet moja kwa moja katika Core, lakini badala yake programu ya usimamizi wa nje kama vile Sparrow au Liana, vigezo hivi havitakuwa na umuhimu mdogo:
+Unaweza pia kurekebisha jinsi wallet zako zinavyodhibitiwa katika faili ya `Bitcoin.conf`. Ikiwa hutumii Wallet moja kwa moja katika Core, lakini badala yake programu ya usimamizi wa nje kama vile Sparrow au Liana, vigezo hivi havitakuwa na umuhimu mdogo:
 
 
 
@@ -3532,19 +3532,19 @@ Unaweza pia kurekebisha jinsi pochi zako zinavyodhibitiwa katika faili ya `Bitco
 
 
 
-- `Wallet=<njia>`: Hupakia Wallet iliyopo wakati wa kuanzishwa (inaweza kurudiwa ili kupakia pochi nyingi).
+- `Wallet=<njia>`: Hupakia Wallet iliyopo wakati wa kuanzishwa (inaweza kurudiwa ili kupakia wallet nyingi).
 
 
 
 
 
-- `walletdir=<dir>`: Saraka iliyo na pochi (chaguo-msingi: `<datadir>/pochi` ikiwa ipo, vinginevyo `<datadir>`). Hii inaweza kuwa muhimu ikiwa ungependa kuhifadhi pochi kwa sauti maalum au iliyosimbwa kwa njia fiche.
+- `walletdir=<dir>`: Saraka iliyo na wallet (chaguo-msingi: `<datadir>/wallet` ikiwa ipo, vinginevyo `<datadir>`). Hii inaweza kuwa muhimu ikiwa ungependa kuhifadhi wallet kwa sauti maalum au iliyosimbwa kwa njia fiche.
 
 
 
 
 
-- `walletbroadcast=1`: Hutangaza otomatiki miamala inayoundwa na pochi zilizopakiwa (chaguo-msingi: `1`). Weka kuwa `0` ikiwa ungependa kudhibiti utangazaji kupitia kituo kingine.
+- `walletbroadcast=1`: Hutangaza otomatiki miamala inayoundwa na wallet zilizopakiwa (chaguo-msingi: `1`). Weka kuwa `0` ikiwa ungependa kudhibiti utangazaji kupitia kituo kingine.
 
 
 
@@ -3556,7 +3556,7 @@ Unaweza pia kurekebisha jinsi pochi zako zinavyodhibitiwa katika faili ya `Bitco
 
 
 
-- `txconfirmtarget=<n>`: Lengwa la uthibitishaji la shughuli hiyo (kwa idadi ya vizuizi, chaguomsingi: `6`). Wallet itaweka ada moja kwa moja ili muamala uthibitishwe ndani ya idadi hii ya vizuizi.
+- `txconfirmtarget=<n>`: Lengwa la uthibitishaji la shughuli hiyo (kwa idadi ya blocks, chaguomsingi: `6`). Wallet itaweka ada moja kwa moja ili muamala uthibitishwe ndani ya idadi hii ya blocks.
 
 
 
@@ -3622,7 +3622,7 @@ Unaweza pia kurekebisha jinsi pochi zako zinavyodhibitiwa katika faili ya `Bitco
 
 
 
-- `disablewallet=1`: Huanzisha Bitcoin core bila mfumo mdogo wa Wallet na kuzima RPC zinazohusiana. Hupunguza eneo la mashambulizi na alama ya chini ikiwa nodi inatumika tu kwa uthibitishaji/kutolewa.
+- `disablewallet=1`: Huanzisha Bitcoin core bila mfumo mdogo wa Wallet na kuzima RPC zinazohusiana. Hupunguza eneo la mashambulizi na alama ya chini ikiwa node inatumika tu kwa uthibitishaji/kutolewa.
 
 
 
@@ -3642,7 +3642,7 @@ Faili ya usanidi pia hukuruhusu kurekebisha vigezo vinavyohusiana na mashine yak
 
 
 
-- `blocksdir=<dir>`: Hutenganisha eneo la faili zinazozuia (`blocks/blk*.dat` na `blocks/rev*.dat`) kutoka `datadir`. Hii inaweza kuwa muhimu kwa kuweka kumbukumbu za vizuizi kwenye sauti tofauti, huku ukiweka msingi wa serikali (`chainstate/`) kwenye mfumo wa kasi zaidi, kwa mfano.
+- `blocksdir=<dir>`: Hutenganisha eneo la faili zinazozuia (`blocks/blk*.dat` na `blocks/rev*.dat`) kutoka `datadir`. Hii inaweza kuwa muhimu kwa kuweka kumbukumbu za blocks kwenye sauti tofauti, huku ukiweka msingi wa serikali (`chainstate/`) kwenye mfumo wa kasi zaidi, kwa mfano.
 
 
 
@@ -3654,7 +3654,7 @@ Faili ya usanidi pia hukuruhusu kurekebisha vigezo vinavyohusiana na mashine yak
 
 
 
-- `prune=<n>`: Huwasha upogoaji wa faili za kuzuia na kuweka lengo la nafasi ya diski katika MiB (chaguo-msingi: `0` = imezimwa; `1` = kupogoa mwenyewe kupitia RPC; `>=550` = kupogoa kiotomatiki chini ya lengo). Haioani na `txindex=1`. Nodi inasalia kuwa nodi inayothibitisha kikamilifu, lakini haiwezi tena kutoa historia ya zamani. Chaguo hili ni muhimu sana ikiwa nafasi yako ya diski ni mdogo, kwa mfano, wakati wa kufunga node kwenye kompyuta yako ya nyumbani.
+- `prune=<n>`: Huwasha upogoaji wa faili za kuzuia na kuweka lengo la nafasi ya diski katika MiB (chaguo-msingi: `0` = imezimwa; `1` = kupogoa mwenyewe kupitia RPC; `>=550` = kupogoa kiotomatiki chini ya lengo). Haioani na `txindex=1`. Node inasalia kuwa node inayothibitisha kikamilifu, lakini haiwezi tena kutoa historia ya zamani. Chaguo hili ni muhimu sana ikiwa nafasi yako ya diski ni mdogo, kwa mfano, wakati wa kufunga node kwenye kompyuta yako ya nyumbani.
 
 
 
@@ -3666,7 +3666,7 @@ Faili ya usanidi pia hukuruhusu kurekebisha vigezo vinavyohusiana na mashine yak
 
 
 
-- `assumevalid=<hex>`: Inaonyesha kizuizi ambacho kinadhaniwa kuwa halali, huku kuruhusu kuruka ukaguzi wa hati kwa mababu zake (weka `0` ili kuangalia kila kitu). Tazama sura iliyotangulia kwa habari zaidi.
+- `assumevalid=<hex>`: Inaonyesha block ambayo kinadhaniwa kuwa halali, huku kuruhusu kuruka ukaguzi wa hati kwa mababu zake (weka `0` ili kuangalia kila kitu). Tazama sura iliyotangulia kwa habari zaidi.
 
 
 
@@ -3696,7 +3696,7 @@ Faili ya usanidi pia hukuruhusu kurekebisha vigezo vinavyohusiana na mashine yak
 
 
 
-- `loadblock=<file>`: Huingiza vizuizi wakati wa kuanza kutoka kwa faili ya `blk*.dat` ya nje. Inatumika kupakia mapema historia kutoka chanzo cha nje ya mtandao (nakala ya ndani, midia ya nje) ili kuharakisha uanzishaji.
+- `loadblock=<file>`: Huingiza blocks wakati wa kuanza kutoka kwa faili ya `blk*.dat` ya nje. Inatumika kupakia mapema historia kutoka chanzo cha nje ya mtandao (nakala ya ndani, midia ya nje) ili kuharakisha uanzishaji.
 
 
 
@@ -3728,19 +3728,19 @@ Faili ya usanidi pia hukuruhusu kurekebisha vigezo vinavyohusiana na mashine yak
 
 
 
-Hatimaye, faili ya `Bitcoin.conf` pia hukuruhusu kusanidi vigezo vya ufikiaji vya nodi yako. Kuwa mwangalifu na mipangilio hii, haswa ikiwa ndio kwanza unaanza: epuka kuibadilisha bila ufahamu wa kina wa athari, kwani hii inaweza kuanzisha udhaifu.
+Hatimaye, faili ya `Bitcoin.conf` pia hukuruhusu kusanidi vigezo vya ufikiaji vya node yako. Kuwa mwangalifu na mipangilio hii, haswa ikiwa ndio kwanza unaanza: epuka kuibadilisha bila ufahamu wa kina wa athari, kwani hii inaweza kuanzisha udhaifu.
 
 
 
 
 
-- `seva=1`: Huwasha seva ya JSON-RPC. Ni muhimu ikiwa unaendesha `bitcoind` kupitia `bitcoin-cli` au programu ya mtu mwingine. Zima (`0`) kwenye nodi ya uthibitishaji ambayo haifichui API yoyote, au tayari inatumia seva ya Electrum.
+- `server=1`: Huwasha server ya JSON-RPC. Ni muhimu ikiwa unaendesha `bitcoind` kupitia `bitcoin-cli` au programu ya mtu mwingine. Zima (`0`) kwenye node ya uthibitishaji ambayo haifichui API yoyote, au tayari inatumia server ya Electrum.
 
 
 
 
 
-- `rpcbind=<addr>[:port]`: seva ya RPC inasikiliza Address/port. Kwa chaguomsingi, usikilizaji unafanywa ndani ya nchi pekee (`127.0.0.1` na `::1`). Kigezo hiki kitapuuzwa ikiwa `rpcallowip` pia haijafafanuliwa. Itumie kuzuia Interface kwa uwazi.
+- `rpcbind=<addr>[:port]`: server ya RPC inasikiliza Address/port. Kwa chaguomsingi, usikilizaji unafanywa ndani ya nchi pekee (`127.0.0.1` na `::1`). Kigezo hiki kitapuuzwa ikiwa `rpcallowip` pia haijafafanuliwa. Itumie kuzuia Interface kwa uwazi.
 
 
 
@@ -3842,7 +3842,7 @@ Hatimaye, faili ya `Bitcoin.conf` pia hukuruhusu kusanidi vigezo vya ufikiaji vy
 
 
 
-- `blocknotify=<cmd>`: Hutekeleza amri kwa kila kizuizi kipya.
+- `blocknotify=<cmd>`: Hutekeleza amri kwa kila block mpya.
 
 
 
@@ -3854,7 +3854,7 @@ Hatimaye, faili ya `Bitcoin.conf` pia hukuruhusu kusanidi vigezo vya ufikiaji vy
 
 
 
-- `logi=1`: Anwani za IP za kumbukumbu.
+- `logi=1`: Address za IP za kumbukumbu.
 
 
 
@@ -3882,11 +3882,11 @@ Hatimaye, faili ya `Bitcoin.conf` pia hukuruhusu kusanidi vigezo vya ufikiaji vy
 
 
 
-Sasa tumemaliza kuorodhesha vigezo vingi vya usanidi. Faili hii ya `Bitcoin.conf` kwa hivyo inajumuisha dashibodi halisi ya nodi yako: inafafanua usanidi wa mtandao, usimamizi wa Mempool, utumiaji wa diski na kumbukumbu, kuorodhesha, na usimamizi wa jumla. Iwapo ungependa kupata maelezo zaidi kuhusu faili hii na kuunda moja iliyoundwa kulingana na mahitaji yako, ninapendekeza utumie [jenereta ya Jameson Lopp](https://jlopp.github.io/Bitcoin-core-config-generator/).
+Sasa tumemaliza kuorodhesha vigezo vingi vya usanidi. Faili hii ya `Bitcoin.conf` kwa hivyo inajumuisha dashibodi halisi ya node yako: inafafanua usanidi wa mtandao, usimamizi wa Mempool, utumiaji wa diski na kumbukumbu, kuorodhesha, na usimamizi wa jumla. Iwapo ungependa kupata maelezo zaidi kuhusu faili hii na kuunda moja iliyoundwa kulingana na mahitaji yako, ninapendekeza utumie [jenereta ya Jameson Lopp](https://jlopp.github.io/Bitcoin-core-config-generator/).
 
 
 
-Tumefikia hitimisho la kozi hii ya BTC 202, ambayo itakuwa imekuwezesha sio tu kuelewa misingi ya jinsi nodi zinavyofanya kazi na jinsi zinavyoingiliana ndani ya mfumo, lakini pia kusanidi yako mwenyewe. Sasa wewe ni Bitcoiner huru, na ulinzi wako binafsi Wallet, kutangaza shughuli yako kupitia nodi yako mwenyewe. Hongera!
+Tumefikia hitimisho la kozi hii ya BTC 202, ambayo itakuwa imekuwezesha sio tu kuelewa misingi ya jinsi node zinavyofanya kazi na jinsi zinavyoingiliana ndani ya mfumo, lakini pia kusanidi yako mwenyewe. Sasa wewe ni Bitcoiner huru, na ulinzi wako binafsi Wallet, kutangaza shughuli yako kupitia node yako mwenyewe. Hongera!
 
 
 
@@ -3894,7 +3894,7 @@ Sasa unaweza kuendelea hadi sehemu ya mwisho ya kozi, ambapo utaweza kutathmini 
 
 
 
-Sasa una chaguo kadhaa ambazo zimefunguliwa kwako. Hatua inayofuata ya kimantiki ni kusanidi nodi yako ya Umeme, kukuruhusu kujitegemea kikamilifu kwa shughuli zako za off-chain. Hili litakuwa somo la kozi ijayo, itakayochapishwa msimu huu wa vuli 2025 kwenye Plan ₿ Academy.
+Sasa una chaguo kadhaa ambazo zimefunguliwa kwako. Hatua inayofuata ya kimantiki ni kusanidi Lightning node yako, kukuruhusu kujitegemea kikamilifu kwa shughuli zako za off-chain. Hili litakuwa somo la kozi ijayo, itakayochapishwa msimu huu wa vuli 2025 kwenye Plan ₿ Network.
 
 
 

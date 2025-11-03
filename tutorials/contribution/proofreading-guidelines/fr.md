@@ -131,14 +131,14 @@ Dans le résultat final (image ci-dessous), vous ne visualiserez pas le lien ent
 
 
 
-Veuillez noter que le lien vers le glossaire que vous obtiendrez sur le site web contient le code de langue après le mot "network" (exemple : `https://planb.academy/en/resources/glossary/utxo`-> ici vous pouvez lire le code de langue "en"). Dans ce cas, **supprimez le code de langue du lien**, comme vous l'avez vu dans l'encadré ci-dessus. De cette façon, le système amènera automatiquement le lecteur à la langue qu'il a choisie.
+Veuillez noter que le lien vers le glossaire que vous obtiendrez sur le site web contient le code de langue après le mot "academy" (exemple : `https://planb.academy/en/resources/glossary/utxo`-> ici vous pouvez lire le code de langue "en"). Dans ce cas, **supprimez le code de langue du lien**, comme vous l'avez vu dans l'encadré ci-dessus. De cette façon, le système amènera automatiquement le lecteur à la langue qu'il a choisie.
 
 
-Le contenu du dépôt est rempli@ d'hyperliens comme ceux présentés ci-dessus. Maintenant que vous savez ce qu'ils signifient, **veillez à ne pas supprimer les liens** insérés par l'auteur original.
+Le contenu du dépôt est rempli d'hyperliens comme ceux présentés ci-dessus. Maintenant que vous savez ce qu'ils signifient, **veillez à ne pas supprimer les liens** insérés par l'auteur original.
 
 
 
-- Une autre chose liée à la restitution des mots est la suivante. Si vous trouvez "Plan ₿ Academy" dans le texte, **laissez-le dans sa forme originale**. Ne traduisez pas le mot "plan" ou le mot "academy ". En outre, n'utilisez PAS l'article "LE" lorsque vous présentez Plan ₿ Academy : **considérez-le comme une marque**.
+- Une autre chose liée à la restitution des mots est la suivante. Si vous trouvez "Plan ₿ Academy" dans le texte, **laissez-le dans sa forme originale**. Ne traduisez pas le mot "plan" ou le mot "academy ". En outre, n'utilisez PAS l'article "Le" lorsque vous présentez Plan ₿ Academy : **considérez-le comme une marque**.
 
 
 

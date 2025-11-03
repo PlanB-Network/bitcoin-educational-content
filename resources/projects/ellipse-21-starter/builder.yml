@@ -1,0 +1,21 @@
+name: Starter Ellipse-21
+
+address_line_1:
+address_line_2:
+address_line_3: 
+
+language:
+  - fr
+
+links:
+  website: https://starter.ellipse-21.co
+  twitter: https://x.com/ellipse_21
+  Github:
+  youtube:
+  nostr: npub1ut9tezuseycpu0q2zvsmzd5jw7vznp08ju9c20mkgyqntrlfqe3sp0pqyx
+
+tags:
+  - bitcoin
+  - débutants
+
+category: communities

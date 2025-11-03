@@ -1,18 +1,17 @@
 ---
 name: Robosats
-
 description: Come utilizzare Robosats
 ---
 
 ![cover](assets/cover.webp)
 
-RoboSats (https://learn.robosats.com/) è un modo semplice per scambiare Bitcoin in modo privato con valute nazionali. Semplifica l'esperienza peer-to-peer e utilizza fatture lightning hold per ridurre al minimo i requisiti di custodia e fiducia.
+RoboSats (https://learn.robosats.com/) è un modo semplice per scambiare Bitcoin in modo privato con valute nazionali. Semplifica l'esperienza peer-to-peer e utilizza invoice lightning hold per ridurre al minimo i requisiti di custodia e fiducia.
 
 ![video](https://youtu.be/XW_wzRz_BDI)
 
 ## Guida
 
-> Questa guida è di Bitcoin Q&A (https://bitcoiner.guide/robosats/). Tutto il merito va a lui, supportalo lì (https://bitcoiner.guide/contribute); BitcoinQ&A è anche un mentore di Bitcoin. Contattalo per il mentoring!
+Questa guida è di Bitcoin Q&A (https://bitcoiner.guide/robosats/). Tutto il merito va a lui, supportalo lì (https://bitcoiner.guide/contribute); BitcoinQ&A è anche un mentore di Bitcoin. Contattalo per il mentoring!
 
 ![image](assets/0.webp)
 
@@ -28,17 +27,17 @@ RoboSats - Uno scambio P2P semplice e privato basato su Lightning
 | Token        | Una stringa di caratteri casuali utilizzata per generare il tuo robot unico.                                                                                                                                                                      |
 | Maker        | Un utente che crea un'offerta per comprare o vendere Bitcoin.                                                                                                                                                                                     |
 | Taker        | Un utente che accetta l'offerta di un altro utente per comprare o vendere Bitcoin.                                                                                                                                                                |
-| Bond         | Una quantità di Bitcoin bloccata da entrambi i partecipanti come garanzia per giocare correttamente e completare la propria parte dello scambio. I bond sono di solito il 3% dell'importo totale dello scambio e sono supportati da fatture Hodl. |
-| Trade Escrow | Utilizzato dal venditore come metodo per trattenere l'importo dello scambio di Bitcoin, utilizzando nuovamente fatture Hodl.                                                                                                                      |
+| Bond         | Una quantità di Bitcoin bloccata da entrambi i partecipanti come garanzia per agire correttamente e completare la propria parte dello scambio. I bond sono di solito il 3% dell'importo totale dello scambio e sono supportati da invoice Hodl. |
+| Trade Escrow | Utilizzato dal venditore come metodo per trattenere l'importo dello scambio di Bitcoin, utilizzando nuovamente invoice Hodl.                                                                                                                      |
 | Commissioni  | RoboSats addebita lo 0,2% dell'importo dello scambio, che viene diviso tra il maker e il taker. Il taker paga lo 0,175% e il maker paga lo 0,025%.                                                                                                |
 
 ## Cose che devi avere
 
-### Un portafoglio Lightning
+### Un wallet Lightning
 
-RoboSats è nativo di Lightning, quindi avrai bisogno di un portafoglio Lightning per finanziare il bond e ricevere i sats acquistati come acquirente. Fai attenzione nella scelta del portafoglio, perché non tutti sono compatibili con la tecnologia utilizzata da RoboSats.
+RoboSats è nativo di Lightning, quindi avrai bisogno di un wallet Lightning per finanziare il bond e ricevere i sats acquistati come acquirente. Fai attenzione nella scelta del wallet, perché non tutti sono compatibili con la tecnologia utilizzata da RoboSats.
 
-Se gestisci un nodo, Zeus è la scelta migliore. Se invece non hai un tuo nodo, ti consiglio vivamente Phoenix, un portafoglio mobile multipiattaforma con configurazione semplice e accesso a Lightning. Phoenix è stato utilizzato per la realizzazione di questa guida.
+Se gestisci un nodo, Zeus è la scelta migliore. Se invece non hai un tuo nodo, ti consiglio vivamente Phoenix, un wallet mobile multipiattaforma con configurazione semplice e accesso a Lightning. Phoenix è stato utilizzato per la realizzazione di questa guida.
 
 ### Un po' di Bitcoin
 
@@ -76,7 +75,7 @@ Incontra la tua nuova identità di Robot, poi clicca su Continua.
 
 ![image](assets/4.webp)
 
-Clicca su Offerte per sfogliare il libro degli ordini. In cima alla pagina puoi filtrare le tue preferenze. Prendi nota delle percentuali di garanzia e del premio rispetto al tasso di cambio medio.
+Clicca su Offerte per sfogliare il libro degli ordini. In cima alla pagina puoi filtrare le tue preferenze. Prendi nota delle percentuali di bond e del premio rispetto al tasso di cambio medio.
 
 - Scegli Acquista
 - Scegli la tua valuta
@@ -86,35 +85,35 @@ Clicca su Offerte per sfogliare il libro degli ordini. In cima alla pagina puoi 
 
 > Clicca sull'offerta che vuoi accettare. Inserisci l'importo (nella valuta fiat scelta) che vuoi acquistare dal venditore, controlla i dettagli e clicca su Prendi Ordine.
 
-Se il venditore non è online (indicatore rosso sull’immagine del profilo), vedrai un avviso che la transazione potrebbe richiedere più tempo. Se procedi e il venditore non conferma in tempo, riceverai un rimborso del 50% dell'importo del bond per il tempo perso.
+Se il venditore non è online (indicatore rosso sull’immagine del profilo), vedrai un avviso che ti informa del fatto che la transazione potrebbe richiedere più tempo. Se procedi e il venditore non conferma in tempo, riceverai un rimborso del 50% dell'importo del bond per il tempo perso.
 
 ![image](assets/6.webp)
 
-Ora devi bloccare la tua garanzia pagando la fattura sullo schermo. È una fattura di blocco che rimane congelata nel tuo portafoglio e viene addebitata solo se non completi la tua parte della transazione.
+Ora devi bloccare la tua bond pagando la invoice sullo schermo. È una invoice di blocco che rimane congelata nel tuo wallet e viene addebitata solo se non completi la tua parte della transazione.
 
 ![image](assets/7.webp)
 
-Nel tuo portafoglio Lightning scannerizza il codice QR e paga la fattura.
+Nel tuo wallet Lightning scannerizza il codice QR e paga la invoice.
 
 ![image](assets/8.webp)
 
-Poi, nel tuo portafoglio Lightning genera una fattura per l'importo mostrato e incollala nello spazio indicato.
+Poi, nel tuo wallet Lightning genera una invoice per l'importo mostrato e incollala nello spazio indicato.
 
 ![image](assets/9.webp)
 
-Attendi che il venditore blocchi l'importo della sua transazione. Quando lo fa, RoboSats passa al passaggio successivo e si apre la finestra di chat. Saluta e chiedi al venditore i dati per il pagamento in valuta fiat. Una volta inviato il pagamento con il metodo scelto, confermalo in RoboSats. La chat è crittografata con PGP, quindi solo tu e il tuo partner di transazione potete leggerla.
+Attendi che il venditore blocchi l'importo della sua transazione. Quando lo fa, RoboSats va al passaggio successivo e si apre la finestra di chat. Saluta e chiedi al venditore i dati per il pagamento in valuta fiat. Una volta inviato il pagamento con il metodo scelto, confermalo in RoboSats. La chat è crittografata con PGP, quindi solo tu e il tuo partner di transazione potete leggerla.
 
 ![image](assets/10.webp)
 
-Quando il venditore conferma di aver ricevuto il pagamento, RoboSats rilascia automaticamente i tuoi sats tramite la fattura che hai fornito.
+Quando il venditore conferma di aver ricevuto il pagamento, RoboSats rilascia automaticamente i tuoi sats tramite la invoice che hai fornito.
 
 ![image](assets/11.webp)
 
-Quando la fattura è saldata, la transazione è completata e il bond viene sbloccato. Vedrai un riepilogo della transazione.
+Quando la invoice è saldata, la transazione è completata e il bond viene sbloccato. Vedrai un riepilogo della transazione.
 
 ![image](assets/12.webp)
 
-Controlla il tuo portafoglio Lightning per verificare che i sats siano arrivati.
+Controlla il tuo wallet Lightning per verificare che i sats siano arrivati.
 
 ![image](assets/13.webp)
 
@@ -138,7 +137,7 @@ Oltre ad accettare l’offerta di un altro utente, puoi crearne una tua e aspett
 - Inserisci il metodo di pagamento che sei disposto a usare.
 - Inserisci la percentuale di "Premium sul mercato" che sei disposto ad accettare (può essere anche negativa per offrire uno sconto rispetto al prezzo attuale).
 - Clicca su Crea ordine.
-- Paga la fattura Lightning per bloccare il tuo Maker Bond.
+- Paga la invoice Lightning per bloccare il tuo Maker Bond.
 - Il tuo ordine è ora attivo. Aspetta che qualcuno lo accetti.
 
 ![image](assets/15.webp)
@@ -170,7 +169,7 @@ Se usi Umbrel, Citadel o Start9 puoi installare il tuo client RoboSats direttame
 
 - Caricamento molto più veloce.
 - Maggiore sicurezza: scegli tu quale app client eseguire.
-- Accesso sicuro a RoboSats da qualsiasi browser o dispositivo. Non serve Tor se sei nella rete locale o usi una VPN: il tuo nodo gestisce la torificazione.
+- Accesso sicuro a RoboSats da qualsiasi browser o dispositivo. Non serve Tor se sei nella rete locale o usi una VPN: il tuo nodo gestisce l'anonimità con Tor.
 - Puoi scegliere a quale coordinatore P2P connetterti (di default: robosats6tkf3eva7x2voqso3a5wcorsnw34jveyxfqi2fu7oyheasid.onion).
 
 ![image](assets/18.webp)
@@ -196,7 +195,7 @@ Sì, non ci sono restrizioni. Se non vedi offerte con il metodo che vuoi, creane
 Se lo usi tramite Tor o l’app Android, nulla.  
 Tor protegge la tua connessione, PGP protegge la chat, e ogni Robot è monouso.  
 
-Eccezione: Lightning non è del tutto privato lato ricezione. Se ricevi sul tuo nodo Lightning, il tuo ID nodo appare nelle fatture e può essere collegato alla tua attività on-chain. Lo stesso vale se scegli di ricevere on-chain.
+Eccezione: Lightning non è del tutto privato lato ricezione. Se ricevi sul tuo nodo Lightning, il tuo ID nodo appare nelle invoice e può essere collegato alla tua attività on-chain. Lo stesso vale se scegli di ricevere on-chain.
 
 Per ridurre i rischi puoi usare un Proxy Wallet per Lightning o Coinjoin per on-chain.
 

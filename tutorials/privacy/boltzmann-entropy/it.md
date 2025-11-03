@@ -152,12 +152,15 @@ ED = 23.244 / 16 = 1.453 bits
 Il quinto elemento fornito dal Boltzmann Calculator è la tabella delle probabilità di corrispondenza tra gli input e gli output. Questa tabella indica, attraverso un punteggio, la probabilità condizionale che uno specifico input sia correlato ad un dato output.
 Si tratta quindi di una misura quantitativa della possibilità che un'associazione tra un input e un output in una transazione si verifichi, basata sul rapporto tra il numero di casi favorevoli di questo evento e il numero totale di casi possibili, in un insieme di interpretazioni.
 
-Prendendo nuovamente come esempio un coinjoin Whirlpool, la tabella delle probabilità condizionali evidenzia le possibili associazioni tra ciascun input e ciascun output, fornendo una misura quantitativa dell’ambiguità nelle associazioni all’interno della transazione.
+Prendendo nuovamente come esempio un coinjoin Whirlpool, la tabella delle probabilità condizionali evidenzia le possibili associazioni tra ciascun input e ciascun output, fornendo una misura quantitativa dell’ambiguità nelle associazioni all’interno della transazione:
 
 | %       | Output 0 | Output 1 | Output 2 | Output 3 | Output 4 |
 | ------- | -------- | -------- | -------- | -------- | -------- |
 | Input 0 | 34%      | 34%      | 34%      | 34%      | 34%      |
 | Input 1 | 34%      | 34%      | 34%      | 34%      | 34%      |
+| Input 2 | 34%      | 34%      | 34%      | 34%      | 34%      |
+| Input 3 | 34%      | 34%      | 34%      | 34%      | 34%      |
+| Input 4 | 34%      | 34%      | 34%      | 34%      | 34%      |
 
 
 Qui, possiamo chiaramente notare che ogni input ha la stessa probabilità di essere associato a qualsiasi output, il che aumenta la privacy della transazione.
@@ -190,7 +193,7 @@ Tuttavia, nel caso di una semplice transazione con un singolo input e due output
 | Input 0 | 100%     | 100%     |
 
 
-Qui, si osserva che la probabilità che ciascun output provenga dall'input n. 0 è del `100%`. Una probabilità inferiore si traduce quindi in una maggiore privacy, rendendo meno evidenti i collegamenti diretti tra input e output.
+Qui, si osserva che la probabilità che ciascun output provenga dall'input n. 0 è del `100%`. Una probabilità inferiore si traduce quindi in maggiore privacy, rendendo meno evidenti i collegamenti diretti tra input e output.
 
 ### Collegamenti Deterministici:
 La sesta informazione fornita è il numero di collegamenti deterministici, accompagnato dal relativo rapporto.

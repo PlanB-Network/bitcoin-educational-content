@@ -1,25 +1,25 @@
 ---
-name: Boltzmann Calculator
-description: Comprendere il concetto di entropia utilizzando il Boltzmann Calculator.
+nome: Boltzmann Calculator
+descrizione: Comprendere il concetto di entropia utilizzando il Boltzmann Calculator.
 ---
 ![cover](assets/cover.webp)
 
-**ATTENZIONE:** In seguito all'arresto dei fondatori di Samourai Wallet e al sequestro dei relativi server, avvenuto il 24 aprile 2024, il sito web KYCP.org non è attualmente accessibile. Anche il repository GitLab che ospitava il codice del Boltzmann Calculator in Python è stato sequestrato. Al momento, non è più possibile scaricare lo strumento. Tuttavia, è probabile che il codice venga ripubblicato da altri prossimamente.
+**ATTENZIONE:** In seguito all'arresto dei fondatori di Samourai Wallet e al sequestro dei relativi server avvenuto il 24 aprile 2024, il sito web KYCP.org non è attualmente accessibile. Anche il repository GitLab che ospitava il codice del Boltzmann Calculator in Python è stato sequestrato. Al momento, non è più possibile scaricare lo strumento. Tuttavia, è probabile che il codice venga ripubblicato da altri prossimamente.
 Nel frattempo, puoi comunque trarre beneficio da questo tutorial per comprendere il funzionamento del Boltzmann Calculator. Gli indicatori forniti dallo strumento sono applicabili a qualsiasi transazione Bitcoin e possono anche essere calcolati manualmente. Tutti i passaggi necessari sono illustrati in questo tutorial. Se hai già scaricato lo strumento Python sul tuo computer, o se utilizzi un nodo RoninDojo, puoi continuare a usarlo normalmente seguendo le istruzioni contenute qui.
 
-_Stiamo seguendo da vicino l'evoluzione di questo caso così come gli sviluppi relativi agli strumenti associati. Siate certi che aggiorneremo questo tutorial non appena saranno disponibili nuove informazioni._
+_Stiamo seguendo da vicino l'evoluzione di questo caso così come gli sviluppi relativi agli strumenti associati. Aggiorneremo questo tutorial non appena saranno disponibili nuove informazioni._
 
 _Questo materiale è fornito esclusivamente a scopo educativo e informativo. Non approviamo né incoraggiamo l’uso di questi strumenti per finalità illecite. È responsabilità di ciascun utente rispettare le leggi vigenti nella propria giurisdizione._
 
 ---
 
-Il **Boltzmann Calculator** è uno strumento pensato per analizzare una transazione Bitcoin, misurandone il livello di **entropia** e altre metriche avanzate.  
+Il **Boltzmann Calculator** è uno strumento per analizzare una transazione Bitcoin, misurandone il livello di **entropia** e altre metriche avanzate.  
 Fornisce una panoramica dettagliata delle connessioni tra input e output, offrendo una valutazione quantitativa del livello di **privacy** della transazione ed evidenziando eventuali errori di struttura.
 
-Sviluppato dal team di Samourai Wallet e OXT, questo strumento Python può essere utilizzato per analizzare qualsiasi transazione Bitcoin, indipendentemente dal wallet utilizzato.
+Questo strumento è stato sviluppato dai team di Samourai Wallet e OXT, ma può essere utilizzato su qualsiasi transazione Bitcoin, indipendentemente dal wallet utilizzato.
 
 ## Come utilizzare il Boltzmann Calculator?
-Per utilizzare il Boltzmann Calculator sono disponibili due opzioni. La prima consiste nell’installarlo direttamente sul proprio dispositivo locale. In alternativa, è possibile utilizzare il sito web KYCP.org (_Know Your Coin Privacy_), che offre una piattaforma di utilizzo semplificata. Per gli utenti di RoninDojo, questo strumento è già integrato nel nodo.
+Per utilizzare il Boltzmann Calculator sono disponibili due opzioni. La prima consiste nell’installarlo direttamente sul proprio PC. In alternativa, è possibile utilizzare il sito web KYCP.org (_Know Your Coin Privacy_), che offre una piattaforma di utilizzo semplificata. Per gli utenti di RoninDojo, questo strumento è già integrato nel nodo.
 
 Utilizzare il sito KYCP.org è piuttosto semplice: basta inserire l’identificativo della transazione (TXID) che si desidera analizzare nella barra di ricerca e premere `INVIO`.
 ![KYCP](assets/1.webp)

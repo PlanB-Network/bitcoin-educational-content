@@ -1,9 +1,9 @@
-question: Welke database houdt een Bitcoin knooppunt lokaal bij om ongebruikte uitvoer bij te houden?
+question: Welke database houdt een Bitcoin node lokaal bij om ongebruikte output bij te houden?
 answer: De UTXO set
 wrong_answers:
   - De Mempool
   - De Blockchain
-  - De Wallet geschiedenis
+  - De wallet geschiedenis
 explanation: |
-  Het knooppunt bewaart de UTXO set, de set van niet uitgegeven outputs die beschikbaar zijn voor toekomstige transacties.
+  De node bewaart de UTXO set, de set van niet uitgegeven outputs die beschikbaar zijn voor toekomstige transacties.
 reviewed: true

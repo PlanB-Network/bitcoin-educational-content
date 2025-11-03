@@ -84,7 +84,7 @@ Poin penting di sini adalah untuk memahami teknologi baru ini secara umum, jadi 
 
 Siap menyelami dunia Bitcoin yang menakjubkan dan memahami semua mekanismenya? Ayo mulai!
 
-**Catatan**: Jika Anda menemukan istilah yang tidak familiar selama kursus, silakan lihat [glosarium](https://planb.network/resources/glossary) untuk definisi.
+**Catatan**: Jika Anda menemukan istilah yang tidak familiar selama kursus, silakan lihat [glosarium](https://planb.academy/resources/glossary) untuk definisi.
 
 ## Prasejarah Bitcoin
 
@@ -142,7 +142,7 @@ Namun, apakah Bitcoin adalah mata uang "nyata"? Untuk memahami hal ini, pertama-
 
 Jika Anda ingin menjelajahi sejarah Bitcoin secara lebih detail, kami sangat merekomendasikan kursus HIS 201, di mana Anda akan menemukan asal-usul dan kemunculan Bitcoin, serta awal mula sejarah dan komunitasnya. Kursus ini sepenuhnya didokumentasikan dan bersumber, dengan, tentu saja, banyak anekdot:
 
-https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
+https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 # Uang
 
@@ -263,7 +263,7 @@ Kita dapat menyimpulkan bab ini dengan kutipan dari pemenang Hadiah Nobel F.A Ha
 
 > Untuk mempelajari lebih lanjut tentang kekeliruan ekonomi dan kebebasan, kami mengundang Anda untuk mempelajari kursus ECO 102, yang menelusuri kehidupan dan ide-ide Frédéric Bastiat, seorang pemikir Prancis abad ke-19 yang pasti akan menghargai kemunculan Bitcoin:
 
-https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
+https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
 ## Hiperinflasi
 
@@ -352,7 +352,7 @@ Mata uang yang bergantung pada pihak ketiga yang tepercaya seperti lembaga keuan
 
 Untuk mempelajari lebih dalam tentang hiperinflasi, kami merekomendasikan kursus ECO 204 dari David St-Onge, di mana Anda akan mempelajari apa itu siklus hiperinflasi dan dampaknya terhadap kehidupan kita. Anda juga akan menemukan kesamaan antara siklus-siklus ini dan, yang paling penting, bagaimana melindungi diri Anda dari siklus-siklus tersebut.
 
-https://planb.network/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
+https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
 ## 21 juta bitcoin
 
@@ -397,7 +397,7 @@ Setelah berhasil melakukan tugas ini, para penambang akan mendapatkan imbalan be
 | 19             | 3,990,000    | 0.000095367431640625 BTC  | 20,999,959.946 BTC                         |
 | 20             | 4,200,000    | 0.0000476837158203125 BTC | 20,999,979.973 BTC                         |
 
-Kami akan meninjau kembali konsep penambangan secara lebih rinci dalam [bab penambang](https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
+Kami akan meninjau kembali konsep penambangan secara lebih rinci dalam [bab penambang](https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
 
 ### Menjamin kelangkaan digital
 
@@ -505,11 +505,11 @@ Bagaimana jika seseorang secara tidak sengaja menebak daftar 12 atau 24 kata yan
 
 Dengan demikian, kemungkinan peretasan dompet Bitcoin Anda sangat kecil jika Anda mengikuti praktik keamanan yang baik yang akan kami jelaskan di bagian selanjutnya.
 
-Ingatlah untuk memilih dompet yang tepat untuk kebutuhan dan penggunaan Anda: tutorial terperinci tentang mengelola dan mengamankan berbagai dompet tersedia di [bagian tutorial di universitas kami](https://planb.network/tutorials/wallet).
+Ingatlah untuk memilih dompet yang tepat untuk kebutuhan dan penggunaan Anda: tutorial terperinci tentang mengelola dan mengamankan berbagai dompet tersedia di [bagian tutorial di universitas kami](https://planb.academy/tutorials/wallet).
 
 Jika, selama perjalanan Anda menyusuri lebih dalam, Anda ingin mempelajari lebih lanjut tentang membuat dompet Bitcoin, mulai dari entropi hingga menerima alamat, kami merekomendasikan kursus CYP 201 yang didedikasikan untuk topik ini:
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ## Dompet dan Keamanan Bitcoin
 
@@ -540,17 +540,17 @@ Di bawah ini, kami akan mendefinisikan beberapa tingkat keamanan:
 
 Misalnya, Anda dapat menggunakan Sparrow Wallet sebagai hot wallet:
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 - Level 2\*\*, Anda menggunakan dompet fisik, dan Anda telah mengamankan daftar 12/24 kata. Ini sering disebut sebagai "Cold Wallet" karena kunci Anda disimpan di perangkat yang tidak terhubung ke internet. Dalam hal ini, Anda harus selalu menandatangani setiap transaksi dengan perangkat Anda, yang membuat dana Anda tidak dapat diakses setiap hari.
 
 Sebagai contoh, Anda dapat menggunakan Ledger, Satochip, atau Tapsigner:
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
+https://planb.academy/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
 
-https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
+https://planb.academy/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
 
 ![image](assets/id/031.webp)
 
@@ -558,7 +558,7 @@ https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4
 
 Untuk mempelajari lebih lanjut tentang penggunaan dan fungsi frasa sandi BIP39:
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ![image](assets/id/032.webp)
 
@@ -584,7 +584,7 @@ Keamanan bitcoin Anda sangatlah penting, dan kesalahan kecil saja bisa berakibat
 
 Harap diperhatikan bahwa kursus BTC102 akan memandu Anda melalui langkah ini.
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ### Langkah ini tidak main-main!
 
@@ -619,7 +619,7 @@ Baik 'cold wallet' atau 'hot wallet' menggunakan metode daftar kata sebagai stan
 
 Jika Anda ingin mengetahui, langkah demi langkah, cara membuat wallet Anda sendiri dan mendapatkan bitcoin pertama Anda, kami juga merekomendasikan untuk mengikuti kursus lainnya:
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ## Melewati Ujian Waktu
 
@@ -631,7 +631,7 @@ Seperti halnya bentuk kekayaan lainnya, bitcoin Anda harus dilindungi dari kehil
 
 Salah satu metode untuk mengamankan bitcoin Anda dalam jangka panjang adalah dengan mengukir frasa mnemonik Anda pada bahan yang tahan lama seperti baja, dengan membuat cadangan fisik dari kunci Anda yang tahan terhadap kerusakan akibat air dan api.
 
-Berbagai solusi tersedia: beberapa di antaranya berbiaya rendah, seperti "Blockmit", sementara yang lain mungkin memerlukan peralatan yang lebih khusus. Anda dapat menjelajahi topik ini lebih lanjut di bagian [tutorial](https://planb.network/en/tutorials/wallet) di akademi kami.
+Berbagai solusi tersedia: beberapa di antaranya berbiaya rendah, seperti "Blockmit", sementara yang lain mungkin memerlukan peralatan yang lebih khusus. Anda dapat menjelajahi topik ini lebih lanjut di bagian [tutorial](https://planb.academy/en/tutorials/wallet) di akademi kami.
 
 ![image](assets/id/036.webp)
 
@@ -639,7 +639,7 @@ Berbagai solusi tersedia: beberapa di antaranya berbiaya rendah, seperti "Blockm
 
 Bersamaan dengan praktik pertama ini, membuat rencana warisan adalah langkah penting untuk memastikan bahwa bitcoin Anda dikelola dengan baik setelah Anda meninggal. Rencana ini melibatkan penulisan surat dengan tangan di mana Anda menguraikan sifat aset Anda, metode aksesnya, dan informasi kontak dari orang-orang tepercaya yang bertanggung jawab atas aset tersebut. Penting juga untuk mendiskusikan pewarisan bitcoin dengan notaris untuk memastikan kepatuhan pajak, meskipun orang ini tidak boleh dipercayakan secara langsung untuk mengelola bitcoin Anda.
 
-Jika Anda ingin menjelajahi lebih jauh subjek rencana warisan untuk bitcoin Anda, kami sarankan untuk membaca buku Pamela Morgan [Rencana Warisan Aset Kripto] (https://planb.network/resources/books/28) atau mendaftar di kursus BTC102, di mana kami memberikan panduan untuk membuat rencana Anda.
+Jika Anda ingin menjelajahi lebih jauh subjek rencana warisan untuk bitcoin Anda, kami sarankan untuk membaca buku Pamela Morgan [Rencana Warisan Aset Kripto] (https://planb.academy/resources/books/28) atau mendaftar di kursus BTC102, di mana kami memberikan panduan untuk membuat rencana Anda.
 
 ![image](assets/id/037.webp)
 
@@ -720,7 +720,7 @@ Pada tahun 2010, ketika Bitcoin mulai menarik perhatian media, Satoshi memutuska
 
 Bagi sebagian orang, Bitcoin didefinisikan sebagai entitas jamur seperti [miselium] (https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), sementara yang lain menggambarkannya sebagai [lubang hitam] (https://dergigi.com/). Suka atau tidak suka, Bitcoin terus ada, dengan ritme konstan 10 menit per blok, seperti detak jantung sistem moneter baru.
 
-Untuk mempelajari lebih lanjut tentang tulisan-tulisan Satoshi Nakamoto, kami sarankan untuk membaca ["The Book of Satoshi"] (https://planb.network/en/resources/books/98) oleh Phil Champagne atau film dokumenter ARTE "Le mystaire Satoshi".
+Untuk mempelajari lebih lanjut tentang tulisan-tulisan Satoshi Nakamoto, kami sarankan untuk membaca ["The Book of Satoshi"] (https://planb.academy/en/resources/books/98) oleh Phil Champagne atau film dokumenter ARTE "Le mystaire Satoshi".
 
 ![image](assets/id/044.webp)
 
@@ -913,7 +913,7 @@ Teori permainan yang diterapkan pada Bitcoin mengeliminasi para penambang yang t
 
 Jika Anda ingin mempelajari lebih dalam tentang topik spesifik penambangan Bitcoin, Anda dapat melihat kursus MIN 201 kami. Anda akan menemukan cara kerja dan peran Proof-of-Work, serta mekanisme industri pertambangan. Kami juga akan menjelaskan cara mengubah ASIC menjadi pemanas, sehingga Anda dapat menambang satoshi pertama Anda sambil menghangatkan rumah Anda!
 
-https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
+https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 ## Bitcoin dan Ekologi
 
@@ -1064,17 +1064,17 @@ Kami akan membahas topik ini secara rinci dalam kursus lain, tetapi untuk memper
 
 - Solusi online yang sederhana: OpenNode
 
-https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 - Solusi untuk pedagang amatir: Pembayaran Bitcoin Swiss
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - Solusi untuk struktur besar atau pengguna bitcoin yang bersemangat: Server BTCpay
 
 Untuk mempelajari lebih lanjut tentang topik ini, kami merekomendasikan pelatihan kami BIZ101! Temukan cara mengintegrasikan bitcoin secara efektif ke dalam kas perusahaan Anda, menerima bitcoin sebagai alat pembayaran sesuai dengan profil organisasi Anda, dan memahami persyaratan pajak dan akuntansi terkait:
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## Menabung dengan Bitcoin
 
@@ -1089,7 +1089,7 @@ Bitcoin telah menjadi aset keuangan utama, terutama karena pasokannya yang terba
 - Kinerja masa lalu bukanlah indikator yang dapat diandalkan untuk kinerja masa depan.
 - Hubungi penasihat keuangan Anda jika diperlukan.
 
-**Plan ₿ Network tidak memberikan nasihat investasi apa pun, dan tidak ada yang dinyatakan di sini yang dapat dianggap sebagai nasihat investasi**
+**Plan ₿ Academy tidak memberikan nasihat investasi apa pun, dan tidak ada yang dinyatakan di sini yang dapat dianggap sebagai nasihat investasi**
 
 ### Daftar Periksa Mini sebelum mengambil risiko
 
@@ -1117,7 +1117,7 @@ Strategi bertahap melibatkan pembelian berulang, yang berarti membeli sejumlah k
 
 **Waspadalah terhadap UTXO**: Ingatlah untuk menggabungkan UTXO Anda di dompet Anda dari waktu ke waktu. Praktik ini sangat penting untuk mengelola bitcoin Anda secara efektif dan menghindari biaya yang tidak perlu selama transaksi.
 
-Sebuah [UTXO](https://planb.network/resources/glossary/utxo#:~:text=utxo) adalah output dari sebuah transaksi yang belum dibelanjakan, yaitu belum digunakan sebagai input untuk transaksi baru. Mengonsolidasikannya berarti menggabungkan beberapa UTXO kecil menjadi satu yang lebih besar, sehingga mengurangi "berat" transaksi dan dengan demikian membayar biaya yang lebih sedikit.
+Sebuah [UTXO](https://planb.academy/resources/glossary/utxo#:~:text=utxo) adalah output dari sebuah transaksi yang belum dibelanjakan, yaitu belum digunakan sebagai input untuk transaksi baru. Mengonsolidasikannya berarti menggabungkan beberapa UTXO kecil menjadi satu yang lebih besar, sehingga mengurangi "berat" transaksi dan dengan demikian membayar biaya yang lebih sedikit.
 
 
 - Pembelian spontan
@@ -1132,7 +1132,7 @@ Ada beberapa cara untuk mendapatkan bitcoin, masing-masing tunduk pada peraturan
 
 - Platform DCA
 
-Seperti yang telah kami perkenalkan di atas, metode umum untuk mengumpulkan bitcoin adalah Dollar Cost Averaging (DCA), yang melibatkan pembelian dalam jumlah kecil secara teratur. Beberapa platform menawarkan layanan ini, seperti yang tercantum di [halaman khusus](https://planb.network/tutorials/exchange). Selain kemudahan dalam menyiapkan DCA, penarikan ke dompet Anda umumnya dilakukan secara otomatis, yang berarti Anda akan selalu memiliki kendali atas aset Anda.
+Seperti yang telah kami perkenalkan di atas, metode umum untuk mengumpulkan bitcoin adalah Dollar Cost Averaging (DCA), yang melibatkan pembelian dalam jumlah kecil secara teratur. Beberapa platform menawarkan layanan ini, seperti yang tercantum di [halaman khusus](https://planb.academy/tutorials/exchange). Selain kemudahan dalam menyiapkan DCA, penarikan ke dompet Anda umumnya dilakukan secara otomatis, yang berarti Anda akan selalu memiliki kendali atas aset Anda.
 
 Saat ini, hampir semua solusi DCA relatif efisien dan memiliki biaya yang hampir sama, sehingga pilihannya akan lebih bergantung pada ketersediaan di negara Anda.
 
@@ -1160,7 +1160,7 @@ Sangat penting untuk mengetahui bahwa KYC adalah topik diskusi yang signifikan d
 
 ### Solusi non-KYC
 
-Selain itu, ada beberapa [pasar](https://planb.network/tutorials/exchange) tempat untuk membeli dan menjual bitcoin dalam pertukaran peer-to-peer. Secara umum, Anda dapat mempertimbangkan yang berikut ini:
+Selain itu, ada beberapa [pasar](https://planb.academy/tutorials/exchange) tempat untuk membeli dan menjual bitcoin dalam pertukaran peer-to-peer. Secara umum, Anda dapat mempertimbangkan yang berikut ini:
 
 - ATM Bitcoin
 - Pertemuan fisik dengan penggemar bitcoin lainnya
@@ -1174,7 +1174,7 @@ Terakhir, penting untuk diperhatikan bahwa kewajiban pajak dapat bervariasi terg
 
 Jika Anda ingin memperdalam pengetahuan Anda tentang strategi pembelian, penggunaan, dan pengamanan bitcoin Anda, saya sangat menyarankan Anda untuk mengikuti kursus **BTC 102** setelah yang satu ini. Di sana Anda akan menemukan, antara lain, rekomendasi alat yang sesuai dengan profil, kebutuhan, dan tujuan pribadi Anda:
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ## Hiper-koinisasi
 
@@ -1196,7 +1196,7 @@ Pada akhirnya, kami mengundang Anda untuk merenungkan revolusi moneter yang baru
 
 ![image](assets/id/079.webp)
 
-Jika Anda ingin memperluas pengetahuan Anda mengenai Bitcoin, inilah saat yang tepat: banyak penulis, pemikir, dan penulis esai yang telah membuat konten edukasi mengenai Bitcoin. Selama beberapa tahun terakhir, kami telah membuat daftar dan mengkategorikan karya-karya tersebut untuk menawarkan [perpustakaan sumber daya] (https://planb.network/resources) kepada Anda yang paling ingin tahu di antara lingkungan Anda. Di bagian tersebut, Anda akan menemukan podcast, situs web, artikel, tutorial, buku, dan konten lainnya yang terbaik.
+Jika Anda ingin memperluas pengetahuan Anda mengenai Bitcoin, inilah saat yang tepat: banyak penulis, pemikir, dan penulis esai yang telah membuat konten edukasi mengenai Bitcoin. Selama beberapa tahun terakhir, kami telah membuat daftar dan mengkategorikan karya-karya tersebut untuk menawarkan [perpustakaan sumber daya] (https://planb.academy/resources) kepada Anda yang paling ingin tahu di antara lingkungan Anda. Di bagian tersebut, Anda akan menemukan podcast, situs web, artikel, tutorial, buku, dan konten lainnya yang terbaik.
 
 > "Saya pikir Internet akan menjadi salah satu kekuatan utama untuk mengurangi peran pemerintah. Satu hal yang belum ada, namun akan segera dikembangkan, adalah e-cash yang dapat diandalkan - sebuah metode di mana di Internet Anda dapat mentransfer dana dari A ke B tanpa A mengetahui B atau B mengetahui A." - Prediksi Milton Friedman pada tahun 1999
 
@@ -1246,7 +1246,7 @@ Singkatnya, Lightning Network adalah sebuah usaha yang menjanjikan untuk menggun
 
 Jika Anda ingin mberkenalan lebih jauh memahami semua cara kerja Lightning Network, kami sarankan untuk mengambil kursus yang sangat bagus ini oleh Fanis Michalakis tentang masalah ini:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ## Kasus Penggunaan Jaringan Lightning
 

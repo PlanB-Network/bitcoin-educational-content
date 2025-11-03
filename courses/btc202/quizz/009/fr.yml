@@ -5,5 +5,5 @@ wrong_answers:
   - Créer de nouvelles adresses pour les utilisateurs
   - Convertir les bitcoins en monnaies fiat
 explanation: |
-  Un nœud Bitcoin conserve une copie de la blockchain et participe à la validation et au relais des transactions et blocs.
-reviewed: false
+  Un nœud Bitcoin conserve une copie de la blockchain et participe à la validation ainsi qu'au relais des transactions et des blocs.
+reviewed: true 

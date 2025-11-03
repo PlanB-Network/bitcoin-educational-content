@@ -8,7 +8,7 @@ description: Ni gute wokwongerako igitabu gishasha ku rubuga rwa PlanB?
 Intumbero ya PlanB ni ugutanga ibikoresho vy’inyigisho vyo ku rwego rwo hejuru ku Bitcoin mu ndimi nyinshi zishoboka. Ibintu vyose bisohoka kuri uru rubuga ni open-source kandi bishirwa kuri GitHub, bikaba vyemerera umuntu wese gutanga umusanzu mu gutunganya urubuga.
 
 
-**Woba ushaka kwongerako igitabu gifitaniye isano na Bitcoin ku rubuga rwa PlanB Network no kwongera kugaragara kw'ibikorwa vyawe, ariko ntuzi ingene wobikora? Iyi nyigisho ni iyawe!**
+**Woba ushaka kwongerako igitabu gifitaniye isano na Bitcoin ku rubuga rwa Plan ₿ Academy no kwongera kugaragara kw'ibikorwa vyawe, ariko ntuzi ingene wobikora? Iyi nyigisho ni iyawe!**
 
 ![book](assets/01.webp)
 
@@ -16,7 +16,7 @@ Intumbero ya PlanB ni ugutanga ibikoresho vy’inyigisho vyo ku rwego rwo hejuru
 - Ubwa mbere, ukeneye kugira konti ya GitHub. Niba utazi uko wokora konti, twakoze inyigisho ido n’ido kugira ngo ikuyobore.
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -30,7 +30,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![book](assets/03.webp)
 
 
-- Niba utigeze utanga umusanzu ku birimwo PlanB Network mbere, uzokenera gukora Fork yawe y’ububiko bw’intango. Guca ububiko bisigura gukora kopi y'ubwo bubiko kuri konti yawe ya GitHub, bikagufasha gukora ku mugambi ataco uhinduye ku bubiko bw'intango. Fyonda kuri buto ya `Fork ubu bubiko`:
+- Niba utigeze utanga umusanzu ku birimwo Plan ₿ Academy mbere, uzokenera gukora Fork yawe y’ububiko bw’intango. Guca ububiko bisigura gukora kopi y'ubwo bubiko kuri konti yawe ya GitHub, bikagufasha gukora ku mugambi ataco uhinduye ku bubiko bw'intango. Fyonda kuri buto ya `Fork ubu bubiko`:
 
 ![book](assets/04.webp)
 
@@ -178,7 +178,7 @@ tags:
 ![book](assets/25.webp)
 
 
-- Paje nshasha izofunguka. Kurura maze ushire ishusho y’igipfukisho c’igitabu cawe muri ako karere. Iyi shusho izogaragara ku rubuga rwa PlanB Network:
+- Paje nshasha izofunguka. Kurura maze ushire ishusho y’igipfukisho c’igitabu cawe muri ako karere. Iyi shusho izogaragara ku rubuga rwa Plan ₿ Academy:
 
 ![book](assets/26.webp)
 

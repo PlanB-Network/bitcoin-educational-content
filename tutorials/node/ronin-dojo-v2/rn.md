@@ -20,7 +20,7 @@ _Iyi nyigisho itangwa ku ntumbero y'inyigisho n'amakuru gusa. Ntidushigikira can
 
 Mu nyigisho iheruka, twari twamaze gusigura uburyo bwo gushiramwo no gukoresha RoninDojo v1. Ariko rero, mu mwaka uheze, amashirahamwe ya RoninDojo yaratanguje verisiyo ya 2 y’ugushirwa mu ngiro kwayo, ivyo bikaba vyatumye habaho ihinduka rikomeye mu bijanye n’ubwubatsi bwa porogarama. Nkako, baravuye mu gutanga Linux Manjaro bafata Debian. Ku bw’ivyo, ntibasubira gutanga ishusho yatunganijwe imbere y’igihe kugira ngo ishire ubwayo kuri Raspberry Pi. Ariko haracariho uburyo bwo gukomeza gushiramwo n’amaboko. Ivyo nivyo nakoresheje ku node yanje bwite, kandi kuva ico gihe, RoninDojo v2 yariko irakora neza cane kuri Raspberry Pi 4 yanje.
 
-https://planb.network/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-95ec5dde72b0
+https://planb.academy/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-95ec5dde72b0
 
 ## Ibirimwo:
 
@@ -543,7 +543,7 @@ Inyuma yo gukora coinjoins na Whirlpool, ni vyiza gusuzuma neza urugero rw'ubuzi
 Kugira ngo urushirize gutahura uburyo bwo kubara izo nkuru zitaboneka, ndagusavye gusoma ingingo: REMIX - Whirlpool, idondora neza ingene izo nkuru zikora.
 
 
-https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 
 

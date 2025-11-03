@@ -57,7 +57,7 @@ Une **clé publique étendue** (xpub, ypub, zpub, etc.) est une donnée dérivé
 
 **Recommandation** : Protégez votre clé publique étendue comme une information sensible.
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### 1.5. Rappels sur les hot wallets
 
@@ -202,26 +202,26 @@ Cependant, comme le portefeuille Watch-Only ne détient pas les clés privées, 
 
 - Utilisation du réseau Onchain :
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
 - Utilisation du réseau Liquid :
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 - Version Desktop (ordinateur) :
 
-https://planb.network/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
+https://planb.academy/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 
 
 ### A2. Clés publiques étendues
 
 - Glossaire :
-	- [Clés publiques étendues](https://planb.network/fr/resources/glossary/extended-key)
-	-  [xpub](https://planb.network/fr/resources/glossary/xpub)
-	- [ypub](https://planb.network/fr/resources/glossary/ypub) 
-	- [zpub](https://planb.network/fr/resources/glossary/zpub)
+	- [Clés publiques étendues](https://planb.academy/fr/resources/glossary/extended-key)
+	-  [xpub](https://planb.academy/fr/resources/glossary/xpub)
+	- [ypub](https://planb.academy/fr/resources/glossary/ypub) 
+	- [zpub](https://planb.academy/fr/resources/glossary/zpub)
 - Cours :
-	- [Les clés publiques étendues](https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f)
+	- [Les clés publiques étendues](https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f)
 
 
 ### A3. Bonnes pratiques
@@ -231,9 +231,9 @@ Pour utiliser **Blockstream App** de manière sécurisée et efficace, suivez ce
 - **Sécurisez votre phrase de récupération** :
 	- Tutoriel : Sauvegarder sa phrase mnémonique
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 - **Utilisez l’authentification sécurisée** : 
@@ -272,25 +272,25 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 	- Liquid : **[Blockstream Info](https://blockstream.info/liquid)**
 	- Lightning : **[1ML (Lightning Network)](https://1ml.com/)** 
 
- - **Apprentissage et tutoriels :** **[Plan ₿ Network](https://planb.network/)** : 
+ - **Apprentissage et tutoriels :** **[Plan ₿ Academy](https://planb.academy/)** : 
 	 - **Sécuriser sa phrase de récupération**
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 - **Liquid Network** :
-	- **[Glossaire](https://planb.network/fr/resources/glossary/liquid-network)**
+	- **[Glossaire](https://planb.academy/fr/resources/glossary/liquid-network)**
 
 
-https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
+https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 - **Lightning Network** :
-	- **[Glossaire](https://planb.network/fr/resources/glossary/lightning-network)**
+	- **[Glossaire](https://planb.academy/fr/resources/glossary/lightning-network)**
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 

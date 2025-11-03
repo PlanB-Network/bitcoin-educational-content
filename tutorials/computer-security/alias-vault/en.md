@@ -139,7 +139,7 @@ Before you use this email for a login service, you can test its functionality by
 **⚠️ WARNING**: Receipt of emails is possible thanks to Alias Vault's built-in server, but this only allows you to receive emails and not to reply, or use the email box with the "conventional" functions of an `alias` service. It thus differs greatly from Simple Login, Addy and other platforms that are dedicated exclusively to this type of service. For the example of Simple Login you can view the dedicated tutorial:
 
 
-https://planb.network/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
+https://planb.academy/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
 
 To delete an alias you have created as a test, all you have to do is log into your `Home`, then `Credentials` and click on the identity you want to delete. The _Delete_ command will appear in the upper right-hand corner for you to proceed.
 

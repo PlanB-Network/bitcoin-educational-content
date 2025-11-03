@@ -14,7 +14,7 @@ _Tutorial ini disediakan hanya untuk tujuan pendidikan dan informasi. Kami tidak
 
 > Gunakan Bitcoin dengan privasi.
 
-Dalam [tutorial sebelumnya](https://planb.network/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-95ec5dde72b0), kami telah menjelaskan prosedur untuk memasang dan menggunakan RoninDojo v1. Namun, selama setahun terakhir, tim RoninDojo telah meluncurkan versi 2 dari implementasi mereka, yang menandai titik balik penting dalam arsitektur perangkat lunak. Memang, mereka beralih dari distribusi Linux Manjaro ke Debian. Akibatnya, mereka tidak lagi menawarkan gambar yang telah dikonfigurasi sebelumnya untuk instalasi otomatis pada Raspberry Pi. Namun, masih ada metode untuk melanjutkan dengan instalasi manual. Inilah yang saya gunakan untuk node saya sendiri, dan sejak itu, RoninDojo v2 telah bekerja dengan luar biasa di Raspberry Pi 4 saya. Oleh karena itu, saya menawarkan tutorial baru tentang cara memasang RoninDojo v2 secara manual pada Raspberry Pi.
+Dalam [tutorial sebelumnya](https://planb.academy/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-95ec5dde72b0), kami telah menjelaskan prosedur untuk memasang dan menggunakan RoninDojo v1. Namun, selama setahun terakhir, tim RoninDojo telah meluncurkan versi 2 dari implementasi mereka, yang menandai titik balik penting dalam arsitektur perangkat lunak. Memang, mereka beralih dari distribusi Linux Manjaro ke Debian. Akibatnya, mereka tidak lagi menawarkan gambar yang telah dikonfigurasi sebelumnya untuk instalasi otomatis pada Raspberry Pi. Namun, masih ada metode untuk melanjutkan dengan instalasi manual. Inilah yang saya gunakan untuk node saya sendiri, dan sejak itu, RoninDojo v2 telah bekerja dengan luar biasa di Raspberry Pi 4 saya. Oleh karena itu, saya menawarkan tutorial baru tentang cara memasang RoninDojo v2 secara manual pada Raspberry Pi.
 
 ## Daftar Isi:
 - Apa itu RoninDojo?
@@ -186,7 +186,7 @@ Setelah berada di halaman utama RoninUI, Anda akan diminta untuk memulai pengatu
 
 ![lets start](assets/notext/25.webp)
 
-Pada tahap ini, RoninUI menampilkan kata sandi `root` Anda. Sangat penting untuk menjaganya dengan aman. Anda dapat memilih untuk membuat cadangan fisik, di atas kertas, atau menyimpannya dalam [pengelola kata sandi](https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f).
+Pada tahap ini, RoninUI menampilkan kata sandi `root` Anda. Sangat penting untuk menjaganya dengan aman. Anda dapat memilih untuk membuat cadangan fisik, di atas kertas, atau menyimpannya dalam [pengelola kata sandi](https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f).
 
 ![root password](assets/notext/26.webp)
 
@@ -301,7 +301,7 @@ Untuk pemahaman yang lebih mendalam tentang coinjoin dan penggunaannya pada Bitc
 
 Setelah melakukan coinjoins dengan Whirlpool, berguna untuk mengevaluasi secara tepat tingkat privasi yang dicapai untuk UTXO campuran Anda. Untuk melakukan ini, Anda dapat menggunakan alat Python *Whirlpool Stat Tool*. Alat ini memungkinkan Anda untuk mengukur baik skor prospektif maupun retrospektif dari UTXO Anda, sambil menganalisis tingkat difusi mereka di kolam.
 
-Untuk memperdalam pemahaman Anda tentang mekanisme perhitungan anonset ini, saya merekomendasikan membaca artikel: [REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa), yang menjelaskan fungsi dari indeks-indeks ini.
+Untuk memperdalam pemahaman Anda tentang mekanisme perhitungan anonset ini, saya merekomendasikan membaca artikel: [REMIX - WHIRLPOOL](https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa), yang menjelaskan fungsi dari indeks-indeks ini.
 
 Untuk mengakses alat WST, buka RoninCLI. Untuk melakukan ini, buka terminal pada komputer pribadi Anda dan buat koneksi SSH dengan node Anda menggunakan perintah berikut:
 `SSH ronindojo@[IP]`

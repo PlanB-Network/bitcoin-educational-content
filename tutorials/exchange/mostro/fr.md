@@ -83,7 +83,7 @@ Avant de commencer, vous devez disposer de :
 	- Recommandés : Phoenix, Breez, Wallet of Satoshi...
 	- Minimum 1000 satoshis de liquidité pour tester
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 - **Une clé privée Nostr** (format `nsec1...`)
 	- Créez une clé dédiée au trading sur [nostrkeygen.com](https://nostrkeygen.com/)
@@ -92,7 +92,7 @@ https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 
 - **Optionnel mais recommandé** : VPN ou connexion Tor pour masquer votre adresse IP
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 ### Installation de Mostro CLI
 

@@ -19,22 +19,23 @@ proofreading:
     contributor_names:
     reward: 9.45
   - language: de
-    last_contribution_date:
+    last_contribution_date: 2025-10-31
     urgency: 1
     contributor_names:
-    reward: 7.11
+      - maggo83
+    reward: 3.55
   - language: en
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - 2raj2raj
-    reward: 3.56
+    reward: 3.55
   - language: es
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - lutxoitalico
-    reward: 3.56
+    reward: 3.55
   - language: fi
     last_contribution_date: 2024-04-02
     urgency: 1
@@ -46,7 +47,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - Asi0Flammeus
-    reward: 3.56
+    reward: 3.55
   - language: it
     last_contribution_date: '2025-08-18'
     urgency: 1
@@ -91,7 +92,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 11.79
+    reward: 11.78
   - language: nb-NO
     last_contribution_date: 2025-08-18
     urgency: 1
@@ -104,10 +105,11 @@ proofreading:
     contributor_names:
     reward: 9.45
   - language: hi
-    last_contribution_date:
+    last_contribution_date: 2025-10-31
     urgency: 1
     contributor_names:
-    reward: 16.46
+      - amolutxo
+    reward: 8.23
   - language: sr-Latn
     last_contribution_date:
     urgency: 1
@@ -124,7 +126,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 11.79
+    reward: 11.78
   - language: fa
     last_contribution_date:
     urgency: 1
@@ -142,15 +144,17 @@ proofreading:
       - rogerbracket
     reward: 4.72
   - language: tr
-    last_contribution_date:
+    last_contribution_date: 2025-10-31
     urgency: 1
     contributor_names:
-    reward: 11.79
+      - H5RV
+    reward: 5.89
   - language: ko
-    last_contribution_date:
+    last_contribution_date: 2025-10-31
     urgency: 1
     contributor_names:
-    reward: 9.45
+      - 4xvgal
+    reward: 5.89
   - language: rn
     last_contribution_date:
     urgency: 1
@@ -167,48 +171,56 @@ videos:
     peertube:
       - en: 5t9Bei237piyR8YUSZkBfz
       - es: w9H7zRajoDWJ4933nWXSD7
+      - it: eryL2EH6eAvJUdezSK1ZwF
   - id: f1cead27-ed41-4ca2-afd2-b08a994d0119
     youtube:
       - fr: BEK7vGnkO64
     peertube:
       - en: 85vQ8XiFZpHDo5vC1raqJp
       - es: r1NmHWn3DdpuiSTEEhJwrW
+      - it: ozmK8rLbc91QwzHDY4Mtgn
   - id: 737d30ac-43d8-4a69-afda-89b9d7e8c4e1
     youtube:
       - fr: oRO7sGexvzo
     peertube:
       - en: eeTiFKvKkG1WrtTaAa2662
       - es: tNAiugjJBYe4GLdZ6zEkPn
+      - it: owiNxWjHamnWezCbworQ3C
   - id: 35892007-5ea5-4956-bf80-3363d69c96d5
     youtube:
       - fr: lzJr5CIulSU
     peertube:
       - en: 6goJg34RjdGRiASckU3W46
       - es: obGEGksWmGpo3p2pZebnHb
+      - it: obYws4TiYop2mPLrbLhNBb
   - id: c6a2c152-f1ae-492c-8993-304d64cdda45
     youtube:
       - fr: CJDjWPV3PeU
     peertube:
       - en: bhHud3kgmT9RrixBzMvkyw
       - es: gybW43PN6WwEST4t6qWQmU
+      - it: v66WzTRksW5YgkqQpqTsNa
   - id: 75cc914d-9c11-4d3f-86a7-6faf2077f00f
     youtube:
       - fr: WjqH882f4cY
     peertube:
       - en: m37EFM2JxstabDjrTQ12Af
       - es: pSZP2zLyqvUcREEanYmfNh
+      - it: pmmC4KsyCEZQeNqmwwdoaV
   - id: 106b6f17-a5c1-4155-abdf-043ce469d45b
     youtube:
       - fr: HzLuZ6noePY
     peertube:
       - en: eEXf21JXUWY49b5vFZuKXF
       - es: ni5Qpwb2CA4HznhTDhqDUG
+      - it: vqMzC5nxorM3h6KkFQ5g2u
   - id: 10fede6f-c839-4455-b324-e887c502667e
     youtube:
       - fr: 863n4N1XNjk
     peertube:
       - en: nhyr7PWmWsobz6tRpQqCY5
       - es: cFne39jiFFX9weazHWXqK8
+      - it: ePReWDA7RjUwnDCYnvvcBk
   - id: a3a6d421-e4a3-4b80-834e-18c10a37b9b3
     youtube:
       - fr: vpYJYWhmEZg
@@ -233,6 +245,7 @@ videos:
     peertube:
       - en: aTkzMSmq8Bwao84segTBMW
       - es: b5Bav1zG9K2Q6ZadYoZBSW
+      - it: ot8Q8qeDcneQLZMhRDgTT6
   - id: ec7014aa-5ebe-444c-80d1-7b14f1fe7bb8
     youtube:
       - fr: RVjE-KOSKDs

@@ -71,7 +71,7 @@ description: خرید و فروش بیت‌کوین در Bull Bitcoin
 اگر با استفاده از برنامه‌های احراز هویت برای 2FA آشنا نیستید، توصیه می‌کنم به این آموزش در مورد برنامه Authy نگاهی بیندازید:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 رمز عبور خود را برای تأیید وارد کنید.
 
@@ -184,9 +184,9 @@ https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-
 اگر با استفاده از کیف‌پول‌های Bitcoin، Lightning یا Liquid آشنا نیستید، پیشنهاد می‌کنم در دوره آموزشی اختصاصی ما شرکت کنید:
 
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
-شما همچنین می‌توانید [آموزش‌های دقیق ما درباره بهترین کیف‌پول‌های Bitcoin](https://planb.network/tutorials/wallet) را بررسی کنید.
+شما همچنین می‌توانید [آموزش‌های دقیق ما درباره بهترین کیف‌پول‌های Bitcoin](https://planb.academy/tutorials/wallet) را بررسی کنید.
 
 
 سپس با کلیک بر روی "*تأیید خرید*" خرید خود را تأیید کنید.
@@ -289,10 +289,18 @@ https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 ![BULL](assets/fr/36.webp)
 
 
+## شروع خرید خودکار تکرارشونده (DCA)
+
+![video](https://youtu.be/_A23JI492Zc)
+
+## ایجاد سفارش محدود
+
+![video](https://youtu.be/6Jlu19jlk7U)
+
 اکنون می‌دانید چگونه به راحتی Bitcoin را با Bull Bitcoin بخرید و بفروشید. اگر این آموزش برای شما مفید بود، بسیار سپاسگزار خواهم بود اگر یک انگشت شست Green در زیر قرار دهید. لطفاً این مقاله را در شبکه‌های اجتماعی خود به اشتراک بگذارید. بسیار متشکرم!
 
 
 همچنین توصیه می‌کنم این آموزش جامع دیگر را بررسی کنید تا یاد بگیرید چگونه عبارت Mnemonic خود را به‌درستی مدیریت کنید:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270

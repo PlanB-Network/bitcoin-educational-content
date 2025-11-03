@@ -708,7 +708,7 @@ Tor-tilkoblingen er nødvendig hvis du vil ha tilgang til noden utenfor det loka
 Hvis du vil ha mer informasjon om Sparrow Wallet-programvaren, har vi en omfattende veiledning :
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 ## Konklusjon
 
 

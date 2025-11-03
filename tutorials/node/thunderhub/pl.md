@@ -38,7 +38,7 @@ Jeśli nie masz jeszcze węzła Lightning, zalecamy skorzystanie z naszego samou
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
 ## Instalacja
 

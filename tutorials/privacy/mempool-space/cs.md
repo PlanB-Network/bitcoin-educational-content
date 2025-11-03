@@ -14,9 +14,9 @@ V počátcích Bitcoin bylo nutné spustit uzel Bitcoin, aby bylo možné přist
 
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
 Proto byly zahájeny projekty, jejichž cílem je rozšířit komunitu Bitcoin a zpřístupnit ji všem, kteří nevlastní uzel a/nebo nemají potřebné technické dovednosti.
 
@@ -46,7 +46,7 @@ Stále rozšířenější použití v ekosystému a skutečnost, že Mempool.spa
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 ## Základy Mempool.space
 
@@ -176,7 +176,7 @@ Objevte různá schémata transakcí Bitcoin, která zvýší vaši důvěrnost.
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ## Zrychlení transakcí
 
@@ -200,7 +200,7 @@ U portfolií, která tento mechanismus akceptují, můžete provést akci nahraz
 
 
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
 
 
@@ -212,7 +212,7 @@ https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-837
 
 
 
-Pokud se vám všechny tyto pojmy zdají příliš odborné, doporučuji vám [nahlédnout do našeho slovníčku](https://planb.network/resources/glossary), který obsahuje definice všech odborných pojmů týkajících se Bitcoin a jeho ekosystému.
+Pokud se vám všechny tyto pojmy zdají příliš odborné, doporučuji vám [nahlédnout do našeho slovníčku](https://planb.academy/resources/glossary), který obsahuje definice všech odborných pojmů týkajících se Bitcoin a jeho ekosystému.
 
 
 
@@ -235,7 +235,7 @@ Miner označuje osobu, která spravuje důl, tj. počítač zapojený do procesu
 
 
 
-https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
+https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 ❗Minery jsou jako "validátoři", kteří ověřují a seskupují transakce do bloků. Aby mohli přidat nový blok do sítě Bitcoin, musí vyřešit složitou matematickou hádanku (Proof-of-Work). Ten, kdo jako první vyřeší hádanku Miner, získává odměnu Bitcoin (dotace bloku + poplatky za transakce zahrnuté do bloku).
 
@@ -372,4 +372,4 @@ Nyní, když jste se dostali na konec své cesty na Mempool.space, staňte se sv
 
 
 
-https://planb.network/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1

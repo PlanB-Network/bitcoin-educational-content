@@ -14,9 +14,9 @@ Bitcoin 协议是一个开放咨询的匿名分散网络。成员（节点），
 
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
 因此，Bitcoin 社区启动了一些项目，以扩大 Bitcoin 社区，让没有节点和/或不具备所需技术技能的人也能更方便地使用 Bitcoin。
 
@@ -46,7 +46,7 @@ https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 ## Mempool.space 的基础知识
 
@@ -176,7 +176,7 @@ Mempool.space 支持许多 Bitcoin 协议网络。
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ## 加快交易速度
 
@@ -200,7 +200,7 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
 
 
@@ -212,7 +212,7 @@ https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-837
 
 
 
-如果所有这些术语看起来太专业，我建议您 [查阅我们的术语表](https://planb.network/resources/glossary)，其中包含与 Bitcoin 及其生态系统有关的所有技术术语的定义。
+如果所有这些术语看起来太专业，我建议您 [查阅我们的术语表](https://planb.academy/resources/glossary)，其中包含与 Bitcoin 及其生态系统有关的所有技术术语的定义。
 
 
 
@@ -235,7 +235,7 @@ Miner 指管理矿场的人，即参与 Mining 进程的计算机，该进程包
 
 
 
-https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
+https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 ❗矿工就像 "验证员"，负责验证交易并将其归类到区块中。要向 Bitcoin 网络添加一个新区块，他们必须解决一个复杂的数学难题（Proof-of-Work）。第一个解开谜题的 Miner 将赢得 Bitcoin 奖励（区块赠款+区块中包含的交易费用）。
 
@@ -372,4 +372,4 @@ Mempool.space 是享受与 Bitcoin 协议网络互动的理想平台。这些图
 
 
 
-https://planb.network/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1

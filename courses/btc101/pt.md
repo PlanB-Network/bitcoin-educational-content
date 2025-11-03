@@ -83,7 +83,7 @@ O importante aqui é compreender esta nova tecnologia de uma forma geral, por is
 
 Pronto para mergulhar no fascinante universo do Bitcoin e entender todos os seus mecanismos? Vamos lá!
 
-**N.B.**: Se encontrar termos desconhecidos durante o curso, consulte [o glossário](https://planb.network/resources/glossary) para definições.
+**N.B.**: Se encontrar termos desconhecidos durante o curso, consulte [o glossário](https://planb.academy/resources/glossary) para definições.
 
 ## A pré-história do Bitcoin
 
@@ -141,7 +141,7 @@ No entanto, será a Bitcoin uma moeda "real"? Para o percebermos, precisamos pri
 
 Se quiser explorar a história da Bitcoin em mais pormenor, recomendamos vivamente o nosso curso HIS 201, onde descobrirá as origens e o lento aparecimento da Bitcoin, bem como os primórdios da sua história e comunidade. Este curso está totalmente documentado e tem fontes, com, claro, muitas anedotas:
 
-https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
+https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 # Dinheiro
 
@@ -261,7 +261,7 @@ Podemos concluir este capítulo com a citação do Prémio Nobel F.A Hayek em 19
 > "Não acredito que voltemos a ter um bom dinheiro antes de o tirarmos das mãos do governo. Se não conseguirmos tirá-lo violentamente das mãos do governo, tudo o que podemos fazer é, de uma forma sub-reptícia ou indireta, introduzir algo que eles não consigam impedir."
 > Para saber mais sobre as falácias económicas e a liberdade, convidamo-lo a descobrir o nosso curso ECO 102, que descreve a vida e as ideias de Frédéric Bastiat, um pensador francês do século XIX que teria certamente apreciado o aparecimento da Bitcoin:
 
-https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
+https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
 ## Hiperinflação
 
@@ -350,7 +350,7 @@ Uma moeda que depende de um terceiro de confiança, como uma instituição finan
 
 Para aprofundar o tema das hiperinflações, recomendamos o curso ECO 204 de David St-Onge, onde ficará a saber o que são ciclos hiperinflacionários e o seu impacto real nas nossas vidas. Descobrirá também as semelhanças entre estes ciclos e, mais importante, como se pode proteger deles.
 
-https://planb.network/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
+https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
 ## 21 milhões de bitcoins
 
@@ -395,7 +395,7 @@ Depois de executarem esta tarefa com sucesso, os mineiros são recompensados com
 | 19             | 3,990,000    | 0.000095367431640625 BTC  | 20,999,959.946 BTC                         |
 | 20             | 4,200,000    | 0.0000476837158203125 BTC | 20,999,979.973 BTC                         |
 
-Revisitaremos o conceito de mineração em mais pormenor no [capítulo sobre mineração] (https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
+Revisitaremos o conceito de mineração em mais pormenor no [capítulo sobre mineração] (https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
 
 ### Garantir a escassez digital
 
@@ -503,11 +503,11 @@ E se alguém adivinhar acidentalmente a nossa lista de 12 ou 24 palavras? A resp
 
 Assim, a probabilidade de piratear a sua carteira Bitcoin é astronomicamente baixa se seguir as boas práticas de segurança que iremos detalhar na próxima secção.
 
-Não se esqueça de escolher a carteira certa para as suas necessidades e utilização: estão disponíveis tutoriais detalhados sobre a gestão e segurança de diferentes carteiras na [secção de tutoriais da nossa universidade] (https://planb.network/tutorials/wallet).
+Não se esqueça de escolher a carteira certa para as suas necessidades e utilização: estão disponíveis tutoriais detalhados sobre a gestão e segurança de diferentes carteiras na [secção de tutoriais da nossa universidade] (https://planb.academy/tutorials/wallet).
 
 Se, durante a sua viagem pela toca do coelho, quiser aprender mais sobre a construção de uma carteira Bitcoin, desde a entropia até à receção de endereços, recomendamos o curso CYP 201 dedicado a este tópico:
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ## Carteiras Bitcoin e segurança
 
@@ -538,17 +538,17 @@ De seguida, definimos vários níveis de segurança:
 
 Por exemplo, pode utilizar a Sparrow Wallet como uma hot wallet:
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 - Nível 2\*\*, utiliza uma carteira física e protegeu a sua lista de 12/24 palavras. É muitas vezes referido como "cold wallet" (carteira fria) porque as suas chaves são armazenadas num dispositivo que não está ligado à Internet. Neste caso, terá sempre de assinar cada transação com o seu dispositivo, o que torna os seus fundos menos acessíveis no dia a dia.
 
 Por exemplo, pode utilizar um Ledger, um Satochip ou um Tapsigner:
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
+https://planb.academy/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
 
-https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
+https://planb.academy/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
 
 ![image](assets/pt/031.webp)
 
@@ -556,7 +556,7 @@ https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4
 
 Para saber mais sobre a utilização e o funcionamento da frase-passe BIP39:
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ![image](assets/pt/032.webp)
 
@@ -582,7 +582,7 @@ A segurança dos seus bitcoins tem uma importância crucial, e um simples erro p
 
 Tenha em atenção que o curso BTC102 guiá-lo-á nesta etapa.
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ### Este passo não é brincadeira!
 
@@ -617,7 +617,7 @@ Tanto as carteiras "frias" como as "quentes" utilizam o método de lista de pala
 
 Se depois quiser descobrir, passo a passo, como criar a sua própria carteira e obter os seus primeiros bitcoins, recomendamos também este outro curso:
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ## Passando no teste do tempo
 
@@ -629,7 +629,7 @@ Como qualquer forma de riqueza, os seus bitcoins devem ser protegidos contra per
 
 Um método para proteger os seus bitcoins a longo prazo é gravar a sua frase mnemónica num material resistente como o aço, criando uma cópia de segurança física das suas chaves que seja resistente a danos causados pela água e pelo fogo.
 
-Existem várias soluções disponíveis: algumas delas são de baixo custo, como o "Blockmit", enquanto outras podem exigir equipamento mais especializado. Pode explorar mais este tópico na secção [tutoriais](https://planb.network/en/tutorials/wallet) da nossa academia.
+Existem várias soluções disponíveis: algumas delas são de baixo custo, como o "Blockmit", enquanto outras podem exigir equipamento mais especializado. Pode explorar mais este tópico na secção [tutoriais](https://planb.academy/en/tutorials/wallet) da nossa academia.
 
 ![image](assets/pt/036.webp)
 
@@ -637,7 +637,7 @@ Existem várias soluções disponíveis: algumas delas são de baixo custo, como
 
 Juntamente com esta primeira prática, a criação de um plano de herança é um passo crucial para garantir que os seus bitcoins são geridos corretamente após a sua morte. Este plano implica escrever à mão uma carta onde descreve a natureza dos seus bens, os seus métodos de acesso e as informações de contacto das pessoas de confiança que têm responsabilidade sobre eles. Também é importante discutir a herança de bitcoins com um notário para garantir a conformidade fiscal, mesmo que essa pessoa nunca deva ser encarregada diretamente da gestão dos seus bitcoins.
 
-Se desejar aprofundar o tema do plano de herança para os seus bitcoins, recomendamos a leitura do livro de Pamela Morgan [Cryptoasset Inheritance Plan] (https://planb.network/resources/books/28) ou a inscrição no curso BTC102, onde fornecemos orientações sobre a criação do seu plano.
+Se desejar aprofundar o tema do plano de herança para os seus bitcoins, recomendamos a leitura do livro de Pamela Morgan [Cryptoasset Inheritance Plan] (https://planb.academy/resources/books/28) ou a inscrição no curso BTC102, onde fornecemos orientações sobre a criação do seu plano.
 
 ![image](assets/pt/037.webp)
 
@@ -718,7 +718,7 @@ Em 2010, quando a Bitcoin começou a atrair a atenção dos meios de comunicaç�
 
 Para alguns, o Bitcoin é definido como uma entidade fúngica, como um [micélio] (https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), enquanto outros o descrevem como um [buraco negro] (https://dergigi.com/). Ame-o ou odeie-o, o Bitcoin continua a existir, com o seu ritmo constante de 10 minutos por bloco, como o batimento cardíaco de um novo sistema monetário.
 
-Para saber mais sobre os escritos de Satoshi Nakamoto, recomendamos a leitura de ["The Book of Satoshi"] (https://planb.network/en/resources/books/98) de Phil Champagne ou o documentário da ARTE "Le mystaire Satoshi".
+Para saber mais sobre os escritos de Satoshi Nakamoto, recomendamos a leitura de ["The Book of Satoshi"] (https://planb.academy/en/resources/books/98) de Phil Champagne ou o documentário da ARTE "Le mystaire Satoshi".
 
 ![image](assets/pt/044.webp)
 
@@ -911,7 +911,7 @@ A teoria dos jogos aplicada à Bitcoin elimina os mineiros desonestos, que utili
 
 Se quiser aprofundar o tema específico da mineração de Bitcoin, pode consultar o nosso curso MIN 201. Irá descobrir o funcionamento e o papel da Prova de Trabalho, bem como a mecânica da indústria mineira. Também explicamos como converter um ASIC num aquecedor, permitindo-lhe extrair os seus primeiros satoshis enquanto aquece a sua casa!
 
-https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
+https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 ## Bitcoin e Ecologia
 
@@ -1062,17 +1062,17 @@ Abordaremos este tópico em pormenor noutro curso, mas para simplificar, podemos
 
 - Solução simples em linha: OpenNode
 
-https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 - Solução para comerciantes amadores: Swiss Bitcoin Pay
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - Solução para grandes estruturas ou bitcoiners apaixonados: Servidor BTCpay
 
 Para aprofundar este assunto, recomendamos o nosso treinamento BIZ101! Descubra como integrar efetivamente o bitcoin no caixa da sua empresa, aceitar bitcoin como meio de pagamento de acordo com o perfil da sua organização e entender os requisitos fiscais e contábeis relacionados:
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## Poupar com Bitcoin
 
@@ -1115,7 +1115,7 @@ Uma estratégia gradual envolve compras recorrentes, o que significa comprar peq
 
 **Cuidado com os UTXOs**: Lembre-se de consolidar os seus UTXOs nas suas carteiras de tempos a tempos. Esta prática é essencial para gerir eficazmente os seus bitcoins e evitar taxas desnecessárias durante as transacções.
 
-Um [UTXO](https://planb.network/resources/glossary/utxo#:~:text=utxo) (Unspent Transaction Output) é uma saída de uma transação que ainda não foi gasta, o que significa que não foi utilizada como entrada para uma nova transação. Consolidar UTXOs significa combinar vários UTXOs pequenos em um maior, a fim de diminuir o "peso" da transação e, assim, pagar taxas mais baixas.
+Um [UTXO](https://planb.academy/resources/glossary/utxo#:~:text=utxo) (Unspent Transaction Output) é uma saída de uma transação que ainda não foi gasta, o que significa que não foi utilizada como entrada para uma nova transação. Consolidar UTXOs significa combinar vários UTXOs pequenos em um maior, a fim de diminuir o "peso" da transação e, assim, pagar taxas mais baixas.
 
 - Compra espontânea
 
@@ -1129,7 +1129,7 @@ Existem várias formas de adquirir bitcoins, cada uma sujeita ao seu próprio co
 
 - Plataformas DCA
 
-Como introduzimos acima, um método comum para acumular bitcoins é o Dollar Cost Averaging (DCA), que envolve a compra regular de pequenas quantidades. Várias plataformas oferecem este serviço, como as listadas na nossa [página dedicada](https://planb.network/tutorials/exchange). Para além da simplicidade da configuração de uma DCA, os levantamentos para a sua carteira são geralmente automáticos, o que significa que terá sempre controlo sobre os seus activos.
+Como introduzimos acima, um método comum para acumular bitcoins é o Dollar Cost Averaging (DCA), que envolve a compra regular de pequenas quantidades. Várias plataformas oferecem este serviço, como as listadas na nossa [página dedicada](https://planb.academy/tutorials/exchange). Para além da simplicidade da configuração de uma DCA, os levantamentos para a sua carteira são geralmente automáticos, o que significa que terá sempre controlo sobre os seus activos.
 
 Atualmente, quase todas as soluções DCA são relativamente eficientes e têm taxas quase semelhantes, pelo que a escolha dependerá mais da disponibilidade no seu país.
 
@@ -1157,7 +1157,7 @@ Após a compra, é aconselhável retirar imediatamente os bitcoins das plataform
 
 ### Soluções não-KYC
 
-Além disso, existem vários [marketplaces] (https://planb.network/tutorials/exchange) onde se pode comprar e vender bitcoins numa troca peer-to-peer. Em geral, pode considerar o seguinte:
+Além disso, existem vários [marketplaces] (https://planb.academy/tutorials/exchange) onde se pode comprar e vender bitcoins numa troca peer-to-peer. Em geral, pode considerar o seguinte:
 
 - ATMs de Bitcoin
 - Encontros físicos com outros entusiastas da bitcoin
@@ -1171,7 +1171,7 @@ Por último, é importante notar que as obrigações fiscais podem variar consoa
 
 Se deseja aprofundar os seus conhecimentos sobre estratégias de compra, utilização e segurança dos seus bitcoins, recomendo vivamente que siga o curso **BTC 102** após este. Nele descobrirá, entre outras coisas, recomendações de ferramentas adaptadas ao seu perfil, às suas necessidades e aos seus objetivos pessoais:
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ## Hiper-bitcoinização
 
@@ -1193,7 +1193,7 @@ No final, convidamo-lo a refletir sobre esta nova revolução monetária. Há ta
 
 ![image](assets/pt/079.webp)
 
-Se pretende alargar os seus conhecimentos sobre o Bitcoin, este é o momento certo: um grande número de autores, pensadores e ensaístas criaram conteúdos educativos sobre o Bitcoin. Nos últimos anos, temos vindo a listar e a categorizar estes trabalhos para oferecer uma [biblioteca de recursos](https://planb.network/resources) aos mais curiosos de entre vós. Nesta secção, encontrará os melhores podcasts, sites, artigos, tutoriais, livros e outros conteúdos.
+Se pretende alargar os seus conhecimentos sobre o Bitcoin, este é o momento certo: um grande número de autores, pensadores e ensaístas criaram conteúdos educativos sobre o Bitcoin. Nos últimos anos, temos vindo a listar e a categorizar estes trabalhos para oferecer uma [biblioteca de recursos](https://planb.academy/resources) aos mais curiosos de entre vós. Nesta secção, encontrará os melhores podcasts, sites, artigos, tutoriais, livros e outros conteúdos.
 
 > "Penso que a Internet vai ser uma das principais forças para reduzir o papel do governo. A única coisa que falta, mas que em breve será desenvolvida, é um dinheiro eletrónico fiável - um método através do qual, na Internet, se possa transferir fundos de A para B sem que A conheça B ou B conheça A." - Previsão de Milton Friedman em 1999
 
@@ -1243,7 +1243,7 @@ Em resumo, a Lightning Network é uma tentativa promissora de implantar um siste
 
 Se pretender ir além desta introdução e compreender todo o funcionamento da Lightning Network, recomendamos a realização deste excelente curso de Fanis Michalakis sobre o assunto:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ## Casos de uso do Lightning Network
 

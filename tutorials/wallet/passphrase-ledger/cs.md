@@ -8,7 +8,7 @@ BIP39 heslo je volitelné heslo, které, když je kombinováno s vaší mnemonic
 
 Před zahájením tohoto tutoriálu, pokud nejste obeznámeni s konceptem hesla, jak funguje a jaké má důsledky pro vaši Bitcoinovou peněženku, vřele doporučuji konzultovat tento další teoretický článek, kde vše vysvětluji:
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ## Jak funguje heslo na Ledgeru?
 
@@ -26,13 +26,13 @@ Navíc, tato možnost nabízí všechny bezpečnostní výhody BIP39 hesla bez n
 Možnost "dočasného hesla" neukládá heslo na zařízení. Pokaždé, když chcete získat přístup k vaší chráněné peněžence, budete muset heslo ručně zadat na Ledgeru. To používání činí náročnějším, ale také mírně zvyšuje bezpečnost tím, že na zařízení nezanechává žádnou stopu hesla. Jakmile zařízení vypnete, vrátí se do svého výchozího stavu a vyžaduje nové zadání kompletního hesla pro přístup k skrytým účtům. Tato možnost "dočasného hesla" je tedy podobná provozu jiných hardwarových peněženek.
 V tomto tutoriálu použiji jako příklad Ledger Flex. Pokud však používáte jiný model Ledgeru, postup zůstává stejný. Pro Ledger Stax je rozhraní stejné jako u Ledger Flex. Co se týče modelů Nano S, Nano S Plus a Nano X, i když je rozhraní odlišné, postup a názvy menu zůstávají stejné.
 **Pozor:** Pokud jste již přijali bitcoiny na vašem Ledgeru před aktivací heslové fráze, budete je muset převést prostřednictvím Bitcoinové transakce. Heslová fráze generuje sadu nových klíčů, čímž vytváří peněženku, která je zcela nezávislá na vaší původní peněžence. Při přidání heslové fráze získáte novou peněženku, která bude prázdná. To však nemaže vaši první peněženku bez heslové fráze. Stále k ní můžete přistupovat, buď přímo přes váš Ledger bez zadání heslové fráze, nebo prostřednictvím jiného softwaru s použitím vaší 24slovní fráze.
-Před zahájením tohoto návodu se ujistěte, že jste již inicializovali váš Ledger a vygenerovali vaši mnemonickou frázi. Pokud to není váš případ a váš Ledger je nový, postupujte podle konkrétního návodu pro váš model dostupného na PlanB Network. Jakmile je tento krok dokončen, můžete se vrátit k tomuto návodu.
+Před zahájením tohoto návodu se ujistěte, že jste již inicializovali váš Ledger a vygenerovali vaši mnemonickou frázi. Pokud to není váš případ a váš Ledger je nový, postupujte podle konkrétního návodu pro váš model dostupného na Plan ₿ Academy. Jakmile je tento krok dokončen, můžete se vrátit k tomuto návodu.
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
+https://planb.academy/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
 
 ## Jak nastavit dočasnou heslovou frázi s Ledgerem?
 
@@ -175,4 +175,4 @@ Gratuluji, vaše Bitcoinová peněženka je nyní zabezpečena heslovou frází!
 
 Doporučuji vám také prohlédnout si tento další úplný návod, jak používat váš Ledger Flex:
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a

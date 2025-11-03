@@ -21,7 +21,7 @@ Une fonctionnalité particulièrement intéressante est la possibilité de dupli
 
 Dans ce tutoriel, nous traiterons uniquement de l’utilisation du SeedKeeper pour des mots de passe traditionnels, à la manière d’un gestionnaire de mots de passe. Si vous souhaitez utiliser le SeedKeeper pour sauvegarder des phrases mnémoniques de portefeuilles Bitcoin, je vous conseille de consulter cet autre tutoriel :
 
-https://planb.network/tutorials/wallet/backup/seedkeeper-906dfff8-1826-4837-92d1-8669e216d356
+https://planb.academy/tutorials/wallet/backup/seedkeeper-906dfff8-1826-4837-92d1-8669e216d356
 
 ## 1. Comment obtenir un Seedkeeper ?
 
@@ -107,7 +107,7 @@ Placez votre Seedkeeper à l’arrière du smartphone.
 
 ![Image](assets/fr/018.webp)
 
-Vous accédez alors à la liste de tous vos secrets enregistrés. Dans cet exemple, je veux afficher le mot de passe de mon compte sur Plan ₿ Network, je clique donc dessus.
+Vous accédez alors à la liste de tous vos secrets enregistrés. Dans cet exemple, je veux afficher le mot de passe de mon compte sur Plan ₿ Academy, je clique donc dessus.
 
 ![Image](assets/fr/019.webp)
 
@@ -165,6 +165,6 @@ Vous pouvez scanner votre Seedkeeper n°2 pour vérifier que les secrets ont bie
 
 Voilà ! Vous savez désormais comment utiliser le Seedkeeper pour stocker vos mots de passe. Dans un prochain tutoriel, nous verrons comment utiliser le Seedkeeper pour faire une sauvegarde d'un portefeuille Bitcoin. Je vous invite également à découvrir son usage combiné avec le SeedSigner :
 
-https://planb.network/tutorials/wallet/hardware/seedkeeper-seedsigner-45cca4c4-1f22-46bb-87ae-9cddb68aa579
+https://planb.academy/tutorials/wallet/hardware/seedkeeper-seedsigner-45cca4c4-1f22-46bb-87ae-9cddb68aa579
 
-https://planb.network/tutorials/wallet/backup/seedkeeper-906dfff8-1826-4837-92d1-8669e216d356
+https://planb.academy/tutorials/wallet/backup/seedkeeper-906dfff8-1826-4837-92d1-8669e216d356

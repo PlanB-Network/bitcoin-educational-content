@@ -86,7 +86,7 @@ Untuk mengakhiri kursus ini, Anda akan dapat mengikuti ujian akhir untuk mendapa
 
 Apakah Anda siap untuk sepenuhnya mengambil kendali atas keamanan TI (teknologi informasi) Anda, memperkuat kedaulatan individu Anda, dan menjamin privasi online Anda? Ayo mulai!
 
-*Catatan: Jika Anda menemukan istilah yang tidak dikenal selama kursus, silakan baca [daftar istilah](https://planb.network/resources/glossary) untuk mendapatkan definisinya
+*Catatan: Jika Anda menemukan istilah yang tidak dikenal selama kursus, silakan baca [daftar istilah](https://planb.academy/resources/glossary) untuk mendapatkan definisinya
 
 ## Rekapitulasi penting dari SCU101
 
@@ -98,7 +98,7 @@ Selain itu, jika Anda masih pemula dalam bidang komputer dan belum mengambil SCU
 
 Kursus SCU101 adalah kursus pengantar yang dirancang untuk membangun dasar yang kuat dalam praktek digital yang aman bagi pengguna pemula dan menengah di bidang TI. Tujuannya adalah untuk meningkatkan keamanan sehari-hari, privasi, dan kemandirian digital.
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 ### Penjelajahan online yang aman
 
@@ -504,7 +504,7 @@ Pendekatan ini didasarkan pada model _rolling release_, di mana paket-paket dipe
 
 Arch Linux ditujukan terutama untuk pengguna tingkat lanjut yang menginginkan kendali penuh atas lingkungan mereka, dengan menerima kompleksitas tertentu dalam instalasi dan pemeliharaan. Persyaratan teknis ini telah memicu munculnya beberapa distribusi turunan yang bertujuan untuk mendemokratisasi penggunaannya.
 
-https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+https://planb.academy/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 Yang paling dikenal adalah Manjaro, yang mempertahankan basis teknis Arch sambil menawarkan instalasi yang disederhanakan, lingkungan desktop yang sudah dikonfigurasi sebelumnya, dan siklus rilis yang sedikit tertunda untuk menstabilkan pembaruan.
 
@@ -549,13 +549,13 @@ Dikembangkan oleh Canonical dan diluncurkan pada tahun 2004, Ubuntu adalah salah
 
 ![Image](assets/fr/020.webp)
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 - **Linux Mint**:
 
 Diluncurkan pada tahun 2006, Linux Mint adalah distribusi turunan dari Ubuntu, yang dirancang untuk menawarkan alternatif yang lebih intuitif dan lebih dekat dengan ergonomi Windows. Versi ini menawarkan beberapa lingkungan desktop, termasuk Cinnamon, sebuah fork dari GNOME yang dirancang khusus oleh tim Mint, yang menyediakan Interface yang jelas, klasik, dan terasa akrab.
 
-https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.academy/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
 Mint menonjol karena kesederhanaannya, keberadaan codec multimedia secara default, dan alat pembaruan yang dirancang dengan baik. Di sisi lain, ia sangat bergantung pada infrastruktur Ubuntu, membuatnya bergantung pada pilihan teknis Ubuntu (terutama pada tingkat kernel dan repositori). Mint sangat cocok untuk pengguna non-teknis, atau mereka yang menginginkan sistem siap pakai yang tidak memerlukan banyak pembelajaran.
 
@@ -573,7 +573,7 @@ Instalasinya mudah, perangkat lunak esensial sudah terinstal di awal, dan versi 
 
 Diluncurkan pada tahun 2011, elementary OS adalah distribusi berbasis Ubuntu yang berfokus terutama pada desain dan konsistensi Interface. Lingkungan desktop Pantheon-nya, yang terinspirasi oleh macOS, bersifat minimalis, elegan, dan lancar. Namun, sistem ini kurang dapat disesuaikan dibandingkan dengan distribusi lain, dan beberapa pengguna tingkat lanjut mungkin merasa terbatas oleh pilihan Interface serta strukturnya yang sengaja dikunci. Sistem ini sangat cocok untuk pengguna yang sensitif terhadap estetika dan mencari sistem yang sederhana dan serasi untuk penggunaan sehari-hari.
 
-https://planb.network/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
+https://planb.academy/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
 
 ![Image](assets/fr/023.webp)
 
@@ -595,7 +595,7 @@ Fedora adalah distribusi yang didukung oleh Red Hat, berorientasi pada teknologi
 
 ![Image](assets/fr/025.webp)
 
-https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
+https://planb.academy/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
 
 - **openSUSE**: (Tumbleweed atau Leap):
 
@@ -609,7 +609,7 @@ Debian hadir dalam beberapa cabang, termasuk *Stable* (sangat andal, tetapi pera
 
 ![Image](assets/fr/027.webp)
 
-https://planb.network/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
+https://planb.academy/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
 
 - **Manjaro**:
 
@@ -623,7 +623,7 @@ Arch Linux adalah distribusi minimalis yang dapat diperbarui terus-menerus, dipa
 
 ![Image](assets/fr/029.webp)
 
-https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+https://planb.academy/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 #### Distribusi khusus
 
@@ -643,7 +643,7 @@ Parrot OS juga merupakan turunan dari Debian. Parrot OS menawarkan lingkungan un
 
 Tails adalah distribusi langsung (live distribution) berbasis Debian yang berfokus pada privasi. Semua lalu lintasnya melewati jaringan Tor, dan tidak ada yang disimpan di antara sesi pengguna. Ini adalah distribusi ideal untuk penggunaan sekali pakai yang sensitif (jurnalisme, aktivisme, pembuatan seed Bitcoin...).
 
-https://planb.network/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
+https://planb.academy/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
 → **Catatan**: Distribusi langsung adalah sistem operasi Linux yang dapat digunakan langsung dari flash drive USB atau CD, tanpa instalasi pada hard disk.
 
@@ -950,7 +950,7 @@ Anda kemudian akan diminta untuk menyiapkan akun pengguna (nama, kata sandi, nam
 
 Untuk informasi lebih lanjut tentang penginstal Ubuntu, Anda juga dapat membaca tutorial ini:
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 Setelah instalasi selesai, lepaskan flash drive USB saat diminta, lalu reboot. Ubuntu kini akan terinstal dan siap digunakan di komputer Anda.
 
@@ -1600,13 +1600,13 @@ sudo snap install code --classic
 
 Selain beberapa program dasar ini, saya juga menyarankan Anda untuk memasang peralatan keamanan penting yang disesuaikan dengan kasus penggunaan Anda, khususnya pengelola kata sandi dan VPN:
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 Terakhir, sebagai penutup bab ini, berikut adalah beberapa langkah praktik yang dapat diikuti setiap hari:
 
@@ -1651,9 +1651,9 @@ Kata sandi ini harus kuat:
 
 Kata sandi yang rumit pasti akan sulit diingat. Oleh karena itu, saya sarankan untuk menggunakan pengelola kata sandi seperti Bitwarden atau KeePass.
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Terakhir, ubah kata sandi ini secara teratur-setiap 3 hingga 6 bulan-khususnya jika perangkat Anda digunakan di lingkungan bersama atau perangkat seluler.
 
@@ -1705,11 +1705,11 @@ Terakhir, salah satu tindakan paling penting yang dapat Anda ambil untuk melindu
 - Windows menggunakan BitLocker, tetapi aktivasinya bergantung pada komputer dan versi OS
 - Distribusi Linux tidak secara otomatis mengenkripsi disk, kecuali jika pilihan ini dipilih pada saat instalasi. Anda dapat menggunakan LUKS untuk mengenkripsi disk
 
-https://planb.network/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
+https://planb.academy/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
 
 Dalam semua kasus, kata sandi dekripsi harus kuat, berbeda dari kata sandi sistem, dan disimpan dalam manajer kata sandi yang aman. Jika Anda menggunakan disk eksternal atau flash drive USB yang berisi data sensitif, pertimbangkan juga untuk mengenkripsinya secara individual dengan program seperti VeraCrypt.
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 ### Prinsip keistimewaan yang paling sedikit
 
@@ -1760,7 +1760,7 @@ Teknologi ini didasarkan pada hypervisor, sebuah program perangkat lunak yang me
 
 ![Image](assets/fr/206.webp)
 
-https://planb.network/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
+https://planb.academy/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
 
 Dari segi keamanan TI, salah satu keuntungan besar dari mesin virtual adalah kemampuannya untuk mengkompartementalisasi. Sebuah VM tidak berbagi file, proses, atau akses jaringan dengan sistem host (utama), kecuali jika Anda secara eksplisit mengonfigurasi pertukaran ini. Jadi, jika sebuah VM terinfeksi *malware*, atau jika Anda menguji perangkat lunak sensitif di dalamnya, dampaknya akan tetap terbatas pada mesin virtual tersebut: sistem utama Anda akan tetap utuh, asalkan parameter isolasi dihormati (tidak ada direktori yang dibagikan, tidak ada perangkat USB yang diteruskan ke VM, dll.).
 
@@ -2033,7 +2033,7 @@ _Fail2ban_: memantau log sistem untuk upaya menggalkan akses (seperti upaya logi
 
 ![Image](assets/fr/218.webp)
 
-https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
+https://planb.academy/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
 
 #### Pada macOS
 
@@ -2088,9 +2088,9 @@ Program kedua adalah tanda tangan digital. Program ini memverifikasi keaslian pe
 
 Sistem ini bergantung pada kriptografi asimetris dan program seperti GnuPG (command line) atau Kleopatra (Interface grafis untuk Windows). Program-program ini harus dikonfigurasi dengan benar, dan public key pengembang harus diverifikasi melalui saluran aman (situs web resmi, fingerprint di Twitter, dll.). Mari kita lihat sisi praktisnya.
 
-Untuk mempelajari lebih lanjut tentang fungsi hash kriptografi dan tanda tangan digital, saya mengundang Anda untuk mengikuti kursus gratis CYP 201 yang ditawarkan di Plan ₿ Network.
+Untuk mempelajari lebih lanjut tentang fungsi hash kriptografi dan tanda tangan digital, saya mengundang Anda untuk mengikuti kursus gratis CYP 201 yang ditawarkan di Plan ₿ Academy.
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### Memverifikasi integritas dan keaslian perangkat lunak
 
@@ -2300,7 +2300,7 @@ Alice menyimpan satu versi filenya di laptop, tempat ia menggunakannya setiap ha
 
 Dengan konfigurasi ini, Alice sudah terlindungi dari banyak ancaman umum. Namun, satu risiko tetap ada: jika terjadi kebakaran atau perampokan di rumahnya, kedua salinan lokalnya (komputer dan flash drive USB) bisa hilang pada saat yang bersamaan. Untuk mengurangi risiko ini, ia memutuskan untuk menggunakan layanan penyimpanan cloud, yang juga ia gunakan untuk menyinkronkan file-filenya secara rutin.
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Dengan demikian, Alice mematuhi aturan 3-2-1: memiliki 3 salinan file (komputer, Flash Drive USB, cloud), yang disimpan di setidaknya 2 media yang berbeda (disk internal, Flash Drive USB, server jarak jauh), dengan setidaknya 1 salinan di luar lokasi (server cloud).
 
@@ -2344,7 +2344,7 @@ Enkripsi penuh seperti kunci gembok: selama kata sandi tidak diberikan, data tet
 
 Pada Linux, solusi standarnya adalah LUKS (*Linux Unified Key Setup*). LUKS adalah sistem manajemen volume terenkripsi yang terintegrasi ke dalam sebagian besar distribusi. Saat sistem pertama kali diinstal, Anda umumnya akan diminta untuk mengenkripsi seluruh disk komputer. Tentu saja, saya sangat merekomendasikan Anda untuk mengaktifkan opsi ini. Setelah enkripsi diaktifkan, sistem akan meminta kata sandi pada setiap boot, bahkan sebelum OS dimuat. Ini memastikan bahwa akses fisik ke disk tidak dapat melewati sistem keamanan.
 
-https://planb.network/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
+https://planb.academy/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
 
 Jika Anda ingin mengenkripsi disk eksternal atau flash drive USB, ini juga dapat dilakukan dari baris perintah atau melalui Interface grafis. Disk tersebut harus diformat, sehingga semua data yang ada akan hilang jika tidak dicadangkan terlebih dahulu.
 
@@ -2495,7 +2495,7 @@ _VeraCrypt_ adalah free software dan lintas-platform yang kompatibel dengan Wind
 
 Untuk mempelajari lebih lanjut mengenai solusi ini, silakan baca tutorial lengkap ini:
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 - *macOS :*
 
@@ -2539,11 +2539,11 @@ Protokol ini sempurna untuk bertukar file sensitif secara aman dengan orang lain
 
 Alternatif yang sangat baik adalah Cryptomator. Perangkat lunak open source ini memungkinkan Anda untuk membuat brankas: sebuah direktori khusus di mana semua file yang ditempatkan secara otomatis dienkripsi. Brankas ini dapat disinkronkan dengan layanan cloud seperti Dropbox, Google Drive, atau Nextcloud tanpa penyedia tersebut pernah memiliki akses ke data yang tidak terenkripsi. Aplikasi ini tersedia di semua sistem operasi, termasuk Android dan iOS, dan tidak memerlukan keahlian teknis khusus untuk menggunakannya.
 
-https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
+https://planb.academy/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 ![Image](assets/fr/256.webp)
 
-https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+https://planb.academy/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
 
 Terakhir, VeraCrypt juga dapat digunakan dalam mode kontainer, yang menciptakan file yang berfungsi sebagai arsip terenkripsi, dapat dipasang seperti disk.
 
@@ -2924,9 +2924,9 @@ Google Chrome didasarkan pada proyek Chromium, yang merupakan open source. Namun
 
 Jadi saya tidak akan merekomendasikan penggunaan Google Chrome, baik secara pribadi maupun profesional (kecuali, tentu saja, bisnis Anda bergantung pada aplikasi Google). Faktanya, ada beberapa alternatif yang sangat baik untuk layanan Google, baik lokal maupun di cloud. Secara khusus, saya mengundang Anda untuk menemukan layanan yang ditawarkan oleh Proton:
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 #### Brave
 
@@ -3017,7 +3017,7 @@ Firefox tetap menjadi patokan untuk keamanan dan privasi, meskipun sedikit terti
 
 [Tor Browser](https://www.torproject.org/download/) adalah browser yang didasarkan pada Firefox ESR. browser ini adalah salah satu solusi paling kuat untuk anonimitas online. browser ini mengarahkan lalu lintas melalui jaringan Tor, sehingga mencegah korelasi langsung antara pengguna dan website tujuan.
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 Kekurangannya adalah penurunan kinerja yang signifikan (latensi tinggi) dan kompatibilitas yang terbatas dengan situs web tertentu. Tor Browser ideal untuk aktivitas sensitif (jurnalisme, aktivisme...), tetapi kurang cocok untuk penggunaan sehari-hari.
 
@@ -3029,7 +3029,7 @@ Kekurangannya adalah penurunan kinerja yang signifikan (latensi tinggi) dan komp
 
 browser ini memiliki sebagian besar fitur keamanan dan privasi yang ditawarkan oleh Tor Browser, dengan satu perbedaan: Browser ini tidak mengarahkan lalu lintas melalui jaringan Tor. Untuk menghindari kebocoran alamat IP, Anda dapat menggunakannya dalam kombinasi dengan VPN (idealnya, Mullvad VPN).
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 Mullvad Browser adalah solusi yang sangat baik jika Anda peduli dengan privasi Anda, baik Anda seorang pemula maupun pengguna tingkat lanjut.
 
@@ -3188,21 +3188,21 @@ Menerapkan dua prinsip keamanan kata sandi ini (keunikan dan kekuatan) bisa jadi
 
 Pengelola kata sandi secara aman menghasilkan dan menyimpan kata sandi yang kuat, memungkinkan Anda untuk mengakses semua akun online Anda tanpa harus menghafalnya satu per satu. Anda hanya perlu mengingat satu kata sandi, kata sandi utama (master password), yang memberi Anda akses ke semua kata sandi Anda yang disimpan di pengelola. Menggunakan pengelola kata sandi akan memperkuat keamanan online Anda, karena mencegah penggunaan kembali kata sandi dan secara sistematis menghasilkan kata sandi acak.
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Menggunakan pengelola kata sandi memiliki sejumlah keunggulan: menyederhanakan kehidupan sehari-hari Anda dengan menghilangkan kebutuhan untuk menghafal banyak kata sandi, dan meminimalkan kelemahan otentikasi utama: pengguna itu sendiri.
 
 Dalam hal otentikasi, penggunaan pengelola kata sandi harus dilengkapi dengan solusi otentikasi dua faktor (2FA), untuk digunakan pada semua akun yang mendukungnya. Idealnya, Anda harus menggunakan aplikasi khusus, atau bahkan lebih baik, perangkat fisik seperti Yubikey.
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/trezor-u2f-fido2-41d2939e-69b9-4c2e-b836-a2b09de58051
+https://planb.academy/tutorials/computer-security/authentication/trezor-u2f-fido2-41d2939e-69b9-4c2e-b836-a2b09de58051
 
-https://planb.network/tutorials/computer-security/authentication/ledger-fido-u2f-59f8105b-a0cc-4aff-bc56-048a6a42d39f
+https://planb.academy/tutorials/computer-security/authentication/ledger-fido-u2f-59f8105b-a0cc-4aff-bc56-048a6a42d39f
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ### Menggunakan VPN
 
@@ -3220,11 +3220,11 @@ Selain itu, program VPN tidak boleh disalahartikan dengan jaringan Tor, yang mer
 
 VPN yang baik harus memiliki kebijakan tanpa pencatatan yang jelas, menawarkan teknologi modern (terutama WireGuard), memungkinkan penggunaan layanan secara anonim, dan menawarkan basis teknis open source atau yang diaudit secara publik. Dengan demikian, saya merekomendasikan program seperti Mullvad atau IVPN.
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
+https://planb.academy/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
 
 VPN yang terkenal sebaiknya dihindari. Meskipun pemasaran mereka agresif, layanan ini tetap merupakan layanan komersial terpusat, sering kali berbasis di yurisdiksi yang kurang protektif, dan jarang transparan tentang operasional teknis mereka yang sebenarnya.
 
@@ -3516,7 +3516,7 @@ GrapheneOS tidak mengintegrasikan komponen eksklusif apa pun. Anda bebas untuk m
 
 Graphene hanya kompatibel dengan Google Pixel terbaru (Pixel 6, 7, 8, dan 9).
 
-https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.academy/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
 #### CalyxOS
 
@@ -3659,11 +3659,11 @@ Jaringan Wi-Fi publik, seperti yang ada di kafe, hotel, atau transportasi umum, 
 
 Untuk melindungi diri Anda, cukup hindari menggunakan jaringan publik ini, atau gunakan VPN, yang akan menciptakan saluran terenkripsi antara perangkat Anda dan server jarak jauh. Saluran ini menyelimuti data Anda, membuatnya sangat sulit untuk dicegat atau dimodifikasi.
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
+https://planb.academy/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
 
 Mengenai jaringan Wi-Fi di rumah Anda, kita akan membahasnya di bagian terakhir kursus SCU 202.
 
@@ -3714,7 +3714,7 @@ Mencadangkan rutin data smartphone Anda sangat penting untuk keamanan Anda. Namu
 
 Untuk mencapai hal ini, Anda harus menggunakan solusi lokal terenkripsi, seperti disk eksternal atau USB flash drive terenkripsi (misalnya dengan Veracrypt). Jika tidak, solusi cloud yang dikelola mandiri seperti _Syncthing_ atau _Nextcloud_ memungkinkan Anda untuk mencadangkan data Anda di server pribadi, sambil mempertahankan kontrol penuh atas akses dan kerahasiaan. Berbeda dengan layanan cloud komersial (Google Drive, iCloud...), solusi ini secara signifikan memberikan sedikit paparan informasi Anda kepada pihak ketiga.
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 #### Penyeka jarak jauh
 
@@ -3780,7 +3780,7 @@ Namun, Signal memiliki kelemahan dalam hal anonimitas: aplikasi ini memerlukan n
 
 Singkatnya, Signal adalah solusi aplikasi pesan instan yang sangat baik, tetapi sayangnya, memerlukan koneksi dari nomor telepon.
 
-https://planb.network/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
+https://planb.academy/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
 
 #### WhatsApp
 
@@ -3796,7 +3796,7 @@ Telegram adalah layanan perpesanan yang sangat populer berkat ergonomi dan fitur
 
 Oleh karena itu, Telegram secara teknis dapat mengakses konten dari sebagian besar percakapan yang tidak dilindungi secara eksplisit. Bahkan jika perusahaan mengambil sikap tegas terhadap otoritas pemerintah, Telegram bukanlah solusi optimal untuk pertukaran rahasia atau sensitif, kecuali jika Anda secara eksplisit menggunakan "pertukaran rahasia"nya, yang jauh lebih tidak praktis dalam penggunaan sehari-hari.
 
-https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
+https://planb.academy/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
 #### Threema
 
@@ -3812,7 +3812,7 @@ Aspek penting lainnya dari Threema adalah model bisnisnya: aplikasi ini tidak gr
 
 Menurut saya solusi perpesanan ini sangat baik, tetapi kekurangan utamanya adalah source code untuk server-nya tetap bersifat eksklusif.
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
 
 #### SimpleX Chat
 
@@ -3828,7 +3828,7 @@ Kontak ditambahkan melalui tautan sementara atau alamat statis (pengenal permane
 
 Dalam hal keamanan dan kerahasiaan, SimpleX melangkah lebih baik dari sebagian besar sistem perpesanan yang ada, membatasi metadata seminimal mungkin dan menghilangkan ketergantungan pada direktori pusat atau pengenal unik. Namun, arsitektur ini memberikan sejumlah kelemahan dalam hal keramahan pengguna: ergonomi yang terkadang kurang intuitif, membutuhkan waktu pembelajaran di awal, dan ketergantungan pada ketersediaan server relai.
 
-https://planb.network/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
+https://planb.academy/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
 
 #### Session
 
@@ -3840,7 +3840,7 @@ Secara teknis, Session mengimplementasikan enkripsi end-to-end untuk pesan, file
 
 Klien dan server Session bersifat open-source. Perangkat lunak ini tersedia di Android, iOS, Windows, macOS, dan Linux, dengan opsi untuk sinkronisasi antar perangkat melalui frasa mnemonik yang mirip dengan yang digunakan di dompet Bitcoin. Frasa ini memberikan kontrol eksklusif kepada pengguna atas datanya, tetapi juga membebankan tanggung jawab yang signifikan dalam hal pencadangan.
 
-https://planb.network/tutorials/computer-security/communication/session-b0e3193c-2129-4f1b-9013-c211210724c3
+https://planb.academy/tutorials/computer-security/communication/session-b0e3193c-2129-4f1b-9013-c211210724c3
 
 #### Keet
 
@@ -3854,7 +3854,7 @@ Di sisi lain, meskipun beberapa komponen (kriptografi dan jaringan) diterbitkan 
 
 Keet tersedia di Android, iOS, Windows, macOS, dan Linux, dan dapat disinkronkan antar perangkat menggunakan frasa mnemonik.
 
-https://planb.network/tutorials/computer-security/communication/keet-efdb759d-5e94-4bbf-b28c-5fa8669c809b
+https://planb.academy/tutorials/computer-security/communication/keet-efdb759d-5e94-4bbf-b28c-5fa8669c809b
 
 #### Olvid
 
@@ -3879,7 +3879,7 @@ Aplikasi ini disertifikasi oleh ANSSI (_Agence Nationale de la Sécurité des Sy
 
 Olvid kompatibel dengan Android, iOS, Windows, macOS, dan Linux. Ergonominya tetap sederhana dan mudah diakses. Aplikasi ini juga memiliki sistem cadangan terenkripsi untuk kunci dan kontak, sehingga Anda dapat memulihkan akun di perangkat baru.
 
-https://planb.network/tutorials/computer-security/communication/olvid-05038dc1-62c0-4a47-be4e-3d23c6155bfd
+https://planb.academy/tutorials/computer-security/communication/olvid-05038dc1-62c0-4a47-be4e-3d23c6155bfd
 
 ### Aplikasi perpesanan yang harus dihindari
 
@@ -4104,7 +4104,7 @@ Bitwarden adalah salah satu pengelola kata sandi open-source paling lengkap yang
 
 Anda dapat menggunakan server Bitwarden, atau mengelola sendiri (self-host) jika Anda suka untuk kontrol total. Interface mobile-nya jelas dan lancar, dengan integrasi yang mulus ke dalam sistem Android atau iOS.
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 - [KeePassDX](https://www.keepassdx.com/)
 
@@ -4114,7 +4114,7 @@ KeePass adalah pengelola kata sandi yang sudah ada lama yang didasarkan pada fil
 
 Ada juga [KeePassium](https://keepassium.com/) untuk iOS, aplikasi yang terintegrasi dengan baik dalam ekosistem Apple, kompatibel dengan format KeePass, dan open-source. Alternatif iOS lain untuk aplikasi KeePass adalah Strongbox, tetapi perangkat lunak ini tidak lagi open-source selama beberapa tahun.
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 - [Proton Pass](https://proton.me/pass)
 
@@ -4134,13 +4134,13 @@ Namun, tidak semua VPN diciptakan sama. Layanan populer seperti NordVPN atau Exp
 
 Mullvad adalah salah satu VPN terbaik dalam hal perlindungan privasi. Aplikasi ini tidak memerlukan email atau kata sandi: Akun Anda terhubung ke nomor acak sederhana. Pembayaran dapat dilakukan dalam bitcoin atau tunai. Aplikasi mobile-nya open-source, mudah digunakan, dan kuat. Mullvad tidak menyimpan log, tidak melacak penggunanya, dan secara rutin mempublikasikan audit keamanan independen.
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 - [IVPN](https://www.ivpn.net/)
 
 IVPN adalah alternatif berfokus pada privasi lain yang sangat baik. Aplikasi ini menawarkan Interface mobile yang sederhana dan efisien, tidak ada pengumpulan log, dan memungkinkan pendaftaran anonim. Anda juga dapat membayar dengan bitcoin. Aplikasi ini menggabungkan firewall yang memblokir semua lalu lintas non-VPN, yang bisa sangat berguna di smartphone. Aplikasi penggunanya juga open-source.
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
 
 - [Proton VPN](https://protonvpn.com/)
@@ -4174,11 +4174,11 @@ Ente Auth menawarkan banyak fitur tambahan: Organisasi berdasarkan tag, ikon khu
 
 Authy menawarkan sinkronisasi 2FA di beberapa perangkat, yang bisa berguna, tetapi aplikasi ini tidak open-source dan memerlukan nomor telepon untuk pendaftaran. Namun, bagi pemula, aplikasi ini lebih lengkap daripada Google Authenticator, berkat fungsi cadangan cloud-nya.
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Jika Anda ingin mengetahui lebih lanjut tentang pengelola kata sandi, otentikasi 2FA, dan VPN, saya sarankan Anda membaca bab-bab khusus di kursus SCU-101:
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 ### Cuaca
 
@@ -4600,7 +4600,7 @@ Seperti yang kita ketahui di bab sebelumnya, mengamankan jaringan rumah Anda san
 
 Setelah meninjau dasar-dasar teoretis, bab ini akan memandu Anda melalui langkah-langkah yang jelas, praktis, dan efektif untuk meningkatkan keamanan jaringan lokal Anda.
 
-*Harap diperhatikan: Informasi yang diberikan di sini bersifat umum, karena Plan ₿ Network ditujukan untuk audiens internasional. Bergantung pada keadaan lokal Anda dan ISP Anda, cara terbaik tertentu mungkin tidak disebutkan di sini, atau mungkin berlaku dengan cara yang berbeda.*
+*Harap diperhatikan: Informasi yang diberikan di sini bersifat umum, karena Plan ₿ Academy ditujukan untuk audiens internasional. Bergantung pada keadaan lokal Anda dan ISP Anda, cara terbaik tertentu mungkin tidak disebutkan di sini, atau mungkin berlaku dengan cara yang berbeda.*
 
 ### Memilih dan mengamankan peralatan jaringan Anda
 
@@ -4621,9 +4621,9 @@ Jika router Anda tidak lagi dirawat tetapi masih berfungsi dengan benar dari sud
 
 ![Image](assets/fr/196.webp)
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 Sistem-sistem ini memungkinkan kontrol yang lebih baik terhadap aturan firewall, koneksi keluar dan masuk, segmentasi jaringan (VLANs), dan manajemen DNS, tetapi lebih ditujukan untuk pengguna tingkat lanjut.
 
@@ -4648,9 +4648,9 @@ Oleh karena itu, sangat penting bagi Anda untuk mengubah identifier Anda segera 
 
 Kata sandi ini harus panjang (40 karakter), kompleks (angka, huruf kecil, huruf besar, dan simbol), unik (tidak boleh digunakan kembali di tempat lain), dan acak. Saya jelas merekomendasikan untuk menggunakan password manager untuk membuat dan menyimpan kredensial ini dengan aman.
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Peringatan: Jangan bingung antara kata sandi administrasi router (yang melindungi akses ke konfigurasinya) dengan kata sandi Wi-Fi (yang memungkinkan Anda untuk terhubung ke jaringan nirkabel). Ini adalah dua elemen yang berbeda, dan keduanya perlu diubah.
 
@@ -4677,7 +4677,7 @@ Awalnya dirancang untuk menyederhanakan koneksi perangkat ke Wi-Fi tanpa memasuk
 
 Beberapa router memungkinkan Anda untuk terhubung ke menu administrasinya dari luar, melalui Internet. Fitur ini secara tidak wajar meningkatkan celah serangan router Anda. Nonaktifkan sepenuhnya, kecuali jika Anda memiliki kebutuhan spesifik untuk manajemen jarak jauh. Bahkan kemudian, selalu gunakan VPN.
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 
 - **Protokol yang sudah usang atau tidak aman**:
@@ -4765,7 +4765,7 @@ Selain itu, modem router yang disediakan ISP tidak selalu mendukung fitur ini. J
 
 Untuk melangkah lebih jauh, Anda juga dapat menyiapkan solusi penyaringan DNS lokal seperti Pi-hole atau AdGuard Home. 
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
 Aplikasi-aplikasi ini berfungsi seperti DNS server kecil di dalam jaringan Anda, memblokir permintaan ke domain yang dikenal sebagai tempat hosting iklan, pelacak browser, phishing, atau situs berbahaya. Aplikasiini juga memungkinkan Anda untuk membuat daftar pemblokiran Anda sendiri atau menyesuaikan penyaringan sesuai dengan perangkat yang terhubung.
 
@@ -4784,19 +4784,19 @@ Dua solusi utama untuk pelanggan pribadi adalah:
 - WireGuard: Modern, cepat dan ringan
 - OpenVPN: Lebih lama, tetapi sangat matang dan dapat dikonfigurasi
 
-https://planb.network/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
+https://planb.academy/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
 
 Berikut ini tutorial lengkap tentang Tailscale, solusi VPN yang mudah dikonfigurasi yang menggunakan WireGuard:
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 Anda dapat men-hosting VPN ini secara langsung pada router yang kompatibel, pada komputer kecil (seperti Raspberry Pi) atau pada server khusus di rumah. Anda juga dapat memasangnya sebagai klien secara langsung di perangkat apa pun.
 
 Tetapi VPN bukan hanya untuk akses jarak jauh. Anda juga dapat menggunakan klien VPN klasik pada perangkat Anda untuk mengenkripsi semua lalu lintas keluar Anda, bahkan saat Anda jauh dari rumah (Wi-Fi publik, hotel, universitas, dll.). Dalam kasus ini, perangkat Anda terhubung ke VPN server pihak ketiga (komersial atau di-hosting sendiri), yang kemudian mengalihkan koneksi Anda ke Internet. Ini menyembunyikan alamat IP asli Anda dari ISP, melindungi data Anda dari mata-mata lokal, dan menghindari bentuk sensor tertentu.
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
 Terakhir, juga dimungkinkan untuk menyiapkan VPN secara langsung pada router Anda, memungkinkan Anda untuk melindungi semua perangkat di rumah Anda tanpa harus memasang klien VPN pada setiap perangkat.
 
@@ -4806,17 +4806,17 @@ Setelah jaringan Anda dikonfigurasi dan disegmentasi dengan benar, penting untuk
 
 Langkah pertama adalah mensentralisasi log keamanan. Setiap perangkat yang terhubung ke jaringan menghasilkan log yang berisi informasi tentang koneksi, kesalahan, atau aktivitas mencurigakan. Daripada memeriksa log ini satu per satu, saya merekomendasikan untuk mengirimnya ke server yang mampu mengelompokkan, menyortir, dan menganalisisnya. Solusi seperti Graylog atau Elastic Stack (ELK) memungkinkan Anda untuk menggabungkan log ini ke dalam Interface grafis di mana Anda dapat mencari peristiwa spesifik, membuat peringatan, atau memvisualisasikan aktivitas jaringan.
 
-https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
+https://planb.academy/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
 
 Selanjutnya, lakukan pemindaian aktif secara berkala terhadap jaringan lokal Anda, misalnya dengan Nmap. Ini akan memberi Anda gambaran umum tentang semua perangkat di jaringan Anda, dan port yang telah mereka buka. Jika Anda mengidentifikasi perangkat yang tidak dikenal atau layanan yang tidak biasa, ini bisa menjadi tanda serangan.
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 Untuk melangkah lebih jauh, Anda dapat memasang IDS (*Intrusion Detection System*), atau bahkan IPS (*Intrusion Prevention System*). Aplikasi-aplikasi, seperti Suricata atau Snort, memantau aliran jaringan secara real time dan mendeteksi tanda tangan serangan yang diketahui (port scans, injeksi, koneksi mencurigakan, dll.). IDS memberikan peringatan, sementara IPS dapat secara otomatis memblokir tindakan-tindakan tertentu.
 
 Terakhir, pemantauan konsumsi bandwidth juga merupakan indikator yang baik dari aktivitas abnormal. Jika sebuah perangkat tiba-tiba mengonsumsi banyak data tanpa alasan yang jelas, ini mungkin mengindikasikan unduhan yang tidak sah, kebocoran data, atau bahkan perangkat yang disusupi. Aplikasi seperti ntopng atau vnStat memungkinkan Anda untuk melihat aliran masuk dan keluar berdasarkan perangkat.
 
-https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
+https://planb.academy/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
 
 ### Pencadangan dan ketahanan
 

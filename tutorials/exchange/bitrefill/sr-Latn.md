@@ -8,7 +8,7 @@ description: Kako kupiti robu i usluge sa BTC koristeći Bitrefill?
 Iako se Bitcoin prvenstveno smatra sredstvom štednje danas, ostaje valuta čija korisnost leži u njenoj sposobnosti da cirkuliše iz ruke u ruku. Ako trgovci oko vas prihvataju Bitcoin kao način plaćanja, imate opciju da ga direktno potrošite kod njih. Nažalost, ova praksa još uvek nije široko rasprostranjena, i većina trgovaca još uvek ne prihvata BTC nativno.
 
 
-Najbolje rešenje ostaje da se lokalni trgovci "orange pill-uju" kako bi prihvatili Bitcoin, objašnjavajući prednosti ovog sistema. Možete koristiti tutorijale dostupne u odeljku ["*merchants*"](https://planb.network/tutorials/merchant) na našem sajtu kao podršku. Ova strategija može biti efikasna sa malim nezavisnim trgovcima, ali se pokazuje složenijom za velike nacionalne lance, jer kontakti na licu mesta obično nisu oni koji donose odluke u vezi sa metodama plaćanja.
+Najbolje rešenje ostaje da se lokalni trgovci "orange pill-uju" kako bi prihvatili Bitcoin, objašnjavajući prednosti ovog sistema. Možete koristiti tutorijale dostupne u odeljku ["*merchants*"](https://planb.academy/tutorials/merchant) na našem sajtu kao podršku. Ova strategija može biti efikasna sa malim nezavisnim trgovcima, ali se pokazuje složenijom za velike nacionalne lance, jer kontakti na licu mesta obično nisu oni koji donose odluke u vezi sa metodama plaćanja.
 
 
 Dok čekate masovnije usvajanje od strane ovih lanaca, možete trošiti svoje bitkoine koristeći posrednički način plaćanja: poklon kartice. I upravo to Bitrefill nudi da vam obezbedi.
@@ -46,9 +46,9 @@ Unesite email Address. Ako želite da vaš nalog ostane anoniman, pobrinite se d
 Ako želite da naučite kako lako kreirati sigurnu email poštu i kako upravljati vašim lozinkama, preporučujem da pogledate ova 2 druga vodiča:
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Zatim, kliknite na dugme "*Create account*".
 
@@ -85,7 +85,7 @@ U odeljku "*Two factor authentication*", kliknite na dugme "*Enable*" i pratite 
 Da biste saznali više o tome kako koristiti dvofaktorsku autentifikaciju za zaštitu vaših online naloga, preporučujem da pogledate ovaj drugi vodič:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 ## Kako kupiti poklon karticu u BTC na Bitrefill-u?
 
@@ -158,4 +158,4 @@ I eto ga, sada znate kako da trošite svoje bitkoine bez KYC-a kod velikih trgov
 Ako želite da doprinesete popularizaciji Bitcoin i ohrabrite nezavisnog trgovca da usvoji ovaj način plaćanja, preporučujem da pogledate naš kompletan vodič o Swiss Bitcoin Pay. To je sve-u-jednom rešenje za BTC procesore plaćanja, lako za instalaciju i svakodnevno upravljanje:
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

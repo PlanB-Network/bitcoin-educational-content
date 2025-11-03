@@ -122,7 +122,7 @@ Važno je da ovu novu tehnologiju razumete na opšti način, tako da se nadamo d
 Spremni da zaronite u fascinantan svet Bitkoina i razumete sve njegove unutrašnje mehanizme? Hajde da krenemo!
 
 
-**Napomena**: Ako tokom kursa naiđete na nepoznate termine, molimo vas da pogledate [glosar](https://planb.network/resources/glossary) za definicije.
+**Napomena**: Ako tokom kursa naiđete na nepoznate termine, molimo vas da pogledate [glosar](https://planb.academy/resources/glossary) za definicije.
 
 ## Praistorija Bitkoina
 
@@ -207,7 +207,7 @@ Međutim, da li je Bitkoin "prava" valuta? Da bismo to razumeli, prvo moramo raz
 Ako želite da istražite istoriju Bitkoina detaljnije, toplo preporučujemo naš kurs HIS 201, gde ćete otkriti poreklo i spor nastanak Bitkoina, kao i početke njegove istorije i zajednice. Ovaj kurs je potpuno dokumentovan i potkrepljen izvorima, sa, naravno, mnogo anegdota:
 
 
-https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
+https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 # Novac
 
@@ -387,7 +387,7 @@ Možemo zaključiti ovo poglavlje citatom dobitnika Nobelove nagrade F.A. Hayeka
 Da biste saznali više o ekonomskim zabludama i slobodi, pozivamo vas da otkrijete naš kurs ECO 102, koji prati život i ideje Frédérica Bastiata, francuskog mislioca iz 19. veka koji bi sigurno cenio pojavu Bitkoina:
 
 
-https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
+https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
 ## Hiperinflacija
 
@@ -525,7 +525,7 @@ Valuta koja se oslanja na pouzdanu treću stranu kao što je finansijska institu
 Da biste dublje istražili temu hiperinflacije, preporučujemo kurs ECO 204 Davida St-Ongea, gde ćete naučiti šta su hiperinflacioni ciklusi i njihov stvarni uticaj na naše živote. Takođe ćete otkriti sličnosti između ovih ciklusa i, što je najvažnije, kako se zaštititi od njih.
 
 
-https://planb.network/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
+https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
 ## 21 milion Bitkoina
 
@@ -580,7 +580,7 @@ Nakon uspešnog izvršavanja ovog zadatka, rudari dobijaju nagradu u vidu izdava
 | 19             | 3,990,000    | 0.000095367431640625 BTC  | 20,999,959.946 BTC                         |
 | 20             | 4,200,000    | 0.0000476837158203125 BTC | 20,999,979.973 BTC                         |
 
-Ponovo ćemo razmotriti koncept Mining detaljnije u [Miner poglavlju](https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
+Ponovo ćemo razmotriti koncept Mining detaljnije u [Miner poglavlju](https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
 
 
 ### Garantovanje digitalne oskudice
@@ -744,13 +744,13 @@ Srećom, od 2017. godine, privatni ključ može biti predstavljen jednostavnom l
 Dakle, verovatnoća hakovanja vašeg Bitkoin novčanika je astronomski niska ako pratite dobre bezbednosne prakse koje ćemo detaljno opisati u sledećem odeljku.
 
 
-Imajte na umu da odaberete pravi novčanik za vaše potrebe i upotrebu: detaljni tutorijali o upravljanju i osiguravanju različitih novčanika dostupni su u [odeljku sa tutorijalima našeg univerziteta](https://planb.network/tutorials/wallet).
+Imajte na umu da odaberete pravi novčanik za vaše potrebe i upotrebu: detaljni tutorijali o upravljanju i osiguravanju različitih novčanika dostupni su u [odeljku sa tutorijalima našeg univerziteta](https://planb.academy/tutorials/wallet).
 
 
 Ako, tokom vašeg putovanja kroz zečju rupu, želite da saznate više o izgradnji bitkoin novčanika, od entropije do primanja adresa, preporučujemo CYP 201 kurs posvećen ovoj temi:
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ## Bitkoin Novčanici i sigurnost
 
@@ -797,7 +797,7 @@ Ovde dole, definisaćemo nekoliko nivoa bezbednosti:
 Na primer, možete koristiti Sparrow novčanik kao Hot Wallet:
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 
 - **Nivo 2**, koristite fizički novčanik, i obezbedili ste svoju listu od 12/24 reči. Često se naziva "Cold Wallet" (Hladni novčanik), jer su vaši ključevi pohranjeni na uređaju koji nije povezan na internet. U ovom slučaju, uvek ćete morati da potpisujete svaku transakciju sa svojim uređajem, što čini vaša sredstva manje dostupnim na dnevnoj bazi.
@@ -806,11 +806,11 @@ https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7
 Na primer, možete koristiti Ledger, Satochip ili Tapsigner:
 
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
+https://planb.academy/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
 
-https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
+https://planb.academy/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
 
 ![image](assets/sr-Latn/031.webp)
 
@@ -822,7 +822,7 @@ https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4
 Da biste saznali više o upotrebi i funkcionisanju BIP39 passphrase (lozinke):
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ![image](assets/sr-Latn/032.webp)
 
@@ -861,7 +861,7 @@ Bezbednost vaših bitkoina je od presudnog značaja, i jednostavna greška može
 Imajte na umu da će vas kurs BTC102 voditi kroz ovaj korak.
 
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ### Ovaj korak nije šala!
 
@@ -911,7 +911,7 @@ I 'Cold'(hladni) i 'Hot'(vrući) novčanici koriste metodu liste reči kao stand
 Ako želite da otkrijete, korak po korak, kako da podesite svoj sopstveni novčanik i dobijete svoje prve bitkoine, preporučujemo da pohađate ovaj drugi kurs:
 
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ## Prolazak testa vremena
 
@@ -928,7 +928,7 @@ Kao i svaki oblik bogatstva, vaši bitkoini moraju biti zaštićeni od gubitka, 
 Jedan metod za dugoročno osiguranje vaših bitkoina je graviranje vaše Mnemonic fraze na izuzetno izdržljiv materijal poput čelika. Na ovaj način kreirate fizičku rezervnu kopiju vaših ključeva koja je otporna na oštećenja od vode i vatre.
 
 
-Različita rešenja su dostupna: neka od njih su niskobudžetna, kao što je "Blockmit", dok druga mogu zahtevati specijalizovaniju opremu. Možete dalje istražiti ovu temu u [tutorijalima](https://planb.network/en/tutorials/wallet) sekciji naše akademije.
+Različita rešenja su dostupna: neka od njih su niskobudžetna, kao što je "Blockmit", dok druga mogu zahtevati specijalizovaniju opremu. Možete dalje istražiti ovu temu u [tutorijalima](https://planb.academy/en/tutorials/wallet) sekciji naše akademije.
 
 
 ![image](assets/sr-Latn/036.webp)
@@ -940,7 +940,7 @@ Različita rešenja su dostupna: neka od njih su niskobudžetna, kao što je "Bl
 Uporedo sa ovom prvom praksom, kreiranje plana nasledstva je ključni korak kako biste osigurali da su vaši bitkoini pravilno upravljani nakon vaše smrti. Ovaj plan uključuje pisanje pisma rukom u kojem navodite prirodu vaše imovine, metode pristupa i kontakt informacije poverljivih osoba koje su odgovorne za njih. Takođe je važno razgovarati o nasledstvu bitkoina sa računovođom i/ili advokatom za imovinska pitanja kako biste osigurali usklađenost sa porezima, čak i ako ovoj osobi nikada ne bi trebalo direktno poveriti upravljanje vašim bitkoinima.
 
 
-Ako želite dalje istražiti temu plana nasleđivanja za vaše bitkoine, preporučujemo da pročitate knjigu Pamele Morgan [Cryptoasset Inheritance Plan](https://planb.network/resources/books/28) ili da se upišete na kurs BTC102, gde pružamo smernice za kreiranje vašeg plana.
+Ako želite dalje istražiti temu plana nasleđivanja za vaše bitkoine, preporučujemo da pročitate knjigu Pamele Morgan [Cryptoasset Inheritance Plan](https://planb.academy/resources/books/28) ili da se upišete na kurs BTC102, gde pružamo smernice za kreiranje vašeg plana.
 
 
 ![image](assets/sr-Latn/037.webp)
@@ -1060,7 +1060,7 @@ Uprkos odsustvu Satoshija, Bitkoin je nastavio da se razvija: istorija Bitkoin-a
 Za neke, Bitkoin je definisan kao gljivični entitet poput [micelijuma](https://brandonquittem.com/bitkoin-is-the-mycelium-of-money/), dok ga drugi opisuju kao [crnu rupu](https://dergigi.com/). Voleli ga ili mrzeli, Bitkoin nastavlja da postoji, sa svojim konstantnim ritmom od 10 minuta po bloku, poput otkucaja srca novog monetarnog sistema.
 
 
-Da biste saznali više o spisima Satoshi-ja Nakamoto-a, preporučujemo čitanje ["The Book of Satoshi"](https://planb.network/en/resources/books/98) autora Phil Champagne ili ARTE dokumentarac "Le mystaire Satoshi".
+Da biste saznali više o spisima Satoshi-ja Nakamoto-a, preporučujemo čitanje ["The Book of Satoshi"](https://planb.academy/en/resources/books/98) autora Phil Champagne ili ARTE dokumentarac "Le mystaire Satoshi".
 
 
 ![image](assets/sr-Latn/044.webp)
@@ -1348,7 +1348,7 @@ Teorija igara primenjena na Bitkoin eliminiše nepoštene rudare, koji koriste A
 Ako želite da se dublje upustite u specifičnu temu rudarenja Bitkoina, možete se konsultovati sa našim kursom MIN 201. Otkrićete kako funkcioniše i ulogu Proof-of-Work, kao i mehaniku rudarske industrije. Takođe objašnjavamo kako da konvertujete ASIC u grejač, omogućavajući vam da izrudarite svoje prve satoshije dok grejete svoj dom!
 
 
-https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
+https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 ## Bitkoin i ekologija
 
@@ -1577,13 +1577,13 @@ Ovu temu ćemo detaljno obraditi u drugom kursu, ali da bismo je pojednostavili,
 - Jednostavno online rešenje: OpenNode
 
 
-https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 
 - Rešenje za amaterske trgovce: Swiss bitkoin Pay
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 
 - Rešenje za velike organizacije ili strastvene bitkoinere: BTCpay Server
@@ -1592,7 +1592,7 @@ https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b0
 Da biste dodatno istražili ovu temu, preporučujemo naš kurs BIZ101! Otkrijte kako efikasno integrisati bitkoin u registar vaše kompanije, prihvatiti bitkoin kao sredstvo plaćanja u skladu sa profilom vaše organizacije i razumeti povezane poreske i računovodstvene zahteve:
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## Štednja u bitkoinu
 
@@ -1613,7 +1613,7 @@ Bitkoin je postao značajna finansijska imovina, uglavnom zbog svoje ograničene
 - Kontaktirajte svog finansijskog savetnika ako je potrebno.
 
 
-**Plan ₿ Network ne pruža nikakve investicione savete, i ništa ovde navedeno ne treba smatrati takvim**
+**Plan ₿ Academy ne pruža nikakve investicione savete, i ništa ovde navedeno ne treba smatrati takvim**
 
 
 ### Mini kontrolna lista pre nego što se odlučite na taj korak
@@ -1656,7 +1656,7 @@ Ova postepena strategija uključuje ponavljajuće kupovine, što znači kupovinu
 **Pazite na UTXO-e**: Ne zaboravite da s vremena na vreme konsolidujete svoje UTXO-e u svojim novčanicima. Ova praksa je ključna za efikasno upravljanje vašim bitkoinima i izbegavanje nepotrebnih naknada tokom transakcija.
 
 
-[UTXO](https://planb.network/en/resources/glossary/utxo) je izlaz transakcije koji još nije potrošen, što znači da nije korišćen kao ulaz za novu transakciju. Konsolidacija njih znači kombinovanje nekoliko malih UTXO-a u jedan veći, kako bi se smanjila "težina" transakcije, i time platile niže naknade.
+[UTXO](https://planb.academy/en/resources/glossary/utxo) je izlaz transakcije koji još nije potrošen, što znači da nije korišćen kao ulaz za novu transakciju. Konsolidacija njih znači kombinovanje nekoliko malih UTXO-a u jedan veći, kako bi se smanjila "težina" transakcije, i time platile niže naknade.
 
 
 
@@ -1679,7 +1679,7 @@ Postoji nekoliko načina za sticanje bitkoina, pri čemu je svaki podložan sops
 - DCA platforme
 
 
-Kao što smo već pomenuli, uobičajena metoda za akumulaciju bitkoina je Dollar Cost Averaging (DCA), koje podrazumeva redovnu kupovinu malih količina. Nekoliko platformi nudi ovu uslugu, kao što su one navedene na našoj [posvećenoj stranici](https://planb.network/tutorials/exchange). Pored jednostavnosti postavljanja DCA, povlačenja na vaš novčanik su uglavnom automatska, što znači da ćete uvek imati kontrolu nad svojim sredstvima.
+Kao što smo već pomenuli, uobičajena metoda za akumulaciju bitkoina je Dollar Cost Averaging (DCA), koje podrazumeva redovnu kupovinu malih količina. Nekoliko platformi nudi ovu uslugu, kao što su one navedene na našoj [posvećenoj stranici](https://planb.academy/tutorials/exchange). Pored jednostavnosti postavljanja DCA, povlačenja na vaš novčanik su uglavnom automatska, što znači da ćete uvek imati kontrolu nad svojim sredstvima.
 
 
 Danas su gotovo sva DCA rešenja relativno efikasna i imaju gotovo slične naknade, tako da će izbor više zavisiti od dostupnosti u vašoj zemlji.
@@ -1719,7 +1719,7 @@ Važno je prepoznati da je KYC značajna tema diskusije u industriji Bitkoina. I
 ### Rešenja bez KYC-a
 
 
-Pored toga, postoji nekoliko [marketplaces](https://planb.network/tutorials/exchange) gde možete kupovati i prodavati bitkoine u peer-to-peer Exchange. Uopšteno, možete razmotriti sledeće:
+Pored toga, postoji nekoliko [marketplaces](https://planb.academy/tutorials/exchange) gde možete kupovati i prodavati bitkoine u peer-to-peer Exchange. Uopšteno, možete razmotriti sledeće:
 
 
 
@@ -1738,7 +1738,7 @@ Konačno, važno je napomenuti da poreske obaveze mogu varirati u zavisnosti od 
 
 Ako želite da produbite svoje znanje o strategijama kupovine, korišćenja i obezbeđivanja svojih bitkoina, toplo vam preporučujem da nakon ovog kursa pohađate kurs **BTC 102**. Tamo ćete, između ostalog, otkriti preporuke za alate prilagođene vašem profilu, potrebama i ličnim ciljevima:
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ## Hiper-bitkoinizacija
 
@@ -1770,7 +1770,7 @@ Na kraju, pozivamo vas da razmislite o ovoj novoj monetarnoj revoluciji. Ima tol
 ![image](assets/sr-Latn/079.webp)
 
 
-Ako želite da proširite svoje znanje o Bitkoinu, ovo je pravo vreme: veliki broj autora, mislilaca i esejista kreirao je edukativni sadržaj o Bitkoinu. Poslednjih nekoliko godina, mi smo popisivali i kategorizovali ove radove kako bismo ponudili [biblioteku resursa](https://planb.network/resources) najradoznalijima među vama. U tom odeljku, naći ćete najbolje podkaste, vebsajtove, članke, tutorijale, knjige i drugi sadržaj.
+Ako želite da proširite svoje znanje o Bitkoinu, ovo je pravo vreme: veliki broj autora, mislilaca i esejista kreirao je edukativni sadržaj o Bitkoinu. Poslednjih nekoliko godina, mi smo popisivali i kategorizovali ove radove kako bismo ponudili [biblioteku resursa](https://planb.academy/resources) najradoznalijima među vama. U tom odeljku, naći ćete najbolje podkaste, vebsajtove, članke, tutorijale, knjige i drugi sadržaj.
 
 
 > "Mislim da će Internet postati jedna od glavnih sila za smanjenje uloge vlade. Jedina stvar koja nedostaje, ali će uskoro biti razvijena, je pouzdan e-novac - metoda pomoću koje na Internetu možete preneti sredstva sa A na B bez da A zna B ili B zna A." - Predviđanje Miltona Friedmana 1999.
@@ -1844,7 +1844,7 @@ Ukratko, Lightning mreža je obećavajući pokušaj implementacije efikasnog sis
 Ako želite da idete dalje od ovog uvoda i razumete sve funkcije Lightning mreže, preporučujemo da pohađate ovaj odličan kurs Fanisa Mihalakisa na tu temu:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ## Upotrebe Lightning mreže
 

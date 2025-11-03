@@ -332,7 +332,7 @@ La connexion via Tor est nécessaire si vous souhaitez accéder à votre nœud e
 
 ![Configuration connexion](assets/fr/21.webp)
 Pour plus d'informations sur le logiciel Sparrow Wallet, nous avons un tutoriel complet : 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 ## Conclusion
 
 Votre Umbrel est maintenant prêt à être utilisé. Vous participez activement au réseau Bitcoin tout en gardant le contrôle total de vos données. N'hésitez pas à explorer les nombreuses autres applications disponibles dans l'App Store d'Umbrel pour étendre les capacités de votre serveur domestique.

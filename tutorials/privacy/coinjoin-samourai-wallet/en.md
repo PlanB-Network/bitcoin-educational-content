@@ -152,7 +152,7 @@ For example, here is a real Whirlpool Tx0 (not from me): [edef60744f539483d868ca
 The surplus that could not be integrated into the pool, here equivalent to `40,000 sats`, is redirected to the **bad bank** account, also referred to as "doxxic change", to ensure a strict separation from the other UTXO in the wallet.
 
 This UTXO is dangerous for the user's privacy, as not only is it still attached to its past, and thus possibly to the identity of its owner, but additionally, it is noted as belonging to a user who has performed a coinjoin.
-If this UTXO is merged with mixed outputs, they will lose all the privacy gained during the coinjoin cycles, notably because of the Common-Input-Ownership-Heuristic (CIOH). If it is merged with other doxxic changes, the user risks losing privacy since this will link the different inputs of the coinjoin cycles. Therefore, it must be handled with caution. The way to manage this toxic UTXO will be detailed in the last part of this article, and future tutorials will cover these methods more in-depth on PlanB Network.
+If this UTXO is merged with mixed outputs, they will lose all the privacy gained during the coinjoin cycles, notably because of the Common-Input-Ownership-Heuristic (CIOH). If it is merged with other doxxic changes, the user risks losing privacy since this will link the different inputs of the coinjoin cycles. Therefore, it must be handled with caution. The way to manage this toxic UTXO will be detailed in the last part of this article, and future tutorials will cover these methods more in-depth on Plan ₿ Academy.
 
 **Step 3: The Initial Mix**
 After the `Tx0` is completed, the equalized UTXOs are sent to the **premix** account of our wallet, ready to be introduced into their first coinjoin cycle, also called "initial mix". If, as in our example, the `Tx0` generates multiple UTXOs for mixing, each of them will be integrated into a separate initial coinjoin.
@@ -178,7 +178,7 @@ However, this method has two notable drawbacks:
 - Coinjoins will only occur when Samourai is running in the background and connected. This means that if you want to mix and remix your bitcoins 24/7, you must constantly keep Samourai turned on;
 - If you use Whirlpool with Samourai Wallet without taking care to connect your own Dojo, then your application will have to connect to the server maintained by the Samourai teams, and you will reveal the `xpub` of your wallet to them. These anonymous pieces of information are necessary for your application to find your transactions.
 
-The ideal solution to overcome these limitations is to operate your own Dojo associated with a Whirlpool CLI instance on your personal Bitcoin node. This way, you will avoid any information leakage and achieve complete independence. Although the tutorial presented below is useful for certain goals or for beginners, to truly optimize your coinjoin session, using your own Dojo is recommended. A detailed guide on setting up this configuration will soon be available on PlanB Network.
+The ideal solution to overcome these limitations is to operate your own Dojo associated with a Whirlpool CLI instance on your personal Bitcoin node. This way, you will avoid any information leakage and achieve complete independence. Although the tutorial presented below is useful for certain goals or for beginners, to truly optimize your coinjoin session, using your own Dojo is recommended. A detailed guide on setting up this configuration will soon be available on Plan ₿ Academy.
 
 ### Installing Samourai Wallet
 To start, you will obviously need the Samourai Wallet app. You can download it directly from the official website using the APK, from their GitLab, or from the Google Play Store.
@@ -311,7 +311,7 @@ Once the `Tx0` is confirmed, your UTXOs will be automatically registered with th
 
 ![samourai](assets/notext/34.webp)
 
-By checking the `Remixing` tab, which corresponds to the **Postmix** account, you will observe the UTXOs resulting from the initial mixes. These coins will remain ready for subsequent remixing, which will not incur any additional fees. I recommend consulting this other article to learn more about the remixing process and the efficiency of a coinjoin cycle: [REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)
+By checking the `Remixing` tab, which corresponds to the **Postmix** account, you will observe the UTXOs resulting from the initial mixes. These coins will remain ready for subsequent remixing, which will not incur any additional fees. I recommend consulting this other article to learn more about the remixing process and the efficiency of a coinjoin cycle: [REMIX - WHIRLPOOL](https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)
 
 ![samourai](assets/notext/35.webp)
 
@@ -350,7 +350,7 @@ Enter the necessary information for your spending transaction, then click on the
 
 In the next step, you have the option to modify the fee rate associated with your transaction. You can also enable the Stonewall option by checking the corresponding box. If the Stonewall option is not selectable, it means that your **Postmix** account does not contain a UTXO of sufficient size to support this particular transaction structure.
 
-[-> Learn more about Stonewall transactions.](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
+[-> Learn more about Stonewall transactions.](https://planb.academy/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 If everything is to your satisfaction, click on the green `SEND ... BTC` button.
 
@@ -384,7 +384,7 @@ Make sure your SCODE has been correctly registered by clicking once more on the 
 ## How to know the quality of our coinjoin cycles?
 For a coinjoin to be truly effective, it is essential that it demonstrates good uniformity between the amounts of inputs and outputs. This uniformity amplifies the number of possible interpretations in the eyes of an external observer, thereby increasing the uncertainty surrounding the transaction. To quantify this uncertainty generated by a coinjoin, one can resort to calculating the transaction's entropy.
 
-For an in-depth exploration of these indicators (the Whirlpool model is recognized as the one that brings the most homogeneity to coinjoins), I refer you to the tutorial: [BOLTZMANN CALCULATOR](https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe)
+For an in-depth exploration of these indicators (the Whirlpool model is recognized as the one that brings the most homogeneity to coinjoins), I refer you to the tutorial: [BOLTZMANN CALCULATOR](https://planb.academy/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe)
 
 Next, the performance of several coinjoin cycles is evaluated based on the extent of the groups in which a coin is concealed. The size of these groups defines what is called the anonsets. There are two types of anonsets: the first assesses the privacy obtained against a retrospective analysis (from the present to the past) and the second, against a prospective analysis (from the past to the present). For a detailed explanation of these two indicators, I invite you to consult the tutorial: WHIRLPOOL STATS TOOLS - ANONSETS
 
@@ -411,7 +411,7 @@ Next, you must be careful in managing doxxic change, the change that could not e
 - **Consolidate them on Monero:** Samourai Wallet now offers an atomic swap service between BTC and XMR. This is ideal for managing toxic UTXOs by consolidating them on Monero, without compromising your privacy via KYC, before sending them back to Bitcoin. However, this option can be costly in terms of mining fees and the premium due to liquidity constraints;
 - **Send them to the Lightning Network:** Transferring these UTXOs to the Lightning Network to benefit from reduced transaction fees is an option that can be interesting. However, this method may reveal certain information depending on your use of Lightning and should therefore be practiced with caution.
 
-Detailed tutorials on implementing these different techniques will be offered soon on PlanB Network.
+Detailed tutorials on implementing these different techniques will be offered soon on Plan ₿ Academy.
 
 **Additional resources:**
 [Samourai Wallet video tutorial]()

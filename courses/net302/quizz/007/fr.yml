@@ -6,4 +6,4 @@ wrong_answers:
   - Minix
 explanation: |
   Unix BSD, développé à Berkeley, a été l’un des premiers à intégrer les protocoles TCP/IP et à les diffuser dans le monde académique.
-reviewed: false
+reviewed: true 

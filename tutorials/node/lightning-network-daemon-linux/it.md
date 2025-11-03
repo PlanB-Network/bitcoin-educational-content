@@ -34,7 +34,7 @@ In altre parole, con questa implementazione è possibile :
 
 
 
-https://planb.network/fr/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/fr/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
 ## Perché avere un proprio nodo Lightning?
 
@@ -64,7 +64,7 @@ In questo senso, l'esecuzione di un nodo Lightning aumenta la sicurezza e l'inte
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 Per eseguire un'istanza dell'implementazione di LND sul nostro computer abbiamo due possibilità. Possiamo configurare l'ambiente sulla nostra macchina per eseguirlo localmente, oppure installare LND da un contenitore Docker. In questa sede ci concentreremo sulla prima opzione e vedremo come procedere con Docker in un'esercitazione successiva.
@@ -665,4 +665,4 @@ Siete arrivati alla fine di questo tutorial. Se volete saperne di più su Lightn
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

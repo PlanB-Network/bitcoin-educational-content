@@ -118,7 +118,7 @@ Kemudian kita akan meluangkan waktu untuk mengulas beberapa teori yang telah dib
 
 
 
-Seperti semua kursus Plan ₿ Network, di bagian akhir, Anda akan menemukan ujian akhir untuk menguji pengetahuan Anda tentang node Bitcoin.
+Seperti semua kursus Plan ₿ Academy, di bagian akhir, Anda akan menemukan ujian akhir untuk menguji pengetahuan Anda tentang node Bitcoin.
 
 
 
@@ -516,7 +516,7 @@ Dengan menggunakan node Anda sendiri, Anda menyiarkan transaksi Anda secara lang
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Transaksi yang tidak dapat disensor
 
@@ -865,9 +865,9 @@ Ini adalah pendekatan yang paling berdaulat dan fleksibel: Anda tahu persis apa 
 
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
 #### Bitcoin Knots (klien alternatif utama)
 
@@ -886,7 +886,7 @@ Ada 2 alasan yang memungkinkan untuk memilih Knot daripada Core:
 - Kebijakan**: Beberapa orang lebih suka menggunakan klien alternatif seperti Knot untuk alasan non-teknis, terutama untuk mendukung alternatif dari Core dan dengan demikian mengurangi monopoli Core. Jika Core pernah dikompromikan, akan sangat berguna untuk memiliki klien alternatif yang solid dan terawat dengan baik, tetapi juga untuk mengetahui cara menggunakannya secara efektif. Yang lain menggunakan Knot untuk tujuan protes, karena mereka telah kehilangan kepercayaan pada pengembang Core atau tidak menyetujui sebagian besar manajemen klien.
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
 Secara pribadi, saya sarankan Anda memilih Core, terutama untuk mendapatkan manfaat dari patch keamanan lebih cepat. Memang, beberapa kerentanan yang ditemukan di Knot diperbaiki dengan penundaan. Secara umum, proses pengembangan Core terstruktur dengan kuat dan didukung oleh sejumlah besar kontributor, sedangkan Knot dikelola oleh satu orang dan memiliki komunitas yang jauh lebih kecil. Di sisi lain, aturan relai cenderung kehilangan kegunaannya saat ini, terutama ketika diterapkan oleh sebagian kecil jaringan (sesuai dengan teori perkolasi).
 
@@ -942,7 +942,7 @@ Saya tidak akan membahas lebih detail di sini tentang cara kerjanya dan fitur-fi
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 ### Start9 (StartOS)
 
@@ -968,7 +968,7 @@ Singkatnya, jika Anda hanya membutuhkan aplikasi penting untuk Bitcoin, tanpa mi
 
 
 
-https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
+https://planb.academy/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
 
 ### MyNode
 
@@ -986,7 +986,7 @@ Dalam praktiknya, MyNode menyatukan semua blok bangunan dasar yang diperlukan un
 
 
 
-https://planb.network/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
+https://planb.academy/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
 
 ### RaspiBlitz
 
@@ -1004,7 +1004,7 @@ Jika Anda memiliki Raspberry Pi, ini adalah pilihan yang sangat baik, karena sis
 
 
 
-https://planb.network/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
+https://planb.academy/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
 
 ### RoninDojo
 
@@ -1026,7 +1026,7 @@ Proyek ini sebelumnya menawarkan mesin pra-konfigurasi yang disebut Tanto, tetap
 
 
 
-https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
+https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
 
 ### Nodl
 
@@ -1565,7 +1565,7 @@ Jika Anda memilih Raspberry Pi 5 (opsi yang tidak saya rekomendasikan, seperti y
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 Seperti yang telah disebutkan di bagian sebelumnya, saya memilih untuk menjalankan tutorial ini di sebuah PC kecil yang telah diperbaharui yang saya temukan dengan harga terjangkau: *Lenovo ThinkCentre M900 Tiny* yang dilengkapi dengan prosesor Intel Core i7 dan RAM 16 GB. Ini adalah konfigurasi yang sangat nyaman untuk menjalankan Umbrel, terutama untuk node Bitcoin. Namun, saya memilih konfigurasi ini karena saya ingin memasang node Lightning dan aplikasi lain yang lebih berat nantinya. Saya juga menambahkan SSD 2TB ke ThinkCentre saya untuk mempertahankan Blockchain secara penuh dan masih memiliki margin yang nyaman. Dengan konfigurasi ini, total biaya yang dikeluarkan adalah €270, sudah termasuk semua pengeluaran.
 
@@ -1822,7 +1822,7 @@ Untuk mengidentifikasi IP Address Umbrel Anda, ada beberapa metode, dari yang pa
 
 
 
-https://planb.network/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
+https://planb.academy/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
 
 
 
@@ -1864,9 +1864,9 @@ Pilih kata sandi yang kuat dan pastikan Anda menyimpan setidaknya satu cadangan 
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Setelah Anda memasukkan kata sandi, klik tombol "*Buat*".
 
@@ -1944,7 +1944,7 @@ Pertama dan terutama, saya sangat menyarankan untuk mengaktifkan autentikasi dua
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Untuk melakukan ini, klik pada kotak yang sesuai dalam pengaturan.
 
@@ -2435,7 +2435,7 @@ Seperti yang telah disebutkan sebelumnya, penjelajah dapat di-host secara online
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 Terlebih lagi, Penyedia Layanan Internet (ISP) Anda mungkin mengetahui bahwa Anda melihat transaksi tertentu melalui situs Block explorer. Hal ini juga menimbulkan pertanyaan tentang kepercayaan: Anda harus bergantung pada layanan online untuk memberikan Anda informasi yang akurat tentang transaksi Anda, tanpa dapat memverifikasi kebenarannya sendiri.
 
@@ -2472,7 +2472,7 @@ Untuk mempelajari lebih lanjut tentang cara menggunakan Mempool.Space explorer, 
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ### Simpul Petir
 
@@ -2492,15 +2492,15 @@ Umbrel menawarkan sejumlah aplikasi untuk membantu Anda menyiapkan dan menjalank
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
 Anda kemudian dapat mengelola node Anda dari Interface utama, atau, untuk fungsionalitas yang lebih besar dan opsi lanjutan, instal *Ride The Lightning* atau *ThunderHub*. Alat-alat ini akan memberi Anda sistem manajemen Interface berbasis web yang jauh lebih komprehensif untuk node Anda.
 
 
 
-https://planb.network/tutorials/node/lightning-network/ride-the-lightning-ca007688-0653-490c-8349-81d330d744b5
+https://planb.academy/tutorials/node/lightning-network/ride-the-lightning-ca007688-0653-490c-8349-81d330d744b5
 
-https://planb.network/tutorials/node/lightning-network/thunderhub-16909a39-2484-408e-a118-4e34e249bb9a
+https://planb.academy/tutorials/node/lightning-network/thunderhub-16909a39-2484-408e-a118-4e34e249bb9a
 
 ![Image](assets/fr/088.webp)
 
@@ -2564,7 +2564,7 @@ Untuk menginstal dan mengkonfigurasi Tailscale pada Umbrel Anda, lihat tutorial 
 
 
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 ### Nostr
 
@@ -2598,7 +2598,7 @@ Untuk mengetahui cara menggunakan semua aplikasi ini, saya sarankan Anda membaca
 
 
 
-https://planb.network/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b-17c2ea1e08fd
+https://planb.academy/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b-17c2ea1e08fd
 
 ### Server BTCPay
 
@@ -2626,7 +2626,7 @@ Jika Anda memiliki bisnis dan ingin menerima pembayaran Bitcoin secara langsung 
 
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 
 
@@ -2634,7 +2634,7 @@ https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 
 
-https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
+https://planb.academy/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 
 
 
@@ -2642,7 +2642,7 @@ https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 
 
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 
 # Konsep lanjutan dan praktik terbaik
@@ -2751,7 +2751,7 @@ Untuk memperdalam pengetahuan Anda tentang keamanan komputer secara umum, saya s
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 ### Diagnosis dan bantuan mandiri
 
@@ -3077,9 +3077,9 @@ Pertumbuhan set UTXO juga berasal dari struktur transaksi pembayaran sederhana p
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-Karena sebagian harus disimpan dalam RAM untuk memverifikasi transaksi dalam waktu yang wajar, set UTXO secara bertahap dapat membuat pengoperasian Full node menjadi terlalu mahal. Untuk mengatasi masalah ini, beberapa proposal sudah ada, terutama [Utreexo] (https://planb.network/resources/glossary/utreexo).
+Karena sebagian harus disimpan dalam RAM untuk memverifikasi transaksi dalam waktu yang wajar, set UTXO secara bertahap dapat membuat pengoperasian Full node menjadi terlalu mahal. Untuk mengatasi masalah ini, beberapa proposal sudah ada, terutama [Utreexo] (https://planb.academy/resources/glossary/utreexo).
 
 
 
@@ -3894,7 +3894,7 @@ Sekarang Anda dapat melanjutkan ke bagian akhir kursus, di mana Anda akan dapat 
 
 
 
-Anda sekarang memiliki beberapa opsi yang terbuka untuk Anda. Langkah logis berikutnya adalah menyiapkan node Lightning Anda sendiri, yang memungkinkan Anda untuk sepenuhnya mandiri untuk transaksi off-chain Anda. Ini akan menjadi subjek dari kursus yang akan datang, yang akan diterbitkan pada musim gugur 2025 di Plan ₿ Network.
+Anda sekarang memiliki beberapa opsi yang terbuka untuk Anda. Langkah logis berikutnya adalah menyiapkan node Lightning Anda sendiri, yang memungkinkan Anda untuk sepenuhnya mandiri untuk transaksi off-chain Anda. Ini akan menjadi subjek dari kursus yang akan datang, yang akan diterbitkan pada musim gugur 2025 di Plan ₿ Academy.
 
 
 
@@ -3902,7 +3902,7 @@ Sementara itu, saya mengundang Anda untuk mengikuti pelatihan BTC 204, yang akan
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 # Bagian akhir

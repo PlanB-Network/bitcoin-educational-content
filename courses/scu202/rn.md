@@ -156,7 +156,7 @@ Woba witeguriye gufata neza umutekano wawe w’ivy’ubuhinga bwa none, gukomeza
 
 
 
-**N.B.:** Niwahura n'amajambo utamenyereye mu gihe c'amashure, usabwe kuraba [urutonde rw'amajambo](https://planb.network/resources/urutonde rw'amajambo) kugira ngo ubone insobanuro
+**N.B.:** Niwahura n'amajambo utamenyereye mu gihe c'amashure, usabwe kuraba [urutonde rw'amajambo](https://planb.academy/resources/urutonde rw'amajambo) kugira ngo ubone insobanuro
 
 
 
@@ -179,7 +179,7 @@ Ivyigwa vya SCU101 vyari ivyigwa vy’intango vyagenewe gushinga urufatiro rukom
 
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 ### Gushakisha kuri interineti bitekanye
 
@@ -976,7 +976,7 @@ Ubu buryo bushingiye ku *rolling release* model, aho amapaki aguma avugururwa, a
 Arch Linux igenewe cane cane abakoresha bateye imbere bashaka gucungera ibidukikije vyabo vyose, mu gihe bemera ibintu bimwe bimwe bigoranye mu gushiramwo no gucungera. Ico gisabwa mu buryo bw’ubuhinga catumye habaho ugusangira ibintu vyinshi biva ku bindi bigamije gutuma ikoreshwa ryayo rigira demokarasi.
 
 
-https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+https://planb.academy/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 Izwi cane ni Manjaro, igumya ishingiro ry’ubuhinga rya Arch mu gihe itanga gushiramwo vyoroshe, ibidukikije vy’ibiro vyatunganijwe mbere n’ingendo y’ugusohora itevye gatoyi kugira ngo ivyagezwe bibe bimeze neza.
 
@@ -1064,7 +1064,7 @@ Yateguwe na Canonical itanguzwa mu 2004, Ubuntu ni imwe mu nzira zizwi cane kw'i
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
 
@@ -1076,7 +1076,7 @@ Yatangujwe mu mwaka w’2006, Linux Mint ni ugukwiragiza gukomoka kuri Ubuntu, k
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.academy/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
 Mint igaragara kubera ukworoha kwayo, ukubaho kwayo kw’ibikoresho vy’ubuhinga bwinshi n’igikoresho co guhindura neza. Ku rundi ruhande, yizigira cane ibikorwa remezo vya Ubuntu, bikaba bituma yizigira amahitamwo y'ubuhinga ya Ubuntu (cane cane ku rugero rwa kernel n'ububiko). Mint irabereye cane cane abakoresha batari abahinga, canke abashaka ubuhinga bwiteguye gukoreshwa butasaba kwiga cane.
 
@@ -1112,7 +1112,7 @@ Gushiramwo biragenda neza, porogarama z'ingenzi zirashirwaho mbere, kandi verisi
 Yatangujwe mu 2011, OS y'intango ni ugukwiragiza gushingiye kuri Ubuntu kwibanda cane cane ku mibumbe n'uguhuza kwa Interface. Ibidukikije vyayo vy’ibiro vya Pantheon, vyahumekewe na macOS, ni bike, biraryoshe kandi biragenda neza. Ariko rero, iyo sisitemu iguma idashobora guhindurwa nk’iyindi mirongo, kandi abakoresha bamwebamwe bateye imbere boshobora kwumva ko bafise aho bageze kubera amahitamwo ya Interface be n’imiterere yayo y’ugufunga n’ibigirankana. Ni vyiza ku bakoresha bakunda ivy’ubwiza barondera uburyo bworoshe kandi buhuye bwo gukoresha ku musi ku musi.
 
 
-https://planb.network/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
+https://planb.academy/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
 
 
 ![Image](assets/fr/023.webp)
@@ -1154,7 +1154,7 @@ Fedora ni urubuga rushigikiwe n’inkofero itukura, rushingiye ku buhinga bushas
 ![Image](assets/fr/025.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
+https://planb.academy/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
 
 
 - **openSUSE** (Igikoko canke Isimbuka):
@@ -1182,7 +1182,7 @@ Debian iriho mu mashami menshi, harimwo *Stable* (yizewe cane, ariko ni porogara
 ![Image](assets/fr/027.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
+https://planb.academy/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
 
 
 - **Imanjaro**:
@@ -1211,7 +1211,7 @@ Arch Linux ni ubuhinga bukeyi, bushobora gukomeza guhindurwa, bushikirizwa ata I
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+https://planb.academy/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 #### Gukwiragiza bidasanzwe
 
@@ -1252,7 +1252,7 @@ Tails ni Debian, ishingiye ku buzima bwite bwibanda ku gukwiragiza ubuzima. Ivyo
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
+https://planb.academy/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
 → **Iciyumviro:** Ugukwiragiza ubuzima ni ubuhinga bwo gukoresha Linux bushobora gukoreshwa ataco buvuze kuri USB canke kuri CD, ataco bushize kuri disiki ya Hard.
 
@@ -1305,7 +1305,7 @@ PureOS ni ugukwiragiza gukomoka kuri Debian kwateguwe na Purism, ku buntu rwose 
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
+https://planb.academy/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
 
 
 - **Igikoresho ca Pi OS**:
@@ -1333,7 +1333,7 @@ Whonix ifatanya Debian n'urubuga rwa Tor mu nyubakwa y'ama VM abiri (irembo + ik
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+https://planb.academy/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
 
 Iyi panorama iraguha icegeranyo c'ibidukikije vy'ugukwirakwiza Linux, bikagufasha guhitamwo ugukwirakwiza guhuye neza n'ubuhinga bwawe n'intumbero zawe.
 
@@ -1953,7 +1953,7 @@ Ku bindi bisobanuro ku bijanye n'ivyo gushiramwo Ubuntu, ushobora kandi kuraba i
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 Igihe installation irangiye, nukureho urufunguzo rwa USB iyo usabwe, hanyuma wongere ufungure. Ubu Ubuntu buzoba bushizweho kandi bwiteguye gukoreshwa ku mashine yawe.
 
@@ -2992,7 +2992,7 @@ sudo apt install thunderbird
 
 
 
-https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
+https://planb.academy/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 #### Ibiro
 
 
@@ -3129,13 +3129,13 @@ Uretse ibi bikoresho bikeyi vy’ishimikiro, ndagusavye kandi gushiramwo ibikore
 
 
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 Ubwa nyuma, kugira ngo dusozere iki kigabane, ng’ibi ibintu vyiza bikeyi umuntu yokurikiza ku musi ku musi:
 
@@ -3227,9 +3227,9 @@ Ijambobanga ritoroshe nta gukeka ko rigoye kwibuka. Ndabahimiriza rero gukoresha
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Ubwa nyuma, nuhindure iryo jambobanga ubudasiba—inyuma y’amezi 3 canke 6—na canecane nimba imashini yawe ikoreshwa ahantu abantu bose bakoresha canke aho abantu bakoresha telefone ngendanwa.
 
@@ -3329,13 +3329,13 @@ Ubwa nyuma, imwe mu ngingo zihambaye cane ushobora gufata kugira ngo wikingire u
 - Ivyiyumviro vya Linux ntivyihuta gupfuka disiki, kiretse iyo iyo nzira yatowe mu gihe co gushiramwo. Ushobora gukoresha LUKS kugira ngo ushiremwo amakuru kuri disiki
 
 
-https://planb.network/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
+https://planb.academy/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
 
 Mu bihe vyose, ijambobanga ryo gukuraho ritegerezwa kuba rikomeye, ritandukanye n’ijambobanga rya sisitemu, kandi rikabikwa mu mucungerezi w’ijambobanga ry’umutekano. Niba uriko urakoresha disiki y’inyuma canke urufunguzo rwa USB rurimwo amakuru y’agaciro, nuzirikane kandi kuyapfuka umwumwe wese ukoresheje ibikoresho nka VeraCrypt.
 
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 ### Ingingo ngenderwako y'agateka gatoyi
 
@@ -3432,7 +3432,7 @@ Ubu buhinga bushingiye kuri hypervisor, ni porogarama icungera uguhingura no gus
 ![Image](assets/fr/206.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
+https://planb.academy/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
 
 Ku bijanye n’umutekano w’ivy’ubuhinga bwa none, kimwe mu vyiza bikomeye vy’amamashini y’ivy’ubuhinga bwa none ni ubushobozi bwo gucapura. VM ntisangira amadosiye yayo, imigenderanire canke uburyo bwo gushika ku rubuga n'umurongo w'abashitsi, kiretse utunganije neza ivyo biganiro. Rero iyo VM yandujwe na malware, canke iyo ugerageje porogarama zikomeye ziri muri yo, ingaruka ziguma kuri iyo mashini y’ukuri: sisitemu yawe nyamukuru iguma ari iyo nyene, igihe cose amaparametere y’ukwitandukanya yubahirijwe (nta bubiko busangiye, nta bikoresho vya USB bica kuri VM...).
 
@@ -3968,7 +3968,7 @@ Ku mashine ya Linux itunganijwe neza ikoreshwa ku bintu vy’umuntu ku giti ciwe
 ![Image](assets/fr/218.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
+https://planb.academy/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
 
 #### Munsi ya macOS
 
@@ -4076,11 +4076,11 @@ Iyi sisitemu ishingiye ku buhinga bwo gukingira amakuru butaringaniye n’ibikor
 
 
 
-Kugira ngo umenye vyinshi ku bikorwa vya Hash vy’ubuhinga bwa none be n’imikono y’ubuhinga bwa none, ndagutumiye ngo ufate inyigisho ya CYP 201 ku buntu itangwa kuri Plan ₿ Network:
+Kugira ngo umenye vyinshi ku bikorwa vya Hash vy’ubuhinga bwa none be n’imikono y’ubuhinga bwa none, ndagutumiye ngo ufate inyigisho ya CYP 201 ku buntu itangwa kuri Plan ₿ Academy:
 
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### Genzura ubutungane bwa porogaramu n'ukuri
 
@@ -4484,7 +4484,7 @@ Iyo ifise iyo ntunganyo, Alice irasanzwe irindwa n’ibintu vyinshi bitera ubwob
 
 
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Alice rero yubaha itegeko rya 3-2-1: ifise kopi 3 z’amadosiye yayo (mudasobwa, urufunguzo rwa USB, igicu), ibitswe n’imiburiburi ku bikoresho 2 bitandukanye (disque interne, urufunguzo rwa USB, server yo kure), ifise n’imiburiburi kopi 1 iri hanze y’aho iri (server y’igicu).
 
@@ -4571,7 +4571,7 @@ Gushiramwo amakuru yuzuye ni nk’ugufunga: igihe cose ijambobanga ritatanzwe, a
 Munsi ya Linux, umuti usanzwe ni LUKS (*Itegeko ry'urufunguzo rwa Linux*). LUKS ni uburyo bwo gucunga umubare w’amajwi bushizwe mu bimenyetso vyinshi. Igihe iyo sisitemu ibanza gushirwako, muri rusangi uzosabwa gupfuka disiki yose ya mudasobwa. Ego ni ko, ndagusavye cane gukoresha iyo nzira. Igihe encryption imaze gukoreshwa, iyo sisitemu izosaba ijambobanga igihe cose ufunguye, mbere n’imbere y’uko OS ifunguka. Ivyo bituma ukuntu umuntu ashobora gushika kuri iyo disiki adashobora guca mu mutekano.
 
 
-https://planb.network/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
+https://planb.academy/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
 
 Niba wipfuza gupfuka disiki y'inyuma canke inkoni ya USB, ivyo bishobora gukorwa kandi ukoresheje umurongo w'amabwirizwa canke ukoresheje igishushanyo Interface. Disiki izobwirizwa guhindurwa, rero amakuru yose ariho azozimangana iyo atabanje gusubirwamwo.
 
@@ -4847,7 +4847,7 @@ Kugira ngo umenye vyinshi kuri uwo muti, usabwe kuraba iyi nyigisho yuzuye :
 
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 
 
@@ -4905,14 +4905,14 @@ Iyi porotokole ni nziza cane mu guhana amadosiye y’agaciro n’abandi ata nkom
 Iyindi nzira nziza cane ni Cryptomator. Iyi porogarama y’inkomoko yuguruye iragufasha gukora ububiko: ububiko budasanzwe aho amadosiye yose ashizwemwo ahita ashirwamwo amakuru. Iyi safe ishobora gukorana n’ibikorwa vyo mu gicu nka Dropbox, Google Drive canke Nextcloud ata n’umwe atanga amakuru yigeze abona amakuru atagiramwo amakuru. Iyo porogarama iboneka ku bikoresho vyose, harimwo Android na iOS, kandi ntibisaba ubuhinga budasanzwe kugira ngo umuntu ayikoreshe.
 
 
-https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
+https://planb.academy/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 
 ![Image](assets/fr/256.webp)
 
 
 
-https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+https://planb.academy/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
 
 Ubwa nyuma, birashoboka kandi gukoresha VeraCrypt mu buryo bw’ibikoresho, bikora dosiye ikora nk’ububiko bufise amakuru, bushobora guterwa nk’idisiki.
 
@@ -5625,9 +5625,9 @@ Rero sinzogusaba gukoresha Google Chrome, haba ku giti cawe canke ku kazi (kiret
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 #### Intwari
 
@@ -5787,7 +5787,7 @@ Firefox iguma ari ikigereranyo c’umutekano n’ubuzima bwite, naho nyene isiga
 
 
 
-https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
+https://planb.academy/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Mucukumbuzi wa Tor
 
 
@@ -5796,7 +5796,7 @@ https://planb.network/tutorials/computer-security/communication/firefox-11814cec
 
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 Ikibi ni ukugabanya cane ubushobozi (high latency) n’uguhuza n’imbuga zimwe zimwe. Tor Browser ni nziza cane ku bikorwa bikomeye (itangazamakuru, ubukangurambaga...), ariko ntibereye cane gukoreshwa mu buryo busanzwe bwa misi yose.
 
@@ -5812,12 +5812,12 @@ Ikibi ni ukugabanya cane ubushobozi (high latency) n’uguhuza n’imbuga zimwe 
 [Umucukumbuzi wa Mullvad](https://mullvad.net/ru/umucukumbuzi) ni ingaruka y’ubufatanye hagati y’ishirahamwe Tor Foundation na Mullvad VPN. Ishingiye ku mucukumbuzi wa Tor, uwo ubwawo akomoka kuri Firefox ESR. Mullvad Browser yakozwe kugira ngo umuntu ashobore gukoresha neza ubuzima bwiwe bwite. Ku mburabuzi, harimwo uburinzi buteye imbere ku bimenyetso vy’intoke, abakurikirana n’inyandiko z’abandi.
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
+https://planb.academy/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 Ifise vyinshi mu bijanye n’umutekano n’ubuzima bwite bitangwa na Tor Browser, hariho itandukaniro rimwe: ntihindura inzira y’uruja n’uruza biciye ku rubuga rwa Tor. Kugira ngo wirinde gusohoka kwa IP Address, ushobora kuyikoresha hamwe na VPN (vyiza cane, Mullvad VPN).
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 Mullvad Browser ni umuti mwiza cane nimba uhangayikishijwe n’ubuzima bwite bwawe, waba uri uwutangura canke uwuteye imbere.
 
@@ -5843,7 +5843,7 @@ Ku mburabuzi, LibreWolf ikoresha imiterere y'umutekano ya Firefox (nk'uburyo bwo
 
 
 
-https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+https://planb.academy/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
 
 #### Umucukumbuzi wa Zen
 
@@ -5869,7 +5869,7 @@ Kuva ku bijanye n’umutekano n’ubuzima bwite, Zen irafise uburinzi bw’abaku
 Zen Browser ni uburyo bushimishije nimba uriko urarondera ahantu ho gukoresha Gecko ku buntu, harimwo ubuhinga bushasha, hatagiramwo ibintu vyinshi kandi bubaha ubuzima bwite bwawe.
 
 
-https://planb.network/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
+https://planb.academy/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### WebKit ishingiye ku mucukumbuzi
 
@@ -5915,7 +5915,7 @@ Orion yose yakozwe n’umugwi wa Kagi (uzwi cane kubera ubushakashatsi butagira 
 
 
 
-https://planb.network/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
+https://planb.academy/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
 ### Mucukumbuzi zitagira moteri zihindura
 
 
@@ -6095,9 +6095,9 @@ Igikoresho co gucungera amajambo y’ibanga kiratanga amajambo y’ibanga akomey
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Gukoresha umucungerezi w’ijambobanga birafise ivyiza vyinshi: birorosha ubuzima bwawe bwa misi yose mu gukuraho ivy’ugufata mu mutwe amajambobanga menshi, kandi bikagabanya intege nke nyamukuru yo kwemeza: abakoresha ubwiwe.
 
@@ -6107,13 +6107,13 @@ Ku bijanye no kwemeza, gukoresha umucungerezi w’ijambobanga bitegerezwa kwuzuz
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/trezor-u2f-fido2-41d2939e-69b9-4c2e-b836-a2b09de58051
+https://planb.academy/tutorials/computer-security/authentication/trezor-u2f-fido2-41d2939e-69b9-4c2e-b836-a2b09de58051
 
-https://planb.network/tutorials/computer-security/authentication/ledger-fido-u2f-59f8105b-a0cc-4aff-bc56-048a6a42d39f
+https://planb.academy/tutorials/computer-security/authentication/ledger-fido-u2f-59f8105b-a0cc-4aff-bc56-048a6a42d39f
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ### Gukoresha VPN
 
@@ -6147,11 +6147,11 @@ VPN nziza ikwiye kugira politike itomoye yo kudakora amakuru, itanga ubuhinga bw
 
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
+https://planb.academy/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
 
 VPN zihambaye cane zikwiye kwirindwa. Naho zitangaza cane, ziguma ari ibikorwa vy’ubudandaji bishingiye ahantu hamwe, akenshi zishingiye ku butegetsi butagira uburinzi bwinshi, kandi ntabwo zigaragaza neza ingene zikora.
 
@@ -6686,7 +6686,7 @@ GrapheneOS nta bihimba vy’umunyagihugu ishiramwo. Ufise umwidegemvyo wo kwonge
 Graphene ihuye gusa n’ibipimo vya Google biherutse gusohoka (ibipimo 6, 7, 8 na 9).
 
 
-https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.academy/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
 #### CalyxOS
 
@@ -6902,11 +6902,11 @@ Ivyuma vya Wi-Fi vya bose, nk’ivyo mu bibanza vy’ibinyobwa, mu mahoteli cank
 Kugira ngo wikingire, gusa wirinde gukoresha izo nzira za bose, canke ukoreshe VPN, izotuma haba umugende w’amazi hagati y’igikoresho cawe na server iri kure. Uwo mugende ushiramwo amakuru yawe, bikaba bigoye cane kuyafata canke kuyahindura.
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
+https://planb.academy/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
 
 Naho ku bijanye n’urubuga rwa Wi-Fi rwo muhira, ivyo tuzobivuga mu gice ca nyuma c’amashure ya SCU 202.
 
@@ -6981,7 +6981,7 @@ Gukora backup y’amakuru yawe ya smartphone ni ikintu gihambaye cane ku mutekan
 Kugira ngo ubishikeko, ushobora gukoresha inyishu z’aho hantu zipfutse, nka disiki y’inyuma canke urufunguzo rwa USB rwapfutse (nk’akarorero na Veracrypt). Ivyo bishitse, inyishu z’igicu zitwakira ubwazo nka *Syncthing* canke *Nextcloud* ziguha uburenganzira bwo gucungera amakuru yawe kuri server y’umuntu ku giti ciwe, mu gihe uguma ugenzura vyose ku bijanye no kuyaronka n’ibanga. Mu buryo butandukanye n’ibikorwa vy’ubudandaji vyo mu gicu (Google Drive, iCloud...), izo nyishu zigabanya cane amakuru yawe ku bandi bantu.
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 #### Guhanagura kure
 
@@ -7079,7 +7079,7 @@ Ariko rero, Signal irafise intege nke iyo bije ku bijanye no kutamenyekana: iyo 
 Muri make, Signal ni umuti mwiza cane wo gutanga ubutumwa, ariko ikibabaje ni uko bisaba gufatanya n’inomero ya telefone.
 
 
-https://planb.network/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
+https://planb.academy/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
 
 #### WhatsApp
 
@@ -7102,7 +7102,7 @@ Telegram ni ubutumwa buzwi cane kubera ubuhinga bwayo n’ibintu biyikoresha (im
 Telegram rero irashobora mu buryo bw’ubuhinga gushika ku birimwo ibiyago vyinshi bitarinzwe mu buryo butomoye. Naho iyo sosiyete yofata ingingo ikomeye ku butegetsi bwa Leta, Telegram si umuti mwiza wo guhanahana amakuru y'ibanga canke y'agaciro, kiretse ukoresheje mu buryo butomoye "uguhanahana amakuru y'ibanga" yayo, ariko ntaco bimaze cane ku musi ku musi.
 
 
-https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
+https://planb.academy/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
 #### Batatu
 
@@ -7125,7 +7125,7 @@ Ikindi kintu gihambaye ca Threema ni ubuhinga bwayo bwo gukora: iyo porogarama s
 Ngira ngo uwo muti wo gutanga ubutumwa ni mwiza cane, ariko ikibazo cawo nyamukuru ni uko kode y’inkomoko y’abakozi bayo iguma ari iya nyir’umuntu.
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
 
 #### Ibiganiro vyoroshe
 
@@ -7148,7 +7148,7 @@ Abahuza bongerako biciye ku mahuza y’igihe gito canke amaderesi adahinduka (ib
 Ku bijanye n’umutekano n’ibanga, SimpleX irarenga uburyo bwinshi bwo gutanga ubutumwa busanzweho, igabanya amakuru y’imbere mu gihugu ku rugero rutoyi kandi igakuraho ukuntu umuntu yizigira ububiko bwa mbere canke ikimenyetso kidasanzwe. Ariko rero, iyo nyubakwa irasaba ko habaho ibintu vyinshi bishobora gutuma umuntu ashobora gukoresha neza: rimwe na rimwe nta n’umwe ashobora gukoresha neza, bikenewe ko umuntu yiga gatoyi mu ntango, kandi bivana n’uko hariho ama server y’ugutanga amakuru.
 
 
-https://planb.network/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
+https://planb.academy/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
 
 #### Ikoraniro
 
@@ -7165,7 +7165,7 @@ Mu buryo bw’ubuhinga, Session ishira mu ngiro ubuhinga bwo gupfuka ubutumwa, a
 Umukiriya wa Session na server ni inkomoko yuguruye. Iyi porogarama iboneka kuri Android, iOS, Windows, macOS na Linux, ikaba ifise uburyo bwo gukorana hagati y’ibikoresho biciye ku majambo Mnemonic asa n’ayo akoreshwa mu bikoresho vya Bitcoin. Iri jambo riha uwuriko arakoresha ububasha bwo gucungera amakuru yiwe, ariko kandi ritanga inshingano ikomeye mu bijanye no gucungera amakuru.
 
 
-https://planb.network/tutorials/computer-security/communication/session-b0e3193c-2129-4f1b-9013-c211210724c3
+https://planb.academy/tutorials/computer-security/communication/session-b0e3193c-2129-4f1b-9013-c211210724c3
 
 #### Gukomeza
 
@@ -7185,7 +7185,7 @@ Ku rundi ruhande, naho ibice bimwebimwe (ugushiramwo amakuru n’ugukorana n’a
 Keet iboneka kuri Android, iOS, Windows, macOS na Linux, kandi ishobora guhurizwa hamwe hagati y’ibikoresho hakoreshejwe ijambo Mnemonic.
 
 
-https://planb.network/tutorials/computer-security/communication/keet-efdb759d-5e94-4bbf-b28c-5fa8669c809b
+https://planb.academy/tutorials/computer-security/communication/keet-efdb759d-5e94-4bbf-b28c-5fa8669c809b
 
 #### Olvid
 
@@ -7222,7 +7222,7 @@ Iryo kete ryemejwe na ANSSI (*Ikigo c’Igihugu c’Umutekano w’Imirongo y’A
 Olvid ikorana na Android, iOS, Windows, macOS na Linux. Ivy’ubuhinga bwayo biguma vyoroshe kandi bishoboka. Iyo porogarama irafise kandi uburyo bwo gucungera imfunguruzo n’abantu ushobora guhura na bo, kugira ngo ushobore kugarura konti yawe ku gikoresho gishasha.
 
 
-https://planb.network/tutorials/computer-security/communication/olvid-05038dc1-62c0-4a47-be4e-3d23c6155bfd
+https://planb.academy/tutorials/computer-security/communication/olvid-05038dc1-62c0-4a47-be4e-3d23c6155bfd
 
 ### Ubutumwa bwo kwirinda
 
@@ -7319,7 +7319,7 @@ Thunderbird Mobile ni verisiyo y’ivyuma vy’ivyuma vy’ivyuma vy’ivyuma vy
 ![Image](assets/fr/157.webp)
 
 
-https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
+https://planb.academy/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 
 - [Tuta](ku rubuga rwa Tuta/)
 
@@ -7562,7 +7562,7 @@ Bitwarden ni umwe mu bacungera ijambobanga ry’inkomoko yuguruye ry’inkomoko 
 Ushobora gukoresha ama server ya Bitwarden, canke ukayikira nimba ushaka kugira ngo uyigenzure yose. Igikoresho caco ca Interface kiratomoye kandi kiragenda neza, kikaba gishobora gukorana neza na Android canke iOS.
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 
 - [KugumyaDX](www.gukomezaDX.com/)
@@ -7577,7 +7577,7 @@ KeePass ni umucungerezi w’ijambobanga ry’amateka ashingiye ku madosiye y’a
 Hariho kandi [KeePassium](https://keepassium.com/) ya iOS, porogaramu yinjijwe neza mu bidukikije vya Apple, ihuye n’uburyo bwa KeePass n’inkomoko yuguruye. Iyindi nzira ya iOS ku mukiriya wa KeePass ni Strongbox, ariko iyi porogarama imaze imyaka myinshi idafunguye.
 
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 
 - [Igihugu c'iporotoni](https://iporotoni.me/ibarabara)
@@ -7608,7 +7608,7 @@ Ariko rero, si VPN zose zaremwe zingana. Ibikorwa bikundwa nka NordVPN canke Exp
 Mullvad ni imwe mu VPN nziza cane mu bijanye no kurinda ubuzima bwite. Nta email canke ijambobanga bisaba: Konti yawe ihuye n’umubare woroshe w’imburakimazi. Ukwishura bishobora gukorwa mu bitcoins canke mu mafaranga. Ico gikoresho gikoreshwa kuri telefone ngendanwa ni open-source, coroshe gukoresha kandi gifise ububasha. Mullvad nta nkuru ibika, ntikurikirana abayikoresha, kandi ihora isohora igenzura ry’umutekano ryigenga.
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 
 - [IVPN](imbuga ngurukanabumenyi/)
@@ -7617,7 +7617,7 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 IVPN ni ubundi buryo bwiza cane bwibanda ku buzima bwite. Itanga Interface igendagenda yoroshe kandi ikora neza, nta nkuru ishobora gukusanywa, kandi iremesha kwiyandikisha ata wuzi. Ushobora kandi kwishura mu ma bitcoins. Iyi porogaramu irimwo uruhome rw’umuriro ruzibira uruja n’uruza rwose rutari rwa VPN, rushobora kuba ngirakamaro cane kuri telefone ngendanwa. Abaguzi ni abafunguye.
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
 
 - [Iporotoni VPN](imbuga ngurukanabumenyi/)
@@ -7655,7 +7655,7 @@ Aegis ni porogaramu y’inkomoko yuguruye yuzuye. Ipfuka urutonde rwawe rwa 2FA 
 Ente Auth ni umuti w’ubuhinga bwa none, ufunguye, ukoreshwa ku mbuga nyinshi ufise ububiko bushingiye ku mpera ku mpera. Iragufasha gukoranya amakode yawe ya 2FA mu buryo butekanye kuri telefone ngendanwa, kuri mudasobwa no ku rubuga. Ushobora kandi kuyikoresha utari mu nzira, ataco ukora mu gicu canke ngo ukore konti.
 
 
-https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
+https://planb.academy/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 Ente Auth itanga ibintu vyinshi vy’inyongera: Gutunganya hakurikijwe ibimenyetso, ibishushanyo vy’ibikorwa vyose, amajambo, ivyo ukunda, ubushakashatsi buhuriweko, gusangira kode y’umugwi itekanye.
 
 
@@ -7669,13 +7669,13 @@ Ente Auth itanga ibintu vyinshi vy’inyongera: Gutunganya hakurikijwe ibimenyet
 Authy itanga 2FA synchronization ku bikoresho vyinshi, bishobora kuba vyiza, ariko porogaramu ntabwo ari open-source kandi isaba inomero ya telefone kugira ngo umuntu yiyandikishe. Ariko rero, ku batangura, iratunganye kuruta Google Authenticator, cane cane kubera igikorwa cayo co gucungera amakuru mu gicu.
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
+https://planb.academy/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 Niba wifuza kumenya vyinshi ku bijanye n’abacungera ijambobanga, kwemeza 2FA na VPNs, ndagusavye gusoma ibice vyihariye mu nyigisho ya SCU-101:
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 ### Ikirere
 
@@ -8328,7 +8328,7 @@ Nk’uko twabibonye mu kigabane ca mbere, gukingira urubuga rwawe rwo muhira ni 
 Amaze gusubiramwo ivy’ishimikiro vy’ivyiyumviro, iki gice kizokuyobora mu ntambwe zitomoye, zikora kandi zikora neza zo kwongereza umutekano w’urubuga rwawe rwo mu karere.
 
 
-*Ibuka: Amakuru atangwa ngaha ni rusangi, kuko Plan ₿ Network igenewe abantu bo kw’isi yose. Bivanye n’ivyo mu karere iwanyu be n’ivyo ISP yawe ikora, hari ingendo nziza zimwezimwe zishobora kutavugwa ngaha, canke zishobora gukoreshwa mu buryo butandukanye.*
+*Ibuka: Amakuru atangwa ngaha ni rusangi, kuko Plan ₿ Academy igenewe abantu bo kw’isi yose. Bivanye n’ivyo mu karere iwanyu be n’ivyo ISP yawe ikora, hari ingendo nziza zimwezimwe zishobora kutavugwa ngaha, canke zishobora gukoreshwa mu buryo butandukanye.*
 
 
 ### Guhitamwo no gucungera ibikoresho vyawe vy'urubuga
@@ -8365,9 +8365,9 @@ Nimba router yawe itakigirwa maintained ariko igikora neza ku bijanye na hardwar
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 Izo nzira zituma umuntu ashobora kugenzura neza amategeko agenga uruhome rw’umuriro, amahuzu asohoka n’ayinjira, gucapura urubuga (VLANs) n’ugucungera DNS, ariko zigenewe cane abakoresha bateye imbere.
 
@@ -8404,9 +8404,9 @@ Ni ngombwa rero ko uhindura ibimenyetso vyawe ubwo nyene umaze gushiramwo router
 Iryo jambobanga ritegerezwa kuba rirerire (inyuguti 40), rigoye (imibare, inyuguti nto, inyuguti nini n’ibimenyetso), ridasanzwe (ritazosubira gukoreshwa ahandi), kandi ridasanzwe. Biragaragara ko nsaba gukoresha umucungerezi w’ijambobanga kuri generate no kubika neza ivyo bimenyetso.
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Imburi: ntuvange ijambobanga ry’uburongozi bwa router (rikingira ukuntu umuntu ashobora gushika ku ntunganyo zayo) n’ijambobanga rya Wi-Fi (rituma ushobora kwifatanya n’urubuga rwa wireless). Izo ni Elements zibiri zitandukanye, kandi zompi zikeneye guhindurwa.
 
@@ -8444,7 +8444,7 @@ Mu ntango, iyo nzira yari igenewe kworohereza abantu gufatanya ibikoresho na Wi-
 Hariho ama routeurs ashobora kuguha uburenganzira bwo kwifatanya n’ubuyobozi bwabo Interface uri hanze, biciye kuri Internet. Ivyo bituma router yawe igira ubushobozi bwo gutera. Izimye burundu, kiretse iyo ufise ivyipfuzo vyihariye vyo gucungera kure. Naho ari ukwo, wama ukoresha VPN.
 
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 
 - Amasezerano ya kera canke adatekanye:
@@ -8564,7 +8564,7 @@ Mu majambo ngirakamaro, ugushiramwo amakuru ya DNS n’uguhindura server bishobo
 ![Image](assets/fr/198.webp)
 
 
-https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
+https://planb.academy/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 
 - Ku rugero rwa sisitemu ikoreshwa: OS zimwe zimwe zishiramwo ubufasha bwa DNS (DoT canke DoH), bucungera ibisabwa vyose vya DNS bica mu rutonde rw’urubuga rwa sisitemu. Ariko rero, ivyo ntibishobora gukingira orodinateri yose canke telefone yose: Amaporogarama arashobora guca muri iyo nzira iyo atunganijwe gukoresha uburyo butandukanye bwo gutorera umuti canke uburyo butandukanye bwo gutorera umuti DNS.
 
@@ -8580,7 +8580,7 @@ Kandi, ama routeurs ya modem atangwa na ISP ntabwo yama ashigikira ivyo bintu. I
 Kugira ngo ibintu bigende imbere, urashobora kandi gushinga umuti wo kuyungurura DNS yo mu karere nka Pi-hole canke AdGuard Home.
 
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
 Ivyo bikoresho bikora nk’agace gatoyi ka DNS kari mu rubuga rwawe, bikabuza ibisabwa ku mbuga zizwi ko zakira amatangazo, abakurikirana umucukumbuzi, ubuhendanyi canke imbuga mbi. Ivyo bikoresho kandi biragufasha kwikorera urutonde rwawe rwo kubuza canke guhindura ukuyungurura bivanye n’ibikoresho bihuye.
 
@@ -8608,12 +8608,12 @@ Inyishu zibiri nyamukuru ku bakiriya b’abikorera ku giti cabo ni:
 - OpenVPN: Ya kera, ariko irakuze cane kandi ishobora gutunganirizwa
 
 
-https://planb.network/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
+https://planb.academy/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
 
 Aha niho hari inyigisho yuzuye kuri Tailscale, umuti woroshe gutunganya VPN ukoresha WireGuard:
 
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 Ushobora kwakira iyo VPN ataco uhinduye kuri router ihuye, kuri mudasobwa ntoyi (nk’iya Raspberry Pi) canke kuri server yihariye muhira. Ushobora kandi kuyishiramwo nk’umukiriya ataco uhinduye ku gikoresho ico ari co cose.
 
@@ -8621,9 +8621,9 @@ Ushobora kwakira iyo VPN ataco uhinduye kuri router ihuye, kuri mudasobwa ntoyi 
 Ariko VPN si iyo gukoresha kure gusa. Ushobora kandi gukoresha umukiriya wa VPN wa kera ku bikoresho vyawe kugira ngo ushiremwo amakuru yawe yose asohoka, mbere n’igihe uri kure y’i muhira (Wi-Fi ya bose, hoteli, kaminuza, n’ibindi). Muri ivyo, igikoresho cawe gifatanya na server ya VPN y’uwundi muntu (y’ubudandaji canke iyo kwikorera), iyo serveri igaca irungika amakuru yawe kuri Internet. Ivyo bihisha IP yawe nyayo Address kuri ISP, bikarinda amakuru yawe ubutasi bwo mu karere kandi bikarinda uburyo bumwe bumwe bwo gucengera.
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
 Ubwa nyuma, birashoboka kandi gushinga VPN ataco uhinduye kuri router yawe, bikagufasha kurinda ibikoresho vyose vyo mu nzu yawe ataco ukeneye gushiramwo umu client wa VPN kuri kimwe cose muri vyo.
 
@@ -8637,12 +8637,12 @@ Igihe urubuga rwawe rwatunganijwe neza kandi rwaciwemwo ibice, birahambaye ko ur
 Intambwe ya mbere ni ugushira hamwe ibitabo vy’umutekano. Igikoresho cose gifatanye n’urubuga kiratanga amakuru arimwo amakuru yerekeye amahuza, amakosa canke igikorwa giteye amakenga. Aho kurondera ivyo bitabo umwumwe wese, ndabagira inama yo kubirungika kuri server ishobora kubishira mu migwi, kubitoranya no kubisuzuma. Inyishu nka Graylog canke Elastic Stack (ELK) zigufasha gukoranya izo nyandiko mu gishushanyo Interface aho ushobora kurondera ibintu vyihariye, gukora imburi canke kubona ibikorwa vy’urubuga.
 
 
-https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
+https://planb.academy/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
 
 Inyuma, kora ama scanners active y'urubuga rwawe, nk'akarorero na Nmap. Ivyo bizokuronsa inyishu y’ibikoresho vyose biri ku rubuga rwawe, n’ibibanza vyafunguye. Iyo ubonye igikoresho kitazwi canke igikorwa kidasanzwe, ivyo vyoshobora kuba ikimenyetso c’igitero.
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 Kugira ngo ugende mbere n’imbere, urashobora gushiramwo IDS (*Sisteme yo kumenya abaje kwinjira mu nzu*), canke mbere IPS (*Sisteme yo gukingira abaje mu nzu*). Ivyo bikoresho, nka Suricata canke Snort, bigenzura uruja n’uruza rw’urubuga mu gihe nyaco kandi bikamenya imikono y’ibitero bizwi (ugupima port, injections, amahuzu akekwa, n’ibindi). IDS iragabisha, mu gihe IPS ishobora kwibuza ibikorwa bimwebimwe.
 
@@ -8650,7 +8650,7 @@ Kugira ngo ugende mbere n’imbere, urashobora gushiramwo IDS (*Sisteme yo kumen
 Ubwa nyuma, gukurikirana ukuntu bandwidth ikoreshwa na vyo nyene ni ikimenyetso ciza c’ibikorwa bidasanzwe. Iyo igikoresho gifunguye amakuru menshi mu buryo butunguranye ata mvo igaragara, ivyo vyoshobora kwerekana ko umuntu yayakuye ata wemerewe, ko amakuru yasohotse canke mbere ko igikoresho coshobora guhungabanywa. Ibikoresho nka ntopng canke vnStat bigufasha kubona ivyinjira n'ibisohoka ku gikoresho.
 
 
-https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
+https://planb.academy/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
 
 ### Gusubiza inyuma no kwihangana
 

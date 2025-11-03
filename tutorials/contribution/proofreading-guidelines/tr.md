@@ -1,27 +1,27 @@
 ---
 name: Düzeltme Kılavuzu
-description: Plan ₿ Network'da redaksiyon yaparken akılda tutulması gereken önemli faktörler nelerdir?
+description: Plan ₿ Academy'da redaksiyon yaparken akılda tutulması gereken önemli faktörler nelerdir?
 ---
 
 ![github](assets/cover.webp)
 
 
-Plan ₿ Network'de içerik redaksiyonu yaparken izlenecek **yönergeler** hakkındaki bu eğitime hoş geldiniz. İnsanların Bitcoin'nin nasıl çalıştığı ve günlük yaşamlarında nasıl kullanılabileceği konusunda farkındalık kazanmalarına yardımcı olmak için Bitcoin materyallerini mümkün olduğunca çok dile çevirme misyonumuzu paylaştığınız için mutluyuz.
+Plan ₿ Academy'de içerik redaksiyonu yaparken izlenecek **yönergeler** hakkındaki bu eğitime hoş geldiniz. İnsanların Bitcoin'nin nasıl çalıştığı ve günlük yaşamlarında nasıl kullanılabileceği konusunda farkındalık kazanmalarına yardımcı olmak için Bitcoin materyallerini mümkün olduğunca çok dile çevirme misyonumuzu paylaştığınız için mutluyuz.
 
 
-Her şeyden önce, Plan ₿ Network [public repository](https://github.com/PlanB-Network/Bitcoin-educational-content)'e katkıda bulunmak size öğreticiler yazma, mevcut içeriği düzeltme ve hatta platforma yeni bir dil eklenmesini önerme şansı verir. Daha fazla bilgi edinmek için önce [Telegram Grubumuza](https://t.me/PlanBNetwork_ContentBuilder) katılın ve kendiniz ve konuşabildiğiniz diller hakkında kısa bir sunum yazın.
+Her şeyden önce, Plan ₿ Academy [public repository](https://github.com/PlanB-Network/Bitcoin-educational-content)'e katkıda bulunmak size öğreticiler yazma, mevcut içeriği düzeltme ve hatta platforma yeni bir dil eklenmesini önerme şansı verir. Daha fazla bilgi edinmek için önce [Telegram Grubumuza](https://t.me/PlanBNetwork_ContentBuilder) katılın ve kendiniz ve konuşabildiğiniz diller hakkında kısa bir sunum yazın.
 
 
-Bu eğitim, içeriği düzeltmek isteyen katılımcılara adanmıştır. Çoğu [Github](https://planb.network/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) veya depo içinde kullandığımız [Markdown dili](https://www.markdownguide.org/basic-syntax/) hakkında fazla bilgi sahibi değildir, bu nedenle bu görevde yer alan temel faktörler hakkında bazı bilgiler paylaşmak önemlidir.
+Bu eğitim, içeriği düzeltmek isteyen katılımcılara adanmıştır. Çoğu [Github](https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) veya depo içinde kullandığımız [Markdown dili](https://www.markdownguide.org/basic-syntax/) hakkında fazla bilgi sahibi değildir, bu nedenle bu görevde yer alan temel faktörler hakkında bazı bilgiler paylaşmak önemlidir.
 
 
 Aşağıda, düzeltmenlerin karşılaştığı en yaygın sorunları bir araya getirdim. Başkalarının gelişmesine yardımcı olabileceğinden, daha fazlasını önermekten çekinmeyin.
 
 
-Ayrıntılara girmeden önce yapmanız gereken ilk şey, Plan ₿ Network deposunu çatallayarak, değişiklikleri işleyerek ve PR göndererek Github'da izlenecek pratik eylemler hakkındaki bu öğreticiyi okumaktır:
+Ayrıntılara girmeden önce yapmanız gereken ilk şey, Plan ₿ Academy deposunu çatallayarak, değişiklikleri işleyerek ve PR göndererek Github'da izlenecek pratik eylemler hakkındaki bu öğreticiyi okumaktır:
 
 
-https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
+https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 
 ## Düzeltme okuması nedir?
@@ -38,13 +38,13 @@ Bu tür bir görevden geçtiğinizde, orijinal dilin (EN veya FR) anlamını tak
 
 Aslında, ortak hedefimiz Bitcoin konusunda mümkün olduğunca çok insanı eğitmektir, bu nedenle okudukları materyalin pürüzsüz ve net olması esastır.
 
-Bu anlamda, Plan ₿ Network'ye katkıda bulunan herkes eğitimcidir!
+Bu anlamda, Plan ₿ Academy'ye katkıda bulunan herkes eğitimcidir!
 
 
-## Plan ₿ Network'de düzeltme yapmadan önce ilk adımlar
+## Plan ₿ Academy'de düzeltme yapmadan önce ilk adımlar
 
 
-Yeni bir redaksiyon görevine başlamadan önce, bunu [Telegram grubunda] (https://t.me/PlanBNetwork_ContentBuilder) duyurun veya özel bir [konu] (https://github.com/orgs/PlanB-Network/projects/3) açacak olan Plan ₿ Network koordinatörünüzü bilgilendirin. Sorun bağlantısını aldığınızda, söz konusu içeriğin redaksiyon görevine başladığınızı **yorumlamanız** yeterlidir.
+Yeni bir redaksiyon görevine başlamadan önce, bunu [Telegram grubunda] (https://t.me/PlanBNetwork_ContentBuilder) duyurun veya özel bir [konu] (https://github.com/orgs/Plan ₿ Academy/projects/3) açacak olan Plan ₿ Academy koordinatörünüzü bilgilendirin. Sorun bağlantısını aldığınızda, söz konusu içeriğin redaksiyon görevine başladığınızı **yorumlamanız** yeterlidir.
 
 
 Bu sistem, koordinatörün repo içindeki ilerlemeyi takip etmesine yardımcı olur ve içeriğin düzeltmen tarafından "talep edilmesine" olanak tanıyarak başka biri tarafından yinelenen çabaları önler.
@@ -60,7 +60,7 @@ Her şeyden önce, **HER ZAMAN "dev" dalındaki** reponuzu SENKRONİZE ETMEYİ u
 
 
 
-Başarılı bir şekilde senkronize ettikten sonra, ilgilendiğiniz içeriğe doğrudan erişebilir ve bu [eğitimde] gösterildiği gibi yeni bir dalda işlem yapabilirsiniz (https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). Aksi takdirde, aşağıda gösterildiği gibi "Şubeler" üzerine tıklayarak çalışacağınız yeni bir şube açabilirsiniz.
+Başarılı bir şekilde senkronize ettikten sonra, ilgilendiğiniz içeriğe doğrudan erişebilir ve bu [eğitimde] gösterildiği gibi yeni bir dalda işlem yapabilirsiniz (https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). Aksi takdirde, aşağıda gösterildiği gibi "Şubeler" üzerine tıklayarak çalışacağınız yeni bir şube açabilirsiniz.
 
 
 
@@ -115,11 +115,11 @@ Bu ikinci durumda, **her zaman Bitcoin topluluğunuzda başka birinin bu kelimey
 
 
 
-- Bir başka iyi çözüm de EN orijinal sözcüğü/ifadeyi saklamak ve ardından planb.network'teki [glossary](https://planb.network/en/resources/glossary) adresine yönlendiren bir **köprü** oluşturmaktır. Bunu yapmak için, aşağıdaki örnekte görebileceğiniz gibi, kelimeyi / cümleyi köşeli parantez içine ve bağlantıyı yuvarlak parantez içine eklemeniz gerekir:
+- Bir başka iyi çözüm de EN orijinal sözcüğü/ifadeyi saklamak ve ardından planb.network'teki [glossary](https://planb.academy/en/resources/glossary) adresine yönlendiren bir **köprü** oluşturmaktır. Bunu yapmak için, aşağıdaki örnekte görebileceğiniz gibi, kelimeyi / cümleyi köşeli parantez içine ve bağlantıyı yuvarlak parantez içine eklemeniz gerekir:
 
 
 ```
-[UTXO](https://planb.network/resources/glossary/utxo)
+[UTXO](https://planb.academy/resources/glossary/utxo)
 ```
 
 
@@ -131,14 +131,14 @@ Nihai sonuçta (aşağıdaki resim) tüm bağlantıyı görselleştirmeyeceksini
 
 
 
-Lütfen web sitesinden alacağınız sözlük bağlantısının "network" kelimesinden sonra dil kodu içerdiğini unutmayın (örnek: ``https://planb.network/en/resources/glossary/utxo``-> burada "en" dil kodunu okuyabilirsiniz). Bu durumda, **yukarıdaki kutuda gördüğünüz gibi dil kodunu bağlantıdan kaldırın**. Bu şekilde, sistem okuyucuyu otomatik olarak kendi belirlediği dile götürecektir.
+Lütfen web sitesinden alacağınız sözlük bağlantısının "network" kelimesinden sonra dil kodu içerdiğini unutmayın (örnek: ``https://planb.academy/en/resources/glossary/utxo``-> burada "en" dil kodunu okuyabilirsiniz). Bu durumda, **yukarıdaki kutuda gördüğünüz gibi dil kodunu bağlantıdan kaldırın**. Bu şekilde, sistem okuyucuyu otomatik olarak kendi belirlediği dile götürecektir.
 
 
 Depodaki içerik yukarıdaki gibi köprülerle doludur. Artık ne anlama geldiklerini bildiğinize göre, **orijinal yazar tarafından eklenen hiçbir bağlantıyı** silmediğinizden emin olun.
 
 
 
-- Kelime çevirisiyle ilgili bir başka husus da şudur. Metinde "Plan ₿ Network" kelimesini bulursanız, **bu orijinal haliyle bırakın**. "Plan" kelimesini veya "network" kelimesini çevirmeyin. Ayrıca, Plan ₿ Network'yi tanıtırken "The" maddesini KULLANMAYIN: **onu bir marka olarak düşünün**.
+- Kelime çevirisiyle ilgili bir başka husus da şudur. Metinde "Plan ₿ Academy" kelimesini bulursanız, **bu orijinal haliyle bırakın**. "Plan" kelimesini veya "network" kelimesini çevirmeyin. Ayrıca, Plan ₿ Academy'yi tanıtırken "The" maddesini KULLANMAYIN: **onu bir marka olarak düşünün**.
 
 
 
@@ -323,7 +323,7 @@ Doğru olduklarından emin olmak için metindeki tüm köprüleri her zaman iki 
 
 
 
-- Konuyu takip ederek, yazar bir Plan ₿ Network kursuna veya eğitimine atıfta bulunan bir bağlantı eklerse (**parantez içinde değil**), web sitesi otomatik olarak ilgili küçük resmi gösteren bir "kart" oluşturacaktır. Sonuç olarak, metin ile bağlantının kendisi arasına **yeni bir satır eklediğinizden** her zaman emin olun, aksi takdirde web sitesinde aşağıdaki hatayı görebilirsiniz.
+- Konuyu takip ederek, yazar bir Plan ₿ Academy kursuna veya eğitimine atıfta bulunan bir bağlantı eklerse (**parantez içinde değil**), web sitesi otomatik olarak ilgili küçük resmi gösteren bir "kart" oluşturacaktır. Sonuç olarak, metin ile bağlantının kendisi arasına **yeni bir satır eklediğinizden** her zaman emin olun, aksi takdirde web sitesinde aşağıdaki hatayı görebilirsiniz.
 
 
 

@@ -64,7 +64,7 @@ Nous prendrons ensuite le temps de revenir sur certaines notions théoriques abo
 
 ### Partie 6 - Partie finale
 
-Comme pour toutes les autres formations de Plan ₿ Network, vous trouverez dans la dernière partie un examen final pour évaluer vos connaissances sur les nœuds Bitcoin.
+Comme pour toutes les autres formations de Plan ₿ Academy, vous trouverez dans la dernière partie un examen final pour évaluer vos connaissances sur les nœuds Bitcoin.
 
 Alors, êtes-vous prêt à faire tourner votre premier nœud Bitcoin ? Cap sur la souveraineté !
 
@@ -181,7 +181,7 @@ Dans la partie 2, nous explorerons plus en détail les bénéfices pratiques et 
 
 Le protocole Bitcoin n’est pas un logiciel : c’est un ensemble de règles tacites partagées entre les utilisateurs du réseau. Il définit les conditions de validité d’une transaction, les mécanismes de création monétaire, le format des blocs, les conditions de preuve de travail et de nombreuses autres spécifications. Pour interagir avec ce protocole, les utilisateurs doivent faire tourner un logiciel qui implémente ces règles : c’est ce que l’on appelle une **implémentation** de Bitcoin.
 
-Une implémentation est donc un logiciel de nœud : un programme capable de s’interfacer avec d’autres machines du réseau Bitcoin, de télécharger, vérifier, stocker et propager des blocs et des transactions, et de faire respecter localement les règles du consensus et des règles de relais. Chaque implémentation est une interprétation concrète du protocole, écrite dans un langage de programmation donné, avec des choix d’architecture, de performances et d’ergonomie propres. Chaque implémentation va aussi avoir sa propre organisation de développement, avec des répartitions de responsabilités.
+Une implémentation est donc un logiciel de nœud : un programme capable de s’interfacer avec d’autres machines du réseau Bitcoin, de télécharger, vérifier, stocker et propager des blocs et des transactions, et de faire respecter localement les règles du consensus et des règles de relais. Chaque implémentation est une interprétation concrète du protocole, écrite dans un langage de programmation donné, avec des choix d’architecture, de performances et d’ergonomie qui lui sont propres. Chaque implémentation va aussi avoir sa propre organisation de développement, avec des répartitions de responsabilités.
 
 Parmi ces implémentations, une domine très largement : **Bitcoin Core**.
 
@@ -260,7 +260,7 @@ En effet, comme souligné dans un chapitre précédent, les portefeuilles ne com
 
 En utilisant votre propre nœud, vous diffusez directement vos transactions dans le réseau, sans passer par un intermédiaire. À condition de sécuriser correctement votre nœud (ce que nous aborderons plus loin) ou de respecter certains standards, aucune information n’est alors exposée : ni votre adresse IP, ni les détails de vos transactions ne transitent par une entité que vous ne contrôlez pas. Il s’agit donc d’un prérequis de base pour préserver votre confidentialité sur Bitcoin.
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Transactions non censurables
 
@@ -302,7 +302,7 @@ Un aspect important, souvent mal compris, réside dans le fait qu’exploiter un
 
 Il s’agit des règles essentielles du protocole Bitcoin, garantes de l’intégrité du système, qui fixent les critères de validation des transactions et des blocs. Toute transaction qui ne respecte pas ces règles de consensus ne pourra jamais être intégrée dans un bloc valide. Par exemple, une transaction comportant une signature invalide sur l’une de ses entrées sera systématiquement exclue.
 
-Modifier ces règles équivaut à changer de protocole, donc de monnaie (hard fork). Toutefois, même sans chercher à les modifier, le simple fait d’appliquer strictement les règles existantes confère un certains pouvoir : si un bloc viole les règles, le nœud le rejette aussitôt.
+Modifier ces règles équivaut à changer de protocole, donc de monnaie (hard fork). Toutefois, même sans chercher à les modifier, le simple fait d’appliquer strictement les règles existantes confère un certain pouvoir : si un bloc viole les règles, le nœud le rejette aussitôt.
 
 - **Les règles de relais** :
 
@@ -398,7 +398,7 @@ Le compromis est la confiance et la confidentialité : un client SPV ne vérifie
 
 - **Utilisateur mobile / débutant**  
 
-Pour un utilisateur débutant qui dispose juste d'un portefeuille sur une app mobile, l'utilisation d'un nœud SPV est sûrement la meilleur solution pour commencer. L'installation est rapide, demande peu de ressources, et l'expérience est simple et fluide. Cela permet de vérifier soi-même certaines information, et donc de moins faire confiance aux nœuds tiers, tout en étant plus indépendant au niveau de la diffusion des transactions.
+Pour un utilisateur débutant qui dispose juste d'un portefeuille sur une app mobile, l'utilisation d'un nœud SPV est sûrement la meilleure solution pour commencer. L'installation est rapide, demande peu de ressources, et l'expérience est simple et fluide. Cela permet de vérifier soi-même certaines informations, et donc de moins faire confiance aux nœuds tiers, tout en étant plus indépendant au niveau de la diffusion des transactions.
 
 - **Utilisateur PC / intermédiaire** 
 
@@ -421,29 +421,29 @@ Les deux approches mènent au même but : disposer de votre propre nœud, mais e
 
 Installer une implémentation brute consiste à utiliser directement le logiciel d’une implémentation du protocole Bitcoin (comme Core, par exemple), sans couche logicielle supplémentaire. Vous gérez vous-même la configuration, les mises à jour et les services associés (indexation, API, Lightning, sauvegardes…), selon vos besoins.
 
-C’est l’approche la plus souveraine et la plus flexible : vous savez exactement ce qui s’exécute, où se trouvent les données et comment tout fonctionne. En revanche, elle devient plus complexe dès que vous souhaitez aller au-delà du simple fonctionnement d’un nœud Bitcoin. Si votre objectif est uniquement de disposer d’un nœud, la complexité reste comparable à celle d’un node-in-a-box, voire moindre, puisqu’il s’agit simplement d’installer un logiciel.
+C’est l’approche la plus souveraine et la plus flexible : vous savez exactement ce qui s’exécute, où se trouvent les données et comment tout fonctionne. En revanche, elle devient plus complexe dès que vous souhaitez aller au-delà du simple fonctionnement d’un nœud Bitcoin. Si votre objectif est uniquement de disposer d’un nœud, la complexité reste comparable à celle d’un *node-in-a-box*, voire moindre, puisqu’il s’agit simplement d’installer un logiciel.
 
 #### Bitcoin Core (client ultra-majoritaire)
 
-[Bitcoin Core est le client ultra-majoritaire du réseau](https://bitcoincore.org/). Il télécharge, valide et conserve la blockchain, fournit les API RPC/REST, et peut intégrer un portefeuille logiciel. Utiliser Core tel quel convient si vous aimez les outils standards et si vous êtes à l’aise pour ajouter vous-même des services autour (serveur Electrum, explorateur, LND...).
+[Bitcoin Core](https://bitcoincore.org/) est le client ultra-majoritaire du réseau. Il télécharge, valide et conserve la blockchain, fournit les API RPC/REST, et peut intégrer un portefeuille logiciel. Utiliser Core tel quel convient si vous aimez les outils standards et si vous êtes à l’aise pour ajouter vous-même des services autour (serveur Electrum, explorateur, LND...).
 
 **Avantages :** stabilité maximale, comportements prévisibles, expérience brute, simple à installer et configurer.
 
 **Inconvénients :** il faut construire le reste de la pile à la main si vous voulez un environnement applicatif complet, et pas juste un nœud Bitcoin.
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
 #### Bitcoin Knots (principal client alternatif)
 
-[Bitcoin Knots est un fork de Bitcoin Core](https://bitcoinknots.org/) maintenu par Luke Dashjr. Il constitue le principal client alternatif à Core pour l’implémentation du protocole Bitcoin. Entièrement compatible avec le reste du réseau (il ne s’agit en aucun cas d’un hard fork comme Bitcoin Cash), il propose néanmoins des fonctionnalités supplémentaires, notamment des options de politique de relais absentes de Core, ou appliquées par défaut de manière plus stricte afin de limiter ce que certains considèrent comme du spam.
+[Bitcoin Knots](https://bitcoinknots.org/) est un fork de Bitcoin Core maintenu par Luke Dashjr. Il constitue le principal client alternatif à Core pour l’implémentation du protocole Bitcoin. Entièrement compatible avec le reste du réseau (il ne s’agit en aucun cas d’un hard fork comme Bitcoin Cash), il propose néanmoins des fonctionnalités supplémentaires, notamment des options de politique de relais absentes de Core, ou appliquées par défaut de manière plus stricte afin de limiter ce que certains considèrent comme du spam.
 
 Les motivations pour préférer Knots à Core peuvent être de 2 ordres :
 - **Techniques** : options différentes de Core, notamment en matière de gestion du relai, en déterminant les transactions acceptées et diffusées par votre nœud ;
 - **Politique** : certains préfèrent utiliser des clients alternatifs tels que Knots pour des raisons non techniques, notamment pour soutenir une alternative à Core et ainsi réduire son monopole. Si Core venait un jour à être compromis, il serait alors utile de disposer d'autres clients solides et bien maintenus, mais aussi de savoir les utiliser. D'autres utilisent Knots dans une démarche contestataire, parce qu'ils ont perdu confiance dans les développeurs de Core ou désapprouvent la gestion du client majoritaire. 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
 Personnellement, je vous recommande de choisir Core, principalement pour bénéficier plus rapidement des correctifs de sécurité. En effet, certaines failles découvertes sont corrigées dans Knots avec du retard. Plus généralement, le processus de développement de Core est solidement structuré et soutenu par un grand nombre de contributeurs, tandis que Knots est maintenu par une seule personne et dispose d’une communauté bien plus réduite. Par ailleurs, les règles de relais tendent aujourd’hui à perdre de leur utilité, en particulier lorsqu’on cherche à les durcir alors qu’elles ne sont appliquées que par une fraction minime du réseau (théorie de la percolation).
 
@@ -453,63 +453,63 @@ Les _node-in-a-box_ regroupent Bitcoin Core (ou Knots) avec un système d’expl
 
 C’est une solution beaucoup plus simple pour démarrer et gérer au quotidien de nombreuses applications annexes. L’inconvénient, c’est que lorsqu’un problème survient (conflit entre images Docker, mise à jour défectueuse, base corrompue…), le débogage peut devenir très complexe, car vous dépendez de l’intégration propre à la distribution. De plus, l’assistance communautaire ou officielle est souvent compliquée.
 
-Ainsi, un node-in-a-box est extrêmement simple d’utilisation tant que tout fonctionne correctement, mais en cas de bug, il faut être prêt à effectuer de longues recherches, patienter pour obtenir de l’aide et mettre les mains dans le cambouis.
+Ainsi, un *node-in-a-box* est extrêmement simple d’utilisation tant que tout fonctionne correctement, mais en cas de bug, il faut être prêt à effectuer de longues recherches, patienter pour obtenir de l’aide et mettre les mains dans le cambouis.
 
 La plupart de ces solutions existent sous deux formats :  
 - **Machine pré-montée** : un ordinateur complet avec l’OS déjà installé. Ces machines payantes n’ont qu’à être branchées au secteur et reliées à Internet pour être opérationnelles. Si votre budget le permet, cette option a l’avantage d’être très simple à mettre en place, d’offrir souvent un support prioritaire, et de contribuer au financement du développement, puisque le modèle économique de ces entreprises repose généralement sur la vente du hardware ;  
 - **DIY** : installer l’OS de la distribution sur votre propre machine (vieux PC, NUC, Raspberry Pi, serveur maison…). C’est la solution la plus économique, car vous pouvez recycler une vieille machine ou choisir un matériel correspondant précisément à vos besoins et à votre budget. C’est aussi l’option la plus flexible, et celle qui apporte le plus de satisfaction à configurer. C’est cette approche que nous explorerons dans la partie pratique de la formation.
 
-Voici maintenant un tour d’horizon des principales solutions de node-in-a-box disponibles (en 2025) :
+Voici maintenant un tour d’horizon des principales solutions de *node-in-a-box* disponibles (en 2025) :
 
 ### Umbrel (umbrelOS & Umbrel Home)
 
-[Umbrel est aujourd’hui le leader des solutions de node-in-a-box](https://umbrel.com/). Son succès repose en grande partie sur la simplicité de son installation (à son lancement sur un simple Raspberry Pi), sur une interface élégante et intuitive, ainsi que sur un écosystème d’applications qui s’est rapidement développé et est désormais extrêmement vaste.
+[Umbrel](https://umbrel.com/) est aujourd’hui le leader des solutions de *node-in-a-box*. Son succès repose en grande partie sur la simplicité de son installation (à son lancement sur un simple Raspberry Pi), sur une interface élégante et intuitive, ainsi que sur un écosystème d’applications qui s’est rapidement développé et est désormais extrêmement vaste.
 
 ![Image](assets/fr/067.webp)
 
-Lancé en 2020 comme un simple nœud Bitcoin accompagné de quelques applications annexes, Umbrel a progressivement évolué pour devenir un véritable home cloud moderne et complet.
+Lancé en 2020 comme un simple nœud Bitcoin accompagné de quelques applications annexes, Umbrel a progressivement évolué pour devenir un véritable *home cloud* moderne et complet.
 
-Je ne détaillerai pas davantage ici son fonctionnement et ses spécificités, car nous les examinerons plus en profondeur dans le premier chapitre de la prochaine partie. En effet, pour les besoins de ce cours BTC 202, j’ai choisi d’utiliser UmbrelOS, qui constitue selon moi la meilleure solution actuelle de node-in-a-box pour les utilisateurs débutants et intermédiaires.
+Je ne détaillerai pas davantage ici son fonctionnement et ses spécificités, car nous les examinerons plus en profondeur dans le premier chapitre de la prochaine partie. En effet, pour les besoins de ce cours BTC 202, j’ai choisi d’utiliser UmbrelOS, qui constitue selon moi la meilleure solution actuelle de *node-in-a-box* pour les utilisateurs débutants et intermédiaires.
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 ### Start9 (StartOS)
 
-[Start9 propose StartOS](https://start9.com/), un système pensé pour le "*sovereign computing*" : l’objectif est que chacun puisse posséder et administrer son propre serveur privé, enrichi d’une place de marché d’applications auto-hébergeables. Vous pouvez acquérir un serveur Start9 (Server One à 619 $, Server Pure à 899 $) ou bien assembler le vôtre en mode DIY sur votre machine.
+[Start9](https://start9.com/) propose StartOS, un système pensé pour le "*sovereign computing*" : l’objectif est que chacun puisse posséder et administrer son propre serveur privé, enrichi d’une place de marché d’applications auto-hébergeables. Vous pouvez acquérir un serveur Start9 (Server One à 619 $, Server Pure à 899 $) ou bien assembler le vôtre en mode DIY sur votre machine.
 
-Du côté de Bitcoin, StartOS permet d’installer un nœud complet, un nœud Lightning, BTCPay Server, Electrs et de nombreux autres services. Mais l’intérêt de Start9 dépasse cela : il offre la possibilité de découvrir, configurer et exposer divers logiciels (cloud de fichiers, messagerie, monitoring...) de manière unifiée, avec un contrôle total. Le projet vise donc les utilisateurs souhaitant une plateforme robuste de self-hosting, et non pas uniquement un simple nœud Bitcoin. C’est probablement l’écosystème le plus complet après celui d’Umbrel.
+Du côté de Bitcoin, StartOS permet d’installer un nœud complet, un nœud Lightning, BTCPay Server, Electrs et de nombreux autres services. Mais l’intérêt de Start9 dépasse cela : il offre la possibilité de découvrir, configurer et exposer divers logiciels (cloud de fichiers, messagerie, monitoring...) de manière unifiée, avec un contrôle total. Le projet vise donc les utilisateurs souhaitant une plateforme robuste de *self-hosting*, et non pas uniquement un simple nœud Bitcoin. C’est probablement l’écosystème le plus complet après celui d’Umbrel.
 
 ![Image](assets/fr/068.webp)
 
-La principale différence avec Umbrel réside dans l’interface. Umbrel mise sur une UX très soignée, tandis que Start9 propose une interface plus brute et fonctionnelle. L’écosystème applicatif de Start9 est moins riche que celui d’Umbrel, mais il compense par certains atouts techniques : l’accès aux paramètres avancés des applications est simplifié, là où Umbrel devient vite contraignant si l’option recherchée n’est pas prévue par l’interface. Start9 excelle également dans la gestion des sauvegardes : hormis la solution efficace d’Umbrel pour LND, il n’existe pas de mécanisme unifié, contrairement à Start9. De plus, il propose des outils de monitoring plus accessibles et une connexion à distance chiffrée (`https`), tandis que l’accès local à Umbrel se fait en `http`.
+La principale différence avec Umbrel réside dans l’interface. Umbrel mise sur une UX très soignée, tandis que Start9 propose une interface plus brute et fonctionnelle. L’écosystème applicatif de Start9 est moins riche que celui d’Umbrel, mais il compense par certains atouts techniques : l’accès aux paramètres avancés des applications est simplifié, là où Umbrel devient vite contraignant si l’option recherchée n’est pas prévue par l’interface. Start9 excelle également dans la gestion des sauvegardes : hormis la solution efficace d’Umbrel pour LND, il n’existe pas de mécanisme unifié, contrairement à Start9. De plus, il propose des outils de *monitoring* plus accessibles et une connexion à distance chiffrée (`https`), tandis que l’accès local à Umbrel se fait en `http`.
 
 En résumé, si vous avez simplement besoin des applications essentielles pour Bitcoin, sans intérêt particulier pour l’écosystème très riche d’Umbrel, et que l’interface utilisateur n’est pas une priorité, alors Start9 constitue une meilleure option. Dans le cas contraire, préférez Umbrel.
 
-https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
+https://planb.academy/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
 
 ### MyNode
 
-[MyNode est une distribution centrée exclusivement sur Bitcoin et Lightning](https://mynodebtc.com/), qui propose une interface Web, une marketplace d’applications et des mises à jour en un clic. Vous pouvez soit acheter du matériel prêt à l’emploi (*Model Two* disponible à 549 $), soit installer gratuitement MyNode sur votre propre machine. Le projet offre également une version *Premium* du logiciel (94 $) qui inclut un support prioritaire et des fonctionnalités avancées.
+[MyNode](https://mynodebtc.com/) est une distribution centrée exclusivement sur Bitcoin et Lightning, qui propose une interface Web, une marketplace d’applications et des mises à jour en un clic. Vous pouvez soit acheter du matériel prêt à l’emploi (*Model Two* disponible à 549 $), soit installer gratuitement MyNode sur votre propre machine. Le projet offre également une version *Premium* du logiciel (94 $) qui inclut un support prioritaire et des fonctionnalités avancées.
 
 ![Image](assets/fr/069.webp)
 
-En pratique, MyNode réunit toutes les briques de base nécessaires pour exploiter un nœud complet ainsi que les applications essentielles à l’utilisateur de Bitcoin. C’est donc une solution pertinente si vous n’avez pas besoin d’applications externes à l’écosystème Bitcoin, comme par exemple des apps de self-hosting, que l’on retrouve dans les systèmes Start9 et Umbrel.
+En pratique, MyNode réunit toutes les briques de base nécessaires pour exploiter un nœud complet ainsi que les applications essentielles à l’utilisateur de Bitcoin. C’est donc une solution pertinente si vous n’avez pas besoin d’applications externes à l’écosystème Bitcoin, comme par exemple des apps de *self-hosting*, que l’on retrouve dans les systèmes Start9 et Umbrel.
 
-https://planb.network/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
+https://planb.academy/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
 
 ### RaspiBlitz
 
-[RaspiBlitz est un projet 100 % open source](https://docs.raspiblitz.org/) (licence MIT) permettant de monter un nœud Bitcoin et un nœud Lightning sur Raspberry Pi. Il suffit de télécharger l’image, de démarrer, puis de suivre l’assistant pour disposer d’un node-in-a-box fonctionnel sur votre Raspberry Pi. Des kits préassemblés sont également proposés par des tiers, généralement entre 300 $ et 400 $ selon le matériel. RaspiBlitz met aussi à disposition quelques applications additionnelles faciles à installer.
+[RaspiBlitz](https://docs.raspiblitz.org/) est un projet 100 % open source (licence MIT) permettant de monter un nœud Bitcoin et un nœud Lightning sur Raspberry Pi. Il suffit de télécharger l’image, de démarrer, puis de suivre l’assistant pour disposer d’un *node-in-a-box* fonctionnel sur votre Raspberry Pi. Des kits préassemblés sont également proposés par des tiers, généralement entre 300 $ et 400 $ selon le matériel. RaspiBlitz met aussi à disposition quelques applications additionnelles faciles à installer.
 
 ![Image](assets/fr/070.webp)
 
 Si vous possédez un Raspberry Pi, c’est une excellente option, car les systèmes plus complets comme Umbrel deviennent de plus en plus lourds pour ce type de mini-PC.
 
-https://planb.network/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
+https://planb.academy/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
 
 ### RoninDojo
 
-[RoninDojo est un logiciel de node-in-a-box](https://wiki.ronindojo.io/en/home) axé sur la confidentialité, qui automatise le déploiement de Samourai Dojo et Whirlpool, avec une interface dédiée et des plugins spécialement conçus pour l’écosystème Samourai.
+[RoninDojo](https://wiki.ronindojo.io/en/home) est un logiciel de *node-in-a-box* axé sur la confidentialité, qui automatise le déploiement de Samourai Dojo et Whirlpool, avec une interface dédiée et des plugins spécialement conçus pour l’écosystème Samourai.
 
 Le principe est simple : si vous utilisez Ashigaru Wallet (le fork successeur de Samourai Wallet à la suite de l’arrestation de ses développeurs) ou que vous souhaitez bénéficier d’outils de confidentialité avancés, RoninDojo est fait pour vous.
 
@@ -517,11 +517,11 @@ Le principe est simple : si vous utilisez Ashigaru Wallet (le fork successeur de
 
 Le projet proposait auparavant une machine préconfigurée appelée le Tanto, mais celle-ci est pour l’instant indisponible. Elle pourrait cependant revenir ultérieurement. En attendant, il est possible d’installer RoninDojo facilement sur un Rock5B+ ou un Rockpro64, voire de manière détournée sur un Raspberry Pi.
 
-https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
+https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
 
 ### Nodl
 
-Une autre solution de [node-in-a-box est Nodl](https://www.nodl.eu/). Comme pour les projets précédents, vous pouvez soit acheter le matériel préconfiguré (entre 599 € et 799 € selon le modèle), soit l’installer vous-même en mode DIY.
+Une autre solution de *node-in-a-box* est [Nodl](https://www.nodl.eu/). Comme pour les projets précédents, vous pouvez soit acheter le matériel préconfiguré (entre 599 € et 799 € selon le modèle), soit l’installer vous-même en mode DIY.
 
 Sur le plan logiciel, Nodl intègre Bitcoin Core, LND, BTCPay Server, Electrs, Dojo et Whirlpool, Lightning Terminal, RTL, ainsi que BTC RPC Explorer, le tout avec une chaîne de mises à jour intégrées et un code ouvert sous licence MIT.
 
@@ -533,11 +533,11 @@ Après avoir exploré les différentes solutions logicielles, il est désormais 
 ## Panorama des solutions matérielles
 <chapterId>245d6add-9cda-46b9-9343-31dcdd70456e</chapterId>
 
-Maintenant que nous avons passé en revue l’ensemble des possibilités logicielles, intéressons-nous au matériel nécessaire pour votre nœud. Je vais vous donner des conseils concrets pour choisir vos composants, avec des configurations adaptées à différents budgets. Bien entendu, il s’agit de mon avis personnel et de mon retour d’expérience : il existe donc certainement d’autres alternatives pertinentes en plus de celles présentées ici. Par ailleurs, je ne reviendrai pas sur les machines préassemblées proposées par les projets de node-in-a-box, que nous avons déjà abordées dans le chapitre précédent. Nous allons ici nous concentrer exclusivement sur les solutions DIY.
+Maintenant que nous avons passé en revue l’ensemble des possibilités logicielles, intéressons-nous au matériel nécessaire pour votre nœud. Je vais vous donner des conseils concrets pour choisir vos composants, avec des configurations adaptées à différents budgets. Bien entendu, il s’agit de mon avis personnel et de mon retour d’expérience : il existe donc certainement d’autres alternatives pertinentes en plus de celles présentées ici. Par ailleurs, je ne reviendrai pas sur les machines préassemblées proposées par les projets de *node-in-a-box*, que nous avons déjà abordées dans le chapitre précédent. Nous allons ici nous concentrer exclusivement sur les solutions DIY.
 
 ### Avez-vous vraiment besoin d'une machine dédiée ?
 
-Ces dernières années, une idée reçue s’est largement répandue chez les bitcoiners, notamment avec la popularisation des node-in-a-box au début des années 2020 : un nœud Bitcoin devrait forcément tourner sur une machine exclusivement dédiée à cet usage. Or, c’est faux. Vous n’avez pas nécessairement besoin d’un ordinateur dédié pour exécuter un nœud Bitcoin : Bitcoin Core peut tout à fait fonctionner sur votre PC du quotidien. Si vous disposez de suffisamment d’espace disque pour la blockchain, ou si vous activez l’élagage, vous pouvez valider la chaîne, connecter votre logiciel de portefeuille, et même fermer le programme une fois votre utilisation terminée. Cette approche présente un avantage considérable : zéro investissement initial et une complexité minimale.
+Ces dernières années, une idée reçue s’est largement répandue chez les bitcoiners, notamment avec la popularisation des *node-in-a-box* au début des années 2020 : un nœud Bitcoin devrait forcément tourner sur une machine exclusivement dédiée à cet usage. Or, c’est faux. Vous n’avez pas nécessairement besoin d’un ordinateur dédié pour exécuter un nœud Bitcoin : Bitcoin Core peut tout à fait fonctionner sur votre PC du quotidien. Si vous disposez de suffisamment d’espace disque pour la blockchain, ou si vous activez l’élagage, vous pouvez valider la chaîne, connecter votre logiciel de portefeuille, et même fermer le programme une fois votre utilisation terminée. Cette approche présente un avantage considérable : zéro investissement initial et une complexité minimale.
 
 ![Image](assets/fr/074.webp)
 
@@ -565,7 +565,7 @@ Il est également possible de trouver en ligne des PC fixes ou portables datant 
 
 #### Acheter du neuf
 
-Si votre budget le permet, vous pouvez également opter pour une machine neuve. C’est une bonne option si vous souhaitez disposer d’un matériel récent offrant de bonnes performances, en particulier si vous envisagez d’utiliser Umbrel ou Start9 avec des applications supplémentaires hors de l’écosystème Bitcoin pour faire du self-hosting.
+Si votre budget le permet, vous pouvez également opter pour une machine neuve. C’est une bonne option si vous souhaitez disposer d’un matériel récent offrant de bonnes performances, en particulier si vous envisagez d’utiliser Umbrel ou Start9 avec des applications supplémentaires hors de l’écosystème Bitcoin pour faire du *self-hosting*.
 
 ### Quel type de machine choisir ?
 
@@ -597,11 +597,11 @@ Si vous choisissez cette solution, je vous recommande de surveiller attentivemen
 
 #### Raspberry Pi et autres SBC : la fausse bonne idée
 
-Au début des années 2020, avec l’essor des logiciels de node-in-a-box, est également apparue la mode des Raspberry Pi pour faire tourner un nœud Bitcoin. L’idée semblait séduisante : peu coûteuse, compacte et accessible.
+Au début des années 2020, avec l’essor des logiciels de *node-in-a-box*, est également apparue la mode des Raspberry Pi pour faire tourner un nœud Bitcoin. L’idée semblait séduisante : peu coûteuse, compacte et accessible.
 
 ![Image](assets/fr/073.webp)
 
-En pratique, si votre objectif est uniquement de faire tourner un nœud Bitcoin sans applications supplémentaires, un Raspberry Pi peut suffire. Mais dès que vous souhaitez utiliser Umbrel, Start9 ou un écosystème plus riche (explorateur de blocs, indexeur d’adresses, nœud Lightning, apps de self-hosting...), la machine atteint vite ses limites.
+En pratique, si votre objectif est uniquement de faire tourner un nœud Bitcoin sans applications supplémentaires, un Raspberry Pi peut suffire. Mais dès que vous souhaitez utiliser Umbrel, Start9 ou un écosystème plus riche (explorateur de blocs, indexeur d’adresses, nœud Lightning, apps de *self-hosting*...), la machine atteint vite ses limites.
 
 En effet, les Raspberry Pi cumulent de nombreux inconvénients :  
 - processeurs trop justes, avec une architecture ARM parfois incompatible avec certains logiciels ou demandant davantage de manipulations ;
@@ -623,7 +623,7 @@ Le SSD change radicalement  votre expérience utilisateur : tout devient plus ra
 
 ![Image](assets/fr/077.webp)
 
-En termes de capacité, les 2 To s’imposent progressivement comme le nouveau minimum raisonnable. À l’été 2025, la blockchain avoisine déjà 700 Go, et si vous ajoutez Umbrel, un indexeur d’adresses et quelques applications, un SSD de 1 To sera rapidement saturé. Avec 2 To, vous disposez d’une marge confortable pour les années à venir (en estimation large, entre 5 et 15 ans). Vous pouvez également opter pour 4 To si vous prévoyez d’utiliser de nombreuses applications sur Umbrel, de stocker des fichiers volumineux en self-hosting, ou si vous souhaitez anticiper largement vos besoins en espace disque.
+En termes de capacité, les 2 To s’imposent progressivement comme le nouveau minimum raisonnable. À l’été 2025, la blockchain avoisine déjà 700 Go, et si vous ajoutez Umbrel, un indexeur d’adresses et quelques applications, un SSD de 1 To sera rapidement saturé. Avec 2 To, vous disposez d’une marge confortable pour les années à venir (en estimation large, entre 5 et 15 ans). Vous pouvez également opter pour 4 To si vous prévoyez d’utiliser de nombreuses applications sur Umbrel, de stocker des fichiers volumineux en *self-hosting*, ou si vous souhaitez anticiper largement vos besoins en espace disque.
 
 ![Image](assets/fr/078.webp)
 
@@ -633,7 +633,7 @@ Quant au format, il dépendra des ports disponibles sur votre machine, mais je v
 
 Pour Bitcoin Core seul (sans surcouche Umbrel), les recommandations des développeurs indiquent un minimum de 256 Mo de RAM en ajustant les paramètres au plus bas, 512 Mo avec les paramètres par défaut, et 1 Go pour une utilisation normale.
 
-En revanche, si vous utilisez un système de node-in-a-box comme Umbrel ou Start9, les besoins en RAM sont bien plus grands. Les développeurs d’Umbrel recommandent au minimum 4 Go de RAM. Cela peut suffire pour faire tourner uniquement Core, mais vous serez vite limité. Ils conseillent donc 8 Go, ce que je considère également comme le minimum pour une configuration de base autour de Bitcoin (Core + LND + indexeur + quelques applications). D’après mon expérience, avec Umbrel et quelques services supplémentaires, 8 Go restent un peu justes. Pour être réellement à l’aise et disposer d’une certaine marge, je recommande plutôt 16 Go de RAM.
+En revanche, si vous utilisez un système de *node-in-a-box* comme Umbrel ou Start9, les besoins en RAM sont bien plus grands. Les développeurs d’Umbrel recommandent au minimum 4 Go de RAM. Cela peut suffire pour faire tourner uniquement Core, mais vous serez vite limité. Ils conseillent donc 8 Go, ce que je considère également comme le minimum pour une configuration de base autour de Bitcoin (Core + LND + indexeur + quelques applications). D’après mon expérience, avec Umbrel et quelques services supplémentaires, 8 Go restent un peu justes. Pour être réellement à l’aise et disposer d’une certaine marge, je recommande plutôt 16 Go de RAM.
 
 #### Processeur (CPU)
 
@@ -671,19 +671,19 @@ Avec cette machine, vous avez une configuration confortable : une IBD rapide, et
 
 #### Configuration haut de gamme
 
-Si vous disposez d’un budget plus conséquent, les possibilités deviennent très larges. Vous pouvez choisir une configuration DIY ou même opter pour une machine préassemblée proposée directement par un projet de node-in-a-box.
+Si vous disposez d’un budget plus conséquent, les possibilités deviennent très larges. Vous pouvez choisir une configuration DIY ou même opter pour une machine préassemblée proposée directement par un projet de *node-in-a-box*.
 
 À titre d’exemple, je vous propose un *ASUS NUC 14 Pro* disponible neuf sur Amazon à 540 €. Pour ce prix, vous bénéficiez d’un processeur Intel Core Ultra 5 (récent et particulièrement performant), accompagné de 16 Go de RAM en DDR5. Avec une telle configuration, vous pourrez réaliser une IBD en un temps record et installer sans difficulté des applications gourmandes.  
 
-C’est une configuration extrêmement confortable, voire surdimensionnée si l’objectif initial est simplement de faire tourner un nœud Bitcoin. En revanche, si vous souhaitez exploiter pleinement toutes les applications de self-hosting disponibles sur Umbrel et Start9, ce niveau de puissance est adapté.
+C’est une configuration extrêmement confortable, voire surdimensionnée si l’objectif initial est simplement de faire tourner un nœud Bitcoin. En revanche, si vous souhaitez exploiter pleinement toutes les applications de *self-hosting* disponibles sur Umbrel et Start9, ce niveau de puissance est adapté.
 
 ![Image](assets/fr/043.webp)
 
-Selon l’usage que vous prévoyez, vous pouvez opter soit pour un SSD de 2 To, comme dans les autres configurations, soit directement pour un SSD de 4 To à 260 € si vous souhaitez également stocker des fichiers personnels et étendre vos usages de self-hosting. Avec un SSD de 2 To, le coût total de la configuration s’élève à 660 €, tandis qu’avec un SSD de 4 To, il atteint 800 €.
+Selon l’usage que vous prévoyez, vous pouvez opter soit pour un SSD de 2 To, comme dans les autres configurations, soit directement pour un SSD de 4 To à 260 € si vous souhaitez également stocker des fichiers personnels et étendre vos usages de *self-hosting*. Avec un SSD de 2 To, le coût total de la configuration s’élève à 660 €, tandis qu’avec un SSD de 4 To, il atteint 800 €.
 
 ### Quelques astuces supplémentaires
 
-- Si vous souhaitez acquérir du matériel d’occasion en payant en bitcoins, rendez-vous dans un meetup près de chez vous ! En discutant avec les autres participants, vous y trouverez sans doute du matériel adapté à un prix intéressant, tout en faisant vivre l’économie circulaire autour de Bitcoin. C’est également l’occasion de bénéficier de conseils avisés de la part de la communauté.  
+- Si vous souhaitez acquérir du matériel d’occasion en payant en bitcoins, rendez-vous dans un meet-up près de chez vous ! En discutant avec les autres participants, vous y trouverez sans doute du matériel adapté à un prix intéressant, tout en faisant vivre l’économie circulaire autour de Bitcoin. C’est également l’occasion de bénéficier de conseils avisés de la part de la communauté.  
 
 - Pour la connexion Internet, vous aurez bien sûr besoin d’un câble Ethernet RJ45, au moins pour l’installation du système.
 
@@ -695,7 +695,7 @@ Selon l’usage que vous prévoyez, vous pouvez opter soit pour un SSD de 2 To, 
 
 - En fonction de la valeur de votre matériel et de votre situation géographique, un système parafoudre peut également être pertinent, soit directement au niveau du tableau électrique, soit sur la multiprise utilisée.  
 
-- Enfin, pensez à optimiser le refroidissement de votre machine : nettoyez-la régulièrement, et installez-la dans un endroit frais, bien ventilé et dégagé pour éviter toute surchauffe qui entraînerait du throtthling (limitation volontaire de la vitesse de votre processeur).
+- Enfin, pensez à optimiser le refroidissement de votre machine : nettoyez-la régulièrement, et installez-la dans un endroit frais, bien ventilé et dégagé pour éviter toute surchauffe qui entraînerait du *throtthling* (limitation volontaire de la vitesse de votre processeur).
 
 # Installer un nœud Bitcoin facilement
 <partId>ca6cf2a5-0bcc-41d9-b556-0d38865bf98f</partId>
@@ -704,7 +704,7 @@ Selon l’usage que vous prévoyez, vous pouvez opter soit pour un SSD de 2 To, 
 ## Umbrel : bien plus qu'un nœud Bitcoin
 <chapterId>dd4c04f1-924a-43e1-94f3-ea9fbc83dd43</chapterId>
 
-Umbrel est un système d’exploitation de serveur personnel conçu pour rendre le self-hosting accessible : vous installez Umbrel, vous ouvrez un navigateur sur `umbrel.local`, et vous gérez tout via une interface simple à distance.
+Umbrel est un système d’exploitation de serveur personnel conçu pour rendre le *self-hosting* accessible : vous installez Umbrel, vous ouvrez un navigateur sur `umbrel.local`, et vous gérez tout via une interface simple à distance.
 
 Le projet a d’abord popularisé l’idée d’un nœud Bitcoin et Lightning en un clic, puis s’est élargi en une véritable "home cloud" : stockage de fichiers et de photos, streaming multimédia, outils réseau, domotique, IA locale, et des centaines d’apps installables depuis un App Store intégré.
 
@@ -744,7 +744,7 @@ Umbrel peut rester très minimaliste et centré uniquement sur Bitcoin, ou bien 
 
 - **Self-hosting généraliste** : avec Nextcloud, Immich, Jellyfin/Plex, les bloqueurs de publicité DNS-wide (Pi-hole/AdGuard), les VPN (WireGuard, Tailscale), la domotique (Home Assistant), les sauvegardes, la gestion de notes, les outils de bureautiques, les IA locales (Ollama + Open WebUI)... Umbrel peut devenir votre serveur personnel pour reprendre le contrôle de vos données. Vous hébergez vous-même les services que vous utilisez au quotidien, avec une expérience utilisateur soignée proche de celle des solutions externes, mais en conservant la maîtrise totale de vos données et de votre vie privée.
 
-Grâce au déploiement des applications en conteneurs, vous pouvez façonner Umbrel à votre guise : commencer par un simple nœud Bitcoin et quelques apps liées à son écosystème, puis installer par la suite un nœud Lightning adossé à votre nœud Bitcoin, et progressivement enrichir votre instance avec les applications de self-hosting qui vous seront utiles.
+Grâce au déploiement des applications en conteneurs, vous pouvez façonner Umbrel à votre guise : commencer par un simple nœud Bitcoin et quelques apps liées à son écosystème, puis installer par la suite un nœud Lightning adossé à votre nœud Bitcoin, et progressivement enrichir votre instance avec les applications de *self-hosting* qui vous seront utiles.
 
 ### Communauté et entraide
 
@@ -776,7 +776,7 @@ Nous allons utiliser ici l’image UmbrelOS x86 (plus précisément la version x
 
 Si vous avez opté pour un Raspberry Pi 5 (option que je déconseille, comme évoqué dans la partie précédente), l’installation diffère légèrement. Vous pouvez alors suivre ce tutoriel dédié et revenir à mon cours une fois sur l’interface web `http://umbrel.local` :
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 Comme évoqué dans la partie précédente, pour ma part, j’ai choisi de réaliser ce tutoriel sur un petit PC reconditionné que j'ai trouvé à un prix intéressant : un *Lenovo ThinkCentre M900 Tiny* équipé d’un processeur Intel Core i7 et de 16 Go de RAM. C’est une configuration très confortable pour exécuter Umbrel, surtout pour un nœud Bitcoin. Mais j'ai choisi cette configuration, car par la suite, je souhaite installer un nœud Lightning et diverses applications plus exigeantes. J’ai également ajouté un SSD de 2 To à mon ThinkCentre pour conserver l’intégralité de la blockchain tout en disposant d’une marge confortable. Avec cette configuration, le coût total s’élève à 270 € tout compris.
 
@@ -903,7 +903,7 @@ Pour identifier l’adresse IP de votre Umbrel, il y a plusieurs méthodes, de l
 
 ![Image](assets/fr/012.webp)
 
-https://planb.network/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
+https://planb.academy/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
 
 - En dernier recours, rebranchez un écran et un clavier sur l’appareil, connectez-vous (identifiant par défaut : `umbrel`, mot de passe : `umbrel`), puis tapez la commande suivante :
 
@@ -925,9 +925,9 @@ Choisissez un pseudonyme ou indiquez votre nom, puis définissez un mot de passe
 
 Sélectionnez donc un mot de passe fort, et, surtout, veillez à en conserver une ou plusieurs sauvegardes (gestionnaire de mots de passe recommandé).
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Un fois le mot de passe renseigné, cliquez sur le bouton "*Create*".
 
@@ -965,7 +965,7 @@ L’interface d’Umbrel est assez intuitive :
 
 Avant toute chose, je vous recommande vivement d’activer le 2FA. Cette mesure ajoute une couche supplémentaire de sécurité à votre mot de passe. Elle s’avère quasi indispensable si vous envisagez d’utiliser votre Umbrel pour stocker des fichiers personnels, exécuter un nœud Lightning ou toute autre activité sensible.
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Pour cela, cliquez sur la case correspondante dans les paramètres.
 
@@ -1121,7 +1121,7 @@ Dans ce tutoriel, nous nous concentrerons sur la connexion à votre nœud via To
 
 Nous prendrons l’exemple de Sparrow dans ce chapitre, mais la procédure est identique pour tous les autres logiciels de gestion de portefeuille acceptant les connexions aux serveurs Electrum. Il vous suffira de repérer, dans les paramètres de votre application, l’emplacement du réglage correspondant (généralement dans "*Server*", "*Network*", "*Node*"...).
 
-Sur Sparrow, ouvrez l’onglet "*File*" puis rendez-vous dans le menu "Settings".
+Sur Sparrow, ouvrez l’onglet "*File*" puis rendez-vous dans le menu "*Settings*".
 
 ![Image](assets/fr/030.webp)
 
@@ -1206,16 +1206,16 @@ Concrètement, l’explorateur vous permet d’estimer les frais nécessaires po
 
 Comme indiqué précédemment, un explorateur peut être hébergé en ligne sur un site web ou exécuté localement sur votre machine. L’inconvénient majeur d’un service en ligne est qu’il peut compromettre votre confidentialité. Sans VPN ni Tor, le serveur hébergeant l’explorateur peut relier votre adresse IP aux transactions que vous consultez, ce qui peut constituer un point d’entrée idéal pour une analyse de chaîne.
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 De plus, votre fournisseur d’accès à Internet (ISP) peut savoir que vous consultez telle ou telle transaction via le site de l’explorateur de blocs. Cela soulève également une question de confiance : vous devez vous en remettre au service en ligne pour obtenir des informations exactes sur vos transactions, sans pouvoir en vérifier la véracité par vous-même.
 
 C’est pourquoi il est toujours préférable d’utiliser son propre explorateur de blocs en local. De cette manière, aucune donnée liée à votre activité de recherche ne fuitera, puisque toutes les requêtes sont traitées directement sur une machine que vous contrôlez, sans passage par Internet. De plus, un explorateur local s’appuie sur les données de votre propre nœud Bitcoin, que vous avez validées vous-même, selon vos propres règles, et en lesquelles vous pouvez avoir confiance.
 
 Sur Umbrel, plusieurs explorateurs de blocs sont disponibles :
-- Mempool.space  
-- Bitfeed  
-- BTC RPC Explorer
+- Mempool.space ; 
+- Bitfeed ; 
+- BTC RPC Explorer.
 
 Pour ma part, j’apprécie particulièrement Mempool.space, que j’ai donc installé sur mon nœud. Attention toutefois : pour utiliser la plupart des explorateurs de blocs sur Umbrel, un indexeur d’adresses est nécessaire. Vous devez donc disposer de l’application Bitcoin Node (ou Bitcoin Knots) avec une blockchain synchronisée à 100 %, ainsi que d’un indexeur tel qu’Electrs ou Fulcrum, également synchronisé à 100 %.
 
@@ -1225,7 +1225,7 @@ Une fois l’application installée, il vous suffit de l’ouvrir pour accéder 
 
 Pour approfondir l’utilisation de l'explorateur Mempool.space, je vous recommande de consulter ce tutoriel complet :
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ### Nœud Lightning
 
@@ -1235,13 +1235,13 @@ Umbrel propose de nombreuses applications pour vous aider à faire fonctionner v
 - LND, via l’application *Lightning Node* ;
 - Core Lightning.
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
 Vous pouvez ensuite administrer votre nœud depuis l’interface principale, ou bien, pour bénéficier de davantage de fonctionnalités et d’options avancées, installer *Ride The Lightning* ou *ThunderHub*. Ces outils vous offriront une interface web de gestion bien plus complète pour votre nœud.
 
-https://planb.network/tutorials/node/lightning-network/ride-the-lightning-ca007688-0653-490c-8349-81d330d744b5
+https://planb.academy/tutorials/node/lightning-network/ride-the-lightning-ca007688-0653-490c-8349-81d330d744b5
 
-https://planb.network/tutorials/node/lightning-network/thunderhub-16909a39-2484-408e-a118-4e34e249bb9a
+https://planb.academy/tutorials/node/lightning-network/thunderhub-16909a39-2484-408e-a118-4e34e249bb9a
 
 ![Image](assets/fr/088.webp)
 
@@ -1263,7 +1263,7 @@ Concrètement, pour l'utilisation de votre Umbrel, Tailscale vous apporte plusie
 
 - Vous pouvez administrer l’interface Umbrel ou accéder aux applications liées à votre nœud (comme Mempool, Ride The Lightning, ThunderHub...) depuis n’importe où, comme si vous étiez sur le même réseau local, sans exposer de ports sur Internet et sans passer par Tor qui est très lent ;
 
-- Vous pouvez vous connecter à votre serveur Electrum (Electrs ou Fulcrum) ou directement à Bitcoin Core via votre VPN, sans passer par Tor. Cela vous offre une connexion sécurisée, comparable à l’utilisation de Tor, mais avec une vitesse bien plus élevée et une latence réduite. En résumé, vous conservez les avantages de Tor en matière de confidentialité et de sécurité, tout en bénéficiant de la rapidité d’une connexion en Clearnet. Pour un portefeuille on-chain, ce gain peut sembler marginal, mais si vous envisagez ultérieurement de mettre en place votre propre nœud Lightning, la différence est considérable. En effet, effectuer des paiements via votre nœud en déplacement sur Tor est extrêmement lent en raison des nombreux échanges requis, tandis qu’avec Tailscale, cela fonctionne parfaitement.
+- Vous pouvez vous connecter à votre serveur Electrum (Electrs ou Fulcrum) ou directement à Bitcoin Core via votre VPN, sans passer par Tor. Cela vous offre une connexion sécurisée, comparable à l’utilisation de Tor, mais avec une vitesse bien plus élevée et une latence réduite. En résumé, vous conservez les avantages de Tor en matière de confidentialité et de sécurité, tout en bénéficiant de la rapidité d’une connexion en Clearnet. Pour un portefeuille on-chain, ce gain peut sembler marginal, mais si vous envisagez ultérieurement de mettre en place votre propre nœud Lightning, la différence est considérable. En effet, effectuer des paiements via votre nœud en déplacement sur Tor est extrêmement lent en raison des nombreux échanges requis, tandis qu’avec Tailscale, cela fonctionne parfaitement ; 
 
 - Pas besoin de configurer des règles NAT, d’ouvrir des ports ou de mettre en place un serveur VPN classique. Une fois l’application installée sur Umbrel et vos appareils, le réseau est automatiquement établi.
 
@@ -1271,7 +1271,7 @@ Tailscale sur Umbrel est donc une solution très intéressante si vous souhaitez
 
 Pour installer et configurer Tailscale sur votre Umbrel, consultez ce tutoriel, section 4 : "*Utilisation de Tailscale sur Umbrel*" :
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 ### Nostr
 
@@ -1289,7 +1289,7 @@ Enfin, il y a l'application ***Nostr Wallet Connect*** sur Umbrel, qui permet de
 
 Pour savoir comment utiliser toutes ces applications, je vous conseille de découvrir ce tutoriel complet :
 
-https://planb.network/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b-17c2ea1e08fd
+https://planb.academy/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b-17c2ea1e08fd
 
 ### BTCPay Server
 
@@ -1303,15 +1303,15 @@ Si vous possédez un commerce et souhaitez accepter les paiements en bitcoins di
 
 - Le cours BIZ 101 sur l'utilisation de Bitcoin dans votre entreprise :
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 - Le cours POS 305 sur l'utilisation de BTCPay Server :
 
-https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
+https://planb.academy/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 
 - Le tutoriel sur BTCPay Server :
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 
 # Concepts avancés et bonnes pratiques
@@ -1336,7 +1336,7 @@ Sur le stockage, surveillez l'évolution : si le disque approche de la saturatio
 
 ### Mettre à jour
 
-Les mises à jour de votre nœud sont importantes pour trois raisons principales : d’abord la sécurité (correctifs de vulnérabilités, durcissement réseau, protections DoS...), ensuite la compatibilité (évolutions de politiques de relais, changements de formats, mises à niveau des protocoles...), enfin la fiabilité et les performances (bugs corrigés, consommation de ressources...). Il faut donc vérifier périodiquement qu'UmbrelOS et vos apps sont bien à jours :
+Les mises à jour de votre nœud sont importantes pour trois raisons principales : d’abord la sécurité (correctifs de vulnérabilités, durcissement réseau, protections DoS...), ensuite la compatibilité (évolutions de politiques de relais, changements de formats, mises à niveau des protocoles...), enfin la fiabilité et les performances (bugs corrigés, consommation de ressources...). Il faut donc vérifier périodiquement qu'UmbrelOS et vos apps sont bien à jour :
 
 - Pour mettre à jour le système : Ouvrez le menu des paramètres, puis cliquez sur le bouton "*Check for Update*" à côté du paramètre "*UmbrelOS*".
 
@@ -1364,7 +1364,7 @@ N’exposez jamais le tableau de bord sur Internet sans passer par une passerell
 
 Pour approfondir vos connaissances en sécurité informatique de manière générale, je vous recommande vivement de consulter cet autre cours gratuit :
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 ### Diagnostic et entraide
 
@@ -1393,12 +1393,12 @@ La synchronisation débute par l’étape _**headers-first**_. Votre nœud deman
 ![Image](assets/fr/093.webp)
 
 Pour rappel, un bloc Bitcoin se compose d’un en-tête de 80 octets et d’une liste de transactions. L’empreinte du bloc est obtenue en appliquant un double hachage SHA-256 sur cet en-tête, lequel regroupe 6 champs :
-- version
-- hachage du bloc précédent
-- racine de Merkle des transactions
-- horodatage (supérieur au temps médian des 11 blocs précédents)
-- cible de difficulté
-- nonce
+- version, 
+- hachage du bloc précédent, 
+- racine de Merkle des transactions,
+- horodatage (supérieur au temps médian des 11 blocs précédents),
+- cible de difficulté,
+- nonce.
 
 ![Image](assets/fr/094.webp)
 
@@ -1461,7 +1461,7 @@ Si votre nœud écoute sur un port ouvert (8333 par défaut), il accepte des con
 ## Anatomie de votre nœud Bitcoin
 <chapterId>b420bd9d-7e2a-4984-bc70-2b732a94c8ce</chapterId>
 
-Lorsque votre nœud a terminé sa synchronisation initiale, il conserve localement plusieurs ensembles de données complémentaires qui lui permettent de valider les blocs et transactions, de servir des pairs du réseau et de redémarrer rapidement en conservant son état. 3 briques principales sont essentielles sur un nœud :
+Lorsque votre nœud a terminé sa synchronisation initiale, il conserve localement plusieurs ensembles de données complémentaires qui lui permettent de valider les blocs et transactions, de servir des pairs du réseau et de redémarrer rapidement en conservant son état. Trois briques principales sont essentielles sur un nœud :
 - les **blocs** de la blockchain stockés sur disque,
 - l’**UTXO set** maintenu en base de données clé-valeur,
 - et la **mempool** conservée en mémoire vive et périodiquement sérialisée.
@@ -1530,9 +1530,9 @@ Notons que L'UTXO set est souvent au cœur d'inquiétudes sur la décentralisati
 
 La croissance de l'UTXO set découle également de la structure des transactions de paiement simples sur Bitcoin. En effet, lorsque vous effectuez un paiement, vous consommez un seul UTXO en entrée et créez en sortie 2 nouveaux UTXOs (l’un pour le paiement et l’autre pour le change). Enfin, une heuristique d’analyse de chaîne, appelée CIOH (*Common Input Ownership Heuristic*), est une incitation supplémentaire à éviter la consolidation de pièces.
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-Puisqu'il faut en conserver une partie en RAM pour pouvoir procéder à la vérification des transactions en temps raisonnable, il est possible que l'UTXO set rende progressivement l'opération d'un nœud complet trop couteuse. Pour résoudre ce problème, il existe déjà quelques propositions, notamment [Utreexo](https://planb.network/resources/glossary/utreexo).
+Puisqu'il faut en conserver une partie en RAM pour pouvoir procéder à la vérification des transactions en temps raisonnable, il est possible que l'UTXO set rende progressivement l'opération d'un nœud complet trop couteuse. Pour résoudre ce problème, il existe déjà quelques propositions, notamment [Utreexo](https://planb.academy/resources/glossary/utreexo).
 
 ### La mempool
 
@@ -1564,9 +1564,9 @@ Plusieurs autres fichiers au même niveau que `blocks/`, `chainstate/` et `index
 - `settings.json` contient d'autres paramètres supplémentaires au `bitcoin.conf` ;
 - `debug.log` est le journal texte de diagnostic, qui peut servir pour comprendre l’activité du nœud en cas de bug ;
 - `bitcoind.pid` enregistre l’identifiant de processus pendant l’exécution, qui permet à d'autres applications ou scripts d'identifier facilement Bitcoind (*Bitcoin Daemon*) et d'interagir avec lui si nécessaire. Il est créé au démarrage du nœud et supprimé à l’arrêt ;
-- `ip_asn.map` est une table de correspondance IP → ASN (système autonome) utilisée pour le bucketing et la diversification des pairs (option `-asmap`) ;
+- `ip_asn.map` est une table de correspondance IP → ASN (système autonome) utilisée pour le *bucketing* et la diversification des pairs (option `-asmap`) ;
 - `onion_v3_private_key` stocke la clé privée du service Tor v3 lorsque l’option `-listenonion` est activée, afin de conserver une adresse onion stable entre les redémarrages ;
-- `i2p_private_key` stocke la clé privée I2P lorsque `-i2psam=` est utilisé, pour réaliser des connexion sortantes et éventuellement entrantes sur I2P ;
+- `i2p_private_key` stocke la clé privée I2P lorsque `-i2psam=` est utilisé, pour réaliser des connexions sortantes et éventuellement entrantes sur I2P ;
 - `.cookie` contient un jeton d’authentification RPC éphémère (créé au démarrage, supprimé à l’arrêt) lorsque l’authentification par cookie est utilisée. Cela peut être utilisé par exemple pour connecter un logiciel de portefeuille ;
 - `.lock` est le verrou du répertoire de données, qui empêche plusieurs instances d’écrire simultanément dans le même datadir ;
 - `guisettings.ini.bak` est la sauvegarde automatique des paramètres de la GUI (*Bitcoin Qt*) lorsque l’option `-resetguisettings` est utilisée.
@@ -1630,7 +1630,7 @@ En parallèle, les données d’annulation sont écrites dans `rev*.dat` et les 
 
 Le fichier `bitcoin.conf` est la principale interface de configuration de Bitcoin Core. Il permet d’ajuster le comportement et les paramètres de votre nœud sans avoir à recompiler son code source ou faire des modifications en lignes de commande. Concrètement, c'est un fichier texte brut structuré en paires clé-valeur, c'est-à-dire que chaque ligne du fichier référence un paramètre spécifique (la clé) et une valeur associée qui peut être modifiée pour ajuster ce paramètre.
 
-On peut définir dans le `bitcoin.conf` des paramètres de réseau, de relais de transactions, de performances, d’indexation, de journalisation ou encore d’accès RPC. En revanche, ce fichier de configuration ne modifie jamais les règles de consensus du protocole : il fixe uniquement la politique locale du nœud (règles de relai), la manière dont il se connecte, indexe et expose des services.
+On peut définir dans le `bitcoin.conf` des paramètres de réseau, de relais de transactions, de performances, d’indexation, de journalisation ou encore d’accès RPC. En revanche, ce fichier de configuration ne modifie jamais les règles de consensus du protocole : il fixe uniquement la politique locale du nœud (règles de relais), la manière dont il se connecte, indexe et expose des services.
 
 ### Emplacement et priorité
 
@@ -1652,7 +1652,7 @@ Pour segmenter la configuration par réseau, on peut utiliser des sections : `
 
 ### Ce que le bitcoin.conf peut et ne peut pas faire
 
-Comment expliqué précédemment, les règles de consensus ne sont évidemment pas configurable dans le `bitcoin.conf`, puisque cela pourrait créer un hard fork. En revanche, beaucoup d’autres aspects sont paramétrables. On distingue 3 classes utiles à garder en tête :
+Comment expliqué précédemment, les règles de consensus ne sont évidemment pas configurables dans le `bitcoin.conf`, puisque cela pourrait créer un hard fork. En revanche, beaucoup d’autres aspects sont paramétrables. On distingue 3 classes utiles à garder en tête :
 - Les paramètres purement locaux. Ils n’affectent que votre nœud : taille du cache (`dbcache`), mode élagué (`prune`), index optionnels... Ils influencent les performances de votre machine, mais pas le réseau ;
 - Les politiques de relais et de mempool. Elles décident de ce que votre nœud accepte, conserve et relaie avant confirmation : seuil minimal de frais (`minrelaytxfee`), taille et durée de rétention de la mempool (`maxmempool`, `mempoolexpiry`), remplacement des transactions (RBF)... Ces règles ne font pas partie du consensus, donc deux nœuds différents peuvent avoir des politiques différentes et rester pleinement compatibles. En revanche, ces paramètres vont avoir une influence sur le réseau Bitcoin (comme expliqué dans la première partie, notamment avec la théorie de la percolation) ;
 - La connectivité réseau. Ce sont les options qui déterminent comment votre nœud trouve des pairs, écoute, traverse un NAT, utilise Tor ou un proxy, ou limite sa bande passante. Elles façonnent votre topologie, mais n’altèrent pas le relai des transactions.
@@ -1686,7 +1686,7 @@ Niveau réseau, on a également :
 - `dnsseed` : autorise ou non la requête des _DNS seeds_ pour obtenir des pairs quand votre réserve locale d’adresses est faible (par défaut : `1`, sauf si `-connect` ou `-maxconnections=0`) ;
 - `forcednsseed` : force la requête des _DNS seeds_ au démarrage, même si vous avez déjà des adresses en stock (par défaut : `0`) ;
 - `fixedseeds` : Autorise l’usage des *seed nodes* (liste d'adresses hardcodées) si les _DNS seeds_ échouent ou sont désactivés (par défaut : `1`) ;
-- `dns` : Autorise les résolutions DNS en général (par exemple pour `-addnode`/`-seednode`/`-connect`) ;
+- `dns` : Autorise les résolutions DNS en général (par exemple pour `-addnode`/`-seednode`/`-connect`).
 
 Par défaut, votre nœud communique sur le clearnet, Tor et I2P. Cela implique que les pairs avec lesquels il se connecte en clearnet peuvent voir votre adresse IP publique, et que votre ISP (fournisseur d’accès à Internet) pourra probablement détecter que vous exploitez un nœud Bitcoin (même si P2P Transport V2 complique l’écoute passive par un FAI). Ce n’est pas nécessairement problématique, mais si vous souhaitez éviter toute fuite de ces informations, vous pouvez connecter votre nœud exclusivement via Tor.
 
@@ -1725,13 +1725,13 @@ Voici les paramètres de base que vous pouvez modifier sur votre `bitcoin.conf` 
 
 - `minrelaytxfee=<n>` : Taux de frais minimal (en BTC/kvB) en-dessous duquel les transactions ne sont pas acceptées dans la mempool du nœud et pas relayées aux pairs (défaut : `0.00001` = 1 sat/vB). Plus cette valeur est élevée, plus votre nœud filtre agressivement les transactions à bas frais.
 
-- `mempoolfullrbf=1` : Accepter les transaction RBF même sans signalisation explicite de RBF dans la transaction remplacée. Avec cette politique dite "*full-RBF*", une transaction offrant un taux de frais supérieur peut en remplacer une autre en mempool si les autres conditions de remplacement sont satisfaites.
+- `mempoolfullrbf=1` : Accepter les transactions RBF même sans signalisation explicite de RBF dans la transaction remplacée. Avec cette politique dite "*full-RBF*", une transaction offrant un taux de frais supérieur peut en remplacer une autre en mempool si les autres conditions de remplacement sont satisfaites.
 
 Pour rappel : RBF est un mécanisme transactionnel permettant à l'expéditeur de remplacer une transaction par une autre avec des frais plus élevés, afin d'accélérer la confirmation de celle-ci. Si une transaction avec des frais trop faibles reste bloquée, l'expéditeur peut utiliser *Replace-By-Fee* pour augmenter les frais et prioriser sa transaction de remplacement dans les mempools et auprès des mineurs.
 
 #### Paramètres avancés et spécifiques
 
-Voici les paramètres avancés relatifs à la politique de mempool et de relai. Si vous êtes débutant, vous ne devriez pas avoir besoin de modifier ces paramètres :
+Voici les paramètres avancés relatifs à la politique de mempool et de relais. Si vous êtes débutant, vous ne devriez pas avoir besoin de modifier ces paramètres :
 
 - `datacarrier=1` : Autorise le relais et (si minage via le nœud) l’inclusion des transactions porteuses de données non financières via un output `OP_RETURN` (défaut : `1`). Désactiver ce paramètre réduit légèrement la surface de spam de données non financières au prix d’une compatibilité moindre avec certains usages. Dans tous les cas, vous devrez accepter les `OP_RETURN` minés.
 
@@ -1753,7 +1753,7 @@ Voici les paramètres avancés relatifs à la politique de mempool et de relai. 
 
 - `blockreconstructionextratxn=<n>` : Nombre supplémentaire de transactions conservées en mémoire pour reconstruire des blocs compacts (défaut : `100`). Améliore la réussite des reconstructions lors des synchronisations compactes, au prix d’un peu de mémoire.
 
-Pour rappel : toutes ces règles de relai n’ont aucune incidence sur la validité de transactions incluses dans un bloc valide. Ils servent à ajuster votre contribution au relais, à protéger vos ressources et à rendre votre nœud prévisible dans des environnements contraints, mais ne permettent jamais de refuser des blocs qui respectent les règles de consensus.
+Pour rappel : toutes ces règles de relais n’ont aucune incidence sur la validité de transactions incluses dans un bloc valide. Ils servent à ajuster votre contribution au relais, à protéger vos ressources et à rendre votre nœud prévisible dans des environnements contraints, mais ne permettent jamais de refuser des blocs qui respectent les règles de consensus.
 
 ### Wallets
 
@@ -1775,13 +1775,13 @@ Vous pouvez aussi ajuster, dans le fichier `bitcoin.conf`, la façon dont vos po
 
 - `paytxfee=<amt>` : Taux de frais fixe (BTC/kvB) appliqué aux transactions du wallet. À éviter en général : privilégiez l’estimation adaptative via `txconfirmtarget`.
 
-- `fallbackfee=<amt>` : Taux de secours (BTC/kvB) utilisé si l’estimateur manque de données (défaut : `0.00`). Le mettre à 0 désactive totalement le fallback.
+- `fallbackfee=<amt>` : Taux de secours (BTC/kvB) utilisé si l’estimateur manque de données (défaut : `0.00`). Le mettre à 0 désactive totalement le *fallback*.
 
 - `mintxfee=<amt>` : Seuil minimal (BTC/kvB) pour la création de transactions par le wallet (défaut : `0.00001`). Le wallet refusera de construire une transaction en-dessous de ce seuil.
 
 - `maxtxfee=<amt>` : Plafond absolu de frais totaux pour une transaction de wallet (défaut : `0.10` BTC). Protège contre des frais anormalement élevés qui viendraient détruire des bitcoins inutilement.
 
-- `avoidpartialspends=1` : Sélectionne les UTXOs par grappes d’adresse pour éviter les dépenses partielles.
+- `avoidpartialspends=1` : Sélectionne les UTXOs par grappes d’adresses pour éviter les dépenses partielles.
 
 - `spendzeroconfchange=1` : Autorise la réutilisation d’un UTXO de change non confirmé comme entrée dans une nouvelle transaction (défaut : `1`).
 
@@ -1889,11 +1889,11 @@ Nous arrivons à la conclusion de ce cours BTC 202, qui vous aura permis non seu
 
 Vous pouvez à présent passer à la partie finale du cours, où vous pourrez évaluer BTC 202, puis passer votre diplôme pour vérifier que toutes les notions abordées sont bien acquises.
 
-Plusieurs chemins s’offrent maintenant à vous. La prochaine étape logique consiste à mettre en place votre propre nœud Lightning, afin d’être entièrement indépendant pour vos transactions off-chain. Ce sera le sujet d’une formation à venir, qui sera publiée cet automne 2025 sur Plan ₿ Network.
+Plusieurs chemins s’offrent maintenant à vous. La prochaine étape logique consiste à mettre en place votre propre nœud Lightning, afin d’être entièrement indépendant pour vos transactions off-chain. Ce sera le sujet d’une formation à venir, qui sera publiée cet automne 2025 sur Plan ₿ Academy.
 
 En attendant, je vous invite à découvrir la formation BTC 204, qui vous permettra de comprendre et de maîtriser les principes de protection de la vie privée dans votre utilisation de Bitcoin :
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 # Partie finale

@@ -778,9 +778,9 @@ Utilizziamo un campo finito di interi modulo $p$ per garantire l'accuratezza del
 
 La matematica delle curve ellittiche sui campi finiti è analoga a quella applicata nel campo dei numeri reali, con l'adattamento che tutte le operazioni sono eseguite modulo $p$. Per semplificare le spiegazioni continueremo nei capitoli seguenti a illustrare i concetti utilizzando una curva definita su numeri reali, tenendo presente che, in pratica, la curva è definita su un campo finito.
 
-Se desideri approfondire le basi matematiche della crittografia moderna, ti consiglio anche di consultare questo altro corso su Plan ₿ Network:
+Se desideri approfondire le basi matematiche della crittografia moderna, ti consiglio anche di consultare questo altro corso su Plan ₿ Academy:
 
-https://planb.network/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
+https://planb.academy/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 
 ## Calcolo della Chiave Pubblica a partire dalla Chiave Privata
 
@@ -1202,7 +1202,7 @@ Se questo flag sighash verrà integrato in Bitcoin, consentirà l'uso dei covena
 
 Per approfondire la tua conoscenza su Lightning Network, dopo il corso CYP201, ti consiglio vivamente il corso LNP201 di Fanis Michalakis, che copre l'argomento in dettaglio:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Nella prossima parte propongo di scoprire come funziona la frase mnemonica alla base del tuo wallet Bitcoin.
 
@@ -1237,9 +1237,9 @@ Se si desiderava utilizzare più chiavi private era quindi necessario effettuare
 
 Questo vincolo deriva dal modello di privacy di Bitcoin. Riutilizzando lo stesso indirizzo si facilita il tracciamento di tutte le tue transazioni Bitcoin agli osservatori esterni. Ecco perché è fortemente sconsigliato riutilizzare un indirizzo di ricezione. Ma per avere più indirizzi e separare pubblicamente le nostre transazioni, è per altro necessario gestire più chiavi private. Nel caso dei wallet JBOK ciò implica la creazione di altrettanti backup quanti sono le nuove coppie di chiavi, un compito che può diventare presto complesso e difficile da mantenere per gli utenti.
 
-Per saperne di più sul modello di privacy di Bitcoin e scoprire metodi per proteggere la tua privacy, ti consiglio anche di seguire il mio corso BTC204 su Plan ₿ Network:
+Per saperne di più sul modello di privacy di Bitcoin e scoprire metodi per proteggere la tua privacy, ti consiglio anche di seguire il mio corso BTC204 su Plan ₿ Academy:
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Wallet HD (_Hierarchical Deterministic_)
 
@@ -1344,7 +1344,7 @@ Per un'entropia di 256 bit, ad esempio, il risultato $\text{ENT} \Vert \text{CS}
 
 ### Conversione della Sequenza Binaria in una Frase Mnemonica
 
-La sequenza di bit $\text{ENT} \Vert \text{CS}$ viene quindi divisa in segmenti di 11 bit. Ogni segmento di 11 bit, una volta convertito in decimale, corrisponde a un numero tra 0 e 2047, che designa la posizione di una parola [in una lista di 2048 parole standardizzata dal BIP39](https://github.com/Planb-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
+La sequenza di bit $\text{ENT} \Vert \text{CS}$ viene quindi divisa in segmenti di 11 bit. Ogni segmento di 11 bit, una volta convertito in decimale, corrisponde a un numero tra 0 e 2047, che designa la posizione di una parola [in una lista di 2048 parole standardizzata dal BIP39](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
 ![CYP201](assets/en/042.webp)
 
@@ -1389,7 +1389,7 @@ Una frase di 12 parole, che offre quindi 128 bit di sicurezza, è attualmente su
 
 Per approfondire e imparare concretamente come generare manualmente una frase mnemonica di prova, ti consiglio di scoprire questo tutorial:
 
-https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
+https://planb.academy/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
 
 Prima di continuare con la derivazione del wallet dalla frase mnemonica, ti presenterò nel capitolo seguente la passphrase BIP39, poiché gioca un ruolo nel processo di derivazione ed è allo stesso livello della frase mnemonica.
 

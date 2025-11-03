@@ -17,7 +17,7 @@ Ovaj video tutorijal vas vodi kroz postavljanje i korišćenje Bitcoin Keeper Wa
 
 Da biste videli kompletan vodič za Bitcoin Keeper Wallet, pogledajte vodič ovde:
 
-https://planb.network/tutorials/wallet/mobile/bitcoin-keeper-7f2a160b-10b6-4cc5-8820-514ee2eb1599
+https://planb.academy/tutorials/wallet/mobile/bitcoin-keeper-7f2a160b-10b6-4cc5-8820-514ee2eb1599
 
 Pogledajte ovde druge relevantne linkove:
 

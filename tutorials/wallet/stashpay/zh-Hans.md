@@ -42,7 +42,7 @@ StashPay 是一个使用 React Native 开发的开源项目，旨在解决即使
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 点击 "设置 "图标进入 StashPay 设置，然后点击**创建备份**选项。然后授权显示恢复短语。请勿将恢复短语复制到手机剪贴板上，因为手机上安装的其他欺诈性应用程序可能会访问这些短语。
 
@@ -88,7 +88,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 
-https://planb.network/tutorials/wallet/mobile/misty-breez-738ced2a-0764-4d7f-a150-ec0ce84a9d25
+https://planb.academy/tutorials/wallet/mobile/misty-breez-738ced2a-0764-4d7f-a150-ec0ce84a9d25
 
 ### 使用 StashPay 发送比特币
 
@@ -106,7 +106,7 @@ https://planb.network/tutorials/wallet/mobile/misty-breez-738ced2a-0764-4d7f-a15
 
 
 
-https://planb.network/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
+https://planb.academy/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
 
 不过，Breez SDK 规定了向主链上的 Address 发送比特币的最低金额。
 
@@ -168,4 +168,4 @@ StashPay 可让您根据自己选择的当地货币 Exchange 萨托希。点击*
 
 
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f

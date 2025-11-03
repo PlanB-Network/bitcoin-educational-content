@@ -11,7 +11,7 @@ description: راهنمای کامل LNP2PBot و معاملات P2P Bitcoin
 مبادلات همتا به همتای بدون KYC (P2P) برای حفظ حریم خصوصی کاربران و استقلال مالی ضروری هستند. آن‌ها معاملات مستقیم بین افراد را بدون نیاز به تأیید هویت امکان‌پذیر می‌سازند، که برای کسانی که به حریم خصوصی ارزش می‌دهند بسیار مهم است. برای درک عمیق‌تر مفاهیم نظری، به دوره BTC204 نگاهی بیندازید:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 خرید و فروش همتا به همتای Bitcoin (P2P) یکی از خصوصی‌ترین روش‌های کسب یا واگذاری بیت‌کوین‌ها است. LNP2PBot یک ربات تلگرام متن‌باز است که مبادلات P2P را بر روی Lightning Network تسهیل می‌کند و تراکنش‌های سریع، کم‌هزینه و بدون نیاز به KYC را امکان‌پذیر می‌سازد.
 
@@ -71,7 +71,7 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 در زیر لینک آموزش برای این Wallet آمده است:
 
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
 
 - [Phoenix](https://phoenix.acinq.co) :
@@ -85,7 +85,7 @@ https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4
 در زیر لینک آموزش برای این Wallet آمده است:
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 
 - [Blixt](https://blixtwallet.github.io) :
@@ -99,7 +99,7 @@ https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 در زیر لینک آموزش برای این Wallet آمده است:
 
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
 **نکات مهم در مورد کیف‌پول‌های دیگر**
 

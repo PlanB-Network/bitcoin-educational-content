@@ -293,7 +293,7 @@ Umbrel on suosittu itsepalvelualusta (jota käytetään erityisesti Bitcoin/Ligh
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 Umbrelin ja Tailscalen käyttäminen yhdessä on erityisen mielenkiintoinen käyttötapaus, sillä Umbrel integroi natiivisti helposti käyttöönotettavan Tailscale-moduulin. Tässä kerrotaan, miten Tailscale integroituu Umbreliin ja mitä se tuo mukanaan:
 
@@ -419,7 +419,7 @@ Lue täydellinen oppaamme Sparrow wallet:n konfiguroinnista Bitcoin-solmun kanss
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 
 
@@ -439,13 +439,13 @@ Jos haluat määrittää Zeuksen Lightning-solmun kanssa, katso yksityiskohtaine
 
 
 
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
 
 Lisätietoja Lightning Network:stä ja sen toiminnasta Umbrelissa saat osoitteesta:
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
 
 

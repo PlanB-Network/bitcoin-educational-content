@@ -10,7 +10,7 @@ Di era digital pengumpulan data, privasi online telah menjadi isu utama bagi kit
 
 ***Virtual Private Network*** (VPN) adalah sistem untuk membuat sambungan langsung antara komputer jarak jauh yang terhubung ke jaringan lokal yang berbeda. Dengan kata lain, ini adalah sistem yang mengisolasi dan mengenkripsi pertukaran Anda dari sisa lalu lintas di Internet. Untuk mempelajari lebih lanjut tentang VPN, kegunaan, dan manfaat menggunakannya, lihat kursus SCU 101:
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 Berdasarkan prinsip ini, [Mozilla VPN] (https://www.mozilla.org/fr/products/vpn/download/) adalah layanan VPN sumber terbuka yang dikembangkan pada tahun 2020 oleh Mozilla Foundation. Layanan ini tersedia di:
 
@@ -98,4 +98,4 @@ Selalu dengan tujuan untuk menjamin kerahasiaan yang lebih baik bagi penggunanya
 
 Sekarang Anda siap untuk menjelajahi di Internet dengan aman dan rahasia. Jika Anda menikmati tutorial ini, silakan beri jempol hijau. Kami juga yakin Anda akan menikmati tutorial kami tentang MULLVAD VPN, solusi VPN lain yang tidak memerlukan data pribadi dari penggunanya dan memungkinkan Anda membayar langganan Anda dengan bitcoin (opsi yang lebih rahasia daripada kartu kredit):
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8

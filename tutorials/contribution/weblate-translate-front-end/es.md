@@ -4,7 +4,7 @@ description: ¿Cómo puedes participar en la traducción de los elementos estát
 ---
 ![cover](assets/cover.webp)
 
-La misión de Plan ₿ Network es proporcionar recursos educativos de primera clase sobre Bitcoin y traducirlos al mayor número de idiomas posible. Gran parte del contenido publicado en el sitio es de código abierto y está alojado en GitHub, lo que permite a cualquiera participar en el enriquecimiento de la plataforma. Las contribuciones pueden adoptar diversas formas: corregir y corregir el contenido existente, actualizar la información o crear nuevos tutoriales para añadir a la plataforma.
+La misión de Plan ₿ Academy es proporcionar recursos educativos de primera clase sobre Bitcoin y traducirlos al mayor número de idiomas posible. Gran parte del contenido publicado en el sitio es de código abierto y está alojado en GitHub, lo que permite a cualquiera participar en el enriquecimiento de la plataforma. Las contribuciones pueden adoptar diversas formas: corregir y corregir el contenido existente, actualizar la información o crear nuevos tutoriales para añadir a la plataforma.
 
 En este tutorial, te mostraremos cómo contribuir fácilmente a la traducción de los elementos estáticos de nuestro sitio web. Los datos de la plataforma se dividen en dos categorías principales:
 
@@ -13,21 +13,21 @@ En este tutorial, te mostraremos cómo contribuir fácilmente a la traducción d
 
 Para traducir los contenidos educativos, utilizamos [inteligencia artificial](https://github.com/Asi0Flammeus/LLM-Translator). Luego, para corregir los eventuales errores de estos archivos, invitamos a los correctores a contribuir. Si deseas corregir algún contenido, consulta el siguiente tutorial:
 
-https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
+https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 Por otro lado, si estás interesado en traducir los elementos estáticos del sitio web (excluidos los contenidos educativos), ¡Estás en el lugar adecuado! Para traducir eficazmente el frontend, utilizamos la herramienta Weblate, que es muy sencilla de utilizar y facilita el planteamiento de la traducción.
 
-Si deseas añadir un idioma completamente nuevo a Plan ₿ Network, asegúrate de ponerte en contacto con el equipo de Plan ₿ Network a través de nuestro [grupo de Telegram](https://t.me/PlanBNetwork_ContentBuilder). Si no tienes telegram, puedes enviar un correo electrónico a mari@planb.network. Asegúrate de escribir una pequeña presentación sobre quién eres y los idiomas que hablas.
+Si deseas añadir un idioma completamente nuevo a Plan ₿ Academy, asegúrate de ponerte en contacto con el equipo de Plan ₿ Academy a través de nuestro [grupo de Telegram](https://t.me/PlanBNetwork_ContentBuilder). Si no tienes telegram, puedes enviar un correo electrónico a mari@planb.network. Asegúrate de escribir una pequeña presentación sobre quién eres y los idiomas que hablas.
 
 Los miembros de nuestro equipo te darán instrucciones específicas y abrirán los "issues" correspondientes en Github para coordinar tu trabajo.
 
 Antes de seguir, checa este tutorial específico para añadir un nuevo idioma al Weblate.
 
-https://planb.network/tutorials/contribution/content/weblate-add-new-language-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
+https://planb.academy/tutorials/contribution/content/weblate-add-new-language-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
 Cuando estés listo para empezar a traducir, vuelve a este tutorial y repasa los siguientes puntos.
 
 ## Registrarse en Weblate
 
-- Ve a [el Weblate autoalojado de Plan ₿ Network](https://weblate.planb.network/):
+- Ve a [el Weblate autoalojado de Plan ₿ Academy](https://weblate.planb.network/):
 
 ![weblate](assets/01.webp)
 
@@ -51,7 +51,7 @@ Cuando estés listo para empezar a traducir, vuelve a este tutorial y repasa los
 
 ![weblate](assets/06.webp)
 
-- Ahora puedes volver al panel de Plan ₿ Network:
+- Ahora puedes volver al panel de Plan ₿ Academy:
 
 ![weblate](assets/07.webp)
 
@@ -120,7 +120,7 @@ Cuando estés listo para empezar a traducir, vuelve a este tutorial y repasa los
 ## Pautas de traducción
 
 - Cuando encuentres palabras insertadas dentro de llaves "{", no es necesario que las traduzcas. Por ejemplo, en "Your account has been created, {{userName}}!", traducirás toda la frase, pero mantendrás "userName" en inglés.
-- Cuando encuentres "Plan ₿ Network" en una cadena, asegúrate de NO traducir la palabra "network" (considera Plan ₿ Network como una marca registrada). Además, ¡utiliza siempre la ₿ de Bitcoin!
+- Cuando encuentres "Plan ₿ Academy" en una cadena, asegúrate de NO traducir la palabra "network" (considera Plan ₿ Academy como una marca registrada). Además, ¡utiliza siempre la ₿ de Bitcoin!
 - Si en su lugar, encuentras la palabra "network" sola, puedes traducirla.
 - No traduzcas "B-CERT", ya que es otra palabra fija.
 - Si encuentras cadenas que terminan con un espacio, puedes dejarlo.
@@ -132,4 +132,4 @@ Cuando estés listo para empezar a traducir, vuelve a este tutorial y repasa los
 
 ![weblate](assets/23.webp)
 
-¡Gracias de antemano por tu contribución a la traducción de Plan ₿ Network! Si tienes alguna pregunta o comentario específico para nosotros, no dudes en ponerte en contacto con nosotros a través del [grupo de Telegram](https://t.me/PlanBNetwork_ContentBuilder).
+¡Gracias de antemano por tu contribución a la traducción de Plan ₿ Academy! Si tienes alguna pregunta o comentario específico para nosotros, no dudes en ponerte en contacto con nosotros a través del [grupo de Telegram](https://t.me/PlanBNetwork_ContentBuilder).

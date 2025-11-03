@@ -241,7 +241,7 @@ Bitcoin okupljanja mogu služiti mnogim svrhama:
 
 
 
-Obradićemo mnoge od ovih mogućnosti detaljno u delu 6/8 ovog kursa, pod nazivom "[Primeri projekata i inicijativa](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279).
+Obradićemo mnoge od ovih mogućnosti detaljno u delu 6/8 ovog kursa, pod nazivom "[Primeri projekata i inicijativa](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279).
 
 
 
@@ -353,7 +353,7 @@ Vaš prvi događaj će verovatno biti okupljanje. Njegova glavna svrha: da okupi
 
 
 
-Međutim, kao što ćemo videti kasnije u [Primeri projekata i inicijativa](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279), **okupljanje može biti organizovano na mnogo načina, sa mnogo ciljeva:**
+Međutim, kao što ćemo videti kasnije u [Primeri projekata i inicijativa](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279), **okupljanje može biti organizovano na mnogo načina, sa mnogo ciljeva:**
 
 
 
@@ -866,7 +866,7 @@ Za tutorijale ispod, prvobitno smo koristili "Telegram+" APK, koji omogućava na
 Ako želite da napravite mesto gde vaši članovi mogu direktno da razgovaraju jedni s drugima, odgovaraju jedni drugima, itd., onda biste možda želeli da napravite Telegram grupu, a ne Telegram kanal!
 
 
-Idite direktno na sledeći odeljak, pod nazivom [Create a Telegram group](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/d13714ce-8f08-53e9-bedd-b6a3aaac5dad).
+Idite direktno na sledeći odeljak, pod nazivom [Create a Telegram group](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/d13714ce-8f08-53e9-bedd-b6a3aaac5dad).
 
 
 
@@ -1232,7 +1232,7 @@ Twitter je veoma lak za korišćenje, a da biste poboljšali svoju privatnost, p
 1/ **@ Twitter**, koji definiše vaš identitet i čini vas lakim za pronalaženje. Ako je ime vaše zajednice "Bitcoin [CITY]", prikladno je odabrati "@Bitcoin[CITY]";
 
 
-2/ **logo i baner** koje ste kreirali za vašu zajednicu ili okupljanje (pogledajte odeljak [Kreirajte logo, poster i baner](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef));
+2/ **logo i baner** koje ste kreirali za vašu zajednicu ili okupljanje (pogledajte odeljak [Kreirajte logo, poster i baner](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef));
 
 
 3/ **opis**, koji vam omogućava da podelite ključne informacije o vašoj zajednici u nekoliko stotina karaktera. Na primer:
@@ -1547,7 +1547,7 @@ U drugom slučaju, drugi mesečni događaj mogao bi biti posvećen određenoj te
 
 
 
-Imajte na umu da **ovo zahteva više organizacije i više vašeg vremena**. Srećom, u [delu 6/8 ovog kursa](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279), naći ćete niz ponovo upotrebljivih resursa otvorenog koda koji će vam pomoći.
+Imajte na umu da **ovo zahteva više organizacije i više vašeg vremena**. Srećom, u [delu 6/8 ovog kursa](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279), naći ćete niz ponovo upotrebljivih resursa otvorenog koda koji će vam pomoći.
 
 
 U svakom slučaju, sve zavisi od kratkoročnog, srednjoročnog i dugoročnog akcionog plana koji vi, ili vaša zajednica, postavite za sebe.
@@ -1619,7 +1619,7 @@ Kontaktirajte lokaciju na kojoj ćete održati događaj i rezervišite je za pro
 
 
     - Podelite datum, vreme i lokaciju na vašim društvenim mrežama i drugim komunikacionim kanalima. Uključite link za registraciju ako je potrebno.
-    - Kreirajte posvećen vizual (na primer Canva poster, pogledajte deo 2/8 "[Dizajniranje identiteta za vašu Bitcoin zajednicu](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/b48a18cc-afdf-5216-802c-32647b5cd8a3)").
+    - Kreirajte posvećen vizual (na primer Canva poster, pogledajte deo 2/8 "[Dizajniranje identiteta za vašu Bitcoin zajednicu](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/b48a18cc-afdf-5216-802c-32647b5cd8a3)").
     - Maksimizirajte vidljivost kačenjem objave na Telegram i Twitter, i korišćenjem "@everyone" oznake na Discord-u.
     - Objavite najave 7 do 10 dana pre događaja kako bi učesnici mogli unapred da planiraju.
 
@@ -1721,7 +1721,7 @@ Rim nije izgrađen za jedan dan, i vaša zajednica neće biti. Momentum oko Bitc
 Da bi se to ostvarilo, jedna stvar je ključna: **održavajte učesnike angažovanim**.
 
 
-Može početi sa malom grupom strastvenih bitkoinera, čiji je cilj da se redovno okupljaju i razgovaraju o Bitcoin. Vremenom, u zavisnosti od dostupnosti i interesovanja svakog pojedinca, možete **podeliti određene organizacione zadatke sa grupom**, ili pozvati ključne **članove da preuzmu specifične projekte**. Ovi projekti mogu biti jedinstveni za vašu zajednicu, vaše sastanke ili vaš grad, ili čak inspirisani mnogim inicijativama predloženim u [delu 6/8 ovog kursa](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279). **Ovo ne samo da podstiče Commitment od vaših ključnih članova, već i pomaže vašoj zajednici da raste i napreduje.**.
+Može početi sa malom grupom strastvenih bitkoinera, čiji je cilj da se redovno okupljaju i razgovaraju o Bitcoin. Vremenom, u zavisnosti od dostupnosti i interesovanja svakog pojedinca, možete **podeliti određene organizacione zadatke sa grupom**, ili pozvati ključne **članove da preuzmu specifične projekte**. Ovi projekti mogu biti jedinstveni za vašu zajednicu, vaše sastanke ili vaš grad, ili čak inspirisani mnogim inicijativama predloženim u [delu 6/8 ovog kursa](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279). **Ovo ne samo da podstiče Commitment od vaših ključnih članova, već i pomaže vašoj zajednici da raste i napreduje.**.
 
 
 Kako se vaši sastanci budu razvijali, pojaviće se nova lica: ljudi koji su kupili BTC i/ili altcoine u prethodnim ciklusima, tehno entuzijasti koji žele da prodube svoje razumevanje, ili potpuni početnici radoznali o ovom necenzurisanom, decentralizovanom, transparentnom i fer platnom sistemu koji funkcioniše bez uslova i bez pouzdanih trećih strana.
@@ -1820,7 +1820,7 @@ Pored svoje snažne obrazovne vrednosti, ovaj pristup omogućava deljenje dokume
 Ispod je napredak francuskog okupljanja za 2023-2024. Za svaku temu dostupna je prezentacija otvorenog koda i video, što vam može dati ideje za teme koje biste mogli pokriti na svojim događajima.
 
 
-Dodatni materijali za uređivanje mogu se pronaći i u [Bitcoin Teaching Toolbox](https://planb.network/fr/resources/bet)!
+Dodatni materijali za uređivanje mogu se pronaći i u [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)!
 
 
 
@@ -2003,7 +2003,7 @@ Ovi leci mogu biti usmereni ka:
 Takođe možete dizajnirati flajer specifičan za vašu zajednicu ili okupljanje, predstavljajući vaše aktivnosti, ciljeve, linkove ka društvenim mrežama, komunikacione kanale i predstojeće događaje.
 
 
-Nekoliko letaka je već **dostupno kao open-source u [Bitcoin Teaching Toolbox](https://planb.network/fr/resources/bet)** na planB.network i još će ih biti dodato s vremenom.
+Nekoliko letaka je već **dostupno kao open-source u [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)** na planB.network i još će ih biti dodato s vremenom.
 
 
 Jedan primer je [potpuno dokumentovan flajer](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin) sa 21 razlogom za korišćenje Bitcoin. Njegov dizajn je takođe [dostupan kao open-source](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) za modifikaciju, prilagođavanje i deljenje. Samo zapamtite da navedete izvore.
@@ -2222,7 +2222,7 @@ Popularne platforme uključuju:
 - [**peertube**](https://joinpeertube.org/fr_FR), omogućava vam da hostujete sopstvenu video platformu, iako je složenije za postavljanje.
 
 
-Koji god da izabereš, dizajniraj vizuale specifične za platformu kako bi tvoj kanal bio privlačan. Canva, pomenuta u [delu 2/8](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef) nudi kategoriju "YouTube Thumbnail" sa unapred napravljenim, prilagodljivim dizajnima.
+Koji god da izabereš, dizajniraj vizuale specifične za platformu kako bi tvoj kanal bio privlačan. Canva, pomenuta u [delu 2/8](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef) nudi kategoriju "YouTube Thumbnail" sa unapred napravljenim, prilagodljivim dizajnima.
 
 
 
@@ -2857,7 +2857,7 @@ Da biste dodatno unapredili svoju zajednicu, **nastavak kursa COMMU302** <img wi
 
 ![immagine](https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430)
 
-može biti objavljeno na [planb.network](https://planb.network/) u narednim mesecima.
+može biti objavljeno na [planb.network](https://planb.academy/) u narednim mesecima.
 
 
 Ova sledeća sesija mogla bi istražiti napredne teme kao što su:

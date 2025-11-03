@@ -18,7 +18,7 @@ Et ***Virtual Private Network*** (VPN) er et system for å opprette en direkte f
 
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 Basert på dette prinsippet er [Mozilla VPN] (https://www.mozilla.org/fr/products/vpn/download/) en VPN-tjeneste med åpen kildekode som ble utviklet i 2020 av Mozilla Foundation. Den er tilgjengelig på:
 
@@ -191,4 +191,4 @@ Nå er du klar til å surfe trygt og konfidensielt på Internett. Hvis du likte 
 
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8

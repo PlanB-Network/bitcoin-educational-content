@@ -1,0 +1,29 @@
+id: a0c1aa75-7baa-45e4-989a-ae1c27b64ac5
+
+credit_link: https://btcnyc.github.io/classes/topics/bitcoin-hardware-wallet/00-beginners-hardware-wallet/lesson/
+
+project_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8
+
+tags:
+  - hardware
+  - DIY
+  - wallets
+
+category: hardware
+
+level: intermediate
+
+professor_id: e40f52b5-73d2-4d77-8b31-1bbde7dd0f9c
+
+licence: MIT
+
+# Proofreading metadata
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-11-03
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0

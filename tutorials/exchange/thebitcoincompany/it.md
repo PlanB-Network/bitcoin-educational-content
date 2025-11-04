@@ -5,290 +5,218 @@ description: Come posso acquistare beni e servizi in BTC con The Bitcoin Company
 ![cover](assets/cover.webp)
 
 
+Bitcoin: un sistema di denaro elettronico peer-to-peer
 
-> Bitcoin: Un sistema di contanti elettronici Peer-to-Peer
-
-Il Bitcoin è proprio questo: essere spesi da pari a pari senza dover chiedere il permesso a nessuno. Oggi, pochissimi commercianti accettano il Bitcoin in Exchange per i loro beni e servizi (siamo così in anticipo), rendendo difficile per quelli di noi che hanno bisogno di spendere i loro satoshi. **La Bitcoin Company** è qui per aiutarvi a risolvere questo problema, permettendovi di spendere i vostri bitcoin per **acquistare carte regalo**
-
+Di questo si tratta Bitcoin: essere speso peer-to-peer senza dover chiedere il permesso a nessuno. Oggi pochissimi commercianti accettano Bitcoin in cambio dei loro beni e servizi (siamo ancora agli inizi), rendendo difficile per chi di noi ha bisogno di spendere i propri satoshi. **The Bitcoin Company** è qui per risolvere questo problema, permettendoti di spendere i tuoi bitcoin per **acquistare gift card**.
 
 
-A questo proposito, un breve inciso per sottolineare l'importanza, a mio avviso, di utilizzare il Bitcoin come mezzo di pagamento piuttosto che esclusivamente come riserva di valore. Infatti, mentre queste righe vengono scritte, il riflesso di troppi Bitcoiners, quando hanno l'opportunità di spendere il loro prezioso Sats, è quello di astenersi dal farlo, e di spendere invece l'euro / fiat shitcoin imposto loro.
+A tal proposito, una breve digressione per sottolineare, a mio parere, l’importanza di usare Bitcoin come mezzo di pagamento, e non solo come riserva di valore. Infatti, mentre scrivo queste righe, il riflesso di troppi bitcoiners, quando hanno la possibilità di spendere i loro preziosi Sats, è quello di astenersi e spendere invece euro o fiat.
 
 
-
-All'apparenza questo può sembrare perfettamente ragionevole, ma ci si chiede quale sia la logica alla base. Il Bitcoin è stato progettato per essere utilizzato senza autorizzazione. Non è ovvio, quindi, che più aziende accettano il Bitcoin intorno a voi, più scelte avete come Bitcoiner sovrani? In altre parole, più è facile spendere il proprio Sats senza chiedere il permesso, più i propri Bitcoin acquistano valore. In questo senso, quindi, è necessario incoraggiare l'adozione, favorendo le aziende che accettano il Bitcoin per dare loro un vantaggio competitivo che incoraggerà gli altri a seguire il loro esempio.
-
+Apparentemente questo può sembrare ragionevole, ma mette in dubbio la logica dietro tale scelta. Bitcoin è progettato per essere usato senza permesso. Non è ovvio, quindi, che più attività accettano Bitcoin intorno a te, più scelte hai come bitcoiner sovrano di sè stesso? In altre parole, più è facile spendere i tuoi Sats senza chiedere permesso, più i tuoi Bitcoin diventano preziosi. Quindi, in questo senso, è necessario incoraggiare l’adozione, favorendo le attività che accettano Bitcoin per dare loro un vantaggio competitivo che spinga altri a seguirne l’esempio.
 
 
-Quindi, anche in una logica di conservazione del valore dei propri risparmi del Bitcoin, partecipare all'adozione del Bitcoin per rendere il più facile possibile la spesa, è importante almeno quanto il "HODL".
+Anche nell’ottica di preservare il valore dei propri risparmi in Bitcoin, partecipare all’adozione di Bitcoin per rendere più facile spenderlo è altrettanto importante quanto fare "HODL".
 
 
-
-Se dovete passare attraverso un Exchange per poter spendere i vostri Bitcoin, allora valgono potenzialmente 0. Se potete spenderli ovunque, valgono molto di più.
-
+Se devi passare attraverso un Exchange per poter spendere i tuoi Bitcoin, allora il loro valore è potenzialmente 0. Se puoi spenderli ovunque, valgono molto di più.
 
 
-In breve, "spendere" e "sostituire" sembrano essere la strada da seguire. Partecipare allo sviluppo dell'adozione, distribuire i satoshi nel maggior numero possibile di luoghi, quindi riacquistare il Sats esaurito il prima possibile.
+In breve, "spendere" & "sostituire" sembra essere la strada da seguire. Contribuisci a migliorarne l’adozione, spendi satoshi in quante più attività possibile, poi riacquista i Sats spesi il prima possibile.
 
 
-
-## Che cos'è l'azienda Bitcoin?
-
+## Cos’è The Bitcoin Company?
 
 
-**The Bitcoin Company** è come il suo concorrente Bitrefill: è un modo per scambiare bitcoin con carte regalo al dettaglio. È praticamente possibile vivere con un "Bitcoin standard" grazie a questo tipo di soluzione, creando un semplice account.
-
+**The Bitcoin Company** è simile al suo concorrente Bitrefill: permette di scambiare bitcoin per ottenere gift card di vari negozi. Grazie a questo tipo di soluzione puoi praticamente vivere nel "Bitcoin standard", creando un semplice account.
 
 
 https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
-Il messaggio non potrebbe essere più chiaro: "Spendi i tuoi Bitcoin ovunque".
-
+Il messaggio non potrebbe essere più chiaro: "Spend your Bitcoins Everywhere" (“Spendi i tuoi Bitcoin ovunque”).
 
 
 ![TheBitcoinCompany](assets/fr/01.webp)
 
 
-
-Troverete un'ampia scelta di rivenditori, a seconda del Paese in cui volete fare acquisti.
-
+Troverai un’ampia selezione di rivenditori, a seconda del paese in cui vuoi fare acquisti.
 
 
-**The Bitcoin Company** offre un'ampia gamma di prodotti, dalla vendita al dettaglio e dai fast food alle piattaforme di streaming, ai giochi online, ai siti di e-commerce e alle ricariche telefoniche.
+**The Bitcoin Company** offre una vasta gamma di prodotti, dal retail e fast food alle piattaforme di streaming, giochi online, siti e-commerce e ricariche telefoniche.
 
 
-
-Di seguito è riportata una selezione di cartelli per gli Stati Uniti, a titolo di esempio:
-
+Qui sotto, un esempio di selezione di marchi per gli USA:
 
 
 ![TheBitcoinCompany](assets/fr/02.webp)
 
 
-
-## Come si crea un account The Bitcoin Company?
-
+## Come creare un account su The Bitcoin Company?
 
 
-Per farlo, visitate [il loro sito web](https://thebitcoincompany.com/).
+Per farlo, visita [il sito](https://thebitcoincompany.com/).
 
 
-
-Nella pagina iniziale, vi verrà chiesto di scaricare l'applicazione mobile scansionando un codice QR, oppure di utilizzare l'applicazione web scegliendo "Browse our web app". Ai fini di questa esercitazione, sceglieremo la seconda opzione, perché a differenza dell'applicazione mobile, che richiede la creazione di un account utilizzando un'e-mail Address e una password, la versione web offre più opzioni, come vedremo di seguito.
-
+Nella home page ti verrà chiesto di scaricare l’app mobile tramite QR code o di usare l’app web scegliendo "Browse our web app" (“Sfoglia la nostra app web”). Per questo tutorial useremo quest’ultima, perché a differenza dell’app mobile, che richiede email e password, la versione web offre più opzioni, come vedremo.
 
 
-Cliccate su "Sfoglia la nostra web app".
-
+Clicca su "Browse our web app".
 
 
 ![TheBitcoinCompany](assets/fr/03.webp)
 
 
-
-Eccoci dunque sulla home page della piattaforma di acquisto di carte regalo.
-
+Ecco la home page della piattaforma per acquistare gift card.
 
 
 ![TheBitcoinCompany](assets/fr/04.webp)
 
 
-
-Iniziate selezionando l'area commerciale di interesse nell'angolo in alto a destra.
-
+Inizia selezionando l’area di shopping di tuo interesse in alto a destra.
 
 
 ![TheBitcoinCompany](assets/fr/05.webp)
 
-
-Una volta selezionata la zona, fare clic su "Login".
-
+Dopo aver selezionato la zona, clicca su "Login".
 
 
 ![TheBitcoinCompany](assets/fr/06.webp)
 
 
-
-A questo punto sono disponibili diverse opzioni per l'accesso. La classica combinazione e-mail/password, oppure soluzioni a mio avviso molto più pratiche, come l'identificazione tramite il Lightning Wallet.
-
+Hai diverse opzioni per accedere. Puoi usare la classica combinazione email/password, oppure soluzioni più pratiche, come l’identificazione tramite wallet Lightning.
 
 
-Se siete della vecchia scuola e volete scoprire come creare facilmente una casella di posta elettronica sicura e gestire le vostre password, vi consiglio di dare un'occhiata a questi altri due tutorial:
-
+Se vuoi imparare a creare facilmente una casella sicura e gestire le password, ti consiglio questi tutorial:
 
 
 https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-Per quanto ci riguarda, optiamo per "Accedi con Lightning".
-
+Noi scegliamo "Sign in with Lightning" (“Accedi con Lightning”).
 
 
 ![TheBitcoinCompany](assets/fr/07.webp)
 
 
-
-Nella pagina successiva, verrà visualizzato un codice QR che dovrà essere scansionato con il vostro Wallet Lightning preferito.
-
+Alla pagina successiva vedrai un QR code da scansionare con il tuo wallet Lightning preferito.
 
 
-Il vostro Wallet Lightning diventa così il vostro unico mezzo di identificazione per tutti i siti che supportano questo protocollo, chiamato LNURL-AUTH (per l'autenticazione).
+Il tuo wallet Lightning diventa così il tuo unico mezzo di identificazione per tutti i siti che supportano questo protocollo, chiamato LNURL-AUTH (per l’autenticazione).
 
 
-
-Non avete bisogno di un'e-mail Address o di una password per ogni sito: il vostro Wallet vi identifica e la ciliegina sulla torta è che viene generata una nuova identità per ogni sito visitato. Pratico dal punto di vista della privacy.
-
+Non serve email o password per ogni sito: il wallet ti identifica, e per ogni sito visitato viene generata una nuova identità. Molto pratico per la privacy.
 
 
 ![TheBitcoinCompany](assets/fr/08.webp)
 
 
-
-Apriamo quindi il nostro Wallet Phoenix e scansioniamo il codice QR mostrato. Una volta scansionato, fare clic su "Accedi", quindi su "OK".
-
+Apriamo il nostro wallet Phoenix e scansioniamo il QR code. Una volta scansionato, clicca su "Sign-in", poi "OK".
 
 
 ![TheBitcoinCompany](assets/fr/09.webp)
 
+https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+
+Verrai immediatamente identificato tramite il tuo wallet Lightning, che può essere Phoenix o un altro wallet compatibile con questa funzione.
 
 
-
-https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
-
-Immediatamente, si viene identificati tramite il proprio Wallet Lightning, che può essere Phoenix o un altro, naturalmente, dato che la maggior parte dei portafogli sul mercato supporta questa funzione.
+Finché conserverai l’accesso al tuo wallet e non perderai la seed phrase (o, in generale, l’accesso al tuo account nel caso di wallet custodial), potrai recuperare l’accesso ai tuoi account.
 
 
-
-Finché manterrete l'accesso alla vostra Wallet e non perderete la frase seed (o, più in generale, l'accesso al vostro conto nel caso di portafogli di deposito per i quali non possedete le chiavi private), sarete in grado di riottenere l'accesso ai vostri conti.
-
-
-
-Facendo clic sul piccolo "Honey Badger" nell'angolo in alto a destra dello schermo, è possibile visualizzare i dettagli del proprio conto.
-
+Cliccando sul piccolo "Honey Badger" (“Tasso del miele”) in alto a destra puoi visualizzare i dettagli del tuo account.
 
 
 ![TheBitcoinCompany](assets/fr/10.webp)
 
 
-
-Ora si può vedere il proprio *nome utente*, che è un numero casuale e sarà diverso per ogni sito visitato che supporta questa modalità di autenticazione. Nella parte inferiore della schermata si può notare che il metodo di autenticazione è effettivamente specificato come LNURL Auth.
-
+Ora puoi vedere il tuo *Username*, ovvero un numero casuale che sarà diverso per ogni sito che supporta questo metodo di autenticazione. In basso viene specificato il metodo di autenticazione: LNURL Auth.
 
 
 ![TheBitcoinCompany](assets/fr/11.webp)
 
 
-
-Infine, torniamo alla pagina iniziale cliccando su "Carte regalo" nell'angolo in alto a sinistra dello schermo.
-
+Infine, torniamo alla home cliccando su "Gift Cards" in alto a sinistra.
 
 
-## Come acquistare una carta regalo BTC su The Bitcoin Company?
+## Come acquistare una gift card BTC su The Bitcoin Company?
 
 
-
-Iniziate selezionando la categoria di prodotti a cui siete interessati. Nel nostro caso, dato che stiamo per andare in vacanza e dobbiamo prenotare degli hotel, selezioneremo "Viaggi".
-
+Inizia selezionando la categoria di prodotto che ti interessa. Nel nostro caso, essendo in partenza per le vacanze, scegliamo "Travel" (“Viaggiare”).
 
 
 ![TheBitcoinCompany](assets/fr/12.webp)
 
 
-
 Poi "Hotel.com".
-
 
 
 ![TheBitcoinCompany](assets/fr/13.webp)
 
-
-Ora siete sulla pagina di presentazione della carta regalo scelta. Non esitate a dare un'occhiata ai dettagli che potrebbero essere importanti per l'utilizzo della carta sul sito del commerciante. Inserite l'importo che desiderate assegnare alla carta regalo. In questo esempio, sceglieremo 10 USD, ma è possibile arrivare fino a 500 USD per questa carta regalo. Gli importi minimi e massimi della carta regalo variano da negozio a negozio.
-
+Sei ora sulla pagina di presentazione della gift card scelta. Controlla i dettagli importanti per l’uso sul sito del commerciante. Inserisci l’importo da assegnare alla gift card. In questo esempio scegliamo 10 USD, ma puoi arrivare fino a 500 USD. Limiti minimi e massimi variano da negozio a negozio.
 
 
 ![TheBitcoinCompany](assets/fr/14.webp)
 
 
-
-Il potenziale premio di cashback in Bitcoin è indicato sopra la descrizione (qui 4%).
-
+Il cashback in Bitcoin viene mostrato sopra la descrizione (qui 4%).
 
 
-Selezionando il pulsante "Applica saldo premi", si può scegliere di utilizzare il cashback di un acquisto precedente per finanziare questo.
+Spuntando "Apply Reward Balance" (“Applica saldo ricompensa”) puoi usare il cashback di un acquisto precedente per finanziare questo.
 
 
-
-Infine, il pulsante "Invia come regalo" consente di inviare la carta regalo a un fortunato destinatario via e-mail, come faremo noi.
-
+Infine, "Send as Gift" (“Invia come regalo”) permette di inviare la gift card a un destinatario via email, come faremo noi.
 
 
-Infine, fare clic su "generate Invoice".
-
+Clicca su "generate Invoice" (“generare invoice”).
 
 
 ![TheBitcoinCompany](assets/fr/15.webp)
 
 
-
-Pagare il Invoice e visualizzare il On-Chain o il Lightning.
-
+Paga la invoice scegliendo On-Chain o Lightning.
 
 
 ![TheBitcoinCompany](assets/fr/16.webp)
 
 
-
-Una volta pagato il Invoice, vi verrà comunicato che la carta regalo è stata appena inviata via e-mail al destinatario selezionato nel passaggio precedente. Controlliamo come sta andando.
-
+Dopo il pagamento, ti verrà comunicato che la gift card è stata inviata via email al destinatario selezionato. Verifichiamo.
 
 
 ![TheBitcoinCompany](assets/fr/17.webp)
 
 
-
-Abbiamo effettivamente ricevuto l'e-mail contenente la carta regalo. Copiando il link fornito e aprendolo in un browser, verremo reindirizzati a una pagina web che ci permetterà di recuperare i dati necessari per spendere la carta sul sito dell'esercente.
-
+Abbiamo ricevuto l’email con la gift card. Copiando il link e aprendolo in un browser, accederemo a una pagina web per ottenere i dettagli necessari a usarla sul sito del commerciante.
 
 
 ![TheBitcoinCompany](assets/fr/18.webp)
 
 
-
-Fare clic su "Rivela i dettagli della carta" per ottenere i codici necessari per utilizzare la carta al momento del pagamento sul sito dell'esercente.
-
+Clicca su "Reveal card details" (“Mostra i dettagli della carta”) per ottenere i codici necessari per il pagamento.
 
 
 ![TheBitcoinCompany](assets/fr/19.webp)
 
 
-
-Se non si desidera inviare la carta regalo via e-mail, dopo aver pagato la Invoice, è sufficiente cliccare su "Visualizza carta" per accedere alla pagina web come sopra.
-
+Se non vuoi inviare la gift card via email, dopo aver pagato clicca su "View Card" (“Visualizza biglietto”) per accedere alla pagina web come sopra.
 
 
 ![TheBitcoinCompany](assets/fr/20.webp)
 
 
-
-Infine, è possibile visualizzare in qualsiasi momento tutte le carte regalo acquistate tramite questo account tramite la scheda "Le mie carte" nella parte superiore dello schermo. Una volta che una carta è stata utilizzata, non dimenticate di archiviarla per riferimento futuro. In questo modo sarà possibile navigare più chiaramente tra le carte ancora valide e quelle già vuote.
-
+Puoi visualizzare tutte le gift card acquistate tramite questo account in qualsiasi momento nella scheda "My Cards" (“Le mie carte”). Una volta usata una card, archiviala per riferimento futuro, così da distinguere facilmente tra quelle valide e quelle esaurite.
 
 
 ![TheBitcoinCompany](assets/fr/21.webp)
 
 
-
-Infine, se desiderate utilizzare **su mobile** il metodo di autenticazione LNURL Auth che abbiamo visto in questa esercitazione, dovrete accedere al sito web di The Bitcoin Company tramite il vostro browser mobile, quindi aggiungere un collegamento alla vostra schermata iniziale. L'applicazione ufficiale consente solo l'autenticazione tramite e-mail/password.
-
+Se vuoi usare **su mobile** il metodo LNURL Auth visto in questo tutorial, devi accedere al sito di The Bitcoin Company dal browser mobile e aggiungere un collegamento alla schermata principale. L’app ufficiale permette solo l’autenticazione via email/password.
 
 
-Ed ecco che ora sapete come spendere i vostri bitcoin senza KYC presso i principali rivenditori per la spesa di tutti i giorni. Non è un metodo particolarmente soddisfacente e si tratta pur sempre di un "fai da te". Ma fino a quando più persone non si renderanno conto che è nel loro interesse accettare il contante elettronico nelle loro attività commerciali, è ancora molto utile...
+Ed ecco fatto: ora sai come spendere i tuoi bitcoin senza KYC nei principali negozi per le spese quotidiane. Non è un metodo perfetto, ancora molto "fai-da-te", ma finché pochi commercianti realizzeranno che accettare Bitcoin è nel loro interesse, resta molto utile...
 
 
-
-Se volete contribuire alla diffusione del Bitcoin e incoraggiare un commerciante indipendente ad adottare questo metodo di pagamento, vi consiglio di dare un'occhiata al nostro tutorial completo su Swiss Bitcoin Pay. Si tratta di una soluzione all-in-one per i processori di pagamento in BTC, facile da installare e da gestire quotidianamente:
-
+Se vuoi aiutare a diffondere Bitcoin e incoraggiare un commerciante indipendente ad adottare questo metodo di pagamento, dai un’occhiata al nostro tutorial completo su Swiss Bitcoin Pay. È una soluzione "tutto-in-uno" per POS configurati per BTC, facile da installare e gestire quotidianamente:
 
 
-https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

@@ -6,4 +6,4 @@ wrong_answers:
   - Le registre des portefeuilles
 explanation: |
   Le nœud conserve l’UTXO set, qui est l’ensemble des sorties non dépensées disponibles pour de futures transactions.
-reviewed: false
+reviewed: true 

@@ -14,27 +14,27 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.59
+    reward: 1.6
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.22
+    reward: 1.23
   - language: en
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.22
+    reward: 1.23
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.22
+    reward: 1.23
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.59
+    reward: 1.6
   - language: fr
     last_contribution_date: 2024-09-01
     urgency: 1
@@ -42,65 +42,66 @@ proofreading:
       - Asi0Flammeus
     reward: 0.61
   - language: it
-    last_contribution_date:
+    last_contribution_date: '2025-10-31'
     urgency: 1
     contributor_names:
-    reward: 1.22
+      - Bitman-ops
+    reward: 0.61
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.34
+    reward: 2.36
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.22
+    reward: 1.23
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.59
+    reward: 1.6
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.34
+    reward: 2.36
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.59
+    reward: 1.6
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.97
+    reward: 1.98
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.97
+    reward: 1.98
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.59
+    reward: 1.6
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.71
+    reward: 2.73
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.59
+    reward: 1.6
   - language: sr-Latn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.59
+    reward: 1.6
   - language: sw
     last_contribution_date: '2025-08-18'
     urgency: 1
@@ -111,37 +112,37 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.97
+    reward: 1.98
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.59
+    reward: 1.6
   - language: sv
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.22
+    reward: 1.23
   - language: nl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.59
+    reward: 1.6
   - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.97
+    reward: 1.98
   - language: ko
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.59
+    reward: 1.98
   - language: rn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.34
+    reward: 2.36
 tags:
   - guides
   - user-friendly

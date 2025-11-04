@@ -1476,7 +1476,7 @@ $$
 
 Der Master-Privatschlüssel wird als Elternschlüssel betrachtet, von dem alle abgeleiteten Privatschlüssel — Kinder, Enkelkinder, Urenkel usw. — generiert werden. Er repräsentiert die Null-Ebene in der Hierarchie der Ableitung.
 
-Der Master-Chain-Code führt andererseits eine zusätzliche Quelle der Entropie in den Schlüsselableitungsprozess für Kinder ein, um bestimmten potenziellen Angriffen entgegenzuwirken. Darüber hinaus hat im HD-Wallet jedes Schlüsselpaar einen einzigartigen Chain-Code, der ebenfalls verwendet wird, um Kinderschlüssel aus diesem Paar abzuleiten, aber wir werden dies in den kommenden Kapiteln genauer besprechen.
+Der Master-Chain-Code führt andererseits eine zusätzliche Quelle der Entropie in den Schlüsselableitungsprozess für Kind-Schlüssel ein, um bestimmten potenziellen Angriffen entgegenzuwirken. Darüber hinaus hat im HD-Wallet jedes Schlüsselpaar einen einzigartigen Chain-Code, der ebenfalls verwendet wird, um Kinderschlüssel aus diesem Paar abzuleiten, aber wir werden dies in den kommenden Kapiteln genauer besprechen.
 
 Bevor wir mit der Ableitung des HD-Wallets mit den folgenden Elementen fortfahren, möchte ich im nächsten Kapitel erweiterte Schlüssel vorstellen, die oft mit dem Master-Schlüssel verwechselt werden. Wir werden sehen, wie sie konstruiert sind und welche Rolle sie im Bitcoin-Wallet spielen.
 

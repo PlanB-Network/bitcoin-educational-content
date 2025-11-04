@@ -23,7 +23,7 @@ Bisq 2 adalah versi baru dari bursa Bisq terdesentralisasi yang populer, yang di
 - Dukungan untuk beberapa jenis portofolio
 - Sistem peran dengan setoran wajib di BSQ
 
-Panduan ini berfokus secara eksklusif pada "Bisq Easy", satu-satunya protokol yang tersedia saat ini. Bisq Easy telah dirancang khusus untuk pengguna baru Bitcoin. Protokol ini memungkinkan pengguna untuk membeli dan menjual Bitcoin dengan mata uang fiat pada platform peer-to-peer yang terdesentralisasi. Transaksi dibatasi hingga setara dengan 600 USD (dengan minimal 6 USD), dan keamanan pertukaran bergantung pada reputasi penjual BTC. Bisq Easy tidak memiliki biaya perdagangan atau persyaratan uang jaminan. Bisq Easy diharapkan dapat menggantikan Bisq 1 untuk pertukaran uang tunai di bawah 600 USD (atau setara).
+Panduan ini berfokus secara eksklusif pada "Bisq Easy", satu-satunya protokol yang saat ini tersedia. Bisq Easy dirancang khusus untuk pengguna baru Bitcoin. Protokol ini memungkinkan pengguna untuk membeli dan menjual bitcoin dengan mata uang fiat di platform peer-to-peer yang terdesentralisasi. Transaksi dibatasi hingga setara dengan 600 USD (dengan minimum 6 USD), dan keamanan perdagangan bergantung pada reputasi penjual BTC. Bisq Easy tidak memiliki biaya perdagangan atau persyaratan setoran jaminan. Diharapkan Bisq Easy akan menggantikan Bisq 1 untuk perdagangan fiat di bawah 600 USD (atau setara).
 
 **Fitur utama:**
 

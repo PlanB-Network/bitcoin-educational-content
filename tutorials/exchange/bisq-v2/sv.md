@@ -31,7 +31,7 @@ Bisq 2 är den nya versionen av den populära decentraliserade Bisq Exchange, so
 - Rollsystem med obligatorisk deposition i BSQ
 
 
-Denna guide fokuserar uteslutande på "Bisq Easy", det enda protokoll som för närvarande är tillgängligt. Bisq Easy har utformats speciellt för nya Bitcoin-användare. Detta protokoll gör det möjligt för användare att köpa och sälja Bitcoins mot fiatvalutor på en decentraliserad peer-to-peer-plattform. Transaktioner är begränsade till motsvarande 600 USD (med ett minimum på 6 USD), och Exchange-säkerheten förlitar sig på BTC-säljarnas rykte. Bisq Easy har inga handelsavgifter eller krav på säkerhetsdeposition. Bisq Easy förväntas ersätta Bisq 1 för kontantutbyten under 600 USD (eller motsvarande).
+Denna guide fokuserar uteslutande på "Bisq Easy", det enda protokollet som för närvarande är tillgängligt. Bisq Easy har utformats speciellt för nya Bitcoin-användare. Detta protokoll gör det möjligt för användare att köpa och sälja bitcoins mot fiatvalutor på en decentraliserad peer-to-peer-plattform. Transaktioner är begränsade till motsvarande 600 USD (med ett minimum på 6 USD), och säkerheten i handeln bygger på BTC-säljares rykte. Bisq Easy har varken handelsavgifter eller krav på säkerhetsinsättning. Det är planerat att Bisq Easy ska ersätta Bisq 1 för fiat-handlar under 600 USD (eller motsvarande).
 
 
 **Huvudfunktioner:**

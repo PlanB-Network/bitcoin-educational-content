@@ -23,7 +23,7 @@ Bisq 2 je nová verze populární decentralizované burzy Bisq, která byla spu�
 - Podpora více typů portfolia
 - Systém rolí s povinným vkladem v BSQ
 
-Tato příručka se zaměřuje výhradně na protokol "Bisq Easy", který je v současné době jediný dostupný. Protokol Bisq Easy byl navržen speciálně pro nové uživatele Bitcoinu. Tento protokol umožňuje uživatelům nakupovat a prodávat Bitcoiny za fiat měny na decentralizované platformě peer-to-peer. Transakce jsou omezeny na ekvivalent 600 USD (s minimem 6 USD) a bezpečnost výměny závisí na pověsti prodejců BTC. Bisq Easy nemá žádné obchodní poplatky ani požadavky na bezpečnostní vklad. Očekává se, že Bisq Easy nahradí Bisq 1 pro hotovostní směny pod 600 USD (nebo jejich ekvivalent).
+Tato příručka se zaměřuje výhradně na „Bisq Easy“, jediný aktuálně dostupný protokol. Bisq Easy byl navržen speciálně pro nové uživatele Bitcoinu. Tento protokol umožňuje uživatelům nakupovat a prodávat bitcoiny za fiat měny na decentralizované platformě peer-to-peer. Transakce jsou omezeny na ekvivalent 600 USD (s minimem 6 USD) a bezpečnost výměn závisí na reputaci prodejců BTC. Bisq Easy nemá žádné obchodní poplatky ani požadavek na zajišťovací vklad. Předpokládá se, že Bisq Easy nahradí Bisq 1 pro fiat obchody pod 600 USD (nebo ekvivalent).
 
 **Hlavní funkce:**
 

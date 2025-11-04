@@ -31,7 +31,7 @@ Bisq 2 je nova verzija popularnog decentralizovanog Bisq Exchange, lansirana 202
 - Sistem uloga sa obaveznim depozitom u BSQ
 
 
-Ovaj vodič se fokusira isključivo na "Bisq Easy", jedini trenutno dostupni protokol. Bisq Easy je dizajniran posebno za nove korisnike Bitcoin. Ovaj protokol omogućava korisnicima da kupuju i prodaju Bitcoine u zamenu za fiat valute na decentralizovanoj peer-to-peer platformi. Transakcije su ograničene na ekvivalent od 600 USD (sa minimumom od 6 USD), a sigurnost Exchange se oslanja na reputaciju prodavaca BTC-a. Bisq Easy nema naknade za trgovanje niti zahteve za sigurnosni depozit. Očekuje se da će Bisq Easy zameniti Bisq 1 za gotovinske razmene ispod 600 USD (ili ekvivalent).
+Ovaj vodič se isključivo fokusira na „Bisq Easy“, jedini trenutno dostupni protokol. Bisq Easy je posebno dizajniran za nove korisnike Bitcoina. Ovaj protokol omogućava korisnicima kupovinu i prodaju bitkoina za fiat valute na decentralizovanoj peer-to-peer platformi. Transakcije su ograničene na ekvivalent od 600 USD (sa minimumom od 6 USD), a sigurnost trgovine zasniva se na reputaciji prodavaca BTC-a. Bisq Easy nema trgovačke naknade niti zahtev za depozitom. Očekuje se da će Bisq Easy zameniti Bisq 1 za fiat trgovine ispod 600 USD (ili ekvivalent).
 
 
 **Glavne karakteristike:**

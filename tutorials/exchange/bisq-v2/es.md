@@ -23,7 +23,7 @@ Bisq 2 es la nueva versión del popular intercambio descentralizado Bisq, lanzad
 - Soporte para múltiples tipos de cartera
 - Sistema de roles con depósito obligatorio en BSQ
 
-Esta guía se centra exclusivamente en "Bisq Easy", el único protocolo disponible actualmente. Bisq Easy ha sido diseñado específicamente para los nuevos usuarios de Bitcoin. Este protocolo permite a los usuarios comprar y vender Bitcoins contra monedas fiduciarias en una plataforma descentralizada peer-to-peer. Las transacciones están limitadas al equivalente de 600 USD (con un mínimo de 6 USD), y la seguridad del intercambio se basa en la reputación de los vendedores de BTC. Bisq Easy no cobra comisiones ni exige depósitos de seguridad. Se espera que Bisq Easy sustituya a Bisq 1 en los intercambios de efectivo por debajo de 600 USD (o equivalente).
+Esta guía se centra exclusivamente en "Bisq Easy", el único protocolo actualmente disponible. Bisq Easy fue diseñado específicamente para los nuevos usuarios de Bitcoin. Este protocolo permite a los usuarios comprar y vender bitcoins por monedas fiduciarias en una plataforma descentralizada entre pares. Las transacciones están limitadas al equivalente de 600 USD (con un mínimo de 6 USD), y la seguridad de los intercambios se basa en la reputación de los vendedores de BTC. Bisq Easy no tiene tarifas de negociación ni requisitos de depósito de garantía. Se espera que Bisq Easy reemplace a Bisq 1 para los intercambios fiduciarios inferiores a 600 USD (o su equivalente).
 
 **Características principales:**
 

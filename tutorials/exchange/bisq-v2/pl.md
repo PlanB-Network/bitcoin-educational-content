@@ -31,7 +31,7 @@ Bisq 2 to nowa wersja popularnego zdecentralizowanego Bisq Exchange, wprowadzone
 - System ról z obowiązkowym depozytem w BSQ
 
 
-Niniejszy przewodnik skupia się wyłącznie na "Bisq Easy", jedynym obecnie dostępnym protokole. Bisq Easy został zaprojektowany specjalnie dla nowych użytkowników Bitcoin. Protokół ten umożliwia użytkownikom kupowanie i sprzedawanie Bitcoinów za waluty fiducjarne na zdecentralizowanej platformie peer-to-peer. Transakcje są ograniczone do równowartości 600 USD (przy minimum 6 USD), a bezpieczeństwo Exchange opiera się na reputacji sprzedawców BTC. Bisq Easy nie ma opłat transakcyjnych ani wymagań dotyczących depozytu zabezpieczającego. Oczekuje się, że Bisq Easy zastąpi Bisq 1 dla wymian gotówkowych poniżej 600 USD (lub równowartości).
+Ten przewodnik koncentruje się wyłącznie na „Bisq Easy”, jedynym obecnie dostępnym protokole. Bisq Easy został zaprojektowany specjalnie dla nowych użytkowników Bitcoina. Protokół ten umożliwia użytkownikom kupno i sprzedaż bitcoinów za waluty fiducjarne na zdecentralizowanej platformie peer-to-peer. Transakcje są ograniczone do równowartości 600 USD (z minimum 6 USD), a bezpieczeństwo wymiany opiera się na reputacji sprzedawców BTC. Bisq Easy nie ma opłat handlowych ani wymogu depozytu zabezpieczającego. Oczekuje się, że Bisq Easy zastąpi Bisq 1 w przypadku transakcji fiducjarnych poniżej 600 USD (lub równowartości).
 
 
 **Główne cechy:**

@@ -1494,8 +1494,8 @@ Der erweiterte Schlüssel besteht aus zwei Teilen:
 - Den Metadaten, die verschiedene Informationen zur Erleichterung der Interoperabilität zwischen Software und zur Verbesserung des Verständnisses für den Benutzer enthalten.
 
 ### Wie erweiterte Schlüssel funktionieren
-Wenn der erweiterte Schlüssel einen privaten Schlüssel enthält, wird er als erweiterter privater Schlüssel bezeichnet. Er ist an seinem Präfix erkennbar, das die Bezeichnung `prv` enthält. Zusätzlich zum privaten Schlüssel enthält der erweiterte private Schlüssel auch den zugehörigen Chain-Code. Mit dieser Art von erweitertem Schlüssel ist es möglich, alle Arten von abgeleiteten privaten Schlüsseln abzuleiten, und daher durch Addition und Verdopplung von Punkten auf elliptischen Kurven ermöglicht es auch die Ableitung der Gesamtheit von Kind-öffentlichen Schlüsseln.
-Wenn der erweiterte Schlüssel keinen privaten Schlüssel enthält, sondern stattdessen einen öffentlichen Schlüssel, wird er als erweiterter öffentlicher Schlüssel bezeichnet. Er ist an seinem Präfix erkennbar, das die Bezeichnung `pub` enthält. Offensichtlich enthält er zusätzlich zum Schlüssel auch den zugehörigen Chain-Code. Im Gegensatz zum erweiterten privaten Schlüssel ermöglicht der erweiterte öffentliche Schlüssel die Ableitung von nur "normalen" Kind-öffentlichen Schlüsseln (was bedeutet, dass er keine "gehärteten" Kind-Schlüssel ableiten kann). Wir werden im folgenden Kapitel sehen, was diese Bezeichnungen "normal" und "gehärtet" bedeuten.
+Wenn der erweiterte Schlüssel einen privaten Schlüssel enthält, wird er als erweiterter privater Schlüssel bezeichnet. Er ist an seinem Präfix erkennbar, das die Bezeichnung `prv` enthält. Zusätzlich zum privaten Schlüssel enthält der erweiterte private Schlüssel auch den zugehörigen Chain-Code. Mit dieser Art von erweitertem Schlüssel ist es möglich, alle Arten von abgeleiteten privaten Schlüsseln abzuleiten, und daher durch Addition und Verdopplung von Punkten auf elliptischen Kurven ermöglicht es auch die Ableitung der Gesamtheit von öffentlichen Kind-Schlüsseln.
+Wenn der erweiterte Schlüssel keinen privaten Schlüssel enthält, sondern stattdessen einen öffentlichen Schlüssel, wird er als erweiterter öffentlicher Schlüssel bezeichnet. Er ist an seinem Präfix erkennbar, das die Bezeichnung `pub` enthält. Offensichtlich enthält er zusätzlich zum Schlüssel auch den zugehörigen Chain-Code. Im Gegensatz zum erweiterten privaten Schlüssel ermöglicht der erweiterte öffentliche Schlüssel die Ableitung von nur "normalen" öffentlichen Kind-Schlüsseln (was bedeutet, dass er keine "gehärteten" Kind-Schlüssel ableiten kann). Wir werden im folgenden Kapitel sehen, was diese Bezeichnungen "normal" und "gehärtet" bedeuten.
 
 Aber in jedem Fall erlaubt der erweiterte öffentliche Schlüssel nicht die Ableitung von abgeleiteten privaten Schlüsseln. Daher kann selbst, wenn jemand Zugang zu einem `xpub` hat, nicht die zugehörigen Mittel ausgeben, da er keinen Zugang zu den entsprechenden privaten Schlüsseln hat. Sie können nur Kind-öffentliche Schlüssel ableiten, um die zugehörigen Transaktionen zu beobachten.
 
@@ -1721,7 +1721,7 @@ Hier ist eine schematische Darstellung der gesamten Ableitung:
 
 Wir können sehen, dass die normale Ableitung und die verstärkte Ableitung auf die gleiche Weise funktionieren, mit diesem Unterschied: Die normale Ableitung verwendet den öffentlichen Schlüssel des Elternteils als Eingabe für die HMAC-Funktion, während die verstärkte Ableitung den privaten Schlüssel des Elternteils verwendet.
 
-#### Ableitung eines Kind-öffentlichen Schlüssels aus einem Eltern-öffentlichen Schlüssel
+#### Ableitung eines öffentlichen Kind-Schlüssels aus einem öffentlichen Eltern-Schlüssel
 Wenn wir nur den öffentlichen Schlüssel des Elternteils $K_{\text{PAR}}$ und den zugehörigen Ketten-Code $C_{\text{PAR}}$ kennen, also einen erweiterten öffentlichen Schlüssel, ist es möglich, Kind-öffentliche Schlüssel $K_{\text{CHD}}^n$ abzuleiten, aber nur für normale (nicht verstärkte) Kind-Schlüssel. Dieses Prinzip ermöglicht es insbesondere, die Bewegungen eines Kontos in einer Bitcoin-Wallet vom `xpub` (*nur-beobachten*) zu überwachen.
 
 Um diese Berechnung durchzuführen, werden wir den $\text{hash}$ mit einem Index $i < 2^{31}$ (normale Ableitung) berechnen:
@@ -1748,14 +1748,14 @@ h_1 = \text{hash}_{[:32]} \quad, \quad h_2 = \text{hash}_{[32:]}
 
 $$
 
-Der Kind-öffentliche Schlüssel $K_{\text{CHD}}^n$ wird dann wie folgt berechnet:
+Der öffentliche Kind-Schlüssel $K_{\text{CHD}}^n$ wird dann wie folgt berechnet:
 
 $$
 K_{\text{CHD}}^n = G \cdot \text{parse256}(h_1) + K_{\text{PAR}}
 $$
 
 Wenn $\text{parse256}(h_1) \geq n$ (Ordnung der elliptischen Kurve) ist oder wenn $K_{\text{CHD}}^n$ der Punkt im Unendlichen ist, ist die Ableitung ungültig, und ein anderer Index muss gewählt werden.
-In dieser Berechnung beinhaltet die Operation $\text{parse256}(h_1)$, die ersten 32 Bytes des $\text{hash}$ als eine 256-Bit-Ganzzahl zu interpretieren. Diese Zahl wird verwendet, um einen Punkt auf der elliptischen Kurve durch Addition und Verdopplung vom Generatorpunkt $G$ zu berechnen. Dieser Punkt wird dann zum öffentlichen Schlüssel des Elternteils addiert, um den normalen Kind-öffentlichen Schlüssel zu erhalten. Somit ist zur Ableitung eines normalen Kind-öffentlichen Schlüssels nur der öffentliche Schlüssel des Elternteils und der Ketten-Code des Elternteils notwendig; der private Schlüssel des Elternteils kommt in diesem Prozess im Gegensatz zur Berechnung des abgeleiteten privaten Schlüssels, die wir zuvor gesehen haben, nie ins Spiel.
+In dieser Berechnung beinhaltet die Operation $\text{parse256}(h_1)$, die ersten 32 Bytes des $\text{hash}$ als eine 256-Bit-Ganzzahl zu interpretieren. Diese Zahl wird verwendet, um einen Punkt auf der elliptischen Kurve durch Addition und Verdopplung vom Generatorpunkt $G$ zu berechnen. Dieser Punkt wird dann zum öffentlichen Schlüssel des Elternteils addiert, um den normalen öffentlichen Kind-Schlüssel zu erhalten. Somit ist zur Ableitung eines normalen öffentlichen Kind-Schlüssels nur der öffentliche Schlüssel des Elternteils und der Ketten-Code des Elternteils notwendig; der private Schlüssel des Elternteils kommt in diesem Prozess im Gegensatz zur Berechnung des abgeleiteten privaten Schlüssels, die wir zuvor gesehen haben, nie ins Spiel.
 
 Als Nächstes ist der Ketten-Code des Kindes einfach:
 
@@ -1767,13 +1767,13 @@ Hier ist eine schematische Darstellung der gesamten Ableitung:
 
 ![CYP201](assets/en/057.webp)
 
-### Entsprechung zwischen Kind-öffentlichen und privaten Schlüsseln
+### Entsprechung zwischen öffentlichen Kind-und privaten Schlüsseln
 
-Eine Frage, die aufkommen könnte, ist, wie ein normaler Kind-öffentlicher Schlüssel, der von einem Eltern-öffentlichen Schlüssel abgeleitet wurde, einem normalen abgeleiteten privaten Schlüssel entsprechen kann, der vom entsprechenden Eltern-privaten Schlüssel abgeleitet wurde. Diese Verbindung wird genau durch die Eigenschaften elliptischer Kurven sichergestellt. Tatsächlich wird zur Ableitung eines normalen Kind-öffentlichen Schlüssels HMAC-SHA512 auf die gleiche Weise angewendet, aber sein Ausgang wird anders verwendet:
+Eine Frage, die aufkommen könnte, ist, wie ein normaler Kind-öffentlicher Schlüssel, der von einem Eltern-öffentlichen Schlüssel abgeleitet wurde, einem normalen abgeleiteten privaten Schlüssel entsprechen kann, der vom entsprechenden Eltern-privaten Schlüssel abgeleitet wurde. Diese Verbindung wird genau durch die Eigenschaften elliptischer Kurven sichergestellt. Tatsächlich wird zur Ableitung eines normalen öffentlichen Kind-Schlüssels HMAC-SHA512 auf die gleiche Weise angewendet, aber sein Ausgang wird anders verwendet:
    - **Normaler Kind-privater Schlüssel**: $k_{\text{CHD}}^n = \text{parse256}(h_1) + k_{\text{PAR}} \mod n$
    - **Normaler Kind-öffentlicher Schlüssel**: $K_{\text{CHD}}^n = G \cdot \text{parse256}(h_1) + K_{\text{PAR}}$
 
-Dank der Addition und Verdopplungsoperationen auf der elliptischen Kurve liefern beide Methoden konsistente Ergebnisse: Der vom Kind-Privatschlüssel abgeleitete öffentliche Schlüssel ist identisch mit dem Kind-Öffentlichen Schlüssel, der direkt vom Eltern-Öffentlichen Schlüssel abgeleitet wurde.
+Dank der Addition und Verdopplungsoperationen auf der elliptischen Kurve liefern beide Methoden konsistente Ergebnisse: Der vom Kind-Privatschlüssel abgeleitete öffentliche Schlüssel ist identisch mit dem öffentlichen Kind-Schlüssel, der direkt vom Eltern-Öffentlichen Schlüssel abgeleitet wurde.
 ### Zusammenfassung der Ableitungstypen
 
 Zusammengefasst gibt es hier die verschiedenen möglichen Typen von Ableitungen:

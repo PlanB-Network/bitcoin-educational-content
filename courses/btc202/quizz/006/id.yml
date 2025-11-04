@@ -1,5 +1,5 @@
 question: Mengapa satu Wallet tidak dianggap sebagai peserta jaringan Bitcoin?
-answer: Karena tidak memvalidasi transaksi atau blokir
+answer: Karena tidak memvalidasi transaksi atau blok
 wrong_answers:
   - Karena tidak dapat generate kunci pribadi
   - Karena tidak dapat membuat alamat Bitcoin

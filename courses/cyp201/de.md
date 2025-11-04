@@ -1617,7 +1617,7 @@ Wie wir im vorherigen Kapitel kurz angesprochen haben: Kinderschlüssel sind in 
 Jedes Kind-Schlüsselpaar wird durch einen 32-Bit **Index** (benannt $i$ in unseren Berechnungen) identifiziert. Die Indizes für normale Schlüssel reichen von $0$ bis $2^{31}-1$, während die für gehärtete Schlüssel von $2^{31}$ bis $2^{32}-1$ reichen. Diese Zahlen werden verwendet, um Geschwister-Schlüsselpaare während der Ableitung zu unterscheiden. Tatsächlich muss jedes Eltern-Schlüsselpaar in der Lage sein, mehrere Kind-Schlüsselpaare abzuleiten. Würden wir dieselbe Berechnung systematisch von den Elternschlüsseln aus anwenden, wären alle erhaltenen Geschwisterschlüssel identisch, was nicht wünschenswert ist. Der Index führt somit eine Variable ein, die die Ableitungsberechnung modifiziert und es ermöglicht, jedes Geschwisterpaar zu differenzieren. Außer für spezifische Verwendungen in bestimmten Protokollen und Ableitungsstandards beginnen wir in der Regel damit, das erste Kind-Schlüsselpaar mit dem Index `0`, das zweite mit dem Index `1` usw. abzuleiten.
 ### Ableitungsprozess mit HMAC-SHA512
 
-Die Ableitung jedes Kind-Schlüssels basiert auf der HMAC-SHA512-Funktion, die wir in Abschnitt 2 über Hash-Funktionen besprochen haben. Sie nimmt zwei Eingaben: den Eltern-Chain-Code $C_{\text{PAR}}$ und die Verkettung des Elternschlüssels (entweder des öffentlichen Schlüssels $K_{\text{PAR}}$ oder des privaten Schlüssels $k_{\text{PAR}}$, abhängig von der Art des gewünschten Kind-Schlüssels) und des Index. Die Ausgabe des HMAC-SHA512 ist eine 512-Bit-Sequenz, aufgeteilt in zwei Teile:
+Die Ableitung jedes Kind-Schlüssels basiert auf der HMAC-SHA512-Funktion, die wir in Abschnitt 2 über Hash-Funktionen besprochen haben. Sie nimmt zwei Eingaben: den Master-Chain-Code $C_{\text{PAR}}$ und die Verkettung des Elternschlüssels (entweder des öffentlichen Schlüssels $K_{\text{PAR}}$ oder des privaten Schlüssels $k_{\text{PAR}}$, abhängig von der Art des gewünschten Kind-Schlüssels) und des Index. Die Ausgabe des HMAC-SHA512 ist eine 512-Bit-Sequenz, aufgeteilt in zwei Teile:
 - **Die ersten 32 Bytes** (oder $h_1$) werden verwendet, um das neue Kind-Paar zu berechnen.
 - **Die letzten 32 Bytes** (oder $h_2$) dienen als neuer Chain-Code $C_{\text{CHD}}$ für das Kind-Paar.
 
@@ -1635,7 +1635,7 @@ $$
 \text{hash} = \text{HMAC-SHA512}(C_{\text{PAR}}, G \cdot k_{\text{PAR}} \Vert i)
 $$
 
-In dieser Berechnung beobachten wir, dass unsere HMAC-Funktion zwei Eingaben nimmt: zuerst den Eltern-Chain-Code und dann die Verkettung des Index mit dem öffentlichen Schlüssel, der mit dem Eltern-Privatschlüssel assoziiert ist. Der Eltern-Öffentliche-Schlüssel wird hier verwendet, weil wir einen normalen Kind-Schlüssel ableiten möchten, keinen gehärteten.
+In dieser Berechnung beobachten wir, dass unsere HMAC-Funktion zwei Eingaben nimmt: zuerst den Master-Chain-Code und dann die Verkettung des Index mit dem öffentlichen Schlüssel, der mit dem Eltern-Privatschlüssel assoziiert ist. Der Eltern-Öffentliche-Schlüssel wird hier verwendet, weil wir einen normalen Kind-Schlüssel ableiten möchten, keinen gehärteten.
 Wir haben jetzt einen 64-Byte $\text{hash}$, den wir in 2 Teile zu je 32 Bytes aufteilen: $h_1$ und $h_2$:
 
 
@@ -1682,7 +1682,7 @@ $$
 hash = \text{HMAC-SHA512}(C_{\text{PAR}}, 0x00 \Vert k_{\text{PAR}} \Vert i)
 $$
 
-In dieser Berechnung beobachten wir, dass unsere HMAC-Funktion zwei Eingaben nimmt: zuerst den Eltern-Kettenkode und dann die Verkettung des Index mit dem privaten Schlüssel des Elternteils. Der private Schlüssel des Elternteils wird hier verwendet, weil wir darauf abzielen, einen verstärkten Kind-Schlüssel abzuleiten. Außerdem wird am Anfang des Schlüssels ein Byte gleich `0x00` hinzugefügt. Diese Operation gleicht seine Länge an, um der eines komprimierten öffentlichen Schlüssels zu entsprechen.
+In dieser Berechnung beobachten wir, dass unsere HMAC-Funktion zwei Eingaben nimmt: zuerst den Master-Chain-Code und dann die Verkettung des Index mit dem privaten Schlüssel des Elternteils. Der private Schlüssel des Elternteils wird hier verwendet, weil wir darauf abzielen, einen verstärkten Kind-Schlüssel abzuleiten. Außerdem wird am Anfang des Schlüssels ein Byte gleich `0x00` hinzugefügt. Diese Operation gleicht seine Länge an, um der eines komprimierten öffentlichen Schlüssels zu entsprechen.
 So haben wir jetzt einen 64-Byte $\text{hash}$, den wir in 2 Teile von je 32 Bytes aufteilen werden: $h_1$ und $h_2$:
 $$
 

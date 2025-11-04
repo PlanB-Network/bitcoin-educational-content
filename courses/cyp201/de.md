@@ -1494,20 +1494,20 @@ Der erweiterte Schlüssel besteht aus zwei Teilen:
 - Den Metadaten, die verschiedene Informationen zur Erleichterung der Interoperabilität zwischen Software und zur Verbesserung des Verständnisses für den Benutzer enthalten.
 
 ### Wie erweiterte Schlüssel funktionieren
-Wenn der erweiterte Schlüssel einen privaten Schlüssel enthält, wird er als erweiterter privater Schlüssel bezeichnet. Er ist an seinem Präfix erkennbar, das die Bezeichnung `prv` enthält. Zusätzlich zum privaten Schlüssel enthält der erweiterte private Schlüssel auch den zugehörigen Chain-Code. Mit dieser Art von erweitertem Schlüssel ist es möglich, alle Arten von Kind-privaten Schlüsseln abzuleiten, und daher durch Addition und Verdopplung von Punkten auf elliptischen Kurven ermöglicht es auch die Ableitung der Gesamtheit von Kind-öffentlichen Schlüsseln.
+Wenn der erweiterte Schlüssel einen privaten Schlüssel enthält, wird er als erweiterter privater Schlüssel bezeichnet. Er ist an seinem Präfix erkennbar, das die Bezeichnung `prv` enthält. Zusätzlich zum privaten Schlüssel enthält der erweiterte private Schlüssel auch den zugehörigen Chain-Code. Mit dieser Art von erweitertem Schlüssel ist es möglich, alle Arten von abgeleiteten privaten Schlüsseln abzuleiten, und daher durch Addition und Verdopplung von Punkten auf elliptischen Kurven ermöglicht es auch die Ableitung der Gesamtheit von Kind-öffentlichen Schlüsseln.
 Wenn der erweiterte Schlüssel keinen privaten Schlüssel enthält, sondern stattdessen einen öffentlichen Schlüssel, wird er als erweiterter öffentlicher Schlüssel bezeichnet. Er ist an seinem Präfix erkennbar, das die Bezeichnung `pub` enthält. Offensichtlich enthält er zusätzlich zum Schlüssel auch den zugehörigen Chain-Code. Im Gegensatz zum erweiterten privaten Schlüssel ermöglicht der erweiterte öffentliche Schlüssel die Ableitung von nur "normalen" Kind-öffentlichen Schlüsseln (was bedeutet, dass er keine "gehärteten" Kind-Schlüssel ableiten kann). Wir werden im folgenden Kapitel sehen, was diese Bezeichnungen "normal" und "gehärtet" bedeuten.
 
-Aber in jedem Fall erlaubt der erweiterte öffentliche Schlüssel nicht die Ableitung von Kind-privaten Schlüsseln. Daher kann selbst, wenn jemand Zugang zu einem `xpub` hat, nicht die zugehörigen Mittel ausgeben, da er keinen Zugang zu den entsprechenden privaten Schlüsseln hat. Sie können nur Kind-öffentliche Schlüssel ableiten, um die zugehörigen Transaktionen zu beobachten.
+Aber in jedem Fall erlaubt der erweiterte öffentliche Schlüssel nicht die Ableitung von abgeleiteten privaten Schlüsseln. Daher kann selbst, wenn jemand Zugang zu einem `xpub` hat, nicht die zugehörigen Mittel ausgeben, da er keinen Zugang zu den entsprechenden privaten Schlüsseln hat. Sie können nur Kind-öffentliche Schlüssel ableiten, um die zugehörigen Transaktionen zu beobachten.
 
 Für das Folgende werden wir die folgende Notation anwenden:
-- $K_{\text{PAR}}$: ein Eltern-öffentlicher Schlüssel;
-- $k_{\text{PAR}}$: ein Eltern-privater Schlüssel;
+- $K_{\text{PAR}}$: ein öffentlicher Eltern-Schlüssel;
+- $k_{\text{PAR}}$: ein privater Eltern-Schlüssel;
 - $C_{\text{PAR}}$: ein Eltern-Chain-Code;
 - $C_{\text{CHD}}$: ein Kind-Chain-Code;
-- $K_{\text{CHD}}^n$: ein normaler Kind-öffentlicher Schlüssel;
-- $k_{\text{CHD}}^n$: ein normaler Kind-privater Schlüssel;
-- $K_{\text{CHD}}^h$: ein gehärteter Kind-öffentlicher Schlüssel;
-- $k_{\text{CHD}}^h$: ein gehärteter Kind-privater Schlüssel.
+- $K_{\text{CHD}}^n$: ein normaler öffentlicher Kind-Schlüssel;
+- $k_{\text{CHD}}^n$: ein normaler privater Kind-Schlüssel;
+- $K_{\text{CHD}}^h$: ein gehärteter öffentlicher Kind-Schlüssel;
+- $k_{\text{CHD}}^h$: ein gehärteter privater Kind-Schlüssel.
 
 ![CYP201](assets/en/052.webp)
 
@@ -1516,7 +1516,7 @@ Für das Folgende werden wir die folgende Notation anwenden:
 Ein erweiterter Schlüssel ist wie folgt strukturiert:
 - **Version**: Versionscode zur Identifizierung der Art des Schlüssels (`xprv`, `xpub`, `yprv`, `ypub`...). Am Ende dieses Kapitels werden wir sehen, was die Buchstaben `x`, `y` und `z` entsprechen.
 - **Tiefe**: Hierarchische Ebene im HD-Wallet relativ zum Master-Schlüssel (0 für den Master-Schlüssel).
-- **Eltern-Fingerabdruck**: Die ersten 4 Bytes des HASH160-Hashs des Eltern-öffentlichen Schlüssels, der zur Ableitung des im Payload vorhandenen Schlüssels verwendet wurde.
+- **Eltern-Fingerabdruck**: Die ersten 4 Bytes des HASH160-Hashs des öffentlichen Eltern-Schlüssels, der zur Ableitung des im Payload vorhandenen Schlüssels verwendet wurde.
 - **Indexnummer**: Kennzeichnung des Kindes unter Geschwisterschlüsseln, das heißt, unter allen Schlüsseln auf derselben Ableitungsebene, die dieselben Elternschlüssel haben.
 - **Chain-Code**: Ein einzigartiger 32-Byte-Code zur Ableitung von Kind-Schlüsseln.
 - **Schlüssel**: Der private Schlüssel (gekennzeichnet durch 1 Byte für die Größe) oder der öffentliche Schlüssel.
@@ -1755,7 +1755,7 @@ K_{\text{CHD}}^n = G \cdot \text{parse256}(h_1) + K_{\text{PAR}}
 $$
 
 Wenn $\text{parse256}(h_1) \geq n$ (Ordnung der elliptischen Kurve) ist oder wenn $K_{\text{CHD}}^n$ der Punkt im Unendlichen ist, ist die Ableitung ungültig, und ein anderer Index muss gewählt werden.
-In dieser Berechnung beinhaltet die Operation $\text{parse256}(h_1)$, die ersten 32 Bytes des $\text{hash}$ als eine 256-Bit-Ganzzahl zu interpretieren. Diese Zahl wird verwendet, um einen Punkt auf der elliptischen Kurve durch Addition und Verdopplung vom Generatorpunkt $G$ zu berechnen. Dieser Punkt wird dann zum öffentlichen Schlüssel des Elternteils addiert, um den normalen Kind-öffentlichen Schlüssel zu erhalten. Somit ist zur Ableitung eines normalen Kind-öffentlichen Schlüssels nur der öffentliche Schlüssel des Elternteils und der Ketten-Code des Elternteils notwendig; der private Schlüssel des Elternteils kommt in diesem Prozess im Gegensatz zur Berechnung des Kind-privaten Schlüssels, die wir zuvor gesehen haben, nie ins Spiel.
+In dieser Berechnung beinhaltet die Operation $\text{parse256}(h_1)$, die ersten 32 Bytes des $\text{hash}$ als eine 256-Bit-Ganzzahl zu interpretieren. Diese Zahl wird verwendet, um einen Punkt auf der elliptischen Kurve durch Addition und Verdopplung vom Generatorpunkt $G$ zu berechnen. Dieser Punkt wird dann zum öffentlichen Schlüssel des Elternteils addiert, um den normalen Kind-öffentlichen Schlüssel zu erhalten. Somit ist zur Ableitung eines normalen Kind-öffentlichen Schlüssels nur der öffentliche Schlüssel des Elternteils und der Ketten-Code des Elternteils notwendig; der private Schlüssel des Elternteils kommt in diesem Prozess im Gegensatz zur Berechnung des abgeleiteten privaten Schlüssels, die wir zuvor gesehen haben, nie ins Spiel.
 
 Als Nächstes ist der Ketten-Code des Kindes einfach:
 
@@ -1769,7 +1769,7 @@ Hier ist eine schematische Darstellung der gesamten Ableitung:
 
 ### Entsprechung zwischen Kind-öffentlichen und privaten Schlüsseln
 
-Eine Frage, die aufkommen könnte, ist, wie ein normaler Kind-öffentlicher Schlüssel, der von einem Eltern-öffentlichen Schlüssel abgeleitet wurde, einem normalen Kind-privaten Schlüssel entsprechen kann, der vom entsprechenden Eltern-privaten Schlüssel abgeleitet wurde. Diese Verbindung wird genau durch die Eigenschaften elliptischer Kurven sichergestellt. Tatsächlich wird zur Ableitung eines normalen Kind-öffentlichen Schlüssels HMAC-SHA512 auf die gleiche Weise angewendet, aber sein Ausgang wird anders verwendet:
+Eine Frage, die aufkommen könnte, ist, wie ein normaler Kind-öffentlicher Schlüssel, der von einem Eltern-öffentlichen Schlüssel abgeleitet wurde, einem normalen abgeleiteten privaten Schlüssel entsprechen kann, der vom entsprechenden Eltern-privaten Schlüssel abgeleitet wurde. Diese Verbindung wird genau durch die Eigenschaften elliptischer Kurven sichergestellt. Tatsächlich wird zur Ableitung eines normalen Kind-öffentlichen Schlüssels HMAC-SHA512 auf die gleiche Weise angewendet, aber sein Ausgang wird anders verwendet:
    - **Normaler Kind-privater Schlüssel**: $k_{\text{CHD}}^n = \text{parse256}(h_1) + k_{\text{PAR}} \mod n$
    - **Normaler Kind-öffentlicher Schlüssel**: $K_{\text{CHD}}^n = G \cdot \text{parse256}(h_1) + K_{\text{PAR}}$
 

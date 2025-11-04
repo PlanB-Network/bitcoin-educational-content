@@ -3,7 +3,7 @@ answer: Umbrel Home adalah server mini yang sudah diinstal sebelumnya, umbrelOS 
 wrong_answers:
   - Umbrel Home gratis, umbrelOS tidak
   - Umbrel Home tidak mendukung Bitcoin; umbrelOS mendukungnya
-  - Umbrel Home adalah sumber terbuka, umbrelOS adalah hak milik
+  - Umbrel Home adalah open source, umbrelOS adalah berlisensi
 explanation: |
   Umbrel Home dijual siap pakai dengan umbrelOS yang sudah terinstal, sementara umbrelOS dapat diinstal secara DIY pada perangkat keras Anda sendiri.
 reviewed: true

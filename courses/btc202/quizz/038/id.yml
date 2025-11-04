@@ -5,5 +5,5 @@ wrong_answers:
   - Karena mengkonsumsi terlalu sedikit energi dan berisiko meledak
   - Karena tidak kompatibel dengan Bitcoin core
 explanation: |
-  Cakram mekanis membatasi kinerja, memperpanjang IBD secara signifikan, dan cepat aus di bawah beban simpul.
+  Cakram mekanis membatasi kinerja, memperpanjang IBD secara signifikan, dan cepat aus di bawah beban node.
 reviewed: true

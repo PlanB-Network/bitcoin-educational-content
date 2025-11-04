@@ -5,5 +5,5 @@ wrong_answers:
   - Risiko kehilangan kunci pribadi
   - Risiko kehilangan dan pemantauan
 explanation: |
-  Simpul pihak ketiga dapat menganalisis atau memblokir transaksi Anda, atau bahkan mengaitkan data Anda dengan identitas Anda.
+  Node pihak ketiga dapat menganalisis atau memblokir transaksi Anda, atau bahkan mengaitkan data Anda dengan identitas Anda.
 reviewed: true

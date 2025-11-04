@@ -19,7 +19,7 @@ In questo tutorial, imparerai cos'è un coinjoin e come eseguirne uno utilizzand
 ## Cos'è un coinjoin su Bitcoin?
 **Il Coinjoin è una tecnica che interrompe la tracciabilità dei bitcoin sulla blockchain**. Si basa su una transazione collaborativa con una struttura specifica che prende il nome di transazione Coinjoin.
 
-I coinjoin migliorano la privacy degli utenti Bitcoin complicando la chain analysis (Pratica che comprende tutti i metodi utilizzati per tracciare il flusso dei bitcoin sulla blockchain) da parte degli osservatori esterni. La loro struttura consente di combinare più monete da diversi utenti in una singola transazione, oscurando le tracce e rendendo difficile determinare i collegamenti tra gli indirizzi di input e output.
+I coinjoin migliorano la privacy degli utenti Bitcoin complicando la chain analysis (pratica che comprende tutti i metodi utilizzati per tracciare il flusso dei bitcoin sulla blockchain) da parte degli osservatori esterni. La loro struttura consente di combinare più monete da diversi utenti in una singola transazione, oscurando le tracce e rendendo difficile determinare i collegamenti tra gli indirizzi di input e output.
 
 Il principio del coinjoin si basa su un approccio collaborativo: diversi utenti che desiderano mescolare i loro bitcoin depositano importi identici come input della stessa transazione. Questi importi vengono ridistribuiti come output di pari valore a ciascun utente. Al termine della transazione, è impossibile associare un output specifico a un utente conosciuto in input. Non esiste un collegamento diretto tra gli input e gli output, interrompendo l'associazione tra gli utenti e i loro UTXO, così come la storia di ogni moneta.
 ![coinjoin](assets/notext/1.webp)

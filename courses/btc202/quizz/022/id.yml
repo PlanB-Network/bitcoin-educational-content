@@ -5,5 +5,5 @@ wrong_answers:
   - Penekanan biaya otomatis oleh node
   - Memblokir transaksi oleh jaringan
 explanation: |
-  Setelah ambang batas perembesan terlampaui, sebuah transaksi menyebar hampir seketika ke seluruh jaringan Bitcoin.
+  Setelah ambang batas perkolasi terlampaui, sebuah transaksi menyebar hampir seketika ke seluruh jaringan Bitcoin.
 reviewed: true

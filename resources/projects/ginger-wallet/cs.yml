@@ -1,0 +1,2 @@
+description: |
+  Otevřený zdrojový kód Bitcoin wallet, který se nezaměřuje na ochranu soukromí. Fork z Wasabi Wallet, Ginger integruje coinjoiny, Tor a hardwarovou kompatibilitu wallet. Je navržen tak, aby byl jednoduchý a automatizovaný, a umožňuje každému bez námahy zachovat svou finanční suverenitu a anonymitu.

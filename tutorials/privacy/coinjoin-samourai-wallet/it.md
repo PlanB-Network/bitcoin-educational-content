@@ -34,19 +34,20 @@ In questo tutorial, esploreremo l'implementazione di **Whirlpool**, che consider
 ## Perché eseguire coinjoins su Bitcoin?
 Uno dei problemi principale di ogni sistema di pagamento peer-to-peer è la doppia spesa: come impedire a individui malintenzionati di spendere le stesse unità di moneta più volte senza ricorrere ad un'autorità centrale per arbitrare?
 
-Satoshi Nakamoto ha fornito una soluzione a questo dilemma attraverso il protocollo Bitcoin, un sistema di pagamento elettronico peer-to-peer che opera indipendentemente da qualsiasi autorità centrale. Nel suo White paper, evidenzia che l'unico modo per certificare l'assenza di doppia spesa è garantire la visibilità di tutte le transazioni all'interno del sistema di pagamento.
+Satoshi Nakamoto ha fornito una soluzione a questo dilemma attraverso il protocollo Bitcoin, un sistema di pagamento elettronico peer-to-peer che opera indipendentemente da qualsiasi autorità centrale. Nel suo White paper, evidenzia che l'unico modo per assicurare l'assenza di doppia spesa è garantire la visibilità di tutte le transazioni all'interno del sistema di pagamento.
+
 Per garantire che ogni partecipante sia a conoscenza delle transazioni, queste devono essere divulgate pubblicamente. Pertanto, il funzionamento di Bitcoin si basa su un'infrastruttura trasparente e distribuita, che consente a qualsiasi operatore di un nodo di verificare l'intera catena di firme elettroniche e la storia di ogni moneta,a partire dalla sua creazione da parte di un miner.
 
-La natura trasparente e distribuita della blockchain di Bitcoin implica che qualsiasi utente della rete può seguire e analizzare le transazioni di tutti gli altri partecipanti. Di conseguenza, l'anonimato a livello di transazione è impossibile. Tuttavia, l'anonimato è preservato a livello di identificazione individuale. A differenza del sistema bancario tradizionale, dove ogni conto è collegato a un'identità personale, su Bitcoin i fondi sono associati a coppie di chiavi crittografiche, offrendo così agli utenti una forma di pseudonimato dietro identificatori crittografici.
+La natura trasparente e distribuita della blockchain di Bitcoin implica che qualsiasi utente della rete può seguire e analizzare le transazioni di tutti gli altri partecipanti. Di conseguenza, l'anonimato della transazione è impossibile. Tuttavia, l'anonimato è preservato a livello di identificazione individuale. A differenza del sistema bancario tradizionale, dove ogni conto è collegato a un'identità personale, su Bitcoin i fondi sono associati a coppie di chiavi crittografiche, offrendo così agli utenti una forma di pseudonimato dietro identificatori crittografici.
 
-Pertanto, la riservatezza su Bitcoin è compromessa quando osservatori esterni riescono ad associare specifici UTXO ad utenti identificati. Una volta stabilita questa associazione, diventa possibile tracciare le loro transazioni ed analizzare la storia dei loro bitcoin. Il coinjoin è una tecnica sviluppata per interrompere la tracciabilità degli UTXO, offrendo così un certo livello di riservatezza agli utenti di Bitcoin a livello di transazione.
+Pertanto, la riservatezza su Bitcoin è compromessa quando osservatori esterni riescono ad associare specifici UTXO ad utenti identificati. Una volta stabilita questa associazione, diventa possibile tracciare le loro transazioni ed analizzare la storia dei loro bitcoin. Il coinjoin è una tecnica sviluppata per interrompere la tracciabilità degli UTXO, offrendo così un certo livello di riservatezza agli utenti di Bitcoin nelle transazioni.
 
 ## Come funziona Whirlpool?
-Whirlpool si distingue dagli altri metodi coinjoin utilizzando transazioni "_ZeroLink_", che assicurano che non ci sia tecnicamente alcun collegamento possibile tra tutti gli input e tutti gli output. Questo perfetto mescolamento è ottenuto attraverso una struttura in cui ogni partecipante contribuisce con un importo identico in input (eccetto per le commissioni di mining), generando così output di importi perfettamente uguali.
+Whirlpool si distingue dagli altri metodi coinjoin utilizzando transazioni "_ZeroLink_", che assicurano che non ci sia tecnicamente alcun collegamento possibile tra tutti gli input e tutti gli output. Questa combinazione ottimale è ottenuta attraverso una struttura in cui ogni partecipante contribuisce con un importo identico in input (eccetto per le commissioni di mining), generando così output di importi perfettamente uguali.
 Questo approccio restrittivo agli input conferisce alle transazioni coinjoin di Whirlpool una caratteristica unica: l'assenza totale di collegamenti deterministici tra input e output. In altre parole, ogni output ha la stessa probabilità di essere attribuito a qualsiasi partecipante, rispetto a tutti gli altri output nella transazione.
-Inizialmente, il numero di partecipanti in ogni coinjoin di Whirlpool era limitato a 5, con 2 nuovi entranti e 3 remixer (spiegheremo questi concetti più avanti). Tuttavia, l'aumento delle commissioni per le transazioni on-chain osservato nel 2023 ha spinto i team di Samourai a ripensare il loro modello per migliorare la privacy riducendo i costi. Pertanto, tenendo conto della situazione di mercato delle commissioni e del numero di partecipanti, il coordinatore può ora organizzare coinjoin che includono 6, 7 o 8 partecipanti. Queste sessioni potenziate sono denominate "_Cicli di Surge_". È importante notare che, indipendentemente dalla configurazione, ci sono sempre solo 2 nuovi entranti nei coinjoin di Whirlpool.
+Inizialmente, il numero di partecipanti in ogni coinjoin di Whirlpool era limitato a 5, con 2 nuovi entranti e 3 remixer (spiegheremo questi concetti più avanti). Tuttavia, l'aumento delle commissioni per le transazioni on-chain osservato nel 2023 ha spinto i team di Samourai a ripensare il loro modello per migliorare la privacy riducendo i costi. Pertanto, tenendo conto della situazione di mercato delle commissioni e del numero di partecipanti, il coordinatore può ora organizzare coinjoin che includono 6, 7 o 8 partecipanti. Queste sessioni potenziate sono denominate "_Surge Cycles_". È importante notare che, indipendentemente dalla configurazione, ci sono sempre solo 2 nuovi entranti nei coinjoin di Whirlpool.
 
-Così, le transazioni Whirlpool sono caratterizzate da un numero identico di input e output, che possono essere:
+Quindi, le transazioni Whirlpool sono caratterizzate da un numero identico di input e output, che possono essere:
 - 5 input e 5 output;
 ![coinjoin](assets/notext/2.webp)
 - 6 input e 6 output;
@@ -55,28 +56,28 @@ Così, le transazioni Whirlpool sono caratterizzate da un numero identico di inp
 ![coinjoin](assets/notext/4.webp)
 - 8 input e 8 output.
 ![coinjoin](assets/notext/5.webp)
-Il modello proposto da Whirlpool si basa quindi su piccole transazioni coinjoin. A differenza di Wasabi e JoinMarket, dove la robustezza degli anonset si basa sul volume dei partecipanti in un singolo ciclo, Whirlpool scommette sulla catena di diversi cicli di piccole dimensioni.
+Il modello proposto da Whirlpool si basa quindi su piccole transazioni coinjoin. A differenza di Wasabi e JoinMarket, dove la robustezza degli anonset si basa sul volume dei partecipanti in un singolo ciclo, Whirlpool punta sulla concatenazione di diversi cicli di piccole dimensioni.
 
-In questo modello, l'utente paga le commissioni solo al suo ingresso iniziale in una pool, consentendogli di partecipare a una moltitudine di remix senza commissioni aggiuntive. Sono i nuovi entranti a coprire le commissioni di mining per i remixer.
-Con ogni coinjoin aggiuntivo in cui una moneta partecipa, insieme ai suoi pari incontrati in passato, gli anonset cresceranno esponenzialmente. L'obiettivo è quindi sfruttare questi remix gratuiti che, ad ogni occorrenza, contribuiscono a rafforzare la densità degli anonset associati a ciascuna moneta miscelata.
+In questo modello, l'utente paga le commissioni solo al suo ingresso iniziale in una pool (gruppo di utenti che concordano di mescolare i loro UTXO), consentendogli di partecipare a una moltitudine di round coinjoin senza commissioni aggiuntive. Sono i nuovi entranti a coprire le commissioni di mining per i remixer.
+Con ogni coinjoin aggiuntivo in cui un UTXO partecipa, insieme ai suoi pari incontrati in precedenza, gli anonset cresceranno esponenzialmente. L'obiettivo è quindi sfruttare questi round coinjoin gratuiti che, ad ogni occorrenza, contribuiscono a rafforzare la densità degli anonset associati a ciascun UTXO che ha partecipato al coinjoin.
 Whirlpool è stato progettato tenendo conto di due requisiti importanti:
 - L'accessibilità dell'implementazione su dispositivi mobili, dato che Samourai Wallet è principalmente un'applicazione per smartphone;
-- La velocità dei cicli di remixing per promuovere un significativo aumento degli anonset.
-Questi imperativi hanno guidato gli sviluppatori di Samourai Wallet nella progettazione di Whirlpool, portandoli a limitare il numero di partecipanti per ciclo. Troppo pochi partecipanti avrebbero compromesso l'efficienza del coinjoin, riducendo drasticamente gli anonset generati ogni ciclo, mentre troppi partecipanti avrebbero posto problemi di gestione sulle applicazioni mobili e avrebbero ostacolato il flusso dei cicli.
+- La velocità dei cicli di coinjoin per determinare un significativo aumento degli anonset.
+Questi principi hanno guidato gli sviluppatori di Samourai Wallet nella progettazione di Whirlpool, portandoli a limitare il numero di partecipanti per ciclo. Troppo pochi partecipanti avrebbero compromesso l'efficienza del coinjoin, riducendo drasticamente gli anonset generati ogni ciclo, mentre troppi partecipanti avrebbero causato problemi di gestione sulle applicazioni mobili e avrebbero ostacolato il flusso dei cicli.
 **In definitiva, non è necessario avere un alto numero di partecipanti per coinjoin su Whirlpool poiché gli anonset si ottengono attraverso l'accumulo di diversi cicli di coinjoin.**
 
 -> Scopri di più sugli anonset di Whirlpool.
 
-### Le pool e le commissioni per coinjoin
-Affinché questi multipli cicli aumentino efficacemente gli anonset delle monete miscelate, deve essere stabilito un certo quadro per limitare le quantità di UTXO utilizzate. Whirlpool definisce quindi diverse pool.
+### Le pool e le commissioni coinjoin
+Affinché questi molteplici cicli aumentino l'anonset degli UTXO, deve essere stabilita una certa struttura per limitare le quantità di UTXO utilizzate. Whirlpool definisce quindi diverse pool.
 
-Una pool rappresenta un gruppo di utenti che desiderano miscelarsi insieme, che concordano sulla quantità di UTXO da utilizzare per ottimizzare il processo di coinjoin. Ogni pool specifica una quantità fissa per l'UTXO, a cui l'utente deve attenersi per partecipare. Quindi, per eseguire coinjoin con Whirlpool, è necessario selezionare una pool tra le seguenti:
+Una pool rappresenta un gruppo di utenti che desiderano fare coinjoin insieme, che concordano sulla quantità di UTXO da utilizzare per ottimizzare il processo di coinjoin. Ogni pool indica una quantità fissa per l'UTXO, a cui l'utente deve attenersi per partecipare. Quindi, per eseguire coinjoin con Whirlpool, è necessario selezionare una pool tra le seguenti:
 - 0,5 bitcoin;
 - 0,05 bitcoin;
 - 0,01 bitcoin;
 - 0,001 bitcoin (= 100.000 sats).
 
-Unendoti ad una pool con i tuoi bitcoin, questi verranno divisi per generare UTXO che sono perfettamente omogenei con quelli degli altri partecipanti. Ogni pool ha un limite massimo; quindi, per importi che superano questo limite, sarai costretto o a fare due ingressi separati all'interno della stessa pool o a passare ad un'altra pool con un importo maggiore:
+Partecipando ad una pool con i tuoi bitcoin, questi verranno divisi per generare UTXO che sono perfettamente omogenei con quelli degli altri partecipanti. Ogni pool ha un limite massimo; quindi, per importi che superano questo limite, sarai costretto o a fare due ingressi separati all'interno della stessa pool o a passare ad un'altra pool con un importo maggiore:
 
 | Pool (bitcoin) | Importo massimo per ingresso (bitcoin) |
 |----------------|----------------------------------------|
@@ -85,10 +86,10 @@ Unendoti ad una pool con i tuoi bitcoin, questi verranno divisi per generare UTX
 | 0,01           | 0,7                                    |
 | 0,001          | 0,025                                  |
 
-Come menzionato in precedenza, un UTXO è considerato appartenente a una pool quando è pronto per essere integrato in un coinjoin. Tuttavia, questo non significa che l'utente perda il possesso di esso. **Attraverso i diversi cicli di mix, mantieni il pieno controllo delle tue chiavi e, di conseguenza, dei tuoi bitcoin.** Questo è ciò che differenzia la tecnica del coinjoin da altre tecniche di mix centralizzate.
+Come menzionato in precedenza, un UTXO è considerato appartenente ad una pool quando è pronto per essere integrato in un coinjoin. Tuttavia, questo non significa che l'utente ne perda il possesso. **Attraverso i diversi cicli di mix, mantieni il pieno controllo delle tue chiavi e, di conseguenza, dei tuoi bitcoin.** Questo è ciò che differenzia la tecnica del coinjoin da altre tecniche di mix centralizzate.
 
 Per entrare in una pool di coinjoin, devono essere pagate le commissioni di servizio così come le commissioni di mining. Le commissioni di servizio sono fisse per ogni pool e sono destinate a compensare i team responsabili dello sviluppo e della manutenzione di Whirlpool.
-Le commissioni di servizio per l'utilizzo di Whirlpool devono essere pagate solo una volta all'ingresso nella pool. Dopo questo passaggio, hai l'opportunità di partecipare a un numero illimitato di remix senza alcuna commissione aggiuntiva. Ecco le attuali commissioni fisse per ogni pool:
+Le commissioni di servizio per l'utilizzo di Whirlpool devono essere pagate solo una volta all'ingresso nella pool. Dopo questo passaggio, hai l'opportunità di partecipare a un numero illimitato di round coinjoin senza alcuna commissione aggiuntiva. Ecco le attuali commissioni fisse per ogni pool:
 
 | Pool (bitcoin) | Commissione di ingresso (bitcoin) |
 | -------------- | --------------------------------- |
@@ -98,10 +99,10 @@ Le commissioni di servizio per l'utilizzo di Whirlpool devono essere pagate solo
 | 0,001          | 0,00005 (5 000 sats)              |
 
 
-Queste commissioni funzionano essenzialmente come un biglietto d'ingresso per la pool scelta, indipendentemente dall'importo che inserisci in coinjoin. Pertanto, sia che tu partecipi al pool da 0,01 con esattamente 0,01 BTC o vi entri con 0,5 BTC, le commissioni rimarranno le stesse in valore assoluto.
+Queste commissioni funzionano come un biglietto d'ingresso per la pool scelta, indipendentemente dall'importo che inserisci in coinjoin. Pertanto, sia che tu partecipi alla pool da 0,01 con esattamente 0,01 BTC o vi entri con 0,5 BTC, le commissioni rimarranno le stesse in valore assoluto.
 
 Prima di procedere ai coinjoin, l'utente ha quindi la scelta tra 2 strategie:
-- Optare per un pool più piccolo per minimizzare le commissioni di servizio, sapendo che riceveranno in cambio diversi piccoli UTXO;
+- Optare per una pool più piccola per minimizzare le commissioni di servizio, sapendo che riceveranno in cambio diversi piccoli UTXO;
 - Preferire una pool più grande, accettando di pagare commissioni più elevate, ottenendo meno UTXO ma di importo maggiore.
 
 Generalmente si sconsiglia di unire diversi UTXO mixati dopo i cicli di coinjoin, poiché ciò potrebbe compromettere la riservatezza acquisita (dimunendo anche la riservatezza di tutti i partecipanti che avevano partecipato ai coinjoin), soprattutto a causa dell'Euristica di Proprietà Comune dell'Input (CIOH). Pertanto, potrebbe essere saggio scegliere una pool più grande, anche se ciò significa pagare di più, per evitare di avere troppi UTXO di piccolo valore in uscita. L'utente deve valutare questi compromessi per scegliere la pool che preferisce.

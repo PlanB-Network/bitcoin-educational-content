@@ -171,7 +171,7 @@ Ushobora kubona igisomwa ca kabiri c'ibanga mu *Ishusho ya 2* iri musi. [2] Uruf
 *Ishusho ya 1: Igiharuro ca Beale no. 2*
 
 
-![Figure 1: Beale cipher no 2.](assets/Figure1-1.webp "Figure 1: Beale cipher no. 2")
+![Figure 1: Beale cipher no 2.](assets/en/001.webp "Figure 1: Beale cipher no. 2")
 
 
 
@@ -413,7 +413,7 @@ Ivyiza bishoboka n'ibishoboka bifitaniye isano n'umuhinduzi w'imburakimazi bisho
 *Ishusho 1: Ihinduka ry'impfagusa X*
 
 
-![Figure 1: Random variable X.](assets/Figure2-1.webp)
+![Figure 1: Random variable X.](assets/en/002.webp)
 
 
 Ivyo bipande vyagutse biri mu *Igishushanyo 1* biragaragara ko bidasobanura ko umuhinduzi w’imburakimazi $X$ mu vy’ukuri abandanya. Ahubwo, iyo mirongo irakorwa mu buryo bwagutse kugira ngo umuntu abone neza (umurongo gusa ugororotse uratuma umuntu abona neza cane).
@@ -467,7 +467,7 @@ Igishushanyo c' $Y$ kiraboneka mu *Ishusho ya 2*.
 *Ishusho ya 2: Ihinduka ry'impfagusa Y*
 
 
-![Figure 2: Random variable Y.](assets/Figure2-2.webp "Figure 2: Random variable Y")
+![Figure 2: Random variable Y.](assets/en/003.webp "Figure 2: Random variable Y")
 
 
 Ku karorero ka nyuma, rimbura umuhinduzi w’imburakimazi Z. Ufise umugwi w’ivyavuyemwo {1,3,7,11,12} n’ugusangira kw’ibishoboka bikurikira:
@@ -505,7 +505,7 @@ Ushobora kuyibona yerekanwa ku *Ishusho ya 3*. Ihinduka ry’imburakimazi Z ni, 
 *Ishusho ya 3: Ihinduka ry'impfagusa Z*
 
 
-![Figure 3: Random variable Z.](assets/Figure2-3.webp "Figure 3: Random variable Z")
+![Figure 3: Random variable Z.](assets/en/004.webp "Figure 3: Random variable Z")
 
 
 
@@ -1430,7 +1430,7 @@ Bob ipfuka ubutumwa $M$ ku gihe $T_0$ n'urufunguzo $K$ kugira ngo ivemwo inyandi
 *Ishusho ya 1: Ibanga mu kirere*
 
 
-![Figure 1: Secrecy across space](assets/Figure4-1.webp "Figure 1: Secrecy across space")
+![Figure 1: Secrecy across space](assets/en/005.webp "Figure 1: Secrecy across space")
 
 
 
@@ -1438,7 +1438,7 @@ Bob ipfuka ubutumwa $M$ ku gihe $T_0$ n'urufunguzo $K$ kugira ngo ivemwo inyandi
 
 
 
-![Figure 2: Secrecy across time](assets/Figure4-2.webp "Figure 2: Secrecy across time")
+![Figure 2: Secrecy across time](assets/en/006.webp "Figure 2: Secrecy across time")
 
 
 
@@ -1587,7 +1587,7 @@ Igiharuro c'umugezi wa XOR kigaragara mu *Ishusho 3*. Ubanza gufata urufunguzo r
 *Ishusho ya 3: Igiharuro c'umugezi wa XOR*
 
 
-![Figure 3: An XOR stream cipher](assets/Figure4-3.webp "Figure 3: An XOR stream cipher")
+![Figure 3: An XOR stream cipher](assets/en/007.webp "Figure 3: An XOR stream cipher")
 
 
 Nimwibuke ko umugambi wo gushiramwo amakuru ari nk'akarorero k'ugushiramwo amakuru n'ubuhinga bumwe, aho kuba ivyerekeye nyavyo. Mu kwagura, uruzi cipher ni nk'akarorero k'ububiko aho ushobora gukoresha imfunguruzo z'uburebure butandukanye. Naho uburebure bw’urufunguzo bushobora kugira ico bukoze ku bintu bimwebimwe bitobito vyo muri uwo mugambi, ntibuzogira ico bukoze ku buryo bwawo bw’ingenzi.
@@ -1705,7 +1705,7 @@ Igishushanyo c'ingene block cipher ikora gishobora kubonwa ku *Ishusho ya 4* iri
 *Ishusho ya 4: Igiharuro c'ibarabara*
 
 
-![Figure 4: A block cipher](assets/Figure4-4.webp "Figure 4: A block cipher")
+![Figure 4: A block cipher](assets/en/008.webp "Figure 4: A block cipher")
 
 
 Igiharuro c'amabuye ubwaco si umugambi wo gupfuka. Ariko block cipher ishobora gukoreshwa n'uburyo butandukanye bwo gukora kugira ngo haboneke imigambi itandukanye yo gupfuka. Uburyo bwo gukora bwongerako gusa ibindi bikorwa hanze y'ibanga ry'ibarabara.
@@ -1717,7 +1717,7 @@ Kugira ngo tubone ingene ivyo bikora, dufate ko hariho urufunguzo rw’ibanga (B
 *Ishusho ya 5: Igiharuro c'ibarabara gifise uburyo bwa ECB*
 
 
-![Figure 5: A block cipher with ECB mode](assets/Figure4-5.webp "Figure 5: A block cipher with ECB mode")
+![Figure 5: A block cipher with ECB mode](assets/en/009.webp "Figure 5: A block cipher with ECB mode")
 
 
 Uburyo bwo gupfuka igitabu c’amakode y’ubuhinga bwa none hakoreshejwe ubuhinga bwa block cipher ni ubu. Raba nimba ushobora gucapura ubutumwa bwawe bw’inyandiko rusangi mu bice vy’ibice 128. Niba atarivyo, wongereko **padding** ku butumwa, kugira ngo igisubizo gishobore kugabanywa neza n'ubunini bw'ibice 128. Aya ni amakuru yawe akoreshwa mu nzira yo gushiramwo amakuru.
@@ -1741,7 +1741,7 @@ Ahubwo, umugambi wose wo gupfuka wubakiwe mu gipfukisho c'amabuye ukwiye kuba **
 *Ishusho ya 6: Igishushanyo c'ububiko gifise uburyo bwa CBC*
 
 
-![Figure 6: A block cipher with CBC mode](assets/Figure4-6.webp "Figure 6: A block cipher with CBC mode")
+![Figure 6: A block cipher with CBC mode](assets/en/010.webp "Figure 6: A block cipher with CBC mode")
 
 
 Twibaze ko ubunini bw’ibarabara ari 128 bits. Rero kugira ngo utangure, wosubira gukenera kwizigira ko ubutumwa bwawe bw’intango bwo mu nyandiko zisanzwe buronka ivyiza bikenewe.
@@ -1765,7 +1765,7 @@ Ubwa nyuma, reka twibande kuri **uburyo bwo gutanga inyishu** (**uburyo bwa OFB*
 *Ishusho ya 7: Igishushanyo c'ibarabara gifise uburyo bwa OFB*
 
 
-![Figure 7: A block cipher with OFB mode](assets/Figure4-7.webp "Figure 7: A block cipher with OFB mode")
+![Figure 7: A block cipher with OFB mode](assets/en/011.webp "Figure 7: A block cipher with OFB mode")
 
 
 Na OFB mode uhitamwo kandi umurongo w'intango. Ariko hano, ku gice ca mbere, umurongo w'intango winjira mu gice c'ibanga n'urufunguzo rwawe. Ivyo biva muri 128-bits rero, bifatwa nk’urufunguzo. Uyu murongo w'urufunguzo ni XORed n'inyandiko rusangi kugira ngo uvemwo inyandiko y'ibanga y'ibarabara. Ku bice bikurikira, ukoresha urufunguzo ruva ku gice c'imbere nk'inyungu mu gice c'inyuma maze ugasubiramwo intambwe.
@@ -1836,7 +1836,7 @@ Muri iki kiganiro, ubu rero mukwiye gutahura *Igishushanyo ca 8*. Itanga icegera
 *Igishushanyo ca 8: Incamake y'imigambi y'ugushiramwo amakuru y'uburinganire*
 
 
-![Figure 8: Overview of symmetric encryption schemes](assets/Figure4-8.webp "Figure 8: Overview of symmetric encryption schemes")
+![Figure 8: Overview of symmetric encryption schemes](assets/en/012.webp "Figure 8: Overview of symmetric encryption schemes")
 
 
 
@@ -1871,7 +1871,7 @@ Ivyo bigenda vyerekanywe ku *Ishusho ya 9*. Kugira ngo bakoreshe **MAC** (Kode y
 *Igishushanyo ca 9: Incamake y'imigambi y'ugushiramwo amakuru y'uburinganire*
 
 
-![Figure 9: Overview of symmetric encryption schemes](assets/Figure4-9.webp "Figure 9: Overview of symmetric encryption schemes")
+![Figure 9: Overview of symmetric encryption schemes](assets/en/013.webp "Figure 9: Overview of symmetric encryption schemes")
 
 
 Kubera **ukudashobora guhindurwa**, uwutera ntashobora guhindura ubutumwa $M$ mu buryo ubwo ari bwo bwose canke ngo areme ubutumwa bwiwe bwite bufise ikimenyetso gibereye. Ivyo ni ko biri, naho uwutera yoba yihweje ama tags y’ubutumwa bwinshi buri hagati ya Bob na Alice bukoresha urufunguzo rumwe rw’ibanga. Ivyinshi, uwutera yoshobora kubuza Alice kwakira ubutumwa $M$ (ikibazo cryptography idashobora Address).
@@ -1919,7 +1919,7 @@ Alice ubu ibanza gusuzuma nimba ikimenyetso gifise akamaro gihawe inyandiko y'ib
 *Ishusho ya 10: Umugambi wo gupfuka amakuru yemejwe*
 
 
-![Figure 10: An authenticated encryption scheme](assets/Figure4-10.webp "Figure 10: An authenticated encryption scheme")
+![Figure 10: An authenticated encryption scheme](assets/en/014.webp "Figure 10: An authenticated encryption scheme")
 
 
 None ama MAC aremwa gute? Naho MACs zishobora kuremwa biciye mu buryo bwinshi, uburyo busanzwe kandi bukora neza bwo kuziremwa ni biciye mu **imikorere ya Hash y’ubuhinga bwa none**.
@@ -1938,7 +1938,7 @@ Hariho paleti y’ibikorwa vya Hash bishobora gukoreshwa mu guhingura HMAC. Ikor
 *Ishusho ya 11: HMAC*
 
 
-![Figure 11: HMAC](assets/Figure4-11.webp "Figure 11: HMAC")
+![Figure 11: HMAC](assets/en/015.webp "Figure 11: HMAC")
 
 
 **Ivyiyumviro:**
@@ -1995,7 +1995,7 @@ Igihe co guhanahana amakuru gitangura na Bob yohereza ubutumwa bw'ibanga $C_{0,B
 *Ishusho ya 12: Igihe co guhanahana amakuru mu mutekano*
 
 
-![Figure 12: A secure communication session](assets/Figure4-12.webp "Figure 12: A secure communication sessesion")
+![Figure 12: A secure communication session](assets/en/016.webp "Figure 12: A secure communication sessesion")
 
 
 
@@ -2188,7 +2188,7 @@ Reka twite urufunguzo $K_0$. Ubwubatsi bufise ivyo bipimo biri hejuru, rero, bus
 *Ishusho ya 1: AES-ECB ifise urufunguzo rw'ibice 128*
 
 
-![Figure 1: AES-ECB with a 128-bit key](assets/Figure5-1.webp "Figure 1: AES-ECB with a 128-bit key")
+![Figure 1: AES-ECB with a 128-bit key](assets/en/017.webp "Figure 1: AES-ECB with a 128-bit key")
 
 
 Igipande cose c’inyandiko c’ibice 128 gica mu bice cumi mu mugambi wo gupfuka amakuru wa Rijndael. Ivyo bisaba urufunguzo rw'uruziga rwitandukanye ku ruzitiro rwose ($K_1$ gushika kuri $K_{10}$). Ivyo bikoreshwa ku nzira yose bivuye ku rufunguzo rw'intango rw'ibice 128 $K_0$ hakoreshejwe **urufunguzo rwo kwagura algorithm**. Ni co gituma, ku gice cose c’inyandiko kizoshirwa mu nzira, tuzokoresha urufunguzo rw’intango $K_0$ hamwe n’urufunguzo cumi rutandukanye rw’uruziga. Zirikana ko izo mfunguruzo nyene 11 zikoreshwa ku gice cose c’inyandiko y’ibice 128 gisaba gushirwamwo amakuru.
@@ -2563,7 +2563,7 @@ Mu nyuma, Bob ashaka kwandika ubutumwa $M$ kuri Alice. Kubera ko harimwo amakuru
 *Ishusho ya 1: Ububiko budahuye*
 
 
-![Figure 1: Asymmetric encryption](assets/Figure6-1.webp "Figure 1: Asymmetric encryption")
+![Figure 1: Asymmetric encryption](assets/en/018.webp "Figure 1: Asymmetric encryption")
 
 
 
@@ -2600,7 +2600,7 @@ Umukono wa digitale ni, nk’uko izina ryawo rivyerekana neza, ungana n’umukon
 *Ishusho ya 2: Ivyemezo bitaringaniye*
 
 
-![Figure 2: Asymmetric authentication](assets/Figure6-2.webp "Figure 2: Asymmetric authentication")
+![Figure 2: Asymmetric authentication](assets/en/019.webp "Figure 2: Asymmetric authentication")
 
 
 

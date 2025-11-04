@@ -156,7 +156,7 @@ Kas olete valmis võtma täielikult kontrolli oma IT-turvalisuse üle, tugevdama
 
 
 
-**NB:** Kui kursuse käigus satute mõne tundmatu terminiga kokku, vaadake [sõnastik](https://planb.network/resources/glossary), et leida mõisted
+**NB:** Kui kursuse käigus satute mõne tundmatu terminiga kokku, vaadake [sõnastik](https://planb.academy/resources/glossary), et leida mõisted
 
 
 
@@ -179,7 +179,7 @@ Kursus SCU101 oli sissejuhatav kursus, mille eesmärk oli luua algajatele ja eda
 
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 ### Turvaline sirvimine internetis
 
@@ -974,7 +974,7 @@ See lähenemisviis põhineb *jooksva versiooni* mudelil, kus pakette uuendatakse
 
 Arch Linux on suunatud eelkõige edasijõudnud kasutajatele, kes soovivad täielikku kontrolli oma keskkonna üle, kuid aktsepteerivad samas teatavat keerukust paigaldamisel ja hooldamisel. See tehniline nõue on viinud mitmete tuletatud distributsioonide tekkimiseni, mille eesmärk on selle kasutamise demokratiseerimine.
 
-https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+https://planb.academy/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 Kõige tuntum on Manjaro, mis säilitab Archi tehnilise baasi, pakkudes samal ajal lihtsustatud paigaldust, eelkonfigureeritud töölauakeskkondi ja veidi hilinenud väljaandmistsüklit uuenduste stabiliseerimiseks.
 
@@ -1062,7 +1062,7 @@ Canonicali poolt välja töötatud ja 2004. aastal käivitatud Ubuntu on üks ma
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
 
@@ -1074,7 +1074,7 @@ https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.academy/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
 Mint paistab silma oma lihtsuse, multimeediakoodekite vaikimisi olemasolu ja hästi kujundatud uuendustööriista poolest. Teisest küljest tugineb see suuresti Ubuntu infrastruktuurile, mistõttu sõltub see Ubuntu tehnilistest valikutest (eriti tuuma ja repositooriumi tasandil). Mint sobib eriti hästi mitte-tehnilistele kasutajatele või neile, kes soovivad kasutusvalmis süsteemi, mis ei nõua liiga palju õppimist.
 
@@ -1108,7 +1108,7 @@ Paigaldamine on sujuv, oluline tarkvara on eelinstalleeritud ja "Lite" versioon 
 
 2011. aastal käivitatud elementaarne OS on Ubuntu-põhine distributsioon, mis keskendub eelkõige Interface disainile ja järjepidevusele. Selle töölauakeskkond Pantheon, mis on inspireeritud macOSist, on minimalistlik, elegantne ja sujuv. Siiski jääb süsteem vähem kohandatavaks kui teised distributsioonid ning mõned edasijõudnud kasutajad võivad tunda end Interface valikute ja selle teadlikult lukustatud struktuuri tõttu piiratud olevat. See sobib hästi esteetiliselt tundlikele kasutajatele, kes otsivad lihtsat ja ühtset süsteemi igapäevaseks kasutamiseks.
 
-https://planb.network/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
+https://planb.academy/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
 
 
 
@@ -1151,7 +1151,7 @@ Fedora on Red Hati toetatud distributsioon, mis on orienteeritud uusimatele tehn
 ![Image](assets/fr/025.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
+https://planb.academy/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
 
 
 - **openSUSE** (Tumbleweed või Leap):
@@ -1179,7 +1179,7 @@ Debian eksisteerib mitmes harus, sealhulgas *Stable* (väga usaldusväärne, kui
 ![Image](assets/fr/027.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
+https://planb.academy/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
 
 
 - **Manjaro**:
@@ -1208,7 +1208,7 @@ Arch Linux on minimalistlik, pidevalt uuendatav distributsioon, mis tarnitakse i
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+https://planb.academy/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 #### Spetsialiseeritud levitamine
 
@@ -1246,7 +1246,7 @@ Tails on Debianil põhinev, privaatsusele keskendunud live-distributsioon. Kõik
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
+https://planb.academy/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
 → **Märkus:** Live-distributsioon on Linuxi operatsioonisüsteem, mida saab kasutada otse USB-pulgalt või CD-lt, ilma Hard kettale installeerimata.
 
@@ -1300,7 +1300,7 @@ PureOS on Debianist tuletatud jaotus, mille on välja töötanud Purism ja mis o
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
+https://planb.academy/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
 
 - **Raspberry Pi OS**:
 
@@ -1326,7 +1326,7 @@ Whonix kombineerib Debianit ja Tor-võrku kahe VM-i arhitektuuris (värav + tö�
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+https://planb.academy/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
 
 See panoraam annab teile ülevaate praegusest Linuxi distributsioonide ökosüsteemist, mis võimaldab teil valida oma tehnilisele profiilile ja eesmärkidele kõige paremini sobivaima distributsiooni.
 
@@ -1938,7 +1938,7 @@ Lisateavet Ubuntu paigaldusprogrammi kohta saate ka sellest juhendist:
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 Kui paigaldus on lõpetatud, eemaldage USB-mäluseade, kui seda nõutakse, ja käivitage uuesti. Ubuntu on nüüd installeeritud ja valmis teie masinasse kasutamiseks.
 
@@ -2977,7 +2977,7 @@ sudo apt install thunderbird
 
 
 
-https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
+https://planb.academy/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 #### Kontoripakett
 
 
@@ -3114,13 +3114,13 @@ Lisaks nendele paarile põhitööriistale soovitan paigaldada ka olulised turvav
 
 
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 Lõpuks, selle peatüki lõpetuseks, on siin mõned parimad tavad, mida igapäevaselt järgida:
 
@@ -3212,9 +3212,9 @@ Keerulist salasõna on kindlasti raske meeles pidada. Seetõttu soovitan kasutad
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Lõpuks, muutke seda parooli regulaarselt - iga 3-6 kuu tagant - eriti kui teie masinat kasutatakse ühises või mobiilses keskkonnas.
 
@@ -3314,13 +3314,13 @@ Lõpuks, üks tähtsamaid meetmeid, mida saate võtta, et kaitsta end varguse ee
 - Linuxi distributsioonid ei krüpteeri ketast automaatselt, kui see valik ei ole paigaldamise ajal valitud. Ketta krüpteerimiseks saate kasutada LUKS-i
 
 
-https://planb.network/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
+https://planb.academy/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
 
 Igal juhul peab dekrüpteerimise parool olema tugev, süsteemiparoolist erinev ja salvestatud turvalisse paroolihaldurisse. Kui kasutate tundlikke andmeid sisaldavat välist ketast või USB-mälu, kaaluge ka nende krüpteerimist eraldi selliste vahenditega nagu VeraCrypt.
 
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 ### Väikseimate privileegide põhimõte
 
@@ -3417,7 +3417,7 @@ See tehnoloogia põhineb hüperviisoril ehk tarkvaraprogrammil, mis haldab VMide
 ![Image](assets/fr/206.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
+https://planb.academy/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
 
 IT-turbe seisukohast on üks virtuaalmasinate suuri eeliseid nende võime killustada. VM ei jaga oma faile, protsesse ega võrgujuurdepääsu perussüsteemiga, välja arvatud juhul, kui te neid vahetusi selgesõnaliselt konfigureerite. Seega, kui VM-i nakatab pahavara või kui te testite selles tundlikku tarkvara, jääb selle mõju ainult selle virtuaalmasinaga piiratuks: teie põhisüsteem jääb puutumata, tingimusel, et isolatsiooniparameetrid on täidetud (ühiseid katalooge ei kasutata, USB-seadmeid ei edastata VM-i...).
 
@@ -3953,7 +3953,7 @@ Hästi hooldatud ja isiklikuks otstarbeks kasutatavas Linuxi masinas on riskid v
 ![Image](assets/fr/218.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
+https://planb.academy/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
 
 #### MacOS-i all
 
@@ -4061,11 +4061,11 @@ See süsteem tugineb asümmeetrilisele krüptograafiale ja sellistele vahenditel
 
 
 
-Kui soovite rohkem teada saada Hash krüptograafiliste funktsioonide ja digitaalallkirjade kohta, kutsun teid osalema tasuta kursusel CYP 201, mida pakutakse Plan ₿ Network kohta:
+Kui soovite rohkem teada saada Hash krüptograafiliste funktsioonide ja digitaalallkirjade kohta, kutsun teid osalema tasuta kursusel CYP 201, mida pakutakse Plan ₿ Academy kohta:
 
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### Tarkvara terviklikkuse ja autentsuse kontrollimine
 
@@ -4469,7 +4469,7 @@ Sellise konfiguratsiooniga on Alice juba paljude levinud ohtude eest kaitstud. S
 
 
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Alice järgib seega 3-2-1 reeglit: tal on 3 koopiat oma failidest (arvuti, USB-mälu, pilv), mis on salvestatud vähemalt 2 erineval andmekandjal (sisemine ketas, USB-mälu, kaugserver) ja vähemalt 1 väline koopia (pilveserver).
 
@@ -4556,7 +4556,7 @@ Täielik krüpteerimine on nagu lukk: seni, kuni parooli ei anta, jäävad andme
 Linuxi all on standardne lahendus LUKS (*Linux Unified Key Setup*). LUKS on enamikku distributsioonidesse integreeritud krüpteeritud mahu haldamise süsteem. Süsteemi esmakordsel paigaldamisel küsitakse tavaliselt kogu arvuti ketta krüpteerimist. Loomulikult soovitan ma tungivalt, et te aktiveeriksite selle võimaluse. Kui krüpteerimine on aktiveeritud, küsib süsteem salasõna igal käivitamisel, isegi enne operatsioonisüsteemi laadimist. See tagab, et füüsiline juurdepääs kettale ei saa turvalisusest mööda minna.
 
 
-https://planb.network/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
+https://planb.academy/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
 
 Kui soovite krüpteerida välise ketta või USB-pulga, saab seda teha ka käsurealt või graafilise Interface kaudu. Plaat tuleb vormindada, nii et kõik olemasolevad andmed lähevad kaduma, kui neid eelnevalt ei varundata.
 
@@ -4832,7 +4832,7 @@ Kui soovite selle lahenduse kohta rohkem teada saada, vaadake seda täielikku õ
 
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 
 
@@ -4877,7 +4877,7 @@ See protokoll sobib ideaalselt tundlike failide turvaliseks vahetamiseks teisteg
 
 Suurepärane alternatiiv on Cryptomator. See avatud lähtekoodiga tarkvara võimaldab teil luua seifi: spetsiaalne kataloog, kuhu kõik hoiustatud failid on automaatselt krüpteeritud. Seda seifi saab sünkroniseerida pilveteenustega, nagu Dropbox, Google Drive või Nextcloud, ilma et teenusepakkujal oleks juurdepääs krüpteerimata andmetele. Rakendus on saadaval kõigis operatsioonisüsteemides, sealhulgas Androidis ja iOSis, ning selle kasutamine ei nõua erilisi tehnilisi oskusi.
 
-https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
+https://planb.academy/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 
 
@@ -4885,7 +4885,7 @@ https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253
 
 
 
-https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+https://planb.academy/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
 
 Lõpuks on võimalik kasutada VeraCrypt'i ka konteinerrežiimis, mis loob faili, mis toimib krüpteeritud arhiivina, mida saab ühendada nagu ketast.
 
@@ -5580,9 +5580,9 @@ Seega ma ei soovitaks Google Chrome'i kasutada ei isiklikult ega ka tööalaselt
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 #### Brave
 
@@ -5742,7 +5742,7 @@ Firefox jääb turvalisuse ja privaatsuse osas endiselt eeskujuks, kuigi jääb 
 
 
 
-https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
+https://planb.academy/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Tor brauser
 
 
@@ -5751,7 +5751,7 @@ https://planb.network/tutorials/computer-security/communication/firefox-11814cec
 
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 Miinuseks on jõudluse märkimisväärne vähenemine (suur latentsus) ja piiratud ühilduvus teatavate veebisaitidega. Tor Browser sobib ideaalselt tundlike tegevuste jaoks (ajakirjandus, aktivism...), kuid vähem sobib tavaliseks igapäevaseks kasutamiseks.
 
@@ -5765,11 +5765,11 @@ Miinuseks on jõudluse märkimisväärne vähenemine (suur latentsus) ja piiratu
 
 [Mullvad Browser](https://mullvad.net/en/browser) on Tor Foundationi ja Mullvad VPN-i koostöö tulemus. See põhineb Tori brauseril, mis omakorda on tuletatud Firefox ESRist. Mullvad Browser on loodud selleks, et maksimeerida kasutaja privaatsust. Vaikimisi sisaldab see täiustatud kaitset sõrmejälgede, jälgijate ja kolmandate osapoolte skriptide vastu.
 
-https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
+https://planb.academy/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 Sellel on enamik Tor Browser'i pakutavaid turva- ja privaatsusfunktsioone, ühe erinevusega: see ei suunata liiklust Tor-võrgu kaudu ümber. IP Address lekete vältimiseks saate seda kasutada koos VPNiga (ideaalis Mullvad VPN).
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 Mullvad Browser on suurepärane lahendus, kui olete mures oma privaatsuse pärast, olenemata sellest, kas olete algaja või edasijõudnud kasutaja.
 
@@ -5795,7 +5795,7 @@ LibreWolf aktiveerib vaikimisi Firefoxi täiustatud turvasätted (näiteks range
 
 
 
-https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+https://planb.academy/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
 
 #### Zen brauser
 
@@ -5813,7 +5813,7 @@ Turvalisuse ja privaatsuse seisukohalt on Zenil võimalik blokeerida kolmandate 
 
 Zen Browser on huvitav alternatiiv, kui otsite Gecko sirvimiskeskkonda, mis on tasuta, uuenduslik, puhas ja teie privaatsust austav.
 
-https://planb.network/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
+https://planb.academy/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### WebKit-põhised brauserid
 
@@ -5855,7 +5855,7 @@ Orion on täielikult välja töötatud Kagi meeskonna poolt (tuntud oma reklaami
 
 
 
-https://planb.network/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
+https://planb.academy/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
 ### Brauserid ilma renderdusmootoriteta
 
 
@@ -6035,9 +6035,9 @@ Paroolihaldur loob ja salvestab turvaliselt tugevaid paroole, mis võimaldab tei
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Paroolihalduri kasutamisel on mitmeid eeliseid: see lihtsustab teie igapäevaelu, kuna ei pea meeles pidama paljusid paroole, ja vähendab peamist autentimise nõrkust: kasutaja ise.
 
@@ -6047,13 +6047,13 @@ Autentimise puhul tuleb paroolihalduri kasutamist täiendada kahefaktorilise aut
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/trezor-u2f-fido2-41d2939e-69b9-4c2e-b836-a2b09de58051
+https://planb.academy/tutorials/computer-security/authentication/trezor-u2f-fido2-41d2939e-69b9-4c2e-b836-a2b09de58051
 
-https://planb.network/tutorials/computer-security/authentication/ledger-fido-u2f-59f8105b-a0cc-4aff-bc56-048a6a42d39f
+https://planb.academy/tutorials/computer-security/authentication/ledger-fido-u2f-59f8105b-a0cc-4aff-bc56-048a6a42d39f
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ### VPN-i kasutamine
 
@@ -6087,11 +6087,11 @@ Heal VPN-il peaks olema selge logimiskeelu poliitika, ta peaks pakkuma kaasaegse
 
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
+https://planb.academy/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
 
 Kõrge profiiliga VPN-e tuleks vältida. Hoolimata nende agressiivsest turundusest jäävad nad tsentraliseeritud kommertsteenusteks, mis asuvad sageli vähem kaitstud jurisdiktsioonides ja on oma tegeliku tehnilise toimimise osas harva läbipaistvad.
 
@@ -6626,7 +6626,7 @@ GrapheneOS ei sisalda ühtegi patenteeritud komponenti. Te võite vabalt lisada 
 Graphene ühildub ainult hiljutiste Google Pixeli mudelitega (Pixel 6, 7, 8 ja 9).
 
 
-https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.academy/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
 #### CalyxOS
 
@@ -6842,11 +6842,11 @@ Avalikud Wi-Fi-võrgud, näiteks kohvikutes, hotellides või ühistranspordis, o
 Enda kaitsmiseks vältige lihtsalt nende avalike võrkude kasutamist või kasutage VPN-i, mis loob krüpteeritud tunneli teie seadme ja kaugserveri vahel. See tunnel kapseldab teie andmed, mistõttu on neid äärmiselt raske pealtkuulata või muuta.
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
+https://planb.academy/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
 
 Mis puutub teie koduse WiFi-võrku, siis sellest räägime SCU 202 kursuse viimases osas.
 
@@ -6921,7 +6921,7 @@ Teie nutitelefoni andmete korrapärane varundamine on turvalisuse seisukohast v�
 Selle saavutamiseks tuleks kasutada krüpteeritud kohalikke lahendusi, näiteks välist ketast või krüpteeritud USB-võtit (nt Veracryptiga). Kui see ei õnnestu, võimaldavad isehostitavad pilvelahendused, nagu *Syncthing* või *Nextcloud*, varundada oma andmeid isiklikus serveris, säilitades samas täieliku kontrolli juurdepääsu ja konfidentsiaalsuse üle. Erinevalt kaubanduslikest pilveteenustest (Google Drive, iCloud...) piiravad need lahendused märkimisväärselt teie andmete kokkupuudet kolmandate isikutega.
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 #### Kaugpuhastus
 
@@ -7019,7 +7019,7 @@ Signalil on aga anonüümsuse osas üks nõrk koht: rakendus nõuab kasutaja reg
 Lühidalt öeldes on Signal väga hea sõnumivahetuse lahendus, kuid kahjuks nõuab see ühendust telefoninumbrilt.
 
 
-https://planb.network/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
+https://planb.academy/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
 
 #### WhatsApp
 
@@ -7042,7 +7042,7 @@ Telegram on väga populaarne sõnumiteenus tänu oma ergonoomikale ja funktsioon
 Telegram saab seega tehniliselt ligi enamiku vestluste sisule, mis ei ole selgesõnaliselt kaitstud. Isegi kui ettevõte võtab kindla seisukoha valitsusasutuste suhtes, ei ole Telegram optimaalne lahendus konfidentsiaalsete või tundlike vestluste jaoks, kui te ei kasuta selgesõnaliselt selle "salajasi vahetusi", mis on igapäevaselt palju vähem praktiline.
 
 
-https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
+https://planb.academy/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
 #### Threema
 
@@ -7065,7 +7065,7 @@ Teine oluline aspekt Threema puhul on selle ärimudel: rakendus ei ole tasuta, v
 Minu arvates on see sõnumivahetuse lahendus suurepärane, kuid selle peamine puudus on see, et selle serverite lähtekood on endiselt patenteeritud.
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
 
 #### SimpleX vestlus
 
@@ -7088,7 +7088,7 @@ Kontaktid lisatakse ajutiste linkide või staatiliste aadresside (püsivad, kuid
 Turvalisuse ja konfidentsiaalsuse osas läheb SimpleX kaugemale kui enamik olemasolevaid sõnumsüsteeme, piirates metaandmed miinimumini ja kaotades igasuguse sõltuvuse kesksest kataloogist või unikaalsest identifikaatorist. Selline ülesehitus nõuab siiski mitmeid kompromisse kasutajasõbralikkuse osas: mõnikord vähem intuitiivne ergonoomika, vajadus väikese algse õppimise järele ja sõltuvus releeserverite kättesaadavusest.
 
 
-https://planb.network/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
+https://planb.academy/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
 
 #### Sessioon
 
@@ -7105,7 +7105,7 @@ Tehniliselt rakendab Session sõnumite, failide, heli ja kõnede, samuti rühmad
 Sessiooniklient ja server on avatud lähtekoodiga. Tarkvara on saadaval Androidis, iOSis, Windowsis, macOSis ja Linuxis, kusjuures seadmetevaheline sünkroniseerimine on võimalik Mnemonic fraasi kaudu, mis on sarnane Bitcoin rahakotis kasutatava fraasiga. See fraas annab kasutajale ainukontrolli oma andmete üle, kuid paneb ka märkimisväärse vastutuse varundamise osas.
 
 
-https://planb.network/tutorials/computer-security/communication/session-b0e3193c-2129-4f1b-9013-c211210724c3
+https://planb.academy/tutorials/computer-security/communication/session-b0e3193c-2129-4f1b-9013-c211210724c3
 
 #### Keet
 
@@ -7125,7 +7125,7 @@ Teisest küljest, kuigi mõned komponendid (krüptograafia ja võrk) on avaldatu
 Keet on saadaval Androidis, iOSis, Windowsis, macOSis ja Linuxis ning seda saab sünkroniseerida seadmete vahel, kasutades Mnemonic fraasi.
 
 
-https://planb.network/tutorials/computer-security/communication/keet-efdb759d-5e94-4bbf-b28c-5fa8669c809b
+https://planb.academy/tutorials/computer-security/communication/keet-efdb759d-5e94-4bbf-b28c-5fa8669c809b
 
 #### Olvid
 
@@ -7162,7 +7162,7 @@ Rakendus on sertifitseeritud ANSSI (*Agence Nationale de la Sécurité des Syst�
 Olvid ühildub Androidi, iOSi, Windowsi, macOSi ja Linuxiga. Selle ergonoomika on endiselt lihtne ja kättesaadav. Rakenduses on ka krüpteeritud varundussüsteem võtmete ja kontaktide jaoks, nii et saate kontot uues seadmes taastada.
 
 
-https://planb.network/tutorials/computer-security/communication/olvid-05038dc1-62c0-4a47-be4e-3d23c6155bfd
+https://planb.academy/tutorials/computer-security/communication/olvid-05038dc1-62c0-4a47-be4e-3d23c6155bfd
 
 ### Sõnumivahetusrakendused, mida tuleks vältida
 
@@ -7260,7 +7260,7 @@ Thunderbird Mobile on Mozilla Foundationi poolt välja töötatud populaarse ava
 
 
 
-https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
+https://planb.academy/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 - [Tuta](https://tuta.com/)
 
 
@@ -7502,7 +7502,7 @@ Bitwarden on üks kõige ulatuslikumaid avatud lähtekoodiga paroolihaldureid. S
 Võite kasutada Bitwardeni servereid või soovi korral ise hostida, et saavutada täielik kontroll. Selle Interface mobiil on selge ja sujuv, integreerudes sujuvalt Androidi või iOSi süsteemi.
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 
 - [KeePassDX](https://www.keepassdx.com/)
@@ -7517,7 +7517,7 @@ KeePass on ajalooline paroolihaldur, mis põhineb krüpteeritud kohalikel failid
 Samuti on olemas [KeePassium](https://keepassium.com/) iOS-i jaoks, mis on hästi integreeritud rakendus Apple'i ökosüsteemis, ühildub KeePassi formaadiga ja on avatud lähtekoodiga. Teine iOSi alternatiiv KeePassi kliendile on Strongbox, kuid see tarkvara ei ole juba mitu aastat avatud lähtekoodiga.
 
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 
 - [Prooton Pass](https://proton.me/pass)
@@ -7548,7 +7548,7 @@ Siiski ei ole kõik VPN-id võrdsed. Populaarsed teenused nagu NordVPN või Expr
 Mullvad on üks parimaid VPN-e privaatsuse kaitse osas. See ei nõua e-posti ega parooli: teie konto on seotud lihtsa juhusliku numbriga. Tasuda saab bitcoinides või sularahas. Mobiiliklient on avatud lähtekoodiga, lihtne kasutada ja võimas. Mullvad ei hoia logisid, ei jälgi oma kasutajaid ja avaldab regulaarselt sõltumatuid turvaauditeid.
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 
 - [IVPN](https://www.ivpn.net/)
@@ -7557,7 +7557,7 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 IVPN on veel üks suurepärane privaatsusele keskendunud alternatiiv. See pakub lihtsat ja tõhusat mobiilset Interface, logide kogumist ei toimu ja võimaldab anonüümset registreerimist. Võite maksta ka bitcoin'idega. Rakendus sisaldab tulemüüri, mis blokeerib kogu mitte-VPN-liikluse, mis võib nutitelefonis väga kasulik olla. Kliendid on avatud lähtekoodiga.
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
 
 - [Proton VPN](https://protonvpn.com/)
@@ -7595,7 +7595,7 @@ Aegis on terviklik avatud lähtekoodiga rakendus. See krüpteerib teie 2FA-andme
 Ente Auth on kaasaegne, avatud lähtekoodiga, mitmeplatvormiline lahendus, millel on läbivalt krüpteeritud varukoopiad. See võimaldab teil sünkroonida oma 2FA-koode turvaliselt mobiilis, lauaarvutis ja veebis. Saate seda kasutada ka võrguühenduseta, ilma pilve varundamise või konto loomiseta.
 
 
-https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
+https://planb.academy/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 Ente Auth pakub palju lisafunktsioone: Ente Ente pakub: organiseerimine siltide järgi, kohandatud ikoonid iga teenuse jaoks, märkmed, lemmikud, integreeritud otsing, turvaline meeskonnakoodi jagamine.
 
 
@@ -7609,13 +7609,13 @@ Ente Auth pakub palju lisafunktsioone: Ente Ente pakub: organiseerimine siltide 
 Authy pakub 2FA sünkroniseerimist mitme seadme vahel, mis võib olla kasulik, kuid rakendus ei ole avatud lähtekoodiga ja nõuab registreerimiseks telefoninumbrit. Algaja jaoks on see siiski täiuslikum kui Google Authenticator, eelkõige tänu pilves varundamise funktsioonile.
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
+https://planb.academy/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 Kui soovite rohkem teada saada paroolihalduritest, 2FA autentimisest ja VPNidest, soovitan lugeda SCU-101 kursuse vastavaid peatükke:
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 ### Ilm
 
@@ -8267,7 +8267,7 @@ Nagu me eelmises peatükis avastasime, on teie koduvõrgu turvamine väga olulin
 Pärast teoreetiliste aluste läbivaatamist juhatab see peatükk teid selgete, praktiliste ja tõhusate sammude kaudu, et suurendada teie kohaliku võrgu turvalisust.
 
 
-*Pange tähele: siin esitatud teave on üldine, kuna Plan ₿ Network on suunatud rahvusvahelisele publikule. Sõltuvalt teie kohalikest oludest ja teie Interneti-teenuse pakkujast võivad teatud parimad tavad siin mitte olla mainitud või võivad kehtida erinevalt.*
+*Pange tähele: siin esitatud teave on üldine, kuna Plan ₿ Academy on suunatud rahvusvahelisele publikule. Sõltuvalt teie kohalikest oludest ja teie Interneti-teenuse pakkujast võivad teatud parimad tavad siin mitte olla mainitud või võivad kehtida erinevalt.*
 
 
 ### Võrguseadmete valimine ja turvamine
@@ -8305,9 +8305,9 @@ Kui teie ruuterit enam ei hooldata, kuid see töötab riistvaraliselt endiselt �
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 Need süsteemid võimaldavad täpsemat kontrolli tulemüürireeglite, väljaminevate ja sissetulevate ühenduste, võrgu segmenteerimise (VLANid) ja DNS-i haldamise üle, kuid on suunatud pigem edasijõudnud kasutajatele.
 
@@ -8344,9 +8344,9 @@ Seetõttu on hädavajalik, et te muudaksite oma identifikaatorid kohe pärast ru
 See parool peab olema pikk (40 tähemärki), keeruline (numbrid, väikesed ja suured tähed ning sümbolid), unikaalne (ei tohi olla mujal korduvalt kasutatav) ja juhuslik. Soovitan ilmselgelt kasutada paroolihaldurit, et generate ja salvestada need andmed turvaliselt.
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Hoiatus: ärge ajage segi ruuteri administreerimisparooli (mis kaitseb juurdepääsu selle konfiguratsioonile) ja Wi-Fi parooli (mis võimaldab teil traadita võrku ühenduda). Need on kaks erinevat Elements ja mõlemad tuleb muuta.
 
@@ -8384,7 +8384,7 @@ Algselt loodud selleks, et lihtsustada seadmete ühendamist Wi-Fi-ühendusega il
 Mõned marsruuterid võimaldavad teil ühendada oma administratsioon Interface väljastpoolt, interneti kaudu. See funktsioon suurendab põhjendamatult teie ruuteri ründepinda. Lülitage see täielikult välja, kui teil ei ole erilist vajadust kaugjuhtimise järele. Isegi siis kasutage alati VPN-i.
 
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 
 - **Vananenud või ebaturvalised protokollid**:
@@ -8505,7 +8505,7 @@ Praktikas saab DNS-i krüpteerimist ja serveri vahetamist rakendada erinevatel t
 
 
 
-https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
+https://planb.academy/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - Operatsioonisüsteemi tasandil: Mõned operatsioonisüsteemid integreerivad algselt krüpteeritud DNS-toe (DoT või DoH), mis turvab kõik DNS-päringud, mis läbivad süsteemi võrgupinu. See ei taga siiski kogu arvuti või telefoni turvalisust: Rakendused võivad sellest seadistusest mööda minna, kui nad on konfigureeritud kasutama teistsugust DNS-resolverit või -protokolli.
 
 
@@ -8520,7 +8520,7 @@ Samuti ei toeta Interneti-teenusepakkuja pakutavad modemiruuterid alati neid fun
 Kui soovite minna sammu võrra kaugemale, võite luua ka kohaliku DNS-filtreerimislahenduse, näiteks Pi-hole või AdGuard Home.
 
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
 Need tööriistad toimivad nagu väike DNS-server teie võrgus, blokeerides taotlusi domeenidele, mis on tuntud kui reklaami, brauseri jälgimisseadmete, andmepüügi- või pahatahtlike saitide vastuvõtjad. Need tööriistad võimaldavad teil ka luua oma blokeerimisnimekirju või kohandada filtreerimist vastavalt ühendatud seadmetele.
 
@@ -8541,19 +8541,19 @@ Kaks peamist lahendust eraklientidele on järgmised:
 - WireGuard: Kaasaegne, kiire ja kerge
 - OpenVPN: Vanem, kuid väga küps ja konfigureeritav
 
-https://planb.network/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
+https://planb.academy/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
 
 Siin on täielik õpetus Tailscale'i kohta, mis on kergesti konfigureeritav VPN-lahendus, mis kasutab WireGuardit:
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 Saate seda VPN-i kasutada otse ühilduvas ruuteris, väikeses arvutis (näiteks Raspberry Pi) või spetsiaalses serveris kodus. Samuti saate selle kliendina paigaldada otse mis tahes seadmesse.
 
 Kuid VPN ei ole ainult kaugjuurdepääsu jaoks. Võite kasutada oma seadmetes ka klassikalist VPN-klienti, et krüpteerida kogu oma väljaminev liiklus, isegi kui olete kodust eemal (avalik Wi-Fi, hotell, ülikool jne). Sellisel juhul ühendab teie seade end kolmanda osapoole VPN-serveriga (kommerts- või isehostitud), mis seejärel edastab teie ühendused internetti. See varjab teie tegeliku IP Address Interneti-teenuse pakkuja eest, kaitseb teie andmeid kohaliku luuramise eest ja väldib teatavat liiki tsensuuri.
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
 Lõpuks on võimalik luua VPN ka otse ruuterisse, mis võimaldab teil kaitsta kõiki oma kodus olevaid seadmeid, ilma et peaksite paigaldama igale seadmele VPN-kliendi.
 
@@ -8563,17 +8563,17 @@ Kui teie võrk on nõuetekohaselt konfigureeritud ja segmenteeritud, on oluline 
 
 Esimene samm on turvaprotokollide tsentraliseerimine. Iga võrku ühendatud seade tekitab logisid, mis sisaldavad teavet ühenduste, vigade või kahtlase tegevuse kohta. Selle asemel, et neid logisid ükshaaval vaadata, soovitan saata need serverisse, mis suudab neid rühmitada, sorteerida ja analüüsida. Sellised lahendused nagu Graylog või Elastic Stack (ELK) võimaldavad teil koondada need logid graafiliseks Interface, kus saate otsida konkreetseid sündmusi, luua hoiatusi või visualiseerida võrguaktiivsust.
 
-https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
+https://planb.academy/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
 
 Järgmiseks kontrollige regulaarselt oma kohalikku võrku aktiivselt, näiteks Nmapiga. See annab teile ülevaate kõigist teie võrgus olevatest seadmetest ja nende avatud porte. Kui tuvastate tundmatu seadme või ebatavalise teenuse, võib see olla märk rünnakust.
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 Kui soovite veelgi kaugemale minna, võite paigaldada IDS-i (*Intrusion Detection System*) või isegi IPS-i (*Intrusion Prevention System*). Need vahendid, näiteks Suricata või Snort, jälgivad võrguvooge reaalajas ja tuvastavad teadaolevate rünnakute signatuurid (pordi skaneerimine, süstimine, kahtlased ühendused jne). IDS hoiatab, samas kui IPS võib teatud tegevused automaatselt blokeerida.
 
 Lõpuks on ka ribalaiuse tarbimise jälgimine hea indikaator ebanormaalse tegevuse kohta. Kui seade tarbib järsku ilma nähtava põhjuseta palju andmeid, võib see reedada loata allalaadimist, andmete lekkimist või isegi ohustatud seadet. Sellised tööriistad nagu ntopng või vnStat võimaldavad vaadata sissetulevaid ja väljaminevaid voogusid seadme kaupa.
 
-https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
+https://planb.academy/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
 
 ### Varukoopia ja vastupidavus
 

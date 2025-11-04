@@ -51,9 +51,9 @@ Velg et sterkt passord for å sikre tilgangen til kontoen din, og klikk deretter
 
 ![Image](assets/fr/06.webp)
 
-For sikker passordhåndtering i det daglige anbefales det å bruke en passordadministrator. På Plan ₿ Network finner du flere veiledninger om de beste eksisterende løsningene, for eksempel Bitwarden :
+For sikker passordhåndtering i det daglige anbefales det å bruke en passordadministrator. På Plan ₿ Academy finner du flere veiledninger om de beste eksisterende løsningene, for eksempel Bitwarden :
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Du vil deretter bli bedt om å bekrefte identiteten din (KYC). I samsvar med fransk regelverk vil du bli bedt om å oppgi personopplysninger og identitetsbevis. Fyll ut feltene med etternavn, fornavn og fødselsdato.
 
@@ -184,7 +184,7 @@ Bestem transaksjonsprioriteten. For et gebyrfritt uttak velger du "*Standard*"-p
 
 ![Image](assets/fr/32.webp)
 
-Hvis du ikke er kjent med hvordan en portefølje med egenbeholdning fungerer, tilbyr vi veiledninger om de fleste av de tilgjengelige løsningene [på Plan ₿ Network i delen "*Wallet*"] (https://planb.network/tutorials/wallet).
+Hvis du ikke er kjent med hvordan en portefølje med egenbeholdning fungerer, tilbyr vi veiledninger om de fleste av de tilgjengelige løsningene [på Plan ₿ Academy i delen "*Wallet*"] (https://planb.academy/tutorials/wallet).
 
 ## Selge bitcoin
 

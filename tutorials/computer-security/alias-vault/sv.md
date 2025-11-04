@@ -185,7 +185,7 @@ Innan du använder det här e-postmeddelandet för en inloggningstjänst kan du 
 
 
 
-https://planb.network/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
+https://planb.academy/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
 
 För att ta bort ett alias som du har skapat som ett test behöver du bara logga in på `Home`, sedan `Credentials` och klicka på den identitet som du vill ta bort. Kommandot _Delete_ visas i det övre högra hörnet så att du kan fortsätta.
 

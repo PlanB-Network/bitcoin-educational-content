@@ -1,8 +1,0 @@
-question: Which parameter type should a Rust method use if it needs to modify the structure instance while allowing the caller to retain ownership?
-answer: &mut self
-wrong_answers:
-  - &self
-  - self
-  - mut self
-explanation: |
-  Methods that need to modify a structure instance while allowing the caller to retain ownership should use `&mut self` as their first parameter. This creates a mutable reference to the instance, enabling the method to change the structure's fields without taking ownership away from the caller. Using `&self` would only allow reading the instance, `self` would consume the instance entirely, and `mut self` is not valid Rust syntax for method parameters.

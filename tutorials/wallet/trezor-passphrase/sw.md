@@ -18,7 +18,7 @@ Kabla ya kuanza mafunzo haya, ikiwa hujui dhana ya passphrase, jinsi inavyofanya
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 passphrase kwenye Trezor inashughulikiwa kwa njia ya kawaida ikiwa umechagua kiwango cha BIP39 wakati wa kusanidi (ambacho ninapendekeza ikiwa hauitaji *Hifadhi Nakala nyingi za kushiriki*). Kilicho maalum kuhusu Trezor ni kwamba unaweza kuingiza passphrase moja kwa moja kwenye Hardware Wallet, au kupitia kibodi ya kompyuta yako kwa kutumia programu ya Trezor Suite. Chaguo hili la pili si salama sana, kwani kompyuta ina eneo kubwa zaidi la kushambulia kuliko Hardware Wallet. Hata hivyo, kuandika changamano passphrase kunaweza kuwa kwa kasi zaidi kwenye kibodi ya kawaida kuliko kwenye Hardware Wallet, ambayo inaweza kuhimiza matumizi ya kaulisiri kali. Kwa hivyo ni bora kutumia passphrase kila wakati, hata ikiwa lazima ichapishwe, kuliko kutotumia kabisa. Ni muhimu, hata hivyo, kubaki na ufahamu wa kuongezeka kwa hatari ya mashambulizi ya nambari ambayo hii inamaanisha.
 
@@ -36,15 +36,15 @@ Katika Trezor Suite, una njia mbili tofauti za kudhibiti mahitaji ya passphrase.
 
 
 
-Kabla ya kuanza mafunzo haya, tafadhali hakikisha kuwa tayari umeanzisha Trezor yako na kuunda kifungu chako cha maneno cha Mnemonic. Ikiwa hujafanya hivyo, na Trezor yako ni mpya, fuata mafunzo mahususi ya muundo unaopatikana kwenye Plan ₿ Network. Ukishakamilisha hatua hii, unaweza kurudi kwenye mafunzo haya.
+Kabla ya kuanza mafunzo haya, tafadhali hakikisha kuwa tayari umeanzisha Trezor yako na kuunda kifungu chako cha maneno cha Mnemonic. Ikiwa hujafanya hivyo, na Trezor yako ni mpya, fuata mafunzo mahususi ya muundo unaopatikana kwenye Plan ₿ Academy. Ukishakamilisha hatua hii, unaweza kurudi kwenye mafunzo haya.
 
 
 
-https://planb.network/tutorials/wallet/hardware/trezor-safe-5-4413308a-a1b5-4ba4-bc49-72ae661cc4e0
+https://planb.academy/tutorials/wallet/hardware/trezor-safe-5-4413308a-a1b5-4ba4-bc49-72ae661cc4e0
 
-https://planb.network/tutorials/wallet/hardware/trezor-safe-3-51d0d669-5d23-47c2-beb6-cc6fa0fb0ea0
+https://planb.academy/tutorials/wallet/hardware/trezor-safe-3-51d0d669-5d23-47c2-beb6-cc6fa0fb0ea0
 
-https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
+https://planb.academy/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 
 
 ## Inaongeza passphrase kwa Safe 3 au Salama 5
@@ -79,7 +79,7 @@ Kwa mapendekezo mahususi zaidi kuhusu kuchagua passphrase yako, ninakualika kwa 
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Ikiwa ungependa kuingiza passphrase yako kupitia kibodi cha kompyuta yako, ingiza kwenye sehemu uliyopewa, kisha ubofye "*Fikia passphrase Wallet*".
 
@@ -177,7 +177,7 @@ Kwa mapendekezo mahususi zaidi kuhusu kuchagua passphrase yako, ninakualika kwa 
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Ingiza passphrase yako katika sehemu uliyopewa, kisha ubofye kitufe cha "*Fikia passphrase Wallet*".
 
@@ -215,6 +215,6 @@ Hongera, sasa uko kwenye kasi ya kutumia passphrase BIP39 kwenye pochi ya maunzi
 
 
 
-https://planb.network/tutorials/wallet/backup/trezor-shamir-backup-7f98b593-face-48fb-a643-0e811b87c94e
+https://planb.academy/tutorials/wallet/backup/trezor-shamir-backup-7f98b593-face-48fb-a643-0e811b87c94e
 
 Ikiwa umepata mafunzo haya kuwa ya manufaa, ningeshukuru ikiwa utaacha kidole gumba cha Green hapa chini. Jisikie huru kushiriki nakala hii kwenye mitandao yako ya kijamii. Asante sana!

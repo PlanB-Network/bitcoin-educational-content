@@ -52,7 +52,7 @@ Scegli una password forte per proteggere l'accesso al tuo account, quindi fai cl
 
 Per una gestione sicura delle password su base quotidiana, l'uso di un password manager è altamente raccomandato. Su Plan ₿ Network, trovi diversi tutorial sulle migliori soluzioni esistenti, come Bitwarden :
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Ti verrà chiesto di verificare la tua identità (KYC). In conformità alla normativa francese, devi fornire i tuoi dati personali e un documento di identità. Compila le caselle con il tuo cognome, nome e data di nascita.
 

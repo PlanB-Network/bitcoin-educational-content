@@ -51,9 +51,9 @@ Bitstack 的交易费用根据过去 30 天的交易量而有所不同：
 
 ![Image](assets/fr/06.webp)
 
-为确保日常密码管理的安全性，强烈建议使用密码管理器。在 Plan ₿ Network 上，您可以找到一些关于现有最佳解决方案的教程，如 Bitwarden ：
+为确保日常密码管理的安全性，强烈建议使用密码管理器。在 Plan ₿ Academy 上，您可以找到一些关于现有最佳解决方案的教程，如 Bitwarden ：
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 然后，您将被要求验证身份（KYC）。根据法国的规定，您需要提供个人资料和身份证明。在方框内填写您的姓氏、名字和出生日期。
 
@@ -184,7 +184,7 @@ https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f
 
 ![Image](assets/fr/32.webp)
 
-如果您不熟悉自我托管投资组合的运作方式，我们提供了大多数解决方案的教程[在计划₿ 网络的 "*钱包*"部分](https://planb.network/tutorials/wallet)。
+如果您不熟悉自我托管投资组合的运作方式，我们提供了大多数解决方案的教程[在计划₿ 网络的 "*钱包*"部分](https://planb.academy/tutorials/wallet)。
 
 ## 出售比特币
 

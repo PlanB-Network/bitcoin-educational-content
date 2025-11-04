@@ -185,7 +185,7 @@ Interface 앨리어스 볼트는 다음과 같습니다:
 
 
 
-https://planb.network/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
+https://planb.academy/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
 
 테스트용으로 만든 별칭을 삭제하려면 `홈`에 로그인한 다음 `자격증명`에 로그인하고 삭제하려는 아이디를 클릭하기만 하면 됩니다. 오른쪽 상단에 _삭제_ 명령이 나타나면 계속 진행할 수 있습니다.
 

@@ -708,7 +708,7 @@ Mempool"（内存池）就像一个虚拟的等候室，所有未经确认的 Bi
 有关 Sparrow Wallet 软件的更多信息，我们有一个全面的教程：
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 ## 结论
 
 

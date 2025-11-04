@@ -22,6 +22,9 @@ Tento kurz je samozřejmě zaměřen na postavu Satoshi Nakamota, jehož slova a
 
 ## Přehled kurzu
 <chapterId>85290407-1aa3-4cb4-890a-aed23441afb7</chapterId>
+
+:::video id=d1eddf56-279d-459a-9568-5674606f0fd1:::
+
 Vítejte v kurzu HIS201!
 Tento kurz má za cíl vyprávět vám příběh o vzniku Bitcoinu způsobem, jaký jste dosud nečetli. Často je přehlížen, přestože je plný fascinujících detailů. Budeme se snažit popsat ho ve vší jeho složitosti, od jeho početí Satoshi Nakamotem až po jeho brzké zmizení a předání do rukou komunity.
 
@@ -85,6 +88,9 @@ Připraveni prozkoumat neuvěřitelný příběh vzniku Bitcoinu? Tak pojďme sp
 
 ## eCash: Chaumovo digitální peníze
 <chapterId>e443d2ab-68ce-45c0-aec7-30b88d3acdc8</chapterId>
+
+:::video id=fe306046-2245-43a7-9144-6fbafda3205e:::
+
 Předtím, než se ponoříme do skutečného příběhu vzniku Bitcoinu Satoshi Nakamotem, je vhodné diskutovat o tom, co mu předcházelo. Téma rozebereme ve třech fázích: nejprve představíme koncept digitální měny Chaumian, běžně nazývané *eCash*; poté budeme mluvit o soukromých měnách založených na centralizovaných systémech, jako je e-gold; nakonec popíšeme technické modely, které byly představeny před implementací robustního distribuovaného systému, jakým je Bitcoin.
 Začněme prvním konceptem, eCash. eCash vychází z práce Davida Chauma, amerického informatika a kryptografa narozeného v roce 1955, který je považován za průkopníka v oblasti anonymních komunikací a předchůdce cypherpunků. V 80. letech významně přispěl k rozvoji kryptografie. Svůj model digitální měny (známý jako "Chaumian") vyvinul ve stejné době a pokusil se jej implementovat v 90. letech prostřednictvím své společnosti DigiCash.
 
@@ -117,7 +123,7 @@ Zde je fotografie z roku 1977, kterou pořídil Chuck Painter pro Stanford News 
 Objev asymetrické kryptografie také motivoval vytvoření jednosměrných funkcí, které se vyznačují tím, že výpočet obrazu (směrem dopředu) je velmi snadný a získání pre-obrazu (směrem zpět) velmi obtížné. Konkrétně to vedlo k vývoji prvních kryptografických hashovacích funkcí, které transformují zprávu proměnné velikosti na pevně danou velikost. Mezi lety 1989 a 1991 bylo tak navrženo několik hashovacích algoritmů (MD2, MD4 a MD5) Ronaldem Rivestem pro MIT.
 Základní kryptografické prvky Bitcoinu vycházejí z tohoto výzkumu. Schéma podpisu ECDSA, které umožňuje autorizaci výdajů tradiční transakce, bylo vytvořeno v roce 1992 pro NIST. Hašovací funkce SHA-256, používaná na několika místech v protokolu, byla publikována v roce 2001 jako součást sady algoritmů SHA-2, kterou zveřejnila NSA. Pro více informací na toto téma se můžete odkázat na kurz [CYP201] prezentovaný Loïc Morel.
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### Slepotiskové podpisy a elektronické peníze
 
@@ -181,7 +187,7 @@ Paralelně se objevily i jiné alternativní centralizované systémy, jako nap�
 
 Poté eCash inspiroval cypherpunky, kteří vyvinuli vlastní modely, jako jsou b-money, bit gold a RPOW. Přidali důkaz práce a další prvky, které byly později nalezeny v Bitcoinu. Tyto koncepty prozkoumáme v kapitole 3.
 
-Nakonec model Davida Chauma významně ovlivnil Satoshiho Nakamota, když vyvíjel svůj koncept měny. To dokládají mnohé odkazy v [bílé knize](assets/pdf/bitcoin-20090324.pdf) (název, popis problému v sekci 2, název PDF [odeslaného](https://gwern.net/doc/bitcoin/2008-nakamoto) Wei Dai v srpnu 2008), stejně jako jeho soukromé a veřejné zásahy. V tomto smyslu je eCash hlavním předchůdcem Bitcoinu, i když není jediným.
+Nakonec model Davida Chauma významně ovlivnil Satoshiho Nakamota, když vyvíjel svůj koncept měny. To dokládají mnohé odkazy v [bílé knize](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/courses/his201/assets/bitcoin-20090324.pdf) (název, popis problému v sekci 2, název PDF [odeslaného](https://gwern.net/doc/bitcoin/2008-nakamoto) Wei Dai v srpnu 2008), stejně jako jeho soukromé a veřejné zásahy. V tomto smyslu je eCash hlavním předchůdcem Bitcoinu, i když není jediným.
 
 S Bitcoinem Satoshi Nakamoto vytvořil robustní a důvěrnou digitální měnu, skutečnou elektronickou hotovost. Tímto způsobem uskutečnil [předpověď](https://www.youtube.com/watch?v=mlwxdyLnMXM&t=872s) Miltona Friedmana, nositele Nobelovy ceny za ekonomii a zakladatele Chicagské školy, který v rozhovoru s National Taxpayers Union Foundation v roce 1999 řekl:
 
@@ -189,6 +195,8 @@ S Bitcoinem Satoshi Nakamoto vytvořil robustní a důvěrnou digitální měnu,
 
 ## Soukromé digitální měny
 <chapterId>43035fa3-2805-4331-a6fb-070931d749cf</chapterId>
+
+:::video id=0f75ff53-ebf6-481c-9d1c-863fabb19a6a:::
 
 V předchozí kapitole jsme prozkoumali první formu elektronické hotovosti, která vznikla z nástupu internetu a moderní kryptografie: model eCash Davida Chauma. Tento model významně ovlivnil Satoshiho Nakamota a byl klíčovým milníkem na cestě, která vedla k Bitcoinu. Příběh o původu kryptoměn však s eCashem nekončí; zahrnuje také experimenty s soukromými měnami provozovanými na internetu, vyvinutými od konce 90. let.
 
@@ -255,6 +263,8 @@ Je to kvůli této křehkosti centralizovaných systémů, že zastánci svobody
 ## Decentralizované modely před Nakamotem
 <chapterId>a104f23c-e9c3-4457-a194-d87cc5f35f13</chapterId>
 
+:::video id=67e5f851-5ff6-4876-a74d-c5f8130b555c:::
+
 Bitcoin představuje decentralizovaný model digitální měny. Tím se vyhýbá potřebě důvěryhodné třetí strany, která by představovala jediný bod selhání v systému. Jak ukazují příklady eCash, digitálních zlatých měn a Liberty Reserve, centralizace systému, který má být alternativou k existujícímu systému, nevyhnutelně vede k jeho uzavření, jedním či druhým způsobem.
 Bitcoin však nebyl prvním konceptem decentralizované měny, který byl navržen. Od konce 90. let byly takové modely popisovány cypherpunky, kteří byli posedlí svobodou a soukromím jednotlivců na internetu a kteří věřili (jako David Chaum), že monitorované systémy vedou k dystopické budoucnosti. [Vyzývali](https://cypherpunks.venona.com/date/1993/03/msg00392.html) k "psaní kódu" a považovali "elektronické peníze" za zásadní prvek svého ideálu. (*originál: "Cypherpunks write code. (...) We are defending our privacy with cryptography, with anonymous mail forwarding systems, with digital signatures, and with electronic money."*)
 
@@ -286,7 +296,7 @@ V roce 1991 navrhli Stuart Haber a Scott Stornetta, dva výzkumníci pracující
 Příklad certifikovaného časového razítkování (zdroj: [Wikimedia](https://en.m.wikipedia.org/wiki/File:Trusted_timestamping.svg))
 
 Haber a Stornetta svou myšlenku realizovali tak, že od roku 1992 začali v rubrice klasifikovaných inzerátů New York Times publikovat kryptografické otisky (vzniklé hašováním užitečných dat). Poté v roce 1994 založili vlastní společnost Surety Technologies s cílem plně se této činnosti věnovat. Jsou tak [známí](https://www.vice.com/en/article/j5nzx4/what-was-the-first-blockchain) pro vytvoření prvního řetězce časových razítek, přičemž předchozí otisk byl zohledněn při výpočtu nového otisku, který měl být publikován v novinách, což předznamenalo blockchain Bitcoinu.
-Tři články od Habera a Stornetty byly citovány Satoshi Nakamotem v [Bitcoin white paper](assets/pdf/bitcoin-20090324.pdf): již zmíněný článek z roku 1991, [článek](https://www.math.columbia.edu/~bayer/papers/Timestamp_BHS93.pdf) z roku 1993, který vylepšil protokoly navržené v tom předchozím, zejména prostřednictvím použití Merkleových stromů, a [článek](https://cdn.nakamotoinstitute.org/docs/secure-names-bit-strings.pdf) z roku 1997, který představil způsob, jak univerzálně pojmenovávat soubory pomocí jednosměrných funkcí. Byl citován také [článek](https://cdn.nakamotoinstitute.org/docs/secure-timestamping-service.pdf) popisující nový systém časového razítkování napsaný v roce 1999 Henri Massiasem, Xavierem Serret-Avilou a Jean-Jacquesem Quisquaterem, třemi muži pracujícími pro skupinu výzkumu kryptografie na Katolické univerzitě v Lovani v Belgii.
+Tři články od Habera a Stornetty byly citovány Satoshi Nakamotem v [Bitcoin white paper](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/courses/his201/assets/bitcoin-20090324.pdf): již zmíněný článek z roku 1991, [článek](https://www.math.columbia.edu/~bayer/papers/Timestamp_BHS93.pdf) z roku 1993, který vylepšil protokoly navržené v tom předchozím, zejména prostřednictvím použití Merkleových stromů, a [článek](https://cdn.nakamotoinstitute.org/docs/secure-names-bit-strings.pdf) z roku 1997, který představil způsob, jak univerzálně pojmenovávat soubory pomocí jednosměrných funkcí. Byl citován také [článek](https://cdn.nakamotoinstitute.org/docs/secure-timestamping-service.pdf) popisující nový systém časového razítkování napsaný v roce 1999 Henri Massiasem, Xavierem Serret-Avilou a Jean-Jacquesem Quisquaterem, třemi muži pracujícími pro skupinu výzkumu kryptografie na Katolické univerzitě v Lovani v Belgii.
 ### Proof of Work a Hashcash
 
 Proof of work je proces, který umožňuje počítačovému zařízení objektivně a kvantifikovatelně prokázat, že vynaložilo energii, aby bylo vybráno pro přístup ke službě nebo privilegiu. Jedná se v podstatě o mechanismus odolávající útokům Sybil, který ztěžuje útočníkovi nadměrné množení identit za účelem narušení nebo ovládnutí jakéhokoli systému reputace.
@@ -379,6 +389,8 @@ Bitcoin tak tvoří vrchol hledání kyberměny, měny existující zcela na int
 ## Zrození Bitcoinu
 <chapterId>3d141918-e9c2-46e8-8c03-2bb4eb9b2150</chapterId>
 
+:::video id=825522d8-1ccc-4d14-80ac-e292a85a608a:::
+
 Po pochopení, odkud Bitcoin přišel, se nyní zaměříme na jeho samotnou historii. Toto téma bylo předmětem mnoha článků, podcastů a videí během let, takže se téměř stalo jakýmsi zakládajícím mýtem. Jak jsme viděli, Bitcoin je neoddělitelný od kontextu, ve kterém byl vytvořen; to samé platí pro události, které se odehrály během jeho raných let a které formovaly to, čím je dnes, s jeho kvalitami a nedostatky.
 Bitcoin vytvořil Satoshi Nakamoto, neznámá osoba tvrdící, že je Japonec, který si vzal čas na promyšlený návrh, než jej představil veřejnosti. Následně udělal vše pro to, aby byl Bitcoin spuštěn za nejlepších podmínek, aby byl dobře prezentován v diskusích a aby ho používalo stále více lidí. Nakonec se úsilí tvůrce soustředilo stejně na ekonomické zavedení systému jako na jeho počáteční návrh, pokud ne více.
 
@@ -411,7 +423,7 @@ Co se týče Satoshiho, dokončuje přípravy na veřejné představení svého 
 
 ### Publikace bílé knihy
 
-31. října 2008 Satoshi Nakamoto publikuje [první verzi bílé knihy](assets/pdf/bitcoin-20081003.pdf) na e-mailovém seznamu věnovaném kryptografii, jednoduše nazvaném "Cryptography mailing list." Tento seznam spravuje vývojář Perry Metzger od roku 1996, od jeho [založení](https://cypherpunks.venona.com/date/1996/12/msg00102.html), a od roku [2003](https://www.metzdowd.com/pipermail/cryptography/2003-April/004484.html) je hostován na jeho osobním webu, Metdowd.com. Je nástupcem seznamu cypherpunks, s tím rozdílem, že je předmětem přísné moderace. V roce 2008 se stále účastnilo několik bývalých cypherpunků, jako jsou John Gilmore, Hal Finney a Len Sassaman.
+31. října 2008 Satoshi Nakamoto publikuje [první verzi bílé knihy](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/courses/his201/assets/bitcoin-20081003.pdf) na e-mailovém seznamu věnovaném kryptografii, jednoduše nazvaném "Cryptography mailing list." Tento seznam spravuje vývojář Perry Metzger od roku 1996, od jeho [založení](https://cypherpunks.venona.com/date/1996/12/msg00102.html), a od roku [2003](https://www.metzdowd.com/pipermail/cryptography/2003-April/004484.html) je hostován na jeho osobním webu, Metdowd.com. Je nástupcem seznamu cypherpunks, s tím rozdílem, že je předmětem přísné moderace. V roce 2008 se stále účastnilo několik bývalých cypherpunků, jako jsou John Gilmore, Hal Finney a Len Sassaman.
 
 Ve svém prvním [e-mailu](https://www.metzdowd.com/pipermail/cryptography/2008-October/014810.html) adresovaném seznamu Satoshi jednoduše píše:
 
@@ -442,7 +454,7 @@ Hal Finney v roce 2007
 ### Měnová politika a softwarový kód
 Bitcoin využívá distribuovaný konsenzuální algoritmus, který umožňuje všem uzlům sítě shodnout se na obsahu účetní knihy, kterou Hal Finney ve svém prvním emailu označuje jako "block chain" ve dvou slovech. Správný blockchain, který je vybrán, je ten, který má nejvíce bloků, a konflikty mezi soutěžícími bloky jsou řešeny podle tohoto jednoduchého principu. Tento mechanismus byl [později](https://sourceforge.net/p/bitcoin/code/109/) upraven tak, aby bral v úvahu množství nahromaděné práce namísto počtu bloků.
 Tento konsenzuální mechanismus umožňuje uvalit na systém všechny druhy pravidel a pobídek (použít poslední frázi z bílé knihy) v rámci systému. Jelikož Bitcoin představuje distribuovanou službu časových razítek, je také možné, aby tato pravidla interagovala s plynutím času. Odtud algoritmus pro úpravu obtížnosti, který se uplatňuje k regulaci produkce nových bloků a s nimi spojených bitcoinů: pokud je počet vyprodukovaných bloků v daném období příliš vysoký, obtížnost produkce se zvyšuje; v opačném případě se snižuje. Bitcoin se tedy liší od RPOW, kde samotné důkazy práce tvořily jednotky účtu.
-Díky této úpravě obtížnosti může Bitcoin mít měnovou politiku, což znamená, že množství nových jednotek vydávaných protokolem může být předem určeno. Původně je plánováno, že měnová emise bude konstantní, aby se podpořilo produkční uzly, aby přispívaly svým výpočetním výkonem do sítě, a nejsou zde žádné transakční poplatky. Jak Satoshi Nakamoto píše v sekci "Incentive" bílé knihy [white paper](assets/pdf/bitcoin-20081003.pdf):
+Díky této úpravě obtížnosti může Bitcoin mít měnovou politiku, což znamená, že množství nových jednotek vydávaných protokolem může být předem určeno. Původně je plánováno, že měnová emise bude konstantní, aby se podpořilo produkční uzly, aby přispívaly svým výpočetním výkonem do sítě, a nejsou zde žádné transakční poplatky. Jak Satoshi Nakamoto píše v sekci "Incentive" bílé knihy [white paper](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/courses/his201/assets/bitcoin-20081003.pdf):
 > "Stálé přidávání konstantního množství nových mincí je analogické zlatokopům, kteří vynakládají zdroje na přidání zlata do oběhu."
 
 Tuto vlastnost potvrdil Satoshi [na mailing listu](https://www.metzdowd.com/pipermail/cryptography/2008-November/014831.html) a [ve své soukromé korespondenci](https://mmalmi.github.io/satoshi/#email-3), což neuniklo pozornosti Jamese A. Donalda. Dne 9. listopadu [kritizoval](https://www.metzdowd.com/pipermail/cryptography/2008-November/014837.html) "práci sledování, kdo vlastní co" (tj. těžbu) za to, že je "placena seignioráží" a "vyžaduje inflaci", i když poznamenal, že "předvídatelná inflace je méně nepřijatelná než inflace, která se občas mění, aby se přesunulo bohatství od jedné voličské skupiny k druhé." (*originál: "in the proposed system the work of tracking who owns what coins is paid for by seigniorage, which requires inflation. This is not an intolerable flaw - predictable inflation is less objectionable than inflation that gets jiggered around from time to time to transfer wealth from one voting block to another."*) Dále [poznamenal](https://www.metzdowd.com/pipermail/cryptography/2008-November/014841.html), že těžební uzel, který "ignoruje všechny transakce, které ho nezajímají", "netrpí žádnými nepříznivými důsledky", čímž poukázal na problém cenzury. (*originál: "If one node is ignoring all spends that it does not care about, it suffers no adverse consequences."*)
@@ -491,6 +503,8 @@ Tato práce však nebyla dostatečná a od Satoshiho to vyžadovalo vytrvalost, 
 
 ## Prezentace světu
 <chapterId>28be3515-d9da-4d91-b7ff-f8691d51c562</chapterId>
+
+:::video id=c9691569-f026-460d-a08d-98fa54f1ce25:::
 
 Po prozkoumání, jak byl Bitcoin navržen a spuštěn Satoshi Nakamotem, se zaměřme na to, jak byl veřejně prezentován. Po jeho spuštění na začátku roku 2009 byla síť v provozu, ale bylo málo generujících uzlů (většinu bloků těžil Satoshi) a aktivita byla prakticky neexistující (během ledna proběhlo 32 skutečných transakcí). Projekt měl pouze základní webovou stránku a stránku na SourceForge pro stahování softwaru. Navíc komunikace o Bitcoinu byla omezena na mailing list Metzdowd Cryptography, který sledovalo v nejlepším případě několik set lidí vášnivých pro kryptografii.
 
@@ -639,6 +653,9 @@ Na podzim roku 2009 se zdálo, že Bitcoin je připraven k růstu. A právě v t
 
 ## Rozjezd kryptoměny
 <chapterId>6b3418a7-125e-4ea1-a03a-f36090fac8a4</chapterId>
+
+:::video id=2a31c9c2-bb14-4ed5-b906-7df373f81f98:::
+
 V předchozích kapitolách jsme pozorovali, jak Satoshi Nakamoto implementoval svůj nápad a jak o něm komunikoval, aby představil Bitcoin světu. Nicméně ne vše záviselo jen na něm: bylo také nutné, aby lidé přiřadili hodnotu jednotce účtu. Jelikož to umožnilo odměňování těžařů prostřednictvím transakčních poplatků a odměňovalo obchodníky prostřednictvím přirozené deflace, takové ocenění bylo zásadní pro bezpečnost systému.
 Vznik hodnoty Bitcoinu však nebyl snadný úkol. Skutečně šlo o přiřazení ekonomického významu objektu, který dříve žádný neměl, z čistě subjektivních důvodů. Hal Finney to velmi dobře vysvětlil ve svém [emailu](https://www.metzdowd.com/pipermail/cryptography/2009-January/015004.html) z 11. ledna 2009, adresovaném mailing listu Cryptography, kde napsal:
 
@@ -748,6 +765,8 @@ Nicméně, tato otázka nikdy netrápila Satoshiho, který viděl rozjezd nové 
 ## Grafické karty, pizzy a zdarma bitcoiny
 <chapterId>9cd228a4-58d3-46a3-9935-06098bafc954</chapterId>
 
+:::video id=18913713-2f1a-4555-ba5d-06ec6d532bcb:::
+
 V předchozí části jsme prozkoumali, jak Bitcoin vznikl, jak byl představen veřejnosti a jak byl ekonomicky zahájen. Na jaře 2010, když obchod s bitcoiny teprve začínal rozkvétat, byl cílem Satoshiho Nakamota a několika lidí, kteří ho podporovali, udržet plamen naživu. Naštěstí se k úsilí přidali další jednotlivci, zejména těžař Laszlo Hanyecz a vývojář Gavin Andresen, kteří se vyznačovali svými činy.
 
 V této kapitole se podíváme na první nasazení těžby pomocí grafického procesoru (GPU), na bohatství nahromaděné Satoshi Nakamotem, na první nákup fyzického zboží za bitcoiny, na zřízení bitcoinového kohoutku rozdávajícího zdarma jednotky a na vývoj softwaru a sítě před Slashdotem.
@@ -836,6 +855,8 @@ Nicméně ke konci června zůstávala aktivita na síti poměrně skromná. Byl
 ## Velký Slashdotting
 <chapterId>2eef715e-b018-445b-b360-1c6e1c1df462</chapterId>
 
+:::video id=c26f3696-4e33-4d38-9443-f237935f8b45:::
+
 Na začátku léta 2010, navzdory některým povzbudivým počátečním vývojům, byl Bitcoin založen na křehkých základech. Software měl málo vývojářů kromě Satoshiho Nakamota. Těžaři byli amatéři na svých osobních počítačích. Existovalo asi dvacet služeb souvisejících s Bitcoinem a skutečné burzy byly stejně vzácné. Věci se však měly během druhé poloviny roku radikálně změnit.
 
 V této kapitole se zaměříme na "velký slashdotting," tj. na náhlý příliv uživatelů, který následoval po publikaci prezentace Bitcoinu na populárním webu Slashdot 11. července 2010. Uvidíme, jak tento text vznikl jako poslední komunikační snaha ze strany Satoshiho a jaké přímé efekty měla tato popularizace Bitcoinu.
@@ -902,6 +923,8 @@ V následujících měsících pokračoval rozvoj technických, ekonomických a 
 
 ## První technické problémy
 <chapterId>30cc4fe4-22b0-429e-9874-029c9137c0aa</chapterId>
+
+:::video id=f3e98b49-c32e-451a-b7c1-224dc5b00cf5:::
 
 Jak bylo zmíněno v poslední kapitole, příliv uživatelů ze Slashdotu 11. července 2010 způsobil obrovskou vlnu zájmu o projekt Satoshiho Nakamota. Používání sítě explodovalo; směnný kurz se zvýšil desetinásobně, stejně jako výpočetní výkon věnovaný systému. Bitcoin tak zažil bezprecedentní růst během léta.
 
@@ -973,6 +996,8 @@ V následujících měsících pokračovaly technické, ekonomické a těžební
 ## Digitální zlatá horečka
 <chapterId>8e9899ca-e7a7-471b-8e69-847a56714d3b</chapterId>
 
+:::video id=665ac55c-cd61-4d07-a896-95248eec480d:::
+
 V předchozí části jsme studovali efekt, který mělo zveřejnění prezentace o Bitcoinu na Slashdot (slashdotting), a jak byly počáteční technické problémy řešeny Satoshi a jeho pomocníky. Do konce léta projekt přečkal bouři a byl připraven přivítat stále více lidí. Podzim 2010 tak znamenal období úspěchu pro Bitcoin.
 Toto období bylo zvláště zlatou érou pro těžbu, která viděla významná vylepšení s nástupem prvních GPU farem a prvního družstva. Nasazené zdroje se zvyšovaly a výkon dedikovaných algoritmů se zlepšoval. Byla to jakási "digitální zlatá horečka", jak napsal blogger té doby (používající pseudonym jimbobway) [napsal](https://web.archive.org/web/20100828094955/http://www.bitcoinblogger.com/2010/08/bitcoins-new-digital-gold-rush.html), poznamenávající, že "tisíce uživatelů na internetu" těží bitcoiny "v naději na bohatství" a že mnozí z nich se snaží "vyvíjet software a hardware nástroje pro efektivnější těžbu bitcoinů v naději stát se nechutně bohatými." (*originál: "Bitcoins: A New Digital Gold Rush (...) Thousands of users on the Internet are now mining for bitcoins in hopes of fortune. Many are trying to develop software and hardware tools to mine for bitcoins more efficiently in hopes of becoming filthy rich."*)
 
@@ -1031,6 +1056,9 @@ Nicméně, podzim nebyl úspěšný pouze pro těžbu. Byl také úspěchem pro 
 
 ## Rozkvět ekosystému
 <chapterId>0404f877-8b5c-4c7f-81ab-a4e6d9b3da9c</chapterId>
+
+:::video id=2327cb5b-36a1-49f4-a9de-09b70d76b8c1:::
+
 V předchozí kapitole jsme prozkoumali, jak se těžba v průběhu druhé poloviny roku 2010 vyvíjela. Do podzimu byl tento pokrok již dobře zaveden. Nicméně, těžba nebyla jediným aspektem Bitcoinu, který zaznamenal úspěch: jeho ekosystém také.
 
 Zde nejprve oslovíme začátek mezinárodního rozšíření Bitcoinu s rozvojem ruské a francouzské komunity. Poté probereme zlepšení v komunikaci a ekonomickém růstu, které významně vedlo k novému nárůstu jednotkové ceny bitcoinu. Nakonec zmíníme dva velmi symbolické události předcházející odchodu Satoshiho: přijetí bitcoinu Electronic Frontier Foundation a návrat Hal Finneyho.
@@ -1120,6 +1148,8 @@ To byla pak předposlední veřejná zpráva od tvůrce Bitcoinu, který by o n�
 Během podzimu 2010 se ekosystém kolem Bitcoinu výrazně vyvinul. Komunikace se zlepšila a ekonomika se rozvíjela. V té době to vypadalo, že Bitcoin je připraven vzlétnout na vlastní křídla. A právě toto období si Satoshi vybral k tomu, aby zmizel a ponechal vedení projektu komunitě.
 ## Zmizení Satoshiho
 <chapterId>f7735239-4887-468f-9f06-1b07d00b30d9</chapterId>
+
+:::video id=fd5b40ae-b6bc-484a-b86b-af9c772f0afa:::
 
 Viděli jsme, jak Bitcoin vzletěl po publikaci textu na Slashdotu v červenci 2010. Na podzim, s různými pokroky v softwaru, těžbě a ekonomice, to vypadalo, že projekt je konečně na správné cestě. Proto toto období korespondovalo s postupným odchodem Satoshiho Nakamota.
 
@@ -1226,6 +1256,8 @@ Tento záhadný aspekt obklopující tvůrce Bitcoinu byl dobře shrnut Hal Finn
 
 ## Převzetí komunity
 <chapterId>16c5e6d6-2412-48c6-9687-6af92cf0d89a</chapterId>
+
+:::video id=b29c3ea3-c4ca-4feb-bb29-5dc064987406:::
 
 Po odchodu Satoshi Nakamota se stalo nutné pokračovat bez něj. Naštěstí byl Bitcoin otevřeným projektem, ke kterému mohl přispět kdokoli, takže zmizení jeho zakladatele pro něj nebylo osudné. Jak napsal vývojář Jeff Garzik v červenci 2010 (ohledně možnosti absence zakladatele):
 

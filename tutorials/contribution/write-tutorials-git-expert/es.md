@@ -1,28 +1,28 @@
 ---
 name: Contribución - Tutorial de Git (avanzado)
-description: Guía para usuarios avanzados para ofrecer un tutorial sobre Plan ₿ Network con Git
+description: Guía para usuarios avanzados para ofrecer un tutorial sobre Plan ₿ Academy con Git
 ---
 ![cover](assets/cover.webp)
 
 Antes de seguir este tutorial sobre cómo añadir un nuevo tutorial, necesitas haber completado algunos pasos preliminares. Si aún no lo has hecho, echa un vistazo primero a este tutorial introductorio y luego vuelve aquí:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+https://planb.academy/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
 Ya deberías haber:
 
 - Elegido un tema para tu tutorial;
-- Puesto en contacto con el equipo de Plan ₿ Network a través de [grupo de Telegram](https://t.me/PlanBNetwork_ContentBuilder) o paolo@planb.network;
+- Puesto en contacto con el equipo de Plan ₿ Academy a través de [grupo de Telegram](https://t.me/PlanBNetwork_ContentBuilder) o paolo@planb.network;
 - Elegido tus herramientas de contribución.
 
-En este tutorial para usuarios experimentados de Git, resumiremos brevemente los pasos clave y las pautas esenciales para ofrecer un nuevo tutorial para Plan ₿ Network. Si no estás familiarizado con Git y GitHub, te recomendamos que en su lugar sigas uno de estos otros 2 tutoriales más detallados que te llevarán paso a paso..:
+En este tutorial para usuarios experimentados de Git, resumiremos brevemente los pasos clave y las pautas esenciales para ofrecer un nuevo tutorial para Plan ₿ Academy. Si no estás familiarizado con Git y GitHub, te recomendamos que en su lugar sigas uno de estos otros 2 tutoriales más detallados que te llevarán paso a paso..:
 
 - **Intermedio (GitHub Desktop)**:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 - **Principiantes (interfaz web)**:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 
 ## Herramientas recomendadas
 
@@ -54,7 +54,7 @@ Para crear diagramas y elementos visuales:
 
 ### 1 - Configura tu entorno local
 
-- Debes tener tu propio fork del repositorio [Plan ₿ Network en GitHub](https://github.com/PlanB-Network/bitcoin-educational-content).
+- Debes tener tu propio fork del repositorio [Plan ₿ Academy en GitHub](https://github.com/PlanB-Network/bitcoin-educational-content).
 - Sincroniza la rama principal (`dev`) de tu bifurcación con el repositorio fuente.
 - Actualiza tu clon local.
 
@@ -156,11 +156,11 @@ Aquí están los campos obligatorios:
 
 - **id**: Un UUID (_Identificador Universalmente Único_) que permite identificar de manera única el tutorial. Puedes generarlo con [una herramienta en línea](https://www.uuidgenerator.net/version4). El único requisito es que este UUID sea aleatorio para evitar conflictos con otro UUID en la plataforma;
 
-- **project_id**: El UUID de la empresa u organización detrás de la herramienta presentada en el tutorial [desde la lista de proyectos](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Por ejemplo, si estás creando un tutorial sobre el software Green Wallet, puedes encontrar el `project_id` en el siguiente archivo: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Esta información se agrega al archivo YAML de tu tutorial porque Plan ₿ Network mantiene una base de datos de todas las empresas y organizaciones que operan en Bitcoin o proyectos relacionados. Al agregar el `project_id` de la entidad relacionada con tu tutorial, creas un vínculo entre ambos elementos;
+- **project_id**: El UUID de la empresa u organización detrás de la herramienta presentada en el tutorial [desde la lista de proyectos](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Por ejemplo, si estás creando un tutorial sobre el software Green Wallet, puedes encontrar el `project_id` en el siguiente archivo: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Esta información se agrega al archivo YAML de tu tutorial porque Plan ₿ Academy mantiene una base de datos de todas las empresas y organizaciones que operan en Bitcoin o proyectos relacionados. Al agregar el `project_id` de la entidad relacionada con tu tutorial, creas un vínculo entre ambos elementos;
 
-- **tags**: 2 o 3 palabras clave relevantes relacionadas con el contenido del tutorial, elegidas exclusivamente [de la lista de etiquetas de Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags**: 2 o 3 palabras clave relevantes relacionadas con el contenido del tutorial, elegidas exclusivamente [de la lista de etiquetas de Plan ₿ Academy](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
-- **category**: La subcategoría correspondiente al contenido del tutorial, según la estructura del sitio web de Plan ₿ Network (por ejemplo, para monederos: `desktop`, `hardware`, `mobile`, `backup`);
+- **category**: La subcategoría correspondiente al contenido del tutorial, según la estructura del sitio web de Plan ₿ Academy (por ejemplo, para monederos: `desktop`, `hardware`, `mobile`, `backup`);
 
 - **level** : El nivel de dificultad del tutorial, elegido entre:
     - `beginner`
@@ -181,7 +181,7 @@ Aquí están los campos obligatorios:
 
 Para más detalles sobre tu ID de profesor, consulta el tutorial correspondiente:
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 ```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
@@ -282,7 +282,7 @@ print("Hello, Bitcoin!")
     - Asegúrate de que sean pertinentes y de calidad.
 - **Carta gráfica**:
     - Fuente: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans).
-    - Colores Plan ₿ Network:
+    - Colores Plan ₿ Academy:
         - Naranja: `#FF5C00`
         - Negro: `#000000`
         - Blanco: `#FFFFFF`

@@ -42,7 +42,7 @@ Se volete approfondire, consultate il tutorial su Nmap:
 
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 ## II. Come iniziare con Angry IP Scanner
 
@@ -181,4 +181,4 @@ Se si desidera utilizzare **Nmap** con un Interface grafico, è possibile utiliz
 
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d

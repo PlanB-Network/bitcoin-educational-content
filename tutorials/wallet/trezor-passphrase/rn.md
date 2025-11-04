@@ -18,7 +18,7 @@ Before starting this tutorial, if you're not familiar with the passphrase concep
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 passphrase kuri Trezor ikoreshwa mu buryo bwa kera nimba wahisemwo urugero rwa BIP39 mu gihe co gutunganya (ico ndagusaba nimba udakeneye *Multi-share Backup*). Ikintu kidasanzwe kuri Trezor ni uko ushobora kwinjira muri passphrase ukoresheje Hardware Wallet, canke ukoresheje klavye ya mudasobwa yawe ukoresheje porogarama ya Trezor Suite. Ubu buryo bwa kabiri buratekanye cane, kuko iyo mudasobwa ifise ahantu hanini cane ho gutera kuruta Hardware Wallet. Ariko rero, kwandika ururimi rwa passphrase rutoroshe vyoshobora kwihuta ku klavye isanzwe kuruta ku rurimi rwa Hardware Wallet, ivyo bikaba vyoshobora gutuma umuntu akoresha amajambo y’ibanga akomeye. Ni vyiza rero kwama ukoresha passphrase, naho yoba itegerezwa kwandikwa, kuruta kutayikoresha na gato. Ariko rero, birahambaye ko tuguma tuzi ko ivyo bishobora gutuma umuntu agira ingorane nyinshi z’ibitero vy’imibare.
 
@@ -36,15 +36,15 @@ Muri Trezor Suite, ufise uburyo bubiri butandukanye bwo gucunga ivyifuzo vya pas
 
 
 
-Imbere yo gutangura iyi nyigisho, urabe neza ko umaze gutanguza Trezor yawe kandi ugatanga ijambo ryawe rya Mnemonic. Niba utarabikora, kandi Trezor yawe ari nshasha, kurikiza inyigisho zijanye n'akarorero ziboneka kuri Plan ₿ Network. Uhejeje iyi ntambwe, urashobora gusubira muri iyi nyigisho.
+Imbere yo gutangura iyi nyigisho, urabe neza ko umaze gutanguza Trezor yawe kandi ugatanga ijambo ryawe rya Mnemonic. Niba utarabikora, kandi Trezor yawe ari nshasha, kurikiza inyigisho zijanye n'akarorero ziboneka kuri Plan ₿ Academy. Uhejeje iyi ntambwe, urashobora gusubira muri iyi nyigisho.
 
 
 
-https://planb.network/tutorials/wallet/hardware/trezor-safe-5-4413308a-a1b5-4ba4-bc49-72ae661cc4e0
+https://planb.academy/tutorials/wallet/hardware/trezor-safe-5-4413308a-a1b5-4ba4-bc49-72ae661cc4e0
 
-https://planb.network/tutorials/wallet/hardware/trezor-safe-3-51d0d669-5d23-47c2-beb6-cc6fa0fb0ea0
+https://planb.academy/tutorials/wallet/hardware/trezor-safe-3-51d0d669-5d23-47c2-beb6-cc6fa0fb0ea0
 
-https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
+https://planb.academy/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 
 
 ## Kwongera passphrase ku Safe 3 canke Safe 5
@@ -79,7 +79,7 @@ Kugira ngo uronke impanuro zitomoye ku bijanye no guhitamwo passphrase yawe, nda
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Niba ushaka kwinjiza passphrase yawe uciye kuri klavye ya mudasobwa yawe, yinjize mu kibanza catanzwe, hanyuma ukande kuri "*Access passphrase Wallet*".
 
@@ -177,7 +177,7 @@ Kugira ngo ubone impanuro zitomoye ku bijanye no guhitamwo passphrase yawe, ndag
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Injira passphrase yawe mu kibanza catanzwe, hanyuma ukande kuri buto "*Shika kuri passphrase Wallet*".
 
@@ -215,6 +215,6 @@ Urakoze cane, ubu uriko urakoresha neza passphrase BIP39 ku bikoresho vya Trezor
 
 
 
-https://planb.network/tutorials/wallet/backup/trezor-shamir-backup-7f98b593-face-48fb-a643-0e811b87c94e
+https://planb.academy/tutorials/wallet/backup/trezor-shamir-backup-7f98b593-face-48fb-a643-0e811b87c94e
 
 Niwaba wabonye ko iyi nyigisho ari ngirakamaro, noshima cane iyo usiga urukumu rwa Green aha hepfo. Ntutinye gusangiza abandi iyi nkuru ku mbuga zanyu zo gusangirirako amakuru. Murakoze cane!

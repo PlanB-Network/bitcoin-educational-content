@@ -11,7 +11,7 @@ description: Komplett guide till att använda Bisq 2 och växla bitcoins P2P
 KYC-fria peer-to-peer (P2P)-börser är viktiga för att bevara användarnas integritet och finansiella självständighet. De möjliggör direkta transaktioner mellan individer utan behov av identitetsverifiering, vilket är avgörande för dem som värdesätter integritet. För en mer djupgående förståelse av de teoretiska begreppen, ta en titt på BTC204-kursen:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Vad är Bisq 2?
 
@@ -117,7 +117,7 @@ Denna guide fokuserar uteslutande på "Bisq Easy", det enda protokoll som för n
 - Verifiera äktheten för den nedladdade filen (rekommenderas starkt). För en detaljerad guide till signaturverifiering, se följande handledning:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### 2. Installation enligt ditt system
 

@@ -111,9 +111,9 @@ Puoi configurare l’unità di base per i tuoi scambi scegliendo tra le seguenti
 
 Una volta completate le configurazioni di base, inserisci l’importo del tuo scambio atomico, quindi crea una fattura Lightning per l’importo equivalente o inserisci semplicemente il tuo LNURL.
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
-https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
+https://planb.academy/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
 
 ![swap](assets/fr/07.webp)
 
@@ -145,9 +145,9 @@ Clicca quindi sul pulsante **Crea Exchange atomico**(“Crea scambio atomico”)
 
 
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
 Una volta che il pagamento è stato effettuato e confermato, riceverete automaticamente l'importo equivalente sul vostro Lightning Wallet.
 
@@ -178,6 +178,6 @@ Boltz ti offre un alto livello di riservatezza grazie all’accesso tramite un l
 
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 Ormai conosci Boltz, una piattaforma di scambio unica che permette l’interoperabilità tra i diversi layer dell’ecosistema Bitcoin.

@@ -6,4 +6,4 @@ wrong_answers:
   - NAT
 explanation: |
   Le protocole DHCP assigne automatiquement une adresse IP aux équipements du réseau, afin de simplifier la gestion des adresses.
-reviewed: false
+reviewed: true 

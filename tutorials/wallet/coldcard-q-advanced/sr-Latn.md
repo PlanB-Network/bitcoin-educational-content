@@ -8,7 +8,7 @@ description: Korišćenje naprednih opcija COLDCARD Q
 U prethodnom vodiču pokrili smo početnu konfiguraciju COLDCARD Q i njegove osnovne funkcije za početnike. Ako ste tek primili svoj COLDCARD Q i još ga niste postavili, preporučujem da počnete s tim vodičem pre nego što nastavite ovde:
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
 Ovaj novi vodič je posvećen naprednim opcijama COLDCARD Q, dizajniranim za napredne i paranoične korisnike. Zapravo, COLDCARD-i se razlikuju od drugih hardverskih novčanika po mnogim naprednim sigurnosnim funkcijama. Naravno, ne morate koristiti sve ove opcije. Samo odaberite one koje odgovaraju vašoj sigurnosnoj strategiji.
 
@@ -28,7 +28,7 @@ Pre nego što počnete, uverite se da imate pristup fizičkoj rezervnoj kopiji v
 Ako ne znate šta je BIP39 passphrase, ili vam nije potpuno jasno kako funkcioniše, toplo preporučujem da unapred pogledate ovaj vodič, koji pokriva teorijske osnove potrebne za razumevanje rizika povezanih sa korišćenjem passphrase:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Imajte na umu da kada jednom postavite passphrase na vaš Wallet, vaš Mnemonic sam po sebi neće biti dovoljan da ponovo dobijete pristup vašim bitcoinima. Biće vam potrebni i Mnemonic i passphrase. Štaviše, moraćete da unesete passphrase svaki put kada otključavate vaš COLDCARD Q. Ovo poboljšava sigurnost tako što fizički pristup COLDCARD-u i poznavanje PIN-a postaju nedovoljni bez passphrase.
 
@@ -99,7 +99,7 @@ Potvrdite da se otisak prsta prikazan podudara sa otiskom vašeg Wallet i klikni
 Imajte na umu da korišćenje passphrase znači da ćete morati da uvezete novi set ključeva izvedenih iz kombinacije vaše Mnemonic fraze i passphrase u vaš Wallet softver za upravljanje (kao što je Sparrow Wallet). Da biste to uradili, pratite korak "*Konfiguriši novi Wallet na Sparrow-u*" u ovom drugom uputstvu :
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
 ## Otključavanje opcija
 
@@ -299,7 +299,7 @@ Od sada, svaki put kada se uređaj uključi, prikazaće se kalkulator sa osnovni
 ![CCQ](assets/fr/34.webp)
 
 
-Na primer, možete izračunati SHA256 Hash od "*Plan B Network*".
+Na primer, možete izračunati SHA256 Hash od "*Plan ₿ Academy*".
 
 
 ![CCQ](assets/fr/35.webp)
@@ -366,4 +366,4 @@ Ako ste našli ovaj vodič korisnim, bio bih veoma zahvalan ako biste ostavili G
 Takođe preporučujem ovaj drugi tutorijal, u kojem diskutujemo o korišćenju direktnog konkurenta CCQ, Ledger Flex :
 
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a

@@ -6,7 +6,7 @@ description: Jinsi ya kujenga kompyuta ndogo, iliyotengwa na ya gharama nafuu kw
 
 
 
-Ikiwa umekuwa kwenye kurasa za Plan ₿ Network kwa muda, tayari umejifunza kwamba mojawapo ya mipangilio ya usalama inayopendekezwa zaidi, ambayo ni lazima, **ni usimamizi wa fedha kwa kuhifadhi nje ya mtandao wa funguo zako za faragha**.
+Ikiwa umekuwa kwenye kurasa za Plan ₿ Academy kwa muda, tayari umejifunza kwamba mojawapo ya mipangilio ya usalama inayopendekezwa zaidi, ambayo ni lazima, **ni usimamizi wa fedha kwa kuhifadhi nje ya mtandao wa funguo zako za faragha**.
 
 
 
@@ -14,7 +14,7 @@ Ikiwa bado hujaigundua, katika somo hili lote utapata viungo vya kufungua rasili
 
 
 
-Ili kudhibiti funguo za kibinafsi nje ya mtandao, inahitajika kifaa kilichotenganishwa kabisa na mtandao, kiwe ni [wallet ya vifaa](https://planb.network/resources/glossary/hardware-wallet) au kompyuta ya airgap, iliyotengwa kwa kazi hii maalum.
+Ili kudhibiti funguo za kibinafsi nje ya mtandao, inahitajika kifaa kilichotenganishwa kabisa na mtandao, kiwe ni [wallet ya vifaa](https://planb.academy/resources/glossary/hardware-wallet) au kompyuta ya airgap, iliyotengwa kwa kazi hii maalum.
 
 
 
@@ -500,7 +500,7 @@ Miongoni mwa Pochi ambazo ninazifahamu, pekee ambayo hutoa toleo la 32-bit ni El
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-airgap-62b5a4c6-a221-4d41-9a62-4618c53d8223
+https://planb.academy/tutorials/wallet/desktop/electrum-airgap-62b5a4c6-a221-4d41-9a62-4618c53d8223
 
 ## Hitimisho
 

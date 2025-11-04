@@ -37,7 +37,7 @@ In sintesi, “spendere” e “ricomprare” sembrano essere la strada da segui
 Come il suo “fratello maggiore” Bitrefill, e i suoi concorrenti (The Bitcoin Company, Coinsbee, ecc.), Coincards ti permette di spendere i tuoi preziosi sats per acquistare gift card (carte regalo), che poi possono essere utilizzate online o anche nei negozi fisici dei principali rivenditori vicino a te. Rivenditori che, naturalmente, non accettano ancora Bitcoin direttamente.
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 Coincards offre un'ampia gamma di scelte, dalla vendita al dettaglio ai fast food, alle piattaforme di streaming, ai giochi online, ai siti di e-commerce e altro ancora...
 
@@ -62,7 +62,7 @@ Questa è l'occasione per ricordare a coloro che desiderano pagare le carte rega
 
 
 
-Una selezione di tutorial sui principali portafogli Lightning (Phoenix, Breez, BitKit, Zeus...) è disponibile qui: [Plan ₿ Network - Wallet](https://planb.network/tutorials/wallet)
+Una selezione di tutorial sui principali portafogli Lightning (Phoenix, Breez, BitKit, Zeus...) è disponibile qui: [Plan ₿ Academy - Wallet](https://planb.academy/tutorials/wallet)
 
 
 
@@ -70,7 +70,7 @@ Se desideri saperne di più sul funzionamento del Lightning Network, è disponib
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ## Come posso acquistare una carta regalo in BTC su Coincards?
 

@@ -241,7 +241,7 @@ Gli incontri del Bitcoin possono servire a molti scopi:
 
 
 
-Molte di queste possibilità saranno trattate in dettaglio nella parte 6/8 di questo corso, intitolata "[Esempi di progetti e iniziative](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279).
+Molte di queste possibilità saranno trattate in dettaglio nella parte 6/8 di questo corso, intitolata "[Esempi di progetti e iniziative](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279).
 
 
 
@@ -353,7 +353,7 @@ Il vostro primo evento sarà probabilmente un meet-up. Il suo scopo principale �
 
 
 
-Tuttavia, come vedremo più avanti in [Esempi di progetti e iniziative](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279), **un meeting-up può essere costruito in molti modi, con molti obiettivi:**
+Tuttavia, come vedremo più avanti in [Esempi di progetti e iniziative](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279), **un meeting-up può essere costruito in molti modi, con molti obiettivi:**
 
 
 
@@ -866,7 +866,7 @@ Per le esercitazioni che seguono, abbiamo inizialmente utilizzato l'APK "Telegra
 Se volete creare un luogo in cui i vostri membri possano parlarsi direttamente, rispondersi l'un l'altro e così via, allora vi conviene creare un gruppo Telegram e non un canale Telegram!
 
 
-Passate direttamente alla sezione successiva, intitolata [Crea un gruppo Telegram](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/d13714ce-8f08-53e9-bedd-b6a3aaac5dad).
+Passate direttamente alla sezione successiva, intitolata [Crea un gruppo Telegram](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/d13714ce-8f08-53e9-bedd-b6a3aaac5dad).
 
 
 
@@ -1232,7 +1232,7 @@ Twitter è molto facile da usare e per migliorare la vostra privacy dovrete rego
 1/ **la @ Twitter**, che definisce la vostra identità e vi rende facilmente reperibili. Se il nome della vostra comunità è "Bitcoin [CITTA']", è opportuno scegliere "@Bitcoin[CITTA']";
 
 
-2/ **il logo e il banner** che avete creato per la vostra comunità o meet-up (vedi sezione [Creare un logo, un poster e un banner](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef));
+2/ **il logo e il banner** che avete creato per la vostra comunità o meet-up (vedi sezione [Creare un logo, un poster e un banner](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef));
 
 
 3/ **la descrizione**, che vi permette di condividere le informazioni chiave sulla vostra comunità in poche centinaia di caratteri. Ad esempio:
@@ -1547,7 +1547,7 @@ Nel secondo caso, un secondo evento mensile potrebbe essere dedicato a un tema s
 
 
 
-Tenete presente che **questo richiede più organizzazione e più tempo**. Fortunatamente, nella [parte 6/8 di questo corso](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279), troverete una serie di risorse open-source riutilizzabili per aiutarvi.
+Tenete presente che **questo richiede più organizzazione e più tempo**. Fortunatamente, nella [parte 6/8 di questo corso](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279), troverete una serie di risorse open-source riutilizzabili per aiutarvi.
 
 
 In ogni caso, tutto dipende dal piano d'azione a breve, medio e lungo termine che voi, o la vostra comunità, vi siete dati.
@@ -1619,7 +1619,7 @@ Contattare il luogo in cui si terrà l'evento e prenotarlo per il numero di part
 
 
     - Condividete la data, l'ora e il luogo sui vostri social network e altri canali di comunicazione. Se necessario, includete un link per la registrazione.
-    - Creare un visual dedicato (ad esempio un poster Canva, vedi parte 2/8 "[Progettare un'identità per la vostra comunità Bitcoin](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/b48a18cc-afdf-5216-802c-32647b5cd8a3)").
+    - Creare un visual dedicato (ad esempio un poster Canva, vedi parte 2/8 "[Progettare un'identità per la vostra comunità Bitcoin](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/b48a18cc-afdf-5216-802c-32647b5cd8a3)").
     - Massimizzate la visibilità appuntando l'annuncio su Telegram e Twitter e utilizzando una menzione "@tutti" su Discord.
     - Pubblicate gli annunci da 7 a 10 giorni prima dell'evento, in modo che i partecipanti possano pianificare in anticipo.
 
@@ -1721,7 +1721,7 @@ Roma non è stata costruita in un giorno, e nemmeno la vostra comunità lo sarà
 Per far sì che ciò accada, una cosa è essenziale: **mantenere i partecipanti impegnati**.
 
 
-Si potrebbe iniziare con un piccolo gruppo di appassionati di bitcoiners, il cui scopo è riunirsi regolarmente e parlare del Bitcoin. Nel corso del tempo, a seconda della disponibilità e degli interessi di ciascuno, si possono **condividere alcuni compiti organizzativi con il gruppo**, o invitare i **membri principali ad occuparsi di progetti specifici**. Questi possono essere unici per la vostra comunità, i vostri incontri o la vostra città o anche ispirati alle molte iniziative proposte nella [parte 6/8 di questo corso](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279). **Questo non solo favorisce il Commitment da parte dei membri principali, ma aiuta anche la comunità a crescere e a prosperare.**.
+Si potrebbe iniziare con un piccolo gruppo di appassionati di bitcoiners, il cui scopo è riunirsi regolarmente e parlare del Bitcoin. Nel corso del tempo, a seconda della disponibilità e degli interessi di ciascuno, si possono **condividere alcuni compiti organizzativi con il gruppo**, o invitare i **membri principali ad occuparsi di progetti specifici**. Questi possono essere unici per la vostra comunità, i vostri incontri o la vostra città o anche ispirati alle molte iniziative proposte nella [parte 6/8 di questo corso](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279). **Questo non solo favorisce il Commitment da parte dei membri principali, ma aiuta anche la comunità a crescere e a prosperare.**.
 
 
 Man mano che gli incontri si susseguono, compaiono nuovi volti: persone che hanno acquistato BTC e/o altcoin nei cicli precedenti, appassionati di tecnologia che vogliono approfondire la loro conoscenza, o principianti assoluti curiosi di questo sistema di pagamento non censurabile, decentralizzato, trasparente ed equo che funziona senza condizioni e senza terze parti fidate.
@@ -1820,7 +1820,7 @@ Oltre al suo forte valore educativo, questo approccio permette di condividere do
 Di seguito è riportata la progressione dei meetup francesi del 2023-2024. Per ogni tema sono disponibili una presentazione open-source e un video, che possono dare spunti per argomenti da trattare nei propri eventi.
 
 
-Ulteriori materiali modificabili si trovano anche nel [Bitcoin Teaching Toolbox](https://planb.network/fr/resources/bet)!
+Ulteriori materiali modificabili si trovano anche nel [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)!
 
 
 
@@ -2003,7 +2003,7 @@ Questi volantini possono essere indirizzati a:
 Potreste anche progettare un volantino specifico per la vostra comunità o meet-up, presentando le vostre attività, gli obiettivi, i link ai social media, i canali di comunicazione e i prossimi eventi.
 
 
-Diversi volantini sono già **disponibili come open-source nel [Bitcoin Teaching Toolbox](https://planb.network/fr/resources/bet)** su planB.network e altri saranno aggiunti nel tempo.
+Diversi volantini sono già **disponibili come open-source nel [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)** su planB.network e altri saranno aggiunti nel tempo.
 
 
 Un esempio è un [volantino completo](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin) con 21 motivi per utilizzare il Bitcoin. Il suo design è anche [disponibile in open-source](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) per essere modificato, adattato e condiviso. Ricordatevi solo di citare le fonti.
@@ -2222,7 +2222,7 @@ Le piattaforme più diffuse includono:
 - [**peertube**](https://joinpeertube.org/fr_FR), consente di ospitare la propria piattaforma video, anche se è più complessa da configurare.
 
 
-Qualunque sia la vostra scelta, progettate immagini specifiche per la piattaforma per rendere il vostro canale attraente. Canva, di cui si è parlato nella [parte 2/8](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef), offre una categoria "Miniature di YouTube" con design predefiniti e personalizzabili.
+Qualunque sia la vostra scelta, progettate immagini specifiche per la piattaforma per rendere il vostro canale attraente. Canva, di cui si è parlato nella [parte 2/8](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef), offre una categoria "Miniature di YouTube" con design predefiniti e personalizzabili.
 
 
 
@@ -2857,7 +2857,7 @@ Per aiutare la vostra comunità a crescere ulteriormente, **un seguito al corso 
 
 <img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430" />
 
-potrebbe essere rilasciato su [planb.network](https://planb.network/) nei prossimi mesi.
+potrebbe essere rilasciato su [planb.network](https://planb.academy/) nei prossimi mesi.
 
 
 La prossima sessione potrebbe esplorare argomenti avanzati quali:

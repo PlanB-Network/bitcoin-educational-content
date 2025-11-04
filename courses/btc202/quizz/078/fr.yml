@@ -6,4 +6,4 @@ wrong_answers:
   - Restaurer la mempool lors d’une réorganisation
 explanation: |
   Chaque revNNNNN.dat contient les données nécessaires pour annuler les effets d’un bloc sur l’UTXO set, ce qui facilite la gestion des réorganisations.
-reviewed: false
+reviewed: true 

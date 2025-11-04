@@ -100,7 +100,7 @@ Ibindi ubimenye mu nyigisho yacu ya Thunderbird:
 
 
 
-https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
+https://planb.academy/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 
 F-Droid iraguha amakuru yose ukeneye kugira ngo ufate ingingo nimba gukoresha porogarama birinda amakuru yawe kandi bikongera ubuzima bwite bwawe. Scan porogaramu zose ushaka gukoresha, hanyuma ukande kuri buto ya **Install** kugira ngo ushiremwo porogaramu yawe.
 
@@ -187,4 +187,4 @@ Niba warakunze iyi nyigisho, menya vyinshi ku nyigisho zacu z’umutekano w’ub
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

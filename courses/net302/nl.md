@@ -90,7 +90,7 @@ Klaar om in de wereld van computernetwerken te duiken? Laten we gaan!
 **OPMERKING**: De beschrijvingen zijn gebaseerd op een GNU/Linux CentOS 7 systeem. Netwerkconfiguraties zijn echter grotendeels hetzelfde als je een Debian en een CentOS systeem vergelijkt. We zullen dus geen onderscheid maken. Als er onderscheid wordt gemaakt, geven we dat aan met een specifiek logo.
 
 
-**N.B.**: Als je tijdens de cursus onbekende termen tegenkomt, raadpleeg dan [de woordenlijst] (https://planb.network/resources/glossary) voor definities.
+**N.B.**: Als je tijdens de cursus onbekende termen tegenkomt, raadpleeg dan [de woordenlijst] (https://planb.academy/resources/glossary) voor definities.
 
 
 
@@ -283,11 +283,11 @@ Elke Layer van de TCP/IP stack levert specifieke diensten, waardoor het mogelijk
 | Switch   | Locally addresses interfaces and forwards traffic via MAC                            | Network Access         |
 | Network Interface Card (NIC)     | Signal encoding, cabling, connectors, physical specifications                        | Network Access         |
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 ## IPv5 QoS-protocol
 
@@ -653,7 +653,7 @@ sudo apt install ipcalc
 ```
 
 
-https://planb.network/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
+https://planb.academy/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
 
 ## Het TCP-protocol
 
@@ -1379,11 +1379,11 @@ In het volgende hoofdstuk zullen we in detail kijken naar IP Address configurati
 
 
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 
 ## Hoe configureer ik het netwerk met `ip`?
@@ -3068,7 +3068,7 @@ Herhaalde of intensieve query's naar DNS-servers van derden zonder toestemming k
 Bij het bewaken of beveiligen van een lokaal of wide area netwerk is het cruciaal om actieve apparaten en de diensten die ze aanbieden te identificeren. Dit is precies wat het hulpprogramma `nmap` (*Network Mapper*) doet.
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 #### Introductie van `nmap`
 
@@ -3120,7 +3120,7 @@ Een beheerder kan op `nmap` vertrouwen voor verschillende taken:
 - **Preventie van kwetsbaarheden**: onveilige of verouderde services op kritieke machines opsporen.
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 ### Hulpmiddelen voor procesondervraging
 

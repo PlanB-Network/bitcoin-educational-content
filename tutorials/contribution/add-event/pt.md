@@ -1,6 +1,6 @@
 ---
-name: Adicionar um evento na PlanB Network
-description: Como sugiro adicionar um novo evento na PlanB Network?
+name: Adicionar um evento na Plan ₿ Academy
+description: Como sugiro adicionar um novo evento na Plan ₿ Academy?
 ---
 ![evento](assets/cover.webp)
 
@@ -10,7 +10,7 @@ Se você quer adicionar uma conferência sobre Bitcoin ao site da Rede PlanB e a
 ![evento](assets/01.webp)
 - Primeiro, você precisa ter uma conta no GitHub. Se você não sabe como criar uma conta, fizemos um tutorial detalhado para guiá-lo.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Vá para [o repositório GitHub da PlanB dedicado a dados](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) na seção `resources/conference/`:
@@ -84,7 +84,7 @@ tags:
 ![evento](assets/09.webp)
 Se você ainda não possui um identificador "*project*" para sua organização, você pode adicioná-lo seguindo este outro tutorial.
 
-https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
+https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 
 
@@ -98,7 +98,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 ![evento](assets/13.webp)
 - Clique na foto do seu perfil do GitHub no canto superior direito, depois em `Your Repositories`:
 ![evento](assets/14.webp)
-- Selecione seu fork do repositório PlanB Network:
+- Selecione seu fork do repositório Plan ₿ Academy:
 ![evento](assets/15.webp)
 - Você deverá ver uma notificação no topo da janela com seu novo branch. Provavelmente se chama `patch-1`. Clique nele:
 ![evento](assets/16.webp)
@@ -119,7 +119,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 - Retorne para a pasta `assets`:
 ![evento](assets/24.webp)
 - Clique no botão `Add file`, depois em `Upload files`: ![evento](assets/25.webp)
-- Uma nova página será aberta. Arraste e solte uma imagem que represente sua conferência e será exibida no site da PlanB Network:
+- Uma nova página será aberta. Arraste e solte uma imagem que represente sua conferência e será exibida no site da Plan ₿ Academy:
 ![evento](assets/26.webp)
 - Pode ser o logo, uma miniatura ou até mesmo um pôster:
 ![evento](assets/27.webp)
@@ -142,9 +142,9 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 ![event](assets/36.webp)
 - Clique no botão `Create pull request`:
 ![event](assets/37.webp)
-Parabéns! Seu PR foi criado com sucesso. Um administrador agora irá verificar e, se tudo estiver em ordem, mesclará ao repositório principal da PlanB Network. Você deverá ver seu evento aparecer no site alguns dias depois.
+Parabéns! Seu PR foi criado com sucesso. Um administrador agora irá verificar e, se tudo estiver em ordem, mesclará ao repositório principal da Plan ₿ Academy. Você deverá ver seu evento aparecer no site alguns dias depois.
 
-Certifique-se de acompanhar o progresso do seu PR. Um administrador pode deixar um comentário pedindo informações adicionais. Enquanto seu PR não for validado, você pode consultá-lo na aba `Pull requests` no repositório GitHub da PlanB Network:
+Certifique-se de acompanhar o progresso do seu PR. Um administrador pode deixar um comentário pedindo informações adicionais. Enquanto seu PR não for validado, você pode consultá-lo na aba `Pull requests` no repositório GitHub da Plan ₿ Academy:
 ![event](assets/38.webp)
 Muito obrigado pela sua valiosa contribuição! :)
 

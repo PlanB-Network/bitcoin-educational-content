@@ -1,7 +1,7 @@
-question: Welke instelling dwingt Bitcoin core alleen verbinding te maken via het Tor netwerk?
-answer: alleennet=onion
+question: Welke instelling dwingt Bitcoin Core alleen verbinding te maken via het Tor netwerk?
+answer: onlynet=onion
 wrong_answers:
-  - luisteronion=1
+  - listenonion=1
   - toronly=1
   - net=tor
 explanation: |

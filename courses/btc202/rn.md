@@ -118,7 +118,7 @@ Tuzoca dufata umwanya wo gusubiramwo bimwe mu vyiyumviro vyavuzwe imbere y’aho
 
 
 
-Nk’uko bigenda ku masomo yose ya Plan ₿ Network, mu gice ca nyuma, uzosanga ikizame ca nyuma co kugerageza ubumenyi ufise ku bijanye n’ibihimba vya Bitcoin.
+Nk’uko bigenda ku masomo yose ya Plan ₿ Academy, mu gice ca nyuma, uzosanga ikizame ca nyuma co kugerageza ubumenyi ufise ku bijanye n’ibihimba vya Bitcoin.
 
 
 
@@ -410,7 +410,7 @@ Mu yandi majambo, nk'ibice 9 kuri 10 vy'abantu bose bikoresha Bitcoin core. Ibin
 
 
 
-Bitcoin core yanditswe mu rurimi rwa C++. Ni umugambi kandi w’inkomoko yuguruye utunganywa n’umuryango w’abahinguzi b’ibintu bitanga canke barihwa n’ibigo bitandukanye (kenshi n’amashirahamwe ari mu bidukikije afise inyungu mu guteza imbere Core). [Kode iri kuri GitHub](https://github.com/Bitcoin/Bitcoin), kandi iterambere rikurikira uburyo bukomeye:
+Bitcoin Core ni porogaramu yanditswe muri C++. Ni kandi umushinga ufunguye ushingiye ku baturage, ufitwe n’umuryango w’abakora porogaramu ku bushake cyangwa bishyurwa n’ibigo bitandukanye (kenshi ibigo biri mu rusobe bifite inyungu mu iterambere rya Core). [Code iri kuri GitHub](https://github.com/bitcoin/bitcoin), kandi iterambere rikurikiza icyitegererezo gikomeye:
 
 
 
@@ -448,7 +448,7 @@ Turashobora kandi kuvuga:
 
 - Libbitcoin**: ububiko bw’ibitabu bwa C++ bwateguwe na Amir Taaki kandi bugatunganirizwa na Eric Voskuil;
 - Bcoin**: ugushirwa mu ngiro kwa JavaScript, ntikugikoreshwa neza;
-- BTCD/btcsuit**e: ugushirwa mu ngiro muri Go.
+- **BTCD/btcsuite** : ishyirwa mu bikorwa muri Go.
 
 
 
@@ -516,7 +516,7 @@ Mu gukoresha node yawe bwite, uratangaza amafaranga yawe ku rubuga, urenga abahu
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Ibicuruzwa bidashobora guhanwa
 
@@ -865,9 +865,9 @@ Ubu ni bwo buryo bufise ubusegaba kandi bushobora guhinduka: urazi neza ibiriko 
 
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
 #### Bitcoin Knots (umukiriya w'inyongera nyamukuru)
 
@@ -886,7 +886,7 @@ Hari impamvu 2 zishoboka zo guhitamwo Knots kuruta Core:
 - Policy**: Abantu bamwe bamwe barakunda gukoresha ubundi ba clients nka Knots kubera imvo zitari izo mu vy’ubuhinga, cane cane kugira ngo bashigikire ubundi buryo bwo gukoresha Core gutyo bagabanye ububasha bwayo bwo gukoresha. Iyo Core izokwigera ihungabana, vyoba vyiza atari gusa kugira abaguzi bakomeye kandi batunganijwe neza, ariko kandi no kumenya ingene yobakoresha neza. Abandi bakoresha Knots mu ntumbero zo kwiyamiriza, kubera ko batakaje icizigiro mu bategura Core canke ntibemera uburongozi bwinshi bw’umukiriya.
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
 Ku bwanje, ndagusavye guhitamwo Core, ahanini kugira ngo wungukire ku bipande vy’umutekano vyihuse. Nkako, hariho utunenge tumwetumwe twavumbuwe muri Knots turakosorwa haciye igihe. Muri rusangi, inzira y’iterambere rya Core iratunganijwe neza kandi ishigikiwe n’abantu benshi batanga, mu gihe Knots itunganywa n’umuntu umwe kandi ifise umuryango muto cane. Ku rundi ruhande, amategeko y’ugutanga amakuru akunda gutakaza akamaro kayo muri iki gihe, cane cane iyo akoreshejwe n’agace gatoyi gusa k’uruja n’uruza (nk’uko bivugwa mu ciyumviro c’ugucapura).
 
@@ -942,7 +942,7 @@ Sinzoja mu ndondoro nyinshi hano ku kuntu ikora n’ibintu vyihariye biyiranga, 
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 ### Itanguriro9 (ItanguriroOS)
 
@@ -968,7 +968,7 @@ Muri make, nimba ukeneye gusa ibikorwa vy’ingenzi vya Bitcoin, ataco wipfuza c
 
 
 
-https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
+https://planb.academy/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
 
 ### Urudodo rwanje
 
@@ -986,7 +986,7 @@ Mu bikorwa, MyNode ihuriza hamwe ibintu vyose vy’ishimikiro bikenewe kugira ng
 
 
 
-https://planb.network/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
+https://planb.academy/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
 
 ### RaspiBlitz
 
@@ -1004,7 +1004,7 @@ Niba ufise Raspberry Pi, iyi ni inzira nziza cane, kuko ubuhinga bushitse nka Um
 
 
 
-https://planb.network/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
+https://planb.academy/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
 
 ### RoninDojo
 
@@ -1026,7 +1026,7 @@ Uwo mugambi wari waratanga imashini yari yaratunganijwe imbere y’igihe yitwa T
 
 
 
-https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
+https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
 
 ### Nodl
 
@@ -1565,7 +1565,7 @@ Niba warahisemwo Raspberry Pi 5 (ihitamwo ntagusaba, nk’uko vyavuzwe mu gice c
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 Nk’uko nabibonye mu gice ca mbere, nahisemwo gukoresha iyi nyigisho kuri PC ntoyi yasanuwe nasanze kugiciro ciza: *Lenovo ThinkCentre M900 Tiny* ifise umurongo wa Intel Core i7 n’umurongo wa RAM wa 16 GB. Iyi ni uburyo bwiza cane bwo gukoresha Umbrel, cane cane ku nzira ya Bitcoin. Ariko rero, nahisemwo iyo nzira kubera ko nshaka gushiramwo urudodo rwa Lightning n’ibindi bikoresho bisaba cane mu nyuma. Nanje nyene nongeyeko SSD ya 2TB kuri ThinkCentre yanje kugira ngo ngume mfise Blockchain yuzuye kandi nkiriho mfise uruhande rwiza. Iyo ukoresheje iyo ntunganyo, igiciro cose ni €270, harimwo n’amahera yose.
 
@@ -1822,7 +1822,7 @@ Kugira ngo umenye IP Address ya Umbrel yawe, hari uburyo bwinshi, kuva ku bworos
 
 
 
-https://planb.network/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
+https://planb.academy/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
 
 
 
@@ -1864,9 +1864,9 @@ Hitamwo ijambobanga rikomeye kandi urabe ko ufise n’imiburiburi ububiko bumwe 
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Uhejeje kwinjiza ijambobanga ryawe, ukande kuri buto ya "*Create*".
 
@@ -1944,7 +1944,7 @@ Mbere na mbere, ndabahimiriza cane ko mwoshobora gukoresha uburyo bwo kwemeza ko
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Kugira ngo ubikore, nufyonde ku gasandugu kahuye n’ako kari mu mirongo y’ibintu.
 
@@ -2435,7 +2435,7 @@ Nk’uko twabibonye kera, umugenzuzi ashobora kwakirwa kuri internet ku rubuga c
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 Ikindi kandi, uwuguha Internet (ISP) yoshobora kumenya ko uriko urabona ikintu kinaka ukoresheje urubuga rwa Block explorer. Ivyo na vyo nyene biratuma haba ikibazo co kwizigira: utegerezwa kwizigira urubuga rwo kuri Internet kugira ngo ruguhe amakuru y’ukuri yerekeye ivyo ukoresha, utashoboye kugenzura ukuri kwavyo wewe nyene.
 
@@ -2472,7 +2472,7 @@ Kugira ngo umenye vyinshi ku bijanye no gukoresha Mempool.Space explorer, ndagus
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ### Urudodo rw'umuravyo
 
@@ -2492,15 +2492,15 @@ Umbrel itanga ibikorwa vyinshi vyo kugufasha gutuma node yawe ya Lightning ikora
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
 Ushobora rero gucungera urudodo rwawe ukoresheje Interface nyamukuru, canke, kugira ngo ubone ibikorwa vyinshi n'amahitamwo ateye imbere, ushiremwo *Ride The Lightning* canke *ThunderHub*. Ivyo bikoresho bizokuronsa uburyo bwo gucunga Interface bushingiye ku rubuga bushingiye ku rubuga rwawe.
 
 
 
-https://planb.network/tutorials/node/lightning-network/ride-the-lightning-ca007688-0653-490c-8349-81d330d744b5
+https://planb.academy/tutorials/node/lightning-network/ride-the-lightning-ca007688-0653-490c-8349-81d330d744b5
 
-https://planb.network/tutorials/node/lightning-network/thunderhub-16909a39-2484-408e-a118-4e34e249bb9a
+https://planb.academy/tutorials/node/lightning-network/thunderhub-16909a39-2484-408e-a118-4e34e249bb9a
 
 ![Image](assets/fr/088.webp)
 
@@ -2564,7 +2564,7 @@ Kugira ngo ushireho no gutunganya Tailscale ku Mutaka wawe, raba iyi nyigisho, i
 
 
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 ### Nostr
 
@@ -2598,7 +2598,7 @@ Kugira umenye ingene wokoresha izo porogarama zose, ndagusavye urabe iyi nyigish
 
 
 
-https://planb.network/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b-17c2ea1e08fd
+https://planb.academy/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b-17c2ea1e08fd
 
 ### Serveri ya BTCPay
 
@@ -2626,7 +2626,7 @@ Niba ufise ubucuruzi kandi wipfuza kwemera amahera ya Bitcoin biciye ku nzira ya
 
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 
 
@@ -2634,7 +2634,7 @@ https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 
 
-https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
+https://planb.academy/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 
 
 
@@ -2642,7 +2642,7 @@ https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 
 
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 
 # Ivyiyumviro biteye imbere n'ingene bigenda neza
@@ -2751,7 +2751,7 @@ Kugira ngo urushirize kumenya neza umutekano wa mudasobwa muri rusangi, ndagusav
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 ### Gupima no kwifasha
 
@@ -2941,7 +2941,7 @@ Iyo node yawe irangije gukorana neza, ibika amakuru menshi yuzuzanya mu karere, 
 
 
 
-- gW-402 **amabuye** abitswe kuri disiki,
+- **ibibuga** bya blockchain bibitswe kuri disiki,
 - **UTXO set** igumye mu bubiko bw'amakuru y'agaciro k'urufunguzo,
 - kandi **Mempool** ibikwa muri RAM kandi ikagenda irakurikirana.
 
@@ -3077,9 +3077,9 @@ Ukwiyongera kw'umugwi wa UTXO na kwo nyene kuva ku miterere y'ibikorwa vy'ukwish
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-Kubera ko igice caco kigomba kubikwa muri RAM kugira ngo umuntu asuzume amafaranga akoreshwa mu kiringo gikwiriye, iyo UTXO yoshobora buhorobuhoro gutuma igikorwa ca Full node gitwara amahera menshi cane. Kugira ngo iki kibazo gitorerwe umuti, hariho ivyiyumviro bikeyi bimaze kubaho, cane cane [Utreexo](https://planb.network/ibikoresho/urutonde rw’amajambo/utreexo).
+Kubera ko igice caco kigomba kubikwa muri RAM kugira ngo umuntu asuzume amafaranga akoreshwa mu kiringo gikwiriye, iyo UTXO yoshobora buhorobuhoro gutuma igikorwa ca Full node gitwara amahera menshi cane. Kugira ngo iki kibazo gitorerwe umuti, hariho ivyiyumviro bikeyi bimaze kubaho, cane cane [Utreexo](https://planb.academy/ibikoresho/urutonde rw’amajambo/utreexo).
 
 
 
@@ -3093,7 +3093,7 @@ Mempool ni urutonde rw’amafaranga y’aho hantu y’ukuri yashikirijwe ariko a
 
 
 - ubunini bugenewe Mempool biciye ku `maxmempool` parameter: urudodo rufise Mempool nini ruzoshobora gufata amafaranga menshi kurusha urudodo rufise Mempool nto (kiretse iyo ya nyuma iba ubusa);
-- Amategeko ya gW-433: aya ni igice c’amategeko y’ugutanga amakuru y’urudodo kandi asobanura ibiranga igikorwa kitaremejwe gitegerezwa guhura kugira ngo cemerwe muri Mempool;
+- amategeko ya mempool: ni igice cy’amategeko yo kohereza kwa node kandi asobanura ibiranga igikorwa kitaremezwa kigomba kugira ngo cyemererwe muri mempool;
 - transaction percolation: kubera ibintu bitandukanye, igikorwa kanaka gishobora kuba carashikirijwe igice kimwe c’urubuga, ariko ntikigeze ku kindi.
 
 
@@ -3135,10 +3135,10 @@ Ayandi madosiye menshi ari ku rugero rumwe na `amabuye/`, `uruhererekane/`, na `
 - Iyo node izimye, `anchors.dat` ibika aderesi z'abagenzi basohotse, kugira ngo ushobore kugerageza kwongera guhamagara ningoga igihe uzotangura.
 - `banlist.json` irimwo ibibujijwe vyo mu karere vyafashwe n'umukoresha canke n'urudodo (inyifato idakwiriye isubiramwo), kugira ngo urudodo ntirusubire gufatanya canke kwemera amahuzwa avuye kuri abo bagenzi.
 - `fee_estimates.dat` ibika imibare y'igihe ku vyemezo vyerekanwa, ikoreshwa n'umugenzuzi w'amahera kugira ngo ashireho ibiciro vy'amahera bihuye n'intumbero z'ugucererwa zatowe igihe umuntu akora igikorwa.
-- gW-446.conf` irimwo imiterere y'imiterere y'uruzitiro rwawe. Aho niho ushobora guhindura amategeko y’ugusubiramwo. Nzobabwira vyinshi kuri ivyo mu kigabane gikurikira.
+- `bitcoin.conf` irimo ibisobanuro bya node yawe. Ni muri iri dosiye ushobora guhindura amategeko yo kohereza. Nzabisobanura neza mu gice gikurikira;
 - `imiterere.json` irimwo ibindi bipimo kuri `Bitcoin.conf`.
 - `debug.log` ni igitabo c'inyandiko y'isuzuma, gishobora gukoreshwa mu gutahura igikorwa c'urudodo iyo habaye ikibazo.
-- gW-448.pid` ibika ikimenyetso c'imigenderanire mu gihe co gukora, igatuma izindi porogaramu canke inyandiko zimenya bitcoind (*Bitcoin daemon*) mu buryo bworoshe kandi zigakorana na yo iyo bikenewe. Iremwa mu gutangura node igafutwa mu gufunga.
+- `bitcoind.pid` ibika indangamuntu y’umurimo mu gihe cyo gukora, bikemerera izindi porogaramu cyangwa scripts kumenya byoroshye Bitcoind (*Bitcoin Daemon*) no kuganira nayo niba bikenewe. Ikorwa igihe node itangiye kandi igahanagurwa igihe ihagaritswe;
 - `ip_asn.map` ni IP → ASN imeza y'ikarita (uburyo bwigenga) ikoreshwa mu gukora ububiko n'uguhinduranya urunganwe (`-asmap` uburyo).
 - `onion_v3_private_key` ibika urufunguzo rw'ibanga rwa serivisi ya Tor v3 iyo uburyo bwa `-listenonion` bukoreshejwe, kugira ngo ugume ufise igitunguru gikomeye Address hagati y'ugusubira gutangura.
 - `i2p_private_key` ibika urufunguzo rw'ibanga rwa I2P iyo `-i2psam=` ikoreshejwe, kugira ngo ukore amahuzwa asohoka n'ashobora kwinjira kuri I2P.
@@ -3154,9 +3154,9 @@ Nk'uko twabibonye mu bice vya mbere vy'iri shure rya BTC 202, Bitcoin core ni po
 
 
 
-- `wallets/` ni ububiko mburabuzi bwakira kimwe canke vyinshi;
+- `wallets/` ni ububiko bw'ibanze burimo ububiko bumwe cyangwa bwinshi bw'amafaranga;
 - `amasakoshi/<izina>/Wallet.dat` ni urutonde rw'amakuru rwa SQLite rwa Wallet (imfunguruzo, ibisobanuro, amakuru y'ibikorwa, n'ibindi);
-- amasakoshi/<izina>/Wallet.dat-ikinyamakuru` ni igitabo co gusubira inyuma ca SQLite.
+- `wallets/<name>/wallet.dat-journal` ni ikinyamakuru cya rollback cya SQLite.
 
 
 
@@ -3335,10 +3335,10 @@ Ku rugero rw'urubuga, turafise kandi:
 
 
 - `addnode`: yongerako umugenzi w'umugenzi wo guhamagara uretse ivyo usanzwe uvumbura (bishobora gusobanurwamwo incuro nyinshi).
-- connect`: ibuza cane amahuzwa na Address yatanzwe (ishobora gusobanurwamwo incuro nyinshi). Core ntizokwifatanya n’iyindi node iyo ari yo yose.
+- `connect`: igabanya cyane ihuriro ku aderesi yatanzwe (ishobora gutangwa inshuro nyinshi). Core ntizahuza n'undi node uwo ari wo wose;
 - `seednode`: ikoreshwa gusa mu kwuzuza igitabu-Address iyo ihuye n'urudodo, hanyuma igaca.
 - `maxconnections`: isobanura igipimo c'isi yose c'amahuza yinjira + asohoka. Ku mburabuzi, iyi parametere iteguwe kuri 125, bisobanura ko node yawe itazokwigera yemera amahuzwa arenga 125.
-- maxuploadtarget`: ibipfukisho vy'ivyo gushiramwo kugira ngo bigabanye ubwaguke bw'umurongo ku idirisha ry'amasaha 24. Iyi nkweto ntituma ukwiragira kw'ingenzi kwa Elements.
+- `maxuploadtarget` : igabanya gukurura amafayilo kugira ngo igabanye ubuhagarike bw’imiyoboro mu masaha 24 ahindagurika. Iyi ntambwe ntiyigomwa ikwirakwizwa ry’ibice bishya by’ingenzi;
 - `onlynet`: igabanya amahuzwa asohoka ku mihora yatowe gusa (`ipv4`, `ipv6`, `igitunguru`, `i2p`, `cjdns`). Nk'akarorero, niwaba ushaka ko urudodo rwawe rufatanya n'urubuga rwa Bitcoin biciye kuri Tor gusa, urashobora gukoresha `onlynet=onion` parameter maze ugahagarika amahuriro yinjira (canke kwemera gusa amahuriro biciye kuri Tor na yo nyene).
 - `dnsseed`: yemera canke ntiyemere _Imbuto za DNS_ gusaba bagenzi igihe ikigega ca Address co mu karere kawe kiri hasi (ivya kera: `1`, kiretse `-guhuza` canke `-maxconnections=0`).
 - `forcednsseed`: ihatira _Imbuto za DNS_ gusaba mu gutangura, naho woba usanzwe ufise amaderesi mu bubiko (ivya kera: `0`).
@@ -3362,7 +3362,7 @@ Kugira ngo ushobore gukoresha Tor mu buryo bushitse, ukeneye guhatira Bitcoin co
 - `ubugenzuzi=127.0.0.1:9051`,
 - `ugutoranya=1`,
 - `umviriza=1`,
-- gufatanya=127.0.0.1`,
+- `bind=127.0.0.1`,
 - `upnp=0`,
 - `natpmp=0`.
 
@@ -3418,7 +3418,7 @@ Aha niho hari amaparametere y'ishimikiro ushobora guhindura kuri `Bitcoin.conf` 
 
 
 
-- blocksonly=1`: Ihagarika kwemera no gusubira gutanga amafaranga ataremejwe yaronse ku bagenzi (kiretse iyo hatanzwe uruhusha rudasanzwe). Node ubu ishira gusa kandi igatangaza amabuye. Ibikorwa vyakozwe mu karere birashobora gutangazwa (kugira ngo ukoreshe urudodo rwawe na porogarama yawe ya Wallet). Ivyo bigabanya cane bandwidth na RAM bisabwa, naho nyene bishobora kugabanya akamaro k'ivyo bikoresho no kutamenya neza Mempool.
+- `blocksonly=1` : Igererayo no kongera kohereza ibikorwa bitaremezwa byavuye ku bandi (keretse abafite uburenganzira bwihariye). Uru rubuga rumanura kandi ruvuga gusa ibibaho. Ibikorwa byakorewe hafi biracyashobora gukwirakwizwa (mu gukoresha uru rubuga hamwe na porogaramu y’umufuka wawe). Ibi bigabanya cyane ubusabwa bw’imiyoboro n’ubushobozi bwa RAM, ariko bigatuma bidafasha cyane mu kohereza no kutamenya na gato mempool.
 
 
 
@@ -3448,7 +3448,7 @@ Aha niho hari amasetingi ateye imbere ya Mempool n’ingingo ngenderwako y’ugu
 
 
 
-- datacarrier=1`: Yemerera gutanga no (niba Mining biciye ku nzira) gushiramwo ibikorwa bitwara amakuru atari ay'ivy'amahera biciye ku gisohoka ca `OP_RETURN` (ivya kera: `1`). Guhagarika iyi parametere bigabanya gatoyi uburebure bw'amakuru atari ay'ivy'amahera, ku giciro co kugabanya ukuntu bihuye n'ikoreshwa rimwe rimwe. Mu bihe vyose, utegerezwa kwemera `OP_RETURN`.
+- `datacarrier=1` : Iremeza kohereza no kongeramo ibikorwa bifite amakuru adafitanye isano n’amafaranga binyuze kuri `OP_RETURN` output (muri defaults: `1`) igihe bikorwa binyuze ku node. Kureka iri tegeko bigabanya gato spam y’amakuru adafitanye isano n’amafaranga ariko bigatuma bidahuza neza n’imikoreshereze imwe. Mu gihe cyose, ugomba kwemera `OP_RETURN` byacukuwe.
 
 
 
@@ -3490,13 +3490,13 @@ Aha niho hari amasetingi ateye imbere ya Mempool n’ingingo ngenderwako y’ugu
 
 
 
-- peerbloomfilters=1`: Gushoboza gufasha amayunguruzo ya Bloom (BIP37) kugira ngo akoreshe amabuye/amafaranga yayunguruwe ku bakiriya batobato (ivya kera: `0`). Imburi: ivyo birongereza umuzigo ku butunzi bwawe.
+- `peerbloomfilters=1` : Iremeza ikoreshwa ry’amasefa ya Bloom (BIP37) kugira ngo ihereze abakiriya boroshye ibibaho/ibikorwa byayunguwe (defaults: `0`). Icyitonderwa, ibi byongera imirimo ku bikoresho byawe.
 
 
 
 
 
-- 1`: Ikoresha BIP157 (*Neutrino*) iyunguruzo ry'urunganwe (mburabuzi: `0`).
+- `peerblockfilters=1` : Itanga amasefa agufi ya BIP157 (*Neutrino*) ku bandi (defaults: `0`).
 
 
 
@@ -3520,7 +3520,7 @@ Ushobora kandi guhindura uburyo amasakoshi yawe acungirwa muri dosiye `Bitcoin.c
 
 
 
-- aderesi=<iragi|P2SH-SegWit|bech32|bech32m>`: Isobanura uburyo bw'amaderesi ya Wallet yo kwakira.
+- `addresstype=<legacy|p2sh-segwit|bech32|bech32m>` : Igena uburyo bw’amaherere bukorwa n’umufuka mu kwakira.
 
 
 
@@ -3568,7 +3568,7 @@ Ushobora kandi guhindura uburyo amasakoshi yawe acungirwa muri dosiye `Bitcoin.c
 
 
 
-- fallbackfee=<amt>`: Igipimo co gusubira inyuma (BTC/kvB) gikoreshwa iyo umugereranyo arangije amakuru (ivya kera: `0.00`). Kuyishira kuri 0 bizibira burundu gusubira inyuma.
+- `fallbackfee=<amt>` : Igiciro cy’inyongera (BTC/kvB) gikoreshwa igihe umupima atabonye amakuru (defaults: `0.00`). Kugitera kuri 0 birahagarika burundu iyi gahunda y’inyongera.
 
 
 
@@ -3660,7 +3660,7 @@ Dosiye y’imiterere iragufasha kandi guhindura amaparametere ajanye n’imashin
 
 
 
-- txindex=1`: Yubaka kandi ibungabunga urutonde rw'isi yose rw'ibikorwa vyemejwe. Ni ngombwa ku bibazo bimwe bimwe (`getrawtransaction` bitari Wallet) no ku ntumbero zo gutohoza, ariko vyongera cane ikirenge ca disiki. Ntibihuye n’uburyo bwa pruned.
+- `txindex=1` : Yubaka kandi ikarinde urutonde rw’isi rw’ibikorwa byemejwe. Ni ngombwa ku busabe bumwe (`getrawtransaction` hanze y’umufuka) no mu bushakashatsi, ariko byongera cyane gukoresha disiki. Ntibijyana n’imikorere yo kugabanya amakuru.
 
 
 
@@ -3894,7 +3894,7 @@ Ubu ushobora kuja ku gice ca nyuma c’amashure, aho uzoshobora gusuzuma BTC 202
 
 
 
-Ubu ufise uburyo bwinshi bwo guhitamwo. Intambwe ikurikira yumvikana ni ugushinga node yawe bwite ya Lightning, bikagufasha kwigenga bimwe bishitse ku bikorwa vyawe vya off-chain. Ivyo bizoca bivugwa mu nyigisho izoza, izosohoka muri iri 2025 kuri Plan ₿ Network.
+Ubu ufise uburyo bwinshi bwo guhitamwo. Intambwe ikurikira yumvikana ni ugushinga node yawe bwite ya Lightning, bikagufasha kwigenga bimwe bishitse ku bikorwa vyawe vya off-chain. Ivyo bizoca bivugwa mu nyigisho izoza, izosohoka muri iri 2025 kuri Plan ₿ Academy.
 
 
 
@@ -3902,7 +3902,7 @@ Hagati aho, ndabatumiye ngo muvumbure inyigisho za BTC 204, zizotuma mutahura no
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 # Igice ca nyuma

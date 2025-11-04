@@ -73,10 +73,10 @@ Chagua nenosiri thabiti ili kupata ufikiaji kwa akaunti yako salama, kisha ubofy
 ![Image](assets/fr/06.webp)
 
 
-Kwa usimamizi salama wa nenosiri kila siku, matumizi ya kidhibiti nenosiri yanapendekezwa sana. Kwenye Plan ₿ Network, utapata mafunzo kadhaa juu ya masuluhisho bora yaliyopo, kama vile Bitwarden :
+Kwa usimamizi salama wa nenosiri kila siku, matumizi ya kidhibiti nenosiri yanapendekezwa sana. Kwenye Plan ₿ Academy, utapata mafunzo kadhaa juu ya masuluhisho bora yaliyopo, kama vile Bitwarden :
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Kisha utaombwa kuthibitisha utambulisho wako (KYC). Kwa mujibu wa kanuni za Kifaransa, utaombwa kutoa maelezo yako ya kibinafsi na uthibitisho wa utambulisho. Jaza kisanduku na jina lako la ukoo, jina la kwanza na tarehe ya kuzaliwa.
 
@@ -271,7 +271,7 @@ Amua kipaumbele cha muamala. Kwa uondoaji bila ada, chagua kipaumbele cha "*Stan
 ![Image](assets/fr/32.webp)
 
 
-Iwapo hufahamu jinsi Wallet inavyofanya kazi, tunatoa mafunzo kuhusu masuluhisho mengi yanayopatikana [kwenye Plan ₿ Network katika sehemu ya "*Wallet*"](https://planb.network/tutorials/wallet).
+Iwapo hufahamu jinsi Wallet inavyofanya kazi, tunatoa mafunzo kuhusu masuluhisho mengi yanayopatikana [kwenye Plan ₿ Academy katika sehemu ya "*Wallet*"](https://planb.academy/tutorials/wallet).
 
 
 ## Inauza Bitcoin

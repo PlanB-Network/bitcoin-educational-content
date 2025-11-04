@@ -42,7 +42,7 @@ Ikiwa unataka kwenda zaidi, angalia mafunzo kwenye Nmap:
 
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 ## II. Anza na Kichunguzi cha IP cha Hasira
 
@@ -181,4 +181,4 @@ Ikiwa ungependa kutumia **Nmap** na Interface ya mchoro, unaweza kutumia **progr
 
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d

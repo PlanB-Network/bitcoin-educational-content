@@ -22,7 +22,7 @@ Tässä aloittelijoille ja keskitason käyttäjille suunnatussa oppaassa opimme,
 
 Jos olet edistynyt käyttäjä ja haluat tutustua monimutkaisempiin ominaisuuksiin, suosittelen tutustumaan tähän toiseen opetusohjelmaan, jossa konfiguroimme Passportin ja Sparrow Walletin :
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
 ## Passin avaaminen
 
@@ -170,7 +170,7 @@ Käytä tähän Passport-pakkauksen mukana toimitettua MicroSD-korttia (tai tois
 
 Ennen kuin asennat sen laitteeseesi, suosittelemme, että tarkistat ladatun laiteohjelmiston aitouden ja eheyden. Jos tarvitset apua tässä, katso tätä ohjetta :
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### Envoy-sovelluksen avulla
 
@@ -254,7 +254,7 @@ Napsauta vahvistuspainiketta nähdäksesi muistisääntösi.
 
 Jos haluat lisätietoa siitä, miten muistisääntöjä tallennetaan ja hallitaan oikein, suosittelen seuraamaan tätä toista opetusohjelmaa, varsinkin jos olet aloittelija:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 näitä sanoja ei tietenkään saa koskaan jakaa internetissä, kuten minä teen tässä ohjeessa. Tätä esimerkkisalkkua käytetään vain Testnetissä, ja se poistetaan opetusohjelman päätyttyä.
 
@@ -457,4 +457,4 @@ Onneksi olkoon, tiedät nyt, miten Passport asetetaan ja miten sitä käytetää
 
 Lisätietoja on Liana-ohjelmiston oppaassa:
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04

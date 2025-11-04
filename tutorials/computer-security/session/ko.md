@@ -145,7 +145,7 @@ Android에서는 [APK를 통해 설치](https://github.com/session-foundation/se
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 **참고**: Mnemonic 지갑에서 사용되는 Bitcoin 문구와 달리, 세션에서는 **각 단어 전체를 저장해야 합니다**. 처음 4글자만으로는 충분하지 않습니다!
 
@@ -299,4 +299,4 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74

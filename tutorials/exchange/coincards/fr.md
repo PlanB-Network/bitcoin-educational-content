@@ -24,7 +24,7 @@ En synthèse "spend" & "replace" semble être la voie à suivre. Participez au d
 
 Comme son grand frère Bitrefill, et ses concurrents (The Bitcoin Company, Coinsbee etc...) Coincards vous permet de dépenser vos précieux satoshis pour acheter des cartes-cadeaux qui seront ensuite utilisables en ligne ou même en magasin physique, auprès des grandes enseignes présentes autour de chez vous. Et qui bien sûr n'acceptent pas encore Bitcoin nativement.
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 Coincards propose ainsi un choix très vaste allant de la vente au détail à la restauration rapide, en passant par les plateformes de streaming, les jeux en ligne, les sites e-commerce etc...
 Ils sont présents dans les régions suivantes: Amérique du Nord, Europe, et Australie.
@@ -37,11 +37,11 @@ Coincards a à cœur de préserver au maximum votre vie privée. Ils vous permet
 
 Cela est l'occasion de rappeler pour ceux qui souhaiteraient payer leurs cartes-cadeaux en Bitcoin tout en bénéficiant d'une bonne préservation de leur vie privée, de privilégier le Lightning Network pour ce faire.
 
-Une sélection de tutoriels sur les principaux portefeuilles Lightning (Phoenix, Breez, BitKit, Zeus...) vous est d'ailleurs proposée ici : [Plan ₿ Network - Wallet](https://planb.network/tutorials/wallet)
+Une sélection de tutoriels sur les principaux portefeuilles Lightning (Phoenix, Breez, BitKit, Zeus...) vous est d'ailleurs proposée ici : [Plan ₿ Academy - Wallet](https://planb.academy/tutorials/wallet)
 
 Si vous souhaitez en apprendre davantage sur le fonctionnement du Lightning Network, une formation complète est disponible.
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ## Comment acheter une carte-cadeau en BTC sur Coincards ?
 
@@ -126,4 +126,4 @@ Et voilà, vous savez maintenant comment dépenser vos bitcoins sans KYC dans de
 
 Si vous souhaitez contribuer à la popularisation de Bitcoin et encourager un commerçant indépendant à adopter cette méthode de paiement, je vous recommande de consulter notre tutoriel complet sur Swiss Bitcoin Pay. Il s'agit d'une solution tout-en-un pour les processeurs de paiement en BTC, facile à installer et à gérer au quotidien :
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

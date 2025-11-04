@@ -8,7 +8,7 @@ Misi PlanB adalah menyediakan sumber daya pendidikan tingkat atas tentang Bitcoi
 
 Apakah Anda ingin menambahkan "pembangun" Bitcoin baru ke situs Jaringan PlanB dan memberikan visibilitas untuk perusahaan atau perangkat lunak Anda, tetapi tidak tahu bagaimana? Tutorial ini untuk Anda!
 ![project](assets/01.webp)
-- Pertama, Anda perlu memiliki akun GitHub. Jika Anda tidak tahu cara membuat akun, kami telah membuat [tutorial terperinci untuk membimbing Anda](https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c).
+- Pertama, Anda perlu memiliki akun GitHub. Jika Anda tidak tahu cara membuat akun, kami telah membuat [tutorial terperinci untuk membimbing Anda](https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c).
 - Kunjungi [repositori GitHub PlanB yang didedikasikan untuk data](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects) di bagian `resources/project/`:
 ![project](assets/02.webp)
 - Klik tombol `Add file` di kanan atas, lalu pada `Create new file`:
@@ -106,7 +106,7 @@ category: pendidikan
 ![project](assets/13.webp)
 - Klik pada gambar profil GitHub Anda di pojok kanan atas, lalu pada `Your Repositories`:
 ![project](assets/14.webp)
-- Pilih fork Anda dari repositori PlanB Network:
+- Pilih fork Anda dari repositori Plan ₿ Academy:
 ![project](assets/15.webp)
 - Anda seharusnya melihat notifikasi di bagian atas jendela dengan cabang baru Anda. Mungkin disebut `patch-1`. Klik pada itu:
 ![project](assets/16.webp)
@@ -127,7 +127,7 @@ category: pendidikan
 ![project](assets/24.webp)
 - Klik pada tombol `Add file`, lalu pada `Upload files`:
 ![project](assets/25.webp)
-- Sebuah halaman baru akan terbuka. Seret dan lepaskan gambar perusahaan atau software Anda ke area tersebut. Gambar ini akan ditampilkan di situs PlanB Network:
+- Sebuah halaman baru akan terbuka. Seret dan lepaskan gambar perusahaan atau software Anda ke area tersebut. Gambar ini akan ditampilkan di situs Plan ₿ Academy:
 ![project](assets/26.webp)
 - Bisa jadi logo atau ikon:
 ![project](assets/27.webp)
@@ -156,7 +156,7 @@ contributors:
  - 
 ```
 
-- Untuk kunci `contributors`, Anda dapat menambahkan identifikasi kontributor Anda ke PlanB Network jika Anda memilikinya. Jika tidak, biarkan bidang ini kosong.
+- Untuk kunci `contributors`, Anda dapat menambahkan identifikasi kontributor Anda ke Plan ₿ Academy jika Anda memilikinya. Jika tidak, biarkan bidang ini kosong.
 - Untuk kunci `description`, Anda hanya perlu menambahkan paragraf singkat yang mendeskripsikan perusahaan atau perangkat lunak Anda. Deskripsi harus dalam bahasa yang sama dengan nama file. Anda tidak perlu menerjemahkan deskripsi ini ke semua bahasa yang didukung di situs, karena tim PlanB akan melakukannya menggunakan model mereka. Sebagai contoh, inilah tampilan file Anda:
 ```yaml
 description: |
@@ -180,9 +180,9 @@ contributors:
 ![project](assets/43.webp)
 - Klik tombol `Create pull request`:
 ![project](assets/44.webp)
-Selamat! PR Anda telah berhasil dibuat. Seorang administrator sekarang akan meninjau dan, jika semuanya sesuai, mengintegrasikannya ke dalam repositori utama PlanB Network. Profil project Anda akan muncul di situs web beberapa hari kemudian.
+Selamat! PR Anda telah berhasil dibuat. Seorang administrator sekarang akan meninjau dan, jika semuanya sesuai, mengintegrasikannya ke dalam repositori utama Plan ₿ Academy. Profil project Anda akan muncul di situs web beberapa hari kemudian.
 
-Pastikan untuk mengikuti kemajuan PR Anda. Seorang administrator mungkin meninggalkan komentar meminta informasi tambahan. Selama PR Anda belum divalidasi, Anda dapat mengkonsultasikannya di tab `Pull requests` pada repositori GitHub PlanB Network:
+Pastikan untuk mengikuti kemajuan PR Anda. Seorang administrator mungkin meninggalkan komentar meminta informasi tambahan. Selama PR Anda belum divalidasi, Anda dapat mengkonsultasikannya di tab `Pull requests` pada repositori GitHub Plan ₿ Academy:
 ![project](assets/45.webp)
 Terima kasih banyak atas kontribusi berharga Anda! :)
 

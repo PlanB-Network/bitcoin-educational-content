@@ -27,7 +27,7 @@ Om Umbrel te installeren en uw Bitcoin node te configureren, raden we u aan onze
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 Zorg ervoor dat je Bitcoin node up-to-date is en goed werkt, want Lightning Network vertrouwt erop voor alle off-chain transacties.
 
@@ -57,7 +57,7 @@ Voor een volledige theoretische inleiding tot Lightning Network raden we je aan 
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Deze cursus geeft je een grondige basis in de fundamentele concepten van Lightning Network, voordat je verder gaat met oefenen met je LND node.
 
@@ -613,7 +613,7 @@ Om meer te weten te komen over het configureren en gebruiken van uitkijktorens, 
 
 
 
-https://planb.network/tutorials/node/lightning-network/watch-tower-26937006-dfe5-404e-9ee4-e82e422c5cf2
+https://planb.academy/tutorials/node/lightning-network/watch-tower-26937006-dfe5-404e-9ee4-e82e422c5cf2
 ### Andere best practices
 
 

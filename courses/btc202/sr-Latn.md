@@ -118,7 +118,7 @@ Zatim ćemo odvojiti vreme da pregledamo neke od teorija obrađenih ranije u kur
 
 
 
-Kao i kod svih Plan ₿ Network kurseva, u poslednjem delu ćete pronaći završni ispit za testiranje vašeg znanja o Bitcoin čvorovima.
+Kao i kod svih Plan ₿ Academy kurseva, u poslednjem delu ćete pronaći završni ispit za testiranje vašeg znanja o Bitcoin čvorovima.
 
 
 
@@ -410,7 +410,7 @@ Drugim rečima, oko 9 od 10 javnih čvorova koristi Bitcoin core. Ostatak mreže
 
 
 
-Bitcoin core je napisan u C++. Takođe je open source projekat koji održava zajednica programera koji volontiraju ili su plaćeni od strane različitih entiteta (često od strane kompanija u ekosistemu koje imaju interes u razvoju Core-a). [Kod je hostovan na GitHub-u](https://github.com/Bitcoin/Bitcoin), a razvoj prati rigorozan:
+Bitcoin Core je softver napisan u C++. To je takođe open-source projekat koji održava zajednica programera — volontera ili onih koje finansiraju različiti subjekti (često kompanije iz ekosistema koje imaju interes da se razvoj Core-a odvija povoljno). [Kod je hostovan na GitHubu](https://github.com/bitcoin/bitcoin), a razvoj prati rigorozan model:
 
 
 
@@ -448,7 +448,7 @@ Možemo takođe pomenuti:
 
 - Libbitcoin**: modularna C++ biblioteka koju je razvio Amir Taaki i održava Eric Voskuil;
 - Bcoin**: JavaScript implementacija, više se ne održava;
-- BTCD/btcsuit**e: implementacija u Go jeziku.
+- **BTCD/btcsuite** : implementacija u Go-u.
 
 
 
@@ -516,7 +516,7 @@ Korišćenjem sopstvenog čvora, direktno emitujete svoje transakcije na mrežu,
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Transakcije koje se ne mogu cenzurisati
 
@@ -865,9 +865,9 @@ Ovo je najviše suvereni i fleksibilni pristup: tačno znate šta se pokreće, g
 
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
 #### Bitcoin Knots (glavni alternativni klijent)
 
@@ -886,7 +886,7 @@ Postoje 2 moguća razloga za odabir Knots-a umesto Core-a:
 - Policy**: Neki ljudi preferiraju korišćenje alternativnih klijenata kao što je Knots iz netehničkih razloga, posebno da bi podržali alternativu Core-u i tako smanjili njegov monopol. Ako bi Core ikada bio kompromitovan, bilo bi korisno ne samo imati solidne, dobro održavane alternativne klijente već i znati kako ih efikasno koristiti. Drugi koriste Knots iz protesta, jer su izgubili poverenje u Core-ove programere ili ne odobravaju većinu upravljanja klijentom.
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
 Lično, preporučujem da izaberete Core, prvenstveno da biste brže iskoristili sigurnosne zakrpe. Naime, neke ranjivosti otkrivene u Knots-u se ispravljaju sa zakašnjenjem. Generalno gledano, razvojni proces Core-a je solidno strukturiran i podržan od strane velikog broja saradnika, dok Knots održava jedna osoba i ima mnogo manju zajednicu. S druge strane, pravila releja danas imaju tendenciju da gube svoju korisnost, posebno kada ih primenjuje samo mali deo mreže (prema teoriji perkolacije).
 
@@ -942,7 +942,7 @@ Neću ulaziti u više detalja ovde o tome kako funkcioniše i njegovim specifič
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 ### Start9 (StartOS)
 
@@ -968,7 +968,7 @@ Ukratko, ako vam jednostavno trebaju osnovne aplikacije za Bitcoin, bez posebnog
 
 
 
-https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
+https://planb.academy/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
 
 ### MyNode
 
@@ -986,7 +986,7 @@ U praksi, MyNode okuplja sve osnovne građevinske blokove potrebne za rad sa Ful
 
 
 
-https://planb.network/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
+https://planb.academy/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
 
 ### RaspiBlitz
 
@@ -1004,7 +1004,7 @@ Ako posedujete Raspberry Pi, ovo je odlična opcija, jer sve kompletniji sistemi
 
 
 
-https://planb.network/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
+https://planb.academy/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
 
 ### RoninDojo
 
@@ -1026,7 +1026,7 @@ Projekat je ranije nudio unapred konfigurisan uređaj pod nazivom Tanto, ali tre
 
 
 
-https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
+https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
 
 ### Nodl
 
@@ -1565,7 +1565,7 @@ Ako ste se odlučili za Raspberry Pi 5 (opcija koju ne preporučujem, kao što j
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 Kao što je pomenuto u prethodnom delu, odlučio sam da pokrenem ovaj tutorijal na malom obnovljenom računaru koji sam pronašao po povoljnoj ceni: *Lenovo ThinkCentre M900 Tiny* opremljen Intel Core i7 procesorom i 16 GB RAM-a. Ovo je veoma udobna konfiguracija za pokretanje Umbrel-a, posebno za Bitcoin čvor. Međutim, izabrao sam ovu konfiguraciju jer želim da instaliram Lightning čvor i druge zahtevnije aplikacije kasnije. Takođe sam dodao 2TB SSD svom ThinkCentre-u kako bih zadržao puni Blockchain i još uvek imao udobnu marginu. Sa ovom konfiguracijom, ukupni trošak je 270 €, uključujući sve troškove.
 
@@ -1822,7 +1822,7 @@ Da biste identifikovali IP adresu vašeg Umbrel-a Address, postoji nekoliko meto
 
 
 
-https://planb.network/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
+https://planb.academy/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
 
 
 
@@ -1864,9 +1864,9 @@ Izaberite jaku lozinku i obavezno sačuvajte barem jednu rezervnu kopiju (prepor
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Kada unesete svoju lozinku, kliknite na dugme "*Create*".
 
@@ -1944,7 +1944,7 @@ Prvo i najvažnije, toplo preporučujem omogućavanje dvofaktorske autentifikaci
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Da biste to uradili, kliknite na odgovarajuće polje u podešavanjima.
 
@@ -2435,7 +2435,7 @@ Kao što je ranije pomenuto, explorer može biti hostovan online na vebsajtu ili
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 Štaviše, vaš Internet provajder (ISP) može znati da pregledate određenu transakciju putem Block explorer sajta. Ovo takođe postavlja pitanje poverenja: morate se osloniti na onlajn servis da vam pruži tačne informacije o vašim transakcijama, bez mogućnosti da sami proverite njihovu istinitost.
 
@@ -2472,7 +2472,7 @@ Da biste saznali više o korišćenju Mempool.Space explorer, preporučujem ovaj
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ### Lightning Node
 
@@ -2492,15 +2492,15 @@ Umbrel nudi brojne aplikacije koje će vam pomoći da pokrenete vaš Lightning �
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
 Zatim možete upravljati svojim čvorom sa glavnog Interface, ili, za još veću funkcionalnost i napredne opcije, instalirati *Ride The Lightning* ili *ThunderHub*. Ovi alati će vam pružiti mnogo sveobuhvatniji web-bazirani sistem upravljanja Interface za vaš čvor.
 
 
 
-https://planb.network/tutorials/node/lightning-network/ride-the-lightning-ca007688-0653-490c-8349-81d330d744b5
+https://planb.academy/tutorials/node/lightning-network/ride-the-lightning-ca007688-0653-490c-8349-81d330d744b5
 
-https://planb.network/tutorials/node/lightning-network/thunderhub-16909a39-2484-408e-a118-4e34e249bb9a
+https://planb.academy/tutorials/node/lightning-network/thunderhub-16909a39-2484-408e-a118-4e34e249bb9a
 
 ![Image](assets/fr/088.webp)
 
@@ -2564,7 +2564,7 @@ Da biste instalirali i konfigurisali Tailscale na vašem Umbrelu, pogledajte ova
 
 
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 ### Nostr
 
@@ -2598,7 +2598,7 @@ Da biste saznali kako koristiti sve ove aplikacije, preporučujem da pogledate o
 
 
 
-https://planb.network/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b-17c2ea1e08fd
+https://planb.academy/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b-17c2ea1e08fd
 
 ### BTCPay Server
 
@@ -2626,7 +2626,7 @@ Ako posedujete biznis i želite da prihvatate Bitcoin uplate direktno putem vaš
 
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 
 
@@ -2634,7 +2634,7 @@ https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 
 
-https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
+https://planb.academy/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 
 
 
@@ -2642,7 +2642,7 @@ https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 
 
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 
 # Napredni koncepti i najbolje prakse
@@ -2751,7 +2751,7 @@ Da biste produbili svoje znanje o računarskoj bezbednosti uopšte, toplo prepor
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 ### Dijagnoza i samopomoć
 
@@ -2941,7 +2941,7 @@ Kada vaš čvor završi svoju početnu sinhronizaciju, lokalno skladišti nekoli
 
 
 
-- gW-402 **blokova** pohranjenih na disku,
+- **blokovi** blokčejna sačuvani na disku,
 - **UTXO set** održavan u bazi podataka ključ-vrednost,
 - i **Mempool** se čuva u RAM-u i povremeno serijalizuje.
 
@@ -3077,9 +3077,9 @@ Rast rasta UTXO takođe proizlazi iz strukture jednostavnih platnih transakcija 
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-Pošto se deo toga mora čuvati u RAM-u kako bi se transakcije verifikovale u razumnom vremenu, set UTXO može postepeno učiniti rad Full node previše skupim. Da bi se rešio ovaj problem, već postoji nekoliko predloga, posebno [Utreexo](https://planb.network/resources/glossary/utreexo).
+Pošto se deo toga mora čuvati u RAM-u kako bi se transakcije verifikovale u razumnom vremenu, set UTXO može postepeno učiniti rad Full node previše skupim. Da bi se rešio ovaj problem, već postoji nekoliko predloga, posebno [Utreexo](https://planb.academy/resources/glossary/utreexo).
 
 
 
@@ -3093,7 +3093,7 @@ Mempool je lokalni skup važećih transakcija koje su primljene, ali još nisu p
 
 
 - veličina dodeljena Mempool putem parametra `maxmempool`: čvor sa većim Mempool moći će da drži više transakcija nego čvor sa manjim Mempool (osim ako se potonji ne isprazni);
-- gW-433 pravila: ovo je podskup pravila prenosa čvora i definiše karakteristike koje nepotvrđena transakcija mora ispuniti da bi bila prihvaćena u Mempool;
+- pravila mempool-a: ona predstavljaju podskup pravila prenosa čvora i definišu karakteristike koje nepotvrđena transakcija mora ispuniti da bi bila prihvaćena u mempool;
 - transakcija perkolacija: zbog različitih faktora, određena transakcija može biti distribuirana jednom delu mreže, ali još uvek nije stigla do drugog.
 
 
@@ -3135,10 +3135,10 @@ Nekoliko drugih fajlova na istom nivou kao `blocks/`, `chainstate/` i `indexes/`
 - Kada je čvor isključen, `anchors.dat` čuva adrese odlaznih vršnjaka, tako da možete brzo pokušati da ih kontaktirate ponovo sledeći put kada pokrenete sistem.
 - `banlist.json` sadrži lokalne zabrane koje je odredio operater ili čvor (ponovljeno nevažeće ponašanje), kako bi se sprečilo da se čvor ponovo poveže ili prihvati veze od ovih specifičnih vršnjaka.
 - `fee_estimates.dat` skladišti statistiku vremenskog horizonta o posmatranim potvrđivanjima, koju koristi procenjivač naknada za predlaganje stopa naknada u skladu sa ciljevima kašnjenja izabranim prilikom kreiranja transakcije.
-- gW-446.conf` sadrži parametre konfiguracije vašeg čvora. Ovde možete prilagoditi pravila releja. Reći ću vam više o tome u narednom poglavlju.
+- `bitcoin.conf` sadrži parametre konfiguracije vašeg čvora. Upravo u ovoj datoteci mogu se podesiti pravila prenosa. O tome ću detaljnije govoriti u sledećem poglavlju;
 - Datoteka `settings.json` sadrži dodatne parametre za `Bitcoin.conf`.
 - `debug.log` je dijagnostički tekstualni log, koji se može koristiti za razumevanje aktivnosti čvora u slučaju greške.
-- gW-448.pid` skladišti identifikator procesa u vreme izvršavanja, omogućavajući drugim aplikacijama ili skriptama da lako identifikuju bitcoind (*Bitcoin daemon*) i interaguju s njim ako je potrebno. Kreira se pri pokretanju čvora i briše pri gašenju.
+- `bitcoind.pid` beleži identifikator procesa tokom izvršavanja, što omogućava drugim aplikacijama ili skriptama da lako identifikuju Bitcoind (*Bitcoin Daemon*) i po potrebi interaguju sa njim. Kreira se pri pokretanju čvora i briše pri gašenju;
 - `ip_asn.map` je tabela mapiranja IP → ASN (samostalni sistem) koja se koristi za grupisanje i diversifikaciju peer-ova (opcija `-asmap`).
 - `onion_v3_private_key` čuva privatni ključ Tor v3 servisa kada je opcija `-listenonion` omogućena, kako bi se održao stabilan onion Address između ponovnih pokretanja.
 - `i2p_private_key` čuva I2P privatni ključ kada se koristi `-i2psam=`, za uspostavljanje odlaznih i moguće dolaznih veza na I2P.
@@ -3154,9 +3154,9 @@ Kao što smo videli u prvim delovima ovog BTC 202 kursa, Bitcoin core je i Bitco
 
 
 
-- `wallets/` je podrazumevani direktorijum koji sadrži jedan ili više;
+- `wallets/` je podrazumevani direktorijum koji sadrži jedan ili više novčanika;
 - `wallets/<name>/Wallet.dat` je SQLite baza podataka Wallet (ključevi, deskriptori, metapodaci transakcija, itd.);
-- wallets/<name>/Wallet.dat-journal` je SQLite rollback log.
+- `wallets/<name>/wallet.dat-journal` je SQLite rollback dnevnik.
 
 
 
@@ -3335,10 +3335,10 @@ Na nivou mreže, takođe imamo:
 
 
 - `addnode`: dodaje prijateljski peer za kontakt pored uobičajenog otkrivanja (može se navesti više puta).
-- connect`: strogo ograničava veze na navedeni Address (može biti specificirano više puta). Jezgro se neće povezivati ni sa jednim drugim čvorom.
+- `connect`: strogo ograničava veze na navedenu adresu (može se navesti više puta). Core se neće povezivati ni sa jednim drugim čvorom;
 - `seednode`: se koristi samo za popunjavanje book-Address prilikom povezivanja na čvor, zatim se prekida veza.
 - `maxconnections`: definiše globalni plafon za dolazne + odlazne konekcije. Po podrazumevanim postavkama, ovaj parametar je postavljen na 125, što znači da vaš čvor nikada neće prihvatiti više od 125 konekcija.
-- maxuploadtarget`: ograničava otpremu kako bi se ograničila širina pojasa tokom kliznog 24-časovnog perioda. Ovo ograničenje ne žrtvuje širenje esencijalnog nedavnog Elements.
+- `maxuploadtarget` : ograničava otpremanje kako bi se smanjila širina pojasa u pokretnom prozoru od 24 sata. Ovo ograničenje ne žrtvuje širenje neophodnih novijih elemenata;
 - `onlynet`: ograničava odlazne veze samo na odabrane mreže (`ipv4`, `ipv6`, `onion`, `i2p`, `cjdns`). Na primer, ako želite da se vaš čvor povezuje na Bitcoin mrežu samo putem Tor-a, možete omogućiti `onlynet=onion` parametar i onemogućiti dolazne veze (ili dozvoliti veze samo putem Tor-a).
 - `dnsseed`: omogućava ili onemogućava _DNS seeds_ da zahtevaju peer-ove kada je vaš lokalni Address pool nizak (podrazumevano: `1`, osim ako je `-connect` ili `-maxconnections=0`).
 - `forcednsseed`: forsira _DNS seeds_ da budu zatraženi pri pokretanju, čak i ako već imate adrese na raspolaganju (podrazumevano: `0`).
@@ -3362,7 +3362,7 @@ Da bi bio potpuno omogućen za Tor, potrebno je prisiliti Bitcoin core da korist
 - `torcontrol=127.0.0.1:9051`,
 - `proxyrandomize=1`,
 - `listen=1`,
-- bind=127.0.0.1`,
+- `bind=127.0.0.1`,
 - `upnp=0`,
 - `natpmp=0`.
 
@@ -3418,7 +3418,7 @@ Evo osnovnih parametara koje možete modifikovati u vašem `Bitcoin.conf` u vezi
 
 
 
-- blocksonly=1`: Onemogućava prihvatanje i ponovni prenos nepotvrđenih transakcija primljenih od vršnjaka (osim ako nisu dodeljene posebne dozvole). Čvor sada samo učitava i oglašava blokove. Transakcije kreirane lokalno i dalje mogu biti emitovane (za korišćenje vašeg čvora sa vašim Wallet softverom). Ovo značajno smanjuje zahteve za propusnim opsegom i RAM-om, iako na račun smanjene korisnosti za relej i potpune nepoznatosti sa Mempool.
+- `blocksonly=1` : Onemogućava prihvatanje i prosleđivanje nepotvrđenih transakcija primljenih od parova (osim sa posebnim dozvolama). Čvor preuzima i najavljuje samo blokove. Lokalno kreirane transakcije i dalje mogu biti emitovane (za korišćenje čvora sa softverom za novčanik). Ovo značajno smanjuje propusni opseg i potrebe za RAM-om, po cenu manje korisnosti za prosleđivanje i potpunog nepoznavanja mempool-a.
 
 
 
@@ -3448,7 +3448,7 @@ Evo su napredna podešavanja za Mempool i politiku releja. Ako ste početnik, ne
 
 
 
-- datacarrier=1`: Omogućava prosleđivanje i (ako je Mining preko čvora) uključivanje transakcija koje nose nefinansijske podatke putem `OP_RETURN` izlaza (podrazumevano: `1`). Deaktiviranje ovog parametra blago smanjuje površinu za spam nefinansijskih podataka, po cenu smanjene kompatibilnosti sa određenim upotrebama. U svim slučajevima, morate prihvatiti iskopane `OP_RETURN`.
+- `datacarrier=1` : Dozvoljava prenos i (ako se rudari preko čvora) uključivanje transakcija koje nose nefinansijske podatke putem `OP_RETURN` izlaza (podrazumevano: `1`). Onemogućavanje ovog parametra blago smanjuje mogućnost spama nefinansijskim podacima, ali smanjuje kompatibilnost sa određenim upotrebama. U svakom slučaju, moraćete da prihvatite izrudarene `OP_RETURN`.
 
 
 
@@ -3490,13 +3490,13 @@ Evo su napredna podešavanja za Mempool i politiku releja. Ako ste početnik, ne
 
 
 
-- peerbloomfilters=1`: Omogućite podršku za Bloom filtere (BIP37) kako biste opsluživali filtrirane blokove/transakcije tankim klijentima (podrazumevano: `0`). Upozorenje: ovo povećava opterećenje vaših resursa.
+- `peerbloomfilters=1` : Omogućava podršku za Bloom filtere (BIP37) radi pružanja filtriranih blokova/transakcija laganim klijentima (podrazumevano: `0`). Pažnja, ovo povećava opterećenje na vaše resurse.
 
 
 
 
 
-- peerblockfilters=1`: Služi BIP157 (*Neutrino*) kompaktne filtere vršnjacima (podrazumevano: `0`).
+- `peerblockfilters=1` : Pruža kompaktne BIP157 (*Neutrino*) filtere peerovima (podrazumevano: `0`).
 
 
 
@@ -3520,7 +3520,7 @@ Takođe možete prilagoditi način na koji se vaši novčanici upravljaju u dato
 
 
 
-- addresstype=<legacy|P2SH-SegWit|bech32|bech32m>`: Definiše format adresa generisanih Wallet za prijem.
+- `addresstype=<legacy|p2sh-segwit|bech32|bech32m>` : Definiše format adresa koje novčanik generiše za prijem.
 
 
 
@@ -3568,7 +3568,7 @@ Takođe možete prilagoditi način na koji se vaši novčanici upravljaju u dato
 
 
 
-- fallbackfee=<amt>`: Rezervna stopa (BTC/kvB) koja se koristi ako procenjivač ostane bez podataka (podrazumevano: `0.00`). Postavljanje na 0 potpuno onemogućava rezervu.
+- `fallbackfee=<amt>` : Rezervna naknada (BTC/kvB) koja se koristi ako procenitelj nema dovoljno podataka (podrazumevano: `0.00`). Postavljanje na 0 potpuno onemogućava rezervnu funkciju.
 
 
 
@@ -3660,7 +3660,7 @@ Datoteka konfiguracije takođe vam omogućava da prilagodite parametre vezane za
 
 
 
-- txindex=1`: Gradi i održava globalni indeks potvrđenih transakcija. Neophodan za određene upite (`getrawtransaction` non-Wallet) i za svrhe istraživanja, ali značajno povećava zauzeće diska. Nekompatibilan sa pruned režimom.
+- `txindex=1` : Kreira i održava globalni indeks potvrđenih transakcija. Neophodno za određene upite (`getrawtransaction` van novčanika) i za istraživačke svrhe, ali značajno povećava upotrebu diska. Nije kompatibilno sa režimom orezivanja.
 
 
 
@@ -3894,7 +3894,7 @@ Sada možete preći na poslednji deo kursa, gde ćete moći da ocenite BTC 202, 
 
 
 
-Sada imate nekoliko opcija na raspolaganju. Sledeći logičan korak je da postavite svoj sopstveni Lightning čvor, što će vam omogućiti da budete potpuno nezavisni za vaše off-chain transakcije. Ovo će biti tema predstojećeg kursa, koji će biti objavljen ove jeseni 2025. na Plan ₿ Network.
+Sada imate nekoliko opcija na raspolaganju. Sledeći logičan korak je da postavite svoj sopstveni Lightning čvor, što će vam omogućiti da budete potpuno nezavisni za vaše off-chain transakcije. Ovo će biti tema predstojećeg kursa, koji će biti objavljen ove jeseni 2025. na Plan ₿ Academy.
 
 
 
@@ -3902,7 +3902,7 @@ U međuvremenu, pozivam vas da otkrijete obuku BTC 204, koja će vam omogućiti 
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 # Finalni deo

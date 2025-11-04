@@ -32,12 +32,12 @@ Fyll i den information som krävs: ange din e-postadress Address och land där d
 För tips om hur du använder och skyddar starka, unika lösenord, se även denna handledning :
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Vi ska nu konfigurera 2FA för att säkra kontot. Använd en autentiseringsapplikation på din smartphone, som till exempel Google Authenticator eller Authy. Du hittar en handledning om detta verktyg här :
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Skanna QR-koden med din app och ange de 6 siffrorna som anges.
 
@@ -245,9 +245,9 @@ Bitfinex erbjuder också insättnings- och uttagsalternativ via Lightning Networ
 Om du är intresserad av Lightning Network har vi också en komplett utbildning som hjälper dig att förstå hur den fungerar:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-Efter att ha köpt dina första bitcoins har du självklart möjlighet att lämna dem på plattformen, men jag rekommenderar starkt att du överför dem till din egen Wallet i självförvaring. Om du ännu inte vet hur man använder en Bitcoin Wallet, inbjuder jag dig att utforska [avsnittet "Wallet" på Plan ₿ Network] (https://planb.network/tutorials/wallet).
+Efter att ha köpt dina första bitcoins har du självklart möjlighet att lämna dem på plattformen, men jag rekommenderar starkt att du överför dem till din egen Wallet i självförvaring. Om du ännu inte vet hur man använder en Bitcoin Wallet, inbjuder jag dig att utforska [avsnittet "Wallet" på Plan ₿ Academy] (https://planb.academy/tutorials/wallet).
 
 
 ## 6 - Köpa och sälja bitcoins på Bitfinex

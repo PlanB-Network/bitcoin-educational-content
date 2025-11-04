@@ -73,10 +73,10 @@ Izaberite jaku lozinku kako biste osigurali pristup svom nalogu, zatim kliknite 
 ![Image](assets/fr/06.webp)
 
 
-Za sigurno upravljanje lozinkama na dnevnoj bazi, preporučuje se korišćenje menadžera lozinki. Na Plan ₿ Network, pronaći ćete nekoliko tutorijala o najboljim postojećim rešenjima, kao što je Bitwarden :
+Za sigurno upravljanje lozinkama na dnevnoj bazi, preporučuje se korišćenje menadžera lozinki. Na Plan ₿ Academy, pronaći ćete nekoliko tutorijala o najboljim postojećim rešenjima, kao što je Bitwarden :
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Bićete zamoljeni da verifikujete svoj identitet (KYC). U skladu sa francuskim propisima, od vas će biti zatraženo da dostavite svoje lične podatke i dokaz identiteta. Popunite polja sa vašim prezimenom, imenom i datumom rođenja.
 
@@ -271,7 +271,7 @@ Odredite prioritet transakcije. Za povlačenje bez naknade, izaberite prioritet 
 ![Image](assets/fr/32.webp)
 
 
-Ako niste upoznati sa tim kako funkcioniše samostalno čuvanje Wallet, nudimo tutorijale za većinu dostupnih rešenja [na Plan ₿ Network u odeljku "*Wallet*"](https://planb.network/tutorials/wallet).
+Ako niste upoznati sa tim kako funkcioniše samostalno čuvanje Wallet, nudimo tutorijale za većinu dostupnih rešenja [na Plan ₿ Academy u odeljku "*Wallet*"](https://planb.academy/tutorials/wallet).
 
 
 ## Prodaja Bitcoin

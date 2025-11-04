@@ -68,7 +68,7 @@ Zeskanuj kod QR za pomocą aplikacji uwierzytelniającej, wprowadź 6-cyfrowy ko
 Jeśli nie jesteś zaznajomiony z używaniem aplikacji uwierzytelniających do 2FA, polecam zapoznać się z tym samouczkiem na temat aplikacji Authy:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Wprowadź hasło, aby potwierdzić.
 
@@ -181,9 +181,9 @@ Wprowadź kwotę, którą chcesz kupić. Musisz również wybrać sposób wypła
 Jeśli nie jesteś zaznajomiony z korzystaniem z portfeli Bitcoin, Lightning lub Liquid, sugeruję, abyś wziął udział w naszym dedykowanym szkoleniu:
 
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
-Możesz również zapoznać się z [naszymi szczegółowymi samouczkami na temat najlepszych portfeli Bitcoin] (https://planb.network/tutorials/wallet).
+Możesz również zapoznać się z [naszymi szczegółowymi samouczkami na temat najlepszych portfeli Bitcoin] (https://planb.academy/tutorials/wallet).
 
 
 Następnie potwierdź zakup, klikając przycisk "*Potwierdź zakup*".
@@ -286,10 +286,18 @@ Aby śledzić wszystkie swoje transakcje, możesz sprawdzić historię w menu "*
 ![BULL](assets/fr/36.webp)
 
 
+## Rozpocznij automatyczny cykliczny zakup (DCA)
+
+![video](https://youtu.be/_A23JI492Zc)
+
+## Utwórz zlecenie z limitem ceny
+
+![video](https://youtu.be/6Jlu19jlk7U)
+
 Teraz już wiesz, jak łatwo kupować i sprzedawać Bitcoin za pomocą Bull Bitcoin. Jeśli uważasz ten poradnik za przydatny, będę bardzo wdzięczny, jeśli umieścisz poniżej kciuk Green. Zapraszam do udostępnienia tego artykułu w sieciach społecznościowych. Dziękuję bardzo!
 
 
 Polecam również zapoznać się z tym obszernym samouczkiem, aby dowiedzieć się, jak zarządzać frazą Mnemonic we właściwy sposób:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270

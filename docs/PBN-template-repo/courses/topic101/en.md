@@ -9,7 +9,7 @@ objectives:
 
 # This Part is used as a Description Page of the Course
 
-In this course, I will explain how to create a course using the PlanB Network Format.
+In this course, I will explain how to create a course using the Plan ₿ Academy Format.
 
 You should state here the approximate time volume that it takes to finish the whole course.
 The course should take approximately 1 hour.
@@ -35,10 +35,10 @@ In this description page we will also displayed the `thumbnail.webp` image prese
 Courses is composed of 3 different sub-elements that are:
 
 - Part, defined by the `# ` level and useful to separate the course in theme or main subject
-- Chapter, defined by the `## ` level and useful to separate the part content in several pages as on PlanB Network each chapter is displayed on its own page
+- Chapter, defined by the `## ` level and useful to separate the part content in several pages as on Plan ₿ Academy each chapter is displayed on its own page
 - Section, defined by the `### ` level and useful to separate Chapter in sub-subject for clarity
 
-This three object are used to create the curriculuum on the PBN platform. Here's an example for [BTC101](https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966)
+This three object are used to create the curriculuum on the Plan ₿ Academy platform. Here's an example for [BTC101](https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966)
 
 ![BTC 101 curriculum](./assets/en/btc101-curriculum.webp)
 
@@ -46,7 +46,7 @@ You can see that here we have used 2 syntaxes from the Markdown syntax to redire
 
 You may noticed that the image is in the subfolder `assets/en/`, it's because it is a picture that contains english text that will be translated in other languages. If the image doesn't contain text it should be in the subfolder `assets/no-txt/`.
 
-![PBN logo](./assets/no-txt/PBN-logo.webp)
+![Plan ₿ Academy logo](./assets/no-txt/PBN-logo.webp)
 
 Although every image format is valid, we prefer for storage efficiency reason to convert every image into `.webp` format. If you don't know how to do it, we have a python script that do the job and our code revieviers could also do while reviewing your PR.
 

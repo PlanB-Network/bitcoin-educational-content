@@ -8,7 +8,7 @@ description: Jinsi ya kununua bidhaa na huduma na BTC kwa kutumia Bitrefill?
 Ingawa Bitcoin inachukuliwa kuwa njia ya kuokoa leo, inasalia kuwa sarafu ambayo matumizi yake yanategemea uwezo wake wa kuzunguka kutoka mkono hadi mkono. Ikiwa wafanyabiashara walio karibu nawe wanakubali Bitcoin kama njia ya kulipa, una chaguo la kuitumia moja kwa moja nao. Kwa bahati mbaya, mazoezi haya bado hayajaenea, na wafanyabiashara wengi bado hawakubali BTC asili.
 
 
-Suluhisho bora zaidi linasalia kwa "kidonge cha chungwa" wafanyabiashara wa ndani ili kuwafanya wakubali Bitcoin, kwa kueleza faida za mfumo huu. Unaweza kutumia mafunzo yanayopatikana katika sehemu ya ["*merchants*"](https://planb.network/tutorials/merchant) ya tovuti yetu kama usaidizi. Mkakati huu unaweza kuwa na ufanisi kwa wafanyabiashara wadogo wanaojitegemea, lakini inathibitisha kuwa changamano zaidi kwa minyororo mikubwa ya kitaifa, kwa kuwa watu wanaowasiliana kwenye tovuti kwa ujumla si wao wanaofanya maamuzi kuhusu njia za malipo.
+Suluhisho bora zaidi linasalia kwa "kidonge cha chungwa" wafanyabiashara wa ndani ili kuwafanya wakubali Bitcoin, kwa kueleza faida za mfumo huu. Unaweza kutumia mafunzo yanayopatikana katika sehemu ya ["*merchants*"](https://planb.academy/tutorials/merchant) ya tovuti yetu kama usaidizi. Mkakati huu unaweza kuwa na ufanisi kwa wafanyabiashara wadogo wanaojitegemea, lakini inathibitisha kuwa changamano zaidi kwa minyororo mikubwa ya kitaifa, kwa kuwa watu wanaowasiliana kwenye tovuti kwa ujumla si wao wanaofanya maamuzi kuhusu njia za malipo.
 
 
 Unaposubiri kupitishwa kwa minyororo hii kwa wingi zaidi, unaweza kutumia bitcoins zako kwa kutumia njia ya malipo ya kati: kadi za zawadi. Na hivi ndivyo Bitrefill inakupa ili kukupa.
@@ -46,9 +46,9 @@ Weka barua pepe Address. Iwapo ungependa kuhifadhi jina la akaunti yako, hakikis
 Ikiwa ungependa kujifunza jinsi ya kuunda kisanduku salama cha barua pepe kwa urahisi na jinsi ya kudhibiti maneno ya siri yako, ninapendekeza uangalie mafunzo haya 2 mengine:
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Kisha, bofya kitufe cha "*Fungua akaunti*".
 
@@ -85,7 +85,7 @@ Katika sehemu ya "*Uthibitishaji wa sababu mbili*", bofya kitufe cha "*Wezesha*"
 Ili kupata maelezo zaidi kuhusu jinsi ya kutumia uthibitishaji wa vipengele viwili ili kulinda akaunti zako za mtandaoni, ninapendekeza ugundue mafunzo haya mengine:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 ## Jinsi ya kununua kadi ya zawadi katika BTC kwenye Bitrefill?
 
@@ -158,4 +158,4 @@ Na hapo unayo, sasa unajua jinsi ya kutumia bitcoins zako bila KYC kwa wauzaji w
 Iwapo ungependa kuchangia umaarufu wa Bitcoin na kuhimiza mfanyabiashara anayejitegemea atumie njia hii ya malipo, ninapendekeza usome mafunzo yetu kamili kuhusu Uswizi Bitcoin Pay. Ni suluhisho la yote kwa moja kwa vichakataji malipo vya BTC, rahisi kusakinisha na kudhibiti kila siku:
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

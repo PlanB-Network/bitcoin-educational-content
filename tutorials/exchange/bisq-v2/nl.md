@@ -84,7 +84,7 @@ Deze gids richt zich uitsluitend op "Bisq Easy", het enige momenteel beschikbare
 - De maker van de aanbieding bepaalt de voorwaarden van de Exchange
 - Zodra de handelaren het eens zijn over de voorwaarden (betalingsmethode en prijs), begint de Exchange
 - De verkoper stuurt zijn bankgegevens naar de koper en de koper stuurt zijn Bitcoin Address naar de verkoper
-- Koper betaalt contant en stelt verkoper op de hoogte
+- De koper doet de betaling in fiatvaluta en stelt de verkoper op de hoogte
 - Zodra de betaling is ontvangen, stuurt de verkoper de bitcoins naar de Address van de koper
 - De Exchange is voltooid wanneer de koper de bitcoins ontvangt
 

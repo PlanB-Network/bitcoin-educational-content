@@ -62,7 +62,7 @@ Esta guía se centra exclusivamente en "Bisq Easy", el único protocolo actualme
 - El creador de la oferta define las condiciones del intercambio
 - Una vez que los operadores han acordado las condiciones (forma de pago y precio), comienza el intercambio
 - El vendedor envía sus datos bancarios al comprador, y el comprador envía su dirección Bitcoin al vendedor
-- El comprador realiza el pago en efectivo y lo notifica al vendedor
+- El comprador realiza el pago en moneda fiduciaria y notifica al vendedor
 - Una vez recibido el pago, el vendedor envía los bitcoins a la dirección del comprador
 - El intercambio se completa cuando el comprador recibe los bitcoins
 

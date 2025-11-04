@@ -62,7 +62,7 @@ Tato příručka se zaměřuje výhradně na „Bisq Easy“, jediný aktuálně
 - Tvůrce nabídky definuje podmínky výměny
 - Jakmile se obchodníci dohodnou na podmínkách (způsob platby a cena), začíná výměna
 - Prodávající zašle kupujícímu své bankovní údaje a kupující zašle prodávajícímu svou adresu bitcoinu
-- Kupující provede platbu v hotovosti a oznámí to prodávajícímu
+- Kupující provede platbu ve fiat měně a upozorní prodejce
 - Po obdržení platby odešle prodávající bitcoiny na adresu kupujícího
 - Výměna je dokončena, když kupující obdrží bitcoiny
 

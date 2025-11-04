@@ -84,7 +84,7 @@ Ovaj vodič se isključivo fokusira na „Bisq Easy“, jedini trenutno dostupni
 - Kreator ponude definiše uslove Exchange
 - Jednom kada se trgovci dogovore o uslovima (način plaćanja i cena), Exchange počinje
 - Prodavac šalje svoje bankovne podatke kupcu, a kupac šalje svoj Bitcoin Address prodavcu.
-- Kupac vrši uplatu u gotovini i obaveštava prodavca
+- Kupac vrši uplatu u fiat valuti i obaveštava prodavca
 - Jednom kada uplata bude primljena, prodavac šalje bitkoine kupcu na Address
 - Exchange je završen kada kupac primi bitkoine
 

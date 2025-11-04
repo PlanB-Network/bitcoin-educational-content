@@ -84,7 +84,7 @@ Iyi nyandiko yibanda gusa kuri "Bisq Easy", protokole imwe rukumbi ihari ubu. Bi
 - Uwaremye iyo mpano asigura amajambo yo muri Exchange .
 - Abacuruzi bamaze kwumvikana ku masezerano (uburyo bwo kwishura n’igiciro), Exchange iratangura .
 - Uwugurisha arungikira uwumugura amakuru yiwe yo muri banki, uwo muguzi na we akarungikira uwumugurisha igitabu ciwe citwa Bitcoin Address .
-- Uwuguze ariha amafranga kandi akamenyesha uwugurisha
+- Umuguzi akora ubwishyu mu mafaranga asanzwe kandi amenyesha ugurisha
 - Iyo amahera amaze gushikwako, uwugurisha yohereza ayo ma bitcoins ku Address y’umuguzi.
 - Exchange iraheza iyo umuguzi aronse ama bitcoins .
 

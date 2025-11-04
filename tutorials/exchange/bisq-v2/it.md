@@ -62,7 +62,7 @@ Questa guida si concentra esclusivamente su "Bisq Easy", l'unico protocollo attu
 - L'ideatore dell'offerta definisce i termini dello scambio
 - Una volta che gli operatori si sono accordati sui termini (metodo di pagamento e prezzo), lo scambio ha inizio
 - Il venditore invia le proprie coordinate bancarie all'acquirente e l'acquirente invia il proprio indirizzo Bitcoin al venditore
-- L'acquirente effettua il pagamento in contanti e lo comunica al venditore
+- L'acquirente effettua il pagamento in valuta fiat e notifica il venditore
 - Una volta ricevuto il pagamento, il venditore invia i bitcoin all'indirizzo dell'acquirente
 - Lo scambio è completo quando l'acquirente riceve i bitcoin
 

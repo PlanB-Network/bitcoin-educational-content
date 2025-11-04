@@ -62,7 +62,7 @@ Este guia concentra-se exclusivamente no "Bisq Easy", o único protocolo atualme
 - O criador da oferta define os termos da troca
 - Uma vez acordados os termos (método de pagamento e preço), a troca começa
 - O vendedor envia os seus dados bancários para o comprador e o comprador envia o seu endereço Bitcoin para o vendedor
-- O comprador efectua o pagamento em numerário e notifica o vendedor
+- O comprador efetua o pagamento em moeda fiduciária e notifica o vendedor
 - Uma vez recebido o pagamento, o vendedor envia os bitcoins para o endereço do comprador
 - A troca fica concluída quando o comprador recebe os bitcoins
 

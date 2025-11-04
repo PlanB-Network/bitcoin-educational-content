@@ -62,7 +62,7 @@ Denne veiledningen fokuserer utelukkende på «Bisq Easy», den eneste protokoll
 - Den som utarbeider tilbudet, definerer vilkårene for utvekslingen
 - Når forhandlerne har blitt enige om vilkårene (betalingsmåte og pris), begynner utvekslingen
 - Selgeren sender bankopplysningene sine til kjøperen, og kjøperen sender Bitcoin-adressen sin til selgeren
-- Kjøperen betaler kontant og gir selgeren beskjed om dette
+- Kjøperen foretar betalingen i fiat-valuta og varsler selgeren
 - Når betalingen er mottatt, sender selgeren bitcoinsene til kjøperens adresse
 - Utvekslingen er fullført når kjøperen mottar bitcoinsene
 

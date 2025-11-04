@@ -62,7 +62,7 @@ See juhend keskendub täielikult „Bisq Easy’le“, ainsale praegu saadaval o
 - Pakkumise tegija määratleb vahetuse tingimused
 - Kui kauplejad on tingimustes (makseviis ja hind) kokku leppinud, algab vahetus
 - Müüja saadab ostjale oma pangaandmed ja ostja saadab müüjale oma Bitcoini aadressi
-- Ostja teeb makse sularahas ja teatab sellest müüjale
+- Ostja teeb makse fiat-valuutas ja teavitab müüjat
 - Kui makse on laekunud, saadab müüja bitcoinid ostja aadressile
 - Vahetamine on lõpule viidud, kui ostja saab bitcoinid kätte
 

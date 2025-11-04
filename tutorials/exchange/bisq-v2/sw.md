@@ -84,7 +84,7 @@ Mwongozo huu unalenga pekee kwenye "Bisq Easy", itifaki pekee inayopatikana kwa 
 - Mtayarishi wa ofa anafafanua masharti ya Exchange
 - Mara tu wafanyabiashara wamekubaliana juu ya masharti (mbinu ya malipo na bei), Exchange huanza
 - Muuzaji hutuma maelezo yake ya benki kwa mnunuzi, na mnunuzi hutuma Bitcoin Address yake kwa muuzaji.
-- Mnunuzi hufanya malipo kwa pesa taslimu na kumjulisha muuzaji
+- Mnunuzi anafanya malipo kwa sarafu ya fiat na kumjulisha muuzaji
 - Mara tu malipo yamepokelewa, muuzaji hutuma bitcoins kwa Address ya mnunuzi
 - Exchange imekamilika wakati mnunuzi anapokea bitcoins
 

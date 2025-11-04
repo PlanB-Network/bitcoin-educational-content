@@ -84,7 +84,7 @@ Bu rehber yalnızca şu anda mevcut olan tek protokol olan "Bisq Easy"ye odaklan
 - Teklifi oluşturan kişi Exchange'in şartlarını tanımlar
 - Tüccarlar şartlar (ödeme yöntemi ve fiyat) üzerinde anlaştıktan sonra Exchange başlar
 - Satıcı banka bilgilerini alıcıya gönderir ve alıcı da Bitcoin Address bilgilerini satıcıya gönderir
-- Alıcı ödemeyi nakit olarak yapar ve satıcıya bildirir
+- Alıcı itibari para ile ödemeyi yapar ve satıcıyı bilgilendirir
 - Ödeme alındıktan sonra, satıcı bitcoinleri alıcının Address'ine gönderir
 - Alıcı bitcoinleri aldığında Exchange tamamlanmış olur
 

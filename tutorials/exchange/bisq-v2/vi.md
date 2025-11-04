@@ -62,7 +62,7 @@ Hướng dẫn này tập trung hoàn toàn vào "Bisq Easy", giao thức duy nh
 - The creator of the offer defines the terms of the exchange
 - Once the traders have agreed on the terms (payment method and price), the exchange begins
 - The seller sends his bank details to the buyer, and the buyer sends his Bitcoin address to the seller
-- Buyer makes payment in cash and notifies seller
+- Người mua thực hiện thanh toán bằng tiền pháp định và thông báo cho người bán
 - Once payment has been received, the seller sends the bitcoins to the buyer's address
 - The exchange is complete when the buyer receives the bitcoins
 

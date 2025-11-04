@@ -84,7 +84,7 @@ Ten przewodnik koncentruje się wyłącznie na „Bisq Easy”, jedynym obecnie 
 - Twórca oferty określa warunki Exchange
 - Gdy inwestorzy uzgodnią warunki (metodę płatności i cenę), rozpoczyna się Exchange
 - Sprzedający wysyła swoje dane bankowe do kupującego, a kupujący wysyła swoje Bitcoin Address do sprzedającego
-- Kupujący dokonuje płatności gotówką i powiadamia o tym sprzedawcę
+- Kupujący dokonuje płatności w walucie fiducjarnej i powiadamia sprzedawcę
 - Po otrzymaniu płatności sprzedawca wysyła bitcoiny do Address kupującego
 - Transakcja Exchange jest zakończona, gdy kupujący otrzyma bitcoiny
 

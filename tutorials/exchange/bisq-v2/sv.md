@@ -84,7 +84,7 @@ Denna guide fokuserar uteslutande på "Bisq Easy", det enda protokollet som för
 - Den som skapar erbjudandet definierar villkoren för Exchange
 - När handlarna har kommit överens om villkoren (betalningsmetod och pris) börjar Exchange
 - Säljaren skickar sina bankuppgifter till köparen, och köparen skickar sina Bitcoin Address till säljaren
-- Köparen erlägger kontant betalning och meddelar säljaren
+- Köparen gör betalningen i fiatvaluta och meddelar säljaren
 - När betalningen har mottagits skickar säljaren bitcoins till köparens Address
 - Exchange är slutfört när köparen tar emot bitcoins
 

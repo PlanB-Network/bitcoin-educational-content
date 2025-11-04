@@ -62,7 +62,7 @@ Dieser Leitfaden konzentriert sich ausschließlich auf „Bisq Easy“, das derz
 - Der Ersteller des Angebots legt die Bedingungen für den Austausch fest
 - Sobald sich die Händler auf die Bedingungen (Zahlungsmethode und Preis) geeinigt haben, beginnt der Austausch
 - Der Verkäufer schickt seine Bankdaten an den Käufer, und der Käufer schickt seine Bitcoin-Adresse an den Verkäufer
-- Der Käufer zahlt in bar und benachrichtigt den Verkäufer
+- Der Käufer leistet die Zahlung in Fiat-Währung und benachrichtigt den Verkäufer
 - Sobald die Zahlung eingegangen ist, sendet der Verkäufer die Bitcoins an die Adresse des Käufers
 - Der Austausch ist abgeschlossen, wenn der Käufer die Bitcoins erhält
 

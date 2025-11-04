@@ -62,7 +62,7 @@ Tämä opas keskittyy yksinomaan "Bisq Easyyn", ainoaan tällä hetkellä saatav
 - Tarjouksen tekijä määrittelee vaihdon ehdot
 - Kun kauppiaat ovat sopineet ehdoista (maksutapa ja hinta), vaihto alkaa
 - Myyjä lähettää pankkitietonsa ostajalle, ja ostaja lähettää Bitcoin-osoitteensa myyjälle
-- Ostaja suorittaa maksun käteisellä ja ilmoittaa siitä myyjälle
+- Ostaja suorittaa maksun fiat-valuutassa ja ilmoittaa myyjälle
 - Kun maksu on vastaanotettu, myyjä lähettää bitcoinit ostajan osoitteeseen
 - Vaihto on valmis, kun ostaja vastaanottaa bitcoinit
 

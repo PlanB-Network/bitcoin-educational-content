@@ -62,7 +62,7 @@ This guide focuses exclusively on "Bisq Easy", the only protocol currently avail
 - The creator of the offer defines the terms of the exchange
 - Once the traders have agreed on the terms (payment method and price), the exchange begins
 - The seller sends his bank details to the buyer, and the buyer sends his Bitcoin address to the seller
-- Buyer makes payment in cash and notifies seller
+- The buyer makes the payment in fiat currency and notifies the seller
 - Once payment has been received, the seller sends the bitcoins to the buyer's address
 - The exchange is complete when the buyer receives the bitcoins
 

@@ -62,7 +62,7 @@ Panduan ini berfokus secara eksklusif pada "Bisq Easy", satu-satunya protokol ya
 - Pembuat penawaran menentukan ketentuan pertukaran
 - Setelah para pedagang menyetujui persyaratan (metode pembayaran dan harga), pertukaran dimulai
 - Penjual mengirimkan detail banknya kepada pembeli, dan pembeli mengirimkan alamat Bitcoin-nya kepada penjual
-- Pembeli melakukan pembayaran secara tunai dan memberi tahu penjual
+- Pembeli melakukan pembayaran dalam mata uang fiat dan memberi tahu penjual
 - Setelah pembayaran diterima, penjual mengirim bitcoin ke alamat pembeli
 - Pertukaran selesai ketika pembeli menerima bitcoin
 

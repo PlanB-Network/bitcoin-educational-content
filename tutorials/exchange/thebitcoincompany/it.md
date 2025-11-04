@@ -116,7 +116,7 @@ Apriamo il nostro wallet Phoenix e scansioniamo il QR code. Una volta scansionat
 
 ![TheBitcoinCompany](assets/fr/09.webp)
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 Verrai immediatamente identificato tramite il tuo wallet Lightning, che può essere Phoenix o un altro wallet compatibile con questa funzione.
 
@@ -219,4 +219,4 @@ Ed ecco fatto: ora sai come spendere i tuoi bitcoin senza KYC nei principali neg
 Se vuoi aiutare a diffondere Bitcoin e incoraggiare un commerciante indipendente ad adottare questo metodo di pagamento, dai un’occhiata al nostro tutorial completo su Swiss Bitcoin Pay. È una soluzione "tutto-in-uno" per POS configurati per BTC, facile da installare e gestire quotidianamente:
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

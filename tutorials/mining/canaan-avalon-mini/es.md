@@ -13,7 +13,7 @@ Hoy en día, Canaan, uno de los principales fabricantes de máquinas ASIC, ha de
 
 Estos dispositivos se comercializan como un calefactor auxiliar en el caso del **Avalon Nano 3S (140W)**, o como un mini radiador con una potencia de **800W** en el caso del **Avalon Mini 3**.
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
 
 Ten en cuenta que la diferencia de precio con los calentadores tradicionales de potencia equivalente no permite, en la inmensa mayoría de los casos, obtener un beneficio financiero. Los satoshis generados por la actividad de minería nunca compensarán esta diferencia de precio, a menos que tengas acceso a electricidad gratuita (excedente) o muy barata.
 
@@ -189,4 +189,4 @@ Hemos llegado al final de este tutorial, que nos ha enseñado cómo conectar nue
 
 Para saber más, echa un vistazo a nuestro tutorial sobre la versión más pequeña del Avalon: el Nano 3S.
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6

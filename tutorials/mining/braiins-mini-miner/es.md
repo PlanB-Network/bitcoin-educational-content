@@ -74,7 +74,7 @@ https://planb.academy/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a
 
 La segunda opción es conectarnos a un Mining pool que mina en solitario, como Public Pool, sigue esta guía para hacerlo:
 
-https://planb.network/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
 #### Braiins Pool
 
@@ -90,7 +90,7 @@ y tenemos que hacer clic en el botón morado de la derecha que dice "Conectar tr
 
 ![image](assets/en/05.webp)
 
-Aquí viene la ventana con la información que necesitamos para conectar nuestro mini Miner al pool. Aquí el único cambio que podemos hacer es elegir Stratum V2. Para saber qué es Stratum v2 consulta esta entrada en el [glosario](https://planb.network/en/resources/glossary/stratum-v2).
+Aquí viene la ventana con la información que necesitamos para conectar nuestro mini Miner al pool. Aquí el único cambio que podemos hacer es elegir Stratum V2. Para saber qué es Stratum v2 consulta esta entrada en el [glosario](https://planb.academy/en/resources/glossary/stratum-v2).
 
 ![image](assets/en/10.webp)
 

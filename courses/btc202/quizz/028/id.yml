@@ -5,5 +5,5 @@ wrong_answers:
   - Tidak dapat menyampaikan seluruh blok
   - Ini tidak menyimpan salinan lokal Blockchain, hanya set UTXO
 explanation: |
-  Node pruned memvalidasi seluruh rantai, tetapi hanya menyimpan sebagian blok terbaru untuk membatasi penyimpanannya.
+  Node pruned memvalidasi seluruh chain, tetapi hanya menyimpan sebagian blok terbaru untuk membatasi penyimpanannya.
 reviewed: true

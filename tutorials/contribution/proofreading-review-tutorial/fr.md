@@ -89,7 +89,7 @@ NB. Il est recommandé d’effectuer la révision dans la fenêtre de code, avec
 ![REVIEW](assets/fr/07.webp)
 
 * Ajoutez un message descriptif sur votre changement (cf. \**A\**).
-* Ajoutez plus d e contexte dans la description si nécessaire (cf. \**B\**).
+* Ajoutez plus de contexte dans la description si nécessaire (cf. \**B\**).
 * Cliquez sur le bouton "Propose changes" (cf. \**C\**).
 
 ![REVIEW](assets/fr/08.webp)

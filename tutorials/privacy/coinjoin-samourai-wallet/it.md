@@ -58,11 +58,11 @@ Quindi, le transazioni Whirlpool sono caratterizzate da un numero identico di in
 ![coinjoin](assets/notext/5.webp)
 Il modello proposto da Whirlpool si basa quindi su piccole transazioni coinjoin. A differenza di Wasabi e JoinMarket, dove la robustezza degli anonset si basa sul volume dei partecipanti in un singolo ciclo, Whirlpool punta sulla concatenazione di diversi cicli di piccole dimensioni.
 
-In questo modello, l'utente paga le commissioni solo al suo ingresso iniziale in una pool (gruppo di utenti che concordano di mescolare i loro UTXO), consentendogli di partecipare a una moltitudine di round coinjoin senza commissioni aggiuntive. Sono i nuovi entranti a coprire le commissioni di mining per i remixer.
-Con ogni coinjoin aggiuntivo in cui un UTXO partecipa, insieme ai suoi pari incontrati in precedenza, gli anonset cresceranno esponenzialmente. L'obiettivo è quindi sfruttare questi round coinjoin gratuiti che, ad ogni occorrenza, contribuiscono a rafforzare la densità degli anonset associati a ciascun UTXO che ha partecipato al coinjoin.
+In questo modello, l'utente paga le commissioni solo al suo ingresso iniziale in una pool (gruppo di utenti che concordano di mescolare i loro UTXO), consentendogli di partecipare a una moltitudine di remix (round aggiuntivi di coinjoin) senza ulteriori commissioni. Sono i nuovi entranti a coprire le commissioni di mining per i remixer.
+Con ogni coinjoin aggiuntivo in cui un UTXO partecipa, insieme ai suoi pari incontrati in precedenza, gli anonset cresceranno esponenzialmente. L'obiettivo è quindi sfruttare questi remix gratuiti che, ad ogni occorrenza, contribuiscono a rafforzare la densità degli anonset associati a ciascun UTXO che ha partecipato al coinjoin.
 Whirlpool è stato progettato tenendo conto di due requisiti importanti:
 - L'accessibilità dell'implementazione su dispositivi mobili, dato che Samourai Wallet è principalmente un'applicazione per smartphone;
-- La velocità dei cicli di coinjoin per determinare un significativo aumento degli anonset.
+- La velocità di remixing per determinare un significativo aumento degli anonset.
 Questi principi hanno guidato gli sviluppatori di Samourai Wallet nella progettazione di Whirlpool, portandoli a limitare il numero di partecipanti per ciclo. Troppo pochi partecipanti avrebbero compromesso l'efficienza del coinjoin, riducendo drasticamente gli anonset generati ogni ciclo, mentre troppi partecipanti avrebbero causato problemi di gestione sulle applicazioni mobili e avrebbero ostacolato il flusso dei cicli.
 **In definitiva, non è necessario avere un alto numero di partecipanti per coinjoin su Whirlpool poiché gli anonset si ottengono attraverso l'accumulo di diversi cicli di coinjoin.**
 
@@ -89,7 +89,7 @@ Partecipando ad una pool con i tuoi bitcoin, questi verranno divisi per generare
 Come menzionato in precedenza, un UTXO è considerato appartenente ad una pool quando è pronto per essere integrato in un coinjoin. Tuttavia, questo non significa che l'utente ne perda il possesso. **Attraverso i diversi cicli di mix, mantieni il pieno controllo delle tue chiavi e, di conseguenza, dei tuoi bitcoin.** Questo è ciò che differenzia la tecnica del coinjoin da altre tecniche di mix centralizzate.
 
 Per entrare in una pool di coinjoin, devono essere pagate le commissioni di servizio così come le commissioni di mining. Le commissioni di servizio sono fisse per ogni pool e sono destinate a compensare i team responsabili dello sviluppo e della manutenzione di Whirlpool.
-Le commissioni di servizio per l'utilizzo di Whirlpool devono essere pagate solo una volta all'ingresso nella pool. Dopo questo passaggio, hai l'opportunità di partecipare a un numero illimitato di round coinjoin senza alcuna commissione aggiuntiva. Ecco le attuali commissioni fisse per ogni pool:
+Le commissioni di servizio per l'utilizzo di Whirlpool devono essere pagate solo una volta all'ingresso nella pool. Dopo questo passaggio, hai l'opportunità di partecipare a un numero illimitato di remix senza alcuna commissione aggiuntiva. Ecco le attuali commissioni fisse per ogni pool:
 
 | Pool (bitcoin) | Commissione di ingresso (bitcoin) |
 | -------------- | --------------------------------- |
@@ -105,17 +105,17 @@ Prima di procedere ai coinjoin, l'utente ha quindi la scelta tra 2 strategie:
 - Optare per una pool più piccola per minimizzare le commissioni di servizio, sapendo che riceveranno in cambio diversi piccoli UTXO;
 - Preferire una pool più grande, accettando di pagare commissioni più elevate, ottenendo meno UTXO ma di importo maggiore.
 
-Generalmente si sconsiglia di unire diversi UTXO mixati dopo i cicli di coinjoin, poiché ciò potrebbe compromettere la riservatezza acquisita (dimunendo anche la riservatezza di tutti i partecipanti che avevano partecipato ai coinjoin), soprattutto a causa dell'Euristica di Proprietà Comune dell'Input (CIOH). Pertanto, potrebbe essere saggio scegliere una pool più grande, anche se ciò significa pagare di più, per evitare di avere troppi UTXO di piccolo valore in uscita. L'utente deve valutare questi compromessi per scegliere la pool che preferisce.
+Generalmente si sconsiglia di unire diversi UTXO dopo i cicli di coinjoin, poiché ciò potrebbe compromettere la riservatezza acquisita, soprattutto a causa dell'Euristica di Proprietà Comune dell'Input (CIOH). Pertanto, potrebbe essere vantaggioso scegliere una pool più grande, anche se ciò significa pagare di più, per evitare di avere troppi UTXO di piccolo valore in uscita. L'utente deve valutare questi compromessi per scegliere la pool che preferisce.
 
 Oltre alle commissioni di servizio, si devono considerare anche le commissioni di mining inerenti a qualsiasi transazione Bitcoin. Come utente di Whirlpool, sarà necessario pagare le commissioni di mining per la transazione di preparazione (`Tx0`) così come quelle per il primo coinjoin. Tutti i remix successivi saranno gratuiti, grazie al modello di Whirlpool che si basa sul pagamento dei nuovi partecipanti.
 
 Infatti, in ogni coinjoin di Whirlpool, due utenti tra gli input sono nuovi partecipanti. Gli altri input provengono da remixers. Di conseguenza, le commissioni di mining per tutti i partecipanti alla transazione sono coperte da questi due nuovi partecipanti, che beneficeranno poi anche di remix gratuiti:
 ![coinjoin](assets/it/6.webp)
-Grazie a questo sistema di commissioni, Whirlpool si differenzia veramente da altri servizi di coinjoin poiché gli anonset degli UTXO non sono proporzionali al prezzo pagato dall'utente. Così, è possibile raggiungere livelli di anonimato considerevolmente elevati pagando solo la commissione d'ingresso nella pool e le commissioni di mining per due transazioni (la `Tx0` e il mix iniziale).
+Grazie a questo sistema di commissioni, Whirlpool si differenzia da altri servizi di coinjoin poiché gli anonset degli UTXO non sono proporzionali al prezzo pagato dall'utente. Così, è possibile raggiungere livelli di anonimato considerevolmente elevati pagando solo la commissione d'ingresso nella pool e le commissioni di mining per due transazioni (la `Tx0` e il mix iniziale).
 È importante notare che l'utente dovrà anche coprire le commissioni di mining per prelevare i propri UTXO dalla pool dopo aver completato i cicli di coinjoin, a meno che non abbiano selezionato l'opzione `mix to`, di cui parleremo nel tutorial qui sotto.
 
-### Gli account del portafoglio HD utilizzati da Whirlpool
-Per eseguire un coinjoin tramite Whirlpool, il portafoglio deve generare diversi account distinti. Un account, nel contesto di un portafoglio HD (*Hierarchical Deterministic*), costituisce una sezione completamente isolata dalle altre, questa separazione avviene al terzo livello di profondità della gerarchia del portafoglio, ovvero a livello dell'`xpub`.
+### Gli account del wallet HD utilizzati da Whirlpool
+Per eseguire un coinjoin tramite Whirlpool, il wallet deve generare diversi account distinti. Un account, nel contesto di un wallet HD (*Hierarchical Deterministic*), costituisce una sezione completamente isolata dalle altre, questa separazione avviene al terzo livello di profondità della gerarchia del portafoglio, ovvero a livello dell'`xpub`.
 
 Un portafoglio HD può teoricamente derivare fino a `2^(32/2)` account diversi. L'account iniziale, utilizzato di default su tutti i portafogli Bitcoin, corrisponde all'indice `0'`.
 

@@ -217,7 +217,7 @@ Verrouillez l'accès à l'application par un code PIN robuste :
 
 ![image](assets/fr/15.webp)
 
-- Tant que la transaction n'est pas confirmée, la fonction "Replace by fee" (voir Annexe) vous permet d'accélérer sa prise en charge en augmentant les fees de transaction :
+- Tant que la transaction n'est pas confirmée, la fonction "Replace by fee" (voir Annexe) vous permet d'accélérer sa prise en charge en augmentant les frais de transaction :
 
 ![image](assets/fr/16.webp)
 

@@ -2,7 +2,7 @@ question: Apa saja tiga opsi server yang tersedia di Sparrow?
 answer: Server Publik, Bitcoin core, Electrum Pribadi
 wrong_answers:
   - RPC Direct, VPN, Tor
-  - Full node, Simpul Cahaya, Simpul Seluler
+  - Full node, Light Node, Mobile Node
   - Core RPC, Lightning, ElectrumX
 explanation: |
   Sparrow menawarkan tiga pilihan server: Server Publik, Bitcoin core (RPC), dan Private Electrum.

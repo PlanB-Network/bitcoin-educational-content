@@ -10,7 +10,7 @@ objectives:
 ---
 # Bitcoin na BTCPay Server
 
-Hii ni kozi ya utangulizi kuhusu BTCPay Server Operator iliyoandikwa na Alekos na Bas, ambayo ilichukuliwa katika Plan ₿ Network Muundo wa Kozi na melontwist na asi0.
+Hii ni kozi ya utangulizi kuhusu BTCPay Server Operator iliyoandikwa na Alekos na Bas, ambayo ilichukuliwa katika Plan ₿ Academy Muundo wa Kozi na melontwist na asi0.
 
 HADITHI ISIYOKAMALISHWA
 

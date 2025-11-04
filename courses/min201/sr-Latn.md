@@ -107,7 +107,7 @@ Trenutna nagrada rudarima je dvostruka. S jedne strane, uključuje kreiranje nov
 Proces rudarenja uključuje pronalaženje validne heš vrednosti koja je prihvatljiva za Bitcoin mrežu. Kada se izračuna i pronađe, ova heš vrednost je nepovratna, slično kao kada se krompir pretvori u pire krompir. On verifikuje određenu funkciju bez mogućnosti vraćanja unazad. Rudari, u konkurenciji, koriste mašine za izračunavanje ovih heševa. Iako je teoretski moguće pronaći ovu heš vrednost ručno, složenost operacije čini ovu opciju neizvodljivom. Računari, sposobni da brzo izvrše ove proračune, se stoga koriste, trošeći značajnu količinu električne energije.
 
 
-Na početku je dominirala era CPU-a, gde su rudari koristili svoje lične računare za Bitcoin rudarenje. Otkriće prednosti GPU-ova (grafičkih kartica) za ovaj zadatak označilo je prekretnicu, značajno povećavajući [Hashrate] (https://planb.network/resources/glossary/hashrate) i smanjujući potrošnju energije. Napredak se tu nije zaustavio, sa kasnijim uvođenjem FPGA-ova (polje-programabilnih gejt nizova). FPGA-ovi su služili kao platforma za razvoj ASIC-ova (integrisanih kola specifičnih za aplikaciju).
+Na početku je dominirala era CPU-a, gde su rudari koristili svoje lične računare za Bitcoin rudarenje. Otkriće prednosti GPU-ova (grafičkih kartica) za ovaj zadatak označilo je prekretnicu, značajno povećavajući [Hashrate] (https://planb.academy/resources/glossary/hashrate) i smanjujući potrošnju energije. Napredak se tu nije zaustavio, sa kasnijim uvođenjem FPGA-ova (polje-programabilnih gejt nizova). FPGA-ovi su služili kao platforma za razvoj ASIC-ova (integrisanih kola specifičnih za aplikaciju).
 
 
 ![image](assets/en/002.webp)
@@ -160,7 +160,7 @@ Konačno, industrija Bitcoin rudarenja nastavlja da se prilagođava i razvija, i
 ### Bazeni za rudarenje
 
 
-Trenutno, Bitcoin rudarenje se razvija u ozbiljnu i značajnu industriju, sa mnogim igračima koji su sada javno poznati i sve većim brojem značajnih rudara. Ova evolucija je učinila rudarenje gotovo nedostupnim za male igrače zbog visokih troškova povezanih sa nabavkom novih mašina za rudarenje. Ovo postavlja pitanje distribucije Hashrate među različitim tržišnim igračima. Situacija je složena jer je neophodno ispitati i distribuciju Hashrate među različitim kompanijama i među različitim bazenima za rudarenje (eng. [mining pools](https://planb.network/en/resources/glossary/pool-mining).
+Trenutno, Bitcoin rudarenje se razvija u ozbiljnu i značajnu industriju, sa mnogim igračima koji su sada javno poznati i sve većim brojem značajnih rudara. Ova evolucija je učinila rudarenje gotovo nedostupnim za male igrače zbog visokih troškova povezanih sa nabavkom novih mašina za rudarenje. Ovo postavlja pitanje distribucije Hashrate među različitim tržišnim igračima. Situacija je složena jer je neophodno ispitati i distribuciju Hashrate među različitim kompanijama i među različitim bazenima za rudarenje (eng. [mining pools](https://planb.academy/en/resources/glossary/pool-mining).
 
 
 ![image](assets/en/005.webp)

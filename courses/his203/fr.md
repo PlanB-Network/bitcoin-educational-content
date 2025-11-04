@@ -420,9 +420,11 @@ Toutefois, cette croissance fulgurante cachait une grande fragilité. La platefo
 
 ## Bitcoin et l'activisme politique
 
-Bitcoin est un objet éminemment politique en ce qu'il est un outil de libération et qu'il permet de faire des choses hors du cadre légal. C'est pourquoi il a tout naturellement attiré les individus motivés idéologiquement, qui ont souvent été ses partisans les plus passionnés. Son essor intervient de plus dans une période de grand scepticisme et de colère vis-à-vis du système bancaire, suite à la crise financière de 2008.
+Bitcoin est un objet éminemment politique en ce qu'il constitue un outil de libération et qu'il permet de faire des choses hors du cadre légal. C'est pourquoi il a tout naturellement attiré les individus motivés idéologiquement, qui ont souvent été ses partisans les plus passionnés. De plus, son essor a été favorisé par le grand scepticisme et la colère vis-à-vis du système bancaire, qui découlaient de la crise financière de 2008 : les activistes voyaient dans la cryptomonnaie une alternative aux institutions financières qu'ils jugeaient corrompues.
 
-Bitcoin a en particulier bénéficié du mouvement libertarien américain, qui prônait à la fois la liberté économique (propre aux républicains) et une liberté des mœurs (propre aux démocrates) et constituait de ce fait une sorte de troisième voie politique aux États-Unis. Les libertariens sont ainsi devenus les plus grands promoteurs de la cryptomonnaie, à l'instar de Roger Ver, Erik Voorhees ou encore Jon Matonis. Ils ont également favorisé son développement économique dans l'État du New Hampshire, grâce à l'action du *Free State Project*.
+Bitcoin a en particulier bénéficié du mouvement libertarien américain, qui prônait à la fois la liberté économique (propre aux républicains) et une liberté des mœurs (propre aux démocrates), et qui constituait de ce fait une sorte de troisième voie politique aux États-Unis. Beaucoup de libertariens sont ainsi devenus des grands promoteurs de la cryptomonnaie, et ont notamment soutenu son développement économique dans l'État du New Hampshire.
+
+Dans ce chapitre, nous étudierons d'abord la relation de Bitcoin avec le libertarianisme américain, qui n'était pas unanime à son égard. Puis, nous nous intéresserons à l'implication forte de certaines personnalités, comme Ian Freeman, Roger Ver ou encore Erik Voorhees. Enfin, nous verrons comment Bitcoin s'est intégré dans des mouvements politiques comme le *Free State Project* ou *Occupy Wall Street* à la fin de l'année 2011.
 
 ### La relation avec le libertarianisme américain
 
@@ -933,7 +935,7 @@ La période a également été marquée par le développement des portefeuilles 
 
 ## L'essor des coopératives de minage
 
-Le Far West se caractérise aussi par la ruée vers l'or : la découverte d'or en Californie en 1848 avait engendré une grande migration d'aventuriers espérant faire fortune. Bitcoin ayant été associé au métal précieux dès son origine, il est naturel qu'un tel phénomène se soit développé. C'est ainsi que l'activité du minage de bitcoins a attiré des individus passionnés qui ont, par leur intérêt pécuniaire, contribué à la rendre plus efficace au cours du temps.
+Le Far West se caractérise aussi par la ruée vers l'or : la découverte d'or en Californie en 1848 avait engendré une grande migration d'aventuriers espérant faire fortune. Bitcoin ayant été associé au métal précieux dès l'origine, il est naturel qu'un tel phénomène se soit développé. C'est ainsi que l'activité du minage de bitcoins a attiré des individus passionnés qui ont, par leur intérêt pécuniaire, contribué à la rendre plus efficace au cours du temps.
 
 À l'automne 2010, une première « ruée vers l'or numérique » (original: "digital gold rush") avait eu lieu, et avait entrainé une généralisation du minage par processeur graphique (GPU), beaucoup plus rentable que le minage par processeur central (CPU). Cette amélioration avait cependant fait augmenter la difficulté à un niveau tel que les petits mineurs ne pouvaient plus espérer trouver un bloc dans un délai raisonnable. C'est pourquoi les premiers regroupements de mineurs sont apparus, dont notamment BitcoinCZ Mining, la coopérative de Slush.
 

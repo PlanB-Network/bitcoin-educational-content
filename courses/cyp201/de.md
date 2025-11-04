@@ -1838,7 +1838,7 @@ Diese Unterteilung in verschiedene Konten ist optional. Sie zielt darauf ab, die
 
 Jedes auf Tiefe 3 definierte Konto wird dann in zwei Ketten strukturiert:
 - **Die externe Kette**: In dieser Kette werden sogenannte "öffentliche" Adressen abgeleitet. Diese Empfangsadressen sind dazu bestimmt, UTXOs zu sperren, die von externen Transaktionen kommen (das heißt, von der Verwendung von UTXOs, die nicht Ihnen gehören). Einfach ausgedrückt, wird diese externe Kette immer dann verwendet, wenn man Bitcoins erhalten möchte. Wenn Sie in Ihrer Wallet-Software auf "*empfangen*" klicken, wird Ihnen immer eine Adresse aus der externen Kette angeboten. Diese Kette wird durch ein Paar von Schlüsseln dargestellt, die mit dem Index $/0/$ abgeleitet werden.
-- **Die interne Kette (Wechsel)**: Diese Kette ist für Empfangsadressen reserviert, die Bitcoins sperren, die von der Verwendung von UTXOs kommen, die Ihnen gehören, mit anderen Worten, Wechseladressen. Sie wird durch den Index $/1/$ identifiziert.
+- **Die interne Kette (Wechselgeld)**: Diese Kette ist für Empfangsadressen reserviert, die Bitcoins sperren, die von der Verwendung von UTXOs kommen, die Ihnen gehören, mit anderen Worten, Wechselgeldadressen. Sie wird durch den Index $/1/$ identifiziert.
 
 **Tiefe 5: Adressindex (BIP32)**
 
@@ -1857,7 +1857,7 @@ $$
 
 In Hexadezimal ist dies `0x8000002C`.
 
-Jetzt, da wir die Hauptprinzipien der Ableitungspfade verstanden haben, nehmen wir ein Beispiel! Hier ist der Ableitungspfad für eine Bitcoin-Empfangsadresse:
+Jetzt, da wir die Hauptprinzipien der Ableitungspfade verstanden haben, sehen wir uns ein Beispiel an! Hier ist der Ableitungspfad für eine Bitcoin-Empfangsadresse:
 
 
 $$
@@ -1891,7 +1891,7 @@ Im nächsten Kapitel werden wir entdecken, was "*Output Script Descriptors*" sin
 
 Oft wird gesagt, dass die mnemonische Phrase allein ausreicht, um den Zugang zu einem Wallet wiederherzustellen. In Wirklichkeit sind die Dinge ein wenig komplexer. Im vorherigen Kapitel haben wir uns die Ableitungsstruktur des HD-Wallets angesehen, und Sie haben vielleicht bemerkt, dass dieser Prozess ziemlich komplex ist. Ableitungspfade zeigen der Software, welche Richtung sie verfolgen soll, um die Schlüssel des Benutzers abzuleiten. Wenn man jedoch ein Bitcoin-Wallet wiederherstellen möchte und diese Pfade nicht kennt, reicht die mnemonische Phrase allein nicht aus. Sie ermöglicht es, den Master-Schlüssel und den Master-Chain-Code zu erhalten, aber es ist dann notwendig, die Indizes zu kennen, die verwendet wurden, um die Kind-Schlüssel zu erreichen.
 
-Theoretisch wäre es notwendig, nicht nur die mnemonische Phrase unseres Wallets zu speichern, sondern auch die Pfade zu den Konten, die wir verwenden. In der Praxis ist es oft möglich, ohne diese Informationen wieder Zugang zu den Kind-Schlüsseln zu erhalten, vorausgesetzt, die Standards wurden eingehalten. Indem man jeden Standard einzeln testet, ist es im Allgemeinen möglich, wieder Zugang zu den Bitcoins zu erhalten. Dies ist jedoch nicht garantiert und besonders kompliziert für Anfänger. Auch mit der Diversifizierung der Skripttypen und dem Aufkommen komplexerer Konfigurationen könnten diese Informationen schwer zu extrapolieren sein, wodurch diese Daten zu privaten Informationen werden und schwer durch Brute-Force zu erholen sind. Deshalb wurde kürzlich eine Innovation eingeführt und beginnt, in Ihre bevorzugte Wallet-Software integriert zu werden: die *Output Script Descriptors*.
+Theoretisch wäre es notwendig, nicht nur die mnemonische Phrase unseres Wallets zu speichern, sondern auch die Pfade zu den Konten, die wir verwenden. In der Praxis ist es oft möglich, ohne diese Informationen wieder Zugang zu den Kind-Schlüsseln zu erhalten, vorausgesetzt, die Standards wurden eingehalten. Indem man jeden Standard einzeln testet, ist es im Allgemeinen möglich, wieder Zugang zu den Bitcoins zu erhalten. Dies ist jedoch nicht garantiert und besonders kompliziert für Anfänger. Auch mit der Diversifizierung der Skripttypen und dem Aufkommen komplexerer Konfigurationen könnten diese Informationen schwer zu extrapolieren sein, wodurch diese Daten zu privaten Informationen werden und schwer durch Brute-Force zu erraten sind. Deshalb wurde kürzlich eine Innovation eingeführt und beginnt, in Ihre bevorzugte Wallet-Software integriert zu werden: die *Output Script Descriptors*.
 
 ### Was ist ein "Descriptor"?
 
@@ -1903,8 +1903,8 @@ Der Hauptvorteil von Descriptors liegt in ihrer Fähigkeit, alle wesentlichen In
 
 Ein Descriptor besteht aus mehreren Elementen:
 * Skriptfunktionen wie `pk` (*Pay-to-PubKey*), `pkh` (*Pay-to-PubKey-Hash*), `wpkh` (*Pay-to-Witness-PubKey-Hash*), `sh` (*Pay-to-Script-Hash*), `wsh` (*Pay-to-Witness-Script-Hash*), `tr` (*Pay-to-Taproot*), `multi` (*Multisignatur*), und `sortedmulti` (*Multisignatur mit sortierten Schlüsseln*);
-**Ableitungspfade**, zum Beispiel `[d34db33f/44h/0h/0h]`, die einen abgeleiteten Kontopfad und einen spezifischen Master-Schlüssel-Fingerabdruck anzeigen;
-**Schlüssel in verschiedenen Formaten wie hexadezimale öffentliche Schlüssel oder erweiterte öffentliche Schlüssel (`xpub`);**
+* Ableitungspfade, zum Beispiel `[d34db33f/44h/0h/0h]`, die einen abgeleiteten Kontopfad und einen spezifischen Master-Schlüssel-Fingerabdruck anzeigen;
+* Schlüssel in verschiedenen Formaten wie hexadezimale öffentliche Schlüssel oder erweiterte öffentliche Schlüssel (`xpub`);
 * Eine Prüfsumme, vorangestellt von einem Hash-Zeichen, um die Integrität des Descriptors zu überprüfen.
 
 Zum Beispiel könnte ein Deskriptor für eine P2WPKH (SegWit v0) Wallet so aussehen:

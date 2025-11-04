@@ -4,9 +4,9 @@ description: Comment ajouter des nouveaux supports éducatifs sur Plan ₿ Acade
 ---
 ![event](assets/cover.webp)
 
-La mission de Plan ₿ Acadcemy est de mettre à disposition des ressources éducatives de premier plan sur Bitcoin, et ce, dans un maximum de langues. L'intégralité des contenus publiés sur le site est open source et hébergée sur GitHub, ce qui offre la possibilité à quiconque de participer à l'enrichissement de la plateforme.
+La mission de Plan₿ est de mettre à disposition des ressources éducatives de premier plan sur Bitcoin, et ce, dans un maximum de langues. L'intégralité des contenus publiés sur le site est open source et hébergée sur GitHub, ce qui offre la possibilité à quiconque de participer à l'enrichissement de la plateforme.
 
-Au-delà des tutoriels et des formations, Plan ₿ Academy offre également une vaste bibliothèque de contenus pédagogiques variés sur Bitcoin, accessibles à tous, [dans la section "BET" (Bitcoin Educational Toolkit)](https://planb.academy/resources/bet). Cette base de données inclut des posters éducatifs, des mèmes, des affiches de propagande humoristiques, des schémas techniques, des logos, et d'autres outils pour les utilisateurs. L'objectif de cette initiative est de soutenir les individus et les communautés qui enseignent Bitcoin à travers le monde, en leur fournissant les ressources visuelles nécessaires.
+Au-delà des tutoriels et des formations, Plan ₿ Academy offre également une vaste bibliothèque de contenus pédagogiques variés sur Bitcoin, accessibles à tous, [dans la section "BET" (*Bitcoin Educational Toolkit*)](https://planb.academy/resources/bet). Cette base de données inclut des posters éducatifs, des mèmes, des affiches de propagande humoristiques, des schémas techniques, des logos, et d'autres outils pour les utilisateurs. L'objectif de cette initiative est de soutenir les individus et les communautés qui enseignent Bitcoin à travers le monde, en leur fournissant les ressources visuelles nécessaires.
 
 Vous souhaitez participer à l'enrichissement de cette base de données, mais vous ne savez pas comment faire ? Ce tutoriel est fait pour vous !
 
@@ -19,7 +19,7 @@ Vous souhaitez participer à l'enrichissement de cette base de données, mais vo
 https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
-- Rendez-vous sur [le dépôt GitHub de PlanB dédié à la data](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet) dans la section `resources/bet/` :
+- Rendez-vous sur [le dépôt GitHub de Plan₿ dédié à la data](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet) dans la section `resources/bet/` :
   
 ![event](assets/02.webp)
 
@@ -76,7 +76,7 @@ https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 	- `Visual Content` pour les autres types de contenus divers.
 
 - **`links`** : Fournissez les liens vers vos contenus. Vous avez deux options :
-	- Si vous choisissez d'héberger votre contenu directement sur le GitHub de PlanB, vous devrez ajouter les liens de ce fichier durant les étapes suivantes.
+	- Si vous choisissez d'héberger votre contenu directement sur le GitHub de Plan₿, vous devrez ajouter les liens de ce fichier durant les étapes suivantes.
 	- Si vos contenus sont hébergés ailleurs, comme sur votre site web personnel, indiquez les liens correspondants ici :
 	    - `download` : Un lien pour télécharger votre contenu.
 	    - `view` : Un lien pour visualiser votre contenu (peut être le même que le lien de téléchargement). Si votre contenu est disponible en plusieurs langues, ajoutez un lien pour chaque langue.
@@ -196,11 +196,11 @@ contributors:
 
 ![event](assets/30.webp)
 
-- Une fois sur le fichier, cliquez sur les 3 petits points en haut à droite puis sur `Delete file` :
+- Une fois sur le fichier, cliquez sur les 3 petits points en haut à droite, puis sur `Delete file` :
 
 ![event](assets/31.webp)
 
-- Vérifiez que vous êtes toujours sur la même branche de travail, puis cliquez sur le bouton `Commit changes` :
+- Vérifiez que vous êtes toujours sur la même branche de travail, puis cliquez sur le bouton `Commit changes...` :
 
 ![event](assets/32.webp)
 
@@ -229,7 +229,7 @@ description: |
 ```
 
 - Pour la clé `name`, vous pouvez ajouter le nom de votre contenu ;
-- Pour la clé `description`, vous devez simplement ajouter un court paragraphe qui décrit votre contenu. La description doit être dans la même langue que le nom du fichier. Vous n'avez pas besoin de traduire cette description dans toutes les langues prises en charge sur le site, car les équipes de PlanB le feront avec leur modèle. 
+- Pour la clé `description`, vous devez simplement ajouter un court paragraphe qui décrit votre contenu. La description doit être dans la même langue que le nom du fichier. Vous n'avez pas besoin de traduire cette description dans toutes les langues prises en charge sur le site, car les équipes de Plan₿ le feront avec leur modèle. 
 
 Par exemple, voici à quoi pourrait ressembler votre fichier :
 
@@ -287,7 +287,7 @@ description: |
 https://github.com/tutoriel-pandul/bitcoin-educational-content/blob/patch-1/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
 ```
 
-- Conservez uniquement la dernière partie de l'URL à partir de `/ressources` :
+- Conservez uniquement la dernière partie de l'URL à partir de `/resources` :
 
 ```url
 /resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
@@ -338,6 +338,7 @@ Ce que l'on fait ici, c'est que l'on anticipe le futur lien vers votre fichier, 
 - Cliquez sur le bouton `Create pull request` :
 
 ![event](assets/55.webp)
+
 
 Félicitations ! Votre PR a bien été créée. Un administrateur va maintenant la vérifier et, si tout est conforme, l'intégrer au dépôt principal de Plan ₿ Academy. Vous devriez voir votre BET apparaître sur le site web quelques jours plus tard.
 

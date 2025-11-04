@@ -2284,13 +2284,13 @@ wo:
 - **$\text{H}_{\text{TapTweak}}$** ist eine SHA256-Hash-Funktion, getaggt mit dem Tag `TapTweak`. Wenn Sie nicht vertraut sind, was eine getaggte Hash-Funktion ist, lade ich Sie ein, Kapitel 3.3 zu konsultieren;
 - $P$ ist der interne öffentliche Schlüssel, dargestellt in seinem komprimierten 256-Bit-Format, unter Verwendung nur der $x$-Koordinate.
 
-Der Taproot-öffentliche Schlüssel $Q$ wird dann berechnet, indem die Anpassung $t$, multipliziert mit dem Generator der elliptischen Kurve $G$, zum internen öffentlichen Schlüssel $P$ hinzugefügt wird:
+Der öffentlicher Taproot-Schlüssel $Q$ wird dann berechnet, indem die Anpassung $t$, multipliziert mit dem Generator der elliptischen Kurve $G$, zum internen öffentlichen Schlüssel $P$ hinzugefügt wird:
 
 $$
 Q = P + t \cdot G
 $$
 
-Sobald der Taproot-öffentliche Schlüssel $Q$ erhalten ist, können wir die entsprechende Empfangsadresse generieren. Anders als bei anderen Formaten basieren Taproot-Adressen nicht auf einem Hash des öffentlichen Schlüssels. Daher wird der Schlüssel $Q$ direkt in die Adresse eingefügt, auf rohe Weise.
+Sobald deöffentlicher Taproot-he Schlüssel $Q$ erhalten ist, können wir die entsprechende Empfangsadresse generieren. Anders als bei anderen Formaten basieren Taproot-Adressen nicht auf einem Hash des öffentlichen Schlüssels. Daher wird der Schlüssel $Q$ direkt in die Adresse eingefügt, auf rohe Weise.
 
 Zunächst extrahieren wir die $x$-Koordinate des Punktes $Q$, um einen komprimierten öffentlichen Schlüssel zu erhalten. Auf diese Nutzlast wird eine Prüfsumme berechnet, die BCH-Codes verwendet, wie bei SegWit v0-Adressen. Das für Taproot-Adressen verwendete Programm unterscheidet sich jedoch leicht. Tatsächlich wurde nach der Einführung des _bech32_-Formats mit SegWit ein Fehler entdeckt: Wenn der letzte Buchstabe einer Adresse ein `p` ist, macht das Einfügen oder Entfernen von `q`s direkt vor diesem `p` die Prüfsumme nicht ungültig. Obwohl dieser Fehler bei SegWit v0 keine Konsequenzen hat (dank einer Größenbeschränkung), könnte er in Zukunft ein Problem darstellen. Dieser Fehler wurde daher für Taproot-Adressen korrigiert, und das neue korrigierte Format wird "_bech32m_" genannt.
 
@@ -2336,7 +2336,7 @@ $$
 t = \text{H}_{\text{TapTweak}}(P \Vert h_{\text{root}})
 $$
 
-Schließlich wird, wie zuvor, der Taproot-öffentliche Schlüssel $Q$ durch Hinzufügen des internen öffentlichen Schlüssels $P$ zum Produkt des Tweaks $t$ und des Generatorpunkts $G$ erhalten:
+Schließlich wird, wie zuvor, öffentlicher Taproot-iche Schlüssel $Q$ durch Hinzufügen des internen öffentlichen Schlüssels $P$ zum Produkt des Tweaks $t$ und des Generatorpunkts $G$ erhalten:
 
 $$
 Q = P + t \cdot G

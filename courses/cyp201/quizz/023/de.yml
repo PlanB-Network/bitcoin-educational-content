@@ -6,4 +6,4 @@ wrong_answers:
   - Der komprimierte öffentliche Schlüssel
 explanation: |
   Der Generatorpunkt G der elliptischen Kurve secp256k1 wird verwendet, um öffentliche Schlüssel aus privaten Schlüsseln zu berechnen.
-reviewed: false
+reviewed: true

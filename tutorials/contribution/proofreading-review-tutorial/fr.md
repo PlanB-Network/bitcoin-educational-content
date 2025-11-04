@@ -14,7 +14,7 @@ Si vous n'avez pas compris la partie ci-dessus, ne vous inquiétez pas, ce tutor
 
 ## Qu'est-ce que Plan ₿ Academy ?
 
-Plan ₿ Academy est une plateforme pour apprendre sur Bitcoin via de nombreux cours et tutoriels pour tous. Actuellement, tout notre contenu est open-source, hébergé sur un repo GitHub, et ouvert aux contributions pour la révision et la création de contenu.
+Plan ₿ Academy est une plateforme pour apprendre sur Bitcoin via de nombreux cours et tutoriels pour tous. Actuellement, tout notre contenu est open source, hébergé sur un dépôt GitHub, et ouvert aux contributions pour la révision et la création de contenu.
 
 Plan ₿ Academy vise à devenir la place publique du cyberespace Bitcoin, en reliant et en encourageant les communautés Bitcoin à travers le monde.
 
@@ -66,7 +66,7 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 
 *Vous pouvez maintenant voir l'interface GitHub du fichier à réviser.*
 * Le panneau de gauche vous permet de naviguer à travers votre branche (cf. \**A\**) et les fichiers (cf. \**B\**).
-*Cliquez sur l'icône du stylo pour commencer la révision (cf. **C**).*
+*Cliquez sur l'icône du stylo pour commencer la révision (cf. \**C\**).*
 
 ![REVIEW](assets/fr/04.webp)
 
@@ -83,13 +83,13 @@ NB. Il est recommandé d’effectuer la révision dans la fenêtre de code, avec
 ## 4. Commit les modifications
 
 * Vous pouvez commencer à relire le contenu et le corriger si besoin.
-*Lorsque vous souhaitez arrêter votre session de révision, vous pouvez commit vos modifications, même si la révision n'est pas terminée. C'est un peu comme si vous sauvegardiez vos modifications sur GitHub.*
+* Lorsque vous souhaitez arrêter votre session de révision, vous pouvez commit vos modifications, même si la révision n'est pas terminée. C'est un peu comme si vous sauvegardiez vos modifications sur GitHub.
 * Cliquez sur le bouton "Commit Changes...".
 
 ![REVIEW](assets/fr/07.webp)
 
 * Ajoutez un message descriptif sur votre changement (cf. \**A\**).
-*Ajoutez plus le contexte dans la description si nécessaire (cf. **B**).*
+* Ajoutez plus d e contexte dans la description si nécessaire (cf. \**B\**).
 * Cliquez sur le bouton "Propose changes" (cf. \**C\**).
 
 ![REVIEW](assets/fr/08.webp)
@@ -124,7 +124,7 @@ NB. Il est recommandé d’effectuer la révision dans la fenêtre de code, avec
 
 ## 6. Règles à suivre lors de la relecture de contenu
 
-Pour en savoir plus sur les directives à suivre lors de la relecture sur le Plan ₿ Academy en ce qui concerne les règles de langue ou de format, veuillez vous référer au tutoriel "contribution-proofreading-guidelines" dans cette même section !
+Pour en savoir plus sur les directives à suivre lors de la relecture sur Plan ₿ Academy en ce qui concerne les règles de langue ou de format, veuillez vous référer au tutoriel "contribution-proofreading-guidelines" dans cette même section !
 
 ## 7. Attendre la révision
 

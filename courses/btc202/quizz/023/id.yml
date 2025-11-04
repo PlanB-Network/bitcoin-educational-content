@@ -1,9 +1,9 @@
-question: Apa perbedaan antara aturan konsensus dan aturan estafet?
+question: Apa perbedaan antara aturan konsensus dan aturan relai?
 answer: Konsensus mendefinisikan validitas, menyampaikan difusi transaksi
 wrong_answers:
-  - Konsensus menentukan biaya, estafet menentukan alamat
+  - Konsensus menentukan biaya, relai menentukan alamat
   - Konsensus mengelola Blockchain, relai mengelola kunci privat
-  - Konsensus memilih penambang, estafet memilih pedagang
+  - Konsensus memilih miner, relai memilih pedagang
 explanation: |
   Aturan konsensus menentukan apa yang valid dalam Bitcoin, sementara aturan relai mengatur transaksi antar node.
 reviewed: true

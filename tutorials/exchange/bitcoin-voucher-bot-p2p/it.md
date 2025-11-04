@@ -114,8 +114,10 @@ Per una visualizzazione piu chiara, qui sotto vedrai le immagini inerenti al sit
 - “Amount” (“Ammontare”): indica quanti sats l’utente sta vendendo se il match è di tipo “Sell” (Vendi), oppure quanti Bitcoin è disposto ad acquistare se il match è di tipo “Buy” (Compra).
 - “BTC Price with Margin” (“Prezzo BTC con margine”): mostra il prezzo tenendo conto del margine applicato sopra il valore di marcato.
 - "Margin" ("Margine") e' la percentuale che viene applicata al prezzo di mercato, con un segno meno (-) ottieni uno sconto sul prezzo di mercato, Con un segno più (+) viene applicato un premio sul prezzo di mercato.
+- "Method" ("Metodo") indica con quale motodo l'utente preferisce essere pagato.
+- - "Creator" si tratta dell'avatar univoco utilizzato dall'utente sulla piattaforma.
+- "Rep" (Reputazione) Il livello di reputazione dell'utente va da -5 inaffidabile a +5 estremamente affidabile.
 - “Status” (“Stato”): indica lo stato del match. Nella schermata di esempio tutti i match risultano “Open” (“Aperti”).
-- "Creator" si tratta dell'avatar univoco utilizzato dall'utente sulla piattaforma.
 - “Expiration” (“Scadenza”): mostra quanto tempo resta prima che il match scada e venga cancellato se non è stato scelto da nessuno.
 
 ![image](assets/it/08.webp)

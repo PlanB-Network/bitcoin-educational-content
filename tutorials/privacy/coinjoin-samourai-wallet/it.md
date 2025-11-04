@@ -121,7 +121,7 @@ Un wallet HD può teoricamente derivare fino a `2^(32/2)` account diversi. L'acc
 
 Nei wallet compatibili con Whirlpool, come Samourai o Sparrow, vengono utilizzati 4 account per soddisfare le esigenze del processo di coinjoin:
 - L'account **deposito**, identificato dall'indice `0'`;
-- Il conto della **bad bank** (o cambio tossico), identificato dall'indice `2 147 483 644`;
+- Il conto della **bad bank** (o "doxxic change"), identificato dall'indice `2 147 483 644`;
 - Il conto **premix**, identificato dall'indice `2 147 483 645`;
 - Il conto **postmix**, identificato dall'indice `2 147 483 646`.
 
@@ -135,22 +135,22 @@ Ora esaminiamo le diverse fasi di un coinjoin Whirlpool all'interno di questi co
 ### Le diverse fasi dei coinjoin su Whirlpool
 **Fase 1: La Tx0**
 Il punto di partenza di qualsiasi coinjoin Whirlpool è il conto **deposito**. Questo conto è quello che si utilizza automaticamente quando si crea un nuovo wallet Bitcoin. Questo account deve essere accreditato con i bitcoin che si desidera mixare.
-La `Tx0` rappresenta il primo passo nel processo di mixing di Whirlpool. Ha lo scopo di preparare ed uniformare gli UTXO per il coinjoin, dividendo questi ultimi in unità corrispondenti all'importo della pool selezionata, per garantire l'omogeneità del mix. Gli UTXO uniformati vengono inviati all'account**premix**. La differenza che non può entrare nella pool viene separata in un conto specifico: la **bad bank** (o "cambio tossico").
+La `Tx0` rappresenta il primo passo nel processo di mixing di Whirlpool. Ha lo scopo di preparare ed uniformare gli UTXO per il coinjoin, dividendo questi ultimi in unità corrispondenti all'importo della pool selezionata, per garantire l'omogeneità del mix. Gli UTXO uniformati vengono inviati all'account**premix**. La differenza che non può entrare nella pool viene separata in un conto specifico: la **bad bank** (o "doxxic change").
 Questa transazione iniziale `Tx0` serve anche per le commissioni di servizio dovute al coordinatore del mix. A differenza dei passaggi successivi, questa transazione non è collaborativa; l'utente deve sostenere tutte le commissioni di mining:
 ![coinjoin](assets/it/7.webp)
 
 In questo esempio di una transazione `Tx0`, un input di `372,000 sats` dal nostro conto **deposito** viene diviso in diversi UTXO di output, che sono distribuiti come segue:
 - Un importo di `5,000 sats` destinato al coordinatore per le commissioni di servizio, corrispondente all'ingresso nella pool di `100,000 sats`;
 - Tre UTXO preparati per il mixing, reindirizzati al nostro account **premix** e registrati presso il coordinatore. Questi UTXO sono uniformati a `108,000 sats` ciascuno, per coprire le commissioni di mining per il loro futuro mix iniziale;
-- L'eccedenza che non può entrare nella pool, essendo troppo piccola, è considerata cambio tossico. Viene inviata al suo account specifico. Qui, questo cambio ammonta a `40,000 sats`;
+- L'eccedenza che non può entrare nella pool, essendo troppo piccola, è considerata toxic change. Viene inviata al suo account specifico. Qui, questo cambio ammonta a `40,000 sats`;
 - Infine, ci sono `3,000 sats` che non costituiscono un output, ma sono le commissioni di mining necessarie per confermare la `Tx0`.
 
 Per esempio, ecco un vero Whirlpool Tx0 (non mio): [edef60744f539483d868caff49d4848e5cc6e805d6cdc8d0f9bdbbaedcb5fc46](https://mempool.space/it/tx/edef60744f539483d868caff49d4848e5cc6e805d6cdc8d0f9bdbbaedcb5fc46)
 
-**Fase 2: Il cambio tossico**
-L'eccedenza che non può essere integrata nella pool, in questo esempio equivalente a `40.000 sats`, viene reindirizzata al conto **bad bank**, anche definito "cambio tossico", per garantire una netta separazione dagli altri UTXO nel wallet.
+**Fase 2: Il doxxic change**
+L'eccedenza che non può essere integrata nella pool, in questo esempio equivalente a `40.000 sats`, viene reindirizzata al conto **bad bank**, anche definito "doxxic change", per garantire una netta separazione dagli altri UTXO nel wallet.
 Questo UTXO è pericoloso per la privacy dell'utente perché non solo è ancora legato al suo passato, e quindi possibilmente all'identità del suo proprietario, ma inoltre risulta chiaro per un osservatore esterno come appartenente ad un utente che ha eseguito un coinjoin.
-Se questo UTXO viene unito con output mixati, questi perderanno tutta la riservatezza ottenuta durante i cicli di coinjoin, in particolare a causa della Common-Input-Ownership-Heuristic (CIOH). Se viene unito con altri cambi tossici, l'utente rischia di perdere la riservatezza poiché ciò collegherà i diversi input dei cicli di coinjoin. Pertanto, deve essere gestito con cautela. Il modo di gestire questo UTXO tossico sarà spiegato nell'ultima parte di questo articolo, e futuri tutorial copriranno questi metodi più approfonditamente su Plan ₿ Academy.
+Se questo UTXO viene unito con output mixati, questi perderanno tutta la riservatezza ottenuta durante i cicli di coinjoin, in particolare a causa della Common-Input-Ownership-Heuristic (CIOH). Se viene unito con altri doxxic changes, l'utente rischia di perdere la riservatezza poiché ciò collegherà i diversi input dei cicli di coinjoin. Pertanto, deve essere gestito con cautela. Il modo di gestire questo toxic UTXO sarà spiegato nell'ultima parte di questo articolo, e futuri tutorial copriranno questi metodi più approfonditamente su Plan ₿ Academy.
 
 **Passo 3: Il Mix Iniziale**
 Dopo che la `Tx0` è completata, gli UTXO uniformati vengono inviati al conto **premix** del nostro wallet, pronti per essere introdotti nel loro primo ciclo di coinjoin, chiamato anche "mix iniziale". Se, come nel nostro esempio, il `Tx0` genera diversi UTXO destinati al mixing, ognuno di essi sarà integrato in un coinjoin iniziale separato.
@@ -253,13 +253,13 @@ Nella stessa finestra, hai l'opzione di scegliere la pool in cui entrerai. Dato 
 Potrai quindi vedere tutti i dettagli del tuo ciclo di coinjoin:
 - il numero di UTXO che entreranno nella pool;
 - le varie commissioni sostenute;
-- l'importo del cambio tossico...
+- l'importo del doxxic change...
 
 Verifica le informazioni, poi clicca sul pulsante verde `START CYCLE`.
 
 ![samourai](assets/notext/29.webp)
 
-Apparirà una finestra per offrirti di segnare il cambio "tossico" risultante dal tuo ingresso nel ciclo di coinjoin come "non spendibile". Selezionando `SÌ`, questo UTXO non sarà visibile nel tuo wallet e non potrà essere selezionato per future transazioni. Tuttavia, rimarrà accessibile nell'elenco degli UTXO nel tuo wallet, dove potrai manualmente cambiarne lo stato. Si raccomanda di optare per questa opzione per evitare qualsiasi errore di gestione che potrebbe compromettere la tua privacy in seguito. Se scegli `NO`, il cambio tossico rimarrà disponibile per l'uso nel tuo wallet. Se vuoi saperne di più sulla gestione e sull'uso di questo cambio tossico, ti consiglio di leggere l'ultima parte di questo tutorial.
+Apparirà una finestra per offrirti di segnare il toxic change risultante dal tuo ingresso nel ciclo di coinjoin come "non spendibile". Selezionando `SÌ`, questo UTXO non sarà visibile nel tuo wallet e non potrà essere selezionato per future transazioni. Tuttavia, rimarrà accessibile nell'elenco degli UTXO nel tuo wallet, dove potrai manualmente cambiarne lo stato. Si raccomanda di optare per questa opzione per evitare qualsiasi errore di gestione che potrebbe compromettere la tua privacy in seguito. Se scegli `NO`, il toxic change rimarrà disponibile per l'uso nel tuo wallet. Se vuoi saperne di più sulla gestione e sull'uso di questo toxic change, ti consiglio di leggere l'ultima parte di questo tutorial.
 
 ![samourai](assets/notext/30.webp)
 
@@ -359,13 +359,13 @@ Come per qualsiasi transazione Bitcoin, è anche appropriato non riutilizzare gl
 
 La soluzione più semplice e sicura è lasciare riposare gli UTXO mixati nel loro conto **postmix**, permettendo loro di remixarsi, muovendoli solo per spendere. I wallet Samourai e Sparrow hanno protezioni aggiuntive contro tutti questi rischi legati alla chain analysis. Queste protezioni ti aiutano a evitare di commettere errori.
 
-## Come gestire il cambio tossico?
-Successivamente, devi essere attento nella gestione del cambio tossico, il cambio che non è potuto entrare nella pool di coinjoin. Questi UTXO tossici, risultanti dall'uso di Whirlpool, rappresentano un rischio per la tua privacy poiché stabiliscono un collegamento tra te e l'uso del coinjoin. È quindi imperativo gestirli con cautela e non combinarli con altri UTXO, specialmente UTXO già mixati. Ecco diverse strategie da considerare per il loro utilizzo:
-- **Miscelali in pool più piccole:** Se il tuo UTXO tossico è abbastanza grande da entrare da solo in una pool più piccola, considera di mixarlo. Questa è spesso la migliore opzione. Tuttavia, è cruciale non fondere diversi UTXO tossici per accedere ad una pool, poiché ciò potrebbe collegare le tue diverse entrate.
-- **Segnali come "non spendibili":** Un altro approccio è smettere di usarli, segnarli come "non spendibili" nel loro conto dedicato e semplicemente Hodl. Questo assicura che non li spendi accidentalmente. Se il valore del bitcoin aumenta, potrebbero emergere nuove pool più adatte ai tuoi UTXO tossici;
-- **Fai donazioni:** Considera di fare donazioni, anche modeste, a sviluppatori che lavorano su Bitcoin e il suo software associato. Puoi anche donare ad organizzazioni che accettano BTC. Se gestire i tuoi UTXO tossici sembra troppo complicato, puoi semplicemente liberartene facendo una donazione;
-- **Acquista carte regalo:** Piattaforme come [Bitrefill](https://www.bitrefill.com/) ti permettono di scambiare bitcoin con carte regalo utilizzabili presso vari commercianti. Questo può essere un modo per liberarti dei tuoi UTXO tossici senza perdere il valore associato;
-- **Consolidali su Monero:** Samourai Wallet offre ora un servizio di atomic swap tra BTC e XMR. Questo è ideale per gestire gli UTXO tossici consolidandoli su Monero, senza compromettere la tua privacy tramite KYC, prima di rimandarli a Bitcoin. Tuttavia, questa opzione può essere costosa in termini di commissioni di mining e del premio dovuto ai vincoli di liquidità;
+## Come gestire il doxxic change?
+Successivamente, devi essere attento nella gestione del doxxic change, il cambio che non è potuto entrare nella pool di coinjoin. Questi toxic UTXO, risultanti dall'uso di Whirlpool, rappresentano un rischio per la tua privacy poiché stabiliscono un collegamento tra te e l'uso del coinjoin. È doveroso gestirli con cautela e non combinarli con altri UTXO, specialmente UTXO già mixati. Ecco diverse strategie da considerare per il loro utilizzo:
+- **Mixali in pool più piccole:** Se il tuo toxic UTXO è abbastanza grande da entrare da solo in una pool più piccola, considera di mixarlo. Questa è spesso la migliore opzione. Tuttavia, è cruciale non fondere diversi toxic UTXO per accedere ad una pool, poiché ciò potrebbe collegare le tue diverse entrate.
+- **Segnali come "non spendibili":** Un altro approccio è smettere di usarli, segnarli come "non spendibili" nel loro conto dedicato e semplicemente Hodl. Questo assicura che non li spendi accidentalmente. Se il valore del bitcoin aumenta, potrebbero emergere nuove pool più adatte ai tuoi toxic UTXO;
+- **Fai donazioni:** Considera di fare donazioni, anche modeste, a sviluppatori che lavorano su Bitcoin e il suo software associato. Puoi anche donare ad organizzazioni che accettano BTC. Se gestire i tuoi toxic UTXO sembra troppo complicato, puoi semplicemente liberartene facendo una donazione;
+- **Acquista carte regalo:** Piattaforme come [Bitrefill](https://www.bitrefill.com/) ti permettono di scambiare bitcoin con carte regalo utilizzabili presso vari commercianti. Questo può essere un modo per liberarti dei tuoi toxic UTXO senza perdere il valore associato;
+- **Consolidali su Monero:** Samourai Wallet offre ora un servizio di atomic swap tra BTC e XMR. Questo è ideale per gestire i toxic UTXO consolidandoli su Monero, senza compromettere la tua privacy tramite KYC, prima di rimandarli a Bitcoin. Tuttavia, questa opzione può essere costosa in termini di commissioni di mining e del premio dovuto ai vincoli di liquidità;
 - **Inviali su Lightning Network:** Trasferire questi UTXO su Lightning Network per beneficiare di commissioni di transazione ridotte è un'opzione che può essere interessante. Tuttavia, questo metodo potrebbe rivelare certe informazioni a seconda del tuo uso di Lightning e dovrebbe quindi essere praticato con cautela.
 
 Tutorial dettagliati sull'implementazione di queste diverse tecniche saranno presto offerti su Plan ₿ Academy.

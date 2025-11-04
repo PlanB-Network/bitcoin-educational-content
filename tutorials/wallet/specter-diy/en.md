@@ -14,7 +14,7 @@ description: Setup guide for Specter DIY
 The idea of the project is to build a hardware wallet from off-the-shelf components.
 Even though we have an extension board that puts everything in a nice form-factor and helps you to avoid any soldering, we will continue supporting and maintaining compatibility with standard components.
 
-01
+![image](assets/fr/01.webp)
 
 We also want to keep the project flexible such that it can work on any other set of components with minimal changes. Maybe you want to make a hardware wallet on a different architecture (RISC-V?), with an audio modem as a communication channel - you should be able to do it. It should be easy to add or change functionality of Specter and we try to abstract logical modules as much as we can.
 
@@ -91,7 +91,7 @@ The wallet firmware will configure the scanner for you on the first run, so no m
 
 Here is how you connect the scanner to the board:
 
-02
+![image](assets/fr/02.webp)
 
 For convenience you can buy an Arduino Protype shield and solder & mount everything on it (i.e. [this one](https://www.digikey.com/catalog/en/partgroup/proto-shield-rev3-uno-size/79347))
 

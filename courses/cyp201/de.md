@@ -1945,15 +1945,15 @@ Wenn ein Benutzer Bitcoins erhält, erstellt der Sender ein Ausgabe-UTXO und spe
 
 Genau im *scriptPubKey* befinden sich die Empfangsadressen. Ihre Verwendung variiert jedoch je nach dem angenommenen Skriptstandard. Hier ist eine Zusammenfassungstabelle der Informationen, die im *scriptPubKey* enthalten sind, entsprechend dem verwendeten Standard, sowie der Informationen, die im *scriptSig* erwartet werden, um das *scriptPubKey* freizuschalten.
 
-| Standard           | *scriptPubKey*                                              | *scriptSig*                     | *Erlösungsskript*  | *Zeuge*                                  |
+| Standard           | *scriptPubKey*                                              | *scriptSig*                     | *Erlösungsskript*  | *Witness*                                  |
 | ------------------ | ----------------------------------------------------------- | ------------------------------- | ------------------- | ---------------------------------------- |
 | P2PK               | `<pubkey> OP_CHECKSIG`                                      | `<Signatur>`                    |                     |                                          |
 | P2PKH              | `OP_DUP OP_HASH160 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG` | `<Signatur> <öffentlicher Schlüssel>` |                     |                                          |
 | P2SH               | `OP_HASH160 <scriptHash> OP_EQUAL`                          | `<Datenübertragungen> <Erlösungsskript>` | Beliebige Daten     |                                          |
 | P2WPKH             | `0 <pubKeyHash>`                                            |                                 |                     | `<Signatur> <öffentlicher Schlüssel>`    |
-| P2WSH              | `0 <witnessScriptHash>`                                     |                                 |                     | `<Datenübertragungen> <Zeugenskript>`    |
+| P2WSH              | `0 <witnessScriptHash>`                                     |                                 |                     | `<Datenübertragungen> <Witnessskript>`    |
 | P2SH-P2WPKH        | `OP_HASH160 <ErlösungsskriptHash> OP_EQUAL`                 | `<Erlösungsskript>`             | `0 <pubKeyHash>`    | `<Signatur> <öffentlicher Schlüssel>`    |
-| P2SH-P2WSH         | `OP_HASH160 <ErlösungsskriptHash> OP_EQUAL`                 | `<Erlösungsskript>`             | `0 <scriptHash>`    | `<Datenübertragungen> <Zeugenskript>`    |
+| P2SH-P2WSH         | `OP_HASH160 <ErlösungsskriptHash> OP_EQUAL`                 | `<Erlösungsskript>`             | `0 <scriptHash>`    | `<Datenübertragungen> <Witnessskript>`    |
 | P2TR (Schlüsselpfad)    | `1 <öffentlicher Schlüssel>`                               |                                 |                     | `<Signatur>`                             |
 | P2TR (Skriptpfad) | `1 <öffentlicher Schlüssel>`                               |                                 |                     | `<Datenübertragungen> <Skript> <Kontrollblock>` |
 
